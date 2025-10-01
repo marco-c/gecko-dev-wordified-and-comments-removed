@@ -2728,6 +2728,9 @@ enum
 :
 [
 "
+searchbar
+"
+"
 urlbar
 -
 handoff

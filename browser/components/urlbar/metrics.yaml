@@ -208,8 +208,9 @@ are
 urlbar
 handoff
 urlbar_newtab
-and
 urlbar_addonpage
+and
+searchbar
 .
 type
 :
@@ -1139,8 +1140,9 @@ are
 urlbar
 handoff
 urlbar_newtab
-and
 urlbar_addonpage
+and
+searchbar
 .
 type
 :
@@ -1959,8 +1961,9 @@ are
 urlbar
 handoff
 urlbar_newtab
-and
 urlbar_addonpage
+and
+searchbar
 .
 type
 :
@@ -2596,8 +2599,9 @@ are
 urlbar
 handoff
 urlbar_newtab
-and
 urlbar_addonpage
+and
+searchbar
 .
 type
 :
