@@ -1492,11 +1492,21 @@ append
 entry
 )
                     
-task_fetches
-[
+key
+=
+dep_task
+.
+kind
+if
+unique_kinds
+else
 dep_task
 .
 label
+                    
+task_fetches
+[
+key
 ]
 =
 fetches_from_dep
