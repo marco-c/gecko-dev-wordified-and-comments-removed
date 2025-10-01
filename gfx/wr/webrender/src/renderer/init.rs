@@ -825,6 +825,10 @@ pub
 enable_debugger
 :
 bool
+pub
+precise_gradients
+:
+bool
 }
 impl
 WebRenderOptions
@@ -1056,6 +1060,9 @@ max_shared_surface_size
 enable_debugger
 :
 true
+precise_gradients
+:
+false
 }
 }
 }
@@ -2241,6 +2248,11 @@ enable_dithering
 options
 .
 enable_dithering
+precise_gradients
+:
+options
+.
+precise_gradients
 }
 ;
 info
