@@ -4178,7 +4178,7 @@ id
 ]
 )
 ;
-let
+const
 config
 =
 SETTINGS_CONFIG
