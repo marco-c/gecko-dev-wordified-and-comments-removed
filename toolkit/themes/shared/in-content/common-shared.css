@@ -1543,11 +1543,11 @@ var
 (
 -
 -
-button
--
 border
 -
 radius
+-
+small
 )
 ;
 background
@@ -3970,7 +3970,7 @@ border
 -
 radius
 -
-medium
+small
 )
 ;
 color
