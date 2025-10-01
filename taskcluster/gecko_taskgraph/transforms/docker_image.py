@@ -113,7 +113,7 @@ mozillareleases
 /
 image_builder
 :
-5
+6
 .
 0
 .
@@ -126,7 +126,7 @@ sha256
 "
     
 "
-e510a9a9b80385f71c112d61b2f2053da625aff2b6d430411ac42e424c58953f
+734c03809c83c716c1460ed3e00519d79b14d117343d3c556cbd9218a2e7f094
 "
 )
 transforms
@@ -1147,32 +1147,6 @@ IMAGE_BUILDER_IMAGE
 }
 "
 )
-            
-worker
-[
-"
-artifacts
-"
-]
-[
-0
-]
-[
-"
-path
-"
-]
-=
-"
-/
-workspace
-/
-image
-.
-tar
-.
-zst
-"
         
 else
 :
