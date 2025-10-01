@@ -3,10 +3,6 @@ include_rules
 [
 "
 +
-vpx
-"
-"
-+
 call
 "
 "
@@ -46,6 +42,12 @@ h
 video
 /
 config
+"
+"
++
+third_party
+/
+libvpx
 "
 ]
 specific_include_rules
