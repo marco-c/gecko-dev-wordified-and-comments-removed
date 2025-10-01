@@ -285,7 +285,7 @@ dev
 -
 dependencies
 ]
-serde_test
+serde_json
 =
 "
 1

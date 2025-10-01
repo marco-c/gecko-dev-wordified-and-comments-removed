@@ -234,9 +234,7 @@ serde_json
 thiserror
 =
 "
-1
-.
-0
+2
 "
 url
 =
@@ -260,6 +258,15 @@ support
 /
 error
 "
+features
+=
+[
+"
+tracing
+-
+logging
+"
+]
 [
 dependencies
 .

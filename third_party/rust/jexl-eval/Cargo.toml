@@ -114,7 +114,7 @@ version
 "
 0
 .
-3
+4
 .
 0
 "
@@ -159,6 +159,9 @@ com
 "
 ]
 build
+=
+false
+autolib
 =
 false
 autobins
@@ -252,7 +255,7 @@ version
 ^
 0
 .
-3
+4
 .
 0
 "

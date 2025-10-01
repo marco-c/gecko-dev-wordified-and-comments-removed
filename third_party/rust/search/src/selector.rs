@@ -11105,7 +11105,7 @@ init_for_tests
 viaduct_dev
 :
 :
-use_dev_backend
+init_backend_dev
 (
 )
 ;

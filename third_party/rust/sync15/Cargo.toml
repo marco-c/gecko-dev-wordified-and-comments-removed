@@ -316,9 +316,7 @@ serde_path_to_error
 thiserror
 =
 "
-1
-.
-0
+2
 "
 [
 dependencies
