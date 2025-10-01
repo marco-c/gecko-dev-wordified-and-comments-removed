@@ -16646,6 +16646,11 @@ sctp
 fake_sctp_transport
 "
 "
+scenario_tests
+:
+pc_scenario_tests
+"
+"
 /
 /
 third_party
