@@ -15464,9 +15464,7 @@ self
 document_state_dependencies
 }
 ;
-rule
-.
-selector
+s
 .
 visit
 (
