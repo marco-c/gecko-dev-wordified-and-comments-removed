@@ -413,11 +413,11 @@ setExpanded
 override
 .
 setExpanded
-initiallyExpanded
+getInitiallyExpanded
 :
 override
 .
-initiallyExpanded
+getInitiallyExpanded
 queueActorsForCleanup
 :
 override
