@@ -74,7 +74,12 @@ char
 caller
 ;
 size_t
-pages
+pages_dirty
+=
+0
+;
+size_t
+pages_total
 =
 0
 ;
