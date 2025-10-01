@@ -1487,6 +1487,12 @@ about
 settings
 *
 "
+"
+about
+:
+welcome
+*
+"
 ]
 enablePreference
 :
