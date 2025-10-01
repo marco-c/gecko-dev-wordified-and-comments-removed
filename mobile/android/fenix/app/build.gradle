@@ -7659,6 +7659,14 @@ androidx
 .
 test
 .
+core
+testImplementation
+libs
+.
+androidx
+.
+test
+.
 junit
 testImplementation
 libs
