@@ -197,7 +197,7 @@ trimStart
 let
 searchMode
 =
-UrlbarUtils
+gURLBar
 .
 searchModeForToken
 (

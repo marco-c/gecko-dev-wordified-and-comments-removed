@@ -291,7 +291,7 @@ RESULT_TYPE
 .
 RESTRICT
 ?
-UrlbarUtils
+gURLBar
 .
 searchModeForToken
 (
@@ -438,7 +438,7 @@ RESTRICT
 {
 searchMode
 =
-UrlbarUtils
+gURLBar
 .
 searchModeForToken
 (

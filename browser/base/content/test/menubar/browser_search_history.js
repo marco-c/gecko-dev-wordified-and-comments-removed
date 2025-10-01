@@ -254,7 +254,9 @@ targetWin
 let
 searchMode
 =
-UrlbarUtils
+targetWin
+.
+gURLBar
 .
 searchModeForToken
 (

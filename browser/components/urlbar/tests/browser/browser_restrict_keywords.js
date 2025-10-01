@@ -402,7 +402,9 @@ searchPromise
 let
 searchMode
 =
-UrlbarUtils
+window
+.
+gURLBar
 .
 searchModeForToken
 (

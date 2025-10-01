@@ -325,7 +325,7 @@ keywordToToken
 let
 searchMode
 =
-UrlbarUtils
+gURLBar
 .
 searchModeForToken
 (
