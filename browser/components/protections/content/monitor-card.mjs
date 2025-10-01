@@ -523,7 +523,6 @@ breaches
 link
 "
 :
-{
 const
 knownBreaches
 =
@@ -618,7 +617,6 @@ known_unresolved_breaches
 }
 break
 ;
-}
 case
 "
 monitor
@@ -630,7 +628,6 @@ passwords
 link
 "
 :
-{
 const
 exposedPasswords
 =
@@ -729,7 +726,6 @@ exposed_passwords_unresolved_breaches
 }
 break
 ;
-}
 }
 }
 /

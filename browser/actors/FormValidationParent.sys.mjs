@@ -421,7 +421,6 @@ FormValidation
 ShowPopup
 "
 :
-{
 let
 browser
 =
@@ -575,7 +574,6 @@ data
 ;
 break
 ;
-}
 case
 "
 FormValidation

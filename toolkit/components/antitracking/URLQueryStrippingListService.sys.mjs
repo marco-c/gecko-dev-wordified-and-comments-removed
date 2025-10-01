@@ -2673,7 +2673,6 @@ nsPref
 changed
 "
 :
-{
 let
 prefValue
 =
@@ -2698,7 +2697,6 @@ prefValue
 ;
 break
 ;
-}
 default
 :
 console

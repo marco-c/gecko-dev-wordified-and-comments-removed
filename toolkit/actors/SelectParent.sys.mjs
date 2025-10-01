@@ -2132,7 +2132,6 @@ case
 mouseup
 "
 :
-{
 function
 inRect
 (
@@ -2257,7 +2256,6 @@ onAnchor
 ;
 break
 ;
-}
 case
 "
 mouseover
@@ -2456,7 +2454,6 @@ case
 popuphidden
 "
 :
-{
 this
 .
 _actor
@@ -2545,7 +2542,6 @@ null
 ;
 break
 ;
-}
 }
 }
 receiveMessage

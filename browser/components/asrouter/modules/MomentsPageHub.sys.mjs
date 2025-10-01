@@ -475,7 +475,6 @@ moments
 wnp
 "
 :
-{
 const
 {
 url
@@ -596,7 +595,6 @@ id
 ;
 break
 ;
-}
 }
 }
 _recordReachEvent

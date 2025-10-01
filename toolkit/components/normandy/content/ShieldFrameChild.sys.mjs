@@ -387,7 +387,6 @@ GetRemoteValue
 AddonStudyList
 "
 :
-{
 let
 addonStudies
 =
@@ -417,7 +416,6 @@ addonStudies
 ;
 break
 ;
-}
 case
 "
 GetRemoteValue
@@ -425,7 +423,6 @@ GetRemoteValue
 PreferenceStudyList
 "
 :
-{
 let
 prefStudies
 =
@@ -455,7 +452,6 @@ prefStudies
 ;
 break
 ;
-}
 case
 "
 GetRemoteValue
@@ -463,7 +459,6 @@ GetRemoteValue
 MessagingSystemList
 "
 :
-{
 let
 experiments
 =
@@ -493,7 +488,6 @@ experiments
 ;
 break
 ;
-}
 case
 "
 RemoveAddonStudy
@@ -570,7 +564,6 @@ GetRemoteValue
 StudiesEnabled
 "
 :
-{
 let
 studiesEnabled
 =
@@ -600,7 +593,6 @@ studiesEnabled
 ;
 break
 ;
-}
 case
 "
 NavigateToDataPreferences
@@ -666,7 +658,6 @@ GetRemoteValue
 ShieldTranslations
 "
 :
-{
 const
 strings
 =
@@ -745,13 +736,11 @@ strings
 ;
 break
 ;
-}
 case
 "
 ExperimentOptIn
 "
 :
-{
 const
 message
 =
@@ -786,7 +775,6 @@ message
 ;
 break
 ;
-}
 }
 }
 receiveMessage

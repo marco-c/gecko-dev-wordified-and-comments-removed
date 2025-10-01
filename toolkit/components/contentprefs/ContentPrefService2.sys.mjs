@@ -7029,7 +7029,6 @@ test
 reset
 "
 :
-{
 let
 fn
 =
@@ -7055,7 +7054,6 @@ fn
 ;
 break
 ;
-}
 case
 "
 test
@@ -7063,7 +7061,6 @@ test
 db
 "
 :
-{
 let
 obj
 =
@@ -7090,7 +7087,6 @@ conn
 ;
 break
 ;
-}
 }
 }
 /

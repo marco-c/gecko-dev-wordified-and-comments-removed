@@ -181,7 +181,6 @@ type
 case
 kRegMultiSz
 :
-{
 let
 str
 =
@@ -211,7 +210,6 @@ v
 v
 )
 ;
-}
 case
 Ci
 .

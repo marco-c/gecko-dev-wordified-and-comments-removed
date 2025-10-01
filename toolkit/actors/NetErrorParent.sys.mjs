@@ -1502,7 +1502,6 @@ Browser
 ResetSSLPreferences
 "
 :
-{
 let
 prefSSLImpact
 =
@@ -1565,7 +1564,6 @@ reload
 ;
 break
 ;
-}
 case
 "
 Browser
@@ -1589,7 +1587,6 @@ case
 GetChangedCertPrefs
 "
 :
-{
 let
 hasChangedCertPrefs
 =
@@ -1613,7 +1610,6 @@ hasChangedCertPrefs
 ;
 break
 ;
-}
 case
 "
 DisplayOfflineSupportPage
@@ -1772,7 +1768,6 @@ Browser
 AddTRRExcludedDomain
 "
 :
-{
 let
 domain
 =
@@ -1829,13 +1824,11 @@ excludedDomains
 ;
 break
 ;
-}
 case
 "
 OpenTRRPreferences
 "
 :
-{
 let
 browser
 =
@@ -1876,7 +1869,6 @@ doh
 ;
 break
 ;
-}
 }
 }
 }

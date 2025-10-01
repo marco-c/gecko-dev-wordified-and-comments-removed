@@ -1590,7 +1590,6 @@ break
 case
 TOPIC_DEVICELIST_UPDATED
 :
-{
 this
 .
 logger
@@ -1680,7 +1679,6 @@ startWaitingForNewDeviceTabs
 }
 break
 ;
-}
 case
 FXA_DEVICE_CONNECTED
 :

@@ -103,7 +103,6 @@ case
 modifyLogin
 "
 :
-{
 Assert
 .
 ok
@@ -183,7 +182,6 @@ newLogin
 ;
 break
 ;
-}
 case
 "
 removeLogin

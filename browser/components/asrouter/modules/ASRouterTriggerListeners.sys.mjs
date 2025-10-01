@@ -3850,7 +3850,6 @@ SiteProtection
 ContentBlockingEvent
 "
 :
-{
 const
 {
 browser
@@ -3921,7 +3920,6 @@ _sessionPageLoad
 }
 break
 ;
-}
 case
 "
 SiteProtection
@@ -4187,7 +4185,6 @@ login
 success
 "
 :
-{
 const
 browser
 =
@@ -4287,7 +4284,6 @@ id
 }
 break
 ;
-}
 }
 }
 uninit
@@ -4432,7 +4428,6 @@ nsPref
 changed
 "
 :
-{
 const
 browser
 =
@@ -4487,7 +4482,6 @@ aData
 }
 break
 ;
-}
 }
 }
 uninit
@@ -6313,7 +6307,6 @@ case
 idle
 "
 :
-{
 const
 now
 =
@@ -6398,7 +6391,6 @@ idleTime
 }
 break
 ;
-}
 case
 "
 active

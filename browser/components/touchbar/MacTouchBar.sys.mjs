@@ -2491,7 +2491,6 @@ location
 change
 "
 :
-{
 let
 updatedInputs
 =
@@ -2624,7 +2623,6 @@ updatedInputs
 ;
 break
 ;
-}
 case
 "
 fullscreen

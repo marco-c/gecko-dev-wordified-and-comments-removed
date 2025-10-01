@@ -2224,7 +2224,6 @@ case
 FetchContentBlockingEvents
 "
 :
-{
 let
 dataToSend
 =
@@ -2562,7 +2561,6 @@ sumEvents
 return
 dataToSend
 ;
-}
 case
 "
 FetchMonitorData
@@ -2603,13 +2601,18 @@ case
 GetShowProxyCard
 "
 :
-return
+let
+card
+=
 await
 this
 .
 shouldShowProxyCard
 (
 )
+;
+return
+card
 ;
 case
 "

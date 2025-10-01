@@ -186,7 +186,6 @@ case
 asyncMul
 "
 :
-{
 let
 {
 a
@@ -206,7 +205,6 @@ a
 b
 }
 ;
-}
 case
 "
 event

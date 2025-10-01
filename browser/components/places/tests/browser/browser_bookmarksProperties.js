@@ -551,7 +551,6 @@ case
 popupshown
 "
 :
-{
 tagsField
 .
 popup
@@ -656,7 +655,6 @@ window
 ;
 break
 ;
-}
 default
 :
 Assert
@@ -1244,7 +1242,6 @@ case
 popupshown
 "
 :
-{
 tagsField
 .
 popup
@@ -1349,7 +1346,6 @@ window
 ;
 break
 ;
-}
 default
 :
 Assert
