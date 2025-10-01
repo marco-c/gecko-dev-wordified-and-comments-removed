@@ -852,9 +852,6 @@ platforms
 =
 (
 "
-linux
-"
-"
 linux64
 -
 aarch64
@@ -1319,16 +1316,6 @@ x86_64
 "
         
 "
-linux
-"
-:
-"
-linux
--
-i686
-"
-        
-"
 linux64
 -
 aarch64
@@ -1388,18 +1375,6 @@ devedition
 linux
 -
 aarch64
-"
-        
-"
-linux
--
-devedition
-"
-:
-"
-linux
--
-i686
 "
         
 "

@@ -102,16 +102,6 @@ PARTNER_PLATFORMS_TO_BOUNCER
 {
     
 "
-linux
--
-shippable
-"
-:
-"
-linux
-"
-    
-"
 linux64
 -
 shippable

@@ -108,12 +108,6 @@ build
 platforms
 :
 -
-linux
--
-shippable
-/
-opt
--
 linux64
 -
 shippable
@@ -161,12 +155,6 @@ asan
 reporter
 -
 shippable
-/
-opt
--
-linux
--
-devedition
 /
 opt
 -

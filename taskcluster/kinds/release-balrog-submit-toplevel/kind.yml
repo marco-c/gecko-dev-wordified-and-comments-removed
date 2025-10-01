@@ -503,9 +503,6 @@ platforms
 :
 [
 "
-linux
-"
-"
 linux64
 "
 "
@@ -647,9 +644,6 @@ cdntest
 platforms
 :
 [
-"
-linux
-"
 "
 linux64
 "

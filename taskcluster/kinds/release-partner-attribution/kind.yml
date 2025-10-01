@@ -142,7 +142,7 @@ attributes
 :
 build_platform
 :
-linux
+linux64
 -
 shippable
 build_type

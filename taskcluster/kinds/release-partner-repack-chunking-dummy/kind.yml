@@ -110,12 +110,6 @@ build
 platforms
 :
 -
-linux
--
-shippable
-/
-opt
--
 linux64
 -
 shippable

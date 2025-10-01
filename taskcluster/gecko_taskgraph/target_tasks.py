@@ -927,10 +927,6 @@ in
 (
         
 "
-linux
-"
-        
-"
 linux64
 "
         
@@ -5677,11 +5673,6 @@ make_desktop_nightly_filter
 {
 "
 linux64
--
-shippable
-"
-"
-linux
 -
 shippable
 "

@@ -122,12 +122,6 @@ build
 platforms
 :
 -
-linux
--
-shippable
-/
-opt
--
 linux64
 -
 shippable
@@ -183,12 +177,6 @@ opt
 win64
 -
 nightlyasrelease
-/
-opt
--
-linux
--
-devedition
 /
 opt
 -

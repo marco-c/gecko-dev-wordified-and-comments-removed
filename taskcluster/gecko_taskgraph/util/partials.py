@@ -327,18 +327,6 @@ mac
 "
     
 "
-Linux_x86
--
-gcc3
-"
-:
-"
-linux
--
-i686
-"
-    
-"
 Linux_x86_64
 -
 gcc3
