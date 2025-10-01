@@ -549,6 +549,21 @@ wsx
 stub
 "
 ]
+            
+"
+extensions
+-
+dir
+"
+:
+config
+[
+"
+extensions
+-
+dir
+"
+]
         
 }
         

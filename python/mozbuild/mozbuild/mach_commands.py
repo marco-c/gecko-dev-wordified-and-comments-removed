@@ -15190,6 +15190,34 @@ etc
 .
 "
 )
+CommandArgument
+(
+    
+"
+-
+-
+extensions
+-
+dir
+"
+    
+type
+=
+str
+    
+required
+=
+True
+    
+help
+=
+"
+Path
+to
+extensions
+.
+"
+)
 def
 repackage_deb_l10n
 (
@@ -15209,6 +15237,8 @@ build_number
 templates
     
 product
+    
+extensions_dir
 )
 :
     
@@ -15294,6 +15324,8 @@ version
 build_number
         
 product
+        
+extensions_dir
     
 )
 SubCommand

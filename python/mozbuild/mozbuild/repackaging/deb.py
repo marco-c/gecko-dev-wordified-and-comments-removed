@@ -634,6 +634,8 @@ version
 build_number
     
 product
+    
+extensions_dir
 )
 :
     
@@ -681,15 +683,7 @@ mozpath
 join
 (
 source_dir
-"
-firefox
-"
-"
-distribution
-"
-"
-extensions
-"
+extensions_dir
 )
         
 application_ini_data
