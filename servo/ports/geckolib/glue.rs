@@ -39124,7 +39124,7 @@ data
 .
 stylist
 .
-get_animation
+lookup_keyframes
 (
 &
 name
