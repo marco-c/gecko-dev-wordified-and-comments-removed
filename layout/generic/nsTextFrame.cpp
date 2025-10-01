@@ -21909,11 +21909,9 @@ ShouldApplySpacing
 (
 prevClass
 .
-valueOr
+valueOrFrom
 (
 findPrecedingClass
-(
-)
 )
 currClass
 )
