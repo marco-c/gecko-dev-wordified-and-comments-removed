@@ -1,7 +1,4 @@
 #
-define
-_USE_MATH_DEFINES
-#
 include
 "
 common_audio
@@ -19,6 +16,11 @@ cmath
 include
 <
 complex
+>
+#
+include
+<
+cstddef
 >
 #
 include
