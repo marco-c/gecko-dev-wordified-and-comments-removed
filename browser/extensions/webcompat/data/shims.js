@@ -3418,6 +3418,16 @@ katu
 .
 com
 "
+"
+kfoxtv
+.
+com
+"
+"
+thenationaldesk
+.
+com
+"
 ]
 matches
 :
