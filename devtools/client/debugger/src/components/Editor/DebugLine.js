@@ -95,7 +95,7 @@ import
 {
 getVisibleSelectedFrame
 getPauseReason
-getSourceTextContentForLocation
+getSourceTextContent
 getCurrentThread
 getViewport
 getSelectedTraceLocation
@@ -690,7 +690,7 @@ return
 const
 sourceTextContent
 =
-getSourceTextContentForLocation
+getSourceTextContent
 (
 state
 location
