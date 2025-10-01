@@ -338,9 +338,6 @@ class
 NetEqImpl
 :
 public
-webrtc
-:
-:
 NetEq
 {
 public
