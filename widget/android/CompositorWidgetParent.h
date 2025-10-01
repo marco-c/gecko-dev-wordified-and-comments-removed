@@ -48,6 +48,11 @@ AndroidCompositorWidget
 {
 public
 :
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+CompositorWidgetParent
+CompositorWidget
+)
 explicit
 CompositorWidgetParent
 (
@@ -63,12 +68,6 @@ CompositorOptions
 &
 aOptions
 )
-;
-~
-CompositorWidgetParent
-(
-)
-override
 ;
 nsIWidget
 *
@@ -114,6 +113,12 @@ override
 ;
 private
 :
+~
+CompositorWidgetParent
+(
+)
+override
+;
 void
 OnCompositorSurfaceChanged
 (
