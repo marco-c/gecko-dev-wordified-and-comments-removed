@@ -92,6 +92,13 @@ metrics
 into
 (
 )
+"
+health
+"
+.
+into
+(
+)
 ]
 lifetime
 :

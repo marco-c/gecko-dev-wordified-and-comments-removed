@@ -527,6 +527,14 @@ build
 (
 )
 ;
+glean_core
+:
+:
+glean_set_test_mode
+(
+true
+)
+;
 common
 :
 :
