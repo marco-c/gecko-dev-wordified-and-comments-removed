@@ -2502,7 +2502,7 @@ LOG
 (
 (
 "
-nsHttpCompresssConv
+nsHttpCompressConv
 %
 p
 brotlihandler
