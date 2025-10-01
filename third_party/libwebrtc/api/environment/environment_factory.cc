@@ -166,9 +166,6 @@ value
 scoped_refptr
 <
 const
-webrtc
-:
-:
 RefCountedBase
 >
 &
