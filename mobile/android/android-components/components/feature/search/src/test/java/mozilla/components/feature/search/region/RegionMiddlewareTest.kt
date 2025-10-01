@@ -965,6 +965,11 @@ FR
 France
 "
 )
+regionManager
+.
+update
+(
+)
 val
 store
 =
