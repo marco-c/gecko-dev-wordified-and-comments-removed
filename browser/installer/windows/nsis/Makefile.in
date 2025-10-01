@@ -91,6 +91,10 @@ control_utils
 .
 nsh
 \
+postupdate_helper
+.
+nsh
+\
 defines
 .
 nsi
