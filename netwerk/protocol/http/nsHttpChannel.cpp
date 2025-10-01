@@ -2273,6 +2273,8 @@ HttpChannelParent
 >
 &
 aHttpChannelParent
+uint32_t
+aHttpStatus
 )
 {
 nsCOMPtr
@@ -2367,6 +2369,20 @@ if
 (
 !
 cookieServiceParent
+)
+{
+return
+;
+}
+if
+(
+nsHttpChannel
+:
+:
+IsRedirectStatus
+(
+aHttpStatus
+)
 )
 {
 return
@@ -6429,6 +6445,7 @@ this
 cookieProcessingGuard
 cookieObserver
 httpParent
+statusCode
 )
 ;
 CookieVisitor
@@ -14674,6 +14691,7 @@ this
 cookieProcessingGuard
 cookieObserver
 httpParent
+httpStatus
 )
 ;
 }
