@@ -61,11 +61,13 @@ a
 rule
 rather
 than
-an
-environment
+a
+list
+of
+globals
 as
 it
-allowed
+allows
 us
 to
 automatically
