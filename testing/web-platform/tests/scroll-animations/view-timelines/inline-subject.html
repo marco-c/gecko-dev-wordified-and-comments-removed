@@ -317,6 +317,14 @@ rgb
 '
 )
 ;
+await
+runAndWaitForFrameUpdate
+(
+(
+)
+=
+>
+{
 scroller
 .
 scrollTop
@@ -329,9 +337,7 @@ scroller
 .
 clientHeight
 ;
-await
-waitForNextFrame
-(
+}
 )
 ;
 assert_equals
