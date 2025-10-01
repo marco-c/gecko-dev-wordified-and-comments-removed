@@ -5829,7 +5829,6 @@ ErrorResult
 aError
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 GetInnerWidth
 (
@@ -5839,7 +5838,6 @@ aWidth
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 GetInnerHeight
 (
@@ -5851,7 +5849,6 @@ override
 ;
 public
 :
-MOZ_CAN_RUN_SCRIPT
 double
 GetInnerWidth
 (
@@ -5863,7 +5860,6 @@ ErrorResult
 aError
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 double
 GetInnerHeight
 (
