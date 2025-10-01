@@ -1987,7 +1987,16 @@ nullptr
 uri
 uri
 principal
-false
+mozilla
+:
+:
+dom
+:
+:
+LoadedAsData
+:
+:
+No
 nullptr
 DocumentFlavor
 :
