@@ -563,7 +563,7 @@ querySelectorAll
 .
 urlbarView
 -
-market
+realtime
 -
 item
 "
@@ -596,7 +596,7 @@ values
 0
 ]
 ;
-assertUI
+assertItemUI
 (
 items
 [
@@ -945,7 +945,7 @@ querySelectorAll
 .
 urlbarView
 -
-market
+realtime
 -
 item
 "
@@ -1016,7 +1016,7 @@ values
 i
 ]
 ;
-assertUI
+assertItemUI
 (
 items
 [
@@ -1335,7 +1335,7 @@ querySelectorAll
 .
 urlbarView
 -
-market
+realtime
 -
 item
 "
@@ -1466,7 +1466,7 @@ handleRevert
 )
 ;
 function
-assertUI
+assertItemUI
 (
 item
 expected
@@ -1507,7 +1507,7 @@ querySelector
 .
 urlbarView
 -
-market
+realtime
 -
 image
 -
@@ -1553,7 +1553,7 @@ querySelector
 .
 urlbarView
 -
-market
+realtime
 -
 image
 "
