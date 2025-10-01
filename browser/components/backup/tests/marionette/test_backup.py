@@ -43,7 +43,17 @@ marionette
 .
 enforce_gecko_prefs
 (
+            
 {
+"
+browser
+.
+backup
+.
+enabled
+"
+:
+True
 "
 browser
 .
@@ -54,6 +64,7 @@ log
 :
 True
 }
+        
 )
         
 self

@@ -3762,6 +3762,16 @@ False
 "
 browser
 .
+backup
+.
+enabled
+"
+:
+False
+        
+"
+browser
+.
 contentblocking
 .
 introCount
