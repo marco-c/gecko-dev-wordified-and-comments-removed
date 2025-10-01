@@ -102,14 +102,6 @@ config
 GoogCcConfig
 goog_cc_config
 ;
-goog_cc_config
-.
-feedback_only
-=
-factory_config_
-.
-feedback_only
-;
 if
 (
 factory_config_
