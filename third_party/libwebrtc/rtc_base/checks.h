@@ -227,15 +227,6 @@ rtc_export
 h
 "
 #
-include
-"
-rtc_base
-/
-type_traits
-.
-h
-"
-#
 define
 RTC_CHECKS_IN_WEBRTC_NAMESPACE
 1
