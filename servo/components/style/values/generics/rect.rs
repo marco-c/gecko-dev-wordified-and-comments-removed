@@ -57,6 +57,7 @@ ToAnimatedZero
 ToComputedValue
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #

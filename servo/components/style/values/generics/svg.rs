@@ -97,6 +97,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -427,6 +428,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -481,6 +483,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -557,6 +560,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #

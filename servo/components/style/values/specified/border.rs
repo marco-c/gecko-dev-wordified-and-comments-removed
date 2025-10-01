@@ -209,6 +209,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -372,6 +373,7 @@ PartialEq
 SpecifiedValueInfo
 ToCss
 ToShmem
+ToTyped
 )
 ]
 pub
@@ -738,6 +740,7 @@ PartialEq
 SpecifiedValueInfo
 ToCss
 ToShmem
+ToTyped
 )
 ]
 pub
@@ -1571,6 +1574,7 @@ SpecifiedValueInfo
 ToComputedValue
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #

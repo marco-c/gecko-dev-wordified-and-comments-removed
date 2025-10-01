@@ -350,6 +350,7 @@ ToAnimatedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -982,6 +983,7 @@ ToAnimatedZero
 ToComputedValue
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 pub
@@ -1236,6 +1238,7 @@ ToAnimatedValue
 ToCss
 ToShmem
 Parse
+ToTyped
 )
 ]
 #

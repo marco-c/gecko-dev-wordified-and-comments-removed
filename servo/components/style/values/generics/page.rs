@@ -429,6 +429,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -514,6 +515,7 @@ PartialEq
 SpecifiedValueInfo
 ToCss
 ToShmem
+ToTyped
 )
 ]
 #

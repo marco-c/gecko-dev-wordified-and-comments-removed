@@ -611,6 +611,7 @@ Debug
 MallocSizeOf
 PartialEq
 ToShmem
+ToTyped
 )
 ]
 pub
@@ -4415,6 +4416,7 @@ PartialEq
 SpecifiedValueInfo
 ToCss
 ToShmem
+ToTyped
 )
 ]
 pub
@@ -4776,6 +4778,7 @@ SpecifiedValueInfo
 ToComputedValue
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -5355,6 +5358,7 @@ ToCss
 ToComputedValue
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -5386,6 +5390,7 @@ ToCss
 ToComputedValue
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #

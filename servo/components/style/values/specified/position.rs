@@ -2212,6 +2212,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -2476,6 +2477,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -2763,6 +2765,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -3391,6 +3394,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -3663,6 +3667,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -3745,6 +3750,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -5051,6 +5057,7 @@ SpecifiedValueInfo
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -5928,6 +5935,7 @@ SpecifiedValueInfo
 ToComputedValue
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -6292,6 +6300,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -8106,6 +8115,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 pub

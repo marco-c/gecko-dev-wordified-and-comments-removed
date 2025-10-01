@@ -8574,6 +8574,7 @@ ToCss
 ToComputedValue
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #

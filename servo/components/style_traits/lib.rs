@@ -261,6 +261,8 @@ OneOrMoreSeparated
 Separator
 Space
 ToCss
+ToTyped
+TypedValue
 }
 ;
 pub

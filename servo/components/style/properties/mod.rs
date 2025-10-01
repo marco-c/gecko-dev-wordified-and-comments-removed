@@ -792,6 +792,7 @@ PartialEq
 ToCss
 ToShmem
 MallocSizeOf
+ToTyped
 )
 ]
 pub
@@ -822,6 +823,7 @@ PartialEq
 ToCss
 ToShmem
 MallocSizeOf
+ToTyped
 )
 ]
 pub
@@ -908,6 +910,7 @@ PartialEq
 ToCss
 ToShmem
 MallocSizeOf
+ToTyped
 )
 ]
 pub
