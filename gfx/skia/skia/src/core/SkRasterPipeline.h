@@ -160,6 +160,13 @@ SK_CPU_PPC
 )
 &
 &
+!
+defined
+(
+__sparc
+)
+&
+&
 \
 !
 (
