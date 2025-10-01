@@ -11949,6 +11949,17 @@ manifest
 .
 json
 #
+Contains
+pref
+files
+.
+mobile
+/
+ios
+/
+app
+/
+#
 Pre
 -
 processed

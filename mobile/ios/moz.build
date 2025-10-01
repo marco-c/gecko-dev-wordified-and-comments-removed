@@ -46,4 +46,7 @@ DIRS
 /
 shared
 "
+"
+app
+"
 ]
