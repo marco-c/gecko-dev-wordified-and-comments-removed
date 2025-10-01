@@ -7,6 +7,7 @@ clippy
 :
 :
 new_without_default
+mismatched_lifetime_syntaxes
 )
 ]
 #

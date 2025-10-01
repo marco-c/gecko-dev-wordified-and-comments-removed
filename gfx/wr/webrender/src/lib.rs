@@ -15,6 +15,7 @@ clippy
 :
 :
 too_many_arguments
+mismatched_lifetime_syntaxes
 )
 ]
 macro_rules
@@ -380,7 +381,7 @@ euclid
 ;
 extern
 crate
-fxhash
+rustc_hash
 ;
 extern
 crate

@@ -43,6 +43,7 @@ clippy
 :
 :
 manual_range_contains
+mismatched_lifetime_syntaxes
 )
 ]
 pub
