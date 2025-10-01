@@ -129,8 +129,6 @@ expected
 "
 video
 /
-x
--
 matroska
 "
 }
