@@ -354,10 +354,11 @@ property
 {
 boolean
 }
-isSignedIn
+isSignedOut
 *
 True
 if
+not
 signed
 in
 to
@@ -680,6 +681,9 @@ this
 state
 =
 {
+isSignedOut
+:
+!
 isSignedIn
 isProtectionEnabled
 protectionEnabledSince
@@ -2029,9 +2033,9 @@ this
 setState
 (
 {
-isSignedIn
+isSignedOut
 :
-true
+false
 }
 )
 ;
@@ -2056,9 +2060,9 @@ this
 setState
 (
 {
-isSignedIn
+isSignedOut
 :
-false
+true
 }
 )
 ;
