@@ -1272,12 +1272,6 @@ emptyList
 )
 }
 }
-Suppress
-(
-"
-ComplexMethod
-"
-)
 private
 fun
 createMultipleSuggestions

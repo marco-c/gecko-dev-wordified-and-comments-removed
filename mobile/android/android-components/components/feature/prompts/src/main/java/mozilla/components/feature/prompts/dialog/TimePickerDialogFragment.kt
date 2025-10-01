@@ -613,12 +613,6 @@ KEY_SELECTED_DATE
 value
 )
 }
-Suppress
-(
-"
-ComplexMethod
-"
-)
 override
 fun
 onCreateDialog

@@ -435,12 +435,6 @@ needed
 .
 *
 /
-Suppress
-(
-"
-ComplexMethod
-"
-)
 class
 DownloadMiddleware
 (

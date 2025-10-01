@@ -516,9 +516,6 @@ Suppress
 "
 LongMethod
 "
-"
-ComplexMethod
-"
 )
 override
 fun

@@ -271,12 +271,6 @@ BrowserState
 BrowserAction
 >
 {
-Suppress
-(
-"
-ComplexMethod
-"
-)
 override
 fun
 invoke

@@ -1042,9 +1042,6 @@ webView
 Suppress
 (
 "
-ComplexMethod
-"
-"
 NestedBlockDepth
 "
 )
@@ -2291,12 +2288,6 @@ cancel
 }
 }
 }
-Suppress
-(
-"
-ComplexMethod
-"
-)
 private
 fun
 createWebChromeClient

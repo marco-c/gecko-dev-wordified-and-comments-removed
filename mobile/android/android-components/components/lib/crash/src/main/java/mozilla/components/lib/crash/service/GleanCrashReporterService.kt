@@ -3419,12 +3419,6 @@ processed
 .
 *
 /
-Suppress
-(
-"
-ComplexMethod
-"
-)
 VisibleForTesting
 (
 otherwise

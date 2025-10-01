@@ -2191,12 +2191,6 @@ VisibleForTesting
 .
 PRIVATE
 )
-Suppress
-(
-"
-ComplexMethod
-"
-)
 internal
 fun
 createListWithSections

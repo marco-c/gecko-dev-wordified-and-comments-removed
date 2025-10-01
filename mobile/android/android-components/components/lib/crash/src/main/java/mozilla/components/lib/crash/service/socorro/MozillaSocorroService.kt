@@ -1409,9 +1409,6 @@ Suppress
 "
 LongParameterList
 "
-"
-ComplexMethod
-"
 )
 private
 fun

@@ -404,12 +404,6 @@ String
 >
 =
 customActions
-SuppressWarnings
-(
-"
-ComplexMethod
-"
-)
 override
 fun
 isActionAvailable

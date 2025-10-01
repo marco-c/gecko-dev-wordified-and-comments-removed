@@ -707,9 +707,6 @@ Suppress
 "
 ReturnCount
 "
-"
-ComplexMethod
-"
 )
 fun
 matches
@@ -1461,9 +1458,6 @@ Suppress
 (
 "
 ThrowsCount
-"
-"
-ComplexMethod
 "
 "
 NestedBlockDepth

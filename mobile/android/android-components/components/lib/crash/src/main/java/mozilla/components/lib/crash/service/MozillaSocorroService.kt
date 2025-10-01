@@ -1657,9 +1657,6 @@ LongParameterList
 "
 LongMethod
 "
-"
-ComplexMethod
-"
 )
 private
 fun

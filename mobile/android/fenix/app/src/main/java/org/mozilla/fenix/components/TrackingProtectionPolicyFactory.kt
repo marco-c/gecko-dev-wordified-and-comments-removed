@@ -240,12 +240,6 @@ preferences
 .
 *
 /
-Suppress
-(
-"
-ComplexMethod
-"
-)
 fun
 createTrackingProtectionPolicy
 (

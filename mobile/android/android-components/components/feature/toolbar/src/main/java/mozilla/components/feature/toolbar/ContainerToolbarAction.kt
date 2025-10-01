@@ -429,12 +429,6 @@ container
 )
 )
 }
-Suppress
-(
-"
-ComplexMethod
-"
-)
 internal
 fun
 getIcon

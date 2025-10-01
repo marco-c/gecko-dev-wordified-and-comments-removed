@@ -319,12 +319,6 @@ and
 layout
 *
 /
-Suppress
-(
-"
-ComplexMethod
-"
-)
 VisibleForTesting
 (
 otherwise

@@ -877,9 +877,6 @@ event
 Suppress
 (
 "
-ComplexMethod
-"
-"
 ReturnCount
 "
 )

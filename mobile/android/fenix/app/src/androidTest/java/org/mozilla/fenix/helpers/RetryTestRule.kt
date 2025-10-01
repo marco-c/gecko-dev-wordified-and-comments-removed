@@ -266,9 +266,6 @@ Suppress
 "
 TooGenericExceptionCaught
 "
-"
-ComplexMethod
-"
 )
 override
 fun

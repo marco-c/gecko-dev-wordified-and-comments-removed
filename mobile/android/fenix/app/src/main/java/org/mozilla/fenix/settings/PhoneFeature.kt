@@ -367,12 +367,6 @@ asIterable
 )
 )
 }
-Suppress
-(
-"
-ComplexMethod
-"
-)
 fun
 getActionLabel
 (

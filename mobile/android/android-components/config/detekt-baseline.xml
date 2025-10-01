@@ -1629,9 +1629,6 @@ Suppress
 "
 MagicNumber
 "
-"
-ComplexMethod
-"
 )
 <
 /
@@ -1848,9 +1845,6 @@ Suppress
 "
 LongParameterList
 "
-"
-ComplexMethod
-"
 )
 <
 /
@@ -1872,9 +1866,6 @@ LongParameterList
 "
 "
 LongMethod
-"
-"
-ComplexMethod
 "
 )
 <
@@ -9075,12 +9066,6 @@ GeckoEngineSession
 .
 kt
 GeckoEngineSession
-Suppress
-(
-"
-ComplexMethod
-"
-)
 fun
 handleLongClick
 (

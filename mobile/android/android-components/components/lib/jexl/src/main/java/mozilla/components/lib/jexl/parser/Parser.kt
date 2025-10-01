@@ -428,9 +428,6 @@ it
 Suppress
 (
 "
-ComplexMethod
-"
-"
 ThrowsCount
 "
 )

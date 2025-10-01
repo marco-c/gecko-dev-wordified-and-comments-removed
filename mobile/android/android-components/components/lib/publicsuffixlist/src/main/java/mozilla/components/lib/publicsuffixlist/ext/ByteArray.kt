@@ -157,9 +157,6 @@ java
 Suppress
 (
 "
-ComplexMethod
-"
-"
 NestedBlockDepth
 "
 )

@@ -1459,9 +1459,6 @@ LongMethod
 "
 LongParameterList
 "
-"
-ComplexMethod
-"
 )
 Composable
 fun

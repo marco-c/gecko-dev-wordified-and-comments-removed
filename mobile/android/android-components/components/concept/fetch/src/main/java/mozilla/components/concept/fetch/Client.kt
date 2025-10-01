@@ -436,9 +436,6 @@ body
 Suppress
 (
 "
-ComplexMethod
-"
-"
 TooGenericExceptionCaught
 "
 )

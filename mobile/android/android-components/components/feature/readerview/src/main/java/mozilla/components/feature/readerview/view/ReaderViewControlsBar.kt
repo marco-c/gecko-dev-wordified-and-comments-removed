@@ -752,12 +752,6 @@ direction
 previouslyFocusedRect
 )
 }
-Suppress
-(
-"
-ComplexMethod
-"
-)
 private
 fun
 bindViews

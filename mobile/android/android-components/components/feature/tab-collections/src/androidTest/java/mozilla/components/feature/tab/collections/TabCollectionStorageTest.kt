@@ -1494,12 +1494,6 @@ title
 }
 }
 Test
-Suppress
-(
-"
-ComplexMethod
-"
-)
 fun
 testGettingCollections
 (
@@ -2055,12 +2049,6 @@ title
 }
 }
 Test
-Suppress
-(
-"
-ComplexMethod
-"
-)
 fun
 testGettingCollectionsList
 (

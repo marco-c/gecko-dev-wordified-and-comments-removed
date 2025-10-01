@@ -89,14 +89,6 @@ kotlinx
 .
 coroutines
 .
-flow
-.
-collect
-import
-kotlinx
-.
-coroutines
-.
 launch
 import
 mozilla
@@ -298,12 +290,6 @@ BrowserState
 BrowserAction
 >
 {
-Suppress
-(
-"
-ComplexMethod
-"
-)
 override
 fun
 invoke

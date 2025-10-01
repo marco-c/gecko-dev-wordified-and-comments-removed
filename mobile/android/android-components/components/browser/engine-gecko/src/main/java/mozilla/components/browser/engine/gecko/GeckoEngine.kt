@@ -9085,12 +9085,6 @@ it
 lnaBlockingEnabled
 }
 }
-Suppress
-(
-"
-ComplexMethod
-"
-)
 internal
 fun
 ContentBlockingController

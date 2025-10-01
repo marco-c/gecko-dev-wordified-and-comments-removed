@@ -438,9 +438,6 @@ Suppress
 "
 MagicNumber
 "
-"
-ComplexMethod
-"
 )
 private
 fun

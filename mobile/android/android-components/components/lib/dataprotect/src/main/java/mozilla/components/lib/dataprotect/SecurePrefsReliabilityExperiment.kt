@@ -130,12 +130,6 @@ base
 facts
 .
 collect
-import
-java
-.
-lang
-.
-Exception
 /
 *
 *
@@ -515,9 +509,6 @@ Suppress
 (
 "
 TooGenericExceptionCaught
-"
-"
-ComplexMethod
 "
 )
 operator

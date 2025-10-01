@@ -5774,9 +5774,6 @@ Suppress
 "
 TooGenericExceptionCaught
 "
-"
-ComplexMethod
-"
 )
 private
 fun

@@ -292,9 +292,6 @@ false
 Suppress
 (
 "
-ComplexMethod
-"
-"
 ReturnCount
 "
 )

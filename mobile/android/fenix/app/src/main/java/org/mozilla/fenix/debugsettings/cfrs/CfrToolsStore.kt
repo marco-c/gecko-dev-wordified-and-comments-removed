@@ -721,12 +721,6 @@ internal
 object
 CfrToolsReducer
 {
-Suppress
-(
-"
-ComplexMethod
-"
-)
 fun
 reduce
 (

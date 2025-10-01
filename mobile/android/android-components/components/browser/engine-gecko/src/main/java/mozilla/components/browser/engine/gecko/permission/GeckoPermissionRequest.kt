@@ -1545,9 +1545,6 @@ name
 Suppress
 (
 "
-ComplexMethod
-"
-"
 SwitchIntDef
 "
 )

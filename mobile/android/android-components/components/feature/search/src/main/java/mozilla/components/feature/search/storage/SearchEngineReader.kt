@@ -842,12 +842,6 @@ IOException
 :
 class
 )
-Suppress
-(
-"
-ComplexMethod
-"
-)
 private
 fun
 readSearchPlugin

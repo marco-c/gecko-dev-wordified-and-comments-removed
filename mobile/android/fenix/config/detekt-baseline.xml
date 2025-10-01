@@ -979,9 +979,6 @@ Suppress
 "
 LongMethod
 "
-"
-ComplexMethod
-"
 )
 <
 /
@@ -1237,9 +1234,6 @@ Suppress
 "
 LongMethod
 "
-"
-ComplexMethod
-"
 )
 <
 /
@@ -1321,9 +1315,6 @@ Suppress
 (
 "
 LongMethod
-"
-"
-ComplexMethod
 "
 )
 <
@@ -2598,9 +2589,6 @@ LongMethod
 "
 "
 LongParameterList
-"
-"
-ComplexMethod
 "
 )
 <
@@ -13143,12 +13131,6 @@ PhoneFeature
 .
 kt
 PhoneFeature
-Suppress
-(
-"
-ComplexMethod
-"
-)
 fun
 getActionLabel
 (

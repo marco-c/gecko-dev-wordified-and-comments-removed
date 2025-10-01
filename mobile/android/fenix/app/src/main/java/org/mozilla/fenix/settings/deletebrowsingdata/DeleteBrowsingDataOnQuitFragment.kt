@@ -229,12 +229,6 @@ delete_browsing_data_quit_preferences
 rootKey
 )
 }
-Suppress
-(
-"
-ComplexMethod
-"
-)
 override
 fun
 onResume

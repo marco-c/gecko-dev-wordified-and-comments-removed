@@ -400,9 +400,6 @@ Suppress
 "
 BracesOnIfStatements
 "
-"
-ComplexMethod
-"
 )
 override
 fun

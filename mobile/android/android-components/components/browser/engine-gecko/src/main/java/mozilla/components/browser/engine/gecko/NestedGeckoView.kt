@@ -354,12 +354,6 @@ isNestedScrollingEnabled
 =
 true
 }
-Suppress
-(
-"
-ComplexMethod
-"
-)
 SuppressLint
 (
 "

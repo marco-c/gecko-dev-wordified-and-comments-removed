@@ -1207,12 +1207,6 @@ issuers
 .
 *
 /
-Suppress
-(
-"
-ComplexMethod
-"
-)
 fun
 getCreditCardIIN
 (

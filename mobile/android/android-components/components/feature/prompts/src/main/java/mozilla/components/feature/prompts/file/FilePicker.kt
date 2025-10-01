@@ -647,12 +647,6 @@ request
 .
 *
 /
-Suppress
-(
-"
-ComplexMethod
-"
-)
 fun
 handleFileRequest
 (

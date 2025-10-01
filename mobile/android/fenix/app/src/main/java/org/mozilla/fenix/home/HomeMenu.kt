@@ -709,12 +709,6 @@ accountState
 )
 }
 }
-Suppress
-(
-"
-ComplexMethod
-"
-)
 private
 fun
 coreMenuItems

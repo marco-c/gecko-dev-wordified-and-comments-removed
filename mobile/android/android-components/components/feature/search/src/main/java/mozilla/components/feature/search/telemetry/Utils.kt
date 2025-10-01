@@ -168,9 +168,6 @@ Suppress
 "
 NestedBlockDepth
 "
-"
-ComplexMethod
-"
 )
 internal
 fun
@@ -646,6 +643,17 @@ forEach
 followOnCookie
 -
 >
+if
+(
+followOnCookie
+.
+extraCodeParamName
+!
+=
+"
+"
+)
+{
 val
 eCode
 =
@@ -690,6 +698,7 @@ prefix
 {
 return
 forEach
+}
 }
 /
 /

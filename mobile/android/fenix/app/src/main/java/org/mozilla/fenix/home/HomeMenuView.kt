@@ -770,9 +770,6 @@ Suppress
 "
 LongMethod
 "
-"
-ComplexMethod
-"
 )
 VisibleForTesting
 (
