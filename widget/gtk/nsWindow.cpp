@@ -17266,6 +17266,15 @@ Size
 -
 roundedClientRect
 ;
+mClientMargin
+.
+EnsureAtLeast
+(
+LayoutDeviceIntMargin
+(
+)
+)
+;
 }
 else
 {
