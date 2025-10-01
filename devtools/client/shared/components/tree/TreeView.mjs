@@ -2480,6 +2480,7 @@ case
 ArrowDown
 "
 :
+{
 const
 nextRow
 =
@@ -2512,11 +2513,13 @@ bottom
 }
 break
 ;
+}
 case
 "
 ArrowUp
 "
 :
+{
 const
 previousRow
 =
@@ -2549,11 +2552,13 @@ top
 }
 break
 ;
+}
 case
 "
 Home
 "
 :
+{
 const
 firstRow
 =
@@ -2584,11 +2589,13 @@ top
 }
 break
 ;
+}
 case
 "
 End
 "
 :
+{
 const
 lastRow
 =
@@ -2623,6 +2630,7 @@ bottom
 }
 break
 ;
+}
 case
 "
 Enter

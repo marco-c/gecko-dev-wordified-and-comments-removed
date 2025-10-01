@@ -750,6 +750,7 @@ postdata
 value
 "
 :
+{
 const
 {
 requestHeaders
@@ -834,6 +835,7 @@ newHeaders
 ;
 break
 ;
+}
 case
 "
 custom
@@ -843,6 +845,7 @@ query
 value
 "
 :
+{
 let
 customQueryValue
 =
@@ -992,6 +995,7 @@ url
 ;
 break
 ;
+}
 case
 "
 custom

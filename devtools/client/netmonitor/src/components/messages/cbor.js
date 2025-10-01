@@ -1064,6 +1064,7 @@ length
 case
 3
 :
+{
 const
 utf16data
 =
@@ -1120,9 +1121,11 @@ null
 utf16data
 )
 ;
+}
 case
 4
 :
+{
 let
 retArray
 ;
@@ -1196,9 +1199,11 @@ decodeItem
 return
 retArray
 ;
+}
 case
 5
 :
+{
 const
 retObject
 =
@@ -1253,6 +1258,7 @@ decodeItem
 return
 retObject
 ;
+}
 case
 6
 :

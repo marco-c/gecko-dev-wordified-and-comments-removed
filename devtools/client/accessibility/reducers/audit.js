@@ -167,6 +167,7 @@ type
 case
 FILTER_TOGGLE
 :
+{
 const
 {
 filter
@@ -349,9 +350,11 @@ state
 filters
 }
 ;
+}
 case
 AUDITING
 :
+{
 const
 {
 auditing
@@ -368,6 +371,7 @@ state
 auditing
 }
 ;
+}
 case
 AUDIT
 :
@@ -392,6 +396,7 @@ null
 case
 AUDIT_PROGRESS
 :
+{
 const
 {
 progress
@@ -408,6 +413,7 @@ state
 progress
 }
 ;
+}
 case
 SELECT
 :

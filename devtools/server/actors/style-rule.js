@@ -1620,6 +1620,7 @@ case
 CSSStyleRule
 "
 :
+{
 form
 .
 selectors
@@ -1718,9 +1719,11 @@ selectorWarnings
 }
 break
 ;
+}
 case
 ELEMENT_STYLE
 :
+{
 const
 doc
 =
@@ -1764,6 +1767,7 @@ style
 ;
 break
 ;
+}
 case
 PRES_HINTS
 :
@@ -4401,6 +4405,7 @@ case
 set
 "
 :
+{
 data
 .
 type
@@ -4550,6 +4555,7 @@ null
 }
 break
 ;
+}
 case
 "
 remove

@@ -2135,6 +2135,7 @@ case
 FullZoomChange
 "
 :
+{
 const
 {
 width
@@ -2157,6 +2158,7 @@ height
 ;
 break
 ;
+}
 case
 "
 TabClose

@@ -693,6 +693,7 @@ case
 colorPicker
 "
 :
+{
 const
 SwatchColorPickerTooltip
 =
@@ -734,11 +735,13 @@ inspector
 ;
 break
 ;
+}
 case
 "
 cubicBezier
 "
 :
+{
 const
 SwatchCubicBezierTooltip
 =
@@ -775,11 +778,13 @@ doc
 ;
 break
 ;
+}
 case
 "
 linearEaseFunction
 "
 :
+{
 const
 SwatchLinearEasingFunctionTooltip
 =
@@ -810,11 +815,13 @@ doc
 ;
 break
 ;
+}
 case
 "
 filterEditor
 "
 :
+{
 const
 SwatchFilterTooltip
 =
@@ -851,6 +858,7 @@ doc
 ;
 break
 ;
+}
 case
 "
 interactiveTooltip

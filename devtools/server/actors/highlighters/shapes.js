@@ -2313,6 +2313,7 @@ case
 mousemove
 "
 :
+{
 if
 (
 !
@@ -2512,6 +2513,7 @@ pageY
 }
 break
 ;
+}
 case
 "
 dblclick
@@ -16695,6 +16697,7 @@ case
 rem
 "
 :
+{
 const
 root
 =
@@ -16722,6 +16725,7 @@ fontSize
 ;
 break
 ;
+}
 case
 "
 vw

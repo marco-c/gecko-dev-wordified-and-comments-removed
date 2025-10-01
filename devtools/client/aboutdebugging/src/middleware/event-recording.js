@@ -1180,6 +1180,7 @@ break
 case
 TELEMETRY_RECORD
 :
+{
 const
 {
 method
@@ -1227,6 +1228,7 @@ property
 }
 break
 ;
+}
 case
 UPDATE_CONNECTION_PROMPT_SETTING_SUCCESS
 :

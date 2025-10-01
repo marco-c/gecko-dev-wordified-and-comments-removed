@@ -167,6 +167,7 @@ case
 start
 "
 :
+{
 const
 req
 =
@@ -198,6 +199,7 @@ version
 ;
 break
 ;
+}
 case
 "
 wait
@@ -205,6 +207,7 @@ wait
 version
 "
 :
+{
 const
 {
 length
@@ -287,6 +290,7 @@ false
 }
 break
 ;
+}
 default
 :
 dumpn
