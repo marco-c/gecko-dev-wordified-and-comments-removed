@@ -201,6 +201,17 @@ platform_thread
 .
 /
 rtc_base
+:
+platform_thread_types
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
 /
 system
 :

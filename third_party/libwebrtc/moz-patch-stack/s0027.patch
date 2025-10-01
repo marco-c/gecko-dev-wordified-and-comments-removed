@@ -6908,10 +6908,10 @@ BUILD
 .
 gn
 index
-b30cb0c6d4
+167bce9157
 .
 .
-b59f8b5b2c
+89203fbcb4
 100644
 -
 -
@@ -6938,10 +6938,10 @@ BUILD
 .
 gn
 -
-25
+26
 5
 +
-25
+26
 9
 rtc_library
 (
@@ -6959,7 +6959,7 @@ utility
 /
 rtc_base
 :
-platform_thread
+platform_thread_types
 "
 "
 .

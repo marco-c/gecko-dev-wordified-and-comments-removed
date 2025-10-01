@@ -23,7 +23,7 @@ h
 #
 include
 <
-pthread
+jni
 .
 h
 >
@@ -37,9 +37,7 @@ h
 #
 include
 <
-unistd
-.
-h
+cstdint
 >
 #
 include
@@ -55,7 +53,7 @@ include
 "
 rtc_base
 /
-platform_thread
+platform_thread_types
 .
 h
 "
