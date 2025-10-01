@@ -6877,9 +6877,6 @@ wFormatTag
 "
 <
 <
-webrtc
-:
-:
 ToHex
 (
 pWfxOut
@@ -7376,9 +7373,6 @@ wFormatTag
 "
 <
 <
-webrtc
-:
-:
 ToHex
 (
 Wfx
@@ -8107,9 +8101,6 @@ start
 }
 _mediaBuffer
 =
-webrtc
-:
-:
 make_ref_counted
 <
 MediaBufferImpl
@@ -8401,9 +8392,6 @@ wFormatTag
 "
 <
 <
-webrtc
-:
-:
 ToHex
 (
 pWfxIn
@@ -8953,9 +8941,6 @@ wFormatTag
 "
 <
 <
-webrtc
-:
-:
 ToHex
 (
 Wfx
@@ -10570,9 +10555,6 @@ return
 1
 ;
 }
-webrtc
-:
-:
 SetCurrentThreadName
 (
 "
@@ -11754,9 +11736,6 @@ _hMmTask
 =
 NULL
 ;
-webrtc
-:
-:
 SetCurrentThreadName
 (
 "
@@ -13370,9 +13349,6 @@ hr
 "
 <
 <
-webrtc
-:
-:
 ToHex
 (
 hr
@@ -13698,9 +13674,6 @@ RTC_DCHECK
 _dmo
 )
 ;
-webrtc
-:
-:
 scoped_refptr
 <
 IPropertyStore
@@ -15187,9 +15160,6 @@ szDeviceID
 )
 )
 ;
-webrtc
-:
-:
 scoped_refptr
 <
 IMMDevice
@@ -15440,9 +15410,6 @@ hr
 "
 <
 <
-webrtc
-:
-:
 ToHex
 (
 hr
@@ -15502,9 +15469,6 @@ hr
 "
 <
 <
-webrtc
-:
-:
 ToHex
 (
 hr
@@ -15558,9 +15522,6 @@ hr
 "
 <
 <
-webrtc
-:
-:
 ToHex
 (
 hr
@@ -15613,9 +15574,6 @@ hr
 "
 <
 <
-webrtc
-:
-:
 ToHex
 (
 hr
@@ -16333,9 +16291,6 @@ state
 "
 <
 <
-webrtc
-:
-:
 ToHex
 (
 dwState
@@ -16369,9 +16324,6 @@ state
 "
 <
 <
-webrtc
-:
-:
 ToHex
 (
 dwState
@@ -16403,9 +16355,6 @@ state
 "
 <
 <
-webrtc
-:
-:
 ToHex
 (
 dwState
@@ -16437,9 +16386,6 @@ state
 "
 <
 <
-webrtc
-:
-:
 ToHex
 (
 dwState
@@ -16519,9 +16465,6 @@ hwmask
 "
 <
 <
-webrtc
-:
-:
 ToHex
 (
 dwHwSupportMask
@@ -16553,9 +16496,6 @@ hwmask
 "
 <
 <
-webrtc
-:
-:
 ToHex
 (
 dwHwSupportMask
@@ -16587,9 +16527,6 @@ hwmask
 "
 <
 <
-webrtc
-:
-:
 ToHex
 (
 dwHwSupportMask

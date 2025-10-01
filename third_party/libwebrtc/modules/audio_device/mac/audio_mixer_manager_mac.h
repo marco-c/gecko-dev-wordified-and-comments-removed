@@ -312,9 +312,6 @@ static
 void
 logCAMsg
 (
-webrtc
-:
-:
 LoggingSeverity
 sev
 const
