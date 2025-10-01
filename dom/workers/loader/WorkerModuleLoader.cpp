@@ -1203,14 +1203,11 @@ if
 aRequest
 -
 >
-IsStaticImport
+IsTopLevel
 (
 )
 )
 {
-return
-;
-}
 AutoJSAPI
 jsapi
 ;
@@ -1291,6 +1288,7 @@ cx
 )
 )
 ;
+}
 }
 }
 bool
