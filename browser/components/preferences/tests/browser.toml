@@ -743,13 +743,6 @@ js
 ]
 [
 "
-browser_performance_content_process_limit
-.
-js
-"
-]
-[
-"
 browser_performance_e10srollout
 .
 js
