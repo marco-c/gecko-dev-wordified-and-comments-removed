@@ -821,6 +821,7 @@ violate
 policy
 "
 :
+{
 /
 /
 the
@@ -913,6 +914,7 @@ msg
 ;
 return
 ;
+}
 case
 "
 xfo
@@ -924,6 +926,7 @@ violate
 policy
 "
 :
+{
 let
 uriSpec
 =
@@ -988,6 +991,7 @@ msg
 ;
 return
 ;
+}
 default
 :
 this
@@ -5223,6 +5227,7 @@ case
 EnsureFocus
 "
 :
+{
 let
 bc
 =
@@ -5354,6 +5359,7 @@ blurSubframe
 return
 undefined
 ;
+}
 case
 "
 SpecialPowers
@@ -6340,6 +6346,7 @@ case
 has
 "
 :
+{
 let
 hasPerm
 =
@@ -6367,11 +6374,13 @@ nsIPermissionManager
 .
 ALLOW_ACTION
 ;
+}
 case
 "
 test
 "
 :
+{
 let
 testPerm
 =
@@ -6397,6 +6406,7 @@ msg
 .
 value
 ;
+}
 default
 :
 throw
@@ -6456,6 +6466,7 @@ case
 notify
 "
 :
+{
 let
 data
 =
@@ -6478,6 +6489,7 @@ data
 ;
 break
 ;
+}
 case
 "
 add

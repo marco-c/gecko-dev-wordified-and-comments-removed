@@ -211,6 +211,7 @@ break
 case
 REFERRER_ORIGIN
 :
+{
 let
 url
 =
@@ -231,6 +232,7 @@ origin
 ;
 break
 ;
+}
 case
 REFERRER_NONE
 :

@@ -157,6 +157,7 @@ LayoutDebug
 Call
 "
 :
+{
 let
 pid
 =
@@ -212,6 +213,7 @@ n
 ;
 break
 ;
+}
 default
 :
 throw

@@ -3938,6 +3938,7 @@ case
 frame
 "
 :
+{
 let
 frame
 =
@@ -3975,6 +3976,7 @@ frame
 ;
 break
 ;
+}
 default
 :
 ok
