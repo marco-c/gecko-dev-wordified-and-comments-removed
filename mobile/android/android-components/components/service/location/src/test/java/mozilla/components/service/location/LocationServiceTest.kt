@@ -77,15 +77,9 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
-UnconfinedTestDispatcher
+StandardTestDispatcher
 import
 kotlinx
 .
@@ -104,10 +98,6 @@ class
 LocationServiceTest
 {
 Test
-ExperimentalCoroutinesApi
-/
-/
-UnconfinedTestDispatcher
 fun
 dummy
 implementation
@@ -118,7 +108,7 @@ null
 {
 runTest
 (
-UnconfinedTestDispatcher
+StandardTestDispatcher
 (
 )
 )
