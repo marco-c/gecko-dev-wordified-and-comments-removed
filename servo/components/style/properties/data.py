@@ -6438,6 +6438,20 @@ color
 "
                 
 "
+content
+"
+                
+"
+direction
+"
+                
+"
+line
+-
+height
+"
+                
+"
 text
 -
 combine
@@ -6472,6 +6486,12 @@ style
 "
 text
 -
+shadow
+"
+                
+"
+text
+-
 transform
 "
                 
@@ -6479,20 +6499,6 @@ transform
 unicode
 -
 bidi
-"
-                
-"
-direction
-"
-                
-"
-content
-"
-                
-"
-line
--
-height
 "
                 
 "

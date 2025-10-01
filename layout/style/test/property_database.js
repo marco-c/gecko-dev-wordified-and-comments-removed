@@ -57441,6 +57441,9 @@ true
 applies_to_first_line
 :
 true
+applies_to_marker
+:
+true
 applies_to_placeholder
 :
 true
