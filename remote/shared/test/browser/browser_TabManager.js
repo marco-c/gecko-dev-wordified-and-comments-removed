@@ -222,9 +222,9 @@ TabManager
 addTab
 (
 {
-inBackground
+focus
 :
-false
+true
 }
 )
 ;
@@ -269,9 +269,9 @@ newTab1
 Tab
 added
 with
-inBackground
+focus
 :
-false
+true
 is
 selected
 "
@@ -285,9 +285,9 @@ TabManager
 addTab
 (
 {
-inBackground
+focus
 :
-true
+false
 }
 )
 ;
@@ -332,9 +332,9 @@ newTab1
 Tab
 added
 with
-inBackground
+focus
 :
-true
+false
 is
 not
 selected
@@ -392,7 +392,7 @@ Tab
 added
 with
 no
-inBackground
+focus
 parameter
 is
 not
@@ -400,7 +400,7 @@ selected
 (
 defaults
 to
-true
+false
 )
 "
 )
