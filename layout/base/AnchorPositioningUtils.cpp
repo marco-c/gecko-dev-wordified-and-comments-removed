@@ -3350,4 +3350,16 @@ return
 res
 ;
 }
+void
+DeleteAnchorPosReferenceData
+(
+AnchorPosReferenceData
+*
+aData
+)
+{
+delete
+aData
+;
+}
 }
