@@ -1403,7 +1403,6 @@ this
 .
 #
 pass
-?
 .
 shouldRotate
 (

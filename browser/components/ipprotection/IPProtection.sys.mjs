@@ -454,13 +454,6 @@ inited
 return
 ;
 }
-this
-.
-#
-inited
-=
-true
-;
 if
 (
 !
@@ -485,6 +478,13 @@ addListener
 (
 this
 )
+;
+this
+.
+#
+inited
+=
+true
 ;
 }
 /
