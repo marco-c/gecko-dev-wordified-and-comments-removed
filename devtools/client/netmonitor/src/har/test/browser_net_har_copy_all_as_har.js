@@ -1099,12 +1099,12 @@ log
 entries
 .
 length
-2
+3
 "
 There
 must
 be
-two
+three
 requests
 "
 )
