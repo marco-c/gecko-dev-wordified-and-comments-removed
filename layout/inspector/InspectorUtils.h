@@ -1013,7 +1013,7 @@ aContext
 mozilla
 :
 :
-ScreenIntCoord
+CSSCoord
 aOffset
 )
 ;
@@ -1029,7 +1029,7 @@ aContext
 mozilla
 :
 :
-ScreenIntCoord
+CSSCoord
 aHeight
 )
 ;
