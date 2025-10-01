@@ -189,10 +189,16 @@ xul
 nss3
 "
 "
+nssutil3
+"
+"
 gkcodecs
 "
 "
 lgpllibs
+"
+"
+mozinference
 "
 ]
 GMP_TEST_PLUGIN_DIRS
