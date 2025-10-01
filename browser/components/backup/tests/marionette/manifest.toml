@@ -41,6 +41,24 @@ if
 =
 [
 "
+os
+=
+=
+'
+linux
+'
+&
+&
+os_version
+=
+=
+'
+22
+.
+04
+'
+&
+&
 display
 =
 =
@@ -48,7 +66,6 @@ display
 wayland
 '
 "
-]
 #
 1924781
 :
@@ -56,3 +73,4 @@ Gnome
 keyring
 not
 unlocked
+]

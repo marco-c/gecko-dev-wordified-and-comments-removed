@@ -96,6 +96,24 @@ if
 =
 [
 "
+os
+=
+=
+'
+linux
+'
+&
+&
+os_version
+=
+=
+'
+22
+.
+04
+'
+&
+&
 display
 =
 =
@@ -103,7 +121,6 @@ display
 wayland
 '
 "
-]
 #
 Bug
 1923833
@@ -121,3 +138,4 @@ was
 minimized
 on
 Wayland
+]
