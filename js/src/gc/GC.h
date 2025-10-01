@@ -545,6 +545,15 @@ highFrequencyMode
 JSGC_HIGH_FREQUENCY_MODE
 false
 )
+\
+_
+(
+"
+storeBufferEntries
+"
+JSGC_STORE_BUFFER_ENTRIES
+true
+)
 extern
 bool
 GetGCParameterInfo
