@@ -17,15 +17,6 @@ idl
 C
 +
 +
-#
-include
-"
-mozilla
-/
-AlreadyAddRefed
-.
-h
-"
 namespace
 mozilla
 {

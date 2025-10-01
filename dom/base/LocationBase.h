@@ -7,15 +7,6 @@ mozilla_dom_LocationBase_h
 #
 include
 "
-mozilla
-/
-AlreadyAddRefed
-.
-h
-"
-#
-include
-"
 nsStringFwd
 .
 h
