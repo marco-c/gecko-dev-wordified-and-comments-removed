@@ -52519,7 +52519,7 @@ data
 .
 initial_value
 .
-to_css_nscstring
+to_css_cssstring
 (
 )
 ;
