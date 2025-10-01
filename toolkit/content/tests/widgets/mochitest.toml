@@ -982,6 +982,13 @@ Bug
 ]
 [
 "
+test_videocontrols_touch_events_on_controlBar_and_playButton
+.
+html
+"
+]
+[
+"
 test_videocontrols_video_direction
 .
 html
