@@ -154,6 +154,15 @@ Accessible
 aContainer
 )
 ;
+NSScreen
+*
+GetNSScreenForAcc
+(
+mozAccessible
+*
+aAcc
+)
+;
 }
 }
 }
