@@ -168,6 +168,19 @@ antitracking
 blockList
 ;
 const
+blockedOrigins
+=
+atOverrides
+?
+.
+blockedOrigins
+?
+?
+antitracking
+.
+blockedOrigins
+;
+const
 hasMixedActiveContentBlocked
 =
 atOverrides
@@ -428,6 +441,7 @@ additionalData
 addons
 applicationName
 blockList
+blockedOrigins
 buildId
 :
 snapshot

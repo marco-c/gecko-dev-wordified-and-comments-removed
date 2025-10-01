@@ -1396,6 +1396,7 @@ webcompatInfo
 const
 {
 blockList
+blockedOrigins
 isPrivateBrowsing
 hasMixedActiveContentBlocked
 hasMixedDisplayContentBlocked
@@ -1457,6 +1458,7 @@ additionalData
 addons
 applicationName
 blockList
+blockedOrigins
 buildId
 devicePixelRatio
 experiments
