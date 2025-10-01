@@ -274,13 +274,9 @@ third_party
 /
 libwebrtc
 /
-modules
+api
 /
-video_coding
-/
-timing
-/
-timestamp_extrapolator
+field_trials
 .
 cc
 "
@@ -1514,6 +1510,6 @@ True
 Library
 (
 "
-timestamp_extrapolator_gn
+field_trials_gn
 "
 )
