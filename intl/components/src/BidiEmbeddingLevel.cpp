@@ -14,15 +14,6 @@ include
 "
 mozilla
 /
-Casting
-.
-h
-"
-#
-include
-"
-mozilla
-/
 intl
 /
 ICU4CGlue
