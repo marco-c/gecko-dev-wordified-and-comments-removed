@@ -513,10 +513,9 @@ unlikely
 !
 unpacked_deltas
 .
-resize
+resize_dirty
 (
 num_deltas
-false
 )
 )
 )
@@ -837,6 +836,9 @@ return_trace
 false
 )
 ;
+optimize_scratch_t
+scratch
+;
 if
 (
 !
@@ -858,6 +860,7 @@ plan
 -
 >
 axes_triple_distances
+scratch
 )
 )
 return_trace

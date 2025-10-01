@@ -658,6 +658,17 @@ diagnostic
 warning
 "
 -
+Wpessimizing
+-
+move
+"
+#
+pragma
+GCC
+diagnostic
+warning
+"
+-
 Wundef
 "
 #

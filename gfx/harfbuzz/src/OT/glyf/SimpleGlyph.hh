@@ -1078,14 +1078,13 @@ unlikely
 !
 points
 .
-resize
+resize_dirty
 (
 points
 .
 length
 +
 num_points
-false
 )
 )
 )

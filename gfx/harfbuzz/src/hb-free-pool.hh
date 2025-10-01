@@ -1,9 +1,9 @@
 #
 ifndef
-HB_POOL_HH
+HB_FREE_POOL_HH
 #
 define
-HB_POOL_HH
+HB_FREE_POOL_HH
 #
 include
 "
@@ -21,9 +21,9 @@ ChunkLen
 32
 >
 struct
-hb_pool_t
+hb_free_pool_t
 {
-hb_pool_t
+hb_free_pool_t
 (
 )
 :
@@ -34,7 +34,7 @@ nullptr
 {
 }
 ~
-hb_pool_t
+hb_free_pool_t
 (
 )
 {

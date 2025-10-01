@@ -34,6 +34,8 @@ include
 "
 hb
 -
+free
+-
 pool
 .
 hh
@@ -4496,7 +4498,7 @@ l
 ;
 }
 }
-hb_pool_t
+hb_free_pool_t
 <
 object_t
 >
