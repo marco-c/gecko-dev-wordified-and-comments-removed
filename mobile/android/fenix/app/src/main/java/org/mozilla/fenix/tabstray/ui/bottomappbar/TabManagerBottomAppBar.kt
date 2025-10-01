@@ -739,6 +739,14 @@ IconButton
 onClick
 =
 {
+tabsTrayStore
+.
+dispatch
+(
+TabsTrayAction
+.
+ThreeDotMenuShown
+)
 showBottomAppBarMenu
 =
 true
