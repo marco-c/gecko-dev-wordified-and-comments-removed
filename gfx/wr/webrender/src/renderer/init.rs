@@ -1066,7 +1066,7 @@ enable_debugger
 true
 precise_radial_gradients
 :
-true
+false
 precise_conic_gradients
 :
 false
