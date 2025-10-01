@@ -191,7 +191,7 @@ Replace
 NavigationHistoryBehavior
 :
 :
-Push
+Auto
 )
 ;
 }
