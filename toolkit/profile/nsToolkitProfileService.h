@@ -346,6 +346,11 @@ nsIToolkitProfile
 aOldProfile
 )
 ;
+bool
+HasShowProfileSelector
+(
+)
+;
 void
 UpdateCurrentProfile
 (
