@@ -1528,6 +1528,17 @@ mozilla
 mMozDir
 )
 ;
+MkHomeSubdir
+(
+"
+.
+mozilla
+/
+firefox
+"
+mMozDir
+)
+;
 }
 nsCString
 mMozDir
@@ -2737,6 +2748,8 @@ mMockedHomeDir
 "
 /
 .
+config
+/
 mozilla
 /
 firefox
@@ -2824,6 +2837,8 @@ mMockedHomeDir
 "
 /
 .
+config
+/
 mozilla
 /
 firefox
@@ -2998,6 +3013,8 @@ mMockedHomeDir
 "
 /
 .
+config
+/
 mozilla
 /
 firefox
@@ -3085,6 +3102,8 @@ mMockedHomeDir
 "
 /
 .
+config
+/
 mozilla
 /
 firefox
@@ -3172,6 +3191,8 @@ mMockedHomeDir
 "
 /
 .
+xdgConfigDir
+/
 mozilla
 /
 firefox
@@ -4537,6 +4558,8 @@ mMockedHomeDir
 "
 /
 .
+config
+/
 mozilla
 /
 firefox
@@ -4629,6 +4652,8 @@ mMockedHomeDir
 "
 /
 .
+config
+/
 mozilla
 /
 firefox
@@ -4721,6 +4746,8 @@ mMockedHomeDir
 "
 /
 .
+xdgConfigDir
+/
 mozilla
 /
 firefox
@@ -5081,6 +5108,8 @@ mMockedHomeDir
 "
 /
 .
+config
+/
 mozilla
 "
 _ns
@@ -5170,6 +5199,8 @@ mMockedHomeDir
 "
 /
 .
+config
+/
 mozilla
 "
 _ns
@@ -5348,6 +5379,8 @@ mMockedHomeDir
 "
 /
 .
+config
+/
 mozilla
 "
 _ns
@@ -5437,6 +5470,8 @@ mMockedHomeDir
 "
 /
 .
+config
+/
 mozilla
 "
 _ns
@@ -5526,6 +5561,8 @@ mMockedHomeDir
 "
 /
 .
+xdgConfigDir
+/
 mozilla
 "
 _ns
@@ -5882,6 +5919,8 @@ mMockedHomeDir
 "
 /
 .
+config
+/
 mozilla
 "
 _ns
@@ -5971,6 +6010,8 @@ mMockedHomeDir
 "
 /
 .
+config
+/
 mozilla
 "
 _ns
@@ -6149,6 +6190,8 @@ mMockedHomeDir
 "
 /
 .
+config
+/
 mozilla
 "
 _ns
@@ -6238,6 +6281,8 @@ mMockedHomeDir
 "
 /
 .
+config
+/
 mozilla
 "
 _ns
@@ -6327,6 +6372,8 @@ mMockedHomeDir
 "
 /
 .
+xdgConfigDir
+/
 mozilla
 "
 _ns
