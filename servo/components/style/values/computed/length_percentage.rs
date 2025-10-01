@@ -504,6 +504,13 @@ casts
 true
 #
 [
+derive
+(
+ToTyped
+)
+]
+#
+[
 repr
 (
 transparent

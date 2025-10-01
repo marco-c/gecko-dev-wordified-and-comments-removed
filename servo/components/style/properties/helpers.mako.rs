@@ -883,6 +883,7 @@ PartialEq
 ToAnimatedValue
 ToResolvedValue
 ToCss
+ToTyped
 )
 ]
 %
@@ -993,6 +994,7 @@ Debug
 MallocSizeOf
 PartialEq
 ToCss
+ToTyped
 )
 ]
 %

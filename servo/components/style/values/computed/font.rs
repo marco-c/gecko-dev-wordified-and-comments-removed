@@ -723,6 +723,7 @@ MallocSizeOf
 PartialEq
 PartialOrd
 ToResolvedValue
+ToTyped
 )
 ]
 #
@@ -1153,6 +1154,7 @@ MallocSizeOf
 PartialEq
 ToAnimatedZero
 ToCss
+ToTyped
 )
 ]
 #
@@ -1576,6 +1578,7 @@ Eq
 PartialEq
 ToComputedValue
 ToResolvedValue
+ToTyped
 )
 ]
 #
@@ -5543,6 +5546,7 @@ MallocSizeOf
 PartialEq
 PartialOrd
 ToResolvedValue
+ToTyped
 )
 ]
 #
@@ -6075,6 +6079,7 @@ MallocSizeOf
 PartialEq
 PartialOrd
 ToResolvedValue
+ToTyped
 )
 ]
 #

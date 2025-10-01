@@ -1073,6 +1073,7 @@ Serialize
 ToAnimatedZero
 ToComputedValue
 ToShmem
+ToTyped
 )
 ]
 #

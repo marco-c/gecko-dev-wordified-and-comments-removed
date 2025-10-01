@@ -383,6 +383,7 @@ Parse
 PartialEq
 ToCss
 ToResolvedValue
+ToTyped
 )
 ]
 #
@@ -679,6 +680,7 @@ MallocSizeOf
 PartialEq
 PartialOrd
 ToResolvedValue
+ToTyped
 )
 ]
 #
