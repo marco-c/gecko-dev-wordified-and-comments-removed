@@ -31,6 +31,7 @@ default_download_allowed
 await
 is_download_allowed
 (
+        
 top_context
 )
     
@@ -84,20 +85,17 @@ some_download_behavior
 )
     
 assert
-is_download_allowed_invariant
-=
-=
 await
 is_download_allowed
 (
         
 top_context
 )
+=
+=
+is_download_allowed_invariant
     
 assert
-is_download_allowed_invariant
-=
-=
 await
 is_download_allowed
 (
@@ -122,22 +120,22 @@ tab
 "
 )
 )
+=
+=
+is_download_allowed_invariant
     
 assert
-is_download_allowed_invariant
-=
-=
 await
 is_download_allowed
 (
         
 context_in_user_context
 )
+=
+=
+is_download_allowed_invariant
     
 assert
-is_download_allowed_invariant
-=
-=
 await
 is_download_allowed
 (
@@ -160,17 +158,20 @@ tab
 "
 )
 )
+=
+=
+is_download_allowed_invariant
     
 assert
-is_download_allowed_invariant
-=
-=
 await
 is_download_allowed
 (
         
 context_in_user_context
 )
+=
+=
+is_download_allowed_invariant
     
 await
 bidi_session
@@ -185,19 +186,16 @@ None
 )
     
 assert
-default_download_allowed
-=
-=
 await
 is_download_allowed
 (
 top_context
 )
+=
+=
+default_download_allowed
     
 assert
-default_download_allowed
-=
-=
 await
 is_download_allowed
 (
@@ -222,22 +220,22 @@ tab
 "
 )
 )
+=
+=
+default_download_allowed
     
 assert
-default_user_context_download_allowed
-=
-=
 await
 is_download_allowed
 (
         
 context_in_user_context
 )
+=
+=
+default_user_context_download_allowed
     
 assert
-default_user_context_download_allowed
-=
-=
 await
 is_download_allowed
 (
@@ -260,6 +258,9 @@ tab
 "
 )
 )
+=
+=
+default_user_context_download_allowed
 async
 def
 test_set_and_reset_globally_and_per_user_context
@@ -328,15 +329,15 @@ user_context_invariant
 )
     
 assert
-is_download_allowed_invariant
-=
-=
 await
 is_download_allowed
 (
         
 context_in_user_context
 )
+=
+=
+is_download_allowed_invariant
     
 await
 bidi_session
@@ -352,15 +353,15 @@ opposite_download_behavior
 )
     
 assert
-is_download_allowed_invariant
-=
-=
 await
 is_download_allowed
 (
         
 context_in_user_context
 )
+=
+=
+is_download_allowed_invariant
     
 await
 bidi_session
@@ -369,27 +370,30 @@ browser
 .
 set_download_behavior
 (
-        
 download_behavior
 =
 None
-        
+                                                     
 user_contexts
 =
 [
+                                                         
 user_context_invariant
 ]
 )
     
 assert
-is_download_allowed_invariant
-!
-=
 await
 is_download_allowed
 (
-        
 context_in_user_context
+)
+=
+=
+(
+        
+not
+is_download_allowed_invariant
 )
     
 await
@@ -405,12 +409,12 @@ None
 )
     
 assert
-default_download_allowed
-=
-=
 await
 is_download_allowed
 (
         
 context_in_user_context
 )
+=
+=
+default_download_allowed
