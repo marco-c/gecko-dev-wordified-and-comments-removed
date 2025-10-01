@@ -697,9 +697,6 @@ fake_ice_transport_
 =
 nullptr
 ;
-webrtc
-:
-:
 CryptoOptions
 crypto_options
 ;

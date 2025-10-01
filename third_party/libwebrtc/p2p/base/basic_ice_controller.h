@@ -433,9 +433,6 @@ std
 :
 max
 (
-webrtc
-:
-:
 MIN_CHECK_RECEIVING_INTERVAL
 config_
 .

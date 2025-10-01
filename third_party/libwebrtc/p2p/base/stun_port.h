@@ -952,9 +952,6 @@ network_cost
 )
 >
 =
-webrtc
-:
-:
 kNetworkCostHigh
 )
 ?

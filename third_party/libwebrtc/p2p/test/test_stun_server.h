@@ -98,9 +98,6 @@ function
 <
 void
 (
-webrtc
-:
-:
 TestStunServer
 *
 )

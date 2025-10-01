@@ -1675,9 +1675,6 @@ return
 turn_port_prune_policy_
 =
 =
-webrtc
-:
-:
 PRUNE_BASED_ON_PRIORITY
 ;
 }
@@ -1920,9 +1917,6 @@ pooled_sessions_
 PortPrunePolicy
 turn_port_prune_policy_
 =
-webrtc
-:
-:
 NO_PRUNE
 ;
 TurnCustomizer

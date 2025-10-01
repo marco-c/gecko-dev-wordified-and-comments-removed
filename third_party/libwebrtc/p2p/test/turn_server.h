@@ -254,9 +254,6 @@ TurnServerConnection
 :
 proto_
 (
-webrtc
-:
-:
 PROTO_UDP
 )
 socket_

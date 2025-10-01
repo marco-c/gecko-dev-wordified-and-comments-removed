@@ -563,9 +563,6 @@ Network
 network
 =
 (
-webrtc
-:
-:
 HasIPv6Enabled
 (
 )
@@ -576,9 +573,6 @@ flags
 (
 )
 &
-webrtc
-:
-:
 PORTALLOCATOR_ENABLE_IPV6
 )
 )
@@ -1111,9 +1105,6 @@ turn_servers_
 uint32_t
 candidate_filter_
 =
-webrtc
-:
-:
 CF_ALL
 ;
 int

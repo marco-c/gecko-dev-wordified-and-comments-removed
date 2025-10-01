@@ -741,9 +741,6 @@ port
 GetProtocol
 (
 )
-webrtc
-:
-:
 PROTO_TCP
 )
 ;

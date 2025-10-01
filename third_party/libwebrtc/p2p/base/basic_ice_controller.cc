@@ -699,9 +699,6 @@ connections_
 ]
 (
 const
-webrtc
-:
-:
 Connection
 *
 conn
@@ -946,16 +943,10 @@ pingable_selectable_connections
 ]
 (
 const
-webrtc
-:
-:
 Connection
 *
 conn1
 const
-webrtc
-:
-:
 Connection
 *
 conn2

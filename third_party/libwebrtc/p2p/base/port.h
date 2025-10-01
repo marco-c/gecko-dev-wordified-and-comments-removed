@@ -1632,9 +1632,6 @@ Use
 OnReadPacket
 (
 const
-webrtc
-:
-:
 ReceivedIpPacket
 &
 packet
