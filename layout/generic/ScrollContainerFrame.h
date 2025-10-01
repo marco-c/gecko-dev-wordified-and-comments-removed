@@ -859,6 +859,12 @@ Size
 )
 ;
 }
+nsSize
+GetSizeForWindowInnerSize
+(
+)
+const
+;
 nsRect
 GetScrolledRect
 (

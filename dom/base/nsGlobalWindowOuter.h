@@ -3210,6 +3210,7 @@ override
 ;
 public
 :
+MOZ_CAN_RUN_SCRIPT
 double
 GetInnerWidthOuter
 (
@@ -3223,6 +3224,7 @@ aError
 ;
 protected
 :
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetInnerWidth
 (
@@ -3234,6 +3236,7 @@ override
 ;
 public
 :
+MOZ_CAN_RUN_SCRIPT
 double
 GetInnerHeightOuter
 (
@@ -3247,6 +3250,7 @@ aError
 ;
 protected
 :
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetInnerHeight
 (
@@ -3663,6 +3667,7 @@ Side
 aSide
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetInnerSize
 (

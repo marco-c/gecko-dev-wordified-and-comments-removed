@@ -1496,6 +1496,7 @@ aControllers
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 GetInnerWidth
@@ -1507,6 +1508,7 @@ aWidth
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 GetInnerHeight
@@ -3100,6 +3102,7 @@ _retval
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 GetInnerWidth
@@ -3111,6 +3114,7 @@ aWidth
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 GetInnerHeight

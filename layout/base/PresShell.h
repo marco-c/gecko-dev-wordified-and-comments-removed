@@ -3028,6 +3028,12 @@ GetLayoutViewportSize
 )
 const
 ;
+nsSize
+GetInnerSize
+(
+)
+const
+;
 bool
 IsNeverPainting
 (
