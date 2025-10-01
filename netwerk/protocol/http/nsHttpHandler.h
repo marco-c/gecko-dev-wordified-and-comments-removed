@@ -304,6 +304,9 @@ nsHttpRequestHead
 aRequest
 bool
 aSecure
+bool
+&
+aAsync
 const
 std
 :
@@ -312,6 +315,7 @@ function
 <
 bool
 (
+bool
 DictionaryCacheEntry
 *
 )
