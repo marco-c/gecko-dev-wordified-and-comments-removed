@@ -7501,6 +7501,9 @@ source
 |
 -
 large
+|
+-
+webgpu
 )
 :
 provisioner
