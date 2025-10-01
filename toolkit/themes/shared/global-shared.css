@@ -2002,7 +2002,7 @@ border
 -
 radius
 -
-small
+medium
 )
 ;
 margin
@@ -2181,11 +2181,11 @@ var
 (
 -
 -
+button
+-
 border
 -
 radius
--
-small
 )
 ;
 font
@@ -2841,11 +2841,11 @@ var
 (
 -
 -
+button
+-
 border
 -
 radius
--
-small
 )
 ;
 color
