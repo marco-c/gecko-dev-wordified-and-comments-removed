@@ -237,6 +237,9 @@ Boolean
 isInstallable
 :
 Boolean
+isAddToHomeScreenSupported
+:
+Boolean
 hasExternalApp
 :
 Boolean
@@ -404,6 +407,11 @@ onShortcutsMenuClick
 onShortcutsMenuClick
 )
 }
+if
+(
+isAddToHomeScreenSupported
+)
+{
 MenuItem
 (
 label
@@ -453,6 +461,7 @@ onClick
 =
 onAddToHomeScreenMenuClick
 )
+}
 MenuItem
 (
 label
@@ -935,6 +944,9 @@ true
 isInstallable
 =
 true
+isAddToHomeScreenSupported
+=
+true
 hasExternalApp
 =
 true
@@ -1056,6 +1068,9 @@ false
 isInstallable
 =
 true
+isAddToHomeScreenSupported
+=
+false
 hasExternalApp
 =
 false
