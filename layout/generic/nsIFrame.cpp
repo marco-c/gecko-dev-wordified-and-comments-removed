@@ -1694,7 +1694,7 @@ endif
 NS_DECLARE_FRAME_PROPERTY_DELETABLE
 (
 AbsoluteContainingBlockProperty
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 )
 bool
 nsIFrame
@@ -1721,7 +1721,7 @@ HasAbsoluteFrames
 )
 ;
 }
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 *
 nsIFrame
 :
@@ -1750,7 +1750,7 @@ correctly
 "
 )
 ;
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 *
 absCB
 =
@@ -1856,7 +1856,7 @@ AbsoluteContainingBlockProperty
 (
 )
 new
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 (
 GetAbsoluteListID
 (
@@ -36164,7 +36164,7 @@ HasAbsolutelyPositionedChildren
 )
 )
 {
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 *
 absoluteContainer
 =

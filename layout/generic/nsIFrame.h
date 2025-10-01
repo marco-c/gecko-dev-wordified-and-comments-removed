@@ -418,9 +418,6 @@ false
 >
 ;
 class
-nsAbsoluteContainingBlock
-;
-class
 nsContainerFrame
 ;
 class
@@ -474,6 +471,9 @@ class
 TableSelectionMode
 :
 uint32_t
+;
+class
+AbsoluteContainingBlock
 ;
 class
 AnchorPosReferenceData
@@ -11601,7 +11601,10 @@ HasAbsolutelyPositionedChildren
 )
 const
 ;
-nsAbsoluteContainingBlock
+mozilla
+:
+:
+AbsoluteContainingBlock
 *
 GetAbsoluteContainingBlock
 (

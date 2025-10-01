@@ -9033,7 +9033,7 @@ HasAbsolutelyPositionedChildren
 )
 )
 {
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 *
 absoluteContainer
 =

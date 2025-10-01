@@ -5108,7 +5108,7 @@ StyleAlignFlags
 :
 FLEX_END
 "
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 doesn
 '
 t

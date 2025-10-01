@@ -209,7 +209,7 @@ namespace
 mozilla
 ;
 void
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 :
 :
 SetInitialChildList
@@ -291,7 +291,7 @@ aChildList
 ;
 }
 void
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 :
 :
 AppendFrames
@@ -367,7 +367,7 @@ NS_FRAME_HAS_DIRTY_CHILDREN
 ;
 }
 void
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 :
 :
 InsertFrames
@@ -473,7 +473,7 @@ NS_FRAME_HAS_DIRTY_CHILDREN
 ;
 }
 void
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 :
 :
 RemoveFrame
@@ -748,7 +748,7 @@ mozSnapshotContainingBlock
 ;
 }
 void
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 :
 :
 Reflow
@@ -1583,7 +1583,7 @@ ConvertsToLength
 ;
 }
 bool
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 :
 :
 FrameDependsOnContainer
@@ -2212,7 +2212,7 @@ false
 ;
 }
 void
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 :
 :
 DestroyFrames
@@ -2231,7 +2231,7 @@ aContext
 ;
 }
 void
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 :
 :
 MarkSizeDependentFramesDirty
@@ -2245,7 +2245,7 @@ false
 ;
 }
 void
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 :
 :
 MarkAllFramesDirty
@@ -2259,7 +2259,7 @@ true
 ;
 }
 void
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 :
 :
 DoMarkFramesDirty
@@ -3109,7 +3109,7 @@ offset
 ;
 }
 void
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 :
 :
 ResolveSizeDependentOffsets
@@ -3568,7 +3568,7 @@ aOffsets
 }
 }
 void
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 :
 :
 ResolveAutoMarginsAfterLayout
@@ -3919,7 +3919,7 @@ outerWM
 }
 }
 void
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 :
 :
 ReflowAbsoluteFrame
