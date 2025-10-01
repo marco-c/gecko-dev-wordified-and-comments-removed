@@ -138,6 +138,13 @@ sys
 .
 mjs
 "
+"
+SmartAssistEngine
+.
+sys
+.
+mjs
+"
 ]
 FINAL_TARGET_FILES
 .
