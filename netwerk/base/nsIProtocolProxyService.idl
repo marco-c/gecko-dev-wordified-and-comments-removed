@@ -1471,6 +1471,9 @@ in
 AUTF8String
 aPathTemplate
 in
+AUTF8String
+aAlpn
+in
 ACString
 aProxyAuthorizationHeader
 in

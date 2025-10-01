@@ -1200,6 +1200,9 @@ nsCString
 pathTemplate
 ;
 nsCString
+alpn
+;
+nsCString
 username
 ;
 nsCString
