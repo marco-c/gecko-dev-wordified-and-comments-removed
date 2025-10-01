@@ -819,6 +819,10 @@ CacheFileIOManager
 void
 CacheFileDoomed
 (
+const
+nsACString
+&
+aKey
 nsILoadContextInfo
 *
 aLoadContextInfo
