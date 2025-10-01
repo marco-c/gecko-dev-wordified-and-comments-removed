@@ -29062,7 +29062,7 @@ XRE_GetProcessType
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 |
 |
