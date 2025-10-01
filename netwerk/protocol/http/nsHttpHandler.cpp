@@ -4085,7 +4085,7 @@ eVarietyRequestOverride
 aCallback
 )
 (
-false
+aNeedsResume
 nullptr
 )
 ;
