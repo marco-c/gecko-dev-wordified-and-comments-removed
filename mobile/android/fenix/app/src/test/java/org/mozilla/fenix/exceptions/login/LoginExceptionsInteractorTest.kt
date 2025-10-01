@@ -85,7 +85,7 @@ coroutines
 .
 test
 .
-TestScope
+StandardTestDispatcher
 import
 kotlinx
 .
@@ -93,7 +93,7 @@ coroutines
 .
 test
 .
-UnconfinedTestDispatcher
+TestScope
 import
 kotlinx
 .
@@ -159,7 +159,7 @@ scope
 =
 TestScope
 (
-UnconfinedTestDispatcher
+StandardTestDispatcher
 (
 )
 )
@@ -200,6 +200,11 @@ interactor
 onDeleteAll
 (
 )
+testScheduler
+.
+advanceUntilIdle
+(
+)
 verify
 {
 loginExceptionStorage
@@ -232,6 +237,11 @@ interactor
 onDeleteOne
 (
 exceptionsItem
+)
+testScheduler
+.
+advanceUntilIdle
+(
 )
 verify
 {
