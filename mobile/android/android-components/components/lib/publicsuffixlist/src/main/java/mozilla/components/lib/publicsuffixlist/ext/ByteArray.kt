@@ -329,12 +329,6 @@ the
 unsigned
 bytes
 .
-Suppress
-(
-"
-EXPERIMENTAL_API_USAGE
-"
-)
 compareResult
 =
 (
