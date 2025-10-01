@@ -1305,6 +1305,14 @@ mDelayedClearElementActivation
 nullptr
 ;
 }
+CancelActiveTask
+(
+)
+;
+CancelHoverTask
+(
+)
+;
 }
 void
 ElementStateManager
