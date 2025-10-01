@@ -319,7 +319,7 @@ scripts
 /
 misc
 /
-cctools
+libtapi
 .
 patch
 toolchain
@@ -351,6 +351,8 @@ linux64
 toolchain
 -
 sysroot
+-
+gcc10
 fetch
 :
 -
@@ -359,6 +361,8 @@ cctools
 port
 -
 libtapi
+-
+libdispatch
 -
 ldid
 linux64
