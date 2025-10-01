@@ -14,7 +14,7 @@ h
 #
 include
 "
-ActiveElementManager
+ElementStateManager
 .
 h
 "
@@ -152,7 +152,7 @@ namespace
 layers
 {
 class
-ActiveElementManager
+ElementStateManager
 ;
 enum
 class
@@ -439,9 +439,9 @@ mWidget
 ;
 RefPtr
 <
-ActiveElementManager
+ElementStateManager
 >
-mActiveElementManager
+mElementStateManager
 ;
 ContentReceivedInputBlockCallback
 mContentReceivedInputBlockCallback

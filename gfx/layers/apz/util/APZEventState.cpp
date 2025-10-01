@@ -20,7 +20,7 @@ h
 #
 include
 "
-ActiveElementManager
+ElementStateManager
 .
 h
 "
@@ -363,10 +363,10 @@ mWidget
 (
 nullptr
 )
-mActiveElementManager
+mElementStateManager
 (
 new
-ActiveElementManager
+ElementStateManager
 (
 )
 )
@@ -578,7 +578,7 @@ mLastTouchSynthesizedForTests
 )
 ;
 }
-mActiveElementManager
+mElementStateManager
 -
 >
 ProcessSingleTap
@@ -686,7 +686,7 @@ PreventDefaultResult
 No
 )
 {
-mActiveElementManager
+mElementStateManager
 -
 >
 ClearActivation
@@ -1136,7 +1136,7 @@ Length
 0
 )
 {
-mActiveElementManager
+mElementStateManager
 -
 >
 SetTargetElement
@@ -1496,7 +1496,7 @@ eTouchCancel
 :
 if
 (
-mActiveElementManager
+mElementStateManager
 -
 >
 HandleTouchEndEvent
@@ -2209,7 +2209,7 @@ canBePanOrZoom
 =
 aArg
 ;
-mActiveElementManager
+mElementStateManager
 -
 >
 HandleTouchStart
@@ -2266,7 +2266,7 @@ APZStateChange
 eStartPanning
 :
 {
-mActiveElementManager
+mElementStateManager
 -
 >
 ClearActivation
@@ -2298,7 +2298,7 @@ aArg
 ;
 if
 (
-mActiveElementManager
+mElementStateManager
 -
 >
 HandleTouchEnd
@@ -2331,7 +2331,7 @@ Destroy
 (
 )
 {
-mActiveElementManager
+mElementStateManager
 -
 >
 Destroy
