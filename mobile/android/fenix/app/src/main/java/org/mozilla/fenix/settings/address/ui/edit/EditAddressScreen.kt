@@ -134,6 +134,16 @@ foundation
 .
 layout
 .
+imePadding
+import
+androidx
+.
+compose
+.
+foundation
+.
+layout
+.
 padding
 import
 androidx
@@ -688,6 +698,10 @@ layout
 space
 .
 static100
+)
+.
+imePadding
+(
 )
 .
 verticalScroll
