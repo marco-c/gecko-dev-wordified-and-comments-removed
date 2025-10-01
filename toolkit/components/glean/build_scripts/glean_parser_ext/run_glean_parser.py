@@ -976,6 +976,15 @@ args
 )
 :
     
+cpp_fd_path
+=
+Path
+(
+cpp_fd
+.
+name
+)
+    
 def
 open_output
 (
@@ -992,16 +1001,9 @@ path
 .
 join
 (
-os
+cpp_fd_path
 .
-path
-.
-dirname
-(
-cpp_fd
-.
-name
-)
+parent
 filename
 )
 )
@@ -1212,9 +1214,9 @@ if
 header_name
 =
 =
-"
-GleanMetrics
-"
+cpp_fd_path
+.
+stem
                 
 else
 open_output
