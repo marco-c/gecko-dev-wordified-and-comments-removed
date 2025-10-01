@@ -119,9 +119,6 @@ const
 int
 kMaxSampleRate
 =
-webrtc
-:
-:
 kMaxSampleRateHz
 ;
 AudioBuffer

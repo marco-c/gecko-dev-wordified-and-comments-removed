@@ -63,9 +63,6 @@ MOCK_METHOD
 void
 Process
 (
-webrtc
-:
-:
 ArrayView
 <
 const
