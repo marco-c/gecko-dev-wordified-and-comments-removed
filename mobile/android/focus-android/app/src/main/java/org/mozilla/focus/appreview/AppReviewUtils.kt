@@ -268,7 +268,7 @@ successful
 .
 *
 *
-property
+param
 activity
 where
 In
@@ -457,7 +457,7 @@ needed
 .
 *
 *
-property
+param
 context
 needed
 for

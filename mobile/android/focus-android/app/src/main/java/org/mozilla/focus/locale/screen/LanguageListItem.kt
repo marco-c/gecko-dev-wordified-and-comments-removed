@@ -83,7 +83,7 @@ compose
 ListView
 *
 *
-param
+property
 language
 item
 to
@@ -92,7 +92,7 @@ display
 in
 ListView
 *
-param
+property
 onClick
 Callback
 when

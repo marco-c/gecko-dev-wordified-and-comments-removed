@@ -81,7 +81,7 @@ the
 LanguageStorage
 *
 *
-param
+property
 displayName
 of
 the
@@ -94,7 +94,7 @@ in
 the
 GUI
 *
-param
+property
 tag
 of
 the
@@ -111,7 +111,7 @@ element
 is
 selected
 *
-param
+property
 index
 of
 the

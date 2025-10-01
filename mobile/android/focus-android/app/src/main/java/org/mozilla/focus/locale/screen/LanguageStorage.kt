@@ -347,7 +347,7 @@ language
 tag
 *
 *
-property
+param
 languageTag
 the
 tag
