@@ -12,9 +12,9 @@ h
 #
 include
 "
-test
+api
 /
-explicit_key_value_config
+field_trials
 .
 h
 "
@@ -32,12 +32,6 @@ webrtc
 {
 namespace
 {
-using
-test
-:
-:
-ExplicitKeyValueConfig
-;
 TEST
 (
 KeyframeIntervalSettingsTest
@@ -48,7 +42,7 @@ EXPECT_FALSE
 (
 KeyframeIntervalSettings
 (
-ExplicitKeyValueConfig
+FieldTrials
 (
 "
 "
@@ -60,7 +54,7 @@ MinKeyframeSendIntervalMs
 )
 )
 ;
-ExplicitKeyValueConfig
+FieldTrials
 field_trials
 (
 "
@@ -95,7 +89,7 @@ KeyframeIntervalSettingsTest
 DoesNotParseIncorrectValues
 )
 {
-ExplicitKeyValueConfig
+FieldTrials
 field_trials
 (
 "
