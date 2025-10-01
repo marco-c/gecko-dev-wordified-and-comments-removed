@@ -250,9 +250,9 @@ date
 time
 :
 {
+error
 }
 "
-error
 )
 FindLocalTimeType
 (
@@ -283,9 +283,9 @@ time
 type
 :
 {
+error
 }
 "
-error
 )
 InvalidSlice
 (
@@ -315,9 +315,9 @@ TZ
 string
 :
 {
+error
 }
 "
-error
 )
 InvalidTzFile
 (
@@ -407,9 +407,9 @@ transition
 rule
 :
 {
+error
 }
 "
-error
 )
 TimeZone
 (
@@ -427,9 +427,9 @@ time
 zone
 :
 {
+error
 }
 "
-error
 )
 UnsupportedTzFile
 (
@@ -459,9 +459,9 @@ TZ
 string
 :
 {
+error
 }
 "
-error
 )
 Utf8
 (

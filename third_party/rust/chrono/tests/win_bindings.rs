@@ -103,6 +103,10 @@ etc
 input
 ]
 )
+.
+unwrap
+(
+)
 ;
 let
 mut
@@ -247,12 +251,12 @@ panic
 generated
 file
 {
+output
 }
 is
 changed
 .
 "
-output
 )
 ;
 }
