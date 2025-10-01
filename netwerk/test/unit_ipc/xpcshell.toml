@@ -7,14 +7,6 @@ head
 head_channels_clone
 .
 js
-.
-.
-/
-unit
-/
-head_servers
-.
-js
 head_trr_clone
 .
 js

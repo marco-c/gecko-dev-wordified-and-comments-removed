@@ -16,9 +16,6 @@ js
 head_cookies
 .
 js
-head_servers
-.
-js
 head_trr
 .
 js
@@ -2110,6 +2107,13 @@ Bug
 ]
 [
 "
+test_bug1984469
+.
+js
+"
+]
+[
+"
 test_bug_1918928
 .
 js
@@ -3792,9 +3796,6 @@ js
 head_cookies
 .
 js
-head_servers
-.
-js
 head_trr
 .
 js
@@ -4405,9 +4406,6 @@ js
 head_cookies
 .
 js
-head_servers
-.
-js
 head_trr
 .
 js
@@ -4468,9 +4466,6 @@ head_cache
 .
 js
 head_cookies
-.
-js
-head_servers
 .
 js
 head_trr
@@ -10101,9 +10096,6 @@ js
 head_cookies
 .
 js
-head_servers
-.
-js
 head_trr
 .
 js
@@ -10884,9 +10876,6 @@ js
 head_cookies
 .
 js
-head_servers
-.
-js
 head_trr
 .
 js
@@ -10931,9 +10920,6 @@ head_cache
 .
 js
 head_cookies
-.
-js
-head_servers
 .
 js
 head_trr
