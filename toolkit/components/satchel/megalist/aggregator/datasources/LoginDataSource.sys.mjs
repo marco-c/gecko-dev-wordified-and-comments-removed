@@ -2323,7 +2323,7 @@ Services
 .
 obs
 .
-addObserver
+removeObserver
 (
 this
 "
