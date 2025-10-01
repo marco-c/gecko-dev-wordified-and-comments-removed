@@ -267,3 +267,13 @@ xre
 nsXREDirProvider
 .
 cpp
+-
+toolkit
+/
+tests
+/
+gtest
+/
+TestXREAppDir
+.
+cpp
