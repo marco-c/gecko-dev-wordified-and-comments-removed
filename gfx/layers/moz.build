@@ -1636,11 +1636,6 @@ NativeLayerRootRemoteMacParent
 h
 "
 "
-NativeLayerRootRemoteMacSnapshotter
-.
-h
-"
-"
 SurfacePoolCA
 .
 h
@@ -1687,11 +1682,6 @@ mm
 "
 "
 NativeLayerRootRemoteMacParent
-.
-mm
-"
-"
-NativeLayerRootRemoteMacSnapshotter
 .
 mm
 "
