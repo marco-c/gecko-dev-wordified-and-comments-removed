@@ -118,6 +118,13 @@ aTime
 override
 {
 return
+mDuration
+.
+IsZero
+(
+)
+|
+|
 aTime
 >
 mStartTime
