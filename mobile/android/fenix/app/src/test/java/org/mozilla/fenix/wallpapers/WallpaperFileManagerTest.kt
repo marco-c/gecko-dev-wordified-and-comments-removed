@@ -83,7 +83,7 @@ coroutines
 .
 test
 .
-UnconfinedTestDispatcher
+StandardTestDispatcher
 import
 kotlinx
 .
@@ -179,7 +179,7 @@ private
 val
 dispatcher
 =
-UnconfinedTestDispatcher
+StandardTestDispatcher
 (
 )
 private
@@ -273,6 +273,9 @@ name
 )
 =
 runTest
+(
+dispatcher
+)
 {
 createAllFiles
 (
@@ -322,6 +325,9 @@ returned
 )
 =
 runTest
+(
+dispatcher
+)
 {
 File
 (
@@ -400,6 +406,9 @@ returned
 )
 =
 runTest
+(
+dispatcher
+)
 {
 File
 (
@@ -478,6 +487,9 @@ returned
 )
 =
 runTest
+(
+dispatcher
+)
 {
 File
 (
@@ -551,6 +563,9 @@ kept
 )
 =
 runTest
+(
+dispatcher
+)
 {
 val
 currentName
@@ -609,6 +624,13 @@ listOf
 (
 available
 )
+)
+dispatcher
+.
+scheduler
+.
+advanceUntilIdle
+(
 )
 assertTrue
 (
@@ -676,6 +698,9 @@ succeed
 )
 =
 runTest
+(
+dispatcher
+)
 {
 val
 wallpaper
@@ -727,6 +752,9 @@ fail
 )
 =
 runTest
+(
+dispatcher
+)
 {
 val
 wallpaper
