@@ -112,6 +112,9 @@ FreeAndInvalidate
 )
 ;
 }
+#
+ifndef
+COMPILING_IRREGEXP_FOR_EXTERNAL_EMBEDDER
 RegExpStack
 *
 RegExpStack
@@ -294,6 +297,8 @@ instance
 #
 endif
 }
+#
+endif
 char
 *
 RegExpStack

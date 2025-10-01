@@ -133,6 +133,16 @@ not
 equal
 .
 patch
+-
+patches
+/
+public
+-
+regexp
+-
+destructor
+.
+patch
 update
 -
 actions

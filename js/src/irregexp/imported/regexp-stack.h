@@ -353,8 +353,6 @@ kMaximumStackSize
 *
 MB
 ;
-private
-:
 RegExpStack
 (
 )
@@ -364,6 +362,8 @@ RegExpStack
 (
 )
 ;
+private
+:
 static
 const
 Address
