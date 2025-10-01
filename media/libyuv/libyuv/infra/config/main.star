@@ -1290,9 +1290,6 @@ tools
 /
 build
 "
-use_python3
-=
-True
 )
 )
 def
@@ -1400,9 +1397,6 @@ tools
 /
 build
 "
-use_python3
-=
-True
 )
 )
 def
@@ -1800,9 +1794,6 @@ tools
 /
 build
 "
-use_python3
-=
-True
 )
 )
 ci_builder

@@ -135,7 +135,7 @@ siso_version
 '
 git_revision
 :
-d9393c2115244b6e4a797189055e4a2b6769a64d
+15568691576f74b11a3c73c85a3c8dd5efb72f05
 '
 #
 Fetch
@@ -2814,8 +2814,6 @@ package
 '
 :
 '
-infra
-/
 build
 /
 siso
