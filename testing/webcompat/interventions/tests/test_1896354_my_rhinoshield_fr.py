@@ -98,27 +98,9 @@ def
 test_disabled
 (
 client
-platform
 )
 :
     
-if
-platform
-=
-=
-"
-android
-"
-:
-        
-test_enabled
-(
-client
-)
-    
-else
-:
-        
 await
 client
 .
@@ -126,7 +108,7 @@ navigate
 (
 URL
 )
-        
+    
 assert
 client
 .
