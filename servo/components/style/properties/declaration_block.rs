@@ -477,13 +477,6 @@ Clone
 Debug
 )
 ]
-#
-[
-repr
-(
-C
-)
-]
 pub
 enum
 PropertyTypedValue
