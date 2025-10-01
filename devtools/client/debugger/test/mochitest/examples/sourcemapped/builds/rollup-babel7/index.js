@@ -258,7 +258,7 @@ babel
 /
 plugin
 -
-proposal
+transform
 -
 class
 -
