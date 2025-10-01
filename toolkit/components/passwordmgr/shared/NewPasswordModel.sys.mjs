@@ -4472,5 +4472,11 @@ new
 ]
 biases
 )
+LoginRegex
+:
+loginRegex
+LoginFormAttrRegex
+:
+loginFormAttrRegex
 }
 ;
