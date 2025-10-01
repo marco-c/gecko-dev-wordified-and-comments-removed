@@ -2608,6 +2608,7 @@ this
 isSignedIn
 )
 {
+await
 this
 .
 #
