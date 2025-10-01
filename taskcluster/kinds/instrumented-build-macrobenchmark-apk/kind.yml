@@ -115,11 +115,6 @@ task
 -
 defaults
 :
-attributes
-:
-retrigger
-:
-true
 fetches
 :
 toolchain
