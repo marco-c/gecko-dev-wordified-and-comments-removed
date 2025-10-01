@@ -1206,7 +1206,9 @@ nsTHashMap
 uint64_t
 nsTHashMap
 <
-RelationType
+const
+RelationData
+*
 nsTArray
 <
 uint64_t
