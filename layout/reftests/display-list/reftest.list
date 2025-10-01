@@ -1,3 +1,15 @@
+defaults
+pref
+(
+gfx
+.
+font_rendering
+.
+fallback
+.
+async
+false
+)
 #
 These
 tests
@@ -1260,3 +1272,4 @@ html
 ref
 .
 html
+defaults
