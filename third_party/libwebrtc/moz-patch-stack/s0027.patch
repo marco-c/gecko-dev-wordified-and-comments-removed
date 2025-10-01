@@ -2643,10 +2643,10 @@ rtp_sender_interface
 .
 h
 index
-478e15d570
+2a7907dc4e
 .
 .
-2b3f7d9cac
+18d27b2499
 100644
 -
 -
@@ -2754,9 +2754,6 @@ RTC_EXPORT
 RtpSenderInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 public
 FrameTransformerHost

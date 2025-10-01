@@ -212,9 +212,6 @@ RTC_EXPORT
 MediaSourceInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 public
 NotifierInterface
@@ -265,9 +262,6 @@ RTC_EXPORT
 MediaStreamTrackInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 public
 NotifierInterface
@@ -468,9 +462,6 @@ void
 ProcessConstraints
 (
 const
-webrtc
-:
-:
 VideoTrackSourceConstraints
 &
 )
@@ -764,9 +755,6 @@ class
 AudioProcessorInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public
@@ -907,9 +895,6 @@ class
 MediaStreamInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 public
 NotifierInterface

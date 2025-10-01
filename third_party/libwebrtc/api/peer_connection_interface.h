@@ -714,9 +714,6 @@ class
 StreamCollectionInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public
@@ -804,9 +801,6 @@ class
 StatsObserver
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public
@@ -856,9 +850,6 @@ RTC_EXPORT
 PeerConnectionInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public
@@ -1828,9 +1819,6 @@ int
 >
 stun_candidate_keepalive_interval
 ;
-webrtc
-:
-:
 TurnCustomizer
 *
 turn_customizer
@@ -2239,9 +2227,6 @@ RtpTransceiverInterface
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 media_type
 )
@@ -2258,9 +2243,6 @@ RtpTransceiverInterface
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 media_type
 const
@@ -3361,9 +3343,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 AsyncDnsResolverFactoryInterface
 >
 async_dns_resolver_factory
@@ -3373,9 +3352,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 IceTransportFactory
 >
 ice_transport_factory
@@ -3403,9 +3379,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 VideoBitrateAllocatorFactory
 >
 video_bitrate_allocator_factory
@@ -3756,9 +3729,6 @@ RTC_EXPORT
 PeerConnectionFactoryInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public
@@ -3840,9 +3810,6 @@ virtual
 RtpCapabilities
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 kind
 )
@@ -3854,9 +3821,6 @@ virtual
 RtpCapabilities
 GetRtpReceiverCapabilities
 (
-webrtc
-:
-:
 MediaType
 kind
 )

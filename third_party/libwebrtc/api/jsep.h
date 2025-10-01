@@ -1159,9 +1159,6 @@ RTC_EXPORT
 CreateSessionDescriptionObserver
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public
@@ -1204,9 +1201,6 @@ RTC_EXPORT
 SetSessionDescriptionObserver
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public

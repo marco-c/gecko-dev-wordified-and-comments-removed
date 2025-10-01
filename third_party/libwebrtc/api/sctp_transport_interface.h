@@ -243,9 +243,6 @@ class
 SctpTransportInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public

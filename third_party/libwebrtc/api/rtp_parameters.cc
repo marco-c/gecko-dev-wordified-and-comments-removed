@@ -1400,9 +1400,6 @@ ENABLE_EXTERNAL_AUTH
 uri
 !
 =
-webrtc
-:
-:
 RtpExtension
 :
 :

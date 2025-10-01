@@ -125,9 +125,6 @@ virtual
 Result
 Decrypt
 (
-webrtc
-:
-:
 MediaType
 media_type
 const
@@ -165,9 +162,6 @@ virtual
 size_t
 GetMaxPlaintextByteSize
 (
-webrtc
-:
-:
 MediaType
 media_type
 size_t

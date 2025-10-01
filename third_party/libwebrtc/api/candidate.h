@@ -677,9 +677,6 @@ network_cost
 RTC_DCHECK_LE
 (
 network_cost
-webrtc
-:
-:
 kNetworkCostMax
 )
 ;

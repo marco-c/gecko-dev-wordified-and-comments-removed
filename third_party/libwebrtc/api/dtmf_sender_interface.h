@@ -74,9 +74,6 @@ class
 DtmfSenderInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public

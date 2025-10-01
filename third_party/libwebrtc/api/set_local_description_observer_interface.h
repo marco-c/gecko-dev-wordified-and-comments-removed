@@ -29,9 +29,6 @@ class
 SetLocalDescriptionObserverInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public

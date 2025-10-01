@@ -137,9 +137,6 @@ default
 private
 :
 mutable
-webrtc
-:
-:
 webrtc_impl
 :
 :
@@ -298,9 +295,6 @@ default
 private
 :
 mutable
-webrtc
-:
-:
 webrtc_impl
 :
 :

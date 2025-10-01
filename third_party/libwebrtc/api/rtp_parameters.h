@@ -363,15 +363,9 @@ std
 string
 name
 ;
-webrtc
-:
-:
 MediaType
 kind
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -642,9 +636,6 @@ cap
 kind
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :

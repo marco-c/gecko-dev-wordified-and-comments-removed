@@ -280,9 +280,6 @@ RTC_EXPORT
 IdBase
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public
@@ -726,15 +723,9 @@ thread_checker_
 endif
 private
 :
-webrtc
-:
-:
 SequenceChecker
 thread_checker_
 {
-webrtc
-:
-:
 SequenceChecker
 :
 :
@@ -1311,9 +1302,6 @@ private
 Container
 list_
 ;
-webrtc
-:
-:
 SequenceChecker
 thread_checker_
 {
