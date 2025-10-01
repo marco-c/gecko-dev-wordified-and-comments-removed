@@ -149,10 +149,10 @@ window_capture_utils
 .
 cc
 index
-263b2c3780
+58930f01a7
 .
 .
-e6d990d7b3
+5d8fdb36f1
 100644
 -
 -
@@ -183,10 +183,10 @@ window_capture_utils
 .
 cc
 -
-79
+78
 6
 +
-79
+78
 10
 BOOL
 CALLBACK

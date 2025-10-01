@@ -122,15 +122,6 @@ include
 "
 rtc_base
 /
-arraysize
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 checks
 .
 h
@@ -365,7 +356,10 @@ const
 size_t
 kClassLength
 =
-arraysize
+std
+:
+:
+size
 (
 kSysShadow
 )
