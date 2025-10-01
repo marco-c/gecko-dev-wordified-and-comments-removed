@@ -15577,6 +15577,15 @@ StyleDisplay
 -
 >
 mPosition
+aFrame
+-
+>
+StylePosition
+(
+)
+-
+>
+mPositionArea
 aAnchorPosReferenceData
 }
 ;
