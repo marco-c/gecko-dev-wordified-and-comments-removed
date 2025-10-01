@@ -6800,7 +6800,7 @@ border
 -
 radius
 -
-medium
+small
 )
 "
 name
@@ -13868,7 +13868,7 @@ border
 -
 radius
 -
-medium
+small
 )
 "
 "
