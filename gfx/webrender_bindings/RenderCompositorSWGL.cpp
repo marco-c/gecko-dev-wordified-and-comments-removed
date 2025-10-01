@@ -365,13 +365,6 @@ if
 mDT
 )
 {
-#
-if
-!
-defined
-(
-MOZ_WAYLAND
-)
 gfxCriticalNoteOnce
 <
 <
@@ -385,8 +378,6 @@ no
 dt
 "
 ;
-#
-endif
 return
 false
 ;
