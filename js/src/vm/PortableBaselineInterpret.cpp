@@ -57333,8 +57333,6 @@ Value
 argv
 size_t
 numFormals
-size_t
-numActuals
 CalleeToken
 calleeToken
 JSObject
@@ -57388,6 +57386,14 @@ calleeToken
 envChain
 )
 ;
+if
+(
+CalleeTokenIsFunction
+(
+calleeToken
+)
+)
+{
 bool
 constructing
 =
@@ -57404,7 +57410,7 @@ std
 :
 max
 (
-numActuals
+argc
 numFormals
 )
 ;
@@ -57413,7 +57419,7 @@ numUndefs
 =
 numCalleeActuals
 -
-numActuals
+argc
 ;
 if
 (
@@ -57469,6 +57475,8 @@ i
 i
 <
 argc
++
+1
 ;
 i
 +
@@ -57491,6 +57499,7 @@ i
 )
 ;
 }
+}
 PUSHNATIVE
 (
 StackValNative
@@ -57509,7 +57518,7 @@ FrameType
 :
 :
 CppToJSJit
-numActuals
+argc
 )
 )
 )

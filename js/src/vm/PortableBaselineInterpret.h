@@ -92,8 +92,6 @@ Value
 *
 argv
 size_t
-numActuals
-size_t
 numFormals
 jit
 :
