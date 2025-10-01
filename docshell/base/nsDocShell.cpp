@@ -18785,7 +18785,6 @@ NavigationType
 Reload
 destinationURL
 false
-false
 Some
 (
 aUserInvolvement
@@ -40029,7 +40028,6 @@ GetNavigationType
 )
 newURI
 true
-true
 Some
 (
 aLoadState
@@ -43119,7 +43117,6 @@ GetNavigationType
 (
 )
 destinationURL
-false
 false
 Some
 (
@@ -52040,7 +52037,6 @@ NavigationType
 :
 Push
 newURI
-true
 true
 Nothing
 (
@@ -64267,20 +64263,6 @@ navigation
 return
 ;
 }
-if
-(
-!
-navigation
--
->
-HasOngoingNavigateEvent
-(
-)
-)
-{
-return
-;
-}
 AutoJSAPI
 jsapi
 ;
@@ -64306,7 +64288,7 @@ return
 navigation
 -
 >
-AbortOngoingNavigation
+InnerInformAboutAbortingNavigation
 (
 jsapi
 .
