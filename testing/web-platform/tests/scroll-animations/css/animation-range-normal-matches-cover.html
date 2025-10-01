@@ -567,6 +567,14 @@ percent
 }
 )
 ;
+await
+runAndWaitForFrameUpdate
+(
+(
+)
+=
+>
+{
 scroller
 .
 scrollTop
@@ -581,9 +589,7 @@ for
 cover
 range
 .
-await
-waitForNextFrame
-(
+}
 )
 ;
 assert_percents_equal
