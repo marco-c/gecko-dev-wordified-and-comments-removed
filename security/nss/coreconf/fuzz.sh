@@ -104,6 +104,10 @@ Dfuzz
 Dsign_libs
 =
 0
+-
+Duse_pkcs5_pbkd2_params2_only
+=
+1
 )
 #
 Add
