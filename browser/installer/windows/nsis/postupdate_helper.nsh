@@ -755,10 +755,6 @@ EndIf
 {
 EndIf
 }
-StrCpy
-0
-"
-"
 Pop
 2
 Pop
