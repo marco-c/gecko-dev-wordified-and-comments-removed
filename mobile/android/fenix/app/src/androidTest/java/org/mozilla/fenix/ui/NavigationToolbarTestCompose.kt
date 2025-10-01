@@ -2956,13 +2956,10 @@ goToHomescreenWithComposableToolbar
 composeTestRule
 )
 {
-}
-.
-togglePrivateBrowsingMode
+togglePrivateBrowsingModeOnOff
 (
+composeTestRule
 )
-homeScreen
-{
 }
 .
 openSearchWithComposableToolbar
