@@ -3929,6 +3929,8 @@ AddAcceptAndDictionaryHeaders
 nsIURI
 *
 aURI
+ExtContentPolicyType
+aType
 nsHttpRequestHead
 *
 aRequest
@@ -3987,6 +3989,7 @@ mDictionaryCache
 GetDictionaryFor
 (
 aURI
+aType
 [
 self
 =
