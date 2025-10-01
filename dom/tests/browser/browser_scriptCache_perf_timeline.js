@@ -663,6 +663,8 @@ dom
 .
 script_loader
 .
+experimental
+.
 navigation_cache
 "
 true
@@ -1065,6 +1067,8 @@ set
 dom
 .
 script_loader
+.
+experimental
 .
 navigation_cache
 "
@@ -1679,6 +1683,8 @@ dom
 .
 script_loader
 .
+experimental
+.
 navigation_cache
 "
 true
@@ -2080,6 +2086,8 @@ dom
 .
 script_loader
 .
+experimental
+.
 navigation_cache
 "
 true
@@ -2463,6 +2471,8 @@ set
 dom
 .
 script_loader
+.
+experimental
 .
 navigation_cache
 "
@@ -2860,6 +2870,8 @@ set
 dom
 .
 script_loader
+.
+experimental
 .
 navigation_cache
 "
@@ -3274,6 +3286,8 @@ set
 dom
 .
 script_loader
+.
+experimental
 .
 navigation_cache
 "
