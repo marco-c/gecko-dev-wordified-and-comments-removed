@@ -130,6 +130,15 @@ test
 /
 browser
 /
+_webconsole_network
+.
+toml
+"
+"
+test
+/
+browser
+/
 _webconsole_object_inspector
 .
 toml
