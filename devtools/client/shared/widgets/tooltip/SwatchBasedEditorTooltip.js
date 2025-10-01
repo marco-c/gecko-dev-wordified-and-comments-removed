@@ -276,7 +276,7 @@ this
 swatches
 =
 new
-Map
+WeakMap
 (
 )
 ;
@@ -963,14 +963,6 @@ destroy
 (
 )
 {
-this
-.
-swatches
-.
-clear
-(
-)
-;
 this
 .
 activeSwatch
