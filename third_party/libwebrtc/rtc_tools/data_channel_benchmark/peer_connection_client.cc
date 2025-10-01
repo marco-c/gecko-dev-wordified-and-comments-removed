@@ -1744,9 +1744,6 @@ candidate
 ]
 (
 const
-webrtc
-:
-:
 RTCError
 &
 error

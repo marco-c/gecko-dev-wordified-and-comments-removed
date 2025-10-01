@@ -419,9 +419,6 @@ packet_sender_thread_
 ;
 scoped_refptr
 <
-webrtc
-:
-:
 PendingTaskSafetyFlag
 >
 task_safety_flag_

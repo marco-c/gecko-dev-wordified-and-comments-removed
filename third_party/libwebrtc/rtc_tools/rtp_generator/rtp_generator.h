@@ -236,9 +236,6 @@ RtpGenerator
 final
 :
 public
-webrtc
-:
-:
 Transport
 {
 public
