@@ -119,13 +119,9 @@ require
 |
 \
 .
+(
 importESModule
-\
-(
 |
-\
-.
-(
 defineESModuleGetters
 ?
 |
