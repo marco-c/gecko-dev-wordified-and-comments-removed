@@ -8,6 +8,11 @@ browser_allocations_browser_console
 toml
 "
 "
+browser_allocations_inspector_selections
+.
+toml
+"
+"
 browser_allocations_reload_debugger
 .
 toml
