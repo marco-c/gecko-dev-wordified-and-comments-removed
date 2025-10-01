@@ -183,11 +183,6 @@ TestURLPatternGlue
 cpp
 "
 "
-TestUseAsDictionary
-.
-cpp
-"
-"
 TestWebTransportFlowControl
 .
 cpp

@@ -2642,7 +2642,7 @@ kHasAltDataMask
 static
 const
 uint32_t
-kDictionaryMask
+kReservedMask
 =
 0x01000000
 ;
@@ -4590,10 +4590,6 @@ SHA1Sum
 Hash
 *
 aHash
-const
-nsACString
-&
-aKey
 )
 ;
 static

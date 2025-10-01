@@ -187,10 +187,6 @@ aAs
 const
 nsAString
 &
-aRel
-const
-nsAString
-&
 aType
 const
 nsAString
@@ -413,10 +409,6 @@ const
 nsAString
 &
 aAs
-const
-nsAString
-&
-aRel
 const
 nsAString
 &

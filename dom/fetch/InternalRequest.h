@@ -1643,14 +1643,6 @@ nsContentPolicyType
 aContentPolicyType
 )
 ;
-static
-RequestDestination
-MapContentPolicyTypeToRequestDestination
-(
-ExtContentPolicyType
-aContentPolicyType
-)
-;
 private
 :
 static
