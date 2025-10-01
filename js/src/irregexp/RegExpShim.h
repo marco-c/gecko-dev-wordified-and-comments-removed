@@ -3260,7 +3260,7 @@ JS_HAZ_GC_POINTER
 ;
 inline
 bool
-IsException
+IsExceptionHole
 (
 Object
 obj
