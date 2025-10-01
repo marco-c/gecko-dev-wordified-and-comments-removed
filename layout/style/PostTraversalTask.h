@@ -7,14 +7,14 @@ mozilla_PostTraversalTask_h
 #
 include
 "
-nscore
+nsString
 .
 h
 "
 #
 include
 "
-nsString
+nscore
 .
 h
 "
