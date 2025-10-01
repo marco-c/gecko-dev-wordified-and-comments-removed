@@ -683,7 +683,7 @@ success
 )
 ;
 await
-checkAllLoginsRendered
+checkAllLoginsUpdated
 (
 megalist
 )
@@ -1190,7 +1190,7 @@ success
 )
 ;
 await
-checkAllLoginsRendered
+checkAllLoginsUpdated
 (
 megalist
 )
@@ -1372,7 +1372,7 @@ success
 )
 ;
 await
-checkAllLoginsRendered
+checkAllLoginsUpdated
 (
 megalist
 )
