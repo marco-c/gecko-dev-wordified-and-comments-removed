@@ -485,6 +485,8 @@ lineNumber
 column
 :
 columnNumber
+-
+1
 }
 callback
 )
@@ -1080,6 +1082,8 @@ lineNumber
 column
 :
 columnNumber
+-
+1
 source
 :
 {
