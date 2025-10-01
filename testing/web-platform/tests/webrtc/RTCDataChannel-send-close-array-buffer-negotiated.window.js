@@ -36,6 +36,12 @@ rtc_data_channel_send_close_test
 (
 largeArrayBuffer
 {
+negotiated
+:
+true
+id
+:
+0
 }
 )
 ;
