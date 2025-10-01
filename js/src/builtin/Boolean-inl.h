@@ -72,7 +72,7 @@ WrapperObject
 ?
 obj
 :
-UncheckedUnwrapWithoutExpose
+UncheckedUnwrap
 (
 obj
 )
@@ -104,12 +104,6 @@ fuseValue
 {
 AutoUnsafeCallWithABI
 unsafe
-(
-UnsafeABIStrictness
-:
-:
-AllowPendingExceptions
-)
 ;
 JSObject
 *
@@ -131,7 +125,7 @@ WrapperObject
 ?
 obj
 :
-UncheckedUnwrapWithoutExpose
+UncheckedUnwrap
 (
 obj
 )
