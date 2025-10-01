@@ -106,8 +106,6 @@ t
 linux
 -
 docker
--
-amd
 worker
 :
 artifacts

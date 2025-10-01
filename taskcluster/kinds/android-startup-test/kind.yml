@@ -131,8 +131,6 @@ t
 linux
 -
 docker
--
-amd
 worker
 :
 docker
