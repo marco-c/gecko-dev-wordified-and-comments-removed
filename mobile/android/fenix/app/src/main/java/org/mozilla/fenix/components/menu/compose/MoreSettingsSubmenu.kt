@@ -255,6 +255,9 @@ Boolean
 isWebCompatEnabled
 :
 Boolean
+isOpenInAppMenuHighlighted
+:
+Boolean
 translationInfo
 :
 TranslationInfo
@@ -547,6 +550,9 @@ drawable
 .
 mozac_ic_more_grid_24
 )
+isBeforeIconHighlighted
+=
+isOpenInAppMenuHighlighted
 state
 =
 MenuItemState
@@ -964,6 +970,9 @@ true
 isWebCompatEnabled
 =
 true
+isOpenInAppMenuHighlighted
+=
+false
 translationInfo
 =
 TranslationInfo
@@ -1086,6 +1095,9 @@ isWebCompatReporterSupported
 =
 true
 isWebCompatEnabled
+=
+true
+isOpenInAppMenuHighlighted
 =
 true
 translationInfo
