@@ -5871,7 +5871,7 @@ backCommand
 setAttribute
 (
 "
-wasdisabled
+disabled
 "
 "
 true
@@ -5897,7 +5897,7 @@ fwdCommand
 setAttribute
 (
 "
-wasdisabled
+disabled
 "
 "
 true
