@@ -14,6 +14,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 memory
 >
 #
@@ -60,7 +65,9 @@ include
 "
 rtc_base
 /
-checks
+numerics
+/
+safe_compare
 .
 h
 "

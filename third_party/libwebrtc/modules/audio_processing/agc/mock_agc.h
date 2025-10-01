@@ -6,6 +6,11 @@ define
 MODULES_AUDIO_PROCESSING_AGC_MOCK_AGC_H_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 api
 /

@@ -7,6 +7,11 @@ MODULES_AUDIO_PROCESSING_AGC_AGC_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 memory
 >
 #

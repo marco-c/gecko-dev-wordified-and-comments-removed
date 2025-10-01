@@ -7,6 +7,11 @@ MODULES_AUDIO_PROCESSING_TEST_CONVERSATIONAL_SPEECH_MOCK_WAVREADER_FACTORY_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 map
 >
 #

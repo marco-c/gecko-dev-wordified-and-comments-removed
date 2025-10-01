@@ -12,6 +12,11 @@ array
 #
 include
 <
+cstdint
+>
+#
+include
+<
 vector
 >
 #

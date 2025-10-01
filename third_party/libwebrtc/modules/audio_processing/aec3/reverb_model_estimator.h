@@ -12,6 +12,11 @@ array
 #
 include
 <
+cstddef
+>
+#
+include
+<
 memory
 >
 #

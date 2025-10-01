@@ -7,6 +7,11 @@ MODULES_AUDIO_PROCESSING_HIGH_PASS_FILTER_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 memory
 >
 #
@@ -14,15 +19,6 @@ include
 <
 vector
 >
-#
-include
-"
-api
-/
-array_view
-.
-h
-"
 #
 include
 "

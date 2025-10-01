@@ -7,11 +7,6 @@ MODULES_AUDIO_PROCESSING_AGC2_CLIPPING_PREDICTOR_LEVEL_BUFFER_H_
 #
 include
 <
-memory
->
-#
-include
-<
 optional
 >
 #

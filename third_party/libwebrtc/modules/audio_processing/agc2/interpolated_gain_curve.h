@@ -11,6 +11,16 @@ array
 >
 #
 include
+<
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
 "
 absl
 /

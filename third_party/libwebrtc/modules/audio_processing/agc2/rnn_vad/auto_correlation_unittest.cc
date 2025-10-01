@@ -15,6 +15,16 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
+<
+array
+>
+#
+include
 "
 modules
 /

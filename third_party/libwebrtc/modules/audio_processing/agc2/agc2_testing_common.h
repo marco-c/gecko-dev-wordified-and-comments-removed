@@ -7,6 +7,11 @@ MODULES_AUDIO_PROCESSING_AGC2_AGC2_TESTING_COMMON_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 limits
 >
 #

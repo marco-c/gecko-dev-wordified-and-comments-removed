@@ -7,9 +7,12 @@ MODULES_AUDIO_PROCESSING_TEST_CONVERSATIONAL_SPEECH_WAVREADER_INTERFACE_H_
 #
 include
 <
-stddef
-.
-h
+cstddef
+>
+#
+include
+<
+cstdint
 >
 #
 include

@@ -7,11 +7,6 @@ MODULES_AUDIO_PROCESSING_AGC2_RNN_VAD_PITCH_SEARCH_H_
 #
 include
 <
-memory
->
-#
-include
-<
 vector
 >
 #

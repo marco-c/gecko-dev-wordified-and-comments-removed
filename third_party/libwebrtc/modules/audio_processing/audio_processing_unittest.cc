@@ -12,13 +12,6 @@ h
 #
 include
 <
-math
-.
-h
->
-#
-include
-<
 stdio
 .
 h
@@ -42,6 +35,11 @@ cmath
 include
 <
 cstdint
+>
+#
+include
+<
+cstdio
 >
 #
 include

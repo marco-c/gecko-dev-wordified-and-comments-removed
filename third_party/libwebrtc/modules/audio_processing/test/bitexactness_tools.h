@@ -7,6 +7,11 @@ MODULES_AUDIO_PROCESSING_TEST_BITEXACTNESS_TOOLS_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 string
 >
 #

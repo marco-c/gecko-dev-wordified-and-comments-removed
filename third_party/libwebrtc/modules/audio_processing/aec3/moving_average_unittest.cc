@@ -13,6 +13,16 @@ h
 "
 #
 include
+<
+array
+>
+#
+include
+<
+cstddef
+>
+#
+include
 "
 test
 /

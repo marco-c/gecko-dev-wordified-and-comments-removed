@@ -6,11 +6,6 @@ define
 MODULES_AUDIO_PROCESSING_AGC2_ADAPTIVE_DIGITAL_GAIN_CONTROLLER_H_
 #
 include
-<
-vector
->
-#
-include
 "
 api
 /

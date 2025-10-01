@@ -18,6 +18,16 @@ algorithm
 >
 #
 include
+<
+cstddef
+>
+#
+include
+<
+optional
+>
+#
+include
 "
 rtc_base
 /

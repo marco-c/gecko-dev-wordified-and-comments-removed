@@ -14,7 +14,17 @@ h
 #
 include
 <
+cstddef
+>
+#
+include
+<
 string
+>
+#
+include
+<
+tuple
 >
 #
 include

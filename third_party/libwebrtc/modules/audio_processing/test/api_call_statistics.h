@@ -7,6 +7,11 @@ MODULES_AUDIO_PROCESSING_TEST_API_CALL_STATISTICS_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 vector
 >
 #

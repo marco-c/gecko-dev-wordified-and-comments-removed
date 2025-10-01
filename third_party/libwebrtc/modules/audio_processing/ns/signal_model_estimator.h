@@ -7,7 +7,7 @@ MODULES_AUDIO_PROCESSING_NS_SIGNAL_MODEL_ESTIMATOR_H_
 #
 include
 <
-array
+cstdint
 >
 #
 include

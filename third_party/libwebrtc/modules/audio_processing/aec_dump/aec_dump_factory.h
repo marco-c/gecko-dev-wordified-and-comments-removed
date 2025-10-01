@@ -7,6 +7,16 @@ MODULES_AUDIO_PROCESSING_AEC_DUMP_AEC_DUMP_FACTORY_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
+cstdio
+>
+#
+include
+<
 memory
 >
 #

@@ -54,6 +54,17 @@ h
 #
 include
 "
+api
+/
+environment
+/
+environment
+.
+h
+"
+#
+include
+"
 modules
 /
 audio_processing

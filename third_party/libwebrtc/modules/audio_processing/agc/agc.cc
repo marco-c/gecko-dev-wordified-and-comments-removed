@@ -19,6 +19,11 @@ cmath
 #
 include
 <
+cstdint
+>
+#
+include
+<
 cstdlib
 >
 #
@@ -26,6 +31,15 @@ include
 <
 vector
 >
+#
+include
+"
+api
+/
+array_view
+.
+h
+"
 #
 include
 "

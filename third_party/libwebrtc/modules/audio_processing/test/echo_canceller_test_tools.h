@@ -7,7 +7,7 @@ MODULES_AUDIO_PROCESSING_TEST_ECHO_CANCELLER_TEST_TOOLS_H_
 #
 include
 <
-algorithm
+cstddef
 >
 #
 include

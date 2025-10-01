@@ -5,11 +5,6 @@ array
 >
 #
 include
-<
-vector
->
-#
-include
 "
 api
 /

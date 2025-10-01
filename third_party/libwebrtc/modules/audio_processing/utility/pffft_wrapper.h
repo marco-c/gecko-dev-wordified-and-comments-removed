@@ -7,6 +7,11 @@ MODULES_AUDIO_PROCESSING_UTILITY_PFFFT_WRAPPER_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 memory
 >
 #

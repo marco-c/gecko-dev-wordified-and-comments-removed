@@ -228,6 +228,12 @@ capture_levels_adjuster
 .
 .
 :
+audio_buffer
+"
+"
+.
+.
+:
 audioproc_test_utils
 "
 "

@@ -19,6 +19,11 @@ algorithm
 #
 include
 <
+cstdint
+>
+#
+include
+<
 fstream
 >
 #
