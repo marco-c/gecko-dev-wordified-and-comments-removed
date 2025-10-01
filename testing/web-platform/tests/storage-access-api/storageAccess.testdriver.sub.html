@@ -198,6 +198,12 @@ t
 >
 {
 await
+SetFirstPartyCookie
+(
+wwwAlt
+)
+;
+await
 MaybeSetStorageAccess
 (
 "
@@ -288,7 +294,7 @@ responder_html
 assert_false
 (
 await
-CanFrameWriteCookies
+HasUnpartitionedCookie
 (
 frame
 )
@@ -302,7 +308,8 @@ not
 be
 allowed
 to
-write
+read
+unpartitioned
 cookies
 via
 document
