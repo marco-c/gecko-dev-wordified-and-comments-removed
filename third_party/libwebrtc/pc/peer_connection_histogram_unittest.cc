@@ -324,7 +324,6 @@ webrtc
 {
 namespace
 {
-static
 constexpr
 const
 char
@@ -534,7 +533,6 @@ testing
 :
 NiceMock
 ;
-static
 const
 char
 kUsagePatternMetric
@@ -549,7 +547,6 @@ PeerConnection
 UsagePattern
 "
 ;
-static
 constexpr
 TimeDelta
 kDefaultTimeout
@@ -562,7 +559,6 @@ Millis
 10000
 )
 ;
-static
 const
 SocketAddress
 kLocalAddrs
@@ -599,7 +595,6 @@ SocketAddress
 )
 }
 ;
-static
 const
 SocketAddress
 kPrivateLocalAddress
@@ -616,7 +611,6 @@ kPrivateLocalAddress
 0
 )
 ;
-static
 const
 SocketAddress
 kPrivateIpv6LocalAddress
@@ -3699,7 +3693,6 @@ expected_fingerprint_callee
 )
 ;
 }
-static
 struct
 IPAddressTypeTestConfig
 {

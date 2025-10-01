@@ -1174,7 +1174,6 @@ mutex_
 ;
 }
 ;
-static
 std
 :
 :
@@ -1243,7 +1242,6 @@ new_map
 #
 if
 RTC_DCHECK_IS_ON
-static
 std
 :
 :

@@ -275,7 +275,6 @@ seed_
 ;
 }
 ;
-static
 const
 char
 kBase64
@@ -478,7 +477,6 @@ z
 '
 }
 ;
-static
 const
 char
 kHex
@@ -537,7 +535,6 @@ f
 '
 }
 ;
-static
 const
 char
 kUuidDigit17

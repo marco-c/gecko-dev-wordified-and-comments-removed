@@ -307,14 +307,12 @@ webrtc
 UDP_PROTOCOL_NAME
 ;
 }
-static
 constexpr
 int
 a_is_better
 =
 1
 ;
-static
 constexpr
 int
 b_is_better
@@ -322,7 +320,6 @@ b_is_better
 -
 1
 ;
-static
 constexpr
 int
 a_and_b_equal

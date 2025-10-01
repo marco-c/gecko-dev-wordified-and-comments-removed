@@ -125,7 +125,6 @@ AGC_NULL_POINTER_ERROR
 define
 AGC_BAD_PARAMETER_ERROR
 18004
-static
 const
 int16_t
 kSlope1
@@ -144,7 +143,6 @@ kSlope1
 78
 }
 ;
-static
 const
 int16_t
 kOffset1
@@ -163,7 +161,6 @@ kOffset1
 17367
 }
 ;
-static
 const
 int16_t
 kSlope2
@@ -182,7 +179,6 @@ kSlope2
 337
 }
 ;
-static
 const
 int16_t
 kOffset2
@@ -201,21 +197,18 @@ kOffset2
 17286
 }
 ;
-static
 const
 int16_t
 kMuteGuardTimeMs
 =
 8000
 ;
-static
 const
 int16_t
 kInitCheck
 =
 42
 ;
-static
 const
 size_t
 kNumSubframes
@@ -259,7 +252,6 @@ DIFF_REF_TO_ANALOG
 define
 GAIN_TBL_LEN
 32
-static
 const
 uint16_t
 kGainTableAnalog
@@ -302,7 +294,6 @@ GAIN_TBL_LEN
 12953
 }
 ;
-static
 const
 uint16_t
 kGainTableVirtualMic
@@ -441,7 +432,6 @@ kGainTableVirtualMic
 32382
 }
 ;
-static
 const
 uint16_t
 kSuppressionTableVirtualMic
@@ -580,7 +570,6 @@ kSuppressionTableVirtualMic
 102
 }
 ;
-static
 const
 int32_t
 kTargetLevelTable

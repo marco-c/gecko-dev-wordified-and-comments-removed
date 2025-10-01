@@ -409,7 +409,6 @@ testing
 :
 WithParamInterface
 ;
-static
 const
 char
 kRSA_PRIVATE_KEY_PEM
@@ -684,7 +683,6 @@ n
 #
 undef
 RSA_PRIVATE_KEY_HEADER
-static
 const
 char
 kCERT_PEM
@@ -856,7 +854,6 @@ CERTIFICATE
 n
 "
 ;
-static
 const
 char
 kIntCert1
@@ -1139,7 +1136,6 @@ CERTIFICATE
 n
 "
 ;
-static
 const
 char
 kCACert
@@ -2418,14 +2414,12 @@ buffer_
 ;
 }
 ;
-static
 const
 int
 kBufferCapacity
 =
 1
 ;
-static
 const
 size_t
 kDefaultBufferSize

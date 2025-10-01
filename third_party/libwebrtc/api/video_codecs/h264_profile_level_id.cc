@@ -439,7 +439,6 @@ level
 ;
 }
 ;
-static
 constexpr
 LevelConstraint
 kLevelConstraints

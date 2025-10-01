@@ -211,14 +211,12 @@ AnyForwardTsnChunk
 :
 SkippedStream
 ;
-static
 constexpr
 size_t
 kBufferSize
 =
 10000
 ;
-static
 constexpr
 StreamID
 kStreamID
@@ -226,7 +224,6 @@ kStreamID
 1
 )
 ;
-static
 constexpr
 SSN
 kSSN
@@ -234,7 +231,6 @@ kSSN
 0
 )
 ;
-static
 constexpr
 MID
 kMID
@@ -242,7 +238,6 @@ kMID
 0
 )
 ;
-static
 constexpr
 FSN
 kFSN
@@ -250,7 +245,6 @@ kFSN
 0
 )
 ;
-static
 constexpr
 PPID
 kPPID
@@ -258,7 +252,6 @@ kPPID
 53
 )
 ;
-static
 constexpr
 std
 :
@@ -277,7 +270,6 @@ kShortPayload
 4
 }
 ;
-static
 constexpr
 std
 :
@@ -296,7 +288,6 @@ kMessage2Payload
 8
 }
 ;
-static
 constexpr
 std
 :
@@ -317,7 +308,6 @@ kSixBytePayload
 6
 }
 ;
-static
 constexpr
 std
 :
@@ -340,7 +330,6 @@ kMediumPayload1
 8
 }
 ;
-static
 constexpr
 std
 :
@@ -363,7 +352,6 @@ kMediumPayload2
 16
 }
 ;
-static
 constexpr
 std
 :

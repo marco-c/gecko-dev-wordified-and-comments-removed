@@ -132,14 +132,12 @@ rtcp
 {
 namespace
 {
-static
 constexpr
 int
 kFieldValueSize
 =
 3
 ;
-static
 constexpr
 int
 kFieldSize
@@ -148,7 +146,6 @@ kFieldSize
 +
 kFieldValueSize
 ;
-static
 constexpr
 DataRate
 kDataRateResolution

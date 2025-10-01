@@ -549,7 +549,6 @@ kTestCertSha512
 0xb6
 }
 ;
-static
 const
 char
 kRSA_PRIVATE_KEY_PEM
@@ -716,7 +715,6 @@ KEY
 n
 "
 ;
-static
 const
 char
 kRSA_PUBLIC_KEY_PEM
@@ -788,7 +786,6 @@ KEY
 n
 "
 ;
-static
 const
 char
 kRSA_CERT_PEM
@@ -906,7 +903,6 @@ CERTIFICATE
 n
 "
 ;
-static
 const
 char
 kRSA_FINGERPRINT
@@ -981,7 +977,6 @@ E2
 2B
 "
 ;
-static
 const
 char
 kRSA_FINGERPRINT_ALGORITHM
@@ -994,7 +989,6 @@ sha
 256
 "
 ;
-static
 const
 char
 kRSA_BASE64_CERTIFICATE
@@ -1059,7 +1053,6 @@ Q
 =
 "
 ;
-static
 const
 char
 kECDSA_PRIVATE_KEY_PEM
@@ -1125,7 +1118,6 @@ KEY
 n
 "
 ;
-static
 const
 char
 kECDSA_PUBLIC_KEY_PEM
@@ -1188,7 +1180,6 @@ KEY
 n
 "
 ;
-static
 const
 char
 kECDSA_CERT_PEM
@@ -1269,7 +1260,6 @@ CERTIFICATE
 n
 "
 ;
-static
 const
 char
 kECDSA_FINGERPRINT
@@ -1344,7 +1334,6 @@ FF
 89
 "
 ;
-static
 const
 char
 kECDSA_FINGERPRINT_ALGORITHM
@@ -1357,7 +1346,6 @@ sha
 256
 "
 ;
-static
 const
 char
 kECDSA_BASE64_CERTIFICATE

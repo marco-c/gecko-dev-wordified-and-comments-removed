@@ -448,7 +448,6 @@ tracing
 {
 namespace
 {
-static
 std
 :
 :
@@ -1745,7 +1744,6 @@ false
 ;
 }
 ;
-static
 std
 :
 :
@@ -1759,7 +1757,6 @@ g_event_logger
 nullptr
 )
 ;
-static
 const
 char
 *

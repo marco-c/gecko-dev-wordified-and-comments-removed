@@ -136,7 +136,6 @@ testing
 :
 ValuesIn
 ;
-static
 std
 :
 :

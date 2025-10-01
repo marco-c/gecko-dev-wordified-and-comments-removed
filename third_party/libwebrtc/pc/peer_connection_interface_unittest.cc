@@ -776,7 +776,6 @@ webrtc
 {
 namespace
 {
-static
 const
 char
 kStreamId1
@@ -787,7 +786,6 @@ kStreamId1
 local_stream_1
 "
 ;
-static
 const
 char
 kStreamId2
@@ -798,7 +796,6 @@ kStreamId2
 local_stream_2
 "
 ;
-static
 const
 char
 kStreamId3
@@ -809,14 +806,12 @@ kStreamId3
 local_stream_3
 "
 ;
-static
 const
 int
 kDefaultStunPort
 =
 3478
 ;
-static
 const
 char
 kStunAddressOnly
@@ -829,7 +824,6 @@ stun
 address
 "
 ;
-static
 const
 char
 kStunInvalidPort
@@ -845,7 +839,6 @@ address
 1
 "
 ;
-static
 const
 char
 kStunAddressPortAndMore1
@@ -862,7 +855,6 @@ port
 more
 "
 ;
-static
 const
 char
 kStunAddressPortAndMore2
@@ -878,7 +870,6 @@ port
 more
 "
 ;
-static
 const
 char
 kTurnIceServerUri
@@ -895,7 +886,6 @@ example
 org
 "
 ;
-static
 const
 char
 kTurnUsername
@@ -906,7 +896,6 @@ kTurnUsername
 user
 "
 ;
-static
 const
 char
 kTurnPassword
@@ -917,7 +906,6 @@ kTurnPassword
 password
 "
 ;
-static
 const
 char
 kTurnHostname
@@ -932,14 +920,12 @@ example
 org
 "
 ;
-static
 const
 uint32_t
 kTimeout
 =
 10000U
 ;
-static
 const
 char
 kStreams
@@ -958,7 +944,6 @@ stream2
 "
 }
 ;
-static
 const
 char
 kAudioTracks
@@ -977,7 +962,6 @@ audiotrack1
 "
 }
 ;
-static
 const
 char
 kVideoTracks
@@ -996,7 +980,6 @@ videotrack1
 "
 }
 ;
-static
 const
 char
 kRecvonly
@@ -1007,7 +990,6 @@ kRecvonly
 recvonly
 "
 ;
-static
 const
 char
 kSendrecv
@@ -1018,7 +1000,6 @@ kSendrecv
 sendrecv
 "
 ;
-static
 const
 char
 kSdpStringWithStream1PlanB
@@ -1460,7 +1441,6 @@ r
 n
 "
 ;
-static
 const
 char
 kSdpStringWithStream1UnifiedPlan
@@ -1896,7 +1876,6 @@ r
 n
 "
 ;
-static
 const
 char
 kSdpStringWithStream1AudioTrackOnly
@@ -2146,7 +2125,6 @@ r
 n
 "
 ;
-static
 const
 char
 kSdpStringWithStream1And2PlanB
@@ -2661,7 +2639,6 @@ r
 n
 "
 ;
-static
 const
 char
 kSdpStringWithStream1And2UnifiedPlan
@@ -3504,7 +3481,6 @@ r
 n
 "
 ;
-static
 const
 char
 kSdpStringWithoutStreams
@@ -3888,7 +3864,6 @@ r
 n
 "
 ;
-static
 const
 char
 kSdpStringWithMsidWithoutStreams
@@ -4285,7 +4260,6 @@ r
 n
 "
 ;
-static
 const
 char
 kSdpStringWithoutStreamsAudioOnly
@@ -4506,7 +4480,6 @@ r
 n
 "
 ;
-static
 const
 char
 kSdpStringSendOnlyWithoutStreams
@@ -4908,7 +4881,6 @@ r
 n
 "
 ;
-static
 const
 char
 kSdpStringInit
@@ -4977,7 +4949,6 @@ r
 n
 "
 ;
-static
 const
 char
 kSdpStringAudio
@@ -5150,7 +5121,6 @@ r
 n
 "
 ;
-static
 const
 char
 kSdpStringVideo
@@ -5321,7 +5291,6 @@ r
 n
 "
 ;
-static
 const
 char
 kSdpStringMs1Audio0
@@ -5358,7 +5327,6 @@ r
 n
 "
 ;
-static
 const
 char
 kSdpStringMs1Video0
@@ -5395,7 +5363,6 @@ r
 n
 "
 ;
-static
 const
 char
 kSdpStringMs1Audio1
@@ -5432,7 +5399,6 @@ r
 n
 "
 ;
-static
 const
 char
 kSdpStringMs1Video1

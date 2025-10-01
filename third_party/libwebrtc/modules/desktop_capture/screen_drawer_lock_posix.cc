@@ -71,7 +71,6 @@ webrtc
 {
 namespace
 {
-static
 constexpr
 char
 kSemaphoreName

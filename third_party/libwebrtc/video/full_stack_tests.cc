@@ -321,7 +321,6 @@ webrtc
 {
 namespace
 {
-static
 const
 int
 kFullStackTestDurationSecs

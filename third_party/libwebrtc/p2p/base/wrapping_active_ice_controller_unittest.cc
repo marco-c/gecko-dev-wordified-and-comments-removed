@@ -362,7 +362,6 @@ NiceMock
 MockIceController
 >
 ;
-static
 const
 Connection
 *
@@ -378,7 +377,6 @@ Connection
 0xabcd
 )
 ;
-static
 const
 Connection
 *
@@ -394,7 +392,6 @@ Connection
 0xbcde
 )
 ;
-static
 const
 Connection
 *
@@ -410,7 +407,6 @@ Connection
 0xcdef
 )
 ;
-static
 const
 std
 :
@@ -435,7 +431,6 @@ Connection
 (
 )
 ;
-static
 const
 TimeDelta
 kTick

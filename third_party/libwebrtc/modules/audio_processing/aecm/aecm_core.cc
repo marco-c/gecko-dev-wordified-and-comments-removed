@@ -162,7 +162,6 @@ testfile
 ;
 #
 endif
-static
 const
 int16_t
 kChannelStored8kHz
@@ -238,7 +237,6 @@ PART_LEN1
 1676
 }
 ;
-static
 const
 int16_t
 kChannelStored16kHz

@@ -522,7 +522,6 @@ return
 0
 ;
 }
-static
 int
 GetMaxDefaultVideoBitrateKbps
 (

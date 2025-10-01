@@ -76,7 +76,6 @@ webrtc
 {
 namespace
 {
-static
 const
 char
 *

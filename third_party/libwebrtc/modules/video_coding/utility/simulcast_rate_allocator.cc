@@ -156,7 +156,6 @@ webrtc
 {
 namespace
 {
-static
 const
 float
 kLayerRateAllocation
@@ -226,7 +225,6 @@ kMaxTemporalStreams
 }
 }
 ;
-static
 const
 float
 kBaseHeavy3TlRateAllocation

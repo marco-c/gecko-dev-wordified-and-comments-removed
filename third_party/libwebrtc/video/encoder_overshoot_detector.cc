@@ -75,7 +75,6 @@ webrtc
 {
 namespace
 {
-static
 constexpr
 double
 kMaxMediaUnderrunFrames

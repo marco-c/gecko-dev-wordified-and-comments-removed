@@ -480,14 +480,12 @@ webrtc
 {
 namespace
 {
-static
 const
 int64_t
 kRetransmitWindowSizeMs
 =
 500
 ;
-static
 const
 size_t
 kMaxOverheadBytes

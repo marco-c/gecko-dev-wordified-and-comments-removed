@@ -679,14 +679,12 @@ default
 }
 namespace
 {
-static
 const
 int
 kMinSendSidePacketHistorySize
 =
 600
 ;
-static
 const
 size_t
 kPathMTU

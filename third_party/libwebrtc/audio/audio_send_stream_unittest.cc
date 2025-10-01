@@ -560,7 +560,6 @@ testing
 :
 WithArg
 ;
-static
 const
 float
 kTolerance

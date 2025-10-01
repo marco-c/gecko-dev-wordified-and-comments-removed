@@ -89,7 +89,6 @@ level
 id
 "
 ;
-static
 constexpr
 int
 kMinCbSizeYMax
@@ -117,7 +116,6 @@ level
 ;
 }
 ;
-static
 constexpr
 LevelConstraint
 kLevelConstraints

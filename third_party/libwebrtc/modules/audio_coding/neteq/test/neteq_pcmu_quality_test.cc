@@ -166,14 +166,12 @@ test
 {
 namespace
 {
-static
 const
 int
 kInputSampleRateKhz
 =
 8
 ;
-static
 const
 int
 kOutputSampleRateKhz

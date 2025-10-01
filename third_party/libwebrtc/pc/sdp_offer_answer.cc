@@ -1126,14 +1126,12 @@ description
 :
 "
 ;
-static
 const
 int
 kRtcpCnameLength
 =
 16
 ;
-static
 constexpr
 size_t
 kMidMaxSize
@@ -1150,7 +1148,6 @@ kDefaultStreamId
 default
 "
 ;
-static
 const
 char
 kDefaultAudioSenderId
@@ -1161,7 +1158,6 @@ kDefaultAudioSenderId
 defaulta0
 "
 ;
-static
 const
 char
 kDefaultVideoSenderId

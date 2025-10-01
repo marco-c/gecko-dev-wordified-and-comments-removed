@@ -653,7 +653,6 @@ testing
 :
 UnorderedElementsAre
 ;
-static
 const
 char
 kStunIceServer
@@ -674,7 +673,6 @@ com
 19302
 "
 ;
-static
 const
 char
 kTurnIceServer
@@ -691,7 +689,6 @@ com
 1234
 "
 ;
-static
 const
 char
 kTurnIceServerWithTransport
@@ -710,7 +707,6 @@ transport
 tcp
 "
 ;
-static
 const
 char
 kSecureTurnIceServer
@@ -729,7 +725,6 @@ transport
 tcp
 "
 ;
-static
 const
 char
 kSecureTurnIceServerWithoutTransportParam
@@ -746,7 +741,6 @@ com
 443
 "
 ;
-static
 const
 char
 kSecureTurnIceServerWithoutTransportAndPortParam
@@ -761,7 +755,6 @@ hello
 com
 "
 ;
-static
 const
 char
 kTurnIceServerWithNoUsernameInUri
@@ -778,7 +771,6 @@ com
 1234
 "
 ;
-static
 const
 char
 kTurnPassword
@@ -789,21 +781,18 @@ kTurnPassword
 turnpassword
 "
 ;
-static
 const
 int
 kDefaultStunPort
 =
 3478
 ;
-static
 const
 int
 kDefaultStunTlsPort
 =
 5349
 ;
-static
 const
 char
 kTurnUsername
@@ -814,7 +803,6 @@ kTurnUsername
 test
 "
 ;
-static
 const
 char
 kStunIceServerWithIPv4Address
@@ -835,7 +823,6 @@ stun
 1234
 "
 ;
-static
 const
 char
 kStunIceServerWithIPv4AddressWithoutPort
@@ -854,7 +841,6 @@ stun
 4
 "
 ;
-static
 const
 char
 kStunIceServerWithIPv6Address
@@ -877,7 +863,6 @@ fa00
 1234
 "
 ;
-static
 const
 char
 kStunIceServerWithIPv6AddressWithoutPort
@@ -898,7 +883,6 @@ fa00
 ]
 "
 ;
-static
 const
 char
 kTurnIceServerWithIPv6Address

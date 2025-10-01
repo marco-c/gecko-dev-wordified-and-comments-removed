@@ -681,14 +681,12 @@ internal
 {
 namespace
 {
-static
 constexpr
 int
 kMaxVbaSizeDifferencePercent
 =
 10
 ;
-static
 constexpr
 int64_t
 kMaxVbaThrottleTimeMs
@@ -729,7 +727,6 @@ kMinDefaultAv1BitrateBps
 =
 15000
 ;
-static
 constexpr
 double
 kStrictPacingMultiplier

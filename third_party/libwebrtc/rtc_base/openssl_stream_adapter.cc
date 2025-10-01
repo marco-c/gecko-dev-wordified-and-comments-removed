@@ -412,7 +412,6 @@ SRTP
 endif
 namespace
 {
-static
 constexpr
 absl
 :

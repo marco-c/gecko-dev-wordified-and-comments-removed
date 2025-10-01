@@ -153,7 +153,6 @@ webrtc
 {
 namespace
 {
-static
 const
 ALIGN8_BEG
 int16_t
@@ -277,21 +276,18 @@ kBeta3
 ;
 #
 endif
-static
 const
 int16_t
 kNoiseEstQDomain
 =
 15
 ;
-static
 const
 int16_t
 kNoiseEstIncCount
 =
 5
 ;
-static
 void
 ComfortNoise
 (
@@ -985,7 +981,6 @@ i
 ;
 }
 }
-static
 void
 WindowAndFFT
 (
@@ -1152,7 +1147,6 @@ imag
 ;
 }
 }
-static
 void
 InverseFFTAndWindow
 (
@@ -1508,7 +1502,6 @@ PART_LEN
 ;
 }
 }
-static
 int
 TimeToFrequencyDomain
 (

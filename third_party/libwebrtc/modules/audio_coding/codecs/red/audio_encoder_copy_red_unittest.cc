@@ -232,7 +232,6 @@ webrtc
 {
 namespace
 {
-static
 const
 size_t
 kMaxNumSamples
@@ -243,7 +242,6 @@ kMaxNumSamples
 *
 2
 ;
-static
 const
 size_t
 kRedLastHeaderLength

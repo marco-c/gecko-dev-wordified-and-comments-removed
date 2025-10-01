@@ -501,7 +501,6 @@ return
 adjusted_spatial_layer_rates
 ;
 }
-static
 std
 :
 :

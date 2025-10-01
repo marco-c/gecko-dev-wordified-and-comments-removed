@@ -618,7 +618,6 @@ endif
 endif
 namespace
 {
-static
 constexpr
 uint8_t
 kEcnMask

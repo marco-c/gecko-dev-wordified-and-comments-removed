@@ -1035,28 +1035,24 @@ webrtc
 :
 SocketAddress
 ;
-static
 const
 int
 kDefaultTimeout
 =
 10000
 ;
-static
 const
 int
 kMediumTimeout
 =
 3000
 ;
-static
 const
 int
 kShortTimeout
 =
 1000
 ;
-static
 const
 int
 kOnlyLocalPorts
@@ -1076,14 +1072,12 @@ webrtc
 :
 PORTALLOCATOR_DISABLE_TCP
 ;
-static
 const
 int
 LOW_RTT
 =
 20
 ;
-static
 const
 SocketAddress
 kPublicAddrs
@@ -1120,7 +1114,6 @@ SocketAddress
 )
 }
 ;
-static
 const
 SocketAddress
 kIPv6PublicAddrs
@@ -1173,7 +1166,6 @@ f2a4
 )
 }
 ;
-static
 const
 SocketAddress
 kAlternateAddrs
@@ -1210,7 +1202,6 @@ SocketAddress
 )
 }
 ;
-static
 const
 SocketAddress
 kIPv6AlternateAddrs
@@ -1263,7 +1254,6 @@ f2a4
 )
 }
 ;
-static
 const
 SocketAddress
 kNatAddrs
@@ -1300,7 +1290,6 @@ SocketAddress
 )
 }
 ;
-static
 const
 SocketAddress
 kPrivateAddrs
@@ -1337,7 +1326,6 @@ SocketAddress
 )
 }
 ;
-static
 const
 SocketAddress
 kCascadedNatAddrs
@@ -1374,7 +1362,6 @@ SocketAddress
 )
 }
 ;
-static
 const
 SocketAddress
 kCascadedPrivateAddrs
@@ -1411,7 +1398,6 @@ SocketAddress
 )
 }
 ;
-static
 const
 SocketAddress
 kStunAddr
@@ -1431,7 +1417,6 @@ webrtc
 STUN_SERVER_PORT
 )
 ;
-static
 const
 SocketAddress
 kTurnUdpIntAddr
@@ -1451,7 +1436,6 @@ webrtc
 STUN_SERVER_PORT
 )
 ;
-static
 const
 SocketAddress
 kTurnTcpIntAddr
@@ -1473,7 +1457,6 @@ STUN_SERVER_PORT
 1
 )
 ;
-static
 const
 SocketAddress
 kTurnUdpExtAddr
@@ -1490,7 +1473,6 @@ kTurnUdpExtAddr
 0
 )
 ;
-static
 const
 webrtc
 :

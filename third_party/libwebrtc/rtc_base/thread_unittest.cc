@@ -2653,7 +2653,6 @@ IsRtcOk
 )
 ;
 }
-static
 void
 DelayedPostsWithIdenticalTimesAreProcessedInFifoOrder
 (

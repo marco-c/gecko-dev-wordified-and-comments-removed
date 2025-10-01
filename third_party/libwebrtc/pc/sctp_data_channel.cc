@@ -251,7 +251,6 @@ webrtc
 {
 namespace
 {
-static
 size_t
 kMaxQueuedReceivedDataBytes
 =
@@ -261,7 +260,6 @@ kMaxQueuedReceivedDataBytes
 *
 1024
 ;
-static
 std
 :
 :

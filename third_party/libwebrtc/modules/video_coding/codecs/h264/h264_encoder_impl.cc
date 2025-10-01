@@ -302,14 +302,12 @@ kOpenH264EncoderDetailedLogging
 =
 false
 ;
-static
 const
 int
 kLowH264QpThreshold
 =
 24
 ;
-static
 const
 int
 kHighH264QpThreshold

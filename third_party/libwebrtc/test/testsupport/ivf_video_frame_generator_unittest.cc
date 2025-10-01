@@ -413,7 +413,6 @@ Seconds
 2
 )
 ;
-static
 const
 VideoEncoder
 :

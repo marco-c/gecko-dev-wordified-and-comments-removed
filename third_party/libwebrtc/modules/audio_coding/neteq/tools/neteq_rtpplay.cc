@@ -1188,7 +1188,6 @@ return
 true
 ;
 }
-static
 bool
 ValidateExtensionId
 (

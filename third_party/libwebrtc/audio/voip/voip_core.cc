@@ -80,7 +80,6 @@ kAudioDeviceId
 ;
 #
 endif
-static
 constexpr
 int
 kMaxChannelId

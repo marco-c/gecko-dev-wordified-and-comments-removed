@@ -886,7 +886,6 @@ Hertz
 )
 }
 ;
-static
 constexpr
 Frequency
 k90kHz

@@ -263,7 +263,6 @@ webrtc
 {
 namespace
 {
-static
 const
 char
 kFailedDueToIdentityFailed
@@ -279,7 +278,6 @@ request
 failed
 "
 ;
-static
 const
 char
 kFailedDueToSessionShutdown
@@ -296,14 +294,12 @@ shut
 down
 "
 ;
-static
 const
 uint64_t
 kInitSessionVersion
 =
 2
 ;
-static
 bool
 ValidMediaSessionOptions
 (

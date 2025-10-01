@@ -1001,7 +1001,6 @@ webrtc
 {
 namespace
 {
-static
 const
 int
 REPORT_USAGE_PATTERN_DELAY_MS

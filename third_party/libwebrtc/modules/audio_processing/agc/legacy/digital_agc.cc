@@ -85,7 +85,6 @@ kGenFuncTableSize
 128
 }
 ;
-static
 const
 uint16_t
 kGenFuncTable
@@ -224,7 +223,6 @@ kGenFuncTableSize
 46905
 }
 ;
-static
 const
 int16_t
 kAvgDecayTime

@@ -146,7 +146,6 @@ kTwoByteExtensionHeaderLen
 ;
 namespace
 {
-static
 const
 uint8_t
 kFakeAuthTag

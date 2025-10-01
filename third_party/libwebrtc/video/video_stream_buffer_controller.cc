@@ -298,14 +298,12 @@ webrtc
 {
 namespace
 {
-static
 constexpr
 size_t
 kMaxFramesBuffered
 =
 800
 ;
-static
 constexpr
 int
 kMaxFramesHistory
@@ -315,7 +313,6 @@ kMaxFramesHistory
 <
 13
 ;
-static
 constexpr
 size_t
 kZeroPlayoutDelayDefaultMaxDecodeQueueSize
