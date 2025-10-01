@@ -99,14 +99,6 @@ androidx
 .
 compose
 .
-material
-.
-ContentAlpha
-import
-androidx
-.
-compose
-.
 runtime
 .
 Composable
@@ -730,9 +722,9 @@ copy
 (
 alpha
 =
-ContentAlpha
+0
 .
-medium
+6f
 )
 autocompleteIcon
 =
