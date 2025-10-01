@@ -309,6 +309,7 @@ case
 linux
 "
 :
+{
 let
 dirProvider
 =
@@ -397,11 +398,13 @@ module
 }
 break
 ;
+}
 case
 "
 win
 "
 :
+{
 const
 REGKEY
 =
@@ -482,6 +485,7 @@ manifestPath
 }
 break
 ;
+}
 default
 :
 ok
@@ -921,6 +925,7 @@ test
 assertEq
 (
 "
+0000000000000000
 "
 slots
 [
@@ -933,10 +938,12 @@ serial
 "
 The
 token
-has
-no
 serial
 number
+matches
+the
+expected
+value
 "
 )
 ;

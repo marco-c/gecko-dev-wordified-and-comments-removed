@@ -127,6 +127,7 @@ profiler
 stopped
 "
 :
+{
 const
 isRunningPromise
 =
@@ -165,6 +166,7 @@ observer
 }
 break
 ;
+}
 }
 }
 _startListening

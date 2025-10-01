@@ -3388,6 +3388,7 @@ case
 popupshowing
 "
 :
+{
 const
 menu
 =
@@ -3465,11 +3466,13 @@ menu
 }
 break
 ;
+}
 case
 "
 auxclick
 "
 :
+{
 if
 (
 event
@@ -3558,6 +3561,7 @@ target
 }
 break
 ;
+}
 }
 }
 updateContextMenu
