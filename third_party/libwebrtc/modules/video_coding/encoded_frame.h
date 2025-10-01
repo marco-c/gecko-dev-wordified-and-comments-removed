@@ -110,9 +110,6 @@ renderTimeMs
 ;
 }
 const
-webrtc
-:
-:
 EncodedImage
 &
 EncodedImage
@@ -124,6 +121,8 @@ return
 static_cast
 <
 const
+:
+:
 webrtc
 :
 :
@@ -318,9 +317,6 @@ _missingFrame
 CodecSpecificInfo
 _codecSpecificInfo
 ;
-webrtc
-:
-:
 VideoCodecType
 _codec
 ;

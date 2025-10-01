@@ -253,9 +253,6 @@ class
 FakeEncodeCompleteCallback
 :
 public
-webrtc
-:
-:
 EncodedImageCallback
 {
 public
@@ -300,9 +297,6 @@ class
 FakeDecodeCompleteCallback
 :
 public
-webrtc
-:
-:
 DecodedImageCallback
 {
 public

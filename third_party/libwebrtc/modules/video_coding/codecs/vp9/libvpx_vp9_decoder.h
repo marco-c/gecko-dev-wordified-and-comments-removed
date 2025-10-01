@@ -182,9 +182,6 @@ timestamp
 int
 qp
 const
-webrtc
-:
-:
 ColorSpace
 *
 explicit_color_space
