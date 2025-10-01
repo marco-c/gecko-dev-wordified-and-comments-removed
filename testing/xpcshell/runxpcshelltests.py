@@ -13247,12 +13247,6 @@ msix_app_binary
             
 self
 .
-threadCount
-=
-2
-            
-self
-.
 xpcshell
 =
 None
