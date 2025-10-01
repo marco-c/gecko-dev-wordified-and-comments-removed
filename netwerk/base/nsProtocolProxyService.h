@@ -371,10 +371,6 @@ pathTemplate
 const
 nsACString
 &
-alpn
-const
-nsACString
-&
 username
 const
 nsACString
