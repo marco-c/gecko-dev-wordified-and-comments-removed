@@ -2642,6 +2642,16 @@ BrandFullNameInternal
 DesktopLauncherAppInstalled
 1
 {
+LogDesktopShortcut
+}
+"
+{
+BrandShortName
+}
+.
+exe
+"
+{
 EndIf
 }
 FunctionEnd
