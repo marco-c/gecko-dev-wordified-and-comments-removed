@@ -126,7 +126,7 @@ getPrettySource
 getSelectedLocation
 getShouldSelectOriginalLocation
 canPrettyPrintSource
-getSourceTextContent
+getSourceTextContentForLocation
 tabExists
 hasSource
 hasSourceActor
@@ -896,7 +896,7 @@ return
 const
 sourceTextContent
 =
-getSourceTextContent
+getSourceTextContentForLocation
 (
 getState
 (

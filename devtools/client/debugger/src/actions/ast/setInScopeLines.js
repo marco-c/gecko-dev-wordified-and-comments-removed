@@ -1,7 +1,7 @@
 import
 {
 hasInScopeLines
-getSourceTextContent
+getSourceTextContentForLocation
 getVisibleSelectedFrame
 }
 from
@@ -86,7 +86,7 @@ visibleFrame
 const
 sourceTextContent
 =
-getSourceTextContent
+getSourceTextContentForLocation
 (
 getState
 (

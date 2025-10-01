@@ -4,7 +4,7 @@ getActiveSearch
 getPaneCollapse
 getQuickOpenEnabled
 getSource
-getSourceTextContent
+getSourceTextContentForLocation
 getIgnoreListSourceUrls
 getSourceByURL
 getBreakpointsForSource
@@ -811,7 +811,7 @@ getState
 const
 content
 =
-getSourceTextContent
+getSourceTextContentForLocation
 (
 getState
 (
