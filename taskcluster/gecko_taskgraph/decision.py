@@ -530,6 +530,16 @@ target_tasks_method
 "
 cypress_tasks
 "
+        
+"
+release_type
+"
+:
+"
+nightly
+-
+cypress
+"
     
 }
     

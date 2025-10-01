@@ -355,6 +355,13 @@ pine
 nightly
 -
 pine
+nightly
+-
+cypress
+:
+nightly
+-
+cypress
 beta
 :
 by

@@ -111,6 +111,10 @@ larch
 "
 maple
 "
+    
+"
+cypress
+"
 }
 RELEASE_PROMOTION_PROJECTS
 =

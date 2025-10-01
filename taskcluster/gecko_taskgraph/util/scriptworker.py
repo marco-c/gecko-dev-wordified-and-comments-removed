@@ -412,6 +412,10 @@ larch
 "
 maple
 "
+            
+"
+cypress
+"
         
 }
     
@@ -646,6 +650,10 @@ pine
             
 "
 larch
+"
+            
+"
+cypress
 "
         
 }
@@ -951,6 +959,24 @@ nightly
 "
     
 "
+nightly
+-
+cypress
+"
+:
+"
+beetmover
+:
+action
+:
+push
+-
+to
+-
+nightly
+"
+    
+"
 default
 "
 :
@@ -1121,6 +1147,10 @@ pine
             
 "
 larch
+"
+            
+"
+cypress
 "
         
 }
