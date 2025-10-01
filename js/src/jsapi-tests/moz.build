@@ -230,6 +230,11 @@ testExternalStrings
 cpp
 "
 "
+testFifo
+.
+cpp
+"
+"
 testFindSCCs
 .
 cpp
