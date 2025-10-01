@@ -95,13 +95,7 @@ override
 NS_IMETHOD
 AppendText
 (
-mozilla
-:
-:
-dom
-:
-:
-Text
+nsIContent
 *
 aText
 int32_t
