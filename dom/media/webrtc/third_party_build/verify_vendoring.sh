@@ -209,6 +209,7 @@ count
 -
 oneline
 \
+'
 third_party
 /
 libwebrtc
@@ -222,6 +223,7 @@ stack
 *
 .
 patch
+'
 else
 #
 note
@@ -376,7 +378,7 @@ grep
 Vendor
 libwebrtc
 "
-c28df994cbbd
+LAST_PATCHSTACK_UPDATE_COMMIT_SHA
 .
 .
 HEAD
