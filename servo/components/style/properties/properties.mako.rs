@@ -7476,6 +7476,10 @@ self
 -
 >
 PropertyDeclarationId
+<
+'
+_
+>
 {
 match
 *
@@ -8037,7 +8041,7 @@ mod
 style_structs
 {
 use
-fxhash
+rustc_hash
 :
 :
 FxHasher
@@ -9158,6 +9162,10 @@ longhand
 camel_case
 }
 Iter
+<
+'
+_
+>
 {
 {
 longhand

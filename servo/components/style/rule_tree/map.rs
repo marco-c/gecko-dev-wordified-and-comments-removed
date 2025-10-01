@@ -7,12 +7,6 @@ unsafe_code
 )
 ]
 use
-fxhash
-:
-:
-FxHashMap
-;
-use
 malloc_size_of
 :
 :
@@ -20,6 +14,12 @@ malloc_size_of
 MallocShallowSizeOf
 MallocSizeOfOps
 }
+;
+use
+rustc_hash
+:
+:
+FxHashMap
 ;
 use
 std

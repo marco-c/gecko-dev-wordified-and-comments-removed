@@ -683,6 +683,8 @@ Origin
 >
 SheetCollectionFlusher
 <
+'
+_
 S
 >
 {
@@ -715,6 +717,8 @@ Origin
 >
 StylesheetCollectionIterator
 <
+'
+_
 S
 >
 {
@@ -1565,6 +1569,8 @@ self
 >
 StylesheetCollectionIterator
 <
+'
+_
 S
 >
 {
@@ -1590,6 +1596,8 @@ self
 >
 SheetCollectionFlusher
 <
+'
+_
 S
 >
 {
@@ -2610,6 +2618,8 @@ SnapshotMap
 >
 DocumentStylesheetFlusher
 <
+'
+_
 S
 >
 where
@@ -2751,6 +2761,8 @@ self
 >
 StylesheetIterator
 <
+'
+_
 S
 >
 {
@@ -3075,6 +3087,8 @@ self
 >
 StylesheetCollectionIterator
 <
+'
+_
 S
 >
 {
@@ -3144,6 +3158,8 @@ SnapshotMap
 >
 AuthorStylesheetFlusher
 <
+'
+_
 S
 >
 where

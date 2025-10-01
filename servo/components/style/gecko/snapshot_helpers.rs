@@ -256,6 +256,10 @@ nsAttrValue
 -
 >
 Class
+<
+'
+_
+>
 {
 debug_assert
 !

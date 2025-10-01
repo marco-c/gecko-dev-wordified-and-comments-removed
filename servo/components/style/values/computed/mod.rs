@@ -2414,6 +2414,10 @@ self
 >
 &
 StyleBuilder
+<
+'
+a
+>
 {
 &
 self

@@ -721,6 +721,8 @@ self
 >
 RwLockReadGuard
 <
+'
+_
 Option
 <
 rayon

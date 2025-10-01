@@ -814,6 +814,8 @@ self
 >
 Cow
 <
+'
+_
 Self
 >
 {

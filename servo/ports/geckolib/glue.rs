@@ -8575,6 +8575,8 @@ atomic_refcell
 :
 AtomicRef
 <
+'
+_
 T
 >
 {

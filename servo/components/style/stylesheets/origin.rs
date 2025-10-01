@@ -683,6 +683,8 @@ self
 >
 PerOriginIter
 <
+'
+_
 T
 >
 {
@@ -711,6 +713,8 @@ self
 >
 PerOriginIter
 <
+'
+_
 T
 >
 {
@@ -740,6 +744,8 @@ self
 >
 PerOriginIterMut
 <
+'
+_
 T
 >
 {
