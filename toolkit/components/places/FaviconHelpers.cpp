@@ -827,6 +827,8 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+else
+{
 if
 (
 !
@@ -864,6 +866,7 @@ rv
 rv
 )
 ;
+}
 }
 }
 return
