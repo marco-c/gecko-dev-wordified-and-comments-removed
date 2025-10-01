@@ -2269,7 +2269,7 @@ eStartPanning
 mElementStateManager
 -
 >
-ClearActivation
+HandleStartPanning
 (
 )
 ;
