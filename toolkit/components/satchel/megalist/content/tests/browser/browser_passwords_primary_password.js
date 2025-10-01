@@ -540,7 +540,7 @@ logins
 )
 ;
 await
-checkAllLoginsUpdated
+checkAllLoginsRendered
 (
 megalist
 )
