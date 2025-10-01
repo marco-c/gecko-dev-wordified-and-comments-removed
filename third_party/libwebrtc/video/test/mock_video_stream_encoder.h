@@ -285,7 +285,6 @@ OnBitrateUpdated
 (
 DataRate
 DataRate
-DataRate
 uint8_t
 int64_t
 double

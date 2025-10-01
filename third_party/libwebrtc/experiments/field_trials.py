@@ -4399,24 +4399,6 @@ FieldTrial
 '
 WebRTC
 -
-StableTargetRate
-'
-               
-42220156
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 StrictPacingAndProbing
 '
                
@@ -5075,7 +5057,7 @@ str
 \
     
 '
-6c73fd457a392cb370b8b8f5ec6f6215779fba01
+27afb1e1db877d182292c7226d6d6d1e7c4c2b64
 '
 REGISTERED_FIELD_TRIALS
 :

@@ -53,16 +53,6 @@ double
 framerate
 )
 ;
-VideoBitrateAllocationParameters
-(
-DataRate
-total_bitrate
-DataRate
-stable_bitrate
-double
-framerate
-)
-;
 ~
 VideoBitrateAllocationParameters
 (
@@ -70,9 +60,6 @@ VideoBitrateAllocationParameters
 ;
 DataRate
 total_bitrate
-;
-DataRate
-stable_bitrate
 ;
 double
 framerate

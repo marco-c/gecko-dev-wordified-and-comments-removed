@@ -3145,8 +3145,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 DataRate
 target_bitrate
 DataRate
-stable_target_bitrate
-DataRate
 link_allocation
 uint8_t
 fraction_lost
@@ -3159,7 +3157,6 @@ cwnd_reduce_ratio
 OnBitrateUpdated
 (
 target_bitrate
-stable_target_bitrate
 link_allocation
 fraction_lost
 round_trip_time_ms
@@ -6339,7 +6336,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -9539,7 +9535,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -9611,7 +9606,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -9724,7 +9718,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kLowRate
 kLowRate
-kLowRate
 0
 0
 0
@@ -9827,12 +9820,6 @@ DataRate
 Zero
 (
 )
-DataRate
-:
-:
-Zero
-(
-)
 0
 0
 0
@@ -9883,7 +9870,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -9945,7 +9931,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -10036,7 +10021,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -10280,7 +10264,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -10341,7 +10324,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -10380,12 +10362,6 @@ DataRate
 Zero
 (
 )
-DataRate
-:
-:
-Zero
-(
-)
 0
 0
 0
@@ -10428,7 +10404,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -10481,7 +10456,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -10551,7 +10525,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -10646,7 +10619,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -10732,7 +10704,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -10860,7 +10831,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -11013,7 +10983,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -11071,7 +11040,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -11144,7 +11112,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -11226,7 +11193,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -11306,7 +11272,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -11371,7 +11336,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -11398,7 +11362,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -11494,7 +11457,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -11628,7 +11590,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -11767,7 +11728,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -11865,7 +11825,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -12133,7 +12092,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -12385,7 +12343,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -12557,7 +12514,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -12726,7 +12682,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -13199,7 +13154,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -15756,7 +15710,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -15925,7 +15878,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -16156,11 +16108,6 @@ video_stream_encoder_
 OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
-2
-*
-kTargetBitrate
-2
-*
 kTargetBitrate
 0
 0
@@ -16315,11 +16262,6 @@ BitsPerSec
 (
 500
 )
-2
-*
-kTargetBitrate
-2
-*
 kTargetBitrate
 0
 0
@@ -16817,7 +16759,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kAvailableBitrate
 kAvailableBitrate
-kAvailableBitrate
 0
 0
 0
@@ -17086,7 +17027,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -17640,7 +17580,6 @@ video_stream_encoder_
 >
 OnBitrateUpdated
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -18233,7 +18172,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -18787,7 +18725,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -18975,7 +18912,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -19161,7 +19097,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -19561,7 +19496,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -19902,7 +19836,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -20249,7 +20182,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -20612,7 +20544,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -21368,7 +21299,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -21598,7 +21528,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -21814,7 +21743,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -22101,7 +22029,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -22881,7 +22808,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -24011,7 +23937,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -24168,7 +24093,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -24323,7 +24247,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -24508,7 +24431,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -24689,7 +24611,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -24939,7 +24860,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -25199,7 +25119,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -25389,7 +25308,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -25795,7 +25713,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -26225,15 +26142,6 @@ kEncoderBitrateLimits720p
 .
 min_start_bitrate_bps
 )
-DataRate
-:
-:
-BitsPerSec
-(
-kEncoderBitrateLimits720p
-.
-min_start_bitrate_bps
-)
 0
 0
 0
@@ -26294,15 +26202,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-DataRate
-:
-:
-BitsPerSec
-(
-kEncoderBitrateLimits540p
-.
-min_start_bitrate_bps
-)
 DataRate
 :
 :
@@ -26404,15 +26303,6 @@ kEncoderBitrateLimits720p
 .
 min_start_bitrate_bps
 )
-DataRate
-:
-:
-BitsPerSec
-(
-kEncoderBitrateLimits720p
-.
-min_start_bitrate_bps
-)
 0
 0
 0
@@ -26466,15 +26356,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-DataRate
-:
-:
-BitsPerSec
-(
-kEncoderBitrateLimits540p
-.
-min_start_bitrate_bps
-)
 DataRate
 :
 :
@@ -26667,7 +26548,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-bitrate
 bitrate
 bitrate
 0
@@ -28397,7 +28277,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -29563,7 +29442,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -29730,7 +29608,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -29912,7 +29789,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kLowTargetBitrate
 kLowTargetBitrate
 kLowTargetBitrate
 0
@@ -30141,7 +30017,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kLowTargetBitrate
 kLowTargetBitrate
 kLowTargetBitrate
 0
@@ -30559,7 +30434,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -30833,7 +30707,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -31065,7 +30938,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -31398,7 +31270,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -31649,7 +31520,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -31952,7 +31822,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -32285,7 +32154,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -32626,7 +32494,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -32779,7 +32646,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -32949,7 +32815,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kLowTargetBitrate
 kLowTargetBitrate
-kLowTargetBitrate
 0
 0
 0
@@ -33028,7 +32893,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kSimulcastTargetBitrate
 kSimulcastTargetBitrate
 kSimulcastTargetBitrate
 0
@@ -33146,7 +33010,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kSimulcastTargetBitrate
 kSimulcastTargetBitrate
 kSimulcastTargetBitrate
 0
@@ -33711,7 +33574,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -33996,7 +33858,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -34313,7 +34174,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -34547,13 +34407,6 @@ BitsPerSec
 (
 kTooLowBitrateForFrameSizeBps
 )
-DataRate
-:
-:
-BitsPerSec
-(
-kTooLowBitrateForFrameSizeBps
-)
 0
 0
 0
@@ -34719,13 +34572,6 @@ BitsPerSec
 (
 kTooLowBitrateForFrameSizeBps
 )
-DataRate
-:
-:
-BitsPerSec
-(
-kTooLowBitrateForFrameSizeBps
-)
 0
 0
 0
@@ -34841,7 +34687,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kLowTargetBitrate
 kLowTargetBitrate
 kLowTargetBitrate
 0
@@ -34961,7 +34806,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kLowTargetBitrate
 kLowTargetBitrate
 kLowTargetBitrate
 0
@@ -35104,7 +34948,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -35146,13 +34989,6 @@ BitsPerSec
 (
 kNotTooLowBitrateForFrameSizeBps
 )
-DataRate
-:
-:
-BitsPerSec
-(
-kNotTooLowBitrateForFrameSizeBps
-)
 0
 0
 0
@@ -35180,13 +35016,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-DataRate
-:
-:
-BitsPerSec
-(
-kTooLowBitrateForFrameSizeBps
-)
 DataRate
 :
 :
@@ -35357,7 +35186,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -35399,13 +35227,6 @@ BitsPerSec
 (
 kNotTooLowBitrateForFrameSizeBps
 )
-DataRate
-:
-:
-BitsPerSec
-(
-kNotTooLowBitrateForFrameSizeBps
-)
 0
 0
 0
@@ -35433,13 +35254,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-DataRate
-:
-:
-BitsPerSec
-(
-kTooLowBitrateForFrameSizeBps
-)
 DataRate
 :
 :
@@ -35641,13 +35455,6 @@ KilobitsPerSec
 (
 30
 )
-DataRate
-:
-:
-KilobitsPerSec
-(
-30
-)
 0
 0
 0
@@ -35719,13 +35526,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-DataRate
-:
-:
-KilobitsPerSec
-(
-400
-)
 DataRate
 :
 :
@@ -36051,13 +35851,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-DataRate
-:
-:
-KilobitsPerSec
-(
-400
-)
 DataRate
 :
 :
@@ -38695,7 +38488,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -38723,7 +38515,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kLowTargetBitrate
 kLowTargetBitrate
 kLowTargetBitrate
 0
@@ -38878,7 +38669,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -38922,7 +38712,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kLowTargetBitrate
 kLowTargetBitrate
 kLowTargetBitrate
 0
@@ -39162,15 +38951,6 @@ kMinStartBps360p
 -
 1
 )
-DataRate
-:
-:
-BitsPerSec
-(
-kMinStartBps360p
--
-1
-)
 0
 0
 0
@@ -39327,15 +39107,6 @@ DataRate
 BitsPerSec
 (
 kMinStartBps360p
--
-1
-)
-DataRate
-:
-:
-BitsPerSec
-(
-kMinStartBps360p
 )
 0
 0
@@ -39469,7 +39240,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -39748,7 +39518,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -39895,7 +39664,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -40140,7 +39908,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -40204,7 +39971,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -40348,7 +40114,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -40844,7 +40609,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -41087,7 +40851,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -42601,7 +42364,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -43719,7 +43481,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -44522,7 +44283,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -44698,7 +44458,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -44763,7 +44522,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -44945,7 +44703,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -44997,12 +44754,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-DataRate
-:
-:
-Zero
-(
-)
 DataRate
 :
 :
@@ -45097,7 +44848,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -45213,7 +44963,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -45307,7 +45056,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -45488,13 +45236,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-DataRate
-:
-:
-KilobitsPerSec
-(
-120
-)
 DataRate
 :
 :
@@ -45834,13 +45575,6 @@ KilobitsPerSec
 (
 120
 )
-DataRate
-:
-:
-KilobitsPerSec
-(
-120
-)
 0
 0
 0
@@ -45944,7 +45678,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -46156,7 +45889,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -46319,7 +46051,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kSimulcastTargetBitrate
 kSimulcastTargetBitrate
 kSimulcastTargetBitrate
 0
@@ -46514,7 +46245,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -46636,7 +46366,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -46729,13 +46458,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-DataRate
-:
-:
-KilobitsPerSec
-(
-300
-)
 DataRate
 :
 :
@@ -46932,13 +46654,6 @@ KilobitsPerSec
 (
 300
 )
-DataRate
-:
-:
-KilobitsPerSec
-(
-300
-)
 0
 0
 0
@@ -47020,7 +46735,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-target_rate
 target_rate
 target_rate
 0
@@ -47105,7 +46819,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -47571,13 +47284,6 @@ KilobitsPerSec
 (
 kDontCare
 )
-DataRate
-:
-:
-KilobitsPerSec
-(
-kDontCare
-)
 0
 0
 0
@@ -47758,13 +47464,6 @@ KilobitsPerSec
 (
 1000
 )
-DataRate
-:
-:
-KilobitsPerSec
-(
-1000
-)
 0
 0
 0
@@ -47915,13 +47614,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-DataRate
-:
-:
-KilobitsPerSec
-(
-kSufficientBitrateToNotDrop
-)
 DataRate
 :
 :
@@ -48145,7 +47837,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -48361,7 +48052,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -48568,13 +48258,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-DataRate
-:
-:
-KilobitsPerSec
-(
-kSufficientBitrateToNotDrop
-)
 DataRate
 :
 :
@@ -48810,13 +48493,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-DataRate
-:
-:
-KilobitsPerSec
-(
-kSufficientBitrateToNotDrop
-)
 DataRate
 :
 :
@@ -49105,13 +48781,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-DataRate
-:
-:
-KilobitsPerSec
-(
-kSufficientBitrateToNotDrop
-)
 DataRate
 :
 :
@@ -49459,13 +49128,6 @@ KilobitsPerSec
 (
 kSufficientBitrateToNotDrop
 )
-DataRate
-:
-:
-KilobitsPerSec
-(
-kSufficientBitrateToNotDrop
-)
 0
 0
 0
@@ -49572,7 +49234,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 rate
 rate
-rate
 0
 0
 0
@@ -49642,7 +49303,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-new_stable_rate
 new_stable_rate
 rate
 0
@@ -49711,7 +49371,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 rate
 rate
-rate
 0
 0
 0
@@ -49763,26 +49422,12 @@ GetNumSetRates
 )
 )
 ;
-auto
-new_stable_rate
-=
-rate
--
-DataRate
-:
-:
-KilobitsPerSec
-(
-5
-)
-;
 video_stream_encoder_
 -
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
 rate
-new_stable_rate
 rate
 0
 0
@@ -49861,7 +49506,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -50047,7 +49691,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kSimulcastTargetBitrate
 kSimulcastTargetBitrate
 kSimulcastTargetBitrate
 0
@@ -50565,7 +50208,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -50809,7 +50451,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kSimulcastTargetBitrate
 kSimulcastTargetBitrate
 kSimulcastTargetBitrate
 0
@@ -51475,7 +51116,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -51619,7 +51259,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -51767,7 +51406,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -51911,7 +51549,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -52061,7 +51698,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -52266,13 +51902,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-DataRate
-:
-:
-BitsPerSec
-(
-target_encoder_bitrate
-)
 DataRate
 :
 :
@@ -52494,13 +52123,6 @@ BitsPerSec
 (
 target_encoder_bitrate
 )
-DataRate
-:
-:
-BitsPerSec
-(
-target_encoder_bitrate
-)
 0
 0
 0
@@ -52655,7 +52277,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -52751,7 +52372,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -52826,7 +52446,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -52923,7 +52542,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -53071,7 +52689,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -53215,7 +52832,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -53363,7 +52979,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -53509,7 +53124,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTargetBitrate
 kTargetBitrate
-kTargetBitrate
 0
 0
 0
@@ -53652,7 +53266,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -53836,7 +53449,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -54320,7 +53932,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-kTargetBitrate
 kTargetBitrate
 kTargetBitrate
 0
@@ -55062,7 +54673,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kSimulcastTargetBitrate
 kSimulcastTargetBitrate
-kSimulcastTargetBitrate
 0
 0
 0
@@ -55195,7 +54805,6 @@ OnBitrateUpdatedAndWaitForManagedResources
 (
 kTwoLayerBitrate
 kTwoLayerBitrate
-kTwoLayerBitrate
 0
 0
 0
@@ -55246,13 +54855,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-DataRate
-:
-:
-KilobitsPerSec
-(
-1800
-)
 DataRate
 :
 :
@@ -55821,7 +55423,6 @@ video_stream_encoder_
 >
 OnBitrateUpdatedAndWaitForManagedResources
 (
-bitrate
 bitrate
 bitrate
 0
@@ -57600,13 +57201,6 @@ KilobitsPerSec
 (
 1000
 )
-DataRate
-:
-:
-KilobitsPerSec
-(
-1000
-)
 0
 0
 0
@@ -57653,13 +57247,6 @@ video_stream_encoder
 >
 OnBitrateUpdated
 (
-DataRate
-:
-:
-KilobitsPerSec
-(
-200
-)
 DataRate
 :
 :
@@ -57732,12 +57319,6 @@ DataRate
 Zero
 (
 )
-DataRate
-:
-:
-Zero
-(
-)
 0
 0
 0
@@ -57784,13 +57365,6 @@ video_stream_encoder
 >
 OnBitrateUpdated
 (
-DataRate
-:
-:
-KilobitsPerSec
-(
-1000
-)
 DataRate
 :
 :
@@ -57998,13 +57572,6 @@ video_stream_encoder
 >
 OnBitrateUpdated
 (
-DataRate
-:
-:
-KilobitsPerSec
-(
-1000
-)
 DataRate
 :
 :

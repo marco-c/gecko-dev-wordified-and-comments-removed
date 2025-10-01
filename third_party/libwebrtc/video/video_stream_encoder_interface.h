@@ -341,8 +341,6 @@ OnBitrateUpdated
 DataRate
 target_bitrate
 DataRate
-stable_target_bitrate
-DataRate
 link_allocation
 uint8_t
 fraction_lost
