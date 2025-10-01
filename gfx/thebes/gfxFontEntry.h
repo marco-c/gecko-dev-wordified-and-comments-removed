@@ -2268,6 +2268,10 @@ NUM_SCRIPT_CODES
 /
 32
 ]
+MOZ_GUARDED_BY
+(
+mFeatureInfoLock
+)
 ;
 uint32_t
 mNonDefaultSubSpaceFeatures
@@ -2286,6 +2290,10 @@ NUM_SCRIPT_CODES
 /
 32
 ]
+MOZ_GUARDED_BY
+(
+mFeatureInfoLock
+)
 ;
 mozilla
 :
