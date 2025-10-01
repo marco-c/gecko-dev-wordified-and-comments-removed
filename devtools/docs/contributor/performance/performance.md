@@ -363,7 +363,7 @@ img
 src
 =
 "
-performance
+images
 /
 profiler
 -
@@ -508,7 +508,7 @@ img
 src
 =
 "
-performance
+images
 /
 profiler
 -
@@ -600,7 +600,7 @@ img
 src
 =
 "
-performance
+images
 /
 profiler
 -
@@ -671,7 +671,7 @@ loading
 modules
 ]
 (
-performance
+images
 /
 profiler
 -
@@ -719,7 +719,7 @@ panels
 documents
 ]
 (
-performance
+images
 /
 profiler
 -
@@ -757,7 +757,7 @@ modules
 modules
 ]
 (
-performance
+images
 /
 profiler
 -
@@ -1035,7 +1035,7 @@ custom
 markers
 ]
 (
-performance
+images
 /
 profiler
 -
@@ -1331,7 +1331,7 @@ without
 patch
 ]
 (
-performance
+images
 /
 profiler
 -
@@ -1364,7 +1364,7 @@ with
 patch
 ]
 (
-performance
+images
 /
 profiler
 -
@@ -1672,7 +1672,7 @@ perfherder
 results
 ]
 (
-performance
+images
 /
 perfherder
 -
