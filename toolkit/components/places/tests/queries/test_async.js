@@ -1227,9 +1227,6 @@ unfiledGuid
 }
 }
 makeDataArray
-:
-function
-DH_makeDataArray
 (
 aData
 )
@@ -1398,9 +1395,6 @@ undefined
 ;
 }
 _makeDataWithDefaults
-:
-function
-DH__makeDataWithDefaults
 (
 aData
 aDefaults
