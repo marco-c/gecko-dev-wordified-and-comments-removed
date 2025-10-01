@@ -158,6 +158,11 @@ TestStandardURL
 cpp
 "
 "
+TestStorageAccessHeader
+.
+cpp
+"
+"
 TestUDPSocket
 .
 cpp
