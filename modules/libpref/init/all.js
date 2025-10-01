@@ -33165,7 +33165,7 @@ reader
 .
 character_spacing
 "
-0
+1
 )
 ;
 pref
@@ -33175,7 +33175,7 @@ reader
 .
 word_spacing
 "
-0
+1
 )
 ;
 pref
