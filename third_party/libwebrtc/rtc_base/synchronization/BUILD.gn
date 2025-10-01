@@ -497,12 +497,6 @@ checks
 .
 .
 :
-macromagic
-"
-"
-.
-.
-:
 platform_thread
 "
 "
