@@ -84,6 +84,12 @@ gecko_taskgraph
 .
 transforms
 .
+copy_cached_dep
+-
+gecko_taskgraph
+.
+transforms
+.
 job
 -
 gecko_taskgraph
@@ -138,12 +144,6 @@ crashsymbols
 [
 true
 ]
-if
--
-dependencies
-:
--
-toolchain
 worker
 -
 type
