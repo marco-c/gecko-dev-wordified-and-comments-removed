@@ -401,7 +401,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsMathMLmmultiscriptsFrame
 :
 :
@@ -456,7 +456,7 @@ fontSizeInflation
 )
 ;
 }
-nsresult
+void
 nsMathMLmmultiscriptsFrame
 :
 :
@@ -3616,7 +3616,4 @@ childFrame
 )
 ;
 }
-return
-NS_OK
-;
 }

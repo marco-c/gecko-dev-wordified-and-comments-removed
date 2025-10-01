@@ -391,7 +391,7 @@ PlaceFlag
 >
 ;
 virtual
-nsresult
+void
 Place
 (
 DrawTarget
@@ -434,7 +434,7 @@ TransmitAutomaticDataForMrowLikeElement
 ;
 public
 :
-nsresult
+void
 PlaceAsMrow
 (
 DrawTarget
@@ -762,15 +762,6 @@ GatherAndStoreOverflow
 ReflowOutput
 *
 aMetrics
-)
-;
-static
-void
-DidReflowChildren
-(
-nsIFrame
-*
-aFirst
 )
 ;
 void

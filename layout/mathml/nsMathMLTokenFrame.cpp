@@ -746,7 +746,7 @@ Reset
 )
 ;
 }
-nsresult
+void
 nsMathMLTokenFrame
 :
 :
@@ -1114,8 +1114,5 @@ BlockStartAscent
 )
 )
 )
-;
-return
-NS_OK
 ;
 }

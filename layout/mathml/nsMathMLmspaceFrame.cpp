@@ -433,7 +433,7 @@ this
 )
 ;
 }
-nsresult
+void
 nsMathMLmspaceFrame
 :
 :
@@ -628,8 +628,5 @@ borderPadding
 aDesiredSize
 mBoundingMetrics
 )
-;
-return
-NS_OK
 ;
 }

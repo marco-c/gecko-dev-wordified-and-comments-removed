@@ -167,7 +167,7 @@ aStatus
 )
 override
 ;
-nsresult
+void
 Place
 (
 DrawTarget

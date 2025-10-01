@@ -579,7 +579,7 @@ return
 gap
 ;
 }
-nsresult
+void
 nsMathMLmfracFrame
 :
 :
@@ -1970,7 +1970,4 @@ actualRuleThickness
 )
 ;
 }
-return
-NS_OK
-;
 }

@@ -173,7 +173,7 @@ float
 aFontSizeInflation
 )
 ;
-nsresult
+void
 Place
 (
 DrawTarget
