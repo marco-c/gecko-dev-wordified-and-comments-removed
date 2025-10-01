@@ -1620,6 +1620,15 @@ action
 .
 downloadState
 )
+supportedMenuNotifications
+=
+state
+.
+supportedMenuNotifications
++
+SupportedMenuNotifications
+.
+Downloads
 )
 is
 AppAction
