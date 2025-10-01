@@ -91,11 +91,6 @@ builds
 #
 on
 win64
-and
-linux32
-builds
-on
-linux64
 .
 ifeq
 (
