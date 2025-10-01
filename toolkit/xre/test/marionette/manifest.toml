@@ -3,17 +3,6 @@ DEFAULT
 ]
 [
 "
-include
-:
-xdg_config
-/
-manifest
-.
-toml
-"
-]
-[
-"
 test_exitcode
 .
 py
