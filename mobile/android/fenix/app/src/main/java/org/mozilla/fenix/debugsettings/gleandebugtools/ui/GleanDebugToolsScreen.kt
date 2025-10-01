@@ -269,7 +269,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 mozilla
 .
@@ -1121,7 +1121,7 @@ space
 dynamic400
 )
 )
-PrimaryButton
+FilledButton
 (
 text
 =

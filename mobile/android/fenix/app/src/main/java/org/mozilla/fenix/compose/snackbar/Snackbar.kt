@@ -335,7 +335,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 mozilla
 .
@@ -1385,7 +1385,7 @@ dp
 {
 Column
 {
-PrimaryButton
+FilledButton
 (
 text
 =

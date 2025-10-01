@@ -225,7 +225,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 org
 .
@@ -394,7 +394,7 @@ if
 isSubmitted
 )
 {
-PrimaryButton
+FilledButton
 (
 text
 =

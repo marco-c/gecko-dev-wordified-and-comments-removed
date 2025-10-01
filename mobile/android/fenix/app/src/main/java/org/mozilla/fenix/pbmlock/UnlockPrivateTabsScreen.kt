@@ -283,7 +283,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 mozilla
 .
@@ -817,7 +817,7 @@ fillWidthFraction
 )
 )
 {
-PrimaryButton
+FilledButton
 (
 text
 =

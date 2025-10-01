@@ -393,7 +393,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 org
 .
@@ -1013,7 +1013,7 @@ height
 dp
 )
 )
-PrimaryButton
+FilledButton
 (
 modifier
 =

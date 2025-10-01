@@ -261,7 +261,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 org
 .
@@ -449,7 +449,7 @@ typography
 .
 body2
 )
-PrimaryButton
+FilledButton
 (
 text
 =
@@ -508,7 +508,7 @@ typography
 .
 subtitle2
 )
-PrimaryButton
+FilledButton
 (
 text
 =
@@ -570,7 +570,7 @@ typography
 .
 subtitle2
 )
-PrimaryButton
+FilledButton
 (
 text
 =

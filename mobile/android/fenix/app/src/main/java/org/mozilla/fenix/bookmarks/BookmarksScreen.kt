@@ -882,7 +882,7 @@ base
 .
 button
 .
-FloatingActionButton
+FilledButton
 import
 mozilla
 .
@@ -894,7 +894,7 @@ base
 .
 button
 .
-PrimaryButton
+FloatingActionButton
 import
 mozilla
 .
@@ -5512,7 +5512,7 @@ EmptyListState
 NotAuthenticated
 )
 {
-PrimaryButton
+FilledButton
 (
 text
 =

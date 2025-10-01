@@ -417,7 +417,7 @@ base
 .
 button
 .
-SecondaryButton
+OutlinedButton
 import
 mozilla
 .
@@ -1189,7 +1189,7 @@ height
 dp
 )
 )
-SecondaryButton
+OutlinedButton
 (
 text
 =
@@ -1222,10 +1222,10 @@ Modifier
 fillMaxWidth
 (
 )
-textColor
+contentColor
 =
 buttonTextColor
-backgroundColor
+containerColor
 =
 buttonBackgroundColor
 onClick

@@ -421,7 +421,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 org
 .
@@ -827,7 +827,7 @@ weight
 BODY_BUTTON_SPACER_WEIGHT
 )
 )
-PrimaryButton
+FilledButton
 (
 text
 =

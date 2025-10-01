@@ -275,7 +275,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 org
 .
@@ -566,7 +566,7 @@ height
 dp
 )
 )
-PrimaryButton
+FilledButton
 (
 text
 =
@@ -605,15 +605,12 @@ interactor
 :
 :
 onAddTabsToCollectionTapped
-textColor
+contentColor
 =
 buttonTextColor
-backgroundColor
+containerColor
 =
 buttonBackgroundColor
-iconTint
-=
-buttonTextColor
 )
 }
 }

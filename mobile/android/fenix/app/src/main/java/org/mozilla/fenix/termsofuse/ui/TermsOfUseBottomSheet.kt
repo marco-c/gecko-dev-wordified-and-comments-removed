@@ -263,7 +263,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 mozilla
 .
@@ -905,7 +905,7 @@ size
 dp
 )
 )
-PrimaryButton
+FilledButton
 (
 modifier
 =

@@ -339,7 +339,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 mozilla
 .
@@ -351,7 +351,7 @@ base
 .
 button
 .
-SecondaryButton
+OutlinedButton
 import
 org
 .
@@ -982,7 +982,7 @@ dp
 )
 )
 {
-PrimaryButton
+FilledButton
 (
 modifier
 =
@@ -1055,7 +1055,7 @@ height
 dp
 )
 )
-SecondaryButton
+OutlinedButton
 (
 modifier
 =

@@ -471,7 +471,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 mozilla
 .
@@ -2056,7 +2056,7 @@ _
 )
 )
 }
-PrimaryButton
+FilledButton
 (
 text
 =

@@ -299,7 +299,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 mozilla
 .
@@ -686,7 +686,7 @@ height
 dp
 )
 )
-PrimaryButton
+FilledButton
 (
 text
 =

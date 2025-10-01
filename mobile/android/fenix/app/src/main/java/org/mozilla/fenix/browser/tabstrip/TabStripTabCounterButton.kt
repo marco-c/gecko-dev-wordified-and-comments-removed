@@ -307,7 +307,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 mozilla
 .
@@ -808,7 +808,7 @@ privacyBadgeVisible
 =
 privacyBadgeVisible
 )
-PrimaryButton
+FilledButton
 (
 text
 =

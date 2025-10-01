@@ -225,7 +225,7 @@ base
 .
 button
 .
-SecondaryButton
+OutlinedButton
 import
 mozilla
 .
@@ -556,7 +556,7 @@ space
 dynamic150
 )
 )
-SecondaryButton
+OutlinedButton
 (
 text
 =

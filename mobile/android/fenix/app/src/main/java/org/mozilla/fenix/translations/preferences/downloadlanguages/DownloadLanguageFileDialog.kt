@@ -317,7 +317,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 mozilla
 .
@@ -780,7 +780,7 @@ string
 download_language_file_dialog_positive_button_text
 )
 }
-PrimaryButton
+FilledButton
 (
 text
 =

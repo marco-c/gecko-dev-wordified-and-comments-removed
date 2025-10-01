@@ -339,7 +339,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 mozilla
 .
@@ -919,7 +919,7 @@ Alignment
 CenterVertically
 )
 {
-PrimaryButton
+FilledButton
 (
 text
 =

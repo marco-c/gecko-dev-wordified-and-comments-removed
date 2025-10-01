@@ -457,7 +457,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 mozilla
 .
@@ -1418,7 +1418,7 @@ width
 dp
 )
 )
-PrimaryButton
+FilledButton
 (
 text
 =

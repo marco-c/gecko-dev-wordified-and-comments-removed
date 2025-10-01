@@ -375,7 +375,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 mozilla
 .
@@ -3124,7 +3124,7 @@ Enabled
 -
 >
 {
-PrimaryButton
+FilledButton
 (
 text
 =
@@ -3147,7 +3147,7 @@ else
 -
 >
 {
-PrimaryButton
+FilledButton
 (
 text
 =

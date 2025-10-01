@@ -345,7 +345,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 org
 .
@@ -868,7 +868,7 @@ height
 dp
 )
 )
-PrimaryButton
+FilledButton
 (
 text
 =
@@ -882,12 +882,12 @@ Modifier
 fillMaxWidth
 (
 )
-textColor
+contentColor
 =
 type
 .
 buttonTextColor
-backgroundColor
+containerColor
 =
 type
 .

@@ -383,7 +383,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 org
 .
@@ -847,7 +847,7 @@ Painter
 null
 )
 {
-PrimaryButton
+FilledButton
 (
 text
 =

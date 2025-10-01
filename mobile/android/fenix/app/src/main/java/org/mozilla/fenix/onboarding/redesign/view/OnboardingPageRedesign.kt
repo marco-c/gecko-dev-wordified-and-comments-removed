@@ -287,7 +287,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 mozilla
 .
@@ -710,7 +710,7 @@ weight
 BODY_BUTTON_SPACER_WEIGHT
 )
 )
-PrimaryButton
+FilledButton
 (
 modifier
 =

@@ -157,7 +157,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 mozilla
 .
@@ -282,7 +282,7 @@ dp
 )
 )
 {
-PrimaryButton
+FilledButton
 (
 text
 =

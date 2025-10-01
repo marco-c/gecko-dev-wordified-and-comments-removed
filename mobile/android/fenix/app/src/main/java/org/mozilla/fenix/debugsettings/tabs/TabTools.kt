@@ -413,7 +413,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 mozilla
 .
@@ -1398,7 +1398,7 @@ height
 dp
 )
 )
-PrimaryButton
+FilledButton
 (
 text
 =
@@ -1456,7 +1456,7 @@ if
 inactiveTabsEnabled
 )
 {
-PrimaryButton
+FilledButton
 (
 text
 =
@@ -1510,7 +1510,7 @@ dp
 )
 )
 }
-PrimaryButton
+FilledButton
 (
 text
 =

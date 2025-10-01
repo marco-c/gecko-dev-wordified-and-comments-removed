@@ -327,7 +327,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 mozilla
 .
@@ -960,7 +960,7 @@ height
 dp
 )
 )
-PrimaryButton
+FilledButton
 (
 text
 =
@@ -972,12 +972,12 @@ Modifier
 fillMaxWidth
 (
 )
-textColor
+contentColor
 =
 messageColors
 .
 buttonTextColor
-backgroundColor
+containerColor
 =
 messageColors
 .

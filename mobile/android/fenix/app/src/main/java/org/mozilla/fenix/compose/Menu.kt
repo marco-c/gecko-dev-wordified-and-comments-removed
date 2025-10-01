@@ -375,7 +375,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 org
 .
@@ -1325,7 +1325,7 @@ dp
 )
 )
 {
-PrimaryButton
+FilledButton
 (
 text
 =

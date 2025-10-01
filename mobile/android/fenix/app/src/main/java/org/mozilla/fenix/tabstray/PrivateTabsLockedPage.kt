@@ -201,7 +201,7 @@ base
 .
 button
 .
-PrimaryButton
+FilledButton
 import
 org
 .
@@ -349,7 +349,7 @@ typography
 .
 body1
 )
-PrimaryButton
+FilledButton
 (
 onClick
 =
