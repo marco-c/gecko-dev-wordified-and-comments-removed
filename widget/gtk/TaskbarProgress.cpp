@@ -336,6 +336,12 @@ DOMWindowToWidget
 parent
 )
 ;
+NS_ENSURE_TRUE
+(
+widget
+NS_ERROR_FAILURE
+)
+;
 if
 (
 !
