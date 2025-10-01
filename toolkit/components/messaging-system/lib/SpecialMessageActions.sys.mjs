@@ -1631,6 +1631,13 @@ browser
 .
 startup
 .
+page
+"
+"
+browser
+.
+startup
+.
 windowsLaunchOnLogin
 .
 disableLaunchOnLoginPrompt
