@@ -2894,9 +2894,6 @@ this
 _findField
 .
 value
-{
-linksOnly
-:
 this
 .
 findMode
@@ -2905,7 +2902,6 @@ findMode
 this
 .
 FIND_LINKS
-}
 )
 ;
 }
