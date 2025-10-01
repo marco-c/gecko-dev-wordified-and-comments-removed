@@ -171,6 +171,10 @@ false
 )
 ;
 }
+assertRuntimeFuseInvariants
+(
+)
+;
 testRealmChange
 (
 )
@@ -471,7 +475,7 @@ assertEq
 intact
 (
 "
-hasSeenObjectEmulateUndefinedFuse
+HasSeenObjectEmulateUndefinedFuse
 "
 )
 true
@@ -485,7 +489,7 @@ assertEq
 intact
 (
 "
-hasSeenObjectEmulateUndefinedFuse
+HasSeenObjectEmulateUndefinedFuse
 "
 )
 false
@@ -500,7 +504,7 @@ assertEq
 intact
 (
 "
-hasSeenArrayExceedsInt32LengthFuse
+HasSeenArrayExceedsInt32LengthFuse
 "
 )
 true
@@ -523,7 +527,7 @@ assertEq
 intact
 (
 "
-hasSeenArrayExceedsInt32LengthFuse
+HasSeenArrayExceedsInt32LengthFuse
 "
 )
 false
@@ -536,7 +540,7 @@ assertEq
 intact
 (
 "
-hasSeenObjectEmulateUndefinedFuse
+HasSeenObjectEmulateUndefinedFuse
 "
 )
 false
@@ -547,7 +551,7 @@ assertEq
 intact
 (
 "
-hasSeenArrayExceedsInt32LengthFuse
+HasSeenArrayExceedsInt32LengthFuse
 "
 )
 false

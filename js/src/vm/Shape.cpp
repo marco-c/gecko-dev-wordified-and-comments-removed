@@ -5075,6 +5075,11 @@ getPropertyInfo
 propIndex
 )
 ;
+bool
+wasTrackedObjectFuseProp
+=
+false
+;
 if
 (
 !
@@ -5087,6 +5092,8 @@ cx
 obj
 id
 prop
+&
+wasTrackedObjectFuseProp
 )
 )
 {
@@ -5154,6 +5161,10 @@ propIndex
 mapLength
 -
 1
+&
+&
+!
+wasTrackedObjectFuseProp
 )
 {
 MOZ_ASSERT
@@ -6721,11 +6732,13 @@ runtime
 )
 -
 >
-hasSeenObjectEmulateUndefinedFuse
+runtimeFuses
 .
 ref
 (
 )
+.
+hasSeenObjectEmulateUndefinedFuse
 .
 popFuse
 (

@@ -265,11 +265,13 @@ runtime
 )
 -
 >
-hasSeenArrayExceedsInt32LengthFuse
+runtimeFuses
 .
 ref
 (
 )
+.
+hasSeenArrayExceedsInt32LengthFuse
 .
 popFuse
 (
