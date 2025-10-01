@@ -19,14 +19,6 @@ here
 "
 )
 ]
-#
-!
-[
-allow
-(
-mismatched_lifetime_syntaxes
-)
-]
 extern
 crate
 url
