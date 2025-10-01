@@ -156,7 +156,7 @@ optimize_for_fuzzing
 true
 use_fuzztest_wrapper
 =
-true
+false
 use_libfuzzer
 =
 true

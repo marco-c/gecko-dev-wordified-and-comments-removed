@@ -3330,13 +3330,6 @@ libfuzzer
 :
 {
 #
-TODO
-(
-b
-/
-42223878
-)
-:
 use_fuzztest_wrapper
 adds
 a
@@ -3356,7 +3349,7 @@ use_libfuzzer
 true
 use_fuzztest_wrapper
 =
-true
+false
 '
 }
 '
