@@ -2103,7 +2103,7 @@ loadBergamot
 {
 INITIAL_MEMORY
 :
-234_291_200
+41_943_040
 print
 :
 log
