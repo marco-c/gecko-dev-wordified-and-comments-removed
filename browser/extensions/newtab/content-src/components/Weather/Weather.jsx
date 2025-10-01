@@ -1269,17 +1269,14 @@ dispatch
 (
 ac
 .
-BroadcastToContent
+AlsoToMain
 (
 {
 type
 :
 at
 .
-WEATHER_SEARCH_ACTIVE
-data
-:
-true
+WEATHER_USER_OPT_IN_LOCATION
 }
 )
 )
@@ -1688,6 +1685,7 @@ customization
 menu
 /
 /
+-
 weather
 opt
 -
@@ -1697,6 +1695,7 @@ is
 enabled
 /
 /
+-
 static
 weather
 data
