@@ -542,7 +542,6 @@ case
 lexical_block
 "
 :
-{
 const
 tmp
 =
@@ -569,7 +568,6 @@ result
 ;
 break
 ;
-}
 }
 return
 result

@@ -4003,7 +4003,6 @@ TYPES
 .
 GRID
 :
-{
 const
 {
 nodeFront
@@ -4176,7 +4175,6 @@ isLimited
 }
 break
 ;
-}
 }
 }
 getSelectedContainer

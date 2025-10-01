@@ -2307,7 +2307,6 @@ case
 TabOpen
 "
 :
-{
 let
 {
 adoptedTab
@@ -2429,13 +2428,11 @@ currentTabSize
 }
 break
 ;
-}
 case
 "
 TabClose
 "
 :
-{
 let
 {
 adoptedBy
@@ -2472,7 +2469,6 @@ false
 }
 break
 ;
-}
 case
 "
 TabSelect

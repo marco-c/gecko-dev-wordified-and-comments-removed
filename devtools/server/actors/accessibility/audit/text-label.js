@@ -429,7 +429,6 @@ case
 FIELDSET
 "
 :
-{
 if
 (
 !
@@ -516,7 +515,6 @@ issue
 FORM_FIELDSET_NO_NAME_FROM_LEGEND
 }
 ;
-}
 default
 :
 return
@@ -616,7 +614,6 @@ case
 IFRAME
 "
 :
-{
 const
 name
 =
@@ -662,7 +659,6 @@ issue
 IFRAME_NO_NAME_FROM_TITLE
 }
 ;
-}
 case
 "
 OBJECT

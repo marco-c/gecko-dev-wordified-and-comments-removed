@@ -74,7 +74,6 @@ ENABLE_REQUEST_FILTER_TYPE_ONLY
 case
 TOGGLE_REQUEST_FILTER_TYPE
 :
-{
 const
 filters
 =
@@ -140,7 +139,6 @@ filters
 ;
 break
 ;
-}
 case
 SET_REQUEST_FILTER_TEXT
 :
@@ -173,7 +171,6 @@ break
 case
 ENABLE_PERSISTENT_LOGS
 :
-{
 const
 enabled
 =
@@ -205,7 +202,6 @@ enabled
 ;
 break
 ;
-}
 case
 DISABLE_BROWSER_CACHE
 :

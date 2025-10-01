@@ -2585,7 +2585,6 @@ form
 data
 "
 :
-{
 let
 boundary
 =
@@ -2614,7 +2613,6 @@ boundary
 }
 )
 ;
-}
 case
 "
 application

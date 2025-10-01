@@ -67,7 +67,6 @@ constants
 .
 FILTER_TOGGLE
 :
-{
 const
 {
 filter
@@ -97,7 +96,6 @@ active
 }
 )
 ;
-}
 case
 constants
 .
@@ -113,7 +111,6 @@ constants
 .
 FILTER_TEXT_SET
 :
-{
 const
 {
 text
@@ -138,7 +135,6 @@ text
 }
 )
 ;
-}
 }
 return
 state

@@ -226,7 +226,6 @@ collect
 request
 "
 :
-{
 Services
 .
 obs
@@ -357,7 +356,6 @@ finish
 ;
 break
 ;
-}
 }
 }
 finish

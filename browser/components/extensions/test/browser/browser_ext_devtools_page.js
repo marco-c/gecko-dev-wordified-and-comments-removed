@@ -458,7 +458,6 @@ content_script
 connect_port
 "
 :
-{
 const
 port
 =
@@ -478,7 +477,6 @@ disconnect
 ;
 break
 ;
-}
 default
 :
 browser
@@ -1134,7 +1132,6 @@ extension_tab
 connect_port
 "
 :
-{
 const
 port
 =
@@ -1154,7 +1151,6 @@ disconnect
 ;
 break
 ;
-}
 default
 :
 browser

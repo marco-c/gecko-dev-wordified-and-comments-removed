@@ -4191,7 +4191,6 @@ break
 case
 TAB_RESTORING_TOPIC
 :
-{
 /
 /
 We
@@ -4272,7 +4271,6 @@ loadedTabCount
 ;
 break
 ;
-}
 }
 }
 _initMaxTabAndWindowCounts

@@ -338,7 +338,6 @@ aTopic
 case
 REQ_LOC_CHANGE_EVENT
 :
-{
 const
 reqLocs
 =
@@ -373,7 +372,6 @@ do_test_finished
 (
 )
 ;
-}
 }
 }
 }
@@ -449,7 +447,6 @@ aTopic
 case
 REQ_LOC_CHANGE_EVENT
 :
-{
 const
 reqLocs
 =
@@ -486,7 +483,6 @@ do_test_finished
 (
 )
 ;
-}
 }
 }
 }

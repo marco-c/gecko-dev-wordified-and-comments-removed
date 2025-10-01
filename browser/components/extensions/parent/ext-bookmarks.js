@@ -637,7 +637,6 @@ bookmark
 added
 "
 :
-{
 if
 (
 event
@@ -731,7 +730,6 @@ bookmark
 ;
 break
 ;
-}
 case
 "
 bookmark
@@ -739,7 +737,6 @@ bookmark
 removed
 "
 :
-{
 if
 (
 event
@@ -835,7 +832,6 @@ node
 ;
 break
 ;
-}
 case
 "
 bookmark

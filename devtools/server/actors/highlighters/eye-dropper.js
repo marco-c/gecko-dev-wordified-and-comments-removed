@@ -1763,7 +1763,6 @@ case
 mousemove
 "
 :
-{
 const
 [
 xOffset
@@ -1850,7 +1849,6 @@ y
 ;
 break
 ;
-}
 case
 "
 click
@@ -2770,7 +2768,6 @@ case
 hsl
 "
 :
-{
 const
 [
 h
@@ -2807,13 +2804,14 @@ l
 )
 "
 ;
-}
 case
 "
 name
 "
 :
-return
+const
+str
+=
 InspectorUtils
 .
 rgbToColorName
@@ -2828,6 +2826,9 @@ hexString
 (
 rgb
 )
+;
+return
+str
 ;
 default
 :

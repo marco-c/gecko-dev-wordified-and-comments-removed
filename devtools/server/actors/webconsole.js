@@ -1646,7 +1646,6 @@ case
 NetworkActivity
 "
 :
-{
 if
 (
 isWorker
@@ -1699,7 +1698,6 @@ Error
 errorMessage
 )
 ;
-}
 case
 "
 FileActivity

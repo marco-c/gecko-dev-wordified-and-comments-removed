@@ -1002,7 +1002,6 @@ case
 TabClose
 "
 :
-{
 const
 toolbox
 =
@@ -1028,7 +1027,6 @@ destroy
 }
 break
 ;
-}
 case
 "
 TabRemotenessChange

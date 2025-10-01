@@ -154,7 +154,6 @@ case
 c
 "
 :
-{
 const
 [
 code
@@ -174,7 +173,6 @@ code
 message
 }
 ;
-}
 default
 :
 return

@@ -9316,7 +9316,6 @@ AddonManager
 .
 STATE_POSTPONED
 :
-{
 logger
 .
 debug
@@ -9400,7 +9399,6 @@ stagedAddon
 ;
 break
 ;
-}
 default
 :
 throw
@@ -13670,7 +13668,6 @@ case
 onInstallFailed
 "
 :
-{
 let
 rej
 =
@@ -13711,7 +13708,6 @@ rej
 ;
 break
 ;
-}
 case
 "
 onInstallEnded

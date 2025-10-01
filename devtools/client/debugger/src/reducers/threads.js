@@ -257,7 +257,6 @@ case
 TRACING_TOGGLED
 "
 :
-{
 const
 {
 mutableTracingThreads
@@ -329,7 +328,6 @@ mutableTracingThreads
 return
 state
 ;
-}
 default
 :
 return

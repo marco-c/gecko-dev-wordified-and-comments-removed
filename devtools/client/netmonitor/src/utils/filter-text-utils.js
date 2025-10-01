@@ -437,7 +437,6 @@ larger
 than
 "
 :
-{
 let
 multiplier
 =
@@ -533,7 +532,6 @@ quantity
 *
 multiplier
 ;
-}
 default
 :
 return

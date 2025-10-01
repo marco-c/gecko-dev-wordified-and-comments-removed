@@ -47,7 +47,6 @@ request
 sourceMapURL
 "
 :
-{
 const
 dbg
 =
@@ -115,7 +114,6 @@ sourceMapURLs
 ;
 break
 ;
-}
 }
 }
 )

@@ -150,7 +150,6 @@ storage
 data
 "
 :
-{
 const
 value
 =
@@ -186,7 +185,6 @@ value
 ;
 break
 ;
-}
 default
 :
 browser

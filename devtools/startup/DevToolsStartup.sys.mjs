@@ -8773,7 +8773,6 @@ case
 attached
 "
 :
-{
 /
 /
 When
@@ -8812,13 +8811,11 @@ resumeThenPause
 ;
 break
 ;
-}
 case
 "
 resuming
 "
 :
-{
 /
 /
 The
@@ -8857,7 +8854,6 @@ resumeThenPause
 ;
 break
 ;
-}
 default
 :
 throw

@@ -457,7 +457,6 @@ session
 history
 "
 :
-{
 gDownloadLastDirFile
 =
 null
@@ -576,7 +575,6 @@ promise
 }
 break
 ;
-}
 }
 }
 }

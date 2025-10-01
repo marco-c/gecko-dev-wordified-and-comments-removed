@@ -595,7 +595,6 @@ state
 case
 STATE_READ_CONNECT_REQUEST
 :
-{
 connectRequest
 +
 =
@@ -733,7 +732,6 @@ mainThread
 }
 break
 ;
-}
 case
 STATE_CHECK_WRITE_READ
 :

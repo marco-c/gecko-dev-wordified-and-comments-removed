@@ -1129,7 +1129,6 @@ TYPES
 .
 GRID
 :
-{
 const
 toolID
 =
@@ -1190,7 +1189,6 @@ add
 }
 break
 ;
-}
 }
 if
 (
@@ -1402,7 +1400,6 @@ TYPES
 .
 GRID
 :
-{
 const
 toolID
 =
@@ -1484,7 +1481,6 @@ this
 }
 break
 ;
-}
 }
 }
 #
@@ -4410,7 +4406,6 @@ case
 shapesEditor
 "
 :
-{
 const
 highlighter
 =
@@ -4500,7 +4495,6 @@ onShapesHighlighterHidden
 ;
 break
 ;
-}
 default
 :
 throw
