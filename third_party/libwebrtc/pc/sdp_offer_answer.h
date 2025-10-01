@@ -85,15 +85,6 @@ include
 "
 api
 /
-jsep_ice_candidate
-.
-h
-"
-#
-include
-"
-api
-/
 media_stream_interface
 .
 h
@@ -851,7 +842,7 @@ void
 AddLocalIceCandidate
 (
 const
-JsepIceCandidate
+IceCandidate
 *
 candidate
 )

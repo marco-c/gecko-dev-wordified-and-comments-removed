@@ -154,7 +154,7 @@ include
 "
 api
 /
-jsep_ice_candidate
+jsep
 .
 h
 "
@@ -1852,7 +1852,7 @@ candidate
 candidates
 )
 {
-JsepIceCandidate
+IceCandidate
 candidate_wrapper
 (
 candidate
@@ -1973,7 +1973,7 @@ event
 .
 selected_candidate_pair
 ;
-JsepIceCandidate
+IceCandidate
 local_candidate_wrapper
 (
 selected_pair
@@ -2015,7 +2015,7 @@ initWithNativeCandidate
 local_candidate_wrapper
 ]
 ;
-JsepIceCandidate
+IceCandidate
 remote_candidate_wrapper
 (
 selected_pair

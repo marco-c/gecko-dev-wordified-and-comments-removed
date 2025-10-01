@@ -181,15 +181,6 @@ include
 "
 api
 /
-jsep_ice_candidate
-.
-h
-"
-#
-include
-"
-api
-/
 make_ref_counted
 .
 h
@@ -16419,7 +16410,7 @@ SdpOfferAnswerHandler
 AddLocalIceCandidate
 (
 const
-JsepIceCandidate
+IceCandidate
 *
 candidate
 )

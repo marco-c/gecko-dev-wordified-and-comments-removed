@@ -53,15 +53,6 @@ jsep
 .
 h
 "
-#
-include
-"
-api
-/
-jsep_ice_candidate
-.
-h
-"
 namespace
 webrtc
 {

@@ -81,15 +81,6 @@ include
 "
 api
 /
-jsep_ice_candidate
-.
-h
-"
-#
-include
-"
-api
-/
 legacy_stats_types
 .
 h
@@ -752,7 +743,7 @@ std
 :
 make_unique
 <
-JsepIceCandidate
+IceCandidate
 >
 (
 candidate

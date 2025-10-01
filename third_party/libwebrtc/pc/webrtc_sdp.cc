@@ -2051,7 +2051,7 @@ std
 :
 unique_ptr
 <
-JsepIceCandidate
+IceCandidate
 >
 >
 *
@@ -2121,7 +2121,7 @@ std
 :
 unique_ptr
 <
-JsepIceCandidate
+IceCandidate
 >
 >
 *
@@ -5679,7 +5679,7 @@ std
 :
 unique_ptr
 <
-JsepIceCandidate
+IceCandidate
 >
 >
 candidates
@@ -14419,7 +14419,7 @@ std
 :
 unique_ptr
 <
-JsepIceCandidate
+IceCandidate
 >
 >
 *
@@ -14812,7 +14812,7 @@ std
 :
 unique_ptr
 <
-JsepIceCandidate
+IceCandidate
 >
 >
 *
@@ -16664,7 +16664,7 @@ std
 :
 unique_ptr
 <
-JsepIceCandidate
+IceCandidate
 >
 >
 *
@@ -19077,7 +19077,7 @@ std
 :
 make_unique
 <
-JsepIceCandidate
+IceCandidate
 >
 (
 mline_id
