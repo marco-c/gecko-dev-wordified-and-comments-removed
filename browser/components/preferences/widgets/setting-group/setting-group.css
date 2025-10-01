@@ -59,6 +59,13 @@ MPL
 setting
 -
 group
+:
+not
+(
+[
+hidden
+]
+)
 {
 display
 :
