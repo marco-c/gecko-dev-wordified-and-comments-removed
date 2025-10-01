@@ -864,10 +864,10 @@ cpu_info
 .
 cc
 index
-99a5bc8f8a
+55f26280d5
 .
 .
-53be490dc1
+b8a1040704
 100644
 -
 -
@@ -951,10 +951,10 @@ sysctl
 h
 >
 -
-34
+42
 7
 +
-34
+42
 7
 uint32_t
 DetectNumberOfCores
