@@ -815,8 +815,6 @@ bool
 aRequireUserInteraction
 bool
 aUserActivation
-bool
-aCheckForCancelation
 Maybe
 <
 ContentParentId
@@ -857,8 +855,6 @@ uint64_t
 aHistoryEpoch
 bool
 aUserActivation
-bool
-aCheckForCancelation
 Maybe
 <
 ContentParentId

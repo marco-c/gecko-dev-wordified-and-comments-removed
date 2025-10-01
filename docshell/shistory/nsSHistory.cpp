@@ -6676,7 +6676,6 @@ static
 bool
 MaybeLoadBFCache
 (
-const
 nsSHistory
 :
 :
@@ -7125,7 +7124,6 @@ nsSHistory
 :
 LoadURIOrBFCache
 (
-const
 LoadEntryResult
 &
 aLoadEntry
@@ -7198,7 +7196,6 @@ static
 bool
 MaybeCheckUnloadingIsCanceled
 (
-const
 nsTArray
 <
 nsSHistory
@@ -7687,15 +7684,12 @@ nsSHistory
 :
 LoadURIs
 (
-const
 nsTArray
 <
 LoadEntryResult
 >
 &
 aLoadResults
-bool
-aCheckForCancelation
 const
 std
 :
@@ -7716,9 +7710,6 @@ aTraversable
 {
 if
 (
-aCheckForCancelation
-&
-&
 MaybeCheckUnloadingIsCanceled
 (
 aLoadResults
@@ -7898,7 +7889,6 @@ NS_OK
 ;
 for
 (
-const
 LoadEntryResult
 &
 loadEntry
@@ -7960,7 +7950,6 @@ NS_OK
 LoadURIs
 (
 loadResults
-true
 )
 ;
 return
@@ -8169,7 +8158,6 @@ rv
 LoadURIs
 (
 loadResults
-true
 )
 ;
 return
@@ -10630,7 +10618,6 @@ rv
 LoadURIs
 (
 loadResults
-true
 )
 ;
 return

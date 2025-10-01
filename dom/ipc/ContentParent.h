@@ -5972,8 +5972,6 @@ bool
 aRequireUserInteraction
 bool
 aUserActivation
-bool
-aCheckForCancelation
 HistoryGoResolver
 &
 &
@@ -6005,8 +6003,6 @@ uint64_t
 aHistoryEpoch
 bool
 aUserActivation
-bool
-aCheckForCancelation
 NavigationTraverseResolver
 &
 &

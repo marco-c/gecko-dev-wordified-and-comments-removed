@@ -8668,8 +8668,6 @@ bool
 aRequireUserInteraction
 bool
 aUserActivation
-bool
-aCheckForCancelation
 Maybe
 <
 ContentParentId
@@ -9147,7 +9145,6 @@ nsSHistory
 LoadURIs
 (
 loadResults
-aCheckForCancelation
 aResolver
 traversable
 )
@@ -9173,8 +9170,6 @@ uint64_t
 aHistoryEpoch
 bool
 aUserActivation
-bool
-aCheckForCancelation
 Maybe
 <
 ContentParentId
@@ -9449,7 +9444,6 @@ offset
 aHistoryEpoch
 false
 aUserActivation
-aCheckForCancelation
 aContentId
 std
 :
