@@ -557,6 +557,9 @@ CloseAll
 nsresult
 SetupConn
 (
+DnsAndConnectSocket
+*
+dnsAndSock
 nsAHttpTransaction
 *
 transaction
@@ -832,6 +835,8 @@ mBackupTransport
 ;
 bool
 mIsHttp3
+=
+false
 ;
 bool
 mSkipDnsResolution

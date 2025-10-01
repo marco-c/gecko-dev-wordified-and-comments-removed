@@ -287,6 +287,14 @@ proxyInfo
 IsSOCKS
 (
 )
+|
+|
+proxyInfo
+-
+>
+IsConnectUDP
+(
+)
 ;
 }
 void
