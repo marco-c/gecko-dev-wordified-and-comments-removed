@@ -301,6 +301,17 @@ rtp_rtcp
 :
 rtp_rtcp_format
 "
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
+checks
+"
 ]
 visibility
 =

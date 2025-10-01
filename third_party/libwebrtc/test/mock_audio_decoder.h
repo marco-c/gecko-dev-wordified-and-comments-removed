@@ -6,6 +6,16 @@ define
 TEST_MOCK_AUDIO_DECODER_H_
 #
 include
+<
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
 "
 api
 /

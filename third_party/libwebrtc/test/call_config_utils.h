@@ -7,6 +7,17 @@ TEST_CALL_CONFIG_UTILS_H_
 #
 include
 "
+api
+/
+call
+/
+transport
+.
+h
+"
+#
+include
+"
 call
 /
 video_receive_stream

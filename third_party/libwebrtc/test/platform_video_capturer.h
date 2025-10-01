@@ -7,6 +7,11 @@ TEST_PLATFORM_VIDEO_CAPTURER_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 memory
 >
 #

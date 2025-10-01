@@ -67,6 +67,17 @@ h
 #
 include
 "
+media
+/
+engine
+/
+internal_decoder_factory
+.
+h
+"
+#
+include
+"
 modules
 /
 rtp_rtcp

@@ -7,6 +7,11 @@ video_renderer
 .
 h
 "
+#
+include
+<
+cstddef
+>
 namespace
 webrtc
 {

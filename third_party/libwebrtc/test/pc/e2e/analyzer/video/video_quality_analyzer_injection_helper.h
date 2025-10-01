@@ -7,13 +7,6 @@ TEST_PC_E2E_ANALYZER_VIDEO_VIDEO_QUALITY_ANALYZER_INJECTION_HELPER_H_
 #
 include
 <
-stdio
-.
-h
->
-#
-include
-<
 memory
 >
 #

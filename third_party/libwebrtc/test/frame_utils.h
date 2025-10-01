@@ -7,9 +7,12 @@ TEST_FRAME_UTILS_H_
 #
 include
 <
-stdint
-.
-h
+cstdint
+>
+#
+include
+<
+cstdio
 >
 #
 include

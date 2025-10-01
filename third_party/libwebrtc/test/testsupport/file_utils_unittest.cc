@@ -24,6 +24,11 @@ algorithm
 #
 include
 <
+cstdio
+>
+#
+include
+<
 fstream
 >
 #

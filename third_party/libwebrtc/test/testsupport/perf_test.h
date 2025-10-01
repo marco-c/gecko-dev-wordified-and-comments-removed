@@ -7,7 +7,7 @@ TEST_TESTSUPPORT_PERF_TEST_H_
 #
 include
 <
-sstream
+cstdio
 >
 #
 include

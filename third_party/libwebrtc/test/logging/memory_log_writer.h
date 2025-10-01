@@ -21,11 +21,6 @@ string
 >
 #
 include
-<
-vector
->
-#
-include
 "
 test
 /

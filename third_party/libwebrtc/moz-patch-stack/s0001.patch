@@ -12614,10 +12614,10 @@ vcm_capturer
 .
 cc
 index
-bc022c1a80
+b7933130bd
 .
 .
-fd1f627a44
+428fc9615d
 100644
 -
 -
@@ -12640,10 +12640,10 @@ vcm_capturer
 .
 cc
 -
-83
+87
 7
 +
-83
+87
 7
 void
 VcmCapturer
