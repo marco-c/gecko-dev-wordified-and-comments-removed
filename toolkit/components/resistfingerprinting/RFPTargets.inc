@@ -370,6 +370,11 @@ NavigatorHWConcurrencyTiered
 )
 ITEM_VALUE
 (
+WebGLRandomization
+75
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
