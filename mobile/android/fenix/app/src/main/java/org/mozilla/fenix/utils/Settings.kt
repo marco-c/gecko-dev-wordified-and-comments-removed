@@ -13723,7 +13723,7 @@ pref_key_enable_compose_logins
 )
 default
 =
-true
+false
 )
 var
 loginsListSortOrder
