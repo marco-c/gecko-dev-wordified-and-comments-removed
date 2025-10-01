@@ -1109,14 +1109,6 @@ nsAtom
 aAttr
 )
 ;
-void
-RefreshAnchorRelationCacheForTarget
-(
-LocalAccessible
-*
-aTarget
-)
-;
 protected
 :
 virtual
