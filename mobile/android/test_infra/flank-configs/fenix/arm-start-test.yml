@@ -197,7 +197,7 @@ ui
 .
 SettingsAboutTest
 #
-verifyLibrariesListInReleaseBuilds
+verifyLibrariesListInReleaseBuildsTest
 device
 :
 -
