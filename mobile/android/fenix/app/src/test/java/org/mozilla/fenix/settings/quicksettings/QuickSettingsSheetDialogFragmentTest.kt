@@ -397,6 +397,14 @@ every
 {
 fragment
 .
+viewLifecycleOwner
+}
+returns
+lifecycleOwner
+every
+{
+fragment
+.
 activity
 }
 returns

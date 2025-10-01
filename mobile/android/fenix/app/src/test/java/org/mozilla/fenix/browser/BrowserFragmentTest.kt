@@ -726,6 +726,14 @@ lifecycleOwner
 lifecycle
 every
 {
+browserFragment
+.
+viewLifecycleOwner
+}
+returns
+lifecycleOwner
+every
+{
 context
 .
 components
