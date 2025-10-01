@@ -12,6 +12,11 @@ ambiguous_export
 mjs
 "
 "
+import_404
+.
+mjs
+"
+"
 import_ambiguous
 .
 mjs
