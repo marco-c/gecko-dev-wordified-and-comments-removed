@@ -188,6 +188,13 @@ js
 ]
 [
 "
+test_quicksuggest_migrate_v3
+.
+js
+"
+]
+[
+"
 test_quicksuggest_offlineDefault
 .
 js

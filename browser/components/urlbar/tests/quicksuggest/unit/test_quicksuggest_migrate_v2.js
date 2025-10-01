@@ -46,7 +46,11 @@ true
 const
 TEST_OVERRIDES
 =
-undefined
+{
+migrationVersion
+:
+2
+}
 ;
 add_setup
 (
