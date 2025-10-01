@@ -118,13 +118,6 @@ prio
 h
 "
 #
-include
-"
-Dictionary
-.
-h
-"
-#
 if
 !
 defined
@@ -2154,12 +2147,6 @@ StaticRefPtr
 CacheFileIOManager
 >
 gInstance
-;
-RefPtr
-<
-DictionaryCache
->
-mDictionaryCache
 ;
 TimeStamp
 mStartTime
