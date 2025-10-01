@@ -3776,10 +3776,6 @@ nullptr
 false
 )
 ;
-ContinueInterruptedParsingAsync
-(
-)
-;
 }
 [
 [
