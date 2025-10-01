@@ -713,7 +713,9 @@ prefs
 setIntPref
 (
 BACKUP_ERROR_CODE_PREF_NAME
-0
+ERRORS
+.
+NONE
 )
 ;
 bs
@@ -1023,7 +1025,9 @@ getIntPref
 (
 BACKUP_ERROR_CODE_PREF_NAME
 )
-0
+ERRORS
+.
+NONE
 "
 The
 error
@@ -1031,7 +1035,7 @@ code
 is
 reset
 to
-0
+NONE
 "
 )
 ;

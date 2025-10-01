@@ -7130,9 +7130,12 @@ Services
 .
 prefs
 .
-clearUserPref
+setIntPref
 (
 BACKUP_ERROR_CODE_PREF_NAME
+ERRORS
+.
+NONE
 )
 ;
 try
@@ -17913,7 +17916,9 @@ prefs
 setIntPref
 (
 BACKUP_ERROR_CODE_PREF_NAME
-0
+ERRORS
+.
+NONE
 )
 ;
 }
