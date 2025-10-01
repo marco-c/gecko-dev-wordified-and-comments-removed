@@ -1123,7 +1123,10 @@ experimentVariable
 =
 values
 .
-smartShortcutsConfig
+trainhopConfig
+?
+.
+smartShortcuts
 ?
 .
 enabled
@@ -8225,8 +8228,12 @@ const
 overSampleMultiplier
 =
 prefValues
+?
 .
-smartShortcutsConfig
+trainhopConfig
+?
+.
+smartShortcuts
 ?
 .
 over_sample_multiplier
@@ -9342,6 +9349,9 @@ rankTopSites
 checkedAdult
 prefValues
 isStartup
+dedupedSponsored
+.
+length
 )
 ;
 }
