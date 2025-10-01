@@ -11429,11 +11429,14 @@ self
 _artifact_job
 .
 candidate_trees
+                
 +
 [
 self
 .
 _artifact_job
+.
+job_configuration
 .
 try_tree
 ]
