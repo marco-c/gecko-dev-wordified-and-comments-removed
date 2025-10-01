@@ -2690,7 +2690,16 @@ border
 -
 radius
 :
-1px
+var
+(
+-
+-
+border
+-
+radius
+-
+xsmall
+)
 ;
 }
 }
