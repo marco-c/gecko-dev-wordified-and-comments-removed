@@ -1115,6 +1115,7 @@ DEFAULT_SERVICE_STATUS
 serverList
 )
 ;
+await
 IPProtectionService
 .
 init

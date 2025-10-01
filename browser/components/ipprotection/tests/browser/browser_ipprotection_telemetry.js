@@ -1071,6 +1071,7 @@ cleanupService
 (
 )
 ;
+await
 lazy
 .
 IPProtectionService
