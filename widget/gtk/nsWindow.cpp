@@ -17198,6 +17198,11 @@ LayoutDeviceIntMargin
 }
 ;
 }
+if
+(
+mayChangeCsdMargin
+)
+{
 const
 auto
 systemMargin
@@ -17210,6 +17215,10 @@ return
 systemMargin
 +
 mCsdMargin
+;
+}
+return
+mClientMargin
 ;
 }
 (
@@ -20585,7 +20594,7 @@ return
 FALSE
 ;
 }
-RecomputeBounds
+SchedulePendingBounds
 (
 MayChangeCsdMargin
 :
