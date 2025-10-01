@@ -147,7 +147,7 @@ lib
 .
 crash
 .
-CrashReporter
+RuntimeTag
 import
 mozilla
 .
@@ -1254,9 +1254,9 @@ crash
 .
 runtimeTags
 [
-CrashReporter
+RuntimeTag
 .
-RELEASE_RUNTIME_TAG
+RELEASE
 ]
 ?
 :

@@ -2814,13 +2814,6 @@ Theme_Mozac_CrashReporter
 companion
 object
 {
-const
-val
-RELEASE_RUNTIME_TAG
-=
-"
-release
-"
 Volatile
 private
 var
