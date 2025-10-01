@@ -33,7 +33,7 @@ AbsPosReflowFlag
 :
 uint8_t
 {
-ConstrainHeight
+AllowFragmentation
 CBWidthChanged
 CBHeightChanged
 IsGridContainerCB

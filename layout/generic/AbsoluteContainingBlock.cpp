@@ -4221,8 +4221,9 @@ StaticPosIsCBOrigin
 ;
 }
 }
+const
 bool
-constrainBSize
+kidFrameMaySplit
 =
 (
 aReflowInput
@@ -4243,7 +4244,7 @@ contains
 AbsPosReflowFlag
 :
 :
-ConstrainHeight
+AllowFragmentation
 )
 &
 &
@@ -4317,7 +4318,7 @@ const
 nscoord
 availBSize
 =
-constrainBSize
+kidFrameMaySplit
 ?
 aReflowInput
 .
