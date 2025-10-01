@@ -525,6 +525,16 @@ EqualsLiteral
 OnePlus
 "
 )
+|
+|
+sManufacturer
+.
+EqualsLiteral
+(
+"
+HONOR
+"
+)
 )
 ;
 }
