@@ -508,6 +508,12 @@ synthesizePlainDragAndDrop
 {
 srcElement
 destElement
+srcX
+:
+5
+srcY
+:
+5
 }
 )
 ;

@@ -4442,7 +4442,7 @@ urlbarBorderRadius
 =
 CSSToDevPixels
 (
-4
+8
 sCSSToDevPixelScaling
 )
 ;
