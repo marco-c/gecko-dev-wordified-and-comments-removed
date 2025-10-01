@@ -2541,6 +2541,13 @@ THUMBS_UI
 value
 :
 {
+action_position
+:
+this
+.
+props
+.
+pos
 recommendation_id
 :
 this
@@ -3007,6 +3014,13 @@ THUMBS_UI
 value
 :
 {
+action_position
+:
+this
+.
+props
+.
+pos
 recommendation_id
 :
 this

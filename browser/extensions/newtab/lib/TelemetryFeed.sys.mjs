@@ -5280,6 +5280,7 @@ const
 corpus_item_id
 format
 is_section_followed
+action_position
 received_rank
 recommendation_id
 recommended_at
@@ -5307,6 +5308,9 @@ gleanData
 =
 {
 tile_id
+position
+:
+action_position
 /
 /
 We
@@ -9772,7 +9776,7 @@ position
 :
 datum
 .
-pos
+position
 tile_id
 :
 datum
