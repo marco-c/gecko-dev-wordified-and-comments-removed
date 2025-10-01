@@ -916,7 +916,7 @@ getAutocompletionPopup
 (
 )
 .
-_list
+list
 .
 children
 [

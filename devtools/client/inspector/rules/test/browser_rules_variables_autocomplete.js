@@ -959,7 +959,7 @@ editor
 .
 popup
 .
-_list
+list
 .
 querySelectorAll
 (

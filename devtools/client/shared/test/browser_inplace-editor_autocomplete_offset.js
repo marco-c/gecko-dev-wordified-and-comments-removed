@@ -584,7 +584,9 @@ popupQuads
 =
 popup
 .
-_panel
+tooltip
+.
+panel
 .
 getBoxQuads
 (
