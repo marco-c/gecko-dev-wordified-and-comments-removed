@@ -773,6 +773,9 @@ colorPrimaries
 TransferFunction
 transferFunction
 ;
+uint32_t
+chromaLocation
+;
 FileHandleWrapper
 [
 ]

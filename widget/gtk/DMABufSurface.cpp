@@ -6428,6 +6428,7 @@ TransferFunction
 :
 :
 Default
+0
 fenceFDs
 mUID
 mCanRecycle
@@ -11647,6 +11648,14 @@ transferFunction
 (
 )
 ;
+mWPChromaLocation
+=
+aDesc
+.
+chromaLocation
+(
+)
+;
 mGbmBufferFlags
 =
 aDesc
@@ -12277,6 +12286,7 @@ GetYUVColorSpace
 mColorRange
 mColorPrimaries
 mTransferFunction
+mWPChromaLocation
 fenceFDs
 mUID
 mCanRecycle
