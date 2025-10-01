@@ -986,6 +986,10 @@ config
 onUserClick
 (
 event
+this
+.
+deps
+this
 )
 ;
 }
