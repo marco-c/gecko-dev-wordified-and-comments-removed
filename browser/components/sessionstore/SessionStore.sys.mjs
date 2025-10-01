@@ -38325,13 +38325,6 @@ for
 this
 url
 .
-console
-.
-error
-(
-error
-)
-;
 return
 false
 ;
