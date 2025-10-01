@@ -395,6 +395,16 @@ this
 #
 abortController
 ;
+if
+(
+this
+.
+#
+targetActor
+.
+chromeEventHandler
+)
+{
 this
 .
 #
@@ -443,6 +453,7 @@ signal
 }
 )
 ;
+}
 this
 .
 #
