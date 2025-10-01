@@ -239,9 +239,6 @@ pipewire_fd_
 fd
 ;
 }
-webrtc
-:
-:
 scoped_refptr
 <
 videocapturemodule
@@ -292,9 +289,6 @@ pipewire_fd_
 =
 kInvalidPipeWireFd
 ;
-webrtc
-:
-:
 scoped_refptr
 <
 videocapturemodule

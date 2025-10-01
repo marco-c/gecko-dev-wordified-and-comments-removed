@@ -150,9 +150,6 @@ allow_pipewire_
 {
 pipewire_session_
 =
-webrtc
-:
-:
 make_ref_counted
 <
 videocapturemodule

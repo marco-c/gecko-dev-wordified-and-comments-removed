@@ -221,9 +221,6 @@ gpointer
 user_data
 )
 ;
-webrtc
-:
-:
 Mutex
 notifier_lock_
 ;
@@ -294,9 +291,6 @@ CameraPortalPrivate
 )
 {
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -1265,9 +1259,6 @@ int
 fd
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
