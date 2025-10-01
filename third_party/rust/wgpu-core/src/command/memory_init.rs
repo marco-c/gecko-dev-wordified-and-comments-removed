@@ -76,9 +76,6 @@ super
 :
 :
 {
-clear
-:
-:
 clear_texture
 BakedCommands
 ClearError

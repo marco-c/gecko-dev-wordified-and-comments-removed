@@ -25,6 +25,11 @@ target_os
 "
 android
 "
+target_os
+=
+"
+freebsd
+"
 )
 }
 send_sync

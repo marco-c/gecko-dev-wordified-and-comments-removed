@@ -135,7 +135,6 @@ CommandBuffer
 CommandEncoder
 CommandEncoderError
 CopySide
-TexelCopyTextureInfo
 TransferError
 }
 device
@@ -6345,7 +6344,7 @@ Submit
 submit_index
 cmd_buf_data
 .
-commands
+trace_commands
 .
 take
 (
@@ -8527,7 +8526,16 @@ QueueId
 destination
 :
 &
+wgt
+:
+:
 TexelCopyTextureInfo
+<
+id
+:
+:
+TextureId
+>
 data
 :
 &

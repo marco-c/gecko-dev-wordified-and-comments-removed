@@ -1254,6 +1254,11 @@ target_os
 "
 android
 "
+target_os
+=
+"
+freebsd
+"
 )
 )
 '

@@ -3076,7 +3076,7 @@ textureStore
 "
 texture_storage_2d_array
 <
-rg11b10float
+rg11b10ufloat
 write
 >
 "

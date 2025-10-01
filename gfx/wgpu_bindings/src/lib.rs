@@ -37,10 +37,7 @@ use
 wgc
 :
 :
-device
-:
-:
-trace
+command
 :
 :
 Command

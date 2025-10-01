@@ -144,6 +144,7 @@ dx12
 borrow_optional_interface_temporarily
 shader_compilation
 suballocation
+DCompLib
 DynamicStorageBufferOffsets
 Event
 ShaderCacheKey
@@ -249,6 +250,13 @@ library
 Arc
 <
 D3D12Lib
+>
+dcomp_lib
+:
+&
+Arc
+<
+DCompLib
 >
 memory_budget_thresholds
 :
@@ -1021,6 +1029,15 @@ Arc
 clone
 (
 library
+)
+dcomp_lib
+:
+Arc
+:
+:
+clone
+(
+dcomp_lib
 )
 #
 [
