@@ -105,12 +105,6 @@ mockk
 .
 verify
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -300,13 +294,6 @@ org
 robolectric
 .
 RobolectricTestRunner
-OptIn
-(
-ExperimentalCoroutinesApi
-:
-:
-class
-)
 RunWith
 (
 RobolectricTestRunner

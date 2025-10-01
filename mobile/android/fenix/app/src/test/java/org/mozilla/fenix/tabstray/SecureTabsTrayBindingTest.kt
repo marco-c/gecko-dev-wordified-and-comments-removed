@@ -115,12 +115,6 @@ mockk
 .
 verify
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -197,13 +191,6 @@ Settings
 class
 SecureTabsTrayBindingTest
 {
-OptIn
-(
-ExperimentalCoroutinesApi
-:
-:
-class
-)
 get
 :
 Rule

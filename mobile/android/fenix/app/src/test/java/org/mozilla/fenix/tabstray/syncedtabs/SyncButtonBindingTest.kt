@@ -67,12 +67,6 @@ tabstray
 .
 syncedtabs
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -149,13 +143,6 @@ TabsTrayStore
 class
 SyncButtonBindingTest
 {
-OptIn
-(
-ExperimentalCoroutinesApi
-:
-:
-class
-)
 get
 :
 Rule

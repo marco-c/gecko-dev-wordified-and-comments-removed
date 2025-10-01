@@ -77,12 +77,6 @@ runners
 .
 AndroidJUnit4
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -236,7 +230,6 @@ appstate
 snackbar
 .
 SnackbarState
-ExperimentalCoroutinesApi
 RunWith
 (
 AndroidJUnit4

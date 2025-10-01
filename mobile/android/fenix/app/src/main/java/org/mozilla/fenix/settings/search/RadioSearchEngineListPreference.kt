@@ -163,12 +163,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 flow
 .
 distinctUntilChanged
@@ -410,13 +404,6 @@ holder
 itemView
 )
 }
-OptIn
-(
-ExperimentalCoroutinesApi
-:
-:
-class
-)
 private
 fun
 subscribeToSearchEngineUpdates

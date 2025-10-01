@@ -93,12 +93,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -166,13 +160,6 @@ org
 robolectric
 .
 RobolectricTestRunner
-OptIn
-(
-ExperimentalCoroutinesApi
-:
-:
-class
-)
 RunWith
 (
 RobolectricTestRunner

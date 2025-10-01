@@ -103,12 +103,6 @@ coroutines
 .
 DelicateCoroutinesApi
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -286,13 +280,6 @@ fenix
 components
 .
 PermissionStorage
-OptIn
-(
-ExperimentalCoroutinesApi
-:
-:
-class
-)
 class
 DefaultDeleteBrowsingDataControllerTest
 {

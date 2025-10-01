@@ -71,12 +71,6 @@ mockk
 .
 mockk
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -389,13 +383,6 @@ CaptureActionsMiddleware
 AppState
 AppAction
 >
-OptIn
-(
-ExperimentalCoroutinesApi
-:
-:
-class
-)
 get
 :
 Rule

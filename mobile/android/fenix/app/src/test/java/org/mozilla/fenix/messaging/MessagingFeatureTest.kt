@@ -77,12 +77,6 @@ mockk
 .
 verify
 import
-kotlinx
-.
-coroutines
-.
-ExperimentalCoroutinesApi
-import
 mozilla
 .
 components
@@ -155,13 +149,6 @@ MessagingAction
 class
 MessagingFeatureTest
 {
-OptIn
-(
-ExperimentalCoroutinesApi
-:
-:
-class
-)
 get
 :
 Rule
