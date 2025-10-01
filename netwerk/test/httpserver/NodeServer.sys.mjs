@@ -3140,9 +3140,6 @@ _port
 this
 .
 _pathTemplate
-"
-h3
-"
 this
 .
 _auth
