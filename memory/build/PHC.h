@@ -219,6 +219,14 @@ aState
 ;
 MOZ_JEMALLOC_API
 void
+SetPHCSize
+(
+size_t
+aNumPHCBytes
+)
+;
+MOZ_JEMALLOC_API
+void
 SetPHCProbabilities
 (
 int64_t
