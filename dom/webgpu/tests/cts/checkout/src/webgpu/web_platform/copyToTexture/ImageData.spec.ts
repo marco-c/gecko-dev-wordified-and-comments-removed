@@ -35,7 +35,7 @@ js
 import
 {
 getBaseFormatForRegularTextureFormat
-kValidTextureFormatsForCopyE2T
+kPossibleValidTextureFormatsForCopyE2T
 }
 from
 '
@@ -291,7 +291,7 @@ combine
 '
 dstColorFormat
 '
-kValidTextureFormatsForCopyE2T
+kPossibleValidTextureFormatsForCopyE2T
 )
 .
 combine
@@ -394,6 +394,13 @@ params
 t
 .
 skipIfTextureFormatNotSupported
+(
+dstColorFormat
+)
+;
+t
+.
+skipIfTextureFormatPossiblyNotUsableWithCopyExternalImageToTexture
 (
 dstColorFormat
 )

@@ -165,7 +165,7 @@ js
 import
 {
 kAllTextureFormats
-kValidTextureFormatsForCopyE2T
+isTextureFormatUsableWithCopyExternalImageToTexture
 }
 from
 '
@@ -3760,10 +3760,11 @@ popErrorScope
 const
 success
 =
-kValidTextureFormatsForCopyE2T
-.
-includes
+isTextureFormatUsableWithCopyExternalImageToTexture
 (
+t
+.
+device
 format
 )
 ;
