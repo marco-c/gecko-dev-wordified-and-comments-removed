@@ -334,9 +334,9 @@ bool
 aCBWidthChanged
 bool
 aCBHeightChanged
-AnchorPosReferenceData
+AnchorPosReferencedAnchors
 *
-aAnchorPosReferenceData
+aReferencedAnchors
 =
 nullptr
 )
@@ -443,9 +443,9 @@ mozilla
 OverflowAreas
 *
 aOverflowAreas
-AnchorPosReferenceData
+AnchorPosReferencedAnchors
 *
-aAnchorPosReferenceData
+aReferencedAnchors
 =
 nullptr
 )

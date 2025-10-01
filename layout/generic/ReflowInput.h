@@ -178,9 +178,9 @@ gfxContext
 *
 mRenderingContext
 ;
-AnchorPosReferenceData
+AnchorPosReferencedAnchors
 *
-mAnchorPosReferenceData
+mReferencedAnchors
 =
 nullptr
 ;
@@ -430,9 +430,9 @@ aFrame
 gfxContext
 *
 aRenderingContext
-AnchorPosReferenceData
+AnchorPosReferencedAnchors
 *
-aAnchorPosReferenceData
+aReferencedAnchors
 =
 nullptr
 )
@@ -1740,9 +1740,9 @@ aComputeSizeFlags
 =
 {
 }
-AnchorPosReferenceData
+AnchorPosReferencedAnchors
 *
-aAnchorPosReferenceData
+aReferencedAnchors
 =
 nullptr
 )
@@ -2449,7 +2449,7 @@ mPosition
 aRI
 -
 >
-mAnchorPosReferenceData
+mReferencedAnchors
 }
 ;
 }
