@@ -39,6 +39,11 @@ attestationObject
 ;
 readonly
 attribute
+boolean
+attestationConsentPromptShown
+;
+readonly
+attribute
 Array
 <
 octet
