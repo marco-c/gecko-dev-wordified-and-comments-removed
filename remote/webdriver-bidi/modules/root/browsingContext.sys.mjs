@@ -3670,6 +3670,8 @@ options
 const
 {
 background
+:
+inBackground
 =
 false
 referenceContext
@@ -3748,7 +3750,7 @@ assert
 .
 boolean
 (
-background
+inBackground
 lazy
 .
 pprint
@@ -3762,7 +3764,7 @@ a
 boolean
 got
 {
-background
+inBackground
 }
 )
 ;
@@ -4269,7 +4271,7 @@ openBrowserWindow
 focus
 :
 !
-background
+inBackground
 userContextId
 :
 userContext
@@ -4358,7 +4360,7 @@ referenceTab
 if
 (
 !
-background
+inBackground
 &
 &
 !
@@ -4488,10 +4490,7 @@ TabManager
 addTab
 (
 {
-focus
-:
-!
-background
+inBackground
 referenceTab
 userContextId
 :
@@ -4722,7 +4721,7 @@ AppInfo
 isAndroid
 &
 &
-background
+inBackground
 )
 {
 await
