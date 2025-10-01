@@ -213,9 +213,6 @@ platforms
 :
 [
 '
-linux
-'
-'
 linux64
 '
 '
@@ -294,9 +291,6 @@ bouncer
 platforms
 :
 [
-'
-linux
-'
 '
 linux64
 '
@@ -428,9 +422,6 @@ bouncer
 platforms
 :
 [
-'
-linux
-'
 '
 linux64
 '
