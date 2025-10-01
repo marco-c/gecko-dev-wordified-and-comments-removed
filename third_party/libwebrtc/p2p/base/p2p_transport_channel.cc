@@ -6502,11 +6502,11 @@ AsyncDnsResolverInterface
 resolver
 )
 :
-candidate_
+candidate
 (
 candidate
 )
-resolver_
+resolver
 (
 std
 :
@@ -6568,7 +6568,7 @@ cr
 return
 cr
 .
-resolver_
+resolver
 .
 get
 (
@@ -6617,7 +6617,7 @@ candidate
 p
 -
 >
-candidate_
+candidate
 ;
 AddRemoteCandidateWithResult
 (
@@ -6647,7 +6647,7 @@ move
 p
 -
 >
-resolver_
+resolver
 )
 ;
 network_thread_
