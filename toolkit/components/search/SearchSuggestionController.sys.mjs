@@ -3047,9 +3047,7 @@ context
 aborted
 )
 {
-Glean
-.
-searchSuggestions
+category
 .
 abortedRequests
 [
@@ -3073,9 +3071,7 @@ context
 errorWasReceived
 )
 {
-Glean
-.
-searchSuggestions
+category
 .
 failedRequests
 [
@@ -3093,9 +3089,7 @@ add
 }
 else
 {
-Glean
-.
-searchSuggestions
+category
 .
 successfulRequests
 [
