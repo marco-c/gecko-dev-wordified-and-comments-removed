@@ -291,9 +291,6 @@ protected
 using
 CachePredicate
 =
-webrtc
-:
-:
 FunctionView
 <
 bool

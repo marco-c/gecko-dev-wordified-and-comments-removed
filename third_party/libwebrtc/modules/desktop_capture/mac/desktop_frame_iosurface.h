@@ -73,9 +73,6 @@ DesktopFrameIOSurface
 >
 Wrap
 (
-webrtc
-:
-:
 ScopedCFTypeRef
 <
 IOSurfaceRef
@@ -119,9 +116,6 @@ private
 :
 DesktopFrameIOSurface
 (
-webrtc
-:
-:
 ScopedCFTypeRef
 <
 IOSurfaceRef
@@ -139,9 +133,6 @@ stride
 )
 ;
 const
-webrtc
-:
-:
 ScopedCFTypeRef
 <
 IOSurfaceRef

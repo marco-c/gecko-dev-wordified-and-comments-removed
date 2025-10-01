@@ -228,9 +228,6 @@ defined
 WEBRTC_IOS
 )
 const
-webrtc
-:
-:
 scoped_refptr
 <
 DesktopConfigurationMonitor
@@ -248,9 +245,6 @@ configuration_monitor_
 void
 set_configuration_monitor
 (
-webrtc
-:
-:
 scoped_refptr
 <
 DesktopConfigurationMonitor
@@ -670,9 +664,6 @@ allow
 ;
 }
 const
-webrtc
-:
-:
 scoped_refptr
 <
 SharedScreenCastStream
@@ -690,9 +681,6 @@ screencast_stream_
 void
 set_screencast_stream
 (
-webrtc
-:
-:
 scoped_refptr
 <
 SharedScreenCastStream
@@ -795,9 +783,6 @@ defined
 (
 WEBRTC_USE_PIPEWIRE
 )
-webrtc
-:
-:
 scoped_refptr
 <
 SharedScreenCastStream
@@ -819,9 +804,6 @@ defined
 (
 WEBRTC_IOS
 )
-webrtc
-:
-:
 scoped_refptr
 <
 DesktopConfigurationMonitor

@@ -57,9 +57,6 @@ DesktopFrame
 RTC_EXPORT
 CreateDesktopFrameFromCGImage
 (
-webrtc
-:
-:
 ScopedCFTypeRef
 <
 CGImageRef

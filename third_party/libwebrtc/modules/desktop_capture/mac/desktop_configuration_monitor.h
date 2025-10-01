@@ -64,9 +64,6 @@ DesktopConfigurationMonitor
 final
 :
 public
-webrtc
-:
-:
 RefCountedNonVirtual
 <
 DesktopConfigurationMonitor
