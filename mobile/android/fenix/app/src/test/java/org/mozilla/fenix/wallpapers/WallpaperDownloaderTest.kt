@@ -83,7 +83,7 @@ coroutines
 .
 test
 .
-UnconfinedTestDispatcher
+StandardTestDispatcher
 import
 kotlinx
 .
@@ -186,12 +186,6 @@ java
 io
 .
 File
-import
-java
-.
-lang
-.
-IllegalStateException
 class
 WallpaperDownloaderTest
 {
@@ -280,7 +274,7 @@ private
 val
 dispatcher
 =
-UnconfinedTestDispatcher
+StandardTestDispatcher
 (
 )
 private
@@ -361,6 +355,9 @@ location
 )
 =
 runTest
+(
+dispatcher
+)
 {
 val
 wallpaper
@@ -552,6 +549,9 @@ location
 )
 =
 runTest
+(
+dispatcher
+)
 {
 val
 wallpaper
@@ -691,6 +691,9 @@ created
 )
 =
 runTest
+(
+dispatcher
+)
 {
 val
 wallpaper
@@ -844,6 +847,9 @@ created
 )
 =
 runTest
+(
+dispatcher
+)
 {
 val
 wallpaper
