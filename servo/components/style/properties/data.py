@@ -6486,6 +6486,12 @@ style
 "
 text
 -
+orientation
+"
+                
+"
+text
+-
 shadow
 "
                 
