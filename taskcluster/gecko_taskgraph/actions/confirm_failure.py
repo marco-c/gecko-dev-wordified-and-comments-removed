@@ -22,6 +22,14 @@ get_task_definition
 list_artifacts
 from
 .
+.
+util
+.
+constants
+import
+TEST_KINDS
+from
+.
 registry
 import
 register_callback_action
@@ -1340,10 +1348,12 @@ context
 kind
 "
 :
-"
-test
-"
+kind
 }
+for
+kind
+in
+TEST_KINDS
 ]
     
 schema

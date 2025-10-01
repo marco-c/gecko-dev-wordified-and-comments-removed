@@ -32,6 +32,14 @@ util
 import
 create_tasks
 fetch_graph_and_labels
+from
+gecko_taskgraph
+.
+util
+.
+constants
+import
+TEST_KINDS
 logger
 =
 logging
@@ -427,6 +435,7 @@ worker
     
 return
 [
+        
 {
 "
 worker
@@ -443,10 +452,13 @@ worker
 kind
 "
 :
-"
-test
-"
+kind
 }
+for
+kind
+in
+TEST_KINDS
+    
 ]
 register_callback_action
 (
