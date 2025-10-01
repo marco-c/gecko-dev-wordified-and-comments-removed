@@ -1043,6 +1043,12 @@ browserMenuState
 assertEquals
 (
 guid
+.
+getOrNull
+(
+)
+!
+!
 store
 .
 state
@@ -2419,6 +2425,12 @@ true
 assertEquals
 (
 guid
+.
+getOrNull
+(
+)
+!
+!
 store
 .
 state

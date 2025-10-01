@@ -642,6 +642,13 @@ query
 BOOKMARKS_SUGGESTION_LIMIT
 )
 .
+getOrDefault
+(
+listOf
+(
+)
+)
+.
 filter
 {
 it
@@ -745,6 +752,13 @@ query
 BOOKMARKS_SUGGESTION_LIMIT
 *
 BOOKMARKS_RESULTS_TO_FILTER_SCALE_FACTOR
+)
+.
+getOrDefault
+(
+listOf
+(
+)
 )
 .
 filter
