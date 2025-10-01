@@ -4612,7 +4612,7 @@ URL
 startsWith
 (
 "
-http
+https
 :
 /
 /
