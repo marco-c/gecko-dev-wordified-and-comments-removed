@@ -1114,6 +1114,14 @@ Assembler
 assembler
 )
 ;
+explicit
+UseScratchRegisterScope
+(
+Assembler
+*
+assembler
+)
+;
 ~
 UseScratchRegisterScope
 (

@@ -2943,6 +2943,14 @@ explicit
 UseScratchRegisterScope
 (
 Assembler
+&
+assembler
+)
+;
+explicit
+UseScratchRegisterScope
+(
+Assembler
 *
 assembler
 )
