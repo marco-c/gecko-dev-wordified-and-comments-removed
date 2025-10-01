@@ -3071,6 +3071,10 @@ None
 include_moz_extra_info
 =
 True
+        
+map_rust_sources
+=
+True
     
 )
 :
@@ -3189,6 +3193,10 @@ include_moz_extra_info
 =
 include_moz_extra_info
         
+if
+map_rust_sources
+:
+            
 rust_sha
 =
 buildconfig
@@ -3199,7 +3207,7 @@ substs
 RUSTC_COMMIT
 "
 ]
-        
+            
 rust_srcdir
 =
 "
@@ -3209,7 +3217,7 @@ rustc
 "
 +
 rust_sha
-        
+            
 self
 .
 srcdirs
@@ -3218,7 +3226,7 @@ append
 (
 rust_srcdir
 )
-        
+            
 Dumper
 .
 srcdirRepoInfo
@@ -3228,7 +3236,7 @@ rust_srcdir
 =
 GitRepoInfo
 (
-            
+                
 rust_srcdir
 rust_sha
 "
@@ -3247,7 +3255,7 @@ lang
 rust
 /
 "
-        
+            
 )
     
 def
@@ -7656,6 +7664,68 @@ variables
     
 )
     
+parser
+.
+add_option
+(
+        
+"
+-
+-
+no
+-
+rust
+"
+        
+action
+=
+"
+store_true
+"
+        
+dest
+=
+"
+no_rust
+"
+        
+default
+=
+False
+        
+help
+=
+"
+Whether
+to
+map
+Rust
+sources
+.
+If
+unset
+require
+RUSTC_COMMIT
+to
+be
+set
+"
+        
++
+"
+either
+through
+build
+config
+.
+or
+through
+environment
+variables
+"
+    
+)
+    
 (
 options
 args
@@ -7859,6 +7929,13 @@ not
 options
 .
 no_moz_extra_info
+        
+map_rust_sources
+=
+not
+options
+.
+no_rust
     
 )
     
