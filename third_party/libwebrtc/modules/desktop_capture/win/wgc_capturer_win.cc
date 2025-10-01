@@ -460,9 +460,6 @@ dirty_region_mode
 ;
 hr
 =
-webrtc
-:
-:
 CreateHstring
 (
 kDirtyRegionMode
@@ -482,9 +479,6 @@ hr
 )
 )
 {
-webrtc
-:
-:
 DeleteHstring
 (
 dirty_region_mode
@@ -498,9 +492,6 @@ wgc_session_type
 ;
 hr
 =
-webrtc
-:
-:
 CreateHstring
 (
 kWgcSessionType
@@ -551,17 +542,11 @@ is_dirty_region_mode_supported
 )
 ;
 }
-webrtc
-:
-:
 DeleteHstring
 (
 dirty_region_mode
 )
 ;
-webrtc
-:
-:
 DeleteHstring
 (
 wgc_session_type
@@ -599,9 +584,6 @@ false
 ;
 if
 (
-webrtc
-:
-:
 rtc_win
 :
 :
@@ -609,9 +591,6 @@ GetVersion
 (
 )
 <
-webrtc
-:
-:
 rtc_win
 :
 :
@@ -635,9 +614,6 @@ CaptureType
 kScreen
 &
 &
-webrtc
-:
-:
 rtc_win
 :
 :
@@ -645,9 +621,6 @@ GetVersion
 (
 )
 <
-webrtc
-:
-:
 rtc_win
 :
 :
@@ -729,9 +702,6 @@ api_contract
 ;
 hr
 =
-webrtc
-:
-:
 CreateHstring
 (
 kApiContract
@@ -769,9 +739,6 @@ kRequiredApiContractVersion
 is_api_present
 )
 ;
-webrtc
-:
-:
 DeleteHstring
 (
 api_contract
@@ -796,9 +763,6 @@ wgc_session_type
 ;
 hr
 =
-webrtc
-:
-:
 CreateHstring
 (
 kWgcSessionType
@@ -835,9 +799,6 @@ wgc_session_type
 is_type_present
 )
 ;
-webrtc
-:
-:
 DeleteHstring
 (
 wgc_session_type
@@ -1586,9 +1547,6 @@ true
 int64_t
 capture_start_time_nanos
 =
-webrtc
-:
-:
 TimeNanos
 (
 )
@@ -1998,9 +1956,6 @@ int
 capture_time_ms
 =
 (
-webrtc
-:
-:
 TimeNanos
 (
 )
@@ -2008,9 +1963,6 @@ TimeNanos
 capture_start_time_nanos
 )
 /
-webrtc
-:
-:
 kNumNanosecsPerMillisec
 ;
 RTC_HISTOGRAM_COUNTS_1000

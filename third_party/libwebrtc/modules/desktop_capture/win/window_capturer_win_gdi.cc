@@ -788,9 +788,6 @@ callback_
 int64_t
 capture_start_time_nanos
 =
-webrtc
-:
-:
 TimeNanos
 (
 )
@@ -852,9 +849,6 @@ int
 capture_time_ms
 =
 (
-webrtc
-:
-:
 TimeNanos
 (
 )
@@ -862,9 +856,6 @@ TimeNanos
 capture_start_time_nanos
 )
 /
-webrtc
-:
-:
 kNumNanosecsPerMillisec
 ;
 RTC_HISTOGRAM_COUNTS_1000
@@ -1453,9 +1444,6 @@ FALSE
 ;
 if
 (
-webrtc
-:
-:
 rtc_win
 :
 :
@@ -1464,9 +1452,6 @@ GetVersion
 )
 >
 =
-webrtc
-:
-:
 rtc_win
 :
 :

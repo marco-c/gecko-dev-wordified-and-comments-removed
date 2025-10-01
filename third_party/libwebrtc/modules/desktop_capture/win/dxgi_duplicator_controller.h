@@ -214,9 +214,6 @@ result
 )
 ;
 static
-webrtc
-:
-:
 scoped_refptr
 <
 DxgiDuplicatorController
@@ -302,9 +299,6 @@ Reset
 ;
 friend
 class
-webrtc
-:
-:
 scoped_refptr
 <
 DxgiDuplicatorController

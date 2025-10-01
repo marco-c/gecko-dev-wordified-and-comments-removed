@@ -584,9 +584,6 @@ window_height
 {
 window_thread_
 =
-webrtc
-:
-:
 Thread
 :
 :
@@ -1400,9 +1397,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 Thread
 >
 window_thread_
@@ -1721,9 +1715,6 @@ start_time
 ;
 start_time
 =
-webrtc
-:
-:
 TimeNanos
 (
 )
@@ -1739,9 +1730,6 @@ int
 capture_time_ms
 =
 (
-webrtc
-:
-:
 TimeNanos
 (
 )
@@ -1749,9 +1737,6 @@ TimeNanos
 start_time
 )
 /
-webrtc
-:
-:
 kNumNanosecsPerMillisec
 ;
 EXPECT_EQ
@@ -1893,9 +1878,6 @@ kScreen
 ;
 if
 (
-webrtc
-:
-:
 rtc_win
 :
 :
@@ -1903,9 +1885,6 @@ GetVersion
 (
 )
 <
-webrtc
-:
-:
 rtc_win
 :
 :

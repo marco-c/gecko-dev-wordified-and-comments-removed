@@ -400,9 +400,6 @@ CaptureFrame
 int64_t
 capture_start_time_nanos
 =
-webrtc
-:
-:
 TimeNanos
 (
 )
@@ -562,9 +559,6 @@ int
 capture_time_ms
 =
 (
-webrtc
-:
-:
 TimeNanos
 (
 )
@@ -572,9 +566,6 @@ TimeNanos
 capture_start_time_nanos
 )
 /
-webrtc
-:
-:
 kNumNanosecsPerMillisec
 ;
 RTC_HISTOGRAM_COUNTS_1000
@@ -641,9 +632,6 @@ sources
 )
 {
 return
-webrtc
-:
-:
 GetScreenList
 (
 sources

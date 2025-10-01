@@ -359,9 +359,6 @@ output
 )
 device_name_
 (
-webrtc
-:
-:
 ToUtf8
 (
 desc

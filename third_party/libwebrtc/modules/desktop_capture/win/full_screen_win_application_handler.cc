@@ -311,9 +311,6 @@ string
 ;
 }
 return
-webrtc
-:
-:
 ToUtf8
 (
 buffer
