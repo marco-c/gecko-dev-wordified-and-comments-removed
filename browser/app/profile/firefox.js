@@ -24970,3 +24970,17 @@ Warn
 "
 )
 ;
+pref
+(
+"
+browser
+.
+settings
+-
+redesign
+.
+enabled
+"
+false
+)
+;
