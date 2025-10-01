@@ -100,11 +100,6 @@ GetLastTouchIdentifier
 )
 const
 ;
-void
-Destroy
-(
-)
-;
 static
 void
 SetLongTapEnabled
