@@ -4100,6 +4100,12 @@ TRRSkippedReason
 :
 TRR_UNSET
 ;
+RefPtr
+<
+DictionaryCacheEntry
+>
+mDict
+;
 public
 :
 void
