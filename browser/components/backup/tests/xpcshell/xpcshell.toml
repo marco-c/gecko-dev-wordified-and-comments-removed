@@ -320,3 +320,10 @@ test_SessionStoreBackupResource
 js
 "
 ]
+[
+"
+test_backupService_findBackupsInWellKnownLocations
+.
+js
+"
+]

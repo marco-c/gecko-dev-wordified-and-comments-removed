@@ -1691,6 +1691,14 @@ bs
 .
 findIfABackupFileExists
 (
+{
+validateFile
+:
+true
+multipleFiles
+:
+true
+}
 )
 ;
 }
