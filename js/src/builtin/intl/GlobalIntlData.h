@@ -82,7 +82,7 @@ GCPtr
 JSLinearString
 *
 >
-runtimeDefaultLocale_
+realmLocale_
 ;
 GCPtr
 <
@@ -96,7 +96,7 @@ GCPtr
 JSLinearString
 *
 >
-runtimeDefaultTimeZone_
+realmTimeZone_
 ;
 GCPtr
 <
@@ -304,7 +304,7 @@ trc
 private
 :
 bool
-ensureRuntimeDefaultLocale
+ensureRealmLocale
 (
 JSContext
 *
@@ -312,7 +312,7 @@ cx
 )
 ;
 bool
-ensureRuntimeDefaultTimeZone
+ensureRealmTimeZone
 (
 JSContext
 *
