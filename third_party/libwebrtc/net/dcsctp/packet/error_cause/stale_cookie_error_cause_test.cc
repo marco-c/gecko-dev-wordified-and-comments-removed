@@ -16,14 +16,7 @@ h
 #
 include
 <
-stdint
-.
-h
->
-#
-include
-<
-type_traits
+cstdint
 >
 #
 include
@@ -46,9 +39,9 @@ h
 #
 include
 "
-rtc_base
+test
 /
-gunit
+gtest
 .
 h
 "
