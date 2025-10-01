@@ -404,3 +404,10 @@ browser_resistfingerprinting_getbuffersubdata
 js
 "
 ]
+[
+"
+browser_resistfingerprinting_readpixels_placeholder
+.
+js
+"
+]
