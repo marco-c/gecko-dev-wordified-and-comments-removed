@@ -188,8 +188,6 @@ aFilter
 )
 override
 ;
-protected
-:
 virtual
 int32_t
 InputIndex
@@ -203,6 +201,8 @@ return
 1
 ;
 }
+protected
+:
 virtual
 IntRect
 GetOutputRectInRect
