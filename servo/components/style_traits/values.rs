@@ -2512,7 +2512,10 @@ pub
 enum
 TypedValue
 {
-Placeholder
+Keyword
+(
+CssString
+)
 }
 pub
 trait
