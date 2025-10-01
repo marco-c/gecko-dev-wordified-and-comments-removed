@@ -4474,7 +4474,7 @@ field_trials
 FieldTrials
 :
 :
-CreateNoGlobal
+Create
 (
 "
 "
@@ -4583,7 +4583,7 @@ env_field_trials
 FieldTrials
 :
 :
-CreateNoGlobal
+Create
 (
 "
 "
@@ -4601,7 +4601,7 @@ explicit_field_trials
 FieldTrials
 :
 :
-CreateNoGlobal
+Create
 (
 "
 "
