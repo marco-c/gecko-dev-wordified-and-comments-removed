@@ -319,6 +319,8 @@ t
 linux
 -
 docker
+-
+amd
 worker
 :
 docker
@@ -443,6 +445,8 @@ t
 linux
 -
 docker
+-
+amd
 worker
 :
 docker

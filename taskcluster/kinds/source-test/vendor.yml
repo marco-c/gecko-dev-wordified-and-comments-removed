@@ -69,6 +69,8 @@ t
 linux
 -
 docker
+-
+amd
 attributes
 :
 code
