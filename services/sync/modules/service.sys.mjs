@@ -3955,6 +3955,7 @@ setup
 complete
 "
 :
+{
 let
 status
 =
@@ -3987,6 +3988,7 @@ _startTracking
 }
 break
 ;
+}
 case
 "
 nsPref
@@ -3994,6 +3996,7 @@ nsPref
 changed
 "
 :
+{
 if
 (
 this
@@ -4075,6 +4078,7 @@ engine
 ;
 break
 ;
+}
 case
 "
 weave

@@ -5182,6 +5182,7 @@ PlacesUtils
 .
 TYPE_X_MOZ_PLACE_CONTAINER
 :
+{
 let
 isLivemark
 =
@@ -5277,6 +5278,7 @@ folder
 ;
 break
 ;
+}
 case
 lazy
 .

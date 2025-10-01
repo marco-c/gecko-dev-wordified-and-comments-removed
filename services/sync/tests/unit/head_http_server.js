@@ -822,6 +822,7 @@ case
 DELETE
 "
 :
+{
 self
 .
 delete
@@ -868,6 +869,7 @@ ts
 ;
 break
 ;
+}
 }
 response
 .
@@ -2588,6 +2590,7 @@ case
 GET
 "
 :
+{
 body
 =
 self
@@ -2701,11 +2704,13 @@ timestamp
 ;
 break
 ;
+}
 case
 "
 POST
 "
 :
+{
 let
 res
 =
@@ -2741,11 +2746,13 @@ modified
 ;
 break
 ;
+}
 case
 "
 DELETE
 "
 :
+{
 self
 .
 _log
@@ -2802,6 +2809,7 @@ deleted
 ;
 break
 ;
+}
 }
 response
 .
@@ -5750,6 +5758,7 @@ case
 collections
 "
 :
+{
 let
 body
 =
@@ -5793,6 +5802,7 @@ json
 ;
 return
 ;
+}
 case
 "
 collection_usage

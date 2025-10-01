@@ -3454,6 +3454,7 @@ case
 onUninstalled
 "
 :
+{
 let
 id
 =
@@ -3532,6 +3533,7 @@ CHANGE_UNINSTALLED
 record
 )
 ;
+}
 }
 }
 /

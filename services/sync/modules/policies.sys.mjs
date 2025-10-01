@@ -1864,6 +1864,7 @@ status
 changed
 "
 :
+{
 /
 /
 Note
@@ -2113,6 +2114,7 @@ clearSyncTriggers
 }
 break
 ;
+}
 case
 "
 network
@@ -2249,6 +2251,7 @@ sync
 finish
 "
 :
+{
 this
 .
 nextSync
@@ -2556,6 +2559,7 @@ nextSyncReason
 ;
 break
 ;
+}
 case
 "
 weave
@@ -2611,6 +2615,7 @@ sync
 error
 "
 :
+{
 /
 /
 subject
@@ -2660,6 +2665,7 @@ true
 }
 break
 ;
+}
 case
 "
 weave
@@ -2931,6 +2937,7 @@ backoff
 interval
 "
 :
+{
 let
 requested_interval
 =
@@ -3036,6 +3043,7 @@ minimumNextSync
 ;
 break
 ;
+}
 case
 "
 weave
@@ -3047,6 +3055,7 @@ sync
 applied
 "
 :
+{
 let
 numItems
 =
@@ -3204,6 +3213,7 @@ apply
 }
 break
 ;
+}
 case
 "
 weave
@@ -6981,6 +6991,7 @@ break
 case
 401
 :
+{
 this
 .
 service
@@ -7196,6 +7207,7 @@ reschedule
 ;
 break
 ;
+}
 case
 500
 :

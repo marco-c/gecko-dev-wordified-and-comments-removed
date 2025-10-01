@@ -3124,6 +3124,7 @@ break
 case
 3
 :
+{
 let
 garbageResponse
 =
@@ -3178,6 +3179,7 @@ length
 ;
 break
 ;
+}
 case
 4
 :

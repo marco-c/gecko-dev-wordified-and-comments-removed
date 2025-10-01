@@ -1616,6 +1616,7 @@ command
 case
 COMMAND_PAIR_SUPP_METADATA
 :
+{
 stateMachine
 .
 assertState
@@ -1656,9 +1657,11 @@ country
 ipAddress
 }
 ;
+}
 case
 COMMAND_PAIR_AUTHORIZE
 :
+{
 stateMachine
 .
 assertState
@@ -1773,6 +1776,7 @@ localConfirmed
 ;
 break
 ;
+}
 case
 COMMAND_PAIR_DECLINE
 :
@@ -1787,6 +1791,7 @@ break
 case
 COMMAND_PAIR_HEARTBEAT
 :
+{
 if
 (
 curState
@@ -1840,6 +1845,7 @@ return
 suppAuthorized
 }
 ;
+}
 case
 COMMAND_PAIR_COMPLETE
 :
@@ -1938,6 +1944,7 @@ supp
 request
 "
 :
+{
 stateMachine
 .
 assertState
@@ -2151,6 +2158,7 @@ keys_jwk
 ;
 break
 ;
+}
 case
 "
 pair

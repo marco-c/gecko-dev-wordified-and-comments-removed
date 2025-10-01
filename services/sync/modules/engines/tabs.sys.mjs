@@ -3747,6 +3747,7 @@ case
 domwindowopened
 "
 :
+{
 let
 onLoad
 =
@@ -3812,6 +3813,7 @@ onLoad
 ;
 break
 ;
+}
 }
 }
 onTab
@@ -3960,6 +3962,7 @@ case
 TabClose
 "
 :
+{
 /
 /
 If
@@ -4069,6 +4072,7 @@ SCORE_INCREMENT_SMALL
 ;
 break
 ;
+}
 }
 }
 /

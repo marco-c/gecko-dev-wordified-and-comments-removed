@@ -3899,6 +3899,7 @@ break
 case
 ON_DEVICE_DISCONNECTED_NOTIFICATION
 :
+{
 let
 json
 =
@@ -3985,6 +3986,7 @@ error
 }
 break
 ;
+}
 case
 ONVERIFIED_NOTIFICATION
 :

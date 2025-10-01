@@ -2210,6 +2210,7 @@ break
 case
 COMMAND_FXA_STATUS
 :
+{
 log
 .
 debug
@@ -2299,6 +2300,7 @@ sendingContext
 ;
 break
 ;
+}
 case
 COMMAND_PAIR_HEARTBEAT
 :
@@ -2314,6 +2316,7 @@ COMMAND_PAIR_DECLINE
 case
 COMMAND_PAIR_COMPLETE
 :
+{
 log
 .
 debug
@@ -2416,6 +2419,7 @@ sendingContext
 ;
 break
 ;
+}
 default
 :
 {
