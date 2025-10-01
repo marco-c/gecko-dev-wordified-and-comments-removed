@@ -16,6 +16,15 @@ ip_address
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+net_helpers
+.
+h
+"
 namespace
 webrtc
 {

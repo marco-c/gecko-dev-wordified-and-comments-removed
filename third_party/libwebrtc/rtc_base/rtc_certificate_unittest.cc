@@ -17,6 +17,11 @@ h
 #
 include
 <
+cstdint
+>
+#
+include
+<
 memory
 >
 #
@@ -24,6 +29,15 @@ include
 <
 utility
 >
+#
+include
+"
+api
+/
+scoped_refptr
+.
+h
+"
 #
 include
 "

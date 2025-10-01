@@ -26,11 +26,6 @@ deque
 #
 include
 <
-memory
->
-#
-include
-<
 optional
 >
 #

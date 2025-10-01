@@ -7,7 +7,17 @@ RTC_BASE_MEMORY_ALWAYS_VALID_POINTER_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 memory
+>
+#
+include
+<
+type_traits
 >
 #
 include

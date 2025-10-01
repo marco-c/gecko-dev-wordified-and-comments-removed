@@ -275,6 +275,14 @@ api
 :
 libjingle_peerconnection_api
 "
+"
+.
+.
+/
+rtc_base
+:
+stringutils
+"
 ]
 }
 rtc_library

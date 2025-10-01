@@ -7,6 +7,11 @@ RTC_BASE_CONTAINERS_INVOKE_H_
 #
 include
 <
+functional
+>
+#
+include
+<
 type_traits
 >
 #

@@ -22,6 +22,11 @@ algorithm
 #
 include
 <
+cstdint
+>
+#
+include
+<
 limits
 >
 #

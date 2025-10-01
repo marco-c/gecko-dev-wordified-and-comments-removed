@@ -16,6 +16,16 @@ cstdarg
 >
 #
 include
+<
+cstdio
+>
+#
+include
+<
+string
+>
+#
+include
 "
 rtc_base
 /
