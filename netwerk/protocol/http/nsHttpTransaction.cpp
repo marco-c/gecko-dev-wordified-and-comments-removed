@@ -15928,7 +15928,7 @@ GetWebTransport
 newInfo
 -
 >
-UsingConnectUDP
+IsHttp3ProxyConnection
 (
 )
 ;

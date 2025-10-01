@@ -580,7 +580,7 @@ isOuterConnection
 proxyInfo
 -
 >
-IsConnectUDP
+IsHttp3Proxy
 (
 )
 ;
@@ -7741,7 +7741,7 @@ trans
 mConnInfo
 -
 >
-UsingConnectUDP
+IsHttp3ProxyConnection
 (
 )
 &

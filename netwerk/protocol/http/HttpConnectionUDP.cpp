@@ -1099,7 +1099,7 @@ port
 mConnInfo
 -
 >
-UsingConnectUDP
+IsHttp3ProxyConnection
 (
 )
 ?

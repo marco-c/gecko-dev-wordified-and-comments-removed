@@ -211,14 +211,6 @@ mProxyInfo
 IsHTTPS
 (
 )
-|
-|
-mProxyInfo
--
->
-IsConnectUDP
-(
-)
 )
 ;
 }
