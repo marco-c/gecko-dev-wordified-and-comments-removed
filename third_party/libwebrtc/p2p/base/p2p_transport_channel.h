@@ -714,12 +714,6 @@ mode
 override
 ;
 void
-Connect
-(
-)
-{
-}
-void
 MaybeStartGathering
 (
 )
