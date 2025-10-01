@@ -16,9 +16,7 @@ h
 #
 include
 <
-stddef
-.
-h
+cstddef
 >
 #
 include

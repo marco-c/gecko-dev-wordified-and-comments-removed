@@ -10,15 +10,6 @@ h
 #
 include
 "
-mozilla
-/
-BinarySearch
-.
-h
-"
-#
-include
-"
 gfxFontUtils
 .
 h
