@@ -54,3 +54,17 @@ a14f
 -
 d63670ff031b
 "
+WELL_KNOWN_FORMAT_KEY
+=
+b
+"
+a1b2c3d4
+-
+e5f6
+-
+7890
+-
+1234
+-
+56789abcdef0
+"
