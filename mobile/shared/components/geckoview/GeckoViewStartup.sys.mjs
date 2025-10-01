@@ -2323,6 +2323,7 @@ GeckoView
 SetLocale
 "
 :
+{
 if
 (
 aData
@@ -2393,6 +2394,7 @@ pls
 ;
 break
 ;
+}
 case
 "
 GeckoView

@@ -955,6 +955,7 @@ GeckoView
 DOMFullscreenExited
 "
 :
+{
 /
 /
 During
@@ -1001,6 +1002,7 @@ restoreViewSize
 ;
 break
 ;
+}
 case
 "
 GeckoView

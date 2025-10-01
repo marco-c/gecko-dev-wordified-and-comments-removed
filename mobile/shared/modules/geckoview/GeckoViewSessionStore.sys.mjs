@@ -871,6 +871,7 @@ context
 discarded
 "
 :
+{
 const
 permanentKey
 =
@@ -905,6 +906,7 @@ permanentKey
 }
 break
 ;
+}
 }
 }
 onTabStateUpdate

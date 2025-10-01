@@ -136,6 +136,7 @@ case
 mozvisualscroll
 "
 :
+{
 const
 x
 =
@@ -189,6 +190,7 @@ value
 ;
 break
 ;
+}
 }
 }
 }
