@@ -967,6 +967,11 @@ blending
 "
 subgroups
 "
+"
+primitive
+-
+index
+"
 }
 ;
 [
