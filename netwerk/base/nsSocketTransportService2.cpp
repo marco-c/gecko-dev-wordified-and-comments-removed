@@ -4063,6 +4063,8 @@ if
 obsSvc
 )
 {
+MOZ_ALWAYS_SUCCEEDS
+(
 obsSvc
 -
 >
@@ -4080,7 +4082,10 @@ exited
 "
 false
 )
+)
 ;
+MOZ_ALWAYS_SUCCEEDS
+(
 obsSvc
 -
 >
@@ -4088,9 +4093,12 @@ AddObserver
 (
 this
 NS_WIDGET_SLEEP_OBSERVER_TOPIC
-true
+false
+)
 )
 ;
+MOZ_ALWAYS_SUCCEEDS
+(
 obsSvc
 -
 >
@@ -4098,9 +4106,12 @@ AddObserver
 (
 this
 NS_WIDGET_WAKE_OBSERVER_TOPIC
-true
+false
+)
 )
 ;
+MOZ_ALWAYS_SUCCEEDS
+(
 obsSvc
 -
 >
@@ -4116,7 +4127,10 @@ threads
 "
 false
 )
+)
 ;
+MOZ_ALWAYS_SUCCEEDS
+(
 obsSvc
 -
 >
@@ -4125,6 +4139,7 @@ AddObserver
 this
 NS_NETWORK_LINK_TOPIC
 false
+)
 )
 ;
 }
