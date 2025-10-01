@@ -90,10 +90,6 @@ attribute
 AUTF8String
 pathTemplate
 ;
-attribute
-AUTF8String
-alpn
-;
 const
 unsigned
 short
