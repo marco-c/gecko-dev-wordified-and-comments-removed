@@ -51,6 +51,13 @@ mjs
 ]
 [
 "
+test_hexToIpv6Repr
+.
+html
+"
+]
+[
+"
 test_kebabCaseInAdjustCertInformation
 .
 html
