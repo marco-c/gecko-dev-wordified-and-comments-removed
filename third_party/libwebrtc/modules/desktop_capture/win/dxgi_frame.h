@@ -11,11 +11,6 @@ memory
 >
 #
 include
-<
-vector
->
-#
-include
 "
 modules
 /

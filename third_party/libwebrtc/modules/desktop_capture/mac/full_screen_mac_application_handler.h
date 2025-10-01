@@ -16,6 +16,17 @@ modules
 /
 desktop_capture
 /
+desktop_capturer
+.
+h
+"
+#
+include
+"
+modules
+/
+desktop_capture
+/
 full_screen_application_handler
 .
 h

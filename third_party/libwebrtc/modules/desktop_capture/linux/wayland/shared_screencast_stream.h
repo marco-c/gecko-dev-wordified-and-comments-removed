@@ -7,6 +7,11 @@ MODULES_DESKTOP_CAPTURE_LINUX_WAYLAND_SHARED_SCREENCAST_STREAM_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 memory
 >
 #
@@ -50,7 +55,7 @@ modules
 /
 desktop_capture
 /
-mouse_cursor
+desktop_geometry
 .
 h
 "
@@ -61,7 +66,7 @@ modules
 /
 desktop_capture
 /
-screen_capture_frame_queue
+mouse_cursor
 .
 h
 "

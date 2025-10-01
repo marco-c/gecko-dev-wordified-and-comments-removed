@@ -1,14 +1,8 @@
 #
 include
-"
-modules
-/
-desktop_capture
-/
-desktop_capturer
-.
-h
-"
+<
+memory
+>
 #
 include
 "
@@ -16,7 +10,7 @@ modules
 /
 desktop_capture
 /
-desktop_frame
+desktop_capturer
 .
 h
 "

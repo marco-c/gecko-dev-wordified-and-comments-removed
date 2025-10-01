@@ -7,11 +7,6 @@ MODULES_DESKTOP_CAPTURE_LINUX_WAYLAND_RESTORE_TOKEN_MANAGER_H_
 #
 include
 <
-mutex
->
-#
-include
-<
 string
 >
 #

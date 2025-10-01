@@ -22,6 +22,11 @@ Xlib
 .
 h
 >
+#
+include
+<
+cstddef
+>
 namespace
 webrtc
 {
