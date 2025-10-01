@@ -10243,9 +10243,8 @@ Services
 .
 wm
 .
-getMostRecentWindow
+getMostRecentBrowserWindow
 (
-null
 )
 ;
 if
