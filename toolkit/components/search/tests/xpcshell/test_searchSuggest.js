@@ -6745,9 +6745,9 @@ latencyDistribution
 =
 Glean
 .
-search
+searchSuggestions
 .
-suggestionsLatency
+latency
 [
 engine
 .
@@ -6755,7 +6755,7 @@ isConfigEngine
 ?
 engine
 .
-telemetryId
+id
 :
 "
 other
