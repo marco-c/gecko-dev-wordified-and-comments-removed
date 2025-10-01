@@ -4433,7 +4433,7 @@ placeholderBorderRadius
 =
 CSSToDevPixels
 (
-4
+8
 sCSSToDevPixelScaling
 )
 ;
@@ -4442,7 +4442,7 @@ urlbarBorderRadius
 =
 CSSToDevPixels
 (
-4
+8
 sCSSToDevPixelScaling
 )
 ;
