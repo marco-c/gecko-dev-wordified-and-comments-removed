@@ -1268,16 +1268,6 @@ modules
 "
 toolkit
 /
-mozapps
-/
-extensions
-/
-*
-*
-"
-"
-toolkit
-/
 content
 /
 widgets

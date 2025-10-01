@@ -1912,6 +1912,7 @@ ShortcutUtils
 .
 IS_VALID
 :
+{
 let
 chromeWindow
 =
@@ -1985,6 +1986,7 @@ shortcutString
 }
 break
 ;
+}
 case
 ShortcutUtils
 .

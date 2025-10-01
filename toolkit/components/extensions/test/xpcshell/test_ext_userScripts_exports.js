@@ -1937,6 +1937,7 @@ case
 userScriptProxyObject
 "
 :
+{
 let
 proxyTarget
 =
@@ -2037,6 +2038,7 @@ proxyHandlers
 ;
 break
 ;
+}
 default
 :
 browser

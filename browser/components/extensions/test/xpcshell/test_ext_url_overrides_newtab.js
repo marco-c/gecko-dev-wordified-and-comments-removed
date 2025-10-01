@@ -318,6 +318,7 @@ case
 checkNewTabPage
 "
 :
+{
 let
 newTabPage
 =
@@ -348,11 +349,13 @@ newTabPage
 ;
 break
 ;
+}
 case
 "
 trySet
 "
 :
+{
 let
 setResult
 =
@@ -405,11 +408,13 @@ newTabPageSet
 ;
 break
 ;
+}
 case
 "
 tryClear
 "
 :
+{
 let
 clearResult
 =
@@ -457,6 +462,7 @@ newTabPageCleared
 ;
 break
 ;
+}
 }
 }
 )
