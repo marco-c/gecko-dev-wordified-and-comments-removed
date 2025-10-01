@@ -579,7 +579,11 @@ enable_dithering
 :
 bool
 pub
-precise_gradients
+precise_radial_gradients
+:
+bool
+pub
+precise_conic_gradients
 :
 bool
 }
