@@ -35526,10 +35526,6 @@ CN
 platforms
 :
 -
-linux
--
-shippable
--
 linux64
 -
 shippable
@@ -36236,10 +36232,6 @@ fr
 platforms
 :
 -
-macosx64
--
-shippable
--
 win32
 -
 shippable
@@ -36277,7 +36269,7 @@ US
 platforms
 :
 -
-linux
+linux64
 -
 shippable
 -
@@ -36320,10 +36312,6 @@ US
 platforms
 :
 -
-linux
--
-shippable
--
 macosx64
 -
 shippable
@@ -36357,10 +36345,6 @@ en
 US
 platforms
 :
--
-linux
--
-shippable
 -
 macosx64
 -
@@ -36542,10 +36526,6 @@ US
 platforms
 :
 -
-linux
--
-shippable
--
 macosx64
 -
 shippable
@@ -36581,10 +36561,6 @@ en
 US
 platforms
 :
--
-linux
--
-shippable
 -
 macosx64
 -
@@ -36627,10 +36603,6 @@ US
 platforms
 :
 -
-linux
--
-shippable
--
 macosx64
 -
 shippable
@@ -36666,10 +36638,6 @@ en
 US
 platforms
 :
--
-linux
--
-shippable
 -
 macosx64
 -
@@ -36711,10 +36679,6 @@ en
 US
 platforms
 :
--
-linux
--
-shippable
 -
 macosx64
 -
