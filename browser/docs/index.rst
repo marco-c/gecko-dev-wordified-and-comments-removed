@@ -80,6 +80,13 @@ enterprisepolicies
 docs
 /
 index
+components
+/
+taskbartabs
+/
+docs
+/
+index
 extensions
 /
 formautofill

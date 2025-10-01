@@ -109,3 +109,13 @@ components
 conf
 "
 ]
+SPHINX_TREES
+[
+"
+docs
+"
+]
+=
+"
+docs
+"
