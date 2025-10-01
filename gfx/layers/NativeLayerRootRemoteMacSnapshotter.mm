@@ -98,7 +98,15 @@ aReadbackBuffer
 )
 {
 return
-false
+mLayerRoot
+-
+>
+ReadbackPixels
+(
+aReadbackSize
+aReadbackFormat
+aReadbackBuffer
+)
 ;
 }
 already_AddRefed
