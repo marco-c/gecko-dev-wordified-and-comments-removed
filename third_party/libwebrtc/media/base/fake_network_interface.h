@@ -690,9 +690,6 @@ mutex_
 if
 (
 !
-webrtc
-:
-:
 IsRtpPacket
 (
 *
@@ -713,9 +710,6 @@ mutex_
 ;
 sent_ssrcs_
 [
-webrtc
-:
-:
 ParseRtpSsrc
 (
 *
@@ -1054,9 +1048,6 @@ size
 12
 )
 ;
-webrtc
-:
-:
 SetBE32
 (
 buffer
@@ -1130,9 +1121,6 @@ if
 ssrc
 =
 =
-webrtc
-:
-:
 ParseRtpSsrc
 (
 rtp_packets_

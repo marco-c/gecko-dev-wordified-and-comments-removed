@@ -470,13 +470,7 @@ absl
 :
 InlinedVector
 <
-webrtc
-:
-:
 ScalabilityMode
-webrtc
-:
-:
 kScalabilityModeCount
 >
 scalability_modes
@@ -493,9 +487,6 @@ string
 >
 tx_mode
 ;
-webrtc
-:
-:
 CodecParameterMap
 params
 ;
@@ -538,9 +529,6 @@ bool
 MatchesRtpCodec
 (
 const
-webrtc
-:
-:
 RtpCodec
 &
 capability
@@ -656,9 +644,6 @@ other
 )
 ;
 virtual
-webrtc
-:
-:
 RtpCodecParameters
 ToCodecParameters
 (
@@ -990,9 +975,6 @@ explicit
 Codec
 (
 const
-webrtc
-:
-:
 SdpAudioFormat
 &
 c
@@ -1002,9 +984,6 @@ explicit
 Codec
 (
 const
-webrtc
-:
-:
 SdpVideoFormat
 &
 c
@@ -1034,9 +1013,6 @@ Codec
 CreateAudioCodec
 (
 const
-webrtc
-:
-:
 SdpAudioFormat
 &
 c
@@ -1072,9 +1048,6 @@ Codec
 CreateVideoCodec
 (
 const
-webrtc
-:
-:
 SdpVideoFormat
 &
 c
@@ -1125,9 +1098,6 @@ Codec
 CreateAudioCodec
 (
 const
-webrtc
-:
-:
 SdpAudioFormat
 &
 c
@@ -1172,9 +1142,6 @@ Codec
 CreateVideoCodec
 (
 const
-webrtc
-:
-:
 SdpVideoFormat
 &
 c
@@ -1186,9 +1153,6 @@ CreateVideoCodec
 int
 id
 const
-webrtc
-:
-:
 SdpVideoFormat
 &
 sdp
@@ -1315,9 +1279,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 SdpVideoFormat
 >
 *

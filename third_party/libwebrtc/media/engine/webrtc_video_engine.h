@@ -1377,9 +1377,6 @@ false
 ;
 }
 return
-webrtc
-:
-:
 HasLntf
 (
 send_codec
@@ -1417,9 +1414,6 @@ false
 ;
 }
 return
-webrtc
-:
-:
 HasNack
 (
 send_codec

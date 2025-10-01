@@ -824,16 +824,10 @@ is_lowest_quality_stream
 )
 const
 ;
-webrtc
-:
-:
 VideoCodec
 MakeStreamCodec
 (
 const
-webrtc
-:
-:
 VideoCodec
 &
 codec

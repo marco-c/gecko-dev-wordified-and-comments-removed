@@ -1147,9 +1147,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 StreamParams
 >
 &
@@ -1280,9 +1277,6 @@ SetFrameDecryptor
 uint32_t
 scoped_refptr
 <
-webrtc
-:
-:
 FrameDecryptorInterface
 >
 )
@@ -1295,9 +1289,6 @@ SetDepacketizerToDecoderFrameTransformer
 uint32_t
 scoped_refptr
 <
-webrtc
-:
-:
 FrameTransformerInterface
 >
 )
@@ -2254,9 +2245,6 @@ ok
 )
 {
 return
-webrtc
-:
-:
 InvokeSetParametersCallback
 (
 callback
@@ -2272,9 +2260,6 @@ second
 parameters
 ;
 return
-webrtc
-:
-:
 InvokeSetParametersCallback
 (
 callback
@@ -2379,9 +2364,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 StreamParams
 >
 &
@@ -2550,9 +2532,6 @@ SetFrameEncryptor
 uint32_t
 scoped_refptr
 <
-webrtc
-:
-:
 FrameEncryptorInterface
 >
 )
@@ -2565,9 +2544,6 @@ SetEncoderToPacketizerFrameTransformer
 uint32_t
 scoped_refptr
 <
-webrtc
-:
-:
 FrameTransformerInterface
 >
 )

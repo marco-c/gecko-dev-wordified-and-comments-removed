@@ -161,9 +161,6 @@ defined
 (
 WEBRTC_USE_H264
 )
-webrtc
-:
-:
 OpenH264EncoderTemplateAdapter
 #
 endif
@@ -173,9 +170,6 @@ defined
 (
 RTC_USE_LIBAOM_AV1_ENCODER
 )
-webrtc
-:
-:
 LibaomAv1EncoderTemplateAdapter
 #
 endif
