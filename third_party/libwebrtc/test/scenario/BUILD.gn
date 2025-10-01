@@ -1573,17 +1573,6 @@ system_wrappers
 .
 .
 /
-system_wrappers
-:
-field_trial
-"
-"
-.
-.
-/
-.
-.
-/
 video
 /
 config
