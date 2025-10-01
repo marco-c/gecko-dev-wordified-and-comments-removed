@@ -174,6 +174,17 @@ include
 "
 gc
 /
+BufferAllocator
+-
+inl
+.
+h
+"
+#
+include
+"
+gc
+/
 GCContext
 -
 inl
