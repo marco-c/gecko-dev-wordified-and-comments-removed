@@ -15,6 +15,8 @@ clippy
 :
 :
 too_many_arguments
+unknown_lints
+mismatched_lifetime_syntaxes
 )
 ]
 macro_rules
