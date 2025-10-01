@@ -1914,6 +1914,15 @@ aType
 )
 ;
 void
+SetPreferredDevice
+(
+cubeb_devid
+aId
+cubeb_device_type
+aType
+)
+;
+void
 SetSupportDeviceChangeCallback
 (
 bool

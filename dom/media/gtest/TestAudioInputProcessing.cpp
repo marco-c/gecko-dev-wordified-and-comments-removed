@@ -244,6 +244,13 @@ mOutputDeviceForAEC
 aID
 ;
 }
+void
+UpdateEnumeratorDefaultDeviceTracking
+(
+)
+override
+{
+}
 MOCK_CONST_METHOD0
 (
 OnGraphThread
