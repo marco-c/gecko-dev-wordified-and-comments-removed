@@ -33,11 +33,9 @@ RegExpMacroAssembler
 {
 public
 :
+explicit
 RegExpMacroAssemblerTracer
 (
-Isolate
-*
-isolate
 RegExpMacroAssembler
 *
 assembler
@@ -172,7 +170,7 @@ on_less
 override
 ;
 void
-CheckGreedyLoop
+CheckFixedLengthLoop
 (
 Label
 *
