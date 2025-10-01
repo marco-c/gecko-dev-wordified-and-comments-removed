@@ -5688,7 +5688,7 @@ XPCShell
 options
 {
 "
-raw
+tbpl
 "
 :
 sys
