@@ -532,11 +532,6 @@ OwnerDoc
 nsAutoScriptBlockerSuppressNodeRemoved
 autoBlocker
 ;
-bool
-scripts_enabled
-=
-false
-;
 RefPtr
 <
 ScriptLoader
@@ -546,15 +541,11 @@ loader
 document
 -
 >
-GetScriptLoader
+ScriptLoader
 (
 )
 ;
-if
-(
-loader
-)
-{
+bool
 scripts_enabled
 =
 loader
@@ -577,7 +568,6 @@ SetEnabled
 false
 )
 ;
-}
 }
 nsresult
 rv

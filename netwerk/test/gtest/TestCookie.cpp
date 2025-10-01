@@ -739,16 +739,7 @@ nullptr
 uri
 uri
 principal
-mozilla
-:
-:
-dom
-:
-:
-LoadedAsData
-:
-:
-No
+false
 nullptr
 DocumentFlavor
 :

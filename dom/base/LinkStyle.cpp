@@ -1443,7 +1443,7 @@ doc
 doc
 -
 >
-GetCSSLoader
+CSSLoader
 (
 )
 |
@@ -1452,7 +1452,7 @@ GetCSSLoader
 doc
 -
 >
-GetCSSLoader
+CSSLoader
 (
 )
 -
@@ -1825,7 +1825,7 @@ return
 doc
 -
 >
-GetCSSLoader
+CSSLoader
 (
 )
 -
@@ -1922,7 +1922,7 @@ resultOrError
 doc
 -
 >
-GetCSSLoader
+CSSLoader
 (
 )
 -
@@ -2037,15 +2037,6 @@ if
 (
 !
 mStyleSheet
-|
-|
-!
-aDocument
--
->
-GetCSSLoader
-(
-)
 )
 {
 return
@@ -2167,7 +2158,7 @@ get
 aDocument
 -
 >
-GetCSSLoader
+CSSLoader
 (
 )
 -

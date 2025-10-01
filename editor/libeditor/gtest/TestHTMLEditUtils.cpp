@@ -213,10 +213,7 @@ nullptr
 uri
 uri
 principal
-LoadedAsData
-:
-:
-No
+false
 nullptr
 DocumentFlavor
 :

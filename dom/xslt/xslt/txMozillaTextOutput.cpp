@@ -549,16 +549,6 @@ mDocument
 nullptr
 nullptr
 aLoadedAsData
-?
-LoadedAsData
-:
-:
-AsData
-:
-LoadedAsData
-:
-:
-No
 )
 ;
 NS_ENSURE_SUCCESS
