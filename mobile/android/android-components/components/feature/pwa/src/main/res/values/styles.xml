@@ -97,7 +97,9 @@ parent
 "
 Theme
 .
-AppCompat
+Material3
+.
+Light
 .
 NoActionBar
 "
