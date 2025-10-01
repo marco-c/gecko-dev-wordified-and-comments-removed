@@ -575,7 +575,7 @@ INIT
 ;
 Assert
 .
-ok
+equal
 (
 feed
 .
@@ -583,7 +583,8 @@ store
 .
 dispatch
 .
-calledOnce
+callCount
+2
 )
 ;
 Assert
