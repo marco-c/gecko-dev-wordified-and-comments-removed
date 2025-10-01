@@ -544,15 +544,10 @@ emulation
 set_user_agent_override
 (
         
-contexts
+user_contexts
 =
 [
-context_in_user_context
-[
-"
-context
-"
-]
+user_context
 ]
         
 user_agent
@@ -596,5 +591,5 @@ await
 assert_user_agent
 (
 context_in_user_context
-SOME_USER_AGENT
+default_user_agent
 )

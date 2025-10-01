@@ -46,9 +46,9 @@ Type
 "
 b
 "
-application
+text
 /
-json
+plain
 "
 )
     

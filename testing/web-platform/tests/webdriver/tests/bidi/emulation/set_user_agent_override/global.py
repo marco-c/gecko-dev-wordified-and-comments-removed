@@ -279,7 +279,7 @@ set_user_agent_override
         
 user_agent
 =
-ANOTHER_USER_AGENT
+None
     
 )
     

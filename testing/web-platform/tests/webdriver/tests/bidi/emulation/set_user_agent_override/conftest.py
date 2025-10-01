@@ -333,7 +333,7 @@ fetch
     
 async
 def
-assert_navigation_user_agent
+assert_fetch_user_agent
 (
 context
 expected_user_agent
@@ -509,7 +509,7 @@ user_agent
 "
     
 return
-assert_navigation_user_agent
+assert_fetch_user_agent
 pytest_asyncio
 .
 fixture
