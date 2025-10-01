@@ -1200,7 +1200,7 @@ loader
 doc
 -
 >
-CSSLoader
+GetCSSLoader
 (
 )
 ;
