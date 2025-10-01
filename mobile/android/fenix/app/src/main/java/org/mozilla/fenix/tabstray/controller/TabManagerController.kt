@@ -3041,13 +3041,6 @@ getRecentBookmarks
 1
 )
 .
-getOrDefault
-(
-listOf
-(
-)
-)
-.
 firstOrNull
 (
 )
@@ -3069,10 +3062,6 @@ bookmarksStorage
 getBookmark
 (
 parentGuid
-)
-.
-getOrNull
-(
 )
 tabs
 .

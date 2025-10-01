@@ -1309,13 +1309,6 @@ getBookmarksWithUrl
 url
 )
 .
-getOrDefault
-(
-listOf
-(
-)
-)
-.
 firstOrNull
 {
 it
@@ -1672,10 +1665,6 @@ bookmarksStorage
 getBookmark
 (
 parentGuid
-)
-.
-getOrNull
-(
 )
 val
 guidToEdit

@@ -2467,13 +2467,6 @@ content
 url
 )
 .
-getOrDefault
-(
-listOf
-(
-)
-)
-.
 isNotEmpty
 (
 )

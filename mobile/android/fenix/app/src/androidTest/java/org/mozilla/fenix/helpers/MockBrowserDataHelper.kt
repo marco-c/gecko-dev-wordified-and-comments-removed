@@ -597,12 +597,6 @@ position
 =
 position
 )
-.
-getOrDefault
-(
-"
-"
-)
 }
 }
 /
