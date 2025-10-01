@@ -358,7 +358,6 @@ fenix
 theme
 .
 FirefoxTheme
-private
 const
 val
 TITLE_TOP_SPACER_WEIGHT
@@ -366,7 +365,6 @@ TITLE_TOP_SPACER_WEIGHT
 0
 .
 3f
-private
 const
 val
 BODY_BUTTON_SPACER_WEIGHT
