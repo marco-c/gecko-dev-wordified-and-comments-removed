@@ -1,7 +1,9 @@
 #
 include
 "
-nsAbsoluteContainingBlock
+mozilla
+/
+AbsoluteContainingBlock
 .
 h
 "
