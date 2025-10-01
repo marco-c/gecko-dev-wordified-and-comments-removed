@@ -43,6 +43,13 @@ js
 ]
 [
 "
+browser_IPPProxyManager
+.
+js
+"
+]
+[
+"
 browser_IPProtectionService
 .
 js
