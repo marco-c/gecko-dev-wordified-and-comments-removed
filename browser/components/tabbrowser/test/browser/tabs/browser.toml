@@ -432,13 +432,6 @@ tabs
 "
 [
 "
-browser_drag_to_pin
-.
-js
-"
-]
-[
-"
 browser_e10s_about_page_triggeringprincipal
 .
 js
