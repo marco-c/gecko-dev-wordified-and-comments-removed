@@ -9432,7 +9432,7 @@ JS
 RealmBehaviors
 :
 :
-setTimeZoneCopyZ
+setTimeZoneOverride
 (
 const
 char
@@ -9445,7 +9445,7 @@ if
 timeZone
 )
 {
-timeZone_
+timeZoneOverride_
 =
 CopyStringZ
 <
@@ -9461,7 +9461,7 @@ timeZone
 }
 else
 {
-timeZone_
+timeZoneOverride_
 =
 nullptr
 ;
@@ -9571,7 +9571,7 @@ timezone
 realm
 -
 >
-setTimeZone
+setTimeZoneOverride
 (
 timezone
 )
