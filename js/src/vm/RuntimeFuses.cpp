@@ -313,13 +313,6 @@ JSContext
 cx
 )
 {
-if
-(
-intact
-(
-)
-)
-{
 js
 :
 :
@@ -331,5 +324,4 @@ popFuse
 cx
 )
 ;
-}
 }

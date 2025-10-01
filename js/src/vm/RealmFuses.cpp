@@ -145,6 +145,17 @@ RealmFuses
 realmFuses
 )
 {
+if
+(
+!
+intact
+(
+)
+)
+{
+return
+;
+}
 InvalidatingFuse
 :
 :

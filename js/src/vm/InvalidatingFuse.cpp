@@ -212,6 +212,17 @@ JSContext
 cx
 )
 {
+if
+(
+!
+intact
+(
+)
+)
+{
+return
+;
+}
 GuardFuse
 :
 :
