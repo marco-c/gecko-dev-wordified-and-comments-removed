@@ -135,7 +135,7 @@ coroutines
 .
 test
 .
-TestScope
+StandardTestDispatcher
 import
 kotlinx
 .
@@ -143,7 +143,7 @@ coroutines
 .
 test
 .
-UnconfinedTestDispatcher
+TestScope
 import
 kotlinx
 .
@@ -295,7 +295,7 @@ scope
 =
 TestScope
 (
-UnconfinedTestDispatcher
+StandardTestDispatcher
 (
 )
 )
@@ -472,6 +472,11 @@ onSubscriptionChanged
 push
 "
 )
+testScheduler
+.
+advanceUntilIdle
+(
+)
 verify
 {
 handler
@@ -483,6 +488,11 @@ integration
 start
 (
 )
+testScheduler
+.
+advanceUntilIdle
+(
+)
 integration
 .
 onMessageReceived
@@ -491,6 +501,11 @@ onMessageReceived
 push
 "
 null
+)
+testScheduler
+.
+advanceUntilIdle
+(
 )
 verify
 {
@@ -511,6 +526,11 @@ onSubscriptionChanged
 "
 push
 "
+)
+testScheduler
+.
+advanceUntilIdle
+(
 )
 verify
 {
