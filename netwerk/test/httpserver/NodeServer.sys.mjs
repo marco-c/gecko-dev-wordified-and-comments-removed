@@ -1668,6 +1668,11 @@ cert
 pem
 "
 )
+maxHeaderSize
+:
+128
+*
+1024
 }
 ;
 const
