@@ -20370,7 +20370,7 @@ Instruction
 *
 )
 p
-ScratchRegister
+SavedScratchRegister
 (
 uint64_t
 )
@@ -20449,7 +20449,7 @@ kFunct3Shift
 )
 |
 (
-ScratchRegister
+SavedScratchRegister
 .
 code
 (

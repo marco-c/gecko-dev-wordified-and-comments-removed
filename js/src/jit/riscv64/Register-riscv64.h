@@ -784,7 +784,7 @@ a0
 static
 constexpr
 Register
-ScratchRegister
+SavedScratchRegister
 {
 Registers
 :
