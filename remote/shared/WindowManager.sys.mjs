@@ -2417,6 +2417,7 @@ case
 Firefox
 "
 :
+{
 if
 (
 openerWindow
@@ -2662,6 +2663,7 @@ browser
 .
 ownerGlobal
 ;
+}
 default
 :
 throw

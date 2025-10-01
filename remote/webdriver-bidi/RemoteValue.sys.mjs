@@ -2030,6 +2030,7 @@ case
 array
 "
 :
+{
 const
 array
 =
@@ -2064,6 +2065,7 @@ v
 return
 array
 ;
+}
 case
 "
 date
@@ -2144,6 +2146,7 @@ case
 map
 "
 :
+{
 const
 map
 =
@@ -2186,11 +2189,13 @@ v
 return
 map
 ;
+}
 case
 "
 object
 "
 :
+{
 const
 object
 =
@@ -2232,11 +2237,13 @@ v
 return
 object
 ;
+}
 case
 "
 regexp
 "
 :
+{
 lazy
 .
 assert
@@ -2375,11 +2382,13 @@ value
 )
 ;
 }
+}
 case
 "
 set
 "
 :
+{
 const
 set
 =
@@ -2416,6 +2425,7 @@ v
 return
 set
 ;
+}
 }
 lazy
 .

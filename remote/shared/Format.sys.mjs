@@ -1091,6 +1091,7 @@ arbitrary
 object
 default
 :
+{
 if
 (
 Object
@@ -1161,6 +1162,7 @@ prop
 return
 rv
 ;
+}
 }
 }
 let

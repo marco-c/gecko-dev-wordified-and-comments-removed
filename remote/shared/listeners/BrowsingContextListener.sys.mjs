@@ -546,6 +546,7 @@ break
 case
 OBSERVER_TOPIC_SET_EMBEDDER
 :
+{
 const
 why
 =
@@ -596,6 +597,7 @@ subject
 }
 break
 ;
+}
 }
 }
 startListening

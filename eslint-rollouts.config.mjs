@@ -1178,12 +1178,6 @@ geckoview
 *
 "
 "
-remote
-/
-*
-*
-"
-"
 services
 /
 fxaccounts

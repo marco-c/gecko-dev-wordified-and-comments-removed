@@ -858,6 +858,7 @@ URLPatternType
 .
 Pattern
 :
+{
 patternUrl
 =
 "
@@ -1061,6 +1062,7 @@ false
 }
 break
 ;
+}
 case
 URLPatternType
 .
