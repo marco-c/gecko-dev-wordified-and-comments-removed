@@ -170,7 +170,7 @@ windowSplashScreenBackground
 >
 color
 /
-fx_mobile_layer_color_1
+splash_screen_color
 <
 /
 item
