@@ -2533,9 +2533,6 @@ enum
 FORCE_MASK
 =
 0x01
-DISABLE_HARDWARE_ACCELERATION_BLUR
-=
-0x02
 }
 ;
 gfxContext
@@ -2721,8 +2718,8 @@ aConstrainSpreadRadius
 true
 )
 ;
-gfxAlphaBoxBlur
-mAlphaBoxBlur
+gfxGaussianBlur
+mGaussianBlur
 ;
 mozilla
 :
