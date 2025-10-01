@@ -45,6 +45,15 @@ content
 :
 String
 }
+SerdeDocument
+{
+kind
+:
+String
+content
+:
+String
+}
 }
 pub
 struct
