@@ -30,6 +30,13 @@ MOZ_WIDGET_ANDROID
 #
 include
 "
+AndroidDecoderModule
+.
+h
+"
+#
+include
+"
 AndroidEncoderModule
 .
 h
@@ -1235,10 +1242,10 @@ ifdef
 MOZ_WIDGET_ANDROID
 if
 (
-StaticPrefs
+AndroidDecoderModule
 :
 :
-media_android_media_codec_enabled
+IsJavaDecoderModuleAllowed
 (
 )
 )
@@ -1553,10 +1560,10 @@ ifdef
 MOZ_WIDGET_ANDROID
 if
 (
-StaticPrefs
+AndroidDecoderModule
 :
 :
-media_android_media_codec_enabled
+IsJavaDecoderModuleAllowed
 (
 )
 )
@@ -2086,7 +2093,7 @@ for
 %
 s
 "
-GetCodecTypeString
+EnumValueToString
 (
 aConfig
 .
@@ -2356,7 +2363,7 @@ m
 GetName
 (
 )
-GetCodecTypeString
+EnumValueToString
 (
 aConfig
 .
@@ -2388,7 +2395,7 @@ m
 GetName
 (
 )
-GetCodecTypeString
+EnumValueToString
 (
 aConfig
 .

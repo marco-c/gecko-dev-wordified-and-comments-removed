@@ -224,6 +224,12 @@ GetSupportedCodecs
 (
 )
 ;
+static
+bool
+IsJavaDecoderModuleAllowed
+(
+)
+;
 protected
 :
 bool

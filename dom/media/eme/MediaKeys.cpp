@@ -225,6 +225,13 @@ MOZ_WIDGET_ANDROID
 #
 include
 "
+AndroidDecoderModule
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MediaDrmCDMProxy
@@ -2535,10 +2542,10 @@ mKeySystem
 {
 if
 (
-StaticPrefs
+AndroidDecoderModule
 :
 :
-media_android_media_codec_enabled
+IsJavaDecoderModuleAllowed
 (
 )
 )
