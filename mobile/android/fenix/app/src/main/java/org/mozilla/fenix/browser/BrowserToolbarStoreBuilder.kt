@@ -456,7 +456,7 @@ toolbar
 .
 *
 param
-fragment
+lifecycleOwner
 [
 Fragment
 ]
@@ -644,7 +644,7 @@ build
 activity
 :
 AppCompatActivity
-fragment
+lifecycleOwner
 :
 Fragment
 navController
@@ -694,7 +694,7 @@ StoreProvider
 .
 get
 (
-fragment
+lifecycleOwner
 )
 {
 BrowserToolbarStore
@@ -925,9 +925,11 @@ BrowserToolbarEnvironment
 context
 =
 activity
-fragment
+viewLifecycleOwner
 =
-fragment
+lifecycleOwner
+.
+viewLifecycleOwner
 navController
 =
 navController
@@ -954,7 +956,7 @@ context
 activity
 viewLifecycleOwner
 =
-fragment
+lifecycleOwner
 .
 viewLifecycleOwner
 navController
@@ -973,7 +975,7 @@ finishAndRemoveTask
 }
 )
 )
-fragment
+lifecycleOwner
 .
 viewLifecycleOwner
 .
