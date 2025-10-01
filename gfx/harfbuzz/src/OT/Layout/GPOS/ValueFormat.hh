@@ -161,11 +161,10 @@ get_len
 const
 {
 return
-hb_popcount
+hb_popcount8
 (
 (
-unsigned
-int
+uint8_t
 )
 *
 this

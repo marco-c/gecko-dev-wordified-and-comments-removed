@@ -1057,6 +1057,14 @@ HB_NO_UNICODE_FUNCS
 ]
 =
 True
+DEFINES
+[
+'
+HB_NO_VAR_COMPOSITES
+'
+]
+=
+True
 if
 CONFIG
 [

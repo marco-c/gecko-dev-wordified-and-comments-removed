@@ -38,9 +38,6 @@ HB_NO_BEYOND_64K
 define
 HB_NO_CUBIC_GLYF
 #
-define
-HB_NO_VAR_COMPOSITES
-#
 endif
 #
 ifdef

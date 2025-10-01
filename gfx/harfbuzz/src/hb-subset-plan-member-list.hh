@@ -159,6 +159,16 @@ gpos_features
 )
 HB_SUBSET_PLAN_MEMBER
 (
+hb_map_t
+gsub_features_w_duplicates
+)
+HB_SUBSET_PLAN_MEMBER
+(
+hb_map_t
+gpos_features_w_duplicates
+)
+HB_SUBSET_PLAN_MEMBER
+(
 hb_hashmap_t
 E
 (

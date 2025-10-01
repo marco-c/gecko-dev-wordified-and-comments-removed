@@ -2407,7 +2407,7 @@ HB_BUFFER_MESSAGE_MORE
 (
 HB_DEBUG
 +
-1
+0
 )
 #
 endif
