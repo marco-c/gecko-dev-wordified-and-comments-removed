@@ -275,7 +275,7 @@ flags
 ;
 }
 function
-regiisterServerNamePathHandler
+registerServerNamePathHandler
 (
 server
 path
@@ -331,6 +331,10 @@ run_http2_proxy_test
 (
 maxConcurrentStreams
 maxStreamId
+testId
+=
+"
+"
 )
 {
 Services
@@ -454,7 +458,7 @@ name
 )
 ;
 await
-regiisterServerNamePathHandler
+registerServerNamePathHandler
 (
 server
 "
@@ -533,6 +537,18 @@ origin
 }
 /
 test
+?
+test
+=
+{
+testId
+}
+&
+id
+=
+{
+i
+}
 )
 CL_ALLOW_UNKNOWN_CL
 )
@@ -634,6 +650,9 @@ run_http2_proxy_test
 (
 100
 0x7800000
+"
+t1
+"
 )
 ;
 }
@@ -652,6 +671,9 @@ run_http2_proxy_test
 (
 3
 0x7800000
+"
+t2
+"
 )
 ;
 }
@@ -670,6 +692,9 @@ run_http2_proxy_test
 (
 100
 10
+"
+t3
+"
 )
 ;
 }
@@ -688,6 +713,9 @@ run_http2_proxy_test
 (
 3
 10
+"
+t4
+"
 )
 ;
 }
