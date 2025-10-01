@@ -361,12 +361,14 @@ cache
 file
 is
 READY
+or
+REVALIDATING
 *
 /
 readonly
 attribute
 boolean
-ready
+readyOrRevalidating
 ;
 /
 *
