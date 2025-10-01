@@ -79,6 +79,13 @@ js
 ]
 [
 "
+test_IPProtectionStates
+.
+js
+"
+]
+[
+"
 test_IPProtectionUsage
 .
 js
