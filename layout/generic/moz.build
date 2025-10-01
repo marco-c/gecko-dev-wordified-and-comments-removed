@@ -671,6 +671,11 @@ nsFrameStateBits
 h
 "
 "
+nsGridContainerFrame
+.
+h
+"
+"
 nsHTMLParts
 .
 h
