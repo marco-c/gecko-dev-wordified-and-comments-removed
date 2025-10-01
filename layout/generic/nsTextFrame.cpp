@@ -20607,6 +20607,8 @@ LastNonMarkCharClass
 gfxSkipCharsIterator
 &
 aIter
+int32_t
+aContentOffsetAtFrameStart
 const
 gfxTextRun
 *
@@ -20625,7 +20627,7 @@ GetOriginalOffset
 (
 )
 >
-0
+aContentOffsetAtFrameStart
 )
 {
 aIter
@@ -20639,7 +20641,7 @@ AdvanceOriginal
 FindClusterStart
 (
 aTextRun
-0
+aContentOffsetAtFrameStart
 &
 aIter
 )
@@ -20773,6 +20775,12 @@ prevClass
 LastNonMarkCharClass
 (
 iter
+aFrame
+-
+>
+GetContentOffset
+(
+)
 aFrame
 -
 >
@@ -21555,6 +21563,12 @@ prevClass
 LastNonMarkCharClass
 (
 iter
+mFrame
+-
+>
+GetContentOffset
+(
+)
 mTextRun
 mCharacterDataBuffer
 )
