@@ -5893,17 +5893,6 @@ javascript_options_use_js_microtask_queue
 )
 )
 {
-MOZ_ASSERT
-(
-GetDebuggerMicroTaskQueue
-(
-)
-.
-empty
-(
-)
-)
-;
 while
 (
 JS
