@@ -750,11 +750,6 @@ const
 packet_sender_
 ;
 const
-FieldTrialsView
-&
-field_trials_
-;
-const
 bool
 drain_large_queues_
 ;
