@@ -261,7 +261,8 @@ mjs
 )
 #
 Uncomment
-this
+the
+following
 line
 to
 test
@@ -290,6 +291,8 @@ bergamot
 translator
 .
 wasm
+.
+zst
 (
 bergamot
 -
@@ -310,4 +313,6 @@ bergamot
 translator
 .
 wasm
+.
+zst
 )

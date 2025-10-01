@@ -15367,6 +15367,8 @@ bergamot
 translator
 .
 wasm
+.
+zst
 "
 )
 ;
