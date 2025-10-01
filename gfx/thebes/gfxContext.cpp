@@ -8,15 +8,6 @@ h
 #
 include
 "
-mozilla
-/
-Alignment
-.
-h
-"
-#
-include
-"
 cairo
 .
 h

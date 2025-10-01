@@ -442,12 +442,12 @@ updateCallRefMetricsStub_
 =
 nullptr
 ;
-MOZ_ALIGNED_DECL
+alignas
 (
 16
+)
 char
 data_
-)
 ;
 FuncDefInstanceData
 *
