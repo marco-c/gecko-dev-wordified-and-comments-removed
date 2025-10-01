@@ -1350,6 +1350,9 @@ nsIAboutModule
 :
 IS_SECURE_CHROME_UI
 }
+#
+ifndef
+MOZ_WIDGET_ANDROID
 {
 "
 translations
@@ -1396,6 +1399,8 @@ nsIAboutModule
 :
 HIDE_FROM_ABOUTABOUT
 }
+#
+endif
 {
 "
 url
