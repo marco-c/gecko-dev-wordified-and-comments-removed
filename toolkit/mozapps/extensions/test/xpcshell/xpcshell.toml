@@ -2259,6 +2259,13 @@ theme
 .
 [
 "
+test_update_cn_repack_addons
+.
+js
+"
+]
+[
+"
 test_update_compatmode
 .
 js
