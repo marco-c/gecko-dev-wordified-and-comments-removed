@@ -9,6 +9,9 @@ testServer
 createVersionizedHttpTestServer
 (
 "
+.
+.
+/
 examples
 /
 sourcemaps
@@ -224,7 +227,7 @@ lines
 )
 ;
 await
-prettyPrint
+togglePrettyPrint
 (
 dbg
 )
@@ -543,7 +546,7 @@ lines
 )
 ;
 await
-prettyPrint
+togglePrettyPrint
 (
 dbg
 )
@@ -831,7 +834,7 @@ lines
 )
 ;
 await
-prettyPrint
+togglePrettyPrint
 (
 dbg
 )
@@ -1036,7 +1039,7 @@ lines
 )
 ;
 await
-prettyPrint
+togglePrettyPrint
 (
 dbg
 )

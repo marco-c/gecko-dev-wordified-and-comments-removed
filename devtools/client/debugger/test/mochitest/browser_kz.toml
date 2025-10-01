@@ -22,13 +22,6 @@ examples
 *
 "
 "
-integration
--
-tests
-/
-*
-"
-"
 head
 .
 js
