@@ -286,11 +286,16 @@ scrollToOnShownIndex
 )
 composeTestRule
 .
+waitForIdle
+(
+)
+composeTestRule
+.
 waitUntil
 (
 ON_SHOWN_SETTLE_TIME_MS
 +
-500L
+4000L
 )
 {
 onShown
