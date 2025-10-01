@@ -4426,9 +4426,9 @@ context
 requireContext
 (
 )
-viewLifecycleOwner
+fragment
 =
-viewLifecycleOwner
+this
 navController
 =
 findNavController
