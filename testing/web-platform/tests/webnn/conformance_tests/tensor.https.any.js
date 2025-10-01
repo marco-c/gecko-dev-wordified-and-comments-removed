@@ -7715,6 +7715,9 @@ e
 }
 try
 {
+let
+mlTensor
+=
 await
 mlContext
 .
@@ -7733,6 +7736,14 @@ exportableToGPU
 :
 true
 }
+)
+;
+await
+mlContext
+.
+exportToGPU
+(
+mlTensor
 )
 ;
 }
