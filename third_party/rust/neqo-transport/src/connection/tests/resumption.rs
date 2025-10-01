@@ -578,6 +578,11 @@ mlkem
 (
 false
 )
+.
+randomize_first_pn
+(
+false
+)
 )
 ;
 let
@@ -742,13 +747,6 @@ remove
 hp
 protected_header
 payload
-)
-;
-assert_eq
-!
-(
-pn
-0
 )
 ;
 let

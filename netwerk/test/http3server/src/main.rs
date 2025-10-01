@@ -55,9 +55,9 @@ Http3OrWebTransportStream
 Http3Parameters
 Http3Server
 Http3ServerEvent
+SessionAcceptAction
 WebTransportRequest
 WebTransportServerEvent
-WebTransportSessionAcceptAction
 }
 ;
 use
@@ -3978,7 +3978,7 @@ session
 response
 (
 &
-WebTransportSessionAcceptAction
+SessionAcceptAction
 :
 :
 Accept
@@ -4004,7 +4004,7 @@ session
 response
 (
 &
-WebTransportSessionAcceptAction
+SessionAcceptAction
 :
 :
 Reject
@@ -4063,7 +4063,7 @@ session
 response
 (
 &
-WebTransportSessionAcceptAction
+SessionAcceptAction
 :
 :
 Reject
@@ -4110,7 +4110,7 @@ session
 response
 (
 &
-WebTransportSessionAcceptAction
+SessionAcceptAction
 :
 :
 Accept
@@ -4183,7 +4183,7 @@ session
 response
 (
 &
-WebTransportSessionAcceptAction
+SessionAcceptAction
 :
 :
 Accept
@@ -4274,7 +4274,7 @@ session
 response
 (
 &
-WebTransportSessionAcceptAction
+SessionAcceptAction
 :
 :
 Accept
@@ -4316,7 +4316,7 @@ session
 response
 (
 &
-WebTransportSessionAcceptAction
+SessionAcceptAction
 :
 :
 Accept
@@ -4369,7 +4369,7 @@ session
 response
 (
 &
-WebTransportSessionAcceptAction
+SessionAcceptAction
 :
 :
 Accept
@@ -4419,7 +4419,7 @@ session
 response
 (
 &
-WebTransportSessionAcceptAction
+SessionAcceptAction
 :
 :
 Accept
@@ -4500,7 +4500,7 @@ session
 response
 (
 &
-WebTransportSessionAcceptAction
+SessionAcceptAction
 :
 :
 Accept
@@ -4537,7 +4537,7 @@ session
 response
 (
 &
-WebTransportSessionAcceptAction
+SessionAcceptAction
 :
 :
 Accept
@@ -4558,7 +4558,7 @@ session
 response
 (
 &
-WebTransportSessionAcceptAction
+SessionAcceptAction
 :
 :
 Reject
@@ -4776,6 +4776,21 @@ Some
 datagram
 )
 ;
+}
+Http3ServerEvent
+:
+:
+ConnectUdp
+(
+_
+)
+=
+>
+{
+unimplemented
+!
+(
+)
 }
 }
 }
@@ -7371,6 +7386,17 @@ _
 >
 {
 }
+Http3ServerEvent
+:
+:
+ConnectUdp
+(
+_
+)
+=
+>
+{
+}
 }
 }
 }
@@ -7538,6 +7564,8 @@ spawn_server
 S
 :
 HttpServer
++
+Unpin
 +
 '
 static

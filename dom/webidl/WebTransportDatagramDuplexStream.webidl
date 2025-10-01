@@ -119,17 +119,6 @@ Window
 Worker
 )
 SecureContext
-Pref
-=
-"
-network
-.
-webtransport
-.
-datagrams
-.
-enabled
-"
 ]
 interface
 WebTransportDatagramDuplexStream

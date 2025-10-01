@@ -93,7 +93,7 @@ features
 extended_connect
 :
 :
-SessionCloseReason
+CloseReason
 Error
 Header
 Http3Client
@@ -103,10 +103,10 @@ Http3Parameters
 Http3Server
 Http3ServerEvent
 Http3State
+SessionAcceptAction
 WebTransportEvent
 WebTransportRequest
 WebTransportServerEvent
-WebTransportSessionAcceptAction
 }
 ;
 const
@@ -957,7 +957,7 @@ self
 accept
 :
 &
-WebTransportSessionAcceptAction
+SessionAcceptAction
 )
 -
 >
@@ -981,7 +981,6 @@ webtransport_create_session
 now
 (
 )
-&
 (
 "
 https
@@ -1143,7 +1142,7 @@ self
 negotiate_wt_session
 (
 &
-WebTransportSessionAcceptAction
+SessionAcceptAction
 :
 :
 Accept
@@ -1404,7 +1403,7 @@ StreamId
 expected_reason
 :
 &
-SessionCloseReason
+CloseReason
 expected_headers
 :
 Option
@@ -1480,7 +1479,7 @@ StreamId
 expected_reason
 :
 &
-SessionCloseReason
+CloseReason
 expected_headers
 :
 Option
@@ -1593,7 +1592,7 @@ StreamId
 expected_reason
 :
 &
-SessionCloseReason
+CloseReason
 )
 -
 >
@@ -1656,10 +1655,10 @@ wt_session
 :
 &
 WebTransportRequest
-expected_reeason
+expected_reason
 :
 &
-SessionCloseReason
+CloseReason
 )
 {
 let
@@ -1692,7 +1691,7 @@ wt_session
 stream_id
 (
 )
-expected_reeason
+expected_reason
 )
 )
 ;
@@ -2319,7 +2318,7 @@ Option
 &
 (
 StreamId
-SessionCloseReason
+CloseReason
 )
 >
 )
@@ -3102,7 +3101,7 @@ Option
 &
 (
 StreamId
-SessionCloseReason
+CloseReason
 )
 >
 )

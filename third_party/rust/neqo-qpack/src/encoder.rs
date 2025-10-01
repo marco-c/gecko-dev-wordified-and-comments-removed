@@ -2723,6 +2723,7 @@ default_server
 handshake
 new_server
 now
+CountingConnectionIdGenerator
 DEFAULT_ALPN
 }
 ;
@@ -3121,6 +3122,11 @@ max
 |
 {
 new_server
+:
+:
+<
+CountingConnectionIdGenerator
+>
 (
 DEFAULT_ALPN
 ConnectionParameters

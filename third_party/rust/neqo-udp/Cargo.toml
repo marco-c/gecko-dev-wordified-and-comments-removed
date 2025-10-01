@@ -125,9 +125,9 @@ version
 "
 0
 .
-15
+16
 .
-0
+1
 "
 authors
 =
@@ -281,7 +281,7 @@ ignored
 =
 [
 "
-log
+cfg_aliases
 "
 ]
 [
@@ -435,8 +435,6 @@ version
 0
 .
 2
-.
-171
 "
 default
 -

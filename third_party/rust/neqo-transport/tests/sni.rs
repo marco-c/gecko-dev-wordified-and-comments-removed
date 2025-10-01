@@ -13,6 +13,7 @@ default_client
 default_server
 new_client
 now
+CountingConnectionIdGenerator
 }
 ;
 #
@@ -179,6 +180,11 @@ mut
 client
 =
 new_client
+:
+:
+<
+CountingConnectionIdGenerator
+>
 (
 ConnectionParameters
 :

@@ -55,7 +55,7 @@ default_http3_server
 wt_default_parameters
 WtTest
 }
-SessionCloseReason
+CloseReason
 }
 frames
 :
@@ -69,9 +69,9 @@ Http3Server
 Http3ServerEvent
 Http3State
 Priority
+SessionAcceptAction
 WebTransportEvent
 WebTransportServerEvent
-WebTransportSessionAcceptAction
 }
 ;
 #
@@ -148,7 +148,7 @@ status
 let
 accept_res
 =
-WebTransportSessionAcceptAction
+SessionAcceptAction
 :
 :
 Reject
@@ -180,7 +180,7 @@ check_session_closed_event_client
 (
 wt_session_id
 &
-SessionCloseReason
+CloseReason
 :
 :
 Status
@@ -242,7 +242,7 @@ check_session_closed_event_server
 &
 wt_session
 &
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -306,7 +306,7 @@ stream_id
 (
 )
 &
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -379,7 +379,7 @@ stream_id
 (
 )
 &
-SessionCloseReason
+CloseReason
 :
 :
 Clean
@@ -463,7 +463,7 @@ stream_id
 (
 )
 &
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -544,7 +544,7 @@ stream_id
 (
 )
 &
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -594,7 +594,6 @@ webtransport_create_session
 now
 (
 )
-&
 (
 "
 https
@@ -718,7 +717,7 @@ wt_server_session
 response
 (
 &
-WebTransportSessionAcceptAction
+SessionAcceptAction
 :
 :
 Accept
@@ -877,7 +876,7 @@ new
 let
 accept_res
 =
-WebTransportSessionAcceptAction
+SessionAcceptAction
 :
 :
 Reject
@@ -909,7 +908,7 @@ check_session_closed_event_client
 (
 wt_session_id
 &
-SessionCloseReason
+CloseReason
 :
 :
 Status
@@ -956,7 +955,6 @@ webtransport_create_session
 now
 (
 )
-&
 (
 "
 https
@@ -1054,7 +1052,7 @@ wt_server_session
 response
 (
 &
-WebTransportSessionAcceptAction
+SessionAcceptAction
 :
 :
 Accept
@@ -1119,7 +1117,7 @@ wt_session_id
 reason
 =
 =
-SessionCloseReason
+CloseReason
 :
 :
 Clean
@@ -1250,7 +1248,7 @@ check_session_closed_event_server
 &
 wt_session
 &
-SessionCloseReason
+CloseReason
 :
 :
 Clean
@@ -1344,7 +1342,7 @@ stream_id
 (
 )
 &
-SessionCloseReason
+CloseReason
 :
 :
 Clean
@@ -1643,7 +1641,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Clean
@@ -1787,7 +1785,7 @@ stream_id
 (
 )
 &
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -1811,7 +1809,7 @@ check_session_closed_event_server
 &
 wt_session
 &
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -2028,7 +2026,6 @@ now
 "
 GET
 "
-&
 (
 "
 https
@@ -2372,7 +2369,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Clean

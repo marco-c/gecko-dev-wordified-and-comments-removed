@@ -105,6 +105,7 @@ decode_initial_header
 initial_aead_and_hp
 }
 now
+CountingConnectionIdGenerator
 }
 ;
 #
@@ -3900,6 +3901,11 @@ test_fixture
 :
 :
 new_client
+:
+:
+<
+CountingConnectionIdGenerator
+>
 (
 ConnectionParameters
 :
@@ -4096,13 +4102,6 @@ protected_header
 .
 len
 (
-)
-;
-assert_eq
-!
-(
-pn
-1
 )
 ;
 let
