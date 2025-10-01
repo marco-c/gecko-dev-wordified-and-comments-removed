@@ -15,14 +15,43 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
+pytest
 .
-support
+fixture
+(
+autouse
+=
+True
+)
+def
+clean_up_cookies
+(
+session
+)
+:
+    
+session
 .
-helpers
-import
-clear_all_cookies
+transport
+.
+send
+(
+"
+DELETE
+"
+"
+session
+/
+%
+s
+/
+cookie
+"
+%
+session
+.
+session_id
+)
 def
 get_named_cookie
 (
@@ -146,11 +175,6 @@ blank
 .
 html
 "
-)
-    
-clear_all_cookies
-(
-session
 )
     
 session
@@ -394,11 +418,6 @@ blank
 .
 html
 "
-)
-    
-clear_all_cookies
-(
-session
 )
     
 utc_string_format
@@ -697,11 +716,6 @@ html
 "
 )
     
-clear_all_cookies
-(
-session
-)
-    
 session
 .
 set_cookie
@@ -940,11 +954,6 @@ protocol
 "
 https
 "
-)
-    
-clear_all_cookies
-(
-session
 )
     
 session
