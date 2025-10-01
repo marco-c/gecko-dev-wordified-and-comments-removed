@@ -32,6 +32,15 @@ DashboardTypes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+WeakPtr
+.
+h
+"
 namespace
 mozilla
 {
@@ -40,6 +49,9 @@ net
 {
 class
 ConnectionEntry
+:
+public
+SupportsWeakPtr
 {
 public
 :
