@@ -2667,11 +2667,11 @@ GetSpoofedJSLocale
 ;
 aOptions
 .
-creationOptions
+behaviors
 (
 )
 .
-setLocaleCopyZ
+setLocaleOverride
 (
 locale
 .
@@ -2681,6 +2681,7 @@ get
 )
 ;
 }
+else
 if
 (
 !

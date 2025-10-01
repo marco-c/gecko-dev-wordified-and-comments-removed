@@ -781,11 +781,11 @@ GetSpoofedJSLocale
 ;
 options
 .
-creationOptions
+behaviors
 (
 )
 .
-setLocaleCopyZ
+setLocaleOverride
 (
 locale
 .
