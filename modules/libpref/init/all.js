@@ -7526,10 +7526,6 @@ encoding
 dictionary
 "
 "
-gzip
-deflate
-br
-zstd
 dcb
 dcz
 "
