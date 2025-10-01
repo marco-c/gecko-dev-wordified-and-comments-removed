@@ -335,8 +335,17 @@ of
 Firefox
 '
 s
+[
 memory
 reporting
+]
+(
+memory
+/
+memory_reporting
+.
+md
+)
 infrastructure
 .
 *
