@@ -289,7 +289,7 @@ xhtml
 ;
 exceptionButton
 .
-doCommand
+click
 (
 )
 ;
@@ -1368,6 +1368,19 @@ observances
 }
 )
 ;
+SpecialPowers
+.
+clearUserPref
+(
+"
+dom
+.
+security
+.
+https_only_mode_ever_enabled_pbm
+"
+)
+;
 BrowserTestUtils
 .
 removeTab
@@ -1528,7 +1541,7 @@ httpsOnlyExceptionButton
 "
 )
 .
-doCommand
+click
 (
 )
 ;
