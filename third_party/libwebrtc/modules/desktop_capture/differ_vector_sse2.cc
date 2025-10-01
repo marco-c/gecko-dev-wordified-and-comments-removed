@@ -10,6 +10,11 @@ differ_vector_sse2
 h
 "
 #
+include
+<
+cstdint
+>
+#
 if
 defined
 (

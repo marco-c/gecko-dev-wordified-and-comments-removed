@@ -88,6 +88,17 @@ h
 #
 include
 "
+modules
+/
+desktop_capture
+/
+rgba_color
+.
+h
+"
+#
+include
+"
 test
 /
 gtest

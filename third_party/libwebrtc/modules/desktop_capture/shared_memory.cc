@@ -9,6 +9,11 @@ shared_memory
 .
 h
 "
+#
+include
+<
+cstddef
+>
 namespace
 webrtc
 {

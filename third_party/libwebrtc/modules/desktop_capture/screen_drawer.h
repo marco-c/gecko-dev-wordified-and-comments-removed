@@ -6,6 +6,11 @@ define
 MODULES_DESKTOP_CAPTURE_SCREEN_DRAWER_H_
 #
 include
+<
+memory
+>
+#
+include
 "
 modules
 /

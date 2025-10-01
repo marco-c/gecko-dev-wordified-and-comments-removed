@@ -9,7 +9,16 @@ include
 <
 X11
 /
-Xutil
+X
+.
+h
+>
+#
+include
+<
+X11
+/
+Xlib
 .
 h
 >
@@ -27,7 +36,7 @@ h
 #
 include
 <
-memory
+cstdint
 >
 #
 include

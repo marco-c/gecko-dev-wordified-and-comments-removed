@@ -10,12 +10,6 @@ include
 memory
 >
 #
-if
-defined
-(
-WEBRTC_USE_GIO
-)
-#
 include
 "
 modules
@@ -26,8 +20,6 @@ desktop_capture_metadata
 .
 h
 "
-#
-endif
 #
 include
 "

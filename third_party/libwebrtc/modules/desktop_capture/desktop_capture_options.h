@@ -6,6 +6,11 @@ define
 MODULES_DESKTOP_CAPTURE_DESKTOP_CAPTURE_OPTIONS_H_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 api
 /
