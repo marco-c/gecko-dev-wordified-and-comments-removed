@@ -688,6 +688,7 @@ async
 isActive
 (
 queryContext
+controller
 )
 {
 return
@@ -747,6 +748,8 @@ name
 .
 isActive
 (
+queryContext
+controller
 )
 )
 &
@@ -758,6 +761,7 @@ ActionsProviderContextualSearch
 isActive
 (
 queryContext
+controller
 )
 )
 )
