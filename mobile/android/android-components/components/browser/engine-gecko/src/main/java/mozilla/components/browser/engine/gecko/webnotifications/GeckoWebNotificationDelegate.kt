@@ -187,9 +187,16 @@ await
 )
 if
 (
-!
 succeeded
 )
+{
+webNotification
+.
+show
+(
+)
+}
+else
 {
 webNotification
 .

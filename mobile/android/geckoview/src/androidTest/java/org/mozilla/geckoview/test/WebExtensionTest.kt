@@ -8484,6 +8484,11 @@ notification
 source
 null
 )
+notification
+.
+show
+(
+)
 }
 }
 )
@@ -19753,6 +19758,12 @@ state
 Download
 .
 STATE_COMPLETE
+downloadCreated
+.
+update
+(
+downloadData
+)
 downloadCreated
 .
 update
