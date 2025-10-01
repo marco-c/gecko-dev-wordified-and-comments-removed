@@ -7281,7 +7281,7 @@ rv
 mResponseHead
 -
 >
-SetHeader
+SetHeaderOverride
 (
 nsHttp
 :
