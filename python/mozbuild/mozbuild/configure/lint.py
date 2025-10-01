@@ -2284,10 +2284,21 @@ defined
 "
 )
                 
-if
+line_number
+=
+getattr
+(
+instr
+"
+line_number
+"
 instr
 .
 starts_line
+)
+                
+if
+line_number
 is
 None
 :
@@ -2309,9 +2320,7 @@ _raise_from
 (
 e
 func
-instr
-.
-starts_line
+line_number
 -
 code
 .
