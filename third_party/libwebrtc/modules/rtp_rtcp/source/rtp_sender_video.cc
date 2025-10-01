@@ -4412,6 +4412,16 @@ RTPVideoHeader
 video_header
 TimeDelta
 expected_retransmission_time
+const
+std
+:
+:
+vector
+<
+uint32_t
+>
+&
+csrcs
 )
 {
 if
@@ -4431,6 +4441,7 @@ rtp_timestamp
 encoded_image
 video_header
 expected_retransmission_time
+csrcs
 )
 ;
 }
@@ -4453,8 +4464,7 @@ size
 )
 video_header
 expected_retransmission_time
-{
-}
+csrcs
 )
 ;
 }

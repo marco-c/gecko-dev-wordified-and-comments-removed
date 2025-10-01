@@ -2836,6 +2836,14 @@ rtp_interfaces
 /
 api
 :
+array_view
+"
+"
+.
+.
+/
+api
+:
 frame_transformer_interface
 "
 "
