@@ -181,7 +181,7 @@ StyleTextAutospace
 &
 aStyleTextAutospace
 const
-nsIFrame
+nsTextFrame
 *
 aFrame
 )
