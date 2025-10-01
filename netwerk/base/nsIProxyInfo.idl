@@ -86,6 +86,10 @@ attribute
 ACString
 connectionIsolationKey
 ;
+attribute
+AUTF8String
+pathTemplate
+;
 const
 unsigned
 short

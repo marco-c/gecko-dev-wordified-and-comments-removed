@@ -367,6 +367,10 @@ port
 const
 nsACString
 &
+pathTemplate
+const
+nsACString
+&
 username
 const
 nsACString
