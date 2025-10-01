@@ -46,6 +46,13 @@ browsingContext
 .
 downloadWillBegin
 "
+NAVIGATION_STARTED
+=
+"
+browsingContext
+.
+navigationStarted
+"
 async
 def
 test_unsubscribe
@@ -283,10 +290,11 @@ remove_listener
 )
 async
 def
-test_subscribe
+test_download_attribute
 (
     
 bidi_session
+subscribe_events
 new_tab
 inline
 wait_for_event
@@ -396,20 +404,48 @@ complete
 )
     
 await
-bidi_session
-.
-session
-.
-subscribe
+subscribe_events
 (
 events
 =
 [
 DOWNLOAD_WILL_BEGIN
+NAVIGATION_STARTED
 ]
 )
     
-on_entry
+navigation_started_events
+=
+[
+]
+    
+async
+def
+on_event
+(
+method
+data
+)
+:
+        
+navigation_started_events
+.
+append
+(
+data
+)
+    
+remove_listener
+=
+bidi_session
+.
+add_event_listener
+(
+NAVIGATION_STARTED
+on_event
+)
+    
+on_download_will_begin
 =
 wait_for_event
 (
@@ -461,7 +497,7 @@ event
 await
 wait_for_future_safe
 (
-on_entry
+on_download_will_begin
 )
     
 recursive_compare
@@ -484,7 +520,7 @@ context
 navigation
 "
 :
-any_string
+None
             
 "
 suggestedFilename
@@ -509,12 +545,39 @@ download_link
 event
     
 )
+    
+with
+pytest
+.
+raises
+(
+TimeoutException
+)
+:
+        
+await
+wait_for_bidi_events
+(
+bidi_session
+navigation_started_events
+1
+timeout
+=
+0
+.
+5
+)
+    
+remove_listener
+(
+)
 async
 def
 test_content_disposition_header
 (
     
 bidi_session
+subscribe_events
 new_tab
 inline
 wait_for_event
@@ -643,7 +706,25 @@ complete
     
 )
     
-on_entry
+await
+subscribe_events
+(
+events
+=
+[
+DOWNLOAD_WILL_BEGIN
+NAVIGATION_STARTED
+]
+)
+    
+on_navigation_started
+=
+wait_for_event
+(
+NAVIGATION_STARTED
+)
+    
+on_download_will_begin
 =
 wait_for_event
 (
@@ -690,12 +771,12 @@ True
     
 )
     
-event
+download_event
 =
 await
 wait_for_future_safe
 (
-on_entry
+on_download_will_begin
 )
     
 recursive_compare
@@ -740,15 +821,56 @@ content_disposition_link
         
 }
         
-event
+download_event
     
 )
+    
+navigation_event
+=
+await
+wait_for_future_safe
+(
+on_navigation_started
+)
+    
+assert
+download_event
+[
+"
+navigation
+"
+]
+=
+=
+navigation_event
+[
+"
+navigation
+"
+]
+    
+assert
+download_event
+[
+"
+url
+"
+]
+=
+=
+navigation_event
+[
+"
+url
+"
+]
 async
 def
 test_redirect_to_content_disposition_header
 (
     
 bidi_session
+subscribe_events
 new_tab
 inline
 wait_for_event
@@ -908,7 +1030,25 @@ complete
     
 )
     
-on_entry
+await
+subscribe_events
+(
+events
+=
+[
+DOWNLOAD_WILL_BEGIN
+NAVIGATION_STARTED
+]
+)
+    
+on_navigation_started
+=
+wait_for_event
+(
+NAVIGATION_STARTED
+)
+    
+on_download_will_begin
 =
 wait_for_event
 (
@@ -955,12 +1095,12 @@ True
     
 )
     
-event
+download_event
 =
 await
 wait_for_future_safe
 (
-on_entry
+on_download_will_begin
 )
     
 recursive_compare
@@ -1005,6 +1145,41 @@ content_disposition_link
         
 }
         
-event
+download_event
     
 )
+    
+navigation_event
+=
+await
+wait_for_future_safe
+(
+on_navigation_started
+)
+    
+assert
+download_event
+[
+"
+navigation
+"
+]
+=
+=
+navigation_event
+[
+"
+navigation
+"
+]
+    
+assert
+navigation_event
+[
+"
+url
+"
+]
+=
+=
+redirect_link
