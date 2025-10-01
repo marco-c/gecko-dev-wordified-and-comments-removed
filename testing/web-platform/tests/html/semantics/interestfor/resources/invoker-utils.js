@@ -763,9 +763,9 @@ style
 '
 interest
 -
-show
--
 delay
+-
+start
 :
 {
 showdelayMs
@@ -774,9 +774,9 @@ ms
 ;
 interest
 -
-hide
--
 delay
+-
+end
 :
 {
 hideDelayMs
@@ -832,7 +832,7 @@ getComputedStyle
 invoker
 )
 .
-interestShowDelay
+interestDelayStart
 .
 slice
 (
@@ -851,9 +851,9 @@ showdelayMs
 '
 interest
 -
-show
--
 delay
+-
+start
 is
 incorrect
 '
@@ -869,7 +869,7 @@ getComputedStyle
 invoker
 )
 .
-interestHideDelay
+interestDelayEnd
 .
 slice
 (
@@ -888,9 +888,9 @@ hideDelayMs
 '
 interest
 -
-hide
--
 delay
+-
+end
 is
 incorrect
 '
