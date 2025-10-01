@@ -1054,6 +1054,24 @@ FieldTrial
 '
 WebRTC
 -
+TimestampExtrapolatorConfig
+'
+               
+424739326
+               
+date
+(
+2026
+6
+30
+)
+)
+    
+FieldTrial
+(
+'
+WebRTC
+-
 UseAbsCapTimeForG2gMetric
 '
                
