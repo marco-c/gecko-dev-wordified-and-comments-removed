@@ -108,15 +108,6 @@ include
 "
 mozilla
 /
-Array
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ErrorNames
 .
 h

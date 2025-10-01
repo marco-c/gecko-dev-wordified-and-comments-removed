@@ -11,15 +11,6 @@ ScrollbarDrawing
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Array
-.
-h
-"
 namespace
 mozilla
 :

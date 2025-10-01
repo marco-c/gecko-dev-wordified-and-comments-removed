@@ -9,15 +9,6 @@ include
 "
 mozilla
 /
-Array
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Assertions
 .
 h

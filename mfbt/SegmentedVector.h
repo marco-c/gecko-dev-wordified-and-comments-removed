@@ -28,15 +28,6 @@ include
 "
 mozilla
 /
-Array
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Attributes
 .
 h

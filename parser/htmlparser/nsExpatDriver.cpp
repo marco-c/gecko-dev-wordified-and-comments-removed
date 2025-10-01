@@ -187,15 +187,6 @@ include
 "
 mozilla
 /
-Array
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ArrayUtils
 .
 h
