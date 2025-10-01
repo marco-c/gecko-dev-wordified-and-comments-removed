@@ -1,14 +1,6 @@
 #
 !
 [
-allow
-(
-mismatched_lifetime_syntaxes
-)
-]
-#
-!
-[
 deny
 (
 warnings
