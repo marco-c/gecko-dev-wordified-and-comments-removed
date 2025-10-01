@@ -588,7 +588,7 @@ mIsInTunnel
 false
 ;
 bool
-mProxyConnectFailed
+mProxyConnectSucceeded
 =
 false
 ;
