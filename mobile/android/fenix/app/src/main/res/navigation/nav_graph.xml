@@ -6789,7 +6789,7 @@ label
 "
 string
 /
-preferences_sync_2
+preferences_sign_in
 "
 tools
 :
@@ -6890,7 +6890,7 @@ label
 "
 string
 /
-preferences_sync_2
+preferences_sign_in
 "
 tools
 :

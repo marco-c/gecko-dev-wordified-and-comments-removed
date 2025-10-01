@@ -208,7 +208,7 @@ Click
 (
 SettingsSelectors
 .
-SYNC_AND_SAVE_YOUR_DATA_BUTTON
+SIGN_IN_BUTTON
 )
 )
 )
