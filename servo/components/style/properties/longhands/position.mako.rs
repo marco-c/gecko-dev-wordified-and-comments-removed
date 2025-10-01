@@ -1284,6 +1284,11 @@ else
 "
 Yes
 "
+parse_method
+=
+"
+parse_size_for_width_or_height
+"
 spec
 =
 spec
