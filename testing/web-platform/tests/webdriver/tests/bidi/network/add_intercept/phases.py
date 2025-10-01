@@ -1,5 +1,7 @@
 import
 pytest
+import
+random
 from
 webdriver
 .
@@ -179,10 +181,25 @@ RESPONSE_COMPLETED_EVENT
     
 text_url
 =
+f
+"
+{
 url
 (
 PAGE_EMPTY_TEXT
 )
+}
+?
+nocache
+=
+{
+random
+.
+random
+(
+)
+}
+"
     
 intercept
 =
@@ -478,10 +495,25 @@ events
     
 text_url
 =
+f
+"
+{
 url
 (
 PAGE_EMPTY_TEXT
 )
+}
+?
+nocache
+=
+{
+random
+.
+random
+(
+)
+}
+"
     
 await
 add_intercept

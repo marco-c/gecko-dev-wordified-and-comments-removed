@@ -1,6 +1,8 @@
 import
 asyncio
 import
+random
+import
 pytest
 from
 webdriver
@@ -264,10 +266,25 @@ children
     
 text_url
 =
+f
+"
+{
 url
 (
 PAGE_EMPTY_TEXT
 )
+}
+?
+nocache
+=
+{
+random
+.
+random
+(
+)
+}
+"
     
 await
 add_intercept
@@ -481,10 +498,49 @@ complete
     
 text_url
 =
+f
+"
+{
 url
 (
 PAGE_EMPTY_TEXT
 )
+}
+?
+nocache
+=
+{
+random
+.
+random
+(
+)
+}
+"
+    
+text_url_other
+=
+f
+"
+{
+url
+(
+PAGE_EMPTY_TEXT
+)
+}
+?
+othercontext
+&
+nocache
+=
+{
+random
+.
+random
+(
+)
+}
+"
     
 await
 add_intercept
@@ -505,13 +561,13 @@ type
 "
 :
 "
-string
-"
-"
 pattern
 "
+"
+pathname
+"
 :
-text_url
+PAGE_EMPTY_TEXT
 }
 ]
     
@@ -570,7 +626,7 @@ ensure_future
 (
 fetch
 (
-text_url
+text_url_other
 context
 =
 other_context
@@ -687,10 +743,25 @@ context
     
 text_url
 =
+f
+"
+{
 url
 (
 PAGE_EMPTY_TEXT
 )
+}
+?
+nocache
+=
+{
+random
+.
+random
+(
+)
+}
+"
     
 await
 add_intercept
@@ -918,10 +989,25 @@ context
     
 text_url
 =
+f
+"
+{
 url
 (
 PAGE_EMPTY_TEXT
 )
+}
+?
+nocache
+=
+{
+random
+.
+random
+(
+)
+}
+"
     
 intercept
 =
@@ -1167,10 +1253,25 @@ context
     
 text_url
 =
+f
+"
+{
 url
 (
 PAGE_EMPTY_TEXT
 )
+}
+?
+nocache
+=
+{
+random
+.
+random
+(
+)
+}
+"
     
 context_intercept
 =
