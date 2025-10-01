@@ -140,6 +140,7 @@ false
 sframe
 ;
 class
+RTC_EXPORT
 EphemeralKeyExchangeCipherGroups
 {
 public
