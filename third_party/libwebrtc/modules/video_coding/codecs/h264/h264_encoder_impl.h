@@ -377,9 +377,6 @@ i
 )
 const
 ;
-webrtc
-:
-:
 H264BitstreamParser
 h264_bitstream_parser_
 ;
@@ -417,9 +414,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 scoped_refptr
 <
 I420Buffer
