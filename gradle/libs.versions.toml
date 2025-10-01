@@ -51,7 +51,7 @@ kotlin
 .
 2
 .
-10
+20
 "
 #
 remember
@@ -69,13 +69,13 @@ plugin
 .
 2
 .
-10
+20
 -
 2
 .
 0
 .
-2
+3
 "
 serialization
 =
@@ -93,9 +93,9 @@ activity
 "
 1
 .
-10
+11
 .
-1
+0
 "
 annotation
 =
@@ -151,7 +151,7 @@ benchmark
 .
 4
 .
-0
+1
 "
 biometric
 =
@@ -196,7 +196,7 @@ bom
 "
 2025
 .
-08
+09
 .
 00
 "
@@ -319,7 +319,7 @@ navigation
 .
 9
 .
-3
+4
 "
 paging
 =
@@ -371,9 +371,9 @@ room
 "
 2
 .
-7
+8
 .
-2
+0
 "
 savedstate
 =
@@ -418,7 +418,7 @@ work
 .
 10
 .
-3
+4
 "
 #
 Google
@@ -518,9 +518,9 @@ base
 "
 18
 .
-7
+8
 .
-2
+0
 "
 play
 -
@@ -612,7 +612,7 @@ javac
 .
 11
 .
-0
+1
 "
 semanticdb
 -
@@ -621,7 +621,7 @@ kotlinc
 "
 0
 .
-6
+7
 .
 0
 "
