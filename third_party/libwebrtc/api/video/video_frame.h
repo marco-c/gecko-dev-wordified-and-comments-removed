@@ -579,9 +579,6 @@ kNotSetId
 ;
 scoped_refptr
 <
-webrtc
-:
-:
 VideoFrameBuffer
 >
 video_frame_buffer_
@@ -659,9 +656,6 @@ VideoFrameBuffer
 >
 &
 buffer
-webrtc
-:
-:
 VideoRotation
 rotation
 int64_t
@@ -1016,9 +1010,6 @@ const
 ;
 scoped_refptr
 <
-webrtc
-:
-:
 VideoFrameBuffer
 >
 video_frame_buffer
@@ -1312,9 +1303,6 @@ id_
 ;
 scoped_refptr
 <
-webrtc
-:
-:
 VideoFrameBuffer
 >
 video_frame_buffer_

@@ -84,9 +84,6 @@ RTC_EXPORT
 VideoFrameBuffer
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public

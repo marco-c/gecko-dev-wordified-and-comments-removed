@@ -85,9 +85,6 @@ deprecated
 (
 "
 Use
-webrtc
-:
-:
 CodecParameterMap
 "
 )
@@ -236,9 +233,6 @@ IsCodecInList
 ArrayView
 <
 const
-webrtc
-:
-:
 SdpVideoFormat
 >
 formats
