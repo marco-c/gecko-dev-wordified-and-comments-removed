@@ -380,3 +380,17 @@ nurseryMaxTimeGoalMS
 "
 )
 ;
+testChangeParam
+(
+"
+storeBufferEntries
+"
+)
+;
+testChangeParam
+(
+"
+storeBufferScaling
+"
+)
+;
