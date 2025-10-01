@@ -1442,8 +1442,6 @@ C
 }
 impl
 <
-'
-a
 T
 :
 PunycodeCodeUnit
@@ -1458,7 +1456,7 @@ for
 Decode
 <
 '
-a
+_
 T
 C
 >
@@ -1652,8 +1650,6 @@ len
 }
 impl
 <
-'
-a
 T
 :
 PunycodeCodeUnit
@@ -1668,7 +1664,7 @@ for
 Decode
 <
 '
-a
+_
 T
 C
 >
@@ -1907,7 +1903,7 @@ Error
 >
 Self
 {
-PunycodeEncodeError
+Self
 :
 :
 Sink
