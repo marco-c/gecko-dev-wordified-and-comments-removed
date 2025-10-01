@@ -790,6 +790,13 @@ Bug
 ]
 [
 "
+test_videocontrols_l10n_trusted_types
+.
+html
+"
+]
+[
+"
 test_videocontrols_scrubber_position
 .
 html
