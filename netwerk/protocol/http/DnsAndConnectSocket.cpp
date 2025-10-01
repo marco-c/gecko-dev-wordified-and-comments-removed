@@ -3438,6 +3438,17 @@ if
 connTCP
 |
 |
+ent
+-
+>
+mConnInfo
+-
+>
+GetFallbackConnection
+(
+)
+|
+|
 (
 ent
 -
