@@ -91,6 +91,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 nsStyledElement
 .
 h
@@ -282,8 +289,7 @@ GetAsCSSUnsupportedValue
 )
 ;
 const
-nsACString
-&
+nsCString
 value
 =
 unsupportedValue
