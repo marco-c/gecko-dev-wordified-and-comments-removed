@@ -668,14 +668,6 @@ __STDC_FORMAT_MACROS
 ]
 =
 True
-OS_LIBS
-+
-=
-[
-"
-rt
-"
-]
 UNIFIED_SOURCES
 +
 =
