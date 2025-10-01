@@ -3028,6 +3028,8 @@ components
 /
 places
 /
+tests
+/
 *
 *
 "
@@ -4618,16 +4620,6 @@ toolkit
 components
 /
 pictureinpicture
-/
-*
-*
-"
-"
-toolkit
-/
-components
-/
-places
 /
 *
 *

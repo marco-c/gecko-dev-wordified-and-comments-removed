@@ -6737,7 +6737,7 @@ applicable
 *
 param
 {
-Object
+object
 }
 node
 *
@@ -14662,7 +14662,7 @@ param
 {
 Array
 <
-Number
+number
 >
 }
 tensor
