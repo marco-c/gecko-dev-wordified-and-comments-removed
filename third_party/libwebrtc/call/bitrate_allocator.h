@@ -468,14 +468,6 @@ sequenced_checker_
 )
 ;
 uint32_t
-last_stable_target_bps_
-RTC_GUARDED_BY
-(
-&
-sequenced_checker_
-)
-;
-uint32_t
 last_non_zero_bitrate_bps_
 RTC_GUARDED_BY
 (

@@ -42,16 +42,6 @@ Zero
 (
 )
 ;
-DataRate
-stable_target_bitrate
-=
-DataRate
-:
-:
-Zero
-(
-)
-;
 double
 packet_loss_ratio
 =

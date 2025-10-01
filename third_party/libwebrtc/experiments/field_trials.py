@@ -2867,21 +2867,6 @@ WebRTC
 -
 Audio
 -
-StableTargetAdaptation
-'
-               
-42221061
-               
-INDEFINITE
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
-Audio
--
 iOS
 -
 Holding
@@ -5019,7 +5004,7 @@ str
 \
     
 '
-27afb1e1db877d182292c7226d6d6d1e7c4c2b64
+625f8d689ab8bcfe4118347c6f8c852e3ac372c7
 '
 REGISTERED_FIELD_TRIALS
 :
