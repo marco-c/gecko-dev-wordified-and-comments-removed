@@ -83,7 +83,9 @@ kotlinx
 .
 coroutines
 .
-Dispatchers
+test
+.
+StandardTestDispatcher
 import
 kotlinx
 .
@@ -187,6 +189,13 @@ class
 class
 DomainIndexesInUrlTest
 {
+private
+val
+testDispatcher
+=
+StandardTestDispatcher
+(
+)
 Test
 fun
 GIVEN
@@ -856,6 +865,9 @@ Int
 )
 =
 runTest
+(
+testDispatcher
+)
 {
 val
 urlWithMarkedDomain
@@ -869,10 +881,7 @@ publicSuffixList
 PublicSuffixList
 (
 testContext
-Dispatchers
-.
-Unconfined
-this
+testDispatcher
 )
 )
 assertEquals
