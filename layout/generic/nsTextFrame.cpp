@@ -709,14 +709,7 @@ nsLayoutUtils
 :
 GetClosestFrameOfType
 (
-const_cast
-<
-nsTextFrame
-*
->
-(
 aFrame
-)
 LayoutFrameType
 :
 :
