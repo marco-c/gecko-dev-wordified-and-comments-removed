@@ -5183,6 +5183,10 @@ diplomat
 :
 :
 span
+<
+const
+uint8_t
+>
 {
 aChars
 aLength
