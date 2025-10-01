@@ -187,7 +187,12 @@ run
 -
 sequentially
 =
+[
 "
+true
+"
+]
+#
 test_databaseShadowing2
 .
 js
@@ -199,7 +204,6 @@ produced
 by
 this
 test
-"
 [
 "
 test_databaseShadowing2
@@ -211,7 +215,12 @@ run
 -
 sequentially
 =
+[
 "
+true
+"
+]
+#
 this
 test
 depends
@@ -223,7 +232,6 @@ by
 test_databaseShadowing1
 .
 js
-"
 [
 "
 test_databaseShadowing_clearOrigin1
@@ -248,7 +256,12 @@ run
 -
 sequentially
 =
+[
 "
+true
+"
+]
+#
 test_databaseShadowing_clearOrigin2
 .
 js
@@ -260,7 +273,6 @@ produced
 by
 this
 test
-"
 [
 "
 test_databaseShadowing_clearOrigin2
@@ -272,7 +284,12 @@ run
 -
 sequentially
 =
+[
 "
+true
+"
+]
+#
 this
 test
 depends
@@ -284,7 +301,6 @@ by
 test_databaseShadowing_clearOrigin1
 .
 js
-"
 [
 "
 test_databaseShadowing_clearOriginsByPattern1
@@ -309,7 +325,12 @@ run
 -
 sequentially
 =
+[
 "
+true
+"
+]
+#
 test_databaseShadowing_clearOriginsByPattern2
 .
 js
@@ -321,7 +342,6 @@ produced
 by
 this
 test
-"
 [
 "
 test_databaseShadowing_clearOriginsByPattern2
@@ -333,7 +353,12 @@ run
 -
 sequentially
 =
+[
 "
+true
+"
+]
+#
 this
 test
 depends
@@ -345,7 +370,6 @@ by
 test_databaseShadowing_clearOriginsByPattern1
 .
 js
-"
 [
 "
 test_databaseShadowing_clearOriginsByPrefix1
@@ -370,7 +394,12 @@ run
 -
 sequentially
 =
+[
 "
+true
+"
+]
+#
 test_databaseShadowing_clearOriginsByPrefix2
 .
 js
@@ -382,7 +411,6 @@ produced
 by
 this
 test
-"
 [
 "
 test_databaseShadowing_clearOriginsByPrefix2
@@ -394,7 +422,12 @@ run
 -
 sequentially
 =
+[
 "
+true
+"
+]
+#
 this
 test
 depends
@@ -406,7 +439,6 @@ by
 test_databaseShadowing_clearOriginsByPrefix1
 .
 js
-"
 [
 "
 test_databaseWorkStarted

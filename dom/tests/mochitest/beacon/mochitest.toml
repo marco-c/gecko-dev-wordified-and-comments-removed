@@ -52,7 +52,12 @@ run
 -
 sequentially
 =
+[
 "
+true
+"
+]
+#
 bug
 1784963
 -
@@ -61,7 +66,6 @@ beacon
 handler
 shares
 state
-"
 [
 "
 test_beacon

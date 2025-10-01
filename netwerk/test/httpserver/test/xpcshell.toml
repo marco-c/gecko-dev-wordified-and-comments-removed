@@ -101,7 +101,12 @@ run
 -
 sequentially
 =
+[
 "
+true
+"
+]
+#
 Reusing
 same
 server
@@ -110,7 +115,6 @@ different
 specific
 ports
 .
-"
 [
 "
 test_host_identity

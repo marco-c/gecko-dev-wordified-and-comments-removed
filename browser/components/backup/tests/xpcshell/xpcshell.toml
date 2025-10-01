@@ -199,7 +199,12 @@ run
 -
 sequentially
 =
+[
 "
+true
+"
+]
+#
 Mock
 Windows
 registry
@@ -207,7 +212,6 @@ interferes
 with
 normal
 operations
-"
 [
 "
 test_BackupService_recoverFromSnapshotFolder

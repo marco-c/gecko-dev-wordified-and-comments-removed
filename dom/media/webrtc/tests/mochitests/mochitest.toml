@@ -517,7 +517,12 @@ run
 -
 sequentially
 =
+[
 "
+true
+"
+]
+#
 sets
 prefs
 that
@@ -525,7 +530,6 @@ may
 disrupt
 other
 tests
-"
 [
 "
 test_ondevicechange_resistfingerprinting
@@ -537,7 +541,12 @@ run
 -
 sequentially
 =
+[
 "
+true
+"
+]
+#
 sets
 prefs
 that
@@ -545,7 +554,6 @@ may
 disrupt
 other
 tests
-"
 [
 "
 test_rvfc_timestamp_alignment

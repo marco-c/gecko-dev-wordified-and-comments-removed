@@ -686,7 +686,12 @@ run
 -
 sequentially
 =
+[
 "
+true
+"
+]
+#
 Mock
 Windows
 registry
@@ -694,7 +699,6 @@ interferes
 with
 normal
 operations
-"
 [
 "
 test_windows_registry
@@ -720,7 +724,12 @@ run
 -
 sequentially
 =
+[
 "
+true
+"
+]
+#
 Mock
 Windows
 registry
@@ -728,4 +737,3 @@ interferes
 with
 normal
 operations
-"

@@ -98,7 +98,12 @@ run
 -
 sequentially
 =
+[
 "
+true
+"
+]
+#
 This
 will
 delete
@@ -107,7 +112,6 @@ existing
 push
 subscriptions
 .
-"
 [
 "
 test_clear_forgetAboutSite
@@ -226,7 +230,12 @@ run
 -
 sequentially
 =
+[
 "
+true
+"
+]
+#
 This
 will
 delete
@@ -235,7 +244,6 @@ existing
 push
 subscriptions
 .
-"
 [
 "
 test_quota_exceeded

@@ -252,12 +252,16 @@ run
 -
 sequentially
 =
+[
 "
+true
+"
+]
+#
 Hardcoded
 4444
 port
 .
-"
 [
 "
 test_generate_xpath

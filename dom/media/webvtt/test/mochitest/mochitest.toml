@@ -410,7 +410,12 @@ run
 -
 sequentially
 =
+[
 "
+true
+"
+]
+#
 An
 extension
 having
@@ -424,7 +429,6 @@ uninstalled
 in
 different
 tests
-"
 [
 "
 test_webvtt_seeking
