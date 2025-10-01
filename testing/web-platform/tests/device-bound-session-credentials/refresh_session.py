@@ -91,6 +91,8 @@ get
 "
 Sec
 -
+Secure
+-
 Session
 -
 Id
@@ -222,7 +224,7 @@ headers
 get
 (
 "
-Sec
+Secure
 -
 Session
 -
@@ -240,7 +242,7 @@ return
 [
 (
 '
-Sec
+Secure
 -
 Session
 -
@@ -283,7 +285,7 @@ headers
 get
 (
 "
-Sec
+Secure
 -
 Session
 -

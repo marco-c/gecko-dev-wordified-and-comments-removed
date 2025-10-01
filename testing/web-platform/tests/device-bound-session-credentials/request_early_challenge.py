@@ -188,7 +188,7 @@ append
 (
 (
 "
-Sec
+Secure
 -
 Session
 -
@@ -222,7 +222,7 @@ combined_challenges
 [
 (
 "
-Sec
+Secure
 -
 Session
 -
