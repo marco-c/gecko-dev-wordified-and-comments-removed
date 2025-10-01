@@ -14113,6 +14113,15 @@ MarkPassedConditionForDiskCache
 ;
 if
 (
+!
+aRequest
+-
+>
+PassedConditionForMemoryCache
+(
+)
+&
+&
 aRequest
 -
 >
