@@ -388,7 +388,7 @@ upload
 .
 mkdir
 dxc_folder
-mv
+cp
 bin
 /
 dxcompiler
