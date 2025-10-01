@@ -5737,6 +5737,14 @@ fec_controller_api
 /
 api
 :
+field_trials_view
+"
+"
+.
+.
+/
+api
+:
 frame_transformer_interface
 "
 "

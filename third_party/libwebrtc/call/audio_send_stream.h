@@ -425,6 +425,15 @@ std
 string
 mid
 ;
+std
+:
+:
+vector
+<
+uint32_t
+>
+csrcs
+;
 bool
 extmap_allow_mixed
 =
