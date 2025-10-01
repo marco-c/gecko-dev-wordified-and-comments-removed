@@ -179,13 +179,6 @@ clock
 .
 cc
 "
-"
-source
-/
-cpu_features
-.
-cc
-"
 ]
 defines
 =
