@@ -1384,15 +1384,6 @@ AddStorageAccessHeadersToRequest
 (
 )
 ;
-public
-:
-bool
-StorageAccessReloadedChannel
-(
-)
-;
-private
-:
 nsresult
 BeginConnect
 (
@@ -3048,11 +3039,6 @@ EchConfigUsed
 (
 uint32_t
 AuthRedirectedChannel
-1
-)
-(
-uint32_t
-StorageAccessReloadChannel
 1
 )
 )

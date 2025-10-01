@@ -1501,17 +1501,6 @@ ContentParent
 aSource
 )
 ;
-void
-DidSet
-(
-FieldIndex
-<
-IDX_UsingStorageAccess
->
-bool
-aOldValue
-)
-;
 bool
 CanSet
 (
