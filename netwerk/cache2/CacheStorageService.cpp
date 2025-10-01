@@ -10033,6 +10033,10 @@ CacheStorageService
 :
 CacheFileDoomed
 (
+const
+nsACString
+&
+aKey
 nsILoadContextInfo
 *
 aLoadContextInfo
