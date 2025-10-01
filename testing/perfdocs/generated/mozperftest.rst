@@ -198,7 +198,7 @@ unit
 ms
 shouldAlert
 :
-False
+True
 name
 :
 A11Y_DoInitialUpdate_parent
@@ -881,7 +881,7 @@ unit
 ms
 shouldAlert
 :
-False
+True
 name
 :
 A11Y_DoInitialUpdate_parent
@@ -1568,9 +1568,12 @@ A11Y_TotalTime
 unit
 :
 ms
+alertThreshold
+:
+5
 shouldAlert
 :
-False
+True
 name
 :
 A11Y_DoInitialUpdate_parent
@@ -2264,7 +2267,7 @@ unit
 ms
 shouldAlert
 :
-False
+True
 name
 :
 A11Y_DoInitialUpdate_parent
