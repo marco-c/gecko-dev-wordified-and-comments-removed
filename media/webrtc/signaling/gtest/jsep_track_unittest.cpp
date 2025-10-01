@@ -129,12 +129,6 @@ NSS_SetDomesticPolicy
 struct
 CodecOverrides
 {
-CodecOverrides
-(
-)
-=
-default
-;
 bool
 addFecCodecs
 =
