@@ -172,7 +172,7 @@ solid
 ;
 animation
 :
-color
+width
 -
 anim
 2s
@@ -181,7 +181,7 @@ paused
 ;
 }
 keyframes
-color
+width
 -
 anim
 {
@@ -194,6 +194,11 @@ rule
 width
 :
 0px
+repeat
+(
+auto
+0px
+)
 ;
 }
 }
@@ -270,6 +275,11 @@ el
 columnRuleWidth
 '
 0px
+repeat
+(
+auto
+0px
+)
 '
 )
 ;
@@ -326,6 +336,11 @@ columnRuleWidth
 =
 '
 10px
+repeat
+(
+auto
+10px
+)
 '
 ;
 const
@@ -343,6 +358,11 @@ assert_equals
 intermediate
 '
 5px
+repeat
+(
+auto
+5px
+)
 '
 )
 ;
