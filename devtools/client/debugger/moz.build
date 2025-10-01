@@ -141,6 +141,17 @@ test
 /
 mochitest
 /
+sourcemaps
+/
+browser
+.
+toml
+"
+"
+test
+/
+mochitest
+/
 tracer
 /
 browser
