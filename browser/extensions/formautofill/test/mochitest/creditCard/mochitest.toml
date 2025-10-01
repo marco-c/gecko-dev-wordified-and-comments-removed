@@ -160,6 +160,11 @@ scheme
 "
 https
 "
+tags
+=
+"
+os_integration
+"
 [
 "
 test_clear_form

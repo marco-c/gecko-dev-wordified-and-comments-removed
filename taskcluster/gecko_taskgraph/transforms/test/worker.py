@@ -2220,5 +2220,16 @@ wayland
 0
 "
         
+env
+[
+"
+NEED_GNOME_KEYRING
+"
+]
+=
+"
+true
+"
+        
 yield
 task
