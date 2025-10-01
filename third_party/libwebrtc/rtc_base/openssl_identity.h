@@ -31,6 +31,17 @@ string
 #
 include
 "
+absl
+/
+strings
+/
+string_view
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 openssl_certificate

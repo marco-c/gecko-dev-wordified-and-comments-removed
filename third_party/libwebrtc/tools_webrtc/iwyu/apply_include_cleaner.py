@@ -265,6 +265,15 @@ spa
 .
 h
 "
+    
+"
+openssl
+/
+.
+*
+.
+h
+"
 ]
 def
 _parse_args
