@@ -288,6 +288,11 @@ TestSynchronization
 cpp
 "
 "
+TestTargetShutdownTask
+.
+cpp
+"
+"
 TestTArray
 .
 cpp

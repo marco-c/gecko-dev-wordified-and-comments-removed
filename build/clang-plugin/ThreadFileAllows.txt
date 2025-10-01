@@ -556,6 +556,15 @@ tests
 /
 gtest
 /
+TestTargetShutdownTask
+.
+cpp
+xpcom
+/
+tests
+/
+gtest
+/
 TestThrottledEventQueue
 .
 cpp
