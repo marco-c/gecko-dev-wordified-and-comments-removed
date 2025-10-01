@@ -1942,6 +1942,8 @@ menu
 visual
 -
 search
+-
+2
 =
 .
 label
@@ -1952,6 +1954,10 @@ with
 {
 engine
 }
+.
+accesskey
+=
+e
 main
 -
 context

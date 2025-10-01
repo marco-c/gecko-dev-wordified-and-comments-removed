@@ -4301,7 +4301,7 @@ visualSearch
 .
 featureGate
 "
-false
+true
 )
 ;
 pref
