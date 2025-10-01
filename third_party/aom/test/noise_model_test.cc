@@ -2604,9 +2604,10 @@ use_highbd
 struct
 BitDepthParams
 {
-typedef
-T
+using
 data_type_t
+=
+T
 ;
 static
 const
@@ -2658,7 +2659,9 @@ Reset
 )
 ;
 }
-typedef
+using
+VecType
+=
 std
 :
 :
@@ -2670,7 +2673,6 @@ T
 :
 data_type_t
 >
-VecType
 ;
 VecType
 data_
@@ -3933,7 +3935,9 @@ ExtractBlock
 FindFlatBlocks
 )
 ;
-typedef
+using
+AllBitDepthParams
+=
 :
 :
 testing
@@ -3966,7 +3970,6 @@ uint16_t
 true
 >
 >
-AllBitDepthParams
 ;
 INSTANTIATE_TYPED_TEST_SUITE_P
 (

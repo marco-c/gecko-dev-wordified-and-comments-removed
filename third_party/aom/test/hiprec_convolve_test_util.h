@@ -91,11 +91,12 @@ libaom_test
 namespace
 AV1HiprecConvolve
 {
-typedef
+using
+hiprec_convolve_func
+=
 void
 (
 *
-hiprec_convolve_func
 )
 (
 const
@@ -131,7 +132,9 @@ WienerConvolveParams
 conv_params
 )
 ;
-typedef
+using
+HiprecConvolveParam
+=
 std
 :
 :
@@ -142,7 +145,6 @@ int
 int
 hiprec_convolve_func
 >
-HiprecConvolveParam
 ;
 :
 :
@@ -221,11 +223,12 @@ CONFIG_AV1_HIGHBITDEPTH
 namespace
 AV1HighbdHiprecConvolve
 {
-typedef
+using
+highbd_hiprec_convolve_func
+=
 void
 (
 *
-highbd_hiprec_convolve_func
 )
 (
 const
@@ -263,7 +266,9 @@ int
 bps
 )
 ;
-typedef
+using
+HighbdHiprecConvolveParam
+=
 std
 :
 :
@@ -275,7 +280,6 @@ int
 int
 highbd_hiprec_convolve_func
 >
-HighbdHiprecConvolveParam
 ;
 :
 :

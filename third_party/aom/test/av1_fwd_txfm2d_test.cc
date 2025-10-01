@@ -140,7 +140,9 @@ vector
 ;
 namespace
 {
-typedef
+using
+AV1FwdTxfm2dParam
+=
 std
 :
 :
@@ -151,7 +153,6 @@ TX_SIZE
 double
 double
 >
-AV1FwdTxfm2dParam
 ;
 class
 AV1FwdTxfm2d
@@ -1251,11 +1252,12 @@ high_range
 }
 }
 }
-typedef
+using
+lowbd_fwd_txfm_func
+=
 void
 (
 *
-lowbd_fwd_txfm_func
 )
 (
 const
@@ -2188,7 +2190,9 @@ elapsed_time_simd
 }
 }
 }
-typedef
+using
+LbdFwdTxfm2dParam
+=
 std
 :
 :
@@ -2197,7 +2201,6 @@ tuple
 TX_SIZE
 lowbd_fwd_txfm_func
 >
-LbdFwdTxfm2dParam
 ;
 class
 AV1FwdTxfm2dTest
@@ -3006,11 +3009,12 @@ av1_lowbd_fwd_txfm_neon
 ;
 #
 endif
-typedef
+using
+Highbd_fwd_txfm_func
+=
 void
 (
 *
-Highbd_fwd_txfm_func
 )
 (
 const
@@ -4004,7 +4008,9 @@ elapsed_time_simd
 }
 }
 }
-typedef
+using
+HighbdFwdTxfm2dParam
+=
 std
 :
 :
@@ -4013,7 +4019,6 @@ tuple
 TX_SIZE
 Highbd_fwd_txfm_func
 >
-HighbdFwdTxfm2dParam
 ;
 class
 AV1HighbdFwdTxfm2dTest

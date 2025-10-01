@@ -124,8 +124,8 @@ kSsimThreshold
 1
 }
 ;
-typedef
 struct
+TestVideoParam
 {
 const
 char
@@ -147,7 +147,6 @@ int
 profile
 ;
 }
-TestVideoParam
 ;
 std
 :

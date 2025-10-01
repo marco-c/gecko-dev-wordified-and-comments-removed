@@ -45,8 +45,8 @@ h
 "
 namespace
 {
-typedef
 struct
+AltRefTestParams
 {
 const
 unsigned
@@ -80,7 +80,6 @@ TestMode
 encoding_mode
 ;
 }
-AltRefTestParams
 ;
 static
 const
@@ -719,8 +718,8 @@ AOM_CQ
 )
 )
 ;
-typedef
 struct
+gfIntervalParam
 {
 const
 :
@@ -742,7 +741,6 @@ int
 max_gf_interval
 ;
 }
-gfIntervalParam
 ;
 const
 gfIntervalParam

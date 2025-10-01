@@ -124,7 +124,6 @@ kVersion
 =
 1
 ;
-typedef
 struct
 TestData
 {
@@ -134,9 +133,7 @@ version
 kVersion
 ;
 }
-TestData
 ;
-typedef
 struct
 ToyModel
 {
@@ -166,7 +163,6 @@ BLOCK_SIZE
 block_size
 ;
 }
-ToyModel
 ;
 #
 if

@@ -77,8 +77,8 @@ kBitrate
 =
 500
 ;
-typedef
 struct
+TestVideoParam
 {
 const
 char
@@ -100,7 +100,6 @@ int
 profile
 ;
 }
-TestVideoParam
 ;
 std
 :

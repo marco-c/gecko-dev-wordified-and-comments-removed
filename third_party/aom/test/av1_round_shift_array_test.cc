@@ -90,11 +90,12 @@ h
 namespace
 AV1CompRoundShift
 {
-typedef
+using
+comp_round_shift_array_func
+=
 void
 (
 *
-comp_round_shift_array_func
 )
 (
 int32_t
@@ -136,7 +137,9 @@ kValidBitCheck
 ;
 #
 endif
-typedef
+using
+CompRoundShiftParam
+=
 std
 :
 :
@@ -146,7 +149,6 @@ comp_round_shift_array_func
 BLOCK_SIZE
 int
 >
-CompRoundShiftParam
 ;
 class
 AV1CompRoundShiftTest

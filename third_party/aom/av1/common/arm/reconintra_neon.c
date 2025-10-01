@@ -65,9 +65,6 @@ h
 define
 MAX_UPSAMPLE_SZ
 16
-#
-if
-AOM_ARCH_AARCH64
 DECLARE_ALIGNED
 (
 16
@@ -757,7 +754,7 @@ do
 uint8x8_t
 s1234
 =
-load_u8_4x1
+load_unaligned_u8_4x1
 (
 &
 buffer
@@ -1473,8 +1470,6 @@ height
 ;
 }
 }
-#
-endif
 void
 av1_filter_intra_edge_neon
 (

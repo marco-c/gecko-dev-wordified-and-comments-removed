@@ -80,11 +80,12 @@ h
 "
 namespace
 {
-typedef
+using
+get_crc32c_value_func
+=
 uint32_t
 (
 *
-get_crc32c_value_func
 )
 (
 void
@@ -98,7 +99,9 @@ size_t
 length
 )
 ;
-typedef
+using
+HashParam
+=
 std
 :
 :
@@ -107,7 +110,6 @@ tuple
 get_crc32c_value_func
 int
 >
-HashParam
 ;
 class
 AV1Crc32cHashTest

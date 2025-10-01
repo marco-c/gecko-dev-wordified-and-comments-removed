@@ -501,11 +501,12 @@ h_
 ;
 }
 ;
-typedef
+using
+F8B
+=
 void
 (
 *
-F8B
 )
 (
 uint8_t
@@ -535,7 +536,9 @@ int
 h
 )
 ;
-typedef
+using
+TestFuncs
+=
 libaom_test
 :
 :
@@ -543,7 +546,6 @@ FuncParam
 <
 F8B
 >
-TestFuncs
 ;
 class
 BlendA64Mask1DTest8B
@@ -1176,11 +1178,12 @@ endif
 #
 if
 CONFIG_AV1_HIGHBITDEPTH
-typedef
+using
+FHBD
+=
 void
 (
 *
-FHBD
 )
 (
 uint8_t
@@ -1212,7 +1215,9 @@ int
 bd
 )
 ;
-typedef
+using
+TestFuncsHBD
+=
 libaom_test
 :
 :
@@ -1220,7 +1225,6 @@ FuncParam
 <
 FHBD
 >
-TestFuncsHBD
 ;
 class
 BlendA64Mask1DTestHBD

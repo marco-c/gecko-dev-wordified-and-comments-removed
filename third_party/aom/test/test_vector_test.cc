@@ -143,7 +143,9 @@ kRowMT
 =
 2
 ;
-typedef
+using
+DecodeParam
+=
 std
 :
 :
@@ -155,7 +157,6 @@ char
 *
 int
 >
-DecodeParam
 ;
 class
 TestVectorTest

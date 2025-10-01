@@ -10304,8 +10304,8 @@ x
 -
 >
 sb_col_scroll
-=
-1
++
++
 ;
 else
 if
@@ -10350,8 +10350,8 @@ x
 -
 >
 sb_row_scroll
-=
-1
++
++
 ;
 }
 }

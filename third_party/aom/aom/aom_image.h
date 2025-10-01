@@ -378,6 +378,15 @@ AOM_MIF_KEY_FRAME
 AOM_MIF_ANY_FRAME
 =
 2
+AOM_MIF_NON_KEY_FRAME_LAYER_SPECIFIC
+=
+16
+AOM_MIF_KEY_FRAME_LAYER_SPECIFIC
+=
+17
+AOM_MIF_ANY_FRAME_LAYER_SPECIFIC
+=
+18
 }
 aom_metadata_insert_flags_t
 ;
@@ -618,7 +627,7 @@ int
 d_h
 unsigned
 int
-align
+stride_align
 unsigned
 char
 *

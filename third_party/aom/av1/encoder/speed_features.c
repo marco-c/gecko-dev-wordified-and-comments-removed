@@ -10948,7 +10948,7 @@ rt_sf
 .
 reduce_mv_pel_precision_highmotion
 =
-1
+0
 ;
 sf
 -
@@ -11101,15 +11101,6 @@ mv_sf
 subpel_search_method
 =
 SUBPEL_TREE_PRUNED_MORE
-;
-sf
--
->
-rt_sf
-.
-reduce_mv_pel_precision_highmotion
-=
-3
 ;
 sf
 -

@@ -73,7 +73,9 @@ h
 "
 namespace
 {
-typedef
+using
+KeyValParam
+=
 std
 :
 :
@@ -86,7 +88,6 @@ const
 char
 *
 >
-KeyValParam
 ;
 class
 BaseKeyValAPI

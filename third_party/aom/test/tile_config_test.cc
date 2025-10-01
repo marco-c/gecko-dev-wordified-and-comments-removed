@@ -72,8 +72,8 @@ h
 "
 namespace
 {
-typedef
 struct
+uniformTileConfigParam
 {
 const
 unsigned
@@ -91,7 +91,6 @@ int
 tile_cols
 ;
 }
-uniformTileConfigParam
 ;
 const
 libaom_test
@@ -214,8 +213,8 @@ uniformTileConfigParams
 }
 }
 ;
-typedef
 struct
+nonUniformTileConfigParam
 {
 const
 unsigned
@@ -245,7 +244,6 @@ AOM_MAX_TILE_ROWS
 ]
 ;
 }
-nonUniformTileConfigParam
 ;
 const
 nonUniformTileConfigParam
@@ -1619,8 +1617,8 @@ AOM_CQ
 )
 )
 ;
-typedef
 struct
+TileGroupConfigParams
 {
 const
 int
@@ -1635,7 +1633,6 @@ int
 num_tile_cols
 ;
 }
-TileGroupConfigParams
 ;
 static
 const

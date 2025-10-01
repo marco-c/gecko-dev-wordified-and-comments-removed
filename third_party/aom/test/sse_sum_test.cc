@@ -142,11 +142,12 @@ kNumIterations
 =
 10000
 ;
-typedef
+using
+SSI16Func
+=
 uint64_t
 (
 *
-SSI16Func
 )
 (
 const
@@ -164,7 +165,9 @@ int
 sum
 )
 ;
-typedef
+using
+TestFuncs
+=
 libaom_test
 :
 :
@@ -172,7 +175,6 @@ FuncParam
 <
 SSI16Func
 >
-TestFuncs
 ;
 class
 SumSSETest

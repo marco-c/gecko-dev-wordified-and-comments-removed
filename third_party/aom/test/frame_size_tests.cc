@@ -1888,8 +1888,8 @@ Range
 )
 )
 ;
-typedef
 struct
+FrameSizeParam
 {
 unsigned
 int
@@ -1900,7 +1900,6 @@ int
 height
 ;
 }
-FrameSizeParam
 ;
 const
 FrameSizeParam
