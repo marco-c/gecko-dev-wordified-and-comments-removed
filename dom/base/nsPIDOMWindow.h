@@ -1496,6 +1496,7 @@ aControllers
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 GetInnerWidth
@@ -1507,6 +1508,7 @@ aWidth
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 GetInnerHeight
@@ -2891,9 +2893,6 @@ virtual
 void
 FirePopupBlockedEvent
 (
-Document
-*
-aDoc
 nsIURI
 *
 aPopupURI
@@ -2905,6 +2904,17 @@ const
 nsAString
 &
 aPopupWindowFeatures
+)
+=
+0
+;
+virtual
+void
+FireRedirectBlockedEvent
+(
+nsIURI
+*
+aRedirectURI
 )
 =
 0
@@ -3092,6 +3102,7 @@ _retval
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 GetInnerWidth
@@ -3103,6 +3114,7 @@ aWidth
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 GetInnerHeight
