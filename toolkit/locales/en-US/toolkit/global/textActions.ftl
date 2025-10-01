@@ -475,11 +475,6 @@ label
 Highlight
 Selection
 #
-Comment
-is
-a
-verb
-.
 This
 adds
 a
@@ -499,11 +494,15 @@ action
 comment
 -
 selection
+-
+1
 =
 .
 label
 =
+Add
 Comment
+to
 Selection
 #
 "
