@@ -67,6 +67,13 @@ linux
 ]
 [
 "
+browser_browserGlue_sandboxDisabledNotification
+.
+js
+"
+]
+[
+"
 browser_browserGlue_telemetry
 .
 js
