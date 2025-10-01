@@ -5384,12 +5384,6 @@ Firefox
 "
 }
 }
-Suppress
-(
-"
-LongMethod
-"
-)
 private
 fun
 setupComposeToolbar
@@ -5779,9 +5773,6 @@ Suppress
 (
 "
 TooGenericExceptionCaught
-"
-"
-LongMethod
 "
 "
 ComplexMethod

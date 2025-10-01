@@ -1965,12 +1965,6 @@ layout
 *
 /
 VisibleForTesting
-Suppress
-(
-"
-LongMethod
-"
-)
 internal
 fun
 computePopupHorizontalBounds

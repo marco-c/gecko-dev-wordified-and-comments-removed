@@ -924,12 +924,6 @@ isTablet
 Boolean
 =
 false
-Suppress
-(
-"
-LongMethod
-"
-)
 override
 fun
 initializeUI

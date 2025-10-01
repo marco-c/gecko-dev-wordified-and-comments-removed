@@ -186,12 +186,6 @@ CfrToolsState
 CfrToolsAction
 >
 {
-Suppress
-(
-"
-LongMethod
-"
-)
 override
 fun
 invoke

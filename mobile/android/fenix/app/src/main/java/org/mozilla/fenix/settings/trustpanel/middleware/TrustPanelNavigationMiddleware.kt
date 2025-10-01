@@ -291,9 +291,6 @@ Suppress
 "
 CyclomaticComplexMethod
 "
-"
-LongMethod
-"
 )
 override
 fun

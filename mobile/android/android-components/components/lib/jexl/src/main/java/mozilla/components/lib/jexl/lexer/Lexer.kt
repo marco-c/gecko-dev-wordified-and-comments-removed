@@ -276,9 +276,6 @@ Suppress
 "
 ComplexMethod
 "
-"
-LongMethod
-"
 )
 Throws
 (

@@ -1410,9 +1410,6 @@ Suppress
 LongParameterList
 "
 "
-LongMethod
-"
-"
 ComplexMethod
 "
 )

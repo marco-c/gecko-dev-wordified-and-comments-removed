@@ -319,12 +319,6 @@ AddonPermissionsDetailsFragmentArgs
 >
 (
 )
-Suppress
-(
-"
-LongMethod
-"
-)
 override
 fun
 onCreateView

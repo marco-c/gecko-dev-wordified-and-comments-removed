@@ -299,12 +299,6 @@ logins_preferences
 rootKey
 )
 }
-Suppress
-(
-"
-LongMethod
-"
-)
 override
 fun
 onResume

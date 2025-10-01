@@ -431,9 +431,6 @@ Suppress
 ComplexMethod
 "
 "
-LongMethod
-"
-"
 ThrowsCount
 "
 )

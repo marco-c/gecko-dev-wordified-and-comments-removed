@@ -1812,12 +1812,6 @@ VisibleForTesting
 .
 PRIVATE
 )
-Suppress
-(
-"
-LongMethod
-"
-)
 internal
 fun
 bindAddon

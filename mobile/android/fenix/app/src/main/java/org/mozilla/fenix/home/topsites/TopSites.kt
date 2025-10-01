@@ -1060,9 +1060,6 @@ Suppress
 "
 LongParameterList
 "
-"
-LongMethod
-"
 )
 fun
 TopSites

@@ -379,7 +379,7 @@ fenix
 .
 GleanMetrics
 .
-AddressToolbar
+CookieBanners
 import
 org
 .
@@ -389,7 +389,7 @@ fenix
 .
 GleanMetrics
 .
-CookieBanners
+Events
 import
 org
 .
@@ -918,12 +918,6 @@ cancel
 )
 }
 VisibleForTesting
-Suppress
-(
-"
-LongMethod
-"
-)
 internal
 fun
 showCookieBannersCFR
@@ -1194,12 +1188,6 @@ NoExtras
 }
 }
 VisibleForTesting
-Suppress
-(
-"
-LongMethod
-"
-)
 internal
 fun
 showTabSwipeCFR
@@ -1302,9 +1290,9 @@ dp
 onDismiss
 =
 {
-AddressToolbar
+Events
 .
-swipeCfrDismissed
+toolbarTabSwipeCfrDismissed
 .
 record
 (
@@ -1371,9 +1359,9 @@ dp
 .
 run
 {
-AddressToolbar
+Events
 .
-swipeCfrShown
+toolbarTabSwipeCfrShown
 .
 record
 (
