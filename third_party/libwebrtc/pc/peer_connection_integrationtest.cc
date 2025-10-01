@@ -4696,8 +4696,10 @@ description
 video
 -
 >
-ClearRtpHeaderExtensions
+set_rtp_header_extensions
 (
+{
+}
 )
 ;
 }
