@@ -27,7 +27,7 @@ h
 #
 include
 "
-nsStringFwd
+nsString
 .
 h
 "
@@ -71,7 +71,6 @@ CSSStyleValue
 {
 public
 :
-explicit
 CSSKeywordValue
 (
 nsCOMPtr
@@ -79,6 +78,10 @@ nsCOMPtr
 nsISupports
 >
 aParent
+const
+nsACString
+&
+aValue
 )
 ;
 JSObject
@@ -150,6 +153,9 @@ CSSKeywordValue
 )
 =
 default
+;
+nsCString
+mValue
 ;
 }
 ;

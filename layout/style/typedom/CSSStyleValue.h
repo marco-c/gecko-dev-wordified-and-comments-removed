@@ -76,6 +76,9 @@ class
 GlobalObject
 ;
 class
+CSSKeywordValue
+;
+class
 CSSUnsupportedValue
 ;
 class
@@ -94,6 +97,7 @@ ValueType
 {
 Uninitialized
 Unsupported
+Keyword
 }
 ;
 explicit
@@ -224,6 +228,18 @@ const
 CSSUnsupportedValue
 &
 GetAsCSSUnsupportedValue
+(
+)
+;
+bool
+IsCSSKeywordValue
+(
+)
+const
+;
+CSSKeywordValue
+&
+GetAsCSSKeywordValue
 (
 )
 ;
