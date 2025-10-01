@@ -77,15 +77,6 @@ include
 "
 rtc_base
 /
-arraysize
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 checks
 .
 h
@@ -11536,7 +11527,10 @@ key_index
 ;
 key_index
 <
-arraysize
+std
+:
+:
+size
 (
 prev_key_state_
 )
