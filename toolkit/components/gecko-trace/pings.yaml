@@ -22,7 +22,9 @@ pings
 0
 -
 0
-traces
+gecko
+-
+trace
 :
 description
 :
@@ -40,6 +42,12 @@ during
 Firefox
 browser
 operation
+from
+the
+gecko
+-
+trace
+component
 .
 This
 ping
