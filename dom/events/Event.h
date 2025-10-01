@@ -218,9 +218,6 @@ class
 TimeEvent
 ;
 class
-ToggleEvent
-;
-class
 UIEvent
 ;
 class
@@ -548,17 +545,6 @@ virtual
 MessageEvent
 *
 AsMessageEvent
-(
-)
-{
-return
-nullptr
-;
-}
-virtual
-ToggleEvent
-*
-AsToggleEvent
 (
 )
 {
