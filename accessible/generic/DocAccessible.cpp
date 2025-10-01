@@ -3541,6 +3541,7 @@ DocAccessible
 :
 ComputeScrollData
 (
+const
 LocalAccessible
 *
 aAcc

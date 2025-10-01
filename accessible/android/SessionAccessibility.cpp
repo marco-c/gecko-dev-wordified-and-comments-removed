@@ -4011,16 +4011,6 @@ Bounds
 (
 )
 ;
-uint8_t
-actionCount
-=
-aAccessible
--
->
-ActionCount
-(
-)
-;
 int32_t
 virtualViewID
 =
@@ -4113,9 +4103,7 @@ AccessibleWrap
 :
 GetFlags
 (
-role
-state
-actionCount
+aAccessible
 )
 ;
 int32_t

@@ -1289,6 +1289,15 @@ aY
 0
 ;
 virtual
+bool
+IsScrollable
+(
+)
+const
+=
+0
+;
+virtual
 nsAtom
 *
 TagName

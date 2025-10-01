@@ -1202,6 +1202,14 @@ aY
 override
 ;
 virtual
+bool
+IsScrollable
+(
+)
+const
+override
+;
+virtual
 void
 GetNativeInterface
 (
