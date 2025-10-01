@@ -6696,6 +6696,14 @@ docker
 |
 -
 noscratch
+|
+-
+noscratch
+-
+amd
+|
+-
+amd
 )
 :
 provisioner
