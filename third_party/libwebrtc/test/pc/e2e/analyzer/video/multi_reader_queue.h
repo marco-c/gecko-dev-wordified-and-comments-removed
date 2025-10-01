@@ -7,12 +7,12 @@ TEST_PC_E2E_ANALYZER_VIDEO_MULTI_READER_QUEUE_H_
 #
 include
 <
-deque
+cstddef
 >
 #
 include
 <
-memory
+deque
 >
 #
 include

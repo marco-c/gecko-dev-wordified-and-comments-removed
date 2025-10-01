@@ -20,6 +20,11 @@ h
 #
 include
 <
+cstddef
+>
+#
+include
+<
 cstdint
 >
 #
@@ -51,6 +56,15 @@ api
 video
 /
 video_frame
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+checks
 .
 h
 "

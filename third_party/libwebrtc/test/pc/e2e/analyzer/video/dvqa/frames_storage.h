@@ -7,6 +7,11 @@ TEST_PC_E2E_ANALYZER_VIDEO_DVQA_FRAMES_STORAGE_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 cstdint
 >
 #

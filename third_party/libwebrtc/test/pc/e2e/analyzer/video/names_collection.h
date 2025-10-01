@@ -7,6 +7,11 @@ TEST_PC_E2E_ANALYZER_VIDEO_NAMES_COLLECTION_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 map
 >
 #

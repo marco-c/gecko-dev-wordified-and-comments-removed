@@ -7,6 +7,11 @@ TEST_PC_E2E_TEST_ACTIVITIES_EXECUTOR_H_
 #
 include
 <
+functional
+>
+#
+include
+<
 optional
 >
 #
@@ -80,6 +85,15 @@ rtc_base
 task_utils
 /
 repeating_task
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+thread_annotations
 .
 h
 "

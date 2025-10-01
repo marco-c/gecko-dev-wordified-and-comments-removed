@@ -7,6 +7,16 @@ TEST_PC_E2E_ANALYZER_VIDEO_DEFAULT_VIDEO_QUALITY_ANALYZER_STREAM_STATE_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
+<
 limits
 >
 #
