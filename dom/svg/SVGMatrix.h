@@ -47,6 +47,9 @@ mozilla
 :
 dom
 {
+struct
+DOMMatrix2DInit
+;
 class
 SVGMatrix
 final
@@ -312,9 +315,13 @@ SVGMatrix
 >
 Multiply
 (
-SVGMatrix
+const
+DOMMatrix2DInit
 &
 aMatrix
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
