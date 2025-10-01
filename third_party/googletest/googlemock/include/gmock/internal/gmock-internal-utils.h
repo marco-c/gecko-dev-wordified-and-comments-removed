@@ -951,8 +951,9 @@ private
 WithoutMatchers
 (
 )
-{
-}
+=
+default
+;
 friend
 GTEST_API_
 WithoutMatchers

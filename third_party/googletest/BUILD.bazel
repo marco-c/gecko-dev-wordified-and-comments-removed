@@ -1092,14 +1092,6 @@ fuchsia_sdk
 /
 pkg
 /
-syslog
-"
-"
-fuchsia_sdk
-/
-/
-pkg
-/
 zx
 "
 ]

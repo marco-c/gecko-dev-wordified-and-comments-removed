@@ -1423,7 +1423,7 @@ void
 Mutex
 :
 :
-Lock
+lock
 (
 )
 {
@@ -1451,7 +1451,7 @@ void
 Mutex
 :
 :
-Unlock
+unlock
 (
 )
 {
