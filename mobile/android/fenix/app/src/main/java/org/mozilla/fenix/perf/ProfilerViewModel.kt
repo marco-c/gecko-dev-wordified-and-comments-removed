@@ -1009,6 +1009,9 @@ profiler_start_dialog_started
 viewModelScope
 .
 launch
+(
+mainDispatcher
+)
 {
 delay
 (
@@ -1666,6 +1669,9 @@ ShowToast
 messageResId
 )
 launch
+(
+mainDispatcher
+)
 {
 delay
 (
@@ -1975,9 +1981,7 @@ message
 )
 withContext
 (
-Dispatchers
-.
-Main
+mainDispatcher
 )
 {
 _uiState
