@@ -451,6 +451,13 @@ sidebar
 .
 ftl
 "
+"
+preview
+/
+genai
+.
+ftl
+"
 ]
 true
 )
