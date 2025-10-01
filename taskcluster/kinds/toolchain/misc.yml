@@ -4279,6 +4279,11 @@ build
 dxc
 .
 sh
+sparse
+-
+profile
+:
+null
 arguments
 :
 -
@@ -4379,6 +4384,11 @@ build
 dxc
 .
 sh
+sparse
+-
+profile
+:
+null
 arguments
 :
 -
