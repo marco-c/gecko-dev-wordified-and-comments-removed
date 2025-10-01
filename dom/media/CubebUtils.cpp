@@ -249,6 +249,13 @@ h
 #
 include
 "
+CubebDeviceEnumerator
+.
+h
+"
+#
+include
+"
 audioipc2_client_ffi_generated
 .
 h
@@ -2408,6 +2415,7 @@ CubebHandle
 >
 oldHandle
 ;
+{
 StaticMutexAutoLock
 lock
 (
@@ -2440,6 +2448,14 @@ CubebState
 :
 :
 Initialized
+;
+}
+CubebDeviceEnumerator
+:
+:
+Shutdown
+(
+)
 ;
 }
 void
