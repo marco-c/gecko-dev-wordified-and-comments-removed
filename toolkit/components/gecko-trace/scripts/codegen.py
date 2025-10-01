@@ -1,3 +1,5 @@
+import
+hashlib
 from
 os
 .
@@ -148,6 +150,7 @@ render
 events
 =
 events
+            
 enabled
 =
 config
@@ -161,6 +164,39 @@ GECKO_TRACE_ENABLE
 "
 False
 )
+            
+input_hash
+=
+hashlib
+.
+sha256
+(
+"
+"
+.
+join
+(
+inputs
+)
+.
+encode
+(
+)
+)
+            
+.
+hexdigest
+(
+)
+            
+.
+upper
+(
+)
+[
+:
+15
+]
         
 )
     
