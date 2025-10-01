@@ -42,6 +42,15 @@ include
 "
 api
 /
+field_trials
+.
+h
+"
+#
+include
+"
+api
+/
 transport
 /
 network_types
@@ -110,7 +119,7 @@ include
 "
 test
 /
-explicit_key_value_config
+create_test_field_trials
 .
 h
 "
@@ -289,7 +298,10 @@ field_trials
 :
 field_trial_config_
 (
+CreateTestFieldTrials
+(
 field_trials
+)
 )
 clock_
 (
@@ -352,7 +364,7 @@ delta
 )
 ;
 }
-ExplicitKeyValueConfig
+FieldTrials
 field_trial_config_
 ;
 SimulatedClock

@@ -455,6 +455,7 @@ video_delay_detector_
 new
 TrendlineEstimator
 (
+*
 key_value_config_
 network_state_predictor_
 )
@@ -464,6 +465,7 @@ audio_delay_detector_
 new
 TrendlineEstimator
 (
+*
 key_value_config_
 network_state_predictor_
 )
@@ -852,6 +854,7 @@ reset
 new
 TrendlineEstimator
 (
+*
 key_value_config_
 network_state_predictor_
 )
@@ -864,6 +867,7 @@ reset
 new
 TrendlineEstimator
 (
+*
 key_value_config_
 network_state_predictor_
 )

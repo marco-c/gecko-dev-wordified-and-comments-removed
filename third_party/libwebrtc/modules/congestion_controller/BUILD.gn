@@ -416,6 +416,17 @@ congestion_controller
 /
 api
 :
+field_trials
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
 rtp_parameters
 "
 "
@@ -540,7 +551,7 @@ system_wrappers
 /
 test
 :
-explicit_key_value_config
+create_test_field_trials
 "
 "
 .

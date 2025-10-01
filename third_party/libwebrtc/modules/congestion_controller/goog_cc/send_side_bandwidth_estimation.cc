@@ -998,7 +998,7 @@ RttBasedBackoff
 (
 const
 FieldTrialsView
-*
+&
 key_value_config
 )
 :
@@ -1108,8 +1108,7 @@ drop_interval_
 bandwidth_floor_
 }
 key_value_config
--
->
+.
 Lookup
 (
 "
@@ -1240,6 +1239,7 @@ key_value_config
 )
 rtt_backoff_
 (
+*
 key_value_config
 )
 lost_packets_since_last_loss_update_

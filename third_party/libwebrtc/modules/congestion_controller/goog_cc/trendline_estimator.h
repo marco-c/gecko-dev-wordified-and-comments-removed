@@ -120,7 +120,7 @@ TrendlineEstimatorSettings
 (
 const
 FieldTrialsView
-*
+&
 key_value_config
 )
 ;
@@ -181,7 +181,7 @@ TrendlineEstimator
 (
 const
 FieldTrialsView
-*
+&
 key_value_config
 NetworkStatePredictor
 *
