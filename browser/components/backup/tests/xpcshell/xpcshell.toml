@@ -245,13 +245,6 @@ js
 ]
 [
 "
-test_BackupService_retryHeuristic
-.
-js
-"
-]
-[
-"
 test_BackupService_scheduler
 .
 js
