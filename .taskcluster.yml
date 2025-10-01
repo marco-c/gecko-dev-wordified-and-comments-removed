@@ -2117,6 +2117,14 @@ builds
 worker
 /
 artifacts
+MOZ_UPLOAD_DIR
+:
+/
+builds
+/
+worker
+/
+artifacts
 MOZ_AUTOMATION
 :
 '
