@@ -261,7 +261,7 @@ ChildProc
 =
 GPU
 ]
-async
+sync
 protocol
 PNativeLayerRemote
 {
@@ -274,6 +274,18 @@ NativeLayerCommand
 [
 ]
 commands
+)
+;
+sync
+RequestReadback
+(
+IntSize
+size
+)
+returns
+(
+Shmem
+pixels
 )
 ;
 }
