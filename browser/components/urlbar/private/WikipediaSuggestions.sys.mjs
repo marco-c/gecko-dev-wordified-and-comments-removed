@@ -329,6 +329,9 @@ lazy
 .
 UrlbarResult
 (
+{
+type
+:
 lazy
 .
 UrlbarUtils
@@ -336,6 +339,8 @@ UrlbarUtils
 RESULT_TYPE
 .
 URL
+source
+:
 lazy
 .
 UrlbarUtils
@@ -406,6 +411,7 @@ isManageable
 true
 }
 )
+}
 )
 ;
 }
