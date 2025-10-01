@@ -1,12 +1,14 @@
 #
 include
 <
-cmath
+float
+.
+h
 >
 #
 include
 <
-float
+math
 .
 h
 >
@@ -381,9 +383,6 @@ t1
 ;
 w
 =
-std
-:
-:
 sqrt
 (
 t1
@@ -453,9 +452,6 @@ t1
 ;
 w
 =
-std
-:
-:
 sqrt
 (
 t1

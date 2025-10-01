@@ -1,12 +1,14 @@
 #
 include
 <
-cmath
+float
+.
+h
 >
 #
 include
 <
-float
+math
 .
 h
 >
@@ -675,9 +677,6 @@ hx
 0
 )
 return
-std
-:
-:
 sqrt
 (
 x

@@ -1,7 +1,9 @@
 #
 include
 <
-cmath
+math
+.
+h
 >
 #
 include
@@ -257,9 +259,6 @@ qS1
 ;
 s
 =
-std
-:
-:
 sqrt
 (
 t

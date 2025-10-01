@@ -1,12 +1,14 @@
 #
 include
 <
-cmath
+float
+.
+h
 >
 #
 include
 <
-float
+math
 .
 h
 >
@@ -161,9 +163,6 @@ one
 (
 x
 +
-std
-:
-:
 sqrt
 (
 t
@@ -187,9 +186,6 @@ log1p
 (
 t
 +
-std
-:
-:
 sqrt
 (
 2
