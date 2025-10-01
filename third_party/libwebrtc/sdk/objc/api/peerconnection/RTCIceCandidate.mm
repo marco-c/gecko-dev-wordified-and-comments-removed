@@ -194,14 +194,12 @@ std
 :
 string
 sdp
-;
+=
 candidate
 -
 >
 ToString
 (
-&
-sdp
 )
 ;
 RTC_OBJC_TYPE

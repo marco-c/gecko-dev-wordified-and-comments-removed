@@ -13051,9 +13051,7 @@ std
 :
 string
 caller_candidate_pre_restart
-;
-ASSERT_TRUE
-(
+=
 audio_candidates_caller
 -
 >
@@ -13065,9 +13063,6 @@ at
 >
 ToString
 (
-&
-caller_candidate_pre_restart
-)
 )
 ;
 std
@@ -13075,9 +13070,7 @@ std
 :
 string
 callee_candidate_pre_restart
-;
-ASSERT_TRUE
-(
+=
 audio_candidates_callee
 -
 >
@@ -13089,9 +13082,6 @@ at
 >
 ToString
 (
-&
-callee_candidate_pre_restart
-)
 )
 ;
 const
@@ -13402,9 +13392,7 @@ std
 :
 string
 caller_candidate_post_restart
-;
-ASSERT_TRUE
-(
+=
 audio_candidates_caller
 -
 >
@@ -13416,9 +13404,6 @@ at
 >
 ToString
 (
-&
-caller_candidate_post_restart
-)
 )
 ;
 std
@@ -13426,9 +13411,7 @@ std
 :
 string
 callee_candidate_post_restart
-;
-ASSERT_TRUE
-(
+=
 audio_candidates_callee
 -
 >
@@ -13440,9 +13423,6 @@ at
 >
 ToString
 (
-&
-callee_candidate_post_restart
-)
 )
 ;
 desc

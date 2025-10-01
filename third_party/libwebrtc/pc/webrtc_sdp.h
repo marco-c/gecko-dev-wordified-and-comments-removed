@@ -82,12 +82,6 @@ namespace
 webrtc
 {
 class
-IceCandidateInterface
-;
-class
-JsepIceCandidate
-;
-class
 JsepSessionDescription
 ;
 struct
