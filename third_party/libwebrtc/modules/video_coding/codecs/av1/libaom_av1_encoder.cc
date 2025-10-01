@@ -612,6 +612,7 @@ settings
 LibaomAv1Encoder
 (
 )
+override
 ;
 int
 InitEncode

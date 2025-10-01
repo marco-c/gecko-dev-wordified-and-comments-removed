@@ -943,11 +943,11 @@ observer_
 )
 ;
 }
-virtual
 ~
 MultiCodecReceiveTest
 (
 )
+override
 {
 SendTask
 (

@@ -361,6 +361,7 @@ nullptr
 VideoProcessorTest
 (
 )
+override
 {
 q_
 .

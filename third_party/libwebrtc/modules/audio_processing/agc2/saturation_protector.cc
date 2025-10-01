@@ -477,6 +477,7 @@ delete
 SaturationProtectorImpl
 (
 )
+override
 =
 default
 ;

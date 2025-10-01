@@ -104,11 +104,11 @@ Socket
 {
 public
 :
-virtual
 ~
 MockAsyncSocket
 (
 )
+override
 =
 default
 ;
@@ -341,11 +341,11 @@ SSLCertificateVerifier
 {
 public
 :
-virtual
 ~
 MockCertVerifier
 (
 )
+override
 =
 default
 ;

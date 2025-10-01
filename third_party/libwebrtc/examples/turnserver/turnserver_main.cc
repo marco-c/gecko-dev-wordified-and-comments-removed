@@ -179,7 +179,6 @@ name_to_key
 )
 {
 }
-virtual
 bool
 GetKey
 (
@@ -200,6 +199,7 @@ string
 *
 key
 )
+override
 {
 auto
 it

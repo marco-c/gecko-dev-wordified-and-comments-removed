@@ -125,14 +125,15 @@ array_length
 AudioMultiVectorTest
 (
 )
+override
 =
 default
 ;
-virtual
 void
 SetUp
 (
 )
+override
 {
 for
 (

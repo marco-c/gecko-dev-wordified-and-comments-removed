@@ -1828,6 +1828,7 @@ type
 MockAudioTransport
 (
 )
+override
 {
 }
 void
@@ -2885,11 +2886,11 @@ Terminate
 )
 ;
 }
-virtual
 ~
 MAYBE_AudioDeviceTest
 (
 )
+override
 {
 if
 (

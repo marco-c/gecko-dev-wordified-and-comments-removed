@@ -166,11 +166,11 @@ MockStatsObserver
 )
 {
 }
-virtual
 ~
 MockStatsObserver
 (
 )
+override
 {
 }
 MOCK_METHOD

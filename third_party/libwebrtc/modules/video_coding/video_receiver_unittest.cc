@@ -247,11 +247,11 @@ MockVCMReceiveCallback
 )
 {
 }
-virtual
 ~
 MockVCMReceiveCallback
 (
 )
+override
 {
 }
 MOCK_METHOD
@@ -356,11 +356,11 @@ field_trials_
 )
 {
 }
-virtual
 void
 SetUp
 (
 )
+override
 {
 receiver_
 .

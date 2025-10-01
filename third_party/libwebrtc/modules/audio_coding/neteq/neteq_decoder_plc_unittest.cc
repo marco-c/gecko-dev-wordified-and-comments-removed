@@ -959,6 +959,7 @@ output_str
 AudioChecksumWithOutput
 (
 )
+override
 {
 output_str_
 =

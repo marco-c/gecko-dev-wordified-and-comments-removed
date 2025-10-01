@@ -589,11 +589,11 @@ MockRtpPacketPacer
 )
 {
 }
-virtual
 ~
 MockRtpPacketPacer
 (
 )
+override
 {
 }
 MOCK_METHOD

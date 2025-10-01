@@ -380,6 +380,7 @@ true
 PseudoTcpTestBase
 (
 )
+override
 {
 webrtc
 :
@@ -705,7 +706,6 @@ UpdateLocalClock
 )
 ;
 }
-virtual
 void
 OnTcpOpen
 (
@@ -713,6 +713,7 @@ PseudoTcp
 *
 tcp
 )
+override
 {
 RTC_LOG
 (
@@ -744,7 +745,6 @@ tcp
 ;
 }
 }
-virtual
 void
 OnTcpClosed
 (
@@ -754,6 +754,7 @@ tcp
 uint32_t
 error
 )
+override
 {
 RTC_LOG
 (
@@ -786,7 +787,6 @@ true
 ;
 }
 }
-virtual
 WriteResult
 TcpWritePacket
 (
@@ -800,6 +800,7 @@ buffer
 size_t
 len
 )
+override
 {
 if
 (
@@ -1524,7 +1525,6 @@ Kbps
 }
 private
 :
-virtual
 void
 OnTcpReadable
 (
@@ -1532,6 +1532,7 @@ PseudoTcp
 *
 tcp
 )
+override
 {
 if
 (
@@ -1582,7 +1583,6 @@ remote_
 ;
 }
 }
-virtual
 void
 OnTcpWriteable
 (
@@ -1590,6 +1590,7 @@ PseudoTcp
 *
 tcp
 )
+override
 {
 if
 (
@@ -2203,7 +2204,6 @@ ms
 }
 private
 :
-virtual
 void
 OnTcpReadable
 (
@@ -2211,6 +2211,7 @@ PseudoTcp
 *
 tcp
 )
+override
 {
 if
 (
@@ -2330,7 +2331,6 @@ sender_
 ;
 }
 }
-virtual
 void
 OnTcpWriteable
 (
@@ -2338,6 +2338,7 @@ PseudoTcp
 *
 tcp
 )
+override
 {
 if
 (
@@ -2963,22 +2964,22 @@ recv_position_
 }
 private
 :
-virtual
 void
 OnTcpReadable
 (
 PseudoTcp
 *
 )
+override
 {
 }
-virtual
 void
 OnTcpWriteable
 (
 PseudoTcp
 *
 )
+override
 {
 }
 void

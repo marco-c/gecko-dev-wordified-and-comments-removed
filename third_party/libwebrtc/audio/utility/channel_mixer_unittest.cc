@@ -125,11 +125,11 @@ muted
 )
 ;
 }
-virtual
 ~
 ChannelMixerTest
 (
 )
+override
 {
 }
 AudioFrame

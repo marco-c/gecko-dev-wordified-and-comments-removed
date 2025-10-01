@@ -135,11 +135,11 @@ Test
 {
 protected
 :
-virtual
 void
 SetUp
 (
 )
+override
 ;
 void
 TestCngEncode

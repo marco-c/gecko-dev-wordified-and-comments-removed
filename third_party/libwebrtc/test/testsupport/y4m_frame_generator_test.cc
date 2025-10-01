@@ -105,6 +105,7 @@ default
 Y4mFrameGeneratorTest
 (
 )
+override
 =
 default
 ;
@@ -112,6 +113,7 @@ void
 SetUp
 (
 )
+override
 {
 input_filepath_
 =
@@ -206,6 +208,7 @@ void
 TearDown
 (
 )
+override
 {
 remove
 (

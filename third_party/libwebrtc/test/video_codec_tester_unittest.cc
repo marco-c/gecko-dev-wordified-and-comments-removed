@@ -1198,6 +1198,7 @@ EncodedImage
 encoded_frame
 int64_t
 )
+override
 {
 uint8_t
 y
@@ -1321,6 +1322,7 @@ DecodedImageCallback
 *
 callback
 )
+override
 {
 callback_
 =
@@ -1568,6 +1570,7 @@ encoded_frame
 int64_t
 render_time_ms
 )
+override
 {
 return
 decoder_
@@ -1587,6 +1590,7 @@ DecodedImageCallback
 *
 callback
 )
+override
 {
 return
 decoder_

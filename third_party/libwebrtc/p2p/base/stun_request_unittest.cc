@@ -467,7 +467,6 @@ msg
 }
 private
 :
-virtual
 void
 OnResponse
 (
@@ -475,6 +474,7 @@ StunMessage
 *
 res
 )
+override
 {
 test_
 -
@@ -485,7 +485,6 @@ res
 )
 ;
 }
-virtual
 void
 OnErrorResponse
 (
@@ -493,6 +492,7 @@ StunMessage
 *
 res
 )
+override
 {
 test_
 -
@@ -503,11 +503,11 @@ res
 )
 ;
 }
-virtual
 void
 OnTimeout
 (
 )
+override
 {
 test_
 -

@@ -4954,6 +4954,7 @@ GetSendTransportConfig
 (
 )
 const
+override
 {
 const
 int
@@ -4985,6 +4986,7 @@ GetReceiveTransportConfig
 (
 )
 const
+override
 {
 BuiltInNetworkBehaviorConfig
 config
@@ -8934,6 +8936,7 @@ kExtensionId
 ChangingNetworkRouteTest
 (
 )
+override
 {
 SendTask
 (
@@ -9572,6 +9575,7 @@ Detach
 RelayToDirectRouteTest
 (
 )
+override
 {
 SendTask
 (
@@ -10382,6 +10386,7 @@ Detach
 MaxPaddingSetTest
 (
 )
+override
 {
 SendTask
 (

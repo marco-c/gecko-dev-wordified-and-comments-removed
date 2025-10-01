@@ -434,12 +434,14 @@ delete
 ClippingEventPredictor
 (
 )
+override
 {
 }
 void
 Reset
 (
 )
+override
 {
 const
 int
@@ -491,6 +493,7 @@ float
 &
 frame
 )
+override
 {
 const
 int
@@ -643,6 +646,7 @@ int
 max_mic_level
 )
 const
+override
 {
 RTC_CHECK_GE
 (
@@ -1101,12 +1105,14 @@ delete
 ClippingPeakPredictor
 (
 )
+override
 {
 }
 void
 Reset
 (
 )
+override
 {
 const
 int
@@ -1158,6 +1164,7 @@ float
 &
 frame
 )
+override
 {
 const
 int
@@ -1310,6 +1317,7 @@ int
 max_mic_level
 )
 const
+override
 {
 RTC_DCHECK_GE
 (

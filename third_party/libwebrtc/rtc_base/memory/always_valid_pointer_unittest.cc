@@ -134,11 +134,11 @@ val
 )
 {
 }
-virtual
 ~
 B
 (
 )
+override
 {
 }
 int

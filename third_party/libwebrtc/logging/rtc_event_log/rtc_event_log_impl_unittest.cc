@@ -367,6 +367,7 @@ IsActive
 (
 )
 const
+override
 {
 return
 is_active_

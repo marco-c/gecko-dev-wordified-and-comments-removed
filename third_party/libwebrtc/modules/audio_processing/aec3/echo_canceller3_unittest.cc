@@ -754,6 +754,7 @@ SetCaptureOutputUsage
 (
 bool
 )
+override
 {
 }
 }
@@ -897,6 +898,7 @@ SetCaptureOutputUsage
 (
 bool
 )
+override
 {
 }
 private

@@ -611,11 +611,11 @@ DummySetSessionDescriptionObserver
 )
 ;
 }
-virtual
 void
 OnSuccess
 (
 )
+override
 {
 RTC_LOG
 (
@@ -626,7 +626,6 @@ LS_INFO
 __FUNCTION__
 ;
 }
-virtual
 void
 OnFailure
 (
@@ -636,6 +635,7 @@ webrtc
 RTCError
 error
 )
+override
 {
 RTC_LOG
 (

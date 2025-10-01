@@ -256,6 +256,7 @@ void
 SetUp
 (
 )
+override
 {
 reference_video_
 =

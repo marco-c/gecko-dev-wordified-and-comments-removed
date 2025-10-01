@@ -633,6 +633,7 @@ Ssrc
 (
 )
 const
+override
 {
 return
 0
@@ -643,6 +644,7 @@ PreferredSampleRate
 (
 )
 const
+override
 {
 return
 kSampleRate

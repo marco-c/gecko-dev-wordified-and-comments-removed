@@ -430,11 +430,11 @@ GainControl
 {
 public
 :
-virtual
 ~
 MockGainControl
 (
 )
+override
 {
 }
 MOCK_METHOD

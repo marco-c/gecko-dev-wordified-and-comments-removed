@@ -2198,11 +2198,11 @@ nullptr
 )
 {
 }
-virtual
 ~
 TemporalLayersReferenceTest
 (
 )
+override
 {
 }
 protected

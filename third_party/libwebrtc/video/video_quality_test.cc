@@ -1246,6 +1246,7 @@ FecControllerOverride
 *
 fec_controller_override
 )
+override
 {
 }
 int32_t
@@ -1334,6 +1335,7 @@ VideoFrameType
 *
 frame_types
 )
+override
 {
 if
 (

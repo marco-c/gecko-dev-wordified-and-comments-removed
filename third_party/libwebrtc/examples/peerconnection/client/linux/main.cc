@@ -227,11 +227,11 @@ nullptr
 )
 {
 }
-virtual
 ~
 CustomSocketServer
 (
 )
+override
 {
 }
 void

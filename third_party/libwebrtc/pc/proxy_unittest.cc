@@ -209,11 +209,11 @@ s2
 ;
 protected
 :
-virtual
 ~
 FakeInterface
 (
 )
+override
 {
 }
 }
@@ -362,6 +362,7 @@ Fake
 Fake
 (
 )
+override
 {
 Destroy
 (

@@ -1439,11 +1439,11 @@ receiver
 )
 {
 }
-virtual
 ~
 SimulatedClockWithFrames
 (
 )
+override
 {
 }
 bool
@@ -1964,11 +1964,11 @@ field_trials_
 )
 {
 }
-virtual
 void
 SetUp
 (
 )
+override
 {
 }
 FieldTrials

@@ -228,11 +228,11 @@ MockCpuOveruseObserver
 )
 {
 }
-virtual
 ~
 MockCpuOveruseObserver
 (
 )
+override
 {
 }
 MOCK_METHOD
@@ -281,11 +281,11 @@ normaluse_
 )
 {
 }
-virtual
 ~
 CpuOveruseObserverImpl
 (
 )
+override
 {
 }
 void
@@ -349,6 +349,7 @@ metrics_observer
 OveruseFrameDetectorUnderTest
 (
 )
+override
 {
 }
 using
