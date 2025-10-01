@@ -26,6 +26,11 @@ flat_tree
 h
 "
 #
+if
+__cplusplus
+<
+202002
+#
 include
 "
 rtc_base
@@ -36,6 +41,8 @@ identity
 .
 h
 "
+#
+endif
 namespace
 webrtc
 {
