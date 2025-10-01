@@ -5771,7 +5771,7 @@ cond
 ;
 static
 Condition
-InvertCmpCondition
+SwapCmdOperandsCondition
 (
 Condition
 cond
