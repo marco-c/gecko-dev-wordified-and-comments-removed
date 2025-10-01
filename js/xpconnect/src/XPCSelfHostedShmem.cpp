@@ -12,6 +12,17 @@ xpcprivate
 .
 h
 "
+bool
+xpc
+:
+:
+SelfHostedShmem
+:
+:
+sSelfHostedUseSharedMemory
+=
+false
+;
 mozilla
 :
 :
