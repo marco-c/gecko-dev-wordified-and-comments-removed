@@ -217,6 +217,11 @@ ResetTouchBlockState
 )
 ;
 void
+ScheduleSetActiveTask
+(
+)
+;
+void
 SetActiveTask
 (
 const
