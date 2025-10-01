@@ -139,6 +139,11 @@ case
 DOMPopupBlocked
 "
 :
+case
+"
+DOMRedirectBlocked
+"
+:
 Services
 .
 prompt

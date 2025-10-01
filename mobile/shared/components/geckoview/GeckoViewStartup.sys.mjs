@@ -484,6 +484,16 @@ mozSystemGroup
 :
 true
 }
+DOMRedirectBlocked
+:
+{
+capture
+:
+false
+mozSystemGroup
+:
+true
+}
 }
 }
 allFrames
