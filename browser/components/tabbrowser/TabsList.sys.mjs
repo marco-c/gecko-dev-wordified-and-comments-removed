@@ -4558,8 +4558,6 @@ gBrowser
 .
 tabContainer
 .
-tabDragAndDrop
-.
 startTabDrag
 (
 event
@@ -4637,8 +4635,6 @@ this
 gBrowser
 .
 tabContainer
-.
-tabDragAndDrop
 .
 getDropEffectForTabDrag
 (
