@@ -3821,8 +3821,6 @@ dst
 .
 desc
 data_layout
-.
-offset
 false
 )
 ?
@@ -3831,6 +3829,7 @@ let
 (
 required_bytes_in_copy
 _source_bytes_per_array_layer
+_
 )
 =
 validate_linear_texture_data
@@ -3859,7 +3858,6 @@ CopySide
 :
 Source
 size
-false
 )
 ?
 ;
