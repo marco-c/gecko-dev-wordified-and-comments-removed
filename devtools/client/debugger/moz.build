@@ -125,6 +125,17 @@ browser_kz
 .
 toml
 "
+"
+test
+/
+mochitest
+/
+tracer
+/
+browser
+.
+toml
+"
 ]
 DevToolsModules
 (
