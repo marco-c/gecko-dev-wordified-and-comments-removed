@@ -30,3 +30,10 @@ focusable
 https_first_disabled
 =
 true
+[
+"
+browser_history_menu_clear
+.
+js
+"
+]
