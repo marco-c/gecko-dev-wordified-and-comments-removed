@@ -1111,6 +1111,11 @@ weak_framework
 ScreenCaptureKit
 "
 "
+-
+weak_framework
+_LocationEssentials
+"
+"
 cups
 "
 ]
