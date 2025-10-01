@@ -7,7 +7,7 @@ MODULES_DESKTOP_CAPTURE_WIN_WINDOW_CAPTURE_UTILS_H_
 #
 include
 <
-shlobj
+shlobj_core
 .
 h
 >

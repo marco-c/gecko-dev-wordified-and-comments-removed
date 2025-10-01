@@ -7,13 +7,6 @@ MODULES_DESKTOP_CAPTURE_WIN_SCOPED_THREAD_DESKTOP_H_
 #
 include
 <
-windows
-.
-h
->
-#
-include
-<
 memory
 >
 #

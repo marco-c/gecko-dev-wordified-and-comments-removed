@@ -5554,10 +5554,10 @@ screen_capture_utils
 .
 cc
 index
-8ac8bfcd0c
+42f8c5718f
 .
 .
-4f6922f22c
+82e69f3e50
 100644
 -
 -
@@ -5588,10 +5588,10 @@ screen_capture_utils
 .
 cc
 -
-52
+55
 7
 +
-52
+55
 7
 bool
 GetScreenList

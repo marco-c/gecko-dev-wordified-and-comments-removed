@@ -11,6 +11,11 @@ windows
 .
 h
 >
+#
+include
+<
+cstddef
+>
 namespace
 webrtc
 {
