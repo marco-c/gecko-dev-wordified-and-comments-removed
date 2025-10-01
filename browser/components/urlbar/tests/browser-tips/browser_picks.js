@@ -230,6 +230,9 @@ TIP_URL
 helpUrl
 :
 HELP_URL
+heuristic
+:
+true
 }
 )
 ]
@@ -256,15 +259,6 @@ registerProvider
 (
 provider
 )
-;
-results
-[
-0
-]
-.
-heuristic
-=
-true
 ;
 await
 UrlbarTestUtils
@@ -712,6 +706,7 @@ makeTipResult
 {
 buttonUrl
 helpUrl
+heuristic
 }
 )
 {
@@ -734,6 +729,7 @@ UrlbarUtils
 RESULT_SOURCE
 .
 OTHER_LOCAL
+heuristic
 payload
 :
 {
