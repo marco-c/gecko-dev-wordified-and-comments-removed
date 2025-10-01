@@ -2066,13 +2066,6 @@ RTC_DCHECK_RUNS_SERIALIZED
 audio_thread_race_checker_
 )
 ;
-audio_frame
--
->
-sample_rate_hz_
-=
-sample_rate_hz
-;
 env_
 .
 event_log
