@@ -30,6 +30,7 @@ case
 LoadFired
 "
 :
+{
 let
 bc
 =
@@ -69,6 +70,7 @@ this
 }
 break
 ;
+}
 }
 }
 static

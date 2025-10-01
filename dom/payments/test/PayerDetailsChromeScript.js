@@ -274,6 +274,7 @@ break
 }
 default
 :
+{
 const
 msg
 =
@@ -299,6 +300,7 @@ fail
 msg
 )
 ;
+}
 }
 }
 completePayment

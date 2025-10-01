@@ -1521,6 +1521,7 @@ case
 Spawn
 "
 :
+{
 let
 {
 task
@@ -1546,11 +1547,13 @@ taskId
 imports
 )
 ;
+}
 case
 "
 EnsureFocus
 "
 :
+{
 /
 /
 Ensure
@@ -1864,6 +1867,7 @@ focus
 }
 break
 ;
+}
 case
 "
 Assert
