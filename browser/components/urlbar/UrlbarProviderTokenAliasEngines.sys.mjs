@@ -768,6 +768,10 @@ engine
 let
 result
 =
+Object
+.
+assign
+(
 new
 lazy
 .
@@ -854,6 +858,12 @@ providesSearchMode
 true
 }
 )
+)
+{
+hideRowLabel
+:
+true
+}
 )
 ;
 if
@@ -1151,6 +1161,10 @@ aliasPreservingUserCase
 let
 result
 =
+Object
+.
+assign
+(
 new
 lazy
 .
@@ -1234,6 +1248,12 @@ providesSearchMode
 true
 }
 )
+)
+{
+hideRowLabel
+:
+true
+}
 )
 ;
 /

@@ -376,6 +376,10 @@ icon
 let
 result
 =
+Object
+.
+assign
+(
 new
 lazy
 .
@@ -423,6 +427,12 @@ providesSearchMode
 true
 }
 )
+)
+{
+hideRowLabel
+:
+true
+}
 )
 ;
 addCallback
