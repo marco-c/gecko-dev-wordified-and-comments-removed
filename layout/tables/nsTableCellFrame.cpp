@@ -5741,6 +5741,16 @@ aBuilder
 aLists
 )
 ;
+if
+(
+HidesContent
+(
+)
+)
+{
+return
+;
+}
 BuildDisplayListForChild
 (
 aBuilder

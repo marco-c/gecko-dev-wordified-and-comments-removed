@@ -739,6 +739,12 @@ aBuilder
 IsForEventDelivery
 (
 )
+&
+&
+!
+HidesContent
+(
+)
 )
 {
 nsDisplayListSet

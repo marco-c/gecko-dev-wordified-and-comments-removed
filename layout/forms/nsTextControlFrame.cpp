@@ -5458,6 +5458,16 @@ aBuilder
 aLists
 )
 ;
+if
+(
+HidesContent
+(
+)
+)
+{
+return
+;
+}
 nsDisplayList
 *
 content

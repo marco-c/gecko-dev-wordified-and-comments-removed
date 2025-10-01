@@ -38580,6 +38580,16 @@ aLists
 ;
 if
 (
+HidesContent
+(
+)
+)
+{
+return
+;
+}
+if
+(
 GetPrevInFlow
 (
 )

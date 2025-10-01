@@ -1252,6 +1252,16 @@ nsFieldSetFrame
 }
 if
 (
+HidesContent
+(
+)
+)
+{
+return
+;
+}
+if
+(
 GetPrevInFlow
 (
 )

@@ -5658,6 +5658,16 @@ this
 )
 ;
 }
+if
+(
+HidesContent
+(
+)
+)
+{
+return
+;
+}
 for
 (
 nsIFrame
