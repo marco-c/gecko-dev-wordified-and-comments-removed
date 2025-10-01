@@ -387,7 +387,7 @@ TextStyle
 =
 focusTypography
 .
-body1
+bodyLarge
 linkTextDecoration
 :
 TextDecoration

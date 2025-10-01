@@ -71,12 +71,6 @@ android
 .
 os
 .
-Build
-import
-android
-.
-os
-.
 Bundle
 import
 androidx
@@ -1046,7 +1040,7 @@ style
 =
 focusTypography
 .
-body1
+bodyLarge
 .
 copy
 (
@@ -1107,7 +1101,7 @@ style
 =
 focusTypography
 .
-body1
+bodyLarge
 modifier
 =
 Modifier
