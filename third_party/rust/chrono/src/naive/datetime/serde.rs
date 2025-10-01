@@ -2538,9 +2538,10 @@ Error
 DateTime
 :
 :
-from_timestamp_secs
+from_timestamp
 (
 value
+0
 )
 .
 map
@@ -2617,11 +2618,12 @@ else
 DateTime
 :
 :
-from_timestamp_secs
+from_timestamp
 (
 value
 as
 i64
+0
 )
 .
 map

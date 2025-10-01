@@ -1205,10 +1205,10 @@ f
 YearFlags
 (
 {
-flags
 }
 )
 "
+flags
 )
 }
 }
@@ -4162,13 +4162,10 @@ Mdf
 new
 (
 {
-month
 }
 {
-day
 }
 {
-flags
 :
 ?
 }
@@ -4176,6 +4173,9 @@ flags
 returned
 None
 "
+month
+day
+flags
 )
 }
 ;
@@ -5093,9 +5093,9 @@ Mdf
 with
 month
 {
-month
 }
 "
+month
 )
 }
 ;
@@ -5179,9 +5179,9 @@ Mdf
 with
 month
 {
-month
 }
 "
+month
 )
 }
 ;
