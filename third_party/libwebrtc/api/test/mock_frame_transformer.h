@@ -75,9 +75,6 @@ MOCK_METHOD
 void
 RegisterTransformedFrameCallback
 (
-webrtc
-:
-:
 scoped_refptr
 <
 TransformedFrameCallback
@@ -93,9 +90,6 @@ MOCK_METHOD
 void
 RegisterTransformedFrameSinkCallback
 (
-webrtc
-:
-:
 scoped_refptr
 <
 TransformedFrameCallback

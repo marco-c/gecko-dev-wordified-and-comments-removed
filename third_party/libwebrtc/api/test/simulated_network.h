@@ -80,9 +80,6 @@ int64_t
 send_time_us
 uint64_t
 packet_id
-webrtc
-:
-:
 EcnMarking
 ecn
 )
@@ -120,9 +117,6 @@ PacketInFlightInfo
 size
 send_time_us
 packet_id
-webrtc
-:
-:
 EcnMarking
 :
 :
@@ -139,9 +133,6 @@ send_time_us
 uint64_t
 packet_id
 ;
-webrtc
-:
-:
 EcnMarking
 ecn
 ;
@@ -219,9 +210,6 @@ receive_time_us
 uint64_t
 packet_id
 ;
-webrtc
-:
-:
 EcnMarking
 ecn
 ;

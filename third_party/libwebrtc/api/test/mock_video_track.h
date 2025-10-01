@@ -87,9 +87,6 @@ MockVideoTrack
 public
 RefCountedObject
 <
-webrtc
-:
-:
 VideoTrackInterface
 >
 {
@@ -217,9 +214,6 @@ MOCK_METHOD
 void
 AddOrUpdateSink
 (
-webrtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -227,9 +221,6 @@ VideoFrame
 *
 sink
 const
-webrtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -244,9 +235,6 @@ MOCK_METHOD
 void
 RemoveSink
 (
-webrtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

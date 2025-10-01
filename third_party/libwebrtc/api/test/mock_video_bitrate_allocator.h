@@ -42,9 +42,6 @@ class
 MockVideoBitrateAllocator
 :
 public
-webrtc
-:
-:
 VideoBitrateAllocator
 {
 MOCK_METHOD

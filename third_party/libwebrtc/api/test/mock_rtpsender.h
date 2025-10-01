@@ -245,9 +245,6 @@ override
 ;
 MOCK_METHOD
 (
-webrtc
-:
-:
 MediaType
 media_type
 (
@@ -396,9 +393,6 @@ MOCK_METHOD
 void
 SetFrameEncryptor
 (
-webrtc
-:
-:
 scoped_refptr
 <
 FrameEncryptorInterface
@@ -429,9 +423,6 @@ MOCK_METHOD
 void
 SetFrameTransformer
 (
-webrtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -486,9 +477,6 @@ std
 :
 is_abstract_v
 <
-webrtc
-:
-:
 RefCountedObject
 <
 MockRtpSender

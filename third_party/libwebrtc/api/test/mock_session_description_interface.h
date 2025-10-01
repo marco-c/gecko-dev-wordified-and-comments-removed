@@ -193,9 +193,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 Candidate
 >
 &

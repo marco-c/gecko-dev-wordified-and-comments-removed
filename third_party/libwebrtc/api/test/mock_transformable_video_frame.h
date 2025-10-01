@@ -91,9 +91,6 @@ class
 MockTransformableVideoFrame
 :
 public
-webrtc
-:
-:
 TransformableVideoFrameInterface
 {
 public
@@ -131,9 +128,6 @@ MOCK_METHOD
 void
 SetData
 (
-webrtc
-:
-:
 ArrayView
 <
 const
@@ -200,9 +194,6 @@ void
 SetMetadata
 (
 const
-webrtc
-:
-:
 VideoFrameMetadata
 &
 )

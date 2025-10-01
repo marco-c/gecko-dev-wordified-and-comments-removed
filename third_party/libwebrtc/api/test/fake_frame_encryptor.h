@@ -86,9 +86,6 @@ postfix_byte
 int
 Encrypt
 (
-webrtc
-:
-:
 MediaType
 media_type
 uint32_t
@@ -119,9 +116,6 @@ override
 size_t
 GetMaxCiphertextByteSize
 (
-webrtc
-:
-:
 MediaType
 media_type
 size_t

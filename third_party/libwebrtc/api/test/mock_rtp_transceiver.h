@@ -155,9 +155,6 @@ MockRtpTransceiver
 }
 MOCK_METHOD
 (
-webrtc
-:
-:
 MediaType
 media_type
 (
@@ -355,9 +352,6 @@ MOCK_METHOD
 RTCError
 SetCodecPreferences
 (
-webrtc
-:
-:
 ArrayView
 <
 RtpCodecCapability
@@ -425,15 +419,9 @@ override
 ;
 MOCK_METHOD
 (
-webrtc
-:
-:
 RTCError
 SetHeaderExtensionsToNegotiate
 (
-webrtc
-:
-:
 ArrayView
 <
 const

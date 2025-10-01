@@ -79,9 +79,6 @@ expected_postfix_byte
 Result
 Decrypt
 (
-webrtc
-:
-:
 MediaType
 media_type
 const
@@ -117,9 +114,6 @@ override
 size_t
 GetMaxPlaintextByteSize
 (
-webrtc
-:
-:
 MediaType
 media_type
 size_t

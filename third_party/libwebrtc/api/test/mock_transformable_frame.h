@@ -119,9 +119,6 @@ MOCK_METHOD
 void
 SetData
 (
-webrtc
-:
-:
 ArrayView
 <
 const
@@ -212,9 +209,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 Timestamp
 >
 GetPresentationTimestamp
