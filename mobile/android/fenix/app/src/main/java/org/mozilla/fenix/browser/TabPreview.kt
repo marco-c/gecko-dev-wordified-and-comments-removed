@@ -1124,6 +1124,13 @@ object
 BrowserToolbarEvent
 {
 }
+state
+=
+ActionButton
+.
+State
+.
+ACTIVE
 )
 }
 ToolbarAction
