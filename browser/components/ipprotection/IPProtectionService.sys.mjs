@@ -523,10 +523,6 @@ activatedAt
 =
 null
 ;
-sessionLength
-=
-0
-;
 isSignedIn
 =
 null
