@@ -1967,7 +1967,9 @@ setAttribute
 "
 image
 "
-encodeURI
+ChromeUtils
+.
+encodeURIForSrcset
 (
 icon
 )
@@ -2236,7 +2238,9 @@ setAttribute
 "
 image
 "
-encodeURI
+ChromeUtils
+.
+encodeURIForSrcset
 (
 aPlacesNode
 .
@@ -5913,7 +5917,9 @@ setAttribute
 "
 image
 "
-encodeURI
+ChromeUtils
+.
+encodeURIForSrcset
 (
 icon
 )
@@ -6294,7 +6300,9 @@ setAttribute
 "
 image
 "
-encodeURI
+ChromeUtils
+.
+encodeURIForSrcset
 (
 icon
 )

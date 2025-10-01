@@ -2862,7 +2862,9 @@ setAttribute
 "
 image
 "
-encodeURI
+ChromeUtils
+.
+encodeURIForSrcset
 (
 iconURL
 )

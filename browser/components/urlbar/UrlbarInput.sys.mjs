@@ -37470,7 +37470,9 @@ setAttribute
 "
 image
 "
-encodeURI
+ChromeUtils
+.
+encodeURIForSrcset
 (
 engine
 .

@@ -1317,7 +1317,9 @@ setAttribute
 "
 image
 "
-encodeURI
+ChromeUtils
+.
+encodeURIForSrcset
 (
 share
 .
