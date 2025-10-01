@@ -691,13 +691,11 @@ loser
 }
 algID
 =
-SEC_GetSignatureAlgorithmOidTag
+SEC_GetSignatureAlgorithmOidTagByKey
 (
 privKey
--
->
-keyType
-SEC_OID_SHA1
+NULL
+SEC_OID_UNKNOWN
 )
 ;
 if

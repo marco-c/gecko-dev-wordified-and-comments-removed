@@ -2108,6 +2108,17 @@ loser
 if
 (
 internal
+&
+&
+(
+moduleList
+[
+0
+]
+=
+=
+NULL
+)
 )
 {
 moduleList

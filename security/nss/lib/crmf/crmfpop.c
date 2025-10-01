@@ -288,12 +288,10 @@ SEC_OID_PKCS1_SHA1_WITH_RSA_ENCRYPTION
 ;
 }
 return
-SEC_GetSignatureAlgorithmOidTag
+SEC_GetSignatureAlgorithmOidTagByKey
 (
+NULL
 inPubKey
--
->
-keyType
 SEC_OID_UNKNOWN
 )
 ;

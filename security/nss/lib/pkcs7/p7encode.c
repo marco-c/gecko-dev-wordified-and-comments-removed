@@ -3198,12 +3198,10 @@ SECFailure
 }
 algid
 =
-SEC_GetSignatureAlgorithmOidTag
+SEC_GetSignatureAlgorithmOidTagByKey
 (
 privkey
--
->
-keyType
+NULL
 digestalgtag
 )
 ;

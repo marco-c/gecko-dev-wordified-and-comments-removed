@@ -457,6 +457,13 @@ ED_VerifyMessage
 ED_DerivePublicKey
 X25519_DerivePublicKey
 EC_DerivePublicKey
+MLDSA_NewKey
+MLDSA_SignInit
+MLDSA_SignUpdate
+MLDSA_SignFinal
+MLDSA_VerifyInit
+MLDSA_VerifyUpdate
+MLDSA_VerifyFinal
 }
 ;
 const

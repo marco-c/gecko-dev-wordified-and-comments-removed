@@ -1698,7 +1698,7 @@ CKM_ECDH1_DERIVE
 CKM_ECDH1_DERIVE
 CKM_RSA_PKCS
 CKM_RSA_PKCS_PSS
-CKM_NSS_HKDF_SHA256
+CKM_HKDF_DATA
 CKM_INVALID_MECHANISM
 }
 ;
@@ -5819,6 +5819,7 @@ return
 rv
 ;
 }
+static
 SECStatus
 ssl3_SignHashesWithPrivKey
 (
@@ -6588,6 +6589,7 @@ return
 SECSuccess
 ;
 }
+static
 SECStatus
 ssl_VerifySignedHashesWithPubKey
 (
@@ -16390,7 +16392,7 @@ ssl3
 .
 pwSpec
 ;
-CK_NSS_TLS_EXTENDED_MASTER_KEY_DERIVE_PARAMS
+CK_TLS12_EXTENDED_MASTER_KEY_DERIVE_PARAMS
 extended_master_params
 ;
 SSL3Hashes
@@ -16526,14 +16528,14 @@ isDH
 {
 master_derive
 =
-CKM_NSS_TLS_EXTENDED_MASTER_KEY_DERIVE_DH
+CKM_TLS12_EXTENDED_MASTER_KEY_DERIVE_DH
 ;
 }
 else
 {
 master_derive
 =
-CKM_NSS_TLS_EXTENDED_MASTER_KEY_DERIVE
+CKM_TLS12_EXTENDED_MASTER_KEY_DERIVE
 ;
 pms_version_ptr
 =
