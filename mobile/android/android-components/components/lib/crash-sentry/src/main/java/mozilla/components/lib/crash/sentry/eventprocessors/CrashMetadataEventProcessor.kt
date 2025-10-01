@@ -105,7 +105,7 @@ lib
 .
 crash
 .
-CrashReporter
+RuntimeTag
 /
 *
 *
@@ -203,9 +203,9 @@ it
 .
 runtimeTags
 [
-CrashReporter
+RuntimeTag
 .
-RELEASE_RUNTIME_TAG
+RELEASE
 ]
 ?
 .

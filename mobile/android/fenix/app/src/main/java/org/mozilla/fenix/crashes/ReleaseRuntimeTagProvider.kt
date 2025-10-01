@@ -73,7 +73,7 @@ lib
 .
 crash
 .
-CrashReporter
+RuntimeTag
 import
 mozilla
 .
@@ -133,9 +133,9 @@ String
 return
 mapOf
 (
-CrashReporter
+RuntimeTag
 .
-RELEASE_RUNTIME_TAG
+RELEASE
 to
 BuildConfig
 .
