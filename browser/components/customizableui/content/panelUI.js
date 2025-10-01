@@ -2553,9 +2553,9 @@ document
 .
 getElementById
 (
-CustomizableUI
-.
-AREA_NAVBAR
+"
+mainPopupSet
+"
 )
 .
 appendChild
