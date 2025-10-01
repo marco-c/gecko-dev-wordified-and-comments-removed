@@ -516,6 +516,9 @@ true
 searchInProtectedClass
 :
 false
+ignoreDefaultCompanionObject
+:
+true
 UndocumentedPublicFunction
 :
 active
