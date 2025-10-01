@@ -242,7 +242,7 @@ context
 navigation
 '
 :
-None
+any_string
             
 '
 status
@@ -433,7 +433,7 @@ context
 navigation
 '
 :
-None
+any_string
             
 '
 status
