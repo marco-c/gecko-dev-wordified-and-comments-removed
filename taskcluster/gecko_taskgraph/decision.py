@@ -137,13 +137,6 @@ from
 .
 util
 .
-chunking
-import
-resolver
-from
-.
-util
-.
 hg
 import
 get_hg_commit_message
@@ -1196,24 +1189,6 @@ full_task_graph_to_manifests_by_task
 full_task_json
 )
     
-)
-    
-write_artifact
-(
-"
-tests
--
-by
--
-manifest
-.
-json
-.
-gz
-"
-resolver
-.
-tests_by_manifest
 )
     
 _
