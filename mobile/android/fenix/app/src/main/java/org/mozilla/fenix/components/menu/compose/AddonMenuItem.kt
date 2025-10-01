@@ -83,14 +83,6 @@ compose
 .
 foundation
 .
-clickable
-import
-androidx
-.
-compose
-.
-foundation
-.
 layout
 .
 Column
@@ -704,10 +696,6 @@ colors
 layer3
 )
 .
-clickable
-{
-}
-.
 semantics
 {
 role
@@ -749,6 +737,9 @@ RECOMMENDED_ADDON_ITEM_TITLE
 description
 =
 description
+maxDescriptionLines
+=
+1
 faviconPainter
 =
 BitmapPainter
@@ -857,6 +848,9 @@ mozac_ic_extension_24
 description
 =
 description
+maxDescriptionLines
+=
+1
 onClick
 =
 onClick
