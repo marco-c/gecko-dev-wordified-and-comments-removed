@@ -1329,7 +1329,16 @@ border
 -
 radius
 :
-2px
+var
+(
+-
+-
+border
+-
+radius
+-
+xsmall
+)
 ;
 text
 -
