@@ -14229,7 +14229,7 @@ Horizontal
 nsRect
 o
 =
-InkOverflowRect
+InkOverflowRectRelativeToSelf
 (
 )
 ;
@@ -14270,7 +14270,7 @@ Vertical
 nsRect
 o
 =
-InkOverflowRect
+InkOverflowRectRelativeToSelf
 (
 )
 ;
