@@ -15402,7 +15402,10 @@ constexpr
 uint32_t
 fromShift
 =
-__builtin_ctz
+mozilla
+:
+:
+CountTrailingZeroes32
 (
 FromBitMask
 )
@@ -15411,7 +15414,10 @@ constexpr
 uint32_t
 toShift
 =
-__builtin_ctz
+mozilla
+:
+:
+CountTrailingZeroes32
 (
 ToBitMask
 )
