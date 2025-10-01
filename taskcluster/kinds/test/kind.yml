@@ -267,12 +267,6 @@ talos
 .
 yml
 -
-web
--
-platform
-.
-yml
--
 xpcshell
 .
 yml

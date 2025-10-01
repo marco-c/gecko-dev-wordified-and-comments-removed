@@ -13,4 +13,11 @@ reftest
 "
 test
 "
+"
+web
+-
+platform
+-
+tests
+"
 )

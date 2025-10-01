@@ -377,6 +377,11 @@ test
 mochitest
 reftest
 browsertime
+web
+-
+platform
+-
+tests
 "
 value
 =
@@ -447,6 +452,11 @@ test
 mochitest
 reftest
 browsertime
+web
+-
+platform
+-
+tests
 "
 value
 =

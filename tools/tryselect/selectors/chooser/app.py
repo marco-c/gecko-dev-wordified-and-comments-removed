@@ -446,6 +446,11 @@ test
 mochitest
 reftest
 browsertime
+web
+-
+platform
+-
+tests
 "
     
 title

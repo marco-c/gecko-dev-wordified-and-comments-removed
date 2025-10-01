@@ -923,10 +923,8 @@ taskcluster
 /
 kinds
 /
-test
-/
 browsertime
--
+/
 desktop
 .
 yml
