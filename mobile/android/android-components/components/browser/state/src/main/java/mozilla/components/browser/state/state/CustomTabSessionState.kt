@@ -572,6 +572,13 @@ desktopMode
 Boolean
 =
 false
+trackingProtection
+:
+TrackingProtectionState
+=
+TrackingProtectionState
+(
+)
 )
 :
 CustomTabSessionState
@@ -628,5 +635,8 @@ initialLoadFlags
 =
 initialLoadFlags
 )
+trackingProtection
+=
+trackingProtection
 )
 }

@@ -874,6 +874,13 @@ initialTextDirectiveUserActivation
 Boolean
 =
 false
+trackingProtection
+:
+TrackingProtectionState
+=
+TrackingProtectionState
+(
+)
 )
 :
 TabSessionState
@@ -974,6 +981,9 @@ historyMetadata
 originalInput
 =
 originalInput
+trackingProtection
+=
+trackingProtection
 )
 }
 /
