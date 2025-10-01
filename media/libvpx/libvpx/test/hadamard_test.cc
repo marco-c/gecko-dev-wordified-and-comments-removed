@@ -65,11 +65,12 @@ libvpx_test
 :
 ACMRandom
 ;
-typedef
+using
+HadamardFunc
+=
 void
 (
 *
-HadamardFunc
 )
 (
 const

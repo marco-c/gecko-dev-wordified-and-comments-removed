@@ -153,7 +153,9 @@ kFileName
 =
 2
 ;
-typedef
+using
+DecodeParam
+=
 std
 :
 :
@@ -165,7 +167,6 @@ const
 char
 *
 >
-DecodeParam
 ;
 class
 TestVectorTest

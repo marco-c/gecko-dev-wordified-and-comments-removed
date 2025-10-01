@@ -69,6 +69,9 @@ threads
 int
 aqmode
 ;
+int
+use_psnr
+;
 void
 *
 internal
@@ -146,6 +149,12 @@ VPX_SS_MAX_LAYERS
 ]
 ;
 int
+number_of_frames
+[
+VPX_SS_MAX_LAYERS
+]
+;
+int
 width
 ;
 int
@@ -153,9 +162,6 @@ height
 ;
 int
 kf_dist
-;
-int
-psnr_pkt_received
 ;
 int
 layer

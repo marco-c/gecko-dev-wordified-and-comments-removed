@@ -8438,6 +8438,14 @@ A
 L
 ]
 ;
+assert
+(
+bsize
+>
+=
+BLOCK_8X8
+)
+;
 (
 void
 )

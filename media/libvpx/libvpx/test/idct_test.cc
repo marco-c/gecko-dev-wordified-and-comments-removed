@@ -61,11 +61,12 @@ vpx_integer
 .
 h
 "
-typedef
+using
+IdctFunc
+=
 void
 (
 *
-IdctFunc
 )
 (
 int16_t

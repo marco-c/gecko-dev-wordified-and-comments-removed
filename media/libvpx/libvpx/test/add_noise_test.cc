@@ -98,11 +98,12 @@ kNoiseSize
 =
 3072
 ;
-typedef
+using
+AddNoiseFunc
+=
 void
 (
 *
-AddNoiseFunc
 )
 (
 uint8_t
@@ -124,7 +125,9 @@ int
 pitch
 )
 ;
-typedef
+using
+AddNoiseTestFPParam
+=
 std
 :
 :
@@ -133,7 +136,6 @@ tuple
 double
 AddNoiseFunc
 >
-AddNoiseTestFPParam
 ;
 class
 AddNoiseTest

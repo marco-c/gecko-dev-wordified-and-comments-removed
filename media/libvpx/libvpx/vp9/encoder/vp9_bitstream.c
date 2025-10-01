@@ -395,6 +395,15 @@ vpx_prob
 probs
 )
 {
+assert
+(
+!
+is_inter_mode
+(
+mode
+)
+)
+;
 vp9_write_token
 (
 w

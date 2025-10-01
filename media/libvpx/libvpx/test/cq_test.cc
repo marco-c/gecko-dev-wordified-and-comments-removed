@@ -110,7 +110,9 @@ int
 {
 public
 :
-typedef
+using
+BitrateMap
+=
 std
 :
 :
@@ -119,7 +121,6 @@ map
 int
 uint32_t
 >
-BitrateMap
 ;
 static
 void

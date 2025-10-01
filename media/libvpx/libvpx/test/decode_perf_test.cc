@@ -143,7 +143,9 @@ new_encode
 ivf
 "
 ;
-typedef
+using
+DecodePerfParam
+=
 std
 :
 :
@@ -153,8 +155,8 @@ const
 char
 *
 unsigned
+int
 >
-DecodePerfParam
 ;
 const
 DecodePerfParam

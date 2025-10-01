@@ -128,11 +128,12 @@ std
 :
 make_tuple
 ;
-typedef
+using
+PredictFunc
+=
 void
 (
 *
-PredictFunc
 )
 (
 uint8_t
@@ -151,7 +152,9 @@ int
 dst_pitch
 )
 ;
-typedef
+using
+PredictParam
+=
 std
 :
 :
@@ -161,7 +164,6 @@ int
 int
 PredictFunc
 >
-PredictParam
 ;
 class
 PredictTestBase

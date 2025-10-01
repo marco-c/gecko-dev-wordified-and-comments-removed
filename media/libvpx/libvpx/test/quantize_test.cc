@@ -169,11 +169,12 @@ kNumBlockEntries
 =
 16
 ;
-typedef
+using
+VP8Quantize
+=
 void
 (
 *
-VP8Quantize
 )
 (
 BLOCK
@@ -184,7 +185,9 @@ BLOCKD
 d
 )
 ;
-typedef
+using
+VP8QuantizeParam
+=
 std
 :
 :
@@ -193,7 +196,6 @@ tuple
 VP8Quantize
 VP8Quantize
 >
-VP8QuantizeParam
 ;
 using
 libvpx_test

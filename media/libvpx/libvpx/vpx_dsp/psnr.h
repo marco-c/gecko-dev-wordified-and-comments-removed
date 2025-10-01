@@ -103,6 +103,8 @@ bit_depth
 unsigned
 int
 in_bit_depth
+int
+spatial_layer_id
 )
 ;
 #
@@ -121,6 +123,8 @@ b
 PSNR_STATS
 *
 psnr
+int
+spatial_layer_id
 )
 ;
 double

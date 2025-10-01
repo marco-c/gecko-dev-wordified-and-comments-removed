@@ -876,7 +876,9 @@ rnd_
 #
 if
 CONFIG_VP9_ENCODER
-typedef
+using
+BlockinessParam
+=
 std
 :
 :
@@ -885,7 +887,6 @@ tuple
 int
 int
 >
-BlockinessParam
 ;
 class
 BlockinessVP9Test

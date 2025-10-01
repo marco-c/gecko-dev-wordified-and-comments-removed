@@ -291,6 +291,9 @@ psnr
 4
 ]
 ;
+int
+spatial_layer_id
+;
 }
 psnr
 ;

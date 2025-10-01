@@ -112,11 +112,12 @@ h
 namespace
 libvpx_test
 {
-typedef
+using
+ScaleFrameFunc
+=
 void
 (
 *
-ScaleFrameFunc
 )
 (
 const
