@@ -4868,7 +4868,7 @@ i
 )
 {
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 =
@@ -5462,7 +5462,7 @@ string
 SdpSerializeCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 &
 candidate
 )

@@ -283,7 +283,7 @@ i
 )
 {
 const
-IceCandidateInterface
+IceCandidate
 *
 jsep_candidate
 =
@@ -1169,7 +1169,7 @@ JsepSessionDescription
 AddCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )
@@ -1619,7 +1619,7 @@ JsepSessionDescription
 GetMediasectionIndex
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 size_t

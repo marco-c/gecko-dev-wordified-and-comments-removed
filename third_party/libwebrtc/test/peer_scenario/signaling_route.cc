@@ -109,7 +109,7 @@ explicit
 IceMessage
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )
@@ -148,7 +148,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 AsCandidate
 (
@@ -163,7 +163,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 candidate
 (
@@ -263,7 +263,7 @@ push_back
 ]
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )

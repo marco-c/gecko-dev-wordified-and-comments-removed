@@ -732,7 +732,7 @@ void
 OnIceCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )
@@ -1097,7 +1097,7 @@ return
 "
 ;
 }
-IceCandidateInterface
+IceCandidate
 *
 last_candidate
 (
@@ -1137,7 +1137,7 @@ std
 vector
 <
 const
-IceCandidateInterface
+IceCandidate
 *
 >
 GetAllCandidates
@@ -1150,7 +1150,7 @@ std
 vector
 <
 const
-IceCandidateInterface
+IceCandidate
 *
 >
 candidates
@@ -1186,7 +1186,7 @@ std
 :
 vector
 <
-IceCandidateInterface
+IceCandidate
 *
 >
 GetCandidatesByMline
@@ -1200,7 +1200,7 @@ std
 :
 vector
 <
-IceCandidateInterface
+IceCandidate
 *
 >
 candidates
@@ -1327,7 +1327,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 >
 candidates_

@@ -803,7 +803,7 @@ bool
 AddIceCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )
@@ -816,7 +816,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 candidate
 std
@@ -2138,7 +2138,7 @@ bool
 UseCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )
@@ -2147,7 +2147,7 @@ bool
 ReadyToUseRemoteCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 const
@@ -2172,7 +2172,7 @@ SessionDescriptionInterface
 *
 description
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )
@@ -2302,7 +2302,7 @@ AddIceCandidateResult
 AddIceCandidateInternal
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )

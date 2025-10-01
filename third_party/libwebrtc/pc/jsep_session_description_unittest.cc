@@ -189,13 +189,13 @@ using
 webrtc
 :
 :
-IceCandidateCollection
+IceCandidate
 ;
 using
 webrtc
 :
 :
-IceCandidateInterface
+IceCandidateCollection
 ;
 using
 webrtc
@@ -1318,7 +1318,7 @@ count
 )
 ;
 const
-IceCandidateInterface
+IceCandidate
 *
 ice_candidate
 =
@@ -1482,7 +1482,7 @@ count
 )
 ;
 const
-IceCandidateInterface
+IceCandidate
 *
 ice_candidate
 =
@@ -1690,7 +1690,7 @@ count
 )
 ;
 const
-IceCandidateInterface
+IceCandidate
 *
 ice_candidate
 =

@@ -740,7 +740,7 @@ PROXY_METHOD1
 bool
 AddIceCandidate
 const
-IceCandidateInterface
+IceCandidate
 *
 )
 PROXY_METHOD2
@@ -752,7 +752,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 std
 :

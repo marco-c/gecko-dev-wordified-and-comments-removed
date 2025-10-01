@@ -384,7 +384,7 @@ const
 webrtc
 :
 :
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )
@@ -1626,7 +1626,7 @@ const
 webrtc
 :
 :
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )

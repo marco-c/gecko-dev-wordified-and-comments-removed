@@ -39,10 +39,7 @@ void
 SendIceCandidate
 (
 const
-webrtc
-:
-:
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )
@@ -54,9 +51,6 @@ void
 SendDescription
 (
 const
-webrtc
-:
-:
 SessionDescriptionInterface
 *
 sdp
@@ -80,9 +74,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 SessionDescriptionInterface
 >
 sdp
@@ -109,10 +100,7 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
-IceCandidateInterface
+IceCandidate
 >
 candidate
 )

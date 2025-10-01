@@ -1186,7 +1186,7 @@ bool
 AddIceCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )

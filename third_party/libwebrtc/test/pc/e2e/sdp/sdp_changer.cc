@@ -3480,7 +3480,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 >
 SignalingInterceptor
@@ -3491,7 +3491,7 @@ PatchOffererIceCandidates
 ArrayView
 <
 const
-IceCandidateInterface
+IceCandidate
 *
 const
 >
@@ -3508,7 +3508,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 >
 out
@@ -3647,7 +3647,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 >
 SignalingInterceptor
@@ -3658,7 +3658,7 @@ PatchAnswererIceCandidates
 ArrayView
 <
 const
-IceCandidateInterface
+IceCandidate
 *
 const
 >
@@ -3675,7 +3675,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 >
 out

@@ -106,7 +106,7 @@ string
 SdpSerializeCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 &
 candidate
 )

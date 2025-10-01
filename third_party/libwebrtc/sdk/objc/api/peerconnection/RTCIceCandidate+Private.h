@@ -40,7 +40,7 @@ unique_ptr
 webrtc
 :
 :
-IceCandidateInterface
+IceCandidate
 >
 nativeCandidate
 ;
@@ -55,7 +55,7 @@ const
 webrtc
 :
 :
-IceCandidateInterface
+IceCandidate
 *
 )
 candidate

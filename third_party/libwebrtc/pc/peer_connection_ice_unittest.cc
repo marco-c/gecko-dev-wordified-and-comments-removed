@@ -714,7 +714,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 CreateJsepCandidateForFirstTransport
 (
@@ -844,7 +844,7 @@ std
 vector
 <
 const
-IceCandidateInterface
+IceCandidate
 *
 >
 GetIceCandidatesFromRemoteDescription
@@ -876,7 +876,7 @@ std
 vector
 <
 const
-IceCandidateInterface
+IceCandidate
 *
 >
 candidates
@@ -2123,7 +2123,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 jsep_candidate
 =
@@ -3499,7 +3499,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 jsep_candidate
 =
@@ -3671,7 +3671,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 jsep_candidate
 =
@@ -4035,7 +4035,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 ice_candidate
 =
@@ -4207,7 +4207,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 ice_candidate
 =
@@ -4889,7 +4889,7 @@ std
 :
 vector
 <
-IceCandidateInterface
+IceCandidate
 *
 >
 candidates
@@ -5977,7 +5977,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 jsep_candidate
 =
@@ -10831,7 +10831,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 ice_candidate
 =

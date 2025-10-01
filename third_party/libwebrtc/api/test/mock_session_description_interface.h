@@ -174,7 +174,7 @@ bool
 AddCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 )
 (

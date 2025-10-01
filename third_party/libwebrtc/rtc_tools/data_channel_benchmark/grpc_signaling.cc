@@ -235,7 +235,12 @@ void
 SendIceCandidate
 (
 const
-IceCandidateInterface
+:
+:
+webrtc
+:
+:
+IceCandidate
 *
 candidate
 )
@@ -494,7 +499,12 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+:
+:
+webrtc
+:
+:
+IceCandidate
 >
 candidate
 )
@@ -537,7 +547,7 @@ unique_ptr
 webrtc
 :
 :
-IceCandidateInterface
+IceCandidate
 >
 )
 >

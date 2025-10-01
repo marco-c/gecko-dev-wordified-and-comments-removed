@@ -3325,7 +3325,7 @@ Candidate
 ;
 }
 const
-IceCandidateInterface
+IceCandidate
 *
 last_gathered_ice_candidate
 (
@@ -5680,7 +5680,7 @@ void
 OnIceCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )
@@ -6181,7 +6181,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 last_gathered_ice_candidate_
 ;
