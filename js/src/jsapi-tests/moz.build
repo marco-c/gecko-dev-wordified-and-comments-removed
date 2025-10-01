@@ -230,11 +230,6 @@ testExternalStrings
 cpp
 "
 "
-testFifo
-.
-cpp
-"
-"
 testFindSCCs
 .
 cpp
@@ -706,11 +701,6 @@ cpp
 "
 "
 testToSignedOrUnsignedInteger
-.
-cpp
-"
-"
-testTraceableFifoValue
 .
 cpp
 "
