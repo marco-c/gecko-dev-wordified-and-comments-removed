@@ -142,7 +142,7 @@ Editor
 .
 modes
 .
-js
+javascript
 )
 ;
 is
@@ -156,7 +156,7 @@ Editor
 .
 modes
 .
-js
+javascript
 "
 setMode
 "
