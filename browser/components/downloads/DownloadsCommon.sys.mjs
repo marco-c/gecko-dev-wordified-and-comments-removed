@@ -477,7 +477,7 @@ consoleOptions
 maxLogLevelPref
 :
 "
-browser
+toolkit
 .
 download
 .

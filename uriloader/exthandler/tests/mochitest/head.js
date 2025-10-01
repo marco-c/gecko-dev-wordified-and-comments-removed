@@ -1521,7 +1521,7 @@ prefs
 setCharPref
 (
 "
-browser
+toolkit
 .
 download
 .
@@ -1545,7 +1545,7 @@ prefs
 clearUserPref
 (
 "
-browser
+toolkit
 .
 download
 .

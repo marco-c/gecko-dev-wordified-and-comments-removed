@@ -1592,7 +1592,7 @@ createInstance
 maxLogLevelPref
 :
 "
-browser
+toolkit
 .
 download
 .
