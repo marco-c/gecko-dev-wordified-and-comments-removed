@@ -20016,6 +20016,14 @@ proxyConn
 wcEnt
 )
 ;
+wcEnt
+-
+>
+MakeAllDontReuseExcept
+(
+proxyConn
+)
+;
 }
 bool
 nsHttpConnectionMgr
