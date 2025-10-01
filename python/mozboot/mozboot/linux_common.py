@@ -238,10 +238,6 @@ gzip
 "
                 
 "
-libxml2
-"
-                
-"
 make
 "
                 
