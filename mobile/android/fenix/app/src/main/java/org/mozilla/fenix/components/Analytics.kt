@@ -139,6 +139,18 @@ crash
 .
 runtimetagproviders
 .
+ExperimentDataRuntimeTagProvider
+import
+mozilla
+.
+components
+.
+lib
+.
+crash
+.
+runtimetagproviders
+.
 VersionInfoProvider
 import
 mozilla
@@ -417,7 +429,7 @@ fenix
 .
 crashes
 .
-NimbusExperimentsRuntimeTagProvider
+NimbusExperimentDataProvider
 import
 org
 .
@@ -985,7 +997,9 @@ versionInfoProvider
 EnvironmentRuntimeProvider
 (
 )
-NimbusExperimentsRuntimeTagProvider
+ExperimentDataRuntimeTagProvider
+(
+NimbusExperimentDataProvider
 (
 nimbusApi
 =
@@ -995,6 +1009,7 @@ nimbusComponents
 .
 sdk
 }
+)
 )
 )
 )
