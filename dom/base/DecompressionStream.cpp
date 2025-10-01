@@ -857,6 +857,9 @@ avail_in
 mZStream
 .
 avail_out
+|
+|
+mObservedStreamEnd
 )
 ;
 size_t
