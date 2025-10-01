@@ -55,21 +55,6 @@ redux
 ;
 import
 {
-markerTypes
-}
-from
-"
-.
-.
-/
-.
-.
-/
-constants
-"
-;
-import
-{
 getSelectedSource
 getSelectedSourceExceptions
 }
@@ -209,6 +194,8 @@ editor
 .
 removeLineContentMarker
 (
+editor
+.
 markerTypes
 .
 LINE_EXCEPTION_MARKER
@@ -218,6 +205,8 @@ editor
 .
 removePositionContentMarker
 (
+editor
+.
 markerTypes
 .
 EXCEPTION_POSITION_MARKER
@@ -266,6 +255,8 @@ setLineContentMarker
 {
 id
 :
+editor
+.
 markerTypes
 .
 LINE_EXCEPTION_MARKER
@@ -305,6 +296,8 @@ setPositionContentMarker
 {
 id
 :
+editor
+.
 markerTypes
 .
 EXCEPTION_POSITION_MARKER

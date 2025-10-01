@@ -150,21 +150,6 @@ location
 ;
 import
 {
-markerTypes
-}
-from
-"
-.
-.
-/
-.
-.
-/
-constants
-"
-;
-import
-{
 asSettled
 isFulfilled
 isRejected
@@ -1429,6 +1414,8 @@ setLineGutterMarkers
 {
 id
 :
+editor
+.
 markerTypes
 .
 EMPTY_LINE_MARKER
@@ -1477,6 +1464,8 @@ setLineGutterMarkers
 {
 id
 :
+editor
+.
 markerTypes
 .
 BLACKBOX_LINE_GUTTER_MARKER
@@ -1591,6 +1580,8 @@ editor
 .
 removeLineContentMarker
 (
+editor
+.
 markerTypes
 .
 BLACKBOX_LINE_MARKER
@@ -1661,6 +1652,8 @@ setLineContentMarker
 {
 id
 :
+editor
+.
 markerTypes
 .
 BLACKBOX_LINE_MARKER
