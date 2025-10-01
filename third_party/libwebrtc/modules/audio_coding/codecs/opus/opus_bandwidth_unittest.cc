@@ -124,6 +124,15 @@ h
 #
 include
 "
+api
+/
+field_trials
+.
+h
+"
+#
+include
+"
 common_audio
 /
 include
@@ -187,7 +196,7 @@ include
 "
 test
 /
-explicit_key_value_config
+create_test_field_trials
 .
 h
 "
@@ -787,11 +796,10 @@ std
 :
 make_unique
 <
-test
-:
-:
-ExplicitKeyValueConfig
+FieldTrials
 >
+(
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -801,6 +809,7 @@ AdjustOpusBandwidth
 Enabled
 /
 "
+)
 )
 )
 ;

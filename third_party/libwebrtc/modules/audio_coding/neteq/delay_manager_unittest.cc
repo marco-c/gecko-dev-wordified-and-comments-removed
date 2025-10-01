@@ -27,7 +27,7 @@ include
 "
 test
 /
-explicit_key_value_config
+create_test_field_trials
 .
 h
 "
@@ -45,12 +45,6 @@ webrtc
 {
 namespace
 {
-using
-test
-:
-:
-ExplicitKeyValueConfig
-;
 TEST
 (
 DelayManagerTest
@@ -68,10 +62,8 @@ DelayManager
 :
 Config
 (
-ExplicitKeyValueConfig
+CreateTestFieldTrials
 (
-"
-"
 )
 )
 &
