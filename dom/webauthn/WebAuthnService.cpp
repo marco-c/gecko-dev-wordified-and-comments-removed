@@ -149,7 +149,7 @@ aTransactionId
 StaticPrefs
 :
 :
-security_webauth_webauthn_testing_allow_direct_attestation
+security_webauthn_always_allow_direct_attestation
 (
 )
 )
@@ -183,7 +183,7 @@ if
 StaticPrefs
 :
 :
-security_webauth_webauthn_testing_allow_direct_attestation
+security_webauthn_always_allow_direct_attestation
 (
 )
 )

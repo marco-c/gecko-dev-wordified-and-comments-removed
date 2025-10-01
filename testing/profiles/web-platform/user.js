@@ -528,9 +528,9 @@ user_pref
 "
 security
 .
-webauth
+webauthn
 .
-webauthn_testing_allow_direct_attestation
+always_allow_direct_attestation
 "
 true
 )

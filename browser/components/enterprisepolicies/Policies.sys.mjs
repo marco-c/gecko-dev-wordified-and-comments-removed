@@ -11730,6 +11730,13 @@ security
 .
 warn_submit_secure_to_insecure
 "
+"
+security
+.
+webauthn
+.
+always_allow_direct_attestation
+"
 ]
 ;
 const
