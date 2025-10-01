@@ -757,7 +757,7 @@ append
 paths
 "
 :
-list
+sorted
 (
 upstream_files
 )
