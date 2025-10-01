@@ -447,7 +447,7 @@ messages
 .
 .
 /
-the_command_line_interpreter
+console_messages
 /
 index
 >
