@@ -106,6 +106,15 @@ browser_http3
 .
 toml
 "
+"
+test
+/
+websockets
+/
+browser
+.
+toml
+"
 ]
 with
 Files

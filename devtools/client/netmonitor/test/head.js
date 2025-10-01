@@ -390,6 +390,8 @@ netmonitor
 /
 test
 /
+websockets
+/
 "
 ;
 const
@@ -415,6 +417,8 @@ client
 netmonitor
 /
 test
+/
+websockets
 /
 "
 ;
