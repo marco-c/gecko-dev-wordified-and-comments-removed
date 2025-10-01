@@ -37,15 +37,6 @@ include
 "
 mozilla
 /
-Buffer
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ErrorResult
 .
 h
