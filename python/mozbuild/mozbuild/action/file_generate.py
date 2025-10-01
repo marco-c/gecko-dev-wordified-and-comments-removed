@@ -36,15 +36,16 @@ mozbuild
 util
 import
 FileAvoidWrite
-serialize_root_logger
-(
-)
 def
 main
 (
 argv
 )
 :
+    
+serialize_root_logger
+(
+)
     
 parser
 =
