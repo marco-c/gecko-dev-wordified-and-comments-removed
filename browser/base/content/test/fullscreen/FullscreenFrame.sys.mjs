@@ -257,6 +257,7 @@ case
 CreateChild
 "
 :
+{
 let
 child
 =
@@ -364,6 +365,7 @@ iframe
 return
 loaded
 ;
+}
 case
 "
 GetEvents
@@ -403,6 +405,7 @@ case
 GetFullscreenElement
 "
 :
+{
 let
 document
 =
@@ -519,6 +522,7 @@ other
 "
 )
 ;
+}
 }
 }
 return

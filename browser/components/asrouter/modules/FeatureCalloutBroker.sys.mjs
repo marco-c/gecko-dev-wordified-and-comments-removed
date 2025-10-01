@@ -1505,6 +1505,7 @@ case
 end
 "
 :
+{
 const
 item
 =
@@ -1532,6 +1533,7 @@ false
 }
 break
 ;
+}
 }
 }
 /

@@ -1240,6 +1240,7 @@ case
 TabSelect
 "
 :
+{
 if
 (
 this
@@ -1366,6 +1367,7 @@ visible
 }
 break
 ;
+}
 }
 }
 _showNotification

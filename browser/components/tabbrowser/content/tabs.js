@@ -1299,6 +1299,7 @@ case
 mouseout
 "
 :
+{
 let
 relatedTarget
 =
@@ -1321,6 +1322,7 @@ document
 {
 break
 ;
+}
 }
 case
 "
@@ -1382,6 +1384,7 @@ break
 ;
 default
 :
+{
 let
 methodName
 =
@@ -1423,6 +1426,7 @@ type
 }
 )
 ;
+}
 }
 }
 }
@@ -4829,6 +4833,7 @@ nsPref
 changed
 "
 :
+{
 let
 containersEnabled
 =
@@ -5172,6 +5177,7 @@ parent
 }
 break
 ;
+}
 }
 }
 _updateCloseButtons

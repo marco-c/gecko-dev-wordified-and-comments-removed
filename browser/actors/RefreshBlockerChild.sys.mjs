@@ -1114,6 +1114,7 @@ RefreshBlocker
 Refresh
 "
 :
+{
 let
 docShell
 =
@@ -1162,6 +1163,7 @@ delay
 ;
 break
 ;
+}
 case
 "
 PreferenceChanged
