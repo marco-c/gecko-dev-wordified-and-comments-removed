@@ -1119,6 +1119,7 @@ headers
 headerFilter
 originalInput
 textDirectiveUserActivation
+appLinkLaunchType
 }
 =
 aData
@@ -1817,6 +1818,7 @@ additionalHeaders
 policyContainer
 textDirectiveUserActivation
 schemelessInput
+appLinkLaunchType
 }
 )
 ;
