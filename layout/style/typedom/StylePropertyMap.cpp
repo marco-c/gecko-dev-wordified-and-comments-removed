@@ -77,7 +77,7 @@ h
 #
 include
 "
-nsICSSDeclaration
+nsDOMCSSDeclaration
 .
 h
 "
@@ -327,7 +327,7 @@ return
 }
 nsCOMPtr
 <
-nsICSSDeclaration
+nsDOMCSSDeclaration
 >
 declaration
 =

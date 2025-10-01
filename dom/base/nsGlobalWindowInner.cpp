@@ -12224,6 +12224,16 @@ const
 SynthesizeMouseEventOptions
 &
 aOptions
+const
+Optional
+<
+OwningNonNull
+<
+VoidFunction
+>
+>
+&
+aCallback
 ErrorResult
 &
 aError
@@ -12343,6 +12353,7 @@ aType
 refPoint
 aMouseEventData
 aOptions
+aCallback
 )
 ;
 if
@@ -21385,7 +21396,7 @@ StealNSResult
 }
 already_AddRefed
 <
-nsICSSDeclaration
+nsDOMCSSDeclaration
 >
 nsGlobalWindowInner
 :
@@ -21416,7 +21427,7 @@ aError
 }
 already_AddRefed
 <
-nsICSSDeclaration
+nsDOMCSSDeclaration
 >
 nsGlobalWindowInner
 :
@@ -21447,7 +21458,7 @@ aError
 }
 already_AddRefed
 <
-nsICSSDeclaration
+nsDOMCSSDeclaration
 >
 nsGlobalWindowInner
 :

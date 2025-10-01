@@ -358,9 +358,6 @@ class
 nsICookieJarSettings
 ;
 class
-nsICSSDeclaration
-;
-class
 nsIDocShellTreeOwner
 ;
 class
@@ -4137,7 +4134,7 @@ aError
 ;
 already_AddRefed
 <
-nsICSSDeclaration
+nsDOMCSSDeclaration
 >
 GetComputedStyle
 (
@@ -4826,7 +4823,7 @@ GleanPings
 ;
 already_AddRefed
 <
-nsICSSDeclaration
+nsDOMCSSDeclaration
 >
 GetDefaultComputedStyle
 (
@@ -6632,7 +6629,7 @@ protected
 :
 already_AddRefed
 <
-nsICSSDeclaration
+nsDOMCSSDeclaration
 >
 GetComputedStyleHelper
 (

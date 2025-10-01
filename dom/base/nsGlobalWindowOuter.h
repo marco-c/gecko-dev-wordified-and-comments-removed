@@ -3840,7 +3840,7 @@ protected
 :
 already_AddRefed
 <
-nsICSSDeclaration
+nsDOMCSSDeclaration
 >
 GetComputedStyleHelperOuter
 (

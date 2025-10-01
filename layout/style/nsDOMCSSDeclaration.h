@@ -338,6 +338,12 @@ aRv
 )
 override
 ;
+using
+nsICSSDeclaration
+:
+:
+SetProperty
+;
 uint32_t
 Length
 (

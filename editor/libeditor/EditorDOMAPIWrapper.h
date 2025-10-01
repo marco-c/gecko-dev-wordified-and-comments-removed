@@ -77,14 +77,14 @@ h
 #
 include
 "
-nsIContent
+nsDOMCSSDeclaration
 .
 h
 "
 #
 include
 "
-nsICSSDeclaration
+nsIContent
 .
 h
 "
@@ -4421,7 +4421,7 @@ aEditorBase
 nsStyledElement
 &
 aStyledElement
-nsICSSDeclaration
+nsDOMCSSDeclaration
 *
 aDeclaration
 =
@@ -5078,7 +5078,7 @@ MOZ_KNOWN_LIVE
 const
 OwningNonNull
 <
-nsICSSDeclaration
+nsDOMCSSDeclaration
 >
 mCSSDeclaration
 ;

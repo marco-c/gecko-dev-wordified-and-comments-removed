@@ -101,6 +101,9 @@ nsTArray
 h
 "
 class
+nsDOMCSSDeclaration
+;
+class
 nsGlobalWindowInner
 ;
 class
@@ -120,9 +123,6 @@ nsIContent
 ;
 class
 nsIContentSecurityPolicy
-;
-class
-nsICSSDeclaration
 ;
 class
 nsIDocShell
@@ -1523,7 +1523,7 @@ aHeight
 virtual
 already_AddRefed
 <
-nsICSSDeclaration
+nsDOMCSSDeclaration
 >
 GetComputedStyle
 (

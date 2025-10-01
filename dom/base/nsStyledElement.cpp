@@ -577,7 +577,7 @@ updateBatch
 )
 ;
 }
-nsICSSDeclaration
+nsDOMCSSDeclaration
 *
 nsStyledElement
 :
@@ -802,7 +802,7 @@ return
 NS_OK
 ;
 }
-nsICSSDeclaration
+nsDOMCSSDeclaration
 *
 nsStyledElement
 :
