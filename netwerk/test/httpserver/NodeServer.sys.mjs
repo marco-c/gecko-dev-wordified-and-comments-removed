@@ -2926,6 +2926,7 @@ host
 port
 flags
 pathTemplate
+auth
 )
 {
 this
@@ -2957,6 +2958,12 @@ this
 _pathTemplate
 =
 pathTemplate
+;
+this
+.
+_auth
+=
+auth
 ;
 this
 .
@@ -3042,8 +3049,9 @@ _port
 this
 .
 _pathTemplate
-"
-"
+this
+.
+_auth
 "
 "
 this

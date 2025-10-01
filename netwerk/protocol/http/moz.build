@@ -543,6 +543,11 @@ Http2WebTransportStream
 cpp
 "
 "
+Http3ConnectUDPStream
+.
+cpp
+"
+"
 Http3Session
 .
 cpp
