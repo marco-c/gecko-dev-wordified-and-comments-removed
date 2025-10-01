@@ -215,6 +215,18 @@ libvpx
 /
 '
 }
+_SUFFICES
+=
+[
+"
+.
+cc
+"
+"
+.
+h
+"
+]
 def
 _parse_args
 (
@@ -1181,7 +1193,7 @@ print
 (
 f
 "
-Successfuly
+Successfully
 ran
 include
 cleaner
@@ -1400,6 +1412,17 @@ args
 .
 files
 :
+        
+if
+not
+file
+.
+suffix
+in
+_SUFFICES
+:
+            
+continue
         
 changes_generated
 =
