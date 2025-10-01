@@ -172,7 +172,7 @@ aInputSize
 16
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 max
 >
