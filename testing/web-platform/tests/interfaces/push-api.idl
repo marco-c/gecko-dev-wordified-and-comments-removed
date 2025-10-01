@@ -68,9 +68,9 @@ false
 [
 SecureContext
 ]
-partial
 interface
-ServiceWorkerRegistration
+mixin
+PushManagerAttribute
 {
 readonly
 attribute
@@ -78,6 +78,14 @@ PushManager
 pushManager
 ;
 }
+;
+Window
+includes
+PushManagerAttribute
+;
+ServiceWorkerRegistration
+includes
+PushManagerAttribute
 ;
 [
 Exposed

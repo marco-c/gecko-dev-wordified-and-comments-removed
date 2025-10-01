@@ -79,6 +79,12 @@ Promise
 Response
 >
 source
+optional
+WebAssemblyCompileOptions
+options
+=
+{
+}
 )
 ;
 Promise
@@ -95,6 +101,12 @@ source
 optional
 object
 importObject
+optional
+WebAssemblyCompileOptions
+options
+=
+{
+}
 )
 ;
 }

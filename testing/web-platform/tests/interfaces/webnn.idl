@@ -630,7 +630,7 @@ MLOperand
 constant
 (
 MLOperandDataType
-type
+dataType
 MLNumber
 value
 )
@@ -847,7 +847,7 @@ cast
 MLOperand
 input
 MLOperandDataType
-type
+dataType
 optional
 MLOperatorOptions
 options

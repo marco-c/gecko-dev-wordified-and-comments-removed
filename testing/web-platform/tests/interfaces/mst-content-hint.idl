@@ -82,6 +82,15 @@ resolution
 "
 balanced
 "
+"
+maintain
+-
+framerate
+-
+and
+-
+resolution
+"
 }
 ;
 partial
