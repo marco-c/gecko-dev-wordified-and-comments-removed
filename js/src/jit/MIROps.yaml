@@ -2560,7 +2560,7 @@ generate_lir
 true
 lir_temps
 :
-2
+1
 -
 name
 :
@@ -6773,18 +6773,9 @@ Type
 result_type
 :
 Elements
-movable
-:
-true
-congruent_to
-:
-if_operands_equal
 alias_set
 :
 custom
-clone
-:
-true
 generate_lir
 :
 true
@@ -11664,9 +11655,6 @@ custom
 generate_lir
 :
 true
-lir_temps
-:
-1
 -
 name
 :
