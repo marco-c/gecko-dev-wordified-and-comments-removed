@@ -2976,14 +2976,12 @@ i
 let
 first
 =
-input
-.
-try_parse
-(
 PositionTryFallbacksTryTacticKeyword
 :
 :
 parse
+(
+input
 )
 ?
 ;
