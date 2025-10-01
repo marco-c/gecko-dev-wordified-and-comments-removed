@@ -139,9 +139,6 @@ build
 type
 :
 debug
-retrigger
-:
-true
 fetches
 :
 toolchain
