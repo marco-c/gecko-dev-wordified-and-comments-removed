@@ -666,11 +666,6 @@ sources
 =
 [
 "
-arraysize
-.
-h
-"
-"
 thread_annotations
 .
 h
@@ -679,11 +674,6 @@ h
 deps
 =
 [
-"
-system
-:
-arch
-"
 ]
 }
 rtc_library
