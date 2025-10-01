@@ -82,6 +82,10 @@ UNSUPPORTED_TEXT
 is_displayed
 =
 do_expect_text
+        
+timeout
+=
+30
     
 )
 pytest

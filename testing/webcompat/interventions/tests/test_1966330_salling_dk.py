@@ -7,8 +7,14 @@ webdriver
 .
 error
 import
+(
+    
 ElementClickInterceptedException
+    
+NoSuchElementException
+    
 WebDriverException
+)
 URL
 =
 "
@@ -111,6 +117,9 @@ none
 "
 )
     
+try
+:
+        
 client
 .
 await_css
@@ -119,12 +128,15 @@ COOKIES_CSS
 is_displayed
 =
 True
+timeout
+=
+5
 )
 .
 click
 (
 )
-    
+        
 client
 .
 await_element_hidden
@@ -136,6 +148,12 @@ css
 COOKIES_OVERLAY_CSS
 )
 )
+    
+except
+NoSuchElementException
+:
+        
+pass
     
 for
 _

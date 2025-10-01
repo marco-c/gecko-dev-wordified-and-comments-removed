@@ -11035,6 +11035,25 @@ arguments
 ]
 ;
            
+const
+timer
+=
+setInterval
+(
+(
+)
+=
+>
+{
+             
+if
+(
+document
+.
+head
+)
+{
+                
 document
 .
 head
@@ -11042,6 +11061,19 @@ head
 appendChild
 (
 s
+)
+;
+                
+clearInterval
+(
+timer
+)
+;
+             
+}
+           
+}
+50
 )
 ;
         

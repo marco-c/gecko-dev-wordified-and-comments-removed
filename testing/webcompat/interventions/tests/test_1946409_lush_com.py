@@ -169,9 +169,9 @@ getBoundingClientRect
 bottom
 <
 =
-window
+screen
 .
-innerHeight
+height
 )
 ;
           

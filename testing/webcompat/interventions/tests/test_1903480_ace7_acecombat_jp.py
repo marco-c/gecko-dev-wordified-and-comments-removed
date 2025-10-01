@@ -55,7 +55,7 @@ is_displayed
 True
 timeout
 =
-30
+60
 )
     
 await

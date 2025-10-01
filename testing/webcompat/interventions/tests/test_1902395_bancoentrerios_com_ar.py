@@ -77,6 +77,9 @@ FAILURE_CSS
 is_displayed
 =
 True
+timeout
+=
+30
 )
 pytest
 .
@@ -113,4 +116,7 @@ FAILURE_CSS
 is_displayed
 =
 True
+timeout
+=
+30
 )

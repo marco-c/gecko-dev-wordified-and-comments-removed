@@ -44,9 +44,9 @@ body
 .
 scrollWidth
 >
-window
+screen
 .
-innerWidth
+width
 "
 )
 pytest
