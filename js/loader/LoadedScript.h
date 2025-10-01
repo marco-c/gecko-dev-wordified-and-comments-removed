@@ -1009,7 +1009,7 @@ CanHaveBytecode
 )
 ;
 return
-mScriptBytecode
+mSRIAndBytecode
 ;
 }
 TranscodeRange
@@ -1030,7 +1030,7 @@ auto
 &
 bytecode
 =
-mScriptBytecode
+mSRIAndBytecode
 ;
 auto
 offset
@@ -1108,7 +1108,7 @@ CanHaveBytecode
 )
 )
 ;
-mScriptBytecode
+mSRIAndBytecode
 .
 clearAndFree
 (
@@ -1275,7 +1275,7 @@ size_t
 mReceivedScriptTextLength
 ;
 TranscodeBuffer
-mScriptBytecode
+mSRIAndBytecode
 ;
 RefPtr
 <
@@ -1288,12 +1288,6 @@ nsCOMPtr
 nsICacheInfoChannel
 >
 mCacheInfo
-;
-JS
-:
-:
-TranscodeBuffer
-mSRI
 ;
 }
 ;
