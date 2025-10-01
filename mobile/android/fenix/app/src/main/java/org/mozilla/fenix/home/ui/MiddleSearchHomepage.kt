@@ -372,6 +372,12 @@ fenix
 wallpapers
 .
 WallpaperState
+private
+const
+val
+BOTTOM_PADDING
+=
+47
 /
 *
 *
@@ -750,7 +756,7 @@ Modifier
 .
 height
 (
-47
+BOTTOM_PADDING
 .
 dp
 )
