@@ -29,6 +29,15 @@ include
 "
 api
 /
+field_trials
+.
+h
+"
+#
+include
+"
+api
+/
 test
 /
 videocodec_test_stats
@@ -296,6 +305,9 @@ std
 :
 string
 test_name
+;
+FieldTrials
+field_trials
 ;
 std
 :
