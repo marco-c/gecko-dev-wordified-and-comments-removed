@@ -22037,6 +22037,11 @@ int32_t
 aResolver
 )
 {
+bool
+checkForCancelation
+=
+true
+;
 if
 (
 XRE_IsContentProcess
@@ -22059,6 +22064,7 @@ aOffset
 aHistoryEpoch
 aRequireUserInteraction
 aUserActivation
+checkForCancelation
 std
 :
 :
@@ -22105,6 +22111,7 @@ aOffset
 aHistoryEpoch
 aRequireUserInteraction
 aUserActivation
+checkForCancelation
 self
 -
 >
@@ -22149,6 +22156,8 @@ uint64_t
 aHistoryEpoch
 bool
 aUserActivation
+bool
+aCheckForCancelation
 std
 :
 :
@@ -22185,6 +22194,7 @@ this
 aKey
 aHistoryEpoch
 aUserActivation
+aCheckForCancelation
 std
 :
 :
@@ -22228,6 +22238,7 @@ NavigationTraverse
 aKey
 aHistoryEpoch
 aUserActivation
+aCheckForCancelation
 self
 -
 >
