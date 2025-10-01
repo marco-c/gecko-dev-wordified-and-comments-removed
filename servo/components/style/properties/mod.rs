@@ -142,15 +142,6 @@ use
 crate
 :
 :
-str
-:
-:
-CssString
-;
-use
-crate
-:
-:
 stylesheets
 :
 :
@@ -242,6 +233,7 @@ style_traits
 :
 :
 {
+CssString
 CssWriter
 KeywordsCollectFn
 ParseError

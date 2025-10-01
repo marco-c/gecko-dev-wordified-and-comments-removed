@@ -14,15 +14,6 @@ use
 crate
 :
 :
-str
-:
-:
-CssStringWriter
-;
-use
-crate
-:
-:
 {
 Namespace
 Prefix
@@ -51,6 +42,7 @@ style_traits
 :
 :
 {
+CssStringWriter
 CssWriter
 ToCss
 }

@@ -35,15 +35,6 @@ use
 crate
 :
 :
-str
-:
-:
-CssStringWriter
-;
-use
-crate
-:
-:
 values
 :
 :
@@ -136,6 +127,7 @@ style_traits
 :
 {
 Comma
+CssStringWriter
 CssWriter
 KeywordsCollectFn
 OneOrMoreSeparated

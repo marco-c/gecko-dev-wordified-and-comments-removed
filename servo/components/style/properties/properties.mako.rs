@@ -205,6 +205,7 @@ style_traits
 :
 :
 {
+CssStringWriter
 CssWriter
 KeywordsCollectFn
 ParseError
@@ -258,15 +259,6 @@ rule_tree
 :
 :
 StrongRuleNode
-;
-use
-crate
-:
-:
-str
-:
-:
-CssStringWriter
 ;
 use
 crate
