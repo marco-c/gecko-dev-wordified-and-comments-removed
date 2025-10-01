@@ -628,6 +628,16 @@ aPerfStats
 )
 ;
 }
+static
+MetricMask
+GetFeatureMask
+(
+const
+char
+*
+aMetricName
+)
+;
 private
 :
 static
