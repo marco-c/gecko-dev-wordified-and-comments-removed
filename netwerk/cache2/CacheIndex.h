@@ -2642,7 +2642,7 @@ kHasAltDataMask
 static
 const
 uint32_t
-kReservedMask
+kDictionaryMask
 =
 0x01000000
 ;
