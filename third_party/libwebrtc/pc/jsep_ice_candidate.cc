@@ -241,8 +241,8 @@ candidate
 )
 ;
 }
-JsepCandidateCollection
-JsepCandidateCollection
+IceCandidateCollection
+IceCandidateCollection
 :
 :
 Clone
@@ -250,7 +250,7 @@ Clone
 )
 const
 {
-JsepCandidateCollection
+IceCandidateCollection
 new_collection
 ;
 for
