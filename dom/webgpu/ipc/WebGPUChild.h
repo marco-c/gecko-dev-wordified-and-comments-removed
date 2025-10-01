@@ -518,6 +518,14 @@ FlushQueuedMessages
 )
 ;
 void
+ClearStateForGlobal
+(
+nsIGlobalObject
+*
+aGlobal
+)
+;
+void
 ActorDestroy
 (
 ActorDestroyReason
