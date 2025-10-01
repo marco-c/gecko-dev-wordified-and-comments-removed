@@ -960,7 +960,7 @@ RFPTarget
 name
 #
 endif
-MOZ_RUNINIT
+MOZ_CONSTINIT
 const
 RFPTargetSet
 kDefaultFingerprintingProtectionsBase
