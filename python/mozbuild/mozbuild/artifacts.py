@@ -7800,6 +7800,9 @@ root
 universal_newlines
 =
 True
+cwd
+=
+topsrcdir
             
 )
 .
