@@ -9398,6 +9398,9 @@ BrandUsage
 "
 >
 Dela
+med
+dig
+av
 hur
 du
 uppt
@@ -9408,14 +9411,14 @@ att
 du
 anv
 nder
-den
-med
+det
+till
 Mozillas
 marknadsf
 ringspartners
 .
 Denna
-data
+information
 s
 ljs
 aldrig
@@ -29542,7 +29545,7 @@ gick
 inte
 att
 redigera
-mappen
+mapp
 <
 /
 string
@@ -29617,7 +29620,7 @@ inte
 att
 redigera
 bokm
-rket
+rke
 <
 /
 string
