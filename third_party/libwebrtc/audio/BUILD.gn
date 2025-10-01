@@ -1773,14 +1773,6 @@ gunit_helpers
 /
 rtc_base
 :
-macromagic
-"
-"
-.
-.
-/
-rtc_base
-:
 refcount
 "
 "
