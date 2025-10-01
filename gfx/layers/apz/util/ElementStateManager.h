@@ -237,7 +237,7 @@ aTarget
 )
 ;
 void
-CancelTask
+CancelActiveTask
 (
 )
 ;
