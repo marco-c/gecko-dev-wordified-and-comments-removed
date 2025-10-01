@@ -479,7 +479,7 @@ geckoview
 -
 kind
 :
-test
+browsertime
 test_platform
 :
 &

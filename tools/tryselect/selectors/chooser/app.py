@@ -445,6 +445,7 @@ kind
 test
 mochitest
 reftest
+browsertime
 "
     
 title
