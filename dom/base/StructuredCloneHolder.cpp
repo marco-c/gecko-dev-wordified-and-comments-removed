@@ -8042,11 +8042,6 @@ mGlobal
 GlobalNames
 :
 :
-Window
-|
-GlobalNames
-:
-:
 DedicatedWorkerGlobalScope
 )
 )
