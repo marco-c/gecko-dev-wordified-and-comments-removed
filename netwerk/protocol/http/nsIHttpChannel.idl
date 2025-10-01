@@ -457,5 +457,13 @@ attribute
 boolean
 requestObserversCalled
 ;
+[
+noscript
+must_use
+]
+attribute
+boolean
+isUserAgentHeaderOutdated
+;
 }
 ;
