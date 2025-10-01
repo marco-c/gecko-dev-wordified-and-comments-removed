@@ -80,7 +80,6 @@ StylePropertyMapReadOnly
 {
 public
 :
-explicit
 StylePropertyMap
 (
 nsCOMPtr
@@ -88,6 +87,8 @@ nsCOMPtr
 nsISupports
 >
 aParent
+bool
+aComputed
 )
 ;
 JSObject

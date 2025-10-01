@@ -389,6 +389,11 @@ CSSUnparsedValue
 cpp
 "
 "
+CSSUnsupportedValue
+.
+cpp
+"
+"
 CSSVariableReferenceValue
 .
 cpp
