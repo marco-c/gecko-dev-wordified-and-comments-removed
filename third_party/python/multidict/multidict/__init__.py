@@ -97,9 +97,9 @@ __version__
 "
 6
 .
-5
+6
 .
-0
+4
 "
 if
 TYPE_CHECKING
