@@ -66,6 +66,9 @@ DB_NAME
 db
 "
 ;
+let
+db
+;
 async
 function
 setup
@@ -134,7 +137,6 @@ event
 =
 >
 {
-const
 db
 =
 event
@@ -229,6 +231,18 @@ reject
 =
 >
 {
+if
+(
+db
+)
+{
+db
+.
+close
+(
+)
+;
+}
 const
 request
 =
