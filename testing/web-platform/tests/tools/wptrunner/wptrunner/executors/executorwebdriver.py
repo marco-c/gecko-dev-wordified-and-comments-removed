@@ -115,7 +115,6 @@ Any
 List
 Dict
 Optional
-Tuple
 from
 webdriver
 .
@@ -1367,20 +1366,7 @@ _subscriptions
 :
 List
 [
-Tuple
-[
-List
-[
 str
-]
-Optional
-[
-List
-[
-str
-]
-]
-]
 ]
 =
 [
@@ -1671,16 +1657,6 @@ contexts
 )
 )
         
-top_contexts
-=
-await
-self
-.
-_contexts_to_top_contexts
-(
-contexts
-)
-        
 result
 =
 await
@@ -1708,10 +1684,12 @@ _subscriptions
 .
 append
 (
-(
-events
-top_contexts
-)
+result
+[
+"
+subscription
+"
+]
 )
         
 return
@@ -1789,8 +1767,7 @@ self
 _subscriptions
 :
             
-events
-contexts
+subscription
 =
 self
 .
@@ -1809,18 +1786,12 @@ debug
 "
 Unsubscribing
 from
-events
-%
-s
-in
+event
 %
 s
 "
 %
-(
-events
-contexts
-)
+subscription
 )
             
 try
@@ -1837,12 +1808,11 @@ session
 .
 unsubscribe
 (
-events
+subscriptions
 =
-events
-contexts
-=
-contexts
+[
+subscription
+]
 )
             
 except
@@ -1899,10 +1869,7 @@ Failed
 to
 unsubscribe
 from
-events
-%
-s
-in
+event
 %
 s
 :
@@ -1911,8 +1878,7 @@ s
 "
 %
 (
-events
-contexts
+subscription
 e
 )
 )

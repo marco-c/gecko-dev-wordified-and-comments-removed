@@ -311,18 +311,6 @@ str
 =
 None
                     
-contexts
-:
-Optional
-[
-List
-[
-str
-]
-]
-=
-None
-                    
 subscriptions
 :
 Optional
@@ -354,22 +342,6 @@ Any
 =
 {
 }
-        
-if
-contexts
-is
-not
-None
-:
-            
-params
-[
-"
-contexts
-"
-]
-=
-contexts
         
 if
 events
