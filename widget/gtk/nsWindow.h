@@ -2349,6 +2349,14 @@ GtkBorder
 &
 )
 ;
+LayoutDeviceRect
+GdkRectToFloatDevicePixels
+(
+const
+GdkRectangle
+&
+)
+;
 bool
 WidgetTypeSupportsAcceleration
 (
@@ -3099,9 +3107,6 @@ mLastMoveRequest
 ;
 LayoutDeviceIntMargin
 mClientMargin
-;
-LayoutDeviceIntMargin
-mCsdMargin
 ;
 guint32
 mLastScrollEventTime
