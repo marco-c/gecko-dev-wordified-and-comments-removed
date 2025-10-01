@@ -893,7 +893,7 @@ processPrelaunch
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -1334,6 +1334,18 @@ update
 .
 xml
 "
+)
+;
+pref
+(
+"
+extensions
+.
+telemetry
+.
+EnvironmentAddonBuilder
+"
+true
 )
 ;
 pref
