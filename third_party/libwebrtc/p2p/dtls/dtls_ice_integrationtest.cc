@@ -882,7 +882,7 @@ DataRate
 :
 KilobitsPerSec
 (
-200
+220
 )
 ;
 networkBehavior

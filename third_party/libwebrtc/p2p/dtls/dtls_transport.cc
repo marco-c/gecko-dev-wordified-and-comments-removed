@@ -2232,7 +2232,7 @@ const
 int
 kDtlsMtu
 =
-800
+900
 ;
 dtls_
 -
