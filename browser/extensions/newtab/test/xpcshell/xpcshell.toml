@@ -113,6 +113,13 @@ js
 ]
 [
 "
+test_LocalInferredRanking
+.
+js
+"
+]
+[
+"
 test_NewTabContentPing
 .
 js

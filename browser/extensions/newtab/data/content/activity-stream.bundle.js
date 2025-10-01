@@ -41263,7 +41263,7 @@ false
 lastUpdated
 :
 null
-inferredIntrests
+inferredInterests
 :
 {
 }
