@@ -1071,6 +1071,16 @@ nullptr
 ;
 RTC_DCHECK
 (
+!
+transport_name_
+.
+empty
+(
+)
+)
+;
+RTC_DCHECK
+(
 config_
 .
 IsValid

@@ -258,6 +258,7 @@ P2PTransportChannel
 Create
 (
 "
+standalone
 "
 ICE_CANDIDATE_COMPONENT_RTP
 std
