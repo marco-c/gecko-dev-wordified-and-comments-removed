@@ -403,6 +403,8 @@ EventUtils
 synthesizeMouseAtCenter
 (
 checkbox
+.
+inputEl
 {
 }
 gBrowser
@@ -462,6 +464,8 @@ EventUtils
 synthesizeMouseAtCenter
 (
 checkbox
+.
+inputEl
 {
 }
 gBrowser
@@ -579,6 +583,8 @@ EventUtils
 synthesizeMouseAtCenter
 (
 checkbox
+.
+inputEl
 {
 }
 gBrowser
@@ -616,6 +622,8 @@ EventUtils
 synthesizeMouseAtCenter
 (
 checkbox
+.
+inputEl
 {
 }
 gBrowser
