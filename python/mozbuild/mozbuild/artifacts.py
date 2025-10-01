@@ -7622,6 +7622,10 @@ git
 =
 None
         
+jj
+=
+None
+        
 skip_cache
 =
 False
@@ -7760,6 +7764,57 @@ self
 _git
 =
 git
+        
+self
+.
+_jj
+=
+jj
+        
+if
+self
+.
+_jj
+:
+            
+self
+.
+_git_root
+=
+subprocess
+.
+check_output
+(
+                
+[
+self
+.
+_jj
+"
+git
+"
+"
+root
+"
+]
+universal_newlines
+=
+True
+            
+)
+.
+strip
+(
+)
+        
+else
+:
+            
+self
+.
+_git_root
+=
+None
         
 self
 .
@@ -8129,6 +8184,139 @@ args
 kwargs
 )
     
+def
+check_git_output
+(
+self
+cmd
+*
+args
+*
+*
+kwargs
+)
+:
+        
+env
+=
+os
+.
+environ
+.
+copy
+(
+)
+        
+if
+self
+.
+_git_root
+:
+            
+env
+[
+"
+GIT_DIR
+"
+]
+=
+self
+.
+_git_root
+        
+kwargs
+[
+"
+universal_newlines
+"
+]
+=
+True
+        
+return
+subprocess
+.
+check_output
+(
+[
+self
+.
+_git
+]
++
+cmd
+*
+args
+*
+*
+kwargs
+env
+=
+env
+)
+    
+def
+call_git
+(
+self
+cmd
+*
+args
+*
+*
+kwargs
+)
+:
+        
+env
+=
+os
+.
+environ
+.
+copy
+(
+)
+        
+if
+self
+.
+_git_root
+:
+            
+env
+[
+"
+GIT_DIR
+"
+]
+=
+self
+.
+_git_root
+        
+return
+subprocess
+.
+call
+(
+[
+self
+.
+_git
+]
++
+cmd
+*
+args
+*
+*
+kwargs
+env
+=
+env
+)
+    
 property
     
 functools
@@ -8153,16 +8341,12 @@ try
                 
 metadata
 =
-subprocess
+self
 .
-check_output
+check_git_output
 (
                     
 [
-                        
-self
-.
-_git
                         
 "
 rev
@@ -8187,10 +8371,6 @@ metadata
 "
                     
 ]
-                    
-universal_newlines
-=
-True
                     
 cwd
 =
@@ -8277,16 +8457,12 @@ cinnabar
 if
 (
                 
-subprocess
+self
 .
-call
+call_git
 (
                     
 [
-                        
-self
-.
-_git
                         
 "
 cat
@@ -8997,16 +9173,12 @@ self
         
 rev_list
 =
-subprocess
+self
 .
-check_output
+check_git_output
 (
             
 [
-                
-self
-.
-_git
                 
 "
 rev
@@ -9041,10 +9213,6 @@ HEAD
             
 ]
             
-universal_newlines
-=
-True
-            
 cwd
 =
 self
@@ -9061,15 +9229,12 @@ _is_git_cinnabar
             
 hash_list
 =
-subprocess
+self
 .
-check_output
+check_git_output
 (
                 
 [
-self
-.
-_git
 "
 cinnabar
 "
@@ -9083,10 +9248,6 @@ rev_list
 splitlines
 (
 )
-                
-universal_newlines
-=
-True
                 
 cwd
 =
@@ -10981,15 +11142,12 @@ _git
                 
 revset
 =
-subprocess
+self
 .
-check_output
+check_git_output
 (
                     
 [
-self
-.
-_git
 "
 rev
 -
@@ -11018,10 +11176,6 @@ devnull
 w
 "
 )
-                    
-universal_newlines
-=
-True
                     
 cwd
 =
@@ -11098,15 +11252,12 @@ _is_git_cinnabar
                 
 revision
 =
-subprocess
+self
 .
-check_output
+check_git_output
 (
                     
 [
-self
-.
-_git
 "
 cinnabar
 "
@@ -11115,10 +11266,6 @@ git2hg
 "
 revset
 ]
-                    
-universal_newlines
-=
-True
                     
 cwd
 =

@@ -540,6 +540,30 @@ GIT
 "
 ]
     
+jj
+=
+None
+    
+if
+conditions
+.
+is_jj
+(
+command_context
+)
+:
+        
+jj
+=
+command_context
+.
+substs
+[
+"
+JJ
+"
+]
+    
 topsrcdir
 =
 command_context
@@ -671,6 +695,10 @@ hg
 git
 =
 git
+        
+jj
+=
+jj
         
 topsrcdir
 =
