@@ -1665,6 +1665,15 @@ StyleDisplay
 -
 >
 mPosition
+aComputedDOMStyle
+-
+>
+StylePosition
+(
+)
+-
+>
+mPositionArea
 }
 ;
 }
