@@ -4820,7 +4820,7 @@ NS_IMETHODIMP
 nsViewSourceChannel
 :
 :
-GetDictionary
+GetDecompressDictionary
 (
 mozilla
 :
@@ -4847,7 +4847,7 @@ NS_IMETHODIMP
 nsViewSourceChannel
 :
 :
-SetDictionary
+SetDecompressDictionary
 (
 mozilla
 :
