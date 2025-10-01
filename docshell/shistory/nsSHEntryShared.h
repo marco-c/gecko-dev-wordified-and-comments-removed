@@ -208,15 +208,6 @@ mContentType
 (
 aContentType
 )
-mNavigationState
-(
-MakeRefPtr
-<
-nsStructuredCloneContainer
->
-(
-)
-)
 {
 }
 uint64_t
