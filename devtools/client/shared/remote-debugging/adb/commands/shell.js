@@ -388,6 +388,7 @@ decode
 shell
 "
 :
+{
 const
 decoder
 =
@@ -427,6 +428,7 @@ text
 ;
 break
 ;
+}
 default
 :
 dumpn

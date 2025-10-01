@@ -1528,6 +1528,7 @@ constants
 .
 MESSAGES_ADD
 :
+{
 const
 batchHasMoreMessagesThanLogLimit
 =
@@ -1727,11 +1728,13 @@ newState
 logLimit
 )
 ;
+}
 case
 constants
 .
 MESSAGES_CLEAR
 :
+{
 const
 frontsToRelease
 =
@@ -1776,6 +1779,7 @@ frontsToRelease
 }
 )
 ;
+}
 case
 constants
 .
@@ -1962,6 +1966,7 @@ constants
 .
 MESSAGE_OPEN
 :
+{
 const
 openState
 =
@@ -2181,11 +2186,13 @@ insertIndex
 return
 openState
 ;
+}
 case
 constants
 .
 MESSAGE_CLOSE
 :
+{
 const
 closeState
 =
@@ -2388,6 +2395,7 @@ id
 return
 closeState
 ;
+}
 case
 constants
 .
@@ -2423,6 +2431,7 @@ constants
 .
 NETWORK_MESSAGES_UPDATE
 :
+{
 const
 updatedState
 =
@@ -2538,6 +2547,7 @@ uiState
 return
 updatedState
 ;
+}
 case
 UPDATE_REQUEST
 :
@@ -2671,6 +2681,7 @@ constants
 .
 GROUP_SIMILAR_MESSAGES_TOGGLE
 :
+{
 if
 (
 !
@@ -2846,6 +2857,7 @@ groupSimilar
 }
 )
 ;
+}
 case
 constants
 .

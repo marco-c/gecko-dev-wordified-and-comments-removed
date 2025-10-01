@@ -630,6 +630,7 @@ case
 countReset
 "
 :
+{
 type
 =
 MESSAGE_TYPE
@@ -732,6 +733,7 @@ null
 }
 break
 ;
+}
 case
 "
 timeStamp

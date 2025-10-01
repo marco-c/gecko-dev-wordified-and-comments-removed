@@ -84,6 +84,7 @@ case
 UPDATE_EXPRESSION
 "
 :
+{
 const
 key
 =
@@ -113,6 +114,7 @@ true
 }
 )
 ;
+}
 case
 "
 EVALUATE_EXPRESSION
@@ -147,6 +149,7 @@ case
 EVALUATE_EXPRESSIONS
 "
 :
+{
 const
 {
 inputs
@@ -187,6 +190,7 @@ false
 state
 )
 ;
+}
 case
 "
 DELETE_EXPRESSION
@@ -206,6 +210,7 @@ case
 AUTOCOMPLETE
 "
 :
+{
 const
 {
 matchProp
@@ -242,6 +247,7 @@ matches
 }
 }
 ;
+}
 case
 "
 CLEAR_AUTOCOMPLETE

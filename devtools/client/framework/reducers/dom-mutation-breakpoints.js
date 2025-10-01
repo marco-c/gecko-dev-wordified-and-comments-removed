@@ -43,6 +43,7 @@ case
 ADD_DOM_MUTATION_BREAKPOINT
 "
 :
+{
 const
 hasExistingBp
 =
@@ -142,6 +143,7 @@ true
 ;
 break
 ;
+}
 case
 "
 REMOVE_DOM_MUTATION_BREAKPOINT

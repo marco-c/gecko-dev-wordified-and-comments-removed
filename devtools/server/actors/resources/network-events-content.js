@@ -967,6 +967,7 @@ NETWORK_EVENT_TYPES
 .
 RESPONSE_START
 :
+{
 let
 statusText
 =
@@ -1063,6 +1064,7 @@ RESPONSE_HEADERS
 ;
 break
 ;
+}
 case
 NETWORK_EVENT_TYPES
 .

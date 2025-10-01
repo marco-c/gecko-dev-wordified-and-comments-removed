@@ -207,6 +207,7 @@ case
 deleteAllFrom
 "
 :
+{
 menuDeleteAllFromItem
 .
 click
@@ -251,6 +252,7 @@ hostName
 ;
 break
 ;
+}
 }
 }
 )

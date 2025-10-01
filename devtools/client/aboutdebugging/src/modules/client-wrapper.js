@@ -658,6 +658,7 @@ PREF_TYPES
 .
 BOOL
 :
+{
 let
 prefValue
 ;
@@ -687,6 +688,7 @@ defaultValue
 return
 prefValue
 ;
+}
 default
 :
 throw
