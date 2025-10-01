@@ -49817,6 +49817,9 @@ OwningTrustedHTMLOrString
 aText
 bool
 aNewlineTerminate
+nsIPrincipal
+*
+aSubjectPrincipal
 mozilla
 :
 :
@@ -49910,6 +49913,7 @@ aText
 IsTrustedHTML
 (
 )
+aSubjectPrincipal
 rv
 )
 ;
@@ -49959,6 +49963,7 @@ WriteCommon
 text
 aNewlineTerminate
 isTrusted
+aSubjectPrincipal
 rv
 )
 ;
@@ -49978,6 +49983,9 @@ bool
 aNewlineTerminate
 bool
 aIsTrusted
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -50166,6 +50174,7 @@ sinkWrite
 kTrustedTypesOnlySinkGroup
 *
 this
+aSubjectPrincipal
 compliantStringHolder
 aRv
 )
@@ -50497,6 +50506,9 @@ OwningTrustedHTMLOrString
 >
 &
 aText
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 rv
@@ -50506,6 +50518,7 @@ WriteCommon
 (
 aText
 false
+aSubjectPrincipal
 rv
 )
 ;
@@ -50523,6 +50536,9 @@ OwningTrustedHTMLOrString
 >
 &
 aText
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 rv
@@ -50532,6 +50548,7 @@ WriteCommon
 (
 aText
 true
+aSubjectPrincipal
 rv
 )
 ;

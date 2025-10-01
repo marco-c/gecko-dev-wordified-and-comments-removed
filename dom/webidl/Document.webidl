@@ -1198,6 +1198,9 @@ close
 [
 CEReactions
 Throws
+NeedsSubjectPrincipal
+=
+NonSystem
 ]
 undefined
 write
@@ -1216,6 +1219,9 @@ text
 [
 CEReactions
 Throws
+NeedsSubjectPrincipal
+=
+NonSystem
 ]
 undefined
 writeln

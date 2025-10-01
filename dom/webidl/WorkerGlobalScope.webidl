@@ -203,6 +203,9 @@ navigator
 ;
 [
 Throws
+NeedsSubjectPrincipal
+=
+NonSystem
 ]
 undefined
 importScripts

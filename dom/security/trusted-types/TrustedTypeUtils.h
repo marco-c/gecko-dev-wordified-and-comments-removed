@@ -642,6 +642,9 @@ const
 nsINode
 &
 aNode
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString
@@ -674,6 +677,9 @@ aSinkGroup
 nsIGlobalObject
 &
 aGlobalObject
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString
@@ -707,6 +713,9 @@ const
 nsINode
 &
 aNode
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString
@@ -934,6 +943,9 @@ JS
 Value
 >
 aBodyArg
+nsIPrincipal
+*
+aPrincipalOrNull
 ErrorResult
 &
 aError

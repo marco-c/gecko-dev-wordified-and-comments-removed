@@ -3533,6 +3533,9 @@ OwningTrustedScriptURLOrString
 >
 &
 aScriptURLs
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -3623,7 +3626,7 @@ sink
 kTrustedTypesOnlySinkGroup
 *
 pinnedGlobal
-nullptr
+aSubjectPrincipal
 compliantStringHolder
 aRv
 )

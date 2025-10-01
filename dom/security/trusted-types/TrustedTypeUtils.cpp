@@ -3140,6 +3140,9 @@ const
 nsINode
 &
 aNode
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString
@@ -3162,7 +3165,7 @@ aInput
 aSink
 aSinkGroup
 aNode
-nullptr
+aPrincipalOrNull
 aResultHolder
 aError
 )
@@ -3189,6 +3192,9 @@ aSinkGroup
 nsIGlobalObject
 &
 aGlobalObject
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString
@@ -3211,7 +3217,7 @@ aInput
 aSink
 aSinkGroup
 aGlobalObject
-nullptr
+aPrincipalOrNull
 aResultHolder
 aError
 )
@@ -3239,6 +3245,9 @@ const
 nsINode
 &
 aNode
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString
@@ -3261,7 +3270,7 @@ aInput
 aSink
 aSinkGroup
 aNode
-nullptr
+aPrincipalOrNull
 aResultHolder
 aError
 )
@@ -4164,6 +4173,9 @@ JS
 Value
 >
 aBodyArg
+nsIPrincipal
+*
+aPrincipalOrNull
 ErrorResult
 &
 aError
@@ -4827,6 +4839,7 @@ evalSink
 kTrustedTypesOnlySinkGroup
 *
 pinnedGlobal
+aPrincipalOrNull
 compliantStringHolder
 aError
 )
