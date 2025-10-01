@@ -7909,7 +7909,7 @@ false
 entry
 -
 >
-GetReady
+GetReadyOrRevalidating
 (
 &
 ready
