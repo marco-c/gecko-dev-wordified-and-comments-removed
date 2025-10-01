@@ -762,6 +762,8 @@ JSObject
 >
 mIncumbentJSGlobal
 ;
+}
+;
 class
 MOZ_STACK_CLASS
 CallSetup
@@ -780,6 +782,9 @@ const
 char
 *
 aExecutionReason
+CallbackObjectBase
+:
+:
 ExceptionHandling
 aExceptionHandling
 JS
@@ -913,14 +918,15 @@ ErrorResult
 mErrorResult
 ;
 const
+CallbackObjectBase
+:
+:
 ExceptionHandling
 mExceptionHandling
 ;
 const
 bool
 mIsMainThread
-;
-}
 ;
 }
 ;
