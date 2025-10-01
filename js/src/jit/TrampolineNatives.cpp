@@ -1788,6 +1788,8 @@ args
 array
 (
 )
+-
+1
 ;
 size_t
 maxArgc
@@ -1797,6 +1799,8 @@ args
 length
 (
 )
++
+1
 ;
 Rooted
 <
