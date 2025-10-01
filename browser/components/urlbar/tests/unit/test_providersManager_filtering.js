@@ -1556,6 +1556,9 @@ UrlbarUtils
 RESULT_SOURCE
 .
 TABS
+heuristic
+:
+true
 payload
 :
 {
@@ -1615,15 +1618,6 @@ foo2
 }
 )
 ]
-;
-matches
-[
-0
-]
-.
-heuristic
-=
-true
 ;
 let
 provider
