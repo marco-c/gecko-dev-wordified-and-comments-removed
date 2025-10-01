@@ -184,13 +184,6 @@ const
 nsIFrame
 *
 aFrame
-const
-dom
-:
-:
-CharacterDataBuffer
-&
-aBuffer
 )
 ;
 TextAutospace
