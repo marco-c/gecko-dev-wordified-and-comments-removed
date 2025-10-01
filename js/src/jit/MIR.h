@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EnumSet
 .
 h
@@ -5353,6 +5362,7 @@ MAryInstruction
 public
 MInstruction
 {
+MOZ_NO_UNIQUE_ADDRESS
 mozilla
 :
 :
@@ -8731,6 +8741,7 @@ MAryControlInstruction
 public
 MControlInstruction
 {
+MOZ_NO_UNIQUE_ADDRESS
 mozilla
 :
 :
@@ -8741,6 +8752,7 @@ Arity
 >
 operands_
 ;
+MOZ_NO_UNIQUE_ADDRESS
 mozilla
 :
 :
@@ -9011,6 +9023,7 @@ MVariadicT
 MControlInstruction
 >
 {
+MOZ_NO_UNIQUE_ADDRESS
 mozilla
 :
 :
