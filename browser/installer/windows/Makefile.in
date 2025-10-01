@@ -212,6 +212,12 @@ nsh
 \
 nsis
 /
+control_utils
+.
+nsh
+\
+nsis
+/
 postupdate_helper
 .
 nsh

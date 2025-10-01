@@ -87,6 +87,10 @@ shared
 .
 nsh
 \
+control_utils
+.
+nsh
+\
 defines
 .
 nsi
