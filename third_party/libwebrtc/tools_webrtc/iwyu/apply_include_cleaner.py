@@ -1284,6 +1284,24 @@ work_dir
 )
 ]
     
+cmd
+.
+append
+(
+"
+-
+-
+ignore
+-
+headers
+=
+.
+pb
+.
+h
+"
+)
+    
 for
 extra_arg
 in
