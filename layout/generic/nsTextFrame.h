@@ -218,6 +218,16 @@ const
 ;
 static
 bool
+ShouldSuppressLetterNumeralSpacing
+(
+const
+nsIFrame
+*
+aFrame
+)
+;
+static
+bool
 IsIdeograph
 (
 char32_t
