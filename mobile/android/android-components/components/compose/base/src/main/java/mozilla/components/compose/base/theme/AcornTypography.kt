@@ -957,6 +957,12 @@ sp
 )
 Composable
 Preview
+Suppress
+(
+"
+LongMethod
+"
+)
 private
 fun
 NewTypographyPreview
