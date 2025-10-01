@@ -3754,6 +3754,7 @@ advertiser
 :
 advertiser_name
 tile_id
+visible_topsites
 }
 =
 data
@@ -3872,6 +3873,7 @@ is_sponsored
 :
 true
 position
+visible_topsites
 }
 )
 ;
@@ -3942,6 +3944,7 @@ is_sponsored
 :
 true
 position
+visible_topsites
 }
 )
 ;
@@ -4142,6 +4145,15 @@ session
 return
 ;
 }
+const
+{
+visible_topsites
+}
+=
+action
+.
+data
+;
 switch
 (
 action
@@ -4190,6 +4202,7 @@ action
 data
 .
 isPinned
+visible_topsites
 }
 )
 ;
@@ -4233,6 +4246,7 @@ action
 data
 .
 isPinned
+visible_topsites
 }
 )
 ;

@@ -267,6 +267,13 @@ rows
 [
 ]
 }
+App
+:
+{
+isForStartupCache
+:
+false
+}
 TopSitesRows
 :
 TOP_SITES_DEFAULT_ROWS
