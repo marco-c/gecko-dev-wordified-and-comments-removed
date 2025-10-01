@@ -924,7 +924,16 @@ border
 -
 radius
 :
-3px
+var
+(
+-
+-
+border
+-
+radius
+-
+xsmall
+)
 ;
 border
 :

@@ -7533,7 +7533,16 @@ border
 -
 radius
 :
-5px
+var
+(
+-
+-
+border
+-
+radius
+-
+small
+)
 ;
 padding
 :
