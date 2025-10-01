@@ -384,6 +384,9 @@ every
 {
 getBottomToolbarHeight
 (
+any
+(
+)
 )
 }
 returns
@@ -507,7 +510,7 @@ navController
 mockk
 (
 )
-sessionId
+customTabSessionId
 =
 sessionId
 )
@@ -695,7 +698,7 @@ navController
 mockk
 (
 )
-sessionId
+customTabSessionId
 =
 sessionId
 )
@@ -814,7 +817,7 @@ navController
 mockk
 (
 )
-sessionId
+customTabSessionId
 =
 sessionId
 )
@@ -950,7 +953,7 @@ navController
 mockk
 (
 )
-sessionId
+customTabSessionId
 =
 sessionId
 )
@@ -1142,7 +1145,7 @@ navController
 mockk
 (
 )
-sessionId
+customTabSessionId
 =
 sessionId
 )
