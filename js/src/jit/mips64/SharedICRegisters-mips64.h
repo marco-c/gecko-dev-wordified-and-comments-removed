@@ -81,13 +81,6 @@ a5
 ;
 static
 constexpr
-Register
-BaselineSecondScratchReg
-=
-SecondScratchReg
-;
-static
-constexpr
 FloatRegister
 FloatReg0
 =
