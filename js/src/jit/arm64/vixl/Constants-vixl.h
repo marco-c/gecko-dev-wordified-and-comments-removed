@@ -2189,6 +2189,8 @@ CFlag
 ;
 enum
 Shift
+:
+int8_t
 {
 NO_SHIFT
 =
@@ -2213,6 +2215,8 @@ MSL
 ;
 enum
 Extend
+:
+int8_t
 {
 NO_EXTEND
 =
