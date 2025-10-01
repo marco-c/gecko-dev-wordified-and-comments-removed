@@ -3,6 +3,9 @@ eventTypes
 =
 [
 "
+MozTogglePictureInPicture
+"
+"
 pointerdown
 "
 "

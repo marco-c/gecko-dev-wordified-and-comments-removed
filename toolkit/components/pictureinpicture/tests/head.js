@@ -587,10 +587,13 @@ true
 }
 )
 ;
-video
+content
 .
-dispatchEvent
+windowUtils
+.
+dispatchEventToChromeOnly
 (
+video
 event
 )
 ;

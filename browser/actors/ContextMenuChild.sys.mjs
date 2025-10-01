@@ -629,10 +629,15 @@ this
 contentWindow
 )
 ;
-media
+this
 .
-dispatchEvent
+contentWindow
+.
+windowUtils
+.
+dispatchEventToChromeOnly
 (
+media
 event
 )
 ;
