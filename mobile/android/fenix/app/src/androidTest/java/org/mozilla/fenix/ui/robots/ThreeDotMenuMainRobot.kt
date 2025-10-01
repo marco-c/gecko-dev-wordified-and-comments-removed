@@ -2844,8 +2844,10 @@ By
 text
 (
 "
-Sign
-in
+Sync
+and
+save
+data
 "
 )
 )
@@ -7370,7 +7372,7 @@ R
 .
 string
 .
-sync_menu_sign_in
+sync_menu_sync_and_save_data
 )
 )
 private

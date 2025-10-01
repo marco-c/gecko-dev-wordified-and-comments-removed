@@ -923,7 +923,7 @@ view
 2284323
 Test
 fun
-openSignInTest
+openSyncAndSaveDataTest
 (
 )
 {

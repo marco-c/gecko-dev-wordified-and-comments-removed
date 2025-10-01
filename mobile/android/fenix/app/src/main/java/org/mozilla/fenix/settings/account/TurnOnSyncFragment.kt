@@ -791,7 +791,7 @@ R
 .
 string
 .
-preferences_sign_in
+preferences_sync_2
 )
 )
 }
