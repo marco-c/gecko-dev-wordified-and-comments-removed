@@ -206,7 +206,7 @@ is
 updated
 to
 [
-ABOUT_HOME
+ABOUT_HOME_URL
 ]
 .
 *

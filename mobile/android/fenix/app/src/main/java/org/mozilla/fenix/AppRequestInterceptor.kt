@@ -488,7 +488,7 @@ uri
 request
 to
 [
-ABOUT_HOME
+ABOUT_HOME_URL
 ]
 and
 navigates
