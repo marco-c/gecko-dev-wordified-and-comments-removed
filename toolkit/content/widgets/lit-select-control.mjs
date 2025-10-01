@@ -1436,6 +1436,9 @@ change
 bubbles
 :
 true
+composed
+:
+true
 }
 )
 )
