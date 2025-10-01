@@ -181,7 +181,7 @@ StyleTextAutospace
 &
 aStyleTextAutospace
 const
-nsTextFrame
+nsIFrame
 *
 aFrame
 )
@@ -215,16 +215,6 @@ CharClass
 aCurrClass
 )
 const
-;
-static
-bool
-ShouldSuppressLetterNumeralSpacing
-(
-const
-nsIFrame
-*
-aFrame
-)
 ;
 static
 bool
