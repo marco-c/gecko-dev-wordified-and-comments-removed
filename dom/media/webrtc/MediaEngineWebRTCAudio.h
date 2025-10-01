@@ -528,6 +528,7 @@ MediaEnginePrefs
 aSettings
 )
 ;
+const
 webrtc
 :
 :
@@ -535,6 +536,7 @@ AudioProcessing
 :
 :
 Config
+&
 AppliedConfig
 (
 MediaTrackGraph
@@ -629,6 +631,9 @@ AudioProcessing
 Config
 ConfigForPrefs
 (
+MediaTrackGraph
+*
+aGraph
 const
 MediaEnginePrefs
 &
@@ -728,6 +733,15 @@ mPacketizerInput
 ;
 MediaEnginePrefs
 mSettings
+;
+webrtc
+:
+:
+AudioProcessing
+:
+:
+Config
+mAppliedConfig
 ;
 bool
 mPlatformProcessingEnabled

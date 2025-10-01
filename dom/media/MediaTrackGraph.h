@@ -2996,6 +2996,11 @@ OutputForAECMightDrift
 (
 )
 ;
+bool
+OutputForAECIsPrimary
+(
+)
+;
 void
 RegisterCaptureTrackForWindow
 (
