@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_layers_ActiveElementManager_h
+mozilla_layers_ElementStateManager_h
 #
 define
-mozilla_layers_ActiveElementManager_h
+mozilla_layers_ElementStateManager_h
 #
 include
 "
@@ -60,11 +60,11 @@ uint8_t
 ;
 }
 class
-ActiveElementManager
+ElementStateManager
 final
 {
 ~
-ActiveElementManager
+ElementStateManager
 (
 )
 ;
@@ -72,9 +72,9 @@ public
 :
 NS_INLINE_DECL_REFCOUNTING
 (
-ActiveElementManager
+ElementStateManager
 )
-ActiveElementManager
+ElementStateManager
 (
 )
 ;
