@@ -361,12 +361,6 @@ findTabOrCustomTabOrSelectedTab
 (
 currentTabId
 )
-Suppress
-(
-"
-ComplexMethod
-"
-)
 fun
 handleMenuInteraction
 (

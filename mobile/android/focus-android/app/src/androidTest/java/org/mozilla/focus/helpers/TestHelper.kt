@@ -466,12 +466,6 @@ util
 concurrent
 .
 TimeUnit
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 object
 TestHelper
 {

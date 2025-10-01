@@ -365,9 +365,6 @@ engineInputStream
 Suppress
 (
 "
-SwallowedException
-"
-"
 DEPRECATION
 "
 )

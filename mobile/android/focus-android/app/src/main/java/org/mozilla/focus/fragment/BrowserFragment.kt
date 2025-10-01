@@ -1893,15 +1893,6 @@ false
 }
 }
 }
-Suppress
-(
-"
-LongMethod
-"
-"
-ComplexMethod
-"
-)
 override
 fun
 onCreateView
@@ -4537,9 +4528,6 @@ onHomePressed
 false
 Suppress
 (
-"
-ComplexMethod
-"
 "
 ReturnCount
 "

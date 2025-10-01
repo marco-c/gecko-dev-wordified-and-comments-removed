@@ -156,12 +156,6 @@ settings
 permissions
 .
 SitePermissionOption
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 class
 SitePermissionOptionsStorage
 (

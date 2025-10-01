@@ -508,9 +508,6 @@ intent
 Suppress
 (
 "
-ComplexMethod
-"
-"
 ReturnCount
 "
 )

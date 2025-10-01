@@ -3918,12 +3918,6 @@ BrowserMenuController
 .
 kt
 BrowserMenuController
-Suppress
-(
-"
-ComplexMethod
-"
-)
 fun
 handleMenuInteraction
 (
@@ -4779,7 +4773,7 @@ MainActivityNavigation
 Suppress
 (
 "
-ComplexMethod
+CyclomaticComplexMethod
 "
 )
 fun

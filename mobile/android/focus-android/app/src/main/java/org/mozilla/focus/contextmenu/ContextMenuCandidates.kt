@@ -144,9 +144,6 @@ ContextMenuCandidates
 Suppress
 (
 "
-LongParameterList
-"
-"
 UndocumentedPublicFunction
 "
 )

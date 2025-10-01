@@ -396,12 +396,6 @@ button
 *
 /
 Composable
-Suppress
-(
-"
-LongMethod
-"
-)
 fun
 OnBoardingSecondScreenCompose
 (

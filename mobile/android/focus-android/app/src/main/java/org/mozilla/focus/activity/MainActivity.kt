@@ -537,9 +537,6 @@ REQUEST_TIME_OUT
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 LargeClass
 "
 )

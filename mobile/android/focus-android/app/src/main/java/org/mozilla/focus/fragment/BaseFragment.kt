@@ -252,12 +252,6 @@ Locked
 (
 )
 }
-Suppress
-(
-"
-SwallowedException
-"
-)
 override
 fun
 onCreateAnimation

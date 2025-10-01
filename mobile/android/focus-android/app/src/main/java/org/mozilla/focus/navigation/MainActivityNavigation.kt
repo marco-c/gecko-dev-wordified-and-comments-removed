@@ -537,12 +537,6 @@ needed
 .
 *
 /
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 class
 MainActivityNavigation
 (
@@ -1690,7 +1684,7 @@ FRAGMENT_TAG
 Suppress
 (
 "
-ComplexMethod
+CyclomaticComplexMethod
 "
 )
 fun

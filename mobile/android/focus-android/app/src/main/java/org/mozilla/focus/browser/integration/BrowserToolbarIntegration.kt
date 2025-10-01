@@ -666,9 +666,6 @@ LongParameterList
 "
 LargeClass
 "
-"
-TooManyFunctions
-"
 )
 class
 BrowserToolbarIntegration

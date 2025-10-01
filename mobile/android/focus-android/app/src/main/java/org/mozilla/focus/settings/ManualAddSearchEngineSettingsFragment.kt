@@ -426,12 +426,6 @@ util
 concurrent
 .
 TimeUnit
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 class
 ManualAddSearchEngineSettingsFragment
 :

@@ -365,12 +365,6 @@ screen
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 fun
 installShortCut
 (

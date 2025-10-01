@@ -182,9 +182,6 @@ visible
 Suppress
 (
 "
-TooManyFunctions
-"
-"
 EmptyFunctionBlock
 "
 )

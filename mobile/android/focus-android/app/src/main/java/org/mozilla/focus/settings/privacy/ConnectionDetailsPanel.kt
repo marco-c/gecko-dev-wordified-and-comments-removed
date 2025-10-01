@@ -194,12 +194,6 @@ icons
 R
 as
 iconsR
-SuppressWarnings
-(
-"
-LongParameterList
-"
-)
 class
 ConnectionDetailsPanel
 (

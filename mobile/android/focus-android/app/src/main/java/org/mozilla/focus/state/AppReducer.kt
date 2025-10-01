@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-file
-:
-Suppress
-(
-"
-TooManyFunctions
-"
-)
 package
 org
 .
@@ -120,12 +112,6 @@ s
 .
 *
 /
-Suppress
-(
-"
-ComplexMethod
-"
-)
 object
 AppReducer
 :
@@ -1585,7 +1571,7 @@ value
 Suppress
 (
 "
-ComplexMethod
+CyclomaticComplexMethod
 "
 "
 ReturnCount
