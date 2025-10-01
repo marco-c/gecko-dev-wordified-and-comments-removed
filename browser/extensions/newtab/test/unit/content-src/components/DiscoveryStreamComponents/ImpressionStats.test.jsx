@@ -870,9 +870,6 @@ undefined
 features
 :
 undefined
-is_list_card
-:
-undefined
 format
 :
 "
@@ -917,9 +914,6 @@ undefined
 features
 :
 undefined
-is_list_card
-:
-undefined
 format
 :
 "
@@ -962,9 +956,6 @@ topic
 :
 undefined
 features
-:
-undefined
-is_list_card
 :
 undefined
 format
@@ -1521,9 +1512,6 @@ undefined
 features
 :
 undefined
-is_list_card
-:
-undefined
 format
 :
 "
@@ -1568,9 +1556,6 @@ undefined
 features
 :
 undefined
-is_list_card
-:
-undefined
 format
 :
 "
@@ -1613,9 +1598,6 @@ topic
 :
 undefined
 features
-:
-undefined
-is_list_card
 :
 undefined
 format
