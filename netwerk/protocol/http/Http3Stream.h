@@ -115,6 +115,17 @@ return
 this
 ;
 }
+Http3ConnectUDPStream
+*
+GetHttp3ConnectUDPStream
+(
+)
+override
+{
+return
+nullptr
+;
+}
 nsresult
 TryActivating
 (

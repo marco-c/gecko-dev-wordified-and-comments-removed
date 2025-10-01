@@ -88,7 +88,7 @@ NS_DECL_NSIOUTPUTSTREAMCALLBACK
 explicit
 Http3WebTransportStream
 (
-Http3Session
+Http3SessionBase
 *
 aSession
 uint64_t
@@ -122,7 +122,7 @@ aCallback
 explicit
 Http3WebTransportStream
 (
-Http3Session
+Http3SessionBase
 *
 aSession
 uint64_t
@@ -173,6 +173,17 @@ this
 Http3Stream
 *
 GetHttp3Stream
+(
+)
+override
+{
+return
+nullptr
+;
+}
+Http3ConnectUDPStream
+*
+GetHttp3ConnectUDPStream
 (
 )
 override

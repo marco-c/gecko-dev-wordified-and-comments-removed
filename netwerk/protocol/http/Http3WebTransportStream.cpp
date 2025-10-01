@@ -521,7 +521,7 @@ Http3WebTransportStream
 :
 Http3WebTransportStream
 (
-Http3Session
+Http3SessionBase
 *
 aSession
 uint64_t
@@ -600,7 +600,7 @@ Http3WebTransportStream
 :
 Http3WebTransportStream
 (
-Http3Session
+Http3SessionBase
 *
 aSession
 uint64_t
