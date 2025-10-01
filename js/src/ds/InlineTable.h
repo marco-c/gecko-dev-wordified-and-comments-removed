@@ -67,6 +67,7 @@ size_t
 InlineEntries
 >
 class
+MOZ_STANDALONE_DEBUG
 InlineTable
 :
 private
@@ -2154,6 +2155,7 @@ AllocPolicy
 TempAllocPolicy
 >
 class
+MOZ_STANDALONE_DEBUG
 InlineMap
 {
 using
