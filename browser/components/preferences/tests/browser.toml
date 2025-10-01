@@ -437,6 +437,13 @@ js
 ]
 [
 "
+browser_downloads
+.
+js
+"
+]
+[
+"
 browser_ensure_prefs_bindings_initted
 .
 js
