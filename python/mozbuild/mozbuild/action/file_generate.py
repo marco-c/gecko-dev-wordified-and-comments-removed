@@ -15,6 +15,12 @@ buildconfig
 from
 mozbuild
 .
+logging
+import
+serialize_root_logger
+from
+mozbuild
+.
 makeutil
 import
 Makefile
@@ -30,6 +36,9 @@ mozbuild
 util
 import
 FileAvoidWrite
+serialize_root_logger
+(
+)
 def
 main
 (
