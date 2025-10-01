@@ -1149,7 +1149,7 @@ setVerticalClipping
 BrowsingContext
 ?
 aContext
-float
+long
 aOffset
 )
 ;
@@ -1162,7 +1162,7 @@ setDynamicToolbarMaxHeight
 BrowsingContext
 ?
 aContext
-float
+long
 aHeight
 )
 ;
