@@ -163,10 +163,6 @@ test
 /
 browser
 /
-stub
--
-generators
-/
 test
 -
 css
@@ -337,10 +333,6 @@ webconsole
 test
 /
 browser
-/
-stub
--
-generators
 /
 test
 -

@@ -49,10 +49,6 @@ test
 /
 browser
 /
-stub
--
-generators
-/
 test
 -
 css
