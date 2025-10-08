@@ -49,7 +49,7 @@ mozilla
 .
 org
 /
-PL
+MPL
 /
 2
 .
