@@ -826,7 +826,7 @@ scale_height_strict
 ;
 dst_width
 =
-AssertedCast
+SaturatingCast
 <
 int32_t
 >
@@ -850,7 +850,7 @@ inputWidth
 ;
 dst_height
 =
-AssertedCast
+SaturatingCast
 <
 int32_t
 >
