@@ -11618,10 +11618,6 @@ CanvasUtils
 :
 ImageExtraction
 aExtractionBehavior
-const
-nsACString
-&
-aRandomizationKey
 nsIInputStream
 *
 *
@@ -11738,7 +11734,6 @@ get
 format
 encoder
 aEncoderOptions
-aRandomizationKey
 aStream
 )
 ;
@@ -34040,7 +34035,7 @@ CanvasUtils
 :
 :
 ImageExtraction
-extractionBehavior
+permission
 =
 CanvasUtils
 :
@@ -34055,7 +34050,7 @@ if
 mCanvasElement
 )
 {
-extractionBehavior
+permission
 =
 CanvasUtils
 :
@@ -34075,7 +34070,7 @@ if
 mOffscreenCanvas
 )
 {
-extractionBehavior
+permission
 =
 CanvasUtils
 :
@@ -34091,7 +34086,7 @@ aSubjectPrincipal
 }
 if
 (
-extractionBehavior
+permission
 =
 =
 CanvasUtils
@@ -34156,7 +34151,7 @@ randomData
 ;
 if
 (
-extractionBehavior
+permission
 =
 =
 CanvasUtils
@@ -34178,7 +34173,7 @@ TryToGenerateRandomDataForPlaceholderCanvasData
 else
 if
 (
-extractionBehavior
+permission
 =
 =
 CanvasUtils
@@ -34266,7 +34261,7 @@ isShared
 ;
 if
 (
-extractionBehavior
+permission
 =
 =
 CanvasUtils

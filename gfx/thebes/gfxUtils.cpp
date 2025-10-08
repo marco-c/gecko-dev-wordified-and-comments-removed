@@ -5955,9 +5955,6 @@ imgIEncoder
 :
 INPUT_FORMAT_HOSTARGB
 aOutputOptions
-VoidCString
-(
-)
 )
 ;
 dataSurface
@@ -9107,9 +9104,6 @@ get
 format
 encoder
 aEncoderOptions
-VoidCString
-(
-)
 outStream
 )
 ;
@@ -9314,9 +9308,6 @@ get
 format
 encoder
 aEncoderOptions
-VoidCString
-(
-)
 outStream
 )
 ;

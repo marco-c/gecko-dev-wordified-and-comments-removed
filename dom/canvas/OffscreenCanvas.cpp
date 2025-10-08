@@ -2629,7 +2629,7 @@ CanvasUtils
 :
 :
 ImageExtraction
-extractionBehaviour
+spoofing
 =
 CanvasUtils
 :
@@ -2664,7 +2664,7 @@ callback
 type
 encodeOptions
 false
-extractionBehaviour
+spoofing
 aRv
 )
 ;
@@ -2868,7 +2868,7 @@ CanvasUtils
 :
 :
 ImageExtraction
-extractionBehaviour
+spoofing
 =
 CanvasUtils
 :
@@ -2898,7 +2898,7 @@ aCx
 callback
 aType
 aParams
-extractionBehaviour
+spoofing
 aRv
 )
 ;

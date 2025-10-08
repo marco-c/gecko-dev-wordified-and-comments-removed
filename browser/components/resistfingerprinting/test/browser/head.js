@@ -3370,7 +3370,7 @@ expectedResults
 .
 shouldRFPApply
 =
-false
+true
 ;
 await
 SpecialPowers
@@ -3486,7 +3486,7 @@ expectedResults
 .
 shouldRFPApply
 =
-false
+true
 ;
 await
 SpecialPowers
@@ -3659,7 +3659,11 @@ overrides
 "
 "
 -
-AllTargets
+NavigatorHWConcurrency
+-
+NavigatorHWConcurrencyTiered
+-
+CanvasRandomization
 "
 ]
 ]

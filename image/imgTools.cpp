@@ -2002,9 +2002,6 @@ imgIEncoder
 :
 INPUT_FORMAT_HOSTARGB
 aOutputOptions
-VoidCString
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS

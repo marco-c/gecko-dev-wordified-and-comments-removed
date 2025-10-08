@@ -315,7 +315,6 @@ ImageExtraction
 Unrestricted
 Placeholder
 Randomize
-EfficientRandomize
 }
 ;
 ImageExtraction

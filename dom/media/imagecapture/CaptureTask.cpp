@@ -809,9 +809,6 @@ ImageExtraction
 :
 :
 Unrestricted
-VoidCString
-(
-)
 new
 EncodeComplete
 (

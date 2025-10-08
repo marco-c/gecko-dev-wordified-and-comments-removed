@@ -35,14 +35,12 @@ void
 aBytes
 size_t
 aLength
-HashNumber
-startingHash
 )
 {
 uint32_t
 hash
 =
-startingHash
+0
 ;
 const
 char
