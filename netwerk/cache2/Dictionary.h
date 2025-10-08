@@ -816,12 +816,7 @@ nsICacheEntry
 *
 aEntry
 )
-{
-mEntry
-=
-aEntry
 ;
-}
 void
 Write
 (
@@ -906,6 +901,12 @@ mEntries
 ;
 DictCacheList
 mPendingEntries
+;
+bool
+mDeferredWrites
+{
+false
+}
 ;
 }
 ;
