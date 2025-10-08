@@ -26,6 +26,13 @@ derive
 Deserialize
 )
 ]
+#
+[
+allow
+(
+dead_code
+)
+]
 struct
 Newtype
 (
@@ -37,6 +44,13 @@ i32
 derive
 (
 Deserialize
+)
+]
+#
+[
+allow
+(
+dead_code
 )
 ]
 struct

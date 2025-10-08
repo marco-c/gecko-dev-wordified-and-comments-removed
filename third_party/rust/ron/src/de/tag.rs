@@ -183,7 +183,7 @@ V
 )
 -
 >
-std
+core
 :
 :
 result

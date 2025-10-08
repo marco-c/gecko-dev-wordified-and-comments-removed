@@ -132,7 +132,7 @@ T
 :
 PartialEq
 +
-std
+core
 :
 :
 fmt

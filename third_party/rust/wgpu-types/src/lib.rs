@@ -26161,6 +26161,7 @@ bits
 [
 derive
 (
+Clone
 Debug
 )
 ]
@@ -27627,6 +27628,7 @@ UNKNOWN
 [
 derive
 (
+Clone
 Debug
 )
 ]

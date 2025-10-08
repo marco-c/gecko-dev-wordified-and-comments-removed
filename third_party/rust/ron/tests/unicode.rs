@@ -225,7 +225,9 @@ assert_eq
 (
 error
 .
-position
+span
+.
+end
 Position
 {
 line
@@ -291,7 +293,9 @@ assert_eq
 (
 error
 .
-position
+span
+.
+end
 Position
 {
 line

@@ -2744,7 +2744,7 @@ DeserializeOwned
 +
 PartialEq
 +
-std
+core
 :
 :
 fmt

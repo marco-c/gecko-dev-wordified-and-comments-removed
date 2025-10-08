@@ -1065,12 +1065,12 @@ static
 )
 >
 {
-Some
-(
-&
 self
 .
 inner
+.
+source
+(
 )
 }
 }

@@ -1,4 +1,13 @@
 use
+alloc
+:
+:
+{
+format
+vec
+}
+;
+use
 serde_derive
 :
 :
@@ -727,7 +736,7 @@ test_map
 )
 {
 use
-std
+alloc
 :
 :
 collections
@@ -2005,7 +2014,7 @@ Into
 Number
 >
 +
-std
+core
 :
 :
 fmt
@@ -2050,7 +2059,7 @@ contains
 )
 &
 &
-std
+core
 :
 :
 any
@@ -2447,6 +2456,18 @@ ron_str_pretty
 check_pretty
 )
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+std
+"
+)
+]
+{
 let
 mut
 ron_writer
@@ -2544,4 +2565,5 @@ ron_writer_pretty
 check_pretty
 )
 ;
+}
 }

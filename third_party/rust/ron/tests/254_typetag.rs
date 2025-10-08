@@ -1,5 +1,5 @@
 use
-std
+core
 :
 :
 fmt
@@ -77,7 +77,7 @@ type
 trait
 MyTrait
 :
-std
+core
 :
 :
 fmt
@@ -504,7 +504,7 @@ type
 trait
 MyTrait
 :
-std
+core
 :
 :
 fmt
