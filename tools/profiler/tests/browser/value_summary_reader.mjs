@@ -315,7 +315,7 @@ readUint8
 (
 )
 {
-let
+const
 result
 =
 this
@@ -347,7 +347,7 @@ readUint16
 (
 )
 {
-let
+const
 result
 =
 this
@@ -380,7 +380,7 @@ readUint32
 (
 )
 {
-let
+const
 result
 =
 this
@@ -413,7 +413,7 @@ readInt8
 (
 )
 {
-let
+const
 result
 =
 this
@@ -445,7 +445,7 @@ readInt16
 (
 )
 {
-let
+const
 result
 =
 this
@@ -478,7 +478,7 @@ readInt32
 (
 )
 {
-let
+const
 result
 =
 this
@@ -511,7 +511,7 @@ readFloat64
 (
 )
 {
-let
+const
 result
 =
 this
@@ -544,7 +544,7 @@ readString
 (
 )
 {
-let
+const
 encodingAndLength
 =
 this
@@ -553,7 +553,7 @@ readUint16
 (
 )
 ;
-let
+const
 length
 =
 encodingAndLength
@@ -566,7 +566,7 @@ encodingAndLength
 14
 )
 ;
-let
+const
 encoding
 =
 encodingAndLength
@@ -601,7 +601,7 @@ encoding
 STRING_ENCODING_LATIN1
 )
 {
-let
+const
 decoder
 =
 new
@@ -658,7 +658,7 @@ encoding
 STRING_ENCODING_UTF8
 )
 {
-let
+const
 decoder
 =
 new
@@ -717,7 +717,7 @@ encoding
 STRING_ENCODING_TWO_BYTE
 )
 {
-let
+const
 decoder
 =
 new
@@ -743,7 +743,7 @@ it
 ?
 ugh
 .
-let
+const
 size
 =
 length
@@ -802,7 +802,7 @@ depth
 shapes
 )
 {
-let
+const
 shapeId
 =
 reader
@@ -811,7 +811,7 @@ readUint32
 (
 )
 ;
-let
+const
 shape
 =
 shapes
@@ -845,7 +845,7 @@ shape
 0
 ]
 ;
-let
+const
 preview
 =
 {
@@ -927,7 +927,7 @@ readUint8
 continue
 ;
 }
-let
+const
 nestedSummary
 =
 readValueSummary
@@ -989,7 +989,7 @@ parameterNames
 [
 ]
 ;
-let
+const
 numParameterNames
 =
 reader
@@ -1044,7 +1044,7 @@ depth
 shapes
 )
 {
-let
+const
 shapeId
 =
 reader
@@ -1053,7 +1053,7 @@ readUint32
 (
 )
 ;
-let
+const
 shape
 =
 shapes
@@ -1087,7 +1087,7 @@ shape
 0
 ]
 ;
-let
+const
 preview
 =
 {
@@ -1148,7 +1148,7 @@ i
 +
 )
 {
-let
+const
 keySummary
 =
 readValueSummary
@@ -1160,7 +1160,7 @@ depth
 shapes
 )
 ;
-let
+const
 valueSummary
 =
 readValueSummary
@@ -1229,7 +1229,7 @@ depth
 shapes
 )
 {
-let
+const
 shapeId
 =
 reader
@@ -1238,7 +1238,7 @@ readUint32
 (
 )
 ;
-let
+const
 shape
 =
 shapes
@@ -1272,7 +1272,7 @@ shape
 0
 ]
 ;
-let
+const
 preview
 =
 {
@@ -1286,7 +1286,7 @@ kind
 Object
 "
 ;
-let
+const
 hasDenseElements
 =
 !
@@ -1297,7 +1297,7 @@ flags
 GENERIC_OBJECT_HAS_DENSE_ELEMENTS
 )
 ;
-let
+const
 ownProperties
 =
 {
@@ -1343,7 +1343,7 @@ i
 +
 )
 {
-let
+const
 header
 =
 reader
@@ -1352,7 +1352,7 @@ peekUint8
 (
 )
 ;
-let
+const
 id
 =
 shape
@@ -1360,7 +1360,7 @@ shape
 i
 ]
 ;
-let
+const
 desc
 =
 {
@@ -1415,7 +1415,7 @@ shapes
 }
 else
 {
-let
+const
 nestedSummary
 =
 readValueSummary
@@ -1454,7 +1454,7 @@ if
 hasDenseElements
 )
 {
-let
+const
 elementsLength
 =
 reader
@@ -1516,7 +1516,7 @@ ownPropertiesLength
 +
 +
 ;
-let
+const
 nestedSummary
 =
 readValueSummary
@@ -1578,7 +1578,7 @@ reader
 shapes
 )
 {
-let
+const
 shapeId
 =
 reader
@@ -1587,7 +1587,7 @@ readUint32
 (
 )
 ;
-let
+const
 shape
 =
 shapes
@@ -1631,7 +1631,7 @@ depth
 shapes
 )
 {
-let
+const
 preview
 =
 {
@@ -1669,7 +1669,7 @@ toLowerCase
 (
 )
 ;
-let
+const
 subkindAndIsConnected
 =
 reader
@@ -1678,7 +1678,7 @@ readUint8
 (
 )
 ;
-let
+const
 subkind
 =
 subkindAndIsConnected
@@ -1748,7 +1748,7 @@ i
 +
 )
 {
-let
+const
 attrName
 =
 reader
@@ -1757,7 +1757,7 @@ readString
 (
 )
 ;
-let
+const
 attrVal
 =
 reader
@@ -1941,7 +1941,7 @@ reader
 shapes
 )
 ;
-let
+const
 startIndex
 =
 reader
@@ -1950,7 +1950,7 @@ getIndex
 (
 )
 ;
-let
+const
 size
 =
 reader
@@ -1961,7 +1961,7 @@ readUint32
 ;
 try
 {
-let
+const
 version
 =
 reader
@@ -1981,7 +1981,7 @@ EXTERNAL_SUMMARY_EXPECTED_VERSION
 return
 ;
 }
-let
+const
 kind
 =
 reader
@@ -2047,7 +2047,7 @@ depth
 shapes
 )
 {
-let
+const
 result
 =
 {
@@ -2076,7 +2076,7 @@ frozen
 false
 }
 ;
-let
+const
 kind
 =
 reader
@@ -2260,7 +2260,7 @@ depth
 shapes
 )
 {
-let
+const
 header
 =
 reader
@@ -2269,14 +2269,14 @@ readUint8
 (
 )
 ;
-let
+const
 type
 =
 header
 &
 0x0f
 ;
-let
+const
 flags
 =
 (
@@ -2304,7 +2304,7 @@ flags
 NUMBER_IS_OUT_OF_LINE_MAGIC
 )
 {
-let
+const
 value
 =
 reader
