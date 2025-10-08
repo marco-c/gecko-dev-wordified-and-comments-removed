@@ -804,7 +804,7 @@ test_BackupService_idle_not_expired_backup
 let
 fiveSecondsAgo
 =
-ChromeUtils
+Date
 .
 now
 (

@@ -8301,7 +8301,7 @@ Math
 .
 floor
 (
-ChromeUtils
+Date
 .
 now
 (
@@ -8476,7 +8476,7 @@ Math
 .
 floor
 (
-ChromeUtils
+Date
 .
 now
 (
@@ -21456,7 +21456,7 @@ Math
 .
 floor
 (
-ChromeUtils
+Date
 .
 now
 (
@@ -21808,7 +21808,7 @@ Math
 .
 floor
 (
-ChromeUtils
+Date
 .
 now
 (
