@@ -630,6 +630,7 @@ Scroll
 Sticky
 ImagePipeline
 APZ
+ViewTransition
 }
 ;
 inline
