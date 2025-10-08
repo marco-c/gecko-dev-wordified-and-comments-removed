@@ -101,9 +101,14 @@ T
 union
 Union
 {
+constexpr
 Union
 (
 )
+:
+empty
+{
+}
 {
 }
 explicit
@@ -215,6 +220,9 @@ Union
 }
 NonConstT
 val
+;
+char
+empty
 ;
 }
 mStorage
