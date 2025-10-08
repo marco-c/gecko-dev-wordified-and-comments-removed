@@ -1530,16 +1530,8 @@ if
 isFullyOccluded
 &
 &
-(
 !
 mHasBeenShown
-|
-|
-nsWindow
-:
-:
-sIsRestoringSession
-)
 )
 {
 isFullyOccluded
