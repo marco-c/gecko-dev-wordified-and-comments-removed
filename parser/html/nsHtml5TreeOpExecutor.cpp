@@ -634,6 +634,13 @@ RemoveFromStartOfOpQueue
 mOpsToRemove
 )
 ;
+mExecutor
+-
+>
+FlushSpeculativeLoads
+(
+)
+;
 }
 void
 SetNumberOfOpsToRemove

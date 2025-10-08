@@ -849,6 +849,17 @@ Run
 )
 override
 {
+if
+(
+!
+mExecutor
+-
+>
+IsFlushing
+(
+)
+)
+{
 mExecutor
 -
 >
@@ -856,6 +867,7 @@ FlushSpeculativeLoads
 (
 )
 ;
+}
 return
 NS_OK
 ;
