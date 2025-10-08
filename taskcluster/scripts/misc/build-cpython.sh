@@ -254,9 +254,9 @@ isysroot
 MOZ_FETCHES_DIR
 }
 /
-MacOSX15
+MacOSX26
 .
-4
+0
 .
 sdk
 -

@@ -152,9 +152,9 @@ isysroot
 MOZ_FETCHES_DIR
 }
 /
-MacOSX13
+MacOSX26
 .
-3
+0
 .
 sdk
 "
@@ -213,9 +213,9 @@ isysroot
 MOZ_FETCHES_DIR
 }
 /
-MacOSX13
+MacOSX26
 .
-3
+0
 .
 sdk
 "
