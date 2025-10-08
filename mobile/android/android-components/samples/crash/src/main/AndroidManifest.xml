@@ -246,7 +246,9 @@ style
 /
 Theme
 .
-AppCompat
+Material3
+.
+DayNight
 "
 android
 :
