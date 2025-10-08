@@ -605,7 +605,7 @@ OwnerDoc
 )
 -
 >
-GetCSSLoader
+CSSLoader
 (
 )
 }

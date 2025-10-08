@@ -484,7 +484,7 @@ GetCompatibilityMode
 aDocument
 -
 >
-GetCSSLoader
+CSSLoader
 (
 )
 }

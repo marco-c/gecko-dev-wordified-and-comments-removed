@@ -189,17 +189,8 @@ Document
 :
 SetDocumentURI
 ;
-explicit
 nsHTMLDocument
 (
-mozilla
-:
-:
-dom
-:
-:
-LoadedAsData
-aLoadedAsData
 )
 ;
 virtual

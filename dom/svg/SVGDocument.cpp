@@ -157,10 +157,6 @@ clone
 new
 SVGDocument
 (
-LoadedAsData
-:
-:
-AsDataWithStyling
 )
 ;
 nsresult
@@ -206,14 +202,6 @@ aPrincipal
 nsIPrincipal
 *
 aPartitionedPrincipal
-mozilla
-:
-:
-dom
-:
-:
-LoadedAsData
-aLoadedAsData
 )
 {
 RefPtr
@@ -225,7 +213,6 @@ doc
 new
 SVGDocument
 (
-aLoadedAsData
 )
 ;
 nsresult
