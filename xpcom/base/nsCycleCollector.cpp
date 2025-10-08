@@ -16982,6 +16982,13 @@ ProcessStableStateQueue
 (
 )
 ;
+ccJSContext
+-
+>
+ClearUncaughtRejectionObservers
+(
+)
+;
 }
 NS_WARNING_ASSERTION
 (
