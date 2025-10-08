@@ -54,6 +54,11 @@ compilerOptions
 :
 {
 "
+noImplicitAny
+"
+:
+true
+"
 checkJs
 "
 :
