@@ -1795,6 +1795,11 @@ feature
 "
 FEATURE_FOLLOW_SECTION_BUTTON
 "
+messageData
+=
+{
+messageData
+}
 /
 >
 <
