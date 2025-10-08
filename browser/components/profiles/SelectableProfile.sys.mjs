@@ -1009,6 +1009,14 @@ disk
 .
 *
 *
+param
+{
+string
+|
+number
+}
+size
+*
 returns
 {
 string
