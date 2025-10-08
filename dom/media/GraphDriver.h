@@ -1611,9 +1611,6 @@ mInitialTimeStamp
 TimeStamp
 mCurrentTimeStamp
 ;
-TimeStamp
-mLastTimeStamp
-;
 }
 ;
 class
