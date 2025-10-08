@@ -109,7 +109,7 @@ actors
 ;
 import
 {
-getSourceTextContent
+getSourceTextContentForLocation
 }
 from
 "
@@ -940,7 +940,7 @@ false
 const
 content
 =
-getSourceTextContent
+getSourceTextContentForLocation
 (
 state
 location
@@ -1103,7 +1103,7 @@ hasSourceMapMessage
 const
 content
 =
-getSourceTextContent
+getSourceTextContentForLocation
 (
 state
 location
