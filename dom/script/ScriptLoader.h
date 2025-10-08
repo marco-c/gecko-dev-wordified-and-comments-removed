@@ -2010,17 +2010,6 @@ UpdateCache
 )
 ;
 void
-FinishCollectingDelazifications
-(
-JSContext
-*
-aCx
-ScriptLoadRequest
-*
-aRequest
-)
-;
-void
 EncodeBytecodeAndSave
 (
 JSContext
