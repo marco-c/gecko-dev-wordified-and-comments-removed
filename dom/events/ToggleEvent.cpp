@@ -12,7 +12,9 @@ h
 #
 include
 "
-nsContentUtils
+mozilla
+/
+MiscEvents
 .
 h
 "
@@ -30,9 +32,7 @@ h
 #
 include
 "
-mozilla
-/
-MiscEvents
+nsContentUtils
 .
 h
 "
