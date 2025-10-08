@@ -200,7 +200,12 @@ false
 )
 mUsedPrivateDNS
 (
-false
+aProviderFlags
+&
+nsISocketProvider
+:
+:
+USED_PRIVATE_DNS
 )
 mNPNCompleted
 (
