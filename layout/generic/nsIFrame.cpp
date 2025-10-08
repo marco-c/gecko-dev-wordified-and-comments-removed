@@ -54183,6 +54183,16 @@ Overflow
 otype
 )
 ;
+if
+(
+!
+o
+.
+IsEmpty
+(
+)
+)
+{
 o
 =
 nsDisplayTransform
@@ -54195,6 +54205,7 @@ this
 refBox
 )
 ;
+}
 }
 if
 (
