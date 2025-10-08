@@ -3,6 +3,11 @@ UNIFIED_SOURCES
 =
 [
 "
+TestAclAceRange
+.
+cpp
+"
+"
 TestJumpListBuilder
 .
 cpp
