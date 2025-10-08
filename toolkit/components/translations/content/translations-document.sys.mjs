@@ -20227,7 +20227,7 @@ this
 #
 domParser
 .
-parseFromString
+parseFromSafeString
 (
 <
 !
