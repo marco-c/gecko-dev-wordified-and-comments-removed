@@ -594,11 +594,11 @@ JSObject_Slots4
 )
 sizeof
 (
-JSObject_Slots8
+JSObject_Slots6
 )
 sizeof
 (
-JSObject_Slots8
+JSObject_Slots6
 )
 sizeof
 (

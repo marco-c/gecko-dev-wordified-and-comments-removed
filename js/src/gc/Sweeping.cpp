@@ -375,6 +375,10 @@ OBJECT4_FOREGROUND
 AllocKind
 :
 :
+OBJECT6_FOREGROUND
+AllocKind
+:
+:
 OBJECT8_FOREGROUND
 AllocKind
 :
@@ -427,6 +431,14 @@ OBJECT4_BACKGROUND
 AllocKind
 :
 :
+ARRAYBUFFER6
+AllocKind
+:
+:
+OBJECT6_BACKGROUND
+AllocKind
+:
+:
 ARRAYBUFFER8
 AllocKind
 :
@@ -476,6 +488,10 @@ AllocKind
 :
 :
 OBJECT4
+AllocKind
+:
+:
+OBJECT6
 AllocKind
 :
 :
