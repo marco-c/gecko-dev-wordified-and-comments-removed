@@ -96,13 +96,13 @@ using
 dom
 :
 :
-WorkerPrivate
+StrongWorkerRef
 ;
 using
 dom
 :
 :
-StrongWorkerRef
+WorkerPrivate
 ;
 StaticMutex
 CanvasShutdownManager
