@@ -2555,6 +2555,14 @@ split
 view
 -
 panel
+tabpanels
+>
+.
+split
+-
+view
+-
+splitter
 deck
 >
 .
