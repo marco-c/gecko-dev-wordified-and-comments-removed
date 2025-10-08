@@ -118,6 +118,15 @@ template
 .
 html
 "
+"
+data
+/
+test_keep_file_open
+.
+worker
+.
+js
+"
 ]
 [
 "
