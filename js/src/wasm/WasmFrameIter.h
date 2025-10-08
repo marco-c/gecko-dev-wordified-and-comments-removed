@@ -1182,8 +1182,6 @@ jit
 MacroAssembler
 &
 masm
-unsigned
-framePushed
 uint32_t
 fallbackOffset
 ImportOffsets
@@ -1200,8 +1198,6 @@ jit
 MacroAssembler
 &
 masm
-unsigned
-framePushed
 CallableOffsets
 *
 offsets
