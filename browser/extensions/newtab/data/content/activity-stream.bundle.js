@@ -20268,6 +20268,10 @@ width
 296
 height
 :
+refinedCardsLayout
+?
+160
+:
 148
 }
 ]
