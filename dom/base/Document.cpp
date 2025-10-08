@@ -8543,10 +8543,6 @@ mVisible
 (
 true
 )
-mIsCompletelyLoaded
-(
-false
-)
 mRemovedFromDocShell
 (
 false
@@ -59878,10 +59874,6 @@ PAGE_LOADING
 )
 ;
 }
-mIsCompletelyLoaded
-=
-true
-;
 }
 static
 void

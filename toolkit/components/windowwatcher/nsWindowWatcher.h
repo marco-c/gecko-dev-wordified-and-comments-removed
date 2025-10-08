@@ -255,10 +255,6 @@ aUri
 nsPIDOMWindowOuter
 *
 aParent
-bool
-aIsWindowOpen
-=
-false
 )
 ;
 protected

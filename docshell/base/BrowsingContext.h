@@ -2614,7 +2614,7 @@ NavigationHistoryBehavior
 :
 Auto
 bool
-aNeedsCompletelyLoadedDocument
+aShouldNotForceReplaceInOnLoad
 =
 false
 )
