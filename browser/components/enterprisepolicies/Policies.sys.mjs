@@ -11309,9 +11309,11 @@ setAndLockPref
 "
 media
 .
-webrtc
+peerconnection
 .
-enable_pq_dtls
+dtls
+.
+enable_pq_hybrid_kex
 "
 param
 )
