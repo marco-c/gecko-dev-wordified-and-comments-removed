@@ -681,6 +681,10 @@ DeleteClicked
 CloseClicked
 AddFolderClicked
 is
+SelectFolderAction
+.
+SortMenu
+is
 BookmarkLongClicked
 is
 BookmarksListMenuAction
