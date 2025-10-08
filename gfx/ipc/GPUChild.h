@@ -76,6 +76,9 @@ GPUChild
 final
 :
 public
+mozilla
+:
+:
 ipc
 :
 :
