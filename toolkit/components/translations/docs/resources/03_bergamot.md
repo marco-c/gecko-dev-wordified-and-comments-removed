@@ -879,9 +879,11 @@ and
 description
 fields
 for
-tr8ns
+translations
 .
 inference
+.
+fetch
 in
 translations
 -
