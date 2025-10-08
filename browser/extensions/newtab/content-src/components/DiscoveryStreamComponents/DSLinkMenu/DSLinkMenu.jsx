@@ -534,13 +534,6 @@ this
 props
 .
 topic
-is_list_card
-:
-this
-.
-props
-.
-is_list_card
 position
 :
 index
