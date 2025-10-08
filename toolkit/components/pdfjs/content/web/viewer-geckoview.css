@@ -9604,6 +9604,17 @@ contain
 strict
 ;
 }
+&
+.
+detailView
+{
+image
+-
+rendering
+:
+pixelated
+;
+}
 }
 }
 }
