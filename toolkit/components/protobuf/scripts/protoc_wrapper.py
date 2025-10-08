@@ -364,14 +364,11 @@ member
                 
 targetpath
 =
-super
-(
 ZipFile
-self
-)
 .
 _extract_member
 (
+self
 member
 targetpath
 pwd
