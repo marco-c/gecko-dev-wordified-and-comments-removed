@@ -221,7 +221,7 @@ ls
 d
 MOZ_FETCHES_DIR
 /
-MacOSX1
+MacOSX
 *
 .
 sdk
