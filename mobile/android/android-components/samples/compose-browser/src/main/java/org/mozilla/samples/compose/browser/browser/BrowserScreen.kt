@@ -632,10 +632,7 @@ dispatch
 (
 BrowserToolbarAction
 .
-ToggleEditMode
-(
-false
-)
+ExitEditMode
 )
 }
 AcornTheme
@@ -707,10 +704,7 @@ dispatch
 (
 BrowserToolbarAction
 .
-ToggleEditMode
-(
-false
-)
+ExitEditMode
 )
 suggestion
 .
@@ -976,10 +970,7 @@ dispatch
 (
 BrowserToolbarAction
 .
-ToggleEditMode
-(
-true
-)
+EnterEditMode
 )
 }
 )

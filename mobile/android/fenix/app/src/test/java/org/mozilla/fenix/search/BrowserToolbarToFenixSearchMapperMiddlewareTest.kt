@@ -113,7 +113,7 @@ store
 .
 BrowserToolbarAction
 .
-ToggleEditMode
+EnterEditMode
 import
 mozilla
 .
@@ -379,10 +379,7 @@ toolbarStore
 .
 dispatch
 (
-ToggleEditMode
-(
-true
-)
+EnterEditMode
 )
 captorMiddleware
 .
@@ -503,10 +500,7 @@ toolbarStore
 .
 dispatch
 (
-ToggleEditMode
-(
-true
-)
+EnterEditMode
 )
 searchStore
 .
@@ -660,10 +654,7 @@ toolbarStore
 .
 dispatch
 (
-ToggleEditMode
-(
-true
-)
+EnterEditMode
 )
 searchStore
 .

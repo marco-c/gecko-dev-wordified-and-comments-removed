@@ -5460,12 +5460,7 @@ dispatch
 (
 BrowserToolbarAction
 .
-ToggleEditMode
-(
-editMode
-=
-false
-)
+ExitEditMode
 )
 }
 url

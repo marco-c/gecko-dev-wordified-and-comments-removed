@@ -95,7 +95,7 @@ store
 .
 BrowserToolbarAction
 .
-ToggleEditMode
+ExitEditMode
 import
 mozilla
 .
@@ -231,13 +231,7 @@ if
 (
 action
 is
-ToggleEditMode
-&
-&
-!
-action
-.
-editMode
+ExitEditMode
 &
 &
 historyStore

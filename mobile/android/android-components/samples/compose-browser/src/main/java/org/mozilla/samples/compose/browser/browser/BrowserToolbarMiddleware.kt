@@ -155,7 +155,7 @@ store
 .
 BrowserToolbarAction
 .
-ToggleEditMode
+EnterEditMode
 import
 mozilla
 .
@@ -592,10 +592,7 @@ PageOriginClicked
 {
 next
 (
-ToggleEditMode
-(
-true
-)
+EnterEditMode
 )
 }
 is
