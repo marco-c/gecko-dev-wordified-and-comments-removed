@@ -5281,6 +5281,13 @@ js
 ]
 [
 "
+test_devtoolschildremoved
+.
+html
+"
+]
+[
+"
 test_document
 .
 all_iteration
