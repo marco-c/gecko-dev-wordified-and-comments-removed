@@ -918,7 +918,7 @@ uri
 return
 ;
 }
-SetURI
+Navigate
 (
 uri
 aSubjectPrincipal
@@ -1116,7 +1116,7 @@ Failed
 return
 ;
 }
-SetURI
+Navigate
 (
 uri
 aSubjectPrincipal
@@ -1303,7 +1303,7 @@ Failed
 return
 ;
 }
-SetURI
+Navigate
 (
 uri
 aSubjectPrincipal
@@ -1711,7 +1711,7 @@ rv
 return
 ;
 }
-SetURI
+Navigate
 (
 uri
 aSubjectPrincipal
@@ -2011,7 +2011,7 @@ Failed
 return
 ;
 }
-SetURI
+Navigate
 (
 uri
 aSubjectPrincipal
@@ -2376,7 +2376,7 @@ uri
 return
 ;
 }
-SetURI
+Navigate
 (
 uri
 aSubjectPrincipal
@@ -2644,7 +2644,7 @@ Failed
 return
 ;
 }
-SetURI
+Navigate
 (
 uri
 aSubjectPrincipal
