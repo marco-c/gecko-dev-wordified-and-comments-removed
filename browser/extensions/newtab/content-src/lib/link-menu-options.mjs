@@ -2134,6 +2134,11 @@ at
 WEATHER_USER_OPT_IN_LOCATION
 }
 )
+userEvent
+:
+"
+WEATHER_DETECT_LOCATION
+"
 }
 )
 ChangeWeatherDisplaySimple
