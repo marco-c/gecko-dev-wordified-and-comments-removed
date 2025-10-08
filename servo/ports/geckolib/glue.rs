@@ -25204,6 +25204,7 @@ UserAgent
 User
 Author
 PresHints
+PositionFallback
 Animations
 Transitions
 SMIL
@@ -25394,6 +25395,16 @@ MatchingDeclarationBlockOrigin
 :
 Author
 }
+CascadeLevel
+:
+:
+PositionFallback
+=
+>
+MatchingDeclarationBlockOrigin
+:
+:
+PositionFallback
 CascadeLevel
 :
 :

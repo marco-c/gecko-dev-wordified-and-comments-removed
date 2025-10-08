@@ -71,6 +71,7 @@ shadow_cascade_order
 :
 ShadowCascadeOrder
 }
+PositionFallback
 SMILOverride
 Animations
 AuthorImportant
@@ -144,6 +145,11 @@ Self
 :
 :
 PresHints
+|
+Self
+:
+:
+PositionFallback
 |
 Self
 :
@@ -242,6 +248,11 @@ Self
 :
 :
 PresHints
+|
+Self
+:
+:
+PositionFallback
 |
 Self
 :
@@ -542,6 +553,15 @@ Self
 :
 :
 PresHints
+|
+Self
+:
+:
+PositionFallback
+{
+.
+.
+}
 |
 Self
 :
