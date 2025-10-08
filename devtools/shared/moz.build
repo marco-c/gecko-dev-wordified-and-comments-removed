@@ -210,13 +210,6 @@ constants
 js
 "
 "
-content
--
-observer
-.
-js
-"
-"
 debounce
 .
 js
