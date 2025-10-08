@@ -3785,6 +3785,7 @@ HidePopoverInternal
 (
 true
 true
+nullptr
 IgnoreErrors
 (
 )
@@ -15122,8 +15123,11 @@ shouldHide
 popover
 -
 >
-HidePopover
+HidePopoverInternal
 (
+true
+true
+this
 IgnoreErrors
 (
 )
@@ -15330,6 +15334,7 @@ HidePopoverInternal
 (
 true
 true
+aSource
 IgnoreErrors
 (
 )
@@ -17196,6 +17201,9 @@ nsAString
 aNewState
 Cancelable
 aCancelable
+Element
+*
+aSource
 )
 {
 ToggleEventInit
@@ -17263,6 +17271,14 @@ SetTarget
 this
 )
 ;
+event
+-
+>
+SetSource
+(
+aSource
+)
+;
 return
 event
 .
@@ -17289,6 +17305,9 @@ const
 nsAString
 &
 aType
+Element
+*
+aSource
 )
 {
 const
@@ -17333,6 +17352,7 @@ aType
 aOldState
 aNewState
 cancelable
+aSource
 )
 ;
 EventDispatcher
@@ -17364,6 +17384,9 @@ QueuePopoverEventTask
 (
 PopoverVisibilityState
 aOldState
+Element
+*
+aSource
 )
 {
 auto
@@ -17421,6 +17444,10 @@ do_GetWeakReference
 (
 this
 )
+do_GetWeakReference
+(
+aSource
+)
 aOldState
 )
 ;
@@ -17458,6 +17485,9 @@ PopoverToggleEventTask
 aTask
 PopoverVisibilityState
 aOldState
+Element
+*
+aSource
 )
 {
 auto
@@ -17563,6 +17593,7 @@ u
 toggle
 "
 _ns
+aSource
 )
 ;
 }
@@ -17629,7 +17660,7 @@ ShowPopoverInternal
 (
 Element
 *
-aInvoker
+aSource
 ErrorResult
 &
 aRv
@@ -17771,6 +17802,7 @@ u
 beforetoggle
 "
 _ns
+aSource
 )
 )
 {
@@ -17824,7 +17856,7 @@ ancestor
 =
 GetTopmostPopoverAncestor
 (
-aInvoker
+aSource
 true
 )
 ;
@@ -18009,15 +18041,15 @@ popoverData
 >
 SetInvoker
 (
-aInvoker
+aSource
 )
 ;
 if
 (
-aInvoker
+aSource
 &
 &
-aInvoker
+aSource
 -
 >
 IsHTMLElement
@@ -18025,7 +18057,7 @@ IsHTMLElement
 )
 )
 {
-aInvoker
+aSource
 -
 >
 SetAssociatedPopover
@@ -18073,6 +18105,7 @@ PopoverVisibilityState
 :
 :
 Hidden
+aSource
 )
 ;
 }
@@ -18088,6 +18121,7 @@ HidePopoverInternal
 (
 false
 false
+nullptr
 IgnoreErrors
 (
 )
@@ -18109,6 +18143,7 @@ HidePopoverInternal
 (
 true
 true
+nullptr
 aRv
 )
 ;
@@ -18123,6 +18158,15 @@ bool
 aFocusPreviousElement
 bool
 aFireEvents
+mozilla
+:
+:
+dom
+:
+:
+Element
+*
+aSource
 ErrorResult
 &
 aRv
@@ -18139,6 +18183,7 @@ HidePopover
 this
 aFocusPreviousElement
 aFireEvents
+aSource
 aRv
 )
 ;
