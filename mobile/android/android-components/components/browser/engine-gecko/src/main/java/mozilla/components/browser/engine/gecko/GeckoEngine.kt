@@ -8609,6 +8609,7 @@ var
 certificateTransparencyMode
 :
 Int
+?
 get
 (
 )
@@ -8618,10 +8619,20 @@ runtime
 settings
 .
 certificateTransparencyMode
+.
+or
+(
+2
+)
 set
 (
 value
 )
+{
+value
+?
+.
+let
 {
 runtime
 .
@@ -8631,6 +8642,7 @@ setCertificateTransparencyMode
 (
 value
 )
+}
 }
 override
 var

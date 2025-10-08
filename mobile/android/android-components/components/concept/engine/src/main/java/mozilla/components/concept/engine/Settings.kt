@@ -2065,6 +2065,7 @@ var
 certificateTransparencyMode
 :
 Int
+?
 by
 UnsupportedSetting
 (
@@ -2722,8 +2723,9 @@ var
 certificateTransparencyMode
 :
 Int
+?
 =
-0
+null
 override
 var
 postQuantumKeyExchangeEnabled
