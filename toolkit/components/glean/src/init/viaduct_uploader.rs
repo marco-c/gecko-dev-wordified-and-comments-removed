@@ -950,10 +950,6 @@ UploadResult
 http_status
 (
 res
-.
-code
-(
-)
 as
 i32
 )
