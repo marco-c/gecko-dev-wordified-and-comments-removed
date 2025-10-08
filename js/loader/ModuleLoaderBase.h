@@ -1903,6 +1903,14 @@ ModuleLoadRequest
 aRequest
 )
 ;
+void
+Cancel
+(
+ModuleLoadRequest
+*
+aRequest
+)
+;
 enum
 class
 ImportMetaSlots
