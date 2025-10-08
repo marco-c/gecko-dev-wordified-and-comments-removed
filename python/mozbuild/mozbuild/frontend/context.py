@@ -3759,6 +3759,33 @@ CXXFLAGS
 (
                 
 "
+STL_HARDENING
+"
+                
+context
+.
+config
+.
+substs
+.
+get
+(
+"
+STL_HARDENING_FLAGS
+"
+)
+                
+(
+"
+CXXFLAGS
+"
+)
+            
+)
+            
+(
+                
+"
 VISIBILITY
 "
                 
