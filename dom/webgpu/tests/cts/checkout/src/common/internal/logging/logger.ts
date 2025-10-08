@@ -88,6 +88,12 @@ Map
 (
 )
 ;
+defaultDeviceDescription
+:
+string
+|
+undefined
+;
 constructor
 (
 {
@@ -201,6 +207,11 @@ stringify
 (
 {
 version
+defaultDevice
+:
+this
+.
+defaultDeviceDescription
 results
 :
 Array

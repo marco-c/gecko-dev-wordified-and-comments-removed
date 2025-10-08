@@ -31,6 +31,10 @@ subcasesBetweenAttemptingGC
 :
 number
 ;
+casesBetweenReplacingDevice
+:
+number
+;
 testHeartbeatCallback
 :
 (
@@ -97,6 +101,9 @@ maxSubcasesInFlight
 subcasesBetweenAttemptingGC
 :
 5000
+casesBetweenReplacingDevice
+:
+Infinity
 testHeartbeatCallback
 :
 (

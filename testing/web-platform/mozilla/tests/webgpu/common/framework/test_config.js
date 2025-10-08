@@ -28,6 +28,9 @@ maxSubcasesInFlight
 subcasesBetweenAttemptingGC
 :
 5000
+casesBetweenReplacingDevice
+:
+Infinity
 testHeartbeatCallback
 :
 (
