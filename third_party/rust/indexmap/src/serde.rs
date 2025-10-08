@@ -18,7 +18,7 @@ serde
 )
 ]
 use
-serde
+serde_core
 :
 :
 de
@@ -33,7 +33,7 @@ SeqDeserializer
 }
 ;
 use
-serde
+serde_core
 :
 :
 de
@@ -50,7 +50,7 @@ Visitor
 }
 ;
 use
-serde
+serde_core
 :
 :
 ser

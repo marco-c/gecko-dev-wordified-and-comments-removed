@@ -36,7 +36,7 @@ collections
 LinkedList
 ;
 use
-crate
+alloc
 :
 :
 vec

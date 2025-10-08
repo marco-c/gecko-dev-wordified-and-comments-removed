@@ -2265,6 +2265,10 @@ shift_remove_finish
 index
 )
 }
+#
+[
+track_caller
+]
 pub
 fn
 move_index
@@ -2297,6 +2301,10 @@ to
 )
 ;
 }
+#
+[
+track_caller
+]
 pub
 fn
 swap_indices
@@ -2577,6 +2585,10 @@ into_muts
 (
 )
 }
+#
+[
+track_caller
+]
 pub
 fn
 shift_insert
@@ -2649,6 +2661,10 @@ key
 value
 )
 }
+#
+[
+track_caller
+]
 pub
 fn
 shift_insert_hashed_nocheck
