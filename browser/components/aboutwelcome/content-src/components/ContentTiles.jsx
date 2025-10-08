@@ -2032,6 +2032,15 @@ tiles
 tile
 }
 }
+skipButton
+=
+{
+props
+.
+content
+.
+skip_button
+}
 /
 >
 )
