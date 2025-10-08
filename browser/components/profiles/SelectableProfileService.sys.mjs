@@ -2983,8 +2983,6 @@ initialized
 return
 ;
 }
-try
-{
 Services
 .
 obs
@@ -2992,6 +2990,8 @@ obs
 removeObserver
 (
 this
+.
+themeObserver
 "
 lightweight
 -
@@ -3003,13 +3003,6 @@ update
 "
 )
 ;
-}
-catch
-(
-e
-)
-{
-}
 lazy
 .
 NimbusFeatures
