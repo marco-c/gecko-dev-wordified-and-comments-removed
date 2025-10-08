@@ -803,7 +803,7 @@ FindChar
 sComma
 )
 ;
-int32_t
+size_t
 count
 =
 1
@@ -880,12 +880,12 @@ OwnerDoc
 )
 )
 ;
-int32_t
+size_t
 start
 =
 0
 ;
-int32_t
+size_t
 specLen
 =
 spec
@@ -896,7 +896,7 @@ Length
 ;
 for
 (
-int32_t
+size_t
 i
 =
 0
@@ -920,7 +920,7 @@ sComma
 start
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 i
 =
@@ -943,7 +943,7 @@ somehow
 "
 )
 ;
-int32_t
+size_t
 end
 =
 (
@@ -982,7 +982,7 @@ end
 start
 )
 {
-int32_t
+size_t
 numberEnd
 =
 end
@@ -1251,7 +1251,13 @@ end
 }
 aNumSpecs
 =
+static_cast
+<
+int32_t
+>
+(
 count
+)
 ;
 *
 aSpecs
