@@ -4428,7 +4428,7 @@ CanvasUtils
 :
 :
 ImageExtraction
-spoofing
+extractionBehaviour
 =
 CanvasUtils
 :
@@ -4451,7 +4451,7 @@ stream
 FrameCaptureListener
 (
 )
-spoofing
+extractionBehaviour
 =
 =
 CanvasUtils
@@ -4519,7 +4519,7 @@ CanvasUtils
 :
 :
 ImageExtraction
-spoofing
+extractionBehaviour
 =
 CanvasUtils
 :
@@ -4534,7 +4534,7 @@ aSubjectPrincipal
 ;
 if
 (
-spoofing
+extractionBehaviour
 !
 =
 CanvasUtils
@@ -5112,7 +5112,7 @@ CanvasUtils
 :
 :
 ImageExtraction
-spoofing
+extractionBehaviour
 =
 CanvasUtils
 :
@@ -5352,7 +5352,7 @@ aCx
 callback
 aType
 aParams
-spoofing
+extractionBehaviour
 aRv
 )
 ;
