@@ -651,6 +651,12 @@ mOnscreenRootCALayer
 =
 nullptr
 ;
+CALayer
+*
+mOffscreenRootCALayer
+=
+nullptr
+;
 NativeLayerRootSnapshotterCA
 *
 mWeakSnapshotter
