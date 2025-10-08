@@ -392,6 +392,9 @@ headingLevel
 type
 :
 Number
+reflect
+:
+true
 }
 disabled
 :

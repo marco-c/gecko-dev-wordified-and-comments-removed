@@ -954,6 +954,11 @@ ads
 -
 options
 "
+headingLevel
+=
+"
+3
+"
 >
 <
 moz
@@ -1130,6 +1135,11 @@ report
 content
 -
 options
+"
+headingLevel
+=
+"
+3
 "
 >
 <

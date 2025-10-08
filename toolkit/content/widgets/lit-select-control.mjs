@@ -361,6 +361,13 @@ type
 :
 String
 }
+headingLevel
+:
+{
+type
+:
+Number
+}
 }
 ;
 static
@@ -1708,6 +1715,13 @@ label
 this
 .
 label
+}
+headinglevel
+=
+{
+this
+.
+headingLevel
 }
 exportparts
 =
