@@ -176,6 +176,10 @@ const
 nsAString
 &
 aOutputOptions
+const
+nsACString
+&
+aRandomizationKey
 )
 {
 if
@@ -420,6 +424,9 @@ aHeight
 aStride
 aInputFormat
 noParams
+VoidCString
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -572,6 +579,9 @@ aHeight
 aStride
 aInputFormat
 params
+VoidCString
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS

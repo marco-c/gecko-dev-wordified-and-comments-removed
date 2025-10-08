@@ -4626,6 +4626,13 @@ usage
 )
 ;
 }
+nsCString
+randomizationKey
+=
+VoidCString
+(
+)
+;
 return
 ImageEncoder
 :
@@ -4637,7 +4644,8 @@ aOptions
 GetSize
 (
 )
-spoofing
+extractionBehaviour
+randomizationKey
 mCurrentContext
 mOffscreenDisplay
 aStream

@@ -91,6 +91,9 @@ inputFormat
 in
 AString
 outputOptions
+in
+ACString
+randomizationKey
 )
 ;
 void
