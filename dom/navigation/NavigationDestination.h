@@ -85,7 +85,7 @@ aURI
 NavigationHistoryEntry
 *
 aEntry
-nsStructuredCloneContainer
+nsIStructuredCloneContainer
 *
 aState
 bool
@@ -222,7 +222,7 @@ mEntry
 ;
 RefPtr
 <
-nsStructuredCloneContainer
+nsIStructuredCloneContainer
 >
 mState
 ;
