@@ -3536,6 +3536,11 @@ this
 .
 _spocsOnDemand
 =
+this
+.
+showSponsoredStories
+&
+&
 spocsOnDemand
 ;
 }
