@@ -8341,9 +8341,11 @@ policy
 :
 by
 -
-project
+level
 :
-try
+'
+1
+'
 :
 default
 :
@@ -8365,7 +8367,9 @@ long
 :
 28
 days
-autoland
+'
+3
+'
 :
 default
 :
