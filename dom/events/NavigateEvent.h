@@ -524,6 +524,9 @@ Element
 >
 mSourceElement
 ;
+uint32_t
+mLastScrollGeneration
+;
 enum
 InterceptionState
 mInterceptionState
