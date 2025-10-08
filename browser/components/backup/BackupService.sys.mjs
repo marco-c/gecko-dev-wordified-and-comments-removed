@@ -8163,6 +8163,11 @@ IOUtils
 remove
 (
 compressedStagingPath
+{
+retryReadonly
+:
+true
+}
 )
 ;
 }
@@ -9350,6 +9355,9 @@ remove
 stagingPath
 {
 recursive
+:
+true
+retryReadonly
 :
 true
 }
@@ -14125,6 +14133,9 @@ extractionDestPath
 ignoreAbsent
 :
 true
+retryReadonly
+:
+true
 }
 )
 ;
@@ -15579,6 +15590,11 @@ IOUtils
 remove
 (
 RECOVERY_FILE_DEST_PATH
+{
+retryReadonly
+:
+true
+}
 )
 ;
 }
@@ -17536,6 +17552,9 @@ postRecoveryFile
 ignoreAbsent
 :
 true
+retryReadonly
+:
+true
 }
 )
 ;
@@ -19415,6 +19434,9 @@ remove
 encStateFile
 {
 ignoreAbsent
+:
+true
+retryReadonly
 :
 true
 }
@@ -23729,6 +23751,11 @@ remove
 lazy
 .
 backupDirPref
+{
+retryReadony
+:
+true
+}
 )
 ;
 }
