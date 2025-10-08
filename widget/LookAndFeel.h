@@ -182,8 +182,7 @@ WindowsAccentColorInTitlebar
 WindowsMica
 WindowsMicaPopups
 MacBigSurTheme
-MacRTL
-MacTitlebarHeight
+MacTahoeTheme
 AlertNotificationOrigin
 ScrollToClick
 IMERawInputUnderlineStyle

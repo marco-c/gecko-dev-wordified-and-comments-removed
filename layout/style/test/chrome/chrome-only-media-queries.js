@@ -54,6 +54,16 @@ theme
 -
 moz
 -
+mac
+-
+tahoe
+-
+theme
+"
+"
+-
+moz
+-
 menubar
 -
 drag
