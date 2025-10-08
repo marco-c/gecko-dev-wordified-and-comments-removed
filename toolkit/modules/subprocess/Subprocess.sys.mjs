@@ -367,13 +367,13 @@ platformSupportsDisclaimedSpawn
 return
 AppConstants
 .
-isPlatformAndVersionAtLeast
-(
+platform
+=
+=
+=
 "
 macosx
 "
-18
-)
 ;
 }
 /
