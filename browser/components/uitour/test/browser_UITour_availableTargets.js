@@ -92,6 +92,9 @@ pageAction
 bookmark
 "
 "
+profilesAppMenuButton
+"
+"
 privateWindow
 "
 .
