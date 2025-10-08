@@ -941,7 +941,7 @@ aStreamName
 )
 ;
 virtual
-uint32_t
+TimeDuration
 IterationDuration
 (
 )
@@ -1439,16 +1439,12 @@ friend
 class
 MediaTrackGraphInitThreadRunnable
 ;
-uint32_t
+TimeDuration
 IterationDuration
 (
 )
 override
-{
-return
-MEDIA_GRAPH_TARGET_PERIOD_MS
 ;
-}
 nsIThread
 *
 Thread
@@ -1874,7 +1870,7 @@ cubeb_state
 aState
 )
 ;
-uint32_t
+TimeDuration
 IterationDuration
 (
 )

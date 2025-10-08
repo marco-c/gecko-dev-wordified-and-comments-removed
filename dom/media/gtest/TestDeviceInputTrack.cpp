@@ -277,7 +277,7 @@ void
 MOCK_METHOD0
 (
 IterationDuration
-uint32_t
+TimeDuration
 (
 )
 )

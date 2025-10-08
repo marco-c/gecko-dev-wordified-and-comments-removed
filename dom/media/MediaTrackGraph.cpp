@@ -6244,15 +6244,9 @@ Now
 ;
 if
 (
-(
 now
 -
 mLastMainThreadUpdate
-)
-.
-ToMilliseconds
-(
-)
 >
 CurrentDriver
 (
