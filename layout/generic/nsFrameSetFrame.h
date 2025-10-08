@@ -766,12 +766,6 @@ LayoutDeviceIntPoint
 mFirstDragPoint
 ;
 int32_t
-mNumRows
-;
-int32_t
-mNumCols
-;
-int32_t
 mNonBorderChildCount
 ;
 int32_t
