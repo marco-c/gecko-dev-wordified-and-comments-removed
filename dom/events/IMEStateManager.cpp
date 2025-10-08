@@ -494,7 +494,7 @@ sIsActive
 =
 false
 ;
-MOZ_CONSTINIT
+MOZ_RUNINIT
 Maybe
 <
 IMEStateManager

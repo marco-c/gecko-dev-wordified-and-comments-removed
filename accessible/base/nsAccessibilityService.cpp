@@ -8536,7 +8536,7 @@ Maybe
 .
 h
 "
-MOZ_CONSTINIT
+MOZ_RUNINIT
 static
 Maybe
 <

@@ -3047,7 +3047,7 @@ sLastAECDebug
 =
 false
 ;
-MOZ_CONSTINIT
+MOZ_RUNINIT
 static
 Maybe
 <
