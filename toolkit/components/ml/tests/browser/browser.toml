@@ -177,6 +177,13 @@ js
 ]
 [
 "
+browser_ml_static_embeddings
+.
+js
+"
+]
+[
+"
 browser_ml_telemetry
 .
 js

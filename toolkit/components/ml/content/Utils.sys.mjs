@@ -1139,9 +1139,11 @@ param
 {
 boolean
 }
+[
 config
 .
 addDownloadParams
+]
 -
 Whether
 to

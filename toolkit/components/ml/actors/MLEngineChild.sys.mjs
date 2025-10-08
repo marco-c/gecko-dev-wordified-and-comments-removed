@@ -2812,7 +2812,7 @@ error
 "
 Could
 not
-initalize
+initialize
 the
 engine
 "
