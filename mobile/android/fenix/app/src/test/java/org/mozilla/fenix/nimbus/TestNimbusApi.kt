@@ -306,7 +306,14 @@ get
 testContext
 override
 var
-globalUserParticipation
+experimentParticipation
+:
+Boolean
+=
+true
+override
+var
+rolloutParticipation
 :
 Boolean
 =
