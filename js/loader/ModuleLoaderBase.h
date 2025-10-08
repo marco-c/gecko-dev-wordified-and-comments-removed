@@ -1854,16 +1854,6 @@ aError
 )
 ;
 void
-FinishDynamicImportAndReject
-(
-ModuleLoadRequest
-*
-aRequest
-nsresult
-aResult
-)
-;
-void
 RemoveDynamicImport
 (
 ModuleLoadRequest
