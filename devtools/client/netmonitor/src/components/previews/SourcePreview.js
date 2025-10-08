@@ -587,8 +587,6 @@ editor
 setCursorAt
 (
 line
--
-1
 0
 )
 ;
