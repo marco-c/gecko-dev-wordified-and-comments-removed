@@ -44,15 +44,6 @@ include
 "
 mozilla
 /
-EnumTypeTraits
-.
-h
-"
-#
-include
-"
-mozilla
-/
 PRemoteMediaManagerChild
 .
 h

@@ -21,15 +21,6 @@ include
 "
 mozilla
 /
-EnumeratedArray
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ServoStyleConsts
 .
 h

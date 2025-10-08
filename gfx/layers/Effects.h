@@ -104,15 +104,6 @@ nscore
 .
 h
 "
-#
-include
-"
-mozilla
-/
-EnumeratedArray
-.
-h
-"
 namespace
 mozilla
 {

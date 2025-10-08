@@ -16,15 +16,6 @@ h
 #
 include
 "
-mozilla
-/
-EnumTypeTraits
-.
-h
-"
-#
-include
-"
 nsITimedChannel
 .
 h
