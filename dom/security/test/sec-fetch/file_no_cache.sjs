@@ -20,12 +20,6 @@ text
 javascript
 "
 >
-onload
-=
-(
-)
-=
->
 window
 .
 parent
