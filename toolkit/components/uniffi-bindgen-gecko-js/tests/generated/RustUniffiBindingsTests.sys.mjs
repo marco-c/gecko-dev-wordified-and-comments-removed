@@ -163,7 +163,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-164
+119
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_async_roundtrip_f32
@@ -251,7 +251,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-165
+120
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_async_roundtrip_f64
@@ -339,7 +339,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-166
+121
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_async_roundtrip_i16
@@ -427,7 +427,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-167
+122
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_async_roundtrip_i32
@@ -515,7 +515,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-168
+123
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_async_roundtrip_i64
@@ -603,7 +603,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-169
+124
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_async_roundtrip_i8
@@ -691,7 +691,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-170
+125
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_async_roundtrip_map
@@ -779,7 +779,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-171
+126
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_async_roundtrip_obj
@@ -867,7 +867,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-172
+127
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_async_roundtrip_string
@@ -955,7 +955,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-173
+128
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_async_roundtrip_u16
@@ -1043,7 +1043,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-174
+129
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_async_roundtrip_u32
@@ -1131,7 +1131,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-175
+130
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_async_roundtrip_u64
@@ -1219,7 +1219,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-176
+131
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_async_roundtrip_u8
@@ -1315,7 +1315,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-177
+132
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_async_roundtrip_vec
@@ -1363,7 +1363,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-178
+133
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_async_throw_error
@@ -1444,7 +1444,7 @@ UniFFIScaffolding
 .
 callSync
 (
-179
+134
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_clone_interface
@@ -1532,7 +1532,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-180
+135
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_create_async_test_trait_interface
@@ -1621,7 +1621,7 @@ UniFFIScaffolding
 .
 callSync
 (
-181
+136
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_create_test_trait_interface
@@ -1707,7 +1707,7 @@ UniFFIScaffolding
 .
 callSync
 (
-182
+137
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_func_with_default
@@ -1784,7 +1784,7 @@ UniFFIScaffolding
 .
 callSync
 (
-183
+138
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_func_with_error
@@ -1866,7 +1866,7 @@ UniFFIScaffolding
 .
 callSync
 (
-184
+139
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_func_with_flat_error
@@ -1973,7 +1973,7 @@ UniFFIScaffolding
 .
 callSync
 (
-185
+140
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_func_with_multi_word_arg
@@ -2030,7 +2030,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-186
+141
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_get_custom_types_demo
@@ -2112,7 +2112,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-187
+142
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_invoke_async_test_trait_interface_get_value
@@ -2191,7 +2191,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-188
+143
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_invoke_async_test_trait_interface_noop
@@ -2299,7 +2299,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-189
+144
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_invoke_async_test_trait_interface_set_value
@@ -2422,7 +2422,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-190
+145
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_invoke_async_test_trait_interface_throw_if_equal
@@ -2523,7 +2523,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-191
+146
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_invoke_test_async_callback_interface_get_value
@@ -2602,7 +2602,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-192
+147
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_invoke_test_async_callback_interface_noop
@@ -2710,7 +2710,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-193
+148
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_invoke_test_async_callback_interface_set_value
@@ -2833,7 +2833,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-194
+149
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_invoke_test_async_callback_interface_throw_if_equal
@@ -2928,7 +2928,7 @@ UniFFIScaffolding
 .
 callSync
 (
-195
+150
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_invoke_test_callback_interface_get_value
@@ -3005,7 +3005,7 @@ UniFFIScaffolding
 .
 callSync
 (
-196
+151
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_invoke_test_callback_interface_noop
@@ -3111,7 +3111,7 @@ UniFFIScaffolding
 .
 callSync
 (
-197
+152
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_invoke_test_callback_interface_set_value
@@ -3228,7 +3228,7 @@ UniFFIScaffolding
 .
 callSync
 (
-198
+153
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_invoke_test_callback_interface_throw_if_equal
@@ -3323,7 +3323,7 @@ UniFFIScaffolding
 .
 callSync
 (
-199
+154
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_invoke_test_trait_interface_get_value
@@ -3400,7 +3400,7 @@ UniFFIScaffolding
 .
 callSync
 (
-200
+155
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_invoke_test_trait_interface_noop
@@ -3506,7 +3506,7 @@ UniFFIScaffolding
 .
 callSync
 (
-201
+156
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_invoke_test_trait_interface_set_value
@@ -3623,7 +3623,7 @@ UniFFIScaffolding
 .
 callSync
 (
-202
+157
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_invoke_test_trait_interface_throw_if_equal
@@ -3718,7 +3718,7 @@ UniFFIScaffolding
 .
 callSync
 (
-203
+158
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_bool
@@ -3810,7 +3810,7 @@ UniFFIScaffolding
 .
 callSync
 (
-204
+159
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_complex_compound
@@ -3892,7 +3892,7 @@ UniFFIScaffolding
 .
 callSync
 (
-205
+160
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_complex_enum
@@ -3974,7 +3974,7 @@ UniFFIScaffolding
 .
 callSync
 (
-206
+161
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_complex_rec
@@ -4056,7 +4056,7 @@ UniFFIScaffolding
 .
 callSync
 (
-207
+162
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_custom_type
@@ -4138,7 +4138,7 @@ UniFFIScaffolding
 .
 callSync
 (
-208
+163
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_enum_no_data
@@ -4220,7 +4220,7 @@ UniFFIScaffolding
 .
 callSync
 (
-209
+164
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_enum_with_data
@@ -4302,7 +4302,7 @@ UniFFIScaffolding
 .
 callSync
 (
-210
+165
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_f32
@@ -4384,7 +4384,7 @@ UniFFIScaffolding
 .
 callSync
 (
-211
+166
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_f64
@@ -4466,7 +4466,7 @@ UniFFIScaffolding
 .
 callSync
 (
-212
+167
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_hash_map
@@ -4548,7 +4548,7 @@ UniFFIScaffolding
 .
 callSync
 (
-213
+168
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_i16
@@ -4630,7 +4630,7 @@ UniFFIScaffolding
 .
 callSync
 (
-214
+169
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_i32
@@ -4712,7 +4712,7 @@ UniFFIScaffolding
 .
 callSync
 (
-215
+170
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_i64
@@ -4794,7 +4794,7 @@ UniFFIScaffolding
 .
 callSync
 (
-216
+171
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_i8
@@ -4878,7 +4878,7 @@ UniFFIScaffolding
 .
 callSync
 (
-217
+172
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_option
@@ -4966,7 +4966,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-218
+173
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_simple_rec
@@ -5048,7 +5048,7 @@ UniFFIScaffolding
 .
 callSync
 (
-219
+174
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_string
@@ -5136,7 +5136,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-220
+175
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_time_interval_ms
@@ -5224,7 +5224,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-221
+176
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_time_interval_sec_dbl
@@ -5312,7 +5312,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-222
+177
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_time_interval_sec_flt
@@ -5394,7 +5394,7 @@ UniFFIScaffolding
 .
 callSync
 (
-223
+178
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_u16
@@ -5476,7 +5476,7 @@ UniFFIScaffolding
 .
 callSync
 (
-224
+179
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_u32
@@ -5558,7 +5558,7 @@ UniFFIScaffolding
 .
 callSync
 (
-225
+180
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_u64
@@ -5640,7 +5640,7 @@ UniFFIScaffolding
 .
 callSync
 (
-226
+181
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_u8
@@ -5728,7 +5728,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-227
+182
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_url
@@ -5818,7 +5818,7 @@ UniFFIScaffolding
 .
 callSync
 (
-228
+183
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_roundtrip_vec
@@ -6222,7 +6222,7 @@ UniFFIScaffolding
 .
 callSync
 (
-229
+184
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_sum_with_many_types
@@ -6364,7 +6364,7 @@ UniFFIScaffolding
 .
 callSync
 (
-230
+185
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_swap_test_interfaces
@@ -6410,7 +6410,7 @@ UniFFIScaffolding
 .
 callSync
 (
-231
+186
 /
 /
 uniffi_uniffi_bindings_tests_fn_func_test_func
@@ -10952,7 +10952,7 @@ UniFFIScaffolding
 .
 callSync
 (
-232
+187
 /
 /
 uniffi_uniffi_bindings_tests_fn_constructor_testinterface_new
@@ -11001,7 +11001,7 @@ UniFFIScaffolding
 .
 callSync
 (
-233
+188
 /
 /
 uniffi_uniffi_bindings_tests_fn_method_testinterface_get_value
@@ -11073,7 +11073,7 @@ UniFFIScaffolding
 .
 callSync
 (
-234
+189
 /
 /
 uniffi_uniffi_bindings_tests_fn_method_testinterface_ref_count
@@ -11234,7 +11234,7 @@ dataStream
 .
 readPointer
 (
-23
+16
 )
 )
 ;
@@ -11250,7 +11250,7 @@ dataStream
 .
 writePointer
 (
-23
+16
 this
 .
 lower
@@ -14754,7 +14754,7 @@ UniFFIScaffolding
 .
 callSync
 (
-235
+190
 /
 /
 uniffi_uniffi_bindings_tests_fn_constructor_asyncinterface_new
@@ -14809,7 +14809,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-236
+191
 /
 /
 uniffi_uniffi_bindings_tests_fn_method_asyncinterface_name
@@ -14970,7 +14970,7 @@ dataStream
 .
 readPointer
 (
-24
+17
 )
 )
 ;
@@ -14986,7 +14986,7 @@ dataStream
 .
 writePointer
 (
-24
+17
 this
 .
 lower
@@ -15369,7 +15369,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-237
+192
 /
 /
 uniffi_uniffi_bindings_tests_fn_method_asynctesttraitinterface_noop
@@ -15425,7 +15425,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-238
+193
 /
 /
 uniffi_uniffi_bindings_tests_fn_method_asynctesttraitinterface_get_value
@@ -15505,7 +15505,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-239
+194
 /
 /
 uniffi_uniffi_bindings_tests_fn_method_asynctesttraitinterface_set_value
@@ -15625,7 +15625,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-240
+195
 /
 /
 uniffi_uniffi_bindings_tests_fn_method_asynctesttraitinterface_throw_if_equal
@@ -15876,7 +15876,7 @@ dataStream
 .
 readPointer
 (
-25
+18
 )
 )
 ;
@@ -15892,7 +15892,7 @@ dataStream
 .
 writePointer
 (
-25
+18
 this
 .
 lower
@@ -15922,7 +15922,7 @@ UniFFICallbackHandler
 "
 AsyncTestTraitInterface
 "
-9
+6
 [
 new
 UniFFICallbackMethodHandler
@@ -16316,7 +16316,7 @@ UniFFIScaffolding
 .
 callSync
 (
-241
+196
 /
 /
 uniffi_uniffi_bindings_tests_fn_constructor_complexmethods_new
@@ -16394,7 +16394,7 @@ UniFFIScaffolding
 .
 callSync
 (
-242
+197
 /
 /
 uniffi_uniffi_bindings_tests_fn_method_complexmethods_method_with_default
@@ -16480,7 +16480,7 @@ UniFFIScaffolding
 .
 callSync
 (
-243
+198
 /
 /
 uniffi_uniffi_bindings_tests_fn_method_complexmethods_method_with_multi_word_arg
@@ -16647,7 +16647,7 @@ dataStream
 .
 readPointer
 (
-26
+19
 )
 )
 ;
@@ -16663,7 +16663,7 @@ dataStream
 .
 writePointer
 (
-26
+19
 this
 .
 lower
@@ -17026,7 +17026,7 @@ UniFFIScaffolding
 .
 callSync
 (
-244
+199
 /
 /
 uniffi_uniffi_bindings_tests_fn_method_testtraitinterface_noop
@@ -17076,7 +17076,7 @@ UniFFIScaffolding
 .
 callSync
 (
-245
+200
 /
 /
 uniffi_uniffi_bindings_tests_fn_method_testtraitinterface_get_value
@@ -17154,7 +17154,7 @@ UniFFIScaffolding
 .
 callSync
 (
-246
+201
 /
 /
 uniffi_uniffi_bindings_tests_fn_method_testtraitinterface_set_value
@@ -17268,7 +17268,7 @@ UniFFIScaffolding
 .
 callSync
 (
-247
+202
 /
 /
 uniffi_uniffi_bindings_tests_fn_method_testtraitinterface_throw_if_equal
@@ -17519,7 +17519,7 @@ dataStream
 .
 readPointer
 (
-27
+20
 )
 )
 ;
@@ -17535,7 +17535,7 @@ dataStream
 .
 writePointer
 (
-27
+20
 this
 .
 lower
@@ -17565,7 +17565,7 @@ UniFFICallbackHandler
 "
 TestTraitInterface
 "
-10
+7
 [
 new
 UniFFICallbackMethodHandler
@@ -17979,7 +17979,7 @@ UniFFICallbackHandler
 "
 TestAsyncCallbackInterface
 "
-7
+4
 [
 new
 UniFFICallbackMethodHandler
@@ -18378,7 +18378,7 @@ UniFFICallbackHandler
 "
 TestCallbackInterface
 "
-8
+5
 [
 new
 UniFFICallbackMethodHandler
