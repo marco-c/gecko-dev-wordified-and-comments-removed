@@ -156,6 +156,12 @@ attribute
 DOMString
 newState
 ;
+readonly
+attribute
+Element
+?
+source
+;
 }
 ;
 dictionary
@@ -163,6 +169,12 @@ ToggleEventInit
 :
 EventInit
 {
+Element
+?
+source
+=
+null
+;
 DOMString
 oldState
 =
