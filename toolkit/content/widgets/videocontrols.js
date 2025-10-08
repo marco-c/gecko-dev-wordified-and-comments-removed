@@ -3684,6 +3684,7 @@ this
 .
 textTrackList
 :
+{
 const
 index
 =
@@ -3716,6 +3717,7 @@ focus
 ;
 break
 ;
+}
 case
 this
 .
@@ -3750,6 +3752,7 @@ case
 resizevideocontrols
 "
 :
+{
 this
 .
 reflowTriggeringCallValidator
@@ -3857,6 +3860,7 @@ updatePictureInPictureToggleDisplay
 ;
 break
 ;
+}
 case
 "
 fullscreenchange

@@ -259,6 +259,7 @@ block
 channel
 "
 :
+{
 let
 channel
 =
@@ -332,6 +333,7 @@ channel
 ;
 break
 ;
+}
 }
 }
 ;

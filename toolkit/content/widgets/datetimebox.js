@@ -4378,6 +4378,7 @@ break
 ;
 default
 :
+{
 let
 span
 =
@@ -4403,6 +4404,7 @@ value
 ;
 break
 ;
+}
 }
 }
 )
@@ -7692,6 +7694,7 @@ case
 Home
 "
 :
+{
 let
 min
 =
@@ -7714,11 +7717,13 @@ min
 ;
 break
 ;
+}
 case
 "
 End
 "
 :
+{
 let
 max
 =
@@ -7741,6 +7746,7 @@ max
 ;
 break
 ;
+}
 }
 this
 .

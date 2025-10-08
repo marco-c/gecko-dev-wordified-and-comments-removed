@@ -1682,6 +1682,7 @@ case
 array
 "
 :
+{
 if
 (
 !
@@ -1880,6 +1881,7 @@ parsedValue
 parsedArray
 }
 ;
+}
 case
 "
 object

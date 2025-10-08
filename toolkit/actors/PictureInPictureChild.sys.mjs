@@ -2649,6 +2649,7 @@ data
 case
 TOGGLE_FIRST_SEEN_PREF
 :
+{
 const
 firstSeenSeconds
 =
@@ -2684,6 +2685,7 @@ firstSeenSeconds
 ;
 break
 ;
+}
 }
 }
 /
@@ -17065,6 +17067,7 @@ forward
 *
 /
 :
+{
 if
 (
 this
@@ -17174,6 +17177,7 @@ selectedTime
 ;
 break
 ;
+}
 case
 "
 home
@@ -17234,6 +17238,7 @@ end
 *
 /
 :
+{
 if
 (
 this
@@ -17295,6 +17300,7 @@ duration
 }
 break
 ;
+}
 default
 :
 }

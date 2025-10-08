@@ -1046,6 +1046,7 @@ dn
 case
 7
 :
+{
 /
 /
 ip
@@ -1168,6 +1169,7 @@ address
 "
 ]
 ;
+}
 default
 :
 return

@@ -2961,6 +2961,7 @@ aEvent
 .
 DOM_VK_TAB
 :
+{
 let
 direction
 =
@@ -3004,6 +3005,7 @@ direction
 ;
 break
 ;
+}
 case
 aEvent
 .
