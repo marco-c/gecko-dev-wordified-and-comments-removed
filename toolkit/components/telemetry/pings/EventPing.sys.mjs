@@ -677,6 +677,7 @@ aTopic
 case
 EVENT_LIMIT_REACHED_TOPIC
 :
+{
 this
 .
 _log
@@ -788,6 +789,7 @@ MAX
 }
 break
 ;
+}
 }
 }
 _startTimer

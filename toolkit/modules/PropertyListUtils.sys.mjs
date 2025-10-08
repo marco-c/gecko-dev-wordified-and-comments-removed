@@ -5124,6 +5124,7 @@ case
 data
 "
 :
+{
 /
 /
 Strip
@@ -5180,6 +5181,7 @@ charCodeAt
 )
 )
 ;
+}
 case
 "
 dict

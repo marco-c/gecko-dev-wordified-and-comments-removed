@@ -8659,6 +8659,7 @@ context
 exited
 "
 :
+{
 let
 promise
 =
@@ -8790,6 +8791,7 @@ ex
 }
 break
 ;
+}
 case
 "
 sleep_notification
@@ -8916,6 +8918,7 @@ case
 resume_process_notification
 "
 :
+{
 let
 wakeDelay
 =
@@ -8971,6 +8974,7 @@ TYPE_ONE_SHOT
 }
 break
 ;
+}
 case
 "
 network

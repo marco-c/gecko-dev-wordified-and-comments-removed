@@ -596,6 +596,7 @@ case
 DOMContentLoaded
 "
 :
+{
 const
 metaTags
 =
@@ -630,6 +631,7 @@ metaTag
 }
 break
 ;
+}
 case
 "
 DOMMetaAdded

@@ -405,6 +405,7 @@ GeckoView
 FindInPage
 "
 :
+{
 const
 type
 =
@@ -462,6 +463,7 @@ state
 ;
 break
 ;
+}
 }
 }
 #

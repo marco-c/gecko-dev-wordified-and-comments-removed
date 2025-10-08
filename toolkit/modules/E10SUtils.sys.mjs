@@ -2549,6 +2549,7 @@ case
 about
 "
 :
+{
 let
 module
 =
@@ -2877,11 +2878,13 @@ preferredRemoteType
 return
 NOT_REMOTE
 ;
+}
 case
 "
 chrome
 "
 :
+{
 let
 chromeReg
 =
@@ -2946,6 +2949,7 @@ DEFAULT_REMOTE_TYPE
 return
 NOT_REMOTE
 ;
+}
 case
 "
 moz
