@@ -370,12 +370,10 @@ aEl
 uint8_t
 GetFirstValidRoleMapIndexExcluding
 (
-dom
-:
-:
-Element
-*
-aEl
+const
+nsString
+&
+aRoleAttrValue
 std
 :
 :
