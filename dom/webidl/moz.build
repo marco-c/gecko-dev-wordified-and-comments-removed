@@ -7023,11 +7023,6 @@ TCPSocketEvent
 webidl
 "
 "
-ToggleEvent
-.
-webidl
-"
-"
 TrackEvent
 .
 webidl
