@@ -584,6 +584,15 @@ i
 )
 ;
 let
+controller
+=
+UrlbarTestUtils
+.
+newMockController
+(
+)
+;
+let
 result
 =
 await
@@ -603,6 +612,7 @@ ActionsProviderQuickActions
 isActive
 (
 context
+controller
 )
 ;
 if
@@ -734,6 +744,15 @@ false
 }
 )
 ;
+let
+controller
+=
+UrlbarTestUtils
+.
+newMockController
+(
+)
+;
 Assert
 .
 ok
@@ -746,6 +765,7 @@ interventionsProvider
 isActive
 (
 context
+controller
 )
 )
 "
