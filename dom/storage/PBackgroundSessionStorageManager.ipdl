@@ -136,6 +136,8 @@ OriginAttributesPattern
 aPattern
 nsCString
 aOriginScope
+uint32_t
+aMode
 )
 ;
 async
