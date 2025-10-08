@@ -259,6 +259,11 @@ SerializedStructuredCloneBuffer
 h
 "
 "
+SerializeToBytesUtil
+.
+h
+"
+"
 SharedMemoryCursor
 .
 h
@@ -1462,6 +1467,12 @@ MOZ_EME_PROCESS_NAME_BRANDED
 "
 "
 MOZ_EME_PROCESS_BUNDLENAME
+"
+"
+MOZ_GPU_PROCESS_NAME_BRANDED
+"
+"
+MOZ_GPU_PROCESS_BUNDLENAME
 "
 )
 :
