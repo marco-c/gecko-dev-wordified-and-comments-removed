@@ -6581,10 +6581,6 @@ const
 nsACString
 &
 aOriginScope
-const
-uint32_t
-&
-aMode
 )
 {
 :
@@ -6606,13 +6602,6 @@ ClearStorages
 (
 aPattern
 aOriginScope
-static_cast
-<
-DomainMatchingMode
->
-(
-aMode
-)
 )
 ;
 return

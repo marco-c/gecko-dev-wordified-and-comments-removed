@@ -1806,16 +1806,6 @@ rv
 nsCString
 originScope
 ;
-if
-(
-!
-schemelessSite
-.
-IsEmpty
-(
-)
-)
-{
 rv
 =
 GetOriginScope
@@ -1837,7 +1827,6 @@ rv
 rv
 )
 ;
-}
 Notify
 (
 aTopic
