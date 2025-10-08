@@ -390,6 +390,10 @@ gxvtrak
 )
 FT_TRACE_DEF
 (
+afadjust
+)
+FT_TRACE_DEF
+(
 afcjk
 )
 FT_TRACE_DEF

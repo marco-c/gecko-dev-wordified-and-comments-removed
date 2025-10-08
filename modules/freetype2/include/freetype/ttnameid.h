@@ -2108,7 +2108,7 @@ TT_NAME_ID_TYPOGRAPHIC_SUBFAMILY
 define
 TT_UCR_BASIC_LATIN
 (
-1L
+1UL
 <
 <
 0
@@ -2128,7 +2128,7 @@ U
 define
 TT_UCR_LATIN1_SUPPLEMENT
 (
-1L
+1UL
 <
 <
 1
@@ -2148,7 +2148,7 @@ U
 define
 TT_UCR_LATIN_EXTENDED_A
 (
-1L
+1UL
 <
 <
 2
@@ -2168,7 +2168,7 @@ U
 define
 TT_UCR_LATIN_EXTENDED_B
 (
-1L
+1UL
 <
 <
 3
@@ -2188,7 +2188,7 @@ U
 define
 TT_UCR_IPA_EXTENSIONS
 (
-1L
+1UL
 <
 <
 4
@@ -2208,7 +2208,7 @@ U
 define
 TT_UCR_SPACING_MODIFIER
 (
-1L
+1UL
 <
 <
 5
@@ -2228,7 +2228,7 @@ U
 define
 TT_UCR_COMBINING_DIACRITICAL_MARKS
 (
-1L
+1UL
 <
 <
 6
@@ -2248,7 +2248,7 @@ U
 define
 TT_UCR_GREEK
 (
-1L
+1UL
 <
 <
 7
@@ -2268,7 +2268,7 @@ U
 define
 TT_UCR_COPTIC
 (
-1L
+1UL
 <
 <
 8
@@ -2288,7 +2288,7 @@ U
 define
 TT_UCR_CYRILLIC
 (
-1L
+1UL
 <
 <
 9
@@ -2308,7 +2308,7 @@ U
 define
 TT_UCR_ARMENIAN
 (
-1L
+1UL
 <
 <
 10
@@ -2328,7 +2328,7 @@ U
 define
 TT_UCR_HEBREW
 (
-1L
+1UL
 <
 <
 11
@@ -2348,7 +2348,7 @@ U
 define
 TT_UCR_VAI
 (
-1L
+1UL
 <
 <
 12
@@ -2368,7 +2368,7 @@ A63F
 define
 TT_UCR_ARABIC
 (
-1L
+1UL
 <
 <
 13
@@ -2388,7 +2388,7 @@ U
 define
 TT_UCR_NKO
 (
-1L
+1UL
 <
 <
 14
@@ -2408,7 +2408,7 @@ U
 define
 TT_UCR_DEVANAGARI
 (
-1L
+1UL
 <
 <
 15
@@ -2428,7 +2428,7 @@ U
 define
 TT_UCR_BENGALI
 (
-1L
+1UL
 <
 <
 16
@@ -2448,7 +2448,7 @@ U
 define
 TT_UCR_GURMUKHI
 (
-1L
+1UL
 <
 <
 17
@@ -2468,7 +2468,7 @@ U
 define
 TT_UCR_GUJARATI
 (
-1L
+1UL
 <
 <
 18
@@ -2488,7 +2488,7 @@ U
 define
 TT_UCR_ORIYA
 (
-1L
+1UL
 <
 <
 19
@@ -2508,7 +2508,7 @@ U
 define
 TT_UCR_TAMIL
 (
-1L
+1UL
 <
 <
 20
@@ -2528,7 +2528,7 @@ U
 define
 TT_UCR_TELUGU
 (
-1L
+1UL
 <
 <
 21
@@ -2548,7 +2548,7 @@ U
 define
 TT_UCR_KANNADA
 (
-1L
+1UL
 <
 <
 22
@@ -2568,7 +2568,7 @@ U
 define
 TT_UCR_MALAYALAM
 (
-1L
+1UL
 <
 <
 23
@@ -2588,7 +2588,7 @@ U
 define
 TT_UCR_THAI
 (
-1L
+1UL
 <
 <
 24
@@ -2608,7 +2608,7 @@ U
 define
 TT_UCR_LAO
 (
-1L
+1UL
 <
 <
 25
@@ -2628,7 +2628,7 @@ U
 define
 TT_UCR_GEORGIAN
 (
-1L
+1UL
 <
 <
 26
@@ -2648,7 +2648,7 @@ U
 define
 TT_UCR_BALINESE
 (
-1L
+1UL
 <
 <
 27
@@ -2668,7 +2668,7 @@ U
 define
 TT_UCR_HANGUL_JAMO
 (
-1L
+1UL
 <
 <
 28
@@ -2688,7 +2688,7 @@ U
 define
 TT_UCR_LATIN_EXTENDED_ADDITIONAL
 (
-1L
+1UL
 <
 <
 29
@@ -2708,7 +2708,7 @@ U
 define
 TT_UCR_GREEK_EXTENDED
 (
-1L
+1UL
 <
 <
 30
@@ -2728,7 +2728,7 @@ U
 define
 TT_UCR_GENERAL_PUNCTUATION
 (
-1L
+1UL
 <
 <
 31
@@ -2748,7 +2748,7 @@ U
 define
 TT_UCR_SUPERSCRIPTS_SUBSCRIPTS
 (
-1L
+1UL
 <
 <
 0
@@ -2768,7 +2768,7 @@ U
 define
 TT_UCR_CURRENCY_SYMBOLS
 (
-1L
+1UL
 <
 <
 1
@@ -2789,7 +2789,7 @@ define
 TT_UCR_COMBINING_DIACRITICAL_MARKS_SYMB
 \
 (
-1L
+1UL
 <
 <
 2
@@ -2809,7 +2809,7 @@ U
 define
 TT_UCR_LETTERLIKE_SYMBOLS
 (
-1L
+1UL
 <
 <
 3
@@ -2829,7 +2829,7 @@ U
 define
 TT_UCR_NUMBER_FORMS
 (
-1L
+1UL
 <
 <
 4
@@ -2849,7 +2849,7 @@ U
 define
 TT_UCR_ARROWS
 (
-1L
+1UL
 <
 <
 5
@@ -2869,7 +2869,7 @@ U
 define
 TT_UCR_MATHEMATICAL_OPERATORS
 (
-1L
+1UL
 <
 <
 6
@@ -2889,7 +2889,7 @@ U
 define
 TT_UCR_MISCELLANEOUS_TECHNICAL
 (
-1L
+1UL
 <
 <
 7
@@ -2909,7 +2909,7 @@ U
 define
 TT_UCR_CONTROL_PICTURES
 (
-1L
+1UL
 <
 <
 8
@@ -2929,7 +2929,7 @@ U
 define
 TT_UCR_OCR
 (
-1L
+1UL
 <
 <
 9
@@ -2949,7 +2949,7 @@ U
 define
 TT_UCR_ENCLOSED_ALPHANUMERICS
 (
-1L
+1UL
 <
 <
 10
@@ -2969,7 +2969,7 @@ U
 define
 TT_UCR_BOX_DRAWING
 (
-1L
+1UL
 <
 <
 11
@@ -2989,7 +2989,7 @@ U
 define
 TT_UCR_BLOCK_ELEMENTS
 (
-1L
+1UL
 <
 <
 12
@@ -3009,7 +3009,7 @@ U
 define
 TT_UCR_GEOMETRIC_SHAPES
 (
-1L
+1UL
 <
 <
 13
@@ -3029,7 +3029,7 @@ U
 define
 TT_UCR_MISCELLANEOUS_SYMBOLS
 (
-1L
+1UL
 <
 <
 14
@@ -3049,7 +3049,7 @@ U
 define
 TT_UCR_DINGBATS
 (
-1L
+1UL
 <
 <
 15
@@ -3069,7 +3069,7 @@ U
 define
 TT_UCR_CJK_SYMBOLS
 (
-1L
+1UL
 <
 <
 16
@@ -3089,7 +3089,7 @@ U
 define
 TT_UCR_HIRAGANA
 (
-1L
+1UL
 <
 <
 17
@@ -3109,7 +3109,7 @@ U
 define
 TT_UCR_KATAKANA
 (
-1L
+1UL
 <
 <
 18
@@ -3129,7 +3129,7 @@ U
 define
 TT_UCR_BOPOMOFO
 (
-1L
+1UL
 <
 <
 19
@@ -3149,7 +3149,7 @@ U
 define
 TT_UCR_HANGUL_COMPATIBILITY_JAMO
 (
-1L
+1UL
 <
 <
 20
@@ -3167,9 +3167,9 @@ U
 /
 #
 define
-TT_UCR_CJK_MISC
+TT_UCR_PHAGSPA
 (
-1L
+1UL
 <
 <
 21
@@ -3188,7 +3188,7 @@ A87F
 #
 define
 TT_UCR_KANBUN
-TT_UCR_CJK_MISC
+TT_UCR_PHAGSPA
 /
 *
 deprecated
@@ -3196,12 +3196,18 @@ deprecated
 /
 #
 define
+TT_UCR_CJK_MISC
 TT_UCR_PHAGSPA
+/
+*
+deprecated
+*
+/
 #
 define
 TT_UCR_ENCLOSED_CJK_LETTERS_MONTHS
 (
-1L
+1UL
 <
 <
 22
@@ -3221,7 +3227,7 @@ U
 define
 TT_UCR_CJK_COMPATIBILITY
 (
-1L
+1UL
 <
 <
 23
@@ -3241,7 +3247,7 @@ U
 define
 TT_UCR_HANGUL
 (
-1L
+1UL
 <
 <
 24
@@ -3261,7 +3267,7 @@ D7A3
 define
 TT_UCR_SURROGATES
 (
-1L
+1UL
 <
 <
 25
@@ -3285,7 +3291,7 @@ TT_UCR_SURROGATES
 define
 TT_UCR_PHOENICIAN
 (
-1L
+1UL
 <
 <
 26
@@ -3305,7 +3311,7 @@ U
 define
 TT_UCR_CJK_UNIFIED_IDEOGRAPHS
 (
-1L
+1UL
 <
 <
 27
@@ -3325,7 +3331,7 @@ U
 define
 TT_UCR_PRIVATE_USE
 (
-1L
+1UL
 <
 <
 28
@@ -3345,7 +3351,7 @@ F8FF
 define
 TT_UCR_CJK_COMPATIBILITY_IDEOGRAPHS
 (
-1L
+1UL
 <
 <
 29
@@ -3365,7 +3371,7 @@ U
 define
 TT_UCR_ALPHABETIC_PRESENTATION_FORMS
 (
-1L
+1UL
 <
 <
 30
@@ -3385,7 +3391,7 @@ FB4F
 define
 TT_UCR_ARABIC_PRESENTATION_FORMS_A
 (
-1L
+1UL
 <
 <
 31
@@ -3405,7 +3411,7 @@ FDFF
 define
 TT_UCR_COMBINING_HALF_MARKS
 (
-1L
+1UL
 <
 <
 0
@@ -3425,7 +3431,7 @@ FE2F
 define
 TT_UCR_CJK_COMPATIBILITY_FORMS
 (
-1L
+1UL
 <
 <
 1
@@ -3445,7 +3451,7 @@ FE1F
 define
 TT_UCR_SMALL_FORM_VARIANTS
 (
-1L
+1UL
 <
 <
 2
@@ -3465,7 +3471,7 @@ FE6F
 define
 TT_UCR_ARABIC_PRESENTATION_FORMS_B
 (
-1L
+1UL
 <
 <
 3
@@ -3478,14 +3484,14 @@ FE70
 -
 U
 +
-FEFE
+FEFF
 *
 /
 #
 define
 TT_UCR_HALFWIDTH_FULLWIDTH_FORMS
 (
-1L
+1UL
 <
 <
 4
@@ -3505,7 +3511,7 @@ FFEF
 define
 TT_UCR_SPECIALS
 (
-1L
+1UL
 <
 <
 5
@@ -3518,14 +3524,14 @@ FFF0
 -
 U
 +
-FFFD
+FFFF
 *
 /
 #
 define
 TT_UCR_TIBETAN
 (
-1L
+1UL
 <
 <
 6
@@ -3545,7 +3551,7 @@ U
 define
 TT_UCR_SYRIAC
 (
-1L
+1UL
 <
 <
 7
@@ -3565,7 +3571,7 @@ U
 define
 TT_UCR_THAANA
 (
-1L
+1UL
 <
 <
 8
@@ -3585,7 +3591,7 @@ U
 define
 TT_UCR_SINHALA
 (
-1L
+1UL
 <
 <
 9
@@ -3605,7 +3611,7 @@ U
 define
 TT_UCR_MYANMAR
 (
-1L
+1UL
 <
 <
 10
@@ -3625,7 +3631,7 @@ U
 define
 TT_UCR_ETHIOPIC
 (
-1L
+1UL
 <
 <
 11
@@ -3645,7 +3651,7 @@ U
 define
 TT_UCR_CHEROKEE
 (
-1L
+1UL
 <
 <
 12
@@ -3665,7 +3671,7 @@ U
 define
 TT_UCR_CANADIAN_ABORIGINAL_SYLLABICS
 (
-1L
+1UL
 <
 <
 13
@@ -3685,7 +3691,7 @@ U
 define
 TT_UCR_OGHAM
 (
-1L
+1UL
 <
 <
 14
@@ -3705,7 +3711,7 @@ U
 define
 TT_UCR_RUNIC
 (
-1L
+1UL
 <
 <
 15
@@ -3725,7 +3731,7 @@ U
 define
 TT_UCR_KHMER
 (
-1L
+1UL
 <
 <
 16
@@ -3745,7 +3751,7 @@ U
 define
 TT_UCR_MONGOLIAN
 (
-1L
+1UL
 <
 <
 17
@@ -3765,7 +3771,7 @@ U
 define
 TT_UCR_BRAILLE
 (
-1L
+1UL
 <
 <
 18
@@ -3785,7 +3791,7 @@ U
 define
 TT_UCR_YI
 (
-1L
+1UL
 <
 <
 19
@@ -3805,7 +3811,7 @@ A48F
 define
 TT_UCR_PHILIPPINE
 (
-1L
+1UL
 <
 <
 20
@@ -3825,7 +3831,7 @@ U
 define
 TT_UCR_OLD_ITALIC
 (
-1L
+1UL
 <
 <
 21
@@ -3845,7 +3851,7 @@ U
 define
 TT_UCR_GOTHIC
 (
-1L
+1UL
 <
 <
 22
@@ -3865,7 +3871,7 @@ U
 define
 TT_UCR_DESERET
 (
-1L
+1UL
 <
 <
 23
@@ -3885,7 +3891,7 @@ U
 define
 TT_UCR_MUSICAL_SYMBOLS
 (
-1L
+1UL
 <
 <
 24
@@ -3905,7 +3911,7 @@ U
 define
 TT_UCR_MATH_ALPHANUMERIC_SYMBOLS
 (
-1L
+1UL
 <
 <
 25
@@ -3925,7 +3931,7 @@ U
 define
 TT_UCR_PRIVATE_USE_SUPPLEMENTARY
 (
-1L
+1UL
 <
 <
 26
@@ -3945,7 +3951,7 @@ FFFFD
 define
 TT_UCR_VARIATION_SELECTORS
 (
-1L
+1UL
 <
 <
 27
@@ -3965,7 +3971,7 @@ FE0F
 define
 TT_UCR_TAGS
 (
-1L
+1UL
 <
 <
 28
@@ -3985,7 +3991,7 @@ E007F
 define
 TT_UCR_LIMBU
 (
-1L
+1UL
 <
 <
 29
@@ -4005,7 +4011,7 @@ U
 define
 TT_UCR_TAI_LE
 (
-1L
+1UL
 <
 <
 30
@@ -4025,7 +4031,7 @@ U
 define
 TT_UCR_NEW_TAI_LUE
 (
-1L
+1UL
 <
 <
 31
@@ -4045,7 +4051,7 @@ U
 define
 TT_UCR_BUGINESE
 (
-1L
+1UL
 <
 <
 0
@@ -4065,7 +4071,7 @@ U
 define
 TT_UCR_GLAGOLITIC
 (
-1L
+1UL
 <
 <
 1
@@ -4085,7 +4091,7 @@ U
 define
 TT_UCR_TIFINAGH
 (
-1L
+1UL
 <
 <
 2
@@ -4105,7 +4111,7 @@ U
 define
 TT_UCR_YIJING
 (
-1L
+1UL
 <
 <
 3
@@ -4125,7 +4131,7 @@ U
 define
 TT_UCR_SYLOTI_NAGRI
 (
-1L
+1UL
 <
 <
 4
@@ -4145,7 +4151,7 @@ A82F
 define
 TT_UCR_LINEAR_B
 (
-1L
+1UL
 <
 <
 5
@@ -4165,7 +4171,7 @@ U
 define
 TT_UCR_ANCIENT_GREEK_NUMBERS
 (
-1L
+1UL
 <
 <
 6
@@ -4185,7 +4191,7 @@ U
 define
 TT_UCR_UGARITIC
 (
-1L
+1UL
 <
 <
 7
@@ -4205,7 +4211,7 @@ U
 define
 TT_UCR_OLD_PERSIAN
 (
-1L
+1UL
 <
 <
 8
@@ -4225,7 +4231,7 @@ U
 define
 TT_UCR_SHAVIAN
 (
-1L
+1UL
 <
 <
 9
@@ -4245,7 +4251,7 @@ U
 define
 TT_UCR_OSMANYA
 (
-1L
+1UL
 <
 <
 10
@@ -4265,7 +4271,7 @@ U
 define
 TT_UCR_CYPRIOT_SYLLABARY
 (
-1L
+1UL
 <
 <
 11
@@ -4285,7 +4291,7 @@ U
 define
 TT_UCR_KHAROSHTHI
 (
-1L
+1UL
 <
 <
 12
@@ -4305,7 +4311,7 @@ U
 define
 TT_UCR_TAI_XUAN_JING
 (
-1L
+1UL
 <
 <
 13
@@ -4325,7 +4331,7 @@ U
 define
 TT_UCR_CUNEIFORM
 (
-1L
+1UL
 <
 <
 14
@@ -4345,7 +4351,7 @@ U
 define
 TT_UCR_COUNTING_ROD_NUMERALS
 (
-1L
+1UL
 <
 <
 15
@@ -4365,7 +4371,7 @@ U
 define
 TT_UCR_SUNDANESE
 (
-1L
+1UL
 <
 <
 16
@@ -4385,7 +4391,7 @@ U
 define
 TT_UCR_LEPCHA
 (
-1L
+1UL
 <
 <
 17
@@ -4405,7 +4411,7 @@ U
 define
 TT_UCR_OL_CHIKI
 (
-1L
+1UL
 <
 <
 18
@@ -4425,7 +4431,7 @@ U
 define
 TT_UCR_SAURASHTRA
 (
-1L
+1UL
 <
 <
 19
@@ -4445,7 +4451,7 @@ A8DF
 define
 TT_UCR_KAYAH_LI
 (
-1L
+1UL
 <
 <
 20
@@ -4465,7 +4471,7 @@ A92F
 define
 TT_UCR_REJANG
 (
-1L
+1UL
 <
 <
 21
@@ -4485,7 +4491,7 @@ A95F
 define
 TT_UCR_CHAM
 (
-1L
+1UL
 <
 <
 22
@@ -4505,7 +4511,7 @@ AA5F
 define
 TT_UCR_ANCIENT_SYMBOLS
 (
-1L
+1UL
 <
 <
 23
@@ -4525,7 +4531,7 @@ U
 define
 TT_UCR_PHAISTOS_DISC
 (
-1L
+1UL
 <
 <
 24
@@ -4545,7 +4551,7 @@ U
 define
 TT_UCR_OLD_ANATOLIAN
 (
-1L
+1UL
 <
 <
 25
@@ -4565,7 +4571,7 @@ U
 define
 TT_UCR_GAME_TILES
 (
-1L
+1UL
 <
 <
 26

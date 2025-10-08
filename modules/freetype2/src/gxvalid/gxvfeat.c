@@ -917,7 +917,7 @@ GXV_TRACE
 featureNameCount
 =
 %
-d
+u
 )
 \
 n

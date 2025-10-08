@@ -5694,7 +5694,7 @@ t1_decoder_parse_charstrings
 unhandled
 opcode
 %
-d
+u
 \
 n
 "

@@ -11,13 +11,6 @@ c
 #
 include
 "
-ftcalc
-.
-c
-"
-#
-include
-"
 ftcolor
 .
 c
@@ -117,6 +110,13 @@ c
 include
 "
 fttrigon
+.
+c
+"
+#
+include
+"
+ftcalc
 .
 c
 "

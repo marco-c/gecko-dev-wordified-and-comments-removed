@@ -82,7 +82,7 @@ OTV_TRACE
 GlyphCount
 =
 %
-d
+u
 )
 \
 n
@@ -223,7 +223,7 @@ OTV_TRACE
 format
 =
 %
-d
+u
 )
 \
 n
@@ -331,7 +331,7 @@ OTV_TRACE
 MarkGlyphSetCount
 =
 %
-d
+u
 )
 \
 n

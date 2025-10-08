@@ -3697,9 +3697,9 @@ FT_TRACE4
 (
 "
 %
-d
+u
 %
-d
+u
 %
 ld
 \
@@ -3852,7 +3852,7 @@ FT_TRACE4
 (
 "
 %
-d
+u
 \
 n
 "
@@ -4048,7 +4048,7 @@ FT_TRACE4
 (
 "
 %
-d
+u
 value
 %
 s
@@ -4197,7 +4197,7 @@ FT_TRACE4
 (
 "
 %
-d
+u
 \
 n
 "

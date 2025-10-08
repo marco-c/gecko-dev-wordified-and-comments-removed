@@ -16,6 +16,11 @@ h
 freetype_vms0
 .
 opt
+/
+gnu
+/
+bin
+/
 mv
 freetype_vms0
 .

@@ -7612,7 +7612,7 @@ callsubr
 (
 idx
 %
-d
+u
 entering
 level
 %
@@ -7851,7 +7851,7 @@ callgsubr
 (
 idx
 %
-d
+u
 entering
 level
 %

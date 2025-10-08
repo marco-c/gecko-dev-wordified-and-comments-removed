@@ -3385,7 +3385,7 @@ FT_TRACE0
 "
 to
 %
-d
+u
 characters
 \
 n

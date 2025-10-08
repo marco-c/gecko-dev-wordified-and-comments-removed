@@ -29,6 +29,17 @@ freetype
 /
 internal
 /
+fthash
+.
+h
+>
+#
+include
+<
+freetype
+/
+internal
+/
 ftobjs
 .
 h
@@ -656,6 +667,9 @@ digits_have_same_width
 ;
 AF_FaceGlobals
 globals
+;
+FT_Hash
+reverse_charmap
 ;
 }
 AF_StyleMetricsRec

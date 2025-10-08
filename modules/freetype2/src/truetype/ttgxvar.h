@@ -898,6 +898,10 @@ FT_Fixed
 *
 tuplecoords
 ;
+FT_Fixed
+*
+tuplescalars
+;
 FT_UInt
 gv_glyphcnt
 ;

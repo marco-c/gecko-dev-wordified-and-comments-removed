@@ -1076,6 +1076,16 @@ FT_Render_Mode
 mode
 )
 ;
+FT_BASE
+(
+FT_Error
+)
+find_unicode_charmap
+(
+FT_Face
+face
+)
+;
 #
 ifdef
 FT_CONFIG_OPTION_SUBPIXEL_RENDERING
@@ -1215,6 +1225,7 @@ typedef
 struct
 FT_ModuleRec_
 {
+const
 FT_Module_Class
 *
 clazz

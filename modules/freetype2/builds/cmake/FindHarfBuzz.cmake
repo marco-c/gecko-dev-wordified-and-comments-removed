@@ -299,14 +299,14 @@ needed
 #
 HarfBuzz_INCLUDE_DIRS
 -
-containg
+containing
 the
 HarfBuzz
 headers
 #
 HarfBuzz_LIBRARIES
 -
-containg
+containing
 the
 HarfBuzz
 library

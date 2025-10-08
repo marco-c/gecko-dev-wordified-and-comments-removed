@@ -782,10 +782,14 @@ if
 var
 &
 &
+FT_IS_VARIATION
+(
+&
 face
 -
 >
-blend
+root
+)
 )
 {
 FT_Face

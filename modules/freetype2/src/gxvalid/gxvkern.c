@@ -3085,7 +3085,7 @@ GXV_TRACE
 validating
 subtable
 %
-d
+u
 /
 %
 lu

@@ -59,7 +59,7 @@ zlib_1
 .
 1
 -
-1
+2
 /
 zlib
 -
@@ -96,7 +96,7 @@ zlib_1
 .
 1
 -
-1_patch
+2_patch
 .
 zip
 patch_url
@@ -119,12 +119,12 @@ zlib_1
 .
 1
 -
-1
+2
 /
 get_patch
 patch_hash
 =
-e79b98eb24a75392009cec6f99ca5cdca9881ff20bfa174e8b8926d5c7a47095
+9cacea02e1119964bc51e92dd2359b14df723a36cfe0df1c78d55d9c9f2763ae
 wrapdb_version
 =
 1
@@ -133,7 +133,7 @@ wrapdb_version
 .
 1
 -
-1
+2
 [
 provide
 ]

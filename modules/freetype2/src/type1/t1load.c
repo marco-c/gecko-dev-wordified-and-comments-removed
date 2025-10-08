@@ -2143,10 +2143,10 @@ only
 using
 first
 %
-d
+u
 of
 %
-d
+u
 coordinates
 \
 n
@@ -2876,7 +2876,7 @@ instance_index
 )
 ;
 return
-T1_Set_MM_Blend
+T1_Set_MM_WeightVector
 (
 face
 0
@@ -3045,10 +3045,10 @@ only
 using
 first
 %
-d
+u
 of
 %
-d
+u
 coordinates
 \
 n

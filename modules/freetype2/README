@@ -1,9 +1,9 @@
 FreeType
 2
 .
-13
+14
 .
-3
+1
 =
 =
 =
@@ -25,8 +25,6 @@ https
 :
 /
 /
-www
-.
 freetype
 .
 org
@@ -101,8 +99,6 @@ instructions
 see
 the
 file
-docs
-/
 LICENSE
 .
 TXT
@@ -257,9 +253,9 @@ doc
 -
 2
 .
-13
+14
 .
-3
+1
 .
 tar
 .
@@ -270,14 +266,14 @@ doc
 -
 2
 .
-13
+14
 .
-3
+1
 .
 tar
 .
 gz
-ftdoc2133
+ftdoc2141
 .
 zip
 To
@@ -291,8 +287,6 @@ https
 :
 /
 /
-www
-.
 freetype
 .
 org
@@ -381,8 +375,6 @@ https
 :
 /
 /
-www
-.
 freetype
 .
 org
@@ -547,8 +539,6 @@ https
 :
 /
 /
-www
-.
 freetype
 .
 org
@@ -639,7 +629,7 @@ C
 )
 2006
 -
-2024
+2025
 by
 David
 Turner

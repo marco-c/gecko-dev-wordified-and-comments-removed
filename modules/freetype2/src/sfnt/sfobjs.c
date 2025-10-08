@@ -4211,10 +4211,10 @@ FT_FACE_FLAG_VERTICAL
 ;
 if
 (
-TT_FACE_HAS_KERNING
-(
 face
-)
+-
+>
+kern_avail_bits
 #
 ifdef
 TT_CONFIG_OPTION_GPOS_KERNING
@@ -4223,7 +4223,7 @@ TT_CONFIG_OPTION_GPOS_KERNING
 face
 -
 >
-gpos_kerning_available
+num_gpos_lookups_kerning
 #
 endif
 )

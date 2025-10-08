@@ -492,7 +492,7 @@ OTV_TRACE
 JstfLangSysCount
 =
 %
-d
+u
 )
 \
 n
@@ -702,7 +702,7 @@ FT_TRACE3
 JstfScriptCount
 =
 %
-d
+u
 )
 \
 n

@@ -2122,7 +2122,7 @@ first
 offset
 value
 %
-ld
+lu
 set
 to
 zero
@@ -2607,7 +2607,7 @@ next
 entry
 (
 %
-ld
+lu
 )
 "
 "
@@ -2618,7 +2618,7 @@ of
 stream
 (
 %
-ld
+lu
 )
 \
 n
@@ -3949,7 +3949,7 @@ trimmed
 nleft
 =
 %
-d
+u
 -
 >
 %
@@ -5195,7 +5195,7 @@ cff_blend_doBlend
 Stack
 underflow
 %
-d
+u
 argument
 %
 s
@@ -5912,7 +5912,7 @@ blend
 vector
 len
 %
-d
+u
 \
 n
 "
@@ -9191,7 +9191,7 @@ CFF
 font
 (
 %
-d
+u
 )
 \
 n

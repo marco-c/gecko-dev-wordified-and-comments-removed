@@ -531,9 +531,6 @@ ttface
 -
 >
 kern_avail_bits
-!
-=
-0
 )
 kerning
 -
@@ -559,7 +556,7 @@ if
 ttface
 -
 >
-gpos_kerning_available
+num_gpos_lookups_kerning
 )
 kerning
 -

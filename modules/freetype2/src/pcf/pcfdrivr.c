@@ -1808,7 +1808,7 @@ PCF_Glyph_Load
 glyph
 index
 %
-d
+u
 \
 n
 "

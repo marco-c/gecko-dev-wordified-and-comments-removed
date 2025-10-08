@@ -2026,6 +2026,7 @@ if
 !
 error
 )
+{
 t42size
 -
 >
@@ -2038,6 +2039,7 @@ FT_Activate_Size
 ttsize
 )
 ;
+}
 return
 error
 ;
@@ -2642,7 +2644,7 @@ T42_GlyphSlot_Load
 glyph
 index
 %
-d
+u
 \
 n
 "

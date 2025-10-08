@@ -2564,7 +2564,18 @@ stream
 ;
 if
 (
+FT_ERR_NEQ
+(
 error
+Table_Missing
+)
+&
+&
+FT_ERR_NEQ
+(
+error
+Ok
+)
 )
 goto
 Exit
@@ -2904,7 +2915,7 @@ FT_TRACE4
 (
 "
 %
-5d
+5u
 %
 s
 \
@@ -2977,7 +2988,7 @@ FT_TRACE4
 (
 "
 %
-5d
+5u
 "
 idx
 +
@@ -3080,7 +3091,7 @@ FT_TRACE4
 (
 "
 %
-5d
+5u
 "
 cff
 -

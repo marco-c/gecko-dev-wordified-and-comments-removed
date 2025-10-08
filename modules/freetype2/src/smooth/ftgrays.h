@@ -6,16 +6,6 @@ define
 FTGRAYS_H_
 #
 ifdef
-__cplusplus
-extern
-"
-C
-"
-{
-#
-endif
-#
-ifdef
 STANDALONE_
 #
 include
@@ -44,6 +34,7 @@ h
 >
 #
 endif
+FT_BEGIN_HEADER
 #
 ifndef
 FT_EXPORT_VAR
@@ -64,11 +55,6 @@ FT_Raster_Funcs
 )
 ft_grays_raster
 ;
-#
-ifdef
-__cplusplus
-}
-#
-endif
+FT_END_HEADER
 #
 endif

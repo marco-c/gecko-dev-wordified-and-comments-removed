@@ -767,7 +767,7 @@ GXV_TRACE
 morx
 type
 %
-d
+u
 is
 reserved
 \

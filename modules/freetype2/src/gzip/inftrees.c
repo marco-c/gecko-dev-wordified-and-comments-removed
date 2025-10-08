@@ -28,10 +28,12 @@ inflate
 1
 .
 3
+.
+1
 Copyright
 1995
 -
-2023
+2024
 Mark
 Adler
 "
@@ -231,8 +233,8 @@ lext
 21
 21
 16
-198
 203
+77
 }
 ;
 static

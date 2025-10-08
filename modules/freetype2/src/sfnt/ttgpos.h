@@ -61,9 +61,9 @@ tt_face_get_gpos_kerning
 TT_Face
 face
 FT_UInt
-left_glyph
+first_glyph
 FT_UInt
-right_glyph
+second_glyph
 )
 ;
 #

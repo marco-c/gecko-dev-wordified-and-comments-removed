@@ -812,7 +812,7 @@ FT_TRACE7
 FT_Stream_EnterFrame
 :
 %
-ld
+lu
 bytes
 \
 n

@@ -3994,7 +3994,7 @@ FT_TRACE5
 "
 Contour
 %
-d
+u
 \
 n
 "
@@ -4025,7 +4025,7 @@ FT_TRACE5
 (
 "
 %
-3d
+3u
 :
 "
 num_edges
@@ -4332,7 +4332,7 @@ of
 contours
 =
 %
-d
+u
 \
 n
 "
@@ -4350,7 +4350,7 @@ of
 edges
 =
 %
-d
+u
 \
 n
 "
@@ -4366,7 +4366,7 @@ FT_TRACE5
 __lines
 =
 %
-d
+u
 \
 n
 "
@@ -4382,7 +4382,7 @@ FT_TRACE5
 __conic
 =
 %
-d
+u
 \
 n
 "
@@ -4398,7 +4398,7 @@ FT_TRACE5
 __cubic
 =
 %
-d
+u
 \
 n
 "

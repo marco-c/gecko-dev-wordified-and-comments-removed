@@ -289,7 +289,7 @@ invalid
 hint
 index
 %
-d
+u
 \
 n
 "

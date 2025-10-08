@@ -63,7 +63,7 @@ OTV_TRACE
 (
 format
 %
-d
+u
 )
 \
 n
@@ -228,7 +228,7 @@ OTV_TRACE
 GlyphCount
 =
 %
-d
+u
 )
 \
 n
@@ -337,7 +337,7 @@ OTV_TRACE
 (
 format
 %
-d
+u
 )
 \
 n
@@ -430,7 +430,7 @@ OTV_TRACE
 (
 format
 %
-d
+u
 )
 \
 n
@@ -543,7 +543,7 @@ OTV_TRACE
 CompCount
 =
 %
-d
+u
 )
 \
 n
@@ -619,7 +619,7 @@ OTV_TRACE
 (
 format
 %
-d
+u
 )
 \
 n
@@ -703,7 +703,7 @@ OTV_TRACE
 (
 format
 %
-d
+u
 )
 \
 n
@@ -831,7 +831,7 @@ OTV_TRACE
 (
 format
 %
-d
+u
 )
 \
 n
@@ -959,7 +959,7 @@ OTV_TRACE
 (
 format
 %
-d
+u
 )
 \
 n
@@ -1106,7 +1106,7 @@ OTV_TRACE
 (
 format
 %
-d
+u
 )
 \
 n
@@ -1152,7 +1152,7 @@ OTV_TRACE
 BacktrackGlyphCount
 =
 %
-d
+u
 )
 \
 n
@@ -1217,7 +1217,7 @@ OTV_TRACE
 LookaheadGlyphCount
 =
 %
-d
+u
 )
 \
 n
@@ -1274,7 +1274,7 @@ OTV_TRACE
 GlyphCount
 =
 %
-d
+u
 )
 \
 n

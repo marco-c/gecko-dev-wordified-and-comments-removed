@@ -317,10 +317,10 @@ tables
 (
 from
 %
-ld
+lu
 to
 %
-ld
+lu
 )
 \
 n
@@ -770,7 +770,7 @@ of
 tables
 :
 %
-ld
+lu
 \
 n
 "
@@ -862,7 +862,7 @@ FT_TRACE4
 (
 "
 %
-d
+u
 :
 type
 =
@@ -878,7 +878,7 @@ lX
 size
 =
 %
-ld
+lu
 (
 0x
 %
@@ -887,7 +887,7 @@ lX
 offset
 =
 %
-ld
+lu
 (
 0x
 %
@@ -1878,7 +1878,7 @@ of
 properties
 :
 %
-ld
+lu
 \
 n
 "
@@ -2124,7 +2124,7 @@ string
 size
 :
 %
-ld
+lu
 \
 n
 "
@@ -2751,7 +2751,7 @@ of
 metrics
 :
 %
-ld
+lu
 \
 n
 "
@@ -2919,7 +2919,7 @@ FT_TRACE5
 "
 idx
 %
-ld
+lu
 :
 "
 i
@@ -3021,7 +3021,7 @@ metrics
 for
 glyph
 %
-ld
+lu
 \
 n
 "
@@ -3347,7 +3347,7 @@ of
 bitmaps
 :
 %
-ld
+lu
 \
 n
 "

@@ -4187,7 +4187,7 @@ FNT_Load_Glyph
 glyph
 index
 %
-d
+u
 \
 n
 "

@@ -1271,7 +1271,7 @@ to
 cx
 .
 %
-d
+u
 "
 format_low
 )
@@ -1346,7 +1346,7 @@ to
 cy
 .
 %
-d
+u
 "
 format_low
 )
@@ -1554,7 +1554,7 @@ FT_TRACE7
 cx
 #
 %
-d
+u
 "
 idx
 )
@@ -1723,7 +1723,7 @@ FT_TRACE7
 cy
 #
 %
-d
+u
 "
 idx
 )
@@ -2707,7 +2707,7 @@ compound
 glyph
 with
 %
-d
+u
 element
 %
 s
@@ -2765,7 +2765,7 @@ FT_TRACE4
 "
 subglyph
 %
-d
+u
 :
 \
 n
@@ -2999,7 +2999,7 @@ compound
 glyph
 with
 %
-d
+u
 element
 %
 s

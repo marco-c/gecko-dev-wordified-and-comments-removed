@@ -308,7 +308,7 @@ mismatch
 loca
 :
 %
-ld
+lu
 maxp
 :
 %
@@ -515,7 +515,7 @@ adjusting
 num_locations
 to
 %
-ld
+lu
 \
 n
 "
@@ -824,7 +824,7 @@ for
 glyph
 index
 %
-d
+u
 \
 n
 "
@@ -906,7 +906,7 @@ large
 size
 (
 %
-ld
+lu
 bytes
 )
 found
@@ -914,7 +914,7 @@ for
 glyph
 index
 %
-d
+u
 \
 n
 "
@@ -941,7 +941,7 @@ glyf
 table
 to
 %
-ld
+lu
 bytes
 \
 n
@@ -986,7 +986,7 @@ for
 glyph
 index
 %
-d
+u
 \
 n
 "
@@ -1452,7 +1452,7 @@ FT_TRACE2
 "
 loaded
 %
-12ld
+12lu
 bytes
 \
 n
@@ -1598,7 +1598,7 @@ FT_TRACE2
 "
 loaded
 %
-12ld
+12lu
 bytes
 \
 n

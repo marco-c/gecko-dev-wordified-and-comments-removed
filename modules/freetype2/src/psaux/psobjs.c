@@ -1288,6 +1288,10 @@ limit
 ;
 break
 ;
+default
+:
+break
+;
 }
 }
 end
@@ -3707,7 +3711,7 @@ token
 of
 type
 %
-d
+u
 instead
 \
 n
@@ -4118,7 +4122,7 @@ ps_parser_load_field
 "
 expected
 %
-d
+u
 integer
 %
 s

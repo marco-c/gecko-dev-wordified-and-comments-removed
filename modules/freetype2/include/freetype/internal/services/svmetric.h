@@ -148,7 +148,7 @@ face
 )
 ;
 typedef
-FT_Error
+void
 (
 *
 FT_Size_Reset_Func
