@@ -1800,6 +1800,10 @@ PinningDoomRestriction
 aPinningDoomRestriction
 =
 NO_RESTRICTION
+bool
+aClearDirectory
+=
+true
 )
 ;
 nsresult

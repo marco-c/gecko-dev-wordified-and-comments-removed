@@ -12303,6 +12303,8 @@ CacheFileHandle
 aHandle
 PinningDoomRestriction
 aPinningDoomRestriction
+bool
+aClearDictionary
 )
 {
 LOG
@@ -12763,6 +12765,7 @@ aHandle
 Key
 (
 )
+aClearDictionary
 )
 ;
 }
@@ -17247,6 +17250,15 @@ return
 rv
 ;
 }
+CacheIndex
+:
+:
+EvictByContext
+(
+aOrigin
+aBaseDomain
+)
+;
 return
 NS_OK
 ;
@@ -17860,6 +17872,7 @@ CacheFileIOManager
 :
 :
 DOOM_WHEN_NON_PINNED
+false
 )
 ;
 if
