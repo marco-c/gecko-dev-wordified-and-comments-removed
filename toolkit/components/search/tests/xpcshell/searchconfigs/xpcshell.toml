@@ -608,10 +608,3 @@ test_selector_db_out_of_date
 js
 "
 ]
-[
-"
-test_wikipedia
-.
-js
-"
-]
