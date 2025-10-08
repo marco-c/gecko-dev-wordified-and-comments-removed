@@ -1541,6 +1541,7 @@ mWaitHelper
 ;
 class
 SystemClockDriver
+final
 :
 public
 ThreadedDriver
@@ -1615,6 +1616,7 @@ mCurrentTimeStamp
 ;
 class
 OfflineClockDriver
+final
 :
 public
 ThreadedDriver
@@ -1720,6 +1722,7 @@ mParams
 ;
 class
 AudioCallbackDriver
+final
 :
 public
 GraphDriver

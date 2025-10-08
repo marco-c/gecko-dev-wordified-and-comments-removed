@@ -1584,7 +1584,9 @@ Now
 int64_t
 timeoutMS
 =
-MEDIA_GRAPH_TARGET_PERIOD_MS
+IterationDuration
+(
+)
 -
 int64_t
 (
