@@ -431,7 +431,6 @@ SGX544MP
 Tegra
 AndroidEmulator
 GalliumLlvmpipe
-IntelHD3000
 MicrosoftBasicRenderDriver
 SamsungXclipse
 Other
