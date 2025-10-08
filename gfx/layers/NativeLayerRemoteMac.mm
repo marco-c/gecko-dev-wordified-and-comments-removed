@@ -1116,7 +1116,7 @@ if
 surfaceWithInvalidRegion
 )
 {
-auto
+IOSurfaceRef
 surfaceRef
 =
 surfaceWithInvalidRegion
