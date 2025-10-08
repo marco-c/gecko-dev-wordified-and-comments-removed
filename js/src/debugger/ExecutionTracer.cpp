@@ -966,6 +966,16 @@ uint32_t
 )
 )
 ;
+inlineData_
+.
+write
+(
+uint64_t
+(
+0
+)
+)
+;
 }
 JS
 :
