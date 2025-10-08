@@ -854,19 +854,14 @@ policy
 :
 optionally_keyed_by
 (
-            
 "
 project
-"
-"
-level
 "
 {
 str
 :
 str
 }
-        
 )
     
 }
