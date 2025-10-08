@@ -91,7 +91,12 @@ MOZ_THROW_NORETURN
 #
 define
 MOZ_THROW_NORETURN
-MOZ_NORETURN
+__attribute__
+(
+(
+__noreturn__
+)
+)
 #
 endif
 #
