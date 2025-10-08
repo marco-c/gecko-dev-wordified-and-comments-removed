@@ -83,7 +83,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 mozilla
 .
@@ -211,6 +213,8 @@ telemetry
 extensions
 (
 )
+=
+runTest
 {
 val
 components
@@ -386,8 +390,6 @@ GleanMetricsService
 (
 context
 )
-runBlocking
-{
 glean
 .
 installSearchTelemetryExtensions
@@ -417,6 +419,5 @@ engine
 store
 providerList
 )
-}
 }
 }
