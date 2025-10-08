@@ -584,8 +584,6 @@ nsAString
 &
 aValue
 bool
-aIgnoreWrap
-bool
 aForDisplay
 )
 const

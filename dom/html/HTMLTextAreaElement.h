@@ -1744,8 +1744,6 @@ GetValueInternal
 nsAString
 &
 aValue
-bool
-aIgnoreWrap
 )
 const
 ;
