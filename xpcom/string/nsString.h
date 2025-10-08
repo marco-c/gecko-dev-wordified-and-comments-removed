@@ -21,6 +21,15 @@ h
 #
 include
 "
+mozilla
+/
+Char16
+.
+h
+"
+#
+include
+"
 nsStringFwd
 .
 h
