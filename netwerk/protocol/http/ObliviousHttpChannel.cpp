@@ -4185,7 +4185,7 @@ NS_IMETHODIMP
 ObliviousHttpChannel
 :
 :
-GetDictionary
+GetDecompressDictionary
 (
 DictionaryCacheEntry
 *
@@ -4206,7 +4206,7 @@ NS_IMETHODIMP
 ObliviousHttpChannel
 :
 :
-SetDictionary
+SetDecompressDictionary
 (
 DictionaryCacheEntry
 *
