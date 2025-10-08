@@ -111,7 +111,7 @@ androidx
 .
 preference
 .
-SwitchPreferenceCompat
+SwitchPreference
 android
 :
 key

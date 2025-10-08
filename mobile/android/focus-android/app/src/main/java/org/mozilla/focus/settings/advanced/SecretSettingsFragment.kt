@@ -89,7 +89,7 @@ androidx
 .
 preference
 .
-SwitchPreferenceCompat
+SwitchPreference
 import
 org
 .
@@ -240,7 +240,7 @@ secret_settings
 )
 requirePreference
 <
-SwitchPreferenceCompat
+SwitchPreference
 >
 (
 R
@@ -270,7 +270,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreferenceCompat
+SwitchPreference
 >
 (
 R
@@ -375,7 +375,7 @@ String
 {
 findPreference
 <
-SwitchPreferenceCompat
+SwitchPreference
 >
 (
 getPreferenceKey

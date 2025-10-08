@@ -233,7 +233,7 @@ androidx
 .
 preference
 .
-SwitchPreferenceCompat
+SwitchPreference
 android
 :
 defaultValue
@@ -284,7 +284,7 @@ androidx
 .
 preference
 .
-SwitchPreferenceCompat
+SwitchPreference
 android
 :
 defaultValue
@@ -335,7 +335,7 @@ androidx
 .
 preference
 .
-SwitchPreferenceCompat
+SwitchPreference
 android
 :
 defaultValue
@@ -386,7 +386,7 @@ androidx
 .
 preference
 .
-SwitchPreferenceCompat
+SwitchPreference
 android
 :
 defaultValue
@@ -470,7 +470,7 @@ androidx
 .
 preference
 .
-SwitchPreferenceCompat
+SwitchPreference
 android
 :
 defaultValue
@@ -521,7 +521,7 @@ androidx
 .
 preference
 .
-SwitchPreferenceCompat
+SwitchPreference
 android
 :
 defaultValue
@@ -890,7 +890,7 @@ androidx
 .
 preference
 .
-SwitchPreferenceCompat
+SwitchPreference
 android
 :
 defaultValue
@@ -941,7 +941,7 @@ androidx
 .
 preference
 .
-SwitchPreferenceCompat
+SwitchPreference
 android
 :
 defaultValue

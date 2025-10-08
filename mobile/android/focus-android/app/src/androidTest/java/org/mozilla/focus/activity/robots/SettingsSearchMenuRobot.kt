@@ -863,11 +863,11 @@ UiSelector
 resourceId
 (
 "
-packageName
+android
 :
 id
 /
-switchWidget
+switch_widget
 "
 )
 )

@@ -97,7 +97,7 @@ androidx
 .
 preference
 .
-SwitchPreferenceCompat
+SwitchPreference
 import
 mozilla
 .
@@ -291,7 +291,7 @@ privacy_security_settings
 val
 biometricPreference
 :
-SwitchPreferenceCompat
+SwitchPreference
 ?
 =
 findPreference
@@ -468,7 +468,7 @@ pref_key_safe_browsing
 )
 as
 ?
-SwitchPreferenceCompat
+SwitchPreference
 val
 javaScriptPreference
 =
@@ -485,7 +485,7 @@ pref_key_performance_block_javascript
 )
 as
 ?
-SwitchPreferenceCompat
+SwitchPreference
 val
 webFontsPreference
 =
@@ -502,7 +502,7 @@ pref_key_performance_block_webfonts
 )
 as
 ?
-SwitchPreferenceCompat
+SwitchPreference
 val
 cookieBannerPreference
 =
@@ -904,7 +904,7 @@ pref_key_biometric
 )
 as
 ?
-SwitchPreferenceCompat
+SwitchPreference
 if
 (
 !
@@ -1368,7 +1368,7 @@ pref_key_secure
 )
 as
 ?
-SwitchPreferenceCompat
+SwitchPreference
 val
 sharedPreferences
 =
