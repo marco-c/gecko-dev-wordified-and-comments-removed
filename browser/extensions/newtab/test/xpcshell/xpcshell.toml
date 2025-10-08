@@ -134,13 +134,6 @@ js
 ]
 [
 "
-test_NewTabAttributionService
-.
-js
-"
-]
-[
-"
 test_NewTabContentPing
 .
 js
