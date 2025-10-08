@@ -2945,9 +2945,6 @@ scrollMaxY
 ;
 [
 Throws
-Deprecated
-=
-FullscreenAttribute
 ]
 attribute
 boolean
