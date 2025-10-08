@@ -170,6 +170,9 @@ JS_PUBLIC_API
 GenericPrinter
 ;
 class
+IteratorProperty
+;
+class
 PropertyResult
 ;
 namespace
@@ -6812,8 +6815,7 @@ inline
 void
 initDenseElements
 (
-JSLinearString
-*
+IteratorProperty
 *
 src
 uint32_t

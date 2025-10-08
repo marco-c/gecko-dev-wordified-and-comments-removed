@@ -41,6 +41,9 @@ TrampolineNativeFrameLayout
 class
 ArrayObject
 ;
+class
+IteratorProperty
+;
 MOZ_ALWAYS_INLINE
 bool
 IdIsIndex
@@ -255,10 +258,9 @@ JSContext
 cx
 uint32_t
 length
-JSLinearString
+IteratorProperty
 *
-*
-values
+props
 NewObjectKind
 newKind
 =

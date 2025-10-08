@@ -995,8 +995,7 @@ NativeObject
 :
 initDenseElements
 (
-JSLinearString
-*
+IteratorProperty
 *
 src
 uint32_t
@@ -1080,6 +1079,10 @@ src
 [
 i
 ]
+.
+asString
+(
+)
 )
 ;
 }

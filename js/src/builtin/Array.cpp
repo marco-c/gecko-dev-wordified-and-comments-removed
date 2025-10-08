@@ -27844,10 +27844,9 @@ JSContext
 cx
 uint32_t
 length
-JSLinearString
+IteratorProperty
 *
-*
-values
+props
 NewObjectKind
 newKind
 )
@@ -27881,7 +27880,7 @@ arr
 >
 initDenseElements
 (
-values
+props
 length
 )
 ;

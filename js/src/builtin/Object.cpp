@@ -8249,8 +8249,7 @@ mayHavePrototypeProperties
 break
 ;
 }
-JSLinearString
-*
+IteratorProperty
 *
 properties
 =
@@ -8258,11 +8257,6 @@ ni
 -
 >
 propertiesBegin
-(
-)
--
->
-unbarrieredAddress
 (
 )
 ;
