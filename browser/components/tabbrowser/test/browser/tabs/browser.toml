@@ -3740,6 +3740,13 @@ js
 ]
 [
 "
+browser_tab_splitview_keyboard_focus
+.
+js
+"
+]
+[
+"
 browser_tab_tooltips
 .
 js
