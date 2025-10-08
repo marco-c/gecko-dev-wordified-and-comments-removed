@@ -246,6 +246,8 @@ executeSoon
 =
 >
 {
+try
+{
 dispatch
 (
 Object
@@ -273,11 +275,15 @@ error
 )
 )
 ;
+}
+finally
+{
 reject
 (
 error
 )
 ;
+}
 }
 )
 ;
