@@ -939,6 +939,10 @@ bool
 -
 >
 ExternalImage
+<
+'
+_
+>
 {
 let
 (
