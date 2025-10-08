@@ -46,16 +46,6 @@ enableOverride
 "
 true
 ]
-[
-"
-extensions
-.
-pocket
-.
-enabled
-"
-true
-]
 ]
 }
 )

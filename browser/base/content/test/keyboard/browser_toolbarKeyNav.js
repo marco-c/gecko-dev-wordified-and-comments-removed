@@ -594,16 +594,6 @@ tabfocus
 ]
 [
 "
-extensions
-.
-pocket
-.
-enabled
-"
-true
-]
-[
-"
 browser
 .
 taskbarTabs
