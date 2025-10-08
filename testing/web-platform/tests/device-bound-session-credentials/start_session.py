@@ -136,12 +136,12 @@ test_session_manager
 set_session_key
 (
 session_id
-jwt_payload
+jwt_header
 .
 get
 (
 '
-key
+jwk
 '
 )
 )
