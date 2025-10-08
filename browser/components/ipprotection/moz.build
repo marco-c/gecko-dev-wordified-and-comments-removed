@@ -70,6 +70,13 @@ sys
 mjs
 "
 "
+IPProtectionHelpers
+.
+sys
+.
+mjs
+"
+"
 IPProtectionPanel
 .
 sys
