@@ -335,7 +335,7 @@ type
 quantity
 expires
 :
-146
+152
 telemetry_mirror
 :
 Mfcdm_EmePlayback_Gecko
@@ -583,7 +583,7 @@ type
 quantity
 expires
 :
-146
+152
 telemetry_mirror
 :
 Mfcdm_Error_Gecko
