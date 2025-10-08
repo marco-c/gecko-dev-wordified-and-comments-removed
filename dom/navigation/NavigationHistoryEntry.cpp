@@ -61,7 +61,7 @@ mozilla
 :
 :
 LazyLogModule
-gNavigationLog
+gNavigationAPILog
 ;
 namespace
 mozilla

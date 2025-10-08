@@ -342,10 +342,10 @@ mozilla
 :
 :
 LazyLogModule
-gNavigationLog
+gNavigationAPILog
 (
 "
-Navigation
+NavigationAPI
 "
 )
 ;
@@ -361,7 +361,7 @@ format
 \
 MOZ_LOG_FMT
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -1031,7 +1031,7 @@ nullptr
 }
 MOZ_LOG
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -1537,7 +1537,7 @@ NavigationId
 ;
 MOZ_LOG
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -1600,7 +1600,7 @@ return
 }
 MOZ_LOG
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -1650,7 +1650,7 @@ Traverse
 :
 MOZ_LOG
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -1729,7 +1729,7 @@ Push
 :
 MOZ_LOG
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -1808,7 +1808,7 @@ Replace
 :
 MOZ_LOG
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -2555,7 +2555,7 @@ aResult
 {
 MOZ_LOG_FMT
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -3384,7 +3384,7 @@ aResult
 {
 MOZ_LOG
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -3622,7 +3622,7 @@ aResult
 {
 MOZ_LOG_FMT
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -3832,7 +3832,7 @@ aResult
 {
 MOZ_LOG
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -3955,7 +3955,7 @@ aResult
 {
 MOZ_LOG
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -4098,7 +4098,7 @@ aEntry
 {
 MOZ_LOG
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -4146,7 +4146,7 @@ id
 ;
 MOZ_LOG
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -4214,7 +4214,7 @@ url
 ;
 MOZ_LOG
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -4892,7 +4892,7 @@ if
 !
 MOZ_LOG_TEST
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -7895,7 +7895,7 @@ if
 !
 MOZ_LOG_TEST
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -7908,7 +7908,7 @@ return
 }
 MOZ_LOG
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -8217,7 +8217,7 @@ aNavigationType
 {
 MOZ_LOG_FMT
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -8321,7 +8321,7 @@ end
 {
 MOZ_LOG_FMT
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -8439,7 +8439,7 @@ aPreviousEntryForActivation
 ;
 MOZ_LOG_FMT
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :

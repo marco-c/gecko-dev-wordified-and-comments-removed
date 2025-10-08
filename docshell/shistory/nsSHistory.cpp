@@ -532,7 +532,7 @@ mozilla
 :
 :
 LazyLogModule
-gNavigationLog
+gNavigationAPILog
 ;
 extern
 mozilla

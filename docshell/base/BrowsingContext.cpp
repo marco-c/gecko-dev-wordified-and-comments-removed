@@ -819,7 +819,7 @@ mozilla
 :
 :
 LazyLogModule
-gNavigationLog
+gNavigationAPILog
 ;
 extern
 mozilla
@@ -12611,7 +12611,7 @@ aShouldNotForceReplaceInOnLoad
 {
 MOZ_LOG_FMT
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
