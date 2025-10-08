@@ -1,11 +1,5 @@
 import
-webdriver
-.
-bidi
-.
-error
-as
-error
+pytest
 from
 .
 .
