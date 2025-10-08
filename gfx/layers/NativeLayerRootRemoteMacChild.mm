@@ -731,7 +731,7 @@ bool
 NativeLayerRootRemoteMacChild
 :
 :
-ReadbackPixels
+ReadbackPixelsFromParent
 (
 const
 gfx
