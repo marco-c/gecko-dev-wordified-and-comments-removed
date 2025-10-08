@@ -1283,7 +1283,7 @@ set
 (
 settings
 .
-hasAdvertisingBlocked
+shouldBlockAdTrackers
 (
 )
 )
@@ -1295,7 +1295,7 @@ set
 (
 settings
 .
-hasAnalyticsBlocked
+shouldBlockAnalyticTrackers
 (
 )
 )
@@ -1319,7 +1319,7 @@ set
 (
 settings
 .
-hasSocialBlocked
+shouldBlockSocialTrackers
 (
 )
 )
