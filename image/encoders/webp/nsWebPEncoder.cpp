@@ -171,6 +171,10 @@ const
 nsAString
 &
 aOutputOptions
+const
+nsACString
+&
+aRandomizationKey
 )
 {
 NS_ENSURE_ARG

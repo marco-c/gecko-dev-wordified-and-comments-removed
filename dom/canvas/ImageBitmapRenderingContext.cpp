@@ -1164,6 +1164,10 @@ CanvasUtils
 :
 ImageExtraction
 aExtractionBehavior
+const
+nsACString
+&
+aRandomizationKey
 nsIInputStream
 *
 *
@@ -1280,6 +1284,7 @@ get
 format
 encoder
 aEncoderOptions
+aRandomizationKey
 aStream
 )
 ;

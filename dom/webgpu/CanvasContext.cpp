@@ -1844,6 +1844,10 @@ CanvasUtils
 :
 ImageExtraction
 aExtractionBehavior
+const
+nsACString
+&
+aRandomizationKey
 nsIInputStream
 *
 *
