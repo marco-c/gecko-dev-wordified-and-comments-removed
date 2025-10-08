@@ -229,6 +229,9 @@ override
 void
 CommitOffscreen
 (
+CALayer
+*
+aRootCALayer
 )
 ;
 #
@@ -496,12 +499,6 @@ mOnscreenRootCALayer
 =
 nullptr
 ;
-CALayer
-*
-mOffscreenRootCALayer
-=
-nullptr
-;
 #
 ifdef
 XP_MACOSX
@@ -592,9 +589,6 @@ Create
 NativeLayerRootCA
 *
 aLayerRoot
-CALayer
-*
-aRootCALayer
 )
 ;
 virtual
@@ -702,9 +696,6 @@ GLContext
 &
 &
 aGL
-CALayer
-*
-aRootCALayer
 )
 ;
 void
