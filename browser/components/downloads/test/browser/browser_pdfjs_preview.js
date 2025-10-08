@@ -2649,6 +2649,7 @@ case
 allDownloads
 "
 :
+{
 uiWindow
 =
 await
@@ -2749,11 +2750,13 @@ downloadsContextMenu
 ;
 break
 ;
+}
 case
 "
 aboutDownloads
 "
 :
+{
 info
 (
 "
@@ -3041,6 +3044,7 @@ items
 ;
 break
 ;
+}
 }
 if
 (

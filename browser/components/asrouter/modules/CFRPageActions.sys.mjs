@@ -3743,6 +3743,7 @@ case
 icon_and_message
 "
 :
+{
 /
 /
 Clearing
@@ -3940,8 +3941,10 @@ options
 ;
 break
 ;
+}
 default
 :
+{
 const
 authorText
 =
@@ -4269,6 +4272,7 @@ browser
 ;
 }
 ;
+}
 }
 const
 primaryBtnStrings
