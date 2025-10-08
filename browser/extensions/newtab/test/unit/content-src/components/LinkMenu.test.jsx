@@ -2452,6 +2452,9 @@ undefined
 is_pocket_card
 :
 false
+is_list_card
+:
+undefined
 is_sponsored
 :
 true
@@ -2544,6 +2547,9 @@ position
 is_pocket_card
 :
 false
+is_list_card
+:
+undefined
 }
 ]
 menu_action_webext_dismiss
@@ -3880,6 +3886,9 @@ position
 is_pocket_card
 :
 false
+is_list_card
+:
+undefined
 }
 ;
 assert
@@ -4139,6 +4148,9 @@ position
 is_pocket_card
 :
 true
+is_list_card
+:
+undefined
 }
 ;
 assert
