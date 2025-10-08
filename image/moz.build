@@ -297,6 +297,11 @@ nsPNGEncoder
 h
 "
 "
+FetchDecodedImage
+.
+h
+"
+"
 ICOFileHeaders
 .
 h
@@ -373,6 +378,11 @@ cpp
 "
 "
 DynamicImage
+.
+cpp
+"
+"
+FetchDecodedImage
 .
 cpp
 "

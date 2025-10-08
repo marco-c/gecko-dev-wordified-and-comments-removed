@@ -4330,6 +4330,15 @@ uint32_t
 aWhichFrame
 )
 {
+if
+(
+mError
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 return
 NS_OK
 ;
