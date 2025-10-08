@@ -8083,10 +8083,6 @@ StyleOutline
 -
 >
 mOutlineOffset
-.
-ToAppUnits
-(
-)
 ;
 LayoutDeviceRect
 rect

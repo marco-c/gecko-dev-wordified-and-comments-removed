@@ -2958,7 +2958,7 @@ mOutlineWidth
 mozilla
 :
 :
-Length
+StyleAu
 mOutlineOffset
 ;
 mozilla

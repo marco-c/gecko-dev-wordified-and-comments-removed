@@ -136,6 +136,12 @@ Au
 ;
 pub
 type
+BorderSideOffset
+=
+Au
+;
+pub
+type
 BorderImageWidth
 =
 Rect

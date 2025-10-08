@@ -330,6 +330,7 @@ BorderImageSideWidth
 BorderImageSlice
 BorderImageWidth
 BorderRadius
+BorderSideOffset
 BorderSideWidth
 BorderSpacing
 BorderStyle

@@ -2818,11 +2818,7 @@ kMediumBorderWidth
 )
 mOutlineOffset
 (
-{
 0
-.
-0f
-}
 )
 mOutlineColor
 (
@@ -3056,10 +3052,6 @@ nscoord
 offset
 =
 mOutlineOffset
-.
-ToAppUnits
-(
-)
 ;
 if
 (
