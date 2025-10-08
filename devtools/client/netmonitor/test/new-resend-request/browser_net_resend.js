@@ -772,6 +772,15 @@ contextmenu
 originalRequestItem
 )
 ;
+const
+wait
+=
+waitForNetworkEvents
+(
+monitor
+1
+)
+;
 await
 selectContextMenuItem
 (
@@ -791,6 +800,9 @@ only
 ;
 await
 waitForNewRequest
+;
+await
+wait
 ;
 const
 newResourceId
