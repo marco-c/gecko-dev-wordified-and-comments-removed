@@ -1707,7 +1707,9 @@ closest
 (
 "
 .
-CodeMirror
+cm
+-
+editor
 "
 )
 ;
