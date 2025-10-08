@@ -315,6 +315,7 @@ case
 menu
 "
 :
+{
 let
 menu
 =
@@ -432,11 +433,13 @@ submenuPopup
 ;
 break
 ;
+}
 case
 "
 action
 "
 :
+{
 let
 menuitem
 =
@@ -519,6 +522,7 @@ menuitem
 ;
 break
 ;
+}
 }
 }
 }

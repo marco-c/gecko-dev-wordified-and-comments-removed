@@ -186,6 +186,7 @@ case
 ImportReportData
 "
 :
+{
 const
 logins
 =
@@ -529,6 +530,7 @@ true
 ;
 break
 ;
+}
 }
 }
 window

@@ -3311,6 +3311,7 @@ case
 TabSelect
 "
 :
+{
 this
 .
 attachTab
@@ -3347,6 +3348,7 @@ previousTab
 }
 break
 ;
+}
 case
 "
 TabOpen

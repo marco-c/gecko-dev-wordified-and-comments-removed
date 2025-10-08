@@ -3159,6 +3159,7 @@ AUTH_TYPE
 .
 SCHEME_HTML
 :
+{
 let
 action_url
 =
@@ -3256,6 +3257,7 @@ prePath
 ;
 break
 ;
+}
 case
 AUTH_TYPE
 .
