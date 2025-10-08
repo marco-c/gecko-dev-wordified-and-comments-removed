@@ -161,13 +161,6 @@ js
 ]
 [
 "
-test_eventemitter_static
-.
-js
-"
-]
-[
-"
 test_executeSoon
 .
 js
