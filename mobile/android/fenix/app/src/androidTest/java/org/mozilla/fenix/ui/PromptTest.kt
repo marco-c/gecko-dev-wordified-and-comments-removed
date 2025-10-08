@@ -216,7 +216,6 @@ memoryLeaksRule
 DetectMemoryLeaksRule
 (
 )
-SmokeTest
 Test
 fun
 verifyBeforeUnloadPrompt
