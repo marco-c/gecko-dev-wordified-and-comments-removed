@@ -214,9 +214,8 @@ crashReporter
 CrashReporter
 private
 val
-reinitializeHandler
+restartHandler
 :
-suspend
 (
 )
 -
@@ -331,14 +330,9 @@ clearCanary
 ReopenTapped
 -
 >
-scope
-.
-launch
-{
-reinitializeHandler
+restartHandler
 (
 )
-}
 NoTapped
 -
 >
