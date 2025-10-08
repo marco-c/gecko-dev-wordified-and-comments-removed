@@ -59,15 +59,6 @@ include
 "
 mozilla
 /
-CheckedInt
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MiscEvents
 .
 h

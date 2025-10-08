@@ -74,15 +74,6 @@ include
 "
 mozilla
 /
-CheckedInt
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EventStateManager
 .
 h

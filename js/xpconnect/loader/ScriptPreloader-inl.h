@@ -27,15 +27,6 @@ include
 "
 mozilla
 /
-CheckedInt
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EndianUtils
 .
 h

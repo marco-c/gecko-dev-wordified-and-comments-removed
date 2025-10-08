@@ -48,15 +48,6 @@ nsScannerString
 .
 h
 "
-#
-include
-"
-mozilla
-/
-CheckedInt
-.
-h
-"
 class
 nsReadEndCondition
 {

@@ -19,6 +19,9 @@ Casting
 h
 "
 #
+ifdef
+DEBUG
+#
 include
 "
 mozilla
@@ -27,6 +30,8 @@ CheckedInt
 .
 h
 "
+#
+endif
 #
 include
 "

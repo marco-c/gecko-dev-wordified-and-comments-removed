@@ -260,15 +260,6 @@ include
 "
 mozilla
 /
-CheckedInt
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ComposerCommandsUpdater
 .
 h
