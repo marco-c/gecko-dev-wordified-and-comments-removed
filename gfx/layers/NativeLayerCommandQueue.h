@@ -46,7 +46,6 @@ NativeLayerCommandQueue
 void
 AppendCommand
 (
-const
 mozilla
 :
 :
@@ -54,6 +53,7 @@ layers
 :
 :
 NativeLayerCommand
+&
 &
 aCommand
 )

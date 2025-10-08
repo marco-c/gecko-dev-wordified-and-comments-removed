@@ -182,8 +182,8 @@ HandleChangedSurface
 (
 uint64_t
 aID
-uint32_t
-aSurfaceID
+IOSurfacePort
+aSurfacePort
 bool
 aIsDRM
 bool
