@@ -499,9 +499,6 @@ supportedInputTypes
 "
 urlbar
 "
-"
-searchbar
-"
 ]
 }
 {
@@ -1311,9 +1308,6 @@ supportedInputTypes
 [
 "
 urlbar
-"
-"
-searchbar
 "
 ]
 }
