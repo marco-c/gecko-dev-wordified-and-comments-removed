@@ -49,17 +49,6 @@ h
 #
 include
 "
-mozilla
-/
-layers
-/
-NativeLayerRootRemoteMacChild
-.
-h
-"
-#
-include
-"
 nsRegion
 .
 h
