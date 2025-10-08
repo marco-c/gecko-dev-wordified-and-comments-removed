@@ -23,11 +23,6 @@ TestParser
 cpp
 "
 "
-TestPlainTextSerializer
-.
-cpp
-"
-"
 TestScheduler
 .
 cpp

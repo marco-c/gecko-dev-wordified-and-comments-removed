@@ -103,6 +103,14 @@ nsXMLContentSerializer
 cpp
 "
 ]
+TEST_DIRS
++
+=
+[
+"
+gtest
+"
+]
 FINAL_LIBRARY
 =
 "
