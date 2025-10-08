@@ -235,6 +235,12 @@ test_onecrl
 *
 "
 "
+test_qwacs
+/
+*
+*
+"
+"
 test_sdr_preexisting
 /
 *
@@ -1778,6 +1784,13 @@ true
 #
 hardcoded
 ports
+[
+"
+test_qwacs
+.
+js
+"
+]
 [
 "
 test_sdr
