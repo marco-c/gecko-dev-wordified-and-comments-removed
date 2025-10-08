@@ -232,9 +232,9 @@ querySelector
 (
 "
 .
-cm
+CodeMirror
 -
-content
+code
 "
 )
 =
@@ -450,9 +450,9 @@ request
 -
 panel
 .
-cm
+CodeMirror
 -
-content
+code
 "
 )
 ;
@@ -607,9 +607,9 @@ querySelector
 (
 "
 .
-cm
+CodeMirror
 -
-content
+code
 "
 )
 "

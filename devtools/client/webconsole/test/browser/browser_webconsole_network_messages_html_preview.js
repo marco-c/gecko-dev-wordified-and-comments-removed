@@ -1034,9 +1034,7 @@ querySelector
 (
 "
 .
-cm
--
-editor
+CodeMirror
 "
 )
 )
