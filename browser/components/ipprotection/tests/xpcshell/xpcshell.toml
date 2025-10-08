@@ -51,6 +51,13 @@ js
 ]
 [
 "
+test_IPPExceptionsManager_exclusions
+.
+js
+"
+]
+[
+"
 test_IPProtection
 .
 js
