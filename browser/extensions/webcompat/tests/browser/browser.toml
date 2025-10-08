@@ -144,6 +144,13 @@ js
 ]
 [
 "
+browser_remote_settings_updates
+.
+js
+"
+]
+[
+"
 browser_shims
 .
 js

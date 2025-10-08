@@ -135,3 +135,9 @@ e
 )
 ;
 }
+listenForRemoteSettingsUpdates
+(
+interventions
+shims
+)
+;
