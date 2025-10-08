@@ -16977,11 +16977,6 @@ if
 mConnection
 )
 {
-MOZ_ASSERT
-(
-mActivated
-)
-;
 mConnection
 -
 >
