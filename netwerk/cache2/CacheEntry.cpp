@@ -4967,7 +4967,7 @@ nsresult
 CacheEntry
 :
 :
-GetReady
+GetReadyOrRevalidating
 (
 bool
 *
@@ -4986,10 +4986,18 @@ mLock
 *
 aReady
 =
+(
 mState
 =
 =
 READY
+|
+|
+mState
+=
+=
+REVALIDATING
+)
 ;
 return
 NS_OK
