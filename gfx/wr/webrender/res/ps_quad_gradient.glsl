@@ -2576,7 +2576,7 @@ start_radius
 =
 v_flat_data
 .
-z
+x
 ;
 bool
 repeat
