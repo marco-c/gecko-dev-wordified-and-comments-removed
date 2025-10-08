@@ -9664,6 +9664,13 @@ chunk
 metadata
 .
 isPrompt
+toolCalls
+:
+chunk
+.
+metadata
+.
+toolCalls
 }
 ;
 chunkPromise
