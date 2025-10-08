@@ -571,6 +571,15 @@ Suspend
 )
 override
 ;
+static
+void
+StaticSuspend
+(
+nsHttpChannel
+*
+aChan
+)
+;
 NS_IMETHOD
 Resume
 (
