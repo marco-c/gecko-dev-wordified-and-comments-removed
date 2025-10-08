@@ -1082,17 +1082,6 @@ onResourceAvailable
 ;
 this
 .
-store
-.
-dispatch
-(
-resetChanges
-(
-)
-)
-;
-this
-.
 document
 =
 null
