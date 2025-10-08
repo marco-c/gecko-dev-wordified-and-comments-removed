@@ -345,7 +345,7 @@ aTime
 )
 ;
 nsresult
-GetReady
+GetReadyOrRevalidating
 (
 bool
 *
@@ -2001,7 +2001,7 @@ aOnStopTime
 ;
 }
 NS_IMETHOD
-GetReady
+GetReadyOrRevalidating
 (
 bool
 *
@@ -2013,7 +2013,7 @@ return
 mEntry
 -
 >
-GetReady
+GetReadyOrRevalidating
 (
 aReady
 )
