@@ -244,7 +244,7 @@ const
 uint32_t
 VERSION
 =
-1
+2
 ;
 static
 const
@@ -314,6 +314,7 @@ WrappedPrimitiveObject
 GenericObject
 ProxyObject
 External
+Error
 }
 ;
 Kind
