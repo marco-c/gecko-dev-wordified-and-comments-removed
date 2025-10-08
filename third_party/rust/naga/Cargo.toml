@@ -121,7 +121,7 @@ naga
 version
 =
 "
-26
+27
 .
 0
 .
@@ -1057,15 +1057,6 @@ naga
 -
 test
 ]
-version
-=
-"
-26
-.
-0
-.
-0
-"
 path
 =
 "

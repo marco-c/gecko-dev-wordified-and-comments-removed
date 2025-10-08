@@ -181,13 +181,6 @@ BufferAddress
 <
 10
 ;
-const
-CLEANUP_WAIT_MS
-:
-u32
-=
-60000
-;
 pub
 (
 crate

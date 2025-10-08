@@ -136,13 +136,6 @@ semaphore_list
 SemaphoreList
 ;
 const
-MILLIS_TO_NANOS
-:
-u64
-=
-1_000_000
-;
-const
 MAX_TOTAL_ATTACHMENTS
 :
 usize

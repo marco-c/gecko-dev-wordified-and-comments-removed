@@ -12953,7 +12953,9 @@ wgt
 PollType
 :
 :
-Wait
+wait_indefinitely
+(
+)
 snatch_guard
 )
 ;
@@ -13558,7 +13560,9 @@ wgt
 PollType
 :
 :
-Wait
+wait_indefinitely
+(
+)
 }
 else
 {

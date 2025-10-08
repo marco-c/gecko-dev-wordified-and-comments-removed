@@ -34,6 +34,7 @@ enable_extension
 {
 EnableExtension
 ImplementedEnableExtension
+UnimplementedEnableExtension
 }
 ;
 pub

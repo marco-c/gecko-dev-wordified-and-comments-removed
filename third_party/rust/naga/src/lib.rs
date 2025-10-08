@@ -231,9 +231,6 @@ keywords
 mod
 non_max_u32
 ;
-mod
-path_like
-;
 pub
 mod
 proc

@@ -2238,9 +2238,12 @@ crate
 :
 :
 FenceValue
-timeout_ms
+timeout
 :
-u32
+Option
+<
+Duration
+>
 )
 -
 >
