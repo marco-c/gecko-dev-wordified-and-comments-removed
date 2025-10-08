@@ -1477,6 +1477,7 @@ Placeholder
 }
 if
 (
+(
 ownerDoc
 -
 >
@@ -1499,6 +1500,19 @@ RFPTarget
 :
 WebGLRandomization
 )
+)
+&
+&
+GetCanvasExtractDataPermission
+(
+aPrincipal
+)
+!
+=
+nsIPermissionManager
+:
+:
+ALLOW_ACTION
 )
 {
 return
@@ -1860,6 +1874,8 @@ process
 without
 a
 chrome
+"
+"
 window
 "
 "
