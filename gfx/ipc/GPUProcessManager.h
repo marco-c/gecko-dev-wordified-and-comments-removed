@@ -1397,6 +1397,11 @@ mUnstableProcessAttempts
 uint32_t
 mTotalProcessAttempts
 ;
+uint32_t
+mLaunchProcessAttempts
+=
+0
+;
 TimeStamp
 mProcessAttemptLastTime
 ;
