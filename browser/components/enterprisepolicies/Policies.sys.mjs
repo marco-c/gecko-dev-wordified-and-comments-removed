@@ -11311,7 +11311,7 @@ media
 .
 webrtc
 .
-enable_pq_dtls
+enable_pq_hybrid_kex
 "
 param
 )
