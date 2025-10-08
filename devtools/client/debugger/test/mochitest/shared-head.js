@@ -11021,13 +11021,6 @@ line
 column
 )
 {
-scrollEditorIntoView
-(
-dbg
-line
-0
-)
-;
 const
 cursorSet
 =

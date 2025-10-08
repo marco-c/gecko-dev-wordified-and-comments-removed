@@ -573,17 +573,6 @@ this
 .
 editor
 .
-scrollTo
-(
-line
-0
-)
-;
-await
-this
-.
-editor
-.
 setCursorAt
 (
 line
