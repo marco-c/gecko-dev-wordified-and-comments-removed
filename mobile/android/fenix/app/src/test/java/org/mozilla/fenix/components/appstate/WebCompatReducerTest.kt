@@ -262,6 +262,9 @@ expected
 =
 AppState
 (
+webCompatState
+=
+null
 )
 val
 actual
@@ -309,6 +312,9 @@ problemDescription
 problem
 description
 "
+includeEtpBlockedUrls
+=
+true
 )
 )
 action
@@ -390,6 +396,9 @@ problemDescription
 problem
 description
 "
+includeEtpBlockedUrls
+=
+true
 )
 snackbarState
 =
