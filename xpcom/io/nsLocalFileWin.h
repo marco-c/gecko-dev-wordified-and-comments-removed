@@ -314,11 +314,8 @@ aOptions
 )
 ;
 nsresult
-CopySingleFile
+MoveOrCopyAsSingleFileOrDir
 (
-nsIFile
-*
-aSource
 nsIFile
 *
 aDest
