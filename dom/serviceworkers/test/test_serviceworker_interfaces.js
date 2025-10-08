@@ -1237,7 +1237,7 @@ name
 "
 TrustedHTML
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 insecureContext
@@ -1250,7 +1250,7 @@ name
 "
 TrustedScript
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 insecureContext
@@ -1263,7 +1263,7 @@ name
 "
 TrustedScriptURL
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 insecureContext
@@ -1276,7 +1276,7 @@ name
 "
 TrustedTypePolicy
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 insecureContext
@@ -1289,7 +1289,7 @@ name
 "
 TrustedTypePolicyFactory
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 insecureContext
