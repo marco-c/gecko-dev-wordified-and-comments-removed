@@ -1669,12 +1669,9 @@ actual
 =
 0
 ;
-int32_t
-i
-j
-;
 for
 (
+int32_t
 i
 =
 0
@@ -1688,6 +1685,7 @@ i
 +
 )
 {
+int32_t
 j
 =
 aIndicies
@@ -1730,6 +1728,7 @@ actual
 ;
 for
 (
+int32_t
 i
 =
 0
@@ -1743,6 +1742,7 @@ i
 +
 )
 {
+int32_t
 j
 =
 aIndicies
@@ -1811,6 +1811,7 @@ aNumIndicies
 ;
 for
 (
+int32_t
 i
 =
 0
@@ -1865,6 +1866,7 @@ actual
 ;
 for
 (
+int32_t
 i
 =
 0
@@ -1888,6 +1890,7 @@ i
 +
 )
 {
+int32_t
 j
 =
 aIndicies
@@ -2044,12 +2047,9 @@ relative
 return
 ;
 }
-int32_t
-i
-j
-;
 for
 (
+int32_t
 i
 =
 0
@@ -2230,6 +2230,7 @@ percentTotal
 ;
 for
 (
+int32_t
 i
 =
 0
@@ -2243,6 +2244,7 @@ i
 +
 )
 {
+int32_t
 j
 =
 percent
@@ -2342,6 +2344,7 @@ relativeTotal
 ;
 for
 (
+int32_t
 i
 =
 0
@@ -2355,6 +2358,7 @@ i
 +
 )
 {
+int32_t
 j
 =
 relative
@@ -2447,11 +2451,9 @@ nsString
 aNewAttr
 )
 {
-int32_t
-i
-;
 for
 (
+int32_t
 i
 =
 0
