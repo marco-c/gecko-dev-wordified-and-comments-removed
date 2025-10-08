@@ -330,9 +330,6 @@ true
 supportsEnableWindowGlobalThreadActors
 :
 true
-useBulkTransferForPerformanceProfile
-:
-true
 }
 ;
 }
