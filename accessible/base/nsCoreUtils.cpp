@@ -3983,6 +3983,15 @@ AnchorPosReferences
 )
 )
 ;
+if
+(
+!
+referencedAnchors
+)
+{
+continue
+;
+}
 const
 auto
 *
