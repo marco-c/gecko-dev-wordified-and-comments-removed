@@ -394,6 +394,7 @@ from
 CKA_VALUE
 )
 &
+raw
 mut
 key_item
 )
@@ -449,6 +450,7 @@ unsafe
 SECITEM_FreeItem
 (
 &
+raw
 mut
 key_item
 PRBool
@@ -686,6 +688,7 @@ as_mut_ptr
 (
 )
 &
+raw
 mut
 len
 c_uint
