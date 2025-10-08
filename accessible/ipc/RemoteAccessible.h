@@ -1608,6 +1608,14 @@ IsScrollable
 const
 override
 ;
+virtual
+bool
+IsPopover
+(
+)
+const
+override
+;
 #
 if
 !
