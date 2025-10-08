@@ -116,7 +116,7 @@ test_page
     
 domain_value
     
-add_cookie
+add_document_cookie
     
 filter
 )
@@ -162,7 +162,7 @@ baz
 "
     
 await
-add_cookie
+add_document_cookie
 (
 new_tab
 [
@@ -184,7 +184,7 @@ foo
 "
     
 await
-add_cookie
+add_document_cookie
 (
 new_tab
 [
@@ -212,7 +212,7 @@ not_bar
 "
     
 await
-add_cookie
+add_document_cookie
 (
 new_tab
 [
@@ -330,7 +330,7 @@ test_page_cross_origin
     
 domain_value
     
-add_cookie
+add_document_cookie
 )
 :
     
@@ -401,7 +401,7 @@ foo
 "
     
 await
-add_cookie
+add_document_cookie
 (
 top_context
 [
@@ -429,7 +429,7 @@ bar
 "
     
 await
-add_cookie
+add_document_cookie
 (
 top_context
 [
@@ -468,7 +468,7 @@ alt
 )
     
 await
-add_cookie
+add_document_cookie
 (
 new_tab
 [
@@ -617,7 +617,7 @@ test_page
     
 domain_value
     
-add_cookie
+add_document_cookie
     
 expiry_diff_to_delete
     
@@ -690,7 +690,7 @@ foo
 "
     
 await
-add_cookie
+add_document_cookie
 (
         
 context
@@ -733,7 +733,7 @@ bar
 "
     
 await
-add_cookie
+add_document_cookie
 (
         
 context
@@ -803,7 +803,7 @@ expiry_date_to_remain
 )
     
 await
-add_cookie
+add_document_cookie
 (
         
 new_tab
@@ -934,7 +934,7 @@ test_filter_name
 bidi_session
 new_tab
 test_page
-add_cookie
+add_document_cookie
 domain_value
 )
 :
@@ -985,7 +985,7 @@ cookie1_path
 "
     
 await
-add_cookie
+add_document_cookie
 (
         
 new_tab
@@ -1020,7 +1020,7 @@ webdriver
 "
     
 await
-add_cookie
+add_document_cookie
 (
         
 new_tab
@@ -1059,7 +1059,7 @@ cookie3_path
 "
     
 await
-add_cookie
+add_document_cookie
 (
 new_tab
 [
@@ -1243,7 +1243,7 @@ same_site_to_delete
     
 same_site_to_remain
     
-add_cookie
+add_document_cookie
 )
 :
     
@@ -1287,7 +1287,7 @@ foo
 "
     
 await
-add_cookie
+add_document_cookie
 (
         
 new_tab
@@ -1324,7 +1324,7 @@ bar
 "
     
 await
-add_cookie
+add_document_cookie
 (
         
 new_tab
@@ -1361,7 +1361,7 @@ bar_3
 "
     
 await
-add_cookie
+add_document_cookie
 (
         
 new_tab
@@ -1516,7 +1516,7 @@ test_page
     
 domain_value
     
-add_cookie
+add_document_cookie
     
 secure_to_delete
     
@@ -1564,7 +1564,7 @@ foo
 "
     
 await
-add_cookie
+add_document_cookie
 (
         
 new_tab
@@ -1603,7 +1603,7 @@ bar
 "
     
 await
-add_cookie
+add_document_cookie
 (
         
 new_tab
@@ -1642,7 +1642,7 @@ bar_3
 "
     
 await
-add_cookie
+add_document_cookie
 (
         
 new_tab
@@ -1828,7 +1828,7 @@ test_page
     
 domain_value
     
-add_cookie
+add_document_cookie
     
 path_to_delete
     
@@ -1876,7 +1876,7 @@ foo
 "
     
 await
-add_cookie
+add_document_cookie
 (
         
 new_tab
@@ -1913,7 +1913,7 @@ bar
 "
     
 await
-add_cookie
+add_document_cookie
 (
         
 new_tab
@@ -1950,7 +1950,7 @@ bar_3
 "
     
 await
-add_cookie
+add_document_cookie
 (
         
 new_tab

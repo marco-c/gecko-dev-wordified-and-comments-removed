@@ -3212,7 +3212,7 @@ pytest_asyncio
 fixture
 async
 def
-add_cookie
+add_document_cookie
 (
 bidi_session
 )
@@ -3250,7 +3250,7 @@ cookies
     
 async
 def
-add_cookie
+add_document_cookie
 (
         
 context
@@ -3461,7 +3461,7 @@ cookie
 )
     
 yield
-add_cookie
+add_document_cookie
     
 for
 cookie

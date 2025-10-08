@@ -44,7 +44,7 @@ test_page
     
 domain_value
     
-add_cookie
+add_document_cookie
     
 top_context
     
@@ -133,8 +133,9 @@ bar
 "
     
 await
-add_cookie
+add_document_cookie
 (
+        
 new_tab
 [
 "
@@ -146,6 +147,7 @@ cookie_value
 secure
 =
 True
+    
 )
     
 cookies
@@ -348,7 +350,7 @@ bidi_session
 new_tab
 inline
 domain_value
-add_cookie
+add_document_cookie
 )
 :
     
@@ -479,8 +481,9 @@ bar
 "
     
 await
-add_cookie
+add_document_cookie
 (
+        
 iframe_context
 [
 "
@@ -492,6 +495,7 @@ cookie_value
 secure
 =
 True
+    
 )
     
 cookies

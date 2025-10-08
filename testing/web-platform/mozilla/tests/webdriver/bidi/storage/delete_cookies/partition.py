@@ -90,7 +90,7 @@ test_page
     
 domain_value
     
-add_cookie
+add_document_cookie
     
 set_cookie
     
@@ -161,7 +161,7 @@ with_document_cookie
 :
         
 await
-add_cookie
+add_document_cookie
 (
 new_tab
 [
@@ -560,7 +560,7 @@ new_tab
     
 inline
     
-add_cookie
+add_document_cookie
 )
 :
     
@@ -703,7 +703,7 @@ context
 )
     
 await
-add_cookie
+add_document_cookie
 (
 iframe_context
 [

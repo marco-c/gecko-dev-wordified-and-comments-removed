@@ -93,7 +93,7 @@ test_page_cross_origin
     
 domain_value
     
-add_cookie
+add_document_cookie
     
 set_cookie
     
@@ -184,7 +184,7 @@ with_document_cookie
 :
         
 await
-add_cookie
+add_document_cookie
 (
 new_tab
 [
@@ -200,7 +200,7 @@ True
 )
         
 await
-add_cookie
+add_document_cookie
 (
 top_context
 [
@@ -355,7 +355,7 @@ test_page
     
 domain_value
     
-add_cookie
+add_document_cookie
     
 set_cookie
     
@@ -419,7 +419,7 @@ with_document_cookie
 :
         
 await
-add_cookie
+add_document_cookie
 (
 new_tab
 [
@@ -1172,7 +1172,7 @@ test_page_cross_origin
     
 domain_value
     
-add_cookie
+add_document_cookie
     
 set_cookie
     
@@ -1354,7 +1354,7 @@ with_document_cookie
 :
         
 await
-add_cookie
+add_document_cookie
 (
             
 new_context_1
@@ -1377,7 +1377,7 @@ True
 )
         
 await
-add_cookie
+add_document_cookie
 (
             
 new_context_2
