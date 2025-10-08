@@ -533,13 +533,6 @@ Wl
 U
 _VTRegisterSupplementalVideoDecoderIfAvailable
 "
-"
--
-Wl
--
-U
-_VTIsHardwareDecodeSupported
-"
 ]
 include
 (
