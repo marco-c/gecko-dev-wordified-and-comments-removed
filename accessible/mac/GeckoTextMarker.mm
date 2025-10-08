@@ -2282,6 +2282,16 @@ GetTextAttributes
 (
 )
 ;
+if
+(
+!
+attrs
+)
+{
+return
+nullptr
+;
+}
 for
 (
 Accessible
