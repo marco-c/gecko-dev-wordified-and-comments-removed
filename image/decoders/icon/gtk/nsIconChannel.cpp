@@ -76,15 +76,6 @@ include
 "
 mozilla
 /
-EndianUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 NullPrincipal
 .
 h

@@ -7,15 +7,6 @@ BYTE_WRITER_H_
 #
 include
 "
-mozilla
-/
-EndianUtils
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

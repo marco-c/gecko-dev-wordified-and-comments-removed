@@ -78,15 +78,6 @@ include
 "
 mozilla
 /
-EndianUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ErrorResult
 .
 h

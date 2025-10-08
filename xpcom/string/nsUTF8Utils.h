@@ -21,15 +21,6 @@ h
 #
 include
 "
-mozilla
-/
-EndianUtils
-.
-h
-"
-#
-include
-"
 nsCharTraits
 .
 h

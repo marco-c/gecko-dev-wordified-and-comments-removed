@@ -219,15 +219,6 @@ include
 "
 mozilla
 /
-EndianUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 FilterInstance
 .
 h

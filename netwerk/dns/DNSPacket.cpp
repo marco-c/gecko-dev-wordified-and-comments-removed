@@ -17,15 +17,6 @@ include
 "
 mozilla
 /
-EndianUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ScopeExit
 .
 h

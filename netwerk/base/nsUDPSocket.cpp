@@ -28,15 +28,6 @@ include
 "
 mozilla
 /
-EndianUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 TypedArray
