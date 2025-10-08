@@ -20,9 +20,6 @@ setuptools
 versions
 ?
 "
-wheel
-"
-"
 Cython
 ;
 python_version
