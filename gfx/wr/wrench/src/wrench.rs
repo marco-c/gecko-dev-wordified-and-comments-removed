@@ -1540,6 +1540,14 @@ compositor_config
 enable_debugger
 :
 true
+precise_radial_gradients
+:
+!
+window
+.
+is_software
+(
+)
 .
 .
 Default
