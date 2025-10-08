@@ -2531,6 +2531,15 @@ event
 target
 )
 ;
+ToolbarContextMenu
+.
+hideLeadingSeparatorIfNeeded
+(
+event
+.
+target
+)
+;
 break
 ;
 case
