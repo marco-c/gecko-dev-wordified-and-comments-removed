@@ -308,7 +308,7 @@ std
 :
 function
 <
-void
+bool
 (
 DictionaryCacheEntry
 *

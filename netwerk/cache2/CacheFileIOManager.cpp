@@ -12712,6 +12712,13 @@ IsSpecialFile
 )
 )
 {
+if
+(
+!
+mDictionaryCache
+)
+{
+}
 CacheIndex
 :
 :
@@ -12804,6 +12811,10 @@ storageService
 >
 CacheFileDoomed
 (
+aHandle
+-
+>
+mKey
 info
 idExtension
 url
