@@ -109,6 +109,12 @@ uint8_t
 ;
 enum
 class
+StopTracking
+:
+bool
+;
+enum
+class
 SuggestCaret
 ;
 enum
