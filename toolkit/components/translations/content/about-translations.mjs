@@ -1459,7 +1459,7 @@ new
 CustomEvent
 (
 "
-AboutTranslations
+AboutTranslationsTest
 :
 PageOrientationChanged
 "
@@ -3050,7 +3050,7 @@ new
 CustomEvent
 (
 "
-AboutTranslations
+AboutTranslationsTest
 :
 DetectedLanguageUpdated
 "
@@ -3609,7 +3609,7 @@ new
 CustomEvent
 (
 "
-AboutTranslations
+AboutTranslationsTest
 :
 SwapLanguagesButtonDisabled
 "
@@ -3672,7 +3672,7 @@ new
 CustomEvent
 (
 "
-AboutTranslations
+AboutTranslationsTest
 :
 SwapLanguagesButtonEnabled
 "
@@ -4289,7 +4289,7 @@ new
 CustomEvent
 (
 "
-AboutTranslations
+AboutTranslationsTest
 :
 ClearTargetText
 "
@@ -4594,7 +4594,7 @@ new
 CustomEvent
 (
 "
-AboutTranslations
+AboutTranslationsTest
 :
 ShowTranslatingPlaceholder
 "
@@ -5121,7 +5121,7 @@ new
 CustomEvent
 (
 "
-AboutTranslations
+AboutTranslationsTest
 :
 URLUpdatedFromUI
 "
@@ -5867,7 +5867,7 @@ new
 CustomEvent
 (
 "
-AboutTranslations
+AboutTranslationsTest
 :
 TranslationRequested
 "
@@ -5999,7 +5999,7 @@ new
 CustomEvent
 (
 "
-AboutTranslations
+AboutTranslationsTest
 :
 TranslationComplete
 "
@@ -6683,7 +6683,7 @@ new
 CustomEvent
 (
 "
-AboutTranslations
+AboutTranslationsTest
 :
 TextAreaHeightsChanged
 "
