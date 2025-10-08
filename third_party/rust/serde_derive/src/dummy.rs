@@ -112,6 +112,14 @@ _
 {
 #
 use_serde
+_serde
+:
+:
+__require_serde_not_serde_core
+!
+(
+)
+;
 #
 code
 }
