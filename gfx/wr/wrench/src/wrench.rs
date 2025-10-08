@@ -1542,12 +1542,7 @@ enable_debugger
 true
 precise_radial_gradients
 :
-!
-window
-.
-is_software
-(
-)
+true
 .
 .
 Default
