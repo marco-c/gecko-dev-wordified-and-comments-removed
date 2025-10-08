@@ -141,9 +141,7 @@ len
 >
 MAX_LEN
 {
-return
 None
-;
 }
 else
 {
