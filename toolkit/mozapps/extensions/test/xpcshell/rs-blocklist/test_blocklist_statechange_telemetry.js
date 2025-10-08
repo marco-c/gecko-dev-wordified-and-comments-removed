@@ -3516,11 +3516,12 @@ update_softblocked_to_hardblocked
 (
 )
 {
+await
 AMTelemetry
 .
-telemetrySetupDone
-=
-false
+uninit
+(
+)
 ;
 AMTelemetry
 .

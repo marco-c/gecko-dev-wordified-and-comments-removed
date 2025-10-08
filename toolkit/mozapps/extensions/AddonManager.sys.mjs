@@ -28590,6 +28590,15 @@ AddonTestUtils
 .
 promiseStartupManager
 .
+/
+/
+Also
+used
+by
+test_blocklist_statechange_telemetry
+.
+js
+.
 async
 uninit
 (
