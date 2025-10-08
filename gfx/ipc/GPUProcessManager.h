@@ -1096,6 +1096,11 @@ aMsg
 )
 ;
 void
+MaybeCrashIfGpuProcessOnceStable
+(
+)
+;
+void
 ResetProcessStable
 (
 )
@@ -1448,6 +1453,11 @@ mProcessToken
 ;
 bool
 mProcessStable
+;
+bool
+mProcessStableOnce
+=
+false
 ;
 Maybe
 <
