@@ -1526,18 +1526,19 @@ linux
 :
             
 dist_id
-version
-codename
 =
 distro
 .
-linux_distribution
+id
 (
-                
-full_distribution_name
-=
-False
+)
             
+version
+=
+distro
+.
+version
+(
 )
             
 if
@@ -1577,15 +1578,6 @@ distro
 ]
 =
 dist_id
-                
-args
-[
-"
-codename
-"
-]
-=
-codename
             
 elif
 dist_id
@@ -2106,32 +2098,6 @@ moz
 phab
 "
 )
-:
-            
-return
-        
-if
-sys
-.
-platform
-.
-startswith
-(
-"
-darwin
-"
-)
-and
-platform
-.
-machine
-(
-)
-=
-=
-"
-arm64
-"
 :
             
 return
