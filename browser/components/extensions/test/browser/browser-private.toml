@@ -46,6 +46,13 @@ js
 ]
 [
 "
+browser_always_on_pbm_prompt
+.
+js
+"
+]
+[
+"
 browser_ext_tabs_cookieStoreId_private
 .
 js
