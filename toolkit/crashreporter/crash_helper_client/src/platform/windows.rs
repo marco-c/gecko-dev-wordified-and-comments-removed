@@ -224,8 +224,8 @@ spawn_crash_helper
 program
 breakpad_data
 minidump_path
-listener
 server_endpoint
+listener
 )
 }
 )
@@ -243,9 +243,6 @@ Some
 (
 spawner_thread
 )
-helper_process
-:
-None
 }
 )
 }
@@ -261,12 +258,12 @@ BreakpadData
 minidump_path
 :
 OsString
-listener
-:
-IPCListener
 endpoint
 :
 IPCConnector
+listener
+:
+IPCListener
 )
 -
 >
@@ -380,7 +377,7 @@ push
 escape_cmd_line_arg
 (
 &
-listener
+endpoint
 .
 serialize
 (
@@ -403,7 +400,7 @@ push
 escape_cmd_line_arg
 (
 &
-endpoint
+listener
 .
 serialize
 (

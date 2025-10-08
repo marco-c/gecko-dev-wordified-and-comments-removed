@@ -367,7 +367,7 @@ listen
 IPCConnector
 :
 :
-new
+from_ancillary
 (
 connected_pipe
 )
