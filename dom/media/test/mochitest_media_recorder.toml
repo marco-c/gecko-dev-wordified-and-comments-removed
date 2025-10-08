@@ -7965,3 +7965,10 @@ test_mediarecorder_webm_support
 html
 "
 ]
+[
+"
+test_mediarecorder_glean
+.
+html
+"
+]
