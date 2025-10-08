@@ -28793,6 +28793,17 @@ SurfacePattern
 aMask
 )
 ;
+if
+(
+!
+maskPattern
+.
+mSurface
+)
+{
+return
+;
+}
 DrawRect
 (
 Rect
