@@ -49028,8 +49028,6 @@ true
 #
 endif
 #
-endif
-#
 ifdef
 ENABLE_WASM_RELAXED_SIMD
 bool
@@ -49198,6 +49196,8 @@ return
 true
 ;
 }
+#
+endif
 #
 endif
 bool
