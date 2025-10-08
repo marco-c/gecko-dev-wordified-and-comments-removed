@@ -710,6 +710,11 @@ testToSignedOrUnsignedInteger
 cpp
 "
 "
+testTraceableFifoValue
+.
+cpp
+"
+"
 testTypedArrays
 .
 cpp
