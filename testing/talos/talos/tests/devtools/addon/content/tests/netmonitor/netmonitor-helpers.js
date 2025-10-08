@@ -843,13 +843,9 @@ response
 -
 panel
 .
-CodeMirror
-.
 cm
 -
-s
--
-mozilla
+editor
 "
 )
 ;

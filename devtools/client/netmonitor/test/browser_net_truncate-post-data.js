@@ -332,13 +332,9 @@ request
 -
 panel
 .
-CodeMirror
-.
 cm
 -
-s
--
-mozilla
+editor
 "
 )
 ;
@@ -519,7 +515,10 @@ tabpanel
 querySelector
 (
 "
-PRE
+.
+cm
+-
+editor
 "
 )
 =

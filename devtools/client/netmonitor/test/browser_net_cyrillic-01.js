@@ -300,9 +300,9 @@ response
 -
 panel
 .
-CodeMirror
+cm
 -
-code
+content
 "
 )
 ;
