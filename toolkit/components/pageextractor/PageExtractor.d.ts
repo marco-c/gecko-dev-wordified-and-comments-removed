@@ -1,0 +1,13 @@
+export
+interface
+GetTextOptions
+{
+removeBoilerplate
+:
+boolean
+;
+justViewport
+:
+boolean
+;
+}
