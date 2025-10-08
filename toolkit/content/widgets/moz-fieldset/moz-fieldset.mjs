@@ -603,9 +603,6 @@ class
 =
 "
 description
-text
--
-deemphasized
 "
 >
 {
