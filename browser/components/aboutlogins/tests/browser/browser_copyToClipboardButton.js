@@ -27,6 +27,17 @@ asyncClipboard
 "
 true
 ]
+[
+"
+toolkit
+.
+osKeyStore
+.
+unofficialBuildOnlyLogin
+"
+"
+"
+]
 ]
 }
 )
