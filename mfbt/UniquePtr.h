@@ -42,15 +42,6 @@ include
 "
 mozilla
 /
-CompactPair
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Compiler
 .
 h

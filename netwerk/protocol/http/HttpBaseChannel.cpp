@@ -102,6 +102,15 @@ include
 "
 mozilla
 /
+CompactPair
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ConsoleReportCollector
 .
 h
