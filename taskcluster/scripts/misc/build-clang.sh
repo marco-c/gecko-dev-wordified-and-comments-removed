@@ -185,7 +185,7 @@ echo
 echo
 10
 .
-12
+15
 >
 >
 ORIGPWD
