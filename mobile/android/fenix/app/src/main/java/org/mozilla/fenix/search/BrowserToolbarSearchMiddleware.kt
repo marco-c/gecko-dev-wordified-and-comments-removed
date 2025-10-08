@@ -3317,7 +3317,16 @@ external
 )
 private
 =
-false
+environment
+?
+.
+browsingModeManager
+?
+.
+mode
+=
+=
+Private
 )
 environment
 ?
