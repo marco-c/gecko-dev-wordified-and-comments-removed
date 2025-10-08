@@ -2065,6 +2065,15 @@ platforms
 :
             
 if
+platform
+not
+in
+FTP_PLATFORM_MAP
+:
+                
+continue
+            
+if
 "
 alias
 "
