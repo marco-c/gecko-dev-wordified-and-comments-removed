@@ -407,6 +407,9 @@ isNullOrBlank
 )
 )
 {
+response
+=
+installReferrerResponse
 val
 utmParams
 =
@@ -571,6 +574,13 @@ listOf
 GCLID_PREFIX
 ADJUST_REFTAG_PREFIX
 )
+var
+response
+:
+String
+?
+=
+null
 VisibleForTesting
 internal
 fun
