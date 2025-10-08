@@ -1063,6 +1063,10 @@ while
 true
 )
 {
+WaitForNextIteration
+(
+)
+;
 MediaTime
 interval
 =
@@ -1215,10 +1219,6 @@ Stopped
 break
 ;
 }
-WaitForNextIteration
-(
-)
-;
 if
 (
 GraphDriver

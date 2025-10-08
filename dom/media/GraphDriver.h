@@ -1248,7 +1248,7 @@ MOZ_UNANNOTATED
 bool
 mNeedAnotherIteration
 =
-false
+true
 ;
 TimeStamp
 mWakeTime
