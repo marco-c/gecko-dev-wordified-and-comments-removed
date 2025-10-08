@@ -3551,6 +3551,13 @@ js
 ]
 [
 "
+test_defaultURI
+.
+js
+"
+]
+[
+"
 test_dictionary_compression_dcb
 .
 js
@@ -3566,13 +3573,6 @@ js
 [
 "
 test_dictionary_storage
-.
-js
-"
-]
-[
-"
-test_defaultURI
 .
 js
 "
