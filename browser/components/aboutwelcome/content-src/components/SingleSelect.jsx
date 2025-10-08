@@ -945,11 +945,6 @@ item
 type
 }
 }
-title
-=
-{
-value
-}
 onKeyDown
 =
 {

@@ -248,6 +248,13 @@ simulate
 "
 click
 "
+{
+preventDefault
+(
+)
+{
+}
+}
 )
 ;
 assert
