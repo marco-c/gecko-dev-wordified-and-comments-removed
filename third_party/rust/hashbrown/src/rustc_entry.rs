@@ -1659,11 +1659,15 @@ impl
 <
 K
 V
+A
+:
+Allocator
 >
 IntoIter
 <
 K
 V
+A
 >
 {
 #
@@ -1708,6 +1712,9 @@ impl
 <
 K
 V
+A
+:
+Allocator
 >
 Drain
 <
@@ -1715,6 +1722,7 @@ Drain
 _
 K
 V
+A
 >
 {
 #
