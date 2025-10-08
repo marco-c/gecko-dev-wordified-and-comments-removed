@@ -702,7 +702,7 @@ settings
 crashReporter
 =
 crashReporter
-restartHandler
+reinitializeHandler
 =
 {
 called
