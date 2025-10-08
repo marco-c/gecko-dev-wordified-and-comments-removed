@@ -6300,18 +6300,6 @@ viewMode
 =
 VIEW_MODES
 .
-ALERTS
-|
-|
-(
-this
-.
-viewMode
-=
-=
-=
-VIEW_MODES
-.
 LIST
 &
 &
@@ -6326,7 +6314,6 @@ value
 total
 >
 0
-)
 ;
 return
 html
