@@ -908,6 +908,13 @@ aLocation
 !
 (
 aLocation
+instanceof
+Ci
+.
+nsIURL
+&
+&
+aLocation
 .
 scheme
 .
