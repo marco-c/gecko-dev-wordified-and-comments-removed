@@ -5531,6 +5531,23 @@ _resource_monitor
             
 return
         
+self
+.
+_resource_monitor
+.
+stop
+(
+)
+        
+self
+.
+_log_resource_usage
+(
+)
+        
+try
+:
+            
 upload_dir
 =
 self
@@ -5543,26 +5560,6 @@ query_abs_dirs
 abs_blob_upload_dir
 "
 ]
-        
-self
-.
-_resource_monitor
-.
-stop
-(
-upload_dir
-=
-upload_dir
-)
-        
-self
-.
-_log_resource_usage
-(
-)
-        
-try
-:
             
 if
 not
