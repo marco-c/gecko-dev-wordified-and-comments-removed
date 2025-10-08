@@ -629,6 +629,7 @@ engines
 =
 "
 gecko
+servo
 "
 initial_value
 =
