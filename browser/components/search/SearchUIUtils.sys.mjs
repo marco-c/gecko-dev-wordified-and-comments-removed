@@ -1149,6 +1149,16 @@ addOpenSearchEngine
 (
 locationURL
 image
+browsingContext
+?
+.
+embedderElement
+?
+.
+contentPrincipal
+?
+.
+originAttributes
 )
 ;
 }

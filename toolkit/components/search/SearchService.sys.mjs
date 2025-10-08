@@ -4711,6 +4711,7 @@ addOpenSearchEngine
 (
 engineURL
 iconURL
+originAttributes
 )
 {
 lazy
@@ -4755,6 +4756,8 @@ newURI
 (
 engineURL
 )
+null
+originAttributes
 )
 ;
 engine
