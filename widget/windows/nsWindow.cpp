@@ -6168,6 +6168,14 @@ mPrevWndProc
 ;
 NS_ASSERTION
 (
+WinUtils
+:
+:
+MicaAvailable
+(
+)
+|
+|
 wndProcBeforeDissociate
 =
 =
