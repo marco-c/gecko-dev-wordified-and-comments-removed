@@ -6563,6 +6563,13 @@ Shutdown
 (
 )
 ;
+DictionaryCache
+:
+:
+Shutdown
+(
+)
+;
 if
 (
 CacheObserver
