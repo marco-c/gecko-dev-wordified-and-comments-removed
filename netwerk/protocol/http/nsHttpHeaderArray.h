@@ -72,7 +72,6 @@ eVarietyRequestEnforceDefault
 eVarietyResponseNetOriginalAndResponse
 eVarietyResponseNetOriginal
 eVarietyResponse
-eVarietyResponseOverride
 }
 ;
 [

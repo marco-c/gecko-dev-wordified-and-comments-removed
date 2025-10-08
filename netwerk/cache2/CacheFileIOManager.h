@@ -118,13 +118,6 @@ prio
 h
 "
 #
-include
-"
-Dictionary
-.
-h
-"
-#
 if
 !
 defined
@@ -1800,10 +1793,6 @@ PinningDoomRestriction
 aPinningDoomRestriction
 =
 NO_RESTRICTION
-bool
-aClearDirectory
-=
-true
 )
 ;
 nsresult
@@ -2158,12 +2147,6 @@ StaticRefPtr
 CacheFileIOManager
 >
 gInstance
-;
-RefPtr
-<
-DictionaryCache
->
-mDictionaryCache
 ;
 TimeStamp
 mStartTime
