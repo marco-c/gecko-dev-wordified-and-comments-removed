@@ -319,7 +319,7 @@ const
 val
 EXPECTED_SUPPRESSION_COUNT
 =
-16
+13
 /
 *
 *

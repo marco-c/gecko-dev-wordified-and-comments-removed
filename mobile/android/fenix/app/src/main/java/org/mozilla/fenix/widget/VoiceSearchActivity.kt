@@ -590,13 +590,12 @@ components
 .
 strictMode
 .
-resetAfter
+allowViolation
 (
 StrictMode
-.
+:
+:
 allowThreadDiskReads
-(
-)
 )
 {
 LocaleManager

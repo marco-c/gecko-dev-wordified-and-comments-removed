@@ -770,13 +770,12 @@ components
 .
 strictMode
 .
-resetAfter
+allowViolation
 (
 StrictMode
-.
+:
+:
 allowThreadDiskReads
-(
-)
 )
 {
 SharedPrefsAddressesDebugLocalesRepository

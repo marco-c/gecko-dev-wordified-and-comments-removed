@@ -109,7 +109,7 @@ mock
 because
 of
 [
-resetAfter
+allowViolation
 ]
 *
 so
@@ -176,10 +176,14 @@ fun
 <
 R
 >
-resetAfter
+allowViolation
 (
-policy
+allowFn
 :
+(
+)
+-
+>
 StrictMode
 .
 ThreadPolicy

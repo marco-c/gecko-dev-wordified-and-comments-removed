@@ -812,13 +812,12 @@ components
 .
 strictMode
 .
-resetAfter
+allowViolation
 (
 StrictMode
-.
+:
+:
 allowThreadDiskReads
-(
-)
 )
 {
 promptToSetAsDefaultBrowser

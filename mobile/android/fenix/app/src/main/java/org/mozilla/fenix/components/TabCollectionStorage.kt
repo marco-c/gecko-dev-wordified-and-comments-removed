@@ -407,13 +407,12 @@ lazy
 {
 strictMode
 .
-resetAfter
+allowViolation
 (
 StrictMode
-.
+:
+:
 allowThreadDiskReads
-(
-)
 )
 {
 TabCollectionStorage

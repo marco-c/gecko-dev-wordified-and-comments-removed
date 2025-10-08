@@ -830,13 +830,12 @@ strictMode
 .
 value
 .
-resetAfter
+allowViolation
 (
 StrictMode
-.
+:
+:
 allowThreadDiskReads
-(
-)
 )
 {
 val

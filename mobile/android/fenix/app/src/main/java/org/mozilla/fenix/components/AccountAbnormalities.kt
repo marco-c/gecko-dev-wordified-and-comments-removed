@@ -479,13 +479,12 @@ prefPair
 =
 strictMode
 .
-resetAfter
+allowViolation
 (
 StrictMode
-.
+:
+:
 allowThreadDiskReads
-(
-)
 )
 {
 val

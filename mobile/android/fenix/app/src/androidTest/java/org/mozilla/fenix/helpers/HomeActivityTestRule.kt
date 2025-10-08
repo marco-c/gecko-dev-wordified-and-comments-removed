@@ -2279,13 +2279,12 @@ components
 .
 strictMode
 .
-resetAfter
+allowViolation
 (
 StrictMode
-.
+:
+:
 allowThreadDiskReads
-(
-)
 )
 {
 initializeGlean
