@@ -2121,6 +2121,15 @@ useOnScreenKeyboard
 "
 pref
 :
+AppConstants
+.
+platform
+=
+=
+"
+win
+"
+?
 "
 ui
 .
@@ -2128,6 +2137,8 @@ osk
 .
 enabled
 "
+:
+undefined
 visible
 :
 (
