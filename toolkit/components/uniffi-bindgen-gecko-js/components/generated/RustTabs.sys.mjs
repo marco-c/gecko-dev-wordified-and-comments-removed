@@ -5089,7 +5089,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-64
+109
 /
 /
 uniffi_tabs_fn_method_remotecommandstore_add_remote_command
@@ -5218,7 +5218,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-65
+110
 /
 /
 uniffi_tabs_fn_method_remotecommandstore_add_remote_command_at
@@ -5320,7 +5320,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-66
+111
 /
 /
 uniffi_tabs_fn_method_remotecommandstore_get_unsent_commands
@@ -5441,7 +5441,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-67
+112
 /
 /
 uniffi_tabs_fn_method_remotecommandstore_remove_remote_command
@@ -5534,7 +5534,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-68
+113
 /
 /
 uniffi_tabs_fn_method_remotecommandstore_set_pending_command_sent
@@ -5708,7 +5708,7 @@ dataStream
 .
 readPointer
 (
-10
+17
 )
 )
 ;
@@ -5724,7 +5724,7 @@ dataStream
 .
 writePointer
 (
-10
+17
 this
 .
 lower
@@ -6673,7 +6673,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-69
+114
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_apply
@@ -6749,7 +6749,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-70
+115
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_ensure_current_sync_id
@@ -6817,7 +6817,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-71
+116
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_last_sync
@@ -6884,7 +6884,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-72
+117
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_prepare_for_sync
@@ -6941,7 +6941,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-73
+118
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_reset
@@ -7001,7 +7001,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-74
+119
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_reset_sync_id
@@ -7068,7 +7068,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-75
+120
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_set_last_sync
@@ -7157,7 +7157,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-76
+121
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_set_uploaded
@@ -7238,7 +7238,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-77
+122
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_store_incoming
@@ -7295,7 +7295,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-78
+123
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_sync_finished
@@ -7356,7 +7356,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-79
+124
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_sync_id
@@ -7409,7 +7409,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-80
+125
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_sync_started
@@ -7460,7 +7460,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-81
+126
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_wipe
@@ -7626,7 +7626,7 @@ dataStream
 .
 readPointer
 (
-11
+18
 )
 )
 ;
@@ -7642,7 +7642,7 @@ dataStream
 .
 writePointer
 (
-11
+18
 this
 .
 lower
@@ -8271,7 +8271,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-82
+127
 /
 /
 uniffi_tabs_fn_constructor_tabsstore_new
@@ -8326,7 +8326,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-83
+128
 /
 /
 uniffi_tabs_fn_method_tabsstore_bridged_engine
@@ -8372,7 +8372,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-84
+129
 /
 /
 uniffi_tabs_fn_method_tabsstore_close_connection
@@ -8429,7 +8429,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-85
+130
 /
 /
 uniffi_tabs_fn_method_tabsstore_get_all
@@ -8484,7 +8484,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-86
+131
 /
 /
 uniffi_tabs_fn_method_tabsstore_new_remote_command_store
@@ -8530,7 +8530,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-87
+132
 /
 /
 uniffi_tabs_fn_method_tabsstore_register_with_sync_manager
@@ -8592,7 +8592,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-88
+133
 /
 /
 uniffi_tabs_fn_method_tabsstore_set_local_tabs
@@ -8757,7 +8757,7 @@ dataStream
 .
 readPointer
 (
-12
+19
 )
 )
 ;
@@ -8773,7 +8773,7 @@ dataStream
 .
 writePointer
 (
-12
+19
 this
 .
 lower
