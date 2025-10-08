@@ -297,5 +297,10 @@ aStats
 ;
 }
 }
+void
+phc_init
+(
+)
+;
 #
 endif
