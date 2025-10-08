@@ -70,16 +70,6 @@ inset
 %
 )
 ;
-overflow
--
-clip
--
-box
-:
-padding
--
-box
-;
 }
 div
 {
