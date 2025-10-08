@@ -448,6 +448,16 @@ id
 .
 radio_button
 )
+optionTrueRadio
+.
+setStartCheckedIndicator
+(
+)
+optionFalseRadio
+.
+setStartCheckedIndicator
+(
+)
 val
 optionTrueTitle
 =
