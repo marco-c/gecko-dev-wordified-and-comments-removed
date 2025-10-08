@@ -340,13 +340,6 @@ js
 ]
 [
 "
-test_ResourceFailures
-.
-js
-"
-]
-[
-"
 test_SessionStoreBackupResource
 .
 js
