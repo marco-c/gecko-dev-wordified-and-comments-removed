@@ -318,6 +318,16 @@ init
 (
 )
 {
+if
+(
+this
+.
+initialized
+)
+{
+return
+;
+}
 Services
 .
 obs
