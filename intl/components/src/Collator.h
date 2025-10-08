@@ -32,15 +32,6 @@ include
 "
 mozilla
 /
-Compiler
-.
-h
-"
-#
-include
-"
-mozilla
-/
 intl
 /
 ICU4CGlue

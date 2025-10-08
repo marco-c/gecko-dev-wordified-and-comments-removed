@@ -37,15 +37,6 @@ Attributes
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Compiler
-.
-h
-"
 namespace
 mozilla
 {

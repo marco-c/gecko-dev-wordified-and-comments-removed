@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-Compiler
-.
-h
-"
-#
-include
-"
-mozilla
-/
 FloatingPoint
 .
 h
@@ -1541,9 +1532,6 @@ defined
 (
 __arm__
 )
-&
-&
-MOZ_IS_GCC
 template
 <
 >
