@@ -391,6 +391,12 @@ true
 lineWrapping
 :
 false
+disableSearchAddon
+:
+false
+useSearchAddonPanel
+:
+true
 mode
 :
 null
