@@ -4736,15 +4736,12 @@ false
 )
 |
 |
+!
 this
 .
 _nimbusVariables
 .
 enabled
-=
-=
-=
-false
 ;
 const
 allowInteractionData
