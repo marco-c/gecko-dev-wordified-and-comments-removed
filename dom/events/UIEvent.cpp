@@ -807,7 +807,7 @@ mLayerPoint
 RelativeTo
 root
 {
-mPresContext
+targetFrame
 -
 >
 PresShell
