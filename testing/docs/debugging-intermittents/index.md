@@ -1001,8 +1001,10 @@ possible
 to
 use
 the
-environment
-variables
+-
+-
+profiler
+flag
 :
 .
 /
@@ -1011,10 +1013,7 @@ try
 fuzzy
 -
 -
-env
-MOZ_PROFILER_STARTUP
-=
-1
+profiler
 <
 test
 directory

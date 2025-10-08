@@ -865,10 +865,7 @@ try
 with
 -
 -
-env
-MOZ_PROFILER_STARTUP
-=
-1
+profiler
 :
 .
 /
@@ -877,10 +874,7 @@ try
 fuzzy
 -
 -
-env
-MOZ_PROFILER_STARTUP
-=
-1
+profiler
 <
 test
 directory
