@@ -2799,6 +2799,7 @@ animation
 :
 :
 {
+self
 AnimationSetKey
 AnimationState
 }

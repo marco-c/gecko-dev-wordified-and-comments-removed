@@ -6921,17 +6921,6 @@ name
 [
 inline
 ]
-#
-[
-cfg
-(
-feature
-=
-"
-gecko
-"
-)
-]
 fn
 lookup_position_try
 <

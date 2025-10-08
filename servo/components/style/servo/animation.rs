@@ -6233,7 +6233,7 @@ context
 .
 stylist
 .
-lookup_keyframes
+get_animation
 (
 name
 element

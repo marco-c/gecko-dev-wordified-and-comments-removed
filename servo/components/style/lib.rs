@@ -119,6 +119,10 @@ servo
 "
 )
 ]
+#
+[
+macro_use
+]
 extern
 crate
 web_atoms
