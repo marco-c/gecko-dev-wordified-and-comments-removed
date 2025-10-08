@@ -4590,6 +4590,10 @@ SHA1Sum
 Hash
 *
 aHash
+const
+nsACString
+&
+aKey
 )
 ;
 static
