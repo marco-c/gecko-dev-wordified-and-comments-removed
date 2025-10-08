@@ -1637,6 +1637,7 @@ split
 )
 )
 {
+await
 hitKey
 (
 browser
