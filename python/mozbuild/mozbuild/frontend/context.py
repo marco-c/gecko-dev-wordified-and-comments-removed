@@ -3771,7 +3771,7 @@ substs
 get
 (
 "
-STL_HARDENING_FLAGS
+MOZ_STL_HARDENING_FLAGS
 "
 )
                 
