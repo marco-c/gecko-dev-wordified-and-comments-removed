@@ -118,6 +118,12 @@ platforminfo
 import
 PlatformInfo
 from
+taskcluster
+.
+exceptions
+import
+TaskclusterRestFailure
+from
 wpt_path_utils
 import
 (
@@ -132,12 +138,6 @@ from
 yaml
 import
 load
-from
-taskcluster
-.
-exceptions
-import
-TaskclusterRestFailure
 try
 :
     
