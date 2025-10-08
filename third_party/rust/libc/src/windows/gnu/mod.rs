@@ -28,13 +28,6 @@ s_no_extra_traits
 {
 #
 [
-allow
-(
-missing_debug_implementations
-)
-]
-#
-[
 repr
 (
 align
@@ -74,13 +67,6 @@ target_pointer_width
 s_no_extra_traits
 !
 {
-#
-[
-allow
-(
-missing_debug_implementations
-)
-]
 #
 [
 repr

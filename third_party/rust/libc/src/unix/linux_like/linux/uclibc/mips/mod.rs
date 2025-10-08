@@ -375,14 +375,6 @@ c_int
 ;
 pub
 const
-PIDFD_NONBLOCK
-:
-c_int
-=
-128
-;
-pub
-const
 EDEADLK
 :
 c_int

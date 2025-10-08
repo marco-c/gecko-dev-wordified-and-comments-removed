@@ -3168,9 +3168,6 @@ pub
 const
 S_BLKSIZE
 :
-crate
-:
-:
 mode_t
 =
 1024
@@ -3178,9 +3175,6 @@ mode_t
 pub
 const
 S_IREAD
-:
-crate
-:
 :
 mode_t
 =
@@ -3190,9 +3184,6 @@ pub
 const
 S_IWRITE
 :
-crate
-:
-:
 mode_t
 =
 0o0200
@@ -3200,9 +3191,6 @@ mode_t
 pub
 const
 S_IEXEC
-:
-crate
-:
 :
 mode_t
 =
@@ -3212,9 +3200,6 @@ pub
 const
 S_ENFMT
 :
-crate
-:
-:
 mode_t
 =
 0o2000
@@ -3222,9 +3207,6 @@ mode_t
 pub
 const
 S_IFMT
-:
-crate
-:
 :
 mode_t
 =
@@ -3234,9 +3216,6 @@ pub
 const
 S_IFDIR
 :
-crate
-:
-:
 mode_t
 =
 0o4_0000
@@ -3244,9 +3223,6 @@ mode_t
 pub
 const
 S_IFCHR
-:
-crate
-:
 :
 mode_t
 =
@@ -3256,9 +3232,6 @@ pub
 const
 S_IFBLK
 :
-crate
-:
-:
 mode_t
 =
 0o6_0000
@@ -3266,9 +3239,6 @@ mode_t
 pub
 const
 S_IFREG
-:
-crate
-:
 :
 mode_t
 =
@@ -3278,9 +3248,6 @@ pub
 const
 S_IFLNK
 :
-crate
-:
-:
 mode_t
 =
 0o12_0000
@@ -3288,9 +3255,6 @@ mode_t
 pub
 const
 S_IFSOCK
-:
-crate
-:
 :
 mode_t
 =
@@ -3300,9 +3264,6 @@ pub
 const
 S_IFIFO
 :
-crate
-:
-:
 mode_t
 =
 0o1_0000
@@ -3310,9 +3271,6 @@ mode_t
 pub
 const
 S_IRUSR
-:
-crate
-:
 :
 mode_t
 =
@@ -3322,9 +3280,6 @@ pub
 const
 S_IWUSR
 :
-crate
-:
-:
 mode_t
 =
 0o0200
@@ -3332,9 +3287,6 @@ mode_t
 pub
 const
 S_IXUSR
-:
-crate
-:
 :
 mode_t
 =
@@ -3344,9 +3296,6 @@ pub
 const
 S_IRGRP
 :
-crate
-:
-:
 mode_t
 =
 0o0040
@@ -3354,9 +3303,6 @@ mode_t
 pub
 const
 S_IWGRP
-:
-crate
-:
 :
 mode_t
 =
@@ -3366,9 +3312,6 @@ pub
 const
 S_IXGRP
 :
-crate
-:
-:
 mode_t
 =
 0o0010
@@ -3376,9 +3319,6 @@ mode_t
 pub
 const
 S_IROTH
-:
-crate
-:
 :
 mode_t
 =
@@ -3388,9 +3328,6 @@ pub
 const
 S_IWOTH
 :
-crate
-:
-:
 mode_t
 =
 0o0002
@@ -3398,9 +3335,6 @@ mode_t
 pub
 const
 S_IXOTH
-:
-crate
-:
 :
 mode_t
 =
@@ -5020,9 +4954,6 @@ fd_set
 let
 bits
 =
-mem
-:
-:
 size_of_val
 (
 &
@@ -5094,9 +5025,6 @@ bool
 let
 bits
 =
-mem
-:
-:
 size_of_val
 (
 &
@@ -5171,9 +5099,6 @@ fd_set
 let
 bits
 =
-mem
-:
-:
 size_of_val
 (
 &

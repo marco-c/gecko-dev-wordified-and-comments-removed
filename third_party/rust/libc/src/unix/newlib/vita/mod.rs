@@ -548,11 +548,12 @@ RTLD_DEFAULT
 mut
 c_void
 =
-0
-as
-*
-mut
-c_void
+ptr
+:
+:
+null_mut
+(
+)
 ;
 pub
 const

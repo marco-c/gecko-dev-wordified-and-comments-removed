@@ -16,9 +16,6 @@ _ALIGNBYTES
 :
 usize
 =
-mem
-:
-:
 size_of
 :
 :

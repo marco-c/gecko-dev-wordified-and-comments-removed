@@ -532,9 +532,7 @@ safe_f
 !
 {
 pub
-{
 const
-}
 fn
 WIFSTOPPED
 (
@@ -556,9 +554,7 @@ status
 0x7f
 }
 pub
-{
 const
-}
 fn
 WSTOPSIG
 (
@@ -586,9 +582,7 @@ status
 )
 }
 pub
-{
 const
-}
 fn
 WIFSIGNALED
 (
@@ -622,9 +616,7 @@ status
 )
 }
 pub
-{
 const
-}
 fn
 WTERMSIG
 (
@@ -641,9 +633,7 @@ status
 0x7f
 }
 pub
-{
 const
-}
 fn
 WIFEXITED
 (
@@ -665,9 +655,7 @@ status
 0
 }
 pub
-{
 const
-}
 fn
 WEXITSTATUS
 (
@@ -699,9 +687,7 @@ native
 WIFCONTINUED
 .
 pub
-{
 const
-}
 fn
 WIFCONTINUED
 (
@@ -726,9 +712,7 @@ native
 WCOREDUMP
 .
 pub
-{
 const
-}
 fn
 WCOREDUMP
 (

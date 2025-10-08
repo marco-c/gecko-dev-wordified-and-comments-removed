@@ -22,6 +22,13 @@ C
 ]
 #
 [
+derive
+(
+Debug
+)
+]
+#
+[
 cfg_attr
 (
 feature
@@ -31,7 +38,6 @@ extra_traits
 "
 derive
 (
-Debug
 Eq
 Hash
 PartialEq

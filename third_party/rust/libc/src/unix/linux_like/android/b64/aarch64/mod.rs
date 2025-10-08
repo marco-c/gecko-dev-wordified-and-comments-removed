@@ -384,13 +384,6 @@ s_no_extra_traits
 {
 #
 [
-allow
-(
-missing_debug_implementations
-)
-]
-#
-[
 repr
 (
 align

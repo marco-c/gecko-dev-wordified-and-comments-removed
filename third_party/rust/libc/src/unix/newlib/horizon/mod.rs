@@ -1068,11 +1068,12 @@ RTLD_DEFAULT
 mut
 c_void
 =
-0
-as
-*
-mut
-c_void
+ptr
+:
+:
+null_mut
+(
+)
 ;
 pub
 const
@@ -1110,9 +1111,7 @@ safe_f
 !
 {
 pub
-{
 const
-}
 fn
 WIFSTOPPED
 (
@@ -1127,9 +1126,7 @@ bool
 false
 }
 pub
-{
 const
-}
 fn
 WSTOPSIG
 (
@@ -1144,9 +1141,7 @@ c_int
 0
 }
 pub
-{
 const
-}
 fn
 WIFCONTINUED
 (
@@ -1161,9 +1156,7 @@ bool
 true
 }
 pub
-{
 const
-}
 fn
 WIFSIGNALED
 (
@@ -1178,9 +1171,7 @@ bool
 false
 }
 pub
-{
 const
-}
 fn
 WTERMSIG
 (
@@ -1195,9 +1186,7 @@ c_int
 0
 }
 pub
-{
 const
-}
 fn
 WIFEXITED
 (
@@ -1212,9 +1201,7 @@ bool
 true
 }
 pub
-{
 const
-}
 fn
 WEXITSTATUS
 (
@@ -1229,9 +1216,7 @@ c_int
 0
 }
 pub
-{
 const
-}
 fn
 WCOREDUMP
 (
