@@ -864,7 +864,7 @@ stage
 -
 cppunittests
 endif
-TEST_PKGS_TARZST
+TEST_PKGS_TARGZ
 :
 =
 \
@@ -916,7 +916,7 @@ all
 stage
 -
 gtest
-TEST_PKGS_TARZST
+TEST_PKGS_TARGZ
 +
 =
 gtest
@@ -1008,7 +1008,7 @@ zip
 foreach
 pkg
 (
-TEST_PKGS_TARZST
+TEST_PKGS_TARGZ
 )
 (
 call
@@ -1018,7 +1018,7 @@ pkg
 )
 tar
 .
-zst
+gz
 )
 )
 ifdef
@@ -1139,7 +1139,7 @@ endef
 foreach
 name
 (
-TEST_PKGS_TARZST
+TEST_PKGS_TARGZ
 )
 (
 eval
@@ -1151,7 +1151,7 @@ name
 )
 tar
 .
-zst
+gz
 )
 )
 )

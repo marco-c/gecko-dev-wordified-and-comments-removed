@@ -988,7 +988,7 @@ tests
 .
 tar
 .
-zst
+gz
 "
     
 property
@@ -1174,7 +1174,7 @@ zip
 tar
 \
 .
-zst
+gz
 )
 "
             

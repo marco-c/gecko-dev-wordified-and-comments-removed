@@ -526,7 +526,7 @@ tests
 .
 tar
 .
-zst
+gz
 CPP_TEST_PACKAGE
 =
 (
@@ -539,7 +539,7 @@ tests
 .
 tar
 .
-zst
+gz
 XPC_TEST_PACKAGE
 =
 (
@@ -552,7 +552,7 @@ tests
 .
 tar
 .
-zst
+gz
 MOCHITEST_PACKAGE
 =
 (
@@ -565,7 +565,7 @@ tests
 .
 tar
 .
-zst
+gz
 REFTEST_PACKAGE
 =
 (
@@ -578,7 +578,7 @@ tests
 .
 tar
 .
-zst
+gz
 WP_TEST_PACKAGE
 =
 (
@@ -593,7 +593,7 @@ tests
 .
 tar
 .
-zst
+gz
 TALOS_PACKAGE
 =
 (
@@ -606,7 +606,7 @@ tests
 .
 tar
 .
-zst
+gz
 AWSY_PACKAGE
 =
 (
@@ -619,7 +619,7 @@ tests
 .
 tar
 .
-zst
+gz
 GTEST_PACKAGE
 =
 (
@@ -632,7 +632,7 @@ tests
 .
 tar
 .
-zst
+gz
 #
 .
 xpt

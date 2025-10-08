@@ -881,7 +881,7 @@ tests
 .
 tar
 .
-zst
+gz
 dest
 :
 tests
@@ -896,7 +896,7 @@ tests
 .
 tar
 .
-zst
+gz
 dest
 :
 tests
@@ -1823,7 +1823,7 @@ tests
 .
 tar
 .
-zst
+gz
 dest
 :
 tests
@@ -1838,7 +1838,7 @@ tests
 .
 tar
 .
-zst
+gz
 dest
 :
 tests
@@ -2565,7 +2565,7 @@ tests
 .
 tar
 .
-zst
+gz
 worker
 :
 by
@@ -2849,7 +2849,7 @@ tests
 .
 tar
 .
-zst
+gz
 worker
 :
 by
@@ -3483,7 +3483,7 @@ tests
 .
 tar
 .
-zst
+gz
 dest
 :
 tests
@@ -3498,7 +3498,7 @@ tests
 .
 tar
 .
-zst
+gz
 dest
 :
 tests
