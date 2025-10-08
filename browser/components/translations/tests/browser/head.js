@@ -2029,6 +2029,7 @@ benchmarkTranslation
 page
 sourceLanguage
 targetLanguage
+architecture
 speedBenchCount
 memoryBenchCount
 memorySampleInterval
@@ -2358,6 +2359,7 @@ page
 journal
 sourceLanguage
 targetLanguage
+architecture
 memoryBenchCount
 memorySampleInterval
 }
@@ -2374,6 +2376,7 @@ page
 journal
 sourceLanguage
 targetLanguage
+architecture
 wordCount
 tokenCount
 speedBenchCount
@@ -2397,6 +2400,7 @@ page
 journal
 sourceLanguage
 targetLanguage
+architecture
 memoryBenchCount
 memorySampleInterval
 }
@@ -2456,6 +2460,7 @@ toLang
 targetLanguage
 }
 ]
+architecture
 prefs
 :
 [
@@ -2813,6 +2818,7 @@ page
 journal
 sourceLanguage
 targetLanguage
+architecture
 wordCount
 tokenCount
 speedBenchCount
@@ -2874,6 +2880,7 @@ toLang
 targetLanguage
 }
 ]
+architecture
 prefs
 :
 [

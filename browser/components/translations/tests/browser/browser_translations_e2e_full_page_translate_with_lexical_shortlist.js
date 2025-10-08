@@ -24,6 +24,11 @@ loadTestPage
 endToEndTest
 :
 true
+architecture
+:
+"
+tiny
+"
 page
 :
 SPANISH_PAGE_URL
@@ -166,6 +171,11 @@ loadTestPage
 endToEndTest
 :
 true
+architecture
+:
+"
+tiny
+"
 page
 :
 SPANISH_PAGE_URL
