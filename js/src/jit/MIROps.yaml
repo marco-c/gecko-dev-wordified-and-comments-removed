@@ -13665,6 +13665,12 @@ true
 lir_temps
 :
 1
+alias_set
+:
+none
+guard
+:
+true
 -
 name
 :
