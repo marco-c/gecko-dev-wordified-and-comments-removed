@@ -10845,6 +10845,15 @@ TranslationComplete
 "
 ;
 static
+TextAreaHeightsChanged
+=
+"
+AboutTranslations
+:
+TextAreaHeightsChanged
+"
+;
+static
 ClearTargetText
 =
 "
