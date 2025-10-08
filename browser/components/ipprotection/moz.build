@@ -104,13 +104,6 @@ sys
 .
 mjs
 "
-"
-IPPSignInWatcher
-.
-sys
-.
-mjs
-"
 ]
 BROWSER_CHROME_MANIFESTS
 +
