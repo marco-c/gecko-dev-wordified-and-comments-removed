@@ -849,10 +849,13 @@ SSL_ERROR_BAD_CERT_DOMAIN
 {
 if
 (
-!
 this
 .
 domainMismatchNames
+=
+=
+=
+null
 )
 {
 this
