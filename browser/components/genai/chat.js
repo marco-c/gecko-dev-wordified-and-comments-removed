@@ -2915,6 +2915,10 @@ showSummarizeWarning
 length
 )
 {
+clearWarningMessage
+(
+)
+;
 const
 messageContainer
 =
