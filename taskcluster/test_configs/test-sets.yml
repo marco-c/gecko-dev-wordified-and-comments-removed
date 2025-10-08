@@ -288,12 +288,6 @@ platform
 tests
 -
 canvas
--
-mochitest
--
-devtools
--
-chrome
 web
 -
 platform
@@ -1220,7 +1214,6 @@ mochitest
 chrome
 -
 gpu
-#
 -
 mochitest
 -
