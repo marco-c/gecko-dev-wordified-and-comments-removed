@@ -7748,7 +7748,6 @@ break
 case
 PREF_CHANGED_TOPIC
 :
-{
 let
 options
 =
@@ -7782,7 +7781,6 @@ aData
 }
 break
 ;
-}
 case
 AUTO_UPDATE_PREF_CHANGE_TOPIC
 :

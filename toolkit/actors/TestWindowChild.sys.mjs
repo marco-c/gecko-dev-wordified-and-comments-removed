@@ -181,7 +181,6 @@ case
 asyncAdd
 "
 :
-{
 let
 {
 a
@@ -214,7 +213,6 @@ b
 }
 )
 ;
-}
 case
 "
 error

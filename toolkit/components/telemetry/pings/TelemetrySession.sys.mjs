@@ -6455,7 +6455,6 @@ windows
 restored
 "
 :
-{
 this
 .
 removeObserver
@@ -6517,7 +6516,6 @@ gatherStartup
 ;
 break
 ;
-}
 case
 "
 idle
@@ -6624,7 +6622,6 @@ application
 background
 "
 :
-{
 if
 (
 AppConstants
@@ -6951,7 +6948,6 @@ options
 ;
 break
 ;
-}
 case
 "
 user

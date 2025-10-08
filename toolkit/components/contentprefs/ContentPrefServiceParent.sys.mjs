@@ -478,7 +478,6 @@ ContentPrefs
 FunctionCall
 "
 :
-{
 let
 data
 =
@@ -751,7 +750,6 @@ args
 }
 )
 ;
-}
 }
 return
 undefined

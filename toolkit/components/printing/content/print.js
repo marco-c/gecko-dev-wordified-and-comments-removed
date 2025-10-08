@@ -6049,7 +6049,6 @@ case
 marginPresets
 "
 :
-{
 let
 paperWrapper
 =
@@ -6111,7 +6110,6 @@ paperWrapper
 )
 }
 ;
-}
 case
 "
 marginOptions
@@ -6233,7 +6231,6 @@ case
 margins
 "
 :
-{
 let
 marginSettings
 =
@@ -6434,7 +6431,6 @@ return
 custom
 "
 ;
-}
 case
 "
 defaultMargins
@@ -6833,7 +6829,6 @@ case
 margins
 "
 :
-{
 if
 (
 !
@@ -6951,7 +6946,6 @@ none
 ;
 break
 ;
-}
 case
 "
 paperId
@@ -7309,7 +7303,6 @@ case
 customMarginRight
 "
 :
-{
 let
 customMarginName
 =
@@ -7359,7 +7352,6 @@ value
 ;
 break
 ;
-}
 case
 "
 sourceVersion

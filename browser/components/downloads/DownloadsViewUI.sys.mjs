@@ -7469,7 +7469,6 @@ case
 downloadsCmd_deleteFile
 "
 :
-{
 let
 {
 target
@@ -7501,7 +7500,6 @@ partFileExists
 )
 )
 ;
-}
 case
 "
 downloadsCmd_delete

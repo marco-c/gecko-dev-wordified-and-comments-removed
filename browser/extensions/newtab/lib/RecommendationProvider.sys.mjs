@@ -1808,7 +1808,6 @@ at
 .
 DISCOVERY_STREAM_PERSONALIZATION_TOGGLE
 :
-{
 let
 enabled
 =
@@ -1845,7 +1844,6 @@ enabled
 ;
 break
 ;
-}
 case
 at
 .

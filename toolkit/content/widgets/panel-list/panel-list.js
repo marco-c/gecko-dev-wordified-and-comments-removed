@@ -4109,7 +4109,6 @@ case
 keydown
 "
 :
-{
 let
 [
 arrowOpenKey
@@ -4189,7 +4188,6 @@ stopPropagation
 }
 break
 ;
-}
 }
 }
 }

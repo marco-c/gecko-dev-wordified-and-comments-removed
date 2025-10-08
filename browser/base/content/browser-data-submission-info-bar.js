@@ -414,7 +414,6 @@ policy
 request
 "
 :
-{
 let
 request
 =
@@ -449,7 +448,6 @@ ex
 }
 break
 ;
-}
 case
 "
 datareporting

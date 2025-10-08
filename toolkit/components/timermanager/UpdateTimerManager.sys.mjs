@@ -521,7 +521,6 @@ after
 change
 "
 :
-{
 this
 .
 _timerMinimumDelay
@@ -679,7 +678,6 @@ firstInterval
 ;
 break
 ;
-}
 case
 "
 profile

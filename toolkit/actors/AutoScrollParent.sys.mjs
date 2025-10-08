@@ -296,7 +296,6 @@ Autoscroll
 MaybeStartInParent
 "
 :
-{
 /
 /
 Don
@@ -379,7 +378,6 @@ data
 }
 break
 ;
-}
 case
 "
 Autoscroll

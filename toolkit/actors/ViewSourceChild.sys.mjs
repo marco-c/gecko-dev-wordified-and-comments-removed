@@ -193,7 +193,6 @@ ViewSource
 GetSelection
 "
 :
-{
 let
 selectionDetails
 ;
@@ -222,7 +221,6 @@ e
 return
 selectionDetails
 ;
-}
 }
 return
 undefined

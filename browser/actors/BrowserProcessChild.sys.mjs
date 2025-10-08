@@ -128,7 +128,6 @@ AboutHomeStartupCache
 InputStreams
 "
 :
-{
 let
 {
 pageInputStream
@@ -151,7 +150,6 @@ scriptInputStream
 ;
 break
 ;
-}
 }
 }
 observe

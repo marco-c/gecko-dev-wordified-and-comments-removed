@@ -4220,7 +4220,6 @@ at
 .
 SYSTEM_TICK
 :
-{
 let
 stories
 ;
@@ -4292,7 +4291,6 @@ false
 ;
 break
 ;
-}
 case
 at
 .
