@@ -84,11 +84,6 @@ promise
 js
 "
 "
-thunk
-.
-js
-"
-"
 timing
 .
 js
