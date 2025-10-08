@@ -337,8 +337,6 @@ OneIteration
 (
 GraphTime
 aStateTime
-GraphTime
-aIterationEnd
 MixerCallbackReceiver
 *
 aMixerReceiver
@@ -381,7 +379,6 @@ Some
 IterationState
 (
 aStateTime
-aIterationEnd
 aMixerReceiver
 )
 )
@@ -799,12 +796,6 @@ mIterationState
 -
 >
 StateTime
-(
-)
-mIterationState
--
->
-IterationEnd
 (
 )
 mIterationState

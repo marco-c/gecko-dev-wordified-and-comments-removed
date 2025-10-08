@@ -8457,7 +8457,6 @@ mGraphRunner
 OneIteration
 (
 aStateTime
-aIterationEnd
 aMixerReceiver
 )
 ;
@@ -8466,7 +8465,6 @@ return
 OneIterationImpl
 (
 aStateTime
-aIterationEnd
 aMixerReceiver
 )
 ;
@@ -8479,8 +8477,6 @@ OneIterationImpl
 (
 GraphTime
 aStateTime
-GraphTime
-aIterationEnd
 MixerCallbackReceiver
 *
 aMixerReceiver

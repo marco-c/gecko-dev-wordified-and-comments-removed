@@ -84,8 +84,6 @@ OneIteration
 (
 GraphTime
 aStateTime
-GraphTime
-aIterationEnd
 MixerCallbackReceiver
 *
 aMixerReceiver
@@ -144,9 +142,6 @@ IterationState
 GraphTime
 mStateTime
 ;
-GraphTime
-mIterationEnd
-;
 MixerCallbackReceiver
 *
 MOZ_NON_OWNING_REF
@@ -158,8 +153,6 @@ IterationState
 (
 GraphTime
 aStateTime
-GraphTime
-aIterationEnd
 MixerCallbackReceiver
 *
 aMixerReceiver
@@ -168,10 +161,6 @@ aMixerReceiver
 mStateTime
 (
 aStateTime
-)
-mIterationEnd
-(
-aIterationEnd
 )
 mMixerReceiver
 (
@@ -200,16 +189,6 @@ const
 {
 return
 mStateTime
-;
-}
-GraphTime
-IterationEnd
-(
-)
-const
-{
-return
-mIterationEnd
 ;
 }
 MixerCallbackReceiver

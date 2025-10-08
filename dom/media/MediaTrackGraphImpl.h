@@ -778,8 +778,6 @@ OneIterationImpl
 (
 GraphTime
 aStateTime
-GraphTime
-aIterationEnd
 MixerCallbackReceiver
 *
 aMixerReceiver
@@ -789,12 +787,6 @@ void
 SignalMainThreadCleanup
 (
 )
-;
-GraphTime
-IterationEnd
-(
-)
-const
 ;
 void
 EnsureStableStateEventPosted
