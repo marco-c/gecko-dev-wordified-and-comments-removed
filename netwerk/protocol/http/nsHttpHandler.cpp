@@ -3948,6 +3948,18 @@ aSecure
 bool
 &
 aAsync
+nsHttpChannel
+*
+aChan
+void
+(
+*
+aSuspend
+)
+(
+nsHttpChannel
+*
+)
 const
 std
 :
@@ -4032,6 +4044,8 @@ GetDictionaryFor
 aURI
 aType
 aAsync
+aChan
+aSuspend
 [
 self
 =
