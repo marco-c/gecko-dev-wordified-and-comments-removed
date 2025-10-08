@@ -2930,6 +2930,12 @@ worker
 *
 class
 *
+param
+{
+object
+}
+data
+*
 /
 function
 WorkerError
