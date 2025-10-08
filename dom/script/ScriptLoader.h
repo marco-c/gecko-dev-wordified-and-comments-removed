@@ -1935,15 +1935,6 @@ MaybePrepareForCacheBeforeExecute
 ScriptLoadRequest
 *
 aRequest
-JS
-:
-:
-Handle
-<
-JSScript
-*
->
-aScript
 )
 ;
 nsresult
