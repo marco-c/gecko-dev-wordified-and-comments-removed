@@ -124,7 +124,7 @@ js
 import
 {
 getDefaultLimitsForCTS
-kLimits
+kPossibleLimits
 }
 from
 '
@@ -1880,6 +1880,7 @@ this
 .
 skipIf
 (
+(
 this
 .
 _adapter
@@ -1902,6 +1903,19 @@ this
 limitTestParams
 .
 limitOptional
+)
+|
+|
+getDefaultLimitsForCTS
+(
+)
+[
+limit
+]
+=
+=
+=
+undefined
 {
 limit
 }
@@ -2042,7 +2056,7 @@ limit
 :
 (
 typeof
-kLimits
+kPossibleLimits
 )
 [
 number

@@ -204,7 +204,7 @@ js
 import
 {
 getDefaultLimitsForDevice
-kLimits
+kPossibleLimits
 }
 from
 '
@@ -265,7 +265,7 @@ limit
 const
 kSpecifiedLimits
 =
-kLimits
+kPossibleLimits
 .
 filter
 (
