@@ -860,12 +860,6 @@ can
 be
 rotated
 .
-skip
--
-if
-(
-isolated_process
-)
 random
 -
 if
@@ -897,11 +891,6 @@ bug
 1558285
 for
 geckoview
-bug
-1709923
-for
-isolated
-process
 skip
 -
 if

@@ -1708,12 +1708,6 @@ clamping
 ref
 .
 html
-skip
--
-if
-(
-isolated_process
-)
 test
 -
 pref
@@ -1759,12 +1753,6 @@ video
 1
 .
 html
-#
-Bug
-1709923
-for
-isolated
-process
 test
 -
 pref
