@@ -9883,14 +9883,6 @@ true
 userPrefs
 .
 cfrFeatures
-&
-&
-localeLanguageCode
-=
-=
-'
-en
-'
 "
 trigger
 :
