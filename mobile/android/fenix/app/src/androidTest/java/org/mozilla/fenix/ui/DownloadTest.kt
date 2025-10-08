@@ -2673,8 +2673,11 @@ png
 "
 )
 {
-verifyAndroidShareLayout
+expandAndroidShareLayout
 (
+"
+Gmail
+"
 )
 clickSharingApp
 (
