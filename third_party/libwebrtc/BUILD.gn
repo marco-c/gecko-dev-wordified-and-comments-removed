@@ -3568,11 +3568,6 @@ deps
 [
 "
 api
-:
-frame_transformer_factory
-"
-"
-api
 /
 audio
 :
