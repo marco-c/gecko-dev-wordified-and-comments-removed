@@ -284,7 +284,8 @@ virtual
 ScriptLoadRequest
 (
 )
-;
+{
+}
 public
 :
 using
@@ -1317,16 +1318,6 @@ RefPtr
 LoadedScript
 >
 mLoadedScript
-;
-JS
-:
-:
-Heap
-<
-JSScript
-*
->
-mScriptForCache
 ;
 RefPtr
 <
