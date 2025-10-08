@@ -279,12 +279,8 @@ sPrintfCrashReason
 }
 #
 endif
-[
-[
-noreturn
-]
-]
 MFBT_API
+MOZ_NORETURN
 MOZ_COLD
 void
 mozilla

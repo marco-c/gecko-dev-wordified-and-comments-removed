@@ -6599,11 +6599,7 @@ Wrapper
 {
 }
 ;
-[
-[
-noreturn
-]
-]
+MOZ_HAVE_NORETURN
 MOZ_COLD
 MOZ_NEVER_INLINE
 void
