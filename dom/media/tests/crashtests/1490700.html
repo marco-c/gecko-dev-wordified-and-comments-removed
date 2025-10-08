@@ -75,6 +75,8 @@ notifyUserGestureActivation
 (
 )
 ;
+try
+{
 await
 window
 .
@@ -135,6 +137,9 @@ height
 }
 )
 ;
+}
+finally
+{
 document
 .
 documentElement
@@ -146,6 +151,7 @@ class
 "
 )
 ;
+}
 }
 test
 (
