@@ -378,6 +378,9 @@ newTabSearch
 isPrivate
 =
 false
+engine
+=
+engine
 )
 }
 /
@@ -413,6 +416,9 @@ newPrivateTabSearch
 isPrivate
 =
 true
+engine
+=
+engine
 )
 }
 val
