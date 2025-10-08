@@ -913,9 +913,7 @@ return
 ;
 }
 const
-{
 recipes
-}
 =
 await
 lazy
