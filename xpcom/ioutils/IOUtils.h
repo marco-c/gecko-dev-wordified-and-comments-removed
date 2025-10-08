@@ -1130,6 +1130,8 @@ dom
 WindowsFileAttributes
 &
 aAttrs
+bool
+aRecursive
 ErrorResult
 &
 aError
@@ -1940,6 +1942,8 @@ aSetAttrs
 const
 uint32_t
 aClearAttrs
+bool
+aRecursive
 )
 ;
 #
