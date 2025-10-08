@@ -6338,6 +6338,9 @@ Collapsed
 }
 }
 }
+#
+ifndef
+__MINGW32__
 static
 StaticRefPtr
 <
@@ -7067,6 +7070,8 @@ return
 true
 ;
 }
+#
+endif
 void
 WindowsUIUtils
 :
@@ -7079,6 +7084,9 @@ bool
 aIsCollapsed
 )
 {
+#
+ifndef
+__MINGW32__
 MOZ_ASSERT
 (
 NS_IsMainThread
@@ -7795,4 +7803,6 @@ return
 ;
 }
 }
+#
+endif
 }
