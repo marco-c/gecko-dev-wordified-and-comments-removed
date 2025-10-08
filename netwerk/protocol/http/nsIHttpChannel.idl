@@ -495,7 +495,7 @@ noscript
 ]
 attribute
 DictionaryCacheEntry
-dictionary
+decompressDictionary
 ;
 }
 ;

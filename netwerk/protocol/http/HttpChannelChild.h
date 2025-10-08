@@ -356,7 +356,7 @@ aListener
 override
 ;
 NS_IMETHOD
-GetDictionary
+GetDecompressDictionary
 (
 DictionaryCacheEntry
 *
@@ -375,7 +375,7 @@ NS_OK
 ;
 }
 NS_IMETHOD
-SetDictionary
+SetDecompressDictionary
 (
 DictionaryCacheEntry
 *
