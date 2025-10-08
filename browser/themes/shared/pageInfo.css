@@ -141,6 +141,19 @@ content
 :
 center
 ;
+media
+not
+(
+-
+moz
+-
+mac
+-
+tahoe
+-
+theme
+)
+{
 &
 :
 :
@@ -184,6 +197,7 @@ index
 -
 1
 ;
+}
 }
 }
 }
