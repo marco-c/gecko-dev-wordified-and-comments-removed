@@ -962,6 +962,14 @@ aRequest
 IsTopLevel
 (
 )
+|
+|
+aRequest
+-
+>
+IsDynamicImport
+(
+)
 )
 {
 if
