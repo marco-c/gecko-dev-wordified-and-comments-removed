@@ -51,15 +51,6 @@ include
 "
 mozilla
 /
-EnumSet
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TaskQueue
 .
 h

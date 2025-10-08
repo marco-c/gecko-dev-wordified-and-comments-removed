@@ -170,15 +170,6 @@ include
 "
 mozilla
 /
-EnumSet
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ErrorNames
 .
 h
