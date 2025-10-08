@@ -4035,6 +4035,7 @@ element
 ;
 let
 (
+mut
 result
 next_invalidations
 )
@@ -4126,14 +4127,6 @@ false
 )
 }
 ;
-let
-mut
-invalidated_self
-=
-result
-.
-invalidated_self
-;
 for
 next_invalidation
 in
@@ -4196,6 +4189,8 @@ invalidates_on_pseudo_element
 (
 )
 {
+result
+.
 invalidated_self
 =
 true
@@ -4370,13 +4365,7 @@ next_invalidation
 }
 }
 }
-ProcessInvalidationResult
-{
-invalidated_self
-matched
-:
-true
-}
+result
 }
 }
 pub
