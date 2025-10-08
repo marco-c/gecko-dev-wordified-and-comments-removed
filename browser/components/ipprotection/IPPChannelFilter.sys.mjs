@@ -1240,6 +1240,15 @@ proxied
 channels
 .
 *
+yields
+{
+object
+}
+*
+Proxied
+channels
+.
+*
 /
 async
 *

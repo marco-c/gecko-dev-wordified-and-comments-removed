@@ -245,6 +245,15 @@ GuardianClient
 *
 *
 *
+param
+{
+typeof
+gConfig
+}
+[
+config
+]
+*
 /
 constructor
 (
