@@ -366,7 +366,6 @@ struct
 TabWidthStore
 ;
 class
-MOZ_STACK_CLASS
 PropertyProvider
 final
 :
