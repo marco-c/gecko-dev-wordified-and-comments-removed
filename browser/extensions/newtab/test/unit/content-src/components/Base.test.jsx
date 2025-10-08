@@ -584,6 +584,10 @@ enabled
 :
 false
 }
+spocs
+:
+{
+}
 }
 Weather
 :
