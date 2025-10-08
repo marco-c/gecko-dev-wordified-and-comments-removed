@@ -873,6 +873,12 @@ genericURL
 url
 )
 {
+verifyPageContent
+(
+genericURL
+.
+content
+)
 longClickPageObject
 (
 itemContainingText
