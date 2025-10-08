@@ -9058,6 +9058,10 @@ label
 =
 Manage
 Exceptions
+.
+accesskey
+=
+x
 sitedata
 -
 cookies
