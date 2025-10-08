@@ -180,6 +180,11 @@ shouldDelay
 =
 false
 ;
+var
+shouldWaitSetup
+=
+false
+;
 CrashTestUtils
 .
 enablePHC
