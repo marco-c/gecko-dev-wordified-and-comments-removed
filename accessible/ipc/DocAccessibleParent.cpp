@@ -4470,7 +4470,7 @@ index
 )
 ;
 }
-mRole
+mNativeRole
 =
 aRole
 ;
