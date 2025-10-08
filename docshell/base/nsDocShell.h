@@ -3056,6 +3056,11 @@ GetCurScrollPos
 (
 )
 ;
+void
+RestoreScrollPosFromActiveSHE
+(
+)
+;
 already_AddRefed
 <
 mozilla
