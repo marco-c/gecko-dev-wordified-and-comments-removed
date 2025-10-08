@@ -642,7 +642,7 @@ callCount
 rsSandboxRemoteSettingsGetCallsBeforeSecondACPopup
 "
 FirefoxRelay
-onAllowList
+shouldShowRelay
 should
 only
 call
