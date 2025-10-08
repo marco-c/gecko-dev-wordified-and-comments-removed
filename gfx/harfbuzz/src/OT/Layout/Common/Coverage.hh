@@ -1864,9 +1864,6 @@ const
 {
 iter_t
 it
-=
-{
-}
 ;
 it
 .
