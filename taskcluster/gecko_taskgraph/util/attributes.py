@@ -1,5 +1,13 @@
 import
 re
+from
+taskgraph
+.
+util
+.
+attributes
+import
+_match_run_on
 INTEGRATION_PROJECTS
 =
 {
@@ -27,6 +35,10 @@ central
 RELEASE_PROJECTS
 =
 {
+    
+"
+firefox
+"
     
 "
 mozilla
@@ -158,6 +170,12 @@ oak
 TRY_PROJECTS
 =
 {
+    
+"
+staging
+-
+firefox
+"
     
 "
 try
@@ -593,6 +611,9 @@ True
     
 return
 False
+match_run_on_repo_type
+=
+_match_run_on
 def
 copy_attributes_from_dependent_job
 (
