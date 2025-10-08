@@ -283,13 +283,14 @@ browser_pdfjs_highlight_telemetry
 js
 "
 ]
-skip
+run
 -
 if
 =
 [
 "
-true
+!
+headless
 "
 ]
 [
