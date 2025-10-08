@@ -223,7 +223,9 @@ http
 -
 on
 -
-stop
+failed
+-
+opening
 -
 request
 "
@@ -233,7 +235,7 @@ Services
 .
 obs
 .
-addObserver
+removeObserver
 (
 this
 "
@@ -241,9 +243,7 @@ http
 -
 on
 -
-failed
--
-opening
+stop
 -
 request
 "
