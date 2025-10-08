@@ -756,6 +756,9 @@ action
 .
 title
 )
+edited
+=
+true
 )
 }
 )
@@ -794,6 +797,9 @@ action
 .
 url
 )
+edited
+=
+true
 )
 }
 )
@@ -1508,6 +1514,9 @@ folder
 folder
 .
 folder
+edited
+=
+true
 )
 )
 }

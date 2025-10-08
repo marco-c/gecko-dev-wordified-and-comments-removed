@@ -1628,6 +1628,15 @@ EditBookmarkFailed
 }
 else
 {
+if
+(
+preReductionState
+.
+bookmarksEditBookmarkState
+.
+edited
+)
+{
 lastSavedFolderCache
 .
 setGuid
@@ -1636,6 +1645,7 @@ it
 .
 parentGuid
 )
+}
 }
 }
 context

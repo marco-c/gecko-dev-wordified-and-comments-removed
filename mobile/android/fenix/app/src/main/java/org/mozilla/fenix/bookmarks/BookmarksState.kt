@@ -1374,6 +1374,12 @@ folder
 BookmarkItem
 .
 Folder
+val
+edited
+:
+Boolean
+=
+false
 )
 internal
 data
