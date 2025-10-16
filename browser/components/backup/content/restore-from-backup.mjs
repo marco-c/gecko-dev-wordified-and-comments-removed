@@ -1429,7 +1429,7 @@ support
 page
 =
 "
-todo
+firefox
 -
 backup
 "
@@ -1954,7 +1954,7 @@ support
 page
 =
 "
-todo
+firefox
 -
 backup
 "
@@ -2533,7 +2533,7 @@ support
 page
 =
 "
-todo
+firefox
 -
 backup
 "
