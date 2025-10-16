@@ -24710,8 +24710,8 @@ name
 tab_tray_homepage_tab_2
 "
 >
-tudalen
-hafan
+Tudalen
+cartref
 %
 s
 <
@@ -28572,7 +28572,7 @@ name
 webcompat_reporter_etp_checkbox_text
 "
 >
-Anfonwch
+Anfon
 URLau
 wedi
 \
@@ -28580,8 +28580,9 @@ wedi
 u
 rhwystro
 gan
-amddiffyniad
-olrhain
+ddiogelwch
+rhag
+tracio
 <
 /
 string
@@ -28650,13 +28651,12 @@ webcompat_reporter_etp_checkbox_description
 Gall
 Diogelwch
 Tracio
-Gwell
+Uwch
 rwystro
 tracwyr
 a
 sgriptiau
-y
-mae
+sydd
 eu
 hangen
 ar
