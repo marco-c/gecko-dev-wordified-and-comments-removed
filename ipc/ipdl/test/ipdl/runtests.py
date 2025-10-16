@@ -1,4 +1,6 @@
 import
+glob
+import
 os
 import
 unittest
@@ -641,6 +643,17 @@ I
 errordir
 ]
             
+for
+test
+in
+glob
+.
+glob
+(
+arg
+)
+:
+                
 errorsuite
 .
 addTest
@@ -650,7 +663,7 @@ ErrorTestCase
 ipdlargv
 +
 errorIncludes
-arg
+test
 )
 )
         
@@ -660,7 +673,11 @@ oktests
             
 if
 "
-ERRORTESTS
+-
+-
+error
+-
+tests
 "
 =
 =
@@ -673,6 +690,17 @@ True
                 
 continue
             
+for
+test
+in
+glob
+.
+glob
+(
+arg
+)
+:
+                
 oksuite
 .
 addTest
@@ -688,7 +716,7 @@ I
 "
 okdir
 ]
-arg
+test
 )
 )
         
@@ -697,7 +725,11 @@ else
             
 if
 "
-OKTESTS
+-
+-
+ok
+-
+tests
 "
 =
 =
