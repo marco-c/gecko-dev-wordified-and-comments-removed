@@ -8536,9 +8536,13 @@ animation
 >
 UpdateDestination
 (
-aEvent
+GetFrameTime
+(
+)
 .
-mTimeStamp
+Time
+(
+)
 CSSPixel
 :
 :
