@@ -239,7 +239,6 @@ OneIteration
 (
 GraphTime
 aStateComputedTime
-GraphTime
 MixerCallbackReceiver
 *
 aMixerReceiver
