@@ -67,6 +67,13 @@ js
 ]
 [
 "
+test_IPPExceptionsManager_inclusions
+.
+js
+"
+]
+[
+"
 test_IPPStartupCache
 .
 js
