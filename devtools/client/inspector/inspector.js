@@ -5560,9 +5560,6 @@ ToolSidebar
 (
 sidebar
 this
-"
-inspector
-"
 options
 )
 ;
@@ -5607,9 +5604,6 @@ ToolSidebar
 (
 ruleSideBar
 this
-"
-inspector
-"
 {
 hideTabstripe
 :

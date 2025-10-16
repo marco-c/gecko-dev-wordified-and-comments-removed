@@ -5779,7 +5779,6 @@ xul
 :
 tabbox
 ToolPanel
-uid
 showTabstripe
 =
 true
@@ -6286,9 +6285,6 @@ ToolSidebar
 (
 xulTabbox
 toolPanel
-"
-toolId
-"
 )
 ;
 sidebar
