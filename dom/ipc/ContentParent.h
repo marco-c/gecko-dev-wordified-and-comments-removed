@@ -7168,10 +7168,6 @@ static
 uint32_t
 sMaxContentProcesses
 ;
-static
-uint32_t
-sPageLoadEventCounter
-;
 bool
 mIsSignaledImpendingShutdown
 =
