@@ -170,6 +170,14 @@ panel
 -
 animations
 "
+"
+-
+moz
+-
+native
+-
+theme
+"
 ]
 ;
 const
