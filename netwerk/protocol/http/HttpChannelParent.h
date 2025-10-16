@@ -1088,6 +1088,14 @@ NeedFlowControl
 (
 )
 ;
+nsCOMPtr
+<
+nsISerialEventTarget
+>
+GetEventTargetForBgParentWait
+(
+)
+;
 bool
 IsRedirectDueToAuthRetry
 (
