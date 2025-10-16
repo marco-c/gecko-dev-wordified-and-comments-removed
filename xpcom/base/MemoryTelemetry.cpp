@@ -2278,10 +2278,9 @@ Length
 {
 int32_t
 tabsCount
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-tabsCount
 GetOpenTabsCount
 (
 )

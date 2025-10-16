@@ -1316,9 +1316,10 @@ minutes
 0
 )
 {
-MOZ_TRY_VAR
-(
 mTimer
+=
+MOZ_TRY
+(
 NS_NewTimerWithCallback
 (
 this

@@ -51431,10 +51431,9 @@ result
 }
 bool
 atLineEdge
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-atLineEdge
 needsVisualTraversal
 ?
 traversedFrame

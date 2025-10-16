@@ -6152,10 +6152,9 @@ aHostname
 ;
 VerifyUsage
 vu
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-vu
 MapX509UsageToVerifierUsage
 (
 aUsage

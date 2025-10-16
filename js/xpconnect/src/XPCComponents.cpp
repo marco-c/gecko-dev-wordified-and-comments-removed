@@ -10673,9 +10673,10 @@ aFile
 NS_ERROR_INVALID_ARG
 )
 ;
-MOZ_TRY_VAR
-(
 aResult
+=
+MOZ_TRY
+(
 URLPreloader
 :
 :
@@ -10709,9 +10710,10 @@ aURI
 NS_ERROR_INVALID_ARG
 )
 ;
-MOZ_TRY_VAR
-(
 aResult
+=
+MOZ_TRY
+(
 URLPreloader
 :
 :

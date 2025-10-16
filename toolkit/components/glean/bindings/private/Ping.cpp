@@ -843,10 +843,9 @@ dom
 Promise
 >
 thenPromise
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-thenPromise
 submitPromise
 -
 >

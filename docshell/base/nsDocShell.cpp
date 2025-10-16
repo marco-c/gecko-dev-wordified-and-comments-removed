@@ -23916,10 +23916,9 @@ nsCOMPtr
 nsITimer
 >
 timer
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-timer
 NS_NewTimerWithCallback
 (
 refreshTimer

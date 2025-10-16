@@ -520,10 +520,9 @@ std
 :
 string
 narrowData
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-narrowData
 Utf16ToUtf8
 (
 wideData
@@ -623,10 +622,9 @@ std
 :
 wstring
 wideValue
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-wideValue
 Utf8ToUtf16
 (
 newValue

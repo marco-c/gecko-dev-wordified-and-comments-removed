@@ -860,9 +860,10 @@ false
 )
 ;
 }
-MOZ_TRY_VAR
-(
 mConnectTimeoutTimer
+=
+MOZ_TRY
+(
 NS_NewTimerWithCallback
 (
 this
@@ -880,9 +881,10 @@ TYPE_ONE_SHOT
 )
 )
 ;
-MOZ_TRY_VAR
-(
 mReadTimeoutTimer
+=
+MOZ_TRY
+(
 NS_NewTimerWithCallback
 (
 this

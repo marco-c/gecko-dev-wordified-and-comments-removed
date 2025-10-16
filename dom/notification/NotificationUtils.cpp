@@ -2386,10 +2386,9 @@ actionEntries
 {
 IPCNotificationAction
 action
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-action
 NotificationActionStorageEntry
 :
 :

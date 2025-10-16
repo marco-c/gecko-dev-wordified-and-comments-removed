@@ -512,9 +512,10 @@ Init
 (
 )
 {
-MOZ_TRY_VAR
-(
 mTimer
+=
+MOZ_TRY
+(
 NS_NewTimerWithObserver
 (
 this

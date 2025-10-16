@@ -372,10 +372,9 @@ list
 ListNode
 *
 list
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-list
 handler
 -
 >

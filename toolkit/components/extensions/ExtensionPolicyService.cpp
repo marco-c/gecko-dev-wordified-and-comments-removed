@@ -1428,10 +1428,9 @@ ReplaceSubstring
 ;
 nsString
 url
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-url
 ext
 -
 >

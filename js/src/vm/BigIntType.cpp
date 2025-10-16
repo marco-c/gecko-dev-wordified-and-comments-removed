@@ -19374,10 +19374,9 @@ rhs
 BigInt
 *
 rhsBigInt
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-rhsBigInt
 StringToBigInt
 (
 cx

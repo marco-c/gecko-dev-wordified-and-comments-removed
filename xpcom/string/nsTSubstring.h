@@ -332,9 +332,10 @@ MOZ_ASSERT
 mString
 )
 ;
-MOZ_TRY_VAR
-(
 mCapacity
+=
+MOZ_TRY
+(
 mString
 -
 >

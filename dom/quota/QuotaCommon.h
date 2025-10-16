@@ -4183,10 +4183,9 @@ true
 {
 StepResultType
 element
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-element
 aStep
 (
 )
@@ -4322,9 +4321,10 @@ InputGenerator
 err_type
 >
 {
-MOZ_TRY_VAR
-(
 res
+=
+MOZ_TRY
+(
 aBinaryOp
 (
 std
