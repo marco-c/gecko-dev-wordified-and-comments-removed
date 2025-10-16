@@ -2237,17 +2237,6 @@ child
 "
 )
 ;
-nsContainerFrame
-:
-:
-ReparentFrameViewList
-(
-*
-overflow
-prevCanvasFrame
-this
-)
-;
 mFrames
 .
 InsertFrames

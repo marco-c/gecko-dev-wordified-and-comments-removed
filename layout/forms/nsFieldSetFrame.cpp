@@ -1883,17 +1883,6 @@ if
 prevOverflowFrames
 )
 {
-nsContainerFrame
-:
-:
-ReparentFrameViewList
-(
-*
-prevOverflowFrames
-prevInFlow
-this
-)
-;
 mFrames
 .
 InsertFrames

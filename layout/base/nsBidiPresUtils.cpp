@@ -3033,16 +3033,6 @@ StealFramesAfter
 frame
 )
 ;
-nsContainerFrame
-:
-:
-ReparentFrameViewList
-(
-tail
-parent
-newParent
-)
-;
 MOZ_ASSERT
 (
 !

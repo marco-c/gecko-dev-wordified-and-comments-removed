@@ -2302,17 +2302,6 @@ list
 "
 )
 ;
-nsContainerFrame
-:
-:
-ReparentFrameViewList
-(
-*
-overflowFrames
-prevInFlow
-this
-)
-;
 mFrames
 .
 InsertFrames

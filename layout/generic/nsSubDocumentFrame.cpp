@@ -1187,12 +1187,6 @@ insertBefore
 nullptr
 )
 ;
-ReparentFrameViewTo
-(
-viewManager
-view
-)
-;
 SetView
 (
 view
