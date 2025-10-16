@@ -4449,9 +4449,8 @@ aUsesIndependentSelection
 frame
 -
 >
-HasAnyStateBits
+IsInsideTextControl
 (
-NS_FRAME_INDEPENDENT_SELECTION
 )
 ;
 }
