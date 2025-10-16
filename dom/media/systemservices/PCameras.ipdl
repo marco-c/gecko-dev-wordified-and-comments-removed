@@ -330,7 +330,9 @@ async
 CaptureEnded
 (
 int
-streamId
+[
+]
+streamIds
 )
 ;
 /
@@ -349,7 +351,9 @@ async
 DeliverFrame
 (
 int
-streamId
+[
+]
+streamIds
 Shmem
 buffer
 VideoFrameProperties

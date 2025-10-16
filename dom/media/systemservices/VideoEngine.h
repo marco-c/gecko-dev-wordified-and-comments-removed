@@ -131,6 +131,11 @@ SetAndroidObjects
 #
 endif
 int32_t
+GenerateId
+(
+)
+;
+int32_t
 CreateVideoCapture
 (
 const
@@ -427,11 +432,6 @@ Timestamp
 Micros
 (
 0
-)
-;
-int32_t
-GenerateId
-(
 )
 ;
 }
