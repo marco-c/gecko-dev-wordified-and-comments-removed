@@ -12125,14 +12125,6 @@ showPane
 "
 true
 )
-&
-&
-!
-AddonManager
-.
-shouldShowBlocklistAttention
-(
-)
 )
 {
 viewID
