@@ -291,7 +291,7 @@ worker
 :
 phase
 :
-promote_android
+ship_android
 treeherder
 :
 platform
