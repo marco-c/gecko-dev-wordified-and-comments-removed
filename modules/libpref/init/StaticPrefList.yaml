@@ -88936,7 +88936,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_EARLY_BETA_OR_EARLIER
+false
 mirror
 :
 always
