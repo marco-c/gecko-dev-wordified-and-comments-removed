@@ -28,13 +28,6 @@ exclude
 :
 [
 "
-UrlbarController
-.
-sys
-.
-mjs
-"
-"
 UrlbarEventBufferer
 .
 sys
