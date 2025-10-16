@@ -274,7 +274,7 @@ tests
 .
 tar
 .
-gz
+zst
 -
 artifact
 :
@@ -447,7 +447,7 @@ tests
 .
 tar
 .
-gz
+zst
 -
 artifact
 :
@@ -643,7 +643,7 @@ tests
 .
 tar
 .
-gz
+zst
 -
 artifact
 :

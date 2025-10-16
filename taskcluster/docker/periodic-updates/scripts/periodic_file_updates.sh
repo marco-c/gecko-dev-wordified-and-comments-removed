@@ -919,7 +919,7 @@ tests
 .
 tar
 .
-gz
+zst
 "
 UNPACK_CMD
 =
