@@ -5174,6 +5174,12 @@ javascript_options_gc_delay
 )
 ;
 }
+IgnoreOpensDuringUnload
+ignoreOpens
+(
+mDocument
+)
+;
 mDocument
 -
 >
@@ -5260,12 +5266,6 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-IgnoreOpensDuringUnload
-ignoreOpens
-(
-mDocument
-)
-;
 nsEventStatus
 status
 =
