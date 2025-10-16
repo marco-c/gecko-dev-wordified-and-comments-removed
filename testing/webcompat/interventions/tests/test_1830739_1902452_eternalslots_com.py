@@ -81,7 +81,7 @@ URL
     
 client
 .
-click
+soft_click
 (
 client
 .

@@ -21,9 +21,10 @@ red
 UNSUPPORTED_TEXT
 =
 "
-Partially
-supported
 browser
+is
+partially
+supported
 "
 pytest
 .
