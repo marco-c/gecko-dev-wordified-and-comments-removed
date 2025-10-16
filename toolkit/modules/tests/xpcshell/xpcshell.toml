@@ -654,13 +654,6 @@ js
 ]
 [
 "
-test_RustSharedRemoteSettingsService
-.
-js
-"
-]
-[
-"
 test_Services
 .
 js
