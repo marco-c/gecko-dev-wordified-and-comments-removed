@@ -499,17 +499,6 @@ setOf
 (
 MimeType
 .
-Image
-(
-)
-MimeType
-.
-Audio
-MimeType
-.
-Video
-MimeType
-.
 Wildcard
 )
 )
