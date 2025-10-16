@@ -403,7 +403,6 @@ event_source
 fetchTimestamp
 firstVisibleTimestamp
 format
-is_list_card
 is_section_followed
 received_rank
 recommendation_id
@@ -429,7 +428,6 @@ event_source
 fetchTimestamp
 firstVisibleTimestamp
 format
-is_list_card
 received_rank
 recommendation_id
 recommended_at
