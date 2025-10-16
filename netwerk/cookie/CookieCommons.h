@@ -657,7 +657,7 @@ b
 ;
 static
 int64_t
-GetCurrentTimeFromChannel
+GetCurrentTimeInUSecFromChannel
 (
 nsIChannel
 *

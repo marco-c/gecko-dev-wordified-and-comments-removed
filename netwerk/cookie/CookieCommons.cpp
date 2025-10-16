@@ -1746,8 +1746,6 @@ on3pcbException
 PR_Now
 (
 )
-/
-PR_USEC_PER_MSEC
 )
 ;
 if
@@ -4609,7 +4607,7 @@ int64_t
 CookieCommons
 :
 :
-GetCurrentTimeFromChannel
+GetCurrentTimeInUSecFromChannel
 (
 nsIChannel
 *
@@ -4662,8 +4660,6 @@ currentTimeInUSec
 {
 return
 currentTimeInUSec
-/
-PR_USEC_PER_MSEC
 ;
 }
 }
@@ -4671,8 +4667,6 @@ return
 PR_Now
 (
 )
-/
-PR_USEC_PER_MSEC
 ;
 }
 }

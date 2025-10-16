@@ -2685,7 +2685,7 @@ GetIsOn3PCBExceptionList
 CookieCommons
 :
 :
-GetCurrentTimeFromChannel
+GetCurrentTimeInUSecFromChannel
 (
 aChannel
 )

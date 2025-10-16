@@ -259,8 +259,6 @@ const
 nsACString
 &
 aMaxage
-int64_t
-aCurrentTime
 const
 nsACString
 &

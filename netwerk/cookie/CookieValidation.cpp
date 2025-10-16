@@ -524,7 +524,9 @@ network_cookie_maxageCap
 int64_t
 currentTimeInMSec
 =
-PR_Now
+mCookieData
+.
+creationTime
 (
 )
 /
