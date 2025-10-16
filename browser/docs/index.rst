@@ -163,6 +163,9 @@ index
 search
 /
 index
+ipprotection
+/
+index
 base
 /
 tabbrowser
