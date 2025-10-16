@@ -5206,6 +5206,24 @@ line
                 
 )
                 
+line
+=
+re
+.
+sub
+(
+r
+"
+fatal
+error
+"
+r
+"
+error
+"
+line
+)
+                
 self
 .
 log_line
