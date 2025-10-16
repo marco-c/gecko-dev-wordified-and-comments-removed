@@ -862,6 +862,12 @@ ScreenInformationChanged
 )
 ;
 bool
+IsGPUReady
+(
+)
+const
+;
+bool
 CreateContentCompositorManager
 (
 mozilla
@@ -1187,7 +1193,7 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-already_AddRefed
+RefPtr
 <
 UiCompositorControllerChild
 >
