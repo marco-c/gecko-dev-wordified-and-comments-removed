@@ -469,7 +469,7 @@ aEntry
 override
 ;
 void
-DispatchBufferFullEvent
+DispatchResourceTimingBufferFullEvent
 (
 )
 override
