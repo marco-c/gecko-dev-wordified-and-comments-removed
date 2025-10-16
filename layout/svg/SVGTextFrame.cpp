@@ -13108,6 +13108,13 @@ UpdateGlyphPositioning
 (
 )
 ;
+RefPtr
+<
+nsIContent
+>
+content
+;
+{
 CharIterator
 chit
 (
@@ -13169,11 +13176,6 @@ TextElementCharIndex
 (
 )
 ;
-const
-RefPtr
-<
-nsIContent
->
 content
 =
 chit
@@ -13204,6 +13206,7 @@ TextElementCharIndex
 -
 charnum
 ;
+}
 RefPtr
 <
 nsFrameSelection
