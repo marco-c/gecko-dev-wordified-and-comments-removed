@@ -9,15 +9,6 @@ include
 "
 mozilla
 /
-MoveOnlyFunction
-.
-h
-"
-#
-include
-"
-mozilla
-/
 OriginAttributes
 .
 h
