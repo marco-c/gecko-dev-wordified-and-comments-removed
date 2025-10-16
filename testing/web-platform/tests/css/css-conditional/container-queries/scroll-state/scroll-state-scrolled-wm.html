@@ -12,9 +12,7 @@ scroll
 -
 state
 (
-scroll
--
-state
+scrollable
 )
 matching
 for
@@ -51,7 +49,7 @@ conditional
 5
 /
 #
-direction
+scrolled
 "
 >
 <
@@ -144,7 +142,7 @@ script
 style
 >
 .
-direction
+scrolled
 {
 container
 -
@@ -187,7 +185,7 @@ scroll
 -
 state
 (
-direction
+scrolled
 :
 block
 -
@@ -207,7 +205,7 @@ scroll
 -
 state
 (
-direction
+scrolled
 :
 block
 -
@@ -227,7 +225,7 @@ scroll
 -
 state
 (
-direction
+scrolled
 :
 inline
 -
@@ -247,7 +245,7 @@ scroll
 -
 state
 (
-direction
+scrolled
 :
 inline
 -
@@ -267,7 +265,7 @@ scroll
 -
 state
 (
-direction
+scrolled
 :
 top
 )
@@ -283,7 +281,7 @@ scroll
 -
 state
 (
-direction
+scrolled
 :
 left
 )
@@ -299,7 +297,7 @@ scroll
 -
 state
 (
-direction
+scrolled
 :
 bottom
 )
@@ -315,7 +313,7 @@ scroll
 -
 state
 (
-direction
+scrolled
 :
 right
 )
@@ -388,7 +386,7 @@ div
 class
 =
 "
-direction
+scrolled
 h
 htb
 ltr
@@ -427,7 +425,7 @@ div
 class
 =
 "
-direction
+scrolled
 h
 htb
 rtl
@@ -466,7 +464,7 @@ div
 class
 =
 "
-direction
+scrolled
 h
 vlr
 ltr
@@ -505,7 +503,7 @@ div
 class
 =
 "
-direction
+scrolled
 h
 vlr
 rtl
@@ -544,7 +542,7 @@ div
 class
 =
 "
-direction
+scrolled
 h
 vrl
 ltr
@@ -583,7 +581,7 @@ div
 class
 =
 "
-direction
+scrolled
 h
 vrl
 rtl
@@ -622,7 +620,7 @@ div
 class
 =
 "
-direction
+scrolled
 v
 htb
 ltr
@@ -661,7 +659,7 @@ div
 class
 =
 "
-direction
+scrolled
 v
 htb
 rtl
@@ -700,7 +698,7 @@ div
 class
 =
 "
-direction
+scrolled
 v
 vlr
 ltr
@@ -739,7 +737,7 @@ div
 class
 =
 "
-direction
+scrolled
 v
 vlr
 rtl
@@ -778,7 +776,7 @@ div
 class
 =
 "
-direction
+scrolled
 v
 vrl
 ltr
@@ -817,7 +815,7 @@ div
 class
 =
 "
-direction
+scrolled
 v
 vrl
 rtl
@@ -866,7 +864,7 @@ assert_implements_scroll_state_container_queries
 )
 ;
 function
-match_scroll_direction
+match_scroll_scrolled
 (
 container_selector
 expected_matches
@@ -995,7 +993,7 @@ querySelector
 (
 "
 .
-direction
+scrolled
 .
 h
 .
@@ -1019,11 +1017,11 @@ waitForAnimationFrames
 2
 )
 ;
-match_scroll_direction
+match_scroll_scrolled
 (
 "
 .
-direction
+scrolled
 .
 h
 .
@@ -1057,7 +1055,7 @@ scroll
 -
 state
 (
-direction
+scrolled
 )
 horizontal
 scrollbar
@@ -1085,7 +1083,7 @@ querySelector
 (
 "
 .
-direction
+scrolled
 .
 h
 .
@@ -1110,11 +1108,11 @@ waitForAnimationFrames
 2
 )
 ;
-match_scroll_direction
+match_scroll_scrolled
 (
 "
 .
-direction
+scrolled
 .
 h
 .
@@ -1148,7 +1146,7 @@ scroll
 -
 state
 (
-direction
+scrolled
 )
 horizontal
 scrollbar
@@ -1176,7 +1174,7 @@ querySelector
 (
 "
 .
-direction
+scrolled
 .
 h
 .
@@ -1200,11 +1198,11 @@ waitForAnimationFrames
 2
 )
 ;
-match_scroll_direction
+match_scroll_scrolled
 (
 "
 .
-direction
+scrolled
 .
 h
 .
@@ -1238,7 +1236,7 @@ scroll
 -
 state
 (
-direction
+scrolled
 )
 horizontal
 scrollbar
@@ -1266,7 +1264,7 @@ querySelector
 (
 "
 .
-direction
+scrolled
 .
 h
 .
@@ -1290,11 +1288,11 @@ waitForAnimationFrames
 2
 )
 ;
-match_scroll_direction
+match_scroll_scrolled
 (
 "
 .
-direction
+scrolled
 .
 h
 .
@@ -1328,7 +1326,7 @@ scroll
 -
 state
 (
-direction
+scrolled
 )
 horizontal
 scrollbar
@@ -1356,7 +1354,7 @@ querySelector
 (
 "
 .
-direction
+scrolled
 .
 h
 .
@@ -1381,11 +1379,11 @@ waitForAnimationFrames
 2
 )
 ;
-match_scroll_direction
+match_scroll_scrolled
 (
 "
 .
-direction
+scrolled
 .
 h
 .
@@ -1419,7 +1417,7 @@ scroll
 -
 state
 (
-direction
+scrolled
 )
 horizontal
 scrollbar
@@ -1447,7 +1445,7 @@ querySelector
 (
 "
 .
-direction
+scrolled
 .
 h
 .
@@ -1472,11 +1470,11 @@ waitForAnimationFrames
 2
 )
 ;
-match_scroll_direction
+match_scroll_scrolled
 (
 "
 .
-direction
+scrolled
 .
 h
 .
@@ -1510,7 +1508,7 @@ scroll
 -
 state
 (
-direction
+scrolled
 )
 horizontal
 scrollbar
@@ -1538,7 +1536,7 @@ querySelector
 (
 "
 .
-direction
+scrolled
 .
 v
 .
@@ -1562,11 +1560,11 @@ waitForAnimationFrames
 2
 )
 ;
-match_scroll_direction
+match_scroll_scrolled
 (
 "
 .
-direction
+scrolled
 .
 v
 .
@@ -1600,7 +1598,7 @@ scroll
 -
 state
 (
-direction
+scrolled
 )
 vertical
 scrollbar
@@ -1628,7 +1626,7 @@ querySelector
 (
 "
 .
-direction
+scrolled
 .
 v
 .
@@ -1652,11 +1650,11 @@ waitForAnimationFrames
 2
 )
 ;
-match_scroll_direction
+match_scroll_scrolled
 (
 "
 .
-direction
+scrolled
 .
 v
 .
@@ -1690,7 +1688,7 @@ scroll
 -
 state
 (
-direction
+scrolled
 )
 vertical
 scrollbar
@@ -1718,7 +1716,7 @@ querySelector
 (
 "
 .
-direction
+scrolled
 .
 v
 .
@@ -1742,11 +1740,11 @@ waitForAnimationFrames
 2
 )
 ;
-match_scroll_direction
+match_scroll_scrolled
 (
 "
 .
-direction
+scrolled
 .
 v
 .
@@ -1780,7 +1778,7 @@ scroll
 -
 state
 (
-direction
+scrolled
 )
 vertical
 scrollbar
@@ -1808,7 +1806,7 @@ querySelector
 (
 "
 .
-direction
+scrolled
 .
 v
 .
@@ -1833,11 +1831,11 @@ waitForAnimationFrames
 2
 )
 ;
-match_scroll_direction
+match_scroll_scrolled
 (
 "
 .
-direction
+scrolled
 .
 v
 .
@@ -1871,7 +1869,7 @@ scroll
 -
 state
 (
-direction
+scrolled
 )
 vertical
 scrollbar
@@ -1899,7 +1897,7 @@ querySelector
 (
 "
 .
-direction
+scrolled
 .
 v
 .
@@ -1923,11 +1921,11 @@ waitForAnimationFrames
 2
 )
 ;
-match_scroll_direction
+match_scroll_scrolled
 (
 "
 .
-direction
+scrolled
 .
 v
 .
@@ -1961,7 +1959,7 @@ scroll
 -
 state
 (
-direction
+scrolled
 )
 vertical
 scrollbar
@@ -1989,7 +1987,7 @@ querySelector
 (
 "
 .
-direction
+scrolled
 .
 v
 .
@@ -2014,11 +2012,11 @@ waitForAnimationFrames
 2
 )
 ;
-match_scroll_direction
+match_scroll_scrolled
 (
 "
 .
-direction
+scrolled
 .
 v
 .
@@ -2052,7 +2050,7 @@ scroll
 -
 state
 (
-direction
+scrolled
 )
 vertical
 scrollbar
