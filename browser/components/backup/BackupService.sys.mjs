@@ -903,7 +903,7 @@ brand
 ftl
 "
 "
-browser
+preview
 /
 backupSettings
 .
@@ -941,7 +941,7 @@ brand
 ftl
 "
 "
-browser
+preview
 /
 backupSettings
 .
