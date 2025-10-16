@@ -904,6 +904,13 @@ h
 #
 include
 "
+nsMenuPopupFrame
+.
+h
+"
+#
+include
+"
 nsObjectLoadingContent
 .
 h

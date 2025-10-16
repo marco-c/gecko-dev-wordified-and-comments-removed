@@ -782,8 +782,6 @@ nsMenuPopupFrame
 MenuPopup
 "
 BLOCK
-|
-MAY_HAVE_VIEW
 )
     
 Frame

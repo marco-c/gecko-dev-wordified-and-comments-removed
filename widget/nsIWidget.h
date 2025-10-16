@@ -1711,17 +1711,6 @@ GetDesktopToDeviceScale
 0
 ;
 virtual
-mozilla
-:
-:
-DesktopToLayoutDeviceScale
-GetDesktopToDeviceScaleByScreen
-(
-)
-=
-0
-;
-virtual
 void
 DynamicToolbarOffsetChanged
 (

@@ -1843,7 +1843,7 @@ OnlyReturnFramesWithWidgets
 }
 ;
 static
-nsIFrame
+nsMenuPopupFrame
 *
 GetPopupFrameForPoint
 (

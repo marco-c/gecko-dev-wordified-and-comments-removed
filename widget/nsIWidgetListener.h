@@ -63,6 +63,9 @@ nsIWidget
 class
 nsIAppWindow
 ;
+class
+nsMenuPopupFrame
+;
 namespace
 mozilla
 {
@@ -112,6 +115,17 @@ virtual
 nsView
 *
 GetView
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+nsMenuPopupFrame
+*
+GetAsMenuPopupFrame
 (
 )
 {
