@@ -325,6 +325,26 @@ challenge
 early_challenge
         
 if
+test_session_manager
+.
+get_registration_sends_challenge_with_instructions
+(
+)
+:
+            
+test_session_manager
+.
+reset_registration_sends_challenge_with_instructions
+(
+)
+            
+challenge
+=
+"
+login_challenge_value
+"
+        
+if
 not
 verified
 or

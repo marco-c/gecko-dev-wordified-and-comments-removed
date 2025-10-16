@@ -238,7 +238,13 @@ None
         
 self
 .
-registration_sends_challenge
+registration_sends_challenge_before_instructions
+=
+False
+        
+self
+.
+registration_sends_challenge_with_instructions
 =
 False
         
@@ -551,19 +557,19 @@ scope_origin
 =
 scope_origin
         
-registration_sends_challenge
+registration_sends_challenge_before_instructions
 =
 configuration
 .
 get
 (
 "
-registrationSendsChallenge
+registrationSendsChallengeBeforeInstructions
 "
 )
         
 if
-registration_sends_challenge
+registration_sends_challenge_before_instructions
 is
 not
 None
@@ -571,9 +577,33 @@ None
             
 self
 .
-registration_sends_challenge
+registration_sends_challenge_before_instructions
 =
-registration_sends_challenge
+registration_sends_challenge_before_instructions
+        
+registration_sends_challenge_with_instructions
+=
+configuration
+.
+get
+(
+"
+registrationSendsChallengeWithInstructions
+"
+)
+        
+if
+registration_sends_challenge_with_instructions
+is
+not
+None
+:
+            
+self
+.
+registration_sends_challenge_with_instructions
+=
+registration_sends_challenge_with_instructions
         
 cookie_details
 =
@@ -1094,7 +1124,7 @@ self
 authorization_value
     
 def
-get_registration_sends_challenge
+get_registration_sends_challenge_before_instructions
 (
 self
 )
@@ -1103,10 +1133,10 @@ self
 return
 self
 .
-registration_sends_challenge
+registration_sends_challenge_before_instructions
     
 def
-reset_registration_sends_challenge
+reset_registration_sends_challenge_before_instructions
 (
 self
 )
@@ -1114,7 +1144,32 @@ self
         
 self
 .
-registration_sends_challenge
+registration_sends_challenge_before_instructions
+=
+False
+    
+def
+get_registration_sends_challenge_with_instructions
+(
+self
+)
+:
+        
+return
+self
+.
+registration_sends_challenge_with_instructions
+    
+def
+reset_registration_sends_challenge_with_instructions
+(
+self
+)
+:
+        
+self
+.
+registration_sends_challenge_with_instructions
 =
 False
     
