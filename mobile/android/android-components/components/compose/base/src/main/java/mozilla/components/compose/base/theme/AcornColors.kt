@@ -4195,7 +4195,7 @@ inverseSurface
 =
 PhotonColors
 .
-LightGrey10
+LightGrey40
 errorContainer
 =
 PhotonColors
@@ -4304,7 +4304,7 @@ inverseSurface
 =
 PhotonColors
 .
-DarkGrey60
+DarkGrey05
 errorContainer
 =
 PhotonColors
@@ -4414,7 +4414,7 @@ inverseSurface
 =
 PhotonColors
 .
-LightGrey10
+LightGrey40
 errorContainer
 =
 PhotonColors
