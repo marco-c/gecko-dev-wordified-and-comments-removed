@@ -23,15 +23,6 @@ h
 #
 include
 "
-mozilla
-/
-Maybe
-.
-h
-"
-#
-include
-"
 nsWindowsHelpers
 .
 h

@@ -27,15 +27,6 @@ include
 "
 mozilla
 /
-Maybe
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BindingDeclarations

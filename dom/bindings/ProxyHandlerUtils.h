@@ -70,15 +70,6 @@ include
 "
 mozilla
 /
-Maybe
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TextUtils
 .
 h
