@@ -290,6 +290,16 @@ tryPromptReview
 activity
 :
 Activity
+onError
+:
+(
+)
+-
+>
+Unit
+=
+{
+}
 )
 {
 logger
@@ -422,9 +432,8 @@ reviewErrorCode
 .
 "
 )
-tryLaunchPlayStoreReview
+onError
 (
-activity
 )
 "
 reviewErrorCode
