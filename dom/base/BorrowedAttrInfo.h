@@ -4,15 +4,6 @@ BorrowedAttrInfo_h__
 #
 define
 BorrowedAttrInfo_h__
-#
-include
-"
-mozilla
-/
-Assertions
-.
-h
-"
 class
 nsAttrName
 ;
