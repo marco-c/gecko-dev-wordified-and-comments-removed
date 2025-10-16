@@ -2119,7 +2119,7 @@ resolve
 step_timeout
 (
 resolve
-3000
+1000
 "
 timeout
 "
