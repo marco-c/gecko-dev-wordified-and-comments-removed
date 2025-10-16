@@ -3961,10 +3961,8 @@ GetPlatform
 (
 )
 ;
-auto
-*
-pm
-=
+MOZ_ASSERT
+(
 mozilla
 :
 :
@@ -3977,10 +3975,6 @@ GPUProcessManager
 Get
 (
 )
-;
-MOZ_ASSERT
-(
-pm
 "
 Getting
 the
@@ -3992,13 +3986,6 @@ the
 GPUProcessManager
 .
 "
-)
-;
-pm
--
->
-EnsureGPUReady
-(
 )
 ;
 nsIWidget

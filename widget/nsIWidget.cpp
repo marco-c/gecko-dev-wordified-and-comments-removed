@@ -7441,15 +7441,7 @@ DestroyCompositor
 (
 )
 ;
-gfx
-:
-:
-GPUProcessManager
-:
-:
-Get
-(
-)
+gpm
 -
 >
 DisableWebRender
