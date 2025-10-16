@@ -204,6 +204,13 @@ telemetry
 "
 [
 "
+browser_quicksuggest_realtime_flight_status
+.
+js
+"
+]
+[
+"
 browser_quicksuggest_realtime_market
 .
 js

@@ -127,6 +127,13 @@ js
 ]
 [
 "
+test_quicksuggest_flight_status
+.
+js
+"
+]
+[
+"
 test_quicksuggest_importantDatesSuggestions
 .
 js
