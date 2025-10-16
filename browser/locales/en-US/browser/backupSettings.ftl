@@ -814,8 +814,8 @@ of
 your
 data
 every
-60
-minutes
+24
+hours
 .
 You
 can
