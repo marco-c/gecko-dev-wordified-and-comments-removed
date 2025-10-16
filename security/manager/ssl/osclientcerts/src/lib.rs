@@ -74,14 +74,6 @@ macro_use
 ]
 extern
 crate
-rsclientcerts
-;
-#
-[
-macro_use
-]
-extern
-crate
 xpcom
 ;
 use
