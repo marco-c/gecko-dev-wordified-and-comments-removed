@@ -67,15 +67,6 @@ include
 "
 mozilla
 /
-Compiler
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EventForwards
 .
 h
@@ -317,7 +308,7 @@ nsXULAppAPI
 h
 "
 #
-if
+ifdef
 MOZ_IS_GCC
 #
 include
