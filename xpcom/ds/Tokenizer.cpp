@@ -4261,7 +4261,9 @@ AsString
 const
 -
 >
+const
 TDependentSubstring
+&
 {
 MOZ_ASSERT
 (
