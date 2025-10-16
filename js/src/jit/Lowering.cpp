@@ -42533,9 +42533,6 @@ alloc
 )
 LGuardFuse
 (
-temp
-(
-)
 )
 ;
 assignSnapshot
