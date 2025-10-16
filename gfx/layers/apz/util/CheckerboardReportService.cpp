@@ -1052,7 +1052,7 @@ gfx
 :
 GPUProcessManager
 *
-gpu
+gpm
 =
 gfx
 :
@@ -1066,10 +1066,10 @@ Get
 ;
 if
 (
-gpu
+gpm
 &
 &
-gpu
+gpm
 -
 >
 NotifyGpuObservers
@@ -1121,6 +1121,8 @@ nullptr
 APZ
 :
 FlushActiveCheckerboard
+:
+Done
 "
 nullptr
 )
