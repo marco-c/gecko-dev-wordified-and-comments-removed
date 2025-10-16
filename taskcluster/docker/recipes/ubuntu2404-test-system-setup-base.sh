@@ -1177,7 +1177,7 @@ apt_packages
 =
 (
 '
-libxt6
+libxt6t64
 :
 i386
 '
@@ -1215,7 +1215,7 @@ libgtk
 -
 3
 -
-0
+0t64
 :
 i386
 '
@@ -1247,7 +1247,7 @@ apt_packages
 =
 (
 '
-libasound2
+libasound2t64
 :
 i386
 '
