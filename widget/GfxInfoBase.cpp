@@ -7141,9 +7141,6 @@ nsIGfxInfo
 :
 FEATURE_GPU_PROCESS
 :
-return
-kIsAndroid
-;
 case
 nsIGfxInfo
 :
