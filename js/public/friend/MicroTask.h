@@ -80,13 +80,12 @@ JS_PUBLIC_API
 bool
 IsJSMicroTask
 (
-Handle
-<
+const
 JS
 :
 :
 Value
->
+&
 hv
 )
 ;
