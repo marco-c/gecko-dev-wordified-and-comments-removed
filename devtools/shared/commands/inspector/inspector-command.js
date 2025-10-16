@@ -467,7 +467,7 @@ findNodeFrontFromSelectors
 nodeSelectors
 timeoutInMs
 =
-5000
+1000
 )
 {
 if
