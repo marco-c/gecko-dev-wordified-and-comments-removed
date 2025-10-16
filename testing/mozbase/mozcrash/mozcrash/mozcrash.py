@@ -929,9 +929,8 @@ crash_count
 =
 0
     
-for
-info
-in
+crash_info
+=
 CrashInfo
 (
         
@@ -948,6 +947,55 @@ stackwalk_binary
 stackwalk_binary
     
 )
+    
+if
+num_dumps
+:
+=
+len
+(
+crash_info
+.
+dump_files
+)
+:
+        
+message
+=
+f
+"
+processing
+{
+num_dumps
+}
+crash
+"
++
+(
+"
+es
+"
+if
+num_dumps
+!
+=
+1
+else
+"
+"
+)
+        
+logger
+.
+group_start
+(
+message
+)
+    
+for
+info
+in
+crash_info
 :
         
 crash_count
@@ -994,6 +1042,17 @@ test
 *
 *
 kwargs
+)
+    
+if
+num_dumps
+:
+        
+logger
+.
+group_end
+(
+message
 )
     
 return
