@@ -6,11 +6,6 @@ Dict
 List
 Literal
 Mapping
-MutableMapping
-Optional
-\
-    
-Union
 from
 .
 _module
@@ -23,7 +18,8 @@ from
 undefined
 import
 UNDEFINED
-Undefined
+Maybe
+Nullable
 class
 CoordinatesOptions
 (
@@ -38,61 +34,73 @@ Any
 def
 __init__
 (
-        
+            
 self
-        
+            
 latitude
 :
 float
-        
+            
 longitude
 :
 float
-        
+            
 accuracy
 :
-Optional
+Maybe
 [
 float
 ]
 =
-None
-        
+UNDEFINED
+            
 altitude
 :
-Optional
+Maybe
+[
+Nullable
 [
 float
 ]
+]
 =
-None
-        
+UNDEFINED
+            
 altitude_accuracy
 :
-Optional
+Maybe
+[
+Nullable
 [
 float
 ]
+]
 =
-None
-        
+UNDEFINED
+            
 heading
 :
-Optional
+Maybe
+[
+Nullable
 [
 float
 ]
+]
 =
-None
-        
+UNDEFINED
+            
 speed
 :
-Optional
+Maybe
+[
+Nullable
 [
 float
 ]
+]
 =
-None
+UNDEFINED
     
 )
 :
@@ -115,13 +123,6 @@ longitude
 =
 longitude
         
-if
-accuracy
-is
-not
-None
-:
-            
 self
 [
 "
@@ -131,13 +132,6 @@ accuracy
 =
 accuracy
         
-if
-altitude
-is
-not
-None
-:
-            
 self
 [
 "
@@ -147,13 +141,6 @@ altitude
 =
 altitude
         
-if
-altitude_accuracy
-is
-not
-None
-:
-            
 self
 [
 "
@@ -163,13 +150,6 @@ altitudeAccuracy
 =
 altitude_accuracy
         
-if
-heading
-is
-not
-None
-:
-            
 self
 [
 "
@@ -179,13 +159,6 @@ heading
 =
 heading
         
-if
-speed
-is
-not
-None
-:
-            
 self
 [
 "
@@ -206,22 +179,24 @@ command
 def
 set_geolocation_override
 (
-        
+            
 self
-        
+            
 coordinates
 :
-Union
+Maybe
+[
+Nullable
 [
 CoordinatesOptions
-Undefined
+]
 ]
 =
 UNDEFINED
-        
+            
 error
 :
-Optional
+Maybe
 [
 Dict
 [
@@ -230,11 +205,11 @@ Any
 ]
 ]
 =
-None
-        
+UNDEFINED
+            
 contexts
 :
-Optional
+Maybe
 [
 List
 [
@@ -242,11 +217,11 @@ str
 ]
 ]
 =
-None
-        
+UNDEFINED
+            
 user_contexts
 :
-Optional
+Maybe
 [
 List
 [
@@ -254,7 +229,7 @@ str
 ]
 ]
 =
-None
+UNDEFINED
     
 )
 -
@@ -266,103 +241,53 @@ Any
 ]
 :
         
-params
-:
-MutableMapping
-[
-str
-Any
-]
-=
+return
 {
-}
-        
-if
-coordinates
-is
-not
-UNDEFINED
-:
             
-params
-[
 "
 coordinates
 "
-]
-=
+:
 coordinates
-        
-if
-error
-is
-not
-None
-:
             
-params
-[
 "
 error
 "
-]
-=
+:
 error
-        
-if
-contexts
-is
-not
-None
-:
             
-params
-[
 "
 contexts
 "
-]
-=
-contexts
-        
-if
-user_contexts
-is
-not
-None
 :
+contexts
             
-params
-[
 "
 userContexts
 "
-]
-=
+:
 user_contexts
         
-return
-params
+}
     
 command
     
 def
 set_locale_override
 (
-        
+            
 self
-        
+            
 locale
 :
-Union
+Nullable
 [
 str
-None
 ]
-        
+            
 contexts
 :
-Optional
+Maybe
 [
 List
 [
@@ -370,11 +295,11 @@ str
 ]
 ]
 =
-None
-        
+UNDEFINED
+            
 user_contexts
 :
-Optional
+Maybe
 [
 List
 [
@@ -382,7 +307,7 @@ str
 ]
 ]
 =
-None
+UNDEFINED
     
 )
 -
@@ -394,14 +319,7 @@ Any
 ]
 :
         
-params
-:
-MutableMapping
-[
-str
-Any
-]
-=
+return
 {
             
 "
@@ -409,43 +327,20 @@ locale
 "
 :
 locale
-        
-}
-        
-if
-contexts
-is
-not
-None
-:
             
-params
-[
 "
 contexts
 "
-]
-=
-contexts
-        
-if
-user_contexts
-is
-not
-None
 :
+contexts
             
-params
-[
 "
 userContexts
 "
-]
-=
+:
 user_contexts
         
-return
-params
+}
     
 command
     
@@ -457,34 +352,34 @@ self
             
 enabled
 :
+Nullable
+[
 Literal
 [
 False
-None
+]
 ]
             
 contexts
 :
-Union
+Maybe
 [
 List
 [
 str
 ]
-Undefined
 ]
 =
 UNDEFINED
             
 user_contexts
 :
-Union
+Maybe
 [
 List
 [
 str
 ]
-Undefined
 ]
 =
 UNDEFINED
@@ -527,20 +422,23 @@ command
 def
 set_screen_orientation_override
 (
-        
+            
 self
-        
+            
 screen_orientation
 :
+Nullable
+[
 Dict
 [
 str
 Any
 ]
-        
+]
+            
 contexts
 :
-Optional
+Maybe
 [
 List
 [
@@ -548,11 +446,11 @@ str
 ]
 ]
 =
-None
-        
+UNDEFINED
+            
 user_contexts
 :
-Optional
+Maybe
 [
 List
 [
@@ -560,7 +458,7 @@ str
 ]
 ]
 =
-None
+UNDEFINED
     
 )
 -
@@ -572,14 +470,7 @@ Any
 ]
 :
         
-params
-:
-MutableMapping
-[
-str
-Any
-]
-=
+return
 {
             
 "
@@ -587,43 +478,20 @@ screenOrientation
 "
 :
 screen_orientation
-        
-}
-        
-if
-contexts
-is
-not
-None
-:
             
-params
-[
 "
 contexts
 "
-]
-=
-contexts
-        
-if
-user_contexts
-is
-not
-None
 :
+contexts
             
-params
-[
 "
 userContexts
 "
-]
-=
+:
 user_contexts
         
-return
-params
+}
     
 command
     
@@ -635,15 +503,14 @@ self
             
 timezone
 :
-Union
+Nullable
 [
 str
-None
 ]
             
 contexts
 :
-Optional
+Maybe
 [
 List
 [
@@ -651,11 +518,11 @@ str
 ]
 ]
 =
-None
+UNDEFINED
             
 user_contexts
 :
-Optional
+Maybe
 [
 List
 [
@@ -663,7 +530,7 @@ str
 ]
 ]
 =
-None
+UNDEFINED
     
 )
 -
@@ -675,14 +542,7 @@ Any
 ]
 :
         
-params
-:
-MutableMapping
-[
-str
-Any
-]
-=
+return
 {
             
 "
@@ -690,43 +550,20 @@ timezone
 "
 :
 timezone
-        
-}
-        
-if
-contexts
-is
-not
-None
-:
             
-params
-[
 "
 contexts
 "
-]
-=
-contexts
-        
-if
-user_contexts
-is
-not
-None
 :
+contexts
             
-params
-[
 "
 userContexts
 "
-]
-=
+:
 user_contexts
         
-return
-params
+}
     
 command
     
@@ -738,34 +575,31 @@ self
             
 user_agent
 :
-Union
+Nullable
 [
 str
-None
 ]
             
 contexts
 :
-Union
+Maybe
 [
 List
 [
 str
 ]
-Undefined
 ]
 =
 UNDEFINED
             
 user_contexts
 :
-Union
+Maybe
 [
 List
 [
 str
 ]
-Undefined
 ]
 =
 UNDEFINED
