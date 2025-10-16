@@ -539,7 +539,7 @@ Localization
 (
 [
 "
-preview
+browser
 /
 backupSettings
 .
