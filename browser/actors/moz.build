@@ -89,8 +89,7 @@ with
 Files
 (
 "
-PageInfo
-*
+PageInfoChild
 .
 sys
 .
@@ -114,8 +113,7 @@ with
 Files
 (
 "
-PageStyle
-*
+PageStyleChild
 .
 sys
 .
@@ -429,13 +427,6 @@ mjs
 "
 "
 PageInfoChild
-.
-sys
-.
-mjs
-"
-"
-PageInfoPreviewChild
 .
 sys
 .
