@@ -193,7 +193,7 @@ labelled
 using
 the
 correct
-broswer
+browser
 -
 XXX
 label
