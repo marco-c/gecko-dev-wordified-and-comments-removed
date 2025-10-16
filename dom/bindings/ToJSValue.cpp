@@ -14,15 +14,6 @@ include
 "
 mozilla
 /
-StringBuffer
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 DOMException
