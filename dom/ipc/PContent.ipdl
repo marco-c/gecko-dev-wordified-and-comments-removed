@@ -6451,6 +6451,15 @@ aLoadingInfo
 )
 ;
 async
+SynchronizeNavigationAPIState
+(
+MaybeDiscardedBrowsingContext
+aContext
+ClonedMessageData
+aState
+)
+;
+async
 RemoveFromBFCache
 (
 MaybeDiscardedBrowsingContext

@@ -5170,6 +5170,14 @@ ConsumeHistoryActivation
 (
 )
 ;
+void
+SynchronizeNavigationAPIState
+(
+nsIStructuredCloneContainer
+*
+aState
+)
+;
 protected
 :
 virtual
