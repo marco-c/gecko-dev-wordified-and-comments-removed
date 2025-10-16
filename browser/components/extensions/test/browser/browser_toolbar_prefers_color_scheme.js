@@ -400,7 +400,7 @@ overrides
 heuristics
 "
 systemScheme
-systemScheme
+kSystem
 {
 theme
 :
