@@ -905,7 +905,7 @@ if
 aFrame
 -
 >
-HasView
+GetView
 (
 )
 )

@@ -11816,9 +11816,7 @@ CreatePopupView
 {
 if
 (
-HasView
-(
-)
+mView
 )
 {
 return
@@ -11844,9 +11842,6 @@ GetViewManager
 ;
 NS_ASSERTION
 (
-nullptr
-!
-=
 viewManager
 "
 null

@@ -6077,7 +6077,7 @@ if
 aNewParent
 -
 >
-HasView
+GetView
 (
 )
 |
@@ -6085,7 +6085,7 @@ HasView
 aOldParent
 -
 >
-HasView
+GetView
 (
 )
 |

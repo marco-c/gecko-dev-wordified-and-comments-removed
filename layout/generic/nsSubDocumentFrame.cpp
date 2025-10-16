@@ -1090,7 +1090,7 @@ CreateView
 MOZ_ASSERT
 (
 !
-HasView
+GetView
 (
 )
 )
