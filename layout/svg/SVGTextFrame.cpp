@@ -4154,7 +4154,7 @@ IsText
 )
 )
 {
-Next
+GetNext
 (
 )
 ;
@@ -4162,7 +4162,7 @@ Next
 }
 Text
 *
-Current
+GetCurrent
 (
 )
 const
@@ -4182,7 +4182,7 @@ nullptr
 }
 Text
 *
-Next
+GetNext
 (
 )
 ;
@@ -4238,7 +4238,7 @@ Text
 TextNodeIterator
 :
 :
-Next
+GetNext
 (
 )
 {
@@ -4654,7 +4654,7 @@ if
 !
 mNodeIterator
 .
-Current
+GetCurrent
 (
 )
 )
@@ -4676,7 +4676,7 @@ if
 (
 mNodeIterator
 .
-Current
+GetCurrent
 (
 )
 )
@@ -4742,7 +4742,7 @@ textNode
 =
 mNodeIterator
 .
-Current
+GetCurrent
 (
 )
 ;
@@ -4788,7 +4788,7 @@ mPreviousNode
 =
 mNodeIterator
 .
-Current
+GetCurrent
 (
 )
 ;
@@ -4802,7 +4802,7 @@ next
 =
 mNodeIterator
 .
-Next
+GetNext
 (
 )
 ;
@@ -4957,7 +4957,7 @@ if
 !
 mNodeIterator
 .
-Current
+GetCurrent
 (
 )
 )
@@ -4987,7 +4987,7 @@ while
 (
 mNodeIterator
 .
-Current
+GetCurrent
 (
 )
 !
@@ -5000,7 +5000,7 @@ undisplayed
 =
 mNodeIterator
 .
-Current
+GetCurrent
 (
 )
 -
@@ -5156,14 +5156,14 @@ while
 (
 mNodeIterator
 .
-Current
+GetCurrent
 (
 )
 &
 &
 mNodeIterator
 .
-Current
+GetCurrent
 (
 )
 !
@@ -5176,7 +5176,7 @@ undisplayed
 =
 mNodeIterator
 .
-Current
+GetCurrent
 (
 )
 -
@@ -5337,7 +5337,7 @@ Init
 }
 SVGTextFrame
 *
-Root
+GetRoot
 (
 )
 const
@@ -5348,7 +5348,7 @@ mRootFrame
 }
 nsTextFrame
 *
-Current
+GetCurrent
 (
 )
 const
@@ -5378,7 +5378,7 @@ mCurrentPosition
 }
 nsTextFrame
 *
-Next
+GetNext
 (
 )
 ;
@@ -5486,7 +5486,7 @@ StyleSVG
 mDominantBaseline
 )
 ;
-Next
+GetNext
 (
 )
 ;
@@ -5606,7 +5606,7 @@ nsTextFrame
 TextFrameIterator
 :
 :
-Next
+GetNext
 (
 )
 {
@@ -5900,7 +5900,7 @@ mCurrentFrame
 ;
 }
 return
-Current
+GetCurrent
 (
 )
 ;
@@ -6093,7 +6093,7 @@ root
 =
 mFrameIterator
 .
-Root
+GetRoot
 (
 )
 )
@@ -6126,7 +6126,7 @@ private
 :
 SVGTextFrame
 *
-Root
+GetRoot
 (
 )
 const
@@ -6134,7 +6134,7 @@ const
 return
 mFrameIterator
 .
-Root
+GetRoot
 (
 )
 ;
@@ -6177,7 +6177,7 @@ if
 !
 mFrameIterator
 .
-Current
+GetCurrent
 (
 )
 )
@@ -6241,7 +6241,7 @@ frame
 =
 mFrameIterator
 .
-Current
+GetCurrent
 (
 )
 ;
@@ -6267,7 +6267,7 @@ while
 (
 runEnd
 <
-Root
+GetRoot
 (
 )
 -
@@ -6280,7 +6280,7 @@ Length
 &
 &
 !
-Root
+GetRoot
 (
 )
 -
@@ -6458,7 +6458,7 @@ untrimmedOffset
 ;
 pt
 =
-Root
+GetRoot
 (
 )
 -
@@ -6472,7 +6472,7 @@ mPosition
 ;
 rotate
 =
-Root
+GetRoot
 (
 )
 -
@@ -6495,7 +6495,7 @@ IsWithinSubtree
 )
 |
 |
-Root
+GetRoot
 (
 )
 -
@@ -6551,7 +6551,7 @@ contentEnd
 {
 mFrameIterator
 .
-Next
+GetNext
 (
 )
 ;
@@ -6574,7 +6574,7 @@ if
 !
 mFrameIterator
 .
-Current
+GetCurrent
 (
 )
 )
@@ -6615,7 +6615,7 @@ mCurrent
 TextRenderedRun
 (
 frame
-Root
+GetRoot
 (
 )
 pt
@@ -6644,7 +6644,7 @@ if
 !
 mFrameIterator
 .
-Current
+GetCurrent
 (
 )
 )
@@ -6657,7 +6657,7 @@ TextRenderedRun
 }
 if
 (
-Root
+GetRoot
 (
 )
 -
@@ -6750,7 +6750,7 @@ root
 =
 mFrameIterator
 .
-Root
+GetRoot
 (
 )
 )
@@ -6774,7 +6774,7 @@ return
 !
 mFrameIterator
 .
-Current
+GetCurrent
 (
 )
 ;
@@ -6822,7 +6822,7 @@ AdvanceToSubtree
 ;
 nsTextFrame
 *
-TextFrame
+GetTextFrame
 (
 )
 const
@@ -6830,7 +6830,7 @@ const
 return
 mFrameIterator
 .
-Current
+GetCurrent
 (
 )
 ;
@@ -7211,7 +7211,7 @@ AtEnd
 {
 mSkipCharsIterator
 =
-TextFrame
+GetTextFrame
 (
 )
 -
@@ -7226,7 +7226,7 @@ eInflated
 ;
 mTextRun
 =
-TextFrame
+GetTextFrame
 (
 )
 -
@@ -7433,7 +7433,7 @@ nsTextFrame
 *
 currentFrame
 =
-TextFrame
+GetTextFrame
 (
 )
 ;
@@ -7454,7 +7454,7 @@ false
 }
 while
 (
-TextFrame
+GetTextFrame
 (
 )
 =
@@ -7589,14 +7589,14 @@ if
 mFrameForTrimCheck
 !
 =
-TextFrame
+GetTextFrame
 (
 )
 )
 {
 mFrameForTrimCheck
 =
-TextFrame
+GetTextFrame
 (
 )
 ;
@@ -7779,14 +7779,14 @@ provider
 =
 mFrameIterator
 .
-Root
+GetRoot
 (
 )
 -
 >
 PropertyProviderFor
 (
-TextFrame
+GetTextFrame
 (
 )
 )
@@ -7871,7 +7871,7 @@ GetOriginalOffset
 (
 )
 <
-TextFrame
+GetTextFrame
 (
 )
 -
@@ -7891,7 +7891,7 @@ true
 }
 mFrameIterator
 .
-Next
+GetNext
 (
 )
 ;
@@ -7912,7 +7912,7 @@ undisplayed
 if
 (
 !
-TextFrame
+GetTextFrame
 (
 )
 )
@@ -7929,7 +7929,7 @@ false
 }
 mSkipCharsIterator
 =
-TextFrame
+GetTextFrame
 (
 )
 -
@@ -7944,7 +7944,7 @@ eInflated
 ;
 mTextRun
 =
-TextFrame
+GetTextFrame
 (
 )
 -
@@ -12581,7 +12581,7 @@ text
 =
 it
 .
-Current
+GetCurrent
 (
 )
 ;
@@ -12591,7 +12591,7 @@ text
 =
 it
 .
-Next
+GetNext
 (
 )
 )
@@ -12658,7 +12658,7 @@ text
 =
 it
 .
-Current
+GetCurrent
 (
 )
 ;
@@ -12668,7 +12668,7 @@ text
 =
 it
 .
-Next
+GetNext
 (
 )
 )
@@ -13178,7 +13178,7 @@ content
 =
 chit
 .
-TextFrame
+GetTextFrame
 (
 )
 -
@@ -13260,7 +13260,7 @@ frame
 =
 frameIter
 .
-Current
+GetCurrent
 (
 )
 ;
@@ -13270,7 +13270,7 @@ frame
 =
 frameIter
 .
-Next
+GetNext
 (
 )
 )
@@ -13456,7 +13456,7 @@ frame
 =
 frit
 .
-Current
+GetCurrent
 (
 )
 ;
@@ -13466,7 +13466,7 @@ frame
 =
 frit
 .
-Next
+GetNext
 (
 )
 )
@@ -14933,7 +14933,7 @@ textFrame
 =
 it
 .
-TextFrame
+GetTextFrame
 (
 )
 ;
@@ -16836,7 +16836,7 @@ frame
 =
 frit
 .
-Current
+GetCurrent
 (
 )
 ;
@@ -16846,7 +16846,7 @@ frame
 =
 frit
 .
-Next
+GetNext
 (
 )
 )
@@ -17558,7 +17558,7 @@ if
 (
 it
 .
-TextFrame
+GetTextFrame
 (
 )
 =
@@ -19325,7 +19325,7 @@ chunkFrame
 =
 it
 .
-TextFrame
+GetTextFrame
 (
 )
 ;
@@ -21431,7 +21431,7 @@ f
 =
 it
 .
-Current
+GetCurrent
 (
 )
 ;
@@ -21531,7 +21531,7 @@ f
 =
 it
 .
-Next
+GetNext
 (
 )
 ;
