@@ -136,15 +136,6 @@ include
 "
 mozilla
 /
-Result
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Vector
 .
 h
