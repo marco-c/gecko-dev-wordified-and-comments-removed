@@ -42738,6 +42738,14 @@ allocator
 api2
 "
 "
+base64
+0
+.
+22
+.
+1
+"
+"
 bincode
 "
 "
@@ -42780,6 +42788,9 @@ glean
 "
 "
 glslopt
+"
+"
+hyper
 "
 "
 lazy_static
@@ -42825,6 +42836,12 @@ hash
 serde
 "
 "
+serde_json
+"
+"
+sha1
+"
+"
 smallvec
 "
 "
@@ -42832,6 +42849,9 @@ svg_fmt
 "
 "
 swgl
+"
+"
+tokio
 "
 "
 topological
@@ -42842,6 +42862,9 @@ sort
 tracy
 -
 rs
+"
+"
+url
 "
 "
 webrender_api
