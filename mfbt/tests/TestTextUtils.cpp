@@ -7730,7 +7730,7 @@ TestAsciiAlphanumericToNumber
 (
 )
 {
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -7751,7 +7751,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -7772,7 +7772,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -7793,7 +7793,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -7814,7 +7814,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -7835,7 +7835,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -7856,7 +7856,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -7877,7 +7877,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -7898,7 +7898,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -7919,7 +7919,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -7940,7 +7940,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -7961,7 +7961,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -7982,7 +7982,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8003,7 +8003,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8024,7 +8024,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8045,7 +8045,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8066,7 +8066,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8087,7 +8087,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8108,7 +8108,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8129,7 +8129,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8150,7 +8150,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8171,7 +8171,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8192,7 +8192,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8213,7 +8213,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8234,7 +8234,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8255,7 +8255,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8276,7 +8276,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8297,7 +8297,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8318,7 +8318,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8339,7 +8339,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8360,7 +8360,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8381,7 +8381,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8402,7 +8402,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8423,7 +8423,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8444,7 +8444,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8465,7 +8465,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8486,7 +8486,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8507,7 +8507,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8528,7 +8528,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8549,7 +8549,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8570,7 +8570,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8591,7 +8591,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8612,7 +8612,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8633,7 +8633,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8654,7 +8654,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8675,7 +8675,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8696,7 +8696,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8717,7 +8717,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8738,7 +8738,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8759,7 +8759,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8780,7 +8780,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8801,7 +8801,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8822,7 +8822,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8843,7 +8843,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8864,7 +8864,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8885,7 +8885,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8906,7 +8906,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8927,7 +8927,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8948,7 +8948,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8969,7 +8969,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -8990,7 +8990,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9011,7 +9011,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9032,7 +9032,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9055,7 +9055,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9078,7 +9078,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9101,7 +9101,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9124,7 +9124,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9147,7 +9147,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9170,7 +9170,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9193,7 +9193,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9216,7 +9216,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9239,7 +9239,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9262,7 +9262,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9285,7 +9285,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9308,7 +9308,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9331,7 +9331,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9354,7 +9354,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9377,7 +9377,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9400,7 +9400,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9423,7 +9423,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9446,7 +9446,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9469,7 +9469,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9492,7 +9492,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9515,7 +9515,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9538,7 +9538,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9561,7 +9561,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9584,7 +9584,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9607,7 +9607,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9630,7 +9630,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9653,7 +9653,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9676,7 +9676,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9699,7 +9699,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9722,7 +9722,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9745,7 +9745,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9768,7 +9768,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9791,7 +9791,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9814,7 +9814,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9837,7 +9837,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9860,7 +9860,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9883,7 +9883,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9906,7 +9906,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9929,7 +9929,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9952,7 +9952,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9975,7 +9975,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -9998,7 +9998,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10021,7 +10021,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10044,7 +10044,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10067,7 +10067,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10090,7 +10090,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10113,7 +10113,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10136,7 +10136,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10159,7 +10159,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10182,7 +10182,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10205,7 +10205,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10228,7 +10228,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10251,7 +10251,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10274,7 +10274,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10297,7 +10297,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10320,7 +10320,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10343,7 +10343,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10366,7 +10366,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10389,7 +10389,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10412,7 +10412,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10435,7 +10435,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10458,7 +10458,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10481,7 +10481,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10504,7 +10504,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10527,7 +10527,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10550,7 +10550,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10573,7 +10573,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10596,7 +10596,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10619,7 +10619,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10642,7 +10642,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10665,7 +10665,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10688,7 +10688,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10711,7 +10711,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10734,7 +10734,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10757,7 +10757,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10780,7 +10780,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10803,7 +10803,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10826,7 +10826,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10849,7 +10849,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10872,7 +10872,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10895,7 +10895,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10918,7 +10918,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10941,7 +10941,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10964,7 +10964,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -10987,7 +10987,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11010,7 +11010,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11033,7 +11033,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11056,7 +11056,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11079,7 +11079,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11102,7 +11102,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11125,7 +11125,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11148,7 +11148,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11171,7 +11171,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11194,7 +11194,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11217,7 +11217,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11240,7 +11240,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11263,7 +11263,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11286,7 +11286,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11309,7 +11309,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11332,7 +11332,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11355,7 +11355,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11378,7 +11378,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11401,7 +11401,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11424,7 +11424,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11447,7 +11447,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11470,7 +11470,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11493,7 +11493,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11516,7 +11516,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11539,7 +11539,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11562,7 +11562,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11585,7 +11585,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11608,7 +11608,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11631,7 +11631,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11654,7 +11654,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11677,7 +11677,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11700,7 +11700,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11723,7 +11723,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11746,7 +11746,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11769,7 +11769,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11792,7 +11792,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11815,7 +11815,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11838,7 +11838,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
@@ -11861,7 +11861,7 @@ to
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+static_assert
 (
 AsciiAlphanumericToNumber
 (
