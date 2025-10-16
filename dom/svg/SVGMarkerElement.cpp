@@ -44,15 +44,6 @@ include
 "
 mozilla
 /
-FloatingPoint
-.
-h
-"
-#
-include
-"
-mozilla
-/
 RefPtr
 .
 h

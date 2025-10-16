@@ -26,15 +26,6 @@ Casting
 h
 "
 #
-include
-"
-mozilla
-/
-FloatingPoint
-.
-h
-"
-#
 ifdef
 JS_HAS_INTL_API
 #

@@ -75,15 +75,6 @@ include
 "
 mozilla
 /
-FloatingPoint
-.
-h
-"
-#
-include
-"
-mozilla
-/
 PresShell
 .
 h

@@ -12,6 +12,11 @@ include
 <
 cfloat
 >
+#
+include
+<
+cmath
+>
 namespace
 mozilla
 {

@@ -38,15 +38,6 @@ include
 "
 mozilla
 /
-FloatingPoint
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 ScaleFactors2D

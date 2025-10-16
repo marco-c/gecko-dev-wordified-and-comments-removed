@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-FloatingPoint
-.
-h
-"
-#
-include
-"
 txExprResult
 .
 h

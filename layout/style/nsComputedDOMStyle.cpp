@@ -60,15 +60,6 @@ include
 "
 mozilla
 /
-FloatingPoint
-.
-h
-"
-#
-include
-"
-mozilla
-/
 FontPropertyTypes
 .
 h

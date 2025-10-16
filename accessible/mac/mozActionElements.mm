@@ -49,15 +49,6 @@ nsCocoaUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-FloatingPoint
-.
-h
-"
 using
 namespace
 mozilla

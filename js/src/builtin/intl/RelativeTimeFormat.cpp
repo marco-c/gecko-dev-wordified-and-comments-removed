@@ -23,15 +23,6 @@ include
 "
 mozilla
 /
-FloatingPoint
-.
-h
-"
-#
-include
-"
-mozilla
-/
 intl
 /
 RelativeTimeFormat

@@ -35,15 +35,6 @@ Compiler
 h
 "
 #
-include
-"
-mozilla
-/
-FloatingPoint
-.
-h
-"
-#
 if
 JS_HAS_INTL_API
 #

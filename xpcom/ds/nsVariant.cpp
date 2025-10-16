@@ -66,15 +66,6 @@ include
 "
 mozilla
 /
-FloatingPoint
-.
-h
-"
-#
-include
-"
-mozilla
-/
 IntegerPrintfMacros
 .
 h

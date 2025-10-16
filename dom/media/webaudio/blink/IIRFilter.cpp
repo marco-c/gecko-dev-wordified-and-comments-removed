@@ -33,15 +33,6 @@ fdlibm
 .
 h
 "
-#
-include
-"
-mozilla
-/
-FloatingPoint
-.
-h
-"
 namespace
 blink
 {

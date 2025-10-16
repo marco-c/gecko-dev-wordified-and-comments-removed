@@ -66,7 +66,7 @@ algorithm
 #
 include
 <
-climits
+cstdint
 >
 #
 include
@@ -76,15 +76,10 @@ limits
 #
 include
 <
-stdint
-.
-h
+type_traits
 >
 namespace
 mozilla
-{
-namespace
-detail
 {
 template
 <
@@ -158,7 +153,6 @@ kSignificandWidth
 ;
 }
 ;
-}
 template
 <
 typename
@@ -169,9 +163,6 @@ FloatingPoint
 final
 :
 private
-detail
-:
-:
 FloatingPointTrait
 <
 T
@@ -182,9 +173,6 @@ private
 using
 Base
 =
-detail
-:
-:
 FloatingPointTrait
 <
 T

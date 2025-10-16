@@ -118,15 +118,6 @@ include
 "
 mozilla
 /
-FloatingPoint
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MathAlgorithms
 .
 h

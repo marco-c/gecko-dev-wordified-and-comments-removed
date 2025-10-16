@@ -99,15 +99,6 @@ include
 "
 mozilla
 /
-FloatingPoint
-.
-h
-"
-#
-include
-"
-mozilla
-/
 KeyframeUtils
 .
 h
