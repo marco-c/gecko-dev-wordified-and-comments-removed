@@ -330,9 +330,7 @@ async
 CaptureEnded
 (
 int
-[
-]
-streamIds
+streamId
 )
 ;
 /
@@ -351,11 +349,7 @@ async
 DeliverFrame
 (
 int
-captureId
-int
-[
-]
-streamIds
+streamId
 Shmem
 buffer
 VideoFrameProperties
@@ -385,7 +379,7 @@ async
 ReplyAllocateCapture
 (
 int
-streamId
+captureId
 )
 ;
 async
@@ -476,7 +470,7 @@ ReleaseCapture
 CaptureEngine
 engine
 int
-streamId
+captureId
 )
 ;
 async
@@ -485,7 +479,7 @@ StartCapture
 CaptureEngine
 engine
 int
-streamId
+captureId
 VideoCaptureCapability
 capability
 NormalizedConstraints
@@ -500,7 +494,7 @@ FocusOnSelectedSource
 CaptureEngine
 engine
 int
-streamId
+captureId
 )
 ;
 async
@@ -509,7 +503,7 @@ StopCapture
 CaptureEngine
 engine
 int
-streamId
+captureId
 )
 ;
 /
@@ -520,8 +514,6 @@ back
 async
 ReleaseFrame
 (
-int
-captureId
 Shmem
 s
 )
