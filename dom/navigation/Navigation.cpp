@@ -4511,7 +4511,7 @@ GetOwnerGlobal
 )
 aDestinationURL
 nullptr
-nullptr
+aNavigationAPIState
 aIsSameDocument
 )
 ;
