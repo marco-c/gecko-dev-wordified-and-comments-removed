@@ -527,6 +527,10 @@ p
 MOZ_LOG_FMT
 (
 gLogModule
+LogLevel
+:
+:
+Warning
 "
 Important
 :
@@ -683,6 +687,10 @@ c
 MOZ_LOG_FMT
 (
 gLogModule
+LogLevel
+:
+:
+Verbose
 "
 {
 }
