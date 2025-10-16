@@ -206,15 +206,6 @@ include
 "
 mozilla
 /
-IntegerRange
-.
-h
-"
-#
-include
-"
-mozilla
-/
 PresShell
 .
 h
