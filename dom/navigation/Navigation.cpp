@@ -571,20 +571,9 @@ mSerializedState
 aNHE
 -
 >
-SetState
-(
-static_cast
-<
-nsStructuredCloneContainer
-*
->
+SetNavigationAPIState
 (
 mSerializedState
-.
-get
-(
-)
-)
 )
 ;
 mSerializedState
@@ -1219,7 +1208,7 @@ return
 currentEntry
 -
 >
-SetState
+SetNavigationAPIState
 (
 serializedState
 )
@@ -3481,7 +3470,7 @@ serializedState
 current
 -
 >
-GetNavigationState
+GetNavigationAPIState
 (
 )
 ;
@@ -4317,7 +4306,7 @@ aDestinationSessionHistoryInfo
 ;
 RefPtr
 <
-nsStructuredCloneContainer
+nsIStructuredCloneContainer
 >
 state
 =
@@ -4326,7 +4315,7 @@ destinationNHE
 destinationNHE
 -
 >
-GetNavigationState
+GetNavigationAPIState
 (
 )
 :
