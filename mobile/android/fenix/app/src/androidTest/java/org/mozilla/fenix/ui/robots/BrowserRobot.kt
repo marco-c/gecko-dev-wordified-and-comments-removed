@@ -9292,6 +9292,10 @@ string
 webcompat_reporter_cancel
 )
 )
+.
+assertIsDisplayed
+(
+)
 Log
 .
 i
