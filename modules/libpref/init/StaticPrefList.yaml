@@ -82803,7 +82803,7 @@ type
 RelaxedAtomicBool
 value
 :
-true
+IS_NIGHTLY_BUILD
 mirror
 :
 always
