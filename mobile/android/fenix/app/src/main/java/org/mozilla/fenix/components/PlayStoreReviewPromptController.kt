@@ -324,6 +324,9 @@ requestReviewFlow
 reviewInfoFlow
 .
 addOnCompleteListener
+(
+activity
+)
 {
 val
 resultString
