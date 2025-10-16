@@ -4341,6 +4341,20 @@ default
 None
 )
         
+List
+(
+Any
+"
+crashing_thread_stack
+"
+default
+=
+None
+optional
+=
+True
+)
+        
 Unicode
 (
 "
