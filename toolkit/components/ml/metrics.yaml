@@ -259,6 +259,10 @@ tab
 topic
 -
 engine
+-
+smart
+-
+intent
 engine_creation_failure
 :
 type
@@ -591,6 +595,10 @@ tab
 topic
 -
 engine
+-
+smart
+-
+intent
 model_download
 :
 type
