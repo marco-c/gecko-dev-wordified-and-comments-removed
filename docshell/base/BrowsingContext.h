@@ -2617,6 +2617,11 @@ bool
 aNeedsCompletelyLoadedDocument
 =
 false
+nsIStructuredCloneContainer
+*
+aNavigationAPIState
+=
+nullptr
 )
 ;
 bool

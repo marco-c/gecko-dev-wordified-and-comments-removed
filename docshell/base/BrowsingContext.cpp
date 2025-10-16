@@ -12609,6 +12609,9 @@ NavigationHistoryBehavior
 aHistoryHandling
 bool
 aNeedsCompletelyLoadedDocument
+nsIStructuredCloneContainer
+*
+aNavigationAPIState
 )
 {
 MOZ_LOG_FMT
@@ -12836,6 +12839,14 @@ loadState
 SetFirstParty
 (
 true
+)
+;
+loadState
+-
+>
+SetNavigationAPIState
+(
+aNavigationAPIState
 )
 ;
 rv
