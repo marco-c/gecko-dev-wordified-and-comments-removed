@@ -61,7 +61,16 @@ LayersTypes
 h
 "
 #
-ifdef
+include
+"
+mozilla
+/
+Compiler
+.
+h
+"
+#
+if
 MOZ_IS_GCC
 #
 include
