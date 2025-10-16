@@ -45,6 +45,20 @@ build
 "
     
 "
+memory
+/
+replace
+/
+logalloc
+/
+replay
+/
+moz
+.
+build
+"
+    
+"
 toolkit
 /
 xre
