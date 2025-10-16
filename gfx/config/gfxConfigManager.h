@@ -143,10 +143,6 @@ mWrScissoredCacheClearsForceEnabled
 (
 false
 )
-mGPUProcessAllowSoftware
-(
-false
-)
 mWrEnvForceEnabled
 (
 false
@@ -320,9 +316,6 @@ mWrScissoredCacheClearsEnabled
 ;
 bool
 mWrScissoredCacheClearsForceEnabled
-;
-bool
-mGPUProcessAllowSoftware
 ;
 bool
 mWrEnvForceEnabled
