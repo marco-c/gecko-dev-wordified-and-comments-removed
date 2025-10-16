@@ -37,7 +37,7 @@ enabled
 )
 ;
 const
-backupGroupDisabled
+backupSectionDisabled
 =
 !
 SpecialPowers
@@ -262,11 +262,11 @@ id
 =
 =
 "
-dataBackupGroup
+dataBackupSection
 "
 &
 &
-backupGroupDisabled
+backupSectionDisabled
 )
 {
 is_element_hidden
@@ -274,7 +274,7 @@ is_element_hidden
 element
 "
 Disabled
-dataBackupGroup
+dataBackupSection
 should
 be
 hidden
