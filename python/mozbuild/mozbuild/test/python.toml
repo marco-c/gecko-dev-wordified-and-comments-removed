@@ -406,6 +406,13 @@ py
 ]
 [
 "
+test_legacy_test
+.
+py
+"
+]
+[
+"
 test_licenses
 .
 py
