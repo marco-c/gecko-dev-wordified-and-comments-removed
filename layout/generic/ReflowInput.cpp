@@ -6335,9 +6335,9 @@ GetWritingMode
 const
 auto
 [
-containingBlock
+blockContainer
 blockContainerBP
-blockContentSize
+blockContainerContentBoxSize
 ]
 =
 GetHypotheticalBoxContainer
@@ -6348,7 +6348,7 @@ aPlaceholderFrame
 WritingMode
 wm
 =
-containingBlock
+blockContainer
 -
 >
 GetWritingMode
@@ -6357,7 +6357,7 @@ GetWritingMode
 ;
 const
 nscoord
-blockIStartContentEdge
+blockContainerContentIStart
 =
 blockContainerBP
 .
@@ -6466,7 +6466,7 @@ LogicalAxis
 :
 :
 Inline
-blockContentSize
+blockContainerContentBoxSize
 .
 ISize
 (
@@ -6526,7 +6526,7 @@ boxISize
 .
 emplace
 (
-blockContentSize
+blockContainerContentBoxSize
 .
 ISize
 (
@@ -6547,7 +6547,7 @@ LogicalAxis
 :
 :
 Block
-blockContentSize
+blockContainerContentBoxSize
 .
 ISize
 (
@@ -6570,7 +6570,7 @@ ComputeISizeValue
 (
 mRenderingContext
 wm
-blockContentSize
+blockContainerContentBoxSize
 LogicalSize
 (
 wm
@@ -6613,9 +6613,9 @@ boxSizingToMarginEdgeISize
 }
 }
 nsSize
-containerSize
+blockContainerSize
 =
-containingBlock
+blockContainer
 -
 >
 HasAnyStateBits
@@ -6630,7 +6630,7 @@ ComputedSizeAsContainerIfConstrained
 (
 )
 :
-containingBlock
+blockContainer
 -
 >
 GetSize
@@ -6646,9 +6646,9 @@ aPlaceholderFrame
 >
 GetOffsetToIgnoringScrolling
 (
-containingBlock
+blockContainer
 )
-containerSize
+blockContainerSize
 )
 ;
 nsBlockFrame
@@ -6657,7 +6657,7 @@ blockFrame
 =
 do_QueryFrame
 (
-containingBlock
+blockContainer
 -
 >
 GetContentInsertionFrame
@@ -6683,7 +6683,7 @@ blockFrame
 >
 GetOffsetToIgnoringScrolling
 (
-containingBlock
+blockContainer
 )
 nullContainerSize
 )
@@ -7095,7 +7095,7 @@ aHypotheticalPos
 .
 mIStart
 =
-blockIStartContentEdge
+blockContainerContentIStart
 ;
 }
 const
@@ -7111,7 +7111,7 @@ mFrame
 nsPoint
 cbOffset
 =
-containingBlock
+blockContainer
 -
 >
 GetOffsetToIgnoringScrolling
@@ -7178,7 +7178,7 @@ top
 }
 }
 nsSize
-reflowSize
+cbSize
 =
 aCBReflowInput
 -
@@ -7192,9 +7192,9 @@ logCBOffs
 (
 wm
 cbOffset
-reflowSize
+cbSize
 -
-containerSize
+blockContainerSize
 )
 ;
 aHypotheticalPos
@@ -7345,7 +7345,7 @@ LogicalAxis
 :
 :
 Block
-blockContentSize
+blockContainerContentBoxSize
 .
 BSize
 (
@@ -7384,7 +7384,7 @@ IsAutoBSize
 (
 *
 styleBSize
-blockContentSize
+blockContainerContentBoxSize
 .
 BSize
 (
@@ -7447,7 +7447,7 @@ BehavesLikeStretchOnBlockAxis
 {
 MOZ_ASSERT
 (
-blockContentSize
+blockContainerContentBoxSize
 .
 BSize
 (
@@ -7490,7 +7490,7 @@ nsLayoutUtils
 :
 ComputeStretchContentBoxBSize
 (
-blockContentSize
+blockContainerContentBoxSize
 .
 BSize
 (
@@ -7510,7 +7510,7 @@ nsLayoutUtils
 :
 ComputeBSizeValue
 (
-blockContentSize
+blockContainerContentBoxSize
 .
 BSize
 (
@@ -7569,7 +7569,7 @@ GetPhysicalSize
 (
 wm
 )
-reflowSize
+cbSize
 )
 ;
 aHypotheticalPos
