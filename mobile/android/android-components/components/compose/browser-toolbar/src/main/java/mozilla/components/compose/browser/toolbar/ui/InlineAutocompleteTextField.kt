@@ -1167,6 +1167,10 @@ modifier
 update
 =
 {
+it
+.
+post
+{
 if
 (
 query
@@ -1214,6 +1218,7 @@ toArgb
 (
 )
 )
+}
 }
 }
 )
