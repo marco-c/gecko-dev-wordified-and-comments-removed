@@ -794,7 +794,7 @@ certificateChain
 &
 securityInfo
 .
-handshakeCertificates
+failedCertChain
 )
 {
 info
@@ -807,7 +807,7 @@ getCertificateChain
 (
 securityInfo
 .
-handshakeCertificates
+failedCertChain
 false
 options
 )

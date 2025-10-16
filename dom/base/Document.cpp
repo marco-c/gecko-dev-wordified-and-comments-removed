@@ -11106,16 +11106,16 @@ RefPtr
 nsIX509Cert
 >
 >
-handshakeCertificates
+failedCertArray
 ;
 rv
 =
 tsi
 -
 >
-GetHandshakeCertificates
+GetFailedCertChain
 (
-handshakeCertificates
+failedCertArray
 )
 ;
 if
@@ -11143,7 +11143,7 @@ if
 (
 NS_WARN_IF
 (
-handshakeCertificates
+failedCertArray
 .
 IsEmpty
 (
@@ -11168,7 +11168,7 @@ auto
 &
 certificate
 :
-handshakeCertificates
+failedCertArray
 )
 {
 rv

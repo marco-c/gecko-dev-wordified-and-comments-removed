@@ -140,7 +140,7 @@ nsIX509Cert
 >
 &
 &
-aHandshakeCertificates
+aFailedCertChain
 nsCOMPtr
 <
 nsIX509Cert
@@ -295,7 +295,7 @@ RefPtr
 nsIX509Cert
 >
 >
-mHandshakeCertificates
+mFailedCertChain
 ;
 const
 nsCOMPtr

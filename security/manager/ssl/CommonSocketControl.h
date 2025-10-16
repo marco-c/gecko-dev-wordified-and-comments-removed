@@ -328,7 +328,7 @@ certList
 )
 ;
 void
-SetHandshakeCertificates
+SetFailedCertChain
 (
 nsTArray
 <
@@ -614,7 +614,7 @@ RefPtr
 nsIX509Cert
 >
 >
-mHandshakeCertificates
+mFailedCertChain
 ;
 nsCOMPtr
 <

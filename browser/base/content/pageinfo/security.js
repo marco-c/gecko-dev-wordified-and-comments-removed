@@ -423,7 +423,7 @@ certChainArray
 =
 secInfo
 .
-handshakeCertificates
+failedCertChain
 ;
 }
 retval
