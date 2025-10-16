@@ -609,7 +609,16 @@ RefPtr
 nsHttpTransaction
 >
 >
-mQueuedTransaction
+mQueuedHttpConnectTransaction
+;
+nsTArray
+<
+RefPtr
+<
+nsHttpTransaction
+>
+>
+mQueuedConnectUdpTransaction
 ;
 }
 ;
