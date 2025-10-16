@@ -2070,6 +2070,9 @@ mLastTRRResponseTime
 uint32_t
 mTrrStreams
 ;
+nsCString
+mTrrHost
+;
 bool
 mEnableWebsockets
 =
