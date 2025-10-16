@@ -309,6 +309,13 @@ js
 ]
 [
 "
+test_invalidGrayBits
+.
+js
+"
+]
+[
+"
 test_ioutil
 .
 js
