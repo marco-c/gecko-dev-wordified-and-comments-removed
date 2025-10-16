@@ -7594,7 +7594,7 @@ logger
 .
 info
 (
-abandonment
+engagement
 event
 :
 eventInfo
@@ -7660,7 +7660,7 @@ logger
 .
 info
 (
-engagement
+abandonment
 event
 :
 eventInfo
