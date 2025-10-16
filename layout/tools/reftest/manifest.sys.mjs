@@ -4221,6 +4221,11 @@ sandbox
 wayland
 |
 |
+sandbox
+.
+cocoaWidget
+|
+|
 !
 (
 Services

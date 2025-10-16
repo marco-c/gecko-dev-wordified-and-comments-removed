@@ -58549,15 +58549,6 @@ see
 Bug
 1927058
 #
-elif
-defined
-(
-XP_MACOSX
-)
-value
-:
-IS_NIGHTLY_BUILD
-#
 else
 value
 :
