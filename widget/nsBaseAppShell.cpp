@@ -10,6 +10,15 @@ h
 #
 include
 "
+js
+/
+Initialization
+.
+h
+"
+#
+include
+"
 nsBaseAppShell
 .
 h
@@ -347,6 +356,13 @@ OnSystemTimezoneChange
 (
 )
 {
+if
+(
+JS_IsInitialized
+(
+)
+)
+{
 nsJSUtils
 :
 :
@@ -354,6 +370,7 @@ ResetTimeZone
 (
 )
 ;
+}
 nsCOMPtr
 <
 nsIObserverService
