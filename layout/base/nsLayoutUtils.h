@@ -5136,11 +5136,9 @@ static
 TransparencyMode
 GetFrameTransparency
 (
-const
 nsIFrame
 *
 aBackgroundFrame
-const
 nsIFrame
 *
 aCSSRootFrame
