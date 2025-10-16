@@ -810,7 +810,7 @@ setShowAsAction
 (
 MenuItem
 .
-SHOW_AS_ACTION_ALWAYS
+SHOW_AS_ACTION_IF_ROOM
 )
 item
 .
