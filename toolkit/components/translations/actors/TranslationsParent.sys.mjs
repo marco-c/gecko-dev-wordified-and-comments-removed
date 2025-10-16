@@ -5169,7 +5169,9 @@ findCompatibleSourceLangTagSync
 (
 detectedLanguages
 .
-identifiedLangTag
+identified
+.
+language
 await
 TranslationsParent
 .
@@ -22175,7 +22177,7 @@ htmlLangAttribute
 ?
 ?
 null
-identifiedLangTag
+identified
 :
 null
 }
