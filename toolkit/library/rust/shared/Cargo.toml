@@ -3036,15 +3036,6 @@ rusqlite
 in_gecko
 "
 ]
-webrender_debugger
-=
-[
-"
-webrender_bindings
-/
-debugger
-"
-]
 [
 lib
 ]
