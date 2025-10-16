@@ -97,10 +97,6 @@ platforms
 [
                 
 "
-linux
-"
-                
-"
 linux64
 "
                 
@@ -229,10 +225,6 @@ platforms
 [
                 
 "
-linux
-"
-                
-"
 linux64
 "
                 
@@ -715,10 +707,6 @@ platforms
 "
 :
 [
-                
-"
-linux
-"
                 
 "
 linux64
