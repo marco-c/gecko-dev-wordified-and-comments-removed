@@ -47,6 +47,13 @@ json
 ]
 [
 "
+test_taskbarTabs_installedCountMetric
+.
+js
+"
+]
+[
+"
 test_taskbarTabs_pin
 .
 js
