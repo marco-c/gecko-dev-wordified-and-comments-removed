@@ -8731,8 +8731,16 @@ R
 .
 string
 .
-webcompat_reporter_description_2
+webcompat_reporter_description_3
 appName
+getStringResource
+(
+R
+.
+string
+.
+webcompat_reporter_learn_more
+)
 )
 +
 "
