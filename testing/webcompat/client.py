@@ -6282,6 +6282,26 @@ sys
 mjs
 "
                   
+NavigableManager
+:
+"
+chrome
+:
+/
+/
+remote
+/
+content
+/
+shared
+/
+NavigableManager
+.
+sys
+.
+mjs
+"
+                  
 PromptListener
 :
 "
@@ -6341,7 +6361,7 @@ context
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getBrowsingContextById
 (
@@ -6674,7 +6694,7 @@ context
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowser
 (

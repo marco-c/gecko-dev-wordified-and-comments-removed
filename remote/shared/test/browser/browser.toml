@@ -36,6 +36,13 @@ js
 ]
 [
 "
+browser_NavigableManager
+.
+js
+"
+]
+[
+"
 browser_NavigationManager
 .
 js

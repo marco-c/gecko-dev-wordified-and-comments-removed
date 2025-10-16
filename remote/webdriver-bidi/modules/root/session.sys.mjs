@@ -198,6 +198,25 @@ sys
 .
 mjs
 "
+NavigableManager
+:
+"
+chrome
+:
+/
+/
+remote
+/
+content
+/
+shared
+/
+NavigableManager
+.
+sys
+.
+mjs
+"
 pprint
 :
 "
@@ -995,7 +1014,7 @@ add
 (
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowsingContext
 (
@@ -1111,7 +1130,7 @@ lazy
 .
 TabManager
 .
-tabs
+allTabs
 )
 {
 subscriptionNavigables
@@ -1701,7 +1720,7 @@ traversable
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getBrowsingContextById
 (
@@ -1936,7 +1955,7 @@ lazy
 .
 TabManager
 .
-tabs
+allTabs
 )
 {
 result
@@ -2334,7 +2353,7 @@ traversableId
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowsingContext
 (
@@ -2632,7 +2651,7 @@ traversable
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getBrowsingContextById
 (
@@ -2735,7 +2754,7 @@ traversable
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getBrowsingContextById
 (
@@ -3021,7 +3040,7 @@ navigable
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getBrowsingContextById
 (
@@ -3158,7 +3177,7 @@ navigable
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getBrowsingContextById
 (
@@ -3370,7 +3389,7 @@ add
 (
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowsingContext
 (
@@ -4064,7 +4083,7 @@ traversable
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getBrowsingContextById
 (

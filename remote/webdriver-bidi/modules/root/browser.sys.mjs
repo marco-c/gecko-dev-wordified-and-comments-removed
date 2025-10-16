@@ -881,7 +881,7 @@ lazy
 .
 TabManager
 .
-tabs
+allTabs
 )
 {
 lazy

@@ -89,7 +89,7 @@ sys
 .
 mjs
 "
-TabManager
+NavigableManager
 :
 "
 chrome
@@ -102,7 +102,7 @@ content
 /
 shared
 /
-TabManager
+NavigableManager
 .
 sys
 .
@@ -551,7 +551,7 @@ context
 :
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowsingContext
 (

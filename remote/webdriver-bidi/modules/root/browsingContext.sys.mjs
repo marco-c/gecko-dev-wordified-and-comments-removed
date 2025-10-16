@@ -333,6 +333,25 @@ sys
 .
 mjs
 "
+NavigableManager
+:
+"
+chrome
+:
+/
+/
+remote
+/
+content
+/
+shared
+/
+NavigableManager
+.
+sys
+.
+mjs
+"
 NavigationListener
 :
 "
@@ -3282,7 +3301,7 @@ context
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getBrowsingContextById
 (
@@ -3808,7 +3827,7 @@ referenceContext
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getBrowsingContextById
 (
@@ -4772,7 +4791,7 @@ context
 :
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowser
 (
@@ -11165,7 +11184,7 @@ context
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getBrowsingContextById
 (
@@ -12147,7 +12166,7 @@ navigableId
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowser
 (
@@ -12301,7 +12320,7 @@ navigableId
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowser
 (
@@ -14203,7 +14222,7 @@ null
 ?
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowsingContext
 (
@@ -14223,7 +14242,7 @@ context
 :
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowsingContext
 (
@@ -14344,7 +14363,7 @@ parentId
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowsingContext
 (

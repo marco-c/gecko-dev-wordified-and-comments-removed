@@ -169,6 +169,25 @@ sys
 .
 mjs
 "
+NavigableManager
+:
+"
+chrome
+:
+/
+/
+remote
+/
+content
+/
+shared
+/
+NavigableManager
+.
+sys
+.
+mjs
+"
 ParentWebProgressListener
 :
 "
@@ -1092,7 +1111,7 @@ navigableId
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowsingContext
 (
@@ -1467,7 +1486,7 @@ navigableId
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowsingContext
 (
@@ -1747,7 +1766,7 @@ navigableId
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowsingContext
 (
@@ -1923,7 +1942,7 @@ navigableId
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowsingContext
 (
@@ -2210,7 +2229,7 @@ navigableId
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowsingContext
 (
@@ -2639,7 +2658,7 @@ navigableId
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowsingContext
 (
@@ -2947,7 +2966,7 @@ navigableId
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowsingContext
 (
@@ -3720,7 +3739,7 @@ navigableId
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowsingContext
 (
@@ -3972,7 +3991,7 @@ navigableId
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowsingContext
 (
@@ -4393,7 +4412,7 @@ navigableId
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowsingContext
 (
@@ -4613,7 +4632,7 @@ navigableId
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowsingContext
 (
@@ -4742,7 +4761,7 @@ browsingContext
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getBrowsingContextById
 (
@@ -4763,7 +4782,7 @@ navigableId
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowsingContext
 (
@@ -4974,7 +4993,7 @@ browsingContext
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getBrowsingContextById
 (
@@ -4995,7 +5014,7 @@ navigableId
 =
 lazy
 .
-TabManager
+NavigableManager
 .
 getIdForBrowsingContext
 (
