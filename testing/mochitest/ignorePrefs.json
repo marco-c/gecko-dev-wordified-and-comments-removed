@@ -229,6 +229,13 @@ browser
 .
 urlbar
 .
+lastUrlbarSearchSeconds
+"
+"
+browser
+.
+urlbar
+.
 placeholderName
 "
 "

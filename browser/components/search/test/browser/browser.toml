@@ -590,6 +590,13 @@ js
 ]
 [
 "
+browser_search_lastused_pref
+.
+js
+"
+]
+[
+"
 browser_searchbar_addEngine
 .
 js

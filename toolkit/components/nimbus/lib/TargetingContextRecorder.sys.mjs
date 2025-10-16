@@ -1625,6 +1625,15 @@ browser
 .
 urlbar
 .
+lastUrlbarSearchSeconds
+"
+:
+PREF_INT
+"
+browser
+.
+urlbar
+.
 quicksuggest
 .
 dataCollection
