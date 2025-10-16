@@ -275,6 +275,13 @@ CommitToScreen
 0
 ;
 virtual
+void
+WaitUntilCommitToScreenHasBeenProcessed
+(
+)
+{
+}
+virtual
 UniquePtr
 <
 NativeLayerRootSnapshotter

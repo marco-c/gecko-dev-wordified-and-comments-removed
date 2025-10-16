@@ -157,6 +157,12 @@ CommitToScreen
 )
 override
 ;
+void
+WaitUntilCommitToScreenHasBeenProcessed
+(
+)
+override
+;
 RefPtr
 <
 NativeLayerRemoteChild

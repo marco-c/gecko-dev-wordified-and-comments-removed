@@ -310,6 +310,11 @@ Shmem
 pixels
 )
 ;
+sync
+Flush
+(
+)
+;
 }
 ;
 }

@@ -234,6 +234,12 @@ MaybeProcessScreenshotQueue
 override
 ;
 void
+WaitUntilPresentationFlushed
+(
+)
+override
+;
+void
 CompositorBeginFrame
 (
 )

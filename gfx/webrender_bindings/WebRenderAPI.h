@@ -1712,7 +1712,7 @@ WebRenderAPI
 )
 ;
 void
-WaitFlushed
+WaitUntilPresentationFlushed
 (
 )
 ;

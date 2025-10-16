@@ -191,6 +191,13 @@ true
 ;
 }
 virtual
+void
+WaitUntilPresentationFlushed
+(
+)
+{
+}
+virtual
 RenderedFrameId
 GetLastCompletedFrameId
 (

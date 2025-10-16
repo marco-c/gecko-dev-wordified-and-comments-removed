@@ -9325,7 +9325,7 @@ IsInCompositorThread
 mApi
 -
 >
-WaitFlushed
+WaitUntilPresentationFlushed
 (
 )
 ;
