@@ -612,6 +612,13 @@ js
 ]
 [
 "
+test_PrefUtils
+.
+js
+"
+]
+[
+"
 test_Preferences
 .
 js
