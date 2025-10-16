@@ -1116,6 +1116,22 @@ _issues
 )
     
 def
+generate_diff_stream
+(
+self
+)
+:
+        
+return
+self
+.
+repository
+.
+diff_stream
+(
+)
+    
+def
 log
 (
 self
