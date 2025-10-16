@@ -122,6 +122,9 @@ eCSSUnit_VMin
 eCSSUnit_VMax
 =
 953
+eCSSUnit_LastLength
+=
+eCSSUnit_VMax
 }
 ;
 struct
@@ -288,7 +291,7 @@ mUnit
 mUnit
 <
 =
-eCSSUnit_Pixel
+eCSSUnit_LastLength
 ;
 }
 static
