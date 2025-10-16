@@ -272,6 +272,15 @@ drawable
 /
 mozac_ic_plus_24
 "
+app
+:
+tint
+=
+"
+color
+/
+fx_mobile_icon_color_primary
+"
 /
 >
 <
