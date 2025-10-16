@@ -58,6 +58,9 @@ environment
 main
 -
 ping
+crash
+-
+ping
 backgroundhangmonitor
 -
 ping
