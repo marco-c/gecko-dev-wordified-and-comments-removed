@@ -807,7 +807,6 @@ readArrayLikeSummary
 (
 result
 reader
-flags
 depth
 shapes
 )
@@ -923,6 +922,7 @@ reader
 peekUint8
 (
 )
+=
 =
 =
 JSVAL_TYPE_MAGIC
@@ -1049,7 +1049,6 @@ readMapLikeSummary
 (
 result
 reader
-flags
 depth
 shapes
 )
@@ -1387,6 +1386,7 @@ if
 header
 =
 =
+=
 GETTER_SETTER_MAGIC
 )
 {
@@ -1508,6 +1508,7 @@ reader
 peekUint8
 (
 )
+=
 =
 =
 JSVAL_TYPE_MAGIC
@@ -1715,6 +1716,7 @@ if
 subkind
 =
 =
+=
 EXTERNAL_NODE_SUBKIND_ELEMENT
 )
 {
@@ -1793,6 +1795,7 @@ if
 subkind
 =
 =
+=
 EXTERNAL_NODE_SUBKIND_ATTR
 )
 {
@@ -1813,6 +1816,7 @@ if
 subkind
 =
 =
+=
 EXTERNAL_NODE_SUBKIND_DOCUMENT
 )
 {
@@ -1831,6 +1835,7 @@ else
 if
 (
 subkind
+=
 =
 =
 EXTERNAL_NODE_SUBKIND_DOCUMENT_FRAGMENT
@@ -1908,10 +1913,12 @@ if
 subkind
 =
 =
+=
 EXTERNAL_NODE_SUBKIND_TEXT
 |
 |
 subkind
+=
 =
 =
 EXTERNAL_NODE_SUBKIND_COMMENT
@@ -2389,7 +2396,6 @@ readArrayLikeSummary
 (
 result
 reader
-flags
 depth
 shapes
 )
@@ -2403,7 +2409,6 @@ readMapLikeSummary
 (
 result
 reader
-flags
 depth
 shapes
 )
@@ -2711,6 +2716,7 @@ if
 flags
 =
 =
+=
 NUMBER_IS_OUT_OF_LINE_MAGIC
 )
 {
@@ -2851,6 +2857,7 @@ if
 valuesBufferIndex
 =
 =
+=
 ZERO_ARGUMENTS_MAGIC
 )
 {
@@ -2864,6 +2871,7 @@ if
 valuesBufferIndex
 =
 =
+=
 EXPIRED_VALUES_MAGIC
 )
 {
@@ -2875,7 +2883,7 @@ missing
 "
 ;
 }
-let
+const
 reader
 =
 new
@@ -2885,7 +2893,7 @@ valuesBuffer
 valuesBufferIndex
 )
 ;
-let
+const
 argc
 =
 reader
@@ -2894,7 +2902,7 @@ readUint32
 (
 )
 ;
-let
+const
 args
 =
 new
