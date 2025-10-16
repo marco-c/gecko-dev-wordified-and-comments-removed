@@ -305,6 +305,13 @@ AndroidBuild
 h
 "
 #
+include
+"
+nsContentUtils
+.
+h
+"
+#
 endif
 #
 if
@@ -11566,10 +11573,10 @@ EnsureGPUReady
 ;
 MOZ_ASSERT
 (
+NS_SUCCEEDED
+(
 rv
-!
-=
-NS_ERROR_ILLEGAL_DURING_SHUTDOWN
+)
 )
 ;
 }

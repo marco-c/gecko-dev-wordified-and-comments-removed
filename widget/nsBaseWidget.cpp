@@ -7020,10 +7020,10 @@ if
 (
 NS_WARN_IF
 (
+NS_FAILED
+(
 rv
-=
-=
-NS_ERROR_ILLEGAL_DURING_SHUTDOWN
+)
 )
 )
 {
