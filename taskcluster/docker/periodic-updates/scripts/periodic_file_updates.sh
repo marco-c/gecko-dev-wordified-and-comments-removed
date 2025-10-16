@@ -925,7 +925,7 @@ UNPACK_CMD
 =
 "
 tar
-Jxf
+xf
 "
 COMMIT_AUTHOR
 =
@@ -944,13 +944,6 @@ WGET
 wget
 -
 nv
-"
-UNTAR
-=
-"
-tar
--
-zxf
 "
 DIFF
 =
@@ -2175,7 +2168,7 @@ tests
 cd
 tests
 {
-UNTAR
+UNPACK_CMD
 }
 "
 .
