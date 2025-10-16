@@ -223,6 +223,11 @@ extended
 =
 false
 ;
+bool
+keepGoing
+=
+false
+;
 private
 :
 explicit
@@ -371,6 +376,10 @@ counter
 <
 =
 0
+&
+&
+!
+keepGoing
 &
 &
 checkOverBudget
