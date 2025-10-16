@@ -1,5 +1,5 @@
 var
-toolbox
+gToolbox
 ;
 function
 test
@@ -88,12 +88,12 @@ then
 (
 function
 (
-aToolbox
+toolbox
 )
 {
-toolbox
+gToolbox
 =
-aToolbox
+toolbox
 ;
 checkToolLoading
 (
@@ -110,7 +110,7 @@ checkToolLoading
 {
 is
 (
-toolbox
+gToolbox
 .
 currentToolId
 "
@@ -127,7 +127,7 @@ selected
 ;
 ok
 (
-toolbox
+gToolbox
 .
 isReady
 "
@@ -181,7 +181,7 @@ id
 )
 {
 return
-toolbox
+gToolbox
 .
 selectTool
 (
@@ -197,7 +197,7 @@ function
 const
 tab
 =
-toolbox
+gToolbox
 .
 doc
 .
@@ -276,7 +276,7 @@ testToggle
 (
 )
 {
-toolbox
+gToolbox
 .
 once
 (
@@ -309,16 +309,16 @@ then
 (
 function
 (
-aToolbox
+toolbox
 )
 {
-toolbox
+gToolbox
 =
-aToolbox
+toolbox
 ;
 is
 (
-toolbox
+gToolbox
 .
 currentToolId
 "
@@ -343,7 +343,7 @@ finishUp
 }
 )
 ;
-toolbox
+gToolbox
 .
 destroy
 (
@@ -355,7 +355,7 @@ finishUp
 (
 )
 {
-toolbox
+gToolbox
 .
 destroy
 (
@@ -367,7 +367,7 @@ function
 (
 )
 {
-toolbox
+gToolbox
 =
 null
 ;

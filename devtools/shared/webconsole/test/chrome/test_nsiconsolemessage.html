@@ -207,7 +207,7 @@ state
 function
 onAttach
 (
-aState
+state
 )
 {
 onLogMessage
@@ -217,10 +217,10 @@ onLogMessage
 bind
 (
 null
-aState
+state
 )
 ;
-aState
+state
 .
 webConsoleFront
 .
@@ -283,8 +283,8 @@ receivedMessages
 function
 onLogMessage
 (
-aState
-aPacket
+state
+packet
 )
 {
 info
@@ -295,7 +295,7 @@ message
 :
 "
 +
-aPacket
+packet
 .
 message
 )
@@ -320,7 +320,7 @@ expected
 message
 =
 =
-aPacket
+packet
 .
 message
 )
@@ -346,7 +346,7 @@ receivedMessages
 .
 push
 (
-aPacket
+packet
 )
 ;
 if
@@ -364,7 +364,7 @@ length
 return
 ;
 }
-aState
+state
 .
 webConsoleFront
 .
@@ -384,7 +384,7 @@ expectedMessages
 ;
 closeDebugger
 (
-aState
+state
 (
 )
 =

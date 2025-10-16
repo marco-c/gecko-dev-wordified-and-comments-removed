@@ -368,7 +368,7 @@ addIframe
 function
 addIframe
 (
-aStatus
+status
 )
 {
 ok
@@ -377,7 +377,7 @@ Components
 .
 isSuccessCode
 (
-aStatus
+status
 )
 "
 the
@@ -462,12 +462,12 @@ state
 function
 onAttach
 (
-aState
+state
 )
 {
 gState
 =
-aState
+state
 ;
 gState
 .
@@ -489,7 +489,7 @@ doFileActivity
 function
 onFileActivity
 (
-aPacket
+packet
 )
 {
 gState
@@ -507,13 +507,13 @@ onFileActivity
 info
 (
 "
-aPacket
+packet
 .
 uri
 :
 "
 +
-aPacket
+packet
 .
 uri
 )
@@ -534,7 +534,7 @@ html
 .
 test
 (
-aPacket
+packet
 .
 uri
 )

@@ -22,7 +22,7 @@ async
 function
 runTests
 (
-aTab
+tab
 )
 {
 const
@@ -129,7 +129,7 @@ gDevTools
 .
 showToolboxForTab
 (
-aTab
+tab
 {
 toolId
 :

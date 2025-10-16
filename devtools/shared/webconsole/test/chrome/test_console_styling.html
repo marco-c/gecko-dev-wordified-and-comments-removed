@@ -680,7 +680,7 @@ response
 function
 onAttach
 (
-aState
+state
 )
 {
 onConsoleAPICall
@@ -690,10 +690,10 @@ onConsoleAPICall
 bind
 (
 null
-aState
+state
 )
 ;
-aState
+state
 .
 webConsoleFront
 .
@@ -707,7 +707,7 @@ onConsoleAPICall
 ;
 doConsoleCalls
 (
-aState
+state
 .
 actor
 )
@@ -722,8 +722,8 @@ consoleCalls
 function
 onConsoleAPICall
 (
-aState
-aPacket
+state
+packet
 )
 {
 info
@@ -735,7 +735,7 @@ level
 :
 "
 +
-aPacket
+packet
 .
 message
 .
@@ -746,7 +746,7 @@ consoleCalls
 .
 push
 (
-aPacket
+packet
 .
 message
 )
@@ -766,7 +766,7 @@ length
 return
 ;
 }
-aState
+state
 .
 webConsoleFront
 .
@@ -784,8 +784,8 @@ forEach
 (
 function
 (
-aMessage
-aIndex
+message
+index
 )
 {
 info
@@ -798,7 +798,7 @@ call
 #
 "
 +
-aIndex
+index
 )
 ;
 const
@@ -806,7 +806,7 @@ expected
 =
 expectedConsoleCalls
 [
-aIndex
+index
 ]
 ;
 const
@@ -814,7 +814,7 @@ consoleCall
 =
 consoleCalls
 [
-aIndex
+index
 ]
 ;
 if
@@ -863,7 +863,7 @@ consoleCalls
 ;
 closeDebugger
 (
-aState
+state
 function
 (
 )

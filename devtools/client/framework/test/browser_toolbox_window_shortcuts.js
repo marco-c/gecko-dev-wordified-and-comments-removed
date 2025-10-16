@@ -57,7 +57,7 @@ js
 )
 ;
 var
-toolbox
+gToolbox
 toolIDs
 toolShortcuts
 =
@@ -251,20 +251,20 @@ testShortcuts
 function
 testShortcuts
 (
-aToolbox
-aIndex
+toolbox
+index
 )
 {
 if
 (
-aIndex
+index
 =
 =
 =
 undefined
 )
 {
-aIndex
+index
 =
 1
 ;
@@ -272,7 +272,7 @@ aIndex
 else
 if
 (
-aIndex
+index
 =
 =
 toolIDs
@@ -287,9 +287,9 @@ tidyUp
 return
 ;
 }
-toolbox
+gToolbox
 =
-aToolbox
+toolbox
 ;
 info
 (
@@ -302,7 +302,7 @@ event
 "
 )
 ;
-toolbox
+gToolbox
 .
 once
 (
@@ -317,7 +317,7 @@ shortcut
 =
 toolShortcuts
 [
-aIndex
+index
 ]
 ;
 const
@@ -372,7 +372,7 @@ shift
 ;
 idIndex
 =
-aIndex
+index
 ;
 info
 (
@@ -383,7 +383,7 @@ for
 tool
 "
 +
-aIndex
+index
 +
 "
 :
@@ -391,7 +391,7 @@ aIndex
 +
 toolIDs
 [
-aIndex
+index
 ]
 +
 "
@@ -408,7 +408,7 @@ synthesizeKey
 (
 key
 modifiers
-toolbox
+gToolbox
 .
 win
 .
@@ -461,7 +461,7 @@ id
 ;
 testShortcuts
 (
-toolbox
+gToolbox
 idIndex
 +
 1
@@ -473,7 +473,7 @@ tidyUp
 (
 )
 {
-toolbox
+gToolbox
 .
 destroy
 (
@@ -509,7 +509,7 @@ pref
 )
 ;
 }
-toolbox
+gToolbox
 =
 toolIDs
 =

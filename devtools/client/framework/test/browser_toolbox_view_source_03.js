@@ -194,7 +194,7 @@ viewSource
 then
 (
 finish
-aError
+error
 =
 >
 {
@@ -208,7 +208,7 @@ error
 :
 "
 +
-aError
+error
 .
 message
 +
@@ -217,7 +217,7 @@ message
 n
 "
 +
-aError
+error
 .
 stack
 )

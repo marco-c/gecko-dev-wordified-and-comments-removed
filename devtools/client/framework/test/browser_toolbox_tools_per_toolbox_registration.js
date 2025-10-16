@@ -65,7 +65,7 @@ tool
 "
 ;
 var
-toolbox
+gToolbox
 ;
 function
 test
@@ -148,12 +148,12 @@ resolve
 function
 toolboxRegister
 (
-aToolbox
+toolbox
 )
 {
-toolbox
+gToolbox
 =
-aToolbox
+toolbox
 ;
 waitForToolInstanceBuild
 =
@@ -187,7 +187,7 @@ toolbox
 "
 )
 ;
-toolbox
+gToolbox
 .
 addAdditionalTool
 (
@@ -305,7 +305,7 @@ globally
 ;
 ok
 (
-toolbox
+gToolbox
 .
 hasAdditionalTool
 (
@@ -327,7 +327,7 @@ toolbox
 const
 doc
 =
-toolbox
+gToolbox
 .
 doc
 ;
@@ -570,7 +570,7 @@ toolbox
 "
 )
 ;
-toolbox
+gToolbox
 .
 removeAdditionalTool
 (
@@ -600,7 +600,7 @@ toolboxToolUnregistered
 ok
 (
 !
-toolbox
+gToolbox
 .
 hasAdditionalTool
 (
@@ -622,7 +622,7 @@ toolbox
 const
 doc
 =
-toolbox
+gToolbox
 .
 doc
 ;
@@ -697,7 +697,7 @@ cleanup
 (
 )
 {
-toolbox
+gToolbox
 .
 destroy
 (
@@ -710,7 +710,7 @@ then
 =
 >
 {
-toolbox
+gToolbox
 =
 null
 ;
