@@ -10619,6 +10619,9 @@ dismiss
 record
 (
 {
+.
+.
+.
 possiblyRedactedNewTabPing
 newtab_visit_id
 :
