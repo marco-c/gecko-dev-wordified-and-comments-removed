@@ -485,15 +485,6 @@ include
 "
 mozilla
 /
-TypedEnumBits
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Unused
 .
 h
