@@ -1000,7 +1000,7 @@ notifyObservers
 (
 entry
 "
-browser
+extension
 :
 purge
 -
@@ -1019,7 +1019,7 @@ notifyObservers
 (
 null
 "
-browser
+extension
 :
 purge
 -
