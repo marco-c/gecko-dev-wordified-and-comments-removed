@@ -6319,6 +6319,10 @@ const
 ReflowInput
 *
 aCBReflowInput
+const
+LogicalSize
+&
+aCBPaddingBoxSize
 nsHypotheticalPosition
 &
 aHypotheticalPos
@@ -7130,6 +7134,9 @@ GetOffsetToIgnoringScrolling
 cbFrame
 )
 ;
+nsSize
+cbSize
+;
 if
 (
 cbFrame
@@ -7187,8 +7194,18 @@ top
 )
 ;
 }
+cbSize
+=
+aCBPaddingBoxSize
+.
+GetPhysicalSize
+(
+cbwm
+)
+;
 }
-nsSize
+else
+{
 cbSize
 =
 aCBReflowInput
@@ -7198,6 +7215,7 @@ ComputedSizeAsContainerIfConstrained
 (
 )
 ;
+}
 LogicalPoint
 logCBOffs
 (
@@ -8084,6 +8102,7 @@ CalculateHypotheticalPosition
 (
 placeholderFrame
 aCBReflowInput
+aCBSize
 hypotheticalPos
 )
 ;

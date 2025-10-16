@@ -2322,6 +2322,10 @@ const
 ReflowInput
 *
 aCBReflowInput
+const
+LogicalSize
+&
+aCBPaddingBoxSize
 nsHypotheticalPosition
 &
 aHypotheticalPos
