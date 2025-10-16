@@ -3665,6 +3665,8 @@ MarkColor
 edge
 .
 color
+(
+)
 )
 )
 ;
@@ -3693,9 +3695,13 @@ ApplyGCThingTyped
 edge
 .
 target
+(
+)
 edge
 .
 target
+(
+)
 -
 >
 getTraceKind
@@ -3775,6 +3781,8 @@ return
 edge
 .
 color
+(
+)
 =
 =
 MarkColor
