@@ -794,6 +794,7 @@ IsGeneratedContentContainerForMarker
 ;
 }
 static
+const
 nsIFrame
 *
 GetAnchorForPositionedFrame

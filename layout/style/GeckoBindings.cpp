@@ -10368,6 +10368,7 @@ AsAtom
 ;
 }
 static
+const
 nsIFrame
 *
 GetAnchorOf
