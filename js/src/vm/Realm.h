@@ -2740,15 +2740,7 @@ char
 *
 locale
 )
-{
-behaviors_
-.
-setLocaleOverride
-(
-locale
-)
 ;
-}
 js
 :
 :

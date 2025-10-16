@@ -3466,6 +3466,16 @@ tryAttachStringToUpperCase
 )
 ;
 AttachDecision
+tryAttachStringToLocaleLowerCase
+(
+)
+;
+AttachDecision
+tryAttachStringToLocaleUpperCase
+(
+)
+;
+AttachDecision
 tryAttachStringTrim
 (
 )

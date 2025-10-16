@@ -805,6 +805,16 @@ StringToUpperCase
 \
 _
 (
+StringToLocaleLowerCase
+)
+\
+_
+(
+StringToLocaleUpperCase
+)
+\
+_
+(
 StringTrim
 )
 \
