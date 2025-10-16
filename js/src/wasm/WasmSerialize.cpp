@@ -5854,6 +5854,12 @@ StackMap
 *
 >
 item
+wasm
+:
+:
+StackMaps
+*
+stackMaps
 )
 {
 WASM_VERIFY_SERIALIZATION_FOR_SIZE
@@ -5882,9 +5888,9 @@ StackMap
 *
 map
 =
-StackMap
-:
-:
+stackMaps
+-
+>
 create
 (
 header
@@ -6039,7 +6045,7 @@ wasm
 :
 :
 StackMaps
-40
+200
 )
 ;
 size_t
@@ -6095,6 +6101,7 @@ CodeStackMap
 coder
 &
 map
+item
 )
 )
 ;
@@ -6104,7 +6111,7 @@ if
 item
 -
 >
-add
+finalize
 (
 codeOffset
 map
@@ -6158,7 +6165,7 @@ wasm
 :
 :
 StackMaps
-40
+200
 )
 ;
 STATIC_ASSERT_ENCODING_OR_SIZING
@@ -6191,7 +6198,7 @@ iter
 item
 -
 >
-mapping_
+codeOffsetToStackMap_
 .
 iter
 (
@@ -7658,7 +7665,7 @@ wasm
 :
 :
 CodeBlock
-2624
+2784
 )
 ;
 *
@@ -7997,7 +8004,7 @@ wasm
 :
 :
 CodeBlock
-2624
+2784
 )
 ;
 STATIC_ASSERT_ENCODING_OR_SIZING
