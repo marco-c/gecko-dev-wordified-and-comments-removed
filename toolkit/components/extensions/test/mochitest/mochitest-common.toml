@@ -887,6 +887,13 @@ http2
 ]
 [
 "
+test_ext_browsingData_sessionStorage
+.
+html
+"
+]
+[
+"
 test_ext_browsingData_settings
 .
 html
