@@ -68410,7 +68410,7 @@ type
 bool
 value
 :
-EARLY_BETA_OR_EARLIER
+IS_NIGHTLY_BUILD
 mirror
 :
 always
@@ -68656,7 +68656,7 @@ type
 bool
 value
 :
-EARLY_BETA_OR_EARLIER
+IS_NIGHTLY_BUILD
 mirror
 :
 always
