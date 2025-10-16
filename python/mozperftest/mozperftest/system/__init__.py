@@ -135,17 +135,13 @@ VersionProducer
     
 if
 flavor
-in
-(
+=
+=
 "
 desktop
 -
 browser
 "
-"
-xpcshell
-"
-)
 :
         
 return
@@ -157,6 +153,39 @@ env
 mach_cmd
             
 desktop_layers
+        
+)
+    
+if
+flavor
+=
+=
+"
+xpcshell
+"
+:
+        
+return
+Layers
+(
+            
+env
+            
+mach_cmd
+            
+[
+                
+PingServer
+                
+BinarySetup
+                
+MacosDevice
+                
+Profile
+                
+ProxyRunner
+            
+]
         
 )
     
