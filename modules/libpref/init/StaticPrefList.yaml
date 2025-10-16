@@ -8638,15 +8638,6 @@ crash
 pull
 at
 all
-#
-Disabled
-by
-default
-for
-now
-until
-further
-notice
 -
 name
 :
@@ -8660,7 +8651,7 @@ type
 bool
 value
 :
-false
+IS_NIGHTLY_BUILD
 mirror
 :
 always
@@ -8672,7 +8663,7 @@ the
 user
 to
 send
-targetted
+targeted
 crash
 report
 requested
