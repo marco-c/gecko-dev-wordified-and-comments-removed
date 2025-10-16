@@ -20,13 +20,12 @@ CHAT_BUTTON_CSS
 #
 GCLauncherbtn
 "
-UNSUPPORTED_CSS
+UNSUPPORTED_TEXT
 =
 "
-#
-unsupported
--
-browser
+Chrome
+or
+Safari
 "
 async
 def
@@ -54,19 +53,12 @@ is_displayed
 True
 )
     
-client
-.
-await_css
-(
-UNSUPPORTED_CSS
-)
-    
 return
 client
 .
-find_css
+find_text
 (
-UNSUPPORTED_CSS
+UNSUPPORTED_TEXT
 is_displayed
 =
 True
@@ -100,6 +92,7 @@ client
 :
     
 assert
+not
 await
 is_warning_shown
 (
