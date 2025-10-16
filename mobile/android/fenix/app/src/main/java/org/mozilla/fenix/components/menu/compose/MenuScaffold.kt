@@ -392,10 +392,7 @@ if
 (
 scrollState
 .
-value
-!
-=
-0
+canScrollBackward
 )
 {
 HorizontalDivider
