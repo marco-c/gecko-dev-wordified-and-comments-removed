@@ -145,7 +145,9 @@ MozXULElement
 insertFTLIfNeeded
 (
 "
-browser
+locales
+-
+preview
 /
 backupSettings
 .
