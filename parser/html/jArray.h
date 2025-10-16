@@ -27,6 +27,15 @@ BinarySearch
 .
 h
 "
+#
+include
+"
+mozilla
+/
+fallible
+.
+h
+"
 template
 <
 class
