@@ -910,11 +910,11 @@ String
 =
 mimeTypes
 .
-isNotEmpty
+isEmpty
 (
 )
-&
-&
+|
+|
 mimeTypes
 .
 any
