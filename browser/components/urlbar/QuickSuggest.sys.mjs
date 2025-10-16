@@ -682,6 +682,10 @@ DE
 "
 de
 "
+.
+.
+.
+EN_LOCALES
 ]
 true
 ]
@@ -692,6 +696,10 @@ FR
 "
 fr
 "
+.
+.
+.
+EN_LOCALES
 ]
 true
 ]
@@ -708,6 +716,10 @@ IT
 "
 it
 "
+.
+.
+.
+EN_LOCALES
 ]
 true
 ]
@@ -985,6 +997,10 @@ DE
 "
 de
 "
+.
+.
+.
+EN_LOCALES
 ]
 true
 ]
@@ -995,6 +1011,10 @@ FR
 "
 fr
 "
+.
+.
+.
+EN_LOCALES
 ]
 true
 ]
@@ -1011,6 +1031,10 @@ IT
 "
 it
 "
+.
+.
+.
+EN_LOCALES
 ]
 true
 ]

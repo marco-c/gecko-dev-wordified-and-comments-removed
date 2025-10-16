@@ -3079,7 +3079,7 @@ quicksuggest
 .
 settingsUi
 "
-0
+1
 )
 ;
 pref
