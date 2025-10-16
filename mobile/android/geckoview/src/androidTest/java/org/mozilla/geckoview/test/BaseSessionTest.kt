@@ -251,6 +251,15 @@ crashcontent
 "
 const
 val
+CONTENT_CRASH_JAVA_URL
+=
+"
+about
+:
+crashcontentjava
+"
+const
+val
 DND_HTML_PATH
 =
 "
