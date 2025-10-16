@@ -26182,6 +26182,16 @@ lighter
 "
 )
     
+Atom
+(
+"
+AnchorPosImplicitAnchor
+"
+"
+AnchorPosImplicitAnchor
+"
+)
+    
 PseudoElementAtom
 (
 "
