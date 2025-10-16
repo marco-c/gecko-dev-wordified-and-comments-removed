@@ -1166,6 +1166,13 @@ tabs
 variant
 [
 "
+browser_move_externally_opened_tabs_telemetry
+.
+js
+"
+]
+[
+"
 browser_multiselect_tabs_active_tab_selected_by_default
 .
 js
