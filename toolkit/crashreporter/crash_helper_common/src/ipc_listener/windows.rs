@@ -31,7 +31,6 @@ ffi
 :
 :
 {
-c_void
 CStr
 CString
 OsString
@@ -132,6 +131,9 @@ impl
 IPCListener
 {
 pub
+(
+crate
+)
 fn
 new
 (
@@ -203,6 +205,9 @@ as
 HANDLE
 }
 pub
+(
+crate
+)
 fn
 address
 (
@@ -220,6 +225,9 @@ self
 server_addr
 }
 pub
+(
+crate
+)
 fn
 listen
 (
@@ -367,7 +375,7 @@ listen
 IPCConnector
 :
 :
-new
+from_ancillary
 (
 connected_pipe
 )
@@ -491,15 +499,6 @@ ParseError
 let
 handle
 =
-handle
-as
-*
-mut
-c_void
-;
-let
-handle
-=
 unsafe
 {
 OwnedHandle
@@ -508,6 +507,8 @@ OwnedHandle
 from_raw_handle
 (
 handle
+as
+RawHandle
 )
 }
 ;
