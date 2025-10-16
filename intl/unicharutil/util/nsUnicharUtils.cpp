@@ -2980,6 +2980,12 @@ kFullwidthTilde
 =
 0xFF5E
 ;
+constexpr
+uint32_t
+kIdeographicSpace
+=
+0x3000
+;
 return
 intl
 :
@@ -3018,6 +3024,12 @@ u
 =
 =
 kFullwidthTilde
+|
+|
+u
+=
+=
+kIdeographicSpace
 )
 ;
 }
