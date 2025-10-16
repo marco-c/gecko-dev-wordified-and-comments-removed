@@ -2895,7 +2895,7 @@ urlbar
 isAddressbar
 :
 true
-eventTelemetryCategory
+sapName
 :
 "
 urlbar
