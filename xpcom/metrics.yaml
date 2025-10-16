@@ -2777,7 +2777,7 @@ resident_fast
 :
 type
 :
-memory_distribution
+labeled_memory_distribution
 description
 :
 >
@@ -2787,6 +2787,9 @@ size
 (
 KB
 )
+by
+process
+type
 This
 metric
 was
@@ -2894,14 +2897,11 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-MEMORY_RESIDENT_FAST
 resident_peak
 :
 type
 :
-memory_distribution
+labeled_memory_distribution
 description
 :
 >
@@ -2912,6 +2912,9 @@ size
 (
 KB
 )
+by
+process
+type
 This
 metric
 was
@@ -3024,9 +3027,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-MEMORY_RESIDENT_PEAK
 total
 :
 type
@@ -3370,7 +3370,7 @@ unique
 :
 type
 :
-memory_distribution
+labeled_memory_distribution
 description
 :
 >
@@ -3380,6 +3380,9 @@ Size
 (
 KB
 )
+by
+process
+type
 This
 metric
 was
@@ -3487,9 +3490,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-MEMORY_UNIQUE
 vsize
 :
 type
@@ -4098,7 +4098,7 @@ js_gc_heap
 :
 type
 :
-memory_distribution
+labeled_memory_distribution
 description
 :
 >
@@ -4114,6 +4114,9 @@ heap
 (
 KB
 )
+by
+process
+type
 This
 metric
 was
@@ -4185,9 +4188,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-MEMORY_JS_GC_HEAP
 storage_sqlite
 :
 type
