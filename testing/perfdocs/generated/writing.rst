@@ -604,7 +604,7 @@ tests
 .
 tar
 .
-zst
+gz
 archive
 from
 the
@@ -1401,7 +1401,7 @@ tests
 .
 tar
 .
-zst
+gz
 archive
 from
 the
@@ -1593,7 +1593,7 @@ tests
 .
 tar
 .
-zst
+gz
 -
 artifact
 :
@@ -1609,7 +1609,7 @@ tests
 .
 tar
 .
-zst
+gz
 -
 artifact
 :
@@ -1625,7 +1625,7 @@ tests
 .
 tar
 .
-zst
+gz
 -
 artifact
 :
@@ -1641,7 +1641,7 @@ tests
 .
 tar
 .
-zst
+gz
 toolchain
 :
 -

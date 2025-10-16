@@ -243,7 +243,7 @@ tests
 .
 tar
 .
-zst
+gz
 worker
 :
 docker
@@ -395,7 +395,7 @@ tests
 .
 tar
 .
-zst
+gz
 -
 artifact
 :
@@ -498,7 +498,7 @@ tests
 .
 tar
 .
-zst
+gz
 -
 artifact
 :
@@ -603,7 +603,7 @@ tests
 .
 tar
 .
-zst
+gz
 -
 artifact
 :
