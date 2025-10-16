@@ -134,6 +134,13 @@ js
 ]
 [
 "
+test_NewTabAttributionFeed
+.
+js
+"
+]
+[
+"
 test_NewTabAttributionService
 .
 js
