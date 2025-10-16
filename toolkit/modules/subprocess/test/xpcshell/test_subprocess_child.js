@@ -865,17 +865,6 @@ stdoutDonePromise
 if
 (
 wasChildAlive
-&
-&
-AppConstants
-.
-platform
-!
-=
-=
-"
-win
-"
 )
 {
 equal

@@ -756,6 +756,17 @@ if
 (
 !
 ok
+&
+&
+ctypes
+.
+winLastError
+!
+=
+=
+win32
+.
+ERROR_IO_INCOMPLETE
 )
 {
 this
