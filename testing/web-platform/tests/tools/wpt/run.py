@@ -7394,8 +7394,6 @@ venv
 *
 wptrunner_kwargs
 )
->
-0
     
 finally
 :
