@@ -201,7 +201,7 @@ equal
 (
 transportSecurityInfo
 .
-failedCertChain
+handshakeCertificates
 .
 length
 2
@@ -213,7 +213,7 @@ example
 com
 should
 have
-failedCertChain
+handshakeCertificates
 set
 "
 )
@@ -407,10 +407,10 @@ equal
 (
 transportSecurityInfo
 .
-failedCertChain
+handshakeCertificates
 .
 length
-0
+2
 "
 ev
 -
@@ -420,9 +420,8 @@ example
 .
 com
 should
-not
 have
-failedCertChain
+handshakeCertificates
 set
 "
 )

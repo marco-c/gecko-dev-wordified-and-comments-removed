@@ -247,7 +247,7 @@ exportableFunctions
 )
 ;
 }
-getFailedCertChain
+getHandshakeCertificates
 (
 docShell
 )
@@ -280,7 +280,7 @@ return
 return
 securityInfo
 .
-failedCertChain
+handshakeCertificates
 .
 map
 (
@@ -388,11 +388,11 @@ elementId
 elem
 .
 id
-failedCertChain
+handshakeCertificates
 :
 this
 .
-getFailedCertChain
+getHandshakeCertificates
 (
 doc
 .
