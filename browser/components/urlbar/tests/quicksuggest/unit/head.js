@@ -550,7 +550,7 @@ i
 await
 QuickSuggest
 .
-_test_reinit
+_test_reset
 (
 {
 .

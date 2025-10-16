@@ -734,7 +734,7 @@ Suggest
 await
 QuickSuggest
 .
-_test_reinit
+_test_reset
 (
 )
 ;
@@ -904,7 +904,7 @@ forceSync
 await
 QuickSuggest
 .
-_test_reinit
+_test_reset
 (
 )
 ;
