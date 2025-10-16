@@ -263,14 +263,6 @@ backend
 }
 )
 ;
-Services
-.
-fog
-.
-testResetFOG
-(
-)
-;
 await
 SpecialPowers
 .
