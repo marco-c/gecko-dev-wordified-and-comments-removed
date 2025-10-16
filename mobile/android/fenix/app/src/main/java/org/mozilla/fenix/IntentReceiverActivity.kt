@@ -293,16 +293,6 @@ fenix
 .
 perf
 .
-AppLinkIntentLaunchTypeProvider
-import
-org
-.
-mozilla
-.
-fenix
-.
-perf
-.
 MarkersActivityLifecycleCallbacks
 import
 org
@@ -487,7 +477,9 @@ widget
 val
 type
 =
-AppLinkIntentLaunchTypeProvider
+components
+.
+appLinkIntentLaunchTypeProvider
 .
 getExternalIntentLaunchType
 (
