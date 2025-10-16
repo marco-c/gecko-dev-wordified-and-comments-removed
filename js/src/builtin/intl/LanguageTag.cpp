@@ -1202,7 +1202,7 @@ JS
 :
 Result
 <
-JSString
+JSLinearString
 *
 >
 js
@@ -1381,7 +1381,7 @@ return
 nullptr
 ;
 }
-JSString
+JSLinearString
 *
 result
 ;

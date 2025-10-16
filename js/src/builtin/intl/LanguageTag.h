@@ -60,10 +60,6 @@ JSLinearString
 ;
 class
 JS_PUBLIC_API
-JSString
-;
-class
-JS_PUBLIC_API
 JSTracer
 ;
 namespace
@@ -226,7 +222,7 @@ JS
 :
 Result
 <
-JSString
+JSLinearString
 *
 >
 ParseStandaloneISO639LanguageTag
