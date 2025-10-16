@@ -2954,6 +2954,13 @@ debug
 ]
 [
 "
+test_ext_storage_local_corrupted_idb
+.
+js
+"
+]
+[
+"
 test_ext_storage_managed
 .
 js
