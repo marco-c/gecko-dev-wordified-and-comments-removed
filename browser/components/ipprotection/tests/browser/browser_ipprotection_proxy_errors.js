@@ -131,6 +131,12 @@ IPPChannelFilter
 .
 create
 (
+)
+;
+filter
+.
+initialize
+(
 "
 "
 proxyInfo
