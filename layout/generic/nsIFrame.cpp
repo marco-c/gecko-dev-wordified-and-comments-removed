@@ -26648,14 +26648,6 @@ aFrame
 IsTextInputFrame
 (
 )
-|
-|
-aFrame
--
->
-IsListControlFrame
-(
-)
 )
 {
 MOZ_ASSERT
