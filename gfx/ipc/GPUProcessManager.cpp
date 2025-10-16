@@ -2327,7 +2327,7 @@ EnsureCompositorManagerChild
 (
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 IsGPUReady
 (
@@ -2490,7 +2490,7 @@ EnsureImageBridgeChild
 (
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 IsGPUReady
 (
@@ -2644,7 +2644,7 @@ EnsureVRManager
 (
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 IsGPUReady
 (
@@ -2807,7 +2807,7 @@ LayersId
 aId
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 IsGPUReady
 (
@@ -5561,7 +5561,7 @@ bool
 aRetryOut
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 IsGPUReady
 (
@@ -6321,7 +6321,7 @@ PCompositorManagerChild
 aOutEndpoint
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 IsGPUReady
 (
@@ -6511,7 +6511,7 @@ PImageBridgeChild
 aOutEndpoint
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 IsGPUReady
 (
@@ -6779,7 +6779,7 @@ PVRManagerChild
 aOutEndpoint
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 IsGPUReady
 (
@@ -6983,7 +6983,7 @@ PRemoteMediaManagerChild
 aOutEndpoint
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 IsGPUReady
 (
