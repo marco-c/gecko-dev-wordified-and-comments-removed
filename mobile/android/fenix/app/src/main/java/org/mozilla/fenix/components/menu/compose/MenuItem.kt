@@ -1889,7 +1889,7 @@ FirefoxTheme
 .
 colors
 .
-layerSearch
+layer2
 state
 =
 MenuItemState
