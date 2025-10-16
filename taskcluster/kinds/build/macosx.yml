@@ -2711,7 +2711,7 @@ tests
 .
 tar
 .
-gz
+zst
 extract
 :
 false
