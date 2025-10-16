@@ -4294,6 +4294,13 @@ js
 ]
 [
 "
+browser_unified_extensions_empty_panel
+.
+js
+"
+]
+[
+"
 browser_unified_extensions_item_messagebar
 .
 js
