@@ -926,6 +926,7 @@ join
 (
                 
 [
+                    
 f
 "
 <
@@ -934,6 +935,7 @@ dep
 }
 >
 "
+                    
 for
 dep
 in
@@ -943,12 +945,22 @@ task
 dependencies
 "
 ]
+                    
 if
+(
 "
 signing
 "
 in
 dep
+or
+"
+notarization
+"
+in
+dep
+)
+                
 ]
             
 )
