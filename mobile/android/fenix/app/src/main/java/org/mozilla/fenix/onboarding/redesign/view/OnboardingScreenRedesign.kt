@@ -2014,6 +2014,7 @@ pageSpacing
 pageSpacing
 (
 isLargeScreen
+isSmallPhoneScreen
 pagePeekWidth
 )
 key
@@ -2716,6 +2717,9 @@ pageSpacing
 isLargeScreen
 :
 Boolean
+isSmallScreen
+:
+Boolean
 pagePeekWidth
 :
 Dp
@@ -2724,6 +2728,9 @@ Dp
 if
 (
 isLargeScreen
+|
+|
+isSmallScreen
 )
 pagePeekWidth
 else
