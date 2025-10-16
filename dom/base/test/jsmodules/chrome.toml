@@ -77,6 +77,11 @@ import_parse_error_3
 mjs
 "
 "
+large_module_import_404
+.
+mjs
+"
+"
 exportA1
 .
 mjs
@@ -329,6 +334,13 @@ html
 [
 "
 test_importedModuleMemoization
+.
+html
+"
+]
+[
+"
+test_large_module_import_404
 .
 html
 "
