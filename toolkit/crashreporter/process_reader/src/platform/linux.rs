@@ -324,7 +324,6 @@ name
 ?
 ;
 if
-&
 name
 =
 =
