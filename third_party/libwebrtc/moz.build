@@ -607,6 +607,16 @@ libwebrtc
 /
 api
 /
+frame_transformer_factory_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+api
+/
 frame_transformer_interface_gn
 "
 "
