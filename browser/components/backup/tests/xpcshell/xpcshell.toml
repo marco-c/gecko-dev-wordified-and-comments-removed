@@ -178,6 +178,13 @@ js
 ]
 [
 "
+test_BackupService_enabled
+.
+js
+"
+]
+[
+"
 test_BackupService_finalizeSingleFileArchive
 .
 js
