@@ -298,7 +298,7 @@ const
 uint8_t
 GETTER_SETTER_MAGIC
 =
-0x0f
+0xf0
 ;
 enum
 class
