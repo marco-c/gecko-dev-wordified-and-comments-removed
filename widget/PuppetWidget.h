@@ -27,7 +27,7 @@ h
 #
 include
 "
-nsBaseWidget
+nsIWidget
 .
 h
 "
@@ -92,6 +92,9 @@ MemoryPressureObserver
 .
 h
 "
+class
+nsRefreshDriver
+;
 namespace
 mozilla
 {
@@ -126,7 +129,7 @@ PuppetWidget
 final
 :
 public
-nsBaseWidget
+nsIWidget
 public
 TextEventDispatcherListener
 public
@@ -193,7 +196,7 @@ TextEventDispatcherListener
 TextEventDispatcherListener
 ;
 typedef
-nsBaseWidget
+nsIWidget
 Base
 ;
 public
@@ -218,7 +221,7 @@ public
 :
 NS_DECL_ISUPPORTS_INHERITED
 using
-nsBaseWidget
+nsIWidget
 :
 :
 Create
@@ -1113,7 +1116,7 @@ aFontName
 override
 ;
 using
-nsBaseWidget
+nsIWidget
 :
 :
 NotifyIME

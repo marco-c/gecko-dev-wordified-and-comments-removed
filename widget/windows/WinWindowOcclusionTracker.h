@@ -77,7 +77,7 @@ nsThreadUtils
 h
 "
 class
-nsBaseWidget
+nsIWidget
 ;
 struct
 IVirtualDesktopManager
@@ -155,7 +155,7 @@ IsInWinWindowOcclusionThread
 void
 Enable
 (
-nsBaseWidget
+nsIWidget
 *
 aWindow
 HWND
@@ -165,7 +165,7 @@ aHwnd
 void
 Disable
 (
-nsBaseWidget
+nsIWidget
 *
 aWindow
 HWND
@@ -175,7 +175,7 @@ aHwnd
 void
 OnWindowVisibilityChanged
 (
-nsBaseWidget
+nsIWidget
 *
 aWindow
 bool

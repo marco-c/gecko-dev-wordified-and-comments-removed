@@ -140,7 +140,7 @@ h
 #
 include
 "
-nsBaseWidget
+nsIWidget
 .
 h
 "
@@ -844,7 +844,7 @@ nsWindow
 final
 :
 public
-nsBaseWidget
+nsIWidget
 {
 public
 :
@@ -895,7 +895,7 @@ ReleaseGlobals
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 nsWindow
-nsBaseWidget
+nsIWidget
 )
 nsresult
 DispatchEvent
@@ -924,7 +924,7 @@ AreBoundsSane
 )
 ;
 using
-nsBaseWidget
+nsIWidget
 :
 :
 Create

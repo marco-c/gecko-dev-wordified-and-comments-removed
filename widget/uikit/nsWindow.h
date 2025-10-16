@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsBaseWidget
+nsIWidget
 .
 h
 "
@@ -116,7 +116,7 @@ nsWindow
 final
 :
 public
-nsBaseWidget
+nsIWidget
 {
 public
 :

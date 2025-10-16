@@ -37,6 +37,13 @@ h
 #
 include
 "
+nsIObserverService
+.
+h
+"
+#
+include
+"
 gfxPlatform
 .
 h

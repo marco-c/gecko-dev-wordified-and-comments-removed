@@ -88,7 +88,7 @@ h
 #
 include
 "
-nsBaseWidget
+nsIWidget
 .
 h
 "
@@ -130,7 +130,7 @@ RemoteCompositorSession
 :
 RemoteCompositorSession
 (
-nsBaseWidget
+nsIWidget
 *
 aWidget
 CompositorBridgeChild
@@ -238,7 +238,7 @@ NotifySessionLost
 {
 RefPtr
 <
-nsBaseWidget
+nsIWidget
 >
 widget
 (

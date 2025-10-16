@@ -910,7 +910,7 @@ nsIRollupListener
 *
 rollupListener
 =
-nsBaseWidget
+nsIWidget
 :
 :
 GetActiveRollupListener
@@ -1550,7 +1550,7 @@ isDragInProgress
 return
 ;
 }
-nsBaseWidget
+nsIWidget
 :
 :
 SetCursor
@@ -3600,7 +3600,7 @@ LayersBackend
 LAYERS_NONE
 )
 {
-nsBaseWidget
+nsIWidget
 :
 :
 AutoLayerManagerSetup
@@ -4001,7 +4001,7 @@ EnsureGPUReady
 (
 )
 ;
-nsBaseWidget
+nsIWidget
 :
 :
 CreateCompositor
@@ -4436,7 +4436,7 @@ Close
 )
 ;
 }
-nsBaseWidget
+nsIWidget
 :
 :
 DestroyCompositor
@@ -4485,7 +4485,7 @@ afterDelay
 kTriggerPaintDelayAfterGpuProcessCrash
 ]
 ;
-nsBaseWidget
+nsIWidget
 :
 :
 NotifyCompositorSessionLost
@@ -7832,7 +7832,7 @@ nsIRollupListener
 *
 rollupListener
 =
-nsBaseWidget
+nsIWidget
 :
 :
 GetActiveRollupListener
@@ -7963,7 +7963,7 @@ nsIRollupListener
 *
 rollupListener
 =
-nsBaseWidget
+nsIWidget
 :
 :
 GetActiveRollupListener
@@ -21261,14 +21261,14 @@ DestroyNativeWindow
 )
 ;
 }
-nsBaseWidget
+nsIWidget
 :
 :
 OnDestroy
 (
 )
 ;
-nsBaseWidget
+nsIWidget
 :
 :
 Destroy
@@ -22328,7 +22328,7 @@ false
 ;
 }
 return
-nsBaseWidget
+nsIWidget
 :
 :
 ShouldUseOffMainThreadCompositing
@@ -22954,7 +22954,7 @@ maxSize
 =
 maxSize
 ;
-nsBaseWidget
+nsIWidget
 :
 :
 SetSizeConstraints
@@ -25344,7 +25344,7 @@ HideOSChromeOnScreen
 true
 )
 ;
-nsBaseWidget
+nsIWidget
 :
 :
 InfallibleMakeFullScreen
@@ -25442,7 +25442,7 @@ HideOSChromeOnScreen
 false
 )
 ;
-nsBaseWidget
+nsIWidget
 :
 :
 InfallibleMakeFullScreen

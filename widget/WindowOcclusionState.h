@@ -4,6 +4,11 @@ widget_WindowOcclusionState_h
 #
 define
 widget_WindowOcclusionState_h
+#
+include
+<
+cstdint
+>
 namespace
 mozilla
 {
@@ -13,6 +18,8 @@ widget
 enum
 class
 OcclusionState
+:
+uint8_t
 {
 UNKNOWN
 =

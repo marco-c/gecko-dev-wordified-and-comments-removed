@@ -152,7 +152,7 @@ nsThreadUtils
 h
 "
 class
-nsBaseWidget
+nsIWidget
 ;
 enum
 class
@@ -415,7 +415,7 @@ CompositorSession
 >
 CreateTopLevelCompositor
 (
-nsBaseWidget
+nsIWidget
 *
 aWidget
 WebRenderLayerManager
@@ -1199,7 +1199,7 @@ UiCompositorControllerChild
 >
 CreateUiCompositorController
 (
-nsBaseWidget
+nsIWidget
 *
 aWidget
 const
@@ -1215,7 +1215,7 @@ CompositorSession
 >
 CreateRemoteSession
 (
-nsBaseWidget
+nsIWidget
 *
 aWidget
 WebRenderLayerManager

@@ -62,7 +62,7 @@ h
 #
 endif
 class
-nsBaseWidget
+nsIWidget
 ;
 namespace
 mozilla
@@ -258,7 +258,7 @@ protected
 :
 CompositorSession
 (
-nsBaseWidget
+nsIWidget
 *
 aWidget
 CompositorWidgetDelegate
@@ -281,7 +281,7 @@ CompositorSession
 ;
 protected
 :
-nsBaseWidget
+nsIWidget
 *
 mWidget
 ;

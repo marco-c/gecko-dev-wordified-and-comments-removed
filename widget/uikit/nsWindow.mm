@@ -4030,7 +4030,7 @@ end
 NS_IMPL_ISUPPORTS_INHERITED
 (
 nsWindow
-nsBaseWidget
+nsIWidget
 nsWindow
 )
 ;
@@ -4287,7 +4287,7 @@ BorderStyle
 :
 Default
 ;
-nsBaseWidget
+nsIWidget
 :
 :
 BaseCreate
@@ -4518,7 +4518,7 @@ kungFuDeathGrip
 this
 )
 ;
-nsBaseWidget
+nsIWidget
 :
 :
 Destroy
@@ -4529,7 +4529,7 @@ TearDownView
 (
 )
 ;
-nsBaseWidget
+nsIWidget
 :
 :
 OnDestroy
@@ -4994,7 +4994,7 @@ aMode
 nsSizeMode_Fullscreen
 )
 {
-nsBaseWidget
+nsIWidget
 :
 :
 InfallibleMakeFullScreen

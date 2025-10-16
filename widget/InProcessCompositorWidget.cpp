@@ -17,7 +17,7 @@ h
 #
 include
 "
-nsBaseWidget
+nsIWidget
 .
 h
 "
@@ -65,13 +65,13 @@ nsIWidget
 aWidget
 )
 {
-nsBaseWidget
+nsIWidget
 *
 widget
 =
 static_cast
 <
-nsBaseWidget
+nsIWidget
 *
 >
 (
@@ -106,7 +106,7 @@ layers
 CompositorOptions
 &
 aOptions
-nsBaseWidget
+nsIWidget
 *
 aWidget
 )

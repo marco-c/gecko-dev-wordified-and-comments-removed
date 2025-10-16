@@ -50,7 +50,7 @@ h
 #
 include
 "
-nsBaseWidget
+nsIWidget
 .
 h
 "
@@ -713,7 +713,7 @@ nsCocoaWindow
 final
 :
 public
-nsBaseWidget
+nsIWidget
 {
 private
 :
@@ -722,7 +722,7 @@ class
 nsChildView
 ;
 typedef
-nsBaseWidget
+nsIWidget
 Inherited
 ;
 public

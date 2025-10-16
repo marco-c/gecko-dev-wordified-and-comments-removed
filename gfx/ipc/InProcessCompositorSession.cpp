@@ -96,7 +96,7 @@ h
 #
 include
 "
-nsBaseWidget
+nsIWidget
 .
 h
 "
@@ -111,7 +111,7 @@ InProcessCompositorSession
 :
 InProcessCompositorSession
 (
-nsBaseWidget
+nsIWidget
 *
 aWidget
 widget
@@ -180,7 +180,7 @@ InProcessCompositorSession
 :
 Create
 (
-nsBaseWidget
+nsIWidget
 *
 aWidget
 WebRenderLayerManager
@@ -335,7 +335,7 @@ NotifySessionLost
 {
 RefPtr
 <
-nsBaseWidget
+nsIWidget
 >
 widget
 (

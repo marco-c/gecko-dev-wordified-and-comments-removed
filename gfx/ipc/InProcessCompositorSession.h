@@ -60,7 +60,7 @@ InProcessCompositorSession
 >
 Create
 (
-nsBaseWidget
+nsIWidget
 *
 baseWidget
 WebRenderLayerManager
@@ -140,7 +140,7 @@ private
 :
 InProcessCompositorSession
 (
-nsBaseWidget
+nsIWidget
 *
 aWidget
 widget

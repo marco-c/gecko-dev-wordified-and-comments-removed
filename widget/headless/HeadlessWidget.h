@@ -18,7 +18,7 @@ h
 #
 include
 "
-nsBaseWidget
+nsIWidget
 .
 h
 "
@@ -182,7 +182,7 @@ HeadlessWidget
 final
 :
 public
-nsBaseWidget
+nsIWidget
 {
 public
 :
@@ -193,7 +193,7 @@ HeadlessWidget
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 HeadlessWidget
-nsBaseWidget
+nsIWidget
 )
 void
 *
@@ -230,7 +230,7 @@ nullptr
 override
 ;
 using
-nsBaseWidget
+nsIWidget
 :
 :
 Create

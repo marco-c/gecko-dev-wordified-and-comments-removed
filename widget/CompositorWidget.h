@@ -80,7 +80,7 @@ class
 nsIWidget
 ;
 class
-nsBaseWidget
+nsIWidget
 ;
 namespace
 mozilla

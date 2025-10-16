@@ -19,7 +19,7 @@ h
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 MockWinWidget
-nsBaseWidget
+nsIWidget
 )
 RefPtr
 <

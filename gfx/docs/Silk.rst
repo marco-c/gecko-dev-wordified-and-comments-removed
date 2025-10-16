@@ -899,7 +899,7 @@ new
 platform
 window
 or
-nsBaseWidget
+nsIWidget
 is
 created
 .
@@ -911,7 +911,7 @@ CompositorVsyncScheduler
 :
 Observer
 and
-nsBaseWidget
+nsIWidget
 all
 have
 the
@@ -1227,7 +1227,7 @@ contains
 references
 to
 the
-nsBaseWidget
+nsIWidget
 it
 is
 associated
@@ -1239,7 +1239,7 @@ lifetime
 equal
 to
 the
-nsBaseWidget
+nsIWidget
 .
 The
 CompositorVsyncDispatcher
@@ -2201,7 +2201,7 @@ Procedure
 -
 When
 the
-nsBaseWidget
+nsIWidget
 shuts
 down
 <
@@ -2225,7 +2225,7 @@ file
 /
 widget
 /
-nsBaseWidget
+nsIWidget
 .
 cpp
 #
@@ -2235,7 +2235,7 @@ __
 -
 It
 calls
-nsBaseWidget
+nsIWidget
 :
 :
 DestroyCompositor
@@ -2248,7 +2248,7 @@ Thread
 *
 .
 During
-nsBaseWidget
+nsIWidget
 :
 :
 DestroyCompositor
@@ -2417,7 +2417,7 @@ continues
 shutting
 down
 the
-nsBaseWidget
+nsIWidget
 .
 At
 the
@@ -2452,7 +2452,7 @@ tasks
 as
 both
 the
-nsBaseWidget
+nsIWidget
 releases
 a
 reference
@@ -2554,7 +2554,7 @@ to
 the
 widget
 after
-nsBaseWidget
+nsIWidget
 :
 :
 DestroyCompositor
@@ -2571,7 +2571,7 @@ between
 the
 time
 the
-nsBaseWidget
+nsIWidget
 :
 :
 DestroyCompositor
@@ -2727,7 +2727,7 @@ CompositorVsyncScheduler
 :
 Observer
 during
-nsBaseWidget
+nsIWidget
 :
 :
 Shutdown
@@ -2764,7 +2764,7 @@ Thread
 since
 both
 the
-nsBaseWidget
+nsIWidget
 and
 CompositorVsyncScheduler
 :
@@ -2777,7 +2777,7 @@ on
 different
 threads
 .
-nsBaseWidget
+nsIWidget
 is
 destroyed
 on
@@ -4106,7 +4106,7 @@ as
 long
 as
 the
-nsBaseWidget
+nsIWidget
 associated
 with
 the

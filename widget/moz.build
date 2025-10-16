@@ -844,11 +844,6 @@ nsBaseFilePicker
 h
 "
 "
-nsBaseWidget
-.
-h
-"
-"
 nsDragServiceProxy
 .
 h
@@ -1617,7 +1612,7 @@ nsBaseDragService
 cpp
 "
 "
-nsBaseWidget
+nsIWidget
 .
 cpp
 "

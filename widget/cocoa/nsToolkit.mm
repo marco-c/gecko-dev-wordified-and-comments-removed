@@ -151,7 +151,7 @@ h
 #
 include
 "
-nsBaseWidget
+nsIWidget
 .
 h
 "
@@ -595,7 +595,7 @@ nsIRollupListener
 *
 rollupListener
 =
-nsBaseWidget
+nsIWidget
 :
 :
 GetActiveRollupListener

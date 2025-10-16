@@ -52,7 +52,7 @@ public
 :
 RemoteCompositorSession
 (
-nsBaseWidget
+nsIWidget
 *
 aWidget
 CompositorBridgeChild

@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsBaseWidget
+nsIWidget
 .
 h
 "
@@ -87,7 +87,7 @@ class
 MockWidget
 :
 public
-nsBaseWidget
+nsIWidget
 {
 public
 :

@@ -80,7 +80,7 @@ CompositorSession
 :
 CompositorSession
 (
-nsBaseWidget
+nsIWidget
 *
 aWidget
 CompositorWidgetDelegate
