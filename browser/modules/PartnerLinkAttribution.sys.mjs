@@ -152,8 +152,16 @@ proxy
 *
 param
 {
+object
+}
+options
+*
+param
+{
 string
 }
+options
+.
 targetURL
 *
 The
@@ -171,6 +179,8 @@ param
 {
 string
 }
+options
+.
 source
 *
 The
@@ -195,6 +205,8 @@ param
 string
 }
 [
+options
+.
 campaignID
 ]
 *
