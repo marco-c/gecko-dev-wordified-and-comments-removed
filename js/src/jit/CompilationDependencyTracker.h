@@ -69,6 +69,7 @@ StringPrototypeSymbols
 EmulatesUndefined
 ArrayExceedsInt32Length
 ObjectFuseProperty
+DefaultCaseMapping
 Limit
 }
 ;
