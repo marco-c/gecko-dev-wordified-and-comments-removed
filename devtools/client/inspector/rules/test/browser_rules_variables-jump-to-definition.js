@@ -2087,6 +2087,9 @@ color
 1
 )
 "
+highlighted
+:
+true
 }
 ]
 }
