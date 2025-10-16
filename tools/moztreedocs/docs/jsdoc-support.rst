@@ -63,7 +63,7 @@ level
 :
 searchfox
 :
-eslintrc
+eslint
 -
 rollouts
 .
@@ -72,7 +72,7 @@ config
 mjs
 file
 <
-eslintrc
+eslint
 -
 rollouts
 .
