@@ -1082,6 +1082,7 @@ JSObject
 *
 JSObject
 *
+ZoneAllocPolicy
 >
 ;
 }
