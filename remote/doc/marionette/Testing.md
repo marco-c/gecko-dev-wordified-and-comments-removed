@@ -1508,7 +1508,7 @@ tests
 .
 tar
 .
-gz
+zst
 artifact
 attached
 to

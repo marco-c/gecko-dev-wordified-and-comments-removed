@@ -44,7 +44,7 @@ tests
 .
 tar
 .
-gz
+zst
 archive
 pulls
 those
