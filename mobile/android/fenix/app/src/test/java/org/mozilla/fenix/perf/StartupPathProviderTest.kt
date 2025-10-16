@@ -156,13 +156,13 @@ lateinit
 var
 provider
 :
-StartupPathProvider
+DefaultStartupPathProvider
 private
 lateinit
 var
 callbacks
 :
-StartupPathProvider
+DefaultStartupPathProvider
 .
 StartupPathLifecycleObserver
 MockK
@@ -186,7 +186,7 @@ this
 )
 provider
 =
-StartupPathProvider
+DefaultStartupPathProvider
 (
 )
 callbacks

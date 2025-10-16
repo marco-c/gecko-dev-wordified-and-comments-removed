@@ -2215,8 +2215,10 @@ null
 private
 val
 startupPathProvider
-=
+:
 StartupPathProvider
+=
+DefaultStartupPathProvider
 (
 )
 private
