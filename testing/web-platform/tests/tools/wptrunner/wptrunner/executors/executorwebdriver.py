@@ -6469,6 +6469,8 @@ GET
 "
 "
 window
+/
+handles
 "
 timeout
 =
