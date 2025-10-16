@@ -296,6 +296,10 @@ GfxDriverInfo
 (
 OperatingSystem
 os
+const
+nsAString
+&
+vendor
 already_AddRefed
 <
 const
@@ -361,6 +365,10 @@ maxRefreshRateOp
 mRefreshRateStatus
 (
 refreshRateStatus
+)
+mAdapterVendor
+(
+vendor
 )
 mDevices
 (
