@@ -1302,10 +1302,10 @@ session_id
 )
     
 def
-get_session_instructions_response_set_cookie_headers
+get_set_cookie_headers
 (
 self
-session_id
+cookies
 request
 )
 :
@@ -1340,16 +1340,7 @@ request
 }
 "
             
-self
-.
-get_cookie_details
-(
-session_id
-)
-+
-self
-.
-registration_extra_cookies
+cookies
         
 )
 )
@@ -1647,9 +1638,14 @@ headers
 =
 self
 .
-get_session_instructions_response_set_cookie_headers
+get_set_cookie_headers
+(
+self
+.
+get_cookie_details
 (
 session_id
+)
 request
 )
 +
