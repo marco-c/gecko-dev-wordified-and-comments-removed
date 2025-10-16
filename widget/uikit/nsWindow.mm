@@ -5880,13 +5880,11 @@ return
 1
 ;
 }
-RefPtr
-<
 layers
 :
 :
 NativeLayerRoot
->
+*
 nsWindow
 :
 :

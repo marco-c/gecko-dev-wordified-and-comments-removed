@@ -1753,8 +1753,6 @@ aContext
 )
 override
 ;
-RefPtr
-<
 mozilla
 :
 :
@@ -1762,7 +1760,7 @@ layers
 :
 :
 NativeLayerRoot
->
+*
 GetNativeLayerRoot
 (
 )

@@ -818,8 +818,6 @@ fullRegion
 #
 ifdef
 MOZ_WAYLAND
-RefPtr
-<
 mozilla
 :
 :
@@ -827,7 +825,7 @@ layers
 :
 :
 NativeLayerRoot
->
+*
 GtkCompositorWidget
 :
 :

@@ -57,13 +57,11 @@ aManager
 )
 override
 ;
-RefPtr
-<
 layers
 :
 :
 NativeLayerRoot
->
+*
 GetNativeLayerRoot
 (
 )

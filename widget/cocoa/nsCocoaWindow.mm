@@ -5219,13 +5219,11 @@ Unlock
 )
 ;
 }
-RefPtr
-<
 layers
 :
 :
 NativeLayerRoot
->
+*
 nsCocoaWindow
 :
 :

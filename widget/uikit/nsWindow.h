@@ -479,8 +479,6 @@ IsVirtualKeyboardDisabled
 )
 const
 ;
-RefPtr
-<
 mozilla
 :
 :
@@ -488,7 +486,7 @@ layers
 :
 :
 NativeLayerRoot
->
+*
 GetNativeLayerRoot
 (
 )

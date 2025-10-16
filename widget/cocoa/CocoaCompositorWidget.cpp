@@ -23,6 +23,17 @@ mozilla
 /
 layers
 /
+NativeLayer
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 NativeLayerRootRemoteMacChild
 .
 h
@@ -140,8 +151,6 @@ childEndpoint
 )
 ;
 }
-RefPtr
-<
 mozilla
 :
 :
@@ -149,7 +158,7 @@ layers
 :
 :
 NativeLayerRoot
->
+*
 CocoaCompositorWidget
 :
 :
