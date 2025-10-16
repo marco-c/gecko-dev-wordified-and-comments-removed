@@ -2063,9 +2063,9 @@ NOT_INITIALIZED
 nsWeakPtr
 mSourceElement
 ;
-nsCOMPtr
+RefPtr
 <
-nsIStructuredCloneContainer
+nsStructuredCloneContainer
 >
 mNavigationAPIState
 ;

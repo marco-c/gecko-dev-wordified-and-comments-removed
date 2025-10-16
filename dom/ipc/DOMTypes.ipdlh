@@ -1051,6 +1051,10 @@ forceMediaDocument
 HTTPSUpgradeTelemetryType
 HttpsUpgradeTelemetry
 ;
+ClonedMessageData
+?
+NavigationAPIState
+;
 bool
 ChannelInitialized
 ;
