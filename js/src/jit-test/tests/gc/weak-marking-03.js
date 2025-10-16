@@ -154,7 +154,6 @@ markstr
 function
 startGCMarking
 (
-untilQueuePos
 )
 {
 startgc
@@ -189,23 +188,6 @@ MarkRoots
 gcslice
 (
 100000
-)
-;
-}
-while
-(
-currentgc
-(
-)
-.
-queuePos
-<
-untilQueuePos
-)
-{
-gcslice
-(
-1000
 )
 ;
 }
@@ -318,7 +300,6 @@ null
 ;
 startGCMarking
 (
-2
 )
 ;
 assertEq
@@ -539,7 +520,6 @@ yield
 ;
 startGCMarking
 (
-2
 )
 ;
 reportMarks
@@ -706,7 +686,6 @@ null
 ;
 startGCMarking
 (
-2
 )
 ;
 marks
@@ -1788,7 +1767,6 @@ GC
 ;
 startGCMarking
 (
-2
 )
 ;
 showmarks
@@ -2509,7 +2487,6 @@ GC
 ;
 startGCMarking
 (
-3
 )
 ;
 showmarks
@@ -2963,7 +2940,6 @@ null
 ;
 startGCMarking
 (
-4
 )
 ;
 assertEq
@@ -3662,7 +3638,6 @@ GC
 ;
 startGCMarking
 (
-2
 )
 ;
 showmarks
@@ -4111,7 +4086,6 @@ GC
 ;
 startGCMarking
 (
-3
 )
 ;
 showmarks

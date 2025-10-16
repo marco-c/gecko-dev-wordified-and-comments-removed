@@ -5806,12 +5806,6 @@ fullGCRequested
 ;
 MainThreadData
 <
-bool
->
-finishMarkingDuringSweeping
-;
-MainThreadData
-<
 double
 >
 helperThreadRatio
