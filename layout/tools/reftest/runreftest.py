@@ -3645,17 +3645,6 @@ UTF
 8
 "
         
-browserEnv
-[
-"
-GTK_THEME
-"
-]
-=
-"
-Adwaita
-"
-        
 for
 v
 in
