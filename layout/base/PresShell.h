@@ -1903,6 +1903,7 @@ nsIFrame
 aFrame
 )
 ;
+const
 nsIFrame
 *
 GetAnchorPosAnchor
