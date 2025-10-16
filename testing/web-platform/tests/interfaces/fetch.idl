@@ -832,6 +832,7 @@ Window
 {
 [
 NewObject
+SecureContext
 ]
 FetchLaterResult
 fetchLater
