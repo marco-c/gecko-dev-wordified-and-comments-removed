@@ -2478,6 +2478,10 @@ source_location
 &
 self
 .
+context
+&
+self
+.
 shared_lock
 media
 supports

@@ -281,6 +281,10 @@ CssUrl
 source_location
 :
 SourceLocation
+_context
+:
+&
+ParserContext
 lock
 :
 &
@@ -643,6 +647,10 @@ CssUrl
 source_location
 :
 SourceLocation
+_context
+:
+&
+ParserContext
 lock
 :
 &
