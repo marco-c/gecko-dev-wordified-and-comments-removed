@@ -1751,6 +1751,14 @@ SetWidgetListener
 this
 )
 ;
+mWidget
+-
+>
+SetTransparencyMode
+(
+mode
+)
+;
 PropagateStyleToWidget
 (
 )
