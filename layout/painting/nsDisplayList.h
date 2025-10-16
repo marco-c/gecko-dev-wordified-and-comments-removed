@@ -1111,12 +1111,6 @@ WindowRenderer
 *
 GetWidgetWindowRenderer
 (
-nsView
-*
-*
-aView
-=
-nullptr
 )
 ;
 layers
@@ -1126,12 +1120,6 @@ WebRenderLayerManager
 *
 GetWidgetLayerManager
 (
-nsView
-*
-*
-aView
-=
-nullptr
 )
 ;
 bool

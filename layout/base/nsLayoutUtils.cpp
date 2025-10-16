@@ -43668,7 +43668,6 @@ aBuilder
 >
 GetWidgetLayerManager
 (
-nullptr
 )
 ;
 if
