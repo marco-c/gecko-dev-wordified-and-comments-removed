@@ -4800,7 +4800,7 @@ viewport
 viewport
 -
 >
-AdjustReflowInputAsContainingBlock
+GetContainingBlockAdjustedForScrollbars
 (
 parentReflowInput
 )
