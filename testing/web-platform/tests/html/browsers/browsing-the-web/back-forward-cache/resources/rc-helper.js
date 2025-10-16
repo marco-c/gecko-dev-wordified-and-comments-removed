@@ -408,6 +408,13 @@ node
 =
 >
 {
+if
+(
+node
+.
+reasons
+)
+{
 for
 (
 let
@@ -428,6 +435,14 @@ reason
 )
 ;
 }
+}
+if
+(
+node
+.
+children
+)
+{
 for
 (
 let
@@ -443,6 +458,7 @@ collectReason
 child
 )
 ;
+}
 }
 }
 ;
