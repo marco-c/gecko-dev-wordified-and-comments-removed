@@ -383,10 +383,6 @@ string
 .
 addressess_confirm_dialog_ok_button
 )
-.
-uppercase
-(
-)
 onClick
 =
 {
@@ -425,10 +421,6 @@ R
 string
 .
 addressess_confirm_dialog_cancel_button
-)
-.
-uppercase
-(
 )
 onClick
 =

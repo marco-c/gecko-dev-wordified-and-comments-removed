@@ -1950,10 +1950,6 @@ string
 .
 bookmark_menu_delete_button
 )
-.
-uppercase
-(
-)
 )
 }
 }
@@ -1978,10 +1974,6 @@ R
 string
 .
 bookmark_delete_negative
-)
-.
-uppercase
-(
 )
 )
 }
