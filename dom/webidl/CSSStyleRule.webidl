@@ -388,6 +388,9 @@ SelectorWarningKind
 "
 UnconstrainedHas
 "
+"
+SiblingCombinatorAfterScope
+"
 }
 ;
 dictionary
