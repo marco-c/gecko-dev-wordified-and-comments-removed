@@ -5236,7 +5236,7 @@ mozilla
 StyleTextAutospace
 :
 :
-NORMAL
+NO_AUTOSPACE
 ;
 public
 :

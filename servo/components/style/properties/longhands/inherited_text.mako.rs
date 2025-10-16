@@ -977,7 +977,7 @@ text
 TextAutospace
 :
 :
-NORMAL
+NO_AUTOSPACE
 "
 engines
 =
