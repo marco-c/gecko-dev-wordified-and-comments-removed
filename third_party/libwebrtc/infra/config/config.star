@@ -6660,7 +6660,6 @@ Chromium
 FYI
 Android
 Builder
-ARM64
 (
 dbg
 )
@@ -6677,11 +6676,7 @@ WebRTC
 Chromium
 FYI
 Android
-Tests
-ARM64
-(
-dbg
-)
+Tester
 "
 "
 WebRTC
