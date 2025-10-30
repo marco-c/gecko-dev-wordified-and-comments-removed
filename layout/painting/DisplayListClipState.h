@@ -18,15 +18,6 @@ DisplayItemClipChain
 .
 h
 "
-#
-include
-"
-mozilla
-/
-DebugOnly
-.
-h
-"
 class
 nsIFrame
 ;

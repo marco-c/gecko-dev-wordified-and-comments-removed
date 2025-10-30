@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-DebugOnly
-.
-h
-"
-#
-include
-"
-mozilla
-/
 glue
 /
 WindowsDllServices

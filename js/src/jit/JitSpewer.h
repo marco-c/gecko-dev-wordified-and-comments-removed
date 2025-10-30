@@ -27,15 +27,6 @@ include
 "
 mozilla
 /
-DebugOnly
-.
-h
-"
-#
-include
-"
-mozilla
-/
 IntegerPrintfMacros
 .
 h
