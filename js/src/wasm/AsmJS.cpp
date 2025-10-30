@@ -11766,6 +11766,9 @@ return
 nullptr
 ;
 }
+UniqueChars
+error
+;
 ModuleGenerator
 mg
 (
@@ -11778,7 +11781,8 @@ initialState
 (
 )
 nullptr
-nullptr
+&
+error
 nullptr
 )
 ;
