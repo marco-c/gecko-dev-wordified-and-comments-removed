@@ -1688,15 +1688,6 @@ target
 ;
 }
 void
-movq
-(
-Register
-rs
-Register
-rd
-)
-;
-void
 computeScaledAddress
 (
 const
