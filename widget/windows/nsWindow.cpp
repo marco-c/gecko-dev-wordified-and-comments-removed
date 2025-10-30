@@ -11502,6 +11502,12 @@ ResetLayout
 )
 ;
 }
+if
+(
+!
+mPIPWindow
+)
+{
 WindowsUIUtils
 :
 :
@@ -11511,6 +11517,7 @@ mWnd
 mCustomNonClient
 )
 ;
+}
 }
 void
 nsWindow
