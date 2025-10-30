@@ -471,6 +471,16 @@ aIsVisible
 )
 override
 ;
+size_t
+NestingDepth
+(
+)
+override
+{
+return
+0
+;
+}
 protected
 :
 virtual

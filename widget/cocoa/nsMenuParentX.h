@@ -55,6 +55,14 @@ nsMenuItemX
 >
 ;
 virtual
+size_t
+NestingDepth
+(
+)
+=
+0
+;
+virtual
 nsMenuBarX
 *
 AsMenuBar
