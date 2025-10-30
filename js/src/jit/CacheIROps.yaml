@@ -6720,7 +6720,7 @@ name
 BindFunctionResult
 shared
 :
-false
+true
 transpile
 :
 true
@@ -6744,7 +6744,7 @@ name
 SpecializedBindFunctionResult
 shared
 :
-false
+true
 transpile
 :
 true
