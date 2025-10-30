@@ -334,13 +334,6 @@ savedInstanceState
 .
 apply
 {
-window
-?
-.
-setDimAmount
-(
-0f
-)
 setOnShowListener
 {
 val
