@@ -1221,6 +1221,7 @@ mFetchCount
 ;
 private
 :
+const
 ScriptKind
 mKind
 ;
