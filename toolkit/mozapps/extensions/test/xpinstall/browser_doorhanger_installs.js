@@ -3549,6 +3549,16 @@ root
 "
 true
 ]
+[
+"
+extensions
+.
+blocklist
+.
+enabled
+"
+false
+]
 ]
 }
 )
