@@ -979,7 +979,7 @@ valid
 3478
 )
 ;
-const
+constexpr
 char
 kCandidateFoundation
 [
@@ -989,7 +989,7 @@ kCandidateFoundation
 foundation
 "
 ;
-const
+constexpr
 char
 kIceUfrag1
 [
@@ -999,7 +999,7 @@ kIceUfrag1
 TESTICEUFRAG0001
 "
 ;
-const
+constexpr
 char
 kIceUfrag2
 [
@@ -1009,7 +1009,7 @@ kIceUfrag2
 TESTICEUFRAG0002
 "
 ;
-const
+constexpr
 char
 kIcePwd1
 [
@@ -1019,7 +1019,7 @@ kIcePwd1
 TESTICEPWD00000000000001
 "
 ;
-const
+constexpr
 char
 kIcePwd2
 [
@@ -1029,7 +1029,7 @@ kIcePwd2
 TESTICEPWD00000000000002
 "
 ;
-const
+constexpr
 char
 kTurnUsername
 [
@@ -1039,7 +1039,7 @@ kTurnUsername
 test
 "
 ;
-const
+constexpr
 char
 kTurnPassword
 [

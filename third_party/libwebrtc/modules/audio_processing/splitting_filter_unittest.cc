@@ -52,13 +52,13 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 size_t
 kSamplesPer16kHzChannel
 =
 160
 ;
-const
+constexpr
 size_t
 kSamplesPer48kHzChannel
 =

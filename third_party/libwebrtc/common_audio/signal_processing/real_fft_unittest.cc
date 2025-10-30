@@ -38,13 +38,13 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 int
 kOrder
 =
 5
 ;
-const
+constexpr
 int
 kTimeDataLength
 =
@@ -53,7 +53,7 @@ kTimeDataLength
 <
 kOrder
 ;
-const
+constexpr
 int
 kFreqDataLength
 =
@@ -66,7 +66,7 @@ kOrder
 +
 2
 ;
-const
+constexpr
 int
 kComplexFftDataLength
 =
@@ -75,7 +75,7 @@ kComplexFftDataLength
 <
 kOrder
 ;
-const
+constexpr
 int16_t
 kRefData
 [

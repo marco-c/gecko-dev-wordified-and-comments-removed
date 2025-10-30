@@ -409,7 +409,7 @@ testing
 :
 WithParamInterface
 ;
-const
+constexpr
 char
 kRSA_PRIVATE_KEY_PEM
 [
@@ -683,7 +683,7 @@ n
 #
 undef
 RSA_PRIVATE_KEY_HEADER
-const
+constexpr
 char
 kCERT_PEM
 [
@@ -854,7 +854,7 @@ CERTIFICATE
 n
 "
 ;
-const
+constexpr
 char
 kIntCert1
 [
@@ -1136,7 +1136,7 @@ CERTIFICATE
 n
 "
 ;
-const
+constexpr
 char
 kCACert
 [
@@ -2414,13 +2414,13 @@ buffer_
 ;
 }
 ;
-const
+constexpr
 int
 kBufferCapacity
 =
 1
 ;
-const
+constexpr
 size_t
 kDefaultBufferSize
 =

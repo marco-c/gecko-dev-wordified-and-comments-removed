@@ -118,7 +118,7 @@ rtcp
 :
 ReportBlock
 ;
-const
+constexpr
 uint32_t
 kSenderSsrc
 =

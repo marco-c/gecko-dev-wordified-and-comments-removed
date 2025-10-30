@@ -575,7 +575,7 @@ testing
 :
 WithoutArgs
 ;
-const
+constexpr
 int
 kProcessSampleRates
 [

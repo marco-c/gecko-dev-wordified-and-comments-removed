@@ -119,7 +119,7 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 int
 kNumFramesToProcess
 =

@@ -222,7 +222,7 @@ kFlexfecSsrc
 =
 5678
 ;
-const
+constexpr
 char
 kNoMid
 [

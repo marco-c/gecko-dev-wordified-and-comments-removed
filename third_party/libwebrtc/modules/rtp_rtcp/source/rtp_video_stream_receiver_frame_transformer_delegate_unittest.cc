@@ -378,13 +378,13 @@ testing
 :
 SaveArg
 ;
-const
+constexpr
 int
 kFirstSeqNum
 =
 1
 ;
-const
+constexpr
 int
 kLastSeqNum
 =

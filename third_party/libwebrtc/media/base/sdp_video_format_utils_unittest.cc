@@ -42,7 +42,7 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 char
 kVPxFmtpMaxFrameRate
 [
@@ -54,7 +54,7 @@ max
 fr
 "
 ;
-const
+constexpr
 char
 kVPxFmtpMaxFrameSize
 [
@@ -66,7 +66,7 @@ max
 fs
 "
 ;
-const
+constexpr
 char
 kCodecParamPerLayerPictureLossIndication
 [

@@ -509,7 +509,7 @@ SdpSemantics
 ;
 namespace
 {
-const
+constexpr
 int
 kMaxWait
 =

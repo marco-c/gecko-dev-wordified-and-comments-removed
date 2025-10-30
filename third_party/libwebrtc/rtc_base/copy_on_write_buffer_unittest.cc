@@ -60,7 +60,7 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 uint8_t
 kTestData
 [

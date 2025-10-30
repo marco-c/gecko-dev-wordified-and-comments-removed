@@ -68,7 +68,7 @@ test
 {
 namespace
 {
-const
+constexpr
 int
 kHeaderLengthBytes
 =

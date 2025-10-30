@@ -123,7 +123,7 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 uint8_t
 kStunMessageWithIPv6MappedAddress
 [
@@ -176,7 +176,7 @@ kStunMessageWithIPv6MappedAddress
 0xc3
 }
 ;
-const
+constexpr
 uint8_t
 kStunMessageWithIPv4MappedAddress
 [
@@ -217,7 +217,7 @@ kStunMessageWithIPv4MappedAddress
 0xe6
 }
 ;
-const
+constexpr
 uint8_t
 kStunMessageWithIPv6XorMappedAddress
 [
@@ -270,7 +270,7 @@ kStunMessageWithIPv6XorMappedAddress
 0xc3
 }
 ;
-const
+constexpr
 uint8_t
 kStunMessageWithIPv4XorMappedAddress
 [
@@ -311,7 +311,7 @@ kStunMessageWithIPv4XorMappedAddress
 0xa4
 }
 ;
-const
+constexpr
 uint8_t
 kStunMessageWithByteStringAttribute
 [
@@ -352,7 +352,7 @@ kStunMessageWithByteStringAttribute
 0x68
 }
 ;
-const
+constexpr
 uint8_t
 kStunMessageWithUnknownAttribute
 [
@@ -401,7 +401,7 @@ kStunMessageWithUnknownAttribute
 0x00
 }
 ;
-const
+constexpr
 uint8_t
 kStunMessageWithPaddedByteStringAttribute
 [
@@ -438,7 +438,7 @@ kStunMessageWithPaddedByteStringAttribute
 0xcc
 }
 ;
-const
+constexpr
 uint8_t
 kStunMessageWithUInt16ListAttribute
 [
@@ -479,7 +479,7 @@ kStunMessageWithUInt16ListAttribute
 0xEF
 }
 ;
-const
+constexpr
 uint8_t
 kStunMessageWithErrorAttribute
 [
@@ -528,13 +528,13 @@ kStunMessageWithErrorAttribute
 0x64
 }
 ;
-const
+constexpr
 int
 kRealLengthOfInvalidLengthTestCases
 =
 32
 ;
-const
+constexpr
 uint8_t
 kStunMessageWithZeroLength
 [
@@ -599,7 +599,7 @@ b
 0x53
 }
 ;
-const
+constexpr
 uint8_t
 kStunMessageWithExcessLength
 [
@@ -664,7 +664,7 @@ b
 0x53
 }
 ;
-const
+constexpr
 uint8_t
 kStunMessageWithSmallLength
 [
@@ -729,7 +729,7 @@ b
 0x53
 }
 ;
-const
+constexpr
 uint8_t
 kStunMessageWithBadHmacAtEnd
 [
@@ -834,7 +834,7 @@ b
 '
 }
 ;
-const
+constexpr
 uint8_t
 kRtcpPacket
 [
@@ -871,7 +871,7 @@ kRtcpPacket
 0x50
 }
 ;
-const
+constexpr
 uint8_t
 kRfc5769SampleMsgTransactionId
 [
@@ -892,7 +892,7 @@ kRfc5769SampleMsgTransactionId
 0xae
 }
 ;
-const
+constexpr
 char
 kRfc5769SampleMsgClientSoftware
 [
@@ -904,7 +904,7 @@ test
 client
 "
 ;
-const
+constexpr
 char
 kRfc5769SampleMsgServerSoftware
 [
@@ -915,7 +915,7 @@ test
 vector
 "
 ;
-const
+constexpr
 char
 kRfc5769SampleMsgUsername
 [
@@ -927,7 +927,7 @@ evtj
 h6vY
 "
 ;
-const
+constexpr
 char
 kRfc5769SampleMsgPassword
 [
@@ -979,7 +979,7 @@ db8
 32853
 )
 ;
-const
+constexpr
 uint8_t
 kRfc5769SampleMsgWithAuthTransactionId
 [
@@ -1000,7 +1000,7 @@ kRfc5769SampleMsgWithAuthTransactionId
 0x2e
 }
 ;
-const
+constexpr
 char
 kRfc5769SampleMsgWithAuthUsername
 [
@@ -1045,7 +1045,7 @@ x82
 xb9
 "
 ;
-const
+constexpr
 char
 kRfc5769SampleMsgWithAuthPassword
 [
@@ -1055,7 +1055,7 @@ kRfc5769SampleMsgWithAuthPassword
 TheMatrIX
 "
 ;
-const
+constexpr
 char
 kRfc5769SampleMsgWithAuthNonce
 [
@@ -1068,7 +1068,7 @@ f
 499k954d6OL34oL9FSTvy64sA
 "
 ;
-const
+constexpr
 char
 kRfc5769SampleMsgWithAuthRealm
 [
@@ -1080,7 +1080,7 @@ example
 org
 "
 ;
-const
+constexpr
 uint8_t
 kRfc5769SampleRequest
 [
@@ -1197,7 +1197,7 @@ kRfc5769SampleRequest
 0xcf
 }
 ;
-const
+constexpr
 uint8_t
 kSampleRequestMI32
 [
@@ -1298,7 +1298,7 @@ kSampleRequestMI32
 0xcf
 }
 ;
-const
+constexpr
 uint8_t
 kRfc5769SampleResponse
 [
@@ -1387,7 +1387,7 @@ kRfc5769SampleResponse
 0x96
 }
 ;
-const
+constexpr
 uint8_t
 kRfc5769SampleResponseIPv6
 [
@@ -1488,7 +1488,7 @@ kRfc5769SampleResponseIPv6
 0x4c
 }
 ;
-const
+constexpr
 uint8_t
 kRfc5769SampleRequestLongTermAuth
 [
@@ -1613,7 +1613,7 @@ kRfc5769SampleRequestLongTermAuth
 0x66
 }
 ;
-const
+constexpr
 uint8_t
 kRfc5769SampleRequestWithoutMI
 [
@@ -1698,7 +1698,7 @@ kRfc5769SampleRequestWithoutMI
 0x20
 }
 ;
-const
+constexpr
 uint8_t
 kCalculatedHmac1
 [
@@ -1727,7 +1727,7 @@ kCalculatedHmac1
 0xe3
 }
 ;
-const
+constexpr
 uint8_t
 kCalculatedHmac1_32
 [
@@ -1740,7 +1740,7 @@ kCalculatedHmac1_32
 0x5d
 }
 ;
-const
+constexpr
 uint8_t
 kRfc5769SampleResponseWithoutMI
 [
@@ -1797,7 +1797,7 @@ kRfc5769SampleResponseWithoutMI
 0x43
 }
 ;
-const
+constexpr
 uint8_t
 kCalculatedHmac2
 [
@@ -1826,7 +1826,7 @@ kCalculatedHmac2
 0x28
 }
 ;
-const
+constexpr
 uint8_t
 kCalculatedHmac2_32
 [
@@ -1839,7 +1839,7 @@ kCalculatedHmac2_32
 0x16
 }
 ;
-const
+constexpr
 uint8_t
 kTestTransactionId1
 [
@@ -1860,7 +1860,7 @@ kTestTransactionId1
 0x000
 }
 ;
-const
+constexpr
 uint8_t
 kTestTransactionId2
 [
@@ -1967,7 +1967,7 @@ kIPv4TestAddress1
 ;
 #
 endif
-const
+constexpr
 char
 kTestUserName1
 [
@@ -1977,7 +1977,7 @@ kTestUserName1
 abcdefgh
 "
 ;
-const
+constexpr
 char
 kTestUserName2
 [
@@ -1987,7 +1987,7 @@ kTestUserName2
 abc
 "
 ;
-const
+constexpr
 char
 kTestErrorReason
 [
@@ -1997,43 +1997,43 @@ kTestErrorReason
 Unauthorized
 "
 ;
-const
+constexpr
 int
 kTestErrorClass
 =
 4
 ;
-const
+constexpr
 int
 kTestErrorNumber
 =
 1
 ;
-const
+constexpr
 int
 kTestErrorCode
 =
 401
 ;
-const
+constexpr
 int
 kTestMessagePort1
 =
 59977
 ;
-const
+constexpr
 int
 kTestMessagePort2
 =
 47233
 ;
-const
+constexpr
 int
 kTestMessagePort3
 =
 56743
 ;
-const
+constexpr
 int
 kTestMessagePort4
 =

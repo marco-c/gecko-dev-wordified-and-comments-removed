@@ -234,13 +234,13 @@ testing
 :
 Eq
 ;
-const
+constexpr
 int
 kDefaultFrameRate
 =
 30
 ;
-const
+constexpr
 int
 kDefaultFrameSize
 =

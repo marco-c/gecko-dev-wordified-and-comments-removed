@@ -292,7 +292,7 @@ webrtc
 :
 SrtpTransport
 ;
-const
+constexpr
 int
 kRtpAuthTagLen
 =

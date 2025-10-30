@@ -112,13 +112,13 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 uint32_t
 kSenderSsrc
 =
 0x12345678
 ;
-const
+constexpr
 uint32_t
 kRemoteSsrcs
 [
@@ -130,7 +130,7 @@ kRemoteSsrcs
 0x2345678b
 }
 ;
-const
+constexpr
 uint32_t
 kBitrateBps
 =
@@ -138,7 +138,7 @@ kBitrateBps
 *
 2
 ;
-const
+constexpr
 int64_t
 kBitrateBps64bit
 =
@@ -150,7 +150,7 @@ int64_t
 <
 30
 ;
-const
+constexpr
 uint8_t
 kPacket
 [
@@ -199,7 +199,7 @@ B
 0x8b
 }
 ;
-const
+constexpr
 size_t
 kPacketLength
 =

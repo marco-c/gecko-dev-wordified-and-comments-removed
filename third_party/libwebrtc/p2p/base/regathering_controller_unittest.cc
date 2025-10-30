@@ -203,7 +203,7 @@ h
 "
 namespace
 {
-const
+constexpr
 int
 kOnlyLocalPorts
 =
@@ -281,7 +281,7 @@ test
 "
 )
 ;
-const
+constexpr
 char
 kIceUfrag
 [
@@ -291,7 +291,7 @@ kIceUfrag
 UF00
 "
 ;
-const
+constexpr
 char
 kIcePwd
 [

@@ -430,7 +430,7 @@ return
 dips
 ;
 }
-const
+constexpr
 uint32_t
 kInitialBitrateKbps
 =
@@ -448,7 +448,7 @@ KilobitsPerSec
 kInitialBitrateKbps
 )
 ;
-const
+constexpr
 float
 kDefaultPacingRate
 =

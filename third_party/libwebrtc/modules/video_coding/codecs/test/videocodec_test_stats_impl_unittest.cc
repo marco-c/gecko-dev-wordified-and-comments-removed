@@ -57,7 +57,7 @@ FrameStatistics
 ;
 namespace
 {
-const
+constexpr
 size_t
 kTimestamp
 =

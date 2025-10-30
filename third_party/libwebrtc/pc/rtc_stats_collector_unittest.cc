@@ -846,7 +846,7 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 int64_t
 kGetStatsReportTimeoutMs
 =

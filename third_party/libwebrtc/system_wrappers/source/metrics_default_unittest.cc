@@ -66,13 +66,13 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 int
 kSample
 =
 22
 ;
-const
+constexpr
 char
 kName
 [

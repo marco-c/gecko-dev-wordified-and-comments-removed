@@ -229,7 +229,7 @@ kSimulcastScreenshareMaxBitrateKbps
 =
 1250
 ;
-const
+constexpr
 double
 kDefaultHysteresis
 =

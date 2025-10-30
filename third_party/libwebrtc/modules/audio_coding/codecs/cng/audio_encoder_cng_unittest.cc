@@ -227,7 +227,7 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 size_t
 kMaxNumSamples
 =
@@ -237,13 +237,13 @@ kMaxNumSamples
 *
 2
 ;
-const
+constexpr
 size_t
 kMockReturnEncodedBytes
 =
 17
 ;
-const
+constexpr
 int
 kCngPayloadType
 =

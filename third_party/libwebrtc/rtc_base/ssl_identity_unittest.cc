@@ -191,7 +191,7 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 char
 kTestCertificate
 [
@@ -549,7 +549,7 @@ kTestCertSha512
 0xb6
 }
 ;
-const
+constexpr
 char
 kRSA_PRIVATE_KEY_PEM
 [
@@ -715,7 +715,7 @@ KEY
 n
 "
 ;
-const
+constexpr
 char
 kRSA_PUBLIC_KEY_PEM
 [
@@ -786,7 +786,7 @@ KEY
 n
 "
 ;
-const
+constexpr
 char
 kRSA_CERT_PEM
 [
@@ -903,7 +903,7 @@ CERTIFICATE
 n
 "
 ;
-const
+constexpr
 char
 kRSA_FINGERPRINT
 [
@@ -977,7 +977,7 @@ E2
 2B
 "
 ;
-const
+constexpr
 char
 kRSA_FINGERPRINT_ALGORITHM
 [
@@ -989,7 +989,7 @@ sha
 256
 "
 ;
-const
+constexpr
 char
 kRSA_BASE64_CERTIFICATE
 [
@@ -1053,7 +1053,7 @@ Q
 =
 "
 ;
-const
+constexpr
 char
 kECDSA_PRIVATE_KEY_PEM
 [
@@ -1118,7 +1118,7 @@ KEY
 n
 "
 ;
-const
+constexpr
 char
 kECDSA_PUBLIC_KEY_PEM
 [
@@ -1180,7 +1180,7 @@ KEY
 n
 "
 ;
-const
+constexpr
 char
 kECDSA_CERT_PEM
 [
@@ -1260,7 +1260,7 @@ CERTIFICATE
 n
 "
 ;
-const
+constexpr
 char
 kECDSA_FINGERPRINT
 [
@@ -1334,7 +1334,7 @@ FF
 89
 "
 ;
-const
+constexpr
 char
 kECDSA_FINGERPRINT_ALGORITHM
 [
@@ -1346,7 +1346,7 @@ sha
 256
 "
 ;
-const
+constexpr
 char
 kECDSA_BASE64_CERTIFICATE
 [

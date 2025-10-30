@@ -105,7 +105,7 @@ kSsrc
 =
 0x12345678
 ;
-const
+constexpr
 uint8_t
 kPacket
 [

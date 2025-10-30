@@ -44,7 +44,7 @@ webrtc
 :
 RateStatistics
 ;
-const
+constexpr
 int64_t
 kWindowMs
 =

@@ -91,7 +91,7 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 char
 kWindowThreadName
 [

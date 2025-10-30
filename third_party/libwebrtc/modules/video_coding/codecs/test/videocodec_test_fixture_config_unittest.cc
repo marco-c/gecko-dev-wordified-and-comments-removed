@@ -89,7 +89,7 @@ Config
 ;
 namespace
 {
-const
+constexpr
 size_t
 kNumTemporalLayers
 =

@@ -244,7 +244,7 @@ kDefaultSampleRateHz
 =
 48000
 ;
-const
+constexpr
 char
 kSourceCountHistogramName
 [

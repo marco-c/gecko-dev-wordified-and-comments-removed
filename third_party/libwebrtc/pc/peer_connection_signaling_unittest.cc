@@ -559,7 +559,7 @@ Values
 ;
 namespace
 {
-const
+constexpr
 int64_t
 kWaitTimeout
 =

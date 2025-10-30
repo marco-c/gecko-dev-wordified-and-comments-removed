@@ -95,7 +95,7 @@ testing
 :
 ElementsAreArray
 ;
-const
+constexpr
 uint8_t
 kTestData
 [

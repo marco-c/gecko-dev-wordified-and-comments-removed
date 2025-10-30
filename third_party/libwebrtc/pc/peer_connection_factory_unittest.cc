@@ -653,7 +653,7 @@ testing
 :
 UnorderedElementsAre
 ;
-const
+constexpr
 char
 kStunIceServer
 [
@@ -673,7 +673,7 @@ com
 19302
 "
 ;
-const
+constexpr
 char
 kTurnIceServer
 [
@@ -689,7 +689,7 @@ com
 1234
 "
 ;
-const
+constexpr
 char
 kTurnIceServerWithTransport
 [
@@ -707,7 +707,7 @@ transport
 tcp
 "
 ;
-const
+constexpr
 char
 kSecureTurnIceServer
 [
@@ -725,7 +725,7 @@ transport
 tcp
 "
 ;
-const
+constexpr
 char
 kSecureTurnIceServerWithoutTransportParam
 [
@@ -741,7 +741,7 @@ com
 443
 "
 ;
-const
+constexpr
 char
 kSecureTurnIceServerWithoutTransportAndPortParam
 [
@@ -755,7 +755,7 @@ hello
 com
 "
 ;
-const
+constexpr
 char
 kTurnIceServerWithNoUsernameInUri
 [
@@ -771,7 +771,7 @@ com
 1234
 "
 ;
-const
+constexpr
 char
 kTurnPassword
 [
@@ -781,19 +781,19 @@ kTurnPassword
 turnpassword
 "
 ;
-const
+constexpr
 int
 kDefaultStunPort
 =
 3478
 ;
-const
+constexpr
 int
 kDefaultStunTlsPort
 =
 5349
 ;
-const
+constexpr
 char
 kTurnUsername
 [
@@ -803,7 +803,7 @@ kTurnUsername
 test
 "
 ;
-const
+constexpr
 char
 kStunIceServerWithIPv4Address
 [
@@ -823,7 +823,7 @@ stun
 1234
 "
 ;
-const
+constexpr
 char
 kStunIceServerWithIPv4AddressWithoutPort
 [
@@ -841,7 +841,7 @@ stun
 4
 "
 ;
-const
+constexpr
 char
 kStunIceServerWithIPv6Address
 [
@@ -863,7 +863,7 @@ fa00
 1234
 "
 ;
-const
+constexpr
 char
 kStunIceServerWithIPv6AddressWithoutPort
 [
@@ -883,7 +883,7 @@ fa00
 ]
 "
 ;
-const
+constexpr
 char
 kTurnIceServerWithIPv6Address
 [

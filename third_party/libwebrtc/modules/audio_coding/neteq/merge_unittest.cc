@@ -216,7 +216,7 @@ sync_buffer
 }
 namespace
 {
-const
+constexpr
 size_t
 kNetEqSyncBufferLengthMs
 =

@@ -544,7 +544,7 @@ testing
 :
 Values
 ;
-const
+constexpr
 size_t
 kMaxBytes
 =

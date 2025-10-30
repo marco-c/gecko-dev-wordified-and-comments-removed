@@ -76,7 +76,7 @@ Optional
 namespace
 webrtc
 {
-const
+constexpr
 uint8_t
 kH265VpsSpsPps
 [
@@ -168,7 +168,7 @@ kH265VpsSpsPps
 0x40
 }
 ;
-const
+constexpr
 uint8_t
 kH265BitstreamChunk
 [
@@ -295,7 +295,7 @@ kH265BitstreamChunk
 0xf9
 }
 ;
-const
+constexpr
 uint8_t
 kH265BitstreamNextImageSliceChunk
 [
@@ -326,7 +326,7 @@ kH265BitstreamNextImageSliceChunk
 0x40
 }
 ;
-const
+constexpr
 uint8_t
 kH265SliceChunk
 [
@@ -383,7 +383,7 @@ kH265SliceChunk
 0x73
 }
 ;
-const
+constexpr
 uint8_t
 kH265SecondSliceChunkInAFrame
 [
@@ -416,7 +416,7 @@ kH265SecondSliceChunkInAFrame
 0xea
 }
 ;
-const
+constexpr
 uint8_t
 kH265SliceStrChunk
 [
@@ -545,7 +545,7 @@ kH265SliceStrChunk
 0x10
 }
 ;
-const
+constexpr
 uint8_t
 kH265BitstreamInvalidQPChunk
 [
@@ -645,7 +645,7 @@ kH265BitstreamInvalidQPChunk
 0x4c
 }
 ;
-const
+constexpr
 uint8_t
 kH265BitstreamInvalidQPChunk52
 [
@@ -745,7 +745,7 @@ kH265BitstreamInvalidQPChunk52
 0x44
 }
 ;
-const
+constexpr
 uint8_t
 kH265BitstreamWithPredWeightTable
 [

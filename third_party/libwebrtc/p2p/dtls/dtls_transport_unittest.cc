@@ -449,7 +449,7 @@ kTimeout
 =
 10000
 ;
-const
+constexpr
 uint8_t
 kRtpLeadByte
 =

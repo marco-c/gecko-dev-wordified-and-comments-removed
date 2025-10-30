@@ -83,7 +83,7 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 double
 kResamplingRMSError
 =

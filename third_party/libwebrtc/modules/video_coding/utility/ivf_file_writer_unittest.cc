@@ -104,13 +104,13 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 int
 kHeaderSize
 =
 32
 ;
-const
+constexpr
 int
 kFrameHeaderSize
 =

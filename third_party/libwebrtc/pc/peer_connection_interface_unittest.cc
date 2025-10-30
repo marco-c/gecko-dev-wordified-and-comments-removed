@@ -832,7 +832,7 @@ PeerConnectionInterface
 :
 RTCOfferAnswerOptions
 ;
-const
+constexpr
 char
 kStreamId1
 [
@@ -842,7 +842,7 @@ kStreamId1
 local_stream_1
 "
 ;
-const
+constexpr
 char
 kStreamId2
 [
@@ -852,7 +852,7 @@ kStreamId2
 local_stream_2
 "
 ;
-const
+constexpr
 char
 kStreamId3
 [
@@ -862,13 +862,13 @@ kStreamId3
 local_stream_3
 "
 ;
-const
+constexpr
 int
 kDefaultStunPort
 =
 3478
 ;
-const
+constexpr
 char
 kStunAddressOnly
 [
@@ -880,7 +880,7 @@ stun
 address
 "
 ;
-const
+constexpr
 char
 kStunInvalidPort
 [
@@ -895,7 +895,7 @@ address
 1
 "
 ;
-const
+constexpr
 char
 kStunAddressPortAndMore1
 [
@@ -911,7 +911,7 @@ port
 more
 "
 ;
-const
+constexpr
 char
 kStunAddressPortAndMore2
 [
@@ -926,7 +926,7 @@ port
 more
 "
 ;
-const
+constexpr
 char
 kTurnIceServerUri
 [
@@ -942,7 +942,7 @@ example
 org
 "
 ;
-const
+constexpr
 char
 kTurnUsername
 [
@@ -952,7 +952,7 @@ kTurnUsername
 user
 "
 ;
-const
+constexpr
 char
 kTurnPassword
 [
@@ -962,7 +962,7 @@ kTurnPassword
 password
 "
 ;
-const
+constexpr
 char
 kTurnHostname
 [
@@ -976,13 +976,13 @@ example
 org
 "
 ;
-const
+constexpr
 uint32_t
 kTimeout
 =
 10000U
 ;
-const
+constexpr
 char
 kStreams
 [
@@ -1000,7 +1000,7 @@ stream2
 "
 }
 ;
-const
+constexpr
 char
 kAudioTracks
 [
@@ -1018,7 +1018,7 @@ audiotrack1
 "
 }
 ;
-const
+constexpr
 char
 kVideoTracks
 [
@@ -1036,7 +1036,7 @@ videotrack1
 "
 }
 ;
-const
+constexpr
 char
 kRecvonly
 [
@@ -1046,7 +1046,7 @@ kRecvonly
 recvonly
 "
 ;
-const
+constexpr
 char
 kSendrecv
 [
@@ -1056,7 +1056,7 @@ kSendrecv
 sendrecv
 "
 ;
-const
+constexpr
 char
 kSdpStringWithStream1PlanB
 [
@@ -1497,7 +1497,7 @@ r
 n
 "
 ;
-const
+constexpr
 char
 kSdpStringWithStream1UnifiedPlan
 [
@@ -1932,7 +1932,7 @@ r
 n
 "
 ;
-const
+constexpr
 char
 kSdpStringWithStream1AudioTrackOnly
 [
@@ -2181,7 +2181,7 @@ r
 n
 "
 ;
-const
+constexpr
 char
 kSdpStringWithStream1And2PlanB
 [
@@ -2695,7 +2695,7 @@ r
 n
 "
 ;
-const
+constexpr
 char
 kSdpStringWithStream1And2UnifiedPlan
 [
@@ -3537,7 +3537,7 @@ r
 n
 "
 ;
-const
+constexpr
 char
 kSdpStringWithoutStreams
 [
@@ -3920,7 +3920,7 @@ r
 n
 "
 ;
-const
+constexpr
 char
 kSdpStringWithMsidWithoutStreams
 [
@@ -4316,7 +4316,7 @@ r
 n
 "
 ;
-const
+constexpr
 char
 kSdpStringWithoutStreamsAudioOnly
 [
@@ -4536,7 +4536,7 @@ r
 n
 "
 ;
-const
+constexpr
 char
 kSdpStringSendOnlyWithoutStreams
 [
@@ -4937,7 +4937,7 @@ r
 n
 "
 ;
-const
+constexpr
 char
 kSdpStringInit
 [
@@ -5005,7 +5005,7 @@ r
 n
 "
 ;
-const
+constexpr
 char
 kSdpStringAudio
 [
@@ -5177,7 +5177,7 @@ r
 n
 "
 ;
-const
+constexpr
 char
 kSdpStringVideo
 [
@@ -5347,7 +5347,7 @@ r
 n
 "
 ;
-const
+constexpr
 char
 kSdpStringMs1Audio0
 [
@@ -5383,7 +5383,7 @@ r
 n
 "
 ;
-const
+constexpr
 char
 kSdpStringMs1Video0
 [
@@ -5419,7 +5419,7 @@ r
 n
 "
 ;
-const
+constexpr
 char
 kSdpStringMs1Audio1
 [
@@ -5455,7 +5455,7 @@ r
 n
 "
 ;
-const
+constexpr
 char
 kSdpStringMs1Video1
 [

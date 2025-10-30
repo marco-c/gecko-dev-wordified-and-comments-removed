@@ -238,13 +238,13 @@ test
 {
 namespace
 {
-const
+constexpr
 int
 kWidth
 =
 352
 ;
-const
+constexpr
 int
 kHeight
 =

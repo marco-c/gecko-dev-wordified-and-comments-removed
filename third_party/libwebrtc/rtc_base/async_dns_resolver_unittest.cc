@@ -131,7 +131,7 @@ Millis
 1000
 )
 ;
-const
+constexpr
 int
 kPortNumber
 =

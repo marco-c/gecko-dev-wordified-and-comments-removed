@@ -59,7 +59,7 @@ webrtc
 namespace
 test
 {
-const
+constexpr
 int
 kNumValidFrameLengths
 =

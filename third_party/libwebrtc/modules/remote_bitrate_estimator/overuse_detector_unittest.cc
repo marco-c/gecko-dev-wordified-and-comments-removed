@@ -95,7 +95,7 @@ webrtc
 namespace
 testing
 {
-const
+constexpr
 double
 kRtpTimestampToMs
 =

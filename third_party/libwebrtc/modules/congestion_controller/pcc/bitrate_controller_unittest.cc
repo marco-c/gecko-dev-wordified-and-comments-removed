@@ -224,7 +224,7 @@ KilobitsPerSec
 300
 )
 ;
-const
+constexpr
 double
 kEpsilon
 =

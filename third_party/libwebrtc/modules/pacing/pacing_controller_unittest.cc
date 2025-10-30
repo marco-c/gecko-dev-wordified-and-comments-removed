@@ -307,7 +307,7 @@ KilobitsPerSec
 150
 )
 ;
-const
+constexpr
 float
 kPaceMultiplier
 =

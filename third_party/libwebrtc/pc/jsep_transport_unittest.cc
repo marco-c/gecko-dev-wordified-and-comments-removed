@@ -407,7 +407,7 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 char
 kIceUfrag1
 [
@@ -417,7 +417,7 @@ kIceUfrag1
 U001
 "
 ;
-const
+constexpr
 char
 kIcePwd1
 [
@@ -427,7 +427,7 @@ kIcePwd1
 TESTICEPWD00000000000001
 "
 ;
-const
+constexpr
 char
 kIceUfrag2
 [
@@ -437,7 +437,7 @@ kIceUfrag2
 U002
 "
 ;
-const
+constexpr
 char
 kIcePwd2
 [
@@ -447,7 +447,7 @@ kIcePwd2
 TESTIEPWD00000000000002
 "
 ;
-const
+constexpr
 char
 kTransportName
 [

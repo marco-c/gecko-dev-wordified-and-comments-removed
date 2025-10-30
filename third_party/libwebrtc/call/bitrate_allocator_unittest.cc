@@ -514,7 +514,7 @@ kDefaultProbingIntervalMs
 =
 3000
 ;
-const
+constexpr
 double
 kDefaultBitratePriority
 =

@@ -89,7 +89,7 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 int
 kSample
 =

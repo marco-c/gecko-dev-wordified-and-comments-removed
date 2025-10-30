@@ -198,7 +198,7 @@ Values
 ;
 namespace
 {
-const
+constexpr
 char
 kAudioMid
 [
@@ -208,7 +208,7 @@ kAudioMid
 audio
 "
 ;
-const
+constexpr
 char
 kVideoMid
 [
@@ -218,7 +218,7 @@ kVideoMid
 video
 "
 ;
-const
+constexpr
 char
 kCandidateUfrag
 [
@@ -228,7 +228,7 @@ kCandidateUfrag
 ufrag
 "
 ;
-const
+constexpr
 char
 kCandidatePwd
 [
@@ -238,7 +238,7 @@ kCandidatePwd
 pwd
 "
 ;
-const
+constexpr
 char
 kCandidateUfragVoice
 [
@@ -248,7 +248,7 @@ kCandidateUfragVoice
 ufrag_voice
 "
 ;
-const
+constexpr
 char
 kCandidatePwdVoice
 [
@@ -258,7 +258,7 @@ kCandidatePwdVoice
 pwd_voice
 "
 ;
-const
+constexpr
 char
 kCandidateUfragVideo
 [
@@ -268,7 +268,7 @@ kCandidateUfragVideo
 ufrag_video
 "
 ;
-const
+constexpr
 char
 kCandidatePwdVideo
 [
@@ -278,7 +278,7 @@ kCandidatePwdVideo
 pwd_video
 "
 ;
-const
+constexpr
 char
 kCandidateFoundation
 [
@@ -292,13 +292,13 @@ B
 1
 "
 ;
-const
+constexpr
 uint32_t
 kCandidatePriority
 =
 2130706432U
 ;
-const
+constexpr
 uint32_t
 kCandidateGeneration
 =

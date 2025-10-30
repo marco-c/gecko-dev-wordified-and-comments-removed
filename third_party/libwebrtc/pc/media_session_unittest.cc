@@ -620,7 +620,7 @@ vector
 Candidate
 >
 ;
-const
+constexpr
 char
 kAudioMid
 [
@@ -630,7 +630,7 @@ kAudioMid
 0
 "
 ;
-const
+constexpr
 char
 kVideoMid
 [
@@ -640,7 +640,7 @@ kVideoMid
 1
 "
 ;
-const
+constexpr
 char
 kDataMid
 [
@@ -977,7 +977,7 @@ H264
 )
 }
 ;
-const
+constexpr
 char
 kVideoCodecsH265Level6LevelId
 [
@@ -987,7 +987,7 @@ kVideoCodecsH265Level6LevelId
 180
 "
 ;
-const
+constexpr
 char
 kVideoCodecsH265Level52LevelId
 [
@@ -997,7 +997,7 @@ kVideoCodecsH265Level52LevelId
 156
 "
 ;
-const
+constexpr
 char
 kVideoCodecsH265Level5LevelId
 [
@@ -1007,7 +1007,7 @@ kVideoCodecsH265Level5LevelId
 150
 "
 ;
-const
+constexpr
 char
 kVideoCodecsH265Level4LevelId
 [
@@ -1017,7 +1017,7 @@ kVideoCodecsH265Level4LevelId
 120
 "
 ;
-const
+constexpr
 char
 kVideoCodecsH265Level31LevelId
 [
@@ -2816,7 +2816,7 @@ descriptor
 )
 }
 ;
-const
+constexpr
 uint32_t
 kSimulcastParamsSsrc
 [
@@ -2831,7 +2831,7 @@ kSimulcastParamsSsrc
 31
 }
 ;
-const
+constexpr
 uint32_t
 kSimSsrc
 [
@@ -2843,7 +2843,7 @@ kSimSsrc
 30
 }
 ;
-const
+constexpr
 uint32_t
 kFec1Ssrc
 [
@@ -2854,7 +2854,7 @@ kFec1Ssrc
 11
 }
 ;
-const
+constexpr
 uint32_t
 kFec2Ssrc
 [
@@ -2865,7 +2865,7 @@ kFec2Ssrc
 21
 }
 ;
-const
+constexpr
 uint32_t
 kFec3Ssrc
 [
@@ -2876,7 +2876,7 @@ kFec3Ssrc
 31
 }
 ;
-const
+constexpr
 char
 kMediaStream1
 [
@@ -2886,7 +2886,7 @@ kMediaStream1
 stream_1
 "
 ;
-const
+constexpr
 char
 kMediaStream2
 [
@@ -2896,7 +2896,7 @@ kMediaStream2
 stream_2
 "
 ;
-const
+constexpr
 char
 kVideoTrack1
 [
@@ -2906,7 +2906,7 @@ kVideoTrack1
 video_1
 "
 ;
-const
+constexpr
 char
 kVideoTrack2
 [
@@ -2916,7 +2916,7 @@ kVideoTrack2
 video_2
 "
 ;
-const
+constexpr
 char
 kAudioTrack1
 [
@@ -2926,7 +2926,7 @@ kAudioTrack1
 audio_1
 "
 ;
-const
+constexpr
 char
 kAudioTrack2
 [
@@ -2936,7 +2936,7 @@ kAudioTrack2
 audio_2
 "
 ;
-const
+constexpr
 char
 kAudioTrack3
 [
@@ -33323,7 +33323,7 @@ codec6
 )
 }
 ;
-const
+constexpr
 int
 kOfferSendCodecs
 [
@@ -33337,7 +33337,7 @@ kOfferSendCodecs
 6
 }
 ;
-const
+constexpr
 int
 kOfferRecvCodecs
 [
@@ -33351,7 +33351,7 @@ kOfferRecvCodecs
 6
 }
 ;
-const
+constexpr
 int
 kAnswerSendCodecs
 [
@@ -33365,7 +33365,7 @@ kAnswerSendCodecs
 4
 }
 ;
-const
+constexpr
 int
 kAnswerRecvCodecs
 [
@@ -33379,7 +33379,7 @@ kAnswerRecvCodecs
 0
 }
 ;
-const
+constexpr
 int
 kResultSend_RecvCodecs
 [
@@ -33392,7 +33392,7 @@ kResultSend_RecvCodecs
 6
 }
 ;
-const
+constexpr
 int
 kResultRecv_SendCodecs
 [
@@ -33405,7 +33405,7 @@ kResultRecv_SendCodecs
 6
 }
 ;
-const
+constexpr
 int
 kResultSendrecv_SendCodecs
 [
@@ -33416,7 +33416,7 @@ kResultSendrecv_SendCodecs
 6
 }
 ;
-const
+constexpr
 int
 kResultSendrecv_RecvCodecs
 [
@@ -33427,7 +33427,7 @@ kResultSendrecv_RecvCodecs
 6
 }
 ;
-const
+constexpr
 int
 kResultSendrecv_SendrecvCodecs
 [

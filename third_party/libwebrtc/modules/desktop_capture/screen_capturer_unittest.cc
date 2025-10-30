@@ -141,7 +141,7 @@ testing
 :
 _
 ;
-const
+constexpr
 int
 kTestSharedMemoryId
 =

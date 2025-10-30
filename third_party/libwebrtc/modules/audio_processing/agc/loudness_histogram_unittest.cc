@@ -102,7 +102,7 @@ loudness
 ;
 }
 ;
-const
+constexpr
 double
 kRelativeErrTol
 =

@@ -291,7 +291,7 @@ kBufferSize
 =
 2048
 ;
-const
+constexpr
 char
 kExampleSpropString
 [

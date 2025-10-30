@@ -64,7 +64,7 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 uint8_t
 kCodedFrameVp8Qp25
 [
@@ -103,7 +103,7 @@ kCodedFrameVp8Qp25
 0xd0
 }
 ;
-const
+constexpr
 uint8_t
 kCodedFrameVp9Qp96
 [
@@ -151,7 +151,7 @@ kCodedFrameVp9Qp96
 0x40
 }
 ;
-const
+constexpr
 uint8_t
 kCodedFrameH264SpsPpsIdrQp38
 [
@@ -215,7 +215,7 @@ kCodedFrameH264SpsPpsIdrQp38
 0xfe
 }
 ;
-const
+constexpr
 uint8_t
 kCodedFrameH264SpsPpsIdrQp49
 [
@@ -279,7 +279,7 @@ kCodedFrameH264SpsPpsIdrQp49
 0x7c
 }
 ;
-const
+constexpr
 uint8_t
 kCodedFrameH264InterSliceQpDelta0
 [

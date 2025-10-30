@@ -62,13 +62,13 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 int
 kMaxPayloadSize
 =
 1024
 ;
-const
+constexpr
 int
 kNumCores
 =

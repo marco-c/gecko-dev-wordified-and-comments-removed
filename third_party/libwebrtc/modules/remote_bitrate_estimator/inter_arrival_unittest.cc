@@ -68,7 +68,7 @@ kAbsSendTimeFraction
 kAbsSendTimeInterArrivalUpshift
 }
 ;
-const
+constexpr
 double
 kRtpTimestampToMs
 =
@@ -80,7 +80,7 @@ kRtpTimestampToMs
 .
 0
 ;
-const
+constexpr
 double
 kAstToMs
 =

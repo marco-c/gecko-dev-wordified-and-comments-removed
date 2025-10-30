@@ -778,7 +778,7 @@ hostname
 5000
 )
 ;
-const
+constexpr
 int
 kTimeoutMs
 =
@@ -787,7 +787,7 @@ webrtc
 :
 STUN_TOTAL_TIMEOUT
 ;
-const
+constexpr
 uint32_t
 kStunCandidatePriority
 =
@@ -811,7 +811,7 @@ kStunCandidatePriority
 1
 )
 ;
-const
+constexpr
 uint32_t
 kIPv6StunCandidatePriority
 =
@@ -835,14 +835,14 @@ kIPv6StunCandidatePriority
 1
 )
 ;
-const
+constexpr
 int
 kInfiniteLifetime
 =
 -
 1
 ;
-const
+constexpr
 int
 kHighCostPortKeepaliveLifetimeMs
 =

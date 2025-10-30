@@ -37,13 +37,13 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 int
 kDefaultProcessIntervalMs
 =
 2000
 ;
-const
+constexpr
 uint32_t
 kStreamId
 =

@@ -26,7 +26,7 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 double
 kLearningRate
 =

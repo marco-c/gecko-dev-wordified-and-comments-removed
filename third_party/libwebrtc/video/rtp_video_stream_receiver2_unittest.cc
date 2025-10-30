@@ -664,7 +664,7 @@ testing
 :
 Values
 ;
-const
+constexpr
 uint8_t
 kH264StartCode
 [
