@@ -4667,6 +4667,11 @@ nsAString
 aFilename
 )
 {
+InnerInformAboutAbortingNavigation
+(
+aCx
+)
+;
 RefPtr
 <
 NavigationDestination
