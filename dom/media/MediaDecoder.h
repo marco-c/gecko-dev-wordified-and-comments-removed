@@ -1777,7 +1777,7 @@ DisconnectMirrors
 #
 ifdef
 MOZ_WMF_MEDIA_ENGINE
-void
+bool
 SwitchStateMachine
 (
 const
