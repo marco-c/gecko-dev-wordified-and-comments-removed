@@ -657,6 +657,14 @@ e
 originalTarget
 .
 url
+{
+forceNewTab
+=
+true
+}
+=
+{
+}
 )
 {
 let
@@ -709,6 +717,9 @@ where
 "
 current
 "
+&
+&
+forceNewTab
 )
 {
 where

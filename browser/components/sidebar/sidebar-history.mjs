@@ -1128,6 +1128,16 @@ return
 navigateToLink
 (
 e
+e
+.
+originalTarget
+.
+url
+{
+forceNewTab
+:
+false
+}
 )
 ;
 this
