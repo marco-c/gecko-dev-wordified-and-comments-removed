@@ -1073,6 +1073,15 @@ BuildConfig
 MOZ_ANDROID_CONTENT_SERVICE_ISOLATED_PROCESS
 )
 .
+appZygoteProcessEnabled
+(
+env
+.
+isAppZygoteProcess
+(
+)
+)
+.
 build
 (
 )
