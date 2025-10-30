@@ -1661,7 +1661,7 @@ message
 .
 data
 .
-failedCertChain
+handshakeCertificates
 .
 map
 (

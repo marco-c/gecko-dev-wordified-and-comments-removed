@@ -91,7 +91,7 @@ Array
 <
 nsIX509Cert
 >
-failedCertChain
+handshakeCertificates
 ;
 readonly
 attribute
