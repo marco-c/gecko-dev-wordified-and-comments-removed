@@ -1,12 +1,4 @@
-declare
-class
-MozXULElement
-extends
-XULElement
-{
-}
-declare
-class
+interface
 MozSearchbar
 extends
 MozXULElement

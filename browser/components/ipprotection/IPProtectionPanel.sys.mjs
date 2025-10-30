@@ -1232,7 +1232,7 @@ panelView
 *
 param
 {
-XULBrowserElement
+MozBrowser
 }
 panelView
 *

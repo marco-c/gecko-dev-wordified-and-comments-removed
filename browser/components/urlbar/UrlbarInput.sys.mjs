@@ -20755,7 +20755,7 @@ with
 *
 param
 {
-XULBrowserElement
+MozBrowser
 }
 [
 browser

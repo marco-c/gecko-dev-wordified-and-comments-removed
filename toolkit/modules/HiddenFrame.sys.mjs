@@ -1129,7 +1129,7 @@ browser
 *
 param
 {
-XULBrowserElement
+MozBrowser
 }
 browser
 *
@@ -1221,7 +1221,7 @@ T
 param
 {
 (
-XULBrowserElement
+MozBrowser
 )
 =
 >

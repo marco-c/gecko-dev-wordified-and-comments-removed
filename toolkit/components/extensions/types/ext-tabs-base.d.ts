@@ -252,7 +252,7 @@ browser
 (
 )
 :
-XULBrowserElement
+MozBrowser
 ;
 readonly
 get

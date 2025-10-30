@@ -296,7 +296,7 @@ type
 {
 WeakMap
 <
-XULBrowserElement
+MozBrowser
 object
 >
 }
@@ -1590,7 +1590,7 @@ received
 *
 param
 {
-XULBrowserElement
+MozBrowser
 }
 browser
 *

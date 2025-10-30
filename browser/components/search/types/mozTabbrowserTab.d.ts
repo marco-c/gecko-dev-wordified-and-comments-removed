@@ -4,6 +4,6 @@ MozTabbrowserTab
 {
 linkedBrowser
 :
-XULBrowserElement
+MozBrowser
 ;
 }

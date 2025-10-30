@@ -485,7 +485,7 @@ skipped
 *
 param
 {
-XULBrowserElement
+MozBrowser
 }
 browser
 *
@@ -987,7 +987,7 @@ themselves
 *
 param
 {
-XULBrowserElement
+MozBrowser
 }
 browser
 *
@@ -2012,7 +2012,7 @@ point
 *
 param
 {
-XULBrowserElement
+MozBrowser
 }
 browser
 *
@@ -2278,7 +2278,7 @@ sources
 *
 param
 {
-XULBrowserElement
+MozBrowser
 }
 browser
 *

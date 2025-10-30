@@ -3491,7 +3491,7 @@ type
 {
 WeakMap
 <
-XULBrowserElement
+MozBrowser
 object
 >
 }
@@ -8939,7 +8939,7 @@ returns
 {
 Promise
 <
-XULBrowserElement
+MozBrowser
 >
 }
 *
@@ -9934,13 +9934,13 @@ Map
 string
 Promise
 <
-XULBrowserElement
+MozBrowser
 >
 &
 {
 browser
 :
-XULBrowserElement
+MozBrowser
 }
 >
 }
@@ -9961,7 +9961,7 @@ WeakMap
 <
 Promise
 <
-XULBrowserElement
+MozBrowser
 >
 Set
 <
@@ -10919,7 +10919,7 @@ returns
 {
 Promise
 <
-XULBrowserElement
+MozBrowser
 >
 }
 *
@@ -11704,7 +11704,7 @@ listeners
 *
 param
 {
-XULBrowserElement
+MozBrowser
 }
 browser
 *

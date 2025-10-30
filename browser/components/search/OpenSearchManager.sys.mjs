@@ -168,7 +168,7 @@ type
 {
 WeakMap
 <
-XULBrowserElement
+MozBrowser
 OpenSearchData
 [
 ]
@@ -192,7 +192,7 @@ type
 {
 WeakMap
 <
-XULBrowserElement
+MozBrowser
 OpenSearchData
 [
 ]
@@ -511,7 +511,7 @@ instead
 *
 param
 {
-XULBrowserElement
+MozBrowser
 }
 browser
 *
@@ -773,16 +773,6 @@ icon
 (
 )
 {
-/
-/
-ts
--
-expect
--
-error
--
-Bug
-1957641
 return
 browser
 .
@@ -1351,7 +1341,7 @@ browser
 *
 param
 {
-XULBrowserElement
+MozBrowser
 }
 browser
 *
