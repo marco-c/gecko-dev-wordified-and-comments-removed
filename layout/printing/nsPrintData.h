@@ -7,15 +7,6 @@ nsPrintData_h___
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h

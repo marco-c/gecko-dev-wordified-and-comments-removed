@@ -7,15 +7,6 @@ nsSelectsAreaFrame_h___
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsBlockFrame
 .
 h

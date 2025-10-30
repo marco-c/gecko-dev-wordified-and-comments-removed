@@ -7,15 +7,6 @@ nsMathMLmunderoverFrame_h___
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIReflowCallback
 .
 h

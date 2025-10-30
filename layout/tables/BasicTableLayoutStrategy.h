@@ -7,15 +7,6 @@ BasicTableLayoutStrategy_h_
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsITableLayoutStrategy
 .
 h

@@ -7,15 +7,6 @@ nsMathMLmfracFrame_h___
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsMathMLContainerFrame
 .
 h

@@ -7,15 +7,6 @@ mozilla_ViewportFrame_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsContainerFrame
 .
 h
