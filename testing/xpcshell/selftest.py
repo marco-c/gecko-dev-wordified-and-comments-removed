@@ -3191,6 +3191,20 @@ repeat
 =
 0
         
+if
+not
+expected
+:
+            
+kwargs
+[
+"
+retry
+"
+]
+=
+False
+        
 startup_profiling
 =
 os
