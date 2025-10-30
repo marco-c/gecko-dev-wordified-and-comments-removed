@@ -43,15 +43,6 @@ h
 #
 include
 "
-mozilla
-/
-RefPtr
-.
-h
-"
-#
-include
-"
 gtest
 /
 gtest

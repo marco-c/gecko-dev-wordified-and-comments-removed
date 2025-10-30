@@ -9,15 +9,6 @@ include
 <
 cstdint
 >
-#
-include
-"
-mozilla
-/
-Assertions
-.
-h
-"
 template
 <
 class

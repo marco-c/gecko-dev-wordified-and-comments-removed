@@ -48,15 +48,6 @@ include
 "
 mozilla
 /
-HelperMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 RefCountType
 .
 h

@@ -26,15 +26,6 @@ nsTLiteralString
 h
 "
 #
-include
-"
-mozilla
-/
-Char16
-.
-h
-"
-#
 define
 NS_CSTRING_LITERAL_AS_STRING_LITERAL
 (

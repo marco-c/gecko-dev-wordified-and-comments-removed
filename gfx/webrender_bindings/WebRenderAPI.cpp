@@ -63,6 +63,15 @@ include
 "
 mozilla
 /
+HelperMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_gfx
 .
 h

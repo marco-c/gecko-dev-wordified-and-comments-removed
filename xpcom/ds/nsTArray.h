@@ -56,15 +56,6 @@ include
 "
 mozilla
 /
-Alignment
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ArrayIterator
 .
 h

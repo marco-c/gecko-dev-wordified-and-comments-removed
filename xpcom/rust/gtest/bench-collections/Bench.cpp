@@ -30,15 +30,6 @@ include
 "
 mozilla
 /
-HashFunctions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 HashTable
 .
 h

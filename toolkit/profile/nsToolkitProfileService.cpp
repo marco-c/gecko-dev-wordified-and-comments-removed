@@ -21,6 +21,15 @@ include
 "
 mozilla
 /
+HelperMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ScopeExit
 .
 h

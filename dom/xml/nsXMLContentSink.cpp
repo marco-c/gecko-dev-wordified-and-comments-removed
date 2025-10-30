@@ -53,6 +53,15 @@ include
 "
 mozilla
 /
+PodOperations
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StyleSheetInlines
 .
 h

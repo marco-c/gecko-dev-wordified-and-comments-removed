@@ -52,6 +52,15 @@ include
 "
 mozilla
 /
+HelperMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LinkedList
 .
 h

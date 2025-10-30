@@ -90,6 +90,15 @@ include
 "
 mozilla
 /
+HelperMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 CmdLineAndEnvUtils
 .
 h
