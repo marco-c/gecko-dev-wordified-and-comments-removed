@@ -1031,6 +1031,9 @@ NS_IsMainThread
 ;
 if
 (
+mLaunchPromise
+&
+&
 !
 mLaunchPromiseSettled
 )
@@ -1071,6 +1074,9 @@ NS_IsMainThread
 ;
 if
 (
+mLaunchPromise
+&
+&
 !
 mLaunchPromiseSettled
 )
