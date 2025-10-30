@@ -6022,7 +6022,7 @@ schema
 =
 {
         
-Required
+Optional
 (
 "
 max
@@ -6420,7 +6420,7 @@ schema
 =
 {
         
-Required
+Optional
 (
 "
 max
@@ -6565,7 +6565,7 @@ schema
 =
 {
         
-Required
+Optional
 (
 "
 max
@@ -6668,7 +6668,7 @@ schema
 =
 {
         
-Required
+Optional
 (
 "
 max
@@ -12931,53 +12931,9 @@ implementation
 ]
 in
 (
-            
-"
-beetmover
-"
-            
-"
-beetmover
--
-push
--
-to
--
-release
-"
-            
-"
-beetmover
--
-maven
-"
-            
-"
-beetmover
--
-import
--
-from
--
-gcs
--
-to
--
-artifact
--
-registry
-"
-            
 "
 iscript
 "
-            
-"
-scriptworker
--
-signing
-"
-        
 )
 :
             
