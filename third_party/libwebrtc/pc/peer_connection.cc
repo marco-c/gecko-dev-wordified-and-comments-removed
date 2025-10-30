@@ -9145,6 +9145,13 @@ has_local_description
 configuration
 .
 crypto_options
+.
+value_or
+(
+CryptoOptions
+(
+)
+)
 !
 =
 configuration_
