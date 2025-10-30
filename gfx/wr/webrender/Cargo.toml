@@ -253,6 +253,9 @@ api
 /
 debugger
 "
+"
+capture
+"
 ]
 [
 build

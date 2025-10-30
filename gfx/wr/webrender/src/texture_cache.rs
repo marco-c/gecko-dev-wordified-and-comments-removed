@@ -16,6 +16,7 @@ api
 {
 DebugFlags
 ImageDescriptor
+TextureCacheCategory
 }
 ;
 use
@@ -110,7 +111,6 @@ TextureUpdateSource
 TextureSource
 TextureCacheAllocInfo
 TextureCacheUpdate
-TextureCacheCategory
 }
 ;
 use

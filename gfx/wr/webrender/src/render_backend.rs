@@ -6019,6 +6019,15 @@ CompositorConfig
 .
 .
 }
+|
+DebugQueryKind
+:
+:
+Textures
+{
+.
+.
+}
 =
 >
 {
