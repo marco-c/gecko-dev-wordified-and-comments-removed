@@ -42,6 +42,8 @@ mfe
 variant
 -
 stack
+-
+v2
 "
 POPUP_CSS
 =
@@ -68,10 +70,8 @@ mfe
 variant
 -
 stack
-.
-variant
 -
-stack
+v2
 .
 hero
 -
