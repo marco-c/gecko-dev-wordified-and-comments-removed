@@ -348,6 +348,9 @@ const
 StylePositionArea
 &
 aPosArea
+StylePositionArea
+*
+aOutResolvedArea
 )
 ;
 static
