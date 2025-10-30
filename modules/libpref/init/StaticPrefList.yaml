@@ -58844,7 +58844,7 @@ type
 int32_t
 value
 :
-5000
+10000
 mirror
 :
 once
