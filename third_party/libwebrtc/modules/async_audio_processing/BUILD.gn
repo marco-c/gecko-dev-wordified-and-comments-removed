@@ -188,8 +188,6 @@ audio_frame_processor
 api
 /
 task_queue
-:
-task_queue
 "
 "
 .

@@ -288,8 +288,6 @@ environment
 api
 /
 task_queue
-:
-task_queue
 "
 "
 .
@@ -645,8 +643,6 @@ repeating_task
 .
 /
 system_wrappers
-:
-system_wrappers
 "
 "
 .
@@ -850,8 +846,6 @@ environment_factory
 /
 api
 /
-task_queue
-:
 task_queue
 "
 "
@@ -1127,8 +1121,6 @@ test_support
 /
 test
 /
-time_controller
-:
 time_controller
 "
 "

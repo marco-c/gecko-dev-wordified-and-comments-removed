@@ -135,8 +135,6 @@ array_view
 api
 /
 task_queue
-:
-task_queue
 "
 "
 .
@@ -360,8 +358,6 @@ sequence_checker
 api
 /
 task_queue
-:
-pending_task_safety_flag
 "
 "
 .
@@ -377,7 +373,7 @@ api
 /
 task_queue
 :
-task_queue
+pending_task_safety_flag
 "
 "
 .
@@ -544,8 +540,6 @@ array_view
 api
 /
 task_queue
-:
-task_queue
 "
 "
 .
@@ -665,8 +659,6 @@ test_support
 /
 test
 /
-time_controller
-:
 time_controller
 "
 "

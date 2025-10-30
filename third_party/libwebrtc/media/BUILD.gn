@@ -5240,8 +5240,6 @@ environment
 api
 /
 task_queue
-:
-pending_task_safety_flag
 "
 "
 .
@@ -5251,7 +5249,7 @@ api
 /
 task_queue
 :
-task_queue
+pending_task_safety_flag
 "
 "
 .
@@ -5448,8 +5446,6 @@ rtc_base
 third_party
 /
 sigslot
-:
-sigslot
 "
 "
 .
@@ -5468,8 +5464,6 @@ cpp
 /
 absl
 /
-strings
-:
 strings
 "
 ]

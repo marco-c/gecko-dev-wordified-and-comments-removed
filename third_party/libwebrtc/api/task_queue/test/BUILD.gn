@@ -142,8 +142,6 @@ location
 api
 /
 task_queue
-:
-task_queue
 "
 "
 .

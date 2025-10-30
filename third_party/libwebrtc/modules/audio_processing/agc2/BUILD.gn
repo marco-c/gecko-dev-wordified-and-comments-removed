@@ -590,8 +590,6 @@ visibility
 .
 /
 agc
-:
-agc
 "
 "
 .
@@ -1080,8 +1078,6 @@ analog_mic_simulation
 .
 .
 /
-agc
-:
 agc
 "
 "

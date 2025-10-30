@@ -1981,8 +1981,6 @@ scalability_mode_helper
 common_video
 /
 generic_frame_descriptor
-:
-generic_frame_descriptor
 "
 "
 .
@@ -2513,8 +2511,6 @@ video_codecs_api
 .
 .
 /
-common_video
-:
 common_video
 "
 "

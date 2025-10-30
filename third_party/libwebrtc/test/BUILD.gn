@@ -4755,8 +4755,6 @@ scenario_unittests
 "
 "
 time_controller
-:
-time_controller
 "
 "
 time_controller
@@ -8242,8 +8240,6 @@ strings
 third_party
 /
 jni_zero
-:
-jni_zero
 "
 ]
 }
@@ -8597,8 +8593,6 @@ environment_factory
 /
 api
 /
-numerics
-:
 numerics
 "
 "

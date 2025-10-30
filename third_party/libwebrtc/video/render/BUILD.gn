@@ -151,8 +151,6 @@ sequence_checker
 api
 /
 task_queue
-:
-task_queue
 "
 "
 .

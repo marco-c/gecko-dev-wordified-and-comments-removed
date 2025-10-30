@@ -1472,8 +1472,6 @@ video_test_constants
 test
 /
 time_controller
-:
-time_controller
 "
 "
 /
@@ -1517,8 +1515,6 @@ cpp
 absl
 /
 strings
-:
-str_format
 "
 "
 /
@@ -1533,7 +1529,7 @@ absl
 /
 strings
 :
-strings
+str_format
 "
 ]
 if
@@ -2154,8 +2150,6 @@ neteq_api
 /
 api
 /
-rtc_event_log
-:
 rtc_event_log
 "
 "
@@ -2958,8 +2952,6 @@ video_codecs_api
 /
 /
 common_video
-:
-common_video
 "
 "
 /
@@ -3080,8 +3072,6 @@ cpp
 /
 absl
 /
-strings
-:
 strings
 "
 ]

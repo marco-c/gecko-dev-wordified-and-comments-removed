@@ -2365,8 +2365,6 @@ dtls_transport_interface
 api
 /
 rtc_event_log
-:
-rtc_event_log
 "
 "
 .

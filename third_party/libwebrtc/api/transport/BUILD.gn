@@ -901,8 +901,6 @@ network_emulation_manager_api
 api
 /
 rtc_event_log
-:
-rtc_event_log
 "
 "
 .
@@ -1004,8 +1002,6 @@ network_emulation_manager_api
 /
 api
 /
-rtc_event_log
-:
 rtc_event_log
 "
 "

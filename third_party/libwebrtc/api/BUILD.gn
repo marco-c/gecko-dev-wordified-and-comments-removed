@@ -1247,8 +1247,6 @@ scoped_refptr
 "
 "
 rtc_event_log
-:
-rtc_event_log
 "
 ]
 }
@@ -5558,8 +5556,6 @@ rtc_export
 "
 "
 rtc_event_log
-:
-rtc_event_log
 "
 ]
 }
@@ -5695,8 +5691,6 @@ synchronization
 sequence_checker_internal
 "
 "
-task_queue
-:
 task_queue
 "
 ]
@@ -9078,8 +9072,6 @@ scoped_refptr
 .
 .
 /
-audio
-:
 audio
 "
 "

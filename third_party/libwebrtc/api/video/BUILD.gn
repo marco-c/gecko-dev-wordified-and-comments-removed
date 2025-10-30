@@ -1202,8 +1202,6 @@ scoped_refptr
 modules
 /
 rtp_rtcp
-:
-rtp_rtcp
 "
 "
 .
@@ -1241,8 +1239,6 @@ rtp_video_header
 modules
 /
 video_coding
-:
-packet_buffer
 "
 "
 .
@@ -1255,7 +1251,7 @@ modules
 /
 video_coding
 :
-video_coding
+packet_buffer
 "
 "
 .
@@ -1371,8 +1367,6 @@ array_view
 modules
 /
 rtp_rtcp
-:
-rtp_packetizer_av1_test_helper
 "
 "
 .
@@ -1385,7 +1379,7 @@ modules
 /
 rtp_rtcp
 :
-rtp_rtcp
+rtp_packetizer_av1_test_helper
 "
 "
 .
@@ -1518,8 +1512,6 @@ array_view
 /
 modules
 /
-rtp_rtcp
-:
 rtp_rtcp
 "
 "
@@ -2526,8 +2518,6 @@ test_support
 .
 .
 /
-video
-:
 video
 "
 ]

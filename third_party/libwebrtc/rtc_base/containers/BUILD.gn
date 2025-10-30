@@ -285,16 +285,12 @@ test_support
 testing
 /
 gmock
-:
-gmock
 "
 "
 /
 /
 testing
 /
-gtest
-:
 gtest
 "
 "

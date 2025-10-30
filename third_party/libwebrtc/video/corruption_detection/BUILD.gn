@@ -917,8 +917,6 @@ cpp
 absl
 /
 strings
-:
-string_view
 "
 "
 /
@@ -933,7 +931,7 @@ absl
 /
 strings
 :
-strings
+string_view
 "
 ]
 }

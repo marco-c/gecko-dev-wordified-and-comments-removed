@@ -1761,8 +1761,6 @@ simulated_network_api
 api
 /
 environment
-:
-environment
 "
 "
 .
@@ -1786,8 +1784,6 @@ environment_factory
 /
 api
 /
-rtc_event_log
-:
 rtc_event_log
 "
 "
@@ -2006,8 +2002,6 @@ simulated_network_api
 /
 api
 /
-rtc_event_log
-:
 rtc_event_log
 "
 "

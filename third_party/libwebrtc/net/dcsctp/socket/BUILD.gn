@@ -735,8 +735,6 @@ array_view
 api
 /
 task_queue
-:
-task_queue
 "
 "
 .
@@ -1063,8 +1061,6 @@ scoped_refptr
 /
 api
 /
-task_queue
-:
 task_queue
 "
 "
@@ -1423,8 +1419,6 @@ array_view
 /
 api
 /
-task_queue
-:
 task_queue
 "
 "
