@@ -23,15 +23,6 @@ h
 #
 include
 "
-mozilla
-/
-WeakPtr
-.
-h
-"
-#
-include
-"
 nsIGlobalObject
 .
 h

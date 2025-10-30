@@ -40,15 +40,6 @@ include
 "
 mozilla
 /
-Result
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_media
 .
 h

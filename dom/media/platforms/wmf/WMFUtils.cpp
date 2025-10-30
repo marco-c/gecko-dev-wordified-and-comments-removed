@@ -96,15 +96,6 @@ include
 "
 mozilla
 /
-RefPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 mscom
 /
 EnsureMTA

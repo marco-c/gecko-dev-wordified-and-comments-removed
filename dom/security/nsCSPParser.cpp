@@ -47,15 +47,6 @@ include
 "
 mozilla
 /
-TextUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 Document

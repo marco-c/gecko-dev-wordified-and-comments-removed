@@ -24,15 +24,6 @@ h
 #
 include
 "
-mozilla
-/
-MacroForEach
-.
-h
-"
-#
-include
-"
 nscore
 .
 h

@@ -25,15 +25,6 @@ h
 #
 include
 "
-mozilla
-/
-Assertions
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

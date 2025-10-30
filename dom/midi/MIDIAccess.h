@@ -25,15 +25,6 @@ h
 #
 include
 "
-mozilla
-/
-WeakPtr
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

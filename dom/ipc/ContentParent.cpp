@@ -593,15 +593,6 @@ include
 "
 mozilla
 /
-ThreadSafety
-.
-h
-"
-#
-include
-"
-mozilla
-/
 WebBrowserPersistDocumentParent
 .
 h

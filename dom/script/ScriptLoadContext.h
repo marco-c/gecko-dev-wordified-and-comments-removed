@@ -222,15 +222,6 @@ include
 "
 mozilla
 /
-Vector
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 SRIMetadata

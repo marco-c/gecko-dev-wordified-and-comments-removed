@@ -143,15 +143,6 @@ include
 "
 mozilla
 /
-Variant
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BrowserBridgeParent

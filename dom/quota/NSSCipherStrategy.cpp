@@ -47,15 +47,6 @@ h
 #
 include
 "
-mozilla
-/
-ResultExtensions
-.
-h
-"
-#
-include
-"
 blapit
 .
 h

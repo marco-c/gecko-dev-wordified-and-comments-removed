@@ -14,15 +14,6 @@ include
 "
 mozilla
 /
-HashTable
-.
-h
-"
-#
-include
-"
-mozilla
-/
 RefPtr
 .
 h

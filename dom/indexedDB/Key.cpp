@@ -165,15 +165,6 @@ include
 "
 mozilla
 /
-ReverseIterator
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 TypedArray

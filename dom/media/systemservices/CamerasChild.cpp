@@ -47,15 +47,6 @@ include
 "
 mozilla
 /
-WeakPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ipc
 /
 BackgroundChild

@@ -7,15 +7,6 @@ mozilla_dom_ReportBody_h
 #
 include
 "
-mozilla
-/
-Assertions
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

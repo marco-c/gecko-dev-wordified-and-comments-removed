@@ -94,15 +94,6 @@ h
 #
 include
 "
-mozilla
-/
-Result
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
