@@ -10513,9 +10513,6 @@ true
 targeting
 :
 "
-backupRestoreEnabled
-&
-&
 source
 =
 =
@@ -10995,9 +10992,6 @@ PIN_FIREFOX_TO_START_MENU
 targeting
 :
 "
-backupRestoreEnabled
-&
-&
 source
 =
 =
@@ -11394,9 +11388,6 @@ SET_DEFAULT_BROWSER
 targeting
 :
 "
-backupRestoreEnabled
-&
-&
 source
 =
 =
@@ -11830,9 +11821,6 @@ PIN_FIREFOX_TO_START_MENU
 targeting
 :
 "
-backupRestoreEnabled
-&
-&
 source
 =
 =
