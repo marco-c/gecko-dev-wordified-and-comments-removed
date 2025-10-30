@@ -179,9 +179,6 @@ MessageLoop
 class
 nsIThread
 ;
-class
-JSObject
-;
 extern
 nsresult
 NS_NewNamedThread
@@ -7494,6 +7491,9 @@ class
 MicroTaskRunnable
 ;
 class
+MustConsumeMicroTask
+;
+class
 Task
 ;
 class
@@ -7641,6 +7641,13 @@ LogMicroTaskRunnable
 typedef
 LogTaskBase
 <
+MustConsumeMicroTask
+>
+LogMustConsumeMicroTask
+;
+typedef
+LogTaskBase
+<
 IPC
 :
 :
@@ -7688,13 +7695,6 @@ dom
 VideoFrameRequestCallback
 >
 LogVideoFrameRequestCallback
-;
-typedef
-LogTaskBase
-<
-JSObject
->
-LogJSMicroTask
 ;
 }
 #

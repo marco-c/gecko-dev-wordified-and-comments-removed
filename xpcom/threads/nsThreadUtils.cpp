@@ -3199,6 +3199,13 @@ template
 class
 LogTaskBase
 <
+MustConsumeMicroTask
+>
+;
+template
+class
+LogTaskBase
+<
 IPC
 :
 :
