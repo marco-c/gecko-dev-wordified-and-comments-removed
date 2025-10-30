@@ -4,9 +4,6 @@ import
 Any
 List
 Mapping
-MutableMapping
-Optional
-Union
 from
 .
 _module
@@ -19,7 +16,8 @@ from
 undefined
 import
 UNDEFINED
-Undefined
+Maybe
+Nullable
 class
 Browser
 (
@@ -219,20 +217,20 @@ command
 def
 create_user_context
 (
-        
+            
 self
 accept_insecure_certs
 :
-Optional
+Maybe
 [
 bool
 ]
 =
-None
-        
+UNDEFINED
+            
 proxy
 :
-Optional
+Maybe
 [
 Mapping
 [
@@ -241,11 +239,11 @@ Any
 ]
 ]
 =
-None
-        
+UNDEFINED
+            
 unhandled_prompt_behavior
 :
-Optional
+Maybe
 [
 Mapping
 [
@@ -254,7 +252,7 @@ str
 ]
 ]
 =
-None
+UNDEFINED
     
 )
 -
@@ -266,67 +264,28 @@ Any
 ]
 :
         
-params
-:
-MutableMapping
-[
-str
-Any
-]
-=
+return
 {
-}
-        
-if
-accept_insecure_certs
-is
-not
-None
-:
             
-params
-[
 "
 acceptInsecureCerts
 "
-]
-=
+:
 accept_insecure_certs
-        
-if
-proxy
-is
-not
-None
-:
             
-params
-[
 "
 proxy
 "
-]
-=
-proxy
-        
-if
-unhandled_prompt_behavior
-is
-not
-None
 :
+proxy
             
-params
-[
 "
 unhandledPromptBehavior
 "
-]
-=
+:
 unhandled_prompt_behavior
         
-return
-params
+}
     
 create_user_context
 .
@@ -480,7 +439,7 @@ command
 def
 remove_user_context
 (
-        
+            
 self
 user_context
 :
@@ -496,35 +455,16 @@ Any
 ]
 :
         
-params
-:
-MutableMapping
-[
-str
-Any
-]
-=
+return
 {
-}
-        
-if
-user_context
-is
-not
-None
-:
             
-params
-[
 "
 userContext
 "
-]
-=
+:
 user_context
         
-return
-params
+}
     
 command
     
@@ -535,7 +475,7 @@ set_download_behavior
 self
 download_behavior
 :
-Optional
+Nullable
 [
 Mapping
 [
@@ -543,14 +483,11 @@ str
 Any
 ]
 ]
-=
-None
             
 user_contexts
 :
-Union
+Maybe
 [
-Undefined
 List
 [
 str
@@ -569,14 +506,7 @@ Any
 ]
 :
         
-params
-:
-MutableMapping
-[
-str
-Any
-]
-=
+return
 {
             
 "
@@ -584,24 +514,11 @@ downloadBehavior
 "
 :
 download_behavior
-        
-}
-        
-if
-user_contexts
-!
-=
-UNDEFINED
-:
             
-params
-[
 "
 userContexts
 "
-]
-=
+:
 user_contexts
         
-return
-params
+}

@@ -8,6 +8,14 @@ bidi
 error
 as
 error
+from
+webdriver
+.
+bidi
+.
+undefined
+import
+UNDEFINED
 pytestmark
 =
 pytest
@@ -25,6 +33,7 @@ parametrize
 value
 "
 [
+UNDEFINED
 None
 False
 42
