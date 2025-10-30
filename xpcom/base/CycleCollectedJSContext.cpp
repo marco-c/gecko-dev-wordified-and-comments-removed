@@ -5305,6 +5305,16 @@ javascript_options_use_js_microtask_queue
 if
 (
 !
+cx
+)
+{
+return
+false
+;
+}
+if
+(
+!
 JS
 :
 :
