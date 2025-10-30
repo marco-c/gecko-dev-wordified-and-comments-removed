@@ -10,14 +10,12 @@ h
 #
 include
 <
-string
-.
-h
+array
 >
 #
 include
 <
-array
+cstring
 >
 #
 include

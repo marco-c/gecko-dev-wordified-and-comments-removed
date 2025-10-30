@@ -10,14 +10,12 @@ h
 #
 include
 <
-inttypes
-.
-h
+algorithm
 >
 #
 include
 <
-algorithm
+cinttypes
 >
 #
 include

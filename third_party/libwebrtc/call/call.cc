@@ -10,13 +10,6 @@ h
 #
 include
 <
-string
-.
-h
->
-#
-include
-<
 algorithm
 >
 #
@@ -28,6 +21,11 @@ atomic
 include
 <
 cstdint
+>
+#
+include
+<
+cstring
 >
 #
 include

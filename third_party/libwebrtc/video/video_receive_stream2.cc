@@ -10,13 +10,6 @@ h
 #
 include
 <
-stdlib
-.
-h
->
-#
-include
-<
 algorithm
 >
 #
@@ -28,6 +21,11 @@ cmath
 include
 <
 cstdint
+>
+#
+include
+<
+cstdlib
 >
 #
 include
