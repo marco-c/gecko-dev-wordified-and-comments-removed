@@ -767,17 +767,6 @@ id
 )
 ;
 AttachDecision
-tryAttachSet
-(
-HandleObject
-obj
-ObjOperandId
-objId
-HandleId
-id
-)
-;
-AttachDecision
 tryAttachModuleNamespace
 (
 HandleObject

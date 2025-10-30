@@ -2102,9 +2102,6 @@ MapForEach
 2
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_FN
 (
 "
@@ -2125,8 +2122,6 @@ MapGetOrInsertComputed
 2
 0
 )
-#
-endif
 JS_FN
 (
 "
@@ -3160,9 +3155,6 @@ return
 true
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 bool
 MapObject
 :
@@ -3322,8 +3314,6 @@ return
 true
 ;
 }
-#
-endif
 MapObject
 *
 MapObject
@@ -5359,9 +5349,6 @@ args
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 bool
 MapObject
 :
@@ -5483,8 +5470,6 @@ args
 )
 ;
 }
-#
-endif
 bool
 MapObject
 :
@@ -7175,13 +7160,14 @@ properties
 ]
 =
 {
-JS_PSG
+JS_INLINABLE_PSG
 (
 "
 size
 "
 size
 0
+SetSize
 )
 JS_STRING_SYM_PS
 (
@@ -10944,9 +10930,6 @@ rval
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 JS_PUBLIC_API
 bool
 JS
@@ -11102,8 +11085,6 @@ rval
 )
 ;
 }
-#
-endif
 JS_PUBLIC_API
 bool
 JS
