@@ -6080,7 +6080,9 @@ requestBaseURI
 aRequest
 -
 >
-mBaseURL
+BaseURL
+(
+)
 ;
 }
 MOZ_ASSERT
