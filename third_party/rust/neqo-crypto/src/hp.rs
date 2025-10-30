@@ -580,11 +580,6 @@ sample
 &
 [
 u8
-;
-Self
-:
-:
-SAMPLE_SIZE
 ]
 )
 -
@@ -669,6 +664,14 @@ len
 )
 ?
 sample
+[
+.
+.
+Self
+:
+:
+SAMPLE_SIZE
+]
 .
 as_ptr
 (
@@ -754,6 +757,10 @@ sample
 4
 .
 .
+Self
+:
+:
+SAMPLE_SIZE
 ]
 .
 as_ptr

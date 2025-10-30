@@ -11,10 +11,6 @@ rc
 :
 :
 Rc
-time
-:
-:
-Instant
 }
 ;
 use
@@ -220,9 +216,6 @@ _conn
 &
 mut
 Connection
-_now
-:
-Instant
 )
 -
 >
@@ -361,9 +354,6 @@ mut
 [
 u8
 ]
-_now
-:
-Instant
 )
 -
 >
@@ -910,9 +900,6 @@ conn
 &
 mut
 Connection
-_now
-:
-Instant
 )
 -
 >
@@ -1113,9 +1100,6 @@ buf
 [
 u8
 ]
-now
-:
-Instant
 )
 -
 >
@@ -1129,7 +1113,6 @@ self
 send
 (
 conn
-now
 )
 ?
 ;
@@ -1201,9 +1184,6 @@ conn
 &
 mut
 Connection
-_now
-:
-Instant
 )
 -
 >

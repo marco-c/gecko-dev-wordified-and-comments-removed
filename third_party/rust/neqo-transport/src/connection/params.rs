@@ -118,13 +118,6 @@ u64
 16
 ;
 const
-MAX_DATAGRAM_FRAME_SIZE
-:
-u64
-=
-65535
-;
-const
 MAX_QUEUED_DATAGRAMS_DEFAULT
 :
 usize
@@ -376,7 +369,7 @@ PreferredAddressConfig
 Default
 datagram_size
 :
-MAX_DATAGRAM_FRAME_SIZE
+1200
 outgoing_datagram_queue
 :
 MAX_QUEUED_DATAGRAMS_DEFAULT

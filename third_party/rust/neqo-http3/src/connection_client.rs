@@ -1477,7 +1477,6 @@ target
 headers
 priority
 }
-now
 )
 ;
 if
@@ -1641,7 +1640,6 @@ as_ref
 headers
 priority
 }
-now
 )
 ;
 if
@@ -1778,9 +1776,6 @@ self
 stream_id
 :
 StreamId
-now
-:
-Instant
 )
 -
 >
@@ -1822,7 +1817,6 @@ self
 .
 conn
 stream_id
-now
 )
 }
 pub
@@ -1957,9 +1951,6 @@ buf
 [
 u8
 ]
-now
-:
-Instant
 )
 -
 >
@@ -2026,7 +2017,6 @@ self
 .
 conn
 buf
-now
 )
 }
 pub
@@ -2094,7 +2084,6 @@ self
 conn
 stream_id
 buf
-now
 )
 ;
 if
@@ -2467,9 +2456,6 @@ message
 :
 &
 str
-now
-:
-Instant
 )
 -
 >
@@ -2493,7 +2479,6 @@ conn
 session_id
 error
 message
-now
 )
 }
 pub
@@ -2513,9 +2498,6 @@ message
 :
 &
 str
-now
-:
-Instant
 )
 -
 >
@@ -2539,7 +2521,6 @@ conn
 session_id
 error
 message
-now
 )
 }
 pub
@@ -3274,7 +3255,6 @@ self
 .
 check_connection_events
 (
-now
 )
 ;
 if
@@ -3321,7 +3301,6 @@ mut
 self
 .
 conn
-now
 )
 ;
 self
@@ -3357,7 +3336,6 @@ self
 .
 check_connection_events
 (
-now
 )
 ;
 _
@@ -3642,9 +3620,6 @@ check_connection_events
 &
 mut
 self
-now
-:
-Instant
 )
 -
 >
@@ -3781,7 +3756,6 @@ self
 handle_stream_readable
 (
 stream_id
-now
 )
 ?
 ;
@@ -4026,6 +4000,7 @@ base_handler
 .
 handle_datagram
 (
+&
 dgram
 )
 ;
@@ -4073,9 +4048,6 @@ self
 stream_id
 :
 StreamId
-now
-:
-Instant
 )
 -
 >
@@ -4098,7 +4070,6 @@ self
 .
 conn
 stream_id
-now
 )
 ?
 {
@@ -4124,7 +4095,6 @@ handle_new_push_stream
 (
 stream_id
 push_id
-now
 )
 }
 ReceiveOutput
@@ -4223,7 +4193,6 @@ self
 .
 conn
 stream_id
-now
 )
 ?
 ;
@@ -4400,9 +4369,6 @@ StreamId
 push_id
 :
 PushId
-now
-:
-Instant
 )
 -
 >
@@ -4587,7 +4553,6 @@ self
 .
 conn
 stream_id
-now
 )
 ?
 ;
@@ -5052,17 +5017,6 @@ next_event
 cfg
 (
 test
-)
-]
-#
-[
-cfg_attr
-(
-coverage_nightly
-coverage
-(
-off
-)
 )
 ]
 mod
@@ -7785,9 +7739,6 @@ client
 stream_close_send
 (
 request_stream_id
-now
-(
-)
 )
 .
 unwrap
@@ -13230,9 +13181,6 @@ send_data
 (
 request_stream_id
 REQUEST_BODY
-now
-(
-)
 )
 .
 unwrap
@@ -13255,9 +13203,6 @@ client
 stream_close_send
 (
 request_stream_id
-now
-(
-)
 )
 .
 unwrap
@@ -13550,9 +13495,6 @@ send_data
 (
 request_stream_id
 request_body
-now
-(
-)
 )
 ;
 assert_eq
@@ -13574,9 +13516,6 @@ client
 stream_close_send
 (
 request_stream_id
-now
-(
-)
 )
 .
 unwrap
@@ -14002,9 +13941,6 @@ send_data
 (
 request_stream_id
 first_frame
-now
-(
-)
 )
 ;
 assert_eq
@@ -14037,9 +13973,6 @@ vec
 ;
 INITIAL_RECV_WINDOW_SIZE
 ]
-now
-(
-)
 )
 ;
 assert_eq
@@ -14061,9 +13994,6 @@ client
 stream_close_send
 (
 request_stream_id
-now
-(
-)
 )
 .
 unwrap
@@ -14912,9 +14842,6 @@ request_stream_id
 ;
 10
 ]
-now
-(
-)
 )
 )
 ;
@@ -22513,9 +22440,6 @@ client
 stream_close_send
 (
 request_stream_id
-now
-(
-)
 )
 ;
 assert
@@ -32811,9 +32735,6 @@ mut
 server
 .
 conn
-now
-(
-)
 )
 )
 ;
@@ -33141,9 +33062,6 @@ mut
 server
 .
 conn
-now
-(
-)
 )
 )
 ;
@@ -33388,9 +33306,6 @@ mut
 server
 .
 conn
-now
-(
-)
 )
 .
 unwrap
@@ -33644,9 +33559,6 @@ mut
 server
 .
 conn
-now
-(
-)
 )
 .
 unwrap
@@ -33992,9 +33904,6 @@ mut
 server
 .
 conn
-now
-(
-)
 )
 .
 unwrap
@@ -34127,9 +34036,6 @@ mut
 server
 .
 conn
-now
-(
-)
 )
 .
 unwrap
@@ -37420,9 +37326,6 @@ client
 stream_close_send
 (
 stream_id
-now
-(
-)
 )
 .
 unwrap_err
@@ -37454,9 +37357,6 @@ send_data
 stream_id
 &
 buf
-now
-(
-)
 )
 .
 unwrap_err
@@ -37830,9 +37730,6 @@ request_stream_id
 ;
 2000
 ]
-now
-(
-)
 )
 .
 unwrap

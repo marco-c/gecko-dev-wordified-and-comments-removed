@@ -28,10 +28,6 @@ rc
 :
 :
 Rc
-time
-:
-:
-Instant
 }
 ;
 use
@@ -759,9 +755,6 @@ buf
 [
 u8
 ]
-now
-:
-Instant
 )
 -
 >
@@ -809,7 +802,6 @@ stream
 send_buffer
 (
 conn
-now
 )
 ?
 ;
@@ -1063,7 +1055,6 @@ enc
 as_ref
 (
 )
-now
 )
 .
 map_err
@@ -1105,7 +1096,6 @@ buf
 .
 to_send
 ]
-now
 )
 .
 map_err
@@ -1215,9 +1205,6 @@ conn
 &
 mut
 Connection
-now
-:
-Instant
 )
 -
 >
@@ -1242,7 +1229,6 @@ stream
 send_buffer
 (
 conn
-now
 )
 Error
 :
@@ -1382,9 +1368,6 @@ conn
 &
 mut
 Connection
-_now
-:
-Instant
 )
 -
 >
@@ -1523,9 +1506,6 @@ buf
 [
 u8
 ]
-now
-:
-Instant
 )
 -
 >
@@ -1589,7 +1569,6 @@ stream
 send_buffer
 (
 conn
-now
 )
 ?
 ;

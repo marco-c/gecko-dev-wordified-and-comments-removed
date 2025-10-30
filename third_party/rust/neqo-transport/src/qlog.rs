@@ -1828,7 +1828,7 @@ variants
 ]
 pub
 enum
-Metric
+QlogMetric
 {
 MinRtt
 (
@@ -1891,7 +1891,7 @@ updated_metrics
 :
 &
 [
-Metric
+QlogMetric
 ]
 now
 :
@@ -2034,7 +2034,7 @@ updated_metrics
 match
 metric
 {
-Metric
+QlogMetric
 :
 :
 MinRtt
@@ -2057,7 +2057,7 @@ as_secs_f32
 .
 0
 )
-Metric
+QlogMetric
 :
 :
 SmoothedRtt
@@ -2080,7 +2080,7 @@ as_secs_f32
 .
 0
 )
-Metric
+QlogMetric
 :
 :
 LatestRtt
@@ -2103,7 +2103,7 @@ as_secs_f32
 .
 0
 )
-Metric
+QlogMetric
 :
 :
 RttVariance
@@ -2126,7 +2126,7 @@ as_secs_f32
 .
 0
 )
-Metric
+QlogMetric
 :
 :
 PtoCount
@@ -2160,7 +2160,7 @@ u16
 )
 ;
 }
-Metric
+QlogMetric
 :
 :
 CongestionWindow
@@ -2194,7 +2194,7 @@ u64
 )
 ;
 }
-Metric
+QlogMetric
 :
 :
 BytesInFlight
@@ -2228,7 +2228,7 @@ u64
 )
 ;
 }
-Metric
+QlogMetric
 :
 :
 SsThresh
@@ -2262,7 +2262,7 @@ u64
 )
 ;
 }
-Metric
+QlogMetric
 :
 :
 PacketsInFlight
@@ -2278,7 +2278,7 @@ Some
 *
 v
 )
-Metric
+QlogMetric
 :
 :
 PacingRate

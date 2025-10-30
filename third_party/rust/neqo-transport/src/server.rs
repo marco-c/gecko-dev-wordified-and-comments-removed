@@ -1342,9 +1342,6 @@ ConnectionIdRef
 '
 _
 >
-now
-:
-Instant
 )
 -
 >
@@ -1417,7 +1414,6 @@ odcid
 }
 "
 )
-now
 )
 .
 unwrap_or_else
@@ -1471,9 +1467,6 @@ Option
 <
 ConnectionId
 >
-now
-:
-Instant
 )
 {
 let
@@ -1577,7 +1570,6 @@ dst_cid
 as_cid_ref
 (
 )
-now
 )
 )
 ;
@@ -1785,7 +1777,6 @@ mut
 c
 initial
 orig_dcid
-now
 )
 ;
 let
@@ -1885,7 +1876,6 @@ dst_cid
 as_cid_ref
 (
 )
-now
 )
 self
 .
@@ -2591,7 +2581,6 @@ packet
 dcid
 (
 )
-now
 )
 self
 .

@@ -11,10 +11,6 @@ rc
 :
 :
 Rc
-time
-:
-:
-Instant
 }
 ;
 use
@@ -170,9 +166,6 @@ conn
 &
 mut
 Connection
-now
-:
-Instant
 )
 -
 >
@@ -198,7 +191,6 @@ conn
 self
 .
 stream_id
-now
 )
 ?
 ;

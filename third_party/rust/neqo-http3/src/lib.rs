@@ -1,15 +1,3 @@
-#
-!
-[
-cfg_attr
-(
-coverage_nightly
-feature
-(
-coverage_attribute
-)
-)
-]
 mod
 buffered_send_stream
 ;
@@ -103,10 +91,6 @@ rc
 :
 :
 Rc
-time
-:
-:
-Instant
 }
 ;
 use
@@ -1528,9 +1512,6 @@ conn
 &
 mut
 Connection
-now
-:
-Instant
 )
 -
 >
@@ -1578,9 +1559,6 @@ mut
 [
 u8
 ]
-_now
-:
-Instant
 )
 -
 >
@@ -1693,9 +1671,6 @@ conn
 &
 mut
 Connection
-now
-:
-Instant
 )
 -
 >
@@ -2017,9 +1992,6 @@ conn
 &
 mut
 Connection
-now
-:
-Instant
 )
 -
 >
@@ -2073,9 +2045,6 @@ _buf
 [
 u8
 ]
-now
-:
-Instant
 )
 -
 >
@@ -2095,9 +2064,6 @@ conn
 &
 mut
 Connection
-now
-:
-Instant
 )
 -
 >
@@ -2125,9 +2091,6 @@ _message
 :
 &
 str
-_now
-:
-Instant
 )
 -
 >
@@ -2192,9 +2155,6 @@ _buf
 [
 u8
 ]
-_now
-:
-Instant
 )
 -
 >

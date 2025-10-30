@@ -433,9 +433,6 @@ SessionAcceptAction
 :
 :
 Accept
-now
-(
-)
 )
 .
 unwrap
@@ -763,7 +760,7 @@ Some
 Datagram
 :
 :
-from_bytes
+new
 (
 DEFAULT_ADDR
 DEFAULT_ADDR
@@ -1030,7 +1027,7 @@ Some
 Datagram
 :
 :
-from_bytes
+new
 (
 DEFAULT_ADDR
 DEFAULT_ADDR
@@ -1194,7 +1191,6 @@ id
 assert_eq
 !
 (
-&
 datagram
 PING
 )
@@ -1291,7 +1287,6 @@ id
 assert_eq
 !
 (
-&
 datagram
 PONG
 )
@@ -1308,9 +1303,6 @@ session_id
 "
 kthxbye
 "
-now
-(
-)
 )
 .
 unwrap
@@ -1388,9 +1380,6 @@ close_session
 "
 kthxbye
 "
-now
-(
-)
 )
 .
 unwrap
@@ -1878,9 +1867,6 @@ SessionAcceptAction
 :
 :
 Accept
-now
-(
-)
 )
 .
 unwrap
@@ -2478,9 +2464,6 @@ fetch_stream
 "
 kthxbye
 "
-now
-(
-)
 )
 Err
 (

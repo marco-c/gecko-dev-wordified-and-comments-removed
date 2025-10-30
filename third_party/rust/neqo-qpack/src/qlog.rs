@@ -1,13 +1,4 @@
 use
-std
-:
-:
-time
-:
-:
-Instant
-;
-use
 neqo_common
 :
 :
@@ -56,14 +47,11 @@ data
 [
 u8
 ]
-now
-:
-Instant
 )
 {
 qlog
 .
-add_event_data_with_instant
+add_event_data_now
 (
 |
 |
@@ -132,7 +120,6 @@ Some
 ev_data
 )
 }
-now
 )
 ;
 }

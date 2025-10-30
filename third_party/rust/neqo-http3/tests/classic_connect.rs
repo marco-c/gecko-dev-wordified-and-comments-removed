@@ -162,9 +162,6 @@ b
 "
 ping
 "
-now
-(
-)
 )
 .
 unwrap
@@ -389,9 +386,6 @@ b
 "
 pong
 "
-now
-(
-)
 )
 .
 unwrap

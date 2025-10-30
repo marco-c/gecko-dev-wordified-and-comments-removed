@@ -2,7 +2,6 @@ use
 std
 :
 :
-{
 fmt
 :
 :
@@ -10,11 +9,6 @@ fmt
 self
 Display
 Formatter
-}
-time
-:
-:
-Instant
 }
 ;
 use
@@ -155,9 +149,6 @@ conn
 &
 mut
 Connection
-now
-:
-Instant
 )
 -
 >
@@ -202,7 +193,6 @@ self
 .
 stream_id
 )
-now
 )
 ?
 {
@@ -315,9 +305,6 @@ conn
 &
 mut
 Connection
-now
-:
-Instant
 )
 -
 >
@@ -354,7 +341,6 @@ self
 receive_single
 (
 conn
-now
 )
 ?
 {

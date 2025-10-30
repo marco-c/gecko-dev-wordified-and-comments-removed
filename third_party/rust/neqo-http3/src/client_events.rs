@@ -29,7 +29,6 @@ Provider
 as
 EventProvider
 qtrace
-Bytes
 Header
 }
 ;
@@ -156,7 +155,10 @@ session_id
 StreamId
 datagram
 :
-Bytes
+Vec
+<
+u8
+>
 }
 }
 #
@@ -223,7 +225,10 @@ session_id
 StreamId
 datagram
 :
-Bytes
+Vec
+<
+u8
+>
 }
 }
 #
@@ -986,7 +991,10 @@ session_id
 StreamId
 datagram
 :
-Bytes
+Vec
+<
+u8
+>
 connect_type
 :
 ExtendedConnectType

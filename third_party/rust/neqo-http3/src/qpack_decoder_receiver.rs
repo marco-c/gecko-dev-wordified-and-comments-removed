@@ -11,10 +11,6 @@ rc
 :
 :
 Rc
-time
-:
-:
-Instant
 }
 ;
 use
@@ -170,9 +166,6 @@ conn
 &
 mut
 Connection
-_now
-:
-Instant
 )
 -
 >
