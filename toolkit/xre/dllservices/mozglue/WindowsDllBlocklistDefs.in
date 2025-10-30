@@ -1739,6 +1739,15 @@ dll
 4
 )
 )
+DllBlocklistEntry
+(
+"
+MFCopyHook
+.
+dll
+"
+ALL_VERSIONS
+)
 ]
 CHILD_PROCESSES
 +
