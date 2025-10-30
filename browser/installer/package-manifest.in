@@ -300,6 +300,11 @@ document
 icns
 RESPATH
 /
+Assets
+.
+car
+RESPATH
+/
 LPROJ_ROOT
 .
 lproj
