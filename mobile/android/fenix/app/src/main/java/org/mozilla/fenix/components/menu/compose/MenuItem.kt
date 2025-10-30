@@ -1527,9 +1527,10 @@ Painter
 iconTint
 :
 Color
-?
 =
-null
+Color
+.
+Unspecified
 enabled
 :
 Boolean
@@ -1583,13 +1584,6 @@ true
 beforeIconTint
 =
 iconTint
-?
-:
-FirefoxTheme
-.
-colors
-.
-iconPrimary
 beforeIconPainter
 =
 iconPainter

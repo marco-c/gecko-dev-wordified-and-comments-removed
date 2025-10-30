@@ -2370,6 +2370,14 @@ description
 tint
 =
 tint
+modifier
+=
+Modifier
+.
+size
+(
+ICON_SIZE
+)
 )
 }
 }
