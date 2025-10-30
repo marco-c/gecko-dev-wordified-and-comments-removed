@@ -8533,6 +8533,15 @@ newDefault
 await
 this
 .
+currentProfile
+.
+removeDesktopShortcut
+(
+)
+;
+await
+this
+.
 #
 connection
 .

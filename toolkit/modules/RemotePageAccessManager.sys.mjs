@@ -932,6 +932,11 @@ Profiles
 :
 UpdateProfileAvatar
 "
+"
+Profiles
+:
+SetDesktopShortcut
+"
 ]
 RPMSendAsyncMessage
 :
