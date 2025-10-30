@@ -135,6 +135,17 @@ flightaware
 "
 ;
 }
+get
+baseTelemetryType
+(
+)
+{
+return
+"
+flights
+"
+;
+}
 getViewTemplateForDescriptionTop
 (
 index
