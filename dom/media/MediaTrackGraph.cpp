@@ -6808,7 +6808,7 @@ mProcessedTime
 next
 ;
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 mProcessedTime
 =
