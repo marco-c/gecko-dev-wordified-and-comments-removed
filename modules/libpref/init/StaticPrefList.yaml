@@ -56182,7 +56182,7 @@ ENABLE_WASM_RELAXED_SIMD
 )
 value
 :
-true
+IS_NIGHTLY_BUILD
 #
 else
 value
