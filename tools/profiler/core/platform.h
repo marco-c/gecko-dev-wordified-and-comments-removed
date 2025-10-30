@@ -52,15 +52,6 @@ include
 "
 mozilla
 /
-MathAlgorithms
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ProfileBufferEntrySerialization
 .
 h
