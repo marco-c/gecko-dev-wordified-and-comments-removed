@@ -387,6 +387,20 @@ mozilla
 .
 components
 .
+compose
+.
+browser
+.
+toolbar
+.
+ui
+.
+BrowserToolbarQuery
+import
+mozilla
+.
+components
+.
 lib
 .
 state
@@ -1385,6 +1399,8 @@ SearchQueryUpdated
 (
 query
 =
+BrowserToolbarQuery
+(
 it
 .
 getUrl
@@ -1394,6 +1410,7 @@ getUrl
 :
 "
 "
+)
 isQueryPrefilled
 =
 true

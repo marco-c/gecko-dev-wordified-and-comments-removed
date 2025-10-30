@@ -3955,6 +3955,8 @@ state
 editState
 .
 query
+.
+current
 )
 verify
 {
@@ -4114,6 +4116,8 @@ state
 editState
 .
 query
+.
+current
 )
 verify
 {
@@ -4418,6 +4422,8 @@ state
 editState
 .
 query
+.
+current
 )
 verify
 {

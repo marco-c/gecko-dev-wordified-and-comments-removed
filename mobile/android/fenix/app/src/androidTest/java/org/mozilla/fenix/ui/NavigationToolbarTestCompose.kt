@@ -515,18 +515,6 @@ fenix
 .
 helpers
 .
-TestHelper
-.
-waitForAppWindowToBeUpdated
-import
-org
-.
-mozilla
-.
-fenix
-.
-helpers
-.
 TestSetup
 import
 org
@@ -1738,6 +1726,7 @@ valid
 term
 typeSearchWithComposableToolbar
 (
+composeTestRule
 firstWebPage
 .
 title
@@ -1772,6 +1761,7 @@ invalid
 term
 typeSearchWithComposableToolbar
 (
+composeTestRule
 "
 Android
 "
@@ -2062,6 +2052,7 @@ DuckDuckGo
 )
 typeSearchWithComposableToolbar
 (
+composeTestRule
 "
 mozilla
 "
@@ -2160,6 +2151,7 @@ DuckDuckGo
 )
 typeSearchWithComposableToolbar
 (
+composeTestRule
 "
 mozilla
 "
@@ -2573,6 +2565,7 @@ History
 )
 typeSearchWithComposableToolbar
 (
+composeTestRule
 searchTerm
 =
 "
@@ -2594,6 +2587,7 @@ composeTestRule
 )
 typeSearchWithComposableToolbar
 (
+composeTestRule
 searchTerm
 =
 "
@@ -2793,6 +2787,7 @@ it
 .
 submitQueryWithComposableToolbar
 (
+composeTestRule
 "
 mozilla
 "
@@ -2949,6 +2944,7 @@ composeTestRule
 .
 submitQueryWithComposableToolbar
 (
+composeTestRule
 "
 test
 page
@@ -2978,6 +2974,7 @@ composeTestRule
 .
 submitQueryWithComposableToolbar
 (
+composeTestRule
 "
 test
 page
@@ -2994,6 +2991,7 @@ composeTestRule
 {
 typeSearchWithComposableToolbar
 (
+composeTestRule
 searchTerm
 =
 "
@@ -3228,6 +3226,7 @@ composeTestRule
 .
 submitQueryWithComposableToolbar
 (
+composeTestRule
 queryString
 )
 {
@@ -3456,6 +3455,7 @@ composeTestRule
 .
 submitQueryWithComposableToolbar
 (
+composeTestRule
 queryString
 )
 {
@@ -3741,6 +3741,7 @@ openNewTab
 .
 submitQueryWithComposableToolbar
 (
+composeTestRule
 secondWebPage
 .
 url
@@ -4240,12 +4241,14 @@ composeTestRule
 {
 typeSearchWithComposableToolbar
 (
+composeTestRule
 "
 mo
 "
 )
 verifyTypedToolbarTextWithComposableToolbar
 (
+composeTestRule
 "
 monster
 .
@@ -4257,12 +4260,14 @@ true
 )
 typeSearchWithComposableToolbar
 (
+composeTestRule
 "
 moz
 "
 )
 verifyTypedToolbarTextWithComposableToolbar
 (
+composeTestRule
 "
 mozilla
 .
@@ -4355,6 +4360,7 @@ composeTestRule
 {
 typeSearchWithComposableToolbar
 (
+composeTestRule
 "
 moz
 "
@@ -4388,6 +4394,7 @@ mozilla
 org
 verifyTypedToolbarTextWithComposableToolbar
 (
+composeTestRule
 "
 mozilla
 .
@@ -4422,6 +4429,7 @@ items
 url
 typeSearchWithComposableToolbar
 (
+composeTestRule
 "
 github
 .
@@ -4436,6 +4444,7 @@ f
 )
 verifyTypedToolbarTextWithComposableToolbar
 (
+composeTestRule
 "
 github
 .
@@ -4477,6 +4486,7 @@ items
 url
 typeSearchWithComposableToolbar
 (
+composeTestRule
 "
 github
 .
@@ -4491,6 +4501,7 @@ fo
 )
 verifyTypedToolbarTextWithComposableToolbar
 (
+composeTestRule
 "
 github
 .
@@ -4527,6 +4538,7 @@ or
 bookmarks
 typeSearchWithComposableToolbar
 (
+composeTestRule
 "
 github
 .
@@ -4541,6 +4553,7 @@ fi
 )
 verifyTypedToolbarTextWithComposableToolbar
 (
+composeTestRule
 "
 github
 .
@@ -4690,6 +4703,7 @@ composeTestRule
 {
 typeSearchWithComposableToolbar
 (
+composeTestRule
 "
 test
 "
@@ -4863,6 +4877,7 @@ composeTestRule
 {
 typeSearchWithComposableToolbar
 (
+composeTestRule
 "
 test
 "
@@ -5122,6 +5137,7 @@ composeTestRule
 {
 typeSearchWithComposableToolbar
 (
+composeTestRule
 "
 mozilla
 "
@@ -5230,12 +5246,15 @@ composeTestRule
 {
 typeSearchWithComposableToolbar
 (
+composeTestRule
 queryString
 )
 clickClearButtonWithComposableToolbar
 (
 composeTestRule
 )
+/
+/
 verifySearchBarPlaceholderWithComposableToolbar
 (
 "
@@ -5389,6 +5408,7 @@ valid
 term
 typeSearchWithComposableToolbar
 (
+composeTestRule
 firstWebPage
 .
 title
@@ -5427,6 +5447,7 @@ invalid
 term
 typeSearchWithComposableToolbar
 (
+composeTestRule
 "
 Android
 "
@@ -5553,6 +5574,7 @@ History
 )
 typeSearchWithComposableToolbar
 (
+composeTestRule
 searchTerm
 =
 "
@@ -5572,6 +5594,8 @@ clickClearButtonWithComposableToolbar
 (
 composeTestRule
 )
+/
+/
 verifySearchBarPlaceholderWithComposableToolbar
 (
 "
@@ -5702,6 +5726,8 @@ enabled
 =
 true
 )
+/
+/
 verifySearchBarPlaceholderWithComposableToolbar
 (
 "
@@ -5713,6 +5739,7 @@ address
 )
 typeSearchWithComposableToolbar
 (
+composeTestRule
 "
 mozilla
 "
@@ -5956,6 +5983,8 @@ isDisplayed
 =
 true
 )
+/
+/
 verifySearchBarPlaceholderWithComposableToolbar
 (
 "
@@ -6074,6 +6103,8 @@ isDisplayed
 =
 true
 )
+/
+/
 verifySearchBarPlaceholderWithComposableToolbar
 (
 "

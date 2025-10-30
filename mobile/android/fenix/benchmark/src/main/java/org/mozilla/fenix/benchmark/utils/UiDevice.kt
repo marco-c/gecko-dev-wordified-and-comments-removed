@@ -1045,11 +1045,7 @@ true
 -
 >
 "
-TARGET_PACKAGE
-:
-id
-/
-mozac_addressbar_search_query_input
+ADDRESSBAR_SEARCH_BOX
 "
 false
 -

@@ -574,6 +574,8 @@ url
 editState
 .
 query
+.
+current
 )
 )
 syncUserQuery
@@ -691,6 +693,8 @@ false
 -
 >
 query
+.
+current
 }
 )
 )
