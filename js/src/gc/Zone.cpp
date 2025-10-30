@@ -911,14 +911,6 @@ updateRetainedSize
 gcx
 -
 >
-isSweeping
-(
-)
-|
-|
-gcx
--
->
 isFinalizing
 (
 )

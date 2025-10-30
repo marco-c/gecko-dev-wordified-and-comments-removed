@@ -438,7 +438,6 @@ JSScript
 *
 DebugScriptObject
 *
-ZoneAllocPolicy
 >
 {
 public

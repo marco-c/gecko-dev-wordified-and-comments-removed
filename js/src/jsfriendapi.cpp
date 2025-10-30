@@ -4733,10 +4733,7 @@ JSObject
 obj
 )
 {
-ObjectRealm
-:
-:
-ObjectMetadataTable
+ObjectWeakMap
 *
 map
 =
