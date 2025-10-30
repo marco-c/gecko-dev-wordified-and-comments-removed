@@ -8362,8 +8362,8 @@ ignore
 BrandUsage
 "
 >
-Firefox
 Mozilla
+Firefox
 .
 .
 <
@@ -41905,7 +41905,6 @@ ignore
 UnusedResources
 "
 >
-Townland
 <
 /
 string
@@ -42476,6 +42475,8 @@ UnusedResources
 Do
 /
 Si
+(
+)
 <
 /
 string
@@ -54953,9 +54954,6 @@ name
 debug_drawer_override_home_region_label
 "
 >
-Override
-home
-region
 <
 /
 string
