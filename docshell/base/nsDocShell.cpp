@@ -18611,6 +18611,9 @@ nsIStructuredCloneContainer
 aNavigationAPIState
 UserNavigationInvolvement
 aUserInvolvement
+NavigationAPIMethodTracker
+*
+aNavigationAPIMethodTracker
 )
 {
 if
@@ -18833,6 +18836,7 @@ nullptr
 nullptr
 destinationNavigationAPIState
 nullptr
+aNavigationAPIMethodTracker
 )
 )
 {
@@ -40229,6 +40233,16 @@ GetSourceElement
 (
 )
 ;
+RefPtr
+apiMethodTracker
+=
+aLoadState
+-
+>
+GetNavigationAPIMethodTracker
+(
+)
+;
 bool
 shouldContinue
 =
@@ -40263,6 +40277,7 @@ sourceElement
 nullptr
 destinationNavigationAPIState
 nullptr
+apiMethodTracker
 )
 ;
 if
@@ -43654,6 +43669,16 @@ URI
 (
 )
 ;
+RefPtr
+apiMethodTracker
+=
+aLoadState
+-
+>
+GetNavigationAPIMethodTracker
+(
+)
+;
 bool
 shouldContinue
 =
@@ -43688,6 +43713,7 @@ sourceElement
 formData
 navigationAPIStateForFiring
 nullptr
+apiMethodTracker
 )
 ;
 if

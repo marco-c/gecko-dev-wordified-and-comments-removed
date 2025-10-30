@@ -275,6 +275,9 @@ NavigationHistoryBehavior
 :
 uint8_t
 ;
+struct
+NavigationAPIMethodTracker
+;
 class
 SessionHistoryInfo
 ;
@@ -3388,6 +3391,17 @@ UserNavigationInvolvement
 :
 :
 None
+mozilla
+:
+:
+dom
+:
+:
+NavigationAPIMethodTracker
+*
+aNavigationAPIMethodTracker
+=
+nullptr
 )
 ;
 private
