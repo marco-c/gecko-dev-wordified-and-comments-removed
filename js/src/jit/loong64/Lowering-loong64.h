@@ -237,7 +237,7 @@ MDefinition
 mir
 MDefinition
 *
-src
+input
 )
 ;
 template

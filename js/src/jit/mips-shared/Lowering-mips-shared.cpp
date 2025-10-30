@@ -689,7 +689,7 @@ ins
 setOperand
 (
 0
-useRegister
+useRegisterAtStart
 (
 input
 )
@@ -757,7 +757,7 @@ ins
 setOperand
 (
 0
-useRegister
+useRegisterAtStart
 (
 lhs
 )
@@ -769,7 +769,7 @@ ins
 setOperand
 (
 1
-useRegister
+useRegisterAtStart
 (
 rhs
 )
