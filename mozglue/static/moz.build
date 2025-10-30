@@ -22,6 +22,14 @@ MOZ_WIDGET_TOOLKIT
 android
 "
 :
+OS_LIBS
++
+=
+[
+"
+android
+"
+]
 EXPORTS
 .
 mozilla

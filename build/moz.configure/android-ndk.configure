@@ -203,7 +203,7 @@ min_android_version
 :
 return
 "
-21
+26
 "
 option
 (
