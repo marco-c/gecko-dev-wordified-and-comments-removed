@@ -1987,7 +1987,7 @@ aRequest
 )
 ;
 void
-RegisterForCache
+RegisterForDiskCache
 (
 ScriptLoadRequest
 *
@@ -2253,7 +2253,7 @@ loader
 :
 :
 ScriptLoadRequestList
-mCacheableDependencyModules
+mDiskCacheableDependencyModules
 ;
 JS
 :
@@ -2262,7 +2262,7 @@ loader
 :
 :
 ScriptLoadRequestList
-mCachingQueue
+mDiskCacheQueue
 ;
 struct
 PreloadInfo
