@@ -1024,15 +1024,6 @@ include
 "
 mozilla
 /
-Variant
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ViewportUtils
 .
 h
