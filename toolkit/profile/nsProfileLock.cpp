@@ -1034,7 +1034,7 @@ NS_ERROR_FAILURE
 }
 else
 {
-NS_ERROR
+NS_WARNING
 (
 "
 Failed
