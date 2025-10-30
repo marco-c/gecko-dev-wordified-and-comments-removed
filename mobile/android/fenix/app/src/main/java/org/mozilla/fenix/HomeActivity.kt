@@ -3696,6 +3696,8 @@ settings
 )
 .
 shouldShowSetAsDefaultPrompt
+(
+)
 isDefaultBrowser
 :
 Boolean
