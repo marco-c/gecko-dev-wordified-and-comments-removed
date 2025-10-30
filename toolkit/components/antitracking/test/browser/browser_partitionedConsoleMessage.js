@@ -204,6 +204,12 @@ load
 "
 )
 ;
+ifr
+.
+src
+=
+page
+;
 content
 .
 document
@@ -214,12 +220,6 @@ appendChild
 (
 ifr
 )
-;
-ifr
-.
-src
-=
-page
 ;
 await
 loading

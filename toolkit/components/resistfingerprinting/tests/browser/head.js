@@ -818,6 +818,12 @@ onload
 =
 resolve
 ;
+ifr
+.
+src
+=
+url
+;
 content
 .
 document
@@ -828,12 +834,6 @@ appendChild
 (
 ifr
 )
-;
-ifr
-.
-src
-=
-url
 ;
 }
 )

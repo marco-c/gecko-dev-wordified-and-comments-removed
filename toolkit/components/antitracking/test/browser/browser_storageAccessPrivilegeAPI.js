@@ -124,6 +124,12 @@ load
 false
 )
 ;
+ifr
+.
+src
+=
+url
+;
 content
 .
 document
@@ -134,12 +140,6 @@ appendChild
 (
 ifr
 )
-;
-ifr
-.
-src
-=
-url
 ;
 await
 loaded
