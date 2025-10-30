@@ -4165,9 +4165,9 @@ aTagWasHandled
 )
 )
 ;
-(
-void
-)
+Unused
+<
+<
 NS_WARN_IF
 (
 !
@@ -4795,9 +4795,9 @@ Get
 )
 )
 ;
-(
-void
-)
+Unused
+<
+<
 NS_WARN_IF
 (
 FAILED

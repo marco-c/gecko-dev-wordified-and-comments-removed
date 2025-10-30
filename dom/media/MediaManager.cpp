@@ -14649,9 +14649,9 @@ mediaSource
 }
 else
 {
-(
-void
-)
+Unused
+<
+<
 aConstraint
 .
 SetAsMediaTrackConstraints
@@ -14693,9 +14693,9 @@ facingMode
 }
 else
 {
-(
-void
-)
+Unused
+<
+<
 aConstraint
 .
 SetAsMediaTrackConstraints

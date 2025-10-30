@@ -1912,9 +1912,9 @@ CanSend
 )
 )
 {
-(
-void
-)
+Unused
+<
+<
 mWindowContext
 -
 >
@@ -1964,9 +1964,9 @@ mBeforeUnloadListeners
 0
 )
 {
-(
-void
-)
+Unused
+<
+<
 mWindowContext
 -
 >

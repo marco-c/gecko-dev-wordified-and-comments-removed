@@ -6342,9 +6342,9 @@ NS_STREAMTRANSPORTSERVICE_CONTRACTID
 rv
 )
 ;
-(
-void
-)
+Unused
+<
+<
 target
 ;
 return

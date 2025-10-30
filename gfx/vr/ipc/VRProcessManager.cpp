@@ -532,9 +532,9 @@ pref
 mQueuedPrefs
 )
 {
-(
-void
-)
+Unused
+<
+<
 NS_WARN_IF
 (
 !

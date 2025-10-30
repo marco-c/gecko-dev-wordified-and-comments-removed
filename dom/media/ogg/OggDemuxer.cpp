@@ -4747,9 +4747,9 @@ if
 packet
 )
 {
-(
-void
-)
+Unused
+<
+<
 state
 -
 >
@@ -6414,9 +6414,9 @@ PacketOut
 }
 else
 {
-(
-void
-)
+Unused
+<
+<
 state
 -
 >

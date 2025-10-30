@@ -7573,9 +7573,9 @@ IntentionallyLeak
 #
 ifdef
 NS_FREE_PERMANENT_DATA
-(
-void
-)
+Unused
+<
+<
 new
 IntentionallyLeakedObject
 (

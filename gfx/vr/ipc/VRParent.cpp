@@ -250,9 +250,9 @@ DevicePrefs
 devicePrefs
 )
 {
-(
-void
-)
+Unused
+<
+<
 SendInitComplete
 (
 )
@@ -590,9 +590,9 @@ MemoryReport
 aReport
 )
 {
-(
-void
-)
+Unused
+<
+<
 SendAddMemoryReport
 (
 aReport

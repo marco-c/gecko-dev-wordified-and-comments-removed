@@ -3630,9 +3630,9 @@ IPAddressSpace
 aIPAddressSpace
 )
 {
-(
-void
-)
+Unused
+<
+<
 SetIPAddressSpace
 (
 aIPAddressSpace
@@ -3954,9 +3954,9 @@ IsTop
 )
 )
 ;
-(
-void
-)
+Unused
+<
+<
 SetHasOrientationOverride
 (
 false

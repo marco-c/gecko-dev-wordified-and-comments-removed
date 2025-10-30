@@ -21076,9 +21076,9 @@ MOZ_ASSERT
 isActive
 )
 ;
-(
-void
-)
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
