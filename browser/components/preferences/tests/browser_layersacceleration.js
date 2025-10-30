@@ -45,16 +45,6 @@ set
 [
 [
 "
-gfx
-.
-direct2d
-.
-disabled
-"
-false
-]
-[
-"
 layers
 .
 acceleration
