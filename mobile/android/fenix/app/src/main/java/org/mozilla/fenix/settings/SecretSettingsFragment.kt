@@ -731,13 +731,6 @@ pref_key_enable_toolbar_redesign
 .
 apply
 {
-isVisible
-=
-Config
-.
-channel
-.
-isNightlyOrDebug
 isEnabled
 =
 context

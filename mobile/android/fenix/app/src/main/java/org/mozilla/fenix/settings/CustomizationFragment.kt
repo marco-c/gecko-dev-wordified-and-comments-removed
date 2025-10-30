@@ -1105,13 +1105,6 @@ apply
 {
 isVisible
 =
-Config
-.
-channel
-.
-isNightlyOrDebug
-&
-&
 settings
 .
 shouldUseComposableToolbar
