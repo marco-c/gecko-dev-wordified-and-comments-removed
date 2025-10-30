@@ -697,6 +697,14 @@ audio_format
 )
 override
 ;
+bool
+CreateDecoder
+(
+int
+rtp_payload_type
+)
+override
+;
 int
 RemovePayloadType
 (
