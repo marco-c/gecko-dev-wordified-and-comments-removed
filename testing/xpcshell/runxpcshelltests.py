@@ -2724,6 +2724,30 @@ expected
 FAIL
 "
         
+extra
+=
+None
+        
+if
+self
+.
+timeout_factor
+>
+1
+:
+            
+extra
+=
+{
+"
+timeoutfactor
+"
+:
+self
+.
+timeout_factor
+}
+        
 if
 self
 .
@@ -2763,6 +2787,10 @@ Test
 timed
 out
 "
+                
+extra
+=
+extra
             
 )
             
@@ -2837,6 +2865,10 @@ Test
 timed
 out
 "
+                
+extra
+=
+extra
             
 )
             
@@ -6339,11 +6371,11 @@ DISPLAY
 77
 "
         
-testTimeoutInterval
-=
 self
 .
-harness_timeout
+timeout_factor
+=
+1
         
 if
 "
@@ -6355,8 +6387,9 @@ self
 test_object
 :
             
-testTimeoutInterval
-*
+self
+.
+timeout_factor
 =
 int
 (
@@ -6369,6 +6402,16 @@ requesttimeoutfactor
 "
 ]
 )
+        
+testTimeoutInterval
+=
+self
+.
+harness_timeout
+*
+self
+.
+timeout_factor
         
 testTimer
 =
@@ -6773,6 +6816,30 @@ Test
 crashed
 "
             
+extra
+=
+None
+            
+if
+self
+.
+timeout_factor
+>
+1
+:
+                
+extra
+=
+{
+"
+timeoutfactor
+"
+:
+self
+.
+timeout_factor
+}
+            
 if
 status
 !
@@ -6819,6 +6886,10 @@ reporter
 group
 =
 group
+                        
+extra
+=
+extra
                     
 )
                 
@@ -6882,6 +6953,10 @@ retry_message
 group
 =
 group
+                        
+extra
+=
+extra
                     
 )
                     
@@ -6922,16 +6997,24 @@ test_end
 (
                         
 name
+                        
 status
+                        
 expected
 =
 expected
+                        
 message
 =
 message
+                        
 group
 =
 group
+                        
+extra
+=
+extra
                     
 )
                 
@@ -7052,16 +7135,24 @@ test_end
 (
                     
 name
+                    
 status
+                    
 expected
 =
 expected
+                    
 message
 =
 message
+                    
 group
 =
 group
+                    
+extra
+=
+extra
                 
 )
                 
