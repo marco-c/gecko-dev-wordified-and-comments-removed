@@ -413,6 +413,14 @@ b
 ;
 }
 else
+if
+(
+a
+!
+=
+=
+b
+)
 {
 var
 target

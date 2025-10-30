@@ -11,8 +11,6 @@ byteLengths
 96
 128
 1024
-4096
-65536
 ]
 ;
 function
