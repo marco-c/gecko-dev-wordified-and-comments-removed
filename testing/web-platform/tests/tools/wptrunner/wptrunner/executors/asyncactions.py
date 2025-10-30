@@ -2050,6 +2050,17 @@ origin
 '
 ]
         
+embedded_origin
+=
+payload
+.
+get
+(
+'
+embeddedOrigin
+'
+)
+        
 return
 await
 self
@@ -2065,6 +2076,8 @@ descriptor
 state
                                                                    
 origin
+                                                                   
+embedded_origin
 )
 async_actions
 =
