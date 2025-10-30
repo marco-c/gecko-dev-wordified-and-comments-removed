@@ -43563,17 +43563,6 @@ GetNavigationAPIState
 (
 )
 ;
-if
-(
-!
-navigationAPIStateForFiring
-)
-{
-navigationAPIStateForFiring
-=
-nullptr
-;
-}
 nsCOMPtr
 <
 nsIURI
