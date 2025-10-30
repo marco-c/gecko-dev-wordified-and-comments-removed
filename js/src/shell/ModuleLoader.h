@@ -101,6 +101,13 @@ HandleValue
 hostDefined
 HandleValue
 payload
+uint32_t
+lineNumber
+JS
+:
+:
+ColumnNumberOneOrigin
+columnNumber
 )
 ;
 static

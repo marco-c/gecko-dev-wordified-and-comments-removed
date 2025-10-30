@@ -1514,6 +1514,13 @@ Handle
 Value
 >
 aPayload
+uint32_t
+aLineNumber
+JS
+:
+:
+ColumnNumberOneOrigin
+aColumnNumber
 )
 ;
 static
