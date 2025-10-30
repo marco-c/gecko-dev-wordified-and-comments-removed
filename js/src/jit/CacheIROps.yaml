@@ -5190,7 +5190,7 @@ name
 MathRandomResult
 shared
 :
-false
+true
 transpile
 :
 true
