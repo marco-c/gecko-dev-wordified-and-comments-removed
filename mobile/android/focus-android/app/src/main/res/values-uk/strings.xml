@@ -1999,13 +1999,19 @@ s
 /
 p
 >
+\
+n
 <
 p
 >
 :
+\
+n
 <
 ul
 >
+\
+n
 <
 li
 >
@@ -2013,6 +2019,8 @@ li
 /
 li
 >
+\
+n
 <
 li
 >
@@ -2022,6 +2030,8 @@ li
 /
 li
 >
+\
+n
 <
 li
 >
@@ -2030,6 +2040,8 @@ cookie
 /
 li
 >
+\
+n
 <
 /
 ul
@@ -2038,6 +2050,8 @@ ul
 /
 p
 >
+\
+n
 <
 p
 >
@@ -2051,6 +2065,8 @@ Mozilla
 br
 /
 >
+\
+n
 <
 a
 href
@@ -5515,8 +5531,6 @@ name
 content_description_lock
 "
 >
-\
-'
 <
 /
 string
@@ -7942,8 +7956,6 @@ name
 gv_prompt_username_hint
 "
 >
-\
-'
 <
 /
 string
@@ -8000,8 +8012,6 @@ name
 security_popup_secure_connection
 "
 >
-\
-'
 <
 /
 string
@@ -12796,6 +12806,8 @@ br
 <
 br
 >
+\
+n
 <
 label
 >
