@@ -45318,12 +45318,6 @@ isNoCacheResponse
 :
 boolean
 ;
-isPrivateResponse
-(
-)
-:
-boolean
-;
 redirectTo
 (
 aTargetURI

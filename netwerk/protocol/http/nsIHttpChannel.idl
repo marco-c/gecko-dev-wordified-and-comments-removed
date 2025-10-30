@@ -372,14 +372,6 @@ isNoCacheResponse
 [
 must_use
 ]
-boolean
-isPrivateResponse
-(
-)
-;
-[
-must_use
-]
 void
 redirectTo
 (
