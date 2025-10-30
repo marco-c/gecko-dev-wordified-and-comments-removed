@@ -64,7 +64,7 @@ test
 {
 namespace
 {
-const
+constexpr
 TimeDelta
 kInitialRtt
 =
@@ -84,7 +84,7 @@ kAlpha
 .
 9
 ;
-const
+constexpr
 Timestamp
 kStartTime
 =

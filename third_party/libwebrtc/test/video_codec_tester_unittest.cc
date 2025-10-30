@@ -605,7 +605,7 @@ kHeight
 =
 2
 ;
-const
+constexpr
 DataRate
 kBitrate
 =
@@ -617,7 +617,7 @@ BytesPerSec
 100
 )
 ;
-const
+constexpr
 Frequency
 kFramerate
 =

@@ -307,7 +307,7 @@ CERTIFICATE
 n
 "
 ;
-const
+constexpr
 unsigned
 char
 kTestCertSha1
@@ -337,7 +337,7 @@ kTestCertSha1
 0xCA
 }
 ;
-const
+constexpr
 unsigned
 char
 kTestCertSha224
@@ -375,7 +375,7 @@ kTestCertSha224
 0x5b
 }
 ;
-const
+constexpr
 unsigned
 char
 kTestCertSha256
@@ -417,7 +417,7 @@ kTestCertSha256
 0x76
 }
 ;
-const
+constexpr
 unsigned
 char
 kTestCertSha384
@@ -475,7 +475,7 @@ kTestCertSha384
 0x49
 }
 ;
-const
+constexpr
 unsigned
 char
 kTestCertSha512

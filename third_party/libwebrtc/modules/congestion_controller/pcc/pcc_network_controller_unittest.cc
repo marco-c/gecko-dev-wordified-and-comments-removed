@@ -197,7 +197,7 @@ test
 {
 namespace
 {
-const
+constexpr
 DataRate
 kInitialBitrate
 =
@@ -209,7 +209,7 @@ KilobitsPerSec
 60
 )
 ;
-const
+constexpr
 Timestamp
 kDefaultStartTime
 =

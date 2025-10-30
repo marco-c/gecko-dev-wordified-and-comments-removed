@@ -98,7 +98,7 @@ test
 {
 namespace
 {
-const
+constexpr
 DataRate
 kTargetSendingRate
 =
@@ -110,7 +110,7 @@ KilobitsPerSec
 300
 )
 ;
-const
+constexpr
 Timestamp
 kStartTime
 =
@@ -122,7 +122,7 @@ Micros
 0
 )
 ;
-const
+constexpr
 TimeDelta
 kPacketsDelta
 =
@@ -134,7 +134,7 @@ Millis
 1
 )
 ;
-const
+constexpr
 TimeDelta
 kIntervalDuration
 =
@@ -146,7 +146,7 @@ Millis
 100
 )
 ;
-const
+constexpr
 TimeDelta
 kDefaultDelay
 =
@@ -158,7 +158,7 @@ Millis
 100
 )
 ;
-const
+constexpr
 DataSize
 kDefaultPacketSize
 =

@@ -309,7 +309,7 @@ testing
 :
 DoubleEq
 ;
-const
+constexpr
 TimeDelta
 kFreqOffsetProcessInterval
 =
@@ -8962,7 +8962,7 @@ GetParam
 ;
 }
 ;
-const
+constexpr
 auto
 kFreezeDetectionCond1Freeze
 =
@@ -8976,7 +8976,7 @@ make_tuple
 1
 )
 ;
-const
+constexpr
 auto
 kFreezeDetectionCond1NotFreeze
 =
@@ -8990,7 +8990,7 @@ make_tuple
 0
 )
 ;
-const
+constexpr
 auto
 kFreezeDetectionCond2Freeze
 =
@@ -9004,7 +9004,7 @@ make_tuple
 1
 )
 ;
-const
+constexpr
 auto
 kFreezeDetectionCond2NotFreeze
 =

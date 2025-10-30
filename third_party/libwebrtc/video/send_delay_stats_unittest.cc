@@ -128,7 +128,7 @@ kPacketId
 =
 2345
 ;
-const
+constexpr
 TimeDelta
 kMaxPacketDelay
 =

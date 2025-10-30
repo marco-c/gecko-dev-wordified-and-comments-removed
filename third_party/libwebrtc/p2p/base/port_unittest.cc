@@ -970,10 +970,11 @@ kTiebreakerDefault
 =
 44444
 ;
-const
+constexpr
 char
-*
 kTestData
+[
+]
 =
 "
 ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890

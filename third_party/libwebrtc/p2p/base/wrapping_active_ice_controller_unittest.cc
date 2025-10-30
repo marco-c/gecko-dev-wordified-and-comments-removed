@@ -431,7 +431,7 @@ Connection
 (
 )
 ;
-const
+constexpr
 TimeDelta
 kTick
 =

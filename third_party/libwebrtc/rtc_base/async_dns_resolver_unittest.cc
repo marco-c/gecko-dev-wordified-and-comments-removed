@@ -119,7 +119,7 @@ testing
 :
 IsTrue
 ;
-const
+constexpr
 TimeDelta
 kDefaultTimeout
 =

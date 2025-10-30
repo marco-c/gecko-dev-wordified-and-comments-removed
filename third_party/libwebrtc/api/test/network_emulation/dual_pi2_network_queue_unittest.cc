@@ -147,7 +147,7 @@ testing
 :
 Property
 ;
-const
+constexpr
 DataSize
 kPacketSize
 =

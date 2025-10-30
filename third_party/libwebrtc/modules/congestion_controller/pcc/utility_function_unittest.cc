@@ -144,7 +144,7 @@ kDelayGradientNegativeBound
 =
 10
 ;
-const
+constexpr
 Timestamp
 kStartTime
 =
@@ -156,7 +156,7 @@ Micros
 0
 )
 ;
-const
+constexpr
 TimeDelta
 kPacketsDelta
 =
@@ -168,7 +168,7 @@ Millis
 1
 )
 ;
-const
+constexpr
 TimeDelta
 kIntervalDuration
 =
@@ -180,7 +180,7 @@ Millis
 100
 )
 ;
-const
+constexpr
 DataRate
 kSendingBitrate
 =
@@ -192,7 +192,7 @@ BitsPerSec
 1000
 )
 ;
-const
+constexpr
 DataSize
 kDefaultDataSize
 =
@@ -204,7 +204,7 @@ Bytes
 100
 )
 ;
-const
+constexpr
 TimeDelta
 kDefaultDelay
 =

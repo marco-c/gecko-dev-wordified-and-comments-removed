@@ -1327,7 +1327,7 @@ kMaxPayloadLength
 =
 1440
 ;
-const
+constexpr
 DataRate
 kTargetBitrate
 =
@@ -1339,7 +1339,7 @@ KilobitsPerSec
 1000
 )
 ;
-const
+constexpr
 DataRate
 kLowTargetBitrate
 =
@@ -1351,7 +1351,7 @@ KilobitsPerSec
 100
 )
 ;
-const
+constexpr
 DataRate
 kStartBitrate
 =
@@ -1363,7 +1363,7 @@ KilobitsPerSec
 600
 )
 ;
-const
+constexpr
 DataRate
 kSimulcastTargetBitrate
 =
@@ -1518,7 +1518,7 @@ kCodedFrameVp8Qp25
 #
 ifdef
 RTC_ENABLE_H265
-const
+constexpr
 DataRate
 kDefaultH265Bitrate180p
 =

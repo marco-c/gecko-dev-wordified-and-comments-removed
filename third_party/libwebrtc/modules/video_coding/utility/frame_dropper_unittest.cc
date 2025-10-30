@@ -54,13 +54,13 @@ kLargeFrameSizeBytes
 =
 25000
 ;
-const
+constexpr
 bool
 kIncludeKeyFrame
 =
 true
 ;
-const
+constexpr
 bool
 kDoNotIncludeKeyFrame
 =

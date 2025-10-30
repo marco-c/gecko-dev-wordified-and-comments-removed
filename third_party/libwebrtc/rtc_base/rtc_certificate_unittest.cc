@@ -90,10 +90,11 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 char
-*
 kTestCertCommonName
+[
+]
 =
 "
 RTCCertificateTest

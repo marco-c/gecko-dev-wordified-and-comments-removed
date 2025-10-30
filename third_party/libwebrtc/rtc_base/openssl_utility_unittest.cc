@@ -140,7 +140,7 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 unsigned
 char
 kFakeSSLPrivateKey
@@ -288,7 +288,7 @@ kFakeSSLPrivateKey
 0xc1
 }
 ;
-const
+constexpr
 unsigned
 char
 kFakeSSLCertificate
@@ -972,7 +972,7 @@ kFakeSSLCertificate
 0x71
 }
 ;
-const
+constexpr
 unsigned
 char
 kFakeSSLCertificateLegacy

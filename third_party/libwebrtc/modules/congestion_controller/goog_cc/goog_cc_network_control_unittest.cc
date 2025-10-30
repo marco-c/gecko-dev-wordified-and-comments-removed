@@ -436,7 +436,7 @@ kInitialBitrateKbps
 =
 60
 ;
-const
+constexpr
 DataRate
 kInitialBitrate
 =

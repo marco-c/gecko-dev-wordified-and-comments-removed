@@ -574,16 +574,17 @@ kSsrc
 =
 1234
 ;
-const
+constexpr
 char
-*
 kCName
+[
+]
 =
 "
 foo_name
 "
 ;
-const
+constexpr
 std
 :
 :
@@ -662,7 +663,7 @@ kResidualEchoLikelihoodMax
 .
 0f
 ;
-const
+constexpr
 CallSendStatistics
 kCallStats
 =
@@ -794,7 +795,7 @@ kG722Format
 }
 }
 ;
-const
+constexpr
 DataSize
 kOverheadPerPacket
 =
@@ -812,7 +813,7 @@ Bytes
 12
 )
 ;
-const
+constexpr
 TimeDelta
 kMinFrameLength
 =
@@ -824,7 +825,7 @@ Millis
 20
 )
 ;
-const
+constexpr
 TimeDelta
 kMaxFrameLength
 =
@@ -836,7 +837,7 @@ Millis
 120
 )
 ;
-const
+constexpr
 DataRate
 kMinOverheadRate
 =
@@ -844,7 +845,7 @@ kOverheadPerPacket
 /
 kMaxFrameLength
 ;
-const
+constexpr
 DataRate
 kMaxOverheadRate
 =
