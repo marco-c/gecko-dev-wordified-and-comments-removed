@@ -481,10 +481,6 @@ ok
 !
 content
 .
-document
-.
-defaultView
-.
 matchMedia
 (
 "
@@ -514,10 +510,6 @@ ok
 !
 content
 .
-document
-.
-defaultView
-.
 matchMedia
 (
 "
@@ -546,10 +538,6 @@ ok
 (
 !
 content
-.
-document
-.
-defaultView
 .
 matchMedia
 (
@@ -583,10 +571,6 @@ ok
 (
 !
 content
-.
-document
-.
-defaultView
 .
 matchMedia
 (
@@ -969,10 +953,6 @@ ok
 (
 content
 .
-document
-.
-defaultView
-.
 matchMedia
 (
 "
@@ -999,10 +979,6 @@ ok
 (
 content
 .
-document
-.
-defaultView
-.
 matchMedia
 (
 "
@@ -1028,10 +1004,6 @@ matched
 ok
 (
 content
-.
-document
-.
-defaultView
 .
 matchMedia
 (
@@ -1062,10 +1034,6 @@ matched
 ok
 (
 content
-.
-document
-.
-defaultView
 .
 matchMedia
 (
