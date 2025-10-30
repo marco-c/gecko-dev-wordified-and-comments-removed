@@ -8,8 +8,12 @@ import
 logging
 import
 os
+from
+taskcluster
+.
+exceptions
 import
-requests
+TaskclusterRestFailure
 from
 taskgraph
 .
@@ -137,11 +141,14 @@ task_id
         
 try
 :
+            
+cancel_task
+(
+task_id
+)
         
 except
-requests
-.
-HTTPError
+TaskclusterRestFailure
 as
 e
 :
@@ -149,18 +156,11 @@ e
 if
 e
 .
-response
-.
 status_code
 =
 =
 409
 :
-            
-cancel_task
-(
-task_id
-)
                 
 logger
 .

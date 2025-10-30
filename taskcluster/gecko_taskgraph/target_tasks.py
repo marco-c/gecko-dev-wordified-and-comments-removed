@@ -11,12 +11,16 @@ datetime
 import
 datetime
 timedelta
-import
-requests
 from
 redo
 import
 retry
+from
+taskcluster
+.
+exceptions
+import
+TaskclusterRestFailure
 from
 taskgraph
 import
@@ -389,8 +393,30 @@ return
 True
     
 except
+(
 KeyError
+TaskclusterRestFailure
+)
+as
+e
 :
+        
+if
+isinstance
+(
+e
+TaskclusterRestFailure
+)
+and
+e
+.
+status_code
+!
+=
+404
+:
+            
+raise
         
 print
 (
@@ -6954,19 +6980,13 @@ taskId
 )
         
 except
-requests
-.
-exceptions
-.
-HTTPError
+TaskclusterRestFailure
 as
 e
 :
             
 if
 e
-.
-response
 .
 status_code
 !
@@ -7032,19 +7052,13 @@ json
 )
             
 except
-requests
-.
-exceptions
-.
-HTTPError
+TaskclusterRestFailure
 as
 e
 :
                 
 if
 e
-.
-response
 .
 status_code
 !

@@ -21,17 +21,17 @@ jsone
 import
 requests
 from
-requests
-.
-exceptions
-import
-HTTPError
-from
 slugid
 import
 nice
 as
 slugid
+from
+taskcluster
+.
+exceptions
+import
+TaskclusterRestFailure
 from
 taskgraph
 import
@@ -1264,15 +1264,13 @@ task_id
 )
             
 except
-HTTPError
+TaskclusterRestFailure
 as
 e
 :
                 
 if
 e
-.
-response
 .
 status_code
 !
@@ -1485,15 +1483,13 @@ task_id
 )
             
 except
-HTTPError
+TaskclusterRestFailure
 as
 e
 :
                 
 if
 e
-.
-response
 .
 status_code
 !
