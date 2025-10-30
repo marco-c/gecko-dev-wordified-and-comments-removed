@@ -19,7 +19,12 @@ h
 #
 include
 <
-memory
+cstddef
+>
+#
+include
+<
+string
 >
 #
 include

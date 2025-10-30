@@ -16,11 +16,6 @@ libloaderapi
 .
 h
 >
-#
-include
-<
-utility
->
 namespace
 {
 FARPROC

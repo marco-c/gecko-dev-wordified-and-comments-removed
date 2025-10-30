@@ -23,6 +23,17 @@ roapi
 .
 h
 >
+#
+include
+"
+rtc_base
+/
+win
+/
+hstring
+.
+h
+"
 namespace
 {
 FARPROC

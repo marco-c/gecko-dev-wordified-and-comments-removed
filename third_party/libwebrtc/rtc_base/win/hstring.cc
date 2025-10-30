@@ -23,6 +23,11 @@ winstring
 .
 h
 >
+#
+include
+<
+cstdint
+>
 namespace
 {
 FARPROC

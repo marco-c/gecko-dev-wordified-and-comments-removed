@@ -7,9 +7,7 @@ RTC_BASE_WIN_WINDOWS_VERSION_H_
 #
 include
 <
-stddef
-.
-h
+cstddef
 >
 #
 include
