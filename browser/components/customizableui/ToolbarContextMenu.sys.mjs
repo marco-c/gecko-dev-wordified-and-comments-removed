@@ -1854,6 +1854,7 @@ tabs
 "
 |
 |
+(
 toolbarItem
 ?
 .
@@ -1863,6 +1864,15 @@ localName
 "
 toolbarspring
 "
+&
+&
+!
+CustomizationHandler
+.
+isCustomizing
+(
+)
+)
 ;
 /
 /
