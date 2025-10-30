@@ -552,7 +552,7 @@ include
 "
 test
 /
-explicit_key_value_config
+create_test_field_trials
 .
 h
 "
@@ -608,12 +608,6 @@ webrtc
 {
 namespace
 {
-using
-test
-:
-:
-ExplicitKeyValueConfig
-;
 using
 :
 :
@@ -1284,13 +1278,7 @@ env_
 (
 CreateEnvironment
 (
-std
-:
-:
-make_unique
-<
-ExplicitKeyValueConfig
->
+CreateTestFieldTrialsPtr
 (
 field_trials
 )

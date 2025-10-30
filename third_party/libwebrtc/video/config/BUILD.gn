@@ -593,6 +593,17 @@ streams_config
 /
 api
 :
+field_trials
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
 field_trials_view
 "
 "
@@ -728,7 +739,7 @@ min_video_bitrate_experiment
 /
 test
 :
-explicit_key_value_config
+create_test_field_trials
 "
 "
 .
