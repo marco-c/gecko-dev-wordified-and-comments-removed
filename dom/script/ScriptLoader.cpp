@@ -5801,6 +5801,7 @@ context
 TryUseCache
 (
 aReferrerPolicy
+fetchOptions
 request
 aElement
 aNonce
@@ -5823,6 +5824,9 @@ TryUseCache
 (
 ReferrerPolicy
 aReferrerPolicy
+ScriptFetchOptions
+*
+aFetchOptions
 ScriptLoadRequest
 *
 aRequest
@@ -5854,6 +5858,7 @@ aRequest
 NoCacheEntryFound
 (
 aReferrerPolicy
+aFetchOptions
 )
 ;
 LOG
@@ -5923,6 +5928,7 @@ aRequest
 NoCacheEntryFound
 (
 aReferrerPolicy
+aFetchOptions
 )
 ;
 LOG
@@ -6028,6 +6034,7 @@ aRequest
 NoCacheEntryFound
 (
 aReferrerPolicy
+aFetchOptions
 )
 ;
 LOG
@@ -6123,6 +6130,7 @@ aRequest
 NoCacheEntryFound
 (
 aReferrerPolicy
+aFetchOptions
 )
 ;
 LOG
@@ -6203,6 +6211,24 @@ ReferrerPolicy
 =
 =
 aReferrerPolicy
+)
+;
+MOZ_ASSERT
+(
+aFetchOptions
+-
+>
+IsCompatible
+(
+cacheResult
+.
+mCompleteValue
+-
+>
+GetFetchOptions
+(
+)
+)
 )
 ;
 aRequest

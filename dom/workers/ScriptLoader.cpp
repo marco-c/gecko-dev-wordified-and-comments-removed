@@ -3425,6 +3425,7 @@ request
 NoCacheEntryFound
 (
 referrerPolicy
+fetchOptions
 )
 ;
 return

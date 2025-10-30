@@ -647,6 +647,9 @@ dom
 :
 ReferrerPolicy
 aReferrerPolicy
+ScriptFetchOptions
+*
+aFetchOptions
 )
 ;
 bool
