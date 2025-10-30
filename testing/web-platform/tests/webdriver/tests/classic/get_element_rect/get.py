@@ -471,11 +471,8 @@ False
     
 session
 .
-switch_frame
+switch_to_parent_frame
 (
-"
-parent
-"
 )
     
 if
