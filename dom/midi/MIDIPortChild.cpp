@@ -232,7 +232,16 @@ if
 mDOMPort
 )
 {
+RefPtr
+<
+MIDIPort
+>
+self
+(
 mDOMPort
+)
+;
+self
 -
 >
 FireStateChangeEvent
