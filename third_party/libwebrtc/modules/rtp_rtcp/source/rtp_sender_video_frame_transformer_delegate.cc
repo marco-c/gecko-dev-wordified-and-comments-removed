@@ -1560,9 +1560,6 @@ sender_
 nullptr
 ;
 }
-rtc
-:
-:
 Event
 flush
 ;
@@ -1601,9 +1598,6 @@ flush
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :

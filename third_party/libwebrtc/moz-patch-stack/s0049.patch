@@ -155,10 +155,10 @@ rtp_header_extensions
 .
 cc
 index
-8bc0ab998c
+8f52699e89
 .
 .
-79bba05899
+c417026aa9
 100644
 -
 -
@@ -364,9 +364,6 @@ CsrcAudioLevel
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t

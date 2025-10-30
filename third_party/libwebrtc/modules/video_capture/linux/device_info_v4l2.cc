@@ -854,9 +854,6 @@ ifdef
 WEBRTC_LINUX
 _inotifyEventThread
 =
-rtc
-:
-:
 PlatformThread
 :
 :

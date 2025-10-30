@@ -107,6 +107,11 @@ pid_t
 pid
 =
 0
+bool
+*
+deviceIsPlaceholder
+=
+0
 )
 override
 ;
@@ -213,9 +218,6 @@ ProcessInotifyEvents
 (
 )
 ;
-rtc
-:
-:
 PlatformThread
 _inotifyEventThread
 ;

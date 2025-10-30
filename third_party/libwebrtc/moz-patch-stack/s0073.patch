@@ -139,7 +139,7 @@ index
 9fe88fdabd
 .
 .
-86544690b2
+001a873e20
 100644
 -
 -
@@ -286,9 +286,6 @@ transformation
 queue
 .
 +
-rtc
-:
-:
 Event
 flush
 ;
@@ -332,9 +329,6 @@ flush
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :

@@ -497,10 +497,10 @@ device_info_v4l2
 .
 cc
 index
-04caaea592
+6755a46146
 .
 .
-401c38f9c5
+bb533c6792
 100644
 -
 -
@@ -638,10 +638,10 @@ device_info_v4l2
 .
 h
 index
-0bec3eb765
+60df9bb244
 .
 .
-55415845ad
+243b0c999d
 100644
 -
 -

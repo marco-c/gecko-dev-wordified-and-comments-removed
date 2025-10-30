@@ -1765,9 +1765,6 @@ CsrcAudioLevel
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1875,9 +1872,6 @@ CsrcAudioLevel
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
