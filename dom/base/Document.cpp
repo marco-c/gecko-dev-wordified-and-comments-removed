@@ -14225,6 +14225,16 @@ ToMilliseconds
 )
 ;
 }
+else
+{
+mPageloadEventData
+.
+set_timeToRequestStart
+(
+0
+)
+;
+}
 }
 TimeStamp
 secureConnectStart
