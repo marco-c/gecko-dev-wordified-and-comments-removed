@@ -444,7 +444,9 @@ termsOfUsePromptDisplayedCount
 =
 settings
 .
-termsOfUseMaxDisplayCount
+getTermsOfUseMaxDisplayCount
+(
+)
 )
 return
 false
