@@ -4224,6 +4224,7 @@ test_skip_unless_missing
 (
 responses
 params
+session_mocker
 )
 :
     
@@ -4300,9 +4301,27 @@ services
 mozilla
 .
 com
-/
-api
 "
+    
+session_mocker
+.
+patch
+.
+dict
+(
+"
+os
+.
+environ
+"
+{
+"
+TASKCLUSTER_ROOT_URL
+"
+:
+root_url
+}
+)
     
 responses
 .
@@ -4318,6 +4337,8 @@ f
 {
 root_url
 }
+/
+api
 /
 index
 /
@@ -4367,6 +4388,8 @@ f
 root_url
 }
 /
+api
+/
 index
 /
 v1
@@ -4408,6 +4431,8 @@ f
 {
 root_url
 }
+/
+api
 /
 queue
 /
@@ -4477,6 +4502,8 @@ f
 root_url
 }
 /
+api
+/
 index
 /
 v1
@@ -4518,6 +4545,8 @@ f
 {
 root_url
 }
+/
+api
 /
 queue
 /
@@ -4604,6 +4633,8 @@ f
 root_url
 }
 /
+api
+/
 index
 /
 v1
@@ -4645,6 +4676,8 @@ f
 {
 root_url
 }
+/
+api
 /
 queue
 /
@@ -4753,6 +4786,8 @@ f
 root_url
 }
 /
+api
+/
 index
 /
 v1
@@ -4794,6 +4829,8 @@ f
 {
 root_url
 }
+/
+api
 /
 queue
 /
