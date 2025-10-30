@@ -288,11 +288,6 @@ TestMuxer
 cpp
 "
 "
-TestOfflineClockDriver
-.
-cpp
-"
-"
 TestOggWriter
 .
 cpp
