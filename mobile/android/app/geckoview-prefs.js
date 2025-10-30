@@ -1693,16 +1693,6 @@ requested
 pref
 (
 "
-keyword
-.
-enabled
-"
-true
-)
-;
-pref
-(
-"
 layout
 .
 accessiblecaret
