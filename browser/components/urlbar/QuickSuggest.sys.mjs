@@ -785,15 +785,10 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+all
 "
 :
 {
-nimbusVariableIfExposedInUi
-:
-"
-quickSuggestNonSponsoredEnabled
-"
 defaultValues
 :
 {

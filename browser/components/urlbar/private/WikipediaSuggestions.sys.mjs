@@ -215,7 +215,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+all
 "
 ]
 ;

@@ -135,7 +135,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+all
 "
 true
 ]

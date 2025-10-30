@@ -531,14 +531,14 @@ suggest
 .
 quicksuggest
 .
-sponsored
+all
 or
 *
 suggest
 .
 quicksuggest
 .
-nonsponsored
+sponsored
 .
 If
 the

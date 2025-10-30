@@ -208,7 +208,7 @@ suggest
 .
 quicksuggest
 .
-sponsored
+all
 "
 true
 ]
@@ -218,7 +218,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+sponsored
 "
 true
 ]
