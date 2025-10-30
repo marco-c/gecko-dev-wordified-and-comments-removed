@@ -13,10 +13,6 @@ pathlib
 import
 Path
 from
-typing
-import
-Dict
-from
 voluptuous
 import
 ALLOW_EXTRA
@@ -655,7 +651,7 @@ GraphConfig
     
 _config
 :
-Dict
+dict
     
 root_dir
 :
@@ -889,11 +885,9 @@ repo
 =
 get_repository
 (
-os
+self
 .
-getcwd
-(
-)
+root_dir
 )
             
 return

@@ -10,8 +10,6 @@ field
 from
 typing
 import
-Dict
-List
 Union
 from
 taskgraph
@@ -152,7 +150,7 @@ str
     
 config
 :
-Dict
+dict
     
 params
 :
@@ -160,7 +158,7 @@ Parameters
     
 kind_dependencies_tasks
 :
-Dict
+dict
 [
 str
 Task
@@ -178,12 +176,7 @@ property
     
 functools
 .
-lru_cache
-(
-maxsize
-=
-None
-)
+cache
     
 def
 repo_configs
@@ -637,7 +630,7 @@ sequence
     
 _transforms
 :
-List
+list
 =
 field
 (

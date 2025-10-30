@@ -131,7 +131,7 @@ base_repository
 :
 str
         
-Required
+Optional
 (
 "
 base_ref
