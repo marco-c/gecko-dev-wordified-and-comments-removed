@@ -150,6 +150,16 @@ ProfilerCodeAddressService
 struct
 JSContext
 ;
+using
+SourceId
+=
+uint32_t
+;
+using
+IndexIntoSourceTable
+=
+uint32_t
+;
 class
 ProfileBufferEntry
 {
