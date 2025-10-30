@@ -729,6 +729,13 @@ os_integration
 "
 [
 "
+test_UrlUtils
+.
+js
+"
+]
+[
+"
 test_firstStartup
 .
 js
