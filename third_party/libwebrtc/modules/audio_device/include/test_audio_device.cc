@@ -2204,12 +2204,7 @@ make_unique
 TestAudioDevice
 >
 (
-&
 env
-.
-task_queue_factory
-(
-)
 std
 :
 :
