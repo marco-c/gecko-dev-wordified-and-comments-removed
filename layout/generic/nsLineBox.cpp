@@ -3646,6 +3646,7 @@ nsLineIterator
 :
 FindLineContaining
 (
+const
 nsIFrame
 *
 aFrame

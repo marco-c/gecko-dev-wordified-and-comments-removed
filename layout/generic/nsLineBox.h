@@ -2141,6 +2141,7 @@ const
 bool
 Contains
 (
+const
 nsIFrame
 *
 aFrame
@@ -4911,6 +4912,7 @@ final
 int32_t
 FindLineContaining
 (
+const
 nsIFrame
 *
 aFrame

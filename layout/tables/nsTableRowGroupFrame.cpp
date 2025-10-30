@@ -8690,6 +8690,7 @@ nsTableRowGroupFrame
 :
 FindLineContaining
 (
+const
 nsIFrame
 *
 aFrame
@@ -8704,6 +8705,7 @@ aFrame
 1
 )
 ;
+const
 nsTableRowFrame
 *
 rowFrame

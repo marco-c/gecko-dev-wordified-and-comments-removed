@@ -797,6 +797,7 @@ final
 int32_t
 FindLineContaining
 (
+const
 nsIFrame
 *
 aFrame

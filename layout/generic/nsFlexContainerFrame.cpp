@@ -27060,6 +27060,7 @@ nsFlexContainerFrame
 :
 FindLineContaining
 (
+const
 nsIFrame
 *
 aFrame

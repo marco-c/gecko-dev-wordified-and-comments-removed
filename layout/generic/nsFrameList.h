@@ -780,6 +780,7 @@ const
 int32_t
 IndexOf
 (
+const
 nsIFrame
 *
 aFrame

@@ -57923,6 +57923,7 @@ nsGridContainerFrame
 :
 FindLineContaining
 (
+const
 nsIFrame
 *
 aFrame

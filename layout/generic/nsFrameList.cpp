@@ -989,6 +989,7 @@ nsFrameList
 :
 IndexOf
 (
+const
 nsIFrame
 *
 aFrame
