@@ -4828,10 +4828,14 @@ Arabic
 ;
 L10nRegistry
 .
+getInstance
+(
+)
+.
 registerSources
 (
 [
-fs
+source
 ]
 )
 ;
