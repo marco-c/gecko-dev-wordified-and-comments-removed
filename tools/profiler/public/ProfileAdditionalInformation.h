@@ -23,6 +23,15 @@ h
 #
 include
 "
+js
+/
+ProfilingSources
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
