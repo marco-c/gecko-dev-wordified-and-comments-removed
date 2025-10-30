@@ -1198,6 +1198,8 @@ aRequestType
 void
 TryUseCache
 (
+ReferrerPolicy
+aReferrerPolicy
 ScriptLoadRequest
 *
 aRequest

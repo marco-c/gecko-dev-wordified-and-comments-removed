@@ -664,6 +664,14 @@ aLoadedScript
 void
 NoCacheEntryFound
 (
+mozilla
+:
+:
+dom
+:
+:
+ReferrerPolicy
+aReferrerPolicy
 )
 ;
 bool
