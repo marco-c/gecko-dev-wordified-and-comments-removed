@@ -334,16 +334,6 @@ mRootModule
 ;
 }
 void
-MarkModuleForCache
-(
-)
-{
-MarkForCache
-(
-)
-;
-}
-void
 CancelDynamicImport
 (
 nsresult
