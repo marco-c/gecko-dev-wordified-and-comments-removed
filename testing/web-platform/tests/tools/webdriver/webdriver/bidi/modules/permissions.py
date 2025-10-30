@@ -33,8 +33,9 @@ command
 def
 set_permission
 (
+        
 self
-                    
+        
 descriptor
 :
 Union
@@ -51,7 +52,7 @@ Undefined
 ]
 =
 UNDEFINED
-                    
+        
 state
 :
 Union
@@ -64,7 +65,7 @@ Undefined
 ]
 =
 UNDEFINED
-                    
+        
 origin
 :
 Union
@@ -77,7 +78,7 @@ Undefined
 ]
 =
 UNDEFINED
-                    
+        
 user_context
 :
 Union
@@ -90,6 +91,20 @@ Undefined
 ]
 =
 UNDEFINED
+        
+embedded_origin
+:
+Union
+[
+Optional
+[
+str
+]
+Undefined
+]
+=
+UNDEFINED
+    
 )
 -
 >
@@ -133,6 +148,12 @@ userContext
 "
 :
 user_context
+            
+"
+embeddedOrigin
+"
+:
+embedded_origin
         
 }
         
