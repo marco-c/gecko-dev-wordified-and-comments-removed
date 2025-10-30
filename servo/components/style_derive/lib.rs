@@ -542,6 +542,7 @@ ToTyped
 attributes
 (
 css
+typed_value
 )
 )
 ]
