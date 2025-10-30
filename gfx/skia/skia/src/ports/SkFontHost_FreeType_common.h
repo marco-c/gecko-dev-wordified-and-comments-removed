@@ -62,6 +62,9 @@ h
 class
 SkCanvas
 ;
+class
+SkPathBuilder
+;
 typedef
 struct
 FT_FaceRec_
@@ -308,7 +311,7 @@ bool
 generateGlyphPath
 (
 FT_Face
-SkPath
+SkPathBuilder
 *
 )
 const
@@ -332,7 +335,7 @@ generateFacePath
 FT_Face
 SkGlyphID
 LoadGlyphFlags
-SkPath
+SkPathBuilder
 *
 )
 const

@@ -77,7 +77,7 @@ src
 /
 core
 /
-SkRecorder
+SkRecordCanvas
 .
 h
 "

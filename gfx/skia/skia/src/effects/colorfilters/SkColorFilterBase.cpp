@@ -247,6 +247,12 @@ unpremul
 (
 )
 props
+SkRect
+:
+:
+MakeEmpty
+(
+)
 }
 ;
 if

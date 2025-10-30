@@ -16,7 +16,7 @@ include
 /
 core
 /
-SkPath
+SkPathBuilder
 .
 h
 "
@@ -201,6 +201,9 @@ cstdint
 >
 class
 SkMatrix
+;
+class
+SkPath
 ;
 class
 LCGRandom
@@ -410,7 +413,7 @@ SK_ScalarNearlyZero
 bool
 onFilterPath
 (
-SkPath
+SkPathBuilder
 *
 dst
 const

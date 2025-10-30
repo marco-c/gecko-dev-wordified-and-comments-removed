@@ -42,6 +42,17 @@ include
 "
 src
 /
+core
+/
+SkStrike
+.
+h
+"
+#
+include
+"
+src
+/
 gpu
 /
 AtlasTypes

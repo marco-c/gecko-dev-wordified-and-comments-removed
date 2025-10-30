@@ -236,7 +236,10 @@ validateSPIRV
 std
 :
 :
-string
+vector
+<
+uint32_t
+>
 spirv
 ;
 if

@@ -289,6 +289,12 @@ uint8_t
 )
 ;
 void
+appendColorComponentF
+(
+float
+)
+;
+void
 appendBool
 (
 bool
