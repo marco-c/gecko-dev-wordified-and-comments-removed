@@ -2169,6 +2169,13 @@ Config
 channel
 .
 isNightlyOrDebug
+|
+|
+Config
+.
+channel
+.
+isBeta
 isChecked
 =
 context
@@ -2205,6 +2212,13 @@ Config
 channel
 .
 isNightlyOrDebug
+|
+|
+Config
+.
+channel
+.
+isBeta
 isChecked
 =
 context
