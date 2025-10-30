@@ -28,17 +28,6 @@ modules
 /
 audio_device
 /
-audio_device_config
-.
-h
-"
-#
-include
-"
-modules
-/
-audio_device
-/
 audio_device_generic
 .
 h

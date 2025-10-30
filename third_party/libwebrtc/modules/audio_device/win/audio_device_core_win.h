@@ -5,14 +5,6 @@ MODULES_AUDIO_DEVICE_WIN_AUDIO_DEVICE_CORE_WIN_H_
 define
 MODULES_AUDIO_DEVICE_WIN_AUDIO_DEVICE_CORE_WIN_H_
 #
-if
-(
-_MSC_VER
->
-=
-1400
-)
-#
 include
 <
 wmcodecdsp
@@ -1328,8 +1320,6 @@ _outputDeviceIndex
 ;
 }
 ;
-#
-endif
 }
 #
 endif
