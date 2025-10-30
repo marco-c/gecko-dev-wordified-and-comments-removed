@@ -4727,7 +4727,7 @@ frame
 .
 flags
 &
-AOM_EFLAG_FORCE_KF
+AOM_FRAME_IS_KEY
 )
 !
 =
