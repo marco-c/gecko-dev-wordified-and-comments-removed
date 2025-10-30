@@ -757,7 +757,6 @@ Android
 on
 Linux
 x86
-x86
 -
 64
 ARMv7
@@ -770,9 +769,6 @@ clang
 )
 -
 Linux
-/
-x86
-and
 x86
 -
 64
@@ -1211,9 +1207,6 @@ PowerPC
 and
 x86
 CPUs
-without
-SSE2
-support
 -
 maintained
 by
