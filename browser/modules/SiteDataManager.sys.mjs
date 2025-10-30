@@ -459,7 +459,6 @@ is
 done
 .
 *
-*
 /
 async
 updateSites

@@ -397,7 +397,6 @@ null
 otherwise
 .
 *
-*
 /
 async
 getRecord
@@ -454,7 +453,6 @@ matches
 this
 record
 .
-*
 *
 /
 async
@@ -579,7 +577,6 @@ with
 the
 bytes
 .
-*
 *
 /
 async

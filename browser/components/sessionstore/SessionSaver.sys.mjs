@@ -812,7 +812,6 @@ is
 null
 .
 *
-*
 /
 _idleCallbackID
 :

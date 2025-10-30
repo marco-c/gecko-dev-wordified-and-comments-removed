@@ -2195,7 +2195,6 @@ our
 spot
 .
 *
-*
 /
 let
 saved_date

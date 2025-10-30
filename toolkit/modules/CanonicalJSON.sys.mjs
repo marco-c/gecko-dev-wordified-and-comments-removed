@@ -145,7 +145,6 @@ listOfRecords
 )
 ;
 *
-*
 /
 stringify
 :

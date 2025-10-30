@@ -19632,7 +19632,6 @@ String
 Timestamp
 string
 *
-*
 /
 timeFromSeconds
 (
@@ -19811,7 +19810,6 @@ String
 }
 Formatted
 timestamp
-*
 *
 /
 formatTimestamp

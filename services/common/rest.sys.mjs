@@ -707,7 +707,6 @@ Public
 API
 :
 *
-*
 /
 /
 *
@@ -1425,7 +1424,6 @@ rejectWithError
 *
 Implementation
 stuff
-*
 *
 /
 async
@@ -2318,7 +2316,6 @@ NS_ERROR_NET_TIMEOUT
 *
 *
 nsIStreamListener
-*
 *
 /
 onStartRequest
@@ -3242,7 +3239,6 @@ delayTimeout
 *
 nsIInterfaceRequestor
 *
-*
 /
 getInterface
 (
@@ -3373,7 +3369,6 @@ isSameURI
 *
 *
 nsIChannelEventSink
-*
 *
 /
 asyncOnChannelRedirect

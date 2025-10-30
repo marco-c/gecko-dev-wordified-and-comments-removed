@@ -3428,7 +3428,6 @@ ping
 is
 allowed
 *
-*
 /
 isPingAllowed
 (

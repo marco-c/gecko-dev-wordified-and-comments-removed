@@ -391,7 +391,6 @@ implementing
 the
 nsIIdentityCredentialPromptService
 *
-*
 /
 export
 class

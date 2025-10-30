@@ -218,7 +218,6 @@ false
 otherwise
 .
 *
-*
 /
 isWithinFullScreenElement
 (
@@ -288,7 +287,6 @@ element
 is
 found
 .
-*
 *
 /
 let

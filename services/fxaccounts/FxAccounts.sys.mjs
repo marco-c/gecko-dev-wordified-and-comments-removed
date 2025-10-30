@@ -10581,7 +10581,6 @@ the
 FxA
 server
 *
-*
 /
 async
 setUserVerified

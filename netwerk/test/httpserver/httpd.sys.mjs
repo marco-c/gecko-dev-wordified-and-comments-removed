@@ -23319,7 +23319,6 @@ example
 Early
 Hint
 *
-*
 /
 this
 .
