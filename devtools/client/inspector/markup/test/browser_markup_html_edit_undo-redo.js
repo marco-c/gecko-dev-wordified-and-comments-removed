@@ -218,7 +218,7 @@ markup
 .
 htmlEditor
 .
-_visible
+isVisible
 "
 HTML
 Editor
@@ -311,7 +311,7 @@ markup
 .
 htmlEditor
 .
-_visible
+isVisible
 "
 HTML
 Editor
@@ -386,7 +386,7 @@ markup
 .
 htmlEditor
 .
-_visible
+isVisible
 "
 HTML
 Editor
@@ -597,7 +597,7 @@ markup
 .
 htmlEditor
 .
-_visible
+isVisible
 "
 HTML
 Editor
