@@ -865,7 +865,7 @@ yml
 |
 yq
 -
-oy
+y
 "
 filter
 "
