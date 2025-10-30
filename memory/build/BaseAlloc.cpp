@@ -58,12 +58,6 @@ MOZ_REQUIRES
 mMutex
 )
 {
-size_t
-csize
-;
-size_t
-pminsize
-;
 MOZ_ASSERT
 (
 minsize
@@ -72,6 +66,7 @@ minsize
 0
 )
 ;
+size_t
 csize
 =
 CHUNK_CEILING
@@ -119,6 +114,7 @@ base_pages
 csize
 )
 ;
+size_t
 pminsize
 =
 PAGE_CEILING
@@ -186,13 +182,7 @@ size_t
 aSize
 )
 {
-void
-*
-ret
-;
 size_t
-csize
-;
 csize
 =
 CACHELINE_CEILING
@@ -235,6 +225,8 @@ nullptr
 ;
 }
 }
+void
+*
 ret
 =
 mNextAddr
