@@ -1945,7 +1945,7 @@ font
 -
 weight
 -
-bold
+semibold
 )
 ;
 -
@@ -4750,6 +4750,16 @@ weight
 -
 bold
 :
+700
+;
+-
+-
+font
+-
+weight
+-
+semibold
+:
 600
 ;
 /
@@ -4838,7 +4848,7 @@ font
 -
 weight
 -
-bold
+semibold
 )
 ;
 /
