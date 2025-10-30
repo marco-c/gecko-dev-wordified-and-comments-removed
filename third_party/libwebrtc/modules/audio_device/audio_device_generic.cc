@@ -11,13 +11,9 @@ h
 "
 #
 include
-"
-rtc_base
-/
-logging
-.
-h
-"
+<
+cstdint
+>
 namespace
 webrtc
 {

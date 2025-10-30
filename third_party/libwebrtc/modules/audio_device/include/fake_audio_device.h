@@ -18,6 +18,15 @@ h
 #
 include
 "
+api
+/
+ref_count
+.
+h
+"
+#
+include
+"
 modules
 /
 audio_device

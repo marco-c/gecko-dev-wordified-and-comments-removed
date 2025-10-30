@@ -7,9 +7,7 @@ AUDIO_DEVICE_AUDIO_DEVICE_DUMMY_H_
 #
 include
 <
-stdint
-.
-h
+cstdint
 >
 #
 include

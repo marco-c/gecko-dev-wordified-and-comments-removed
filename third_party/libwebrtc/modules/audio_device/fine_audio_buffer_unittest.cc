@@ -19,6 +19,11 @@ h
 #
 include
 <
+cstdint
+>
+#
+include
+<
 memory
 >
 #

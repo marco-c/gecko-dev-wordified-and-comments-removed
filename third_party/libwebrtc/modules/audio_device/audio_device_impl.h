@@ -13,9 +13,7 @@ WEBRTC_INCLUDE_INTERNAL_AUDIO_DEVICE
 #
 include
 <
-stdint
-.
-h
+cstdint
 >
 #
 include

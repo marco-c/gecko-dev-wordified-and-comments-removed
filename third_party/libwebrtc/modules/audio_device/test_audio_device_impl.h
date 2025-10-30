@@ -7,6 +7,11 @@ MODULES_AUDIO_DEVICE_TEST_AUDIO_DEVICE_IMPL_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 memory
 >
 #
@@ -110,6 +115,15 @@ rtc_base
 synchronization
 /
 mutex
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+thread_annotations
 .
 h
 "

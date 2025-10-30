@@ -7,16 +7,7 @@ AUDIO_DEVICE_LATEBINDINGSYMBOLTABLE_LINUX_H_
 #
 include
 <
-stddef
-.
-h
->
-#
-include
-<
-string
-.
-h
+cstddef
 >
 #
 include

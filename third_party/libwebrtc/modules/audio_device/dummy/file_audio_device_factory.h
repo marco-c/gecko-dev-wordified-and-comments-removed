@@ -7,9 +7,7 @@ AUDIO_DEVICE_FILE_AUDIO_DEVICE_FACTORY_H_
 #
 include
 <
-stdint
-.
-h
+cstdint
 >
 #
 include
