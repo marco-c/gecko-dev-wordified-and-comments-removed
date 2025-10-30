@@ -32,3 +32,10 @@ browser_dom_extractor
 js
 "
 ]
+[
+"
+browser_dom_extractor_reader_mode
+.
+js
+"
+]

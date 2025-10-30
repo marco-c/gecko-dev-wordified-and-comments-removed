@@ -2610,6 +2610,13 @@ text
 html
 *
 "
+"
+about
+:
+reader
+?
+*
+"
 ]
 messageManagerGroups
 :
