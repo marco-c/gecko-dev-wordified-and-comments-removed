@@ -545,13 +545,7 @@ SendSideBandwidthEstimation
 >
 bandwidth_estimation_
 ;
-std
-:
-:
-unique_ptr
-<
 AlrDetector
->
 alr_detector_
 ;
 std
