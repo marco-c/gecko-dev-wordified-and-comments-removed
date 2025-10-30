@@ -43,15 +43,6 @@ checks
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-logging
-.
-h
-"
 namespace
 webrtc
 {

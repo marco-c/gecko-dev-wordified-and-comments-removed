@@ -7,9 +7,12 @@ SDK_MEDIA_CONSTRAINTS_H_
 #
 include
 <
-stddef
-.
-h
+cstddef
+>
+#
+include
+<
+initializer_list
 >
 #
 include

@@ -66,17 +66,6 @@ media
 /
 base
 /
-media_config
-.
-h
-"
-#
-include
-"
-media
-/
-base
-/
 stream_params
 .
 h

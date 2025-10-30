@@ -7,6 +7,11 @@ PC_SDP_STATE_PROVIDER_H_
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -24,6 +29,15 @@ include
 api
 /
 peer_connection_interface
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+ssl_stream_adapter
 .
 h
 "

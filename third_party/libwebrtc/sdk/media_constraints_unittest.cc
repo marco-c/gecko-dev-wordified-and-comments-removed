@@ -10,6 +10,15 @@ h
 #
 include
 "
+api
+/
+peer_connection_interface
+.
+h
+"
+#
+include
+"
 test
 /
 gtest
