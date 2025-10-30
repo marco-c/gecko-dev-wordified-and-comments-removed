@@ -569,7 +569,7 @@ get
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -1394,7 +1394,7 @@ set
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
