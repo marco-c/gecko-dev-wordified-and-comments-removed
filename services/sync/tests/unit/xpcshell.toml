@@ -533,9 +533,6 @@ thunderbird
 '
 "
 ]
-requesttimeoutfactor
-=
-4
 [
 "
 test_bridged_engine
@@ -984,9 +981,6 @@ thunderbird
 '
 "
 ]
-requesttimeoutfactor
-=
-4
 [
 "
 test_history_engine
@@ -1656,9 +1650,6 @@ thunderbird
 '
 "
 ]
-requesttimeoutfactor
-=
-4
 [
 "
 test_tracker_addChanged

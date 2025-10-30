@@ -630,9 +630,6 @@ test_snapshotting
 js
 "
 ]
-requesttimeoutfactor
-=
-4
 [
 "
 test_stringLength
