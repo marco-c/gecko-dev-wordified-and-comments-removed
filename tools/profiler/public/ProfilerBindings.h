@@ -423,17 +423,6 @@ aLabelLength
 )
 ;
 void
-gecko_profiler_marker_schema_set_stack_based
-(
-mozilla
-:
-:
-MarkerSchema
-*
-aSchema
-)
-;
-void
 gecko_profiler_marker_schema_add_key_format
 (
 mozilla
