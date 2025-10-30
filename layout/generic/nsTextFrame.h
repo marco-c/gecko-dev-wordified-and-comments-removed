@@ -486,7 +486,7 @@ InitializeForMeasure
 (
 )
 ;
-void
+bool
 GetSpacing
 (
 Range
@@ -573,7 +573,7 @@ GetAppUnitsPerDevUnit
 )
 ;
 }
-void
+bool
 GetSpacingInternal
 (
 Range

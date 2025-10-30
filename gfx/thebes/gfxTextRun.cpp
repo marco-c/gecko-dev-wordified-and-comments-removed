@@ -1702,6 +1702,8 @@ mRange
 start
 )
 {
+if
+(
 aProvider
 -
 >
@@ -1721,7 +1723,8 @@ start
 &
 spacing
 )
-;
+)
+{
 result
 .
 mPartWidth
@@ -1731,6 +1734,7 @@ spacing
 .
 mBefore
 ;
+}
 }
 if
 (
@@ -1746,6 +1750,8 @@ mRange
 end
 )
 {
+if
+(
 aProvider
 -
 >
@@ -1765,7 +1771,8 @@ end
 &
 spacing
 )
-;
+)
+{
 result
 .
 mPartWidth
@@ -1775,6 +1782,7 @@ spacing
 .
 mAfter
 ;
+}
 }
 }
 return
@@ -1875,7 +1883,7 @@ advance
 ;
 }
 static
-void
+bool
 GetAdjustedSpacing
 (
 const
@@ -1918,8 +1926,12 @@ end
 )
 {
 return
+false
 ;
 }
+bool
+result
+=
 aProvider
 .
 GetSpacing
@@ -2057,6 +2069,9 @@ ligature
 }
 #
 endif
+return
+result
+;
 }
 bool
 gfxTextRun
@@ -2160,6 +2175,9 @@ Spacing
 spacingOffset
 )
 ;
+if
+(
+!
 GetAdjustedSpacing
 (
 this
@@ -2175,7 +2193,19 @@ Elements
 +
 spacingOffset
 )
+)
+{
+aSpacing
+-
+>
+Clear
+(
+)
 ;
+return
+false
+;
+}
 memset
 (
 aSpacing
@@ -6734,6 +6764,8 @@ fallible
 )
 )
 {
+if
+(
 GetAdjustedSpacing
 (
 this
@@ -6746,7 +6778,8 @@ Elements
 (
 )
 )
-;
+)
+{
 for
 (
 i
@@ -6823,6 +6856,7 @@ LastElement
 .
 mAfter
 ;
+}
 }
 }
 }
