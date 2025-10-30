@@ -2439,6 +2439,13 @@ TopAppBarDefaults
 .
 topAppBarColors
 (
+containerColor
+=
+MaterialTheme
+.
+colorScheme
+.
+surfaceContainerHigh
 actionIconContentColor
 =
 buttonTint
