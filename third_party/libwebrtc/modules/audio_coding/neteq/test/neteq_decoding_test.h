@@ -88,7 +88,7 @@ neteq
 /
 tools
 /
-packet
+rtp_file_source
 .
 h
 "
@@ -97,13 +97,11 @@ include
 "
 modules
 /
-audio_coding
+rtp_rtcp
 /
-neteq
+source
 /
-tools
-/
-rtp_file_source
+rtp_packet_received
 .
 h
 "
@@ -355,10 +353,7 @@ std
 :
 unique_ptr
 <
-test
-:
-:
-Packet
+RtpPacketReceived
 >
 packet_
 ;

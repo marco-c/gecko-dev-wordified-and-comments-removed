@@ -101,6 +101,19 @@ h
 #
 include
 "
+modules
+/
+rtp_rtcp
+/
+source
+/
+rtp_packet_received
+.
+h
+"
+#
+include
+"
 system_wrappers
 /
 include
@@ -120,9 +133,6 @@ test
 {
 class
 InputAudioFile
-;
-class
-Packet
 ;
 class
 AcmSendTestOldApi
@@ -208,7 +218,7 @@ std
 :
 unique_ptr
 <
-Packet
+RtpPacketReceived
 >
 NextPacket
 (
@@ -263,7 +273,7 @@ std
 :
 unique_ptr
 <
-Packet
+RtpPacketReceived
 >
 CreatePacket
 (

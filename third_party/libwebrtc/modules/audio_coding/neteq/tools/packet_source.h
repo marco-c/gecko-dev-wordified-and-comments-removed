@@ -24,13 +24,11 @@ include
 "
 modules
 /
-audio_coding
+rtp_rtcp
 /
-neteq
+source
 /
-tools
-/
-packet
+rtp_packet_received
 .
 h
 "
@@ -82,7 +80,7 @@ std
 :
 unique_ptr
 <
-Packet
+RtpPacketReceived
 >
 NextPacket
 (
