@@ -1335,6 +1335,13 @@ GetRootWidget
 )
 const
 ;
+nsIWidget
+*
+GetNearestWidget
+(
+)
+const
+;
 ScrollContainerFrame
 *
 GetRootScrollContainerFrame
