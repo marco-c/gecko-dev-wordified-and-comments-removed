@@ -8325,7 +8325,7 @@ metrics
 /
 test
 :
-explicit_key_value_config
+create_test_field_trials
 "
 "
 .
@@ -8333,7 +8333,7 @@ explicit_key_value_config
 /
 test
 :
-scoped_key_value_config
+explicit_key_value_config
 "
 "
 .
