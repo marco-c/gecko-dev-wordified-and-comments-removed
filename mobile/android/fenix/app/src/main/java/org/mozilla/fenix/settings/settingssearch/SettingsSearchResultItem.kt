@@ -481,6 +481,11 @@ Search
 Engine
 "
 )
+preferenceFileInformation
+=
+PreferenceFileInformation
+.
+SearchSettingsPreferences
 )
 SettingsSearchItem
 (
@@ -516,6 +521,11 @@ Developer
 Experiments
 "
 )
+preferenceFileInformation
+=
+PreferenceFileInformation
+.
+GeneralPreferences
 )
 )
 }

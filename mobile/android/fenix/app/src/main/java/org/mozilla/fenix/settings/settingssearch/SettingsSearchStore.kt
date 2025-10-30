@@ -310,6 +310,13 @@ action
 results
 )
 }
+is
+SettingsSearchAction
+.
+ResultItemClicked
+-
+>
+state
 }
 }
 /
