@@ -288,6 +288,9 @@ CreateForExternalCSSResources
 StyleSheet
 *
 aExternalSheet
+nsIURI
+*
+aExternalSheetURI
 ReferrerPolicyEnum
 aPolicy
 =
