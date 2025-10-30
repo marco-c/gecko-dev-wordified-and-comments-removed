@@ -2110,6 +2110,8 @@ self
 .
 _require_webdriver_bidi
 =
+(
+            
 test
 .
 testdriver_features
@@ -2117,6 +2119,8 @@ is
 not
 None
 and
+(
+                
 '
 bidi
 '
@@ -2124,6 +2128,19 @@ in
 test
 .
 testdriver_features
+or
+                
+'
+extensions
+'
+in
+test
+.
+testdriver_features
+            
+)
+        
+)
         
 return
 {

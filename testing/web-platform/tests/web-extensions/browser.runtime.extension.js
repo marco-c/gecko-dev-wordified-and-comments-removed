@@ -1,0 +1,10 @@
+runTestsWithWebExtension
+(
+"
+/
+resources
+/
+runtime
+/
+"
+)

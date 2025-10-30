@@ -714,6 +714,12 @@ self
 parent
 =
 parent
+        
+self
+.
+test_path
+=
+None
     
 property
     
@@ -2122,7 +2128,9 @@ def
 install_web_extension
 (
 self
-extension
+type
+path
+value
 )
 :
         
