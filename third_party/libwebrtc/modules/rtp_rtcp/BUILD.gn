@@ -4190,17 +4190,6 @@ rtp_rtcp_format
 .
 .
 /
-api
-:
-rtp_headers
-"
-"
-.
-.
-/
-.
-.
-/
 rtc_base
 :
 checks
@@ -5605,8 +5594,6 @@ transport_api
 api
 /
 environment
-:
-environment
 "
 "
 .
@@ -6235,8 +6222,6 @@ test_support
 /
 test
 /
-time_controller
-:
 time_controller
 "
 "
