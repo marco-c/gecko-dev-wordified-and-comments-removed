@@ -471,10 +471,10 @@ cpu_info
 .
 cc
 index
-56aba5ee63
+22f76416b6
 .
 .
-0923e7aca7
+79505f20b4
 100644
 -
 -
@@ -497,10 +497,10 @@ cpu_info
 .
 cc
 -
-65
+66
 7
 +
-65
+66
 7
 uint32_t
 DetectNumberOfCores

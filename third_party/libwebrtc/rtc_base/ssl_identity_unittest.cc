@@ -44,13 +44,6 @@ h
 #
 include
 <
-string
-.
-h
->
-#
-include
-<
 array
 >
 #

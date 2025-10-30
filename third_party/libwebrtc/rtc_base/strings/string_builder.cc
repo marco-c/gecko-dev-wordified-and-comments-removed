@@ -12,9 +12,7 @@ h
 #
 include
 <
-stdarg
-.
-h
+cstdarg
 >
 #
 include

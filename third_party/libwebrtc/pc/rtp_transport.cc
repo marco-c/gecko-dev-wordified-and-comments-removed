@@ -10,9 +10,7 @@ h
 #
 include
 <
-errno
-.
-h
+cerrno
 >
 #
 include

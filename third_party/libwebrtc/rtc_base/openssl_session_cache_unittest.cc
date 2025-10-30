@@ -19,9 +19,7 @@ h
 #
 include
 <
-stdlib
-.
-h
+cstdlib
 >
 #
 include

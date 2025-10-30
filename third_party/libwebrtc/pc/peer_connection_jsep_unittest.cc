@@ -1,14 +1,12 @@
 #
 include
 <
-stddef
-.
-h
+algorithm
 >
 #
 include
 <
-algorithm
+cstddef
 >
 #
 include

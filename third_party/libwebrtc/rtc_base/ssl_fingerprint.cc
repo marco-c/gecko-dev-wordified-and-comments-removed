@@ -10,9 +10,7 @@ h
 #
 include
 <
-ctype
-.
-h
+cctype
 >
 #
 include

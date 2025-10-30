@@ -22,6 +22,11 @@ cstddef
 #
 include
 <
+cstdio
+>
+#
+include
+<
 fstream
 >
 #

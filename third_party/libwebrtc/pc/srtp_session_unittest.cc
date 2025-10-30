@@ -10,13 +10,6 @@ h
 #
 include
 <
-string
-.
-h
->
-#
-include
-<
 cstdint
 >
 #

@@ -10,6 +10,13 @@ h
 #
 include
 <
+time
+.
+h
+>
+#
+include
+<
 algorithm
 >
 #
@@ -156,9 +163,7 @@ h
 #
 include
 <
-time
-.
-h
+ctime
 >
 #
 else
@@ -196,9 +201,7 @@ endif
 #
 include
 <
-stdio
-.
-h
+cstdio
 >
 #
 include

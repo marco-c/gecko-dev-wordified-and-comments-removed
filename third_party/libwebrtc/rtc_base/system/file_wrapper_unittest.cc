@@ -29,6 +29,11 @@ cstddef
 #
 include
 <
+cstdio
+>
+#
+include
+<
 cstring
 >
 #

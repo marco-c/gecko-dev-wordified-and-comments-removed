@@ -1,9 +1,7 @@
 #
 include
 <
-stddef
-.
-h
+cstddef
 >
 #
 include

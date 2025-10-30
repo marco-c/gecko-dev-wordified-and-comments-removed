@@ -10,6 +10,13 @@ yield
 h
 "
 #
+include
+<
+time
+.
+h
+>
+#
 if
 defined
 (
@@ -27,9 +34,7 @@ else
 #
 include
 <
-time
-.
-h
+ctime
 >
 #
 endif

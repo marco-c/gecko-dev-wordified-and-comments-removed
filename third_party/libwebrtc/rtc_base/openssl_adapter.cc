@@ -10,13 +10,6 @@ h
 #
 include
 <
-errno
-.
-h
->
-#
-include
-<
 openssl
 /
 bio
@@ -58,6 +51,11 @@ openssl
 x509
 .
 h
+>
+#
+include
+<
+cerrno
 >
 #
 include

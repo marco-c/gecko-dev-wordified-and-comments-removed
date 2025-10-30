@@ -10,9 +10,7 @@ h
 #
 include
 <
-math
-.
-h
+cmath
 >
 #
 include

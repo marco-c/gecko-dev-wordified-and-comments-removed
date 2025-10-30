@@ -34,9 +34,7 @@ else
 #
 include
 <
-stdint
-.
-h
+cstdint
 >
 #
 endif

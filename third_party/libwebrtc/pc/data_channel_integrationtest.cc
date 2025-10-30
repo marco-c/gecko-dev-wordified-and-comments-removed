@@ -1,14 +1,12 @@
 #
 include
 <
-stdint
-.
-h
+atomic
 >
 #
 include
 <
-atomic
+cstdint
 >
 #
 include

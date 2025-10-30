@@ -16,9 +16,7 @@ else
 #
 include
 <
-string
-.
-h
+cstring
 >
 #
 endif

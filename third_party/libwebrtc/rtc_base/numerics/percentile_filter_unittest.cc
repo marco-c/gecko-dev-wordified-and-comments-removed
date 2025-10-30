@@ -12,13 +12,6 @@ h
 #
 include
 <
-stdlib
-.
-h
->
-#
-include
-<
 array
 >
 #
@@ -30,6 +23,11 @@ climits
 include
 <
 cstdint
+>
+#
+include
+<
+cstdlib
 >
 #
 include

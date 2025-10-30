@@ -10,14 +10,12 @@ h
 #
 include
 <
-string
-.
-h
+cstdio
 >
 #
 include
 <
-cstdio
+cstring
 >
 #
 include

@@ -12,9 +12,7 @@ h
 #
 include
 <
-string
-.
-h
+cstring
 >
 #
 include
