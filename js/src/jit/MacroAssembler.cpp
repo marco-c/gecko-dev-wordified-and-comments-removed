@@ -11007,14 +11007,9 @@ fail
 )
 ;
 {
-move32
-(
-input
-scratch1
-)
-;
 flexibleDivMod32
 (
+input
 base
 scratch1
 scratch2
