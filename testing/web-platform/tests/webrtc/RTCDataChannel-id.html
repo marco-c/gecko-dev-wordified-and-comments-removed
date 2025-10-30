@@ -296,6 +296,7 @@ pc
 createDataChannel
 (
 '
+client_ids
 '
 )
 ;
@@ -581,6 +582,7 @@ pc
 createDataChannel
 (
 '
+server_ids
 '
 )
 ;
@@ -917,6 +919,7 @@ pc1
 createDataChannel
 (
 '
+ignore_id_prop
 '
 {
 negotiated
@@ -962,6 +965,7 @@ pc2
 createDataChannel
 (
 '
+ignore_id_prop
 '
 {
 negotiated
@@ -1290,11 +1294,13 @@ pc1
 .
 createDataChannel
 (
-'
 before
 -
 connection
-'
+-
+{
+i
+}
 )
 ;
 assert_equals
@@ -1666,11 +1672,13 @@ pc1
 .
 createDataChannel
 (
-'
 after
 -
 connection
-'
+-
+{
+i
+}
 )
 ;
 assert_equals
