@@ -179,6 +179,9 @@ MessageLoop
 class
 nsIThread
 ;
+class
+JSObject
+;
 extern
 nsresult
 NS_NewNamedThread
@@ -7685,6 +7688,13 @@ dom
 VideoFrameRequestCallback
 >
 LogVideoFrameRequestCallback
+;
+typedef
+LogTaskBase
+<
+JSObject
+>
+LogJSMicroTask
 ;
 }
 #
