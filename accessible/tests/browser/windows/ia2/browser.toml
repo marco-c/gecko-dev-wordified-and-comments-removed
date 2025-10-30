@@ -116,6 +116,13 @@ true
 ]
 [
 "
+browser_action
+.
+js
+"
+]
+[
+"
 browser_groupPosition
 .
 js
@@ -145,6 +152,13 @@ js
 [
 "
 browser_scrolling
+.
+js
+"
+]
+[
+"
+browser_systemCaret
 .
 js
 "
