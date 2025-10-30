@@ -19,7 +19,7 @@ MarionetteTestCase
 )
 :
     
-v2_file_extensions
+shavar_file_extensions
 =
 [
         
@@ -33,7 +33,7 @@ sbstore
     
 ]
     
-v4_file_extensions
+protobuf_file_extensions
 =
 [
         
@@ -190,7 +190,7 @@ my_file_extensions
 =
 self
 .
-v4_file_extensions
+protobuf_file_extensions
         
 else
 :
@@ -199,7 +199,7 @@ my_file_extensions
 =
 self
 .
-v2_file_extensions
+shavar_file_extensions
         
 for
 pref_name
@@ -328,7 +328,7 @@ setUp
         
 self
 .
-safebrowsing_v2_files
+safebrowsing_shavar_files
 =
 self
 .
@@ -366,7 +366,7 @@ f
 in
 self
 .
-safebrowsing_v2_files
+safebrowsing_shavar_files
         
 )
 :
@@ -398,9 +398,35 @@ nextupdatetime
             
 )
         
+is_safebrowsing_v5_enabled
+=
+bool
+(
+            
 self
 .
-safebrowsing_v4_files
+marionette
+.
+get_pref
+(
+"
+browser
+.
+safebrowsing
+.
+provider
+.
+google5
+.
+enabled
+"
+)
+        
+)
+        
+self
+.
+safebrowsing_protobuf_files
 =
 self
 .
@@ -438,20 +464,54 @@ f
 in
 self
 .
-safebrowsing_v4_files
+safebrowsing_protobuf_files
         
 )
 :
             
+if
+is_safebrowsing_v5_enabled
+:
+                
 self
 .
 prefs_provider_update_time
 .
 update
 (
-                
-{
                     
+{
+                        
+"
+browser
+.
+safebrowsing
+.
+provider
+.
+google5
+.
+nextupdatetime
+"
+:
+1
+                    
+}
+                
+)
+            
+else
+:
+                
+self
+.
+prefs_provider_update_time
+.
+update
+(
+                    
+{
+                        
 "
 browser
 .
@@ -465,9 +525,9 @@ nextupdatetime
 "
 :
 1
-                
+                    
 }
-            
+                
 )
         
 enforce_prefs
@@ -658,7 +718,7 @@ f
 in
 self
 .
-safebrowsing_v2_files
+safebrowsing_shavar_files
 :
                 
 self
@@ -674,7 +734,7 @@ len
 (
 self
 .
-safebrowsing_v4_files
+safebrowsing_protobuf_files
 )
 >
 0
@@ -708,7 +768,7 @@ f
 in
 self
 .
-safebrowsing_v4_files
+safebrowsing_protobuf_files
 :
                     
 self
