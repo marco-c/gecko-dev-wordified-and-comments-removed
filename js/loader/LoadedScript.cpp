@@ -98,8 +98,6 @@ NS_IMPL_CYCLE_COLLECTION
 (
 LoadedScript
 mFetchOptions
-mURI
-mBaseURL
 mCacheInfo
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF

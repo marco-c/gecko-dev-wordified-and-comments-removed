@@ -433,7 +433,6 @@ request
 new
 ModuleLoadRequest
 (
-aURI
 moduleType
 SRIMetadata
 (
@@ -456,10 +455,7 @@ request
 >
 mURL
 =
-request
--
->
-mURI
+aURI
 -
 >
 GetSpecOrDefault
@@ -518,7 +514,9 @@ InsertRequest
 aRequest
 -
 >
-mURI
+URI
+(
+)
 aRequest
 )
 ;
@@ -545,7 +543,9 @@ GetHandlerRef
 aRequest
 -
 >
-mURI
+URI
+(
+)
 aRequest
 -
 >

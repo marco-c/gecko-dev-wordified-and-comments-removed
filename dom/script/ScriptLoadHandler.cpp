@@ -833,7 +833,9 @@ aRequest
 mRequest
 -
 >
-mURI
+URI
+(
+)
 )
 )
 ;
@@ -2018,7 +2020,9 @@ url
 mRequest
 -
 >
-mURI
+URI
+(
+)
 -
 >
 GetAsciiSpec
@@ -2735,7 +2739,9 @@ aOld
 mRequest
 -
 >
-mURI
+URI
+(
+)
 )
 )
 ;
