@@ -240,17 +240,6 @@ options
 .
 experimental
 .
-json_parse_with_source
-=
-true
-"
-"
-javascript
-.
-options
-.
-experimental
-.
 shadow_realms
 =
 true
