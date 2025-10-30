@@ -2818,12 +2818,6 @@ oldBuffer
 buffer
 ;
 }
-syncReadFile
-.
-close
-(
-)
-;
 if
 (
 !

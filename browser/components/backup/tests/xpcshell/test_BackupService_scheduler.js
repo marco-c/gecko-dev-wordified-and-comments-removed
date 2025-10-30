@@ -236,6 +236,7 @@ removeIdleObserver
 "
 )
 ;
+await
 bs
 .
 initBackupScheduler
