@@ -252,10 +252,12 @@ concurrent
 TimeUnit
 /
 /
-Return
-4
+Number
+of
 trending
 searches
+to
+display
 by
 default
 .
@@ -263,7 +265,7 @@ const
 val
 DEFAULT_TRENDING_SEARCHES_LIMIT
 =
-4
+5
 const
 val
 TRENDING_SEARCHES_MAXIMUM_ALLOWED_SUGGESTIONS_LIMIT

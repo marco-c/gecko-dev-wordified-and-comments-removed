@@ -3893,11 +3893,6 @@ settings
 trendingSearchSuggestionsEnabled
 &
 &
-settings
-.
-isTrendingSearchesVisible
-&
-&
 isTrendingSuggestionSupported
 &
 &

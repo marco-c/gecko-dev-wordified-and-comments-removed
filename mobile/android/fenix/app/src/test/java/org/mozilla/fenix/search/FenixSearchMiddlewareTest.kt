@@ -2199,14 +2199,6 @@ every
 {
 settings
 .
-isTrendingSearchesVisible
-}
-returns
-true
-every
-{
-settings
-.
 shouldShowSearchSuggestions
 }
 returns
