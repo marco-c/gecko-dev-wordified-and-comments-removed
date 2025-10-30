@@ -4187,6 +4187,9 @@ operands
 input
 :
 WordSized
+defer_init
+:
+true
 mir_op
 :
 Abs
@@ -4209,6 +4212,9 @@ operands
 input
 :
 WordSized
+defer_init
+:
+true
 #
 Absolute
 value
@@ -4228,6 +4234,9 @@ operands
 input
 :
 WordSized
+defer_init
+:
+true
 #
 Copysign
 for
