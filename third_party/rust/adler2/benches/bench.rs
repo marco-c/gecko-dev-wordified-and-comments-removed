@@ -1,13 +1,13 @@
 extern
 crate
-adler
+adler2
 ;
 extern
 crate
 criterion
 ;
 use
-adler
+adler2
 :
 :
 {

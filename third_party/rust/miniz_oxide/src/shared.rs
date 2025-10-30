@@ -103,7 +103,7 @@ let
 mut
 hash
 =
-adler
+adler2
 :
 :
 Adler32

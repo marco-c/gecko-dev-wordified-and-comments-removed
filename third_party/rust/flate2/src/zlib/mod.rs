@@ -43,7 +43,7 @@ rand
 :
 :
 {
-thread_rng
+rng
 Rng
 }
 ;
@@ -154,11 +154,11 @@ v
 [
 .
 .
-thread_rng
+rng
 (
 )
 .
-gen_range
+random_range
 (
 0
 .
@@ -458,11 +458,11 @@ v
 [
 .
 .
-thread_rng
+rng
 (
 )
 .
-gen_range
+random_range
 (
 0
 .

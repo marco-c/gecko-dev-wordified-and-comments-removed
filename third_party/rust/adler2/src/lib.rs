@@ -14,13 +14,13 @@ docs
 .
 rs
 /
-adler
+adler2
 /
-1
+2
 .
 0
 .
-2
+0
 "
 )
 ]
@@ -189,6 +189,7 @@ default
 inline
 ]
 pub
+const
 fn
 from_checksum
 (

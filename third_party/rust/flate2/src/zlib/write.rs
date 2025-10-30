@@ -1074,7 +1074,7 @@ default
 ;
 e
 .
-write
+write_all
 (
 STR
 .

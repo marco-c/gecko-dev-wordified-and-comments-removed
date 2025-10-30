@@ -66,7 +66,7 @@ cfg_attr
 docsrs
 feature
 (
-doc_auto_cfg
+doc_cfg
 )
 )
 ]
@@ -895,11 +895,11 @@ _
 rand
 :
 :
-thread_rng
+rng
 (
 )
 .
-gen
+random
 (
 )
 )

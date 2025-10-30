@@ -870,7 +870,7 @@ default
 ;
 e
 .
-write
+write_all
 (
 expected
 .
