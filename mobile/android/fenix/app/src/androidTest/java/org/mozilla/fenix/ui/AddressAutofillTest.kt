@@ -284,7 +284,7 @@ var
 state
 =
 "
-Alaska
+AK
 "
 var
 zipCode
@@ -296,8 +296,7 @@ var
 country
 =
 "
-United
-States
+US
 "
 var
 phoneNumber
@@ -349,7 +348,7 @@ var
 state
 =
 "
-Arizona
+AZ
 "
 var
 zipCode
@@ -361,7 +360,7 @@ var
 country
 =
 "
-Canada
+CA
 "
 var
 phoneNumber
@@ -1672,8 +1671,7 @@ clickCountryDropdown
 clickCountryOption
 (
 "
-United
-States
+US
 "
 )
 verifyCountryOption
@@ -1695,7 +1693,7 @@ clickCountryDropdown
 clickCountryOption
 (
 "
-Canada
+CA
 "
 )
 verifyStateOption
@@ -1990,7 +1988,7 @@ Harrison
 Street
 San
 Francisco
-Alaska
+AK
 US
 94105
 555

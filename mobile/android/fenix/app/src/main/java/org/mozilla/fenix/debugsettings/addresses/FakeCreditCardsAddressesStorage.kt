@@ -494,7 +494,7 @@ Phoenix
 addressLevel1
 =
 "
-Arizona
+AZ
 "
 postalCode
 =
@@ -504,8 +504,7 @@ postalCode
 country
 =
 "
-United
-States
+US
 "
 tel
 =
