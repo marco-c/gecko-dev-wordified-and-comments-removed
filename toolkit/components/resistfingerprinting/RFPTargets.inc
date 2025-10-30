@@ -95,11 +95,6 @@ NavigatorUserAgent
 )
 ITEM_VALUE
 (
-PointerId
-20
-)
-ITEM_VALUE
-(
 StreamVideoFacingMode
 21
 )
