@@ -168,9 +168,6 @@ showTrendingSearches
 showRecentSearches
 =
 showRecentSearches
-showShortcutsSuggestions
-=
-showShortcutsSuggestions
 searchEngineSource
 =
 searchEngineSource

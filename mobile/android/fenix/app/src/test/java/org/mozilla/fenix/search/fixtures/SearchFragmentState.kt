@@ -206,9 +206,6 @@ false
 showRecentSearches
 =
 false
-showShortcutsSuggestions
-=
-false
 showQrButton
 =
 false

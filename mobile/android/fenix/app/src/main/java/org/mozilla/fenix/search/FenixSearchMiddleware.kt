@@ -1747,9 +1747,6 @@ showTrendingSearches
 |
 |
 showRecentSearches
-|
-|
-showShortcutsSuggestions
 )
 &
 &
