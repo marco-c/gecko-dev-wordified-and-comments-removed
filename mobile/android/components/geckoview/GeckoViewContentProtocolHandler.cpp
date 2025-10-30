@@ -47,15 +47,6 @@ nsNetUtil
 .
 h
 "
-#
-include
-"
-mozilla
-/
-ResultExtensions
-.
-h
-"
 nsresult
 GeckoViewContentProtocolHandler
 :
