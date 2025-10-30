@@ -125,6 +125,11 @@ expected
 {
 address
 .
+name
+}
+{
+address
+.
 streetAddress
 }
 {
@@ -224,6 +229,11 @@ val
 expected
 =
 "
+{
+address
+.
+name
+}
 {
 address
 .

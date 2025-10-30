@@ -2391,6 +2391,7 @@ get
 =
 listOf
 (
+name
 streetAddress
 .
 toOneLineAddress
