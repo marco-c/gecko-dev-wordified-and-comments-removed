@@ -144,6 +144,7 @@ query
 .
 *
 /
+suspend
 fun
 getSettingsWithQuery
 (

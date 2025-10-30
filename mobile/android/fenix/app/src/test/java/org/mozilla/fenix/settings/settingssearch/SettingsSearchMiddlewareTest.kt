@@ -210,16 +210,6 @@ SettingsSearchMiddleware
 return
 SettingsSearchMiddleware
 (
-initialDependencies
-=
-SettingsSearchMiddleware
-.
-Companion
-.
-Dependencies
-(
-context
-)
 fenixSettingsIndexer
 =
 TestSettingsIndexer
@@ -254,14 +244,6 @@ middleware
 =
 SettingsSearchMiddleware
 (
-SettingsSearchMiddleware
-.
-Companion
-.
-Dependencies
-(
-context
-)
 fenixSettingsIndexer
 =
 EmptyTestSettingsIndexer
@@ -599,6 +581,7 @@ no
 op
 }
 override
+suspend
 fun
 getSettingsWithQuery
 (
@@ -633,6 +616,7 @@ no
 op
 }
 override
+suspend
 fun
 getSettingsWithQuery
 (
