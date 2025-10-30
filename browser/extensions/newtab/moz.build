@@ -38,17 +38,6 @@ test
 /
 browser
 /
-abouthomecache
-/
-browser
-.
-toml
-"
-"
-test
-/
-browser
-/
 browser
 .
 toml

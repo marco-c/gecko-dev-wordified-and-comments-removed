@@ -74,13 +74,6 @@ true
 ]
 [
 "
-test_AboutHomeStartupCacheChild
-.
-js
-"
-]
-[
-"
 test_AboutHomeStartupCacheWorker
 .
 js
