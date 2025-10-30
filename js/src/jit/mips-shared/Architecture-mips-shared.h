@@ -203,16 +203,16 @@ r10
 a7
 =
 r11
-t0
+t4
 =
 r12
-t1
+t5
 =
 r13
-t2
+t6
 =
 r14
-t3
+t7
 =
 r15
 ta0
@@ -544,7 +544,7 @@ a7
 Registers
 :
 :
-t0
+t4
 )
 |
 (
@@ -554,7 +554,7 @@ t0
 Registers
 :
 :
-t1
+t5
 )
 |
 (
@@ -564,7 +564,7 @@ t1
 Registers
 :
 :
-t2
+t6
 )
 |
 (
@@ -574,7 +574,7 @@ t2
 Registers
 :
 :
-t3
+t7
 )
 |
 (
@@ -716,7 +716,7 @@ VolatileMask
 Registers
 :
 :
-t0
+t4
 )
 |
 (
@@ -726,7 +726,7 @@ t0
 Registers
 :
 :
-t1
+t5
 )
 ;
 static
