@@ -239,14 +239,14 @@ js
 ]
 [
 "
-test_quicksuggest_migrate_v3
+test_quicksuggest_migrate_v4
 .
 js
 "
 ]
 [
 "
-test_quicksuggest_migrate_v4
+test_quicksuggest_migrate_v5
 .
 js
 "
