@@ -1,16 +1,7 @@
 #
 include
 <
-stddef
-.
-h
->
-#
-include
-<
-stdio
-.
-h
+cstddef
 >
 #
 include
