@@ -24,6 +24,15 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RemoteLazyInputStreamStorage
 .
 h

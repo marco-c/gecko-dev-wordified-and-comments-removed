@@ -24,6 +24,15 @@ h
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 nsCRTGlue
 .
 h

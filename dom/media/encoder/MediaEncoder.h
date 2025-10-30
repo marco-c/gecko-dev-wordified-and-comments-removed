@@ -51,6 +51,15 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h

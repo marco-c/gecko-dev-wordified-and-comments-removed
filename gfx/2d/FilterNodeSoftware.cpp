@@ -67,6 +67,15 @@ PodOperations
 h
 "
 #
+include
+"
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
 ifdef
 DEBUG_DUMP_SURFACES
 #

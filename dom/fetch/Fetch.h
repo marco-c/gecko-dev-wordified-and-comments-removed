@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 AbortSignal
