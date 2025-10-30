@@ -321,7 +321,9 @@ void
 *
 *
 )
-base_calloc
+sBaseAlloc
+.
+calloc
 (
 1
 <
@@ -484,7 +486,9 @@ void
 *
 *
 )
-base_calloc
+sBaseAlloc
+.
+calloc
 (
 1
 <
