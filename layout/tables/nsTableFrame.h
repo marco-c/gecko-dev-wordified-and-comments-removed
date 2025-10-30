@@ -1676,11 +1676,6 @@ ReflowInput
 aReflowInput
 )
 ;
-void
-ClearAllPositionedTableParts
-(
-)
-;
 nsITableLayoutStrategy
 *
 LayoutStrategy
