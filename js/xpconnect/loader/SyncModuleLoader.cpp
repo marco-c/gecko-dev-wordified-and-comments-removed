@@ -426,7 +426,6 @@ ModuleLoadRequest
 (
 aURI
 moduleType
-aOptions
 dom
 :
 :

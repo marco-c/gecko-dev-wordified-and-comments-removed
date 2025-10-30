@@ -284,7 +284,6 @@ ScriptLoadRequest
 NS_IMPL_CYCLE_COLLECTION
 (
 ScriptLoadRequest
-mFetchOptions
 mLoadedScript
 mLoadContext
 )
@@ -303,9 +302,6 @@ aKind
 nsIURI
 *
 aURI
-ScriptFetchOptions
-*
-aFetchOptions
 const
 SRIMetadata
 &
@@ -337,10 +333,6 @@ mHasSourceMapURL_
 (
 false
 )
-mFetchOptions
-(
-aFetchOptions
-)
 mIntegrity
 (
 aIntegrity
@@ -362,11 +354,6 @@ mEarlyHintPreloaderId
 0
 )
 {
-MOZ_ASSERT
-(
-mFetchOptions
-)
-;
 if
 (
 mLoadContext
@@ -950,14 +937,6 @@ MOZ_ASSERT
 mURI
 )
 ;
-MOZ_ASSERT
-(
-mFetchOptions
-=
-=
-aFetchOptions
-)
-;
 switch
 (
 mKind
@@ -975,7 +954,7 @@ new
 ClassicScript
 (
 aReferrerPolicy
-mFetchOptions
+aFetchOptions
 mURI
 )
 ;
@@ -993,7 +972,7 @@ new
 ImportMapScript
 (
 aReferrerPolicy
-mFetchOptions
+aFetchOptions
 mURI
 )
 ;
@@ -1011,7 +990,7 @@ new
 ModuleScript
 (
 aReferrerPolicy
-mFetchOptions
+aFetchOptions
 mURI
 )
 ;

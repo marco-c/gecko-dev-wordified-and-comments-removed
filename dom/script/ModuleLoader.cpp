@@ -2509,7 +2509,6 @@ ModuleType
 :
 :
 JavaScript
-aFetchOptions
 aIntegrity
 aReferrer
 aContext
@@ -2761,7 +2760,6 @@ ModuleLoadRequest
 (
 aURI
 moduleType
-aOptions
 aSriMetadata
 aBaseURL
 context
