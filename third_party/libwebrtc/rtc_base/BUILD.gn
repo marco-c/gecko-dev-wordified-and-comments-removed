@@ -8667,6 +8667,10 @@ byte_buffer
 "
 "
 :
+byte_order
+"
+"
+:
 checks
 "
 "

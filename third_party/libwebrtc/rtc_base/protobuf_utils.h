@@ -1,9 +1,4 @@
 #
-include
-<
-string
->
-#
 ifndef
 RTC_BASE_PROTOBUF_UTILS_H_
 #
