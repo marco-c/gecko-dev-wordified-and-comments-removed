@@ -1205,6 +1205,14 @@ const
 override
 ;
 virtual
+bool
+IsEditable
+(
+)
+const
+override
+;
+virtual
 void
 GetNativeInterface
 (
