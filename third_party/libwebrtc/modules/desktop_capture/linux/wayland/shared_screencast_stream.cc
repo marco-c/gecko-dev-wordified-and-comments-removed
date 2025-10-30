@@ -3024,11 +3024,6 @@ pw_main_loop_
 )
 return
 ;
-pw_thread_loop_wait
-(
-pw_main_loop_
-)
-;
 pw_thread_loop_stop
 (
 pw_main_loop_
