@@ -1188,16 +1188,6 @@ signal1
 IceTransportInternal
 *
 >
-SignalStateChanged
-;
-sigslot
-:
-:
-signal1
-<
-IceTransportInternal
-*
->
 SignalIceTransportStateChanged
 ;
 sigslot
