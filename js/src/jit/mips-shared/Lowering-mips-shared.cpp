@@ -1339,7 +1339,7 @@ return
 ;
 }
 }
-LModI
+auto
 *
 lir
 =
@@ -1368,9 +1368,6 @@ mod
 rhs
 (
 )
-)
-temp
-(
 )
 )
 ;
