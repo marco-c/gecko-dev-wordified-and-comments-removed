@@ -1729,6 +1729,7 @@ ARIARoleMap
 ;
 if
 (
+(
 roleMapEntry
 &
 &
@@ -1741,6 +1742,19 @@ nsGkAtoms
 :
 :
 textbox
+)
+)
+|
+|
+(
+IsGeneric
+(
+)
+&
+&
+IsEditableRoot
+(
+)
 )
 )
 {
