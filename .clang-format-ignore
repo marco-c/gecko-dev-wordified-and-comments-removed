@@ -1589,13 +1589,6 @@ glibc_printf_tests
 *
 netwerk
 /
-dns
-/
-nsIDNKitInterface
-.
-h
-netwerk
-/
 sctp
 /
 src
