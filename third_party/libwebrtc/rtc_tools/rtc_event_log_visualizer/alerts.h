@@ -7,9 +7,7 @@ RTC_TOOLS_RTC_EVENT_LOG_VISUALIZER_ALERTS_H_
 #
 include
 <
-stdio
-.
-h
+cstdio
 >
 #
 include

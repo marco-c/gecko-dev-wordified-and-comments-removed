@@ -9,6 +9,15 @@ include
 "
 api
 /
+scoped_refptr
+.
+h
+"
+#
+include
+"
+api
+/
 video
 /
 video_frame_buffer

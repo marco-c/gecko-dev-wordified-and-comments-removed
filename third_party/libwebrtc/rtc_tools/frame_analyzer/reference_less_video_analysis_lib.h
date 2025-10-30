@@ -7,9 +7,7 @@ RTC_TOOLS_FRAME_ANALYZER_REFERENCE_LESS_VIDEO_ANALYSIS_LIB_H_
 #
 include
 <
-stddef
-.
-h
+cstddef
 >
 #
 include

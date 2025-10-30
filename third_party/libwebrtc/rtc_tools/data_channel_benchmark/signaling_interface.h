@@ -7,6 +7,11 @@ RTC_TOOLS_DATA_CHANNEL_BENCHMARK_SIGNALING_INTERFACE_H_
 #
 include
 <
+functional
+>
+#
+include
+<
 memory
 >
 #

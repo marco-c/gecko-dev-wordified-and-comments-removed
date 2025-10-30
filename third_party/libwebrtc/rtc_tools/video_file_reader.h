@@ -7,9 +7,7 @@ RTC_TOOLS_VIDEO_FILE_READER_H_
 #
 include
 <
-stddef
-.
-h
+cstddef
 >
 #
 include

@@ -1,5 +1,10 @@
 #
 include
+<
+memory
+>
+#
+include
 "
 rtc_base
 /

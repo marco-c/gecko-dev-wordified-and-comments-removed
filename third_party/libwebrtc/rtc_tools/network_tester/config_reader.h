@@ -7,11 +7,6 @@ RTC_TOOLS_NETWORK_TESTER_CONFIG_READER_H_
 #
 include
 <
-fstream
->
-#
-include
-<
 optional
 >
 #

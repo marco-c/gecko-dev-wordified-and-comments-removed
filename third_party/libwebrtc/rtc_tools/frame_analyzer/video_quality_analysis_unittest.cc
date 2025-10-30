@@ -12,6 +12,16 @@ h
 #
 include
 <
+cstdio
+>
+#
+include
+<
+ostream
+>
+#
+include
+<
 string
 >
 #

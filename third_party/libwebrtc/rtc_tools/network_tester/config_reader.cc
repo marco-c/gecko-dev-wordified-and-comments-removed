@@ -17,7 +17,17 @@ fstream
 #
 include
 <
+ios
+>
+#
+include
+<
 iterator
+>
+#
+include
+<
+optional
 >
 #
 include

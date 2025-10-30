@@ -7,9 +7,7 @@ RTC_TOOLS_DATA_CHANNEL_BENCHMARK_PEER_CONNECTION_CLIENT_H_
 #
 include
 <
-stdint
-.
-h
+cstdint
 >
 #
 include

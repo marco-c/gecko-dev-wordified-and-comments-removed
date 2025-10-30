@@ -12,9 +12,7 @@ h
 #
 include
 <
-inttypes
-.
-h
+cinttypes
 >
 #
 include

@@ -7,9 +7,7 @@ RTC_TOOLS_FRAME_ANALYZER_VIDEO_TEMPORAL_ALIGNER_H_
 #
 include
 <
-stddef
-.
-h
+cstddef
 >
 #
 include
