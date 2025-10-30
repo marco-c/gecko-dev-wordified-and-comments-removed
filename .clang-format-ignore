@@ -306,6 +306,13 @@ mp4parse
 h
 security
 /
+ct
+/
+CTKnownLogs
+.
+h
+security
+/
 manager
 /
 ssl
