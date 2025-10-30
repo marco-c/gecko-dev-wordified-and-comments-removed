@@ -7356,6 +7356,9 @@ endif
 endif
 #
 undef
+BLOCK_SIZE
+#
+undef
 GET_OR_RETURN_ON_ERROR
 #
 undef
