@@ -20,7 +20,7 @@ sidebar
 .
 verticalTabs
 "
-false
+true
 ]
 ]
 }
