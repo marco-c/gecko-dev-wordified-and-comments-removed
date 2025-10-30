@@ -1318,16 +1318,6 @@ LoadedScript
 >
 mLoadedScript
 ;
-JS
-:
-:
-Heap
-<
-JSScript
-*
->
-mScriptForCache
-;
 RefPtr
 <
 LoadContextBase
