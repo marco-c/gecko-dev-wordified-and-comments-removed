@@ -738,6 +738,11 @@ empty
 )
 ;
 }
+void
+MaybeSetTimeout
+(
+)
+;
 const
 std
 :
