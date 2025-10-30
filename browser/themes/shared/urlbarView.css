@@ -4713,7 +4713,7 @@ font
 -
 weight
 -
-bold
+semibold
 )
 ;
 background
@@ -11112,7 +11112,7 @@ font
 -
 weight
 -
-bold
+semibold
 )
 ;
 border
@@ -11804,11 +11804,11 @@ var
 (
 -
 -
+heading
+-
 font
 -
 weight
--
-bold
 )
 ;
 }
@@ -13068,7 +13068,7 @@ font
 -
 weight
 -
-bold
+semibold
 )
 ;
 }
@@ -13107,7 +13107,7 @@ font
 -
 weight
 -
-bold
+semibold
 )
 ;
 }
@@ -13434,11 +13434,11 @@ var
 (
 -
 -
+heading
+-
 font
 -
 weight
--
-bold
 )
 ;
 }
@@ -14192,7 +14192,7 @@ font
 -
 weight
 -
-bold
+semibold
 )
 ;
 margin
@@ -14241,7 +14241,7 @@ font
 -
 weight
 -
-bold
+semibold
 )
 ;
 }

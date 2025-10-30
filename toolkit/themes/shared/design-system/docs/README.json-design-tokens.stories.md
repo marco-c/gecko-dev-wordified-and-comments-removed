@@ -1363,7 +1363,7 @@ font
 -
 weight
 -
-bold
+semibold
 CSS
 tokens
 they
@@ -1405,7 +1405,7 @@ normal
 "
 }
 "
-bold
+semibold
 "
 :
 {

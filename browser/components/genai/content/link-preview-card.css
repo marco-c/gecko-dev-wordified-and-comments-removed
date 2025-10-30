@@ -278,11 +278,11 @@ var
 (
 -
 -
+heading
+-
 font
 -
 weight
--
-bold
 )
 ;
 margin
@@ -517,11 +517,11 @@ var
 (
 -
 -
+heading
+-
 font
 -
 weight
--
-bold
 )
 ;
 gap
@@ -1019,7 +1019,7 @@ font
 -
 weight
 -
-bold
+semibold
 )
 ;
 gap
