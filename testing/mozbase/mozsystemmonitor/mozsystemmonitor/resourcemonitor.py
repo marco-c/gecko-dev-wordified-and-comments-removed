@@ -1322,6 +1322,7 @@ pipe
 .
 send
 (
+                
 (
 "
 process
@@ -1332,7 +1333,9 @@ end_time
 cmdline
 ppid
 None
+None
 )
+            
 )
         
 pipe
@@ -1343,6 +1346,7 @@ send
 "
 done
 "
+None
 None
 None
 None
