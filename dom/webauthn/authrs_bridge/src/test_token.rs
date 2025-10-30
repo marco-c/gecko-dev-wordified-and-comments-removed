@@ -5052,7 +5052,7 @@ dispatch_background_task
 }
 pub
 fn
-has_platform_authenticator
+has_user_verifying_platform_authenticator
 (
 &
 self
@@ -5123,6 +5123,11 @@ as_str
 "
 internal
 "
+&
+&
+token
+.
+has_user_verification
 {
 return
 true
