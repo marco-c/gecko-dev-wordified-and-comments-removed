@@ -18,13 +18,6 @@ moxInsertionPointLineNumber
 ;
 -
 (
-NSString
-*
-)
-moxRole
-;
--
-(
 NSNumber
 *
 )
