@@ -1215,6 +1215,8 @@ type
 [
 WebFrame
 WebWindow
+WebElement
+ShadowRoot
 ]
 ids
 =
@@ -1224,6 +1226,12 @@ frame
 "
 "
 window
+"
+"
+element
+"
+"
+shadow_root
 "
 ]
 )
@@ -1247,7 +1255,7 @@ False
 ]
 )
 def
-test_invalid_argument_for_window_with_invalid_type
+test_invalid_argument_for_reference_with_invalid_type
 (
 session
 type
