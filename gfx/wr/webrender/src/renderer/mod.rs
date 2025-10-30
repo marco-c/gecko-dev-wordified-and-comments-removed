@@ -19092,7 +19092,11 @@ let
 mut
 full_render
 =
-false
+self
+.
+debug_overlay_state
+.
+is_enabled
 ;
 if
 let
@@ -19124,6 +19128,7 @@ input_layers
 }
 ;
 full_render
+|
 =
 compositor
 .
