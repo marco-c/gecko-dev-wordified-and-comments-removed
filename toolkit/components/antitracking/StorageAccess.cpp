@@ -1401,9 +1401,9 @@ nsIPrincipal
 >
 principal
 ;
-(
-void
-)
+Unused
+<
+<
 nsContentUtils
 :
 :

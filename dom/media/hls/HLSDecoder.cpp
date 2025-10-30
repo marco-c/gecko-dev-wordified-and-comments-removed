@@ -979,9 +979,9 @@ aChannel
 nsCString
 spec
 ;
-(
-void
-)
+Unused
+<
+<
 mURI
 -
 >
@@ -1533,9 +1533,9 @@ rv
 nsAutoCString
 mediaExt
 ;
-(
-void
-)
+Unused
+<
+<
 url
 -
 >

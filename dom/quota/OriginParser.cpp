@@ -1026,9 +1026,9 @@ aToken
 nsresult
 rv
 ;
-(
-void
-)
+Unused
+<
+<
 token
 .
 ToInteger

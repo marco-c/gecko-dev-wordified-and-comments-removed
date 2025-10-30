@@ -868,9 +868,9 @@ hasRemovedFragmentDirective
 return
 ;
 }
-(
-void
-)
+Unused
+<
+<
 NS_MutateURI
 (
 aURI

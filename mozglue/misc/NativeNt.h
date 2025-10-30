@@ -6901,9 +6901,9 @@ DWORD
 aProtFlags
 )
 {
-(
-void
-)
+Unused
+<
+<
 EnsureRemoteImagebase
 (
 )

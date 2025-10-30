@@ -799,9 +799,9 @@ mSrcOrigin
 =
 aSrcOrigin
 ;
-(
-void
-)
+Unused
+<
+<
 NS_WARN_IF
 (
 !

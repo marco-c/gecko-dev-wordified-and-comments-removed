@@ -671,9 +671,9 @@ buf
 1025
 ]
 ;
-(
-void
-)
+Unused
+<
+<
 MozFormatCodeAddressDetails
 (
 buf

@@ -5275,9 +5275,9 @@ HasUnackedMutationEvents
 )
 )
 {
-(
-void
-)
+Unused
+<
+<
 mDocument
 -
 >

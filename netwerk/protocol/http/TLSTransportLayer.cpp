@@ -2710,9 +2710,9 @@ self
 =
 this
 ;
-(
-void
-)
+Unused
+<
+<
 NS_DispatchToCurrentThread
 (
 NS_NewRunnableFunction
@@ -2760,9 +2760,9 @@ if
 inputCallback
 )
 {
-(
-void
-)
+Unused
+<
+<
 inputCallback
 -
 >

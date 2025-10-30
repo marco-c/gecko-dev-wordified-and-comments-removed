@@ -576,9 +576,9 @@ RecvTestCompleted
 (
 )
 {
-(
-void
-)
+Unused
+<
+<
 SendShutDown
 (
 )

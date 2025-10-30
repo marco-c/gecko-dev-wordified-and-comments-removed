@@ -309,6 +309,12 @@ using
 mozilla
 :
 :
+Unused
+;
+using
+mozilla
+:
+:
 dom
 :
 :
@@ -5559,9 +5565,9 @@ get
 )
 )
 {
-(
-void
-)
+Unused
+<
+<
 CopyUTF8toUTF16
 (
 baseURI

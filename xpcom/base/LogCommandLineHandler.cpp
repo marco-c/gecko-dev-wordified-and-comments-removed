@@ -174,9 +174,9 @@ CheckChar
 continue
 ;
 }
-(
-void
-)
+Unused
+<
+<
 p
 .
 CheckChar
@@ -306,9 +306,9 @@ IsEmpty
 nsDependentCSubstring
 value
 ;
-(
-void
-)
+Unused
+<
+<
 p
 .
 ReadUntil

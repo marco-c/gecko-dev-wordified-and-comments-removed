@@ -52,6 +52,14 @@ cpp
 "
 "
 /
+mfbt
+/
+Unused
+.
+cpp
+"
+"
+/
 mozglue
 /
 misc

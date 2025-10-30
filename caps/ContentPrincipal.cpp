@@ -2497,9 +2497,9 @@ ok
 NS_ERROR_FAILURE
 )
 ;
-(
-void
-)
+Unused
+<
+<
 NS_ReadOptionalObject
 (
 aStream

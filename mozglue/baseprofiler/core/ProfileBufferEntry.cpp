@@ -6339,9 +6339,9 @@ double
 aTime
 )
 {
-(
-void
-)
+Unused
+<
+<
 aTime
 ;
 }

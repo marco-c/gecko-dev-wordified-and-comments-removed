@@ -237,9 +237,9 @@ true
 break
 ;
 }
-(
-void
-)
+Unused
+<
+<
 WARN_IF_FILE_IS_UNKNOWN
 (
 *
@@ -333,9 +333,9 @@ false
 break
 ;
 }
-(
-void
-)
+Unused
+<
+<
 WARN_IF_FILE_IS_UNKNOWN
 (
 *

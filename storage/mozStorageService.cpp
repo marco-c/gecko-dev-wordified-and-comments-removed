@@ -1401,9 +1401,9 @@ ExecuteSimpleSQL
 shrinkPragma
 )
 ;
-(
-void
-)
+Unused
+<
+<
 conn
 -
 >

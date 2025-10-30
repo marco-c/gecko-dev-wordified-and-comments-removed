@@ -1185,9 +1185,9 @@ uint8_t
 >
 data
 ;
-(
-void
-)
+Unused
+<
+<
 AppendTypedArrayDataTo
 (
 arrayBuffer

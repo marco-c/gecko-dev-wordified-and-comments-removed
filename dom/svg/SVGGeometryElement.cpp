@@ -1026,9 +1026,9 @@ DOMPointInit
 aPoint
 )
 {
-(
-void
-)
+Unused
+<
+<
 GetPrimaryFrame
 (
 FlushType
@@ -1659,9 +1659,9 @@ FlushType
 :
 Style
 ;
-(
-void
-)
+Unused
+<
+<
 GetPrimaryFrame
 (
 flushType

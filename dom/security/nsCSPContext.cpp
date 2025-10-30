@@ -1730,9 +1730,9 @@ deliveredViaMetaTagFlag
 )
 )
 ;
-(
-void
-)
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -7254,9 +7254,9 @@ json
 )
 )
 {
-(
-void
-)
+Unused
+<
+<
 parent
 -
 >

@@ -3628,9 +3628,9 @@ if
 sync
 )
 {
-(
-void
-)
+Unused
+<
+<
 fenceFd
 .
 release

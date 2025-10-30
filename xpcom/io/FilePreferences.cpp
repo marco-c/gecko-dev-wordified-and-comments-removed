@@ -485,9 +485,9 @@ char_path_t
 >
 path
 ;
-(
-void
-)
+Unused
+<
+<
 p
 .
 ReadUntil
@@ -537,9 +537,9 @@ path
 )
 ;
 }
-(
-void
-)
+Unused
+<
+<
 p
 .
 CheckChar

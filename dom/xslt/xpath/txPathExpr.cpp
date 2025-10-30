@@ -44,6 +44,12 @@ using
 mozilla
 :
 :
+Unused
+;
+using
+mozilla
+:
+:
 WrapUnique
 ;
 void
@@ -895,9 +901,9 @@ index
 "
 )
 ;
-(
-void
-)
+Unused
+<
+<
 mItems
 [
 aPos

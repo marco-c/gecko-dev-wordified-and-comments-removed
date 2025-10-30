@@ -679,9 +679,9 @@ RType
 eAUDIBLE
 )
 {
-(
-void
-)
+Unused
+<
+<
 mContext
 -
 >
@@ -693,9 +693,9 @@ aStatus
 }
 else
 {
-(
-void
-)
+Unused
+<
+<
 mContext
 -
 >

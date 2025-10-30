@@ -448,9 +448,12 @@ length
 =
 0
 ;
-(
-void
-)
+mozilla
+:
+:
+Unused
+<
+<
 GetTokenInformation
 (
 token

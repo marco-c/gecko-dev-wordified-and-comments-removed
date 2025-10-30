@@ -10518,9 +10518,9 @@ rv
 )
 ;
 }
-(
-void
-)
+Unused
+<
+<
 NS_MutateURI
 (
 fileAsURI

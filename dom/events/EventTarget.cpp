@@ -1092,9 +1092,9 @@ Event
 aEvent
 )
 {
-(
-void
-)
+Unused
+<
+<
 DispatchEvent
 (
 aEvent
@@ -1122,9 +1122,9 @@ ErrorResult
 aRv
 )
 {
-(
-void
-)
+Unused
+<
+<
 DispatchEvent
 (
 aEvent
