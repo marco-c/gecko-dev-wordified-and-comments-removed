@@ -16090,17 +16090,6 @@ return
 false
 ;
 }
-if
-(
-numBytes
->
-MaxStringBytes
-)
-{
-return
-false
-;
-}
 const
 uint8_t
 *
