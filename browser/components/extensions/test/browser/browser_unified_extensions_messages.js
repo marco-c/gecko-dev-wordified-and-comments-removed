@@ -3039,6 +3039,7 @@ message
 "
 )
 ;
+await
 verifyQuarantinedDomainsMessageBar
 (
 messages
@@ -3184,6 +3185,7 @@ extensionsCount
 }
 )
 ;
+await
 verifyQuarantinedDomainsMessageBar
 (
 messages
