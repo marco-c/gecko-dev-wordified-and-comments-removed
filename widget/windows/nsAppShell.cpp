@@ -1747,6 +1747,13 @@ SetIsRestoringSession
 false
 )
 ;
+WinUtils
+:
+:
+InvalidateWindowPreviews
+(
+)
+;
 obsServ
 -
 >
