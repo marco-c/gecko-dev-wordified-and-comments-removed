@@ -192,9 +192,9 @@ streamConverters
 ;
 1
 "
-Ci
-.
+"
 nsIStreamConverterService
+"
 )
 ;
 const

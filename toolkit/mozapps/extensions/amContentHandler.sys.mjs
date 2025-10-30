@@ -119,9 +119,9 @@ thirdpartyutil
 ;
 1
 "
-Ci
-.
+"
 mozIThirdPartyUtil
+"
 ]
 }
 )

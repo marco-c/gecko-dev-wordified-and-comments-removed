@@ -125,9 +125,9 @@ manager
 ;
 1
 "
-Ci
-.
+"
 nsIUpdateTimerManager
+"
 )
 ;
 ChromeUtils

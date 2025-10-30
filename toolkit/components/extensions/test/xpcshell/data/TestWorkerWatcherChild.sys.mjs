@@ -46,9 +46,9 @@ workerdebuggermanager
 ;
 1
 "
-Ci
-.
+"
 nsIWorkerDebuggerManager
+"
 )
 ;
 export

@@ -20035,9 +20035,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIFaviconService
+"
 )
 ;
 XPCOMUtils
@@ -20063,9 +20063,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsINavBookmarksService
+"
 )
 ;
 ChromeUtils
@@ -20151,9 +20151,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsITaggingService
+"
 )
 ;
 ChromeUtils

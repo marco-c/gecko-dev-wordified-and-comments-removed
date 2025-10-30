@@ -166,9 +166,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIObliviousHttpService
+"
 )
 ;
 /

@@ -347,9 +347,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIProtocolProxyService
+"
 ]
 }
 )

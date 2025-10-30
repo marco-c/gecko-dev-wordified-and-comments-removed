@@ -178,9 +178,9 @@ doorhanger
 -
 username
 "
-Ci
-.
+"
 nsIAutoCompleteSimpleSearch
+"
 )
 ;
 ChromeUtils

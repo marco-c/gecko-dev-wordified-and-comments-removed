@@ -156,9 +156,9 @@ name
 =
 resource
 "
-Ci
-.
+"
 nsISubstitutingProtocolHandler
+"
 )
 ;
 Cu

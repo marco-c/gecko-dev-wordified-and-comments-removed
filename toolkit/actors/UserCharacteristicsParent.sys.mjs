@@ -170,9 +170,9 @@ page
 ;
 1
 "
-Ci
-.
+"
 nsIUserCharacteristicsPageService
+"
 )
 ;
 function

@@ -433,9 +433,9 @@ parserutils
 ;
 1
 "
-Ci
-.
+"
 nsIParserUtils
+"
 )
 ;
 export

@@ -5356,9 +5356,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIApplicationUpdateService
+"
 )
 ;
 XPCOMUtils
@@ -5384,9 +5384,9 @@ checker
 ;
 1
 "
-Ci
-.
+"
 nsIUpdateChecker
+"
 )
 ;
 XPCOMUtils
@@ -5412,9 +5412,9 @@ manager
 ;
 1
 "
-Ci
-.
+"
 nsIUpdateManager
+"
 )
 ;
 AppUpdater

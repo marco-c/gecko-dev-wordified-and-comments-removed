@@ -124,9 +124,9 @@ touchbarhelper
 ;
 1
 "
-Ci
-.
+"
 nsITouchBarHelper
+"
 )
 ;
 async

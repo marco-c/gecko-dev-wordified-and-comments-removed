@@ -48,9 +48,9 @@ engine
 ;
 1
 "
-Ci
-.
+"
 mozISpellCheckingEngine
+"
 )
 ;
 const

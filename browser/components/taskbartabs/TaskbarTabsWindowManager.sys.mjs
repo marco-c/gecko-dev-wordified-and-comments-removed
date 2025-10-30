@@ -184,9 +184,9 @@ utils
 ;
 1
 "
-Ci
-.
+"
 nsIWindowsUIUtils
+"
 ]
 WinTaskbar
 :
@@ -202,9 +202,9 @@ taskbar
 ;
 1
 "
-Ci
-.
+"
 nsIWinTaskbar
+"
 ]
 }
 )

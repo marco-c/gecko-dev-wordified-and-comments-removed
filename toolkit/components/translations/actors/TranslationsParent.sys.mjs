@@ -515,9 +515,9 @@ marionette
 ;
 1
 "
-Ci
-.
+"
 nsIMarionette
+"
 )
 ;
 XPCOMUtils
@@ -539,9 +539,9 @@ agent
 ;
 1
 "
-Ci
-.
+"
 nsIRemoteAgent
+"
 )
 ;
 }
@@ -588,9 +588,9 @@ clh
 ;
 1
 "
-Ci
-.
+"
 nsIBrowserHandler
+"
 ]
 }
 )

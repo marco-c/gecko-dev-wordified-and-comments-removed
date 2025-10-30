@@ -605,9 +605,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIIDNService
+"
 )
 ;
 XPCOMUtils
@@ -631,9 +631,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIContentPrefService2
+"
 )
 ;
 ChromeUtils

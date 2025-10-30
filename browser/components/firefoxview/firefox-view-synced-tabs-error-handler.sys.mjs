@@ -193,9 +193,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsINetworkLinkService
+"
 )
 ;
 const

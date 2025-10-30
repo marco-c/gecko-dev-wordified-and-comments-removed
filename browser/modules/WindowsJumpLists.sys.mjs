@@ -338,9 +338,9 @@ useridleservice
 ;
 1
 "
-Ci
-.
+"
 nsIUserIdleService
+"
 )
 ;
 XPCOMUtils
@@ -362,9 +362,9 @@ taskbar
 ;
 1
 "
-Ci
-.
+"
 nsIWinTaskbar
+"
 )
 ;
 ChromeUtils

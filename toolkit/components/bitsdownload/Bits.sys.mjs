@@ -282,9 +282,9 @@ bits
 ;
 1
 "
-Ci
-.
+"
 nsIBits
+"
 )
 ;
 }

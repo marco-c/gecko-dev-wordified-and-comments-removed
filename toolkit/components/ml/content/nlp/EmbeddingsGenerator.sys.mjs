@@ -250,9 +250,9 @@ utils
 ;
 1
 "
-Ci
-.
+"
 nsIMLUtils
+"
 )
 ;
 ChromeUtils

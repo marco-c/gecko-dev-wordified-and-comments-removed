@@ -172,9 +172,9 @@ clh
 ;
 1
 "
-Ci
-.
+"
 nsIBrowserHandler
+"
 ]
 profileService
 :
@@ -192,9 +192,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIToolkitProfileService
+"
 ]
 }
 )

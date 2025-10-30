@@ -188,9 +188,9 @@ useridleservice
 ;
 1
 "
-Ci
-.
+"
 nsIUserIdleService
+"
 ]
 }
 )

@@ -124,9 +124,9 @@ x509certdb
 ;
 1
 "
-Ci
-.
+"
 nsIX509CertDB
+"
 ]
 gExternalProtocolService
 :
@@ -146,9 +146,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIExternalProtocolService
+"
 ]
 gHandlerService
 :
@@ -166,9 +166,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIHandlerService
+"
 ]
 gMIMEService
 :
@@ -182,9 +182,9 @@ mime
 ;
 1
 "
-Ci
-.
+"
 nsIMIMEService
+"
 ]
 }
 )

@@ -216,9 +216,9 @@ helper
 ;
 1
 "
-Ci
-.
+"
 nsISerializationHelper
+"
 )
 ;
 XPCOMUtils
@@ -244,9 +244,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIExternalProtocolService
+"
 )
 ;
 function

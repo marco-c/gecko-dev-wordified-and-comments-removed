@@ -113,9 +113,9 @@ startup
 ;
 1
 "
-Ci
-.
+"
 amIAddonManagerStartup
+"
 ]
 }
 )

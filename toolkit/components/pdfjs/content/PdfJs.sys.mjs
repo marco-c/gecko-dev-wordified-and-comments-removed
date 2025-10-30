@@ -237,9 +237,9 @@ mime
 ;
 1
 "
-Ci
-.
+"
 nsIMIMEService
+"
 )
 ;
 XPCOMUtils
@@ -263,9 +263,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIHandlerService
+"
 )
 ;
 /

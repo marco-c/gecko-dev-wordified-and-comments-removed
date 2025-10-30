@@ -274,9 +274,9 @@ clipboardhelper
 ;
 1
 "
-Ci
-.
+"
 nsIClipboardHelper
+"
 )
 ;
 const

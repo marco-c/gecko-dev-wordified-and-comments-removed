@@ -659,9 +659,9 @@ stripper
 ;
 1
 "
-Ci
-.
+"
 nsIURLQueryStringStripper
+"
 )
 ;
 XPCOMUtils
@@ -683,9 +683,9 @@ clipboardhelper
 ;
 1
 "
-Ci
-.
+"
 nsIClipboardHelper
+"
 )
 ;
 XPCOMUtils

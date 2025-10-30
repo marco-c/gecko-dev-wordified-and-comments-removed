@@ -105,9 +105,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIFaviconService
+"
 ]
 }
 )

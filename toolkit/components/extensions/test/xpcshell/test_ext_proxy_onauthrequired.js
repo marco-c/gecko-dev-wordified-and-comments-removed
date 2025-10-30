@@ -26,9 +26,9 @@ manager
 ;
 1
 "
-Ci
-.
+"
 nsIHttpAuthManager
+"
 )
 ;
 const

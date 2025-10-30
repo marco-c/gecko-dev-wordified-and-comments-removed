@@ -188,9 +188,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIApplicationUpdateService
+"
 )
 ;
 XPCOMUtils
@@ -214,9 +214,9 @@ manager
 ;
 1
 "
-Ci
-.
+"
 nsIUpdateManager
+"
 )
 ;
 const

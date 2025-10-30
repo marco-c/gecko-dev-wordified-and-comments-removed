@@ -402,9 +402,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIIDNService
+"
 )
 ;
 var

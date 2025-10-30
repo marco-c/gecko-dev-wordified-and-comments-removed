@@ -144,9 +144,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsINetworkLinkService
+"
 )
 ;
 XPCOMUtils
@@ -170,9 +170,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIParentalControlsService
+"
 )
 ;
 ChromeUtils

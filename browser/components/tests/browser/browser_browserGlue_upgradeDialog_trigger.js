@@ -100,9 +100,9 @@ clh
 ;
 1
 "
-Ci
-.
+"
 nsIBrowserHandler
+"
 ]
 }
 )

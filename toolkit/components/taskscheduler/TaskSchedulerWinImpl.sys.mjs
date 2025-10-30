@@ -153,9 +153,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIWinTaskSchedulerService
+"
 ]
 XreDirProvider
 :
@@ -173,9 +173,9 @@ provider
 ;
 1
 "
-Ci
-.
+"
 nsIXREDirProvider
+"
 ]
 }
 )

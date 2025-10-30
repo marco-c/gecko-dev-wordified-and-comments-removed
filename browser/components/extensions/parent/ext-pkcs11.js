@@ -65,9 +65,9 @@ pkcs11moduledb
 ;
 1
 "
-Ci
-.
+"
 nsIPKCS11ModuleDB
+"
 )
 ;
 Cu

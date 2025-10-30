@@ -202,9 +202,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIStorageActivityService
+"
 )
 ;
 XPCOMUtils
@@ -228,9 +228,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsITrackingDBService
+"
 )
 ;
 XPCOMUtils
@@ -258,9 +258,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIIdentityCredentialStorageService
+"
 )
 ;
 XPCOMUtils
@@ -284,9 +284,9 @@ protection
 ;
 1
 "
-Ci
-.
+"
 nsIBounceTrackingProtection
+"
 )
 ;
 XPCOMUtils

@@ -291,9 +291,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIApplicationUpdateService
+"
 )
 ;
 ChromeUtils

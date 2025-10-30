@@ -96,9 +96,9 @@ override
 ;
 1
 "
-Ci
-.
+"
 nsINativeDNSResolverOverride
+"
 )
 ;
 function

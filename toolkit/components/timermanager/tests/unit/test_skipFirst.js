@@ -50,9 +50,9 @@ manager
 ;
 1
 "
-Ci
-.
+"
 nsIUpdateTimerManager
+"
 )
 ;
 const

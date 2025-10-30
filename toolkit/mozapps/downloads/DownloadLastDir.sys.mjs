@@ -379,9 +379,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIContentPrefService2
+"
 )
 ;
 let

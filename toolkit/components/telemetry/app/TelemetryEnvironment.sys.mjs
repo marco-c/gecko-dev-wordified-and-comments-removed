@@ -373,9 +373,9 @@ stub
 ;
 1
 "
-Ci
-.
+"
 nsIApplicationUpdateServiceStub
+"
 )
 ;
 }

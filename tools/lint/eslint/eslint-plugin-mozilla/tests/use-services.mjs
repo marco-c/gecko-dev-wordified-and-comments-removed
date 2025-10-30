@@ -599,9 +599,9 @@ generator
 ;
 1
 "
-Ci
-.
+"
 nsIUUIDGenerator
+"
 ]
 }
 )
@@ -635,9 +635,9 @@ eventlistenerservice
 ;
 1
 "
-Ci
-.
+"
 nsIEventListenerService
+"
 )
 ;
 "

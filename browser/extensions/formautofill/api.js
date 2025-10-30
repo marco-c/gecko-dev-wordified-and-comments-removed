@@ -105,9 +105,9 @@ name
 =
 resource
 "
-Ci
-.
+"
 nsISubstitutingProtocolHandler
+"
 )
 ;
 const

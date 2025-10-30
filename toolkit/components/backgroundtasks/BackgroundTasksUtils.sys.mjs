@@ -237,9 +237,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIToolkitProfileService
+"
 )
 ;
 ChromeUtils

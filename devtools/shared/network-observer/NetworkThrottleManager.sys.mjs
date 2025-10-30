@@ -157,9 +157,9 @@ distributor
 ;
 1
 "
-Ci
-.
+"
 nsIHttpActivityDistributor
+"
 )
 ;
 ChromeUtils

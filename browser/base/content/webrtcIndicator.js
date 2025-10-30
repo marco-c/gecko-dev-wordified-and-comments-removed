@@ -95,9 +95,9 @@ screenmanager
 ;
 1
 "
-Ci
-.
+"
 nsIScreenManager
+"
 )
 ;
 function

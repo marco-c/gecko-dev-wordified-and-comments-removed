@@ -229,9 +229,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsINetworkLinkService
+"
 )
 ;
 XPCOMUtils
@@ -257,9 +257,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsICaptivePortalService
+"
 )
 ;
 /

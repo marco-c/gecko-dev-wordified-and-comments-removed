@@ -533,9 +533,9 @@ foo
 "
 foo
 "
-Ci
-.
+"
 nsIFoo
+"
 )
 ;
 )

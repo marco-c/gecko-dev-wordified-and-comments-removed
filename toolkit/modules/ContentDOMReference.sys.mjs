@@ -221,9 +221,9 @@ finalizationwitness
 ;
 1
 "
-Ci
-.
+"
 nsIFinalizationWitnessService
+"
 )
 ;
 /

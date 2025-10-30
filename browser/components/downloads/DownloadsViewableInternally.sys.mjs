@@ -139,9 +139,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIHandlerService
+"
 )
 ;
 XPCOMUtils
@@ -161,9 +161,9 @@ mime
 ;
 1
 "
-Ci
-.
+"
 nsIMIMEService
+"
 )
 ;
 ChromeUtils

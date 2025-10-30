@@ -221,9 +221,9 @@ SDR
 ;
 1
 "
-Ci
-.
+"
 nsILoginManagerCrypto
+"
 )
 ;
 XPCOMUtils

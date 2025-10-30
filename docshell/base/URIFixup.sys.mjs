@@ -262,9 +262,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIExternalProtocolService
+"
 )
 ;
 XPCOMUtils
@@ -290,9 +290,9 @@ name
 =
 default
 "
-Ci
-.
+"
 nsIProtocolHandler
+"
 )
 ;
 XPCOMUtils
@@ -318,9 +318,9 @@ name
 =
 file
 "
-Ci
-.
+"
 nsIFileProtocolHandler
+"
 )
 ;
 XPCOMUtils

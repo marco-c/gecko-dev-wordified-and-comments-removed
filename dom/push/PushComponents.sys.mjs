@@ -755,9 +755,9 @@ parentprocessmessagemanager
 ;
 1
 "
-Ci
-.
+"
 nsISupports
+"
 )
 ;
 Object
@@ -1914,9 +1914,9 @@ childprocessmessagemanager
 ;
 1
 "
-Ci
-.
+"
 nsISupports
+"
 )
 ;
 Object

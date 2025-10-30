@@ -346,9 +346,9 @@ platform
 ;
 1
 "
-Ci
-.
+"
 mozIDownloadPlatform
+"
 )
 ;
 XPCOMUtils
@@ -368,9 +368,9 @@ mime
 ;
 1
 "
-Ci
-.
+"
 nsIMIMEService
+"
 )
 ;
 XPCOMUtils
@@ -396,9 +396,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIExternalProtocolService
+"
 )
 ;
 ChromeUtils

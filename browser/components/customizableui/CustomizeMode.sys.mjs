@@ -392,9 +392,9 @@ touchbarupdater
 ;
 1
 "
-Ci
-.
+"
 nsITouchBarUpdater
+"
 )
 ;
 let

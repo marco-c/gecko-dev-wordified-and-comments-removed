@@ -123,9 +123,9 @@ certoverride
 ;
 1
 "
-Ci
-.
+"
 nsICertOverrideService
+"
 )
 ;
 XPCOMUtils
@@ -149,9 +149,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIIDNService
+"
 )
 ;
 ChromeUtils
