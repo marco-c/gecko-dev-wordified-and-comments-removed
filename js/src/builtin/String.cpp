@@ -5678,6 +5678,16 @@ defaultLocale
 cx
 )
 ;
+if
+(
+!
+requestedLocale
+)
+{
+return
+nullptr
+;
+}
 }
 const
 char
