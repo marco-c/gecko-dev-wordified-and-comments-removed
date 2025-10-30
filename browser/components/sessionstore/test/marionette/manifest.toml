@@ -107,6 +107,13 @@ py
 ]
 [
 "
+test_restore_split_view
+.
+py
+"
+]
+[
+"
 test_restore_windows_after_close_last_tabs
 .
 py
