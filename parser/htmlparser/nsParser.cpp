@@ -157,15 +157,6 @@ include
 "
 mozilla
 /
-BinarySearch
-.
-h
-"
-#
-include
-"
-mozilla
-/
 CondVar
 .
 h

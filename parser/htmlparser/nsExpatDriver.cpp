@@ -196,15 +196,6 @@ include
 "
 mozilla
 /
-IntegerTypeTraits
-.
-h
-"
-#
-include
-"
-mozilla
-/
 NullPrincipal
 .
 h
