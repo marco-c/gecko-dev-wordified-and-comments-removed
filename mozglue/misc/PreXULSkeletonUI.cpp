@@ -137,15 +137,6 @@ include
 "
 mozilla
 /
-HelperMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 glue
 /
 Debug

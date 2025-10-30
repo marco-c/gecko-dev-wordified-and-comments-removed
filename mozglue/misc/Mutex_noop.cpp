@@ -1,14 +1,5 @@
 #
 include
-"
-mozilla
-/
-Assertions
-.
-h
-"
-#
-include
 <
 errno
 .
