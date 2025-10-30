@@ -12700,6 +12700,9 @@ menu
 -
 button
 "
+cacheable
+:
+true
 }
 attributes
 :
