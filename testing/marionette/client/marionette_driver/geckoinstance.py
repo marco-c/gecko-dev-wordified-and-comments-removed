@@ -3918,6 +3918,16 @@ True
 "
 browser
 .
+ml
+.
+enable
+"
+:
+False
+        
+"
+browser
+.
 newtabpage
 .
 activity
