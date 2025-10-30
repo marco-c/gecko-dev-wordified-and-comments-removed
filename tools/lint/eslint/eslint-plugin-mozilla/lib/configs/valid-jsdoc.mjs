@@ -171,6 +171,17 @@ error
 "
 jsdoc
 /
+multiline
+-
+blocks
+"
+:
+"
+error
+"
+"
+jsdoc
+/
 no
 -
 bad

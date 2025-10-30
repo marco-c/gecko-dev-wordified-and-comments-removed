@@ -1930,6 +1930,7 @@ commands
 /
 *
 *
+*
 Clear
 the
 text

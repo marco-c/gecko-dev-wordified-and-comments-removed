@@ -540,7 +540,6 @@ windowScale
 *
 *
 *
-*
 THESE
 VALUES
 ARE
@@ -691,7 +690,6 @@ _thumbnailHeight
 ;
 }
 /
-*
 *
 *
 *

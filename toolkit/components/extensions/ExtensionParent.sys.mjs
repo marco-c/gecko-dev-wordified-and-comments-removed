@@ -9818,6 +9818,7 @@ browser
 /
 *
 *
+*
 typedef
 {
 import
@@ -9840,6 +9841,7 @@ webextension
 js
 "
 )
+*
 .
 WebExtensionDescriptorActor
 }
