@@ -2430,6 +2430,9 @@ import
 logging
         
 import
+localpaths
+        
+import
 manifestupdate
         
 from
@@ -2556,43 +2559,6 @@ items
 )
 :
             
-if
-"
-manifest_path
-"
-not
-in
-paths
-:
-                
-paths
-[
-"
-manifest_path
-"
-]
-=
-os
-.
-path
-.
-join
-(
-                    
-paths
-[
-"
-metadata_path
-"
-]
-"
-MANIFEST
-.
-json
-"
-                
-)
-            
 results
 .
 update
@@ -2606,11 +2572,8 @@ get_paths
 path
 =
 paths
-[
-"
+.
 manifest_path
-"
-]
                     
 src_root
 =
@@ -2619,11 +2582,8 @@ src_root
 tests_root
 =
 paths
-[
-"
+.
 tests_path
-"
-]
                     
 update
 =
