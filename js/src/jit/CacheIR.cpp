@@ -12412,6 +12412,15 @@ Mode
 Specialized
 )
 ;
+gc
+:
+:
+AutoSuppressGC
+suppressGC
+(
+cx_
+)
+;
 Rooted
 <
 JSFunction
