@@ -645,15 +645,6 @@ layout_margin
 "
 android
 :
-buttonTint
-=
-"
-color
-/
-tab_checkbox_tint
-"
-android
-:
 clickable
 =
 "
