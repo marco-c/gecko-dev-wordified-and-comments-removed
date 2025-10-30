@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-AlreadyAddRefed
+Maybe
 .
 h
 "
@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-Maybe
+RefPtr
 .
 h
 "

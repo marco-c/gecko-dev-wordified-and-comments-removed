@@ -32,6 +32,15 @@ h
 #
 include
 "
+mozilla
+/
+ScopeExit
+.
+h
+"
+#
+include
+"
 nsGtkUtils
 .
 h

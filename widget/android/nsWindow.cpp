@@ -460,6 +460,15 @@ include
 "
 mozilla
 /
+WeakPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WheelHandlingHelper
 .
 h

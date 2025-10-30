@@ -34,6 +34,15 @@ h
 #
 include
 "
+mozilla
+/
+ToString
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
