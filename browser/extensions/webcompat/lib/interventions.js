@@ -1275,7 +1275,7 @@ length
 {
 console
 .
-warn
+debug
 (
 "
 Skipping
@@ -1594,7 +1594,7 @@ config
 ;
 console
 .
-info
+debug
 (
 "
 Added
@@ -1649,7 +1649,7 @@ config
 {
 console
 .
-info
+debug
 (
 "
 Replaced
@@ -2155,7 +2155,7 @@ listener
 ;
 console
 .
-info
+debug
 (
 Enabled
 UA
@@ -2266,7 +2266,7 @@ listener
 ;
 console
 .
-info
+debug
 (
 Blocking
 requests
@@ -2392,7 +2392,7 @@ stillNeeded
 ;
 console
 .
-info
+debug
 (
 Registered
 still
