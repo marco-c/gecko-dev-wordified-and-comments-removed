@@ -577,16 +577,6 @@ libwebrtc
 /
 api
 /
-field_trials_gn
-"
-"
-/
-third_party
-/
-libwebrtc
-/
-api
-/
 field_trials_registry_gn
 "
 "
