@@ -266,6 +266,11 @@ IsRDDProcessDestroyed
 )
 const
 ;
+bool
+CreateVideoBridge
+(
+)
+;
 void
 OnXPCOMShutdown
 (

@@ -2304,7 +2304,6 @@ umsc
 >
 CreateVideoBridge
 (
-process
 )
 )
 {
