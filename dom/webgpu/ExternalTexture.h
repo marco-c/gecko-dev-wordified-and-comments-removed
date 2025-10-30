@@ -693,8 +693,10 @@ layers
 BufferDescriptor
 &
 aSd
+Span
+<
 uint8_t
-*
+>
 aBuffer
 )
 ;
