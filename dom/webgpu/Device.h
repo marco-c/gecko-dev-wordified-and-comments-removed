@@ -407,15 +407,6 @@ layers
 :
 RemoteTextureOwnerId
 aOwnerId
-mozilla
-:
-:
-Span
-<
-RawId
-const
->
-aBufferIds
 bool
 aUseSharedTextureInSwapChain
 gfx

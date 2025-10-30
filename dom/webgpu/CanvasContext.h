@@ -581,12 +581,6 @@ RemoteTextureOwnerId
 >
 mRemoteTextureOwnerId
 ;
-nsTArray
-<
-RawId
->
-mBufferIds
-;
 RefPtr
 <
 layers
