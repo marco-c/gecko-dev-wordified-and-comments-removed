@@ -1112,6 +1112,15 @@ dll
 "
 ALL_VERSIONS
 )
+DllBlocklistEntry
+(
+"
+magicdsfilterQuestPro
+.
+dll
+"
+ALL_VERSIONS
+)
 ]
 ALL_PROCESSES
 +
