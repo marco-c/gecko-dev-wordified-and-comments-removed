@@ -628,6 +628,17 @@ tests
 /
 quicksuggest
 /
+GeolocationTestUtils
+.
+sys
+.
+mjs
+"
+"
+tests
+/
+quicksuggest
+/
 MerinoTestUtils
 .
 sys

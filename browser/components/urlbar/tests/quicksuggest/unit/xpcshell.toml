@@ -359,6 +359,13 @@ js
 ]
 [
 "
+test_weather_geolocation
+.
+js
+"
+]
+[
+"
 test_weather_keywords
 .
 js
