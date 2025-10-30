@@ -406,7 +406,7 @@ aCapEngine
 const
 int
 &
-aCaptureId
+aStreamId
 )
 override
 ;
@@ -506,7 +506,7 @@ aCapEngine
 const
 int
 &
-aCaptureId
+aStreamId
 const
 VideoCaptureCapability
 &
@@ -541,7 +541,7 @@ aCapEngine
 const
 int
 &
-aCaptureId
+aStreamId
 )
 override
 ;
@@ -561,7 +561,7 @@ aCapEngine
 const
 int
 &
-aCaptureId
+aStreamId
 )
 override
 ;
@@ -692,7 +692,7 @@ CaptureEngine
 &
 aCapEngine
 int
-aCaptureId
+aStreamId
 )
 ;
 int
@@ -703,7 +703,7 @@ CaptureEngine
 &
 aCapEngine
 int
-aCaptureId
+aStreamId
 )
 ;
 void
