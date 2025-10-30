@@ -351,6 +351,12 @@ code
 =
 =
 NS_ERROR_CORRUPTED_CONTENT
+|
+|
+code
+=
+=
+NS_ERROR_NET_TIMEOUT_EXTERNAL
 )
 ;
 }
