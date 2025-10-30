@@ -266,6 +266,12 @@ BufferAllocator
 500
 )
 \
+_
+(
+GeckoProfilerScriptSources
+500
+)
+\
 \
 _
 (
