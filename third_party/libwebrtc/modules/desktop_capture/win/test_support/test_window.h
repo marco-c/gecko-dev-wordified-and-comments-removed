@@ -101,6 +101,14 @@ height
 )
 ;
 void
+ResizeTestWindowToFullScreen
+(
+const
+HWND
+hwnd
+)
+;
+void
 MoveTestWindow
 (
 HWND

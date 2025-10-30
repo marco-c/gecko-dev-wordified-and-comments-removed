@@ -185,6 +185,13 @@ screenClass
 "
 )
 ;
+ResizeTestWindowToFullScreen
+(
+slide_show_window_info_
+.
+hwnd
+)
+;
 return
 slide_show_window_info_
 .
