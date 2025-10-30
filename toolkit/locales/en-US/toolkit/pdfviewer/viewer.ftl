@@ -6428,7 +6428,7 @@ pdfjs
 -
 editor
 -
-edit
+add
 -
 comment
 -
@@ -6437,5 +6437,5 @@ button
 .
 title
 =
-Edit
+Add
 comment
