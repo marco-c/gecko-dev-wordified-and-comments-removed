@@ -314,13 +314,28 @@ def
 test_data_persists_after_closing
 (
 bidi_session
-top_context
-        
 setup_network_test
+        
 add_data_collector
 test_page
 )
 :
+    
+new_context
+=
+await
+bidi_session
+.
+browsing_context
+.
+create
+(
+type_hint
+=
+"
+tab
+"
+)
     
 network_events
 =
@@ -386,7 +401,7 @@ navigate
         
 context
 =
-top_context
+new_context
 [
 "
 context
@@ -488,7 +503,7 @@ close
 (
 context
 =
-top_context
+new_context
 [
 "
 context
