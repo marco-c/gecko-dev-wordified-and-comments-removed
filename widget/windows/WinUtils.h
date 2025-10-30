@@ -920,6 +920,12 @@ SystemScaleFactor
 )
 ;
 static
+bool
+IsPerMonitorDPIAware
+(
+)
+;
+static
 float
 MonitorDPI
 (

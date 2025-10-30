@@ -22295,6 +22295,16 @@ if
 WinUtils
 :
 :
+IsPerMonitorDPIAware
+(
+)
+)
+{
+if
+(
+WinUtils
+:
+:
 LogToPhysFactor
 (
 mWnd
@@ -22312,6 +22322,7 @@ ResetLayout
 (
 )
 ;
+}
 }
 break
 ;
