@@ -107,6 +107,13 @@ h
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h
@@ -351,7 +358,10 @@ u
 "
 "
 _ns
-kLargestContentfulPaintName
+nsGkAtoms
+:
+:
+largestContentfulPaint
 )
 mPerformance
 (

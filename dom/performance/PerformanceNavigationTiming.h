@@ -158,11 +158,10 @@ aName
 {
 SetEntryType
 (
-u
-"
+nsGkAtoms
+:
+:
 navigation
-"
-_ns
 )
 ;
 SetInitiatorType

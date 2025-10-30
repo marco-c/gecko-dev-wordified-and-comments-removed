@@ -55,8 +55,8 @@ nsAString
 &
 aName
 const
-nsAString
-&
+nsStaticAtom
+*
 aEntryType
 )
 :
@@ -73,10 +73,7 @@ aName
 )
 mEntryType
 (
-NS_Atomize
-(
 aEntryType
-)
 )
 {
 }
