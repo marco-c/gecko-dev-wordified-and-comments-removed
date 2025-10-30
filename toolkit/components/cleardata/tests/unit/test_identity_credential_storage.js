@@ -54,9 +54,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsIIdentityCredentialStorageService
-"
 )
 ;
 do_get_profile

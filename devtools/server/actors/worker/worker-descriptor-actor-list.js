@@ -85,9 +85,9 @@ workerdebuggermanager
 ;
 1
 "
-"
+Ci
+.
 nsIWorkerDebuggerManager
-"
 )
 ;
 function

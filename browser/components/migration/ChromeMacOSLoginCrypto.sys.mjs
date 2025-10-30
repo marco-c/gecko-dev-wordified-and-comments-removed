@@ -127,9 +127,9 @@ keychainmigrationutils
 ;
 1
 "
-"
+Ci
+.
 nsIKeychainMigrationUtils
-"
 )
 ;
 const

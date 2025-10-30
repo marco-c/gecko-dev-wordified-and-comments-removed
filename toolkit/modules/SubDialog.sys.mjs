@@ -103,9 +103,9 @@ dragservice
 ;
 1
 "
-"
+Ci
+.
 nsIDragService
-"
 )
 ;
 const

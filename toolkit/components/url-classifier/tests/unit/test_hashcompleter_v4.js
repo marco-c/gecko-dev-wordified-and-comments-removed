@@ -676,9 +676,9 @@ utils
 ;
 1
 "
-"
+Ci
+.
 nsIUrlClassifierUtils
-"
 )
 ;
 let

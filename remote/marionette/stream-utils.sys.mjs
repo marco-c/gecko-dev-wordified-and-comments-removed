@@ -128,9 +128,9 @@ util
 ;
 1
 "
-"
+Ci
+.
 nsIIOUtil
-"
 )
 ;
 ChromeUtils

@@ -47,9 +47,9 @@ name
 =
 resource
 "
-"
+Ci
+.
 nsISubstitutingProtocolHandler
-"
 )
 ;
 this

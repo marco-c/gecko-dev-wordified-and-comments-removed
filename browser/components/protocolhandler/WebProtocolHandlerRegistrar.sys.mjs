@@ -158,9 +158,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsIExternalProtocolService
-"
 ]
 }
 )

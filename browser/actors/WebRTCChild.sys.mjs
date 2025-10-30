@@ -121,9 +121,9 @@ mediaManagerService
 ;
 1
 "
-"
+Ci
+.
 nsIMediaManagerService
-"
 )
 ;
 const

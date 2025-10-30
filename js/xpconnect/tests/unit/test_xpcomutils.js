@@ -279,9 +279,9 @@ consoleservice
 ;
 1
 "
-"
+Ci
+.
 nsIConsoleService
-"
 )
 ;
 let

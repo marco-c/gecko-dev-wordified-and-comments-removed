@@ -408,9 +408,9 @@ clipboardhelper
 ;
 1
 "
-"
+Ci
+.
 nsIClipboardHelper
-"
 ]
 gMIMEService
 :
@@ -424,9 +424,9 @@ mime
 ;
 1
 "
-"
+Ci
+.
 nsIMIMEService
-"
 ]
 }
 )

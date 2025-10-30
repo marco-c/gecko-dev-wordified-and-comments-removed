@@ -136,9 +136,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsIExternalProtocolService
-"
 )
 ;
 XPCOMUtils
@@ -158,9 +158,9 @@ mime
 ;
 1
 "
-"
+Ci
+.
 nsIMIMEService
-"
 )
 ;
 XPCOMUtils
@@ -184,9 +184,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsIHandlerService
-"
 )
 ;
 export

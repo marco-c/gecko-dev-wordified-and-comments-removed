@@ -100,9 +100,9 @@ ssservice
 ;
 1
 "
-"
+Ci
+.
 nsISiteSecurityService
-"
 )
 ;
 XPCOMUtils
@@ -124,9 +124,9 @@ certoverride
 ;
 1
 "
-"
+Ci
+.
 nsICertOverrideService
-"
 )
 ;
 const

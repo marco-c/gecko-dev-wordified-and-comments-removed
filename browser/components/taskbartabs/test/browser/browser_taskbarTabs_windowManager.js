@@ -85,9 +85,9 @@ taskbar
 ;
 1
 "
-"
+Ci
+.
 nsIWinTaskbar
-"
 ]
 }
 )

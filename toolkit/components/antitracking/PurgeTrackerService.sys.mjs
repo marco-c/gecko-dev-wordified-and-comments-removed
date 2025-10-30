@@ -115,9 +115,9 @@ dbservice
 ;
 1
 "
-"
+Ci
+.
 nsIURIClassifier
-"
 )
 ;
 XPCOMUtils
@@ -141,9 +141,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsIStorageActivityService
-"
 )
 ;
 ChromeUtils

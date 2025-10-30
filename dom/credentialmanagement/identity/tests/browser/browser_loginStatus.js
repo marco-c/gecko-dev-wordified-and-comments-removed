@@ -28,9 +28,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsIIdentityCredentialStorageService
-"
 )
 ;
 const

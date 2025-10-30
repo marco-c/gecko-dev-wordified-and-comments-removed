@@ -286,9 +286,9 @@ manager
 ;
 1
 "
-"
+Ci
+.
 nsIUpdateTimerManager
-"
 )
 ;
 XPCOMUtils
@@ -312,9 +312,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsIPageThumbsStorageService
-"
 )
 ;
 /

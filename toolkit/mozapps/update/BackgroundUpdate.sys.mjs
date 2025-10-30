@@ -486,9 +486,9 @@ useridleservice
 ;
 1
 "
-"
+Ci
+.
 nsIUserIdleService
-"
 ]
 UpdateService
 :
@@ -506,9 +506,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsIApplicationUpdateService
-"
 ]
 }
 )

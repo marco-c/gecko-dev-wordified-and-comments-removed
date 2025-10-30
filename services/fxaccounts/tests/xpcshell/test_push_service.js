@@ -84,9 +84,9 @@ Service
 ;
 1
 "
-"
+Ci
+.
 nsIPushService
-"
 )
 ;
 initTestLogging

@@ -121,9 +121,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsIFaviconService
-"
 ]
 imgTools
 :
@@ -139,9 +139,9 @@ tools
 ;
 1
 "
-"
+Ci
+.
 imgITools
-"
 ]
 }
 )

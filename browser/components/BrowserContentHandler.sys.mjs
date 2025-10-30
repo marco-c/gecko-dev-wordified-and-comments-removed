@@ -386,9 +386,9 @@ manager
 ;
 1
 "
-"
+Ci
+.
 nsIUpdateManager
-"
 ]
 WinTaskbar
 :
@@ -404,9 +404,9 @@ taskbar
 ;
 1
 "
-"
+Ci
+.
 nsIWinTaskbar
-"
 ]
 WindowsUIUtils
 :
@@ -424,9 +424,9 @@ utils
 ;
 1
 "
-"
+Ci
+.
 nsIWindowsUIUtils
-"
 ]
 }
 )

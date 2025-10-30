@@ -139,9 +139,9 @@ name
 =
 resource
 "
-"
+Ci
+.
 nsIResProtocolHandler
-"
 )
 ;
 ChromeUtils

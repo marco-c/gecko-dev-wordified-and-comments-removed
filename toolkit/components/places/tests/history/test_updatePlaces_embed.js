@@ -22,9 +22,9 @@ history
 ;
 1
 "
-"
+Ci
+.
 mozIAsyncHistory
-"
 )
 ;
 add_task

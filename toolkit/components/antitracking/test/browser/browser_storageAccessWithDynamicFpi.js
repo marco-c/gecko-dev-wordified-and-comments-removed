@@ -38,9 +38,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsIPartitioningExceptionListService
-"
 )
 ;
 const

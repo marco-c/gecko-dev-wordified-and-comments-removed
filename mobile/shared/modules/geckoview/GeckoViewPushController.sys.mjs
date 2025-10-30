@@ -123,9 +123,9 @@ Notifier
 ;
 1
 "
-"
+Ci
+.
 nsIPushNotifier
-"
 )
 ;
 const

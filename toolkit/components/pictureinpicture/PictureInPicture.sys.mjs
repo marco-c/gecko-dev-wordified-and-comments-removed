@@ -147,9 +147,9 @@ utils
 ;
 1
 "
-"
+Ci
+.
 nsIWindowsUIUtils
-"
 ]
 }
 )

@@ -133,9 +133,9 @@ workerdebuggermanager
 ;
 1
 "
-"
+Ci
+.
 nsIWorkerDebuggerManager
-"
 )
 ;
 const
