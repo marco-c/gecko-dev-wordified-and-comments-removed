@@ -112,12 +112,6 @@ FutexThread
 \
 _
 (
-GeckoProfilerStrings
-500
-)
-\
-_
-(
 ProtectedRegionTree
 500
 )
