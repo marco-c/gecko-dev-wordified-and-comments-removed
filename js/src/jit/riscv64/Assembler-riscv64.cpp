@@ -9972,6 +9972,9 @@ bool
 enabled
 )
 {
+#
+ifdef
+DEBUG
 Instruction
 *
 i0
@@ -10066,6 +10069,8 @@ raw
 kInstrSize
 )
 ;
+#
+endif
 Instruction
 *
 i5

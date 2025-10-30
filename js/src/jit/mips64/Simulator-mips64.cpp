@@ -6869,6 +6869,9 @@ if
 cache_hit
 )
 {
+#
+ifdef
+DEBUG
 int
 cmpret
 =
@@ -6903,6 +6906,8 @@ cmpret
 0
 )
 ;
+#
+endif
 }
 else
 {
