@@ -119,6 +119,13 @@ webrtc
 "
 )
 )
+.
+SetTags
+(
+"
+slow
+"
+)
 perfetto
 :
 :
@@ -130,6 +137,13 @@ TRACE_DISABLED_BY_DEFAULT
 webrtc_stats
 "
 )
+)
+.
+SetTags
+(
+"
+slow
+"
 )
 )
 ;
