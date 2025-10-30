@@ -464,7 +464,6 @@ MLDSA_SignFinal
 MLDSA_VerifyInit
 MLDSA_VerifyUpdate
 MLDSA_VerifyFinal
-EC_DecompressPublicKey
 }
 ;
 const
