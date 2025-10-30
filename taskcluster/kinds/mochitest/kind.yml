@@ -72,14 +72,6 @@ dependencies
 -
 build
 -
-build
--
-signing
--
-signing
--
-apk
--
 repackage
 -
 signing
@@ -95,12 +87,6 @@ repackage
 signing
 -
 msix
--
-repackage
--
-signing
--
-repackage
 -
 fetch
 -
