@@ -113,6 +113,9 @@ closewatcher
 commandhandler
 "
 "
+compression
+"
+"
 cookiestore
 "
 "
