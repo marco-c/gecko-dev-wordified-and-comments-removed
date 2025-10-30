@@ -279,6 +279,17 @@ include
 "
 video
 /
+corruption_detection
+/
+frame_instrumentation_evaluation
+.
+h
+"
+#
+include
+"
+video
+/
 stats_counter
 .
 h
@@ -325,6 +336,8 @@ public
 RtcpCnameCallback
 public
 RtcpPacketTypeCounterObserver
+public
+CorruptionScoreObserver
 {
 public
 :
@@ -554,6 +567,7 @@ corruption_score
 VideoContentType
 content_type
 )
+override
 ;
 void
 RtcpPacketTypesCounterUpdated

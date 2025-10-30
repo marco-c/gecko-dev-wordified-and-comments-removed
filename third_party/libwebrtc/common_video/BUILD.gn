@@ -194,6 +194,16 @@ video
 :
 video_frame
 "
+"
+.
+.
+/
+api
+/
+video
+:
+video_rtp_headers
+"
 ]
 }
 rtc_library
