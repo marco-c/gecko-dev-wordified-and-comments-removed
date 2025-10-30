@@ -21,6 +21,15 @@ h
 >
 #
 include
+"
+mozilla
+/
+WindowsVersion
+.
+h
+"
+#
+include
 <
 type_traits
 >
