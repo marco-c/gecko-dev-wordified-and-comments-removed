@@ -535,6 +535,14 @@ checkForPinnedTabsComplete
 this
 )
 ;
+lazy
+.
+SidebarManager
+.
+checkForPinnedTabs
+(
+)
+;
 this
 .
 launcherObserver
