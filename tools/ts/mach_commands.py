@@ -578,6 +578,23 @@ dom
 "
 )
         
+objdir_webidl
+=
+mozpath
+.
+join
+(
+ctx
+.
+topobjdir
+"
+dom
+"
+"
+bindings
+"
+)
+        
 files
 =
 [
@@ -649,6 +666,7 @@ build_dom
 "
 lib_dts
 dir
+objdir_webidl
 *
 files
 )
