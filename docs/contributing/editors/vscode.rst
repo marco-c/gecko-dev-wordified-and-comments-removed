@@ -586,14 +586,8 @@ system
 Ignore
 Files
 in
-Mercurial
+VCS
 Repositories
-~
-~
-~
-~
-~
-~
 ~
 ~
 ~
@@ -650,7 +644,7 @@ manually
 .
 When
 using
-Mercurial
+Git
 in
 mozilla
 -
