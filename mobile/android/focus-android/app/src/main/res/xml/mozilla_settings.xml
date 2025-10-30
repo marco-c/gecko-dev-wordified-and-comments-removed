@@ -211,7 +211,7 @@ icon
 "
 drawable
 /
-ic_tab_new
+mozac_ic_tab_new
 "
 android
 :
@@ -255,7 +255,7 @@ icon
 "
 drawable
 /
-ic_tab_new
+mozac_ic_tab_new
 "
 android
 :
@@ -299,7 +299,7 @@ icon
 "
 drawable
 /
-ic_tab_new
+mozac_ic_tab_new
 "
 android
 :
@@ -343,7 +343,7 @@ icon
 "
 drawable
 /
-ic_tab_new
+mozac_ic_tab_new
 "
 android
 :

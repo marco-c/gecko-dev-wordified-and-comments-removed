@@ -641,11 +641,11 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
-ic_cookies_disable
+mozac_ic_cookies_slash_24
 )
 }
 Icon

@@ -140,7 +140,7 @@ icon
 "
 drawable
 /
-ic_autoplay_enabled
+mozac_ic_autoplay_24
 "
 android
 :
@@ -193,7 +193,7 @@ icon
 "
 drawable
 /
-ic_camera_enabled
+mozac_ic_camera_24
 "
 android
 :
@@ -412,7 +412,7 @@ icon
 "
 drawable
 /
-ic_link
+mozac_ic_link_24
 "
 android
 :
