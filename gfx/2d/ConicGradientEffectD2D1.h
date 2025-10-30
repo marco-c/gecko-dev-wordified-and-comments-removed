@@ -32,15 +32,6 @@ include
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 DEFINE_GUID
 (
 CLSID_ConicGradientEffect
