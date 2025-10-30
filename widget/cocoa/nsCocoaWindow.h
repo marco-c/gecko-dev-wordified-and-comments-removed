@@ -2379,6 +2379,12 @@ int32_t
 workspaceID
 )
 ;
+CGFloat
+ComputeBackingScaleFactor
+(
+)
+const
+;
 void
 DoResize
 (
