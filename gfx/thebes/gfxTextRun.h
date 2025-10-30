@@ -801,7 +801,7 @@ Spacing
 Spacing
 ;
 virtual
-void
+bool
 GetSpacing
 (
 Range

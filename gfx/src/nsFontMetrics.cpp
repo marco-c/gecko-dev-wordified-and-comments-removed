@@ -627,7 +627,7 @@ return
 60
 ;
 }
-void
+bool
 GetSpacing
 (
 gfxTextRun
@@ -658,6 +658,9 @@ enable
 spacing
 "
 )
+;
+return
+false
 ;
 }
 gfx
