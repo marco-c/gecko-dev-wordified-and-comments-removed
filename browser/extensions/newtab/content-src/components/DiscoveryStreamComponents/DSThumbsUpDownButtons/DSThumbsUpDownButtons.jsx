@@ -73,6 +73,7 @@ onThumbsDownClick
 isThumbsUpActive
 isThumbsDownActive
 refinedCardsLayout
+tabIndex
 }
 )
 {
@@ -134,6 +135,11 @@ up
 -
 tooltip
 "
+tabIndex
+=
+{
+tabIndex
+}
 >
 <
 /
@@ -191,6 +197,11 @@ down
 -
 tooltip
 "
+tabIndex
+=
+{
+tabIndex
+}
 >
 <
 /
@@ -295,6 +306,11 @@ type
 icon
 ghost
 "
+tabIndex
+=
+{
+tabIndex
+}
 >
 <
 /
@@ -383,6 +399,11 @@ type
 icon
 ghost
 "
+tabIndex
+=
+{
+tabIndex
+}
 >
 <
 /

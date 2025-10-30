@@ -350,6 +350,15 @@ props
 .
 onMenuUpdate
 }
+tabIndex
+=
+{
+this
+.
+props
+.
+tabIndex
+}
 >
 <
 LinkMenu
