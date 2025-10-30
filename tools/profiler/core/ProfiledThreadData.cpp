@@ -708,6 +708,7 @@ JIT
 info
 "
 )
+aSourceIdToIndexMap
 )
 ;
 }
