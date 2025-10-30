@@ -521,9 +521,9 @@ GetInstance
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 staticSink
 ;
 }

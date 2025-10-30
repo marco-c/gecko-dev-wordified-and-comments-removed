@@ -373,9 +373,9 @@ ipc
 IPCStream
 ipcStream
 ;
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 !

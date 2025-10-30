@@ -253,9 +253,9 @@ if
 httpChannel
 )
 {
-Unused
-<
-<
+(
+void
+)
 httpChannel
 -
 >

@@ -567,16 +567,13 @@ return
 NS_ERROR_FAILURE
 ;
 }
-Unused
-<
-<
 self
 .
 forget
 (
 )
 .
-take
+leak
 (
 )
 ;

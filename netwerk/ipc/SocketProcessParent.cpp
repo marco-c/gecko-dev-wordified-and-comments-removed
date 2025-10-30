@@ -1356,9 +1356,9 @@ MOZ_ASSERT
 activityDistributor
 )
 ;
-Unused
-<
-<
+(
+void
+)
 activityDistributor
 -
 >

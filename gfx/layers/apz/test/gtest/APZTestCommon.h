@@ -3857,9 +3857,9 @@ stepVector
 *
 k
 ;
-Unused
-<
-<
+(
+void
+)
 TouchMove
 (
 aTarget
@@ -5099,9 +5099,9 @@ stepPoint2
 )
 )
 ;
-Unused
-<
-<
+(
+void
+)
 aTarget
 -
 >

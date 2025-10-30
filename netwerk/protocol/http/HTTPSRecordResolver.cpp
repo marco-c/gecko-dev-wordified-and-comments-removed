@@ -646,9 +646,9 @@ if
 mAddrRecord
 )
 {
-Unused
-<
-<
+(
+void
+)
 mAddrRecord
 -
 >
@@ -813,9 +813,9 @@ nsICancelable
 >
 tmpOutstanding
 ;
-Unused
-<
-<
+(
+void
+)
 dns
 -
 >

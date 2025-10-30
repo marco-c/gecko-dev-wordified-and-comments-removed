@@ -4832,9 +4832,9 @@ rval
 cx
 )
 ;
-Unused
-<
-<
+(
+void
+)
 JS_ExecuteScript
 (
 cx

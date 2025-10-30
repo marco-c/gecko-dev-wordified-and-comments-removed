@@ -3748,9 +3748,9 @@ mOffset
 animationProperty
 )
 {
-Unused
-<
-<
+(
+void
+)
 HandleMissingInitialKeyframe
 (
 aResult

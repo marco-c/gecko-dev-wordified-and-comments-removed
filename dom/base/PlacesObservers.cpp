@@ -2080,9 +2080,9 @@ XPConnect
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 xpc
 -
 >

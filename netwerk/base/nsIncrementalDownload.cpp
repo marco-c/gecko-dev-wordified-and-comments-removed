@@ -2722,9 +2722,9 @@ rv
 return
 rv
 ;
-Unused
-<
-<
+(
+void
+)
 http
 -
 >
@@ -3862,9 +3862,9 @@ rv
 nsAutoCString
 rangeVal
 ;
-Unused
-<
-<
+(
+void
+)
 http
 -
 >

@@ -1668,9 +1668,9 @@ PreTraverseSync
 (
 )
 {
-Unused
-<
-<
+(
+void
+)
 mDocument
 -
 >

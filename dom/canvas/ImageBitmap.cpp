@@ -514,9 +514,9 @@ MOZ_ASSERT
 mTarget
 )
 ;
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 NS_FAILED

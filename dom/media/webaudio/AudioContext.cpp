@@ -4752,9 +4752,9 @@ GetSingleton
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 contentChild
 -
 >
@@ -6516,9 +6516,9 @@ aName
 )
 )
 ;
-Unused
-<
-<
+(
+void
+)
 mWorkletParamDescriptors
 .
 InsertOrUpdate

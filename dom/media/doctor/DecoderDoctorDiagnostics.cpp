@@ -2164,9 +2164,9 @@ media_decoder_doctor_testing
 )
 )
 {
-Unused
-<
-<
+(
+void
+)
 nsContentUtils
 :
 :

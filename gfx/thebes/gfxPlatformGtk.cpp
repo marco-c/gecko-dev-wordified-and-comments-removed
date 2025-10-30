@@ -1359,9 +1359,9 @@ failureId
 )
 ;
 }
-Unused
-<
-<
+(
+void
+)
 GetGlobalDMABufFormats
 (
 )

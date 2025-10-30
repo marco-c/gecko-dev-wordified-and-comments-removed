@@ -5647,9 +5647,9 @@ rv
 nsAutoCString
 uriStr
 ;
-Unused
-<
-<
+(
+void
+)
 aTargetURI
 -
 >
@@ -5677,9 +5677,9 @@ uriStr
 nsAutoCString
 principalStr
 ;
-Unused
-<
-<
+(
+void
+)
 aPrincipal
 -
 >

@@ -1505,9 +1505,9 @@ AssertOnManagerThread
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 SendSetSeekThreshold
 (
 aTime

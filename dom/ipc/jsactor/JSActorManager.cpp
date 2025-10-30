@@ -884,9 +884,9 @@ MakeScopeExit
 &
 ]
 {
-Unused
-<
-<
+(
+void
+)
 error
 .
 MaybeSetPendingException

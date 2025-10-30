@@ -213,9 +213,9 @@ UnbindFromTree
 aContext
 )
 ;
-Unused
-<
-<
+(
+void
+)
 UpdateStyleSheetInternal
 (
 oldDoc
@@ -260,9 +260,9 @@ Failed
 )
 )
 {
-Unused
-<
-<
+(
+void
+)
 UpdateStyleSheetInternal
 (
 nullptr

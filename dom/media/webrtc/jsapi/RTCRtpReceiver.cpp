@@ -5850,9 +5850,9 @@ jsepCodec
 codec
 )
 ;
-Unused
-<
-<
+(
+void
+)
 mParameters
 .
 mCodecs
@@ -5918,9 +5918,9 @@ videoJsepCodec
 rtx
 )
 ;
-Unused
-<
-<
+(
+void
+)
 mParameters
 .
 mCodecs

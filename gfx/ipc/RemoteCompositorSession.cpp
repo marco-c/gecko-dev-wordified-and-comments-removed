@@ -79,15 +79,6 @@ h
 #
 include
 "
-mozilla
-/
-Unused
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h

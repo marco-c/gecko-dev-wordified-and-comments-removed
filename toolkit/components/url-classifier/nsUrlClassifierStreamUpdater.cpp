@@ -4392,12 +4392,9 @@ if
 mChannel
 )
 {
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 mChannel
 -
 >

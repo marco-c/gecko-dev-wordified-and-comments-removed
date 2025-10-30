@@ -1583,9 +1583,9 @@ Initialize
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 BrowserTabsRemoteAutostart
 (
 )

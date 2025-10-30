@@ -228,9 +228,9 @@ true
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 clearOnShutdownSetup
 ;
 }

@@ -1054,9 +1054,9 @@ GetTopWindowContext
 )
 )
 {
-Unused
-<
-<
+(
+void
+)
 bc
 -
 >

@@ -772,9 +772,9 @@ aInitDataSize
 )
 )
 ;
-Unused
-<
-<
+(
+void
+)
 RetrieveSessionId
 (
 )

@@ -580,11 +580,6 @@ UniquePtrExtensions
 h
 "
 "
-Unused
-.
-h
-"
-"
 Utf8
 .
 h
@@ -948,11 +943,6 @@ cpp
 "
 "
 UniquePtrExtensions
-.
-cpp
-"
-"
-Unused
 .
 cpp
 "

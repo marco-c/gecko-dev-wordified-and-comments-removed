@@ -8028,9 +8028,9 @@ EnsureInit
 (
 )
 {
-Unused
-<
-<
+(
+void
+)
 nsXPLookAndFeel
 :
 :

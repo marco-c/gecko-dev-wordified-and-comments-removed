@@ -133,9 +133,9 @@ ClearAndRetainStorage
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 mItems
 .
 AppendElements

@@ -670,12 +670,9 @@ erase
 aId
 )
 ;
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 removed
 ;
 MOZ_DIAGNOSTIC_ASSERT

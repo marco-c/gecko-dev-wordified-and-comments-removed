@@ -790,9 +790,9 @@ if
 httpChannel
 )
 {
-Unused
-<
-<
+(
+void
+)
 httpChannel
 -
 >
@@ -804,9 +804,9 @@ NS_ERROR_FINGERPRINTING_URI
 }
 else
 {
-Unused
-<
-<
+(
+void
+)
 aChannel
 -
 >

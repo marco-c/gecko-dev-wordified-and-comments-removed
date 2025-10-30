@@ -3187,9 +3187,9 @@ if
 mShutdown
 )
 {
-Unused
-<
-<
+(
+void
+)
 SendAckMutationEvents
 (
 )

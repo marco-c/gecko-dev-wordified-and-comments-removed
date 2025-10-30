@@ -257,9 +257,9 @@ uint8_t
 mStringBufferSize
 )
 ;
-Unused
-<
-<
+(
+void
+)
 mArray
 .
 resize

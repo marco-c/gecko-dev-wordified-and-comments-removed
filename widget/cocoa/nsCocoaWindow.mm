@@ -3965,9 +3965,9 @@ XRE_IsParentProcess
 )
 )
 ;
-Unused
-<
-<
+(
+void
+)
 gfxPlatform
 :
 :

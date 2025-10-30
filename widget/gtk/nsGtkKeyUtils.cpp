@@ -1802,11 +1802,11 @@ InitBySystemSettingsWayland
 (
 )
 {
-MOZ_UNUSED
 (
+void
+)
 WaylandDisplayGet
 (
-)
 )
 ;
 }

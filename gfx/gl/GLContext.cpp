@@ -17173,9 +17173,9 @@ if
 foundPath
 )
 {
-Unused
-<
-<
+(
+void
+)
 dlopen
 (
 foundPath

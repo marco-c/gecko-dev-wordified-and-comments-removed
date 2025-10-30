@@ -119,9 +119,9 @@ ClearAndRetainStorage
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 mNumbers
 .
 AppendElements
