@@ -4198,6 +4198,11 @@ async_packet_socket_unittest
 "
 rtc_base
 :
+async_tcp_socket_unittest
+"
+"
+rtc_base
+:
 async_udp_socket_unittest
 "
 "
