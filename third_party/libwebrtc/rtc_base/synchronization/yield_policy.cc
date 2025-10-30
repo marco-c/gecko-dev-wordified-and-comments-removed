@@ -32,15 +32,6 @@ config
 h
 "
 #
-include
-"
-rtc_base
-/
-checks
-.
-h
-"
-#
 if
 !
 defined
