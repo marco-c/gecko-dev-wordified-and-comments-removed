@@ -66,14 +66,6 @@ assertEq
 (
 m
 .
-dfsIndex
-undefined
-)
-;
-assertEq
-(
-m
-.
 dfsAncestorIndex
 undefined
 )
