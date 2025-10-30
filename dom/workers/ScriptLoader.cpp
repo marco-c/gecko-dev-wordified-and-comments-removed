@@ -3325,7 +3325,6 @@ ScriptKind
 :
 eClassic
 uri
-referrerPolicy
 fetchOptions
 SRIMetadata
 (
@@ -3392,7 +3391,6 @@ ModuleType
 :
 :
 JavaScript
-referrerPolicy
 fetchOptions
 SRIMetadata
 (

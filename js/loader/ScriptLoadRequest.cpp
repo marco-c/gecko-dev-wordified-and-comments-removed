@@ -303,14 +303,6 @@ aKind
 nsIURI
 *
 aURI
-mozilla
-:
-:
-dom
-:
-:
-ReferrerPolicy
-aReferrerPolicy
 ScriptFetchOptions
 *
 aFetchOptions
@@ -344,10 +336,6 @@ false
 mHasSourceMapURL_
 (
 false
-)
-mReferrerPolicy
-(
-aReferrerPolicy
 )
 mFetchOptions
 (
@@ -975,14 +963,6 @@ MOZ_ASSERT
 mURI
 )
 ;
-MOZ_ASSERT
-(
-mReferrerPolicy
-=
-=
-aReferrerPolicy
-)
-;
 switch
 (
 mKind
@@ -999,7 +979,7 @@ mLoadedScript
 new
 ClassicScript
 (
-mReferrerPolicy
+aReferrerPolicy
 mFetchOptions
 mURI
 )
@@ -1017,7 +997,7 @@ mLoadedScript
 new
 ImportMapScript
 (
-mReferrerPolicy
+aReferrerPolicy
 mFetchOptions
 mURI
 )
@@ -1035,7 +1015,7 @@ mLoadedScript
 new
 ModuleScript
 (
-mReferrerPolicy
+aReferrerPolicy
 mFetchOptions
 mURI
 )
