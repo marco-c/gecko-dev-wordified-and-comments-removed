@@ -303,7 +303,7 @@ ast
 ident
 ;
 let
-variant_attrs
+css_variant_attrs
 =
 cg
 :
@@ -320,7 +320,7 @@ ast
 )
 ;
 if
-variant_attrs
+css_variant_attrs
 .
 skip
 {
@@ -335,7 +335,7 @@ None
 assert
 !
 (
-variant_attrs
+css_variant_attrs
 .
 keyword
 .

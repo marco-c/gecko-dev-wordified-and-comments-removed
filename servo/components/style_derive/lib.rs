@@ -539,6 +539,10 @@ into
 proc_macro_derive
 (
 ToTyped
+attributes
+(
+css
+)
 )
 ]
 pub
