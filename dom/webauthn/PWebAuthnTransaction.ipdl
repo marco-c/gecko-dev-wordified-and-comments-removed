@@ -620,6 +620,11 @@ AuthenticatorSelection
 nsString
 attestationConveyancePreference
 ;
+nsString
+[
+]
+Hints
+;
 }
 ;
 struct
@@ -696,6 +701,11 @@ userVerificationRequirement
 ;
 bool
 ConditionallyMediated
+;
+nsString
+[
+]
+Hints
 ;
 }
 ;

@@ -1997,6 +1997,9 @@ coseAlgos
 extensions
 authSelection
 attestation
+aOptions
+.
+mHints
 )
 ;
 AbortSignal
@@ -3595,6 +3598,9 @@ aOptions
 .
 mUserVerification
 aConditionallyMediated
+aOptions
+.
+mHints
 )
 ;
 AbortSignal
