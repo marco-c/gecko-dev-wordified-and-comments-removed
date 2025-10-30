@@ -170,12 +170,6 @@ socklen_t
 elif
 defined
 (
-HPUX
-)
-|
-|
-defined
-(
 SOLARIS
 )
 |
