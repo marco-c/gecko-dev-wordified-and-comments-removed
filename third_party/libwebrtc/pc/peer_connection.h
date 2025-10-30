@@ -2960,6 +2960,11 @@ signaling_thread
 void
 OnIceCandidatesRemoved
 (
+absl
+:
+:
+string_view
+mid
 const
 std
 :
@@ -3210,6 +3215,11 @@ signaling_thread
 void
 OnTransportControllerCandidatesRemoved
 (
+absl
+:
+:
+string_view
+mid
 const
 std
 :

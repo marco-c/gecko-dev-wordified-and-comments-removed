@@ -1482,6 +1482,8 @@ network_thread_
 ;
 CallbackList
 <
+IceTransportInternal
+*
 const
 std
 :
