@@ -7,9 +7,7 @@ DOM_COMPRESSION_STREAM_HELPER_H_
 #
 include
 "
-js
-/
-TypeDecls
+BaseAlgorithms
 .
 h
 "
@@ -40,16 +38,6 @@ dom
 :
 compression
 {
-enum
-class
-Flush
-:
-bool
-{
-No
-Yes
-}
-;
 inline
 uint8_t
 intoZLibFlush
