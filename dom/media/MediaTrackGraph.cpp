@@ -18193,7 +18193,6 @@ OfflineClockDriver
 (
 this
 mSampleRate
-MEDIA_GRAPH_TARGET_PERIOD_MS
 )
 ;
 }

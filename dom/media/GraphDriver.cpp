@@ -1459,8 +1459,6 @@ GraphInterface
 aGraphInterface
 uint32_t
 aSampleRate
-GraphTime
-aSlice
 )
 :
 ThreadedDriver
@@ -1468,10 +1466,6 @@ ThreadedDriver
 aGraphInterface
 nullptr
 aSampleRate
-)
-mSlice
-(
-aSlice
 )
 {
 }
@@ -1549,7 +1543,7 @@ RoundUpToEndOfAudioBlock
 (
 MillisecondsToMediaTime
 (
-mSlice
+MEDIA_GRAPH_TARGET_PERIOD_MS
 )
 )
 ;

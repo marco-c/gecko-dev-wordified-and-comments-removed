@@ -1634,8 +1634,6 @@ GraphInterface
 aGraphInterface
 uint32_t
 aSampleRate
-GraphTime
-aSlice
 )
 ;
 virtual
@@ -1693,11 +1691,6 @@ GetIntervalForIteration
 (
 )
 override
-;
-private
-:
-GraphTime
-mSlice
 ;
 }
 ;
