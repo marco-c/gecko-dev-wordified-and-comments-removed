@@ -34,17 +34,6 @@ h
 #
 include
 "
-test
-/
-testsupport
-/
-file_utils
-.
-h
-"
-#
-include
-"
 video
 /
 corruption_detection

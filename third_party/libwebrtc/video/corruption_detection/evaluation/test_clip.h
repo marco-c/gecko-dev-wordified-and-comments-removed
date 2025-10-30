@@ -31,17 +31,6 @@ video_codec
 .
 h
 "
-#
-include
-"
-test
-/
-testsupport
-/
-file_utils
-.
-h
-"
 namespace
 webrtc
 {

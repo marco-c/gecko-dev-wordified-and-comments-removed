@@ -7,6 +7,11 @@ EXAMPLES_PEERCONNECTION_CLIENT_PEER_CONNECTION_CLIENT_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 map
 >
 #
@@ -44,7 +49,7 @@ include
 "
 rtc_base
 /
-net_helpers
+socket
 .
 h
 "
@@ -53,7 +58,7 @@ include
 "
 rtc_base
 /
-physical_socket_server
+socket_address
 .
 h
 "

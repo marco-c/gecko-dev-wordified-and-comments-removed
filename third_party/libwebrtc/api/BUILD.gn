@@ -2517,6 +2517,14 @@ scoped_refptr
 /
 rtc_base
 :
+checks
+"
+"
+.
+.
+/
+rtc_base
+:
 refcount
 "
 "

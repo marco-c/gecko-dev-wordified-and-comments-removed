@@ -14,9 +14,7 @@ h
 #
 include
 <
-stddef
-.
-h
+cstddef
 >
 #
 include
@@ -93,6 +91,15 @@ include
 api
 /
 audio_options
+.
+h
+"
+#
+include
+"
+api
+/
+create_modular_peer_connection_factory
 .
 h
 "
