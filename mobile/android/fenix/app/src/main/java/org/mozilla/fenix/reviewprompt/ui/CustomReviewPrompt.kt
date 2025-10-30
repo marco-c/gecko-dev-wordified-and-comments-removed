@@ -798,7 +798,7 @@ FirefoxTheme
 .
 colors
 .
-layer3
+layer2
 )
 {
 Box
