@@ -189,6 +189,9 @@ p
 Accessible
 "
 "
+Action
+"
+"
 Collection
 "
 "
@@ -252,6 +255,9 @@ range_input
 [
 "
 Accessible
+"
+"
+Action
 "
 "
 Collection
