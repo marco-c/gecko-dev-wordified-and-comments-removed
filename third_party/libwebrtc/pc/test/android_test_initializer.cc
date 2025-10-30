@@ -12,6 +12,15 @@ h
 #
 include
 <
+bits
+/
+pthread_types
+.
+h
+>
+#
+include
+<
 jni
 .
 h
