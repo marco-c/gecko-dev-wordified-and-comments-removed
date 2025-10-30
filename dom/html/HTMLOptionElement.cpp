@@ -1137,6 +1137,7 @@ HTMLOptionElement
 GetSelect
 (
 )
+const
 {
 nsIContent
 *

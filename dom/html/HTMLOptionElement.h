@@ -527,6 +527,13 @@ Index
 (
 )
 ;
+HTMLSelectElement
+*
+GetSelect
+(
+)
+const
+;
 protected
 :
 virtual
@@ -552,12 +559,6 @@ JSObject
 aGivenProto
 )
 override
-;
-HTMLSelectElement
-*
-GetSelect
-(
-)
 ;
 bool
 mSelectedChanged
