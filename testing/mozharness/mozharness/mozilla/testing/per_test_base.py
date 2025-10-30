@@ -12,6 +12,12 @@ import
 sys
 import
 mozinfo
+from
+mozinfo
+.
+platforminfo
+import
+android_api_to_os_version
 class
 SingleTestMixin
 :
@@ -2529,7 +2535,7 @@ get
 "
 android_version
 "
-24
+34
 )
 )
 }
@@ -2547,10 +2553,6 @@ update
 os_version
 "
 :
-mozinfo
-.
-platforminfo
-.
 android_api_to_os_version
 (
                         
@@ -2563,7 +2565,7 @@ get
 "
 android_version
 "
-24
+34
 )
                     
 )
