@@ -1055,9 +1055,6 @@ hw_output_latency_
 int
 last_hw_output_latency_update_sample_count_
 ;
-double
-machTickUnitsToNanoseconds_
-;
 }
 ;
 }
