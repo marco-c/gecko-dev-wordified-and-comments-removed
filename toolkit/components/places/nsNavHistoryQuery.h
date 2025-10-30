@@ -5,15 +5,6 @@ nsNavHistoryQuery_h_
 define
 nsNavHistoryQuery_h_
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 define
 NS_NAVHISTORYQUERY_IID
 \

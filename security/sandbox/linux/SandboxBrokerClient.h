@@ -22,15 +22,6 @@ SandboxBrokerUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 struct
 stat
 ;

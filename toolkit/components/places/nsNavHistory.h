@@ -102,15 +102,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 intl
 /
 Collator

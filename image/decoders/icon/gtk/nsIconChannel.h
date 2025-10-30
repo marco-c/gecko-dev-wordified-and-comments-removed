@@ -7,15 +7,6 @@ mozilla_image_decoders_icon_gtk_nsIconChannel_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIChannel
 .
 h

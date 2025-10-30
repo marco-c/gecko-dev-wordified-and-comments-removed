@@ -25,15 +25,6 @@ nsTHashMap
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsIVariant
 ;

@@ -12,15 +12,6 @@ nsIContentSniffer
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 define
 NS_MEDIA_SNIFFER_CID
 \

@@ -39,15 +39,6 @@ nsTArray
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 struct
 AutoCompleteSimpleResultMatch
 {

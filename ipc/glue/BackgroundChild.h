@@ -4,15 +4,6 @@ mozilla_ipc_backgroundchild_h__
 #
 define
 mozilla_ipc_backgroundchild_h__
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsIEventTarget
 ;

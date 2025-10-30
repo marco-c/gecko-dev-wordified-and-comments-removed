@@ -22,15 +22,6 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 sqlite3
 .
 h

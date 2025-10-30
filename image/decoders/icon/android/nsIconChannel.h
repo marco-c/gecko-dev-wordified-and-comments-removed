@@ -7,15 +7,6 @@ mozilla_image_decoders_icon_android_nsIconChannel_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIChannel
 .
 h

@@ -26,15 +26,6 @@ nsString
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 define
 GSS_USE_FUNCTION_POINTERS
 1

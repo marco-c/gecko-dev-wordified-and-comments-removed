@@ -47,15 +47,6 @@ nsCOMArray
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 ifdef
 MOZ_BACKGROUNDTASKS
 #

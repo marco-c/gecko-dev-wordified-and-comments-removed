@@ -33,15 +33,6 @@ zlib
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 define
 DEFLATECONVERTER_CID
 \

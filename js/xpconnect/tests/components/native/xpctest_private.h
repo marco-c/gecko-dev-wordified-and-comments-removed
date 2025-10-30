@@ -51,15 +51,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ModuleUtils
 .
 h

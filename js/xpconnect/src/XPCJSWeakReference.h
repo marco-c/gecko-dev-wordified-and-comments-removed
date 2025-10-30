@@ -18,15 +18,6 @@ nsIWeakReferenceUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 xpcJSWeakReference
 final

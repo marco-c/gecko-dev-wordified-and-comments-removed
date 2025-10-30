@@ -10,6 +10,15 @@ mozalloc_abort
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 static
 void
 __cdecl

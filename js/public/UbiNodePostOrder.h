@@ -6,15 +6,6 @@ define
 js_UbiNodePostOrder_h
 #
 include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
 <
 utility
 >

@@ -42,15 +42,6 @@ nsDataObj
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 define
 MULTI_MIME
 "

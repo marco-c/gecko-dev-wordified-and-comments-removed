@@ -40,15 +40,6 @@ nsIAppShell
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 if
 defined
 (

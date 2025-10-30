@@ -11,15 +11,6 @@ mozIStorageFunction
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 mozIStorageConnection
 ;

@@ -39,15 +39,6 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 xptinfo
 .
 h

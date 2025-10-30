@@ -5,15 +5,6 @@ nsZipArchive_h_
 define
 nsZipArchive_h_
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 define
 ZIP_TABSIZE
 256

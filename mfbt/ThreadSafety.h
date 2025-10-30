@@ -5,15 +5,6 @@ mozilla_ThreadSafety_h
 define
 mozilla_ThreadSafety_h
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 if
 defined
 (

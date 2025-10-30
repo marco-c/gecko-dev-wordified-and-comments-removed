@@ -63,15 +63,6 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIStreamListener
 .
 h

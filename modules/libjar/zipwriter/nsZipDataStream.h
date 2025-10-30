@@ -25,15 +25,6 @@ nsIStreamListener
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsZipDataStream
 final

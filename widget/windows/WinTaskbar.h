@@ -38,15 +38,6 @@ nsIWinTaskbar
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 namespace
 mozilla
 {

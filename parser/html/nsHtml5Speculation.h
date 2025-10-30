@@ -44,15 +44,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtr
 .
 h

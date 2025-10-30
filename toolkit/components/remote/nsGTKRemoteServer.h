@@ -45,15 +45,6 @@ nsXRemoteServer
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsGTKRemoteServer
 final

@@ -270,15 +270,6 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIHttpChannel
 .
 h

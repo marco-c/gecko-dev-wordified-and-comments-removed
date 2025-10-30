@@ -7,15 +7,6 @@ mozilla_ipc_Shmem_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 base
 /
 basictypes

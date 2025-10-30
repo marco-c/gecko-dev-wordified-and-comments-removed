@@ -7,15 +7,6 @@ js_friend_MicroTask_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h

@@ -7,15 +7,6 @@ js_GlobalObject_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h
