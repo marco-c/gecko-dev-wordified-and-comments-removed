@@ -315,7 +315,7 @@ INACTIVE_1_DAY
 :
 "
 '
-app_launched
+app_opened
 '
 |
 eventLastSeen
@@ -332,7 +332,7 @@ INACTIVE_2_DAYS
 :
 "
 '
-app_launched
+app_opened
 '
 |
 eventLastSeen
@@ -350,7 +350,7 @@ INACTIVE_3_DAYS
 :
 "
 '
-app_launched
+app_opened
 '
 |
 eventLastSeen
@@ -368,7 +368,7 @@ INACTIVE_4_DAYS
 :
 "
 '
-app_launched
+app_opened
 '
 |
 eventLastSeen
@@ -386,7 +386,7 @@ INACTIVE_5_DAYS
 :
 "
 '
-app_launched
+app_opened
 '
 |
 eventLastSeen
@@ -585,7 +585,7 @@ USER_INFREQUENT
 :
 "
 '
-app_launched
+app_opened
 '
 |
 eventCountNonZero
@@ -601,7 +601,7 @@ Days
 &
 &
 '
-app_launched
+app_opened
 '
 |
 eventCountNonZero
@@ -618,7 +618,7 @@ USER_CASUAL
 :
 "
 '
-app_launched
+app_opened
 '
 |
 eventCountNonZero
@@ -634,7 +634,7 @@ Days
 &
 &
 '
-app_launched
+app_opened
 '
 |
 eventCountNonZero
@@ -651,7 +651,7 @@ USER_REGULAR
 :
 "
 '
-app_launched
+app_opened
 '
 |
 eventCountNonZero
@@ -667,7 +667,7 @@ Days
 &
 &
 '
-app_launched
+app_opened
 '
 |
 eventCountNonZero
@@ -684,7 +684,7 @@ USER_CORE_ACTIVE
 :
 "
 '
-app_launched
+app_opened
 '
 |
 eventCountNonZero
@@ -702,7 +702,7 @@ LAUNCHED_ONCE_THIS_WEEK
 :
 "
 '
-app_launched
+app_opened
 '
 |
 eventSum
