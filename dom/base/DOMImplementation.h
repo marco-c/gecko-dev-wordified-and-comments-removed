@@ -7,15 +7,6 @@ mozilla_dom_DOMImplementation_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

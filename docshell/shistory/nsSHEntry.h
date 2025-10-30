@@ -39,15 +39,6 @@ nsWeakReference
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsSHEntryShared
 ;

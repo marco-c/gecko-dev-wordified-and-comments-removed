@@ -37,15 +37,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 a11y
 /
 RemoteAccessible

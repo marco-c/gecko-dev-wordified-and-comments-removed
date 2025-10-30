@@ -45,15 +45,6 @@ policy
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIContentPolicy
 .
 h

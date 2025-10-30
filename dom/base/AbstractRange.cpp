@@ -23,15 +23,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 RangeUtils
 .
 h

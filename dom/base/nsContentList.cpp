@@ -38,15 +38,6 @@ include
 "
 mozilla
 /
-Likely
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MruCache
 .
 h
