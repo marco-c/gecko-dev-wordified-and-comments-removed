@@ -6355,12 +6355,16 @@ gtest_list_tests
 "
 )
     
-if
+is_debugging
+=
 debug
 or
 debugger
 or
 debugger_args
+    
+if
+is_debugging
 :
         
 args
@@ -6695,7 +6699,7 @@ return
 if
 list_tests
 or
-debug
+is_debugging
 or
 (
 combine_suites
