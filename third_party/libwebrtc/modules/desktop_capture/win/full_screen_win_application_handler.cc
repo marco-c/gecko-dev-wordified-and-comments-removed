@@ -154,7 +154,7 @@ WebRTC
 .
 Screenshare
 .
-FullscreenDetectorResult
+FullScreenDetectorResult
 "
 static_cast
 <
