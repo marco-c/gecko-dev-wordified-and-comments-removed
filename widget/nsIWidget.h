@@ -3896,7 +3896,7 @@ aEnable
 )
 {
 }
-nsresult
+void
 AsyncEnableDragDrop
 (
 bool
