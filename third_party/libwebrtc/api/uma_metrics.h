@@ -316,6 +316,9 @@ kIceOptionsRenomination
 kDirection
 =
 29
+kRtcpMux
+=
+30
 kRtpHeaderExtensionRemoved
 =
 40
@@ -364,6 +367,9 @@ kAudioCodecsRtcpFb
 kAudioCodecsRtcpFbRrtr
 =
 72
+kAudioCodecsRtcpReducedSize
+=
+73
 kVideoCodecsRemoved
 =
 80
@@ -391,6 +397,9 @@ kVideoCodecsAddedWithRawPacketization
 kVideoCodecsModifiedWithRawPacketization
 =
 88
+kVideoCodecsRtcpReducedSize
+=
+89
 kMaxValue
 }
 ;
