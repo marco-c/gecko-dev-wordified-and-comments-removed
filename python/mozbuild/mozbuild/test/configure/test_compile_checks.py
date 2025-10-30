@@ -285,6 +285,13 @@ dedent
 "
 \
             
+moz_automation
+=
+dependable
+(
+False
+)
+            
 depends
 (
 when
