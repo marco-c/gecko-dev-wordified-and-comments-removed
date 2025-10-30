@@ -711,16 +711,6 @@ visibility
 *
 "
 ]
-if
-(
-!
-is_ios
-&
-&
-!
-is_android
-)
-{
 #
 Internally
 webrtc
@@ -758,7 +748,6 @@ poisonous
 environment_construction
 "
 ]
-}
 sources
 =
 [
