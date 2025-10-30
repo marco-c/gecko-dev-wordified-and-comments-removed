@@ -297,6 +297,13 @@ toolkit
 .
 telemetry
 .
+cachedClientID
+"
+"
+toolkit
+.
+telemetry
+.
 cachedProfileGroupID
 "
 PROFILE_RESTORATION_DATE_PREF

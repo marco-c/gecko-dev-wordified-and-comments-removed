@@ -267,6 +267,13 @@ js
 ]
 [
 "
+test_BackupService_recoverFromSnapshotFolderIntoSelectableProfile
+.
+js
+"
+]
+[
+"
 test_BackupService_regeneration
 .
 js

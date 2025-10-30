@@ -114,6 +114,13 @@ on
 Mac
 [
 "
+test_copy_profile
+.
+js
+"
+]
+[
+"
 test_create_profile
 .
 js
