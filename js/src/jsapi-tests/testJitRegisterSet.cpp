@@ -1070,6 +1070,9 @@ bits
 ;
 }
 }
+#
+ifndef
+JS_CODEGEN_MIPS64
 BEGIN_TEST
 (
 testJitRegisterSet_FPU_Aliases
@@ -1244,3 +1247,5 @@ END_TEST
 (
 testJitRegisterSet_FPU_Aliases
 )
+#
+endif
