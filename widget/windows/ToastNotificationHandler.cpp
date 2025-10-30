@@ -81,15 +81,6 @@ include
 "
 mozilla
 /
-HashFunctions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 JSONStringWriteFuncs
 .
 h
