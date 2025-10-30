@@ -694,6 +694,17 @@ size_t
 size_bytes
 )
 ;
+void
+SetPayload
+(
+ArrayView
+<
+const
+uint8_t
+>
+payload
+)
+;
 bool
 SetPadding
 (
