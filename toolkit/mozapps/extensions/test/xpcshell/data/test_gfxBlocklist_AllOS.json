@@ -65,7 +65,7 @@ feature
 "
 :
 "
-DIRECT2D
+DX_NV12
 "
 "
 featureStatus
@@ -1125,7 +1125,7 @@ feature
 "
 :
 "
-DIRECT2D
+DX_NV12
 "
 "
 featureStatus
@@ -2199,7 +2199,7 @@ feature
 "
 :
 "
-DIRECT2D
+DX_NV12
 "
 "
 featureStatus
@@ -3258,7 +3258,7 @@ feature
 "
 :
 "
-DIRECT2D
+DX_NV12
 "
 "
 featureStatus

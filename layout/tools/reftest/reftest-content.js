@@ -6340,14 +6340,6 @@ try
 {
 info
 .
-D2DEnabled
-=
-gfxInfo
-.
-D2DEnabled
-;
-info
-.
 DWriteEnabled
 =
 gfxInfo
@@ -6368,12 +6360,6 @@ catch
 e
 )
 {
-info
-.
-D2DEnabled
-=
-false
-;
 info
 .
 DWriteEnabled

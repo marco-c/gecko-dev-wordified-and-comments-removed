@@ -2012,16 +2012,6 @@ failure
 gfx
 :
 {
-D2DEnabled
-:
-<
-bool
->
-/
-/
-null
-on
-failure
 DWriteEnabled
 :
 <

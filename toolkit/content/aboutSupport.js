@@ -4316,15 +4316,6 @@ h264
 ]
 [
 "
-direct2DEnabled
-"
-"
-#
-Direct2D
-"
-]
-[
-"
 windowProtocol
 "
 "

@@ -60,15 +60,6 @@ GfxInfo
 )
 ;
 NS_IMETHOD
-GetD2DEnabled
-(
-bool
-*
-aD2DEnabled
-)
-override
-;
-NS_IMETHOD
 GetDWriteEnabled
 (
 bool

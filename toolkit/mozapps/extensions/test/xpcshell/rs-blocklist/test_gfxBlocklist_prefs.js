@@ -274,7 +274,7 @@ gfxInfo
 getFeatureStatusStr
 (
 "
-DIRECT2D
+DX_NV12
 "
 )
 ;
@@ -324,7 +324,7 @@ gfx
 .
 blacklist
 .
-direct2d
+dx_nv12
 "
 )
 "
@@ -394,7 +394,7 @@ devices
 feature
 :
 "
-DIRECT2D
+DX_NV12
 "
 featureStatus
 :
@@ -500,7 +500,7 @@ gfxInfo
 getFeatureStatusStr
 (
 "
-DIRECT2D
+DX_NV12
 "
 )
 ;
@@ -553,7 +553,7 @@ gfx
 .
 blacklist
 .
-direct2d
+dx_nv12
 "
 )
 ;

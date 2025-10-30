@@ -92,15 +92,6 @@ Compositing
 \
 _
 (
-DIRECT2D
-Feature
-"
-Direct2D
-"
-)
-\
-_
-(
 D3D11_HW_ANGLE
 Feature
 "

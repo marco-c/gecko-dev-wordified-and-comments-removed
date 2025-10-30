@@ -5,7 +5,7 @@ gfx
 .
 blacklist
 .
-direct2d
+dx_nv12
 "
 1
 )

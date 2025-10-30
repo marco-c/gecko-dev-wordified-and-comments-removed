@@ -215,7 +215,7 @@ gfxInfo
 getFeatureStatusStr
 (
 "
-DIRECT2D
+DX_NV12
 "
 )
 ;

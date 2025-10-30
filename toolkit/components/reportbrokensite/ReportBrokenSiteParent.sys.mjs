@@ -787,14 +787,6 @@ return
 clean
 (
 {
-direct2DEnabled
-:
-get
-(
-"
-direct2DEnabled
-"
-)
 directWriteEnabled
 :
 get

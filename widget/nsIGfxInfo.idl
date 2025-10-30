@@ -147,11 +147,6 @@ specific
 readonly
 attribute
 boolean
-D2DEnabled
-;
-readonly
-attribute
-boolean
 DWriteEnabled
 ;
 readonly
@@ -696,7 +691,7 @@ OPTIONAL
 /
 FEATURE_START
 =
-FEATURE_DIRECT2D
+FEATURE_DIRECT3D_9_LAYERS
 }
 ;
 /
