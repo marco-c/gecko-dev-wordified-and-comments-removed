@@ -455,13 +455,10 @@ malloc_initialized
 ;
 #
 endif
+MOZ_CONSTINIT
 StaticMutex
 gInitLock
 MOZ_UNANNOTATED
-=
-{
-STATIC_MUTEX_INIT
-}
 ;
 struct
 arena_stats_t
