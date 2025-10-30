@@ -22,6 +22,10 @@ import
 json
 import
 datetime
+from
+datetime
+import
+timezone
 import
 base64
 import
@@ -806,8 +810,11 @@ datetime
 .
 datetime
 .
-utcnow
+now
 (
+timezone
+.
+utc
 )
     
 return
@@ -882,7 +889,7 @@ When
 using
 the
 default
-seperators
+separators
     
 base64
 encoding
@@ -1853,7 +1860,7 @@ retries
                 
 log
 .
-warn
+warning
 (
 '
 Retrying
@@ -2016,7 +2023,7 @@ headers
 headers
 allow_redirects
 =
-False
+True
 )
     
 log

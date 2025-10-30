@@ -313,7 +313,7 @@ rerr
                 
 log
 .
-warn
+warning
 (
 '
 ValueError
@@ -341,7 +341,7 @@ rerr
                 
 log
 .
-warn
+warning
 (
 '
 RuntimeError
@@ -385,7 +385,7 @@ retries
                     
 log
 .
-warn
+warning
 (
 '
 Retrying

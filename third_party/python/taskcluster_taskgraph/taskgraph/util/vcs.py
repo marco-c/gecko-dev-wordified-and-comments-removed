@@ -18,7 +18,6 @@ which
 from
 typing
 import
-List
 Optional
 from
 taskgraph
@@ -292,6 +291,35 @@ property
 abstractmethod
     
 def
+is_shallow
+(
+self
+)
+-
+>
+str
+:
+        
+"
+"
+"
+Whether
+this
+repo
+is
+a
+shallow
+clone
+.
+"
+"
+"
+    
+property
+    
+abstractmethod
+    
+def
 head_rev
 (
 self
@@ -389,7 +417,7 @@ self
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -750,7 +778,7 @@ None
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -835,7 +863,7 @@ Optional
 str
 ]
         
-base_rev
+base
 :
 Optional
 [
@@ -845,7 +873,7 @@ str
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -890,7 +918,7 @@ between
 2
 revisions
 (
-base_rev
+base
 and
 rev
 )
@@ -1007,7 +1035,7 @@ being
 used
 .
         
-base_rev
+base
 specifies
 the
 range
@@ -1030,7 +1058,7 @@ rev
 but
 excludes
         
-base_rev
+base
 .
         
 "
@@ -1052,7 +1080,7 @@ str
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -1431,6 +1459,18 @@ HGPLAIN
 "
 1
 "
+    
+property
+    
+def
+is_shallow
+(
+self
+)
+:
+        
+return
+False
     
 property
     
@@ -1974,7 +2014,7 @@ None
 rev
 =
 None
-base_rev
+base
 =
 None
 )
@@ -1995,7 +2035,7 @@ None
 :
             
 if
-base_rev
+base
 is
 not
 None
@@ -2007,7 +2047,7 @@ ValueError
 "
 Cannot
 specify
-base_rev
+base
 without
 rev
 "
@@ -2069,7 +2109,7 @@ revision_argument
 =
 rev
 if
-base_rev
+base
 is
 None
 else
@@ -2080,7 +2120,7 @@ rev
 }
 %
 {
-base_rev
+base
 }
 "
             
@@ -2533,6 +2573,45 @@ s
 HEAD
 "
 )
+    
+property
+    
+def
+is_shallow
+(
+self
+)
+:
+        
+return
+self
+.
+run
+(
+"
+rev
+-
+parse
+"
+"
+-
+-
+is
+-
+shallow
+-
+repository
+"
+)
+.
+strip
+(
+)
+=
+=
+"
+true
+"
     
 property
     
@@ -3306,7 +3385,7 @@ None
 rev
 =
 None
-base_rev
+base
 =
 None
 )
@@ -3353,7 +3432,7 @@ None
 :
             
 if
-base_rev
+base
 is
 not
 None
@@ -3365,7 +3444,7 @@ ValueError
 "
 Cannot
 specify
-base_rev
+base
 without
 rev
 "
@@ -3417,13 +3496,27 @@ HEAD
 "
 )
         
+elif
+self
+.
+is_shallow
+:
+            
+cmd
+=
+[
+"
+diff
+"
+base
+rev
+]
+        
 else
 :
             
 revision_argument
 =
-(
-                
 f
 "
 {
@@ -3438,14 +3531,14 @@ rev
 }
 "
 if
-base_rev
+base
 is
 None
 else
 f
 "
 {
-base_rev
+base
 }
 .
 .
@@ -3453,8 +3546,6 @@ base_rev
 rev
 }
 "
-            
-)
             
 cmd
 =

@@ -11,11 +11,11 @@ textwrap
 import
 dedent
 from
-requests
+taskcluster
 .
 exceptions
 import
-HTTPError
+TaskclusterRestFailure
 from
 taskgraph
 .
@@ -572,15 +572,13 @@ result
 )
             
 except
-HTTPError
+TaskclusterRestFailure
 as
 e
 :
                 
 if
 e
-.
-response
 .
 status_code
 !

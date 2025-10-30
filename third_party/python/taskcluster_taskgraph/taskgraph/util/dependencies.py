@@ -1,8 +1,12 @@
 from
+collections
+.
+abc
+import
+Iterator
+from
 typing
 import
-Dict
-Iterator
 Optional
 from
 taskgraph
@@ -223,7 +227,7 @@ config
 TransformConfig
 task
 :
-Dict
+dict
 )
 -
 >
@@ -356,7 +360,7 @@ config
 TransformConfig
 task
 :
-Dict
+dict
 )
 -
 >

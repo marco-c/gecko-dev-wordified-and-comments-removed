@@ -5,6 +5,12 @@ datetime
 import
 datetime
 from
+taskcluster
+.
+exceptions
+import
+TaskclusterRestFailure
+from
 taskgraph
 .
 optimize
@@ -266,6 +272,7 @@ status
 expires
 "
 ]
+                    
 self
 .
 fmt
@@ -318,7 +325,10 @@ return
 task_id
             
 except
+(
 KeyError
+TaskclusterRestFailure
+)
 :
                 
 pass

@@ -1,10 +1,13 @@
 from
+collections
+.
+abc
+import
+Generator
+from
 typing
 import
 Any
-Dict
-Generator
-Tuple
 from
 taskgraph
 .
@@ -19,7 +22,7 @@ iter_dot_path
     
 container
 :
-Dict
+dict
 [
 str
 Any
@@ -32,9 +35,9 @@ str
 >
 Generator
 [
-Tuple
+tuple
 [
-Dict
+dict
 [
 str
 Any

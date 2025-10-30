@@ -249,7 +249,7 @@ TaskGraph
 new_tasks
 Graph
 (
-set
+frozenset
 (
 new_tasks
 )
