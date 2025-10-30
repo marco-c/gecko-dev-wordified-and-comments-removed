@@ -42,10 +42,10 @@ firefoxSuggestContainer
 "
 ;
 const
-DATA_COLLECTION_TOGGLE_ID
+ONLINE_ENABLED_TOGGLE_ID
 =
 "
-firefoxSuggestDataCollectionSearchToggle
+firefoxSuggestOnlineEnabledToggle
 "
 ;
 const
@@ -94,7 +94,7 @@ isVisible
 true
 }
 [
-DATA_COLLECTION_TOGGLE_ID
+ONLINE_ENABLED_TOGGLE_ID
 ]
 :
 {
@@ -118,6 +118,8 @@ header
 firefox
 -
 suggest
+-
+1
 "
 }
 locationBarSuggestionLabel
@@ -136,6 +138,8 @@ suggest
 firefox
 -
 suggest
+-
+1
 "
 }
 }
@@ -192,6 +196,8 @@ l10nId
 addressbar
 -
 suggest
+-
+1
 "
 }
 }
@@ -223,7 +229,7 @@ isVisible
 true
 }
 [
-DATA_COLLECTION_TOGGLE_ID
+ONLINE_ENABLED_TOGGLE_ID
 ]
 :
 {
@@ -247,6 +253,8 @@ header
 firefox
 -
 suggest
+-
+1
 "
 }
 locationBarSuggestionLabel
@@ -265,6 +273,8 @@ suggest
 firefox
 -
 suggest
+-
+1
 "
 }
 }
