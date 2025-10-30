@@ -420,10 +420,12 @@ REV
 -
 name
 :
-Set
+Reconfigure
+the
 display
-color
-profile
+(
+s
+)
 run
 :
 |
@@ -433,9 +435,9 @@ run
 wpt
 macos
 -
-color
+display
 -
-profile
+configuration
 -
 name
 :
