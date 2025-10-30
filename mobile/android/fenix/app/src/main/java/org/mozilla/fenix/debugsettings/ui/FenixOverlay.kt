@@ -273,7 +273,7 @@ debugsettings
 .
 addresses
 .
-AddressesDebugLocalesRepository
+AddressesDebugRegionRepository
 import
 org
 .
@@ -297,7 +297,7 @@ debugsettings
 .
 addresses
 .
-FakeAddressesDebugLocalesRepository
+FakeAddressesDebugRegionRepository
 import
 org
 .
@@ -321,7 +321,7 @@ debugsettings
 .
 addresses
 .
-SharedPrefsAddressesDebugLocalesRepository
+SharedPrefsAddressesDebugRegionRepository
 import
 org
 .
@@ -780,7 +780,7 @@ show
 loginsStorage
 =
 loginsStorage
-addressesDebugLocalesRepository
+addressesDebugRegionRepository
 =
 context
 .
@@ -796,7 +796,7 @@ StrictMode
 allowThreadDiskReads
 )
 {
-SharedPrefsAddressesDebugLocalesRepository
+SharedPrefsAddressesDebugRegionRepository
 (
 context
 )
@@ -885,7 +885,7 @@ LoginsTools
 .
 *
 param
-addressesDebugLocalesRepository
+addressesDebugRegionRepository
 used
 to
 control
@@ -937,9 +937,9 @@ GleanDebugToolsStore
 loginsStorage
 :
 LoginsStorage
-addressesDebugLocalesRepository
+addressesDebugRegionRepository
 :
-AddressesDebugLocalesRepository
+AddressesDebugRegionRepository
 creditCardsAddressesStorage
 :
 CreditCardsAddressesStorage
@@ -1010,9 +1010,9 @@ inactiveTabsEnabled
 loginsStorage
 =
 loginsStorage
-addressesDebugLocalesRepository
+addressesDebugRegionRepository
 =
-addressesDebugLocalesRepository
+addressesDebugRegionRepository
 creditCardsAddressesStorage
 =
 creditCardsAddressesStorage
@@ -1198,9 +1198,9 @@ loginsStorage
 FakeLoginsStorage
 (
 )
-addressesDebugLocalesRepository
+addressesDebugRegionRepository
 =
-FakeAddressesDebugLocalesRepository
+FakeAddressesDebugRegionRepository
 (
 )
 creditCardsAddressesStorage

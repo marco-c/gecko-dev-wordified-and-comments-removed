@@ -157,7 +157,7 @@ debugsettings
 .
 addresses
 .
-AddressesDebugLocalesRepository
+AddressesDebugRegionRepository
 import
 org
 .
@@ -637,7 +637,7 @@ LoginsScreen
 .
 *
 param
-addressesDebugLocalesRepository
+addressesDebugRegionRepository
 used
 to
 control
@@ -699,9 +699,9 @@ GleanDebugToolsStore
 loginsStorage
 :
 LoginsStorage
-addressesDebugLocalesRepository
+addressesDebugRegionRepository
 :
-AddressesDebugLocalesRepository
+AddressesDebugRegionRepository
 creditCardsAddressesStorage
 :
 CreditCardsAddressesStorage
@@ -831,9 +831,9 @@ content
 {
 AddressesTools
 (
-debugLocalesRepository
+debugRegionRepository
 =
-addressesDebugLocalesRepository
+addressesDebugRegionRepository
 creditCardsAddressesStorage
 =
 creditCardsAddressesStorage
