@@ -1218,12 +1218,6 @@ true
 )
 )
 ;
-this
-.
-reset
-(
-)
-;
 }
 handleConfirm
 (
