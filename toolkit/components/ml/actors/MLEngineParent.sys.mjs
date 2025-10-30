@@ -5675,7 +5675,7 @@ typedef
 {
 object
 }
-Request
+EngineRunRequest
 *
 property
 {
@@ -5853,7 +5853,7 @@ data
 *
 *
 template
-Response
+EngineRunResponse
 *
 /
 export
@@ -5934,7 +5934,7 @@ Map
 number
 PromiseWithResolvers
 <
-Request
+EngineRunRequest
 >
 >
 }
@@ -9000,7 +9000,7 @@ request
 *
 param
 {
-Request
+EngineRunRequest
 }
 request
 *
@@ -9008,7 +9008,7 @@ returns
 {
 Promise
 <
-Response
+EngineRunResponse
 >
 }
 *
@@ -9430,7 +9430,7 @@ function
 *
 param
 {
-Request
+EngineRunRequest
 }
 request
 -
@@ -9447,8 +9447,8 @@ returns
 {
 AsyncGenerator
 <
-Response
-Response
+EngineRunResponse
+EngineRunResponse
 unknown
 >
 }
