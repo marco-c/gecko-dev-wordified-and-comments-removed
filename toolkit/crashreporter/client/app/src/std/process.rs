@@ -1471,6 +1471,9 @@ ExitStatus
 from_raw
 (
 status
+<
+<
+8
 )
 }
 #
