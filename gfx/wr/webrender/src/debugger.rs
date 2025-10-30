@@ -1359,6 +1359,16 @@ flags
 )
 )
 ;
+api
+.
+send_debug_cmd
+(
+DebugCommand
+:
+:
+GenerateFrame
+)
+;
 Ok
 (
 string_response
