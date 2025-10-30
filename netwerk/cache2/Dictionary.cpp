@@ -2452,14 +2452,6 @@ aSrc
 GetEncodedString
 (
 aSrc
-mHash
-)
-;
-aSrc
-=
-GetEncodedString
-(
-aSrc
 mPattern
 )
 ;
