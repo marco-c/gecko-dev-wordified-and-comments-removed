@@ -3032,9 +3032,13 @@ selectedSourceTextContent
 value
 .
 value
+{
+documentId
+:
 selectedSource
 .
 id
+}
 )
 ;
 }
