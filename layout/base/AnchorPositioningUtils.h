@@ -348,10 +348,6 @@ const
 StylePositionArea
 &
 aPosArea
-const
-StylePositionTryFallbacksTryTactic
-*
-aFallbackTactic
 )
 ;
 static
