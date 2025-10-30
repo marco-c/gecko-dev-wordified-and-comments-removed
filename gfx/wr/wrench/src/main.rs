@@ -69,9 +69,6 @@ mod
 rawtest
 ;
 mod
-rawtests
-;
-mod
 reftest
 ;
 mod
