@@ -945,8 +945,8 @@ RTC_GUARDED_BY
 main_thread_
 )
 ;
-int64_t
-sum_missed_render_deadline_ms_
+TimeDelta
+sum_missed_render_deadline_
 RTC_GUARDED_BY
 (
 main_thread_
