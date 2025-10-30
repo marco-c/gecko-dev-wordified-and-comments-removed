@@ -8076,7 +8076,7 @@ movable
 true
 congruent_to
 :
-custom
+if_operands_equal
 alias_set
 :
 none
@@ -8114,6 +8114,9 @@ alias_set
 :
 custom
 might_alias
+:
+custom
+folds_to
 :
 custom
 generate_lir
