@@ -156,6 +156,14 @@ Promise
 <
 undefined
 >
+committed
+;
+readonly
+attribute
+Promise
+<
+undefined
+>
 finished
 ;
 }

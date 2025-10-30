@@ -90,6 +90,9 @@ NavigationHistoryEntry
 aFrom
 Promise
 *
+aCommitted
+Promise
+*
 aFinished
 )
 ;
@@ -103,6 +106,13 @@ const
 NavigationHistoryEntry
 *
 From
+(
+)
+const
+;
+Promise
+*
+Committed
 (
 )
 const
@@ -164,6 +174,12 @@ RefPtr
 NavigationHistoryEntry
 >
 mFrom
+;
+RefPtr
+<
+Promise
+>
+mCommitted
 ;
 RefPtr
 <
