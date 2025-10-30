@@ -2105,9 +2105,6 @@ this
 parentElement
 ?
 .
-parentElement
-?
-.
 tagName
 =
 =
@@ -2124,8 +2121,6 @@ wrapper
 {
 return
 this
-.
-parentElement
 .
 parentElement
 ;
