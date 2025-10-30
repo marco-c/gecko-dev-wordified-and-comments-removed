@@ -44,6 +44,11 @@ namespace
 webrtc
 {
 class
+[
+[
+deprecated
+]
+]
 RTC_EXPORT
 FieldTrialBasedConfig
 :

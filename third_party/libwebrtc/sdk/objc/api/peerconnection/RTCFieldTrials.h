@@ -62,6 +62,17 @@ NSString
 const
 kRTCFieldTrialEnabledValue
 ;
+RTC_OBJC_DEPRECATED
+(
+"
+Pass
+field
+trials
+when
+building
+PeerConnectionFactory
+"
+)
 RTC_EXTERN
 void
 RTCInitFieldTrialDictionary
