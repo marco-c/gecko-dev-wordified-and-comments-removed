@@ -16,6 +16,17 @@ h264_color_space
 .
 h
 "
+#
+include
+"
+api
+/
+video
+/
+color_space
+.
+h
+"
 namespace
 webrtc
 {
