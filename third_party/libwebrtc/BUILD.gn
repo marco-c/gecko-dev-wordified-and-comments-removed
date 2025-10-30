@@ -601,11 +601,6 @@ svc_tests
 "
 rtc_tools
 :
-rtp_generator
-"
-"
-rtc_tools
-:
 video_encoder
 "
 "
