@@ -750,13 +750,6 @@ onClick
 showDivider
 =
 showDivider
-dividerColor
-=
-FirefoxTheme
-.
-colors
-.
-borderPrimary
 iconPainter
 =
 if
