@@ -12635,6 +12635,11 @@ HasStoppedGeneratingLCP
 )
 )
 {
+MOZ_ASSERT
+(
+mHadNonTickContentfulPaint
+)
+;
 return
 ;
 }
@@ -12692,6 +12697,10 @@ PostDOMEvent
 ;
 #
 endif
+mHadNonTickContentfulPaint
+=
+true
+;
 }
 if
 (
@@ -12709,12 +12718,6 @@ IsInRefresh
 )
 )
 {
-if
-(
-!
-mHadNonTickContentfulPaint
-)
-{
 rootPresContext
 -
 >
@@ -12728,11 +12731,6 @@ AddForceNotifyContentfulPaintPresContext
 this
 )
 ;
-mHadNonTickContentfulPaint
-=
-true
-;
-}
 return
 ;
 }
