@@ -2401,6 +2401,12 @@ ArenaCollection
 {
 public
 :
+constexpr
+ArenaCollection
+(
+)
+{
+}
 bool
 Init
 (
@@ -3323,6 +3329,8 @@ MAIN_THREAD_ARENA_BIT
 arena_t
 *
 mDefaultArena
+=
+nullptr
 ;
 arena_id_t
 mLastPublicArenaId
@@ -3330,6 +3338,8 @@ MOZ_GUARDED_BY
 (
 mLock
 )
+=
+0
 ;
 Tree
 mArenas
@@ -3404,7 +3414,7 @@ mIsDeferredPurgeEnabled
 ;
 }
 ;
-MOZ_RUNINIT
+MOZ_CONSTINIT
 static
 ArenaCollection
 gArenas
