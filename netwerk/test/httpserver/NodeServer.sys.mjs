@@ -6794,7 +6794,6 @@ kill
 this
 .
 processId
-true
 )
 ;
 this
@@ -7327,9 +7326,6 @@ static
 kill
 (
 id
-ignoreError
-=
-false
 )
 {
 return
@@ -7345,7 +7341,6 @@ kill
 {
 id
 }
-ignoreError
 )
 ;
 }
@@ -7383,9 +7378,6 @@ sendCommand
 (
 command
 path
-ignoreError
-=
-false
 )
 {
 let
@@ -7794,19 +7786,6 @@ x
 .
 errorStack
 ;
-if
-(
-ignoreError
-)
-{
-resolve
-(
-undefined
-)
-;
-return
-;
-}
 reject
 (
 e

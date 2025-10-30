@@ -1,7 +1,6 @@
 function
 sendBackResponse
 (
-messageId
 evalResult
 e
 )
@@ -21,7 +20,6 @@ errorStack
 :
 "
 "
-messageId
 }
 ;
 if
@@ -74,13 +72,6 @@ msg
 .
 code
 ;
-const
-messageId
-=
-msg
-.
-messageId
-;
 let
 evalResult
 =
@@ -111,7 +102,6 @@ x
 >
 sendBackResponse
 (
-messageId
 x
 )
 )
@@ -123,7 +113,6 @@ e
 >
 sendBackResponse
 (
-messageId
 undefined
 e
 )
@@ -140,7 +129,6 @@ e
 {
 sendBackResponse
 (
-messageId
 undefined
 e
 )
@@ -150,7 +138,6 @@ return
 }
 sendBackResponse
 (
-messageId
 evalResult
 )
 ;
