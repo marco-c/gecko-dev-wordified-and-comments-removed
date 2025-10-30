@@ -4270,6 +4270,7 @@ uri
 browser
 .
 browsingContext
+?
 .
 currentURI
 .
@@ -4278,6 +4279,7 @@ spec
 if
 (
 uri
+?
 .
 startsWith
 (
