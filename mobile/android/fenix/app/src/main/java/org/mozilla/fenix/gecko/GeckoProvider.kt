@@ -801,6 +801,17 @@ settings
 isIsolatedProcessEnabled
 )
 .
+appZygoteProcessEnabled
+(
+context
+.
+settings
+(
+)
+.
+isAppZygoteEnabled
+)
+.
 build
 (
 )

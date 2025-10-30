@@ -5765,6 +5765,14 @@ settings
 .
 isIsolatedProcessEnabled
 )
+appZygoteIsolatedContentProcessesEnabled
+.
+set
+(
+settings
+.
+isAppZygoteEnabled
+)
 val
 syncedItems
 =
