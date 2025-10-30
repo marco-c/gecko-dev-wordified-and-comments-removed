@@ -2674,6 +2674,10 @@ HWND
 -
 >
 WindowChildRenderer
+<
+'
+_
+>
 {
 WindowChildRenderer
 {
@@ -3030,6 +3034,8 @@ W
 >
 WindowBuilder
 <
+'
+_
 W
 >
 {
@@ -3105,6 +3111,8 @@ W
 >
 WindowBuilder
 <
+'
+_
 W
 >
 {
