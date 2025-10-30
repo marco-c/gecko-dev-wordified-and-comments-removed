@@ -301,9 +301,6 @@ stop
 (
 userAction
 )
-resetAccount
-(
-)
 and
 startLoginFlow
 (

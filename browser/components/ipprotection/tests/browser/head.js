@@ -110,7 +110,7 @@ mjs
 ;
 const
 {
-IPPEnrollHelper
+IPPEnrollAndEntitleManager
 }
 =
 ChromeUtils
@@ -127,7 +127,7 @@ modules
 /
 ipprotection
 /
-IPPEnrollHelper
+IPPEnrollAndEntitleManager
 .
 sys
 .
@@ -1041,7 +1041,7 @@ DEFAULT_SERVICE_STATUS
 isSignedIn
 :
 false
-isEnrolled
+isEnrolledAndEntitled
 :
 false
 canEnroll
@@ -1103,7 +1103,7 @@ let
 STUBS
 =
 {
-isEnrolled
+isEnrolledAndEntitled
 :
 undefined
 enroll
@@ -1243,15 +1243,15 @@ isSignedIn
 ;
 stubs
 .
-isEnrolled
+isEnrolledAndEntitled
 =
 setupSandbox
 .
 stub
 (
-IPPEnrollHelper
+IPPEnrollAndEntitleManager
 "
-isEnrolled
+isEnrolledAndEntitled
 "
 )
 ;
@@ -1309,7 +1309,7 @@ setupService
 (
 {
 isSignedIn
-isEnrolled
+isEnrolledAndEntitled
 canEnroll
 entitlement
 proxyPass
@@ -1349,7 +1349,7 @@ isSignedIn
 if
 (
 typeof
-isEnrolled
+isEnrolledAndEntitled
 !
 =
 "
@@ -1359,7 +1359,7 @@ undefined
 {
 stubs
 .
-isEnrolled
+isEnrolledAndEntitled
 .
 get
 (
@@ -1367,7 +1367,7 @@ get
 )
 =
 >
-isEnrolled
+isEnrolledAndEntitled
 )
 ;
 }

@@ -159,11 +159,13 @@ Filter
 Helper
 "
 ]
-IPPEnrollHelper
+IPPEnrollAndEntitleManager
 [
 "
-Enrollment
-Helper
+Enroll
+&
+Entitle
+Manager
 "
 ]
 end
@@ -640,7 +642,7 @@ recomputation
 on
 updates
 .
-IPPEnrollHelper
+IPPEnrollAndEntitleManager
 Orchestrates
 the
 user
