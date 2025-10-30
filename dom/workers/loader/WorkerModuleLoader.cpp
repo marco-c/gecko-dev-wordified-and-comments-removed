@@ -519,7 +519,10 @@ request
 new
 ModuleLoadRequest
 (
+aURI
 moduleType
+aReferrerPolicy
+aOptions
 SRIMetadata
 (
 )
@@ -535,7 +538,10 @@ request
 >
 mURL
 =
-aURI
+request
+-
+>
+mURI
 -
 >
 GetSpecOrDefault
@@ -547,9 +553,6 @@ request
 >
 NoCacheEntryFound
 (
-aReferrerPolicy
-aOptions
-aURI
 )
 ;
 return

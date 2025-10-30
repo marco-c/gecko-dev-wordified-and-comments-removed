@@ -480,9 +480,7 @@ if
 aRequest
 -
 >
-URI
-(
-)
+mURI
 -
 >
 SchemeIs
@@ -547,9 +545,7 @@ url
 aRequest
 -
 >
-URI
-(
-)
+mURI
 -
 >
 GetAsciiSpec
@@ -2207,9 +2203,7 @@ constructorDocument
 aRequest
 -
 >
-BaseURL
-(
-)
+mBaseURL
 options
 error
 )
@@ -2507,6 +2501,7 @@ request
 new
 ModuleLoadRequest
 (
+aURI
 JS
 :
 :
@@ -2514,6 +2509,8 @@ ModuleType
 :
 :
 JavaScript
+aReferrerPolicy
+aFetchOptions
 aIntegrity
 aReferrer
 aContext
@@ -2535,9 +2532,6 @@ GetScriptLoader
 >
 TryUseCache
 (
-aReferrerPolicy
-aFetchOptions
-aURI
 request
 aElement
 aFetchOptions
@@ -2764,7 +2758,10 @@ request
 new
 ModuleLoadRequest
 (
+aURI
 moduleType
+aReferrerPolicy
+aOptions
 aSriMetadata
 aBaseURL
 context
@@ -2780,9 +2777,6 @@ GetScriptLoader
 >
 TryUseCache
 (
-aReferrerPolicy
-aOptions
-aURI
 request
 )
 ;

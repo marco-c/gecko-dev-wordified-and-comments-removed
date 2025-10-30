@@ -1198,14 +1198,6 @@ aRequestType
 void
 TryUseCache
 (
-ReferrerPolicy
-aReferrerPolicy
-ScriptFetchOptions
-*
-aFetchOptions
-nsIURI
-*
-aURI
 ScriptLoadRequest
 *
 aRequest
@@ -1403,12 +1395,6 @@ aNonce
 ScriptLoadRequest
 *
 aRequest
-ScriptFetchOptions
-*
-aFetchOptions
-nsIURI
-*
-aURI
 )
 ;
 static

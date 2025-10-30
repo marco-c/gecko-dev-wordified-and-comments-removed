@@ -603,6 +603,7 @@ request
 new
 ModuleLoadRequest
 (
+mURI
 JS
 :
 :
@@ -610,6 +611,11 @@ ModuleType
 :
 :
 JavaScript
+ReferrerPolicy
+:
+:
+_empty
+fetchOptions
 SRIMetadata
 (
 )
@@ -631,6 +637,9 @@ request
 >
 mURL
 =
+request
+-
+>
 mURI
 -
 >
@@ -643,12 +652,6 @@ request
 >
 NoCacheEntryFound
 (
-ReferrerPolicy
-:
-:
-_empty
-fetchOptions
-mURI
 )
 ;
 return
@@ -1113,10 +1116,9 @@ rv
 request
 -
 >
-SetBaseURL
-(
+mBaseURL
+=
 mURI
-)
 ;
 request
 -

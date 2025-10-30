@@ -2911,9 +2911,7 @@ loadContext
 mRequest
 -
 >
-BaseURL
-(
-)
+mBaseURL
 )
 {
 loadContext
@@ -2922,10 +2920,9 @@ loadContext
 mRequest
 -
 >
-SetBaseURL
-(
+mBaseURL
+=
 finalURI
-)
 ;
 }
 if
