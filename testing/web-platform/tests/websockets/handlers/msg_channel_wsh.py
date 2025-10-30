@@ -796,14 +796,14 @@ socket
 shouldn
 '
 t
-recieve
+receive
 any
     
 messages
 but
 it
 can
-recieve
+receive
 an
 explicit
 "
