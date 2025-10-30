@@ -24,15 +24,6 @@ include
 "
 mozilla
 /
-DebugOnly
-.
-h
-"
-#
-include
-"
-mozilla
-/
 GeckoTrace
 .
 h

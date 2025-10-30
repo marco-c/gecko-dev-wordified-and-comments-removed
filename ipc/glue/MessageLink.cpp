@@ -100,15 +100,6 @@ h
 #
 include
 "
-mozilla
-/
-DebugOnly
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h
