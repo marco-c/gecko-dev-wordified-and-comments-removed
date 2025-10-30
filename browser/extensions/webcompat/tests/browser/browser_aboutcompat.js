@@ -11,13 +11,6 @@ test_about_compat_loads_properly
 (
 )
 {
-await
-WebCompatExtension
-.
-noOngoingInterventionChanges
-(
-)
-;
 const
 tab
 =
