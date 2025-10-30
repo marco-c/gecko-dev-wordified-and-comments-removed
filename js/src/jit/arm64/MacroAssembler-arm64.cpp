@@ -18995,13 +18995,6 @@ dest
 64
 )
 ;
-ARMRegister
-o32
-(
-dest
-32
-)
-;
 Label
 handleZero
 ;
@@ -19235,13 +19228,6 @@ o64
 (
 dest
 64
-)
-;
-ARMRegister
-o32
-(
-dest
-32
 )
 ;
 Label
