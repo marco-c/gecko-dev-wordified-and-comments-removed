@@ -186,6 +186,12 @@ mozilla
 StaticMutexAutoLock
 ;
 using
+mozilla
+:
+:
+Unused
+;
+using
 namespace
 nsMacUtilsImpl
 ;
@@ -932,9 +938,9 @@ newStatus
 TCSM_Available
 ;
 }
-(
-void
-)
+Unused
+<
+<
 sTCSMStatus
 .
 compareExchange

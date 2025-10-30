@@ -1151,9 +1151,9 @@ value
 kMissingAttributeToken
 )
 {
-(
-void
-)
+Unused
+<
+<
 element
 -
 >
@@ -1167,9 +1167,9 @@ true
 }
 else
 {
-(
-void
-)
+Unused
+<
+<
 element
 -
 >

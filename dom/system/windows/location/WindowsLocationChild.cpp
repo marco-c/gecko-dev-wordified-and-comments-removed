@@ -1183,9 +1183,9 @@ IPC_OK
 )
 ;
 }
-(
-void
-)
+Unused
+<
+<
 NS_WARN_IF
 (
 FAILED

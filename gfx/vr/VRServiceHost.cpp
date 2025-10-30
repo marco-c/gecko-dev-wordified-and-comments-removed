@@ -503,9 +503,9 @@ MOZ_ASSERT
 gpu
 )
 ;
-(
-void
-)
+Unused
+<
+<
 gpu
 -
 >
@@ -764,9 +764,9 @@ MOZ_ASSERT
 gpu
 )
 ;
-(
-void
-)
+Unused
+<
+<
 gpu
 -
 >

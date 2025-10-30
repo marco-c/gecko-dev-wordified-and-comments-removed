@@ -143,9 +143,9 @@ aFullHash
 )
 )
 ;
-(
-void
-)
+Unused
+<
+<
 Send__delete__
 (
 this
@@ -171,9 +171,9 @@ if
 mIPCOpen
 )
 {
-(
-void
-)
+Unused
+<
+<
 Send__delete__
 (
 this

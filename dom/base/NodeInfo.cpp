@@ -896,9 +896,12 @@ kungFuDeathGrip
 =
 mOwnerManager
 ;
-(
-void
-)
+mozilla
+:
+:
+Unused
+<
+<
 kungFuDeathGrip
 ;
 delete

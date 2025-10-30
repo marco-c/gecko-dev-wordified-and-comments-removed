@@ -501,9 +501,9 @@ int32_t
 aSetSize
 )
 {
-(
-void
-)
+Unused
+<
+<
 ComputeGroupAttributes
 (
 aPosInSet

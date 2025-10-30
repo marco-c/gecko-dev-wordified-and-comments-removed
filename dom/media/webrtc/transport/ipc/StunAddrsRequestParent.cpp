@@ -780,9 +780,9 @@ addrstring
 ;
 }
 }
-(
-void
-)
+Unused
+<
+<
 SendOnStunAddrsAvailable
 (
 addrs
@@ -821,9 +821,9 @@ mIPCClosed
 return
 ;
 }
-(
-void
-)
+Unused
+<
+<
 SendOnMDNSQueryComplete
 (
 hostname

@@ -484,9 +484,9 @@ HasEnded
 )
 )
 {
-(
-void
-)
+Unused
+<
+<
 SendNotifyPuppetComplete
 (
 )

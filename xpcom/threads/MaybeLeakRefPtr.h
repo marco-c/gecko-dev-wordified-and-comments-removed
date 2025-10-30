@@ -97,6 +97,9 @@ if
 mAutoRelease
 )
 {
+(
+void
+)
 RefPtr
 <
 T
@@ -107,7 +110,7 @@ forget
 (
 )
 .
-leak
+take
 (
 )
 ;

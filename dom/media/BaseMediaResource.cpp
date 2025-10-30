@@ -673,9 +673,9 @@ nsIRequest
 LOAD_BACKGROUND
 ;
 }
-(
-void
-)
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED

@@ -2114,9 +2114,9 @@ hasIPHint
 =
 false
 ;
-(
-void
-)
+Unused
+<
+<
 aRecord
 -
 >
@@ -2143,9 +2143,9 @@ hasIPHint
 nsAutoCString
 echConfig
 ;
-(
-void
-)
+Unused
+<
+<
 aRecord
 -
 >

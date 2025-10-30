@@ -1676,9 +1676,9 @@ IsEmpty
 )
 )
 {
-(
-void
-)
+Unused
+<
+<
 PullOneFrame
 (
 aPresContext

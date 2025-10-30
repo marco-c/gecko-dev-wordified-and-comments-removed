@@ -1788,9 +1788,9 @@ ReadMetadata
 MEDIA_PLAYBACK
 )
 ;
-(
-void
-)
+Unused
+<
+<
 OwnerThread
 (
 )
@@ -5646,9 +5646,9 @@ task
 mPendingTasks
 )
 {
-(
-void
-)
+Unused
+<
+<
 OwnerThread
 (
 )

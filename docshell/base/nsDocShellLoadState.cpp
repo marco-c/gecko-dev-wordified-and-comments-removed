@@ -4421,9 +4421,9 @@ nsIURI
 >
 uri
 ;
-(
-void
-)
+Unused
+<
+<
 queryStripper
 -
 >
@@ -4449,9 +4449,9 @@ equals
 =
 false
 ;
-(
-void
-)
+Unused
+<
+<
 URI
 (
 )

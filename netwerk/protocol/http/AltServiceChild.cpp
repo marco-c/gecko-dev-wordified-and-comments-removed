@@ -329,9 +329,9 @@ CanSend
 )
 )
 {
-(
-void
-)
+Unused
+<
+<
 sAltServiceChild
 -
 >
@@ -516,9 +516,9 @@ aConnInfo
 infoArgs
 )
 ;
-(
-void
-)
+Unused
+<
+<
 sAltServiceChild
 -
 >

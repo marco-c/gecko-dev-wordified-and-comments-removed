@@ -786,9 +786,9 @@ nsCaseInsensitiveStringComparator
 )
 )
 {
-(
-void
-)
+Unused
+<
+<
 nonUserDirFonts
 .
 emplaceBack

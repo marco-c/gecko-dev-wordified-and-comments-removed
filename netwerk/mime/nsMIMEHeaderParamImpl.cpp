@@ -4696,9 +4696,12 @@ goto
 badsyntax
 ;
 }
-(
-void
-)
+mozilla
+:
+:
+Unused
+<
+<
 PR_sscanf
 (
 in

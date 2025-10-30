@@ -400,9 +400,9 @@ complete
 )
 )
 {
-(
-void
-)
+Unused
+<
+<
 SendNotifyNetworkConnectivityServiceObservers
 (
 nsPrintfCString
@@ -526,9 +526,9 @@ bool
 aTrrToo
 )
 {
-(
-void
-)
+Unused
+<
+<
 sDNSService
 -
 >
