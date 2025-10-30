@@ -805,5 +805,13 @@ attribute
 jsval
 wireframe
 ;
+attribute
+nsIDRef
+navigationKey
+;
+attribute
+nsIDRef
+navigationId
+;
 }
 ;
