@@ -1582,12 +1582,6 @@ DoubleGreaterThanOrUnordered
 DoubleGreaterThanOrEqualOrUnordered
 DoubleLessThanOrUnordered
 DoubleLessThanOrEqualOrUnordered
-FIRST_UNORDERED
-=
-DoubleUnordered
-LAST_UNORDERED
-=
-DoubleLessThanOrEqualOrUnordered
 }
 ;
 Register
