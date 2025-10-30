@@ -20,6 +20,9 @@ neqo_crypto
 {
 hkdf
 Aead
+AeadTrait
+as
+_
 TLS_AES_128_GCM_SHA256
 TLS_VERSION_1_3
 }
@@ -347,13 +350,12 @@ use_aead
 (
 version
 |
-_
+aead
 |
 Ok
 (
-Aead
-:
-:
+aead
+.
 expansion
 (
 )
