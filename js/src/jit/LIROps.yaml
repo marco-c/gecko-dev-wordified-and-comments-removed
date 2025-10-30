@@ -4146,6 +4146,9 @@ operands
 input
 :
 WordSized
+defer_init
+:
+true
 #
 Negative
 of
@@ -4162,6 +4165,9 @@ operands
 input
 :
 WordSized
+defer_init
+:
+true
 #
 Absolute
 value
