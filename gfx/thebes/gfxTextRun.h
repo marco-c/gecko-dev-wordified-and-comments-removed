@@ -1121,7 +1121,7 @@ aDescent
 )
 ;
 }
-gfxFloat
+nscoord
 GetAdvanceWidth
 (
 Range
@@ -1141,7 +1141,7 @@ nullptr
 )
 const
 ;
-gfxFloat
+nscoord
 GetAdvanceWidth
 (
 )
@@ -1158,7 +1158,7 @@ nullptr
 )
 ;
 }
-gfxFloat
+nscoord
 GetMinAdvanceWidth
 (
 Range
@@ -2296,10 +2296,10 @@ LigatureData
 Range
 mRange
 ;
-gfxFloat
+nscoord
 mPartAdvance
 ;
-gfxFloat
+nscoord
 mPartWidth
 ;
 bool
@@ -2614,7 +2614,7 @@ mCharacterGlyphs
 ;
 private
 :
-int32_t
+nscoord
 GetAdvanceForGlyphs
 (
 Range
@@ -2684,7 +2684,7 @@ aProvider
 )
 const
 ;
-gfxFloat
+nscoord
 ComputePartialLigatureWidth
 (
 Range
@@ -2737,18 +2737,6 @@ ShrinkToLigatureBoundaries
 Range
 *
 aRange
-)
-const
-;
-gfxFloat
-GetPartialLigatureWidth
-(
-Range
-aRange
-const
-PropertyProvider
-*
-aProvider
 )
 const
 ;
