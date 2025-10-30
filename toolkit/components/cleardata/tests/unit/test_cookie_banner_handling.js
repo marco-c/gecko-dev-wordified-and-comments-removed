@@ -3,10 +3,6 @@ use
 strict
 "
 ;
-do_get_profile
-(
-)
-;
 add_setup
 (
 _

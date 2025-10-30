@@ -373,6 +373,11 @@ client_validation
 false
 )
 ;
+do_get_profile
+(
+true
+)
+;
 }
 add_task
 (

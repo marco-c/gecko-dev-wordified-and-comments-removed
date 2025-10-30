@@ -62,6 +62,7 @@ run_test
 {
 do_get_profile
 (
+true
 )
 ;
 run_next_test

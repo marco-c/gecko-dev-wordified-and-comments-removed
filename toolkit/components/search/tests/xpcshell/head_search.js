@@ -407,6 +407,7 @@ platformVersion
 ;
 do_get_profile
 (
+true
 )
 ;
 SearchTestUtils

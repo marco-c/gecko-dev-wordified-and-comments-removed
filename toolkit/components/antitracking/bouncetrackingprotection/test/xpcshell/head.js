@@ -1,0 +1,14 @@
+add_setup
+(
+function
+(
+)
+{
+do_get_profile
+(
+true
+)
+;
+}
+)
+;

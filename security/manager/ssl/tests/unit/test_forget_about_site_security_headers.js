@@ -31,6 +31,7 @@ mjs
 ;
 do_get_profile
 (
+true
 )
 ;
 registerCleanupFunction

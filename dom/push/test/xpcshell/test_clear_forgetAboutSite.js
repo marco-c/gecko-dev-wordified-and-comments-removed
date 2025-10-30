@@ -84,6 +84,7 @@ run_test
 {
 do_get_profile
 (
+true
 )
 ;
 setPrefs

@@ -255,10 +255,6 @@ function
 (
 )
 {
-do_get_profile
-(
-)
-;
 let
 profileDir
 =
