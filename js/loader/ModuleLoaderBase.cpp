@@ -8239,15 +8239,6 @@ rval
 aCx
 )
 ;
-mLoader
--
->
-MaybePrepareModuleForCacheBeforeExecute
-(
-aCx
-aRequest
-)
-;
 bool
 ok
 =
