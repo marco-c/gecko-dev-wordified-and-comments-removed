@@ -1181,6 +1181,13 @@ mode
 kFlushFull
 )
 ;
+static
+constexpr
+int
+kCPOffsetSlack
+=
+1
+;
 int
 cp_offset
 (
