@@ -833,17 +833,6 @@ opt
 default
 :
 4
-timeoutfactor
-:
-by
--
-test
--
-platform
-:
-default
-:
-1
 max
 -
 run
