@@ -41,7 +41,7 @@ include
 "
 rtc_base
 /
-socket_server
+socket
 .
 h
 "
