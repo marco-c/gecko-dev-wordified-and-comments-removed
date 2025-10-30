@@ -370,6 +370,13 @@ js
 ]
 [
 "
+test_SessionStoreBackupResource_mockSessionStore
+.
+js
+"
+]
+[
+"
 test_backupService_findBackupsInWellKnownLocations
 .
 js
