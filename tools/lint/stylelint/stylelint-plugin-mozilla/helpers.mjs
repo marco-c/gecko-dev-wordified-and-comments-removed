@@ -399,6 +399,7 @@ token
 if
 (
 token
+?
 .
 name
 )
