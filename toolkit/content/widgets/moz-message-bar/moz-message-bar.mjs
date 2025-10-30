@@ -1025,6 +1025,14 @@ headingTemplate
 div
 >
 <
+slot
+name
+=
+"
+message
+"
+>
+<
 span
 class
 =
@@ -1073,6 +1081,10 @@ message
 <
 /
 span
+>
+<
+/
+slot
 >
 <
 span
