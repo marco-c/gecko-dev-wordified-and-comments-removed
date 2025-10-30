@@ -5425,6 +5425,17 @@ create_time_controller
 /
 api
 :
+field_trials
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
 field_trials_registry
 "
 "
@@ -6177,7 +6188,7 @@ metrics
 /
 test
 :
-explicit_key_value_config
+create_test_field_trials
 "
 "
 .

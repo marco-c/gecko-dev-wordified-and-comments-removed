@@ -1236,6 +1236,17 @@ module_api_public
 /
 api
 :
+field_trials
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
 rtp_headers
 "
 "
@@ -1417,7 +1428,7 @@ system_wrappers
 /
 test
 :
-explicit_key_value_config
+create_test_field_trials
 "
 "
 .

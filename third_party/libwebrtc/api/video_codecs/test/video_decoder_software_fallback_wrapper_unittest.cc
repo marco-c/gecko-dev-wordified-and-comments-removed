@@ -58,6 +58,15 @@ include
 "
 api
 /
+field_trials
+.
+h
+"
+#
+include
+"
+api
+/
 video
 /
 encoded_image
@@ -141,7 +150,7 @@ include
 "
 test
 /
-explicit_key_value_config
+create_test_field_trials
 .
 h
 "
@@ -195,7 +204,10 @@ field_trials
 :
 field_trials_
 (
+CreateTestFieldTrials
+(
 field_trials
+)
 )
 env_
 (
@@ -364,10 +376,7 @@ reset_count_
 ;
 }
 ;
-test
-:
-:
-ExplicitKeyValueConfig
+FieldTrials
 field_trials_
 ;
 const

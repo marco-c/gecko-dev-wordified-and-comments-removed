@@ -203,6 +203,15 @@ fec_controller_api
 .
 .
 :
+field_trials
+"
+"
+.
+.
+/
+.
+.
+:
 mock_video_encoder
 "
 "
@@ -330,7 +339,7 @@ rtc_base_tests_utils
 /
 test
 :
-explicit_key_value_config
+create_test_field_trials
 "
 "
 .

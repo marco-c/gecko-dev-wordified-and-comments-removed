@@ -94,6 +94,15 @@ include
 "
 api
 /
+field_trials
+.
+h
+"
+#
+include
+"
+api
+/
 ice_transport_interface
 .
 h
@@ -354,7 +363,7 @@ include
 "
 test
 /
-explicit_key_value_config
+create_test_field_trials
 .
 h
 "
@@ -433,7 +442,10 @@ Current
 )
 field_trials_
 (
+CreateTestFieldTrials
+(
 field_trials_string
+)
 )
 {
 RTC_DCHECK
@@ -3601,10 +3613,7 @@ received_packets_
 =
 0
 ;
-test
-:
-:
-ExplicitKeyValueConfig
+FieldTrials
 field_trials_
 ;
 bool

@@ -3702,6 +3702,14 @@ dtls_transport_interface
 /
 api
 :
+field_trials
+"
+"
+.
+.
+/
+api
+:
 field_trials_view
 "
 "
@@ -3924,7 +3932,7 @@ system_wrappers
 /
 test
 :
-explicit_key_value_config
+create_test_field_trials
 "
 "
 .
