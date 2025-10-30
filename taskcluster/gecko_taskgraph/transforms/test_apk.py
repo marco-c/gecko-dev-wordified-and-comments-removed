@@ -111,6 +111,34 @@ params
 level
 "
 ]
+                    
+"
+shipping
+-
+product
+"
+:
+task
+.
+get
+(
+"
+attributes
+"
+{
+}
+)
+.
+get
+(
+                        
+"
+shipping
+-
+product
+"
+                    
+)
                 
 }
             
