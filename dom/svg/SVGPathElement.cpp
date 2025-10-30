@@ -816,14 +816,14 @@ StylePathCommand
 :
 CubicCurve
 (
-StyleByTo
-:
-:
-To
-StyleCoordinatePair
+StyleCommandEndPoint
 <
 StyleCSSFloat
 >
+:
+:
+ToPosition
+(
 {
 segEnd
 .
@@ -832,6 +832,7 @@ segEnd
 .
 y
 }
+)
 StyleCoordinatePair
 <
 StyleCSSFloat
