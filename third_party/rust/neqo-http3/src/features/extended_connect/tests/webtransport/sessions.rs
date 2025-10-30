@@ -357,6 +357,9 @@ wt_session
 .
 stream_close_send
 (
+now
+(
+)
 )
 .
 unwrap
@@ -721,6 +724,9 @@ SessionAcceptAction
 :
 :
 Accept
+now
+(
+)
 )
 .
 unwrap
@@ -1056,6 +1062,9 @@ SessionAcceptAction
 :
 :
 Accept
+now
+(
+)
 )
 .
 unwrap
@@ -1066,6 +1075,9 @@ wt_server_session
 .
 stream_close_send
 (
+now
+(
+)
 )
 .
 unwrap
@@ -1504,6 +1516,9 @@ stream_id
 )
 &
 buf
+now
+(
+)
 )
 .
 unwrap
@@ -1763,6 +1778,9 @@ stream_id
 )
 &
 buf
+now
+(
+)
 )
 .
 unwrap
@@ -2133,6 +2151,9 @@ req
 send_data
 (
 BUF
+now
+(
+)
 )
 .
 unwrap

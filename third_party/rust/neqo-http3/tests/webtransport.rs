@@ -703,6 +703,9 @@ SessionAcceptAction
 :
 :
 Accept
+now
+(
+)
 )
 .
 unwrap
@@ -885,6 +888,9 @@ send_data
 (
 wt_stream_id
 data
+now
+(
+)
 )
 .
 unwrap
@@ -939,6 +945,9 @@ wt_stream
 send_data
 (
 data
+now
+(
+)
 )
 .
 unwrap
@@ -2123,6 +2132,7 @@ SessionAcceptAction
 :
 :
 Accept
+now
 )
 .
 unwrap
@@ -2200,6 +2210,7 @@ send_data
 [
 42
 ]
+now
 )
 .
 unwrap
@@ -2642,6 +2653,7 @@ SessionAcceptAction
 :
 :
 Accept
+now
 )
 .
 unwrap
@@ -2797,6 +2809,7 @@ wt_server_session
 stream_id
 (
 )
+&
 &
 &
 datagram

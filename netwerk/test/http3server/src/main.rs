@@ -23,6 +23,12 @@ use
 neqo_common
 :
 :
+Bytes
+;
+use
+neqo_common
+:
+:
 {
 event
 :
@@ -509,10 +515,7 @@ received_datagram
 :
 Option
 <
-Vec
-<
-u8
->
+Bytes
 >
 }
 impl
@@ -679,6 +682,9 @@ Vec
 <
 u8
 >
+now
+:
+Instant
 )
 {
 if
@@ -698,6 +704,7 @@ stream
 .
 stream_close_send
 (
+now
 )
 ;
 return
@@ -710,6 +717,7 @@ send_data
 (
 &
 data
+now
 )
 {
 Ok
@@ -753,6 +761,7 @@ stream
 .
 stream_close_send
 (
+now
 )
 ;
 }
@@ -790,6 +799,9 @@ self
 stream
 :
 Http3OrWebTransportStream
+now
+:
+Instant
 )
 {
 if
@@ -816,6 +828,7 @@ send_data
 (
 &
 data
+now
 )
 {
 Ok
@@ -859,6 +872,7 @@ stream
 .
 stream_close_send
 (
+now
 )
 .
 unwrap
@@ -903,18 +917,11 @@ maybe_close_session
 &
 mut
 self
+now
+:
+Instant
 )
 {
-let
-now
-=
-Instant
-:
-:
-now
-(
-)
-;
 for
 (
 expires
@@ -954,6 +961,7 @@ close_session
 0
 "
 "
+now
 )
 )
 ;
@@ -1067,6 +1075,9 @@ maybe_create_wt_stream
 &
 mut
 self
+now
+:
+Instant
 )
 {
 if
@@ -1147,6 +1158,7 @@ new_response
 (
 wt_server_stream
 data
+now
 )
 ;
 }
@@ -1189,6 +1201,7 @@ new_response
 (
 wt_server_stream
 data
+now
 )
 ;
 }
@@ -1376,12 +1389,14 @@ self
 .
 maybe_close_session
 (
+now
 )
 ;
 self
 .
 maybe_create_wt_stream
 (
+now
 )
 ;
 while
@@ -1721,6 +1736,7 @@ new_response
 (
 stream
 response_body
+now
 )
 ;
 }
@@ -2071,6 +2087,7 @@ new_response
 (
 stream
 response_body
+now
 )
 ;
 }
@@ -2274,6 +2291,7 @@ new_response
 (
 stream
 content
+now
 )
 ;
 }
@@ -2299,6 +2317,7 @@ new_response
 (
 stream
 default_ret
+now
 )
 ;
 }
@@ -2370,6 +2389,7 @@ stream
 .
 stream_close_send
 (
+now
 )
 .
 unwrap
@@ -2444,6 +2464,7 @@ a
 ;
 4000
 ]
+now
 )
 ;
 }
@@ -2546,6 +2567,7 @@ a
 ;
 8000
 ]
+now
 )
 ;
 }
@@ -2726,6 +2748,7 @@ as_bytes
 to_vec
 (
 )
+now
 )
 ;
 }
@@ -2777,6 +2800,7 @@ stream
 .
 stream_close_send
 (
+now
 )
 .
 unwrap
@@ -2942,6 +2966,7 @@ stream
 .
 stream_close_send
 (
+now
 )
 .
 unwrap
@@ -2963,14 +2988,14 @@ if
 let
 Some
 (
-vec_ref
+dgram
 )
 =
 self
 .
 received_datagram
 .
-as_ref
+take
 (
 )
 {
@@ -3003,7 +3028,7 @@ content
 -
 length
 "
-vec_ref
+dgram
 .
 len
 (
@@ -3025,18 +3050,17 @@ self
 new_response
 (
 stream
-vec_ref
+dgram
+.
+as_ref
+(
+)
 .
 to_vec
 (
 )
+now
 )
-;
-self
-.
-received_datagram
-=
-None
 ;
 }
 else
@@ -3087,6 +3111,7 @@ stream
 .
 stream_close_send
 (
+now
 )
 .
 unwrap
@@ -3252,6 +3277,7 @@ a
 ;
 100
 ]
+now
 )
 ;
 }
@@ -3314,6 +3340,7 @@ a
 ;
 100
 ]
+now
 )
 ;
 }
@@ -3441,6 +3468,7 @@ a
 ;
 v
 ]
+now
 )
 ;
 }
@@ -3469,6 +3497,7 @@ new_response
 (
 stream
 default_ret
+now
 )
 ;
 }
@@ -3497,6 +3526,7 @@ new_response
 (
 stream
 default_ret
+now
 )
 ;
 }
@@ -3548,6 +3578,7 @@ new_response
 (
 stream
 data
+now
 )
 ;
 }
@@ -3588,6 +3619,7 @@ send_data
 (
 &
 data
+now
 )
 .
 unwrap
@@ -3598,6 +3630,7 @@ echo_back
 .
 stream_close_send
 (
+now
 )
 .
 unwrap
@@ -3756,6 +3789,7 @@ new_response
 (
 stream
 default_ret
+now
 )
 ;
 }
@@ -3770,12 +3804,15 @@ stream
 }
 =
 >
+{
 self
 .
 handle_stream_writable
 (
 stream
+now
 )
+}
 Http3ServerEvent
 :
 :
@@ -4037,6 +4074,7 @@ SessionAcceptAction
 :
 :
 Accept
+now
 )
 .
 unwrap
@@ -4096,6 +4134,7 @@ to_vec
 (
 )
 )
+now
 )
 .
 unwrap
@@ -4143,6 +4182,7 @@ to_vec
 (
 )
 )
+now
 )
 .
 unwrap
@@ -4169,6 +4209,7 @@ SessionAcceptAction
 :
 :
 Accept
+now
 )
 .
 unwrap
@@ -4242,6 +4283,7 @@ SessionAcceptAction
 :
 :
 Accept
+now
 )
 .
 unwrap
@@ -4333,6 +4375,7 @@ SessionAcceptAction
 :
 :
 Accept
+now
 )
 .
 unwrap
@@ -4375,6 +4418,7 @@ SessionAcceptAction
 :
 :
 Accept
+now
 )
 .
 unwrap
@@ -4428,6 +4472,7 @@ SessionAcceptAction
 :
 :
 Accept
+now
 )
 .
 unwrap
@@ -4478,6 +4523,7 @@ SessionAcceptAction
 :
 :
 Accept
+now
 )
 .
 unwrap
@@ -4559,6 +4605,7 @@ SessionAcceptAction
 :
 :
 Accept
+now
 )
 .
 unwrap
@@ -4596,6 +4643,7 @@ SessionAcceptAction
 :
 :
 Accept
+now
 )
 .
 unwrap
@@ -4638,6 +4686,7 @@ to_vec
 (
 )
 )
+now
 )
 .
 unwrap
@@ -5343,6 +5392,9 @@ Vec
 <
 u8
 >
+now
+:
+Instant
 )
 {
 if
@@ -5362,6 +5414,7 @@ stream
 .
 stream_close_send
 (
+now
 )
 ;
 return
@@ -5374,6 +5427,7 @@ send_data
 (
 &
 data
+now
 )
 {
 Ok
@@ -5414,6 +5468,7 @@ stream
 .
 stream_close_send
 (
+now
 )
 .
 unwrap
@@ -5476,6 +5531,9 @@ self
 stream
 :
 Http3OrWebTransportStream
+now
+:
+Instant
 )
 {
 if
@@ -5502,6 +5560,7 @@ send_data
 (
 &
 data
+now
 )
 {
 Ok
@@ -5545,6 +5604,7 @@ stream
 .
 stream_close_send
 (
+now
 )
 .
 unwrap
@@ -6439,6 +6499,9 @@ maybe_process_response
 &
 mut
 self
+now
+:
+Instant
 )
 {
 let
@@ -6604,6 +6667,7 @@ new_response
 (
 stream
 data
+now
 )
 ;
 }
@@ -6775,7 +6839,7 @@ process_events
 &
 mut
 self
-_now
+now
 :
 Instant
 )
@@ -6798,6 +6862,7 @@ self
 .
 maybe_process_response
 (
+now
 )
 ;
 while
@@ -7337,12 +7402,15 @@ stream
 }
 =
 >
+{
 self
 .
 handle_stream_writable
 (
 stream
+now
 )
+}
 Http3ServerEvent
 :
 :
@@ -7651,7 +7719,7 @@ process_events
 &
 mut
 self
-_now
+now
 :
 Instant
 )
@@ -8046,6 +8114,7 @@ stream
 .
 stream_close_send
 (
+now
 )
 .
 unwrap
@@ -8332,6 +8401,7 @@ recv_buffer
 make_contiguous
 (
 )
+now
 )
 .
 unwrap
@@ -8403,6 +8473,7 @@ SessionAcceptAction
 :
 :
 Accept
+now
 )
 .
 unwrap
@@ -9170,6 +9241,12 @@ recv_buffer
 make_contiguous
 (
 )
+Instant
+:
+:
+now
+(
+)
 )
 .
 unwrap
@@ -9601,7 +9678,7 @@ poll_send
 cx
 datagram
 .
-as_slice
+as_ref
 (
 )
 )
@@ -9676,10 +9753,6 @@ origin
 "
 n
 datagram
-.
-as_slice
-(
-)
 .
 len
 (
@@ -9794,10 +9867,7 @@ send_buffer
 :
 VecDeque
 <
-Vec
-<
-u8
->
+Bytes
 >
 socket
 :

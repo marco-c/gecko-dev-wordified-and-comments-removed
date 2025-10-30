@@ -1,4 +1,13 @@
 use
+std
+:
+:
+time
+:
+:
+Instant
+;
+use
 neqo_common
 :
 :
@@ -284,6 +293,9 @@ conn
 &
 mut
 Connection
+now
+:
+Instant
 )
 -
 >
@@ -407,6 +419,7 @@ qlog_mut
 *
 stream_id
 sent
+now
 )
 ;
 Ok
@@ -432,6 +445,9 @@ to_send
 [
 u8
 ]
+now
+:
+Instant
 )
 -
 >
@@ -445,6 +461,7 @@ self
 send_buffer
 (
 conn
+now
 )
 ?
 ;
@@ -517,6 +534,7 @@ to_send
 len
 (
 )
+now
 )
 ;
 }

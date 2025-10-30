@@ -27,6 +27,10 @@ rc
 :
 :
 Rc
+time
+:
+:
+Instant
 }
 ;
 use
@@ -35,6 +39,7 @@ neqo_common
 :
 {
 qdebug
+Bytes
 Encoder
 Header
 }
@@ -366,6 +371,9 @@ buf
 [
 u8
 ]
+now
+:
+Instant
 )
 -
 >
@@ -399,6 +407,7 @@ conn
 borrow_mut
 (
 )
+now
 )
 }
 pub
@@ -452,6 +461,9 @@ stream_close_send
 (
 &
 self
+now
+:
+Instant
 )
 -
 >
@@ -485,6 +497,7 @@ conn
 borrow_mut
 (
 )
+now
 )
 }
 pub
@@ -849,6 +862,9 @@ data
 [
 u8
 ]
+now
+:
+Instant
 )
 -
 >
@@ -879,6 +895,7 @@ stream_handler
 send_data
 (
 data
+now
 )
 }
 pub
@@ -887,6 +904,9 @@ stream_close_send
 (
 &
 self
+now
+:
+Instant
 )
 -
 >
@@ -917,6 +937,7 @@ stream_handler
 .
 stream_close_send
 (
+now
 )
 }
 }
@@ -1179,6 +1200,9 @@ accept
 :
 &
 SessionAcceptAction
+now
+:
+Instant
 )
 -
 >
@@ -1240,6 +1264,7 @@ stream_id
 (
 )
 accept
+now
 )
 }
 pub
@@ -1255,6 +1280,9 @@ message
 :
 &
 str
+now
+:
+Instant
 )
 -
 >
@@ -1298,6 +1326,7 @@ stream_id
 )
 error
 message
+now
 )
 }
 #
@@ -1751,6 +1780,9 @@ accept
 :
 &
 SessionAcceptAction
+now
+:
+Instant
 )
 -
 >
@@ -1812,6 +1844,7 @@ stream_id
 (
 )
 accept
+now
 )
 }
 pub
@@ -1827,6 +1860,9 @@ message
 :
 &
 str
+now
+:
+Instant
 )
 -
 >
@@ -1870,6 +1906,7 @@ stream_id
 )
 error
 message
+now
 )
 }
 #
@@ -2132,10 +2169,7 @@ session
 WebTransportRequest
 datagram
 :
-Vec
-<
-u8
->
+Bytes
 }
 }
 #
@@ -2193,10 +2227,7 @@ session
 ConnectUdpRequest
 datagram
 :
-Vec
-<
-u8
->
+Bytes
 }
 }
 #
@@ -2992,10 +3023,7 @@ session
 WebTransportRequest
 datagram
 :
-Vec
-<
-u8
->
+Bytes
 )
 {
 self
@@ -3033,10 +3061,7 @@ session
 ConnectUdpRequest
 datagram
 :
-Vec
-<
-u8
->
+Bytes
 )
 {
 self
