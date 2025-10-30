@@ -265,7 +265,7 @@ aKidReflowInput
 const
 LogicalSize
 &
-aLogicalCBSize
+aCBSize
 const
 LogicalSize
 &
@@ -292,7 +292,7 @@ aKidReflowInput
 const
 LogicalSize
 &
-aLogicalCBSize
+aCBSize
 const
 LogicalSize
 &
