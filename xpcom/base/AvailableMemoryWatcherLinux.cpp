@@ -1309,6 +1309,12 @@ mUnderMemoryPressure
 =
 true
 ;
+StartPolling
+(
+lock
+)
+;
+}
 UpdatePSIInfo
 (
 lock
@@ -1319,12 +1325,6 @@ UpdateCrashAnnotation
 lock
 )
 ;
-StartPolling
-(
-lock
-)
-;
-}
 UpdateLowMemoryTimeStamp
 (
 )
@@ -1546,6 +1546,7 @@ mUnderMemoryPressure
 =
 false
 ;
+}
 UpdatePSIInfo
 (
 lock
@@ -1556,7 +1557,6 @@ UpdateCrashAnnotation
 lock
 )
 ;
-}
 StartPolling
 (
 lock
