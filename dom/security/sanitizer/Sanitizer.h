@@ -357,7 +357,7 @@ RemoveElementCanonical
 sanitizer
 :
 :
-CanonicalElement
+CanonicalName
 &
 &
 aElement
@@ -369,7 +369,7 @@ RemoveAttributeCanonical
 sanitizer
 :
 :
-CanonicalAttribute
+CanonicalName
 &
 &
 aAttribute
@@ -400,7 +400,7 @@ const
 sanitizer
 :
 :
-CanonicalElement
+CanonicalName
 &
 aElementName
 bool
@@ -515,7 +515,7 @@ Maybe
 sanitizer
 :
 :
-CanonicalElementSet
+CanonicalNameSet
 >
 mRemoveElements
 ;
@@ -524,7 +524,7 @@ Maybe
 sanitizer
 :
 :
-CanonicalElementSet
+CanonicalNameSet
 >
 mReplaceWithChildrenElements
 ;
@@ -533,7 +533,7 @@ Maybe
 sanitizer
 :
 :
-CanonicalAttributeSet
+CanonicalNameSet
 >
 mAttributes
 ;
@@ -542,7 +542,7 @@ Maybe
 sanitizer
 :
 :
-CanonicalAttributeSet
+CanonicalNameSet
 >
 mRemoveAttributes
 ;
