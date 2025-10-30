@@ -654,9 +654,13 @@ js
 ]
 requesttimeoutfactor
 =
-2
+4
 #
 Slow
+and
+high
+CPU
+use
 on
 debug
 builds

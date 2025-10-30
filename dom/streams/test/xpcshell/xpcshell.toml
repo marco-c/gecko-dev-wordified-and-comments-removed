@@ -79,9 +79,12 @@ js
 ]
 requesttimeoutfactor
 =
-5
+6
 #
 Slow
+and
+high
+CPU
 on
 Linux
 and
