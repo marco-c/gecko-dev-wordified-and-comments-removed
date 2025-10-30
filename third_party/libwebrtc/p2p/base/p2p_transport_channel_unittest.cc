@@ -47102,10 +47102,13 @@ std
 :
 optional
 <
-absl
+std
 :
 :
-string_view
+vector
+<
+uint32_t
+>
 >
 >
 data_to_piggyback_func
