@@ -40,3 +40,13 @@ https
 tentative
 .
 html
+-
+name
+:
+registerprotocolhandler
+files
+:
+-
+protocol
+-
+*
