@@ -428,16 +428,6 @@ decoding
 \
 _
 (
-REMOTE_CANVAS
-Feature
-"
-Remote
-canvas
-"
-)
-\
-_
-(
 DMABUF_WEBGL
 Feature
 "

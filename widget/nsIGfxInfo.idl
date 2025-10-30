@@ -172,11 +172,6 @@ usingGPUProcess
 readonly
 attribute
 boolean
-usingRemoteCanvas
-;
-readonly
-attribute
-boolean
 usingAcceleratedCanvas
 ;
 readonly

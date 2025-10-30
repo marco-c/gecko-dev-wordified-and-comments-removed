@@ -234,13 +234,6 @@ reinitialized
 )
 ;
 const
-remoteCanvas
-=
-gfxInfo
-.
-usingRemoteCanvas
-;
-const
 acceleratedCanvas
 =
 gfxInfo
@@ -254,13 +247,6 @@ true
 Restarting
 GPU
 process
-remote
-canvas
-"
-+
-remoteCanvas
-+
-"
 accelerated
 canvas
 "
@@ -278,9 +264,6 @@ await
 promise
 ;
 return
-remoteCanvas
-|
-|
 acceleratedCanvas
 ;
 }

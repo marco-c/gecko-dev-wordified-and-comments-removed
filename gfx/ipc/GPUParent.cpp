@@ -1903,14 +1903,6 @@ useRemoteCanvas
 gfxVars
 :
 :
-RemoteCanvasEnabled
-(
-)
-|
-|
-gfxVars
-:
-:
 UseAcceleratedCanvas2D
 (
 )
