@@ -13,6 +13,9 @@ TimeStamp
 h
 "
 ;
+[
+MoveOnly
+]
 using
 struct
 mozilla
