@@ -408,11 +408,13 @@ new
 input
 :
 &
+'
+a
 str
 )
 -
 >
-Tokenizer
+Self
 {
 Tokenizer
 {
@@ -4703,7 +4705,6 @@ is_ident_start
 tokenizer
 :
 &
-mut
 Tokenizer
 )
 -

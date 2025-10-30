@@ -150,7 +150,7 @@ cssparser
 "
 0
 .
-34
+35
 "
 derive_more
 =
@@ -171,12 +171,16 @@ add_assign
 "
 ]
 }
-fxhash
+rustc
+-
+hash
 =
 "
-0
-.
 2
+.
+1
+.
+1
 "
 log
 =
@@ -190,7 +194,7 @@ phf
 "
 0
 .
-11
+13
 "
 precomputed
 -
@@ -293,5 +297,5 @@ phf_codegen
 "
 0
 .
-11
+13
 "
