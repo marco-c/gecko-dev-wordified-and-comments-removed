@@ -243,10 +243,6 @@ function
 (
 )
 {
-do_get_profile
-(
-)
-;
 Services
 .
 prefs
