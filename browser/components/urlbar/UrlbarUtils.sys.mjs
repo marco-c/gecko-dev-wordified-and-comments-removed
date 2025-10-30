@@ -17860,6 +17860,16 @@ someStyleProperty
 :
 someValue
 *
+"
+another
+-
+style
+-
+property
+"
+:
+someValue
+*
 }
 *
 l10n
