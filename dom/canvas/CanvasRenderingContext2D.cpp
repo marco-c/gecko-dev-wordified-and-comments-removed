@@ -7060,7 +7060,7 @@ document
 document
 -
 >
-CSSLoader
+GetExistingCSSLoader
 (
 )
 :
@@ -14222,7 +14222,7 @@ GetCompatibilityMode
 aDocument
 -
 >
-CSSLoader
+GetExistingCSSLoader
 (
 )
 }

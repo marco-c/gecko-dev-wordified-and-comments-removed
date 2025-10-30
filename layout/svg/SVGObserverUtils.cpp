@@ -4325,11 +4325,10 @@ GetImageRequest
 doc
 -
 >
-StyleImageLoader
+EnsureStyleImageLoader
 (
 )
--
->
+.
 AssociateRequestToFrame
 (
 req

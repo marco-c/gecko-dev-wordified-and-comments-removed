@@ -496,7 +496,10 @@ mOwner
 NodePrincipal
 (
 )
-true
+LoadedAsData
+:
+:
+AsData
 scriptHandlingObject
 DocumentFlavor
 :
@@ -790,7 +793,10 @@ mOwner
 NodePrincipal
 (
 )
-true
+LoadedAsData
+:
+:
+AsData
 scriptHandlingObject
 DocumentFlavor
 :

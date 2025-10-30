@@ -980,7 +980,7 @@ GetCompatibilityMode
 document
 -
 >
-CSSLoader
+GetExistingCSSLoader
 (
 )
 aRuleType

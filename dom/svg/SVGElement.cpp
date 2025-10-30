@@ -6845,10 +6845,11 @@ doc
 GetCompatibilityMode
 (
 )
+&
 doc
 -
 >
-CSSLoader
+EnsureCSSLoader
 (
 )
 StyleCssRuleType

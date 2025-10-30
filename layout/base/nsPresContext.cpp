@@ -6408,11 +6408,10 @@ doc
 doc
 -
 >
-StyleImageLoader
+EnsureStyleImageLoader
 (
 )
--
->
+.
 SetAnimationMode
 (
 aMode

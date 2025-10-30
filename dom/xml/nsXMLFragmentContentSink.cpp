@@ -1369,10 +1369,6 @@ mScriptLoader
 =
 nullptr
 ;
-mCSSLoader
-=
-nullptr
-;
 mContentStack
 .
 Clear
