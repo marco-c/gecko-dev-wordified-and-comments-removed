@@ -82,12 +82,14 @@ Dispatching
 '
 "
 +
+(
 action
 .
 type
 |
 |
 action
+)
 +
 "
 '
