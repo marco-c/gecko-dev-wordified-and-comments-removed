@@ -377,15 +377,6 @@ include
 "
 mozilla
 /
-ThreadLocal
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TimeStamp
 .
 h
