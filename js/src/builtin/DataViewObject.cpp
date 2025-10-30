@@ -6856,7 +6856,7 @@ DataViewObject
 bufferGetter
 0
 )
-JS_INLINABLE_PSG
+JS_PSG
 (
 "
 byteLength
@@ -6866,9 +6866,8 @@ DataViewObject
 :
 byteLengthGetter
 0
-DataViewByteLength
 )
-JS_INLINABLE_PSG
+JS_PSG
 (
 "
 byteOffset
@@ -6878,7 +6877,6 @@ DataViewObject
 :
 byteOffsetGetter
 0
-DataViewByteOffset
 )
 JS_STRING_SYM_PS
 (

@@ -3834,7 +3834,7 @@ name
 ArrayJoinResult
 shared
 :
-true
+false
 transpile
 :
 true
@@ -3909,7 +3909,7 @@ name
 PackedArraySliceResult
 shared
 :
-true
+false
 transpile
 :
 true
@@ -3936,7 +3936,7 @@ name
 ArgumentsSliceResult
 shared
 :
-true
+false
 transpile
 :
 true
@@ -5190,7 +5190,7 @@ name
 MathRandomResult
 shared
 :
-true
+false
 transpile
 :
 true
@@ -6720,7 +6720,7 @@ name
 BindFunctionResult
 shared
 :
-true
+false
 transpile
 :
 true
@@ -6744,7 +6744,7 @@ name
 SpecializedBindFunctionResult
 shared
 :
-true
+false
 transpile
 :
 true

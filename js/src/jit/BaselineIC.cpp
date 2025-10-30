@@ -4378,7 +4378,6 @@ CacheKind
 GetElem
 lhs
 rhs
-lhs
 )
 ;
 if
@@ -4548,7 +4547,6 @@ CacheKind
 GetElemSuper
 lhs
 rhs
-receiver
 )
 ;
 return
@@ -7426,7 +7424,7 @@ frame
 ICFallbackStub
 *
 stub
-HandleValue
+MutableHandleValue
 val
 MutableHandleValue
 res
@@ -7562,7 +7560,6 @@ CacheKind
 GetProp
 val
 idVal
-val
 )
 ;
 if
@@ -7653,7 +7650,7 @@ ICFallbackStub
 stub
 HandleValue
 receiver
-HandleValue
+MutableHandleValue
 val
 MutableHandleValue
 res
@@ -7817,7 +7814,6 @@ CacheKind
 GetPropSuper
 val
 idVal
-receiver
 )
 ;
 if
@@ -7917,7 +7913,7 @@ BaselineFrame
 ICFallbackStub
 *
 HandleValue
-HandleValue
+MutableHandleValue
 MutableHandleValue
 )
 ;
@@ -7988,7 +7984,7 @@ BaselineFrame
 *
 ICFallbackStub
 *
-HandleValue
+MutableHandleValue
 MutableHandleValue
 )
 ;
@@ -9517,6 +9513,7 @@ gen
 cx
 script
 pc
+op
 stub
 -
 >
@@ -10187,6 +10184,7 @@ gen
 cx
 script
 pc
+op
 stub
 -
 >
