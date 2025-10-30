@@ -2064,8 +2064,9 @@ if
 lastBackupFile
 |
 |
-new
 Date
+.
+now
 (
 )
 -
@@ -2076,6 +2077,10 @@ PlacesBackups
 getDateForFile
 (
 lastBackupFile
+)
+.
+getTime
+(
 )
 >
 BOOKMARKS_BACKUP_MIN_INTERVAL_DAYS

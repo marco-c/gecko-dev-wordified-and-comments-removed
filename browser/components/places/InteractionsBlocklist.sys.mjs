@@ -1800,7 +1800,7 @@ catch
 ex
 )
 {
-this
+lazy
 .
 logConsole
 .
@@ -1990,7 +1990,7 @@ catch
 ex
 )
 {
-this
+lazy
 .
 logConsole
 .
