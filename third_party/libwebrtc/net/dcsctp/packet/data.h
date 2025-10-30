@@ -7,6 +7,11 @@ NET_DCSCTP_PACKET_DATA_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 cstdint
 >
 #
@@ -42,6 +47,15 @@ dcsctp
 public
 /
 types
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+strong_alias
 .
 h
 "

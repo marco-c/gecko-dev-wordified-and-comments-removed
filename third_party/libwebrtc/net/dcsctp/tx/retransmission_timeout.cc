@@ -18,11 +18,6 @@ algorithm
 >
 #
 include
-<
-cstdint
->
-#
-include
 "
 api
 /

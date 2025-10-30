@@ -7,9 +7,7 @@ NET_DCSCTP_PUBLIC_PACKET_OBSERVER_H_
 #
 include
 <
-stdint
-.
-h
+cstdint
 >
 #
 include

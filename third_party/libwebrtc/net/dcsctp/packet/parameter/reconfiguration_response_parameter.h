@@ -7,9 +7,7 @@ NET_DCSCTP_PACKET_PARAMETER_RECONFIGURATION_RESPONSE_PARAMETER_H_
 #
 include
 <
-stddef
-.
-h
+cstddef
 >
 #
 include

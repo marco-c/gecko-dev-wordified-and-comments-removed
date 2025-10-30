@@ -6,11 +6,6 @@ define
 NET_DCSCTP_PUBLIC_TIMEOUT_H_
 #
 include
-<
-cstdint
->
-#
-include
 "
 net
 /

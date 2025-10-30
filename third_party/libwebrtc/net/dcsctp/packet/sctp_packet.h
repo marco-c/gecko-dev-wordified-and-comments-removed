@@ -7,9 +7,7 @@ NET_DCSCTP_PACKET_SCTP_PACKET_H_
 #
 include
 <
-stddef
-.
-h
+cstddef
 >
 #
 include
@@ -19,12 +17,7 @@ cstdint
 #
 include
 <
-functional
->
-#
-include
-<
-memory
+optional
 >
 #
 include
