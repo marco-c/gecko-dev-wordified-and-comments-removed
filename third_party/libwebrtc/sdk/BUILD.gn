@@ -7092,6 +7092,14 @@ videotoolbox_objc
 /
 api
 :
+create_modular_peer_connection_factory
+"
+"
+.
+.
+/
+api
+:
 dtmf_sender_interface
 "
 "

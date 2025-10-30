@@ -239,6 +239,15 @@ include
 "
 api
 /
+create_modular_peer_connection_factory
+.
+h
+"
+#
+include
+"
+api
+/
 enable_media
 .
 h
