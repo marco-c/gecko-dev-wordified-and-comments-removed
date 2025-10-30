@@ -5991,12 +5991,7 @@ walkerFront
 getIdrefNode
 (
 nodeFront
-CSS
-.
-escape
-(
 link
-)
 )
 .
 then
