@@ -40,8 +40,11 @@ return
 !
 TryEnterCriticalSection
 (
-&
 mMutex
+.
+addr
+(
+)
 )
 ;
 #

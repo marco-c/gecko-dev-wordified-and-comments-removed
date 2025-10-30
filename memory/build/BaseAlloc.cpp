@@ -21,6 +21,7 @@ using
 namespace
 mozilla
 ;
+MOZ_CONSTINIT
 Mutex
 base_mtx
 ;
