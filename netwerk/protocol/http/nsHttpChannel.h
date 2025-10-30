@@ -3509,6 +3509,12 @@ mRCWNLock
 "
 }
 ;
+bool
+mBypassCacheWriterSet
+{
+false
+}
+;
 TimeStamp
 mNavigationStartTimeStamp
 ;
