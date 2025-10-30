@@ -949,7 +949,7 @@ allow_poison
 software_video_codecs
 "
 ]
-public
+sources
 =
 [
 "
@@ -1034,7 +1034,7 @@ allow_poison
 software_video_codecs
 "
 ]
-public
+sources
 =
 [
 "
@@ -1124,7 +1124,7 @@ allow_poison
 software_video_codecs
 "
 ]
-public
+sources
 =
 [
 "
@@ -1186,7 +1186,7 @@ allow_poison
 software_video_codecs
 "
 ]
-public
+sources
 =
 [
 "
@@ -1248,7 +1248,7 @@ allow_poison
 software_video_codecs
 "
 ]
-public
+sources
 =
 [
 "
@@ -1361,7 +1361,7 @@ allow_poison
 software_video_codecs
 "
 ]
-public
+sources
 =
 [
 "
@@ -1427,7 +1427,7 @@ allow_poison
 software_video_codecs
 "
 ]
-public
+sources
 =
 [
 "
@@ -1485,7 +1485,7 @@ allow_poison
 software_video_codecs
 "
 ]
-public
+sources
 =
 [
 "
@@ -1537,7 +1537,7 @@ allow_poison
 software_video_codecs
 "
 ]
-public
+sources
 =
 [
 "
@@ -1589,7 +1589,7 @@ allow_poison
 software_video_codecs
 "
 ]
-public
+sources
 =
 [
 "
@@ -1637,7 +1637,7 @@ video_encoding_general
 "
 )
 {
-public
+sources
 =
 [
 "
@@ -1654,7 +1654,7 @@ video_encoder_interface
 "
 )
 {
-public
+sources
 =
 [
 "
@@ -1821,7 +1821,7 @@ video_encoder_factory_interface
 "
 )
 {
-public
+sources
 =
 [
 "

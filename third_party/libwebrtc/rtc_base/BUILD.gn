@@ -977,15 +977,6 @@ visibility
 *
 "
 ]
-public
-=
-[
-"
-denormal_disabler
-.
-h
-"
-]
 sources
 =
 [
@@ -993,6 +984,11 @@ sources
 denormal_disabler
 .
 cc
+"
+"
+denormal_disabler
+.
+h
 "
 ]
 deps
