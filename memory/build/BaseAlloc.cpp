@@ -79,6 +79,8 @@ CHUNK_CEILING
 minsize
 )
 ;
+void
+*
 base_pages
 =
 chunk_alloc
