@@ -120,6 +120,11 @@ ClearDataCallback
 h
 "
 "
+ProfileAfterChangeGate
+.
+h
+"
+"
 PromiseNativeWrapper
 .
 h
@@ -171,6 +176,11 @@ cpp
 "
 "
 ClearDataCallback
+.
+cpp
+"
+"
+ProfileAfterChangeGate
 .
 cpp
 "
