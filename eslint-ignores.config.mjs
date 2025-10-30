@@ -294,7 +294,6 @@ files
 .
 "
 !
-/
 layout
 /
 tools
