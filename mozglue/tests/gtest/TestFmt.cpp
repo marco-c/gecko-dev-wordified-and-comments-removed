@@ -349,13 +349,18 @@ withFmt
 ;
 withFmt
 .
-AppendFmt
+AppendVfmt
 (
 fmtFormat
 .
 get
 (
 )
+fmt
+:
+:
+make_format_args
+(
 tfformat
 :
 :
@@ -365,6 +370,7 @@ i
 ]
 .
 value
+)
 )
 ;
 SprintfBuf
