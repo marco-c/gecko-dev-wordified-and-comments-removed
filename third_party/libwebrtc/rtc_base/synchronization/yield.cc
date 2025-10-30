@@ -27,13 +27,6 @@ else
 #
 include
 <
-sched
-.
-h
->
-#
-include
-<
 time
 .
 h
