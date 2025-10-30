@@ -1409,7 +1409,6 @@ webrtc_perf_tests
 "
 Perf
 Linux
-Bionic
 "
 :
 {
@@ -1534,7 +1533,7 @@ os
 "
 Ubuntu
 -
-18
+22
 .
 04
 "
@@ -1728,7 +1727,7 @@ os
 "
 Ubuntu
 -
-18
+22
 .
 04
 "

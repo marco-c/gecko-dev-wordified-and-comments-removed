@@ -1023,16 +1023,6 @@ release_bot_x64_fuchsia
 '
 Perf
 Linux
-Bionic
-'
-:
-'
-release_bot_x64
-'
-'
-Perf
-Linux
-Trusty
 '
 :
 '

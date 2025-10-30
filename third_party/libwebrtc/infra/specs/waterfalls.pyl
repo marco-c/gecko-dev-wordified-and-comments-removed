@@ -1903,7 +1903,6 @@ perf_tests
 '
 Perf
 Linux
-Bionic
 '
 :
 {
@@ -1922,7 +1921,7 @@ mixins
 '
 linux
 -
-bionic
+jammy
 '
 '
 perf
