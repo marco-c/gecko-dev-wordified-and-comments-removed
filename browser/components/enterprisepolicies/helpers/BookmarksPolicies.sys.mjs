@@ -490,6 +490,7 @@ PolF
 /
 *
 *
+*
 Process
 the
 bookmarks
@@ -502,6 +503,11 @@ engine
 *
 *
 param
+{
+object
+[
+]
+}
 param
 *
 This
@@ -670,6 +676,7 @@ clear
 /
 *
 *
+*
 This
 function
 calculates
@@ -720,6 +727,11 @@ changed
 *
 *
 param
+{
+object
+[
+]
+}
 specifiedBookmarks
 *
 This
