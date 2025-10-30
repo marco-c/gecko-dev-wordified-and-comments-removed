@@ -664,12 +664,12 @@ override
 void
 DeliverRtcp
 (
+ArrayView
+<
 const
 uint8_t
-*
+>
 packet
-size_t
-length
 )
 RTC_LOCKS_EXCLUDED
 (

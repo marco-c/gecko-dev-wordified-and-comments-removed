@@ -4187,12 +4187,12 @@ RtpVideoSender
 :
 DeliverRtcp
 (
+ArrayView
+<
 const
 uint8_t
-*
+>
 packet
-size_t
-length
 )
 {
 for
@@ -4211,11 +4211,7 @@ rtp_rtcp
 >
 IncomingRtcpPacket
 (
-MakeArrayView
-(
 packet
-length
-)
 )
 ;
 }

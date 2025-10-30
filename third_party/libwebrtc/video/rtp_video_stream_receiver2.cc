@@ -7418,12 +7418,12 @@ RtpVideoStreamReceiver2
 :
 DeliverRtcp
 (
+ArrayView
+<
 const
 uint8_t
-*
+>
 rtcp_packet
-size_t
-rtcp_packet_length
 )
 {
 RTC_DCHECK_RUN_ON
@@ -7447,10 +7447,8 @@ rtp_rtcp_
 >
 IncomingRtcpPacket
 (
-MakeArrayView
 (
 rtcp_packet
-rtcp_packet_length
 )
 )
 ;

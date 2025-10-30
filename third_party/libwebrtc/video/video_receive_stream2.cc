@@ -17,13 +17,6 @@ h
 #
 include
 <
-string
-.
-h
->
-#
-include
-<
 algorithm
 >
 #
@@ -2239,12 +2232,12 @@ VideoReceiveStream2
 :
 DeliverRtcp
 (
+ArrayView
+<
 const
 uint8_t
-*
+>
 packet
-size_t
-length
 )
 {
 RTC_DCHECK_RUN_ON
@@ -2259,7 +2252,6 @@ rtp_video_stream_receiver_
 DeliverRtcp
 (
 packet
-length
 )
 ;
 }

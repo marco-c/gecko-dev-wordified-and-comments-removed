@@ -727,10 +727,11 @@ MOCK_METHOD
 void
 DeliverRtcp
 (
+ArrayView
+<
 const
 uint8_t
-*
-size_t
+>
 )
 (
 override

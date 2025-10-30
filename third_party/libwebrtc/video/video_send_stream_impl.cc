@@ -3457,12 +3457,12 @@ VideoSendStreamImpl
 :
 DeliverRtcp
 (
+ArrayView
+<
 const
 uint8_t
-*
+>
 packet
-size_t
-length
 )
 {
 RTC_DCHECK_RUN_ON
@@ -3477,7 +3477,6 @@ rtp_video_sender_
 DeliverRtcp
 (
 packet
-length
 )
 ;
 }

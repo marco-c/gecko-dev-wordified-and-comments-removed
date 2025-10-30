@@ -1419,16 +1419,7 @@ recv_stream
 >
 DeliverRtcp
 (
-&
 rtcp_packet
-[
-0
-]
-rtcp_packet
-.
-size
-(
-)
 )
 ;
 recv_stream
