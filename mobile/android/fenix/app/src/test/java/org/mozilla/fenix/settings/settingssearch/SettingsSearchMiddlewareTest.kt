@@ -301,7 +301,7 @@ state
 is
 SettingsSearchState
 .
-SearchInProgress
+NoSearchResults
 )
 assert
 (
