@@ -787,7 +787,7 @@ PR_ExplodeTime
 aCookie
 -
 >
-Expiry
+ExpiryInMSec
 (
 )
 *
@@ -856,7 +856,7 @@ PR_ExplodeTime
 aCookie
 -
 >
-CreationTime
+CreationTimeInUSec
 (
 )
 PR_GMTParameters

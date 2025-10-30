@@ -2126,7 +2126,7 @@ creationTimeInMSec
 =
 aCookieData
 .
-creationTime
+creationTimeInUSec
 (
 )
 /
@@ -2160,7 +2160,7 @@ INT64_MIN
 {
 aCookieData
 .
-expiry
+expiryInMSec
 (
 )
 =
@@ -2200,7 +2200,7 @@ maxage
 ;
 aCookieData
 .
-expiry
+expiryInMSec
 (
 )
 =
@@ -2338,7 +2338,7 @@ delta
 }
 aCookieData
 .
-expiry
+expiryInMSec
 (
 )
 =
@@ -2679,7 +2679,7 @@ mValidation
 ;
 mCookieData
 .
-expiry
+expiryInMSec
 (
 )
 =
@@ -2687,14 +2687,14 @@ INT64_MAX
 ;
 mCookieData
 .
-creationTime
+creationTimeInUSec
 (
 )
 =
 Cookie
 :
 :
-GenerateUniqueCreationTime
+GenerateUniqueCreationTimeInUSec
 (
 aCurrentTimeInUSec
 )

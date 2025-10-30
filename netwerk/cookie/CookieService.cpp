@@ -939,7 +939,7 @@ currentTimeInUsec
 aCookie
 -
 >
-CreationTime
+CreationTimeInUSec
 (
 )
 <
@@ -2841,7 +2841,7 @@ PR_Now
 cookie
 -
 >
-SetLastAccessed
+SetLastAccessedInUSec
 (
 currentTimeInUsec
 )
@@ -2849,12 +2849,12 @@ currentTimeInUsec
 cookie
 -
 >
-SetCreationTime
+SetCreationTimeInUSec
 (
 Cookie
 :
 :
-GenerateUniqueCreationTime
+GenerateUniqueCreationTimeInUSec
 (
 currentTimeInUsec
 )
@@ -3711,7 +3711,7 @@ currentTimeInUsec
 Cookie
 :
 :
-GenerateUniqueCreationTime
+GenerateUniqueCreationTimeInUSec
 (
 currentTimeInUsec
 )
@@ -4518,7 +4518,7 @@ PR_Now
 )
 ;
 int64_t
-currentTime
+currentTimeInMSec
 =
 currentTimeInUsec
 /
@@ -4675,12 +4675,12 @@ if
 cookie
 -
 >
-Expiry
+ExpiryInMSec
 (
 )
 <
 =
-currentTime
+currentTimeInMSec
 )
 {
 continue
@@ -6773,7 +6773,7 @@ if
 cookie
 -
 >
-CreationTime
+CreationTimeInUSec
 (
 )
 >
@@ -7035,7 +7035,7 @@ aCookie1
 )
 -
 >
-CreationTime
+CreationTimeInUSec
 (
 )
 =
@@ -7051,7 +7051,7 @@ aCookie2
 )
 -
 >
-CreationTime
+CreationTimeInUSec
 (
 )
 ;
@@ -7082,7 +7082,7 @@ aCookie1
 )
 -
 >
-CreationTime
+CreationTimeInUSec
 (
 )
 <
@@ -7097,7 +7097,7 @@ aCookie2
 )
 -
 >
-CreationTime
+CreationTimeInUSec
 (
 )
 ;
@@ -7188,7 +7188,7 @@ get
 )
 -
 >
-CreationTime
+CreationTimeInUSec
 (
 )
 >
@@ -7618,7 +7618,7 @@ continue
 cookie
 -
 >
-SetLastAccessed
+SetLastAccessedInUSec
 (
 currentTimeInUsec
 )
@@ -7626,12 +7626,12 @@ currentTimeInUsec
 cookie
 -
 >
-SetCreationTime
+SetCreationTimeInUSec
 (
 Cookie
 :
 :
-GenerateUniqueCreationTime
+GenerateUniqueCreationTimeInUSec
 (
 currentTimeInUsec
 )

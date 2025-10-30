@@ -33514,7 +33514,7 @@ PR_Now
 )
 ;
 int64_t
-currentTime
+currentTimeInMSec
 =
 currentTimeInUsec
 /
@@ -33836,12 +33836,12 @@ if
 cookie
 -
 >
-Expiry
+ExpiryInMSec
 (
 )
 <
 =
-currentTime
+currentTimeInMSec
 )
 {
 continue

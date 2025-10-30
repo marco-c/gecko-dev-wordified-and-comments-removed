@@ -1366,13 +1366,13 @@ nsCString
 path
 ;
 int64_t
-expiry
+expiryInMSec
 ;
 int64_t
-lastAccessed
+lastAccessedInUSec
 ;
 int64_t
-creationTime
+creationTimeInUSec
 ;
 bool
 isHttpOnly

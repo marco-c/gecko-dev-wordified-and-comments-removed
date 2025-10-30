@@ -933,7 +933,7 @@ CookieEntry
 *
 aEntry
 int64_t
-aCurrentTime
+aCurrentTimeInMSec
 bool
 aIsSecure
 nsTArray

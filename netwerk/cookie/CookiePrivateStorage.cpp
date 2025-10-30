@@ -124,7 +124,7 @@ IsStale
 cookie
 -
 >
-SetLastAccessed
+SetLastAccessedInUSec
 (
 aCurrentTimeInUsec
 )
