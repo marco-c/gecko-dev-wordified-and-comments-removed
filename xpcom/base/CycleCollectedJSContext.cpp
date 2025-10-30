@@ -4592,7 +4592,7 @@ empty
 }
 ;
 static
-bool
+void
 MOZ_CAN_RUN_SCRIPT
 RunMicroTask
 (
@@ -4666,7 +4666,6 @@ aso
 )
 ;
 return
-true
 ;
 }
 MOZ_ASSERT
@@ -5117,12 +5116,11 @@ GetContext
 )
 {
 return
-false
 ;
 }
-bool
-v
-=
+(
+void
+)
 JS
 :
 :
@@ -5146,9 +5144,6 @@ nullptr
 )
 ;
 }
-return
-v
-;
 }
 static
 bool
@@ -5707,9 +5702,6 @@ didProcess
 =
 true
 ;
-(
-void
-)
 RunMicroTask
 (
 cx
@@ -6093,9 +6085,6 @@ cx
 )
 )
 ;
-(
-void
-)
 RunMicroTask
 (
 cx
