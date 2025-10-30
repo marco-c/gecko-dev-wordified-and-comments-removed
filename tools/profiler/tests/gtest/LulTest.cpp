@@ -10,15 +10,6 @@ h
 #
 include
 "
-mozilla
-/
-Atomics
-.
-h
-"
-#
-include
-"
 LulMain
 .
 h

@@ -123,15 +123,6 @@ include
 "
 mozilla
 /
-Atomics
-.
-h
-"
-#
-include
-"
-mozilla
-/
 CORSMode
 .
 h

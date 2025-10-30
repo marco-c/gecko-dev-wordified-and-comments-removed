@@ -39,15 +39,6 @@ include
 "
 mozilla
 /
-Atomics
-.
-h
-"
-#
-include
-"
-mozilla
-/
 RecursiveMutex
 .
 h

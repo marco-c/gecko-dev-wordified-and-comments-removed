@@ -25,15 +25,6 @@ WMFUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Atomics
-.
-h
-"
 namespace
 mozilla
 {

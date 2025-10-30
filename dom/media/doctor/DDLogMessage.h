@@ -42,15 +42,6 @@ h
 #
 include
 "
-mozilla
-/
-Atomics
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

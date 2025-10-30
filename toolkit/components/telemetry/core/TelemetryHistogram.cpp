@@ -105,15 +105,6 @@ include
 "
 mozilla
 /
-Atomics
-.
-h
-"
-#
-include
-"
-mozilla
-/
 JSONWriter
 .
 h

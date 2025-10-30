@@ -42,15 +42,6 @@ include
 "
 mozilla
 /
-Atomics
-.
-h
-"
-#
-include
-"
-mozilla
-/
 java
 /
 GeckoAppShellWrappers

@@ -85,15 +85,6 @@ include
 "
 mozilla
 /
-Atomics
-.
-h
-"
-#
-include
-"
-mozilla
-/
 BasePrincipal
 .
 h

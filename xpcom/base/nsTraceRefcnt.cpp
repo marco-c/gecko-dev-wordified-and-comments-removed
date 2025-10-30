@@ -242,15 +242,6 @@ include
 "
 mozilla
 /
-Atomics
-.
-h
-"
-#
-include
-"
-mozilla
-/
 AutoRestore
 .
 h

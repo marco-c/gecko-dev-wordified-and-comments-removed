@@ -7,15 +7,6 @@ wasm_WasmMetadata_h
 #
 include
 "
-mozilla
-/
-Atomics
-.
-h
-"
-#
-include
-"
 wasm
 /
 WasmBinaryTypes

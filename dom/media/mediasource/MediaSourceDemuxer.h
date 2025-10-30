@@ -41,15 +41,6 @@ include
 "
 mozilla
 /
-Atomics
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EventTargetAndLockCapability
 .
 h
