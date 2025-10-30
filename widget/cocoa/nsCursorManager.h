@@ -40,7 +40,7 @@ mCurrentCursorType
 }
 -
 (
-nsresult
+void
 )
 setNonCustomCursor
 :
