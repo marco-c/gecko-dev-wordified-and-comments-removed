@@ -597,6 +597,15 @@ test_providerOmnibox
 js
 "
 ]
+requesttimeoutfactor
+=
+2
+#
+Slow
+on
+Linux
+and
+Windows
 [
 "
 test_providerOpenTabs

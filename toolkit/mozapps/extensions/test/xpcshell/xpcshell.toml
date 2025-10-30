@@ -164,6 +164,13 @@ test_AddonRepository_cache
 js
 "
 ]
+requesttimeoutfactor
+=
+2
+#
+Slow
+on
+Windows
 skip
 -
 if

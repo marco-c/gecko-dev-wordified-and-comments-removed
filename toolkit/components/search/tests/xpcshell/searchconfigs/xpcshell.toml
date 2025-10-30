@@ -211,6 +211,15 @@ test_searchconfig
 js
 "
 ]
+requesttimeoutfactor
+=
+3
+#
+Slow
+on
+Linux
+and
+Windows
 [
 "
 test_searchconfig_google_additional

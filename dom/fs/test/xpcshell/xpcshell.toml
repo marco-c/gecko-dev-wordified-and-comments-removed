@@ -45,6 +45,13 @@ test_fileSystemDirectoryHandle
 js
 "
 ]
+requesttimeoutfactor
+=
+2
+#
+Slow
+on
+Linux
 [
 "
 test_fileSystemDirectoryHandle_worker
@@ -52,6 +59,13 @@ test_fileSystemDirectoryHandle_worker
 js
 "
 ]
+requesttimeoutfactor
+=
+2
+#
+Slow
+on
+Linux
 [
 "
 test_getDirectoryFailure

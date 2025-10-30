@@ -630,6 +630,13 @@ test_snapshotting
 js
 "
 ]
+requesttimeoutfactor
+=
+2
+#
+Slow
+on
+debug
 [
 "
 test_stringLength

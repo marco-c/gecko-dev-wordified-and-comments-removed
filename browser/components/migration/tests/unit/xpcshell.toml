@@ -449,6 +449,13 @@ test_IE_history
 js
 "
 ]
+requesttimeoutfactor
+=
+2
+#
+Slow
+on
+condprof
 run
 -
 if

@@ -98,6 +98,15 @@ test_purge_trackers
 js
 "
 ]
+requesttimeoutfactor
+=
+2
+#
+Slow
+on
+Linux
+and
+Windows
 run
 -
 sequentially

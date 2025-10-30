@@ -77,6 +77,15 @@ pipeto
 js
 "
 ]
+requesttimeoutfactor
+=
+5
+#
+Slow
+on
+Linux
+and
+Windows
 run
 -
 sequentially

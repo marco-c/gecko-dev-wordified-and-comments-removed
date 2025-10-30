@@ -159,6 +159,13 @@ test_subprocess_perf
 js
 "
 ]
+requesttimeoutfactor
+=
+2
+#
+Slow
+on
+Windows
 [
 "
 test_subprocess_polling

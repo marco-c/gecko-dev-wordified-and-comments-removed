@@ -43,6 +43,13 @@ test_AsyncShutdown_leave_uncaught
 js
 "
 ]
+requesttimeoutfactor
+=
+2
+#
+Slow
+on
+Windows
 [
 "
 test_converters

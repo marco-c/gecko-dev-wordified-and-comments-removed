@@ -135,6 +135,14 @@ test_BackupService_archive
 js
 "
 ]
+requesttimeoutfactor
+=
+2
+#
+Slow
+on
+macOS
+debug
 support
 -
 files

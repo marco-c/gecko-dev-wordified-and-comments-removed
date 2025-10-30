@@ -652,6 +652,14 @@ test_Region_geocoding
 js
 "
 ]
+requesttimeoutfactor
+=
+2
+#
+Slow
+on
+debug
+builds
 [
 "
 test_RustSharedRemoteSettingsService

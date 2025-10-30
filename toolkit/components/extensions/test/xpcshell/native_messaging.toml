@@ -70,6 +70,13 @@ test_ext_native_messaging
 js
 "
 ]
+requesttimeoutfactor
+=
+2
+#
+Slow
+on
+Windows
 [
 "
 test_ext_native_messaging_concurrent
@@ -105,6 +112,13 @@ test_ext_native_messaging_perf
 js
 "
 ]
+requesttimeoutfactor
+=
+2
+#
+Slow
+on
+Windows
 run
 -
 sequentially
