@@ -128,14 +128,6 @@ getFSRef
 [
 noscript
 ]
-FSSpec
-getFSSpec
-(
-)
-;
-[
-noscript
-]
 attribute
 OSType
 fileType
