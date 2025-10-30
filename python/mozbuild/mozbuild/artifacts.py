@@ -319,6 +319,12 @@ unpack
 import
 UnpackFinder
 from
+taskcluster
+.
+exceptions
+import
+TaskclusterRestFailure
+from
 taskgraph
 .
 util
@@ -7637,8 +7643,30 @@ namespace
 )
         
 except
+(
 KeyError
+TaskclusterRestFailure
+)
+as
+e
 :
+            
+if
+isinstance
+(
+e
+TaskclusterRestFailure
+)
+and
+e
+.
+status_code
+!
+=
+404
+:
+                
+raise
             
 raise
 ValueError
