@@ -4893,6 +4893,29 @@ try_name
 return
 False
                     
+if
+(
+                        
+"
+safari
+-
+jetstream3
+"
+in
+try_name
+                        
+and
+"
+macosx1500
+-
+aarch64
+"
+in
+platform
+                    
+)
+:
+                        
 return
 True
         
