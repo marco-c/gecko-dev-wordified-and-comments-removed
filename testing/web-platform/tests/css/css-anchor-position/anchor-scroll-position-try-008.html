@@ -323,6 +323,12 @@ anchor
 end
 )
 ;
+position
+-
+visibility
+:
+always
+;
 }
 position
 -
@@ -464,6 +470,13 @@ window
 .
 innerWidth
 ;
+let
+vh
+=
+window
+.
+innerHeight
+;
 promise_test
 (
 async
@@ -539,7 +552,7 @@ documentElement
 scrollLeft
 =
 -
-250
+vw
 ;
 document
 .
@@ -628,7 +641,7 @@ documentElement
 scrollTop
 =
 -
-250
+vh
 ;
 await
 waitUntilNextAnimationFrame
@@ -698,8 +711,6 @@ scrollLeft
 =
 -
 vw
-+
-99
 ;
 document
 .
@@ -708,7 +719,7 @@ documentElement
 scrollTop
 =
 -
-250
+vh
 ;
 await
 waitUntilNextAnimationFrame
