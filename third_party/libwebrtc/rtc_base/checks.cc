@@ -1,6 +1,13 @@
 #
 include
 <
+stdlib
+.
+h
+>
+#
+include
+<
 cstdarg
 >
 #
@@ -12,6 +19,11 @@ cstdio
 include
 <
 cstdlib
+>
+#
+include
+<
+string
 >
 #
 include

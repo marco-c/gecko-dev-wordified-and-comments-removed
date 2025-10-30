@@ -7,12 +7,12 @@ RTC_BASE_FAKE_MDNS_RESPONDER_H_
 #
 include
 <
-map
+cstdint
 >
 #
 include
 <
-memory
+map
 >
 #
 include
