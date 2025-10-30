@@ -2906,7 +2906,14 @@ H264
 FrameType
 :
 :
-I_FRAME_OTHER
+I_FRAME_IDR
+;
+#
+ifndef
+MOZ_APPLEMEDIA
+keyframe
+=
+keyframe
 |
 |
 type
@@ -2918,8 +2925,10 @@ H264
 FrameType
 :
 :
-I_FRAME_IDR
+I_FRAME_OTHER
 ;
+#
+endif
 if
 (
 sample
