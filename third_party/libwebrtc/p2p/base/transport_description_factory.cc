@@ -442,10 +442,6 @@ offer
 -
 >
 identity_fingerprint
-.
-get
-(
-)
 )
 &
 &
@@ -465,10 +461,6 @@ offer
 -
 >
 identity_fingerprint
-.
-get
-(
-)
 )
 {
 if

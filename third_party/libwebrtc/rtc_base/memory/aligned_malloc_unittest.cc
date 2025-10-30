@@ -86,10 +86,6 @@ alignment
 if
 (
 scoped
-.
-get
-(
-)
 =
 =
 nullptr

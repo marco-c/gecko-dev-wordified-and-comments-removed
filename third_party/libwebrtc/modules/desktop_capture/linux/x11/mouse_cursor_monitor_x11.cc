@@ -674,10 +674,6 @@ ProcessPendingXEvents
 if
 (
 cursor_shape_
-.
-get
-(
-)
 )
 callback_
 -

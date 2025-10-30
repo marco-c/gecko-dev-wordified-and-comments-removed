@@ -317,10 +317,6 @@ ScaleFrom
 (
 *
 buffer
-.
-get
-(
-)
 )
 ;
 return

@@ -169,10 +169,6 @@ if
 (
 !
 buffer_ref
-.
-get
-(
-)
 |
 |
 buffer_ref

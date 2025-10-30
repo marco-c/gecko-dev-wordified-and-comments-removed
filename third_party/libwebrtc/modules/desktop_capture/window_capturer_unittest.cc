@@ -372,10 +372,6 @@ if
 (
 !
 frame_
-.
-get
-(
-)
 )
 {
 DesktopCapturer

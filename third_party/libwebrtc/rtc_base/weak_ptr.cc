@@ -220,10 +220,6 @@ Invalidate
 if
 (
 flag_
-.
-get
-(
-)
 )
 {
 flag_

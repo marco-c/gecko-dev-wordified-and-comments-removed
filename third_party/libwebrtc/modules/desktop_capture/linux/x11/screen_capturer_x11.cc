@@ -2789,10 +2789,6 @@ if
 (
 !
 capturer
-.
-get
-(
-)
 -
 >
 Init

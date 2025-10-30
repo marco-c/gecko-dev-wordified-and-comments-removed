@@ -1543,10 +1543,6 @@ i420_buffer
 if
 (
 i420_buffer
-.
-get
-(
-)
 )
 {
 libyuv
@@ -1647,10 +1643,6 @@ if
 (
 !
 buffer
-.
-get
-(
-)
 )
 {
 RTC_HISTOGRAM_BOOLEAN

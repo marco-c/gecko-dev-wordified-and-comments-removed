@@ -1153,10 +1153,6 @@ if
 (
 !
 signaling_thread_
-.
-get
-(
-)
 )
 {
 signaling_thread_
@@ -2251,10 +2247,6 @@ if
 (
 !
 peer_connection_
-.
-get
-(
-)
 )
 {
 RTC_DCHECK
@@ -2867,10 +2859,6 @@ if
 (
 !
 candidate
-.
-get
-(
-)
 )
 {
 RTC_LOG
@@ -3109,10 +3097,6 @@ peer_id
 if
 (
 peer_connection_
-.
-get
-(
-)
 )
 {
 main_wnd_
@@ -3461,10 +3445,6 @@ __FUNCTION__
 if
 (
 peer_connection_
-.
-get
-(
-)
 )
 {
 client_
@@ -3716,10 +3696,6 @@ if
 (
 !
 peer_connection_
-.
-get
-(
-)
 )
 peer_id_
 =

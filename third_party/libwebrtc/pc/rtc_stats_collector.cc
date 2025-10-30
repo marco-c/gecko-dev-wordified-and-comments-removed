@@ -8150,10 +8150,6 @@ transport_cert_stats_pair
 second
 .
 local
-.
-get
-(
-)
 report
 )
 ;
@@ -8176,10 +8172,6 @@ transport_cert_stats_pair
 second
 .
 remote
-.
-get
-(
-)
 report
 )
 ;
@@ -9265,10 +9257,6 @@ GetAudioProcessor
 if
 (
 audio_processor
-.
-get
-(
-)
 )
 {
 AudioProcessorInterface

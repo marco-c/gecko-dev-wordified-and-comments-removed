@@ -1002,10 +1002,6 @@ if
 (
 !
 packet
-.
-get
-(
-)
 )
 {
 break

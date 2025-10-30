@@ -2723,10 +2723,6 @@ event_log
 ;
 return
 audio_network_adaptor_
-.
-get
-(
-)
 !
 =
 nullptr

@@ -1182,10 +1182,6 @@ const
 return
 *
 cert_chain_
-.
-get
-(
-)
 ;
 }
 std

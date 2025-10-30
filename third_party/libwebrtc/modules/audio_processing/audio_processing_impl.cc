@@ -4335,10 +4335,6 @@ if
 submodules_
 .
 agc_manager
-.
-get
-(
-)
 )
 {
 submodules_
@@ -10367,10 +10363,6 @@ if
 submodules_
 .
 agc_manager
-.
-get
-(
-)
 |
 |
 submodules_

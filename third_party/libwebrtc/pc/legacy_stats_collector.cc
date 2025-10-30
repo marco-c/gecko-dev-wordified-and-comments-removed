@@ -8433,10 +8433,6 @@ GetAudioProcessor
 if
 (
 audio_processor
-.
-get
-(
-)
 )
 {
 AudioProcessorInterface

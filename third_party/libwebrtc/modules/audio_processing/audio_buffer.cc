@@ -1257,10 +1257,6 @@ buffer_num_channels_
 if
 (
 split_data_
-.
-get
-(
-)
 )
 {
 split_data_
@@ -1304,10 +1300,6 @@ num_channels
 if
 (
 split_data_
-.
-get
-(
-)
 )
 {
 split_data_

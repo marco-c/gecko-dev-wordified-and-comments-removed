@@ -9957,10 +9957,6 @@ session_td
 -
 >
 identity_fingerprint
-.
-get
-(
-)
 )
 {
 return
@@ -17775,10 +17771,6 @@ if
 (
 !
 content
-.
-get
-(
-)
 )
 {
 return

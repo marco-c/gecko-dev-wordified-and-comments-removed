@@ -1013,10 +1013,6 @@ SharedXDisplay
 CreateDefault
 (
 )
-.
-get
-(
-)
 )
 {
 return

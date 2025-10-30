@@ -2012,10 +2012,6 @@ voice
 return
 *
 voice_engine_
-.
-get
-(
-)
 ;
 }
 VideoEngineInterface
@@ -2030,10 +2026,6 @@ video
 return
 *
 video_engine_
-.
-get
-(
-)
 ;
 }
 const
@@ -2050,10 +2042,6 @@ const
 return
 *
 voice_engine_
-.
-get
-(
-)
 ;
 }
 const
@@ -2070,10 +2058,6 @@ const
 return
 *
 video_engine_
-.
-get
-(
-)
 ;
 }
 }

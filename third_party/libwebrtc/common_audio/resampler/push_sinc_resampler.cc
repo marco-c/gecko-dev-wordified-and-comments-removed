@@ -133,10 +133,6 @@ if
 (
 !
 float_buffer_
-.
-get
-(
-)
 )
 float_buffer_
 .

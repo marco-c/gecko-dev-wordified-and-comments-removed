@@ -3786,10 +3786,6 @@ empty
 if
 (
 fec_controller_factory_
-.
-get
-(
-)
 )
 {
 RTC_DCHECK_LE
@@ -3893,10 +3889,6 @@ streams_creation_order
 if
 (
 fec_controller_factory_
-.
-get
-(
-)
 )
 {
 video_send_streams_

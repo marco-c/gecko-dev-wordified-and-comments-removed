@@ -238,10 +238,6 @@ if
 (
 !
 screen_capturer_
-.
-get
-(
-)
 )
 {
 screen_capturer_
@@ -313,10 +309,6 @@ window
 if
 (
 screen_capturer_
-.
-get
-(
-)
 )
 {
 screen_capturer_

@@ -1204,10 +1204,6 @@ if
 (
 !
 wrapped_buffer
-.
-get
-(
-)
 )
 {
 return

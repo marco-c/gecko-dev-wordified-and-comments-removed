@@ -8130,10 +8130,6 @@ CopyStunAttribute
 (
 *
 attr
-.
-get
-(
-)
 buffer_ptr
 )
 ;
@@ -8229,10 +8225,6 @@ CopyStunAttribute
 (
 *
 addr
-.
-get
-(
-)
 buffer_ptr
 )
 ;
@@ -8319,10 +8311,6 @@ CopyStunAttribute
 (
 *
 addr
-.
-get
-(
-)
 buffer_ptr
 )
 ;
