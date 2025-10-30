@@ -1498,6 +1498,7 @@ collection_for
 (
 &
 sheet
+guard
 )
 ;
 collection
@@ -1582,6 +1583,7 @@ collection_for
 (
 &
 sheet
+guard
 )
 ;
 collection
@@ -1662,6 +1664,7 @@ collection_for
 (
 &
 sheet
+guard
 )
 ;
 collection
@@ -1994,6 +1997,7 @@ collection_for
 (
 &
 sheet
+guard
 )
 ;
 collection
@@ -2064,6 +2068,10 @@ sheet
 :
 &
 S
+guard
+:
+&
+SharedRwLockReadGuard
 )
 -
 >
@@ -2081,6 +2089,7 @@ sheet
 .
 contents
 (
+guard
 )
 .
 origin
@@ -2786,10 +2795,14 @@ collection_for
 &
 mut
 self
-_sheet
+_
 :
 &
 S
+_
+:
+&
+SharedRwLockReadGuard
 )
 -
 >

@@ -15031,6 +15031,7 @@ stylesheet
 .
 contents
 (
+guard
 )
 ;
 results
@@ -15057,6 +15058,8 @@ Arc
 :
 from_raw_addrefed
 (
+&
+*
 contents
 )
 }
@@ -15067,6 +15070,11 @@ for
 rule
 in
 stylesheet
+.
+contents
+(
+guard
+)
 .
 effective_rules
 (
@@ -18424,6 +18432,7 @@ stylesheet
 .
 contents
 (
+guard
 )
 ;
 if
@@ -18439,6 +18448,8 @@ effective_media_query_results
 .
 saw_effective
 (
+&
+*
 contents
 )
 ;
@@ -18551,6 +18562,16 @@ guard
 )
 ;
 let
+contents
+=
+stylesheet
+.
+contents
+(
+guard
+)
+;
+let
 effective_then
 =
 self
@@ -18559,11 +18580,7 @@ effective_media_query_results
 .
 was_effective
 (
-stylesheet
-.
 contents
-(
-)
 )
 ;
 if
@@ -18616,7 +18633,7 @@ let
 mut
 iter
 =
-stylesheet
+contents
 .
 iter_rules
 :
