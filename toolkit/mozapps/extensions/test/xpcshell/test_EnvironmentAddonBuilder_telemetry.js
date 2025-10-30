@@ -824,6 +824,9 @@ data
 addons
 .
 theme
+?
+.
+id
 )
 {
 checkTheme
