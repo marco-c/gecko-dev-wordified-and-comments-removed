@@ -585,14 +585,6 @@ mozilla
 :
 ProgressLogger
 aProgressLogger
-const
-nsTHashMap
-<
-SourceId
-IndexIntoSourceTable
->
-*
-aSourceIdToIndexMap
 )
 {
 if
@@ -708,7 +700,6 @@ JIT
 info
 "
 )
-aSourceIdToIndexMap
 )
 ;
 }
@@ -751,7 +742,6 @@ move
 jitFrameInfo
 )
 aService
-aSourceIdToIndexMap
 )
 ;
 }
@@ -2168,14 +2158,6 @@ mozilla
 :
 ProgressLogger
 aProgressLogger
-const
-nsTHashMap
-<
-SourceId
-IndexIntoSourceTable
->
-*
-aSourceIdToIndexMap
 )
 :
 mProfiledThreadData
@@ -2234,7 +2216,6 @@ Unique
 stacks
 "
 )
-aSourceIdToIndexMap
 )
 )
 {
@@ -2519,14 +2500,6 @@ mozilla
 :
 ProgressLogger
 aProgressLogger
-const
-nsTHashMap
-<
-SourceId
-IndexIntoSourceTable
->
-*
-aSourceIdToIndexMap
 )
 {
 if
@@ -2624,7 +2597,6 @@ streaming
 context
 "
 )
-aSourceIdToIndexMap
 )
 ;
 }

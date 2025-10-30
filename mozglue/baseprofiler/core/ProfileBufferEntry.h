@@ -215,14 +215,6 @@ ProfileBufferEntry
 (
 Kind
 aKind
-uint32_t
-aUint32
-)
-;
-ProfileBufferEntry
-(
-Kind
-aKind
 int
 aInt
 )

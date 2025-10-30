@@ -112,6 +112,12 @@ FutexThread
 \
 _
 (
+GeckoProfilerStrings
+500
+)
+\
+_
+(
 ProtectedRegionTree
 500
 )
@@ -257,12 +263,6 @@ GCDelayedMarkingLock
 _
 (
 BufferAllocator
-500
-)
-\
-_
-(
-GeckoProfilerScriptSources
 500
 )
 \
