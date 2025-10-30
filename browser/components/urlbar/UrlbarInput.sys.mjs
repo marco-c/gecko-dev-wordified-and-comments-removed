@@ -26805,6 +26805,19 @@ persist
 originalURI
 &
 &
+(
+!
+this
+.
+window
+.
+gBrowser
+.
+selectedBrowser
+.
+originalURI
+|
+|
 !
 state
 .
@@ -26823,6 +26836,7 @@ gBrowser
 selectedBrowser
 .
 originalURI
+)
 )
 ;
 /
