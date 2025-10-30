@@ -29,6 +29,11 @@ algorithm
 #
 include
 <
+cstdio
+>
+#
+include
+<
 memory
 >
 #

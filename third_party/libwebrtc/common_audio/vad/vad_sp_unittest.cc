@@ -1,9 +1,12 @@
 #
 include
 <
-stdlib
-.
-h
+cstdint
+>
+#
+include
+<
+cstdlib
 >
 #
 include

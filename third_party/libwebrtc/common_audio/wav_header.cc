@@ -10,6 +10,11 @@ h
 #
 include
 <
+cstdint
+>
+#
+include
+<
 cstring
 >
 #

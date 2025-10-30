@@ -9,6 +9,16 @@ audio_util
 .
 h
 "
+#
+include
+<
+cstddef
+>
+#
+include
+<
+cstdint
+>
 namespace
 webrtc
 {

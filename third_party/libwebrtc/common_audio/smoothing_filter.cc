@@ -21,6 +21,16 @@ cmath
 >
 #
 include
+<
+cstdint
+>
+#
+include
+<
+optional
+>
+#
+include
 "
 rtc_base
 /

@@ -19,6 +19,16 @@ cmath
 >
 #
 include
+<
+complex
+>
+#
+include
+<
+cstddef
+>
+#
+include
 "
 common_audio
 /

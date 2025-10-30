@@ -56,17 +56,6 @@ checks
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-numerics
-/
-safe_conversions
-.
-h
-"
 namespace
 webrtc
 {

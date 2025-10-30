@@ -7,6 +7,16 @@ h
 >
 #
 include
+<
+cstdint
+>
+#
+include
+<
+cstring
+>
+#
+include
 "
 common_audio
 /

@@ -10,6 +10,11 @@ h
 #
 include
 <
+cstddef
+>
+#
+include
+<
 cstdint
 >
 #

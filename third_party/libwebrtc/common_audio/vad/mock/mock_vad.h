@@ -6,6 +6,16 @@ define
 COMMON_AUDIO_VAD_MOCK_MOCK_VAD_H_
 #
 include
+<
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
 "
 common_audio
 /

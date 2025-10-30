@@ -1,5 +1,10 @@
 #
 include
+<
+cstdint
+>
+#
+include
 "
 common_audio
 /
