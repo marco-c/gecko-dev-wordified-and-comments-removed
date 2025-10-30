@@ -1929,13 +1929,6 @@ canScrollBackward
 {
 HorizontalDivider
 (
-color
-=
-FirefoxTheme
-.
-colors
-.
-borderPrimary
 )
 }
 }
@@ -1970,13 +1963,6 @@ canScrollBackward
 {
 HorizontalDivider
 (
-color
-=
-FirefoxTheme
-.
-colors
-.
-borderPrimary
 )
 }
 MenuNavigation
