@@ -2022,6 +2022,7 @@ return
 ret
 ;
 }
+MOZ_CONSTINIT
 AddressRadixTree
 <
 (

@@ -154,9 +154,17 @@ void
 *
 *
 mRoot
+=
+nullptr
 ;
 public
 :
+constexpr
+AddressRadixTree
+(
+)
+{
+}
 bool
 Init
 (
