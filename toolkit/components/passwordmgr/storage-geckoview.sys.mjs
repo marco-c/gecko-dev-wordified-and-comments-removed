@@ -294,7 +294,6 @@ Internal
 method
 used
 by
-regression
 tests
 only
 .
@@ -302,8 +301,8 @@ It
 is
 called
 before
-*
 replacing
+*
 this
 storage
 module
@@ -314,7 +313,7 @@ instance
 .
 *
 /
-terminate
+testSaveForReplace
 (
 )
 {
