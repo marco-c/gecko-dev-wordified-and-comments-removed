@@ -449,6 +449,15 @@ include
 "
 test
 /
+create_test_field_trials
+.
+h
+"
+#
+include
+"
+test
+/
 encoder_settings
 .
 h
@@ -558,7 +567,10 @@ field_trials
 :
 field_trials_
 (
+CreateTestFieldTrials
+(
 field_trials
+)
 )
 env_
 (

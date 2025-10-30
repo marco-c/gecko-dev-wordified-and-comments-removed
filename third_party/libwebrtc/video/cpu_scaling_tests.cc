@@ -100,15 +100,6 @@ include
 "
 test
 /
-field_trial
-.
-h
-"
-#
-include
-"
-test
-/
 frame_generator_capturer
 .
 h
@@ -181,7 +172,7 @@ CpuOveruseTest
 (
 )
 :
-field_trials_
+CallTest
 (
 "
 WebRTC
@@ -208,12 +199,6 @@ degradation_preference
 bool
 expect_adaptation
 )
-;
-test
-:
-:
-ScopedFieldTrials
-field_trials_
 ;
 }
 ;

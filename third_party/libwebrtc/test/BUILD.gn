@@ -7625,6 +7625,10 @@ deps
 [
 "
 :
+create_test_field_trials
+"
+"
+:
 direct_transport
 "
 "
@@ -7650,10 +7654,6 @@ mock_transport
 "
 :
 run_loop
-"
-"
-:
-scoped_key_value_config
 "
 "
 :
@@ -7709,6 +7709,14 @@ create_frame_generator
 api
 :
 fec_controller_api
+"
+"
+.
+.
+/
+api
+:
+field_trials
 "
 "
 .
