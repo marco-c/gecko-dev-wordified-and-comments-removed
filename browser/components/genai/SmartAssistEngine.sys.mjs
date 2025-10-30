@@ -1295,6 +1295,8 @@ modelId
 "
 mozilla
 /
+mobilebert
+-
 query
 -
 intent
