@@ -2076,6 +2076,15 @@ StunMessage
 msg
 )
 ;
+void
+MaybeHandleDtlsPiggybackingAttributes
+(
+const
+StunMessage
+*
+msg
+)
+;
 DtlsStunPiggybackCallbacks
 dtls_stun_piggyback_callbacks_
 ;
