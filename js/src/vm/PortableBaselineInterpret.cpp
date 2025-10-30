@@ -35930,7 +35930,6 @@ ctx
 .
 frame
 fallback
-&
 value0
 &
 ctx
@@ -35980,7 +35979,6 @@ ctx
 frame
 fallback
 value0
-&
 value1
 &
 ctx
