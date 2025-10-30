@@ -8499,6 +8499,45 @@ CommandArgument
     
 "
 -
+N
+"
+    
+"
+-
+-
+new
+-
+failures
+"
+    
+action
+=
+"
+store_true
+"
+    
+help
+=
+"
+Set
+new
+failures
+mode
+(
+only
+add
+conditions
+for
+new
+failures
+)
+"
+)
+CommandArgument
+(
+    
+"
+-
 r
 "
     
@@ -8536,6 +8575,42 @@ skip
 .
 4
 ]
+"
+)
+CommandArgument
+(
+    
+"
+-
+R
+"
+    
+"
+-
+-
+replace
+-
+tbd
+"
+    
+action
+=
+"
+store_true
+"
+    
+help
+=
+"
+Replace
+Bug
+TBD
+in
+manifests
+by
+filing
+new
+bugs
 "
 )
 CommandArgument
@@ -8687,77 +8762,155 @@ command_context
 try_url
     
 bugzilla
+:
+Optional
+[
+str
+]
 =
 None
     
 meta_bug_id
+:
+Optional
+[
+int
+]
 =
 None
     
 turbo
+:
+bool
 =
 False
     
 save_tasks
+:
+Optional
+[
+str
+]
 =
 None
     
 use_tasks
+:
+Optional
+[
+str
+]
 =
 None
     
 save_failures
+:
+Optional
+[
+str
+]
 =
 None
     
 use_failures
+:
+Optional
+[
+str
+]
 =
 None
     
 max_failures
+:
+int
 =
 -
 1
     
 verbose
+:
+bool
 =
 False
     
 dry_run
+:
+bool
 =
 False
     
 implicit_vars
+:
+bool
 =
 False
     
 new_version
+:
+Optional
+[
+str
+]
 =
 None
     
 task_id
+:
+Optional
+[
+str
+]
 =
 None
     
 user_agent
+:
+Optional
+[
+str
+]
 =
 None
     
-carryover
-=
-False
-    
 failure_ratio
+:
+float
 =
 0
 .
 4
     
 clear_cache
+:
+Optional
+[
+str
+]
 =
 None
     
+carryover
+:
+bool
+=
+False
+    
 known_intermittents
+:
+bool
+=
+False
+    
+new_failures
+:
+bool
+=
+False
+    
+replace_tbd
+:
+bool
 =
 False
 )
@@ -8767,6 +8920,26 @@ from
 skipfails
 import
 Skipfails
+SkipfailsMode
+    
+mode
+:
+int
+=
+SkipfailsMode
+.
+from_flags
+(
+        
+carryover
+        
+known_intermittents
+        
+new_failures
+        
+replace_tbd
+    
+)
     
 Skipfails
 (
@@ -8810,11 +8983,9 @@ use_failures
         
 max_failures
         
-carryover
-        
 failure_ratio
         
-known_intermittents
+mode
     
 )
 SubCommand

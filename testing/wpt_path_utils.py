@@ -19,7 +19,18 @@ paths
 from
 typing
 import
+Dict
 Optional
+OptJs
+=
+Optional
+[
+Dict
+[
+str
+bool
+]
+]
 WP
 =
 "
@@ -648,10 +659,7 @@ None
     
 anyjs
 :
-Optional
-[
-str
-]
+OptJs
 =
 None
     
@@ -738,7 +746,11 @@ i
             
 anyjs
 =
+{
 path
+:
+False
+}
             
 manifest
 =
@@ -799,7 +811,11 @@ i
                 
 anyjs
 =
+{
 path
+:
+False
+}
                 
 manifest
 =
@@ -860,7 +876,11 @@ i
                     
 anyjs
 =
+{
 path
+:
+False
+}
                     
 manifest
 =

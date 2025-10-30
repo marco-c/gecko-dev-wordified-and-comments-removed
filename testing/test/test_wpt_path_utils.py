@@ -410,6 +410,7 @@ assert
 anyjs
 =
 =
+{
 "
 testing
 /
@@ -427,6 +428,9 @@ any
 .
 html
 "
+:
+False
+}
     
 path
 manifest
@@ -502,6 +506,7 @@ assert
 anyjs
 =
 =
+{
 "
 testing
 /
@@ -519,6 +524,9 @@ window
 .
 html
 "
+:
+False
+}
     
 path
 manifest
@@ -594,6 +602,7 @@ assert
 anyjs
 =
 =
+{
 "
 testing
 /
@@ -611,6 +620,9 @@ worker
 .
 html
 "
+:
+False
+}
     
 path
 manifest
@@ -696,6 +708,7 @@ assert
 anyjs
 =
 =
+{
 "
 testing
 /
@@ -713,6 +726,9 @@ any
 .
 html
 "
+:
+False
+}
     
 path
 manifest
