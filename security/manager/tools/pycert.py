@@ -172,7 +172,6 @@ Crypto
              
 OCSPSigning
 timeStamping
-tlsBinding
 ]
 subjectAlternativeName
 :
@@ -4304,35 +4303,6 @@ return
 rfc2459
 .
 id_kp_timeStamping
-        
-if
-keyPurpose
-=
-=
-"
-tlsBinding
-"
-:
-            
-return
-univ
-.
-ObjectIdentifier
-(
-"
-0
-.
-4
-.
-0
-.
-194115
-.
-1
-.
-0
-"
-)
         
 raise
 UnknownKeyPurposeTypeError
