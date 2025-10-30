@@ -14466,11 +14466,15 @@ prefMaxResults
 :
 GleanQuantity
 ;
-prefSuggestDataCollection
+prefSuggestNonsponsored
 :
 GleanBoolean
 ;
-prefSuggestNonsponsored
+prefSuggestOnlineAvailable
+:
+GleanBoolean
+;
+prefSuggestOnlineEnabled
 :
 GleanBoolean
 ;

@@ -7757,6 +7757,10 @@ the
 changed
 Nimbus
 variable
+and
+the
+new
+value
 .
 *
 /
@@ -8261,6 +8265,10 @@ notifyObservers
 onNimbusChanged
 "
 name
+newNimbus
+[
+name
+]
 )
 ;
 }
@@ -9758,6 +9766,10 @@ notifyObservers
 (
 method
 changed
+.
+.
+.
+rest
 )
 {
 for
@@ -9841,6 +9853,10 @@ method
 ]
 (
 changed
+.
+.
+.
+rest
 )
 ;
 }
