@@ -37,7 +37,7 @@ suggestions
 suggestion_type
 :
 "
-market
+market_opt_in
 "
 attachment
 :
@@ -152,6 +152,16 @@ prefs
 [
 [
 "
+quicksuggest
+.
+online
+.
+available
+"
+true
+]
+[
+"
 market
 .
 featureGate
@@ -176,7 +186,7 @@ clear
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -264,7 +274,7 @@ set
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -395,7 +405,7 @@ set
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -721,7 +731,7 @@ set
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "

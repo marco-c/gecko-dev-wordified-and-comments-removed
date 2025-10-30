@@ -2071,7 +2071,7 @@ set
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -2332,16 +2332,15 @@ showLessFrequentlyCountPref
 ;
 UrlbarPrefs
 .
-set
+clear
 (
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
-true
 )
 ;
 }

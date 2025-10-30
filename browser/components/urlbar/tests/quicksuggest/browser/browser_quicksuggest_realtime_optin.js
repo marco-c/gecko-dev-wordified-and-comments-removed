@@ -204,7 +204,7 @@ clear
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -361,7 +361,7 @@ set
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -458,7 +458,7 @@ clear
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -538,7 +538,7 @@ set
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -567,7 +567,7 @@ after
 disabling
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -878,7 +878,7 @@ get
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -974,7 +974,7 @@ clear
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -1002,7 +1002,7 @@ after
 clearing
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -1049,7 +1049,7 @@ set
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -1967,7 +1967,7 @@ clear
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -2099,7 +2099,7 @@ set
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -2658,7 +2658,7 @@ clear
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -2783,7 +2783,7 @@ set
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -3060,7 +3060,7 @@ clear
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
