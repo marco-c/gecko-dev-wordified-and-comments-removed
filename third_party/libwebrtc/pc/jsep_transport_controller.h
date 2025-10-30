@@ -943,6 +943,15 @@ candidates
 )
 ;
 bool
+RemoveRemoteCandidate
+(
+const
+IceCandidate
+*
+candidate
+)
+;
+bool
 SetLocalCertificate
 (
 const

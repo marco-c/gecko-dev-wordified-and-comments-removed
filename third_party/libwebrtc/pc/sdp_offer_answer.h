@@ -824,6 +824,15 @@ callback
 )
 ;
 bool
+RemoveIceCandidate
+(
+const
+IceCandidate
+*
+candidate
+)
+;
+bool
 RemoveIceCandidates
 (
 const

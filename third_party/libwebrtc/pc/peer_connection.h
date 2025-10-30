@@ -1463,6 +1463,16 @@ callback
 override
 ;
 bool
+RemoveIceCandidate
+(
+const
+IceCandidate
+*
+candidate
+)
+override
+;
+bool
 RemoveIceCandidates
 (
 const
