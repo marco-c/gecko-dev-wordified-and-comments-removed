@@ -237,6 +237,12 @@ aType
 const
 override
 ;
+bool
+IsEditable
+(
+)
+const
+;
 nsresult
 ContentToRenderedOffset
 (

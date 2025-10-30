@@ -145,12 +145,6 @@ moxIsLiveRegion
 ;
 -
 (
-BOOL
-)
-moxIsTextField
-;
--
-(
 id
 <
 MOXAccessible

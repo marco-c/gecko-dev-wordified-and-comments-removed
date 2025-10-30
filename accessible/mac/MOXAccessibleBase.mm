@@ -2376,16 +2376,6 @@ return
 NO
 ;
 }
--
-(
-BOOL
-)
-moxIsTextField
-{
-return
-NO
-;
-}
 #
 pragma
 mark

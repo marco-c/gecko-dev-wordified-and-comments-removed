@@ -763,7 +763,7 @@ const
 override
 ;
 bool
-IsEditableCell
+IsEditable
 (
 )
 const
