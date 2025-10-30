@@ -59,7 +59,7 @@ const
 int
 GECKO_PROFILER_FORMAT_VERSION
 =
-31
+32
 ;
 namespace
 baseprofiler
