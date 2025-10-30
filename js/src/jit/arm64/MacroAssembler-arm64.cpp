@@ -20437,7 +20437,13 @@ wasmMarkCallAsSlow
 (
 )
 {
-Mov
+vixl
+:
+:
+MacroAssembler
+:
+:
+mov
 (
 x28
 x28
