@@ -286,11 +286,6 @@ isArray
 (
 a
 )
-&
-&
-a
-.
-length
 ;
 ok
 (
@@ -303,11 +298,6 @@ key
 is
 an
 array
-with
-at
-least
-one
-element
 for
 id
 {
