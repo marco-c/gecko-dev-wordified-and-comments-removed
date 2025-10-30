@@ -202,9 +202,16 @@ multi
 asterisks
 "
 :
+[
 "
 error
 "
+{
+allowWhitespace
+:
+true
+}
+]
 "
 jsdoc
 /
