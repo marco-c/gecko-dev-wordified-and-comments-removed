@@ -45,7 +45,6 @@ enforce_gecko_prefs
 (
             
 {
-                
 "
 browser
 .
@@ -55,7 +54,6 @@ enabled
 "
 :
 True
-                
 "
 browser
 .
@@ -65,31 +63,6 @@ log
 "
 :
 True
-                
-"
-browser
-.
-backup
-.
-archive
-.
-enabled
-"
-:
-True
-                
-"
-browser
-.
-backup
-.
-restore
-.
-enabled
-"
-:
-True
-            
 }
         
 )
