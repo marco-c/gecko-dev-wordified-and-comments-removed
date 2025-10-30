@@ -3509,6 +3509,9 @@ v
 ;
 }
 }
+#
+ifndef
+NSS_DISABLE_DSA
 TEST_P
 (
 TlsExtensionTest12
@@ -3793,6 +3796,8 @@ v
 )
 ;
 }
+#
+endif
 TEST_P
 (
 TlsExtensionTest13
@@ -6566,6 +6571,14 @@ EnsureTlsSetup
 (
 )
 ;
+client_
+-
+>
+ConfigNamedGroups
+(
+kNonPQDHEGroups
+)
+;
 SSL_EnableTls13GreaseEch
 (
 client_
@@ -6881,8 +6894,6 @@ SendReceive
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_grp_ec_curve25519
 ssl_auth_psk
 ssl_sig_none
 )

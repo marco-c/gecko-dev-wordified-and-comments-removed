@@ -166,7 +166,6 @@ Connect
 ;
 CheckKeys
 (
-ssl_kea_ecdh
 ssl_auth_ecdsa
 )
 ;

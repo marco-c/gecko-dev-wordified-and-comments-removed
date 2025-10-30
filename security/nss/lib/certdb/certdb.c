@@ -4851,6 +4851,9 @@ rsaPssKey
 case
 dsaKey
 :
+case
+mldsaKey
+:
 requiredUsage
 |
 =

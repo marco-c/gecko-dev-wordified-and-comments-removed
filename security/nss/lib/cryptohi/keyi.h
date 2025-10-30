@@ -93,6 +93,15 @@ SECOidTag
 hashAlg
 )
 ;
+SECOidTag
+seckey_GetParameterSet
+(
+const
+SECKEYPrivateKey
+*
+key
+)
+;
 SEC_END_PROTOS
 #
 endif

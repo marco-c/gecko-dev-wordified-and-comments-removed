@@ -29,3 +29,6 @@ hidden
 releasing
 .
 rst
+rootstore
+.
+rst

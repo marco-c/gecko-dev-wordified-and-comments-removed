@@ -536,6 +536,14 @@ orig_client
 client_
 -
 >
+ConfigNamedGroups
+(
+kNonPQDHEGroups
+)
+;
+client_
+-
+>
 SetVersionRange
 (
 SSL_LIBRARY_VERSION_TLS_1_1
@@ -4650,6 +4658,8 @@ Connect
 ;
 CheckKeys
 (
+ssl_kea_ecdh
+ssl_grp_ec_curve25519
 )
 ;
 static
@@ -4914,6 +4924,8 @@ Connect
 ;
 CheckKeys
 (
+ssl_kea_ecdh
+ssl_grp_ec_curve25519
 )
 ;
 CheckKEXDetails
@@ -5184,6 +5196,8 @@ shares
 ;
 CheckKeys
 (
+ssl_kea_ecdh
+ssl_grp_ec_curve25519
 )
 ;
 static

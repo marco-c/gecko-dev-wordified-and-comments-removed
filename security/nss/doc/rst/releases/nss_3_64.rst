@@ -235,7 +235,7 @@ available
 :
 ref
 :
-mozilla_projects_nss_nss_releases
+mozilla_projects_nss_releases
 .
 .
 .

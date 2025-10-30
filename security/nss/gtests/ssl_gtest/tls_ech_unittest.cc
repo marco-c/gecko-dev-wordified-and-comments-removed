@@ -5663,8 +5663,6 @@ SendReceive
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_grp_ec_curve25519
 ssl_auth_psk
 ssl_sig_none
 )

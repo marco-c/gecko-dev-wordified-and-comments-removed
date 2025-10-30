@@ -198,6 +198,17 @@ vector
 <
 SSLNamedGroup
 >
+kNonPQDHEGroups
+;
+const
+extern
+std
+:
+:
+vector
+<
+SSLNamedGroup
+>
 kECDHEGroups
 ;
 const

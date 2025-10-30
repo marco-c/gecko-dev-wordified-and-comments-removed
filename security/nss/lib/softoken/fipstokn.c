@@ -1220,7 +1220,10 @@ NSS_INTERFACE_FLAGS
 #
 define
 FIPS_INTERFACE_COUNT
-4
+PR_ARRAY_SIZE
+(
+fips_interfaces
+)
 #
 define
 CKO_NOT_A_KEY

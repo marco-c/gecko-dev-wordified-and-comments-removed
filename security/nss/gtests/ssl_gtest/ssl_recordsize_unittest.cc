@@ -1263,6 +1263,14 @@ client_
 kTlsHandshakeClientHello
 )
 ;
+client_
+-
+>
+ConfigNamedGroups
+(
+kNonPQDHEGroups
+)
+;
 std
 :
 :

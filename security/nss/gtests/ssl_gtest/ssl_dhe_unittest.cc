@@ -193,6 +193,8 @@ Connect
 ;
 CheckKeys
 (
+ssl_kea_ecdh
+ssl_auth_rsa_sign
 )
 ;
 bool
@@ -3304,6 +3306,9 @@ len_
 ;
 }
 ;
+#
+ifndef
+NSS_DISABLE_DSA
 TEST_P
 (
 TlsConnectGenericPre13
@@ -3440,6 +3445,8 @@ SSL_ERROR_BAD_HANDSHAKE_HASH_VALUE
 )
 ;
 }
+#
+endif
 TEST_P
 (
 TlsConnectTls12
