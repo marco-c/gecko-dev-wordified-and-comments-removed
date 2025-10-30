@@ -241,7 +241,7 @@ true
 }
 if
 (
-ValueValueWeakMap
+Map
 *
 map
 =
@@ -377,7 +377,7 @@ obj
 AutoUnsafeCallWithABI
 unsafe
 ;
-ValueValueWeakMap
+Map
 *
 map
 =
@@ -466,7 +466,7 @@ true
 }
 if
 (
-ValueValueWeakMap
+Map
 *
 map
 =
@@ -502,7 +502,7 @@ args
 ;
 if
 (
-ValueValueWeakMap
+Map
 :
 :
 Ptr
@@ -617,7 +617,7 @@ unsafe
 ;
 if
 (
-ValueValueWeakMap
+Map
 *
 map
 =
@@ -631,7 +631,7 @@ getMap
 {
 if
 (
-ValueValueWeakMap
+Map
 :
 :
 Ptr
@@ -734,7 +734,7 @@ true
 }
 if
 (
-ValueValueWeakMap
+Map
 *
 map
 =
@@ -770,7 +770,7 @@ args
 ;
 if
 (
-ValueValueWeakMap
+Map
 :
 :
 Ptr
@@ -1168,7 +1168,10 @@ return
 false
 ;
 }
-ValueValueWeakMap
+WeakCollectionObject
+:
+:
+Map
 *
 map
 =
@@ -1179,10 +1182,7 @@ getMap
 (
 )
 ;
-ValueValueWeakMap
-:
-:
-AddPtr
+auto
 addPtr
 =
 map
@@ -1394,7 +1394,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 {
-ValueValueWeakMap
+Map
 *
 map
 =
@@ -1424,7 +1424,7 @@ nondeterministicGetSize
 (
 )
 {
-ValueValueWeakMap
+Map
 *
 map
 =
@@ -1492,7 +1492,7 @@ false
 }
 if
 (
-ValueValueWeakMap
+Map
 *
 map
 =
@@ -1515,7 +1515,7 @@ cx
 ;
 for
 (
-ValueValueWeakMap
+Map
 :
 :
 Range
@@ -1710,9 +1710,11 @@ ret
 )
 ;
 }
-static
 void
-WeakCollection_trace
+WeakCollectionObject
+:
+:
+trace
 (
 JSTracer
 *
@@ -1724,7 +1726,7 @@ obj
 {
 if
 (
-ValueValueWeakMap
+Map
 *
 map
 =
@@ -1753,9 +1755,11 @@ trc
 ;
 }
 }
-static
 void
-WeakCollection_finalize
+WeakCollectionObject
+:
+:
+finalize
 (
 JS
 :
@@ -1770,7 +1774,7 @@ obj
 {
 if
 (
-ValueValueWeakMap
+Map
 *
 map
 =
@@ -1901,7 +1905,10 @@ return
 true
 ;
 }
-ValueValueWeakMap
+WeakMapObject
+:
+:
+Map
 *
 map
 =
@@ -1931,10 +1938,7 @@ true
 }
 if
 (
-ValueValueWeakMap
-:
-:
-Ptr
+auto
 ptr
 =
 map
@@ -2530,10 +2534,12 @@ nullptr
 nullptr
 nullptr
 nullptr
-WeakCollection_finalize
+&
+finalize
 nullptr
 nullptr
-WeakCollection_trace
+&
+trace
 }
 ;
 const

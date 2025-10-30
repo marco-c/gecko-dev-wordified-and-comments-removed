@@ -412,7 +412,7 @@ true
 }
 if
 (
-ValueValueWeakMap
+Map
 *
 map
 =
@@ -448,7 +448,7 @@ args
 ;
 if
 (
-ValueValueWeakMap
+Map
 :
 :
 Ptr
@@ -604,7 +604,7 @@ true
 }
 if
 (
-ValueValueWeakMap
+Map
 *
 map
 =
@@ -740,7 +740,7 @@ obj
 AutoUnsafeCallWithABI
 unsafe
 ;
-ValueValueWeakMap
+Map
 *
 map
 =

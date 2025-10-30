@@ -139,7 +139,10 @@ cx
 >
 make_unique
 <
-ValueValueWeakMap
+WeakCollectionObject
+:
+:
+Map
 >
 (
 cx
@@ -156,7 +159,10 @@ return
 false
 ;
 }
-ValueValueWeakMap
+WeakCollectionObject
+:
+:
+Map
 *
 map
 =
