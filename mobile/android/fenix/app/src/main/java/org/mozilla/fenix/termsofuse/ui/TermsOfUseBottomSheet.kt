@@ -660,6 +660,13 @@ onDismissRequest
 sheetState
 =
 sheetState
+containerColor
+=
+FirefoxTheme
+.
+colors
+.
+layer2
 )
 {
 BottomSheetContent
