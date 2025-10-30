@@ -4429,6 +4429,17 @@ system
 showWeather
 "
 ]
+|
+|
+prefs
+.
+trainhopConfig
+?
+.
+weather
+?
+.
+enabled
 ;
 const
 supportUrl
