@@ -149,10 +149,6 @@ C
 +
 +
 "
-body
-=
-"
-"
 flags
 =
 None
@@ -205,9 +201,6 @@ try_compile
 includes
 =
 includes
-body
-=
-body
 language
 =
 language
