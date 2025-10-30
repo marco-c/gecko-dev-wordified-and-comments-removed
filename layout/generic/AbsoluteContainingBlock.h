@@ -47,6 +47,9 @@ EnumSet
 AbsPosReflowFlag
 >
 ;
+struct
+StylePositionArea
+;
 class
 AbsoluteContainingBlock
 {
@@ -271,6 +274,10 @@ const
 LogicalMargin
 &
 aMargin
+const
+StylePositionArea
+&
+aResolvedPositionArea
 LogicalMargin
 &
 aOffsets
