@@ -10164,14 +10164,14 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+all
 "
 :
 Glean
 .
 urlbar
 .
-prefSuggestNonsponsored
+prefSuggestAll
 "
 suggest
 .
@@ -10357,7 +10357,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+all
 "
 :
 case

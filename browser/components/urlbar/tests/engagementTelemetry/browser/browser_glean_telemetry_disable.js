@@ -405,7 +405,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+all
 "
 ;
 }

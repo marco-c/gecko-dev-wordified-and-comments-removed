@@ -14466,7 +14466,7 @@ prefMaxResults
 :
 GleanQuantity
 ;
-prefSuggestNonsponsored
+prefSuggestAll
 :
 GleanBoolean
 ;
