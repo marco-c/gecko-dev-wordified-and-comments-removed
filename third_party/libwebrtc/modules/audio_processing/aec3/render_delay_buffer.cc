@@ -14,13 +14,6 @@ h
 #
 include
 <
-string
-.
-h
->
-#
-include
-<
 algorithm
 >
 #
@@ -42,6 +35,11 @@ cmath
 include
 <
 cstdint
+>
+#
+include
+<
+cstring
 >
 #
 include

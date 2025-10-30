@@ -14,14 +14,12 @@ h
 #
 include
 <
-string
-.
-h
+cstdint
 >
 #
 include
 <
-cstdint
+cstring
 >
 #
 include

@@ -14,9 +14,7 @@ h
 #
 include
 <
-math
-.
-h
+cmath
 >
 namespace
 webrtc

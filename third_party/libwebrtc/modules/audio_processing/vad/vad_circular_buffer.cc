@@ -14,9 +14,7 @@ h
 #
 include
 <
-stdlib
-.
-h
+cstdlib
 >
 namespace
 webrtc

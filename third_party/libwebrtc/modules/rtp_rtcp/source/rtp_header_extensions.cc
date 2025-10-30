@@ -36,6 +36,11 @@ cstdint
 #
 include
 <
+cstring
+>
+#
+include
+<
 limits
 >
 #

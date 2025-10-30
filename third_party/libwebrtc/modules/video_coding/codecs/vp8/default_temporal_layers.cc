@@ -16,13 +16,6 @@ h
 #
 include
 <
-stdlib
-.
-h
->
-#
-include
-<
 algorithm
 >
 #
@@ -39,6 +32,11 @@ bitset
 include
 <
 cstdint
+>
+#
+include
+<
+cstdlib
 >
 #
 include

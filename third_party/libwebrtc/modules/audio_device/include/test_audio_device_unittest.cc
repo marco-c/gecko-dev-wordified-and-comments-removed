@@ -36,6 +36,11 @@ cstdint
 #
 include
 <
+cstdio
+>
+#
+include
+<
 cstdlib
 >
 #

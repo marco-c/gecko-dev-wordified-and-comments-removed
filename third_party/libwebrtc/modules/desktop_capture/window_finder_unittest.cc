@@ -12,9 +12,7 @@ h
 #
 include
 <
-stdint
-.
-h
+cstdint
 >
 #
 include

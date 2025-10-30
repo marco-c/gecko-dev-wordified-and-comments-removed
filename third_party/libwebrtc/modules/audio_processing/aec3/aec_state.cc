@@ -14,13 +14,6 @@ h
 #
 include
 <
-math
-.
-h
->
-#
-include
-<
 algorithm
 >
 #
@@ -32,6 +25,11 @@ array
 include
 <
 atomic
+>
+#
+include
+<
+cmath
 >
 #
 include

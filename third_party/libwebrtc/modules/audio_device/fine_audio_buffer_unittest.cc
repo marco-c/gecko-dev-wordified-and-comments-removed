@@ -12,9 +12,7 @@ h
 #
 include
 <
-limits
-.
-h
+climits
 >
 #
 include

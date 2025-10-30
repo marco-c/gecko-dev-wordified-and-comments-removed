@@ -14,14 +14,12 @@ h
 #
 include
 <
-stddef
-.
-h
+atomic
 >
 #
 include
 <
-atomic
+cstddef
 >
 #
 include
