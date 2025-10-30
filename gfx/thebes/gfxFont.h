@@ -5865,10 +5865,10 @@ aOrientation
 struct
 Spacing
 {
-gfxFloat
+nscoord
 mBefore
 ;
-gfxFloat
+nscoord
 mAfter
 ;
 }
