@@ -140,11 +140,6 @@ snapshot
 .
 mjs
 "
-"
-value_summary_reader
-.
-mjs
-"
 ]
 skip
 -
