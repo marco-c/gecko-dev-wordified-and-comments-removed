@@ -15166,7 +15166,7 @@ media_receive_channel1_impl
 recv_codecs
 (
 )
-ElementsAre
+UnorderedElementsAre
 (
 AllOf
 (
@@ -15241,7 +15241,7 @@ media_send_channel1_impl
 send_codecs
 (
 )
-ElementsAre
+UnorderedElementsAre
 (
 AllOf
 (
