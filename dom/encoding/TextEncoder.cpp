@@ -21,15 +21,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtrExtensions
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h

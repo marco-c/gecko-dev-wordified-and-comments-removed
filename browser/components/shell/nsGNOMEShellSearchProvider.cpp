@@ -95,15 +95,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtrExtensions
-.
-h
-"
-#
-include
-"
 nsImportModule
 .
 h

@@ -126,15 +126,6 @@ include
 "
 mozilla
 /
-UniquePtrExtensions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 widget
 /
 WinTaskbar
