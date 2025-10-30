@@ -703,13 +703,6 @@ if
 !
 defined
 (
-MOZ_WIDGET_COCOA
-)
-&
-&
-!
-defined
-(
 XP_WIN
 )
 NS_IMETHODIMP
