@@ -505,7 +505,7 @@ PreviewLightDark
 Composable
 private
 fun
-ReviewQualityCheckFooterPreview
+MicrosurveyFooterPreview
 (
 )
 {
