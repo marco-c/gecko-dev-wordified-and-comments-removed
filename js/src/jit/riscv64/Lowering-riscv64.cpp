@@ -1217,7 +1217,7 @@ div
 return
 ;
 }
-LDivOrModI64
+auto
 *
 lir
 =
@@ -1229,7 +1229,7 @@ alloc
 )
 LDivOrModI64
 (
-useRegister
+useRegisterAtStart
 (
 div
 -
@@ -1238,7 +1238,7 @@ lhs
 (
 )
 )
-useRegister
+useRegisterAtStart
 (
 div
 -
@@ -1246,9 +1246,6 @@ div
 rhs
 (
 )
-)
-temp
-(
 )
 )
 ;
@@ -1584,7 +1581,7 @@ mod
 return
 ;
 }
-LDivOrModI64
+auto
 *
 lir
 =
@@ -1596,7 +1593,7 @@ alloc
 )
 LDivOrModI64
 (
-useRegister
+useRegisterAtStart
 (
 mod
 -
@@ -1605,7 +1602,7 @@ lhs
 (
 )
 )
-useRegister
+useRegisterAtStart
 (
 mod
 -
@@ -1613,9 +1610,6 @@ mod
 rhs
 (
 )
-)
-temp
-(
 )
 )
 ;
@@ -1737,7 +1731,7 @@ MDiv
 div
 )
 {
-LUDivOrModI64
+auto
 *
 lir
 =
@@ -1749,7 +1743,7 @@ alloc
 )
 LUDivOrModI64
 (
-useRegister
+useRegisterAtStart
 (
 div
 -
@@ -1758,7 +1752,7 @@ lhs
 (
 )
 )
-useRegister
+useRegisterAtStart
 (
 div
 -
@@ -1766,9 +1760,6 @@ div
 rhs
 (
 )
-)
-temp
-(
 )
 )
 ;
@@ -1890,7 +1881,7 @@ MMod
 mod
 )
 {
-LUDivOrModI64
+auto
 *
 lir
 =
@@ -1902,7 +1893,7 @@ alloc
 )
 LUDivOrModI64
 (
-useRegister
+useRegisterAtStart
 (
 mod
 -
@@ -1911,7 +1902,7 @@ lhs
 (
 )
 )
-useRegister
+useRegisterAtStart
 (
 mod
 -
@@ -1919,9 +1910,6 @@ mod
 rhs
 (
 )
-)
-temp
-(
 )
 )
 ;
