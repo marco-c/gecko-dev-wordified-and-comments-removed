@@ -268,9 +268,11 @@ void
 flexibleDivMod64
 (
 Register
+lhs
+Register
 rhs
 Register
-lhsOutput
+output
 bool
 isUnsigned
 bool
