@@ -3268,9 +3268,9 @@ dom_file_createInChild
 )
 )
 {
-Unused
-<
-<
+(
+void
+)
 dom
 :
 :

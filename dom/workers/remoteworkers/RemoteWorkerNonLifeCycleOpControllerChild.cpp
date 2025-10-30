@@ -253,9 +253,9 @@ CanSend
 return
 ;
 }
-Unused
-<
-<
+(
+void
+)
 SendTerminated
 (
 )
@@ -299,9 +299,9 @@ CanSend
 return
 ;
 }
-Unused
-<
-<
+(
+void
+)
 SendError
 (
 aError

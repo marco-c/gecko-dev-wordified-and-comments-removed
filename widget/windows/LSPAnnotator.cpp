@@ -87,9 +87,9 @@ Annotate
 (
 )
 {
-Unused
-<
-<
+(
+void
+)
 CrashReporter
 :
 :

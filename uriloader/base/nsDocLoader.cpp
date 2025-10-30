@@ -3800,12 +3800,9 @@ docShell
 )
 )
 {
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 browserChild
 -
 >

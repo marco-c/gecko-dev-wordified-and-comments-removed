@@ -476,9 +476,9 @@ sBounceTrackingProtection
 mRemoteExceptionList
 )
 {
-Unused
-<
-<
+(
+void
+)
 sBounceTrackingProtection
 -
 >
@@ -4823,9 +4823,9 @@ ResolveValue
 ;
 }
 }
-Unused
-<
-<
+(
+void
+)
 NimbusFeatures
 :
 :

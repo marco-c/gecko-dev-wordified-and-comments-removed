@@ -71,15 +71,6 @@ h
 #
 include
 "
-mozilla
-/
-Unused
-.
-h
-"
-#
-include
-"
 nsIInputStream
 .
 h

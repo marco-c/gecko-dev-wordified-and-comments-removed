@@ -11798,9 +11798,9 @@ return
 false
 ;
 }
-Unused
-<
-<
+(
+void
+)
 doc
 -
 >
@@ -12613,9 +12613,9 @@ Document
 return
 ;
 }
-Unused
-<
-<
+(
+void
+)
 doc
 -
 >

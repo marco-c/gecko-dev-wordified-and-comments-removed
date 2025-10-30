@@ -5591,9 +5591,9 @@ n
 mKerningEnabled
 )
 ;
-Unused
-<
-<
+(
+void
+)
 mFontEntry
 -
 >
@@ -15349,9 +15349,9 @@ if
 useCache
 )
 {
-Unused
-<
-<
+(
+void
+)
 mColorGlyphCache
 -
 >

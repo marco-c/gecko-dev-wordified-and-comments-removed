@@ -3218,10 +3218,10 @@ data
 kCommandLinesOpt
 )
 {
-MOZ_UNUSED
 (
-_unused
+void
 )
+_unused
 ;
 CommandLine
 const

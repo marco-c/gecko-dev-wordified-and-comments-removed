@@ -23,12 +23,6 @@ using
 mozilla
 :
 :
-Unused
-;
-using
-mozilla
-:
-:
 WrapUnique
 ;
 nsresult
@@ -246,9 +240,9 @@ aPos
 0
 )
 {
-Unused
-<
-<
+(
+void
+)
 expr
 .
 release

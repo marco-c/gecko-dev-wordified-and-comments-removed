@@ -9144,12 +9144,9 @@ kungFuDeathGrip
 mWidget
 )
 ;
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 kungFuDeathGrip
 ;
 MOZ_LOG_KEY_OR_IME

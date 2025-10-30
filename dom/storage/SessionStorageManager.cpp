@@ -2062,9 +2062,9 @@ cacheActor
 return
 ;
 }
-Unused
-<
-<
+(
+void
+)
 cacheActor
 -
 >

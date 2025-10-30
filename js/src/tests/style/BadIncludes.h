@@ -58,16 +58,4 @@ stdio
 h
 "
 #
-elif
-E
-#
-include
-"
-mozilla
-/
-Unused
-.
-h
-"
-#
 endif

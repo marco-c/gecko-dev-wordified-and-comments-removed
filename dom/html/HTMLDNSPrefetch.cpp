@@ -1199,9 +1199,9 @@ network_dns_use_https_rr_as_altsvc
 )
 )
 {
-Unused
-<
-<
+(
+void
+)
 sDNSService
 -
 >
@@ -1583,9 +1583,9 @@ network_dns_use_https_rr_as_altsvc
 )
 )
 {
-Unused
-<
-<
+(
+void
+)
 sDNSService
 -
 >

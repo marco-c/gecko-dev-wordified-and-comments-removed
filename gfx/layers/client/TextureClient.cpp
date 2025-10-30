@@ -1084,9 +1084,9 @@ layersBackend
 aSelector
 )
 ;
-Unused
-<
-<
+(
+void
+)
 moz2DBackend
 ;
 #

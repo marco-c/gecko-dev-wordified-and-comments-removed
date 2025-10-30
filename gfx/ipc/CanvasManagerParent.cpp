@@ -602,9 +602,9 @@ actor
 actors
 )
 {
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 !

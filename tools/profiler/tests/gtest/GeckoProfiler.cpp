@@ -14309,12 +14309,9 @@ SpecialFrontendLocation
 }
 }
 ;
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 GtestUnusedMarker
 {
 }

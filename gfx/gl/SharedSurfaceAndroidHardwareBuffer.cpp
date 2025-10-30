@@ -780,9 +780,9 @@ fd
 return
 ;
 }
-Unused
-<
-<
+(
+void
+)
 fenceFd
 .
 release

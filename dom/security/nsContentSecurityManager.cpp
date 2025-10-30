@@ -7779,9 +7779,9 @@ nsIURI
 >
 newURI
 ;
-Unused
-<
-<
+(
+void
+)
 NS_GetFinalChannelURI
 (
 aNewChannel

@@ -3151,9 +3151,9 @@ GatheringState
 state
 )
 {
-Unused
-<
-<
+(
+void
+)
 aTransportId
 ;
 if

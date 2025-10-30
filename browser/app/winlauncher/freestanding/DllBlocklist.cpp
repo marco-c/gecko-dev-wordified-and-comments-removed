@@ -2114,9 +2114,9 @@ if
 isInjectedDependent
 )
 {
-Unused
-<
-<
+(
+void
+)
 SharedSection
 :
 :

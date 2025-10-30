@@ -811,9 +811,9 @@ value
 =
 0
 ;
-Unused
-<
-<
+(
+void
+)
 aResult
 -
 >

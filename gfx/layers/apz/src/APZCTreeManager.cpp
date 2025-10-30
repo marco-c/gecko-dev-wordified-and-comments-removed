@@ -1197,9 +1197,9 @@ Done
 "
 )
 ;
-Unused
-<
-<
+(
+void
+)
 gpu
 -
 >
@@ -8605,9 +8605,9 @@ panInput
 modifiers
 )
 ;
-Unused
-<
-<
+(
+void
+)
 mInputQueue
 -
 >

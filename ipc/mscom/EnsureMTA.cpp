@@ -388,9 +388,9 @@ rv
 )
 )
 {
-Unused
-<
-<
+(
+void
+)
 GetPersistentMTAThread
 (
 )

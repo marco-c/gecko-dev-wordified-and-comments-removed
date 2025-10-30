@@ -5125,9 +5125,9 @@ return
 nullptr
 ;
 }
-Unused
-<
-<
+(
+void
+)
 SetDebugName
 (
 device
