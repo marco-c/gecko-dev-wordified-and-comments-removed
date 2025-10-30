@@ -230,6 +230,13 @@ js
 ]
 [
 "
+test_quicksuggest_migrate_v4
+.
+js
+"
+]
+[
+"
 test_quicksuggest_offlineDefault
 .
 js

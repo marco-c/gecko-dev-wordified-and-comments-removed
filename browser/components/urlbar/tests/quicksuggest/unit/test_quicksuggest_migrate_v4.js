@@ -33,7 +33,7 @@ QuickSuggest
 .
 SETTINGS_UI
 .
-OFFLINE_ONLY
+FULL
 "
 suggest
 .
@@ -60,7 +60,7 @@ TEST_OVERRIDES
 {
 migrationVersion
 :
-3
+4
 defaultPrefs
 :
 DEFAULT_PREFS
