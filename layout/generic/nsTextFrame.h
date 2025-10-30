@@ -856,11 +856,11 @@ int32_t
 mLength
 ;
 const
-gfxFloat
+nscoord
 mWordSpacing
 ;
 const
-gfxFloat
+nscoord
 mLetterSpacing
 ;
 Maybe
