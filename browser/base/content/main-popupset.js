@@ -2559,15 +2559,6 @@ target
 ;
 ToolbarContextMenu
 .
-updateCustomizationItemsVisibility
-(
-event
-.
-target
-)
-;
-ToolbarContextMenu
-.
 hideLeadingSeparatorIfNeeded
 (
 event
