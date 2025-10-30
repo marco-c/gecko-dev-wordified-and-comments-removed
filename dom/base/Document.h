@@ -6460,6 +6460,11 @@ HTMLMetaElement
 aMetaElement
 )
 ;
+void
+TerminateParserAndDisableScripts
+(
+)
+;
 already_AddRefed
 <
 Element

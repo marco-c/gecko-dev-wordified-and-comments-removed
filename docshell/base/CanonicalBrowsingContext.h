@@ -1803,6 +1803,12 @@ CanOpenModalPicker
 (
 )
 ;
+static
+bool
+ShouldEnforceParentalControls
+(
+)
+;
 protected
 :
 void

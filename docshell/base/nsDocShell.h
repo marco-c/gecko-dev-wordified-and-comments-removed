@@ -2427,6 +2427,11 @@ return
 didDisplayLoadError
 ;
 }
+void
+DisplayRestrictedContentError
+(
+)
+;
 nsIPrincipal
 *
 GetInheritedPrincipal

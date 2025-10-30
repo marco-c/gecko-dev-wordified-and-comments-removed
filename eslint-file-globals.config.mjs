@@ -4633,6 +4633,17 @@ toolkit
 /
 content
 /
+aboutRestricted
+/
+aboutRestricted
+.
+mjs
+"
+"
+toolkit
+/
+content
+/
 aboutNetError
 .
 mjs
