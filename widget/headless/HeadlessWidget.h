@@ -218,14 +218,12 @@ const
 LayoutDeviceIntRect
 &
 aRect
+const
 widget
 :
 :
 InitData
-*
-aInitData
-=
-nullptr
+&
 )
 override
 ;

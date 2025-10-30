@@ -746,10 +746,9 @@ const
 DesktopIntRect
 &
 aRect
+const
 InitData
-*
-=
-nullptr
+&
 )
 override
 ;
@@ -768,10 +767,9 @@ const
 LayoutDeviceIntRect
 &
 aRect
+const
 InitData
-*
-=
-nullptr
+&
 )
 override
 ;

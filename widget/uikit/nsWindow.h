@@ -143,7 +143,7 @@ aParent
 const
 LayoutDeviceIntRect
 &
-aRect
+const
 mozilla
 :
 :
@@ -151,10 +151,7 @@ widget
 :
 :
 InitData
-*
-aInitData
-=
-nullptr
+&
 )
 override
 ;

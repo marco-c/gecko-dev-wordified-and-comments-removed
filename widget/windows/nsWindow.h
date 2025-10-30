@@ -773,12 +773,9 @@ aParent
 const
 LayoutDeviceIntRect
 &
-aRect
+const
 InitData
-*
-aInitData
-=
-nullptr
+&
 )
 override
 ;

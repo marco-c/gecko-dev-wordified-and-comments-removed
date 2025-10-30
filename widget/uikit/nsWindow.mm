@@ -4162,11 +4162,12 @@ const
 LayoutDeviceIntRect
 &
 aRect
+const
 widget
 :
 :
 InitData
-*
+&
 aInitData
 )
 {

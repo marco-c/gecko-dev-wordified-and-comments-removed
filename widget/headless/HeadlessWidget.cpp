@@ -675,11 +675,12 @@ const
 LayoutDeviceIntRect
 &
 aRect
+const
 widget
 :
 :
 InitData
-*
+&
 aInitData
 )
 {
@@ -700,11 +701,7 @@ aRect
 mAlwaysOnTop
 =
 aInitData
-&
-&
-aInitData
--
->
+.
 mAlwaysOnTop
 ;
 return

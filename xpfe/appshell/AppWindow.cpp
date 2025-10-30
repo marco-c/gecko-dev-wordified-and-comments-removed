@@ -1055,7 +1055,6 @@ get
 (
 )
 deskRect
-&
 widgetInitData
 )
 ;
@@ -6878,7 +6877,7 @@ mWindow
 mWindow
 -
 >
-SetDrawsTitle
+SetHideTitlebarSeparator
 (
 windowElement
 -
@@ -6888,7 +6887,7 @@ GetBoolAttr
 nsGkAtoms
 :
 :
-drawtitle
+hidetitlebarseparator
 )
 )
 ;
