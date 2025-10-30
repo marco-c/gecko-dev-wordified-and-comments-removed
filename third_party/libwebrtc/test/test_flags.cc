@@ -204,7 +204,7 @@ ABSL_FLAG
 (
 bool
 export_perf_results_new_api
-false
+true
 "
 Tells
 to
