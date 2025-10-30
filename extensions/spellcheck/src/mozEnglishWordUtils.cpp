@@ -40,15 +40,6 @@ nsCRT
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Likely
-.
-h
-"
 NS_IMPL_CYCLE_COLLECTION
 (
 mozEnglishWordUtils
