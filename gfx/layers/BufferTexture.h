@@ -172,6 +172,10 @@ Unlock
 )
 override
 {
+mIsClear
+=
+false
+;
 }
 void
 FillInfo
@@ -445,6 +449,10 @@ gfx
 :
 BackendType
 aMoz2DBackend
+bool
+aIsClear
+=
+false
 )
 :
 mDescriptor
@@ -454,6 +462,10 @@ aDescriptor
 mMoz2DBackend
 (
 aMoz2DBackend
+)
+mIsClear
+(
+aIsClear
 )
 {
 }
@@ -473,6 +485,11 @@ gfx
 :
 BackendType
 mMoz2DBackend
+;
+bool
+mIsClear
+=
+false
 ;
 }
 ;

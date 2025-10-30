@@ -9461,6 +9461,8 @@ SurfaceFormat
 aFormat
 bool
 aUninitialized
+bool
+aIsClear
 )
 {
 BackendType
@@ -9526,6 +9528,7 @@ aSize
 aStride
 aFormat
 aUninitialized
+aIsClear
 )
 ;
 return

@@ -927,12 +927,7 @@ DetachAllSnapshots
 (
 )
 override
-{
-MarkChanged
-(
-)
 ;
-}
 bool
 Init
 (
@@ -961,6 +956,10 @@ SurfaceFormat
 aFormat
 bool
 aUninitialized
+=
+false
+bool
+aIsClear
 =
 false
 )
@@ -1234,6 +1233,11 @@ mSnapshot
 Mutex
 mSnapshotLock
 MOZ_UNANNOTATED
+;
+bool
+mIsClear
+=
+false
 ;
 #
 ifdef
