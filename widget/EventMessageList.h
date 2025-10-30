@@ -805,14 +805,6 @@ eAudioComplete
 )
 NS_EVENT_MESSAGE
 (
-eBeforeScriptExecute
-)
-NS_EVENT_MESSAGE
-(
-eAfterScriptExecute
-)
-NS_EVENT_MESSAGE
-(
 eBeforePrint
 )
 NS_EVENT_MESSAGE

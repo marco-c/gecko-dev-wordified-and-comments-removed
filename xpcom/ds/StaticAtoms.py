@@ -7890,16 +7890,6 @@ onafterprint
 Atom
 (
 "
-onafterscriptexecute
-"
-"
-onafterscriptexecute
-"
-)
-    
-Atom
-(
-"
 onanimationcancel
 "
 "
@@ -8024,16 +8014,6 @@ onbeforeprint
 "
 "
 onbeforeprint
-"
-)
-    
-Atom
-(
-"
-onbeforescriptexecute
-"
-"
-onbeforescriptexecute
 "
 )
     

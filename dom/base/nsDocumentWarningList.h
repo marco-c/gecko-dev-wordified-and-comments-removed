@@ -22,11 +22,3 @@ DOCUMENT_WARNING
 (
 DocumentSetDomainIgnored
 )
-DOCUMENT_WARNING
-(
-AfterScriptExecuteEventNotSupported
-)
-DOCUMENT_WARNING
-(
-BeforeScriptExecuteEventNotSupported
-)

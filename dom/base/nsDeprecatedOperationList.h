@@ -176,13 +176,5 @@ IDBObjectStoreCreateIndexLocale
 )
 DEPRECATED_OPERATION
 (
-BeforeScriptExecuteEvent
-)
-DEPRECATED_OPERATION
-(
-AfterScriptExecuteEvent
-)
-DEPRECATED_OPERATION
-(
 FullscreenAttribute
 )
