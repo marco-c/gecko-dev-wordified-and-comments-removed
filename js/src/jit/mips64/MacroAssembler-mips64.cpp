@@ -3090,7 +3090,7 @@ scratch
 ;
 as_and
 (
-scratch
+scratch2
 scratch
 scratch2
 )
@@ -3225,7 +3225,7 @@ scratch
 ;
 as_and
 (
-scratch
+scratch2
 scratch
 scratch2
 )
