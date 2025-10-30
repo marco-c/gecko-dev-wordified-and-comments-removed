@@ -604,7 +604,6 @@ r6
 4
 ]
 test
-r7b
 [
 fg_dataq
 +
@@ -612,6 +611,7 @@ FGData
 .
 overlap_flag
 ]
+r7b
 jnz
 .
 v_overlap
@@ -2430,7 +2430,6 @@ uv_mult
 %
 endif
 test
-r7b
 [
 fg_dataq
 +
@@ -2438,6 +2437,7 @@ FGData
 .
 overlap_flag
 ]
+r7b
 jnz
 %
 %

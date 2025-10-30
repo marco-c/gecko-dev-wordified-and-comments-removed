@@ -6213,7 +6213,6 @@ base
 pd_16
 ]
 test
-r7b
 [
 fg_dataq
 +
@@ -6221,6 +6220,7 @@ FGData
 .
 overlap_flag
 ]
+r7b
 jnz
 .
 vertical_overlap
@@ -8649,7 +8649,6 @@ pd_16
 %
 endif
 test
-r7b
 [
 fg_dataq
 +
@@ -8657,6 +8656,7 @@ FGData
 .
 overlap_flag
 ]
+r7b
 jnz
 %
 %
