@@ -6243,11 +6243,17 @@ op
 }
 else
 {
+ScratchRegisterScope
+scratch
+(
+masm
+)
+;
 masm
 .
 as_and
 (
-dest
+scratch
 ToRegister
 (
 rhs
@@ -6278,7 +6284,7 @@ masm
 .
 ma_lsl
 (
-dest
+scratch
 lhs
 dest
 )
@@ -6295,7 +6301,7 @@ masm
 .
 ma_asr
 (
-dest
+scratch
 lhs
 dest
 )
@@ -6312,7 +6318,7 @@ masm
 .
 ma_lsr
 (
-dest
+scratch
 lhs
 dest
 )
