@@ -1240,6 +1240,11 @@ className
 devtools
 -
 button
+devtools
+-
+button
+-
+standalone
 take
 -
 snapshot
@@ -1247,13 +1252,6 @@ snapshot
 onClick
 :
 onSnapshotClick
-"
-data
--
-standalone
-"
-:
-true
 }
 L10N
 .

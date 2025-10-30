@@ -271,6 +271,11 @@ picker
 devtools
 -
 button
+devtools
+-
+button
+-
+standalone
 "
 +
 (
@@ -283,13 +288,6 @@ checked
 "
 "
 )
-"
-data
--
-standalone
-"
-:
-true
 onClick
 :
 event
