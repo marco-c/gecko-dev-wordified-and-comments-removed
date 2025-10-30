@@ -3268,6 +3268,11 @@ GetOriginInfosWithZeroUsage
 )
 const
 ;
+template
+<
+typename
+Checker
+>
 void
 ClearOrigins
 (
@@ -3275,6 +3280,10 @@ const
 OriginInfosNestedTraversable
 &
 aDoomedOriginInfos
+Checker
+&
+&
+aChecker
 const
 Maybe
 <
