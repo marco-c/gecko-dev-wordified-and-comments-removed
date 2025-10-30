@@ -1,11 +1,5 @@
 import
 logging
-import
-os
-import
-taskcluster_urls
-as
-liburls
 from
 taskcluster
 import
@@ -27,15 +21,11 @@ taskcluster
 import
 (
     
-_do_request
-    
-get_index_url
-    
 get_root_url
     
 get_task_definition
     
-get_task_url
+get_taskcluster_client
 )
 logger
 =
@@ -59,22 +49,11 @@ False
 )
 :
     
-index_url
-=
-get_index_url
-(
-index_path
-use_proxy
-=
-use_proxy
-)
-    
 expires
 =
 get_task_definition
 (
 task_id
-use_proxy
 )
 [
 "
@@ -82,21 +61,24 @@ expires
 "
 ]
     
+index
+=
+get_taskcluster_client
+(
+"
+index
+"
+)
+    
 response
 =
-_do_request
+index
+.
+insertTask
 (
         
-index_url
+index_path
         
-method
-=
-"
-put
-"
-        
-json
-=
 {
             
 "
@@ -265,29 +247,30 @@ task_id
 else
 :
         
-resp
+queue
 =
-_do_request
+get_taskcluster_client
 (
-get_task_url
-(
-task_id
-use_proxy
-)
-+
 "
-/
-status
+queue
 "
 )
         
-status
+response
 =
-resp
+queue
 .
-json
+status
 (
+task_id
 )
+        
+if
+response
+:
+            
+return
+response
 .
 get
 (
@@ -297,9 +280,6 @@ status
 {
 }
 )
-        
-return
-status
 def
 state_task
 (
@@ -477,7 +457,6 @@ rootUrl
 :
 get_root_url
 (
-True
 )
 }
 )
@@ -517,16 +496,6 @@ format
             
 get_root_url
 (
-os
-.
-environ
-.
-get
-(
-"
-TASKCLUSTER_PROXY_URL
-"
-)
 )
             
 response
@@ -570,62 +539,27 @@ params
 {
 }
     
+queue
+=
+get_taskcluster_client
+(
+"
+queue
+"
+)
+    
 while
 True
 :
         
-url
-=
-liburls
-.
-api
-(
-            
-get_root_url
-(
-False
-)
-            
-"
-queue
-"
-            
-"
-v1
-"
-            
-f
-"
-task
--
-group
-/
-{
-task_group_id
-}
-/
-list
-"
-        
-)
-        
 resp
 =
-_do_request
-(
-url
-method
-=
-"
-get
-"
-params
-=
-params
-)
+queue
 .
-json
+listTaskGroup
 (
+task_group_id
+params
 )
         
 yield
@@ -842,20 +776,19 @@ False
 )
 :
     
-response
+index
 =
-_do_request
+get_taskcluster_client
 (
-get_index_url
-(
-index_path
-use_proxy
-)
+"
+index
+"
 )
     
 return
-response
+index
 .
-json
+findTask
 (
+index_path
 )
