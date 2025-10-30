@@ -4611,10 +4611,7 @@ type
 "
 <
 <
-SdpTypeToString
-(
 type
-)
 ;
 std
 :
