@@ -541,6 +541,7 @@ BeginReading
 (
 )
 const
+MOZ_LIFETIME_BOUND
 {
 return
 mData
@@ -552,6 +553,7 @@ EndReading
 (
 )
 const
+MOZ_LIFETIME_BOUND
 {
 return
 mData
@@ -568,6 +570,7 @@ const_iterator
 aIter
 )
 const
+MOZ_LIFETIME_BOUND
 {
 aIter
 .
@@ -604,6 +607,7 @@ const_iterator
 aIter
 )
 const
+MOZ_LIFETIME_BOUND
 {
 aIter
 .
@@ -640,6 +644,7 @@ const_char_iterator
 aIter
 )
 const
+MOZ_LIFETIME_BOUND
 {
 return
 aIter
@@ -656,6 +661,7 @@ const_char_iterator
 aIter
 )
 const
+MOZ_LIFETIME_BOUND
 {
 return
 aIter
@@ -723,6 +729,7 @@ Data
 (
 )
 const
+MOZ_LIFETIME_BOUND
 {
 return
 mData
@@ -751,6 +758,7 @@ View
 (
 )
 const
+MOZ_LIFETIME_BOUND
 {
 return
 string_view
@@ -770,6 +778,7 @@ string_view
 (
 )
 const
+MOZ_LIFETIME_BOUND
 {
 return
 View
