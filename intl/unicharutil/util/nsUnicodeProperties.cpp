@@ -17,15 +17,6 @@ include
 "
 mozilla
 /
-HashTable
-.
-h
-"
-#
-include
-"
-mozilla
-/
 intl
 /
 Segmenter

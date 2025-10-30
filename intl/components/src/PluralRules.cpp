@@ -47,15 +47,6 @@ include
 "
 mozilla
 /
-Utf8
-.
-h
-"
-#
-include
-"
-mozilla
-/
 PodOperations
 .
 h

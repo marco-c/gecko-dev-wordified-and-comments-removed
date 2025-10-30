@@ -121,15 +121,6 @@ include
 "
 mozilla
 /
-Variant
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Vector
 .
 h
