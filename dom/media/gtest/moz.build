@@ -233,11 +233,6 @@ TestMediaCodecsSupport
 cpp
 "
 "
-TestMediaDataDecoder
-.
-cpp
-"
-"
 TestMediaDataEncoder
 .
 cpp

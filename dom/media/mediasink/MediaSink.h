@@ -316,16 +316,6 @@ aInfo
 )
 {
 }
-virtual
-void
-SetVideoQueueSendToCompositorSize
-(
-const
-uint32_t
-aSize
-)
-{
-}
 protected
 :
 virtual
