@@ -11,15 +11,6 @@ nsISocketProvider
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsUDPSocketProvider
 final

@@ -32,15 +32,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsSyncStreamListener
 final

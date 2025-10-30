@@ -11,15 +11,6 @@ nsIURLParser
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsBaseURLParser
 :

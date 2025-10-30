@@ -22,15 +22,6 @@ DNS
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsNetAddr
 final

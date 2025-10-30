@@ -18,15 +18,6 @@ nsString
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsBase64Encoder
 final

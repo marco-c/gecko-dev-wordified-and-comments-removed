@@ -18,15 +18,6 @@ nsNetUtil
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsILoadInfo
 ;

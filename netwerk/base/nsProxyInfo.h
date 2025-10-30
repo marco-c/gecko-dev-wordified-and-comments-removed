@@ -28,15 +28,6 @@ Atomics
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 define
 NS_PROXYINFO_IID
 \

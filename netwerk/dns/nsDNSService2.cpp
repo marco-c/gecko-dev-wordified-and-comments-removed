@@ -220,15 +220,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ClearOnShutdown
 .
 h
@@ -6659,6 +6650,7 @@ resolver
 FlushCache
 (
 aTrrToo
+true
 )
 ;
 return

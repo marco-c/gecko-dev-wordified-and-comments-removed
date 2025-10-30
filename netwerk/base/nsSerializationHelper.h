@@ -18,15 +18,6 @@ nsISerializationHelper
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsISerializable
 ;
