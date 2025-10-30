@@ -4457,6 +4457,7 @@ DEFINED_ON
 (
 arm
 arm64
+riscv64
 x86_shared
 )
 ;
