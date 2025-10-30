@@ -14,6 +14,8 @@ CustomDistribution
 :
 TestGetValue
 <
+Output
+=
 DistributionData
 >
 {

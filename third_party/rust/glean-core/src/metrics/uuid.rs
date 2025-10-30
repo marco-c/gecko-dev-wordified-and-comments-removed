@@ -660,12 +660,14 @@ unwrap_or
 }
 impl
 TestGetValue
-<
-String
->
 for
 UuidMetric
 {
+type
+Output
+=
+String
+;
 fn
 test_get_value
 (

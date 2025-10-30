@@ -563,12 +563,14 @@ unwrap_or
 }
 impl
 TestGetValue
-<
-String
->
 for
 StringMetric
 {
+type
+Output
+=
+String
+;
 fn
 test_get_value
 (

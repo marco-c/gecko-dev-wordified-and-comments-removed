@@ -508,12 +508,14 @@ unwrap_or
 }
 impl
 TestGetValue
-<
-bool
->
 for
 BooleanMetric
 {
+type
+Output
+=
+bool
+;
 fn
 test_get_value
 (

@@ -1338,12 +1338,14 @@ unwrap_or
 }
 impl
 TestGetValue
-<
-Datetime
->
 for
 DatetimeMetric
 {
+type
+Output
+=
+Datetime
+;
 fn
 test_get_value
 (

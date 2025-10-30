@@ -1327,12 +1327,14 @@ hist
 }
 impl
 TestGetValue
-<
-DistributionData
->
 for
 MemoryDistributionMetric
 {
+type
+Output
+=
+DistributionData
+;
 fn
 test_get_value
 (

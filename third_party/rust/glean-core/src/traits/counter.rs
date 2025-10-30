@@ -13,6 +13,8 @@ Counter
 :
 TestGetValue
 <
+Output
+=
 i32
 >
 {

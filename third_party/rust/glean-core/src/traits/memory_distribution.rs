@@ -22,6 +22,8 @@ MemoryDistribution
 :
 TestGetValue
 <
+Output
+=
 DistributionData
 >
 {

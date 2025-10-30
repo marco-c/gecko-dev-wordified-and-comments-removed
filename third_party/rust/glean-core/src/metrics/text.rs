@@ -565,12 +565,14 @@ unwrap_or
 }
 impl
 TestGetValue
-<
-String
->
 for
 TextMetric
 {
+type
+Output
+=
+String
+;
 fn
 test_get_value
 (

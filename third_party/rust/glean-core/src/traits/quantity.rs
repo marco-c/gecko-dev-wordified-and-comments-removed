@@ -13,6 +13,8 @@ Quantity
 :
 TestGetValue
 <
+Output
+=
 i64
 >
 {

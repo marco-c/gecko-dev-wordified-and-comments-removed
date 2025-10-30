@@ -1256,12 +1256,14 @@ hist
 }
 impl
 TestGetValue
-<
-DistributionData
->
 for
 CustomDistributionMetric
 {
+type
+Output
+=
+DistributionData
+;
 fn
 test_get_value
 (

@@ -296,12 +296,14 @@ error
 }
 impl
 TestGetValue
-<
-Rate
->
 for
 NumeratorMetric
 {
+type
+Output
+=
+Rate
+;
 fn
 test_get_value
 (

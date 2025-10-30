@@ -1345,10 +1345,10 @@ str
 pub
 trait
 TestGetValue
-<
-T
->
 {
+type
+Output
+;
 fn
 test_get_value
 (
@@ -1365,7 +1365,10 @@ String
 >
 Option
 <
-T
+Self
+:
+:
+Output
 >
 ;
 }

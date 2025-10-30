@@ -3059,7 +3059,7 @@ stop_time
 zeitstempel
 :
 :
-now
+now_awake
 (
 )
 ;

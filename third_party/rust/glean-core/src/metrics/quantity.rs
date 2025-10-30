@@ -605,12 +605,14 @@ unwrap_or
 }
 impl
 TestGetValue
-<
-i64
->
 for
 QuantityMetric
 {
+type
+Output
+=
+i64
+;
 fn
 test_get_value
 (

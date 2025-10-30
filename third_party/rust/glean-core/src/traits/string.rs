@@ -13,6 +13,8 @@ String
 :
 TestGetValue
 <
+Output
+=
 std
 :
 :

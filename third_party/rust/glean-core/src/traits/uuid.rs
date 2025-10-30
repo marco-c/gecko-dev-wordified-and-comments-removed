@@ -13,6 +13,8 @@ Uuid
 :
 TestGetValue
 <
+Output
+=
 uuid
 :
 :

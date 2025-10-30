@@ -549,12 +549,14 @@ unwrap_or
 }
 impl
 TestGetValue
-<
-i32
->
 for
 DenominatorMetric
 {
+type
+Output
+=
+i32
+;
 fn
 test_get_value
 (

@@ -598,12 +598,14 @@ unwrap_or
 }
 impl
 TestGetValue
-<
-JsonValue
->
 for
 ObjectMetric
 {
+type
+Output
+=
+JsonValue
+;
 fn
 test_get_value
 (
