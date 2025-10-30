@@ -490,19 +490,6 @@ opacity
 2s
 ease
 ;
-media
-(
-prefers
--
-reduced
--
-motion
-:
-no
--
-preference
-)
-{
 &
 :
 hover
@@ -522,6 +509,5 @@ color
 secondary
 )
 ;
-}
 }
 }
