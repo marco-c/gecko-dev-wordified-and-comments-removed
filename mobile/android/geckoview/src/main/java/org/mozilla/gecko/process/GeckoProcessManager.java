@@ -3907,6 +3907,14 @@ error
 ;
 if
 (
+isContent
+(
+info
+.
+type
+)
+&
+&
 startError
 .
 errorCode
