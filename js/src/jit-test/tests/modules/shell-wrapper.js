@@ -1577,8 +1577,9 @@ assertEq
 (
 m
 .
-asyncEvaluatingPostOrder
-undefined
+asyncEvaluationOrder
+-
+1
 )
 ;
 assertEq
@@ -1620,7 +1621,7 @@ testGetter
 (
 m
 "
-asyncEvaluatingPostOrder
+asyncEvaluationOrder
 "
 )
 ;
