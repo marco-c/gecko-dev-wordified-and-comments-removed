@@ -498,7 +498,7 @@ aSpacing
 const
 final
 ;
-gfxFloat
+nscoord
 GetHyphenWidth
 (
 )
@@ -877,11 +877,11 @@ gfxFloat
 mMinTabAdvance
 ;
 mutable
-gfxFloat
+nscoord
 mHyphenWidth
 ;
 mutable
-gfxFloat
+nscoord
 mOffsetFromBlockOriginForTabs
 ;
 uint32_t

@@ -770,7 +770,7 @@ const
 0
 ;
 virtual
-gfxFloat
+nscoord
 GetHyphenWidth
 (
 )
