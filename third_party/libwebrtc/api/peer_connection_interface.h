@@ -3750,12 +3750,6 @@ ssl_max_version
 =
 SSL_PROTOCOL_DTLS_12
 ;
-CryptoOptions
-crypto_options
-=
-{
-}
-;
 }
 ;
 virtual
