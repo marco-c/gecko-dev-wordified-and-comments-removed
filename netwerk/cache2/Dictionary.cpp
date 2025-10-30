@@ -4807,7 +4807,7 @@ Removing
 dictionary
 for
 %
-80s
+s
 "
 PromiseFlatCString
 (
@@ -4915,9 +4915,9 @@ DICTIONARY_LOG
 "
 Removing
 dictionary
-for
+origin
 %
-80s
+s
 "
 PromiseFlatCString
 (
@@ -4942,14 +4942,14 @@ nsCString
 DictionaryCache
 :
 :
-RemoveDictionaryFor
+RemoveOriginFor
 "
 cache
 &
 DictionaryCache
 :
 :
-RemoveDictionary
+RemoveOrigin
 aKey
 )
 )
