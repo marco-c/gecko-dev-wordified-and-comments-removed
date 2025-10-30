@@ -314,6 +314,9 @@ SanitizerConfig
 aConfig
 bool
 aAllowCommentsAndDataAttributes
+ErrorResult
+&
+aRv
 )
 ;
 void
