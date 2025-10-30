@@ -494,10 +494,8 @@ aUserInvolvement
 Element
 *
 aSourceElement
-already_AddRefed
-<
 FormData
->
+*
 aFormDataEntryList
 nsIStructuredCloneContainer
 *
@@ -672,10 +670,8 @@ aUserInvolvement
 Element
 *
 aSourceElement
-already_AddRefed
-<
 FormData
->
+*
 aFormDataEntryList
 nsIStructuredCloneContainer
 *
