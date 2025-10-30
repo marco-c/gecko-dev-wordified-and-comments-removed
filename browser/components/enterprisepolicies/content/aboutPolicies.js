@@ -1699,6 +1699,11 @@ Permissions
 "
 Permissions2
 "
+PopupBlocking
+:
+"
+PopupBlocking2
+"
 SanitizeOnShutdown
 :
 "
@@ -1718,6 +1723,11 @@ WindowsSSO
 :
 "
 Windows10SSO
+"
+Backup
+:
+"
+BrowserDataBackup
 "
 }
 ;
