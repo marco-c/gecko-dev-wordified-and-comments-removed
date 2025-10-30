@@ -395,14 +395,9 @@ metadata
 source
 }
 '
-slackBlocks
+slackAttachments
 :
 |
-{
-"
-attachments
-"
-:
 [
 {
 "
@@ -764,7 +759,6 @@ Engineering
 ]
 }
 ]
-}
 focus
 :
 slackText
@@ -810,14 +804,9 @@ metadata
 source
 }
 '
-slackBlocks
+slackAttachments
 :
 |
-{
-"
-attachments
-"
-:
 [
 {
 "
@@ -1179,7 +1168,6 @@ Engineering
 ]
 }
 ]
-}
 default
 :
 {
