@@ -46,15 +46,6 @@ nsSimpleEnumerator
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsObserverList
 :

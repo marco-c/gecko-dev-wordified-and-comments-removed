@@ -7,15 +7,6 @@ __nsconsolemessage_h__
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIConsoleMessage
 .
 h

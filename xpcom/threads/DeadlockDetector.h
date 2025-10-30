@@ -6,15 +6,6 @@ define
 mozilla_DeadlockDetector_h
 #
 include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
 <
 stdlib
 .

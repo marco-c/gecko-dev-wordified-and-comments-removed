@@ -9,15 +9,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ArrayIterator
 .
 h

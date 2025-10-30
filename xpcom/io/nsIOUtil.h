@@ -30,15 +30,6 @@ nsIIOUtil
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsIOUtil
 final

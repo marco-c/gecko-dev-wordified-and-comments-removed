@@ -26,15 +26,6 @@ nsCOMPtr
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 define
 NS_SCRIPTABLEINPUTSTREAM_CID
 \

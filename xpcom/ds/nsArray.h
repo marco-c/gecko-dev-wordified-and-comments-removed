@@ -33,15 +33,6 @@ nsCycleCollectionParticipant
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 define
 NS_ARRAY_CID
 \

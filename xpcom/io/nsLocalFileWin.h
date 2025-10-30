@@ -69,15 +69,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
 <
 windows
 .
