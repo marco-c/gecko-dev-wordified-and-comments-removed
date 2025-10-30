@@ -219,12 +219,6 @@ NativeNSMenu
 (
 )
 ;
-mStatusItem
-.
-highlightMode
-=
-YES
-;
 mMenu
 -
 >
