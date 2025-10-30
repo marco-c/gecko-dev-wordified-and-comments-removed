@@ -193,7 +193,9 @@ to
 .
 *
 /
-readonly
+[
+setter_can_run_script
+]
 attribute
 Element
 controlledElement
