@@ -212,6 +212,16 @@ wrap_content
 "
 android
 :
+textColor
+=
+"
+?
+attr
+/
+textPrimary
+"
+android
+:
 layout_height
 =
 "
@@ -290,8 +300,6 @@ style
 =
 "
 ?
-android
-:
 attr
 /
 borderlessButtonStyle
