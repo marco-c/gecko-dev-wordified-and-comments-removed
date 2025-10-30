@@ -2308,7 +2308,7 @@ mDataChannel
 mDataChannel
 -
 >
-FinishClose
+EndOfStream
 (
 )
 ;
@@ -2918,7 +2918,7 @@ mDataChannel
 mDataChannel
 -
 >
-FinishClose
+EndOfStream
 (
 )
 ;
