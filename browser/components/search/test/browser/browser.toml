@@ -254,13 +254,6 @@ bug
 ]
 [
 "
-browser_addKeywordSearch
-.
-js
-"
-]
-[
-"
 browser_addSearchEngineFromForm
 .
 js
