@@ -877,6 +877,46 @@ pings
 "
 )
 )
+click
+.
+option
+(
+    
+"
+-
+-
+expire
+-
+by
+-
+version
+"
+    
+help
+=
+"
+Expire
+metrics
+by
+version
+with
+the
+provided
+major
+version
+.
+"
+    
+type
+=
+click
+.
+INT
+    
+required
+=
+False
+)
 def
 glinter
 (
@@ -884,6 +924,7 @@ input
 allow_reserved
 allow_missing_files
 require_tags
+expire_by_version
 )
 :
     
@@ -943,6 +984,12 @@ require_tags
 "
 :
 require_tags
+                
+"
+expire_by_version
+"
+:
+expire_by_version
             
 }
         

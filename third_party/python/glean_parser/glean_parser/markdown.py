@@ -330,9 +330,6 @@ assembled
 out
 of
 the
-"
-            
-"
 box
 by
 the

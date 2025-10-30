@@ -272,10 +272,12 @@ metadata
 .
 get
 (
+            
 "
 follows_collection_enabled
 "
 True
+        
 )
         
 if
