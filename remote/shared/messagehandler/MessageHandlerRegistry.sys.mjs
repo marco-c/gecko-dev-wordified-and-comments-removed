@@ -461,9 +461,10 @@ EventEmitter
 /
 *
 *
+*
 param
 {
-String
+string
 }
 type
 *
@@ -478,7 +479,7 @@ type
 *
 param
 {
-Object
+object
 }
 context
 *

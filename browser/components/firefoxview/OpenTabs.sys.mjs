@@ -967,6 +967,7 @@ TabRecencyChange
 /
 *
 *
+*
 param
 {
 string
@@ -984,7 +985,7 @@ TabRecencyChange
 *
 param
 {
-Object
+object
 |
 Function
 }
@@ -992,7 +993,7 @@ listener
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -1060,6 +1061,7 @@ start
 /
 *
 *
+*
 param
 {
 string
@@ -1077,7 +1079,7 @@ TabRecencyChange
 *
 param
 {
-Object
+object
 |
 Function
 }
@@ -2101,6 +2103,7 @@ clear
 /
 *
 *
+*
 param
 {
 Window
@@ -2243,6 +2246,7 @@ win
 ;
 }
 /
+*
 *
 *
 returns
