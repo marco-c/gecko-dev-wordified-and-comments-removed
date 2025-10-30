@@ -1062,6 +1062,10 @@ const
 LocalAccessible
 *
 aAcc
+bool
+aShouldScaleByResolution
+=
+true
 )
 ;
 bool
