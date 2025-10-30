@@ -784,6 +784,9 @@ Backend
 :
 :
 Noop
+transient_saves_memory
+:
+false
 }
 }
 pub

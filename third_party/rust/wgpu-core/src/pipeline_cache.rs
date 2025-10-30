@@ -1749,6 +1749,9 @@ Backend
 :
 :
 Vulkan
+transient_saves_memory
+:
+true
 }
 ;
 const

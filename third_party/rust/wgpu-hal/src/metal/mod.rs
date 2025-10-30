@@ -719,6 +719,13 @@ Backend
 :
 :
 Metal
+transient_saves_memory
+:
+shared
+.
+private_caps
+.
+supports_memoryless_storage
 }
 features
 :
@@ -1291,6 +1298,9 @@ float_atomics
 :
 bool
 supports_shared_event
+:
+bool
+supports_memoryless_storage
 :
 bool
 }

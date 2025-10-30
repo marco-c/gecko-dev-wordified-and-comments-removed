@@ -2829,7 +2829,7 @@ mip
 wgt
 :
 :
-FilterMode
+MipmapFilterMode
 )
 -
 >
@@ -2845,6 +2845,14 @@ wgt
 FilterMode
 as
 Fm
+;
+use
+wgt
+:
+:
+MipmapFilterMode
+as
+Mfm
 ;
 let
 mag_filter
@@ -2888,7 +2896,7 @@ Fm
 :
 :
 Nearest
-Fm
+Mfm
 :
 :
 Nearest
@@ -2904,7 +2912,7 @@ Fm
 :
 :
 Nearest
-Fm
+Mfm
 :
 :
 Linear
@@ -2920,7 +2928,7 @@ Fm
 :
 :
 Linear
-Fm
+Mfm
 :
 :
 Nearest
@@ -2936,7 +2944,7 @@ Fm
 :
 :
 Linear
-Fm
+Mfm
 :
 :
 Linear

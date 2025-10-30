@@ -4081,7 +4081,7 @@ D3D12_MAG_FILTER_SHIFT
 conv
 :
 :
-map_filter_mode
+map_mipmap_filter_mode
 (
 desc
 .
@@ -4484,6 +4484,14 @@ self
 rtv_pool
 )
 temp_rtv_handles
+:
+Vec
+:
+:
+new
+(
+)
+intermediate_copy_bufs
 :
 Vec
 :

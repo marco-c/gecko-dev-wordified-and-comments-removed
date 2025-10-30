@@ -3832,6 +3832,14 @@ TextureUsages
 :
 :
 RENDER_ATTACHMENT
+|
+wgt
+:
+:
+TextureUsages
+:
+:
+TRANSIENT
 caps
 .
 intersects
