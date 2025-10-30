@@ -268,6 +268,9 @@ tabs
 :
 [
 {
+state
+:
+{
 savedGroupData
 :
 -
@@ -290,6 +293,10 @@ serialized
 "
 }
 }
+}
+{
+state
+:
 {
 someData
 :
@@ -310,6 +317,7 @@ moreData
 3
 .
 71
+}
 }
 ]
 notTabData
@@ -400,6 +408,8 @@ tab
 >
 delete
 tab
+.
+state
 .
 storage
 )

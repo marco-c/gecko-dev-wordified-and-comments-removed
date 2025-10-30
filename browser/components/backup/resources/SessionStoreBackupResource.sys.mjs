@@ -445,6 +445,8 @@ tab
 delete
 tab
 .
+state
+.
 storage
 )
 ;
