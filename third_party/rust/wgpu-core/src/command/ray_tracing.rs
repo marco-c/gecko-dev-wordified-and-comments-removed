@@ -507,6 +507,16 @@ cmd_buf_data
 .
 with_buffer
 (
+crate
+:
+:
+command
+:
+:
+EncodingApi
+:
+:
+Raw
 |
 cmd_buf_data
 |

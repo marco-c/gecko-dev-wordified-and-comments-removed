@@ -982,6 +982,12 @@ vk
 :
 Image
 >
+fence
+:
+vk
+:
+:
+Fence
 config
 :
 crate

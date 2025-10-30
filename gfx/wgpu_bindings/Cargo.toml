@@ -98,7 +98,7 @@ wgpu
 rev
 =
 "
-a70b8336c01b0869e0459baae5a30fdfe365e5ad
+18f4ed66c004d68003528510a0726d86a56acb9c
 "
 features
 =
@@ -201,7 +201,7 @@ wgpu
 rev
 =
 "
-a70b8336c01b0869e0459baae5a30fdfe365e5ad
+18f4ed66c004d68003528510a0726d86a56acb9c
 "
 features
 =
@@ -263,7 +263,7 @@ wgpu
 rev
 =
 "
-a70b8336c01b0869e0459baae5a30fdfe365e5ad
+18f4ed66c004d68003528510a0726d86a56acb9c
 "
 features
 =
@@ -350,7 +350,7 @@ wgpu
 rev
 =
 "
-a70b8336c01b0869e0459baae5a30fdfe365e5ad
+18f4ed66c004d68003528510a0726d86a56acb9c
 "
 features
 =
@@ -391,7 +391,7 @@ wgpu
 rev
 =
 "
-a70b8336c01b0869e0459baae5a30fdfe365e5ad
+18f4ed66c004d68003528510a0726d86a56acb9c
 "
 [
 dependencies
@@ -425,7 +425,7 @@ wgpu
 rev
 =
 "
-a70b8336c01b0869e0459baae5a30fdfe365e5ad
+18f4ed66c004d68003528510a0726d86a56acb9c
 "
 features
 =
