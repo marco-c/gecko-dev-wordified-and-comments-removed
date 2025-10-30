@@ -1125,7 +1125,7 @@ Link
 .
 accesskey
 =
-r
+J
 #
 "
 Copy
