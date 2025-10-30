@@ -659,11 +659,11 @@ ANDROID_NDK_VERSION
 str
 =
 "
-28
+29
 .
-2
+0
 .
-13676358
+14206865
 "
 ;
 const
@@ -688,7 +688,7 @@ lib
 /
 clang
 /
-19
+21
 /
 lib
 /
@@ -746,7 +746,7 @@ lib
 /
 clang
 /
-19
+21
 /
 lib
 /

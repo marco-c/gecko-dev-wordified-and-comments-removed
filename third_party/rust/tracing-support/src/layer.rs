@@ -565,8 +565,6 @@ send_event
 event
 )
 ;
-return
-;
 }
 }
 if
