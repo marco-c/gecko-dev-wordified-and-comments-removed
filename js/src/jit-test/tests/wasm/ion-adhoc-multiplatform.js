@@ -2158,11 +2158,9 @@ rbp
 eax
 arm64
 :
-lsr
+mov
 w0
 w0
-#
-0
 arm
 :
 }
@@ -2534,13 +2532,9 @@ rbp
 eax
 arm64
 :
-sbfx
+mov
 w0
 w0
-#
-0
-#
-32
 arm
 :
 }
