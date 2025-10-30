@@ -2058,13 +2058,11 @@ l10n
 id
 =
 "
-turn
+settings
 -
-on
+sensitive
 -
-scheduled
--
-backups
+data
 -
 encryption
 -

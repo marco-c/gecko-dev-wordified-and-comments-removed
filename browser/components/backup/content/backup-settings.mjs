@@ -2900,9 +2900,9 @@ id
 "
 settings
 -
-data
+sensitive
 -
-toggle
+data
 -
 encryption
 -

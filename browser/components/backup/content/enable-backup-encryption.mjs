@@ -945,9 +945,11 @@ l10n
 id
 =
 "
-enable
+settings
 -
-backup
+sensitive
+-
+data
 -
 encryption
 -
