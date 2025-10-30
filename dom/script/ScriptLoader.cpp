@@ -3255,7 +3255,7 @@ if
 aRequest
 -
 >
-IsStencil
+IsCachedStencil
 (
 )
 )
@@ -6141,7 +6141,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-IsStencil
+IsCachedStencil
 (
 )
 )
@@ -7249,7 +7249,7 @@ if
 request
 -
 >
-IsStencil
+IsCachedStencil
 (
 )
 )
@@ -9187,7 +9187,7 @@ if
 aRequest
 -
 >
-IsStencil
+IsCachedStencil
 (
 )
 &
@@ -13536,7 +13536,7 @@ if
 aRequest
 -
 >
-IsStencil
+IsCachedStencil
 (
 )
 )
@@ -13829,7 +13829,7 @@ if
 aRequest
 -
 >
-IsStencil
+IsCachedStencil
 (
 )
 )
@@ -13938,7 +13938,7 @@ if
 aRequest
 -
 >
-IsStencil
+IsCachedStencil
 (
 )
 )
@@ -15835,7 +15835,7 @@ if
 aRequest
 -
 >
-IsStencil
+IsCachedStencil
 (
 )
 )
@@ -16152,7 +16152,7 @@ Evict
 aRequest
 -
 >
-SetStencil
+SetCachedStencil
 (
 aStencil
 .
@@ -16440,7 +16440,7 @@ MOZ_ASSERT_IF
 aRequest
 -
 >
-IsStencil
+IsCachedStencil
 (
 )
 aRequest
@@ -16906,7 +16906,7 @@ if
 aRequest
 -
 >
-IsStencil
+IsCachedStencil
 (
 )
 )
@@ -17950,7 +17950,7 @@ MOZ_ASSERT_IF
 request
 -
 >
-IsStencil
+IsCachedStencil
 (
 )
 stencil

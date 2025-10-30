@@ -192,7 +192,7 @@ mDataType
 DataType
 :
 :
-eStencil
+eCachedStencil
 )
 mKind
 (
@@ -259,7 +259,7 @@ mDataType
 DataType
 :
 :
-eStencil
+eCachedStencil
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
@@ -1413,7 +1413,7 @@ MOZ_DIAGNOSTIC_ASSERT
 (
 aScript
 .
-IsStencil
+IsCachedStencil
 (
 )
 )
@@ -1448,7 +1448,7 @@ ToCache
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
-IsStencil
+IsCachedStencil
 (
 )
 )

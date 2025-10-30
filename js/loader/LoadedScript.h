@@ -503,7 +503,7 @@ uint8_t
 eUnknown
 eTextSource
 eBytecode
-eStencil
+eCachedStencil
 }
 ;
 template
@@ -606,7 +606,7 @@ eBytecode
 ;
 }
 bool
-IsStencil
+IsCachedStencil
 (
 )
 const
@@ -618,7 +618,7 @@ mDataType
 DataType
 :
 :
-eStencil
+eCachedStencil
 ;
 }
 void
@@ -699,7 +699,7 @@ eBytecode
 ;
 }
 void
-SetStencil
+SetCachedStencil
 (
 already_AddRefed
 <
@@ -717,7 +717,7 @@ mDataType
 DataType
 :
 :
-eStencil
+eCachedStencil
 ;
 mStencil
 =
@@ -992,7 +992,7 @@ IsSource
 )
 |
 |
-IsStencil
+IsCachedStencil
 (
 )
 ;
@@ -1126,7 +1126,7 @@ const
 {
 MOZ_ASSERT
 (
-IsStencil
+IsCachedStencil
 (
 )
 )
@@ -1419,7 +1419,7 @@ IsBytecode
 ;
 }
 bool
-IsStencil
+IsCachedStencil
 (
 )
 const
@@ -1430,7 +1430,7 @@ GetLoadedScript
 )
 -
 >
-IsStencil
+IsCachedStencil
 (
 )
 ;
@@ -1485,7 +1485,7 @@ SetBytecode
 ;
 }
 void
-SetStencil
+SetCachedStencil
 (
 already_AddRefed
 <
@@ -1499,7 +1499,7 @@ GetLoadedScript
 )
 -
 >
-SetStencil
+SetCachedStencil
 (
 std
 :
