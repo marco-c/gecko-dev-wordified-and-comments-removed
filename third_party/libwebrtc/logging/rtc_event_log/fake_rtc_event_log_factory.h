@@ -38,6 +38,17 @@ api
 /
 rtc_event_log
 /
+rtc_event_log
+.
+h
+"
+#
+include
+"
+api
+/
+rtc_event_log
+/
 rtc_event_log_factory_interface
 .
 h
