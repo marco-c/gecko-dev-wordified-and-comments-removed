@@ -298,6 +298,9 @@ null
 dictionary
 NavigationInterceptOptions
 {
+NavigationPrecommitHandler
+precommitHandler
+;
 NavigationInterceptHandler
 handler
 ;
