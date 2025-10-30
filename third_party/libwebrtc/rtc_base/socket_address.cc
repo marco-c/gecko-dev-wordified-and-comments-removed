@@ -56,15 +56,6 @@ h
 #
 endif
 #
-if
-!
-defined
-(
-__native_client__
-)
-#
-endif
-#
 endif
 #
 include

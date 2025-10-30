@@ -91,11 +91,6 @@ h
 #
 endif
 #
-ifndef
-__native_client__
-#
-endif
-#
 include
 <
 netdb

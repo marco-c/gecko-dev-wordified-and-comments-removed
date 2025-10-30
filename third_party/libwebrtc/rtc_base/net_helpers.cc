@@ -51,13 +51,6 @@ defined
 (
 WEBRTC_POSIX
 )
-&
-&
-!
-defined
-(
-__native_client__
-)
 #
 include
 <

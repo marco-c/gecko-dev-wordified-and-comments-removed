@@ -27,12 +27,6 @@ h
 if
 defined
 (
-__native_client__
-)
-|
-|
-defined
-(
 WEBRTC_BSD
 )
 #
@@ -73,12 +67,6 @@ CreateDefaultSocketServer
 {
 #
 if
-defined
-(
-__native_client__
-)
-|
-|
 defined
 (
 WEBRTC_BSD

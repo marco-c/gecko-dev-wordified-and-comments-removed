@@ -179,12 +179,6 @@ FALSE
 elif
 defined
 (
-__native_client__
-)
-|
-|
-defined
-(
 WEBRTC_FUCHSIA
 )
 |
