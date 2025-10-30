@@ -4670,14 +4670,6 @@ fake_video_codecs
 /
 test
 :
-field_trial
-"
-"
-.
-.
-/
-test
-:
 fileutils
 "
 "

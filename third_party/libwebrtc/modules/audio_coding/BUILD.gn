@@ -7694,17 +7694,6 @@ audio_test_common
 /
 test
 :
-field_trial
-"
-"
-.
-.
-/
-.
-.
-/
-test
-:
 fileutils
 "
 "

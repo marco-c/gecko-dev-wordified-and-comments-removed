@@ -1851,14 +1851,6 @@ create_test_field_trials
 /
 test
 :
-field_trial
-"
-"
-.
-.
-/
-test
-:
 mock_transport
 "
 "

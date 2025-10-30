@@ -2452,17 +2452,6 @@ fake_encoded_frame
 /
 test
 :
-field_trial
-"
-"
-.
-.
-/
-.
-.
-/
-test
-:
 test_support
 "
 ]

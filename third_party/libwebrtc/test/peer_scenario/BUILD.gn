@@ -191,12 +191,6 @@ frame_generator_capturer
 .
 .
 :
-scoped_key_value_config
-"
-"
-.
-.
-:
 test_support
 "
 "
