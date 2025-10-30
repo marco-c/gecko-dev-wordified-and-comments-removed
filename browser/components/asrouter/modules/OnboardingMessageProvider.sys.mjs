@@ -10500,9 +10500,7 @@ startup
 doesAppNeedPin
 &
 &
-isDefaultBrowser
-&
-&
+(
 !
 '
 browser
@@ -10513,6 +10511,10 @@ checkDefaultBrowser
 '
 |
 preferenceValue
+|
+|
+isDefaultBrowser
+)
 &
 &
 !
