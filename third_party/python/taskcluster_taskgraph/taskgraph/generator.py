@@ -31,6 +31,7 @@ from
 typing
 import
 Callable
+Dict
 Optional
 Union
 from
@@ -163,7 +164,7 @@ str
     
 config
 :
-dict
+Dict
     
 graph_config
 :
@@ -2181,16 +2182,6 @@ initial
 "
 )
         
-self
-.
-verify
-(
-"
-graph_config
-"
-graph_config
-)
-        
 if
 callable
 (
@@ -3352,18 +3343,11 @@ args
 def
 load_tasks_for_kinds
 (
-    
 parameters
 kinds
 root_dir
 =
 None
-graph_attr
-=
-None
-*
-*
-tgg_kwargs
 )
 :
     
@@ -3396,14 +3380,6 @@ taskgraph
     
 "
 "
-"
-    
-graph_attr
-=
-graph_attr
-or
-"
-full_task_set
 "
     
 parameters
@@ -3449,9 +3425,6 @@ root_dir
 parameters
 =
 parameters
-*
-*
-tgg_kwargs
 )
     
 return
@@ -3476,11 +3449,9 @@ task
 for
 task
 in
-getattr
-(
 tgg
-graph_attr
-)
+.
+full_task_set
         
 if
 task
@@ -3498,9 +3469,6 @@ kind
 root_dir
 =
 None
-*
-*
-tgg_kwargs
 )
 :
     
@@ -3543,7 +3511,4 @@ parameters
 kind
 ]
 root_dir
-*
-*
-tgg_kwargs
 )

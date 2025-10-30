@@ -3,6 +3,10 @@ dataclasses
 import
 dataclass
 from
+typing
+import
+Dict
+from
 .
 graph
 import
@@ -93,7 +97,7 @@ dependents
     
 tasks
 :
-dict
+Dict
 [
 str
 Task
@@ -453,7 +457,7 @@ cls
 tasks
 Graph
 (
-frozenset
+set
 (
 tasks
 )

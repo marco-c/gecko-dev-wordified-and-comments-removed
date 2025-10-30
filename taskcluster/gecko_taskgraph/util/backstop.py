@@ -1,9 +1,7 @@
 from
-taskcluster
-.
-exceptions
+requests
 import
-TaskclusterRestFailure
+HTTPError
 from
 taskgraph
 .
@@ -320,7 +318,7 @@ index
 )
     
 except
-TaskclusterRestFailure
+KeyError
 :
         
 return
@@ -363,13 +361,15 @@ yml
 )
     
 except
-TaskclusterRestFailure
+HTTPError
 as
 e
 :
         
 if
 e
+.
+response
 .
 status_code
 =

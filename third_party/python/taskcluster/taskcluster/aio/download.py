@@ -133,10 +133,6 @@ import
 contextlib
 import
 datetime
-from
-datetime
-import
-timezone
 import
 hashlib
 from
@@ -656,11 +652,8 @@ datetime
 .
 datetime
 .
-now
+utcnow
 (
-timezone
-.
-utc
 )
 :
                 

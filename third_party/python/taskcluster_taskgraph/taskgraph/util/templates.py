@@ -2,6 +2,8 @@ from
 typing
 import
 Any
+Dict
+List
 from
 taskgraph
 .
@@ -385,7 +387,7 @@ Any
 *
 subs
 :
-dict
+Dict
 [
 str
 Any
@@ -518,14 +520,14 @@ substitute_task_fields
     
 task
 :
-dict
+Dict
 [
 str
 Any
 ]
 fields
 :
-list
+List
 [
 str
 ]

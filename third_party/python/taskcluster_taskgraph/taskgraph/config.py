@@ -13,6 +13,10 @@ pathlib
 import
 Path
 from
+typing
+import
+Dict
+from
 voluptuous
 import
 ALLOW_EXTRA
@@ -651,7 +655,7 @@ GraphConfig
     
 _config
 :
-dict
+Dict
     
 root_dir
 :

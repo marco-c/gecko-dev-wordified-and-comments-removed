@@ -1,5 +1,11 @@
 import
 logging
+import
+os
+import
+taskcluster_urls
+as
+liburls
 from
 taskcluster
 import
@@ -21,11 +27,15 @@ taskcluster
 import
 (
     
+_do_request
+    
+get_index_url
+    
 get_root_url
     
 get_task_definition
     
-get_taskcluster_client
+get_task_url
 )
 logger
 =
@@ -49,11 +59,22 @@ False
 )
 :
     
+index_url
+=
+get_index_url
+(
+index_path
+use_proxy
+=
+use_proxy
+)
+    
 expires
 =
 get_task_definition
 (
 task_id
+use_proxy
 )
 [
 "
@@ -61,24 +82,21 @@ expires
 "
 ]
     
-index
-=
-get_taskcluster_client
-(
-"
-index
-"
-)
-    
 response
 =
-index
-.
-insertTask
+_do_request
 (
         
-index_path
+index_url
         
+method
+=
+"
+put
+"
+        
+json
+=
 {
             
 "
@@ -247,30 +265,29 @@ task_id
 else
 :
         
-queue
+resp
 =
-get_taskcluster_client
+_do_request
 (
-"
-queue
-"
-)
-        
-response
-=
-queue
-.
-status
+get_task_url
 (
 task_id
+use_proxy
+)
++
+"
+/
+status
+"
 )
         
-if
-response
-:
-            
-return
-response
+status
+=
+resp
+.
+json
+(
+)
 .
 get
 (
@@ -280,6 +297,9 @@ status
 {
 }
 )
+        
+return
+status
 def
 state_task
 (
@@ -457,6 +477,7 @@ rootUrl
 :
 get_root_url
 (
+True
 )
 }
 )
@@ -496,6 +517,16 @@ format
             
 get_root_url
 (
+os
+.
+environ
+.
+get
+(
+"
+TASKCLUSTER_PROXY_URL
+"
+)
 )
             
 response
@@ -539,27 +570,62 @@ params
 {
 }
     
-queue
-=
-get_taskcluster_client
-(
-"
-queue
-"
-)
-    
 while
 True
 :
         
+url
+=
+liburls
+.
+api
+(
+            
+get_root_url
+(
+False
+)
+            
+"
+queue
+"
+            
+"
+v1
+"
+            
+f
+"
+task
+-
+group
+/
+{
+task_group_id
+}
+/
+list
+"
+        
+)
+        
 resp
 =
-queue
-.
-listTaskGroup
+_do_request
 (
-task_group_id
+url
+method
+=
+"
+get
+"
 params
+=
+params
+)
+.
+json
+(
 )
         
 yield
@@ -776,19 +842,20 @@ False
 )
 :
     
-index
+response
 =
-get_taskcluster_client
+_do_request
 (
-"
-index
-"
+get_index_url
+(
+index_path
+use_proxy
+)
 )
     
 return
-index
+response
 .
-findTask
+json
 (
-index_path
 )

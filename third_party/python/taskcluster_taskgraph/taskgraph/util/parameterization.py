@@ -4,6 +4,7 @@ from
 typing
 import
 Any
+Dict
 from
 taskgraph
 .
@@ -294,7 +295,7 @@ str
     
 task_def
 :
-dict
+Dict
 [
 str
 Any
@@ -310,7 +311,7 @@ str
     
 dependencies
 :
-dict
+Dict
 [
 str
 str
@@ -318,7 +319,7 @@ str
 )
 -
 >
-dict
+Dict
 [
 str
 Any

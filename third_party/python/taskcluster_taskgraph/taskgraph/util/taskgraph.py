@@ -297,18 +297,14 @@ json
 "
 )
         
-if
-label_to_taskid
-:
-            
 kind_labels
 =
 {
-                
+            
 t
 .
 label
-                
+            
 for
 t
 in
@@ -319,7 +315,7 @@ tasks
 values
 (
 )
-                
+            
 if
 t
 .
@@ -332,9 +328,9 @@ kind
 not
 in
 rebuild_kinds
-            
+        
 }
-            
+        
 for
 label
 in
@@ -352,7 +348,7 @@ intersection
 kind_labels
 )
 :
-                
+            
 existing_tasks
 [
 label

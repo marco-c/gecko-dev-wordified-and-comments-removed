@@ -121,7 +121,12 @@ return
 True
 functools
 .
-cache
+lru_cache
+(
+maxsize
+=
+None
+)
 def
 read_taskcluster_yml
 (
@@ -157,7 +162,12 @@ filename
 )
 functools
 .
-cache
+lru_cache
+(
+maxsize
+=
+None
+)
 def
 hash_taskcluster_yml
 (

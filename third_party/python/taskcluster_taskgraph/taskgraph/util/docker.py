@@ -1572,7 +1572,12 @@ hexdigest
 )
 functools
 .
-cache
+lru_cache
+(
+maxsize
+=
+None
+)
 def
 image_paths
 (
@@ -1716,7 +1721,12 @@ name
 )
 functools
 .
-cache
+lru_cache
+(
+maxsize
+=
+None
+)
 def
 parse_volumes
 (

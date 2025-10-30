@@ -14,10 +14,6 @@ import
 os
 import
 datetime
-from
-datetime
-import
-timezone
 import
 logging
 import
@@ -1019,11 +1015,8 @@ datetime
 .
 datetime
 .
-now
+utcnow
 (
-timezone
-.
-utc
 )
 +
 ttl

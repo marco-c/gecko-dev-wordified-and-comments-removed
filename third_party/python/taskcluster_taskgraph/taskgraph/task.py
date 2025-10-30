@@ -7,6 +7,8 @@ from
 typing
 import
 Any
+Dict
+List
 Union
 dataclass
 class
@@ -258,11 +260,11 @@ str
     
 attributes
 :
-dict
+Dict
     
 task
 :
-dict
+Dict
     
 description
 :
@@ -293,7 +295,7 @@ optimization
 :
 Union
 [
-dict
+Dict
 [
 str
 Any
@@ -310,7 +312,7 @@ None
     
 dependencies
 :
-dict
+Dict
 =
 field
 (
@@ -321,7 +323,7 @@ dict
     
 soft_dependencies
 :
-list
+List
 =
 field
 (
@@ -332,7 +334,7 @@ list
     
 if_dependencies
 :
-list
+List
 =
 field
 (
