@@ -66,6 +66,15 @@ errormessage
 RELATION_ERRORMSG
 RELATION_ERRORMSG_FOR
 ]
+[
+"
+aria
+-
+actions
+"
+RELATION_ACTION
+RELATION_ACTION_FOR
+]
 ]
 ;
 addAccessibleTask
