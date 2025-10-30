@@ -119,15 +119,6 @@ LAllocation
 a
 )
 ;
-Operand
-ToOperand
-(
-const
-LDefinition
-*
-def
-)
-;
 #
 ifdef
 JS_PUNBOX64
