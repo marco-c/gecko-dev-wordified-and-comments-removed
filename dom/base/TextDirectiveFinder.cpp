@@ -40,6 +40,15 @@ include
 "
 mozilla
 /
+ToString
+.
+h
+"
+#
+include
+"
+mozilla
+/
 glean
 /
 DomMetrics

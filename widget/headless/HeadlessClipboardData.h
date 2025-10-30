@@ -7,15 +7,6 @@ mozilla_widget_HeadlessClipboardData_h
 #
 include
 "
-mozilla
-/
-RefPtr
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
