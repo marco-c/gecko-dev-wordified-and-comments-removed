@@ -7208,6 +7208,18 @@ aarch64
 -
 searchfox
 /
+opt
+"
+        
+"
+searchfox
+-
+macosx64
+-
+aarch64
+-
+searchfox
+/
 debug
 "
         
