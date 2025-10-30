@@ -192,6 +192,11 @@ string_view
 group
 )
 ;
+[
+[
+deprecated
+]
+]
 static
 std
 :

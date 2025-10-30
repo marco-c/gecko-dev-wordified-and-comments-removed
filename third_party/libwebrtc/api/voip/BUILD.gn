@@ -472,6 +472,17 @@ audio_codec_mocks
 /
 test
 :
+create_test_field_trials
+"
+"
+.
+.
+/
+.
+.
+/
+test
+:
 test_support
 "
 "
