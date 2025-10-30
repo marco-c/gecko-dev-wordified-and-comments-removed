@@ -92,9 +92,7 @@ TEST_PROFILE_PATH
 let
 bs
 =
-BackupService
-.
-get
+getAndMaybeInitBackupService
 (
 )
 ;
@@ -731,9 +729,7 @@ createSandbox
 let
 bs
 =
-BackupService
-.
-get
+getAndMaybeInitBackupService
 (
 )
 ;

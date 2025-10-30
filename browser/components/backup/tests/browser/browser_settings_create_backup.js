@@ -118,6 +118,8 @@ withNewTab
 about
 :
 preferences
+#
+sync
 "
 async
 browser
@@ -143,9 +145,7 @@ settings
 let
 bs
 =
-BackupService
-.
-get
+getAndMaybeInitBackupService
 (
 )
 ;
@@ -368,9 +368,7 @@ test_create_backup_trigger_disabled
 let
 bs
 =
-BackupService
-.
-get
+getAndMaybeInitBackupService
 (
 )
 ;
@@ -468,6 +466,8 @@ withNewTab
 about
 :
 preferences
+#
+sync
 "
 async
 browser
