@@ -563,6 +563,14 @@ tryPromptReview
 activity
 =
 activity
+onNotDisplayed
+=
+{
+tryLaunchPlayStoreReview
+(
+activity
+)
+}
 onError
 =
 {
