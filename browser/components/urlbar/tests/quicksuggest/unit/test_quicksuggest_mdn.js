@@ -340,7 +340,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+all
 "
 true
 ]
@@ -584,6 +584,11 @@ suggest
 mdn
 "
 "
+mdn
+.
+featureGate
+"
+"
 quicksuggest
 .
 enabled
@@ -593,7 +598,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+all
 "
 ]
 ;

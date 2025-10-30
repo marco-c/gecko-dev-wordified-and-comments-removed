@@ -904,7 +904,7 @@ suggest
 .
 quicksuggest
 .
-sponsored
+all
 "
 "
 browser
@@ -915,7 +915,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+sponsored
 "
 ]
 ;

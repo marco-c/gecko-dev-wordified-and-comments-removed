@@ -249,7 +249,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+all
 "
 ]
 ;

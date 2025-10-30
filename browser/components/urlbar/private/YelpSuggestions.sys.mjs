@@ -385,6 +385,13 @@ suggest
 .
 quicksuggest
 .
+all
+"
+"
+suggest
+.
+quicksuggest
+.
 sponsored
 "
 ]
