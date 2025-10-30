@@ -3112,6 +3112,19 @@ write_text
 (
 content
 )
+                
+self
+.
+_run
+(
+"
+file
+"
+"
+track
+"
+p
+)
             
 self
 .
