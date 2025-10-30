@@ -7894,7 +7894,9 @@ ASSERT_TRUE
 CreateSession
 (
 ICE_CANDIDATE_COMPONENT_RTP
-CN_VIDEO
+"
+video
+"
 )
 )
 ;
