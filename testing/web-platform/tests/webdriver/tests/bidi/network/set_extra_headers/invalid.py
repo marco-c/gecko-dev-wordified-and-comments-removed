@@ -89,6 +89,8 @@ test_params_contexts_invalid_type
 (
 bidi_session
 value
+        
+set_extra_headers
 )
 :
     
@@ -104,10 +106,6 @@ InvalidArgumentException
 :
         
 await
-bidi_session
-.
-network
-.
 set_extra_headers
 (
             
@@ -125,6 +123,7 @@ def
 test_params_contexts_empty_list
 (
 bidi_session
+set_extra_headers
 )
 :
     
@@ -140,10 +139,6 @@ InvalidArgumentException
 :
         
 await
-bidi_session
-.
-network
-.
 set_extra_headers
 (
             
@@ -178,6 +173,8 @@ test_params_contexts_entry_invalid_type
 (
 bidi_session
 value
+        
+set_extra_headers
 )
 :
     
@@ -193,10 +190,6 @@ InvalidArgumentException
 :
         
 await
-bidi_session
-.
-network
-.
 set_extra_headers
 (
             
@@ -215,6 +208,8 @@ def
 test_params_contexts_entry_invalid_value
 (
 bidi_session
+        
+set_extra_headers
 )
 :
     
@@ -230,10 +225,6 @@ NoSuchFrameException
 :
         
 await
-bidi_session
-.
-network
-.
 set_extra_headers
 (
             
@@ -257,6 +248,8 @@ test_params_contexts_iframe
 bidi_session
 new_tab
 get_test_page
+        
+set_extra_headers
 )
 :
     
@@ -358,10 +351,6 @@ InvalidArgumentException
 :
         
 await
-bidi_session
-.
-network
-.
 set_extra_headers
 (
             
@@ -406,6 +395,8 @@ test_params_user_contexts_invalid_type
 (
 bidi_session
 value
+        
+set_extra_headers
 )
 :
     
@@ -421,10 +412,6 @@ InvalidArgumentException
 :
         
 await
-bidi_session
-.
-network
-.
 set_extra_headers
 (
             
@@ -442,6 +429,7 @@ def
 test_params_user_contexts_empty_list
 (
 bidi_session
+set_extra_headers
 )
 :
     
@@ -457,10 +445,6 @@ InvalidArgumentException
 :
         
 await
-bidi_session
-.
-network
-.
 set_extra_headers
 (
             
@@ -496,6 +480,8 @@ test_params_user_contexts_entry_invalid_type
 (
 bidi_session
 value
+        
+set_extra_headers
 )
 :
     
@@ -511,10 +497,6 @@ InvalidArgumentException
 :
         
 await
-bidi_session
-.
-network
-.
 set_extra_headers
 (
             
@@ -552,6 +534,8 @@ test_params_user_contexts_entry_invalid_value
 (
 bidi_session
 value
+        
+set_extra_headers
 )
 :
     
@@ -567,10 +551,6 @@ NoSuchUserContextException
 :
         
 await
-bidi_session
-.
-network
-.
 set_extra_headers
 (
             
@@ -591,6 +571,8 @@ test_params_contexts_and_user_contexts
 (
 bidi_session
 top_context
+        
+set_extra_headers
 )
 :
     
@@ -606,10 +588,6 @@ InvalidArgumentException
 :
         
 await
-bidi_session
-.
-network
-.
 set_extra_headers
 (
             
@@ -643,6 +621,8 @@ test_params_headers_missing
 (
 bidi_session
 top_context
+        
+set_extra_headers
 )
 :
     
@@ -658,10 +638,6 @@ InvalidArgumentException
 :
         
 await
-bidi_session
-.
-network
-.
 set_extra_headers
 (
 headers
@@ -693,8 +669,9 @@ test_params_headers_invalid_type
 (
 bidi_session
 top_context
-        
 value
+        
+set_extra_headers
 )
 :
     
@@ -710,10 +687,6 @@ InvalidArgumentException
 :
         
 await
-bidi_session
-.
-network
-.
 set_extra_headers
 (
 headers
@@ -747,6 +720,7 @@ bidi_session
 top_context
         
 value
+set_extra_headers
 )
 :
     
@@ -762,10 +736,6 @@ InvalidArgumentException
 :
         
 await
-bidi_session
-.
-network
-.
 set_extra_headers
 (
 headers
@@ -800,8 +770,8 @@ test_params_headers_header_name_invalid_type
 bidi_session
         
 top_context
-        
 value
+set_extra_headers
 )
 :
     
@@ -817,10 +787,6 @@ InvalidArgumentException
 :
         
 await
-bidi_session
-.
-network
-.
 set_extra_headers
 (
             
@@ -929,6 +895,7 @@ bidi_session
         
 top_context
 value
+set_extra_headers
 )
 :
     
@@ -944,10 +911,6 @@ InvalidArgumentException
 :
         
 await
-bidi_session
-.
-network
-.
 set_extra_headers
 (
             
@@ -997,8 +960,8 @@ test_params_headers_header_value_invalid_type
 bidi_session
         
 top_context
-        
 value
+set_extra_headers
 )
 :
     
@@ -1014,10 +977,6 @@ InvalidArgumentException
 :
         
 await
-bidi_session
-.
-network
-.
 set_extra_headers
 (
             
@@ -1108,8 +1067,8 @@ test_params_headers_header_value_invalid_value
 bidi_session
         
 top_context
-        
 value
+set_extra_headers
 )
 :
     
@@ -1125,10 +1084,6 @@ InvalidArgumentException
 :
         
 await
-bidi_session
-.
-network
-.
 set_extra_headers
 (
             
