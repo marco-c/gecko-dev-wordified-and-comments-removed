@@ -821,7 +821,6 @@ path
 ;
 }
 }
-async
 handleChooseBackupFile
 (
 )
@@ -858,7 +857,7 @@ filter
 "
 filterHTML
 "
-displayDirectoryPath
+existingBackupPath
 :
 this
 .

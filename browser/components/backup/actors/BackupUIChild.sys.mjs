@@ -504,14 +504,14 @@ detail
 ?
 .
 filter
-displayDirectoryPath
+existingBackupPath
 :
 event
 .
 detail
 ?
 .
-displayDirectoryPath
+existingBackupPath
 }
 )
 ;
