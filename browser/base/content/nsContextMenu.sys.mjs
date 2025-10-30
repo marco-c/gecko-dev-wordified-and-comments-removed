@@ -9118,6 +9118,11 @@ localName
 "
 menu
 "
+&
+&
+menuItem
+.
+menupopup
 )
 {
 this
