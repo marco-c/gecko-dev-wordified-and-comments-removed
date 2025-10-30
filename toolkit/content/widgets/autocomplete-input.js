@@ -1840,12 +1840,6 @@ if
 aEvent
 .
 defaultPrevented
-&
-&
-!
-aEvent
-.
-urlbarDeferred
 )
 {
 return
