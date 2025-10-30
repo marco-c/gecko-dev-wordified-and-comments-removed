@@ -1026,6 +1026,8 @@ Result
 <
 Ref
 <
+'
+_
 MetaSources
 >
 L10nRegistrySetupError
@@ -1065,6 +1067,8 @@ Result
 <
 RefMut
 <
+'
+_
 MetaSources
 >
 L10nRegistrySetupError
