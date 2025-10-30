@@ -3636,6 +3636,14 @@ None
 layer_compositor_frame_state_in_prev_frame
 :
 None
+external_composite_debug_items
+:
+Vec
+:
+:
+new
+(
+)
 #
 [
 cfg
