@@ -1987,9 +1987,9 @@ version
 "
 0
 .
-4
+5
 .
-1
+0
 "
 source
 =
@@ -2017,7 +2017,7 @@ index
 checksum
 =
 "
-82d71e457dc518a15eecc90d3b0660dee4b51623b34ac4262c9326e0d7e0f8e2
+bbd6f57365675990f2db272a6560b28945df74cf3749c70aafd9b1c7829edebc
 "
 dependencies
 =
@@ -18651,9 +18651,9 @@ equivalent
 hashbrown
 0
 .
-15
+16
 .
-999
+0
 "
 "
 serde

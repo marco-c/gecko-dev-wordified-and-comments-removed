@@ -27,12 +27,13 @@ pub
 fn
 ecdhe_p256_raw
 (
-_peer_spki
+_peer
 :
 &
-[
-u8
-]
+super
+:
+:
+COSEEC2Key
 )
 -
 >

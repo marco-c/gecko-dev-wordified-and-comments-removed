@@ -95,10 +95,6 @@ HIDDevice
 :
 BuildParameters
 ;
-trait
-DeviceSelectorEventMarker
-{
-}
 #
 [
 derive

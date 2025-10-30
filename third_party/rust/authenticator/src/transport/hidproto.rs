@@ -1,15 +1,6 @@
 #
 !
 [
-cfg_attr
-(
-feature
-=
-"
-cargo
--
-clippy
-"
 allow
 (
 clippy
@@ -20,7 +11,6 @@ clippy
 :
 :
 needless_lifetimes
-)
 )
 ]
 #

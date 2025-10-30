@@ -1641,6 +1641,13 @@ is_none
 )
 {
 if
+cmd
+.
+hmac_requested
+(
+)
+&
+&
 info
 .
 supports_hmac_secret
