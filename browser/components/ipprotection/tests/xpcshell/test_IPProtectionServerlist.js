@@ -5,8 +5,7 @@ strict
 ;
 const
 {
-getDefaultLocation
-selectServer
+IPProtectionServerlist
 }
 =
 ChromeUtils
@@ -248,6 +247,13 @@ now
 )
 )
 ;
+await
+IPProtectionServerlist
+.
+maybeFetchList
+(
+)
+;
 }
 )
 ;
@@ -265,7 +271,8 @@ country
 city
 }
 =
-await
+IPProtectionServerlist
+.
 getDefaultLocation
 (
 )
@@ -320,7 +327,8 @@ test_selectServer
 let
 selected
 =
-await
+IPProtectionServerlist
+.
 selectServer
 (
 TEST_US_CITY
@@ -385,7 +393,8 @@ TEST_SERVER_1
 ;
 selected
 =
-await
+IPProtectionServerlist
+.
 selectServer
 (
 cityWithOneServer
@@ -433,7 +442,8 @@ TEST_SERVER_QUARANTINED
 ;
 selected
 =
-await
+IPProtectionServerlist
+.
 selectServer
 (
 cityWithMixedServers
@@ -481,7 +491,8 @@ TEST_SERVER_QUARANTINED
 ;
 selected
 =
-await
+IPProtectionServerlist
+.
 selectServer
 (
 cityWithQuarantinedServers
@@ -526,7 +537,8 @@ servers
 ;
 selected
 =
-await
+IPProtectionServerlist
+.
 selectServer
 (
 cityWithNoServers
