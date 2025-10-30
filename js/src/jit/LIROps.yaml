@@ -4236,9 +4236,6 @@ WordSized
 rhs
 :
 WordSized
-num_temps
-:
-2
 defer_init
 :
 true
@@ -4262,9 +4259,6 @@ WordSized
 rhs
 :
 WordSized
-num_temps
-:
-2
 defer_init
 :
 true
