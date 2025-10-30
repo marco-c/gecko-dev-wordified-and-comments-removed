@@ -8,15 +8,6 @@ h
 #
 include
 "
-mozilla
-/
-XorShift128PlusRNG
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h

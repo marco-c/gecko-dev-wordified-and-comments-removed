@@ -52,15 +52,6 @@ include
 "
 mozilla
 /
-Maybe
-.
-h
-"
-#
-include
-"
-mozilla
-/
 SVGImageContext
 .
 h

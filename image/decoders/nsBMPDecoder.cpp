@@ -42,15 +42,6 @@ include
 "
 mozilla
 /
-Likely
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtrExtensions
 .
 h
