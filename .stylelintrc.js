@@ -643,10 +643,6 @@ true
 overrides
 :
 [
-.
-.
-.
-rollouts
 {
 files
 :
@@ -1656,7 +1652,7 @@ color
 tokens
 "
 :
-false
+null
 "
 stylelint
 -
@@ -1673,7 +1669,7 @@ color
 tokens
 "
 :
-false
+null
 "
 stylelint
 -
@@ -1690,7 +1686,7 @@ radius
 tokens
 "
 :
-false
+null
 "
 stylelint
 -
@@ -1707,7 +1703,7 @@ size
 tokens
 "
 :
-false
+null
 "
 stylelint
 -
@@ -1724,7 +1720,7 @@ weight
 tokens
 "
 :
-false
+null
 "
 stylelint
 -
@@ -1739,7 +1735,7 @@ space
 tokens
 "
 :
-false
+null
 "
 stylelint
 -
@@ -1756,7 +1752,7 @@ color
 tokens
 "
 :
-false
+null
 "
 stylelint
 -
@@ -1773,7 +1769,7 @@ shadow
 tokens
 "
 :
-false
+null
 "
 stylelint
 -
@@ -1792,7 +1788,7 @@ token
 usage
 "
 :
-false
+null
 }
 }
 {
@@ -1842,7 +1838,7 @@ color
 tokens
 "
 :
-false
+true
 "
 stylelint
 -
@@ -1859,7 +1855,7 @@ color
 tokens
 "
 :
-false
+true
 "
 stylelint
 -
@@ -1891,7 +1887,7 @@ space
 tokens
 "
 :
-false
+true
 "
 stylelint
 -
@@ -1908,7 +1904,7 @@ color
 tokens
 "
 :
-false
+true
 "
 stylelint
 -
@@ -1927,7 +1923,7 @@ token
 usage
 "
 :
-false
+true
 }
 }
 {
@@ -1979,6 +1975,10 @@ toolkit
 true
 }
 }
+.
+.
+.
+rollouts
 ]
 }
 ;
