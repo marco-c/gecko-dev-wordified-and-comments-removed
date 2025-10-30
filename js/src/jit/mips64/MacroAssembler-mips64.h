@@ -1046,6 +1046,10 @@ Label
 label
 JumpKind
 jumpKind
+Register
+branchCodeScratch
+=
+InvalidReg
 )
 ;
 void

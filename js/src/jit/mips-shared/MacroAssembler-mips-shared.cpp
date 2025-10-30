@@ -5471,6 +5471,7 @@ cond
 )
 label
 jumpKind
+scratch
 )
 ;
 }
@@ -5638,6 +5639,7 @@ cond
 )
 label
 jumpKind
+scratch
 )
 ;
 }
