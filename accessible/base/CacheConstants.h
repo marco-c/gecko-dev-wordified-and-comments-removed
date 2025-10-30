@@ -809,6 +809,17 @@ static
 constexpr
 nsStaticAtom
 *
+HasActions
+=
+nsGkAtoms
+:
+:
+hasActions
+;
+static
+constexpr
+nsStaticAtom
+*
 HasLongdesc
 =
 nsGkAtoms
