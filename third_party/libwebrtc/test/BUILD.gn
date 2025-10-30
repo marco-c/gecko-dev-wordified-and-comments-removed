@@ -2235,6 +2235,10 @@ cc
 if
 (
 is_ios
+&
+&
+!
+build_with_chromium
 )
 {
 rtc_library
@@ -2646,6 +2650,10 @@ h
 if
 (
 is_ios
+&
+&
+!
+build_with_chromium
 )
 {
 public_deps

@@ -863,6 +863,14 @@ video_quality_analysis
 /
 api
 :
+array_view
+"
+"
+.
+.
+/
+api
+:
 make_ref_counted
 "
 "
@@ -907,7 +915,7 @@ test
 /
 metrics
 :
-metrics_exporter
+metric
 "
 "
 .
@@ -919,7 +927,7 @@ test
 /
 metrics
 :
-stdout_metrics_exporter
+metrics_exporter
 "
 "
 .
