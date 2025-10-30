@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-Assertions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticMutex
 .
 h

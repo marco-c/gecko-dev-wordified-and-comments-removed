@@ -54,15 +54,6 @@ include
 "
 mozilla
 /
-Result
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtrExtensions
 .
 h

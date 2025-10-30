@@ -92,15 +92,6 @@ include
 "
 mozilla
 /
-Vector
-.
-h
-"
-#
-include
-"
-mozilla
-/
 mozalloc
 .
 h

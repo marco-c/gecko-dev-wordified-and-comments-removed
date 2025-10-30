@@ -15,15 +15,6 @@ ipc_message
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Assertions
-.
-h
-"
 struct
 msghdr
 ;

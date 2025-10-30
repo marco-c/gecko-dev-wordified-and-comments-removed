@@ -114,6 +114,15 @@ UniquePtr
 h
 "
 #
+include
+"
+mozilla
+/
+WeakPtr
+.
+h
+"
+#
 ifdef
 FUZZING_SNAPSHOT
 #

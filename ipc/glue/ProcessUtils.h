@@ -77,15 +77,6 @@ h
 #
 include
 "
-mozilla
-/
-RefPtr
-.
-h
-"
-#
-include
-"
 nsXULAppAPI
 .
 h
