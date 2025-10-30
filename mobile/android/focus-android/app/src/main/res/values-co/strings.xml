@@ -2142,6 +2142,8 @@ cumande
 /
 p
 >
+\
+n
 <
 p
 >
@@ -2151,9 +2153,13 @@ un
 navigatore
 privatu
 :
+\
+n
 <
 ul
 >
+\
+n
 <
 li
 >
@@ -2167,6 +2173,8 @@ appiecazione
 /
 li
 >
+\
+n
 <
 li
 >
@@ -2185,6 +2193,8 @@ auturizalli
 /
 li
 >
+\
+n
 <
 li
 >
@@ -2202,6 +2212,8 @@ ricerca
 /
 li
 >
+\
+n
 <
 /
 ul
@@ -2210,6 +2222,8 @@ ul
 /
 p
 >
+\
+n
 <
 p
 >
@@ -2238,6 +2252,8 @@ saluta
 br
 /
 >
+\
+n
 <
 a
 href
@@ -3007,7 +3023,7 @@ i
 siti
 i
 pi
-populari
+pupulari
 <
 /
 string
@@ -3071,7 +3087,7 @@ pi
 di
 450
 indirizzi
-populari
+pupulari
 in
 a
 barra
@@ -11719,7 +11735,7 @@ name
 show_biometric_button_text
 "
 >
-Sblucc
+Spalanc
 <
 /
 string
@@ -14570,6 +14586,8 @@ br
 <
 br
 >
+\
+n
 <
 label
 >
