@@ -968,6 +968,7 @@ MatcherBase
 &
 other
 )
+noexcept
 :
 vtable_
 (
@@ -999,6 +1000,7 @@ MatcherBase
 &
 other
 )
+noexcept
 {
 if
 (
