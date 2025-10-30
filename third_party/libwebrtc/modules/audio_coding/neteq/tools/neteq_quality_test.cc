@@ -16,13 +16,6 @@ h
 #
 include
 <
-stdio
-.
-h
->
-#
-include
-<
 algorithm
 >
 #
@@ -39,6 +32,11 @@ cmath
 include
 <
 cstdint
+>
+#
+include
+<
+cstdio
 >
 #
 include

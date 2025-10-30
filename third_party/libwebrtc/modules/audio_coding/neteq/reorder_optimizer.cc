@@ -14,14 +14,12 @@ h
 #
 include
 <
-stdint
-.
-h
+algorithm
 >
 #
 include
 <
-algorithm
+cstdint
 >
 #
 include

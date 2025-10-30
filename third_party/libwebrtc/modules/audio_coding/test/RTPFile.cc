@@ -8,13 +8,6 @@ h
 #
 include
 <
-stdlib
-.
-h
->
-#
-include
-<
 sys
 /
 types
@@ -30,6 +23,11 @@ cstdint
 include
 <
 cstdio
+>
+#
+include
+<
+cstdlib
 >
 #
 include
