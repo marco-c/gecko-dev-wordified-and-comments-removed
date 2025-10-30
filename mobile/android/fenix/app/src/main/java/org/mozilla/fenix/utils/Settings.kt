@@ -2948,7 +2948,9 @@ pref_key_app_icon_selection_enabled
 )
 featureFlag
 =
-true
+FeatureFlags
+.
+APP_ICON_SELECTION
 default
 =
 {
