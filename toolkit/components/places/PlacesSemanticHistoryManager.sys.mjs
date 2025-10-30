@@ -3792,9 +3792,9 @@ below
 .
 rowsToAdd
 .
-clear
-(
-)
+length
+=
+0
 ;
 }
 }
