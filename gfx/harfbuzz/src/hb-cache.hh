@@ -238,12 +238,14 @@ item_t
 )
 &
 &
+(
+item_t
+)
 v
 =
 =
 (
-unsigned
-int
+item_t
 )
 -
 1
