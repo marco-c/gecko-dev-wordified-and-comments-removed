@@ -1688,7 +1688,7 @@ contentPrincipal
 userContextId
 }
 )
-disableTRR
+isCaptivePortalTab
 :
 true
 }

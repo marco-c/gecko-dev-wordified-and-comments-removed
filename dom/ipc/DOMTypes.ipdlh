@@ -1067,6 +1067,9 @@ TryToReplaceWithSessionHistoryLoad
 bool
 IsMetaRefresh
 ;
+bool
+IsCaptivePortalTab
+;
 }
 ;
 struct

@@ -11468,7 +11468,6 @@ allowThirdPartyFixup
 bulkOrderedOpen
 charset
 createLazyBrowser
-disableTRR
 eventDetail
 focusUrlBar
 forceNotRemote
@@ -11477,6 +11476,7 @@ fromExternal
 inBackground
 =
 true
+isCaptivePortalTab
 elementIndex
 tabIndex
 lazyTabTitle
@@ -12063,8 +12063,8 @@ uriIsAboutBlank
 allowInheritPrincipal
 allowThirdPartyFixup
 fromExternal
-disableTRR
 forceAllowDataURI
+isCaptivePortalTab
 skipLoad
 referrerInfo
 charset
@@ -14122,8 +14122,8 @@ uriIsAboutBlank
 allowInheritPrincipal
 allowThirdPartyFixup
 fromExternal
-disableTRR
 forceAllowDataURI
+isCaptivePortalTab
 skipLoad
 referrerInfo
 charset
@@ -14284,7 +14284,7 @@ LOAD_FLAGS_DISALLOW_INHERIT_PRINCIPAL
 }
 if
 (
-disableTRR
+isCaptivePortalTab
 )
 {
 loadFlags
@@ -14323,6 +14323,7 @@ triggeringRemoteType
 schemelessInput
 hasValidUserGestureActivation
 textDirectiveUserActivation
+isCaptivePortalTab
 }
 )
 ;
@@ -34423,6 +34424,22 @@ spec
 loadURIOptions
 )
 ;
+if
+(
+loadURIOptions
+.
+isCaptivePortalTab
+)
+{
+browser
+.
+browsingContext
+.
+isCaptivePortalTab
+=
+true
+;
+}
 browser
 .
 isNavigating
