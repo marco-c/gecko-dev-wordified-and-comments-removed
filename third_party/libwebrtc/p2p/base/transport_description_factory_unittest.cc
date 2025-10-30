@@ -902,9 +902,12 @@ nullptr
 ice_credentials_
 )
 ;
-ASSERT_TRUE
+ASSERT_THAT
 (
 offer
+NotNull
+(
+)
 )
 ;
 EXPECT_THAT
@@ -949,9 +952,12 @@ nullptr
 ice_credentials_
 )
 ;
-ASSERT_TRUE
+ASSERT_THAT
 (
 answer
+NotNull
+(
+)
 )
 ;
 EXPECT_THAT

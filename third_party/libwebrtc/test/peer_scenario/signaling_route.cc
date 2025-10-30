@@ -413,7 +413,13 @@ if
 modify_offer
 )
 {
-auto
+std
+:
+:
+unique_ptr
+<
+SessionDescriptionInterface
+>
 offer
 =
 CreateSessionDescription

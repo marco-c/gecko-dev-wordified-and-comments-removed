@@ -2950,7 +2950,13 @@ done_handler
 RTCError
 )
 {
-auto
+std
+:
+:
+unique_ptr
+<
+SessionDescriptionInterface
+>
 answer
 =
 CreateSessionDescription
