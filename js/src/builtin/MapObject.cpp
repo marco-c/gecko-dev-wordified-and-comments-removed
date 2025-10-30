@@ -1995,13 +1995,14 @@ properties
 ]
 =
 {
-JS_PSG
+JS_INLINABLE_PSG
 (
 "
 size
 "
 size
 0
+MapSize
 )
 JS_STRING_SYM_PS
 (
