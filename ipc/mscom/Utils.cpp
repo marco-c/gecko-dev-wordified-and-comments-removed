@@ -29,15 +29,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 mscom
 /
 COMWrappers

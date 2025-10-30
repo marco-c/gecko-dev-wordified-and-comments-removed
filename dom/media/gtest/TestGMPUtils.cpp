@@ -27,15 +27,6 @@ h
 #
 include
 "
-mozilla
-/
-ArrayUtils
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

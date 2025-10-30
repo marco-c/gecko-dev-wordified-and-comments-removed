@@ -30,15 +30,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 SVGLengthBinding

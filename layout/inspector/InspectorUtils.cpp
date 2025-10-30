@@ -42,15 +42,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 DeclarationBlock
 .
 h

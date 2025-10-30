@@ -15,15 +15,6 @@ h
 #
 include
 "
-mozilla
-/
-ArrayUtils
-.
-h
-"
-#
-include
-"
 nsCharSeparatedTokenizer
 .
 h

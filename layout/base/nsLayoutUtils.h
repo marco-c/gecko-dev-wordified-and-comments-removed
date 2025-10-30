@@ -40,15 +40,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 LayoutStructs
 .
 h

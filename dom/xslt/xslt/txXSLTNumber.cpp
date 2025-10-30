@@ -20,15 +20,6 @@ algorithm
 #
 include
 "
-mozilla
-/
-ArrayUtils
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

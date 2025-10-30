@@ -89,15 +89,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 BoundedMPSCQueue
 .
 h

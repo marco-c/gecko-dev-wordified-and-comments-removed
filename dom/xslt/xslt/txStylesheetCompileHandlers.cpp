@@ -15,15 +15,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 FloatingPoint
 .
 h

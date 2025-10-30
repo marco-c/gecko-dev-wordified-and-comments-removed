@@ -26,15 +26,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gtest
 /
 MozAssertions

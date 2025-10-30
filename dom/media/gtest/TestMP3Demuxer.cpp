@@ -26,15 +26,6 @@ MockMediaResource
 .
 h
 "
-#
-include
-"
-mozilla
-/
-ArrayUtils
-.
-h
-"
 class
 MockMP3MediaResource
 ;

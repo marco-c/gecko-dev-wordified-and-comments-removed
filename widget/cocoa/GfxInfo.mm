@@ -19,15 +19,6 @@ h
 #
 include
 "
-mozilla
-/
-ArrayUtils
-.
-h
-"
-#
-include
-"
 GfxInfo
 .
 h

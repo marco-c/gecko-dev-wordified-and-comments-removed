@@ -1,12 +1,3 @@
-#
-include
-"
-mozilla
-/
-ArrayUtils
-.
-h
-"
 const
 int16_t
 irc_composite_c_r0195_p315

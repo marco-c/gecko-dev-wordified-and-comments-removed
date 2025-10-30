@@ -101,15 +101,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 SandboxSettings
 .
 h

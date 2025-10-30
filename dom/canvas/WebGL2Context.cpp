@@ -38,15 +38,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_webgl
 .
 h

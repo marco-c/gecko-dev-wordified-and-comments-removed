@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-ArrayUtils
-.
-h
-"
-#
-include
-"
 nsAtom
 .
 h

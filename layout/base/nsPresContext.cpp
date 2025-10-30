@@ -8,15 +8,6 @@ h
 #
 include
 "
-mozilla
-/
-ArrayUtils
-.
-h
-"
-#
-include
-"
 nsPresContextInlines
 .
 h

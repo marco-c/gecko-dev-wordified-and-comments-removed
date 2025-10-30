@@ -99,15 +99,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 CmdLineAndEnvUtils
 .
 h

@@ -10,15 +10,6 @@ h
 #
 include
 "
-mozilla
-/
-ArrayUtils
-.
-h
-"
-#
-include
-"
 nsAboutProtocolHandler
 .
 h

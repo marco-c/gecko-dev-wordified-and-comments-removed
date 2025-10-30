@@ -29,15 +29,6 @@ h
 #
 include
 "
-mozilla
-/
-ArrayUtils
-.
-h
-"
-#
-include
-"
 nsIProtocolHandler
 .
 h

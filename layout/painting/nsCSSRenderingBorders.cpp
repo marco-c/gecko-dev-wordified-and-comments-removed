@@ -64,15 +64,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ProfilerLabels
 .
 h

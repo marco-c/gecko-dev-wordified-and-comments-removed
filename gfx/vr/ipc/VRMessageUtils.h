@@ -27,15 +27,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 GfxMessageUtils
 .
 h
