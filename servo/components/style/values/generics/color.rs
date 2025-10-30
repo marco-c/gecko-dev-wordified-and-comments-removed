@@ -111,13 +111,6 @@ Percentage
 >
 >
 )
-ContrastColor
-(
-Box
-<
-Self
->
-)
 }
 #
 [
