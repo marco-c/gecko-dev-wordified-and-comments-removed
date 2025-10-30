@@ -191,17 +191,9 @@ WEBRTC_ARCH_ARM_FAMILY
 )
 &
 &
-(
 defined
 (
 WEBRTC_LINUX
-)
-|
-|
-defined
-(
-WEBRTC_BSD
-)
 )
 #
 include
