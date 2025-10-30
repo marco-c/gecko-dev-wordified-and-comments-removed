@@ -556,6 +556,11 @@ props
 .
 aria_role
 }
+gateInitialPaint
+=
+{
+true
+}
 /
 >
 )
