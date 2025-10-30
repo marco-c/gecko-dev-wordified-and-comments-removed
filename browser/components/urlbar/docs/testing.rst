@@ -2140,8 +2140,7 @@ places
 /
 tests
 /
-PlacesTestU
-tils
+PlacesTestUtils
 .
 sys
 .
