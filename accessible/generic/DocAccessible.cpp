@@ -6131,6 +6131,12 @@ aAccessible
 if
 (
 mIPCDoc
+&
+&
+HasLoadState
+(
+eTreeConstructed
+)
 )
 {
 mInsertedAccessibles
@@ -8379,11 +8385,6 @@ ipcDoc
 }
 }
 }
-mLoadState
-|
-=
-eTreeConstructed
-;
 UpdateRootElIfNeeded
 (
 )
@@ -8392,6 +8393,11 @@ CacheChildrenInSubtree
 (
 this
 )
+;
+mLoadState
+|
+=
+eTreeConstructed
 ;
 #
 ifdef
