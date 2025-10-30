@@ -65,3 +65,4 @@ streams
 use
 -
 counters
+loggingKeyboardIME
