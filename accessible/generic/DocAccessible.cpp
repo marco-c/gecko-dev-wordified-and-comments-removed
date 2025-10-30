@@ -480,10 +480,6 @@ nsGkAtoms
 :
 :
 aria_activedescendant
-nsGkAtoms
-:
-:
-aria_actions
 }
 ;
 static

@@ -140,14 +140,6 @@ jsval
 parameter
 )
 ;
-AString
-getActionDescription
-(
-in
-AString
-actionName
-)
-;
 void
 performAction
 (

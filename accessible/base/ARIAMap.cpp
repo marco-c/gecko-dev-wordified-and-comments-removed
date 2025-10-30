@@ -2505,17 +2505,6 @@ gWAIUnivAttrMap
 nsGkAtoms
 :
 :
-aria_actions
-ATTR_BYPASSOBJ
-|
-ATTR_GLOBAL
-|
-ATTR_REFLECT_ELEMENTS
-}
-{
-nsGkAtoms
-:
-:
 aria_activedescendant
 ATTR_BYPASSOBJ
 }
