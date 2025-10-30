@@ -39,6 +39,7 @@ wptmanifest
 node
 import
 (
+AtomExprNode
 DataNode
 ConditionalNode
 BinaryExpressionNode
@@ -5384,6 +5385,19 @@ value
 :
     
 if
+value
+is
+None
+:
+        
+node
+=
+AtomExprNode
+(
+None
+)
+    
+elif
 isinstance
 (
 value

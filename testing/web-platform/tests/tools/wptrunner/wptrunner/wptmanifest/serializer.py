@@ -1,8 +1,4 @@
 from
-six
-import
-ensure_text
-from
 .
 node
 import
@@ -186,10 +182,7 @@ rv
 c
     
 return
-ensure_text
-(
 rv
-)
 class
 ManifestSerializer
 (
@@ -709,12 +702,9 @@ node
         
 data
 =
-ensure_text
-(
 node
 .
 data
-)
         
 if
 (
@@ -937,12 +927,27 @@ node
         
 return
 [
-ensure_text
-(
 node
 .
 data
+]
+    
+def
+visit_AtomExprNode
+(
+self
+node
 )
+:
+        
+return
+[
+atom_names
+[
+node
+.
+data
+]
 ]
     
 def
@@ -1224,12 +1229,9 @@ node
         
 return
 [
-ensure_text
-(
 node
 .
 data
-)
 ]
     
 def
@@ -1242,12 +1244,9 @@ node
         
 return
 [
-ensure_text
-(
 node
 .
 data
-)
 ]
 def
 serialize

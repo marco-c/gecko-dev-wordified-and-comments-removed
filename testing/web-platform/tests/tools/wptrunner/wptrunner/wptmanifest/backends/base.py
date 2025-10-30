@@ -272,8 +272,8 @@ node
         
 if
 node
-!
-=
+is
+not
 self
 .
 tree
@@ -608,6 +608,19 @@ data
         
 return
 value
+    
+def
+visit_AtomExprNode
+(
+self
+node
+)
+:
+        
+return
+node
+.
+data
     
 def
 visit_IndexNode
