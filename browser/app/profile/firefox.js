@@ -19198,7 +19198,7 @@ ie
 .
 enabled
 "
-false
+true
 )
 ;
 pref
