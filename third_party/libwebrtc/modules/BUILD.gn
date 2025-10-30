@@ -419,7 +419,7 @@ sources
 =
 [
 "
-module_common_types_unittest
+module_common_types_public_unittest
 .
 cc
 "

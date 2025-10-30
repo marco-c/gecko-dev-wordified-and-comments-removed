@@ -7,9 +7,7 @@ MODULES_INCLUDE_MODULE_COMMON_TYPES_H_
 #
 include
 <
-stdint
-.
-h
+cstdint
 >
 #
 include
