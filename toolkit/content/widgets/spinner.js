@@ -166,7 +166,7 @@ querySelector
 spinner
 "
 )
-up
+prev
 :
 spinnerElement
 .
@@ -174,10 +174,10 @@ querySelector
 (
 "
 .
-up
+prev
 "
 )
-down
+next
 :
 spinnerElement
 .
@@ -185,7 +185,7 @@ querySelector
 (
 "
 .
-down
+next
 "
 )
 itemsViewElements
@@ -248,7 +248,7 @@ this
 .
 elements
 .
-up
+prev
 .
 setAttribute
 (
@@ -265,7 +265,7 @@ this
 .
 elements
 .
-down
+next
 .
 setAttribute
 (
@@ -1343,8 +1343,8 @@ props
 const
 {
 spinner
-up
-down
+prev
+next
 }
 =
 this
@@ -1423,7 +1423,7 @@ event
 target
 =
 =
-up
+prev
 )
 {
 event
@@ -1456,7 +1456,7 @@ event
 target
 =
 =
-down
+next
 )
 {
 event
@@ -1551,7 +1551,7 @@ event
 target
 =
 =
-up
+prev
 |
 |
 event
@@ -1559,7 +1559,7 @@ event
 target
 =
 =
-down
+next
 )
 {
 event
