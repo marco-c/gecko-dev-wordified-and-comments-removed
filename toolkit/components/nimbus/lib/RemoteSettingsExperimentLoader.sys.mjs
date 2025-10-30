@@ -4444,8 +4444,8 @@ update
 *
 *
 If
-studies
-are
+Nimbus
+is
 disabled
 or
 the
