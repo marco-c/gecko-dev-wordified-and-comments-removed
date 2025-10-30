@@ -42,7 +42,7 @@ h3
 &
 delay
 =
-500
+100
 ;
 const
 TEST_URI
