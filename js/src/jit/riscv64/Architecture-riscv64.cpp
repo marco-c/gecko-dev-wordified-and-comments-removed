@@ -428,6 +428,12 @@ defined
 (
 __linux__
 )
+|
+|
+defined
+(
+__OpenBSD__
+)
 #
 if
 defined
