@@ -9036,7 +9036,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+all
 "
 param
 .
