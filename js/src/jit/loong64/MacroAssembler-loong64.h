@@ -1498,10 +1498,6 @@ Register
 rj
 Imm32
 imm
-bool
-bit32
-=
-false
 )
 ;
 void
@@ -1513,10 +1509,6 @@ Register
 rj
 Imm32
 imm
-bool
-bit32
-=
-false
 )
 ;
 void
@@ -1528,10 +1520,6 @@ Register
 rj
 Imm32
 imm
-bool
-bit32
-=
-false
 )
 ;
 FaultingCodeOffset

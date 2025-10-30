@@ -8863,8 +8863,6 @@ Register
 rj
 Imm32
 imm
-bool
-bit32
 )
 {
 if
@@ -8965,8 +8963,6 @@ Register
 rj
 Imm32
 imm
-bool
-bit32
 )
 {
 if
@@ -9044,8 +9040,6 @@ Register
 rj
 Imm32
 imm
-bool
-bit32
 )
 {
 if
