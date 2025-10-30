@@ -106,15 +106,6 @@ h
 #
 include
 "
-mozilla
-/
-WindowsVersion
-.
-h
-"
-#
-include
-"
 nsExceptionHandler
 .
 h
