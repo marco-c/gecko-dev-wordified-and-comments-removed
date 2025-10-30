@@ -883,6 +883,7 @@ tests
 .
 /
 *
+*
 type
 {
 ?
@@ -895,6 +896,7 @@ mLauncher
 null
 ;
 /
+*
 *
 type
 {
@@ -949,6 +951,7 @@ this
 .
 /
 *
+*
 type
 {
 number
@@ -960,6 +963,7 @@ mReason
 null
 ;
 /
+*
 *
 type
 {
@@ -973,6 +977,7 @@ mDialog
 null
 ;
 /
+*
 *
 type
 {

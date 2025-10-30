@@ -189,6 +189,7 @@ secure_url
 /
 *
 *
+*
 Checks
 if
 the
@@ -322,6 +323,7 @@ currMaxScore
 ;
 }
 /
+*
 *
 *
 Ensure
