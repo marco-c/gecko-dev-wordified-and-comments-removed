@@ -1032,13 +1032,6 @@ Zero
 ;
 DataRate
 stable_target_rate
-=
-DataRate
-:
-:
-Zero
-(
-)
 ;
 double
 cwnd_reduce_ratio

@@ -680,12 +680,6 @@ target_rate
 const
 ;
 DataRate
-stable_target_rate
-(
-)
-const
-;
-DataRate
 padding_rate
 (
 )
