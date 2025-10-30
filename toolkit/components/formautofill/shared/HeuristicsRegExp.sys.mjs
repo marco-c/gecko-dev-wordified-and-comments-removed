@@ -4031,14 +4031,6 @@ Telephone
 tel
 :
 "
-?
-<
-neg
->
-phonetic
-"
-+
-"
 phone
 |
 mobile
