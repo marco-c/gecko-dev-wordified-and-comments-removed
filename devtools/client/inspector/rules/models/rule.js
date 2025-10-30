@@ -2804,7 +2804,6 @@ index
 {
 if
 (
-!
 this
 .
 textProps
@@ -2812,7 +2811,7 @@ textProps
 index
 ]
 .
-invisible
+editor
 )
 {
 break
@@ -2896,7 +2895,6 @@ index
 {
 if
 (
-!
 this
 .
 textProps
@@ -2904,7 +2902,7 @@ textProps
 index
 ]
 .
-invisible
+editor
 )
 {
 break
