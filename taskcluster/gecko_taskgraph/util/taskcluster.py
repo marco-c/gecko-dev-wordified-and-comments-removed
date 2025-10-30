@@ -43,9 +43,6 @@ task_id
 data
 =
 None
-use_proxy
-=
-False
 )
 :
     
@@ -118,9 +115,6 @@ def
 status_task
 (
 task_id
-use_proxy
-=
-False
 )
 :
     
@@ -163,23 +157,6 @@ A
 task
 id
 .
-        
-use_proxy
-(
-bool
-)
-:
-Whether
-to
-use
-taskcluster
--
-proxy
-(
-default
-:
-False
-)
     
 Returns
 :
@@ -284,9 +261,6 @@ def
 state_task
 (
 task_id
-use_proxy
-=
-False
 )
 :
     
@@ -344,23 +318,6 @@ A
 task
 id
 .
-        
-use_proxy
-(
-bool
-)
-:
-Whether
-to
-use
-taskcluster
--
-proxy
-(
-default
-:
-False
-)
     
 Returns
 :
@@ -419,9 +376,6 @@ status
 status_task
 (
 task_id
-use_proxy
-=
-use_proxy
 )
 .
 get
@@ -770,9 +724,6 @@ def
 find_task
 (
 index_path
-use_proxy
-=
-False
 )
 :
     

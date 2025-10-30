@@ -2959,9 +2959,6 @@ format
 subs
 )
 decision_task_id
-use_proxy
-=
-True
 )
 def
 write_artifact

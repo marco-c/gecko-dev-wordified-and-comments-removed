@@ -7161,9 +7161,6 @@ environ
 TASK_ID
 "
 ]
-use_proxy
-=
-True
 )
     
 return
