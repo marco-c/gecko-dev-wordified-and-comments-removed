@@ -1092,6 +1092,13 @@ js
 ]
 [
 "
+browser_recursive_hierarchies
+.
+js
+"
+]
+[
+"
 browser_remove_bookmarks
 .
 js
