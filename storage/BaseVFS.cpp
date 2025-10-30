@@ -19,6 +19,15 @@ sqlite3
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Assertions
+.
+h
+"
 namespace
 {
 constexpr

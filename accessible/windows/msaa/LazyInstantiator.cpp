@@ -70,15 +70,6 @@ include
 "
 mozilla
 /
-UniquePtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 WinHeaderOnlyUtils
 .
 h

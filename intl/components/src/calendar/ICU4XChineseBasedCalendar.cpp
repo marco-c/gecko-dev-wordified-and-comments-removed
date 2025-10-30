@@ -11,6 +11,15 @@ ICU4XChineseBasedCalendar
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Assertions
+.
+h
+"
 namespace
 mozilla
 :

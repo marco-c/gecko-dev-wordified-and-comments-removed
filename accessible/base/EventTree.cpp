@@ -31,15 +31,6 @@ h
 "
 #
 endif
-#
-include
-"
-mozilla
-/
-UniquePtr
-.
-h
-"
 using
 namespace
 mozilla
