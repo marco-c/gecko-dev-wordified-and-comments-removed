@@ -201,6 +201,11 @@ string
 "
 )
 ;
+[
+storeMock
+verify
+]
+;
 }
 -
 (
