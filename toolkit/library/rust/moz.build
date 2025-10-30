@@ -157,6 +157,14 @@ RUST_TESTS
 style
 "
 ]
+RUST_TESTS
++
+=
+[
+"
+dom_fragmentdirectives
+"
+]
 if
 CONFIG
 [
