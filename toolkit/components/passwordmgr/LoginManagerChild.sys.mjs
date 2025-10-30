@@ -8756,7 +8756,7 @@ OnFieldAutoComplete
 {
 const
 {
-controlledElement
+focusedElement
 }
 =
 lazy
@@ -8781,7 +8781,7 @@ this
 .
 onFieldAutoComplete
 (
-controlledElement
+focusedElement
 login
 )
 ;
@@ -8798,7 +8798,7 @@ FillGeneratedPassword
 {
 const
 {
-controlledElement
+focusedElement
 }
 =
 lazy
@@ -8809,7 +8809,7 @@ this
 .
 filledWithGeneratedPassword
 (
-controlledElement
+focusedElement
 )
 ;
 break
@@ -8825,7 +8825,7 @@ FillRelayUsername
 {
 const
 {
-controlledElement
+focusedElement
 }
 =
 lazy
@@ -8836,7 +8836,7 @@ this
 .
 fillRelayUsername
 (
-controlledElement
+focusedElement
 msg
 .
 data
@@ -8903,7 +8903,7 @@ lazy
 .
 gFormFillService
 .
-controlledElement
+focusedElement
 )
 {
 lazy
@@ -19008,20 +19008,20 @@ usernameField
 )
 {
 let
-controlledElement
+focusedElement
 =
 lazy
 .
 gFormFillService
 .
-controlledElement
+focusedElement
 ;
 if
 (
 usernameField
 =
 =
-controlledElement
+focusedElement
 &
 &
 !

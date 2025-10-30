@@ -193,12 +193,10 @@ to
 .
 *
 /
-[
-setter_can_run_script
-]
+readonly
 attribute
 Element
-controlledElement
+focusedElement
 ;
 /
 *

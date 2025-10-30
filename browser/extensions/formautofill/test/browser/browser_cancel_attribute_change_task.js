@@ -324,7 +324,7 @@ equal
 (
 formFillController
 .
-controlledElement
+focusedElement
 ?
 .
 id
