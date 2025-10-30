@@ -20,9 +20,9 @@ mime
 ;
 1
 "
-"
+Ci
+.
 nsIMIMEService
-"
 )
 ;
 add_task

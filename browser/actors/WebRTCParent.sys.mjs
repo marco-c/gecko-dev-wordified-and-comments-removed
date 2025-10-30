@@ -158,9 +158,9 @@ ospermissionrequest
 ;
 1
 "
-"
+Ci
+.
 nsIOSPermissionRequest
-"
 )
 ;
 export

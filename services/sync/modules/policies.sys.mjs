@@ -339,9 +339,9 @@ useridleservice
 ;
 1
 "
-"
+Ci
+.
 nsIUserIdleService
-"
 )
 ;
 XPCOMUtils
@@ -367,9 +367,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsICaptivePortalService
-"
 )
 ;
 /

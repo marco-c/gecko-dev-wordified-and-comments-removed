@@ -623,9 +623,9 @@ x509certdb
 ;
 1
 "
-"
+Ci
+.
 nsIX509CertDB
-"
 ]
 }
 )

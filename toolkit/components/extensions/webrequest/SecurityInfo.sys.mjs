@@ -107,9 +107,9 @@ nss_errors_service
 ;
 1
 "
-"
+Ci
+.
 nsINSSErrorsService
-"
 )
 ;
 XPCOMUtils
@@ -131,9 +131,9 @@ publickeypinningservice
 ;
 1
 "
-"
+Ci
+.
 nsIPublicKeyPinningService
-"
 )
 ;
 /

@@ -100,9 +100,9 @@ detector
 ;
 1
 "
-"
+Ci
+.
 nsICaptivePortalDetector
-"
 )
 ;
 const

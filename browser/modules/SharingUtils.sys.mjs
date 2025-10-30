@@ -182,9 +182,9 @@ macsharingservice
 ;
 1
 "
-"
+Ci
+.
 nsIMacSharingService
-"
 ]
 WindowsUIUtils
 :
@@ -202,9 +202,9 @@ utils
 ;
 1
 "
-"
+Ci
+.
 nsIWindowsUIUtils
-"
 ]
 }
 )

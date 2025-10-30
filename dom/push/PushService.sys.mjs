@@ -139,9 +139,9 @@ Notifier
 ;
 1
 "
-"
+Ci
+.
 nsIPushNotifier
-"
 )
 ;
 ChromeUtils

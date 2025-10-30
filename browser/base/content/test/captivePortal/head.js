@@ -21,9 +21,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsICaptivePortalService
-"
 )
 ;
 const

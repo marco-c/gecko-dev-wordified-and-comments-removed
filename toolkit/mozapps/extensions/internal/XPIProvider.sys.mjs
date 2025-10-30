@@ -409,9 +409,9 @@ startup
 ;
 1
 "
-"
+Ci
+.
 amIAddonManagerStartup
-"
 ]
 resProto
 :
@@ -431,9 +431,9 @@ name
 =
 resource
 "
-"
+Ci
+.
 nsISubstitutingProtocolHandler
-"
 ]
 spellCheck
 :
@@ -449,9 +449,9 @@ engine
 ;
 1
 "
-"
+Ci
+.
 mozISpellCheckingEngine
-"
 ]
 timerManager
 :
@@ -469,9 +469,9 @@ manager
 ;
 1
 "
-"
+Ci
+.
 nsIUpdateTimerManager
-"
 ]
 }
 )

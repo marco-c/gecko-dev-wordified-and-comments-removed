@@ -149,9 +149,9 @@ touchbarupdater
 ;
 1
 "
-"
+Ci
+.
 nsITouchBarUpdater
-"
 )
 ;
 /
@@ -186,9 +186,9 @@ touchbarhelper
 ;
 1
 "
-"
+Ci
+.
 nsITouchBarHelper
-"
 )
 ;
 /

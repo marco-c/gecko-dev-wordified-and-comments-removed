@@ -476,9 +476,9 @@ utils
 ;
 1
 "
-"
+Ci
+.
 nsIMLUtils
-"
 )
 ;
 XPCOMUtils

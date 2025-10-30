@@ -79,9 +79,9 @@ list
 ;
 1
 "
-"
+Ci
+.
 nsIContentBlockingAllowList
-"
 )
 ;
 const
@@ -154,7 +154,7 @@ exceptions
 -
 popup
 -
-window2
+window3
 "
 description
 :
@@ -165,7 +165,7 @@ exceptions
 -
 popup
 -
-desc
+desc2
 "
 }
 "

@@ -251,9 +251,9 @@ clh
 ;
 1
 "
-"
+Ci
+.
 nsIBrowserHandler
-"
 ]
 UserIdleService
 :
@@ -269,9 +269,9 @@ useridleservice
 ;
 1
 "
-"
+Ci
+.
 nsIUserIdleService
-"
 ]
 }
 )

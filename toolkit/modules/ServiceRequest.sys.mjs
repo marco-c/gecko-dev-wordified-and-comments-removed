@@ -136,9 +136,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsIProtocolProxyService
-"
 )
 ;
 ChromeUtils
@@ -190,9 +190,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsICaptivePortalService
-"
 )
 ;
 XPCOMUtils
@@ -218,9 +218,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsINetworkLinkService
-"
 )
 ;
 const

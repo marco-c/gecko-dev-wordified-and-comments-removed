@@ -196,9 +196,9 @@ dbservice
 ;
 1
 "
-"
+Ci
+.
 nsIUrlClassifierDBService
-"
 )
 ;
 XPCOMUtils
@@ -222,9 +222,9 @@ utils
 ;
 1
 "
-"
+Ci
+.
 nsIUrlClassifierUtils
-"
 )
 ;
 let

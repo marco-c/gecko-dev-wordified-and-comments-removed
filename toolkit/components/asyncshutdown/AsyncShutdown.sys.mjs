@@ -383,9 +383,9 @@ debug
 ;
 1
 "
-"
+Ci
+.
 nsIDebug2
-"
 )
 ;
 /

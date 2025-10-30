@@ -290,9 +290,9 @@ provider
 ;
 1
 "
-"
+Ci
+.
 nsIXREDirProvider
-"
 ]
 }
 )

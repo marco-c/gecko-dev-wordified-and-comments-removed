@@ -132,9 +132,9 @@ hdrparam
 ;
 1
 "
-"
+Ci
+.
 nsIMIMEHeaderParam
-"
 )
 ;
 const

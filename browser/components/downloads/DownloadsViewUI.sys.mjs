@@ -257,9 +257,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsIHandlerService
-"
 )
 ;
 XPCOMUtils
