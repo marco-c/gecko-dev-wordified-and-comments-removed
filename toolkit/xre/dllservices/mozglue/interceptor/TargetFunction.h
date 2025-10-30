@@ -3867,7 +3867,7 @@ uintptr_t
 OffsetToAbsolute
 (
 const
-uint8_t
+int8_t
 aOffset
 )
 const
