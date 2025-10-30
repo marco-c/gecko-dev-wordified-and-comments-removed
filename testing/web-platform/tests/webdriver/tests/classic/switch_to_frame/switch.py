@@ -301,7 +301,7 @@ False
     
 session
 .
-switch_frame
+switch_to_frame
 (
 subframe
 )
@@ -600,7 +600,7 @@ False
     
 session
 .
-switch_frame
+switch_to_frame
 (
 frame1
 )
@@ -639,7 +639,7 @@ False
     
 session
 .
-switch_frame
+switch_to_frame
 (
 frame2
 )
@@ -844,7 +844,7 @@ False
     
 session
 .
-switch_frame
+switch_to_frame
 (
 frame1
 )

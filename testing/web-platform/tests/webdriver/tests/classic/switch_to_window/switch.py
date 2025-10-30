@@ -277,7 +277,7 @@ False
     
 session
 .
-switch_frame
+switch_to_frame
 (
 subframe
 )
@@ -303,7 +303,7 @@ False
     
 session
 .
-switch_frame
+switch_to_frame
 (
 deleteframe
 )
@@ -397,7 +397,7 @@ False
     
 session
 .
-switch_frame
+switch_to_frame
 (
 frame
 )

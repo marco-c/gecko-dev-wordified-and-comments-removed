@@ -710,7 +710,7 @@ foo
     
 session
 .
-switch_frame
+switch_to_frame
 (
 create_frame
 (

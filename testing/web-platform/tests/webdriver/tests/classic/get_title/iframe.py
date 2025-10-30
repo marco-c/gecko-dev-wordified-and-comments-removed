@@ -292,7 +292,7 @@ False
     
 session
 .
-switch_frame
+switch_to_frame
 (
 frame
 )
@@ -357,7 +357,7 @@ False
     
 session
 .
-switch_frame
+switch_to_frame
 (
 outer_frame
 )
@@ -380,7 +380,7 @@ False
     
 session
 .
-switch_frame
+switch_to_frame
 (
 inner_frame
 )
@@ -513,7 +513,7 @@ False
     
 session
 .
-switch_frame
+switch_to_frame
 (
 frame
 )

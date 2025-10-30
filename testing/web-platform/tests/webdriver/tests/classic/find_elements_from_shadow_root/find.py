@@ -464,7 +464,7 @@ True
     
 session
 .
-switch_frame
+switch_to_frame
 (
 0
 )
@@ -592,7 +592,7 @@ False
         
 session
 .
-switch_frame
+switch_to_frame
 (
 frame
 )
