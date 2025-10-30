@@ -407,10 +407,6 @@ aOpacity
 1
 .
 0
-bool
-aUseOptimalFillOp
-=
-true
 )
 ;
 static
