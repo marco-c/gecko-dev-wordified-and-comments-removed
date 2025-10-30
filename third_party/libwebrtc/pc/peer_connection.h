@@ -3347,10 +3347,6 @@ InitializeUnDemuxablePacketHandler
 bool
 CanAttemptDtlsStunPiggybacking
 (
-const
-RTCConfiguration
-&
-configuration
 )
 ;
 const
