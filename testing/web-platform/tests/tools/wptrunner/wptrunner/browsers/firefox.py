@@ -1878,6 +1878,23 @@ MOZ_ENABLE_INC_ORIGIN_INIT
 1
 "
           
+"
+navigationApi
+"
+:
+bool_pref
+(
+"
+dom
+.
+navigation
+.
+webidl
+.
+enabled
+"
+)
+          
 }
     
 rv
