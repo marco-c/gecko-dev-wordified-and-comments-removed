@@ -1550,7 +1550,7 @@ warning
 -
 safe
 -
-mode2
+mode3
 =
 .
 message
@@ -1563,8 +1563,8 @@ have
 been
 disabled
 by
-safe
-mode
+Troubleshoot
+Mode
 .
 extensions
 -
