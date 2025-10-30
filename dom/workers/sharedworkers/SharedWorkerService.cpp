@@ -59,6 +59,17 @@ mozilla
 /
 dom
 /
+RemoteWorkerManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 RemoteWorkerTypes
 .
 h
