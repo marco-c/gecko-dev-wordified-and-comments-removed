@@ -7244,6 +7244,13 @@ CleanUp
 )
 ;
 }
+else
+{
+mOngoingNavigateEvent
+=
+nullptr
+;
+}
 return
 event
 -
