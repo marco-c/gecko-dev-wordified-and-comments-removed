@@ -450,15 +450,6 @@ T
 ins
 )
 ;
-Register64
-ToOperandOrRegister64
-(
-const
-LInt64Allocation
-&
-input
-)
-;
 void
 divICommon
 (
