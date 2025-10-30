@@ -1556,6 +1556,17 @@ test_re_enable_apz_on_blur
 html
 "
 ]
+support
+-
+files
+=
+[
+"
+helper_re_enable_apz_on_blur
+.
+html
+"
+]
 skip
 -
 if
