@@ -48,15 +48,6 @@ include
 "
 mozilla
 /
-IntegerRange
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Maybe
 .
 h
