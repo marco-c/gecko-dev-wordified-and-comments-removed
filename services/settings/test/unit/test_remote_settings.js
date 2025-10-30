@@ -459,7 +459,7 @@ stored
 ;
 const
 {
-signature
+signatures
 }
 =
 await
@@ -473,7 +473,10 @@ getMetadata
 ;
 equal
 (
-signature
+signatures
+[
+0
+]
 .
 signature
 "
@@ -8037,8 +8040,9 @@ fields
 last_modified
 :
 1234
-signature
+signatures
 :
+[
 {
 signature
 :
@@ -8061,6 +8065,7 @@ fake
 -
 x5u
 }
+]
 }
 changes
 :
@@ -8217,10 +8222,12 @@ responseBody
 metadata
 :
 {
-signature
+signatures
 :
+[
 {
 }
+]
 }
 timestamp
 :
@@ -8422,10 +8429,12 @@ responseBody
 metadata
 :
 {
-signature
+signatures
 :
+[
 {
 }
+]
 }
 timestamp
 :
@@ -9187,8 +9196,9 @@ responseBody
 metadata
 :
 {
-signature
+signatures
 :
+[
 {
 signature
 :
@@ -9213,6 +9223,7 @@ fake
 -
 x5u
 }
+]
 }
 timestamp
 :
@@ -9374,8 +9385,9 @@ responseBody
 metadata
 :
 {
-signature
+signatures
 :
+[
 {
 signature
 :
@@ -9400,6 +9412,7 @@ fake
 -
 x5u
 }
+]
 }
 timestamp
 :
@@ -9565,8 +9578,9 @@ dictionaries
 last_modified
 :
 1234
-signature
+signatures
 :
+[
 {
 signature
 :
@@ -9589,6 +9603,7 @@ fake
 -
 x5u
 }
+]
 }
 changes
 :
@@ -9782,8 +9797,9 @@ fields
 last_modified
 :
 1234
-signature
+signatures
 :
+[
 {
 signature
 :
@@ -9806,6 +9822,7 @@ fake
 -
 x5u
 }
+]
 }
 changes
 :
@@ -9945,10 +9962,12 @@ timestamp
 metadata
 :
 {
-signature
+signatures
 :
+[
 {
 }
+]
 }
 changes
 :

@@ -208,8 +208,9 @@ timestamp
 metadata
 :
 {
-signature
+signatures
 :
+[
 {
 signature
 :
@@ -229,6 +230,7 @@ base64
 pem
 "
 }
+]
 }
 changes
 :
@@ -290,8 +292,9 @@ timestamp
 metadata
 :
 {
-signature
+signatures
 :
+[
 {
 signature
 :
@@ -311,6 +314,7 @@ base64
 pem
 "
 }
+]
 }
 changes
 :
@@ -355,8 +359,9 @@ timestamp
 metadata
 :
 {
-signature
+signatures
 :
+[
 {
 signature
 :
@@ -376,6 +381,7 @@ base64
 pem
 "
 }
+]
 }
 changes
 :
