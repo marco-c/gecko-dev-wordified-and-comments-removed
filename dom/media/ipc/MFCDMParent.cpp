@@ -6112,7 +6112,7 @@ supportedScheme
 =
 scheme
 ;
-break
+continue
 ;
 }
 additionalFeature
@@ -6195,7 +6195,7 @@ supportedScheme
 =
 scheme
 ;
-break
+continue
 ;
 }
 }
