@@ -448,6 +448,7 @@ NS_DESIGNATED_INITIALIZER
 end
 implementation
 RTCVideoEncoderFactoryFake
+{
 NSString
 *
 _scalabilityMode
@@ -455,6 +456,7 @@ _scalabilityMode
 bool
 _isPowerEfficient
 ;
+}
 -
 (
 instancetype
