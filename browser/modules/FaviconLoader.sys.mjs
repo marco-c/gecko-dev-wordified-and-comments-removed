@@ -1940,7 +1940,6 @@ NS_ERROR_NO_INTERFACE
 /
 *
 *
-*
 Extract
 the
 icon
@@ -2199,7 +2198,6 @@ width
 /
 *
 *
-*
 Get
 link
 icon
@@ -2455,7 +2453,6 @@ type
 ;
 }
 /
-*
 *
 *
 Selects

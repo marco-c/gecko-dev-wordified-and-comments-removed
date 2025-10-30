@@ -542,7 +542,6 @@ false
 /
 *
 *
-*
 param
 aRecord
 *
@@ -701,7 +700,6 @@ reject
 ;
 }
 /
-*
 *
 *
 param

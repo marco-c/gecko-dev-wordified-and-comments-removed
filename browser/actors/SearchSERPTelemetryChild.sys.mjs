@@ -7748,8 +7748,6 @@ value
 }
 /
 *
-*
-*
 Given
 a
 list

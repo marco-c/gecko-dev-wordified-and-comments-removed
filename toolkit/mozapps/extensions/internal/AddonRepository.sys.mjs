@@ -2259,7 +2259,6 @@ addon
 /
 *
 *
-*
 Clear
 and
 delete
@@ -2308,7 +2307,6 @@ updateAddonRepositoryData
 ;
 }
 /
-*
 *
 *
 Create
@@ -4119,7 +4117,6 @@ shutter
 ;
 }
 /
-*
 *
 *
 Creates
@@ -6273,7 +6270,6 @@ save
 ;
 }
 /
-*
 *
 *
 Creates

@@ -486,7 +486,6 @@ fieldName
 /
 *
 *
-*
 Examine
 the
 section
@@ -525,6 +524,7 @@ section
 otherwise
 false
 *
+*
 /
 isValidSection
 (
@@ -545,7 +545,6 @@ overrided
 ;
 }
 /
-*
 *
 *
 Examine
@@ -585,6 +584,7 @@ type
 otherwise
 false
 *
+*
 /
 isEnabled
 (
@@ -605,7 +605,6 @@ overrided
 ;
 }
 /
-*
 *
 *
 Examine
@@ -629,7 +628,7 @@ overrided
 *
 param
 {
-object
+Object
 }
 _record
 The
@@ -650,6 +649,7 @@ is
 createable
 otherwise
 false
+*
 *
 /
 isRecordCreatable

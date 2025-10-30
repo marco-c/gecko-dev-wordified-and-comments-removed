@@ -473,7 +473,6 @@ flow
 /
 *
 *
-*
 Gets
 a
 stored
@@ -1370,7 +1369,6 @@ queryParams
 /
 *
 *
-*
 Completes
 an
 OAuth
@@ -1495,6 +1493,7 @@ provided
 by
 the
 server
+*
 *
 /
 async

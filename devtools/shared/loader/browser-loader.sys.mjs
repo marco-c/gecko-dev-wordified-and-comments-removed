@@ -685,7 +685,6 @@ components
 /
 *
 *
-*
 Create
 a
 loader

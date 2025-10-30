@@ -59,8 +59,7 @@ MPL
 /
 *
 *
-*
-file
+fileOverview
 *
 This
 module
@@ -402,8 +401,6 @@ ExtensionControlledPopup
 {
 /
 *
-*
-*
 Provide
 necessary
 options
@@ -718,14 +715,13 @@ baseURL
 .
 *
 param
+optional
 {
 string
 }
-[
 opts
 .
 preferencesLocation
-]
 *
 If
 included
@@ -759,14 +755,13 @@ addon
 .
 *
 param
+optional
 {
 string
 }
-[
 opts
 .
 preferencesEntrypoint
-]
 *
 The
 entrypoint
@@ -779,7 +774,7 @@ telemetry
 *
 param
 {
-Function
+function
 }
 opts
 .
@@ -808,7 +803,7 @@ observerTopic
 *
 param
 {
-Function
+function
 }
 opts
 .
@@ -844,7 +839,7 @@ removeObserver
 *
 param
 {
-Function
+function
 }
 opts
 .

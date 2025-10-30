@@ -1821,8 +1821,6 @@ behaviour
 }
 /
 *
-*
-*
 _updateVisits
 -
 Record

@@ -7916,7 +7916,6 @@ push
 /
 *
 *
-*
 Destroyes
 an
 OAuth
@@ -7930,13 +7929,12 @@ the
 FxA
 server
 *
-*
 param
 {
-object
+Object
 }
 tokenData
-*
+:
 The
 token
 '
@@ -7950,6 +7948,7 @@ being
 the
 token
 itself
+*
 *
 /
 destroyOAuthToken

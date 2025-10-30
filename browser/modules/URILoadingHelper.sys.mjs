@@ -1734,8 +1734,6 @@ URILoadingHelper
 {
 /
 *
-*
-*
 openLinkIn
 opens
 a
@@ -3776,7 +3774,6 @@ focus
 }
 }
 /
-*
 *
 *
 Resolve

@@ -1613,7 +1613,6 @@ e
 /
 *
 *
-*
 typedef
 {
 object

@@ -13235,7 +13235,6 @@ EventManager
 /
 *
 *
-*
 A
 persistent
 event
@@ -14003,7 +14002,6 @@ Map
 ;
 }
 /
-*
 *
 *
 Information
