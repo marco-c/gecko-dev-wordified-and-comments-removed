@@ -556,6 +556,13 @@ moxCustomContent
 ;
 -
 (
+NSArray
+*
+)
+moxCustomActions
+;
+-
+(
 NSNumber
 *
 )

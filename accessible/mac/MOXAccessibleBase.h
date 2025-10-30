@@ -244,6 +244,13 @@ accessibilityFocusedUIElement
 ;
 -
 (
+NSArray
+*
+)
+accessibilityCustomActions
+;
+-
+(
 BOOL
 )
 isAccessibilityElement
@@ -289,6 +296,13 @@ point
 id
 )
 moxFocusedUIElement
+;
+-
+(
+NSArray
+*
+)
+moxCustomActions
 ;
 -
 (

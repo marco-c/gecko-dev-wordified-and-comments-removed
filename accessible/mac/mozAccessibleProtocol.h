@@ -65,6 +65,13 @@ accessibilityFocusedUIElement
 NSArray
 *
 )
+accessibilityCustomActions
+;
+-
+(
+NSArray
+*
+)
 accessibilityAttributeNames
 ;
 -

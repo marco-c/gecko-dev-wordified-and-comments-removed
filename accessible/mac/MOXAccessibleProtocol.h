@@ -27,6 +27,14 @@ moxFocusedUIElement
 ;
 -
 (
+NSArray
+*
+_Nullable
+)
+moxCustomActions
+;
+-
+(
 void
 )
 moxPostNotification
