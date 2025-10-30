@@ -3909,7 +3909,7 @@ name
 PackedArraySliceResult
 shared
 :
-false
+true
 transpile
 :
 true
@@ -3936,7 +3936,7 @@ name
 ArgumentsSliceResult
 shared
 :
-false
+true
 transpile
 :
 true
