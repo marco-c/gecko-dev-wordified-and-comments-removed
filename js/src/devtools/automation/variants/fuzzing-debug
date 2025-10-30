@@ -56,7 +56,7 @@ rust
 simd
 "
 "
-optimize
+debug
 "
 :
 true

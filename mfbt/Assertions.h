@@ -2113,6 +2113,12 @@ defined
 (
 MOZ_ASAN
 )
+|
+|
+defined
+(
+FUZZING
+)
 #
 define
 MOZ_REPORT_ASSERTION_FAILURE
