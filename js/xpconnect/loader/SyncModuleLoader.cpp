@@ -424,7 +424,6 @@ request
 new
 ModuleLoadRequest
 (
-aURI
 moduleType
 dom
 :
@@ -628,7 +627,9 @@ IsTrustedScheme
 aRequest
 -
 >
-mURI
+URI
+(
+)
 )
 ;
 }
@@ -661,7 +662,9 @@ mBaseURL
 aRequest
 -
 >
-mURI
+URI
+(
+)
 ;
 dom
 :
@@ -777,7 +780,9 @@ rv2
 aRequest
 -
 >
-mURI
+URI
+(
+)
 -
 >
 GetSpec

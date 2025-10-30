@@ -284,10 +284,12 @@ aLoadedScript
 GetFetchOptions
 (
 )
-aRequest
+aLoadedScript
 -
 >
-mURI
+GetURI
+(
+)
 )
 {
 }
