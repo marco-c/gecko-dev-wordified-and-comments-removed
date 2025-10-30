@@ -6759,7 +6759,7 @@ def
 add_process
 (
 job_id
-env
+append_env
 *
 *
 kwargs
@@ -6814,6 +6814,23 @@ line
 }
 "
                 
+)
+            
+env
+=
+os
+.
+environ
+.
+copy
+(
+)
+            
+env
+.
+update
+(
+append_env
 )
             
 report
@@ -7217,6 +7234,10 @@ suite
 filt
 (
 gtest_env
+.
+copy
+(
+)
 )
                     
 onFinish
