@@ -3131,6 +3131,7 @@ mozilla
 StyleSimpleShadow
 &
 aShadowDetails
+const
 gfxRect
 &
 aBoundingBox
