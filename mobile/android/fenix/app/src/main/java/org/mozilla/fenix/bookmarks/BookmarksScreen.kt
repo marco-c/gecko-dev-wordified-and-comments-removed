@@ -5405,6 +5405,8 @@ onClick
 =
 {
 onNewFolderClick
+(
+)
 }
 )
 {
