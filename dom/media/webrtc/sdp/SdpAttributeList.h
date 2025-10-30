@@ -7,15 +7,6 @@ _SDPATTRIBUTELIST_H_
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 sdp
 /
 SdpAttribute

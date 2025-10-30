@@ -7,15 +7,6 @@ nsGenericHTMLFrameElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsFrameLoader
 .
 h

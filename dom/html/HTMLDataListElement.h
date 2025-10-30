@@ -7,15 +7,6 @@ HTMLDataListElement_h___
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsContentList
 .
 h

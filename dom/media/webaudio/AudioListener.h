@@ -46,15 +46,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MemoryReporting
 .
 h

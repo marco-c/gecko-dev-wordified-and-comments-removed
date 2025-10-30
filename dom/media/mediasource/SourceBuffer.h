@@ -64,15 +64,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 DOMEventTargetHelper
 .
 h

@@ -34,15 +34,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 FunctionRef
 .
 h

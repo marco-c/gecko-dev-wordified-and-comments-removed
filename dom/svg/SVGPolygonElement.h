@@ -11,15 +11,6 @@ SVGPolyElement
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 nsresult
 NS_NewSVGPolygonElement
 (

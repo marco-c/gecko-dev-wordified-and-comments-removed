@@ -7,15 +7,6 @@ mozilla_dom_HTMLTITLEElement_h_
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h

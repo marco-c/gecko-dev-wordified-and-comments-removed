@@ -7,15 +7,6 @@ mozilla_dom_HTMLTableCaptionElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h

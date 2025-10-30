@@ -17,15 +17,6 @@ vector
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 sdp
 /
 Sdp

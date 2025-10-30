@@ -7,15 +7,6 @@ mozilla_dom_PerformanceServerTiming_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

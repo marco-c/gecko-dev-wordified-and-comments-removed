@@ -111,15 +111,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ProfilerMarkers
 .
 h

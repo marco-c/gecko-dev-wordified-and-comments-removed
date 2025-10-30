@@ -7,15 +7,6 @@ TRANSFRMX_MOZILLA_XML_OUTPUT_H
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

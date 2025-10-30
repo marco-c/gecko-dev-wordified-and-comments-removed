@@ -7,15 +7,6 @@ mozilla_dom_SpeechGrammarList_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

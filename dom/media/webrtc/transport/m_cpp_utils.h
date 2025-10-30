@@ -4,15 +4,6 @@ m_cpp_utils_h__
 #
 define
 m_cpp_utils_h__
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 namespace
 mozilla
 {
