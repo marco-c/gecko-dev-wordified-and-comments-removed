@@ -479,13 +479,10 @@ define
 NUM_SMALL_CLASSES
 \
 (
-kNumTinyClasses
-+
 kNumQuantumClasses
 +
 kNumQuantumWideClasses
 +
-\
 gNumSubPageClasses
 )
 static
