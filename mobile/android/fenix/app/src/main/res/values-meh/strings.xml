@@ -4351,6 +4351,13 @@ ignore
 BrandUsage
 UnusedResources
 "
+moz
+:
+removedIn
+=
+"
+146
+"
 >
 Kuni
 navi
@@ -4403,6 +4410,13 @@ ignore
 =
 "
 UnusedResources
+"
+moz
+:
+removedIn
+=
+"
+146
 "
 >
 Kue
