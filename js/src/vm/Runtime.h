@@ -4622,6 +4622,15 @@ js
 :
 MainThreadData
 <
+uint32_t
+>
+pendingAsyncModuleEvaluations
+;
+js
+:
+:
+MainThreadData
+<
 JS
 :
 :
