@@ -426,6 +426,13 @@ html
 ]
 [
 "
+test_selectormatcheselement_host
+.
+html
+"
+]
+[
+"
 test_selectormatcheselement_scope
 .
 html
