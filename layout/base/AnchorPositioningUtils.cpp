@@ -1922,9 +1922,6 @@ const
 StylePositionArea
 &
 aPosArea
-StylePositionArea
-*
-aOutResolvedArea
 )
 {
 const
@@ -2106,11 +2103,6 @@ aPosArea
 aCBWM
 aPositionedWM
 )
-;
-*
-aOutResolvedArea
-=
-posArea
 ;
 nscoord
 right
