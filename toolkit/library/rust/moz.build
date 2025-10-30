@@ -57,6 +57,9 @@ RUST_TESTS
 crashreporter
 "
 "
+dom_fragmentdirectives
+"
+"
 firefox
 -
 on
