@@ -335,6 +335,14 @@ bits
 .
 h
 "
+    
+"
+jpeglibmangler
+\
+\
+.
+h
+"
 ]
 _SCRIPT_DIR
 =

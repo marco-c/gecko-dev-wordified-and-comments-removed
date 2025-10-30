@@ -90,13 +90,6 @@ jpeglib
 h
 "
 #
-include
-"
-jpeglibmangler
-.
-h
-"
-#
 endif
 }
 namespace
