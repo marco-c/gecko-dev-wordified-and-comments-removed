@@ -9,11 +9,6 @@ include
 <
 memory
 >
-#
-include
-<
-string
->
 namespace
 webrtc
 {
@@ -87,12 +82,6 @@ TestMain
 )
 =
 default
-;
-std
-:
-:
-string
-field_trials_
 ;
 }
 ;

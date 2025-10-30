@@ -30,15 +30,6 @@ ABSL_DECLARE_FLAG
 std
 :
 :
-string
-force_fieldtrials
-)
-;
-ABSL_DECLARE_FLAG
-(
-std
-:
-:
 vector
 <
 std
