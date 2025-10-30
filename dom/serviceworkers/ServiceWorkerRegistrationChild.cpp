@@ -140,7 +140,15 @@ if
 mOwner
 )
 {
+RefPtr
+<
+ServiceWorkerRegistration
+>
+owner
+=
 mOwner
+;
+owner
 -
 >
 FireUpdateFound
