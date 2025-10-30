@@ -293,6 +293,11 @@ type
 "
 string
 "
+"
+maxLength
+"
+:
+80
 }
 "
 publicName
@@ -712,6 +717,11 @@ type
 "
 string
 "
+"
+maxLength
+"
+:
+80
 }
 "
 publicName
