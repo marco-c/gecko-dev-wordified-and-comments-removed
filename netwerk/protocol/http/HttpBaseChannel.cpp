@@ -7296,11 +7296,11 @@ XRE_IsParentProcess
 )
 )
 ;
+}
 removeEncodings
 =
 true
 ;
-}
 nextListener
 =
 converter
