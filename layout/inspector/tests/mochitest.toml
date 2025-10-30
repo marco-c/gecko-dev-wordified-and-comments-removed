@@ -279,6 +279,13 @@ html
 ]
 [
 "
+test_getMatchingCSSRules_shadow_dom
+.
+html
+"
+]
+[
+"
 test_getMatchingCSSRules_slotted
 .
 html
