@@ -5087,7 +5087,7 @@ ELEMENT
 (
 XHTML
 xhtml
-script
+embed
 )
 \
 ELEMENT
@@ -5115,7 +5115,7 @@ ELEMENT
 (
 XHTML
 xhtml
-embed
+script
 )
 \
 ELEMENT
