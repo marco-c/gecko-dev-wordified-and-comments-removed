@@ -24833,6 +24833,18 @@ browser
 .
 ipProtection
 .
+enabled
+"
+false
+)
+;
+pref
+(
+"
+browser
+.
+ipProtection
+.
 autoStartEnabled
 "
 false
@@ -24845,7 +24857,7 @@ browser
 .
 ipProtection
 .
-enabled
+autoStartPrivateEnabled
 "
 false
 )
