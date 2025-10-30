@@ -2850,11 +2850,11 @@ case
 :
 masm
 .
-xor64
+move64
 (
-ToRegister64
+Imm64
 (
-lhs
+0
 )
 ToRegister64
 (
