@@ -6,15 +6,6 @@ define
 jit_SafepointIndex_h
 #
 include
-"
-mozilla
-/
-Assertions
-.
-h
-"
-#
-include
 <
 stdint
 .

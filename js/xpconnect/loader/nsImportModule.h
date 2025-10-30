@@ -38,15 +38,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
-mozilla
-/
-RefPtr
-.
-h
-"
 namespace
 mozilla
 {

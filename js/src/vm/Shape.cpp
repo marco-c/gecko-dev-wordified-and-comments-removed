@@ -12,15 +12,6 @@ h
 #
 include
 "
-mozilla
-/
-MathAlgorithms
-.
-h
-"
-#
-include
-"
 gc
 /
 HashUtil

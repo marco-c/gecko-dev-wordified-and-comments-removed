@@ -6,15 +6,6 @@ define
 jit_riscv64_constant_Constant_riscv64_h
 #
 include
-"
-mozilla
-/
-Assertions
-.
-h
-"
-#
-include
 <
 stdio
 .

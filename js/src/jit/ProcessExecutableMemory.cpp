@@ -185,15 +185,6 @@ StackWalk_windows
 h
 "
 #
-include
-"
-mozilla
-/
-WindowsVersion
-.
-h
-"
-#
 elif
 defined
 (

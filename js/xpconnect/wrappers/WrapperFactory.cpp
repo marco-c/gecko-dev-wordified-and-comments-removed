@@ -104,15 +104,6 @@ include
 "
 mozilla
 /
-Likely
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 ScriptSettings

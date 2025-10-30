@@ -46,15 +46,6 @@ h
 #
 include
 "
-mozilla
-/
-ThreadLocal
-.
-h
-"
-#
-include
-"
 gc
 /
 GCContext

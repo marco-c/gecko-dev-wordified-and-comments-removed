@@ -52,15 +52,6 @@ h
 #
 include
 "
-mozilla
-/
-Span
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

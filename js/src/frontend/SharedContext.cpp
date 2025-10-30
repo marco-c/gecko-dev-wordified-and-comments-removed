@@ -10,15 +10,6 @@ h
 #
 include
 "
-mozilla
-/
-RefPtr
-.
-h
-"
-#
-include
-"
 frontend
 /
 CompilationStencil

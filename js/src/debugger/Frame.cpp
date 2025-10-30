@@ -77,15 +77,6 @@ include
 "
 mozilla
 /
-ThreadLocal
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Vector
 .
 h

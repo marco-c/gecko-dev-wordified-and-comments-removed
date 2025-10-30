@@ -52,15 +52,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-MathAlgorithms
-.
-h
-"
-#
-include
 <
 cinttypes
 >

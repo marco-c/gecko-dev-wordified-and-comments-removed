@@ -27,15 +27,6 @@ include
 "
 mozilla
 /
-Range
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ResultExtensions
 .
 h

@@ -89,15 +89,6 @@ include
 "
 mozilla
 /
-Range
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Span
 .
 h

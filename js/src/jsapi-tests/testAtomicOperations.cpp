@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Assertions
-.
-h
-"
-#
-include
-"
 jit
 /
 AtomicOperations

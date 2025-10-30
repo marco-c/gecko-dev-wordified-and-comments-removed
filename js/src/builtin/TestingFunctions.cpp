@@ -133,15 +133,6 @@ include
 "
 mozilla
 /
-TextUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ThreadLocal
 .
 h
