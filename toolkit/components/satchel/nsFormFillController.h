@@ -419,7 +419,7 @@ dom
 :
 Element
 *
-mFocusedElement
+mControlledElement
 ;
 RefPtr
 <
