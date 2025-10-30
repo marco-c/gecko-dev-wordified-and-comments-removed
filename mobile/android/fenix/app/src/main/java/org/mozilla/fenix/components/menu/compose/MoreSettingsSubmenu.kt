@@ -282,6 +282,9 @@ TranslationInfo
 showShortcuts
 :
 Boolean
+isAndroidAutomotiveAvailable
+:
+Boolean
 onWebCompatReporterClick
 :
 (
@@ -646,6 +649,12 @@ onClick
 =
 onSaveAsPDFMenuClick
 )
+if
+(
+!
+isAndroidAutomotiveAvailable
+)
+{
 MenuItem
 (
 label
@@ -676,6 +685,7 @@ onClick
 =
 onPrintMenuClick
 )
+}
 }
 }
 Composable
@@ -1030,6 +1040,9 @@ onTranslatePageMenuClick
 showShortcuts
 =
 true
+isAndroidAutomotiveAvailable
+=
+false
 onWebCompatReporterClick
 =
 {
@@ -1170,6 +1183,9 @@ onTranslatePageMenuClick
 showShortcuts
 =
 true
+isAndroidAutomotiveAvailable
+=
+false
 onWebCompatReporterClick
 =
 {
