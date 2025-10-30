@@ -31995,8 +31995,10 @@ skiaPath
 .
 getVerbs
 (
+{
 verbs
 numVerbs
+}
 )
 ;
 if
