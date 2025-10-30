@@ -89,13 +89,6 @@ waitForEvent
 (
 target
 eventName
-callback
-=
-(
-)
-=
->
-true
 )
 {
 return
@@ -113,13 +106,6 @@ event
 =
 >
 {
-if
-(
-callback
-(
-)
-)
-{
 target
 .
 removeEventListener
@@ -133,7 +119,6 @@ resolve
 event
 )
 ;
-}
 }
 ;
 target
