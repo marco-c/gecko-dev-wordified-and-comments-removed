@@ -1955,7 +1955,7 @@ aLoadedScript
 )
 ;
 nsresult
-MaybePrepareForCacheAfterExecute
+MaybePrepareForDiskCacheAfterExecute
 (
 ScriptLoadRequest
 *
@@ -1965,7 +1965,7 @@ aRv
 )
 ;
 nsresult
-MaybePrepareModuleForCacheAfterExecute
+MaybePrepareModuleForDiskCacheAfterExecute
 (
 ModuleLoadRequest
 *
@@ -1995,13 +1995,13 @@ aRequest
 )
 ;
 void
-MaybeUpdateCache
+MaybeUpdateDiskCache
 (
 )
 override
 ;
 void
-UpdateCache
+UpdateDiskCache
 (
 )
 ;
@@ -2026,7 +2026,7 @@ aLoadedScript
 )
 ;
 void
-GiveUpCaching
+GiveUpDiskCaching
 (
 )
 ;
@@ -2421,7 +2421,7 @@ bool
 mLoadEventFired
 ;
 bool
-mGiveUpCaching
+mGiveUpDiskCaching
 ;
 bool
 mContinueParsingDocumentAfterCurrentScript

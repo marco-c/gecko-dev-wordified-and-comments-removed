@@ -8247,7 +8247,7 @@ rv
 mLoader
 -
 >
-MaybePrepareModuleForCacheAfterExecute
+MaybePrepareModuleForDiskCacheAfterExecute
 (
 aRequest
 NS_OK
@@ -8256,7 +8256,7 @@ NS_OK
 mLoader
 -
 >
-MaybeUpdateCache
+MaybeUpdateDiskCache
 (
 )
 ;

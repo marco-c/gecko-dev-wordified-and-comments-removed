@@ -1159,7 +1159,7 @@ mLoadEventFired
 (
 false
 )
-mGiveUpCaching
+mGiveUpDiskCaching
 (
 false
 )
@@ -16528,7 +16528,7 @@ nsresult
 ScriptLoader
 :
 :
-MaybePrepareForCacheAfterExecute
+MaybePrepareForDiskCacheAfterExecute
 (
 ScriptLoadRequest
 *
@@ -16672,7 +16672,7 @@ nsresult
 ScriptLoader
 :
 :
-MaybePrepareModuleForCacheAfterExecute
+MaybePrepareModuleForDiskCacheAfterExecute
 (
 ModuleLoadRequest
 *
@@ -16707,7 +16707,7 @@ aRv
 }
 aRv
 =
-MaybePrepareForCacheAfterExecute
+MaybePrepareForDiskCacheAfterExecute
 (
 aRequest
 aRv
@@ -16784,7 +16784,7 @@ dep
 ;
 aRv
 =
-MaybePrepareForCacheAfterExecute
+MaybePrepareForDiskCacheAfterExecute
 (
 dep
 aRv
@@ -17246,7 +17246,7 @@ rv
 }
 rv
 =
-MaybePrepareForCacheAfterExecute
+MaybePrepareForDiskCacheAfterExecute
 (
 aRequest
 rv
@@ -17272,7 +17272,7 @@ this
 )
 )
 ;
-MaybeUpdateCache
+MaybeUpdateDiskCache
 (
 )
 ;
@@ -17411,7 +17411,7 @@ mLoadEventFired
 =
 true
 ;
-MaybeUpdateCache
+MaybeUpdateDiskCache
 (
 )
 ;
@@ -17445,7 +17445,7 @@ CancelAndClearScriptLoadRequests
 (
 )
 ;
-GiveUpCaching
+GiveUpDiskCaching
 (
 )
 ;
@@ -17454,13 +17454,13 @@ void
 ScriptLoader
 :
 :
-MaybeUpdateCache
+MaybeUpdateDiskCache
 (
 )
 {
 if
 (
-mGiveUpCaching
+mGiveUpDiskCaching
 )
 {
 LOG
@@ -17485,7 +17485,7 @@ this
 )
 )
 ;
-GiveUpCaching
+GiveUpDiskCaching
 (
 )
 ;
@@ -17616,7 +17616,7 @@ this
 ScriptLoader
 :
 :
-UpdateCache
+UpdateDiskCache
 )
 ;
 if
@@ -17638,7 +17638,7 @@ Idle
 )
 )
 {
-GiveUpCaching
+GiveUpDiskCaching
 (
 )
 ;
@@ -17669,7 +17669,7 @@ void
 ScriptLoader
 :
 :
-UpdateCache
+UpdateDiskCache
 (
 )
 {
@@ -18342,11 +18342,11 @@ void
 ScriptLoader
 :
 :
-GiveUpCaching
+GiveUpDiskCaching
 (
 )
 {
-mGiveUpCaching
+mGiveUpDiskCaching
 =
 true
 ;
