@@ -2083,6 +2083,10 @@ const
 StunMessage
 *
 msg
+const
+StunRequest
+*
+original_request
 )
 ;
 DtlsStunPiggybackCallbacks
