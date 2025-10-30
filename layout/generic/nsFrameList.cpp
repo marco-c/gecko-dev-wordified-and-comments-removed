@@ -2508,11 +2508,11 @@ case
 FrameChildListID
 :
 :
-Bullet
+Marker
 :
 return
 "
-BulletList
+MarkerList
 "
 ;
 case
