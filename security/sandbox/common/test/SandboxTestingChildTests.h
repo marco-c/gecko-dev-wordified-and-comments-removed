@@ -202,15 +202,6 @@ ProcInfo_linux
 h
 "
 #
-include
-"
-mozilla
-/
-UniquePtrExtensions
-.
-h
-"
-#
 ifdef
 MOZ_X11
 #

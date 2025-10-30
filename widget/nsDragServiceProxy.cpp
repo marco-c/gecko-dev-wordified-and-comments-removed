@@ -54,15 +54,6 @@ include
 "
 mozilla
 /
-UniquePtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 widget
 /
 WidgetLogging

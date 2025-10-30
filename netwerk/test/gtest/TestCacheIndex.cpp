@@ -21,15 +21,6 @@ include
 "
 mozilla
 /
-UniquePtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TimeStamp
 .
 h

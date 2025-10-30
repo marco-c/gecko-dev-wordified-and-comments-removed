@@ -49,15 +49,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtrExtensions
-.
-h
-"
-#
-include
-"
 nsEscape
 .
 h

@@ -87,15 +87,6 @@ EventForwards
 .
 h
 "
-#
-include
-"
-mozilla
-/
-UniquePtr
-.
-h
-"
 class
 nsViewManager
 ;

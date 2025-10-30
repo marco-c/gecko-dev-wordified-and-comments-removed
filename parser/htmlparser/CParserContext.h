@@ -7,15 +7,6 @@ __CParserContext
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 nsIParser
 .
 h

@@ -11,15 +11,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

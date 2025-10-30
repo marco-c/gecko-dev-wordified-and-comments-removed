@@ -77,15 +77,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-UniquePtrExtensions
-.
-h
-"
-#
-include
 <
 shellapi
 .

@@ -48,15 +48,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 nsClassHashtable
 .
 h

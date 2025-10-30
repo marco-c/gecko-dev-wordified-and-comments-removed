@@ -124,15 +124,6 @@ TextRange
 .
 h
 "
-#
-include
-"
-mozilla
-/
-UniquePtr
-.
-h
-"
 struct
 ANPEvent
 ;

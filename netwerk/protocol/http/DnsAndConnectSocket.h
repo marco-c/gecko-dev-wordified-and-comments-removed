@@ -16,15 +16,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 nsAHttpConnection
 .
 h

@@ -115,15 +115,6 @@ include
 "
 mozilla
 /
-UniquePtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 webrender
 /
 WebRenderTypes

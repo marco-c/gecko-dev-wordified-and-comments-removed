@@ -85,15 +85,6 @@ include
 "
 mozilla
 /
-UniquePtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 WindowButtonType
 .
 h

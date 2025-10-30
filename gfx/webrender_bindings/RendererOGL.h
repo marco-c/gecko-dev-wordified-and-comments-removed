@@ -9,15 +9,6 @@ include
 "
 mozilla
 /
-UniquePtrExtensions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 layers
 /
 CompositorTypes

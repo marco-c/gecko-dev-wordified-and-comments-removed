@@ -87,15 +87,6 @@ include
 "
 mozilla
 /
-UniquePtrExtensions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 WeakPtr
 .
 h

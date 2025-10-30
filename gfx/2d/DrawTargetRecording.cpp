@@ -112,15 +112,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 nsXULAppAPI
 .
 h

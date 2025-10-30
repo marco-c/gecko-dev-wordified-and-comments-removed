@@ -27,15 +27,6 @@ include
 "
 mozilla
 /
-UniquePtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 extensions
 /
 StreamFilterParent

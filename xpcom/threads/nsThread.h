@@ -122,15 +122,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 nsIDirectTaskDispatcher
 .
 h

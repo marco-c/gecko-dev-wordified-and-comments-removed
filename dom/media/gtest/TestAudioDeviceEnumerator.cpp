@@ -62,15 +62,6 @@ include
 "
 mozilla
 /
-UniquePtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 media
 /
 MediaUtils

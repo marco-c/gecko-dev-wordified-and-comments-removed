@@ -121,15 +121,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 nsHostRecord
 .
 h
@@ -674,6 +665,10 @@ FlushCache
 (
 bool
 aTrrToo
+bool
+aFlushEvictionQueue
+=
+false
 )
 ;
 LookupStatus

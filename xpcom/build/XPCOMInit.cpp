@@ -549,15 +549,6 @@ include
 "
 mozilla
 /
-UniquePtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ServoStyleConsts
 .
 h

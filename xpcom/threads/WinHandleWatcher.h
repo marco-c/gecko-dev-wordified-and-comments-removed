@@ -32,15 +32,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 nsIEventTarget
 .
 h

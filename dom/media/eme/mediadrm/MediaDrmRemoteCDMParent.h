@@ -72,15 +72,6 @@ StaticPtr
 .
 h
 "
-#
-include
-"
-mozilla
-/
-UniquePtr
-.
-h
-"
 namespace
 mozilla
 {

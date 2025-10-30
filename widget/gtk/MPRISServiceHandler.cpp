@@ -65,15 +65,6 @@ include
 "
 mozilla
 /
-UniquePtrExtensions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Maybe
 .
 h

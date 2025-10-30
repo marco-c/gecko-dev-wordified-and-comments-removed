@@ -5,15 +5,6 @@ XREChildData_h
 define
 XREChildData_h
 #
-include
-"
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
 if
 defined
 (

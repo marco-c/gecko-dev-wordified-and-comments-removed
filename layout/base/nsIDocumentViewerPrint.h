@@ -7,15 +7,6 @@ nsIDocumentViewerPrint_h___
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h

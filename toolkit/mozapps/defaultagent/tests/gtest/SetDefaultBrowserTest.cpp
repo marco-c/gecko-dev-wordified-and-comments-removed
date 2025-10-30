@@ -17,15 +17,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 WindowsUserChoice
 .
 h

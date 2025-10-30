@@ -25,15 +25,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 nsBaseHashtable
 .
 h

@@ -57,15 +57,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtrExtensions
-.
-h
-"
-#
-include
-"
 nsPrintfCString
 .
 h

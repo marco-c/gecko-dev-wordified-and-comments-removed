@@ -53,15 +53,6 @@ include
 "
 mozilla
 /
-UniquePtrExtensions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 WidgetUtilsGtk
 .
 h

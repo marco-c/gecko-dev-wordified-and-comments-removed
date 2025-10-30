@@ -7,15 +7,6 @@ TRANSFRMX_XSLT_FUNCTIONS_H
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 txExpr
 .
 h
