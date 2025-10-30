@@ -735,6 +735,7 @@ false
 /
 *
 *
+*
 A
 general
 purpose
@@ -857,6 +858,7 @@ prototype
 =
 {
 /
+*
 *
 *
 Construct
@@ -1092,6 +1094,7 @@ errorObj
 ;
 }
 /
+*
 *
 *
 *
@@ -1411,6 +1414,8 @@ now
 }
 /
 *
+*
+*
 A
 general
 method
@@ -1422,6 +1427,7 @@ calls
 authorized
 using
 HAWK
+.
 *
 *
 param

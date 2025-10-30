@@ -1124,6 +1124,7 @@ PreviewController
 /
 *
 *
+*
 This
 class
 manages
@@ -2314,6 +2315,7 @@ break
 /
 TabWindow
 /
+*
 *
 *
 This
