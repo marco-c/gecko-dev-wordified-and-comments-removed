@@ -35350,6 +35350,13 @@ GuardClassKind
 Array
 )
 ;
+writer
+.
+guardArrayIsPacked
+(
+objId
+)
+;
 }
 else
 {
