@@ -70,6 +70,12 @@ GMPLUGIN_PROCESSES_ONLY
 <
 <
 7
+RDD_PROCESSES_ONLY
+=
+1
+<
+<
+8
 }
 ;
 constexpr
