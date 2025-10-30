@@ -145,13 +145,6 @@ aAllowed
 =
 false
 ;
-#
-if
-!
-defined
-(
-ANDROID
-)
 JSContext
 *
 cx
@@ -191,8 +184,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 if
 (
 !
