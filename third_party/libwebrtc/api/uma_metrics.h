@@ -319,6 +319,9 @@ kDirection
 kRtcpMux
 =
 30
+kIceOptionsTrickle
+=
+31
 kRtpHeaderExtensionRemoved
 =
 40
