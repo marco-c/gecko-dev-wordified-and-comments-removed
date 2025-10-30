@@ -139,6 +139,18 @@ concept
 .
 engine
 .
+autofill
+.
+AddressStructureRuntime
+import
+mozilla
+.
+components
+.
+concept
+.
+engine
+.
 content
 .
 blocking
@@ -281,6 +293,7 @@ Engine
 WebExtensionRuntime
 TranslationsRuntime
 BrowserPreferencesRuntime
+AddressStructureRuntime
 DataCleanable
 {
 /
