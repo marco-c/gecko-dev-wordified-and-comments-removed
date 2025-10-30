@@ -816,6 +816,8 @@ JS
 Value
 >
 aReason
+bool
+aIsCalledFromNavigateFiringFailureSteps
 )
 ;
 MOZ_CAN_RUN_SCRIPT
