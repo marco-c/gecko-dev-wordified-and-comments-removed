@@ -302,15 +302,6 @@ TextUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Utf8
-.
-h
-"
 using
 namespace
 mozilla

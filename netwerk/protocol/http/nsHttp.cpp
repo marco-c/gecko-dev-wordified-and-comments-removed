@@ -40,15 +40,6 @@ include
 "
 mozilla
 /
-HashFunctions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 OriginAttributes
 .
 h

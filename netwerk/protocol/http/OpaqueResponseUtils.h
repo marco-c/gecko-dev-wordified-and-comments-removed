@@ -69,15 +69,6 @@ include
 "
 mozilla
 /
-Variant
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Logging
 .
 h

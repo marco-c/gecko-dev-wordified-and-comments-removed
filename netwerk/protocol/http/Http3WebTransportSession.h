@@ -30,15 +30,6 @@ include
 "
 mozilla
 /
-WeakPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 net
 /
 NeqoHttp3Conn

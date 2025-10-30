@@ -16,15 +16,6 @@ include
 "
 mozilla
 /
-RefPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPtr
 .
 h

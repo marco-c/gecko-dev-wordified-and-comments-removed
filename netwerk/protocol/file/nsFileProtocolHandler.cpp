@@ -59,15 +59,6 @@ include
 "
 mozilla
 /
-ResultExtensions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 net
 /
 NeckoCommon

@@ -47,15 +47,6 @@ include
 "
 mozilla
 /
-ScopeExit
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_network
 .
 h
