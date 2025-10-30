@@ -101,6 +101,15 @@ hack
 patch
 "
 "
+no
+-
+no
+-
+rosegment
+.
+patch
+"
+"
 compiler
 -
 rt
