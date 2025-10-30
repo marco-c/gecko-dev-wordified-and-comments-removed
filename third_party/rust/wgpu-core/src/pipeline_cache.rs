@@ -1724,6 +1724,14 @@ DeviceType
 :
 :
 Other
+device_pci_bus_id
+:
+String
+:
+:
+new
+(
+)
 driver
 :
 String

@@ -14594,6 +14594,9 @@ driver
 driver_info
 backend
 transient_saves_memory
+device_pci_bus_id
+:
+_
 }
 =
 global
