@@ -2829,9 +2829,9 @@ if
 (
 showButtonAfter
 )
-radioButton
-else
 EmptyListItemSlot
+else
+radioButton
 afterListItemAction
 =
 if
