@@ -101,6 +101,10 @@ const
 char
 *
 identifier
+bool
+startswith
+=
+false
 )
 ;
 bool
