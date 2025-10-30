@@ -113,6 +113,14 @@ ContextTarget
 from
 webdriver
 .
+bidi
+.
+undefined
+import
+UNDEFINED
+from
+webdriver
+.
 error
 import
 TimeoutException
@@ -3320,14 +3328,14 @@ create_user_context
 (
 accept_insecure_certs
 =
-None
+UNDEFINED
 proxy
 =
-None
+UNDEFINED
             
 unhandled_prompt_behavior
 =
-None
+UNDEFINED
 )
 :
         
