@@ -54,6 +54,7 @@ NativeFontResourceDWrite
 >
 Create
 (
+const
 uint8_t
 *
 aFontData

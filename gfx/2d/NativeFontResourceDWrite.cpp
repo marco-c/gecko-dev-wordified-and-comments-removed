@@ -278,6 +278,7 @@ aFontFileKey
 bool
 Initialize
 (
+const
 uint8_t
 *
 aData
@@ -659,6 +660,7 @@ DWriteFontFileStream
 :
 Initialize
 (
+const
 uint8_t
 *
 aData
@@ -828,6 +830,7 @@ NativeFontResourceDWrite
 :
 Create
 (
+const
 uint8_t
 *
 aFontData

@@ -7788,6 +7788,7 @@ NativeFontResource
 >
 CreateNativeFontResource
 (
+const
 uint8_t
 *
 aData

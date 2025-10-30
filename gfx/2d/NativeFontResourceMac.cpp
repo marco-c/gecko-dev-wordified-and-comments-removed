@@ -380,6 +380,7 @@ NativeFontResourceMac
 :
 Create
 (
+const
 uint8_t
 *
 aFontData

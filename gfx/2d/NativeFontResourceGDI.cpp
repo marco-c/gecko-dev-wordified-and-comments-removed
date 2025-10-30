@@ -50,6 +50,7 @@ NativeFontResourceGDI
 :
 Create
 (
+const
 uint8_t
 *
 aFontData
@@ -67,6 +68,9 @@ fontResourceHandle
 :
 AddFontMemResourceEx
 (
+(
+PVOID
+)
 aFontData
 aDataLength
 0

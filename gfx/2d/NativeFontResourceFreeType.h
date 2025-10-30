@@ -63,6 +63,7 @@ NativeFontResourceFreeType
 >
 Create
 (
+const
 uint8_t
 *
 aFontData
@@ -144,6 +145,7 @@ T
 >
 CreateInternal
 (
+const
 uint8_t
 *
 aFontData
@@ -193,6 +195,7 @@ NativeFontResourceFontconfig
 >
 Create
 (
+const
 uint8_t
 *
 aFontData

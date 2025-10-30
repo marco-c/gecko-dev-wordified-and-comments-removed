@@ -2893,6 +2893,7 @@ Factory
 :
 CreateNativeFontResource
 (
+const
 uint8_t
 *
 aData
