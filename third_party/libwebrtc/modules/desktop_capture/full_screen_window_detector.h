@@ -228,6 +228,8 @@ DesktopCapturer
 :
 SourceId
 source_id
+bool
+fullscreen_slide_show_started_after_capture_start
 )
 ;
 protected

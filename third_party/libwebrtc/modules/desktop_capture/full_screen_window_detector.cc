@@ -443,6 +443,8 @@ DesktopCapturer
 :
 SourceId
 source_id
+bool
+fullscreen_slide_show_started_after_capture_start
 )
 {
 if
@@ -470,6 +472,14 @@ FullScreenPowerPointHandler
 >
 (
 source_id
+)
+;
+app_handler_
+-
+>
+SetSlideShowCreationStateForTest
+(
+fullscreen_slide_show_started_after_capture_start
 )
 ;
 #

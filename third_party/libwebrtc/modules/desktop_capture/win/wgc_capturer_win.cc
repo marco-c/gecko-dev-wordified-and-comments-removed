@@ -2282,6 +2282,8 @@ DesktopCapturer
 :
 SourceId
 source_id
+bool
+fullscreen_slide_show_started_after_capture_start
 )
 {
 if
@@ -2304,6 +2306,7 @@ full_screen_window_detector_
 CreateFullScreenApplicationHandlerForTest
 (
 source_id
+fullscreen_slide_show_started_after_capture_start
 )
 ;
 }
