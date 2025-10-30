@@ -803,6 +803,7 @@ lazy
 extractTextFromDOM
 (
 document
+options
 )
 ;
 lazy
