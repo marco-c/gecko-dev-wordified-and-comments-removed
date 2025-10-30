@@ -6410,7 +6410,7 @@ i
 ;
 }
 }
-void
+bool
 DataChannelConnectionUsrsctp
 :
 :
@@ -6484,6 +6484,7 @@ reset
 )
 ;
 return
+false
 ;
 }
 const
@@ -6635,6 +6636,16 @@ free
 (
 srs
 )
+;
+return
+aStreams
+.
+Length
+(
+)
+=
+=
+0
 ;
 }
 void

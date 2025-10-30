@@ -122,7 +122,7 @@ aPacket
 )
 override
 ;
-void
+bool
 ResetStreams
 (
 nsTArray

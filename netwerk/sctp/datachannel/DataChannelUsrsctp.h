@@ -188,7 +188,7 @@ packet
 )
 override
 ;
-void
+bool
 ResetStreams
 (
 nsTArray
@@ -509,6 +509,12 @@ nsTArray
 OutgoingMsg
 >
 mBufferedControl
+;
+Maybe
+<
+IncomingMsg
+>
+mRecvBuffer
 ;
 nsTArray
 <

@@ -936,7 +936,7 @@ packet
 0
 ;
 virtual
-void
+bool
 ResetStreams
 (
 nsTArray
