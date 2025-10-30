@@ -4554,7 +4554,7 @@ os_version
 '
 &
 &
-debug
+ccov
 "
         
 bug
@@ -4567,21 +4567,26 @@ Bug
 (
 additional_comment
 carryover
+bug_reference
 )
 =
+(
+            
 manifestparser
 .
 toml
 .
 add_skip_if
 (
-            
+                
 manifest
 filename
 condition
 bug
 None
 True
+            
+)
         
 )
         
@@ -4591,6 +4596,19 @@ additional_comment
         
 assert
 carryover
+        
+assert
+bug_reference
+=
+=
+"
+Bug
+100
+will
+be
+carried
+over
+"
         
 filename
 =

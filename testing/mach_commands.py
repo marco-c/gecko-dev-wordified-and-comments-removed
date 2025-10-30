@@ -1462,9 +1462,7 @@ not
 None
 :
             
-editor
-=
-editor
+pass
         
 elif
 "
@@ -1547,23 +1545,21 @@ subprocess
 .
 Popen
 (
+f
 "
-%
-s
-%
-s
-"
-%
-(
+{
 editor
-"
-"
+}
+{
+'
+'
 .
 join
 (
 paths
 )
-)
+}
+"
 shell
 =
 True
@@ -1946,10 +1942,7 @@ guessed_suite
 xpcshell
 "
     
-else
-:
-        
-if
+elif
 filename
 .
 startswith
@@ -1965,7 +1958,7 @@ or
 has_browser_toml
 )
 :
-            
+        
 guessed_suite
 =
 "
@@ -1975,7 +1968,7 @@ browser
 -
 chrome
 "
-        
+    
 elif
 filename
 .
@@ -1986,7 +1979,7 @@ test_
 "
 )
 :
-            
+        
 if
 (
 has_chrome_ini
@@ -1995,18 +1988,16 @@ has_chrome_toml
 )
 and
 (
-                
 has_plain_ini
 or
 has_plain_toml
-            
 )
 :
-                
+            
 err
 =
 (
-                    
+                
 "
 Error
 :
@@ -2016,22 +2007,14 @@ both
 a
 chrome
 .
-{
-ini
-|
 toml
-}
 and
 mochitest
 .
-{
-ini
-|
 toml
-}
 .
 "
-                    
+                
 "
 Please
 set
@@ -2052,15 +2035,15 @@ mochitest
 plain
 .
 "
-                
-)
             
+)
+    
 elif
 has_chrome_ini
 or
 has_chrome_toml
 :
-                
+        
 guessed_suite
 =
 "
@@ -2068,13 +2051,13 @@ mochitest
 -
 chrome
 "
-            
+    
 elif
 has_plain_ini
 or
 has_plain_toml
 :
-                
+        
 guessed_suite
 =
 "
@@ -3477,6 +3460,7 @@ log
 .
 error
 (
+f
 "
 Caught
 exception
@@ -3485,14 +3469,13 @@ cpp
 unit
 tests
 :
-%
-s
-"
-%
+{
 str
 (
 e
 )
+}
+"
 )
         
 result
@@ -3716,6 +3699,7 @@ log
 .
 error
 (
+f
 "
 Caught
 exception
@@ -3724,14 +3708,13 @@ cpp
 unit
 tests
 :
-%
-s
-"
-%
+{
 str
 (
 e
 )
+}
+"
 )
         
 result
@@ -6348,8 +6331,7 @@ return
     
 url
 =
-(
-        
+f
 "
 https
 :
@@ -6372,14 +6354,10 @@ depends_on
 &
 id
 =
-%
-s
-"
-        
-%
+{
 bugid
-    
-)
+}
+"
     
 r
 =
@@ -6422,23 +6400,21 @@ status_code
         
 print
 (
+f
 "
-%
-s
+{
+r
+.
+status_code
+}
 error
 retrieving
 url
 :
-%
-s
-"
-%
-(
-r
-.
-status_code
+{
 url
-)
+}
+"
 )
     
 data
@@ -6456,6 +6432,7 @@ data
         
 print
 (
+f
 "
 unable
 to
@@ -6463,11 +6440,10 @@ get
 bugzilla
 information
 for
-%
-s
-"
-%
+{
 bugid
+}
+"
 )
         
 return
@@ -6634,17 +6610,20 @@ failuresbybug
 url
 +
 =
+f
 "
 ?
 startday
 =
-%
-s
+{
+start
+}
 &
 endday
 =
-%
-s
+{
+end
+}
 &
 tree
 =
@@ -6652,15 +6631,10 @@ trunk
 &
 bug
 =
-%
-s
-"
-%
-(
-start
-end
+{
 b
-)
+}
+"
         
 r
 =
@@ -6843,21 +6817,25 @@ text
 print
 (
         
+f
 "
 \
 nQuerying
 data
 for
 bug
-%
-s
+{
+buglist
+}
 annotated
 from
-%
-s
+{
+start
+}
 to
-%
-s
+{
+end
+}
 on
 trunk
 .
@@ -6866,13 +6844,6 @@ n
 \
 n
 "
-        
-%
-(
-buglist
-start
-end
-)
     
 )
     
@@ -6894,28 +6865,26 @@ data
         
 config
 =
+f
 "
-%
-s
-/
-%
-s
-"
-%
-(
+{
 failure
 [
-"
+'
 platform
-"
+'
 ]
+}
+/
+{
 failure
 [
-"
+'
 build_type
-"
+'
 ]
-)
+}
+"
         
 variant
 =
@@ -6951,21 +6920,21 @@ keys
             
 var
 =
+f
 "
 -
-%
-s
-"
-%
+{
 variants
 [
 v
 ]
 [
-"
+'
 suffix
-"
+'
 ]
+}
+"
             
 if
 var
@@ -7079,6 +7048,7 @@ suite
             
 print
 (
+f
 "
 Error
 :
@@ -7087,35 +7057,32 @@ to
 find
 variant
 in
-%
-s
-"
-%
+{
 failure
 [
-"
+'
 test_suite
-"
+'
 ]
+}
+"
 )
         
 job
 =
+f
 "
-%
-s
--
-%
-s
-%
-s
-"
-%
-(
+{
 config
+}
+-
+{
 suite
+}
+{
 variant
-)
+}
+"
         
 if
 job
@@ -7190,19 +7157,19 @@ UNEXPECTED
             
 l
 =
+f
 "
 TEST
 -
 UNEXPECTED
-%
-s
-"
-%
+{
 parts
 [
 -
 1
 ]
+}
+"
             
 parts
 =
@@ -7215,21 +7182,13 @@ testname
             
 l
 =
-"
-%
-s
-%
-s
-%
-s
-"
-%
-(
 parts
 [
 0
 ]
++
 testname
++
 parts
 [
 1
@@ -7238,7 +7197,6 @@ parts
 :
 25
 ]
-)
             
 hvalue
 +
@@ -7331,15 +7289,9 @@ keys
         
 print
 (
+f
 "
-%
-s
-errors
-with
-:
-"
-%
-(
+{
 len
 (
 lines
@@ -7347,17 +7299,20 @@ lines
 h
 ]
 [
-"
+'
 config
-"
+'
 ]
 )
-)
+}
+errors
+with
+:
+"
 )
         
-for
-l
-in
+failure_lines
+=
 lines
 [
 h
@@ -7367,8 +7322,22 @@ h
 lines
 "
 ]
+        
+if
+len
+(
+failure_lines
+)
+>
+0
 :
             
+for
+l
+in
+failure_lines
+:
+                
 print
 (
 l
@@ -7452,18 +7421,16 @@ count
                 
 print
 (
+f
 "
-%
-s
-:
-%
-s
-"
-%
-(
+{
 job
+}
+:
+{
 count
-)
+}
+"
 )
         
 print
@@ -8390,6 +8357,44 @@ CommandArgument
     
 "
 -
+k
+"
+    
+"
+-
+-
+known
+-
+intermittents
+"
+    
+action
+=
+"
+store_true
+"
+    
+help
+=
+"
+Set
+known
+intermittents
+mode
+(
+only
+skip
+failures
+known
+intermittents
+)
+"
+)
+CommandArgument
+(
+    
+"
+-
 M
 "
     
@@ -8751,6 +8756,10 @@ failure_ratio
 clear_cache
 =
 None
+    
+known_intermittents
+=
+False
 )
 :
     
@@ -8804,6 +8813,8 @@ max_failures
 carryover
         
 failure_ratio
+        
+known_intermittents
     
 )
 SubCommand

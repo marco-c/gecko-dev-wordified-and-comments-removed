@@ -1387,15 +1387,8 @@ keys
 )
 )
         
-test_variant
+variants
 =
-"
-+
-"
-.
-join
-(
-            
 [
 v
 for
@@ -1417,6 +1410,21 @@ if
 v
 ]
         
+variants
+.
+sort
+(
+)
+        
+test_variant
+=
+"
++
+"
+.
+join
+(
+variants
 )
         
 if

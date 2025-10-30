@@ -90,12 +90,13 @@ str
 OptStr
 ]
 ]
-TupleStrBool
+TupleStrBoolStr
 =
 Tuple
 [
 str
 bool
+str
 ]
 FILENAME_REGEX
 =
@@ -2955,7 +2956,7 @@ False
 )
 -
 >
-TupleStrBool
+TupleStrBoolStr
 :
     
 "
@@ -3887,6 +3888,7 @@ return
 (
 additional_comment
 carryover
+bug_reference
 )
 def
 _should_remove_condition

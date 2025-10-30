@@ -118,7 +118,7 @@ android
 '
 &
 &
-debug
+asan
 "
 #
 Bug
@@ -144,7 +144,7 @@ os_version
 '
 &
 &
-debug
+ccov
 "
 #
 Bug

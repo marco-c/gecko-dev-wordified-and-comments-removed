@@ -49,6 +49,9 @@ fuzzy
 if
 (
 gtkWidget
+&
+&
+optimized
 0
 -
 70
