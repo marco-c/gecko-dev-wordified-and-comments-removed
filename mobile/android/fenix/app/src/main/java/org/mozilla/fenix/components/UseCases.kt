@@ -692,6 +692,9 @@ DownloadsUseCases
 store
 .
 value
+context
+.
+applicationContext
 )
 }
 val

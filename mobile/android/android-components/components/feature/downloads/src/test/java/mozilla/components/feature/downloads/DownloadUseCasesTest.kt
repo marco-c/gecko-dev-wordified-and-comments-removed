@@ -147,6 +147,9 @@ useCases
 DownloadsUseCases
 (
 store
+mock
+(
+)
 )
 useCases
 .
@@ -199,6 +202,9 @@ useCases
 DownloadsUseCases
 (
 store
+mock
+(
+)
 )
 useCases
 .
@@ -237,6 +243,9 @@ useCases
 DownloadsUseCases
 (
 store
+mock
+(
+)
 )
 useCases
 .
@@ -283,6 +292,9 @@ useCases
 DownloadsUseCases
 (
 store
+mock
+(
+)
 )
 useCases
 .

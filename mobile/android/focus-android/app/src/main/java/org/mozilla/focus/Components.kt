@@ -1817,6 +1817,9 @@ lazy
 DownloadsUseCases
 (
 store
+context
+.
+applicationContext
 )
 }
 val

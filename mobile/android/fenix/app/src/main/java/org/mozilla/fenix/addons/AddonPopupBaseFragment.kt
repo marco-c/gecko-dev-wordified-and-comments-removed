@@ -847,8 +847,10 @@ customFirstPartyDownloadDialog
 {
 filename
 contentSize
+_
 positiveAction
 negativeAction
+_
 -
 >
 run
