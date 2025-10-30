@@ -3513,6 +3513,7 @@ JSObject
 *
 JSObject
 *
+ZoneAllocPolicy
 >
 ;
 ProxiedEnvironmentsMap
