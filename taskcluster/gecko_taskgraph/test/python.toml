@@ -8,6 +8,13 @@ taskgraph
 "
 [
 "
+test_actions
+.
+py
+"
+]
+[
+"
 test_actions_util
 .
 py
