@@ -273,6 +273,13 @@ js
 ]
 [
 "
+test_quicksuggest_migrate_v6
+.
+js
+"
+]
+[
+"
 test_quicksuggest_relevanceRanking
 .
 js
