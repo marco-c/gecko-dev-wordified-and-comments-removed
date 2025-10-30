@@ -313,9 +313,7 @@ some_header_name
 =
 =
 [
-        
 "
-some_header_value_1
 some_header_value_2
 "
 ]
