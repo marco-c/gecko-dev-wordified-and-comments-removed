@@ -5072,9 +5072,6 @@ incumbentGlobalJS
 if
 (
 incumbentGlobal
-&
-&
-schedulingState
 )
 {
 incumbentGlobal
@@ -5138,9 +5135,6 @@ task
 if
 (
 incumbentGlobal
-&
-&
-schedulingState
 )
 {
 incumbentGlobal
