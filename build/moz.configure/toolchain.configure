@@ -15039,6 +15039,15 @@ D_LIBCPP_ENABLE_ASSERTIONS
 ]
 if
 debug
+and
+enabled
+.
+origin
+=
+=
+"
+default
+"
 :
 return
 die
