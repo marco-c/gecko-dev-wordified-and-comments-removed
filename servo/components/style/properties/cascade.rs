@@ -345,6 +345,7 @@ first_line_reparenting
 FirstLineReparenting
 try_tactic
 :
+&
 PositionTryFallbacksTryTactic
 visited_rules
 :
@@ -936,6 +937,7 @@ first_line_reparenting
 FirstLineReparenting
 try_tactic
 :
+&
 PositionTryFallbacksTryTactic
 cascade_mode
 :
@@ -1265,6 +1267,9 @@ a
 >
 try_tactic
 :
+&
+'
+a
 PositionTryFallbacksTryTactic
 cascade_mode
 :
@@ -2717,6 +2722,9 @@ b
 >
 try_tactic
 :
+&
+'
+b
 PositionTryFallbacksTryTactic
 ignore_colors
 :
@@ -2767,6 +2775,9 @@ b
 >
 try_tactic
 :
+&
+'
+b
 PositionTryFallbacksTryTactic
 ignore_colors
 :

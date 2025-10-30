@@ -5302,6 +5302,7 @@ FirstLineReparenting
 :
 :
 No
+&
 PositionTryFallbacksTryTactic
 :
 :
@@ -5591,6 +5592,7 @@ FirstLineReparenting
 :
 :
 No
+&
 name_and_try_tactic
 .
 try_tactic
@@ -5656,6 +5658,7 @@ first_line_reparenting
 FirstLineReparenting
 try_tactic
 :
+&
 PositionTryFallbacksTryTactic
 rule_cache
 :
@@ -7609,6 +7612,7 @@ FirstLineReparenting
 :
 :
 No
+&
 PositionTryFallbacksTryTactic
 :
 :

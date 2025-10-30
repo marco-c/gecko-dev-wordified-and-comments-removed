@@ -252,9 +252,6 @@ mMap
 struct
 StylePositionArea
 ;
-struct
-StylePositionTryFallbacksTryTactic
-;
 class
 WritingMode
 ;
