@@ -49,7 +49,7 @@ mjs
 const
 EMBEDDING_SIZE
 =
-16
+32
 ;
 function
 approxEqual
@@ -140,9 +140,6 @@ texts
 request
 .
 args
-[
-0
-]
 ;
 return
 texts

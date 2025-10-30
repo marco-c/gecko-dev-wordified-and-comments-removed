@@ -357,9 +357,6 @@ return
 getPlacesSemanticHistoryManager
 (
 {
-embeddingSize
-:
-384
 rowLimit
 :
 10000
