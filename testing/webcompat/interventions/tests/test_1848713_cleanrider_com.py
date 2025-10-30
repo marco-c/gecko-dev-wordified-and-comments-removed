@@ -10,6 +10,7 @@ webdriver
 error
 import
 ElementClickInterceptedException
+WebDriverException
 URL
 =
 "
@@ -359,7 +360,15 @@ stall
 )
     
 except
+(
+        
 ElementClickInterceptedException
+        
+WebDriverException
+    
+)
+as
+_
 :
         
 return

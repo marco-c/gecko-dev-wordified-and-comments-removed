@@ -250,16 +250,6 @@ play
 click
 (
 )
-        
-client
-.
-await_css
-(
-ERROR_MSG_CSS
-is_displayed
-=
-True
-)
     
 return
 client

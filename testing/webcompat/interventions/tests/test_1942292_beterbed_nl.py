@@ -36,10 +36,6 @@ CONTAINER_CSS
 =
 "
 .
-top
--
-navigation__items
-.
 slider
 -
 content

@@ -123,6 +123,8 @@ promise_navigation_begins
 url
 =
 "
+www
+.
 microsoft
 "
 timeout

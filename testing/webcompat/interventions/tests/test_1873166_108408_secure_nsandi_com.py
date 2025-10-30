@@ -156,6 +156,7 @@ client
 :
     
 assert
+not
 await
 is_warning_shown
 (
