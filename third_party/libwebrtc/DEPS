@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-4fbad1b0a6e4c021b918f5a79b94affc71c50ff1
+b3cdab0b8c38ced7e5765e1524e9ef03bf2cfebe
 '
 #
 Fetch
@@ -414,7 +414,7 @@ siso_version
 '
 git_revision
 :
-33e71490533f445467879650036b6af7940455f3
+e5fa67c5a456c1ab932f440ddfb195a8a33c235b
 '
 #
 ninja
@@ -582,7 +582,7 @@ chromium
 src
 /
 buildtools
-32930ef3a1e39597109026d7612e1c57317daf4e
+9c179c04d33f8a6efd026d25e2253f7cc40567cf
 '
 #
 Gradle
@@ -678,7 +678,7 @@ chromium
 src
 /
 ios
-5f5e3fcba99c51a9a0503eb82c5f10c250ed4560
+137d1be3b680c136ddff6f438f98584c6e17d74b
 '
 '
 condition
@@ -710,7 +710,7 @@ chromium
 src
 /
 testing
-14d4081110dbd340dfccbe843178a25e31c05bbd
+84048c4034291d0ff36689b093c5836ca02c400e
 '
 '
 src
@@ -734,7 +734,7 @@ chromium
 src
 /
 third_party
-1ee57fa9fda653c6e5bdb9c9f24d111717bae78f
+8845b1b426f5e074fd10d968793ca1d85818084d
 '
 '
 src
@@ -2863,7 +2863,7 @@ compiler
 rt
 .
 git
-f6df13f71224eb80e35d67e67cfbfa4fb00831b9
+2396bb92b4c76ab74e11474ac7ed1b13b292f6e7
 '
 '
 src
@@ -2984,7 +2984,7 @@ project
 libc
 .
 git
-dd12cc11284e7845727f333a4a0c5274c161c541
+f24be5deb774fae412aae70877b47fa6fcf19d28
 '
 '
 src
@@ -4083,7 +4083,7 @@ grpc
 grpc
 .
 git
-fb5d207970974ee7769adc669da39885b6801463
+ebc75cba0e4d40af2290caf9c00c8beccc750303
 '
 }
 #
@@ -5587,7 +5587,7 @@ chromium
 src
 /
 tools
-414d24b13dd1b5408153d34dcbb9b4ca49e0218f
+4617ab8b7fdc566a8a6cf936b3194784bcad812e
 '
 '
 src
