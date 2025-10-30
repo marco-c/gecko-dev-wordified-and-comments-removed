@@ -2200,7 +2200,7 @@ font
 -
 weight
 -
-semibold
+bold
 )
 ;
 color
@@ -2398,11 +2398,11 @@ var
 (
 -
 -
-heading
--
 font
 -
 weight
+-
+bold
 )
 ;
 }

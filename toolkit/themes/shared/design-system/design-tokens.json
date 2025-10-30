@@ -2643,7 +2643,7 @@ font
 .
 weight
 .
-semibold
+bold
 }
 "
 }
@@ -7056,17 +7056,6 @@ normal
 "
 }
 "
-semibold
-"
-:
-{
-"
-value
-"
-:
-600
-}
-"
 bold
 "
 :
@@ -7075,7 +7064,7 @@ bold
 value
 "
 :
-700
+600
 }
 }
 }
@@ -7167,7 +7156,7 @@ font
 .
 weight
 .
-semibold
+bold
 }
 "
 }
