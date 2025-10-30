@@ -4127,6 +4127,9 @@ operands
 input
 :
 Int64
+defer_init
+:
+true
 #
 Negative
 of
