@@ -325,7 +325,7 @@ writeStreaming
 kTestPrompt
 )
 ;
-gc
+garbageCollect
 (
 )
 ;
@@ -369,7 +369,7 @@ result
 =
 value
 ;
-gc
+garbageCollect
 (
 )
 ;

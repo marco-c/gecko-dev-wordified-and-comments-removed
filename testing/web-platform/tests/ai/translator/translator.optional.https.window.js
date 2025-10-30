@@ -341,7 +341,7 @@ hello
 '
 )
 ;
-gc
+garbageCollect
 (
 )
 ;
@@ -385,7 +385,7 @@ result
 =
 value
 ;
-gc
+garbageCollect
 (
 )
 ;

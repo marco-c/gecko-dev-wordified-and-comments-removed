@@ -318,7 +318,7 @@ summarizeStreaming
 kTestPrompt
 )
 ;
-gc
+garbageCollect
 (
 )
 ;
@@ -362,7 +362,7 @@ result
 =
 value
 ;
-gc
+garbageCollect
 (
 )
 ;
