@@ -5200,7 +5200,7 @@ flags
 }
 ;
 }
-StyleAlignSelf
+StyleSelfAlignment
 usedAlignSelf
 =
 aFlexItem

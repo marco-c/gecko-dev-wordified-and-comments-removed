@@ -1115,13 +1115,13 @@ Content
 ContentItem
 "
 "
-AlignSelf
+ContentDistribution
 "
 "
-JustifySelf
+SelfAlignment
 "
 "
-AlignItems
+ItemPlacement
 "
 "
 ComputedJustifyItems

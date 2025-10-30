@@ -3471,8 +3471,6 @@ old_justify_items
 .
 computed
 .
-0
-.
 contains
 (
 AlignFlags
@@ -3487,8 +3485,6 @@ is_legacy_justify_items
 new_justify_items
 .
 computed
-.
-0
 .
 contains
 (

@@ -34204,7 +34204,7 @@ shouldStretch
 [
 ]
 (
-StyleSelfAlignment
+StyleAlignFlags
 aAlignment
 const
 nsIFrame
@@ -34232,7 +34232,7 @@ aAlignment
 &
 =
 ~
-StyleSelfAlignment
+StyleAlignFlags
 :
 :
 FLAG_BITS
@@ -34242,7 +34242,7 @@ if
 aAlignment
 =
 =
-StyleSelfAlignment
+StyleAlignFlags
 :
 :
 STRETCH
@@ -34257,7 +34257,7 @@ if
 aAlignment
 =
 =
-StyleSelfAlignment
+StyleAlignFlags
 :
 :
 NORMAL
@@ -34325,8 +34325,6 @@ UsedAlignSelf
 (
 nullptr
 )
-.
-_0
 :
 stylePos
 -
@@ -34335,8 +34333,6 @@ UsedJustifySelf
 (
 nullptr
 )
-.
-_0
 ;
 const
 auto
@@ -34356,8 +34352,6 @@ UsedJustifySelf
 (
 nullptr
 )
-.
-_0
 :
 stylePos
 -
@@ -34366,8 +34360,6 @@ UsedAlignSelf
 (
 nullptr
 )
-.
-_0
 ;
 const
 auto
@@ -34376,6 +34368,8 @@ iShouldStretch
 shouldStretch
 (
 inlineAlignSelf
+.
+_0
 this
 iStartOffsetIsAuto
 iEndOffsetIsAuto
@@ -34388,6 +34382,8 @@ bShouldStretch
 shouldStretch
 (
 blockAlignSelf
+.
+_0
 this
 bStartOffsetIsAuto
 bEndOffsetIsAuto

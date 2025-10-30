@@ -6813,7 +6813,7 @@ mContainIntrinsicHeight
 mContainIntrinsicWidth
 ;
 }
-StyleAlignSelf
+StyleSelfAlignment
 nsStylePosition
 :
 :
@@ -6908,7 +6908,7 @@ NORMAL
 }
 ;
 }
-StyleJustifySelf
+StyleSelfAlignment
 nsStylePosition
 :
 :
@@ -6962,6 +6962,8 @@ StylePosition
 mJustifyItems
 .
 computed
+.
+_0
 ;
 return
 {
