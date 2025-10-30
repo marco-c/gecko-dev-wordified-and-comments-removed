@@ -875,7 +875,11 @@ elapsed_sec
 metrics
 :
 :
-kMinRunTimeInSeconds
+kMinRunTime
+.
+seconds
+(
+)
 )
 {
 int64_t

@@ -290,16 +290,12 @@ first_packet_time
 if
 (
 elapsed
-.
-seconds
-(
-)
 >
 =
 metrics
 :
 :
-kMinRunTimeInSeconds
+kMinRunTime
 )
 {
 if

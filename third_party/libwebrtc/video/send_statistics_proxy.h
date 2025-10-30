@@ -1399,8 +1399,8 @@ mutex_
 )
 ;
 const
-int64_t
-start_ms_
+Timestamp
+start_
 ;
 VideoSendStream
 :

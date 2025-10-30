@@ -3481,15 +3481,11 @@ first_sent_packet_time_
 if
 (
 elapsed
-.
-seconds
-(
-)
 <
 metrics
 :
 :
-kMinRunTimeInSeconds
+kMinRunTime
 )
 return
 ;

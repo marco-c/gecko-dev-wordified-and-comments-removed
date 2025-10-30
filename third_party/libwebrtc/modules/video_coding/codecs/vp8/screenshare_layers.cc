@@ -3133,7 +3133,11 @@ duration_sec
 metrics
 :
 :
-kMinRunTimeInSeconds
+kMinRunTime
+.
+seconds
+(
+)
 )
 {
 RTC_HISTOGRAM_COUNTS_10000

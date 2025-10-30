@@ -2936,7 +2936,11 @@ kTimestampDelta5Fps
 metrics
 :
 :
-kMinRunTimeInSeconds
+kMinRunTime
+.
+seconds
+(
+)
 ;
 timestamp
 +
