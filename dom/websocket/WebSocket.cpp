@@ -1280,6 +1280,12 @@ nsIPrincipal
 >
 mLoadingPrincipal
 ;
+Maybe
+<
+ClientInfo
+>
+mClientInfo
+;
 RefPtr
 <
 WebSocketImplProxy
@@ -7362,6 +7368,10 @@ mIsServerSide
 =
 aIsServerSide
 ;
+mClientInfo
+=
+aClientInfo
+;
 if
 (
 aCx
@@ -8483,6 +8493,7 @@ nsIContentPolicy
 :
 :
 TYPE_WEBSOCKET
+mClientInfo
 0
 )
 ;
