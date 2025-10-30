@@ -99,15 +99,6 @@ LDefinition
 def
 )
 ;
-Operand
-ToOperandOrRegister64
-(
-const
-LInt64Allocation
-&
-input
-)
-;
 MoveOperand
 toMoveOperand
 (
