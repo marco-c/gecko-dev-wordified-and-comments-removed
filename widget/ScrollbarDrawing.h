@@ -230,15 +230,6 @@ ComputedStyle
 aStyle
 )
 ;
-static
-bool
-IsScrollbarWidthThin
-(
-nsIFrame
-*
-aFrame
-)
-;
 CSSIntCoord
 GetCSSScrollbarSize
 (

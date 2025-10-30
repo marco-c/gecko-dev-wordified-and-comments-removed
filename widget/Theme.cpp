@@ -7825,18 +7825,6 @@ ScrollbarbuttonRight
 :
 {
 if
-(
-!
-ScrollbarDrawing
-:
-:
-IsScrollbarWidthThin
-(
-aFrame
-)
-)
-{
-if
 constexpr
 (
 std
@@ -7908,7 +7896,6 @@ colors
 dpiRatio
 )
 ;
-}
 }
 break
 ;
