@@ -715,4 +715,14 @@ issues
 enable_js_protobuf
 =
 false
+#
+Use
+Siso
+instead
+of
+Ninja
+.
+use_siso
+=
+true
 }
