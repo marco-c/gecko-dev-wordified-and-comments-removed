@@ -291,6 +291,13 @@ html
 ]
 [
 "
+test_moz_page_header
+.
+html
+"
+]
+[
+"
 test_moz_page_nav
 .
 html
