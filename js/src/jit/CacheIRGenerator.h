@@ -2144,6 +2144,11 @@ lhsVal_
 HandleObject
 rhsObj_
 ;
+AttachDecision
+tryAttachFunction
+(
+)
+;
 void
 trackAttached
 (
