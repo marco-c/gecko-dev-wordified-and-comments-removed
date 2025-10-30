@@ -462,6 +462,12 @@ tabs
 "
 browser
 .
+theme
+.
+"
+"
+browser
+.
 toolbars
 .
 "
