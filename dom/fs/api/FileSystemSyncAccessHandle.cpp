@@ -792,9 +792,9 @@ IsOpen
 )
 )
 {
-Unused
-<
-<
+(
+void
+)
 result
 -
 >
@@ -891,9 +891,9 @@ IsOpen
 )
 )
 {
-Unused
-<
-<
+(
+void
+)
 tmp
 -
 >

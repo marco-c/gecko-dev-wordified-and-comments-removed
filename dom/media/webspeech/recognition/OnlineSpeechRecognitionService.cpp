@@ -1231,9 +1231,9 @@ rv
 )
 )
 ;
-Unused
-<
-<
+(
+void
+)
 rv
 ;
 }
@@ -2372,9 +2372,9 @@ rv
 )
 )
 ;
-Unused
-<
-<
+(
+void
+)
 rv
 ;
 mEncodeTaskQueue

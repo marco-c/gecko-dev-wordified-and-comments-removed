@@ -6442,9 +6442,9 @@ imgIContainer
 FLAG_SYNC_DECODE
 )
 ;
-Unused
-<
-<
+(
+void
+)
 surface
 ;
 return

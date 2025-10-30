@@ -126,9 +126,9 @@ ClearAndRetainStorage
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 mLengths
 .
 AppendElements

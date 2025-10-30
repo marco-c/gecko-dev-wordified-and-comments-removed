@@ -504,9 +504,9 @@ MOZ_ASSERT
 dest
 )
 ;
-Unused
-<
-<
+(
+void
+)
 result
 .
 InsertOrUpdate

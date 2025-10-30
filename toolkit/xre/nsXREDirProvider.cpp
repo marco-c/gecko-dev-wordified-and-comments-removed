@@ -3413,12 +3413,9 @@ token
 )
 )
 {
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 token
 -
 >

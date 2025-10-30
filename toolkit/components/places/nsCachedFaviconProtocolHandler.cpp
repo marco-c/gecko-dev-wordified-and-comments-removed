@@ -228,9 +228,9 @@ rv
 rv
 )
 ;
-Unused
-<
-<
+(
+void
+)
 (
 *
 aChannel
@@ -245,9 +245,9 @@ FAVICON_DEFAULT_MIMETYPE
 )
 )
 ;
-Unused
-<
-<
+(
+void
+)
 aOriginalChannel
 -
 >

@@ -3628,9 +3628,9 @@ if
 mMouseDownOrUpConsumedByIME
 )
 {
-Unused
-<
-<
+(
+void
+)
 EnsureCommitComposition
 (
 )

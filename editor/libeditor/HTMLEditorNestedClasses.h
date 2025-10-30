@@ -6294,9 +6294,9 @@ Run
 (
 )
 {
-Unused
-<
-<
+(
+void
+)
 MOZ_KnownLive
 (
 mHTMLEditor

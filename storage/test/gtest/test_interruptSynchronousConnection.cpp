@@ -90,12 +90,9 @@ TearDown
 )
 override
 {
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 mConnection
 -
 >

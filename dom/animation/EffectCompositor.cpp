@@ -4239,9 +4239,9 @@ NonOwningAnimationTarget
 aTarget
 )
 {
-Unused
-<
-<
+(
+void
+)
 mElementsToReduce
 .
 put

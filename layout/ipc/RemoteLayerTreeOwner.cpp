@@ -601,9 +601,9 @@ OwnerContentChanged
 (
 )
 {
-Unused
-<
-<
+(
+void
+)
 AttachWindowRenderer
 (
 )

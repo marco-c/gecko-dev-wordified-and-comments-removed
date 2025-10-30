@@ -264,9 +264,9 @@ aData
 CryptoOperationData
 dummy
 ;
-Unused
-<
-<
+(
+void
+)
 dummy
 .
 SetAsArrayBuffer

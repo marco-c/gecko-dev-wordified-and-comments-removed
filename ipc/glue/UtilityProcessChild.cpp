@@ -1116,9 +1116,9 @@ MemoryReport
 aReport
 )
 {
-Unused
-<
-<
+(
+void
+)
 GetSingleton
 (
 )

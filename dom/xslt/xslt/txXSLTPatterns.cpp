@@ -80,12 +80,6 @@ using
 mozilla
 :
 :
-Unused
-;
-using
-mozilla
-:
-:
 WrapUnique
 ;
 double
@@ -839,9 +833,9 @@ mSteps
 aPos
 ]
 ;
-Unused
-<
-<
+(
+void
+)
 step
 -
 >

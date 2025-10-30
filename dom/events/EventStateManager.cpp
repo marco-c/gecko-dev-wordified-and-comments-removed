@@ -9863,9 +9863,9 @@ oldRemote
 remote
 )
 {
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 nsContentUtils
@@ -32104,9 +32104,9 @@ aEvent
 mOnlyEnabledCheck
 )
 {
-Unused
-<
-<
+(
+void
+)
 remote
 -
 >

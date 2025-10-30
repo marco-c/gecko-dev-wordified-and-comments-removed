@@ -810,9 +810,9 @@ loadType
 =
 0
 ;
-Unused
-<
-<
+(
+void
+)
 aWebProgress
 -
 >
@@ -1078,9 +1078,9 @@ IsContent
 nsCString
 url
 ;
-Unused
-<
-<
+(
+void
+)
 aProps
 -
 >

@@ -1234,9 +1234,9 @@ if
 shouldMonitorKeys
 )
 {
-Unused
-<
-<
+(
+void
+)
 StartMonitoringControlKeys
 (
 )

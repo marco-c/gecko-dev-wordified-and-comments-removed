@@ -145,9 +145,9 @@ GetExtantDoc
 )
 )
 {
-Unused
-<
-<
+(
+void
+)
 tmp
 -
 >

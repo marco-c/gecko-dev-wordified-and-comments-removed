@@ -1800,12 +1800,9 @@ hr
 )
 )
 ;
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 hr
 ;
 return

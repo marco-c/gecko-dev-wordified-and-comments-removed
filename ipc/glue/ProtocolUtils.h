@@ -1951,10 +1951,11 @@ OnIPCChannelOpened
 (
 )
 {
-Unused
-<
-<
 ActorConnected
+(
+)
+.
+leak
 (
 )
 ;

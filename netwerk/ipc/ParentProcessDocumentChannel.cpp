@@ -882,9 +882,9 @@ if
 isDocumentLoad
 )
 {
-Unused
-<
-<
+(
+void
+)
 GetDocShell
 (
 )

@@ -1492,9 +1492,9 @@ return
 nullptr
 ;
 }
-Unused
-<
-<
+(
+void
+)
 GetGlobalIfValid
 (
 aRv
@@ -2681,9 +2681,9 @@ Failed
 )
 )
 {
-Unused
-<
-<
+(
+void
+)
 self
 -
 >

@@ -18995,9 +18995,9 @@ if
 hadProperties
 )
 {
-Unused
-<
-<
+(
+void
+)
 oldDoc
 -
 >
@@ -19542,9 +19542,9 @@ if
 hadProperties
 )
 {
-Unused
-<
-<
+(
+void
+)
 newDoc
 -
 >

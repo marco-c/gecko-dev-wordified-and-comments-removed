@@ -3356,9 +3356,9 @@ kungFuDeathGrip
 =
 this
 ;
-Unused
-<
-<
+(
+void
+)
 kungFuDeathGrip
 ;
 if
