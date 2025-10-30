@@ -611,10 +611,6 @@ ModuleType
 :
 :
 JavaScript
-ReferrerPolicy
-:
-:
-_empty
 fetchOptions
 SRIMetadata
 (

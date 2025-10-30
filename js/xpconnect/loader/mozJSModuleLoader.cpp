@@ -5107,13 +5107,6 @@ ModuleType
 :
 :
 JavaScript
-dom
-:
-:
-ReferrerPolicy
-:
-:
-No_referrer
 options
 dom
 :
