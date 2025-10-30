@@ -1555,7 +1555,7 @@ oldURI
 mStyleSheet
 -
 >
-GetSheetURI
+GetOriginalURI
 (
 )
 )

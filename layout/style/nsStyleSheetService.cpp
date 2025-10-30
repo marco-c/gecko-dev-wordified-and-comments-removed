@@ -281,7 +281,7 @@ nsIMemoryReporter
 )
 static
 bool
-SheetHasURI
+SheetHasOriginalURI
 (
 StyleSheet
 *
@@ -306,7 +306,7 @@ uri
 aSheet
 -
 >
-GetSheetURI
+GetOriginalURI
 (
 )
 ;
@@ -378,7 +378,7 @@ i
 {
 if
 (
-SheetHasURI
+SheetHasOriginalURI
 (
 sheets
 [
@@ -886,7 +886,6 @@ param
 *
 _retval
 =
-(
 FindSheetByURI
 (
 aSheetType
@@ -895,7 +894,6 @@ sheetURI
 >
 =
 0
-)
 ;
 return
 NS_OK
@@ -1570,6 +1568,7 @@ this
 ;
 for
 (
+const
 auto
 &
 sheetArray

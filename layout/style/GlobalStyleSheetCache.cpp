@@ -1203,7 +1203,6 @@ SetURIs
 (
 uri
 uri
-uri
 referrerInfo
 nsContentUtils
 :
