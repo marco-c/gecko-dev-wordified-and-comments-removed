@@ -61,15 +61,6 @@ include
 "
 mozilla
 /
-RefPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 WebGL2RenderingContextBinding
