@@ -114,11 +114,14 @@ js
 ]
 requesttimeoutfactor
 =
-2
+3
 #
 Slow
 on
 Windows
+and
+macOS
+aarch64
 run
 -
 sequentially
