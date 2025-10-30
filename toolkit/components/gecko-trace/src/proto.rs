@@ -48,6 +48,13 @@ pub
 mod
 opentelemetry
 {
+#
+[
+allow
+(
+warnings
+)
+]
 pub
 mod
 proto
