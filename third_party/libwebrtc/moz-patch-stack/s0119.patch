@@ -568,10 +568,10 @@ video_capture_impl
 .
 h
 index
-f9bf4f97db
+4d5b83547f
 .
 .
-c177744e3d
+220b8cff27
 100644
 -
 -
@@ -598,10 +598,10 @@ video_capture_impl
 .
 h
 -
-67
+63
 7
 +
-67
+63
 7
 class
 RTC_EXPORT

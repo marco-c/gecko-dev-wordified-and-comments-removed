@@ -7,9 +7,7 @@ MODULES_VIDEO_CAPTURE_MAIN_SOURCE_DEVICE_INFO_IMPL_H_
 #
 include
 <
-stdint
-.
-h
+cstdint
 >
 #
 include

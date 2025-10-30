@@ -7,9 +7,7 @@ MODULES_VIDEO_CAPTURE_LINUX_DEVICE_INFO_V4L2_H_
 #
 include
 <
-stdint
-.
-h
+cstdint
 >
 #
 include
@@ -19,6 +17,15 @@ modules
 video_capture
 /
 device_info_impl
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+thread_annotations
 .
 h
 "
