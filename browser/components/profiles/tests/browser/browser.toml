@@ -70,6 +70,13 @@ reason
 .
 [
 "
+browser_appmenu
+.
+js
+"
+]
+[
+"
 browser_appmenu_menuitem_updates
 .
 js
