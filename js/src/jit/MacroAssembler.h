@@ -4455,8 +4455,9 @@ output
 )
 DEFINED_ON
 (
-x86_shared
+arm
 arm64
+x86_shared
 )
 ;
 void
