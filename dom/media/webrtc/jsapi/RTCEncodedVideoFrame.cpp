@@ -256,6 +256,7 @@ aOwner
 :
 RTCEncodedVideoFrameData
 {
+RTCEncodedFrameState
 {
 std
 :
@@ -315,6 +316,7 @@ aData
 :
 RTCEncodedVideoFrameData
 {
+RTCEncodedFrameState
 {
 std
 :
@@ -997,6 +999,7 @@ const
 return
 RTCEncodedVideoFrameData
 {
+RTCEncodedFrameState
 {
 webrtc
 :
