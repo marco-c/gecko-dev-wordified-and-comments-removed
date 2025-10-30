@@ -1060,6 +1060,13 @@ js
 ]
 [
 "
+browser_fetch_after_suspending_request
+.
+js
+"
+]
+[
+"
 browser_fetch_lnk
 .
 js
