@@ -248,7 +248,7 @@ LazyLogModule
 sGeckoEditableSupportLog
 (
 "
-GeckoEditableSupport
+IMEHandler
 "
 )
 ;
