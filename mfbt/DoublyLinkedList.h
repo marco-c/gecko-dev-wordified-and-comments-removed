@@ -236,6 +236,7 @@ false
 }
 public
 :
+constexpr
 DoublyLinkedList
 (
 )
