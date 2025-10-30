@@ -223,6 +223,10 @@ pkts
 datagram_size
 (
 )
+.
+get
+(
+)
 =
 =
 65507
@@ -236,6 +240,10 @@ assert
 pkts
 .
 datagram_size
+(
+)
+.
+get
 (
 )
 <
