@@ -4107,6 +4107,9 @@ operands
 input
 :
 WordSized
+defer_init
+:
+true
 #
 Negative
 of

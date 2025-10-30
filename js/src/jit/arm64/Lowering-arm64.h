@@ -495,17 +495,6 @@ mod
 )
 ;
 void
-lowerNegI
-(
-MInstruction
-*
-ins
-MDefinition
-*
-input
-)
-;
-void
 lowerNegI64
 (
 MInstruction
