@@ -4,15 +4,6 @@ DOM_STORAGE_STORAGECOMMON_H_
 #
 define
 DOM_STORAGE_STORAGECOMMON_H_
-#
-include
-"
-mozilla
-/
-Types
-.
-h
-"
 namespace
 mozilla
 :

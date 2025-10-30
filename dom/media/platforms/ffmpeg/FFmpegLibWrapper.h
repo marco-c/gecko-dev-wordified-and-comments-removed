@@ -40,15 +40,6 @@ Preferences
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Types
-.
-h
-"
 struct
 AVCodec
 ;

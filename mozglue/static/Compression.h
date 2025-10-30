@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-Types
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ResultVariant
 .
 h

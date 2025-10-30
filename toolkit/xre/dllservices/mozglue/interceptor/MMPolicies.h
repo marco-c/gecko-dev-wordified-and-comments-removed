@@ -72,15 +72,6 @@ include
 "
 mozilla
 /
-Types
-.
-h
-"
-#
-include
-"
-mozilla
-/
 WindowsMapRemoteView
 .
 h

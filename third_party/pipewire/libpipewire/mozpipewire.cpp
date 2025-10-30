@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Types
-.
-h
-"
-#
-include
-"
 prlink
 .
 h

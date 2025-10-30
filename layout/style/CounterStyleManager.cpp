@@ -78,15 +78,6 @@ include
 "
 mozilla
 /
-Types
-.
-h
-"
-#
-include
-"
-mozilla
-/
 WritingModes
 .
 h

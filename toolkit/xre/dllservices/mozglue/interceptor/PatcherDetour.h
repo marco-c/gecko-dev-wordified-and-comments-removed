@@ -69,15 +69,6 @@ include
 "
 mozilla
 /
-Types
-.
-h
-"
-#
-include
-"
-mozilla
-/
 interceptor
 /
 PatcherBase

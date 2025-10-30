@@ -28,15 +28,6 @@ include
 "
 mozilla
 /
-Types
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ipc
 /
 SharedMemoryMapping

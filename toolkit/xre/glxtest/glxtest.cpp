@@ -166,15 +166,6 @@ include
 "
 mozilla
 /
-Types
-.
-h
-"
-#
-include
-"
-mozilla
-/
 GfxInfoUtils
 .
 h

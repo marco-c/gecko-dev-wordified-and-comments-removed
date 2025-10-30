@@ -45,15 +45,6 @@ include
 "
 mozilla
 /
-Types
-.
-h
-"
-#
-include
-"
-mozilla
-/
 WindowsProcessMitigations
 .
 h

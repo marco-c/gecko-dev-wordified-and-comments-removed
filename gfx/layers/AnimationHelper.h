@@ -69,15 +69,6 @@ h
 #
 include
 "
-mozilla
-/
-Types
-.
-h
-"
-#
-include
-"
 X11UndefineNone
 .
 h

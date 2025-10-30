@@ -22,15 +22,6 @@ visibility
 pop
 #
 include
-"
-mozilla
-/
-Types
-.
-h
-"
-#
-include
 <
 dlfcn
 .

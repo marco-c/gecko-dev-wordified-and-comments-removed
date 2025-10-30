@@ -22,15 +22,6 @@ h
 #
 include
 "
-mozilla
-/
-Types
-.
-h
-"
-#
-include
-"
 nsIMemoryReporter
 .
 h
