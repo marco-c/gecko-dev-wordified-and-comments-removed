@@ -7,9 +7,7 @@ P2P_BASE_ASYNC_STUN_TCP_SOCKET_H_
 #
 include
 <
-stddef
-.
-h
+cstddef
 >
 #
 include

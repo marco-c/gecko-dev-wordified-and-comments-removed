@@ -63,15 +63,6 @@ rtc_certificate
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-ssl_identity
-.
-h
-"
 namespace
 webrtc
 {

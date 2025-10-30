@@ -7,13 +7,6 @@ P2P_TEST_STUN_SERVER_H_
 #
 include
 <
-stddef
-.
-h
->
-#
-include
-<
 memory
 >
 #

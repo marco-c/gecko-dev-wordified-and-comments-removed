@@ -7,9 +7,7 @@ P2P_BASE_CONNECTION_H_
 #
 include
 <
-stddef
-.
-h
+cstddef
 >
 #
 include

@@ -7,9 +7,7 @@ P2P_BASE_ICE_TRANSPORT_INTERNAL_H_
 #
 include
 <
-stdint
-.
-h
+cstdint
 >
 #
 include

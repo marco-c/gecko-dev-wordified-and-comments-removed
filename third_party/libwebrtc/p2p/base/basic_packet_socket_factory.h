@@ -7,9 +7,7 @@ P2P_BASE_BASIC_PACKET_SOCKET_FACTORY_H_
 #
 include
 <
-stdint
-.
-h
+cstdint
 >
 #
 include

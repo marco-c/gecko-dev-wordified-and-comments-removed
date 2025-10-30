@@ -7,9 +7,7 @@ P2P_BASE_TURN_PORT_H_
 #
 include
 <
-stdio
-.
-h
+cstddef
 >
 #
 include

@@ -7,9 +7,7 @@ P2P_TEST_NAT_SOCKET_FACTORY_H_
 #
 include
 <
-stddef
-.
-h
+cstddef
 >
 #
 include

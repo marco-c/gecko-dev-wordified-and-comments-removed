@@ -7,9 +7,7 @@ P2P_BASE_PORT_ALLOCATOR_H_
 #
 include
 <
-stdint
-.
-h
+cstdint
 >
 #
 include

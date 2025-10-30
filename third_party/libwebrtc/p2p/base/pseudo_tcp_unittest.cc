@@ -12,13 +12,6 @@ h
 #
 include
 <
-string
-.
-h
->
-#
-include
-<
 algorithm
 >
 #
@@ -30,6 +23,11 @@ cstddef
 include
 <
 cstdint
+>
+#
+include
+<
+cstring
 >
 #
 include
