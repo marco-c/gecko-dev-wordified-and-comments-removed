@@ -265,9 +265,9 @@ IsSetAndValid
 )
 )
 ;
-Unused
-<
-<
+(
+void
+)
 mPointToInsert
 .
 GetChild

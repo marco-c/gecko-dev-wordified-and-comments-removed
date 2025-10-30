@@ -332,9 +332,9 @@ atom
 atoms
 )
 {
-Unused
-<
-<
+(
+void
+)
 base
 .
 PutEntry

@@ -1045,9 +1045,9 @@ Data
 12
 )
 ;
-Unused
-<
-<
+(
+void
+)
 mRIFFParser
 .
 Parse
@@ -1111,9 +1111,9 @@ Data
 8
 )
 ;
-Unused
-<
-<
+(
+void
+)
 mHeaderParser
 .
 Parse

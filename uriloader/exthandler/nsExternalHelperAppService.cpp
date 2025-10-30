@@ -916,6 +916,13 @@ return
 rv
 ;
 }
+#
+if
+!
+defined
+(
+ANDROID
+)
 static
 Result
 <
@@ -1326,6 +1333,8 @@ rv
 ;
 }
 ;
+#
+endif
 static
 Result
 <
@@ -1356,7 +1365,7 @@ NS_ERROR_FAILURE
 )
 ;
 #
-endif
+else
 nsresult
 rv
 ;
@@ -1704,6 +1713,8 @@ dir
 return
 dir
 ;
+#
+endif
 }
 NS_IMETHODIMP
 nsExternalHelperAppService
@@ -1786,7 +1797,7 @@ NS_ERROR_FAILURE
 )
 ;
 #
-endif
+else
 if
 (
 StaticPrefs
@@ -1809,6 +1820,8 @@ GetPreferredDownloadsDirectory
 aSkipChecks
 )
 ;
+#
+endif
 }
 nsresult
 GenerateRandomName
@@ -14326,12 +14339,9 @@ cursor
 =
 start
 ;
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 FindCharInReadable
 (
 '

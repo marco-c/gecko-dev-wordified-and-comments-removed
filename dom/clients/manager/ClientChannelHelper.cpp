@@ -892,9 +892,9 @@ if
 aClientInfo
 )
 {
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 !

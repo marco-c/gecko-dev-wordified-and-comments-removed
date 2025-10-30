@@ -10348,9 +10348,9 @@ IsSetAndValid
 )
 )
 ;
-Unused
-<
-<
+(
+void
+)
 mPoint
 .
 Offset

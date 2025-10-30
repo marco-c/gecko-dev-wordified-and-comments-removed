@@ -358,9 +358,9 @@ rv
 return
 rv
 ;
-Unused
-<
-<
+(
+void
+)
 isMutable
 ;
 nsAutoCString

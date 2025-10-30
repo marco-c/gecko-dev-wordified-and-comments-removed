@@ -3112,9 +3112,9 @@ y
 ;
 _NS_NEXT_TOKEN
 ;
-Unused
-<
-<
+(
+void
+)
 mOriginAttributes
 .
 PopulateFromSuffix
@@ -4808,9 +4808,9 @@ validWK
 =
 false
 ;
-Unused
-<
-<
+(
+void
+)
 uu
 -
 >

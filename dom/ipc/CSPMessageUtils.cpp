@@ -89,12 +89,9 @@ return
 CSPInfo
 csp
 ;
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 NS_FAILED

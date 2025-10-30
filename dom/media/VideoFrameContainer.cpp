@@ -535,9 +535,9 @@ Length
 #
 ifdef
 MOZ_WIDGET_ANDROID
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 aImages

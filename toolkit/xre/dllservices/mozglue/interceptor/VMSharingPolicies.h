@@ -1110,9 +1110,9 @@ true
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 isAlloc
 ;
 return

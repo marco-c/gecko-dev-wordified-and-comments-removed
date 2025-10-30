@@ -70,15 +70,6 @@ include
 "
 mozilla
 /
-Unused
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Utf8
 .
 h

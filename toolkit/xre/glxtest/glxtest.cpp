@@ -5482,8 +5482,9 @@ envvar
 set
 "
 ;
-MOZ_UNUSED
 (
+void
+)
 write
 (
 output_pipe
@@ -5491,7 +5492,6 @@ msg
 strlen
 (
 msg
-)
 )
 )
 ;

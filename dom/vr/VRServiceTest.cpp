@@ -1665,9 +1665,9 @@ ErrorResult
 aRv
 )
 {
-Unused
-<
-<
+(
+void
+)
 ReadFloat32Array
 (
 &

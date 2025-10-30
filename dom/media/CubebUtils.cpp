@@ -4541,9 +4541,9 @@ InitAudioIPCConnection
 }
 #
 endif
-Unused
-<
-<
+(
+void
+)
 CallbackThreadRegistry
 :
 :

@@ -934,9 +934,9 @@ UserInteractionMode
 _ns
 )
 {
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 mozilla
@@ -980,9 +980,9 @@ ConvertibleSlateMode
 _ns
 )
 {
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 !

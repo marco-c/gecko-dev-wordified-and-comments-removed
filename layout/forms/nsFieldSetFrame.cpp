@@ -722,9 +722,9 @@ gfxContext
 aCtx
 )
 {
-Unused
-<
-<
+(
+void
+)
 static_cast
 <
 nsFieldSetFrame

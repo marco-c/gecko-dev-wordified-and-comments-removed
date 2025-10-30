@@ -656,12 +656,9 @@ txNodeTest
 aNodeTest
 )
 {
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 mNodeTest
 .
 release

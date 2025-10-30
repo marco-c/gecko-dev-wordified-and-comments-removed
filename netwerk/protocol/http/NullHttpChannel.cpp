@@ -122,9 +122,9 @@ mResourcePrincipal
 )
 )
 ;
-Unused
-<
-<
+(
+void
+)
 chan
 -
 >

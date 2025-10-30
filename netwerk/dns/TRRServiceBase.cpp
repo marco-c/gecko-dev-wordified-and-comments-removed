@@ -1489,9 +1489,9 @@ dnsURI
 nullptr
 )
 ;
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 NS_FAILED
@@ -1881,9 +1881,9 @@ aCallback
 ;
 }
 ;
-Unused
-<
-<
+(
+void
+)
 NS_DispatchBackgroundTask
 (
 NS_NewRunnableFunction

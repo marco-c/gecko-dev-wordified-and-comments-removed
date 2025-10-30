@@ -712,9 +712,9 @@ inverseMatrix
 =
 mRawTransformMatrix
 ;
-Unused
-<
-<
+(
+void
+)
 inverseMatrix
 .
 Invert
@@ -882,9 +882,9 @@ inverseMatrix
 =
 mRawTransformMatrix
 ;
-Unused
-<
-<
+(
+void
+)
 inverseMatrix
 .
 Invert

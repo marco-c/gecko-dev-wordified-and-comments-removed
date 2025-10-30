@@ -2295,9 +2295,9 @@ ProcessedMediaTrack
 ALLOW_END
 )
 ;
-Unused
-<
-<
+(
+void
+)
 WaitFor
 (
 p
@@ -2366,9 +2366,9 @@ ProcessedMediaTrack
 ALLOW_END
 )
 ;
-Unused
-<
-<
+(
+void
+)
 WaitFor
 (
 p

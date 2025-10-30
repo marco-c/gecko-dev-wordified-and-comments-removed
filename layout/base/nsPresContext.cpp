@@ -2536,9 +2536,9 @@ AppUnitsPerDevPixel
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 mDeviceContext
 -
 >
@@ -6974,9 +6974,9 @@ default
 break
 ;
 }
-Unused
-<
-<
+(
+void
+)
 mDocument
 -
 >

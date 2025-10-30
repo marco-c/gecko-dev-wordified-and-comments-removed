@@ -394,9 +394,9 @@ CanRecordReleaseData
 isReadyForBackgroundProcessing
 )
 ;
-Unused
-<
-<
+(
+void
+)
 SendInitProfiler
 (
 ProfilerParent

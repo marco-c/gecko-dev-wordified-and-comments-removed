@@ -825,9 +825,9 @@ if
 source
 )
 {
-Unused
-<
-<
+(
+void
+)
 mSources
 .
 add
@@ -2226,9 +2226,9 @@ externalTexture
 }
 else
 {
-Unused
-<
-<
+(
+void
+)
 mExternalTextures
 .
 add

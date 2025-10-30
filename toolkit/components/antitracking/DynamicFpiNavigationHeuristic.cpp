@@ -749,9 +749,9 @@ OriginAttributesRef
 )
 )
 ;
-Unused
-<
-<
+(
+void
+)
 StorageAccessAPIHelper
 :
 :

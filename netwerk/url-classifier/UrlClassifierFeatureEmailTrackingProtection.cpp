@@ -806,9 +806,9 @@ if
 httpChannel
 )
 {
-Unused
-<
-<
+(
+void
+)
 httpChannel
 -
 >
@@ -820,9 +820,9 @@ NS_ERROR_EMAILTRACKING_URI
 }
 else
 {
-Unused
-<
-<
+(
+void
+)
 aChannel
 -
 >

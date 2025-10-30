@@ -1681,9 +1681,9 @@ PaintBorderFlags
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 nsCSSRendering
 :
 :

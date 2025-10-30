@@ -1724,9 +1724,9 @@ false
 nsCString
 repoDirPath
 ;
-Unused
-<
-<
+(
+void
+)
 repoDir
 -
 >
@@ -1819,9 +1819,9 @@ false
 nsCString
 objDirPath
 ;
-Unused
-<
-<
+(
+void
+)
 objDir
 -
 >
