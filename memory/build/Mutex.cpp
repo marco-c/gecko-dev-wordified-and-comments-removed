@@ -29,6 +29,11 @@ TryLock
 (
 )
 {
+MOZ_ASSERT
+(
+mInitialised
+)
+;
 #
 if
 defined
