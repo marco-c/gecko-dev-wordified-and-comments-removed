@@ -8434,6 +8434,11 @@ NULL
 chain
 )
 {
+CERT_DestroyCertificate
+(
+cert
+)
+;
 PORT_SetError
 (
 SEC_ERROR_NO_MEMORY
@@ -8471,6 +8476,11 @@ cert
 )
 )
 {
+CERT_DestroyCertificate
+(
+cert
+)
+;
 PORT_SetError
 (
 SEC_ERROR_NO_MEMORY
@@ -8502,6 +8512,11 @@ usage
 )
 ;
 }
+CERT_DestroyCertificate
+(
+cert
+)
+;
 PORT_SetError
 (
 SEC_ERROR_UNKNOWN_ISSUER
