@@ -1217,7 +1217,7 @@ current_frame
 {
 RTC_LOG
 (
-LS_ERROR
+LS_VERBOSE
 )
 <
 <
