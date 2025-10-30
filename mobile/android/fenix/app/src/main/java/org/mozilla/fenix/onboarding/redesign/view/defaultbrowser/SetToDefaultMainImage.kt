@@ -659,11 +659,11 @@ CircleShape
 .
 background
 (
-FirefoxTheme
+MaterialTheme
 .
-colors
+colorScheme
 .
-textAccent
+tertiary
 )
 contentAlignment
 =
