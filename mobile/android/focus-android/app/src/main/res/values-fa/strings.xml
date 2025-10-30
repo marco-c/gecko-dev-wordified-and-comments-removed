@@ -1856,13 +1856,19 @@ s
 /
 p
 >
+\
+n
 <
 p
 >
 :
+\
+n
 <
 ul
 >
+\
+n
 <
 li
 >
@@ -1870,6 +1876,8 @@ li
 /
 li
 >
+\
+n
 <
 li
 >
@@ -1879,6 +1887,8 @@ li
 /
 li
 >
+\
+n
 <
 li
 >
@@ -1886,6 +1896,8 @@ li
 /
 li
 >
+\
+n
 <
 /
 ul
@@ -1894,6 +1906,8 @@ ul
 /
 p
 >
+\
+n
 <
 p
 >
@@ -1906,6 +1920,8 @@ s
 br
 /
 >
+\
+n
 <
 a
 href
@@ -9002,6 +9018,7 @@ name
 crash_report_send_crash_label
 "
 >
+Mozilla
 <
 /
 string
