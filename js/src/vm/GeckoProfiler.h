@@ -591,6 +591,11 @@ ScriptSource
 scriptSource
 )
 {
+MOZ_ASSERT
+(
+scriptSource
+)
+;
 auto
 guard
 =
@@ -620,6 +625,14 @@ scriptSource
 )
 ;
 }
+js
+:
+:
+ProfilerJSSources
+getProfilerScriptSources
+(
+)
+;
 const
 uint32_t
 *
