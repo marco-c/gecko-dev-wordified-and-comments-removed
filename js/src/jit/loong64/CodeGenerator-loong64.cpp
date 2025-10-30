@@ -6980,6 +6980,20 @@ shift
 (
 )
 ;
+MOZ_ASSERT
+(
+0
+<
+=
+shift
+&
+&
+shift
+<
+=
+31
+)
+;
 if
 (
 shift
@@ -7021,8 +7035,6 @@ lhs
 -
 shift
 )
-%
-32
 )
 ;
 bailoutCmp32
@@ -7060,8 +7072,6 @@ as_srai_w
 dest
 lhs
 shift
-%
-32
 )
 ;
 return
@@ -7094,8 +7104,6 @@ tmp
 -
 shift
 )
-%
-32
 )
 ;
 masm
@@ -7120,8 +7128,6 @@ lhs
 -
 shift
 )
-%
-32
 )
 ;
 masm
@@ -7140,8 +7146,6 @@ as_srai_w
 dest
 tmp
 shift
-%
-32
 )
 ;
 }
@@ -8590,8 +8594,6 @@ as_slli_w
 dest
 lhs
 shift
-%
-32
 )
 ;
 }
@@ -8626,8 +8628,6 @@ as_srai_w
 dest
 lhs
 shift
-%
-32
 )
 ;
 }
@@ -8662,8 +8662,6 @@ as_srli_w
 dest
 lhs
 shift
-%
-32
 )
 ;
 }
@@ -9443,8 +9441,8 @@ ToInt32
 (
 rhs
 )
-%
-32
+&
+0x1f
 )
 ;
 }
