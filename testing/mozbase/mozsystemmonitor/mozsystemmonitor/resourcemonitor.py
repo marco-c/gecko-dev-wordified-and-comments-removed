@@ -2254,6 +2254,69 @@ self
 start_time
     
 def
+get_monotonic_time_from_data
+(
+self
+data
+)
+:
+        
+"
+"
+"
+Convert
+structured
+logging
+timestamp
+to
+monotonic
+time
+.
+        
+Args
+:
+            
+data
+:
+Dictionary
+with
+"
+time
+"
+field
+in
+milliseconds
+        
+Returns
+:
+            
+Monotonic
+timestamp
+        
+"
+"
+"
+        
+time_sec
+=
+data
+[
+"
+time
+"
+]
+/
+1000
+        
+return
+self
+.
+convert_to_monotonic_time
+(
+time_sec
+)
+    
+def
 start
 (
 self
@@ -4341,6 +4404,11 @@ test
 "
 test_name
 "
+"
+time
+"
+:
+timestamp
 }
 )
         
@@ -4378,10 +4446,17 @@ _active_markers
 test_name
 ]
 =
-time
-.
-monotonic
 (
+                
+SystemResourceMonitor
+.
+instance
+.
+get_monotonic_time_from_data
+(
+data
+)
+            
 )
     
 staticmethod
@@ -4541,10 +4616,13 @@ test_name
         
 end
 =
-time
+SystemResourceMonitor
 .
-monotonic
+instance
+.
+get_monotonic_time_from_data
 (
+data
 )
         
 marker_data
@@ -4932,26 +5010,15 @@ instance
             
 return
         
-time_sec
-=
-data
-[
-"
-time
-"
-]
-/
-1000
-        
 timestamp
 =
 SystemResourceMonitor
 .
 instance
 .
-convert_to_monotonic_time
+get_monotonic_time_from_data
 (
-time_sec
+data
 )
         
 marker_data
@@ -5306,26 +5373,15 @@ instance
             
 return
         
-time_sec
-=
-data
-[
-"
-time
-"
-]
-/
-1000
-        
 timestamp
 =
 SystemResourceMonitor
 .
 instance
 .
-convert_to_monotonic_time
+get_monotonic_time_from_data
 (
-time_sec
+data
 )
         
 marker_data
