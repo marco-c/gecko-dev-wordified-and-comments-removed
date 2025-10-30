@@ -78,7 +78,6 @@ js
 SECRET_DATA
 .
 *
-*
 /
 function
 handleRequest
