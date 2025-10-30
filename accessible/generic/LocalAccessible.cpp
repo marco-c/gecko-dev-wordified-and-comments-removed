@@ -2655,14 +2655,8 @@ rootWidget
 rootFrame
 -
 >
-GetView
-(
-)
--
->
 GetNearestWidget
 (
-nullptr
 )
 ;
 NS_ENSURE_TRUE

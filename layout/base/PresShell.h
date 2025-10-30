@@ -1328,6 +1328,13 @@ GetRootFrame
 )
 ;
 }
+nsIWidget
+*
+GetRootWidget
+(
+)
+const
+;
 ScrollContainerFrame
 *
 GetRootScrollContainerFrame
