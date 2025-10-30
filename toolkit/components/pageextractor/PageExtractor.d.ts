@@ -1,7 +1,14 @@
 export
-interface
+type
 GetTextOptions
+=
+Partial
+<
 {
+sufficientLength
+:
+number
+;
 removeBoilerplate
 :
 boolean
@@ -11,3 +18,5 @@ justViewport
 boolean
 ;
 }
+>
+;
