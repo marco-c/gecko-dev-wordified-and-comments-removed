@@ -748,7 +748,14 @@ GetEphemeralKeyExchangeCipherGroupName
 uint16_t
 group_id
 )
+{
+return
+std
+:
+:
+nullopt
 ;
+}
 static
 std
 :
