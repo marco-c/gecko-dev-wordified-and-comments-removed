@@ -7649,6 +7649,10 @@ CanRewriteURL
 nsIURI
 *
 aTargetURL
+bool
+aReportErrors
+=
+true
 )
 const
 ;

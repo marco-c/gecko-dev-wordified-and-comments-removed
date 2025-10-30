@@ -64275,6 +64275,8 @@ CanRewriteURL
 nsIURI
 *
 aTargetURL
+bool
+aReportErrors
 )
 const
 {
@@ -64364,7 +64366,7 @@ CheckSameOriginURI
 (
 mDocumentURI
 aTargetURL
-true
+aReportErrors
 isPrivateWin
 )
 )
