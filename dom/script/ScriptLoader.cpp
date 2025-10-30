@@ -19893,15 +19893,17 @@ get
 )
 )
 ;
-}
 if
 (
 aRequest
 -
 >
-IsSource
+getLoadedScript
 (
 )
+-
+>
+mCacheInfo
 )
 {
 rv
@@ -19912,6 +19914,7 @@ aRequest
 aSRIDataVerifier
 )
 ;
+}
 }
 if
 (
