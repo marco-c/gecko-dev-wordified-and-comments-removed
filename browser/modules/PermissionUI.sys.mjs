@@ -5953,7 +5953,7 @@ formatStringFromName
 "
 localhost
 .
-allowWithSite
+allowWithSite2
 "
 [
 "
@@ -6950,7 +6950,7 @@ formatStringFromName
 "
 localNetwork
 .
-allowWithSite
+allowWithSite2
 "
 [
 "
