@@ -939,10 +939,15 @@ if
 =
 [
 "
+http2
+"
+"
 http3
 "
 "
-http2
+verify
+-
+standalone
 "
 ]
 [

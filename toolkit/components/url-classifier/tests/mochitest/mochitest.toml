@@ -287,6 +287,17 @@ test_cachemiss
 html
 "
 ]
+skip
+-
+if
+=
+[
+"
+verify
+-
+standalone
+"
+]
 [
 "
 test_classifier

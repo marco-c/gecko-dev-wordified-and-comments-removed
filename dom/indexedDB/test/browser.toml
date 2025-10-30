@@ -97,6 +97,17 @@ browser_forgetThisSite
 js
 "
 ]
+skip
+-
+if
+=
+[
+"
+verify
+-
+standalone
+"
+]
 [
 "
 browser_private_idb

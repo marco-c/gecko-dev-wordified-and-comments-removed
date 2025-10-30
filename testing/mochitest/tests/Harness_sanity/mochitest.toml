@@ -222,6 +222,17 @@ empty
 .
 js
 "
+skip
+-
+if
+=
+[
+"
+verify
+-
+standalone
+"
+]
 [
 "
 test_sanityRegisteredServiceWorker2

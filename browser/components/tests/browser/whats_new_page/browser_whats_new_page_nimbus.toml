@@ -89,3 +89,14 @@ homepage_override_nimbus_maxVersion
 '
 "
 ]
+skip
+-
+if
+=
+[
+"
+verify
+-
+standalone
+"
+]

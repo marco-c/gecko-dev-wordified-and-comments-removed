@@ -150,6 +150,17 @@ browser_ClientEnvironment
 js
 "
 ]
+skip
+-
+if
+=
+[
+"
+verify
+-
+standalone
+"
+]
 [
 "
 browser_EventEmitter

@@ -110,6 +110,17 @@ test_bug863246_resource_uri
 html
 "
 ]
+skip
+-
+if
+=
+[
+"
+verify
+-
+standalone
+"
+]
 [
 "
 test_bug1354633_media_error

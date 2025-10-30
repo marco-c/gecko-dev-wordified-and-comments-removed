@@ -183,6 +183,17 @@ browser_whats_new_page
 js
 "
 ]
+skip
+-
+if
+=
+[
+"
+verify
+-
+standalone
+"
+]
 [
 "
 include

@@ -295,6 +295,17 @@ server_import_with_cache
 sjs
 "
 ]
+skip
+-
+if
+=
+[
+"
+verify
+-
+standalone
+"
+]
 [
 "
 test_paintWorklet

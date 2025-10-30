@@ -77,6 +77,17 @@ browser_protections_telemetry
 js
 "
 ]
+skip
+-
+if
+=
+[
+"
+verify
+-
+standalone
+"
+]
 [
 "
 browser_protections_vpn

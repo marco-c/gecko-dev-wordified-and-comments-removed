@@ -177,7 +177,7 @@ linux
 '
 &
 &
-debug
+asan
 "
 "
 os
@@ -188,7 +188,12 @@ linux
 '
 &
 &
-asan
+debug
+"
+"
+verify
+-
+standalone
 "
 ]
 [

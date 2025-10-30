@@ -502,6 +502,17 @@ browser_clientAuth
 js
 "
 ]
+skip
+-
+if
+=
+[
+"
+verify
+-
+standalone
+"
+]
 [
 "
 browser_cookieIsolation

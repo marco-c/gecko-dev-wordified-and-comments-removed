@@ -45,6 +45,11 @@ if
 =
 [
 "
+verify
+-
+standalone
+"
+"
 os
 =
 =

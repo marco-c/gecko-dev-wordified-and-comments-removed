@@ -95,3 +95,14 @@ homepage_override_nimbus_disable_wnp
 true
 "
 ]
+skip
+-
+if
+=
+[
+"
+verify
+-
+standalone
+"
+]

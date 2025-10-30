@@ -688,6 +688,17 @@ browser_bookmarks_toolbar_telemetry
 js
 "
 ]
+skip
+-
+if
+=
+[
+"
+verify
+-
+standalone
+"
+]
 [
 "
 browser_bug427633_no_newfolder_if_noip

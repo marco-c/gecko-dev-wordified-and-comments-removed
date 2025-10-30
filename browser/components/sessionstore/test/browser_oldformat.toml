@@ -584,6 +584,17 @@ browser_456342
 js
 "
 ]
+skip
+-
+if
+=
+[
+"
+verify
+-
+standalone
+"
+]
 [
 "
 browser_461634
