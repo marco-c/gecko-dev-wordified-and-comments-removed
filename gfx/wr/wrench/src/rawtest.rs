@@ -301,6 +301,13 @@ test_clear_cache
 )
 ;
 }
+#
+[
+allow
+(
+dead_code
+)
+]
 pub
 fn
 render_display_list_and_get_pixels
