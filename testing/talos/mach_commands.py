@@ -100,7 +100,7 @@ max_py_major
 max_py_minor
 =
 3
-12
+13
         
 sys_maj
 sys_min
