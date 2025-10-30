@@ -746,6 +746,7 @@ string
 GetEphemeralKeyExchangeCipherGroupName
 (
 uint16_t
+group_id
 )
 ;
 static

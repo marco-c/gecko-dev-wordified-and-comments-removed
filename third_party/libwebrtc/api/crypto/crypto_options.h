@@ -213,6 +213,7 @@ string
 GetName
 (
 uint16_t
+group_id
 )
 ;
 EphemeralKeyExchangeCipherGroups

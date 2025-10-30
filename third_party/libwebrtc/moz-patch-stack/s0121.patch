@@ -107,10 +107,10 @@ ssl_stream_adapter
 .
 h
 index
-baa491235e
+ed908dd89c
 .
 .
-1177d0ea62
+b19e1916ec
 100644
 -
 -
@@ -213,6 +213,7 @@ string
 GetEphemeralKeyExchangeCipherGroupName
 (
 uint16_t
+group_id
 )
 ;
 static
