@@ -395,13 +395,6 @@ lazy
 .
 IPProtectionStates
 .
-ENROLLING
-:
-case
-lazy
-.
-IPProtectionStates
-.
 ERROR
 :
 this
