@@ -11136,6 +11136,10 @@ ReportIncompatibleSelfHostedMethod
 (
 cx
 thisv
+IncompatibleContext
+:
+:
+RegExpExec
 )
 ;
 }
