@@ -97,6 +97,13 @@ true
 ]
 [
 "
+browser_action
+.
+js
+"
+]
+[
+"
 browser_atspi_interfaces
 .
 js
