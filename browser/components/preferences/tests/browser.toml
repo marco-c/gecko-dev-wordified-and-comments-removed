@@ -1027,6 +1027,13 @@ js
 ]
 [
 "
+browser_privacy_ipprotection
+.
+js
+"
+]
+[
+"
 browser_privacy_passwordGenerationAndAutofill
 .
 js
