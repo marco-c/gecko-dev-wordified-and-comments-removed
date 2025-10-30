@@ -700,12 +700,14 @@ glean
 :
 :
 TestGetValue
-<
-DistributionData
->
 for
 LabeledCustomDistributionMetric
 {
+type
+Output
+=
+DistributionData
+;
 pub
 fn
 test_get_value

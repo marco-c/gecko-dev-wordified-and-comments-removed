@@ -1550,12 +1550,14 @@ glean
 :
 :
 TestGetValue
-<
-u64
->
 for
 TimespanMetric
 {
+type
+Output
+=
+u64
+;
 pub
 fn
 test_get_value

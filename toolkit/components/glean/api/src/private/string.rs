@@ -521,7 +521,12 @@ glean
 :
 :
 TestGetValue
-<
+for
+StringMetric
+{
+type
+Output
+=
 std
 :
 :
@@ -529,10 +534,7 @@ string
 :
 :
 String
->
-for
-StringMetric
-{
+;
 pub
 fn
 test_get_value

@@ -1062,12 +1062,14 @@ glean
 :
 :
 TestGetValue
-<
-DistributionData
->
 for
 MemoryDistributionMetric
 {
+type
+Output
+=
+DistributionData
+;
 pub
 fn
 test_get_value

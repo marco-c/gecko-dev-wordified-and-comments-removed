@@ -679,12 +679,14 @@ glean
 :
 :
 TestGetValue
-<
-Uuid
->
 for
 UuidMetric
 {
+type
+Output
+=
+Uuid
+;
 pub
 fn
 test_get_value

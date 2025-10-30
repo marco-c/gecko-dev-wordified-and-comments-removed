@@ -519,12 +519,14 @@ glean
 :
 :
 TestGetValue
-<
-i64
->
 for
 QuantityMetric
 {
+type
+Output
+=
+i64
+;
 pub
 fn
 test_get_value

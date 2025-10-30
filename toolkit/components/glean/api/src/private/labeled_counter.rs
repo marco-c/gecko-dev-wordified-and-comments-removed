@@ -541,12 +541,14 @@ glean
 :
 :
 TestGetValue
-<
-i32
->
 for
 LabeledCounterMetric
 {
+type
+Output
+=
+i32
+;
 pub
 fn
 test_get_value

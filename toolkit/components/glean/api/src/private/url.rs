@@ -795,7 +795,12 @@ glean
 :
 :
 TestGetValue
-<
+for
+UrlMetric
+{
+type
+Output
+=
 std
 :
 :
@@ -803,10 +808,7 @@ string
 :
 :
 String
->
-for
-UrlMetric
-{
+;
 pub
 fn
 test_get_value

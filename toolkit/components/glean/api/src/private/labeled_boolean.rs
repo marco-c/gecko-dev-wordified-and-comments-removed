@@ -554,12 +554,14 @@ glean
 :
 :
 TestGetValue
-<
-bool
->
 for
 LabeledBooleanMetric
 {
+type
+Output
+=
+bool
+;
 pub
 fn
 test_get_value

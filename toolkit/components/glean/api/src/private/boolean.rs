@@ -760,12 +760,14 @@ glean
 :
 :
 TestGetValue
-<
-bool
->
 for
 BooleanMetric
 {
+type
+Output
+=
+bool
+;
 pub
 fn
 test_get_value

@@ -577,12 +577,14 @@ glean
 :
 :
 TestGetValue
-<
-i32
->
 for
 DenominatorMetric
 {
+type
+Output
+=
+i32
+;
 pub
 fn
 test_get_value

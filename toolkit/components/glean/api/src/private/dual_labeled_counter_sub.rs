@@ -387,12 +387,14 @@ glean
 :
 :
 TestGetValue
-<
-i32
->
 for
 DualLabeledCounterSubMetric
 {
+type
+Output
+=
+i32
+;
 pub
 fn
 test_get_value

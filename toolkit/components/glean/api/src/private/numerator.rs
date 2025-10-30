@@ -572,12 +572,14 @@ glean
 :
 :
 TestGetValue
-<
-Rate
->
 for
 NumeratorMetric
 {
+type
+Output
+=
+Rate
+;
 pub
 fn
 test_get_value
