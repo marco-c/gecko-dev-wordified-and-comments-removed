@@ -50,12 +50,6 @@ USVString
 serializedURL
 )
 ;
-stringifier
-USVString
-toJSON
-(
-)
-;
 readonly
 attribute
 boolean
