@@ -998,9 +998,15 @@ snapcraft
 yaml
 grep
 "
-make
+MACH
+build
+.
+*
 -
 j
+{
+MAX_CPUS
+}
 "
 snapcraft
 .
