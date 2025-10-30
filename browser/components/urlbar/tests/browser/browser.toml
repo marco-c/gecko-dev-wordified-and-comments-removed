@@ -3536,6 +3536,9 @@ browser_trust_panel
 js
 "
 ]
+https_first_disabled
+=
+true
 [
 "
 browser_trust_panel_pages
