@@ -69,14 +69,7 @@ nsRefPtrHashtable
 nsStringHashKey
 WakeLockTopic
 >
-mForegroundTopics
-;
-nsRefPtrHashtable
-<
-nsStringHashKey
-WakeLockTopic
->
-mBackgroundTopics
+mTopics
 ;
 }
 ;
