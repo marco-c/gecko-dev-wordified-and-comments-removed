@@ -117,6 +117,15 @@ include
 "
 mozilla
 /
+PodOperations
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Sprintf
 .
 h
