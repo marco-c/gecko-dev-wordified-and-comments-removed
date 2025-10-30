@@ -307,7 +307,12 @@ ActionsProviderQuickActions
 .
 getActions
 (
+{
 input
+includesExactMatch
+:
+true
+}
 )
 ;
 results
