@@ -111,6 +111,13 @@ Percentage
 >
 >
 )
+ContrastColor
+(
+Box
+<
+Self
+>
+)
 }
 #
 [
