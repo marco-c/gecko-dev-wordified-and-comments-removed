@@ -8783,6 +8783,7 @@ inline
 bool
 IsVoidTag
 (
+const
 nsAtom
 *
 aTag
@@ -8991,6 +8992,7 @@ FragmentOrElement
 :
 IsHTMLVoid
 (
+const
 nsAtom
 *
 aLocalName

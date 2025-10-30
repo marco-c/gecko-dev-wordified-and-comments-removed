@@ -505,6 +505,7 @@ static
 bool
 IsHTMLVoid
 (
+const
 nsAtom
 *
 aLocalName
