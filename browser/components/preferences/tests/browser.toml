@@ -815,6 +815,13 @@ js
 ]
 [
 "
+browser_no_id_collision_between_categories_and_mainPane
+.
+js
+"
+]
+[
+"
 browser_notifications_do_not_disturb
 .
 js
