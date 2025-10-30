@@ -6,6 +6,11 @@ define
 AUDIO_AUDIO_LEVEL_H_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 rtc_base
 /
