@@ -127,6 +127,16 @@ riscv64
 simulator
 "
 )
+|
+|
+getBuildConfiguration
+(
+"
+loong64
+-
+simulator
+"
+)
 )
 {
 if
