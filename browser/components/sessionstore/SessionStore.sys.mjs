@@ -36591,7 +36591,8 @@ windowOpenedPromises
 /
 *
 *
-reset
+*
+Reset
 closedId
 '
 s
