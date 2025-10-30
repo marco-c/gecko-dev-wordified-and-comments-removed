@@ -9650,6 +9650,13 @@ js
 ]
 [
 "
+test_schema_17_migration
+.
+js
+"
+]
+[
+"
 test_schema_2_migration
 .
 js

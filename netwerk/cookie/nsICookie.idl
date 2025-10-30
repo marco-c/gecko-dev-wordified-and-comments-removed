@@ -207,6 +207,11 @@ creationTime
 readonly
 attribute
 int64_t
+updateTime
+;
+readonly
+attribute
+int64_t
 lastAccessed
 ;
 readonly
