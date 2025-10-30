@@ -12011,11 +12011,12 @@ nsLayoutUtils
 :
 RoundGfxRectToAppRect
 (
-r
-.
-ToThebesRect
 (
+const
+Rect
+&
 )
+r
 AppUnitsPerCSSPixel
 (
 )

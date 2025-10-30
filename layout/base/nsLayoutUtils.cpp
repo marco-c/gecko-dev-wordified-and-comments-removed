@@ -9907,10 +9907,7 @@ maxBounds
 return
 RoundGfxRectToAppRect
 (
-ThebesRect
-(
 image
-)
 aFactor
 )
 ;
@@ -10020,10 +10017,7 @@ maxBounds
 return
 RoundGfxRectToAppRect
 (
-ThebesRect
-(
 image
-)
 aFactor
 )
 ;
