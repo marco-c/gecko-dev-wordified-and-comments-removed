@@ -2195,6 +2195,17 @@ self
 .
 retry
         
+dump_save_path
+=
+"
+"
+if
+self
+.
+selfTest
+else
+None
+        
 return
 mozcrash
 .
@@ -2204,14 +2215,22 @@ log_crashes
 self
 .
 log
+            
 dump_directory
+            
 symbols_path
+            
 test
 =
 test_name
+            
 quiet
 =
 quiet
+            
+dump_save_path
+=
+dump_save_path
         
 )
     
