@@ -6526,6 +6526,7 @@ error_event_
 error_text
 "
 Unauthorized
+.
 "
 )
 ;
