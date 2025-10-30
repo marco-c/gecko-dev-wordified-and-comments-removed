@@ -508,6 +508,12 @@ ice_password
 args
 .
 password
+.
+lna_permission_factory
+=
+args
+.
+lna_permission_factory
 }
 socket
 *
@@ -627,6 +633,12 @@ ice_password
 args
 .
 password
+.
+lna_permission_factory
+=
+args
+.
+lna_permission_factory
 }
 min_port
 max_port
@@ -1399,6 +1411,11 @@ const
 AsyncDnsResolverResult
 &
 result
+)
+;
+void
+OnLocalNetworkAccessPermissionGranted
+(
 )
 ;
 void

@@ -7266,7 +7266,7 @@ any_invocable
 "
 ]
 }
-rtc_source_set
+rtc_library
 (
 "
 mock_local_network_access_permission
@@ -7291,6 +7291,13 @@ test
 /
 mock_local_network_access_permission
 .
+cc
+"
+"
+test
+/
+mock_local_network_access_permission
+.
 h
 "
 ]
@@ -7308,6 +7315,14 @@ local_network_access_permission
 rtc_base
 :
 socket_address
+"
+"
+.
+.
+/
+rtc_base
+:
+threading
 "
 "
 .
