@@ -522,6 +522,9 @@ attemptGarbageCollection
 ;
 }
 }
+throw
+ex
+;
 }
 finally
 {

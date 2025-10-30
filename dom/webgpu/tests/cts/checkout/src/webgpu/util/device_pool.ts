@@ -610,6 +610,9 @@ attemptGarbageCollection
 ;
 }
 }
+throw
+ex
+;
 }
 finally
 {

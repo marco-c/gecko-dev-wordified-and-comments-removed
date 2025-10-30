@@ -1146,12 +1146,6 @@ off
 subgroup_uniformity
 )
 ;
-diagnostic
-(
-off
-subgroup_branching
-)
-;
 group
 (
 0

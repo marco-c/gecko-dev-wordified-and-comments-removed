@@ -1186,6 +1186,18 @@ all
 '
 ;
 const
+swizzle
+=
+view
+.
+swizzle
+?
+?
+'
+rgba
+'
+;
+const
 format
 =
 view
@@ -1338,6 +1350,7 @@ baseMipLevel
 mipLevelCount
 baseArrayLayer
 arrayLayerCount
+swizzle
 }
 ;
 }
