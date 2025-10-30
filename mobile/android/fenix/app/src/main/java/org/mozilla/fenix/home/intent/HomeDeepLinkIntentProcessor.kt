@@ -588,6 +588,14 @@ settings_private_browsing
 GlobalDirections
 .
 SettingsPrivateBrowsing
+"
+settings_app_icon
+"
+-
+>
+GlobalDirections
+.
+SettingsAppIcon
 else
 -
 >

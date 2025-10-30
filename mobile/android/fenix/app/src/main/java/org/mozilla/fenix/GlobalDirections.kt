@@ -322,4 +322,17 @@ id
 .
 privateBrowsingFragment
 )
+SettingsAppIcon
+(
+NavGraphDirections
+.
+actionGlobalAppIconSelectionFragment
+(
+)
+R
+.
+id
+.
+appIconSelectionFragment
+)
 }
