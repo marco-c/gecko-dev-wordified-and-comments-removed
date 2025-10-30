@@ -71,6 +71,15 @@ h
 #
 include
 "
+jit
+/
+InlinableNatives
+.
+h
+"
+#
+include
+"
 js
 /
 friend
@@ -4661,7 +4670,7 @@ sharedarray_proto_properties
 ]
 =
 {
-JS_PSG
+JS_INLINABLE_PSG
 (
 "
 byteLength
@@ -4671,6 +4680,7 @@ SharedArrayBufferObject
 :
 byteLengthGetter
 0
+SharedArrayBufferByteLength
 )
 JS_PSG
 (
