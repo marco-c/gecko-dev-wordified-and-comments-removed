@@ -13865,8 +13865,9 @@ true
 AutoBuffer
 (
 )
-{
-}
+=
+default
+;
 }
 mAutoBuf
 ;
