@@ -770,7 +770,7 @@ const
 0
 ;
 virtual
-nscoord
+gfxFloat
 GetHyphenWidth
 (
 )
@@ -801,7 +801,7 @@ Spacing
 Spacing
 ;
 virtual
-bool
+void
 GetSpacing
 (
 Range
