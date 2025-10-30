@@ -8459,6 +8459,7 @@ this
 }
 public
 :
+explicit
 OutOfLineTableSwitch
 (
 MTableSwitch

@@ -2591,6 +2591,7 @@ src
 )
 const
 ;
+explicit
 BOffImm16
 (
 InstImm
@@ -2791,6 +2792,7 @@ Imm16
 (
 )
 ;
+explicit
 Imm16
 (
 uint32_t
@@ -2944,6 +2946,7 @@ Imm8
 (
 )
 ;
+explicit
 Imm8
 (
 uint32_t
@@ -3106,6 +3109,7 @@ GSImm13
 (
 )
 ;
+explicit
 GSImm13
 (
 uint32_t
@@ -3230,6 +3234,7 @@ offset
 ;
 public
 :
+explicit
 Operand
 (
 Register
@@ -3250,6 +3255,7 @@ code
 )
 {
 }
+explicit
 Operand
 (
 FloatRegister
@@ -3324,6 +3330,7 @@ off
 )
 {
 }
+explicit
 Operand
 (
 const
@@ -7247,6 +7254,7 @@ protected
 uint32_t
 data
 ;
+explicit
 Instruction
 (
 uint32_t
@@ -8224,6 +8232,7 @@ encode
 )
 {
 }
+MOZ_IMPLICIT
 InstImm
 (
 uint32_t
@@ -8663,6 +8672,7 @@ ff
 )
 {
 }
+explicit
 InstGS
 (
 uint32_t

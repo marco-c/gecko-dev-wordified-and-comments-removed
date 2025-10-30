@@ -203,6 +203,7 @@ move
 ;
 public
 :
+explicit
 MoveEmitterLOONG64
 (
 MacroAssembler

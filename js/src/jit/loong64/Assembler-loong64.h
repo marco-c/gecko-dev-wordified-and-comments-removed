@@ -4389,6 +4389,7 @@ src
 )
 const
 ;
+explicit
 BOffImm16
 (
 InstImm
@@ -4581,6 +4582,7 @@ Imm16
 (
 )
 ;
+explicit
 Imm16
 (
 uint32_t
@@ -4670,6 +4672,7 @@ Imm8
 (
 )
 ;
+explicit
 Imm8
 (
 uint32_t
@@ -4829,6 +4832,7 @@ offset
 ;
 public
 :
+MOZ_IMPLICIT
 Operand
 (
 Register
@@ -4849,6 +4853,7 @@ code
 )
 {
 }
+explicit
 Operand
 (
 FloatRegister
@@ -4923,6 +4928,7 @@ off
 )
 {
 }
+explicit
 Operand
 (
 const
@@ -9411,6 +9417,7 @@ data
 ;
 protected
 :
+explicit
 Instruction
 (
 uint32_t

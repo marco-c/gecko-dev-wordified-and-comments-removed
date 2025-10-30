@@ -2567,6 +2567,7 @@ Total
 ;
 }
 constexpr
+explicit
 FloatRegister
 (
 Encoding

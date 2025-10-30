@@ -212,6 +212,7 @@ move
 ;
 public
 :
+explicit
 MoveEmitterMIPSShared
 (
 MacroAssembler

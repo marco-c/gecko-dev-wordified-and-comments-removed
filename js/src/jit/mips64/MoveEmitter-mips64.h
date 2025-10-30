@@ -88,6 +88,7 @@ slot
 ;
 public
 :
+explicit
 MoveEmitterMIPS64
 (
 MacroAssembler
