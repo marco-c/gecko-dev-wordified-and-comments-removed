@@ -13260,6 +13260,15 @@ ExtContentPolicy
 :
 :
 TYPE_SUBDOCUMENT
+|
+|
+policyType
+=
+=
+ExtContentPolicy
+:
+:
+TYPE_OBJECT
 )
 {
 aLoadInfo
