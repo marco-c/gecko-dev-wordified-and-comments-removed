@@ -845,15 +845,6 @@ NavigationAPIMethodTracker
 aNavigationAPIMethodTracker
 )
 ;
-void
-SetCurrentEntryIndex
-(
-const
-SessionHistoryInfo
-*
-aTargetInfo
-)
-;
 Document
 *
 GetAssociatedDocument
