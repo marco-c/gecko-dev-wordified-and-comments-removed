@@ -881,6 +881,7 @@ matrix
 mapPoints
 (
 pts
+kNumPtsCubic
 )
 ;
 SkScalar
@@ -907,6 +908,7 @@ matrix
 mapPoints
 (
 pts
+kNumPtsCubic
 )
 ;
 SkScalar
@@ -933,6 +935,7 @@ matrix
 mapPoints
 (
 pts
+kNumPtsCubic
 )
 ;
 SkScalar
@@ -959,6 +962,7 @@ matrix
 mapPoints
 (
 pts
+kNumPtsCubic
 )
 ;
 SkScalar

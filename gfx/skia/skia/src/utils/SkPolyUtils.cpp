@@ -9199,10 +9199,8 @@ bounds
 .
 setBoundsCheck
 (
-{
 polygonVerts
 polygonSize
-}
 )
 )
 {

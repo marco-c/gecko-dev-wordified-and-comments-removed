@@ -44,7 +44,7 @@ lang
 /
 wgsl
 /
-enums
+extension
 .
 h
 "

@@ -385,7 +385,7 @@ scale
 SkMatrix
 :
 :
-RectToRectOrIdentity
+RectToRect
 (
 SkRect
 :

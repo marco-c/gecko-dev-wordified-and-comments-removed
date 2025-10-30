@@ -11,7 +11,7 @@ include
 /
 core
 /
-SkPathBuilder
+SkTypes
 .
 h
 "
@@ -28,6 +28,9 @@ SkObjBase
 .
 h
 "
+class
+SkPath
+;
 #
 include
 <
@@ -53,9 +56,9 @@ private
 LONG
 fRefCount
 ;
-SkPathBuilder
+SkPath
 *
-fBuilder
+fPath
 ;
 bool
 fStarted
@@ -81,7 +84,7 @@ fStarted
 =
 true
 ;
-fBuilder
+fPath
 -
 >
 moveTo
@@ -134,8 +137,9 @@ protected
 explicit
 SkDWriteGeometrySink
 (
-SkPathBuilder
+SkPath
 *
+path
 )
 ;
 virtual
@@ -262,8 +266,9 @@ static
 HRESULT
 Create
 (
-SkPathBuilder
+SkPath
 *
+path
 IDWriteGeometrySink
 *
 *

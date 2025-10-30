@@ -21,7 +21,17 @@ fFragmentShader
 const
 char
 *
+fFragmentShaderES2
+;
+const
+char
+*
 fVertexShader
+;
+const
+char
+*
+fVertexShaderES2
 ;
 }
 ;

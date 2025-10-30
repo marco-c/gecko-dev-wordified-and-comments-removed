@@ -409,9 +409,6 @@ fPaintColor
 rec
 .
 fSurfaceProps
-rec
-.
-fDstBounds
 }
 ;
 dstToWorking
@@ -760,7 +757,6 @@ buffer
 .
 readScalarArray
 (
-{
 &
 tf
 .
@@ -774,7 +770,6 @@ sizeof
 (
 SkScalar
 )
-}
 )
 ;
 }
@@ -788,7 +783,6 @@ buffer
 .
 readScalarArray
 (
-{
 &
 gamut
 .
@@ -808,7 +802,6 @@ sizeof
 (
 SkScalar
 )
-}
 )
 ;
 }
@@ -1136,7 +1129,6 @@ buffer
 .
 writeScalarArray
 (
-{
 &
 fTF
 .
@@ -1150,7 +1142,6 @@ sizeof
 (
 SkScalar
 )
-}
 )
 ;
 }
@@ -1164,7 +1155,6 @@ buffer
 .
 writeScalarArray
 (
-{
 &
 fGamut
 .
@@ -1184,7 +1174,6 @@ sizeof
 (
 SkScalar
 )
-}
 )
 ;
 }

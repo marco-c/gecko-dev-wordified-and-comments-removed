@@ -200,6 +200,10 @@ addToKey
 const
 KeyContext
 &
+PaintParamsKeyBuilder
+*
+PipelineDataGatherer
+*
 int
 )
 const
@@ -218,6 +222,8 @@ onCreatePipelines
 const
 KeyContext
 &
+PipelineDataGatherer
+*
 const
 RenderPassDesc
 &
@@ -238,6 +244,8 @@ createPipelines
 const
 KeyContext
 &
+PipelineDataGatherer
+*
 const
 RenderPassDesc
 &

@@ -563,13 +563,11 @@ size_t
 byteLimit
 )
 ;
-virtual
 ~
 SkResourceCache
 (
 )
 ;
-virtual
 bool
 find
 (
@@ -582,7 +580,6 @@ void
 context
 )
 ;
-virtual
 void
 add
 (
@@ -595,7 +592,6 @@ payload
 nullptr
 )
 ;
-virtual
 void
 visitAll
 (
@@ -605,7 +601,6 @@ void
 context
 )
 ;
-virtual
 size_t
 getTotalBytesUsed
 (
@@ -616,7 +611,6 @@ return
 fTotalBytesUsed
 ;
 }
-virtual
 size_t
 getTotalByteLimit
 (
@@ -627,7 +621,6 @@ return
 fTotalByteLimit
 ;
 }
-virtual
 size_t
 setSingleAllocationByteLimit
 (
@@ -635,21 +628,18 @@ size_t
 maximumAllocationSize
 )
 ;
-virtual
 size_t
 getSingleAllocationByteLimit
 (
 )
 const
 ;
-virtual
 size_t
 getEffectiveSingleAllocationByteLimit
 (
 )
 const
 ;
-virtual
 size_t
 setTotalByteLimit
 (
@@ -657,7 +647,6 @@ size_t
 newLimit
 )
 ;
-virtual
 void
 purgeSharedID
 (
@@ -665,7 +654,6 @@ uint64_t
 sharedID
 )
 ;
-virtual
 void
 purgeAll
 (
@@ -680,7 +668,6 @@ true
 )
 ;
 }
-virtual
 DiscardableFactory
 discardableFactory
 (
@@ -691,7 +678,6 @@ return
 fDiscardableFactory
 ;
 }
-virtual
 SkCachedData
 *
 newCachedData
@@ -700,7 +686,6 @@ size_t
 bytes
 )
 ;
-virtual
 void
 dump
 (

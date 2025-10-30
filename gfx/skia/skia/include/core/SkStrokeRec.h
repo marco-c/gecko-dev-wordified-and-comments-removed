@@ -63,9 +63,6 @@ cstdint
 class
 SkPath
 ;
-class
-SkPathBuilder
-;
 SK_BEGIN_REQUIRE_DENSE
 class
 SK_API
@@ -356,7 +353,7 @@ style
 bool
 applyToPath
 (
-SkPathBuilder
+SkPath
 *
 dst
 const

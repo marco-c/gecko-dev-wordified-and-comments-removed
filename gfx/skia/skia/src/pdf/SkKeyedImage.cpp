@@ -285,8 +285,6 @@ makeSubset
 (
 nullptr
 subset
-{
-}
 )
 ;
 if

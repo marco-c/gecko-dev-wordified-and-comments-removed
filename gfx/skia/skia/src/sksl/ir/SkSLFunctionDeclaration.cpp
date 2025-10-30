@@ -1852,6 +1852,12 @@ ProgramKind
 :
 kGraphiteFragment
 :
+case
+ProgramKind
+:
+:
+kGraphiteFragmentES2
+:
 {
 bool
 validParams
@@ -1932,6 +1938,12 @@ ProgramKind
 :
 :
 kGraphiteVertex
+:
+case
+ProgramKind
+:
+:
+kGraphiteVertexES2
 :
 case
 ProgramKind

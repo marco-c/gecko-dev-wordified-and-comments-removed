@@ -159,9 +159,6 @@ class
 SkMatrix
 ;
 class
-SkPathBuilder
-;
-class
 SkStrokeRec
 ;
 struct
@@ -181,7 +178,7 @@ SkScalar
 start
 SkScalar
 stop
-SkPathBuilder
+SkPath
 *
 dst
 bool
@@ -318,7 +315,7 @@ SkTrimPE
 :
 onFilterPath
 (
-SkPathBuilder
+SkPath
 *
 dst
 const

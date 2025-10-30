@@ -1714,6 +1714,11 @@ buffer
 readScalarArray
 (
 kernel
+.
+get
+(
+)
+count
 )
 )
 {
@@ -1900,6 +1905,15 @@ buffer
 writeScalarArray
 (
 fKernel
+.
+data
+(
+)
+fKernel
+.
+size
+(
+)
 )
 ;
 buffer

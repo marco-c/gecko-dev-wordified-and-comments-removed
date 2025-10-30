@@ -117,7 +117,6 @@ static
 const
 char
 *
-const
 category
 =
 "

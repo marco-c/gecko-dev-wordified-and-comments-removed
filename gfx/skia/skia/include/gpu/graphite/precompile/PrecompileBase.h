@@ -39,6 +39,9 @@ class
 PaintParamsKeyBuilder
 ;
 class
+PipelineDataGatherer
+;
+class
 PrecompileBasePriv
 ;
 class
@@ -148,6 +151,10 @@ addToKey
 const
 KeyContext
 &
+PaintParamsKeyBuilder
+*
+PipelineDataGatherer
+*
 int
 desiredCombination
 )
@@ -199,6 +206,10 @@ AddToKey
 const
 KeyContext
 &
+PaintParamsKeyBuilder
+*
+PipelineDataGatherer
+*
 SkSpan
 <
 const

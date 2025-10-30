@@ -158,17 +158,6 @@ bool
 )
 {
 }
-virtual
-bool
-shouldDumpSizelessObjects
-(
-)
-const
-{
-return
-false
-;
-}
 protected
 :
 virtual

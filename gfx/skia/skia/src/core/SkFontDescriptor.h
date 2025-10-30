@@ -1046,14 +1046,6 @@ SkScalar
 width
 )
 ;
-static
-SkScalar
-SkFontWidthAxisValueForStyleWidth
-(
-int
-width
-)
-;
 private
 :
 SkString

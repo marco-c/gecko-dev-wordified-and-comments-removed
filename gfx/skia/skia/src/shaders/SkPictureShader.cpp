@@ -315,6 +315,7 @@ localMatrix
 >
 invert
 (
+nullptr
 )
 )
 {
@@ -1573,7 +1574,7 @@ tileScale
 SkMatrix
 :
 :
-RectToRectOrIdentity
+RectToRect
 (
 bounds
 SkRect

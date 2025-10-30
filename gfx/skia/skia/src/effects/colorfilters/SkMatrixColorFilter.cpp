@@ -317,6 +317,7 @@ buffer
 writeScalarArray
 (
 fMatrix
+20
 )
 ;
 buffer
@@ -374,6 +375,7 @@ buffer
 readScalarArray
 (
 matrix
+20
 )
 )
 {

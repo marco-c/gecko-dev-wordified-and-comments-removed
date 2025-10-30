@@ -48,10 +48,6 @@ fNext
 (
 nullptr
 )
-fCount
-(
-1
-)
 {
 }
 static
@@ -106,9 +102,6 @@ fValue
 ValueList
 *
 fNext
-;
-uint32_t
-fCount
 ;
 }
 ;
@@ -275,13 +268,6 @@ fValue
 =
 value
 ;
-list
--
->
-fCount
-+
-+
-;
 }
 else
 {
@@ -317,7 +303,7 @@ value
 {
 ValueList
 *
-root
+list
 =
 fHash
 .
@@ -325,12 +311,6 @@ find
 (
 key
 )
-;
-ValueList
-*
-list
-=
-root
 ;
 #
 if
@@ -374,7 +354,6 @@ this
 >
 internalRemove
 (
-root
 prev
 list
 key
@@ -429,7 +408,6 @@ this
 >
 internalRemove
 (
-root
 prev
 list
 key
@@ -561,7 +539,7 @@ f
 {
 ValueList
 *
-root
+list
 =
 fHash
 .
@@ -569,12 +547,6 @@ find
 (
 key
 )
-;
-ValueList
-*
-list
-=
-root
 ;
 ValueList
 *
@@ -612,7 +584,6 @@ this
 >
 internalRemove
 (
-root
 prev
 list
 key
@@ -837,9 +808,6 @@ internalRemove
 (
 ValueList
 *
-root
-ValueList
-*
 prev
 ValueList
 *
@@ -850,13 +818,6 @@ Key
 key
 )
 {
-root
--
->
-fCount
--
--
-;
 if
 (
 elem

@@ -15,9 +15,6 @@ SkSL
 class
 ErrorReporter
 ;
-struct
-NativeShader
-;
 class
 OutputStream
 ;
@@ -113,7 +110,10 @@ const
 ShaderCaps
 *
 caps
-NativeShader
+std
+:
+:
+string
 *
 out
 )

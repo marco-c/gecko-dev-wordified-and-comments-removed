@@ -58,6 +58,10 @@ void
 faceContext
 =
 nullptr
+SkPixelGeometry
+pixelGeometry
+=
+kUnknown_SkPixelGeometry
 uint8_t
 lcdFilter
 =

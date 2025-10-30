@@ -449,7 +449,7 @@ SkStrokeRec
 :
 applyToPath
 (
-SkPathBuilder
+SkPath
 *
 dst
 const

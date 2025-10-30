@@ -1120,10 +1120,7 @@ readByteArrayAsData
 (
 )
 ;
-std
-:
-:
-optional
+SkTLazy
 <
 SkMatrix
 >
@@ -1162,10 +1159,9 @@ buffer
 .
 readMatrix
 (
-&
 localM
 .
-emplace
+init
 (
 )
 )
@@ -1331,9 +1327,10 @@ SkSpan
 (
 children
 )
-SkOptAddressOrNull
-(
 localM
+.
+getMaybeNull
+(
 )
 )
 ;

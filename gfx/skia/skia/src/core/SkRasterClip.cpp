@@ -989,12 +989,14 @@ this
 ;
 SkPath
 devPath
-=
+;
 path
 .
-makeTransform
+transform
 (
 matrix
+&
+devPath
 )
 ;
 if

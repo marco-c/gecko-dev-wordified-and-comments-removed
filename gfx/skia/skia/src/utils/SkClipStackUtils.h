@@ -21,12 +21,16 @@ SkClipStack
 class
 SkPath
 ;
-SkPath
+void
 SkClipStack_AsPath
 (
 const
 SkClipStack
 &
+cs
+SkPath
+*
+path
 )
 ;
 #

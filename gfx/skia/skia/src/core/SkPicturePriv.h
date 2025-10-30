@@ -262,15 +262,12 @@ kCombineColorShaders
 kSerializeStableKeys
 =
 108
-kWorkingColorSpaceOutput
-=
-109
 kMin_Version
 =
 kPictureShaderFilterParam_Version
 kCurrent_Version
 =
-kWorkingColorSpaceOutput
+kSerializeStableKeys
 }
 ;
 }

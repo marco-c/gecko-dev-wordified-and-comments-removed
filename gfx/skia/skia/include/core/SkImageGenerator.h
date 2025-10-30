@@ -83,7 +83,7 @@ include
 cstdint
 >
 class
-SkRecorder
+GrRecordingContext
 ;
 class
 SK_API
@@ -140,9 +140,9 @@ fInfo
 bool
 isValid
 (
-SkRecorder
+GrRecordingContext
 *
-recorder
+context
 )
 const
 {
@@ -152,7 +152,7 @@ this
 >
 onIsValid
 (
-recorder
+context
 )
 ;
 }
@@ -316,7 +316,7 @@ virtual
 bool
 onIsValid
 (
-SkRecorder
+GrRecordingContext
 *
 )
 const

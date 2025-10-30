@@ -26,17 +26,6 @@ SkColorType
 .
 h
 "
-#
-include
-"
-include
-/
-core
-/
-SkRect
-.
-h
-"
 class
 SkArenaAlloc
 ;
@@ -74,9 +63,6 @@ const
 SkSurfaceProps
 &
 fSurfaceProps
-;
-SkRect
-fDstBounds
 ;
 }
 ;
