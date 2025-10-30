@@ -1190,6 +1190,11 @@ mTrackSource
 ;
 }
 bool
+mAllocated
+=
+false
+;
+bool
 mStopped
 =
 false
@@ -1859,6 +1864,8 @@ LocalTrackSource
 aTrackSource
 bool
 aStartMuted
+bool
+aIsAllocated
 )
 ;
 RefPtr
@@ -2251,6 +2258,8 @@ RefPtr
 LocalTrackSource
 >
 aTrackSource
+bool
+aIsAllocated
 )
 {
 MOZ_ASSERT
@@ -2395,6 +2404,7 @@ move
 aTrackSource
 )
 muted
+aIsAllocated
 )
 ;
 mActiveListeners
@@ -8509,6 +8519,7 @@ move
 (
 audioTrackSource
 )
+true
 )
 ;
 }
@@ -8531,6 +8542,7 @@ move
 (
 videoTrackSource
 )
+true
 )
 ;
 }
@@ -23216,6 +23228,8 @@ LocalTrackSource
 aTrackSource
 bool
 aStartMuted
+bool
+aIsAllocated
 )
 {
 MOZ_ASSERT
@@ -23448,6 +23462,13 @@ mDeviceState
 mDeviceMuted
 =
 aStartMuted
+;
+mDeviceState
+-
+>
+mAllocated
+=
+aIsAllocated
 ;
 if
 (
@@ -24170,6 +24191,14 @@ Stop
 (
 )
 ;
+if
+(
+mDeviceState
+-
+>
+mAllocated
+)
+{
 MediaManager
 :
 :
@@ -24206,6 +24235,7 @@ Deallocate
 )
 )
 ;
+}
 mWindowListener
 -
 >
