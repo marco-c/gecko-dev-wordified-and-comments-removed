@@ -1528,6 +1528,13 @@ wayland
 :
 [
 ]
+.
+*
+/
+debug
+:
+[
+]
 default
 :
 [
@@ -4366,6 +4373,13 @@ android
 wayland
 .
 *
+:
+[
+]
+.
+*
+/
+debug
 :
 [
 ]
