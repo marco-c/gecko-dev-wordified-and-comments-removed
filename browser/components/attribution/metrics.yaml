@@ -345,10 +345,6 @@ events
 expires
 :
 never
-no_lint
-:
--
-BASELINE_PING
 structure
 :
 type
@@ -528,10 +524,6 @@ events
 expires
 :
 never
-no_lint
-:
--
-BASELINE_PING
 structure
 :
 type

@@ -14875,6 +14875,10 @@ send_in_pings
 newtab
 -
 content
+no_lint
+:
+-
+HIGHER_DATA_SENSITIVITY_REQUIRED
 top_sites
 :
 #

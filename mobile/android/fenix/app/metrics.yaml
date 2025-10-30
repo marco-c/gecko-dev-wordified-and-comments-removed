@@ -33423,10 +33423,6 @@ com
 expires
 :
 never
-no_lint
-:
--
-USER_LIFETIME_EXPIRATION
 metadata
 :
 tags
@@ -85366,6 +85362,10 @@ tags
 :
 -
 Wallpapers
+no_lint
+:
+-
+HIGHER_DATA_SENSITIVITY_REQUIRED
 recently_visited_homepage
 :
 history_highlight_opened

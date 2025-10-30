@@ -4682,10 +4682,6 @@ passwords
 telemetry_mirror
 :
 PWMGR_POTENTIALLY_BREACHED_PASSWORDS
-no_lint
-:
--
-UNIT_IN_NAME
 num_saved_passwords
 :
 type
@@ -4756,10 +4752,6 @@ org
 expires
 :
 never
-no_lint
-:
--
-UNIT_IN_NAME
 rust_mirror_status
 :
 type
