@@ -14833,6 +14833,9 @@ AllOf
 (
 Field
 (
+"
+id
+"
 &
 webrtc
 :
@@ -14845,6 +14848,9 @@ id
 )
 Field
 (
+"
+packetization
+"
 &
 webrtc
 :
@@ -14862,6 +14868,9 @@ AllOf
 (
 Field
 (
+"
+id
+"
 &
 webrtc
 :
@@ -14874,6 +14883,9 @@ id
 )
 Field
 (
+"
+packetization
+"
 &
 webrtc
 :
@@ -14907,6 +14919,9 @@ AllOf
 (
 Field
 (
+"
+id
+"
 &
 webrtc
 :
@@ -14919,6 +14934,9 @@ id
 )
 Field
 (
+"
+packetization
+"
 &
 webrtc
 :
@@ -14936,6 +14954,9 @@ AllOf
 (
 Field
 (
+"
+id
+"
 &
 webrtc
 :
@@ -14948,6 +14969,9 @@ id
 )
 Field
 (
+"
+packetization
+"
 &
 webrtc
 :
@@ -14965,6 +14989,9 @@ AllOf
 (
 Field
 (
+"
+id
+"
 &
 webrtc
 :
@@ -14977,6 +15004,9 @@ id
 )
 Field
 (
+"
+packetization
+"
 &
 webrtc
 :
