@@ -611,7 +611,6 @@ ModuleType
 :
 :
 JavaScript
-fetchOptions
 SRIMetadata
 (
 )

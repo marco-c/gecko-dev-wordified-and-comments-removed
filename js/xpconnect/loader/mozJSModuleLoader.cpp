@@ -5107,7 +5107,6 @@ ModuleType
 :
 :
 JavaScript
-options
 dom
 :
 :
