@@ -248,8 +248,6 @@ CLEAR_VARS
 )
 #
 include
-jni
-/
 libvpx
 /
 build

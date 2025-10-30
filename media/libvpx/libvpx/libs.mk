@@ -1714,6 +1714,13 @@ CODEC_LIB
 .
 lib
 )
+ifeq
+(
+(
+CONFIG_STATIC
+)
+yes
+)
 INSTALL
 -
 LIBS
@@ -1744,6 +1751,7 @@ d
 .
 lib
 )
+endif
 INSTALL
 -
 LIBS
@@ -1816,6 +1824,13 @@ LIBSUBDIR
 libvpx
 .
 a
+ifeq
+(
+(
+CONFIG_STATIC
+)
+yes
+)
 INSTALL
 -
 LIBS
@@ -1832,6 +1847,7 @@ LIBSUBDIR
 libvpx_g
 .
 a
+endif
 endif
 CODEC_SRCS
 =
