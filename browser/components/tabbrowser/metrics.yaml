@@ -737,9 +737,6 @@ tab_movement
 type
 :
 labeled_counter
-disabled
-:
-true
 description
 :
 >
@@ -4260,9 +4257,6 @@ open_from_external_app
 type
 :
 event
-disabled
-:
-true
 description
 :
 >
