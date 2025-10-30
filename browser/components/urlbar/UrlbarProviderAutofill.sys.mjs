@@ -6554,6 +6554,9 @@ _searchString
 ignoreKnownDomains
 :
 true
+allowPartialNumericalTLDs
+:
+true
 }
 )
 )
