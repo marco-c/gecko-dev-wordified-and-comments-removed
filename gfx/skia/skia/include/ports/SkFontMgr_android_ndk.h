@@ -46,17 +46,6 @@ SkFontMgr_New_AndroidNDK
 (
 bool
 cacheFontFiles
-)
-;
-SK_API
-sk_sp
-<
-SkFontMgr
->
-SkFontMgr_New_AndroidNDK
-(
-bool
-cacheFontFiles
 std
 :
 :

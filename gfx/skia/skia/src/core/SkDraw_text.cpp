@@ -379,8 +379,11 @@ INT16_MIN
 )
 ;
 }
+namespace
+skcpu
+{
 void
-SkDraw
+Draw
 :
 :
 paintMasks
@@ -434,6 +437,12 @@ clipShader
 SkSurfacePropsCopyOrDefault
 (
 fProps
+)
+SkRect
+:
+:
+MakeEmpty
+(
 )
 )
 ;
@@ -867,7 +876,7 @@ bounds
 }
 }
 void
-SkDraw
+Draw
 :
 :
 drawGlyphRunList
@@ -875,7 +884,7 @@ drawGlyphRunList
 SkCanvas
 *
 canvas
-SkGlyphRunListPainterCPU
+GlyphRunListPainter
 *
 glyphPainter
 const
@@ -928,6 +937,7 @@ paint
 fCTM
 )
 ;
+}
 }
 #
 if

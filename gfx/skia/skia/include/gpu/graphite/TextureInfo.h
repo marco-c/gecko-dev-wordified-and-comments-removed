@@ -133,7 +133,7 @@ default
 ;
 Data
 (
-uint32_t
+uint8_t
 sampleCount
 skgpu
 :
@@ -179,7 +179,7 @@ Data
 =
 default
 ;
-uint32_t
+uint8_t
 fSampleCount
 =
 1
@@ -359,7 +359,7 @@ return
 fBackend
 ;
 }
-uint32_t
+uint8_t
 numSamples
 (
 )

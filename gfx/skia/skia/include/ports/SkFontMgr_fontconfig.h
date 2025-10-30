@@ -55,17 +55,5 @@ SkFontScanner
 scanner
 )
 ;
-SK_API
-sk_sp
-<
-SkFontMgr
->
-SkFontMgr_New_FontConfig
-(
-FcConfig
-*
-fc
-)
-;
 #
 endif

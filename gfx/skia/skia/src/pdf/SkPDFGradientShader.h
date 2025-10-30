@@ -165,7 +165,7 @@ std
 :
 unique_ptr
 <
-SkColor
+SkColor4f
 [
 ]
 >

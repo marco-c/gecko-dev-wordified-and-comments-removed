@@ -1529,6 +1529,7 @@ SkRefCnt
 }
 ;
 class
+SK_API
 HeapAllocator
 :
 public

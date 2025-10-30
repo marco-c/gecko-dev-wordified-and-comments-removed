@@ -423,12 +423,9 @@ paint
 )
 {
 fPaint
-.
-set
-(
+=
 *
 paint
-)
 ;
 }
 }
@@ -500,10 +497,9 @@ drawPicture
 fPicture
 &
 fMatrix
-fPaint
-.
-getMaybeNull
+SkOptAddressOrNull
 (
+fPaint
 )
 )
 ;

@@ -38,7 +38,7 @@ SkScalar
 h
 "
 class
-SkPath
+SkPathBuilder
 ;
 #
 define
@@ -124,7 +124,7 @@ void
 CapProc
 )
 (
-SkPath
+SkPathBuilder
 *
 path
 const
@@ -139,9 +139,8 @@ const
 SkPoint
 &
 stop
-SkPath
-*
-otherPath
+bool
+extendLastPt
 )
 ;
 typedef
@@ -151,10 +150,10 @@ void
 JoinProc
 )
 (
-SkPath
+SkPathBuilder
 *
 outer
-SkPath
+SkPathBuilder
 *
 inner
 const

@@ -439,6 +439,16 @@ fForceStd430ArrayLayout
 =
 false
 ;
+bool
+fCannotUseRelaxedPrecisionOnImageSample
+=
+false
+;
+bool
+fVectorClampMinMaxSupport
+=
+true
+;
 const
 char
 *
@@ -502,6 +512,7 @@ SkSL
 :
 ShaderCaps
 *
+const
 sCaps
 =
 [
@@ -568,6 +579,7 @@ SkSL
 :
 ShaderCaps
 *
+const
 sCaps
 =
 MakeShaderCaps

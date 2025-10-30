@@ -1253,6 +1253,15 @@ has
 gid
 )
 )
+&
+&
+!
+glyphToUnicodeEx
+.
+find
+(
+gid
+)
 ;
 if
 (

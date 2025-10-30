@@ -104,13 +104,6 @@ store
 struct
 MemoryCtxPatch
 {
-MemoryCtxInfo
-info
-;
-void
-*
-backup
-;
 std
 :
 :
@@ -119,6 +112,13 @@ scratch
 [
 kMaxScratchPerPatch
 ]
+;
+MemoryCtxInfo
+info
+;
+void
+*
+backup
 ;
 }
 ;
