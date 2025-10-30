@@ -3002,6 +3002,8 @@ uint32_t
 aLoadType
 bool
 aUserActivation
+bool
+aNotifiedBeforeUnloadListeners
 )
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
