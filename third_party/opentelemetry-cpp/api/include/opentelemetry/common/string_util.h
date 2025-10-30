@@ -3,6 +3,13 @@ pragma
 once
 #
 include
+<
+ctype
+.
+h
+>
+#
+include
 "
 opentelemetry
 /

@@ -426,6 +426,8 @@ chrono
 :
 :
 microseconds
+timeout
+OPENTELEMETRY_MAYBE_UNUSED
 )
 noexcept
 override
