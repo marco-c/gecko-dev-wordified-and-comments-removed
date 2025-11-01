@@ -590,6 +590,20 @@ label
 )
     
 if
+config
+.
+params
+[
+"
+repository_type
+"
+]
+=
+=
+"
+hg
+"
+and
 run
 [
 "
