@@ -3020,10 +3020,14 @@ return
 if
 dependency
 .
+selector
+.
+is_rightmost
+(
+dependency
+.
 selector_offset
-=
-=
-0
+)
 {
 let
 force_add
