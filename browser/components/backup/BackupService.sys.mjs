@@ -20069,7 +20069,6 @@ parse
 that
 instead
 .
-[
 "
 about
 :
@@ -20091,7 +20090,6 @@ name
 "
 "
 )
-]
 )
 ;
 }

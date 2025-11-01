@@ -779,17 +779,6 @@ command
 id
 =
 "
-Profiles
-:
-MoveTabsToProfile
-"
-/
->
-<
-command
-id
-=
-"
 Browser
 :
 NextTab

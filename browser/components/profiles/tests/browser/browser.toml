@@ -506,13 +506,6 @@ js
 "
 [
 "
-browser_moveTabToProfile
-.
-js
-"
-]
-[
-"
 browser_notify_changes
 .
 js
