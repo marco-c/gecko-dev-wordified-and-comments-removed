@@ -1589,6 +1589,14 @@ platform
 tests
 -
 crashtest
+windows
+-
+aarch64
+-
+tests
+:
+-
+cppunittest
 windows10
 -
 2009
