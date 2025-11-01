@@ -2022,12 +2022,12 @@ getBoolPref
 UPLOAD_ENABLED_PREF
 false
 )
+;
 this
 .
 #
 studiesEnabled
 =
-(
 this
 .
 #
@@ -2053,7 +2053,6 @@ isAllowed
 "
 Shield
 "
-)
 )
 ;
 }
