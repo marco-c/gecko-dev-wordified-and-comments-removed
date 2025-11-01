@@ -983,6 +983,11 @@ Init
 (
 )
 ;
+void
+UpdateDiskCache
+(
+)
+;
 static
 void
 LoadCompleted
