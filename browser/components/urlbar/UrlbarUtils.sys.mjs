@@ -7650,13 +7650,16 @@ object
 *
 param
 {
-keyof
+Values
+<
 typeof
 this
 .
 RESULT_SOURCE
+>
 }
 source
+*
 A
 UrlbarUtils
 .
@@ -7668,6 +7671,7 @@ returns
 {
 string
 }
+*
 The
 token
 '
@@ -7679,7 +7683,6 @@ name
 in
 the
 RESULT_SOURCE
-*
 object
 .
 *
