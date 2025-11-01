@@ -5206,10 +5206,6 @@ nsCString
 >
 &
 aFontList
-bool
-aLocalized
-=
-false
 )
 ;
 static
