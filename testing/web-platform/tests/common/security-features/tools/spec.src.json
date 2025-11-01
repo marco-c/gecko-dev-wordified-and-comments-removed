@@ -699,6 +699,13 @@ sharedworker
 module
 "
 "
+svg
+-
+a
+-
+tag
+"
+"
 video
 -
 tag
@@ -2590,6 +2597,13 @@ data
 sharedworker
 -
 module
+"
+"
+svg
+-
+a
+-
+tag
 "
 "
 video
