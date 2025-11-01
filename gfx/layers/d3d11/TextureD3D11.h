@@ -1684,15 +1684,6 @@ ID3D11Device
 *
 const
 aDevice
-DataMutex
-<
-RefPtr
-<
-VideoProcessorD3D11
->
->
-&
-aVideoProcessorD3D11
 )
 ;
 void

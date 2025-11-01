@@ -227,6 +227,13 @@ GpuProcessTextureId
 aTextureId
 )
 ;
+void
+DisableZeroCopyNV12Texture
+(
+GpuProcessTextureId
+aTextureId
+)
+;
 size_t
 GetWaitingTextureCount
 (
