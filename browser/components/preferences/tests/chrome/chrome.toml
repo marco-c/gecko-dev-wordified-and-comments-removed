@@ -86,3 +86,10 @@ test_setting_group
 html
 "
 ]
+[
+"
+test_sync_device_name
+.
+html
+"
+]
