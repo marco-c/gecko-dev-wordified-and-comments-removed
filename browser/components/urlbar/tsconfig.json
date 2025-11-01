@@ -63,13 +63,6 @@ sys
 mjs
 "
 "
-UrlbarValueFormatter
-.
-sys
-.
-mjs
-"
-"
 UrlbarView
 .
 sys
