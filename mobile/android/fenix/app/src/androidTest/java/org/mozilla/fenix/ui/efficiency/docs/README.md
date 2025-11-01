@@ -484,9 +484,7 @@ to
 own
 their
 features
-*
-and
-*
+_and_
 their
 tests
 .
