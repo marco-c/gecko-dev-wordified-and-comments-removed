@@ -14856,8 +14856,6 @@ setGrayBitsInvalid
 (
 )
 ;
-return
-;
 }
 }
 bool
