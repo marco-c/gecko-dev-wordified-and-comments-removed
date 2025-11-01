@@ -3850,18 +3850,6 @@ Button
 )
 if
 (
-Build
-.
-VERSION
-.
-SDK_INT
->
-=
-23
-)
-{
-if
-(
 whileUsingTheAppPermissionButton
 .
 waitForExists
@@ -3978,7 +3966,6 @@ button
 .
 "
 )
-}
 }
 }
 /

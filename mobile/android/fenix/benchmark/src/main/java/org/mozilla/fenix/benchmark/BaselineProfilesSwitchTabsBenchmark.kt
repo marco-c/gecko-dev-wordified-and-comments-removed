@@ -91,12 +91,6 @@ SystemClock
 import
 androidx
 .
-annotation
-.
-RequiresApi
-import
-androidx
-.
 benchmark
 .
 macro
@@ -627,14 +621,6 @@ Parameterized
 :
 :
 class
-)
-RequiresApi
-(
-Build
-.
-VERSION_CODES
-.
-N
 )
 BaselineProfileMacrobenchmark
 class

@@ -370,20 +370,6 @@ String
 :
 Boolean
 {
-if
-(
-Build
-.
-VERSION
-.
-SDK_INT
-<
-23
-)
-{
-return
-true
-}
 return
 PackageManager
 .
@@ -5663,7 +5649,6 @@ uri
 equalTo
 (
 notificationPerm
-?
 .
 uri
 )
@@ -5682,7 +5667,6 @@ permission
 equalTo
 (
 notificationPerm
-?
 .
 permission
 )
@@ -5701,7 +5685,6 @@ value
 equalTo
 (
 notificationPerm
-?
 .
 value
 )
@@ -5721,7 +5704,6 @@ contextId
 equalTo
 (
 notificationPerm
-?
 .
 contextId
 )
@@ -5741,7 +5723,6 @@ privateMode
 equalTo
 (
 notificationPerm
-?
 .
 privateMode
 )
