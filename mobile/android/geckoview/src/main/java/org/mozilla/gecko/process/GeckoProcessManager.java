@@ -922,6 +922,9 @@ int
 getPid
 (
 )
+throws
+AssertionError
+IncompleteChildConnectionException
 {
 XPCOMEventTarget
 .
