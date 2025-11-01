@@ -983,6 +983,11 @@ Init
 (
 )
 ;
+bool
+MaybeScheduleUpdateDiskCache
+(
+)
+;
 void
 UpdateDiskCache
 (
