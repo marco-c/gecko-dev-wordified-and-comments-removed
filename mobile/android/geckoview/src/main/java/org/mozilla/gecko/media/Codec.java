@@ -2801,7 +2801,7 @@ final
 AsyncCodec
 codec
 =
-AsyncCodecFactory
+AsyncCodec
 .
 create
 (
