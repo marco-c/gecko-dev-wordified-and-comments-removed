@@ -411,6 +411,13 @@ html
 ]
 [
 "
+test_exception_line_column
+.
+html
+"
+]
+[
+"
 test_exception_messages
 .
 html
