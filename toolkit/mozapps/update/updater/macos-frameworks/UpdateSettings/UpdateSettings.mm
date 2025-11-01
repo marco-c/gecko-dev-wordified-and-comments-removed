@@ -5,15 +5,6 @@ UpdateSettings
 .
 h
 "
-#
-include
-"
-mozilla
-/
-HelperMacros
-.
-h
-"
 NSString
 *
 UpdateSettingsGetAcceptedMARChannels

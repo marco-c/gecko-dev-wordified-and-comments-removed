@@ -27,15 +27,6 @@ h
 #
 include
 "
-mozilla
-/
-Maybe
-.
-h
-"
-#
-include
-"
 nsIGleanPing
 .
 h

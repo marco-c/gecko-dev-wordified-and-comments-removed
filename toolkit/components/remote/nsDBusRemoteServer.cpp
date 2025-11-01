@@ -42,15 +42,6 @@ include
 "
 mozilla
 /
-ScopeExit
-.
-h
-"
-#
-include
-"
-mozilla
-/
 GUniquePtr
 .
 h

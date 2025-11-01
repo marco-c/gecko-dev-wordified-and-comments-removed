@@ -26,15 +26,6 @@ include
 "
 mozilla
 /
-ResultVariant
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 PrimitiveConversions
