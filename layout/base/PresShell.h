@@ -1965,7 +1965,6 @@ ScrollContainerFrame
 *
 aScrollContainer
 )
-const
 ;
 inline
 void
