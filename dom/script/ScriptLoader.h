@@ -2005,6 +2005,9 @@ UpdateDiskCache
 (
 )
 ;
+public
+:
+static
 void
 EncodeBytecodeAndSave
 (
@@ -2025,6 +2028,8 @@ LoadedScript
 aLoadedScript
 )
 ;
+private
+:
 void
 GiveUpDiskCaching
 (
