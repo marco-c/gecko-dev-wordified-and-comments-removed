@@ -571,7 +571,7 @@ CoroutineScope
 (
 Dispatchers
 .
-IO
+Main
 )
 )
 :
@@ -716,6 +716,11 @@ TrustPanelState
 scope
 .
 launch
+(
+Dispatchers
+.
+Main
+)
 {
 currentState
 .
