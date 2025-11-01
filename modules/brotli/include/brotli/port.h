@@ -1496,13 +1496,6 @@ BROTLI_PUBLIC
 endif
 #
 if
-!
-defined
-(
-BROTLI_INTERNAL
-)
-#
-if
 defined
 (
 _WIN32
@@ -1612,8 +1605,6 @@ else
 #
 define
 BROTLI_INTERNAL
-#
-endif
 #
 endif
 #
