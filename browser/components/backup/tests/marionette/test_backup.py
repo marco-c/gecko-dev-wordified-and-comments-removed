@@ -746,7 +746,7 @@ newProfileName
             
 newProfilePath
             
-expectedClientID
+intermediateClientID
             
 osKeyStoreLabel
         
@@ -1089,7 +1089,7 @@ profile
 }
             
 let
-expectedClientID
+intermediateClientID
 =
 await
 ClientID
@@ -1109,7 +1109,7 @@ newProfile
 rootDir
 .
 path
-expectedClientID
+intermediateClientID
 OSKeyStore
 .
 STORE_LABEL
@@ -1171,11 +1171,11 @@ print
 (
 f
 "
-Expected
+Intermediate
 clientID
 :
 {
-expectedClientID
+intermediateClientID
 }
 "
 )
@@ -1634,10 +1634,10 @@ outerResolve
         
 self
 .
-assertEqual
+assertNotEqual
 (
 recoveredClientID
-expectedClientID
+intermediateClientID
 )
         
 self
