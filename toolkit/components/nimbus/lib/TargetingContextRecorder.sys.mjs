@@ -1128,11 +1128,6 @@ profileAgeCreated
 typeAssertions
 .
 quantity
-profileGroupProfileCount
-:
-typeAssertions
-.
-quantity
 region
 :
 typeAssertions
