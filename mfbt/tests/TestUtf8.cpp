@@ -1296,7 +1296,6 @@ asciiBytes
 [
 ]
 =
-u8
 "
 How
 about
@@ -1333,7 +1332,6 @@ endNonAsciiBytes
 [
 ]
 =
-u8
 "
 Life
 is
@@ -1402,7 +1400,6 @@ oneBytes
 [
 ]
 =
-u8
 "
 A
 "
@@ -1453,7 +1450,6 @@ twoBytes
 [
 ]
 =
-u8
 "
 "
 ;
@@ -1512,7 +1508,6 @@ threeBytes
 [
 ]
 =
-u8
 "
 "
 ;
@@ -1571,7 +1566,6 @@ fourBytes
 [
 ]
 =
-u8
 "
 "
 ;
@@ -1630,7 +1624,6 @@ maxCodePoint
 [
 ]
 =
-u8
 "
 "
 ;
@@ -2050,7 +2043,6 @@ TestDecodeOneValidUtf8CodePoint
 {
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x80
@@ -2058,7 +2050,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xA9
@@ -2066,7 +2057,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xB6
@@ -2074,7 +2064,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xBE
@@ -2082,7 +2071,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xF7
@@ -2090,7 +2078,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xFF
@@ -2098,7 +2085,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x100
@@ -2106,7 +2092,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x132
@@ -2114,7 +2099,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x37C
@@ -2122,7 +2106,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x4DC
@@ -2130,7 +2113,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x6E9
@@ -2138,7 +2120,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x7FF
@@ -2146,7 +2127,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x800
@@ -2154,7 +2134,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x841
@@ -2162,7 +2141,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x8FF
@@ -2170,7 +2148,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xB86
@@ -2178,7 +2155,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xF03
@@ -2186,7 +2162,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xFC9
@@ -2194,7 +2169,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x102A
@@ -2202,7 +2176,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x168F
@@ -2236,7 +2209,6 @@ xA9
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x262C
@@ -2244,7 +2216,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x32AE
@@ -2252,7 +2223,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x33D6
@@ -2260,7 +2230,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xA504
@@ -2268,7 +2237,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xD7D5
@@ -2276,7 +2244,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xD7FF
@@ -2284,7 +2251,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xE000
@@ -2292,7 +2258,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xF9F2
@@ -2300,7 +2265,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xFDFD
@@ -2308,7 +2272,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xFFFF
@@ -2316,7 +2279,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x10000
@@ -2324,7 +2286,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x14440
@@ -2332,7 +2293,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x1D6D7
@@ -2340,7 +2300,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x1F4A9
@@ -2348,7 +2307,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x1F52B
@@ -2356,7 +2314,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x1F94C
@@ -2364,7 +2321,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x1F94F
@@ -2372,7 +2328,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x20346
@@ -2380,7 +2335,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x2183A
@@ -2388,7 +2342,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x417F6
@@ -2396,7 +2349,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x7E836
@@ -2404,7 +2356,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xFEF67
@@ -2412,7 +2363,6 @@ u8
 ;
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x10FFFF
