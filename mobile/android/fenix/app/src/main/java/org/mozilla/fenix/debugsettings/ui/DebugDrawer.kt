@@ -655,6 +655,14 @@ DebugDrawerHome
 destinations
 =
 destinations
+.
+filter
+{
+!
+it
+.
+isChildDestination
+}
 )
 }
 destinations
