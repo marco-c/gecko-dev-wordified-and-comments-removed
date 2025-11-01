@@ -48,6 +48,15 @@ include
 "
 mozilla
 /
+JSONWriter
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h

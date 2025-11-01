@@ -7,6 +7,15 @@ UrlClassifierTelemetryUtils_h__
 #
 include
 "
+mozilla
+/
+TypedEnumBits
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h

@@ -70,6 +70,15 @@ include
 "
 mozilla
 /
+Result
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ResultVariant
 .
 h

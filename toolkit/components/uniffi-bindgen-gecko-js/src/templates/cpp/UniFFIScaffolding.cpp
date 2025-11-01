@@ -26,6 +26,15 @@ include
 "
 mozilla
 /
+Maybe
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h

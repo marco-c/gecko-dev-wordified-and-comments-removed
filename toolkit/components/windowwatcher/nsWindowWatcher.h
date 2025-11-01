@@ -49,6 +49,15 @@ h
 #
 include
 "
+mozilla
+/
+Maybe
+.
+h
+"
+#
+include
+"
 nsIWindowCreator
 .
 h

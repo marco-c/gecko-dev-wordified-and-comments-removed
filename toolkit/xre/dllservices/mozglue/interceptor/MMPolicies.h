@@ -63,6 +63,15 @@ include
 "
 mozilla
 /
+TypedEnumBits
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WindowsMapRemoteView
 .
 h

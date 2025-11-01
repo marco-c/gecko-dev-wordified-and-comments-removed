@@ -89,6 +89,15 @@ h
 ifdef
 MOZ_SANDBOX
 #
+include
+"
+mozilla
+/
+RandomNum
+.
+h
+"
+#
 endif
 #
 include

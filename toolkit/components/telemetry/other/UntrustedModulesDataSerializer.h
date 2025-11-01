@@ -25,6 +25,15 @@ h
 #
 include
 "
+mozilla
+/
+Vector
+.
+h
+"
+#
+include
+"
 nsTHashMap
 .
 h

@@ -119,6 +119,15 @@ include
 "
 mozilla
 /
+Variant
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_browser
 .
 h

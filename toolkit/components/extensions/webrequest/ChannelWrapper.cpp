@@ -92,6 +92,15 @@ include
 "
 mozilla
 /
+ResultExtensions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Try
 .
 h

@@ -100,6 +100,15 @@ include
 "
 mozilla
 /
+MemoryChecking
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Sprintf
 .
 h

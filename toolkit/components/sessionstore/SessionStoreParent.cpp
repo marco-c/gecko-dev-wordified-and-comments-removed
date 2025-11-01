@@ -50,6 +50,15 @@ include
 "
 mozilla
 /
+ScopeExit
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 BrowserParent

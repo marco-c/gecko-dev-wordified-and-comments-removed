@@ -112,6 +112,15 @@ include
 "
 mozilla
 /
+Vector
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WindowsProcessMitigations
 .
 h
