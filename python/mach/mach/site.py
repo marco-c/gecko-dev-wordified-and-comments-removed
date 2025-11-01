@@ -4382,6 +4382,15 @@ site
             
 )
         
+check_errors
+:
+str
+=
+"
+\
+n
+"
+        
 check_result
 =
 subprocess
@@ -4418,6 +4427,10 @@ STDOUT
 text
 =
 True
+            
+check
+=
+False
         
 )
         
@@ -4429,6 +4442,21 @@ returncode
 :
             
 return
+        
+else
+:
+            
+check_errors
++
+=
+"
+\
+n
+"
++
+check_result
+.
+stdout
         
 "
 "
@@ -4888,6 +4916,10 @@ STDOUT
 text
 =
 True
+            
+check
+=
+False
         
 )
         
@@ -4896,6 +4928,27 @@ check_result
 .
 returncode
 :
+            
+if
+check_result
+.
+stdout
+not
+in
+check_errors
+:
+                
+check_errors
++
+=
+"
+\
+n
+"
++
+check_result
+.
+stdout
             
 if
 quiet
@@ -5016,6 +5069,8 @@ each
 other
 .
 "
++
+check_errors
             
 )
     
@@ -7720,6 +7775,8 @@ python
         
 )
         
+sys
+.
 exit
 (
 1
@@ -8270,6 +8327,10 @@ UTF
 -
 8
 "
+            
+check
+=
+False
         
 )
         
@@ -8557,6 +8618,10 @@ STDOUT
 text
 =
 True
+            
+check
+=
+False
         
 )
         
@@ -8854,6 +8919,10 @@ UTF
 -
 8
 "
+        
+check
+=
+False
     
 )
     
