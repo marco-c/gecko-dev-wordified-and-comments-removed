@@ -7483,7 +7483,7 @@ message
 was
 targeted
 to
-differnet
+different
 window
 "
 )
@@ -17209,6 +17209,14 @@ mModKeyState
 IsAlt
 (
 )
+&
+&
+!
+mModKeyState
+.
+IsWin
+(
+)
 )
 {
 return
@@ -17664,6 +17672,8 @@ Unset
 MODIFIER_ALT
 |
 MODIFIER_CONTROL
+|
+MODIFIER_META
 )
 ;
 }
