@@ -8,9 +8,6 @@ TestDllBlocklistAssumptions
 TestDllInterceptor
 "
 "
-TestIATPatcher
-"
-"
 TestMMPolicy
 "
 "
@@ -43,6 +40,9 @@ GeckoCppUnitTests
 [
 "
 TestDllInterceptorCrossProcess
+"
+"
+TestIATPatcher
 "
 ]
 linkage
