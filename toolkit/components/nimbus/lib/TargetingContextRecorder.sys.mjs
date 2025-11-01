@@ -1128,6 +1128,11 @@ profileAgeCreated
 typeAssertions
 .
 quantity
+profileGroupProfileCount
+:
+typeAssertions
+.
+quantity
 region
 :
 typeAssertions
@@ -1597,6 +1602,15 @@ browser
 newtabpage
 .
 enabled
+"
+:
+PREF_BOOL
+"
+browser
+.
+profiles
+.
+created
 "
 :
 PREF_BOOL
