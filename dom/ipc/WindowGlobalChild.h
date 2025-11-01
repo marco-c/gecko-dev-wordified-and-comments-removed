@@ -521,6 +521,7 @@ nsACString
 GetRemoteType
 (
 )
+const
 override
 ;
 already_AddRefed

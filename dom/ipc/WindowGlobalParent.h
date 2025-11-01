@@ -419,6 +419,7 @@ BrowserParent
 GetBrowserParent
 (
 )
+const
 ;
 ContentParent
 *
@@ -937,6 +938,7 @@ nsACString
 GetRemoteType
 (
 )
+const
 override
 ;
 void
