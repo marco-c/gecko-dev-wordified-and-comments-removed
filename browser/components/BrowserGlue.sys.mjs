@@ -10417,7 +10417,6 @@ selectedTab
 tab
 ;
 }
-async
 _showSetToDefaultSpotlight
 (
 message
@@ -10929,6 +10928,21 @@ selectedBrowser
 return
 ;
 }
+/
+/
+Intentionally
+don
+'
+t
+await
+the
+returned
+user
+'
+s
+response
+promise
+.
 lazy
 .
 DefaultBrowserCheck
@@ -10946,6 +10960,7 @@ ASRouter
 .
 waitForInitialized
 ;
+await
 lazy
 .
 ASRouter

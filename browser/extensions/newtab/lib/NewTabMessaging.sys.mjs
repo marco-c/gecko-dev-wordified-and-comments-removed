@@ -768,7 +768,6 @@ browser
 }
 }
 }
-async
 onAction
 (
 action

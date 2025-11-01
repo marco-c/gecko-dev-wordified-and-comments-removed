@@ -883,7 +883,6 @@ uninit
 .
 *
 /
-async
 init
 (
 feedFactories
@@ -1059,13 +1058,6 @@ message
 manager
 channel
 .
-*
-*
-return
-{
-type
-}
-description
 *
 /
 uninit
