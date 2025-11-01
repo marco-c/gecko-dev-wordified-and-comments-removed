@@ -169,9 +169,9 @@ gfxContext
 *
 mRenderingContext
 ;
-AnchorPosResolutionCache
+AnchorPosReferenceData
 *
-mAnchorPosResolutionCache
+mAnchorPosReferenceData
 =
 nullptr
 ;
@@ -421,9 +421,9 @@ aFrame
 gfxContext
 *
 aRenderingContext
-AnchorPosResolutionCache
+AnchorPosReferenceData
 *
-aAnchorPosResolutionCache
+aAnchorPosReferenceData
 =
 nullptr
 )
@@ -1731,9 +1731,9 @@ aComputeSizeFlags
 =
 {
 }
-AnchorPosResolutionCache
+AnchorPosReferenceData
 *
-aAnchorPosResolutionCache
+aAnchorPosReferenceData
 =
 nullptr
 )
@@ -2480,7 +2480,7 @@ posArea
 aRI
 -
 >
-mAnchorPosResolutionCache
+mAnchorPosReferenceData
 }
 ;
 }
