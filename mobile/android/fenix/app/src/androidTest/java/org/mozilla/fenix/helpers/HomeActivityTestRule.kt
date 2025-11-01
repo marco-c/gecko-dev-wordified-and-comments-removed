@@ -1360,6 +1360,11 @@ getOpenLinksInApp
 (
 settings
 )
+tabManagerOpeningAnimationEnabled
+:
+Boolean
+=
+false
 )
 :
 this
@@ -1480,6 +1485,11 @@ this
 openLinksInExternalApp
 =
 openLinksInExternalApp
+this
+.
+tabManagerOpeningAnimationEnabled
+=
+tabManagerOpeningAnimationEnabled
 }
 private
 val
@@ -1908,6 +1918,11 @@ getOpenLinksInApp
 (
 settings
 )
+tabManagerOpeningAnimationEnabled
+=
+settings
+.
+tabManagerOpeningAnimationEnabled
 }
 companion
 object
@@ -2052,6 +2067,9 @@ isTermsOfServiceAccepted
 =
 true
 isComposeLoginsEnabled
+=
+false
+tabManagerOpeningAnimationEnabled
 =
 false
 )

@@ -1837,7 +1837,7 @@ TabThumbnail
 tab
 =
 tab
-size
+thumbnailSizePx
 =
 size
 modifier
