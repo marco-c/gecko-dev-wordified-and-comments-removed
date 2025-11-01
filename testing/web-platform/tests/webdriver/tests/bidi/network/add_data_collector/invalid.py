@@ -178,9 +178,6 @@ value
 foo
 "
 "
-request
-"
-"
 invalid
 "
 ]
