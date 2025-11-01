@@ -7378,11 +7378,6 @@ env
 PERFHERDER_EXTRA_OPTIONS
 :
 aarch64
-MOZ_AUTOMATION_PACKAGE_TESTS
-:
-"
-1
-"
 run
 :
 actions
@@ -7636,11 +7631,6 @@ env
 PERFHERDER_EXTRA_OPTIONS
 :
 aarch64
-MOZ_AUTOMATION_PACKAGE_TESTS
-:
-"
-1
-"
 run
 :
 actions

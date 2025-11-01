@@ -182,11 +182,6 @@ gPCRelTests
 =
 {
 {
-0xFEFF0000
-0xD63F0000
-nullptr
-}
-{
 0x9F000000
 0x10000000
 nullptr
@@ -225,6 +220,11 @@ nullptr
 {
 0x7E000000
 0x36000000
+nullptr
+}
+{
+0xFE000000
+0xD6000000
 nullptr
 }
 }
