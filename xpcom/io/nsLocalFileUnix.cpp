@@ -4365,6 +4365,8 @@ rv
 ;
 bool
 dirCheck
+;
+bool
 isSymlink
 ;
 uint32_t
