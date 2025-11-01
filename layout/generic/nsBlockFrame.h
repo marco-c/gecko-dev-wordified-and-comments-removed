@@ -2184,7 +2184,7 @@ aCollectFromSiblings
 ;
 static
 void
-DoRemoveOutOfFlowFrame
+DoRemoveFloats
 (
 DestroyContext
 &
