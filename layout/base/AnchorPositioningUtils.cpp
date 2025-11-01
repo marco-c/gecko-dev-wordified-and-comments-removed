@@ -1638,7 +1638,7 @@ offset
 aAnchor
 -
 >
-GetOffsetTo
+GetOffsetToIgnoringScrolling
 (
 aAbsoluteContainingBlock
 )
@@ -1717,7 +1717,7 @@ offset
 aAnchor
 -
 >
-GetOffsetTo
+GetOffsetToIgnoringScrolling
 (
 containerChild
 )
