@@ -168,7 +168,11 @@ bool
 CheckVariationFontSupport
 (
 )
+{
+return
+true
 ;
+}
 static
 void
 InitializeFontAPI

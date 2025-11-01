@@ -10,13 +10,6 @@ process
 import
 android
 .
-annotation
-.
-SuppressLint
-;
-import
-android
-.
 content
 .
 ComponentName
@@ -2059,12 +2052,6 @@ mContentAllocPolicy
 =
 null
 ;
-SuppressLint
-(
-"
-NewApi
-"
-)
 private
 String
 allocate
