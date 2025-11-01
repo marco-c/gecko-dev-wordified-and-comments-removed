@@ -113,6 +113,7 @@ actions
 press
 '
 '
+Press
 '
 '
 Press
@@ -357,7 +358,7 @@ custom_btn1
 Close
 '
 '
-Press
+Close
 '
 ]
 ]
@@ -464,6 +465,7 @@ actions
 click
 '
 '
+Click
 '
 '
 Click
@@ -477,7 +479,7 @@ custom_btn2
 Close
 '
 '
-Press
+Close
 '
 ]
 ]
