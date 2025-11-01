@@ -53,9 +53,6 @@ tsan
 ubsan
 '
 '
-dtrace
-'
-'
 valgrind
 '
 ]

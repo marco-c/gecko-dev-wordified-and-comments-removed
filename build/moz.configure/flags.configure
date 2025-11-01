@@ -1869,9 +1869,6 @@ dead_strip
 when
 =
 target_is_darwin
-&
-~
-dtrace
 )
 check_and_add_asm_flag
 (
