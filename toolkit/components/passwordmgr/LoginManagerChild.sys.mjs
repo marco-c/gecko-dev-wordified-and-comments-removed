@@ -1026,7 +1026,7 @@ break
 ;
 case
 "
-focusin
+focus
 "
 :
 this
@@ -3894,7 +3894,7 @@ of
 blur
 "
 "
-focusin
+focus
 "
 ]
 )
@@ -4178,7 +4178,7 @@ of
 blur
 "
 "
-focusin
+focus
 "
 ]
 )
@@ -19095,7 +19095,7 @@ usernameField
 addEventListener
 (
 "
-focusin
+focus
 "
 observer
 )
