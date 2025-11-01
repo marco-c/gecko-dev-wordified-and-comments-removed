@@ -1265,6 +1265,12 @@ homeScreen
 .
 openSearch
 {
+waitForAppWindowToBeUpdated
+(
+)
+verifySearchView
+(
+)
 clickScanButton
 (
 )
