@@ -1052,15 +1052,6 @@ net_ShutdownURLHelper
 (
 )
 ;
-#
-ifdef
-XP_MACOSX
-net_ShutdownURLHelperOSX
-(
-)
-;
-#
-endif
 nsDNSPrefetch
 :
 :
