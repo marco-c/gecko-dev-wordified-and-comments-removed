@@ -10335,6 +10335,12 @@ return
 nullptr
 ;
 }
+aContext
+.
+MaybeReconstructActiveEntryList
+(
+)
+;
 nsCOMPtr
 <
 nsISHistory
