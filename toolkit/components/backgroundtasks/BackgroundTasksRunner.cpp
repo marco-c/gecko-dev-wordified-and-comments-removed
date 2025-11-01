@@ -64,15 +64,6 @@ h
 "
 #
 endif
-#
-include
-"
-mozilla
-/
-ResultVariant
-.
-h
-"
 namespace
 mozilla
 {

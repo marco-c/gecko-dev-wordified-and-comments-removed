@@ -30,15 +30,6 @@ include
 "
 mozilla
 /
-ScopeExit
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ipc
 /
 GeckoChildProcessHost

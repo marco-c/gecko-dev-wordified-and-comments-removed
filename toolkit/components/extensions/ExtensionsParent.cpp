@@ -52,15 +52,6 @@ h
 #
 include
 "
-mozilla
-/
-RefPtr
-.
-h
-"
-#
-include
-"
 jsapi
 .
 h
