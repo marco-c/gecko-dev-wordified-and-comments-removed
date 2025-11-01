@@ -8057,7 +8057,7 @@ settings
 (
 )
 .
-allowScreenshotsInPrivateMode
+shouldSecureModeBeOverridden
 )
 {
 window

@@ -4832,16 +4832,6 @@ binding
 .
 root
 )
-val
-allowScreenshotsInPrivateMode
-=
-context
-.
-settings
-(
-)
-.
-allowScreenshotsInPrivateMode
 secureWindowFeature
 .
 set
@@ -4867,7 +4857,13 @@ isSecure
 =
 {
 !
-allowScreenshotsInPrivateMode
+context
+.
+settings
+(
+)
+.
+shouldSecureModeBeOverridden
 &
 &
 it
@@ -13462,7 +13458,6 @@ await
 )
 }
 saveLoginJob
-?
 .
 invokeOnCompletion
 {
@@ -13474,7 +13469,6 @@ CancellationException
 )
 {
 saveLoginJob
-?
 .
 cancel
 (

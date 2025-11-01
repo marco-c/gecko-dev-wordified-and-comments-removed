@@ -254,7 +254,7 @@ PrivateTabs
 !
 settings
 .
-allowScreenshotsInPrivateMode
+shouldSecureModeBeOverridden
 )
 {
 fragment
