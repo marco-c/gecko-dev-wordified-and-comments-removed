@@ -213,6 +213,16 @@ IsAppLocaleRTL
 (
 )
 ;
+bool
+AlwaysAppendAccesskeys
+(
+)
+;
+bool
+InsertSeparatorBeforeAccesskeys
+(
+)
+;
 static
 bool
 LanguagesMatch

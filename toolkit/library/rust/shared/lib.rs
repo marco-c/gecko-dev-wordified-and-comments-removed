@@ -306,6 +306,10 @@ wpf_gpu_raster
 ;
 extern
 crate
+locale_service_glue
+;
+extern
+crate
 unic_langid
 ;
 extern
