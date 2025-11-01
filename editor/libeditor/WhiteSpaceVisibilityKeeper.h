@@ -224,6 +224,14 @@ WSRunScanner
 PointPosition
 ;
 using
+ReferHTMLDefaultStyle
+=
+WSRunScanner
+:
+:
+ReferHTMLDefaultStyle
+;
+using
 Scan
 =
 WSRunScanner
