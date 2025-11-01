@@ -1,15 +1,5 @@
 import
 pytest
-from
-webdriver
-.
-bidi
-.
-modules
-.
-script
-import
-ContextTarget
 pytestmark
 =
 pytest
@@ -21,16 +11,35 @@ async
 def
 test_contexts
 (
+    
 bidi_session
+    
 new_tab
-top_context
-get_current_locale
-        
-default_locale
+    
 some_locale
+    
+assert_locale_against_default
+    
+assert_locale_against_value
 )
 :
     
+new_context
+=
+await
+bidi_session
+.
+browsing_context
+.
+create
+(
+type_hint
+=
+"
+tab
+"
+)
+    
 await
 bidi_session
 .
@@ -49,32 +58,24 @@ context
 "
 ]
 ]
-        
 locale
 =
 some_locale
     
 )
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+some_locale
 new_tab
 )
-=
-=
-some_locale
     
-assert
 await
-get_current_locale
+assert_locale_against_default
 (
-top_context
+new_context
 )
-=
-=
-default_locale
     
 await
 bidi_session
@@ -94,40 +95,36 @@ context
 "
 ]
 ]
-        
 locale
 =
 None
+    
 )
     
-assert
 await
-get_current_locale
+assert_locale_against_default
 (
 new_tab
 )
-=
-=
-default_locale
     
-assert
 await
-get_current_locale
+assert_locale_against_default
 (
-top_context
+new_context
 )
-=
-=
-default_locale
 async
 def
 test_multiple_contexts
 (
+    
 bidi_session
+    
 new_tab
-get_current_locale
-        
-default_locale
+    
+assert_locale_against_value
+    
+assert_locale_against_default
+    
 some_locale
 )
 :
@@ -172,32 +169,25 @@ context
 "
 ]
 ]
-        
 locale
 =
 some_locale
     
 )
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+some_locale
 new_tab
 )
-=
-=
-some_locale
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+some_locale
 new_context
 )
-=
-=
-some_locale
     
 await
 bidi_session
@@ -223,31 +213,23 @@ context
 "
 ]
 ]
-        
 locale
 =
 None
+    
 )
     
-assert
 await
-get_current_locale
+assert_locale_against_default
 (
 new_tab
 )
-=
-=
-default_locale
     
-assert
 await
-get_current_locale
+assert_locale_against_default
 (
 new_context
 )
-=
-=
-default_locale
 pytest
 .
 mark
@@ -284,8 +266,6 @@ bidi_session
     
 new_tab
     
-get_current_locale
-    
 some_locale
     
 domain
@@ -293,6 +273,8 @@ domain
 inline
     
 another_locale
+    
+assert_locale_against_value
 )
 :
     
@@ -320,15 +302,12 @@ some_locale
     
 )
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+some_locale
 new_tab
 )
-=
-=
-some_locale
     
 iframe_url
 =
@@ -442,15 +421,12 @@ children
 0
 ]
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+some_locale
 iframe
 )
-=
-=
-some_locale
     
 sandbox_name
 =
@@ -458,16 +434,13 @@ sandbox_name
 test
 "
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+some_locale
 iframe
 sandbox_name
 )
-=
-=
-some_locale
     
 await
 bidi_session
@@ -493,26 +466,20 @@ another_locale
     
 )
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+another_locale
 iframe
 )
-=
-=
-another_locale
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+another_locale
 iframe
 sandbox_name
 )
-=
-=
-another_locale
 async
 def
 test_locale_override_applies_to_new_sandbox
@@ -521,7 +488,7 @@ test_locale_override_applies_to_new_sandbox
 bidi_session
 new_tab
 some_locale
-get_current_locale
+assert_locale_against_value
 )
 :
     
@@ -549,28 +516,29 @@ some_locale
     
 )
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+some_locale
 new_tab
 "
 test
 "
 )
-=
-=
-some_locale
 async
 def
 test_locale_override_applies_to_existing_sandbox
 (
     
 bidi_session
+    
 new_tab
-default_locale
+    
 another_locale
-get_current_locale
+    
+assert_locale_against_value
+    
+assert_locale_against_default
 )
 :
     
@@ -580,16 +548,12 @@ sandbox_name
 test
 "
     
-assert
 await
-get_current_locale
+assert_locale_against_default
 (
 new_tab
 sandbox_name
 )
-=
-=
-default_locale
     
 await
 bidi_session
@@ -615,13 +579,10 @@ another_locale
     
 )
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+another_locale
 new_tab
 sandbox_name
 )
-=
-=
-another_locale
