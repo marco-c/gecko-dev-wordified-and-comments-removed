@@ -1342,6 +1342,44 @@ graph_config
 "
 )
     
+property
+    
+def
+kind_graph
+(
+self
+)
+:
+        
+"
+"
+"
+        
+The
+dependency
+graph
+of
+kinds
+.
+        
+type
+:
+Graph
+        
+"
+"
+"
+        
+return
+self
+.
+_run_until
+(
+"
+kind_graph
+"
+)
+    
 def
 _load_kinds
 (
@@ -2492,6 +2530,12 @@ image
 }
             
 )
+        
+yield
+"
+kind_graph
+"
+kind_graph
         
 logger
 .
