@@ -43,14 +43,6 @@ cpp
 /
 mfbt
 /
-JSONWriter
-.
-cpp
-"
-"
-/
-mfbt
-/
 Poison
 .
 cpp

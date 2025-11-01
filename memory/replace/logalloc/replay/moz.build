@@ -228,14 +228,6 @@ HashFunctions
 .
 cpp
 "
-"
-/
-mfbt
-/
-JSONWriter
-.
-cpp
-"
 ]
 if
 CONFIG
