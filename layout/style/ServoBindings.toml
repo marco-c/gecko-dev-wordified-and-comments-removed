@@ -920,7 +920,7 @@ StyleTextDecorationLength
 mozilla
 :
 :
-StyleTextDecorationTrim
+StyleTextDecorationInset
 "
 "
 mozilla
@@ -4117,7 +4117,7 @@ TextDecorationLength
 gecko
 =
 "
-StyleTextDecorationTrim
+StyleTextDecorationInset
 "
 servo
 =
@@ -4131,7 +4131,7 @@ values
 computed
 :
 :
-TextDecorationTrim
+TextDecorationInset
 "
 }
 {

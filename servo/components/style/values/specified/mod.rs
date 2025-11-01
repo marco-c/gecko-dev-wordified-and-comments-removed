@@ -1037,9 +1037,9 @@ text
 :
 :
 {
+TextDecorationInset
 TextDecorationLength
 TextDecorationSkipInk
-TextDecorationTrim
 TextJustify
 TextTransform
 }

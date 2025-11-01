@@ -5275,8 +5275,8 @@ mTextDecorationThickness
 mozilla
 :
 :
-StyleTextDecorationTrim
-mTextDecorationTrim
+StyleTextDecorationInset
+mTextDecorationInset
 ;
 }
 ;

@@ -87,8 +87,8 @@ text
 {
 GenericHyphenateLimitChars
 GenericInitialLetter
+GenericTextDecorationInset
 GenericTextDecorationLength
-GenericTextDecorationTrim
 GenericTextIndent
 }
 ;
@@ -4081,15 +4081,15 @@ Auto
 }
 pub
 type
-TextDecorationTrim
+TextDecorationInset
 =
-GenericTextDecorationTrim
+GenericTextDecorationInset
 <
 Length
 >
 ;
 impl
-TextDecorationTrim
+TextDecorationInset
 {
 #
 [
@@ -4104,7 +4104,7 @@ auto
 >
 Self
 {
-GenericTextDecorationTrim
+GenericTextDecorationInset
 :
 :
 Auto
@@ -4129,7 +4129,7 @@ matches
 (
 *
 self
-GenericTextDecorationTrim
+GenericTextDecorationInset
 :
 :
 Auto
@@ -4139,7 +4139,7 @@ Auto
 impl
 Parse
 for
-TextDecorationTrim
+TextDecorationInset
 {
 fn
 parse
@@ -4242,7 +4242,7 @@ clone
 return
 Ok
 (
-TextDecorationTrim
+TextDecorationInset
 :
 :
 Length
@@ -4265,7 +4265,7 @@ auto
 ;
 Ok
 (
-TextDecorationTrim
+TextDecorationInset
 :
 :
 Auto

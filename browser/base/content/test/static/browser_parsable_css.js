@@ -392,7 +392,7 @@ text
 -
 decoration
 -
-trim
+inset
 .
 enabled
 "
@@ -424,7 +424,7 @@ text
 -
 decoration
 -
-trim
+inset
 /
 i
 isFromDevTools
@@ -458,7 +458,7 @@ text
 -
 decoration
 -
-trim
+inset
 /
 i
 isFromDevTools

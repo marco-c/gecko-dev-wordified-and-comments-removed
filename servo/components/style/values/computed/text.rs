@@ -32,8 +32,8 @@ text
 {
 GenericHyphenateLimitChars
 GenericInitialLetter
+GenericTextDecorationInset
 GenericTextDecorationLength
-GenericTextDecorationTrim
 GenericTextIndent
 }
 ;
@@ -176,9 +176,9 @@ LengthPercentage
 ;
 pub
 type
-TextDecorationTrim
+TextDecorationInset
 =
-GenericTextDecorationTrim
+GenericTextDecorationInset
 <
 Length
 >

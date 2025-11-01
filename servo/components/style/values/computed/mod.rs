@@ -327,10 +327,10 @@ align
 :
 :
 {
-SelfAlignment
 ContentDistribution
 ItemPlacement
 JustifyItems
+SelfAlignment
 }
 ;
 pub
@@ -1060,9 +1060,9 @@ text
 :
 :
 {
+TextDecorationInset
 TextDecorationLength
 TextDecorationSkipInk
-TextDecorationTrim
 TextJustify
 }
 ;

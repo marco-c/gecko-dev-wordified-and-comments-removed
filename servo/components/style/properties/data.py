@@ -3262,7 +3262,7 @@ TextDecorationLength
 "
             
 "
-TextDecorationTrim
+TextDecorationInset
 "
             
 "
