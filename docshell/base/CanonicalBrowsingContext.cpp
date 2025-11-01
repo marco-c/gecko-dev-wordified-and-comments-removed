@@ -7253,7 +7253,16 @@ isInList
 {
 mActiveEntryList
 .
-insertBack
+clear
+(
+)
+;
+mActiveEntryList
+=
+shistory
+-
+>
+ConstructContiguousEntryListFrom
 (
 mActiveEntry
 )
