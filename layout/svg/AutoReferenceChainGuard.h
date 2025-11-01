@@ -43,15 +43,6 @@ include
 "
 mozilla
 /
-ReentrancyGuard
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 Document

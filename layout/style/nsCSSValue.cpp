@@ -51,15 +51,6 @@ include
 "
 mozilla
 /
-MemoryReporting
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ServoBindings
 .
 h

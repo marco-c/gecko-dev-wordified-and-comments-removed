@@ -28,15 +28,6 @@ include
 "
 mozilla
 /
-IntegerRange
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Likely
 .
 h

@@ -147,15 +147,6 @@ include
 "
 mozilla
 /
-ResultExtensions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ScrollContainerFrame
 .
 h

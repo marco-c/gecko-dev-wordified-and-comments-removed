@@ -29,15 +29,6 @@ include
 "
 mozilla
 /
-Likely
-.
-h
-"
-#
-include
-"
-mozilla
-/
 PresShell
 .
 h

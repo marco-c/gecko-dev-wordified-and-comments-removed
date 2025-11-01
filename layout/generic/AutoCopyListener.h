@@ -9,15 +9,6 @@ include
 "
 mozilla
 /
-Maybe
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_clipboard
 .
 h

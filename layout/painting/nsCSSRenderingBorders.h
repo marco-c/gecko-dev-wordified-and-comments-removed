@@ -23,7 +23,7 @@ include
 "
 mozilla
 /
-Attributes
+AlreadyAddRefed
 .
 h
 "
@@ -32,7 +32,7 @@ include
 "
 mozilla
 /
-RefPtr
+Attributes
 .
 h
 "

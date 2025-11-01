@@ -60,15 +60,6 @@ include
 "
 mozilla
 /
-MemoryReporting
-.
-h
-"
-#
-include
-"
-mozilla
-/
 RestyleManager
 .
 h
