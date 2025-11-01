@@ -57,6 +57,13 @@ js
 ]
 [
 "
+browser_exceptions_dialog
+.
+js
+"
+]
+[
+"
 browser_guardian_client
 .
 js

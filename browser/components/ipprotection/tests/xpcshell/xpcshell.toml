@@ -60,14 +60,7 @@ js
 ]
 [
 "
-test_IPPExceptionsManager_exclusions
-.
-js
-"
-]
-[
-"
-test_IPPExceptionsManager_inclusions
+test_IPPExceptionsManager
 .
 js
 "
