@@ -13578,8 +13578,6 @@ template
 <
 typename
 T
-class
-L
 >
 void
 MacroAssembler
@@ -13593,7 +13591,8 @@ const
 T
 &
 t
-L
+Label
+*
 label
 )
 {
