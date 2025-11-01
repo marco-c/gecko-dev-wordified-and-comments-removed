@@ -1507,6 +1507,17 @@ base
 /
 test
 /
+file_js_cache_large_syntax_error
+.
+js
+"
+"
+dom
+/
+base
+/
+test
+/
 jsmodules
 /
 test_scriptNotParsedAsModule
