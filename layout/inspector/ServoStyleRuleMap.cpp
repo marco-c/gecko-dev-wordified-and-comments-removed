@@ -460,6 +460,12 @@ case
 StyleCssRuleType
 :
 :
+CustomMedia
+:
+case
+StyleCssRuleType
+:
+:
 LayerStatement
 :
 case
@@ -858,6 +864,12 @@ sheet
 break
 ;
 }
+case
+StyleCssRuleType
+:
+:
+CustomMedia
+:
 case
 StyleCssRuleType
 :

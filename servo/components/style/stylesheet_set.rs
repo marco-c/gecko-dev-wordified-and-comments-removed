@@ -58,6 +58,8 @@ stylesheets
 :
 {
 CssRule
+CssRuleRef
+CustomMediaMap
 Origin
 OriginSet
 PerOrigin
@@ -1384,6 +1386,10 @@ Option
 &
 Device
 >
+custom_media
+:
+&
+CustomMediaMap
 sheet
 :
 &
@@ -1410,6 +1416,7 @@ invalidations
 collect_invalidations_for
 (
 device
+custom_media
 sheet
 guard
 )
@@ -1455,6 +1462,10 @@ Option
 &
 Device
 >
+custom_media
+:
+&
+CustomMediaMap
 sheet
 :
 S
@@ -1484,6 +1495,7 @@ self
 collect_invalidations_for
 (
 device
+custom_media
 &
 sheet
 guard
@@ -1537,6 +1549,10 @@ Option
 &
 Device
 >
+custom_media
+:
+&
+CustomMediaMap
 sheet
 :
 S
@@ -1569,6 +1585,7 @@ self
 collect_invalidations_for
 (
 device
+custom_media
 &
 sheet
 guard
@@ -1621,6 +1638,10 @@ Option
 &
 Device
 >
+custom_media
+:
+&
+CustomMediaMap
 sheet
 :
 S
@@ -1650,6 +1671,7 @@ self
 collect_invalidations_for
 (
 device
+custom_media
 &
 sheet
 guard
@@ -1709,6 +1731,10 @@ Option
 &
 Device
 >
+custom_media
+:
+&
+CustomMediaMap
 sheet
 :
 &
@@ -1724,6 +1750,12 @@ SharedRwLockReadGuard
 change_kind
 :
 RuleChangeKind
+ancestors
+:
+&
+[
+CssRuleRef
+]
 )
 {
 if
@@ -1755,7 +1787,9 @@ rule
 guard
 device
 quirks_mode
+custom_media
 change_kind
+ancestors
 )
 ;
 }

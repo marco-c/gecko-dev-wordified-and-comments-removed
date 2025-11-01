@@ -212,6 +212,13 @@ const
 StyleDomStyleSheet
 *
 StyleRuleChangeKind
+\
+const
+nsTArray
+<
+StyleCssRuleRef
+>
+*
 )
 ;
 \
@@ -346,6 +353,10 @@ Namespace
 BASIC_RULE_FUNCS_UNLOCKED
 (
 Margin
+)
+BASIC_RULE_FUNCS_UNLOCKED
+(
+CustomMedia
 )
 GROUP_RULE_FUNCS_LOCKED
 (

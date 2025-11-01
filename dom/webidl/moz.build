@@ -3329,6 +3329,11 @@ CSSCounterStyleRule
 webidl
 "
 "
+CSSCustomMediaRule
+.
+webidl
+"
+"
 CSSFontFaceRule
 .
 webidl

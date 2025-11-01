@@ -109,7 +109,10 @@ crate
 stylesheets
 :
 :
+{
 CssRules
+CustomMediaEvaluator
+}
 ;
 use
 crate
@@ -1436,6 +1439,14 @@ condition
 matches
 (
 context
+&
+mut
+CustomMediaEvaluator
+:
+:
+none
+(
+)
 )
 ;
 if

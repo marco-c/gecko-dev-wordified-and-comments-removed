@@ -81,6 +81,9 @@ nsRect
 struct
 nsSize
 ;
+#
+undef
+UNSUPPORTED
 enum
 class
 WrFiltersStatus
