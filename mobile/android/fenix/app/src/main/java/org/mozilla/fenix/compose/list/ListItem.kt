@@ -3173,9 +3173,9 @@ if
 (
 showSwitchAfter
 )
-switch
-else
 EmptyListItemSlot
+else
+switch
 afterListItemAction
 =
 if
