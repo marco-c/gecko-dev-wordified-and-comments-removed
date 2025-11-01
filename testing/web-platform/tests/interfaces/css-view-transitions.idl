@@ -219,6 +219,16 @@ attribute
 Element
 transitionRoot
 ;
+undefined
+waitUntil
+(
+Promise
+<
+any
+>
+promise
+)
+;
 }
 ;
 [

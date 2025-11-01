@@ -9990,6 +9990,9 @@ attribute
 History
 history
 ;
+[
+Replaceable
+]
 readonly
 attribute
 Navigation

@@ -87,6 +87,11 @@ target
 ;
 readonly
 attribute
+DOMString
+targetSelector
+;
+readonly
+attribute
 unsigned
 long
 long
