@@ -4895,15 +4895,6 @@ LastSuccessfulPositionFallback
 uint32_t
 )
 ;
-mozilla
-:
-:
-PhysicalAxes
-GetAnchorPosCompensatingForScroll
-(
-)
-const
-;
 struct
 PageValues
 {
@@ -15539,9 +15530,9 @@ aFrame
 mozilla
 :
 :
-AnchorPosResolutionCache
+AnchorPosReferenceData
 *
-aAnchorPosResolutionCache
+aAnchorPosReferenceData
 )
 {
 return
@@ -15565,7 +15556,7 @@ StylePosition
 -
 >
 mPositionArea
-aAnchorPosResolutionCache
+aAnchorPosReferenceData
 }
 ;
 }

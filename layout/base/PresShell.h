@@ -1958,9 +1958,8 @@ UpdateAnchorPosLayout
 )
 ;
 void
-UpdateAnchorPosForScroll
+UpdateAnchorPosLayoutForScroll
 (
-const
 ScrollContainerFrame
 *
 aScrollContainer

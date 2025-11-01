@@ -14674,7 +14674,7 @@ PresShell
 )
 -
 >
-UpdateAnchorPosForScroll
+UpdateAnchorPosLayoutForScroll
 (
 this
 )

@@ -175,8 +175,8 @@ IntrinsicSize
 struct
 ReflowInput
 ;
-struct
-AnchorPosResolutionCache
+class
+AnchorPosReferenceData
 ;
 }
 namespace
@@ -1541,10 +1541,12 @@ mPositionArea
 mozilla
 :
 :
-AnchorPosResolutionCache
+AnchorPosReferenceData
 *
 const
-mCache
+mAnchorPosReferenceData
+=
+nullptr
 ;
 static
 inline
@@ -1558,9 +1560,9 @@ aFrame
 mozilla
 :
 :
-AnchorPosResolutionCache
+AnchorPosReferenceData
 *
-aAnchorPosResolutionCache
+aAnchorPosReferenceData
 =
 nullptr
 )
