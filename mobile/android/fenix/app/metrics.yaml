@@ -13441,6 +13441,7 @@ type
 event
 description
 :
+>
 The
 user
 dismissed
@@ -13449,6 +13450,15 @@ Terms
 of
 Use
 prompt
+by
+swiping
+hitting
+back
+or
+tapping
+the
+background
+scrim
 .
 extra_keys
 :
