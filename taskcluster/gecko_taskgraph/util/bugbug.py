@@ -58,6 +58,19 @@ https
 /
 bugbug
 .
+moz
+.
+tools
+"
+BUGBUG_BASE_FALLBACK_URL
+=
+"
+https
+:
+/
+/
+bugbug
+.
 herokuapp
 .
 com
@@ -593,6 +606,16 @@ rev
 schedules
 "
     
+fallback_url
+=
+url
+.
+replace
+(
+BUGBUG_BASE_URL
+BUGBUG_BASE_FALLBACK_URL
+)
+    
 start
 =
 monotonic
@@ -638,6 +661,10 @@ i
 =
 0
     
+did_fallback
+=
+0
+    
 while
 i
 <
@@ -667,6 +694,46 @@ status_code
 =
 202
 :
+            
+break
+        
+r
+=
+session
+.
+get
+(
+fallback_url
+)
+        
+r
+.
+raise_for_status
+(
+)
+        
+if
+r
+.
+status_code
+!
+=
+202
+:
+            
+did_fallback
+=
+1
+            
+print
+(
+"
+bugbug
+fallback
+answered
+quicker
+"
+)
             
 break
         
@@ -708,6 +775,12 @@ bugbug_push_schedules_retries
 "
 :
 i
+            
+"
+bugbug_push_schedules_fallback
+"
+:
+did_fallback
         
 }
     
