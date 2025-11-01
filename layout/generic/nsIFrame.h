@@ -15530,9 +15530,9 @@ aFrame
 mozilla
 :
 :
-AnchorPosReferenceData
+AnchorPosResolutionCache
 *
-aAnchorPosReferenceData
+aAnchorPosResolutionCache
 )
 {
 return
@@ -15556,7 +15556,7 @@ StylePosition
 -
 >
 mPositionArea
-aAnchorPosReferenceData
+aAnchorPosResolutionCache
 }
 ;
 }
