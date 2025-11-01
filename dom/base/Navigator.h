@@ -591,6 +591,11 @@ aUserAgent
 )
 ;
 void
+ClearLanguageCache
+(
+)
+;
+void
 ClearPlatformCache
 (
 )
@@ -1048,6 +1053,10 @@ nsString
 >
 &
 aLanguages
+const
+nsCString
+*
+aLanguageOverride
 )
 ;
 dom

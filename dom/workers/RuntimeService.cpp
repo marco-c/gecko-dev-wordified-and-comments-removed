@@ -5231,6 +5231,7 @@ Navigator
 GetAcceptLanguages
 (
 languages
+nullptr
 )
 ;
 RuntimeService
@@ -6124,6 +6125,7 @@ GetAcceptLanguages
 mNavigatorProperties
 .
 mLanguages
+nullptr
 )
 ;
 mNavigatorPropertiesLoaded
