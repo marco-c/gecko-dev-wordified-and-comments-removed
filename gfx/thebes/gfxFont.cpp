@@ -59,15 +59,6 @@ include
 "
 mozilla
 /
-MathAlgorithms
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_gfx
 .
 h

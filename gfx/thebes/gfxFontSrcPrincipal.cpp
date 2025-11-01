@@ -21,15 +21,6 @@ BasePrincipal
 .
 h
 "
-#
-include
-"
-mozilla
-/
-HashFunctions
-.
-h
-"
 using
 mozilla
 :

@@ -618,15 +618,6 @@ WinCompositorWidget
 h
 "
 #
-include
-"
-mozilla
-/
-WindowsVersion
-.
-h
-"
-#
 endif
 #
 include

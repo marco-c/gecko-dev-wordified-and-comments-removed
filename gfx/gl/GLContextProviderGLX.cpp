@@ -72,15 +72,6 @@ include
 "
 mozilla
 /
-MathAlgorithms
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPtr
 .
 h

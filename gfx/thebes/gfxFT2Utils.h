@@ -21,15 +21,6 @@ gfxFT2FontBase
 h
 "
 #
-include
-"
-mozilla
-/
-Likely
-.
-h
-"
-#
 define
 FLOAT_FROM_26_6
 (

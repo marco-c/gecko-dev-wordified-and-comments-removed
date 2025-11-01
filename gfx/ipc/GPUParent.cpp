@@ -623,15 +623,6 @@ include
 "
 mozilla
 /
-WindowsVersion
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 DeviceManagerDx

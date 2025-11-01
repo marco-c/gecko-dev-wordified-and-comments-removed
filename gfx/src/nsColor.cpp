@@ -10,15 +10,6 @@ h
 #
 include
 "
-mozilla
-/
-MathAlgorithms
-.
-h
-"
-#
-include
-"
 nsColor
 .
 h

@@ -95,6 +95,15 @@ include
 "
 mozilla
 /
+SharedLibrary
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_gl
 .
 h

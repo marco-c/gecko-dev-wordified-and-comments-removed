@@ -23,15 +23,6 @@ h
 #
 include
 "
-mozilla
-/
-RefPtr
-.
-h
-"
-#
-include
-"
 Point
 .
 h

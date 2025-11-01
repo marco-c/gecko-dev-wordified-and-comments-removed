@@ -6,15 +6,6 @@ define
 MOZILLA_GFX_SKCONVOLVER_H_
 #
 include
-"
-mozilla
-/
-Assertions
-.
-h
-"
-#
-include
 <
 cfloat
 >

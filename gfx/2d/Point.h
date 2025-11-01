@@ -67,15 +67,6 @@ include
 "
 mozilla
 /
-Maybe
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 NumericTools

@@ -25,15 +25,6 @@ include
 "
 mozilla
 /
-RefPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 2D
