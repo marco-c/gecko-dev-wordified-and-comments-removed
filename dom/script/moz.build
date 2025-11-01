@@ -160,6 +160,11 @@ ScriptSettings
 cpp
 "
 "
+ScriptTrace
+.
+cpp
+"
+"
 ShadowRealmGlobalScope
 .
 cpp

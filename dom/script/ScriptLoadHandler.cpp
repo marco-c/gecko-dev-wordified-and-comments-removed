@@ -1842,7 +1842,9 @@ TRACE_FOR_TEST
 (
 mRequest
 "
-scriptloader_load_source
+load
+:
+source
 "
 )
 ;
@@ -1905,7 +1907,9 @@ TRACE_FOR_TEST
 (
 mRequest
 "
-scriptloader_load_bytecode
+load
+:
+diskcache
 "
 )
 ;
@@ -1942,7 +1946,9 @@ TRACE_FOR_TEST
 (
 mRequest
 "
-scriptloader_load_source
+load
+:
+source
 "
 )
 ;
