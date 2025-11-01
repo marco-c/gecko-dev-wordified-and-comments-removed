@@ -4895,6 +4895,15 @@ LastSuccessfulPositionFallback
 uint32_t
 )
 ;
+mozilla
+:
+:
+PhysicalAxes
+GetAnchorPosCompensatingForScroll
+(
+)
+const
+;
 struct
 PageValues
 {

@@ -54248,7 +54248,7 @@ if
 !
 anchorReference
 .
-mOrigin
+mOffsetData
 )
 {
 return
@@ -54272,7 +54272,6 @@ GetParent
 )
 aAnchor
 true
-nullptr
 )
 ;
 MOZ_ASSERT
@@ -54299,8 +54298,6 @@ ref
 (
 )
 .
-mRect
-.
 TopLeft
 (
 )
@@ -54312,11 +54309,13 @@ prevOrigin
 =
 anchorReference
 .
-mOrigin
+mOffsetData
 .
 ref
 (
 )
+.
+mOrigin
 ;
 return
 newOrigin
