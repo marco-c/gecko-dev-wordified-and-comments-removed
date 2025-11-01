@@ -1349,7 +1349,7 @@ number
 |
 Array
 <
-Number
+number
 >
 }
 measurement
@@ -2092,11 +2092,11 @@ them
 *
 *
 returns
-Promise
-*
-resolves
 {
+Promise
+<
 undefined
+>
 }
 Once
 the
