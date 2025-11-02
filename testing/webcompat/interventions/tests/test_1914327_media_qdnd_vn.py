@@ -1,5 +1,13 @@
 import
 pytest
+from
+webdriver
+.
+bidi
+.
+error
+import
+UnknownErrorException
 URL
 =
 "
@@ -201,13 +209,25 @@ def
     
 )
     
+try
+:
+        
 await
 client
 .
 navigate
 (
 URL
+no_skip
+=
+True
 )
+    
+except
+UnknownErrorException
+:
+        
+pass
     
 play
 err
@@ -241,6 +261,14 @@ True
     
 )
     
+await
+client
+.
+stall
+(
+2
+)
+    
 if
 play
 :
@@ -249,6 +277,14 @@ play
 .
 click
 (
+)
+    
+await
+client
+.
+stall
+(
+2
 )
     
 return

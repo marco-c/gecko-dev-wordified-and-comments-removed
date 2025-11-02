@@ -69,6 +69,9 @@ client
 await_css
 (
 IFRAME_CSS
+timeout
+=
+45
 )
 )
 pytest

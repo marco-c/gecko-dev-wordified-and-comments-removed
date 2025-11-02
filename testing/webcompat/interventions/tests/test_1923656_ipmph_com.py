@@ -101,7 +101,7 @@ try
         
 client
 .
-switch_frame
+switch_to_frame
 (
 client
 .
