@@ -114,11 +114,14 @@ i
 2
 )
 {
+CHECK
+(
 bitmap
 .
 setBit
 (
 i
+)
 )
 ;
 }
@@ -178,6 +181,8 @@ i
 2
 )
 {
+CHECK
+(
 bitmap
 .
 setBit
@@ -185,6 +190,7 @@ setBit
 i
 *
 1000
+)
 )
 ;
 }
@@ -249,6 +255,8 @@ i
 2
 )
 {
+CHECK
+(
 other
 .
 setBit
@@ -256,6 +264,7 @@ setBit
 i
 *
 1000
+)
 )
 ;
 }
@@ -300,11 +309,14 @@ i
 )
 ;
 }
+CHECK
+(
 bitmap
 .
 bitwiseOrWith
 (
 other
+)
 )
 ;
 for
@@ -455,6 +467,8 @@ i
 +
 )
 {
+CHECK
+(
 bitmap
 .
 setBit
@@ -464,6 +478,7 @@ i
 JS_BITS_PER_WORD
 +
 i
+)
 )
 ;
 }
@@ -717,6 +732,8 @@ i
 +
 )
 {
+CHECK
+(
 bitmap
 .
 setBit
@@ -727,7 +744,10 @@ JS_BITS_PER_WORD
 +
 i
 )
+)
 ;
+CHECK
+(
 bitmap
 .
 setBit
@@ -739,6 +759,7 @@ JS_BITS_PER_WORD
 i
 +
 1
+)
 )
 ;
 }
