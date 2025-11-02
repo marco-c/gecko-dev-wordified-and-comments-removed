@@ -110,6 +110,11 @@ TEST_DIRS
 "
 gtest
 "
+"
+tests
+/
+mochitest
+"
 ]
 FINAL_LIBRARY
 =

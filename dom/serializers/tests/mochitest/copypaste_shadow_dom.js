@@ -333,7 +333,6 @@ Win
 )
 )
 {
-var
 expectedValue
 =
 kTextHtmlPrefixClipboardDataWindows

@@ -378,6 +378,12 @@ test
 -
 dom
 /
+serializers
+/
+tests
+-
+dom
+/
 svg
 /
 crashtests
