@@ -295,6 +295,11 @@ newPassword
 this
 .
 concealed
+&
+&
+this
+.
+value
 ?
 LoginPasswordField
 .
