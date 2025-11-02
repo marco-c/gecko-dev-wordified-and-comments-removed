@@ -21,7 +21,7 @@ use
 gecko_profiler
 :
 :
-auto_profiler_marker_tracing
+auto_profiler_marker
 ;
 use
 gecko_profiler
@@ -2218,7 +2218,7 @@ Graphics
 Rasterization
 )
 ;
-auto_profiler_marker_tracing
+auto_profiler_marker
 !
 (
 "
@@ -2236,13 +2236,6 @@ Default
 :
 :
 default
-(
-)
-"
-Webrender
-"
-.
-into
 (
 )
 )
