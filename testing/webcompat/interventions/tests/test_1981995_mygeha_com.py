@@ -132,14 +132,20 @@ state
 left
 &
 &
+parseInt
+(
 state
 .
 top
+)
 =
 =
+parseInt
+(
 city
 .
 top
+)
 ;
       
 "
@@ -150,6 +156,16 @@ city
         
 state
     
+)
+pytest
+.
+mark
+.
+skip_platforms
+(
+"
+android
+"
 )
 pytest
 .
@@ -174,6 +190,16 @@ await
 is_state_beside_zip
 (
 client
+)
+pytest
+.
+mark
+.
+skip_platforms
+(
+"
+android
+"
 )
 pytest
 .
