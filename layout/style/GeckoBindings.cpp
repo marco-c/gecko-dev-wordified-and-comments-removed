@@ -10691,6 +10691,9 @@ StyleAnchorSideKeyword
 :
 Inside
 :
+return
+propEdge
+;
 case
 StyleAnchorSideKeyword
 :
@@ -10698,7 +10701,10 @@ StyleAnchorSideKeyword
 Outside
 :
 return
+GetOppositeEdge
+(
 propEdge
+)
 ;
 case
 StyleAnchorSideKeyword
