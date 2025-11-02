@@ -5329,8 +5329,8 @@ rx
 <
 =
 0
-|
-|
+&
+&
 ry
 <
 =
@@ -5362,9 +5362,10 @@ rx
 std
 :
 :
-min
+clamp
 (
 rx
+0
 kMorphologyMaxRadius
 )
 ;
@@ -5373,9 +5374,10 @@ ry
 std
 :
 :
-min
+clamp
 (
 ry
+0
 kMorphologyMaxRadius
 )
 ;
