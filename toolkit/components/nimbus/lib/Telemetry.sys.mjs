@@ -310,6 +310,15 @@ modified
 -
 exception
 "
+NOT_YET_SYNCED
+:
+"
+not
+-
+yet
+-
+synced
+"
 NULL_LAST_MODIFIED
 :
 "
