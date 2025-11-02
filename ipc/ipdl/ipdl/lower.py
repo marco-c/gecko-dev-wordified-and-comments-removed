@@ -31030,11 +31030,21 @@ ExprCall
 ExprVar
 (
 "
-AUTO_PROFILER_MARKER
+AUTO_PROFILER_TRACING_MARKER
 "
 )
                                     
 [
+                                        
+ExprLiteral
+.
+String
+(
+"
+Sync
+IPC
+"
+)
                                         
 ExprLiteral
 .
