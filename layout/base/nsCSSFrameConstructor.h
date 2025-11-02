@@ -523,10 +523,13 @@ aInsertionKind
 )
 ;
 enum
-RemoveFlags
+class
+RemovalKind
+:
+uint8_t
 {
-REMOVE_CONTENT
-REMOVE_FOR_RECONSTRUCTION
+Dom
+ForReconstruction
 }
 ;
 bool
@@ -535,8 +538,7 @@ ContentWillBeRemoved
 nsIContent
 *
 aChild
-RemoveFlags
-aFlags
+RemovalKind
 )
 ;
 void
@@ -4635,7 +4637,6 @@ nsIContent
 *
 aContent
 InsertionKind
-aInsertionKind
 )
 ;
 void
