@@ -5526,8 +5526,11 @@ Some
 currentDepth
 )
 ;
-AUTO_PROFILER_MARKER
+AUTO_PROFILER_TRACING_MARKER
 (
+"
+JS
+"
 "
 Perform
 microtasks
