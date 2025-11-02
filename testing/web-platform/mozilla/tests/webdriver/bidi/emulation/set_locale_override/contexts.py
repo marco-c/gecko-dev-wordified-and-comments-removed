@@ -16,8 +16,6 @@ bidi
 .
 emulation
 .
-set_locale_override
-.
 conftest
 "
 pytest

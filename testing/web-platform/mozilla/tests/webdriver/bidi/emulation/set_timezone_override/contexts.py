@@ -16,8 +16,6 @@ bidi
 .
 emulation
 .
-set_timezone_override
-.
 conftest
 "
 pytest
