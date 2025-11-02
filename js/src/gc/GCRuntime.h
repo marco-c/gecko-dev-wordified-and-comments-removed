@@ -3738,6 +3738,8 @@ JS
 Symbol
 *
 sym
+MarkColor
+color
 )
 ;
 #

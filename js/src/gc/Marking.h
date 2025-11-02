@@ -318,14 +318,6 @@ thing
 )
 ;
 }
-bool
-UnmarkGrayShapeRecursively
-(
-Shape
-*
-shape
-)
-;
 namespace
 gc
 {

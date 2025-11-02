@@ -236,7 +236,7 @@ JS
 :
 :
 Symbol
-false
+true
 false
 )
 \
@@ -280,7 +280,7 @@ js
 :
 :
 PropMap
-false
+true
 false
 )
 inline
