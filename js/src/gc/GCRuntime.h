@@ -3003,12 +3003,7 @@ void
 setGrayBitsInvalid
 (
 )
-{
-grayBitsValid
-=
-false
 ;
-}
 mozilla
 :
 :

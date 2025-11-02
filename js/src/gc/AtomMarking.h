@@ -219,6 +219,14 @@ DenseBitmap
 markedUnion
 )
 ;
+void
+unmarkAllGrayReferences
+(
+GCRuntime
+*
+gc
+)
+;
 static
 size_t
 getAtomBit
