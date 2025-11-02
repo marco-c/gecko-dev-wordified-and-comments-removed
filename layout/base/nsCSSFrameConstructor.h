@@ -530,6 +530,7 @@ uint8_t
 {
 Dom
 ForReconstruction
+ForDisplayNoneChange
 }
 ;
 bool
