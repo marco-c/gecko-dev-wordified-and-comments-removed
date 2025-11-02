@@ -748,6 +748,13 @@ js
 "
 shims
 /
+artstationLogin
+.
+js
+"
+"
+shims
+/
 bmauth
 .
 js
