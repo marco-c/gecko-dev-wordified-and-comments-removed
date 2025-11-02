@@ -33488,8 +33488,10 @@ if
 (
 !
 childFrame
-&
-&
+)
+{
+if
+(
 CouldHaveBeenDisplayContents
 (
 aChild
@@ -33551,7 +33553,7 @@ didReconstruct
 ContentWillBeRemoved
 (
 c
-aFlags
+aKind
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -33569,15 +33571,11 @@ true
 }
 }
 }
+}
 return
 false
 ;
 }
-if
-(
-childFrame
-)
-{
 if
 (
 aKind
@@ -34360,7 +34358,6 @@ stdout
 }
 #
 endif
-}
 return
 false
 ;
