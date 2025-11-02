@@ -2127,6 +2127,8 @@ kontroll
 /
 p
 >
+\
+n
 <
 p
 >
@@ -2137,9 +2139,13 @@ ein
 privat
 nettlesar
 :
+\
+n
 <
 ul
 >
+\
+n
 <
 li
 >
@@ -2154,6 +2160,8 @@ appen
 /
 li
 >
+\
+n
 <
 li
 >
@@ -2171,6 +2179,8 @@ sporarar
 /
 li
 >
+\
+n
 <
 li
 >
@@ -2188,6 +2198,8 @@ nettlesarhistorikk
 /
 li
 >
+\
+n
 <
 /
 ul
@@ -2196,6 +2208,8 @@ ul
 /
 p
 >
+\
+n
 <
 p
 >
@@ -2221,6 +2235,8 @@ Internett
 br
 /
 >
+\
+n
 <
 a
 href
@@ -4106,7 +4122,7 @@ preference_privacy_block_social_summary
 >
 Innebygd
 p
-nettstader
+nettstadar
 for
 spore
 bes
@@ -14328,6 +14344,8 @@ br
 <
 br
 >
+\
+n
 <
 label
 >
