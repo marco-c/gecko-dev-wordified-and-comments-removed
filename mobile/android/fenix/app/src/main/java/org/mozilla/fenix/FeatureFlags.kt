@@ -321,7 +321,7 @@ const
 val
 DISCOVER_MORE_STORIES
 =
-false
+true
 /
 *
 *
