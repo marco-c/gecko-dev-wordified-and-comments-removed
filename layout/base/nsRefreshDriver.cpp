@@ -9288,11 +9288,8 @@ timeStamp
 ;
 }
 }
-AUTO_PROFILER_TRACING_MARKER_INNERWINDOWID
+AUTO_PROFILER_MARKER_INNERWINDOWID
 (
-"
-Paint
-"
 "
 requestVideoFrame
 callbacks
@@ -9521,11 +9518,8 @@ aNowTime
 ;
 }
 }
-AUTO_PROFILER_TRACING_MARKER_INNERWINDOWID
+AUTO_PROFILER_MARKER_INNERWINDOWID
 (
-"
-Paint
-"
 "
 requestAnimationFrame
 callbacks
