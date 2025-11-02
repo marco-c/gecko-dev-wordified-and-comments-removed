@@ -266,6 +266,11 @@ creationTime
 "
 number
 "
+updateTime
+:
+"
+number
+"
 lastAccessed
 :
 "
