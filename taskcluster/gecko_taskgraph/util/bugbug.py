@@ -661,9 +661,9 @@ i
 =
 0
     
-did_fallback
+success
 =
-0
+False
     
 while
 i
@@ -695,6 +695,10 @@ status_code
 202
 :
             
+success
+=
+True
+            
 break
         
 r
@@ -711,31 +715,6 @@ r
 raise_for_status
 (
 )
-        
-if
-r
-.
-status_code
-!
-=
-202
-:
-            
-did_fallback
-=
-1
-            
-print
-(
-"
-bugbug
-fallback
-answered
-quicker
-"
-)
-            
-break
         
 time
 .
@@ -754,6 +733,59 @@ end
 monotonic
 (
 )
+    
+if
+not
+success
+:
+        
+i
+=
+0
+        
+while
+i
+<
+attempts
+:
+            
+r
+=
+session
+.
+get
+(
+fallback_url
+)
+            
+r
+.
+raise_for_status
+(
+)
+            
+if
+r
+.
+status_code
+!
+=
+202
+:
+                
+break
+            
+time
+.
+sleep
+(
+RETRY_INTERVAL
+)
+            
+i
++
+=
+1
     
 _write_perfherder_data
 (
@@ -775,12 +807,6 @@ bugbug_push_schedules_retries
 "
 :
 i
-            
-"
-bugbug_push_schedules_fallback
-"
-:
-did_fallback
         
 }
     
