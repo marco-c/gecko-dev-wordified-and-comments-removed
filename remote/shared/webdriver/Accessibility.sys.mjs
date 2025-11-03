@@ -465,12 +465,9 @@ that
 constructs
 a
 new
-{
-code
 accessibility
 .
 Checks
-}
 *
 object
 with
@@ -1685,10 +1682,7 @@ an
 accessible
 has
 a
-{
-code
 hidden
-}
 attribute
 .
 *
@@ -1716,10 +1710,7 @@ accessible
 object
 has
 a
-{
-code
 hidden
-}
 attribute
 *
 false
