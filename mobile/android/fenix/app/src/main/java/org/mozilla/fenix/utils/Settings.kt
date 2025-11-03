@@ -7637,7 +7637,6 @@ suggestions
 .
 *
 /
-VisibleForTesting
 internal
 var
 trendingSearchSuggestionsEnabled
