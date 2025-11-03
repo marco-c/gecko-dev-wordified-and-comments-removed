@@ -1519,6 +1519,17 @@ TelemetryReportingPolicyImpl
 fullOnTrainReleaseDates
 ;
 }
+get
+minimumPolicyVersion
+(
+)
+{
+return
+TelemetryReportingPolicyImpl
+.
+minimumPolicyVersion
+;
+}
 async
 ensureUserIsNotified
 (
