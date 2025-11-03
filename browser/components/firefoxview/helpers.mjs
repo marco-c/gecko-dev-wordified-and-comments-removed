@@ -238,6 +238,11 @@ BrowserUtils
 formatURIStringForDisplay
 (
 uriString
+{
+showFilenameForLocalURIs
+:
+true
+}
 )
 ;
 }
