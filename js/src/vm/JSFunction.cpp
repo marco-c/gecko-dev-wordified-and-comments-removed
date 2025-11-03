@@ -668,6 +668,7 @@ return
 true
 ;
 }
+static
 bool
 IsFunction
 (
@@ -932,6 +933,7 @@ return
 true
 ;
 }
+static
 bool
 ArgumentsGetterImpl
 (
@@ -1151,6 +1153,7 @@ args
 )
 ;
 }
+static
 bool
 ArgumentsSetterImpl
 (
@@ -1294,6 +1297,7 @@ return
 true
 ;
 }
+static
 bool
 CallerGetterImpl
 (
@@ -1656,6 +1660,7 @@ args
 )
 ;
 }
+static
 bool
 CallerSetterImpl
 (
@@ -5158,6 +5163,9 @@ finishString
 }
 JSString
 *
+js
+:
+:
 fun_toStringHelper
 (
 JSContext
