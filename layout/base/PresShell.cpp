@@ -1793,7 +1793,7 @@ ScrollableLayerGuid
 ViewID
 ViewID
 ;
-MOZ_RUNINIT
+MOZ_CONSTINIT
 PresShell
 :
 :
