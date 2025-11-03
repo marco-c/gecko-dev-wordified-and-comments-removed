@@ -93,6 +93,9 @@ void
 interceptor_entry_point
 void
 *
+local_thunk_storage
+void
+*
 thunk_storage
 size_t
 storage_bytes
@@ -101,6 +104,14 @@ size_t
 storage_used
 )
 {
+CHECK
+(
+local_thunk_storage
+=
+=
+thunk_storage
+)
+;
 NTSTATUS
 ret
 =
@@ -111,6 +122,7 @@ interceptor_module
 target_name
 interceptor_name
 interceptor_entry_point
+local_thunk_storage
 thunk_storage
 storage_bytes
 )
