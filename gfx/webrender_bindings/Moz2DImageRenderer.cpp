@@ -2085,11 +2085,8 @@ height
 )
 )
 ;
-AUTO_PROFILER_TRACING_MARKER
+AUTO_PROFILER_MARKER
 (
-"
-WebRender
-"
 "
 RasterizeSingleBlob
 "

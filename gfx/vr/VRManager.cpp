@@ -2044,11 +2044,8 @@ Active
 return
 ;
 }
-AUTO_PROFILER_TRACING_MARKER
+AUTO_PROFILER_MARKER
 (
-"
-VR
-"
 "
 GetSensorState
 "
@@ -5827,11 +5824,8 @@ NS_GetCurrentThread
 ;
 #
 endif
-AUTO_PROFILER_TRACING_MARKER
+AUTO_PROFILER_MARKER
 (
-"
-VR
-"
 "
 SubmitFrameAtVRDisplayExternal
 "
