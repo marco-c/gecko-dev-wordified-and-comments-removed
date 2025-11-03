@@ -768,12 +768,8 @@ nsIWidget
 *
 GetNearestWidget
 (
-nsPoint
-*
-aOffset
-=
-nullptr
 )
+const
 ;
 nsIWidget
 *
