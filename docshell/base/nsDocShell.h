@@ -1850,6 +1850,11 @@ EnsureDocumentViewer
 (
 )
 ;
+void
+DestroyDocumentViewer
+(
+)
+;
 nsresult
 CreateAboutBlankDocumentViewer
 (
