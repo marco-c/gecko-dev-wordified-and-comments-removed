@@ -413,13 +413,7 @@ DS_COMPONENTS
 Message
 "
 "
-TextPromo
-"
-"
 SectionTitle
-"
-"
-Signup
 "
 "
 Navigation
@@ -767,8 +761,6 @@ a
 placeholder
 for
 topsites
-and
-textPromo
 .
 return
 {
