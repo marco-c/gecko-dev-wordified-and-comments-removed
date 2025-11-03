@@ -1005,17 +1005,6 @@ true
 ;
 }
 virtual
-bool
-IsForServiceWorker
-(
-)
-const
-{
-return
-false
-;
-}
-virtual
 void
 OnDynamicImportStarted
 (

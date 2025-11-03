@@ -267,13 +267,6 @@ RegistrationOptions
 USVString
 scope
 ;
-WorkerType
-type
-=
-"
-classic
-"
-;
 ServiceWorkerUpdateViaCache
 updateViaCache
 =
