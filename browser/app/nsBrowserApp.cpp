@@ -892,7 +892,7 @@ return
 false
 ;
 }
-MOZ_RUNINIT
+MOZ_CONSTINIT
 Bootstrap
 :
 :

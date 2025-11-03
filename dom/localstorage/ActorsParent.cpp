@@ -10678,7 +10678,7 @@ nsCStringHashKey
 PrivateDatastore
 >
 ;
-MOZ_RUNINIT
+MOZ_CONSTINIT
 UniquePtr
 <
 PrivateDatastoreHashtable
