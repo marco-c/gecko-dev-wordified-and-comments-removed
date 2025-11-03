@@ -48,6 +48,12 @@ IPCServiceWorkerDescriptor
 ;
 enum
 class
+WorkerType
+:
+uint8_t
+;
+enum
+class
 ServiceWorkerState
 :
 uint8_t
@@ -79,6 +85,8 @@ const
 nsACString
 &
 aScope
+WorkerType
+aType
 const
 nsACString
 &
@@ -109,6 +117,8 @@ const
 nsACString
 &
 aScope
+WorkerType
+aType
 const
 nsACString
 &
@@ -230,6 +240,12 @@ const
 nsCString
 &
 Scope
+(
+)
+const
+;
+WorkerType
+Type
 (
 )
 const

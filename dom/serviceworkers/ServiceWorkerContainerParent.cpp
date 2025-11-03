@@ -82,6 +82,10 @@ nsACString
 &
 aScopeURL
 const
+WorkerType
+&
+aType
+const
 nsACString
 &
 aScriptURL
@@ -125,6 +129,7 @@ ClientInfo
 aClientInfo
 )
 aScopeURL
+aType
 aScriptURL
 aUpdateViaCache
 )

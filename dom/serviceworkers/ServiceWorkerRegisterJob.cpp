@@ -51,6 +51,10 @@ nsACString
 &
 aScope
 const
+WorkerType
+&
+aType
+const
 nsACString
 &
 aScriptSpec
@@ -76,6 +80,10 @@ aScriptSpec
 )
 aUpdateViaCache
 aLifetimeExtension
+)
+mType
+(
+aType
 )
 {
 }
@@ -240,6 +248,7 @@ swm
 CreateNewRegistration
 (
 mScope
+mType
 mPrincipal
 GetUpdateViaCache
 (
