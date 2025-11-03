@@ -67,7 +67,7 @@ class
 PermissionStatus
 ;
 class
-WeakWorkerRef
+ThreadSafeWorkerRef
 ;
 class
 PermissionStatusSink
@@ -204,7 +204,7 @@ mMutex
 ;
 RefPtr
 <
-WeakWorkerRef
+ThreadSafeWorkerRef
 >
 mWorkerRef
 MOZ_GUARDED_BY
