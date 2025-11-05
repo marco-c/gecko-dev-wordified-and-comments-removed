@@ -1644,7 +1644,7 @@ host_arch
 python
 :
 -
-python
+python3
 }
 "
 cwd

@@ -3009,6 +3009,7 @@ ssl_grp_kem_xyber768d00
 endif
 ssl_grp_kem_mlkem768x25519
 ssl_grp_kem_secp256r1mlkem768
+ssl_grp_kem_secp384r1mlkem1024
 }
 ;
 const
@@ -3056,6 +3057,7 @@ ssl_grp_kem_xyber768d00
 endif
 ssl_grp_kem_mlkem768x25519
 ssl_grp_kem_secp256r1mlkem768
+ssl_grp_kem_secp384r1mlkem1024
 }
 ;
 const
@@ -3100,6 +3102,7 @@ ssl_grp_kem_xyber768d00
 endif
 ssl_grp_kem_mlkem768x25519
 ssl_grp_kem_secp256r1mlkem768
+ssl_grp_kem_secp384r1mlkem1024
 }
 ;
 const
@@ -3121,6 +3124,7 @@ ssl_grp_kem_xyber768d00
 endif
 ssl_grp_kem_mlkem768x25519
 ssl_grp_kem_secp256r1mlkem768
+ssl_grp_kem_secp384r1mlkem1024
 }
 ;
 void
@@ -4135,6 +4139,9 @@ kea_size
 ;
 break
 ;
+case
+ssl_grp_kem_secp384r1mlkem1024
+:
 case
 ssl_grp_ec_secp384r1
 :

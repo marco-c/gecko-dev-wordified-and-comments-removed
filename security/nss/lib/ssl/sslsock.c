@@ -597,6 +597,15 @@ SECP256R1
 MLKEM768
 PR_TRUE
 )
+HYGROUP
+(
+secp384r1
+mlkem1024
+256
+SECP384R1
+MLKEM1024
+PR_TRUE
+)
 {
 ssl_grp_kem_xyber768d00
 256
@@ -797,6 +806,9 @@ ECGROUP
 #
 undef
 FFGROUP
+#
+undef
+HYGROUP
 static
 sslSocket
 *

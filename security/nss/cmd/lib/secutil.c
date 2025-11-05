@@ -23044,6 +23044,15 @@ ssl_grp_kem_secp256r1mlkem768
 NAME_AND_LEN
 (
 "
+secp384r1mlkem1024
+"
+)
+ssl_grp_kem_secp384r1mlkem1024
+}
+{
+NAME_AND_LEN
+(
+"
 mlkem768x25519
 "
 )

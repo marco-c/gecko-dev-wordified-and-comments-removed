@@ -139,7 +139,7 @@ GYP
 .
 pushd
 gyp
-python
+python3
 -
 m
 venv
@@ -154,7 +154,7 @@ env
 /
 Scripts
 /
-python
+python3
 setup
 .
 py
@@ -165,7 +165,7 @@ env
 /
 Scripts
 /
-python
+python3
 -
 m
 pip

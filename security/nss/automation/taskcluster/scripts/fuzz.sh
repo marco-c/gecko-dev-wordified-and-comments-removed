@@ -218,7 +218,7 @@ options
 <
 <
 (
-python
+python3
 nss
 /
 fuzz
