@@ -147,6 +147,10 @@ mImage
 =
 aImage
 ;
+RequestDecode
+(
+)
+;
 return
 NS_OK
 ;
