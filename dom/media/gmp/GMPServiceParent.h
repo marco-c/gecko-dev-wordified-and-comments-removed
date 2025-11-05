@@ -739,14 +739,6 @@ already_AddRefed
 <
 GMPParent
 >
-CreateGMPParent
-(
-)
-;
-already_AddRefed
-<
-GMPParent
->
 ClonePlugin
 (
 const
