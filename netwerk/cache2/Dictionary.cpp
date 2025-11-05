@@ -6907,6 +6907,17 @@ Clear
 (
 )
 ;
+mPendingRemove
+.
+Clear
+(
+)
+;
+if
+(
+mEntry
+)
+{
 NS_DispatchBackgroundTask
 (
 NS_NewRunnableFunction
@@ -6937,6 +6948,7 @@ nullptr
 )
 )
 ;
+}
 }
 DictionaryCacheEntry
 *
