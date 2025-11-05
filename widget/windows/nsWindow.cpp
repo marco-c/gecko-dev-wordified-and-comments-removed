@@ -33948,7 +33948,7 @@ sPendingToUpdate
 StaticPrefs
 :
 :
-widget_widnows_pen_override_number_of_preserver_value
+widget_windows_pen_override_number_of_preserver_value
 (
 )
 ;
@@ -34145,7 +34145,7 @@ sPendingToUpdate
 StaticPrefs
 :
 :
-widget_widnows_pen_override_number_of_preserver_value
+widget_windows_pen_override_number_of_preserver_value
 (
 )
 ;
