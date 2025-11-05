@@ -32246,6 +32246,17 @@ pos
 =
 split
 ]
+:
+where
+(
+:
+not
+(
+[
+fullscreen
+]
+)
+)
 .
 section
 -

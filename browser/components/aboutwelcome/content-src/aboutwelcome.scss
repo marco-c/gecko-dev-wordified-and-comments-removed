@@ -8188,6 +8188,19 @@ width
 990px
 )
 {
+&
+:
+where
+(
+:
+not
+(
+[
+fullscreen
+]
+)
+)
+{
 .
 section
 -
@@ -8203,6 +8216,7 @@ display
 :
 none
 ;
+}
 }
 }
 /
