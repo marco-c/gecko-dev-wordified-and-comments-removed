@@ -153,14 +153,6 @@ NS_OK
 if
 (
 mRequiresStrictMimeCheck
-&
-&
-StaticPrefs
-:
-:
-dom_workers_importScripts_enforceStrictMimeType
-(
-)
 )
 {
 rv
