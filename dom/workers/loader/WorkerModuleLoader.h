@@ -462,14 +462,6 @@ ModuleType
 JSON
 ;
 }
-virtual
-bool
-IsForServiceWorker
-(
-)
-const
-override
-;
 }
 ;
 }
