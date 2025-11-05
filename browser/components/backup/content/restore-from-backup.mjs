@@ -1471,6 +1471,12 @@ ifDefined
 l10nName
 )
 }
+rel
+=
+"
+noopener
+noreferrer
+"
 >
 <
 /
@@ -3285,6 +3291,11 @@ error
 -
 link
 "
+target
+=
+"
+_blank
+"
 slot
 =
 "
@@ -3317,6 +3328,12 @@ backup
 "
 )
 }
+rel
+=
+"
+noopener
+noreferrer
+"
 >
 <
 /
