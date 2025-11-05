@@ -337,9 +337,7 @@ default
 large
 default
 :
-large
--
-noscratch
+highcpu
 run
 -
 on

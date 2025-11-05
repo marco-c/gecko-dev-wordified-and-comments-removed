@@ -668,6 +668,10 @@ xlarge
 -
 noscratch
 "
+                
+"
+highcpu
+"
             
 )
         

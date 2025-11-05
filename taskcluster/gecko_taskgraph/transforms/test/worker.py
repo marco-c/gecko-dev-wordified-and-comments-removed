@@ -89,6 +89,22 @@ amd
 "
     
 "
+highcpu
+"
+:
+"
+t
+-
+linux
+-
+docker
+-
+16c32gb
+-
+amd
+"
+    
+"
 default
 "
 :
