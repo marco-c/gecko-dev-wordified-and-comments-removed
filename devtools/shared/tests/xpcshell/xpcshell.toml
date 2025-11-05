@@ -311,6 +311,15 @@ js
 ]
 [
 "
+test_pluralForm
+-
+japanese
+.
+js
+"
+]
+[
+"
 test_prettifyCSS
 .
 js
