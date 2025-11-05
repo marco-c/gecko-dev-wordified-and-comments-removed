@@ -669,7 +669,7 @@ sha1_addUncounted
 sha1nfo
 *
 s
-uint8_t
+uint32_t
 data
 )
 {
@@ -698,7 +698,13 @@ s
 bufferOffset
 ]
 =
+static_cast
+<
+uint8_t
+>
+(
 data
+)
 ;
 #
 else
@@ -712,7 +718,13 @@ bufferOffset
 3
 ]
 =
+static_cast
+<
+uint8_t
+>
+(
 data
+)
 ;
 #
 endif
