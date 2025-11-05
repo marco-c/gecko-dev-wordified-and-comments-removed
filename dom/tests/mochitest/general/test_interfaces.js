@@ -1541,9 +1541,6 @@ CSSScopeRule
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
