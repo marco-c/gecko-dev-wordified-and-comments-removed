@@ -222,6 +222,13 @@ AnnotationInList
 aAnnotation
 kCrashPingAllowedList
 )
+|
+|
+AnnotationInList
+(
+aAnnotation
+kCrashPingOnlyAllowedList
+)
 ;
 }
 bool
