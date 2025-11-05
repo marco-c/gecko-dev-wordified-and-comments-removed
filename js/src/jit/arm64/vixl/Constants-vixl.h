@@ -4339,6 +4339,11 @@ DCPS3
 ExceptionFixed
 |
 0x00A00003
+DCPS0
+=
+ExceptionFixed
+|
+0x00A00000
 }
 ;
 enum
@@ -18288,7 +18293,7 @@ constexpr
 uint32_t
 UNDEFINED_INST_PATTERN
 =
-0xd4a00000
+DCPS0
 ;
 }
 #
