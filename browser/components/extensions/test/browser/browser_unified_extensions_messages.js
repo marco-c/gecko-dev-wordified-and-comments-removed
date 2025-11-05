@@ -1820,7 +1820,7 @@ blocklist
 -
 warning
 -
-single2
+single
 "
 :
 "
@@ -2183,7 +2183,7 @@ blocklist
 -
 warning
 -
-multiple2
+multiple
 "
 :
 "
