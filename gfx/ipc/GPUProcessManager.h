@@ -395,7 +395,7 @@ GPUProcessManager
 (
 )
 ;
-bool
+nsresult
 LaunchGPUProcess
 (
 )
@@ -1070,7 +1070,7 @@ bool
 aTrackThreshold
 )
 ;
-bool
+void
 DisableWebRenderConfig
 (
 wr
@@ -1495,6 +1495,8 @@ mProcessToken
 ;
 bool
 mProcessStable
+=
+false
 ;
 bool
 mProcessStableOnce
