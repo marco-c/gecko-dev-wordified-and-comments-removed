@@ -145,8 +145,6 @@ datetime
 import
 errno
 import
-grp
-import
 io
 import
 json
@@ -154,8 +152,6 @@ import
 os
 import
 platform
-import
-pwd
 import
 re
 import
@@ -187,6 +183,7 @@ Path
 from
 typing
 import
+Dict
 Optional
 SECRET_BASEURL_TPL
 =
@@ -2152,6 +2149,18 @@ user
 group
 )
 :
+import
+grp
+#
+noqa
+:
+PLC0415
+import
+pwd
+#
+noqa
+:
+PLC0415
 try
 :
 user_record
@@ -4147,7 +4156,7 @@ env
 :
 Optional
 [
-dict
+Dict
 [
 str
 str
