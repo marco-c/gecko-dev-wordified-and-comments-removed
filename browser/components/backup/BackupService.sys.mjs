@@ -19185,16 +19185,6 @@ old
 [
 profile_name
 ]
-profile
-.
-name
-=
-profileSvc
-.
-currentProfile
-.
-name
-;
 profileSvc
 .
 currentProfile
