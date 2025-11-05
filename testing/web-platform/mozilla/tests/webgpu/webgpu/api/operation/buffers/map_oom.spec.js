@@ -169,7 +169,6 @@ oom
 ?
 [
 kMaxSafeMultipleOf8
-0x20_0000_0000
 ]
 :
 [
