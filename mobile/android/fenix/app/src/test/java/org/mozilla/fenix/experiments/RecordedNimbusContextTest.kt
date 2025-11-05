@@ -558,6 +558,13 @@ addon_ids
 )
 {
 }
+put
+(
+"
+tou_points
+"
+3
+)
 }
 contextAsJson
 )
@@ -807,6 +814,13 @@ put
 no_shortcuts_or_stories_opt_outs
 "
 true
+)
+put
+(
+"
+tou_points
+"
+3
 )
 }
 recordedValue
