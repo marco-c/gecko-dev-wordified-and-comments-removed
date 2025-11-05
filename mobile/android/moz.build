@@ -398,11 +398,6 @@ generate
 .
 py
 "
-entry_point
-=
-"
-emit_java
-"
 )
 GeneratedFile
 (
@@ -450,11 +445,6 @@ annotations
 generate
 .
 py
-"
-entry_point
-=
-"
-emit_java
 "
 )
 CONFIGURE_SUBST_FILES
