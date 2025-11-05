@@ -14512,9 +14512,6 @@ WordSized
 mir_op
 :
 Div
-defer_init
-:
-true
 -
 name
 :
@@ -14533,9 +14530,6 @@ WordSized
 mir_op
 :
 Mod
-defer_init
-:
-true
 -
 name
 :
