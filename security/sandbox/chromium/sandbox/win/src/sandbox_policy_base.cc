@@ -437,7 +437,7 @@ kPolMemSize
 =
 kOneMemPage
 *
-6
+kPolMemPageCount
 ;
 #
 if
