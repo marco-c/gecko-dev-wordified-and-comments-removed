@@ -1571,7 +1571,8 @@ as
 ?
 RedirectDialogFragment
 }
-private
+VisibleForTesting
+internal
 fun
 isWalletLink
 (
