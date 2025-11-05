@@ -3395,7 +3395,7 @@ mPopupTrackInHierarchyConfigured
 1
 ;
 bool
-mHiddenPopupPositioned
+mX11HiddenPopupPositioned
 :
 1
 ;
