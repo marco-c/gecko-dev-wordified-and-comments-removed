@@ -3639,7 +3639,7 @@ R
 .
 string
 .
-mozac_feature_addons_status_softblocked_re_enabled
+mozac_feature_addons_status_softblocked_re_enabled_2
 }
 else
 {
@@ -3647,7 +3647,7 @@ R
 .
 string
 .
-mozac_feature_addons_status_softblocked_1
+mozac_feature_addons_status_softblocked_2
 }
 )
 /
