@@ -114,7 +114,7 @@ version
 .
 10
 .
-1
+3
 "
 authors
 =
@@ -241,6 +241,9 @@ sys
 "
 "
 libc
+"
+"
+bitflags
 "
 ]
 winrt
