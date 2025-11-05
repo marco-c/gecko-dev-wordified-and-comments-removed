@@ -19,6 +19,13 @@ h
 #
 include
 "
+ServiceWorkerDescriptor
+.
+h
+"
+#
+include
+"
 ServiceWorkerShutdownState
 .
 h
@@ -561,6 +568,10 @@ nsACString
 &
 aScopeURL
 const
+WorkerType
+&
+aType
+const
 nsACString
 &
 aScriptURL
@@ -647,6 +658,10 @@ const
 nsCString
 &
 aScope
+const
+WorkerType
+&
+aType
 nsIPrincipal
 *
 aPrincipal

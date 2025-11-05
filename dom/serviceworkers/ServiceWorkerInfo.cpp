@@ -1159,6 +1159,10 @@ const
 nsACString
 &
 aScope
+const
+WorkerType
+&
+aType
 uint64_t
 aRegistrationId
 uint64_t
@@ -1188,6 +1192,7 @@ aRegistrationId
 aRegistrationVersion
 aPrincipal
 aScope
+aType
 aScriptSpec
 ServiceWorkerState
 :
