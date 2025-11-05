@@ -242,6 +242,13 @@ html
 ]
 [
 "
+test_moz_input_elems_in_form
+.
+html
+"
+]
+[
+"
 test_moz_input_folder
 .
 html
@@ -285,6 +292,13 @@ html
 [
 "
 test_moz_message_bar
+.
+html
+"
+]
+[
+"
+test_moz_page_header
 .
 html
 "
