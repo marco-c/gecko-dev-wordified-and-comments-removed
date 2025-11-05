@@ -491,6 +491,15 @@ aNumFiles
 {
 #
 if
+defined
+(
+ANDROID
+)
+return
+1
+;
+#
+elif
 !
 defined
 (
