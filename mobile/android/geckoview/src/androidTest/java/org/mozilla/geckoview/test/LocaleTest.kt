@@ -279,12 +279,12 @@ FR
 }
 Test
 fun
-acceptLangaugeFormat
+acceptLanguageFormat
 (
 )
 {
 val
-intlAcceptLanauge
+intlAcceptLanguage
 =
 "
 intl
@@ -299,7 +299,7 @@ sessionRule
 .
 getPrefs
 (
-intlAcceptLanauge
+intlAcceptLanguage
 )
 [
 0
@@ -325,7 +325,7 @@ assertThat
 "
 Accept
 -
-Lanauge
+Language
 format
 should
 be
