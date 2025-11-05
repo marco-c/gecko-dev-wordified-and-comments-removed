@@ -247,6 +247,13 @@ bug
 1583735
 [
 "
+test_bug1940027_embedded_null
+.
+js
+"
+]
+[
+"
 test_corrupt_1211262
 .
 js
