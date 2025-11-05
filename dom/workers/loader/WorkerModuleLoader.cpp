@@ -772,6 +772,15 @@ ModuleType
 :
 Unknown
 :
+case
+JS
+:
+:
+ModuleType
+:
+:
+Bytes
+:
 MOZ_CRASH
 (
 "
