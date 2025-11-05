@@ -2733,6 +2733,15 @@ ModuleType
 :
 Unknown
 :
+case
+JS
+:
+:
+ModuleType
+:
+:
+Bytes
+:
 JS_ReportErrorNumberASCII
 (
 cx

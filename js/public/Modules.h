@@ -122,9 +122,10 @@ Unknown
 JavaScript
 JSON
 CSS
+Bytes
 Limit
 =
-CSS
+Bytes
 }
 ;
 using
