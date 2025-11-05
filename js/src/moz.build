@@ -3796,6 +3796,15 @@ fstandalone
 debug
 "
 ]
+CXXFLAGS
++
+=
+CONFIG
+[
+"
+MOZ_ZLIB_CFLAGS
+"
+]
 if
 CONFIG
 [
