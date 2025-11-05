@@ -1,6 +1,4 @@
-EXTRA_JS_MODULES
-.
-topsites
+MOZ_SRC_FILES
 +
 =
 [
