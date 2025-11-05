@@ -1288,7 +1288,7 @@ RemoveOrigin
 const
 nsACString
 &
-aKey
+aOrigin
 )
 ;
 nsresult
@@ -1380,6 +1380,15 @@ this
 }
 private
 :
+void
+RemoveOriginForInternal
+(
+const
+nsACString
+&
+aKey
+)
+;
 static
 StaticRefPtr
 <
