@@ -1787,6 +1787,13 @@ level
 :
 PREF_INT
 "
+termsofuse
+.
+acceptedDate
+"
+:
+PREF_STRING
+"
 trailhead
 .
 firstrun
