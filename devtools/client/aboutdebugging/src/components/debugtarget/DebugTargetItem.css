@@ -658,6 +658,16 @@ font
 weight
 -
 bold
+var
+(
+-
+-
+font
+-
+weight
+-
+bold
+)
 )
 ;
 line
@@ -977,6 +987,7 @@ caption
 font
 -
 weight
+normal
 )
 ;
 line
