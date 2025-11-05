@@ -9127,6 +9127,10 @@ RemoveWindowListeners
 )
 ;
 }
+Hide
+(
+)
+;
 nsCOMPtr
 <
 Document
