@@ -57,9 +57,6 @@ nsIWidget
 class
 nsPresContext
 ;
-class
-nsView
-;
 struct
 nsPoint
 ;

@@ -524,13 +524,6 @@ h
 #
 include
 "
-nsView
-.
-h
-"
-#
-include
-"
 nsWindowGfx
 .
 h

@@ -330,13 +330,6 @@ h
 #
 include
 "
-nsViewManager
-.
-h
-"
-#
-include
-"
 nsWidgetsCID
 .
 h

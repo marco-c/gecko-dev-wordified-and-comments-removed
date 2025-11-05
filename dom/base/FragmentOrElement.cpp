@@ -646,13 +646,6 @@ h
 #
 include
 "
-nsView
-.
-h
-"
-#
-include
-"
 nsWindowSizes
 .
 h

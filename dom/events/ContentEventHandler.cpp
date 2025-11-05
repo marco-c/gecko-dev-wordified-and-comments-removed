@@ -328,13 +328,6 @@ nsTextFrame
 h
 "
 #
-include
-"
-nsView
-.
-h
-"
-#
 if
 defined
 (

@@ -404,13 +404,6 @@ nsTextNode
 .
 h
 "
-#
-include
-"
-nsView
-.
-h
-"
 namespace
 mozilla
 {

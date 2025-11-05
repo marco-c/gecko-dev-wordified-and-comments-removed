@@ -726,13 +726,6 @@ h
 #
 include
 "
-nsViewManager
-.
-h
-"
-#
-include
-"
 nsXPLookAndFeel
 .
 h
@@ -922,13 +915,6 @@ h
 include
 "
 nsIClipboard
-.
-h
-"
-#
-include
-"
-nsView
 .
 h
 "

@@ -104,13 +104,6 @@ h
 #
 include
 "
-nsViewManager
-.
-h
-"
-#
-include
-"
 nsWindow
 .
 h
