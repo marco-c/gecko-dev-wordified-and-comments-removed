@@ -1159,6 +1159,15 @@ js
 ]
 [
 "
+browser_rules_custom
+-
+states
+.
+js
+"
+]
+[
+"
 browser_rules_cycle
 -
 angle
