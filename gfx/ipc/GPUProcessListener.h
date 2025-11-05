@@ -4,6 +4,13 @@ _include_mozilla_gfx_ipc_GPUProcessListener_h_
 #
 define
 _include_mozilla_gfx_ipc_GPUProcessListener_h_
+#
+include
+"
+nsISupportsImpl
+.
+h
+"
 namespace
 mozilla
 {
@@ -13,6 +20,7 @@ gfx
 class
 GPUProcessListener
 {
+NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
 public
 :
 virtual
@@ -23,6 +31,13 @@ GPUProcessListener
 =
 default
 ;
+virtual
+void
+OnCompositorDestroyBackgrounded
+(
+)
+{
+}
 virtual
 void
 OnCompositorUnexpectedShutdown

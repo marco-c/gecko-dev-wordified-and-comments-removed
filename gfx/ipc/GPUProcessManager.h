@@ -1472,8 +1472,10 @@ mInProcessSessions
 ;
 nsTArray
 <
+RefPtr
+<
 GPUProcessListener
-*
+>
 >
 mListeners
 ;

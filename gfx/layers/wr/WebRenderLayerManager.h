@@ -288,6 +288,11 @@ WebRenderUserData
 >
 WebRenderUserDataRefTable
 ;
+NS_INLINE_DECL_REFCOUNTING
+(
+WebRenderLayerManager
+final
+)
 public
 :
 explicit

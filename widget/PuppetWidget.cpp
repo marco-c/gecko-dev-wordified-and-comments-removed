@@ -2509,8 +2509,9 @@ XRE_IsParentProcess
 {
 mWindowRenderer
 =
-new
-FallbackRenderer
+CreateFallbackRenderer
+(
+)
 ;
 return
 mWindowRenderer

@@ -4589,6 +4589,12 @@ CreateFallbackRenderer
 (
 )
 ;
+WindowRenderer
+*
+CreateBackgroundedFallbackRenderer
+(
+)
+;
 virtual
 nsresult
 SetSystemFont
