@@ -376,6 +376,10 @@ recentSearches
 is
 SettingsSearchAction
 .
+ClearRecentSearchesClicked
+is
+SettingsSearchAction
+.
 Init
 is
 SettingsSearchAction
