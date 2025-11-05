@@ -13174,11 +13174,6 @@ name
 let
 mode
 =
-this
-.
-isAddressbar
-&
-&
 lazy
 .
 UrlbarUtils
