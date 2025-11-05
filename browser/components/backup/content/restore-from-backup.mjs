@@ -1568,7 +1568,16 @@ font
 weight
 "
 "
-600
+var
+(
+-
+-
+font
+-
+weight
+-
+semibold
+)
 "
 )
 ;
