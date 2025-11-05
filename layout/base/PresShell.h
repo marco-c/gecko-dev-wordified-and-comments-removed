@@ -380,6 +380,9 @@ class
 nsTextFrame
 ;
 class
+nsSubDocumentFrame
+;
+class
 nsView
 ;
 class
@@ -1338,6 +1341,13 @@ const
 nsIWidget
 *
 GetNearestWidget
+(
+)
+const
+;
+nsSubDocumentFrame
+*
+GetInProcessEmbedderFrame
 (
 )
 const
