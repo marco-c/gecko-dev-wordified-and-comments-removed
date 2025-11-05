@@ -302,7 +302,9 @@ expected
 [
 "
 -
-url
+new
+-
+tab
 "
 "
 about
