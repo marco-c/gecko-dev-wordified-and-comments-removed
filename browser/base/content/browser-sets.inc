@@ -2380,11 +2380,6 @@ alt
 >
 <
 key
-id
-=
-"
-key_reload2
-"
 keycode
 =
 "
@@ -2441,11 +2436,6 @@ shift
 >
 <
 key
-id
-=
-"
-key_reload_skip_cache2
-"
 keycode
 =
 "
