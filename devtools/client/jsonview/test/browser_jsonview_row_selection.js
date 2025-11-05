@@ -23,9 +23,9 @@ started
 )
 ;
 const
-numRows
+numElements
 =
-1e3
+1e4
 ;
 const
 json
@@ -36,7 +36,7 @@ stringify
 (
 Array
 (
-numRows
+numElements
 )
 .
 fill
@@ -71,6 +71,11 @@ json
 +
 json
 )
+;
+const
+numRows
+=
+100
 ;
 is
 (

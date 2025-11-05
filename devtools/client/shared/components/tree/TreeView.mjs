@@ -388,6 +388,9 @@ null
 expandableStrings
 :
 true
+bucketLargeArrays
+:
+false
 maxStringLength
 :
 50
@@ -976,6 +979,18 @@ onSort
 PropTypes
 .
 func
+/
+/
+Enable
+bucketing
+for
+large
+arrays
+bucketLargeArrays
+:
+PropTypes
+.
+bool
 /
 /
 Custom
@@ -3576,6 +3591,7 @@ const
 {
 expandableStrings
 provider
+bucketLargeArrays
 maxStringLength
 }
 =
@@ -3591,6 +3607,9 @@ provider
 getChildren
 (
 parent
+{
+bucketLargeArrays
+}
 )
 |
 |
