@@ -6184,7 +6184,7 @@ rect
 .
 top
 -
-unpinnedRect
+tabContainerRect
 .
 top
 +
@@ -10751,6 +10751,7 @@ numPinned
 |
 newDropElementIndex
 >
+=
 numPinned
 )
 )

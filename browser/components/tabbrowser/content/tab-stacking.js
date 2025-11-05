@@ -4050,6 +4050,7 @@ numPinned
 |
 newDropElementIndex
 >
+=
 numPinned
 )
 )
