@@ -2090,7 +2090,7 @@ green
 =
 #
 #
-Celestial
+Firefox
 newtab
 -
 wallpaper

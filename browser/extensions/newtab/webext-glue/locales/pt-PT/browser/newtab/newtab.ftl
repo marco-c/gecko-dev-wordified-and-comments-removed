@@ -4105,7 +4105,7 @@ onduladas
 pretas
 #
 #
-Celestial
+Firefox
 newtab
 -
 wallpaper

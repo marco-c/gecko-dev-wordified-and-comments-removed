@@ -4180,7 +4180,7 @@ onduladas
 negras
 #
 #
-Celestial
+Firefox
 newtab
 -
 wallpaper

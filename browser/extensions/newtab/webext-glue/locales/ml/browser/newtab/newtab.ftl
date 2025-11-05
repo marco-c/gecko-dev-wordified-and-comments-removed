@@ -2665,7 +2665,7 @@ orange
 =
 #
 #
-Celestial
+Firefox
 newtab
 -
 wallpaper

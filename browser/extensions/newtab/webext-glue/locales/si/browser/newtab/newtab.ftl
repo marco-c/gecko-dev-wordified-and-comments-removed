@@ -2137,7 +2137,7 @@ red
 =
 #
 #
-Celestial
+Firefox
 newtab
 -
 wallpaper

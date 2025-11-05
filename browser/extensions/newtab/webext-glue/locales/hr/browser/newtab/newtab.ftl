@@ -4189,7 +4189,7 @@ valoviti
 oblici
 #
 #
-Celestial
+Firefox
 newtab
 -
 wallpaper
@@ -7104,10 +7104,12 @@ widget
 -
 timer
 -
+label
+-
 play
 =
 .
-title
+label
 =
 Pokreni
 newtab
@@ -7116,10 +7118,12 @@ widget
 -
 timer
 -
+label
+-
 pause
 =
 .
-title
+label
 =
 Pauziraj
 newtab

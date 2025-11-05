@@ -3872,7 +3872,7 @@ violetas
 formas
 #
 #
-Celestial
+Firefox
 newtab
 -
 wallpaper

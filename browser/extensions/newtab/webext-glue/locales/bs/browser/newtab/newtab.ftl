@@ -4069,7 +4069,7 @@ valoviti
 oblici
 #
 #
-Celestial
+Firefox
 newtab
 -
 wallpaper

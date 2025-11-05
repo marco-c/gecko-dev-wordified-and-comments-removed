@@ -2434,7 +2434,7 @@ brown
 =
 #
 #
-Celestial
+Firefox
 newtab
 -
 wallpaper

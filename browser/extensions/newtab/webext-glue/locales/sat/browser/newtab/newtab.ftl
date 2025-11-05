@@ -2847,7 +2847,7 @@ purple
 =
 #
 #
-Celestial
+Firefox
 newtab
 -
 wallpaper

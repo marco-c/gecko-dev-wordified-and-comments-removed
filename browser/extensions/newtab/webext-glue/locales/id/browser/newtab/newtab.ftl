@@ -4061,7 +4061,7 @@ hitam
 bergelombang
 #
 #
-Celestial
+Firefox
 newtab
 -
 wallpaper
