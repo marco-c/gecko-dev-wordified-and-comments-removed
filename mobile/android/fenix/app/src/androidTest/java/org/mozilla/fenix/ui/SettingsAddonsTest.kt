@@ -179,7 +179,7 @@ helpers
 .
 TestAssetHelper
 .
-getEnhancedTrackingProtectionAsset
+enhancedTrackingProtectionAsset
 import
 org
 .
@@ -735,10 +735,9 @@ Reader
 val
 trackingProtectionPage
 =
-getEnhancedTrackingProtectionAsset
-(
 mockWebServer
-)
+.
+enhancedTrackingProtectionAsset
 addonsMenu
 {
 installAddon

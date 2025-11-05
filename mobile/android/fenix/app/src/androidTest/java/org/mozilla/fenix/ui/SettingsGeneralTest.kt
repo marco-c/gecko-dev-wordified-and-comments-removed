@@ -185,7 +185,7 @@ helpers
 .
 TestAssetHelper
 .
-getLoremIpsumAsset
+loremIpsumAsset
 import
 org
 .
@@ -540,10 +540,9 @@ FenixApplication
 val
 webpage
 =
-getLoremIpsumAsset
-(
 mockWebServer
-)
+.
+loremIpsumAsset
 .
 url
 /

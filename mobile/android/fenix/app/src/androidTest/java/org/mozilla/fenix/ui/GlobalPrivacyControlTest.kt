@@ -127,7 +127,7 @@ helpers
 .
 TestAssetHelper
 .
-getGPCTestAsset
+gcpTestAsset
 import
 org
 .
@@ -255,10 +255,9 @@ setUp
 )
 gpcPage
 =
-getGPCTestAsset
-(
 mockWebServer
-)
+.
+gcpTestAsset
 }
 /
 /

@@ -449,9 +449,10 @@ verifyPDFFileIsOpenedInTheSameTabTest
 val
 genericURL
 =
+mockWebServer
+.
 getGenericAsset
 (
-mockWebServer
 3
 )
 navigationToolbar
@@ -553,9 +554,10 @@ verifyPDFViewerDownloadButtonTest
 val
 genericURL
 =
+mockWebServer
+.
 getGenericAsset
 (
-mockWebServer
 3
 )
 val
@@ -663,9 +665,10 @@ pdfFindInPageTest
 val
 genericURL
 =
+mockWebServer
+.
 getGenericAsset
 (
-mockWebServer
 3
 )
 navigationToolbar
@@ -946,9 +949,10 @@ verifyDownloadedPDFIsOpenedInFirefoxTest
 val
 genericURL
 =
+mockWebServer
+.
 getGenericAsset
 (
-mockWebServer
 3
 )
 val

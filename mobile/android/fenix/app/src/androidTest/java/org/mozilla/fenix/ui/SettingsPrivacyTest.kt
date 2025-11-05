@@ -108,6 +108,8 @@ fenix
 helpers
 .
 TestAssetHelper
+.
+getGenericAsset
 import
 org
 .
@@ -543,11 +545,10 @@ allowAppToSendNotifications
 val
 defaultWebPage
 =
-TestAssetHelper
+mockWebServer
 .
 getGenericAsset
 (
-mockWebServer
 1
 )
 /

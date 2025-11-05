@@ -1578,9 +1578,10 @@ disableSearchBrowsingHistorySuggestionsToggleTest
 val
 websiteURL
 =
+mockWebServer
+.
 getGenericAsset
 (
-mockWebServer
 1
 )
 .
@@ -1671,9 +1672,10 @@ disableSearchBookmarksToggleTest
 val
 website
 =
+mockWebServer
+.
 getGenericAsset
 (
-mockWebServer
 1
 )
 createBookmarkItem

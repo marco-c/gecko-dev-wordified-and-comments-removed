@@ -274,6 +274,8 @@ fenix
 helpers
 .
 TestAssetHelper
+.
+getGenericAsset
 import
 org
 .
@@ -2187,11 +2189,10 @@ saveAsPdfFunctionalityTest
 val
 genericURL
 =
-TestAssetHelper
+mockWebServer
 .
 getGenericAsset
 (
-mockWebServer
 3
 )
 downloadFile
