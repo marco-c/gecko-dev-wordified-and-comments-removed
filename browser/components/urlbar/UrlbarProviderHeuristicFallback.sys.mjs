@@ -1673,6 +1673,16 @@ queryContext
 tokens
 .
 length
+|
+|
+queryContext
+.
+sapName
+!
+=
+"
+urlbar
+"
 )
 {
 return
