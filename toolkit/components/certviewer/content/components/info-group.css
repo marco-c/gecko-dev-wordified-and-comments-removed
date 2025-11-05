@@ -160,7 +160,16 @@ font
 -
 weight
 :
-700
+var
+(
+-
+-
+font
+-
+weight
+-
+bold
+)
 ;
 color
 :

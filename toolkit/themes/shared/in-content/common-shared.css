@@ -1495,7 +1495,7 @@ font
 -
 weight
 :
-400
+normal
 ;
 padding
 :
@@ -2095,7 +2095,16 @@ font
 -
 weight
 :
-600
+var
+(
+-
+-
+font
+-
+weight
+-
+semibold
+)
 ;
 /
 *
