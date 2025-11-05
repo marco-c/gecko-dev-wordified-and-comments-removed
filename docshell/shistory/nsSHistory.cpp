@@ -7508,9 +7508,12 @@ BasePrincipal
 CreateContentPrincipal
 (
 targetURI
-OriginAttributes
-{
-}
+traversable
+-
+>
+OriginAttributesRef
+(
+)
 )
 ;
 if
