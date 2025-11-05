@@ -1075,13 +1075,6 @@ enginePerformance
 record
 (
 {
-flow_id
-:
-TranslationsTelemetry
-.
-getOrCreateFlowId
-(
-)
 from_language
 :
 sourceLanguage
