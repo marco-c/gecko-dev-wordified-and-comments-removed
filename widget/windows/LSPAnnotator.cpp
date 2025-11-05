@@ -634,6 +634,13 @@ LSPAnnotate
 (
 )
 {
+MOZ_ASSERT
+(
+XRE_IsParentProcess
+(
+)
+)
+;
 nsCOMPtr
 <
 nsIRunnable
