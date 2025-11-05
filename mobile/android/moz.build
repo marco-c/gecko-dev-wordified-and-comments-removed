@@ -392,7 +392,9 @@ toolkit
 /
 crashreporter
 /
-generate_crash_reporter_sources
+annotations
+/
+generate
 .
 py
 "
@@ -443,7 +445,9 @@ toolkit
 /
 crashreporter
 /
-generate_crash_reporter_sources
+annotations
+/
+generate
 .
 py
 "
