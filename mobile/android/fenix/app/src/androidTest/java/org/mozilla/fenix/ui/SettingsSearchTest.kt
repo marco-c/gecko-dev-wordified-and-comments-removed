@@ -1762,6 +1762,14 @@ website
 title
 )
 }
+.
+dismissSearchBar
+{
+verifyHomeComponent
+(
+activityTestRule
+)
+}
 }
 /
 /
