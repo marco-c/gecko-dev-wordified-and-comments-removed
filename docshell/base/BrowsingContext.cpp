@@ -6047,10 +6047,8 @@ Canonical
 -
 >
 mActiveEntryList
-.
-clear
-(
-)
+=
+nullptr
 ;
 }
 auto
