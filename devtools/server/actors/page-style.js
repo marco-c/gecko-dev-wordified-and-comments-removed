@@ -726,9 +726,6 @@ stretch
 %
 "
 )
-newInactiveCssDataShape
-:
-true
 }
 }
 ;
