@@ -2926,6 +2926,10 @@ horizontal_offset_bounds
 )
 ;
 sticky_offset
++
+info
+.
+previously_applied_offset
 }
 pub
 fn
