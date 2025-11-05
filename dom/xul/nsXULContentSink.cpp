@@ -183,13 +183,6 @@ h
 #
 include
 "
-nsViewManager
-.
-h
-"
-#
-include
-"
 nsXMLContentSink
 .
 h
