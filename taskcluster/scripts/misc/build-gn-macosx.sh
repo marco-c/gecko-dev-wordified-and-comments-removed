@@ -28,7 +28,7 @@ MOZ_FETCHES_DIR
 /
 MacOSX26
 .
-1
+0
 .
 sdk
 export
