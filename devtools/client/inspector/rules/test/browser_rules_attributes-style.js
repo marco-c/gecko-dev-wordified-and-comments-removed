@@ -334,6 +334,9 @@ element
 attributes
 style
 "
+inherited
+:
+true
 declarations
 :
 [
@@ -430,6 +433,9 @@ element
 attributes
 style
 "
+inherited
+:
+true
 declarations
 :
 [
@@ -534,6 +540,9 @@ element
 attributes
 style
 "
+inherited
+:
+true
 declarations
 :
 [

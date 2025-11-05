@@ -2273,6 +2273,9 @@ selector
 :
 root
 "
+inherited
+:
+true
 declarations
 :
 [
