@@ -766,6 +766,10 @@ Vec
 i64
 >
 >
+pub
+(
+crate
+)
 load_sizes
 :
 Option
