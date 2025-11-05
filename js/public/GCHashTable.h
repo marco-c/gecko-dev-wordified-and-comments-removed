@@ -408,6 +408,13 @@ trc
 e
 )
 ;
+Base
+:
+:
+compact
+(
+)
+;
 return
 !
 this
@@ -1891,6 +1898,13 @@ traceWeakEntries
 (
 trc
 e
+)
+;
+Base
+:
+:
+compact
+(
 )
 ;
 return

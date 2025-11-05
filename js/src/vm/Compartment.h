@@ -1415,6 +1415,12 @@ removeFront
 ;
 }
 }
+map
+.
+compact
+(
+)
+;
 }
 }
 ;

@@ -1317,6 +1317,15 @@ remove
 ;
 }
 }
+registrations
+(
+)
+-
+>
+compact
+(
+)
+;
 }
 void
 FinalizationRegistryObject
