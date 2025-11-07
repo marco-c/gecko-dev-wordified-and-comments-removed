@@ -269,14 +269,6 @@ mozilla
 .
 focus
 .
-R
-import
-org
-.
-mozilla
-.
-focus
-.
 helpers
 .
 Constants

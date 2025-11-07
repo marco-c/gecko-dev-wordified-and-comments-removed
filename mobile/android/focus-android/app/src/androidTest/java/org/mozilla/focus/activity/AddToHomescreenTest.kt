@@ -354,9 +354,10 @@ addPageToHomeScreenTest
 val
 pageUrl
 =
+webServer
+.
 getGenericTabAsset
 (
-webServer
 1
 )
 .
@@ -421,9 +422,10 @@ noNameShortcutTest
 val
 pageUrl
 =
+webServer
+.
 getGenericTabAsset
 (
-webServer
 1
 )
 .

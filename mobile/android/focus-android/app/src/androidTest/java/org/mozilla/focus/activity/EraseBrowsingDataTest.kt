@@ -451,9 +451,10 @@ trashButtonTest
 val
 testPage
 =
+webServer
+.
 getGenericTabAsset
 (
-webServer
 1
 )
 searchScreen
@@ -518,9 +519,10 @@ notificationEraseAndOpenButtonTest
 val
 testPage
 =
+webServer
+.
 getGenericTabAsset
 (
-webServer
 1
 )
 notificationTray
@@ -626,9 +628,10 @@ deleteHistoryOnRestartTest
 val
 testPage
 =
+webServer
+.
 getGenericTabAsset
 (
-webServer
 1
 )
 searchScreen
@@ -664,9 +667,10 @@ systemBarHomeViewTest
 val
 testPage
 =
+webServer
+.
 getGenericTabAsset
 (
-webServer
 1
 )
 val

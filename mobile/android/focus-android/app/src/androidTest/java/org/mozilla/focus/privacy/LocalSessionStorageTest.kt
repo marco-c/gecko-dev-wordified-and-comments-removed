@@ -370,9 +370,10 @@ testLocalAndSessionStorageIsWrittenAndRemoved
 val
 storageStartUrl
 =
+webServer
+.
 getStorageTestAsset
 (
-webServer
 "
 storage_start
 .
@@ -384,9 +385,10 @@ url
 val
 storageCheckUrl
 =
+webServer
+.
 getStorageTestAsset
 (
-webServer
 "
 storage_check
 .
@@ -502,9 +504,10 @@ eraseCookiesTest
 val
 storageStartUrl
 =
+webServer
+.
 getStorageTestAsset
 (
-webServer
 "
 storage_start
 .

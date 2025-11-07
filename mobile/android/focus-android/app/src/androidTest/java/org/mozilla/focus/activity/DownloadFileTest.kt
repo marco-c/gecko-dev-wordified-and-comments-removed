@@ -225,7 +225,7 @@ helpers
 .
 TestAssetHelper
 .
-getImageTestAsset
+imageTestAsset
 import
 org
 .
@@ -510,10 +510,9 @@ downloadNotificationTest
 val
 downloadPageUrl
 =
-getImageTestAsset
-(
 webServer
-)
+.
+imageTestAsset
 .
 url
 downloadFileName
@@ -621,10 +620,9 @@ cancelDownloadTest
 val
 downloadPageUrl
 =
-getImageTestAsset
-(
 webServer
-)
+.
+imageTestAsset
 .
 url
 searchScreen
@@ -684,10 +682,9 @@ downloadAndOpenJpgFileTest
 val
 downloadPageUrl
 =
-getImageTestAsset
-(
 webServer
-)
+.
+imageTestAsset
 .
 url
 downloadFileName

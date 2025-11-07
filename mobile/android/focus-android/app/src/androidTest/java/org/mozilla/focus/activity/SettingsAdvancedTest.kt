@@ -319,9 +319,10 @@ openLinksInAppsTest
 val
 tab3Url
 =
+webServer
+.
 getGenericTabAsset
 (
-webServer
 3
 )
 .

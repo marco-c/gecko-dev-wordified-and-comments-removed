@@ -301,9 +301,10 @@ testVideoPlayback
 val
 videoPageUrl
 =
+webServer
+.
 getMediaTestAsset
 (
-webServer
 "
 videoPage
 "
@@ -367,9 +368,10 @@ testAudioPlayback
 val
 audioPageUrl
 =
+webServer
+.
 getMediaTestAsset
 (
-webServer
 "
 audioPage
 "
@@ -433,9 +435,10 @@ testMediaContentNotification
 val
 audioPageUrl
 =
+webServer
+.
 getMediaTestAsset
 (
-webServer
 "
 audioPage
 "

@@ -328,9 +328,10 @@ gpcTest
 val
 storageStartUrl
 =
+webServer
+.
 getStorageTestAsset
 (
-webServer
 "
 global_privacy_control
 .
