@@ -288,12 +288,12 @@ dom
 :
 WindowContext
 ;
-MOZ_RUNINIT
+MOZ_CONSTINIT
 static
 nsWeakPtr
 sLockedElement
 ;
-MOZ_RUNINIT
+MOZ_CONSTINIT
 static
 nsWeakPtr
 sLockedDoc
