@@ -5584,7 +5584,7 @@ NavigateEvent
 insecureContext
 :
 true
-nightly
+earlyBetaOrEarlier
 :
 true
 sessionHistoryInParent
@@ -5600,7 +5600,7 @@ Navigation
 insecureContext
 :
 true
-nightly
+earlyBetaOrEarlier
 :
 true
 sessionHistoryInParent
@@ -5616,7 +5616,7 @@ NavigationActivation
 insecureContext
 :
 true
-nightly
+earlyBetaOrEarlier
 :
 true
 sessionHistoryInParent
@@ -5632,7 +5632,7 @@ NavigationCurrentEntryChangeEvent
 insecureContext
 :
 true
-nightly
+earlyBetaOrEarlier
 :
 true
 sessionHistoryInParent
@@ -5648,7 +5648,7 @@ NavigationDestination
 insecureContext
 :
 true
-nightly
+earlyBetaOrEarlier
 :
 true
 sessionHistoryInParent
@@ -5664,7 +5664,7 @@ NavigationHistoryEntry
 insecureContext
 :
 true
-nightly
+earlyBetaOrEarlier
 :
 true
 sessionHistoryInParent
@@ -5680,7 +5680,7 @@ NavigationPrecommitController
 insecureContext
 :
 true
-nightly
+earlyBetaOrEarlier
 :
 true
 sessionHistoryInParent
@@ -5699,7 +5699,7 @@ NavigationTransition
 insecureContext
 :
 true
-nightly
+earlyBetaOrEarlier
 :
 true
 sessionHistoryInParent
@@ -9365,7 +9365,7 @@ navigation
 insecureContext
 :
 true
-nightly
+earlyBetaOrEarlier
 :
 true
 sessionHistoryInParent
