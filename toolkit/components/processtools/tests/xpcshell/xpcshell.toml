@@ -13,6 +13,13 @@ subprocess
 true
 [
 "
+test_proc_info
+.
+js
+"
+]
+[
+"
 test_process_kill
 .
 js
