@@ -1833,7 +1833,7 @@ aAllow
 ;
 }
 void
-SetCompositorHitTestInfo
+SetInheritedCompositorHitTestInfo
 (
 const
 gfx
@@ -1855,7 +1855,7 @@ gfx
 :
 CompositorHitTestInfo
 &
-GetCompositorHitTestInfo
+GetInheritedCompositorHitTestInfo
 (
 )
 const
