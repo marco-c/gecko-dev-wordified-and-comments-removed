@@ -188,7 +188,7 @@ writer
 .
 length
 '
-medium
+short
 '
 )
 ;
@@ -471,7 +471,7 @@ createWriter
 length
 :
 '
-short
+medium
 '
 }
 )
@@ -482,7 +482,7 @@ writer
 .
 length
 '
-short
+medium
 '
 )
 ;
@@ -493,7 +493,7 @@ a
 Writer
 with
 "
-short
+medium
 "
 length
 '
