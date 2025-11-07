@@ -72,6 +72,16 @@ none
     
 client
 .
+await_css
+(
+COOKIES_CSS
+is_displayed
+=
+True
+)
+    
+client
+.
 hide_elements
 (
 COOKIES_CSS
