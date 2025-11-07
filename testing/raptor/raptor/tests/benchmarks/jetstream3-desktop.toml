@@ -6,6 +6,11 @@ alert_threshold
 2
 .
 0
+subtest_alert_threshold
+=
+5
+.
+0
 apps
 =
 "

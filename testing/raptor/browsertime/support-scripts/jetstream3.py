@@ -385,9 +385,9 @@ test
 get
 (
 "
-alert_threshold
+subtest_alert_threshold
 "
-2
+5
 .
 0
 )
@@ -412,6 +412,12 @@ replicates
 replicates
             
 "
+shouldAlert
+"
+:
+True
+            
+"
 value
 "
 :
@@ -427,6 +433,37 @@ replicates
 )
         
 }
+        
+if
+measurement_name
+=
+=
+"
+score
+"
+:
+            
+subtest
+[
+"
+alertThreshold
+"
+]
+=
+float
+(
+test
+.
+get
+(
+"
+alert_threshold
+"
+2
+.
+0
+)
+)
         
 return
 subtest
