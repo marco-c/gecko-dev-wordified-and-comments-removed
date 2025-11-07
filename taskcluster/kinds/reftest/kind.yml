@@ -1950,6 +1950,14 @@ opt
 windows11
 .
 *
+asan
+/
+opt
+:
+4
+windows11
+.
+*
 /
 opt
 :
