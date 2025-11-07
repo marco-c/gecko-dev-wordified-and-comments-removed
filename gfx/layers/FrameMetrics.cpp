@@ -1036,6 +1036,8 @@ const
 ScrollPositionUpdate
 &
 aUpdate
+IsDefaultApzc
+aIsDefaultApzc
 )
 {
 MOZ_ASSERT
@@ -1084,6 +1086,17 @@ SmoothMsd
 CSSPoint
 origin
 =
+bool
+(
+aIsDefaultApzc
+)
+?
+aUpdate
+.
+GetSource
+(
+)
+:
 GetVisualScrollOffset
 (
 )
