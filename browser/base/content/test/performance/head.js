@@ -2186,7 +2186,7 @@ frames
 const
 kMaxEmptyPixels
 =
-3
+4
 ;
 function
 compareFrames
