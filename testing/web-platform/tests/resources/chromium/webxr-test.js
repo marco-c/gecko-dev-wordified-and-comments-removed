@@ -4629,6 +4629,13 @@ fakeXRViewInit
 .
 viewOffset
 )
+visibilityMaskId
+:
+{
+idValue
+:
+0
+}
 }
 ;
 }
