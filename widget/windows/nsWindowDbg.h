@@ -362,12 +362,11 @@ nsCString
 str
 uint64_t
 flags
-const
-nsTArray
+Span
 <
+const
 EnumValueAndName
 >
-&
 flagsAndNames
 const
 char
