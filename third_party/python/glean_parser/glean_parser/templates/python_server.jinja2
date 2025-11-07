@@ -223,7 +223,7 @@ _channel
 =
 channel
 def
-_record
+record
 (
 self
 user_agent
@@ -304,12 +304,15 @@ endif
 endfor
 %
 }
-event
+events
 :
+list
+[
 dict
 [
 str
 Any
+]
 ]
 )
 -
@@ -333,6 +336,11 @@ now
 isoformat
 (
 )
+for
+event
+in
+events
+:
 event
 [
 "
@@ -459,9 +467,7 @@ endfor
 events
 "
 :
-[
-event
-]
+events
 "
 ping_info
 "
@@ -1256,7 +1262,7 @@ endif
 }
 self
 .
-_record
+record
 (
 user_agent
 ip_address
@@ -1322,7 +1328,9 @@ endif
 endfor
 %
 }
+[
 event
+]
 )
 {
 %
