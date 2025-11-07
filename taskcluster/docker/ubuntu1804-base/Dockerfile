@@ -226,6 +226,8 @@ apt
 get
 install
 \
+coreutils
+\
 git
 \
 less
