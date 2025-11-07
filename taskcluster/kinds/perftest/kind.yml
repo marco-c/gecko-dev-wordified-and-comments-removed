@@ -163,6 +163,17 @@ task
 -
 defaults
 :
+run
+-
+on
+-
+repo
+-
+type
+:
+[
+hg
+]
 attributes
 :
 retrigger

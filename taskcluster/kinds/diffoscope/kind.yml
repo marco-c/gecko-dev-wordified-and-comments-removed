@@ -202,6 +202,17 @@ task
 -
 defaults
 :
+run
+-
+on
+-
+repo
+-
+type
+:
+[
+hg
+]
 tier
 :
 2

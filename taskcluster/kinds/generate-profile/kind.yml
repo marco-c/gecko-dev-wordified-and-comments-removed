@@ -129,6 +129,17 @@ task
 -
 defaults
 :
+run
+-
+on
+-
+repo
+-
+type
+:
+[
+hg
+]
 treeherder
 :
 symbol
