@@ -113,17 +113,6 @@ time
 :
 1800
 run
--
-on
--
-repo
--
-type
-:
-[
-hg
-]
-run
 :
 using
 :

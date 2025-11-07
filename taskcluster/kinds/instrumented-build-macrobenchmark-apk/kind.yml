@@ -115,17 +115,6 @@ task
 -
 defaults
 :
-run
--
-on
--
-repo
--
-type
-:
-[
-hg
-]
 fetches
 :
 toolchain

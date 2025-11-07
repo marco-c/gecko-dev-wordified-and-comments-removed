@@ -135,17 +135,6 @@ task
 -
 defaults
 :
-run
--
-on
--
-repo
--
-type
-:
-[
-hg
-]
 attributes
 :
 artifact_map

@@ -189,17 +189,6 @@ tier
 :
 2
 run
--
-on
--
-repo
--
-type
-:
-[
-hg
-]
-run
 :
 using
 :

@@ -79,17 +79,6 @@ time
 :
 7200
 run
--
-on
--
-repo
--
-type
-:
-[
-hg
-]
-run
 :
 using
 :

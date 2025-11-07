@@ -129,17 +129,6 @@ dotgradle
 offline
 "
 run
--
-on
--
-repo
--
-type
-:
-[
-hg
-]
-run
 :
 using
 :
