@@ -1,3 +1,8 @@
+'
+use
+strict
+'
+;
 add_completion_callback
 (
 function

@@ -1,3 +1,8 @@
+'
+use
+strict
+'
+;
 function
 composite_blob_test
 (

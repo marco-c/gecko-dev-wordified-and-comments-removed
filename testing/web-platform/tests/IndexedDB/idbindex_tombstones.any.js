@@ -1,3 +1,8 @@
+'
+use
+strict
+'
+;
 async
 function
 iterateAndReturnAllCursorResult
@@ -354,6 +359,7 @@ objectStore
 transactionMode
 )
 ;
+const
 cursor
 =
 txn
