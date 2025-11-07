@@ -1046,6 +1046,12 @@ false
 )
 const
 ;
+bool
+IsClipEmpty
+(
+)
+const
+;
 Maybe
 <
 Rect
