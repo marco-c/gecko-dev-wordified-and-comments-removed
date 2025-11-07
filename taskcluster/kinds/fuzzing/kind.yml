@@ -111,6 +111,17 @@ task
 -
 defaults
 :
+run
+-
+on
+-
+repo
+-
+type
+:
+[
+hg
+]
 worker
 -
 type

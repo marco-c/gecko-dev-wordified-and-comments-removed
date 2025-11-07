@@ -864,7 +864,15 @@ type
 )
 :
 [
-str
+Any
+(
+"
+git
+"
+"
+hg
+"
+)
 ]
         
 Optional
@@ -17062,6 +17070,9 @@ repo
 type
 "
 [
+"
+git
+"
 "
 hg
 "

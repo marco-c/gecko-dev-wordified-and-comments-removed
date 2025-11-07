@@ -123,6 +123,17 @@ task
 -
 defaults
 :
+run
+-
+on
+-
+repo
+-
+type
+:
+[
+hg
+]
 apk
 -
 artifact
