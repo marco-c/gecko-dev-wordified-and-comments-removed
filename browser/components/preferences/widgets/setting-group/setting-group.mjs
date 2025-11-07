@@ -747,6 +747,13 @@ this
 .
 onChange
 }
+toggle
+=
+{
+this
+.
+onChange
+}
 click
 =
 {
