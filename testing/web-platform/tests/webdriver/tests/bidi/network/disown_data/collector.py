@@ -29,7 +29,7 @@ bidi_session
     
 url
     
-setup_collected_response
+setup_collected_data
 )
 :
     
@@ -39,16 +39,14 @@ collector
 ]
 =
 await
-setup_collected_response
+setup_collected_data
 (
-        
 fetch_url
 =
 url
 (
 PAGE_EMPTY_TEXT
 )
-    
 )
     
 await
@@ -119,7 +117,7 @@ url
     
 add_data_collector
     
-setup_collected_response
+setup_collected_data
 )
 :
     
@@ -148,7 +146,7 @@ other_collector
 ]
 =
 await
-setup_collected_response
+setup_collected_data
 (
         
 fetch_url

@@ -4250,7 +4250,7 @@ pytest_asyncio
 fixture
 async
 def
-setup_collected_response
+setup_collected_data
 (
     
 bidi_session
@@ -4331,7 +4331,7 @@ request
     
 async
 def
-_setup_collected_response
+_setup_collected_data
 (
         
 collector_type
@@ -4374,6 +4374,10 @@ txt
 "
 )
         
+fetch_post_data
+=
+None
+        
 context
 =
 top_context
@@ -4412,6 +4416,12 @@ events
 "
 network
 .
+beforeRequestSent
+"
+                
+"
+network
+.
 responseCompleted
 "
             
@@ -4430,10 +4440,37 @@ responseCompleted
 "
 )
         
+if
+fetch_post_data
+is
+None
+:
+            
+method
+=
+"
+GET
+"
+        
+else
+:
+            
+method
+=
+"
+POST
+"
+        
 await
 fetch
 (
 fetch_url
+method
+=
+method
+post_data
+=
+fetch_post_data
 context
 =
 context
@@ -4465,7 +4502,7 @@ collector
 ]
     
 return
-_setup_collected_response
+_setup_collected_data
 pytest_asyncio
 .
 fixture

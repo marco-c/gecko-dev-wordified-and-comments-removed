@@ -20,7 +20,6 @@ mark
 .
 parametrize
 (
-    
 "
 charset
 "
@@ -52,7 +51,7 @@ bidi_session
     
 url
     
-setup_collected_response
+setup_collected_data
     
 charset
 )
@@ -145,7 +144,7 @@ _
 ]
 =
 await
-setup_collected_response
+setup_collected_data
 (
 fetch_url
 =

@@ -79,7 +79,7 @@ test_data_not_available_after_remove
 bidi_session
 url
 add_data_collector
-setup_collected_response
+setup_collected_data
 )
 :
     
@@ -113,7 +113,7 @@ other_collector
 ]
 =
 await
-setup_collected_response
+setup_collected_data
 (
         
 fetch_url

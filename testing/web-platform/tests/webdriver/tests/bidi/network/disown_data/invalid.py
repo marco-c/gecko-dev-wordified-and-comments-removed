@@ -502,7 +502,7 @@ test_params_collector_not_in_collected_data
 bidi_session
 url
 add_data_collector
-setup_collected_response
+setup_collected_data
 )
 :
     
@@ -531,7 +531,7 @@ _
 ]
 =
 await
-setup_collected_response
+setup_collected_data
 (
 fetch_url
 =

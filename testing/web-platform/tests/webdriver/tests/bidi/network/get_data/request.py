@@ -51,7 +51,7 @@ test_request_text_file
     
 bidi_session
 url
-setup_collected_response
+setup_collected_data
 file
 expected_value
 )
@@ -63,7 +63,7 @@ _
 ]
 =
 await
-setup_collected_response
+setup_collected_data
 (
 fetch_url
 =
@@ -121,8 +121,10 @@ test_request_base64_file
 (
     
 bidi_session
+    
 url
-setup_collected_response
+    
+setup_collected_data
 )
 :
     
@@ -132,7 +134,7 @@ _
 ]
 =
 await
-setup_collected_response
+setup_collected_data
 (
 fetch_url
 =
@@ -347,8 +349,10 @@ test_request_empty_response
 (
     
 bidi_session
+    
 inline
-setup_collected_response
+    
+setup_collected_data
 )
 :
     
@@ -371,7 +375,7 @@ _
 ]
 =
 await
-setup_collected_response
+setup_collected_data
 (
 fetch_url
 =

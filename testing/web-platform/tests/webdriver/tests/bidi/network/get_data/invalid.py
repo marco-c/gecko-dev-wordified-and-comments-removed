@@ -140,7 +140,7 @@ test_params_data_type_invalid_type
     
 bidi_session
 url
-setup_collected_response
+setup_collected_data
 value
 )
 :
@@ -151,7 +151,7 @@ _
 ]
 =
 await
-setup_collected_response
+setup_collected_data
 (
 fetch_url
 =
@@ -210,7 +210,7 @@ test_params_data_type_invalid_value
     
 bidi_session
 url
-setup_collected_response
+setup_collected_data
 value
 )
 :
@@ -221,7 +221,7 @@ _
 ]
 =
 await
-setup_collected_response
+setup_collected_data
 (
 fetch_url
 =
@@ -281,7 +281,7 @@ test_params_collector_invalid_type
     
 bidi_session
 url
-setup_collected_response
+setup_collected_data
 value
 )
 :
@@ -292,7 +292,7 @@ _
 ]
 =
 await
-setup_collected_response
+setup_collected_data
 (
 fetch_url
 =
@@ -338,10 +338,9 @@ async
 def
 test_params_collector_non_existent
 (
-    
 bidi_session
 url
-setup_collected_response
+setup_collected_data
 )
 :
     
@@ -351,7 +350,7 @@ _
 ]
 =
 await
-setup_collected_response
+setup_collected_data
 (
 fetch_url
 =
@@ -403,7 +402,7 @@ test_params_collector_not_in_collected_data
 bidi_session
 url
 add_data_collector
-setup_collected_response
+setup_collected_data
 )
 :
     
@@ -432,7 +431,7 @@ _
 ]
 =
 await
-setup_collected_response
+setup_collected_data
 (
 fetch_url
 =
@@ -506,7 +505,7 @@ test_params_disown_invalid_type
     
 bidi_session
 url
-setup_collected_response
+setup_collected_data
 value
 )
 :
@@ -517,7 +516,7 @@ _
 ]
 =
 await
-setup_collected_response
+setup_collected_data
 (
 fetch_url
 =
@@ -566,7 +565,7 @@ test_params_disown_true_without_collector
     
 bidi_session
 url
-setup_collected_response
+setup_collected_data
 )
 :
     
@@ -576,7 +575,7 @@ _
 ]
 =
 await
-setup_collected_response
+setup_collected_data
 (
 fetch_url
 =
