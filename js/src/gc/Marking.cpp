@@ -5943,6 +5943,19 @@ Symbol
 >
 )
 {
+if
+(
+markColor
+(
+)
+=
+=
+MarkColor
+:
+:
+Black
+)
+{
 GCRuntime
 *
 gc
@@ -5990,6 +6003,7 @@ zone
 target
 )
 ;
+}
 }
 checkTraversedEdge
 (

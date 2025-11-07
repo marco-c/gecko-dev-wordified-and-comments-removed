@@ -19106,6 +19106,10 @@ mergeArenasFromCollectingLists
 )
 ;
 }
+setGrayBitsInvalid
+(
+)
+;
 incrementalState
 =
 State
