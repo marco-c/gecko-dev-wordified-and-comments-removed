@@ -77,14 +77,6 @@ junit4
 .
 AndroidComposeTestRule
 import
-androidx
-.
-test
-.
-filters
-.
-SdkSuppress
-import
 mozilla
 .
 components
@@ -94,12 +86,6 @@ feature
 sitepermissions
 .
 SitePermissionsRules
-import
-org
-.
-junit
-.
-Ignore
 import
 org
 .
