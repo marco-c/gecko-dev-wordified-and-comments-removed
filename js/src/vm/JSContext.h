@@ -689,10 +689,16 @@ js
 :
 TraceableFifo
 <
+js
+:
+:
+HeapPtr
+<
 JS
 :
 :
 Value
+>
 0
 TempAllocPolicy
 >
@@ -4525,11 +4531,6 @@ false
 }
 #
 endif
-JS
-:
-:
-PersistentRooted
-<
 js
 :
 :
@@ -4539,7 +4540,6 @@ js
 :
 :
 MicroTaskQueueSet
->
 >
 microTaskQueues
 ;
