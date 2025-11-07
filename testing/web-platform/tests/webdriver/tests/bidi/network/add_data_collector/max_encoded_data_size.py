@@ -12,6 +12,7 @@ from
 .
 .
 import
+BEFORE_REQUEST_SENT_EVENT
 PAGE_EMPTY_TEXT
 RESPONSE_COMPLETED_EVENT
 pytestmark
@@ -21,6 +22,24 @@ pytest
 mark
 .
 asyncio
+pytest
+.
+mark
+.
+parametrize
+(
+"
+data_type
+"
+[
+"
+request
+"
+"
+response
+"
+]
+)
 async
 def
 test_max_encoded_data_size
@@ -39,6 +58,8 @@ wait_for_future_safe
 url
     
 fetch
+    
+data_type
 )
 :
     
@@ -65,8 +86,10 @@ setup_network_test
 events
 =
 [
+BEFORE_REQUEST_SENT_EVENT
 RESPONSE_COMPLETED_EVENT
 ]
+        
 context
 =
 context
@@ -83,9 +106,16 @@ small_collector
 await
 add_data_collector
 (
+        
 max_encoded_data_size
 =
 1
+data_types
+=
+[
+data_type
+]
+    
 )
     
 big_collector
@@ -93,9 +123,16 @@ big_collector
 await
 add_data_collector
 (
+        
 max_encoded_data_size
 =
 100000
+data_types
+=
+[
+data_type
+]
+    
 )
     
 on_response_completed
@@ -105,6 +142,21 @@ wait_for_event
 RESPONSE_COMPLETED_EVENT
 )
     
+post_data
+=
+"
+somedata
+"
+if
+data_type
+=
+=
+"
+request
+"
+else
+None
+    
 await
 fetch
 (
@@ -112,6 +164,9 @@ url
 (
 PAGE_EMPTY_TEXT
 )
+post_data
+=
+post_data
 context
 =
 context
@@ -152,9 +207,7 @@ request
 request
 data_type
 =
-"
-response
-"
+data_type
 collector
 =
 big_collector
@@ -168,16 +221,12 @@ network
 .
 get_data
 (
-        
 request
 =
 request
 data_type
 =
-"
-response
-"
-    
+data_type
 )
     
 with
@@ -204,9 +253,7 @@ request
 request
 data_type
 =
-"
-response
-"
+data_type
 collector
 =
 small_collector
@@ -243,14 +290,10 @@ network
 .
 get_data
 (
-            
 request
 =
 request
 data_type
 =
-"
-response
-"
-        
+data_type
 )
