@@ -255,7 +255,7 @@ false
 )
 ;
 function
-awaitNewTab
+awaitAboutPage
 (
 )
 {
@@ -268,7 +268,7 @@ gBrowser
 "
 about
 :
-newtab
+robots
 "
 )
 ;
@@ -296,7 +296,7 @@ browser
 let
 newTab
 =
-awaitNewTab
+awaitAboutPage
 (
 )
 ;
@@ -308,7 +308,7 @@ browser
 "
 about
 :
-newtab
+robots
 "
 )
 ;
@@ -394,7 +394,7 @@ origin
 let
 wentBack
 =
-awaitNewTab
+awaitAboutPage
 (
 )
 ;
