@@ -2660,6 +2660,14 @@ true
 ;
 }
 auto
+originEpochNs
+=
+GetUTCEpochNanoseconds
+(
+isoDateTime1
+)
+;
+auto
 destEpochNs
 =
 GetUTCEpochNanoseconds
@@ -2684,6 +2692,7 @@ RoundRelativeDuration
 (
 cx
 diff
+originEpochNs
 destEpochNs
 isoDateTime1
 timeZone
@@ -2883,6 +2892,14 @@ true
 ;
 }
 auto
+originEpochNs
+=
+GetUTCEpochNanoseconds
+(
+isoDateTime1
+)
+;
+auto
 destEpochNs
 =
 GetUTCEpochNanoseconds
@@ -2907,6 +2924,7 @@ TotalRelativeDuration
 (
 cx
 diff
+originEpochNs
 destEpochNs
 isoDateTime1
 timeZone
