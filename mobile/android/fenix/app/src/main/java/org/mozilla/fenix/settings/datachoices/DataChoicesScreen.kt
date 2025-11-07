@@ -1292,9 +1292,7 @@ collection
 .
 crashReportOption
 .
-radio
-.
-button
+option
 "
 testTagsAsResourceId
 =
