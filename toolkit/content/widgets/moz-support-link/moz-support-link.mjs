@@ -263,8 +263,6 @@ as
 expected
 .
 *
-private
-*
 memberof
 MozSupportLink
 *
