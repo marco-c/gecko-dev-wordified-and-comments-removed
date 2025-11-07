@@ -4,10 +4,16 @@ do_print
 session
 options
 =
-{
-}
+None
 )
 :
+    
+options
+=
+options
+or
+{
+}
     
 params
 =
