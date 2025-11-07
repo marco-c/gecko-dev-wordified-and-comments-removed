@@ -2041,7 +2041,11 @@ to_owned
 allow_empty
 filter_exists
 :
-true
+filter
+.
+is_some
+(
+)
 filter
 :
 filter
@@ -2049,12 +2053,9 @@ filter
 unwrap_or
 (
 '
-x
+\
+0
 '
-.
-to_owned
-(
-)
 )
 regexp
 :
