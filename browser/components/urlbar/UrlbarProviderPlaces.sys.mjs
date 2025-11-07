@@ -10383,14 +10383,6 @@ search
 return
 ;
 }
-this
-.
-_lastLowResultsSearchSuggestion
-=
-search
-.
-_lastLowResultsSearchSuggestion
-;
 if
 (
 !
