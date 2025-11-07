@@ -216,8 +216,6 @@ b
 -
 linux
 -
-gcp
--
 aarch64
 treeherder
 :
@@ -299,8 +297,6 @@ type
 b
 -
 linux
--
-gcp
 -
 aarch64
 treeherder

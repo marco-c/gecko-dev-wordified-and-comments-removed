@@ -1486,8 +1486,6 @@ b
 -
 linux
 -
-gcp
--
 aarch64
 description
 :
@@ -1745,8 +1743,6 @@ type
 b
 -
 linux
--
-gcp
 -
 aarch64
 description
@@ -2010,8 +2006,6 @@ b
 -
 linux
 -
-gcp
--
 aarch64
 description
 :
@@ -2269,8 +2263,6 @@ type
 b
 -
 linux
--
-gcp
 -
 aarch64
 description

@@ -458,9 +458,9 @@ worker
 -
 type
 :
-images
+b
 -
-gcp
+linux
 -
 aarch64
 linux
