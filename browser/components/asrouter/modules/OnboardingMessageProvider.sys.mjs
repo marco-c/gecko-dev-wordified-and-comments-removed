@@ -3489,7 +3489,7 @@ screen_style
 width
 :
 "
-764px
+700px
 "
 height
 :
