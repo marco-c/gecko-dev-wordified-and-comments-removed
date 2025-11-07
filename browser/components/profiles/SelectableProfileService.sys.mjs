@@ -1304,6 +1304,11 @@ acceptedDate
 "
 termsofuse
 .
+firstAcceptedDate
+"
+"
+termsofuse
+.
 acceptedVersion
 "
 "
