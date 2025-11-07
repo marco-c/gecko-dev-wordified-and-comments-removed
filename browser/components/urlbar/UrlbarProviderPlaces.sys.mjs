@@ -3493,9 +3493,7 @@ token
 types
 .
 let
-{
 tokens
-}
 =
 lazy
 .
