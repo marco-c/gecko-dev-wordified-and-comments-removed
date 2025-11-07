@@ -42,13 +42,6 @@ sys
 mjs
 "
 "
-UrlbarProvidersManager
-.
-sys
-.
-mjs
-"
-"
 UrlbarView
 .
 sys
