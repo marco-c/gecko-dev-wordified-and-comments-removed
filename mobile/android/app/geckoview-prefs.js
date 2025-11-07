@@ -2331,6 +2331,16 @@ pref
 "
 urlclassifier
 .
+delay_prefixes_crc32_check
+"
+true
+)
+;
+pref
+(
+"
+urlclassifier
+.
 malwareTable
 "
 "
