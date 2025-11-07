@@ -13736,7 +13736,7 @@ gDoProfileReset
 =
 false
 ;
-MOZ_RUNINIT
+MOZ_CONSTINIT
 static
 nsCOMPtr
 <

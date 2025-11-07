@@ -524,7 +524,7 @@ run_next_test
 namespace
 test_unvisited_does_not_notify
 {
-MOZ_RUNINIT
+MOZ_CONSTINIT
 nsCOMPtr
 <
 nsIURI
