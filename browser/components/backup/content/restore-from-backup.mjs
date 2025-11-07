@@ -1471,6 +1471,11 @@ ifDefined
 l10nName
 )
 }
+dir
+=
+"
+auto
+"
 rel
 =
 "
@@ -1540,6 +1545,11 @@ ifDefined
 l10nName
 )
 }
+dir
+=
+"
+auto
+"
 >
 <
 /
