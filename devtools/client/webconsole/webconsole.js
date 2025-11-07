@@ -746,13 +746,6 @@ sourceLine
 |
 -
 1
-browser
-:
-this
-.
-chromeUtilsWindow
-.
-gBrowser
 }
 )
 ;
