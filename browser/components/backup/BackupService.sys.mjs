@@ -3551,7 +3551,10 @@ static
 #
 backupFolderName
 =
-null
+"
+Restore
+Firefox
+"
 ;
 /
 *
