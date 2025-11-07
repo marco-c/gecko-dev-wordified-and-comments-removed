@@ -3106,6 +3106,14 @@ Places
 search
 .
 *
+/
+class
+Search
+{
+/
+*
+*
+*
 *
 param
 {
@@ -3149,8 +3157,7 @@ search
 .
 *
 /
-function
-Search
+constructor
 (
 queryContext
 listener
@@ -4164,11 +4171,6 @@ o
 )
 ;
 }
-Search
-.
-prototype
-=
-{
 /
 *
 *
@@ -4703,8 +4705,9 @@ active
 *
 /
 pending
-:
+=
 true
+;
 /
 *
 *
@@ -9488,8 +9491,9 @@ nsITimer
 *
 /
 _notifyTimer
-:
+=
 null
+;
 /
 *
 *
@@ -9521,8 +9525,9 @@ ongoing
 *
 /
 _notifyDelaysCount
-:
+=
 0
+;
 notifyResult
 (
 searchOngoing
@@ -9687,7 +9692,6 @@ NOTIFYRESULT_DELAY_MS
 }
 }
 }
-;
 /
 *
 *
