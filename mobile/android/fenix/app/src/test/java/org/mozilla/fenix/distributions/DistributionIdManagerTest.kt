@@ -2582,7 +2582,13 @@ medium
 campaign
 =
 "
-vivo
+adj_tracker
+%
+3D1234
+%
+26adj_campaign
+%
+3Dvivo
 -
 india
 -
