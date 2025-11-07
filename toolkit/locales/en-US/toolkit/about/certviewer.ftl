@@ -1146,12 +1146,3 @@ tab
 ca
 =
 Authorities
-certificate
--
-viewer
--
-tab
--
-unkonwn
-=
-Unknown
