@@ -42,13 +42,6 @@ sys
 mjs
 "
 "
-UrlbarProviderPlaces
-.
-sys
-.
-mjs
-"
-"
 UrlbarProvidersManager
 .
 sys
