@@ -4051,6 +4051,9 @@ unsigned
 start_deltas
 =
 (
+apply_to_all
+&
+&
 phantom_only
 &
 &

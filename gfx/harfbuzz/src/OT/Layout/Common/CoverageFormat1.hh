@@ -36,7 +36,7 @@ friend
 struct
 Coverage
 ;
-protected
+public
 :
 HBUINT16
 coverageFormat
@@ -51,8 +51,6 @@ HBGlyphID
 >
 glyphArray
 ;
-public
-:
 DEFINE_SIZE_ARRAY
 (
 4

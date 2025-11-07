@@ -1986,6 +1986,17 @@ drop_tables
 #
 ifndef
 HB_NO_STYLE
+if
+(
+!
+drop_tables
+-
+>
+has
+(
+HB_OT_TAG_STAT
+)
+)
 plan
 -
 >

@@ -504,7 +504,7 @@ script_zero_marks
 1
 ;
 bool
-script_fallback_mark_positioning
+script_fallback_position
 :
 1
 ;
