@@ -7042,7 +7042,7 @@ lazy
 .
 NetworkHelper
 .
-readPostTextFromRequest
+readPostDataFromRequest
 (
 httpActivity
 .
@@ -7066,6 +7066,8 @@ httpActivity
 sentBody
 =
 sentBody
+.
+data
 ;
 }
 }
