@@ -13,6 +13,7 @@ function
 const
 {
 tab
+toolbox
 }
 =
 await
@@ -112,6 +113,15 @@ remove
 )
 ;
 }
+await
+toolbox
+.
+commands
+.
+waitForRequestsToSettle
+(
+)
+;
 }
 )
 ;
