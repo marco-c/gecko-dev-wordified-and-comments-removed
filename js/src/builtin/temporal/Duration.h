@@ -864,10 +864,6 @@ duration
 const
 EpochNanoseconds
 &
-originEpochNs
-const
-EpochNanoseconds
-&
 destEpochNs
 const
 ISODateTime
@@ -912,10 +908,6 @@ const
 InternalDuration
 &
 duration
-const
-EpochNanoseconds
-&
-originEpochNs
 const
 EpochNanoseconds
 &

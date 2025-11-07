@@ -3062,14 +3062,6 @@ date
 }
 ;
 auto
-originEpochNs
-=
-GetUTCEpochNanoseconds
-(
-isoDateTime
-)
-;
-auto
 isoDateTimeOther
 =
 ISODateTime
@@ -3110,7 +3102,6 @@ RoundRelativeDuration
 (
 cx
 duration
-originEpochNs
 destEpochNs
 isoDateTime
 timeZone
