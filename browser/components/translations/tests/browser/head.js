@@ -14261,9 +14261,6 @@ SelectTranslationsPanel
 .
 elements
 {
-betaIcon
-:
-false
 cancelButton
 :
 false
@@ -14592,9 +14589,6 @@ SelectTranslationsTestUtils
 assertPanelElementVisibility
 (
 {
-betaIcon
-:
-true
 copyButton
 :
 true
@@ -14890,9 +14884,6 @@ assertPanelElementVisibility
 header
 :
 true
-betaIcon
-:
-true
 cancelButton
 :
 true
@@ -15041,9 +15032,6 @@ assertPanelElementVisibility
 (
 {
 header
-:
-true
-betaIcon
 :
 true
 cancelButton
@@ -15310,9 +15298,6 @@ SelectTranslationsTestUtils
 assertPanelElementVisibility
 (
 {
-betaIcon
-:
-true
 doneButtonSecondary
 :
 true
@@ -15788,9 +15773,6 @@ SelectTranslationsTestUtils
 assertPanelElementVisibility
 (
 {
-betaIcon
-:
-true
 copyButton
 :
 true
