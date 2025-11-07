@@ -479,6 +479,7 @@ aRv
 ;
 private
 :
+MOZ_CAN_RUN_SCRIPT
 void
 PotentiallyResetFocus
 (
@@ -495,6 +496,13 @@ void
 ProcessScrollBehavior
 (
 )
+;
+Document
+*
+GetAssociatedDocument
+(
+)
+const
 ;
 explicit
 NavigateEvent
@@ -576,6 +584,8 @@ mSourceElement
 ;
 uint32_t
 mLastScrollGeneration
+=
+0
 ;
 nsTArray
 <
