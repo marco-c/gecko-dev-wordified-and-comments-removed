@@ -2635,6 +2635,11 @@ gfxFeatureStatus
 nsCString
 [
 ]
+sysLocales
+;
+nsCString
+[
+]
 appLocales
 ;
 nsCString
