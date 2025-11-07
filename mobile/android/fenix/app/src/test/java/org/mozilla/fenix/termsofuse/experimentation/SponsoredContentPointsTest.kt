@@ -123,7 +123,7 @@ experimentation
 .
 utils
 .
-supportedSponsoredShortcutsRegions
+supportedSponsoredShortcutsLocales
 import
 org
 .
@@ -137,7 +137,7 @@ experimentation
 .
 utils
 .
-supportedSponsoredStoriesRegions
+supportedSponsoredStoriesLocales
 /
 *
 *
@@ -163,7 +163,7 @@ private
 val
 shortcutsLocale
 =
-supportedSponsoredShortcutsRegions
+supportedSponsoredShortcutsLocales
 .
 first
 (
@@ -172,7 +172,7 @@ private
 val
 storiesLocale
 =
-supportedSponsoredStoriesRegions
+supportedSponsoredStoriesLocales
 .
 first
 (
@@ -826,7 +826,7 @@ true
 (
 )
 {
-supportedSponsoredShortcutsRegions
+supportedSponsoredShortcutsLocales
 .
 forEach
 {
@@ -863,7 +863,7 @@ true
 (
 )
 {
-supportedSponsoredStoriesRegions
+supportedSponsoredStoriesLocales
 .
 forEach
 {

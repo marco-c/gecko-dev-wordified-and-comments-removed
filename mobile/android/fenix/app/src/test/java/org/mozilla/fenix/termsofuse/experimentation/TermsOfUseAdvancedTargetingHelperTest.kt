@@ -107,7 +107,7 @@ experimentation
 .
 utils
 .
-supportedSponsoredShortcutsRegions
+supportedSponsoredShortcutsLocales
 class
 TermsOfUseAdvancedTargetingHelperTest
 {
@@ -115,7 +115,7 @@ private
 val
 shortcutsLocale
 =
-supportedSponsoredShortcutsRegions
+supportedSponsoredShortcutsLocales
 .
 first
 (
