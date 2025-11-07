@@ -662,7 +662,7 @@ defined
 (
 MOZ_WIDGET_GTK
 )
-MOZ_RUNINIT
+MOZ_CONSTINIT
 nsTArray
 <
 AVCodecID

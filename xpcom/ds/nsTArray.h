@@ -1732,6 +1732,7 @@ mHdr
 ;
 }
 static
+constexpr
 Header
 *
 EmptyHdr
@@ -11667,6 +11668,7 @@ base_type
 :
 value_type
 ;
+constexpr
 nsTArray
 (
 )
