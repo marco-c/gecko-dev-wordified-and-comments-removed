@@ -5529,11 +5529,6 @@ This
 extension
 is
 restricted
-for
-violating
-Mozilla
-s
-policies
 and
 has
 been
@@ -5606,10 +5601,8 @@ expectedMessage
 "
 This
 extension
-violates
-Mozilla
-s
-policies
+is
+restricted
 .
 Using
 it

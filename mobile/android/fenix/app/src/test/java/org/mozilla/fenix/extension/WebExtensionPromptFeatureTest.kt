@@ -2547,7 +2547,7 @@ addonsR
 .
 string
 .
-mozac_feature_addons_soft_blocked_1
+mozac_feature_addons_soft_blocked_2
 extensionName
 appName
 )
