@@ -60,6 +60,17 @@ task
 -
 defaults
 :
+run
+-
+on
+-
+repo
+-
+type
+:
+[
+hg
+]
 platform
 :
 lint

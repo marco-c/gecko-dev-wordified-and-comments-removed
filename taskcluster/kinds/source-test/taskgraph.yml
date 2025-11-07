@@ -201,6 +201,17 @@ run
 .
 command
 run
+-
+on
+-
+repo
+-
+type
+:
+[
+hg
+]
+run
 :
 using
 :

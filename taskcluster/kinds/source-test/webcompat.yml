@@ -123,6 +123,17 @@ run
 -
 on
 -
+repo
+-
+type
+:
+[
+hg
+]
+run
+-
+on
+-
 projects
 :
 [

@@ -74,6 +74,17 @@ compare
 locales
 '
 run
+-
+on
+-
+repo
+-
+type
+:
+[
+hg
+]
+run
 :
 using
 :

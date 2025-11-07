@@ -70,6 +70,17 @@ stuff
 true
 "
 run
+-
+on
+-
+repo
+-
+type
+:
+[
+hg
+]
+run
 :
 mozconfig
 -
