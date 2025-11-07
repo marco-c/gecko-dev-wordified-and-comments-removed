@@ -27960,6 +27960,14 @@ return
 }
 if
 (
+StaticPrefs
+:
+:
+dom_input_showPicker_datalist_enabled
+(
+)
+&
+&
 IsSingleLineTextControl
 (
 true
