@@ -531,7 +531,7 @@ nsIURI
 >
 testURI
 ;
-MOZ_RUNINIT
+MOZ_CONSTINIT
 RefPtr
 <
 mock_Link

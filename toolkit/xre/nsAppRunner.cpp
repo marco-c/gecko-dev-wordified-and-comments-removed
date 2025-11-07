@@ -1878,7 +1878,7 @@ defined
 (
 MOZ_HAS_REMOTE
 )
-MOZ_RUNINIT
+MOZ_CONSTINIT
 static
 RefPtr
 <
@@ -1886,7 +1886,7 @@ nsRemoteService
 >
 gRemoteService
 ;
-MOZ_RUNINIT
+MOZ_CONSTINIT
 static
 RefPtr
 <

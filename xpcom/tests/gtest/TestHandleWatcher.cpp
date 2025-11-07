@@ -550,7 +550,7 @@ sIsLive
 =
 false
 ;
-MOZ_RUNINIT
+MOZ_CONSTINIT
 RefPtr
 <
 mozilla
@@ -562,8 +562,6 @@ TestHandleWatcher
 :
 :
 sPool
-=
-nullptr
 ;
 struct
 WindowsEventObject

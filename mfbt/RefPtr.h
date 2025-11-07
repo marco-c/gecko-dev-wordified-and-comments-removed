@@ -361,12 +361,13 @@ mRawPtr
 }
 }
 MOZ_IMPLICIT
+constexpr
 RefPtr
 (
-decltype
-(
-nullptr
-)
+std
+:
+:
+nullptr_t
 )
 :
 mRawPtr
