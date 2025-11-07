@@ -6777,7 +6777,7 @@ aMimeType
 ;
 static
 bool
-IsCssMimeType
+HasCssMimeTypeEssence
 (
 const
 nsAString
