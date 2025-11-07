@@ -75,6 +75,10 @@ defined
 (
 __LITTLE_ENDIAN__
 )
+#
+define
+MOZ_MAY_HAVE_HTMLACCEL
+1
 return
 true
 ;
@@ -84,6 +88,10 @@ defined
 (
 __x86_64__
 )
+#
+define
+MOZ_MAY_HAVE_HTMLACCEL
+1
 bool
 ret
 =

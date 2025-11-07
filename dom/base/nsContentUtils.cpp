@@ -2043,6 +2043,9 @@ htmlaccelEnabled
 h
 "
 #
+ifdef
+MOZ_MAY_HAVE_HTMLACCEL
+#
 include
 "
 mozilla
@@ -2053,6 +2056,8 @@ htmlaccelNotInline
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -52424,6 +52429,9 @@ ptr
 )
 )
 {
+#
+ifdef
+MOZ_MAY_HAVE_HTMLACCEL
 size_t
 skipped
 =
@@ -52449,6 +52457,8 @@ currentPosition
 =
 skipped
 ;
+#
+endif
 }
 while
 (
@@ -52819,6 +52829,9 @@ ptr
 )
 )
 {
+#
+ifdef
+MOZ_MAY_HAVE_HTMLACCEL
 size_t
 skipped
 =
@@ -52844,6 +52857,8 @@ currentPosition
 =
 skipped
 ;
+#
+endif
 }
 while
 (
@@ -53164,6 +53179,9 @@ Get2b
 (
 )
 ;
+#
+ifdef
+MOZ_MAY_HAVE_HTMLACCEL
 if
 (
 mozilla
@@ -53195,6 +53213,8 @@ len
 ;
 }
 else
+#
+endif
 {
 for
 (
@@ -53272,6 +53292,9 @@ Get1b
 (
 )
 ;
+#
+ifdef
+MOZ_MAY_HAVE_HTMLACCEL
 if
 (
 mozilla
@@ -53303,6 +53326,8 @@ len
 ;
 }
 else
+#
+endif
 {
 for
 (
@@ -53520,6 +53545,9 @@ numEncodedChars
 =
 0
 ;
+#
+ifdef
+MOZ_MAY_HAVE_HTMLACCEL
 if
 (
 mozilla
@@ -53549,6 +53577,8 @@ end
 ;
 }
 else
+#
+endif
 {
 while
 (
