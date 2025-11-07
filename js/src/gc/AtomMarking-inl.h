@@ -517,7 +517,7 @@ MOZ_ASSERT
 symbol
 -
 >
-zone
+zoneFromAnyThread
 (
 )
 -
