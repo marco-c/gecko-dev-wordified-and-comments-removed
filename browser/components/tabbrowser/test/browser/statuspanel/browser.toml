@@ -21,6 +21,13 @@ js
 ]
 [
 "
+browser_show_statuspanel_splitview
+.
+js
+"
+]
+[
+"
 browser_show_statuspanel_twice
 .
 js
