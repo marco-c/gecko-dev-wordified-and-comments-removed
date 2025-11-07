@@ -69,6 +69,12 @@ settingssearch
 import
 android
 .
+annotation
+.
+SuppressLint
+import
+android
+.
 content
 .
 Context
@@ -1409,6 +1415,12 @@ resource
 .
 *
 /
+SuppressLint
+(
+"
+DiscouragedApi
+"
+)
 private
 fun
 getStringResource
