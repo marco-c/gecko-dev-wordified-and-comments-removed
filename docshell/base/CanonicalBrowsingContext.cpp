@@ -3683,6 +3683,9 @@ GetActiveEntries
 if
 (
 activeEntries
+&
+&
+activeEntries
 -
 >
 isEmpty
