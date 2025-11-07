@@ -2424,10 +2424,9 @@ set
 JS
 :
 :
-CreateCssModule
+CreateDefaultExportSyntheticModule
 (
 aCx
-aOptions
 val
 )
 )
