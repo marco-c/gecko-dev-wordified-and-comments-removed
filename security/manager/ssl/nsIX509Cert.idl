@@ -297,6 +297,17 @@ must_use
 ]
 readonly
 attribute
+Array
+<
+octet
+>
+subjectPublicKeyInfo
+;
+[
+must_use
+]
+readonly
+attribute
 ACString
 sha256SubjectPublicKeyInfoDigest
 ;
