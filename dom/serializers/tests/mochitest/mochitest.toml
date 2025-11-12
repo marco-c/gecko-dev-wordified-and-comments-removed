@@ -557,3 +557,17 @@ test_htmlcopyencoder
 xhtml
 "
 ]
+[
+"
+test_plaintext_linebreak
+.
+html
+"
+]
+[
+"
+test_plaintext_linebreak_compress
+.
+html
+"
+]
