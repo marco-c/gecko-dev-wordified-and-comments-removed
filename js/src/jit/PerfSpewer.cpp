@@ -674,6 +674,10 @@ Now
 RawQueryPerformanceCounterValue
 (
 )
+.
+value
+(
+)
 ;
 #
 elif
