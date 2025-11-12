@@ -1814,8 +1814,7 @@ inline
 Create
 a
 test
-page
-for
+pagefor
 action
 origin
 tests

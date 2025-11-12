@@ -567,13 +567,8 @@ session
 )
 ]
     
-for
-expected_event
-in
-expected
-:
-        
 assert
-expected_event
-in
 events
+=
+=
+expected
