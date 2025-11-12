@@ -251,6 +251,9 @@ OnUnlinkTexture
 SharedContextWebgl
 *
 aContext
+TextureHandle
+*
+aHandle
 bool
 aForce
 )
