@@ -6,6 +6,13 @@ define
 BASE_SCOPED_NATIVE_LIBRARY_H_
 #
 include
+<
+windows
+.
+h
+>
+#
+include
 "
 mozilla
 /

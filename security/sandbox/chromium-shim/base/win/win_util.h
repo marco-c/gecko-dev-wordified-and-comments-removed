@@ -7,6 +7,13 @@ BASE_WIN_WIN_UTIL_H_
 #
 include
 <
+minwindef
+.
+h
+>
+#
+include
+<
 string
 >
 #

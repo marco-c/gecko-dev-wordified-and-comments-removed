@@ -7,6 +7,13 @@ BASE_PROCESS_LAUNCH_H_
 #
 include
 <
+minwindef
+.
+h
+>
+#
+include
+<
 vector
 >
 #
