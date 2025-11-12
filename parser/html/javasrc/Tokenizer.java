@@ -2994,6 +2994,7 @@ strBufLen
 0
 ;
 }
+Inline
 private
 void
 appendStrBuf
@@ -3381,6 +3382,7 @@ break
 ;
 }
 }
+Inline
 private
 void
 appendStrBuf
@@ -3401,13 +3403,9 @@ SAXException
 int
 newLen
 =
-Portability
-.
-checkedAdd
-(
 strBufLen
++
 length
-)
 ;
 System
 .
