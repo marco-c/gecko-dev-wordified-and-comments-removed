@@ -28,7 +28,7 @@ LocaleUtils
 public
 static
 String
-getLanguageTagForAcceptLanguage
+getLanguageRegionLocale
 (
 final
 Locale
