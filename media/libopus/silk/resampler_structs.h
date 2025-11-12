@@ -52,7 +52,7 @@ sFIR
 opus_int16
 delayBuf
 [
-48
+96
 ]
 ;
 opus_int

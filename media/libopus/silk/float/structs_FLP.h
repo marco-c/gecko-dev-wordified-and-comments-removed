@@ -178,12 +178,6 @@ silk_encoder_control_FLP
 typedef
 struct
 {
-silk_encoder_state_FLP
-state_Fxx
-[
-ENCODER_NUM_CHANNELS
-]
-;
 stereo_enc_state
 sStereo
 ;
@@ -210,6 +204,12 @@ allowBandwidthSwitch
 ;
 opus_int
 prev_decode_only_middle
+;
+silk_encoder_state_FLP
+state_Fxx
+[
+ENCODER_NUM_CHANNELS
+]
 ;
 }
 silk_encoder
