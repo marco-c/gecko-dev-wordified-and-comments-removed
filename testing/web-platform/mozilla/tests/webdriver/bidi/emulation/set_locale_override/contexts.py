@@ -63,9 +63,9 @@ test_locale_override_isolated_in_browsing_context
 (
     
 bidi_session
-get_current_locale
-some_locale
 another_locale
+assert_locale_against_value
+some_locale
 )
 :
     
@@ -149,22 +149,16 @@ another_locale
     
 )
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+some_locale
 context_in_process_1
 )
-=
-=
-some_locale
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+another_locale
 context_in_process_2
 )
-=
-=
-another_locale

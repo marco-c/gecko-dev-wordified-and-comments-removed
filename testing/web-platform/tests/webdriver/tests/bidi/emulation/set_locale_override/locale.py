@@ -16,13 +16,13 @@ bidi_session
     
 new_tab
     
-some_locale
-    
 another_locale
     
 assert_locale_against_default
     
 assert_locale_against_value
+    
+some_locale
 )
 :
     
