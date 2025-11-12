@@ -1607,10 +1607,16 @@ listener
 this
 )
 ;
+if
+(
+mBufferAttached
+)
+{
 mSurfaceNeedsCommit
 =
 true
 ;
+}
 }
 if
 (
