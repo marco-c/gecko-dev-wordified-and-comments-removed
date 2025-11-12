@@ -70,18 +70,6 @@ androidx
 annotation
 .
 MainThread
-import
-mozilla
-.
-components
-.
-lib
-.
-state
-.
-internal
-.
-UiStoreDispatcher
 /
 *
 *
@@ -252,7 +240,4 @@ A
 initialState
 reducer
 middleware
-UiStoreDispatcher
-(
-)
 )

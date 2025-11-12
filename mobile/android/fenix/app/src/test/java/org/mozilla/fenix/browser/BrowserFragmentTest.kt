@@ -1904,6 +1904,14 @@ triggeredByRedirect
 }
 returns
 true
+every
+{
+newSelectedTab
+.
+parentId
+}
+returns
+null
 browserFragment
 .
 observeTabSource

@@ -356,6 +356,17 @@ selectedTabId
 =
 tabId
 )
+middleware
+=
+listOf
+(
+ThumbnailsMiddleware
+(
+mock
+(
+)
+)
+)
 )
 )
 engineView

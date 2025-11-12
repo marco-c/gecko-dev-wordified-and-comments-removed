@@ -961,6 +961,17 @@ state
 )
 .
 translationEngine
+whenever
+(
+store
+.
+state
+)
+.
+thenReturn
+(
+state
+)
 }
 Test
 fun

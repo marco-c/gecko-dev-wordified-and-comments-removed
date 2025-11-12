@@ -851,6 +851,9 @@ mozilla
 .
 com
 "
+private
+=
+true
 )
 activity
 .

@@ -99,9 +99,4 @@ CustomTabsServiceStateReducer
 :
 :
 reduce
-threadNamePrefix
-=
-"
-CustomTabsService
-"
 )

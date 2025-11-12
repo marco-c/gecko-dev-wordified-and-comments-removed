@@ -675,12 +675,10 @@ mozillaTab
 =
 createTab
 (
-id
+tabId
 =
-"
 1
-"
-url
+tabUrl
 =
 "
 https

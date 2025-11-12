@@ -4881,6 +4881,10 @@ assertSearchSelectorEquals
 expectedSearchSelector
 (
 selectedSearchEngine
+listOf
+(
+otherSearchEngine
+)
 )
 toolbarStore
 .
