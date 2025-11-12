@@ -149,6 +149,16 @@ build
 define
 (
 "
+MOZILLA_CONFIG_H
+"
+None
+)
+;
+build
+.
+define
+(
+"
 MOZ_INCLUDE_MOZALLOC_H
 "
 None
