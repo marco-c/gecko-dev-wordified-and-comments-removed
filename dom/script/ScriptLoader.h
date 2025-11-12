@@ -1933,6 +1933,7 @@ nsCString
 &
 BytecodeMimeTypeFor
 (
+const
 ScriptLoadRequest
 *
 aRequest
@@ -1943,6 +1944,7 @@ nsCString
 &
 BytecodeMimeTypeFor
 (
+const
 JS
 :
 :
