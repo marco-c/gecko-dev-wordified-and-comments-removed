@@ -234,8 +234,6 @@ type
 b
 -
 linux
--
-gcp
 use
 -
 python
