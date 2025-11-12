@@ -3536,8 +3536,6 @@ urlbarRect
 =
 URLBar
 .
-textbox
-.
 getBoundingClientRect
 (
 )

@@ -213,8 +213,6 @@ is
 (
 gURLBar
 .
-textbox
-.
 getAttribute
 (
 "
@@ -242,8 +240,6 @@ BrowserTestUtils
 waitForMutationCondition
 (
 gURLBar
-.
-textbox
 {
 attributeFilter
 :
@@ -258,8 +254,6 @@ pageproxystate
 =
 >
 gURLBar
-.
-textbox
 .
 getAttribute
 (

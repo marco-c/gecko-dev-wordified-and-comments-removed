@@ -260,8 +260,6 @@ await
 mouseMoveAndWait
 (
 gURLBar
-.
-textbox
 )
 ;
 await
@@ -463,8 +461,6 @@ await
 mouseMoveAndWait
 (
 gURLBar
-.
-textbox
 )
 ;
 await

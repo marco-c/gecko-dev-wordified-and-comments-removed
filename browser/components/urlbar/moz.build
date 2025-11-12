@@ -156,13 +156,6 @@ sys
 mjs
 "
 "
-UrlbarInput
-.
-sys
-.
-mjs
-"
-"
 UrlbarMuxerStandard
 .
 sys
@@ -806,3 +799,13 @@ urlbar
 "
 docs
 "
+JAR_MANIFESTS
++
+=
+[
+"
+jar
+.
+mn
+"
+]

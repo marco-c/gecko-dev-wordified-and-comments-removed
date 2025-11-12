@@ -183,8 +183,6 @@ background
 ;
 gURLBar
 .
-textbox
-.
 setAttribute
 (
 "
@@ -294,8 +292,6 @@ color
 )
 ;
 gURLBar
-.
-textbox
 .
 removeAttribute
 (
@@ -468,8 +464,6 @@ startup
 ;
 gURLBar
 .
-textbox
-.
 setAttribute
 (
 "
@@ -556,8 +550,6 @@ background
 )
 ;
 gURLBar
-.
-textbox
 .
 removeAttribute
 (

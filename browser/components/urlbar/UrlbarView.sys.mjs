@@ -3501,8 +3501,6 @@ getBoundsWithoutFlushing
 this
 .
 input
-.
-textbox
 )
 .
 width
@@ -4430,8 +4428,6 @@ getBoundsWithoutFlushing
 this
 .
 input
-.
-textbox
 )
 .
 width
@@ -22776,8 +22772,6 @@ getBoundsWithoutFlushing
 this
 .
 input
-.
-textbox
 )
 .
 width

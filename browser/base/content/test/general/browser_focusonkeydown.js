@@ -76,6 +76,8 @@ true
 ;
 gURLBar
 .
+inputField
+.
 addEventListener
 (
 "

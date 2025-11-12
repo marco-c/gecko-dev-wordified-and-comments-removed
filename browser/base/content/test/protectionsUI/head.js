@@ -288,8 +288,6 @@ synthesizeMouseAtCenter
 win
 .
 gURLBar
-.
-textbox
 {
 type
 :

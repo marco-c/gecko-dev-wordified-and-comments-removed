@@ -861,6 +861,8 @@ resolve
 {
 gURLBar
 .
+inputField
+.
 addEventListener
 (
 "

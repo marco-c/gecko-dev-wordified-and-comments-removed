@@ -957,10 +957,10 @@ mainButtonNode
 .
 style
 .
-visibility
+display
 =
 "
-visible
+flex
 "
 ;
 registerCleanupFunction
@@ -979,7 +979,7 @@ style
 removeProperty
 (
 "
-visibility
+display
 "
 )
 ;

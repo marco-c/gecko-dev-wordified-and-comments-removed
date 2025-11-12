@@ -2132,8 +2132,6 @@ synthesizeMouseAtCenter
 window
 .
 gURLBar
-.
-textbox
 {
 type
 :
@@ -2530,8 +2528,6 @@ synthesizeMouseAtCenter
 window
 .
 gURLBar
-.
-textbox
 {
 type
 :

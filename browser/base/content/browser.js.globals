@@ -75,7 +75,7 @@ gSessionHistoryObserver
 gStoragePressureObserver
 "
 "
-PopupBlockerObserver
+PopupAndRedirectBlockerObserver
 "
 "
 gKeywordURIFixup
@@ -427,9 +427,6 @@ UpdateUtils
 "
 "
 URILoadingHelper
-"
-"
-UrlbarInput
 "
 "
 UrlbarPrefs

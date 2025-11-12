@@ -481,6 +481,8 @@ focus
 ;
 gURLBar
 .
+inputField
+.
 addEventListener
 (
 "

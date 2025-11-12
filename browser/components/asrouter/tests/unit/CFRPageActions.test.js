@@ -415,14 +415,14 @@ div
 ;
 gURLBar
 .
-textbox
+inputField
 =
 document
 .
 createElement
 (
 "
-div
+input
 "
 )
 ;
@@ -1007,7 +1007,7 @@ equal
 (
 pageAction
 .
-urlbarinput
+urlbar
 .
 style
 .
@@ -1114,7 +1114,7 @@ notEqual
 (
 pageAction
 .
-urlbarinput
+urlbar
 .
 getAttribute
 (
@@ -1162,7 +1162,7 @@ equal
 (
 pageAction
 .
-urlbarinput
+urlbar
 .
 getAttribute
 (
@@ -1524,7 +1524,7 @@ equal
 (
 pageAction
 .
-urlbarinput
+urlbar
 .
 getAttribute
 (
@@ -1604,7 +1604,7 @@ equal
 (
 pageAction
 .
-urlbarinput
+urlbar
 .
 getAttribute
 (
@@ -1730,7 +1730,7 @@ isNull
 (
 pageAction
 .
-urlbarinput
+urlbar
 .
 getAttribute
 (
@@ -1746,7 +1746,7 @@ state
 ;
 pageAction
 .
-urlbarinput
+urlbar
 .
 setAttribute
 (
@@ -1774,7 +1774,7 @@ equal
 (
 pageAction
 .
-urlbarinput
+urlbar
 .
 getAttribute
 (
@@ -1896,7 +1896,7 @@ equal
 (
 pageAction
 .
-urlbarinput
+urlbar
 .
 getAttribute
 (
@@ -2091,7 +2091,7 @@ equal
 (
 pageAction
 .
-urlbarinput
+urlbar
 .
 getAttribute
 (

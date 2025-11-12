@@ -223,8 +223,6 @@ target
 win
 .
 gURLBar
-.
-textbox
 offsetX
 :
 0

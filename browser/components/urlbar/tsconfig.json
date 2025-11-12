@@ -28,13 +28,6 @@ exclude
 :
 [
 "
-UrlbarInput
-.
-sys
-.
-mjs
-"
-"
 UrlbarProviderGlobalActions
 .
 sys

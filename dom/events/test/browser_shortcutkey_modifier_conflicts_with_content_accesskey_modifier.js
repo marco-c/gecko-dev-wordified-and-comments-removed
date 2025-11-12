@@ -174,9 +174,6 @@ body
 >
 "
 ;
-let
-tab
-=
 await
 BrowserTestUtils
 .
@@ -245,6 +242,8 @@ event
 )
 ;
 gURLBar
+.
+inputField
 .
 addEventListener
 (
