@@ -15772,11 +15772,6 @@ widgets
 /
 vendor
 /
-lit
-.
-all
-.
-mjs
 toolkit
 /
 crashreporter
