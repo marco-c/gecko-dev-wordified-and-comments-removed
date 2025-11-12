@@ -198,6 +198,7 @@ preference
 experiment
 .
 *
+*
 typedef
 {
 Object
@@ -514,6 +515,7 @@ an
 experiment
 sets
 .
+*
 *
 property
 {
@@ -941,6 +943,7 @@ preference
 branch
 .
 *
+*
 enum
 {
 Object
@@ -1248,6 +1251,7 @@ during
 early
 startup
 .
+*
 *
 param
 {
@@ -2189,6 +2193,7 @@ new
 preference
 experiment
 .
+*
 *
 param
 {
@@ -3348,6 +3353,7 @@ the
 preference
 .
 *
+*
 param
 {
 string
@@ -3634,6 +3640,7 @@ an
 experiment
 .
 *
+*
 param
 {
 string
@@ -3686,6 +3693,7 @@ for
 an
 experiment
 .
+*
 *
 param
 {
@@ -3900,6 +3908,7 @@ the
 *
 experiment
 .
+*
 *
 param
 {
@@ -4281,6 +4290,7 @@ its
 previous
 value
 .
+*
 *
 param
 {
@@ -5092,6 +5102,7 @@ the
 experiment
 .
 *
+*
 param
 {
 string
@@ -5215,6 +5226,7 @@ experiment
 objects
 .
 *
+*
 resolves
 {
 Experiment
@@ -5277,6 +5289,7 @@ all
 active
 experiments
 .
+*
 *
 resolves
 {
@@ -5350,6 +5363,7 @@ the
 given
 slug
 .
+*
 *
 param
 {

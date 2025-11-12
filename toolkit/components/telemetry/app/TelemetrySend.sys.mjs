@@ -917,6 +917,7 @@ request
 ping
 .
 *
+*
 param
 {
 Object
@@ -987,6 +988,7 @@ a
 ping
 description
 .
+*
 *
 param
 {
@@ -1067,6 +1069,7 @@ a
 pending
 ping
 .
+*
 *
 param
 {
@@ -5512,6 +5515,7 @@ overdue
 ones
 .
 *
+*
 return
 {
 Boolean
@@ -9692,6 +9696,7 @@ temporarily
 disabled
 .
 *
+*
 return
 {
 Boolean
@@ -10103,6 +10108,7 @@ on
 pending
 pings
 .
+*
 *
 return
 {

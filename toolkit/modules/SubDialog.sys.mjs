@@ -137,6 +137,7 @@ resize
 callback
 .
 *
+*
 callback
 SubDialog
 ~
@@ -194,6 +195,7 @@ to
 the
 parentElement
 .
+*
 *
 param
 {
@@ -5452,6 +5454,7 @@ event
 listeners
 .
 *
+*
 param
 {
 Boolean
@@ -5786,6 +5789,7 @@ event
 listeners
 .
 *
+*
 param
 {
 Boolean
@@ -6047,6 +6051,7 @@ the
 content
 window
 .
+*
 *
 param
 {
@@ -6628,6 +6633,7 @@ top
 and
 visible
 .
+*
 *
 type
 {
@@ -7239,6 +7245,7 @@ Abort
 open
 dialogs
 .
+*
 *
 param
 {

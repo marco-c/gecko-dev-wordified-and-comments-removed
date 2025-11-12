@@ -1282,6 +1282,7 @@ content
 signatures
 .
 *
+*
 param
 url
 *
@@ -1591,6 +1592,7 @@ response
 from
 Balrog
 .
+*
 *
 param
 didGetAddonList
@@ -1989,6 +1991,7 @@ cert
 pinning
 .
 *
+*
 param
 didGetAddonList
 *
@@ -2350,6 +2353,7 @@ an
 addon
 check
 .
+*
 *
 return
 a
@@ -3508,6 +3512,7 @@ when
 done
 .
 *
+*
 param
 gmpAddon
 The
@@ -3946,6 +3951,7 @@ OpenH264
 and
 EME
 plugins
+*
 *
 return
 a
@@ -5073,6 +5079,7 @@ this
 addon
 valid
 *
+*
 return
 true
 if
@@ -5320,6 +5327,7 @@ the
 specified
 location
 .
+*
 *
 param
 zipPath
@@ -5686,6 +5694,7 @@ GMPAddon
 object
 .
 *
+*
 param
 gmpAddon
 The
@@ -5726,6 +5735,7 @@ for
 an
 addon
 .
+*
 *
 return
 a

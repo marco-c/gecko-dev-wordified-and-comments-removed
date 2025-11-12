@@ -853,6 +853,7 @@ already
 exist
 .
 *
+*
 param
 {
 Object
@@ -1280,6 +1281,7 @@ already
 exist
 .
 *
+*
 param
 {
 Object
@@ -1689,6 +1691,7 @@ becomes
 fooBarBaz
 "
 *
+*
 param
 {
 string
@@ -1916,6 +1919,7 @@ becomes
 "
 fooBarBaz
 "
+*
 *
 param
 {

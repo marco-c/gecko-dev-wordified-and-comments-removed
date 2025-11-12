@@ -945,7 +945,6 @@ GeckoSession
 .
 *
 *
-*
 param
 {
 object

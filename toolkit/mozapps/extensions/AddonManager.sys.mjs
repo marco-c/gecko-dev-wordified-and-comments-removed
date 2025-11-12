@@ -2009,6 +2009,7 @@ for
 display
 .
 *
+*
 return
 the
 selected
@@ -3034,6 +3035,7 @@ from
 API
 users
 .
+*
 *
 class
 *
@@ -5608,6 +5610,7 @@ fake
 restarts
 .
 *
+*
 return
 Promise
 {
@@ -7279,6 +7282,7 @@ can
 be
 updated
 .
+*
 *
 return
 Promise
@@ -20920,6 +20924,7 @@ to
 AddonManagerInternal
 .
 *
+*
 class
 *
 /
@@ -25713,6 +25718,7 @@ boolean
 value
 .
 *
+*
 param
 aValue
 The
@@ -25795,6 +25801,7 @@ set
 of
 addons
 .
+*
 *
 returns
 Promise
@@ -27319,6 +27326,7 @@ object
 form
 .
 *
+*
 return
 Promise
 <
@@ -27881,6 +27889,7 @@ in
 object
 form
 .
+*
 *
 return
 Promise

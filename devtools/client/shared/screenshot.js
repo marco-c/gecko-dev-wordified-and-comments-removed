@@ -1251,7 +1251,7 @@ lazy
 .
 Downloads
 .
-getPreferredDownloadsDirectory
+getPreferredScreenshotsDirectory
 (
 )
 ;

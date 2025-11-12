@@ -301,6 +301,7 @@ origin
 parameters
 .
 *
+*
 param
 {
 nsIURI

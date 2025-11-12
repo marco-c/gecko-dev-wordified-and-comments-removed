@@ -506,6 +506,7 @@ Shield
 studies
 .
 *
+*
 type
 {
 AboutPage
@@ -879,6 +880,7 @@ BrowsingContexts
 weakset
 .
 *
+*
 param
 {
 string
@@ -1025,6 +1027,7 @@ add
 -
 on
 .
+*
 *
 param
 {
@@ -1194,6 +1197,7 @@ active
 preference
 study
 .
+*
 *
 param
 {

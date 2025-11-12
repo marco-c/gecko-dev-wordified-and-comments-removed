@@ -254,6 +254,7 @@ the
 handler
 .
 *
+*
 param
 {
 nsIHandlerInfo
@@ -713,6 +714,7 @@ the
 protocol
 .
 *
+*
 param
 {
 nsIHandlerInfo
@@ -815,6 +817,7 @@ app
 chooser
 prompt
 .
+*
 *
 param
 {
@@ -1540,6 +1543,7 @@ specific
 protocol
 .
 *
+*
 param
 {
 string
@@ -1728,6 +1732,7 @@ a
 protocol
 .
 *
+*
 param
 {
 string
@@ -1804,6 +1809,7 @@ a
 standalone
 window
 .
+*
 *
 param
 {
@@ -2179,6 +2185,7 @@ this
 dialog
 .
 *
+*
 param
 {
 nsIPrincipal
@@ -2389,6 +2396,7 @@ to
 store
 permissions
 .
+*
 *
 param
 {

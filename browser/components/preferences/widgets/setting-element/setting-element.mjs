@@ -271,6 +271,7 @@ redundant
 updates
 .
 *
+*
 type
 {
 Record
@@ -312,6 +313,7 @@ element
 directly
 .
 *
+*
 returns
 {
 typeof
@@ -344,6 +346,7 @@ only
 changed
 values
 .
+*
 *
 param
 {

@@ -484,6 +484,7 @@ is
 baseDomain
 .
 *
+*
 param
 {
 nsIPrincipal
@@ -602,6 +603,7 @@ the
 specified
 browser
 .
+*
 *
 returns
 {
@@ -1153,6 +1155,7 @@ the
 specified
 browser
 .
+*
 *
 returns
 {
@@ -1760,6 +1763,7 @@ browser
 *
 state
 .
+*
 *
 param
 {
@@ -3827,6 +3831,7 @@ specific
 scheme
 .
 *
+*
 param
 {
 string
@@ -3954,6 +3959,7 @@ managed
 by
 SitePermissions
 .
+*
 *
 param
 {
@@ -7495,6 +7501,11 @@ SitePermissions
 ALLOW
 ;
 }
+labelID
+:
+"
+popup2
+"
 states
 :
 [

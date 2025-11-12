@@ -1974,6 +1974,7 @@ given
 prefix
 .
 *
+*
 param
 {
 string
@@ -3046,6 +3047,7 @@ the
 VacuumManager
 component
 .
+*
 *
 see
 unsafeRawConnection

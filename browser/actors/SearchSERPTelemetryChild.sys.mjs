@@ -4633,7 +4633,6 @@ step
 .
 *
 *
-*
 param
 {
 HTMLAnchorElement

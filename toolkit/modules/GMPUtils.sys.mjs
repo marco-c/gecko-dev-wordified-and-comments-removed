@@ -188,6 +188,7 @@ addons
 manager
 .
 *
+*
 param
 aPlugin
 *
@@ -279,6 +280,7 @@ the
 current
 OS
 .
+*
 *
 param
 aPlugin
@@ -488,6 +490,7 @@ the
 mozconfig
 .
 *
+*
 param
 aPlugin
 *
@@ -555,6 +558,7 @@ an
 unsupported
 platform
 .
+*
 *
 param
 aPlugin
@@ -1434,6 +1438,7 @@ specified
 plugin
 .
 *
+*
 param
 aKey
 The
@@ -1561,6 +1566,7 @@ specified
 plugin
 .
 *
+*
 param
 aKey
 The
@@ -1648,6 +1654,7 @@ the
 specified
 plugin
 .
+*
 *
 param
 aKey
@@ -1737,6 +1744,7 @@ specified
 plugin
 .
 *
+*
 param
 aKey
 The
@@ -1808,6 +1816,7 @@ specified
 plugin
 .
 *
+*
 param
 aKey
 The
@@ -1878,6 +1887,7 @@ the
 specified
 plugin
 .
+*
 *
 param
 aKey
@@ -1955,6 +1965,7 @@ specified
 plugin
 .
 *
+*
 param
 aKey
 The
@@ -2031,6 +2042,7 @@ its
 default
 .
 *
+*
 param
 aKey
 The
@@ -2089,6 +2101,7 @@ the
 specified
 plugin
 .
+*
 *
 param
 aKey

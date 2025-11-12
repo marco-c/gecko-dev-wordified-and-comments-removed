@@ -376,6 +376,7 @@ current
 window
 .
 *
+*
 param
 window
 *
@@ -875,6 +876,7 @@ a
 closed
 window
 .
+*
 *
 param
 aIndex

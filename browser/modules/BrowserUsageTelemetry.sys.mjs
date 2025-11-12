@@ -7711,6 +7711,7 @@ chrome
 window
 .
 *
+*
 param
 {
 Window
@@ -8114,6 +8115,7 @@ the
 tab
 counts
 .
+*
 *
 param
 {
@@ -10422,6 +10424,7 @@ the
 tab
 count
 .
+*
 *
 param
 {

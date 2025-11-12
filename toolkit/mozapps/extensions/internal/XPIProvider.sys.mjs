@@ -10804,6 +10804,7 @@ the
 XPIState
 .
 *
+*
 param
 {
 string
@@ -11458,7 +11459,6 @@ add
 -
 on
 .
-*
 *
 /
 removeAddon

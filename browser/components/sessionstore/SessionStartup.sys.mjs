@@ -2291,6 +2291,7 @@ returns
 false
 .
 *
+*
 returns
 bool
 *
@@ -2379,6 +2380,7 @@ session
 restore
 .
 *
+*
 returns
 bool
 *
@@ -2433,6 +2435,7 @@ to
 a
 crash
 .
+*
 *
 returns
 bool

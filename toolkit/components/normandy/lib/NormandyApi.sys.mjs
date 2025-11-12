@@ -895,6 +895,7 @@ the
 server
 .
 *
+*
 return
 {
 object
@@ -976,6 +977,7 @@ from
 the
 server
 .
+*
 *
 param
 extensionId

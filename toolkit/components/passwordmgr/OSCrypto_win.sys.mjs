@@ -447,6 +447,7 @@ a
 string
 .
 *
+*
 param
 {
 number
@@ -535,6 +536,7 @@ to
 an
 array
 .
+*
 *
 param
 {
@@ -637,6 +639,7 @@ are
 *
 stored
 .
+*
 *
 param
 {
@@ -1130,6 +1133,7 @@ CryptUnprotectData
 API
 .
 *
+*
 param
 {
 string
@@ -1469,6 +1473,7 @@ windows
 CryptProtectData
 API
 .
+*
 *
 param
 {

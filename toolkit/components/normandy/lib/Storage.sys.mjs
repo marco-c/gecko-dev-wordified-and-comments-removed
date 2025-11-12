@@ -235,6 +235,7 @@ prefixed
 storage
 .
 *
+*
 returns
 {
 Promise
@@ -307,6 +308,7 @@ the
 prefixed
 storage
 .
+*
 *
 returns
 {
@@ -404,6 +406,7 @@ prefixed
 storage
 .
 *
+*
 returns
 {
 Promise
@@ -480,6 +483,7 @@ for
 the
 prefix
 .
+*
 *
 returns
 {

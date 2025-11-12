@@ -165,6 +165,7 @@ error
 console
 .
 *
+*
 param
 string
 *
@@ -276,6 +277,7 @@ weeks
 months
 )
 .
+*
 *
 constructor
 *

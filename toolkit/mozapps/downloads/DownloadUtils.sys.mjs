@@ -925,6 +925,7 @@ seconds
 "
 .
 *
+*
 param
 aCurrBytes
 *
@@ -3005,6 +3006,7 @@ X
 "
 status
 .
+*
 *
 param
 aSeconds

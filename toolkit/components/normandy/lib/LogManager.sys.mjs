@@ -125,6 +125,7 @@ via
 getLogger
 .
 *
+*
 param
 {
 Number
@@ -210,6 +211,7 @@ as
 its
 parent
 .
+*
 *
 param
 {

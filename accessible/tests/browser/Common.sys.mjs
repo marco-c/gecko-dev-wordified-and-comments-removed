@@ -850,6 +850,7 @@ details
 content
 .
 *
+*
 param
 {
 nsIAccessible

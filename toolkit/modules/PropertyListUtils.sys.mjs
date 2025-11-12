@@ -1594,6 +1594,7 @@ string
 values
 .
 *
+*
 param
 aPrimitive
 *
@@ -3775,6 +3776,7 @@ js
 array
 .
 *
+*
 param
 aObjectOffset
 *
@@ -3949,6 +3951,7 @@ a
 Map
 object
 .
+*
 *
 param
 aObjectOffset
@@ -4173,6 +4176,7 @@ in
 the
 object
 table
+*
 *
 param
 aObjectIndex
@@ -4972,6 +4976,7 @@ list
 object
 .
 *
+*
 param
 aDOMElt
 *
@@ -5756,6 +5761,7 @@ s
 first
 retrieved
 .
+*
 *
 member
 _lazyGetters

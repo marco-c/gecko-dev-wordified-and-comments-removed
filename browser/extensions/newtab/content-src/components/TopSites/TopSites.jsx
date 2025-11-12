@@ -295,6 +295,7 @@ of
 images
 .
 *
+*
 param
 acc
 Accumulator

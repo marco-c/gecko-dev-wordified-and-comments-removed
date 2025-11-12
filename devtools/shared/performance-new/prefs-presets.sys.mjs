@@ -2490,6 +2490,7 @@ remote
 profiling
 .
 *
+*
 return
 {
 void
@@ -2618,6 +2619,7 @@ related
 preferences
 .
 *
+*
 param
 {
 PrefObserver
@@ -2662,6 +2664,7 @@ profiler
 related
 preferences
 .
+*
 *
 param
 {
@@ -2735,6 +2738,7 @@ unknown
 or
 custom
 .
+*
 *
 param
 {
@@ -3132,6 +3136,7 @@ between
 different
 settings
 .
+*
 *
 param
 {

@@ -4949,6 +4949,7 @@ return
 null
 .
 *
+*
 returns
 {
 Anchor
@@ -8666,6 +8667,7 @@ passed
 position
 .
 *
+*
 param
 {
 String
@@ -11548,6 +11550,7 @@ is
 present
 .
 *
+*
 param
 {
 String
@@ -12470,6 +12473,7 @@ it
 executes
 .
 *
+*
 param
 {
 Object
@@ -12942,6 +12946,7 @@ the
 constructor
 .
 *
+*
 returns
 {
 Promise
@@ -13037,6 +13042,7 @@ the
 current
 document
 .
+*
 *
 returns
 {
@@ -13162,6 +13168,7 @@ add
 a
 listener
 .
+*
 *
 param
 {
@@ -13576,6 +13583,7 @@ page
 event
 .
 *
+*
 param
 {
 PageEventListenerAction
@@ -13964,6 +13972,7 @@ identifies
 it
 .
 *
+*
 param
 {
 Element
@@ -14351,6 +14360,7 @@ specific
 element
 .
 *
+*
 param
 {
 AutoFocusOptions
@@ -14622,6 +14632,7 @@ as
 an
 argument
 .
+*
 *
 param
 {
@@ -15540,6 +15551,7 @@ store
 it
 .
 *
+*
 param
 {
 FeatureCalloutTheme
@@ -15911,6 +15923,7 @@ the
 feature
 callout
 container
+*
 *
 param
 {

@@ -3669,6 +3669,7 @@ specific
 tab
 .
 *
+*
 param
 {
 (
@@ -4348,6 +4349,7 @@ SitePermissions
 state
 .
 *
+*
 param
 aBrowser
 -
@@ -4446,6 +4448,7 @@ provided
 active
 stream
 .
+*
 *
 param
 aActiveStream

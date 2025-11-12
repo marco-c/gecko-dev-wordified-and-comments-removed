@@ -986,7 +986,6 @@ the
 tooltip
 .
 *
-*
 /
 addTab
 (

@@ -3349,6 +3349,7 @@ are
 considered
 .
 *
+*
 param
 {
 Document
@@ -3696,6 +3697,7 @@ with
 a
 dark
 background
+*
 *
 param
 {

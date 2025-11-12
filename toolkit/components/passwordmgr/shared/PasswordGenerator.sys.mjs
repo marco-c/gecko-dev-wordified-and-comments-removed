@@ -918,6 +918,7 @@ requiredCharacters
 array
 .
 *
+*
 param
 {
 Map
@@ -1279,6 +1280,7 @@ a
 string
 .
 *
+*
 param
 {
 string
@@ -1481,6 +1483,7 @@ a
 generated
 password
 .
+*
 *
 param
 {

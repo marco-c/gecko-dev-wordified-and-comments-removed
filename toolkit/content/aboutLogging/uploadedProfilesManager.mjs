@@ -133,6 +133,7 @@ for
 tests
 .
 *
+*
 param
 {
 string
@@ -216,6 +217,7 @@ the
 JWT
 token
 .
+*
 *
 param
 {
@@ -834,6 +836,7 @@ the
 user
 .
 *
+*
 param
 {
 string
@@ -1027,6 +1030,7 @@ in
 the
 UI
 .
+*
 *
 param
 {
@@ -1471,6 +1475,7 @@ on
 delete
 button
 .
+*
 *
 param
 {

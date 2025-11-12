@@ -102,6 +102,7 @@ SHA
 hash
 .
 *
+*
 param
 {
 ArrayBuffer
@@ -280,6 +281,7 @@ for
 this
 collection
 .
+*
 *
 param
 {

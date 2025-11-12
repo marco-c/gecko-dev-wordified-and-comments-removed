@@ -170,6 +170,7 @@ numerator
 value
 .
 *
+*
 param
 {
 Object
@@ -326,6 +327,7 @@ historgram
 on
 a
 server
+*
 *
 param
 {
@@ -570,6 +572,7 @@ the
 value
 .
 *
+*
 param
 {
 Object
@@ -666,6 +669,7 @@ returning
 new
 dictionary
 .
+*
 *
 param
 {
@@ -790,6 +794,7 @@ in
 the
 past
 .
+*
 *
 param
 {
@@ -924,6 +929,7 @@ the
 pastDays
 .
 *
+*
 param
 {
 number
@@ -1016,6 +1022,7 @@ of
 current
 index
 .
+*
 *
 param
 {
@@ -1202,6 +1209,7 @@ the
 class
 .
 *
+*
 param
 {
 number
@@ -1353,6 +1361,7 @@ non
 -
 encoded
 .
+*
 *
 param
 {
@@ -1949,6 +1958,7 @@ raw
 sql
 inout
 .
+*
 *
 param
 {

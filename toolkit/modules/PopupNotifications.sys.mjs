@@ -1134,6 +1134,7 @@ browser
 window
 .
 *
+*
 param
 tabbrowser
 *
@@ -2441,6 +2442,7 @@ ID
 pair
 .
 *
+*
 param
 {
 string
@@ -2626,6 +2628,7 @@ new
 popup
 notification
 .
+*
 *
 param
 browser
@@ -5344,6 +5347,7 @@ or
 many
 Notifications
 .
+*
 *
 param
 {

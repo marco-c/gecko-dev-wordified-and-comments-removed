@@ -1007,6 +1007,7 @@ copy
 the
 screenshots
 *
+*
 param
 {
 Object
@@ -1075,6 +1076,7 @@ to
 download
 the
 screenshots
+*
 *
 param
 {

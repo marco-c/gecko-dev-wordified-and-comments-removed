@@ -128,6 +128,7 @@ nsIDirectoryService
 key
 .
 *
+*
 param
 key
 *
@@ -238,6 +239,7 @@ stream
 for
 writing
 .
+*
 *
 param
 file
@@ -350,6 +352,7 @@ stream
 for
 writing
 .
+*
 *
 param
 file
@@ -483,6 +486,7 @@ stream
 for
 writing
 .
+*
 *
 param
 file
@@ -648,6 +652,7 @@ output
 stream
 .
 *
+*
 param
 stream
 *
@@ -711,6 +716,7 @@ file
 output
 stream
 .
+*
 *
 param
 stream

@@ -2280,7 +2280,6 @@ to
 apply
 .
 *
-*
 /
 async
 applyMigrations

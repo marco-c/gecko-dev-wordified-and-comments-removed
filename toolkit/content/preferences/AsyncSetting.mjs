@@ -237,6 +237,7 @@ be
 called
 .
 *
+*
 returns
 {
 Function
@@ -269,6 +270,7 @@ of
 this
 setting
 .
+*
 *
 abstract
 *
@@ -304,6 +306,7 @@ of
 this
 setting
 .
+*
 *
 abstract
 *
@@ -350,6 +353,7 @@ be
 disabled
 .
 *
+*
 returns
 {
 Promise
@@ -379,6 +383,7 @@ should
 be
 visible
 .
+*
 *
 returns
 {
@@ -424,6 +429,7 @@ taking
 precedence
 .
 *
+*
 returns
 {
 Promise
@@ -466,6 +472,7 @@ for
 recording
 telemetry
 .
+*
 *
 param
 value

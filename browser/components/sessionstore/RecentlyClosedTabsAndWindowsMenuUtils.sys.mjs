@@ -328,6 +328,7 @@ closed
 tabs
 .
 *
+*
 param
 {
 Window
@@ -806,6 +807,7 @@ closed
 windows
 .
 *
+*
 param
 {
 Window
@@ -1067,6 +1069,7 @@ open
 all
 closed
 tabs
+*
 *
 param
 aEvent
@@ -1386,6 +1389,7 @@ all
 closed
 windows
 *
+*
 param
 aEvent
 *
@@ -1467,6 +1471,7 @@ a
 middle
 click
 .
+*
 *
 param
 aEvent
@@ -2689,6 +2694,7 @@ group
 or
 window
 .
+*
 *
 param
 {

@@ -210,6 +210,7 @@ preference
 rollout
 .
 *
+*
 typedef
 {
 object
@@ -345,6 +346,7 @@ during
 a
 rollout
 .
+*
 *
 typedef
 {
@@ -1077,6 +1079,7 @@ early
 startup
 .
 *
+*
 param
 {
 object
@@ -1658,6 +1661,7 @@ a
 new
 rollout
 *
+*
 param
 {
 PreferenceRollout
@@ -1702,6 +1706,7 @@ Update
 an
 existing
 rollout
+*
 *
 param
 {
@@ -1809,6 +1814,7 @@ in
 a
 row
 .
+*
 *
 param
 {
@@ -2096,6 +2102,7 @@ given
 slug
 .
 *
+*
 param
 {
 string
@@ -2154,6 +2161,7 @@ a
 rollout
 by
 slug
+*
 *
 param
 {

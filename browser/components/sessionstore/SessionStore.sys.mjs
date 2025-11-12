@@ -2000,6 +2000,7 @@ tracked
 by
 SessionStore
 *
+*
 param
 {
 Window
@@ -2082,6 +2083,7 @@ closed
 tab
 belongs
 to
+*
 *
 param
 {
@@ -2356,6 +2358,7 @@ this
 window
 .
 *
+*
 returns
 the
 number
@@ -2411,6 +2414,7 @@ a
 specific
 window
 *
+*
 param
 {
 Window
@@ -2450,6 +2454,7 @@ with
 all
 matching
 windows
+*
 *
 param
 {
@@ -2669,6 +2674,7 @@ with
 this
 window
 *
+*
 param
 {
 Window
@@ -2707,6 +2713,7 @@ with
 all
 matching
 windows
+*
 *
 param
 {
@@ -2867,6 +2874,7 @@ all
 closed
 windows
 *
+*
 returns
 an
 un
@@ -2913,6 +2921,7 @@ with
 all
 matching
 windows
+*
 *
 param
 {
@@ -3084,6 +3093,7 @@ a
 specific
 window
 *
+*
 param
 {
 Window
@@ -3115,6 +3125,7 @@ open
 a
 closed
 tab
+*
 *
 param
 {
@@ -3296,6 +3307,7 @@ corresponds
 to
 the
 closedId
+*
 *
 param
 {
@@ -4093,6 +4105,7 @@ a
 given
 closedId
 *
+*
 param
 {
 integer
@@ -4128,6 +4141,7 @@ SessionStore
 by
 its
 id
+*
 *
 param
 {
@@ -4742,6 +4756,7 @@ given
 window
 .
 *
+*
 param
 window
 *
@@ -5262,6 +5277,7 @@ browsing
 window
 .
 *
+*
 param
 {
 ChromeWindow
@@ -5310,6 +5326,7 @@ saved
 group
 list
 .
+*
 *
 param
 {
@@ -5489,6 +5506,7 @@ this
 session
 .
 *
+*
 returns
 {
 SavedTabGroupStateData
@@ -5527,6 +5545,7 @@ tab
 group
 list
 .
+*
 *
 param
 {
@@ -5569,6 +5588,7 @@ a
 closed
 tab
 group
+*
 *
 param
 {
@@ -5768,6 +5788,7 @@ raise
 an
 error
 .
+*
 *
 param
 {
@@ -6869,6 +6890,7 @@ currently
 opened
 windows
 *
+*
 type
 {
 object
@@ -7115,6 +7137,7 @@ tabs
 and
 windows
 .
+*
 *
 type
 {
@@ -12320,6 +12343,7 @@ unique
 window
 identifier
 *
+*
 return
 string
 *
@@ -14211,6 +14235,7 @@ is
 shown
 .
 *
+*
 param
 aWindow
 *
@@ -14771,6 +14796,7 @@ save
 all
 window
 data
+*
 *
 param
 aWindow
@@ -19121,6 +19147,7 @@ On
 quitting
 application
 *
+*
 param
 aData
 *
@@ -19365,6 +19392,7 @@ private
 browsing
 window
 .
+*
 *
 param
 {
@@ -19965,6 +19993,7 @@ purge
 of
 domain
 data
+*
 *
 param
 {
@@ -20608,6 +20637,7 @@ On
 preference
 change
 *
+*
 param
 aData
 *
@@ -20878,6 +20908,7 @@ tab
 is
 added
 *
+*
 param
 aWindow
 *
@@ -20912,6 +20943,7 @@ for
 a
 new
 tab
+*
 *
 param
 aWindow
@@ -21106,6 +21138,7 @@ for
 a
 tab
 *
+*
 param
 aWindow
 *
@@ -21179,6 +21212,7 @@ closes
 collect
 its
 properties
+*
 *
 param
 {
@@ -21776,6 +21810,7 @@ new
 window
 .
 *
+*
 param
 aFromBrowser
 *
@@ -22355,6 +22390,7 @@ browser
 state
 .
 *
+*
 param
 aTab
 *
@@ -22807,6 +22843,7 @@ its
 messages
 .
 *
+*
 param
 aBrowser
 *
@@ -22875,6 +22912,7 @@ is
 in
 _crashedBrowsers
 .
+*
 *
 param
 aBrowser
@@ -22946,6 +22984,7 @@ reset
 restoring
 state
 .
+*
 *
 param
 aBrowser
@@ -23825,6 +23864,7 @@ selected
 save
 session
 data
+*
 *
 param
 aWindow
@@ -34713,6 +34753,7 @@ dimensions
 visibility
 sidebar
 *
+*
 param
 aWindow
 *
@@ -34908,6 +34949,7 @@ session
 data
 as
 object
+*
 *
 param
 aUpdateAll
@@ -35805,6 +35847,7 @@ for
 a
 window
 *
+*
 param
 {
 Window
@@ -36623,6 +36666,7 @@ IDs
 are
 unique
 *
+*
 param
 tabData
 *
@@ -36705,6 +36749,7 @@ to
 a
 single
 window
+*
 *
 param
 aWindow
@@ -38853,6 +38898,7 @@ provided
 state
 .
 *
+*
 param
 aWindow
 *
@@ -39412,6 +39458,7 @@ restoration
 for
 a
 window
+*
 *
 param
 aWindow
@@ -41924,6 +41971,7 @@ to
 a
 window
 *
+*
 param
 aWindow
 *
@@ -42268,6 +42316,7 @@ window
 '
 s
 dimensions
+*
 *
 param
 aWidth
@@ -44012,6 +44061,7 @@ most
 recent
 window
 *
+*
 param
 {
 boolean
@@ -44387,6 +44437,7 @@ multi
 -
 window
 session
+*
 *
 param
 aState
@@ -44891,6 +44942,7 @@ defaultArgs
 implementation
 .
 *
+*
 returns
 bool
 *
@@ -45079,6 +45131,7 @@ the
 restored
 window
 )
+*
 *
 param
 aWindow
@@ -48275,6 +48328,7 @@ s
 busy
 state
 *
+*
 param
 aWindow
 the
@@ -48402,6 +48456,7 @@ busy
 '
 .
 *
+*
 param
 aWindow
 the
@@ -48513,6 +48568,7 @@ busy
 '
 .
 *
+*
 param
 aWindow
 the
@@ -48595,6 +48651,7 @@ given
 window
 .
 *
+*
 param
 aWindow
 the
@@ -48656,6 +48713,7 @@ given
 window
 .
 *
+*
 param
 aWindow
 the
@@ -48716,6 +48774,7 @@ the
 given
 window
 .
+*
 *
 param
 aWindow
@@ -48782,6 +48841,7 @@ given
 window
 .
 *
+*
 param
 aWindow
 *
@@ -48844,6 +48904,7 @@ the
 given
 tab
 .
+*
 *
 param
 aTab
@@ -53006,6 +53067,7 @@ in
 this
 session
 .
+*
 *
 returns
 {

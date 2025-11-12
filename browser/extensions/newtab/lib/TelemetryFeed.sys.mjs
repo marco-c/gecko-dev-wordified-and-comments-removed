@@ -1980,6 +1980,7 @@ maximum
 sections
 )
 *
+*
 returns
 {
 String
@@ -2613,6 +2614,7 @@ pref
 is
 enabled
 .
+*
 *
 param
 {
@@ -5083,6 +5085,7 @@ in
 the
 feed
 .
+*
 *
 param
 {
@@ -10875,7 +10878,6 @@ id
 }
 ]
 }
-*
 *
 /
 handleDiscoveryStreamImpressionStats

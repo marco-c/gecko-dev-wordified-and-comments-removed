@@ -81,6 +81,7 @@ link
 relationship
 .
 *
+*
 param
 aContent
 DOM
@@ -160,6 +161,7 @@ manifest
 link
 relationship
 .
+*
 *
 param
 aBrowser

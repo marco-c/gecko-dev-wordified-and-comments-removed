@@ -3720,6 +3720,7 @@ nsIHandlerInfo
 instance
 .
 *
+*
 param
 handlerInfo
 the

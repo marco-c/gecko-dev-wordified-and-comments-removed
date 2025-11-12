@@ -141,6 +141,7 @@ event
 listener
 .
 *
+*
 typedef
 {
 Object
@@ -361,6 +362,7 @@ and
 cancelled
 .
 *
+*
 type
 {
 Map
@@ -426,6 +428,7 @@ page
 event
 listener
 .
+*
 *
 param
 {
@@ -817,6 +820,7 @@ event
 listener
 .
 *
+*
 param
 {
 PageEventListenerParams
@@ -894,6 +898,7 @@ the
 first
 event
 .
+*
 *
 param
 {
@@ -1036,6 +1041,7 @@ fake
 "
 event
 .
+*
 *
 param
 {

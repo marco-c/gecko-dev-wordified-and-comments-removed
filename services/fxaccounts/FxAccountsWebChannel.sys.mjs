@@ -2560,6 +2560,7 @@ a
 callback
 listener
 *
+*
 private
 *
 /
@@ -2672,7 +2673,6 @@ sent
 .
 *
 private
-*
 *
 /
 let
@@ -3041,6 +3041,7 @@ the
 user
 if
 shown
+*
 *
 returns
 {
@@ -4412,6 +4413,7 @@ completing
 an
 OAuth
 flow
+*
 *
 param
 {
@@ -6713,6 +6715,7 @@ browser
 profiles
 .
 *
+*
 returns
 {
 string
@@ -6739,7 +6742,6 @@ or
 create
 -
 profile
-*
 *
 /
 _promptForProfileSyncWarning
@@ -7202,6 +7204,7 @@ a
 warning
 prompt
 .
+*
 *
 returns
 {

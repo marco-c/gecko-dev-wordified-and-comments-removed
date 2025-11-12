@@ -386,6 +386,7 @@ _pageStyleSheets
 weakmap
 .
 *
+*
 param
 newSheetData
 *

@@ -235,6 +235,7 @@ parent
 process
 .
 *
+*
 param
 {
 XULBrowser
@@ -408,6 +409,7 @@ a
 XUL
 browser
 .
+*
 *
 param
 {
@@ -761,6 +763,7 @@ a
 manifest
 .
 *
+*
 param
 {
 Response
@@ -938,6 +941,7 @@ a
 web
 manifest
 .
+*
 *
 param
 {

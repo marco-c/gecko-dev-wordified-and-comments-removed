@@ -4988,6 +4988,7 @@ of
 device
 .
 *
+*
 param
 {
 Object
@@ -9129,6 +9130,7 @@ camera
 in
 sitePermissions
 *
+*
 param
 {
 Browser
@@ -9516,6 +9518,7 @@ device
 grace
 periods
 .
+*
 *
 param
 browser
@@ -9932,6 +9935,7 @@ Ask
 permission
 .
 *
+*
 param
 principal
 -
@@ -10048,6 +10052,7 @@ webrtc
 preview
 element
 .
+*
 *
 param
 {

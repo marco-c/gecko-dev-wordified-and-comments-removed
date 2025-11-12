@@ -581,6 +581,7 @@ the
 payload
 .
 *
+*
 param
 {
 Object
@@ -1095,6 +1096,7 @@ telemetry
 payload
 .
 *
+*
 param
 reason
 Optional
@@ -1555,6 +1557,7 @@ startup
 performance
 .
 *
+*
 return
 {
 Promise
@@ -1627,6 +1630,7 @@ telemetry
 state
 file
 .
+*
 *
 return
 {
@@ -2248,6 +2252,7 @@ getStartupInfo
 )
 .
 *
+*
 param
 {
 Boolean
@@ -2796,6 +2801,7 @@ and
 clear
 them
 .
+*
 *
 param
 {
@@ -5064,6 +5070,7 @@ startup
 performance
 .
 *
+*
 return
 {
 Promise
@@ -7301,6 +7308,7 @@ daily
 ping
 .
 *
+*
 return
 {
 Promise
@@ -7457,6 +7465,7 @@ session
 data
 file
 .
+*
 *
 return
 {
@@ -7967,6 +7976,7 @@ ping
 to
 disk
 .
+*
 *
 param
 {

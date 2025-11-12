@@ -161,6 +161,7 @@ if
 getBoundingClientRect
 exists
 *
+*
 param
 ele
 The
@@ -698,6 +699,7 @@ hover
 box
 on
 *
+*
 param
 {
 Element
@@ -1215,6 +1217,7 @@ with
 role
 article
 *
+*
 param
 {
 Element
@@ -1426,6 +1429,7 @@ will
 reset
 the
 dimensions
+*
 *
 param
 {

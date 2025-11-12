@@ -166,6 +166,7 @@ for
 tests
 .
 *
+*
 returns
 {
 string
@@ -241,6 +242,7 @@ a
 file
 name
 .
+*
 *
 param
 {
@@ -683,6 +685,7 @@ gzipped
 profile
 data
 *
+*
 type
 {
 Uint8Array
@@ -711,6 +714,7 @@ See
 #
 updateVisibilities
 .
+*
 *
 type
 {
@@ -812,6 +816,7 @@ save
 process
 .
 *
+*
 param
 {
 Uint8Array
@@ -898,6 +903,7 @@ the
 various
 elements
 .
+*
 *
 param
 {
@@ -1586,6 +1592,7 @@ a
 profile
 .
 *
+*
 param
 {
 number
@@ -1652,6 +1659,7 @@ downloads
 *
 directory
 .
+*
 *
 returns
 {
@@ -1831,6 +1839,7 @@ to
 the
 user
 .
+*
 *
 returns
 {
@@ -2266,6 +2275,7 @@ Bug
 1958347
 )
 .
+*
 *
 returns
 {

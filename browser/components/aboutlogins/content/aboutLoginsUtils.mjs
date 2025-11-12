@@ -92,6 +92,7 @@ the
 event
 .
 *
+*
 param
 {
 object
@@ -384,6 +385,7 @@ using
 shadow
 dom
 .
+*
 *
 param
 {

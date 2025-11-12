@@ -1065,6 +1065,7 @@ Contile
 ads
 response
 *
+*
 param
 {
 array
@@ -1242,6 +1243,7 @@ the
 AdsFeed
 file
 *
+*
 returns
 {
 object
@@ -1325,6 +1327,7 @@ ADS_UPDATE_
 DATA_TYPE
 }
 event
+*
 *
 param
 {
@@ -1637,6 +1640,7 @@ needed
 tiles
 spocs
 )
+*
 *
 param
 {
@@ -2519,6 +2523,7 @@ INIT
 call
 .
 *
+*
 param
 {
 boolean
@@ -2583,6 +2588,7 @@ with
 new
 ads
 data
+*
 *
 param
 {

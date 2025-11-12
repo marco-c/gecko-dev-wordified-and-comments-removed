@@ -788,6 +788,7 @@ s
 url
 .
 *
+*
 param
 aUrl
 The
@@ -1152,6 +1153,7 @@ painting
 has
 completed
 .
+*
 *
 param
 aBrowser
@@ -2420,6 +2422,7 @@ the
 cache
 .
 *
+*
 param
 aBrowser
 The
@@ -3654,6 +3657,7 @@ expiration
 filter
 .
 *
+*
 param
 aFilter
 A
@@ -3694,6 +3698,7 @@ hidden
 canvas
 element
 .
+*
 *
 param
 aWindow

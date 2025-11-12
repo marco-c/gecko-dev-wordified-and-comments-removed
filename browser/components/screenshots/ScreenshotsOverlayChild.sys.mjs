@@ -3107,6 +3107,7 @@ the
 page
 .
 *
+*
 param
 {
 Event
@@ -3372,6 +3373,7 @@ handler
 function
 .
 *
+*
 param
 {
 PointerEvent
@@ -3629,6 +3631,7 @@ a
 button
 .
 *
+*
 param
 {
 Event
@@ -3820,6 +3823,7 @@ on
 the
 state
 *
+*
 param
 {
 Event
@@ -3954,6 +3958,7 @@ on
 the
 state
 *
+*
 param
 {
 Event
@@ -4068,6 +4073,7 @@ the
 screenshots
 component
 .
+*
 *
 param
 {
@@ -4201,6 +4207,7 @@ state
 to
 selected
 .
+*
 *
 param
 {
@@ -4348,6 +4355,7 @@ Windows
 and
 Linux
 .
+*
 *
 param
 {
@@ -4765,6 +4773,7 @@ dragging
 state
 .
 *
+*
 param
 {
 Event
@@ -4889,6 +4898,7 @@ the
 resizing
 state
 .
+*
 *
 param
 {
@@ -5249,6 +5259,7 @@ the
 window
 .
 *
+*
 param
 {
 Event
@@ -5360,6 +5371,7 @@ of
 the
 window
 .
+*
 *
 param
 {
@@ -5829,6 +5841,7 @@ the
 window
 .
 *
+*
 param
 {
 Event
@@ -5938,6 +5951,7 @@ of
 the
 window
 .
+*
 *
 param
 {
@@ -6409,6 +6423,7 @@ the
 window
 .
 *
+*
 param
 {
 Event
@@ -6520,6 +6535,7 @@ of
 the
 window
 .
+*
 *
 param
 {
@@ -7010,6 +7026,7 @@ of
 the
 window
 .
+*
 *
 param
 {
@@ -7514,6 +7531,7 @@ shift
 +
 F6
 .
+*
 *
 param
 {
@@ -8094,6 +8112,7 @@ the
 ScreenshotsComponentChild
 actor
 *
+*
 param
 {
 String
@@ -8163,6 +8182,7 @@ state
 for
 the
 overlay
+*
 *
 param
 {
@@ -8825,6 +8845,7 @@ to
 draggingReady
 .
 *
+*
 param
 {
 Number
@@ -8912,6 +8933,7 @@ the
 state
 to
 resizing
+*
 *
 param
 {
@@ -9038,6 +9060,7 @@ being
 hovered
 .
 *
+*
 param
 {
 Number
@@ -9116,6 +9139,7 @@ state
 to
 dragging
 .
+*
 *
 param
 {
@@ -9213,6 +9237,7 @@ selection
 container
 .
 *
+*
 param
 {
 Number
@@ -9293,6 +9318,7 @@ started
 the
 resize
 .
+*
 *
 param
 {
@@ -10000,6 +10026,7 @@ to
 selected
 .
 *
+*
 param
 {
 Number
@@ -10095,6 +10122,7 @@ state
 to
 selected
 .
+*
 *
 param
 {
@@ -10297,6 +10325,7 @@ towards
 the
 mouse
 .
+*
 *
 param
 {
@@ -11547,6 +11576,7 @@ element
 region
 .
 *
+*
 param
 {
 Number
@@ -11800,6 +11830,7 @@ the
 edges
 .
 *
+*
 param
 {
 Number
@@ -11991,6 +12022,7 @@ given
 amount
 .
 *
+*
 param
 {
 Number
@@ -12071,6 +12103,7 @@ the
 page
 bounds
 .
+*
 *
 param
 {

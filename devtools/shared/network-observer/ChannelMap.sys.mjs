@@ -404,6 +404,7 @@ following
 structure
 :
 *
+*
 property
 {
 Object

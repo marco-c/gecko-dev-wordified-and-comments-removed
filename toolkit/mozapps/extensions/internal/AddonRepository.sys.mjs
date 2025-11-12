@@ -2267,6 +2267,7 @@ the
 AddonRepository
 database
 *
+*
 return
 Promise
 {
@@ -2316,6 +2317,7 @@ a
 ServiceRequest
 instance
 .
+*
 *
 return
 ServiceRequest
@@ -5887,6 +5889,7 @@ addons
 .
 json
 file
+*
 *
 return
 :

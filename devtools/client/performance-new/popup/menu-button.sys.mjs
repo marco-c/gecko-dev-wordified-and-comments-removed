@@ -674,6 +674,7 @@ the
 profiler
 .
 *
+*
 param
 {
 Document
@@ -850,6 +851,7 @@ button
 is
 enabled
 .
+*
 *
 param
 {

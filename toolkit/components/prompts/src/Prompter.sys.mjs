@@ -213,6 +213,7 @@ nsIPromptService
 and
 nsIPromptFactory
 *
+*
 class
 Prompter
 *
@@ -503,6 +504,7 @@ OK
 button
 .
 *
+*
 param
 {
 mozIDOMWindowProxy
@@ -593,6 +595,7 @@ an
 OK
 button
 .
+*
 *
 param
 {
@@ -870,6 +873,7 @@ labeled
 checkbox
 .
 *
+*
 param
 {
 mozIDOMWindowProxy
@@ -1014,6 +1018,7 @@ a
 labeled
 checkbox
 .
+*
 *
 param
 {
@@ -1190,6 +1195,7 @@ a
 labeled
 checkbox
 .
+*
 *
 param
 {
@@ -1376,6 +1382,7 @@ Cancel
 buttons
 .
 *
+*
 param
 {
 mozIDOMWindowProxy
@@ -1479,6 +1486,7 @@ and
 Cancel
 buttons
 .
+*
 *
 param
 {
@@ -1618,6 +1626,7 @@ and
 Cancel
 buttons
 .
+*
 *
 param
 {
@@ -1779,6 +1788,7 @@ labeled
 checkbox
 .
 *
+*
 param
 {
 mozIDOMWindowProxy
@@ -1924,6 +1934,7 @@ a
 labeled
 checkbox
 .
+*
 *
 param
 {
@@ -2112,6 +2123,7 @@ a
 labeled
 checkbox
 .
+*
 *
 param
 {
@@ -2690,6 +2702,7 @@ labeled
 checkbox
 .
 *
+*
 param
 {
 BrowsingContext
@@ -2940,6 +2953,7 @@ optional
 labeled
 checkbox
 .
+*
 *
 param
 {
@@ -3202,6 +3216,7 @@ labeled
 checkbox
 .
 *
+*
 param
 {
 mozIDOMWindowProxy
@@ -3428,6 +3443,7 @@ optional
 labeled
 checkbox
 .
+*
 *
 param
 {
@@ -3685,6 +3701,7 @@ labeled
 checkbox
 .
 *
+*
 param
 {
 BrowsingContext
@@ -3904,6 +3921,7 @@ a
 password
 field
 .
+*
 *
 param
 {
@@ -4128,6 +4146,7 @@ a
 password
 field
 .
+*
 *
 param
 {
@@ -4384,6 +4403,7 @@ password
 field
 .
 *
+*
 param
 {
 BrowsingContext
@@ -4576,6 +4596,7 @@ password
 field
 .
 *
+*
 param
 {
 mozIDOMWindowProxy
@@ -4741,6 +4762,7 @@ a
 password
 field
 .
+*
 *
 param
 {
@@ -4936,6 +4958,7 @@ password
 field
 .
 *
+*
 param
 {
 BrowsingContext
@@ -5125,6 +5148,7 @@ single
 selection
 .
 *
+*
 param
 {
 mozIDOMWindowProxy
@@ -5285,6 +5309,7 @@ a
 single
 selection
 .
+*
 *
 param
 {
@@ -5478,6 +5503,7 @@ single
 selection
 .
 *
+*
 param
 {
 BrowsingContext
@@ -5667,6 +5693,7 @@ domain
 field
 .
 *
+*
 param
 {
 mozIDOMWindowProxy
@@ -5829,6 +5856,7 @@ a
 domain
 field
 .
+*
 *
 param
 {
@@ -6025,6 +6053,7 @@ a
 domain
 field
 .
+*
 *
 param
 {
@@ -8547,6 +8576,7 @@ ModalPrompter
 openPrompt
 }
 *
+*
 param
 {
 Object
@@ -9859,6 +9889,7 @@ windows
 open
 .
 *
+*
 param
 {
 Window
@@ -10082,6 +10113,7 @@ data
 to
 nsIPropertyBag
 .
+*
 *
 param
 {

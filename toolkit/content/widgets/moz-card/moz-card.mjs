@@ -224,7 +224,6 @@ render
 .
 *
 *
-*
 property
 {
 string

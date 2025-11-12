@@ -6494,6 +6494,7 @@ deactivate
 it
 .
 *
+*
 param
 browser
 The

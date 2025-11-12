@@ -207,6 +207,7 @@ JS
 value
 .
 *
+*
 param
 {
 nsIPropertyBag
@@ -392,6 +393,7 @@ to
 a
 PropertyBag
 .
+*
 *
 param
 {

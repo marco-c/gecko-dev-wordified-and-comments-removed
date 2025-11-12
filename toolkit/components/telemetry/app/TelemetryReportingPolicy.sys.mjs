@@ -1728,6 +1728,7 @@ was
 notified
 .
 *
+*
 return
 {
 Object
@@ -1941,6 +1942,7 @@ was
 notified
 .
 *
+*
 param
 {
 Object
@@ -2048,6 +2050,7 @@ use
 were
 accepted
 .
+*
 *
 return
 {
@@ -2283,6 +2286,7 @@ policy
 was
 notified
 .
+*
 *
 param
 {
@@ -2839,6 +2843,7 @@ about
 data
 submission
 *
+*
 return
 {
 Bool
@@ -2970,6 +2975,7 @@ current
 terms
 of
 use
+*
 *
 return
 {
@@ -4617,6 +4623,7 @@ Use
 acceptance
 flow
 .
+*
 *
 return
 {

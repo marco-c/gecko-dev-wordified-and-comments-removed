@@ -371,6 +371,7 @@ an
 nsIUrlClassifierExceptionListEntry
 .
 *
+*
 param
 {
 Object

@@ -242,6 +242,7 @@ the
 JSWindowActorParent
 .
 *
+*
 param
 {
 *
@@ -773,6 +774,7 @@ opens
 a
 popup
 .
+*
 *
 param
 {
@@ -1585,6 +1587,7 @@ notification
 closes
 .
 *
+*
 param
 {
 *
@@ -1753,6 +1756,7 @@ of
 the
 notification
 .
+*
 *
 param
 {

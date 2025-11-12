@@ -636,6 +636,7 @@ the
 target
 .
 *
+*
 param
 {
 object
@@ -782,6 +783,7 @@ a
 falsy
 value
 .
+*
 *
 param
 {
@@ -948,6 +950,7 @@ a
 falsy
 value
 .
+*
 *
 param
 {
@@ -1583,6 +1586,7 @@ and
 thus
 broken
 .
+*
 *
 returns
 {
@@ -4292,6 +4296,7 @@ remote
 settings
 collections
 .
+*
 *
 param
 {

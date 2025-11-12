@@ -7600,6 +7600,7 @@ be
 sanitize
 .
 *
+*
 param
 {
 Object
@@ -8084,6 +8085,7 @@ a
 given
 principal
 *
+*
 returns
 {
 boolean
@@ -8379,6 +8381,7 @@ pref
 branch
 .
 *
+*
 param
 branch
 The
@@ -8481,6 +8484,7 @@ sanitization
 could
 happen
 .
+*
 *
 param
 id

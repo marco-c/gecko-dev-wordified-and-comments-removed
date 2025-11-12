@@ -226,6 +226,7 @@ setting
 control
 element
 *
+*
 typedef
 {
 object
@@ -316,6 +317,7 @@ moz
 -
 radio
 .
+*
 *
 type
 Map
@@ -421,6 +423,7 @@ the
 default
 slot
 .
+*
 *
 type
 Map
@@ -1249,6 +1252,7 @@ an
 option
 .
 *
+*
 param
 {
 PreferencesSettingConfigNestedControlOption
@@ -1693,6 +1697,7 @@ and
 settings
 .
 *
+*
 param
 {
 PreferencesSettingConfigNestedControlOption
@@ -1854,6 +1859,7 @@ element
 may
 need
 .
+*
 *
 param
 {

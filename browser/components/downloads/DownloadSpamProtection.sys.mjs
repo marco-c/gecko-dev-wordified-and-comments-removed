@@ -279,6 +279,7 @@ been
 blocked
 .
 *
+*
 type
 {
 Map
@@ -339,6 +340,7 @@ is
 blocked
 )
 .
+*
 *
 type
 {
@@ -416,6 +418,7 @@ need
 it
 .
 *
+*
 type
 {
 Boolean
@@ -489,6 +492,7 @@ sys
 .
 mjs
 .
+*
 *
 type
 {
@@ -588,6 +592,7 @@ more
 details
 .
 *
+*
 type
 {
 DownloadsIndicatorData
@@ -656,6 +661,7 @@ listeners
 about
 this
 .
+*
 *
 param
 {
@@ -858,6 +864,7 @@ is
 created
 .
 *
+*
 param
 {
 DownloadSpam
@@ -985,6 +992,7 @@ source
 URL
 .
 *
+*
 param
 {
 String
@@ -1078,6 +1086,7 @@ in
 the
 spamList
 .
+*
 *
 param
 {
@@ -1358,6 +1367,7 @@ per
 window
 .
 *
+*
 type
 {
 WeakMap
@@ -1412,6 +1422,7 @@ nsExternalAppHandler
 :
 :
 IsDownloadSpam
+*
 *
 param
 {
@@ -1557,6 +1568,7 @@ exists
 )
 .
 *
+*
 param
 {
 Window
@@ -1611,6 +1623,7 @@ if
 any
 exists
 .
+*
 *
 param
 {
@@ -1712,6 +1725,7 @@ method
 multiple
 times
 .
+*
 *
 param
 {
@@ -1820,6 +1834,7 @@ is
 closed
 .
 *
+*
 param
 {
 Window
@@ -1894,6 +1909,7 @@ for
 download
 spam
 .
+*
 *
 extends
 Download

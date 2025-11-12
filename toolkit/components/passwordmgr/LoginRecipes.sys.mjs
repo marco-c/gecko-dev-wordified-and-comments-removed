@@ -253,7 +253,6 @@ is
 loaded
 .
 *
-*
 /
 export
 function

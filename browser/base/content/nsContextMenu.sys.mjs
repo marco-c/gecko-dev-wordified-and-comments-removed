@@ -761,6 +761,7 @@ the
 SelectTranslationsPanel
 .
 *
+*
 type
 {
 Promise
@@ -806,6 +807,7 @@ Fetched
 *
 lazily
 .
+*
 *
 type
 {
@@ -14514,6 +14516,7 @@ link
 URI
 .
 *
+*
 returns
 {
 nsIURI
@@ -14541,7 +14544,6 @@ any
 query
 parameter
 .
-*
 *
 /
 getStrippedLink

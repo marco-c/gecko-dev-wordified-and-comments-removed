@@ -2819,6 +2819,7 @@ information
 from
 CacheEntry
 *
+*
 private
 *
 /
@@ -3977,6 +3978,7 @@ content
 from
 the
 cache
+*
 *
 returns
 Promise

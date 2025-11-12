@@ -713,6 +713,7 @@ upon
 resolution
 .
 *
+*
 see
 .
 /
@@ -905,13 +906,8 @@ Services
 .
 wm
 .
-getMostRecentWindow
+getMostRecentBrowserWindow
 (
-"
-navigator
-:
-browser
-"
 )
 ;
 const

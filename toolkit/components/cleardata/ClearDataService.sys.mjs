@@ -365,6 +365,7 @@ IPv6
 address
 .
 *
+*
 param
 {
 string
@@ -501,6 +502,7 @@ OriginAttributes
 *
 partitionKey
 .
+*
 *
 param
 options
@@ -4384,6 +4386,7 @@ matching
 principals
 .
 *
+*
 param
 {
 function
@@ -6593,6 +6596,7 @@ subdomains
 of
 aDomain
 .
+*
 *
 param
 {

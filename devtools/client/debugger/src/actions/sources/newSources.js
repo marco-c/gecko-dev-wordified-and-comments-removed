@@ -1077,6 +1077,9 @@ createSourceMapOriginalSource
 (
 id
 url
+sourceActor
+.
+sourceObject
 )
 )
 ;

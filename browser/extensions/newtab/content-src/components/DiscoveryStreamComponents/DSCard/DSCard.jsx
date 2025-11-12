@@ -308,6 +308,7 @@ FROM
 WORD
 COUNT
 *
+*
 param
 {
 int

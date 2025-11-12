@@ -474,6 +474,7 @@ a
 string
 .
 *
+*
 param
 aValue
 *
@@ -559,6 +560,7 @@ internationalized
 domain
 names
 .
+*
 *
 param
 {
@@ -1154,6 +1156,7 @@ the
 storage
 .
 *
+*
 param
 aKey
 The
@@ -1257,6 +1260,7 @@ given
 key
 .
 *
+*
 param
 aKey
 The
@@ -1332,6 +1336,7 @@ a
 given
 key
 .
+*
 *
 param
 aKey
@@ -1514,6 +1519,7 @@ given
 position
 .
 *
+*
 param
 aLink
 The
@@ -1618,6 +1624,7 @@ a
 given
 link
 .
+*
 *
 param
 aLink
@@ -1773,6 +1780,7 @@ is
 pinned
 .
 *
+*
 params
 aLink
 The
@@ -1854,6 +1862,7 @@ of
 pinned
 links
 .
+*
 *
 param
 aLink
@@ -1959,6 +1968,7 @@ history
 "
 link
 *
+*
 param
 aLink
 The
@@ -2028,6 +2038,7 @@ with
 another
 link
 .
+*
 *
 param
 aUrl
@@ -2278,6 +2289,7 @@ notifies
 listeners
 .
 *
+*
 param
 aLink
 The
@@ -2358,6 +2370,7 @@ and
 notifies
 listeners
 .
+*
 *
 param
 aLink
@@ -2466,6 +2479,7 @@ is
 blocked
 .
 *
+*
 param
 aLink
 The
@@ -2510,6 +2524,7 @@ links
 is
 empty
 .
+*
 *
 return
 Whether
@@ -2774,6 +2789,7 @@ by
 this
 provider
 .
+*
 *
 param
 aCallback
@@ -3206,6 +3222,7 @@ s
 links
 change
 .
+*
 *
 param
 aObserver
@@ -8212,6 +8229,7 @@ link
 provider
 .
 *
+*
 param
 aProvider
 The
@@ -8255,6 +8273,7 @@ a
 link
 provider
 .
+*
 *
 param
 aProvider
@@ -8311,6 +8330,7 @@ from
 the
 providers
 .
+*
 *
 param
 aCallback
@@ -8535,6 +8555,7 @@ in
 the
 grid
 .
+*
 *
 return
 The
@@ -8859,6 +8880,7 @@ Compares
 two
 links
 .
+*
 *
 param
 aLink1
@@ -9427,6 +9449,7 @@ for
 it
 .
 *
+*
 param
 aProvider
 The
@@ -9752,6 +9775,7 @@ are
 cached
 .
 *
+*
 return
 The
 merged
@@ -10001,6 +10025,7 @@ single
 link
 changes
 .
+*
 *
 param
 aProvider
@@ -11538,6 +11563,7 @@ site
 .
 "
 *
+*
 param
 aUrl
 Url
@@ -11939,6 +11965,7 @@ pinned
 tabs
 .
 *
+*
 param
 aCallback
 the
@@ -12001,6 +12028,7 @@ of
 a
 host
 .
+*
 *
 param
 {
@@ -12447,6 +12475,7 @@ add
 24
 .
 )
+*
 *
 param
 {

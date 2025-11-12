@@ -826,6 +826,7 @@ of
 highlights
 .
 *
+*
 param
 {
 Array
@@ -955,6 +956,7 @@ data
 for
 content
 .
+*
 *
 param
 {

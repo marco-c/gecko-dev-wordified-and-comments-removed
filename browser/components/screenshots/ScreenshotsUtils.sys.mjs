@@ -1024,6 +1024,7 @@ given
 browser
 .
 *
+*
 param
 browser
 The
@@ -2022,6 +2023,7 @@ key
 pressed
 .
 *
+*
 param
 {
 Event
@@ -2332,6 +2334,7 @@ just
 in
 case
 .
+*
 *
 param
 {
@@ -2644,6 +2647,7 @@ is
 used
 .
 *
+*
 param
 window
 The
@@ -2766,6 +2770,7 @@ start
 the
 capture
 flow
+*
 *
 param
 browser
@@ -2959,6 +2964,7 @@ up
 internal
 state
 .
+*
 *
 param
 browser
@@ -4389,6 +4395,7 @@ buttons
 panel
 .
 *
+*
 param
 browser
 The
@@ -4516,6 +4523,7 @@ buttons
 panel
 .
 *
+*
 param
 browser
 The
@@ -4612,6 +4620,7 @@ Close
 the
 panel
 *
+*
 param
 browser
 The
@@ -4692,6 +4701,7 @@ display
 the
 buttons
 .
+*
 *
 param
 browser
@@ -4786,6 +4796,7 @@ we
 assume
 success
 .
+*
 *
 param
 browser
@@ -4910,6 +4921,7 @@ the
 screenshots
 dialog
 box
+*
 *
 param
 browser
@@ -5045,6 +5057,7 @@ it
 it
 exists
 *
+*
 param
 browser
 The
@@ -5120,6 +5133,7 @@ set
 for
 this
 browser
+*
 *
 param
 browser
@@ -5221,6 +5235,7 @@ the
 navigator
 toolbox
 .
+*
 *
 param
 browser
@@ -5368,6 +5383,7 @@ via
 ConfirmationHint
 .
 *
+*
 param
 browser
 The
@@ -5426,6 +5442,7 @@ screenshots
 child
 actor
 .
+*
 *
 param
 browser
@@ -5494,6 +5511,7 @@ screenshots
 child
 actor
 .
+*
 *
 param
 browser
@@ -5790,6 +5808,7 @@ the
 screenshot
 .
 *
+*
 param
 {
 Object
@@ -6050,6 +6069,7 @@ the
 dialog
 box
 .
+*
 *
 param
 browser
@@ -6324,6 +6344,7 @@ screenshot
 on
 the
 canvas
+*
 *
 param
 region
@@ -6799,6 +6820,7 @@ Copy
 the
 screenshot
 *
+*
 param
 region
 The
@@ -6914,6 +6936,7 @@ from
 the
 preview
 dialog
+*
 *
 param
 blob
@@ -7346,6 +7369,7 @@ Download
 the
 screenshot
 *
+*
 param
 title
 The
@@ -7447,6 +7471,7 @@ from
 the
 preview
 dialog
+*
 *
 param
 title

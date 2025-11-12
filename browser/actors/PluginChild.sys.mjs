@@ -160,6 +160,7 @@ DOM
 element
 .
 *
+*
 param
 fullScreenElement
 (
@@ -244,6 +245,7 @@ screen
 DOM
 element
 .
+*
 *
 param
 fullScreenIframe

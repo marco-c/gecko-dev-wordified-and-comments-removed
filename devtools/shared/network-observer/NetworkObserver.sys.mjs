@@ -1255,6 +1255,7 @@ is
 set
 .
 *
+*
 type
 {
 NetworkThrottleManager

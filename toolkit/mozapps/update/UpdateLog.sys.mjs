@@ -1148,6 +1148,7 @@ error
 console
 .
 *
+*
 param
 string
 *

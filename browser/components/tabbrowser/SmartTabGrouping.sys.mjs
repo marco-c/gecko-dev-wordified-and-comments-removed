@@ -1162,6 +1162,7 @@ a
 search
 page
 *
+*
 param
 {
 Object
@@ -1346,6 +1347,7 @@ the
 SmartTabGroupingManager
 object
 .
+*
 *
 param
 {
@@ -1544,6 +1546,7 @@ existing
 or
 provisional
 group
+*
 *
 param
 {
@@ -1969,6 +1972,7 @@ included
 in
 suggestions
 *
+*
 param
 {
 array
@@ -2162,6 +2166,7 @@ grouped
 list
 of
 tabs
+*
 *
 param
 {
@@ -2717,6 +2722,7 @@ and
 the
 candidate
 embeddings
+*
 *
 param
 {
@@ -3603,6 +3609,7 @@ supported
 methods
 .
 *
+*
 param
 {
 string
@@ -3756,6 +3763,7 @@ prior
 to
 clustering
 *
+*
 param
 {
 string
@@ -3847,6 +3855,7 @@ a
 tab
 object
 *
+*
 param
 {
 string
@@ -3889,6 +3898,7 @@ debugging
 Console
 for
 now
+*
 *
 param
 {
@@ -3933,6 +3943,7 @@ by
 the
 ml
 models
+*
 *
 param
 {
@@ -4243,6 +4254,7 @@ given
 config
 .
 *
+*
 param
 {
 *
@@ -4372,6 +4384,7 @@ of
 tab
 data
 structures
+*
 *
 param
 tabList
@@ -4509,6 +4522,7 @@ config
 of
 the
 class
+*
 *
 param
 tabList
@@ -5628,6 +5642,7 @@ for
 0
 tabs
 *
+*
 param
 tabs
 *
@@ -5710,6 +5725,7 @@ and
 any
 dependent
 models
+*
 *
 param
 {
@@ -6069,6 +6085,7 @@ keywords
 and
 documents
 *
+*
 param
 {
 string
@@ -6204,6 +6221,7 @@ s
 only
 )
 .
+*
 *
 param
 {
@@ -6443,6 +6461,7 @@ the
 text
 as
 is
+*
 *
 param
 {
@@ -6735,6 +6754,7 @@ Model
 ML
 Engine
 *
+*
 param
 {
 string
@@ -6886,6 +6906,7 @@ set
 of
 clusters
 .
+*
 *
 param
 {
@@ -7796,6 +7817,7 @@ for
 management
 later
 *
+*
 param
 indices
 indices
@@ -8025,6 +8047,7 @@ particular
 order
 .
 *
+*
 return
 {
 [
@@ -8143,6 +8166,7 @@ to
 the
 function
 .
+*
 *
 param
 {
@@ -8316,6 +8340,7 @@ finding
 additinoal
 item
 )
+*
 *
 returns
 ClusterRepresentation
@@ -8567,6 +8592,7 @@ total
 distance
 .
 *
+*
 returns
 {
 number
@@ -8640,6 +8666,7 @@ was
 part
 of
 .
+*
 *
 returns
 {
@@ -8751,6 +8778,7 @@ be
 labeled
 .
 *
+*
 param
 labelKey
 Key
@@ -8817,6 +8845,7 @@ for
 a
 specific
 cluster
+*
 *
 param
 labelKey
@@ -9025,6 +9054,7 @@ random
 ID
 string
 *
+*
 param
 len
 Length
@@ -9232,6 +9262,7 @@ in
 the
 cluster
 *
+*
 returns
 {
 int
@@ -9388,6 +9419,7 @@ title
 of
 the
 page
+*
 *
 returns
 {
@@ -9633,6 +9665,7 @@ from
 a
 few
 tabs
+*
 *
 returns
 {

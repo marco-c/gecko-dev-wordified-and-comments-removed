@@ -813,6 +813,7 @@ message
 impression
 data
 *
+*
 returns
 {
 object
@@ -1009,6 +1010,7 @@ the
 message
 blocklist
 *
+*
 returns
 {
 Array
@@ -1151,6 +1153,7 @@ a
 given
 message
 ID
+*
 *
 param
 {
@@ -1523,6 +1526,7 @@ when
 isBlocked
 is
 false
+*
 *
 param
 {

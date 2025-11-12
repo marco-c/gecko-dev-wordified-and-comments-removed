@@ -10350,6 +10350,7 @@ for
 content
 .
 *
+*
 param
 {
 bool
@@ -11187,6 +11188,7 @@ specific
 topsite
 .
 *
+*
 param
 link
 cached
@@ -11336,6 +11338,7 @@ if
 request
 failed
 .
+*
 *
 param
 customScreenshotURL
@@ -11531,6 +11534,7 @@ the
 desired
 keys
 .
+*
 *
 param
 customScreenshotURL

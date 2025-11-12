@@ -985,6 +985,7 @@ logging
 page
 .
 *
+*
 param
 {
 PageContext
@@ -1208,6 +1209,7 @@ the
 popup
 .
 *
+*
 param
 {
 PageContext
@@ -1321,6 +1323,7 @@ a
 profile
 .
 *
+*
 type
 {
 (
@@ -1376,6 +1379,7 @@ stop
 the
 profiler
 .
+*
 *
 param
 {

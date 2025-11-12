@@ -1659,6 +1659,7 @@ if
 needed
 .
 *
+*
 param
 {
 Browser
@@ -1905,6 +1906,7 @@ for
 a
 given
 browser
+*
 *
 param
 browser
@@ -2207,6 +2209,7 @@ browser
 from
 the
 WeakMap
+*
 *
 param
 browser
@@ -3031,6 +3034,7 @@ is
 clicked
 .
 *
+*
 param
 {
 Event
@@ -3126,6 +3130,7 @@ a
 respective
 WindowGlobal
 .
+*
 *
 param
 {
@@ -3227,6 +3232,7 @@ have
 PiPDisabled
 set
 .
+*
 *
 param
 {
@@ -3352,6 +3358,7 @@ given
 browser
 .
 *
+*
 param
 {
 Browser
@@ -3444,6 +3451,7 @@ enter
 or
 exit
 PiP
+*
 *
 param
 {
@@ -3569,6 +3577,7 @@ button
 is
 hidden
 .
+*
 *
 param
 {
@@ -3778,6 +3787,7 @@ eligible
 PiP
 video
 .
+*
 *
 param
 {
@@ -4145,6 +4155,7 @@ the
 pref
 .
 *
+*
 param
 {
 Event
@@ -4253,6 +4264,7 @@ be
 visible
 .
 *
+*
 param
 {
 Event
@@ -4300,6 +4312,7 @@ display
 of
 the
 panel
+*
 *
 param
 {
@@ -4425,6 +4438,7 @@ unpip
 icon
 .
 *
+*
 param
 {
 Window
@@ -4522,6 +4536,7 @@ open
 pip
 icon
 .
+*
 *
 param
 {
@@ -9084,6 +9099,7 @@ partially
 visible
 .
 *
+*
 param
 browser
 The
@@ -9228,6 +9244,7 @@ height
 of
 the
 screen
+*
 *
 param
 {
@@ -9588,6 +9605,7 @@ in
 Picture
 window
 *
+*
 param
 {
 Window
@@ -9791,6 +9809,7 @@ Picture
 location
 and
 size
+*
 *
 returns
 {

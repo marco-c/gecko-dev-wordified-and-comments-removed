@@ -275,6 +275,7 @@ capture
 state
 .
 *
+*
 param
 event
 a
@@ -377,6 +378,7 @@ or
 if
 forced
 .
+*
 *
 param
 forceNotify

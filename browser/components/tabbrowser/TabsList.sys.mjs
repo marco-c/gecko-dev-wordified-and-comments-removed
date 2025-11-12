@@ -3372,6 +3372,7 @@ module
 only
 .
 *
+*
 see
 getTabFromRow
 *
@@ -3470,6 +3471,7 @@ context
 menu
 integration
 .
+*
 *
 see
 TabContextMenu
@@ -3845,6 +3847,7 @@ this
 module
 only
 .
+*
 *
 see
 getTabGroupFromRow

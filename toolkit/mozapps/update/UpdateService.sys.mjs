@@ -5800,6 +5800,7 @@ messages
 file
 .
 *
+*
 param
 string
 *
@@ -5863,6 +5864,7 @@ doesn
 t
 exist
 .
+*
 *
 param
 pathArray
@@ -6323,6 +6325,7 @@ root
 directory
 .
 *
+*
 param
 pathArray
 *
@@ -6551,6 +6554,7 @@ an
 error
 code
 *
+*
 param
 code
 *
@@ -6750,6 +6754,7 @@ cleaned
 up
 .
 *
+*
 return
 The
 ready
@@ -6815,6 +6820,7 @@ Ready
 Update
 directory
 .
+*
 *
 return
 The
@@ -7429,6 +7435,7 @@ specified
 *
 directory
 .
+*
 *
 param
 dir
@@ -10067,6 +10074,7 @@ ASCII
 text
 .
 *
+*
 param
 file
 An
@@ -11451,6 +11459,7 @@ the
 given
 type
 .
+*
 *
 param
 update
@@ -14855,6 +14864,7 @@ platformVersion
 Implements
 nsIUpdate
 *
+*
 param
 update
 *
@@ -17234,6 +17244,7 @@ software
 updates
 .
 *
+*
 constructor
 *
 /
@@ -17495,6 +17506,7 @@ Handle
 Observer
 Service
 notifications
+*
 *
 param
 subject
@@ -22492,6 +22504,7 @@ a
 timer
 fires
 *
+*
 param
 _timer
 *
@@ -22655,6 +22668,7 @@ in
 the
 background
 .
+*
 *
 param
 isNotify
@@ -24116,6 +24130,7 @@ be
 offered
 .
 *
+*
 param
 updates
 *
@@ -25088,6 +25103,7 @@ about
 the
 update
 .
+*
 *
 param
 updates
@@ -28904,6 +28920,7 @@ past
 updates
 .
 *
+*
 constructor
 *
 /
@@ -29648,6 +29665,7 @@ of
 nsIUpdate
 items
 .
+*
 *
 param
 fileName
@@ -30554,6 +30572,7 @@ length
 is
 0
 .
+*
 *
 param
 updates
@@ -37213,6 +37232,7 @@ download
 of
 updates
 *
+*
 param
 background
 *
@@ -37886,6 +37906,7 @@ of
 update
 patches
 .
+*
 *
 param
 update
@@ -39563,6 +39584,7 @@ the
 given
 update
 .
+*
 *
 param
 update
@@ -41676,6 +41698,7 @@ async
 request
 begins
 *
+*
 param
 request
 *
@@ -41824,6 +41847,7 @@ data
 has
 been
 downloaded
+*
 *
 param
 request
@@ -42118,6 +42142,7 @@ new
 status
 text
 *
+*
 param
 request
 *
@@ -42216,6 +42241,7 @@ When
 data
 transfer
 ceases
+*
 *
 param
 request

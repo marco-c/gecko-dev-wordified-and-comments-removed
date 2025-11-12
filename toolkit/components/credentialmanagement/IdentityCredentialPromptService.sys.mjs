@@ -611,6 +611,7 @@ provided
 list
 .
 *
+*
 param
 {
 BrowsingContext
@@ -2015,6 +2016,7 @@ a
 provided
 list
 .
+*
 *
 param
 {
@@ -3486,6 +3488,7 @@ the
 provided
 window
 .
+*
 *
 param
 {

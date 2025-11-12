@@ -594,6 +594,7 @@ model
 raw
 data
 *
+*
 returns
 JSON
 of
@@ -1590,6 +1591,7 @@ from
 a
 table
 *
+*
 param
 {
 int
@@ -1721,6 +1723,7 @@ impression
 and
 click
 tables
+*
 *
 param
 {

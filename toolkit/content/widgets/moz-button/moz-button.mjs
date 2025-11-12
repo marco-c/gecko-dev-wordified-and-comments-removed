@@ -484,6 +484,7 @@ s
 menuId
 .
 *
+*
 returns
 {
 HTMLElement
@@ -593,6 +594,7 @@ activated
 via
 keyboard
 .
+*
 *
 param
 {

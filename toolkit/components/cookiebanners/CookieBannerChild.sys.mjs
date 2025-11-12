@@ -652,6 +652,7 @@ pref
 state
 .
 *
+*
 type
 {
 boolean
@@ -792,6 +793,7 @@ t
 handled
 .
 *
+*
 type
 {
 boolean
@@ -915,6 +917,7 @@ and
 dispatches
 events
 .
+*
 *
 returns
 {

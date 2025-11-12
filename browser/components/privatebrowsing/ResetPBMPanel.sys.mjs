@@ -769,6 +769,7 @@ cancel
 button
 .
 *
+*
 param
 {
 MozButton
@@ -860,6 +861,7 @@ clear
 *
 action
 .
+*
 *
 param
 {

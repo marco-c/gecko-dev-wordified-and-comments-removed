@@ -845,7 +845,6 @@ stack
 )
 ;
 *
-*
 /
 Assert
 .

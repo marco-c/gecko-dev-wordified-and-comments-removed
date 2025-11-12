@@ -11799,6 +11799,7 @@ given
 window
 .
 *
+*
 param
 {
 Function
@@ -13628,6 +13629,7 @@ value
 )
 .
 *
+*
 param
 {
 String
@@ -13795,6 +13797,7 @@ loses
 an
 attribute
 .
+*
 *
 param
 {
@@ -17259,6 +17262,7 @@ window
 actor
 .
 *
+*
 param
 {
 BrowsingContext
@@ -17376,6 +17380,7 @@ BrowserTestUtils
 window
 actor
 .
+*
 *
 param
 {

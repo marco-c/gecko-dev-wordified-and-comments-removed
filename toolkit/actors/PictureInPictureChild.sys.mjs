@@ -904,6 +904,7 @@ to
 control
 .
 *
+*
 param
 {
 Object
@@ -4347,6 +4348,7 @@ was
 first
 seen
 .
+*
 *
 param
 {
@@ -10427,6 +10429,7 @@ responsive
 styling
 .
 *
+*
 returns
 {
 Element
@@ -11071,6 +11074,7 @@ video
 controls
 .
 *
+*
 param
 {
 Object
@@ -11380,6 +11384,7 @@ the
 pip
 window
 .
+*
 *
 param
 textTrackCues
@@ -14027,6 +14032,7 @@ of
 the
 scrubber
 *
+*
 param
 {
 Number
@@ -14217,6 +14223,7 @@ the
 originating
 video
 .
+*
 *
 param
 {
@@ -18492,6 +18499,7 @@ the
 PiP
 window
 *
+*
 param
 {
 String
@@ -18753,6 +18761,7 @@ is
 played
 .
 *
+*
 param
 {
 HTMLVideoElement
@@ -18868,6 +18877,7 @@ is
 paused
 .
 *
+*
 param
 {
 HTMLVideoElement
@@ -18982,6 +18992,7 @@ paused
 or
 not
 .
+*
 *
 param
 {
@@ -19116,6 +19127,7 @@ has
 stopped
 .
 *
+*
 param
 {
 HTMLVideoElement
@@ -19251,6 +19263,7 @@ in
 seconds
 .
 *
+*
 param
 {
 HTMLVideoElement
@@ -19379,6 +19392,7 @@ in
 seconds
 .
 *
+*
 param
 {
 HTMLVideoElement
@@ -19506,6 +19520,7 @@ a
 video
 .
 *
+*
 param
 {
 HTMLVideoElement
@@ -19614,6 +19629,7 @@ and
 seconds
 from
 seconds
+*
 *
 param
 {
@@ -19781,6 +19797,7 @@ form
 00
 '
 *
+*
 param
 {
 Number
@@ -19936,6 +19953,7 @@ a
 video
 .
 *
+*
 param
 {
 HTMLVideoElement
@@ -20069,6 +20087,7 @@ of
 a
 video
 .
+*
 *
 param
 {
@@ -20206,6 +20225,7 @@ a
 video
 .
 *
+*
 param
 {
 HTMLVideoElement
@@ -20338,6 +20358,7 @@ unmute
 a
 video
 .
+*
 *
 param
 {
@@ -20512,6 +20533,7 @@ updatePiPTextTracks
 }
 .
 *
+*
 param
 {
 HTMLVideoElement
@@ -20664,6 +20686,7 @@ setCaptionContainerObserver
 )
 .
 *
+*
 param
 {
 HTMLVideoElement
@@ -20801,6 +20824,7 @@ the
 site
 wrapper
 .
+*
 *
 param
 {
@@ -20940,6 +20964,7 @@ a
 live
 stream
 .
+*
 *
 param
 {

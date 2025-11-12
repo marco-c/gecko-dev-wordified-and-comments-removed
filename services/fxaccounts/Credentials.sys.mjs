@@ -430,7 +430,6 @@ salt
 .
 *
 *
-*
 param
 {
 String

@@ -121,6 +121,7 @@ addon
 rollouts
 .
 *
+*
 typedef
 {
 object
@@ -636,6 +637,7 @@ a
 new
 rollout
 *
+*
 param
 {
 AddonRollout
@@ -680,6 +682,7 @@ Update
 an
 existing
 rollout
+*
 *
 param
 {
@@ -787,6 +790,7 @@ in
 a
 row
 .
+*
 *
 param
 {
@@ -1074,6 +1078,7 @@ given
 slug
 .
 *
+*
 param
 {
 string
@@ -1135,6 +1140,7 @@ a
 rollout
 by
 slug
+*
 *
 param
 {

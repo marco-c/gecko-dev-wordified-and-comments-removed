@@ -111,6 +111,7 @@ profile
 information
 .
 *
+*
 returns
 {
 Promise
@@ -293,6 +294,7 @@ information
 to
 IndexedDB
 .
+*
 *
 param
 {
@@ -522,6 +524,7 @@ from
 IndexedDB
 .
 *
+*
 returns
 {
 Promise
@@ -674,6 +677,7 @@ from
 IndexedDB
 .
 *
+*
 param
 {
 number
@@ -802,6 +806,7 @@ profile
 by
 ID
 .
+*
 *
 param
 {

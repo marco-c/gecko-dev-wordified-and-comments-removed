@@ -549,6 +549,7 @@ displayed
 message
 .
 *
+*
 type
 {
 MozMessageBarType
@@ -576,6 +577,7 @@ is
 dismissable
 .
 *
+*
 type
 {
 boolean
@@ -596,6 +598,7 @@ The
 message
 text
 .
+*
 *
 type
 {
@@ -621,6 +624,7 @@ for
 the
 message
 .
+*
 *
 type
 {
@@ -650,6 +654,7 @@ l10n
 ID
 .
 *
+*
 type
 {
 Record
@@ -678,6 +683,7 @@ of
 the
 message
 .
+*
 *
 type
 {

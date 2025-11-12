@@ -121,6 +121,7 @@ close
 it
 .
 *
+*
 param
 {
 Browser
@@ -248,6 +249,7 @@ and
 close
 it
 .
+*
 *
 param
 {
@@ -625,6 +627,7 @@ nsIPromptsService
 to
 open
 .
+*
 *
 param
 {

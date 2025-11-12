@@ -1494,6 +1494,7 @@ Map
 *
 CachedTargetingGetter
 *
+*
 param
 property
 {
@@ -6430,6 +6431,7 @@ if
 any
 .
 *
+*
 return
 {
 string
@@ -6478,6 +6480,7 @@ if
 at
 all
 .
+*
 *
 return
 {
@@ -6675,6 +6678,7 @@ migrate
 bookmarks
 ?
 *
+*
 return
 {
 boolean
@@ -6720,6 +6724,7 @@ a
 CSV
 file
 ?
+*
 *
 return
 {
@@ -6768,6 +6773,7 @@ migrate
 history
 ?
 *
+*
 return
 {
 boolean
@@ -6808,6 +6814,7 @@ to
 migrate
 passwords
 ?
+*
 *
 return
 {
@@ -6882,6 +6889,7 @@ embedded
 "
 .
 *
+*
 return
 {
 boolean
@@ -6932,6 +6940,7 @@ the
 build
 .
 *
+*
 return
 {
 string
@@ -6965,6 +6974,7 @@ the
 RTAMO
 flow
 .
+*
 *
 return
 {
@@ -7051,6 +7061,7 @@ migration
 flow
 .
 *
+*
 return
 {
 boolean
@@ -7131,6 +7142,7 @@ to
 be
 honored
 .
+*
 *
 return
 {
@@ -7246,6 +7258,7 @@ other
 similar
 OS
 elements
+*
 *
 returns
 {

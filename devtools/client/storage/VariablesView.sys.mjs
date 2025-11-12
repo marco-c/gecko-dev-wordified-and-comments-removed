@@ -1451,6 +1451,7 @@ emptied
 lazily
 .
 *
+*
 see
 VariablesView
 .
@@ -1632,6 +1633,7 @@ by
 default
 .
 *
+*
 param
 boolean
 aFlag
@@ -1693,6 +1695,7 @@ visible
 by
 default
 .
+*
 *
 param
 boolean
@@ -1758,6 +1761,7 @@ by
 default
 .
 *
+*
 param
 boolean
 aFlag
@@ -1818,6 +1822,7 @@ is
 enabled
 .
 *
+*
 param
 boolean
 aFlag
@@ -1858,6 +1863,7 @@ searching
 is
 enabled
 .
+*
 *
 return
 boolean
@@ -4366,6 +4372,7 @@ available
 items
 .
 *
+*
 param
 string
 aValue
@@ -4567,6 +4574,7 @@ aligned
 together
 .
 *
+*
 return
 boolean
 *
@@ -4595,6 +4603,7 @@ be
 aligned
 together
 .
+*
 *
 param
 boolean
@@ -4677,6 +4686,7 @@ a
 line
 .
 *
+*
 return
 boolean
 *
@@ -4717,6 +4727,7 @@ of
 a
 line
 .
+*
 *
 param
 boolean
@@ -4786,6 +4797,7 @@ this
 view
 .
 *
+*
 return
 Node
 *
@@ -4813,6 +4825,7 @@ holding
 this
 view
 .
+*
 *
 return
 HTMLDocument
@@ -4854,6 +4867,7 @@ holding
 this
 view
 .
+*
 *
 return
 nsIDOMWindow
@@ -7318,6 +7332,7 @@ visibility
 state
 .
 *
+*
 return
 boolean
 *
@@ -7342,6 +7357,7 @@ the
 expanded
 state
 .
+*
 *
 return
 boolean
@@ -7369,6 +7385,7 @@ visibility
 state
 .
 *
+*
 return
 boolean
 *
@@ -7395,6 +7412,7 @@ visibility
 state
 .
 *
+*
 return
 boolean
 *
@@ -7419,6 +7437,7 @@ the
 visibility
 state
 .
+*
 *
 param
 boolean
@@ -7455,6 +7474,7 @@ the
 expanded
 state
 .
+*
 *
 param
 boolean
@@ -7493,6 +7513,7 @@ visibility
 state
 .
 *
+*
 param
 boolean
 aFlag
@@ -7529,6 +7550,7 @@ twisty
 visibility
 state
 .
+*
 *
 param
 boolean
@@ -7569,6 +7591,7 @@ may
 be
 focused
 .
+*
 *
 return
 boolean
@@ -7723,6 +7746,7 @@ s
 title
 .
 *
+*
 param
 string
 aName
@@ -7775,6 +7799,7 @@ s
 title
 .
 *
+*
 param
 string
 aName
@@ -7820,6 +7845,7 @@ this
 item
 .
 *
+*
 return
 string
 *
@@ -7848,6 +7874,7 @@ this
 item
 .
 *
+*
 return
 string
 *
@@ -7875,6 +7902,7 @@ for
 this
 item
 .
+*
 *
 return
 string
@@ -7906,6 +7934,7 @@ displayed
 value
 .
 *
+*
 return
 string
 *
@@ -7933,6 +7962,7 @@ with
 this
 item
 .
+*
 *
 return
 Node
@@ -8623,6 +8653,7 @@ be
 displayed
 .
 *
+*
 param
 boolean
 aFlag
@@ -8714,6 +8745,7 @@ should
 be
 displayed
 .
+*
 *
 param
 boolean
@@ -9115,6 +9147,7 @@ non
 matched
 item
 .
+*
 *
 param
 boolean
@@ -9678,6 +9711,7 @@ view
 instance
 .
 *
+*
 return
 VariablesView
 *
@@ -9755,6 +9789,7 @@ this
 scope
 .
 *
+*
 return
 Node
 *
@@ -9784,6 +9819,7 @@ holding
 this
 scope
 .
+*
 *
 return
 HTMLDocument
@@ -9825,6 +9861,7 @@ holding
 this
 scope
 .
+*
 *
 return
 nsIDOMWindow
@@ -11195,6 +11232,7 @@ bar
 "
 .
 *
+*
 return
 string
 *
@@ -11230,6 +11268,7 @@ of
 the
 scope
 .
+*
 *
 return
 string
@@ -11300,6 +11339,7 @@ the
 topmost
 scope
 .
+*
 *
 return
 array
@@ -11396,6 +11436,7 @@ bar
 ]
 .
 *
+*
 return
 array
 *
@@ -11466,6 +11507,7 @@ if
 available
 .
 *
+*
 return
 any
 *
@@ -11500,6 +11542,7 @@ if
 available
 .
 *
+*
 return
 object
 *
@@ -11533,6 +11576,7 @@ descriptor
 if
 available
 .
+*
 *
 return
 object

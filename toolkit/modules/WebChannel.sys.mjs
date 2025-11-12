@@ -1560,7 +1560,6 @@ was
 sent
 .
 *
-*
 /
 deliver
 (

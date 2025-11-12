@@ -3422,6 +3422,7 @@ browser
 locale
 .
 *
+*
 return
 a
 string
@@ -3470,6 +3471,7 @@ current
 OS
 locale
 .
+*
 *
 return
 a
@@ -3538,6 +3540,7 @@ current
 OS
 locales
 .
+*
 *
 return
 an
@@ -3610,6 +3613,7 @@ regional
 preference
 locales
 .
+*
 *
 return
 an
@@ -4969,6 +4973,7 @@ or
 mutation
 .
 *
+*
 returns
 object
 *
@@ -5005,6 +5010,7 @@ be
 fully
 initialized
 .
+*
 *
 returns
 Promise
@@ -5556,6 +5562,7 @@ environment
 changes
 .
 *
+*
 param
 name
 The
@@ -5687,6 +5694,7 @@ an
 unitialized
 TelemetryEnvironment
 .
+*
 *
 param
 name
@@ -6371,6 +6379,7 @@ to
 watch
 .
 *
+*
 param
 aPreferences
 A
@@ -6544,6 +6553,7 @@ and
 the
 policy
 .
+*
 *
 param
 pref
@@ -8343,6 +8353,7 @@ object
 form
 .
 *
+*
 return
 Object
 containing
@@ -8499,6 +8510,7 @@ the
 default
 browser
 .
+*
 *
 returns
 null
@@ -9475,6 +9487,7 @@ profile
 data
 .
 *
+*
 returns
 Promise
 <
@@ -9698,6 +9711,7 @@ updates
 the
 environment
 .
+*
 *
 returns
 Promise
@@ -10219,6 +10233,7 @@ the
 system
 .
 *
+*
 return
 A
 promise
@@ -10546,6 +10561,7 @@ object
 form
 .
 *
+*
 return
 Object
 containing
@@ -10725,6 +10741,7 @@ CPU
 information
 .
 *
+*
 return
 Object
 containing
@@ -10891,6 +10908,7 @@ process
 information
 .
 *
+*
 return
 Object
 containing
@@ -10935,6 +10953,7 @@ the
 OS
 information
 .
+*
 *
 return
 Object
@@ -11469,6 +11488,7 @@ HDD
 information
 .
 *
+*
 return
 Object
 containing
@@ -11534,6 +11554,7 @@ security
 product
 information
 .
+*
 *
 return
 Object
@@ -11670,6 +11691,7 @@ the
 GFX
 information
 .
+*
 *
 return
 Object
@@ -12315,6 +12337,7 @@ in
 object
 form
 .
+*
 *
 return
 Object

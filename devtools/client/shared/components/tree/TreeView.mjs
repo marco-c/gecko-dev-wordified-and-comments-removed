@@ -1186,6 +1186,7 @@ passed
 options
 .
 *
+*
 param
 {
 Object
@@ -3427,6 +3428,7 @@ the
 current
 filter
 .
+*
 *
 return
 {
