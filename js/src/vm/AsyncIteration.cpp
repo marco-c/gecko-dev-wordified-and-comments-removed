@@ -3936,6 +3936,11 @@ HandleValue
 argument
 )
 {
+while
+(
+true
+)
+{
 MOZ_ASSERT
 (
 !
@@ -4150,6 +4155,7 @@ generator
 thisOrRval
 )
 ;
+}
 }
 #
 ifdef
