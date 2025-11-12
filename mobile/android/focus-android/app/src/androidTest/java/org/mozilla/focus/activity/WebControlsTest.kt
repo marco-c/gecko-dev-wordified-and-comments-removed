@@ -807,7 +807,7 @@ selectDate
 clickButtonWithText
 (
 "
-OK
+Set
 "
 )
 clickSubmitDateButton
