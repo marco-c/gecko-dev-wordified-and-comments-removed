@@ -591,6 +591,8 @@ design
 -
 system
 /
+dist
+/
 tokens
 -
 brand
@@ -625,6 +627,8 @@ design
 -
 system
 /
+dist
+/
 tokens
 -
 platform
@@ -658,6 +662,8 @@ shared
 design
 -
 system
+/
+dist
 /
 tokens
 -

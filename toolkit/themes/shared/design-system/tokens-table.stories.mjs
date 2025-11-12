@@ -90,6 +90,8 @@ from
 "
 .
 /
+dist
+/
 tokens
 -
 table

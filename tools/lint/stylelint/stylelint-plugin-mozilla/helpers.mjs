@@ -97,6 +97,8 @@ design
 -
 system
 /
+dist
+/
 tokens
 -
 table

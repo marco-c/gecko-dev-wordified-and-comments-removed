@@ -75,12 +75,16 @@ js
 prettier
 .
 /
+dist
+/
 tokens
 -
 table
 .
 mjs
 .
+/
+dist
 /
 tokens
 -
@@ -90,6 +94,8 @@ figma
 .
 json
 .
+/
+dist
 /
 tokens
 -

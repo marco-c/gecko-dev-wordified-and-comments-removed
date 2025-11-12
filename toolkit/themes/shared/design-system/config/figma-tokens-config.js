@@ -3369,6 +3369,8 @@ files
 destination
 :
 "
+dist
+/
 tokens
 -
 figma
@@ -3391,6 +3393,8 @@ colors
 destination
 :
 "
+dist
+/
 tokens
 -
 figma
@@ -3413,6 +3417,8 @@ primitives
 destination
 :
 "
+dist
+/
 tokens
 -
 figma
