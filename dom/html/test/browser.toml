@@ -181,6 +181,13 @@ js
 ]
 [
 "
+browser_input_file_picker_opening_notification
+.
+js
+"
+]
+[
+"
 browser_refresh_after_document_write
 .
 js
