@@ -473,14 +473,6 @@ h
 }
 %
 }
-void
-repaint
-(
-in
-boolean
-force
-)
-;
 [
 noscript
 ]
