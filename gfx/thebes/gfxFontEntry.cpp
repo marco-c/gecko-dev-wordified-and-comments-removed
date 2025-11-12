@@ -1192,6 +1192,7 @@ cmap
 new
 gfxCharacterMap
 (
+0
 )
 ;
 if

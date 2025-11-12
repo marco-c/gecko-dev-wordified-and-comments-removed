@@ -2037,6 +2037,7 @@ charmap
 new
 gfxCharacterMap
 (
+256
 )
 ;
 nsresult
@@ -2429,6 +2430,7 @@ charmap
 new
 gfxCharacterMap
 (
+0
 )
 ;
 mHasCmapTable

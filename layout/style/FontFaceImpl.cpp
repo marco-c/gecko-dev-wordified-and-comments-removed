@@ -2750,6 +2750,7 @@ MakeRefPtr
 gfxCharacterMap
 >
 (
+256
 )
 ;
 for

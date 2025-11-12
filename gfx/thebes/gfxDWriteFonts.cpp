@@ -3843,6 +3843,7 @@ mCharacterMap
 new
 gfxCharacterMap
 (
+0
 )
 ;
 GetFontEntry
@@ -4037,6 +4038,7 @@ mCharacterMap
 new
 gfxCharacterMap
 (
+0
 )
 ;
 GetFontEntry
