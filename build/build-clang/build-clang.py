@@ -1402,6 +1402,27 @@ znow
 "
 )
         
+if
+is_windows
+(
+target
+)
+and
+is_final_stage
+:
+            
+ldflags
+.
+append
+(
+"
+/
+DEFAULTLIB
+:
+bcrypt
+"
+)
+        
 cmake_args
 =
 [

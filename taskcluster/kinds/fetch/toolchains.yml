@@ -5226,9 +5226,9 @@ description
 libxml2
 2
 .
-9
+15
 .
-12
+1
 source
 code
 fetch
@@ -5253,7 +5253,7 @@ GNOME
 libxml2
 revision
 :
-b48e77cf4f6fa0792c5f4b639707a2b0675e461b
+b7fa62cbe8ef0df5869e000d5b690bdedd07f33e
 mozilla
 -
 pdf
