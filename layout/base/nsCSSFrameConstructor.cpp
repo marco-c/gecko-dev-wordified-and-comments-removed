@@ -12475,14 +12475,6 @@ SetView
 rootView
 )
 ;
-viewportFrame
--
->
-SyncFrameViewProperties
-(
-rootView
-)
-;
 rootView
 -
 >

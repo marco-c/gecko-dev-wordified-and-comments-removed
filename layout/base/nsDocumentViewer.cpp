@@ -7267,7 +7267,7 @@ viewDims
 rootView
 -
 >
-GetDimensions
+GetBounds
 (
 )
 ;
@@ -8230,15 +8230,6 @@ DeviceContext
 )
 )
 ;
-nsRect
-tbounds
-(
-nsPoint
-(
-)
-aSize
-)
-;
 nsView
 *
 view
@@ -8248,8 +8239,7 @@ mViewManager
 >
 CreateView
 (
-tbounds
-nullptr
+aSize
 )
 ;
 if

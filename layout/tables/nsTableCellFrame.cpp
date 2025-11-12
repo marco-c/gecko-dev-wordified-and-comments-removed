@@ -2406,14 +2406,6 @@ innerWM
 )
 )
 {
-nsContainerFrame
-:
-:
-PositionChildViews
-(
-inner
-)
-;
 inner
 -
 >

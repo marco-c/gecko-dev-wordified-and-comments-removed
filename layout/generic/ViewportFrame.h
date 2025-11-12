@@ -129,6 +129,14 @@ override
 #
 endif
 void
+Destroy
+(
+DestroyContext
+&
+)
+override
+;
+void
 BuildDisplayList
 (
 nsDisplayListBuilder

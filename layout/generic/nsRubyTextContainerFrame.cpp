@@ -635,14 +635,6 @@ pos
 containerSize
 )
 ;
-nsContainerFrame
-:
-:
-PlaceFrameView
-(
-child
-)
-;
 }
 aDesiredSize
 .

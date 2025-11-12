@@ -531,15 +531,6 @@ aReflowInput
 )
 ;
 static
-void
-RePositionViews
-(
-nsIFrame
-*
-aFrame
-)
-;
-static
 bool
 PageBreakAfter
 (

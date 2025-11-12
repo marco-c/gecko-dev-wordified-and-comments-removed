@@ -699,15 +699,6 @@ mContent
 }
 static
 void
-ClearMouseCaptureOnView
-(
-nsView
-*
-aView
-)
-;
-static
-void
 ClearMouseCapture
 (
 )
