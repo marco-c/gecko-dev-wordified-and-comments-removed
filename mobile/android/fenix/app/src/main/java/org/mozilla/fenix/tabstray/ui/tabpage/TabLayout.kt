@@ -2118,9 +2118,6 @@ TabListPadding
 end
 =
 TabListPadding
-top
-=
-TabListPadding
 )
 .
 clip
