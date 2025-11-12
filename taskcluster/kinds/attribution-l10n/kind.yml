@@ -178,8 +178,6 @@ type
 b
 -
 linux
--
-gcp
 attributes
 :
 build_type
