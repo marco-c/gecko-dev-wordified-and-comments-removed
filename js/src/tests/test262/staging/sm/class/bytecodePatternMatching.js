@@ -30,8 +30,11 @@ a
 }
 }
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -47,7 +50,6 @@ a
 /
 X
 )
-TypeError
 )
 ;
 }
@@ -72,8 +74,11 @@ y
 ;
 }
 }
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -88,7 +93,6 @@ sort
 (
 X
 )
-TypeError
 )
 ;
 }

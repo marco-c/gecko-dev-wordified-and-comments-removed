@@ -161,8 +161,11 @@ X
 (
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -172,7 +175,6 @@ x
 f1
 (
 )
-TypeError
 )
 ;
 assert
@@ -185,8 +187,11 @@ prop1
 1
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -196,7 +201,6 @@ x
 f2
 (
 )
-TypeError
 )
 ;
 assert
@@ -209,8 +213,11 @@ prop2
 15
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -220,7 +227,6 @@ x
 f3
 (
 )
-TypeError
 )
 ;
 assert
@@ -233,8 +239,11 @@ prop3
 undefined
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -244,7 +253,6 @@ x
 f4
 (
 )
-TypeError
 )
 ;
 assert

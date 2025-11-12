@@ -87,8 +87,11 @@ buffer
 123
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -99,7 +102,6 @@ fill
 (
 value
 )
-TypeError
 )
 ;
 }
@@ -134,8 +136,11 @@ ta
 123
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -146,7 +151,6 @@ fill
 (
 value
 )
-TypeError
 )
 ;
 }

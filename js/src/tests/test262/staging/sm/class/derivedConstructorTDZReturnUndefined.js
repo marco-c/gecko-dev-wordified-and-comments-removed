@@ -27,8 +27,11 @@ i
 +
 +
 )
-assertThrownErrorContains
+assert
+.
+throws
 (
+ReferenceError
 (
 )
 =
@@ -37,9 +40,6 @@ new
 foo
 (
 )
-"
-this
-"
 )
 ;
 reportCompare

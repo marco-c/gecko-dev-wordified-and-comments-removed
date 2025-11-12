@@ -80,7 +80,7 @@ proxy
 ;
 assert
 .
-deepEqual
+compareArray
 (
 log
 [
@@ -114,7 +114,7 @@ proxy
 ;
 assert
 .
-deepEqual
+compareArray
 (
 log
 [

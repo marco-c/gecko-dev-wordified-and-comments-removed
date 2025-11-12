@@ -32,8 +32,11 @@ Math
 sin
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -42,7 +45,6 @@ new
 inst
 (
 )
-TypeError
 )
 ;
 class
@@ -61,8 +63,11 @@ Math
 sin
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -71,7 +76,6 @@ new
 inst
 (
 )
-TypeError
 )
 ;
 reportCompare

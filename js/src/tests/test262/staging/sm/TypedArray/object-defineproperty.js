@@ -119,8 +119,11 @@ of
 throws
 )
 {
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 function
 (
 )
@@ -135,11 +138,13 @@ desc
 )
 ;
 }
-TypeError
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 function
 (
 )
@@ -157,7 +162,6 @@ desc
 )
 ;
 }
-TypeError
 )
 ;
 }

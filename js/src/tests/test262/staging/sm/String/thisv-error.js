@@ -89,8 +89,11 @@ key
 )
 )
 {
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -106,7 +109,6 @@ call
 (
 thisv
 )
-TypeError
 key
 )
 ;
@@ -130,8 +132,11 @@ incompatible
 thisv
 }
 ;
-assertThrowsInstanceOfWithMessage
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -147,9 +152,7 @@ call
 (
 thisv
 )
-TypeError
 expected
-key
 )
 }
 }
@@ -170,8 +173,11 @@ testIterator
 thisv
 )
 {
-assertThrowsInstanceOfWithMessage
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -189,7 +195,6 @@ call
 (
 thisv
 )
-TypeError
 String
 .
 prototype

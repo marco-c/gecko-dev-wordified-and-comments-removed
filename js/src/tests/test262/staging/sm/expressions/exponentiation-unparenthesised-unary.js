@@ -52,8 +52,11 @@ assertSyntaxError
 code
 )
 {
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+SyntaxError
 function
 (
 )
@@ -64,7 +67,6 @@ code
 )
 ;
 }
-SyntaxError
 "
 Function
 :
@@ -73,8 +75,11 @@ Function
 code
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+SyntaxError
 function
 (
 )
@@ -85,7 +90,6 @@ code
 )
 ;
 }
-SyntaxError
 "
 AsyncFunction
 :

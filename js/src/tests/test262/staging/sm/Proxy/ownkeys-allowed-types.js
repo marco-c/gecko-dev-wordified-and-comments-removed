@@ -54,8 +54,11 @@ makeProxy
 type
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -66,11 +69,13 @@ ownKeys
 (
 proxy
 )
-TypeError
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -81,7 +86,6 @@ getOwnPropertyNames
 (
 proxy
 )
-TypeError
 )
 ;
 }

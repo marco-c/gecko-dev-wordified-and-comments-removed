@@ -423,8 +423,11 @@ get
 (
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -433,7 +436,6 @@ new
 aGetDesc
 .
 get
-TypeError
 )
 ;
 assert
@@ -485,8 +487,11 @@ set
 (
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -495,7 +500,6 @@ new
 aSetDesc
 .
 set
-TypeError
 )
 ;
 assert
@@ -592,8 +596,11 @@ value
 (
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -602,7 +609,6 @@ new
 aStaticMethDesc
 .
 value
-TypeError
 )
 ;
 assert
@@ -671,8 +677,11 @@ get
 (
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -681,7 +690,6 @@ new
 aStaticGetDesc
 .
 get
-TypeError
 )
 ;
 assert
@@ -750,8 +758,11 @@ set
 (
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -760,7 +771,6 @@ new
 aStaticSetDesc
 .
 set
-TypeError
 )
 ;
 assert

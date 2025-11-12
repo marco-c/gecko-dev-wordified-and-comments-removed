@@ -55,8 +55,11 @@ C
 ;
 }
 {
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+ReferenceError
 (
 )
 =
@@ -80,7 +83,6 @@ C
 }
 ;
 }
-ReferenceError
 )
 ;
 }

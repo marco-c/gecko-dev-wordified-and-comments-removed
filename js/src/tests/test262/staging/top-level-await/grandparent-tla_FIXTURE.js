@@ -1,5 +1,7 @@
 import
 "
+.
+/
 parent
 -
 tla_FIXTURE

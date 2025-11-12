@@ -61,6 +61,7 @@ return
 r
 ;
 }
+var
 r1
 =
 make
@@ -83,6 +84,7 @@ info
 get
 )
 ;
+var
 r2
 =
 make

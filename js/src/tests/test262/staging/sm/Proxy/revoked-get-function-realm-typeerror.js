@@ -357,8 +357,11 @@ r
 }
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -374,7 +377,6 @@ proxy
 )
 ;
 }
-TypeError
 )
 ;
 assert

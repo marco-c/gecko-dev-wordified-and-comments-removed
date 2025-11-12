@@ -23,8 +23,11 @@ TestIterator
 (
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+Error
 (
 )
 =
@@ -34,7 +37,6 @@ iter
 toArray
 (
 )
-Error
 )
 ;
 reportCompare

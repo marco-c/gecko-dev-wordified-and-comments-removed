@@ -10,6 +10,7 @@ undefined
 "
 )
 {
+var
 window
 =
 this

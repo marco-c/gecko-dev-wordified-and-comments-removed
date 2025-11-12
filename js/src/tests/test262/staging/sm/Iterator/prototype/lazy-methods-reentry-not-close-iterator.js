@@ -105,8 +105,11 @@ reentered
 =
 true
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -116,7 +119,6 @@ iterHelper
 next
 (
 )
-TypeError
 )
 ;
 }

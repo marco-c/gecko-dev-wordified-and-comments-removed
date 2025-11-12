@@ -129,7 +129,7 @@ length
 ;
 assert
 .
-deepEqual
+compareArray
 (
 log
 .

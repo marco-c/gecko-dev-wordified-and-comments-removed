@@ -41,8 +41,11 @@ description
 :
 name
 ;
-assertThrowsInstanceOfWithMessage
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -59,7 +62,6 @@ call
 {
 }
 )
-TypeError
 {
 methodName
 }

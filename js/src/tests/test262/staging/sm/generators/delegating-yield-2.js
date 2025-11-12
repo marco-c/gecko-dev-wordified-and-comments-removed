@@ -314,10 +314,12 @@ outer
 42
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
-outer_throw_42
 TypeError
+outer_throw_42
 )
 ;
 assertThrowsValue

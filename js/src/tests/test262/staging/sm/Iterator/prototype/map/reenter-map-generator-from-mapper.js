@@ -35,12 +35,14 @@ map
 mapper
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 iterator
 .
 next
-TypeError
 )
 ;
 reportCompare

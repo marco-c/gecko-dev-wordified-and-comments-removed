@@ -1,5 +1,8 @@
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -13,11 +16,13 @@ Math
 min
 undefined
 )
-TypeError
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -28,7 +33,6 @@ construct
 (
 Object
 )
-TypeError
 )
 ;
 for
@@ -39,8 +43,11 @@ of
 SOME_PRIMITIVE_VALUES
 )
 {
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -55,11 +62,13 @@ min
 undefined
 primitive
 )
-TypeError
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -71,7 +80,6 @@ construct
 Object
 primitive
 )
-TypeError
 )
 ;
 }
@@ -374,7 +382,7 @@ BOTH
 {
 assert
 .
-deepEqual
+compareArray
 (
 method
 (
@@ -392,7 +400,7 @@ length
 ;
 assert
 .
-deepEqual
+compareArray
 (
 method
 (
@@ -420,7 +428,7 @@ zero
 ;
 assert
 .
-deepEqual
+compareArray
 (
 method
 (
@@ -440,7 +448,7 @@ undefined
 ;
 assert
 .
-deepEqual
+compareArray
 (
 method
 (
@@ -518,7 +526,7 @@ BOTH
 {
 assert
 .
-deepEqual
+compareArray
 (
 method
 (
@@ -696,7 +704,7 @@ log
 ;
 assert
 .
-deepEqual
+compareArray
 (
 method
 (

@@ -2,8 +2,6 @@ var
 BUGNUMBER
 =
 441477
--
-01
 ;
 var
 summary
@@ -40,6 +38,7 @@ try
 {
 for
 (
+var
 i
 =
 0

@@ -31,10 +31,12 @@ super
 )
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
-a1
 ReferenceError
+a1
 )
 ;
 assert

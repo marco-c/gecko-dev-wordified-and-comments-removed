@@ -49,9 +49,13 @@ BYTES_PER_ELEMENT
 const
 otherGlobal
 =
-createNewGlobal
+262
+.
+createRealm
 (
 )
+.
+global
 ;
 float32Constructors
 .

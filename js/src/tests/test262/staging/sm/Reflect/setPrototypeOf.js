@@ -89,8 +89,11 @@ obj
 {
 }
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -101,7 +104,6 @@ setPrototypeOf
 (
 obj
 )
-TypeError
 )
 ;
 for
@@ -124,8 +126,11 @@ iterator
 ]
 )
 {
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -137,7 +142,6 @@ setPrototypeOf
 obj
 proto
 )
-TypeError
 )
 ;
 }

@@ -8,8 +8,11 @@ values
 (
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -28,7 +31,6 @@ x
 +
 y
 )
-TypeError
 )
 ;
 reportCompare

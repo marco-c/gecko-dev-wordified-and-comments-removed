@@ -16,8 +16,11 @@ target
 '
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+SyntaxError
 (
 )
 =
@@ -34,7 +37,6 @@ new
 target
 '
 )
-SyntaxError
 )
 ;
 function

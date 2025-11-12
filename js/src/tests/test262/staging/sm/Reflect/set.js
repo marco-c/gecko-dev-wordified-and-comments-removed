@@ -649,9 +649,13 @@ sp
 var
 g
 =
-createNewGlobal
+262
+.
+createRealm
 (
 )
+.
+global
 ;
 if
 (
@@ -1461,8 +1465,11 @@ true
 }
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -1479,7 +1486,6 @@ a
 b
 "
 )
-TypeError
 )
 ;
 }

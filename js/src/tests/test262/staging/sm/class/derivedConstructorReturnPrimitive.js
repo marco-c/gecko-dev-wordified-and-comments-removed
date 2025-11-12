@@ -27,8 +27,11 @@ i
 +
 +
 )
-assertThrownErrorContains
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -37,9 +40,6 @@ new
 foo
 (
 )
-"
-return
-"
 )
 ;
 reportCompare

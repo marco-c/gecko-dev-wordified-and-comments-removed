@@ -1,9 +1,13 @@
 let
 g2
 =
-createNewGlobal
+262
+.
+createRealm
 (
 )
+.
+global
 ;
 assert
 .

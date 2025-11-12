@@ -6,9 +6,13 @@ this
 const
 otherGlobal
 =
-createNewGlobal
+262
+.
+createRealm
 (
 )
+.
+global
 ;
 const
 typedArrays

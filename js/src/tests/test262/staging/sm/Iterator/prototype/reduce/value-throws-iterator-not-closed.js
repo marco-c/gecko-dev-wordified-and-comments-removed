@@ -94,8 +94,11 @@ unclosed
 '
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TestError
 (
 )
 =
@@ -115,7 +118,6 @@ x
 y
 0
 )
-TestError
 )
 ;
 assert

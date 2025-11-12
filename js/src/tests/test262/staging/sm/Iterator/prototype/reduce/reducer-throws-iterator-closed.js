@@ -72,8 +72,11 @@ closed
 false
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+Error
 (
 )
 =
@@ -84,7 +87,6 @@ reduce
 (
 reducer
 )
-Error
 )
 ;
 assert

@@ -63,8 +63,11 @@ length
 1
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -75,7 +78,6 @@ constructor
 from
 (
 )
-TypeError
 )
 ;
 }

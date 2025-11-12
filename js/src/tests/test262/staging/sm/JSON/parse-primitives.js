@@ -404,14 +404,6 @@ f
 "
 )
 ;
-print
-(
-"
-Tests
-complete
-"
-)
-;
 reportCompare
 (
 0

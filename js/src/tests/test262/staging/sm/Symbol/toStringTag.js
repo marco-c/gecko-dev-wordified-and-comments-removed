@@ -528,8 +528,11 @@ revoke
 (
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -544,7 +547,6 @@ call
 (
 proxy
 )
-TypeError
 )
 ;
 assert

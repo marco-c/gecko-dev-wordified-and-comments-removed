@@ -99,8 +99,11 @@ TestIterator
 handlerProxy
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -111,7 +114,6 @@ every
 (
 1
 )
-TypeError
 )
 ;
 assert

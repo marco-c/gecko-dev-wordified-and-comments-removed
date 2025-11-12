@@ -46,8 +46,11 @@ huzzah
 }
 }
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+SyntaxError
 (
 )
 =
@@ -58,7 +61,6 @@ set
 (
 obj
 )
-SyntaxError
 )
 ;
 reportCompare

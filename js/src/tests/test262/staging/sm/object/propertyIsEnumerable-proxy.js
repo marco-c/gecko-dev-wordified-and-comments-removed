@@ -112,23 +112,6 @@ string
 -
 property
 "
-]
-;
-if
-(
-typeof
-Symbol
-=
-=
-=
-'
-function
-'
-)
-properties
-.
-push
-(
 Symbol
 (
 "
@@ -137,7 +120,7 @@ symbol
 property
 "
 )
-)
+]
 ;
 for
 (
@@ -184,7 +167,7 @@ false
 ;
 assert
 .
-deepEqual
+compareArray
 (
 log
 [
@@ -234,7 +217,7 @@ true
 ;
 assert
 .
-deepEqual
+compareArray
 (
 log
 [
@@ -295,7 +278,7 @@ false
 ;
 assert
 .
-deepEqual
+compareArray
 (
 log
 [
@@ -350,7 +333,7 @@ false
 ;
 assert
 .
-deepEqual
+compareArray
 (
 log
 [
@@ -405,7 +388,7 @@ false
 ;
 assert
 .
-deepEqual
+compareArray
 (
 log
 [

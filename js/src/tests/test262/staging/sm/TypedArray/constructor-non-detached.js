@@ -23,8 +23,11 @@ buf
 buffer
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -34,7 +37,6 @@ constructor
 (
 buf
 )
-TypeError
 )
 ;
 var
@@ -52,8 +54,11 @@ detachArrayBuffer
 buffer
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -63,7 +68,6 @@ constructor
 (
 buffer
 )
-TypeError
 )
 ;
 }

@@ -90,8 +90,11 @@ pass
 "
 }
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -100,7 +103,6 @@ assertThrowsInstanceOf
 "
 +
 obj
-TypeError
 )
 ;
 }

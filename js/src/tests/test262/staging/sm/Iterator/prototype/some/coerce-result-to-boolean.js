@@ -264,9 +264,9 @@ false
 const
 htmlDDA
 =
-createIsHTMLDDA
-(
-)
+262
+.
+IsHTMLDDA
 ;
 assert
 .

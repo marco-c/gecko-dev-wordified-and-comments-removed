@@ -1,0 +1,16 @@
+{
+using
+x
+=
+null
+y
+=
+null
+;
+}
+reportCompare
+(
+0
+0
+)
+;

@@ -13,8 +13,11 @@ of
 anyTypedArrayConstructors
 )
 {
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -24,11 +27,13 @@ constructor
 (
 testArray
 )
-TypeError
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -42,7 +47,6 @@ values
 (
 )
 )
-TypeError
 )
 ;
 }

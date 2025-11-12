@@ -175,9 +175,13 @@ i8Array
 let
 g2
 =
-createNewGlobal
+262
+.
+createRealm
 (
 )
+.
+global
 ;
 i8Array
 =

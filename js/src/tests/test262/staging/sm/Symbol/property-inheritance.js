@@ -256,8 +256,11 @@ undefined
 }
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 function
 (
 )
@@ -275,7 +278,6 @@ sym
 0
 ;
 }
-TypeError
 )
 ;
 var

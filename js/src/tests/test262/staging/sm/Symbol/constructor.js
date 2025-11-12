@@ -5,8 +5,11 @@ Symbol
 (
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -15,7 +18,6 @@ Symbol
 (
 sym
 )
-TypeError
 )
 ;
 assert
@@ -129,8 +131,11 @@ Object
 sym
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -139,7 +144,6 @@ Symbol
 (
 symobj
 )
-TypeError
 )
 ;
 var
@@ -214,8 +218,11 @@ Object
 prototype
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -227,7 +234,6 @@ prototype
 valueOf
 (
 )
-TypeError
 )
 ;
 reportCompare
