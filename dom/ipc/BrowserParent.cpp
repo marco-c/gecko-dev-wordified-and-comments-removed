@@ -18942,6 +18942,7 @@ BrowserParent
 GetDocShellIsActive
 (
 )
+const
 {
 return
 mBrowsingContext
