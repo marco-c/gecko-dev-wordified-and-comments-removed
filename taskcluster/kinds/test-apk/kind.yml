@@ -222,8 +222,6 @@ b
 linux
 -
 medium
--
-gcp
 worker
 :
 docker
