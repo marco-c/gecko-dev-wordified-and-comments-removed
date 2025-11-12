@@ -397,6 +397,8 @@ mozilla
 .
 org
 /
+try
+/
 And
 that
 s
@@ -477,11 +479,13 @@ you
 re
 profiling
 a
+local
 build
-with
-your
-own
-Gecko
+(
+non
+-
+artifact
+)
 you
 need
 to
@@ -491,7 +495,7 @@ about
 your
 object
 directory
-:
+with
 -
 -
 symbol
