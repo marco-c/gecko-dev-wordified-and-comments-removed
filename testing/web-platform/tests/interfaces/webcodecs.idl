@@ -2255,6 +2255,7 @@ Exposed
 Window
 DedicatedWorker
 )
+SecureContext
 ]
 interface
 ImageTrackList
@@ -2301,6 +2302,7 @@ Exposed
 Window
 DedicatedWorker
 )
+SecureContext
 ]
 interface
 ImageTrack

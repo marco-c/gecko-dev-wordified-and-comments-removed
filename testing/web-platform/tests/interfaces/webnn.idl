@@ -104,6 +104,11 @@ powerPreference
 default
 "
 ;
+boolean
+accelerated
+=
+true
+;
 }
 ;
 [
@@ -245,6 +250,11 @@ undefined
 destroy
 (
 )
+;
+readonly
+attribute
+boolean
+accelerated
 ;
 readonly
 attribute

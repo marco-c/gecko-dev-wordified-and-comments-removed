@@ -2121,7 +2121,11 @@ setAttribute
 (
 DOMString
 qualifiedName
+(
+TrustedType
+or
 DOMString
+)
 value
 )
 ;
@@ -2136,7 +2140,11 @@ DOMString
 namespace
 DOMString
 qualifiedName
+(
+TrustedType
+or
 DOMString
+)
 value
 )
 ;
