@@ -367,6 +367,9 @@ setOf
 ShortcutAvailability
 .
 SIMPLE
+ShortcutAvailability
+.
+EXPANDED
 )
 )
 )

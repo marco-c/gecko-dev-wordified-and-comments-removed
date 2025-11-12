@@ -6296,6 +6296,10 @@ updateEndBrowserActions
 (
 context
 )
+updateNavigationActions
+(
+context
+)
 updateStartBrowserActions
 (
 context
