@@ -321,8 +321,6 @@ b
 linux
 -
 medium
--
-gcp
 worker
 :
 artifacts
