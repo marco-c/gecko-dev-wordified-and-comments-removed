@@ -318,6 +318,9 @@ no
 -
 edit
         
+jj
+abandon
+        
 "
 "
 "
@@ -552,7 +555,9 @@ MOZ_AUTOMATION
 )
 =
 =
+"
 1
+"
 :
             
 fetches_dir
@@ -724,6 +729,18 @@ jj
 unavailable
 "
 )
+        
+os
+.
+environ
+[
+"
+JJ_CONFIG
+"
+]
+=
+"
+"
     
 vcs
 =

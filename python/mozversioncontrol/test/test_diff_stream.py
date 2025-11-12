@@ -386,15 +386,15 @@ PATCH
         
 jj
 new
-'
+"
 description
 (
-"
+'
 BASE
 PATCH
-"
-)
 '
+)
+"
         
 echo
 notfoo
@@ -421,15 +421,15 @@ PATCH
         
 jj
 new
-'
+"
 description
 (
-"
+'
 FIRST
 PATCH
-"
-)
 '
+)
+"
 -
 m
 "
