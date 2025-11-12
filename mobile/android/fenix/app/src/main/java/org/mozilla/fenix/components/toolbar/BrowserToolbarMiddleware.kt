@@ -6241,6 +6241,10 @@ updateEndPageActions
 (
 context
 )
+updateNavigationActions
+(
+context
+)
 }
 }
 }
