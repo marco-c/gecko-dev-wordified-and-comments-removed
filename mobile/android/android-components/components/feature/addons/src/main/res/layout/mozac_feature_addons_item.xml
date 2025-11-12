@@ -854,6 +854,16 @@ textSize
 "
 12sp
 "
+android
+:
+textColor
+=
+"
+?
+attr
+/
+colorOnSurface
+"
 tools
 :
 text

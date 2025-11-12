@@ -137,9 +137,10 @@ android
 fillColor
 =
 "
-color
+?
+attr
 /
-fx_mobile_icon_color_primary
+colorOnSurface
 "
 android
 :

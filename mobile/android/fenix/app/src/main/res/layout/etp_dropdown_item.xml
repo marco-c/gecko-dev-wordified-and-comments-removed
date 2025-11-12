@@ -152,6 +152,16 @@ paddingEnd
 "
 android
 :
+textColor
+=
+"
+?
+attr
+/
+colorOnSurface
+"
+android
+:
 paddingStart
 =
 "
