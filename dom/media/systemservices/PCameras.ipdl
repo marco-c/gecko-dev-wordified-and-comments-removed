@@ -379,7 +379,7 @@ async
 ReplyAllocateCapture
 (
 int
-captureId
+streamId
 )
 ;
 async
@@ -470,7 +470,7 @@ ReleaseCapture
 CaptureEngine
 engine
 int
-captureId
+streamId
 )
 ;
 async
@@ -479,7 +479,7 @@ StartCapture
 CaptureEngine
 engine
 int
-captureId
+streamId
 VideoCaptureCapability
 capability
 NormalizedConstraints
@@ -494,7 +494,7 @@ FocusOnSelectedSource
 CaptureEngine
 engine
 int
-captureId
+streamId
 )
 ;
 async
@@ -503,7 +503,7 @@ StopCapture
 CaptureEngine
 engine
 int
-captureId
+streamId
 )
 ;
 /
