@@ -249,7 +249,13 @@ style
 "
 overflow
 :
-hidden
+scroll
+;
+scrollbar
+-
+width
+:
+none
 ;
 width
 :
@@ -584,7 +590,7 @@ scrollable
 scrollTo
 (
 100
-150
+200
 )
 ;
 await
@@ -601,9 +607,9 @@ assert_rects_equal
 (
 anchored
 50
-100
 50
-200
+50
+225
 )
 ;
 }
@@ -611,7 +617,7 @@ anchored
 Scroll
 to
 100
-150
+200
 "
 )
 ;
@@ -647,7 +653,7 @@ anchored
 150
 250
 50
-200
+225
 )
 ;
 }
@@ -755,7 +761,7 @@ anchored
 "
 Scroll
 to
-750
+200
 100
 "
 )
@@ -806,8 +812,8 @@ anchored
 "
 Scroll
 to
-750
-196
+200
+200
 "
 )
 ;
