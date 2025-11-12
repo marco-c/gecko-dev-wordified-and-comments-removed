@@ -794,3 +794,15 @@ external
 texture
 "
 )
+GFXINFO_FEATURE
+(
+MESA_THREADING
+"
+MESA_THREADING
+"
+"
+mesa
+.
+threading
+"
+)
