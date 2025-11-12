@@ -9500,7 +9500,8 @@ this
 log
 (
 "
-setLocales
+#
+waitForAllLocaleChanges
 "
 "
 Observed
@@ -9547,7 +9548,8 @@ this
 log
 (
 "
-setLocales
+#
+waitForAllLocaleChanges
 "
 "
 Timed

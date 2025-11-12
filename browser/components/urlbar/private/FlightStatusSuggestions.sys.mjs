@@ -148,6 +148,7 @@ flights
 }
 getViewTemplateForDescriptionTop
 (
+_item
 index
 )
 {
@@ -276,6 +277,7 @@ airport
 }
 getViewTemplateForDescriptionBottom
 (
+_item
 index
 )
 {
@@ -452,10 +454,10 @@ left
 ]
 ;
 }
-getViewUpdateForValue
+getViewUpdateForPayloadItem
 (
-i
-v
+item
+index
 )
 {
 let
@@ -463,7 +465,7 @@ status
 ;
 switch
 (
-v
+item
 .
 status
 )
@@ -568,7 +570,7 @@ delayed
 |
 |
 !
-v
+item
 .
 delayed
 )
@@ -578,7 +580,7 @@ departureTime
 new
 Date
 (
-v
+item
 .
 departure
 .
@@ -589,7 +591,7 @@ departureTimeZone
 =
 getTimeZone
 (
-v
+item
 .
 departure
 .
@@ -601,7 +603,7 @@ arrivalTime
 new
 Date
 (
-v
+item
 .
 arrival
 .
@@ -612,7 +614,7 @@ arrivalTimeZone
 =
 getTimeZone
 (
-v
+item
 .
 arrival
 .
@@ -627,7 +629,7 @@ departureTime
 new
 Date
 (
-v
+item
 .
 departure
 .
@@ -638,7 +640,7 @@ departureTimeZone
 =
 getTimeZone
 (
-v
+item
 .
 departure
 .
@@ -650,7 +652,7 @@ arrivalTime
 new
 Date
 (
-v
+item
 .
 arrival
 .
@@ -661,7 +663,7 @@ arrivalTimeZone
 =
 getTimeZone
 (
-v
+item
 .
 arrival
 .
@@ -725,7 +727,7 @@ timeZone
 :
 getTimeZone
 (
-v
+item
 .
 departure
 .
@@ -739,7 +741,7 @@ format
 new
 Date
 (
-v
+item
 .
 departure
 .
@@ -768,7 +770,7 @@ inflight
 let
 backgroundImageId
 =
-v
+item
 .
 progress_percent
 =
@@ -781,7 +783,7 @@ Math
 .
 floor
 (
-v
+item
 .
 progress_percent
 /
@@ -802,7 +804,7 @@ airline
 color
 "
 :
-v
+item
 .
 airline
 .
@@ -816,7 +818,7 @@ hasForegroundImage
 :
 !
 !
-v
+item
 .
 airline
 .
@@ -832,7 +834,7 @@ attributes
 {
 src
 :
-v
+item
 .
 airline
 .
@@ -851,7 +853,7 @@ attributes
 {
 src
 :
-v
+item
 .
 airline
 .
@@ -878,7 +880,7 @@ svg
 fallback
 :
 !
-v
+item
 .
 airline
 .
@@ -893,7 +895,7 @@ timeLeft
 if
 (
 typeof
-v
+item
 .
 time_left_minutes
 =
@@ -910,7 +912,7 @@ Math
 .
 floor
 (
-v
+item
 .
 time_left_minutes
 /
@@ -920,7 +922,7 @@ time_left_minutes
 let
 minutes
 =
-v
+item
 .
 time_left_minutes
 %
@@ -994,7 +996,7 @@ return
 [
 item_
 {
-i
+index
 }
 ]
 :
@@ -1008,7 +1010,7 @@ status
 [
 image_container_
 {
-i
+index
 }
 ]
 :
@@ -1016,7 +1018,7 @@ backgroundImage
 [
 image_
 {
-i
+index
 }
 ]
 :
@@ -1024,7 +1026,7 @@ foregroundImage
 [
 departure_time_
 {
-i
+index
 }
 ]
 :
@@ -1062,7 +1064,7 @@ departureTime
 [
 departure_date_
 {
-i
+index
 }
 ]
 :
@@ -1105,7 +1107,7 @@ departureTime
 [
 arrival_time_
 {
-i
+index
 }
 ]
 :
@@ -1143,7 +1145,7 @@ arrivalTime
 [
 origin_airport_
 {
-i
+index
 }
 ]
 :
@@ -1169,14 +1171,14 @@ args
 {
 city
 :
-v
+item
 .
 origin
 .
 city
 code
 :
-v
+item
 .
 origin
 .
@@ -1193,7 +1195,7 @@ true
 [
 destination_airport_
 {
-i
+index
 }
 ]
 :
@@ -1219,14 +1221,14 @@ args
 {
 city
 :
-v
+item
 .
 destination
 .
 city
 code
 :
-v
+item
 .
 destination
 .
@@ -1243,11 +1245,11 @@ true
 [
 flight_number_
 {
-i
+index
 }
 ]
 :
-v
+item
 .
 airline
 .
@@ -1281,12 +1283,12 @@ args
 {
 flightNumber
 :
-v
+item
 .
 flight_number
 airlineName
 :
-v
+item
 .
 airline
 .
@@ -1306,14 +1308,14 @@ statusL10nArgs
 {
 textContent
 :
-v
+item
 .
 flight_number
 }
 [
 status_
 {
-i
+index
 }
 ]
 :
@@ -1340,7 +1342,7 @@ statusL10nArgs
 [
 time_left_
 {
-i
+index
 }
 ]
 :

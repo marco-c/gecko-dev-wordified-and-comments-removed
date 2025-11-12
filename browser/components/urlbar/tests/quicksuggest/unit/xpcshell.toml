@@ -301,6 +301,13 @@ js
 ]
 [
 "
+test_quicksuggest_sports
+.
+js
+"
+]
+[
+"
 test_quicksuggest_topPicks
 .
 js

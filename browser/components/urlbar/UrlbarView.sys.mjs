@@ -17029,7 +17029,12 @@ if
 (
 update
 .
+hasOwnProperty
+(
+"
 textContent
+"
+)
 )
 {
 lazy

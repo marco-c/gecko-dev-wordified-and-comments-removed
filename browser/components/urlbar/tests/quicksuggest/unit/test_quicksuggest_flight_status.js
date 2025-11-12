@@ -862,6 +862,8 @@ flightaware
 dynamicType
 :
 "
+realtime
+-
 flightStatus
 "
 telemetryType
@@ -872,10 +874,7 @@ flights
 isSponsored
 :
 false
-flightaware
-:
-{
-values
+items
 :
 [
 {
@@ -958,7 +957,6 @@ A1
 "
 }
 ]
-}
 }
 }
 ;
