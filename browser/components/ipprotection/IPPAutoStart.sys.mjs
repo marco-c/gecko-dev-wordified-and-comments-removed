@@ -468,13 +468,6 @@ IPProtectionStates
 .
 UNAUTHENTICATED
 :
-case
-lazy
-.
-IPProtectionStates
-.
-ERROR
-:
 this
 .
 #
@@ -736,13 +729,6 @@ lazy
 IPProtectionStates
 .
 UNAUTHENTICATED
-:
-case
-lazy
-.
-IPProtectionStates
-.
-ERROR
 :
 /
 /
