@@ -5248,13 +5248,6 @@ MaterialTheme
 colorScheme
 .
 tertiary
-leadingIconColor
-=
-MaterialTheme
-.
-colorScheme
-.
-tertiary
 )
 beforeIconPainter
 =
@@ -5266,6 +5259,13 @@ drawable
 .
 mozac_ic_folder_add_24
 )
+beforeIconTint
+=
+MaterialTheme
+.
+colorScheme
+.
+tertiary
 onClick
 =
 onClick
