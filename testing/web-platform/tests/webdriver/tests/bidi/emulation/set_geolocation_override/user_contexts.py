@@ -1249,6 +1249,36 @@ None
 )
     
 assert
+await
+get_current_geolocation
+(
+context_in_user_context_2
+)
+=
+=
+TEST_COORDINATES
+    
+await
+bidi_session
+.
+emulation
+.
+set_geolocation_override
+(
+        
+user_contexts
+=
+[
+user_context
+]
+        
+coordinates
+=
+None
+    
+)
+    
+assert
 (
         
 await
