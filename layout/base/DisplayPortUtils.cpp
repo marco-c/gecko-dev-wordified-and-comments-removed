@@ -4092,7 +4092,12 @@ aFrame
 )
 )
 {
-return
+if
+(
+nsIFrame
+*
+root
+=
 aFrame
 -
 >
@@ -4104,7 +4109,12 @@ PresShell
 GetRootScrollContainerFrame
 (
 )
+)
+{
+return
+root
 ;
+}
 }
 return
 nsLayoutUtils
