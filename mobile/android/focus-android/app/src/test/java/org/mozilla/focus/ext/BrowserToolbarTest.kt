@@ -137,7 +137,7 @@ widgets
 .
 behavior
 .
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 import
 org
 .
@@ -362,7 +362,7 @@ LayoutParams
 .
 behavior
 is
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 )
 assertTrue
 (

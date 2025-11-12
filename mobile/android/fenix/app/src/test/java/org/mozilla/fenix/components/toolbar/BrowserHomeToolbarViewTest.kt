@@ -153,7 +153,7 @@ widgets
 .
 behavior
 .
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 import
 org
 .
@@ -275,7 +275,7 @@ lateinit
 var
 behavior
 :
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 private
 lateinit
 var
@@ -439,7 +439,7 @@ behavior
 =
 spyk
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null

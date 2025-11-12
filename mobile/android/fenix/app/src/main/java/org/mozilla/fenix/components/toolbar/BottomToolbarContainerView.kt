@@ -143,7 +143,7 @@ widgets
 .
 behavior
 .
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 import
 mozilla
 .
@@ -357,7 +357,7 @@ hideOnScroll
 {
 behavior
 =
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 parent
 .
@@ -494,7 +494,7 @@ apply
 behavior
 as
 ?
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 )
 ?
 .
@@ -525,7 +525,7 @@ apply
 behavior
 as
 ?
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 )
 ?
 .
@@ -556,7 +556,7 @@ apply
 behavior
 as
 ?
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 )
 ?
 .
@@ -589,7 +589,7 @@ apply
 behavior
 as
 ?
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 )
 ?
 .

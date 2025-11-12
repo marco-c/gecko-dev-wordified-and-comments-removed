@@ -351,7 +351,7 @@ widgets
 .
 behavior
 .
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 import
 kotlin
 .
@@ -2448,7 +2448,7 @@ apply
 behavior
 as
 ?
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 )
 ?
 .
@@ -2497,7 +2497,7 @@ apply
 behavior
 as
 ?
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 )
 ?
 .
@@ -2528,7 +2528,7 @@ apply
 behavior
 as
 ?
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 )
 ?
 .
@@ -2561,7 +2561,7 @@ apply
 behavior
 as
 ?
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 )
 ?
 .

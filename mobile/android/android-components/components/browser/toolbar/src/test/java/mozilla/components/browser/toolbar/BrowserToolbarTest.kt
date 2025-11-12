@@ -315,7 +315,7 @@ widgets
 .
 behavior
 .
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 import
 mozilla
 .
@@ -5606,7 +5606,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -5692,7 +5692,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -5777,7 +5777,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -5863,7 +5863,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null

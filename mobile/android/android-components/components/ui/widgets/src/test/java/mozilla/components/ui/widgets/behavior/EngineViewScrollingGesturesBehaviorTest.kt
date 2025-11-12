@@ -318,7 +318,7 @@ AndroidJUnit4
 class
 )
 class
-EngineViewScrollingBehaviorTest
+EngineViewScrollingGesturesBehaviorTest
 {
 Test
 fun
@@ -339,7 +339,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -503,7 +503,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -587,7 +587,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -679,7 +679,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -802,7 +802,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -929,7 +929,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -1024,7 +1024,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -1139,7 +1139,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -1225,7 +1225,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -1411,7 +1411,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -1592,7 +1592,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -1671,7 +1671,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -1756,7 +1756,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -1833,7 +1833,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -1950,7 +1950,7 @@ false
 val
 behavior
 =
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -2026,7 +2026,7 @@ true
 val
 behavior
 =
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -2197,7 +2197,7 @@ false
 val
 behavior
 =
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -2283,7 +2283,7 @@ false
 val
 behavior
 =
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -2369,7 +2369,7 @@ false
 val
 behavior
 =
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -2452,7 +2452,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -2565,7 +2565,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -2688,7 +2688,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -2799,7 +2799,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -2860,7 +2860,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -2936,7 +2936,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -3170,7 +3170,7 @@ behavior
 =
 spy
 (
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -3217,7 +3217,7 @@ true
 val
 behavior
 =
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null
@@ -3256,7 +3256,7 @@ false
 val
 behavior
 =
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 testContext
 null

@@ -271,7 +271,7 @@ scrolling
 *
 /
 class
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 val
 context

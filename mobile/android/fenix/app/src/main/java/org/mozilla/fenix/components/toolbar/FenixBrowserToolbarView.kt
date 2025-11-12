@@ -145,7 +145,7 @@ widgets
 .
 behavior
 .
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 import
 mozilla
 .
@@ -372,7 +372,7 @@ apply
 behavior
 as
 ?
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 )
 ?
 .
@@ -431,7 +431,7 @@ apply
 behavior
 as
 ?
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 )
 ?
 .
@@ -463,7 +463,7 @@ apply
 behavior
 as
 ?
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 )
 ?
 .
@@ -494,7 +494,7 @@ apply
 behavior
 as
 ?
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 )
 ?
 .
@@ -787,7 +787,7 @@ apply
 {
 behavior
 =
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 layout
 .

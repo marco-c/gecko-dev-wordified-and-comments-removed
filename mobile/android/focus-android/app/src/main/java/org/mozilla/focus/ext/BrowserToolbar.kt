@@ -129,7 +129,7 @@ widgets
 .
 behavior
 .
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 import
 org
 .
@@ -366,7 +366,7 @@ LayoutParams
 .
 behavior
 =
-EngineViewScrollingBehavior
+EngineViewScrollingGesturesBehavior
 (
 context
 null
