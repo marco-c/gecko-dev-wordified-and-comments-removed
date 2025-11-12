@@ -31,7 +31,9 @@ from
 base
 import
 (
+RefTestExecutor
 RefTestImplementation
+TestExecutor
                    
 crashtest_result_converter
                    
@@ -41,11 +43,6 @@ reftest_result_converter
                    
 TimedRunner
 )
-from
-.
-process
-import
-ProcessTestExecutor
 from
 .
 protocol
@@ -66,10 +63,7 @@ webdriver
 =
 None
 class
-ServoExecutor
-(
-ProcessTestExecutor
-)
+ServoExecutorMixin
 :
     
 def
@@ -80,7 +74,7 @@ logger
 browser
 server_config
 headless
-                
+                 
 timeout_multiplier
 debug_info
                  
@@ -93,26 +87,58 @@ unexpected
 )
 :
         
-ProcessTestExecutor
+super
+(
+)
 .
 __init__
 (
-self
 logger
 browser
 server_config
-                                     
+                         
 timeout_multiplier
 =
 timeout_multiplier
-                                     
+                         
 debug_info
 =
 debug_info
-                                     
+                         
 reftest_screenshot
 =
 reftest_screenshot
+)
+        
+self
+.
+binary
+=
+self
+.
+browser
+.
+binary
+        
+self
+.
+interactive
+=
+(
+False
+if
+self
+.
+debug_info
+is
+None
+                            
+else
+self
+.
+debug_info
+.
+interactive
 )
         
 self
@@ -185,6 +211,8 @@ write
 (
 make_hosts_file
 (
+self
+.
 server_config
 "
 127
@@ -237,6 +265,37 @@ RUST_BACKTRACE
 "
     
 def
+setup
+(
+self
+runner
+protocol
+=
+None
+)
+:
+        
+self
+.
+runner
+=
+runner
+        
+self
+.
+runner
+.
+send_message
+(
+"
+init_succeeded
+"
+)
+        
+return
+True
+    
+def
 teardown
 (
 self
@@ -261,11 +320,12 @@ OSError
             
 pass
         
-ProcessTestExecutor
+super
+(
+)
 .
 teardown
 (
-self
 )
     
 def
@@ -683,7 +743,8 @@ command
 class
 ServoTestharnessExecutor
 (
-ServoExecutor
+ServoExecutorMixin
+TestExecutor
 )
 :
     
@@ -716,24 +777,26 @@ kwargs
 )
 :
         
-ServoExecutor
+super
+(
+)
 .
 __init__
 (
-self
 logger
 browser
 server_config
+                         
 headless
-                               
+                         
 timeout_multiplier
 =
 timeout_multiplier
-                               
+                         
 debug_info
 =
 debug_info
-                               
+                         
 pause_after_test
 =
 pause_after_test
@@ -1164,11 +1227,12 @@ set
 else
 :
             
-ServoExecutor
+super
+(
+)
 .
 on_output
 (
-self
 line
 )
     
@@ -1277,7 +1341,8 @@ pass
 class
 ServoRefTestExecutor
 (
-ServoExecutor
+ServoExecutorMixin
+RefTestExecutor
 )
 :
     
@@ -1320,34 +1385,34 @@ kwargs
 )
 :
         
-ServoExecutor
+super
+(
+)
 .
 __init__
 (
-self
-                               
 logger
-                               
+                         
 browser
-                               
+                         
 server_config
-                               
+                         
 headless
 =
 True
-                               
+                         
 timeout_multiplier
 =
 timeout_multiplier
-                               
+                         
 debug_info
 =
 debug_info
-                               
+                         
 reftest_screenshot
 =
 reftest_screenshot
-                               
+                         
 pause_after_test
 =
 pause_after_test
@@ -1415,11 +1480,12 @@ self
 tempdir
 )
         
-ServoExecutor
+super
+(
+)
 .
 teardown
 (
-self
 )
     
 def
@@ -1495,7 +1561,10 @@ pixel
 -
 ratio
 "
+str
+(
 dpi
+)
 ]
             
 self
@@ -1734,6 +1803,26 @@ test
 )
 :
         
+if
+test
+.
+dpi
+is
+not
+None
+:
+            
+test
+.
+dpi
+=
+int
+(
+test
+.
+dpi
+)
+        
 self
 .
 test
@@ -1874,7 +1963,8 @@ pass
 class
 ServoCrashtestExecutor
 (
-ServoExecutor
+ServoExecutorMixin
+TestExecutor
 )
 :
     
@@ -1907,50 +1997,37 @@ None
 pause_after_test
 =
 False
+*
+*
+kwargs
 )
 :
         
-ServoExecutor
+super
+(
+)
 .
 __init__
 (
-self
-                               
 logger
-                               
+                         
 browser
-                               
+                         
 server_config
-                               
+                         
 headless
-                               
+                         
 timeout_multiplier
 =
 timeout_multiplier
-                               
+                         
 debug_info
 =
 debug_info
-                               
+                         
 pause_after_test
 =
 pause_after_test
-)
-        
-self
-.
-pause_after_test
-=
-pause_after_test
-        
-self
-.
-protocol
-=
-ConnectionlessProtocol
-(
-self
-browser
 )
     
 def
