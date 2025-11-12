@@ -2056,8 +2056,6 @@ win
 *
 *
 *
-getStrings
--
 Handles
 getting
 the
@@ -2080,8 +2078,8 @@ passed
 in
 an
 override
-*
 message
+*
 and
 it
 just
@@ -2100,6 +2098,7 @@ it
 is
 returned
 .
+*
 *
 return
 A

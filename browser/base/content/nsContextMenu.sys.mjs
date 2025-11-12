@@ -14649,11 +14649,11 @@ can
 be
 stripped
 *
+*
 returns
 {
 Boolean
 }
-*
 *
 /
 #
@@ -14725,11 +14725,11 @@ secure
 interal
 webpage
 *
+*
 returns
 {
 Boolean
 }
-*
 *
 /
 isSecureAboutPage

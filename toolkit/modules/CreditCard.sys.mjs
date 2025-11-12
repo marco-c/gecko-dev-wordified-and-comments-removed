@@ -2231,7 +2231,6 @@ type
 *
 *
 *
-*
 Please
 use
 getLabelInfo
@@ -2242,6 +2241,7 @@ allows
 for
 localization
 .
+*
 *
 deprecated
 *

@@ -12726,6 +12726,7 @@ NormalizeAttributes
 .
 java
 *
+*
 returns
 {
 String

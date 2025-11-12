@@ -625,8 +625,6 @@ store
 *
 *
 *
-createOrOpenDb
--
 Open
 a
 db
@@ -640,7 +638,6 @@ if
 it
 exists
 .
-*
 If
 it
 does
@@ -660,12 +657,12 @@ db
 and
 attempt
 to
-*
 re
 -
 create
 it
 .
+*
 *
 returns
 Promise

@@ -3390,7 +3390,6 @@ en
 *
 *
 *
-*
 Check
 if
 the
@@ -3402,6 +3401,7 @@ is
 text
 document
 .
+*
 *
 param
 doc
@@ -3415,7 +3415,6 @@ parsed
 *
 return
 boolean
-*
 *
 /
 _isDocumentPlainText
@@ -3440,7 +3439,6 @@ plain
 *
 *
 *
-*
 The
 document
 to
@@ -3457,6 +3455,7 @@ HTML
 format
 .
 *
+*
 param
 doc
 the
@@ -3469,7 +3468,6 @@ parsed
 *
 return
 doc
-*
 *
 /
 _convertPlainTextDocument

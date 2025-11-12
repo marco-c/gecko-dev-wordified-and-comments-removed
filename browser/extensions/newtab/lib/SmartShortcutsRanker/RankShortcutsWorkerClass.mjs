@@ -4215,7 +4215,7 @@ accordingly
 .
 *
 *
-positions
+Positions
 and
 guids
 are
@@ -4231,7 +4231,7 @@ map
 *
 guid
 to
-poisitions
+positions
 we
 do
 this
@@ -4329,6 +4329,7 @@ is
 at
 most
 3
+*
 *
 param
 {

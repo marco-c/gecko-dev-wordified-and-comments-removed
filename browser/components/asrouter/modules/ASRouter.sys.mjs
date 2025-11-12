@@ -5823,9 +5823,7 @@ newState
 *
 *
 *
-_resetInitialization
--
-adds
+Adds
 the
 following
 to
@@ -5882,6 +5880,7 @@ initialized
 to
 true
 .
+*
 *
 memberof
 _ASRouter
@@ -6405,8 +6404,6 @@ _checkGroupEnabled
 *
 *
 *
-loadMessagesFromAllProviders
--
 Loads
 messages
 from
@@ -6417,9 +6414,9 @@ they
 require
 updates
 .
-*
 Checks
 the
+*
 .
 lastUpdated
 field
@@ -6432,6 +6429,7 @@ if
 updates
 are
 needed
+*
 *
 param
 toUpdate
