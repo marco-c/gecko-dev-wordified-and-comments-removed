@@ -173,7 +173,7 @@ preference
 .
 findEntry
 (
-Object
+Any
 (
 )
 )
