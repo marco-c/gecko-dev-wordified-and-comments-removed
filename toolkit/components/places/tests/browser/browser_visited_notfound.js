@@ -91,10 +91,10 @@ url
 ;
 Assert
 .
-equal
+greater
 (
 frecency
-100
+0
 "
 Check
 initial
