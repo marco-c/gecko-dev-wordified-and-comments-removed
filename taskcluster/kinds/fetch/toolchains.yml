@@ -3077,7 +3077,7 @@ description
 ninja
 1
 .
-12
+13
 .
 1
 fetch
@@ -3109,7 +3109,7 @@ download
 /
 v1
 .
-12
+13
 .
 1
 /
@@ -3120,10 +3120,10 @@ mac
 zip
 sha256
 :
-89a287444b5b3e98f88a945afa50ce937b8ffd1dcc59c555ad9b1baf855298c9
+da7797794153629aca5570ef7c813342d0be214ba84632af886856e8f0063dd9
 size
 :
-281130
+314009
 artifact
 -
 name
@@ -3150,7 +3150,7 @@ description
 ninja
 1
 .
-12
+13
 .
 1
 fetch
@@ -3182,7 +3182,7 @@ download
 /
 v1
 .
-12
+13
 .
 1
 /
@@ -3193,10 +3193,10 @@ win
 zip
 sha256
 :
-f550fec705b6d6ff58f2db3c374c2277a37691678d6aba463adcbb129108467a
+26a40fa8595694dec2fad4911e62d29e10525d2133c9a4230b66397774ae25bf
 size
 :
-275425
+289808
 artifact
 -
 name
