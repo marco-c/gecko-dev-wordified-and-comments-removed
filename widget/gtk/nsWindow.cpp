@@ -12341,10 +12341,16 @@ height
 return
 ;
 }
+if
+(
+aMove
+)
+{
 mWaylandApplyPopupPositionBeforeShow
 =
 false
 ;
+}
 if
 (
 !
