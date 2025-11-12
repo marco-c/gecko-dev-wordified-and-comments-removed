@@ -112,6 +112,8 @@ design
 -
 system
 /
+storybook
+/
 tokens
 -
 table

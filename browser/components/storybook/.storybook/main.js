@@ -752,6 +752,7 @@ js
 exclude
 :
 /
+\
 .
 storybook
 /
@@ -844,6 +845,7 @@ exclude
 :
 [
 /
+\
 .
 storybook
 /
