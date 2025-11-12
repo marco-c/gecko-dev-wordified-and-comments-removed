@@ -14,6 +14,7 @@ enum
 AccType
 {
 eNoType
+eHTMLAbbrevType
 eHTMLBRType
 eHTMLButtonType
 eHTMLCanvasType
