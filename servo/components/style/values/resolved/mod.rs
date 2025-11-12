@@ -27,6 +27,7 @@ properties
 :
 {
 ComputedValues
+LonghandId
 NonCustomPropertyId
 }
 ;
@@ -171,6 +172,13 @@ pub
 for_property
 :
 NonCustomPropertyId
+pub
+current_longhand
+:
+Option
+<
+LonghandId
+>
 }
 pub
 trait

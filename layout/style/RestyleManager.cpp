@@ -3370,9 +3370,6 @@ RecomputePosition
 UpdateContainingBlock
 "
 "
-BorderStyleNoneChange
-"
-"
 SchedulePaint
 "
 "

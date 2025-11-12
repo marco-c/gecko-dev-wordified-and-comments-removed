@@ -5040,9 +5040,7 @@ width
 ourOutline
 -
 >
-GetOutlineWidth
-(
-)
+mOutlineWidth
 ;
 StyleBorderStyle
 outlineStyle

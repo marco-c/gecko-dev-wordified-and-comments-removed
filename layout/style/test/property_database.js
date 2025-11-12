@@ -50350,9 +50350,6 @@ none
 medium
 "
 "
-thin
-"
-"
 currentColor
 "
 "
@@ -50364,6 +50361,9 @@ currentcolor
 other_values
 :
 [
+"
+thin
+"
 "
 solid
 "
