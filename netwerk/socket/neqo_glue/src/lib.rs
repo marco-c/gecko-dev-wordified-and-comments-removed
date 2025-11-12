@@ -2522,11 +2522,6 @@ mlkem
 false
 )
 .
-datagram_size
-(
-1500
-)
-.
 pmtud
 (
 pmtud_enabled
