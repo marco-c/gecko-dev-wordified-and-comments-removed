@@ -21603,6 +21603,8 @@ ContainerASRType
 aContainerASRType
 bool
 aWrapsBackdropFilter
+bool
+aForceIsolation
 )
 ;
 nsDisplayMasksAndClipPaths
@@ -21636,6 +21638,12 @@ mWrapsBackdropFilter
 aOther
 .
 mWrapsBackdropFilter
+)
+mForceIsolation
+(
+aOther
+.
+mForceIsolation
 )
 {
 MOZ_COUNT_CTOR
@@ -21914,6 +21922,13 @@ mDestRects
 ;
 bool
 mWrapsBackdropFilter
+:
+1
+;
+bool
+mForceIsolation
+:
+1
 ;
 }
 ;
