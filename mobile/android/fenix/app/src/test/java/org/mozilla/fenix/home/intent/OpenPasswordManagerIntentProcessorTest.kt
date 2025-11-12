@@ -394,10 +394,11 @@ it
 is
 processed
 THEN
-navigate
-should
-be
-called
+navigates
+to
+password
+list
+fragment
 (
 )
 {
@@ -445,7 +446,7 @@ navigate
 (
 NavGraphDirections
 .
-actionGlobalSavedLoginsAuthFragment
+actionLoginsListFragment
 (
 )
 null
