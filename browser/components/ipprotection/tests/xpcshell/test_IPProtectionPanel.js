@@ -1175,6 +1175,7 @@ IPPProxyStates
 ACTIVE
 )
 ;
+await
 IPPProxyManager
 .
 stop
