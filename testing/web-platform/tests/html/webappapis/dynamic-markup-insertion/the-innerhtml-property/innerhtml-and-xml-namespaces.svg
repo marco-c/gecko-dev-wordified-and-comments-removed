@@ -468,7 +468,7 @@ e
 ;
 assert_equals
 (
-prefixedContainer
+unprefixedContainer
 .
 firstChild
 .
@@ -514,7 +514,7 @@ e
 ;
 assert_equals
 (
-prefixedContainer
+noDefaultNsContainer
 .
 firstChild
 .
@@ -560,7 +560,7 @@ e
 ;
 assert_equals
 (
-prefixedContainer
+newDefaultNsContainer
 .
 firstChild
 .
