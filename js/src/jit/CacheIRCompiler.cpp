@@ -36624,7 +36624,7 @@ nativeIter
 NativeIterator
 :
 :
-offsetOfFlagsAndCount
+offsetOfFlags
 (
 )
 )
