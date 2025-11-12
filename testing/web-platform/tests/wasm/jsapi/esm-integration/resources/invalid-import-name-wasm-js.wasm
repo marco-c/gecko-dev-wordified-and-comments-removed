@@ -1,0 +1,11 @@
+asm
+test
+wasm
+-
+js
+:
+invalid
+test
+name
+invalidImport
+test
