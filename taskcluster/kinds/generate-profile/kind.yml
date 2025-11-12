@@ -212,8 +212,6 @@ type
 b
 -
 linux
--
-gcp
 worker
 :
 chain
@@ -385,8 +383,6 @@ b
 linux
 -
 kvm
--
-gcp
 worker
 :
 chain
@@ -683,8 +679,6 @@ b
 linux
 -
 kvm
--
-gcp
 worker
 :
 chain
@@ -981,8 +975,6 @@ b
 linux
 -
 kvm
--
-gcp
 worker
 :
 chain
