@@ -718,8 +718,6 @@ worker_type
 =
 "
 images
--
-gcp
 "
         
 taskdesc
