@@ -72,6 +72,17 @@ Types
 .
 h
 "
+#
+include
+"
+mozilla
+/
+interceptor
+/
+Trampoline
+.
+h
+"
 namespace
 mozilla
 {

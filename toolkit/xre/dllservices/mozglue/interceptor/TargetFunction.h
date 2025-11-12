@@ -63,6 +63,17 @@ include
 "
 mozilla
 /
+interceptor
+/
+MMPolicies
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Vector
 .
 h
