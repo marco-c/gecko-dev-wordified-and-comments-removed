@@ -1474,11 +1474,11 @@ RefPtr
 RefPtr
 "
 "
-nsCSSPropertyID
+NonCustomCSSPropertyId
 "
 =
 "
-nsCSSPropertyID
+NonCustomCSSPropertyId
 "
 "
 nsCSSPropertyIDSet
@@ -6770,7 +6770,7 @@ IsNonCustom
 )
 &
 &
-nsCSSPropertyID
+NonCustomCSSPropertyId
 (
 AsNonCustom
 (

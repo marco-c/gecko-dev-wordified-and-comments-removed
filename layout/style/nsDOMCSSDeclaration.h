@@ -209,8 +209,8 @@ void
 GetPropertyValue
 (
 const
-nsCSSPropertyID
-aPropID
+NonCustomCSSPropertyId
+aPropId
 nsACString
 &
 aValue
@@ -221,8 +221,8 @@ void
 SetPropertyValue
 (
 const
-nsCSSPropertyID
-aPropID
+NonCustomCSSPropertyId
+aPropId
 const
 nsACString
 &
@@ -531,8 +531,8 @@ nsresult
 ParsePropertyValue
 (
 const
-nsCSSPropertyID
-aPropID
+NonCustomCSSPropertyId
+aPropId
 const
 nsACString
 &
@@ -565,8 +565,8 @@ aSubjectPrincipal
 void
 RemovePropertyInternal
 (
-nsCSSPropertyID
-aPropID
+NonCustomCSSPropertyId
+aPropId
 mozilla
 :
 :

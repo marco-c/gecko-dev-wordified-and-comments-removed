@@ -7,6 +7,13 @@ mozilla_dom_KeyframeEffect_h
 #
 include
 "
+NonCustomCSSPropertyId
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AnimatedPropertyID
@@ -82,13 +89,6 @@ include
 mozilla
 /
 PostRestyleMode
-.
-h
-"
-#
-include
-"
-nsCSSPropertyID
 .
 h
 "
@@ -1042,7 +1042,7 @@ const
 void
 SetIsRunningOnCompositor
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 bool
 aIsRunning
@@ -1582,7 +1582,7 @@ ComputedStyle
 >
 CreateComputedStyleForAnimationValue
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 const
 AnimationValue
@@ -1672,7 +1672,7 @@ bool
 IsGeometricProperty
 (
 const
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 )
 ;

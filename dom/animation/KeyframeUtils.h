@@ -7,6 +7,13 @@ mozilla_KeyframeUtils_h
 #
 include
 "
+NonCustomCSSPropertyId
+.
+h
+"
+#
+include
+"
 js
 /
 RootingAPI
@@ -19,13 +26,6 @@ include
 mozilla
 /
 KeyframeEffectParams
-.
-h
-"
-#
-include
-"
-nsCSSPropertyID
 .
 h
 "

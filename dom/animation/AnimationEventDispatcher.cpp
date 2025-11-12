@@ -1109,7 +1109,7 @@ PropHasFlags
 (
 property
 .
-mID
+mId
 CSSPropFlags
 :
 :
@@ -1345,7 +1345,7 @@ data
 .
 mProperty
 .
-mID
+mId
 CSSPropFlags
 :
 :

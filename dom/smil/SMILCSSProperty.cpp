@@ -88,8 +88,8 @@ SMILCSSProperty
 :
 SMILCSSProperty
 (
-nsCSSPropertyID
-aPropID
+NonCustomCSSPropertyId
+aPropId
 dom
 :
 :
@@ -102,9 +102,9 @@ ComputedStyle
 aBaseComputedStyle
 )
 :
-mPropID
+mPropId
 (
-aPropID
+aPropId
 )
 mElement
 (
@@ -119,7 +119,7 @@ MOZ_ASSERT
 (
 IsPropertyAnimatable
 (
-mPropID
+mPropId
 )
 "
 Creating
@@ -160,11 +160,11 @@ nsCSSProps
 :
 IsShorthand
 (
-mPropID
+mPropId
 )
 |
 |
-mPropID
+mPropId
 =
 =
 eCSSProperty_display
@@ -203,7 +203,7 @@ computedValue
 AnimatedPropertyID
 property
 (
-mPropID
+mPropId
 )
 ;
 MOZ_ASSERT
@@ -258,7 +258,7 @@ SMILCSSValueType
 :
 ValueFromAnimationValue
 (
-mPropID
+mPropId
 mElement
 computedValue
 )
@@ -297,7 +297,7 @@ NS_ENSURE_TRUE
 (
 IsPropertyAnimatable
 (
-mPropID
+mPropId
 )
 NS_ERROR_FAILURE
 )
@@ -307,7 +307,7 @@ SMILCSSValueType
 :
 ValueFromString
 (
-mPropID
+mPropId
 mElement
 aStr
 aValue
@@ -334,7 +334,7 @@ if
 aPreventCachingOfSandwich
 &
 &
-mPropID
+mPropId
 =
 =
 eCSSProperty_display
@@ -365,7 +365,7 @@ NS_ENSURE_TRUE
 (
 IsPropertyAnimatable
 (
-mPropID
+mPropId
 )
 NS_ERROR_FAILURE
 )
@@ -381,7 +381,7 @@ SMILOverrideStyle
 >
 SetSMILValue
 (
-mPropID
+mPropId
 aValue
 )
 ;
@@ -404,7 +404,7 @@ SMILOverrideStyle
 >
 ClearSMILValue
 (
-mPropID
+mPropId
 )
 ;
 }
@@ -414,13 +414,13 @@ SMILCSSProperty
 :
 IsPropertyAnimatable
 (
-nsCSSPropertyID
-aPropID
+NonCustomCSSPropertyId
+aPropId
 )
 {
 switch
 (
-aPropID
+aPropId
 )
 {
 case

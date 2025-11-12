@@ -563,7 +563,7 @@ nsCSSUnit
 nsCSSFontDesc
 "
 "
-nsCSSPropertyID
+NonCustomCSSPropertyId
 "
 "
 nsCSSCounterDesc
@@ -1494,7 +1494,7 @@ nsCSSFontDesc
 nsCSSKTableEntry
 "
 "
-nsCSSPropertyID
+NonCustomCSSPropertyId
 "
 "
 nsCSSPropertyIDSet

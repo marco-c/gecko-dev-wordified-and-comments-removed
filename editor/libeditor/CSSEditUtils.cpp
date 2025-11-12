@@ -3150,7 +3150,7 @@ return
 NS_OK
 ;
 }
-nsCSSPropertyID
+NonCustomCSSPropertyId
 prop
 =
 nsCSSProps
@@ -3179,7 +3179,7 @@ value
 decl
 -
 >
-GetPropertyValueByID
+GetPropertyValueById
 (
 prop
 value

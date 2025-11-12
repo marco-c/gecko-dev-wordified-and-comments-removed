@@ -459,7 +459,7 @@ StyleAnimationValue
 >
 AsAnimationValue
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 )
 const
 ;
@@ -714,7 +714,7 @@ HashFn
 void
 StoreAnimatedValue
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 uint64_t
 aId

@@ -85,7 +85,7 @@ structs
 :
 {
 self
-nsCSSPropertyID
+NonCustomCSSPropertyId
 }
 ;
 #
@@ -2964,7 +2964,7 @@ dead_code
 ]
 unsafe
 fn
-static_assert_nscsspropertyid
+static_assert_noncustomcsspropertyid
 (
 )
 {
@@ -3013,7 +3013,7 @@ u8
 {
 property
 .
-nscsspropertyid
+noncustomcsspropertyid
 (
 )
 }

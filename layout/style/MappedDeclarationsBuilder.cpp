@@ -46,7 +46,7 @@ MappedDeclarationsBuilder
 :
 SetIdentAtomValue
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 nsAtom
 *

@@ -6750,7 +6750,7 @@ Atomize
 &
 ]
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 )
 -
@@ -23146,7 +23146,7 @@ eCSSProperty_overflow_y
 ;
 for
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 overflowProp
 :
 overflowProps

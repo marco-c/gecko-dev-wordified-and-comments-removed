@@ -117,6 +117,13 @@ h
 #
 include
 "
+NonCustomCSSPropertyId
+.
+h
+"
+#
+include
+"
 PLDHashTable
 .
 h
@@ -2748,13 +2755,6 @@ h
 include
 "
 nsCRT
-.
-h
-"
-#
-include
-"
-nsCSSPropertyID
 .
 h
 "
@@ -81216,7 +81216,7 @@ i
 auto
 id
 =
-nsCSSPropertyID
+NonCustomCSSPropertyId
 (
 i
 )

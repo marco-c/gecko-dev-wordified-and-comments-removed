@@ -159,8 +159,8 @@ nsDOMCSSDeclaration
 GetPropertyValue
 (
 const
-nsCSSPropertyID
-aPropID
+NonCustomCSSPropertyId
+aPropId
 nsACString
 &
 aValue
@@ -168,7 +168,7 @@ aValue
 {
 MOZ_ASSERT
 (
-aPropID
+aPropId
 !
 =
 eCSSProperty_UNKNOWN
@@ -209,9 +209,9 @@ nullptr
 decl
 -
 >
-GetPropertyValueByID
+GetPropertyValueById
 (
-aPropID
+aPropId
 aValue
 )
 ;
@@ -224,8 +224,8 @@ nsDOMCSSDeclaration
 SetPropertyValue
 (
 const
-nsCSSPropertyID
-aPropID
+NonCustomCSSPropertyId
+aPropId
 const
 nsACString
 &
@@ -260,7 +260,7 @@ IsEmpty
 return
 RemovePropertyInternal
 (
-aPropID
+aPropId
 aRv
 )
 ;
@@ -269,7 +269,7 @@ aRv
 =
 ParsePropertyValue
 (
-aPropID
+aPropId
 aValue
 false
 aSubjectPrincipal
@@ -748,8 +748,8 @@ aRv
 )
 ;
 }
-nsCSSPropertyID
-propID
+NonCustomCSSPropertyId
+propId
 =
 nsCSSProps
 :
@@ -761,7 +761,7 @@ aPropertyName
 ;
 if
 (
-propID
+propId
 =
 =
 eCSSProperty_UNKNOWN
@@ -812,7 +812,7 @@ return
 }
 if
 (
-propID
+propId
 =
 =
 eCSSPropertyExtra_variable
@@ -835,7 +835,7 @@ aRv
 =
 ParsePropertyValue
 (
-propID
+propId
 aValue
 important
 aSubjectPrincipal
@@ -1132,8 +1132,8 @@ nsDOMCSSDeclaration
 ParsePropertyValue
 (
 const
-nsCSSPropertyID
-aPropID
+NonCustomCSSPropertyId
+aPropId
 const
 nsACString
 &
@@ -1205,7 +1205,7 @@ decl
 Raw
 (
 )
-aPropID
+aPropId
 &
 aPropValue
 aIsImportant
@@ -1353,8 +1353,8 @@ nsDOMCSSDeclaration
 :
 RemovePropertyInternal
 (
-nsCSSPropertyID
-aPropID
+NonCustomCSSPropertyId
+aPropId
 ErrorResult
 &
 aRv
@@ -1437,9 +1437,9 @@ if
 decl
 -
 >
-RemovePropertyByID
+RemovePropertyById
 (
-aPropID
+aPropId
 closure
 )
 )

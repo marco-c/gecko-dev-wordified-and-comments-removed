@@ -972,7 +972,7 @@ oldSVGReset
 mRy
 ;
 }
-nsCSSPropertyID
+NonCustomCSSPropertyId
 SVGEllipseElement
 :
 :

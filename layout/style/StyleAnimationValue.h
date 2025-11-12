@@ -7,6 +7,13 @@ mozilla_StyleAnimationValue_h_
 #
 include
 "
+NonCustomCSSPropertyId
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AnimatedPropertyID
@@ -37,13 +44,6 @@ include
 mozilla
 /
 ServoStyleConsts
-.
-h
-"
-#
-include
-"
-nsCSSPropertyID
 .
 h
 "
@@ -418,7 +418,7 @@ StyleAnimationValue
 >
 FromAnimatable
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 const
 layers

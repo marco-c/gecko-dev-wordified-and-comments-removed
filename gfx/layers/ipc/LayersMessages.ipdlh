@@ -270,10 +270,10 @@ h
 "
 ;
 using
-nsCSSPropertyID
+NonCustomCSSPropertyId
 from
 "
-nsCSSPropertyID
+NonCustomCSSPropertyId
 .
 h
 "
@@ -1230,7 +1230,7 @@ direction
 uint8_t
 fillMode
 ;
-nsCSSPropertyID
+NonCustomCSSPropertyId
 property
 ;
 float

@@ -175,7 +175,7 @@ h
 #
 include
 "
-nsCSSPropertyID
+NonCustomCSSPropertyId
 .
 h
 "
@@ -2058,8 +2058,8 @@ mLayersId
 =
 aLayersId
 ;
-nsCSSPropertyID
-prevID
+NonCustomCSSPropertyId
+prevId
 =
 eCSSProperty_UNKNOWN
 ;
@@ -2094,7 +2094,7 @@ aAnimations
 {
 if
 (
-prevID
+prevId
 !
 =
 animation
@@ -2160,7 +2160,7 @@ transformData
 )
 ;
 }
-prevID
+prevId
 =
 animation
 .
@@ -2838,7 +2838,7 @@ storageData
 mAnimation
 )
 {
-nsCSSPropertyID
+NonCustomCSSPropertyId
 id
 =
 group
@@ -3236,7 +3236,7 @@ switch
 (
 property
 .
-mID
+mId
 )
 {
 case

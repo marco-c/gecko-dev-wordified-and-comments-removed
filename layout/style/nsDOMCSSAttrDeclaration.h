@@ -185,8 +185,8 @@ nsresult
 SetSMILValue
 (
 const
-nsCSSPropertyID
-aPropID
+NonCustomCSSPropertyId
+aPropId
 const
 SMILValue
 &
@@ -197,8 +197,8 @@ nsresult
 SetSMILValue
 (
 const
-nsCSSPropertyID
-aPropID
+NonCustomCSSPropertyId
+aPropId
 const
 SVGAnimatedLength
 &
@@ -209,7 +209,7 @@ nsresult
 SetSMILValue
 (
 const
-nsCSSPropertyID
+NonCustomCSSPropertyId
 const
 mozilla
 :
@@ -223,7 +223,7 @@ nsresult
 SetSMILValue
 (
 const
-nsCSSPropertyID
+NonCustomCSSPropertyId
 const
 mozilla
 :
@@ -248,13 +248,13 @@ void
 ClearSMILValue
 (
 const
-nsCSSPropertyID
-aPropID
+NonCustomCSSPropertyId
+aPropId
 )
 {
 SetPropertyValue
 (
-aPropID
+aPropId
 "
 "
 _ns
@@ -272,8 +272,8 @@ void
 SetPropertyValue
 (
 const
-nsCSSPropertyID
-aPropID
+NonCustomCSSPropertyId
+aPropId
 const
 nsACString
 &
@@ -297,7 +297,7 @@ MutationClosureFunction
 void
 *
 aData
-nsCSSPropertyID
+NonCustomCSSPropertyId
 )
 ;
 void

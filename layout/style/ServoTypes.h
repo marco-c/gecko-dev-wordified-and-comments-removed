@@ -7,6 +7,13 @@ mozilla_ServoTypes_h
 #
 include
 "
+NonCustomCSSPropertyId
+.
+h
+"
+#
+include
+"
 X11UndefineNone
 .
 h
@@ -26,13 +33,6 @@ include
 mozilla
 /
 TypedEnumBits
-.
-h
-"
-#
-include
-"
-nsCSSPropertyID
 .
 h
 "
@@ -305,7 +305,7 @@ function
 (
 void
 *
-nsCSSPropertyID
+NonCustomCSSPropertyId
 )
 =
 nullptr

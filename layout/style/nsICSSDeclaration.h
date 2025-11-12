@@ -7,6 +7,13 @@ nsICSSDeclaration_h__
 #
 include
 "
+NonCustomCSSPropertyId
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ErrorResult
@@ -28,13 +35,6 @@ h
 include
 "
 nsCOMPtr
-.
-h
-"
-#
-include
-"
-nsCSSPropertyID
 .
 h
 "

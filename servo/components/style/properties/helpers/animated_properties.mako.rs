@@ -53,7 +53,7 @@ gecko_bindings
 structs
 :
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 ;
 use
 crate
@@ -306,7 +306,7 @@ non_upper_case_globals
 impl
 From
 <
-nsCSSPropertyID
+NonCustomCSSPropertyId
 >
 for
 TransitionProperty
@@ -316,7 +316,7 @@ from
 (
 property
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 )
 -
 >
@@ -330,7 +330,7 @@ NonCustom
 NonCustomPropertyId
 :
 :
-from_nscsspropertyid
+from_noncustomcsspropertyid
 (
 property
 )

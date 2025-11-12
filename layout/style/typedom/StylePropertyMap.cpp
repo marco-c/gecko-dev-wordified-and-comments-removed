@@ -214,8 +214,8 @@ ErrorResult
 aRv
 )
 {
-nsCSSPropertyID
-propID
+NonCustomCSSPropertyId
+propId
 =
 nsCSSProps
 :
@@ -227,7 +227,7 @@ aProperty
 ;
 if
 (
-propID
+propId
 =
 =
 eCSSProperty_UNKNOWN

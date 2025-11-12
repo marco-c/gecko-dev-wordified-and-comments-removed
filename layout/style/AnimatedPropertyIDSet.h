@@ -187,7 +187,7 @@ AddProperty
 (
 aProperty
 .
-mID
+mId
 )
 ;
 }
@@ -228,7 +228,7 @@ RemoveProperty
 (
 aProperty
 .
-mID
+mId
 )
 ;
 }
@@ -270,7 +270,7 @@ HasProperty
 (
 aProperty
 .
-mID
+mId
 )
 ;
 }
@@ -908,7 +908,7 @@ end
 {
 mPropertyID
 .
-mID
+mId
 =
 *
 mIDIterator
@@ -937,7 +937,7 @@ end
 {
 mPropertyID
 .
-mID
+mId
 =
 eCSSPropertyExtra_variable
 ;
@@ -964,7 +964,7 @@ end
 ;
 mPropertyID
 .
-mID
+mId
 =
 eCSSProperty_UNKNOWN
 ;

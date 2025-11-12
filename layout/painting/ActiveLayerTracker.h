@@ -7,7 +7,7 @@ ACTIVELAYERTRACKER_H_
 #
 include
 "
-nsCSSPropertyID
+NonCustomCSSPropertyId
 .
 h
 "
@@ -47,7 +47,7 @@ NotifyRestyle
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 )
 ;
@@ -58,7 +58,7 @@ NotifyInlineStyleRuleModified
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 )
 ;

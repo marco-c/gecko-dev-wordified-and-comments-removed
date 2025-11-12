@@ -8100,7 +8100,7 @@ MapDimensionAttributeInto
 MappedDeclarationsBuilder
 &
 aBuilder
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProp
 const
 nsAttrValue

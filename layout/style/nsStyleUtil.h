@@ -7,14 +7,14 @@ nsStyleUtil_h___
 #
 include
 "
-nsCRT
+NonCustomCSSPropertyId
 .
 h
 "
 #
 include
 "
-nsCSSPropertyID
+nsCRT
 .
 h
 "

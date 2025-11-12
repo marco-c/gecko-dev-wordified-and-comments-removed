@@ -457,7 +457,7 @@ TransformData
 >
 &
 aTransformData
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 Send
 aSendFlag

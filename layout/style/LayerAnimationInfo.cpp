@@ -59,7 +59,7 @@ LayerAnimationInfo
 :
 GetDisplayItemTypeForProperty
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 )
 {

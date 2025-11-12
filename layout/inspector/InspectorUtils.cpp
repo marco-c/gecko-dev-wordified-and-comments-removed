@@ -1641,7 +1641,7 @@ aValue
 void
 GetPropertyValue
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 nsACString
 &
@@ -1756,7 +1756,7 @@ declaration
 void
 SetPropertyValue
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 const
 nsACString
@@ -3511,10 +3511,10 @@ uint32_t
 prop
 )
 {
-nsCSSPropertyID
+NonCustomCSSPropertyId
 cssProp
 =
-nsCSSPropertyID
+NonCustomCSSPropertyId
 (
 prop
 )
@@ -3575,7 +3575,7 @@ nsCSSProps
 :
 PropHasFlags
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 (
 prop
 )
@@ -3681,7 +3681,7 @@ kPropertyPrefTable
 src
 -
 >
-mPropID
+mPropId
 !
 =
 eCSSProperty_UNKNOWN
@@ -3718,7 +3718,7 @@ GetStringValue
 src
 -
 >
-mPropID
+mPropId
 )
 )
 )
@@ -3761,8 +3761,8 @@ ErrorResult
 aRv
 )
 {
-nsCSSPropertyID
-propertyID
+NonCustomCSSPropertyId
+propertyId
 =
 nsCSSProps
 :
@@ -3774,7 +3774,7 @@ aProperty
 ;
 if
 (
-propertyID
+propertyId
 =
 =
 eCSSProperty_UNKNOWN
@@ -3792,7 +3792,7 @@ return
 }
 if
 (
-propertyID
+propertyId
 =
 =
 eCSSPropertyExtra_variable
@@ -3819,7 +3819,7 @@ nsCSSProps
 :
 IsShorthand
 (
-propertyID
+propertyId
 )
 )
 {
@@ -3840,7 +3840,7 @@ nsCSSProps
 :
 GetStringValue
 (
-propertyID
+propertyId
 )
 *
 name
@@ -3852,7 +3852,7 @@ return
 for
 (
 const
-nsCSSPropertyID
+NonCustomCSSPropertyId
 *
 props
 =
@@ -3861,7 +3861,7 @@ nsCSSProps
 :
 SubpropertyEntryFor
 (
-propertyID
+propertyId
 )
 ;
 *

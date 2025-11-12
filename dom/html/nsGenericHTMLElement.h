@@ -144,7 +144,7 @@ struct
 nsSize
 ;
 enum
-nsCSSPropertyID
+NonCustomCSSPropertyId
 :
 int32_t
 ;
@@ -2578,7 +2578,7 @@ mozilla
 :
 MappedDeclarationsBuilder
 &
-nsCSSPropertyID
+NonCustomCSSPropertyId
 const
 nsAttrValue
 &

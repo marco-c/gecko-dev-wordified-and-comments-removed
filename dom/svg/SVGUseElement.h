@@ -328,7 +328,7 @@ const
 override
 ;
 static
-nsCSSPropertyID
+NonCustomCSSPropertyId
 GetCSSPropertyIdForAttrEnum
 (
 uint8_t

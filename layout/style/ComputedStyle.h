@@ -180,7 +180,7 @@ aComputedValues
 void
 GetComputedPropertyValue
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 nsACString
 &

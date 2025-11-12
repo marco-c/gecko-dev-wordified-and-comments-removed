@@ -621,7 +621,7 @@ switch
 (
 property
 .
-mID
+mId
 )
 {
 case
@@ -1111,7 +1111,7 @@ AnimationValue
 :
 FromAnimatable
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 const
 layers

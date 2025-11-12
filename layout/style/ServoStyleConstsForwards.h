@@ -33,6 +33,13 @@ atomic
 #
 include
 "
+NonCustomCSSPropertyId
+.
+h
+"
+#
+include
+"
 Units
 .
 h
@@ -119,13 +126,6 @@ mozilla
 image
 /
 Resolution
-.
-h
-"
-#
-include
-"
-nsCSSPropertyID
 .
 h
 "

@@ -3253,7 +3253,7 @@ name
 )
 ;
 }
-nsCSSPropertyID
+NonCustomCSSPropertyId
 SVGUseElement
 :
 :

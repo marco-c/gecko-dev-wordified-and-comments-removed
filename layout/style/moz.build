@@ -294,7 +294,7 @@ EXPORTS
 [
 "
 !
-nsCSSPropertyID
+NonCustomCSSPropertyId
 .
 h
 "
@@ -1605,7 +1605,7 @@ css
 GeneratedFile
 (
 "
-nsCSSPropertyID
+NonCustomCSSPropertyId
 .
 h
 "
@@ -1625,7 +1625,7 @@ inputs
 =
 [
 "
-nsCSSPropertyID
+NonCustomCSSPropertyId
 .
 h
 .

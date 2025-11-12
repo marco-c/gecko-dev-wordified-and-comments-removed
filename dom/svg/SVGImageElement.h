@@ -491,7 +491,7 @@ aRv
 )
 ;
 static
-nsCSSPropertyID
+NonCustomCSSPropertyId
 GetCSSPropertyIdForAttrEnum
 (
 uint8_t

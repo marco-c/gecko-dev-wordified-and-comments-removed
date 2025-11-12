@@ -6044,7 +6044,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 )
 ;

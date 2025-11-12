@@ -752,7 +752,7 @@ Solid
 for
 (
 const
-nsCSSPropertyID
+NonCustomCSSPropertyId
 *
 props
 =

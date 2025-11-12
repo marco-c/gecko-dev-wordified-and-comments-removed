@@ -7,6 +7,13 @@ DOM_SVG_SVGFOREIGNOBJECTELEMENT_H_
 #
 include
 "
+NonCustomCSSPropertyId
+.
+h
+"
+#
+include
+"
 SVGAnimatedLength
 .
 h
@@ -19,13 +26,6 @@ mozilla
 dom
 /
 SVGGraphicsElement
-.
-h
-"
-#
-include
-"
-nsCSSPropertyID
 .
 h
 "
@@ -187,7 +187,7 @@ const
 override
 ;
 static
-nsCSSPropertyID
+NonCustomCSSPropertyId
 GetCSSPropertyIdForAttrEnum
 (
 uint8_t

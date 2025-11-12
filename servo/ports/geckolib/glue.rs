@@ -584,18 +584,6 @@ gecko_bindings
 structs
 :
 :
-nsCSSPropertyID
-;
-use
-style
-:
-:
-gecko_bindings
-:
-:
-structs
-:
-:
 nsChangeHint
 ;
 use
@@ -719,6 +707,18 @@ structs
 MallocSizeOf
 as
 GeckoMallocSizeOf
+;
+use
+style
+:
+:
+gecko_bindings
+:
+:
+structs
+:
+:
+NonCustomCSSPropertyId
 ;
 use
 style
@@ -1849,13 +1849,13 @@ p
 >
 p
 .
-to_nscsspropertyid
+to_noncustomcsspropertyid
 (
 )
 None
 =
 >
-nsCSSPropertyID
+NonCustomCSSPropertyId
 :
 :
 eCSSPropertyExtra_variable
@@ -4317,7 +4317,7 @@ result
 }
 macro_rules
 !
-get_property_id_from_nscsspropertyid
+get_property_id_from_noncustomcsspropertyid
 {
 (
 property_id
@@ -4335,7 +4335,7 @@ match
 PropertyId
 :
 :
-from_nscsspropertyid
+from_noncustomcsspropertyid
 (
 property_id
 )
@@ -4838,7 +4838,7 @@ Servo_AnimationValue_Color
 (
 color_property
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 color
 :
 structs
@@ -4886,7 +4886,7 @@ property
 LonghandId
 :
 :
-from_nscsspropertyid
+from_noncustomcsspropertyid
 (
 color_property
 )
@@ -7510,7 +7510,7 @@ Servo_ResolveLogicalProperty
 (
 property_id
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 style
 :
 &
@@ -7518,7 +7518,7 @@ ComputedValues
 )
 -
 >
-nsCSSPropertyID
+NonCustomCSSPropertyId
 {
 let
 longhand
@@ -7526,7 +7526,7 @@ longhand
 LonghandId
 :
 :
-from_nscsspropertyid
+from_noncustomcsspropertyid
 (
 property_id
 )
@@ -7555,7 +7555,7 @@ style
 writing_mode
 )
 .
-to_nscsspropertyid
+to_noncustomcsspropertyid
 (
 )
 }
@@ -7579,7 +7579,7 @@ nsACString
 )
 -
 >
-nsCSSPropertyID
+NonCustomCSSPropertyId
 {
 match
 PropertyId
@@ -7602,7 +7602,7 @@ p
 >
 p
 .
-to_nscsspropertyid_resolving_aliases
+to_noncustomcsspropertyid_resolving_aliases
 (
 )
 Err
@@ -7612,7 +7612,7 @@ Err
 )
 =
 >
-nsCSSPropertyID
+NonCustomCSSPropertyId
 :
 :
 eCSSProperty_UNKNOWN
@@ -7633,7 +7633,7 @@ Servo_Property_GetName
 (
 prop
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 out_length
 :
 *
@@ -7656,7 +7656,7 @@ match
 NonCustomPropertyId
 :
 :
-from_nscsspropertyid
+from_noncustomcsspropertyid
 (
 prop
 )
@@ -8224,7 +8224,7 @@ Servo_Property_IsDiscreteAnimatable
 (
 property
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 )
 -
 >
@@ -8234,7 +8234,7 @@ match
 LonghandId
 :
 :
-from_nscsspropertyid
+from_noncustomcsspropertyid
 (
 property
 )
@@ -27175,7 +27175,7 @@ list
 &
 nsTArray
 <
-nsCSSPropertyID
+NonCustomCSSPropertyId
 >
 set
 :
@@ -27285,7 +27285,7 @@ match
 NonCustomPropertyId
 :
 :
-from_nscsspropertyid
+from_noncustomcsspropertyid
 (
 *
 p
@@ -27341,7 +27341,7 @@ if
 p
 =
 =
-nsCSSPropertyID
+NonCustomCSSPropertyId
 :
 :
 eCSSPropertyExtra_variable
@@ -28670,7 +28670,7 @@ declarations
 LockedDeclarationBlock
 property
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 value
 :
 &
@@ -28681,7 +28681,7 @@ nsACString
 get_property_value
 (
 declarations
-get_property_id_from_nscsspropertyid
+get_property_id_from_noncustomcsspropertyid
 !
 (
 property
@@ -29521,7 +29521,7 @@ declarations
 LockedDeclarationBlock
 property
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 value
 :
 &
@@ -29559,7 +29559,7 @@ bool
 set_property
 (
 declarations
-get_property_id_from_nscsspropertyid
+get_property_id_from_noncustomcsspropertyid
 !
 (
 property
@@ -29741,7 +29741,7 @@ declarations
 LockedDeclarationBlock
 property
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 before_change_closure
 :
 DeclarationBlockMutationClosure
@@ -29753,7 +29753,7 @@ bool
 remove_property
 (
 declarations
-get_property_id_from_nscsspropertyid
+get_property_id_from_noncustomcsspropertyid
 !
 (
 property
@@ -29971,7 +29971,7 @@ declarations
 LockedDeclarationBlock
 property
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 )
 -
 >
@@ -29980,7 +29980,7 @@ bool
 let
 property_id
 =
-get_property_id_from_nscsspropertyid
+get_property_id_from_noncustomcsspropertyid
 !
 (
 property
@@ -30759,7 +30759,7 @@ match
 LonghandId
 :
 :
-from_nscsspropertyid
+from_noncustomcsspropertyid
 (
 id
 )
@@ -30877,7 +30877,7 @@ declarations
 LockedDeclarationBlock
 property
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 )
 -
 >
@@ -30931,7 +30931,7 @@ declarations
 LockedDeclarationBlock
 property
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 value
 :
 *
@@ -31049,7 +31049,7 @@ declarations
 LockedDeclarationBlock
 property
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 value
 :
 i32
@@ -31689,7 +31689,7 @@ declarations
 LockedDeclarationBlock
 property
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 value
 :
 i32
@@ -32176,7 +32176,7 @@ declarations
 LockedDeclarationBlock
 property
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 value
 :
 f32
@@ -32650,7 +32650,7 @@ declarations
 LockedDeclarationBlock
 property
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 value
 :
 f32
@@ -33412,7 +33412,7 @@ declarations
 LockedDeclarationBlock
 property
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 ops
 :
 &
@@ -33549,7 +33549,7 @@ declarations
 LockedDeclarationBlock
 property
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 filters
 :
 &
@@ -33688,7 +33688,7 @@ declarations
 LockedDeclarationBlock
 property
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 color_scheme
 :
 &
@@ -33807,7 +33807,7 @@ declarations
 LockedDeclarationBlock
 property
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 path
 :
 &
@@ -34371,7 +34371,7 @@ declarations
 LockedDeclarationBlock
 property
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 value
 :
 f32
@@ -34658,7 +34658,7 @@ declarations
 LockedDeclarationBlock
 property
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 )
 {
 use
@@ -34803,7 +34803,7 @@ declarations
 LockedDeclarationBlock
 property
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 )
 {
 use
@@ -34914,7 +34914,7 @@ declarations
 LockedDeclarationBlock
 property
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 value
 :
 structs
@@ -44436,7 +44436,7 @@ style
 ComputedValues
 prop
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 value
 :
 &
@@ -44450,7 +44450,7 @@ prop
 NonCustomPropertyId
 :
 :
-from_nscsspropertyid
+from_noncustomcsspropertyid
 (
 prop
 )
@@ -44486,7 +44486,7 @@ style
 ComputedValues
 prop
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 raw_data
 :
 &
@@ -44528,7 +44528,7 @@ prop
 NonCustomPropertyId
 :
 :
-from_nscsspropertyid
+from_noncustomcsspropertyid
 (
 prop
 )
@@ -49802,7 +49802,7 @@ use_counters
 UseCounters
 id
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 )
 -
 >
@@ -49814,7 +49814,7 @@ id
 NonCustomPropertyId
 :
 :
-from_nscsspropertyid
+from_noncustomcsspropertyid
 (
 id
 )

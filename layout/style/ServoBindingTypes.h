@@ -7,6 +7,13 @@ mozilla_ServoBindingTypes_h
 #
 include
 "
+NonCustomCSSPropertyId
+.
+h
+"
+#
+include
+"
 mozilla
 /
 RefPtr
@@ -39,13 +46,6 @@ mozilla
 gfx
 /
 Types
-.
-h
-"
-#
-include
-"
-nsCSSPropertyID
 .
 h
 "

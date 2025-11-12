@@ -1348,7 +1348,7 @@ i
 +
 )
 {
-nsCSSPropertyID
+NonCustomCSSPropertyId
 propId
 =
 SVGGeometryProperty
@@ -5728,7 +5728,7 @@ const
 StyleLockedDeclarationBlock
 &
 aBlock
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aPropId
 const
 SVGAnimatedLength
@@ -6749,8 +6749,8 @@ nsAString
 aMappedAttrValue
 )
 {
-nsCSSPropertyID
-propertyID
+NonCustomCSSPropertyId
+propertyId
 =
 nsCSSProps
 :
@@ -6765,7 +6765,7 @@ aMappedAttrName
 ;
 if
 (
-propertyID
+propertyId
 !
 =
 eCSSProperty_UNKNOWN
@@ -6800,7 +6800,7 @@ Servo_DeclarationBlock_SetPropertyById
 EnsureDeclarationBlock
 (
 )
-propertyID
+propertyId
 &
 value
 false
@@ -6854,7 +6854,7 @@ nsCSSProps
 :
 UseCounterFor
 (
-propertyID
+propertyId
 )
 ;
 MOZ_ASSERT
@@ -6909,7 +6909,7 @@ nsGkAtoms
 lang
 )
 {
-propertyID
+propertyId
 =
 eCSSProperty__x_lang
 ;
@@ -6930,7 +6930,7 @@ Servo_DeclarationBlock_SetIdentStringValue
 EnsureDeclarationBlock
 (
 )
-propertyID
+propertyId
 atom
 )
 ;
@@ -6952,7 +6952,7 @@ const
 aLength
 )
 {
-nsCSSPropertyID
+NonCustomCSSPropertyId
 propertyID
 =
 nsCSSProps
@@ -7944,7 +7944,7 @@ this
 )
 )
 {
-nsCSSPropertyID
+NonCustomCSSPropertyId
 propId
 =
 SVGGeometryProperty

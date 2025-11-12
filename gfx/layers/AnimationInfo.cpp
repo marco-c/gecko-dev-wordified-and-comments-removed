@@ -1985,7 +1985,7 @@ static
 void
 SetAnimatable
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 const
 AnimationValue
@@ -2714,7 +2714,7 @@ aProperty
 .
 mProperty
 .
-mID
+mId
 ;
 animation
 -
@@ -2934,7 +2934,7 @@ aProperty
 .
 mProperty
 .
-mID
+mId
 baseStyle
 aFrame
 refBox
@@ -2994,7 +2994,7 @@ aProperty
 .
 mProperty
 .
-mID
+mId
 segment
 .
 mFromValue
@@ -3014,7 +3014,7 @@ aProperty
 .
 mProperty
 .
-mID
+mId
 segment
 .
 mToValue
@@ -3175,7 +3175,7 @@ readyTime
 static
 HashMap
 <
-nsCSSPropertyID
+NonCustomCSSPropertyId
 nsTArray
 <
 RefPtr
@@ -3210,7 +3210,7 @@ aPropertySet
 {
 HashMap
 <
-nsCSSPropertyID
+NonCustomCSSPropertyId
 nsTArray
 <
 RefPtr
@@ -3307,7 +3307,7 @@ property
 .
 mProperty
 .
-mID
+mId
 )
 ;
 if
@@ -3331,7 +3331,7 @@ property
 .
 mProperty
 .
-mID
+mId
 nsTArray
 <
 RefPtr
@@ -3409,7 +3409,7 @@ TransformData
 >
 &
 aTransformData
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 Send
 aSendFlag
@@ -4694,7 +4694,7 @@ this
 aSendFlag
 ]
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 Animatable
 &
@@ -4809,7 +4809,7 @@ eCSSProperty_offset_path
 ;
 for
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 id
 :
 aNonAnimatingProperties
@@ -5345,7 +5345,7 @@ return
 const
 HashMap
 <
-nsCSSPropertyID
+NonCustomCSSPropertyId
 nsTArray
 <
 RefPtr

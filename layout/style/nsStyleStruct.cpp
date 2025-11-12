@@ -8822,7 +8822,7 @@ resolution
 ;
 }
 const
-nsCSSPropertyID
+NonCustomCSSPropertyId
 nsStyleImageLayers
 :
 :
@@ -8846,7 +8846,7 @@ eCSSProperty_UNKNOWN
 }
 ;
 const
-nsCSSPropertyID
+NonCustomCSSPropertyId
 nsStyleImageLayers
 :
 :

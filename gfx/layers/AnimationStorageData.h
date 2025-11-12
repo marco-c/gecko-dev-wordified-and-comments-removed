@@ -239,7 +239,7 @@ SetNull
 struct
 PropertyAnimationGroup
 {
-nsCSSPropertyID
+NonCustomCSSPropertyId
 mProperty
 ;
 nsTArray

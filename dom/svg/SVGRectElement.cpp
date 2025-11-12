@@ -1454,7 +1454,7 @@ oldSVGReset
 mRy
 ;
 }
-nsCSSPropertyID
+NonCustomCSSPropertyId
 SVGRectElement
 :
 :
