@@ -286,6 +286,13 @@ MaybeInsertNonPersistedZeroUsageOriginInfos
 (
 Iterator
 aDest
+const
+Maybe
+<
+int64_t
+>
+&
+aCutoffAccessTime
 )
 const
 ;
