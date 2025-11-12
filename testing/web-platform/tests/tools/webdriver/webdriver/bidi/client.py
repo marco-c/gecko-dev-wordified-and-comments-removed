@@ -1157,6 +1157,9 @@ WebSockets
 "
 "
         
+try
+:
+            
 await
 self
 .
@@ -1164,7 +1167,7 @@ start_transport
 (
 loop
 )
-        
+            
 if
 self
 .
@@ -1172,7 +1175,7 @@ session_id
 is
 None
 :
-            
+                
 self
 .
 session_id
@@ -1187,13 +1190,26 @@ session
 .
 new
 (
-                
+                    
 capabilities
 =
 self
 .
 requested_capabilities
 )
+        
+except
+Exception
+:
+            
+await
+self
+.
+end
+(
+)
+            
+raise
     
 def
 on_transport_closed
