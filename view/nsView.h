@@ -648,11 +648,6 @@ nsRect
 aRect
 )
 ;
-void
-DropMouseGrabbing
-(
-)
-;
 bool
 IsDirty
 (
