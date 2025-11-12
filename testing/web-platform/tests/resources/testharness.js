@@ -22870,7 +22870,6 @@ results
 >
 thead
 >
->
 tr
 >
 th
