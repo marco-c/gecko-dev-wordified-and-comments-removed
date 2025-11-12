@@ -546,7 +546,6 @@ clear
 (
 )
 {
-return
 vector
 .
 clear
@@ -559,7 +558,6 @@ clearAndFree
 (
 )
 {
-return
 vector
 .
 clearAndFree
@@ -1218,6 +1216,8 @@ void
 mutableEraseIf
 (
 Pred
+&
+&
 pred
 size_t
 startIndex

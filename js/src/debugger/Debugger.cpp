@@ -21033,7 +21033,7 @@ generator
 )
 )
 {
-HeapPtr
+PreBarriered
 <
 DebuggerFrame
 *
