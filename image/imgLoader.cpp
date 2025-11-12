@@ -4992,6 +4992,10 @@ NS_NewChannel
 (
 aResult
 aURI
+aTriggeringPrincipal
+?
+aTriggeringPrincipal
+:
 nsContentUtils
 :
 :
