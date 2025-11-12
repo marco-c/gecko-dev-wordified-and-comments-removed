@@ -2423,6 +2423,14 @@ category
 )
 ;
 }
+categoryModule
+.
+handlePrefControlledSection
+?
+.
+(
+)
+;
 Glean
 .
 aboutpreferences
