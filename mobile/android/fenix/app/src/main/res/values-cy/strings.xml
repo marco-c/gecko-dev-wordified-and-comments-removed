@@ -66202,7 +66202,7 @@ settings_search_title
 "
 >
 Gosodiadau
-chwilio
+Chwilio
 <
 /
 string
@@ -66295,8 +66295,9 @@ name
 content_description_settings_search_navigate_back
 "
 >
-Navigate
-Back
+Mynd
+n
+l
 <
 /
 string
@@ -66330,7 +66331,7 @@ settings_search_empty_query_placeholder
 "
 >
 Dim
-chwiliadau
+chwilio
 diweddar
 <
 /
@@ -66395,11 +66396,13 @@ name
 settings_search_no_results_found_message
 "
 >
-Dim
-byd
-troi
+Daeth
+dim
 i
-fyny
+\
+'
+r
+golwg
 <
 /
 string

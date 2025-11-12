@@ -29267,7 +29267,7 @@ webcompat_reporter_preview_report
 Aper
 u
 du
-rapport
+signalement
 <
 /
 string
@@ -29317,7 +29317,7 @@ webcompat_reporter_preview_bottom_sheet_header
 Aper
 u
 du
-rapport
+signalement
 <
 /
 string
@@ -67267,10 +67267,11 @@ name
 settings_search_title
 "
 >
-Param
+Rechercher
+dans
+les
+param
 tres
-de
-recherche
 <
 /
 string
