@@ -5217,9 +5217,6 @@ aIsMarginIEndAuto
 LogicalMargin
 &
 aMargin
-LogicalMargin
-&
-aOffsets
 )
 {
 if
@@ -5329,9 +5326,6 @@ aIsMarginBEndAuto
 LogicalMargin
 &
 aMargin
-LogicalMargin
-&
-aOffsets
 )
 {
 if
@@ -9043,7 +9037,6 @@ cbwm
 marginIStartIsAuto
 marginIEndIsAuto
 margin
-offsets
 )
 ;
 }
@@ -9336,7 +9329,6 @@ cbwm
 marginBStartIsAuto
 marginBEndIsAuto
 margin
-offsets
 )
 ;
 }

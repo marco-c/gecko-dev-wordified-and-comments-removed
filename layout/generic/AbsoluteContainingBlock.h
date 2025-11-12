@@ -303,6 +303,7 @@ aKidSize
 LogicalMargin
 &
 aMargin
+const
 LogicalMargin
 &
 aOffsets
