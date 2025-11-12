@@ -382,8 +382,6 @@ type
 b
 -
 linux
--
-gcp
 treeherder
 :
 symbol
