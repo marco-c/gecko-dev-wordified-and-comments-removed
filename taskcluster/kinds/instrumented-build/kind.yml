@@ -286,6 +286,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 run
 :
@@ -439,6 +441,8 @@ type
 b
 -
 linux
+-
+docker
 -
 amd
 run
@@ -598,6 +602,8 @@ type
 b
 -
 linux
+-
+docker
 -
 amd
 worker
@@ -902,6 +908,8 @@ type
 b
 -
 linux
+-
+docker
 -
 amd
 worker
@@ -1228,6 +1236,8 @@ type
 b
 -
 linux
+-
+docker
 -
 xlarge
 -
@@ -1726,6 +1736,8 @@ type
 b
 -
 linux
+-
+docker
 -
 xlarge
 -
@@ -2225,6 +2237,8 @@ b
 -
 linux
 -
+docker
+-
 xlarge
 -
 amd
@@ -2712,6 +2726,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 run
 :
@@ -2905,6 +2921,8 @@ type
 b
 -
 linux
+-
+docker
 -
 amd
 run
@@ -3121,6 +3139,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 run
 :
@@ -3329,6 +3349,8 @@ type
 b
 -
 linux
+-
+docker
 -
 amd
 run
