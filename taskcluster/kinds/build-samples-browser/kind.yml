@@ -273,8 +273,6 @@ b
 linux
 -
 medium
--
-gcp
 worker
 :
 chain
