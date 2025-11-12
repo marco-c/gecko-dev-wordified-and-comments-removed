@@ -1099,6 +1099,17 @@ this
 _textbox
 ;
 }
+get
+inputField
+(
+)
+{
+return
+this
+.
+textbox
+;
+}
 set
 value
 (
