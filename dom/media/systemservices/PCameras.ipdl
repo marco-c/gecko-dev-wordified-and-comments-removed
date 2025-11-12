@@ -351,6 +351,8 @@ async
 DeliverFrame
 (
 int
+captureId
+int
 [
 ]
 streamIds
@@ -518,6 +520,8 @@ back
 async
 ReleaseFrame
 (
+int
+captureId
 Shmem
 s
 )
