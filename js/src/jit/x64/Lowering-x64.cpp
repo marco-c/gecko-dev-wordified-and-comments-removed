@@ -3294,7 +3294,7 @@ MDiv
 div
 )
 {
-LDivOrModI64
+auto
 *
 lir
 =
@@ -3304,7 +3304,7 @@ alloc
 (
 )
 )
-LDivOrModI64
+LDivI64
 (
 useRegister
 (
@@ -3386,7 +3386,7 @@ MMod
 mod
 )
 {
-LDivOrModI64
+auto
 *
 lir
 =
@@ -3396,7 +3396,7 @@ alloc
 (
 )
 )
-LDivOrModI64
+LModI64
 (
 useRegister
 (
@@ -3478,7 +3478,7 @@ MDiv
 div
 )
 {
-LUDivOrModI64
+auto
 *
 lir
 =
@@ -3488,7 +3488,7 @@ alloc
 (
 )
 )
-LUDivOrModI64
+LUDivI64
 (
 useRegister
 (
@@ -3542,7 +3542,7 @@ MMod
 mod
 )
 {
-LUDivOrModI64
+auto
 *
 lir
 =
@@ -3552,7 +3552,7 @@ alloc
 (
 )
 )
-LUDivOrModI64
+LUModI64
 (
 useRegister
 (
