@@ -68,6 +68,8 @@ b
 -
 linux
 -
+docker
+-
 xlarge
 -
 amd
@@ -297,6 +299,8 @@ b
 -
 linux
 -
+docker
+-
 large
 -
 amd
@@ -509,6 +513,8 @@ b
 -
 linux
 -
+docker
+-
 large
 -
 amd
@@ -670,6 +676,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 worker
 :
@@ -774,6 +782,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 run
 :
@@ -917,6 +927,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 run
 :
@@ -1605,6 +1617,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 worker
 :
@@ -2068,6 +2082,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 worker
 :
@@ -2975,6 +2991,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 worker
 :
@@ -3908,6 +3926,8 @@ type
 b
 -
 linux
+-
+docker
 -
 amd
 worker
@@ -4840,6 +4860,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 worker
 :
@@ -5333,6 +5355,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 worker
 :
@@ -5584,6 +5608,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 run
 :
@@ -5707,6 +5733,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 run
 :
@@ -6357,6 +6385,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 worker
 :
@@ -6804,6 +6834,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 worker
 :
@@ -7693,6 +7725,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 worker
 :
@@ -8603,6 +8637,8 @@ type
 b
 -
 linux
+-
+docker
 -
 amd
 worker
@@ -9517,6 +9553,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 worker
 :
@@ -9987,6 +10025,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 worker
 :
@@ -10225,6 +10265,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 run
 :
@@ -10374,6 +10416,8 @@ type
 b
 -
 linux
+-
+docker
 -
 amd
 run
@@ -11110,6 +11154,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 worker
 :
@@ -11576,6 +11622,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 worker
 :
@@ -12496,6 +12544,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 worker
 :
@@ -13442,6 +13492,8 @@ type
 b
 -
 linux
+-
+docker
 -
 amd
 worker
@@ -14359,6 +14411,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 worker
 :
@@ -14854,6 +14908,8 @@ type
 b
 -
 linux
+-
+docker
 -
 amd
 worker

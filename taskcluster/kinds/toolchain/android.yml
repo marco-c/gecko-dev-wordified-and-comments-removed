@@ -68,6 +68,8 @@ b
 -
 linux
 -
+docker
+-
 amd
 worker
 :
@@ -351,8 +353,6 @@ b
 linux
 -
 kvm
--
-gcp
 worker
 :
 kvm
@@ -499,8 +499,6 @@ b
 linux
 -
 kvm
--
-gcp
 worker
 :
 kvm
@@ -647,8 +645,6 @@ b
 linux
 -
 kvm
--
-gcp
 worker
 :
 kvm
