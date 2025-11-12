@@ -323,7 +323,9 @@ support
 .
 mozilla
 .
-orgkb
+org
+/
+kb
 /
 mozillacrashreporter
 #
