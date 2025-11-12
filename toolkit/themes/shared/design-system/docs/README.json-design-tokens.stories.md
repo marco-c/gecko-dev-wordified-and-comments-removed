@@ -47,6 +47,8 @@ Figma
 #
 Quick
 start
+src
+/
 design
 -
 tokens
@@ -948,6 +950,8 @@ and
 adding
 to
 [
+src
+/
 design
 -
 tokens
@@ -978,6 +982,8 @@ shared
 design
 -
 system
+/
+src
 /
 design
 -
@@ -2690,6 +2696,8 @@ to
 make
 changes
 to
+src
+/
 design
 -
 tokens
