@@ -342,6 +342,9 @@ setOf
 ShortcutAvailability
 .
 SIMPLE
+ShortcutAvailability
+.
+EXPANDED
 )
 )
 ShortcutOption
