@@ -32,6 +32,12 @@ final
 public
 :
 static
+void
+WarmUp
+(
+)
+;
+static
 nsresult
 CheckChannel
 (
