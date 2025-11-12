@@ -631,6 +631,7 @@ heading
 element
 .
 *
+*
 returns
 {
 boolean
