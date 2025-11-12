@@ -517,6 +517,7 @@ case
 synthesizeMouseAtPoint
 "
 :
+await
 lazy
 .
 event
