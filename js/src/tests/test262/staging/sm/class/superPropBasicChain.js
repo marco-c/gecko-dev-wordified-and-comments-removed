@@ -15,12 +15,14 @@ bar
 }
 }
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 o
 .
 access
-TypeError
 )
 ;
 reportCompare

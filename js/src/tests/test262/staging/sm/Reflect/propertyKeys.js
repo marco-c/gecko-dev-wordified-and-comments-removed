@@ -291,7 +291,7 @@ true
 ;
 assert
 .
-deepEqual
+compareArray
 (
 Reflect
 .

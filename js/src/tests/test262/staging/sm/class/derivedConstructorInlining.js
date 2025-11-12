@@ -35,12 +35,12 @@ i
 +
 +
 )
-assertThrownErrorContains
+assert
+.
+throws
 (
+ReferenceError
 intermediate
-"
-this
-"
 )
 ;
 reportCompare

@@ -1,3 +1,6 @@
+var
+a
+;
 a
 =
 function

@@ -251,8 +251,11 @@ moodful
 "
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -266,7 +269,6 @@ Symbol
 (
 )
 )
-TypeError
 )
 ;
 obj

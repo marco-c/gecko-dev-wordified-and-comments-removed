@@ -15,8 +15,11 @@ any
 false
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -30,7 +33,6 @@ null
 any
 "
 )
-TypeError
 )
 ;
 var

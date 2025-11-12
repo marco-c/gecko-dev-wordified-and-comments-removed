@@ -285,7 +285,7 @@ test
 ;
 assert
 .
-deepEqual
+compareArray
 (
 animals
 [

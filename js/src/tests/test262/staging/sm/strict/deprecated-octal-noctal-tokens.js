@@ -84,8 +84,11 @@ val
 msg
 )
 {
-assertThrowsInstanceOfWithMessage
+assert
+.
+throws
 (
+SyntaxError
 (
 )
 =
@@ -114,7 +117,6 @@ strict
 }
 '
 )
-SyntaxError
 msg
 )
 ;
@@ -159,8 +161,11 @@ val
 msg
 )
 {
-assertThrowsInstanceOfWithMessage
+assert
+.
+throws
 (
+SyntaxError
 (
 )
 =
@@ -187,7 +192,6 @@ val
 }
 '
 )
-SyntaxError
 msg
 )
 ;

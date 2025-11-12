@@ -65,9 +65,9 @@ NaN
 -
 0
 0n
-createIsHTMLDDA
-(
-)
+262
+.
+IsHTMLDDA
 ]
 ;
 const

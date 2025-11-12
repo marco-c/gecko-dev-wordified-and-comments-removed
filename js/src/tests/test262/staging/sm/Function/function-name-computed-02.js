@@ -395,6 +395,7 @@ x
 }
 }
 ;
+let
 dum
 =
 new

@@ -63,8 +63,11 @@ true
 )
 ;
 }
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -74,7 +77,6 @@ Reflect
 isExtensible
 (
 )
-TypeError
 )
 ;
 for
@@ -100,8 +102,11 @@ good
 ]
 )
 {
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -112,7 +117,6 @@ isExtensible
 (
 value
 )
-TypeError
 )
 ;
 }
@@ -270,8 +274,11 @@ true
 }
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -282,7 +289,6 @@ preventExtensions
 (
 proxy
 )
-TypeError
 )
 ;
 assert

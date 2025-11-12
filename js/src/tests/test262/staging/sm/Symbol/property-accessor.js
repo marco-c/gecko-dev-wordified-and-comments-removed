@@ -130,7 +130,7 @@ i
 }
 assert
 .
-deepEqual
+compareArray
 (
 sets
 expected
@@ -160,7 +160,7 @@ sym
 ;
 assert
 .
-deepEqual
+compareArray
 (
 sets
 [
@@ -193,7 +193,7 @@ sym
 ;
 assert
 .
-deepEqual
+compareArray
 (
 sets
 [

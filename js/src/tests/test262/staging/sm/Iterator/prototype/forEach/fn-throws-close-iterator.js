@@ -67,8 +67,11 @@ closed
 false
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+Error
 (
 )
 =
@@ -79,7 +82,6 @@ forEach
 (
 fn
 )
-Error
 )
 ;
 assert

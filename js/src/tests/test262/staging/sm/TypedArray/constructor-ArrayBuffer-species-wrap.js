@@ -1,9 +1,13 @@
 let
 g
 =
-createNewGlobal
+262
+.
+createRealm
 (
 )
+.
+global
 ;
 for
 (

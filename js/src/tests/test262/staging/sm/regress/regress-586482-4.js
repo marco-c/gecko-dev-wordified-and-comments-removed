@@ -26,13 +26,6 @@ callee
 .
 caller
 ;
-print
-(
-"
-Ok
-"
-)
-;
 }
 }
 ;

@@ -58,8 +58,11 @@ closed
 false
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+Error
 (
 )
 =
@@ -70,7 +73,6 @@ some
 (
 fn
 )
-Error
 )
 ;
 assert

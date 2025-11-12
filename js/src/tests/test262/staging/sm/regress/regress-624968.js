@@ -1,4 +1,11 @@
-try
+assert
+.
+throws
+(
+TypeError
+function
+(
+)
 {
 new
 {
@@ -10,12 +17,8 @@ prototype
 }
 ;
 }
-catch
-(
-e
 )
-{
-}
+;
 reportCompare
 (
 0

@@ -18,10 +18,12 @@ arrow
 >
 this
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
-arrow
 ReferenceError
+arrow
 )
 ;
 super

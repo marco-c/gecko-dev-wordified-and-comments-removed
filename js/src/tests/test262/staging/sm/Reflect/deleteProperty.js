@@ -331,8 +331,11 @@ true
 }
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -346,7 +349,6 @@ proxy
 prop
 "
 )
-TypeError
 )
 ;
 function

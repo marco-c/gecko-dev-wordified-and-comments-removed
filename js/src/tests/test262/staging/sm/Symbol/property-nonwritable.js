@@ -38,8 +38,11 @@ cheese
 "
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 function
 (
 )
@@ -59,7 +62,6 @@ robots
 "
 ;
 }
-TypeError
 )
 ;
 assert

@@ -1,5 +1,8 @@
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -8,7 +11,6 @@ new
 Iterator
 (
 )
-TypeError
 )
 ;
 reportCompare

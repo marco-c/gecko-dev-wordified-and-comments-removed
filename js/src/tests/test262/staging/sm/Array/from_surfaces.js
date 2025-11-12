@@ -53,8 +53,11 @@ length
 1
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -65,7 +68,6 @@ Array
 from
 (
 )
-TypeError
 )
 ;
 reportCompare

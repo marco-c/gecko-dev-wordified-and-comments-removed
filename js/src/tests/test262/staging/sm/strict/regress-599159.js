@@ -27,6 +27,7 @@ prototype
 constructor
 =
 C
+var
 c
 =
 new

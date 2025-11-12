@@ -9,8 +9,11 @@ method
 }
 }
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -22,7 +25,6 @@ obj
 method
 ;
 }
-TypeError
 )
 ;
 obj
@@ -35,8 +37,11 @@ constructor
 }
 }
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -48,7 +53,6 @@ obj
 constructor
 ;
 }
-TypeError
 )
 ;
 reportCompare

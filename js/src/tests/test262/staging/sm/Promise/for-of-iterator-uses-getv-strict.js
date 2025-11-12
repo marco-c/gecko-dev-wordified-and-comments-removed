@@ -3,11 +3,6 @@ use
 strict
 '
 ;
-"
-use
-strict
-"
-;
 var
 emptyIterator
 =

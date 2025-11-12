@@ -1,5 +1,8 @@
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+SyntaxError
 (
 )
 =
@@ -21,11 +24,13 @@ a
 1
 }
 )
-SyntaxError
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+SyntaxError
 (
 )
 =
@@ -48,7 +53,6 @@ v
 1
 }
 )
-SyntaxError
 )
 ;
 reportCompare

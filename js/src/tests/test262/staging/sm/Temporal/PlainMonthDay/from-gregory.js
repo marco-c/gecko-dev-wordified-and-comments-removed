@@ -100,8 +100,11 @@ day
 1
 }
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+RangeError
 (
 )
 =
@@ -114,7 +117,6 @@ from
 (
 fields
 )
-RangeError
 )
 ;
 }
@@ -147,8 +149,11 @@ day
 1
 }
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+RangeError
 (
 )
 =
@@ -161,7 +166,6 @@ from
 (
 fields
 )
-RangeError
 )
 ;
 }
@@ -191,8 +195,11 @@ day
 1
 }
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+RangeError
 (
 )
 =
@@ -205,7 +212,6 @@ from
 (
 fields
 )
-RangeError
 )
 ;
 }

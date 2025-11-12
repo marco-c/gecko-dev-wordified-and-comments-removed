@@ -19,8 +19,11 @@ prototype
 =
 4
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -34,7 +37,6 @@ base
 ]
 lies
 )
-TypeError
 )
 ;
 function
@@ -84,8 +86,11 @@ super
 ;
 }
 }
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -101,7 +106,6 @@ get
 )
 (
 )
-TypeError
 )
 ;
 class
@@ -110,8 +114,11 @@ extends
 base
 {
 }
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -127,7 +134,6 @@ get
 )
 (
 )
-TypeError
 )
 ;
 reportCompare

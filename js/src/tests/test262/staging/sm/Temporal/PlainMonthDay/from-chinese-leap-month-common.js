@@ -134,8 +134,11 @@ constrain
 pmd
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+RangeError
 (
 )
 =
@@ -166,7 +169,6 @@ reject
 )
 ;
 }
-RangeError
 )
 ;
 }

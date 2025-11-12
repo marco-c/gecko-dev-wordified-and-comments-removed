@@ -26,8 +26,11 @@ detachArrayBuffer
 buf
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -38,7 +41,6 @@ getInt8
 (
 0
 )
-TypeError
 )
 ;
 reportCompare

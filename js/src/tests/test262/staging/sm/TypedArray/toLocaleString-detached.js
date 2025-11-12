@@ -1,17 +1,3 @@
-if
-(
-typeof
-262
-.
-detachArrayBuffer
-=
-=
-=
-"
-function
-"
-)
-{
 const
 originalNumberToLocaleString
 =
@@ -47,8 +33,11 @@ typedArray
 buffer
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -58,7 +47,6 @@ typedArray
 toLocaleString
 (
 )
-TypeError
 )
 ;
 }
@@ -189,7 +177,6 @@ toLocaleString
 =
 originalNumberToLocaleString
 ;
-}
 reportCompare
 (
 0

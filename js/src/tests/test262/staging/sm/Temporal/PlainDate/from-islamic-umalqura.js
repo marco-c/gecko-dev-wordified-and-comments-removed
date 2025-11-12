@@ -1,5 +1,8 @@
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+RangeError
 (
 )
 =
@@ -38,7 +41,6 @@ day
 )
 ;
 }
-RangeError
 )
 ;
 reportCompare

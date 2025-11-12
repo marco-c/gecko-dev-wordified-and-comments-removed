@@ -18,8 +18,11 @@ undefined
 ]
 )
 {
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -30,7 +33,6 @@ set
 (
 nullOrUndefined
 )
-TypeError
 )
 ;
 class
@@ -39,8 +41,11 @@ extends
 Error
 {
 }
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+ExpectedError
 (
 )
 =
@@ -64,7 +69,6 @@ ExpectedError
 }
 }
 )
-ExpectedError
 )
 ;
 }
@@ -124,8 +128,11 @@ ta
 ]
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+RangeError
 (
 )
 =
@@ -138,7 +145,6 @@ set
 456789
 "
 )
-RangeError
 )
 ;
 assert

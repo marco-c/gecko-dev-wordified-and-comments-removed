@@ -49,8 +49,11 @@ return
 }
 }
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+ReferenceError
 (
 )
 =
@@ -60,7 +63,6 @@ super
 [
 key
 ]
-ReferenceError
 )
 ;
 assert
@@ -106,8 +108,11 @@ return
 }
 }
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+ReferenceError
 (
 )
 =
@@ -117,7 +122,6 @@ super
 [
 key
 ]
-ReferenceError
 )
 ;
 assert
@@ -132,8 +136,11 @@ super
 (
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+ReferenceError
 (
 )
 =
@@ -143,7 +150,6 @@ super
 [
 key
 ]
-ReferenceError
 )
 ;
 assert
@@ -164,8 +170,11 @@ prototype
 null
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+ReferenceError
 (
 )
 =
@@ -175,7 +184,6 @@ super
 [
 key
 ]
-ReferenceError
 )
 ;
 assert

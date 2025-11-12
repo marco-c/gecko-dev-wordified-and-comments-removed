@@ -103,8 +103,11 @@ Error
 ;
 }
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+Error
 (
 )
 =
@@ -114,7 +117,6 @@ wrap
 return
 (
 )
-Error
 )
 ;
 iter

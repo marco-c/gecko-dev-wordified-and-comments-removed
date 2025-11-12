@@ -36,8 +36,11 @@ throw
 e
 ;
 }
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+SyntaxError
 (
 )
 =
@@ -50,7 +53,6 @@ new
 target
 '
 )
-SyntaxError
 )
 ;
 let

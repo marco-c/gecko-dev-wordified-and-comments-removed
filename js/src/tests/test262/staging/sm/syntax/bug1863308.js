@@ -1,5 +1,8 @@
-assertThrowsInstanceOfWithMessage
+assert
+.
+throws
 (
+SyntaxError
 (
 )
 =
@@ -25,7 +28,6 @@ bar
 }
 "
 )
-SyntaxError
 "
 unexpected
 token
@@ -37,8 +39,11 @@ case
 "
 )
 ;
-assertThrowsInstanceOfWithMessage
+assert
+.
+throws
 (
+SyntaxError
 (
 )
 =
@@ -64,7 +69,6 @@ bar
 }
 "
 )
-SyntaxError
 "
 unexpected
 token
@@ -76,8 +80,11 @@ debugger
 "
 )
 ;
-assertThrowsInstanceOfWithMessage
+assert
+.
+throws
 (
+SyntaxError
 (
 )
 =
@@ -103,7 +110,6 @@ bar
 }
 "
 )
-SyntaxError
 "
 unexpected
 token
@@ -115,8 +121,11 @@ case
 "
 )
 ;
-assertThrowsInstanceOfWithMessage
+assert
+.
+throws
 (
+SyntaxError
 (
 )
 =
@@ -142,7 +151,6 @@ bar
 }
 "
 )
-SyntaxError
 "
 unexpected
 token

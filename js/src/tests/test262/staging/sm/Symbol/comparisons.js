@@ -207,8 +207,11 @@ b
 of
 values
 )
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -218,7 +221,6 @@ f
 a
 b
 )
-TypeError
 )
 ;
 }

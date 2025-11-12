@@ -119,8 +119,11 @@ closed
 false
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -130,7 +133,6 @@ mapped
 next
 (
 )
-TypeError
 )
 ;
 assert

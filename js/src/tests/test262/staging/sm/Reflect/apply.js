@@ -48,8 +48,11 @@ of
 nonCallable
 )
 {
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -60,7 +63,6 @@ apply
 (
 nonCallable
 )
-TypeError
 )
 ;
 }
@@ -90,8 +92,11 @@ FAIL
 }
 }
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -108,7 +113,6 @@ false
 null
 bogusArgumentList
 )
-TypeError
 )
 ;
 assert
@@ -349,9 +353,13 @@ undefined
 var
 gw
 =
-createNewGlobal
+262
+.
+createRealm
 (
 )
+.
+global
 ;
 assert
 .

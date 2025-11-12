@@ -32,8 +32,11 @@ code
 }
 }
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+SyntaxError
 (
 )
 =
@@ -42,7 +45,6 @@ AsyncGenerator
 (
 code
 )
-SyntaxError
 "
 AsyncGenerator
 :
@@ -51,8 +53,11 @@ AsyncGenerator
 code
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+SyntaxError
 (
 )
 =
@@ -61,7 +66,6 @@ eval
 (
 functionCode
 )
-SyntaxError
 "
 eval
 :
@@ -75,8 +79,11 @@ ieval
 =
 eval
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+SyntaxError
 (
 )
 =
@@ -85,7 +92,6 @@ ieval
 (
 functionCode
 )
-SyntaxError
 "
 indirect
 eval

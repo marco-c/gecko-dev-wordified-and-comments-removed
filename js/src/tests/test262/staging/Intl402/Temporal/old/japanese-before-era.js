@@ -365,7 +365,7 @@ date
 .
 era
 "
-japanese
+ce
 "
 )
 ;

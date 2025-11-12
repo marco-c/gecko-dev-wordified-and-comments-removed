@@ -20,8 +20,11 @@ ta
 buffer
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -31,7 +34,6 @@ ta
 toSorted
 (
 )
-TypeError
 )
 ;
 reportCompare

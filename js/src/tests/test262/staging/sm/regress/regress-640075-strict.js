@@ -3,13 +3,11 @@ use
 strict
 '
 ;
-"
-use
-strict
-"
-;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+SyntaxError
 (
 )
 =
@@ -36,7 +34,6 @@ eval
 )
 "
 )
-SyntaxError
 )
 reportCompare
 (

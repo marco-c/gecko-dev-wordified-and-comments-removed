@@ -52,8 +52,11 @@ key
 6
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 function
 (
 )
@@ -70,11 +73,13 @@ x
 5
 ;
 }
-TypeError
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 function
 (
 )
@@ -92,7 +97,6 @@ key
 6
 ;
 }
-TypeError
 )
 ;
 let

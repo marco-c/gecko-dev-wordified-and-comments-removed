@@ -311,8 +311,11 @@ checkArgumentsAccess
 f
 )
 {
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -320,7 +323,6 @@ assertThrowsInstanceOf
 f
 .
 arguments
-TypeError
 Expected
 '
 arguments
@@ -342,8 +344,11 @@ checkCallerAccess
 f
 )
 {
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -351,7 +356,6 @@ assertThrowsInstanceOf
 f
 .
 caller
-TypeError
 Expected
 '
 caller

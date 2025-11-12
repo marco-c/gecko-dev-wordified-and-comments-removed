@@ -30,8 +30,11 @@ prop
 ;
 }
 }
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -40,7 +43,6 @@ new
 strictAssignmentTest
 (
 )
-TypeError
 )
 ;
 (

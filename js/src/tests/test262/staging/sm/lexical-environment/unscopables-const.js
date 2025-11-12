@@ -22,8 +22,11 @@ true
 }
 }
 )
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -34,7 +37,6 @@ x
 2
 ;
 }
-TypeError
 )
 ;
 reportCompare

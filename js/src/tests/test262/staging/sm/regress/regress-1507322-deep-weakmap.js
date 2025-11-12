@@ -12,6 +12,7 @@ Object
 ;
 for
 (
+var
 key
 =
 head

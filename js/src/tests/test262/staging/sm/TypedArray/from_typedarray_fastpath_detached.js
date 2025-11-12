@@ -16,8 +16,11 @@ ta
 buffer
 )
 ;
-assertThrowsInstanceOf
+assert
+.
+throws
 (
+TypeError
 (
 )
 =
@@ -28,7 +31,6 @@ from
 (
 ta
 )
-TypeError
 )
 ;
 reportCompare
