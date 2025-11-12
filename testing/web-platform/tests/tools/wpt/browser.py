@@ -517,11 +517,12 @@ return
 data
 class
 Browser
-:
-    
-__metaclass__
+(
+metaclass
 =
 ABCMeta
+)
+:
     
 def
 __init__
@@ -12425,6 +12426,9 @@ class
 ChromeAndroidBase
 (
 Browser
+metaclass
+=
+ABCMeta
 )
 :
     
@@ -12484,10 +12488,6 @@ installation
 "
 "
 "
-    
-__metaclass__
-=
-ABCMeta
     
 def
 __init__

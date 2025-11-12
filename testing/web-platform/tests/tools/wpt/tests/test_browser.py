@@ -66,6 +66,9 @@ browser
 Browser
 browser
 .
+ChromeChromiumBase
+browser
+.
 ChromeAndroidBase
 )
 :
