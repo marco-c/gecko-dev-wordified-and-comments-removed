@@ -1421,12 +1421,6 @@ click
 )
 ;
 }
-nextItem
-.
-focus
-(
-)
-;
 return
 ;
 }
