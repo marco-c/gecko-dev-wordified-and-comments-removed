@@ -763,14 +763,6 @@ ROW
 "
 \
 "
-WHEN
-NOT
-is_frecency_decaying
-(
-)
-"
-\
-"
 BEGIN
 "
 \

@@ -492,13 +492,6 @@ js
 ]
 [
 "
-test_frecency_decay
-.
-js
-"
-]
-[
-"
 test_frecency_interactions
 .
 js
