@@ -2013,6 +2013,10 @@ setDisableIon
 setDisableEvalSecurityChecks
 (
 )
+.
+setDisableFilenameSecurityChecks
+(
+)
 ;
 JSContextWrapper
 *
