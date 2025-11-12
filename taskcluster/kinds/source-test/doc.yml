@@ -154,8 +154,6 @@ b
 linux
 -
 medium
--
-gcp
 worker
 :
 docker
@@ -544,8 +542,6 @@ b
 linux
 -
 medium
--
-gcp
 worker
 :
 docker

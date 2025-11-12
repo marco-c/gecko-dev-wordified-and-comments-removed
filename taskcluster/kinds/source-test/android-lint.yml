@@ -206,8 +206,6 @@ type
 b
 -
 linux
--
-gcp
 when
 :
 files
