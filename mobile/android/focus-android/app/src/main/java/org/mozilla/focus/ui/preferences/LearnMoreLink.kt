@@ -161,12 +161,6 @@ unit
 .
 dp
 import
-kotlinx
-.
-coroutines
-.
-Job
-import
 org
 .
 mozilla
@@ -264,7 +258,7 @@ openLearnMore
 )
 -
 >
-Job
+Unit
 modifier
 :
 Modifier
