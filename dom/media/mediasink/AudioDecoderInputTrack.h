@@ -563,7 +563,6 @@ const
 MediaEventSource
 <
 int64_t
-TimeStamp
 AwakeTimeStamp
 >
 &
@@ -874,7 +873,6 @@ mDecoderThread
 MediaEventProducer
 <
 int64_t
-TimeStamp
 AwakeTimeStamp
 >
 mOnOutput
