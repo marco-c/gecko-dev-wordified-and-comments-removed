@@ -352,6 +352,10 @@ ExtContentPolicyType
 aContentPolicyType
 bool
 aShouldResistFingerprinting
+const
+nsCString
+&
+aLanguageOverride
 )
 ;
 [
