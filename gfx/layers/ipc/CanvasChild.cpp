@@ -3164,6 +3164,7 @@ RecordEvent
 RecordedCacheDataSurface
 (
 aSurface
+true
 )
 )
 ;
