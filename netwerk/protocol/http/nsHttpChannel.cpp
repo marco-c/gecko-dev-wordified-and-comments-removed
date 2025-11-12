@@ -10280,7 +10280,7 @@ Upgrade
 get
 (
 )
-true
+false
 )
 ;
 MOZ_ASSERT
