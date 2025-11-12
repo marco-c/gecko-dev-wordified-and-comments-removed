@@ -2917,14 +2917,6 @@ static
 int32_t
 gNoiseIndent
 ;
-static
-const
-char
-*
-kReflowCommandType
-[
-]
-;
 protected
 :
 static
