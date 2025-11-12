@@ -62,6 +62,8 @@ require
 .
 .
 /
+config
+/
 tokens
 -
 config

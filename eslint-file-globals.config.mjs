@@ -5566,6 +5566,8 @@ design
 -
 system
 /
+config
+/
 figma
 -
 tokens
@@ -5603,6 +5605,8 @@ shared
 design
 -
 system
+/
+config
 /
 tokens
 -
