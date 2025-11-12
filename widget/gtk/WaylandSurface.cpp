@@ -5018,11 +5018,7 @@ mSurfaceLock
 aWaylandSurfaceLock
 ;
 return
-mIsReadyToDraw
-?
 mSurface
-:
-nullptr
 ;
 }
 void
