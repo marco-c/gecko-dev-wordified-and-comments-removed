@@ -1752,10 +1752,6 @@ fprintf
 (
 out
 "
-vis
-=
-%
-d
 frame
 =
 %
