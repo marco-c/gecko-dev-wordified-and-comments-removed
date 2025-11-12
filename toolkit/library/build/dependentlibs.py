@@ -568,6 +568,10 @@ MSVC_C_RUNTIME_1_DLL
 "
 MSVC_CXX_RUNTIME_DLL
 "
+            
+"
+MSVC_CXX_RUNTIME_ATOMIC_WAIT_DLL
+"
         
 ]
 :

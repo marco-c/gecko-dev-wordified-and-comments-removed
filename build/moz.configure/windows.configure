@@ -3374,6 +3374,17 @@ msvcp140
 dll
 "
 )
+set_config
+(
+"
+MSVC_CXX_RUNTIME_ATOMIC_WAIT_DLL
+"
+"
+msvcp140_atomic_wait
+.
+dll
+"
+)
 set_define
 (
 "
