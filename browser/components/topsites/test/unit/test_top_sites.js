@@ -221,7 +221,16 @@ FAKE_FAVICON_SIZE
 const
 FAKE_FRECENCY
 =
-200
+PlacesUtils
+.
+history
+.
+pageFrecencyThreshold
+(
+0
+2
+false
+)
 ;
 const
 FAKE_LINKS
