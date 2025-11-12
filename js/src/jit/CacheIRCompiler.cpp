@@ -36624,7 +36624,7 @@ nativeIter
 NativeIterator
 :
 :
-offsetOfFlags
+offsetOfFlagsAndCount
 (
 )
 )
@@ -36794,7 +36794,6 @@ scratch2
 scratch3
 &
 callVM
-true
 )
 ;
 masm
@@ -37278,8 +37277,6 @@ emitObjectKeysResult
 (
 ObjOperandId
 objId
-uint32_t
-resultShapeOffset
 )
 {
 JitSpew
