@@ -783,16 +783,11 @@ in
 all_events
 ]
     
-for
-expected_event
-in
-expected
-:
-        
 assert
-expected_event
-in
 events
+=
+=
+expected
 async
 def
 test_many_modifiers_click
