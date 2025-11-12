@@ -3996,7 +3996,7 @@ data
 JS
 :
 :
-GenericMicroTask
+MicroTask
 RunnableToMicroTask
 (
 already_AddRefed
@@ -4010,7 +4010,7 @@ aRunnable
 JS
 :
 :
-GenericMicroTask
+MicroTask
 v
 ;
 auto
@@ -4065,7 +4065,7 @@ javascript_options_use_js_microtask_queue
 JS
 :
 :
-GenericMicroTask
+MicroTask
 v
 =
 RunnableToMicroTask
@@ -4110,7 +4110,7 @@ javascript_options_use_js_microtask_queue
 JS
 :
 :
-GenericMicroTask
+MicroTask
 v
 =
 RunnableToMicroTask

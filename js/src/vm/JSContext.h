@@ -834,7 +834,7 @@ const
 JS
 :
 :
-GenericMicroTask
+MicroTask
 &
 )
 ;
@@ -848,7 +848,7 @@ const
 JS
 :
 :
-GenericMicroTask
+MicroTask
 &
 )
 ;
@@ -862,14 +862,14 @@ const
 JS
 :
 :
-GenericMicroTask
+MicroTask
 &
 )
 ;
 JS
 :
 :
-GenericMicroTask
+MicroTask
 popFront
 (
 )
@@ -877,7 +877,7 @@ popFront
 JS
 :
 :
-GenericMicroTask
+MicroTask
 popDebugFront
 (
 )
