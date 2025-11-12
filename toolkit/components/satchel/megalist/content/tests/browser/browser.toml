@@ -1,16 +1,6 @@
 [
 DEFAULT
 ]
-run
--
-if
-=
-[
-"
-!
-release_or_beta
-"
-]
 prefs
 =
 [
