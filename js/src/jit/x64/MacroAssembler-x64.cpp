@@ -8905,7 +8905,7 @@ Imm32
 scratch
 )
 ;
-andq
+andl
 (
 Imm32
 (
@@ -9039,7 +9039,7 @@ Imm32
 scratch
 )
 ;
-andq
+andl
 (
 Imm32
 (
