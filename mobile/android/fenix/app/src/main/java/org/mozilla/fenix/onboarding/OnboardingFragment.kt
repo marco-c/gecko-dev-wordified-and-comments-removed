@@ -1063,11 +1063,6 @@ pref_key_should_show_marketing_onboarding
 pagesToDisplay
 =
 pagesToDisplay
-distributionIdManager
-=
-requireComponents
-.
-distributionIdManager
 settings
 =
 requireContext
