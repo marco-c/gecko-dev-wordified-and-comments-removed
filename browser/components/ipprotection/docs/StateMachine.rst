@@ -99,13 +99,6 @@ activate
 the
 proxy
 .
--
-ACTIVE
-:
-Proxy
-is
-active
-.
 High
 level
 transitions
@@ -160,12 +153,6 @@ not
 eligible
 otherwise
 UNAUTHENTICATED
-.
--
-Proxy
-already
-active
-ACTIVE
 .
 -
 If

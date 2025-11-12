@@ -1023,7 +1023,7 @@ startProxy
 {
 lazy
 .
-IPProtectionService
+IPPProxyManager
 .
 start
 (
@@ -1037,7 +1037,7 @@ stopProxy
 {
 lazy
 .
-IPProtectionService
+IPPProxyManager
 .
 stop
 (
