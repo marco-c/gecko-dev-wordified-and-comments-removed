@@ -401,7 +401,7 @@ host
 port
 "
 "
-pathTemplate
+masqueTemplate
 "
 "
 username
@@ -678,14 +678,14 @@ port
 port
 ;
 }
-pathTemplate
+masqueTemplate
 (
 proxyData
 )
 {
 let
 {
-pathTemplate
+masqueTemplate
 }
 =
 proxyData
@@ -705,7 +705,7 @@ MASQUE
 {
 if
 (
-pathTemplate
+masqueTemplate
 !
 =
 =
@@ -718,7 +718,7 @@ ExtensionError
 (
 ProxyInfoData
 :
-pathTemplate
+masqueTemplate
 can
 only
 be
@@ -737,7 +737,7 @@ return
 if
 (
 typeof
-pathTemplate
+masqueTemplate
 !
 =
 =
@@ -747,7 +747,7 @@ string
 |
 |
 !
-pathTemplate
+masqueTemplate
 )
 {
 throw
@@ -758,12 +758,12 @@ ProxyInfoData
 :
 Invalid
 proxy
-path
+masque
 template
 :
 "
 {
-pathTemplate
+masqueTemplate
 }
 "
 )
@@ -1310,7 +1310,7 @@ let
 type
 host
 port
-pathTemplate
+masqueTemplate
 username
 password
 proxyDNS
@@ -1432,7 +1432,7 @@ newMASQUEProxyInfo
 (
 host
 port
-pathTemplate
+masqueTemplate
 proxyAuthorizationHeader
 connectionIsolationKey
 proxyDNS

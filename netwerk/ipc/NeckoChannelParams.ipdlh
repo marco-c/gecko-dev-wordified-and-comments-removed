@@ -1197,7 +1197,7 @@ int32_t
 port
 ;
 nsCString
-pathTemplate
+masqueTemplate
 ;
 nsCString
 alpn

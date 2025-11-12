@@ -8642,7 +8642,7 @@ aAuthorityHeader
 const
 nsACString
 &
-aPath
+aPathQuery
 const
 nsACString
 &
@@ -8866,7 +8866,7 @@ Fetch
 aMethod
 aScheme
 aAuthorityHeader
-aPath
+aPathQuery
 aHeaders
 aStreamId
 httpStream
@@ -8925,7 +8925,7 @@ mHttp3Connection
 CreateConnectUdp
 (
 aAuthorityHeader
-aPath
+aPathQuery
 aHeaders
 aStreamId
 )
@@ -8975,7 +8975,7 @@ mHttp3Connection
 CreateWebTransport
 (
 aAuthorityHeader
-aPath
+aPathQuery
 aHeaders
 aStreamId
 )

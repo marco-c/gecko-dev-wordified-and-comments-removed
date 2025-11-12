@@ -153,7 +153,7 @@ static
 const
 char
 *
-kPathTemplate
+kMasqueTemplate
 =
 "
 /
@@ -733,7 +733,7 @@ kProxyHost
 1
 nsCString
 (
-kPathTemplate
+kMasqueTemplate
 )
 "
 "

@@ -2047,7 +2047,7 @@ true
 failoverTimeout
 :
 3
-pathTemplate
+masqueTemplate
 :
 "
 /
@@ -2078,7 +2078,7 @@ error
 :
 ProxyInfoData
 :
-pathTemplate
+masqueTemplate
 can
 only
 be
@@ -2105,7 +2105,7 @@ bar
 port
 :
 3128
-pathTemplate
+masqueTemplate
 :
 "
 /
@@ -2155,7 +2155,7 @@ type
 "
 masque
 "
-pathTemplate
+masqueTemplate
 :
 "
 /
@@ -2205,7 +2205,7 @@ connectionIsolationKey
 "
 key
 "
-pathTemplate
+masqueTemplate
 :
 "
 /
@@ -2265,7 +2265,7 @@ connectionIsolationKey
 "
 key
 "
-pathTemplate
+masqueTemplate
 :
 "
 /
@@ -2331,7 +2331,7 @@ ProxyInfoData
 :
 Invalid
 proxy
-path
+masque
 template
 :
 "
@@ -2369,7 +2369,7 @@ connectionIsolationKey
 "
 key
 "
-pathTemplate
+masqueTemplate
 :
 "
 /
@@ -2441,7 +2441,7 @@ connectionIsolationKey
 "
 key
 "
-pathTemplate
+masqueTemplate
 :
 "
 /

@@ -1454,7 +1454,7 @@ long
 aPort
 in
 AUTF8String
-aPathTemplate
+aMasqueTemplate
 in
 ACString
 aProxyAuthorizationHeader

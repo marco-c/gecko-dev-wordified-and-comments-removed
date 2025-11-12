@@ -603,7 +603,7 @@ type
 "
 masque
 "
-pathTemplate
+masqueTemplate
 :
 "
 /

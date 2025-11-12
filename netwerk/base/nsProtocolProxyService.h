@@ -358,7 +358,7 @@ port
 const
 nsACString
 &
-pathTemplate
+masqueTemplate
 const
 nsACString
 &

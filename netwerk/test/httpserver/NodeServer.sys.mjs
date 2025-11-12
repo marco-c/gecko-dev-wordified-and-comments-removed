@@ -3045,7 +3045,7 @@ constructor
 host
 port
 flags
-pathTemplate
+masqueTemplate
 auth
 )
 {
@@ -3069,9 +3069,9 @@ flags
 ;
 this
 .
-_pathTemplate
+_masqueTemplate
 =
-pathTemplate
+masqueTemplate
 ;
 this
 .
@@ -3144,7 +3144,7 @@ this
 _port
 this
 .
-_pathTemplate
+_masqueTemplate
 this
 .
 _auth

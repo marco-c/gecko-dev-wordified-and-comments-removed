@@ -557,7 +557,7 @@ Init
 info
 -
 >
-PathTemplate
+MasqueTemplate
 (
 )
 getter_AddRefs
@@ -698,7 +698,7 @@ rv
 ;
 }
 nsCString
-path
+pathQuery
 ;
 builder
 -
@@ -706,7 +706,7 @@ builder
 Build
 (
 &
-path
+pathQuery
 )
 ;
 LOG
@@ -722,7 +722,7 @@ host
 =
 %
 s
-path
+pathQuery
 =
 %
 s
@@ -738,7 +738,7 @@ Host
 get
 (
 )
-path
+pathQuery
 .
 get
 (
@@ -764,7 +764,7 @@ info
 Host
 (
 )
-path
+pathQuery
 mFlatHttpRequestHeaders
 &
 mStreamId
