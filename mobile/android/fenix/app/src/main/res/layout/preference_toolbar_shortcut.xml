@@ -273,15 +273,6 @@ contentDescription
 "
 null
 "
-app
-:
-srcCompat
-=
-"
-drawable
-/
-ic_toolbar_simple_shortcut_preview
-"
 /
 >
 <
