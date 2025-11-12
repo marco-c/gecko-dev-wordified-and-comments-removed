@@ -127,4 +127,13 @@ location
 =
 url
 ;
+t
+.
+add_cleanup
+(
+popup_window
+.
+close
+)
+;
 }
