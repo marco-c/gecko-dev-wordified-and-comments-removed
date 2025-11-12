@@ -1953,6 +1953,9 @@ moz_places
 \
 "
 SET
+recalc_frecency
+=
+1
 recalc_alt_frecency
 =
 1
@@ -1965,6 +1968,10 @@ id
 NEW
 .
 place_id
+AND
+frecency
+>
+0
 ;
 "
 \
@@ -2143,6 +2150,9 @@ moz_places
 \
 "
 SET
+recalc_frecency
+=
+1
 recalc_alt_frecency
 =
 1
@@ -2155,6 +2165,10 @@ id
 NEW
 .
 place_id
+AND
+frecency
+>
+0
 ;
 "
 \
