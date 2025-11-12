@@ -209,8 +209,6 @@ type
 b
 -
 linux
--
-gcp
 worker
 :
 artifacts
