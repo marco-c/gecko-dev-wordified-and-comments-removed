@@ -3145,13 +3145,6 @@ GetDocShellIsActive
 (
 )
 ;
-void
-SetDocShellIsActive
-(
-bool
-aDocShellIsActive
-)
-;
 bool
 GetHasPresented
 (
