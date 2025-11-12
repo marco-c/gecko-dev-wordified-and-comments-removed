@@ -5838,9 +5838,13 @@ correctly
 *
 *
 fires
+NavigationManager
+#
+"
 navigation
 -
 started
+"
 *
 The
 NavigationManager
@@ -5906,9 +5910,13 @@ navigation
 .
 *
 fires
+NavigationManager
+#
+"
 navigation
 -
 stopped
+"
 *
 The
 NavigationManager

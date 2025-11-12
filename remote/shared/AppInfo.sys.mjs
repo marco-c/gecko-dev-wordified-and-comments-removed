@@ -142,8 +142,6 @@ typedef
 {
 object
 }
-RemoteAgent
-.
 AppInfo
 *
 property
