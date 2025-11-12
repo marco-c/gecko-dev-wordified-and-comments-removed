@@ -72,6 +72,11 @@ early_hint_preconnect_html
 sjs
 "
 "
+request_accept_language
+.
+sjs
+"
+"
 file_channel
 .
 html
@@ -956,6 +961,13 @@ x11
 #
 Bug
 1970244
+[
+"
+browser_accept_language_override
+.
+js
+"
+]
 [
 "
 browser_backgroundtask_purgeHTTPCache
