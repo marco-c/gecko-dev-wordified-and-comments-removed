@@ -3085,9 +3085,8 @@ name
 fx_mobile_private_background
 "
 >
-color
-/
-photonLightGrey10
+#
+FF342B4A
 <
 /
 color
@@ -3102,7 +3101,7 @@ fx_mobile_private_on_background
 >
 color
 /
-photonDarkGrey90
+photonLightGrey05
 <
 /
 color
@@ -3175,7 +3174,7 @@ fx_mobile_private_surface_inverse
 >
 color
 /
-photonLightGrey10
+photonLightGrey40
 <
 /
 color
