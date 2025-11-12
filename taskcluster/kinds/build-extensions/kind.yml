@@ -119,8 +119,6 @@ type
 b
 -
 linux
--
-gcp
 fetches
 :
 toolchain
