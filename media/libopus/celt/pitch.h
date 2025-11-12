@@ -77,8 +77,14 @@ FIXED_POINT
 &
 defined
 (
-__mips
+__mips_dsp
 )
+&
+&
+__mips
+=
+=
+32
 #
 include
 "
@@ -132,8 +138,6 @@ int
 len
 int
 C
-int
-factor
 int
 arch
 )

@@ -3372,9 +3372,6 @@ endif
 #
 ifdef
 FIXED_POINT
-#
-ifndef
-OVERRIDE_fft_downshift
 static
 void
 fft_downshift
@@ -3538,8 +3535,6 @@ shift
 }
 }
 }
-#
-endif
 #
 else
 #

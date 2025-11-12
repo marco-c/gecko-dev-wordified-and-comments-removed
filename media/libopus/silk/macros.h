@@ -943,8 +943,14 @@ FIXED_POINT
 &
 defined
 (
-__mips
+__mips_dsp
 )
+&
+&
+__mips
+=
+=
+32
 #
 include
 "

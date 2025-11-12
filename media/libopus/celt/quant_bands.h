@@ -173,9 +173,6 @@ error
 int
 *
 fine_quant
-int
-*
-extra_quant
 ec_enc
 *
 enc
@@ -257,9 +254,6 @@ oldEBands
 int
 *
 fine_quant
-int
-*
-extra_quant
 ec_dec
 *
 dec
