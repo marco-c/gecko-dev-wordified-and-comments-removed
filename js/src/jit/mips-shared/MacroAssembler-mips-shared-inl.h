@@ -708,11 +708,14 @@ reg
 reg
 )
 ;
-as_rotr
+ma_ror
 (
 reg
 reg
+Imm32
+(
 16
+)
 )
 ;
 }
