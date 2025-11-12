@@ -588,6 +588,7 @@ activeWallpaper
 setPref
 mayHaveTopicSections
 exitEventFired
+onSubpanelToggle
 }
 =
 this
@@ -659,6 +660,11 @@ exitEventFired
 =
 {
 exitEventFired
+}
+onSubpanelToggle
+=
+{
+onSubpanelToggle
 }
 /
 >
@@ -2101,6 +2107,11 @@ pocketEnabled
 =
 {
 pocketEnabled
+}
+onSubpanelToggle
+=
+{
+onSubpanelToggle
 }
 /
 >
