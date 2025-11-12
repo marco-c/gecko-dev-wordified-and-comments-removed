@@ -181,16 +181,6 @@ Listener
 &
 &
 aListener
-already_AddRefed
-<
-CubebUtils
-:
-:
-CubebHandle
->
-&
-&
-aCubeb
 UniquePtr
 <
 cubeb_stream

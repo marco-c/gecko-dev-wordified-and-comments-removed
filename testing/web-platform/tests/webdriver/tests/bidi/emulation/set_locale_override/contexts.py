@@ -16,11 +16,11 @@ bidi_session
     
 new_tab
     
+some_locale
+    
 assert_locale_against_default
     
 assert_locale_against_value
-    
-some_locale
 )
 :
     
@@ -121,9 +121,9 @@ bidi_session
     
 new_tab
     
-assert_locale_against_default
-    
 assert_locale_against_value
+    
+assert_locale_against_default
     
 some_locale
 )
@@ -266,15 +266,15 @@ bidi_session
     
 new_tab
     
+some_locale
+    
+domain
+    
 inline
     
 another_locale
     
 assert_locale_against_value
-    
-some_locale
-    
-domain
 )
 :
     
@@ -536,9 +536,9 @@ new_tab
     
 another_locale
     
-assert_locale_against_default
-    
 assert_locale_against_value
+    
+assert_locale_against_default
 )
 :
     

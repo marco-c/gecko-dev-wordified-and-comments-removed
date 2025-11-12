@@ -399,16 +399,6 @@ Register
 base
 )
 ;
-OutOfLineCode
-*
-emitOutOfLineZeroForDivideByZero
-(
-Register
-rhs
-Register
-output
-)
-;
 void
 generateInvalidateEpilogue
 (

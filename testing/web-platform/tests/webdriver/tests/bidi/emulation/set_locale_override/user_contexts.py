@@ -18,11 +18,11 @@ create_user_context
     
 new_tab
     
+some_locale
+    
 assert_locale_against_default
     
 assert_locale_against_value
-    
-some_locale
 )
 :
     
@@ -130,11 +130,11 @@ new_tab
     
 create_user_context
     
+some_locale
+    
 assert_locale_against_default
     
 assert_locale_against_value
-    
-some_locale
 )
 :
     
@@ -255,9 +255,9 @@ bidi_session
     
 create_user_context
     
-assert_locale_against_value
-    
 some_locale
+    
+assert_locale_against_value
 )
 :
     
@@ -359,13 +359,13 @@ bidi_session
     
 create_user_context
     
+some_locale
+    
 another_locale
     
 assert_locale_against_default
     
 assert_locale_against_value
-    
-some_locale
 )
 :
     
@@ -572,13 +572,13 @@ bidi_session
     
 create_user_context
     
+some_locale
+    
 another_locale
     
 assert_locale_against_default
     
 assert_locale_against_value
-    
-some_locale
 )
 :
     

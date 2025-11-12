@@ -120,7 +120,7 @@ class
 nsPresContext
 ;
 class
-nsSubDocumentFrame
+nsView
 ;
 class
 nsDOMNavigationTiming
@@ -197,9 +197,9 @@ nsPresContext
 ptr
 ]
 native
-nsSubDocumentFramePtr
+nsViewPtr
 (
-nsSubDocumentFrame
+nsView
 )
 ;
 [
@@ -1614,8 +1614,8 @@ noscript
 notxpcom
 nostdcall
 ]
-nsSubDocumentFramePtr
-findContainerFrame
+nsViewPtr
+findContainerView
 (
 )
 ;

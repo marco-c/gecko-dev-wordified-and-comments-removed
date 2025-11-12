@@ -3265,17 +3265,6 @@ const
 OriginInfosNestedTraversable
 GetOriginInfosWithZeroUsage
 (
-const
-Maybe
-<
-int64_t
->
-&
-aCutoffAccessTime
-=
-Nothing
-(
-)
 )
 const
 ;

@@ -3736,9 +3736,6 @@ aContext
 nsViewManager
 *
 aViewManager
-nsSubDocumentFrame
-*
-aEmbedderFrame
 )
 ;
 void

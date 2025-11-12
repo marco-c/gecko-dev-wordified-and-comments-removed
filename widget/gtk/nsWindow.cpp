@@ -21740,13 +21740,6 @@ return
 FALSE
 ;
 }
-if
-(
-GdkIsX11Display
-(
-)
-)
-{
 SchedulePendingBounds
 (
 MayChangeCsdMargin
@@ -21755,7 +21748,6 @@ MayChangeCsdMargin
 No
 )
 ;
-}
 return
 FALSE
 ;

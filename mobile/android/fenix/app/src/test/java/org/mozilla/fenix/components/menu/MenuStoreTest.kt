@@ -811,7 +811,7 @@ selectedTab
 )
 assertNull
 (
-newState
+state
 .
 browserMenuState
 .
@@ -821,7 +821,7 @@ guid
 )
 assertFalse
 (
-newState
+state
 .
 browserMenuState
 .
@@ -831,7 +831,7 @@ isBookmarked
 )
 assertFalse
 (
-newState
+state
 .
 browserMenuState
 .

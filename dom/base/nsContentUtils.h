@@ -528,6 +528,9 @@ class
 nsPresContext
 ;
 class
+nsView
+;
+class
 nsWrapperCache
 ;
 enum

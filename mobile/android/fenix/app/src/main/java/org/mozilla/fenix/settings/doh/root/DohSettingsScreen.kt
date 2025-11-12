@@ -1834,13 +1834,6 @@ isCustomProviderDialogOn
 {
 AlertDialogAddCustomProvider
 (
-customProviderUrl
-=
-state
-.
-selectedProvider
-.
-url
 customProviderErrorState
 =
 state
@@ -2288,9 +2281,6 @@ private
 fun
 AlertDialogAddCustomProvider
 (
-customProviderUrl
-:
-String
 customProviderErrorState
 :
 CustomProviderErrorState
@@ -2318,7 +2308,8 @@ remember
 {
 mutableStateOf
 (
-customProviderUrl
+"
+"
 )
 }
 val
