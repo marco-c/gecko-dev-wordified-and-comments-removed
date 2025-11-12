@@ -11366,10 +11366,7 @@ ReciprocalMulConstants
 :
 computeUnsignedDivisionConstants
 (
-uint32_t
-(
 base
-)
 )
 ;
 mulHighUnsigned32
