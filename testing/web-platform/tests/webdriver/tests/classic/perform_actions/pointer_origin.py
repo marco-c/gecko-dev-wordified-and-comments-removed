@@ -280,7 +280,9 @@ green
     
 )
     
+(
 mouse_chain
+        
 .
 pointer_move
 (
@@ -297,10 +299,10 @@ y
 "
 ]
 )
+        
 .
 pointer_move
 (
-        
 offset
 [
 "
@@ -318,11 +320,13 @@ origin
 "
 pointer
 "
-    
 )
+        
 .
 perform
 (
+)
+    
 )
     
 click_coords
