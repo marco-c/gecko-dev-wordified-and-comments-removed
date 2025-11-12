@@ -1,9 +1,9 @@
 #
 ifndef
-PLC_H
+CELT_LPC_H
 #
 define
-PLC_H
+CELT_LPC_H
 #
 include
 "

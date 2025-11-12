@@ -89,6 +89,8 @@ silk_Get_Encoder_Size
 opus_int
 *
 encSizeBytes
+opus_int
+channels
 )
 ;
 opus_int
@@ -97,6 +99,8 @@ silk_InitEncoder
 void
 *
 encState
+int
+channels
 int
 arch
 silk_EncControlStruct
