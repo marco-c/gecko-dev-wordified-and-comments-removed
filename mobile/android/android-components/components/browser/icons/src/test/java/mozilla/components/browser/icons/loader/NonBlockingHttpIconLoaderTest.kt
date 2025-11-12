@@ -706,7 +706,6 @@ Type
 .
 APPLE_TOUCH_ICON
 callbackResource
-?
 .
 type
 )
@@ -1287,7 +1286,6 @@ Type
 .
 APPLE_TOUCH_ICON
 callbackResource
-?
 .
 type
 )
@@ -1720,7 +1718,6 @@ Type
 .
 APPLE_TOUCH_ICON
 callbackResource
-?
 .
 type
 )
@@ -1976,7 +1973,6 @@ Type
 .
 APPLE_TOUCH_ICON
 callbackResource
-?
 .
 type
 )

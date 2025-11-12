@@ -1047,8 +1047,6 @@ assertEquals
 (
 2
 this
-!
-!
 .
 children
 !

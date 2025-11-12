@@ -1487,8 +1487,6 @@ for
 file
 in
 files
-!
-!
 )
 {
 Log

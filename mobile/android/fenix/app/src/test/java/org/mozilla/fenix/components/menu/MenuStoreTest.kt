@@ -759,8 +759,6 @@ assertNull
 state
 .
 browserMenuState
-!
-!
 .
 bookmarkState
 .
@@ -771,8 +769,6 @@ assertFalse
 state
 .
 browserMenuState
-!
-!
 .
 bookmarkState
 .
@@ -783,8 +779,6 @@ assertFalse
 state
 .
 browserMenuState
-!
-!
 .
 isPinned
 )
@@ -820,8 +814,6 @@ assertNull
 state
 .
 browserMenuState
-!
-!
 .
 bookmarkState
 .
@@ -832,8 +824,6 @@ assertFalse
 state
 .
 browserMenuState
-!
-!
 .
 bookmarkState
 .
@@ -844,8 +834,6 @@ assertFalse
 state
 .
 browserMenuState
-!
-!
 .
 isPinned
 )
@@ -902,8 +890,6 @@ bookmarkState
 newState
 .
 browserMenuState
-!
-!
 .
 bookmarkState
 )
@@ -913,8 +899,6 @@ isPinned
 newState
 .
 browserMenuState
-!
-!
 .
 isPinned
 )

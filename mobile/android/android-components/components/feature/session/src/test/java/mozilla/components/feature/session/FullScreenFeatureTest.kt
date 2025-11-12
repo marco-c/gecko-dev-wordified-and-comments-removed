@@ -1178,8 +1178,6 @@ viewPort
 assertFalse
 (
 fullscreen
-!
-!
 )
 }
 Test
@@ -1446,8 +1444,6 @@ viewPort
 assertTrue
 (
 fullscreen
-!
-!
 )
 feature
 .
@@ -1466,8 +1462,6 @@ viewPort
 assertFalse
 (
 fullscreen
-!
-!
 )
 }
 Test
@@ -1857,8 +1851,6 @@ viewPort
 assertFalse
 (
 fullscreen
-!
-!
 )
 }
 Test

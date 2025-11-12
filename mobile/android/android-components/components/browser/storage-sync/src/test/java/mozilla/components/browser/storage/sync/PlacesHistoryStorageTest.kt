@@ -7541,8 +7541,6 @@ assertEquals
 serverUrl
 "
 passedAuthInfo
-!
-!
 .
 tokenServerUrl
 )
@@ -7552,8 +7550,6 @@ assertEquals
 token
 "
 passedAuthInfo
-!
-!
 .
 fxaAccessToken
 )
@@ -7561,8 +7557,6 @@ assertEquals
 (
 123L
 passedAuthInfo
-!
-!
 .
 fxaAccessTokenExpiresAt
 )
@@ -7572,8 +7566,6 @@ assertEquals
 key
 "
 passedAuthInfo
-!
-!
 .
 syncKey
 )

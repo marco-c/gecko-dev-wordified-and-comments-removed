@@ -2598,8 +2598,6 @@ assertEquals
 (
 5
 customTabMenu
-!
-!
 .
 items
 .

@@ -4287,8 +4287,6 @@ blockedRequest
 assertTrue
 (
 trackerBlocked
-!
-!
 .
 trackingCategories
 .
@@ -4339,8 +4337,6 @@ blockedRequest
 assertTrue
 (
 trackerBlocked
-!
-!
 .
 trackingCategories
 .

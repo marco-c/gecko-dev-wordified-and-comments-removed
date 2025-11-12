@@ -17553,8 +17553,6 @@ var
 trackerLog2
 =
 trackersLog
-!
-!
 [
 1
 ]
@@ -17646,8 +17644,6 @@ createSocialTrackersLogEntryList
 trackerLog
 =
 trackersLog
-!
-!
 .
 first
 (
@@ -17687,8 +17683,6 @@ MOZILLA_SOCIAL
 trackerLog2
 =
 trackersLog
-!
-!
 [
 1
 ]

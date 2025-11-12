@@ -10161,8 +10161,6 @@ TEST
 assertTrue
 (
 trackerBlocked
-!
-!
 .
 trackingCategories
 .
@@ -10309,8 +10307,6 @@ url
 assertTrue
 (
 trackerLoaded
-!
-!
 .
 cookiePolicies
 .
@@ -10344,8 +10340,6 @@ false
 assertTrue
 (
 trackerLoaded
-!
-!
 .
 cookiePolicies
 .
@@ -21183,8 +21177,6 @@ observedTriggeredByRedirect
 assertFalse
 (
 observedTriggeredByRedirect
-!
-!
 )
 assertNotNull
 (
@@ -21193,8 +21185,6 @@ observedTriggeredByWebContent
 assertFalse
 (
 observedTriggeredByWebContent
-!
-!
 )
 assertEquals
 (
@@ -22046,8 +22036,6 @@ Type
 .
 OPEN
 receivedWindowRequest
-!
-!
 .
 type
 )
@@ -22139,8 +22127,6 @@ Type
 .
 CLOSE
 receivedWindowRequest
-!
-!
 .
 type
 )

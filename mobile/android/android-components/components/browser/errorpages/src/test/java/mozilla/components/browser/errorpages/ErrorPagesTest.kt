@@ -523,8 +523,6 @@ getString
 errorType
 .
 imageNameRes
-!
-!
 )
 +
 "

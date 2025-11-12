@@ -1100,8 +1100,6 @@ assertEquals
 addon
 .
 rating
-!
-!
 .
 reviews
 )
@@ -4559,8 +4557,6 @@ assertEquals
 addon
 .
 rating
-!
-!
 .
 reviews
 )

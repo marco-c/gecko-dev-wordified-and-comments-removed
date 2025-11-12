@@ -1356,8 +1356,6 @@ state
 search
 .
 region
-!
-!
 .
 current
 )

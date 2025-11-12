@@ -453,8 +453,6 @@ onInputStarted
 (
 )
 listener
-!
-!
 .
 onTextChanged
 (
@@ -474,8 +472,6 @@ Hello
 "
 )
 listener
-!
-!
 .
 onStopEditing
 (
@@ -1774,8 +1770,6 @@ startInvoked
 =
 false
 listener
-!
-!
 .
 onStopEditing
 (
@@ -1903,8 +1897,6 @@ onCancelEditing
 )
 )
 listener
-!
-!
 .
 onStartEditing
 (
@@ -1920,8 +1912,6 @@ started
 .
 "
 listener
-!
-!
 .
 onCancelEditing
 (

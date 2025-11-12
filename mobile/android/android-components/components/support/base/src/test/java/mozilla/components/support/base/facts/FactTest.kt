@@ -317,8 +317,6 @@ assertTrue
 fact
 .
 metadata
-!
-!
 .
 contains
 (
@@ -332,8 +330,6 @@ assertTrue
 fact
 .
 metadata
-!
-!
 .
 contains
 (
@@ -350,8 +346,6 @@ value1
 fact
 .
 metadata
-!
-!
 [
 "
 key1
@@ -366,8 +360,6 @@ value2
 fact
 .
 metadata
-!
-!
 [
 "
 key2

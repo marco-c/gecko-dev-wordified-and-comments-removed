@@ -313,8 +313,6 @@ assertEquals
 (
 engineSession
 extensionOpeningPopup
-!
-!
 .
 popupSession
 )

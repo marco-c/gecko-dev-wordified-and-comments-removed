@@ -500,8 +500,6 @@ png
 result
 .
 attachment
-!
-!
 .
 mimetype
 )
@@ -515,8 +513,6 @@ path
 result
 .
 attachment
-!
-!
 .
 location
 )
@@ -528,8 +524,6 @@ abc123hash
 result
 .
 attachment
-!
-!
 .
 hash
 )
@@ -539,8 +533,6 @@ assertEquals
 result
 .
 attachment
-!
-!
 .
 size
 )

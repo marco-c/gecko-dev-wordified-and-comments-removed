@@ -434,8 +434,6 @@ SECONDS
 request
 .
 connectTimeout
-!
-!
 .
 second
 )
@@ -458,8 +456,6 @@ MINUTES
 request
 .
 readTimeout
-!
-!
 .
 second
 )

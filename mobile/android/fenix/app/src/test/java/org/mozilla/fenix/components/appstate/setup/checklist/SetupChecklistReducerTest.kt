@@ -435,8 +435,6 @@ assertFalse
 appState
 .
 setupChecklistState
-!
-!
 .
 checklistItems
 [
@@ -509,8 +507,6 @@ assertTrue
 reducedState
 .
 setupChecklistState
-!
-!
 .
 checklistItems
 [
@@ -985,8 +981,6 @@ assertFalse
 reducedState
 .
 setupChecklistState
-!
-!
 .
 checklistItems
 [
@@ -1057,8 +1051,6 @@ assertFalse
 reducedState2
 .
 setupChecklistState
-!
-!
 .
 checklistItems
 [

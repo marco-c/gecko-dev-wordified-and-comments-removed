@@ -730,8 +730,6 @@ toTypedArray
 assertTrue
 (
 request
-!
-!
 .
 originPermissions
 .
@@ -742,8 +740,6 @@ isEmpty
 assertTrue
 (
 request
-!
-!
 .
 dataCollectionPermissions
 .
@@ -1531,8 +1527,6 @@ isEmpty
 assertTrue
 (
 request
-!
-!
 .
 originPermissions
 .
@@ -1553,8 +1547,6 @@ toTypedArray
 (
 )
 request
-!
-!
 .
 dataCollectionPermissions
 .

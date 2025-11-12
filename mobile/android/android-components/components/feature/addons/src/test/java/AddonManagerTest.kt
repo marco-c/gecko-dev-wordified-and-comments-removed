@@ -1605,8 +1605,6 @@ assertNull
 addon1
 .
 installedState
-!
-!
 .
 optionsPageUrl
 )
@@ -1615,8 +1613,6 @@ assertFalse
 addon1
 .
 installedState
-!
-!
 .
 openOptionsPageInTab
 )
@@ -1763,8 +1759,6 @@ moz
 addon3
 .
 installedState
-!
-!
 .
 optionsPageUrl
 )
@@ -1773,8 +1767,6 @@ assertTrue
 addon3
 .
 installedState
-!
-!
 .
 openOptionsPageInTab
 )
@@ -1852,8 +1844,6 @@ assertNull
 addon4
 .
 installedState
-!
-!
 .
 optionsPageUrl
 )
@@ -1862,8 +1852,6 @@ assertFalse
 addon4
 .
 installedState
-!
-!
 .
 openOptionsPageInTab
 )
@@ -1941,8 +1929,6 @@ assertNull
 addon5
 .
 installedState
-!
-!
 .
 optionsPageUrl
 )
@@ -1951,8 +1937,6 @@ assertFalse
 addon5
 .
 installedState
-!
-!
 .
 openOptionsPageInTab
 )
@@ -2030,8 +2014,6 @@ assertNull
 addon6
 .
 installedState
-!
-!
 .
 optionsPageUrl
 )
@@ -2040,8 +2022,6 @@ assertFalse
 addon6
 .
 installedState
-!
-!
 .
 openOptionsPageInTab
 )
@@ -5086,8 +5066,6 @@ assertEquals
 nameFromMetadata
 "
 installedAddon
-!
-!
 .
 translateName
 (
@@ -5589,8 +5567,6 @@ not
 installed
 "
 throwable
-!
-!
 .
 localizedMessage
 )
@@ -5747,8 +5723,6 @@ test
 assertNotNull
 (
 throwable
-!
-!
 )
 assertEquals
 (
@@ -5756,8 +5730,6 @@ assertEquals
 test
 "
 throwable
-!
-!
 .
 localizedMessage
 )
@@ -6056,8 +6028,6 @@ assertEquals
 permission1
 "
 updateAddon
-!
-!
 .
 optionalPermissions
 .
@@ -6071,8 +6041,6 @@ assertEquals
 (
 true
 updateAddon
-!
-!
 .
 optionalPermissions
 .
@@ -6088,8 +6056,6 @@ assertEquals
 origin
 "
 updateAddon
-!
-!
 .
 optionalOrigins
 .
@@ -6103,8 +6069,6 @@ assertEquals
 (
 true
 updateAddon
-!
-!
 .
 optionalOrigins
 .
@@ -6804,8 +6768,6 @@ not
 installed
 "
 throwable
-!
-!
 .
 localizedMessage
 )
@@ -6973,8 +6935,6 @@ test
 assertNotNull
 (
 throwable
-!
-!
 )
 assertEquals
 (
@@ -6982,8 +6942,6 @@ assertEquals
 test
 "
 throwable
-!
-!
 .
 localizedMessage
 )
@@ -7342,8 +7300,6 @@ not
 installed
 "
 throwable
-!
-!
 .
 localizedMessage
 )
@@ -7503,8 +7459,6 @@ test
 assertNotNull
 (
 throwable
-!
-!
 )
 assertEquals
 (
@@ -7512,8 +7466,6 @@ assertEquals
 test
 "
 throwable
-!
-!
 .
 localizedMessage
 )

@@ -8448,8 +8448,6 @@ mock
 geckoPrompt
 )
 request
-!
-!
 .
 onDeny
 (
@@ -8484,8 +8482,6 @@ thenReturn
 true
 )
 request
-!
-!
 .
 onDeny
 (
@@ -8685,8 +8681,6 @@ mock
 geckoPrompt
 )
 request
-!
-!
 .
 onDeny
 (
@@ -8721,8 +8715,6 @@ thenReturn
 true
 )
 request
-!
-!
 .
 onDeny
 (
@@ -8835,8 +8827,6 @@ title
 "
 )
 request
-!
-!
 .
 onLeave
 (
@@ -8871,8 +8861,6 @@ thenReturn
 true
 )
 request
-!
-!
 .
 onLeave
 (
@@ -8910,8 +8898,6 @@ mock
 geckoPrompt
 )
 request
-!
-!
 .
 onStay
 (
@@ -8946,8 +8932,6 @@ thenReturn
 true
 )
 request
-!
-!
 .
 onStay
 (
@@ -9299,8 +9283,6 @@ onFailureWasCalled
 true
 }
 request
-!
-!
 .
 onFailure
 (
@@ -9334,8 +9316,6 @@ onFailureWasCalled
 =
 false
 request
-!
-!
 .
 onFailure
 (
@@ -9379,8 +9359,6 @@ onDismissWasCalled
 true
 }
 request
-!
-!
 .
 onDismiss
 (
