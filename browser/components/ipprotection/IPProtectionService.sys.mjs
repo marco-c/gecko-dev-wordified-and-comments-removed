@@ -431,8 +431,8 @@ functionality
 *
 *
 fires
-event
-:
+IPProtectionServiceSingleton
+#
 "
 IPProtectionService
 :

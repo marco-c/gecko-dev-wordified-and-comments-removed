@@ -77,8 +77,8 @@ Protection
 *
 *
 fires
-event
-:
+IPPNetworkErrorObserver
+#
 "
 proxy
 -
