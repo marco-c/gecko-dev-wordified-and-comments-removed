@@ -3,6 +3,11 @@ use
 strict
 '
 ;
+"
+use
+strict
+"
+;
 assert
 .
 sameValue
@@ -146,11 +151,8 @@ b
 test
 "
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -161,6 +163,7 @@ seal
 (
 array
 )
+TypeError
 )
 ;
 assert
@@ -176,11 +179,8 @@ array
 false
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -190,6 +190,7 @@ array
 c
 =
 15
+TypeError
 )
 ;
 assert
@@ -343,11 +344,8 @@ Int32Array
 1
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -358,6 +356,7 @@ freeze
 (
 array
 )
+TypeError
 )
 ;
 assert

@@ -374,7 +374,7 @@ h
 ;
 assert
 .
-compareArray
+deepEqual
 (
 Object
 .
@@ -394,7 +394,7 @@ a
 ;
 assert
 .
-compareArray
+deepEqual
 (
 log
 [

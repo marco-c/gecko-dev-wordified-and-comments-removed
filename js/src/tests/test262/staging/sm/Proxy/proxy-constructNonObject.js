@@ -39,11 +39,8 @@ callable
 handler
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 function
 (
 )
@@ -54,6 +51,7 @@ p
 )
 ;
 }
+TypeError
 "
 [
 [
@@ -76,11 +74,8 @@ construct
 =
 bogusConstructUndefined
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 function
 (
 )
@@ -91,6 +86,7 @@ p
 )
 ;
 }
+TypeError
 "
 [
 [

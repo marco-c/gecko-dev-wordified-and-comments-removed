@@ -31,12 +31,10 @@ super
 )
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-ReferenceError
 a1
+ReferenceError
 )
 ;
 assert

@@ -132,7 +132,7 @@ true
 ;
 assert
 .
-compareArray
+deepEqual
 (
 log
 [

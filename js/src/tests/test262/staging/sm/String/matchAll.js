@@ -558,13 +558,9 @@ g
 let
 otherGlobal
 =
-262
-.
-createRealm
+createNewGlobal
 (
 )
-.
-global
 ;
 let
 iterator

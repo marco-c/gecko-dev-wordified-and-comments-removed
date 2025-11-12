@@ -38,11 +38,8 @@ constructor
 )
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -72,6 +69,7 @@ slice
 )
 ;
 }
+TypeError
 "
 Assert
 that
@@ -278,11 +276,8 @@ constructor2
 )
 ;
 }
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -320,6 +315,7 @@ slice
 )
 ;
 }
+TypeError
 )
 ;
 }

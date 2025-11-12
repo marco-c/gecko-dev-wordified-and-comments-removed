@@ -1,13 +1,9 @@
 var
 global
 =
-262
-.
-createRealm
+createNewGlobal
 (
 )
-.
-global
 ;
 Promise
 .
@@ -23,7 +19,6 @@ prototype
 .
 then
 ;
-var
 p1
 =
 new
@@ -43,7 +38,6 @@ r
 }
 )
 ;
-var
 p2
 =
 p1

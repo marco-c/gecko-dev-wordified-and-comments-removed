@@ -1,6 +1,6 @@
 assert
 .
-sameValue
+compareArray
 (
 '
 2xyy
@@ -52,7 +52,7 @@ a
 ;
 assert
 .
-sameValue
+compareArray
 (
 '
 x2zyyxxy
@@ -124,7 +124,7 @@ a
 ;
 assert
 .
-sameValue
+compareArray
 (
 '
 2x
@@ -184,7 +184,7 @@ a
 ;
 assert
 .
-sameValue
+compareArray
 (
 '
 x2z
@@ -267,7 +267,7 @@ a
 ;
 assert
 .
-sameValue
+compareArray
 (
 '
 2x2y
@@ -320,7 +320,7 @@ a
 ;
 assert
 .
-sameValue
+compareArray
 (
 '
 x2z2y2xy

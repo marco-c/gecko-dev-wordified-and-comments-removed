@@ -114,7 +114,7 @@ HandlerProxy
 }
 assert
 .
-compareArray
+deepEqual
 (
 Object
 .

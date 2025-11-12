@@ -52,11 +52,8 @@ TestIterator
 undefined
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -67,6 +64,7 @@ reduce
 (
 sum
 )
+TypeError
 )
 ;
 iter
@@ -77,11 +75,8 @@ TestIterator
 null
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -92,6 +87,7 @@ reduce
 (
 sum
 )
+TypeError
 )
 ;
 iter
@@ -102,11 +98,8 @@ TestIterator
 0
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -117,6 +110,7 @@ reduce
 (
 sum
 )
+TypeError
 )
 ;
 iter
@@ -127,11 +121,8 @@ TestIterator
 false
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -142,6 +133,7 @@ reduce
 (
 sum
 )
+TypeError
 )
 ;
 iter
@@ -153,11 +145,8 @@ TestIterator
 '
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -168,6 +157,7 @@ reduce
 (
 sum
 )
+TypeError
 )
 ;
 iter
@@ -182,11 +172,8 @@ Symbol
 )
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -197,6 +184,7 @@ reduce
 (
 sum
 )
+TypeError
 )
 ;
 reportCompare

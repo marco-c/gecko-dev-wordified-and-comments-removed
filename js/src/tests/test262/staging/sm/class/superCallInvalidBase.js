@@ -13,11 +13,8 @@ super
 ;
 }
 }
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -26,13 +23,11 @@ new
 instance
 (
 )
+TypeError
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -45,6 +40,7 @@ null
 }
 (
 )
+TypeError
 )
 ;
 reportCompare

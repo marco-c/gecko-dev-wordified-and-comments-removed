@@ -22,7 +22,7 @@ bad
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 0
@@ -40,7 +40,7 @@ with
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 1
@@ -60,7 +60,7 @@ with
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 1

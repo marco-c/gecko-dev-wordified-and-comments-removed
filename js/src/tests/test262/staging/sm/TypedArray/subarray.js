@@ -1,3 +1,17 @@
+if
+(
+typeof
+262
+.
+detachArrayBuffer
+=
+=
+=
+"
+function
+"
+)
+{
 for
 (
 let
@@ -110,6 +124,7 @@ targetOffset
 elementSize
 )
 ;
+}
 }
 reportCompare
 (

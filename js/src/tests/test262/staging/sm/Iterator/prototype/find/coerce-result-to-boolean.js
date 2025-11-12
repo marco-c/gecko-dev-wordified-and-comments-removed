@@ -276,9 +276,9 @@ object
 const
 htmlDDA
 =
-262
-.
-IsHTMLDDA
+createIsHTMLDDA
+(
+)
 ;
 assert
 .

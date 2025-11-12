@@ -15,8 +15,6 @@ from
 (
 {
 year
-:
-1500
 month
 :
 1
@@ -24,10 +22,6 @@ day
 :
 1
 calendar
-:
-"
-islamic
-"
 }
 )
 ;

@@ -10,7 +10,6 @@ undefined
 "
 )
 {
-var
 window
 =
 this

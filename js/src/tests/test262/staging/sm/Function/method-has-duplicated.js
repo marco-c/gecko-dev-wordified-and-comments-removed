@@ -5,11 +5,8 @@ a
 )
 {
 }
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-SyntaxError
 (
 )
 =
@@ -29,13 +26,11 @@ a
 )
 ;
 )
+SyntaxError
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-SyntaxError
 (
 )
 =
@@ -58,6 +53,7 @@ a
 )
 ;
 )
+SyntaxError
 )
 ;
 reportCompare

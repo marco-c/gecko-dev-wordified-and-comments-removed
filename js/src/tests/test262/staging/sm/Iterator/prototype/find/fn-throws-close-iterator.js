@@ -68,11 +68,8 @@ closed
 false
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-Error
 (
 )
 =
@@ -83,6 +80,7 @@ find
 (
 fn
 )
+Error
 )
 ;
 assert

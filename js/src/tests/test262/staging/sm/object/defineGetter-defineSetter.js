@@ -141,11 +141,8 @@ undefined
 null
 ]
 )
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -160,6 +157,7 @@ x
 "
 define
 )
+TypeError
 )
 ;
 let
@@ -187,11 +185,8 @@ value
 of
 nonCallable
 )
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -206,6 +201,7 @@ x
 "
 value
 )
+TypeError
 )
 ;
 let
@@ -260,11 +256,8 @@ invoked
 }
 }
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -277,6 +270,7 @@ verifyProxy
 key
 define
 )
+TypeError
 )
 ;
 key

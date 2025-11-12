@@ -3,6 +3,11 @@ use
 strict
 '
 ;
+"
+use
+strict
+"
+;
 Object
 .
 defineProperty

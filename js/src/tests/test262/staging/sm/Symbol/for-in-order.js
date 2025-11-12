@@ -102,7 +102,7 @@ k
 ;
 assert
 .
-compareArray
+deepEqual
 (
 keys
 [
@@ -120,7 +120,7 @@ z
 ;
 assert
 .
-compareArray
+deepEqual
 (
 Object
 .
@@ -192,7 +192,7 @@ k
 ;
 assert
 .
-compareArray
+deepEqual
 (
 keys
 [

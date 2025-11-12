@@ -477,13 +477,9 @@ testBuiltin
 DataView
 new
 (
-262
-.
-createRealm
+createNewGlobal
 (
 )
-.
-global
 .
 ArrayBuffer
 )

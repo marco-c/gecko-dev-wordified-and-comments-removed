@@ -269,11 +269,8 @@ false
 }
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -284,6 +281,7 @@ isExtensible
 (
 proxy
 )
+TypeError
 )
 ;
 reportCompare

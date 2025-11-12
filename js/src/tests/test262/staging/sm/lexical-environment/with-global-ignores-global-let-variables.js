@@ -58,6 +58,14 @@ purposes
 "
 )
 ;
+print
+(
+"
+Tests
+complete
+"
+)
+;
 reportCompare
 (
 0

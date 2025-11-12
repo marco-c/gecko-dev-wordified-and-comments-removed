@@ -542,11 +542,8 @@ max
 true
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-RangeError
 (
 )
 =
@@ -561,6 +558,7 @@ length
 Infinity
 }
 )
+RangeError
 )
 ;
 var

@@ -98,11 +98,8 @@ closed
 false
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TestError
 (
 )
 =
@@ -112,6 +109,7 @@ mapped
 next
 (
 )
+TestError
 )
 ;
 assert

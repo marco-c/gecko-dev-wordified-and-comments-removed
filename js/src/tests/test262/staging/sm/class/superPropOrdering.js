@@ -359,11 +359,8 @@ derived
 (
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -373,6 +370,7 @@ instance
 testElem
 (
 )
+TypeError
 )
 ;
 reset

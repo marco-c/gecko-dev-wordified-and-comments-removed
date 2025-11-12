@@ -1,6 +1,6 @@
 assert
 .
-sameValue
+compareArray
 (
 3
 '
@@ -31,7 +31,7 @@ y
 ;
 assert
 .
-sameValue
+compareArray
 (
 3
 '
@@ -62,7 +62,7 @@ x
 ;
 assert
 .
-sameValue
+compareArray
 (
 1
 '
@@ -93,7 +93,7 @@ y
 ;
 assert
 .
-sameValue
+compareArray
 (
 1
 '

@@ -22,7 +22,7 @@ foo
 ;
 assert
 .
-compareArray
+deepEqual
 (
 names
 [
@@ -67,7 +67,7 @@ foo
 ;
 assert
 .
-compareArray
+deepEqual
 (
 names
 [
@@ -114,7 +114,7 @@ desc
 ;
 assert
 .
-compareArray
+deepEqual
 (
 names
 [

@@ -332,13 +332,9 @@ true
 var
 g
 =
-262
-.
-createRealm
+createNewGlobal
 (
 )
-.
-global
 ;
 var
 wrappedSuper

@@ -1,13 +1,9 @@
 var
 g
 =
-262
-.
-createRealm
+createNewGlobal
 (
 )
-.
-global
 ;
 var
 arr

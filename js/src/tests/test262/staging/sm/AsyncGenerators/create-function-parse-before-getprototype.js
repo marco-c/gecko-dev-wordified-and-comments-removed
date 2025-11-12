@@ -51,11 +51,8 @@ function
 .
 constructor
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-SyntaxError
 (
 )
 =
@@ -75,6 +72,7 @@ newTarget
 )
 ;
 }
+SyntaxError
 )
 ;
 assert

@@ -172,11 +172,8 @@ nonsym
 of
 nonsymbols
 )
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -191,6 +188,7 @@ call
 (
 nonsym
 )
+TypeError
 )
 ;
 reportCompare

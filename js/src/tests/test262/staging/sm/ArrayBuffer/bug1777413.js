@@ -1,8 +1,7 @@
 var
 b
 =
-new
-ArrayBuffer
+createExternalArrayBuffer
 (
 0
 )

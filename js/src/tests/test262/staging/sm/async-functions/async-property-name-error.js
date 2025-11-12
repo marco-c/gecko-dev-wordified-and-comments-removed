@@ -4,11 +4,8 @@ assertSyntaxError
 code
 )
 {
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-SyntaxError
 (
 )
 =
@@ -20,6 +17,7 @@ code
 )
 ;
 }
+SyntaxError
 "
 Function
 :
@@ -28,11 +26,8 @@ Function
 code
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-SyntaxError
 (
 )
 =
@@ -44,6 +39,7 @@ code
 )
 ;
 }
+SyntaxError
 "
 eval
 :
@@ -57,11 +53,8 @@ ieval
 =
 eval
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-SyntaxError
 (
 )
 =
@@ -73,6 +66,7 @@ code
 )
 ;
 }
+SyntaxError
 "
 indirect
 eval

@@ -9,13 +9,10 @@ window
 undefined
 "
 )
-{
-var
 window
 =
 this
 ;
-}
 Object
 .
 defineProperty

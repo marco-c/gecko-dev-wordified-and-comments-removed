@@ -11,11 +11,8 @@ Float32Array
 ]
 )
 {
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -32,6 +29,7 @@ a
 )
 ]
 )
+TypeError
 )
 ;
 var
@@ -45,11 +43,8 @@ T
 ]
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -65,6 +60,7 @@ Symbol
 iterator
 ;
 }
+TypeError
 )
 ;
 assert

@@ -94,11 +94,8 @@ unclosed
 '
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TestError
 (
 )
 =
@@ -108,6 +105,7 @@ iterator
 toArray
 (
 )
+TestError
 )
 ;
 assert

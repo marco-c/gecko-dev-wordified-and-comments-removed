@@ -122,13 +122,9 @@ sym
 var
 obj2
 =
-262
-.
-createRealm
+createNewGlobal
 (
 )
-.
-global
 .
 Object
 (
@@ -200,11 +196,8 @@ of
 nonSymbols
 )
 {
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -218,6 +211,7 @@ value
 string
 "
 )
+TypeError
 )
 ;
 }

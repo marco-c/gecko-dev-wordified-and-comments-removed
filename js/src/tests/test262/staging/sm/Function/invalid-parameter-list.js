@@ -152,11 +152,8 @@ DumpFunction
 test
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-SyntaxError
 (
 )
 =
@@ -169,6 +166,7 @@ Function
 .
 test
 )
+SyntaxError
 )
 ;
 }

@@ -237,6 +237,14 @@ stringify
 undefined
 )
 ;
+print
+(
+"
+Tests
+complete
+"
+)
+;
 reportCompare
 (
 0

@@ -474,11 +474,8 @@ invalidReceiver
 =
 >
 {
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -496,6 +493,7 @@ invalidReceiver
 )
 ;
 }
+TypeError
 "
 Assert
 that
@@ -1228,11 +1226,8 @@ invalidReceiver
 =
 >
 {
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -1250,6 +1245,7 @@ invalidReceiver
 )
 ;
 }
+TypeError
 "
 Assert
 that

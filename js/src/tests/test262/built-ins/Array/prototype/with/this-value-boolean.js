@@ -176,6 +176,8 @@ RangeError
 )
 =
 >
+compareArray
+(
 Array
 .
 prototype
@@ -187,6 +189,7 @@ call
 true
 0
 2
+)
 )
 "
 Array
@@ -211,6 +214,8 @@ RangeError
 )
 =
 >
+compareArray
+(
 Array
 .
 prototype
@@ -222,6 +227,7 @@ call
 false
 0
 2
+)
 )
 "
 Array

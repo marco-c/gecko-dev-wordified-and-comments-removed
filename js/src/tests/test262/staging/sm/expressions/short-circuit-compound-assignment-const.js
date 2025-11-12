@@ -43,11 +43,8 @@ b
 =
 true
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -60,6 +57,7 @@ b
 1
 ;
 }
+TypeError
 )
 ;
 assert
@@ -113,11 +111,8 @@ use
 strict
 "
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -130,6 +125,7 @@ fn
 1
 ;
 }
+TypeError
 )
 ;
 assert
@@ -174,11 +170,8 @@ b
 =
 false
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -191,6 +184,7 @@ b
 0
 ;
 }
+TypeError
 )
 ;
 assert
@@ -296,11 +290,8 @@ b
 =
 null
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -313,6 +304,7 @@ b
 0
 ;
 }
+TypeError
 )
 ;
 assert

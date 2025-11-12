@@ -35,6 +35,16 @@ strict
 null
 )
 ;
+print
+(
+"
+All
+tests
+passed
+!
+"
+)
+;
 reportCompare
 (
 0

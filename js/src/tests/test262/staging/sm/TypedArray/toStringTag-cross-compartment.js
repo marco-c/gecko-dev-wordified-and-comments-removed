@@ -30,13 +30,9 @@ toStringTag
 const
 otherGlobal
 =
-262
-.
-createRealm
+createNewGlobal
 (
 )
-.
-global
 ;
 for
 (

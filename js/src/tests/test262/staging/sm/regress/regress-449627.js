@@ -41,7 +41,6 @@ undefined
 '
 )
 {
-var
 navigator
 =
 {
@@ -63,7 +62,6 @@ Mac
 }
 ;
 }
-var
 global
 =
 this

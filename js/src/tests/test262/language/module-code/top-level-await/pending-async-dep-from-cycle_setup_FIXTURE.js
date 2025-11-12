@@ -1,7 +1,0 @@
-globalThis
-.
-logs
-=
-[
-]
-;

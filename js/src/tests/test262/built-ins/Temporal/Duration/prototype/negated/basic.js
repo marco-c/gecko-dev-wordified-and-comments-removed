@@ -28,7 +28,7 @@ negated
 0
 0
 "
-blank
+zeros
 "
 )
 ;

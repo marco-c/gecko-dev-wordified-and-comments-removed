@@ -63,11 +63,8 @@ n
 ;
 }
 }
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -84,6 +81,7 @@ array
 0
 1
 )
+TypeError
 )
 ;
 assert
@@ -176,11 +174,8 @@ n
 ;
 }
 }
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -198,6 +193,7 @@ array
 0
 123
 )
+TypeError
 )
 ;
 assert

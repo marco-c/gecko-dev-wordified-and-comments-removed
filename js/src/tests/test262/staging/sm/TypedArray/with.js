@@ -57,11 +57,8 @@ of
 indices
 )
 {
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-Err
 (
 )
 =
@@ -117,11 +114,8 @@ return
 }
 }
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-RangeError
 (
 )
 =
@@ -133,6 +127,7 @@ with
 index
 value
 )
+RangeError
 )
 ;
 }

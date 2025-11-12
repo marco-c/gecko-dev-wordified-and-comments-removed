@@ -56,7 +56,7 @@ true
 ;
 assert
 .
-compareArray
+deepEqual
 (
 get
 [

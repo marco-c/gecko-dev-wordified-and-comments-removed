@@ -132,11 +132,8 @@ toSourceParameter
 code
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-SyntaxError
 (
 )
 =
@@ -148,6 +145,7 @@ code
 )
 ;
 }
+SyntaxError
 constructor
 .
 name
@@ -159,11 +157,8 @@ name
 code
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-SyntaxError
 (
 )
 =
@@ -181,6 +176,7 @@ code
 )
 ;
 }
+SyntaxError
 constructor
 .
 name
@@ -192,11 +188,8 @@ name
 code
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-SyntaxError
 (
 )
 =
@@ -208,6 +201,7 @@ body
 )
 ;
 }
+SyntaxError
 "
 eval
 :
@@ -216,11 +210,8 @@ eval
 body
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-SyntaxError
 (
 )
 =
@@ -232,6 +223,7 @@ body
 )
 ;
 }
+SyntaxError
 "
 indirect
 eval
@@ -241,11 +233,8 @@ eval
 body
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-SyntaxError
 (
 )
 =
@@ -257,6 +246,7 @@ parameter
 )
 ;
 }
+SyntaxError
 "
 eval
 :
@@ -265,11 +255,8 @@ eval
 parameter
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-SyntaxError
 (
 )
 =
@@ -281,6 +268,7 @@ parameter
 )
 ;
 }
+SyntaxError
 "
 indirect
 eval

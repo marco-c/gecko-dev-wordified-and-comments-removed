@@ -143,11 +143,8 @@ closed
 false
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -161,6 +158,7 @@ next
 (
 value
 )
+TypeError
 )
 ;
 assert

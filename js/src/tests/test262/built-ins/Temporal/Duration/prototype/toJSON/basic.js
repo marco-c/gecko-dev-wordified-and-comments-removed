@@ -21,7 +21,7 @@ toJSON
 PT0S
 "
 "
-blank
+zero
 duration
 "
 )

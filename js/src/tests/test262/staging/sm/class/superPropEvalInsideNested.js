@@ -1,8 +1,5 @@
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-SyntaxError
 (
 )
 =
@@ -39,6 +36,7 @@ toString
 method
 (
 )
+SyntaxError
 )
 ;
 reportCompare

@@ -73,6 +73,14 @@ foo
 915805
 )
 ;
+print
+(
+"
+Tests
+complete
+"
+)
+;
 reportCompare
 (
 0

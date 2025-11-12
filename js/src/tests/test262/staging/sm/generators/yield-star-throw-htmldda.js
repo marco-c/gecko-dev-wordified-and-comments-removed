@@ -47,9 +47,9 @@ false
 }
 throw
 :
-262
-.
-IsHTMLDDA
+createIsHTMLDDA
+(
+)
 return
 (
 )
@@ -75,11 +75,8 @@ next
 (
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -91,6 +88,7 @@ throw
 "
 "
 )
+TypeError
 )
 ;
 assert

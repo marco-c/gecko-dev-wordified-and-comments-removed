@@ -28,7 +28,7 @@ abs
 0
 0
 "
-blank
+empty
 "
 )
 ;

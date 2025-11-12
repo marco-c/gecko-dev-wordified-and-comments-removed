@@ -73,11 +73,8 @@ iterator
 undefined
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -87,13 +84,11 @@ Symbol
 keyFor
 (
 )
+TypeError
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -112,6 +107,7 @@ moon
 )
 )
 )
+TypeError
 )
 ;
 assert

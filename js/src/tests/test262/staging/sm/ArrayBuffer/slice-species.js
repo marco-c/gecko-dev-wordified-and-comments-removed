@@ -342,7 +342,7 @@ MyArrayBuffer
 ;
 assert
 .
-compareArray
+deepEqual
 (
 logs
 [
@@ -365,7 +365,7 @@ ctor
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 .
@@ -424,7 +424,7 @@ MyArrayBuffer
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 .
@@ -492,7 +492,7 @@ MyArrayBufferWithSpecies
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 .
@@ -549,7 +549,7 @@ ArrayBuffer
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 .
@@ -606,7 +606,7 @@ ArrayBuffer
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 .
@@ -669,11 +669,8 @@ species
 species
 }
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -685,6 +682,7 @@ slice
 8
 16
 )
+TypeError
 )
 ;
 }
@@ -722,7 +720,7 @@ ArrayBuffer
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 .
@@ -771,11 +769,8 @@ constructor
 =
 ctor
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -787,19 +782,16 @@ slice
 8
 16
 )
+TypeError
 )
 ;
 }
 let
 g
 =
-262
-.
-createRealm
+createNewGlobal
 (
 )
-.
-global
 ;
 g
 .
@@ -865,7 +857,7 @@ MyArrayBuffer
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 .
@@ -926,7 +918,7 @@ ArrayBuffer
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 .
@@ -1008,7 +1000,7 @@ MyArrayBufferWithSpecies
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 .
@@ -1097,7 +1089,7 @@ ArrayBuffer
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 .
@@ -1138,7 +1130,7 @@ ArrayBuffer
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 .

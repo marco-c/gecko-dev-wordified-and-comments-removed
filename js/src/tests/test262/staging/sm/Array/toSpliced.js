@@ -46,7 +46,7 @@ bad
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 ]
@@ -64,7 +64,7 @@ toSpliced
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 0
@@ -84,7 +84,7 @@ toSpliced
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 0
@@ -104,7 +104,7 @@ toSpliced
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 0
@@ -123,7 +123,7 @@ toSpliced
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 0
@@ -142,7 +142,7 @@ toSpliced
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 0
@@ -162,7 +162,7 @@ toSpliced
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 0
@@ -182,7 +182,7 @@ toSpliced
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 0
@@ -202,7 +202,7 @@ toSpliced
 ;
 assert
 .
-compareArray
+deepEqual
 (
 [
 0

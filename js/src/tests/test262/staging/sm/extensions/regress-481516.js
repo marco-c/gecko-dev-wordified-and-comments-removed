@@ -1,4 +1,21 @@
 var
+BUGNUMBER
+=
+481516
+;
+var
+summary
+=
+'
+TM
+:
+pobj_
+=
+=
+obj2
+'
+;
+var
 actual
 =
 '
@@ -25,7 +42,6 @@ expect
 1111222
 '
 ;
-var
 a
 =
 {
@@ -34,7 +50,6 @@ x
 1
 }
 ;
-var
 b
 =
 {
@@ -43,7 +58,6 @@ __proto__
 a
 }
 ;
-var
 c
 =
 {
@@ -52,7 +66,6 @@ __proto__
 b
 }
 ;
-var
 objs
 =
 [
@@ -86,7 +99,6 @@ a
 ;
 for
 (
-var
 i
 =
 0
@@ -100,6 +112,8 @@ i
 +
 )
 {
+print
+(
 actual
 +
 =
@@ -109,6 +123,7 @@ actual
 c
 .
 x
+)
 ;
 objs
 [
@@ -120,12 +135,15 @@ x
 2
 ;
 }
+print
+(
 actual
 +
 =
 c
 .
 x
+)
 ;
 assert
 .
@@ -133,6 +151,7 @@ sameValue
 (
 expect
 actual
+summary
 )
 ;
 }

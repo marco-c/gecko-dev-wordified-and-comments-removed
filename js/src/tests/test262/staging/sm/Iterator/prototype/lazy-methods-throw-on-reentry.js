@@ -69,11 +69,8 @@ next
 )
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -83,6 +80,7 @@ iterHelper
 next
 (
 )
+TypeError
 )
 ;
 }

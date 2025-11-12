@@ -78,11 +78,8 @@ of
 nonconstructors
 )
 {
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -99,6 +96,7 @@ arr
 )
 ;
 }
+TypeError
 )
 ;
 }

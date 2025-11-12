@@ -1,6 +1,3 @@
-var
-a
-;
 a
 =
 function

@@ -3,6 +3,10 @@ use
 strict
 '
 ;
+"
+use
+strict
+"
 var
 log
 =

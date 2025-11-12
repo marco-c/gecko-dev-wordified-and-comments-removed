@@ -188,11 +188,8 @@ false
 )
 ;
 }
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -216,6 +213,7 @@ instanceof
 obj
 ;
 }
+TypeError
 )
 ;
 let
@@ -618,11 +616,8 @@ configurable
 false
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -666,6 +661,7 @@ instanceof
 p
 ;
 }
+TypeError
 )
 ;
 reportCompare

@@ -1354,6 +1354,14 @@ b
 '
 )
 ;
+print
+(
+"
+Tests
+complete
+"
+)
+;
 reportCompare
 (
 0

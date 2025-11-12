@@ -77,11 +77,8 @@ Math
 sin
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-MyError
 (
 )
 =
@@ -90,6 +87,7 @@ new
 beforeThrow
 (
 )
+MyError
 )
 ;
 reportCompare

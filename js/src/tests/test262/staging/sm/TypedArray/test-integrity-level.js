@@ -90,11 +90,8 @@ Int32Array
 length
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -105,6 +102,7 @@ seal
 (
 ta
 )
+TypeError
 )
 ;
 assert
@@ -224,11 +222,8 @@ Int32Array
 length
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -239,6 +234,7 @@ freeze
 (
 ta
 )
+TypeError
 )
 ;
 assert

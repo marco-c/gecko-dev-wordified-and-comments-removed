@@ -118,11 +118,8 @@ closed
 false
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TestError
 (
 )
 =
@@ -135,6 +132,7 @@ iter
 next
 (
 )
+TestError
 )
 ;
 assert

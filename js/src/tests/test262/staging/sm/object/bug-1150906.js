@@ -60,11 +60,8 @@ set
 undefined
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -83,6 +80,7 @@ obj
 1
 ;
 }
+TypeError
 )
 ;
 reportCompare

@@ -752,11 +752,8 @@ re
 sticky
 )
 {
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -771,6 +768,7 @@ re
 input
 ]
 )
+TypeError
 )
 ;
 }
@@ -878,11 +876,8 @@ re
 sticky
 )
 {
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -897,6 +892,7 @@ re
 input
 ]
 )
+TypeError
 )
 ;
 assert

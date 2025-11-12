@@ -602,11 +602,8 @@ obj
 obj
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 function
 (
 )
@@ -624,6 +621,7 @@ s2
 2
 ;
 }
+TypeError
 )
 ;
 obj

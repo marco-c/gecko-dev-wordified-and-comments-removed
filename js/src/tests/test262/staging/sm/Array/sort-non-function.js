@@ -26,11 +26,8 @@ Symbol
 ]
 )
 {
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -41,6 +38,7 @@ sort
 (
 invalidComparator
 )
+TypeError
 )
 ;
 }

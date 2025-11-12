@@ -121,7 +121,7 @@ testAsserts
 {
 assert
 .
-compareArray
+deepEqual
 (
 seenValues
 testArr

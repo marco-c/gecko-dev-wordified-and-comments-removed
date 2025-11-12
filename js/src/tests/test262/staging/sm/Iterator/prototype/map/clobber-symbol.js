@@ -2,11 +2,8 @@ Symbol
 =
 undefined
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -14,6 +11,7 @@ TypeError
 Symbol
 .
 iterator
+TypeError
 )
 ;
 const

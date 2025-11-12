@@ -209,13 +209,9 @@ sym2
 {
 object
 :
-262
-.
-createRealm
+createNewGlobal
 (
 )
-.
-global
 .
 Math
 keys
@@ -241,7 +237,7 @@ cases
 )
 assert
 .
-compareArray
+deepEqual
 (
 Reflect
 .
@@ -351,7 +347,7 @@ proxy
 ;
 assert
 .
-compareArray
+deepEqual
 (
 actual
 keys
@@ -403,11 +399,8 @@ something
 }
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -418,6 +411,7 @@ ownKeys
 (
 proxy
 )
+TypeError
 )
 ;
 reportCompare

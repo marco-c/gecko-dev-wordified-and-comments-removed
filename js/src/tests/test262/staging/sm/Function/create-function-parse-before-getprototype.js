@@ -38,11 +38,8 @@ null
 }
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-SyntaxError
 (
 )
 =
@@ -62,6 +59,7 @@ newTarget
 )
 ;
 }
+SyntaxError
 )
 ;
 assert

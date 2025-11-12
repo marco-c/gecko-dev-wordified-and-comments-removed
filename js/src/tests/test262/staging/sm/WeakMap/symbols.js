@@ -44,11 +44,8 @@ testKey
 "
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -60,6 +57,7 @@ set
 sym1
 1
 )
+TypeError
 )
 ;
 var

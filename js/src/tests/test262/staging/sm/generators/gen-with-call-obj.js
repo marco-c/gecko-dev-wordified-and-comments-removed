@@ -52,7 +52,6 @@ j
 ;
 for
 (
-var
 i
 of
 gen

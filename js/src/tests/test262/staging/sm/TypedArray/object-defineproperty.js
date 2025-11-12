@@ -119,11 +119,8 @@ of
 throws
 )
 {
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 function
 (
 )
@@ -138,13 +135,11 @@ desc
 )
 ;
 }
+TypeError
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 function
 (
 )
@@ -162,6 +157,7 @@ desc
 )
 ;
 }
+TypeError
 )
 ;
 }

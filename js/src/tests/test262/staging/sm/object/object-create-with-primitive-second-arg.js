@@ -37,11 +37,8 @@ null
 }
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -53,6 +50,7 @@ create
 null
 null
 )
+TypeError
 )
 ;
 reportCompare

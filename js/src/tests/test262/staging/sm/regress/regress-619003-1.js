@@ -31,11 +31,8 @@ b
 i
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOfWithMessage
 (
-SyntaxError
 (
 )
 =
@@ -69,6 +66,7 @@ a
 )
 "
 )
+SyntaxError
 '
 duplicate
 argument

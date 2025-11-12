@@ -1,13 +1,9 @@
 const
 otherGlobal
 =
-262
-.
-createRealm
+createNewGlobal
 (
 )
-.
-global
 ;
 const
 intArrayConstructors

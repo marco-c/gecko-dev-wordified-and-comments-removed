@@ -96,11 +96,8 @@ of
 descriptors
 )
 {
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -116,13 +113,11 @@ x
 descriptor
 }
 )
+TypeError
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -139,6 +134,7 @@ x
 descriptor
 }
 )
+TypeError
 )
 ;
 }

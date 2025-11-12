@@ -427,11 +427,8 @@ noSuchPropName
 undefined
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -441,13 +438,11 @@ sym
 noSuchProp
 (
 )
+TypeError
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -458,6 +453,7 @@ noSuchPropName
 ]
 (
 )
+TypeError
 )
 ;
 }

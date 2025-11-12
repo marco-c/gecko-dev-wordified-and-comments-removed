@@ -38,11 +38,8 @@ return
 }
 }
 }
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-ReferenceError
 (
 )
 =
@@ -51,6 +48,7 @@ new
 derived
 (
 )
+ReferenceError
 )
 ;
 reportCompare

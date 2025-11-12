@@ -112,6 +112,23 @@ string
 -
 property
 "
+]
+;
+if
+(
+typeof
+Symbol
+=
+=
+=
+'
+function
+'
+)
+properties
+.
+push
+(
 Symbol
 (
 "
@@ -120,7 +137,7 @@ symbol
 property
 "
 )
-]
+)
 ;
 for
 (
@@ -167,7 +184,7 @@ false
 ;
 assert
 .
-compareArray
+deepEqual
 (
 log
 [
@@ -217,7 +234,7 @@ true
 ;
 assert
 .
-compareArray
+deepEqual
 (
 log
 [
@@ -278,7 +295,7 @@ false
 ;
 assert
 .
-compareArray
+deepEqual
 (
 log
 [
@@ -333,7 +350,7 @@ false
 ;
 assert
 .
-compareArray
+deepEqual
 (
 log
 [
@@ -388,7 +405,7 @@ false
 ;
 assert
 .
-compareArray
+deepEqual
 (
 log
 [

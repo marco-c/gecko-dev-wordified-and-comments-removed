@@ -1,4 +1,3 @@
-var
 source
 =
 class

@@ -53,7 +53,7 @@ objects
 {
 assert
 .
-compareArray
+deepEqual
 (
 Array
 .
@@ -77,7 +77,7 @@ obj
 ;
 assert
 .
-compareArray
+deepEqual
 (
 Array
 .
@@ -101,17 +101,15 @@ obj
 (
 )
 ;
-assert
-.
-throws
+assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
 >
 new
 obj
+TypeError
 )
 ;
 }
