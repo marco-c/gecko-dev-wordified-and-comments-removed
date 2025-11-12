@@ -131,9 +131,8 @@ should
 open
 to
 the
-password
-and
-login
+logins
+list
 fragment
 .
 *
@@ -195,7 +194,7 @@ directions
 =
 NavGraphDirections
 .
-actionGlobalSavedLoginsAuthFragment
+actionLoginsListFragment
 (
 )
 navController
