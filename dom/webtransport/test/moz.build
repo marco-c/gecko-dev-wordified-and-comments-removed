@@ -6,3 +6,13 @@ TEST_DIRS
 xpcshell
 "
 ]
+MOCHITEST_CHROME_MANIFESTS
++
+=
+[
+"
+chrome
+.
+toml
+"
+]
