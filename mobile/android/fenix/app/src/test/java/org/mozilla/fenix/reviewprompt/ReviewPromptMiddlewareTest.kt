@@ -1359,7 +1359,7 @@ Eligible
 (
 Type
 .
-PlayStore
+Custom
 )
 )
 store

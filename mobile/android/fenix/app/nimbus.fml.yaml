@@ -5460,10 +5460,6 @@ controls
 the
 Play
 store
-in
--
-app
-custom
 review
 prompt
 .
@@ -5479,9 +5475,9 @@ not
 to
 enable
 the
-custom
-review
-prompt
+new
+trigger
+criteria
 .
 type
 :
