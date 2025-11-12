@@ -1243,14 +1243,6 @@ string
 .
 pref_key_show_recent_search_suggestions
 )
-getString
-(
-R
-.
-string
-.
-pref_key_show_shortcuts_suggestions
-)
 )
 }
 preferenceManager

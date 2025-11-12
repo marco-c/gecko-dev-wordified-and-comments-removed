@@ -2256,7 +2256,6 @@ pref_key_show_voice_search
 pref_key_show_search_suggestions_in_private
 pref_key_show_trending_search_suggestions
 pref_key_show_recent_search_suggestions
-pref_key_show_shortcuts_suggestions
 .
 type
 :
