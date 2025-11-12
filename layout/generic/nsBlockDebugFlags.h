@@ -35,17 +35,6 @@ undef
 NOISY_REMOVE_FRAME
 #
 undef
-NOISY_COMBINED_AREA
-/
-/
-enables
-debug
-output
-for
-combined
-area
-#
-undef
 NOISY_BLOCK_DIR_MARGINS
 #
 undef
