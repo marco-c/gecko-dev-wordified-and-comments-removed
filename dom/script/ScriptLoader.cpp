@@ -18024,6 +18024,12 @@ UpdateDiskCache
 (
 )
 {
+MOZ_ASSERT
+(
+!
+mCache
+)
+;
 LOG
 (
 (
