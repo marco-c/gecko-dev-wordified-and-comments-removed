@@ -457,7 +457,7 @@ is_scripting_enabled
 context_in_user_context_1
 )
 is
-True
+False
     
 await
 bidi_session
@@ -490,7 +490,7 @@ is_scripting_enabled
 context_in_user_context_1
 )
 is
-True
+False
     
 context_in_user_context_2
 =
@@ -530,15 +530,10 @@ emulation
 set_scripting_enabled
 (
         
-contexts
+user_contexts
 =
 [
-context_in_user_context_1
-[
-"
-context
-"
-]
+user_context
 ]
         
 enabled
