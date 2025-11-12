@@ -19,13 +19,11 @@ createSummarizer
 (
 )
 ;
-assert_equals
+assert_true
 (
-typeof
 summarizer
-'
-object
-'
+instanceof
+Summarizer
 )
 ;
 assert_equals

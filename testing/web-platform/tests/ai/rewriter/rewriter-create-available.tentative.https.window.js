@@ -19,13 +19,11 @@ createRewriter
 (
 )
 ;
-assert_equals
+assert_true
 (
-typeof
 rewriter
-'
-object
-'
+instanceof
+Rewriter
 )
 ;
 assert_equals

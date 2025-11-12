@@ -19,13 +19,11 @@ createWriter
 (
 )
 ;
-assert_equals
+assert_true
 (
-typeof
 writer
-'
-object
-'
+instanceof
+Writer
 )
 ;
 assert_equals
