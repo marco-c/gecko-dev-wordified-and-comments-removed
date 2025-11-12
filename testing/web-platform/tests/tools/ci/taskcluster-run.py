@@ -661,11 +661,15 @@ headless
 "
 if
 product
-=
-=
+in
+(
 "
 wpewebkit_minibrowser
 "
+"
+servo
+"
+)
 else
 "
 -
