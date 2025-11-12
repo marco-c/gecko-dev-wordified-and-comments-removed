@@ -912,7 +912,7 @@ opus_val32
 celt_sig
 ;
 typedef
-opus_val32
+opus_val16
 celt_norm
 ;
 typedef
@@ -988,7 +988,6 @@ f
 /
 256
 .
-f
 )
 *
 (
@@ -1290,10 +1289,6 @@ SIG_SHIFT
 8
 )
 #
-define
-NORM_SHIFT
-24
-#
 ifdef
 ENABLE_QEXT
 typedef
@@ -1476,12 +1471,7 @@ SIG_SAT
 #
 define
 NORM_SCALING
-(
-1
-<
-<
-NORM_SHIFT
-)
+16384
 #
 define
 DB_SHIFT
@@ -2841,7 +2831,6 @@ f
 /
 256
 .
-f
 )
 *
 (

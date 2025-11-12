@@ -286,9 +286,6 @@ lfe_stream
 int
 application
 ;
-opus_int32
-Fs
-;
 int
 variable_duration
 ;
@@ -624,8 +621,6 @@ data
 opus_int32
 frame_size_select
 (
-int
-application
 opus_int32
 frame_size
 int
