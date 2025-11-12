@@ -857,6 +857,13 @@ apply
 behavior
 =
 EngineViewScrollingBehaviorFactory
+(
+useScrollData
+=
+settings
+.
+useNewDynamicToolbarBehaviour
+)
 .
 build
 (
