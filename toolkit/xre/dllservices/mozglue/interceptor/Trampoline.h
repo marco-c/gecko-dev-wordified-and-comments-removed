@@ -1332,13 +1332,7 @@ uintptr_t
 )
 ;
 return
-std
-:
-:
-move
-(
 result
-)
 ;
 }
 Maybe
