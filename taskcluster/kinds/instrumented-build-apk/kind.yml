@@ -118,11 +118,6 @@ type
 [
 hg
 ]
-attributes
-:
-retrigger
-:
-true
 fetches
 :
 toolchain
