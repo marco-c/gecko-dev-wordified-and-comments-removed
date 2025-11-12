@@ -965,8 +965,6 @@ type
 b
 -
 linux
--
-gcp
 "
             
 "
