@@ -130,14 +130,6 @@ enable
 instruments
 '
 '
-ac_add_options
--
--
-enable
--
-dtrace
-'
-'
 if
 test
 uname
