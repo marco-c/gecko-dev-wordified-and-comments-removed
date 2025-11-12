@@ -205,8 +205,6 @@ type
 b
 -
 linux
--
-gcp
 worker
 :
 docker

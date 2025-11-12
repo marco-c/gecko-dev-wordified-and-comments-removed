@@ -319,8 +319,6 @@ type
 b
 -
 linux
--
-gcp
 mozharness
 :
 config

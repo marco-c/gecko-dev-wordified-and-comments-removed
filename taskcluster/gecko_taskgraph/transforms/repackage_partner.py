@@ -1248,8 +1248,6 @@ worker_type
 b
 -
 linux
--
-gcp
 "
         
 worker
