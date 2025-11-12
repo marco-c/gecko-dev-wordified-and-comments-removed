@@ -195,11 +195,6 @@ iconURL
 data
 .
 originalURL
-dataURL
-:
-data
-.
-iconURL
 isRichIcon
 :
 data
