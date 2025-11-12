@@ -2349,7 +2349,7 @@ document
 getElementById
 (
 "
-firefoxSuggestOnlineEnabledToggle
+firefoxSuggestOnlineBox
 "
 )
 .
