@@ -85,6 +85,11 @@ ContentPlaybackController
 h
 "
 "
+FetchImageHelper
+.
+h
+"
+"
 MediaControlKeyManager
 .
 h
@@ -148,6 +153,11 @@ cpp
 "
 "
 ContentPlaybackController
+.
+cpp
+"
+"
+FetchImageHelper
 .
 cpp
 "
