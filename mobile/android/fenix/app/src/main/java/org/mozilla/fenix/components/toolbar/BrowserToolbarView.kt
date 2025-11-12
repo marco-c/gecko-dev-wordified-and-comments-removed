@@ -527,9 +527,9 @@ Unit
 :
 FenixBrowserToolbarView
 (
-context
+parent
 =
-context
+container
 settings
 =
 settings

@@ -478,9 +478,9 @@ null
 :
 FenixBrowserToolbarView
 (
-context
+parent
 =
-context
+container
 settings
 =
 settings

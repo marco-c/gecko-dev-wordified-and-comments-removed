@@ -524,7 +524,7 @@ fun
 Detector
 '
 s
-handleTouchEvent
+onTouch
 returns
 false
 if
@@ -605,7 +605,7 @@ fun
 Detector
 '
 s
-handleTouchEvent
+onTouch
 returns
 true
 if
