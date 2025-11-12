@@ -29338,7 +29338,7 @@ now
 TimeStamp
 :
 :
-NowLoRes
+Now
 (
 )
 ;
@@ -29433,8 +29433,9 @@ now
 TimeDuration
 :
 :
-Resolution
+FromMilliseconds
 (
+1
 )
 ;
 if
@@ -29670,7 +29671,7 @@ mDataTime
 TimeStamp
 :
 :
-NowLoRes
+Now
 (
 )
 ;
