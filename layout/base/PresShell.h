@@ -5036,14 +5036,6 @@ aFlags
 )
 ;
 void
-HideViewIfPopup
-(
-nsView
-*
-aView
-)
-;
-void
 RestoreRootScrollPosition
 (
 )

@@ -916,13 +916,6 @@ RollupOptions
 options
 {
 0
-nsIRollupListener
-:
-:
-FlushViews
-:
-:
-Yes
 nullptr
 aAllowAnimations
 }
@@ -8164,13 +8157,6 @@ RollupOptions
 rollupOptions
 {
 popupsToRollup
-nsIRollupListener
-:
-:
-FlushViews
-:
-:
-Yes
 }
 ;
 if

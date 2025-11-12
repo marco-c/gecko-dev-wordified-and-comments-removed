@@ -37251,16 +37251,6 @@ nsIRollupListener
 :
 RollupOptions
 options
-{
-0
-nsIRollupListener
-:
-:
-FlushViews
-:
-:
-Yes
-}
 ;
 if
 (

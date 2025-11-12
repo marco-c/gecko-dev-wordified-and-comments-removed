@@ -566,12 +566,6 @@ RequestRepaint
 )
 override
 ;
-bool
-ShouldNotBeVisible
-(
-)
-override
-;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsEventStatus
 HandleEvent
