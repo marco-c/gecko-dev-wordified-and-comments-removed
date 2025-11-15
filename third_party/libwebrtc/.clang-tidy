@@ -9,6 +9,11 @@ Checks
 '
 -
 *
+bugprone
+-
+argument
+-
+comment
 llvm
 -
 namespace
