@@ -752,8 +752,6 @@ type
 b
 -
 linux
--
-gcp
 "
             
 "
