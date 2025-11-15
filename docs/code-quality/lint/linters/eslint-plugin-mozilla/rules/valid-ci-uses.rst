@@ -145,7 +145,7 @@ ci
 -
 uses
 .
-js
+mjs
 >
 (
 as

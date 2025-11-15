@@ -234,6 +234,14 @@ windows
 ]
 [
 "
+nsIWindowsTestDebug
+"
+"
+windows
+"
+]
+[
+"
 nsIWindowsUIUtils
 "
 "
