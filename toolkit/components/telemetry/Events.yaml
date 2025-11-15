@@ -5634,7 +5634,9 @@ notification_emails
 :
 [
 "
-ujet
+omc
+-
+core
 mozilla
 .
 com
@@ -9744,7 +9746,9 @@ notification_emails
 :
 [
 "
-ujet
+omc
+-
+core
 mozilla
 .
 com
@@ -9866,7 +9870,9 @@ bug_numbers
 notification_emails
 :
 -
-ujet
+omc
+-
+core
 mozilla
 .
 com

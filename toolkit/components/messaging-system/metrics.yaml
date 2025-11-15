@@ -214,7 +214,9 @@ notification_emails
 &
 messaging_experiments_targeting_emails
 -
-ujet
+omc
+-
+core
 mozilla
 .
 com
@@ -450,7 +452,9 @@ notification_emails
 &
 messaging_experiments_reach_emails
 -
-ujet
+omc
+-
+core
 mozilla
 .
 com
