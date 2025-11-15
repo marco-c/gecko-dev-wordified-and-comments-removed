@@ -414,7 +414,7 @@ siso_version
 '
 git_revision
 :
-887a10bc8a038d8e330d06d1ad5ae6ec646f3040
+15568691576f74b11a3c73c85a3c8dd5efb72f05
 '
 #
 ninja
@@ -3173,8 +3173,6 @@ package
 '
 :
 '
-infra
-/
 build
 /
 siso
