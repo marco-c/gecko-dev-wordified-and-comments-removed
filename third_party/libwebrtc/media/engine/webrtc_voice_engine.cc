@@ -3467,6 +3467,10 @@ WebRtcVoiceEngine
 :
 CreateSendChannel
 (
+const
+Environment
+&
+env
 Call
 *
 call
@@ -3495,6 +3499,7 @@ make_unique
 WebRtcVoiceSendChannel
 >
 (
+env
 this
 config
 options
@@ -3516,6 +3521,10 @@ WebRtcVoiceEngine
 :
 CreateReceiveChannel
 (
+const
+Environment
+&
+env
 Call
 *
 call
@@ -3544,6 +3553,7 @@ make_unique
 WebRtcVoiceReceiveChannel
 >
 (
+env
 this
 config
 options
@@ -4774,6 +4784,10 @@ public
 :
 WebRtcAudioSendStream
 (
+const
+Environment
+&
+env
 uint32_t
 ssrc
 const
@@ -4884,12 +4898,7 @@ crypto_options
 :
 env_
 (
-call
--
->
 env
-(
-)
 )
 adaptive_ptime_config_
 (
@@ -6945,6 +6954,10 @@ WebRtcVoiceSendChannel
 :
 WebRtcVoiceSendChannel
 (
+const
+Environment
+&
+env
 WebRtcVoiceEngine
 *
 engine
@@ -6981,12 +6994,7 @@ enable_dscp
 )
 env_
 (
-call
--
->
 env
-(
-)
 )
 worker_thread_
 (
@@ -8835,6 +8843,7 @@ stream
 new
 WebRtcAudioSendStream
 (
+env_
 ssrc
 mid_
 sp
@@ -11462,6 +11471,10 @@ WebRtcVoiceReceiveChannel
 :
 WebRtcVoiceReceiveChannel
 (
+const
+Environment
+&
+env
 WebRtcVoiceEngine
 *
 engine
@@ -11498,12 +11511,7 @@ enable_dscp
 )
 env_
 (
-call
--
->
 env
-(
-)
 )
 worker_thread_
 (

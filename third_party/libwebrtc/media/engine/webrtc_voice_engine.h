@@ -626,6 +626,10 @@ VoiceMediaSendChannelInterface
 >
 CreateSendChannel
 (
+const
+Environment
+&
+env
 Call
 *
 call
@@ -655,6 +659,10 @@ VoiceMediaReceiveChannelInterface
 >
 CreateReceiveChannel
 (
+const
+Environment
+&
+env
 Call
 *
 call
@@ -954,6 +962,10 @@ public
 :
 WebRtcVoiceSendChannel
 (
+const
+Environment
+&
+env
 WebRtcVoiceEngine
 *
 engine
@@ -1493,7 +1505,6 @@ SetupRecording
 ;
 const
 Environment
-&
 env_
 ;
 TaskQueueBase
@@ -1700,6 +1711,10 @@ public
 :
 WebRtcVoiceReceiveChannel
 (
+const
+Environment
+&
+env
 WebRtcVoiceEngine
 *
 engine
@@ -2182,7 +2197,6 @@ ssrc
 ;
 const
 Environment
-&
 env_
 ;
 TaskQueueBase

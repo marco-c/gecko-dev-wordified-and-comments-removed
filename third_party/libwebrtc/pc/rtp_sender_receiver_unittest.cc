@@ -781,6 +781,7 @@ voice
 .
 CreateSendChannel
 (
+env_
 &
 fake_call_
 MediaConfig
@@ -841,6 +842,7 @@ voice
 .
 CreateReceiveChannel
 (
+env_
 &
 fake_call_
 MediaConfig

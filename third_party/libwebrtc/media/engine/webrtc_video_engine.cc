@@ -10552,10 +10552,9 @@ false
 )
 disable_automatic_resize_
 (
-call
--
->
-trials
+env_
+.
+field_trials
 (
 )
 .

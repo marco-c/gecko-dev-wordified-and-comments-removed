@@ -3240,6 +3240,9 @@ FakeVoiceEngine
 :
 CreateSendChannel
 (
+const
+Environment
+&
 Call
 *
 call
@@ -3298,6 +3301,9 @@ FakeVoiceEngine
 :
 CreateReceiveChannel
 (
+const
+Environment
+&
 Call
 *
 call

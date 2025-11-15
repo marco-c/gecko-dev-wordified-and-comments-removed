@@ -2319,6 +2319,7 @@ engine_
 >
 CreateSendChannel
 (
+env_
 &
 call_
 webrtc
@@ -2357,6 +2358,7 @@ engine_
 >
 CreateReceiveChannel
 (
+env_
 &
 call_
 webrtc
@@ -20541,6 +20543,7 @@ engine_
 >
 CreateSendChannel
 (
+env_
 &
 call_
 webrtc
@@ -20659,6 +20662,7 @@ engine_
 >
 CreateSendChannel
 (
+env_
 &
 call_
 webrtc
@@ -20869,6 +20873,7 @@ engine_
 >
 CreateSendChannel
 (
+env_
 &
 call_
 webrtc
@@ -20918,6 +20923,7 @@ engine_
 >
 CreateSendChannel
 (
+env_
 &
 call_
 webrtc
@@ -21644,6 +21650,7 @@ engine_
 >
 CreateSendChannel
 (
+env_
 &
 call_
 config
@@ -21713,6 +21720,7 @@ engine_
 >
 CreateSendChannel
 (
+env_
 &
 call_
 config
@@ -21968,6 +21976,7 @@ engine_
 >
 CreateSendChannel
 (
+env_
 &
 call_
 config
@@ -24545,6 +24554,7 @@ engine
 .
 CreateSendChannel
 (
+env
 call
 .
 get
@@ -24600,6 +24610,7 @@ engine
 .
 CreateReceiveChannel
 (
+env
 call
 .
 get
@@ -24791,6 +24802,7 @@ engine
 .
 CreateSendChannel
 (
+env
 call
 .
 get
@@ -24846,6 +24858,7 @@ engine
 .
 CreateReceiveChannel
 (
+env
 call
 .
 get
@@ -25524,6 +25537,7 @@ engine
 .
 CreateSendChannel
 (
+env
 call
 .
 get
@@ -25728,6 +25742,7 @@ webrtc
 WebRtcVoiceReceiveChannel
 channel
 (
+env
 &
 engine
 webrtc
@@ -25964,6 +25979,7 @@ webrtc
 WebRtcVoiceSendChannel
 channel
 (
+env
 &
 engine
 webrtc
