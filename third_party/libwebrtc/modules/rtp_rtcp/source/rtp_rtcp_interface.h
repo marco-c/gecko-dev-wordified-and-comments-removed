@@ -328,12 +328,6 @@ network_state_estimate_observer
 =
 nullptr
 ;
-TransportFeedbackObserver
-*
-transport_feedback_callback
-=
-nullptr
-;
 VideoBitrateAllocationObserver
 *
 bitrate_allocation_observer
