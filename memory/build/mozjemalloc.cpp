@@ -42,16 +42,6 @@ include
 chrono
 >
 #
-include
-<
-optional
->
-#
-include
-<
-type_traits
->
-#
 ifdef
 XP_WIN
 #

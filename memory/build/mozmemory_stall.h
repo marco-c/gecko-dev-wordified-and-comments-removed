@@ -10,11 +10,6 @@ include
 optional
 >
 #
-include
-<
-type_traits
->
-#
 if
 defined
 (
