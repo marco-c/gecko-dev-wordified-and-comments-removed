@@ -23,6 +23,7 @@ Rights
 Reserved
 .
 #
+#
 Use
 of
 this
@@ -3126,9 +3127,6 @@ main
 recipe
 =
 recipe
-use_python3
-=
-True
 )
 recipe
 (
