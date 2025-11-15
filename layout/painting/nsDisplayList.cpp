@@ -29855,8 +29855,6 @@ const
 ActiveScrolledRoot
 *
 aContainerASR
-bool
-aClippedToDisplayPort
 )
 :
 nsDisplayOwnLayer
@@ -29870,10 +29868,6 @@ aContainerASRType
 mContainerASR
 (
 aContainerASR
-)
-mClippedToDisplayPort
-(
-aClippedToDisplayPort
 )
 mShouldFlatten
 (
