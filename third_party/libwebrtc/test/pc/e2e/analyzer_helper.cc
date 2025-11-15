@@ -211,7 +211,13 @@ track_id
 )
 StreamInfo
 {
+.
+receiver_peer
+=
 stream_label
+.
+stream_label
+=
 stream_label
 }
 }
@@ -261,6 +267,9 @@ track_id
 )
 StreamInfo
 {
+.
+receiver_peer
+=
 std
 :
 :
@@ -268,6 +277,9 @@ move
 (
 stream_label
 )
+.
+stream_label
+=
 std
 :
 :

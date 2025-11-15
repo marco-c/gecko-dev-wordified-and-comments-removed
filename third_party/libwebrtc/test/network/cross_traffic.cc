@@ -930,6 +930,9 @@ kMinPacketSize
 Message
 message
 {
+.
+handler
+=
 std
 :
 :
@@ -971,7 +974,13 @@ push_back
 (
 MessageFragment
 {
+.
 fragment_id
+=
+fragment_id
+.
+size
+=
 static_cast
 <
 size_t

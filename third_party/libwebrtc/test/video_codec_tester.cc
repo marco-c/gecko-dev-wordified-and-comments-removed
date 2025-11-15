@@ -5809,7 +5809,13 @@ SamplesStatsCounter
 :
 StatsSample
 {
+.
 value
+=
+value
+.
+time
+=
 time
 }
 ;

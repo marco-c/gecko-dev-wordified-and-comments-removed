@@ -520,7 +520,13 @@ message
 }
 Error
 {
+.
 error
+=
+error
+.
+message
+=
 std
 :
 :
@@ -603,7 +609,13 @@ message
 }
 Error
 {
+.
 error
+=
+error
+.
+message
+=
 std
 :
 :
@@ -825,6 +837,9 @@ message
 }
 StreamReset
 {
+.
+streams
+=
 {
 outgoing_streams
 .
@@ -837,6 +852,9 @@ end
 (
 )
 }
+.
+message
+=
 std
 :
 :
@@ -918,6 +936,9 @@ streams
 }
 StreamReset
 {
+.
+streams
+=
 {
 outgoing_streams
 .
@@ -1004,6 +1025,9 @@ streams
 }
 StreamReset
 {
+.
+streams
+=
 {
 incoming_streams
 .

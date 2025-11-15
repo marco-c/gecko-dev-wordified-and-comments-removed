@@ -691,7 +691,13 @@ timeval
 timeout
 =
 {
+.
+tv_sec
+=
 10
+.
+tv_usec
+=
 0
 }
 ;

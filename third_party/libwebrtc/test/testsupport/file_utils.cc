@@ -470,6 +470,9 @@ stat
 file_info
 =
 {
+.
+st_dev
+=
 0
 }
 ;
@@ -510,6 +513,9 @@ stat
 directory_info
 =
 {
+.
+st_dev
+=
 0
 }
 ;
@@ -1274,6 +1280,9 @@ stat
 path_info
 =
 {
+.
+st_dev
+=
 0
 }
 ;
