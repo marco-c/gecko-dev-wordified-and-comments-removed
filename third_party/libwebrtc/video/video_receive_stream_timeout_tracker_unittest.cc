@@ -100,7 +100,13 @@ Timeouts
 config
 =
 {
+.
+max_wait_for_keyframe
+=
 kMaxWaitForKeyframe
+.
+max_wait_for_frame
+=
 kMaxWaitForFrame
 }
 ;

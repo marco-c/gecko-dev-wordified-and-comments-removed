@@ -433,8 +433,14 @@ codec_settings_
 timing_frame_thresholds
 =
 {
+.
+delay_ms
+=
 -
 1
+.
+outlier_ratio_percent
+=
 0
 }
 ;

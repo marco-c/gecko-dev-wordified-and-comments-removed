@@ -4067,7 +4067,13 @@ AbsoluteCaptureTimeExtension
 (
 AbsoluteCaptureTime
 {
+.
+absolute_capture_timestamp
+=
 kAbsoluteCaptureTimestamp
+.
+estimated_capture_clock_offset
+=
 std
 :
 :
@@ -4256,7 +4262,13 @@ AbsoluteCaptureTimeExtension
 (
 AbsoluteCaptureTime
 {
+.
+absolute_capture_timestamp
+=
 kAbsoluteCaptureTimestamp
+.
+estimated_capture_clock_offset
+=
 std
 :
 :

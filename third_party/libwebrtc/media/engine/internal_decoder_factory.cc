@@ -410,7 +410,13 @@ kVideoCodecAV1
 {
 return
 {
+.
+is_supported
+=
 false
+.
+is_power_efficient
+=
 false
 }
 ;

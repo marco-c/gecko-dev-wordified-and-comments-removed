@@ -173,7 +173,13 @@ CodecSupport
 kSupported
 =
 {
+.
+is_supported
+=
 true
+.
+is_power_efficient
+=
 false
 }
 ;
@@ -185,7 +191,13 @@ CodecSupport
 kUnsupported
 =
 {
+.
+is_supported
+=
 false
+.
+is_power_efficient
+=
 false
 }
 ;

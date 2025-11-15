@@ -1548,7 +1548,13 @@ settings
 timing_frame_thresholds
 =
 {
+.
+delay_ms
+=
 kDefaultTimingFramesDelayMs
+.
+outlier_ratio_percent
+=
 kDefaultOutlierFrameSizePercent
 }
 ;

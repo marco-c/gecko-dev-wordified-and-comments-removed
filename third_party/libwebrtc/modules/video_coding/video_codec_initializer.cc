@@ -553,7 +553,13 @@ video_codec
 timing_frame_thresholds
 =
 {
+.
+delay_ms
+=
 kDefaultTimingFramesDelayMs
+.
+outlier_ratio_percent
+=
 kDefaultOutlierFrameSizePercent
 }
 ;
@@ -1151,7 +1157,6 @@ spatialLayers
 ]
 =
 {
-0
 }
 ;
 video_codec

@@ -2165,9 +2165,15 @@ LayerId
 layer_id
 =
 {
+.
+spatial_id
+=
 layer
 .
 spatial_id
+.
+temporal_id
+=
 layer
 .
 temporal_id

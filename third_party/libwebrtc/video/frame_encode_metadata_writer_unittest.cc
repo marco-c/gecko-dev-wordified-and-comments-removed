@@ -494,7 +494,13 @@ codec_settings
 timing_frame_thresholds
 =
 {
+.
 delay_ms
+=
+delay_ms
+.
+outlier_ratio_percent
+=
 kDefaultOutlierFrameSizePercent
 }
 ;

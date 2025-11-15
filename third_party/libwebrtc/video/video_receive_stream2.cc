@@ -4244,6 +4244,9 @@ RecordableEncodedFrame
 :
 EncodedResolution
 {
+.
+width
+=
 static_cast
 <
 unsigned
@@ -4255,6 +4258,9 @@ width
 (
 )
 )
+.
+height
+=
 static_cast
 <
 unsigned
@@ -5811,6 +5817,9 @@ RecordableEncodedFrame
 EncodedResolution
 resolution
 {
+.
+width
+=
 buffered_frame
 -
 >
@@ -5819,6 +5828,9 @@ EncodedImage
 )
 .
 _encodedWidth
+.
+height
+=
 buffered_frame
 -
 >
