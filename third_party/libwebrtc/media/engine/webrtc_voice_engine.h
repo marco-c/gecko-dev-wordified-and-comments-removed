@@ -1491,6 +1491,11 @@ SetupRecording
 (
 )
 ;
+const
+Environment
+&
+env_
+;
 TaskQueueBase
 *
 const
@@ -2174,6 +2179,11 @@ MaybeDeregisterUnsignaledRecvStream
 uint32_t
 ssrc
 )
+;
+const
+Environment
+&
+env_
 ;
 TaskQueueBase
 *
