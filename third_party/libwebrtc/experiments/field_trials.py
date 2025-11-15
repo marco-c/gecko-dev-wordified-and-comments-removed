@@ -662,24 +662,6 @@ FieldTrial
 '
 WebRTC
 -
-NoSdpMangleNumberOfContents
-'
-               
-40567530
-               
-date
-(
-2025
-10
-11
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 NoSdpMangleReject
 '
                
