@@ -76,17 +76,7 @@ functional
 #
 include
 <
-map
->
-#
-include
-<
 stack
->
-#
-include
-<
-vector
 >
 #
 include

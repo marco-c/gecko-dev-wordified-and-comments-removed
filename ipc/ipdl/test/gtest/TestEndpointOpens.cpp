@@ -62,11 +62,6 @@ PTestEndpointOpensOpenedParent
 .
 h
 "
-#
-include
-<
-memory
->
 using
 namespace
 mozilla

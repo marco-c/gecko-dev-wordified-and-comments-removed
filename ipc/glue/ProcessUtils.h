@@ -11,11 +11,6 @@ functional
 >
 #
 include
-<
-vector
->
-#
-include
 "
 mozilla
 /
