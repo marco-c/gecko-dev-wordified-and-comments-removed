@@ -3444,7 +3444,7 @@ shell_args
             
 args
 .
-append
+extend
 (
 self
 .
@@ -3593,11 +3593,16 @@ shell_args
 "
 ]
 =
+shlex
+.
+join
+(
 self
 .
 options
 .
 shell_args
+)
         
 details
 [
