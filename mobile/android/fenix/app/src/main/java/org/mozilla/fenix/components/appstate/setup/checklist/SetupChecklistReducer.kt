@@ -172,6 +172,12 @@ reduced
 .
 *
 /
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 fun
 reduce
 (

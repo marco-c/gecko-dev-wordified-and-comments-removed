@@ -1462,6 +1462,12 @@ along
 .
 *
 /
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 fun
 initialize
 (

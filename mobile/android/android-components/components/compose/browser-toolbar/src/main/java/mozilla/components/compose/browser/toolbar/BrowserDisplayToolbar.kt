@@ -957,6 +957,9 @@ LongMethod
 "
 CyclomaticComplexMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 fun
 BrowserDisplayToolbar

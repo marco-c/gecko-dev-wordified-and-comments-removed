@@ -945,10 +945,10 @@ accountSettingsStore
 Suppress
 (
 "
-ComplexMethod
-"
-"
 LongMethod
+"
+"
+CyclomaticComplexMethod
 "
 )
 override

@@ -638,6 +638,12 @@ in
 *
 /
 Composable
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 fun
 RecentlyVisited
 (

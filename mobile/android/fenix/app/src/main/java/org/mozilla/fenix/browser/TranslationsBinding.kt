@@ -500,6 +500,9 @@ Suppress
 "
 LongMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 override
 suspend

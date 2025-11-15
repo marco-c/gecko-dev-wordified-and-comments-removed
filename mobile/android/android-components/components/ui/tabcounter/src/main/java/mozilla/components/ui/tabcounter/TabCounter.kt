@@ -479,6 +479,12 @@ counter
 *
 /
 Composable
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 fun
 TabCounter
 (

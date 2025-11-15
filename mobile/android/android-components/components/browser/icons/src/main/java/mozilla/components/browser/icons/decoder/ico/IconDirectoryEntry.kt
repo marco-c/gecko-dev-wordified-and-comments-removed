@@ -1586,13 +1586,16 @@ MagicNumber
 ReturnCount
 "
 "
-ComplexMethod
+CognitiveComplexMethod
 "
 "
 NestedBlockDepth
 "
 "
 ComplexCondition
+"
+"
+CyclomaticComplexMethod
 "
 )
 internal

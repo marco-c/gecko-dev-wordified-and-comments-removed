@@ -4889,6 +4889,12 @@ session
 .
 *
 /
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 private
 fun
 createNavigationDelegate
@@ -6867,6 +6873,9 @@ Suppress
 (
 "
 NestedBlockDepth
+"
+"
+CognitiveComplexMethod
 "
 )
 internal

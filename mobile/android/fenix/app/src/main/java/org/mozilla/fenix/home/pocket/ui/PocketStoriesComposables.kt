@@ -2114,6 +2114,9 @@ CyclomaticComplexMethod
 "
 LongMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 Composable
 fun

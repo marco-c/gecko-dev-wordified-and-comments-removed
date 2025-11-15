@@ -1521,6 +1521,9 @@ Suppress
 "
 LongMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 private
 fun

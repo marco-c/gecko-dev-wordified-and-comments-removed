@@ -545,12 +545,6 @@ restoreParentId
 }
 }
 }
-Suppress
-(
-"
-ComplexMethod
-"
-)
 private
 fun
 JsonReader
@@ -1123,10 +1117,10 @@ null
 Suppress
 (
 "
-ComplexMethod
-"
-"
 LongMethod
+"
+"
+CyclomaticComplexMethod
 "
 )
 private

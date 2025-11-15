@@ -4074,7 +4074,10 @@ false
 Suppress
 (
 "
-ComplexMethod
+CognitiveComplexMethod
+"
+"
+CyclomaticComplexMethod
 "
 "
 LongMethod
@@ -9299,6 +9302,9 @@ Suppress
 "
 LongMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 private
 fun
@@ -13629,6 +13635,12 @@ launch
 )
 }
 }
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 private
 fun
 setupIMEInsetsHandling

@@ -713,6 +713,9 @@ LongMethod
 "
 CyclomaticComplexMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 Composable
 fun
@@ -1344,10 +1347,8 @@ size
 |
 |
 pivotLanguage
-?
 .
 languageModel
-?
 .
 status
 =

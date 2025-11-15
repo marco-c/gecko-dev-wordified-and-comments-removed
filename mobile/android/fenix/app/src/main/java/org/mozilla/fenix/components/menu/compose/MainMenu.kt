@@ -1507,6 +1507,9 @@ LongMethod
 "
 CyclomaticComplexMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 Composable
 fun
@@ -2297,6 +2300,9 @@ LongParameterList
 "
 LongMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 Composable
 private
@@ -2914,6 +2920,9 @@ LongParameterList
 "
 "
 LongMethod
+"
+"
+CognitiveComplexMethod
 "
 )
 Composable

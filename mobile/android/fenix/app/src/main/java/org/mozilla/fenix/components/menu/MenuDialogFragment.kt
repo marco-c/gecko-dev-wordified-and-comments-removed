@@ -1678,6 +1678,9 @@ CyclomaticComplexMethod
 "
 MagicNumber
 "
+"
+CognitiveComplexMethod
+"
 )
 override
 fun

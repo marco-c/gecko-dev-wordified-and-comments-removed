@@ -662,6 +662,9 @@ Suppress
 "
 NestedBlockDepth
 "
+"
+CognitiveComplexMethod
+"
 )
 fun
 fromJson

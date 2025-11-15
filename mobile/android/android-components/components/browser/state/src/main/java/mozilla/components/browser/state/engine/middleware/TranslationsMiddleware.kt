@@ -478,6 +478,9 @@ LongMethod
 "
 CyclomaticComplexMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 override
 fun
@@ -5226,6 +5229,12 @@ state
 .
 *
 /
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 private
 fun
 updateLanguageModel

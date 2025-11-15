@@ -1704,6 +1704,12 @@ VisibleForTesting
 .
 PRIVATE
 )
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 fun
 update
 (
@@ -1833,7 +1839,6 @@ val
 result
 =
 validateDeferred
-?
 .
 await
 (
@@ -1981,16 +1986,6 @@ mozac_feature_prompt_update_confirmation
 )
 )
 }
-else
--
->
-{
-/
-/
-no
--
-op
-}
 }
 }
 validateStateUpdate
@@ -2006,7 +2001,6 @@ CancellationException
 )
 {
 validateDeferred
-?
 .
 cancel
 (

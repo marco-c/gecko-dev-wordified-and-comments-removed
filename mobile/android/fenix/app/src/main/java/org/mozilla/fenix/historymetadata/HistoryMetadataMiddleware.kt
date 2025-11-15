@@ -363,7 +363,7 @@ String
 Suppress
 (
 "
-ComplexMethod
+CyclomaticComplexMethod
 "
 )
 override
@@ -1209,7 +1209,7 @@ tab
 Suppress
 (
 "
-ComplexMethod
+CognitiveComplexMethod
 "
 )
 private

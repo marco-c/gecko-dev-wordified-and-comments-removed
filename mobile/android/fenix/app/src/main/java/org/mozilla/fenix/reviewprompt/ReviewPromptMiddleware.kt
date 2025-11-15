@@ -681,6 +681,12 @@ next
 action
 )
 }
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 private
 fun
 handleReviewPromptCheck

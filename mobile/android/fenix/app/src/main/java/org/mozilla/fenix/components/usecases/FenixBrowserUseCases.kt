@@ -475,6 +475,12 @@ URL
 .
 *
 /
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 fun
 loadUrlOrSearch
 (

@@ -879,6 +879,9 @@ Suppress
 "
 ReturnCount
 "
+"
+CognitiveComplexMethod
+"
 )
 override
 fun
@@ -2076,6 +2079,9 @@ Suppress
 (
 "
 ReturnCount
+"
+"
+CognitiveComplexMethod
 "
 )
 internal

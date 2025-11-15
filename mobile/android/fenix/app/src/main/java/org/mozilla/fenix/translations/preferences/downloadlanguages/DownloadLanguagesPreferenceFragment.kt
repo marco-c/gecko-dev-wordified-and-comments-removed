@@ -432,6 +432,12 @@ download_languages_translations_toolbar_title_preference
 )
 )
 }
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 override
 fun
 onCreateView

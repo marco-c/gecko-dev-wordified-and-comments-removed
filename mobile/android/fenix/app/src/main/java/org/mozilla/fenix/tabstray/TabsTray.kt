@@ -2205,6 +2205,9 @@ Suppress
 "
 LongMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 Composable
 private

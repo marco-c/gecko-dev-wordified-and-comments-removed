@@ -1513,6 +1513,12 @@ LoggingOut
 }
 }
 }
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 internal
 fun
 State

@@ -733,6 +733,9 @@ LongParameterList
 "
 LongMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 Composable
 internal
@@ -1620,6 +1623,12 @@ body2
 }
 }
 Composable
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 private
 fun
 WebsitePermissionsMenuGroup

@@ -1369,6 +1369,12 @@ Reducer
 .
 *
 /
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 private
 fun
 historyStateReducer

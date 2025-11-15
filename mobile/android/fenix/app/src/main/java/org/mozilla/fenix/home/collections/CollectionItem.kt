@@ -516,6 +516,12 @@ removed
 *
 /
 Composable
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 fun
 CollectionItem
 (

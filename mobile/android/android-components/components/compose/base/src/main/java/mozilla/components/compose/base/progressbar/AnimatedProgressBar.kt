@@ -767,6 +767,9 @@ Suppress
 "
 LongMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 fun
 AnimatedProgressBar

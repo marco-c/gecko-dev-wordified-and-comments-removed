@@ -1017,6 +1017,9 @@ LongMethod
 "
 MagicNumber
 "
+"
+CognitiveComplexMethod
+"
 )
 override
 fun

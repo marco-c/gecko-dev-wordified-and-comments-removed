@@ -3375,6 +3375,12 @@ tabs
 .
 *
 /
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 override
 fun
 onCreateInputConnection
@@ -4824,6 +4830,9 @@ Suppress
 (
 "
 NestedBlockDepth
+"
+"
+CognitiveComplexMethod
 "
 )
 VisibleForTesting

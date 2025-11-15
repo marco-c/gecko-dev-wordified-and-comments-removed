@@ -396,7 +396,7 @@ Suppress
 LongMethod
 "
 "
-ComplexMethod
+CyclomaticComplexMethod
 "
 )
 override

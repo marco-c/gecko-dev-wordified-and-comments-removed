@@ -431,7 +431,10 @@ notifyItemChanged
 Suppress
 (
 "
-ComplexMethod
+CognitiveComplexMethod
+"
+"
+CyclomaticComplexMethod
 "
 )
 override

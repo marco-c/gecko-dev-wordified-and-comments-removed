@@ -849,9 +849,6 @@ TooManyFunctions
 "
 LargeClass
 "
-"
-ComplexMethod
-"
 )
 abstract
 class
@@ -2194,12 +2191,6 @@ not
 dropped
 *
 /
-Suppress
-(
-"
-ComplexMethod
-"
-)
 private
 fun
 updateDownloadNotification
@@ -3663,9 +3654,6 @@ Suppress
 (
 "
 ComplexCondition
-"
-"
-ComplexMethod
 "
 )
 internal

@@ -296,6 +296,12 @@ migrated
 .
 *
 /
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 suspend
 fun
 migrateLegacyWallpaper

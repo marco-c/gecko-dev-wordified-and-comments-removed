@@ -620,6 +620,12 @@ resource
 url
 )
 }
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 private
 fun
 Response

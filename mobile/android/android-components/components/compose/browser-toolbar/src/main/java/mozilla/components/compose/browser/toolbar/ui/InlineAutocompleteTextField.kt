@@ -924,6 +924,9 @@ LongMethod
 "
 CyclomaticComplexMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 Composable
 internal

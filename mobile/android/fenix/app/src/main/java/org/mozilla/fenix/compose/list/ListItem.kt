@@ -4268,6 +4268,12 @@ supplied
 *
 /
 Composable
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 fun
 SelectableIconListItem
 (

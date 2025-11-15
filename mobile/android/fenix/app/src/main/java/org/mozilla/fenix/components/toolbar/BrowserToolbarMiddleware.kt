@@ -2345,6 +2345,9 @@ NestedBlockDepth
 "
 ReturnCount
 "
+"
+CognitiveComplexMethod
+"
 )
 override
 fun
@@ -6647,6 +6650,9 @@ Suppress
 (
 "
 LongMethod
+"
+"
+CognitiveComplexMethod
 "
 )
 VisibleForTesting

@@ -430,6 +430,9 @@ Suppress
 "
 ThrowsCount
 "
+"
+CognitiveComplexMethod
+"
 )
 private
 fun

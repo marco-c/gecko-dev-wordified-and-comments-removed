@@ -510,6 +510,9 @@ Suppress
 "
 ReturnCount
 "
+"
+CognitiveComplexMethod
+"
 )
 private
 fun

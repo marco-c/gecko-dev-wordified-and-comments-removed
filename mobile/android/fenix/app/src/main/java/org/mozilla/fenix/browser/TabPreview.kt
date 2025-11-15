@@ -849,6 +849,9 @@ LongMethod
 "
 CyclomaticComplexMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 private
 fun
@@ -2353,6 +2356,12 @@ true
 }
 }
 }
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 private
 fun
 buildBottomComposableToolbar

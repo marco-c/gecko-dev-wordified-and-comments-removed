@@ -2492,7 +2492,10 @@ cancel
 Suppress
 (
 "
-ComplexMethod
+CognitiveComplexMethod
+"
+"
+CyclomaticComplexMethod
 "
 )
 final

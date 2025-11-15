@@ -927,6 +927,12 @@ information
 .
 *
 /
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 fun
 determineNewLanguageModelState
 (

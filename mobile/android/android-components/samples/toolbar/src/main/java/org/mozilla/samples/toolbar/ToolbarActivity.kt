@@ -4468,10 +4468,6 @@ toInt
 separator
 =
 0x1E15141a
-.
-toInt
-(
-)
 trackingProtection
 =
 0xFF20123a
@@ -4489,10 +4485,6 @@ toInt
 hint
 =
 0x1E15141a
-.
-toInt
-(
-)
 )
 binding
 .
@@ -5033,10 +5025,6 @@ toInt
 separator
 =
 0x1E15141a
-.
-toInt
-(
-)
 trackingProtection
 =
 0xFF20123a
@@ -5768,6 +5756,9 @@ Suppress
 (
 "
 TooGenericExceptionCaught
+"
+"
+CognitiveComplexMethod
 "
 )
 private

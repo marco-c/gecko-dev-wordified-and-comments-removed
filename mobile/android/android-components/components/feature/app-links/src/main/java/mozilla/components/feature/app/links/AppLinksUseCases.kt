@@ -725,12 +725,6 @@ available
 .
 *
 /
-Suppress
-(
-"
-ComplexMethod
-"
-)
 inner
 class
 GetAppLinkRedirect
@@ -753,6 +747,12 @@ Boolean
 false
 )
 {
+Suppress
+(
+"
+CyclomaticComplexMethod
+"
+)
 operator
 fun
 invoke

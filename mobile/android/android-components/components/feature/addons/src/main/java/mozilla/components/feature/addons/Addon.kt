@@ -5066,7 +5066,10 @@ Suppress
 MagicNumber
 "
 "
-ComplexMethod
+CognitiveComplexMethod
+"
+"
+CyclomaticComplexMethod
 "
 )
 private

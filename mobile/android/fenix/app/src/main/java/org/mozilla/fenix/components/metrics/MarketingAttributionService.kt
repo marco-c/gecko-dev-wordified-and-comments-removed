@@ -268,6 +268,12 @@ response
 .
 *
 /
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 fun
 start
 (

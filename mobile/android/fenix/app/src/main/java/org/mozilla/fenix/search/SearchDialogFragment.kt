@@ -2489,7 +2489,7 @@ SuppressWarnings
 LongMethod
 "
 "
-ComplexMethod
+CognitiveComplexMethod
 "
 )
 override

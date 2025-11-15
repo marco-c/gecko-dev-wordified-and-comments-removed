@@ -1068,6 +1068,9 @@ Suppress
 "
 NestedBlockDepth
 "
+"
+CognitiveComplexMethod
+"
 )
 private
 fun

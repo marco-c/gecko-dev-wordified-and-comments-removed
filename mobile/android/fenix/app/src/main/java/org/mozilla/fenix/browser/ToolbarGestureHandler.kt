@@ -1023,6 +1023,12 @@ velocityX
 )
 }
 }
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 private
 fun
 getDestination

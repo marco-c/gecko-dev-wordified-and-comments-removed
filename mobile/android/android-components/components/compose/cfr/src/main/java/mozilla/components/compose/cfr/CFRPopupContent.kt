@@ -578,6 +578,9 @@ Suppress
 "
 LongMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 fun
 CFRPopupContent

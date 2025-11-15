@@ -488,6 +488,12 @@ binding
 =
 null
 }
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 private
 fun
 bindRecyclerView

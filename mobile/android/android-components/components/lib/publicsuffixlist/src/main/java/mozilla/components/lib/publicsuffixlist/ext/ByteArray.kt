@@ -159,6 +159,9 @@ Suppress
 "
 NestedBlockDepth
 "
+"
+CognitiveComplexMethod
+"
 )
 internal
 fun

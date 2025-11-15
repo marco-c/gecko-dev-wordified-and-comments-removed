@@ -3019,6 +3019,9 @@ Suppress
 "
 LongMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 OptIn
 (

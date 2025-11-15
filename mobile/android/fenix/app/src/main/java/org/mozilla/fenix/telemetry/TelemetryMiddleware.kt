@@ -541,13 +541,16 @@ Suppress
 TooGenericExceptionCaught
 "
 "
-ComplexMethod
+CognitiveComplexMethod
 "
 "
 NestedBlockDepth
 "
 "
 LongMethod
+"
+"
+CyclomaticComplexMethod
 "
 )
 override

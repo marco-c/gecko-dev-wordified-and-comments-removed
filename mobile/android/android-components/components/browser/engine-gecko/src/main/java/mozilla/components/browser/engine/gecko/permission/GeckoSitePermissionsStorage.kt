@@ -1126,6 +1126,9 @@ Suppress
 "
 LongMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 internal
 suspend
@@ -1740,7 +1743,10 @@ VisibleForTesting
 Suppress
 (
 "
-ComplexMethod
+CognitiveComplexMethod
+"
+"
+CyclomaticComplexMethod
 "
 )
 internal
@@ -2015,7 +2021,6 @@ VALUE_PROMPT
 combinedPermissions
 =
 combinedPermissions
-?
 .
 copy
 (
@@ -2049,7 +2054,6 @@ VALUE_PROMPT
 combinedPermissions
 =
 combinedPermissions
-?
 .
 copy
 (
@@ -2083,7 +2087,6 @@ VALUE_PROMPT
 combinedPermissions
 =
 combinedPermissions
-?
 .
 copy
 (
@@ -2117,7 +2120,6 @@ VALUE_PROMPT
 combinedPermissions
 =
 combinedPermissions
-?
 .
 copy
 (
@@ -2151,7 +2153,6 @@ VALUE_PROMPT
 combinedPermissions
 =
 combinedPermissions
-?
 .
 copy
 (
@@ -2185,7 +2186,6 @@ VALUE_PROMPT
 combinedPermissions
 =
 combinedPermissions
-?
 .
 copy
 (
@@ -2219,7 +2219,6 @@ VALUE_PROMPT
 combinedPermissions
 =
 combinedPermissions
-?
 .
 copy
 (
@@ -2282,7 +2281,6 @@ VALUE_PROMPT
 combinedPermissions
 =
 combinedPermissions
-?
 .
 copy
 (
@@ -2316,7 +2314,6 @@ VALUE_PROMPT
 combinedPermissions
 =
 combinedPermissions
-?
 .
 copy
 (

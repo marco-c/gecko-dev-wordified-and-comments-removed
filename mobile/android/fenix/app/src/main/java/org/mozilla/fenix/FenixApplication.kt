@@ -4989,10 +4989,13 @@ startup
 Suppress
 (
 "
-ComplexMethod
+CognitiveComplexMethod
 "
 "
 LongMethod
+"
+"
+CyclomaticComplexMethod
 "
 )
 VisibleForTesting
@@ -5800,7 +5803,7 @@ RAM_THRESHOLD_MEGABYTES
 Suppress
 (
 "
-ComplexMethod
+CyclomaticComplexMethod
 "
 )
 private

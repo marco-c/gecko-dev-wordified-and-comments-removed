@@ -400,6 +400,12 @@ updatePreferences
 (
 )
 }
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 private
 fun
 updatePreferences

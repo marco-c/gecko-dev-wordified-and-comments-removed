@@ -360,6 +360,12 @@ SuppressLint
 ClickableViewAccessibility
 "
 )
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 override
 fun
 onTouchEvent
@@ -895,6 +901,12 @@ on
 the
 main
 thread
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 VisibleForTesting
 internal
 fun

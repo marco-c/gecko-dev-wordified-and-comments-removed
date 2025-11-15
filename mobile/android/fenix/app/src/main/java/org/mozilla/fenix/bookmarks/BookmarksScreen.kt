@@ -1906,7 +1906,10 @@ Suppress
 LongMethod
 "
 "
-ComplexMethod
+CognitiveComplexMethod
+"
+"
+CyclomaticComplexMethod
 "
 )
 Composable

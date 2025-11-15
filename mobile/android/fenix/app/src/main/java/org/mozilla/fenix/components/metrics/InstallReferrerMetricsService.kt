@@ -300,6 +300,12 @@ InstallReferrerClient
 ?
 =
 null
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 override
 fun
 start

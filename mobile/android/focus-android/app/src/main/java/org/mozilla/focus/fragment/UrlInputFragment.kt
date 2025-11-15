@@ -2388,6 +2388,12 @@ warning
 for
 now
 .
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 private
 fun
 playVisibilityAnimation

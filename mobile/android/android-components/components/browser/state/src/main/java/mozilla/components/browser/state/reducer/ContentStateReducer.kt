@@ -282,6 +282,9 @@ LongMethod
 "
 ThrowsCount
 "
+"
+CognitiveComplexMethod
+"
 )
 fun
 reduce

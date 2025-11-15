@@ -3451,7 +3451,7 @@ VisibleForTesting
 Suppress
 (
 "
-ComplexMethod
+CyclomaticComplexMethod
 "
 )
 internal

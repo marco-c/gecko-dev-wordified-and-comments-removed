@@ -417,6 +417,9 @@ LongParameterList
 "
 LongMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 fun
 AddonPermissionsScreen

@@ -969,6 +969,9 @@ Suppress
 "
 NestedBlockDepth
 "
+"
+CognitiveComplexMethod
+"
 )
 override
 suspend
@@ -1215,6 +1218,12 @@ throw
 e
 }
 }
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 private
 suspend
 fun

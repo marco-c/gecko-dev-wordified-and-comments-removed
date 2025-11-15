@@ -1098,6 +1098,12 @@ cancelled
 .
 *
 /
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 private
 fun
 pollUntilProfilerActiveAndThen

@@ -1500,6 +1500,12 @@ selected
 *
 /
 Composable
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 private
 fun
 WallpaperThumbnailItem

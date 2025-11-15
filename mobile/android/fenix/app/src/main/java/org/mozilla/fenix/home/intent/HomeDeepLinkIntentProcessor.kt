@@ -380,7 +380,7 @@ false
 Suppress
 (
 "
-ComplexMethod
+CyclomaticComplexMethod
 "
 )
 private

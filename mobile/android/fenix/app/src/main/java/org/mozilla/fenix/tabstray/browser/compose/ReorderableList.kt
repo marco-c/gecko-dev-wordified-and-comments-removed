@@ -1011,6 +1011,12 @@ draggingItemInitialOffset
 =
 0f
 }
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 internal
 fun
 onDrag

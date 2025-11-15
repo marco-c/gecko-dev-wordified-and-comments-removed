@@ -576,6 +576,9 @@ SuppressWarnings
 "
 LongMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 Composable
 fun

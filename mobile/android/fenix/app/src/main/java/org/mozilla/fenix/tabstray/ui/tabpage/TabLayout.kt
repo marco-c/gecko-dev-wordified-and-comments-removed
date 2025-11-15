@@ -1832,6 +1832,9 @@ LongParameterList
 "
 LongMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 Composable
 private

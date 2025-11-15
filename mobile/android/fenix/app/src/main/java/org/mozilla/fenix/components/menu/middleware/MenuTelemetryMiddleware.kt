@@ -283,6 +283,9 @@ CyclomaticComplexMethod
 "
 LongMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 override
 fun

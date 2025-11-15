@@ -4403,6 +4403,12 @@ root
 )
 }
 }
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 private
 fun
 initializeMicrosurveyPrompt

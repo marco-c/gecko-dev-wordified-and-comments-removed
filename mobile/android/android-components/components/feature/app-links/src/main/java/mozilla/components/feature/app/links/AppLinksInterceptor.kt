@@ -697,10 +697,13 @@ RequestInterceptor
 Suppress
 (
 "
-ComplexMethod
+CognitiveComplexMethod
 "
 "
 ReturnCount
+"
+"
+CyclomaticComplexMethod
 "
 )
 override

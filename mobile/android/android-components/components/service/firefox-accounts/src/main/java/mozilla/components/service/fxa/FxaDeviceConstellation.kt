@@ -454,6 +454,12 @@ FxaPanicException
 :
 class
 )
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 override
 suspend
 fun

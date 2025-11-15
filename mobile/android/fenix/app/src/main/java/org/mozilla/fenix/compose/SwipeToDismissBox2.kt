@@ -1109,6 +1109,9 @@ Suppress
 "
 DEPRECATION
 "
+"
+CognitiveComplexMethod
+"
 )
 private
 fun
@@ -1460,6 +1463,12 @@ dismissed
 *
 /
 Composable
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 fun
 SwipeToDismissBox2
 (

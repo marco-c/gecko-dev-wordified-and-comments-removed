@@ -2098,10 +2098,10 @@ InflateParams
 Suppress
 (
 "
-ComplexMethod
-"
-"
 LongMethod
+"
+"
+CyclomaticComplexMethod
 "
 )
 override

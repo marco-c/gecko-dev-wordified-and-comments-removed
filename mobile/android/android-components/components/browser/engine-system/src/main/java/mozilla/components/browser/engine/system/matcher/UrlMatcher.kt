@@ -1462,6 +1462,9 @@ ThrowsCount
 "
 NestedBlockDepth
 "
+"
+CognitiveComplexMethod
+"
 )
 private
 fun

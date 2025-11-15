@@ -820,7 +820,7 @@ CognitiveComplexMethod
 :
 active
 :
-false
+true
 threshold
 :
 15
@@ -4106,7 +4106,10 @@ rules
 LongMethod
 '
 '
-ComplexMethod
+CognitiveComplexMethod
+'
+'
+CyclomaticComplexMethod
 '
 '
 MagicNumber

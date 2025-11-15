@@ -243,6 +243,9 @@ Suppress
 "
 LongParameterList
 "
+"
+CognitiveComplexMethod
+"
 )
 Composable
 internal

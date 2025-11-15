@@ -1871,6 +1871,12 @@ enabled
 *
 /
 Composable
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 private
 fun
 StudiesSection

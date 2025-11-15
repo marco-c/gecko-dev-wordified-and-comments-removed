@@ -785,6 +785,9 @@ CyclomaticComplexMethod
 "
 LongMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 fun
 invoke

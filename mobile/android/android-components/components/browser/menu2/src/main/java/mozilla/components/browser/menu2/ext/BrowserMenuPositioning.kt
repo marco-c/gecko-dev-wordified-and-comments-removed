@@ -168,7 +168,7 @@ HALF_MENU_ITEM
 Suppress
 (
 "
-ComplexMethod
+CyclomaticComplexMethod
 "
 )
 internal

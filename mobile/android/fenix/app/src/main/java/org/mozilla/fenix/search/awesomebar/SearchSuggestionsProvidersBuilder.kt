@@ -886,10 +886,13 @@ HashMap
 Suppress
 (
 "
-ComplexMethod
+CognitiveComplexMethod
 "
 "
 LongMethod
+"
+"
+CyclomaticComplexMethod
 "
 )
 internal

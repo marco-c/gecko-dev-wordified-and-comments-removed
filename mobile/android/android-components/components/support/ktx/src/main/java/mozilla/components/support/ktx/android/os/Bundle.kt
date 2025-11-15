@@ -116,7 +116,7 @@ order
 Suppress
 (
 "
-ComplexMethod
+CyclomaticComplexMethod
 "
 )
 infix

@@ -1276,6 +1276,12 @@ category
 .
 *
 /
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 private
 fun
 getLastUsedCategoryView

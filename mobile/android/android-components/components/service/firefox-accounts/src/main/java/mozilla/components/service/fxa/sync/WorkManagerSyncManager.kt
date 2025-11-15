@@ -2117,7 +2117,7 @@ Suppress
 LongMethod
 "
 "
-ComplexMethod
+CyclomaticComplexMethod
 "
 )
 private
