@@ -393,7 +393,6 @@ NackFilterOptions
 {
 kSeqNumOnly
 kTimeOnly
-kSeqNumAndTime
 }
 ;
 struct
