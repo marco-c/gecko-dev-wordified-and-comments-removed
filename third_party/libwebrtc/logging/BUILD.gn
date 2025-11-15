@@ -3299,6 +3299,16 @@ modules
 /
 rtp_rtcp
 :
+ntp_time_util
+"
+"
+.
+.
+/
+modules
+/
+rtp_rtcp
+:
 rtp_rtcp_format
 "
 "
