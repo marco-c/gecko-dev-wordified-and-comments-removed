@@ -137,15 +137,6 @@ use
 crate
 :
 :
-gpu_cache
-:
-:
-GpuCache
-;
-use
-crate
-:
-:
 gpu_types
 :
 :
@@ -3131,11 +3122,6 @@ clip_store
 &
 mut
 ClipStore
-gpu_cache
-:
-&
-mut
-GpuCache
 gpu_buffer_builder
 :
 &
@@ -3371,7 +3357,6 @@ RenderTask
 (
 clip_task_id
 )
-gpu_cache
 gpu_buffer_builder
 rg_builder
 surface_builder
@@ -3379,7 +3364,6 @@ surface_builder
 mut
 |
 rg_builder
-_
 _
 |
 {
