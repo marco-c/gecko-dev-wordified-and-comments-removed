@@ -219,9 +219,6 @@ mod
 glyph_cache
 ;
 mod
-gpu_cache
-;
-mod
 gpu_types
 ;
 mod
