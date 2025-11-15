@@ -229,6 +229,7 @@ w1
 ;
 }
 static
+constexpr
 std
 :
 :
@@ -528,6 +529,7 @@ r0
 ;
 }
 static
+constexpr
 std
 :
 :
@@ -1494,6 +1496,7 @@ w1
 }
 ;
 }
+constexpr
 std
 :
 :
@@ -1520,6 +1523,7 @@ divisor
 )
 ;
 }
+constexpr
 Uint128
 operator
 /
@@ -1546,6 +1550,7 @@ return
 quot
 ;
 }
+constexpr
 Uint128
 operator
 %
@@ -2105,6 +2110,7 @@ return
 this
 ;
 }
+constexpr
 Uint128
 operator
 /
@@ -2129,6 +2135,7 @@ return
 this
 ;
 }
+constexpr
 Uint128
 operator
 %
@@ -2341,6 +2348,7 @@ high
 {
 }
 static
+constexpr
 std
 :
 :
@@ -2618,6 +2626,7 @@ uint64_t
 )
 {
 }
+constexpr
 std
 :
 :
@@ -3119,6 +3128,7 @@ other
 }
 ;
 }
+constexpr
 Int128
 operator
 /
@@ -3145,6 +3155,7 @@ return
 quot
 ;
 }
+constexpr
 Int128
 operator
 %
@@ -3637,6 +3648,7 @@ return
 this
 ;
 }
+constexpr
 Int128
 operator
 /
@@ -3661,6 +3673,7 @@ return
 this
 ;
 }
+constexpr
 Int128
 operator
 %
