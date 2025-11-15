@@ -2430,6 +2430,11 @@ supportedEvents
 {
 return
 [
+"
+input
+.
+fileDialogOpened
+"
 ]
 ;
 }
