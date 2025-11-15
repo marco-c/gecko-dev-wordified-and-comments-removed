@@ -145,7 +145,10 @@ num_packets_left_
 for
 (
 const
-auto
+H264
+:
+:
+NaluIndex
 &
 nalu
 :
@@ -160,10 +163,11 @@ payload
 {
 if
 (
-!
 nalu
 .
 payload_size
+<
+2
 )
 {
 input_fragments_
