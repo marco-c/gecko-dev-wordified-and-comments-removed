@@ -1,10 +1,5 @@
 #
 include
-<
-array
->
-#
-include
 "
 ds
 /

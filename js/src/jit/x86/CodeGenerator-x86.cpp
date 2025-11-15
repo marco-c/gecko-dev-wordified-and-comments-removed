@@ -22,11 +22,6 @@ h
 "
 #
 include
-<
-iterator
->
-#
-include
 "
 jsnum
 .

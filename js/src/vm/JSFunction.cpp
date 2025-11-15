@@ -21,11 +21,6 @@ h
 #
 include
 <
-algorithm
->
-#
-include
-<
 string
 .
 h

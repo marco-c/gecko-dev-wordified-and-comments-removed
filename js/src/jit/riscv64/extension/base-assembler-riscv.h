@@ -7,16 +7,6 @@ jit_riscv64_extension_Base_assembler_riscv_h
 #
 include
 <
-memory
->
-#
-include
-<
-set
->
-#
-include
-<
 stdio
 .
 h

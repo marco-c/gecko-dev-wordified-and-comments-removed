@@ -38,11 +38,6 @@ h
 "
 #
 include
-<
-type_traits
->
-#
-include
 "
 gc
 /

@@ -49,11 +49,6 @@ h
 "
 #
 include
-<
-algorithm
->
-#
-include
 "
 jsnum
 .
