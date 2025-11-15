@@ -54,13 +54,6 @@ LINE_PARTICIPANT
 LineParticipant
 "
 }
-MAY_HAVE_VIEW
-=
-{
-"
-MayHaveView
-"
-}
 BLOCK
 =
 COMMON
@@ -1559,8 +1552,6 @@ ViewportFrame
 Viewport
 "
 COMMON
-|
-MAY_HAVE_VIEW
 )
     
 Frame
