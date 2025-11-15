@@ -9545,10 +9545,6 @@ Realm
 wide
 tables
 storing
-object
-group
-information
-and
 wasm
 instances
 .
