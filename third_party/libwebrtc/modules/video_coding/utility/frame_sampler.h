@@ -80,6 +80,15 @@ uint32_t
 >
 last_rtp_timestamp_sampled_
 ;
+std
+:
+:
+optional
+<
+uint32_t
+>
+last_rtp_timestamp_
+;
 }
 ;
 }
