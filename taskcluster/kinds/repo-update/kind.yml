@@ -326,8 +326,6 @@ b
 linux
 -
 xlarge
--
-gcp
 worker
 :
 implementation
