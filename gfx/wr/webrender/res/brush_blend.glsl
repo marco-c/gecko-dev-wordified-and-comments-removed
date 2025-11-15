@@ -69,7 +69,6 @@ shared
 prim_shared
 brush
 blend
-image_source
 /
 /
 Interpolated

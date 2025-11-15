@@ -60,6 +60,7 @@ MPL
 include
 rect
 render_task
+gpu_cache
 transform
 #
 ifdef
