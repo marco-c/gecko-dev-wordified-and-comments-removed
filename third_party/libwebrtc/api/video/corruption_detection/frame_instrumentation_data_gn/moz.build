@@ -266,9 +266,13 @@ third_party
 /
 libwebrtc
 /
-common_video
+api
 /
-corruption_detection_converters
+video
+/
+corruption_detection
+/
+frame_instrumentation_data
 .
 cc
 "
@@ -1485,6 +1489,6 @@ True
 Library
 (
 "
-corruption_detection_converters_gn
+frame_instrumentation_data_gn
 "
 )
