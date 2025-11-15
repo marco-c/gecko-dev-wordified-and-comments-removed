@@ -1285,7 +1285,7 @@ mixins
 :
 [
 '
-mac_14_arm64
+mac_15_arm64
 '
 '
 mac
@@ -3600,7 +3600,7 @@ mixins
 :
 [
 '
-mac_14_arm64
+mac_15_arm64
 '
 '
 mac
@@ -3691,7 +3691,7 @@ mixins
 :
 [
 '
-mac_14_arm64
+mac_15_arm64
 '
 '
 mac
