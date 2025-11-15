@@ -4071,17 +4071,6 @@ InitializeUnDemuxablePacketHandler
 (
 )
 ;
-config
-.
-event_log
-=
-&
-env_
-.
-event_log
-(
-)
-;
 #
 if
 defined
