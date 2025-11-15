@@ -325,6 +325,9 @@ kRtcpMux
 kIceOptionsTrickle
 =
 31
+kIceCandidateCount
+=
+32
 kRtpHeaderExtensionRemoved
 =
 40
