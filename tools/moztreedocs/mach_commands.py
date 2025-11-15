@@ -725,13 +725,6 @@ False
 import
 setup_helper
     
-from
-mozbuild
-.
-nodeutil
-import
-check_node_executables_valid
-    
 setup_helper
 .
 set_project_root
@@ -743,6 +736,8 @@ topsrcdir
     
 if
 not
+setup_helper
+.
 check_node_executables_valid
 (
 )
