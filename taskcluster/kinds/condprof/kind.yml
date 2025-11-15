@@ -377,8 +377,6 @@ type
 b
 -
 linux
--
-gcp
 description
 :
 Creates
