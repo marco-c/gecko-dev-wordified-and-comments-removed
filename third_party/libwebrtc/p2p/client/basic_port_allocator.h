@@ -1155,8 +1155,6 @@ allocation_epoch
 void
 DoAllocate
 (
-bool
-disable_equivalent_phases
 )
 ;
 void
@@ -1313,8 +1311,6 @@ Network
 >
 &
 networks
-bool
-disable_equivalent_phases
 IceRegatheringReason
 reason
 )
