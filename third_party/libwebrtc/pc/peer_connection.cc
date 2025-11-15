@@ -17343,6 +17343,11 @@ call_
 FeedbackAccordingToRfc8888Count
 (
 )
+.
+value_or
+(
+0
+)
 ;
 }
 )
@@ -17384,6 +17389,11 @@ call_
 >
 FeedbackAccordingToTransportCcCount
 (
+)
+.
+value_or
+(
+0
 )
 ;
 }

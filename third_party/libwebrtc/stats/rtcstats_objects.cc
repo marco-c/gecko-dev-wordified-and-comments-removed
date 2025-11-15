@@ -2665,6 +2665,14 @@ iceState
 &
 ice_state
 )
+AttributeInit
+(
+"
+ccfbMessagesReceived
+"
+&
+ccfb_messages_received
+)
 )
 RTCTransportStats
 :
