@@ -2840,6 +2840,14 @@ packetsSent
 ;
 stats
 .
+packets_sent_with_ect1
+=
+call_stats
+.
+packets_sent_with_ect1
+;
+stats
+.
 total_packet_send_delay
 =
 call_stats

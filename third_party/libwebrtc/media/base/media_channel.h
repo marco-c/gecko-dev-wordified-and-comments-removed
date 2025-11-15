@@ -1709,6 +1709,11 @@ packets_sent
 =
 0
 ;
+int
+packets_sent_with_ect1
+=
+0
+;
 uint64_t
 retransmitted_packets_sent
 =

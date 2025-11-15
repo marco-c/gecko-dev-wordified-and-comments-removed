@@ -2188,6 +2188,15 @@ uint32_t
 >
 rtx_ssrc
 ;
+std
+:
+:
+optional
+<
+uint64_t
+>
+packets_sent_with_ect1
+;
 }
 ;
 class

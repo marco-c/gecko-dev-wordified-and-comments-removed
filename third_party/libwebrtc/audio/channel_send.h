@@ -230,6 +230,9 @@ retransmitted_bytes_sent
 int
 packetsSent
 ;
+int
+packets_sent_with_ect1
+;
 TimeDelta
 total_packet_send_delay
 =

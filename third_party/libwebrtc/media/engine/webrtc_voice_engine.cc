@@ -9815,6 +9815,14 @@ packets_sent
 ;
 sinfo
 .
+packets_sent_with_ect1
+=
+stats
+.
+packets_sent_with_ect1
+;
+sinfo
+.
 total_packet_send_delay
 =
 stats

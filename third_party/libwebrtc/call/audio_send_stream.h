@@ -251,6 +251,11 @@ packets_sent
 =
 0
 ;
+int32_t
+packets_sent_with_ect1
+=
+0
+;
 TimeDelta
 total_packet_send_delay
 =

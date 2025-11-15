@@ -2033,6 +2033,14 @@ rtxSsrc
 &
 rtx_ssrc
 )
+AttributeInit
+(
+"
+packetsSentWithEct1
+"
+&
+packets_sent_with_ect1
+)
 )
 RTCOutboundRtpStreamStats
 :
