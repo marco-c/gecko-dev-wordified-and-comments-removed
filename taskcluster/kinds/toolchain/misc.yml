@@ -1621,9 +1621,6 @@ car_android
 tar
 .
 zst
-blink_symbol_level
-=
-0
 chrome_pgo_phase
 =
 2
@@ -1653,7 +1650,7 @@ is_official_build
 true
 symbol_level
 =
-0
+2
 target_cpu
 =
 "
@@ -1670,9 +1667,6 @@ true
 is_high_end_android
 =
 true
-v8_symbol_level
-=
-0
 ]
 toolchain
 -
