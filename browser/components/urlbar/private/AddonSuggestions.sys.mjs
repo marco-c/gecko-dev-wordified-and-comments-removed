@@ -673,6 +673,9 @@ addons
 -
 recommended
 "
+cacheable
+:
+true
 }
 helpUrl
 :

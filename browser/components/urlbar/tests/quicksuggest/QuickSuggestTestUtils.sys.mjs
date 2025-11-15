@@ -5591,6 +5591,9 @@ addons
 -
 recommended
 "
+cacheable
+:
+true
 }
 helpUrl
 :
@@ -5908,6 +5911,9 @@ bottom
 -
 text
 "
+cacheable
+:
+true
 }
 source
 :
@@ -6192,6 +6198,9 @@ bottom
 -
 text
 "
+cacheable
+:
+true
 }
 url
 originalUrl
