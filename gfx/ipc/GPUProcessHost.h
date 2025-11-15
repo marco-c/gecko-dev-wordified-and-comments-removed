@@ -329,6 +329,16 @@ aSucceeded
 )
 ;
 void
+OnAsyncInitComplete
+(
+)
+;
+bool
+CompleteInitSynchronously
+(
+)
+;
+void
 OnChannelClosed
 (
 )
@@ -397,6 +407,7 @@ LaunchPhase
 {
 Unlaunched
 Waiting
+Connected
 Complete
 }
 ;
