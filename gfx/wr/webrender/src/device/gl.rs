@@ -7513,6 +7513,16 @@ Mali
 -
 T760
 "
+|
+|
+renderer_name
+=
+=
+"
+Mali
+-
+G57
+"
 ;
 let
 requires_texture_external_unbind
