@@ -60,7 +60,6 @@ MPL
 include
 shared
 clip_shared
-image_source
 varying
 highp
 vec4
@@ -123,7 +122,7 @@ ifdef
 WR_VERTEX_SHADER
 PER_INSTANCE
 in
-int
+ivec2
 aClipDataResourceAddress
 ;
 PER_INSTANCE
@@ -152,7 +151,7 @@ ClipMaskInstanceBoxShadow
 ClipMaskInstanceCommon
 base
 ;
-int
+ivec2
 resource_address
 ;
 }
@@ -283,7 +282,7 @@ fetch_data
 ImageSource
 res
 =
-fetch_image_source
+fetch_image_source_direct
 (
 cmi
 .

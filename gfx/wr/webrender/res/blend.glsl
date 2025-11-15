@@ -57,9 +57,6 @@ MPL
 *
 /
 #
-include
-gpu_buffer
-#
 define
 COMPONENT_TRANSFER_IDENTITY
 0
@@ -747,7 +744,7 @@ mat_data
 4
 ]
 =
-fetch_from_gpu_buffer_4f
+fetch_from_gpu_cache_4
 (
 gpu_data_address
 )
@@ -755,7 +752,7 @@ gpu_data_address
 vec4
 offset_data
 =
-fetch_from_gpu_buffer_1f
+fetch_from_gpu_cache_1
 (
 gpu_data_address
 +
@@ -814,7 +811,7 @@ FILTER_FLOOD
 {
 color_offset
 =
-fetch_from_gpu_buffer_1f
+fetch_from_gpu_cache_1
 (
 gpu_data_address
 )
@@ -1546,7 +1543,7 @@ i
 ;
 texel
 =
-fetch_from_gpu_buffer_1f
+fetch_from_gpu_cache_1
 (
 table_address
 +
@@ -1613,7 +1610,7 @@ linear
 equation
 texel
 =
-fetch_from_gpu_buffer_1f
+fetch_from_gpu_cache_1
 (
 table_address
 +
@@ -1682,7 +1679,7 @@ gamma
 equation
 texel
 =
-fetch_from_gpu_buffer_1f
+fetch_from_gpu_cache_1
 (
 table_address
 +
