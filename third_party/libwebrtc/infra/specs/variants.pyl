@@ -129,7 +129,7 @@ mixins
 :
 [
 '
-xcode_16_main
+xcode_17_main
 '
 '
 ios_runtime_cache_16_4
@@ -183,7 +183,7 @@ mixins
 :
 [
 '
-xcode_16_main
+xcode_17_main
 '
 '
 ios_runtime_cache_17_5
@@ -191,7 +191,7 @@ ios_runtime_cache_17_5
 ]
 }
 '
-SIM_IPHONE_15_18_0
+SIM_IPHONE_15_18_2
 '
 :
 {
@@ -217,7 +217,7 @@ version
 '
 18
 .
-0
+2
 '
 ]
 '
@@ -229,7 +229,7 @@ iPhone
 15
 18
 .
-0
+2
 '
 '
 mixins
@@ -237,10 +237,10 @@ mixins
 :
 [
 '
-xcode_16_main
+xcode_17_main
 '
 '
-ios_runtime_cache_18_0
+ios_runtime_cache_18_2
 '
 ]
 }
