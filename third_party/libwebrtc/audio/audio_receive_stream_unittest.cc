@@ -445,8 +445,8 @@ kPlayoutNtpTimestampMs
 5678
 ;
 const
-CallReceiveStatistics
-kCallStats
+ChannelReceiveStatistics
+kChannelStats
 =
 {
 678
@@ -932,7 +932,7 @@ WillOnce
 (
 Return
 (
-kCallStats
+kChannelStats
 )
 )
 ;
@@ -1499,7 +1499,7 @@ remote_ssrc
 ;
 EXPECT_EQ
 (
-kCallStats
+kChannelStats
 .
 payload_bytes_received
 stats
@@ -1509,7 +1509,7 @@ payload_bytes_received
 ;
 EXPECT_EQ
 (
-kCallStats
+kChannelStats
 .
 header_and_padding_bytes_received
 stats
@@ -1524,7 +1524,7 @@ static_cast
 uint32_t
 >
 (
-kCallStats
+kChannelStats
 .
 packets_received
 )
@@ -1535,7 +1535,7 @@ packets_received
 ;
 EXPECT_EQ
 (
-kCallStats
+kChannelStats
 .
 packets_lost
 stats
@@ -1557,7 +1557,7 @@ codec_name
 ;
 EXPECT_EQ
 (
-kCallStats
+kChannelStats
 .
 jitter_ms
 stats
@@ -2041,7 +2041,7 @@ decoding_muted_output
 ;
 EXPECT_EQ
 (
-kCallStats
+kChannelStats
 .
 capture_start_ntp_time_ms
 stats

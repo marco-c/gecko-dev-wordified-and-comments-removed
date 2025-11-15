@@ -213,10 +213,10 @@ class
 RtpTransportControllerSendInterface
 ;
 struct
-CallSendStatistics
+ChannelSendStatistics
 {
-int64_t
-rttMs
+TimeDelta
+round_trip_time
 ;
 int64_t
 payload_bytes_sent
@@ -228,7 +228,7 @@ uint64_t
 retransmitted_bytes_sent
 ;
 int
-packetsSent
+packets_sent
 ;
 int
 packets_sent_with_ect1
@@ -294,7 +294,7 @@ length
 0
 ;
 virtual
-CallSendStatistics
+ChannelSendStatistics
 GetRTCPStatistics
 (
 )

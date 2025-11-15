@@ -1144,7 +1144,7 @@ GetRemoteRTCPReportBlocks
 const
 override
 ;
-CallSendStatistics
+ChannelSendStatistics
 GetRTCPStatistics
 (
 )
@@ -3969,7 +3969,7 @@ GetLatestReportBlockData
 )
 ;
 }
-CallSendStatistics
+ChannelSendStatistics
 ChannelSend
 :
 :
@@ -3984,16 +3984,12 @@ RTC_DCHECK_RUN_ON
 worker_thread_checker_
 )
 ;
-CallSendStatistics
+ChannelSendStatistics
 stats
 =
 {
-0
-}
-;
-stats
 .
-rttMs
+round_trip_time
 =
 rtp_rtcp_
 -
@@ -4011,10 +4007,7 @@ Zero
 (
 )
 )
-.
-ms
-(
-)
+}
 ;
 stats
 .
@@ -4100,7 +4093,7 @@ payload_bytes
 ;
 stats
 .
-packetsSent
+packets_sent
 =
 rtp_stats
 .
