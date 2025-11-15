@@ -380,6 +380,17 @@ receiving
 receiving
 ;
 }
+void
+OnIceCandidateRemoved
+(
+const
+IceCandidate
+*
+candidate
+)
+override
+{
+}
 scoped_refptr
 <
 PeerConnectionInterface

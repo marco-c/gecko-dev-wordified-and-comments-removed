@@ -6073,6 +6073,17 @@ error_text
 ;
 }
 void
+OnIceCandidateRemoved
+(
+const
+IceCandidate
+*
+candidate
+)
+override
+{
+}
+void
 OnDataChannel
 (
 scoped_refptr

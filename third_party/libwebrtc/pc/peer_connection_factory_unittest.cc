@@ -1020,6 +1020,17 @@ candidate
 override
 {
 }
+void
+OnIceCandidateRemoved
+(
+const
+IceCandidate
+*
+candidate
+)
+override
+{
+}
 }
 ;
 class
