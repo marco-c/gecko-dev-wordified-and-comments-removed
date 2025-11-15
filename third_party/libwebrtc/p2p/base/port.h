@@ -777,6 +777,12 @@ error_text
 struct
 CandidatePairChangeEvent
 {
+std
+:
+:
+string
+transport_name
+;
 CandidatePair
 selected_candidate_pair
 ;
