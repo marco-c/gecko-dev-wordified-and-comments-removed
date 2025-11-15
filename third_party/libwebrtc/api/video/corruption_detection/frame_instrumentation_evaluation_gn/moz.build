@@ -274,6 +274,8 @@ third_party
 /
 libwebrtc
 /
+api
+/
 video
 /
 corruption_detection
