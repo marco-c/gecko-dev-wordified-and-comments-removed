@@ -5684,6 +5684,9 @@ exitMoveGroup_
 Label
 label_
 ;
+bool
+isOutOfLine_
+;
 public
 :
 explicit
@@ -5788,6 +5791,16 @@ const
 {
 return
 block_
+;
+}
+bool
+isOutOfLine
+(
+)
+const
+{
+return
+isOutOfLine_
 ;
 }
 LInstructionIterator
