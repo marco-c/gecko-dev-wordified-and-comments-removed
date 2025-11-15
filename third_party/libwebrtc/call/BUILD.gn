@@ -2929,6 +2929,16 @@ api
 /
 video
 :
+encoded_image
+"
+"
+.
+.
+/
+api
+/
+video
+:
 video_frame
 "
 "

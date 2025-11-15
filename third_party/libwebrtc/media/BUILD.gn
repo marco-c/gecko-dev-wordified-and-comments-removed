@@ -2406,6 +2406,16 @@ api
 /
 video
 :
+encoded_image
+"
+"
+.
+.
+/
+api
+/
+video
+:
 recordable_encoded_frame
 "
 "
