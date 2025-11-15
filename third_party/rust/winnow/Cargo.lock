@@ -771,7 +771,7 @@ version
 .
 0
 .
-14
+15
 "
 source
 =
@@ -799,7 +799,7 @@ index
 checksum
 =
 "
-edf3ee19dbc0a46d740f6f0926bde8c50f02bdbc7b536842da28f6ac56513a8b
+ebb4bd301db2e2ca1f5be131c24eb8ebf2d9559bc3744419e93baf8ddea7e670
 "
 dependencies
 =
@@ -10217,7 +10217,7 @@ version
 .
 7
 .
-9
+13
 "
 dependencies
 =
@@ -10251,9 +10251,7 @@ circular
 criterion
 "
 "
-is
--
-terminal
+is_terminal_polyfill
 "
 "
 lexopt

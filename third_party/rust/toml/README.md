@@ -93,7 +93,7 @@ For
 format
 -
 preserving
-edits
+editing
 or
 finer
 control
@@ -146,11 +146,9 @@ rs
 /
 toml_edit
 #
+#
 License
-This
-project
-is
-licensed
+Licensed
 under
 either
 of
@@ -173,7 +171,8 @@ LICENSE
 APACHE
 )
 or
-http
+<
+https
 :
 /
 /
@@ -190,6 +189,7 @@ LICENSE
 2
 .
 0
+>
 )
 *
 MIT
@@ -206,7 +206,8 @@ LICENSE
 MIT
 )
 or
-http
+<
+https
 :
 /
 /
@@ -214,9 +215,10 @@ opensource
 .
 org
 /
-licenses
+license
 /
-MIT
+mit
+>
 )
 at
 your
@@ -238,9 +240,8 @@ submitted
 for
 inclusion
 in
-toml
--
-rs
+the
+work
 by
 you
 as
@@ -256,6 +257,7 @@ license
 shall
 be
 dual
+-
 licensed
 as
 above

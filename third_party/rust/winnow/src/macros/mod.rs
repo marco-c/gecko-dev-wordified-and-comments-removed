@@ -135,10 +135,6 @@ let
 l
 =
 self
-.
-as_ref
-(
-)
 ;
 let
 r
@@ -271,10 +267,6 @@ let
 l
 =
 self
-.
-as_ref
-(
-)
 ;
 let
 r
