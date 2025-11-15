@@ -242,6 +242,13 @@ html
 ]
 [
 "
+test_moz_input_elems_in_form
+.
+html
+"
+]
+[
+"
 test_moz_input_folder
 .
 html
