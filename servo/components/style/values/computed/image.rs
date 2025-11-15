@@ -71,6 +71,7 @@ computed
 :
 {
 AngleOrPercentage
+Length
 LengthPercentage
 NonNegativeLength
 NonNegativeLengthPercentage
@@ -232,9 +233,8 @@ generic
 GenericGradient
 <
 LineDirection
+Length
 LengthPercentage
-NonNegativeLength
-NonNegativeLengthPercentage
 Position
 Angle
 AngleOrPercentage

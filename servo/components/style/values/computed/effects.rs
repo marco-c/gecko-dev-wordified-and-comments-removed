@@ -69,8 +69,7 @@ computed
 :
 {
 Angle
-NonNegativeNumber
-ZeroToOneNumber
+Number
 }
 ;
 use
@@ -177,9 +176,8 @@ Filter
 GenericFilter
 <
 Angle
-NonNegativeNumber
-ZeroToOneNumber
-NonNegativeLength
+Number
+Length
 SimpleShadow
 ComputedUrl
 >
@@ -202,9 +200,8 @@ Filter
 GenericFilter
 <
 Angle
-NonNegativeNumber
-ZeroToOneNumber
-NonNegativeLength
+Number
+Length
 SimpleShadow
 Impossible
 >
