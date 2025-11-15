@@ -677,6 +677,13 @@ fontWeight
 FontWeight
 .
 Bold
+color
+=
+FirefoxTheme
+.
+colors
+.
+textPrimary
 fontSize
 =
 15
