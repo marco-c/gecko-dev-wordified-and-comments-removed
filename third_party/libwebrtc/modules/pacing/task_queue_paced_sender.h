@@ -465,7 +465,7 @@ stats
 private
 :
 void
-MaybeScheduleProcessPackets
+PostMaybeProcessPackets
 (
 )
 RTC_RUN_ON
