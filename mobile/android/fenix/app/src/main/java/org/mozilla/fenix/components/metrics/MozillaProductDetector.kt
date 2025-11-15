@@ -101,7 +101,7 @@ utils
 .
 ext
 .
-getPackageInfoCompat
+packageManagerCompatHelper
 object
 MozillaProductDetector
 {
@@ -348,7 +348,7 @@ try
 {
 context
 .
-packageManager
+packageManagerCompatHelper
 .
 getPackageInfoCompat
 (

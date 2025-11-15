@@ -201,7 +201,7 @@ utils
 .
 ext
 .
-getApplicationInfoCompat
+packageManagerCompatHelper
 import
 mozilla
 .
@@ -1170,7 +1170,7 @@ try
 val
 category
 =
-packageManager
+packageManagerCompatHelper
 .
 getApplicationInfoCompat
 (

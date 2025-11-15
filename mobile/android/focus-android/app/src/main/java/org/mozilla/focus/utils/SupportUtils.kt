@@ -161,7 +161,7 @@ utils
 .
 ext
 .
-getPackageInfoCompat
+packageManagerCompatHelper
 import
 org
 .
@@ -965,7 +965,7 @@ try
 return
 context
 .
-packageManager
+packageManagerCompatHelper
 .
 getPackageInfoCompat
 (

@@ -215,19 +215,7 @@ utils
 .
 ext
 .
-queryIntentActivitiesCompat
-import
-mozilla
-.
-components
-.
-support
-.
-utils
-.
-ext
-.
-resolveActivityCompat
+packageManagerCompatHelper
 import
 java
 .
@@ -575,7 +563,7 @@ try
 {
 context
 .
-packageManager
+packageManagerCompatHelper
 .
 queryIntentActivitiesCompat
 (
@@ -629,7 +617,7 @@ ResolveInfo
 return
 context
 .
-packageManager
+packageManagerCompatHelper
 .
 resolveActivityCompat
 (
@@ -1124,7 +1112,7 @@ includeInstallAppFallback
 !
 context
 .
-packageManager
+packageManagerCompatHelper
 .
 isPackageInstalled
 (

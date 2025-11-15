@@ -417,7 +417,7 @@ utils
 .
 ext
 .
-getPackageInfoCompat
+packageManagerCompatHelper
 import
 java
 .
@@ -482,7 +482,7 @@ get
 (
 )
 =
-packageManager
+packageManagerCompatHelper
 .
 getPackageInfoCompat
 (

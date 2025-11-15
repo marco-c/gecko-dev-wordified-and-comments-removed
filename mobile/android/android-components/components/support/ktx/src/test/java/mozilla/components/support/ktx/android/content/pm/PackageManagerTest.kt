@@ -119,6 +119,18 @@ robolectric
 .
 testContext
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+packageManagerCompatHelper
+import
 org
 .
 junit
@@ -300,7 +312,7 @@ assert
 (
 context
 .
-packageManager
+packageManagerCompatHelper
 .
 isPackageInstalled
 (
@@ -315,7 +327,7 @@ assert
 (
 context
 .
-packageManager
+packageManagerCompatHelper
 .
 isPackageInstalled
 (
@@ -330,7 +342,7 @@ assertFalse
 (
 context
 .
-packageManager
+packageManagerCompatHelper
 .
 isPackageInstalled
 (
@@ -345,7 +357,7 @@ assertFalse
 (
 context
 .
-packageManager
+packageManagerCompatHelper
 .
 isPackageInstalled
 (

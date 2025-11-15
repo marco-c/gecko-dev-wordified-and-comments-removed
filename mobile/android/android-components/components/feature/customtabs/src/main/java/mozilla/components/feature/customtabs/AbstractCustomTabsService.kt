@@ -224,6 +224,18 @@ utils
 ext
 .
 getParcelableCompat
+import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+packageManagerCompatHelper
 /
 *
 *
@@ -336,7 +348,7 @@ checker
 >
 OriginVerifierFeature
 (
-packageManager
+packageManagerCompatHelper
 checker
 )
 {

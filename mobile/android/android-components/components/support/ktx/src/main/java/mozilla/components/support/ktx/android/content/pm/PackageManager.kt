@@ -89,7 +89,7 @@ utils
 .
 ext
 .
-getPackageInfoCompat
+PackageManagerCompatHelper
 /
 *
 *
@@ -116,7 +116,7 @@ for
 *
 /
 fun
-PackageManager
+PackageManagerCompatHelper
 .
 isPackageInstalled
 (

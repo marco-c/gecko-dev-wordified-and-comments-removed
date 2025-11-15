@@ -113,7 +113,7 @@ utils
 .
 ext
 .
-resolveActivityCompat
+packageManagerCompatHelper
 import
 mozilla
 .
@@ -246,7 +246,7 @@ resolveInfo
 =
 context
 .
-packageManager
+packageManagerCompatHelper
 .
 resolveActivityCompat
 (

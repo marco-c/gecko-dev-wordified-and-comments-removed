@@ -107,7 +107,7 @@ utils
 .
 ext
 .
-getPackageInfoCompat
+packageManagerCompatHelper
 import
 org
 .
@@ -289,12 +289,10 @@ installTime
 =
 this
 .
-packageManager
+packageManagerCompatHelper
 .
 getPackageInfoCompat
 (
-this
-.
 packageName
 0
 )

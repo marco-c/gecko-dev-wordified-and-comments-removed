@@ -217,7 +217,7 @@ utils
 .
 ext
 .
-getPackageInfoCompat
+packageManagerCompatHelper
 import
 org
 .
@@ -2745,7 +2745,7 @@ packageManager
 =
 applicationContext
 .
-packageManager
+packageManagerCompatHelper
 try
 {
 val

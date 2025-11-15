@@ -114,6 +114,18 @@ digitalassetlinks
 local
 .
 StatementRelationChecker
+import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+packageManagerCompatHelper
 /
 *
 *
@@ -321,7 +333,7 @@ getAndroidAppAsset
 packageName
 context
 .
-packageManager
+packageManagerCompatHelper
 )
 .
 toList

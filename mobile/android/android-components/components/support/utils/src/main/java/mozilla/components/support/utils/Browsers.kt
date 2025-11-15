@@ -137,7 +137,7 @@ utils
 .
 ext
 .
-getPackageInfoCompat
+PackageManagerCompatHelper
 import
 mozilla
 .
@@ -149,19 +149,7 @@ utils
 .
 ext
 .
-queryIntentActivitiesCompat
-import
-mozilla
-.
-components
-.
-support
-.
-utils
-.
-ext
-.
-resolveActivityCompat
+packageManagerCompatHelper
 /
 *
 *
@@ -764,7 +752,7 @@ packageManager
 =
 context
 .
-packageManager
+packageManagerCompatHelper
 val
 browsers
 =
@@ -887,7 +875,7 @@ findDefault
 context
 context
 .
-packageManager
+packageManagerCompatHelper
 uri
 )
 /
@@ -1763,7 +1751,7 @@ context
 Context
 packageManager
 :
-PackageManager
+PackageManagerCompatHelper
 uri
 :
 Uri
@@ -1832,7 +1820,7 @@ findKnownBrowsers
 (
 packageManager
 :
-PackageManager
+PackageManagerCompatHelper
 browsers
 :
 MutableMap
@@ -2063,7 +2051,7 @@ context
 Context
 packageManager
 :
-PackageManager
+PackageManagerCompatHelper
 uri
 :
 Uri
@@ -2468,7 +2456,7 @@ context
 Context
 packageManager
 :
-PackageManager
+PackageManagerCompatHelper
 includeThisApp
 :
 Boolean
@@ -2684,7 +2672,7 @@ context
 Context
 packageManager
 :
-PackageManager
+PackageManagerCompatHelper
 url
 :
 String

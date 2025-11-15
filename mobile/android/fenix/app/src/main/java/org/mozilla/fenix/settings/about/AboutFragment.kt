@@ -173,7 +173,7 @@ utils
 .
 ext
 .
-getPackageInfoCompat
+packageManagerCompatHelper
 import
 org
 .
@@ -964,7 +964,7 @@ requireContext
 (
 )
 .
-packageManager
+packageManagerCompatHelper
 .
 getPackageInfoCompat
 (

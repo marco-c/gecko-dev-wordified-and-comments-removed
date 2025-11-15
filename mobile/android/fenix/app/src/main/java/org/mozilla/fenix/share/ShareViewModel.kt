@@ -217,7 +217,7 @@ utils
 .
 ext
 .
-queryIntentActivitiesCompat
+packageManagerCompatHelper
 import
 org
 .
@@ -1021,7 +1021,7 @@ ResolveInfo
 return
 context
 .
-packageManager
+packageManagerCompatHelper
 .
 queryIntentActivitiesCompat
 (

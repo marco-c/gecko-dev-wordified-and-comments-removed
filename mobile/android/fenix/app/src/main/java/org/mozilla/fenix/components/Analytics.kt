@@ -273,7 +273,7 @@ utils
 .
 ext
 .
-getPackageInfoCompat
+packageManagerCompatHelper
 import
 org
 .
@@ -1264,7 +1264,7 @@ packageInfo
 =
 applicationContext
 .
-packageManager
+packageManagerCompatHelper
 .
 getPackageInfoCompat
 (

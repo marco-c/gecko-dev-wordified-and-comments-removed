@@ -365,7 +365,7 @@ utils
 .
 ext
 .
-getApplicationInfoCompat
+packageManagerCompatHelper
 import
 okio
 .
@@ -769,7 +769,7 @@ getInstrumentation
 .
 context
 .
-packageManager
+packageManagerCompatHelper
 packageManager
 .
 getApplicationInfoCompat

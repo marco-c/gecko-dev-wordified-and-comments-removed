@@ -127,7 +127,7 @@ utils
 .
 ext
 .
-getPackageInfoCompat
+PackageManagerCompatHelper
 import
 java
 .
@@ -268,7 +268,7 @@ packageName
 String
 packageManager
 :
-PackageManager
+PackageManagerCompatHelper
 )
 :
 Sequence
@@ -526,7 +526,7 @@ get
 signatures
 private
 fun
-PackageManager
+PackageManagerCompatHelper
 .
 getSignatures
 (
@@ -655,7 +655,7 @@ PackageManagerGetSignatures
 )
 private
 fun
-PackageManager
+PackageManagerCompatHelper
 .
 getPackageSignatureInfo
 (
@@ -698,7 +698,7 @@ Suppress
 Deprecation
 "
 )
-getPackageInfo
+getPackageInfoCompat
 (
 packageName
 PackageManager

@@ -199,7 +199,7 @@ utils
 .
 ext
 .
-getPackageInfoCompat
+packageManagerCompatHelper
 import
 org
 .
@@ -1643,7 +1643,7 @@ Long
 =
 try
 {
-packageManager
+packageManagerCompatHelper
 .
 getPackageInfoCompat
 (

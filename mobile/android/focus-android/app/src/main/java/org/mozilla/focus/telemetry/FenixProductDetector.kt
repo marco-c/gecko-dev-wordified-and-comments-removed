@@ -97,7 +97,7 @@ utils
 .
 ext
 .
-getPackageInfoCompat
+packageManagerCompatHelper
 object
 FenixProductDetector
 {
@@ -261,7 +261,7 @@ try
 {
 context
 .
-packageManager
+packageManagerCompatHelper
 .
 getPackageInfoCompat
 (

@@ -97,7 +97,7 @@ utils
 .
 ext
 .
-queryIntentActivitiesCompat
+packageManagerCompatHelper
 /
 *
 *
@@ -189,7 +189,7 @@ resolveInfos
 =
 context
 .
-packageManager
+packageManagerCompatHelper
 .
 queryIntentActivitiesCompat
 (

@@ -113,7 +113,7 @@ utils
 .
 ext
 .
-getPackageInfoCompat
+packageManagerCompatHelper
 import
 org
 .
@@ -1840,7 +1840,7 @@ Long
 =
 context
 .
-packageManager
+packageManagerCompatHelper
 .
 getPackageInfoCompat
 (

@@ -466,6 +466,18 @@ support
 utils
 .
 Browsers
+import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+ext
+.
+packageManagerCompatHelper
 /
 *
 *
@@ -2919,7 +2931,7 @@ packageManager
 =
 context
 .
-packageManager
+packageManagerCompatHelper
 val
 browsers
 =

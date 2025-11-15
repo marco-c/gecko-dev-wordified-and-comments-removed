@@ -269,7 +269,7 @@ utils
 .
 ext
 .
-getPackageInfoCompat
+packageManagerCompatHelper
 import
 org
 .
@@ -441,7 +441,7 @@ packageInfo
 =
 context
 .
-packageManager
+packageManagerCompatHelper
 .
 getPackageInfoCompat
 (
