@@ -286,6 +286,9 @@ kWithoutCreateOffer
 kNumberOfContents
 =
 4
+kCurrentDescriptionFailedToParse
+=
+5
 kIceOptions
 =
 20

@@ -2631,11 +2631,15 @@ description
 .
 "
 ;
+RTC_DCHECK_NOTREACHED
+(
+)
+;
 return
 SdpMungingType
 :
 :
-kUnknownModification
+kCurrentDescriptionFailedToParse
 ;
 }
 if
