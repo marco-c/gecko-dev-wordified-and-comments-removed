@@ -3907,6 +3907,10 @@ mPendingDidDoReflow
 (
 false
 )
+mHasSeenAnchorPos
+(
+false
+)
 {
 MOZ_LOG
 (
