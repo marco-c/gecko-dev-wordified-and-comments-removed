@@ -5191,6 +5191,12 @@ position
 :
 fixed
 ;
+position
+-
+anchor
+:
+auto
+;
 inset
 :
 0

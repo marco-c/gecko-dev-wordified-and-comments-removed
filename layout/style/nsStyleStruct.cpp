@@ -5333,7 +5333,7 @@ mPositionAnchor
 StylePositionAnchor
 :
 :
-Auto
+None
 (
 )
 )

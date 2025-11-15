@@ -3533,6 +3533,7 @@ aAnchorName
 }
 const
 auto
+&
 defaultAnchor
 =
 aPositioned
@@ -3545,6 +3546,19 @@ StylePosition
 >
 mPositionAnchor
 ;
+if
+(
+defaultAnchor
+.
+IsNone
+(
+)
+)
+{
+return
+nullptr
+;
+}
 if
 (
 defaultAnchor
