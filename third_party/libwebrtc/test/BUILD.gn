@@ -9028,6 +9028,14 @@ test_support
 /
 api
 :
+function_view
+"
+"
+.
+.
+/
+api
+:
 rtc_error
 "
 "
