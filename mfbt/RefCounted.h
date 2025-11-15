@@ -7,11 +7,6 @@ mozilla_RefCounted_h
 #
 include
 <
-utility
->
-#
-include
-<
 type_traits
 >
 #

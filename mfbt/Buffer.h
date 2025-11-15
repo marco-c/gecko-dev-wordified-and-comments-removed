@@ -62,11 +62,6 @@ iterator
 #
 include
 <
-memory
->
-#
-include
-<
 utility
 >
 namespace

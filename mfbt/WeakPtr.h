@@ -57,11 +57,6 @@ string
 h
 >
 #
-include
-<
-type_traits
->
-#
 if
 defined
 (

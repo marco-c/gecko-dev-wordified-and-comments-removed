@@ -34,11 +34,6 @@ h
 #
 include
 <
-array
->
-#
-include
-<
 climits
 >
 #

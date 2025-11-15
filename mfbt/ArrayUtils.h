@@ -47,11 +47,6 @@ algorithm
 #
 include
 <
-array
->
-#
-include
-<
 type_traits
 >
 namespace
