@@ -3021,8 +3021,12 @@ visibility
 =
 [
 "
+.
+.
+/
+api
 :
-*
+create_modular_peer_connection_factory
 "
 ]
 sources
@@ -9941,10 +9945,6 @@ peer_connection
 "
 "
 :
-peer_connection_factory_proxy
-"
-"
-:
 peer_connection_proxy
 "
 "
@@ -15474,10 +15474,6 @@ peer_connection
 "
 :
 peer_connection_factory
-"
-"
-:
-peer_connection_factory_proxy
 "
 "
 :
