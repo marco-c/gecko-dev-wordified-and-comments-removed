@@ -358,6 +358,9 @@ git
 log
 -
 -
+reverse
+-
+-
 format
 =
 '
