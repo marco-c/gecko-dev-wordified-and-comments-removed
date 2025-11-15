@@ -842,7 +842,17 @@ Network
 const
 Network
 &
+o
 )
+;
+Network
+(
+Network
+&
+&
+)
+=
+default
 ;
 ~
 Network
