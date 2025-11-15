@@ -62404,17 +62404,6 @@ string
 :
 nsISearchParseSubmissionResult
 ;
-getAlternateDomains
-(
-domain
-:
-string
-)
-:
-string
-[
-]
-;
 }
 interface
 nsIToolkitShellService
