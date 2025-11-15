@@ -3752,6 +3752,13 @@ html
 ]
 [
 "
+test_bug1995614_atomized_attributes
+.
+html
+"
+]
+[
+"
 test_change_crossorigin
 .
 html
