@@ -463,6 +463,17 @@ default
 /
 /
 A
+file
+picker
+dialog
+File
+:
+"
+file
+"
+/
+/
+A
 simple
 prompt
 dialog
