@@ -15,7 +15,6 @@ const
 {
 cleanup
 runInPage
-resolveDownloads
 }
 =
 await
@@ -54,6 +53,9 @@ useLexicalShortlist
 false
 ]
 ]
+autoDownloadFromRemoteSettings
+:
+true
 }
 )
 ;
@@ -80,9 +82,6 @@ expectedToLanguage
 "
 en
 "
-downloadHandler
-:
-resolveDownloads
 onOpenPanel
 :
 SelectTranslationsTestUtils
@@ -148,9 +147,6 @@ expectedToLanguage
 "
 en
 "
-downloadHandler
-:
-resolveDownloads
 onOpenPanel
 :
 SelectTranslationsTestUtils
@@ -186,7 +182,6 @@ const
 {
 cleanup
 runInPage
-resolveDownloads
 }
 =
 await
@@ -225,6 +220,9 @@ useLexicalShortlist
 true
 ]
 ]
+autoDownloadFromRemoteSettings
+:
+true
 }
 )
 ;
@@ -251,9 +249,6 @@ expectedToLanguage
 "
 en
 "
-downloadHandler
-:
-resolveDownloads
 onOpenPanel
 :
 SelectTranslationsTestUtils
@@ -319,9 +314,6 @@ expectedToLanguage
 "
 en
 "
-downloadHandler
-:
-resolveDownloads
 onOpenPanel
 :
 SelectTranslationsTestUtils
