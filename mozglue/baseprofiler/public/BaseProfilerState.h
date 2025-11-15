@@ -87,11 +87,6 @@ stdint
 h
 >
 #
-include
-<
-string
->
-#
 ifdef
 PROFILER_RUNTIME_STATS
 #
