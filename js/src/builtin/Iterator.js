@@ -2474,9 +2474,6 @@ value
 }
 }
 }
-#
-ifdef
-NIGHTLY_BUILD
 function
 IteratorConcat
 (
@@ -2736,6 +2733,9 @@ innerValue
 }
 }
 }
+#
+ifdef
+NIGHTLY_BUILD
 function
 IteratorZip
 (
