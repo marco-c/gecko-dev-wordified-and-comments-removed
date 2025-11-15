@@ -1,10 +1,5 @@
 #
 include
-<
-algorithm
->
-#
-include
 "
 mozilla
 /

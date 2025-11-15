@@ -292,11 +292,6 @@ WidgetUtilsGtk
 h
 "
 #
-include
-<
-map
->
-#
 endif
 #
 endif

@@ -6,11 +6,6 @@ define
 nsFmtCString_h___
 #
 include
-<
-type_traits
->
-#
-include
 "
 fmt
 /

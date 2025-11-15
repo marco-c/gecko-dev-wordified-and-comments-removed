@@ -1,10 +1,5 @@
 #
 include
-<
-memory
->
-#
-include
 "
 gmock
 /
