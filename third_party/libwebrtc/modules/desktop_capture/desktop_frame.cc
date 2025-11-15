@@ -174,12 +174,6 @@ height
 0
 )
 ;
-RTC_CHECK_EQ
-(
-FOURCC_ARGB
-pixel_format_
-)
-;
 }
 DesktopFrame
 :
