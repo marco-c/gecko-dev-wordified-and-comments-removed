@@ -1255,6 +1255,15 @@ nsIFrame
 aStickyFrame
 )
 {
+aStickyFrame
+=
+aStickyFrame
+-
+>
+FirstContinuation
+(
+)
+;
 RefPtr
 <
 ActiveScrolledRoot
