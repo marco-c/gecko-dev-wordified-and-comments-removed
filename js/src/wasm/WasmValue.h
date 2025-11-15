@@ -2482,6 +2482,7 @@ AnyRef
 >
 {
 static
+constexpr
 js
 :
 :

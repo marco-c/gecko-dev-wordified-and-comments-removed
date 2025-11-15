@@ -118,6 +118,7 @@ value_
 ;
 }
 explicit
+constexpr
 AnyRef
 (
 uintptr_t
@@ -344,6 +345,7 @@ MinI31Value
 )
 ;
 explicit
+constexpr
 AnyRef
 (
 )
@@ -355,6 +357,7 @@ NullRefValue
 {
 }
 MOZ_IMPLICIT
+constexpr
 AnyRef
 (
 std
@@ -370,6 +373,7 @@ NullRefValue
 {
 }
 static
+constexpr
 AnyRef
 null
 (
@@ -383,6 +387,7 @@ NullRefValue
 ;
 }
 static
+constexpr
 AnyRef
 invalid
 (
