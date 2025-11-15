@@ -224,7 +224,7 @@ L38
 send_in_pings
 :
 -
-gecko_trace
+traces
 notification_emails
 :
 -
