@@ -977,6 +977,14 @@ js
 /
 src
 /
+irregexp
+/
+imported
+/
+js
+/
+src
+/
 jit
 /
 arm64
