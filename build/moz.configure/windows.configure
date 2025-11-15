@@ -3402,6 +3402,13 @@ True
 set_define
 (
 "
+_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR
+"
+True
+)
+set_define
+(
+"
 HAVE_SEH_EXCEPTIONS
 "
 True
