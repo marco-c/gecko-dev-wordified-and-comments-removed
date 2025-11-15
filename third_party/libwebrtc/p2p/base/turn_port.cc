@@ -4876,9 +4876,8 @@ error_code
 STUN_ERROR_NOT_AN_ERROR
 )
 {
-SignalCandidateError
+SendCandidateError
 (
-this
 IceCandidateErrorEvent
 (
 address

@@ -3169,9 +3169,8 @@ ToString
 (
 )
 ;
-SignalCandidateError
+SendCandidateError
 (
-this
 IceCandidateErrorEvent
 (
 GetLocalAddress
