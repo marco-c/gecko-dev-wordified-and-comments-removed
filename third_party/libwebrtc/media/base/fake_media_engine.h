@@ -5360,6 +5360,10 @@ VideoMediaSendChannelInterface
 >
 CreateSendChannel
 (
+const
+Environment
+&
+env
 Call
 *
 call
@@ -5390,6 +5394,10 @@ VideoMediaReceiveChannelInterface
 >
 CreateReceiveChannel
 (
+const
+Environment
+&
+env
 Call
 *
 call

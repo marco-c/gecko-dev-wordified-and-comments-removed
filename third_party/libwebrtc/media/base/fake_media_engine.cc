@@ -123,6 +123,17 @@ include
 "
 api
 /
+environment
+/
+environment
+.
+h
+"
+#
+include
+"
+api
+/
 make_ref_counted
 .
 h
@@ -3624,6 +3635,9 @@ FakeVideoEngine
 :
 CreateSendChannel
 (
+const
+Environment
+&
 Call
 *
 call
@@ -3683,6 +3697,9 @@ FakeVideoEngine
 :
 CreateReceiveChannel
 (
+const
+Environment
+&
 Call
 *
 call

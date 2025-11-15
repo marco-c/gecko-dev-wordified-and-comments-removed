@@ -124,6 +124,17 @@ include
 "
 api
 /
+environment
+/
+environment
+.
+h
+"
+#
+include
+"
+api
+/
 jsep
 .
 h
@@ -753,6 +764,10 @@ RtpTransceiver
 :
 RtpTransceiver
 (
+const
+Environment
+&
+env
 MediaType
 media_type
 ConnectionContext
@@ -763,6 +778,10 @@ CodecLookupHelper
 codec_lookup_helper
 )
 :
+env_
+(
+env
+)
 thread_
 (
 GetCurrentTaskQueueOrThread
@@ -822,6 +841,10 @@ RtpTransceiver
 :
 RtpTransceiver
 (
+const
+Environment
+&
+env
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -864,6 +887,10 @@ void
 on_negotiation_needed
 )
 :
+env_
+(
+env
+)
 thread_
 (
 GetCurrentTaskQueueOrThread
@@ -1619,6 +1646,7 @@ video
 .
 CreateSendChannel
 (
+env_
 call_ptr
 media_config
 video_options
@@ -1646,6 +1674,7 @@ video
 .
 CreateReceiveChannel
 (
+env_
 call_ptr
 media_config
 video_options

@@ -811,6 +811,7 @@ video
 .
 CreateSendChannel
 (
+env_
 &
 fake_call_
 MediaConfig
@@ -870,6 +871,7 @@ video
 .
 CreateReceiveChannel
 (
+env_
 &
 fake_call_
 MediaConfig

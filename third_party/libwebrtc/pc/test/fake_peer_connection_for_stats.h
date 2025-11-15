@@ -2810,9 +2810,6 @@ RtpTransceiver
 >
 GetOrCreateFirstTransceiverOfType
 (
-webrtc
-:
-:
 MediaType
 media_type
 )
@@ -2864,9 +2861,6 @@ RtpTransceiver
 >
 CreateTransceiverOfType
 (
-webrtc
-:
-:
 MediaType
 media_type
 )
@@ -2888,6 +2882,12 @@ make_ref_counted
 RtpTransceiver
 >
 (
+context_
+-
+>
+env
+(
+)
 media_type
 context_
 .
