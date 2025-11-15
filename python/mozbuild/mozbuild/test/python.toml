@@ -476,6 +476,13 @@ py
 ]
 [
 "
+test_site_dependency_extractor
+.
+py
+"
+]
+[
+"
 test_telemetry
 .
 py
