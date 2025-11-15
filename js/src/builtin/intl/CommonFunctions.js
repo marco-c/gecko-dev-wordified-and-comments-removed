@@ -2138,7 +2138,7 @@ boolean
 {
 value
 =
-ToBoolean
+TO_BOOLEAN
 (
 value
 )
@@ -2456,7 +2456,7 @@ fallback
 }
 value
 =
-ToNumber
+TO_NUMBER
 (
 value
 )

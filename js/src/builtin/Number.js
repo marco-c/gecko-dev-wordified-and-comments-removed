@@ -184,7 +184,7 @@ number
 return
 Number_isNaN
 (
-ToNumber
+TO_NUMBER
 (
 number
 )
@@ -200,7 +200,7 @@ number
 return
 Number_isFinite
 (
-ToNumber
+TO_NUMBER
 (
 number
 )

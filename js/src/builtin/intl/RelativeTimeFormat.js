@@ -588,7 +588,7 @@ Intl_RelativeTimeFormat_format
 var
 t
 =
-ToNumber
+TO_NUMBER
 (
 value
 )
@@ -662,7 +662,7 @@ Intl_RelativeTimeFormat_formatToParts
 var
 t
 =
-ToNumber
+TO_NUMBER
 (
 value
 )

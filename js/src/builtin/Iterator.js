@@ -5278,7 +5278,7 @@ step
 ;
 inclusiveEnd
 =
-ToBoolean
+TO_BOOLEAN
 (
 optionOrStep
 .

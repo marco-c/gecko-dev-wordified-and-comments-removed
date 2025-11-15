@@ -626,7 +626,7 @@ Intl_PluralRules_select
 var
 n
 =
-ToNumber
+TO_NUMBER
 (
 value
 )
@@ -736,7 +736,7 @@ selectRange
 var
 x
 =
-ToNumber
+TO_NUMBER
 (
 start
 )
@@ -744,7 +744,7 @@ start
 var
 y
 =
-ToNumber
+TO_NUMBER
 (
 end
 )
