@@ -2032,7 +2032,7 @@ condprof
 )
 parent
 :
-ubuntu1804
+ubuntu2404
 -
 test
 sentry
