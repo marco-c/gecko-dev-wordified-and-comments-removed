@@ -2471,7 +2471,7 @@ getStats
 .
 rtc_video_psnr
 =
-build_with_chromium
+true
 }
 declare_args
 (
