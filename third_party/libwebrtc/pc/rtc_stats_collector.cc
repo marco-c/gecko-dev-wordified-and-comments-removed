@@ -7197,7 +7197,13 @@ request
 int64_t
 cache_now_us
 =
-TimeMicros
+env_
+.
+clock
+(
+)
+.
+TimeInMicroseconds
 (
 )
 ;
