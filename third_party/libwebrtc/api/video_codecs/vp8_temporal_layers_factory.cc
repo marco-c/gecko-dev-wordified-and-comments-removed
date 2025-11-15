@@ -34,6 +34,17 @@ include
 "
 api
 /
+environment
+/
+environment
+.
+h
+"
+#
+include
+"
+api
+/
 fec_controller_override
 .
 h
@@ -149,6 +160,10 @@ Vp8TemporalLayersFactory
 :
 Create
 (
+const
+Environment
+&
+env
 const
 VideoCodec
 &
@@ -278,6 +293,7 @@ make_unique
 ScreenshareLayers
 >
 (
+env
 num_temporal_layers
 )
 )
