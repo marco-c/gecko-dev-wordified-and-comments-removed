@@ -7526,6 +7526,12 @@ MaybeReadFallback
 Fallback_DoNothing
 )
 ;
+AutoUnsafeStackTrace
+aust
+(
+cx
+)
+;
 SnapshotIterator
 snapIter
 (

@@ -2059,6 +2059,12 @@ keepJitScripts
 cx
 )
 ;
+AutoUnsafeStackTrace
+aust
+(
+cx
+)
+;
 BaselineScript
 *
 oldBaselineScript
