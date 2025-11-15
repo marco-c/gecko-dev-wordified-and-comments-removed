@@ -73,6 +73,14 @@ Context
 import
 mozilla
 .
+appservices
+.
+remotesettings
+.
+RemoteSettingsService
+import
+mozilla
+.
 components
 .
 service
@@ -223,6 +231,10 @@ val
 context
 :
 Context
+remoteSettingsService
+:
+RemoteSettingsService
+?
 )
 {
 /
@@ -278,6 +290,7 @@ context
 BuildConfig
 .
 NIMBUS_ENDPOINT
+remoteSettingsService
 )
 }
 /
