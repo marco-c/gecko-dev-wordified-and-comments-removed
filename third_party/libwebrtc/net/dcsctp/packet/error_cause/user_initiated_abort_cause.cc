@@ -82,13 +82,6 @@ h
 namespace
 dcsctp
 {
-constexpr
-int
-UserInitiatedAbortCause
-:
-:
-kType
-;
 std
 :
 :

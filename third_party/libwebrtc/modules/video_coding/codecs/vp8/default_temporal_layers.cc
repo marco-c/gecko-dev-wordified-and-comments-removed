@@ -618,13 +618,6 @@ RTC_CHECK_NOTREACHED
 }
 }
 }
-constexpr
-size_t
-DefaultTemporalLayers
-:
-:
-kNumReferenceBuffers
-;
 std
 :
 :

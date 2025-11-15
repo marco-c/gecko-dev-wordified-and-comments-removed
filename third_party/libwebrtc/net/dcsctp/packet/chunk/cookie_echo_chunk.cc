@@ -71,13 +71,6 @@ h
 namespace
 dcsctp
 {
-constexpr
-int
-CookieEchoChunk
-:
-:
-kType
-;
 std
 :
 :

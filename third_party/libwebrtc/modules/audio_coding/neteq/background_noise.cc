@@ -119,13 +119,6 @@ kMaxSampleRate
 48000
 ;
 }
-constexpr
-size_t
-BackgroundNoise
-:
-:
-kMaxLpcOrder
-;
 BackgroundNoise
 :
 :

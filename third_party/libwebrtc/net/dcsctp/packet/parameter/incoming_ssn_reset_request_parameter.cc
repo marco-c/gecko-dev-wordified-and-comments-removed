@@ -118,13 +118,6 @@ h
 namespace
 dcsctp
 {
-constexpr
-int
-IncomingSSNResetRequestParameter
-:
-:
-kType
-;
 std
 :
 :

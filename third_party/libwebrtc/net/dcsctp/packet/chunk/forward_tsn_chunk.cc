@@ -133,13 +133,6 @@ h
 namespace
 dcsctp
 {
-constexpr
-int
-ForwardTsnChunk
-:
-:
-kType
-;
 std
 :
 :

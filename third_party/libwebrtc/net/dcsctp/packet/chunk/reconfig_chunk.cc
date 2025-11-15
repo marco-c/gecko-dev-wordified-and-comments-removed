@@ -91,13 +91,6 @@ h
 namespace
 dcsctp
 {
-constexpr
-int
-ReConfigChunk
-:
-:
-kType
-;
 std
 :
 :

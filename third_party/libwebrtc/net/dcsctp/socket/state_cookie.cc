@@ -116,13 +116,6 @@ kMagic2
 =
 1414541360
 ;
-constexpr
-size_t
-StateCookie
-:
-:
-kCookieSize
-;
 std
 :
 :

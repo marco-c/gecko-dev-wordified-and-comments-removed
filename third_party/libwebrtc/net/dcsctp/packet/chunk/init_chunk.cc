@@ -115,13 +115,6 @@ h
 namespace
 dcsctp
 {
-constexpr
-int
-InitChunk
-:
-:
-kType
-;
 std
 :
 :

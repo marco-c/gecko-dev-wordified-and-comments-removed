@@ -87,13 +87,6 @@ h
 namespace
 dcsctp
 {
-constexpr
-int
-UnrecognizedChunkTypeCause
-:
-:
-kType
-;
 std
 :
 :

@@ -321,13 +321,6 @@ kAcceptableTargetOvershoot
 .
 0
 ;
-constexpr
-int
-ScreenshareLayers
-:
-:
-kMaxNumTemporalLayers
-;
 const
 int
 ScreenshareLayers

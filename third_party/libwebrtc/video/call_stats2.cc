@@ -418,13 +418,6 @@ kWeightFactor
 ;
 }
 }
-constexpr
-TimeDelta
-CallStats
-:
-:
-kUpdateInterval
-;
 CallStats
 :
 :

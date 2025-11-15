@@ -761,15 +761,6 @@ rtclog_config
 ;
 }
 }
-constexpr
-char
-AudioAllocationConfig
-:
-:
-kKey
-[
-]
-;
 std
 :
 :

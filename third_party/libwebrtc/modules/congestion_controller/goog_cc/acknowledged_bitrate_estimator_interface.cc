@@ -90,15 +90,6 @@ h
 namespace
 webrtc
 {
-constexpr
-char
-RobustThroughputEstimatorSettings
-:
-:
-kKey
-[
-]
-;
 RobustThroughputEstimatorSettings
 :
 :

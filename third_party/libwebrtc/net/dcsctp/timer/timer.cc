@@ -248,13 +248,6 @@ kMaxTimerDuration
 }
 }
 }
-constexpr
-TimeDelta
-Timer
-:
-:
-kMaxTimerDuration
-;
 Timer
 :
 :

@@ -125,13 +125,6 @@ h
 namespace
 dcsctp
 {
-constexpr
-int
-ReconfigurationResponseParameter
-:
-:
-kType
-;
 absl
 :
 :

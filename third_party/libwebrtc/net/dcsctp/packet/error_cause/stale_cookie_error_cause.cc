@@ -82,13 +82,6 @@ h
 namespace
 dcsctp
 {
-constexpr
-int
-StaleCookieErrorCause
-:
-:
-kType
-;
 std
 :
 :

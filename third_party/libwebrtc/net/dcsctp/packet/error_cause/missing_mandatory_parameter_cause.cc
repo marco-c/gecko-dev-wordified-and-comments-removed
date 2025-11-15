@@ -107,13 +107,6 @@ h
 namespace
 dcsctp
 {
-constexpr
-int
-MissingMandatoryParameterCause
-:
-:
-kType
-;
 std
 :
 :

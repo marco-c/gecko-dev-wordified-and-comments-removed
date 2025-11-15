@@ -45,13 +45,6 @@ h
 namespace
 dcsctp
 {
-constexpr
-int
-CookieReceivedWhileShuttingDownCause
-:
-:
-kType
-;
 std
 :
 :

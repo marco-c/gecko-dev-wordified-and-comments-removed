@@ -98,13 +98,6 @@ h
 namespace
 dcsctp
 {
-constexpr
-int
-SupportedExtensionsParameter
-:
-:
-kType
-;
 std
 :
 :

@@ -731,15 +731,6 @@ kDeltaCounterMax
 1000
 ;
 }
-constexpr
-char
-TrendlineEstimatorSettings
-:
-:
-kKey
-[
-]
-;
 TrendlineEstimatorSettings
 :
 :

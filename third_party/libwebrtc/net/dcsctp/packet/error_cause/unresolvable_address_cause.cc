@@ -71,13 +71,6 @@ h
 namespace
 dcsctp
 {
-constexpr
-int
-UnresolvableAddressCause
-:
-:
-kType
-;
 std
 :
 :

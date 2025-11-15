@@ -286,15 +286,6 @@ kFixedSsrc
 0
 ;
 }
-constexpr
-char
-BweSeparateAudioPacketsSettings
-:
-:
-kKey
-[
-]
-;
 BweSeparateAudioPacketsSettings
 :
 :

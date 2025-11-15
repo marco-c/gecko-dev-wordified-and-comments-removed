@@ -134,13 +134,6 @@ h
 namespace
 dcsctp
 {
-constexpr
-int
-SackChunk
-:
-:
-kType
-;
 std
 :
 :

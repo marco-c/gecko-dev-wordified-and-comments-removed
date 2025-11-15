@@ -91,13 +91,6 @@ h
 namespace
 dcsctp
 {
-constexpr
-int
-AbortChunk
-:
-:
-kType
-;
 std
 :
 :

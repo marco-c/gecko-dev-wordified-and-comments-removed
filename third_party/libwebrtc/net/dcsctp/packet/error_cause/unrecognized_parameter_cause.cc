@@ -71,13 +71,6 @@ h
 namespace
 dcsctp
 {
-constexpr
-int
-UnrecognizedParametersCause
-:
-:
-kType
-;
 std
 :
 :

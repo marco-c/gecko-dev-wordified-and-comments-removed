@@ -45,13 +45,6 @@ h
 namespace
 dcsctp
 {
-constexpr
-int
-OutOfResourceErrorCause
-:
-:
-kType
-;
 std
 :
 :

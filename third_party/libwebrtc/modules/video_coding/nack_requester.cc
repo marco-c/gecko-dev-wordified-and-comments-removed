@@ -289,13 +289,6 @@ kDefaultSendNackDelay
 ;
 }
 }
-constexpr
-TimeDelta
-NackPeriodicProcessor
-:
-:
-kUpdateInterval
-;
 NackPeriodicProcessor
 :
 :

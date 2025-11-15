@@ -95,13 +95,6 @@ h
 namespace
 dcsctp
 {
-constexpr
-int
-AddIncomingStreamsRequestParameter
-:
-:
-kType
-;
 std
 :
 :
