@@ -621,8 +621,7 @@ PossiblyWrappedTypedArrayLength
 O
 )
 ;
-return
-CreateArrayIterator
+RETURN_ARRAY_ITERATOR
 (
 O
 ITEM_KIND_KEY_AND_VALUE
@@ -1376,8 +1375,7 @@ PossiblyWrappedTypedArrayLength
 O
 )
 ;
-return
-CreateArrayIterator
+RETURN_ARRAY_ITERATOR
 (
 O
 ITEM_KIND_KEY
@@ -2628,8 +2626,7 @@ PossiblyWrappedTypedArrayLength
 O
 )
 ;
-return
-CreateArrayIterator
+RETURN_ARRAY_ITERATOR
 (
 O
 ITEM_KIND_VALUE
