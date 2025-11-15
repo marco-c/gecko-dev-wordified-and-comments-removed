@@ -276,13 +276,6 @@ Registers
 the
 Attribution
 actor
-to
-handle
-conversion
-events
-from
-advertiser
-websites
 .
 *
 Called
