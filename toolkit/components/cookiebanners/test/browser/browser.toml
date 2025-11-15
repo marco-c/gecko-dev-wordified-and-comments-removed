@@ -140,13 +140,6 @@ html
 ]
 [
 "
-browser_cookiebanner_gdpr_telemetry
-.
-js
-"
-]
-[
-"
 browser_cookiebanner_telemetry
 .
 js
