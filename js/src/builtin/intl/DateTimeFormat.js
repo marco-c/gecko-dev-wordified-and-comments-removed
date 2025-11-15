@@ -700,7 +700,7 @@ options
 var
 localeOpt
 =
-new_Record
+NEW_RECORD
 (
 )
 ;
@@ -989,7 +989,7 @@ timeZone
 var
 formatOptions
 =
-new_Record
+NEW_RECORD
 (
 )
 ;

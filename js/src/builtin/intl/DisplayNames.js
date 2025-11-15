@@ -407,7 +407,7 @@ options
 var
 opt
 =
-new_Record
+NEW_RECORD
 (
 )
 ;

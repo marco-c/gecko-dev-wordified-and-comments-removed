@@ -92,6 +92,15 @@ ARGS
 )
 #
 define
+NEW_RECORD
+(
+)
+std_Object_create
+(
+null
+)
+#
+define
 MAX_ARGS_LENGTH
 (
 500

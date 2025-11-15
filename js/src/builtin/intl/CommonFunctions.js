@@ -865,7 +865,7 @@ requestedLocales
 var
 result
 =
-new_Record
+NEW_RECORD
 (
 )
 ;
@@ -1303,7 +1303,7 @@ extension
 var
 result
 =
-new_Record
+NEW_RECORD
 (
 )
 ;
