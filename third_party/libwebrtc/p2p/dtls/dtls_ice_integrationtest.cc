@@ -1080,6 +1080,9 @@ make_unique
 P2PTransportChannel
 >
 (
+ep
+.
+env
 client
 ?
 "
@@ -1095,14 +1098,6 @@ ep
 allocator
 .
 get
-(
-)
-&
-ep
-.
-env
-.
-field_trials
 (
 )
 )

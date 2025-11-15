@@ -1246,6 +1246,9 @@ rtc_error
 scoped_refptr
 "
 "
+environment
+"
+"
 rtc_event_log
 "
 ]
