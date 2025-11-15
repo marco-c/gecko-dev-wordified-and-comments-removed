@@ -4969,10 +4969,6 @@ useCustomPrimary
 settings
 .
 shouldShowToolbarCustomization
-&
-&
-!
-shouldUseExpandedToolbar
 val
 primarySlotAction
 =
@@ -5268,9 +5264,6 @@ useCustomPrimary
 settings
 .
 shouldShowToolbarCustomization
-&
-&
-shouldUseExpandedToolbar
 val
 primarySlotAction
 =
