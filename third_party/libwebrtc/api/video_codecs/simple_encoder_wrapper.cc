@@ -475,7 +475,13 @@ prediction_constraints
 scaling_factors
 Rational
 {
+.
+numerator
+=
 1
+.
+denominator
+=
 2
 }
 )
@@ -494,7 +500,13 @@ prediction_constraints
 scaling_factors
 Rational
 {
+.
+numerator
+=
 2
+.
+denominator
+=
 3
 }
 )
@@ -1123,6 +1135,9 @@ settings
 resolution
 =
 {
+.
+width
+=
 (
 frame_buffer
 -
@@ -1135,6 +1150,9 @@ num
 /
 den
 )
+.
+height
+=
 (
 frame_buffer
 -

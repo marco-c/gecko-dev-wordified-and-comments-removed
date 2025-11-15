@@ -384,7 +384,13 @@ false
 timing_frame_thresholds
 (
 {
+.
+delay_ms
+=
 0
+.
+outlier_ratio_percent
+=
 0
 }
 )

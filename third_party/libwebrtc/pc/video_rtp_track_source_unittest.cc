@@ -740,7 +740,13 @@ override
 return
 EncodedResolution
 {
+.
+width
+=
 0
+.
+height
+=
 0
 }
 ;
