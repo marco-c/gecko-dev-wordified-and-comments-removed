@@ -3050,7 +3050,7 @@ width
 height
 :
 "
-560px
+600px
 "
 }
 tiles
@@ -3281,7 +3281,7 @@ width
 height
 :
 "
-560px
+600px
 "
 }
 tiles
