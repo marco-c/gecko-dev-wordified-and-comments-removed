@@ -1418,6 +1418,12 @@ websitePermissionsState
 .
 values
 }
+val
+isGlobalTrackingProtectionEnabled
+=
+settings
+.
+shouldUseTrackingProtection
 permissionsCallback
 =
 {
@@ -1756,6 +1762,9 @@ icon
 isTrackingProtectionEnabled
 =
 isTrackingProtectionEnabled
+isGlobalTrackingProtectionEnabled
+=
+isGlobalTrackingProtectionEnabled
 isLocalPdf
 =
 args
