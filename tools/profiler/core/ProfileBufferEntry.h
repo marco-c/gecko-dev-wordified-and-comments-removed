@@ -22,11 +22,6 @@ functional
 #
 include
 <
-utility
->
-#
-include
-<
 type_traits
 >
 #

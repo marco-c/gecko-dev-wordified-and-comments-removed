@@ -25,11 +25,6 @@ Bootstrap
 .
 h
 "
-#
-include
-<
-memory
->
 VTuneProfiler
 *
 VTuneProfiler

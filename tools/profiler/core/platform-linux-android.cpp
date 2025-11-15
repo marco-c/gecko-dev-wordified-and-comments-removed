@@ -236,11 +236,6 @@ string
 .
 h
 >
-#
-include
-<
-list
->
 using
 namespace
 mozilla
