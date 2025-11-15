@@ -1313,6 +1313,17 @@ aPlaybackRate
 0
 )
 ;
+MOZ_ASSERT
+(
+std
+:
+:
+isfinite
+(
+aPlaybackRate
+)
+)
+;
 if
 (
 aPlaybackRate
