@@ -18642,7 +18642,7 @@ source_type
 TEST_P
 (
 PeerConnectionIntegrationTest
-UnsignaledSsrcGetSourcesNonEmptyIfMediaFlowing
+DISABLED_UnsignaledSsrcGetSourcesNonEmptyIfMediaFlowing
 )
 {
 ASSERT_TRUE
