@@ -1138,7 +1138,7 @@ mixins
 :
 [
 '
-mac_14_x64
+mac_15_x64
 '
 '
 cores
@@ -1193,7 +1193,7 @@ mixins
 :
 [
 '
-mac_14_x64
+mac_15_x64
 '
 '
 cores
@@ -1241,7 +1241,7 @@ mixins
 :
 [
 '
-mac_14_x64
+mac_15_x64
 '
 '
 resultdb
@@ -1610,7 +1610,7 @@ mixins
 :
 [
 '
-mac_14_x64
+mac_15_x64
 '
 '
 chromium
@@ -2767,7 +2767,7 @@ mixins
 :
 [
 '
-mac_14_x64
+mac_15_x64
 '
 '
 chromium
@@ -3494,7 +3494,7 @@ mixins
 :
 [
 '
-mac_14_x64
+mac_15_x64
 '
 '
 resultdb
@@ -3553,7 +3553,7 @@ mixins
 :
 [
 '
-mac_14_x64
+mac_15_x64
 '
 '
 resultdb
@@ -3649,7 +3649,7 @@ mixins
 :
 [
 '
-mac_14_x64
+mac_15_x64
 '
 '
 resultdb
