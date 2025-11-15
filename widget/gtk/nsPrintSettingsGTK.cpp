@@ -26,11 +26,6 @@ stdlib
 .
 h
 >
-#
-include
-<
-algorithm
->
 static
 constexpr
 gchar

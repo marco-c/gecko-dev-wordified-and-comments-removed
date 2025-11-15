@@ -99,11 +99,6 @@ h
 >
 #
 include
-<
-algorithm
->
-#
-include
 "
 nsWindow
 .
