@@ -113,6 +113,13 @@ js
 ]
 [
 "
+browser_ipprotection_optout
+.
+js
+"
+]
+[
+"
 browser_ipprotection_panel
 .
 js

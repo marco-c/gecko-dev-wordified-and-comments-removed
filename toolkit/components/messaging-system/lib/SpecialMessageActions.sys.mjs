@@ -1839,6 +1839,13 @@ enabled
 "
 browser
 .
+ipProtection
+.
+optedOut
+"
+"
+browser
+.
 migrate
 .
 content
