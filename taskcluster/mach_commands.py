@@ -50,16 +50,6 @@ mozsystemmonitor
 resourcemonitor
 import
 SystemResourceMonitor
-logger
-=
-logging
-.
-getLogger
-(
-"
-taskcluster
-"
-)
 def
 setup_logging
 (
@@ -173,6 +163,22 @@ formatter
 .
 write_times
         
+)
+        
+logging
+.
+getLogger
+(
+"
+taskcluster
+"
+)
+.
+setLevel
+(
+logging
+.
+INFO
 )
     
 command_context
