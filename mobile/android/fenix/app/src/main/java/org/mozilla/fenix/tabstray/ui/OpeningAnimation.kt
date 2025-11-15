@@ -426,7 +426,7 @@ const
 val
 SHARED_ELEMENT_DURATION
 =
-300
+200
 private
 const
 val
@@ -438,13 +438,13 @@ const
 val
 DURATION_ENTER
 =
-400
+200
 private
 const
 val
 DURATION_EXIT
 =
-200
+50
 /
 /
 These
@@ -870,8 +870,6 @@ EmphasizedDecelerateEasing
 delayMillis
 =
 SHARED_ELEMENT_DELAY
-+
-50
 )
 )
 togetherWith
