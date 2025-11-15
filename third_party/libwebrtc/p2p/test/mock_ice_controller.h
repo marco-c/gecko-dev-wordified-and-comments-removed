@@ -114,6 +114,12 @@ IceControllerInterface
 {
 public
 :
+MockIceController
+(
+)
+=
+default
+;
 explicit
 MockIceController
 (
@@ -236,9 +242,6 @@ override
 ;
 MOCK_METHOD
 (
-IceControllerInterface
-:
-:
 PingResult
 SelectConnectionToPing
 (
@@ -295,9 +298,6 @@ override
 ;
 MOCK_METHOD
 (
-IceControllerInterface
-:
-:
 SwitchResult
 ShouldSwitchConnection
 (
@@ -313,9 +313,6 @@ override
 ;
 MOCK_METHOD
 (
-IceControllerInterface
-:
-:
 SwitchResult
 SortAndSwitchConnection
 (
@@ -375,7 +372,6 @@ Create
 const
 IceControllerFactoryArgs
 &
-args
 )
 override
 {
@@ -392,7 +388,6 @@ make_unique
 MockIceController
 >
 (
-args
 )
 ;
 }
