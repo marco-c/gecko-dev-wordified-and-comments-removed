@@ -767,12 +767,13 @@ LastProcessedRtt
 (
 )
 const
-override
 {
 return
 rtt_ms_
 ;
 }
+private
+:
 int64_t
 rtt_ms_
 ;
