@@ -182,7 +182,7 @@ Other
 ;
 #
 endif
-uint8_t
+uint16_t
 environmentChainLength_
 ;
 uint32_t

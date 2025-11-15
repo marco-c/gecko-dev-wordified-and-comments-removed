@@ -6155,7 +6155,7 @@ NameLocation
 >
 found
 ;
-uint8_t
+uint16_t
 hops
 =
 0
@@ -6497,7 +6497,7 @@ NameLocation
 >
 result
 ;
-uint8_t
+uint16_t
 hops
 =
 0

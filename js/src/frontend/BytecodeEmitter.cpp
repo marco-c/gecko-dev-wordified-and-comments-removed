@@ -7619,7 +7619,7 @@ ENVCOORD_HOPS_LIMIT
 1
 <
 =
-UINT8_MAX
+UINT16_MAX
 "
 JSOp
 :
@@ -7643,7 +7643,7 @@ ENVCOORD_HOPS_LIMIT
 )
 ;
 return
-emit2
+emitUint16Operand
 (
 JSOp
 :
@@ -11765,12 +11765,12 @@ environmentCoordinate
 (
 )
 ;
-uint8_t
+uint16_t
 hops
 =
 AssertedCast
 <
-uint8_t
+uint16_t
 >
 (
 coord
@@ -39719,10 +39719,10 @@ Some
 (
 ConstantCompareOperand
 (
-(
 int8_t
-)
+(
 ival
+)
 )
 )
 ;
