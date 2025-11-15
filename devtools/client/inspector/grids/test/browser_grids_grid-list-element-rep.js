@@ -511,7 +511,9 @@ nodeFront
 .
 displayName
 "
-_moz_generated_content_after
+:
+:
+after
 "
 "
 The
