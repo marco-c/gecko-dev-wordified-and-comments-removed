@@ -227,7 +227,7 @@ span
 value
 :
 "
-4
+auto
 "
 }
 {
@@ -269,7 +269,7 @@ span
 value
 :
 "
-4
+auto
 "
 }
 {
