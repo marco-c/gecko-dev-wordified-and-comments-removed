@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-1364fc40b0728b063fc78643a0a1178db22c2af9
+d52d1a5ab80ef14231d11f5e4445b21fb2d7aa16
 '
 #
 Fetch
@@ -414,7 +414,7 @@ siso_version
 '
 git_revision
 :
-15568691576f74b11a3c73c85a3c8dd5efb72f05
+8863265a67843154872be2be1fc0c37339691405
 '
 #
 ninja
@@ -558,7 +558,7 @@ chromium
 src
 /
 build
-ad60dc8d4e6bfb56977b5af3da307ef20951de4c
+0bbb9b68c88fa7e04b720a5ab80170ae50dd8982
 '
 '
 src
@@ -582,7 +582,7 @@ chromium
 src
 /
 buildtools
-41c947ce233f20840a922623580c4d8d7a1c691e
+2ca9a5b96fbf0a4947d626454781e333b28e275a
 '
 #
 Gradle
@@ -678,7 +678,7 @@ chromium
 src
 /
 ios
-be52873d818a37944544bffa63d3698fdde1a358
+d3a31844c04c42500d996bfd464da79d2d47dff7
 '
 '
 condition
@@ -710,7 +710,7 @@ chromium
 src
 /
 testing
-767e6402f2edd73cd5b584ec8eadf9a9cec22efe
+1c01106921a36ef03694911f9fc38ac3aaa976b9
 '
 '
 src
@@ -734,7 +734,7 @@ chromium
 src
 /
 third_party
-5f621efb10e2d7c7503643da089145525ec62228
+48f1aca08fafdc8447fc4630a52d8d22b55db1b4
 '
 '
 src
@@ -3022,7 +3022,7 @@ project
 libunwind
 .
 git
-c948b3c916ac5c2369a3f9891342970d4dc252b9
+92fb77dfd4d86aa120730359f5e4d6bb47f1c129
 '
 '
 src
@@ -3753,7 +3753,7 @@ com
 boringssl
 .
 git
-208361a22e217afca0081acf78b2a3f3cf328a7e
+85c1fe0b6bbbe155428fff060e2566acff195f74
 '
 '
 src
@@ -4083,7 +4083,7 @@ grpc
 grpc
 .
 git
-bb96be017584c206eb3036eb7da14f5ccdc57e8d
+518bf7a7693654cfaf8391748350e5a5591dfd8b
 '
 }
 #
@@ -5593,7 +5593,7 @@ chromium
 src
 /
 tools
-6379922826121853c284f29ea12234852a245e8f
+70edb0b69b9e39d5b12c075531eb034aa7308d4c
 '
 '
 src
