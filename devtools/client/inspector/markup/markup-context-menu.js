@@ -764,7 +764,7 @@ this
 .
 selection
 .
-isAnonymousNode
+isNativeAnonymousNode
 (
 )
 |
@@ -3543,7 +3543,7 @@ this
 .
 selection
 .
-isAnonymousNode
+isNativeAnonymousNode
 (
 )
 ;

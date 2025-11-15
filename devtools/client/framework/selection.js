@@ -900,7 +900,7 @@ nodeFront
 isPseudoElement
 ;
 }
-isAnonymousNode
+isNativeAnonymousNode
 (
 )
 {
@@ -916,7 +916,7 @@ this
 .
 nodeFront
 .
-isAnonymous
+isNativeAnonymous
 ;
 }
 isAttributeNode

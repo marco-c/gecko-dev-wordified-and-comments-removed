@@ -1477,7 +1477,7 @@ isPseudoElement
 ;
 }
 get
-isAnonymous
+isNativeAnonymous
 (
 )
 {
@@ -1486,7 +1486,7 @@ this
 .
 _form
 .
-isAnonymous
+isNativeAnonymous
 ;
 }
 get

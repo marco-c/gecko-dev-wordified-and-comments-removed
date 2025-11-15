@@ -2287,7 +2287,7 @@ this
 .
 node
 .
-isAnonymous
+isNativeAnonymous
 &
 &
 !

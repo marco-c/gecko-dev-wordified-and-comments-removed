@@ -6828,7 +6828,7 @@ isPseudoElementNode
 !
 selection
 .
-isAnonymousNode
+isNativeAnonymousNode
 (
 )
 &

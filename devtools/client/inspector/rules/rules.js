@@ -3516,7 +3516,7 @@ inspector
 .
 selection
 .
-isAnonymousNode
+isNativeAnonymousNode
 (
 )
 ;

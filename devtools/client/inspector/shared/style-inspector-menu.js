@@ -1379,7 +1379,7 @@ inspector
 .
 selection
 .
-isAnonymousNode
+isNativeAnonymousNode
 (
 )
 }
