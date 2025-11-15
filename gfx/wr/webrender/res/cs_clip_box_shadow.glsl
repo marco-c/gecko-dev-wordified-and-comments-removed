@@ -123,7 +123,7 @@ ifdef
 WR_VERTEX_SHADER
 PER_INSTANCE
 in
-ivec2
+int
 aClipDataResourceAddress
 ;
 PER_INSTANCE
@@ -152,7 +152,7 @@ ClipMaskInstanceBoxShadow
 ClipMaskInstanceCommon
 base
 ;
-ivec2
+int
 resource_address
 ;
 }
@@ -283,7 +283,7 @@ fetch_data
 ImageSource
 res
 =
-fetch_image_source_direct
+fetch_image_source
 (
 cmi
 .

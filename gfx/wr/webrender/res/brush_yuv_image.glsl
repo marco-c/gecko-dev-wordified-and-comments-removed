@@ -157,7 +157,7 @@ address
 vec4
 data
 =
-fetch_from_gpu_cache_1
+fetch_from_gpu_buffer_1f
 (
 address
 )
