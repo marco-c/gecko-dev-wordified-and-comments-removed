@@ -72,11 +72,6 @@ stdint
 .
 h
 >
-#
-include
-<
-utility
->
 struct
 UResourceBundle
 ;

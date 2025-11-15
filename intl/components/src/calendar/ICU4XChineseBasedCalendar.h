@@ -24,11 +24,6 @@ stdint
 .
 h
 >
-#
-include
-<
-string_view
->
 namespace
 mozilla
 :
