@@ -268,9 +268,9 @@ libwebrtc
 /
 api
 /
-transport
+environment
 /
-field_trial_based_config
+deprecated_global_field_trials
 .
 cc
 "
@@ -1504,6 +1504,6 @@ True
 Library
 (
 "
-field_trial_based_config_gn
+deprecated_global_field_trials_gn
 "
 )
