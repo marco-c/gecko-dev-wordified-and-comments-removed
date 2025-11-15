@@ -9798,13 +9798,14 @@ spec_lifetime
 is_unified_plan_
 &
 &
+!
 env_
 .
 field_trials
 (
 )
 .
-IsEnabled
+IsDisabled
 (
 "
 WebRTC
