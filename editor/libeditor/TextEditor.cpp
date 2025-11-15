@@ -1184,6 +1184,12 @@ mInitSucceeded
 =
 true
 ;
+editActionData
+.
+OnEditorInitialized
+(
+)
+;
 rv
 =
 InitEditorContentAndSelection
@@ -1220,6 +1226,12 @@ failed
 mInitSucceeded
 =
 false
+;
+editActionData
+.
+OnEditorDestroy
+(
+)
 ;
 return
 EditorBase
