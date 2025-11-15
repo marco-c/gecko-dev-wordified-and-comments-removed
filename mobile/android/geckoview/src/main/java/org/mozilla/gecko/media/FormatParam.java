@@ -206,6 +206,13 @@ in
 .
 readBundle
 (
+FormatParam
+.
+class
+.
+getClassLoader
+(
+)
 )
 ;
 fromBundle
