@@ -649,6 +649,11 @@ flow
 "
 math
 -
+depth
+"
+"
+math
+-
 shift
 "
 "
@@ -1897,11 +1902,6 @@ y
 mask
 -
 size
-"
-"
-math
--
-depth
 "
 "
 object
