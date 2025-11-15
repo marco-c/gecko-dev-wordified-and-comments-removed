@@ -547,26 +547,22 @@ absl
 :
 :
 string_view
-RtcEventLog
-*
 )
 {
+auto
+adaptor
+=
 std
 :
 :
-unique_ptr
+make_unique
 <
-MockAudioNetworkAdaptor
->
-adaptor
-(
-new
 NiceMock
 <
 MockAudioNetworkAdaptor
 >
+>
 (
-)
 )
 ;
 EXPECT_CALL
@@ -1720,7 +1716,6 @@ EnableAudioNetworkAdaptor
 (
 "
 "
-nullptr
 )
 ;
 auto
@@ -1832,7 +1827,6 @@ EnableAudioNetworkAdaptor
 (
 "
 "
-nullptr
 )
 ;
 auto
@@ -1966,7 +1960,6 @@ EnableAudioNetworkAdaptor
 (
 "
 "
-nullptr
 )
 ;
 auto
@@ -2092,7 +2085,6 @@ EnableAudioNetworkAdaptor
 (
 "
 "
-nullptr
 )
 ;
 auto
@@ -2191,7 +2183,6 @@ EnableAudioNetworkAdaptor
 (
 "
 "
-nullptr
 )
 ;
 auto
@@ -2955,7 +2946,6 @@ EnableAudioNetworkAdaptor
 (
 "
 "
-nullptr
 )
 ;
 auto
@@ -3092,7 +3082,6 @@ EnableAudioNetworkAdaptor
 (
 "
 "
-nullptr
 )
 ;
 const
