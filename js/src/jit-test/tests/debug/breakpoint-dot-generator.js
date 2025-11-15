@@ -117,7 +117,7 @@ script
 .
 setBreakpoint
 (
-7
+6
 {
 }
 )

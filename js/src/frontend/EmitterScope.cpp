@@ -375,7 +375,7 @@ mozilla
 :
 AssertedCast
 <
-uint16_t
+uint8_t
 >
 (
 hops
@@ -757,7 +757,7 @@ NameLocation
 >
 loc
 ;
-uint16_t
+uint8_t
 hops
 =
 hasEnvironment
@@ -5840,7 +5840,7 @@ EmitterScope
 target
 )
 {
-uint16_t
+uint8_t
 extraHops
 =
 0

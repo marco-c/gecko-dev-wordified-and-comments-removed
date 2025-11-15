@@ -1298,7 +1298,7 @@ EnvCallee
 )
 ;
 return
-GET_ENVCOORD_HOPS
+GET_UINT8
 (
 rawBytecode_
 )

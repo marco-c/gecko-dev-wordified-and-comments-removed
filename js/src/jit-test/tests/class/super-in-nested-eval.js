@@ -95,6 +95,11 @@ s
 ;
 }
 }
+const
+MAX_DEPTH
+=
+250
+;
 var
 depths
 =
@@ -103,7 +108,7 @@ depths
 1
 10
 200
-300
+MAX_DEPTH
 ]
 ;
 for
@@ -142,7 +147,9 @@ try
 new
 D
 (
-2000
+MAX_DEPTH
++
+1
 )
 ;
 }
