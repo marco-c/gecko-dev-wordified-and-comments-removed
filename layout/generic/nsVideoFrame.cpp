@@ -7,11 +7,6 @@ h
 "
 #
 include
-<
-algorithm
->
-#
-include
 "
 ImageContainer
 .

@@ -6,11 +6,6 @@ define
 nsStyleTransformMatrix_h_
 #
 include
-<
-limits
->
-#
-include
 "
 Units
 .

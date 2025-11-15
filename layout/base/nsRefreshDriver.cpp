@@ -642,11 +642,6 @@ h
 endif
 #
 include
-<
-numeric
->
-#
-include
 "
 nsXULPopupManager
 .
