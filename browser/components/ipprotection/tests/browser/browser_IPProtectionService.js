@@ -1339,6 +1339,9 @@ IPPProxyManager
 .
 setErrorState
 (
+ERRORS
+.
+GENERIC
 )
 ;
 let
