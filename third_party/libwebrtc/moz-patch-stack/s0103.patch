@@ -133,10 +133,10 @@ webrtc
 .
 gni
 index
-b9c2178996
+3aef398fa3
 .
 .
-34a8ee592d
+0be93a7531
 100644
 -
 -
@@ -169,7 +169,7 @@ rtc_test
 {
 min_sdk_version
 =
-21
+23
 target_sdk_version
 =
 24

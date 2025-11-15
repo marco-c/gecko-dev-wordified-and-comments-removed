@@ -502,7 +502,7 @@ xml
 .
 android_ndk_api_level
 =
-21
+23
 #
 WebRTC
 does
@@ -555,7 +555,7 @@ SDK
 .
 default_min_sdk_version
 =
-21
+23
 #
 Prevent
 jsoncpp

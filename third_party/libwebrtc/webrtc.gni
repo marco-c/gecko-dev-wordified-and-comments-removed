@@ -3943,7 +3943,7 @@ use_raw_android_executable
 false
 min_sdk_version
 =
-21
+23
 target_sdk_version
 =
 24

@@ -569,7 +569,7 @@ xml
 "
 min_sdk_version
 =
-21
+23
 target_sdk_version
 =
 31
@@ -1632,7 +1632,7 @@ xml
 "
 min_sdk_version
 =
-21
+23
 target_sdk_version
 =
 31
@@ -2665,14 +2665,6 @@ mediaconstraints_objc
 sdk
 :
 metal_objc
-"
-"
-.
-.
-/
-sdk
-:
-peerconnectionfactory_base_objc
 "
 "
 .
@@ -3944,14 +3936,6 @@ mediaconstraints_objc
 sdk
 :
 metal_objc
-"
-"
-.
-.
-/
-sdk
-:
-peerconnectionfactory_base_objc
 "
 "
 .
