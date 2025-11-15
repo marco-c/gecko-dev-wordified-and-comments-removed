@@ -42096,12 +42096,6 @@ IsBlockWrapper
 &
 &
 !
-IsSubgrid
-(
-)
-&
-&
-!
 IsTableRowFrame
 (
 )
