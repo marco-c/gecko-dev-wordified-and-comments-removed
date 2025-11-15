@@ -278,9 +278,6 @@ TrackerCategoryDetailsPanel
 title
 :
 String
-isTotalCookieProtectionEnabled
-:
-Boolean
 detailedTrackerCategory
 :
 TrackingProtectionCategory
@@ -350,9 +347,6 @@ detailedTrackerCategory
 TrackingProtectionCategory
 .
 CROSS_SITE_TRACKING_COOKIES
-&
-&
-isTotalCookieProtectionEnabled
 )
 {
 trackerCategoryTitle
@@ -610,9 +604,6 @@ title
 "
 Mozilla
 "
-isTotalCookieProtectionEnabled
-=
-true
 detailedTrackerCategory
 =
 TrackingProtectionCategory

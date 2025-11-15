@@ -778,13 +778,6 @@ bucketedTrackers
 blockedIsEmpty
 (
 )
-if
-(
-settings
-.
-enabledTotalCookieProtection
-)
-{
 binding
 .
 crossSiteTracking
@@ -821,7 +814,6 @@ string
 .
 etp_cookies_title_2
 )
-}
 updateCategoryVisibility
 (
 )
@@ -885,11 +877,6 @@ category
 =
 =
 CROSS_SITE_TRACKING_COOKIES
-&
-&
-settings
-.
-enabledTotalCookieProtection
 )
 {
 binding
