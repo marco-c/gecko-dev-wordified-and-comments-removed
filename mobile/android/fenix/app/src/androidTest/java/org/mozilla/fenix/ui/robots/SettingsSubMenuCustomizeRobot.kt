@@ -1608,7 +1608,7 @@ R
 .
 string
 .
-alternative_app_icon_group_other
+alternative_app_icon_group_featured
 R
 .
 string
