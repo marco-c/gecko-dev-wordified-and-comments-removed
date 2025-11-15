@@ -15,7 +15,7 @@ buildconfig
 from
 mozbuild
 .
-logging
+serialized_logging
 import
 serialize_root_logger
 from
