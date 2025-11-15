@@ -568,6 +568,18 @@ instead
 "
 unicode
 -
+normalization
+"
+:
+"
+Use
+icu_normalizer
+instead
+"
+    
+"
+unicode
+-
 properties
 "
 :
@@ -863,12 +875,6 @@ ffi
 unicode
 -
 ident
-"
-    
-"
-unicode
--
-normalization
 "
     
 "

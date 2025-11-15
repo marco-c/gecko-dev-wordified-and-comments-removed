@@ -1986,32 +1986,6 @@ rusqlite
 "
 }
 #
-Patch
-itertools
-0
-.
-10
-.
-*
-to
-0
-.
-14
-.
-itertools
-=
-{
-path
-=
-"
-build
-/
-rust
-/
-itertools
-"
-}
-#
 Overrides
 to
 allow
@@ -2722,7 +2696,7 @@ services
 rev
 =
 "
-7ee874e18f461a83f5c8c8927039cbde3225b60d
+799ae231ba91f5b6634672a2737cc9efdf997b70
 "
 }
 error
@@ -2750,7 +2724,7 @@ services
 rev
 =
 "
-7ee874e18f461a83f5c8c8927039cbde3225b60d
+799ae231ba91f5b6634672a2737cc9efdf997b70
 "
 }
 filter_adult
@@ -2776,7 +2750,7 @@ services
 rev
 =
 "
-7ee874e18f461a83f5c8c8927039cbde3225b60d
+799ae231ba91f5b6634672a2737cc9efdf997b70
 "
 }
 interrupt
@@ -2804,7 +2778,7 @@ services
 rev
 =
 "
-7ee874e18f461a83f5c8c8927039cbde3225b60d
+799ae231ba91f5b6634672a2737cc9efdf997b70
 "
 }
 relevancy
@@ -2830,7 +2804,7 @@ services
 rev
 =
 "
-7ee874e18f461a83f5c8c8927039cbde3225b60d
+799ae231ba91f5b6634672a2737cc9efdf997b70
 "
 }
 search
@@ -2856,7 +2830,7 @@ services
 rev
 =
 "
-7ee874e18f461a83f5c8c8927039cbde3225b60d
+799ae231ba91f5b6634672a2737cc9efdf997b70
 "
 }
 sql
@@ -2884,7 +2858,7 @@ services
 rev
 =
 "
-7ee874e18f461a83f5c8c8927039cbde3225b60d
+799ae231ba91f5b6634672a2737cc9efdf997b70
 "
 }
 suggest
@@ -2910,7 +2884,7 @@ services
 rev
 =
 "
-7ee874e18f461a83f5c8c8927039cbde3225b60d
+799ae231ba91f5b6634672a2737cc9efdf997b70
 "
 }
 sync15
@@ -2936,7 +2910,7 @@ services
 rev
 =
 "
-7ee874e18f461a83f5c8c8927039cbde3225b60d
+799ae231ba91f5b6634672a2737cc9efdf997b70
 "
 }
 tabs
@@ -2962,7 +2936,7 @@ services
 rev
 =
 "
-7ee874e18f461a83f5c8c8927039cbde3225b60d
+799ae231ba91f5b6634672a2737cc9efdf997b70
 "
 }
 tracing
@@ -2990,7 +2964,7 @@ services
 rev
 =
 "
-7ee874e18f461a83f5c8c8927039cbde3225b60d
+799ae231ba91f5b6634672a2737cc9efdf997b70
 "
 }
 viaduct
@@ -3016,7 +2990,7 @@ services
 rev
 =
 "
-7ee874e18f461a83f5c8c8927039cbde3225b60d
+799ae231ba91f5b6634672a2737cc9efdf997b70
 "
 }
 webext
@@ -3044,7 +3018,7 @@ services
 rev
 =
 "
-7ee874e18f461a83f5c8c8927039cbde3225b60d
+799ae231ba91f5b6634672a2737cc9efdf997b70
 "
 }
 logins
@@ -3070,7 +3044,7 @@ services
 rev
 =
 "
-7ee874e18f461a83f5c8c8927039cbde3225b60d
+799ae231ba91f5b6634672a2737cc9efdf997b70
 "
 }
 init_rust_components
@@ -3096,7 +3070,7 @@ services
 rev
 =
 "
-7ee874e18f461a83f5c8c8927039cbde3225b60d
+799ae231ba91f5b6634672a2737cc9efdf997b70
 "
 }
 #

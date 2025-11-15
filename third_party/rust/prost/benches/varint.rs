@@ -26,6 +26,9 @@ prost
 encoding
 :
 :
+varint
+:
+:
 {
 decode_varint
 encode_varint

@@ -1816,8 +1816,6 @@ meta_list
 )
 =
 >
-{
-return
 Ok
 (
 Some
@@ -1839,8 +1837,6 @@ value
 )
 )
 )
-;
-}
 Meta
 :
 :
@@ -2071,8 +2067,6 @@ meta_list
 )
 =
 >
-{
-return
 Ok
 (
 Some
@@ -2095,8 +2089,6 @@ base10_parse
 ?
 )
 )
-;
-}
 Meta
 :
 :
