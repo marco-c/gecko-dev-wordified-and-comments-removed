@@ -539,7 +539,9 @@ in
 -
 tree
 :
-condprof
+ubuntu2404
+-
+test
 }
 artifacts
 :
