@@ -236,15 +236,6 @@ property_ids
 )
                 
 "
-longhand_first
-"
-:
-property_ids
-[
-0
-]
-                
-"
 longhand_count
 "
 :
