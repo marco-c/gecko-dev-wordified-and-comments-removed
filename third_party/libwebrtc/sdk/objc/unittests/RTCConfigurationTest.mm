@@ -508,8 +508,7 @@ nativeConfig
 -
 >
 crypto_options
--
->
+.
 srtp
 .
 enable_gcm_crypto_suites
@@ -522,8 +521,7 @@ nativeConfig
 -
 >
 crypto_options
--
->
+.
 srtp
 .
 enable_aes128_sha1_32_crypto_cipher
@@ -536,8 +534,7 @@ nativeConfig
 -
 >
 crypto_options
--
->
+.
 srtp
 .
 enable_encrypted_rtp_header_extensions
@@ -550,8 +547,7 @@ nativeConfig
 -
 >
 crypto_options
--
->
+.
 sframe
 .
 require_frame_encryption
