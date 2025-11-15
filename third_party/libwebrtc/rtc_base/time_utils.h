@@ -168,11 +168,6 @@ SystemTimeMillis
 (
 )
 ;
-uint32_t
-Time32
-(
-)
-;
 RTC_EXPORT
 int64_t
 TimeMillis

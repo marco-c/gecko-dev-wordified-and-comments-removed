@@ -795,14 +795,6 @@ Micros
 ;
 EXPECT_EQ
 (
-987u
-Time32
-(
-)
-)
-;
-EXPECT_EQ
-(
 987
 TimeMillis
 (
