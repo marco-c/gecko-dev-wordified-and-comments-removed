@@ -209,13 +209,6 @@ py
 ]
 [
 "
-test_manifest_alpha
-.
-py
-"
-]
-[
-"
 test_manifest_toml
 .
 py

@@ -20,7 +20,7 @@ mochitest
 -
 common
 .
-ini
+toml
 "
 ]
 [
