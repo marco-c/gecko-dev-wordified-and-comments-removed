@@ -4709,7 +4709,7 @@ Rooted
 JS
 :
 :
-MicroTask
+GenericMicroTask
 >
 job
 (
@@ -5637,7 +5637,7 @@ unbarrieredAddress
 JS
 :
 :
-MicroTask
+GenericMicroTask
 js
 :
 :
@@ -5705,7 +5705,7 @@ NullValue
 JS
 :
 :
-MicroTask
+GenericMicroTask
 js
 :
 :
@@ -5816,7 +5816,7 @@ const
 JS
 :
 :
-MicroTask
+GenericMicroTask
 &
 entry
 )
@@ -5867,7 +5867,7 @@ const
 JS
 :
 :
-MicroTask
+GenericMicroTask
 &
 entry
 )
@@ -5918,7 +5918,7 @@ const
 JS
 :
 :
-MicroTask
+GenericMicroTask
 &
 entry
 )
@@ -5956,7 +5956,10 @@ JSContext
 *
 cx
 const
-MicroTask
+JS
+:
+:
+GenericMicroTask
 &
 entry
 )
@@ -5999,7 +6002,10 @@ JSContext
 *
 cx
 const
-MicroTask
+JS
+:
+:
+GenericMicroTask
 &
 entry
 )
@@ -6042,7 +6048,10 @@ JSContext
 *
 cx
 const
-MicroTask
+JS
+:
+:
+GenericMicroTask
 &
 entry
 )
@@ -6077,7 +6086,7 @@ JS_PUBLIC_API
 JS
 :
 :
-MicroTask
+GenericMicroTask
 JS
 :
 :
@@ -6104,7 +6113,7 @@ JS_PUBLIC_API
 JS
 :
 :
-MicroTask
+GenericMicroTask
 JS
 :
 :
@@ -6456,7 +6465,7 @@ JS_PUBLIC_API
 JS
 :
 :
-MicroTask
+GenericMicroTask
 JS
 :
 :
@@ -6492,7 +6501,7 @@ empty
 JS
 :
 :
-MicroTask
+GenericMicroTask
 p
 =
 queue
