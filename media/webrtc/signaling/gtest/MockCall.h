@@ -1745,7 +1745,13 @@ preferred_rtcp_cc_ack_type
 override
 {
 }
+std
+:
+:
+optional
+<
 int
+>
 FeedbackAccordingToRfc8888Count
 (
 )
@@ -1755,7 +1761,13 @@ return
 0
 ;
 }
+std
+:
+:
+optional
+<
 int
+>
 FeedbackAccordingToTransportCcCount
 (
 )
