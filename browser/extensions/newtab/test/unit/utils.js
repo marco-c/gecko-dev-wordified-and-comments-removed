@@ -386,6 +386,7 @@ value
 getBoolPref
 (
 prefName
+defaultValue
 )
 {
 return
@@ -394,6 +395,7 @@ this
 get
 (
 prefName
+defaultValue
 )
 ;
 }

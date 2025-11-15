@@ -1345,6 +1345,16 @@ values
 [
 PREF_SYSTEM_SHOW_WEATHER
 ]
+&
+&
+values
+[
+"
+feeds
+.
+weatherfeed
+"
+]
 ;
 const
 experimentValue
