@@ -4094,7 +4094,7 @@ asr
 aItem
 -
 >
-GetActiveScrolledRoot
+GetNearestScrollASR
 (
 )
 ;
@@ -4118,7 +4118,9 @@ PresContext
 asr
 -
 >
-mScrollContainerFrame
+ScrollFrame
+(
+)
 -
 >
 PresContext
@@ -4143,7 +4145,9 @@ clipFrame
 asr
 -
 >
-mScrollContainerFrame
+ScrollFrame
+(
+)
 )
 ;
 }

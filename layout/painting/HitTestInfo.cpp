@@ -182,7 +182,7 @@ return
 aASR
 -
 >
-GetViewId
+GetNearestScrollASRViewId
 (
 )
 ;

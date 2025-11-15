@@ -9651,7 +9651,7 @@ scrollId
 asr
 -
 >
-GetViewId
+GetNearestScrollASRViewId
 (
 )
 ;
@@ -10653,7 +10653,7 @@ mDeferredId
 asr
 -
 >
-GetViewId
+GetNearestScrollASRViewId
 (
 )
 ;
