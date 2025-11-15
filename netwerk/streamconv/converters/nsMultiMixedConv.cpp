@@ -70,11 +70,6 @@ h
 "
 #
 include
-<
-algorithm
->
-#
-include
 "
 nsContentSecurityManager
 .

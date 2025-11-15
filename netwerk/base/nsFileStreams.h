@@ -97,11 +97,6 @@ nsReadLine
 .
 h
 "
-#
-include
-<
-algorithm
->
 namespace
 mozilla
 {
