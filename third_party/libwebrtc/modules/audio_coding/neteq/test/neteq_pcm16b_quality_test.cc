@@ -155,13 +155,13 @@ test
 {
 namespace
 {
-const
+constexpr
 int
 kInputSampleRateKhz
 =
 48
 ;
-const
+constexpr
 int
 kOutputSampleRateKhz
 =

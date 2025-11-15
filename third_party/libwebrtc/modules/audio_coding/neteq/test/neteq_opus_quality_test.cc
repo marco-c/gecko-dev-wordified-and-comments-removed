@@ -289,13 +289,13 @@ test
 {
 namespace
 {
-const
+constexpr
 int
 kOpusBlockDurationMs
 =
 20
 ;
-const
+constexpr
 int
 kOpusSamplingKhz
 =

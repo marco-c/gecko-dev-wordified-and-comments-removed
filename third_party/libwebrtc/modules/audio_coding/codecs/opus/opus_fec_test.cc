@@ -128,13 +128,13 @@ target_packet_loss_rate
 ;
 }
 ;
-const
+constexpr
 int
 kOpusBlockDurationMs
 =
 20
 ;
-const
+constexpr
 int
 kOpusSamplingKhz
 =
