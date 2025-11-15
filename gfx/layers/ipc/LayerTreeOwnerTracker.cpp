@@ -41,11 +41,6 @@ include
 <
 functional
 >
-#
-include
-<
-utility
->
 namespace
 mozilla
 {

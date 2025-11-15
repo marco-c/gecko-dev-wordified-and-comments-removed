@@ -7,11 +7,6 @@ GFX_WEBRENDERSCROLLDATA_H
 #
 include
 <
-map
->
-#
-include
-<
 iosfwd
 >
 #

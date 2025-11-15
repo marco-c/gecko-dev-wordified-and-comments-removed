@@ -12,11 +12,6 @@ queue
 #
 include
 <
-set
->
-#
-include
-<
 stdint
 .
 h

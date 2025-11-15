@@ -22,11 +22,6 @@ h
 #
 include
 <
-algorithm
->
-#
-include
-<
 ostream
 >
 #

@@ -6,11 +6,6 @@ define
 MOZILLA_LAYERS_COMPOSITABLETRANSACTIONPARENT_H
 #
 include
-<
-vector
->
-#
-include
 "
 mozilla
 /

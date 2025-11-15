@@ -25,11 +25,6 @@ Logging
 .
 h
 "
-#
-include
-<
-vector
->
 namespace
 mozilla
 {

@@ -34,11 +34,6 @@ Matrix
 .
 h
 "
-#
-include
-<
-vector
->
 namespace
 mozilla
 {

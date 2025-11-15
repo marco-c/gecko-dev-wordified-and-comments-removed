@@ -37,11 +37,6 @@ PAPZCTreeManagerChild
 .
 h
 "
-#
-include
-<
-unordered_map
->
 namespace
 mozilla
 {

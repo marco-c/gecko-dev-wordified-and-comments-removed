@@ -185,11 +185,6 @@ pixman
 h
 "
 #
-include
-<
-algorithm
->
-#
 define
 CAIRO_COORD_MAX
 (

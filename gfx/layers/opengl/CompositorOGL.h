@@ -7,16 +7,6 @@ MOZILLA_GFX_COMPOSITOROGL_H
 #
 include
 <
-map
->
-#
-include
-<
-unordered_map
->
-#
-include
-<
 unordered_set
 >
 #

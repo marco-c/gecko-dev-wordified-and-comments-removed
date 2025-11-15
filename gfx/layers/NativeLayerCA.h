@@ -21,11 +21,6 @@ deque
 #
 include
 <
-unordered_map
->
-#
-include
-<
 ostream
 >
 #

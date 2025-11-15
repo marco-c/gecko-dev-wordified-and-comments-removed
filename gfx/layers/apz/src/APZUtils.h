@@ -13,11 +13,6 @@ h
 >
 #
 include
-<
-type_traits
->
-#
-include
 "
 gfxTypes
 .

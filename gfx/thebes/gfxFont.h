@@ -12,11 +12,6 @@ new
 #
 include
 <
-utility
->
-#
-include
-<
 functional
 >
 #

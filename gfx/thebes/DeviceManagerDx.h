@@ -11,11 +11,6 @@ set
 >
 #
 include
-<
-vector
->
-#
-include
 "
 gfxPlatform
 .
