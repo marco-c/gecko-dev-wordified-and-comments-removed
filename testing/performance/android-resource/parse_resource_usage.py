@@ -144,6 +144,23 @@ mem_info
 items
 (
 )
+            
+if
+category
+in
+base_measures
+[
+"
+mem
+"
+]
+.
+get
+(
+mem_type
+{
+}
+)
         
 ]
     
@@ -303,6 +320,20 @@ cpu_measures
 .
 items
 (
+)
+            
+if
+category
+in
+base_measures
+.
+get
+(
+"
+cpu
+"
+{
+}
 )
         
 ]
