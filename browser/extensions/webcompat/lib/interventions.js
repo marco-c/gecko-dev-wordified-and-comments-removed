@@ -1284,12 +1284,11 @@ DISABLING_PREF
 const
 disablingPrefValue
 =
-await
 browser
 .
 aboutConfigPrefs
 .
-getPref
+getBoolPrefSync
 (
 config
 .
