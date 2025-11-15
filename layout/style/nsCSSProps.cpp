@@ -997,10 +997,10 @@ aProperty
 {
 MOZ_ASSERT
 (
-0
-<
-=
 aProperty
+!
+=
+eCSSProperty_UNKNOWN
 &
 &
 aProperty
