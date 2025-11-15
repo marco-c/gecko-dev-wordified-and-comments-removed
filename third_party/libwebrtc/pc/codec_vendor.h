@@ -465,6 +465,11 @@ CodecLookupHelper
 default
 ;
 virtual
+:
+:
+webrtc
+:
+:
 PayloadTypeSuggester
 *
 PayloadTypeSuggester

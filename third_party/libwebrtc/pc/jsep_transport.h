@@ -810,6 +810,11 @@ rtp_dtls_transport_
 }
 scoped_refptr
 <
+:
+:
+webrtc
+:
+:
 SctpTransport
 >
 SctpTransport
