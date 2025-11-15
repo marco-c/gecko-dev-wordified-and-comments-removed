@@ -32,6 +32,13 @@ html
 ]
 [
 "
+browser_client_cert
+.
+js
+"
+]
+[
+"
 browser_downgrade_mixed_content_auto_upgrade_console
 .
 js
