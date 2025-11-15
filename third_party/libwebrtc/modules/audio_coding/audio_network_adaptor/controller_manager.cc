@@ -291,6 +291,10 @@ FecControllerPlrBased
 CreateFecControllerPlrBased
 (
 const
+Environment
+&
+env
+const
 audio_network_adaptor
 :
 :
@@ -427,14 +431,12 @@ return
 std
 :
 :
-unique_ptr
+make_unique
 <
 FecControllerPlrBased
 >
 (
-new
-FecControllerPlrBased
-(
+env
 FecControllerPlrBased
 :
 :
@@ -491,7 +493,6 @@ config
 .
 time_constant_ms
 (
-)
 )
 )
 )
@@ -1521,6 +1522,7 @@ controller
 =
 CreateFecControllerPlrBased
 (
+env
 controller_config
 .
 fec_controller

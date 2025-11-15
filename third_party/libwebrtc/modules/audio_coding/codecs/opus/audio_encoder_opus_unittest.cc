@@ -345,6 +345,14 @@ using
 testing
 :
 :
+_
+;
+using
+:
+:
+testing
+:
+:
 NiceMock
 ;
 using
@@ -1906,6 +1914,7 @@ mock_bitrate_smoother
 AddSample
 (
 kTargetAudioBitrate
+_
 )
 )
 ;
@@ -3123,8 +3132,6 @@ states
 >
 mock_bitrate_smoother
 GetAverage
-(
-)
 )
 .
 WillOnce
@@ -3256,8 +3263,6 @@ states
 >
 mock_bitrate_smoother
 GetAverage
-(
-)
 )
 .
 WillOnce

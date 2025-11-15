@@ -12,6 +12,17 @@ optional
 #
 include
 "
+api
+/
+units
+/
+timestamp
+.
+h
+"
+#
+include
+"
 common_audio
 /
 smoothing_filter
@@ -44,6 +55,7 @@ void
 AddSample
 (
 float
+Timestamp
 )
 (
 override
@@ -61,6 +73,7 @@ float
 >
 GetAverage
 (
+Timestamp
 )
 (
 override
