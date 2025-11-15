@@ -95,6 +95,11 @@ Instant
 cpp
 "
 "
+Int128
+.
+cpp
+"
+"
 Int96
 .
 cpp
