@@ -88,6 +88,9 @@ kHighPassFilterCoefficients16kHz
 {
 {
 {
+.
+b
+=
 {
 0
 .
@@ -100,6 +103,9 @@ kHighPassFilterCoefficients16kHz
 .
 972613898f
 }
+.
+a
+=
 {
 -
 1
@@ -130,6 +136,9 @@ kHighPassFilterCoefficients32kHz
 {
 {
 {
+.
+b
+=
 {
 0
 .
@@ -142,6 +151,9 @@ kHighPassFilterCoefficients32kHz
 .
 986211925f
 }
+.
+a
+=
 {
 -
 1
@@ -172,6 +184,9 @@ kHighPassFilterCoefficients48kHz
 {
 {
 {
+.
+b
+=
 {
 0
 .
@@ -184,6 +199,9 @@ kHighPassFilterCoefficients48kHz
 .
 990786698f
 }
+.
+a
+=
 {
 -
 1

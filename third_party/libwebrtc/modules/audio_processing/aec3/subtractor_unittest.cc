@@ -691,6 +691,9 @@ kHighPassFilterCoefficients
 {
 {
 {
+.
+b
+=
 {
 0
 .
@@ -703,6 +706,9 @@ kHighPassFilterCoefficients
 .
 97261f
 }
+.
+a
+=
 {
 -
 1

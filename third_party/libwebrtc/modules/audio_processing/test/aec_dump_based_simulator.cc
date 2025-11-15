@@ -4325,6 +4325,9 @@ RuntimeSetting
 CreatePlayoutAudioDeviceChange
 (
 {
+.
+id
+=
 msg
 .
 playout_audio_device_change
@@ -4334,6 +4337,9 @@ playout_audio_device_change
 id
 (
 )
+.
+max_volume
+=
 msg
 .
 playout_audio_device_change

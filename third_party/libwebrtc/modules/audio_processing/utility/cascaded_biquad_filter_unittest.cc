@@ -75,6 +75,9 @@ kHighPassFilterCoefficients
 {
 {
 {
+.
+b
+=
 {
 0
 .
@@ -87,6 +90,9 @@ kHighPassFilterCoefficients
 .
 97261f
 }
+.
+a
+=
 {
 -
 1
@@ -117,6 +123,9 @@ kTransparentCoefficients
 {
 {
 {
+.
+b
+=
 {
 1
 .
@@ -128,6 +137,9 @@ f
 .
 f
 }
+.
+a
+=
 {
 0
 .
@@ -157,6 +169,9 @@ kBlockingCoefficients
 {
 {
 {
+.
+b
+=
 {
 0
 .
@@ -168,6 +183,9 @@ f
 .
 f
 }
+.
+a
+=
 {
 0
 .
@@ -197,6 +215,9 @@ kCascadedCoefficients
 {
 {
 {
+.
+b
+=
 {
 -
 1
@@ -209,6 +230,9 @@ f
 .
 f
 }
+.
+a
+=
 {
 0
 .
@@ -219,6 +243,9 @@ f
 }
 }
 {
+.
+b
+=
 {
 0
 .
@@ -231,6 +258,9 @@ f
 .
 f
 }
+.
+a
+=
 {
 0
 .

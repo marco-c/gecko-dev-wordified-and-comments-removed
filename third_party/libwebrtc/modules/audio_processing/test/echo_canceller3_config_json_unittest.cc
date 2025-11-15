@@ -149,7 +149,13 @@ subband_nearend_detection
 subband1
 =
 {
+.
+low
+=
 1
+.
+high
+=
 3
 }
 ;
@@ -162,7 +168,13 @@ subband_nearend_detection
 subband1
 =
 {
+.
+low
+=
 4
+.
+high
+=
 5
 }
 ;

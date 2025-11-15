@@ -234,6 +234,9 @@ BiQuadFilter
 Config
 kBiQuadConfig
 {
+.
+b
+=
 {
 0
 .
@@ -246,6 +249,9 @@ kBiQuadConfig
 .
 99446179f
 }
+.
+a
+=
 {
 -
 1
@@ -731,6 +737,9 @@ BiQuadFilter
 filter
 (
 {
+.
+b
+=
 {
 0
 .
@@ -743,6 +752,9 @@ filter
 .
 97803048f
 }
+.
+a
+=
 {
 -
 1
@@ -798,6 +810,9 @@ filter
 SetConfig
 (
 {
+.
+b
+=
 {
 0
 .
@@ -809,6 +824,9 @@ SetConfig
 .
 09763107f
 }
+.
+a
+=
 {
 -
 0

@@ -271,6 +271,9 @@ nullopt
 return
 DecodeResult
 {
+.
+num_decoded_samples
+=
 static_cast
 <
 size_t
@@ -278,6 +281,9 @@ size_t
 (
 ret
 )
+.
+speech_type
+=
 speech_type
 }
 ;
