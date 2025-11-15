@@ -232,6 +232,16 @@ packets_received
 =
 0
 ;
+int64_t
+packets_received_with_ect1
+=
+0
+;
+int64_t
+packets_received_with_ce
+=
+0
+;
 uint64_t
 fec_packets_received
 =

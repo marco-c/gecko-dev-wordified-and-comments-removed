@@ -315,6 +315,16 @@ packets_received
 =
 0
 ;
+int64_t
+packets_received_with_ect1
+=
+0
+;
+int64_t
+packets_received_with_ce
+=
+0
+;
 uint32_t
 nacks_sent
 =

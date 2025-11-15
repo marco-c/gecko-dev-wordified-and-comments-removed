@@ -1709,7 +1709,7 @@ packets_sent
 =
 0
 ;
-int
+int64_t
 packets_sent_with_ect1
 =
 0
@@ -1991,6 +1991,16 @@ header_and_padding_bytes_received
 ;
 int
 packets_received
+=
+0
+;
+int64_t
+packets_received_with_ect1
+=
+0
+;
+int64_t
+packets_received_with_ce
 =
 0
 ;
