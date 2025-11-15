@@ -5347,6 +5347,16 @@ GetTextEventDispatcher
 (
 )
 ;
+mozilla
+:
+:
+PresShell
+*
+GetPresShell
+(
+)
+const
+;
 virtual
 TextEventDispatcherListener
 *

@@ -12475,7 +12475,7 @@ SetView
 rootView
 )
 ;
-rootView
+mPresShell
 -
 >
 SetNeedsWindowPropertiesSync

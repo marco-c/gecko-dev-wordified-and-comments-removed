@@ -3101,8 +3101,6 @@ mNeedStyleFlush
 void
 SyncWindowProperties
 (
-bool
-aSync
 )
 ;
 struct
@@ -3820,6 +3818,11 @@ return
 mVisualViewportSizeSet
 ;
 }
+void
+SetNeedsWindowPropertiesSync
+(
+)
+;
 nsSize
 GetVisualViewportSize
 (
@@ -7628,6 +7631,13 @@ bool
 mNeedStyleFlush
 :
 1
+;
+bool
+mNeedsWindowPropertiesSync
+:
+1
+=
+false
 ;
 bool
 mNeedThrottledAnimationFlush

@@ -6407,9 +6407,8 @@ PresShell
 )
 -
 >
-SyncWindowProperties
+SetNeedsWindowPropertiesSync
 (
-false
 )
 ;
 }
