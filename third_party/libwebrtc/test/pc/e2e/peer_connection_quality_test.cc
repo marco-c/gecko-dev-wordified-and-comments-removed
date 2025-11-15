@@ -2225,6 +2225,12 @@ make_unique
 CrossMediaMetricsReporter
 >
 (
+*
+time_controller_
+.
+GetClock
+(
+)
 metrics_logger_
 )
 )
