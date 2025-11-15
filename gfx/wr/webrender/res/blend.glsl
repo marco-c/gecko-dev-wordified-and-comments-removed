@@ -747,7 +747,7 @@ mat_data
 4
 ]
 =
-fetch_from_gpu_cache_4
+fetch_from_gpu_buffer_4f
 (
 gpu_data_address
 )
@@ -755,7 +755,7 @@ gpu_data_address
 vec4
 offset_data
 =
-fetch_from_gpu_cache_1
+fetch_from_gpu_buffer_1f
 (
 gpu_data_address
 +
@@ -814,7 +814,7 @@ FILTER_FLOOD
 {
 color_offset
 =
-fetch_from_gpu_cache_1
+fetch_from_gpu_buffer_1f
 (
 gpu_data_address
 )
