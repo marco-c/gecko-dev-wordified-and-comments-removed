@@ -599,6 +599,14 @@ _passwordsValid
 =
 false
 ;
+this
+.
+passwordRulesEl
+.
+hide
+(
+)
+;
 }
 handleFocusNewPassword
 (
