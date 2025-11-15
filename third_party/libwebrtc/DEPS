@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-8f771923c5ae9a6832681bb6441f7779445a972c
+8b9d0deba378863c872a02632fd0491d31ecff79
 '
 #
 Fetch
@@ -558,7 +558,7 @@ chromium
 src
 /
 build
-5467bbb12a8ced61bca80569c355a5d1cfd65fe9
+f3561071fafdc6e0346692bc3a39c2e6d5925eee
 '
 '
 src
@@ -678,7 +678,7 @@ chromium
 src
 /
 ios
-2be7fba6f51dc03146dd0e40b5c1566e87d54215
+0e3bff928f601c63e09b83cab9a2a7e8791ab0e7
 '
 '
 condition
@@ -710,7 +710,7 @@ chromium
 src
 /
 testing
-aec93f2cd0763d1a44fdb13b7b550ae9eade0816
+826280b783c1ada79a364c4f3d2022d5270c0620
 '
 '
 src
@@ -734,7 +734,7 @@ chromium
 src
 /
 third_party
-97832893d04a7241f9c6bfa549dd39380072c9f0
+d967a8e1fcdb191b1f3064a5be1519e6bc66985e
 '
 '
 src
@@ -4171,7 +4171,7 @@ third_party
 freetype2
 .
 git
-08805be530d6820d2bf8a1b7685826de40f06812
+42047ae84dedbe3210b8612b79d7bc9672512889
 '
 '
 src
@@ -5042,7 +5042,7 @@ git
 '
 +
 '
-21bd92c18580ba83eef30ef2430833f567e76ab6
+77e2c2b320fcdf0867dd2a2bc7b7d6b83886f39e
 '
 '
 src
@@ -5585,7 +5585,7 @@ chromium
 src
 /
 tools
-2a8bbc8027c554349feb68c8ee474acdafc68d8a
+522321e9bae55a570ac25e24799000eb7d700fa3
 '
 '
 src
