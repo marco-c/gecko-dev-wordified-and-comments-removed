@@ -31,14 +31,14 @@ h
 #
 include
 "
-nsGlobalWindowInner
+nsDeviceContext
 .
 h
 "
 #
 include
 "
-nsDeviceContext
+nsGlobalWindowInner
 .
 h
 "
