@@ -116,8 +116,6 @@ other
 RtcEvent
 (
 other
-.
-timestamp_us_
 )
 config_
 (

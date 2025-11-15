@@ -321,8 +321,9 @@ RtcEventAlrState
 const
 RtcEventAlrState
 &
-other
 )
+=
+default
 ;
 const
 bool

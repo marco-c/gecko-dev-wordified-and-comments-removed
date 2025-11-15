@@ -323,8 +323,9 @@ RtcEventProbeResultSuccess
 const
 RtcEventProbeResultSuccess
 &
-other
 )
+=
+default
 ;
 const
 int32_t

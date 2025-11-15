@@ -388,8 +388,9 @@ RtcEventAudioPlayout
 const
 RtcEventAudioPlayout
 &
-other
 )
+=
+default
 ;
 const
 uint32_t

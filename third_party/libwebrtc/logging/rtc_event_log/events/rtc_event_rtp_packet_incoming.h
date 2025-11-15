@@ -496,8 +496,9 @@ RtcEventRtpPacketIncoming
 const
 RtcEventRtpPacketIncoming
 &
-other
 )
+=
+default
 ;
 const
 RtpPacket

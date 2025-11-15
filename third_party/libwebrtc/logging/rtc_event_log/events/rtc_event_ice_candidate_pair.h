@@ -355,6 +355,8 @@ RtcEventIceCandidatePair
 &
 other
 )
+=
+default
 ;
 const
 IceCandidatePairEventType

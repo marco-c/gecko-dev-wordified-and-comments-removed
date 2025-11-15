@@ -293,8 +293,9 @@ RtcEventDtlsWritableState
 const
 RtcEventDtlsWritableState
 &
-other
 )
+=
+default
 ;
 const
 bool

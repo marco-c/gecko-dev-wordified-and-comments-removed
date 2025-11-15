@@ -301,8 +301,9 @@ RtcEventBeginLog
 const
 RtcEventBeginLog
 &
-other
 )
+=
+default
 ;
 int64_t
 utc_start_time_ms_

@@ -97,8 +97,6 @@ other
 RtcEvent
 (
 other
-.
-timestamp_us_
 )
 packet_
 (
@@ -149,9 +147,6 @@ absl
 :
 :
 WrapUnique
-<
-RtcEventRtcpPacketIncoming
->
 (
 new
 RtcEventRtcpPacketIncoming
