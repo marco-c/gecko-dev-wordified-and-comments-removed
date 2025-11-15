@@ -409,7 +409,7 @@ R
 .
 id
 .
-downloadsFragment
+openDownloadsSettingsFragment
 )
 /
 *
