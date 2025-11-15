@@ -384,11 +384,21 @@ LoginsAction
 {
 private
 val
-scope
+ioScope
 =
 CoroutineScope
 (
 ioDispatcher
+)
+private
+val
+mainScope
+=
+CoroutineScope
+(
+Dispatchers
+.
+Main
 )
 Suppress
 (
@@ -514,7 +524,7 @@ DeleteTapped
 -
 >
 {
-scope
+ioScope
 .
 launch
 {
@@ -570,7 +580,7 @@ is
 LoginsListSortMenuAction
 -
 >
-scope
+ioScope
 .
 launch
 {
@@ -793,7 +803,7 @@ loadLoginsList
 (
 )
 =
-scope
+ioScope
 .
 launch
 {
@@ -983,7 +993,7 @@ handleAddLogin
 (
 )
 =
-scope
+ioScope
 .
 launch
 {
@@ -1100,7 +1110,7 @@ handleLoginsDetailsBackPressed
 (
 )
 =
-scope
+ioScope
 .
 launch
 {
@@ -1138,7 +1148,7 @@ loginItem
 LoginItem
 )
 =
-scope
+ioScope
 .
 launch
 {
@@ -1203,6 +1213,10 @@ loginItem
 guid
 updatedLogin
 )
+mainScope
+.
+launch
+{
 dispatch
 (
 LoginClicked
@@ -1232,6 +1246,7 @@ password
 )
 )
 )
+}
 }
 catch
 (
