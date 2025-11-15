@@ -146,6 +146,13 @@ sys
 .
 mjs
 "
+"
+IPPVPNAddonHelper
+.
+sys
+.
+mjs
+"
 ]
 BROWSER_CHROME_MANIFESTS
 +
