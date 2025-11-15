@@ -23,11 +23,6 @@ FrontendPluginRegistry
 .
 h
 "
-#
-include
-<
-algorithm
->
 using
 namespace
 clang

@@ -77,7 +77,7 @@ h
 #
 include
 <
-memory
+new
 >
 struct
 MOZ_NONHEAP_CLASS
