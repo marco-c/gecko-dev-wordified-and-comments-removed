@@ -557,6 +557,17 @@ test_support_unittests
 '
 :
 {
+'
+mixins
+'
+:
+[
+'
+shards
+-
+2
+'
+]
 }
 '
 tools_unittests
