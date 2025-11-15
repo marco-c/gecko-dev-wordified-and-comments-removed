@@ -2369,6 +2369,12 @@ static
 bool
 ShouldActivateAllScrollFrames
 (
+nsDisplayListBuilder
+*
+aBuilder
+nsIFrame
+*
+aFrame
 )
 ;
 nsRect
