@@ -2113,6 +2113,7 @@ make_unique
 EndpointsContainer
 >
 (
+clock_
 endpoint_impls
 stats_gathering_mode_
 )
@@ -2239,6 +2240,9 @@ PostTask
 [
 endpoints
 stats_callback
+clock
+=
+clock_
 stats_gathering_mode
 =
 stats_gathering_mode_
@@ -2249,6 +2253,8 @@ stats_gathering_mode_
 EmulatedNetworkStatsBuilder
 stats_builder
 (
+*
+clock
 stats_gathering_mode
 )
 ;
@@ -2332,6 +2338,9 @@ PostTask
 [
 nodes
 stats_callback
+clock
+=
+clock_
 stats_gathering_mode
 =
 stats_gathering_mode_
@@ -2342,6 +2351,8 @@ stats_gathering_mode_
 EmulatedNetworkNodeStatsBuilder
 stats_builder
 (
+*
+clock
 stats_gathering_mode
 )
 ;

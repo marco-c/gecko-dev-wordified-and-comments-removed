@@ -102,6 +102,17 @@ h
 #
 include
 "
+system_wrappers
+/
+include
+/
+clock
+.
+h
+"
+#
+include
+"
 test
 /
 scenario
@@ -165,6 +176,8 @@ psnr
 RtcEventLogOutput
 *
 writer
+Timestamp
+at_time
 )
 ;
 VideoQualityStats
@@ -243,6 +256,8 @@ HandleFramePair
 (
 VideoFramePair
 sample
+Timestamp
+at_time
 )
 ;
 std
@@ -291,6 +306,9 @@ VideoFramePair
 >
 Handler
 (
+Clock
+*
+clock
 )
 ;
 private
@@ -302,6 +320,8 @@ VideoFramePair
 sample
 double
 psnr
+Timestamp
+at_time
 )
 ;
 const
@@ -352,6 +372,8 @@ Call
 :
 Stats
 sample
+Timestamp
+at_time
 )
 ;
 CollectedCallStats
@@ -384,6 +406,8 @@ AudioReceiveStreamInterface
 :
 Stats
 sample
+Timestamp
+at_time
 )
 ;
 CollectedAudioReceiveStats
@@ -465,6 +489,8 @@ VideoReceiveStreamInterface
 :
 Stats
 sample
+Timestamp
+at_time
 )
 ;
 CollectedVideoReceiveStats

@@ -69,6 +69,7 @@ AddSample
 event_time
 -
 last_time_
+event_time
 )
 ;
 first_time_
