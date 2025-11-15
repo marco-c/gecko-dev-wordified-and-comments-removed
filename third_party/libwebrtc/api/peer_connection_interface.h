@@ -1883,16 +1883,6 @@ false
 CryptoOptions
 crypto_options
 ;
-CryptoOptions
-&
-GetWritableCryptoOptions
-(
-)
-{
-return
-crypto_options
-;
-}
 bool
 offer_extmap_allow_mixed
 =
