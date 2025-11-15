@@ -81,6 +81,17 @@ include
 "
 api
 /
+environment
+/
+environment
+.
+h
+"
+#
+include
+"
+api
+/
 packet_socket_factory
 .
 h
@@ -597,6 +608,9 @@ conn
 new
 TCPConnection
 (
+env
+(
+)
 NewWeakPtr
 (
 )
@@ -612,6 +626,9 @@ conn
 new
 TCPConnection
 (
+env
+(
+)
 NewWeakPtr
 (
 )
@@ -1593,6 +1610,10 @@ TCPConnection
 :
 TCPConnection
 (
+const
+Environment
+&
+env
 WeakPtr
 <
 Port
@@ -1609,6 +1630,7 @@ socket
 :
 Connection
 (
+env
 std
 :
 :

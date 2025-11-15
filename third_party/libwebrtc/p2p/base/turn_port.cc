@@ -3278,6 +3278,9 @@ conn
 new
 ProxyConnection
 (
+env
+(
+)
 NewWeakPtr
 (
 )
