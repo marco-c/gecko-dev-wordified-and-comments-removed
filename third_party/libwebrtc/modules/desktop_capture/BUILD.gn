@@ -262,6 +262,17 @@ scoped_refptr
 .
 .
 /
+media
+:
+video_common
+"
+"
+.
+.
+/
+.
+.
+/
 rtc_base
 :
 checks

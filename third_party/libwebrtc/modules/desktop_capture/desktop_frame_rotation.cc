@@ -532,6 +532,16 @@ source_rect
 )
 )
 ;
+RTC_CHECK_EQ
+(
+FOURCC_ARGB
+source
+.
+pixel_format
+(
+)
+)
+;
 const
 DesktopRect
 target_rect

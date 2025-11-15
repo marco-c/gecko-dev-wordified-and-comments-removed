@@ -874,6 +874,7 @@ DesktopSize
 1
 1
 )
+FOURCC_ARGB
 )
 )
 ;
@@ -915,6 +916,7 @@ x_server_pixel_buffer_
 window_size
 (
 )
+FOURCC_ARGB
 )
 )
 ;

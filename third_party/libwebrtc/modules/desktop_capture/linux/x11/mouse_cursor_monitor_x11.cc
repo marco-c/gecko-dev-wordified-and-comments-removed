@@ -364,6 +364,7 @@ DesktopSize
 kSize
 kSize
 )
+FOURCC_ARGB
 )
 )
 ;
@@ -1003,6 +1004,7 @@ img
 >
 height
 )
+FOURCC_ARGB
 )
 )
 ;

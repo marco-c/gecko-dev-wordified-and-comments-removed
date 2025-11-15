@@ -1894,6 +1894,17 @@ height
 )
 )
 ;
+RTC_CHECK_EQ
+(
+FOURCC_ARGB
+frame
+-
+>
+pixel_format
+(
+)
+)
+;
 XImage
 *
 image

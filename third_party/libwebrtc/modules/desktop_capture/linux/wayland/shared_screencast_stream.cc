@@ -3758,6 +3758,7 @@ size
 .
 height
 )
+FOURCC_ARGB
 )
 ;
 mouse_frame
@@ -4421,6 +4422,7 @@ height
 (
 )
 )
+FOURCC_ARGB
 )
 )
 ;

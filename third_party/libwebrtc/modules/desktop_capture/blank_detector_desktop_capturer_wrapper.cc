@@ -562,6 +562,16 @@ frame
 )
 const
 {
+RTC_CHECK_EQ
+(
+FOURCC_ARGB
+frame
+.
+pixel_format
+(
+)
+)
+;
 for
 (
 int

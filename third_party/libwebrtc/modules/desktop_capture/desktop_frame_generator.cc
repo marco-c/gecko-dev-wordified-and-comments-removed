@@ -477,6 +477,17 @@ bottom
 )
 )
 ;
+RTC_CHECK_EQ
+(
+FOURCC_ARGB
+frame
+-
+>
+pixel_format
+(
+)
+)
+;
 uint32_t
 color
 =
@@ -780,6 +791,7 @@ SharedMemoryDesktopFrame
 Create
 (
 size_
+FOURCC_ARGB
 factory
 )
 .
@@ -791,6 +803,7 @@ new
 BasicDesktopFrame
 (
 size_
+FOURCC_ARGB
 )
 )
 ;

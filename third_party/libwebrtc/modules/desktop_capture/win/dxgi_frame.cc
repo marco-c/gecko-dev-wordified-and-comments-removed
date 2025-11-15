@@ -207,6 +207,7 @@ SharedMemoryDesktopFrame
 Create
 (
 size
+FOURCC_ARGB
 factory_
 )
 ;
@@ -300,6 +301,7 @@ new
 BasicDesktopFrame
 (
 size
+FOURCC_ARGB
 )
 )
 ;

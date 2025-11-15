@@ -1459,6 +1459,7 @@ selected_monitor_rect_
 size
 (
 )
+FOURCC_ARGB
 )
 )
 ;

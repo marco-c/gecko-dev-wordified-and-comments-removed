@@ -3,6 +3,12 @@ include_rules
 [
 "
 +
+media
+/
+base
+"
+"
++
 system_wrappers
 "
 "
