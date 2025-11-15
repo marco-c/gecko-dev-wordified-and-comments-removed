@@ -474,7 +474,7 @@ period
 const
 MAX_IDLE_RUN_MS
 =
-50
+5
 ;
 var
 Impl
