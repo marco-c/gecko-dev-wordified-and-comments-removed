@@ -551,6 +551,7 @@ CUSTOM_CBH_SWITCH_PREFERENCE_TAG
 DEFAULT_BROWSER_PREFERENCE_TAG
 PREFERENCE_TAG
 SWITCH_PREFERENCE_TAG
+SWITCH_PREFERENCE_PLAIN_TAG
 TEXT_PERCENTAGE_SEEK_BAR_PREFERENCE_TAG
 TOGGLE_RADIO_BUTTON_PREFERENCE_TAG
 -
@@ -585,7 +586,6 @@ item
 }
 }
 RADIO_BUTTON_PREFERENCE_TAG
-SWITCH_PREFERENCE_PLAIN_TAG
 -
 >
 {
@@ -1737,6 +1737,9 @@ PrivateBrowsingPreferences
 PreferenceFileInformation
 .
 SearchSettingsPreferences
+PreferenceFileInformation
+.
+SiteSettingsPreferences
 PreferenceFileInformation
 .
 TabsPreferences
