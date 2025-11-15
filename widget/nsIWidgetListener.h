@@ -363,13 +363,6 @@ aCompositeEnd
 {
 }
 virtual
-void
-RequestRepaint
-(
-)
-{
-}
-virtual
 bool
 ShouldNotBeVisible
 (

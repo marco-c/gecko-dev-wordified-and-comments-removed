@@ -547,12 +547,6 @@ aCompositeEnd
 )
 override
 ;
-void
-RequestRepaint
-(
-)
-override
-;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsEventStatus
 HandleEvent
