@@ -152,7 +152,7 @@ Window
 interface
 SVGSymbolElement
 :
-SVGElement
+SVGGraphicsElement
 {
 }
 ;
