@@ -1825,6 +1825,17 @@ MaybeReconstructActiveEntryList
 (
 )
 ;
+already_AddRefed
+<
+net
+:
+:
+DocumentLoadListener
+>
+GetCurrentLoad
+(
+)
+;
 protected
 :
 void
