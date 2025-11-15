@@ -16093,16 +16093,6 @@ api
 /
 transport
 :
-field_trial_based_config
-"
-"
-.
-.
-/
-api
-/
-transport
-:
 sctp_transport_factory_interface
 "
 "

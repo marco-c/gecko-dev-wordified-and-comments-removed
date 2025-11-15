@@ -3,9 +3,9 @@ include
 "
 api
 /
-transport
+environment
 /
-field_trial_based_config
+deprecated_global_field_trials
 .
 h
 "
@@ -48,7 +48,7 @@ std
 :
 :
 string
-FieldTrialBasedConfig
+DeprecatedGlobalFieldTrials
 :
 :
 GetValue
