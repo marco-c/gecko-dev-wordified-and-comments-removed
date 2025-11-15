@@ -8,11 +8,6 @@ include
 <
 set
 >
-#
-include
-<
-string
->
 extern
 "
 C

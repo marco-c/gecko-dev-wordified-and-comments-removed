@@ -6,17 +6,7 @@ cstdint
 #
 include
 <
-memory
->
-#
-include
-<
 ostream
->
-#
-include
-<
-utility
 >
 #
 include

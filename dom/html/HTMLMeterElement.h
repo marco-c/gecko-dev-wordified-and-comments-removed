@@ -6,11 +6,6 @@ define
 mozilla_dom_HTMLMeterElement_h
 #
 include
-<
-algorithm
->
-#
-include
 "
 nsAttrValue
 .

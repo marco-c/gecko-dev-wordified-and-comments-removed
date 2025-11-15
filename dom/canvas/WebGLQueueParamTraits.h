@@ -6,11 +6,6 @@ define
 WEBGLQUEUEPARAMTRAITS_H_
 #
 include
-<
-type_traits
->
-#
-include
 "
 TexUnpackBlob
 .

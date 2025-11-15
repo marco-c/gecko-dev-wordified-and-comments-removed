@@ -6,11 +6,6 @@ define
 mozilla_dom_media_MediaIPCUtils_h
 #
 include
-<
-type_traits
->
-#
-include
 "
 DecoderDoctorDiagnostics
 .

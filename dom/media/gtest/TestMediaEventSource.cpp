@@ -5,11 +5,6 @@ memory
 >
 #
 include
-<
-type_traits
->
-#
-include
 "
 MediaEventSource
 .

@@ -6,11 +6,6 @@ define
 mozilla_MediaUtils_h
 #
 include
-<
-map
->
-#
-include
 "
 MediaEventSource
 .

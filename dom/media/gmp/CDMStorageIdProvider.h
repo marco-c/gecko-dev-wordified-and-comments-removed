@@ -6,11 +6,6 @@ define
 CDMStorageIdProvider_h_
 #
 include
-<
-string
->
-#
-include
 "
 nsString
 .

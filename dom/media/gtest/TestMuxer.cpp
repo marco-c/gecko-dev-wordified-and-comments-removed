@@ -1,10 +1,5 @@
 #
 include
-<
-vector
->
-#
-include
 "
 ContainerWriter
 .

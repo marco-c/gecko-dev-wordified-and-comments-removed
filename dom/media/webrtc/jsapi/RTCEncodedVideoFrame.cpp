@@ -22,11 +22,6 @@ memory
 #
 include
 <
-string
->
-#
-include
-<
 utility
 >
 #

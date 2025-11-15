@@ -6,11 +6,6 @@ define
 DOM_WEBTRANSPORT_API_WEBTRANSPORTDATAGRAMDUPLEXSTREAM__H_
 #
 include
-<
-utility
->
-#
-include
 "
 mozilla
 /

@@ -6,11 +6,6 @@ define
 CanvasRenderingContext2D_h
 #
 include
-<
-vector
->
-#
-include
 "
 FilterDescription
 .

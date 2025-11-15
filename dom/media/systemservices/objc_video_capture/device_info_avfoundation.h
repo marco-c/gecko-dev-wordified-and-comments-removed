@@ -7,11 +7,6 @@ DOM_MEDIA_SYSTEMSERVICES_OBJC_VIDEO_CAPTURE_DEVICE_INFO_AVFOUNDATION_H_
 #
 include
 <
-map
->
-#
-include
-<
 string
 >
 #
@@ -135,6 +130,11 @@ pid_t
 aPid
 =
 nullptr
+bool
+*
+deviceIsPlaceholder
+=
+0
 )
 override
 ;

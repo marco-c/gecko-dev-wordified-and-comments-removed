@@ -6,11 +6,6 @@ define
 MOZILLA_FORWARDEDINPUTTRACK_H_
 #
 include
-<
-algorithm
->
-#
-include
 "
 MediaTrackGraph
 .

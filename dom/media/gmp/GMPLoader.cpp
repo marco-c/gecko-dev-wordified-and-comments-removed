@@ -136,11 +136,6 @@ h
 #
 endif
 #
-include
-<
-string
->
-#
 ifdef
 XP_WIN
 #

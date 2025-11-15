@@ -11,11 +11,6 @@ h
 "
 #
 include
-<
-type_traits
->
-#
-include
 "
 VRManagerChild
 .

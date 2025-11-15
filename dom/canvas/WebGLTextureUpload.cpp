@@ -12,11 +12,6 @@ algorithm
 >
 #
 include
-<
-limits
->
-#
-include
 "
 CanvasUtils
 .

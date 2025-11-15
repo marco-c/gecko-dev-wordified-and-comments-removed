@@ -6,11 +6,6 @@ define
 mozilla_dom_serviceworkeroppromise_h__
 #
 include
-<
-utility
->
-#
-include
 "
 mozilla
 /
