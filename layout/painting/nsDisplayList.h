@@ -20319,10 +20319,6 @@ mShouldFlatten
 (
 false
 )
-mWrStickyAnimationId
-(
-0
-)
 {
 MOZ_COUNT_CTOR
 (
@@ -20568,9 +20564,6 @@ mClippedToDisplayPort
 ;
 bool
 mShouldFlatten
-;
-uint64_t
-mWrStickyAnimationId
 ;
 }
 ;
