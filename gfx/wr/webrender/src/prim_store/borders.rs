@@ -1098,9 +1098,13 @@ request_image
 self
 .
 request
+&
+mut
 frame_state
 .
-gpu_cache
+frame_gpu_data
+.
+f32
 )
 ;
 let

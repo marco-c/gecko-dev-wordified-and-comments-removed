@@ -57,6 +57,9 @@ MPL
 *
 /
 #
+include
+gpu_buffer
+#
 define
 COMPONENT_TRANSFER_IDENTITY
 0
@@ -1543,7 +1546,7 @@ i
 ;
 texel
 =
-fetch_from_gpu_cache_1
+fetch_from_gpu_buffer_1f
 (
 table_address
 +
@@ -1610,7 +1613,7 @@ linear
 equation
 texel
 =
-fetch_from_gpu_cache_1
+fetch_from_gpu_buffer_1f
 (
 table_address
 +
@@ -1679,7 +1682,7 @@ gamma
 equation
 texel
 =
-fetch_from_gpu_cache_1
+fetch_from_gpu_buffer_1f
 (
 table_address
 +
