@@ -1597,6 +1597,15 @@ send_rtp_extensions_
 std
 :
 :
+optional
+<
+RtcpFeedbackType
+>
+rtcp_cc_ack_type_
+;
+std
+:
+:
 string
 mid_
 ;

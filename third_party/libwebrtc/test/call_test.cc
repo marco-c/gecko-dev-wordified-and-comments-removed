@@ -2382,6 +2382,12 @@ extensions
 ;
 audio_send_config
 .
+include_in_congestion_control_allocation
+=
+true
+;
+audio_send_config
+.
 send_codec_spec
 =
 AudioSendStream

@@ -505,6 +505,11 @@ has_dscp
 =
 false
 ;
+bool
+include_in_congestion_control_allocation
+=
+false
+;
 std
 :
 :

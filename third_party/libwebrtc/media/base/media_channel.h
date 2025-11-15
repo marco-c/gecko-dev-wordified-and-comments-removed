@@ -3589,6 +3589,15 @@ RtpExtension
 >
 extensions
 ;
+std
+:
+:
+optional
+<
+RtcpFeedbackType
+>
+rtcp_cc_ack_type
+;
 bool
 is_stream_active
 =

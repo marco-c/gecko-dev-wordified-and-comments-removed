@@ -2442,8 +2442,10 @@ env_
 ;
 }
 void
-EnableSendCongestionControlFeedbackAccordingToRfc8888
+SetPreferredRtcpCcAckType
 (
+RtcpFeedbackType
+preferred_rtcp_cc_ack_type
 )
 override
 {

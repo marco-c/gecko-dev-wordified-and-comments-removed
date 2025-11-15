@@ -953,6 +953,16 @@ GetAudioRtpExtensions
 config
 )
 ;
+send_config
+.
+include_in_congestion_control_allocation
+=
+config
+.
+stream
+.
+in_bandwidth_estimation
+;
 sender_
 -
 >
