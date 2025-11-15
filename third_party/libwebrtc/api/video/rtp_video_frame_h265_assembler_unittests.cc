@@ -599,6 +599,7 @@ num_references
 }
 ArrayView
 <
+const
 uint8_t
 >
 Payload
@@ -616,18 +617,12 @@ frame
 )
 {
 return
-ArrayView
-<
-uint8_t
->
-(
 *
 frame
 -
 >
 GetEncodedData
 (
-)
 )
 ;
 }
