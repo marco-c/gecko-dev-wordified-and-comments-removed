@@ -849,8 +849,12 @@ is_
 seekg
 (
 0
-is_
-.
+std
+:
+:
+ifstream
+:
+:
 beg
 )
 ;

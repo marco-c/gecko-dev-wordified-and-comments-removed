@@ -2457,9 +2457,10 @@ new_packet_info
 .
 set_local_capture_clock_offset
 (
-capture_clock_offset_updater_
-.
-ConvertsToTimeDela
+CaptureClockOffsetUpdater
+:
+:
+ConvertToTimeDelta
 (
 capture_clock_offset_updater_
 .

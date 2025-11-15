@@ -702,8 +702,9 @@ kEpsilon
 double
 result
 =
-resampler
-.
+SincResampler
+:
+:
 Convolve_C
 (
 resampler
@@ -770,8 +771,9 @@ kEpsilon
 ;
 result
 =
-resampler
-.
+SincResampler
+:
+:
 Convolve_C
 (
 resampler
@@ -904,8 +906,9 @@ kConvolveIterations
 i
 )
 {
-resampler
-.
+SincResampler
+:
+:
 Convolve_C
 (
 resampler

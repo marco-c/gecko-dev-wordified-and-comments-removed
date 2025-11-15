@@ -1205,9 +1205,9 @@ empty
 int
 num_fec_packets
 =
-fec_
--
->
+ForwardErrorCorrection
+:
+:
 NumFecPackets
 (
 media_packets_

@@ -362,7 +362,7 @@ converted
 CaptureClockOffsetUpdater
 :
 :
-ConvertsToTimeDela
+ConvertToTimeDelta
 (
 kNegativeQ32x32
 )
@@ -388,7 +388,7 @@ converted
 CaptureClockOffsetUpdater
 :
 :
-ConvertsToTimeDela
+ConvertToTimeDelta
 (
 kPositiveQ32x32
 )
@@ -414,7 +414,7 @@ EXPECT_FALSE
 CaptureClockOffsetUpdater
 :
 :
-ConvertsToTimeDela
+ConvertToTimeDelta
 (
 std
 :

@@ -76,7 +76,7 @@ optional
 <
 TimeDelta
 >
-ConvertsToTimeDela
+ConvertToTimeDelta
 (
 std
 :

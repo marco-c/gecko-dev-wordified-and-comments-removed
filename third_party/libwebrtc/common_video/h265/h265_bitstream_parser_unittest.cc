@@ -1128,9 +1128,6 @@ H265BitstreamParserTest
 PpsIdFromSlice
 )
 {
-H265BitstreamParser
-h265_parser
-;
 std
 :
 :
@@ -1140,8 +1137,9 @@ uint32_t
 >
 pps_id
 =
-h265_parser
-.
+H265BitstreamParser
+:
+:
 ParsePpsIdFromSliceSegmentLayerRbsp
 (
 kH265SliceChunk

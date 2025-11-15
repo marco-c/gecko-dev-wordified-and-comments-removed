@@ -582,9 +582,9 @@ relative_delay_ms
 if
 (
 !
-sync_
--
->
+StreamSynchronization
+:
+:
 ComputeRelativeDelay
 (
 audio_measurement_
