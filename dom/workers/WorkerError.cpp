@@ -163,15 +163,6 @@ include
 "
 mozilla
 /
-Span
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BindingDeclarations

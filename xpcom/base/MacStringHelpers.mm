@@ -14,15 +14,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-IntegerTypeTraits
-.
-h
-"
-#
-include
 <
 limits
 >
