@@ -10,11 +10,6 @@ h
 #
 include
 <
-algorithm
->
-#
-include
-<
 stdint
 .
 h

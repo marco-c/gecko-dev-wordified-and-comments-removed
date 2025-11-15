@@ -14,11 +14,6 @@ h
 #
 include
 <
-memory
->
-#
-include
-<
 mfidl
 .
 h
