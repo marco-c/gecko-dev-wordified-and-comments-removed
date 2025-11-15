@@ -7880,7 +7880,6 @@ epoll_event
 event
 =
 {
-0
 }
 ;
 event
@@ -8013,7 +8012,6 @@ epoll_event
 event
 =
 {
-0
 }
 ;
 int
@@ -8127,7 +8125,6 @@ epoll_event
 event
 =
 {
-0
 }
 ;
 event

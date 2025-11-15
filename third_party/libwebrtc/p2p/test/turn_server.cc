@@ -766,7 +766,13 @@ socket
 ]
 =
 {
+.
 proto
+=
+proto
+.
+ssl_adapter_factory
+=
 std
 :
 :

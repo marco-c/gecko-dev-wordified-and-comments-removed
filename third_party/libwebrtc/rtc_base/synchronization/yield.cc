@@ -89,6 +89,13 @@ timespec
 ts_null
 =
 {
+.
+tv_sec
+=
+0
+.
+tv_nsec
+=
 0
 }
 ;

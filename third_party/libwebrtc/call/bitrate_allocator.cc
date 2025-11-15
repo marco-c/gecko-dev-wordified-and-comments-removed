@@ -704,9 +704,15 @@ push_back
 (
 PriorityRateObserverConfig
 {
+.
+allocation_key
+=
 observer_config
 .
 observer
+.
+capacity_bps
+=
 observers_capacities
 .
 at
@@ -715,6 +721,9 @@ observer_config
 .
 observer
 )
+.
+bitrate_priority
+=
 observer_config
 .
 config
