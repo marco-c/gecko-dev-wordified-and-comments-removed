@@ -8456,7 +8456,13 @@ AbsoluteCaptureTime
 kAbsoluteCaptureTime
 =
 {
+.
+absolute_capture_timestamp
+=
 123
+.
+estimated_capture_clock_offset
+=
 std
 :
 :

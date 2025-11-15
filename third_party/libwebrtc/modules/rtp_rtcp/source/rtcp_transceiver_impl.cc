@@ -2124,7 +2124,13 @@ last_received_sender_report
 =
 {
 {
+.
+local_received_time
+=
 now
+.
+remote_sent_time
+=
 sender_report
 .
 ntp

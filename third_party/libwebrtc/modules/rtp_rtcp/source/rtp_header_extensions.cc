@@ -1221,7 +1221,13 @@ sequence_count
 feedback_request
 =
 {
+.
 include_timestamps
+=
+include_timestamps
+.
+sequence_count
+=
 sequence_count
 }
 ;

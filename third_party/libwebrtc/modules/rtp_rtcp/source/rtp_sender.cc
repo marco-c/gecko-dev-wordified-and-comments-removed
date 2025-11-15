@@ -523,10 +523,16 @@ CorruptionDetectionExtension
 (
 )
 {
+.
+type
+=
 RtpGenericFrameDescriptorExtension00
 :
 :
 kId
+.
+value_size
+=
 RtpGenericFrameDescriptorExtension00
 :
 :
