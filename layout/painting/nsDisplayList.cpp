@@ -31066,6 +31066,9 @@ aBuilder
 .
 DefineStickyFrame
 (
+Nothing
+(
+)
 wr
 :
 :
