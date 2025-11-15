@@ -133,11 +133,9 @@ if
 (
 payload
 .
-size
+empty
 (
 )
-<
-1
 )
 {
 RTC_DLOG
@@ -628,11 +626,9 @@ if
 (
 payload
 .
-size
+empty
 (
 )
-<
-1
 )
 {
 RTC_LOG

@@ -1932,9 +1932,10 @@ port_edit_
 int
 port
 =
+!
 port_
 .
-length
+empty
 (
 )
 ?

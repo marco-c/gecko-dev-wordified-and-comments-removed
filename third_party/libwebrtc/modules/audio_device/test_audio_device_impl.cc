@@ -862,13 +862,12 @@ recording_buffer_
 ;
 if
 (
+!
 recording_buffer_
 .
-size
+empty
 (
 )
->
-0
 )
 {
 audio_buffer_

@@ -154,13 +154,12 @@ char
 ;
 if
 (
+!
 config_data
 .
-size
+empty
 (
 )
->
-0
 )
 {
 proto_all_configs_

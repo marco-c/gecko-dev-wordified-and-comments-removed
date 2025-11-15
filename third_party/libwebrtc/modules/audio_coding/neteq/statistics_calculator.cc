@@ -1722,12 +1722,9 @@ if
 (
 waiting_times_
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 stats

@@ -3307,13 +3307,12 @@ empty
 )
 |
 |
+!
 bind_request_succeeded_servers_
 .
-size
+empty
 (
 )
->
-0
 |
 |
 SharedSocket

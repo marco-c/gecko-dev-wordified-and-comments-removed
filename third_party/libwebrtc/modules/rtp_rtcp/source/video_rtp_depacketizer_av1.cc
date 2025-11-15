@@ -1878,12 +1878,9 @@ if
 (
 rtp_payload
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 RTC_DLOG

@@ -1041,12 +1041,9 @@ if
 (
 encode_buffer_
 .
-size
+empty
 (
 )
-=
-=
-0
 &
 &
 !
@@ -1140,12 +1137,9 @@ if
 (
 encode_buffer_
 .
-size
+empty
 (
 )
-=
-=
-0
 &
 &
 encoded_info

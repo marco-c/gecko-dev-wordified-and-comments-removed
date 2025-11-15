@@ -383,12 +383,9 @@ packet_data_
 >
 payload
 .
-size
+empty
 (
 )
-=
-=
-0
 &
 &
 !

@@ -12551,11 +12551,9 @@ if
 (
 fields
 .
-size
+empty
 (
 )
-<
-1
 |
 |
 fields

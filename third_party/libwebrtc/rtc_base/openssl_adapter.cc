@@ -4918,12 +4918,9 @@ if
 (
 proto
 .
-size
+empty
 (
 )
-=
-=
-0
 |
 |
 proto

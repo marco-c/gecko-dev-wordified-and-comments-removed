@@ -4258,12 +4258,9 @@ if
 (
 codec_payload
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 NotifyReceiverOfEmptyPacket

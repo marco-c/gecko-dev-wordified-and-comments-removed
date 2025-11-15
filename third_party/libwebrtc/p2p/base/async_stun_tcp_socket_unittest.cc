@@ -896,9 +896,10 @@ false
 ;
 if
 (
+!
 recv_packets_
 .
-size
+empty
 (
 )
 )

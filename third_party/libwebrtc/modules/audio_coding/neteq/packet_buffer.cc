@@ -1106,12 +1106,9 @@ if
 (
 buffer_
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 return

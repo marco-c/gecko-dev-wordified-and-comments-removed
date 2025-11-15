@@ -2844,12 +2844,9 @@ if
 (
 data
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 written
@@ -3127,12 +3124,9 @@ if
 (
 data
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 read

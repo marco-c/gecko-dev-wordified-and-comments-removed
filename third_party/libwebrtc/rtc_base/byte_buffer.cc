@@ -701,12 +701,9 @@ if
 (
 val
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 return

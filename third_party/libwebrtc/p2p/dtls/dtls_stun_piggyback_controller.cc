@@ -981,12 +981,9 @@ has_value
 data
 -
 >
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 return

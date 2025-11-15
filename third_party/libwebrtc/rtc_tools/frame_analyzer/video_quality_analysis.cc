@@ -815,15 +815,14 @@ logger
 {
 if
 (
+!
 results
 .
 frames
 .
-size
+empty
 (
 )
->
-0u
 )
 {
 logger

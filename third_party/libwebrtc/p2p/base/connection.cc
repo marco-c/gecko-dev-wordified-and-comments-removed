@@ -550,12 +550,9 @@ if
 (
 pings_since_last_response
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 return
 false

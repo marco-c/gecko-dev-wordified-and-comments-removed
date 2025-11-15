@@ -881,12 +881,9 @@ if
 (
 path
 .
-length
+empty
 (
 )
-=
-=
-0
 )
 return
 std

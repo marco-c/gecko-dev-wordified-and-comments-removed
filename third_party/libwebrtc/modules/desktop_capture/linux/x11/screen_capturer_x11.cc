@@ -1614,12 +1614,9 @@ RTC_DCHECK
 sources
 -
 >
-size
+empty
 (
 )
-=
-=
-0
 )
 ;
 if

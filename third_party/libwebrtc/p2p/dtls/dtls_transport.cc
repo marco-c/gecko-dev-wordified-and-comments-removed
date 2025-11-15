@@ -1872,13 +1872,12 @@ false
 bool
 fingerprint_changing
 =
+!
 remote_fingerprint_value_
 .
-size
+empty
 (
 )
->
-0u
 ;
 remote_fingerprint_value_
 =
@@ -2309,9 +2308,10 @@ err
 ;
 if
 (
+!
 remote_fingerprint_value_
 .
-size
+empty
 (
 )
 &

@@ -1240,13 +1240,12 @@ time_us
 {
 RTC_DCHECK
 (
+!
 data
 .
-size
+empty
 (
 )
->
-0
 )
 ;
 if

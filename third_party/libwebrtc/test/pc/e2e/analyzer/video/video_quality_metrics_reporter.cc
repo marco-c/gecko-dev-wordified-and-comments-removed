@@ -423,12 +423,9 @@ if
 (
 transport_stats
 .
-size
+empty
 (
 )
-=
-=
-0u
 |
 |
 !

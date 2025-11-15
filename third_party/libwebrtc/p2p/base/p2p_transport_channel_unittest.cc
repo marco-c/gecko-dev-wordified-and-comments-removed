@@ -43001,7 +43001,6 @@ DestroyChannels
 )
 ;
 }
-static
 struct
 LocalAreaNetworkPermissionTestConfig
 {

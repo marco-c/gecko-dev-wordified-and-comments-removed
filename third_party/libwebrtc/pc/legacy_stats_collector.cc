@@ -6238,12 +6238,13 @@ srtp_crypto_suite
 kSrtpInvalidCryptoSuite
 &
 &
+!
 SrtpCryptoSuiteToName
 (
 srtp_crypto_suite
 )
 .
-length
+empty
 (
 )
 )

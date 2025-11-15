@@ -917,6 +917,7 @@ kRedHeaderLength
 }
 if
 (
+!
 received_packet
 -
 >
@@ -925,11 +926,9 @@ pkt
 >
 data
 .
-size
+empty
 (
 )
->
-0
 )
 {
 received_packets_

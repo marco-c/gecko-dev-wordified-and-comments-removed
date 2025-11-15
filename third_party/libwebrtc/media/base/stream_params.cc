@@ -562,13 +562,12 @@ semantics
 semantics_in
 &
 &
+!
 ssrcs
 .
-size
+empty
 (
 )
->
-0
 )
 ;
 }

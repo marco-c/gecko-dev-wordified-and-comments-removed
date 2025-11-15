@@ -2097,15 +2097,14 @@ CreateBuiltinAudioDecoderFactory
 ;
 if
 (
+!
 config
 .
 replacement_audio_file
 .
-size
+empty
 (
 )
->
-0
 )
 {
 int

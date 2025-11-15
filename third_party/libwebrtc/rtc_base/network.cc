@@ -2768,12 +2768,9 @@ nullptr
 &
 address
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 return
@@ -6028,12 +6025,9 @@ if
 (
 ips_
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 return

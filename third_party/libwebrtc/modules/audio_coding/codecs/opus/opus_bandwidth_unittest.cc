@@ -680,13 +680,12 @@ kInputBlockSizeSamples
 ;
 if
 (
+!
 encoded
 .
-size
+empty
 (
 )
->
-0
 )
 {
 int

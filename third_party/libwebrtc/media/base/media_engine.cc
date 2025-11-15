@@ -378,12 +378,9 @@ RTC_DCHECK
 (
 rids
 .
-size
+empty
 (
 )
-=
-=
-0
 |
 |
 rids

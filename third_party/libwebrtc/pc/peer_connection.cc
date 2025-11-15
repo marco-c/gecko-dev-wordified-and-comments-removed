@@ -8450,11 +8450,9 @@ transport_infos
 (
 )
 .
-size
+empty
 (
 )
-<
-1
 )
 {
 return
