@@ -843,6 +843,17 @@ GetNearestScrollASRViewId
 )
 const
 ;
+static
+const
+ActiveScrolledRoot
+*
+GetStickyASRFromFrame
+(
+nsIFrame
+*
+aStickyFrame
+)
+;
 enum
 class
 ASRKind
