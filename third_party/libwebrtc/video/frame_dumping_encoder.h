@@ -14,7 +14,9 @@ include
 "
 api
 /
-field_trials_view
+environment
+/
+environment
 .
 h
 "
@@ -41,6 +43,10 @@ VideoEncoder
 >
 MaybeCreateFrameDumpingEncoderWrapper
 (
+const
+Environment
+&
+env
 std
 :
 :
@@ -49,10 +55,6 @@ unique_ptr
 VideoEncoder
 >
 encoder
-const
-FieldTrialsView
-&
-field_trials
 )
 ;
 }
