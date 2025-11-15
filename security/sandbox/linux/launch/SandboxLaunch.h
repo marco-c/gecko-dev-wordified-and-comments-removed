@@ -40,11 +40,6 @@ nsXULAppAPI
 .
 h
 "
-#
-include
-<
-vector
->
 namespace
 mozilla
 {

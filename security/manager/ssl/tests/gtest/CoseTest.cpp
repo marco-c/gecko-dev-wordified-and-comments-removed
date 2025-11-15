@@ -36,7 +36,7 @@ cstddef
 #
 include
 <
-memory
+cstring
 >
 #
 include
