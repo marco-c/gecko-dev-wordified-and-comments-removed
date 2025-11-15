@@ -827,7 +827,7 @@ kind_
 BindingKind
 bindingKind_
 ;
-uint8_t
+uint16_t
 hops_
 ;
 uint32_t
@@ -860,10 +860,10 @@ Kind
 kind
 BindingKind
 bindingKind
-uint8_t
+uint16_t
 hops
 =
-UINT8_MAX
+UINT16_MAX
 uint32_t
 slot
 =
@@ -1046,7 +1046,7 @@ EnvironmentCoordinate
 (
 BindingKind
 bindKind
-uint8_t
+uint16_t
 hops
 uint32_t
 slot
@@ -1078,7 +1078,7 @@ DebugEnvironmentCoordinate
 (
 BindingKind
 bindKind
-uint8_t
+uint16_t
 hops
 uint32_t
 slot
@@ -1276,7 +1276,7 @@ slot_
 NameLocation
 addHops
 (
-uint8_t
+uint16_t
 more
 )
 {
