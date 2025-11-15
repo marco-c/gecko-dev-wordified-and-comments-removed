@@ -653,6 +653,14 @@ ReadExponentialGolomb
 ;
 if
 (
+!
+reader
+.
+Ok
+(
+)
+|
+|
 pps
 .
 num_ref_idx_l0_default_active_minus1
