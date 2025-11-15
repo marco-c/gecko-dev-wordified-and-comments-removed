@@ -6007,10 +6007,6 @@ mViewManager
 new
 nsViewManager
 (
-printData
--
->
-mPrintDC
 )
 ;
 bool

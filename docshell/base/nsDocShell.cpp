@@ -49,6 +49,13 @@ endif
 #
 include
 "
+nsDeviceContext
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes

@@ -38,6 +38,13 @@ h
 #
 include
 "
+nsDeviceContext
+.
+h
+"
+#
+include
+"
 Navigator
 .
 h
