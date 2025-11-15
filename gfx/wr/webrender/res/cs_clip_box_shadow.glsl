@@ -60,6 +60,7 @@ MPL
 include
 shared
 clip_shared
+image_source
 varying
 highp
 vec4

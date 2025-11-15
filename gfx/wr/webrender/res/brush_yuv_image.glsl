@@ -66,6 +66,7 @@ shared
 prim_shared
 brush
 yuv
+image_source
 varying
 highp
 vec2
