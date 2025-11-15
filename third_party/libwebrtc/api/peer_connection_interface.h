@@ -2827,8 +2827,6 @@ Candidate
 &
 candidates
 )
-=
-0
 ;
 virtual
 RTCError
