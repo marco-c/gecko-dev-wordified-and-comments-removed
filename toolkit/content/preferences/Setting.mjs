@@ -1488,6 +1488,13 @@ controllingExtensionInfo
 .
 name
 ;
+delete
+this
+.
+controllingExtensionInfo
+.
+supportPage
+;
 /
 /
 Request

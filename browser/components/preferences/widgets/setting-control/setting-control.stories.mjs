@@ -867,6 +867,11 @@ controlled
 -
 message
 "
+supportPage
+:
+"
+preferences
+"
 }
 }
 setting
@@ -949,6 +954,11 @@ name
 "
 My
 Extension
+"
+supportPage
+:
+"
+preferences
 "
 }
 }
