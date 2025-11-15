@@ -348,7 +348,7 @@ id
 trustPanelFragment
 TrustPanelFragmentDirections
 .
-actionGlobalSettingsFragment
+actionGlobalTrackingProtectionFragment
 (
 preferenceToScrollTo
 =
