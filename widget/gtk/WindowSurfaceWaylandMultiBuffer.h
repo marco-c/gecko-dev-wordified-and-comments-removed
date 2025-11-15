@@ -286,12 +286,6 @@ WaylandBufferSHM
 >
 mAvailableBuffers
 ;
-bool
-mFrameInProcess
-;
-bool
-mCallbackRequested
-;
 }
 ;
 }
