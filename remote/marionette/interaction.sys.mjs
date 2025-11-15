@@ -1315,6 +1315,7 @@ a
 pointerMove
 action
 .
+await
 lazy
 .
 event
@@ -1396,6 +1397,7 @@ synthesize
 only
 mouseup
 .
+await
 lazy
 .
 event
@@ -1447,6 +1449,7 @@ pointerDown
 pointerUp
 action
 .
+await
 lazy
 .
 event
@@ -1802,6 +1805,7 @@ opts
 {
 }
 ;
+await
 lazy
 .
 event
