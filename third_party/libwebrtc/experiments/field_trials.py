@@ -496,6 +496,24 @@ FieldTrial
 '
 WebRTC
 -
+HeaderExtensionNegotiateMemory
+'
+               
+439514253
+               
+date
+(
+2026
+2
+18
+)
+)
+    
+FieldTrial
+(
+'
+WebRTC
+-
 IPv6NetworkResolutionFixes
 '
                
