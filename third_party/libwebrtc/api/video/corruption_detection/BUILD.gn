@@ -274,6 +274,13 @@ frame_instrumentation_evaluation
 "
 )
 {
+visibility
+=
+[
+"
+*
+"
+]
 sources
 =
 [
