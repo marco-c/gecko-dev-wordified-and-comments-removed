@@ -4174,6 +4174,13 @@ sjs
 ]
 [
 "
+browser_view_reusable
+.
+js
+"
+]
+[
+"
 browser_view_selectionByMouse
 .
 js
