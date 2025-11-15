@@ -10765,10 +10765,10 @@ libvpx_vp9_encoder
 .
 cc
 index
-b07e5235cc
+cecb34a303
 .
 .
-f0f2e3b853
+9b6336a327
 100644
 -
 -
@@ -12706,10 +12706,10 @@ webrtc
 .
 gni
 index
-57aa114622
+3cf3cc5c06
 .
 .
-488eb3bb68
+1ba954a5fb
 100644
 -
 -
