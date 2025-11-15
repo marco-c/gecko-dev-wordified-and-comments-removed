@@ -3052,12 +3052,7 @@ IsMMCSSSupported
 return
 CreateWindowsCoreAudioAudioDeviceModuleForTest
 (
-&
 env_
-.
-task_queue_factory
-(
-)
 true
 )
 ;
@@ -3480,12 +3475,7 @@ audio_device
 =
 CreateWindowsCoreAudioAudioDeviceModule
 (
-&
 env
-.
-task_queue_factory
-(
-)
 )
 ;
 EXPECT_TRUE

@@ -437,12 +437,7 @@ webrtc
 AudioDeviceBuffer
 >
 (
-&
 env_
-.
-task_queue_factory
-(
-)
 )
 ;
 if

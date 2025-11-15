@@ -392,12 +392,7 @@ make_unique
 AudioDeviceBuffer
 >
 (
-&
 env_
-.
-task_queue_factory
-(
-)
 )
 ;
 audio_device_

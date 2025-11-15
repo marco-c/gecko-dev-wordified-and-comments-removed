@@ -30,7 +30,9 @@ include
 "
 api
 /
-scoped_refptr
+environment
+/
+environment
 .
 h
 "
@@ -39,9 +41,7 @@ include
 "
 api
 /
-task_queue
-/
-task_queue_factory
+scoped_refptr
 .
 h
 "
@@ -411,6 +411,10 @@ AudioDeviceModuleForTest
 >
 CreateWindowsCoreAudioAudioDeviceModuleFromInputAndOutput
 (
+const
+Environment
+&
+env
 std
 :
 :
@@ -427,9 +431,6 @@ unique_ptr
 AudioOutput
 >
 audio_output
-TaskQueueFactory
-*
-task_queue_factory
 )
 ;
 }

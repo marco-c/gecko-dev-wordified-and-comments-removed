@@ -9954,12 +9954,7 @@ IsMMCSSSupported
 return
 CreateWindowsCoreAudioAudioDeviceModule
 (
-&
 env_
-.
-task_queue_factory
-(
-)
 )
 ;
 #

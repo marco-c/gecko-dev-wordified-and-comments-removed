@@ -2187,6 +2187,7 @@ make_ref_counted
 AudioDeviceModuleImpl
 >
 (
+env
 AudioDeviceModule
 :
 :
@@ -2218,12 +2219,6 @@ move
 renderer
 )
 speed
-)
-&
-env
-.
-task_queue_factory
-(
 )
 true
 )
