@@ -627,10 +627,10 @@ webrtc
 .
 gni
 index
-c6f12efec0
+c35f08b426
 .
 .
-840b752953
+ad4460c554
 100644
 -
 -
@@ -649,10 +649,10 @@ webrtc
 .
 gni
 -
-353
+349
 7
 +
-353
+349
 7
 rtc_opus_dir
 =
