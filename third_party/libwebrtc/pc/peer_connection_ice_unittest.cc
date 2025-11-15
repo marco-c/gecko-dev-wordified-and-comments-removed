@@ -4463,7 +4463,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 ice_candidate
 =
