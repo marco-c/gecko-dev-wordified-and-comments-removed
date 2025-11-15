@@ -999,7 +999,7 @@ num_swapped_frames_
 {
 RTC_DCHECK
 (
-config
+config_
 .
 encoder_settings
 .
@@ -1011,7 +1011,7 @@ nullptr
 ;
 RTC_DCHECK
 (
-config
+config_
 .
 encoder_settings
 .

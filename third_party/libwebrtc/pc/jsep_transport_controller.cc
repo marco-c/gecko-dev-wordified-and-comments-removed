@@ -623,13 +623,13 @@ config
 )
 active_reset_srtp_params_
 (
-config
+config_
 .
 active_reset_srtp_params
 )
 bundles_
 (
-config
+config_
 .
 bundle_policy
 )
