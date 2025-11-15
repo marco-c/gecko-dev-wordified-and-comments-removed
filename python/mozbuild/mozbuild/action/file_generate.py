@@ -15,12 +15,6 @@ buildconfig
 from
 mozbuild
 .
-serialized_logging
-import
-serialize_root_logger
-from
-mozbuild
-.
 makeutil
 import
 Makefile
@@ -30,6 +24,12 @@ mozbuild
 pythonutil
 import
 iter_modules_in_path
+from
+mozbuild
+.
+serialized_logging
+import
+serialize_root_logger
 from
 mozbuild
 .
