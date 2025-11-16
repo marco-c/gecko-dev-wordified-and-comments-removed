@@ -236,12 +236,14 @@ lazy_static
 "
 1
 "
-fxhash
+rustc
+-
+hash
 =
 "
-0
-.
 2
+.
+1
 .
 1
 "
@@ -434,6 +436,8 @@ dwrote
 0
 .
 11
+.
+5
 "
 [
 target
