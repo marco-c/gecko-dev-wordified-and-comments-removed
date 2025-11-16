@@ -12534,7 +12534,6 @@ CreateNodeResultBase
 ContentNodeType
 >
 (
-&
 aContentToInsert
 transaction
 -
@@ -13424,6 +13423,7 @@ NS_ERROR_EDITOR_UNEXPECTED_DOM_TREE
 return
 CreateElementResult
 (
+*
 newBRElement
 EditorDOMPoint
 (
