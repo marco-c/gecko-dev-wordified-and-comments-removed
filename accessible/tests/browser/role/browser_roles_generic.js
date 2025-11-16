@@ -3505,7 +3505,7 @@ getAcc
 aria_region_as_table_with_miscaption
 "
 )
-ROLE_TABLE
+ROLE_REGION
 )
 ;
 testRole
@@ -3516,7 +3516,7 @@ getAcc
 aria_region_as_table_with_miscaption_mixed
 "
 )
-ROLE_TABLE
+ROLE_REGION
 )
 ;
 testRole
