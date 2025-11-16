@@ -983,6 +983,9 @@ buttonBackgroundColor
 isSearchInProgress
 =
 false
+bottomPadding
+=
+68
 )
 interactor
 =
