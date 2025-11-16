@@ -348,6 +348,9 @@ public
 domain
 .
 >
+~
+~
+~
 The
 author
 disclaims
@@ -360,7 +363,6 @@ code
 In
 place
 of
->
 a
 legal
 notice
@@ -369,8 +371,6 @@ is
 a
 blessing
 :
->
->
 *
 May
 you
@@ -380,7 +380,6 @@ and
 not
 evil
 .
->
 *
 May
 you
@@ -392,7 +391,6 @@ and
 forgive
 others
 .
->
 *
 May
 you
@@ -405,6 +403,9 @@ than
 you
 give
 .
+~
+~
+~
 Almost
 every
 file
@@ -561,12 +562,18 @@ to
 implement
 :
 >
+~
+~
+~
 .
 /
 configure
 &
 &
 make
+~
+~
+~
 In
 all
 cases
@@ -769,7 +776,6 @@ contained
 (
 mostly
 )
-in
 the
 autosetup
 /
@@ -857,6 +863,7 @@ following
 unix
 shell
 command
+is
 can
 be
 run
@@ -882,12 +889,18 @@ domain
 code
 :
 >
+~
+~
+~
 rm
 -
 rf
 configure
 autosetup
 autoconf
+~
+~
+~
 If
 you
 unpack
