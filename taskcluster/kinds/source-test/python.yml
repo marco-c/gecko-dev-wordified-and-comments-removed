@@ -2222,6 +2222,8 @@ opt
 linux64
 -
 node
+-
+terser
 macosx1470
 -
 64
@@ -2232,6 +2234,8 @@ opt
 macosx64
 -
 node
+-
+terser
 windows11
 -
 64
@@ -2246,6 +2250,8 @@ node
 win64
 -
 mozmake
+-
+terser
 when
 :
 files

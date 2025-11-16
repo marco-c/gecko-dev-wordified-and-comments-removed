@@ -500,6 +500,12 @@ mozilla
 /
 node_modules
 /
+tools
+/
+terser
+/
+node_modules
+/
 browser
 /
 components
