@@ -1023,7 +1023,7 @@ Modifier
 .
 height
 (
-40
+16
 .
 dp
 )
