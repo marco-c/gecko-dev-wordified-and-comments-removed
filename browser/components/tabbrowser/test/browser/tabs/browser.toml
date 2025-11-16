@@ -3822,6 +3822,13 @@ tabs
 "
 [
 "
+browser_tab_notes
+.
+js
+"
+]
+[
+"
 browser_tab_play
 .
 js
