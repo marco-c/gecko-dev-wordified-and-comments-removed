@@ -1785,33 +1785,13 @@ package
 "
 "
     
-sys
+from
+mozbuild
 .
-path
-.
-append
-(
-mozpath
-.
-join
-(
-command_context
-.
-topsrcdir
-"
-tools
-"
-"
-lint
-"
-"
-eslint
-"
-)
-)
-    
+nodeutil
 import
-setup_helper
+check_node_executables_valid
+package_setup
     
 if
 not
@@ -2031,8 +2011,6 @@ updated_body
     
 if
 not
-setup_helper
-.
 check_node_executables_valid
 (
 )
@@ -2193,8 +2171,6 @@ node_dir
     
 status
 =
-setup_helper
-.
 package_setup
 (
         
@@ -3399,33 +3375,12 @@ command_context
 )
 :
     
-sys
+from
+mozbuild
 .
-path
-.
-append
-(
-mozpath
-.
-join
-(
-command_context
-.
-topsrcdir
-"
-tools
-"
-"
-lint
-"
-"
-eslint
-"
-)
-)
-    
+nodeutil
 import
-setup_helper
+check_node_executables_valid
     
 with
 silence
@@ -3435,8 +3390,6 @@ silence
         
 node_valid
 =
-setup_helper
-.
 check_node_executables_valid
 (
 )
