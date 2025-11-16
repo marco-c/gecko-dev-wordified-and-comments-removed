@@ -1665,8 +1665,7 @@ ROLE_HEADING
 name
 :
 "
-inside
-alt
+insidealt
 "
 children
 :
