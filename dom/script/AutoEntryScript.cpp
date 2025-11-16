@@ -53,6 +53,15 @@ h
 #
 include
 "
+mozilla
+/
+Maybe
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

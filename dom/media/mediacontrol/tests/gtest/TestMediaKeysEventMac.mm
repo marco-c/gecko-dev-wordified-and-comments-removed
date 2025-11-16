@@ -68,6 +68,15 @@ gtest
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Maybe
+.
+h
+"
 using
 namespace
 mozilla

@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+Maybe
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PlatformMutex
 .
 h

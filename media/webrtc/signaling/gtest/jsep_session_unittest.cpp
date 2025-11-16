@@ -32,6 +32,15 @@ Preferences
 h
 "
 #
+include
+"
+mozilla
+/
+RefPtr
+.
+h
+"
+#
 define
 GTEST_HAS_RTTI
 0

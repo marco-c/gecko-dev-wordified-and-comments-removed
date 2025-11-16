@@ -36,6 +36,15 @@ Atomics
 h
 "
 #
+include
+"
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
 ifdef
 MOZ_MEMORY
 #

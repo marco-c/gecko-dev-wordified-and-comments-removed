@@ -293,6 +293,15 @@ SyncRunnable
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TextUtils
+.
+h
+"
 using
 namespace
 mozilla

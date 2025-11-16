@@ -167,6 +167,15 @@ include
 "
 mozilla
 /
+HashTable
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Likely
 .
 h

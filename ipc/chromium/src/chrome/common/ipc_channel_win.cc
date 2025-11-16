@@ -147,6 +147,15 @@ include
 "
 mozilla
 /
+Atomics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LateWriteChecks
 .
 h
