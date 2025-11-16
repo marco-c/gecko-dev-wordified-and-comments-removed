@@ -356,7 +356,10 @@ from_interface
 this
 )
 ;
+(
+*
 this
+)
 .
 outline_builder
 .
@@ -405,7 +408,10 @@ figure_end
 =
 D2D1_FIGURE_END_CLOSED
 {
+(
+*
 this
+)
 .
 outline_builder
 .
@@ -467,7 +473,10 @@ point
 in
 points
 {
+(
+*
 this
+)
 .
 outline_builder
 .
@@ -535,7 +544,10 @@ bezier
 in
 beziers
 {
+(
+*
 this
+)
 .
 outline_builder
 .

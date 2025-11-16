@@ -271,8 +271,14 @@ TextAnalysisSourceMethods
 {
 fn
 get_locale_name
+<
+'
+a
+>
 (
 &
+'
+a
 self
 text_position
 :
@@ -284,7 +290,7 @@ u32
 Cow
 <
 '
-_
+a
 str
 >
 u32
@@ -452,6 +458,9 @@ len
 <
 =
 (
+std
+:
+:
 u32
 :
 :
@@ -533,6 +542,9 @@ len
 <
 =
 (
+std
+:
+:
 u32
 :
 :
@@ -751,7 +763,6 @@ len
 1
 {
 break
-;
 }
 *
 this
