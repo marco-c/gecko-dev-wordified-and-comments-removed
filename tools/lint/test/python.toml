@@ -202,13 +202,6 @@ py
 ]
 [
 "
-test_includes
-.
-py
-"
-]
-[
-"
 test_lintpref
 .
 py
