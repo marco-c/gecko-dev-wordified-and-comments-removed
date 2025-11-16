@@ -311,8 +311,15 @@ aria
 haspopup
 =
 "
-true
+menu
 "
+aria
+-
+expanded
+=
+{
+showContextMenu
+}
 data
 -
 l10n
