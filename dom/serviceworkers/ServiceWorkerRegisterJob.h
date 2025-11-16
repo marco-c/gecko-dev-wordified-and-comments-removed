@@ -36,6 +36,10 @@ nsACString
 &
 aScope
 const
+WorkerType
+&
+aType
+const
 nsACString
 &
 aScriptSpec
@@ -49,6 +53,9 @@ aLifetimeExtension
 ;
 private
 :
+WorkerType
+mType
+;
 virtual
 void
 AsyncExecute

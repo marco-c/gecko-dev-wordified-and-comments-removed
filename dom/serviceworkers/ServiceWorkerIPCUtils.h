@@ -49,6 +49,17 @@ ServiceWorkerRegistrationBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+WorkerBinding
+.
+h
+"
 namespace
 IPC
 {

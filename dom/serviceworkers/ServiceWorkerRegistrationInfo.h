@@ -279,6 +279,8 @@ const
 nsACString
 &
 aScope
+WorkerType
+aType
 nsIPrincipal
 *
 aPrincipal
@@ -344,6 +346,12 @@ const
 nsCString
 &
 Scope
+(
+)
+const
+;
+WorkerType
+Type
 (
 )
 const

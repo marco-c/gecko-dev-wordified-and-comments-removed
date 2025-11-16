@@ -162,6 +162,10 @@ nsACString
 &
 aScopeURL
 const
+WorkerType
+&
+aType
+const
 nsACString
 &
 aScriptURL
@@ -208,6 +212,7 @@ nsCString
 (
 aScopeURL
 )
+aType
 aScriptURL
 =
 nsCString
@@ -267,6 +272,7 @@ Register
 (
 aClientInfo
 aScopeURL
+aType
 aScriptURL
 aUpdateViaCache
 )
