@@ -111,7 +111,7 @@ Relative
 }
 ;
 static
-StyleCommandEndPoint
+StyleEndPoint
 <
 float
 >
@@ -137,7 +137,7 @@ Absolute
 )
 {
 return
-StyleCommandEndPoint
+StyleEndPoint
 <
 float
 >
@@ -155,7 +155,7 @@ y
 else
 {
 return
-StyleCommandEndPoint
+StyleEndPoint
 <
 float
 >
@@ -172,7 +172,7 @@ y
 }
 }
 static
-StyleControlPoint
+StyleCurveControlPoint
 <
 float
 >
@@ -198,13 +198,13 @@ Absolute
 )
 {
 return
-StyleControlPoint
+StyleCurveControlPoint
 <
 float
 >
 :
 :
-Position
+Absolute
 (
 {
 x
@@ -216,7 +216,7 @@ y
 else
 {
 return
-StyleControlPoint
+StyleCurveControlPoint
 <
 float
 >
