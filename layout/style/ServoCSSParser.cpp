@@ -10,7 +10,7 @@ include
 "
 mozilla
 /
-AnimatedPropertyID
+CSSPropertyId
 .
 h
 "
@@ -242,7 +242,7 @@ StyleParsingMode
 aParsingMode
 )
 {
-AnimatedPropertyID
+CSSPropertyId
 property
 (
 aProperty
@@ -268,7 +268,7 @@ ServoCSSParser
 ParseProperty
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 const

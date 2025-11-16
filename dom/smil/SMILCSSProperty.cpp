@@ -15,7 +15,7 @@ include
 "
 mozilla
 /
-AnimatedPropertyID
+CSSPropertyId
 .
 h
 "
@@ -200,7 +200,7 @@ baseValue
 AnimationValue
 computedValue
 ;
-AnimatedPropertyID
+CSSPropertyId
 property
 (
 mPropId

@@ -1039,7 +1039,7 @@ oncompositor
 for
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 property
 :

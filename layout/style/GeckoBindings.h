@@ -1455,7 +1455,7 @@ const
 mozilla
 :
 :
-AnimatedPropertyID
+CSSPropertyId
 *
 aProperty
 )

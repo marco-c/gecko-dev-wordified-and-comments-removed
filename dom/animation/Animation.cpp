@@ -3952,7 +3952,7 @@ GetPropertySet
 for
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 property
 :

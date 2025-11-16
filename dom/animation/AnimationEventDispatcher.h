@@ -175,7 +175,7 @@ public
 CssAnimationOrTransitionData
 {
 const
-AnimatedPropertyID
+CSSPropertyId
 mProperty
 ;
 }
@@ -519,7 +519,7 @@ MaybeAddMarker
 AnimationEventInfo
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 const

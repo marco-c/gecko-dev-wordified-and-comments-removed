@@ -1488,11 +1488,11 @@ nsCSSPropertyIDSet
 nsCSSPropertyIDSet
 "
 "
-AnimatedPropertyID
+CSSPropertyId
 "
 =
 "
-AnimatedPropertyID
+CSSPropertyId
 "
 "
 nsCSSValueSharedList

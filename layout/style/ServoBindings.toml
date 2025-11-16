@@ -29,7 +29,7 @@ h
 "
 mozilla
 /
-AnimatedPropertyID
+CSSPropertyId
 .
 h
 "
@@ -1217,7 +1217,7 @@ DeclarationBlockMutationClosure
 mozilla
 :
 :
-AnimatedPropertyID
+CSSPropertyId
 "
 "
 mozilla

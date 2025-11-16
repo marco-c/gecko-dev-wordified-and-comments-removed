@@ -3511,7 +3511,7 @@ keyframeEffect
 >
 GetEffectiveAnimationOfProperty
 (
-AnimatedPropertyID
+CSSPropertyId
 (
 aProperty
 )

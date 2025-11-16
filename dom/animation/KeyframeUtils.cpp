@@ -47,7 +47,7 @@ include
 "
 mozilla
 /
-AnimatedPropertyID
+CSSPropertyId
 .
 h
 "
@@ -285,7 +285,7 @@ eCSSProperty_UNKNOWN
 )
 {
 }
-AnimatedPropertyID
+CSSPropertyId
 mProperty
 ;
 nsTArray
@@ -299,7 +299,7 @@ mValues
 struct
 AdditionalProperty
 {
-AnimatedPropertyID
+CSSPropertyId
 mProperty
 ;
 size_t
@@ -474,7 +474,7 @@ mComposite
 )
 {
 }
-AnimatedPropertyID
+CSSPropertyId
 mProperty
 ;
 AnimationValue
@@ -909,7 +909,7 @@ PropertyValuePair
 MakePropertyValuePair
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 const
@@ -1717,7 +1717,7 @@ KeyframeUtils
 IsAnimatableProperty
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 )
@@ -2534,7 +2534,7 @@ ForAllContent
 )
 ;
 }
-AnimatedPropertyID
+CSSPropertyId
 property
 =
 propertyId
@@ -2542,7 +2542,7 @@ propertyId
 =
 eCSSPropertyExtra_variable
 ?
-AnimatedPropertyID
+CSSPropertyId
 (
 NS_Atomize
 (
@@ -2561,7 +2561,7 @@ Length
 )
 )
 :
-AnimatedPropertyID
+CSSPropertyId
 (
 propertyId
 )
@@ -2926,7 +2926,7 @@ void
 ReportInvalidPropertyValueToConsole
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 const
@@ -3003,7 +3003,7 @@ PropertyValuePair
 MakePropertyValuePair
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 const
@@ -3661,7 +3661,7 @@ PropertyOffsetComparator
 LessThan
 )
 ;
-AnimatedPropertyID
+CSSPropertyId
 lastProperty
 (
 eCSSProperty_UNKNOWN

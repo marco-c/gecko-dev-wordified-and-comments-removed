@@ -595,7 +595,7 @@ using
 namespace
 nsStyleTransformMatrix
 ;
-AnimatedPropertyID
+CSSPropertyId
 property
 (
 eCSSProperty_UNKNOWN
@@ -786,7 +786,7 @@ AnimationValue
 SerializeSpecifiedValue
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 const
@@ -822,7 +822,7 @@ AnimationValue
 IsInterpolableWith
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 const
@@ -948,7 +948,7 @@ AnimationValue
 :
 FromString
 (
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 const

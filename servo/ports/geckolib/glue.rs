@@ -3969,7 +3969,7 @@ css_property
 structs
 :
 :
-AnimatedPropertyID
+CSSPropertyId
 segment
 :
 &
@@ -4039,7 +4039,7 @@ match
 OwnedPropertyDeclarationId
 :
 :
-from_gecko_animated_property_id
+from_gecko_css_property_id
 (
 css_property
 )
@@ -4362,7 +4362,7 @@ ret
 }
 macro_rules
 !
-get_property_id_from_animatedpropertyid
+get_property_id_from_csspropertyid
 {
 (
 property_id
@@ -4380,7 +4380,7 @@ match
 PropertyId
 :
 :
-from_gecko_animated_property_id
+from_gecko_css_property_id
 (
 property_id
 )
@@ -4427,7 +4427,7 @@ property
 structs
 :
 :
-AnimatedPropertyID
+CSSPropertyId
 raw_data
 :
 &
@@ -4475,7 +4475,7 @@ Normal
 single_value_to_css
 (
 &
-get_property_id_from_animatedpropertyid
+get_property_id_from_csspropertyid
 !
 (
 property
@@ -6514,7 +6514,7 @@ property_id
 structs
 :
 :
-AnimatedPropertyID
+CSSPropertyId
 )
 -
 >
@@ -6530,7 +6530,7 @@ match
 OwnedPropertyDeclarationId
 :
 :
-from_gecko_animated_property_id
+from_gecko_css_property_id
 (
 property_id
 )
@@ -6953,7 +6953,7 @@ prop
 structs
 :
 :
-AnimatedPropertyID
+CSSPropertyId
 behavior
 :
 computed
@@ -7024,7 +7024,7 @@ prop
 OwnedPropertyDeclarationId
 :
 :
-from_gecko_animated_property_id
+from_gecko_css_property_id
 (
 prop
 )
@@ -7307,7 +7307,7 @@ prop
 structs
 :
 :
-AnimatedPropertyID
+CSSPropertyId
 transition_value
 :
 &
@@ -7326,7 +7326,7 @@ prop
 OwnedPropertyDeclarationId
 :
 :
-from_gecko_animated_property_id
+from_gecko_css_property_id
 (
 prop
 )
@@ -7413,7 +7413,7 @@ property_id
 structs
 :
 :
-AnimatedPropertyID
+CSSPropertyId
 )
 -
 >
@@ -7429,7 +7429,7 @@ match
 OwnedPropertyDeclarationId
 :
 :
-from_gecko_animated_property_id
+from_gecko_css_property_id
 (
 property_id
 )
@@ -8183,7 +8183,7 @@ prop
 structs
 :
 :
-AnimatedPropertyID
+CSSPropertyId
 )
 -
 >
@@ -8192,7 +8192,7 @@ bool
 PropertyId
 :
 :
-from_gecko_animated_property_id
+from_gecko_css_property_id
 (
 prop
 )
@@ -26732,7 +26732,7 @@ property
 structs
 :
 :
-AnimatedPropertyID
+CSSPropertyId
 value
 :
 &
@@ -26767,7 +26767,7 @@ LockedDeclarationBlock
 let
 id
 =
-get_property_id_from_animatedpropertyid
+get_property_id_from_csspropertyid
 !
 (
 property
@@ -28160,7 +28160,7 @@ property_id
 structs
 :
 :
-AnimatedPropertyID
+CSSPropertyId
 buffer
 :
 &
@@ -28182,7 +28182,7 @@ PerDocumentStyleData
 let
 property_id
 =
-get_property_id_from_animatedpropertyid
+get_property_id_from_csspropertyid
 !
 (
 property_id
@@ -37302,7 +37302,7 @@ mProperty
 let
 id
 =
-get_property_id_from_animatedpropertyid
+get_property_id_from_csspropertyid
 !
 (
 p
@@ -37557,7 +37557,7 @@ property
 PropertyId
 :
 :
-from_gecko_animated_property_id
+from_gecko_css_property_id
 (
 &
 pair
@@ -38106,7 +38106,7 @@ match
 PropertyId
 :
 :
-from_gecko_animated_property_id
+from_gecko_css_property_id
 (
 &
 property
@@ -38386,7 +38386,7 @@ mProperty
 :
 property
 .
-to_gecko_animated_property_id
+to_gecko_css_property_id
 (
 )
 mValue
@@ -38465,7 +38465,7 @@ prop
 OwnedPropertyDeclarationId
 :
 :
-from_gecko_animated_property_id
+from_gecko_css_property_id
 (
 &
 property
@@ -38827,7 +38827,7 @@ mut
 structs
 :
 :
-AnimatedPropertyID
+CSSPropertyId
 )
 {
 *
@@ -38839,7 +38839,7 @@ id
 (
 )
 .
-to_gecko_animated_property_id
+to_gecko_css_property_id
 (
 )
 ;
@@ -39360,7 +39360,7 @@ mProperty
 :
 id
 .
-to_gecko_animated_property_id
+to_gecko_css_property_id
 (
 )
 mServoDeclarationBlock
