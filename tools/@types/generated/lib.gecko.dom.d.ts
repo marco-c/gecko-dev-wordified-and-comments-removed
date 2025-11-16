@@ -12904,6 +12904,11 @@ scope
 :
 string
 ;
+type
+?
+:
+WorkerType
+;
 updateViaCache
 ?
 :
@@ -111732,7 +111737,7 @@ SVGSwitchElement
 interface
 SVGSymbolElement
 extends
-SVGElement
+SVGGraphicsElement
 SVGFitToViewBox
 SVGTests
 {
