@@ -2802,11 +2802,6 @@ GetX11Window
 )
 ;
 void
-EnsureGdkWindow
-(
-)
-;
-void
 SetUrgencyHint
 (
 GtkWidget
@@ -3038,6 +3033,12 @@ mGdkWindow
 =
 nullptr
 ;
+void
+*
+mEGLWindow
+=
+nullptr
+;
 #
 ifdef
 MOZ_WAYLAND
@@ -3246,12 +3247,6 @@ bool
 mDrawInTitlebar
 =
 false
-;
-mozilla
-:
-:
-Mutex
-mWindowVisibilityMutex
 ;
 mozilla
 :
