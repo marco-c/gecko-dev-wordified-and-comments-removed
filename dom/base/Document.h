@@ -15645,12 +15645,6 @@ nsString
 >
 mShadowedHTMLDocumentProperties
 ;
-nsTArray
-<
-nsString
->
-mShadowedHTMLFormElementProperties
-;
 PageloadEventData
 mPageloadEventData
 ;
