@@ -11823,11 +11823,6 @@ the
 apz
 .
 allow_zooming
-apz
-.
-windows
-.
-use_direct_manipulation
 or
 apz
 .
