@@ -307,6 +307,7 @@ os
 win
 '
 "
+]
 #
 Windows
 -
@@ -315,7 +316,6 @@ handler
 application
 selection
 dialog
-]
 [
 "
 browser_checkspelling
@@ -508,7 +508,7 @@ os_version
 '
 &
 &
-arch
+processor
 =
 =
 '
@@ -537,7 +537,7 @@ os_version
 '
 &
 &
-arch
+processor
 =
 =
 '
@@ -569,11 +569,11 @@ os_version
 '
 &
 &
-arch
+processor
 =
 =
 '
-x86
+x86_64
 '
 "
 #
@@ -598,11 +598,11 @@ os_version
 '
 &
 &
-arch
+processor
 =
 =
 '
-x86_64
+x86
 '
 "
 #
@@ -794,6 +794,7 @@ if
 "
 a11y_checks
 "
+]
 #
 Bug
 1854636
@@ -805,7 +806,6 @@ may
 not
 be
 focusable
-]
 [
 "
 browser_moreFromMozilla
@@ -983,7 +983,7 @@ os_version
 '
 &
 &
-arch
+processor
 =
 =
 '
@@ -993,10 +993,10 @@ x86_64
 &
 tsan
 "
+]
 #
 Bug
 1984525
-]
 [
 "
 browser_privacy_allowListPreference_dialog
@@ -1203,6 +1203,7 @@ if
 "
 a11y_checks
 "
+]
 #
 Bug
 1854636
@@ -1214,7 +1215,6 @@ may
 not
 be
 focusable
-]
 [
 "
 browser_search_firefoxSuggest
@@ -1265,10 +1265,10 @@ if
 "
 tsan
 "
+]
 #
 Bug
 1678829
-]
 [
 "
 browser_search_subdialogs_within_preferences_2
@@ -1397,13 +1397,6 @@ js
 [
 "
 browser_setting_group_in_progress
-.
-js
-"
-]
-[
-"
-browser_setting_pane_sub_pane
 .
 js
 "
