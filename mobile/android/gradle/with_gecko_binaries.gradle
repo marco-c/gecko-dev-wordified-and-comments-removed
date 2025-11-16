@@ -697,6 +697,10 @@ dependsOn
 jarTask
 dependsOn
 annotationProcessorsJarTask
+dependsOn
+rootProject
+.
+verifyGleanVersion
 }
 }
 }
