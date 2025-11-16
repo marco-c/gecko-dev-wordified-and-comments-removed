@@ -839,7 +839,7 @@ any
 *
 param
 {
-OriginAttributesDictionary
+object
 }
 [
 originAttributes

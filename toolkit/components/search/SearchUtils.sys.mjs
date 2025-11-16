@@ -2582,12 +2582,6 @@ service
 .
 *
 *
-template
-{
-SearchEngine
-}
-T
-*
 param
 {
 object
@@ -2603,7 +2597,7 @@ function
 *
 param
 {
-T
+SearchEngine
 [
 ]
 }
@@ -2694,7 +2688,7 @@ sorting
 *
 returns
 {
-T
+SearchEngine
 [
 ]
 }
@@ -2729,7 +2723,7 @@ appLocaleAsBCP47
 *
 type
 {
-T
+SearchEngine
 [
 ]
 }
