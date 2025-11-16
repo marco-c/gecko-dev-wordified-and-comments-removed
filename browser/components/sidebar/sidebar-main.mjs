@@ -2844,7 +2844,7 @@ _unpinExtensionMenuItem
 .
 hidden
 =
-false
+true
 ;
 this
 .
