@@ -344,6 +344,13 @@ js
 ]
 [
 "
+test_BackupService_wrongPassword
+.
+js
+"
+]
+[
+"
 test_CookiesBackupResource
 .
 js
