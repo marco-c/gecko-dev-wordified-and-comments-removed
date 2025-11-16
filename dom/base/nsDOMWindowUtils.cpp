@@ -2591,10 +2591,10 @@ presShell
 >
 PaintAndRequestComposite
 (
-view
+presShell
 -
 >
-GetFrame
+GetRootFrame
 (
 )
 view
