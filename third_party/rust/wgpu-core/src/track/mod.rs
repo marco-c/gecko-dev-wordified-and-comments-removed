@@ -2537,7 +2537,7 @@ new
 }
 pub
 fn
-set_from_bind_group
+set_and_remove_from_usage_scope_sparse
 (
 &
 mut
@@ -2557,7 +2557,7 @@ self
 .
 buffers
 .
-set_multiple
+set_and_remove_from_usage_scope_sparse
 (
 &
 mut
@@ -2577,7 +2577,7 @@ self
 .
 textures
 .
-set_multiple
+set_and_remove_from_usage_scope_sparse
 (
 &
 mut
