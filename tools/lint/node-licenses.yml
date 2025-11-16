@@ -84,14 +84,6 @@ mozilla
 package
 .
 json
--
-tools
-/
-terser
-/
-package
-.
-json
 exclude
 :
 [

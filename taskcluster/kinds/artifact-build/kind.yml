@@ -246,12 +246,6 @@ use
 python
 :
 default
-fetches
-:
-toolchain
-:
--
-terser
 tasks
 :
 linux64
