@@ -2851,6 +2851,10 @@ removeEngine
 in
 nsISearchEngine
 engine
+in
+unsigned
+short
+changeReason
 )
 ;
 /
