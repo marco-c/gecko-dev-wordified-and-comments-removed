@@ -603,7 +603,7 @@ NimbusTestUtils
 .
 migrationState
 .
-IMPORTED_ENROLLMENTS_TO_SQL
+LATEST
 }
 )
 ;
@@ -4581,7 +4581,7 @@ NimbusTestUtils
 .
 migrationState
 .
-IMPORTED_ENROLLMENTS_TO_SQL
+LATEST
 }
 )
 ;
@@ -4909,7 +4909,7 @@ NimbusTestUtils
 .
 migrationState
 .
-IMPORTED_ENROLLMENTS_TO_SQL
+LATEST
 }
 )
 ;

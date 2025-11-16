@@ -292,7 +292,7 @@ NimbusTestUtils
 .
 migrationState
 .
-IMPORTED_ENROLLMENTS_TO_SQL
+LATEST
 }
 )
 ;
@@ -554,6 +554,13 @@ control
 ;
 }
 )
+migrationState
+:
+NimbusTestUtils
+.
+migrationState
+.
+UNMIGRATED
 }
 )
 ;

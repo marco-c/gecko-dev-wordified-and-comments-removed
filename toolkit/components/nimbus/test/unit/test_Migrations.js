@@ -4083,6 +4083,13 @@ false
 experiments
 :
 recipes
+migrationState
+:
+NimbusTestUtils
+.
+migrationState
+.
+UNMIGRATED
 migrations
 :
 {
@@ -7005,6 +7012,13 @@ setupTest
 storePath
 experiments
 secureExperiments
+migrationState
+:
+NimbusTestUtils
+.
+migrationState
+.
+UNMIGRATED
 migrations
 :
 {
