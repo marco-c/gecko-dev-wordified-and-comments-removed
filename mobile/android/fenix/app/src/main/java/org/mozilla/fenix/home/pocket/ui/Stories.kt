@@ -644,6 +644,14 @@ val
 SPONSORED_MAX_LINES
 =
 2
+private
+const
+val
+ACCESSIBILITY_MAX_LINES_SCALE_FACTOR
+=
+1
+.
+2f
 /
 *
 *
@@ -2491,9 +2499,7 @@ current
 fontScale
 <
 =
-1
-.
-0f
+ACCESSIBILITY_MAX_LINES_SCALE_FACTOR
 private
 class
 StoryProvider
