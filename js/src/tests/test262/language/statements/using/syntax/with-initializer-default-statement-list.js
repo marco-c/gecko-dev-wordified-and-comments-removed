@@ -15,9 +15,3 @@ x
 null
 ;
 }
-reportCompare
-(
-0
-0
-)
-;

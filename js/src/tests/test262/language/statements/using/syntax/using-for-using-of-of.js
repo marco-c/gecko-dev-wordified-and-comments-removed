@@ -38,7 +38,7 @@ using
 )
 ;
 }
-asserts
+assert
 .
 sameValue
 (
@@ -48,7 +48,7 @@ length
 1
 )
 ;
-asserts
+assert
 .
 sameValue
 (

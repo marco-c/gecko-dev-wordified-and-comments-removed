@@ -227,9 +227,9 @@ nextCalls
 0
 ;
 var
-closed
+returnCalls
 =
-false
+0
 ;
 var
 iterator
@@ -262,9 +262,9 @@ function
 (
 )
 {
-closed
-=
-true
++
++
+returnCalls
 ;
 return
 {
@@ -332,8 +332,8 @@ assert
 .
 sameValue
 (
-closed
-true
+returnCalls
+1
 )
 ;
 reportCompare
