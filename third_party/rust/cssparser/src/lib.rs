@@ -297,7 +297,15 @@ unicode_range
 [
 cfg
 (
+all
+(
 test
+target_pointer_width
+=
+"
+64
+"
+)
 )
 ]
 mod

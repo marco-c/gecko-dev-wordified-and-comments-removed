@@ -3860,8 +3860,17 @@ start
 ;
 input
 .
-look_for_var_or_env_functions
+look_for_arbitrary_substitution_functions
 (
+&
+[
+"
+var
+"
+"
+env
+"
+]
 )
 ;
 let
@@ -3884,7 +3893,7 @@ Ok
 {
 input
 .
-seen_var_or_env_functions
+seen_arbitrary_substitution_functions
 (
 )
 ;
@@ -3996,7 +4005,7 @@ if
 !
 input
 .
-seen_var_or_env_functions
+seen_arbitrary_substitution_functions
 (
 )
 |

@@ -342,10 +342,12 @@ lit
 )
 =
 >
+{
 get_byte_from_lit
 (
 lit
 )
+}
 _
 =
 >
@@ -402,6 +404,7 @@ u8
 match
 pat
 {
+&
 syn
 :
 :
@@ -454,6 +457,7 @@ case_id
 ;
 }
 }
+&
 syn
 :
 :
@@ -483,6 +487,7 @@ lo
 =
 get_byte_from_expr_lit
 (
+&
 start
 .
 as_ref
@@ -499,6 +504,7 @@ hi
 =
 get_byte_from_expr_lit
 (
+&
 end
 .
 as_ref
@@ -562,6 +568,7 @@ case_id
 ;
 }
 }
+&
 syn
 :
 :
@@ -599,6 +606,7 @@ case_id
 }
 }
 }
+&
 syn
 :
 :
@@ -661,6 +669,7 @@ case_id
 }
 }
 }
+&
 syn
 :
 :
@@ -1035,9 +1044,9 @@ format
 "
 Case
 {
-case_id
 }
 "
+case_id
 )
 arm
 .
@@ -1182,9 +1191,9 @@ Case
 :
 Case
 {
-entry
 }
 "
+entry
 )
 )
 .
