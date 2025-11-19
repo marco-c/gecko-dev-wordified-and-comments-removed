@@ -93,7 +93,7 @@ lib
 .
 state
 .
-UiStore
+Store
 internal
 class
 StartupCrashStore
@@ -128,7 +128,7 @@ listOf
 )
 )
 :
-UiStore
+Store
 <
 StartupCrashState
 StartupCrashAction

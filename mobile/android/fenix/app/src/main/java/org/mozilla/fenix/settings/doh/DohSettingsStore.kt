@@ -101,7 +101,7 @@ lib
 .
 state
 .
-UiStore
+Store
 import
 org
 .
@@ -372,7 +372,7 @@ LifecycleHolder
 null
 )
 :
-UiStore
+Store
 <
 DohSettingsState
 DohSettingsAction

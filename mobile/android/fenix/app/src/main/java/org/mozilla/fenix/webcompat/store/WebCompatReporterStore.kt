@@ -141,7 +141,7 @@ lib
 .
 state
 .
-UiStore
+Store
 import
 org
 .
@@ -1193,7 +1193,7 @@ include
 *
 A
 [
-UiStore
+Store
 ]
 that
 holds
@@ -1245,7 +1245,7 @@ listOf
 )
 )
 :
-UiStore
+Store
 <
 WebCompatReporterState
 WebCompatReporterAction

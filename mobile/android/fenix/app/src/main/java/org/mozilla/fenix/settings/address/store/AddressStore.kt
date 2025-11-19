@@ -87,7 +87,7 @@ lib
 .
 state
 .
-UiStore
+Store
 /
 *
 *
@@ -151,7 +151,7 @@ AddressAction
 >
 )
 :
-UiStore
+Store
 <
 AddressState
 AddressAction

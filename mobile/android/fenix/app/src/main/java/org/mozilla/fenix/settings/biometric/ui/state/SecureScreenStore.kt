@@ -89,7 +89,7 @@ lib
 .
 state
 .
-UiStore
+Store
 /
 *
 *
@@ -148,7 +148,7 @@ SecureScreenAction
 secureScreenReducer
 )
 :
-UiStore
+Store
 <
 SecureScreenState
 SecureScreenAction

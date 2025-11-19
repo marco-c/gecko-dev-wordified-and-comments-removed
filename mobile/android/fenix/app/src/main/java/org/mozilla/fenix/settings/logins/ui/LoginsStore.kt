@@ -97,7 +97,7 @@ lib
 .
 state
 .
-UiStore
+Store
 import
 org
 .
@@ -229,7 +229,7 @@ LifecycleHolder
 null
 )
 :
-UiStore
+Store
 <
 LoginsState
 LoginsAction

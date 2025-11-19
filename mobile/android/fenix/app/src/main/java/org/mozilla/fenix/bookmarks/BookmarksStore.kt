@@ -105,7 +105,7 @@ lib
 .
 state
 .
-UiStore
+Store
 import
 org
 .
@@ -360,7 +360,7 @@ String
 null
 )
 :
-UiStore
+Store
 <
 BookmarksState
 BookmarksAction

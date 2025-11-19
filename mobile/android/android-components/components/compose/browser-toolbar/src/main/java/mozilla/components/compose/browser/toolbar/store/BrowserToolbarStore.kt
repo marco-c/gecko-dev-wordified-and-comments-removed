@@ -229,13 +229,13 @@ lib
 .
 state
 .
-UiStore
+Store
 /
 *
 *
 *
 [
-UiStore
+Store
 ]
 for
 maintaining
@@ -275,7 +275,7 @@ emptyList
 )
 )
 :
-UiStore
+Store
 <
 BrowserToolbarState
 BrowserToolbarAction

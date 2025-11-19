@@ -105,7 +105,7 @@ lib
 .
 state
 .
-UiStore
+Store
 /
 *
 *
@@ -616,7 +616,7 @@ newPing
 *
 A
 [
-UiStore
+Store
 ]
 that
 holds
@@ -665,7 +665,7 @@ emptyList
 )
 )
 :
-UiStore
+Store
 <
 GleanDebugToolsState
 GleanDebugToolsAction

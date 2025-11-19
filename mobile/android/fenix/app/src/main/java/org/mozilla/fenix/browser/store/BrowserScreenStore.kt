@@ -105,7 +105,7 @@ lib
 .
 state
 .
-UiStore
+Store
 import
 org
 .
@@ -209,7 +209,7 @@ ReaderModeStatusUpdated
 *
 *
 [
-UiStore
+Store
 ]
 for
 the
@@ -267,7 +267,7 @@ emptyList
 )
 )
 :
-UiStore
+Store
 <
 BrowserScreenState
 BrowserScreenAction

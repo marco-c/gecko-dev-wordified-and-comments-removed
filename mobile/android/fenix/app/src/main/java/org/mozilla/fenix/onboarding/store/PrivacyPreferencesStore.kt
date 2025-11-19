@@ -105,7 +105,7 @@ lib
 .
 state
 .
-UiStore
+Store
 /
 *
 *
@@ -449,7 +449,7 @@ enabled
 *
 A
 [
-UiStore
+Store
 ]
 that
 holds
@@ -501,7 +501,7 @@ emptyList
 )
 )
 :
-UiStore
+Store
 <
 PrivacyPreferencesState
 PrivacyPreferencesAction

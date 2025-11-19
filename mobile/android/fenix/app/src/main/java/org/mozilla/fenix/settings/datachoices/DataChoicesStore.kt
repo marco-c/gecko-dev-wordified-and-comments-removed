@@ -95,7 +95,7 @@ lib
 .
 state
 .
-UiStore
+Store
 internal
 class
 DataChoicesStore
@@ -130,7 +130,7 @@ listOf
 )
 )
 :
-UiStore
+Store
 <
 DataChoicesState
 DataChoicesAction

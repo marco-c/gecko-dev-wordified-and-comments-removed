@@ -105,7 +105,7 @@ lib
 .
 state
 .
-UiStore
+Store
 /
 *
 *
@@ -928,7 +928,7 @@ newValue
 *
 A
 [
-UiStore
+Store
 ]
 that
 holds
@@ -980,7 +980,7 @@ emptyList
 )
 )
 :
-UiStore
+Store
 <
 CfrToolsState
 CfrToolsAction
