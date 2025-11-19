@@ -489,6 +489,11 @@ TermsOfUsePromptState
 class
 TermsOfUsePromptStore
 (
+initialState
+:
+TermsOfUsePromptState
+=
+TermsOfUsePromptState
 middleware
 :
 List
@@ -509,7 +514,7 @@ TermsOfUsePromptAction
 (
 initialState
 =
-TermsOfUsePromptState
+initialState
 reducer
 =
 {

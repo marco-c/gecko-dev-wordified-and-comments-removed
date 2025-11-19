@@ -372,6 +372,13 @@ store
 class
 OnboardingStore
 (
+initialState
+:
+OnboardingState
+=
+OnboardingState
+(
+)
 middleware
 :
 List
@@ -396,9 +403,7 @@ OnboardingAction
 (
 initialState
 =
-OnboardingState
-(
-)
+initialState
 reducer
 =
 :
