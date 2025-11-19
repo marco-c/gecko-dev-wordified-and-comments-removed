@@ -1,5 +1,5 @@
 const
-MozButton
+MozButtonClass
 =
 customElements
 .
@@ -13,7 +13,7 @@ button
 class
 HighlightableButton
 extends
-MozButton
+MozButtonClass
 {
 static
 get
@@ -74,6 +74,9 @@ var
 gSearchResultsPane
 =
 {
+query
+:
+undefined
 listSearchTooltips
 :
 new
@@ -87,6 +90,9 @@ Set
 (
 )
 searchInput
+:
+null
+searchTooltipContainer
 :
 null
 searchKeywords
@@ -157,6 +163,7 @@ this
 .
 searchInput
 =
+(
 document
 .
 getElementById
@@ -165,11 +172,13 @@ getElementById
 searchInput
 "
 )
+)
 ;
 this
 .
 searchTooltipContainer
 =
+(
 document
 .
 getElementById
@@ -181,6 +190,7 @@ tooltip
 -
 container
 "
+)
 )
 ;
 window
