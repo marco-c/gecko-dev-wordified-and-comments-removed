@@ -189,13 +189,10 @@ class
 AddressMiddleware
 (
 private
-var
+val
 environment
 :
 AddressEnvironment
-?
-=
-null
 private
 val
 scope
@@ -254,15 +251,6 @@ action
 )
 {
 is
-EnvironmentRehydrated
--
->
-environment
-=
-action
-.
-environment
-is
 SaveTapped
 -
 >
@@ -278,7 +266,6 @@ guidToUpdate
 let
 {
 environment
-?
 .
 updateAddress
 (
@@ -302,7 +289,6 @@ add
 run
 {
 environment
-?
 .
 createAddress
 (
@@ -339,7 +325,6 @@ guidToUpdate
 also
 {
 environment
-?
 .
 deleteAddress
 (
@@ -359,7 +344,6 @@ CancelTapped
 -
 >
 environment
-?
 .
 navigateBack
 (
@@ -408,7 +392,6 @@ Main
 )
 {
 environment
-?
 .
 navigateBack
 (
