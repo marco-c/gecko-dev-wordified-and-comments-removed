@@ -185,11 +185,14 @@ arena_t
 *
 mArena
 ;
-RedBlackTreeNode
+mozilla
+:
+:
+DoublyLinkedListElement
 <
 arena_chunk_t
 >
-mLinkDirty
+mChunksDirtyElim
 ;
 #
 ifdef
