@@ -282,6 +282,16 @@ enableOverride
 identity
 -
 box
+{
+margin
+-
+inline
+-
+end
+:
+0
+;
+&
 [
 pageproxystate
 =
@@ -294,6 +304,7 @@ display
 :
 none
 ;
+}
 }
 }
 .
@@ -2445,6 +2456,12 @@ chromeUI
 .
 extensionPage
 )
+#
+identity
+-
+icon
+-
+box
 {
 display
 :
