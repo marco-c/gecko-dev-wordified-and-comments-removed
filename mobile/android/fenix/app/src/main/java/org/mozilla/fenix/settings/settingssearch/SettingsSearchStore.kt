@@ -389,6 +389,10 @@ is
 SettingsSearchAction
 .
 EnvironmentCleared
+is
+SettingsSearchAction
+.
+EnvironmentRehydrated
 -
 >
 state

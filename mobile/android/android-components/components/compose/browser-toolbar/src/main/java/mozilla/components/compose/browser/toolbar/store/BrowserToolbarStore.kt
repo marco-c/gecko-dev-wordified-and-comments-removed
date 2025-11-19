@@ -248,6 +248,7 @@ toolbar
 .
 *
 /
+open
 class
 BrowserToolbarStore
 (
@@ -753,6 +754,10 @@ action
 config
 )
 )
+is
+EnvironmentRehydrated
+is
+EnvironmentCleared
 is
 BrowserToolbarEvent
 -
