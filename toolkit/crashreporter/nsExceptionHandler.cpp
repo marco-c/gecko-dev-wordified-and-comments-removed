@@ -6881,7 +6881,7 @@ ProcessCreation
 )
 )
 .
-ToSecondsSigDigits
+ToSeconds
 (
 )
 ;
@@ -12135,7 +12135,7 @@ ProcessCreation
 )
 )
 .
-ToSecondsSigDigits
+ToSeconds
 (
 )
 ;
