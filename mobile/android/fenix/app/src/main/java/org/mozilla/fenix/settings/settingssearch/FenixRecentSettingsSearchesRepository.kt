@@ -267,11 +267,6 @@ summary
 protoItem
 .
 summary
-breadcrumbs
-=
-protoItem
-.
-breadcrumbsList
 categoryHeader
 =
 "
@@ -379,13 +374,6 @@ setSummary
 item
 .
 summary
-)
-.
-addAllBreadcrumbs
-(
-item
-.
-breadcrumbs
 )
 .
 setXmlResourceId
