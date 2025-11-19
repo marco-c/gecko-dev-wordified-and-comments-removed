@@ -1470,6 +1470,17 @@ wantUntrusted
 :
 true
 }
+"
+BackupUI
+:
+ErrorBarDismissed
+"
+:
+{
+wantUntrusted
+:
+true
+}
 }
 }
 includeChrome
