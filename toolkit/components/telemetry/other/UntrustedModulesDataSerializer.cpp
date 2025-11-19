@@ -1841,7 +1841,7 @@ aData
 .
 mElapsed
 .
-ToSecondsSigDigits
+ToSeconds
 (
 )
 )

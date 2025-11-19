@@ -1634,7 +1634,7 @@ data
 .
 mElapsed
 .
-ToSecondsSigDigits
+ToSeconds
 (
 )
 )
