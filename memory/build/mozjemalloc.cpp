@@ -6588,7 +6588,7 @@ mIsPurgePending
 false
 ;
 return
-ReachedThreshold
+ReachedThresholdOrBusy
 ;
 }
 if
@@ -6636,7 +6636,7 @@ mIsPurgePending
 false
 ;
 return
-Busy
+ReachedThresholdOrBusy
 ;
 }
 MOZ_ASSERT
@@ -6829,7 +6829,7 @@ continue_purge_arena
 ?
 NotDone
 :
-ReachedThreshold
+ReachedThresholdOrBusy
 ;
 }
 #
@@ -7020,7 +7020,7 @@ continue_purge_arena
 ?
 NotDone
 :
-ReachedThreshold
+ReachedThresholdOrBusy
 ;
 }
 ArenaPurgeResult

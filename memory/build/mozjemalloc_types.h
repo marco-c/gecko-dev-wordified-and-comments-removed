@@ -417,9 +417,8 @@ TagFreedPage
 enum
 ArenaPurgeResult
 {
-ReachedThreshold
+ReachedThresholdOrBusy
 NotDone
-Busy
 Dying
 }
 ;
