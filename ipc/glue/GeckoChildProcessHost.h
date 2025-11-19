@@ -1088,7 +1088,7 @@ sMutex
 ;
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 GetIPCLauncher
 (

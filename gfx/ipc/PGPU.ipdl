@@ -485,11 +485,6 @@ features
 uint32_t
 wrNamespace
 )
-returns
-(
-GPUDeviceData
-data
-)
 ;
 async
 InitCompositorManager
@@ -801,6 +796,13 @@ CrashProcess
 ;
 child
 :
+async
+InitComplete
+(
+GPUDeviceData
+data
+)
+;
 async
 ReportCheckerboard
 (
