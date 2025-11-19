@@ -1848,7 +1848,7 @@ endif
 static
 void
 *
-chunk_alloc_mmap_slow
+pages_mmap_aligned_slow
 (
 size_t
 size
@@ -1950,7 +1950,7 @@ ret
 static
 void
 *
-chunk_alloc_mmap
+pages_mmap_aligned
 (
 size_t
 size
@@ -2006,7 +2006,7 @@ size
 )
 ;
 return
-chunk_alloc_mmap_slow
+pages_mmap_aligned_slow
 (
 size
 alignment
@@ -3095,7 +3095,7 @@ ret
 {
 ret
 =
-chunk_alloc_mmap
+pages_mmap_aligned
 (
 aSize
 aAlignment
