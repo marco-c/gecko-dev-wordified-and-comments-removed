@@ -11713,7 +11713,7 @@ requiresRefresh
 =
 g
 .
-browser
+containingWindow
 .
 browsingContext
 .
