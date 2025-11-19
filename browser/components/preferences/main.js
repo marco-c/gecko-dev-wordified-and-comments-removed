@@ -4843,9 +4843,10 @@ val
 }
 )
 ;
-let
-SETTINGS_CONFIG
-=
+SettingGroupManager
+.
+registerGroups
+(
 {
 containers
 :
@@ -10190,6 +10191,7 @@ desc
 ]
 }
 }
+)
 ;
 function
 initSettingGroup
@@ -10219,10 +10221,12 @@ id
 const
 config
 =
-SETTINGS_CONFIG
-[
+SettingGroupManager
+.
+get
+(
 id
-]
+)
 ;
 if
 (
