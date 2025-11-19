@@ -1649,7 +1649,7 @@ aValue
 )
 final
 {
-Servo_DeclarationBlock_GetPropertyValueById
+Servo_DeclarationBlock_GetPropertyValueByNonCustomId
 (
 mRaw
 aId

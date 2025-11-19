@@ -691,7 +691,7 @@ aValue
 )
 const
 {
-Servo_DeclarationBlock_GetPropertyValueById
+Servo_DeclarationBlock_GetPropertyValueByNonCustomId
 (
 mRaw
 aPropId

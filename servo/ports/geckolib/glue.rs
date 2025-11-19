@@ -28660,13 +28660,13 @@ extern
 C
 "
 fn
-Servo_DeclarationBlock_GetPropertyValueById
+Servo_DeclarationBlock_GetPropertyValueByNonCustomId
 (
 declarations
 :
 &
 LockedDeclarationBlock
-property
+property_id
 :
 NonCustomCSSPropertyId
 value
@@ -28682,7 +28682,7 @@ declarations
 get_property_id_from_noncustomcsspropertyid
 !
 (
-property
+property_id
 (
 )
 )
