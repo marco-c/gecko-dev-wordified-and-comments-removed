@@ -262,11 +262,6 @@ value
 "
 cta_paragraph
 "
-role
-=
-"
-link
-"
 >
 {
 "
@@ -335,6 +330,11 @@ tabIndex
 =
 "
 0
+"
+role
+=
+"
+link
 "
 >
 <
