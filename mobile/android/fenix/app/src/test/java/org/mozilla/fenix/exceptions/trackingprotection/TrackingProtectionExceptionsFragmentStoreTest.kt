@@ -157,10 +157,6 @@ newExceptionsItem
 )
 )
 )
-.
-join
-(
-)
 assertNotSame
 (
 initialState

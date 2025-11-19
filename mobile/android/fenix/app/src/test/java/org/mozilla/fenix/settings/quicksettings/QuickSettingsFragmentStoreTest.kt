@@ -1981,10 +1981,6 @@ updatedMicrophoneStatus
 updatedMicrophoneEnabledStatus
 )
 )
-.
-join
-(
-)
 assertNotNull
 (
 store

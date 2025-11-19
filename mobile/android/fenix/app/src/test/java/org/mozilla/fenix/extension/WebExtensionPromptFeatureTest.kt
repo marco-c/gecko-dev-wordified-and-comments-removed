@@ -512,10 +512,6 @@ mockk
 )
 )
 )
-.
-joinBlocking
-(
-)
 verify
 {
 webExtensionPromptFeature
@@ -1526,10 +1522,6 @@ mockk
 )
 )
 )
-)
-.
-joinBlocking
-(
 )
 verify
 {

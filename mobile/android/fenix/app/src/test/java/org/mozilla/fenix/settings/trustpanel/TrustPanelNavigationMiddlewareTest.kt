@@ -334,10 +334,6 @@ Navigate
 .
 PrivacySecuritySettings
 )
-.
-join
-(
-)
 verify
 {
 navController
@@ -397,10 +393,6 @@ PhoneFeature
 .
 CAMERA
 )
-)
-.
-join
-(
 )
 verify
 {

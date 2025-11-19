@@ -222,10 +222,6 @@ Select
 otherLocale
 )
 )
-.
-join
-(
-)
 assertEquals
 (
 otherLocale
@@ -261,10 +257,6 @@ Search
 Eng
 "
 )
-)
-.
-join
-(
 )
 assertEquals
 (
@@ -322,10 +314,6 @@ Eng
 "
 )
 )
-.
-join
-(
-)
 assertEquals
 (
 2
@@ -350,10 +338,6 @@ fr
 "
 )
 )
-.
-join
-(
-)
 localeSettingsStore
 .
 dispatch
@@ -364,10 +348,6 @@ Select
 (
 otherLocale
 )
-)
-.
-join
-(
 )
 assertEquals
 (

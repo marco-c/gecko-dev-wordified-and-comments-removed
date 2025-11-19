@@ -228,10 +228,6 @@ branches
 selectedBranch
 )
 )
-.
-join
-(
-)
 assertEquals
 (
 branches
@@ -307,10 +303,6 @@ UpdateSelectedBranch
 (
 selectedBranch
 )
-)
-.
-join
-(
 )
 assertEquals
 (

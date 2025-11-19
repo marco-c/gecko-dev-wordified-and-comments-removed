@@ -4637,10 +4637,6 @@ EngineAction
 .
 PurgeHistoryAction
 )
-.
-join
-(
-)
 historyStore
 .
 dispatch

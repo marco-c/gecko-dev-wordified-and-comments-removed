@@ -2409,10 +2409,6 @@ US
 )
 )
 )
-.
-joinBlocking
-(
-)
 controller
 .
 handleSelectTopSite
@@ -2656,10 +2652,6 @@ FR
 "
 )
 )
-)
-.
-joinBlocking
-(
 )
 controller
 .
@@ -3160,10 +3152,6 @@ US
 )
 )
 )
-.
-joinBlocking
-(
-)
 controller
 .
 handleSelectTopSite
@@ -3405,10 +3393,6 @@ FR
 "
 )
 )
-)
-.
-joinBlocking
-(
 )
 controller
 .
@@ -3652,10 +3636,6 @@ US
 )
 )
 )
-.
-joinBlocking
-(
-)
 controller
 .
 handleSelectTopSite
@@ -3897,10 +3877,6 @@ FR
 "
 )
 )
-)
-.
-joinBlocking
-(
 )
 controller
 .

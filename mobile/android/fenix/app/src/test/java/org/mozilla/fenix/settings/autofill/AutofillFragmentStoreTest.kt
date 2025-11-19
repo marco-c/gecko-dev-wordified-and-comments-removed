@@ -213,10 +213,6 @@ UpdateCreditCards
 creditCards
 )
 )
-.
-join
-(
-)
 assertEquals
 (
 creditCards
@@ -293,10 +289,6 @@ UpdateAddresses
 (
 addresses
 )
-)
-.
-join
-(
 )
 assertEquals
 (

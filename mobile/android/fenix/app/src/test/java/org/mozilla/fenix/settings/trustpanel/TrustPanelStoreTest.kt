@@ -354,10 +354,6 @@ TrustPanelAction
 .
 ToggleTrackingProtection
 )
-.
-join
-(
-)
 assertFalse
 (
 store
@@ -412,10 +408,6 @@ UpdateNumberOfTrackersBlocked
 (
 1
 )
-)
-.
-join
-(
 )
 assertEquals
 (
@@ -477,10 +469,6 @@ UpdateBaseDomain
 baseDomain
 )
 )
-.
-join
-(
-)
 assertEquals
 (
 store
@@ -540,10 +528,6 @@ UpdateDetailedTrackerCategory
 (
 trackerCategory
 )
-)
-.
-join
-(
 )
 assertEquals
 (
@@ -1424,10 +1408,6 @@ UpdateSitePermissions
 newSitePermissions
 )
 )
-.
-join
-(
-)
 assertEquals
 (
 store
@@ -1519,10 +1499,6 @@ PhoneFeature
 .
 CAMERA
 )
-)
-.
-join
-(
 )
 assertEquals
 (
@@ -1626,10 +1602,6 @@ PhoneFeature
 CAMERA
 )
 )
-.
-join
-(
-)
 assertEquals
 (
 (
@@ -1730,10 +1702,6 @@ AutoplayValue
 .
 AUTOPLAY_ALLOW_ALL
 )
-)
-.
-join
-(
 )
 assertEquals
 (

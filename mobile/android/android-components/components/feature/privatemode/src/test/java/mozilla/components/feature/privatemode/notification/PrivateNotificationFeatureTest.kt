@@ -469,10 +469,6 @@ AddTabAction
 privateSession
 )
 )
-.
-join
-(
-)
 feature
 .
 start
@@ -602,10 +598,6 @@ AddTabAction
 privateSession
 )
 )
-.
-join
-(
-)
 verify
 (
 context
@@ -689,10 +681,6 @@ AddTabAction
 privateSession1
 )
 )
-.
-join
-(
-)
 store
 .
 dispatch
@@ -703,10 +691,6 @@ AddTabAction
 (
 privateSession2
 )
-)
-.
-join
-(
 )
 verify
 (
@@ -803,10 +787,6 @@ AddTabAction
 normalSession
 )
 )
-.
-join
-(
-)
 verify
 (
 context
@@ -831,10 +811,6 @@ AddCustomTabAction
 (
 customSession
 )
-)
-.
-join
-(
 )
 verify
 (
@@ -951,10 +927,6 @@ AddCustomTabAction
 privateCustomSession
 )
 )
-.
-join
-(
-)
 verify
 (
 context
@@ -979,10 +951,6 @@ AddCustomTabAction
 (
 customSession
 )
-)
-.
-join
-(
 )
 verify
 (

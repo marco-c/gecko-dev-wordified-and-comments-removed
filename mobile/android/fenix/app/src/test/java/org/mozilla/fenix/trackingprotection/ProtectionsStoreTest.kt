@@ -175,10 +175,6 @@ FINGERPRINTERS
 true
 )
 )
-.
-join
-(
-)
 assertNotSame
 (
 initialState
@@ -247,10 +243,6 @@ dispatch
 ProtectionsAction
 .
 ExitDetailsMode
-)
-.
-join
-(
 )
 assertNotSame
 (
@@ -331,10 +323,6 @@ tracker
 )
 )
 )
-.
-join
-(
-)
 assertNotSame
 (
 initialState
@@ -388,10 +376,6 @@ UrlChange
 newURL
 "
 )
-)
-.
-join
-(
 )
 assertNotSame
 (
@@ -491,10 +475,6 @@ true
 )
 )
 )
-.
-join
-(
-)
 assertNotSame
 (
 initialState
@@ -603,10 +583,6 @@ CookieBannerUIMode
 ENABLE
 )
 )
-.
-join
-(
-)
 assertEquals
 (
 CookieBannerUIMode
@@ -659,10 +635,6 @@ com
 "
 )
 )
-.
-join
-(
-)
 assertEquals
 (
 "
@@ -714,10 +686,6 @@ CookieBannerUIMode
 .
 DISABLE
 )
-)
-.
-join
-(
 )
 assertEquals
 (

@@ -433,10 +433,6 @@ CollectionCreationAction
 .
 AddAllTabs
 )
-.
-joinBlocking
-(
-)
 assertEquals
 (
 tabs
@@ -457,10 +453,6 @@ dispatch
 CollectionCreationAction
 .
 RemoveAllTabs
-)
-.
-joinBlocking
-(
 )
 assertEquals
 (
@@ -547,10 +539,6 @@ TabAdded
 tab2
 )
 )
-.
-joinBlocking
-(
-)
 assertEquals
 (
 setOf
@@ -573,10 +561,6 @@ TabAdded
 (
 tab1
 )
-)
-.
-joinBlocking
-(
 )
 assertEquals
 (
@@ -601,10 +585,6 @@ TabAdded
 (
 tab3
 )
-)
-.
-joinBlocking
-(
 )
 assertEquals
 (
@@ -630,10 +610,6 @@ TabRemoved
 (
 tab2
 )
-)
-.
-joinBlocking
-(
 )
 assertEquals
 (
@@ -692,10 +668,6 @@ defaultCollectionNumber
 =
 3
 )
-)
-.
-joinBlocking
-(
 )
 assertEquals
 (

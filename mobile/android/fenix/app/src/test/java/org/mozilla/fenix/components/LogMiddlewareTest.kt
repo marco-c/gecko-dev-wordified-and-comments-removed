@@ -280,10 +280,6 @@ dispatch
 (
 action
 )
-.
-join
-(
-)
 verify
 (
 logger
@@ -402,10 +398,6 @@ AAction
 (
 message
 )
-)
-.
-join
-(
 )
 }
 verify

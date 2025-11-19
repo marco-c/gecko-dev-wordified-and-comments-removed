@@ -135,10 +135,6 @@ SyncFailed
 duration
 )
 )
-.
-join
-(
-)
 assertNotSame
 (
 initialState
@@ -196,10 +192,6 @@ SyncEnded
 (
 duration
 )
-)
-.
-join
-(
 )
 assertNotSame
 (
@@ -260,10 +252,6 @@ UpdateDeviceName
 (
 deviceName
 )
-)
-.
-join
-(
 )
 assertNotSame
 (

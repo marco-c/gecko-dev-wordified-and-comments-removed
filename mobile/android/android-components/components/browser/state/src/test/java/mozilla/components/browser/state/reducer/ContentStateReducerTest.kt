@@ -361,10 +361,6 @@ EnteredPdfViewer
 currentTabId
 )
 )
-.
-join
-(
-)
 assertTrue
 (
 browserStore
@@ -468,10 +464,6 @@ ExitedPdfViewer
 (
 currentTabId
 )
-)
-.
-join
-(
 )
 assertFalse
 (

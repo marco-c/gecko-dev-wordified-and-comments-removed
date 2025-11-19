@@ -312,10 +312,6 @@ AAction
 message
 )
 )
-.
-join
-(
-)
 this
 .
 advanceUntilIdle

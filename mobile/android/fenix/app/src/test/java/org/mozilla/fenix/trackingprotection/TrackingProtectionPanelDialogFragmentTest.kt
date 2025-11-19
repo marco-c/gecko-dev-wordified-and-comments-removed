@@ -490,10 +490,6 @@ org
 "
 )
 )
-.
-joinBlocking
-(
-)
 verify
 (
 exactly
@@ -625,10 +621,6 @@ mockk
 (
 )
 )
-)
-.
-joinBlocking
-(
 )
 val
 updatedTab
@@ -773,10 +765,6 @@ mockk
 )
 )
 )
-.
-joinBlocking
-(
-)
 val
 updatedTab
 =
@@ -832,10 +820,6 @@ AddTabAction
 tab
 )
 )
-.
-joinBlocking
-(
-)
 store
 .
 dispatch
@@ -848,10 +832,6 @@ tab
 .
 id
 )
-)
-.
-joinBlocking
-(
 )
 }
 internal

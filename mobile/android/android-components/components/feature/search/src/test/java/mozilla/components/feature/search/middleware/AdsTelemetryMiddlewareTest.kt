@@ -403,10 +403,6 @@ false
 )
 )
 )
-.
-joinBlocking
-(
-)
 assertEquals
 (
 1
@@ -528,10 +524,6 @@ triggeredByUser
 false
 )
 )
-)
-.
-joinBlocking
-(
 )
 assertEquals
 (
@@ -715,10 +707,6 @@ firefox
 "
 )
 )
-.
-joinBlocking
-(
-)
 verify
 (
 adsTelemetry
@@ -818,10 +806,6 @@ AddTabAction
 tab
 )
 )
-.
-joinBlocking
-(
-)
 store
 .
 dispatch
@@ -848,10 +832,6 @@ true
 true
 )
 )
-)
-.
-joinBlocking
-(
 )
 assertNotNull
 (
@@ -885,10 +865,6 @@ mozilla
 org
 "
 )
-)
-.
-joinBlocking
-(
 )
 assertNull
 (
