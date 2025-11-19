@@ -10977,7 +10977,7 @@ dismiss
 true
 }
 }
-contentTilesContainer
+tiles_container
 :
 {
 style
