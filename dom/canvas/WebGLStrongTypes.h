@@ -11,6 +11,11 @@ algorithm
 >
 #
 include
+<
+array
+>
+#
+include
 "
 GLDefs
 .
