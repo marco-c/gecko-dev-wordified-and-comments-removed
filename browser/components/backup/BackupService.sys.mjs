@@ -1258,9 +1258,7 @@ lazy
 backupErrorCode
 "
 BACKUP_ERROR_CODE_PREF_NAME
-ERRORS
-.
-NONE
+0
 function
 onUpdateBackupErrorCode
 (
@@ -1274,7 +1272,7 @@ bs
 =
 BackupService
 .
-init
+get
 (
 )
 ;
