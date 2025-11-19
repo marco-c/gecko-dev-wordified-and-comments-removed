@@ -634,6 +634,13 @@ Bug
 ]
 [
 "
+browser_jsat_serialize
+.
+js
+"
+]
+[
+"
 browser_layers_unloaded_while_interruptingJS
 .
 js

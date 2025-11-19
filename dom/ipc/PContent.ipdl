@@ -290,6 +290,9 @@ include
 IPCTransferable
 ;
 include
+JSIPCValue
+;
+include
 PPrintingTypes
 ;
 include
@@ -3469,10 +3472,7 @@ RawMessage
 (
 JSActorMessageMeta
 aMetadata
-UniquePtr
-<
-ClonedMessageData
->
+JSIPCValue
 aData
 UniquePtr
 <
