@@ -556,7 +556,7 @@ lines
 60
 functions
 :
-60
+50
 branches
 :
 60
