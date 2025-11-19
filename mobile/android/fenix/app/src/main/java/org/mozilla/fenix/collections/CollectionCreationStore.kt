@@ -396,6 +396,16 @@ Long
 :
 CollectionCreationState
 {
+println
+(
+"
+Mugurel
+:
+create
+initial
+state
+"
+)
 val
 tabs
 =
