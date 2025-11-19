@@ -709,6 +709,11 @@ dep
 :
 profiling
 "
+"
+dep
+:
+smallvec
+"
 ]
 portable
 -

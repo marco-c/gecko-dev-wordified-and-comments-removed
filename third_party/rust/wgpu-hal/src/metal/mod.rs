@@ -1308,6 +1308,12 @@ bool
 supports_shared_event
 :
 bool
+supported_vertex_amplification_factor
+:
+u32
+shader_barycentrics
+:
+bool
 supports_memoryless_storage
 :
 bool

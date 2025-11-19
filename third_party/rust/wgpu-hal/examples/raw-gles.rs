@@ -1893,7 +1893,7 @@ BLUE
 depth_stencil_attachment
 :
 None
-multiview
+multiview_mask
 :
 None
 timestamp_writes

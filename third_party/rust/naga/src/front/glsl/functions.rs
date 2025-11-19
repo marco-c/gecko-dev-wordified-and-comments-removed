@@ -6430,6 +6430,12 @@ default
 (
 )
 }
+mesh_info
+:
+None
+task_payload
+:
+None
 }
 )
 ;
@@ -6700,6 +6706,9 @@ None
 blend_src
 :
 None
+per_primitive
+:
+false
 }
 ;
 location
@@ -6921,6 +6930,9 @@ None
 blend_src
 :
 None
+per_primitive
+:
+false
 }
 ;
 location

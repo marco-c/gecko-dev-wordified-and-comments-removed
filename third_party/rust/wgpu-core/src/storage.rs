@@ -77,10 +77,14 @@ T
 Epoch
 )
 }
-pub
+#
+[
+doc
 (
-crate
+hidden
 )
+]
+pub
 trait
 StorageItem
 :

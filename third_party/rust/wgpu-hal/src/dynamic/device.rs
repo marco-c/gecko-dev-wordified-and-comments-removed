@@ -2657,11 +2657,11 @@ color_targets
 desc
 .
 color_targets
-multiview
+multiview_mask
 :
 desc
 .
-multiview
+multiview_mask
 cache
 :
 desc

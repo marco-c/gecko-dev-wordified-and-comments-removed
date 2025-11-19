@@ -226,6 +226,15 @@ RayQuery
 S
 :
 :
+MeshFunction
+(
+.
+.
+)
+|
+S
+:
+:
 Atomic
 {
 .

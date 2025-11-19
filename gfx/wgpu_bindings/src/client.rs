@@ -7460,7 +7460,6 @@ new
 &
 descriptor
 device_id
-None
 )
 {
 Ok
@@ -10307,7 +10306,7 @@ multisample
 clone
 (
 )
-multiview
+multiview_mask
 :
 None
 cache
@@ -11155,6 +11154,8 @@ CommandEncoderAction
 :
 ResolveQuerySet
 {
+query_set
+:
 query_set_id
 start_query
 query_count

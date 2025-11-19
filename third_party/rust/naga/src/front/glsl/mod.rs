@@ -283,12 +283,10 @@ u32
 from
 (
 stage
-=
-=
-ShaderStage
-:
-:
-Compute
+.
+compute_like
+(
+)
 )
 ;
 3

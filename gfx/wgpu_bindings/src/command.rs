@@ -41,7 +41,10 @@ RenderPassDepthStencilAttachment
 id
 :
 :
+{
 CommandEncoderId
+TextureViewId
+}
 }
 ;
 use
@@ -158,6 +161,9 @@ depth_stencil_attachment
 Option
 <
 RenderPassDepthStencilAttachment
+<
+TextureViewId
+>
 >
 timestamp_writes
 :
@@ -202,6 +208,9 @@ depth_stencil_attachment
 Option
 <
 RenderPassDepthStencilAttachment
+<
+TextureViewId
+>
 >
 timestamp_writes
 :
@@ -2824,6 +2833,9 @@ occlusion_query_set
 src_pass
 .
 occlusion_query_set_id
+multiview_mask
+:
+None
 }
 )
 ;

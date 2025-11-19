@@ -1053,6 +1053,9 @@ bool
 shader_int8
 :
 bool
+multiview_instance_index_limit
+:
+u32
 }
 bitflags
 :
@@ -1479,7 +1482,7 @@ DepthStencilAttachmentKey
 sample_count
 :
 u32
-multiview
+multiview_mask
 :
 Option
 <
@@ -2635,7 +2638,7 @@ vk
 :
 :
 ImageView
-layers
+_layers
 :
 NonZeroU32
 format
@@ -3572,6 +3575,9 @@ wgt
 :
 HalCounters
 >
+current_pipeline_is_multiview
+:
+bool
 }
 impl
 Drop
@@ -3856,6 +3862,9 @@ vk
 :
 :
 Pipeline
+is_multiview
+:
+bool
 }
 impl
 crate

@@ -2341,11 +2341,11 @@ expect_downcast
 (
 )
 )
-multiview
+multiview_mask
 :
 desc
 .
-multiview
+multiview_mask
 timestamp_writes
 :
 desc

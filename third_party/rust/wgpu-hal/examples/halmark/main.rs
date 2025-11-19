@@ -1770,7 +1770,7 @@ default
 }
 )
 ]
-multiview
+multiview_mask
 :
 None
 cache
@@ -4528,7 +4528,7 @@ a
 depth_stencil_attachment
 :
 None
-multiview
+multiview_mask
 :
 None
 timestamp_writes
