@@ -47197,7 +47197,7 @@ XP_WIN
 )
 value
 :
-IS_NIGHTLY_BUILD
+true
 #
 else
 value
