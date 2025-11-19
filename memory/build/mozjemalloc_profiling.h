@@ -75,6 +75,11 @@ pages_total
 0
 ;
 size_t
+pages_unpurgable
+=
+0
+;
+size_t
 system_calls
 =
 0
