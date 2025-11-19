@@ -593,7 +593,16 @@ font
 -
 weight
 :
-500
+var
+(
+-
+-
+heading
+-
+font
+-
+weight
+)
 ;
 &
 [

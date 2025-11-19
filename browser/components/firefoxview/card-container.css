@@ -728,7 +728,16 @@ font
 -
 weight
 :
-600
+var
+(
+-
+-
+heading
+-
+font
+-
+weight
+)
 ;
 overflow
 :
