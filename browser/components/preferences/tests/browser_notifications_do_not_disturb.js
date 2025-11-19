@@ -84,11 +84,9 @@ doc
 getElementById
 (
 "
-notificationsDoNotDisturb
+notificationsDoNotDisturbBox
 "
 )
-.
-control
 ;
 if
 (
@@ -193,10 +191,6 @@ getElementById
 notificationsDoNotDisturb
 "
 )
-.
-control
-.
-controlEl
 ;
 ok
 (
@@ -242,7 +236,7 @@ waitForEvent
 (
 checkbox
 "
-change
+command
 "
 )
 ;
@@ -280,7 +274,7 @@ waitForEvent
 (
 checkbox
 "
-change
+command
 "
 )
 ;
