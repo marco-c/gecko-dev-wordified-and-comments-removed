@@ -300,11 +300,6 @@ requestLongerTimeout
 "
 readonly
 "
-setExpectedFailuresForSelfTest
-:
-"
-readonly
-"
 stringContains
 :
 "

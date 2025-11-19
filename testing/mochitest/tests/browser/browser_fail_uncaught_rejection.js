@@ -1,8 +1,3 @@
-setExpectedFailuresForSelfTest
-(
-2
-)
-;
 function
 test
 (
