@@ -63,7 +63,7 @@ uuid
 DWORD
 pathLen
 =
-GetTempPath2W
+GetTempPathW
 (
 BUFFER_LEN
 pathBuffer
