@@ -23,15 +23,6 @@ h
 #
 include
 "
-mozilla
-/
-Likely
-.
-h
-"
-#
-include
-"
 nsAHtml5TreeBuilderState
 .
 h

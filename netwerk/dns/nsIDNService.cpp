@@ -111,15 +111,6 @@ include
 "
 mozilla
 /
-TextUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 intl
 /
 UnicodeProperties

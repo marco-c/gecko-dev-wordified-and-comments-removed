@@ -59,15 +59,6 @@ include
 "
 mozilla
 /
-HelperMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 WinHeaderOnlyUtils
 .
 h

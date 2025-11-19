@@ -13,15 +13,6 @@ nsToolkit
 h
 "
 #
-include
-"
-mozilla
-/
-Assertions
-.
-h
-"
-#
 if
 defined
 (
