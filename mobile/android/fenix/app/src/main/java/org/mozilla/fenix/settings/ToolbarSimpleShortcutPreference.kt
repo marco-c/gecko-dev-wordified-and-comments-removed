@@ -134,7 +134,6 @@ readSelectedKey
 )
 :
 String
-?
 =
 context
 .

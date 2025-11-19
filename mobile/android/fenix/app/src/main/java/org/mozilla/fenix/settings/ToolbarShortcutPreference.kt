@@ -296,7 +296,6 @@ readSelectedKey
 )
 :
 String
-?
 protected
 abstract
 fun
@@ -457,7 +456,12 @@ it
 key
 =
 =
+ShortcutType
+.
+fromValue
+(
 selectedKey
+)
 }
 ?
 :
@@ -558,6 +562,8 @@ writeSelectedKey
 newlySelected
 .
 key
+.
+value
 )
 notifyChanged
 (
