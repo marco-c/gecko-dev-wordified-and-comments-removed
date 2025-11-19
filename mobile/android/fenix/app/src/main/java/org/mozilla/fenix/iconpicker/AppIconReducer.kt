@@ -264,5 +264,12 @@ AppIconSnackbarState
 .
 ApplyingNewIconError
 )
+is
+SystemAction
+.
+EnvironmentRehydrated
+-
+>
+this
 }
 }
