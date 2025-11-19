@@ -2699,6 +2699,11 @@ thenationaldesk
 .
 com
 "
+"
+foxbaltimore
+.
+com
+"
 ]
 matches
 :
