@@ -1125,13 +1125,6 @@ brandings
 .
 ftl
 "
-"
-preview
-/
-termsOfUse
-.
-ftl
-"
 ]
 false
 )

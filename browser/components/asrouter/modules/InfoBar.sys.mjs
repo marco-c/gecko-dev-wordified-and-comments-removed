@@ -207,13 +207,6 @@ termsofuse
 .
 ftl
 "
-"
-preview
-/
-termsOfUse
-.
-ftl
-"
 ]
 ;
 class
