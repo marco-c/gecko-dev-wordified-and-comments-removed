@@ -37,15 +37,6 @@ enabled
 =
 true
 "
-"
-privacy
-.
-sanitize
-.
-sanitizeOnShutdown
-=
-false
-"
 ]
 support
 -
