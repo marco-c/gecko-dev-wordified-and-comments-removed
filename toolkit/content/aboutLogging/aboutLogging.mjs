@@ -678,6 +678,11 @@ cookie
 description
 "
 }
+profilerPreset
+:
+"
+networking
+"
 }
 websocket
 :
@@ -734,6 +739,11 @@ websocket
 description
 "
 }
+profilerPreset
+:
+"
+networking
+"
 }
 http3
 :
@@ -799,6 +809,11 @@ http3
 description
 "
 }
+profilerPreset
+:
+"
+networking
+"
 }
 "
 http3
@@ -862,6 +877,11 @@ speed
 description
 "
 }
+profilerPreset
+:
+"
+networking
+"
 }
 "
 media
@@ -1040,6 +1060,9 @@ mtransport
 nicer
 :
 5
+usrsctp
+:
+5
 RTCRtpReceiver
 :
 5
@@ -1047,6 +1070,9 @@ RTCRtpSender
 :
 5
 RTCDMTFSender
+:
+5
+DataChannel
 :
 5
 WebrtcTCPSocket
