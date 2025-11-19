@@ -856,6 +856,11 @@ Search
 Engine
 "
 )
+categoryHeader
+=
+"
+General
+"
 preferenceFileInformation
 =
 PreferenceFileInformation
@@ -896,6 +901,11 @@ Developer
 Experiments
 "
 )
+categoryHeader
+=
+"
+Advanced
+"
 preferenceFileInformation
 =
 PreferenceFileInformation
@@ -940,6 +950,11 @@ Usage
 Data
 "
 )
+categoryHeader
+=
+"
+Privacy
+"
 preferenceFileInformation
 =
 PreferenceFileInformation
