@@ -6974,7 +6974,7 @@ rv
 encoder
 -
 >
-NativeInit
+Init
 (
 mDocument
 NS_ConvertASCIItoUTF16

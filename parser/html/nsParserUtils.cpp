@@ -337,7 +337,7 @@ html
 encoder
 -
 >
-NativeInit
+Init
 (
 document
 u

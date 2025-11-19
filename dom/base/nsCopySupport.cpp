@@ -2525,7 +2525,7 @@ rv
 docEncoder
 -
 >
-NativeInit
+Init
 (
 document
 NS_LITERAL_STRING_FROM_CSTRING

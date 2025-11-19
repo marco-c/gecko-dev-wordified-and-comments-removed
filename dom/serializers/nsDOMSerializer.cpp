@@ -156,7 +156,7 @@ rv
 encoder
 -
 >
-NativeInit
+Init
 (
 doc
 u
