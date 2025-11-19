@@ -1527,11 +1527,6 @@ asBearerToken
 (
 )
 server
-.
-hostname
-server
-.
-port
 )
 ;
 this

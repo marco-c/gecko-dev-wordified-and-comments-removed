@@ -141,13 +141,7 @@ initialize
 "
 proxyInfo
 .
-host
-proxyInfo
-.
-port
-proxyInfo
-.
-type
+server
 )
 ;
 filter

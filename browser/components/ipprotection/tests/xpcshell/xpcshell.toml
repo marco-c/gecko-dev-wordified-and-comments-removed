@@ -60,6 +60,13 @@ js
 ]
 [
 "
+test_IPPChannelFilter
+.
+js
+"
+]
+[
+"
 test_IPPExceptionsManager
 .
 js
