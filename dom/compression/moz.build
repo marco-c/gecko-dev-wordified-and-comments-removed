@@ -58,6 +58,11 @@ DecompressionStream
 cpp
 "
 "
+FormatBrotli
+.
+cpp
+"
+"
 FormatZlib
 .
 cpp

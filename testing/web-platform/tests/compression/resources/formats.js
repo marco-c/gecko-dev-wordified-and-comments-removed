@@ -13,4 +13,7 @@ raw
 "
 gzip
 "
+"
+brotli
+"
 ]

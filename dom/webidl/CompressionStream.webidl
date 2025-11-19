@@ -132,6 +132,13 @@ raw
 gzip
 "
 "
+brotli
+"
+/
+/
+Mozilla
+specific
+"
 zstd
 "
 }
