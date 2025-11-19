@@ -5196,6 +5196,7 @@ if
 (
 NS_WARN_IF
 (
+!
 mSelection
 -
 >
