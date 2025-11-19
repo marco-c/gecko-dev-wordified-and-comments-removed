@@ -467,10 +467,11 @@ fxviewtabrow
 -
 send
 -
-tab
+to
+-
+device
 =
 Send
-Tab
 to
 Device
 .

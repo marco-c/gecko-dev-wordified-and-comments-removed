@@ -5554,7 +5554,9 @@ fxviewtabrow
 -
 send
 -
-tab
+to
+-
+device
 "
 data
 -

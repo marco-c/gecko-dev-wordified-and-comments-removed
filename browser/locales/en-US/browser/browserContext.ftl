@@ -2072,12 +2072,13 @@ send
 to
 -
 device
+-
+2
 =
 .
 label
 =
 Send
-Page
 to
 Device
 .

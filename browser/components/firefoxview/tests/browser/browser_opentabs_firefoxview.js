@@ -1880,7 +1880,9 @@ fxviewtabrow
 -
 send
 -
-tab
+to
+-
+device
 ]
 "
 )
