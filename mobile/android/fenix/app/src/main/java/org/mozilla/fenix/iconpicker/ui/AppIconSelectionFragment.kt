@@ -383,6 +383,8 @@ newAliasSuffix
 :
 String
 )
+:
+Boolean
 {
 with
 (
@@ -391,6 +393,7 @@ requireContext
 )
 )
 {
+return
 changeAppLauncherIcon
 (
 packageManager
