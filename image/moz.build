@@ -11,6 +11,9 @@ decoders
 "
 encoders
 "
+"
+remote
+"
 ]
 TEST_DIRS
 +
