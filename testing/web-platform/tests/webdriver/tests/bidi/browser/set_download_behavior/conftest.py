@@ -376,7 +376,7 @@ DOWNLOAD_END
 ]
 )
         
-on_download_will_begin
+on_download_end
 =
 wait_for_event
 (
@@ -426,22 +426,46 @@ True
 try
 :
             
+print
+(
+"
+Wait
+for
+browsingContext
+.
+downloadEnd
+event
+"
+)
+            
 return
 await
 wait_for_future_safe
 (
                 
-on_download_will_begin
+on_download_end
 timeout
 =
-0
+2
 .
-5
+0
 )
         
 except
 TimeoutException
 :
+            
+print
+(
+"
+User
+Agent
+showed
+file
+save
+dialog
+"
+)
             
 return
 None

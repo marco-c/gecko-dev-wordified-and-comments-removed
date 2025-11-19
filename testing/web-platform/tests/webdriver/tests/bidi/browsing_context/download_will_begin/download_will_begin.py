@@ -2,6 +2,8 @@ import
 random
 import
 pytest
+import
+pytest_asyncio
 from
 webdriver
 .
@@ -39,6 +41,13 @@ pytest
 mark
 .
 asyncio
+DOWNLOAD_END
+=
+"
+browsingContext
+.
+downloadEnd
+"
 DOWNLOAD_WILL_BEGIN
 =
 "
@@ -53,6 +62,94 @@ browsingContext
 .
 navigationStarted
 "
+pytest_asyncio
+.
+fixture
+async
+def
+expect_download_end
+(
+bidi_session
+subscribe_events
+)
+:
+    
+await
+subscribe_events
+(
+events
+=
+[
+DOWNLOAD_END
+]
+)
+    
+download_end_events
+=
+[
+]
+    
+async
+def
+on_event
+(
+method
+data
+)
+:
+        
+download_end_events
+.
+append
+(
+data
+)
+    
+remove_listener
+=
+bidi_session
+.
+add_event_listener
+(
+DOWNLOAD_END
+on_event
+)
+    
+expected_events
+=
+0
+    
+def
+_expect_download_end
+(
+count
+)
+:
+        
+nonlocal
+expected_events
+        
+expected_events
+=
+count
+    
+yield
+_expect_download_end
+    
+await
+wait_for_bidi_events
+(
+bidi_session
+download_end_events
+expected_events
+timeout
+=
+2
+)
+    
+remove_listener
+(
+)
 async
 def
 test_unsubscribe
@@ -60,6 +157,7 @@ test_unsubscribe
 bidi_session
 inline
 new_tab
+expect_download_end
 )
 :
     
@@ -223,6 +321,11 @@ DOWNLOAD_WILL_BEGIN
 on_event
 )
     
+expect_download_end
+(
+1
+)
+    
 await
 bidi_session
 .
@@ -294,11 +397,18 @@ test_download_attribute
 (
     
 bidi_session
+    
 subscribe_events
+    
 new_tab
+    
 inline
+    
 wait_for_event
+    
 wait_for_future_safe
+    
+expect_download_end
 )
 :
     
@@ -452,6 +562,11 @@ wait_for_event
 DOWNLOAD_WILL_BEGIN
 )
     
+expect_download_end
+(
+1
+)
+    
 await
 bidi_session
 .
@@ -558,6 +673,7 @@ TimeoutException
 await
 wait_for_bidi_events
 (
+            
 bidi_session
 navigation_started_events
 1
@@ -566,6 +682,7 @@ timeout
 0
 .
 5
+        
 )
     
 remove_listener
@@ -577,12 +694,20 @@ test_content_disposition_header
 (
     
 bidi_session
+    
 subscribe_events
+    
 new_tab
+    
 inline
+    
 wait_for_event
+    
 wait_for_future_safe
+    
 url
+    
+expect_download_end
 )
 :
     
@@ -731,6 +856,11 @@ wait_for_event
 DOWNLOAD_WILL_BEGIN
 )
     
+expect_download_end
+(
+1
+)
+    
 await
 bidi_session
 .
@@ -870,12 +1000,20 @@ test_redirect_to_content_disposition_header
 (
     
 bidi_session
+    
 subscribe_events
+    
 new_tab
+    
 inline
+    
 wait_for_event
+    
 wait_for_future_safe
+    
 url
+    
+expect_download_end
 )
 :
     
@@ -1053,6 +1191,11 @@ on_download_will_begin
 wait_for_event
 (
 DOWNLOAD_WILL_BEGIN
+)
+    
+expect_download_end
+(
+1
 )
     
 await
