@@ -4046,6 +4046,9 @@ gets
 echoed
 .
 "
+onRequest
+=
+null
 }
 =
 {
@@ -4092,6 +4095,17 @@ completions
 "
 )
 ;
+if
+(
+onRequest
+)
+{
+onRequest
+(
+request
+)
+;
+}
 let
 bodyText
 =
