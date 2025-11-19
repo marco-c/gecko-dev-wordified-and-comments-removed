@@ -76,9 +76,11 @@ warning
 "
 Argument
 to
+'
 free
 (
 )
+'
 is
 the
 address
@@ -95,9 +97,11 @@ not
 memory
 allocated
 by
+'
 malloc
 (
 )
+'
 "
 "
 clang
@@ -116,9 +120,11 @@ warning
 "
 Argument
 to
+'
 free
 (
 )
+'
 is
 offset
 by
@@ -132,9 +138,11 @@ of
 memory
 allocated
 by
+'
 malloc
 (
 )
+'
 "
 "
 clang
