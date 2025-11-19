@@ -151,11 +151,6 @@ TestAction
 .
 IncrementAction
 )
-store
-.
-waitUntilIdle
-(
-)
 assertEquals
 (
 24
@@ -180,11 +175,6 @@ dispatch
 TestAction
 .
 DecrementAction
-)
-store
-.
-waitUntilIdle
-(
 )
 assertEquals
 (
