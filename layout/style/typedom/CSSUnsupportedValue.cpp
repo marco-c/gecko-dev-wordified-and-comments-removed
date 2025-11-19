@@ -40,9 +40,9 @@ nsISupports
 >
 aParent
 const
-nsACString
+CSSPropertyId
 &
-aProperty
+aPropertyId
 RefPtr
 <
 DeclarationBlock
@@ -64,9 +64,9 @@ ValueType
 :
 Unsupported
 )
-mProperty
+mPropertyId
 (
-aProperty
+aPropertyId
 )
 mDeclarations
 (
@@ -95,9 +95,9 @@ const
 mDeclarations
 -
 >
-GetPropertyValue
+GetPropertyValueById
 (
-mProperty
+mPropertyId
 aRetVal
 )
 ;
