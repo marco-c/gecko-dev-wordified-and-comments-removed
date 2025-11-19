@@ -1,0 +1,14 @@
+runTests
+(
+"
+KMAC128
+"
+)
+;
+runTests
+(
+"
+KMAC256
+"
+)
+;
