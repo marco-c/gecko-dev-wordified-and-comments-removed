@@ -49442,16 +49442,12 @@ mEvent
 >
 mWidget
 ;
-nsEventStatus
-status
-;
 widget
 -
 >
 DispatchEvent
 (
 mEvent
-status
 )
 ;
 }

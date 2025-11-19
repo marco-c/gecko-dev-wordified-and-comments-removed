@@ -2532,11 +2532,6 @@ newEnd
 TextRecord
 textTransaction
 ;
-nsEventStatus
-status
-=
-nsEventStatus_eIgnore
-;
 bool
 causedOnlyByComposition
 =
@@ -2693,7 +2688,6 @@ DispatchEvent
 (
 &
 queryTextContentEvent
-status
 )
 ;
 if
@@ -2827,7 +2821,6 @@ DispatchEvent
 (
 &
 querySelectedTextEvent
-status
 )
 ;
 if
@@ -3298,11 +3291,6 @@ if
 composition
 )
 {
-nsEventStatus
-status
-=
-nsEventStatus_eIgnore
-;
 uint32_t
 offset
 =
@@ -3345,7 +3333,6 @@ DispatchEvent
 (
 &
 queryTextRectsEvent
-status
 )
 ;
 rects
@@ -3423,11 +3410,6 @@ InitForQueryCaretRect
 options
 )
 ;
-nsEventStatus
-status
-=
-nsEventStatus_eIgnore
-;
 widget
 -
 >
@@ -3435,7 +3417,6 @@ DispatchEvent
 (
 &
 queryCaretRectEvent
-status
 )
 ;
 auto
@@ -3896,11 +3877,6 @@ RemoveComposition
 ifdef
 NIGHTLY_BUILD
 {
-nsEventStatus
-status
-=
-nsEventStatus_eIgnore
-;
 WidgetQueryContentEvent
 querySelectedTextEvent
 (
@@ -3916,7 +3892,6 @@ DispatchEvent
 (
 &
 querySelectedTextEvent
-status
 )
 ;
 if
@@ -4015,6 +3990,8 @@ nsISelectionListener
 :
 IME_REASON
 ;
+status
+=
 widget
 -
 >
@@ -4022,7 +3999,6 @@ DispatchEvent
 (
 &
 event
-status
 )
 ;
 }
@@ -4375,7 +4351,6 @@ DispatchEvent
 (
 &
 insertTextEvent
-status
 )
 ;
 if
@@ -4457,6 +4432,8 @@ eContentCommandDelete
 widget
 )
 ;
+status
+=
 widget
 -
 >
@@ -4464,7 +4441,6 @@ DispatchEvent
 (
 &
 event
-status
 )
 ;
 if
@@ -4808,11 +4784,6 @@ GetWidget
 (
 )
 ;
-nsEventStatus
-status
-=
-nsEventStatus_eIgnore
-;
 NS_ENSURE_TRUE
 (
 mDispatcher
@@ -4948,7 +4919,6 @@ DispatchEvent
 (
 &
 selEvent
-status
 )
 ;
 return
@@ -4983,6 +4953,11 @@ EditorIsHandlingLatestChange
 (
 )
 )
+;
+nsEventStatus
+status
+=
+nsEventStatus_eIgnore
 ;
 if
 (
@@ -5102,6 +5077,8 @@ nsISelectionListener
 :
 IME_REASON
 ;
+status
+=
 widget
 -
 >
@@ -5109,7 +5086,6 @@ DispatchEvent
 (
 &
 event
-status
 )
 ;
 }
@@ -5122,6 +5098,8 @@ eQuerySelectedText
 widget
 )
 ;
+status
+=
 widget
 -
 >
@@ -5129,7 +5107,6 @@ DispatchEvent
 (
 &
 querySelectedTextEvent
-status
 )
 ;
 MOZ_ASSERT
@@ -5391,11 +5368,6 @@ eQuerySelectedText
 widget
 )
 ;
-nsEventStatus
-status
-=
-nsEventStatus_eIgnore
-;
 widget
 -
 >
@@ -5403,7 +5375,6 @@ DispatchEvent
 (
 &
 querySelectedTextEvent
-status
 )
 ;
 if
@@ -5508,11 +5479,6 @@ nsISelectionListener
 :
 IME_REASON
 ;
-nsEventStatus
-status
-=
-nsEventStatus_eIgnore
-;
 mWidget
 -
 >
@@ -5520,7 +5486,6 @@ DispatchEvent
 (
 &
 selection
-status
 )
 ;
 }
@@ -7719,9 +7684,6 @@ forget
 (
 )
 ;
-nsEventStatus
-status
-;
 widget
 -
 >
@@ -7729,7 +7691,6 @@ DispatchEvent
 (
 &
 command
-status
 )
 ;
 }

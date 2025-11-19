@@ -542,15 +542,12 @@ aPoint
 nullptr
 )
 ;
-nsresult
+nsEventStatus
 DispatchEvent
 (
 WidgetGUIEvent
 *
 aEvent
-nsEventStatus
-&
-aStatus
 )
 override
 ;

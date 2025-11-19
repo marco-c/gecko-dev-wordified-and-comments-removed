@@ -3862,11 +3862,6 @@ AssignPointerHelperData
 aEvent
 )
 ;
-nsEventStatus
-eventStatus
-=
-nsEventStatus_eIgnore
-;
 widget
 -
 >
@@ -3874,7 +3869,6 @@ DispatchEvent
 (
 &
 event
-eventStatus
 )
 ;
 }

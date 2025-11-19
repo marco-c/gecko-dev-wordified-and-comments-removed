@@ -1766,9 +1766,6 @@ true
 ;
 }
 }
-nsEventStatus
-status
-;
 cancelEvent
 .
 mWidget
@@ -1778,7 +1775,6 @@ DispatchEvent
 (
 &
 cancelEvent
-status
 )
 ;
 }

@@ -2414,11 +2414,6 @@ WidgetGUIEvent
 aEvent
 )
 {
-nsEventStatus
-status
-=
-nsEventStatus_eConsumeNoDefault
-;
 if
 (
 aEvent
@@ -2426,6 +2421,7 @@ aEvent
 mWidget
 )
 {
+return
 aEvent
 .
 mWidget
@@ -2435,12 +2431,11 @@ DispatchEvent
 (
 &
 aEvent
-status
 )
 ;
 }
 return
-status
+nsEventStatus_eConsumeNoDefault
 ;
 }
 nsEventStatus

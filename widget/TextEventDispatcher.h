@@ -840,7 +840,7 @@ aEvent
 )
 const
 ;
-nsresult
+nsEventStatus
 DispatchEvent
 (
 nsIWidget
@@ -849,12 +849,9 @@ aWidget
 WidgetGUIEvent
 &
 aEvent
-nsEventStatus
-&
-aStatus
 )
 ;
-nsresult
+nsEventStatus
 DispatchInputEvent
 (
 nsIWidget
@@ -863,9 +860,6 @@ aWidget
 WidgetInputEvent
 &
 aEvent
-nsEventStatus
-&
-aStatus
 )
 ;
 nsresult

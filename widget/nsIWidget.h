@@ -3792,7 +3792,7 @@ NormalSizeModeClientToWindowSizeDifference
 )
 ;
 virtual
-nsresult
+nsEventStatus
 DispatchEvent
 (
 mozilla
@@ -3800,13 +3800,7 @@ mozilla
 :
 WidgetGUIEvent
 *
-event
-nsEventStatus
-&
-aStatus
 )
-=
-0
 ;
 virtual
 void
