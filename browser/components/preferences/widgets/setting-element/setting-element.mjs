@@ -872,6 +872,9 @@ if
 config
 .
 supportPage
+!
+=
+undefined
 )
 {
 result
