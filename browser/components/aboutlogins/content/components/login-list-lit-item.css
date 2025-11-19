@@ -216,6 +216,10 @@ var
 (
 -
 -
+in
+-
+content
+-
 border
 -
 color
@@ -258,11 +262,11 @@ var
 (
 -
 -
-border
--
 color
 -
-selected
+accent
+-
+primary
 )
 ;
 background

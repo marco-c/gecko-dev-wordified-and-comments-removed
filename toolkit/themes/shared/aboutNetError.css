@@ -515,6 +515,12 @@ var
 (
 -
 -
+in
+-
+content
+-
+box
+-
 border
 -
 color
@@ -565,6 +571,12 @@ solid
 var
 (
 -
+-
+in
+-
+content
+-
+box
 -
 border
 -
@@ -693,6 +705,10 @@ solid
 var
 (
 -
+-
+in
+-
+content
 -
 border
 -

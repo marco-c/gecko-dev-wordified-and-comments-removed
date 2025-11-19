@@ -834,6 +834,10 @@ var
 (
 -
 -
+in
+-
+content
+-
 border
 -
 color
@@ -886,6 +890,12 @@ solid
 var
 (
 -
+-
+in
+-
+content
+-
+box
 -
 border
 -
