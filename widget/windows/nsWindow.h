@@ -2996,12 +2996,6 @@ aDC
 )
 const
 ;
-nsIWidgetListener
-*
-GetPaintListener
-(
-)
-;
 void
 CreateCompositor
 (

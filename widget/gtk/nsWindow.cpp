@@ -3265,23 +3265,6 @@ height
 ;
 }
 }
-nsIWidgetListener
-*
-nsWindow
-:
-:
-GetListener
-(
-)
-{
-return
-mAttachedWidgetListener
-?
-mAttachedWidgetListener
-:
-mWidgetListener
-;
-}
 void
 nsWindow
 :
@@ -20869,7 +20852,7 @@ endif
 if
 (
 !
-GetListener
+GetPaintListener
 (
 )
 )
@@ -20879,7 +20862,7 @@ LOG
 "
 quit
 !
-GetListener
+GetPaintListener
 (
 )
 "
@@ -20964,7 +20947,7 @@ strongThis
 this
 )
 ;
-GetListener
+GetPaintListener
 (
 )
 -
@@ -21003,7 +20986,7 @@ nsIWidgetListener
 *
 listener
 =
-GetListener
+GetPaintListener
 (
 )
 ;
@@ -21188,7 +21171,7 @@ region
 ;
 listener
 =
-GetListener
+GetPaintListener
 (
 )
 ;
@@ -21438,7 +21421,7 @@ region
 ;
 listener
 =
-GetListener
+GetPaintListener
 (
 )
 ;

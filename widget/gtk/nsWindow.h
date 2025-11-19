@@ -2905,12 +2905,6 @@ gint
 aRootY
 )
 ;
-nsIWidgetListener
-*
-GetListener
-(
-)
-;
 nsWindow
 *
 GetTransientForWindowIfPopup

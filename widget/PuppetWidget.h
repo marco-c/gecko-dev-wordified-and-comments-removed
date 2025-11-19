@@ -1315,12 +1315,6 @@ GetCaretOffset
 (
 )
 ;
-nsIWidgetListener
-*
-GetCurrentWidgetListener
-(
-)
-;
 bool
 HaveValidInputContextCache
 (

@@ -8,15 +8,6 @@ h
 #
 include
 "
-mozilla
-/
-EventForwards
-.
-h
-"
-#
-include
-"
 nsArrayUtils
 .
 h
