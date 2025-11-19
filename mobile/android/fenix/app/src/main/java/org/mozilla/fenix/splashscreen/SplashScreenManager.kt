@@ -758,6 +758,11 @@ onAwait
 it
 }
 }
+splashScreenOperation
+.
+dispose
+(
+)
 withContext
 (
 this
