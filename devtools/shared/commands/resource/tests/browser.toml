@@ -349,13 +349,6 @@ js
 ]
 [
 "
-browser_resources_network_event_stacktraces_keepalive
-.
-js
-"
-]
-[
-"
 browser_resources_network_events
 .
 js
