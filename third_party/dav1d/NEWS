@@ -92,6 +92,14 @@ on
 tools
 and
 CI
+-
+fix
+compilation
+with
+nasm
+3
+.
+00
 Changes
 for
 1

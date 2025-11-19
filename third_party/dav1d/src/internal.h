@@ -1040,12 +1040,8 @@ lr_buf_plane_sz
 int
 re_sz
 ;
-ALIGN
-(
 Av1FilterLUT
 lim_lut
-16
-)
 ;
 ALIGN
 (
