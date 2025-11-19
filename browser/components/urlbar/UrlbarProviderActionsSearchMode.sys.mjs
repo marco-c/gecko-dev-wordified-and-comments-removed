@@ -607,9 +607,6 @@ id
 action
 .
 label
-cacheable
-:
-true
 }
 }
 }

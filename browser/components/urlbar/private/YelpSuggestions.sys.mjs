@@ -1515,9 +1515,6 @@ bottom
 -
 text
 "
-cacheable
-:
-true
 }
 iconBlob
 :

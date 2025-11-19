@@ -162,9 +162,6 @@ in
 -
 description
 "
-cacheable
-:
-true
 parseMarkup
 :
 true
@@ -712,9 +709,6 @@ in
 -
 description
 "
-cacheable
-:
-true
 parseMarkup
 :
 true
@@ -1277,9 +1271,6 @@ in
 -
 description
 "
-cacheable
-:
-true
 parseMarkup
 :
 true

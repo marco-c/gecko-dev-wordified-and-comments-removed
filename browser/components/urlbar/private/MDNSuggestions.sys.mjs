@@ -486,9 +486,6 @@ bottom
 -
 text
 "
-cacheable
-:
-true
 }
 }
 ;

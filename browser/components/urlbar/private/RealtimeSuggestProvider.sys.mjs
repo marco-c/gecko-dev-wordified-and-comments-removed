@@ -722,9 +722,6 @@ opt
 in
 -
 title
-cacheable
-:
-true
 }
 ;
 }
@@ -752,9 +749,6 @@ opt
 in
 -
 description
-cacheable
-:
-true
 parseMarkup
 :
 true
@@ -2372,9 +2366,6 @@ in
 -
 dismiss
 "
-cacheable
-:
-true
 }
 }
 :
@@ -2404,9 +2395,6 @@ not
 -
 now
 "
-cacheable
-:
-true
 }
 }
 ;
@@ -2511,9 +2499,6 @@ in
 -
 allow
 "
-cacheable
-:
-true
 }
 input
 :

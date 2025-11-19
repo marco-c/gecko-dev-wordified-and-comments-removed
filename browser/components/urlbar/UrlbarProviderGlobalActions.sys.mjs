@@ -1353,9 +1353,6 @@ tab
 -
 label
 "
-cacheable
-:
-true
 }
 }
 ;
@@ -1398,9 +1395,6 @@ args
 action
 .
 l10nArgs
-cacheable
-:
-true
 }
 }
 ;

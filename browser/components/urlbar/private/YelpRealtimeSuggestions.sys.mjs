@@ -651,12 +651,6 @@ Date
 parseMarkup
 :
 true
-cacheable
-:
-true
-excludeArgsFromCacheKey
-:
-true
 }
 }
 [
@@ -697,12 +691,6 @@ item
 .
 review_count
 }
-cacheable
-:
-true
-excludeArgsFromCacheKey
-:
-true
 }
 }
 }
