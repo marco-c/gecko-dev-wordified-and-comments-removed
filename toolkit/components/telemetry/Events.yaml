@@ -16852,10 +16852,15 @@ firefox
 expiry_version
 :
 "
-148
+161
 "
 notification_emails
 :
+-
+bolsson
+mozilla
+.
+com
 -
 earo
 mozilla
@@ -16903,6 +16908,8 @@ bug_numbers
 1911321
 -
 1928262
+-
+1999880
 network
 .
 dns
