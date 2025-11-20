@@ -382,16 +382,6 @@ properties
 content
 .
 enabled
-and
-layout
-.
-css
-.
-light
--
-dark
-.
-enabled
 )
 .
 It
