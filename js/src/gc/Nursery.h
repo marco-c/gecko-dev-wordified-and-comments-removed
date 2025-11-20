@@ -260,6 +260,14 @@ mkDbgr
 \
 _
 (
+TraceWeakMaps
+"
+trWkMp
+"
+)
+\
+_
+(
 SweepCaches
 "
 swpCch
@@ -2365,6 +2373,11 @@ gc
 TenuringTracer
 &
 trc
+)
+;
+void
+sweepWeakMaps
+(
 )
 ;
 void
