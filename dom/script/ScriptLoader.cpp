@@ -6031,6 +6031,7 @@ key
 (
 this
 aRequest
+aReferrerPolicy
 aFetchOptions
 aURI
 )
@@ -20550,6 +20551,12 @@ key
 (
 this
 aRequest
+aRequest
+-
+>
+ReferrerPolicy
+(
+)
 aRequest
 -
 >
