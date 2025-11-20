@@ -822,7 +822,7 @@ i
 ;
 r
 =
-nr_stun_find_local_addresses
+nr_stun_get_addrs
 (
 addrs
 max_addrs
