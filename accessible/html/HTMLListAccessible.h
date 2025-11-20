@@ -187,7 +187,7 @@ HTMLListBulletAccessible
 }
 virtual
 ENameValueFlag
-DirectName
+Name
 (
 nsString
 &

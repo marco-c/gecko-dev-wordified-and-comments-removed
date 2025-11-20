@@ -83,7 +83,7 @@ override
 ;
 virtual
 ENameValueFlag
-DirectName
+Name
 (
 nsString
 &
