@@ -3256,13 +3256,6 @@ cutoffTime
 )
 ;
 }
-#
-if
-!
-defined
-(
-XP_WIN
-)
 MOZ_ASSERT
 (
 bundleWakeup
@@ -3288,8 +3281,6 @@ maxTimerDelay
 )
 )
 ;
-#
-endif
 return
 bundleWakeup
 ;
