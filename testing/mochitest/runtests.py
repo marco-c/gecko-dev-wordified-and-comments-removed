@@ -23642,6 +23642,7 @@ android
 "
                     
 and
+not
 mozinfo
 .
 info
@@ -23649,7 +23650,7 @@ info
 get
 (
 "
-release_or_beta
+early_beta_or_earlier
 "
 False
 )
