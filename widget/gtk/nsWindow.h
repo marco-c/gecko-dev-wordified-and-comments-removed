@@ -2579,11 +2579,6 @@ ResumeCompositorImpl
 (
 )
 ;
-void
-ClearRenderingQueue
-(
-)
-;
 bool
 ApplyEnterLeaveMutterWorkaround
 (
