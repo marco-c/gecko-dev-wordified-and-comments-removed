@@ -194,7 +194,6 @@ Suppress
 LongMethod
 "
 )
-private
 fun
 downloadStateReducer
 (
