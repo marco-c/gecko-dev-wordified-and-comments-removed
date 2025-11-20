@@ -328,7 +328,7 @@ ENameValueFlag
 RootAccessible
 :
 :
-Name
+DirectName
 (
 nsString
 &
@@ -352,7 +352,7 @@ ARIARoleMap
 LocalAccessible
 :
 :
-Name
+DirectName
 (
 aName
 )

@@ -919,7 +919,7 @@ ENameValueFlag
 DocAccessible
 :
 :
-Name
+DirectName
 (
 nsString
 &
@@ -959,7 +959,7 @@ IsEmpty
 LocalAccessible
 :
 :
-Name
+DirectName
 (
 aName
 )
