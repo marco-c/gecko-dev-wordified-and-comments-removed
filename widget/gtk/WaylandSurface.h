@@ -261,6 +261,11 @@ return
 mIsVisible
 ;
 }
+void
+VisibleCallbackHandler
+(
+)
+;
 bool
 IsPendingGdkCleanup
 (
@@ -1355,6 +1360,12 @@ bool
 mBufferTransformFlippedY
 =
 false
+;
+wl_callback
+*
+mVisibleFrameCallback
+=
+nullptr
 ;
 wl_callback
 *
