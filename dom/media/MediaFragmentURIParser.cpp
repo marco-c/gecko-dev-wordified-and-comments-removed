@@ -1,10 +1,15 @@
 #
 include
 "
-nsTArray
+MediaFragmentURIParser
 .
 h
 "
+#
+include
+<
+utility
+>
 #
 include
 "
@@ -28,13 +33,8 @@ h
 "
 #
 include
-<
-utility
->
-#
-include
 "
-nsMediaFragmentURIParser
+nsTArray
 .
 h
 "
@@ -53,13 +53,10 @@ pair
 namespace
 mozilla
 {
-namespace
-net
-{
-nsMediaFragmentURIParser
+MediaFragmentURIParser
 :
 :
-nsMediaFragmentURIParser
+MediaFragmentURIParser
 (
 nsIURI
 *
@@ -88,10 +85,10 @@ ref
 )
 ;
 }
-nsMediaFragmentURIParser
+MediaFragmentURIParser
 :
 :
-nsMediaFragmentURIParser
+MediaFragmentURIParser
 (
 nsCString
 &
@@ -110,7 +107,7 @@ aRef
 ;
 }
 bool
-nsMediaFragmentURIParser
+MediaFragmentURIParser
 :
 :
 ParseNPT
@@ -361,7 +358,7 @@ true
 ;
 }
 bool
-nsMediaFragmentURIParser
+MediaFragmentURIParser
 :
 :
 ParseNPTTime
@@ -483,7 +480,7 @@ aStart
 ;
 }
 bool
-nsMediaFragmentURIParser
+MediaFragmentURIParser
 :
 :
 ParseNPTSec
@@ -621,7 +618,7 @@ true
 ;
 }
 bool
-nsMediaFragmentURIParser
+MediaFragmentURIParser
 :
 :
 ParseNPTMMSS
@@ -780,7 +777,7 @@ true
 ;
 }
 bool
-nsMediaFragmentURIParser
+MediaFragmentURIParser
 :
 :
 ParseNPTFraction
@@ -893,7 +890,7 @@ true
 ;
 }
 bool
-nsMediaFragmentURIParser
+MediaFragmentURIParser
 :
 :
 ParseNPTHHMMSS
@@ -1015,7 +1012,7 @@ true
 ;
 }
 bool
-nsMediaFragmentURIParser
+MediaFragmentURIParser
 :
 :
 ParseNPTHH
@@ -1116,7 +1113,7 @@ true
 ;
 }
 bool
-nsMediaFragmentURIParser
+MediaFragmentURIParser
 :
 :
 ParseNPTMM
@@ -1138,7 +1135,7 @@ aMinute
 ;
 }
 bool
-nsMediaFragmentURIParser
+MediaFragmentURIParser
 :
 :
 ParseNPTSS
@@ -1380,7 +1377,7 @@ false
 ;
 }
 bool
-nsMediaFragmentURIParser
+MediaFragmentURIParser
 :
 :
 ParseXYWH
@@ -1591,7 +1588,7 @@ false
 ;
 }
 void
-nsMediaFragmentURIParser
+MediaFragmentURIParser
 :
 :
 Parse
@@ -1840,7 +1837,6 @@ value
 )
 )
 ;
-}
 }
 }
 }
