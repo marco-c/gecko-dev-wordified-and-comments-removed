@@ -386,6 +386,11 @@ dot
 -
 config
 COPY
+-
+-
+chown
+=
+worker
 topsrcdir
 /
 taskcluster
