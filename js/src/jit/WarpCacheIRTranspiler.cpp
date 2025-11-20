@@ -22551,6 +22551,8 @@ emitObjectKeysResult
 (
 ObjOperandId
 objId
+uint32_t
+resultShapeOffset
 )
 {
 MDefinition
@@ -22560,6 +22562,15 @@ obj
 getOperand
 (
 objId
+)
+;
+Shape
+*
+resultShape
+=
+shapeStubField
+(
+resultShapeOffset
 )
 ;
 auto
@@ -22575,6 +22586,7 @@ alloc
 (
 )
 obj
+resultShape
 )
 ;
 addEffectful
