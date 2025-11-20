@@ -3341,6 +3341,9 @@ false
 mirror
 :
 always
+#
+ifdef
+ANDROID
 -
 name
 :
@@ -3404,6 +3407,8 @@ value
 mirror
 :
 always
+#
+endif
 -
 name
 :
