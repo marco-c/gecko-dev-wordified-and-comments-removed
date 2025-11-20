@@ -27948,7 +27948,7 @@ if
 StaticPrefs
 :
 :
-widget_window_transforms_disabled
+widget_macos_window_transforms_disabled
 (
 )
 )
