@@ -1333,6 +1333,13 @@ GetNearestWidget
 )
 const
 ;
+nsIWidget
+*
+GetOwnWidget
+(
+)
+const
+;
 nsSubDocumentFrame
 *
 GetInProcessEmbedderFrame
