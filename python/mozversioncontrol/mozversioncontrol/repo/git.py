@@ -4528,6 +4528,40 @@ directory
 "
 "
         
+diff
+=
+self
+.
+_run
+(
+"
+diff
+"
+"
+-
+-
+no
+-
+color
+"
+"
+HEAD
+"
+)
+        
+if
+not
+diff
+.
+strip
+(
+)
+:
+            
+return
+"
+"
+        
 if
 not
 date
@@ -4644,24 +4678,7 @@ n
 n
 "
             
-self
-.
-_run
-(
-"
 diff
-"
-"
--
--
-no
--
-color
-"
-"
-HEAD
-"
-)
         
 ]
         
