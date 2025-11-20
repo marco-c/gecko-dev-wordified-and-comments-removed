@@ -160,8 +160,7 @@ blank
 let
 sessionId
 =
-"
-"
+undefined
 ;
 const
 windowPromise
@@ -182,6 +181,13 @@ subject
 {
 if
 (
+sessionId
+!
+=
+=
+undefined
+&
+&
 subject
 .
 name
