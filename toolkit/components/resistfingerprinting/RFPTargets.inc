@@ -95,6 +95,11 @@ NavigatorUserAgent
 )
 ITEM_VALUE
 (
+PdfjsSpoof
+20
+)
+ITEM_VALUE
+(
 StreamVideoFacingMode
 21
 )
