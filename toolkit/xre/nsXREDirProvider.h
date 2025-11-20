@@ -311,6 +311,9 @@ nsIFile
 *
 *
 aFile
+bool
+*
+aWasFromEnv
 )
 ;
 static
@@ -385,6 +388,16 @@ nsIFile
 *
 aFile
 )
+;
+enum
+legacyOrXDGHomeTelemetry
+{
+empty
+legacyExists
+legacyForced
+xdgDefault
+xdgConfigHome
+}
 ;
 #
 endif
