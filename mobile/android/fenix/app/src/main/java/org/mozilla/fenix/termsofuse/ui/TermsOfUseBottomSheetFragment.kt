@@ -413,6 +413,13 @@ FirefoxTheme
 {
 TermsOfUseBottomSheet
 (
+showDragHandle
+=
+settings
+(
+)
+.
+shouldShowTermsOfUsePromptDragHandle
 onDismiss
 =
 {
