@@ -14,6 +14,13 @@ h
 >
 #
 include
+<
+csi_platform
+.
+h
+>
+#
+include
 "
 registry
 .
@@ -37,13 +44,6 @@ h
 include
 "
 r_errors
-.
-h
-"
-#
-include
-"
-nr_common
 .
 h
 "

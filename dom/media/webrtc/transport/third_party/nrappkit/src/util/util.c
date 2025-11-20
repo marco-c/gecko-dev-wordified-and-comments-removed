@@ -72,11 +72,11 @@ h
 endif
 #
 include
-"
-nr_common
+<
+csi_platform
 .
 h
-"
+>
 #
 include
 "
