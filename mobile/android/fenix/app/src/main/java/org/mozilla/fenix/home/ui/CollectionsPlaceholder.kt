@@ -627,15 +627,6 @@ CollectionsPlaceholderPreview
 FirefoxTheme
 {
 Surface
-(
-color
-=
-FirefoxTheme
-.
-colors
-.
-layer1
-)
 {
 Column
 (
