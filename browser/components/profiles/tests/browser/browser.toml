@@ -640,13 +640,6 @@ js
 "
 [
 "
-browser_migrate
-.
-js
-"
-]
-[
-"
 browser_moveTabToProfile
 .
 js
