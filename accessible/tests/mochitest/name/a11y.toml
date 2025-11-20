@@ -45,13 +45,6 @@ png
 ]
 [
 "
-test_ARIACore_examples
-.
-html
-"
-]
-[
-"
 test_browserui
 .
 xhtml
