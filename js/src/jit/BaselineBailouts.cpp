@@ -9421,7 +9421,7 @@ case
 BailoutKind
 :
 :
-MonomorphicInlinedStubFolding
+StubFoldingGuardMultipleShapes
 :
 action
 =
@@ -9434,14 +9434,6 @@ saveFailedICHash
 =
 true
 ;
-if
-(
-innerScript
-!
-=
-outerScript
-)
-{
 cx
 -
 >
@@ -9461,7 +9453,6 @@ innerScript
 outerScript
 )
 ;
-}
 break
 ;
 case

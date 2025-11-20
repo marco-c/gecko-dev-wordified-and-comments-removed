@@ -13581,6 +13581,11 @@ owningScript
 =
 nullptr
 ;
+bool
+hadGuardMultipleShapesBailout
+=
+false
+;
 if
 (
 cx
@@ -13617,9 +13622,13 @@ jitZone
 )
 -
 >
-stubFoldingBailoutParent
+stubFoldingBailoutOuter
 (
 )
+;
+hadGuardMultipleShapesBailout
+=
+true
 ;
 JitSpew
 (
@@ -13629,7 +13638,7 @@ Found
 stub
 folding
 bailout
-parent
+outer
 :
 %
 s
@@ -13716,6 +13725,9 @@ stub
 usedByTranspiler
 (
 )
+&
+&
+hadGuardMultipleShapesBailout
 )
 {
 if

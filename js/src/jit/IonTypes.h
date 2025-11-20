@@ -219,7 +219,7 @@ uint8_t
 {
 Unknown
 TranspiledCacheIR
-MonomorphicInlinedStubFolding
+StubFoldingGuardMultipleShapes
 SpeculativePhi
 TypePolicy
 LICM
@@ -284,11 +284,11 @@ case
 BailoutKind
 :
 :
-MonomorphicInlinedStubFolding
+StubFoldingGuardMultipleShapes
 :
 return
 "
-MonomorphicInlinedStubFolding
+StubFoldingGuardMultipleShapes
 "
 ;
 case
