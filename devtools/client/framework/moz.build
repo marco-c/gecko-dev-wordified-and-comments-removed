@@ -23,6 +23,13 @@ toml
 "
 test
 /
+browser_destroying_iframes
+.
+toml
+"
+"
+test
+/
 metrics
 /
 browser_metrics
