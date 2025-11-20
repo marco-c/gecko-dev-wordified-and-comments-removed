@@ -147,7 +147,6 @@ started
 const
 checkableGlobalPrefs
 =
-await
 WebCompatExtension
 .
 getCheckableGlobalPrefs

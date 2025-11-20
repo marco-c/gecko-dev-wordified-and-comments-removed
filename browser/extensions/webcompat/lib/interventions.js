@@ -4,7 +4,7 @@ strict
 "
 ;
 const
-debugLoggingPrefValue
+debugLoggingPrefPromise
 =
 browser
 .
@@ -20,13 +20,17 @@ disable_debug_logging
 let
 debugLog
 =
+async
 function
 (
 )
 {
 if
 (
-debugLoggingPrefValue
+(
+await
+debugLoggingPrefPromise
+)
 !
 =
 =
@@ -66,7 +70,7 @@ this
 INTERVENTION_PREF
 =
 "
-enable_interventions
+perform_injections
 "
 ;
 this
@@ -446,6 +450,7 @@ async
 const
 value
 =
+await
 browser
 .
 aboutConfigPrefs
@@ -797,6 +802,7 @@ toRecheck
 )
 ;
 }
+async
 _check_for_needed_prefs
 (
 intervention
@@ -872,6 +878,7 @@ pref
 listener
 )
 ;
+await
 browser
 .
 aboutConfigPrefs
@@ -930,6 +937,7 @@ checkedPrefCache
 set
 (
 pref
+await
 browser
 .
 aboutConfigPrefs
@@ -1150,6 +1158,7 @@ async
 const
 value
 =
+await
 browser
 .
 aboutConfigPrefs
@@ -1279,7 +1288,7 @@ browser
 .
 aboutConfigPrefs
 .
-getPref
+getBoolPrefSync
 (
 config
 .
@@ -1305,11 +1314,14 @@ false
 if
 (
 !
+(
+await
 this
 .
 _check_for_needed_prefs
 (
 intervention
+)
 )
 )
 {
@@ -1318,6 +1330,7 @@ continue
 }
 if
 (
+await
 InterventionHelpers
 .
 shouldSkip

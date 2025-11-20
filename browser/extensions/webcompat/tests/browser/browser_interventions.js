@@ -345,7 +345,6 @@ getResourceURI
 const
 checkableGlobalPrefs
 =
-await
 WebCompatExtension
 .
 getCheckableGlobalPrefs
