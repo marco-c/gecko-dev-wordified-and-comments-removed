@@ -213,6 +213,14 @@ System
 *
 /
 val
+static50
+:
+Dp
+=
+4
+.
+dp
+val
 static100
 :
 Dp
