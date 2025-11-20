@@ -114,6 +114,13 @@ js
 ]
 [
 "
+browser_aboutCertError_offlineSupport_feltPrivacyV1
+.
+js
+"
+]
+[
+"
 browser_aboutCertError_telemetry
 .
 js
