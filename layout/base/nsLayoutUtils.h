@@ -1007,6 +1007,14 @@ aScrollId
 )
 ;
 static
+void
+NotifyApzTransaction
+(
+ViewID
+aScrollId
+)
+;
+static
 mozilla
 :
 :
