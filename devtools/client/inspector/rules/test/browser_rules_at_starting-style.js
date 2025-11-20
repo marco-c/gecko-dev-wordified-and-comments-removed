@@ -756,6 +756,8 @@ declarations
 selector
 :
 body
+~
+~
 [
 data
 -
@@ -769,6 +771,8 @@ starting
 style
 "
 ]
+~
+~
 ancestorRulesData
 :
 [
@@ -800,6 +804,8 @@ navy
 selector
 :
 body
+~
+~
 [
 data
 -
@@ -815,6 +821,8 @@ style
 layer
 "
 ]
+~
+~
 ancestorRulesData
 :
 [
@@ -889,6 +897,8 @@ declarations
 selector
 :
 h1
+~
+~
 [
 data
 -
@@ -902,6 +912,8 @@ starting
 style
 "
 ]
+~
+~
 ancestorRulesData
 :
 [
@@ -978,6 +990,8 @@ gold
 selector
 :
 h1
+~
+~
 [
 data
 -
@@ -989,6 +1003,8 @@ top
 level
 "
 ]
+~
+~
 ancestorRulesData
 :
 null
@@ -1176,6 +1192,8 @@ true
 selector
 :
 main
+~
+~
 [
 data
 -
@@ -1187,6 +1205,8 @@ top
 level
 "
 ]
+~
+~
 ancestorRulesData
 :
 null
@@ -1497,6 +1517,8 @@ value
 selector
 :
 main
+~
+~
 [
 data
 -
@@ -1510,6 +1532,8 @@ starting
 style
 "
 ]
+~
+~
 ancestorRulesData
 :
 [
@@ -1780,6 +1804,8 @@ true
 selector
 :
 main
+~
+~
 [
 data
 -
@@ -1797,6 +1823,8 @@ layer
 2
 "
 ]
+~
+~
 ancestorRulesData
 :
 [
@@ -1888,6 +1916,8 @@ true
 selector
 :
 main
+~
+~
 [
 data
 -
@@ -1903,6 +1933,8 @@ style
 layer
 "
 ]
+~
+~
 ancestorRulesData
 :
 [

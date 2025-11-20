@@ -333,6 +333,8 @@ main
 selector
 :
 main
+~
+~
 [
 test
 =
@@ -340,6 +342,8 @@ test
 unregistered
 "
 ]
+~
+~
 inherited
 :
 true
@@ -366,6 +370,8 @@ brown
 selector
 :
 main
+~
+~
 [
 test
 =
@@ -373,6 +379,8 @@ test
 inherit
 "
 ]
+~
+~
 inherited
 :
 true
