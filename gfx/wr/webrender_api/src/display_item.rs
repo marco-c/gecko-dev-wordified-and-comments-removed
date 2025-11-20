@@ -807,7 +807,6 @@ PushStackingContextDisplayItem
 SetGradientStops
 SetFilterOps
 SetFilterData
-SetFilterPrimitives
 SetPoints
 PopReferenceFrame
 PopStackingContext
@@ -994,13 +993,6 @@ FilterOp
 SetFilterData
 (
 FilterData
-)
-SetFilterPrimitives
-(
-Vec
-<
-FilterPrimitive
->
 )
 SetPoints
 (
@@ -8738,15 +8730,6 @@ SetFilterData
 >
 "
 set_filter_data
-"
-DisplayItem
-:
-:
-SetFilterPrimitives
-=
->
-"
-set_filter_primitives
 "
 DisplayItem
 :
