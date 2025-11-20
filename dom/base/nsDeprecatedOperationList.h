@@ -190,3 +190,7 @@ DEPRECATED_OPERATION
 (
 FullscreenAttribute
 )
+DEPRECATED_OPERATION
+(
+XSLTDeprecated
+)
