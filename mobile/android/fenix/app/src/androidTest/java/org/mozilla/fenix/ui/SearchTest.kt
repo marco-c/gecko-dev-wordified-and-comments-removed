@@ -4154,11 +4154,8 @@ submitQuery
 queryString
 )
 {
-verifyPageContent
+waitForPageToLoad
 (
-"
-mozilla
-"
 )
 }
 .
