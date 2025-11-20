@@ -1884,12 +1884,7 @@ tabCount
 counts
 .
 normalTabCount
-textColor
-=
-LocalContentColor
-.
-current
-iconColor
+contentColor
 =
 LocalContentColor
 .
