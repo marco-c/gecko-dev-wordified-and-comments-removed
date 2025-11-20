@@ -8376,10 +8376,6 @@ if
 finalUpdate
 )
 {
-SwapMessageQueues
-(
-)
-;
 return
 true
 ;
@@ -8531,6 +8527,10 @@ WebCore
 :
 DenormalDisabler
 disabler
+;
+SwapMessageQueues
+(
+)
 ;
 RunMessagesInQueue
 (
@@ -10336,10 +10336,6 @@ MOZ_ASSERT
 MessagesQueued
 (
 )
-)
-;
-SwapMessageQueues
-(
 )
 ;
 LOG
