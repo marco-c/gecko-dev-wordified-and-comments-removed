@@ -3245,6 +3245,9 @@ true
 mirror
 :
 always
+#
+ifdef
+XP_MACOSX
 -
 name
 :
@@ -3262,6 +3265,8 @@ true
 mirror
 :
 always
+#
+endif
 -
 name
 :
