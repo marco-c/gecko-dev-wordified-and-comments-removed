@@ -5589,12 +5589,6 @@ get
 (
 )
 ;
-AutoUnsafeStackTrace
-aust
-(
-cx
-)
-;
 BigInt
 *
 bi

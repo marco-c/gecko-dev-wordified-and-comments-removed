@@ -2149,14 +2149,14 @@ false
 )
 PER_ARCH
 ;
+#
+ifdef
+JS_CHECK_UNSAFE_CALL_WITH_ABI
 void
 wasmCheckUnsafeCallWithABIPre
 (
 )
 ;
-#
-ifdef
-JS_CHECK_UNSAFE_CALL_WITH_ABI
 void
 wasmCheckUnsafeCallWithABIPost
 (
