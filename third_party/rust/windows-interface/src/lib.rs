@@ -2649,10 +2649,6 @@ fmt
 :
 :
 Formatter
-<
-'
-_
->
 )
 -
 >
@@ -3040,10 +3036,6 @@ parse
 :
 :
 ParseStream
-<
-'
-_
->
 )
 -
 >
@@ -3958,10 +3950,6 @@ parse
 :
 :
 ParseStream
-<
-'
-_
->
 )
 -
 >
@@ -4641,10 +4629,6 @@ parse
 :
 :
 ParseStream
-<
-'
-_
->
 )
 -
 >
@@ -4959,7 +4943,7 @@ output
 ;
 Ok
 (
-InterfaceMethod
+Self
 {
 name
 :

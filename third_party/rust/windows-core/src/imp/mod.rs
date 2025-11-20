@@ -16,6 +16,9 @@ rs
 )
 ;
 mod
+bindings
+;
+mod
 can_into
 ;
 mod
@@ -29,6 +32,16 @@ sha1
 ;
 mod
 weak_ref_count
+;
+pub
+(
+crate
+)
+use
+bindings
+:
+:
+*
 ;
 pub
 use
@@ -525,10 +538,6 @@ fmt
 :
 :
 Formatter
-<
-'
-_
->
 )
 -
 >
@@ -632,7 +641,7 @@ name
 (
 :
 :
-std
+core
 :
 :
 ptr
@@ -642,7 +651,7 @@ NonNull
 <
 :
 :
-std
+core
 :
 :
 ffi
@@ -729,10 +738,6 @@ fmt
 :
 :
 Formatter
-<
-'
-_
->
 )
 -
 >

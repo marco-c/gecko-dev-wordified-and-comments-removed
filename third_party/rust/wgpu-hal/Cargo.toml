@@ -2431,7 +2431,7 @@ version
 .
 2
 .
-171
+172
 "
 optional
 =
@@ -2517,11 +2517,14 @@ version
 "
 0
 .
-27
+28
 "
 features
 =
 [
+"
+hashbrown
+"
 "
 d3d12
 "
@@ -2608,7 +2611,7 @@ version
 "
 0
 .
-58
+62
 "
 optional
 =
@@ -2639,7 +2642,7 @@ version
 "
 0
 .
-58
+62
 "
 optional
 =

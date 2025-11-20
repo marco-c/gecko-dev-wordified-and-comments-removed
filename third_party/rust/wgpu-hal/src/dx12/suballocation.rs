@@ -56,6 +56,8 @@ name
 :
 :
 ObjectExt
+as
+_
 result
 :
 :
@@ -723,7 +725,7 @@ total_reserved_bytes
 :
 upstream
 .
-total_reserved_bytes
+total_capacity_bytes
 }
 }
 }

@@ -490,8 +490,6 @@ cursor_idx
 size
 ;
 }
-continue
-;
 }
 let
 bytes_used
@@ -731,9 +729,9 @@ format
 name
 :
 {
+name
 }
 "
-name
 )
 )
 ;

@@ -682,7 +682,7 @@ idx
 _
 )
 |
-std
+core
 :
 :
 cmp
@@ -818,7 +818,7 @@ _
 alloc
 )
 |
-std
+core
 :
 :
 cmp

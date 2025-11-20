@@ -127,6 +127,8 @@ self
 >
 usize
 {
+unsafe
+{
 PCWSTR
 (
 self
@@ -137,6 +139,7 @@ self
 len
 (
 )
+}
 }
 pub
 unsafe
@@ -150,6 +153,8 @@ self
 >
 bool
 {
+unsafe
+{
 self
 .
 len
@@ -158,6 +163,7 @@ len
 =
 =
 0
+}
 }
 pub
 unsafe
@@ -173,6 +179,8 @@ self
 [
 u16
 ]
+{
+unsafe
 {
 core
 :
@@ -191,6 +199,7 @@ len
 (
 )
 )
+}
 }
 pub
 unsafe
@@ -220,6 +229,8 @@ string
 FromUtf16Error
 >
 {
+unsafe
+{
 String
 :
 :
@@ -232,6 +243,7 @@ as_wide
 )
 )
 }
+}
 pub
 unsafe
 fn
@@ -242,10 +254,9 @@ self
 )
 -
 >
-Result
-<
 HSTRING
->
+{
+unsafe
 {
 HSTRING
 :
@@ -258,6 +269,7 @@ as_wide
 (
 )
 )
+}
 }
 pub
 unsafe
@@ -280,6 +292,8 @@ Display
 +
 '
 _
+{
+unsafe
 {
 Decode
 (
@@ -308,6 +322,28 @@ cloned
 (
 )
 )
+)
+}
+}
+}
+impl
+Default
+for
+PWSTR
+{
+fn
+default
+(
+)
+-
+>
+Self
+{
+Self
+:
+:
+null
+(
 )
 }
 }

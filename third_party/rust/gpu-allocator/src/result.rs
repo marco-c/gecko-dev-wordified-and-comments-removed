@@ -1,4 +1,13 @@
 use
+alloc
+:
+:
+string
+:
+:
+String
+;
+use
 thiserror
 :
 :
@@ -165,7 +174,7 @@ AllocationError
 =
 :
 :
-std
+core
 :
 :
 result

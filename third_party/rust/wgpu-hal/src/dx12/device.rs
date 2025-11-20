@@ -131,10 +131,14 @@ name
 :
 :
 ObjectExt
+as
+_
 result
 :
 :
 HResult
+as
+_
 }
 }
 dx12
@@ -10243,7 +10247,7 @@ bias
 slope_scale
 DepthClipEnable
 :
-Foundation
+windows_core
 :
 :
 BOOL
@@ -10260,7 +10264,7 @@ unclipped_depth
 )
 MultisampleEnable
 :
-Foundation
+windows_core
 :
 :
 BOOL
@@ -10454,7 +10458,7 @@ D3D12_BLEND_DESC
 {
 AlphaToCoverageEnable
 :
-Foundation
+windows_core
 :
 :
 BOOL

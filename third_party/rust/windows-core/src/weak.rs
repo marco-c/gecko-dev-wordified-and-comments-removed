@@ -57,6 +57,7 @@ I
 >
 {
 pub
+const
 fn
 new
 (
@@ -129,10 +130,7 @@ IWeakReferenceSource
 )
 -
 >
-Result
-<
 Self
->
 {
 let
 reference
@@ -150,13 +148,10 @@ ok
 )
 }
 ;
-Ok
-(
 Self
 (
 reference
 PhantomData
-)
 )
 }
 }

@@ -43,6 +43,7 @@ impl
 RefCount
 {
 pub
+const
 fn
 new
 (

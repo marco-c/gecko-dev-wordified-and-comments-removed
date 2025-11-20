@@ -86,8 +86,6 @@ T
 }
 impl
 <
-'
-a
 T
 :
 Interface
@@ -95,7 +93,7 @@ Interface
 ScopedInterface
 <
 '
-a
+_
 T
 >
 {
@@ -122,8 +120,6 @@ PhantomData
 }
 impl
 <
-'
-a
 T
 :
 Interface
@@ -139,7 +135,7 @@ for
 ScopedInterface
 <
 '
-a
+_
 T
 >
 {
@@ -167,8 +163,6 @@ interface
 }
 impl
 <
-'
-a
 T
 :
 Interface
@@ -178,7 +172,7 @@ for
 ScopedInterface
 <
 '
-a
+_
 T
 >
 {

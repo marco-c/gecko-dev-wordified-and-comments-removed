@@ -450,11 +450,11 @@ version
 =
 0
 .
-58
+60
 <
 0
 .
-60
+63
 "
 features
 =
@@ -472,6 +472,11 @@ Win32_NetworkManagement_Ndis
 Win32_Networking_WinSock
 "
 ]
+default
+-
+features
+=
+false
 [
 lints
 .

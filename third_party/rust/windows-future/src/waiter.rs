@@ -41,7 +41,7 @@ crate
 Result
 <
 (
-Waiter
+Self
 WaiterSignaler
 )
 >
@@ -90,7 +90,7 @@ crate
 Error
 :
 :
-from_win32
+from_thread
 (
 )
 )
@@ -100,7 +100,7 @@ else
 Ok
 (
 (
-Waiter
+Self
 (
 handle
 )
@@ -126,6 +126,8 @@ signal
 self
 )
 {
+unsafe
+{
 SetEvent
 (
 self
@@ -133,6 +135,7 @@ self
 0
 )
 ;
+}
 }
 }
 impl

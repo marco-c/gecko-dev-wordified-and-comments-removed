@@ -13,7 +13,7 @@ clippy
 all
 )
 ]
-windows_targets
+windows_link
 :
 :
 link
@@ -36,7 +36,7 @@ GetProcessHeap
 HANDLE
 )
 ;
-windows_targets
+windows_link
 :
 :
 link
@@ -76,7 +76,7 @@ ffi
 c_void
 )
 ;
-windows_targets
+windows_link
 :
 :
 link
@@ -116,7 +116,7 @@ c_void
 BOOL
 )
 ;
-windows_targets
+windows_link
 :
 :
 link
@@ -145,7 +145,7 @@ u32
 BSTR
 )
 ;
-windows_targets
+windows_link
 :
 :
 link
@@ -168,7 +168,7 @@ BSTR
 )
 )
 ;
-windows_targets
+windows_link
 :
 :
 link
@@ -209,16 +209,6 @@ const
 u16
 ;
 pub
-const
-E_OUTOFMEMORY
-:
-HRESULT
-=
-0x8007000E_u32
-as
-_
-;
-pub
 type
 HANDLE
 =
@@ -237,12 +227,6 @@ type
 HEAP_FLAGS
 =
 u32
-;
-pub
-type
-HRESULT
-=
-i32
 ;
 pub
 type

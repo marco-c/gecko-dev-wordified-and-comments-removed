@@ -251,9 +251,9 @@ format
 Heap
 :
 {
+i
 }
 "
-i
 )
 |
 ui
@@ -564,9 +564,9 @@ block
 count
 :
 {
+active_block_count
 }
 "
-active_block_count
 )
 )
 ;
@@ -611,9 +611,9 @@ format
 Block
 :
 {
+block_idx
 }
 "
-block_idx
 )
 |
 ui

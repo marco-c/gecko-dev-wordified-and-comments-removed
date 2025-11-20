@@ -60,16 +60,6 @@ handles
 :
 *
 ;
-mod
-variant
-;
-pub
-use
-variant
-:
-:
-*
-;
 pub
 use
 windows_strings
@@ -100,7 +90,7 @@ I
 imp
 :
 :
-factory
+load_factory
 :
 :
 <

@@ -29,6 +29,13 @@ use
 windows
 :
 :
+{
+core
+:
+:
+Interface
+as
+_
 Win32
 :
 :
@@ -42,12 +49,7 @@ Graphics
 :
 DirectComposition
 }
-;
-use
-windows_core
-:
-:
-Interface
+}
 ;
 use
 super
