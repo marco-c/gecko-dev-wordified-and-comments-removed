@@ -882,6 +882,13 @@ GpuBufferBlockF
 }
 ;
 pub
+use
+gpu_buffer
+:
+:
+GpuBufferDataF
+;
+pub
 const
 VERTEX_DATA_TEXTURE_COUNT
 :
