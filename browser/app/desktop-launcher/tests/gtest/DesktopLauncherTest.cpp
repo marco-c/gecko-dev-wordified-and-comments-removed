@@ -703,7 +703,7 @@ has_value
 )
 )
 ;
-ASSERT_NE
+ASSERT_EQ
 (
 std
 :
