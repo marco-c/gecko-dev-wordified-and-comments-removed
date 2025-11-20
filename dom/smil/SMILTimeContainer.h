@@ -100,6 +100,13 @@ uint32_t
 aType
 )
 ;
+void
+PauseAt
+(
+SMILTime
+aTime
+)
+;
 virtual
 void
 Resume
@@ -365,6 +372,12 @@ mCurrentTime
 ;
 SMILTime
 mParentOffset
+;
+Maybe
+<
+SMILTime
+>
+mPauseTime
 ;
 SMILTime
 mPauseStart
