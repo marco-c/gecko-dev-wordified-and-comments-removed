@@ -5772,12 +5772,6 @@ resetInternalState
 :
 void
 ;
-resetSession
-(
-)
-:
-void
-;
 }
 interface
 nsIAutoCompleteInput
@@ -6209,12 +6203,6 @@ nsIAutoCompleteObserver
 void
 ;
 stopSearch
-(
-)
-:
-void
-;
-resetSession
 (
 )
 :
