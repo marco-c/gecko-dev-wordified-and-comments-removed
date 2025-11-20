@@ -214,13 +214,6 @@ html
 ]
 [
 "
-test_notification_euc_kr
-.
-html
-"
-]
-[
-"
 test_notification_insecure_context
 .
 html

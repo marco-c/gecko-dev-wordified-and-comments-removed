@@ -304,7 +304,7 @@ Pure
 ]
 readonly
 attribute
-DOMString
+UTF8String
 ?
 icon
 ;
@@ -473,7 +473,7 @@ tag
 "
 "
 ;
-DOMString
+UTF8String
 icon
 =
 "
