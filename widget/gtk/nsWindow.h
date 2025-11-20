@@ -1859,6 +1859,13 @@ return
 mGdkWindow
 ;
 }
+void
+SetGdkWindow
+(
+GdkWindow
+*
+aGdkWindow
+)
 ;
 GdkWindow
 *
