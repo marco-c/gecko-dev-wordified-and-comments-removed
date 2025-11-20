@@ -457,6 +457,7 @@ WR_FEATURE_TEXTURE_2D
 include
 shared
 prim_shared
+gpu_buffer
 varying
 highp
 vec2
@@ -1678,7 +1679,7 @@ mat_data
 4
 ]
 =
-fetch_from_gpu_cache_4_direct
+fetch_from_gpu_buffer_4f_direct
 (
 aFilterExtraDataAddress
 )
@@ -1707,7 +1708,7 @@ mat_data
 ;
 vFilterData0
 =
-fetch_from_gpu_cache_1_direct
+fetch_from_gpu_buffer_1f_direct
 (
 aFilterExtraDataAddress
 +
@@ -1749,7 +1750,7 @@ arithmetic
 parameters
 vFilterData0
 =
-fetch_from_gpu_cache_1_direct
+fetch_from_gpu_buffer_1f_direct
 (
 aFilterExtraDataAddress
 )
@@ -1876,7 +1877,7 @@ FILTER_DROP_SHADOW
 :
 vFilterData0
 =
-fetch_from_gpu_cache_1_direct
+fetch_from_gpu_buffer_1f_direct
 (
 aFilterExtraDataAddress
 )
@@ -1905,7 +1906,7 @@ FILTER_DROP_SHADOW_CONVERTSRGB
 :
 vFilterData0
 =
-fetch_from_gpu_cache_1_direct
+fetch_from_gpu_buffer_1f_direct
 (
 aFilterExtraDataAddress
 )

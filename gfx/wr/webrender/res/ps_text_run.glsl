@@ -60,6 +60,7 @@ MPL
 include
 shared
 prim_shared
+gpu_buffer
 flat
 varying
 mediump
@@ -379,7 +380,7 @@ data
 2
 ]
 =
-fetch_from_gpu_cache_2
+fetch_from_gpu_buffer_2f
 (
 address
 )
