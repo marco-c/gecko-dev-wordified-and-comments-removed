@@ -550,8 +550,11 @@ gURLBar
 .
 setURI
 (
-null
+{
+dueToTabSwitch
+:
 true
+}
 )
 ;
 Assert
@@ -839,8 +842,11 @@ gURLBar
 .
 setURI
 (
-null
+{
+dueToTabSwitch
+:
 true
+}
 )
 ;
 Assert

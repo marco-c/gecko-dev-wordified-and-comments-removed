@@ -171,7 +171,11 @@ gURLBar
 .
 setURI
 (
+{
+uri
+:
 nonSerpUri
+}
 )
 ;
 Assert
@@ -312,7 +316,11 @@ gURLBar
 .
 setURI
 (
+{
+uri
+:
 nonSerpUri
+}
 )
 ;
 Assert

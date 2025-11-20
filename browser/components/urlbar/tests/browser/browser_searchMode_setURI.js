@@ -783,7 +783,9 @@ gURLBar
 .
 setURI
 (
+{
 uri
+}
 )
 ;
 await

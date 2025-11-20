@@ -20,10 +20,14 @@ gURLBar
 .
 setURI
 (
+{
+uri
+:
 makeURI
 (
 url
 )
+}
 )
 ;
 let

@@ -1802,9 +1802,13 @@ urlbarInput
 .
 setURI
 (
+{
+uri
+:
 uriInfo
 .
 fixedURI
+}
 )
 ;
 return
