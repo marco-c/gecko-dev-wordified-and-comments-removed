@@ -144,11 +144,6 @@ include
 regex
 >
 #
-include
-<
-string
->
-#
 ifdef
 XP_WIN
 #

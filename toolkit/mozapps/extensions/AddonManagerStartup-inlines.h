@@ -6,11 +6,6 @@ define
 AddonManagerStartup_inlines_h
 #
 include
-<
-utility
->
-#
-include
 "
 js
 /

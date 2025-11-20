@@ -18,16 +18,6 @@ stdint
 .
 h
 >
-#
-include
-<
-string
->
-#
-include
-<
-vector
->
 bool
 ElfFileSoVersion
 (
