@@ -13612,6 +13612,9 @@ return
 eNameOK
 ;
 }
+bool
+usedHiddenContent
+=
 nsTextEquivUtils
 :
 :
@@ -13642,6 +13645,10 @@ IsEmpty
 )
 {
 return
+usedHiddenContent
+?
+eNameOK
+:
 eNameFromRelations
 ;
 }
@@ -13996,6 +14003,11 @@ Document
 this
 )
 ;
+bool
+usedHiddenContent
+=
+false
+;
 while
 (
 (
@@ -14009,6 +14021,9 @@ Next
 )
 )
 {
+usedHiddenContent
+|
+=
 nsTextEquivUtils
 :
 :
@@ -14043,6 +14058,10 @@ IsEmpty
 )
 {
 return
+usedHiddenContent
+?
+eNameOK
+:
 eNameFromRelations
 ;
 }
