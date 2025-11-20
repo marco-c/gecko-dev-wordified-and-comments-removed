@@ -3625,6 +3625,9 @@ CompileShader
 DrawShader
 =
 1
+FontFile
+=
+2
 }
 pub
 trait
