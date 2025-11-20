@@ -946,17 +946,6 @@ static
 constexpr
 nsStaticAtom
 *
-NameValueFlag
-=
-nsGkAtoms
-:
-:
-explicit_name
-;
-static
-constexpr
-nsStaticAtom
-*
 NumericValue
 =
 nsGkAtoms
