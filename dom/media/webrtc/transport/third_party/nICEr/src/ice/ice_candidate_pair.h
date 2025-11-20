@@ -220,6 +220,14 @@ move_to_wait_state
 )
 ;
 int
+nr_ice_candidate_pair_select
+(
+nr_ice_cand_pair
+*
+pair
+)
+;
+int
 nr_ice_candidate_pair_do_triggered_check
 (
 nr_ice_peer_ctx

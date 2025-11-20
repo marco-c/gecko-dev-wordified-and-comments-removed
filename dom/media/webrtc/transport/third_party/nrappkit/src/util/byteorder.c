@@ -1,4 +1,11 @@
 #
+include
+"
+nr_common
+.
+h
+"
+#
 ifndef
 WIN32
 #
@@ -12,13 +19,6 @@ h
 >
 #
 endif
-#
-include
-<
-csi_platform
-.
-h
->
 #
 include
 "
