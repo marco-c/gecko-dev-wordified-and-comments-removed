@@ -4757,6 +4757,27 @@ False
             
 if
 "
+chrome
+-
+unity
+-
+webgl
+"
+in
+try_name
+and
+"
+windows11
+"
+in
+platform
+:
+                
+return
+False
+            
+if
+"
 windows11
 "
 in
