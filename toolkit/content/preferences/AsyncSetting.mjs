@@ -252,8 +252,11 @@ updated
 *
 /
 emitChange
+=
 (
 )
+=
+>
 {
 this
 .
@@ -265,6 +268,7 @@ change
 )
 ;
 }
+;
 /
 *
 *
