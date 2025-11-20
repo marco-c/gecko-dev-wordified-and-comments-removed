@@ -2151,16 +2151,6 @@ resetSession
 (
 )
 {
-this
-.
-#
-suggestionController
-?
-.
-resetSession
-(
-)
-;
 }
 #
 suggestionController
