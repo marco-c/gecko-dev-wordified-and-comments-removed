@@ -312,7 +312,7 @@ aOffsets
 void
 ReflowAbsoluteFrame
 (
-nsIFrame
+nsContainerFrame
 *
 aDelegatingFrame
 nsPresContext
