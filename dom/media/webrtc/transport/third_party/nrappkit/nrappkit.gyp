@@ -160,17 +160,6 @@ h
 /
 src
 /
-share
-/
-nr_reg_keys
-.
-h
-'
-'
-.
-/
-src
-/
 port
 /
 generic
