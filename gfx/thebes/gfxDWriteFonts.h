@@ -41,6 +41,13 @@ h
 #
 include
 "
+gfxDWriteCommon
+.
+h
+"
+#
+include
+"
 gfxFont
 .
 h

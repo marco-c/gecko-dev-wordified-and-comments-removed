@@ -1802,6 +1802,7 @@ aSizes
 )
 const
 ;
+virtual
 size_t
 ComputedSizeOfExcludingThis
 (
@@ -1811,7 +1812,6 @@ mozilla
 MallocSizeOf
 aMallocSizeOf
 )
-const
 ;
 struct
 ScriptRange
@@ -2958,11 +2958,6 @@ mGrFaceRefCnt
 friend
 class
 gfxFontEntryCallbacks
-;
-uint32_t
-mComputedSizeOfUserFont
-=
-0
 ;
 uint16_t
 mUnitsPerEm

@@ -7027,6 +7027,10 @@ data
 )
 ;
 }
+MOZ_DEFINE_MALLOC_SIZE_OF_ON_ALLOC
+(
+UserFontMallocSizeOfOnAlloc
+)
 gfxFontEntry
 *
 CoreTextFontList
@@ -7166,6 +7170,16 @@ aStretchForEntry
 aStyleForEntry
 true
 false
+)
+;
+newFontEntry
+-
+>
+mComputedSizeOfUserFont
+=
+UserFontMallocSizeOfOnAlloc
+(
+aFontData
 )
 ;
 return
