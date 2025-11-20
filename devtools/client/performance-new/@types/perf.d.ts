@@ -803,6 +803,11 @@ duration
 :
 number
 ;
+mozLogs
+?
+:
+string
+;
 }
 export
 type
@@ -1537,6 +1542,11 @@ profilerViewMode
 ?
 :
 ProfilerViewMode
+;
+mozLogs
+?
+:
+string
 ;
 l10nIds
 :
