@@ -247,9 +247,7 @@ static
 int
 nr_reg_local_init
 (
-nr_registry_module
-*
-me
+void
 )
 ;
 static
@@ -4195,9 +4193,7 @@ _status
 int
 nr_reg_local_init
 (
-nr_registry_module
-*
-me
+void
 )
 {
 int

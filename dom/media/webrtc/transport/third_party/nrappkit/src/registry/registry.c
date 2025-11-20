@@ -271,7 +271,6 @@ vtbl
 >
 init
 (
-mode
 )
 )
 )
