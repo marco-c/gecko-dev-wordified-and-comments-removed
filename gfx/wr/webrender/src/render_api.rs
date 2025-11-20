@@ -3858,7 +3858,6 @@ SetBatchingLookback
 (
 u32
 )
-InvalidateGpuCache
 SimulateLongSceneBuild
 (
 u32
@@ -6481,14 +6480,6 @@ clip_stores
 :
 usize
 pub
-gpu_cache_metadata
-:
-usize
-pub
-gpu_cache_cpu_mirror
-:
-usize
-pub
 hit_testers
 :
 usize
@@ -6534,10 +6525,6 @@ frame_allocator
 usize
 pub
 render_tasks
-:
-usize
-pub
-gpu_cache_textures
 :
 usize
 pub
