@@ -587,13 +587,6 @@ scrollBehavior
 scrollBehavior
 )
 }
-containerColor
-=
-MaterialTheme
-.
-colorScheme
-.
-surface
 modifier
 =
 Modifier
