@@ -582,17 +582,6 @@ src
 /
 registry
 /
-registry_vtbl
-.
-h
-'
-'
-.
-/
-src
-/
-registry
-/
 registrycb
 .
 c
