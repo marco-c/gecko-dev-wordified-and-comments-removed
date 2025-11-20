@@ -45,16 +45,6 @@ len
 )
 ;
 int
-nr_has_stun_cookie
-(
-UCHAR
-*
-buf
-size_t
-len
-)
-;
-int
 nr_stun_message_length
 (
 UCHAR
