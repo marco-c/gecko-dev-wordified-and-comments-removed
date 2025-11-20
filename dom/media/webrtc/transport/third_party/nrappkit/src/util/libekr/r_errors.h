@@ -303,17 +303,6 @@ possible
 }
 \
 }
-int
-nr_verr_exit
-(
-char
-*
-fmt
-.
-.
-.
-)
-;
 char
 *
 nr_strerror
