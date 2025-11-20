@@ -224,10 +224,6 @@ TimeStampToDOMHighRes
 aStartTime
 )
 )
-mDuration
-(
-0
-)
 mCancelable
 (
 aIsCancelable
@@ -722,6 +718,11 @@ event
 return
 RawDuration
 (
+)
+.
+valueOr
+(
+0
 )
 >
 =

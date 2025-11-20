@@ -333,6 +333,8 @@ aDuration
 {
 mDuration
 =
+Some
+(
 std
 :
 :
@@ -344,9 +346,13 @@ aDuration
 )
 *
 8
+)
 ;
 }
+Maybe
+<
 DOMHighResTimeStamp
+>
 RawDuration
 (
 )
@@ -382,6 +388,11 @@ nsRFPService
 ReduceTimePrecisionAsMSecs
 (
 mDuration
+.
+valueOr
+(
+0
+)
 mPerformance
 -
 >
@@ -583,7 +594,10 @@ DOMHighResTimeStamp
 >
 mCachedStartTime
 ;
+Maybe
+<
 DOMHighResTimeStamp
+>
 mDuration
 ;
 mutable
