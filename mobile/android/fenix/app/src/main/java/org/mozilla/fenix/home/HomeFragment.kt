@@ -3861,7 +3861,7 @@ true
 {
 val
 toolbarStore
-=
+by
 buildToolbarStore
 (
 activity
@@ -7809,6 +7809,9 @@ requireActivity
 )
 as
 HomeActivity
+fragment
+=
+this
 modifier
 =
 modifier
@@ -7835,9 +7838,6 @@ navController
 findNavController
 (
 )
-lifecycleOwner
-=
-this
 tabId
 =
 args

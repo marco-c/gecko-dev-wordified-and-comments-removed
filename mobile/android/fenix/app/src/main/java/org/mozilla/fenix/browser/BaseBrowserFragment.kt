@@ -7559,7 +7559,7 @@ BrowserToolbarComposable
 {
 val
 toolbarStore
-=
+by
 buildToolbarStore
 (
 activity
@@ -7948,6 +7948,9 @@ AwesomeBarComposable
 activity
 =
 activity
+fragment
+=
+this
 modifier
 =
 modifier
@@ -7974,9 +7977,6 @@ navController
 findNavController
 (
 )
-lifecycleOwner
-=
-this
 showScrimWhenNoSuggestions
 =
 true
