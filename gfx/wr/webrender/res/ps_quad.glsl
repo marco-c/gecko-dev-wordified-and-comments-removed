@@ -134,7 +134,9 @@ buffer
 -
 +
 (
-sGpuCache
+float
+gpu
+buffer
 )
 /
 /
@@ -361,7 +363,9 @@ quad
 flags
 |
 (
-sGpuCache
+float
+gpu
+buffer
 )
 |
 Quad
