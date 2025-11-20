@@ -5203,6 +5203,8 @@ stderr
 )
                 
 if
+(
+                    
 "
 MOZ_AUTOMATION
 "
@@ -5210,6 +5212,17 @@ in
 os
 .
 environ
+                    
+or
+"
+SNAPCRAFT_BUILD_INFO
+"
+in
+os
+.
+environ
+                
+)
 :
                     
 upload_dir
