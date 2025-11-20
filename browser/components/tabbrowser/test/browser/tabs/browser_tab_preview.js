@@ -4327,7 +4327,7 @@ TabGrouped
 ;
 gBrowser
 .
-moveTabToExisitingGroup
+moveTabToGroup
 (
 newTab
 group
