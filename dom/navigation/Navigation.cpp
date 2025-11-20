@@ -4459,6 +4459,11 @@ UserNavigationInvolvement
 aUserInvolvement
 )
 {
+InnerInformAboutAbortingNavigation
+(
+aCx
+)
+;
 RefPtr
 <
 NavigationHistoryEntry
