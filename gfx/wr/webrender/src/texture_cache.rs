@@ -7708,6 +7708,7 @@ new
 (
 &
 memory
+0
 )
 ;
 let
