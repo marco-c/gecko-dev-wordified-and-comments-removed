@@ -266,6 +266,11 @@ RTCEncodedFrameBase
 (
 )
 ;
+void
+DetachData
+(
+)
+;
 RTCEncodedFrameBase
 (
 const
