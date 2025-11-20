@@ -352,6 +352,9 @@ jit
 class
 CallInfo
 ;
+class
+ShapeListSnapshot
+;
 #
 ifdef
 JS_JITSPEW
