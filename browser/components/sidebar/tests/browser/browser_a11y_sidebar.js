@@ -619,6 +619,8 @@ toolButtons
 0
 ]
 .
+buttonEl
+.
 getAttribute
 (
 "
@@ -651,6 +653,8 @@ toolButtons
 [
 1
 ]
+.
+buttonEl
 .
 getAttribute
 (
@@ -725,6 +729,8 @@ toolButtons
 [
 0
 ]
+.
+buttonEl
 .
 getAttribute
 (
