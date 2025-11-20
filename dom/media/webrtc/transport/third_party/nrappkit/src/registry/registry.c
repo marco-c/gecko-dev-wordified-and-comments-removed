@@ -186,9 +186,6 @@ NR_TOP_LEVEL_REGISTRY
 int
 NR_reg_init
 (
-void
-*
-mode
 )
 {
 int
@@ -203,7 +200,7 @@ module
 nr_registry_module
 *
 )
-mode
+NR_REG_MODE_LOCAL
 ;
 #
 ifdef

@@ -501,7 +501,6 @@ RLogConnector
 ;
 NR_reg_init
 (
-NR_REG_MODE_LOCAL
 )
 ;
 r_log_set_extra_destination

@@ -65,17 +65,10 @@ void
 *
 NR_REG_MODE_LOCAL
 ;
-extern
-void
-*
-NR_REG_MODE_REMOTE
-;
 int
 NR_reg_init
 (
 void
-*
-mode
 )
 ;
 int
