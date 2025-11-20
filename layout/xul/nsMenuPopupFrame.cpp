@@ -12876,8 +12876,6 @@ mozilla
 WidgetGUIEvent
 *
 aEvent
-bool
-aUseAttachedEvents
 )
 {
 MOZ_ASSERT

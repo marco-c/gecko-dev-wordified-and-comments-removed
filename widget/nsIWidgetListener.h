@@ -393,8 +393,6 @@ mozilla
 WidgetGUIEvent
 *
 aEvent
-bool
-aUseAttachedEvents
 )
 {
 return

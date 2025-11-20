@@ -1847,13 +1847,6 @@ InitData
 )
 ;
 void
-AttachViewToTopLevel
-(
-bool
-aUseAttachedEvents
-)
-;
-void
 SetAttachedWidgetListener
 (
 nsIWidgetListener
@@ -5908,9 +5901,6 @@ mSavedBounds
 ;
 bool
 mUpdateCursor
-;
-bool
-mUseAttachedEvents
 ;
 bool
 mIMEHasFocus

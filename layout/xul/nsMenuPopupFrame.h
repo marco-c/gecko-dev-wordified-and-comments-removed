@@ -722,8 +722,6 @@ mozilla
 WidgetGUIEvent
 *
 aEvent
-bool
-aUseAttachedEvents
 )
 override
 ;
