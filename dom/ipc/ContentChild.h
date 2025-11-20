@@ -1310,6 +1310,17 @@ ipc
 :
 :
 IPCResult
+RecvInvalidateScriptCache
+(
+)
+;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvClearImageCache
 (
 const

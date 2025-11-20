@@ -4027,6 +4027,11 @@ aURL
 )
 ;
 async
+InvalidateScriptCache
+(
+)
+;
+async
 SetOffline
 (
 bool

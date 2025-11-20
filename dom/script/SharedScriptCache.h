@@ -1021,6 +1021,11 @@ SaveToDiskCache
 (
 )
 ;
+void
+InvalidateInProcess
+(
+)
+;
 static
 void
 LoadCompleted
@@ -1099,6 +1104,12 @@ aURL
 Nothing
 (
 )
+)
+;
+static
+void
+Invalidate
+(
 )
 ;
 static
