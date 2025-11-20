@@ -103,6 +103,11 @@ WasmCompile
 cpp
 "
 "
+WasmContext
+.
+cpp
+"
+"
 WasmDebug
 .
 cpp
