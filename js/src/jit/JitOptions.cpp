@@ -472,12 +472,6 @@ baselineInterpreter
 true
 )
 ;
-SET_DEFAULT
-(
-disableObjectKeysScalarReplacement
-false
-)
-;
 #
 ifdef
 ENABLE_PORTABLE_BASELINE_INTERP
