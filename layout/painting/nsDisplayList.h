@@ -888,7 +888,6 @@ enum
 class
 ASRKind
 {
-Root
 Scroll
 Sticky
 }
@@ -912,7 +911,7 @@ mKind
 ASRKind
 :
 :
-Root
+Scroll
 ;
 NS_INLINE_DECL_REFCOUNTING
 (
