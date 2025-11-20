@@ -2824,7 +2824,6 @@ schedules
             
 print
 (
-                
 "
 BugBug
 did
@@ -2836,6 +2835,20 @@ for
 your
 changes
 .
+"
+)
+        
+if
+not
+schedules
+and
+not
+what
+:
+            
+print
+(
+"
 Consider
 specifying
 tests
@@ -2846,11 +2859,10 @@ suite
 name
 .
 "
-            
 )
             
 return
-0
+1
         
 test_paths
 =
