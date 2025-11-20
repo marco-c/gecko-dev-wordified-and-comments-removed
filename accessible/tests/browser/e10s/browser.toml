@@ -195,13 +195,6 @@ js
 ]
 [
 "
-browser_caching_description
-.
-js
-"
-]
-[
-"
 browser_caching_document_props
 .
 js
@@ -255,13 +248,6 @@ js
 [
 "
 browser_caching_large_update
-.
-js
-"
-]
-[
-"
-browser_caching_name
 .
 js
 "

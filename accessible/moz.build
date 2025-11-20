@@ -255,6 +255,17 @@ tests
 /
 browser
 /
+name_and_description
+/
+browser
+.
+toml
+"
+"
+tests
+/
+browser
+/
 performance
 /
 perftest
