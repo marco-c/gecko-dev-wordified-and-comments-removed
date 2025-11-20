@@ -28,7 +28,7 @@ class
 WarpBuilder
 ;
 class
-WarpCacheIR
+WarpCacheIRBase
 ;
 [
 [
@@ -44,7 +44,7 @@ builder
 BytecodeLocation
 loc
 const
-WarpCacheIR
+WarpCacheIRBase
 *
 cacheIRSnapshot
 std

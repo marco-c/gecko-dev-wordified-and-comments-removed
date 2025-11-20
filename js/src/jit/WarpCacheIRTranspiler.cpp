@@ -255,6 +255,11 @@ BytecodeLocation
 loc_
 ;
 const
+WarpCacheIRBase
+*
+cacheIRSnapshot_
+;
+const
 CacheIRStubInfo
 *
 stubInfo_
@@ -1896,7 +1901,7 @@ CallInfo
 *
 callInfo
 const
-WarpCacheIR
+WarpCacheIRBase
 *
 cacheIRSnapshot
 )
@@ -1929,6 +1934,10 @@ builder
 loc_
 (
 loc
+)
+cacheIRSnapshot_
+(
+cacheIRSnapshot
 )
 stubInfo_
 (
@@ -37832,7 +37841,7 @@ builder
 BytecodeLocation
 loc
 const
-WarpCacheIR
+WarpCacheIRBase
 *
 cacheIRSnapshot
 std
