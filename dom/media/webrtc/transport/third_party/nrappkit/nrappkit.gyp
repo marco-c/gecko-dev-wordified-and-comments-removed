@@ -505,17 +505,6 @@ async_wait
 .
 h
 '
-'
-.
-/
-src
-/
-event
-/
-async_wait_int
-.
-h
-'
 #
 Logging
 '
