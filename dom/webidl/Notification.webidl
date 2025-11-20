@@ -278,7 +278,6 @@ Pure
 readonly
 attribute
 DOMString
-?
 lang
 ;
 [
@@ -287,7 +286,6 @@ Pure
 readonly
 attribute
 DOMString
-?
 body
 ;
 [
@@ -296,7 +294,6 @@ Constant
 readonly
 attribute
 DOMString
-?
 tag
 ;
 [
@@ -305,7 +302,6 @@ Pure
 readonly
 attribute
 UTF8String
-?
 icon
 ;
 [
