@@ -1724,10 +1724,10 @@ WindowsSSO
 "
 Windows10SSO
 "
-Backup
+BrowserDataBackup
 :
 "
-BrowserDataBackup
+Backup
 "
 }
 ;
