@@ -10059,6 +10059,13 @@ aSize
 ConvertsToPercentage
 (
 )
+|
+|
+aSize
+.
+BehavesLikeStretchOnBlockAxis
+(
+)
 ;
 }
 ;
