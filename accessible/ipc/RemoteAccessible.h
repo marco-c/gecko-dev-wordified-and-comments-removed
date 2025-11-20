@@ -782,7 +782,6 @@ aName
 )
 const
 override
-final
 ;
 virtual
 EDescriptionValueFlag
@@ -2049,7 +2048,7 @@ override
 ;
 nsTArray
 <
-Accessible
+RemoteAccessible
 *
 >
 LegendsOrCaptions

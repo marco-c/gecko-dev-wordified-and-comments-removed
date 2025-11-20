@@ -403,7 +403,7 @@ override
 ;
 virtual
 ENameValueFlag
-DirectName
+Name
 (
 nsString
 &
@@ -569,7 +569,7 @@ override
 ;
 virtual
 ENameValueFlag
-DirectName
+Name
 (
 nsString
 &

@@ -98,15 +98,6 @@ nsIContent
 aContent
 )
 {
-if
-(
-!
-aContent
-)
-{
-return
-;
-}
 nsIFrame
 *
 frame

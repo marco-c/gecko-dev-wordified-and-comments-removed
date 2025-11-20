@@ -5314,9 +5314,6 @@ nsIAccessibleEvent
 EVENT_NAME_CHANGE
 :
 {
-CacheDomainActivationBlocker
-cacheBlocker
-;
 nsAutoString
 nameNotUsed
 ;
