@@ -4278,6 +4278,8 @@ surface_index
 ;
 let
 prim_local_rect
+:
+LayoutRect
 =
 frame_state
 .
@@ -4324,6 +4326,10 @@ frame_gpu_data
 .
 f32
 prim_local_rect
+.
+to_untyped
+(
+)
 prim_instance
 .
 vis
@@ -4331,6 +4337,10 @@ vis
 clip_chain
 .
 local_clip_rect
+.
+to_untyped
+(
+)
 pattern
 .
 base_color
