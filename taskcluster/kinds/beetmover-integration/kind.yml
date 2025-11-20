@@ -194,6 +194,8 @@ projects
 :
 [
 autoland
+-
+only
 ]
 treeherder
 :
