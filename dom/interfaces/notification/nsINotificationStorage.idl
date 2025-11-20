@@ -147,7 +147,7 @@ tag
 ;
 readonly
 attribute
-AString
+ACString
 icon
 ;
 readonly

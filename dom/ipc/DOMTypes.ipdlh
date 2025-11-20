@@ -1319,7 +1319,8 @@ body
 nsString
 tag
 ;
-nsString
+nullable
+nsIURI
 icon
 ;
 bool
