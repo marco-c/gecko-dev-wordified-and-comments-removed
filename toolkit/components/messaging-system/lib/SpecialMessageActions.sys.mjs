@@ -2165,6 +2165,16 @@ const
 allowedSetOnImpressionPrefs
 =
 [
+"
+termsofuse
+.
+firstAcceptedDate
+"
+"
+termsofuse
+.
+acceptedDate
+"
 ]
 ;
 const
