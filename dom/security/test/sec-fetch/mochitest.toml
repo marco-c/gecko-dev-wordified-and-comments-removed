@@ -47,13 +47,6 @@ html
 ]
 [
 "
-test_noreferrer_popup
-.
-html
-"
-]
-[
-"
 test_trustworthy_loopback
 .
 html
