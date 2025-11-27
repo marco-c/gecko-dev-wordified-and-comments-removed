@@ -17578,6 +17578,11 @@ SelectorParsingState
 :
 :
 DISALLOW_RELATIVE_SELECTOR
+|
+SelectorParsingState
+:
+:
+AFTER_PSEUDO
 )
 {
 return
