@@ -192,7 +192,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bugs
 1858041
@@ -202,6 +201,7 @@ for
 causing
 intermittent
 crashes
+]
 [
 "
 browser_protectionsUI_icon_state

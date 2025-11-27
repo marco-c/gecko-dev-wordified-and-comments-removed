@@ -32,7 +32,6 @@ os
 win
 '
 "
-]
 #
 https
 :
@@ -51,6 +50,7 @@ cgi
 id
 =
 1641280
+]
 [
 "
 test_navigator_share_consume_user_activation

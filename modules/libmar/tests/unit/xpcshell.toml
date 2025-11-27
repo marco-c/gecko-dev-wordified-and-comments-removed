@@ -37,7 +37,6 @@ android
 !
 msix
 "
-]
 #
 Updates
 are
@@ -45,6 +44,7 @@ disabled
 for
 MSIX
 builds
+]
 [
 "
 test_create

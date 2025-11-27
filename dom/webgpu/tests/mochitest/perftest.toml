@@ -24,7 +24,6 @@ if
 "
 verify
 "
-]
 #
 test
 -
@@ -40,6 +39,7 @@ so
 skip
 them
 .
+]
 prefs
 =
 [

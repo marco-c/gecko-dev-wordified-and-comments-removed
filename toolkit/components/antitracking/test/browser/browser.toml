@@ -9,7 +9,6 @@ if
 "
 debug
 "
-]
 #
 bug
 1884982
@@ -22,6 +21,7 @@ to
 run
 on
 debug
+]
 prefs
 =
 [
@@ -883,10 +883,10 @@ if
 "
 true
 "
-]
 #
 Bug
 1588241
+]
 [
 "
 browser_partitionedServiceWorkers
@@ -982,10 +982,10 @@ win
 &
 debug
 "
-]
 #
 Bug
 1645505
+]
 [
 "
 browser_referrerDefaultPolicy
@@ -1512,10 +1512,10 @@ aarch64
 &
 debug
 "
-]
 #
 Bug
 1775745
+]
 [
 "
 browser_staticPartition_network
@@ -1822,10 +1822,10 @@ if
 "
 debug
 "
-]
 #
 Bug
 1700551
+]
 [
 "
 browser_storageAccess_cookies_on_grant

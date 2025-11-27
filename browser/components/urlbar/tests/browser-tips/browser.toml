@@ -116,7 +116,6 @@ if
 !
 msix
 "
-]
 #
 Updater
 is
@@ -124,6 +123,7 @@ disabled
 in
 MSIX
 builds
+]
 [
 "
 browser_updateRefresh
@@ -140,7 +140,6 @@ if
 !
 msix
 "
-]
 #
 Updater
 is
@@ -148,6 +147,7 @@ disabled
 in
 MSIX
 builds
+]
 [
 "
 browser_updateRestart
@@ -164,7 +164,6 @@ if
 !
 msix
 "
-]
 #
 Updater
 is
@@ -172,6 +171,7 @@ disabled
 in
 MSIX
 builds
+]
 [
 "
 browser_updateWeb
@@ -188,7 +188,6 @@ if
 !
 msix
 "
-]
 #
 Updater
 is
@@ -196,3 +195,4 @@ disabled
 in
 MSIX
 builds
+]

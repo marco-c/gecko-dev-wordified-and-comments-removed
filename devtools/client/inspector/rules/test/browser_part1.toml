@@ -507,7 +507,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -891,7 +891,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -905,6 +904,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_rules_completion
@@ -924,7 +924,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -938,6 +937,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_rules_completion
@@ -957,7 +957,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -971,6 +970,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_rules_completion
@@ -1121,6 +1121,8 @@ js
 [
 "
 browser_rules_custom
+-
+states
 .
 js
 "
@@ -1128,8 +1130,6 @@ js
 [
 "
 browser_rules_custom
--
-states
 .
 js
 "
@@ -1195,7 +1195,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -1209,6 +1208,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_rules_edit
@@ -1309,7 +1309,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -1323,6 +1322,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_rules_edit
@@ -1434,7 +1434,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -1448,6 +1447,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_rules_edit
@@ -1491,7 +1491,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -1505,6 +1504,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_rules_edit
@@ -1671,7 +1671,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -1685,6 +1684,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_rules_edit
@@ -1719,7 +1719,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1984832
@@ -1735,6 +1734,7 @@ asserts
 the
 wrong
 element
+]
 [
 "
 browser_rules_edit
@@ -1845,7 +1845,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -1863,22 +1863,9 @@ x11
 &
 debug
 "
-]
 #
 Bug
 1781473
-[
-"
-browser_rules_variables
--
-jump
--
-to
--
-definition
-.
-js
-"
 ]
 [
 "
@@ -1902,6 +1889,19 @@ in
 pseudo
 -
 element_02
+.
+js
+"
+]
+[
+"
+browser_rules_variables
+-
+jump
+-
+to
+-
+definition
 .
 js
 "
@@ -1958,6 +1958,13 @@ js
 ]
 [
 "
+browser_rules_variables_unused
+.
+js
+"
+]
+[
+"
 browser_rules_variables_unused_add_property
 .
 js
@@ -1966,13 +1973,6 @@ js
 [
 "
 browser_rules_variables_unused_filtering
-.
-js
-"
-]
-[
-"
-browser_rules_variables_unused
 .
 js
 "

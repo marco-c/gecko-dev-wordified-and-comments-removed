@@ -35,10 +35,10 @@ os
 android
 '
 "
-]
 #
 bug
 1886601
+]
 lineno
 =
 "
@@ -64,10 +64,10 @@ os
 android
 '
 "
-]
 #
 bug
 1886601
+]
 lineno
 =
 "
@@ -93,10 +93,10 @@ os
 android
 '
 "
-]
 #
 bug
 1886601
+]
 [
 "
 test_Telemetry
@@ -117,10 +117,10 @@ os
 android
 '
 "
-]
 #
 bug
 1886601
+]
 run
 -
 sequentially

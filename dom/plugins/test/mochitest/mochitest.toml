@@ -9,7 +9,6 @@ if
 "
 headless
 "
-]
 #
 crash
 on
@@ -17,6 +16,7 @@ shutdown
 no
 other
 failures
+]
 support
 -
 files

@@ -180,7 +180,6 @@ if
 !
 msix
 "
-]
 #
 Updater
 is
@@ -188,6 +187,7 @@ disabled
 in
 MSIX
 builds
+]
 [
 "
 browser_policy_app_update
@@ -204,7 +204,6 @@ if
 !
 msix
 "
-]
 #
 Updater
 is
@@ -212,6 +211,7 @@ disabled
 in
 MSIX
 builds
+]
 [
 "
 browser_policy_background_app_update
@@ -228,7 +228,6 @@ if
 !
 msix
 "
-]
 #
 Updater
 is
@@ -236,6 +235,7 @@ disabled
 in
 MSIX
 builds
+]
 [
 "
 browser_policy_block_about

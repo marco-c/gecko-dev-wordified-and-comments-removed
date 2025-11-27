@@ -7,10 +7,10 @@ if
 =
 [
 "
-http3
-"
-"
 http2
+"
+"
+http3
 "
 ]
 support
@@ -159,7 +159,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -177,10 +177,10 @@ x11
 &
 debug
 "
-]
 #
 Bug
 1879751
+]
 [
 "
 test_websocket1
@@ -222,7 +222,6 @@ os
 android
 '
 "
-]
 #
 ssltunnel
 can
@@ -231,6 +230,7 @@ t
 handle
 WSS
 scheme
+]
 [
 "
 test_websocket5
@@ -251,7 +251,6 @@ os
 android
 '
 "
-]
 #
 ssltunnel
 can
@@ -260,6 +259,7 @@ t
 handle
 WSS
 scheme
+]
 [
 "
 test_websocket_basic
@@ -340,7 +340,6 @@ os
 android
 '
 "
-]
 #
 ssltunnel
 can
@@ -349,6 +348,7 @@ t
 handle
 WSS
 scheme
+]
 [
 "
 test_websocket_mixed_content_blob
@@ -385,7 +385,6 @@ os
 android
 '
 "
-]
 #
 ssltunnel
 can
@@ -394,6 +393,7 @@ t
 handle
 WSS
 scheme
+]
 [
 "
 test_websocket_mixed_content_opener
@@ -419,7 +419,6 @@ os
 android
 '
 "
-]
 #
 ssltunnel
 can
@@ -428,6 +427,7 @@ t
 handle
 WSS
 scheme
+]
 [
 "
 test_websocket_no_duplicate_packet
@@ -453,7 +453,6 @@ os
 android
 '
 "
-]
 #
 ssltunnel
 can
@@ -462,6 +461,7 @@ t
 handle
 WSS
 scheme
+]
 [
 "
 test_websocket_permessage_deflate
@@ -553,10 +553,10 @@ if
 "
 socketprocess_networking
 "
-]
 #
 bug
 1787044
+]
 [
 "
 test_worker_websocket3
@@ -610,7 +610,6 @@ os
 android
 '
 "
-]
 #
 ssltunnel
 can
@@ -619,6 +618,7 @@ t
 handle
 WSS
 scheme
+]
 [
 "
 test_worker_websocket5

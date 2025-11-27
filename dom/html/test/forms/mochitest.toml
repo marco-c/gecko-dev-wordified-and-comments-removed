@@ -235,17 +235,17 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
 x86_64
 '
 "
-]
 #
 Bug
 1929441
+]
 [
 "
 test_input_color_picker_datalist
@@ -466,7 +466,6 @@ os
 android
 '
 "
-]
 #
 Not
 run
@@ -481,6 +480,7 @@ buttons
 are
 hidden
 :
+]
 skip
 -
 if
@@ -505,7 +505,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -515,10 +515,10 @@ x86_64
 &
 debug
 "
-]
 #
 Bug
 1484442
+]
 [
 "
 test_input_number_placeholder_shown
@@ -637,10 +637,10 @@ os
 android
 '
 "
-]
 #
 Bug
 1535985
+]
 [
 "
 test_input_textarea_set_value_no_scroll
@@ -909,7 +909,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -935,7 +935,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -977,7 +977,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -1003,7 +1003,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '

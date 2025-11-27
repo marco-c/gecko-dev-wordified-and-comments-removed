@@ -156,7 +156,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -175,10 +175,10 @@ x11
 !
 opt
 "
-]
 #
 Bug
 1879751
+]
 [
 "
 test_gamepad_hidden_frame

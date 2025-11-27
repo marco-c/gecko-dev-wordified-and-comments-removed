@@ -79,7 +79,6 @@ os
 mac
 '
 "
-]
 #
 on
 Mac
@@ -98,6 +97,7 @@ run
 on
 the
 compositor
+]
 [
 "
 browser_windowless_troubleshoot_crash

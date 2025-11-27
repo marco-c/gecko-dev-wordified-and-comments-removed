@@ -166,7 +166,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -206,7 +206,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -343,7 +343,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -383,7 +383,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -412,7 +412,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -444,7 +444,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -503,7 +503,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -543,7 +543,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -575,7 +575,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '

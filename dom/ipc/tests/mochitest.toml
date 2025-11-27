@@ -46,10 +46,10 @@ if
 =
 [
 "
-http3
-"
-"
 http2
+"
+"
+http3
 "
 ]
 [
@@ -76,10 +76,10 @@ if
 =
 [
 "
-http3
-"
-"
 http2
+"
+"
+http3
 "
 ]
 [
@@ -89,7 +89,7 @@ test_temporaryfile_stream
 html
 "
 ]
-skip
+run
 -
 if
 =
@@ -99,6 +99,7 @@ os
 =
 =
 '
+!
 android
 '
 "

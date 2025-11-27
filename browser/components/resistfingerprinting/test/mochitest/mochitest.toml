@@ -36,7 +36,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -184,7 +184,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -199,10 +199,10 @@ display
 x11
 '
 "
-]
 #
 Bug
 1792846
+]
 [
 "
 test_geolocation

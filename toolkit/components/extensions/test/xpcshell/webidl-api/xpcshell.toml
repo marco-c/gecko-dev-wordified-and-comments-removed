@@ -272,7 +272,7 @@ android
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -282,10 +282,10 @@ x86_64
 &
 debug
 "
-]
 #
 Bug
 1716308
+]
 [
 "
 test_ext_webidl_api_request_handler

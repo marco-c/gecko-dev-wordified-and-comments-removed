@@ -44,7 +44,7 @@ os
 =
 =
 '
-win
+mac
 '
 "
 #
@@ -61,7 +61,7 @@ os
 =
 =
 '
-mac
+win
 '
 "
 #
@@ -90,7 +90,6 @@ win
 &
 msix
 "
-]
 #
 These
 tests
@@ -128,6 +127,7 @@ cgi
 id
 =
 1805911
+]
 [
 "
 browser_aboutwelcome_campaign_actions
@@ -145,7 +145,7 @@ os
 =
 =
 '
-win
+mac
 '
 "
 #
@@ -163,7 +163,7 @@ os
 =
 =
 '
-mac
+win
 '
 "
 #
@@ -193,7 +193,6 @@ win
 &
 msix
 "
-]
 #
 Attribution
 code
@@ -203,6 +202,7 @@ written
 for
 MSIX
 builds
+]
 [
 "
 browser_aboutwelcome_configurable_ui
@@ -246,7 +246,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1854514
@@ -257,6 +256,7 @@ may
 not
 be
 focusable
+]
 [
 "
 browser_aboutwelcome_mobile_downloads
@@ -313,15 +313,35 @@ linux
 '
 &
 &
-bits
+os_version
 =
 =
-64
+'
+24
+.
+04
+'
+&
+&
+arch
+=
+=
+'
+x86_64
+'
+&
+&
+display
+=
+=
+'
+x11
+'
 "
-]
 #
 Bug
 1757875
+]
 [
 "
 browser_aboutwelcome_multistage_mr
@@ -370,7 +390,7 @@ os
 =
 =
 '
-win
+mac
 '
 "
 #
@@ -387,7 +407,7 @@ os
 =
 =
 '
-mac
+win
 '
 "
 #
@@ -416,7 +436,6 @@ win
 &
 msix
 "
-]
 #
 These
 tests
@@ -454,6 +473,7 @@ cgi
 id
 =
 1805911
+]
 [
 "
 browser_aboutwelcome_screen_targeting

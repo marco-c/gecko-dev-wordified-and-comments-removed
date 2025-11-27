@@ -37,10 +37,10 @@ if
 "
 nightly_build
 "
-]
 #
 Bug
 1890946
+]
 [
 "
 browser_pdfjs_alttext_telemetry
@@ -56,10 +56,10 @@ if
 "
 nightly_build
 "
-]
 #
 Bug
 1890946
+]
 [
 "
 browser_pdfjs_alttext_two_tabs
@@ -75,10 +75,10 @@ if
 "
 nightly_build
 "
-]
 #
 Bug
 1890946
+]
 [
 "
 browser_pdfjs_caret_browsing_mode
@@ -147,7 +147,6 @@ if
 !
 headless
 "
-]
 #
 the
 headless
@@ -157,6 +156,7 @@ recognizes
 unicode
 mime
 type
+]
 [
 "
 browser_pdfjs_editing_telemetry

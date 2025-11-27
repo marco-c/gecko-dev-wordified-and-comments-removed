@@ -235,7 +235,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1953248
@@ -246,6 +245,7 @@ testing
 multiple
 tab
 prompts
+]
 skip
 -
 if
@@ -270,7 +270,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -291,10 +291,10 @@ debug
 &
 socketprocess_networking
 "
-]
 #
 Bug
 1970150
+]
 [
 "
 browser_prompt_closed_window

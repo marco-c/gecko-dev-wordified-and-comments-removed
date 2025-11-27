@@ -67,10 +67,8 @@ if
 =
 [
 "
-!
-debug
+opt
 "
-]
 #
 Intentionally
 triggers
@@ -82,6 +80,7 @@ missing
 Fluent
 arguments
 .
+]
 [
 "
 test_pseudo

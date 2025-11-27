@@ -34,7 +34,6 @@ os
 android
 '
 "
-]
 #
 Push
 notifications
@@ -46,6 +45,7 @@ disabled
 on
 Android
 .
+]
 [
 "
 test_broadcast_success
@@ -457,7 +457,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '

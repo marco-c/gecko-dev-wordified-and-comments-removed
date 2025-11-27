@@ -383,7 +383,6 @@ if
 "
 verify
 "
-]
 #
 Bug
 1852375
@@ -402,6 +401,7 @@ with
 pushPrefEnv
 (
 )
+]
 [
 "
 browser_glean_telemetry_engagement_tips

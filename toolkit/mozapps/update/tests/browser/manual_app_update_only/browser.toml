@@ -125,7 +125,6 @@ if
 !
 msix
 "
-]
 #
 Updater
 is
@@ -133,6 +132,7 @@ disabled
 in
 MSIX
 builds
+]
 [
 "
 browser_aboutDialog_fc_autoUpdateFalse

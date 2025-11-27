@@ -201,10 +201,10 @@ if
 "
 fission
 "
-]
 #
 Bug
 1827754
+]
 [
 "
 test_ext_tabs_executeScript
@@ -276,13 +276,13 @@ if
 "
 true
 "
-]
 #
 tab
 .
 lastAccessed
 not
 implemented
+]
 [
 "
 test_ext_tabs_onUpdated

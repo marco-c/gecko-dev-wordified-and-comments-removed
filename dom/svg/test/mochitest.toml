@@ -468,7 +468,6 @@ if
 "
 true
 "
-]
 #
 disabled
 -
@@ -482,6 +481,7 @@ failures
 bug
 -
 701060
+]
 [
 "
 test_length

@@ -260,7 +260,6 @@ if
 "
 true
 "
-]
 #
 Bug
 1765369
@@ -271,6 +270,7 @@ on
 all
 platforms
 .
+]
 [
 "
 browser_webconsole_warning_groups

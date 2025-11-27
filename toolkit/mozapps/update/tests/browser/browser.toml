@@ -95,7 +95,6 @@ if
 !
 msix
 "
-]
 #
 Updater
 is
@@ -103,6 +102,7 @@ disabled
 in
 MSIX
 builds
+]
 #
 About
 Dialog
@@ -264,7 +264,6 @@ win
 !
 msix
 "
-]
 #
 "
 test
@@ -277,6 +276,7 @@ file
 deletion
 .
 "
+]
 tags
 =
 "
@@ -486,7 +486,6 @@ win
 !
 msix
 "
-]
 #
 "
 test
@@ -499,6 +498,7 @@ file
 deletion
 .
 "
+]
 tags
 =
 "
@@ -655,7 +655,6 @@ win
 !
 msix
 "
-]
 #
 "
 test
@@ -668,6 +667,7 @@ file
 deletion
 .
 "
+]
 tags
 =
 "
@@ -766,13 +766,13 @@ os_version
 =
 =
 '
-18
+24
 .
 04
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -780,15 +780,17 @@ x86_64
 '
 &
 &
+display
+=
+=
+'
+x11
+'
+&
+&
 opt
-&
-&
-a11y_checks
 "
 ]
-#
-Bug
-1909498
 [
 "
 browser_doorhanger_bc_multiUpdate_promptWaitTime

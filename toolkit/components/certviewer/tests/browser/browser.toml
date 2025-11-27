@@ -88,10 +88,10 @@ if
 "
 true
 "
-]
 #
 Bug
 1596313
+]
 [
 "
 browser_checkStandAlonePage
@@ -128,10 +128,10 @@ if
 "
 true
 "
-]
 #
 Bug
 1626853
+]
 [
 "
 browser_openTabAndSendCertInfo

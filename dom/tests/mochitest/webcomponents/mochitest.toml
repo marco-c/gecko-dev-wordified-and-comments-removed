@@ -158,7 +158,6 @@ if
 "
 debug
 "
-]
 #
 TestFunctions
 only
@@ -166,6 +165,7 @@ applied
 in
 debug
 builds
+]
 [
 "
 test_custom_element_upgrade
@@ -299,7 +299,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -352,7 +352,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '

@@ -89,7 +89,6 @@ if
 "
 msix
 "
-]
 #
 Bug
 1984762
@@ -108,9 +107,17 @@ secondary
 tile
 pinning
 .
+]
 [
 "
 browser_taskbarTabs_telemetry
+.
+js
+"
+]
+[
+"
+browser_taskbarTabs_title
 .
 js
 "

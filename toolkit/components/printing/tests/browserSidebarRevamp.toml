@@ -90,7 +90,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -111,7 +111,7 @@ opt
 &
 socketprocess_networking
 "
-]
 #
 Bug
 1775883
+]

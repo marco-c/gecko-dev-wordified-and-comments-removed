@@ -109,7 +109,6 @@ if
 "
 false
 "
-]
 #
 Only
 used
@@ -118,6 +117,7 @@ recreating
 migration_emptyValue_profile
 .
 zip
+]
 [
 "
 make_somedata
@@ -133,7 +133,6 @@ if
 "
 false
 "
-]
 #
 Only
 used
@@ -142,6 +141,7 @@ recreating
 somedata_profile
 .
 zip
+]
 [
 "
 test_archive

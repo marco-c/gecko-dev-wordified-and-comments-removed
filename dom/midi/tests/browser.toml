@@ -78,7 +78,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1858041
@@ -104,6 +103,7 @@ fails
 on
 Autoland
 )
+]
 [
 "
 browser_refresh_port_list

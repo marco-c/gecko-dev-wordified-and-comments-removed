@@ -123,9 +123,9 @@ if
 "
 xorigin
 "
-]
 #
 NotAllowedError
+]
 run
 -
 if
@@ -139,7 +139,6 @@ os
 win
 '
 "
-]
 #
 Bug
 1718296
@@ -162,6 +161,7 @@ with
 tests
 .
 )
+]
 [
 "
 test_webauthn_abort_signal
@@ -191,7 +191,6 @@ os
 win
 '
 "
-]
 #
 Bug
 1718296
@@ -214,6 +213,7 @@ with
 tests
 .
 )
+]
 skip
 -
 if
@@ -227,7 +227,6 @@ os
 android
 '
 "
-]
 #
 Test
 sets
@@ -245,6 +244,7 @@ t
 applicable
 to
 android
+]
 [
 "
 test_webauthn_attestation_conveyance
@@ -260,9 +260,9 @@ if
 "
 xorigin
 "
-]
 #
 NotAllowedError
+]
 run
 -
 if
@@ -276,7 +276,6 @@ os
 win
 '
 "
-]
 #
 Bug
 1718296
@@ -299,6 +298,7 @@ with
 tests
 .
 )
+]
 [
 "
 test_webauthn_authenticator_selection
@@ -314,9 +314,9 @@ if
 "
 xorigin
 "
-]
 #
 NotAllowedError
+]
 run
 -
 if
@@ -330,7 +330,6 @@ os
 win
 '
 "
-]
 #
 Bug
 1718296
@@ -353,6 +352,7 @@ with
 tests
 .
 )
+]
 [
 "
 test_webauthn_authenticator_transports
@@ -368,9 +368,9 @@ if
 "
 xorigin
 "
-]
 #
 NotAllowedError
+]
 run
 -
 if
@@ -384,7 +384,6 @@ os
 win
 '
 "
-]
 #
 Bug
 1718296
@@ -407,6 +406,7 @@ with
 tests
 .
 )
+]
 [
 "
 test_webauthn_crossorigin_featurepolicy
@@ -422,7 +422,6 @@ if
 "
 xorigin
 "
-]
 #
 Cross
 -
@@ -435,6 +434,7 @@ a
 feature
 policy
 .
+]
 [
 "
 test_webauthn_ctap2_omitted_credential_id
@@ -450,9 +450,9 @@ if
 "
 xorigin
 "
-]
 #
 NotAllowedError
+]
 [
 "
 test_webauthn_get_assertion
@@ -468,9 +468,9 @@ if
 "
 xorigin
 "
-]
 #
 NotAllowedError
+]
 run
 -
 if
@@ -484,7 +484,6 @@ os
 win
 '
 "
-]
 #
 Bug
 1718296
@@ -507,6 +506,7 @@ with
 tests
 .
 )
+]
 skip
 -
 if
@@ -520,7 +520,6 @@ os
 android
 '
 "
-]
 #
 Test
 sets
@@ -538,6 +537,7 @@ t
 applicable
 to
 android
+]
 [
 "
 test_webauthn_get_assertion_dead_object
@@ -558,7 +558,6 @@ os
 win
 '
 "
-]
 #
 Bug
 1718296
@@ -581,6 +580,7 @@ with
 tests
 .
 )
+]
 [
 "
 test_webauthn_in_xhtml
@@ -624,7 +624,6 @@ os
 win
 '
 "
-]
 #
 Bug
 1718296
@@ -647,6 +646,7 @@ with
 tests
 .
 )
+]
 skip
 -
 if
@@ -655,7 +655,6 @@ if
 "
 xorigin
 "
-]
 #
 Hangs
 JavaScript
@@ -688,6 +687,7 @@ not
 be
 cloned
 .
+]
 [
 "
 test_webauthn_make_credential
@@ -703,9 +703,9 @@ if
 "
 xorigin
 "
-]
 #
 NotAllowedError
+]
 run
 -
 if
@@ -719,7 +719,6 @@ os
 win
 '
 "
-]
 #
 Bug
 1718296
@@ -742,6 +741,7 @@ with
 tests
 .
 )
+]
 [
 "
 test_webauthn_no_token
@@ -762,7 +762,6 @@ os
 win
 '
 "
-]
 #
 Bug
 1718296
@@ -785,11 +784,33 @@ with
 tests
 .
 )
+]
 skip
 -
 if
 =
 [
+"
+os
+=
+=
+'
+android
+'
+"
+#
+Test
+disables
+all
+tokens
+which
+is
+an
+unsupported
+configuration
+on
+android
+.
 "
 xorigin
 "
@@ -824,27 +845,6 @@ not
 be
 cloned
 .
-"
-os
-=
-=
-'
-android
-'
-"
-#
-Test
-disables
-all
-tokens
-which
-is
-an
-unsupported
-configuration
-on
-android
-.
 ]
 [
 "
@@ -861,9 +861,9 @@ if
 "
 xorigin
 "
-]
 #
 NotAllowedError
+]
 run
 -
 if
@@ -877,7 +877,6 @@ os
 win
 '
 "
-]
 #
 Bug
 1718296
@@ -900,6 +899,7 @@ with
 tests
 .
 )
+]
 [
 "
 test_webauthn_sameoriginwithancestors
@@ -920,7 +920,6 @@ os
 win
 '
 "
-]
 #
 Bug
 1718296
@@ -943,6 +942,7 @@ with
 tests
 .
 )
+]
 skip
 -
 if
@@ -951,7 +951,6 @@ if
 "
 xorigin
 "
-]
 #
 this
 test
@@ -962,6 +961,7 @@ cross
 -
 origin
 setup
+]
 [
 "
 test_webauthn_serialization
@@ -993,9 +993,9 @@ if
 "
 xorigin
 "
-]
 #
 NotAllowedError
+]
 run
 -
 if
@@ -1009,7 +1009,6 @@ os
 win
 '
 "
-]
 #
 Bug
 1718296
@@ -1032,6 +1031,7 @@ with
 tests
 .
 )
+]
 [
 "
 test_webauthn_webdriver_virtual_authenticator
@@ -1047,7 +1047,6 @@ if
 "
 xorigin
 "
-]
 #
 Cross
 -
@@ -1060,3 +1059,4 @@ a
 feature
 policy
 .
+]

@@ -137,7 +137,6 @@ linux
 &
 opt
 "
-]
 #
 Results
 should
@@ -151,6 +150,7 @@ on
 linux64
 -
 opt
+]
 skip
 -
 if
@@ -159,7 +159,6 @@ if
 "
 verify
 "
-]
 #
 metrics
 tests
@@ -192,3 +191,4 @@ the
 first
 load
 .
+]

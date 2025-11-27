@@ -73,7 +73,6 @@ if
 "
 true
 "
-]
 #
 Bug
 1819284
@@ -85,6 +84,7 @@ for
 regular
 manifest
 .
+]
 [
 "
 test_file_put_deleted

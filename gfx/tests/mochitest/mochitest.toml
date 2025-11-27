@@ -21,10 +21,10 @@ os
 win
 '
 "
-]
 #
 Bug
 1430530
+]
 subsuite
 =
 "
@@ -57,7 +57,7 @@ if
 =
 [
 "
-debug
+asan
 "
 #
 Race
@@ -76,7 +76,7 @@ debug
 /
 ASan
 "
-asan
+debug
 "
 #
 Race

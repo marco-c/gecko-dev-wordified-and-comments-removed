@@ -273,7 +273,6 @@ if
 "
 true
 "
-]
 #
 Crashes
 :
@@ -309,6 +308,7 @@ const
 #
 Bug
 1578337
+]
 [
 "
 browser_storage_recovery

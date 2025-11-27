@@ -9,7 +9,6 @@ if
 "
 debug
 "
-]
 #
 bug
 1884982
@@ -22,6 +21,7 @@ to
 run
 on
 debug
+]
 prefs
 =
 [

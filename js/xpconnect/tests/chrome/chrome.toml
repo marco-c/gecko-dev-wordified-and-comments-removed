@@ -985,12 +985,13 @@ if
 =
 [
 "
-bits
+arch
 =
 =
-32
+'
+x86
+'
 "
-]
 #
 Large
 ArrayBuffers
@@ -1001,6 +1002,7 @@ on
 -
 bit
 .
+]
 [
 "
 test_xrayToExplicitResourceManagement

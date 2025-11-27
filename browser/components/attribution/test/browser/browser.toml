@@ -32,12 +32,12 @@ os
 mac
 '
 "
-]
 #
 macOS
 only
 telemetry
 .
+]
 [
 "
 browser_AttributionCode_telemetry

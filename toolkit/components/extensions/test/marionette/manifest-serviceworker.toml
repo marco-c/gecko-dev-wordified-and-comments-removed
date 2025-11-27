@@ -1,16 +1,14 @@
 [
 DEFAULT
 ]
-skip
+run
 -
 if
 =
 [
 "
-!
 nightly_build
 "
-]
 #
 MOZ_WEBEXT_WEBIDL_ENABLED
 is
@@ -18,6 +16,7 @@ only
 defined
 on
 nightly
+]
 [
 "
 test_extension_serviceworkers_purged_on_pref_disabled

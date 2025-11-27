@@ -16,10 +16,8 @@ if
 =
 [
 "
-!
-debug
+opt
 "
-]
 #
 Intentionally
 triggers
@@ -31,6 +29,7 @@ missing
 Fluent
 arguments
 .
+]
 [
 "
 localization
@@ -46,10 +45,8 @@ if
 =
 [
 "
-!
-debug
+opt
 "
-]
 #
 Intentionally
 triggers
@@ -61,6 +58,7 @@ missing
 Fluent
 arguments
 .
+]
 [
 "
 localization
@@ -76,10 +74,8 @@ if
 =
 [
 "
-!
-debug
+opt
 "
-]
 #
 Intentionally
 triggers
@@ -91,3 +87,4 @@ missing
 Fluent
 arguments
 .
+]

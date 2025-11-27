@@ -141,10 +141,10 @@ aarch64
 &
 opt
 "
-]
 #
 Bug
 1775635
+]
 [
 "
 browser_sanitize

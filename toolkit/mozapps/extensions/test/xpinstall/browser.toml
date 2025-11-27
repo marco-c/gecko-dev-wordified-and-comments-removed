@@ -196,7 +196,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -214,10 +214,10 @@ x11
 &
 opt
 "
-]
 #
 Bug
 1815128
+]
 [
 "
 browser_empty
@@ -275,7 +275,6 @@ if
 "
 debug
 "
-]
 #
 This
 is
@@ -289,6 +288,7 @@ in
 the
 test
 .
+]
 [
 "
 browser_offline

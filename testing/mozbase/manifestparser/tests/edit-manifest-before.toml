@@ -226,11 +226,12 @@ linux
 '
 &
 &
-version
+os_version
 =
 =
 '
-18
+22
+.
 04
 '
 "

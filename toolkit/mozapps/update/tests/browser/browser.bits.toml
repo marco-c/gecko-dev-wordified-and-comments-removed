@@ -18,7 +18,6 @@ win
 !
 msix
 "
-]
 #
 "
 BITS
@@ -29,6 +28,7 @@ on
 Windows
 .
 "
+]
 dupe
 -
 manifest

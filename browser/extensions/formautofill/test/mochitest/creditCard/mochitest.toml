@@ -134,9 +134,6 @@ if
 =
 [
 "
-xorigin
-"
-"
 os
 =
 =
@@ -147,6 +144,9 @@ android
 #
 bug
 1730213
+"
+xorigin
+"
 ]
 [
 "
@@ -201,7 +201,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -238,7 +238,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '

@@ -166,12 +166,12 @@ if
 "
 true
 "
-]
 #
 Keeps
 failing
 on
 CI
+]
 support
 -
 files
@@ -328,10 +328,10 @@ linux
 '
 )
 "
-]
 #
 Bug
 1403815
+]
 support
 -
 files

@@ -43,7 +43,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -61,7 +61,7 @@ x11
 &
 a11y_checks
 "
-]
 #
 Bug
 1970561
+]

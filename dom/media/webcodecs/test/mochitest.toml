@@ -111,7 +111,6 @@ os
 android
 '
 "
-]
 #
 WebCodecs
 isn
@@ -121,6 +120,7 @@ enabled
 yet
 on
 Android
+]
 [
 "
 test_rfp_api_disabling_disabled

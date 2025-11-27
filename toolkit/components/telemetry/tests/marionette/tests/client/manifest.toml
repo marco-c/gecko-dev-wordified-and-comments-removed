@@ -44,7 +44,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -54,10 +54,10 @@ x86_64
 &
 debug
 "
-]
 #
 Bug
 1935204
+]
 [
 "
 test_fog_usage_reporting
@@ -89,7 +89,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -121,7 +121,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -145,6 +145,12 @@ if
 =
 [
 "
+artifact
+"
+#
+Bug
+1898464
+"
 os
 =
 =
@@ -163,7 +169,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -195,7 +201,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -205,12 +211,6 @@ x86_64
 #
 Bug
 1945328
-"
-artifact
-"
-#
-Bug
-1898464
 ]
 [
 "

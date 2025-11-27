@@ -32,9 +32,6 @@ if
 =
 [
 "
-debug
-"
-"
 asan
 "
 #
@@ -58,6 +55,9 @@ tracks
 the
 ccov
 failure
+"
+debug
+"
 "
 tsan
 "

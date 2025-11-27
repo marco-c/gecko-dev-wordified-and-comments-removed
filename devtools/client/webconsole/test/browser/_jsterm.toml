@@ -480,10 +480,10 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
+]
 [
 "
 browser_jsterm_autocomplete_helpers
@@ -756,7 +756,6 @@ os
 mac
 '
 "
-]
 #
 The
 tested
@@ -767,6 +766,7 @@ shortcuts
 are
 OSX
 only
+]
 [
 "
 browser_jsterm_document_no_xray
@@ -873,10 +873,10 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
+]
 [
 "
 browser_jsterm_editor_reverse_search_button
@@ -1046,10 +1046,10 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
+]
 [
 "
 browser_jsterm_history
@@ -1135,10 +1135,10 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
+]
 [
 "
 browser_jsterm_multiline

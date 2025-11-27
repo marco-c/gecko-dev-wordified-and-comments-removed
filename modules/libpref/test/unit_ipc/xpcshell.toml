@@ -62,7 +62,6 @@ if
 "
 debug
 "
-]
 #
 Relies
 on
@@ -73,6 +72,7 @@ catch
 failure
 cases
 .
+]
 [
 "
 test_update_prefs

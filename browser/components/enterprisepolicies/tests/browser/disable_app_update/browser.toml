@@ -72,7 +72,6 @@ win
 &
 msix
 "
-]
 #
 Updater
 is
@@ -80,6 +79,7 @@ disabled
 in
 MSIX
 builds
+]
 [
 "
 browser_policy_disable_app_update

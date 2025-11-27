@@ -283,7 +283,6 @@ os
 android
 '
 "
-]
 #
 MultiInstanceLock
 doesn
@@ -292,6 +291,7 @@ t
 work
 on
 Android
+]
 [
 "
 test_backgroundtask_shouldprocessupdates

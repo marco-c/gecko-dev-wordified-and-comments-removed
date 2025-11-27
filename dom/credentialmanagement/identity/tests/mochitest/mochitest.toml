@@ -86,7 +86,7 @@ if
 =
 [
 "
-xorigin
+http2
 "
 "
 http3
@@ -95,7 +95,7 @@ http3
 Bug
 1838420
 "
-http2
+xorigin
 "
 ]
 support

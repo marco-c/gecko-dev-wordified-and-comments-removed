@@ -156,7 +156,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -174,10 +174,10 @@ x11
 &
 ccov
 "
-]
 #
 Bug
 1893021
+]
 [
 "
 browser_translations_full_page_panel_a11y_focus
@@ -328,7 +328,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -346,10 +346,10 @@ x11
 &
 ccov
 "
-]
 #
 Bug
 1893021
+]
 [
 "
 browser_translations_full_page_panel_engine_unsupported

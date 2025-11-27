@@ -16,7 +16,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1854233
@@ -27,6 +26,7 @@ may
 not
 be
 focusable
+]
 https_first_disabled
 =
 true

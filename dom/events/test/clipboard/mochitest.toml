@@ -64,6 +64,14 @@ os_version
 '
 &
 &
+arch
+=
+=
+'
+x86_64
+'
+&
+&
 display
 =
 =
@@ -127,7 +135,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '

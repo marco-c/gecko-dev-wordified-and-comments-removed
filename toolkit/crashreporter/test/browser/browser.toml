@@ -96,10 +96,10 @@ os_version
 26100
 '
 "
-]
 #
 Bug
 1936467
+]
 [
 "
 browser_sandbox_crash
@@ -124,7 +124,6 @@ linux
 !
 release_or_beta
 "
-]
 #
 Linux
 -
@@ -141,3 +140,4 @@ crash
 on
 sandbox
 violations
+]

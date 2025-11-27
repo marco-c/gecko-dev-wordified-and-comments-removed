@@ -151,7 +151,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -159,7 +159,7 @@ x86_64
 '
 &
 &
-opt
+ccov
 "
 #
 Bug
@@ -183,7 +183,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -191,7 +191,7 @@ x86_64
 '
 &
 &
-ccov
+opt
 "
 #
 Bug

@@ -77,7 +77,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -98,10 +98,10 @@ debug
 &
 socketprocess_networking
 "
-]
 #
 Bug
 1775530
+]
 [
 "
 browser_ext_management_themes
@@ -123,13 +123,12 @@ browser_ext_process_crash_handling
 js
 "
 ]
-skip
+run
 -
 if
 =
 [
 "
-!
 crashreporter
 "
 ]

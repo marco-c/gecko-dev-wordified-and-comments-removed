@@ -81,7 +81,6 @@ if
 "
 debug
 "
-]
 #
 Test
 WebIDL
@@ -92,6 +91,7 @@ available
 in
 debug
 builds
+]
 [
 "
 test_bug1287912
@@ -135,7 +135,6 @@ if
 "
 debug
 "
-]
 #
 Test
 WebIDL
@@ -146,6 +145,7 @@ available
 in
 debug
 builds
+]
 support
 -
 files
@@ -172,7 +172,6 @@ if
 "
 debug
 "
-]
 #
 Test
 WebIDL
@@ -183,6 +182,7 @@ available
 in
 debug
 builds
+]
 [
 "
 test_proxies_via_xray

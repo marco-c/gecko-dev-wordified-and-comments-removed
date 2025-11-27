@@ -74,7 +74,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1854228
@@ -96,6 +95,7 @@ may
 not
 be
 focusable
+]
 [
 "
 browser_aboutprocesses_shortcut

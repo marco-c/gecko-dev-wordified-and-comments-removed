@@ -73,7 +73,6 @@ if
 !
 nightly_build
 "
-]
 #
 to
 be
@@ -89,6 +88,7 @@ enabled
 bug
 1812591
 )
+]
 [
 "
 browser_WorkerDebugger_waiting
@@ -153,15 +153,15 @@ browser_consoleSharedWorkers
 js
 "
 ]
-skip
+run
 -
 if
 =
 [
 "
+!
 release_or_beta
 "
-]
 #
 requires
 dom
@@ -175,6 +175,7 @@ bypassCOOP_COEP
 insecure
 .
 enabled
+]
 support
 -
 files

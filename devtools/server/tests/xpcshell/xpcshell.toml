@@ -591,7 +591,6 @@ if
 "
 false
 "
-]
 #
 breakpoint
 sliding
@@ -600,6 +599,7 @@ not
 supported
 bug
 1525685
+]
 [
 "
 test_breakpoint
@@ -626,7 +626,6 @@ if
 "
 false
 "
-]
 #
 breakpoint
 sliding
@@ -635,6 +634,7 @@ not
 supported
 bug
 1525685
+]
 [
 "
 test_breakpoint
@@ -652,7 +652,6 @@ if
 "
 false
 "
-]
 #
 breakpoint
 sliding
@@ -661,6 +660,7 @@ not
 supported
 bug
 1525685
+]
 [
 "
 test_breakpoint
@@ -678,7 +678,6 @@ if
 "
 false
 "
-]
 #
 breakpoint
 sliding
@@ -687,6 +686,7 @@ not
 supported
 bug
 1525685
+]
 [
 "
 test_breakpoint
@@ -704,7 +704,6 @@ if
 "
 false
 "
-]
 #
 breakpoint
 sliding
@@ -713,6 +712,7 @@ not
 supported
 bug
 1525685
+]
 [
 "
 test_breakpoint
@@ -757,7 +757,6 @@ if
 "
 false
 "
-]
 #
 breakpoint
 sliding
@@ -766,6 +765,7 @@ not
 supported
 bug
 1525685
+]
 [
 "
 test_breakpoint
@@ -810,7 +810,6 @@ if
 "
 false
 "
-]
 #
 tests
 for
@@ -820,6 +819,7 @@ are
 obsolete
 bug
 1524374
+]
 [
 "
 test_breakpoint
@@ -873,7 +873,6 @@ if
 "
 false
 "
-]
 #
 breakpoint
 sliding
@@ -882,6 +881,7 @@ not
 supported
 bug
 1525685
+]
 [
 "
 test_breakpoint
@@ -937,7 +937,6 @@ if
 "
 false
 "
-]
 #
 tests
 for
@@ -947,6 +946,7 @@ are
 obsolete
 bug
 1524374
+]
 [
 "
 test_client_request
@@ -1081,7 +1081,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -1124,7 +1124,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -2024,7 +2024,6 @@ if
 "
 false
 "
-]
 #
 breakpoint
 sliding
@@ -2033,6 +2032,7 @@ not
 supported
 bug
 1525685
+]
 [
 "
 test_setBreakpoint
@@ -2058,7 +2058,6 @@ if
 "
 false
 "
-]
 #
 breakpoint
 sliding
@@ -2067,6 +2066,7 @@ not
 supported
 bug
 1525685
+]
 [
 "
 test_setBreakpoint

@@ -150,10 +150,8 @@ if
 =
 [
 "
-!
-debug
+opt
 "
-]
 #
 We
 fail
@@ -169,6 +167,7 @@ self
 -
 closing
 element
+]
 [
 "
 test_bug553888
@@ -222,14 +221,14 @@ js
 ]
 [
 "
-test_chromeutils_isJSIdentifier
+test_chromeutils_getXPCOMErrorName
 .
 js
 "
 ]
 [
 "
-test_chromeutils_getXPCOMErrorName
+test_chromeutils_isJSIdentifier
 .
 js
 "

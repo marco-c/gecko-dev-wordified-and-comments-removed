@@ -67,7 +67,6 @@ if
 "
 true
 "
-]
 #
 This
 is
@@ -85,3 +84,4 @@ other
 toml
 files
 .
+]

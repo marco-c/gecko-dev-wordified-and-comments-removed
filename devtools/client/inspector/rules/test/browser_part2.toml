@@ -456,7 +456,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -470,6 +469,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_rules_filtereditor
@@ -1063,7 +1063,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -1077,6 +1076,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_rules_livepreview
@@ -1272,7 +1272,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -1286,6 +1285,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_rules_original
@@ -1305,7 +1305,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -1319,6 +1318,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_rules_preview
@@ -1451,7 +1451,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -1465,6 +1464,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_rules_registered
@@ -1825,14 +1825,13 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
 x86_64
 '
 "
-]
 #
 Bug
 1945519
@@ -1841,6 +1840,7 @@ failing
 on
 windows
 .
+]
 [
 "
 browser_rules_shadowdom_slot_rules
@@ -2013,7 +2013,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -2027,6 +2026,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_rules_update_mask_image_cors

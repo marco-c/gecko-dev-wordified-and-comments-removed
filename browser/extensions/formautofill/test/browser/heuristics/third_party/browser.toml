@@ -14,10 +14,10 @@ os
 android
 '
 "
-]
 #
 bug
 1730213
+]
 support
 -
 files
@@ -72,10 +72,10 @@ if
 "
 true
 "
-]
 #
 Bug
 1939626
+]
 [
 "
 browser_CostCo

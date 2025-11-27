@@ -99,7 +99,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -114,10 +114,10 @@ display
 x11
 '
 "
-]
 #
 Bug
 1965131
+]
 [
 "
 test_notification_box_01

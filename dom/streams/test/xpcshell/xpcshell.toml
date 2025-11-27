@@ -164,12 +164,13 @@ if
 =
 [
 "
-bits
+arch
 =
 =
-32
+'
+x86
+'
 "
-]
 #
 autoAllocateChunkSize
 limit
@@ -179,3 +180,4 @@ on
 32
 -
 bit
+]

@@ -100,10 +100,10 @@ if
 "
 condprof
 "
-]
 #
 Bug
 1893058
+]
 [
 "
 test_certs
@@ -183,7 +183,6 @@ if
 "
 condprof
 "
-]
 #
 Bug
 1769154
@@ -193,6 +192,7 @@ fail
 w
 /
 condprof
+]
 [
 "
 test_permissions

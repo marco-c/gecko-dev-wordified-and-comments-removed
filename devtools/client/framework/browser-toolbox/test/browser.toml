@@ -35,7 +35,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -225,10 +225,10 @@ if
 "
 asan
 "
-]
 #
 Bug
 1991880
+]
 [
 "
 browser_browser_toolbox_evaluation_context
@@ -258,7 +258,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -272,6 +271,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_browser_toolbox_fission_inspector_webextension

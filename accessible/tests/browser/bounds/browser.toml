@@ -161,10 +161,10 @@ os
 win
 '
 "
-]
 #
 bug
 1372296
+]
 [
 "
 browser_test_simple_transform
@@ -196,7 +196,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -214,10 +214,10 @@ x11
 &
 opt
 "
-]
 #
 Bug
 1784767
+]
 [
 "
 browser_test_zoom
@@ -233,10 +233,10 @@ if
 "
 true
 "
-]
 #
 Bug
 1734271
+]
 [
 "
 browser_test_zoom_text
@@ -260,10 +260,10 @@ os
 win
 '
 "
-]
 #
 bug
 1372296
+]
 [
 "
 browser_zero_area

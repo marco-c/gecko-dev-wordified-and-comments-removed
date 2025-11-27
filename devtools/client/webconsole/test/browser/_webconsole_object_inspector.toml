@@ -198,7 +198,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -212,6 +211,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_webconsole_object_in_sidebar_keyboard_nav
@@ -234,7 +234,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -248,6 +247,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_webconsole_object_inspector__proto__
@@ -263,7 +263,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -277,6 +276,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_webconsole_object_inspector_array_getters
@@ -292,7 +292,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -306,6 +305,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_webconsole_object_inspector_entries
@@ -341,7 +341,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -355,6 +354,7 @@ and
 /
 or
 labeled
+]
 https_first_disabled
 =
 true
@@ -401,7 +401,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -438,7 +438,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -452,6 +451,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_webconsole_object_inspector_getters_prototype
@@ -467,7 +467,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -481,6 +480,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_webconsole_object_inspector_getters_shadowed
@@ -496,7 +496,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -510,6 +509,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_webconsole_object_inspector_key_sorting
@@ -525,7 +525,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -539,6 +538,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_webconsole_object_inspector_local_session_storage
@@ -554,7 +554,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -568,6 +567,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_webconsole_object_inspector_nested_promise
@@ -583,7 +583,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -597,6 +596,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_webconsole_object_inspector_nested_proxy
@@ -612,7 +612,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -626,6 +625,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_webconsole_object_inspector_private_properties
@@ -641,7 +641,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -655,6 +654,7 @@ and
 /
 or
 labeled
+]
 support
 -
 files
@@ -681,7 +681,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -695,6 +694,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_webconsole_object_inspector_selected_text
@@ -710,7 +710,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -724,6 +723,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_webconsole_object_inspector_symbols
@@ -739,7 +739,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -753,6 +752,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_webconsole_object_inspector_while_debugging_and_inspecting
@@ -768,7 +768,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -782,6 +781,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_webconsole_object_inspector_wrapped_primitive_value
@@ -797,7 +797,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -811,3 +810,4 @@ and
 /
 or
 labeled
+]

@@ -9,7 +9,6 @@ if
 "
 true
 "
-]
 #
 Dependencies
 for
@@ -23,6 +22,7 @@ by
 meta
 bug
 1555185
+]
 support
 -
 files

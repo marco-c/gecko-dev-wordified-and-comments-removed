@@ -21,7 +21,6 @@ os
 linux
 '
 "
-]
 #
 Linux
 clients
@@ -29,6 +28,7 @@ cannot
 remote
 themselves
 .
+]
 [
 "
 browser_startup_remote

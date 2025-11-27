@@ -53,13 +53,13 @@ os
 win
 '
 "
-]
 #
 Windows
 WebExtensions
 always
 run
 OOP
+]
 [
 "
 test_ext_storage_cleanup

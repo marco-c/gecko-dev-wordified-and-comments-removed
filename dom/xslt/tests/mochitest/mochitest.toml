@@ -224,7 +224,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -245,10 +245,10 @@ debug
 &
 http2
 "
-]
 #
 Bug
 1900716
+]
 [
 "
 test_exslt

@@ -105,12 +105,12 @@ if
 "
 true
 "
-]
 #
 nsIWorkerDebugger
 attribute
 not
 implemented
+]
 [
 "
 test_serviceworkermanager

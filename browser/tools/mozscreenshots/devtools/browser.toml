@@ -51,14 +51,13 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
 x86_64
 '
 "
-]
 #
 times
 out
@@ -66,3 +65,4 @@ on
 macosx1014
 see
 1570100
+]

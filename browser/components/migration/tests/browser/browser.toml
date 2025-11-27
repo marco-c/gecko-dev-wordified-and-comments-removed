@@ -131,7 +131,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1858037
@@ -148,6 +147,7 @@ passes
 on
 Autoland
 )
+]
 [
 "
 browser_file_migration
@@ -163,7 +163,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1858037
@@ -180,6 +179,7 @@ passes
 on
 Autoland
 )
+]
 support
 -
 files
@@ -206,7 +206,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1858037
@@ -223,6 +222,7 @@ passes
 on
 Autoland
 )
+]
 [
 "
 browser_misc_telemetry
@@ -238,7 +238,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1858037
@@ -255,6 +254,7 @@ passes
 on
 Try
 )
+]
 [
 "
 browser_no_browsers_state
@@ -284,7 +284,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1858037
@@ -303,6 +302,7 @@ passes
 on
 Autoland
 )
+]
 [
 "
 browser_safari_passwords

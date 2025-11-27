@@ -45,7 +45,6 @@ if
 "
 xorigin
 "
-]
 #
 cross
 -
@@ -54,6 +53,7 @@ use
 requires
 permissions
 policy
+]
 [
 "
 test_wakelock_default_permission
@@ -69,7 +69,6 @@ if
 "
 xorigin
 "
-]
 #
 cross
 -
@@ -78,6 +77,7 @@ use
 requires
 permissions
 policy
+]
 [
 "
 test_wakelock_on_initial_about_blank

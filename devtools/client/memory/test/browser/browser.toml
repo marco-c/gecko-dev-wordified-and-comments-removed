@@ -112,7 +112,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -126,6 +125,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_memory_displays_01
@@ -148,7 +148,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -162,6 +161,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_memory_dominator_trees_02
@@ -177,7 +177,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -191,6 +190,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_memory_filter_01
@@ -220,7 +220,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -234,6 +233,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_memory_keyboard
@@ -253,7 +253,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -267,6 +266,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_memory_keyboard
@@ -282,7 +282,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -296,6 +295,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_memory_no_allocation_stacks

@@ -149,7 +149,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -159,7 +159,6 @@ x86_64
 &
 debug
 "
-]
 #
 Disabled
 for
@@ -169,6 +168,7 @@ in
 Bug
 1873571
 .
+]
 [
 "
 browser_networkobserver_data_url
@@ -191,10 +191,10 @@ if
 "
 http3
 "
-]
 #
 Bug
 1969598
+]
 [
 "
 browser_networkobserver_decode_text_missing_charset
@@ -210,10 +210,10 @@ if
 "
 http3
 "
-]
 #
 Bug
 1969598
+]
 [
 "
 browser_networkobserver_invalid_constructor
@@ -250,7 +250,6 @@ if
 "
 true
 "
-]
 #
 Disabled
 until
@@ -259,3 +258,4 @@ Bug
 and
 Bug
 1246289
+]

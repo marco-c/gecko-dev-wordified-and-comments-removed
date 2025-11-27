@@ -42,7 +42,6 @@ os
 android
 '
 "
-]
 #
 Haptic
 feedback
@@ -51,6 +50,7 @@ only
 supported
 on
 Android
+]
 [
 "
 test_bug1197901
@@ -64,14 +64,6 @@ if
 =
 [
 "
-os
-=
-=
-'
-android
-'
-"
-"
 condprof
 "
 #
@@ -84,6 +76,14 @@ get
 the
 sensor
 events
+"
+"
+os
+=
+=
+'
+android
+'
 "
 "
 os
@@ -104,7 +104,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '

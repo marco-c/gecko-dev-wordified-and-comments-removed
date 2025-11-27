@@ -1,14 +1,14 @@
 [
 DEFAULT
 ]
-skip
+run
 -
 if
 =
 [
 "
 appname
-=
+!
 =
 '
 thunderbird

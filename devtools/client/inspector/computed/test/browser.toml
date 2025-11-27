@@ -200,7 +200,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -214,6 +213,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_computed_cycle_color
@@ -229,7 +229,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -243,6 +242,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_computed_default_tab
@@ -281,7 +281,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -336,7 +336,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -350,6 +349,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_computed_keybindings_01
@@ -365,7 +365,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -379,6 +378,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_computed_keybindings_02
@@ -416,7 +416,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -430,6 +429,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_computed_matched
@@ -503,7 +503,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -650,7 +650,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -664,6 +663,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_computed_shadow_host
@@ -690,7 +690,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -704,3 +703,4 @@ and
 /
 or
 labeled
+]

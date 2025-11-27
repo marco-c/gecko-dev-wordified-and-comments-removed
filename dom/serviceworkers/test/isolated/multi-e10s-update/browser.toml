@@ -32,7 +32,6 @@ if
 "
 true
 "
-]
 #
 bug
 1429794
@@ -41,3 +40,4 @@ to
 re
 -
 enable
+]

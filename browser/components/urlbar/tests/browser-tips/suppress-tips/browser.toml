@@ -30,7 +30,6 @@ if
 !
 msix
 "
-]
 #
 Updater
 is
@@ -38,6 +37,7 @@ disabled
 in
 MSIX
 builds
+]
 skip
 -
 if
@@ -46,7 +46,6 @@ if
 "
 verify
 "
-]
 #
 This
 is
@@ -62,6 +61,7 @@ times
 after
 startup
 .
+]
 support
 -
 files

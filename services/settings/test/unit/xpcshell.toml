@@ -83,7 +83,6 @@ appname
 thunderbird
 '
 "
-]
 #
 Bug
 1662758
@@ -104,6 +103,7 @@ t
 main
 "
 .
+]
 [
 "
 test_attachments_downloader
@@ -248,7 +248,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '

@@ -360,9 +360,6 @@ socketprocess_networking
 Bug
 1846916
 ]
-#
-Bug
-1846916
 [
 "
 browser_newtab_glean
@@ -482,9 +479,6 @@ socketprocess_networking
 Bug
 1945649
 ]
-#
-Bug
-1945649
 [
 "
 browser_newtab_overrides
@@ -548,9 +542,6 @@ socketprocess_networking
 Bug
 1945649
 ]
-#
-Bug
-1945649
 [
 "
 browser_newtab_towindow
@@ -607,9 +598,6 @@ socketprocess_networking
 Bug
 1945649
 ]
-#
-Bug
-1945649
 [
 "
 browser_newtab_trigger

@@ -16,10 +16,10 @@ if
 "
 true
 "
-]
 #
 bug
 1057615
+]
 [
 "
 browser_validation_iframe
@@ -35,10 +35,10 @@ if
 "
 true
 "
-]
 #
 bug
 1057615
+]
 [
 "
 browser_validation_invisible

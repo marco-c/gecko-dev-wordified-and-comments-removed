@@ -23,7 +23,6 @@ if
 "
 debug
 "
-]
 #
 deliberately
 bypass
@@ -49,6 +48,7 @@ should
 deserialize
 correctly
 .
+]
 [
 "
 browser_principalSerialization_version1

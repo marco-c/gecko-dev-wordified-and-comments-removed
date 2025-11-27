@@ -103,7 +103,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -140,7 +140,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -197,7 +197,6 @@ if
 "
 true
 "
-]
 #
 Bug
 751575
@@ -210,6 +209,7 @@ timeouts
 on
 random
 platforms
+]
 [
 "
 test_privacy_transition

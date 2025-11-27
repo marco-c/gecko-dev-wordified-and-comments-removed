@@ -122,7 +122,6 @@ if
 "
 true
 "
-]
 #
 depends
 on
@@ -130,6 +129,7 @@ fix
 for
 bug
 1048446
+]
 [
 "
 test_bug649012

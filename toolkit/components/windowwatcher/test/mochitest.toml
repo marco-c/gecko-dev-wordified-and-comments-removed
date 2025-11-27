@@ -19,7 +19,6 @@ os
 android
 '
 "
-]
 #
 Fennec
 doesn
@@ -38,6 +37,7 @@ bug
 for
 details
 )
+]
 [
 "
 test_blank_named_window

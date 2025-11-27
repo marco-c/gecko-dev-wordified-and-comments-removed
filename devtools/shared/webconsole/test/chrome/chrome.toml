@@ -140,7 +140,6 @@ if
 "
 release_or_beta
 "
-]
 #
 requires
 dom
@@ -154,6 +153,7 @@ bypassCOOP_COEP
 insecure
 .
 enabled
+]
 [
 "
 test_console_serviceworker_cached
@@ -169,7 +169,6 @@ if
 "
 release_or_beta
 "
-]
 #
 requires
 dom
@@ -183,6 +182,7 @@ bypassCOOP_COEP
 insecure
 .
 enabled
+]
 [
 "
 test_console_styling

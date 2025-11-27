@@ -28,7 +28,6 @@ appname
 firefox
 '
 "
-]
 #
 Prefs
 are
@@ -40,6 +39,7 @@ g
 .
 not
 Thunderbird
+]
 [
 "
 browser_xpcom_graph_wait
@@ -55,7 +55,6 @@ if
 "
 tsan
 "
-]
 #
 TSan
 times
@@ -69,3 +68,4 @@ profiler
 consuming
 tests
 .
+]

@@ -64,7 +64,6 @@ if
 "
 xorigin
 "
-]
 #
 Bug
 1827617
@@ -77,6 +76,7 @@ failure
 in
 xorigin
 .
+]
 [
 "
 test_file_put_deleted

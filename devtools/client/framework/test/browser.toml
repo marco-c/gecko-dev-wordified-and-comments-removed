@@ -438,7 +438,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -681,7 +681,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -741,7 +741,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -813,7 +813,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -853,7 +853,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -893,7 +893,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -979,7 +979,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -1074,7 +1074,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -1185,7 +1185,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -1199,6 +1198,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_toolbox_hosts_telemetry
@@ -1244,7 +1244,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -1289,7 +1289,6 @@ os
 win
 '
 "
-]
 #
 Content
 process
@@ -1297,6 +1296,7 @@ killing
 throws
 on
 Window
+]
 [
 "
 browser_toolbox_meatball
@@ -1369,7 +1369,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -1432,7 +1432,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -1648,7 +1648,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -1663,10 +1663,10 @@ display
 x11
 '
 "
-]
 #
 Bug
 1767761
+]
 [
 "
 browser_toolbox_tool_ready
@@ -1696,7 +1696,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -1710,6 +1709,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_toolbox_toolbar_overflow
@@ -1725,7 +1725,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -1739,6 +1738,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_toolbox_toolbar_overflow_button_visibility
@@ -1761,7 +1761,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -1775,6 +1774,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_toolbox_toolbar_reorder_by_width
@@ -1790,7 +1790,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -1804,6 +1803,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_toolbox_toolbar_reorder_with_extension
@@ -1819,7 +1819,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -1833,6 +1832,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_toolbox_toolbar_reorder_with_hidden_extension
@@ -1848,7 +1848,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -1862,6 +1861,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_toolbox_tools_per_toolbox_registration
@@ -1942,7 +1942,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -2051,7 +2051,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -2072,7 +2072,7 @@ opt
 &
 a11y_checks
 "
-]
 #
 Bug
 1781498
+]

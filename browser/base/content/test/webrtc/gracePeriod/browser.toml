@@ -94,11 +94,6 @@ if
 =
 [
 "
-verify
--
-standalone
-"
-"
 os
 =
 =
@@ -127,4 +122,9 @@ aarch64
 #
 Bug
 1961543
+"
+verify
+-
+standalone
+"
 ]

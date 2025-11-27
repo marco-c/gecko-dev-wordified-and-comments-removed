@@ -274,10 +274,10 @@ if
 "
 isolated_process
 "
-]
 #
 Bug
 1709948
+]
 subsuite
 =
 "
@@ -7368,7 +7368,6 @@ os
 android
 '
 "
-]
 #
 bug
 1322806
@@ -7377,6 +7376,7 @@ android
 bug
 1232305
 )
+]
 [
 "
 test_seek
@@ -7399,13 +7399,13 @@ os
 android
 '
 "
-]
 #
 android
 (
 bug
 1232305
 )
+]
 [
 "
 test_seek
@@ -7428,7 +7428,6 @@ os
 android
 '
 "
-]
 #
 bug
 1323133
@@ -7437,6 +7436,7 @@ android
 bug
 1232305
 )
+]
 [
 "
 test_seek
@@ -7459,7 +7459,6 @@ os
 android
 '
 "
-]
 #
 bug
 1321081
@@ -7468,6 +7467,7 @@ android
 bug
 1232305
 )
+]
 [
 "
 test_seek
@@ -7490,7 +7490,6 @@ os
 android
 '
 "
-]
 #
 bug
 1299174
@@ -7499,6 +7498,7 @@ android
 bug
 1232305
 )
+]
 [
 "
 test_seek
@@ -7521,13 +7521,13 @@ os
 android
 '
 "
-]
 #
 android
 (
 bug
 1232305
 )
+]
 [
 "
 test_seek
@@ -7550,7 +7550,6 @@ os
 android
 '
 "
-]
 #
 bug
 1309778
@@ -7559,6 +7558,7 @@ android
 bug
 1232305
 )
+]
 [
 "
 test_seek
@@ -7581,7 +7581,6 @@ os
 android
 '
 "
-]
 #
 bug
 1321082
@@ -7590,6 +7589,7 @@ android
 bug
 1232305
 )
+]
 [
 "
 test_seek
@@ -7612,13 +7612,13 @@ os
 android
 '
 "
-]
 #
 android
 (
 bug
 1232305
 )
+]
 [
 "
 test_seek
@@ -7641,13 +7641,13 @@ os
 android
 '
 "
-]
 #
 android
 (
 bug
 1232305
 )
+]
 [
 "
 test_seek
@@ -7670,7 +7670,6 @@ os
 android
 '
 "
-]
 #
 bug
 1336629
@@ -7681,6 +7680,7 @@ android
 bug
 1232305
 )
+]
 [
 "
 test_seek
@@ -7703,13 +7703,13 @@ os
 android
 '
 "
-]
 #
 android
 (
 bug
 1232305
 )
+]
 [
 "
 test_seek
@@ -7732,7 +7732,6 @@ os
 android
 '
 "
-]
 #
 bug
 1310584
@@ -7741,6 +7740,7 @@ android
 bug
 1232305
 )
+]
 [
 "
 test_seek
@@ -7763,7 +7763,6 @@ os
 android
 '
 "
-]
 #
 bug
 1332019
@@ -7772,6 +7771,7 @@ android
 bug
 1232305
 )
+]
 [
 "
 test_seekLies
@@ -7799,7 +7799,6 @@ os
 android
 '
 "
-]
 #
 bug
 1329391
@@ -7808,6 +7807,7 @@ android
 bug
 1232305
 )
+]
 tags
 =
 "
@@ -7854,7 +7854,6 @@ os
 android
 '
 "
-]
 #
 bug
 1299382
@@ -7863,6 +7862,7 @@ android
 bug
 1232305
 )
+]
 [
 "
 test_seek_promise_bug1344357
@@ -7883,7 +7883,6 @@ os
 android
 '
 "
-]
 #
 bug
 1299382
@@ -7892,6 +7891,7 @@ android
 bug
 1232305
 )
+]
 [
 "
 test_seekable1
@@ -7912,10 +7912,10 @@ os
 android
 '
 "
-]
 #
 android
 (
 bug
 1232305
 )
+]

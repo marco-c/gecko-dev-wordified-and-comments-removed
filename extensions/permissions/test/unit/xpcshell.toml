@@ -60,17 +60,17 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
 x86_64
 '
 "
-]
 #
 Bug
 1718292
+]
 [
 "
 test_permmanager_getAllByTypeSince
@@ -189,13 +189,14 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
 x86_64
 '
 "
+#
 #
 Bug
 1834534
@@ -243,7 +244,6 @@ os
 android
 '
 "
-]
 #
 Android
 doesn
@@ -251,6 +251,7 @@ doesn
 t
 use
 places
+]
 [
 "
 test_permmanager_migrate_11
@@ -273,7 +274,6 @@ os
 android
 '
 "
-]
 #
 Android
 doesn
@@ -281,6 +281,7 @@ doesn
 t
 use
 places
+]
 [
 "
 test_permmanager_migrate_4
@@ -303,7 +304,6 @@ os
 android
 '
 "
-]
 #
 Android
 doesn
@@ -311,6 +311,7 @@ doesn
 t
 use
 places
+]
 [
 "
 test_permmanager_migrate_4
@@ -333,7 +334,6 @@ os
 android
 '
 "
-]
 #
 Android
 doesn
@@ -341,6 +341,7 @@ doesn
 t
 use
 places
+]
 [
 "
 test_permmanager_migrate_5
@@ -363,7 +364,6 @@ os
 android
 '
 "
-]
 #
 Android
 doesn
@@ -371,6 +371,7 @@ doesn
 t
 use
 places
+]
 [
 "
 test_permmanager_migrate_5
@@ -402,7 +403,6 @@ os
 android
 '
 "
-]
 #
 Android
 doesn
@@ -410,6 +410,7 @@ doesn
 t
 use
 places
+]
 [
 "
 test_permmanager_migrate_6
@@ -441,7 +442,6 @@ os
 android
 '
 "
-]
 #
 Android
 doesn
@@ -449,6 +449,7 @@ doesn
 t
 use
 places
+]
 [
 "
 test_permmanager_migrate_9
@@ -471,7 +472,6 @@ os
 android
 '
 "
-]
 #
 Android
 doesn
@@ -479,6 +479,7 @@ doesn
 t
 use
 places
+]
 [
 "
 test_permmanager_notifications

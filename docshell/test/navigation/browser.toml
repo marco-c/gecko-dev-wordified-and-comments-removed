@@ -105,13 +105,12 @@ browser_test_shentry_wireframe
 js
 "
 ]
-skip
+run
 -
 if
 =
 [
 "
-!
 sessionHistoryInParent
 "
 ]
@@ -122,16 +121,14 @@ browser_test_simultaneous_normal_and_history_loads
 js
 "
 ]
-skip
+run
 -
 if
 =
 [
 "
-!
 sessionHistoryInParent
 "
-]
 #
 The
 test
@@ -141,3 +138,4 @@ the
 new
 session
 history
+]

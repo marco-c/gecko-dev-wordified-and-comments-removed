@@ -113,7 +113,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -191,7 +191,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -251,13 +251,13 @@ os
 win
 '
 "
-]
 #
 Windows
 -
 specific
 test
 .
+]
 [
 "
 test_Downloads

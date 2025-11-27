@@ -176,7 +176,6 @@ if
 !
 fission
 "
-]
 #
 Requires
 iframes
@@ -186,6 +185,7 @@ in
 separate
 processes
 .
+]
 fail
 -
 if
@@ -194,7 +194,6 @@ if
 "
 xorigin
 "
-]
 #
 JavaScript
 error
@@ -260,3 +259,4 @@ cross
 -
 origin
 object
+]

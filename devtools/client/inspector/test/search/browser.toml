@@ -305,7 +305,6 @@ if
 "
 a11y_checks
 "
-]
 #
 Bug
 1849028
@@ -319,6 +318,7 @@ and
 /
 or
 labeled
+]
 [
 "
 browser_inspector_search

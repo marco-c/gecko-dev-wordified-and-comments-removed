@@ -40,7 +40,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -93,7 +93,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -162,6 +162,12 @@ if
 =
 [
 "
+http2
+"
+"
+http3
+"
+"
 os
 =
 =
@@ -221,12 +227,6 @@ inconsistent
 fail
 /
 pass
-"
-http3
-"
-"
-http2
-"
 ]
 [
 "

@@ -41,10 +41,10 @@ webextensions
 mode
 )
 "
-http3
-"
-"
 http2
+"
+"
+http3
 "
 ]
 prefs
@@ -176,7 +176,6 @@ if
 "
 true
 "
-]
 #
 Bug
 1748315
@@ -190,6 +189,7 @@ scripting
 executeScript
 (
 )
+]
 [
 "
 test_ext_scripting_insertCSS
@@ -205,7 +205,6 @@ if
 "
 true
 "
-]
 #
 Bug
 1748318
@@ -215,6 +214,7 @@ WebIDL
 bindings
 for
 tabs
+]
 [
 "
 test_ext_scripting_removeCSS
@@ -230,7 +230,6 @@ if
 "
 true
 "
-]
 #
 Bug
 1748318
@@ -240,6 +239,7 @@ WebIDL
 bindings
 for
 tabs
+]
 [
 "
 test_ext_test
@@ -255,7 +255,6 @@ if
 "
 true
 "
-]
 #
 Bug
 1950639
@@ -268,3 +267,4 @@ WPT
 design
 stabilizes
 .
+]

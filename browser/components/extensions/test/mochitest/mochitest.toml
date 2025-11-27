@@ -14,10 +14,10 @@ os
 android
 '
 "
-]
 #
 bug
 1730213
+]
 support
 -
 files
@@ -102,9 +102,9 @@ if
 =
 [
 "
-http3
-"
-"
 http2
+"
+"
+http3
 "
 ]

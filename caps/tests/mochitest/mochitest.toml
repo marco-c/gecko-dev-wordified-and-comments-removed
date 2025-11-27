@@ -108,10 +108,10 @@ if
 =
 [
 "
-http3
-"
-"
 http2
+"
+"
+http3
 "
 ]
 [
@@ -141,7 +141,6 @@ os
 android
 '
 "
-]
 #
 Font
 does
@@ -149,6 +148,7 @@ not
 exist
 on
 Android
+]
 support
 -
 files

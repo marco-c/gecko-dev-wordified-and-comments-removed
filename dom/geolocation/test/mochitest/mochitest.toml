@@ -220,10 +220,10 @@ if
 =
 [
 "
-http3
-"
-"
 http2
+"
+"
+http3
 "
 ]
 [
@@ -257,10 +257,10 @@ if
 =
 [
 "
-http3
-"
-"
 http2
+"
+"
+http3
 "
 ]
 [
@@ -339,7 +339,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -396,7 +396,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -453,7 +453,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -510,7 +510,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '

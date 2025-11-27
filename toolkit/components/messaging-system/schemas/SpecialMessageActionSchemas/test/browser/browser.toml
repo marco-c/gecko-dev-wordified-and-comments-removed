@@ -244,10 +244,10 @@ win
 !
 msix
 "
-]
 #
 Bug
 1911343
+]
 [
 "
 browser_sma_pin_start_menu
@@ -331,7 +331,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -341,10 +341,10 @@ x86_64
 &
 debug
 "
-]
 #
 Bug
 1837646
+]
 [
 "
 browser_sma_submit_onboarding_opt_out_ping
