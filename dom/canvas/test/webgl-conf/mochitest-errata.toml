@@ -419,6 +419,11 @@ os_version
 '
 "
 ]
+tags
+=
+"
+os_integration
+"
 [
 "
 generated

@@ -2029,6 +2029,11 @@ apz_test_native_event_utils
 js
 "
 ]
+tags
+=
+"
+os_integration
+"
 [
 "
 test_click_hold_context_menus

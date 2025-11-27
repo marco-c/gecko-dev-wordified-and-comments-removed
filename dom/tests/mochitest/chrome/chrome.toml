@@ -390,6 +390,11 @@ test_focus
 xhtml
 "
 ]
+tags
+=
+"
+os_integration
+"
 [
 "
 test_focus_dialog
