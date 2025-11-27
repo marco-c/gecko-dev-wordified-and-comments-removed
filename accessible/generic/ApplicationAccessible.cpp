@@ -145,7 +145,7 @@ ENameValueFlag
 ApplicationAccessible
 :
 :
-Name
+DirectName
 (
 nsString
 &
