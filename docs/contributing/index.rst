@@ -78,8 +78,6 @@ data
 review
 jujutsu
 searchfox
-/
-searchfox_search
 ai
 -
 coding
