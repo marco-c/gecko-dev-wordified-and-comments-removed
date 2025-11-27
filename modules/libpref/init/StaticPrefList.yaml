@@ -45710,6 +45710,9 @@ mirror
 once
 #
 endif
+#
+ifdef
+XP_WIN
 -
 name
 :
@@ -45731,6 +45734,8 @@ false
 mirror
 :
 once
+#
+endif
 #
 ifdef
 MOZ_WIDGET_ANDROID
