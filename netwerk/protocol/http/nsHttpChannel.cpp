@@ -33261,7 +33261,7 @@ NS_SUCCEEDED
 mStatus
 )
 !
-AllowedErrorForHTTPSRRFallback
+AllowedErrorForTransactionRetry
 (
 status
 )
