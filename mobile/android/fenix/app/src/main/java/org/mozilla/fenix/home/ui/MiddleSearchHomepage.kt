@@ -976,7 +976,7 @@ HeaderState
 showHeader
 =
 false
-wordmarkColor
+wordmarkTextColor
 =
 null
 privateBrowsingButtonColor

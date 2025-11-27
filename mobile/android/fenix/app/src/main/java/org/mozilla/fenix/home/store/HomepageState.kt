@@ -1335,7 +1335,7 @@ showHeader
 settings
 .
 showHomepageHeader
-wordmarkColor
+wordmarkTextColor
 =
 null
 privateBrowsingButtonColor
@@ -1623,7 +1623,7 @@ showHeader
 settings
 .
 showHomepageHeader
-wordmarkColor
+wordmarkTextColor
 =
 wallpaperState
 .
@@ -1791,7 +1791,7 @@ be
 shown
 *
 property
-wordmarkColor
+wordmarkTextColor
 an
 optional
 color
@@ -1799,8 +1799,6 @@ for
 the
 wordmark
 text
-and
-logo
 *
 property
 privateBrowsingButtonColor
@@ -1825,7 +1823,7 @@ showHeader
 :
 Boolean
 val
-wordmarkColor
+wordmarkTextColor
 :
 Color
 ?

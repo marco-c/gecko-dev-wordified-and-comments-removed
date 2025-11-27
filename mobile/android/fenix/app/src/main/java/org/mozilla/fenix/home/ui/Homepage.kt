@@ -1068,13 +1068,13 @@ showHeader
 {
 HomepageHeader
 (
-wordmarkColor
+wordmarkTextColor
 =
 state
 .
 headerState
 .
-wordmarkColor
+wordmarkTextColor
 privateBrowsingButtonColor
 =
 state
@@ -2388,7 +2388,7 @@ HeaderState
 showHeader
 =
 false
-wordmarkColor
+wordmarkTextColor
 =
 null
 privateBrowsingButtonColor
@@ -2580,7 +2580,7 @@ HeaderState
 showHeader
 =
 false
-wordmarkColor
+wordmarkTextColor
 =
 null
 privateBrowsingButtonColor
@@ -2770,7 +2770,7 @@ HeaderState
 showHeader
 =
 false
-wordmarkColor
+wordmarkTextColor
 =
 null
 privateBrowsingButtonColor
@@ -2896,7 +2896,7 @@ HeaderState
 showHeader
 =
 false
-wordmarkColor
+wordmarkTextColor
 =
 null
 privateBrowsingButtonColor
