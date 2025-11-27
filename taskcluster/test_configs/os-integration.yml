@@ -259,6 +259,8 @@ suites
 -
 marionette
 -
+integration
+-
 mochitest
 -
 browser

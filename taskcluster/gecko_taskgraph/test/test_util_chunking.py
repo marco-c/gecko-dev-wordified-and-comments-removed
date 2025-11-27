@@ -1669,26 +1669,6 @@ exception
         
 (
 "
-nonexistent_platform
-"
-"
-nonexistent_suite
-"
-KeyError
-)
-        
-(
-"
-unix
-"
-"
-nonexistent_suite
-"
-KeyError
-)
-        
-(
-"
 unix
 "
 "

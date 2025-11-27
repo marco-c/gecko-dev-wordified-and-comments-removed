@@ -993,6 +993,8 @@ jsreftest
 -
 marionette
 -
+integration
+-
 marionette
 -
 unittest
@@ -1146,6 +1148,8 @@ set
 jsreftest
 -
 marionette
+-
+integration
 -
 marionette
 -
@@ -1350,6 +1354,8 @@ jsreftest
 -
 marionette
 -
+integration
+-
 marionette
 -
 unittest
@@ -1495,6 +1501,8 @@ functional
 jsreftest
 -
 marionette
+-
+integration
 -
 marionette
 -
@@ -1697,6 +1705,8 @@ gtest
 jsreftest
 -
 marionette
+-
+integration
 -
 marionette
 -
@@ -2262,6 +2272,8 @@ jittest
 jsreftest
 -
 marionette
+-
+integration
 -
 marionette
 -

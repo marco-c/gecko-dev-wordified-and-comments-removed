@@ -518,6 +518,8 @@ kwargs
     
 "
 marionette
+-
+integration
 "
 :
 {
@@ -4337,10 +4339,26 @@ update
     
 "
 marionette
+-
+integration
 "
 :
 "
 marionette
+-
+integration
+"
+    
+"
+marionette
+-
+unittest
+"
+:
+"
+marionette
+-
+unittest
 "
     
 "

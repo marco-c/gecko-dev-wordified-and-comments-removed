@@ -60,9 +60,6 @@ task
 -
 defaults
 :
-suite
-:
-marionette
 mozharness
 :
 script
@@ -295,6 +292,8 @@ chunks
 suite
 :
 marionette
+-
+unittest
 test
 -
 manifest
@@ -336,6 +335,8 @@ tests
 .
 toml
 marionette
+-
+integration
 :
 description
 :
@@ -351,6 +352,11 @@ symbol
 Mn
 (
 )
+suite
+:
+marionette
+-
+integration
 variants
 :
 -
