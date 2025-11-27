@@ -528,12 +528,6 @@ HMODULE
 )
 ;
 if
-res
-=
-=
-0
-{
-if
 required_buffer_size
 >
 buffer_size
@@ -555,6 +549,11 @@ module_num
 ;
 }
 else
+if
+res
+=
+=
+0
 {
 return
 Err
@@ -565,7 +564,6 @@ ProcessReaderError
 EnumProcessModulesError
 )
 ;
-}
 }
 else
 {
