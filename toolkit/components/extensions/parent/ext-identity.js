@@ -406,8 +406,8 @@ if
 wrapper
 .
 browserElement
-&
-&
+|
+|
 wrapper
 .
 browserElement
