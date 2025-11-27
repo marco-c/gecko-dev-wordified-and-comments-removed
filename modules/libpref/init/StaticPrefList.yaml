@@ -88287,6 +88287,9 @@ mirror
 :
 always
 #
+ifdef
+MOZ_WIDGET_ANDROID
+#
 When
 resolving
 a
@@ -88321,6 +88324,8 @@ value
 mirror
 :
 always
+#
+endif
 #
 ifdef
 XP_MACOSX
