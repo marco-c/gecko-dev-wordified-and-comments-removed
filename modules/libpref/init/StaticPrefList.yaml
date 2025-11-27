@@ -42958,6 +42958,9 @@ true
 mirror
 :
 always
+#
+ifdef
+XP_WIN
 -
 name
 :
@@ -42987,6 +42990,8 @@ true
 mirror
 :
 always
+#
+endif
 -
 name
 :
