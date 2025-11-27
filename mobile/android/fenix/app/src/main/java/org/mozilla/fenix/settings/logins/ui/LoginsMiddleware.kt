@@ -1060,6 +1060,10 @@ add
 (
 newLoginToAdd
 )
+mainScope
+.
+launch
+{
 dispatch
 (
 LoginClicked
@@ -1089,6 +1093,7 @@ password
 )
 )
 )
+}
 }
 catch
 (
