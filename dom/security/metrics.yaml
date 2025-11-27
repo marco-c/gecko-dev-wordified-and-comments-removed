@@ -1970,6 +1970,16 @@ resource
 /
 file
 -
+mozsrcuri
+-
+moz
+-
+src
+:
+/
+/
+file
+-
 datauri
 -
 a
