@@ -116,7 +116,7 @@ ENameValueFlag
 XULAlertAccessible
 :
 :
-DirectName
+Name
 (
 nsString
 &
