@@ -11676,16 +11676,17 @@ sf
 reftest_find_lineno
 (
         
-DATA_PATH
-.
-joinpath
-(
 "
+testing
+/
+test
+/
+data
+/
 fontface_reftest
 .
 list
 "
-)
 mods
 allmods
     
@@ -11838,16 +11839,17 @@ sf
 reftest_find_lineno
 (
         
-DATA_PATH
-.
-joinpath
-(
 "
+testing
+/
+test
+/
+data
+/
 downscaling_reftest
 .
 list
 "
-)
 mods
 allmods
     
@@ -11966,16 +11968,17 @@ sf
 reftest_find_lineno
 (
         
-DATA_PATH
-.
-joinpath
-(
 "
+testing
+/
+test
+/
+data
+/
 dom_canvas_reftest
 .
 list
 "
-)
 mods
 allmods
     
@@ -12547,18 +12550,19 @@ False
     
 manifest
 =
-DATA_PATH
-.
-joinpath
-(
 "
+testing
+/
+test
+/
+data
+/
 reftest
 -
 reorder
 .
 list
 "
-)
     
 kind
 =
