@@ -2258,11 +2258,8 @@ f
 "
 {
 task
-[
-'
+.
 label
-'
-]
 }
 is
 using
@@ -2317,11 +2314,8 @@ f
 "
 {
 task
-[
-'
+.
 label
-'
-]
 }
 is
 using
