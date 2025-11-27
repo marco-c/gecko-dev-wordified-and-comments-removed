@@ -591,7 +591,7 @@ typography
 headline6
 maxLines
 =
-1
+2
 )
 }
 }
