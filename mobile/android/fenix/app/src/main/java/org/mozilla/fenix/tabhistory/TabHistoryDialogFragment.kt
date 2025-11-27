@@ -384,11 +384,11 @@ context
 .
 getColorFromAttr
 (
-R
+materialR
 .
 attr
 .
-layer1
+colorSurface
 )
 )
 customTabSessionId
