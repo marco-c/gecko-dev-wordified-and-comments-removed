@@ -95,11 +95,6 @@ nsIFragmentContentSink
 h
 "
 "
-nsIHTMLContentSink
-.
-h
-"
-"
 nsIParser
 .
 h
@@ -129,11 +124,6 @@ UNIFIED_SOURCES
 +
 =
 [
-"
-CNavDTD
-.
-cpp
-"
 "
 CParserContext
 .

@@ -3257,13 +3257,6 @@ h
 #
 include
 "
-nsIHTMLContentSink
-.
-h
-"
-#
-include
-"
 nsIHttpChannel
 .
 h

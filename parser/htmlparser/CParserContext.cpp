@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIHTMLContentSink
-.
-h
-"
-#
-include
-"
 nsMimeTypes
 .
 h
