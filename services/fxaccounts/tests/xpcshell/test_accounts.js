@@ -2177,8 +2177,6 @@ Assert
 .
 ok
 (
-!
-(
 await
 fxa
 .
@@ -2187,7 +2185,6 @@ keys
 hasKeysForScope
 (
 SCOPE_APP_SYNC
-)
 )
 )
 ;
