@@ -21,7 +21,6 @@ utf
 !
 -
 -
-~
 This
 Source
 Code
@@ -35,7 +34,7 @@ of
 the
 Mozilla
 Public
-~
+-
 License
 v
 .
@@ -54,14 +53,14 @@ not
 distributed
 with
 this
-~
+-
 file
 You
 can
 obtain
 one
 at
-https
+http
 :
 /
 /
@@ -161,7 +160,7 @@ background
 ?
 attr
 /
-layer1
+colorSurface
 "
 android
 :

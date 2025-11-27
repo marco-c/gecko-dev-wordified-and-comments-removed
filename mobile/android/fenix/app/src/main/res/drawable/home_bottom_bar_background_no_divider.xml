@@ -117,9 +117,10 @@ android
 color
 =
 "
-color
+?
+attr
 /
-fx_mobile_layer_color_1
+colorSurface
 "
 /
 >

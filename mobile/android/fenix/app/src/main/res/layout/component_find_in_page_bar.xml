@@ -155,7 +155,7 @@ background
 ?
 attr
 /
-layer1
+colorSurface
 "
 android
 :
@@ -163,6 +163,15 @@ clickable
 =
 "
 true
+"
+android
+:
+elevation
+=
+"
+dimen
+/
+browser_fragment_toolbar_elevation
 "
 android
 :
