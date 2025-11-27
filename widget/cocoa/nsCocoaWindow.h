@@ -2178,7 +2178,13 @@ GetCocoaWindow
 )
 {
 return
+[
+[
 mWindow
+retain
+]
+autorelease
+]
 ;
 }
 void
