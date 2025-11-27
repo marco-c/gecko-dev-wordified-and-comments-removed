@@ -16638,6 +16638,14 @@ PartialUpdateFailReason
 :
 Disabled
 ;
+builder
+-
+>
+SetDisablePartialUpdates
+(
+false
+)
+;
 }
 bool
 doFullRebuild
