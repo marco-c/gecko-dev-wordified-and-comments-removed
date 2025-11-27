@@ -605,7 +605,7 @@ nsString
 &
 &
 aSessionId
-int
+int64_t
 aExpiryTimeInMS
 )
 ;
