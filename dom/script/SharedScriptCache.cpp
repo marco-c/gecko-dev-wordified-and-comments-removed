@@ -1634,7 +1634,7 @@ move
 loadedScript
 -
 >
-SRIAndBytecode
+SRI
 (
 )
 )

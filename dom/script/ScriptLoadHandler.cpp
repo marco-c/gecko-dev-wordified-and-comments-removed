@@ -1072,7 +1072,7 @@ if
 mRequest
 -
 >
-SRIAndBytecode
+SRIAndSerializedStencil
 (
 )
 .
@@ -1654,7 +1654,7 @@ receivedData
 mRequest
 -
 >
-SRIAndBytecode
+SRIAndSerializedStencil
 (
 )
 ;
@@ -2367,7 +2367,7 @@ bytecode
 mRequest
 -
 >
-SRIAndBytecode
+SRIAndSerializedStencil
 (
 )
 ;
