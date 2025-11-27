@@ -480,6 +480,8 @@ readback
 async
 SetDataSurfaceBuffer
 (
+uint32_t
+aId
 MutableSharedMemoryHandle
 aBufferHandle
 )
