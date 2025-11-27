@@ -1703,6 +1703,13 @@ http3
 ]
 [
 "
+test_replaceState_during_fragment_navigation
+.
+html
+"
+]
+[
+"
 test_reserved
 .
 html
