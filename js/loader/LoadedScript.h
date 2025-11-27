@@ -1080,7 +1080,7 @@ mSRIAndBytecode
 ;
 }
 TranscodeRange
-Bytecode
+SerializedStencil
 (
 )
 const
@@ -2270,7 +2270,7 @@ SRIAndSerializedStencil
 ;
 }
 TranscodeRange
-Bytecode
+SerializedStencil
 (
 )
 const
@@ -2281,7 +2281,7 @@ GetLoadedScript
 )
 -
 >
-Bytecode
+SerializedStencil
 (
 )
 ;

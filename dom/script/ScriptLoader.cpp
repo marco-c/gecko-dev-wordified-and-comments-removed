@@ -10233,12 +10233,12 @@ JS
 :
 :
 TranscodeRange
-bytecode
+range
 =
 aRequest
 -
 >
-Bytecode
+SerializedStencil
 (
 )
 ;
@@ -10253,7 +10253,7 @@ javascript_options_parallel_parsing
 )
 |
 |
-bytecode
+range
 .
 length
 (
@@ -11439,12 +11439,12 @@ JS
 :
 :
 TranscodeRange
-bytecode
+range
 =
 aRequest
 -
 >
-Bytecode
+SerializedStencil
 (
 )
 ;
@@ -11466,7 +11466,7 @@ decodeTask
 new
 ScriptDecodeTask
 (
-bytecode
+range
 )
 ;
 nsresult
@@ -15707,7 +15707,7 @@ aCompileOptions
 aRequest
 -
 >
-Bytecode
+SerializedStencil
 (
 )
 stencil
