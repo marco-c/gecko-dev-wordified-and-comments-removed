@@ -3778,7 +3778,7 @@ GetLastError
 }
 annotation_path
 .
-display
+to_string_lossy
 (
 )
 )
