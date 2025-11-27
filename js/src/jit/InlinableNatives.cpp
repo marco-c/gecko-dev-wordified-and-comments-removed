@@ -1186,12 +1186,6 @@ case
 InlinableNative
 :
 :
-IntrinsicCanOptimizeStringProtoSymbolLookup
-:
-case
-InlinableNative
-:
-:
 IntrinsicToInteger
 :
 case

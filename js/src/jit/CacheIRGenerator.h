@@ -3344,11 +3344,6 @@ tryAttachCanOptimizeArraySpecies
 )
 ;
 AttachDecision
-tryAttachCanOptimizeStringProtoSymbolLookup
-(
-)
-;
-AttachDecision
 tryAttachGuardToClass
 (
 InlinableNative

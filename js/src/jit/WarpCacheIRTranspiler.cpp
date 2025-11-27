@@ -2718,15 +2718,6 @@ FuseIndex
 :
 OptimizeRegExpPrototypeFuse
 :
-case
-RealmFuses
-:
-:
-FuseIndex
-:
-:
-OptimizeStringPrototypeSymbolsFuse
-:
 MOZ_ASSERT
 (
 RealmFuses
