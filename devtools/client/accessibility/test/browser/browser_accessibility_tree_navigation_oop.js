@@ -80,8 +80,7 @@ sidebar
 {
 name
 :
-"
-"
+null
 role
 :
 "
