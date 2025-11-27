@@ -6324,13 +6324,11 @@ webspeech_test_backend
 )
 depends
 (
-target
 milestone
 )
 def
 skia_pdf_default
 (
-target
 milestone
 )
 :
