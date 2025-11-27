@@ -16,6 +16,7 @@ windows
 :
 {
 server_addr
+PlatformError
 ProcessHandle
 }
 ;
@@ -62,7 +63,7 @@ linux
 :
 :
 {
-server_addr
+PlatformError
 ProcessHandle
 }
 ;
@@ -109,7 +110,7 @@ macos
 :
 :
 {
-server_addr
+PlatformError
 ProcessHandle
 }
 ;
