@@ -36639,6 +36639,12 @@ display
 :
 flex
 ;
+align
+-
+items
+:
+center
+;
 }
 .
 onboardingContainer

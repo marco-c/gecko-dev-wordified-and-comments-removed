@@ -4122,6 +4122,9 @@ where
 tab
 "
 }
+dismiss
+:
+true
 }
 }
 additional_button
@@ -4620,6 +4623,9 @@ where
 tab
 "
 }
+dismiss
+:
+true
 }
 }
 additional_button
