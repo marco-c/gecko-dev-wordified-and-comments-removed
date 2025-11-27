@@ -222,6 +222,16 @@ aRetVal
 )
 const
 ;
+ValueType
+GetValueType
+(
+)
+const
+{
+return
+mValueType
+;
+}
 bool
 IsCSSUnsupportedValue
 (
