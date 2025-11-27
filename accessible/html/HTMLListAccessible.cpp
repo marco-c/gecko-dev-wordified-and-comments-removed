@@ -389,7 +389,7 @@ ENameValueFlag
 HTMLListBulletAccessible
 :
 :
-Name
+DirectName
 (
 nsString
 &

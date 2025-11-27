@@ -43,7 +43,7 @@ a11y
 :
 :
 ENameValueFlag
-Name
+DirectName
 (
 nsString
 &

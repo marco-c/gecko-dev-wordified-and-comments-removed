@@ -51,7 +51,7 @@ aDoc
 ;
 virtual
 ENameValueFlag
-Name
+DirectName
 (
 nsString
 &
