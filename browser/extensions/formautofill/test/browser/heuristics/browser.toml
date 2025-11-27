@@ -187,6 +187,13 @@ js
 ]
 [
 "
+browser_nl_fields
+.
+js
+"
+]
+[
+"
 browser_parse_address_fields
 .
 js
