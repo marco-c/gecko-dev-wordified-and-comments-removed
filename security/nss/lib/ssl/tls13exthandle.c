@@ -4837,6 +4837,17 @@ hs
 cookie
 .
 len
+|
+|
+!
+ss
+-
+>
+ssl3
+.
+hs
+.
+helloRetry
 )
 {
 return

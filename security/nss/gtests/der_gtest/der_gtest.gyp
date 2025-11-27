@@ -124,6 +124,11 @@ p12_import_unittest
 cc
 '
 '
+p7_import_unittest
+.
+cc
+'
+'
 secasn1decode_unittest
 .
 cc

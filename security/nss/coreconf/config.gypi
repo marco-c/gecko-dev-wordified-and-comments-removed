@@ -1193,12 +1193,6 @@ enable_draft_hpke
 :
 0
 '
-force_integrated_as
-%
-'
-:
-0
-'
 disable_ckbi
 %
 '

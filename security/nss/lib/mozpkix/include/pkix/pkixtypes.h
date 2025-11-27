@@ -136,6 +136,11 @@ id_kp_emailProtection
 id_kp_OCSPSigning
 =
 9
+id_kp_documentSigning
+=
+36
+id_kp_documentSigningAdobe
+id_kp_documentSigningMicrosoft
 }
 ;
 struct
@@ -460,10 +465,6 @@ const
 Input
 *
 aiaExtension
-const
-Input
-*
-sctExtension
 )
 =
 0

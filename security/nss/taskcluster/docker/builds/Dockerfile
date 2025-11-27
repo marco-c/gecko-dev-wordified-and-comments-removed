@@ -114,12 +114,6 @@ recommends
 \
 clang
 -
-4
-.
-0
-\
-clang
--
 10
 \
 clang

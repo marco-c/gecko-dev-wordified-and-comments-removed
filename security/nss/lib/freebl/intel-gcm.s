@@ -137,6 +137,10 @@ Intel
 Corp
 .
 .
+section
+.
+rodata
+.
 align
 16
 .
@@ -188,6 +192,10 @@ Lpoly
 quad
 0x1
 0xc200000000000000
+.
+section
+.
+text
 #
 #
 #
