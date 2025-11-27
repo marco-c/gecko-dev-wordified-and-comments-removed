@@ -351,6 +351,7 @@ supportPage
 hasSlottedSupportLink
 nestedFields
 ellipsized
+value
 }
 )
 =
@@ -426,6 +427,14 @@ page
 ifDefined
 (
 supportPage
+)
+}
+value
+=
+{
+ifDefined
+(
+value
 )
 }
 class
