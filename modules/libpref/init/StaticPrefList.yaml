@@ -43245,6 +43245,9 @@ value
 mirror
 :
 always
+#
+ifdef
+XP_DARWIN
 -
 name
 :
@@ -43266,9 +43269,6 @@ false
 mirror
 :
 always
-#
-ifdef
-XP_DARWIN
 #
 Create
 specialized
