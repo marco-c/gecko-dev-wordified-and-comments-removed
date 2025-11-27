@@ -5807,6 +5807,10 @@ updateCurrentPageOrigin
 (
 context
 )
+updateEndBrowserActions
+(
+context
+)
 updateNavigationActions
 (
 context
