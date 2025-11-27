@@ -101,7 +101,7 @@ large
 content
 :
 "
-A
+C
 "
 .
 repeat
@@ -147,7 +147,7 @@ content
 pattern
 :
 "
-large
+file
 "
 type
 :
@@ -712,7 +712,7 @@ large
 content
 :
 "
-A
+C
 "
 .
 repeat
@@ -883,7 +883,7 @@ content
 pattern
 :
 "
-large
+file
 "
 type
 :
@@ -3094,7 +3094,11 @@ port
 )
 }
 /
+dict
+/
 large
+/
+file
 ;
 chan
 =
