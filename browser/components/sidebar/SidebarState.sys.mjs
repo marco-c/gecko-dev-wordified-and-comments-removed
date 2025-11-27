@@ -2536,6 +2536,15 @@ visible
 this
 .
 #
+launcherEl
+.
+requestUpdate
+(
+)
+;
+this
+.
+#
 updateTabbrowser
 (
 visible
