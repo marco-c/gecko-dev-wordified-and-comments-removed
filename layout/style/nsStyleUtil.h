@@ -145,7 +145,7 @@ aComparator
 ;
 static
 void
-AppendEscapedCSSString
+AppendQuotedCSString
 (
 const
 nsACString

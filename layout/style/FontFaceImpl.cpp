@@ -1989,7 +1989,7 @@ quoted
 nsStyleUtil
 :
 :
-AppendEscapedCSSString
+AppendQuotedCSSString
 (
 aValue
 quoted

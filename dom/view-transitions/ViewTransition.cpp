@@ -4601,8 +4601,15 @@ capturedElement
 mNewElement
 )
 {
-NS_ConvertUTF16toUTF8
+nsAutoCString
 dynamicAnimationName
+;
+nsStyleUtil
+:
+:
+AppendQuotedCSString
+(
+NS_ConvertUTF16toUTF8
 (
 kGroupAnimPrefix
 +
@@ -4610,6 +4617,8 @@ nsDependentAtomString
 (
 transitionName
 )
+)
+dynamicAnimationName
 )
 ;
 capturedElement
