@@ -300,7 +300,7 @@ mScriptData
 ;
 MOZ_ASSERT
 (
-mSRIAndBytecode
+mSRIAndSerializedStencil
 .
 empty
 (
@@ -605,7 +605,7 @@ aMallocSizeOf
 bytes
 +
 =
-mSRIAndBytecode
+mSRIAndSerializedStencil
 .
 sizeOfExcludingThis
 (

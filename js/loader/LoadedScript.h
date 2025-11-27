@@ -1007,7 +1007,7 @@ CanHaveSRIOnly
 ;
 return
 !
-mSRIAndBytecode
+mSRIAndSerializedStencil
 .
 empty
 (
@@ -1028,7 +1028,7 @@ CanHaveSRIOnly
 )
 ;
 return
-mSRIAndBytecode
+mSRIAndSerializedStencil
 ;
 }
 void
@@ -1043,7 +1043,7 @@ CanHaveSRIOnly
 )
 )
 ;
-mSRIAndBytecode
+mSRIAndSerializedStencil
 .
 clearAndFree
 (
@@ -1076,7 +1076,7 @@ CanHaveSRIAndSerializedStencil
 )
 ;
 return
-mSRIAndBytecode
+mSRIAndSerializedStencil
 ;
 }
 TranscodeRange
@@ -1095,9 +1095,9 @@ CanHaveSRIAndSerializedStencil
 const
 auto
 &
-bytecode
+buf
 =
-mSRIAndBytecode
+mSRIAndSerializedStencil
 ;
 auto
 offset
@@ -1107,14 +1107,14 @@ mBytecodeOffset
 return
 TranscodeRange
 (
-bytecode
+buf
 .
 begin
 (
 )
 +
 offset
-bytecode
+buf
 .
 length
 (
@@ -1192,7 +1192,7 @@ CanHaveSRIAndSerializedStencil
 )
 ;
 return
-mSRIAndBytecode
+mSRIAndSerializedStencil
 .
 empty
 (
@@ -1216,7 +1216,7 @@ CanHaveSRIAndSerializedStencil
 )
 )
 ;
-mSRIAndBytecode
+mSRIAndSerializedStencil
 .
 clearAndFree
 (
@@ -1556,7 +1556,7 @@ size_t
 mReceivedScriptTextLength
 ;
 TranscodeBuffer
-mSRIAndBytecode
+mSRIAndSerializedStencil
 ;
 RefPtr
 <
