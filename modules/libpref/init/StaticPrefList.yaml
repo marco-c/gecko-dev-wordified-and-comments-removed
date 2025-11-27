@@ -105974,6 +105974,9 @@ mirror
 :
 always
 #
+ifdef
+XP_MACOSX
+#
 Dispatch
 WebAuthn
 requests
@@ -105999,6 +106002,8 @@ true
 mirror
 :
 always
+#
+endif
 #
 Dispatch
 WebAuthn
