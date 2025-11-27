@@ -418,6 +418,13 @@ defined
 (
 JS_SIMULATOR_LOONG64
 )
+|
+|
+\
+defined
+(
+JS_SIMULATOR_MIPS64
+)
 void
 switchSimulatorToMain
 (
