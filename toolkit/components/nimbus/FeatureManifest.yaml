@@ -28946,9 +28946,6 @@ archiveKillswitch
 type
 :
 boolean
-default
-:
-false
 description
 :
 >
@@ -28968,9 +28965,6 @@ restoreKillswitch
 type
 :
 boolean
-default
-:
-false
 description
 :
 >
