@@ -72,17 +72,6 @@ CookieServiceChild
 h
 "
 #
-include
-"
-mozilla
-/
-net
-/
-DataChannelChild
-.
-h
-"
-#
 ifdef
 MOZ_WIDGET_GTK
 #

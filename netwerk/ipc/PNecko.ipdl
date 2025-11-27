@@ -58,10 +58,6 @@ PDNSRequest
 ;
 include
 protocol
-PDataChannel
-;
-include
-protocol
 PTransportProvider
 ;
 include
@@ -258,9 +254,6 @@ PUDPSocket
 ;
 manages
 PDNSRequest
-;
-manages
-PDataChannel
 ;
 #
 ifdef
@@ -479,13 +472,6 @@ reason
 ;
 async
 ConnectBaseChannel
-(
-uint32_t
-channelId
-)
-;
-async
-PDataChannel
 (
 uint32_t
 channelId
