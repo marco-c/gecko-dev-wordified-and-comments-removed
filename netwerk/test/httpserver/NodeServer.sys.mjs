@@ -6189,7 +6189,7 @@ BaseNodeServer
 _protocol
 =
 "
-h2ws
+wss
 "
 ;
 /
