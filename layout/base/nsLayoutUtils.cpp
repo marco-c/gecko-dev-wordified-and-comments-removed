@@ -1336,13 +1336,6 @@ prenv
 h
 "
 #
-include
-"
-AnchorPositioningUtils
-.
-h
-"
-#
 ifdef
 XP_WIN
 #
