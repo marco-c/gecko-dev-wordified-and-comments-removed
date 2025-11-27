@@ -139,14 +139,14 @@ h
 #
 include
 <
-Shlobj
+shlobj
 .
 h
 >
 #
 include
 <
-KnownFolders
+knownfolders
 .
 h
 >
