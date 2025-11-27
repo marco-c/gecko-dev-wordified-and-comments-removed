@@ -505,7 +505,7 @@ uint8_t
 {
 eUnknown
 eTextSource
-eBytecode
+eSerializedStencil
 eCachedStencil
 }
 ;
@@ -593,7 +593,7 @@ IsTextSource
 ;
 }
 bool
-IsBytecode
+IsSerializedStencil
 (
 )
 const
@@ -605,7 +605,7 @@ mDataType
 DataType
 :
 :
-eBytecode
+eSerializedStencil
 ;
 }
 bool
@@ -682,7 +682,7 @@ Utf8Unit
 ;
 }
 void
-SetBytecode
+SetSerializedStencil
 (
 )
 {
@@ -698,7 +698,7 @@ mDataType
 DataType
 :
 :
-eBytecode
+eSerializedStencil
 ;
 }
 void
@@ -983,7 +983,7 @@ CanHaveBytecode
 const
 {
 return
-IsBytecode
+IsSerializedStencil
 (
 )
 |
@@ -1023,7 +1023,7 @@ const
 {
 MOZ_ASSERT
 (
-IsBytecode
+IsSerializedStencil
 (
 )
 )
@@ -1851,7 +1851,7 @@ IsSource
 ;
 }
 bool
-IsBytecode
+IsSerializedStencil
 (
 )
 const
@@ -1862,7 +1862,7 @@ GetLoadedScript
 )
 -
 >
-IsBytecode
+IsSerializedStencil
 (
 )
 ;
@@ -1919,7 +1919,7 @@ maybeLoadContext
 ;
 }
 void
-SetBytecode
+SetSerializedStencil
 (
 )
 {
@@ -1928,7 +1928,7 @@ GetLoadedScript
 )
 -
 >
-SetBytecode
+SetSerializedStencil
 (
 )
 ;

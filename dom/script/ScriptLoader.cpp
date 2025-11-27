@@ -1997,7 +1997,7 @@ if
 aRequest
 -
 >
-IsBytecode
+IsSerializedStencil
 (
 )
 )
@@ -9812,7 +9812,7 @@ MOZ_ASSERT
 mRequest
 -
 >
-IsBytecode
+IsSerializedStencil
 (
 )
 )
@@ -10224,7 +10224,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-IsBytecode
+IsSerializedStencil
 (
 )
 )
@@ -11430,7 +11430,7 @@ if
 aRequest
 -
 >
-IsBytecode
+IsSerializedStencil
 (
 )
 )
@@ -12535,7 +12535,7 @@ if
 aRequest
 -
 >
-IsBytecode
+IsSerializedStencil
 (
 )
 )
@@ -14044,7 +14044,7 @@ if
 aRequest
 -
 >
-IsBytecode
+IsSerializedStencil
 (
 )
 )
@@ -14066,7 +14066,9 @@ cache
 Skip
 disk
 :
-IsBytecode
+"
+"
+IsSerializedStencil
 "
 aRequest
 )
@@ -15555,7 +15557,7 @@ if
 aRequest
 -
 >
-IsBytecode
+IsSerializedStencil
 (
 )
 )
