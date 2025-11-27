@@ -27,14 +27,6 @@ schema
 import
 Schema
 from
-taskgraph
-.
-util
-.
-taskcluster
-import
-get_root_url
-from
 voluptuous
 import
 Any
@@ -1104,9 +1096,7 @@ sbin
 setup_packages
 .
 sh
-{
-root_url
-}
+TASKCLUSTER_ROOT_URL
 PACKAGES
 &
 &
@@ -1342,12 +1332,6 @@ gz
 .
 format
 (
-            
-root_url
-=
-get_root_url
-(
-)
             
 package
 =
@@ -1660,6 +1644,12 @@ bookworm
 "
 :
 12
+        
+"
+trixie
+"
+:
+13
     
 }
 [

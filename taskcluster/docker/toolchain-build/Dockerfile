@@ -54,6 +54,10 @@ setup_packages
 sh
 TASKCLUSTER_ROOT_URL
 DOCKER_IMAGE_PACKAGES
+ARG
+CLANG_VER
+=
+13
 RUN
 apt
 -
@@ -83,7 +87,9 @@ curl
 \
 clang
 -
-13
+{
+CLANG_VER
+}
 \
 cmake
 \
@@ -137,7 +143,9 @@ dev
 \
 lld
 -
-13
+{
+CLANG_VER
+}
 \
 msitools
 \
