@@ -1770,6 +1770,7 @@ vpx_highbd_convolve12_vert
 ssse3
 avx2
 neon
+sve2
 /
 ;
 add_proto
@@ -1817,6 +1818,7 @@ vpx_highbd_convolve12_horiz
 ssse3
 avx2
 neon
+sve2
 /
 ;
 add_proto
@@ -1864,6 +1866,7 @@ vpx_highbd_convolve12
 ssse3
 avx2
 neon
+sve2
 /
 ;
 }
