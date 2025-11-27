@@ -1229,6 +1229,13 @@ JitcodeGlobalEntry
 *
 entry_
 ;
+static
+constexpr
+uint32_t
+MaxInliningDepth
+=
+8
+;
 js
 :
 :
@@ -1238,7 +1245,7 @@ jit
 CallStackFrameInfo
 frames_
 [
-64
+MaxInliningDepth
 ]
 ;
 uint32_t

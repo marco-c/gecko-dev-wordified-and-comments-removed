@@ -40,6 +40,17 @@ jit
 class
 InlineScriptTree
 {
+public
+:
+static
+constexpr
+uint32_t
+MaxDepth
+=
+8
+;
+private
+:
 InlineScriptTree
 *
 caller_
