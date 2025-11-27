@@ -181,14 +181,6 @@ read
 )
 ;
 [
-Func
-=
-"
-Clipboard
-:
-:
-ReadTextEnabled
-"
 NewObject
 NeedsSubjectPrincipal
 ]
