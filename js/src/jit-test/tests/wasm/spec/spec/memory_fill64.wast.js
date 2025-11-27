@@ -7,6 +7,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -22,13 +23,13 @@ checkRange
 param
 \
 from
-i32
+i64
 )
 (
 param
 \
 to
-i32
+i64
 )
 (
 param
@@ -38,7 +39,7 @@ i32
 )
 (
 result
-i32
+i64
 )
 (
 loop
@@ -47,7 +48,7 @@ cont
 (
 if
 (
-i32
+i64
 .
 eq
 (
@@ -70,7 +71,7 @@ then
 (
 return
 (
-i32
+i64
 .
 const
 -
@@ -114,7 +115,7 @@ set
 \
 from
 (
-i32
+i64
 .
 add
 (
@@ -125,7 +126,7 @@ get
 from
 )
 (
-i32
+i64
 .
 const
 1
@@ -164,7 +165,7 @@ memory
 .
 fill
 (
-i32
+i64
 .
 const
 0xFF00
@@ -176,7 +177,7 @@ const
 0x55
 )
 (
-i32
+i64
 .
 const
 256
@@ -205,8 +206,8 @@ invoke
 0
 checkRange
 [
-0
-65280
+0n
+65280n
 0
 ]
 )
@@ -214,10 +215,10 @@ checkRange
 value
 (
 "
-i32
+i64
 "
 -
-1
+1n
 )
 ]
 )
@@ -233,8 +234,8 @@ invoke
 0
 checkRange
 [
-65280
-65536
+65280n
+65536n
 85
 ]
 )
@@ -242,10 +243,10 @@ checkRange
 value
 (
 "
-i32
+i64
 "
 -
-1
+1n
 )
 ]
 )
@@ -259,6 +260,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -274,13 +276,13 @@ checkRange
 param
 \
 from
-i32
+i64
 )
 (
 param
 \
 to
-i32
+i64
 )
 (
 param
@@ -290,7 +292,7 @@ i32
 )
 (
 result
-i32
+i64
 )
 (
 loop
@@ -299,7 +301,7 @@ cont
 (
 if
 (
-i32
+i64
 .
 eq
 (
@@ -322,7 +324,7 @@ then
 (
 return
 (
-i32
+i64
 .
 const
 -
@@ -366,7 +368,7 @@ set
 \
 from
 (
-i32
+i64
 .
 add
 (
@@ -377,7 +379,7 @@ get
 from
 )
 (
-i32
+i64
 .
 const
 1
@@ -416,7 +418,7 @@ memory
 .
 fill
 (
-i32
+i64
 .
 const
 0xFF00
@@ -428,7 +430,7 @@ const
 0x55
 )
 (
-i32
+i64
 .
 const
 257
@@ -467,6 +469,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -482,13 +485,13 @@ checkRange
 param
 \
 from
-i32
+i64
 )
 (
 param
 \
 to
-i32
+i64
 )
 (
 param
@@ -498,7 +501,7 @@ i32
 )
 (
 result
-i32
+i64
 )
 (
 loop
@@ -507,7 +510,7 @@ cont
 (
 if
 (
-i32
+i64
 .
 eq
 (
@@ -530,7 +533,7 @@ then
 (
 return
 (
-i32
+i64
 .
 const
 -
@@ -574,7 +577,7 @@ set
 \
 from
 (
-i32
+i64
 .
 add
 (
@@ -585,7 +588,7 @@ get
 from
 )
 (
-i32
+i64
 .
 const
 1
@@ -624,7 +627,7 @@ memory
 .
 fill
 (
-i32
+i64
 .
 const
 0xFFFFFF00
@@ -636,7 +639,7 @@ const
 0x55
 )
 (
-i32
+i64
 .
 const
 257
@@ -675,6 +678,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -690,13 +694,13 @@ checkRange
 param
 \
 from
-i32
+i64
 )
 (
 param
 \
 to
-i32
+i64
 )
 (
 param
@@ -706,7 +710,7 @@ i32
 )
 (
 result
-i32
+i64
 )
 (
 loop
@@ -715,7 +719,7 @@ cont
 (
 if
 (
-i32
+i64
 .
 eq
 (
@@ -738,7 +742,7 @@ then
 (
 return
 (
-i32
+i64
 .
 const
 -
@@ -782,7 +786,7 @@ set
 \
 from
 (
-i32
+i64
 .
 add
 (
@@ -793,7 +797,7 @@ get
 from
 )
 (
-i32
+i64
 .
 const
 1
@@ -832,7 +836,7 @@ memory
 .
 fill
 (
-i32
+i64
 .
 const
 0x12
@@ -844,7 +848,7 @@ const
 0x55
 )
 (
-i32
+i64
 .
 const
 0
@@ -873,8 +877,8 @@ invoke
 3
 checkRange
 [
-0
-65536
+0n
+65536n
 0
 ]
 )
@@ -882,10 +886,10 @@ checkRange
 value
 (
 "
-i32
+i64
 "
 -
-1
+1n
 )
 ]
 )
@@ -899,6 +903,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -914,13 +919,13 @@ checkRange
 param
 \
 from
-i32
+i64
 )
 (
 param
 \
 to
-i32
+i64
 )
 (
 param
@@ -930,7 +935,7 @@ i32
 )
 (
 result
-i32
+i64
 )
 (
 loop
@@ -939,7 +944,7 @@ cont
 (
 if
 (
-i32
+i64
 .
 eq
 (
@@ -962,7 +967,7 @@ then
 (
 return
 (
-i32
+i64
 .
 const
 -
@@ -1006,7 +1011,7 @@ set
 \
 from
 (
-i32
+i64
 .
 add
 (
@@ -1017,7 +1022,7 @@ get
 from
 )
 (
-i32
+i64
 .
 const
 1
@@ -1056,7 +1061,7 @@ memory
 .
 fill
 (
-i32
+i64
 .
 const
 0x10000
@@ -1068,7 +1073,7 @@ const
 0x55
 )
 (
-i32
+i64
 .
 const
 0
@@ -1095,6 +1100,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -1110,13 +1116,13 @@ checkRange
 param
 \
 from
-i32
+i64
 )
 (
 param
 \
 to
-i32
+i64
 )
 (
 param
@@ -1126,7 +1132,7 @@ i32
 )
 (
 result
-i32
+i64
 )
 (
 loop
@@ -1135,7 +1141,7 @@ cont
 (
 if
 (
-i32
+i64
 .
 eq
 (
@@ -1158,7 +1164,7 @@ then
 (
 return
 (
-i32
+i64
 .
 const
 -
@@ -1202,7 +1208,7 @@ set
 \
 from
 (
-i32
+i64
 .
 add
 (
@@ -1213,7 +1219,7 @@ get
 from
 )
 (
-i32
+i64
 .
 const
 1
@@ -1252,7 +1258,7 @@ memory
 .
 fill
 (
-i32
+i64
 .
 const
 0x20000
@@ -1264,7 +1270,7 @@ const
 0x55
 )
 (
-i32
+i64
 .
 const
 0
@@ -1303,6 +1309,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -1318,13 +1325,13 @@ checkRange
 param
 \
 from
-i32
+i64
 )
 (
 param
 \
 to
-i32
+i64
 )
 (
 param
@@ -1334,7 +1341,7 @@ i32
 )
 (
 result
-i32
+i64
 )
 (
 loop
@@ -1343,7 +1350,7 @@ cont
 (
 if
 (
-i32
+i64
 .
 eq
 (
@@ -1366,7 +1373,7 @@ then
 (
 return
 (
-i32
+i64
 .
 const
 -
@@ -1410,7 +1417,7 @@ set
 \
 from
 (
-i32
+i64
 .
 add
 (
@@ -1421,7 +1428,7 @@ get
 from
 )
 (
-i32
+i64
 .
 const
 1
@@ -1460,7 +1467,7 @@ memory
 .
 fill
 (
-i32
+i64
 .
 const
 0x1
@@ -1472,7 +1479,7 @@ const
 0xAA
 )
 (
-i32
+i64
 .
 const
 0xFFFE
@@ -1501,8 +1508,8 @@ invoke
 6
 checkRange
 [
-0
-1
+0n
+1n
 0
 ]
 )
@@ -1510,10 +1517,10 @@ checkRange
 value
 (
 "
-i32
+i64
 "
 -
-1
+1n
 )
 ]
 )
@@ -1529,8 +1536,8 @@ invoke
 6
 checkRange
 [
-1
-65535
+1n
+65535n
 170
 ]
 )
@@ -1538,10 +1545,10 @@ checkRange
 value
 (
 "
-i32
+i64
 "
 -
-1
+1n
 )
 ]
 )
@@ -1557,8 +1564,8 @@ invoke
 6
 checkRange
 [
-65535
-65536
+65535n
+65536n
 0
 ]
 )
@@ -1566,10 +1573,10 @@ checkRange
 value
 (
 "
-i32
+i64
 "
 -
-1
+1n
 )
 ]
 )
@@ -1583,6 +1590,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -1598,13 +1606,13 @@ checkRange
 param
 \
 from
-i32
+i64
 )
 (
 param
 \
 to
-i32
+i64
 )
 (
 param
@@ -1614,7 +1622,7 @@ i32
 )
 (
 result
-i32
+i64
 )
 (
 loop
@@ -1623,7 +1631,7 @@ cont
 (
 if
 (
-i32
+i64
 .
 eq
 (
@@ -1646,7 +1654,7 @@ then
 (
 return
 (
-i32
+i64
 .
 const
 -
@@ -1690,7 +1698,7 @@ set
 \
 from
 (
-i32
+i64
 .
 add
 (
@@ -1701,7 +1709,7 @@ get
 from
 )
 (
-i32
+i64
 .
 const
 1
@@ -1740,7 +1748,7 @@ memory
 .
 fill
 (
-i32
+i64
 .
 const
 0x12
@@ -1752,7 +1760,7 @@ const
 0x55
 )
 (
-i32
+i64
 .
 const
 10
@@ -1763,7 +1771,7 @@ memory
 .
 fill
 (
-i32
+i64
 .
 const
 0x15
@@ -1775,7 +1783,7 @@ const
 0xAA
 )
 (
-i32
+i64
 .
 const
 4
@@ -1804,8 +1812,8 @@ invoke
 7
 checkRange
 [
-0
-18
+0n
+18n
 0
 ]
 )
@@ -1813,10 +1821,10 @@ checkRange
 value
 (
 "
-i32
+i64
 "
 -
-1
+1n
 )
 ]
 )
@@ -1832,8 +1840,8 @@ invoke
 7
 checkRange
 [
-18
-21
+18n
+21n
 85
 ]
 )
@@ -1841,10 +1849,10 @@ checkRange
 value
 (
 "
-i32
+i64
 "
 -
-1
+1n
 )
 ]
 )
@@ -1860,8 +1868,8 @@ invoke
 7
 checkRange
 [
-21
-25
+21n
+25n
 170
 ]
 )
@@ -1869,10 +1877,10 @@ checkRange
 value
 (
 "
-i32
+i64
 "
 -
-1
+1n
 )
 ]
 )
@@ -1888,8 +1896,8 @@ invoke
 7
 checkRange
 [
-25
-28
+25n
+28n
 85
 ]
 )
@@ -1897,10 +1905,10 @@ checkRange
 value
 (
 "
-i32
+i64
 "
 -
-1
+1n
 )
 ]
 )
@@ -1916,8 +1924,8 @@ invoke
 7
 checkRange
 [
-28
-65536
+28n
+65536n
 0
 ]
 )
@@ -1925,10 +1933,10 @@ checkRange
 value
 (
 "
-i32
+i64
 "
 -
-1
+1n
 )
 ]
 )
@@ -1956,7 +1964,7 @@ memory
 .
 fill
 (
-i32
+i64
 .
 const
 10
@@ -1968,7 +1976,7 @@ const
 20
 )
 (
-i32
+i64
 .
 const
 30
@@ -1994,6 +2002,61 @@ instantiate
 module
 (
 memory
+i64
+1
+1
+)
+(
+func
+(
+export
+"
+testfn
+"
+)
+(
+memory
+.
+fill
+(
+i32
+.
+const
+10
+)
+(
+i32
+.
+const
+20
+)
+(
+i32
+.
+const
+30
+)
+)
+)
+)
+)
+type
+mismatch
+)
+;
+assert_invalid
+(
+(
+)
+=
+>
+instantiate
+(
+(
+module
+(
+memory
+i64
 1
 1
 )
@@ -2047,6 +2110,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -2100,6 +2164,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -2153,6 +2218,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -2206,6 +2272,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -2259,6 +2326,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -2312,6 +2380,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -2365,6 +2434,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -2418,6 +2488,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -2471,6 +2542,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -2524,6 +2596,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -2577,6 +2650,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -2630,6 +2704,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -2683,6 +2758,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -2736,6 +2812,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -2789,6 +2866,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -2842,6 +2920,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -2895,6 +2974,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -2948,6 +3028,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -3001,6 +3082,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -3054,6 +3136,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -3107,6 +3190,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -3160,6 +3244,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -3213,6 +3298,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -3266,6 +3352,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -3319,6 +3406,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -3372,6 +3460,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -3425,6 +3514,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -3478,6 +3568,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -3531,6 +3622,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -3584,6 +3676,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -3637,6 +3730,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -3690,6 +3784,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -3743,59 +3838,7 @@ instantiate
 module
 (
 memory
-1
-1
-)
-(
-func
-(
-export
-"
-testfn
-"
-)
-(
-memory
-.
-fill
-(
 i64
-.
-const
-10
-)
-(
-i32
-.
-const
-20
-)
-(
-i64
-.
-const
-30
-)
-)
-)
-)
-)
-type
-mismatch
-)
-;
-assert_invalid
-(
-(
-)
-=
->
-instantiate
-(
-(
-module
-(
-memory
 1
 1
 )
@@ -3849,6 +3892,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -3902,6 +3946,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -3955,6 +4000,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -4008,6 +4054,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -4061,6 +4108,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -4114,6 +4162,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -4167,6 +4216,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -4220,6 +4270,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -4273,6 +4324,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -4326,6 +4378,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -4379,6 +4432,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -4432,6 +4486,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -4485,6 +4540,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -4538,6 +4594,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -4591,6 +4648,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -4644,6 +4702,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -4697,6 +4756,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -4750,6 +4810,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -4803,6 +4864,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -4856,6 +4918,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -4909,6 +4972,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -4962,6 +5026,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -5015,6 +5080,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -5068,6 +5134,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -5121,6 +5188,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -5174,6 +5242,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -5227,6 +5296,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -5280,6 +5350,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -5330,6 +5401,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -5345,13 +5417,13 @@ checkRange
 param
 \
 from
-i32
+i64
 )
 (
 param
 \
 to
-i32
+i64
 )
 (
 param
@@ -5361,7 +5433,7 @@ i32
 )
 (
 result
-i32
+i64
 )
 (
 loop
@@ -5370,7 +5442,7 @@ cont
 (
 if
 (
-i32
+i64
 .
 eq
 (
@@ -5393,7 +5465,7 @@ then
 (
 return
 (
-i32
+i64
 .
 const
 -
@@ -5437,7 +5509,7 @@ set
 \
 from
 (
-i32
+i64
 .
 add
 (
@@ -5448,7 +5520,7 @@ get
 from
 )
 (
-i32
+i64
 .
 const
 1
@@ -5486,7 +5558,7 @@ run
 param
 \
 offs
-i32
+i64
 )
 (
 param
@@ -5498,7 +5570,7 @@ i32
 param
 \
 len
-i32
+i64
 )
 (
 memory
@@ -5541,9 +5613,9 @@ invoke
 8
 run
 [
-65280
+65280n
 37
-512
+512n
 ]
 )
 out
@@ -5564,8 +5636,8 @@ invoke
 8
 checkRange
 [
-0
-1
+0n
+1n
 0
 ]
 )
@@ -5573,10 +5645,10 @@ checkRange
 value
 (
 "
-i32
+i64
 "
 -
-1
+1n
 )
 ]
 )
@@ -5590,6 +5662,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -5605,13 +5678,13 @@ checkRange
 param
 \
 from
-i32
+i64
 )
 (
 param
 \
 to
-i32
+i64
 )
 (
 param
@@ -5621,7 +5694,7 @@ i32
 )
 (
 result
-i32
+i64
 )
 (
 loop
@@ -5630,7 +5703,7 @@ cont
 (
 if
 (
-i32
+i64
 .
 eq
 (
@@ -5653,7 +5726,7 @@ then
 (
 return
 (
-i32
+i64
 .
 const
 -
@@ -5697,7 +5770,7 @@ set
 \
 from
 (
-i32
+i64
 .
 add
 (
@@ -5708,7 +5781,7 @@ get
 from
 )
 (
-i32
+i64
 .
 const
 1
@@ -5746,7 +5819,7 @@ run
 param
 \
 offs
-i32
+i64
 )
 (
 param
@@ -5758,7 +5831,7 @@ i32
 param
 \
 len
-i32
+i64
 )
 (
 memory
@@ -5801,9 +5874,9 @@ invoke
 9
 run
 [
-65279
+65279n
 37
-514
+514n
 ]
 )
 out
@@ -5824,8 +5897,8 @@ invoke
 9
 checkRange
 [
-0
-1
+0n
+1n
 0
 ]
 )
@@ -5833,10 +5906,10 @@ checkRange
 value
 (
 "
-i32
+i64
 "
 -
-1
+1n
 )
 ]
 )
@@ -5850,6 +5923,7 @@ instantiate
 module
 (
 memory
+i64
 1
 1
 )
@@ -5865,13 +5939,13 @@ checkRange
 param
 \
 from
-i32
+i64
 )
 (
 param
 \
 to
-i32
+i64
 )
 (
 param
@@ -5881,7 +5955,7 @@ i32
 )
 (
 result
-i32
+i64
 )
 (
 loop
@@ -5890,7 +5964,7 @@ cont
 (
 if
 (
-i32
+i64
 .
 eq
 (
@@ -5913,7 +5987,7 @@ then
 (
 return
 (
-i32
+i64
 .
 const
 -
@@ -5957,7 +6031,7 @@ set
 \
 from
 (
-i32
+i64
 .
 add
 (
@@ -5968,7 +6042,7 @@ get
 from
 )
 (
-i32
+i64
 .
 const
 1
@@ -6006,7 +6080,7 @@ run
 param
 \
 offs
-i32
+i64
 )
 (
 param
@@ -6018,7 +6092,7 @@ i32
 param
 \
 len
-i32
+i64
 )
 (
 memory
@@ -6061,10 +6135,9 @@ invoke
 10
 run
 [
-65279
+65279n
 37
--
-1
+4294967295n
 ]
 )
 out
@@ -6085,8 +6158,8 @@ invoke
 10
 checkRange
 [
-0
-1
+0n
+1n
 0
 ]
 )
@@ -6094,10 +6167,10 @@ checkRange
 value
 (
 "
-i32
+i64
 "
 -
-1
+1n
 )
 ]
 )
