@@ -99,13 +99,6 @@ min
 height
 )
 -
-2px
-/
-*
-border
-*
-/
--
 2
 *
 var
@@ -115,6 +108,8 @@ var
 urlbar
 -
 container
+-
+border
 -
 padding
 )
