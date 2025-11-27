@@ -636,6 +636,11 @@ OneStepInASRChain
 nsIFrame
 *
 aFrame
+nsIFrame
+*
+aLimitAncestor
+=
+nullptr
 )
 ;
 static
