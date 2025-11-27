@@ -70,6 +70,11 @@ test_concurrent_http_connect_tunnels
 ;
 add_task
 (
+test_http_connect_websocket
+)
+;
+add_task
+(
 test_connect_udp
 )
 ;
