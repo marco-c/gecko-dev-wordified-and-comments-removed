@@ -3317,17 +3317,6 @@ off
 "
 jsdoc
 /
-check
--
-types
-"
-:
-"
-off
-"
-"
-jsdoc
-/
 require
 -
 param

@@ -9588,10 +9588,7 @@ activity
 *
 param
 {
-Object
-<
 Promise
->
 }
 The
 save
@@ -9661,10 +9658,7 @@ saved
 *
 return
 {
-Object
-<
 Promise
->
 }
 A
 promise

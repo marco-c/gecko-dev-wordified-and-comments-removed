@@ -10112,10 +10112,7 @@ pings
 *
 return
 {
-Object
-<
 Promise
->
 }
 A
 promise
