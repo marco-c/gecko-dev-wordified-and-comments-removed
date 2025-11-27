@@ -69,6 +69,7 @@ bool
 IsValid
 (
 )
+const
 override
 {
 return
