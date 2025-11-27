@@ -296,15 +296,6 @@ aXWindow
 )
 override
 ;
-bool
-SetEGLNativeWindowSize
-(
-const
-LayoutDeviceIntSize
-&
-aEGLWindowSize
-)
-;
 #
 if
 defined
