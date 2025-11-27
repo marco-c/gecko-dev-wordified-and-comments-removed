@@ -88348,6 +88348,9 @@ mirror
 :
 always
 #
+ifdef
+XP_MACOSX
+#
 When
 resolving
 a
@@ -88382,6 +88385,8 @@ value
 mirror
 :
 always
+#
+endif
 #
 When
 this
