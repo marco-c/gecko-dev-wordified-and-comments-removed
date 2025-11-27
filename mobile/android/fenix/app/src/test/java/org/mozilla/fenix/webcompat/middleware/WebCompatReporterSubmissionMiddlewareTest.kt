@@ -3149,7 +3149,7 @@ dispatch
 (
 WebCompatReporterAction
 .
-SendMoreInfoClicked
+AddMoreInfoClicked
 )
 assertTrue
 (

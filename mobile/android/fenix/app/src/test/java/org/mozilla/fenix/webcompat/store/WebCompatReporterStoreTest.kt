@@ -1112,7 +1112,7 @@ dispatch
 (
 WebCompatReporterAction
 .
-SendMoreInfoClicked
+AddMoreInfoClicked
 )
 assertEquals
 (

@@ -513,7 +513,7 @@ context
 is
 WebCompatReporterAction
 .
-SendMoreInfoClicked
+AddMoreInfoClicked
 -
 >
 {

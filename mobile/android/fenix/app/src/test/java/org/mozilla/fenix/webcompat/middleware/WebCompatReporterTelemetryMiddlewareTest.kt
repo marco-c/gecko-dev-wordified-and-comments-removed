@@ -315,7 +315,7 @@ assertNull
 (
 Webcompatreporting
 .
-sendMoreInfo
+addMoreInfo
 .
 testGetValue
 (
@@ -327,14 +327,14 @@ dispatch
 (
 WebCompatReporterAction
 .
-SendMoreInfoClicked
+AddMoreInfoClicked
 )
 val
 snapshot
 =
 Webcompatreporting
 .
-sendMoreInfo
+addMoreInfo
 .
 testGetValue
 (
@@ -351,7 +351,7 @@ size
 assertEquals
 (
 "
-send_more_info
+add_more_info
 "
 snapshot
 .

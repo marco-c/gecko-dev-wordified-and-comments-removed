@@ -383,7 +383,7 @@ WebCompatReporterAction
 BackPressed
 WebCompatReporterAction
 .
-SendMoreInfoClicked
+AddMoreInfoClicked
 WebCompatReporterAction
 .
 LearnMoreClicked

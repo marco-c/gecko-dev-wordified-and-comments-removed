@@ -1745,7 +1745,7 @@ dispatch
 (
 WebCompatReporterAction
 .
-SendMoreInfoClicked
+AddMoreInfoClicked
 )
 }
 style

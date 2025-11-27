@@ -96911,7 +96911,7 @@ origins
 type
 :
 boolean
-send_more_info
+add_more_info
 :
 type
 :
@@ -96926,7 +96926,7 @@ user
 clicks
 on
 the
-Send
+Add
 More
 Info
 link

@@ -943,7 +943,7 @@ the
 user
 requests
 to
-send
+add
 more
 info
 .
@@ -951,7 +951,7 @@ info
 /
 data
 object
-SendMoreInfoClicked
+AddMoreInfoClicked
 :
 WebCompatReporterAction
 (
@@ -1160,7 +1160,7 @@ SendReportClicked
 state
 WebCompatReporterAction
 .
-SendMoreInfoClicked
+AddMoreInfoClicked
 -
 >
 state

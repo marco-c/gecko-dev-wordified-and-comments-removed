@@ -235,13 +235,13 @@ name
 }
 WebCompatReporterAction
 .
-SendMoreInfoClicked
+AddMoreInfoClicked
 -
 >
 {
 Webcompatreporting
 .
-sendMoreInfo
+addMoreInfo
 .
 record
 (
