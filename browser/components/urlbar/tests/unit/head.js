@@ -3533,6 +3533,10 @@ matches
 =
 [
 ]
+conditionalPayloadProperties
+=
+{
+}
 }
 =
 {
@@ -3916,7 +3920,6 @@ true
 }
 }
 ;
-let
 conditionalPayloadProperties
 =
 {
@@ -3941,6 +3944,10 @@ ignore
 :
 true
 }
+.
+.
+.
+conditionalPayloadProperties
 }
 ;
 for
