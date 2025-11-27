@@ -472,6 +472,36 @@ sorted
 dependency_digests
 )
         
+if
+config
+.
+params
+[
+"
+repository_type
+"
+]
+=
+=
+"
+git
+"
+:
+            
+digest_data
+.
+append
+(
+config
+.
+params
+[
+"
+repository_type
+"
+]
+)
+        
 add_optimization
 (
             
