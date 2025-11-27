@@ -1080,11 +1080,6 @@ query
 "
 '
 mochitest
--
-browser
--
-newtab
--
 trainhop
 !
 cf
@@ -1100,6 +1095,11 @@ shippable
 debug
 !
 devedition
+!
+wayland
+!
+-
+32
 "
 devtools
 :

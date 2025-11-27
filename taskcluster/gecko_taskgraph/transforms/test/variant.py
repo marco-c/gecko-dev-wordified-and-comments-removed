@@ -520,14 +520,20 @@ item
 =
 replace_task_items
 (
+                    
 task_key
-[
+.
+get
+(
 item
-]
+{
+}
+)
 variant_key
 [
 item
 ]
+                
 )
             
 else
