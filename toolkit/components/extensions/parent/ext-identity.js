@@ -536,7 +536,7 @@ window
 .
 document
 .
-isInitialDocument
+isUncommittedInitialDocument
 )
 {
 return

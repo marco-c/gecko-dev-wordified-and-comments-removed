@@ -135,6 +135,11 @@ tabLoaded
 addTab
 (
 url
+{
+waitForLoad
+:
+true
+}
 )
 ;
 const

@@ -2747,6 +2747,9 @@ mIsSystem
 bool
 mIsAnon
 ;
+bool
+mAlreadyGotStopRequest
+;
 void
 CloseRequest
 (

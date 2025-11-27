@@ -2090,6 +2090,13 @@ js
 ]
 [
 "
+browser_system_principal_initial_document
+.
+js
+"
+]
+[
+"
 browser_tab_replace_while_loading
 .
 js

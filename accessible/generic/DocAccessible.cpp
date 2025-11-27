@@ -2639,6 +2639,15 @@ Document
 :
 :
 READYSTATE_COMPLETE
+&
+&
+!
+mDocumentNode
+-
+>
+IsUncommittedInitialDocument
+(
+)
 )
 {
 mLoadState
@@ -2660,7 +2669,7 @@ if
 mDocumentNode
 -
 >
-IsInitialDocument
+IsUncommittedInitialDocument
 (
 )
 )

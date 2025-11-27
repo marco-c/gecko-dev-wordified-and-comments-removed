@@ -467,6 +467,14 @@ doTestWithNewWindow
 {
 link
 expectedSetURICalled
+actionWhileLoading
+=
+async
+p
+=
+>
+await
+p
 }
 )
 {
@@ -648,6 +656,8 @@ true
 )
 ;
 await
+actionWhileLoading
+(
 BrowserTestUtils
 .
 browserLoaded
@@ -657,7 +667,9 @@ win
 gBrowser
 .
 selectedBrowser
-false
+{
+wantLoad
+:
 href
 |
 |
@@ -667,6 +679,8 @@ href
 =
 >
 true
+)
+}
 )
 )
 ;

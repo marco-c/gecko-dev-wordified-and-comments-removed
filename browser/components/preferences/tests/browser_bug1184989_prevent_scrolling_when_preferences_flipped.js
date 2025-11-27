@@ -477,14 +477,10 @@ TAB_FORMDATA
 let
 tab
 =
-(
-gBrowser
-.
-selectedTab
-=
+await
 BrowserTestUtils
 .
-addTab
+openNewForegroundTab
 (
 gBrowser
 "
@@ -492,7 +488,6 @@ about
 :
 blank
 "
-)
 )
 ;
 SessionStore

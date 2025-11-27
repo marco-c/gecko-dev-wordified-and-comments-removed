@@ -125,6 +125,14 @@ href
 =
 =
 targetURL
+&
+&
+!
+win
+.
+document
+.
+isUncommittedInitialDocument
 )
 {
 Services

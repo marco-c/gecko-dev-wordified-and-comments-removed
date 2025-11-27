@@ -257,6 +257,17 @@ NS_ERROR_DOM_SECURITY_ERR
 )
 DOM4_MSG_DEF
 (
+SecurityError
+"
+Property
+access
+denied
+.
+"
+NS_ERROR_DOM_PROP_ACCESS_DENIED
+)
+DOM4_MSG_DEF
+(
 NetworkError
 "
 A

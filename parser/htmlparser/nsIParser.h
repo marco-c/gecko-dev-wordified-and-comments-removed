@@ -378,6 +378,14 @@ IsScriptCreated
 =
 0
 ;
+virtual
+bool
+IsAboutBlankMode
+(
+)
+=
+0
+;
 }
 ;
 #

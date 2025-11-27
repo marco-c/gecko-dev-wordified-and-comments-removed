@@ -131,6 +131,14 @@ head
 >
 <
 body
+onload
+=
+"
+runTest
+(
+)
+;
+"
 >
 <
 p
@@ -177,6 +185,11 @@ videoHeight
 =
 240
 ;
+var
+popup
+=
+null
+;
 function
 getMediaElement
 (
@@ -199,7 +212,11 @@ video
 ]
 ;
 }
-var
+function
+runTest
+(
+)
+{
 popup
 =
 window
@@ -304,6 +321,7 @@ true
 }
 )
 ;
+}
 function
 runTestVideo
 (

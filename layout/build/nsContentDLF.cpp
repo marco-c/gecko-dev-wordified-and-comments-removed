@@ -1273,6 +1273,14 @@ SetContainer
 aContainer
 )
 ;
+blankDoc
+-
+>
+SetAllowDeclarativeShadowRoots
+(
+true
+)
+;
 nsNodeInfoManager
 *
 nim

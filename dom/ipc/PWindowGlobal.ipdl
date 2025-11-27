@@ -689,6 +689,14 @@ bool
 aIsInitialDocument
 )
 ;
+[
+LazySend
+]
+async
+CommitToInitialDocument
+(
+)
+;
 async
 Share
 (

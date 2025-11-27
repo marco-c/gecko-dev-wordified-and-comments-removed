@@ -68,17 +68,6 @@ appendChild
 frame
 )
 ;
-await
-ContentTaskUtils
-.
-waitForEvent
-(
-frame
-"
-load
-"
-)
-;
 is
 (
 content

@@ -1015,9 +1015,11 @@ arguments
 ]
 =
 "
-about
+data
 :
-blank
+text
+/
+html
 "
 ;
 browserFixupAndLoadURIString

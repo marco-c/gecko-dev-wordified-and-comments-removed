@@ -3527,7 +3527,7 @@ docShell
 .
 document
 .
-isInitialDocument
+isUncommittedInitialDocument
 )
 {
 return

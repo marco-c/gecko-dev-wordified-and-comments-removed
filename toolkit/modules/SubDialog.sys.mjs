@@ -5943,6 +5943,15 @@ this
 true
 )
 ;
+if
+(
+this
+.
+_frame
+.
+contentWindow
+)
+{
 this
 .
 _frame
@@ -5957,6 +5966,7 @@ dialogclosing
 this
 )
 ;
+}
 }
 this
 .

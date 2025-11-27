@@ -391,6 +391,13 @@ IsScriptCreated
 )
 override
 ;
+virtual
+bool
+IsAboutBlankMode
+(
+)
+override
+;
 nsresult
 PostContinueEvent
 (

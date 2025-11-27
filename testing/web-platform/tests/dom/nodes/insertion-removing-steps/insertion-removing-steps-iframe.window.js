@@ -83,6 +83,10 @@ iframe1
 .
 onload
 =
+t
+.
+step_func
+(
 e
 =
 >
@@ -209,11 +213,16 @@ yet
 )
 ;
 }
+)
 ;
 iframe2
 .
 onload
 =
+t
+.
+step_func
+(
 e
 =
 >
@@ -273,6 +282,7 @@ frames
 )
 ;
 }
+)
 ;
 document
 .
@@ -411,6 +421,10 @@ removalObserver
 new
 MutationObserver
 (
+t
+.
+step_func
+(
 mutations
 =
 >
@@ -528,6 +542,7 @@ run
 )
 ;
 }
+)
 )
 ;
 removalObserver

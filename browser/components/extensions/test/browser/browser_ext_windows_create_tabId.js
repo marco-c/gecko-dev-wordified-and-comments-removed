@@ -66,9 +66,8 @@ nativeTab
 ownerGlobal
 )
 {
-ok
+info
 (
-false
 A
 tab
 with

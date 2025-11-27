@@ -262,17 +262,6 @@ flag
 "
 )
 ;
-await
-ContentTaskUtils
-.
-waitForEvent
-(
-newFrame
-"
-load
-"
-)
-;
 newFrameWin
 =
 newFrame

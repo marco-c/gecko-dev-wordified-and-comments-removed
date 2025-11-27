@@ -12293,6 +12293,11 @@ srcWindowUtils
 .
 dragSession
 ;
+if
+(
+srcDragSession
+)
+{
 srcDragSession
 .
 endDragSession
@@ -12304,6 +12309,7 @@ aDragEvent
 )
 )
 ;
+}
 }
 }
 function

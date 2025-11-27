@@ -140,6 +140,9 @@ nsIWeakReferenceUtils
 h
 "
 class
+nsIOpenWindowInfo
+;
+class
 nsWebBrowserInitInfo
 {
 public
@@ -300,6 +303,9 @@ dom
 WindowGlobalChild
 *
 aInitialWindowChild
+nsIOpenWindowInfo
+*
+aOpenWindowInfo
 )
 ;
 protected

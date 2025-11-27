@@ -1070,6 +1070,9 @@ IsMetaRefresh
 bool
 IsCaptivePortalTab
 ;
+bool
+IsInitialAboutBlankHandlingProhibited
+;
 }
 ;
 struct

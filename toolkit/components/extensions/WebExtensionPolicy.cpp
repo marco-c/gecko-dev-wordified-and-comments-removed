@@ -5581,7 +5581,7 @@ GetDoc
 )
 -
 >
-IsInitialDocument
+IsUncommittedInitialDocument
 (
 )
 ;

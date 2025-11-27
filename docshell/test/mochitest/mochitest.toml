@@ -1193,6 +1193,13 @@ http3
 ]
 [
 "
+test_initial_blank_doc_principal
+.
+html
+"
+]
+[
+"
 test_javascript_sandboxed_popup
 .
 html
