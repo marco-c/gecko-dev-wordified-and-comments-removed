@@ -1302,6 +1302,17 @@ str
 Optional
 (
 "
+headers
+"
+)
+:
+[
+str
+]
+        
+Optional
+(
+"
 artifact
 -
 name
@@ -1663,6 +1674,35 @@ FETCH_GPG_KEY
             
 ]
         
+)
+    
+for
+header
+in
+fetch
+.
+get
+(
+"
+headers
+"
+[
+]
+)
+:
+        
+command
+.
+extend
+(
+[
+"
+-
+-
+header
+"
+header
+]
 )
     
 command
