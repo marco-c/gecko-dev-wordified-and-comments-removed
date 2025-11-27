@@ -517,6 +517,14 @@ WeakReference
 (
 menuButton
 )
+deleteBrowsingDataController
+=
+mockk
+(
+relaxed
+=
+true
+)
 )
 }
 Test

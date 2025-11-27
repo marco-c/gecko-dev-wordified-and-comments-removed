@@ -335,6 +335,9 @@ true
 )
 homeFragment
 homeActivity
+mockk
+(
+)
 )
 )
 every
