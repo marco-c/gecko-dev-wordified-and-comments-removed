@@ -1324,7 +1324,6 @@ Bug
 1604644
 Bug
 1934906
-skip
 =
 =
 fixed
@@ -1347,10 +1346,3 @@ clip
 ref
 .
 html
-#
-should
-be
-fixed
-by
-bug
-1730749
