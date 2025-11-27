@@ -939,6 +939,15 @@ InvalidateInProcess
 )
 ;
 }
+TRACE_FOR_TEST_0
+(
+"
+memorycache
+:
+invalidate
+"
+)
+;
 }
 void
 SharedScriptCache
