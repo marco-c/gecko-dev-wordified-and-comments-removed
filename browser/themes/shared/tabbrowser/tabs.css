@@ -2802,7 +2802,6 @@ position
 :
 relative
 ;
-}
 media
 (
 prefers
@@ -2816,13 +2815,6 @@ no
 preference
 )
 {
-#
-tabbrowser
--
-tabs
-[
-movingtab
-]
 :
 not
 (
@@ -2874,6 +2866,7 @@ dragover
 transition
 )
 ;
+}
 }
 }
 &
