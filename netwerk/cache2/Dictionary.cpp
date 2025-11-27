@@ -996,17 +996,7 @@ const
 nsCString
 base
 (
-"
-https
-:
-/
-/
-foo
-.
-com
-/
-"
-_ns
+mURI
 )
 ;
 if
@@ -5718,7 +5708,7 @@ result
 aURI
 -
 >
-GetPathQueryRef
+GetSpec
 (
 path
 )
