@@ -1154,6 +1154,16 @@ HasCreatedMediaController
 const
 ;
 bool
+LoadInParent
+(
+nsDocShellLoadState
+*
+aLoadState
+bool
+aSetNavigating
+)
+;
+bool
 AttemptSpeculativeLoadInParent
 (
 nsDocShellLoadState
