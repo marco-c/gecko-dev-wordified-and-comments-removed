@@ -264,15 +264,6 @@ let
 extensionControlledContentIds
 =
 {
-"
-privacy
-.
-containers
-"
-:
-"
-browserContainersExtensionContent
-"
 webNotificationsDisabled
 :
 "
