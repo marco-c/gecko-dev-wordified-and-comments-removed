@@ -49,6 +49,12 @@ st
 {
 Languages
 {
+cy
+{
+"
+Sewelsh
+"
+}
 en
 {
 "

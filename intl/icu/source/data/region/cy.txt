@@ -610,6 +610,12 @@ Ynys
 Clipperton
 "
 }
+CQ
+{
+"
+Sarc
+"
+}
 CR
 {
 "
@@ -1494,7 +1500,7 @@ Philipinau
 PK
 {
 "
-Pakistan
+Pacistan
 "
 }
 PL

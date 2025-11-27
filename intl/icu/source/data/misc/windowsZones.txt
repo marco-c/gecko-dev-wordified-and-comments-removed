@@ -2474,6 +2474,9 @@ CL
 America
 /
 Punta_Arenas
+America
+/
+Coyhaique
 "
 }
 }

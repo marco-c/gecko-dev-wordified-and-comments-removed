@@ -388,7 +388,7 @@ gCurrentEra
 gJapaneseEraRules
 -
 >
-getCurrentEraIndex
+getCurrentEraCode
 (
 )
 ;
@@ -901,12 +901,12 @@ UCAL_EXTENDED_YEAR
 )
 ;
 int32_t
-eraIdx
+eraCode
 =
 gJapaneseEraRules
 -
 >
-getEraIndex
+getEraCode
 (
 year
 internalGetMonth
@@ -930,7 +930,7 @@ gJapaneseEraRules
 >
 getStartYear
 (
-eraIdx
+eraCode
 status
 )
 -
@@ -969,7 +969,7 @@ return
 internalSet
 (
 UCAL_ERA
-eraIdx
+eraCode
 )
 ;
 internalSet
@@ -1061,11 +1061,9 @@ return
 gJapaneseEraRules
 -
 >
-getNumberOfEras
+getMaxEraCode
 (
 )
--
-1
 ;
 case
 UCAL_YEAR
@@ -1219,11 +1217,9 @@ era
 gJapaneseEraRules
 -
 >
-getNumberOfEras
+getMaxEraCode
 (
 )
--
-1
 )
 {
 return

@@ -2893,17 +2893,7 @@ standard
 }
 collation
 {
-big5han
-{
-"
-"
-}
 ducet
-{
-"
-"
-}
-gb2312han
 {
 "
 "
@@ -2988,7 +2978,6 @@ lb
 loose
 {
 "
-<
 "
 }
 normal

@@ -89,12 +89,13 @@ class
 UnicodeSet
 ;
 struct
-U_I18N_API
+U_I18N_API_CLASS
 CollationTailoring
 :
 public
 SharedObject
 {
+U_I18N_API
 CollationTailoring
 (
 const
@@ -103,12 +104,14 @@ CollationSettings
 baseSettings
 )
 ;
+U_I18N_API
 virtual
 ~
 CollationTailoring
 (
 )
 ;
+U_I18N_API
 UBool
 isBogus
 (
@@ -121,6 +124,7 @@ settings
 nullptr
 ;
 }
+U_I18N_API
 UBool
 ensureOwnedData
 (
@@ -129,6 +133,7 @@ UErrorCode
 errorCode
 )
 ;
+U_I18N_API
 static
 void
 makeBaseVersion
@@ -140,6 +145,7 @@ UVersionInfo
 version
 )
 ;
+U_I18N_API
 void
 setVersion
 (
@@ -151,6 +157,7 @@ UVersionInfo
 rulesVersion
 )
 ;
+U_I18N_API
 int32_t
 getUCAVersion
 (
@@ -225,12 +232,13 @@ delete
 }
 ;
 struct
-U_I18N_API
+U_I18N_API_CLASS
 CollationCacheEntry
 :
 public
 SharedObject
 {
+U_I18N_API
 CollationCacheEntry
 (
 const
@@ -269,6 +277,7 @@ addRef
 ;
 }
 }
+U_I18N_API
 ~
 CollationCacheEntry
 (

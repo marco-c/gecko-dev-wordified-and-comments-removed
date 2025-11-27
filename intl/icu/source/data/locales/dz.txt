@@ -419,7 +419,7 @@ MMM
 dd
 "
 "
-GGGGG
+G
 y
 -
 MM

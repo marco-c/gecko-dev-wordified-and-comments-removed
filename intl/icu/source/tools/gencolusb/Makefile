@@ -235,6 +235,7 @@ collunsafe
 .
 h
 BUILD_OPTS
++
 =
 -
 I
@@ -348,6 +349,7 @@ GEN_FILE
 |
 exit
 1
+echo
 (
 CXX
 )
@@ -386,6 +388,7 @@ TEST
 |
 exit
 1
+echo
 (
 MAKE
 )

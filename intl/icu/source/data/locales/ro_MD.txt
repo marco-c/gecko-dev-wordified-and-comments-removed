@@ -285,6 +285,8 @@ abbreviated
 %
 variant
 {
+0
+{
 "
 .
 e
@@ -292,12 +294,7 @@ e
 n
 .
 "
-"
-e
-.
-n
-.
-"
+}
 }
 }
 quarters

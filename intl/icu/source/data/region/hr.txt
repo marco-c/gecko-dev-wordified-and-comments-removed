@@ -605,6 +605,12 @@ Otok
 Clipperton
 "
 }
+CQ
+{
+"
+Sark
+"
+}
 CR
 {
 "
@@ -793,8 +799,7 @@ Mikronezija
 FO
 {
 "
-Ov
-ji
+Farski
 Otoci
 "
 }

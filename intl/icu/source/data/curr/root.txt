@@ -803,6 +803,11 @@ Currencies
 %
 variant
 {
+SAR
+{
+"
+"
+}
 TRY
 {
 "
@@ -827,7 +832,7 @@ other
 Version
 {
 "
-47
+48
 "
 }
 currencySpacing

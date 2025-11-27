@@ -1895,6 +1895,7 @@ buffer
 )
 "
 U_EXPORT
+const
 struct
 {
 \

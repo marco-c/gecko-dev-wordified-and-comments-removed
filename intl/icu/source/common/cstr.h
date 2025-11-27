@@ -40,7 +40,7 @@ h
 "
 U_NAMESPACE_BEGIN
 class
-U_COMMON_API
+U_COMMON_API_CLASS
 CStr
 :
 public
@@ -48,6 +48,7 @@ UMemory
 {
 public
 :
+U_COMMON_API
 CStr
 (
 const
@@ -56,11 +57,13 @@ UnicodeString
 in
 )
 ;
+U_COMMON_API
 ~
 CStr
 (
 )
 ;
+U_COMMON_API
 const
 char
 *

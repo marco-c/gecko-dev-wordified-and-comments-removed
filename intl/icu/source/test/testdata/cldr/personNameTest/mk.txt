@@ -2265,7 +2265,7 @@ name
 ;
 locale
 ;
-ko_AQ
+ja_AQ
 expectedResult
 ;
 parameters
@@ -2663,7 +2663,7 @@ name
 ;
 locale
 ;
-ko_AQ
+ja_AQ
 expectedResult
 ;
 parameters
@@ -3087,7 +3087,7 @@ name
 ;
 locale
 ;
-ko_AQ
+ja_AQ
 expectedResult
 ;
 parameters
@@ -3570,7 +3570,7 @@ name
 ;
 locale
 ;
-ko_AQ
+ja_AQ
 expectedResult
 ;
 .

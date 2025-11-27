@@ -138,9 +138,6 @@ p
 )
 noexcept
 ;
-#
-if
-U_HAVE_PLACEMENT_NEW
 static
 inline
 void
@@ -175,8 +172,6 @@ void
 noexcept
 {
 }
-#
-endif
 #
 if
 U_HAVE_DEBUG_LOCATION_NEW

@@ -3946,11 +3946,6 @@ standard
 }
 collation
 {
-big5han
-{
-"
-"
-}
 dictionary
 {
 "
@@ -3960,11 +3955,6 @@ ducet
 {
 "
 Unicode
-"
-}
-gb2312han
-{
-"
 "
 }
 phonebook

@@ -240,13 +240,13 @@ root
 {
 Version
 {
-45
+48
 .
 0
 }
 ExpectCLDRVersionAtLeast
 {
-45
+48
 .
 0
 }
@@ -271,7 +271,7 @@ of
 this
 CurrentCLDRVersion
 {
-45
+48
 .
 0
 }

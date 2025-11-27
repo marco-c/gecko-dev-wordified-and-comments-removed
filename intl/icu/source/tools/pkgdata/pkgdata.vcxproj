@@ -728,14 +728,6 @@ Debug
 ClCompile
 >
 <
-BrowseInformation
->
-true
-<
-/
-BrowseInformation
->
-<
 RuntimeLibrary
 >
 MultiThreadedDebugDLL

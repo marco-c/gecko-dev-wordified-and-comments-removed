@@ -792,6 +792,8 @@ eras
 {
 abbreviated
 {
+0
+{
 "
 av
 .
@@ -799,6 +801,9 @@ Z
 -
 K
 "
+}
+1
+{
 "
 ap
 .
@@ -807,7 +812,10 @@ Z
 K
 "
 }
+}
 wide
+{
+0
 {
 "
 avan
@@ -815,12 +823,16 @@ Zezi
 -
 Krist
 "
+}
+1
+{
 "
 apre
 Zezi
 -
 Krist
 "
+}
 }
 }
 monthNames

@@ -207,14 +207,14 @@ cinci
 6
 :
 \
-u015Fase
+u0219ase
 ;
 "
 "
 7
 :
 \
-u015Fapte
+u0219apte
 ;
 "
 "
@@ -265,7 +265,7 @@ feminine
 zeci
 [
 \
-u015Fi
+u0219i
 >
 >
 ]
@@ -573,7 +573,7 @@ feminine
 zeci
 [
 \
-u015Fi
+u0219i
 >
 >
 ]
@@ -865,7 +865,7 @@ feminine
 zeci
 [
 \
-u015Fi
+u0219i
 >
 >
 ]

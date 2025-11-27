@@ -1103,14 +1103,6 @@ Languages
 %
 short
 {
-en_GB
-{
-"
-Kiingereza
-cha
-Uingereza
-"
-}
 en_US
 {
 "

@@ -231,7 +231,7 @@ MMM
 d
 "
 "
-GGGGG
+G
 y
 -
 MM

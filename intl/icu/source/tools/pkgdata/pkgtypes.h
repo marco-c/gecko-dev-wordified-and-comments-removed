@@ -283,6 +283,11 @@ char
 *
 libName
 ;
+const
+char
+*
+cpuArch
+;
 UBool
 rebuild
 ;

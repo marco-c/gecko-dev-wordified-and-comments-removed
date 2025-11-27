@@ -1548,6 +1548,8 @@ lineCount
 +
 +
 ;
+U_FALLTHROUGH
+;
 case
 0x000D
 :
@@ -1592,6 +1594,8 @@ case
 lineCount
 +
 +
+;
+U_FALLTHROUGH
 ;
 case
 0x000D

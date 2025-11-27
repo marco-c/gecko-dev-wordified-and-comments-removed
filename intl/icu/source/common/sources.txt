@@ -73,6 +73,9 @@ cpp
 filterednormalizer2
 .
 cpp
+fixedstring
+.
+cpp
 icudataver
 .
 cpp

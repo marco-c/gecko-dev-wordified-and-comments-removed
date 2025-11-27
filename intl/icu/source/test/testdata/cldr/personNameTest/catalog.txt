@@ -87,6 +87,9 @@ txt
 az
 .
 txt
+ba
+.
+txt
 bal_Latn
 .
 txt
@@ -94,6 +97,9 @@ be
 .
 txt
 bg
+.
+txt
+blo
 .
 txt
 bn
@@ -109,6 +115,9 @@ chr
 .
 txt
 cs
+.
+txt
+cv
 .
 txt
 cy
@@ -210,6 +219,9 @@ txt
 kk
 .
 txt
+kk_Arab
+.
+txt
 km
 .
 txt
@@ -220,6 +232,9 @@ ko
 .
 txt
 kok
+.
+txt
+kok_Latn
 .
 txt
 ky
@@ -285,6 +300,9 @@ txt
 qu
 .
 txt
+rm
+.
+txt
 ro
 .
 txt
@@ -295,6 +313,9 @@ sc
 .
 txt
 sd
+.
+txt
+shn
 .
 txt
 si

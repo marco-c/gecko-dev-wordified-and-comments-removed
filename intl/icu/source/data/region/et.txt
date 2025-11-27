@@ -1988,9 +1988,7 @@ aktsent
 XB
 {
 "
-pseudo
--
-Bidi
+pseudobidi
 "
 }
 XK

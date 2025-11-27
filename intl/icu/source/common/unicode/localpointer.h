@@ -58,9 +58,6 @@ size_t
 =
 delete
 ;
-#
-if
-U_HAVE_PLACEMENT_NEW
 static
 void
 *
@@ -75,8 +72,6 @@ void
 =
 delete
 ;
-#
-endif
 explicit
 LocalPointerBase
 (

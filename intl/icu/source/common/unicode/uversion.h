@@ -169,6 +169,8 @@ endif
 ifndef
 U_FORCE_HIDE_DRAFT_API
 #
+endif
+#
 if
 defined
 (
@@ -277,8 +279,6 @@ namespace
 U_HEADER_ONLY_NAMESPACE
 {
 }
-#
-endif
 #
 endif
 U_CAPI

@@ -189,6 +189,16 @@ US
 Dollar
 "
 }
+XCG
+{
+"
+Cg
+"
+"
+Caribbean
+guilder
+"
+}
 XXX
 {
 "

@@ -633,6 +633,12 @@ le
 Clipperton
 "
 }
+CQ
+{
+"
+Sercq
+"
+}
 CR
 {
 "
@@ -2147,9 +2153,7 @@ ZZ
 "
 r
 gion
-ind
-termin
-e
+inconnue
 "
 }
 }

@@ -200,7 +200,7 @@ MMM
 d
 "
 "
-GGGGG
+G
 y
 -
 MM
@@ -1241,8 +1241,11 @@ eras
 {
 abbreviated
 {
+0
+{
 "
 "
+}
 }
 }
 monthNames

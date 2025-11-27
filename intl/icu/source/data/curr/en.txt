@@ -1553,7 +1553,7 @@ KGS
 KGS
 "
 "
-Kyrgystani
+Kyrgyz
 Som
 "
 }
@@ -6098,14 +6098,14 @@ KGS
 one
 {
 "
-Kyrgystani
+Kyrgyz
 som
 "
 }
 other
 {
 "
-Kyrgystani
+Kyrgyz
 soms
 "
 }

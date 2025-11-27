@@ -1312,9 +1312,6 @@ noexcept
 =
 delete
 ;
-#
-if
-U_HAVE_PLACEMENT_NEW
 static
 void
 *
@@ -1330,8 +1327,6 @@ noexcept
 =
 delete
 ;
-#
-endif
 MaybeStackArray
 (
 )
@@ -2320,9 +2315,6 @@ noexcept
 =
 delete
 ;
-#
-if
-U_HAVE_PLACEMENT_NEW
 static
 void
 *
@@ -2338,8 +2330,6 @@ noexcept
 =
 delete
 ;
-#
-endif
 MaybeStackHeaderAndArray
 (
 )

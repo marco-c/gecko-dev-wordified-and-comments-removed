@@ -779,6 +779,15 @@ u16string_view
 const
 ;
 UnicodeString
+parseNameChars
+(
+UnicodeString
+&
+UErrorCode
+&
+)
+;
+UnicodeString
 parseName
 (
 UErrorCode

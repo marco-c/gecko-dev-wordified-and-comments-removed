@@ -39,23 +39,8 @@ cmemory
 h
 "
 U_NAMESPACE_BEGIN
-#
-if
-!
-U_PLATFORM_IS_DARWIN_BASED
-template
 class
-U_COMMON_API
-MaybeStackArray
-<
-char
-40
->
-;
-#
-endif
-class
-U_COMMON_API
+U_COMMON_API_CLASS
 CharString
 :
 public
@@ -63,6 +48,7 @@ UMemory
 {
 public
 :
+U_COMMON_API
 CharString
 (
 )
@@ -80,6 +66,7 @@ buffer
 0
 ;
 }
+U_COMMON_API
 CharString
 (
 StringPiece
@@ -108,6 +95,7 @@ errorCode
 )
 ;
 }
+U_COMMON_API
 CharString
 (
 const
@@ -138,6 +126,7 @@ errorCode
 )
 ;
 }
+U_COMMON_API
 CharString
 (
 const
@@ -171,12 +160,14 @@ errorCode
 )
 ;
 }
+U_COMMON_API
 ~
 CharString
 (
 )
 {
 }
+U_COMMON_API
 CharString
 (
 CharString
@@ -186,6 +177,7 @@ src
 )
 noexcept
 ;
+U_COMMON_API
 CharString
 &
 operator
@@ -198,6 +190,7 @@ src
 )
 noexcept
 ;
+U_COMMON_API
 CharString
 &
 copyFrom
@@ -211,6 +204,7 @@ UErrorCode
 errorCode
 )
 ;
+U_COMMON_API
 CharString
 &
 copyFrom
@@ -222,6 +216,7 @@ UErrorCode
 errorCode
 )
 ;
+U_COMMON_API
 UBool
 isEmpty
 (
@@ -235,6 +230,7 @@ len
 0
 ;
 }
+U_COMMON_API
 int32_t
 length
 (
@@ -245,6 +241,7 @@ return
 len
 ;
 }
+U_COMMON_API
 char
 operator
 [
@@ -262,6 +259,7 @@ index
 ]
 ;
 }
+U_COMMON_API
 StringPiece
 toStringPiece
 (
@@ -280,6 +278,7 @@ len
 )
 ;
 }
+U_COMMON_API
 const
 char
 *
@@ -296,6 +295,7 @@ getAlias
 )
 ;
 }
+U_COMMON_API
 char
 *
 data
@@ -310,6 +310,7 @@ getAlias
 )
 ;
 }
+U_COMMON_API
 char
 *
 cloneData
@@ -320,6 +321,7 @@ errorCode
 )
 const
 ;
+U_COMMON_API
 int32_t
 extract
 (
@@ -334,6 +336,7 @@ errorCode
 )
 const
 ;
+U_COMMON_API
 bool
 operator
 =
@@ -382,6 +385,7 @@ len
 )
 ;
 }
+U_COMMON_API
 bool
 operator
 !
@@ -404,6 +408,7 @@ other
 )
 ;
 }
+U_COMMON_API
 bool
 operator
 =
@@ -450,6 +455,7 @@ len
 )
 ;
 }
+U_COMMON_API
 bool
 operator
 !
@@ -470,6 +476,7 @@ other
 )
 ;
 }
+U_COMMON_API
 int32_t
 lastIndexOf
 (
@@ -478,6 +485,7 @@ c
 )
 const
 ;
+U_COMMON_API
 bool
 contains
 (
@@ -486,6 +494,7 @@ s
 )
 const
 ;
+U_COMMON_API
 CharString
 &
 clear
@@ -508,6 +517,7 @@ return
 this
 ;
 }
+U_COMMON_API
 CharString
 &
 truncate
@@ -516,6 +526,7 @@ int32_t
 newLength
 )
 ;
+U_COMMON_API
 CharString
 &
 append
@@ -527,6 +538,7 @@ UErrorCode
 errorCode
 )
 ;
+U_COMMON_API
 CharString
 &
 append
@@ -555,6 +567,7 @@ errorCode
 )
 ;
 }
+U_COMMON_API
 CharString
 &
 append
@@ -585,6 +598,7 @@ errorCode
 )
 ;
 }
+U_COMMON_API
 CharString
 &
 append
@@ -600,6 +614,7 @@ UErrorCode
 status
 )
 ;
+U_COMMON_API
 CharString
 &
 appendNumber
@@ -611,6 +626,7 @@ UErrorCode
 status
 )
 ;
+U_COMMON_API
 char
 *
 getAppendBuffer
@@ -627,6 +643,7 @@ UErrorCode
 errorCode
 )
 ;
+U_COMMON_API
 CharString
 &
 appendInvariantChars
@@ -640,6 +657,7 @@ UErrorCode
 errorCode
 )
 ;
+U_COMMON_API
 CharString
 &
 appendInvariantChars
@@ -655,6 +673,7 @@ UErrorCode
 errorCode
 )
 ;
+U_COMMON_API
 CharString
 &
 appendPathPart
@@ -666,6 +685,7 @@ UErrorCode
 errorCode
 )
 ;
+U_COMMON_API
 CharString
 &
 ensureEndsWithFileSeparator

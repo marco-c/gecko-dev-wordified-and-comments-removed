@@ -805,7 +805,7 @@ endif
 }
 ;
 class
-U_COMMON_API
+U_COMMON_API_CLASS
 ICULocaleService
 :
 public
@@ -821,10 +821,12 @@ fallbackLocaleName
 ;
 public
 :
+U_COMMON_API
 ICULocaleService
 (
 )
 ;
+U_COMMON_API
 ICULocaleService
 (
 const
@@ -833,6 +835,7 @@ UnicodeString
 name
 )
 ;
+U_COMMON_API
 virtual
 ~
 ICULocaleService
@@ -898,6 +901,7 @@ status
 }
 #
 endif
+U_COMMON_API
 UObject
 *
 get
@@ -912,6 +916,7 @@ status
 )
 const
 ;
+U_COMMON_API
 UObject
 *
 get
@@ -928,6 +933,7 @@ status
 )
 const
 ;
+U_COMMON_API
 UObject
 *
 get
@@ -945,6 +951,7 @@ status
 )
 const
 ;
+U_COMMON_API
 UObject
 *
 get
@@ -964,6 +971,7 @@ status
 )
 const
 ;
+U_COMMON_API
 virtual
 URegistryKey
 registerInstance
@@ -980,6 +988,7 @@ UErrorCode
 status
 )
 ;
+U_COMMON_API
 virtual
 URegistryKey
 registerInstance
@@ -998,6 +1007,7 @@ UErrorCode
 status
 )
 ;
+U_COMMON_API
 virtual
 URegistryKey
 registerInstance
@@ -1018,6 +1028,7 @@ UErrorCode
 status
 )
 ;
+U_COMMON_API
 virtual
 URegistryKey
 registerInstance
@@ -1037,6 +1048,7 @@ status
 )
 override
 ;
+U_COMMON_API
 virtual
 StringEnumeration
 *
@@ -1047,6 +1059,7 @@ const
 ;
 protected
 :
+U_COMMON_API
 const
 UnicodeString
 &
@@ -1055,6 +1068,7 @@ validateFallbackLocale
 )
 const
 ;
+U_COMMON_API
 virtual
 ICUServiceKey
 *
@@ -1071,6 +1085,7 @@ status
 const
 override
 ;
+U_COMMON_API
 virtual
 ICUServiceKey
 *

@@ -52,7 +52,7 @@ Countries
 001
 {
 "
-Mundo
+mundo
 "
 }
 002
@@ -595,6 +595,12 @@ CP
 "
 Clipperton
 Island
+"
+}
+CQ
+{
+"
+Sark
 "
 }
 CR
@@ -2015,10 +2021,7 @@ short
 GB
 {
 "
-U
-.
-K
-.
+UK
 "
 }
 HK

@@ -701,6 +701,12 @@ Clipperton
 eyja
 "
 }
+CQ
+{
+"
+Sark
+"
+}
 CR
 {
 "
@@ -2365,6 +2371,13 @@ N
 ja
 -
 Sj
+land
+"
+}
+SZ
+{
+"
+Svas
 land
 "
 }

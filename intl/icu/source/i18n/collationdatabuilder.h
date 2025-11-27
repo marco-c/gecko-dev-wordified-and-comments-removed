@@ -898,6 +898,9 @@ protected
 UnicodeSet
 unsafeBackwardSet
 ;
+UnicodeSet
+contractionMiddleStarter
+;
 UBool
 modified
 ;

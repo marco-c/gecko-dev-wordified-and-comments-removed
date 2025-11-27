@@ -496,6 +496,9 @@ da
 dap
 ;
 njz
+dek
+;
+sqm
 deu
 ;
 de
@@ -988,9 +991,6 @@ mg
 mlt
 ;
 mt
-mnk
-;
-man
 mnt
 ;
 wnn
@@ -1102,6 +1102,9 @@ no
 npi
 ;
 ne
+nte
+;
+eko
 nts
 ;
 pij
@@ -4199,6 +4202,9 @@ da_Adlm_AC_fonipa
 dap_Adlm_AC_fonipa
 ;
 njz_Adlm_AC_fonipa
+dek_Adlm_AC_fonipa
+;
+sqm_Adlm_AC_fonipa
 deu_Adlm_AC_fonipa
 ;
 de_Adlm_AC_fonipa
@@ -4769,9 +4775,6 @@ mg_Adlm_AC_fonipa
 mlt_Adlm_AC_fonipa
 ;
 mt_Adlm_AC_fonipa
-mnk_Adlm_AC_fonipa
-;
-man_Adlm_AC_fonipa
 mnt_Adlm_AC_fonipa
 ;
 wnn_Adlm_AC_fonipa
@@ -4895,6 +4898,9 @@ nn_Adlm_AC_fonipa
 npi_Adlm_AC_fonipa
 ;
 ne_Adlm_AC_fonipa
+nte_Adlm_AC_fonipa
+;
+eko_Adlm_AC_fonipa
 nts_Adlm_AC_fonipa
 ;
 pij_Adlm_AC_fonipa

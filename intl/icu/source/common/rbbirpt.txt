@@ -1975,7 +1975,6 @@ are
 parsed
 by
 the
-the
 UnicodeSet
 class
 .

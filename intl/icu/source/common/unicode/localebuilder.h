@@ -54,7 +54,7 @@ h
 "
 U_NAMESPACE_BEGIN
 class
-CharString
+FixedString
 ;
 class
 U_COMMON_API
@@ -232,7 +232,7 @@ region_
 4
 ]
 ;
-CharString
+FixedString
 *
 variant_
 ;

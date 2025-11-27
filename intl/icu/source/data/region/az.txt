@@ -623,6 +623,17 @@ Klipperton
 adas
 "
 }
+CQ
+{
+"
+sark
+(
+ingilis
+dili
+)
+dialekti
+"
+}
 CR
 {
 "

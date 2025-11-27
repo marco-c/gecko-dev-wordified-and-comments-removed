@@ -52,6 +52,13 @@ h
 #
 include
 "
+messageformat2_function_registry_internal
+.
+h
+"
+#
+include
+"
 messageformat2_macros
 .
 h
@@ -504,8 +511,9 @@ asLiteral
 isQuoted
 (
 )
-context
-.
+StandardFunctions
+:
+:
 normalizeNFC
 (
 k

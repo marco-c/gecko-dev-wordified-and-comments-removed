@@ -310,7 +310,6 @@ UnicodeSet
 o
 )
 ;
-virtual
 bool
 operator
 =
@@ -345,7 +344,6 @@ clone
 const
 override
 ;
-virtual
 int32_t
 hashCode
 (
@@ -539,14 +537,12 @@ UErrorCode
 ec
 )
 ;
-virtual
 int32_t
 size
 (
 )
 const
 ;
-virtual
 UBool
 isEmpty
 (
@@ -569,7 +565,6 @@ c
 const
 override
 ;
-virtual
 UBool
 contains
 (
@@ -590,7 +585,6 @@ s
 )
 const
 ;
-virtual
 UBool
 containsAll
 (
@@ -760,7 +754,6 @@ spanCondition
 )
 const
 ;
-virtual
 UMatchDegree
 matches
 (
@@ -835,9 +828,6 @@ index
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 inline
 U_HEADER_NESTED_NAMESPACE
 :
@@ -905,8 +895,6 @@ toUSet
 ;
 }
 #
-endif
-#
 ifndef
 U_HIDE_DRAFT_API
 inline
@@ -963,7 +951,6 @@ end
 }
 #
 endif
-virtual
 UnicodeSet
 &
 add
@@ -1079,7 +1066,6 @@ UnicodeString
 s
 )
 ;
-virtual
 UnicodeSet
 &
 retain
@@ -1108,7 +1094,6 @@ UnicodeString
 s
 )
 ;
-virtual
 UnicodeSet
 &
 remove
@@ -1137,14 +1122,12 @@ UnicodeString
 s
 )
 ;
-virtual
 UnicodeSet
 &
 complement
 (
 )
 ;
-virtual
 UnicodeSet
 &
 complement
@@ -1173,7 +1156,6 @@ UnicodeString
 s
 )
 ;
-virtual
 UnicodeSet
 &
 addAll
@@ -1184,7 +1166,6 @@ UnicodeSet
 c
 )
 ;
-virtual
 UnicodeSet
 &
 retainAll
@@ -1195,7 +1176,6 @@ UnicodeSet
 c
 )
 ;
-virtual
 UnicodeSet
 &
 removeAll
@@ -1206,7 +1186,6 @@ UnicodeSet
 c
 )
 ;
-virtual
 UnicodeSet
 &
 complementAll
@@ -1217,7 +1196,6 @@ UnicodeSet
 c
 )
 ;
-virtual
 UnicodeSet
 &
 clear
@@ -1232,21 +1210,18 @@ int32_t
 attribute
 )
 ;
-virtual
 UnicodeSet
 &
 removeAllStrings
 (
 )
 ;
-virtual
 int32_t
 getRangeCount
 (
 )
 const
 ;
-virtual
 UChar32
 getRangeStart
 (
@@ -1255,7 +1230,6 @@ index
 )
 const
 ;
-virtual
 UChar32
 getRangeEnd
 (
@@ -1278,7 +1252,6 @@ ec
 )
 const
 ;
-virtual
 UnicodeSet
 &
 compact

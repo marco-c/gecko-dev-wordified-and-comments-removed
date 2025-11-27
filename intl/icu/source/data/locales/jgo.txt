@@ -269,7 +269,7 @@ MMM
 d
 "
 "
-GGGGG
+G
 y
 -
 MM
@@ -645,6 +645,8 @@ eras
 {
 wide
 {
+0
+{
 "
 ts
 tts
@@ -660,6 +662,9 @@ s
 t
 g
 "
+}
+1
+{
 "
 ts
 tts
@@ -676,6 +681,7 @@ t
 t
 m
 "
+}
 }
 }
 monthNames

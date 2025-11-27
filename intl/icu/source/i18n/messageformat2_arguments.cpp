@@ -56,6 +56,13 @@ h
 #
 include
 "
+messageformat2_function_registry_internal
+.
+h
+"
+#
+include
+"
 uvector
 .
 h
@@ -81,10 +88,6 @@ Arguments
 :
 getArgument
 (
-const
-MessageFormatter
-&
-context
 const
 VariableName
 &
@@ -137,8 +140,9 @@ i
 UnicodeString
 normalized
 =
-context
-.
+StandardFunctions
+:
+:
 normalizeNFC
 (
 argumentNames

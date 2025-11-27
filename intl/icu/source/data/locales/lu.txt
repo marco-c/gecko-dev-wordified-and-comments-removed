@@ -805,6 +805,8 @@ eras
 {
 abbreviated
 {
+0
+{
 "
 kmp
 .
@@ -813,6 +815,9 @@ Y
 K
 .
 "
+}
+1
+{
 "
 kny
 .
@@ -822,7 +827,10 @@ K
 .
 "
 }
+}
 wide
+{
+0
 {
 "
 Kumpala
@@ -830,12 +838,16 @@ kwa
 Yezu
 Kli
 "
+}
+1
+{
 "
 Kunyima
 kwa
 Yezu
 Kli
 "
+}
 }
 }
 monthNames

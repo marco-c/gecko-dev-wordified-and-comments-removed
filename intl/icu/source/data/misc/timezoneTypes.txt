@@ -59,7 +59,7 @@ tz
 aqams
 {
 "
-nzakl
+aqmcm
 "
 }
 aukns
@@ -791,9 +791,9 @@ South_Pole
 "
 {
 "
-Pacific
+Antarctica
 /
-Auckland
+McMurdo
 "
 }
 "
@@ -3064,6 +3064,16 @@ Costa_Rica
 {
 "
 crsjo
+"
+}
+"
+America
+:
+Coyhaique
+"
+{
+"
+clcxq
 "
 }
 "

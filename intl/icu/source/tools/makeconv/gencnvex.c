@@ -2494,6 +2494,9 @@ j
 <
 count
 ?
+(
+int32_t
+)
 UCNV_EXT_TO_U_GET_VALUE
 (
 section
@@ -3081,6 +3084,8 @@ bytes
 <
 16
 ;
+U_FALLTHROUGH
+;
 case
 2
 :
@@ -3099,6 +3104,8 @@ bytes
 <
 <
 8
+;
+U_FALLTHROUGH
 ;
 case
 1

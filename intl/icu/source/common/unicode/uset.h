@@ -824,9 +824,6 @@ USet
 set
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 U_CAPI
 int32_t
 U_EXPORT2
@@ -856,8 +853,6 @@ int32_t
 pLength
 )
 ;
-#
-endif
 U_CAPI
 int32_t
 U_EXPORT2
@@ -1145,9 +1140,6 @@ U_SHOW_CPLUSPLUS_API
 |
 |
 U_SHOW_CPLUSPLUS_HEADER_API
-#
-ifndef
-U_HIDE_DRAFT_API
 namespace
 U_HEADER_ONLY_NAMESPACE
 {
@@ -2253,8 +2245,6 @@ count
 }
 ;
 #
-endif
-#
 ifndef
 U_HIDE_DRAFT_API
 class
@@ -2745,9 +2735,9 @@ stringCount
 ;
 }
 ;
-}
 #
 endif
+}
 #
 endif
 #

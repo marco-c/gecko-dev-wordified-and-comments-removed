@@ -54,10 +54,10 @@ arabext
 patterns
 {
 currencyFormat
+%
+noCurrency
 {
 "
-#
-#
 #
 #
 #

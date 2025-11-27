@@ -3493,13 +3493,6 @@ roc
 }
 collation
 {
-big5han
-{
-"
--
-Big5
-"
-}
 dictionary
 {
 "
@@ -3513,13 +3506,6 @@ ducet
 eor
 {
 "
-"
-}
-gb2312han
-{
-"
--
-GB2312
 "
 }
 phonebook

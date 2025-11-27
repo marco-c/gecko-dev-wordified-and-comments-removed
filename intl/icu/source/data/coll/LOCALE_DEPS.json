@@ -51,7 +51,7 @@ cldrVersion
 "
 :
 "
-47
+48
 "
 "
 aliases
@@ -241,6 +241,13 @@ parents
 {
 "
 ff_Adlm
+"
+:
+"
+root
+"
+"
+kk_Arab
 "
 :
 "

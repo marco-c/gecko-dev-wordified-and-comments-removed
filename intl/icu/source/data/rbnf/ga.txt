@@ -114,13 +114,9 @@ min
 =
 n
 \
-u00C3
+u00F3im
 \
-u00B3im
-\
-u00C3
-\
-u00A9ad
+u00E9ad
 ;
 "
 "

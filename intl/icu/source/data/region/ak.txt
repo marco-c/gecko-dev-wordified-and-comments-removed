@@ -492,7 +492,7 @@ Brazil
 BS
 {
 "
-Bahama
+Bahamase
 "
 }
 BT
@@ -613,6 +613,12 @@ Klepatin
 Aeland
 "
 }
+CQ
+{
+"
+Sark
+"
+}
 CR
 {
 "
@@ -624,7 +630,7 @@ Rika
 CU
 {
 "
-Kuba
+Kiuba
 "
 }
 CV
@@ -759,7 +765,7 @@ Spain
 ET
 {
 "
-Ithiopia
+Yitiopia
 "
 }
 EU
@@ -995,8 +1001,7 @@ Islands
 ID
 {
 "
-Ind
-nehyia
+Ndoniihyia
 "
 }
 IE
@@ -1046,7 +1051,7 @@ Irak
 IR
 {
 "
-Iran
+Yiran
 "
 }
 IS
@@ -1127,8 +1132,7 @@ KN
 Saint
 Kitts
 ne
-N
-ves
+Nevis
 "
 }
 KP
@@ -1676,7 +1680,7 @@ Helena
 SI
 {
 "
-Slovinia
+Slovenia
 "
 }
 SJ

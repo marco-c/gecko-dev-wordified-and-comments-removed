@@ -3674,12 +3674,6 @@ tertiary
 }
 collation
 {
-big5han
-{
-"
--
-"
-}
 dictionary
 {
 "
@@ -3688,12 +3682,6 @@ dictionary
 ducet
 {
 "
-"
-}
-gb2312han
-{
-"
--
 "
 }
 phonebook

@@ -2978,11 +2978,6 @@ roc
 }
 collation
 {
-big5han
-{
-"
-"
-}
 phonebook
 {
 "

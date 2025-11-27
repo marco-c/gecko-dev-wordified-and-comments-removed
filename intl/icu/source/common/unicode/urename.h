@@ -32,6 +32,13 @@ defined
 __INTELLISENSE__
 )
 )
+&
+&
+!
+defined
+(
+__clang_analyzer__
+)
 #
 ifndef
 U_ICU_ENTRY_POINT_RENAME
@@ -9422,6 +9429,13 @@ uprv_add32_overflow
 U_ICU_ENTRY_POINT_RENAME
 (
 uprv_add32_overflow
+)
+#
+define
+uprv_addScriptExtensionsCodePoints
+U_ICU_ENTRY_POINT_RENAME
+(
+uprv_addScriptExtensionsCodePoints
 )
 #
 define
