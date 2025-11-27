@@ -127,6 +127,15 @@ enabled
 =
 true
 "
+"
+accessibility
+.
+anchorPositionedAsDetails
+.
+enabled
+=
+true
+"
 ]
 [
 "
