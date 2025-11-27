@@ -21,9 +21,15 @@ COOKIES_CSS
 =
 "
 #
-content
--
 cookie
+-
+consent
+-
+accept
+-
+all
+-
+btn
 "
 UNSUPPORTED_TEXT
 =

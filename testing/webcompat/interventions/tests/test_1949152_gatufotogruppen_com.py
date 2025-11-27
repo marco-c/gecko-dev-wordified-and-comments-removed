@@ -57,7 +57,7 @@ URL
 assert
 client
 .
-find_css
+await_css
 (
 DESIRED_CSS
 is_displayed
