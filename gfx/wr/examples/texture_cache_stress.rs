@@ -360,6 +360,10 @@ bool
 -
 >
 ExternalImage
+<
+'
+_
+>
 {
 self
 .

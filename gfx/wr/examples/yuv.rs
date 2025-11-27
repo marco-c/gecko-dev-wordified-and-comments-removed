@@ -429,6 +429,10 @@ bool
 -
 >
 ExternalImage
+<
+'
+_
+>
 {
 let
 id
