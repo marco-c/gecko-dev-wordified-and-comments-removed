@@ -246,7 +246,7 @@ await
 testSendMoreInfo
 (
 tab
-HelpMenu
+AppMenu
 (
 win
 )
