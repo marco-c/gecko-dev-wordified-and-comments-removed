@@ -43776,6 +43776,9 @@ value
 mirror
 :
 once
+#
+ifdef
+XP_WIN
 -
 name
 :
@@ -43940,6 +43943,8 @@ value
 mirror
 :
 once
+#
+endif
 #
 Rate
 by
