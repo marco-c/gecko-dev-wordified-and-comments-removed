@@ -175,14 +175,6 @@ mozilla
 .
 fenix
 .
-R
-import
-org
-.
-mozilla
-.
-fenix
-.
 ext
 .
 components
