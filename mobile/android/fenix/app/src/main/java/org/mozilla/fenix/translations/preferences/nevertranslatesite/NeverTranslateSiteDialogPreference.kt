@@ -227,7 +227,7 @@ onDismissRequest
 =
 {
 }
-title
+text
 =
 {
 Text
@@ -249,7 +249,7 @@ FirefoxTheme
 .
 typography
 .
-headline7
+body2
 )
 }
 confirmButton
