@@ -12,11 +12,11 @@ taskcluster
 taskgraph
 Version
 :
-18
+17
 .
-0
+2
 .
-0
+1
 Summary
 :
 Build
@@ -302,10 +302,6 @@ Requires
 Dist
 :
 taskcluster
-<
-92
-.
-0
 >
 =
 91

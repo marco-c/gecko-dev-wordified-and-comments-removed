@@ -175,7 +175,7 @@ mozilla_taskgraph
 .
 0
 .
-1
+0
 .
 dist
 -
@@ -184,15 +184,15 @@ info
 METADATA
 sha256
 =
-uwzhJSEAR7ePPajdhs5Htu_tmxY9txu_PQG_0EmAq1w
-2062
+AhyhwsR5uw3qHe6wqNeJaBM7OzsNhIS8vvssp71qnSs
+1960
 mozilla_taskgraph
 -
 4
 .
 0
 .
-1
+0
 .
 dist
 -
@@ -209,7 +209,7 @@ mozilla_taskgraph
 .
 0
 .
-1
+0
 .
 dist
 -
@@ -228,7 +228,7 @@ mozilla_taskgraph
 .
 0
 .
-1
+0
 .
 dist
 -
