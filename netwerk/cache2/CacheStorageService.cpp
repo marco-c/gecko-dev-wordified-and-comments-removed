@@ -11120,16 +11120,6 @@ UseCount
 )
 )
 ;
-if
-(
-Telemetry
-:
-:
-CanRecordPrereleaseData
-(
-)
-)
-{
 glean
 :
 :
@@ -11155,7 +11145,6 @@ LoadStart
 )
 )
 ;
-}
 }
 size_t
 CacheStorageService
