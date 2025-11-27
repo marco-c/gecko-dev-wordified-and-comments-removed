@@ -1199,6 +1199,14 @@ py
 /
 testing
 /
+manifest
+/
+*
+*
++
+/
+testing
+/
 moz
 .
 build

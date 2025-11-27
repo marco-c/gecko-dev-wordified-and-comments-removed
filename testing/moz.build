@@ -93,6 +93,9 @@ DIRS
 =
 [
 "
+manifest
+"
+"
 mozbase
 "
 "
