@@ -11904,6 +11904,13 @@ js
 ]
 [
 "
+test_websocket_proxy
+.
+js
+"
+]
+[
+"
 test_websocket_server
 .
 js
