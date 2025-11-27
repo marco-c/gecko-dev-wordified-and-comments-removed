@@ -26955,6 +26955,13 @@ DispatchSizeModeEvent
 )
 ;
 }
+if
+(
+IsVisible
+(
+)
+)
+{
 NotifyWindowMoved
 (
 mBounds
@@ -26965,6 +26972,7 @@ mBounds
 y
 )
 ;
+}
 mInReportMoveEvent
 =
 false
