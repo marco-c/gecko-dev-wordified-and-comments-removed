@@ -211,7 +211,7 @@ help
 button
 =
 .
-title
+tooltiptext
 =
 Open
 {
