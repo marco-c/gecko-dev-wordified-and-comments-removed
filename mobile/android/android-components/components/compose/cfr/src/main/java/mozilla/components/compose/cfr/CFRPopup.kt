@@ -483,6 +483,7 @@ start
 .
 *
 /
+data
 class
 CFRPopupProperties
 (
