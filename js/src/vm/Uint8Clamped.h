@@ -142,6 +142,7 @@ x
 }
 public
 :
+constexpr
 uint8_clamped
 (
 )
