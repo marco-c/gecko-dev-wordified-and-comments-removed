@@ -485,7 +485,7 @@ label
 =
 "
 "
-trailingIcons
+trailingIcon
 =
 {
 EyePasswordIconButton
@@ -593,7 +593,7 @@ label
 =
 "
 "
-trailingIcons
+trailingIcon
 =
 {
 EyePasswordIconButton

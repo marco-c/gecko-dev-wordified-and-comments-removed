@@ -2788,11 +2788,6 @@ onNodeWithTag
 (
 ADD_BOOKMARK_FOLDER_NAME_TEXT_FIELD
 )
-.
-onChildAt
-(
-0
-)
 private
 fun
 ComposeTestRule
@@ -2844,11 +2839,6 @@ onNodeWithTag
 (
 EDIT_BOOKMARK_ITEM_TITLE_TEXT_FIELD
 )
-.
-onChildAt
-(
-0
-)
 private
 fun
 ComposeTestRule
@@ -2874,11 +2864,6 @@ bookmarkURLEditBox
 onNodeWithTag
 (
 EDIT_BOOKMARK_ITEM_URL_TEXT_FIELD
-)
-.
-onChildAt
-(
-0
 )
 private
 fun

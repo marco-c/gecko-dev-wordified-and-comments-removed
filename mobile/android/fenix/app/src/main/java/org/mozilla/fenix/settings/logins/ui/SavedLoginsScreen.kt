@@ -1740,13 +1740,6 @@ preferences_passwords_saved_logins_search_2
 }
 )
 }
-private
-val
-IconButtonHeight
-=
-48
-.
-dp
 Composable
 private
 fun
@@ -1844,10 +1837,7 @@ focusRequester
 (
 focusRequester
 )
-minHeight
-=
-IconButtonHeight
-trailingIcons
+trailingIcon
 =
 {
 if
