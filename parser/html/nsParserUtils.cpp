@@ -106,13 +106,6 @@ h
 #
 include
 "
-nsIDTD
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

@@ -79,7 +79,7 @@ UniquePtr
 h
 "
 class
-nsIDTD
+nsExpatDriver
 ;
 class
 nsIRunnable
@@ -564,11 +564,11 @@ CParserContext
 >
 mParserContext
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDTD
+nsExpatDriver
 >
-mDTD
+mExpatDriver
 ;
 nsCOMPtr
 <

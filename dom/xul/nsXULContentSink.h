@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsIDTD
-.
-h
-"
-#
-include
-"
 nsIExpatSink
 .
 h

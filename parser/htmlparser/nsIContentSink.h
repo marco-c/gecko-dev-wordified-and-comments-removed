@@ -36,13 +36,6 @@ NotNull
 .
 h
 "
-#
-include
-"
-nsIDTD
-.
-h
-"
 class
 nsParserBase
 ;
@@ -121,8 +114,6 @@ void
 NS_IMETHOD
 WillBuildModel
 (
-nsDTDMode
-aDTDMode
 )
 {
 return

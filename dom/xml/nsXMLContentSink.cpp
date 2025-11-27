@@ -805,8 +805,6 @@ nsXMLContentSink
 :
 WillBuildModel
 (
-nsDTDMode
-aDTDMode
 )
 {
 WillBuildModelImpl
