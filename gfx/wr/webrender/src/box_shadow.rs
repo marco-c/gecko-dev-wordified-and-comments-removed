@@ -615,15 +615,7 @@ frame_gpu_data
 .
 f32
 pattern_rect
-.
-to_untyped
-(
-)
 pattern_rect
-.
-to_untyped
-(
-)
 color_pattern
 .
 base_color

@@ -193,7 +193,7 @@ define
 BLEND_MODE_PREMUL_ALPHA
 1
 struct
-ImageBrushPrimitiveData
+ImageBrushData
 {
 vec4
 color
@@ -206,7 +206,7 @@ stretch_size
 ;
 }
 ;
-ImageBrushPrimitiveData
+ImageBrushData
 fetch_image_data
 (
 int
@@ -224,10 +224,10 @@ fetch_from_gpu_buffer_3f
 address
 )
 ;
-ImageBrushPrimitiveData
+ImageBrushData
 data
 =
-ImageBrushPrimitiveData
+ImageBrushData
 (
 raw_data
 [
@@ -296,7 +296,7 @@ vec4
 segment_data
 )
 {
-ImageBrushPrimitiveData
+ImageBrushData
 image_data
 =
 fetch_image_data

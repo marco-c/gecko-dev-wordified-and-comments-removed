@@ -98,7 +98,7 @@ v_scale_dir
 ifdef
 WR_VERTEX_SHADER
 struct
-LinearGradientBrushData
+Gradient
 {
 vec4
 start_end_point
@@ -111,7 +111,7 @@ stretch_size
 ;
 }
 ;
-LinearGradientBrushData
+Gradient
 fetch_gradient
 (
 int
@@ -130,7 +130,7 @@ address
 )
 ;
 return
-LinearGradientBrushData
+Gradient
 (
 data
 [
@@ -179,7 +179,7 @@ vec4
 texel_rect
 )
 {
-LinearGradientBrushData
+Gradient
 gradient
 =
 fetch_gradient

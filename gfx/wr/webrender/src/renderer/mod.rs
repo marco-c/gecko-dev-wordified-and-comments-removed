@@ -882,17 +882,6 @@ GpuBufferBlockF
 }
 ;
 pub
-use
-gpu_buffer
-:
-:
-{
-GpuBufferDataF
-GpuBufferDataI
-GpuBufferWriterI
-}
-;
-pub
 const
 VERTEX_DATA_TEXTURE_COUNT
 :

@@ -154,7 +154,7 @@ gpu_types
 :
 :
 {
-ImageBrushUserData
+ImageBrushData
 get_shader_opacity
 BoxShadowData
 MaskInstance
@@ -5094,7 +5094,7 @@ textures
 let
 prim_user_data
 =
-ImageBrushUserData
+ImageBrushData
 {
 color_mode
 :
@@ -5340,7 +5340,7 @@ z
 z_id
 user_data
 :
-ImageBrushUserData
+ImageBrushData
 {
 color_mode
 :
@@ -5423,7 +5423,7 @@ next
 let
 prim_user_data
 =
-ImageBrushUserData
+ImageBrushData
 {
 color_mode
 :
@@ -6056,7 +6056,7 @@ textures
 let
 prim_user_data
 =
-ImageBrushUserData
+ImageBrushData
 {
 color_mode
 :
@@ -6599,7 +6599,7 @@ ImageBufferKind
 Texture2D
 )
 textures
-ImageBrushUserData
+ImageBrushData
 {
 color_mode
 :
@@ -6787,7 +6787,7 @@ textures
 let
 prim_user_data
 =
-ImageBrushUserData
+ImageBrushData
 {
 color_mode
 :
@@ -6875,7 +6875,7 @@ textures
 let
 prim_user_data
 =
-ImageBrushUserData
+ImageBrushData
 {
 color_mode
 :
@@ -7455,7 +7455,7 @@ texture_source
 let
 prim_user_data
 =
-ImageBrushUserData
+ImageBrushData
 {
 color_mode
 :
@@ -8119,7 +8119,7 @@ Image
 (
 image_buffer_kind
 )
-ImageBrushUserData
+ImageBrushData
 {
 color_mode
 :
@@ -9362,7 +9362,7 @@ image_buffer_kind
 )
 )
 textures
-ImageBrushUserData
+ImageBrushData
 {
 color_mode
 :
@@ -10048,7 +10048,7 @@ image_instance_index
 let
 prim_user_data
 =
-ImageBrushUserData
+ImageBrushData
 {
 color_mode
 :
@@ -11286,7 +11286,7 @@ as_int
 )
 user_data
 :
-ImageBrushUserData
+ImageBrushData
 {
 color_mode
 :

@@ -1231,10 +1231,6 @@ vec4
 }
 else
 {
-/
-/
-See
-BrushSegmentGpuData
 int
 segment_address
 =
