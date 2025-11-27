@@ -43,7 +43,7 @@ public
 static
 already_AddRefed
 <
-PrintTargetPDF
+PrintTarget
 >
 CreateOrNull
 (
