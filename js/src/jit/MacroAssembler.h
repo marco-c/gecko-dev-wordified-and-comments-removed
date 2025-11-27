@@ -16923,7 +16923,7 @@ RefType
 type
 )
 ;
-void
+FaultingCodeOffset
 branchWasmRefIsSubtype
 (
 Register
@@ -16943,6 +16943,8 @@ Label
 label
 bool
 onSuccess
+bool
+signalNullChecks
 Register
 superSTV
 Register
@@ -16951,7 +16953,7 @@ Register
 scratch2
 )
 ;
-void
+FaultingCodeOffset
 branchWasmRefIsSubtypeAny
 (
 Register
@@ -16971,6 +16973,8 @@ Label
 label
 bool
 onSuccess
+bool
+signalNullChecks
 Register
 superSTV
 Register
@@ -17292,7 +17296,7 @@ Register
 scratch
 )
 ;
-void
+FaultingCodeOffset
 branchObjectIsWasmGcObject
 (
 bool

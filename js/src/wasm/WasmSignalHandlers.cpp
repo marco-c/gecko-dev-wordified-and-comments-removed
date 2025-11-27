@@ -6066,6 +6066,12 @@ Trap
 :
 NullPointerDereference
 :
+case
+Trap
+:
+:
+BadCast
+:
 break
 ;
 #
@@ -6160,6 +6166,12 @@ Trap
 :
 :
 NullPointerDereference
+:
+case
+Trap
+:
+:
+BadCast
 :
 if
 (
