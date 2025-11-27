@@ -13031,7 +13031,7 @@ return
 status
 ;
 }
-bool
+void
 nsMenuPopupFrame
 :
 :
@@ -13040,7 +13040,6 @@ PaintWindow
 nsIWidget
 *
 aWidget
-LayoutDeviceIntRegion
 )
 {
 MOZ_ASSERT
@@ -13112,9 +13111,6 @@ renderer
 )
 ;
 }
-return
-true
-;
 }
 void
 nsMenuPopupFrame
