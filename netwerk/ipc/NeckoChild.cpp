@@ -94,17 +94,6 @@ mozilla
 /
 net
 /
-FileChannelChild
-.
-h
-"
-#
-include
-"
-mozilla
-/
-net
-/
 WebSocketChannelChild
 .
 h

@@ -66,10 +66,6 @@ PStunAddrsRequest
 ;
 include
 protocol
-PFileChannel
-;
-include
-protocol
 PWebrtcTCPSocket
 ;
 include
@@ -271,9 +267,6 @@ PGeckoViewContentChannel
 ;
 #
 endif
-manages
-PFileChannel
-;
 manages
 PTransportProvider
 ;
@@ -494,11 +487,6 @@ args
 ;
 #
 endif
-async
-PFileChannel
-(
-)
-;
 #
 ifdef
 MOZ_WIDGET_ANDROID
@@ -516,6 +504,13 @@ args
 ;
 #
 endif
+async
+NotifyFileChannelOpened
+(
+FileChannelInfo
+info
+)
+;
 async
 RequestContextLoadBegin
 (

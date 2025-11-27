@@ -316,11 +316,6 @@ PDocumentChannel
 ipdl
 "
 "
-PFileChannel
-.
-ipdl
-"
-"
 PInputChannelThrottleQueue
 .
 ipdl
