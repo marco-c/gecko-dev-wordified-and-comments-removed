@@ -877,12 +877,6 @@ BackendType
 aBackendType
 )
 ;
-static
-bool
-CanMigrateMacGPUs
-(
-)
-;
 virtual
 already_AddRefed
 <
