@@ -3186,7 +3186,6 @@ ptFrame
 >
 IsSelectable
 (
-nullptr
 )
 ;
 #
@@ -6234,7 +6233,6 @@ newFrame
 >
 IsSelectable
 (
-nullptr
 )
 )
 {

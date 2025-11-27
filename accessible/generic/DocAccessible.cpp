@@ -1370,7 +1370,6 @@ bodyFrame
 >
 IsSelectable
 (
-nullptr
 )
 )
 )

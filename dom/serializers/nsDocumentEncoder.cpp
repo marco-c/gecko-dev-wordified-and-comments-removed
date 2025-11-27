@@ -3898,7 +3898,6 @@ frame
 >
 IsSelectable
 (
-nullptr
 )
 )
 {

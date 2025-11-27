@@ -1212,7 +1212,6 @@ if
 !
 IsSelectable
 (
-nullptr
 )
 )
 {

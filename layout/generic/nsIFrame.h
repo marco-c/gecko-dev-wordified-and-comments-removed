@@ -10009,6 +10009,11 @@ InvalidateFrameSubtree
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 bool
 IsSelectable
 (
@@ -10018,6 +10023,8 @@ mozilla
 StyleUserSelect
 *
 aSelectStyle
+=
+nullptr
 )
 const
 ;

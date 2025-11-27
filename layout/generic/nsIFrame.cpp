@@ -11923,7 +11923,6 @@ if
 !
 IsSelectable
 (
-nullptr
 )
 )
 {
@@ -22878,9 +22877,11 @@ IsTextInputFrame
 )
 |
 |
-IsEditingHost
-(
 aFrame
+-
+>
+ContentIsEditable
+(
 )
 )
 {
@@ -46117,7 +46118,6 @@ aFrame
 >
 IsSelectable
 (
-nullptr
 )
 )
 {
@@ -48622,7 +48622,6 @@ aFrame
 >
 IsSelectable
 (
-nullptr
 )
 )
 {
@@ -51294,7 +51293,7 @@ result
 ;
 }
 auto
-IsSelectable
+IsSelectableFrame
 =
 [
 aAncestorLimiter
@@ -51316,7 +51315,6 @@ aFrame
 >
 IsSelectable
 (
-nullptr
 )
 |
 |
@@ -51476,7 +51474,7 @@ IsBlockOutside
 )
 &
 &
-IsSelectable
+IsSelectableFrame
 (
 current
 )
@@ -51517,7 +51515,7 @@ continue
 }
 selectable
 =
-IsSelectable
+IsSelectableFrame
 (
 traversedFrame
 )
@@ -51573,7 +51571,6 @@ traversedFrame
 >
 IsSelectable
 (
-nullptr
 )
 )
 {
