@@ -364,6 +364,13 @@ js
 ]
 [
 "
+test_303_redirect_caching
+.
+js
+"
+]
+[
+"
 test_304_headers
 .
 js
