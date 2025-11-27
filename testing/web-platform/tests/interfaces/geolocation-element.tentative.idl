@@ -180,11 +180,13 @@ constructor
 readonly
 attribute
 GeolocationPosition
+?
 position
 ;
 readonly
 attribute
 GeolocationPositionError
+?
 error
 ;
 [
