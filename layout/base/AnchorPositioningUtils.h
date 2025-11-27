@@ -999,16 +999,6 @@ AnchorPosReferenceData
 aReferenceData
 )
 ;
-static
-nsIFrame
-*
-GetAnchorThatFrameScrollsWith
-(
-nsIFrame
-*
-aFrame
-)
-;
 }
 ;
 }

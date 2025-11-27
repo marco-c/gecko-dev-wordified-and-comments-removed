@@ -1632,14 +1632,6 @@ nullptr
 )
 ;
 }
-bool
-DecideScrollableLayerEnsureDisplayport
-(
-nsDisplayListBuilder
-*
-aBuilder
-)
-;
 void
 NotifyApzTransaction
 (
