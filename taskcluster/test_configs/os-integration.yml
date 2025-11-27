@@ -688,15 +688,13 @@ firefox
 -
 ci
 -
+manifest
+-
 mozbase
 -
 mozbuild
 -
 mozharness
--
-skip
--
-fails
 -
 taskgraph
 -
