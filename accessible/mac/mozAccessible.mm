@@ -2444,6 +2444,12 @@ case
 roles
 :
 :
+OPTION
+:
+case
+roles
+:
+:
 PARENT_MENUITEM
 :
 case
@@ -5314,6 +5320,9 @@ nsIAccessibleEvent
 EVENT_NAME_CHANGE
 :
 {
+CacheDomainActivationBlocker
+cacheBlocker
+;
 nsAutoString
 nameNotUsed
 ;
