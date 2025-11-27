@@ -273,8 +273,11 @@ aItem
 const
 nsDisplayStickyPosition
 *
-FindStickyItemFromFrame
+FindStickyItem
 (
+nsDisplayItem
+*
+aItemWithStickyASR
 const
 nsIFrame
 *
