@@ -3608,6 +3608,9 @@ arm
 loong64
 "
 "
+mips64
+"
+"
 riscv64
 "
 )
@@ -3631,6 +3634,9 @@ arm
 "
 "
 loongarch64
+"
+"
+mips64
 "
 "
 riscv64
@@ -3761,6 +3767,9 @@ arm
 loong64
 "
 "
+mips64
+"
+"
 riscv64
 "
 )
@@ -3784,6 +3793,8 @@ arm64
 arm
 /
 loong64
+/
+mips64
 /
 riscv64
 simulators
@@ -3809,6 +3820,9 @@ arm
 "
 "
 loongarch64
+"
+"
+mips64
 "
 "
 riscv64
@@ -3841,6 +3855,8 @@ arm64
 arm
 /
 loongarch64
+/
+mips64
 /
 riscv64
 jits
