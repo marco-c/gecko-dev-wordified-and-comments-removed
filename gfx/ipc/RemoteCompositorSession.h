@@ -64,6 +64,9 @@ aWidgetDelegate
 APZCTreeManagerChild
 *
 aAPZ
+UiCompositorControllerChild
+*
+aUiController
 const
 LayersId
 &
