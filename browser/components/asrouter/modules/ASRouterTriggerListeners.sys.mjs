@@ -749,17 +749,6 @@ policy
 dataSubmissionEnabled
 "
 "
-browser
-.
-urlbar
-.
-quicksuggest
-.
-dataCollection
-.
-enabled
-"
-"
 app
 .
 shield
