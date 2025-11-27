@@ -2743,7 +2743,7 @@ HEIGHT_RATIO
 =
 0
 .
-8f
+6f
 const
 val
 WIDTH_RATIO
