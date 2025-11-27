@@ -3457,6 +3457,15 @@ this
 ;
 }
 }
+mFragmentainerAwarePositioningEnabled
+=
+StaticPrefs
+:
+:
+layout_abspos_fragmentainer_aware_positioning_enabled
+(
+)
+;
 Preferences
 :
 :
