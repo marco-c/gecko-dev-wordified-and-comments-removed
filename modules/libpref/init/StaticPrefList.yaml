@@ -58312,6 +58312,9 @@ once
 do_not_use_directly
 :
 true
+#
+ifdef
+XP_WIN
 -
 name
 :
@@ -58350,6 +58353,8 @@ true
 mirror
 :
 once
+#
+endif
 #
 Enable
 DEAA
