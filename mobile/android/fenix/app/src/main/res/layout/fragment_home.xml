@@ -208,14 +208,6 @@ layout_height
 "
 match_parent
 "
-android
-:
-background
-=
-"
-?
-homeBackground
-"
 >
 <
 androidx
