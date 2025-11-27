@@ -486,7 +486,7 @@ navigationBarColor
 ?
 attr
 /
-colorSurface
+layer1
 <
 /
 item
@@ -504,7 +504,7 @@ colorBackground
 ?
 attr
 /
-colorSurface
+layer1
 <
 /
 item
@@ -618,7 +618,7 @@ navigationBarColor
 ?
 attr
 /
-colorSurface
+layer1
 <
 /
 item
@@ -636,7 +636,7 @@ colorBackground
 ?
 attr
 /
-colorSurface
+layer1
 <
 /
 item
@@ -753,7 +753,7 @@ navigationBarColor
 >
 color
 /
-fx_mobile_surface
+fx_mobile_layer_color_1
 <
 /
 item
