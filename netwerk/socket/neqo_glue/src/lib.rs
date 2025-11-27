@@ -10272,10 +10272,6 @@ ret_headers
 extend_from_slice
 (
 status_val
-.
-as_bytes
-(
-)
 )
 ;
 ret_headers
@@ -10369,10 +10365,6 @@ from
 hdr
 .
 value
-(
-)
-.
-as_bytes
 (
 )
 )
