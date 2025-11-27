@@ -61,10 +61,10 @@ dtitvfmt
 .
 cpp
 -
-631
+630
 16
 +
-631
+630
 38
 DateIntervalFormat
 :
@@ -73,6 +73,7 @@ getTimeZone
 (
 )
 const
+{
 if
 (
 fDateFormat
@@ -122,6 +123,7 @@ createDefault
 )
 ;
 }
++
 +
 void
 DateIntervalFormat
@@ -259,7 +261,6 @@ clone
 }
 +
 }
-+
 void
 DateIntervalFormat
 :
@@ -309,9 +310,6 @@ fCapitalizationContext
 =
 value
 ;
-}
-else
-{
 diff
 -
 -
@@ -383,10 +381,10 @@ dtitvfmt
 .
 h
 -
-637
+625
 16
 +
-637
+625
 23
 public
 :
@@ -423,6 +421,7 @@ ICU
 8
 *
 /
+U_I18N_API
 virtual
 void
 setTimeZone
@@ -480,6 +479,7 @@ adopted
 *
 /
 +
+U_I18N_API
 virtual
 void
 adoptCalendar
