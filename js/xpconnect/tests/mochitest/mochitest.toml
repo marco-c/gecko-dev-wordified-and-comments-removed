@@ -955,6 +955,9 @@ if
 asan
 "
 "
+ccov
+"
+"
 opt
 "
 "
@@ -1003,6 +1006,9 @@ if
 [
 "
 asan
+"
+"
+ccov
 "
 "
 opt

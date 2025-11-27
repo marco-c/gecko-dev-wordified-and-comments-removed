@@ -6097,6 +6097,9 @@ if
 asan
 "
 "
+ccov
+"
+"
 opt
 "
 "

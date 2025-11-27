@@ -115,6 +115,9 @@ if
 asan
 "
 "
+ccov
+"
+"
 opt
 "
 "
@@ -142,6 +145,9 @@ if
 [
 "
 asan
+"
+"
+ccov
 "
 "
 opt
@@ -238,6 +244,9 @@ if
 asan
 "
 "
+ccov
+"
+"
 http2
 "
 "
@@ -271,6 +280,9 @@ if
 [
 "
 asan
+"
+"
+ccov
 "
 "
 opt
@@ -421,6 +433,9 @@ if
 asan
 "
 "
+ccov
+"
+"
 opt
 "
 "
@@ -462,6 +477,9 @@ if
 [
 "
 asan
+"
+"
+ccov
 "
 "
 opt
@@ -512,6 +530,9 @@ Bug
 asan
 "
 "
+ccov
+"
+"
 opt
 "
 "
@@ -539,6 +560,9 @@ if
 [
 "
 asan
+"
+"
+ccov
 "
 "
 opt
@@ -577,6 +601,9 @@ if
 asan
 "
 "
+ccov
+"
+"
 opt
 "
 "
@@ -599,6 +626,9 @@ if
 asan
 "
 "
+ccov
+"
+"
 opt
 "
 "
@@ -619,6 +649,9 @@ if
 [
 "
 asan
+"
+"
+ccov
 "
 "
 opt
@@ -668,6 +701,9 @@ platforms
 .
 "
 asan
+"
+"
+ccov
 "
 "
 opt
@@ -727,6 +763,9 @@ if
 asan
 "
 "
+ccov
+"
+"
 opt
 "
 "
@@ -749,6 +788,9 @@ if
 asan
 "
 "
+ccov
+"
+"
 opt
 "
 "
@@ -769,6 +811,9 @@ if
 [
 "
 asan
+"
+"
+ccov
 "
 "
 opt
@@ -800,6 +845,9 @@ if
 asan
 "
 "
+ccov
+"
+"
 opt
 "
 "
@@ -827,6 +875,9 @@ if
 [
 "
 asan
+"
+"
+ccov
 "
 "
 opt
@@ -883,6 +934,9 @@ if
 asan
 "
 "
+ccov
+"
+"
 opt
 "
 #
@@ -929,6 +983,9 @@ Bug
 asan
 "
 "
+ccov
+"
+"
 opt
 "
 "
@@ -951,6 +1008,9 @@ if
 asan
 "
 "
+ccov
+"
+"
 opt
 "
 "
@@ -971,6 +1031,9 @@ if
 [
 "
 asan
+"
+"
+ccov
 "
 "
 opt
@@ -1014,6 +1077,9 @@ if
 asan
 "
 "
+ccov
+"
+"
 opt
 "
 "
@@ -1041,6 +1107,9 @@ if
 [
 "
 asan
+"
+"
+ccov
 "
 "
 opt
@@ -1084,6 +1153,9 @@ if
 [
 "
 asan
+"
+"
+ccov
 "
 "
 opt

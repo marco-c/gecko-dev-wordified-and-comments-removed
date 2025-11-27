@@ -118,6 +118,9 @@ if
 asan
 "
 "
+ccov
+"
+"
 opt
 "
 "
