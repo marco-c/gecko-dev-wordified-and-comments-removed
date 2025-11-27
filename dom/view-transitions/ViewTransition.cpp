@@ -4607,7 +4607,7 @@ dynamicAnimationName
 nsStyleUtil
 :
 :
-AppendQuotedCSString
+AppendQuotedCSSString
 (
 NS_ConvertUTF16toUTF8
 (
