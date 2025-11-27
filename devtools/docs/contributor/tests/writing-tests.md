@@ -536,7 +536,7 @@ in
 the
 browser
 .
-ini
+toml
 file
 that
 you
@@ -561,7 +561,7 @@ test
 /
 browser
 .
-ini
+toml
 Add
 a
 line
@@ -631,9 +631,9 @@ this
 to
 browser
 .
-ini
+toml
 :
-ini
+toml
 [
 browser_ruleview_completion
 -
@@ -704,7 +704,7 @@ in
 the
 browser
 .
-ini
+toml
 file
 .
 There
@@ -772,7 +772,7 @@ section
 of
 browser
 .
-ini
+toml
 also
 making
 sure
@@ -2857,7 +2857,7 @@ to
 the
 browser
 .
-ini
+toml
 support
 -
 files

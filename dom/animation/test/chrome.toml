@@ -87,7 +87,7 @@ go
 in
 mochitest
 .
-ini
+toml
 since
 it
 is

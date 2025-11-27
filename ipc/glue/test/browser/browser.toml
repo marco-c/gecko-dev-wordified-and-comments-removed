@@ -425,7 +425,7 @@ browser
 /
 browser
 .
-ini
+toml
 timing
 out
 on

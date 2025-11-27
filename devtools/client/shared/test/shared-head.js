@@ -1267,7 +1267,7 @@ line
 in
 browser
 .
-ini
+toml
 :
 \
 n

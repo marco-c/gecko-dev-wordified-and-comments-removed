@@ -1281,7 +1281,7 @@ widgets
 /
 chrome
 .
-ini
+toml
 to
 enable
 running

@@ -315,7 +315,7 @@ chrome
 /
 chrome
 .
-ini
+toml
 To
 run
 a

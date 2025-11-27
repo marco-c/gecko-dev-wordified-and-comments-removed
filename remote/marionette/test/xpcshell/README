@@ -88,7 +88,7 @@ listed
 in
 xpcshell
 .
-ini
+toml
 otherwise
 they
 will

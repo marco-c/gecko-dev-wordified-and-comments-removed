@@ -125,7 +125,7 @@ in
 the
 browser
 .
-ini
+toml
 file
 .
 You

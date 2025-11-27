@@ -570,7 +570,7 @@ extension
 .
 toml
 :
-ini
+toml
 [
 DEFAULT
 ]

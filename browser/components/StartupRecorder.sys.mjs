@@ -1581,7 +1581,7 @@ performance
 /
 browser
 .
-ini
+toml
 Services
 .
 profiler

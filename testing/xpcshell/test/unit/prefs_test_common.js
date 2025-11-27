@@ -135,7 +135,7 @@ with
 -
 prefs
 .
-ini
+toml
 "
 )
 ;
@@ -177,7 +177,7 @@ has_pref_from_manifest_defaults
 "
 xpcshell
 .
-ini
+toml
 did
 not
 set
