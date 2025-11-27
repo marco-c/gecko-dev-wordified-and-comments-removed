@@ -6,8 +6,6 @@ import
 Any
 Dict
 Optional
-import
-yaml
 DictAny
 =
 Dict
@@ -1232,6 +1230,9 @@ get_variant_data
 self
 )
 :
+        
+import
+yaml
         
 if
 PlatformInfo
