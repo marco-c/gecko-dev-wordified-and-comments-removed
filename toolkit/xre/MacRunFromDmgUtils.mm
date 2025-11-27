@@ -92,13 +92,6 @@ h
 #
 include
 "
-MacUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ErrorResult
@@ -200,13 +193,6 @@ h
 "
 #
 endif
-using
-namespace
-mozilla
-:
-:
-MacUtils
-;
 using
 namespace
 mozilla
