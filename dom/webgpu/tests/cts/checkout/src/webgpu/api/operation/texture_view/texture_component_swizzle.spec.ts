@@ -144,6 +144,7 @@ getTextureFormatTypeInfo
 isBuiltinComparison
 isBuiltinGather
 isFillable
+swizzleTexel
 TextureBuiltin
 }
 from
@@ -245,7 +246,6 @@ import
 {
 kSwizzleTests
 SwizzleSpec
-swizzleTexel
 }
 from
 '
