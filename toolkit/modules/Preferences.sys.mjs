@@ -1235,7 +1235,7 @@ check
 *
 returns
 {
-Boolean
+boolean
 |
 Array
 }
@@ -1419,7 +1419,7 @@ check
 *
 returns
 {
-Boolean
+boolean
 |
 Array
 }
@@ -1809,7 +1809,7 @@ check
 *
 returns
 {
-Boolean
+boolean
 |
 Array
 }

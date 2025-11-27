@@ -584,7 +584,7 @@ payload
 *
 param
 {
-Object
+object
 }
 aPayload
 The
@@ -594,7 +594,7 @@ payload
 *
 return
 {
-String
+string
 }
 A
 string
@@ -1703,7 +1703,7 @@ setup
 *
 return
 {
-Boolean
+boolean
 }
 True
 if
@@ -2255,7 +2255,7 @@ getStartupInfo
 *
 param
 {
-Boolean
+boolean
 }
 isSubsession
 True
@@ -2270,7 +2270,7 @@ otherwise
 *
 param
 {
-Boolean
+boolean
 }
 clearSubsession
 True
@@ -2850,7 +2850,7 @@ scalars
 *
 return
 {
-Object
+object
 }
 The
 scalar
@@ -7980,7 +7980,7 @@ disk
 *
 param
 {
-Object
+object
 }
 [
 aProvidedPayload

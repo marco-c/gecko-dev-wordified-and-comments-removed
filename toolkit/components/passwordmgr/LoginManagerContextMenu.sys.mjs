@@ -128,7 +128,7 @@ menu
 *
 param
 {
-Object
+object
 }
 inputElementIdentifier
 *
@@ -1035,7 +1035,7 @@ with
 *
 param
 {
-Object
+object
 }
 inputElementIdentifier
 *

@@ -2012,7 +2012,7 @@ event
 *
 param
 {
-Object
+object
 }
 [
 detail

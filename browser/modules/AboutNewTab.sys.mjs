@@ -509,7 +509,7 @@ overridden
 *
 returns
 {
-Boolean
+boolean
 }
 Returns
 if
@@ -523,7 +523,7 @@ change
 *
 param
 {
-Boolean
+boolean
 }
 stateEnabled
 activity
@@ -536,7 +536,7 @@ to
 *
 param
 {
-Boolean
+boolean
 }
 forceState
 force

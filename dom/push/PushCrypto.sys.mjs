@@ -393,7 +393,7 @@ decrypted
 *
 param
 {
-String
+string
 }
 message
 A
@@ -423,7 +423,7 @@ localized
 *
 param
 {
-String
+string
 }
 property
 The
@@ -511,7 +511,7 @@ Console
 *
 param
 {
-String
+string
 }
 scope
 The
@@ -536,7 +536,7 @@ string
 *
 returns
 {
-String
+string
 }
 The
 localized
@@ -2142,7 +2142,7 @@ scheme
 *
 param
 {
-Object
+object
 }
 cryptoParams
 An
@@ -2695,7 +2695,7 @@ record
 *
 param
 {
-Number
+number
 }
 index
 The
@@ -2732,7 +2732,7 @@ key
 *
 param
 {
-Boolean
+boolean
 }
 last
 Indicates
@@ -4098,7 +4098,7 @@ message
 *
 param
 {
-Object
+object
 }
 headers
 The

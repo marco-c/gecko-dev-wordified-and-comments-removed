@@ -1010,7 +1010,7 @@ screenshots
 *
 param
 {
-Object
+object
 }
 region
 The
@@ -1080,7 +1080,7 @@ screenshots
 *
 param
 {
-Object
+object
 }
 region
 The
@@ -1250,7 +1250,7 @@ Promise
 *
 resolves
 {
-Boolean
+boolean
 }
 true
 when
@@ -1630,7 +1630,7 @@ overlay
 *
 returns
 {
-Boolean
+boolean
 }
 true
 when

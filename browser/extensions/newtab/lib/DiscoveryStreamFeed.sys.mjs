@@ -5127,7 +5127,7 @@ newsFeedsPromises
 *
 param
 {
-Object
+object
 }
 Has
 both
@@ -5143,7 +5143,7 @@ Object
 *
 param
 {
-Boolean
+boolean
 }
 isStartup
 We
@@ -5561,7 +5561,7 @@ components
 *
 param
 {
-Boolean
+boolean
 }
 isStartup
 We
@@ -5674,7 +5674,7 @@ feed
 *
 param
 {
-Object
+object
 }
 layout
 This
@@ -5688,7 +5688,7 @@ object
 *
 param
 {
-Boolean
+boolean
 }
 isStartup
 We
@@ -5702,7 +5702,7 @@ startup
 *
 returns
 {
-Object
+object
 }
 An
 object
@@ -12777,7 +12777,7 @@ spocsCacheUpdateTime
 *
 typedef
 {
-Object
+object
 }
 RefreshAll
 *

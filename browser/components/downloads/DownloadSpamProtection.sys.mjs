@@ -284,7 +284,7 @@ type
 {
 Map
 <
-String
+string
 DownloadSpam
 >
 }
@@ -346,7 +346,7 @@ type
 {
 Set
 <
-Object
+object
 >
 }
 *
@@ -421,7 +421,7 @@ it
 *
 type
 {
-Boolean
+boolean
 }
 *
 /
@@ -665,7 +665,7 @@ this
 *
 param
 {
-String
+string
 }
 url
 *
@@ -995,7 +995,7 @@ URL
 *
 param
 {
-String
+string
 }
 url
 *
@@ -1090,7 +1090,7 @@ spamList
 *
 param
 {
-Object
+object
 }
 view
 An
@@ -1426,7 +1426,7 @@ IsDownloadSpam
 *
 param
 {
-String
+string
 }
 url
 *
@@ -1627,7 +1627,7 @@ exists
 *
 param
 {
-String
+string
 }
 url
 *
@@ -1729,7 +1729,7 @@ times
 *
 param
 {
-Object
+object
 }
 view
 An

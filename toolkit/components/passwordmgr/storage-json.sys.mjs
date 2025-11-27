@@ -4692,7 +4692,7 @@ matchData
 *
 param
 {
-Object
+object
 }
 aLoginItem
 The
@@ -4704,7 +4704,7 @@ check
 *
 param
 {
-Object
+object
 }
 aMatchData
 The
@@ -4719,7 +4719,7 @@ by
 *
 param
 {
-Object
+object
 }
 [
 aOptions

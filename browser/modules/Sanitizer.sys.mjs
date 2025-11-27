@@ -7603,7 +7603,7 @@ sanitize
 *
 param
 {
-Object
+object
 }
 progress
 -

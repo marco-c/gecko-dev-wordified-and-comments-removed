@@ -3525,7 +3525,7 @@ getStack
 *
 param
 {
-array
+Array
 }
 aArgs
 *

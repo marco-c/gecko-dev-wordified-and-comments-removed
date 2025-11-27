@@ -216,7 +216,7 @@ storage
 *
 param
 {
-String
+string
 }
 origin
 -
@@ -335,7 +335,7 @@ origin
 *
 param
 {
-String
+string
 }
 origin
 -
@@ -352,7 +352,7 @@ for
 *
 param
 {
-Number
+number
 }
 size
 [
@@ -585,7 +585,7 @@ options
 *
 param
 {
-String
+string
 }
 [
 options
@@ -616,7 +616,7 @@ args
 *
 param
 {
-String
+string
 }
 [
 options
@@ -637,7 +637,7 @@ for
 *
 param
 {
-String
+string
 }
 [
 options
@@ -654,7 +654,7 @@ for
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -675,7 +675,7 @@ for
 *
 param
 {
-String
+string
 }
 [
 options
@@ -688,7 +688,7 @@ name
 *
 param
 {
-String
+string
 }
 [
 options
@@ -896,7 +896,7 @@ window
 *
 param
 {
-String
+string
 }
 origin
 -
@@ -913,7 +913,7 @@ for
 *
 param
 {
-String
+string
 }
 [
 key
@@ -925,7 +925,7 @@ key
 *
 param
 {
-String
+string
 }
 [
 value
@@ -1006,7 +1006,7 @@ localStorage
 *
 param
 {
-String
+string
 }
 origin
 -
@@ -1023,10 +1023,10 @@ param
 {
 key
 :
-String
+string
 value
 :
-String
+string
 }
 [
 ]
@@ -1072,7 +1072,7 @@ window
 *
 returns
 {
-Boolean
+boolean
 }
 whether
 the
@@ -1213,7 +1213,7 @@ effect
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1242,7 +1242,7 @@ registered
 *
 param
 {
-String
+string
 }
 options
 .
@@ -1260,7 +1260,7 @@ add
 *
 param
 {
-String
+string
 }
 [
 options
@@ -1315,7 +1315,7 @@ tab
 *
 param
 {
-Number
+number
 }
 [
 options
@@ -2361,7 +2361,7 @@ ServiceWorkers
 *
 param
 {
-String
+string
 }
 origin
 -
@@ -2382,7 +2382,7 @@ suffix
 *
 returns
 {
-Boolean
+boolean
 }
 whether
 or
@@ -2478,7 +2478,7 @@ registered
 *
 param
 {
-String
+string
 }
 the
 url
@@ -2619,7 +2619,7 @@ unregistered
 *
 param
 {
-String
+string
 }
 the
 url

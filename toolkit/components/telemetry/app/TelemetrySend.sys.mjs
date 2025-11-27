@@ -920,7 +920,7 @@ ping
 *
 param
 {
-Object
+object
 }
 aPing
 The
@@ -931,7 +931,7 @@ check
 *
 return
 {
-Boolean
+boolean
 }
 True
 if
@@ -992,7 +992,7 @@ description
 *
 param
 {
-Object
+object
 }
 aPing
 The
@@ -1073,7 +1073,7 @@ ping
 *
 param
 {
-Object
+object
 }
 aPing
 The
@@ -1257,7 +1257,7 @@ buffer
 *
 return
 {
-String
+string
 }
 This
 returns
@@ -1786,7 +1786,7 @@ module
 *
 param
 {
-Boolean
+boolean
 }
 testing
 Whether
@@ -1984,7 +1984,7 @@ opportunity
 *
 param
 {
-Object
+object
 }
 ping
 The
@@ -2001,7 +2001,7 @@ JSON
 *
 param
 {
-Object
+object
 }
 [
 aOptions
@@ -2012,7 +2012,7 @@ object
 *
 param
 {
-Boolean
+boolean
 }
 [
 options
@@ -2130,7 +2130,7 @@ it
 *
 param
 {
-Object
+object
 }
 [
 ping
@@ -2146,7 +2146,7 @@ checked
 *
 return
 {
-Boolean
+boolean
 }
 True
 if
@@ -2672,7 +2672,7 @@ cancelled
 *
 param
 {
-Number
+number
 }
 timeoutMs
 The
@@ -5518,7 +5518,7 @@ ones
 *
 return
 {
-Boolean
+boolean
 }
 True
 if
@@ -6379,7 +6379,7 @@ submissions
 *
 param
 {
-String
+string
 }
 pingId
 The
@@ -6393,7 +6393,7 @@ send
 *
 param
 {
-String
+string
 }
 submissionURL
 The
@@ -9699,7 +9699,7 @@ disabled
 *
 return
 {
-Boolean
+boolean
 }
 True
 if
@@ -9829,7 +9829,7 @@ disabled
 *
 param
 {
-Object
+object
 }
 [
 ping
@@ -9845,7 +9845,7 @@ checked
 *
 return
 {
-Boolean
+boolean
 }
 True
 if

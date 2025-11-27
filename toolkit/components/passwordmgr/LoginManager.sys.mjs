@@ -2247,7 +2247,7 @@ disabled
 *
 param
 {
-Number
+number
 }
 count
 -
@@ -2260,7 +2260,7 @@ XPCOM
 *
 return
 {
-String
+string
 [
 ]
 }

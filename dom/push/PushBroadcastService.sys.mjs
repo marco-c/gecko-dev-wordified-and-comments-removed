@@ -690,7 +690,7 @@ broadcastID
 *
 param
 {
-Object
+object
 }
 sourceInfo
 A
@@ -1037,7 +1037,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 broadcasts
@@ -1051,7 +1051,7 @@ versions
 *
 param
 {
-Object
+object
 }
 context
 Additional
@@ -1078,7 +1078,7 @@ listeners
 *
 param
 {
-String
+string
 }
 context
 .

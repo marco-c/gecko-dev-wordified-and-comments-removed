@@ -728,7 +728,7 @@ return
 {
 Array
 <
-String
+string
 >
 }
 *
@@ -822,7 +822,7 @@ removed
 *
 param
 {
-String
+string
 }
 action
 :
@@ -1942,7 +1942,7 @@ installingPrincipal
 *
 param
 {
-String
+string
 }
 sitePerm
 *
@@ -2510,7 +2510,7 @@ events
 *
 param
 {
-Object
+object
 }
 listener
 *
@@ -2582,7 +2582,7 @@ listener
 *
 param
 {
-Object
+object
 }
 listener
 :
@@ -2630,7 +2630,7 @@ event
 *
 param
 {
-String
+string
 }
 eventName
 :
@@ -2760,7 +2760,7 @@ removed
 *
 param
 {
-String
+string
 }
 action
 :
@@ -3285,7 +3285,7 @@ id
 *
 param
 {
-String
+string
 |
 null
 |
@@ -3393,7 +3393,7 @@ param
 {
 Array
 <
-String
+string
 >
 |
 null
@@ -3542,7 +3542,7 @@ installingPrincipal
 *
 param
 {
-String
+string
 }
 sitePerm
 *

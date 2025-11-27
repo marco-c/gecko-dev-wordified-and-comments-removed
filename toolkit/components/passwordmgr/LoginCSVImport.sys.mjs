@@ -744,7 +744,7 @@ filePath
 *
 returns
 {
-Object
+object
 [
 ]
 }

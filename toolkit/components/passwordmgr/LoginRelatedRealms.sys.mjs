@@ -199,7 +199,7 @@ event
 *
 param
 {
-Object
+object
 }
 aEvent
 *

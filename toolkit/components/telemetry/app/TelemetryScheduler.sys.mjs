@@ -1344,7 +1344,7 @@ not
 *
 param
 {
-Object
+object
 }
 nowDate
 A
@@ -1354,7 +1354,7 @@ object
 *
 return
 {
-Boolean
+boolean
 }
 True
 if
@@ -1509,7 +1509,7 @@ not
 *
 param
 {
-Object
+object
 }
 nowDate
 A
@@ -1519,7 +1519,7 @@ object
 *
 return
 {
-Boolean
+boolean
 }
 True
 if
@@ -1624,7 +1624,7 @@ ping
 *
 param
 {
-Number
+number
 }
 now
 The
@@ -1636,7 +1636,7 @@ milliseconds
 *
 param
 {
-Object
+object
 }
 [
 competingPayload
@@ -2078,7 +2078,7 @@ operations
 *
 param
 {
-Boolean
+boolean
 }
 [
 dispatchOnIdle
@@ -2744,7 +2744,7 @@ sent
 *
 param
 {
-Object
+object
 }
 [
 payload

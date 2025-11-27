@@ -1184,7 +1184,7 @@ and
 *
 param
 {
-Object
+object
 }
 options
 *

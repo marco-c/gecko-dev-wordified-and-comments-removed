@@ -202,7 +202,7 @@ Promise
 <
 sequence
 <
-Object
+object
 >
 >
 }
@@ -403,7 +403,7 @@ that
 *
 return
 {
-Boolean
+boolean
 }
 True
 if

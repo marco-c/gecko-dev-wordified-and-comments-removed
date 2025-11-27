@@ -812,13 +812,13 @@ purposes
 *
 param
 {
-String
+string
 }
 baseDomainOrHost
 *
 param
 {
-Object
+object
 }
 Site
 info
@@ -826,7 +826,7 @@ params
 *
 returns
 {
-Object
+object
 }
 site
 object
@@ -1983,7 +1983,7 @@ found
 *
 param
 {
-String
+string
 }
 the
 ASCII
@@ -1993,7 +1993,7 @@ check
 *
 returns
 {
-Boolean
+boolean
 }
 whether
 the
@@ -2301,7 +2301,7 @@ TIMESPAN_2HOURS
 *
 returns
 {
-Object
+object
 }
 bytes
 used
@@ -2808,7 +2808,7 @@ list
 *
 param
 {
-String
+string
 }
 baseDomainOrHost
 -
@@ -2828,7 +2828,7 @@ returns
 {
 Promise
 <
-Object
+object
 |
 null
 >

@@ -940,7 +940,7 @@ message
 *
 param
 {
-String
+string
 }
 id
 *
@@ -956,7 +956,7 @@ message
 *
 param
 {
-Object
+object
 }
 message
 *

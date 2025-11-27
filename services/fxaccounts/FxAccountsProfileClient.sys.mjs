@@ -175,14 +175,14 @@ information
 *
 param
 {
-Object
+object
 }
 options
 Options
 *
 param
 {
-String
+string
 }
 options
 .
@@ -367,7 +367,7 @@ away
 *
 param
 {
-String
+string
 }
 path
 *
@@ -385,7 +385,7 @@ profile
 *
 param
 {
-String
+string
 }
 [
 method
@@ -405,7 +405,7 @@ GET
 *
 param
 {
-String
+string
 }
 [
 etag
@@ -421,7 +421,7 @@ purposes
 *
 param
 {
-Object
+object
 }
 [
 body
@@ -752,7 +752,7 @@ request
 *
 param
 {
-String
+string
 }
 [
 method
@@ -865,7 +865,7 @@ tokens
 *
 param
 {
-String
+string
 }
 path
 *
@@ -883,7 +883,7 @@ profile
 *
 param
 {
-String
+string
 }
 method
 *
@@ -900,19 +900,19 @@ GET
 *
 param
 {
-String
+string
 }
 token
 *
 param
 {
-String
+string
 }
 etag
 *
 param
 {
-Object
+object
 }
 payload
 *
@@ -1298,7 +1298,7 @@ server
 *
 param
 {
-String
+string
 }
 [
 etag
@@ -1401,7 +1401,7 @@ errors
 *
 param
 {
-Object
+object
 }
 [
 details
@@ -1439,7 +1439,7 @@ number
 *
 param
 {
-String
+string
 }
 [
 details
@@ -1452,7 +1452,7 @@ description
 *
 param
 {
-String
+string
 |
 null
 }
@@ -1629,7 +1629,7 @@ error
 *
 returns
 {
-String
+string
 }
 *
 /

@@ -2091,7 +2091,7 @@ unregister
 *
 param
 {
-Number
+number
 }
 reason
 An
@@ -3951,7 +3951,7 @@ op
 *
 param
 {
-String
+string
 }
 keyID
 The
@@ -4022,7 +4022,7 @@ worker
 *
 param
 {
-String
+string
 }
 keyID
 The
@@ -4365,7 +4365,7 @@ notified
 *
 param
 {
-String
+string
 }
 keyID
 The
@@ -4376,7 +4376,7 @@ ID
 *
 param
 {
-String
+string
 }
 messageID
 The
@@ -4412,7 +4412,7 @@ reported
 *
 param
 {
-Object
+object
 }
 headers
 The
@@ -4702,7 +4702,7 @@ BroadcastService
 *
 param
 {
-Object
+object
 }
 message
 The
@@ -4713,7 +4713,7 @@ PushServiceWebSocket
 *
 param
 {
-Object
+object
 }
 context
 Additional
@@ -4786,7 +4786,7 @@ message
 *
 param
 {
-String
+string
 }
 keyID
 The
@@ -5128,7 +5128,7 @@ registration
 *
 param
 {
-String
+string
 }
 messageID
 The
@@ -5138,7 +5138,7 @@ ID
 *
 param
 {
-Object
+object
 }
 headers
 The

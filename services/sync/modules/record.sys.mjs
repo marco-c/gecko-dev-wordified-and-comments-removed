@@ -331,7 +331,7 @@ class
 *
 param
 {
-String
+string
 }
 collection
 The
@@ -344,7 +344,7 @@ BSO
 *
 param
 {
-String
+string
 }
 id
 The
@@ -1100,7 +1100,7 @@ Cleartext
 *
 param
 {
-String
+string
 }
 collection
 The
@@ -1113,7 +1113,7 @@ BSO
 *
 param
 {
-String
+string
 }
 id
 The
@@ -1356,7 +1356,7 @@ upload
 *
 returns
 {
-String
+string
 }
 The
 serialized
@@ -1416,7 +1416,7 @@ server
 *
 param
 {
-String
+string
 }
 incomingCleartext
 The
@@ -1944,7 +1944,7 @@ class
 *
 param
 {
-String
+string
 }
 collection
 The
@@ -1957,7 +1957,7 @@ BSO
 *
 param
 {
-String
+string
 }
 id
 The

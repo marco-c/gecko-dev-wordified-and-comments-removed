@@ -1610,7 +1610,7 @@ window
 *
 return
 {
-Object
+object
 }
 *
 /
@@ -1716,7 +1716,7 @@ finished
 *
 param
 {
-Boolean
+boolean
 }
 highlight
 Whether
@@ -1809,7 +1809,7 @@ on
 *
 param
 {
-String
+string
 }
 [
 word
@@ -1825,7 +1825,7 @@ found
 *
 param
 {
-Boolean
+boolean
 }
 [
 linksOnly
@@ -1842,7 +1842,7 @@ search
 *
 param
 {
-Boolean
+boolean
 }
 [
 drawOutline
@@ -1857,7 +1857,7 @@ outlined
 *
 param
 {
-Boolean
+boolean
 }
 [
 useSubFrames
@@ -3227,7 +3227,7 @@ outline
 *
 param
 {
-Object
+object
 }
 data
 Dictionary
@@ -4929,7 +4929,7 @@ contents
 *
 param
 {
-Boolean
+boolean
 }
 useModalHighlight
 *
@@ -5034,7 +5034,7 @@ mask
 *
 param
 {
-Boolean
+boolean
 }
 highlightAll
 *
@@ -5362,7 +5362,7 @@ from
 *
 param
 {
-Boolean
+boolean
 }
 [
 includeScroll
@@ -5855,7 +5855,7 @@ from
 *
 return
 {
-Object
+object
 }
 Simple
 object
@@ -6166,7 +6166,7 @@ window
 *
 return
 {
-Object
+object
 }
 The
 current
@@ -6368,7 +6368,7 @@ from
 *
 return
 {
-Object
+object
 }
 Dictionary
 consisting
@@ -6492,13 +6492,13 @@ value
 *
 param
 {
-Object
+object
 }
 fontStyle
 *
 return
 {
-String
+string
 }
 *
 /
@@ -6658,7 +6658,7 @@ stylePairs
 *
 return
 {
-String
+string
 }
 *
 /
@@ -6768,7 +6768,7 @@ bright
 *
 param
 {
-String
+string
 }
 cssColor
 RGB
@@ -6790,7 +6790,7 @@ b
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -6973,7 +6973,7 @@ overall
 *
 param
 {
-Object
+object
 }
 dict
 Dictionary
@@ -7308,7 +7308,7 @@ container
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -7575,7 +7575,7 @@ from
 *
 param
 {
-Object
+object
 }
 [
 dict
@@ -7922,7 +7922,7 @@ from
 *
 param
 {
-Boolean
+boolean
 }
 [
 checkIfDynamic
@@ -7955,7 +7955,7 @@ true
 *
 param
 {
-Object
+object
 }
 [
 dict
@@ -8198,7 +8198,7 @@ frame
 *
 param
 {
-Object
+object
 }
 dict
 Dictionary
@@ -8314,7 +8314,7 @@ occurrences
 *
 param
 {
-Object
+object
 }
 dict
 Dictionary
@@ -9517,7 +9517,7 @@ node
 *
 param
 {
-Object
+object
 }
 dict
 Dictionary
@@ -10029,7 +10029,7 @@ in
 *
 param
 {
-Boolean
+boolean
 }
 [
 paintContent
@@ -10756,7 +10756,7 @@ operations
 *
 param
 {
-Object
+object
 }
 dict
 Dictionary
@@ -10772,7 +10772,7 @@ window
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -10874,7 +10874,7 @@ window
 *
 param
 {
-Object
+object
 }
 options
 Dictionary

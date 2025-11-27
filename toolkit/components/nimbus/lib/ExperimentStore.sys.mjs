@@ -558,7 +558,7 @@ type
 *
 returns
 {
-Object
+object
 [
 ]
 }

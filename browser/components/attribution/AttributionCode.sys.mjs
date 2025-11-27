@@ -700,7 +700,7 @@ file
 *
 param
 {
-String
+string
 }
 code
 to

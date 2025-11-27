@@ -3302,7 +3302,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 activeStreams

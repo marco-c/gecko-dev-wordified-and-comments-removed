@@ -2080,13 +2080,13 @@ event
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-String
+string
 }
 [
 options

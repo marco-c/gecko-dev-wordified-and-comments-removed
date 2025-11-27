@@ -3463,7 +3463,7 @@ LoginFormFactory
 *
 returns
 {
-Boolean
+boolean
 }
 whether
 the
@@ -4903,7 +4903,7 @@ check
 *
 param
 {
-Object
+object
 }
 recipe
 =
@@ -5147,7 +5147,7 @@ in
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -5190,7 +5190,7 @@ useful
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -6090,7 +6090,7 @@ recipes
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -6117,7 +6117,7 @@ element
 *
 return
 {
-Object
+object
 }
 {
 usernameField
@@ -7951,7 +7951,7 @@ verify
 *
 returns
 {
-Object
+object
 }
 an
 object
@@ -9355,7 +9355,7 @@ for
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -14161,7 +14161,7 @@ element
 *
 returns
 {
-Boolean
+boolean
 }
 whether
 the
@@ -16542,7 +16542,7 @@ filled
 *
 param
 {
-Object
+object
 }
 [
 options

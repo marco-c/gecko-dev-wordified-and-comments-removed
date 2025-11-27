@@ -9501,7 +9501,7 @@ located
 *
 param
 {
-Object
+object
 }
 [
 aOptions
@@ -9562,7 +9562,7 @@ param
 {
 string
 |
-Object
+object
 }
 [
 aOptions
@@ -9652,7 +9652,7 @@ on
 *
 param
 {
-Object
+object
 }
 [
 aOptions
@@ -10314,7 +10314,7 @@ aInstallingPrincipal
 *
 param
 {
-String
+string
 }
 aSitePerm
 *
@@ -14960,7 +14960,7 @@ scale
 *
 return
 {
-String
+string
 }
 The
 absolute
@@ -17123,7 +17123,7 @@ install
 *
 param
 {
-Object
+object
 }
 info
 information
@@ -25615,7 +25615,7 @@ string
 *
 param
 {
-String
+string
 }
 aString
 The
@@ -25658,7 +25658,7 @@ string
 *
 return
 {
-String
+string
 }
 The
 substring
@@ -25728,9 +25728,9 @@ value
 *
 return
 {
-Boolean
+boolean
 |
-Object
+object
 }
 If
 aValue
@@ -29785,7 +29785,7 @@ from
 *
 returns
 {
-Object
+object
 |
 null
 }

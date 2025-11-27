@@ -2843,7 +2843,7 @@ type
 Record
 <
 Phase
-Number
+number
 >
 }
 *
@@ -2972,7 +2972,7 @@ type
 Record
 <
 Phase
-Number
+number
 >
 }
 *

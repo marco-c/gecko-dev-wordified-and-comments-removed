@@ -5370,7 +5370,7 @@ remove
 *
 param
 {
-Boolean
+boolean
 }
 [
 isCancel

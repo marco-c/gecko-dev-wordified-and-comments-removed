@@ -1105,7 +1105,7 @@ i
 *
 param
 {
-String
+string
 }
 aType
 The
@@ -1117,7 +1117,7 @@ ping
 *
 param
 {
-Object
+object
 }
 aPayload
 The
@@ -1131,7 +1131,7 @@ ping
 *
 param
 {
-Object
+object
 }
 [
 aOptions
@@ -1142,7 +1142,7 @@ object
 *
 param
 {
-Boolean
+boolean
 }
 [
 aOptions
@@ -1167,7 +1167,7 @@ otherwise
 *
 param
 {
-Boolean
+boolean
 }
 [
 aOptions
@@ -1190,7 +1190,7 @@ data
 *
 param
 {
-Object
+object
 }
 [
 aOptions
@@ -1209,7 +1209,7 @@ data
 *
 param
 {
-Boolean
+boolean
 }
 [
 aOptions
@@ -1230,7 +1230,7 @@ PingSender
 *
 param
 {
-String
+string
 }
 [
 aOptions
@@ -1261,7 +1261,7 @@ true
 *
 param
 {
-String
+string
 }
 [
 aOptions
@@ -1456,7 +1456,7 @@ disk
 *
 param
 {
-String
+string
 }
 aType
 The
@@ -1468,7 +1468,7 @@ ping
 *
 param
 {
-Object
+object
 }
 aPayload
 The
@@ -1482,7 +1482,7 @@ ping
 *
 param
 {
-Object
+object
 }
 [
 aOptions
@@ -1493,7 +1493,7 @@ object
 *
 param
 {
-Boolean
+boolean
 }
 [
 aOptions
@@ -1518,7 +1518,7 @@ otherwise
 *
 param
 {
-Boolean
+boolean
 }
 [
 aOptions
@@ -1541,7 +1541,7 @@ data
 *
 param
 {
-Boolean
+boolean
 }
 [
 aOptions
@@ -1565,7 +1565,7 @@ found
 *
 param
 {
-Object
+object
 }
 [
 aOptions
@@ -1584,7 +1584,7 @@ data
 *
 param
 {
-String
+string
 }
 [
 aOptions
@@ -1615,7 +1615,7 @@ true
 *
 param
 {
-String
+string
 }
 [
 aOptions
@@ -1809,7 +1809,7 @@ pings
 *
 param
 {
-Object
+object
 }
 aPayload
 The
@@ -2693,7 +2693,7 @@ specification
 *
 param
 {
-String
+string
 }
 aType
 The
@@ -2705,7 +2705,7 @@ ping
 *
 param
 {
-Object
+object
 }
 aPayload
 The
@@ -2719,7 +2719,7 @@ ping
 *
 param
 {
-Object
+object
 }
 aOptions
 Options
@@ -2728,7 +2728,7 @@ object
 *
 param
 {
-Boolean
+boolean
 }
 aOptions
 .
@@ -2749,7 +2749,7 @@ otherwise
 *
 param
 {
-Boolean
+boolean
 }
 aOptions
 .
@@ -2768,7 +2768,7 @@ data
 *
 param
 {
-Object
+object
 }
 [
 aOptions
@@ -2787,7 +2787,7 @@ data
 *
 param
 {
-String
+string
 }
 [
 aOptions
@@ -2818,7 +2818,7 @@ true
 *
 param
 {
-String
+string
 }
 [
 aOptions
@@ -2850,7 +2850,7 @@ true
 *
 returns
 {
-Object
+object
 }
 An
 object
@@ -3215,7 +3215,7 @@ locally
 *
 param
 {
-String
+string
 }
 aType
 The
@@ -3227,7 +3227,7 @@ ping
 *
 param
 {
-Object
+object
 }
 aPayload
 The
@@ -3241,7 +3241,7 @@ ping
 *
 param
 {
-Object
+object
 }
 [
 aOptions
@@ -3252,7 +3252,7 @@ object
 *
 param
 {
-Boolean
+boolean
 }
 [
 aOptions
@@ -3277,7 +3277,7 @@ otherwise
 *
 param
 {
-Boolean
+boolean
 }
 [
 aOptions
@@ -3300,7 +3300,7 @@ data
 *
 param
 {
-Object
+object
 }
 [
 aOptions
@@ -3319,7 +3319,7 @@ data
 *
 param
 {
-Boolean
+boolean
 }
 [
 aOptions
@@ -3340,7 +3340,7 @@ PingSender
 *
 param
 {
-String
+string
 }
 [
 aOptions
@@ -3371,7 +3371,7 @@ true
 *
 param
 {
-String
+string
 }
 [
 aOptions
@@ -3784,7 +3784,7 @@ Telemetry
 *
 param
 {
-String
+string
 }
 aType
 The
@@ -3796,7 +3796,7 @@ ping
 *
 param
 {
-Object
+object
 }
 aPayload
 The
@@ -3810,7 +3810,7 @@ ping
 *
 param
 {
-Object
+object
 }
 [
 aOptions
@@ -3821,7 +3821,7 @@ object
 *
 param
 {
-Boolean
+boolean
 }
 [
 aOptions
@@ -3846,7 +3846,7 @@ otherwise
 *
 param
 {
-Boolean
+boolean
 }
 [
 aOptions
@@ -3869,7 +3869,7 @@ data
 *
 param
 {
-Object
+object
 }
 [
 aOptions
@@ -3888,7 +3888,7 @@ data
 *
 param
 {
-Boolean
+boolean
 }
 [
 aOptions
@@ -3909,7 +3909,7 @@ PingSender
 *
 param
 {
-String
+string
 }
 [
 aOptions
@@ -3940,7 +3940,7 @@ true
 *
 param
 {
-String
+string
 }
 [
 aOptions
@@ -4321,7 +4321,7 @@ disk
 *
 param
 {
-String
+string
 }
 aType
 The
@@ -4333,7 +4333,7 @@ ping
 *
 param
 {
-Object
+object
 }
 aPayload
 The
@@ -4347,7 +4347,7 @@ ping
 *
 param
 {
-Object
+object
 }
 aOptions
 Options
@@ -4356,7 +4356,7 @@ object
 *
 param
 {
-Boolean
+boolean
 }
 aOptions
 .
@@ -4377,7 +4377,7 @@ otherwise
 *
 param
 {
-Boolean
+boolean
 }
 aOptions
 .
@@ -4396,7 +4396,7 @@ data
 *
 param
 {
-Boolean
+boolean
 }
 aOptions
 .
@@ -4415,7 +4415,7 @@ found
 *
 param
 {
-Object
+object
 }
 [
 aOptions
@@ -4434,7 +4434,7 @@ data
 *
 param
 {
-String
+string
 }
 [
 aOptions
@@ -4465,7 +4465,7 @@ true
 *
 param
 {
-String
+string
 }
 [
 aOptions
@@ -4877,7 +4877,7 @@ pings
 *
 param
 {
-Object
+object
 }
 aPayload
 The

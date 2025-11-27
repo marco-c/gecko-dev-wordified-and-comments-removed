@@ -608,7 +608,7 @@ param
 {
 object
 |
-String
+string
 }
 data
 The
@@ -632,7 +632,7 @@ information
 *
 param
 {
-String
+string
 }
 signaturePayload
 .
@@ -644,7 +644,7 @@ URL
 *
 param
 {
-String
+string
 }
 signaturePayload
 .
@@ -655,7 +655,7 @@ bytes
 *
 param
 {
-String
+string
 }
 type
 The
@@ -995,7 +995,7 @@ up
 *
 resolves
 {
-Object
+object
 }
 *
 /

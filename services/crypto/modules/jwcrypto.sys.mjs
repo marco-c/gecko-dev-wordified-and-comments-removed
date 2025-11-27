@@ -209,7 +209,7 @@ ES
 *
 param
 {
-Object
+object
 }
 key
 Peer
@@ -275,7 +275,7 @@ returns
 {
 Promise
 <
-String
+string
 >
 }
 *
@@ -1351,7 +1351,7 @@ publicKey
 *
 param
 {
-String
+string
 [
 ]
 }

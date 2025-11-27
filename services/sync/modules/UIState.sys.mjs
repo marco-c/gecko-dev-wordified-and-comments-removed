@@ -62,7 +62,7 @@ MPL
 *
 typedef
 {
-Object
+object
 }
 UIState
 *

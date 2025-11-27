@@ -1531,7 +1531,7 @@ URL
 *
 param
 {
-String
+string
 }
 url
 The
@@ -1546,7 +1546,7 @@ for
 *
 return
 {
-Object
+object
 |
 null
 }
@@ -2068,7 +2068,7 @@ maintained
 *
 param
 {
-String
+string
 }
 url
 The
@@ -2083,7 +2083,7 @@ for
 *
 param
 {
-Object
+object
 }
 metadata
 The
@@ -2536,7 +2536,7 @@ progress
 *
 type
 {
-Boolean
+boolean
 }
 *
 /
@@ -2561,7 +2561,7 @@ downloads
 *
 type
 {
-Boolean
+boolean
 }
 *
 /
@@ -2643,7 +2643,7 @@ paused
 *
 type
 {
-Boolean
+boolean
 }
 *
 /
@@ -4081,7 +4081,7 @@ downloads
 *
 type
 {
-Number
+number
 }
 *
 /
@@ -4194,7 +4194,7 @@ changes
 *
 param
 {
-String
+string
 }
 sourceUrl
 The
@@ -4206,7 +4206,7 @@ updated
 *
 param
 {
-Object
+object
 }
 metaData
 The

@@ -223,7 +223,7 @@ mjs
 *
 typedef
 {
-Object
+object
 }
 SettingNestedConfig
 *
@@ -277,7 +277,7 @@ though
 *
 typedef
 {
-Object
+object
 }
 SettingOptionConfigExtensions
 *
@@ -325,7 +325,7 @@ option
 *
 typedef
 {
-Object
+object
 }
 SettingControlConfigExtensions
 *

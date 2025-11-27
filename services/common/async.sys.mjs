@@ -1505,7 +1505,7 @@ quitting
 *
 type
 {
-String
+string
 ?
 }
 *
@@ -1591,7 +1591,7 @@ quitting
 *
 param
 {
-Number
+number
 }
 delay
 *

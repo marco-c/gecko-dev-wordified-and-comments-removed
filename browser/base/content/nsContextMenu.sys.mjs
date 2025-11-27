@@ -14097,7 +14097,7 @@ param
 {
 Element
 |
-String
+string
 }
 aItemOrId
 The
@@ -14116,7 +14116,7 @@ show
 *
 param
 {
-Boolean
+boolean
 }
 aShow
 Set
@@ -14587,7 +14587,7 @@ stripped
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -14663,7 +14663,7 @@ webpage
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /

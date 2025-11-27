@@ -1590,7 +1590,7 @@ necessary
 *
 param
 {
-Object
+object
 }
 eventData
 *

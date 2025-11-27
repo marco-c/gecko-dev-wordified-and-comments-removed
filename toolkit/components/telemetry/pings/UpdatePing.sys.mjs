@@ -365,7 +365,7 @@ system
 *
 param
 {
-String
+string
 }
 aPreviousVersion
 The
@@ -378,7 +378,7 @@ from
 *
 param
 {
-String
+string
 }
 aPreviousBuildId
 The
@@ -392,7 +392,7 @@ from
 *
 param
 {
-String
+string
 }
 progress
 An
@@ -773,7 +773,7 @@ system
 *
 param
 {
-String
+string
 }
 aUpdateState
 The

@@ -94,7 +94,7 @@ return
 {
 Promise
 <
-Boolean
+boolean
 >
 }
 *

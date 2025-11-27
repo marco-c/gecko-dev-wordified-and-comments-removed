@@ -4883,7 +4883,7 @@ application
 *
 param
 {
-Object
+object
 }
 params
 *
@@ -5980,7 +5980,7 @@ started
 *
 param
 {
-Object
+object
 }
 params
 *
@@ -6255,7 +6255,7 @@ to
 *
 param
 {
-Object
+object
 }
 files
 *
@@ -6987,7 +6987,7 @@ completes
 *
 param
 {
-Object
+object
 }
 data
 *
@@ -8994,7 +8994,7 @@ application
 *
 param
 {
-Object
+object
 }
 [
 installTelemetryInfo
@@ -10625,7 +10625,7 @@ check
 *
 param
 {
-Object
+object
 }
 expectedInstallInfo
 *
@@ -11562,7 +11562,7 @@ returns
 {
 Array
 <
-Object
+object
 >
 }
 *

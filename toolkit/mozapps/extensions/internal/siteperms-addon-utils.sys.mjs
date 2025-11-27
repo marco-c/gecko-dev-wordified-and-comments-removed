@@ -309,7 +309,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 permissionTypes
@@ -385,7 +385,7 @@ principal
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /

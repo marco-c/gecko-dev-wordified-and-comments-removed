@@ -798,7 +798,7 @@ returns
 {
 Promise
 <
-String
+string
 >
 }
 Resolves
@@ -1246,7 +1246,7 @@ button
 *
 param
 {
-String
+string
 }
 buttonToFocus
 *

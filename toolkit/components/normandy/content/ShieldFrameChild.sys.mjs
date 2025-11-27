@@ -893,7 +893,7 @@ page
 *
 param
 {
-String
+string
 }
 type
 The
@@ -906,7 +906,7 @@ trigger
 *
 param
 {
-Object
+object
 }
 detail
 The

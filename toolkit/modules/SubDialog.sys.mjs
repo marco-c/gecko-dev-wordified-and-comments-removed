@@ -230,7 +230,7 @@ parentElement
 *
 param
 {
-String
+string
 }
 id
 -
@@ -244,7 +244,7 @@ dialog
 *
 param
 {
-Object
+object
 }
 dialogOptions
 -
@@ -255,7 +255,7 @@ object
 *
 param
 {
-String
+string
 [
 ]
 }
@@ -282,7 +282,7 @@ frame
 *
 param
 {
-Boolean
+boolean
 }
 [
 consumeOutsideClicks
@@ -4651,7 +4651,7 @@ vary
 *
 param
 {
-String
+string
 }
 val
 *
@@ -4663,7 +4663,7 @@ value
 *
 return
 {
-String
+string
 }
 The
 converted
@@ -5457,7 +5457,7 @@ listeners
 *
 param
 {
-Boolean
+boolean
 }
 [
 includeLoad
@@ -5792,7 +5792,7 @@ listeners
 *
 param
 {
-Boolean
+boolean
 }
 [
 includeLoad
@@ -6419,7 +6419,7 @@ SubDialogManager
 *
 param
 {
-Object
+object
 }
 options
 -
@@ -6469,7 +6469,7 @@ dialogs
 *
 param
 {
-Number
+number
 }
 [
 options
@@ -6493,7 +6493,7 @@ queue
 *
 param
 {
-Boolean
+boolean
 }
 [
 options
@@ -6541,7 +6541,7 @@ op
 *
 param
 {
-Object
+object
 }
 options
 .

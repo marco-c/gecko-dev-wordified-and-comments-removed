@@ -2905,7 +2905,7 @@ types
 *
 param
 {
-Object
+object
 }
 addon
 The
@@ -3646,7 +3646,7 @@ json
 *
 returns
 {
-Object
+object
 }
 *
 /
@@ -4983,7 +4983,7 @@ json
 *
 returns
 {
-Object
+object
 }
 *
 /
@@ -6265,10 +6265,10 @@ builtin
 {
 addon_version
 :
-String
+string
 res_url
 :
-String
+string
 }
 }
 >
@@ -7809,7 +7809,7 @@ ons
 *
 returns
 {
-Object
+object
 }
 *
 /
@@ -8689,7 +8689,7 @@ json
 *
 returns
 {
-Object
+object
 }
 *
 /
@@ -11616,7 +11616,7 @@ on
 *
 param
 {
-Object
+object
 }
 addon
 *
@@ -11747,7 +11747,7 @@ created
 *
 param
 {
-Object
+object
 }
 addon
 *
@@ -11902,7 +11902,7 @@ null
 *
 returns
 {
-Object
+object
 |
 null
 }
@@ -11992,7 +11992,7 @@ method
 *
 param
 {
-Object
+object
 }
 [
 aExtraParams
@@ -13100,7 +13100,7 @@ call
 *
 param
 {
-Object
+object
 }
 [
 aExtraParams
@@ -13301,7 +13301,7 @@ call
 *
 param
 {
-Object
+object
 }
 [
 aExtraParams
@@ -13419,7 +13419,7 @@ call
 *
 param
 {
-Object
+object
 }
 [
 aExtraParams
@@ -13595,7 +13595,7 @@ method
 *
 param
 {
-Object
+object
 }
 [
 extraArgs
@@ -13792,7 +13792,7 @@ calls
 *
 param
 {
-Object
+object
 }
 [
 extraArgs
@@ -18443,7 +18443,7 @@ uninstalled
 *
 param
 {
-Object
+object
 }
 aManifests
 *
@@ -18922,7 +18922,7 @@ on
 *
 param
 {
-Object
+object
 }
 aManifests
 *

@@ -1048,7 +1048,7 @@ true
 *
 param
 {
-Object
+object
 }
 options
 -
@@ -1483,7 +1483,7 @@ function
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1832,7 +1832,7 @@ window
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -1890,7 +1890,7 @@ window
 *
 param
 {
-String
+string
 }
 [
 options
@@ -2534,7 +2534,7 @@ returning
 *
 param
 {
-Object
+object
 }
 [
 options

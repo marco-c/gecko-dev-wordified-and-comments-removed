@@ -584,7 +584,7 @@ db
 *
 param
 {
-String
+string
 }
 mode
 Either

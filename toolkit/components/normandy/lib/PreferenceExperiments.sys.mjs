@@ -201,7 +201,7 @@ experiment
 *
 typedef
 {
-Object
+object
 }
 Experiment
 *
@@ -402,7 +402,7 @@ unenrollment
 *
 property
 {
-Object
+object
 }
 preferences
 *
@@ -946,7 +946,7 @@ branch
 *
 enum
 {
-Object
+object
 }
 *
 /
@@ -2197,7 +2197,7 @@ experiment
 *
 param
 {
-Object
+object
 }
 experiment
 *
@@ -3649,7 +3649,7 @@ experimentSlug
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -4300,7 +4300,7 @@ experimentSlug
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -4339,7 +4339,7 @@ true
 *
 param
 {
-String
+string
 }
 [
 options

@@ -158,7 +158,7 @@ store
 *
 param
 {
-String
+string
 }
 source
 the
@@ -176,7 +176,7 @@ sync
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -270,7 +270,7 @@ maximum
 *
 param
 {
-String
+string
 }
 etag
 the
@@ -289,7 +289,7 @@ eg
 *
 param
 {
-String
+string
 }
 status
 the
@@ -305,7 +305,7 @@ success
 *
 param
 {
-Object
+object
 }
 infos
 optional
@@ -511,7 +511,7 @@ returns
 {
 Array
 <
-Object
+object
 >
 }
 a
@@ -848,7 +848,7 @@ profile
 *
 returns
 {
-Object
+object
 }
 the
 underlying

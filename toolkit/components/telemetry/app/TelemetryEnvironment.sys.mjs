@@ -785,7 +785,7 @@ throttling
 *
 param
 {
-String
+string
 }
 id
 The
@@ -798,7 +798,7 @@ experiment
 *
 param
 {
-String
+string
 }
 branch
 The
@@ -808,7 +808,7 @@ branch
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -821,7 +821,7 @@ options
 *
 param
 {
-String
+string
 }
 [
 options
@@ -838,7 +838,7 @@ type
 *
 param
 {
-String
+string
 }
 [
 options
@@ -922,7 +922,7 @@ triggered
 *
 param
 {
-String
+string
 }
 id
 The
@@ -4088,7 +4088,7 @@ string
 *
 param
 {
-String
+string
 }
 aString
 The
@@ -4131,7 +4131,7 @@ string
 *
 return
 {
-String
+string
 }
 The
 substring

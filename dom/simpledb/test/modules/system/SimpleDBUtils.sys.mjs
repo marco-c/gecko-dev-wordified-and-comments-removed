@@ -155,7 +155,7 @@ connection
 *
 param
 {
-Object
+object
 }
 request
 *

@@ -4991,7 +4991,7 @@ device
 *
 param
 {
-Object
+object
 [
 ]
 }

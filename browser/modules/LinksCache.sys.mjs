@@ -248,7 +248,7 @@ access
 *
 param
 {
-array
+Array
 }
 properties
 Optional

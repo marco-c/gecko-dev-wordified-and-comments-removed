@@ -128,7 +128,7 @@ getLogger
 *
 param
 {
-Number
+number
 }
 loggingLevel
 *
@@ -215,7 +215,7 @@ parent
 *
 param
 {
-String
+string
 }
 name
 *

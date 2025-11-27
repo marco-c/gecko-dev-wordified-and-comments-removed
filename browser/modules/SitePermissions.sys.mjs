@@ -500,7 +500,7 @@ from
 *
 returns
 {
-Object
+object
 }
 keys
 -
@@ -1780,7 +1780,7 @@ for
 *
 param
 {
-Number
+number
 }
 [
 filterState
@@ -3594,7 +3594,7 @@ return
 {
 Array
 <
-Object
+object
 >
 }
 a
@@ -3902,7 +3902,7 @@ return
 {
 Array
 <
-String
+string
 >
 }
 an
@@ -4557,7 +4557,7 @@ check
 *
 param
 {
-String
+string
 }
 permissionID
 *
@@ -4589,7 +4589,7 @@ permissions
 *
 return
 {
-Object
+object
 }
 an
 object
@@ -5100,7 +5100,7 @@ for
 *
 param
 {
-String
+string
 }
 permissionID
 The
@@ -5721,7 +5721,7 @@ for
 *
 param
 {
-String
+string
 }
 permissionID
 *
@@ -6085,7 +6085,7 @@ key
 *
 return
 {
-String
+string
 }
 the
 localized
@@ -6320,7 +6320,7 @@ for
 *
 return
 {
-String
+string
 |
 null
 }
@@ -6563,7 +6563,7 @@ for
 *
 return
 {
-String
+string
 |
 null
 }

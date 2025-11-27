@@ -9330,7 +9330,7 @@ queueSync
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -9338,7 +9338,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 [
@@ -9354,7 +9354,7 @@ sync
 *
 param
 {
-String
+string
 }
 [
 options
@@ -9753,7 +9753,7 @@ idle
 *
 param
 {
-String
+string
 }
 why
 reason
@@ -10285,7 +10285,7 @@ record
 *
 param
 {
-Number
+number
 }
 lastModified
 known

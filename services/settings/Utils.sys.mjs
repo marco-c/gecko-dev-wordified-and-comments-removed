@@ -2058,13 +2058,13 @@ collection
 *
 param
 {
-String
+string
 }
 bucket
 *
 param
 {
-String
+string
 }
 collection
 *
@@ -2154,13 +2154,13 @@ dump
 *
 param
 {
-String
+string
 }
 bucket
 *
 param
 {
-String
+string
 }
 collection
 *
@@ -2473,7 +2473,7 @@ metadata
 *
 param
 {
-String
+string
 }
 serverUrl
 The
@@ -2534,7 +2534,7 @@ Bug
 *
 param
 {
-String
+string
 }
 lastEtag
 (
@@ -2564,7 +2564,7 @@ eg
 *
 param
 {
-Object
+object
 }
 filters
 *
@@ -3133,7 +3133,7 @@ filters
 *
 param
 {
-Object
+object
 }
 filters
 The
@@ -3143,7 +3143,7 @@ object
 *
 param
 {
-Object
+object
 }
 entry
 The
@@ -3154,7 +3154,7 @@ filter
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -3306,7 +3306,7 @@ ordering
 *
 param
 {
-String
+string
 }
 order
 The
@@ -3567,7 +3567,7 @@ Promise
 <
 Array
 <
-Object
+object
 >
 >
 }

@@ -551,7 +551,7 @@ unavailable
 *
 returns
 {
-Object
+object
 }
 An
 object
@@ -726,7 +726,7 @@ collectionName
 *
 returns
 {
-Object
+object
 }
 An
 object
@@ -834,7 +834,7 @@ record
 *
 param
 {
-Object
+object
 }
 record
 A
@@ -857,7 +857,7 @@ set
 *
 param
 {
-Object
+object
 }
 options
 Some
@@ -867,7 +867,7 @@ options
 *
 param
 {
-Number
+number
 }
 [
 options
@@ -889,7 +889,7 @@ default
 *
 param
 {
-Boolean
+boolean
 }
 [
 options
@@ -938,7 +938,7 @@ id
 *
 param
 {
-Boolean
+boolean
 }
 [
 options
@@ -965,7 +965,7 @@ true
 *
 param
 {
-Boolean
+boolean
 }
 [
 options
@@ -994,7 +994,7 @@ false
 *
 param
 {
-Boolean
+boolean
 }
 [
 options
@@ -1086,7 +1086,7 @@ fails
 *
 returns
 {
-Object
+object
 }
 An
 object
@@ -1180,7 +1180,7 @@ bundle
 *
 param
 {
-Boolean
+boolean
 }
 force
 Set
@@ -1198,7 +1198,7 @@ exists
 *
 returns
 {
-Boolean
+boolean
 }
 True
 if
@@ -2034,7 +2034,7 @@ outdated
 *
 param
 {
-Object
+object
 }
 record
 A
@@ -2057,7 +2057,7 @@ set
 *
 param
 {
-Object
+object
 }
 options
 Some
@@ -2067,7 +2067,7 @@ options
 *
 param
 {
-Number
+number
 }
 [
 options
@@ -2089,7 +2089,7 @@ default
 *
 param
 {
-Boolean
+boolean
 }
 [
 options
@@ -2200,7 +2200,7 @@ fails
 *
 returns
 {
-Object
+object
 }
 An
 object
@@ -3247,7 +3247,7 @@ attachment
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -3395,7 +3395,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 excludeIds
@@ -3446,7 +3446,7 @@ bytes
 *
 param
 {
-Object
+object
 }
 record
 A
@@ -3459,7 +3459,7 @@ attachment
 *
 param
 {
-Object
+object
 }
 options
 Some
@@ -3469,7 +3469,7 @@ options
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -3489,7 +3489,7 @@ default
 *
 param
 {
-Boolean
+boolean
 }
 options
 .

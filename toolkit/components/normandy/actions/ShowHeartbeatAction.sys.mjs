@@ -966,7 +966,7 @@ userId
 *
 return
 {
-String
+string
 }
 Survey
 ID
@@ -1037,7 +1037,7 @@ recipe
 *
 return
 {
-String
+string
 }
 URL
 with

@@ -113,7 +113,7 @@ content
 *
 param
 {
-Number
+number
 }
 size
 expected
@@ -122,7 +122,7 @@ size
 *
 param
 {
-String
+string
 }
 size
 expected
@@ -285,13 +285,13 @@ collection
 *
 param
 {
-String
+string
 }
 bucket
 *
 param
 {
-String
+string
 }
 collection
 *

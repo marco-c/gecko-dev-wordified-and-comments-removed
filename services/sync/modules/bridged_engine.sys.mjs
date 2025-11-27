@@ -590,7 +590,7 @@ engine
 *
 param
 {
-String
+string
 }
 collection
 The
@@ -600,7 +600,7 @@ name
 *
 param
 {
-Object
+object
 }
 bso
 The
@@ -854,7 +854,7 @@ IncomingBso
 *
 return
 {
-Object
+object
 }
 The
 incoming
@@ -1641,7 +1641,7 @@ this
 *
 returns
 {
-String
+string
 ?
 }
 The

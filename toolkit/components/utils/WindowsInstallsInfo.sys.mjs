@@ -109,7 +109,7 @@ result
 *
 param
 {
-Number
+number
 }
 [
 limit

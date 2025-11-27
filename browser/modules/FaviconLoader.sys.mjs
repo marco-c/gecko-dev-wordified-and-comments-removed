@@ -2072,7 +2072,7 @@ size
 *
 return
 {
-Number
+number
 }
 A
 width

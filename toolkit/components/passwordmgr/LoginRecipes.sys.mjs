@@ -225,7 +225,7 @@ constructor
 *
 param
 {
-String
+string
 }
 [
 aOptions
@@ -428,7 +428,7 @@ null
 *
 type
 {
-Object
+object
 }
 Instance
 of
@@ -458,7 +458,7 @@ null
 *
 param
 {
-Object
+object
 }
 aRecipes
 an
@@ -982,7 +982,7 @@ recipes
 *
 param
 {
-Object
+object
 }
 recipe
 *
@@ -1348,7 +1348,7 @@ domains
 *
 param
 {
-String
+string
 }
 aHost
 (
@@ -1449,7 +1449,7 @@ collection
 *
 param
 {
-Object
+object
 }
 aEvent
 *
@@ -1633,7 +1633,7 @@ host
 *
 param
 {
-String
+string
 }
 aHost
 (
@@ -1662,7 +1662,7 @@ com
 *
 param
 {
-Object
+object
 }
 win
 -
@@ -1771,7 +1771,7 @@ use
 *
 param
 {
-String
+string
 }
 aHost
 (
@@ -1800,7 +1800,7 @@ com
 *
 param
 {
-Object
+object
 }
 win
 -
@@ -2166,7 +2166,7 @@ exist
 *
 return
 {
-Object
+object
 }
 The
 recipe

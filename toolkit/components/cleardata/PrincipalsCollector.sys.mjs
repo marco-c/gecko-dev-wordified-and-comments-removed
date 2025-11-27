@@ -573,7 +573,7 @@ changed
 *
 param
 {
-Object
+object
 }
 [
 optional

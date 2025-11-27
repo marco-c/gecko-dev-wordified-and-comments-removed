@@ -1652,7 +1652,7 @@ format
 *
 param
 {
-Object
+object
 }
 options
 *

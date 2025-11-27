@@ -1720,7 +1720,7 @@ serialize
 *
 return
 {
-String
+string
 }
 The
 base64
@@ -1815,7 +1815,7 @@ serializeCSP
 *
 param
 {
-String
+string
 }
 csp_b64
 A
@@ -1933,7 +1933,7 @@ serialize
 *
 return
 {
-String
+string
 }
 The
 base64
@@ -2028,7 +2028,7 @@ serializePolicyContainer
 *
 param
 {
-String
+string
 }
 policyContainerB64
 A
@@ -3634,7 +3634,7 @@ serialize
 *
 return
 {
-String
+string
 }
 The
 serialized
@@ -3722,7 +3722,7 @@ serializePrincipal
 *
 param
 {
-String
+string
 }
 serializedPincipal
 A
@@ -4103,7 +4103,7 @@ serialize
 *
 return
 {
-String
+string
 }
 The
 base64
@@ -4188,7 +4188,7 @@ cookieJarSettings
 *
 param
 {
-String
+string
 }
 cookieJarSettings_b64
 A
@@ -4338,7 +4338,7 @@ serialize
 *
 return
 {
-String
+string
 }
 The
 base64
@@ -4422,7 +4422,7 @@ referrerInfo
 *
 param
 {
-String
+string
 }
 referrerInfo_b64
 A

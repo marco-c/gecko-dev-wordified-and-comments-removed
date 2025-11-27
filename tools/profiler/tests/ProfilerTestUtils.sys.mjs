@@ -327,7 +327,7 @@ function
 *
 param
 {
-Object
+object
 }
 callersSettings
 The
@@ -597,7 +597,7 @@ subprocesses
 *
 param
 {
-Object
+object
 }
 profile
 The
@@ -756,7 +756,7 @@ thread
 *
 param
 {
-Object
+object
 }
 thread
 The
@@ -880,7 +880,7 @@ marker
 *
 param
 {
-Object
+object
 }
 thread
 The
@@ -1034,7 +1034,7 @@ tests
 *
 param
 {
-Object
+object
 }
 thread
 The
@@ -1667,7 +1667,7 @@ whitespace
 *
 param
 {
-String
+string
 }
 the
 JSON

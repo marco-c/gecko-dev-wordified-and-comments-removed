@@ -1158,7 +1158,7 @@ formOrigin
 *
 returns
 {
-Object
+object
 ?
 }
 containing
@@ -6341,7 +6341,7 @@ autoFilledLoginGuid
 *
 param
 {
-Object
+object
 }
 options
 .
@@ -6349,7 +6349,7 @@ newPasswordField
 *
 param
 {
-Object
+object
 ?
 }
 options

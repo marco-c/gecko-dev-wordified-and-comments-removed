@@ -6564,7 +6564,7 @@ fixup
 *
 param
 {
-Number
+number
 }
 fixupFlags
 The
@@ -6786,7 +6786,7 @@ URI
 *
 param
 {
-Number
+number
 }
 fixupFlags
 The
@@ -8813,7 +8813,7 @@ oldHost
 *
 return
 {
-String
+string
 }
 Fixed
 up

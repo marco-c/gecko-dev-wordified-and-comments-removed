@@ -1251,7 +1251,7 @@ Settings
 *
 param
 {
-Object
+object
 }
 options
 additional

@@ -630,7 +630,7 @@ not
 *
 returns
 {
-array
+Array
 }
 *
 An

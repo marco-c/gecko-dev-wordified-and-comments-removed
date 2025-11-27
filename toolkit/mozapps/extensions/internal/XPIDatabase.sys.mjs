@@ -1448,7 +1448,7 @@ to
 *
 returns
 {
-Object
+object
 }
 *
 The
@@ -2059,7 +2059,7 @@ origin
 *
 param
 {
-Object
+object
 }
 origins
 Object
@@ -4373,7 +4373,7 @@ information
 *
 param
 {
-Object
+object
 }
 aObj
 *
@@ -10835,7 +10835,7 @@ structure
 *
 returns
 {
-Object
+object
 }
 *
 /
@@ -16840,7 +16840,7 @@ updated
 *
 param
 {
-Object
+object
 }
 aProperties
 *
@@ -17310,7 +17310,7 @@ update
 *
 param
 {
-Object
+object
 }
 properties
 -
@@ -18477,7 +18477,7 @@ param
 {
 Map
 <
-String
+string
 AddonInternal
 >
 }
@@ -18693,7 +18693,7 @@ param
 {
 Map
 <
-String
+string
 AddonInternal
 >
 }
@@ -21806,7 +21806,7 @@ loaded
 *
 param
 {
-Object
+object
 }
 aManifests
 *

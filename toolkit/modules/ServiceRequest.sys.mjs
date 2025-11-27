@@ -607,7 +607,7 @@ XMLHttpRequest
 *
 param
 {
-Object
+object
 }
 options
 -
@@ -669,7 +669,7 @@ async
 *
 param
 {
-String
+string
 }
 method
 -
@@ -688,7 +688,7 @@ GET
 *
 param
 {
-String
+string
 }
 url
 -
@@ -699,7 +699,7 @@ open
 *
 param
 {
-Object
+object
 }
 options
 -

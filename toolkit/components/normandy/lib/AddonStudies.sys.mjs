@@ -62,13 +62,13 @@ MPL
 *
 typedef
 {
-Object
+object
 }
 Study
 *
 property
 {
-Number
+number
 }
 recipeId
 *
@@ -94,7 +94,7 @@ study
 *
 property
 {
-Number
+number
 }
 slug
 *
@@ -681,7 +681,7 @@ db
 *
 param
 {
-String
+string
 }
 mode
 Either
@@ -1755,13 +1755,13 @@ ID
 *
 param
 {
-Number
+number
 }
 recipeId
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -1816,7 +1816,7 @@ storage
 *
 param
 {
-Number
+number
 }
 recipeId
 *
@@ -2591,7 +2591,7 @@ study
 *
 param
 {
-String
+string
 }
 reason
 Why

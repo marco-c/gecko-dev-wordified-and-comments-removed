@@ -298,7 +298,7 @@ IndexedDB
 *
 param
 {
-Object
+object
 }
 profileInfo
 *
@@ -826,7 +826,7 @@ returns
 {
 Promise
 <
-Object
+object
 |
 null
 >

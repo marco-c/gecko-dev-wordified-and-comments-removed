@@ -787,7 +787,7 @@ value
 *
 param
 {
-Object
+object
 }
 entry
 The
@@ -804,7 +804,7 @@ kept
 returns
 {
 ?
-Object
+object
 }
 the
 entry
@@ -1073,7 +1073,7 @@ constructor
 *
 param
 {
-String
+string
 }
 collectionName
 The
@@ -1083,7 +1083,7 @@ identifier
 *
 param
 {
-Object
+object
 }
 options
 Advanced
@@ -2357,7 +2357,7 @@ mechanism
 *
 param
 {
-Object
+object
 }
 options
 .
@@ -4300,7 +4300,7 @@ collections
 *
 param
 {
-Object
+object
 }
 options
 *

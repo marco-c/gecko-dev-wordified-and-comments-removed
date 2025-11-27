@@ -2460,7 +2460,7 @@ shortcut
 *
 param
 {
-Object
+object
 }
 win
 The

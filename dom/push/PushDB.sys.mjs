@@ -1243,7 +1243,7 @@ origin
 *
 param
 {
-String
+string
 }
 origin
 The
@@ -1259,7 +1259,7 @@ scope
 *
 param
 {
-String
+string
 }
 originAttributes
 Additional
@@ -2126,7 +2126,7 @@ registration
 *
 param
 {
-String
+string
 }
 aKeyID
 The

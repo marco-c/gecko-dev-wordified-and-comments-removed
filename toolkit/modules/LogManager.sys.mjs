@@ -1013,7 +1013,7 @@ policies
 *
 param
 {
-Object
+object
 }
 fomatter
 A
@@ -1468,7 +1468,7 @@ created
 *
 param
 {
-String
+string
 }
 outputFileName
 the

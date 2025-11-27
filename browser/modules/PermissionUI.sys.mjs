@@ -4408,7 +4408,7 @@ err
 *
 returns
 {
-String
+string
 }
 The
 error
@@ -7915,7 +7915,7 @@ err
 *
 returns
 {
-String
+string
 }
 *
 /

@@ -251,13 +251,13 @@ manifest
 *
 param
 {
-Object
+object
 }
 aOptions
 *
 param
 {
-Boolean
+boolean
 }
 aOptions
 .
@@ -284,7 +284,7 @@ return
 {
 Promise
 <
-Object
+object
 >
 }
 The
@@ -429,13 +429,13 @@ manifest
 *
 param
 {
-Object
+object
 }
 aOptions
 *
 param
 {
-Boolean
+boolean
 }
 aOptions
 .
@@ -462,7 +462,7 @@ return
 {
 Promise
 <
-Object
+object
 >
 }
 The
@@ -790,7 +790,7 @@ return
 {
 Promise
 <
-Object
+object
 >
 }
 The
@@ -963,7 +963,7 @@ return
 {
 Promise
 <
-Object
+object
 >
 }
 *

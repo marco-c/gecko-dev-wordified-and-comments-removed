@@ -261,7 +261,7 @@ description
 *
 property
 {
-array
+Array
 }
 options
 -

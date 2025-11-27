@@ -613,7 +613,7 @@ applied
 *
 property
 {
-Object
+object
 }
 context
 *

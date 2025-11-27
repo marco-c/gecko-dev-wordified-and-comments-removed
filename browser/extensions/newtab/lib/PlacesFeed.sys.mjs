@@ -2579,7 +2579,7 @@ blocklist
 *
 param
 {
-array
+Array
 }
 urls
 *
@@ -2718,7 +2718,7 @@ service
 *
 param
 {
-array
+Array
 }
 block_key
 *

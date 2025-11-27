@@ -95,7 +95,7 @@ mjs
 *
 typedef
 {
-Object
+object
 }
 FeatureCalloutOptions
 *
@@ -118,11 +118,11 @@ property
 {
 name
 :
-String
+string
 defaultValue
 ?
 :
-String
+string
 }
 }
 [
@@ -198,7 +198,7 @@ optional
 *
 property
 {
-String
+string
 }
 [
 location
@@ -338,7 +338,7 @@ FeatureCalloutTheme
 *
 typedef
 {
-Object
+object
 }
 FeatureCalloutItem
 *
@@ -367,7 +367,7 @@ callback
 *
 property
 {
-Boolean
+boolean
 }
 showing
 whether
@@ -625,7 +625,7 @@ trigger
 *
 param
 {
-Object
+object
 }
 message
 feature_callout
@@ -648,7 +648,7 @@ returns
 {
 Promise
 <
-Boolean
+boolean
 >
 }
 whether
@@ -1238,7 +1238,7 @@ config
 *
 param
 {
-Object
+object
 }
 message
 feature_callout
@@ -1544,7 +1544,7 @@ break
 *
 returns
 {
-Boolean
+boolean
 }
 whether
 a

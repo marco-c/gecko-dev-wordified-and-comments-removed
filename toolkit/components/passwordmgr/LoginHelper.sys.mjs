@@ -2600,7 +2600,7 @@ no_change
 *
 returns
 {
-Object
+object
 [
 ]
 }
@@ -4433,7 +4433,7 @@ properties
 *
 param
 {
-Object
+object
 }
 aProperties
 *
@@ -4607,7 +4607,7 @@ instead
 *
 param
 {
-Object
+object
 }
 aSearchOptions
 -
@@ -4818,7 +4818,7 @@ form
 *
 param
 {
-String
+string
 }
 aLoginOrigin
 -
@@ -4840,7 +4840,7 @@ properties
 *
 param
 {
-String
+string
 }
 aSearchOrigin
 -
@@ -8350,7 +8350,7 @@ check
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -8378,7 +8378,7 @@ element
 *
 returns
 {
-Boolean
+boolean
 }
 true
 if
@@ -8450,7 +8450,7 @@ check
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -8478,7 +8478,7 @@ element
 *
 returns
 {
-Boolean
+boolean
 }
 true
 if
@@ -9074,7 +9074,7 @@ ones
 *
 param
 {
-Object
+object
 [
 ]
 }
@@ -9094,7 +9094,7 @@ added
 *
 returns
 {
-Object
+object
 [
 ]
 }

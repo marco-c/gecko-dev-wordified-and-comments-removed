@@ -286,7 +286,7 @@ field
 param
 field
 {
-String
+string
 }
 The
 name
@@ -302,7 +302,7 @@ removed
 *
 returns
 {
-String
+string
 }
 the
 field
@@ -383,7 +383,7 @@ object
 param
 obj
 {
-Object
+object
 }
 The
 object
@@ -410,7 +410,7 @@ removed
 *
 returns
 {
-Object
+object
 }
 the
 parsed
@@ -501,7 +501,7 @@ Glean
 param
 stackTraces
 {
-Object
+object
 }
 The
 legacy
@@ -513,7 +513,7 @@ object
 *
 returns
 {
-Object
+object
 }
 The
 stack
@@ -811,7 +811,7 @@ value
 *
 returns
 {
-Object
+object
 }
 The
 object

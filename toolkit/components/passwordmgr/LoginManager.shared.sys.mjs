@@ -652,7 +652,7 @@ check
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -680,7 +680,7 @@ element
 *
 returns
 {
-Boolean
+boolean
 }
 true
 if
@@ -940,7 +940,7 @@ check
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -968,7 +968,7 @@ element
 *
 returns
 {
-Boolean
+boolean
 }
 true
 if
@@ -1697,7 +1697,7 @@ printable
 *
 param
 {
-Object
+object
 [
 ]
 }

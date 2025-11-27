@@ -376,7 +376,7 @@ PasswordGenerator
 *
 param
 {
-Object
+object
 }
 options
 *

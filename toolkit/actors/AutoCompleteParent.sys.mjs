@@ -3116,7 +3116,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 providers
@@ -3160,7 +3160,7 @@ returns
 {
 Array
 <
-Object
+object
 >
 }
 An

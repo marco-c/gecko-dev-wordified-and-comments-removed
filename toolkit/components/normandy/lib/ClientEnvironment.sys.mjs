@@ -310,7 +310,7 @@ client
 *
 param
 {
-Object
+object
 }
 data
 Fake

@@ -149,7 +149,7 @@ mode
 *
 type
 {
-Object
+object
 }
 *
 /
@@ -246,7 +246,7 @@ constant
 *
 type
 {
-Number
+number
 }
 *
 /
@@ -308,7 +308,7 @@ transparency
 *
 param
 {
-Number
+number
 }
 r
 Red
@@ -317,7 +317,7 @@ component
 *
 param
 {
-Number
+number
 }
 g
 Green
@@ -326,7 +326,7 @@ component
 *
 param
 {
-Number
+number
 }
 b
 Blue
@@ -408,7 +408,7 @@ WCAG20
 *
 return
 {
-Number
+number
 }
 Relative
 luminance
@@ -535,7 +535,7 @@ colorArr
 *
 return
 {
-Boolean
+boolean
 }
 TRUE
 if
@@ -674,7 +674,7 @@ with
 *
 return
 {
-Number
+number
 }
 Contrast
 ratios
@@ -816,7 +816,7 @@ with
 *
 param
 {
-String
+string
 }
 [
 level
@@ -842,7 +842,7 @@ AA
 *
 return
 {
-Boolean
+boolean
 }
 *
 /

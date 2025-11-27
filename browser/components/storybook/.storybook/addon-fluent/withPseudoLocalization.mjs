@@ -170,7 +170,7 @@ story
 *
 param
 {
-Object
+object
 }
 context
 -
@@ -416,7 +416,7 @@ story
 *
 param
 {
-Object
+object
 }
 context
 -

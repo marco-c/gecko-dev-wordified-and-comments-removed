@@ -2305,7 +2305,7 @@ client
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -2350,7 +2350,7 @@ returns
 {
 Promise
 <
-Object
+object
 >
 }
 Object
@@ -2607,7 +2607,7 @@ key
 *
 param
 {
-String
+string
 }
 sessionToken
 the
@@ -2621,7 +2621,7 @@ metadata
 *
 param
 {
-String
+string
 }
 clientId
 the
@@ -2634,7 +2634,7 @@ keys
 *
 param
 {
-String
+string
 }
 scopes
 Space
@@ -2646,7 +2646,7 @@ requested
 *
 param
 {
-Object
+object
 }
 jwk
 Ephemeral

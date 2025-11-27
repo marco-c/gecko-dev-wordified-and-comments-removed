@@ -1273,7 +1273,7 @@ startup
 *
 returns
 {
-Object
+object
 }
 A
 context

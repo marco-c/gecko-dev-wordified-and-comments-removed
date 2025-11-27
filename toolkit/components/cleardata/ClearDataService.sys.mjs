@@ -602,7 +602,7 @@ string
 *
 param
 {
-Object
+object
 }
 [
 aOriginAttributesPattern
@@ -6613,7 +6613,7 @@ for
 *
 param
 {
-Object
+object
 }
 aOriginAttributesPattern
 -

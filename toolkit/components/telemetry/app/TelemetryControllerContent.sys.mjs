@@ -249,7 +249,7 @@ processes
 *
 param
 {
-Boolean
+boolean
 }
 [
 testing

@@ -2338,7 +2338,7 @@ case
 *
 param
 {
-Object
+object
 }
 position
 An
@@ -5811,7 +5811,7 @@ screenshot
 *
 param
 {
-Object
+object
 }
 rect
 The

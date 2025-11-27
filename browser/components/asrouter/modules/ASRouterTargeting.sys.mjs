@@ -3343,7 +3343,7 @@ addresses
 *
 param
 {
-Object
+object
 }
 [
 data
@@ -7262,7 +7262,7 @@ elements
 *
 returns
 {
-Object
+object
 }
 resolution
 The

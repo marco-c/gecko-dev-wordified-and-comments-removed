@@ -562,7 +562,7 @@ ASRouter
 *
 param
 {
-Object
+object
 }
 message
 *

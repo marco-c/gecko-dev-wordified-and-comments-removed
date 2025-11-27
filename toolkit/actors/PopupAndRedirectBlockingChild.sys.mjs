@@ -208,7 +208,7 @@ JSWindowActorChild
 *
 typedef
 {
-Object
+object
 }
 DocState
 *

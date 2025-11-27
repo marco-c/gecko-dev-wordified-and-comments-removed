@@ -383,7 +383,7 @@ returns
 {
 Promise
 <
-Object
+object
 >
 }
 A
@@ -856,7 +856,7 @@ exist
 *
 param
 {
-Object
+object
 }
 options
 -
@@ -970,7 +970,7 @@ disabled
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -1284,7 +1284,7 @@ exist
 *
 param
 {
-Object
+object
 }
 options
 -

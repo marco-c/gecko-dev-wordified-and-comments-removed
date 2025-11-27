@@ -189,7 +189,7 @@ viewport
 *
 param
 {
-Object
+object
 }
 options
 -
@@ -229,7 +229,7 @@ options
 *
 param
 {
-Boolean
+boolean
 }
 [
 isSingle

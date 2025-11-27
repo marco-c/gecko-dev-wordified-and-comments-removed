@@ -160,7 +160,7 @@ true
 *
 typedef
 {
-Object
+object
 }
 Dialog
 *
@@ -802,7 +802,7 @@ closed
 *
 param
 {
-Object
+object
 }
 args
 *
@@ -840,7 +840,7 @@ dismissed
 *
 resolves
 {
-Object
+object
 }
 *
 The
@@ -2007,7 +2007,7 @@ for
 *
 param
 {
-Object
+object
 }
 args
 *

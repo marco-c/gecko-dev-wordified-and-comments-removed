@@ -238,7 +238,7 @@ ElementID
 *
 typedef
 {
-Object
+object
 }
 ElementIdentifier
 *

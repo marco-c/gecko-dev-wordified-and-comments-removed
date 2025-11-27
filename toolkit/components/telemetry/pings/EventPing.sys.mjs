@@ -923,7 +923,7 @@ interval
 *
 param
 {
-String
+string
 }
 reason
 The

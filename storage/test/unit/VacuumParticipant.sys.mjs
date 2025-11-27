@@ -180,7 +180,7 @@ vacuumed
 *
 param
 {
-Number
+number
 }
 [
 expectedPageSize

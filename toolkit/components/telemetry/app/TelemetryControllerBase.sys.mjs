@@ -753,7 +753,7 @@ process
 *
 return
 {
-Boolean
+boolean
 }
 True
 if

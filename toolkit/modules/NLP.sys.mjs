@@ -167,7 +167,7 @@ MIT
 *
 param
 {
-String
+string
 }
 word1
 Word
@@ -177,7 +177,7 @@ against
 *
 param
 {
-String
+string
 }
 word2
 Word
@@ -188,7 +188,7 @@ different
 *
 param
 {
-Number
+number
 }
 costIns
 The
@@ -200,7 +200,7 @@ character
 *
 param
 {
-Number
+number
 }
 costRep
 The
@@ -212,7 +212,7 @@ character
 *
 param
 {
-Number
+number
 }
 costDel
 The
@@ -224,7 +224,7 @@ character
 *
 return
 {
-Number
+number
 }
 *
 /

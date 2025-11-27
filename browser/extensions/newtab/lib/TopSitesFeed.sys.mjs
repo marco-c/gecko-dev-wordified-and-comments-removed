@@ -2833,7 +2833,7 @@ blocklist
 *
 param
 {
-array
+Array
 }
 tiles
 *
@@ -7207,7 +7207,7 @@ pinnedSitesCache
 *
 returns
 {
-Boolean
+boolean
 }
 Did
 we
@@ -10032,7 +10032,7 @@ replacement
 *
 param
 {
-Object
+object
 }
 sponsoredLinks
 An

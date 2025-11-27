@@ -2069,7 +2069,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 excludeIds
@@ -3099,9 +3099,9 @@ db
 *
 param
 {
-String
+string
 |
-String
+string
 [
 ]
 }
@@ -3125,13 +3125,13 @@ callback
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-String
+string
 }
 options
 .
@@ -3139,7 +3139,7 @@ mode
 *
 param
 {
-String
+string
 }
 options
 .

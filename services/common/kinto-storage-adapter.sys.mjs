@@ -183,7 +183,7 @@ order
 *
 param
 {
-Object
+object
 }
 filters
 The
@@ -194,7 +194,7 @@ apply
 *
 param
 {
-String
+string
 }
 order
 The
@@ -293,7 +293,7 @@ value
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -352,7 +352,7 @@ js
 *
 param
 {
-String
+string
 }
 order
 The
@@ -565,7 +565,7 @@ js
 *
 param
 {
-Object
+object
 }
 filters
 The
@@ -575,7 +575,7 @@ object
 *
 param
 {
-Object
+object
 }
 entry
 The
@@ -699,7 +699,7 @@ js
 *
 param
 {
-Object
+object
 }
 filters
 The

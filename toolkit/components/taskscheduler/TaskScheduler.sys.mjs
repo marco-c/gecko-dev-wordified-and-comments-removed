@@ -677,7 +677,7 @@ minutes
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1111,7 +1111,7 @@ registerTask
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1276,7 +1276,7 @@ application
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1442,7 +1442,7 @@ for
 *
 param
 {
-Object
+object
 }
 options
 *

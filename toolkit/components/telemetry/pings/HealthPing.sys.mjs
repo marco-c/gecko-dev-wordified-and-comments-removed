@@ -516,7 +516,7 @@ out
 *
 param
 {
-String
+string
 }
 failureType
 The
@@ -592,7 +592,7 @@ type
 *
 param
 {
-String
+string
 }
 pingType
 The
@@ -662,7 +662,7 @@ payload
 *
 param
 {
-String
+string
 }
 reason
 A
@@ -690,7 +690,7 @@ shutdown
 *
 returns
 {
-Object
+object
 }
 The
 assembled
@@ -809,7 +809,7 @@ value
 *
 param
 {
-Object
+object
 }
 failures
 A
@@ -823,7 +823,7 @@ count
 *
 returns
 {
-Object
+object
 }
 Sorted
 failures
@@ -938,7 +938,7 @@ it
 *
 param
 {
-String
+string
 }
 reason
 A
@@ -1178,7 +1178,7 @@ timeout
 *
 param
 {
-String
+string
 }
 failureType
 The
@@ -1201,7 +1201,7 @@ timeout
 *
 param
 {
-String
+string
 }
 failureSubType
 The

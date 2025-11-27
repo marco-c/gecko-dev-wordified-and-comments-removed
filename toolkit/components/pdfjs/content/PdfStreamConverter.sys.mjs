@@ -3584,7 +3584,7 @@ menu
 *
 param
 {
-Object
+object
 }
 details
 *

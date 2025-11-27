@@ -381,7 +381,7 @@ error
 *
 type
 {
-Object
+object
 }
 *
 /
@@ -593,7 +593,7 @@ network_error
 *
 param
 {
-Object
+object
 }
 extra
 extra

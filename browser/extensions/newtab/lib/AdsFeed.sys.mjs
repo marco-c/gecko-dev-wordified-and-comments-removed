@@ -1068,7 +1068,7 @@ response
 *
 param
 {
-array
+Array
 }
 -
 Array
@@ -1644,7 +1644,7 @@ spocs
 *
 param
 {
-array
+Array
 }
 supportedAdTypes
 *

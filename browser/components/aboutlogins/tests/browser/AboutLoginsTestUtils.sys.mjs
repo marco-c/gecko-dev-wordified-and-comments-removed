@@ -134,7 +134,7 @@ returns
 {
 Promise
 <
-Object
+object
 >
 }
 A
@@ -369,7 +369,7 @@ returns
 {
 Promise
 <
-Object
+object
 >
 }
 A
@@ -556,7 +556,7 @@ returns
 {
 Promise
 <
-Object
+object
 >
 }
 A

@@ -860,7 +860,7 @@ accessible
 *
 return
 {
-String
+string
 ?
 }
 DOMNode

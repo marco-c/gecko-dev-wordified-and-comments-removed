@@ -136,7 +136,7 @@ mjs
 *
 typedef
 {
-Object
+object
 }
 SettingElementConfig
 *

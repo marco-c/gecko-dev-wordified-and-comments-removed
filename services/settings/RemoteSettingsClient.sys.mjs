@@ -455,7 +455,7 @@ name
 *
 param
 {
-Object
+object
 }
 payload
 the
@@ -2461,7 +2461,7 @@ settings
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -2474,7 +2474,7 @@ object
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -2495,7 +2495,7 @@ default
 *
 param
 {
-String
+string
 }
 [
 options
@@ -4390,7 +4390,7 @@ server
 *
 param
 {
-Object
+object
 }
 options
 See
@@ -7352,7 +7352,7 @@ records
 *
 param
 {
-Object
+object
 }
 metadata
 *
@@ -9171,7 +9171,7 @@ DB
 *
 param
 {
-Object
+object
 }
 syncResult
 Synchronization
@@ -9185,7 +9185,7 @@ returns
 {
 Promise
 <
-Object
+object
 >
 }
 the
@@ -9562,7 +9562,7 @@ server
 *
 param
 {
-Object
+object
 }
 record
 *

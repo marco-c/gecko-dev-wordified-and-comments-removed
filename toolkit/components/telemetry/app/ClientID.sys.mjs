@@ -397,7 +397,7 @@ braces
 *
 param
 {
-String
+string
 }
 id
 A
@@ -409,7 +409,7 @@ ID
 *
 return
 {
-Boolean
+boolean
 }
 True
 when
@@ -736,7 +736,7 @@ reporting
 *
 param
 {
-String
+string
 }
 id
 A
@@ -797,7 +797,7 @@ reporting
 *
 param
 {
-String
+string
 }
 id
 A
@@ -859,7 +859,7 @@ reporting
 *
 param
 {
-String
+string
 }
 id
 A
@@ -2958,7 +2958,7 @@ Telemetry
 *
 param
 {
-String
+string
 }
 id
 A
@@ -3137,7 +3137,7 @@ reporting
 *
 param
 {
-String
+string
 }
 id
 A
@@ -3327,7 +3327,7 @@ reporting
 *
 param
 {
-String
+string
 }
 id
 A
@@ -5327,7 +5327,7 @@ UUID
 *
 param
 {
-String
+string
 }
 id
 A
@@ -5340,7 +5340,7 @@ ID
 *
 return
 {
-Boolean
+boolean
 }
 True
 when
@@ -5478,7 +5478,7 @@ UUID
 *
 param
 {
-String
+string
 }
 id
 A
@@ -5492,7 +5492,7 @@ ID
 *
 return
 {
-Boolean
+boolean
 }
 True
 when
@@ -5626,7 +5626,7 @@ UUID
 *
 param
 {
-String
+string
 }
 id
 A
@@ -5640,7 +5640,7 @@ ID
 *
 return
 {
-Boolean
+boolean
 }
 True
 when
@@ -5775,7 +5775,7 @@ UUID
 *
 param
 {
-String
+string
 }
 id
 A
@@ -5790,7 +5790,7 @@ ID
 *
 return
 {
-Boolean
+boolean
 }
 True
 when

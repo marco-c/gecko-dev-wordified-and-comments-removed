@@ -814,7 +814,7 @@ mechanism
 *
 param
 {
-Number
+number
 }
 notifiedIndex
 "
@@ -3297,7 +3297,7 @@ getDevicesList
 *
 param
 {
-Object
+object
 }
 tab
 *
@@ -3951,7 +3951,7 @@ getDevicesList
 *
 param
 {
-String
+string
 [
 ]
 }

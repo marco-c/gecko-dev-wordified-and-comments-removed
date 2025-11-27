@@ -1165,7 +1165,7 @@ page
 *
 param
 {
-Object
+object
 }
 tab
 *
@@ -1563,7 +1563,7 @@ to
 *
 param
 {
-array
+Array
 }
 tabs
 list
@@ -1975,7 +1975,7 @@ suggestions
 *
 param
 {
-array
+Array
 }
 allTabs
 all
@@ -1989,7 +1989,7 @@ window
 *
 param
 {
-array
+Array
 }
 groupedIndices
 indices
@@ -2005,7 +2005,7 @@ group
 *
 param
 {
-array
+Array
 }
 alreadyGroupedIndices
 indices
@@ -2020,7 +2020,7 @@ groups
 *
 returns
 {
-array
+Array
 }
 tabs
 indices
@@ -2170,7 +2170,7 @@ tabs
 *
 param
 {
-array
+Array
 }
 allTabs
 all
@@ -2184,7 +2184,7 @@ window
 *
 param
 {
-array
+Array
 }
 groupedIndices
 indices
@@ -2200,7 +2200,7 @@ group
 *
 param
 {
-array
+Array
 }
 alreadyGroupedIndices
 indices
@@ -2829,13 +2829,13 @@ input
 *
 param
 {
-Number
+number
 }
 z
 *
 return
 {
-Number
+number
 }
 *
 /
@@ -2878,7 +2878,7 @@ parameters
 *
 param
 {
-Number
+number
 }
 groupSimilarity
 how
@@ -2894,7 +2894,7 @@ name
 *
 param
 {
-Number
+number
 }
 titleSimilarity
 how
@@ -2909,7 +2909,7 @@ anchors
 *
 param
 {
-Object
+object
 }
 params
 the
@@ -2923,7 +2923,7 @@ parameter
 *
 return
 {
-Number
+number
 }
 *
 /
@@ -3123,7 +3123,7 @@ model
 *
 param
 {
-array
+Array
 }
 allTabs
 all
@@ -3137,7 +3137,7 @@ window
 *
 param
 {
-array
+Array
 }
 groupedIndices
 indices
@@ -3153,7 +3153,7 @@ group
 *
 param
 {
-array
+Array
 }
 alreadyGroupedIndices
 indices
@@ -3947,7 +3947,7 @@ models
 *
 param
 {
-Object
+object
 [
 ]
 }
@@ -5321,7 +5321,7 @@ ones
 *
 param
 {
-Object
+object
 [
 ]
 }
@@ -8671,7 +8671,7 @@ of
 returns
 {
 [
-Object
+object
 ]
 }
 *

@@ -2564,7 +2564,7 @@ returns
 {
 Set
 <
-String
+string
 >
 }
 The
@@ -3179,7 +3179,7 @@ param
 {
 Set
 <
-String
+string
 >
 }
 runnerCapabilities

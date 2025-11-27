@@ -443,7 +443,7 @@ file
 *
 param
 {
-Object
+object
 }
 config
 An

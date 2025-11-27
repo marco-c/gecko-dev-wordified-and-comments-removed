@@ -430,7 +430,7 @@ object
 *
 param
 {
-Object
+object
 }
 obj
 *
@@ -525,7 +525,7 @@ object
 *
 param
 {
-Object
+object
 }
 obj
 *

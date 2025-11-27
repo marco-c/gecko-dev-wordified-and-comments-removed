@@ -8802,7 +8802,7 @@ operation
 *
 param
 {
-String
+string
 }
 [
 wipeAction

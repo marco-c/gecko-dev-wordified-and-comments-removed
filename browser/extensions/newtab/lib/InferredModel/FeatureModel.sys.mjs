@@ -575,7 +575,7 @@ value
 *
 param
 {
-Object
+object
 }
 dict
 -
@@ -673,7 +673,7 @@ dictionary
 *
 param
 {
-Object
+object
 }
 obj
 -
@@ -703,7 +703,7 @@ value
 *
 returns
 {
-Object
+object
 }
 A
 new
@@ -1559,7 +1559,7 @@ modelId
 *
 param
 {
-Object
+object
 }
 dayTimeWeighting
 Data
@@ -1571,7 +1571,7 @@ class
 *
 param
 {
-Object
+object
 }
 interestVectorModel
 Data
@@ -1581,7 +1581,7 @@ model
 *
 param
 {
-Object
+object
 }
 tileImportance
 Data
@@ -1962,7 +1962,7 @@ inout
 *
 param
 {
-Object
+object
 }
 config
 *
@@ -2529,7 +2529,7 @@ dictionary
 *
 param
 {
-Object
+object
 }
 valueDict
 of
@@ -2540,7 +2540,7 @@ model
 *
 param
 {
-Boolean
+boolean
 }
 applyDifferentialPrivacy
 whether
@@ -2931,7 +2931,7 @@ returned
 *
 param
 {
-Object
+object
 }
 params
 -
@@ -3036,7 +3036,7 @@ format
 *
 returns
 {
-Object
+object
 }
 result
 -
@@ -3053,7 +3053,7 @@ following
 *
 returns
 {
-Object
+object
 }
 result
 .
@@ -3069,7 +3069,7 @@ scores
 *
 returns
 {
-Object
+object
 }
 [
 result
@@ -3094,7 +3094,7 @@ supported
 *
 returns
 {
-Object
+object
 }
 [
 result
@@ -3399,7 +3399,7 @@ support
 *
 param
 {
-Object
+object
 }
 params
 -
@@ -3412,7 +3412,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 params
@@ -3440,7 +3440,7 @@ impressions
 *
 param
 {
-Object
+object
 }
 params
 .
@@ -3510,7 +3510,7 @@ format
 *
 returns
 {
-Object
+object
 }
 result
 -
@@ -3525,7 +3525,7 @@ vectors
 *
 returns
 {
-Object
+object
 }
 result
 .
@@ -3544,7 +3544,7 @@ model_id
 *
 returns
 {
-Object
+object
 }
 [
 result
@@ -3567,7 +3567,7 @@ supported
 *
 returns
 {
-Object
+object
 |
 {
 values

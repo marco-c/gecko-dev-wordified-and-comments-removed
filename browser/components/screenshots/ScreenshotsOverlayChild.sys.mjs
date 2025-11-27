@@ -4368,7 +4368,7 @@ event
 *
 returns
 {
-Boolean
+boolean
 }
 True
 if
@@ -7940,7 +7940,7 @@ event
 *
 returns
 {
-Boolean
+boolean
 }
 True
 if
@@ -8115,7 +8115,7 @@ actor
 *
 param
 {
-String
+string
 }
 eventType
 The
@@ -8186,13 +8186,13 @@ overlay
 *
 param
 {
-String
+string
 }
 newState
 *
 param
 {
-Object
+object
 }
 options
 (
@@ -8848,7 +8848,7 @@ draggingReady
 *
 param
 {
-Number
+number
 }
 pageX
 The
@@ -8861,7 +8861,7 @@ page
 *
 param
 {
-Number
+number
 }
 pageY
 The
@@ -8937,7 +8937,7 @@ resizing
 *
 param
 {
-Number
+number
 }
 pageX
 The
@@ -8950,7 +8950,7 @@ page
 *
 param
 {
-Number
+number
 }
 pageY
 The
@@ -8963,7 +8963,7 @@ page
 *
 param
 {
-String
+string
 }
 targetId
 The
@@ -9063,7 +9063,7 @@ hovered
 *
 param
 {
-Number
+number
 }
 clientX
 The
@@ -9076,7 +9076,7 @@ viewport
 *
 param
 {
-Number
+number
 }
 clientY
 The
@@ -9143,7 +9143,7 @@ dragging
 *
 param
 {
-Number
+number
 }
 pageX
 The
@@ -9156,7 +9156,7 @@ page
 *
 param
 {
-Number
+number
 }
 pageY
 The
@@ -9240,7 +9240,7 @@ container
 *
 param
 {
-Number
+number
 }
 pageX
 The
@@ -9253,7 +9253,7 @@ page
 *
 param
 {
-Number
+number
 }
 pageY
 The
@@ -9322,7 +9322,7 @@ resize
 *
 param
 {
-Number
+number
 }
 pageX
 The
@@ -9335,7 +9335,7 @@ page
 *
 param
 {
-Number
+number
 }
 pageY
 The
@@ -9911,7 +9911,7 @@ crosshairs
 *
 param
 {
-Object
+object
 }
 options
 (
@@ -10029,7 +10029,7 @@ selected
 *
 param
 {
-Number
+number
 }
 pageX
 The
@@ -10042,7 +10042,7 @@ page
 *
 param
 {
-Number
+number
 }
 pageY
 The
@@ -10126,7 +10126,7 @@ selected
 *
 param
 {
-Number
+number
 }
 pageX
 The
@@ -10139,7 +10139,7 @@ page
 *
 param
 {
-Number
+number
 }
 pageY
 The
@@ -10329,7 +10329,7 @@ mouse
 *
 param
 {
-Number
+number
 }
 clientX
 The
@@ -10342,7 +10342,7 @@ viewport
 *
 param
 {
-Number
+number
 }
 clientY
 The
@@ -11579,7 +11579,7 @@ region
 *
 param
 {
-Number
+number
 }
 clientX
 The
@@ -11592,7 +11592,7 @@ viewport
 *
 param
 {
-Number
+number
 }
 clientY
 The
@@ -11833,7 +11833,7 @@ edges
 *
 param
 {
-Number
+number
 }
 pageX
 The
@@ -11846,7 +11846,7 @@ page
 *
 param
 {
-Number
+number
 }
 pageY
 The
@@ -12025,7 +12025,7 @@ amount
 *
 param
 {
-Number
+number
 }
 x
 The
@@ -12036,7 +12036,7 @@ scroll
 *
 param
 {
-Number
+number
 }
 y
 The
@@ -12107,7 +12107,7 @@ bounds
 *
 param
 {
-String
+string
 }
 eventType
 will
@@ -12290,7 +12290,7 @@ window
 *
 return
 {
-Object
+object
 }
 An
 object

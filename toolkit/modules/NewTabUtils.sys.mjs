@@ -5206,7 +5206,7 @@ Stream
 *
 param
 {
-Object
+object
 }
 aOptions
 *
@@ -5575,7 +5575,7 @@ Stream
 *
 param
 {
-Object
+object
 }
 aOptions
 *
@@ -5721,7 +5721,7 @@ Stream
 *
 param
 {
-Object
+object
 }
 aOptions
 *
@@ -7108,7 +7108,7 @@ database
 *
 param
 {
-String
+string
 }
 aQuery
 *
@@ -7119,7 +7119,7 @@ execute
 *
 param
 {
-Object
+object
 }
 [
 optional
@@ -7435,7 +7435,7 @@ url
 *
 param
 {
-Object
+object
 }
 aLink
 *
@@ -7517,7 +7517,7 @@ successful
 *
 param
 {
-Object
+object
 }
 aData
 *
@@ -7606,7 +7606,7 @@ bookmark
 *
 param
 {
-String
+string
 }
 aBookmarkGuid
 *
@@ -7670,7 +7670,7 @@ pinned
 *
 param
 {
-String
+string
 }
 aUrl
 *
@@ -7748,7 +7748,7 @@ Stream
 *
 param
 {
-Object
+object
 }
 aOptions
 *
@@ -12696,7 +12696,7 @@ telemetry
 *
 returns
 {
-Number
+number
 }
 utc_offset
 .
@@ -12955,7 +12955,7 @@ java
 *
 returns
 {
-String
+string
 }
 Normalized
 OS

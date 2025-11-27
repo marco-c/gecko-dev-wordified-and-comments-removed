@@ -520,7 +520,7 @@ null
 *
 param
 {
-String
+string
 }
 title
 -
@@ -537,7 +537,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -617,7 +617,7 @@ for
 *
 param
 {
-Number
+number
 }
 modalType
 -
@@ -641,7 +641,7 @@ MODAL_TYPE_CONTENT
 *
 param
 {
-String
+string
 }
 title
 -
@@ -658,7 +658,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -744,7 +744,7 @@ for
 *
 param
 {
-Number
+number
 }
 modalType
 -
@@ -768,7 +768,7 @@ MODAL_TYPE_CONTENT
 *
 param
 {
-String
+string
 }
 title
 -
@@ -785,7 +785,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -889,7 +889,7 @@ null
 *
 param
 {
-String
+string
 }
 title
 -
@@ -906,7 +906,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -923,7 +923,7 @@ dialog
 *
 param
 {
-String
+string
 }
 checkLabel
 -
@@ -937,7 +937,7 @@ checkbox
 *
 param
 {
-Object
+object
 }
 checkValue
 -
@@ -1040,7 +1040,7 @@ for
 *
 param
 {
-Number
+number
 }
 modalType
 -
@@ -1064,7 +1064,7 @@ MODAL_TYPE_CONTENT
 *
 param
 {
-String
+string
 }
 title
 -
@@ -1081,7 +1081,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -1098,7 +1098,7 @@ dialog
 *
 param
 {
-String
+string
 }
 checkLabel
 -
@@ -1112,7 +1112,7 @@ checkbox
 *
 param
 {
-Object
+object
 }
 checkValue
 -
@@ -1217,7 +1217,7 @@ for
 *
 param
 {
-Number
+number
 }
 modalType
 -
@@ -1241,7 +1241,7 @@ MODAL_TYPE_CONTENT
 *
 param
 {
-String
+string
 }
 title
 -
@@ -1258,7 +1258,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -1275,7 +1275,7 @@ dialog
 *
 param
 {
-String
+string
 }
 checkLabel
 -
@@ -1289,7 +1289,7 @@ checkbox
 *
 param
 {
-Boolean
+boolean
 }
 checkValue
 -
@@ -1311,7 +1311,7 @@ nsIPropertyBag
 {
 checked
 :
-Boolean
+boolean
 }
 >
 >
@@ -1398,7 +1398,7 @@ null
 *
 param
 {
-String
+string
 }
 title
 -
@@ -1415,7 +1415,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -1432,7 +1432,7 @@ dialog
 *
 returns
 {
-Boolean
+boolean
 }
 true
 for
@@ -1508,7 +1508,7 @@ for
 *
 param
 {
-Number
+number
 }
 modalType
 -
@@ -1532,7 +1532,7 @@ MODAL_TYPE_CONTENT
 *
 param
 {
-String
+string
 }
 title
 -
@@ -1549,7 +1549,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -1566,7 +1566,7 @@ dialog
 *
 returns
 {
-Boolean
+boolean
 }
 true
 for
@@ -1648,7 +1648,7 @@ for
 *
 param
 {
-Number
+number
 }
 modalType
 -
@@ -1672,7 +1672,7 @@ MODAL_TYPE_CONTENT
 *
 param
 {
-String
+string
 }
 title
 -
@@ -1689,7 +1689,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -1713,7 +1713,7 @@ nsIPropertyBag
 {
 ok
 :
-Boolean
+boolean
 }
 >
 >
@@ -1804,7 +1804,7 @@ null
 *
 param
 {
-String
+string
 }
 title
 -
@@ -1821,7 +1821,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -1838,7 +1838,7 @@ dialog
 *
 param
 {
-String
+string
 }
 checkLabel
 -
@@ -1852,7 +1852,7 @@ checkbox
 *
 param
 {
-Object
+object
 }
 checkValue
 -
@@ -1956,7 +1956,7 @@ for
 *
 param
 {
-Number
+number
 }
 modalType
 -
@@ -1980,7 +1980,7 @@ MODAL_TYPE_CONTENT
 *
 param
 {
-String
+string
 }
 title
 -
@@ -1997,7 +1997,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -2014,7 +2014,7 @@ dialog
 *
 param
 {
-String
+string
 }
 checkLabel
 -
@@ -2028,7 +2028,7 @@ checkbox
 *
 param
 {
-Object
+object
 }
 checkValue
 -
@@ -2060,7 +2060,7 @@ returns
 *
 returns
 {
-Boolean
+boolean
 }
 true
 for
@@ -2145,7 +2145,7 @@ for
 *
 param
 {
-Number
+number
 }
 modalType
 -
@@ -2169,7 +2169,7 @@ MODAL_TYPE_CONTENT
 *
 param
 {
-String
+string
 }
 title
 -
@@ -2186,7 +2186,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -2203,7 +2203,7 @@ dialog
 *
 param
 {
-String
+string
 }
 checkLabel
 -
@@ -2217,7 +2217,7 @@ checkbox
 *
 param
 {
-Boolean
+boolean
 }
 checkValue
 -
@@ -2239,10 +2239,10 @@ nsIPropertyBag
 {
 ok
 :
-Boolean
+boolean
 checked
 :
-Boolean
+boolean
 }
 >
 >
@@ -2489,7 +2489,7 @@ null
 *
 param
 {
-String
+string
 }
 title
 -
@@ -2506,7 +2506,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -2523,7 +2523,7 @@ dialog
 *
 param
 {
-Number
+number
 }
 flags
 -
@@ -2536,7 +2536,7 @@ Flags
 *
 param
 {
-String
+string
 }
 button0
 -
@@ -2550,7 +2550,7 @@ TITLE_IS_STRING
 *
 param
 {
-String
+string
 }
 button1
 -
@@ -2564,7 +2564,7 @@ TITLE_IS_STRING
 *
 param
 {
-String
+string
 }
 button2
 -
@@ -2578,7 +2578,7 @@ TITLE_IS_STRING
 *
 param
 {
-String
+string
 }
 checkLabel
 -
@@ -2598,7 +2598,7 @@ checkbox
 *
 param
 {
-Object
+object
 }
 checkValue
 -
@@ -2630,7 +2630,7 @@ returns
 *
 returns
 {
-Number
+number
 }
 The
 index
@@ -2723,7 +2723,7 @@ for
 *
 param
 {
-Number
+number
 }
 modalType
 -
@@ -2747,7 +2747,7 @@ MODAL_TYPE_CONTENT
 *
 param
 {
-String
+string
 }
 title
 -
@@ -2764,7 +2764,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -2781,7 +2781,7 @@ dialog
 *
 param
 {
-Number
+number
 }
 flags
 -
@@ -2794,7 +2794,7 @@ Flags
 *
 param
 {
-String
+string
 }
 button0
 -
@@ -2808,7 +2808,7 @@ TITLE_IS_STRING
 *
 param
 {
-String
+string
 }
 button1
 -
@@ -2822,7 +2822,7 @@ TITLE_IS_STRING
 *
 param
 {
-String
+string
 }
 button2
 -
@@ -2836,7 +2836,7 @@ TITLE_IS_STRING
 *
 param
 {
-String
+string
 }
 checkLabel
 -
@@ -2856,7 +2856,7 @@ checkbox
 *
 param
 {
-Object
+object
 }
 checkValue
 -
@@ -2888,7 +2888,7 @@ returns
 *
 returns
 {
-Number
+number
 }
 The
 index
@@ -2975,7 +2975,7 @@ for
 *
 param
 {
-Number
+number
 }
 modalType
 -
@@ -2999,7 +2999,7 @@ MODAL_TYPE_CONTENT
 *
 param
 {
-String
+string
 }
 title
 -
@@ -3016,7 +3016,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -3033,7 +3033,7 @@ dialog
 *
 param
 {
-Number
+number
 }
 flags
 -
@@ -3046,7 +3046,7 @@ Flags
 *
 param
 {
-String
+string
 }
 button0
 -
@@ -3060,7 +3060,7 @@ TITLE_IS_STRING
 *
 param
 {
-String
+string
 }
 button1
 -
@@ -3074,7 +3074,7 @@ TITLE_IS_STRING
 *
 param
 {
-String
+string
 }
 button2
 -
@@ -3088,7 +3088,7 @@ TITLE_IS_STRING
 *
 param
 {
-String
+string
 }
 checkLabel
 -
@@ -3108,7 +3108,7 @@ checkbox
 *
 param
 {
-Boolean
+boolean
 }
 checkValue
 -
@@ -3123,7 +3123,7 @@ checkbox
 *
 param
 {
-Object
+object
 }
 [
 extraArgs
@@ -3146,13 +3146,13 @@ nsIPropertyBag
 {
 buttonNumClicked
 :
-Number
+number
 checked
 :
-Boolean
+boolean
 isExtra1Secondary
 :
-Boolean
+boolean
 }
 >
 >
@@ -3232,7 +3232,7 @@ null
 *
 param
 {
-String
+string
 }
 title
 -
@@ -3249,7 +3249,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -3266,7 +3266,7 @@ dialog
 *
 param
 {
-Object
+object
 }
 value
 -
@@ -3323,7 +3323,7 @@ unmodified
 *
 param
 {
-String
+string
 }
 checkLabel
 -
@@ -3347,7 +3347,7 @@ shown
 *
 param
 {
-Object
+object
 }
 checkValue
 -
@@ -3379,7 +3379,7 @@ returns
 *
 returns
 {
-Boolean
+boolean
 }
 true
 for
@@ -3465,7 +3465,7 @@ for
 *
 param
 {
-Number
+number
 }
 modalType
 -
@@ -3489,7 +3489,7 @@ MODAL_TYPE_CONTENT
 *
 param
 {
-String
+string
 }
 title
 -
@@ -3506,7 +3506,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -3523,7 +3523,7 @@ dialog
 *
 param
 {
-Object
+object
 }
 value
 -
@@ -3580,7 +3580,7 @@ unmodified
 *
 param
 {
-String
+string
 }
 checkLabel
 -
@@ -3604,7 +3604,7 @@ shown
 *
 param
 {
-Object
+object
 }
 checkValue
 -
@@ -3636,7 +3636,7 @@ returns
 *
 returns
 {
-Boolean
+boolean
 }
 true
 for
@@ -3722,7 +3722,7 @@ for
 *
 param
 {
-Number
+number
 }
 modalType
 -
@@ -3746,7 +3746,7 @@ MODAL_TYPE_CONTENT
 *
 param
 {
-String
+string
 }
 title
 -
@@ -3763,7 +3763,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -3780,7 +3780,7 @@ dialog
 *
 param
 {
-String
+string
 }
 value
 -
@@ -3796,7 +3796,7 @@ field
 *
 param
 {
-String
+string
 }
 checkLabel
 -
@@ -3820,7 +3820,7 @@ shown
 *
 param
 {
-Boolean
+boolean
 }
 checkValue
 -
@@ -3842,13 +3842,13 @@ nsIPropertyBag
 {
 ok
 :
-Boolean
+boolean
 checked
 :
-Boolean
+boolean
 value
 :
-String
+string
 }
 >
 >
@@ -3938,7 +3938,7 @@ null
 *
 param
 {
-String
+string
 }
 title
 -
@@ -3955,7 +3955,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -3972,7 +3972,7 @@ dialog
 *
 param
 {
-Object
+object
 }
 user
 -
@@ -4029,7 +4029,7 @@ unmodified
 *
 param
 {
-Object
+object
 }
 pass
 -
@@ -4084,7 +4084,7 @@ unmodified
 *
 returns
 {
-Boolean
+boolean
 }
 true
 for
@@ -4168,7 +4168,7 @@ for
 *
 param
 {
-Number
+number
 }
 modalType
 -
@@ -4192,7 +4192,7 @@ MODAL_TYPE_CONTENT
 *
 param
 {
-String
+string
 }
 title
 -
@@ -4209,7 +4209,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -4226,7 +4226,7 @@ dialog
 *
 param
 {
-Object
+object
 }
 user
 -
@@ -4283,7 +4283,7 @@ unmodified
 *
 param
 {
-Object
+object
 }
 pass
 -
@@ -4338,7 +4338,7 @@ unmodified
 *
 returns
 {
-Boolean
+boolean
 }
 true
 for
@@ -4424,7 +4424,7 @@ for
 *
 param
 {
-Number
+number
 }
 modalType
 -
@@ -4448,7 +4448,7 @@ MODAL_TYPE_CONTENT
 *
 param
 {
-String
+string
 }
 title
 -
@@ -4465,7 +4465,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -4482,7 +4482,7 @@ dialog
 *
 param
 {
-String
+string
 }
 user
 -
@@ -4496,7 +4496,7 @@ field
 *
 param
 {
-String
+string
 }
 pass
 -
@@ -4519,13 +4519,13 @@ nsIPropertyBag
 {
 ok
 :
-Boolean
+boolean
 user
 :
-String
+string
 pass
 :
-String
+string
 }
 >
 >
@@ -4612,7 +4612,7 @@ null
 *
 param
 {
-String
+string
 }
 title
 -
@@ -4629,7 +4629,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -4646,7 +4646,7 @@ dialog
 *
 param
 {
-Object
+object
 }
 pass
 -
@@ -4701,7 +4701,7 @@ unmodified
 *
 returns
 {
-Boolean
+boolean
 }
 true
 for
@@ -4784,7 +4784,7 @@ for
 *
 param
 {
-Number
+number
 }
 modalType
 -
@@ -4808,7 +4808,7 @@ MODAL_TYPE_CONTENT
 *
 param
 {
-String
+string
 }
 title
 -
@@ -4825,7 +4825,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -4842,7 +4842,7 @@ dialog
 *
 param
 {
-Object
+object
 }
 pass
 -
@@ -4897,7 +4897,7 @@ unmodified
 *
 returns
 {
-Boolean
+boolean
 }
 true
 for
@@ -4979,7 +4979,7 @@ for
 *
 param
 {
-Number
+number
 }
 modalType
 -
@@ -5003,7 +5003,7 @@ MODAL_TYPE_CONTENT
 *
 param
 {
-String
+string
 }
 title
 -
@@ -5020,7 +5020,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -5037,7 +5037,7 @@ dialog
 *
 param
 {
-String
+string
 }
 pass
 -
@@ -5060,10 +5060,10 @@ nsIPropertyBag
 {
 ok
 :
-Boolean
+boolean
 pass
 :
-String
+string
 }
 >
 >
@@ -5164,7 +5164,7 @@ null
 *
 param
 {
-String
+string
 }
 title
 -
@@ -5181,7 +5181,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -5198,7 +5198,7 @@ dialog
 *
 param
 {
-String
+string
 [
 ]
 }
@@ -5214,7 +5214,7 @@ display
 *
 param
 {
-Object
+object
 }
 selected
 -
@@ -5238,7 +5238,7 @@ true
 *
 returns
 {
-Boolean
+boolean
 }
 true
 for
@@ -5331,7 +5331,7 @@ for
 *
 param
 {
-Number
+number
 }
 modalType
 -
@@ -5355,7 +5355,7 @@ MODAL_TYPE_CONTENT
 *
 param
 {
-String
+string
 }
 title
 -
@@ -5372,7 +5372,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -5389,7 +5389,7 @@ dialog
 *
 param
 {
-String
+string
 [
 ]
 }
@@ -5405,7 +5405,7 @@ display
 *
 param
 {
-Object
+object
 }
 selected
 -
@@ -5429,7 +5429,7 @@ true
 *
 returns
 {
-Boolean
+boolean
 }
 true
 for
@@ -5524,7 +5524,7 @@ for
 *
 param
 {
-Number
+number
 }
 modalType
 -
@@ -5548,7 +5548,7 @@ MODAL_TYPE_CONTENT
 *
 param
 {
-String
+string
 }
 title
 -
@@ -5565,7 +5565,7 @@ dialog
 *
 param
 {
-String
+string
 }
 text
 -
@@ -5582,7 +5582,7 @@ dialog
 *
 param
 {
-String
+string
 [
 ]
 }
@@ -5605,10 +5605,10 @@ nsIPropertyBag
 {
 selected
 :
-Number
+number
 ok
 :
-Boolean
+boolean
 }
 >
 >
@@ -5722,7 +5722,7 @@ authentication
 *
 param
 {
-Number
+number
 }
 level
 -
@@ -5759,7 +5759,7 @@ object
 *
 returns
 {
-Boolean
+boolean
 }
 *
 true
@@ -5878,7 +5878,7 @@ for
 *
 param
 {
-Number
+number
 }
 modalType
 -
@@ -5915,7 +5915,7 @@ authentication
 *
 param
 {
-Number
+number
 }
 level
 -
@@ -5952,7 +5952,7 @@ object
 *
 returns
 {
-Boolean
+boolean
 }
 *
 true
@@ -6075,7 +6075,7 @@ for
 *
 param
 {
-Number
+number
 }
 modalType
 -
@@ -6112,7 +6112,7 @@ authentication
 *
 param
 {
-Number
+number
 }
 level
 -
@@ -6156,7 +6156,7 @@ nsIPropertyBag
 {
 ok
 :
-Boolean
+boolean
 }
 >
 >
@@ -6267,7 +6267,7 @@ nsIPropertyBag
 {
 ok
 :
-Boolean
+boolean
 }
 >
 >
@@ -8579,7 +8579,7 @@ openPrompt
 *
 param
 {
-Object
+object
 }
 args
 Prompt
@@ -9912,7 +9912,7 @@ null
 *
 param
 {
-Object
+object
 }
 args
 -
@@ -10117,7 +10117,7 @@ nsIPropertyBag
 *
 param
 {
-Object
+object
 }
 args
 -

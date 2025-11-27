@@ -759,7 +759,7 @@ onUserNotifyFailed
 *
 param
 {
-Object
+object
 }
 aLog
 The
@@ -1204,7 +1204,7 @@ displayed
 *
 return
 {
-Boolean
+boolean
 }
 True
 if
@@ -1731,7 +1731,7 @@ notified
 *
 return
 {
-Object
+object
 }
 A
 date
@@ -1945,7 +1945,7 @@ notified
 *
 param
 {
-Object
+object
 }
 aDate
 A
@@ -2054,7 +2054,7 @@ accepted
 *
 return
 {
-Object
+object
 }
 A
 date
@@ -2290,7 +2290,7 @@ notified
 *
 param
 {
-Object
+object
 }
 aDate
 A
@@ -4627,7 +4627,7 @@ flow
 *
 return
 {
-Boolean
+boolean
 }
 True
 if

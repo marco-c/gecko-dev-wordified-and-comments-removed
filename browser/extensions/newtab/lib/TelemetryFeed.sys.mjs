@@ -1983,7 +1983,7 @@ sections
 *
 returns
 {
-String
+string
 [
 ]
 }
@@ -10840,7 +10840,7 @@ Stream
 *
 param
 {
-String
+string
 }
 port
 The
@@ -10854,7 +10854,7 @@ associated
 *
 param
 {
-Object
+object
 }
 data
 The
@@ -11391,7 +11391,7 @@ here
 *
 param
 {
-String
+string
 }
 port
 The
@@ -11404,7 +11404,7 @@ associated
 *
 param
 {
-Object
+object
 }
 data
 The

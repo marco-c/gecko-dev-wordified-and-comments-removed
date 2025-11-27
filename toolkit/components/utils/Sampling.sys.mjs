@@ -228,7 +228,7 @@ convert
 *
 returns
 {
-String
+string
 }
 buffer
 '
@@ -708,7 +708,7 @@ sample
 *
 param
 {
-Number
+number
 }
 rate
 Number

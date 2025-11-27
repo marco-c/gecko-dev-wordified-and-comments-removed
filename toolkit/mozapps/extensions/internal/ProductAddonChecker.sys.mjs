@@ -313,7 +313,7 @@ XMLHttpRequest
 *
 returns
 {
-Object
+object
 }
 result
 -

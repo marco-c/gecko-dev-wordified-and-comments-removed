@@ -243,7 +243,7 @@ tag
 *
 param
 {
-String
+string
 }
 aTag
 *
@@ -259,7 +259,7 @@ tag
 *
 param
 {
-String
+string
 }
 aEntry
 *
@@ -276,7 +276,7 @@ tag
 *
 returns
 {
-Boolean
+boolean
 }
 true
 if
@@ -363,7 +363,7 @@ protocol
 *
 returns
 {
-Boolean
+boolean
 }
 true
 if

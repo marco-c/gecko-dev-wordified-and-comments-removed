@@ -132,13 +132,13 @@ collectWireframes
 *
 param
 {
-Object
+object
 }
 tab
 *
 return
 {
-Object
+object
 }
 wireframe
 *
@@ -239,7 +239,7 @@ collectWireframes
 *
 param
 {
-Object
+object
 }
 tab
 *
@@ -307,7 +307,7 @@ string
 *
 param
 {
-Number
+number
 }
 nscolor
 *
@@ -322,7 +322,7 @@ format
 *
 return
 {
-String
+string
 }
 *
 A
@@ -420,7 +420,7 @@ string
 *
 param
 {
-Object
+object
 }
 wireframe
 *

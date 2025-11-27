@@ -520,7 +520,7 @@ specified
 *
 param
 {
-array
+Array
 }
 messageIds
 -
@@ -557,7 +557,7 @@ string
 *
 param
 {
-array
+Array
 }
 messages
 -
@@ -572,7 +572,7 @@ edited
 *
 returns
 {
-array
+Array
 }
 -
 The

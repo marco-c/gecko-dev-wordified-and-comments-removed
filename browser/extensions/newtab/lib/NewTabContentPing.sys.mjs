@@ -1645,7 +1645,7 @@ specified
 *
 param
 {
-Number
+number
 }
 prob
 Probability

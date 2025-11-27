@@ -175,7 +175,7 @@ data
 *
 typedef
 {
-Object
+object
 }
 userDataDetails
 *

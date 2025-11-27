@@ -264,7 +264,7 @@ FxAccountsOAuth
 *
 param
 {
-Object
+object
 }
 fxaClient
 :
@@ -351,7 +351,7 @@ flow
 *
 param
 {
-Object
+object
 }
 value
 :
@@ -508,7 +508,7 @@ flow
 *
 returns
 {
-Object
+object
 }
 :
 The
@@ -705,7 +705,7 @@ FxA
 *
 returns
 {
-Object
+object
 }
 :
 Returns
@@ -1435,7 +1435,7 @@ server
 *
 returns
 {
-Object
+object
 }
 :
 Returns

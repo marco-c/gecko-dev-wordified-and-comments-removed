@@ -1827,7 +1827,7 @@ open
 *
 param
 {
-Object
+object
 }
 aDialogArgs
 -

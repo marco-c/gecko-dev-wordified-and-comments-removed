@@ -1010,7 +1010,7 @@ flattenDetail
 *
 param
 {
-Boolean
+boolean
 }
 passAllValues
 :

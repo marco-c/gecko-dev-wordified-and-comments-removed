@@ -1165,7 +1165,7 @@ mutations
 *
 param
 {
-Object
+object
 }
 options
 *

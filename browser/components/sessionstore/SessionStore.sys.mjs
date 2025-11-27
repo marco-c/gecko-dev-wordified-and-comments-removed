@@ -2005,7 +2005,7 @@ param
 {
 Window
 |
-Object
+object
 }
 [
 aWindowOrOptions
@@ -2460,7 +2460,7 @@ param
 {
 Window
 |
-Object
+object
 }
 [
 aOptions
@@ -2719,7 +2719,7 @@ param
 {
 Window
 |
-Object
+object
 }
 [
 aOptions
@@ -3131,7 +3131,7 @@ param
 {
 Window
 |
-Object
+object
 }
 aSource
 *
@@ -3159,7 +3159,7 @@ in
 *
 param
 {
-String
+string
 }
 aSource
 .
@@ -3313,7 +3313,7 @@ param
 {
 Window
 |
-Object
+object
 }
 aSource
 *
@@ -3341,7 +3341,7 @@ in
 *
 param
 {
-String
+string
 }
 aSource
 .
@@ -3498,7 +3498,7 @@ param
 {
 Window
 |
-Object
+object
 }
 aSource
 *
@@ -3526,7 +3526,7 @@ in
 *
 param
 {
-String
+string
 }
 aSource
 .
@@ -3676,7 +3676,7 @@ param
 {
 Window
 |
-Object
+object
 }
 aSource
 *
@@ -3704,7 +3704,7 @@ in
 *
 param
 {
-String
+string
 }
 aSource
 .
@@ -3858,7 +3858,7 @@ param
 {
 Window
 |
-Object
+object
 }
 aSourceOptions
 *
@@ -3926,7 +3926,7 @@ tabs
 *
 param
 {
-String
+string
 }
 aSourceOptions
 .
@@ -4145,7 +4145,7 @@ id
 *
 param
 {
-String
+string
 }
 aSessionStoreId
 *
@@ -5594,7 +5594,7 @@ param
 {
 Window
 |
-Object
+object
 }
 source
 *
@@ -6199,7 +6199,7 @@ json
 *
 param
 {
-Object
+object
 }
 [
 state
@@ -7078,7 +7078,7 @@ _tabsRestoringCount
 *
 typedef
 {
-Object
+object
 }
 CloseAction
 *
@@ -36680,7 +36680,7 @@ restored
 *
 param
 {
-String
+string
 }
 windowId
 *
@@ -53174,7 +53174,7 @@ param
 {
 Window
 |
-Object
+object
 }
 source
 *
@@ -54104,7 +54104,7 @@ json
 *
 param
 {
-Object
+object
 }
 [
 state

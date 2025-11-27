@@ -1248,7 +1248,7 @@ returns
 {
 Array
 <
-function
+Function
 >
 }
 Array
@@ -8756,7 +8756,7 @@ check
 *
 returns
 {
-array
+Array
 |
 null
 }

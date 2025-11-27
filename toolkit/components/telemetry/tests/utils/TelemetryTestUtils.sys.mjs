@@ -76,7 +76,7 @@ scalar
 *
 param
 {
-Object
+object
 }
 scalars
 The
@@ -88,7 +88,7 @@ scalars
 *
 param
 {
-String
+string
 }
 scalarName
 The
@@ -102,11 +102,11 @@ check
 *
 param
 {
-Boolean
+boolean
 |
-Number
+number
 |
-String
+string
 }
 value
 The
@@ -119,7 +119,7 @@ scalar
 *
 param
 {
-String
+string
 }
 msg
 The
@@ -172,7 +172,7 @@ set
 *
 param
 {
-Object
+object
 }
 scalars
 The
@@ -184,7 +184,7 @@ scalars
 *
 param
 {
-String
+string
 }
 scalarName
 The
@@ -245,7 +245,7 @@ data
 *
 param
 {
-Object
+object
 }
 scalars
 The
@@ -258,7 +258,7 @@ scalars
 *
 param
 {
-String
+string
 }
 scalarName
 The
@@ -273,7 +273,7 @@ check
 *
 param
 {
-String
+string
 }
 key
 The
@@ -289,11 +289,11 @@ scalar
 *
 param
 {
-String
+string
 |
-Boolean
+boolean
 |
-Number
+number
 }
 expectedValue
 The
@@ -414,7 +414,7 @@ process
 *
 param
 {
-String
+string
 }
 aProcessName
 Name
@@ -479,7 +479,7 @@ obtained
 *
 param
 {
-Number
+number
 }
 aChannel
 The
@@ -492,7 +492,7 @@ nsITelemetry
 *
 returns
 {
-Object
+object
 }
 The
 snapshotted
@@ -628,7 +628,7 @@ numEvents
 *
 param
 {
-Number
+number
 }
 numEvents
 The
@@ -641,7 +641,7 @@ assert
 *
 param
 {
-Object
+object
 }
 filter
 As
@@ -651,7 +651,7 @@ assertEvents
 *
 param
 {
-Object
+object
 }
 options
 As
@@ -723,7 +723,7 @@ filtering
 *
 param
 {
-Object
+object
 }
 filter
 An
@@ -758,7 +758,7 @@ nothing
 *
 param
 {
-Object
+object
 }
 options
 An
@@ -1228,7 +1228,7 @@ others
 *
 param
 {
-Object
+object
 }
 filter
 An
@@ -1263,7 +1263,7 @@ nothing
 *
 param
 {
-Object
+object
 }
 options
 An
@@ -2150,7 +2150,7 @@ histogram
 *
 param
 {
-String
+string
 }
 name
 The
@@ -2161,7 +2161,7 @@ histogram
 *
 returns
 {
-Object
+object
 }
 The
 obtained
@@ -2212,7 +2212,7 @@ histogram
 *
 param
 {
-String
+string
 }
 name
 The
@@ -2224,7 +2224,7 @@ histogram
 *
 returns
 {
-Object
+object
 }
 The
 obtained
@@ -2288,7 +2288,7 @@ zero
 *
 param
 {
-Object
+object
 }
 histogram
 The
@@ -2299,7 +2299,7 @@ check
 *
 param
 {
-Number
+number
 }
 index
 The
@@ -2314,7 +2314,7 @@ value
 *
 param
 {
-Number
+number
 }
 expected
 The
@@ -2480,7 +2480,7 @@ sum
 *
 param
 {
-Object
+object
 }
 histogram
 The
@@ -2492,7 +2492,7 @@ check
 *
 param
 {
-String
+string
 }
 key
 The
@@ -2503,7 +2503,7 @@ check
 *
 param
 {
-Number
+number
 }
 [
 expected
@@ -2664,7 +2664,7 @@ zero
 *
 param
 {
-Object
+object
 }
 histogram
 The
@@ -2676,7 +2676,7 @@ check
 *
 param
 {
-String
+string
 }
 key
 The
@@ -2687,7 +2687,7 @@ check
 *
 param
 {
-Number
+number
 }
 index
 The
@@ -2702,7 +2702,7 @@ value
 *
 param
 {
-Number
+number
 }
 [
 expected

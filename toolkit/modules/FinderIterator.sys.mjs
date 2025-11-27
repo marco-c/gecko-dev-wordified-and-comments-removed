@@ -516,7 +516,7 @@ options
 *
 param
 {
-Number
+number
 }
 [
 options
@@ -545,7 +545,7 @@ running
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -561,7 +561,7 @@ mode
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -589,7 +589,7 @@ instance
 *
 param
 {
-Number
+number
 }
 [
 options
@@ -617,7 +617,7 @@ limit
 *
 param
 {
-Boolean
+boolean
 }
 [
 options
@@ -648,7 +648,7 @@ false
 *
 param
 {
-Object
+object
 }
 options
 .
@@ -716,7 +716,7 @@ iterParams
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -733,7 +733,7 @@ mode
 *
 param
 {
-Boolean
+boolean
 }
 [
 options
@@ -763,7 +763,7 @@ false
 *
 param
 {
-Boolean
+boolean
 }
 [
 options
@@ -785,7 +785,7 @@ false
 *
 param
 {
-String
+string
 }
 options
 .
@@ -797,7 +797,7 @@ for
 *
 param
 {
-Number
+number
 }
 contextRange
 -
@@ -1455,7 +1455,7 @@ later
 *
 param
 {
-Boolean
+boolean
 }
 [
 cachePrevious
@@ -1970,7 +1970,7 @@ false
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1986,7 +1986,7 @@ mode
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -2002,7 +2002,7 @@ mode
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -2023,7 +2023,7 @@ only
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -2040,7 +2040,7 @@ mode
 *
 param
 {
-String
+string
 }
 options
 .
@@ -2065,7 +2065,7 @@ subframes
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -2213,7 +2213,7 @@ start
 *
 param
 {
-Object
+object
 }
 paramSet
 Property
@@ -2234,7 +2234,7 @@ start
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -2293,7 +2293,7 @@ occurred
 *
 param
 {
-String
+string
 }
 callback
 Name
@@ -2468,7 +2468,7 @@ match
 *
 param
 {
-Number
+number
 }
 contextRange
 -
@@ -2919,7 +2919,7 @@ cached
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -2935,7 +2935,7 @@ mode
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -2951,7 +2951,7 @@ mode
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -2972,7 +2972,7 @@ only
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -2989,7 +2989,7 @@ mode
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -3010,7 +3010,7 @@ all
 *
 param
 {
-String
+string
 }
 options
 .
@@ -3023,7 +3023,7 @@ for
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -3091,7 +3091,7 @@ equivalent
 *
 param
 {
-Object
+object
 }
 paramSet1
 First
@@ -3106,7 +3106,7 @@ side
 *
 param
 {
-Object
+object
 }
 paramSet2
 Second
@@ -3121,7 +3121,7 @@ side
 *
 param
 {
-Number
+number
 }
 [
 allowDistance
@@ -3152,7 +3152,7 @@ distance
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -3329,7 +3329,7 @@ range
 *
 param
 {
-Object
+object
 }
 listener
 Listener
@@ -3367,7 +3367,7 @@ setTimeout
 *
 param
 {
-Boolean
+boolean
 }
 [
 withPause
@@ -3778,7 +3778,7 @@ iterator
 *
 param
 {
-Object
+object
 }
 listener
 Listener
@@ -3930,7 +3930,7 @@ iterator
 *
 param
 {
-Object
+object
 }
 listener
 Listener
@@ -4045,7 +4045,7 @@ instance
 *
 param
 {
-Number
+number
 }
 spawnId
 Since
@@ -4082,7 +4082,7 @@ pause
 *
 param
 {
-Number
+number
 }
 contextRange
 -
@@ -4748,7 +4748,7 @@ found
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -4764,7 +4764,7 @@ mode
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -4781,7 +4781,7 @@ mode
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -4798,7 +4798,7 @@ mode
 *
 param
 {
-String
+string
 }
 options
 .
@@ -5421,7 +5421,7 @@ check
 *
 return
 {
-Boolean
+boolean
 }
 True
 if

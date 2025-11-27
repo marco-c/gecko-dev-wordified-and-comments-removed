@@ -1009,7 +1009,7 @@ tolerance
 *
 param
 {
-Number
+number
 }
 t1
 A
@@ -1020,7 +1020,7 @@ milliseconds
 *
 param
 {
-Number
+number
 }
 t2
 A
@@ -1031,7 +1031,7 @@ milliseconds
 *
 param
 {
-Number
+number
 }
 tolerance
 The
@@ -1042,7 +1042,7 @@ milliseconds
 *
 return
 {
-Boolean
+boolean
 }
 True
 if
@@ -1097,7 +1097,7 @@ date
 *
 param
 {
-Object
+object
 }
 date
 The
@@ -1109,7 +1109,7 @@ check
 *
 return
 {
-Object
+object
 }
 The
 Date
@@ -1176,7 +1176,7 @@ date
 *
 param
 {
-Object
+object
 }
 date
 The
@@ -1188,7 +1188,7 @@ check
 *
 param
 {
-Number
+number
 }
 tolerance
 The
@@ -1203,7 +1203,7 @@ midnight
 *
 return
 {
-Object
+object
 }
 The
 Date
@@ -1359,7 +1359,7 @@ dates
 *
 param
 {
-Object
+object
 }
 aStartDate
 The
@@ -1369,7 +1369,7 @@ date
 *
 param
 {
-Object
+object
 }
 aEndDate
 The
@@ -1475,7 +1475,7 @@ datetime
 *
 param
 {
-Object
+object
 }
 date
 The
@@ -1485,7 +1485,7 @@ date
 *
 return
 {
-String
+string
 }
 The
 local

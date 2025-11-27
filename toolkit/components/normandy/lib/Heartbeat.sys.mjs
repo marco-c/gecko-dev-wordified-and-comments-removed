@@ -346,7 +346,7 @@ in
 *
 param
 {
-Object
+object
 }
 options
 Options
@@ -355,7 +355,7 @@ object
 *
 param
 {
-String
+string
 }
 options
 .
@@ -374,7 +374,7 @@ notification
 *
 param
 {
-String
+string
 }
 options
 .
@@ -393,7 +393,7 @@ votes
 *
 param
 {
-String
+string
 }
 options
 .
@@ -423,7 +423,7 @@ box
 *
 param
 {
-String
+string
 }
 [
 options
@@ -460,7 +460,7 @@ used
 *
 param
 {
-String
+string
 }
 [
 options
@@ -491,7 +491,7 @@ null
 *
 param
 {
-String
+string
 }
 [
 options
@@ -532,7 +532,7 @@ URL
 *
 param
 {
-String
+string
 }
 [
 options
@@ -554,7 +554,7 @@ ping
 *
 param
 {
-Number
+number
 }
 [
 options
@@ -599,7 +599,7 @@ ping
 *
 param
 {
-String
+string
 }
 [
 options

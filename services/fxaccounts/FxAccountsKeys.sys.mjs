@@ -896,7 +896,7 @@ scope
 *
 param
 {
-String
+string
 }
 scope
 The
@@ -1054,7 +1054,7 @@ keys
 *
 param
 {
-Object
+object
 }
 scopedKeys
 :
@@ -1065,7 +1065,7 @@ bundle
 *
 return
 {
-Boolean
+boolean
 }
 :
 true
@@ -1527,7 +1527,7 @@ keys
 *
 param
 {
-Object
+object
 }
 jwk
 The
@@ -2091,7 +2091,7 @@ storage
 *
 param
 {
-Object
+object
 }
 scopedKeys
 :
@@ -4475,7 +4475,7 @@ key
 *
 param
 {
-String
+string
 }
 scope
 the
@@ -4489,7 +4489,7 @@ associated
 *
 param
 {
-Number
+number
 }
 keyRotationTimestamp
 server
@@ -4503,7 +4503,7 @@ rotation
 *
 returns
 {
-Object
+object
 }
 key
 material

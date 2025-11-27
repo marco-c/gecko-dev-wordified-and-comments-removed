@@ -623,7 +623,7 @@ aDocumentRoot
 *
 param
 {
-Object
+object
 }
 aOptions
 *
@@ -1060,7 +1060,7 @@ document
 *
 param
 {
-Object
+object
 }
 aOptions
 *

@@ -647,7 +647,7 @@ void
 *
 typedef
 {
-Object
+object
 }
 SettingControllingExtensionInfo
 *

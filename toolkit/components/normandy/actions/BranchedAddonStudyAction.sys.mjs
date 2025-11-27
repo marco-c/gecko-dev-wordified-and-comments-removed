@@ -4332,7 +4332,7 @@ clock
 *
 param
 {
-Object
+object
 }
 args
 *
@@ -4353,7 +4353,7 @@ unenroll
 *
 param
 {
-String
+string
 }
 args
 .

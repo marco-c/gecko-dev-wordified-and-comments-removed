@@ -1038,7 +1038,7 @@ state
 *
 param
 {
-Object
+object
 }
 This
 is
@@ -1054,7 +1054,7 @@ topics
 *
 param
 {
-Boolean
+boolean
 }
 shouldBroadcast
 If

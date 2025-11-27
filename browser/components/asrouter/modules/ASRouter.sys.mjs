@@ -10923,7 +10923,7 @@ state
 *
 param
 {
-array
+Array
 }
 items
 Can
@@ -11337,7 +11337,7 @@ state
 *
 param
 {
-array
+Array
 }
 items
 are

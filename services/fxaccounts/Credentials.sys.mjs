@@ -432,7 +432,7 @@ salt
 *
 param
 {
-String
+string
 }
 context
 String
@@ -531,7 +531,7 @@ email
 *
 param
 {
-String
+string
 }
 name
 The
@@ -542,7 +542,7 @@ salt
 *
 param
 {
-String
+string
 }
 email
 The

@@ -307,7 +307,7 @@ once
 *
 param
 {
-Object
+object
 }
 obj
 -
@@ -321,7 +321,7 @@ on
 *
 param
 {
-String
+string
 }
 prop
 -
@@ -422,7 +422,7 @@ object
 *
 param
 {
-Object
+object
 }
 obj
 -
@@ -436,7 +436,7 @@ on
 *
 param
 {
-String
+string
 }
 prop
 -
@@ -534,7 +534,7 @@ of
 *
 param
 {
-String
+string
 }
 unit
 -
@@ -705,7 +705,7 @@ thresholds
 *
 param
 {
-Object
+object
 }
 absDiff
 -
@@ -721,7 +721,7 @@ calculated
 *
 returns
 {
-String
+string
 }
 *
 /

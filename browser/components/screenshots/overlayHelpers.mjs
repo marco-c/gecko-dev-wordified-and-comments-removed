@@ -361,7 +361,7 @@ element
 *
 param
 {
-Number
+number
 }
 x
 The
@@ -370,7 +370,7 @@ coordinate
 *
 param
 {
-Number
+number
 }
 y
 The
@@ -387,7 +387,7 @@ document
 *
 returns
 {
-Object
+object
 }
 *
 ele
@@ -1433,7 +1433,7 @@ dimensions
 *
 param
 {
-Object
+object
 }
 dims
 The

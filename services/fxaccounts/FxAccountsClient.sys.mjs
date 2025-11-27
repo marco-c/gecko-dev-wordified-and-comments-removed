@@ -1651,7 +1651,7 @@ hex
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1696,7 +1696,7 @@ returns
 {
 Promise
 <
-Object
+object
 >
 }
 Object
@@ -1886,7 +1886,7 @@ ID
 *
 returns
 {
-Object
+object
 }
 object
 containing
@@ -2794,7 +2794,7 @@ token
 *
 param
 {
-String
+string
 }
 sessionTokenHex
 *
@@ -2807,13 +2807,13 @@ hex
 *
 param
 {
-String
+string
 }
 clientId
 *
 param
 {
-String
+string
 }
 scope
 *
@@ -2827,7 +2827,7 @@ scopes
 *
 param
 {
-Number
+number
 }
 ttl
 *
@@ -2841,7 +2841,7 @@ return
 {
 Promise
 <
-Object
+object
 >
 }
 Object

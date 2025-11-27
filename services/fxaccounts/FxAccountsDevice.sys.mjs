@@ -1255,7 +1255,7 @@ once
 *
 param
 {
-Boolean
+boolean
 }
 [
 options
@@ -1288,7 +1288,7 @@ return
 {
 Promise
 <
-Boolean
+boolean
 >
 }
 *

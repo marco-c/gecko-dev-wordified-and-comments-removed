@@ -8012,7 +8012,7 @@ downloaded
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -8158,7 +8158,7 @@ set
 *
 param
 {
-Object
+object
 ?
 }
 [
@@ -14735,7 +14735,7 @@ from
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -14879,7 +14879,7 @@ on
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -17683,7 +17683,7 @@ updated
 *
 param
 {
-Object
+object
 }
 aUpdate
 *
@@ -19868,7 +19868,7 @@ to
 *
 param
 {
-Object
+object
 ?
 }
 [
@@ -20845,7 +20845,7 @@ location
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -21710,7 +21710,7 @@ ons
 *
 param
 {
-Object
+object
 }
 aAddonSet
 -
@@ -27266,7 +27266,7 @@ install
 *
 param
 {
-Object
+object
 }
 [
 aOptions
@@ -27314,7 +27314,7 @@ install
 *
 param
 {
-Object
+object
 }
 [
 aOptions
@@ -27555,7 +27555,7 @@ installed
 *
 param
 {
-Object
+object
 ?
 }
 [

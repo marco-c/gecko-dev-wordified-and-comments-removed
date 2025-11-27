@@ -11723,7 +11723,7 @@ return
 {
 Promise
 <
-Object
+object
 >
 }
 A

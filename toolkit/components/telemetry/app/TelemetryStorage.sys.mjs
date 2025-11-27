@@ -1724,7 +1724,7 @@ it
 *
 param
 {
-Object
+object
 }
 ping
 The
@@ -1773,7 +1773,7 @@ disk
 *
 param
 {
-Object
+object
 }
 sessionData
 The
@@ -1870,7 +1870,7 @@ id
 *
 param
 {
-String
+string
 }
 id
 The
@@ -1922,7 +1922,7 @@ id
 *
 param
 {
-String
+string
 }
 id
 The
@@ -2664,7 +2664,7 @@ file
 *
 param
 {
-String
+string
 }
 aFilePath
 The
@@ -2679,7 +2679,7 @@ return
 {
 Promise
 <
-Object
+object
 >
 }
 A
@@ -2787,7 +2787,7 @@ metadata
 *
 param
 {
-String
+string
 }
 aPingId
 The
@@ -2797,7 +2797,7 @@ id
 *
 param
 {
-Object
+object
 }
 aDate
 The
@@ -2808,7 +2808,7 @@ date
 *
 param
 {
-String
+string
 }
 aType
 The
@@ -2818,7 +2818,7 @@ type
 *
 return
 {
-String
+string
 }
 The
 full
@@ -2877,7 +2877,7 @@ filename
 *
 return
 {
-Object
+object
 }
 Null
 if
@@ -4985,7 +4985,7 @@ return
 {
 Promise
 <
-Object
+object
 >
 }
 A
@@ -11343,7 +11343,7 @@ file
 *
 param
 {
-String
+string
 }
 aFilePath
 The
@@ -11356,7 +11356,7 @@ file
 *
 param
 {
-Boolean
+boolean
 }
 [
 aCompressed
@@ -11381,7 +11381,7 @@ return
 {
 Promise
 <
-Object
+object
 >
 }
 A
@@ -11663,7 +11663,7 @@ filename
 *
 return
 {
-Object
+object
 }
 Null
 if
@@ -12994,7 +12994,7 @@ ping
 *
 param
 {
-String
+string
 }
 aPingId
 The
@@ -13004,7 +13004,7 @@ id
 *
 param
 {
-Object
+object
 }
 aDate
 The
@@ -13015,7 +13015,7 @@ date
 *
 param
 {
-String
+string
 }
 aType
 The
@@ -13025,7 +13025,7 @@ type
 *
 return
 {
-String
+string
 }
 The
 full
@@ -13426,7 +13426,7 @@ format
 *
 param
 {
-String
+string
 }
 aDirName
 The
@@ -13440,7 +13440,7 @@ directory
 *
 return
 {
-Boolean
+boolean
 }
 True
 if
@@ -13514,7 +13514,7 @@ name
 *
 param
 {
-String
+string
 }
 aDirName
 The
@@ -13538,7 +13538,7 @@ format
 *
 return
 {
-Object
+object
 }
 A
 Date

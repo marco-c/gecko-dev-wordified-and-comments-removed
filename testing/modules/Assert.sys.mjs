@@ -1072,7 +1072,7 @@ passed
 *
 param
 {
-String
+string
 }
 message
 *
@@ -1374,7 +1374,7 @@ author
 *
 param
 {
-String
+string
 }
 [
 message
@@ -1390,7 +1390,7 @@ result
 *
 param
 {
-String
+string
 }
 [
 operator
@@ -1738,7 +1738,7 @@ truthy
 *
 param
 {
-String
+string
 }
 [
 message
@@ -1882,7 +1882,7 @@ actual
 *
 param
 {
-String
+string
 }
 [
 message
@@ -2002,7 +2002,7 @@ actual
 *
 param
 {
-String
+string
 }
 [
 message
@@ -2168,7 +2168,7 @@ actual
 *
 param
 {
-String
+string
 }
 [
 message
@@ -2287,7 +2287,7 @@ actual
 *
 param
 {
-String
+string
 }
 [
 message
@@ -2404,7 +2404,7 @@ actual
 *
 param
 {
-String
+string
 }
 [
 message
@@ -2524,7 +2524,7 @@ actual
 *
 param
 {
-String
+string
 }
 [
 message
@@ -2973,7 +2973,7 @@ outcome
 *
 param
 {
-String
+string
 }
 [
 message
@@ -3364,7 +3364,7 @@ result
 *
 param
 {
-String
+string
 }
 [
 message
@@ -3887,7 +3887,7 @@ message_opt
 *
 param
 {
-Number
+number
 }
 lhs
 *
@@ -3901,7 +3901,7 @@ value
 *
 param
 {
-Number
+number
 }
 rhs
 *
@@ -3915,7 +3915,7 @@ value
 *
 param
 {
-String
+string
 }
 [
 message
@@ -3993,7 +3993,7 @@ message_opt
 *
 param
 {
-Number
+number
 }
 [
 lhs
@@ -4009,7 +4009,7 @@ value
 *
 param
 {
-Number
+number
 }
 [
 rhs
@@ -4025,7 +4025,7 @@ value
 *
 param
 {
-String
+string
 }
 [
 message
@@ -4100,7 +4100,7 @@ message_opt
 *
 param
 {
-Number
+number
 }
 [
 lhs
@@ -4116,7 +4116,7 @@ value
 *
 param
 {
-Number
+number
 }
 [
 rhs
@@ -4132,7 +4132,7 @@ value
 *
 param
 {
-String
+string
 }
 [
 message
@@ -4210,7 +4210,7 @@ message_opt
 *
 param
 {
-Number
+number
 }
 [
 lhs
@@ -4226,7 +4226,7 @@ value
 *
 param
 {
-Number
+number
 }
 [
 rhs
@@ -4242,7 +4242,7 @@ value
 *
 param
 {
-String
+string
 }
 [
 message
@@ -4363,7 +4363,7 @@ characters
 *
 param
 {
-String
+string
 }
 lhs
 *
@@ -4376,7 +4376,7 @@ tested
 *
 param
 {
-String
+string
 |
 RegExp
 }
@@ -4415,7 +4415,7 @@ expression
 *
 param
 {
-String
+string
 }
 [
 message
@@ -4652,7 +4652,7 @@ string
 *
 param
 {
-String
+string
 }
 lhs
 *
@@ -4668,7 +4668,7 @@ haystack
 *
 param
 {
-String
+string
 }
 rhs
 *
@@ -4684,7 +4684,7 @@ needle
 *
 param
 {
-String
+string
 }
 [
 message

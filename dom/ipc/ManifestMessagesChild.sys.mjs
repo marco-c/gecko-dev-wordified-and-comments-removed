@@ -357,7 +357,7 @@ result
 *
 param
 {
-Object
+object
 }
 checkConformance
 True
@@ -589,7 +589,7 @@ serialize
 *
 return
 {
-Object
+object
 }
 The
 serialized

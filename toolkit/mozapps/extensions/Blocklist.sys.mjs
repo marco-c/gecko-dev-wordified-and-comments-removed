@@ -1881,7 +1881,7 @@ property
 *
 param
 {
-Object
+object
 }
 item
 *
@@ -2183,7 +2183,7 @@ version
 *
 param
 {
-Object
+object
 }
 versionRange
 *
@@ -2535,7 +2535,7 @@ guid
 *
 param
 {
-Object
+object
 }
 entry
 *
@@ -2697,7 +2697,7 @@ blockID
 *
 param
 {
-String
+string
 }
 id
 the
@@ -2707,7 +2707,7 @@ use
 *
 returns
 {
-String
+string
 }
 the
 blocklist
@@ -2817,7 +2817,7 @@ entry
 *
 param
 {
-Object
+object
 }
 entry
 *
@@ -2862,7 +2862,7 @@ apps
 returns
 {
 ?
-Object
+object
 }
 The
 entry
@@ -3356,7 +3356,7 @@ filter
 *
 returns
 {
-Object
+object
 }
 The
 entry

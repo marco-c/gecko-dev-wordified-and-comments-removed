@@ -569,9 +569,9 @@ db
 *
 param
 {
-String
+string
 |
-String
+string
 [
 ]
 }
@@ -589,7 +589,7 @@ strings
 *
 param
 {
-String
+string
 }
 mode
 *
@@ -601,7 +601,7 @@ callback
 *
 param
 {
-String
+string
 }
 description
 of

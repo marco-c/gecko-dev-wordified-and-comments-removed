@@ -10526,7 +10526,7 @@ question
 *
 return
 {
-Boolean
+boolean
 }
 Download
 can

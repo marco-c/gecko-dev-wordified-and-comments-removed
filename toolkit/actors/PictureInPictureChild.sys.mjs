@@ -907,7 +907,7 @@ control
 *
 param
 {
-Object
+object
 }
 pipChild
 reference
@@ -1220,7 +1220,7 @@ one
 *
 param
 {
-Object
+object
 }
 pipObject
 *
@@ -1234,7 +1234,7 @@ video
 *
 param
 {
-String
+string
 }
 pipObject
 .
@@ -1252,7 +1252,7 @@ shortcut
 *
 param
 {
-Object
+object
 }
 pipObject
 .
@@ -4352,7 +4352,7 @@ seen
 *
 param
 {
-Number
+number
 }
 firstSeenStartSeconds
 the
@@ -9491,7 +9491,7 @@ test
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -11077,7 +11077,7 @@ controls
 *
 param
 {
-Object
+object
 }
 data
 args
@@ -12282,7 +12282,7 @@ check
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -14035,7 +14035,7 @@ scrubber
 *
 param
 {
-Number
+number
 }
 scrubberPosition
 A
@@ -17606,7 +17606,7 @@ video
 *
 param
 {
-String
+string
 |
 null
 }
@@ -17677,7 +17677,7 @@ for
 *
 param
 {
-Object
+object
 }
 pipChild
 *
@@ -17774,7 +17774,7 @@ implementation
 *
 param
 {
-String
+string
 }
 methodInfo
 .
@@ -18142,7 +18142,7 @@ it
 *
 param
 {
-String
+string
 }
 videoWrapperScriptPath
 *
@@ -18502,7 +18502,7 @@ window
 *
 param
 {
-String
+string
 }
 text
 -
@@ -18514,7 +18514,7 @@ displayed
 *
 param
 {
-String
+string
 }
 type
 -
@@ -19008,7 +19008,7 @@ element
 *
 returns
 {
-Boolean
+boolean
 }
 Boolean
 value
@@ -19142,7 +19142,7 @@ element
 *
 returns
 {
-Boolean
+boolean
 }
 Boolean
 value
@@ -19278,7 +19278,7 @@ element
 *
 returns
 {
-Number
+number
 }
 Duration
 of
@@ -19407,7 +19407,7 @@ element
 *
 returns
 {
-Number
+number
 }
 Current
 time
@@ -19535,7 +19535,7 @@ element
 *
 param
 {
-Number
+number
 }
 position
 *
@@ -19549,7 +19549,7 @@ video
 *
 param
 {
-Boolean
+boolean
 }
 wasPlaying
 *
@@ -19633,7 +19633,7 @@ seconds
 *
 param
 {
-Number
+number
 }
 aSeconds
 *
@@ -19644,7 +19644,7 @@ seconds
 *
 returns
 {
-String
+string
 }
 Timestamp
 string
@@ -19800,7 +19800,7 @@ form
 *
 param
 {
-Number
+number
 }
 aCurrentTime
 *
@@ -19812,7 +19812,7 @@ seconds
 *
 param
 {
-Number
+number
 }
 aDuration
 *
@@ -19824,7 +19824,7 @@ seconds
 *
 returns
 {
-String
+string
 }
 Formatted
 timestamp
@@ -19968,7 +19968,7 @@ element
 *
 returns
 {
-Number
+number
 }
 Volume
 of
@@ -20103,7 +20103,7 @@ element
 *
 param
 {
-Number
+number
 }
 volume
 *
@@ -20240,7 +20240,7 @@ element
 *
 param
 {
-Boolean
+boolean
 }
 shouldMute
 *
@@ -20374,7 +20374,7 @@ element
 *
 param
 {
-Boolean
+boolean
 }
 shouldMute
 *
@@ -20840,7 +20840,7 @@ element
 *
 returns
 {
-Boolean
+boolean
 }
 Boolean
 value

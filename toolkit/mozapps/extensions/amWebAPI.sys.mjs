@@ -665,7 +665,7 @@ process
 *
 param
 {
-array
+Array
 <
 cloneable
 >

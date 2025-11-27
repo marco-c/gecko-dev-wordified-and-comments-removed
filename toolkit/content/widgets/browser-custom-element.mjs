@@ -9631,7 +9631,7 @@ ImageBitmap
 *
 param
 {
-Number
+number
 }
 x
 *
@@ -9663,7 +9663,7 @@ true
 *
 param
 {
-Number
+number
 }
 y
 *
@@ -9695,7 +9695,7 @@ true
 *
 param
 {
-Number
+number
 }
 w
 *
@@ -9726,7 +9726,7 @@ true
 *
 param
 {
-Number
+number
 }
 h
 *
@@ -9757,7 +9757,7 @@ true
 *
 param
 {
-Number
+number
 }
 scale
 *
@@ -9784,7 +9784,7 @@ detail
 *
 param
 {
-String
+string
 }
 backgroundColor
 *

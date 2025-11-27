@@ -2355,7 +2355,7 @@ infobar
 *
 param
 {
-Object
+object
 }
 btnDescription
 -

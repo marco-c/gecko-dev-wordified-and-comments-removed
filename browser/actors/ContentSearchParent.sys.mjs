@@ -2127,7 +2127,7 @@ state
 *
 returns
 {
-Object
+object
 }
 state
 *

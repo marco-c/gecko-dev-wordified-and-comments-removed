@@ -856,20 +856,20 @@ updates
 *
 param
 {
-Object
+object
 }
 options
 Options
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-String
+string
 }
 options
 .
@@ -883,7 +883,7 @@ uri
 *
 param
 {
-String
+string
 }
 options
 .
@@ -897,7 +897,7 @@ WebChannel
 *
 param
 {
-String
+string
 }
 options
 .
@@ -4237,7 +4237,7 @@ flow
 *
 param
 {
-Object
+object
 }
 oauthData
 :
@@ -5706,7 +5706,7 @@ browser
 *
 param
 {
-Object
+object
 }
 browser
 the
@@ -5719,7 +5719,7 @@ preferences
 *
 param
 {
-String
+string
 }
 [
 entryPoint
@@ -5817,7 +5817,7 @@ window
 *
 param
 {
-Object
+object
 }
 browser
 the

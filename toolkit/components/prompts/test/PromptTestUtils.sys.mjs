@@ -171,7 +171,7 @@ used
 *
 param
 {
-Object
+object
 }
 promptOptions
 -
@@ -180,7 +180,7 @@ waitForPrompt
 *
 param
 {
-Object
+object
 }
 promptActions
 -
@@ -268,7 +268,7 @@ prompt
 *
 param
 {
-Object
+object
 }
 [
 actions
@@ -292,7 +292,7 @@ it
 *
 param
 {
-Boolean
+boolean
 }
 [
 actions
@@ -316,7 +316,7 @@ unchecked
 *
 param
 {
-Number
+number
 }
 [
 actions
@@ -337,7 +337,7 @@ prompt
 *
 param
 {
-String
+string
 }
 [
 actions
@@ -372,7 +372,7 @@ type
 *
 param
 {
-String
+string
 }
 [
 actions
@@ -694,7 +694,7 @@ window
 *
 param
 {
-Object
+object
 }
 attrs
 -
@@ -708,7 +708,7 @@ for
 *
 param
 {
-Number
+number
 }
 attrs
 .
@@ -739,7 +739,7 @@ MODAL_TYPE_CONTENT
 *
 param
 {
-String
+string
 }
 [
 attrs

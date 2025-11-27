@@ -756,7 +756,7 @@ param
 {
 Set
 <
-String
+string
 >
 }
 possibleValues
@@ -767,7 +767,7 @@ param
 {
 Set
 <
-String
+string
 >
 }
 possibleValues
@@ -1169,7 +1169,7 @@ param
 {
 Set
 <
-String
+string
 >
 }
 possibleValues
@@ -1180,7 +1180,7 @@ param
 {
 Set
 <
-String
+string
 >
 }
 possibleValues
@@ -4398,7 +4398,7 @@ param
 {
 Set
 <
-String
+string
 >
 }
 possibleValues
@@ -4409,7 +4409,7 @@ param
 {
 Set
 <
-String
+string
 >
 }
 possibleValues
@@ -5330,7 +5330,7 @@ accesskey
 *
 param
 {
-String
+string
 }
 id
 message
@@ -5713,7 +5713,7 @@ filter
 *
 param
 {
-String
+string
 }
 includeGUID
 *
@@ -5843,7 +5843,7 @@ param
 {
 Set
 <
-String
+string
 >
 ?
 }
@@ -6022,7 +6022,7 @@ param
 {
 Set
 <
-String
+string
 >
 ?
 }

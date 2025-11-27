@@ -2881,7 +2881,7 @@ for
 *
 returns
 {
-array
+Array
 <
 AddonSearchResult
 >
@@ -3126,7 +3126,7 @@ mapping
 *
 returns
 {
-array
+Array
 <
 AddonSearchResult
 >
@@ -3148,7 +3148,7 @@ mapped
 *
 returns
 {
-array
+Array
 <
 string
 >
@@ -3190,7 +3190,7 @@ equivalents
 *
 returns
 {
-array
+Array
 <
 string
 >
@@ -3458,7 +3458,7 @@ cache
 *
 returns
 {
-array
+Array
 <
 AddonSearchResult
 >
@@ -6060,7 +6060,7 @@ ons
 *
 param
 {
-array
+Array
 <
 AddonSearchResult
 >
@@ -6160,7 +6160,7 @@ database
 *
 param
 {
-array
+Array
 <
 AddonSearchResult
 >
@@ -6216,7 +6216,7 @@ database
 *
 param
 {
-array
+Array
 <
 AddonSearchResult
 >

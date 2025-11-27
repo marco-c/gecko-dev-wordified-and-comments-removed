@@ -3145,7 +3145,7 @@ videos
 *
 param
 {
-Object
+object
 }
 object
 *
@@ -3474,7 +3474,7 @@ button
 *
 param
 {
-String
+string
 }
 dataL10nId
 The
@@ -4893,7 +4893,7 @@ windows
 *
 param
 {
-Object
+object
 }
 closeData
 *
@@ -9267,7 +9267,7 @@ of
 *
 returns
 {
-array
+Array
 }
 *
 Size

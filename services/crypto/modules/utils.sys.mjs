@@ -282,7 +282,7 @@ bytes
 *
 returns
 {
-String
+string
 }
 Octet
 string
@@ -866,7 +866,7 @@ string
 *
 param
 {
-Number
+number
 }
 len
 Desired
@@ -1072,7 +1072,7 @@ info
 *
 param
 {
-Number
+number
 }
 len
 Desired

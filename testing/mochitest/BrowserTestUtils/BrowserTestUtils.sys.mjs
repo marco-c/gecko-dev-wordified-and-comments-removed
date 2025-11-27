@@ -588,9 +588,9 @@ tab
 *
 param
 {
-Object
+object
 |
-String
+string
 }
 options
 *
@@ -2502,7 +2502,7 @@ options
 *
 param
 {
-Boolean
+boolean
 }
 [
 options
@@ -3485,7 +3485,7 @@ load
 *
 param
 {
-Boolean
+boolean
 }
 aboutBlank
 [
@@ -3691,7 +3691,7 @@ browser
 *
 param
 {
-String
+string
 }
 expectedURI
 (
@@ -4033,7 +4033,7 @@ browser
 *
 param
 {
-String
+string
 }
 expectedURI
 (
@@ -4052,7 +4052,7 @@ against
 *
 param
 {
-Boolean
+boolean
 }
 checkAborts
 (
@@ -4241,7 +4241,7 @@ browser
 *
 param
 {
-String
+string
 }
 expectedURI
 (
@@ -5132,7 +5132,7 @@ loaded
 *
 param
 {
-Object
+object
 }
 aParams
 *
@@ -6555,7 +6555,7 @@ resolving
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -9892,7 +9892,7 @@ mutations
 *
 param
 {
-Object
+object
 }
 options
 The
@@ -10694,7 +10694,7 @@ edge
 *
 param
 {
-Object
+object
 }
 event
 object
@@ -11029,7 +11029,7 @@ edge
 *
 param
 {
-Object
+object
 }
 event
 object
@@ -11214,7 +11214,7 @@ used
 *
 param
 {
-String
+string
 }
 message
 *
@@ -11609,7 +11609,7 @@ reloaded
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -11623,7 +11623,7 @@ reload
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -11656,7 +11656,7 @@ reload
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -13632,7 +13632,7 @@ value
 *
 param
 {
-String
+string
 }
 attr
 *
@@ -13658,7 +13658,7 @@ attribute
 *
 param
 {
-String
+string
 }
 value
 (
@@ -13801,7 +13801,7 @@ attribute
 *
 param
 {
-String
+string
 }
 attr
 *
@@ -13998,7 +13998,7 @@ function
 *
 param
 {
-String
+string
 }
 char
 *
@@ -14142,7 +14142,7 @@ function
 *
 param
 {
-String
+string
 }
 key
 *
@@ -14158,7 +14158,7 @@ synthesizeKey
 *
 param
 {
-Object
+object
 }
 event
 *
@@ -14290,7 +14290,7 @@ function
 *
 param
 {
-Object
+object
 }
 event
 *
@@ -14433,7 +14433,7 @@ function
 *
 param
 {
-Object
+object
 }
 event
 *
@@ -14605,7 +14605,7 @@ notification
 *
 param
 {
-String
+string
 }
 notificationValue
 *
@@ -14742,7 +14742,7 @@ appear
 *
 param
 {
-String
+string
 }
 notificationValue
 *
@@ -14954,7 +14954,7 @@ transition
 *
 param
 {
-Number
+number
 }
 timeout
 *
@@ -15253,7 +15253,7 @@ necessary
 *
 param
 {
-String
+string
 }
 aboutModule
 *
@@ -15267,7 +15267,7 @@ page
 *
 param
 {
-String
+string
 }
 pageURI
 *
@@ -15284,7 +15284,7 @@ to
 *
 param
 {
-Number
+number
 }
 flags
 *
@@ -17098,7 +17098,7 @@ to
 *
 param
 {
-String
+string
 [
 ]
 }
@@ -17183,7 +17183,7 @@ to
 *
 param
 {
-String
+string
 [
 ]
 }

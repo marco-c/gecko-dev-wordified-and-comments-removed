@@ -1031,7 +1031,7 @@ on
 *
 param
 {
-String
+string
 }
 recipeId
 the
@@ -1044,7 +1044,7 @@ remove
 *
 param
 {
-String
+string
 }
 reason
 the
@@ -1201,7 +1201,7 @@ study
 *
 param
 {
-String
+string
 }
 experimentName
 the
@@ -1214,7 +1214,7 @@ remove
 *
 param
 {
-String
+string
 }
 reason
 the

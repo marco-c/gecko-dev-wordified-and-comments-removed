@@ -286,7 +286,7 @@ FeatureCallout
 *
 typedef
 {
-Object
+object
 }
 FeatureCalloutOptions
 *
@@ -309,11 +309,11 @@ property
 {
 name
 :
-String
+string
 defaultValue
 ?
 :
-String
+string
 }
 }
 [
@@ -389,7 +389,7 @@ optional
 *
 property
 {
-String
+string
 }
 [
 location
@@ -413,7 +413,7 @@ telemetry
 *
 property
 {
-String
+string
 }
 context
 either
@@ -1294,13 +1294,13 @@ break
 *
 typedef
 {
-Object
+object
 }
 AdvanceScreensOptions
 *
 property
 {
-Boolean
+boolean
 |
 "
 actionResult
@@ -1356,7 +1356,7 @@ true
 *
 property
 {
-String
+string
 }
 [
 id
@@ -1410,7 +1410,7 @@ tour
 *
 property
 {
-Number
+number
 }
 [
 direction
@@ -3918,7 +3918,7 @@ frame
 *
 typedef
 {
-Object
+object
 }
 PanelPosition
 Specifies
@@ -3969,7 +3969,7 @@ callout_attachment
 *
 property
 {
-String
+string
 }
 [
 panel_position_string
@@ -4015,7 +4015,7 @@ callout_attachment
 *
 property
 {
-Number
+number
 }
 [
 offset_x
@@ -4038,7 +4038,7 @@ direction
 *
 property
 {
-Number
+number
 }
 [
 offset_y
@@ -4355,7 +4355,7 @@ default
 *
 typedef
 {
-Object
+object
 }
 PositionOverride
 CSS
@@ -4447,7 +4447,7 @@ element
 *
 property
 {
-String
+string
 }
 [
 top
@@ -4455,7 +4455,7 @@ top
 *
 property
 {
-String
+string
 }
 [
 left
@@ -4463,7 +4463,7 @@ left
 *
 property
 {
-String
+string
 }
 [
 right
@@ -4471,7 +4471,7 @@ right
 *
 property
 {
-String
+string
 }
 [
 bottom
@@ -4484,7 +4484,7 @@ bottom
 *
 typedef
 {
-Object
+object
 }
 AutoFocusOptions
 For
@@ -4496,7 +4496,7 @@ feature
 *
 property
 {
-String
+string
 }
 [
 selector
@@ -4555,7 +4555,7 @@ button
 *
 property
 {
-Boolean
+boolean
 }
 [
 use_defaults
@@ -4616,13 +4616,13 @@ true
 *
 typedef
 {
-Object
+object
 }
 Anchor
 *
 property
 {
-String
+string
 }
 selector
 CSS
@@ -4752,7 +4752,7 @@ element
 *
 property
 {
-Boolean
+boolean
 }
 [
 hide_arrow
@@ -4766,7 +4766,7 @@ arrow
 *
 property
 {
-Boolean
+boolean
 }
 [
 no_open_on_anchor
@@ -4836,7 +4836,7 @@ active
 *
 property
 {
-Number
+number
 }
 [
 arrow_width
@@ -6802,7 +6802,7 @@ panelPosition
 *
 returns
 {
-String
+string
 |
 null
 }
@@ -8670,7 +8670,7 @@ position
 *
 param
 {
-String
+string
 }
 position
 one
@@ -11553,7 +11553,7 @@ present
 *
 param
 {
-String
+string
 }
 name
 *
@@ -12476,7 +12476,7 @@ executes
 *
 param
 {
-Object
+object
 }
 [
 message
@@ -12494,7 +12494,7 @@ one
 *
 param
 {
-Number
+number
 }
 [
 screenIndex
@@ -12951,7 +12951,7 @@ returns
 {
 Promise
 <
-Object
+object
 >
 }
 the
@@ -13048,7 +13048,7 @@ returns
 {
 Promise
 <
-Boolean
+boolean
 >
 }
 whether
@@ -13182,7 +13182,7 @@ listeners
 *
 typedef
 {
-Object
+object
 }
 PageEventListenerConfig
 *
@@ -13209,7 +13209,7 @@ fires
 *
 typedef
 {
-Object
+object
 }
 PageEventListenerParams
 See
@@ -13221,7 +13221,7 @@ mjs
 *
 property
 {
-String
+string
 }
 type
 Event
@@ -13235,7 +13235,7 @@ click
 *
 property
 {
-String
+string
 }
 [
 selectors
@@ -13268,13 +13268,13 @@ options
 *
 typedef
 {
-Object
+object
 }
 PageEventListenerOptions
 *
 property
 {
-Boolean
+boolean
 }
 [
 capture
@@ -13286,7 +13286,7 @@ phase
 *
 property
 {
-Boolean
+boolean
 }
 [
 once
@@ -13299,7 +13299,7 @@ event
 *
 property
 {
-Boolean
+boolean
 }
 [
 preventDefault
@@ -13310,7 +13310,7 @@ action
 *
 property
 {
-Number
+number
 }
 [
 interval
@@ -13347,7 +13347,7 @@ timer
 *
 property
 {
-Boolean
+boolean
 }
 [
 every_window
@@ -13368,7 +13368,7 @@ interval
 *
 typedef
 {
-Object
+object
 }
 PageEventListenerAction
 Action
@@ -13378,7 +13378,7 @@ AboutWelcomeParent
 *
 property
 {
-String
+string
 }
 [
 type
@@ -13393,7 +13393,7 @@ OPEN_URL
 *
 property
 {
-Object
+object
 }
 [
 data
@@ -13421,7 +13421,7 @@ screen
 *
 property
 {
-Boolean
+boolean
 |
 "
 actionResult
@@ -13435,7 +13435,7 @@ callout
 *
 property
 {
-Boolean
+boolean
 |
 "
 actionResult
@@ -13449,7 +13449,7 @@ callout
 *
 property
 {
-Boolean
+boolean
 }
 [
 needsAwait
@@ -13987,7 +13987,7 @@ for
 *
 returns
 {
-String
+string
 }
 Computed
 event
@@ -14636,7 +14636,7 @@ argument
 *
 param
 {
-Object
+object
 }
 [
 message
@@ -14654,7 +14654,7 @@ returns
 {
 Promise
 <
-Boolean
+boolean
 >
 }
 true
@@ -15259,7 +15259,7 @@ rendering
 *
 typedef
 {
-Object
+object
 }
 FeatureCalloutTheme
 An
@@ -15303,7 +15303,7 @@ values
 *
 property
 {
-String
+string
 }
 [
 preset
@@ -15397,7 +15397,7 @@ theme
 *
 property
 {
-Boolean
+boolean
 }
 [
 simulateContent
@@ -15505,7 +15505,7 @@ viewer
 *
 typedef
 {
-Object
+object
 }
 ColorScheme
 An
@@ -15927,7 +15927,7 @@ container
 *
 param
 {
-String
+string
 }
 name
 Name
@@ -15939,7 +15939,7 @@ property
 *
 param
 {
-String
+string
 |
 void
 }
@@ -16222,7 +16222,7 @@ type
 {
 Object
 <
-String
+string
 FeatureCalloutTheme
 >
 }

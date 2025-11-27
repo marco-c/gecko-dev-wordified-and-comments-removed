@@ -714,7 +714,7 @@ modules
 *
 return
 {
-Object
+object
 }
 The
 imported

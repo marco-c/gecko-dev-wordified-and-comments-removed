@@ -1699,7 +1699,7 @@ actions
 *
 param
 {
-Object
+object
 }
 pref
 -
