@@ -2812,7 +2812,7 @@ visibilityThreshold
 :
 0
 .
-7
+6
 videoWrapperScriptPath
 :
 "
