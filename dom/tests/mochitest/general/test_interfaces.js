@@ -8327,6 +8327,16 @@ true
 name
 :
 "
+ViewTransitionTypeSet
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 VisualViewport
 "
 insecureContext
