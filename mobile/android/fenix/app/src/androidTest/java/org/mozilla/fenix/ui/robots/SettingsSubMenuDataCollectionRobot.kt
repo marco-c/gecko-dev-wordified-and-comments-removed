@@ -81,7 +81,7 @@ ui
 .
 test
 .
-assertIsOff
+assertIsNotSelected
 import
 androidx
 .
@@ -91,7 +91,7 @@ ui
 .
 test
 .
-assertIsOn
+assertIsSelected
 import
 androidx
 .
@@ -697,7 +697,7 @@ useUnmergedTree
 true
 )
 .
-assertIsOn
+assertIsSelected
 (
 )
 Log
@@ -751,7 +751,7 @@ useUnmergedTree
 true
 )
 .
-assertIsOff
+assertIsNotSelected
 (
 )
 Log
@@ -845,7 +845,7 @@ useUnmergedTree
 true
 )
 .
-assertIsOn
+assertIsSelected
 (
 )
 Log
@@ -896,7 +896,7 @@ useUnmergedTree
 true
 )
 .
-assertIsOff
+assertIsNotSelected
 (
 )
 Log
