@@ -75,3 +75,17 @@ Learning
 Frontend
 "
 )
+MOZ_SRC_FILES
++
+=
+[
+"
+modules
+/
+AIWindow
+.
+sys
+.
+mjs
+"
+]
