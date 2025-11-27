@@ -54722,6 +54722,12 @@ aBuilder
 aLists
 )
 ;
+DisplayAbsoluteContinuations
+(
+aBuilder
+aLists
+)
+;
 }
 typedef
 CSSOrderAwareFrameIterator
