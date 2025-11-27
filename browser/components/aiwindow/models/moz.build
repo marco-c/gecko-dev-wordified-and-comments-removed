@@ -86,6 +86,13 @@ sys
 .
 mjs
 "
+"
+IntentClassifier
+.
+sys
+.
+mjs
+"
 ]
 XPCSHELL_TESTS_MANIFESTS
 +

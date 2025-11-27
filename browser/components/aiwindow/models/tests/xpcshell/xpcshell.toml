@@ -42,3 +42,10 @@ test_InsightsHistorySource
 js
 "
 ]
+[
+"
+test_intent_classifier
+.
+js
+"
+]
