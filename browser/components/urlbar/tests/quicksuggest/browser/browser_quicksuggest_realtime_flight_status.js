@@ -780,7 +780,7 @@ departure_date
 :
 "
 Mon
-September
+Sep
 1
 "
 arrival_time
@@ -851,7 +851,7 @@ departure_date
 :
 "
 Tue
-September
+Sep
 2
 "
 arrival_time
@@ -944,7 +944,7 @@ departure_date
 :
 "
 Wed
-September
+Sep
 3
 "
 arrival_time
@@ -1029,7 +1029,7 @@ departure_date
 :
 "
 Thu
-September
+Sep
 4
 "
 arrival_time
@@ -1665,7 +1665,7 @@ departure_date
 :
 "
 Fri
-September
+Sep
 5
 "
 arrival_time
@@ -1740,7 +1740,7 @@ departure_date
 :
 "
 Sat
-September
+Sep
 6
 "
 arrival_time
@@ -1835,7 +1835,7 @@ departure_date
 :
 "
 Sun
-September
+Sep
 7
 "
 arrival_time

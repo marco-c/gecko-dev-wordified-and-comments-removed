@@ -1081,7 +1081,7 @@ undefined
 month
 :
 "
-long
+short
 "
 day
 :
