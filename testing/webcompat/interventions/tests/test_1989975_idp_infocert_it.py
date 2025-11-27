@@ -19,13 +19,7 @@ SUPPORTED_CSS
 =
 "
 #
-banner
--
-accept
--
-btn
--
-1
+icIdName
 "
 UNSUPPORTED_CSS
 =

@@ -1,5 +1,9 @@
 import
 pytest
+from
+webdriver
+import
+NoSuchElementException
 URL
 =
 "
@@ -111,6 +115,9 @@ none
 "
 )
     
+try
+:
+        
 client
 .
 await_css
@@ -124,6 +131,12 @@ True
 click
 (
 )
+    
+except
+NoSuchElementException
+:
+        
+pass
     
 client
 .
@@ -202,6 +215,9 @@ none
 "
 )
     
+try
+:
+        
 client
 .
 await_css
@@ -215,6 +231,12 @@ True
 click
 (
 )
+    
+except
+NoSuchElementException
+:
+        
+pass
     
 client
 .
