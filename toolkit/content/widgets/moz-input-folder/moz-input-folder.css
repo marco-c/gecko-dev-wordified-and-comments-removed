@@ -196,3 +196,17 @@ inline
 )
 ;
 }
+#
+choose
+-
+folder
+-
+button
+{
+white
+-
+space
+:
+nowrap
+;
+}
