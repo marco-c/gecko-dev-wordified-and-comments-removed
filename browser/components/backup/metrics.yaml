@@ -3902,10 +3902,6 @@ sanitizeOnShutdown
 selectable
 profiles
 "
-"
-os
-version
-"
 .
 bugs
 :

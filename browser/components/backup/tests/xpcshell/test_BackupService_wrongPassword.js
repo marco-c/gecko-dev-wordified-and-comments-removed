@@ -145,16 +145,6 @@ wrongPasswordTestBackup
 "
 )
 ;
-bs
-=
-new
-BackupService
-(
-{
-FakeBackupResource1
-}
-)
-;
 await
 bs
 .
@@ -194,10 +184,6 @@ sandbox
 restore
 (
 )
-;
-bs
-=
-null
 ;
 await
 IOUtils
