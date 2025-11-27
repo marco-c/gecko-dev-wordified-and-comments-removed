@@ -3789,7 +3789,6 @@ encoder
 .
 encode
 (
-&
 [
 0
 ;

@@ -2131,14 +2131,6 @@ iter
 value
 (
 )
-.
-as_bytes
-(
-)
-.
-to_vec
-(
-)
 ;
 qtrace
 !
@@ -2180,7 +2172,6 @@ lookup
 (
 &
 name
-&
 value
 can_block
 )
@@ -2255,7 +2246,6 @@ encode_literal_with_name_ref
 (
 static_table
 index
-&
 value
 )
 ;
@@ -2305,7 +2295,6 @@ send_and_insert
 conn
 &
 name
-&
 value
 )
 {
@@ -2345,7 +2334,6 @@ encode_literal_with_name_literal
 (
 &
 name
-&
 value
 )
 ;
@@ -2359,7 +2347,6 @@ encode_literal_with_name_literal
 (
 &
 name
-&
 value
 )
 ;

@@ -41,6 +41,12 @@ crate
 :
 :
 {
+stateless_reset
+:
+:
+Token
+as
+Srt
 tparams
 :
 :
@@ -1411,7 +1417,10 @@ vec
 [
 77
 ;
-16
+Srt
+:
+:
+LEN
 ]
 )
 )

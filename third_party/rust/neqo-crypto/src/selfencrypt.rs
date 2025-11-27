@@ -457,7 +457,6 @@ enc
 .
 encode
 (
-&
 salt
 )
 ;

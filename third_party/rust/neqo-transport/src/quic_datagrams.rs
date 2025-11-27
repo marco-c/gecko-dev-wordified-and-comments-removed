@@ -758,6 +758,11 @@ first
 datagram
 in
 queue
+(
+head
+-
+drop
+)
 .
 "
 )

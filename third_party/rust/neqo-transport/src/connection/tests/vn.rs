@@ -94,7 +94,6 @@ packet
 :
 {
 self
-PACKET_BIT_LONG
 }
 tparams
 :
@@ -431,14 +430,16 @@ encoder
 .
 encode_byte
 (
-PACKET_BIT_LONG
+packet
+:
+:
+BIT_LONG
 )
 ;
 encoder
 .
 encode
 (
-&
 [
 0
 ;

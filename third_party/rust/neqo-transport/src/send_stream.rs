@@ -9120,12 +9120,6 @@ fc
 :
 SenderFlowControl
 packet
-:
-:
-{
-self
-PACKET_LIMIT
-}
 recovery
 :
 :
@@ -9151,7 +9145,7 @@ stats
 FrameStats
 ConnectionEvents
 StreamId
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 }
 ;
 fn
@@ -11633,7 +11627,7 @@ vec
 [
 1
 ;
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 ]
 ;
 assert_eq
@@ -11646,7 +11640,7 @@ send
 &
 big_buf
 )
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 )
 ;
 assert
@@ -11675,7 +11669,7 @@ len
 )
 =
 =
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 &
 &
 x
@@ -11701,7 +11695,7 @@ ch
 let
 one_byte_from_end
 =
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 as
 u64
 -
@@ -11785,7 +11779,7 @@ txb
 mark_as_sent
 (
 0
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 )
 ;
 assert
@@ -11868,7 +11862,7 @@ ch
 let
 five_bytes_from_end
 =
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 as
 u64
 -
@@ -12089,7 +12083,7 @@ len
 start
 =
 =
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 as
 u64
 &
@@ -12143,7 +12137,7 @@ vec
 [
 1
 ;
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 ]
 ;
 assert_eq
@@ -12156,7 +12150,7 @@ send
 &
 big_buf
 )
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 )
 ;
 assert
@@ -12185,7 +12179,7 @@ len
 )
 =
 =
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 &
 &
 x
@@ -12211,7 +12205,7 @@ ch
 let
 forty_bytes_from_end
 =
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 as
 u64
 -
@@ -12361,7 +12355,7 @@ ch
 let
 range_a_start
 =
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 as
 u64
 +
@@ -12440,7 +12434,7 @@ ch
 let
 ten_bytes_past_end
 =
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 as
 u64
 +
@@ -12744,7 +12738,7 @@ vec
 [
 4
 ;
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 +
 100
 ]
@@ -12761,7 +12755,7 @@ big_buf
 [
 .
 .
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 ]
 )
 .
@@ -12797,7 +12791,7 @@ big_buf
 [
 .
 .
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 ]
 )
 .
@@ -12831,7 +12825,7 @@ big_buf
 [
 .
 .
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 ]
 )
 .
@@ -12854,7 +12848,7 @@ borrow_mut
 .
 update
 (
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 as
 u64
 )
@@ -12878,7 +12872,7 @@ assert_eq
 !
 (
 res
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 -
 4096
 )
@@ -13334,7 +13328,7 @@ b
 a
 '
 ;
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 ]
 ;
 assert_eq
@@ -13351,7 +13345,7 @@ big_buf
 unwrap
 (
 )
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 )
 ;
 }
@@ -13954,7 +13948,10 @@ None
 u8
 ]
 >
-PACKET_LIMIT
+packet
+:
+:
+LIMIT
 )
 ;
 let
@@ -14523,7 +14520,10 @@ None
 u8
 ]
 >
-PACKET_LIMIT
+packet
+:
+:
+LIMIT
 )
 ;
 ss
@@ -15036,7 +15036,10 @@ None
 u8
 ]
 >
-PACKET_LIMIT
+packet
+:
+:
+LIMIT
 )
 ;
 let
@@ -15418,7 +15421,10 @@ None
 u8
 ]
 >
-PACKET_LIMIT
+packet
+:
+:
+LIMIT
 )
 ;
 let
@@ -16016,7 +16022,10 @@ None
 u8
 ]
 >
-PACKET_LIMIT
+packet
+:
+:
+LIMIT
 )
 ;
 let
@@ -16353,7 +16362,10 @@ None
 u8
 ]
 >
-PACKET_LIMIT
+packet
+:
+:
+LIMIT
 )
 ;
 let
@@ -17208,7 +17220,10 @@ None
 u8
 ]
 >
-PACKET_LIMIT
+packet
+:
+:
+LIMIT
 )
 ;
 let

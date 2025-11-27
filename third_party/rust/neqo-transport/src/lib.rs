@@ -194,6 +194,9 @@ mod
 sni
 ;
 mod
+stateless_reset
+;
+mod
 stats
 ;
 pub
@@ -243,7 +246,12 @@ connection
 params
 :
 :
+{
 ConnectionParameters
+INITIAL_LOCAL_MAX_DATA
+INITIAL_LOCAL_MAX_STREAM_DATA
+MAX_LOCAL_MAX_STREAM_DATA
+}
 Connection
 Output
 OutputBatch
@@ -273,10 +281,6 @@ quic_datagrams
 :
 :
 DatagramTracking
-recv_stream
-:
-:
-INITIAL_RECV_WINDOW_SIZE
 rtt
 :
 :
@@ -285,6 +289,10 @@ sni
 :
 :
 find_sni
+stateless_reset
+:
+:
+Token
 stats
 :
 :

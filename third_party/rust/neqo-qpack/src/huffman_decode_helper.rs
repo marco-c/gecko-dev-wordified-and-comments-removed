@@ -49,7 +49,7 @@ Option
 <
 Box
 <
-HuffmanDecoderNode
+Self
 >
 >
 ;

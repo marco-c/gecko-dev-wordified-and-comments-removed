@@ -79,6 +79,10 @@ clippy
 :
 :
 allow_attributes
+clippy
+:
+:
+allow_attributes_without_reason
 non_camel_case_types
 non_snake_case
 clippy

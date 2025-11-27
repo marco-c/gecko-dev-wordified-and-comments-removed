@@ -572,6 +572,7 @@ value
 {
 Some
 (
+b
 "
 webtransport
 "
@@ -602,6 +603,7 @@ headers
 }
 Some
 (
+b
 "
 connect
 -

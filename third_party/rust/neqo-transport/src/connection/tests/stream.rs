@@ -64,6 +64,13 @@ crate
 :
 :
 {
+connection
+:
+:
+params
+:
+:
+INITIAL_LOCAL_MAX_STREAM_DATA
 events
 :
 :
@@ -73,10 +80,6 @@ frame
 :
 FrameType
 packet
-recv_stream
-:
-:
-INITIAL_RECV_WINDOW_SIZE
 send_stream
 :
 :
@@ -3046,7 +3049,7 @@ stream_id
 unwrap
 (
 )
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 -
 SMALL_MAX_DATA
 )
@@ -6156,7 +6159,7 @@ assert_eq
 !
 (
 written
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 )
 ;
 }

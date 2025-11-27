@@ -7420,7 +7420,7 @@ frame_count
 2
 )
 ;
-assert_ne
+assert_eq
 !
 (
 ack
