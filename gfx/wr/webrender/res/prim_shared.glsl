@@ -60,8 +60,8 @@ MPL
 include
 rect
 render_task
+gpu_cache
 transform
-image_source
 #
 define
 EXTEND_MODE_CLAMP

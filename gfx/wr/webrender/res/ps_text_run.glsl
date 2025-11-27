@@ -60,7 +60,6 @@ MPL
 include
 shared
 prim_shared
-gpu_buffer
 flat
 varying
 mediump
@@ -305,7 +304,7 @@ GLYPHS_PER_GPU_BLOCK
 vec4
 data
 =
-fetch_from_gpu_buffer_1f
+fetch_from_gpu_cache_1
 (
 glyph_address
 )
@@ -380,7 +379,7 @@ data
 2
 ]
 =
-fetch_from_gpu_buffer_2f
+fetch_from_gpu_cache_2
 (
 address
 )
@@ -425,7 +424,7 @@ address
 vec4
 data
 =
-fetch_from_gpu_buffer_1f
+fetch_from_gpu_cache_1
 (
 address
 )

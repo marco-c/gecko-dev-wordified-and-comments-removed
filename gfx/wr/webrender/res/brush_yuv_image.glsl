@@ -66,7 +66,6 @@ shared
 prim_shared
 brush
 yuv
-image_source
 varying
 highp
 vec2
@@ -157,7 +156,7 @@ address
 vec4
 data
 =
-fetch_from_gpu_buffer_1f
+fetch_from_gpu_cache_1
 (
 address
 )

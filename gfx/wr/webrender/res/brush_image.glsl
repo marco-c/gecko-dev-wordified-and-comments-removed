@@ -65,7 +65,6 @@ include
 shared
 prim_shared
 brush
-image_source
 /
 /
 Interpolated
@@ -219,7 +218,7 @@ vec4
 ]
 raw_data
 =
-fetch_from_gpu_buffer_3f
+fetch_from_gpu_cache_3
 (
 address
 )
