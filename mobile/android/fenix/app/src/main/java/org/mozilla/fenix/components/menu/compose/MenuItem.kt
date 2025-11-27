@@ -1761,6 +1761,14 @@ badgeText
 badgeText
 )
 }
+if
+(
+onSettingsClick
+!
+=
+null
+)
+{
 VerticalDivider
 (
 )
@@ -1779,10 +1787,6 @@ dp
 onClick
 =
 onSettingsClick
-?
-:
-{
-}
 )
 {
 Icon
@@ -1808,6 +1812,7 @@ contentDescription
 =
 null
 )
+}
 }
 }
 }

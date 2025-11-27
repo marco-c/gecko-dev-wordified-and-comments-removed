@@ -540,6 +540,9 @@ WebExtensionsMenuBinding
 browserStore
 =
 browserStore
+customTabId
+=
+null
 menuStore
 =
 menuStore
@@ -784,6 +787,9 @@ WebExtensionsMenuBinding
 browserStore
 =
 browserStore
+customTabId
+=
+null
 menuStore
 =
 menuStore
@@ -988,6 +994,9 @@ WebExtensionsMenuBinding
 browserStore
 =
 browserStore
+customTabId
+=
+null
 menuStore
 =
 menuStore
@@ -1234,6 +1243,9 @@ WebExtensionsMenuBinding
 browserStore
 =
 browserStore
+customTabId
+=
+null
 menuStore
 =
 menuStore
@@ -1503,6 +1515,9 @@ WebExtensionsMenuBinding
 browserStore
 =
 browserStore
+customTabId
+=
+null
 menuStore
 =
 menuStore
