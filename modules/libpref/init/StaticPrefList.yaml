@@ -59186,6 +59186,9 @@ true
 mirror
 :
 once
+#
+ifdef
+XP_DARWIN
 -
 name
 :
@@ -59205,6 +59208,8 @@ value
 mirror
 :
 always
+#
+endif
 #
 -
 -
