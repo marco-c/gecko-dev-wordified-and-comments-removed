@@ -814,6 +814,13 @@ js
 ]
 [
 "
+browser_animation_iframe
+.
+js
+"
+]
+[
+"
 browser_animation_indication
 -
 bar
