@@ -413,13 +413,6 @@ js
 ]
 [
 "
-test_SuperfluousAuth
-.
-js
-"
-]
-[
-"
 test_URIs
 .
 js

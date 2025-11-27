@@ -71,14 +71,6 @@ dontUseCachedWWWCreds
 must_use
 ]
 void
-checkForSuperfluousAuth
-(
-)
-;
-[
-must_use
-]
-void
 disconnect
 (
 in

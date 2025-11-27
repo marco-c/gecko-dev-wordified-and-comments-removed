@@ -502,13 +502,6 @@ sjs
 ]
 [
 "
-browser_superfluos_auth
-.
-js
-"
-]
-[
-"
 browser_tlds
 .
 js
