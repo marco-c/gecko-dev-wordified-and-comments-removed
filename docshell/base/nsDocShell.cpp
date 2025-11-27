@@ -48259,6 +48259,13 @@ PolicyContainer
 mContentTypeHint
 )
 ;
+entry
+-
+>
+SetTransient
+(
+)
+;
 mozilla
 :
 :
