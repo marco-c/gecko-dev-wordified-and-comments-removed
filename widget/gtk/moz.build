@@ -214,6 +214,11 @@ MozContainer
 h
 "
 "
+nsAppShell
+.
+h
+"
+"
 nsGTKToolkit
 .
 h

@@ -64,6 +64,13 @@ h
 "
 #
 include
+"
+nsAppShell
+.
+h
+"
+#
+include
 <
 dlfcn
 .
@@ -768,6 +775,13 @@ remoteInterfaceName
 get
 (
 )
+)
+;
+nsAppShell
+:
+:
+DBusConnectionCheck
+(
 )
 ;
 RefPtr

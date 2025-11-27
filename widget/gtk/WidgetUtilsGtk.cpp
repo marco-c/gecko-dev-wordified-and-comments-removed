@@ -184,6 +184,13 @@ AsyncDBus
 h
 "
 #
+include
+"
+nsAppShell
+.
+h
+"
+#
 endif
 #
 ifdef
@@ -813,6 +820,13 @@ GUniquePtr
 GError
 >
 error
+;
+nsAppShell
+:
+:
+DBusConnectionCheck
+(
+)
 ;
 RefPtr
 <
