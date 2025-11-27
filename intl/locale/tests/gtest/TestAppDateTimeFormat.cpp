@@ -2822,7 +2822,7 @@ ASSERT_STREQ
 (
 "
 01
-.
+/
 1970
 "
 NS_ConvertUTF16toUTF8
