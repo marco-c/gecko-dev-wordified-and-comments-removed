@@ -409,8 +409,6 @@ HandleValue
 flags
 MutableHandleValue
 rval
-HandleObject
-newTarget
 )
 ;
 [

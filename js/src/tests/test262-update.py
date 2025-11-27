@@ -44,6 +44,12 @@ info
 "
         
 "
+legacy
+-
+regexp
+"
+        
+"
 source
 -
 phase
@@ -301,13 +307,6 @@ RELEASE_OR_BETA
 =
 set
 (
-[
-"
-legacy
--
-regexp
-"
-]
 )
 SHELL_OPTIONS
 =
