@@ -421,7 +421,7 @@ true
 *
 param
 {
-Object
+object
 }
 testParameters
 *

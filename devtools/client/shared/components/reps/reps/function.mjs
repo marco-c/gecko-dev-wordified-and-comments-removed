@@ -770,7 +770,7 @@ name
 *
 param
 {
-Object
+object
 }
 grip
 :
@@ -779,7 +779,7 @@ grip
 *
 param
 {
-Object
+object
 }
 props
 :
@@ -1048,7 +1048,7 @@ html
 *
 param
 {
-String
+string
 }
 name
 :

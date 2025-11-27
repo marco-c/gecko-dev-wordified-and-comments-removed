@@ -191,7 +191,7 @@ actor
 *
 param
 {
-Object
+object
 }
 watcherDataObject
 *
@@ -423,7 +423,7 @@ message
 *
 param
 {
-String
+string
 }
 message
 *

@@ -1071,7 +1071,7 @@ actor
 *
 param
 {
-Object
+object
 }
 watcherDataObject
 *

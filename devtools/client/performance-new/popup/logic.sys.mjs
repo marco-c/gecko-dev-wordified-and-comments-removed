@@ -109,7 +109,7 @@ ViewController
 *
 typedef
 {
-Object
+object
 }
 State
 -

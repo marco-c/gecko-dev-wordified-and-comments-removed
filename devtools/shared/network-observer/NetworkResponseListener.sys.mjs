@@ -257,7 +257,7 @@ constructor
 *
 param
 {
-Object
+object
 }
 httpActivity
 *
@@ -411,7 +411,7 @@ received
 *
 type
 {
-Number
+number
 }
 *
 /
@@ -543,7 +543,7 @@ name
 *
 type
 {
-Object
+object
 }
 *
 /
@@ -649,7 +649,7 @@ converter
 *
 type
 {
-Number
+number
 }
 *
 /
@@ -672,7 +672,7 @@ size
 *
 type
 {
-Number
+number
 }
 *
 /
@@ -824,7 +824,7 @@ requests
 *
 type
 {
-Boolean
+boolean
 }
 *
 /
@@ -950,7 +950,7 @@ constructor
 *
 type
 {
-Object
+object
 }
 *
 /

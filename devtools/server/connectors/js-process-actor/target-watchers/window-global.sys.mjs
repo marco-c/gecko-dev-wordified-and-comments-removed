@@ -1775,13 +1775,13 @@ window
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1834,7 +1834,7 @@ disabled
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -3139,7 +3139,7 @@ actor
 *
 param
 {
-Object
+object
 }
 watcherDataObject
 *
@@ -3151,7 +3151,7 @@ windowGlobalChild
 *
 param
 {
-Boolean
+boolean
 }
 isDocumentCreation
 *
@@ -3661,7 +3661,7 @@ hide
 *
 param
 {
-String
+string
 }
 topic
 *
@@ -4169,7 +4169,7 @@ handler
 *
 param
 {
-String
+string
 }
 type
 *
@@ -4179,7 +4179,7 @@ name
 *
 param
 {
-Boolean
+boolean
 }
 persisted
 *
@@ -4698,13 +4698,13 @@ WindowGlobal
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-String
+string
 }
 options
 .
@@ -4712,7 +4712,7 @@ watcherDataObject
 *
 param
 {
-Number
+number
 }
 options
 .

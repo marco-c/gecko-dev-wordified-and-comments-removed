@@ -2986,7 +2986,7 @@ duration
 *
 param
 {
-String
+string
 }
 beforeValue
 *
@@ -3006,7 +3006,7 @@ value
 *
 param
 {
-String
+string
 }
 afterValue
 *
@@ -3025,7 +3025,7 @@ value
 *
 return
 {
-String
+string
 }
 a
 valid

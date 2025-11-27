@@ -1249,7 +1249,7 @@ browserId
 *
 param
 {
-Number
+number
 }
 browserId
 *

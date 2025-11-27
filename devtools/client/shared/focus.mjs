@@ -288,7 +288,7 @@ containter
 *
 param
 {
-Boolean
+boolean
 }
 back
 *

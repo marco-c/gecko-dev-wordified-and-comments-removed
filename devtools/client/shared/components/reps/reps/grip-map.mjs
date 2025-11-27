@@ -839,7 +839,7 @@ index
 *
 param
 {
-Object
+object
 }
 props
 Component
@@ -1042,7 +1042,7 @@ array
 *
 param
 {
-Number
+number
 }
 max
 The

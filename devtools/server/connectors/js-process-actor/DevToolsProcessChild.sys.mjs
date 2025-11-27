@@ -1356,19 +1356,19 @@ actor
 *
 param
 {
-Object
+object
 }
 watcherDataObject
 *
 param
 {
-String
+string
 }
 targetType
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1635,7 +1635,7 @@ actor
 *
 param
 {
-Object
+object
 }
 watcherDataObject
 *
@@ -1717,7 +1717,7 @@ packet
 *
 param
 {
-String
+string
 }
 prefix
 *
@@ -2115,7 +2115,7 @@ set
 *
 param
 {
-String
+string
 }
 watcherActorID
 *
@@ -2132,7 +2132,7 @@ data
 *
 param
 {
-String
+string
 }
 type
 *
@@ -2148,7 +2148,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 entries
@@ -2166,7 +2166,7 @@ data
 *
 param
 {
-String
+string
 }
 updateType
 *
@@ -2699,7 +2699,7 @@ removed
 *
 param
 {
-String
+string
 }
 watcherActorID
 *
@@ -2715,7 +2715,7 @@ data
 *
 param
 {
-String
+string
 }
 }
 type
@@ -2732,7 +2732,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 entries
@@ -3084,7 +3084,7 @@ hide
 *
 param
 {
-String
+string
 }
 topic
 *

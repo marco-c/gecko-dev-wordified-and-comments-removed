@@ -667,7 +667,7 @@ constructor
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1139,7 +1139,7 @@ bytes
 *
 type
 {
-Number
+number
 }
 *
 /
@@ -1231,7 +1231,7 @@ NetworkThrottleManager
 *
 type
 {
-Object
+object
 }
 *
 /

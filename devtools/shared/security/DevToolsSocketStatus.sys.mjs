@@ -159,7 +159,7 @@ sockets
 *
 param
 {
-Object
+object
 =
 }
 options

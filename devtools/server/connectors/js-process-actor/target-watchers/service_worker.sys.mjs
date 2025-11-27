@@ -220,7 +220,7 @@ name
 *
 param
 {
-Object
+object
 }
 watcherDataObject
 *

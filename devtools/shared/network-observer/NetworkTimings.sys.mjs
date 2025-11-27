@@ -138,7 +138,7 @@ data
 *
 param
 {
-Object
+object
 }
 httpActivity
 *
@@ -154,7 +154,7 @@ with
 *
 return
 {
-Object
+object
 }
 *
 This
@@ -1024,7 +1024,7 @@ be
 *
 return
 {
-Object
+object
 }
 *
 A

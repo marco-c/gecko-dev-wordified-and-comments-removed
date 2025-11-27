@@ -1189,7 +1189,7 @@ options
 *
 param
 {
-Object
+object
 }
 The
 root
@@ -1201,7 +1201,7 @@ tree
 *
 param
 {
-Object
+object
 }
 [
 optional
@@ -3432,7 +3432,7 @@ filter
 *
 return
 {
-Boolean
+boolean
 }
 true
 if

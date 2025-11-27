@@ -127,13 +127,8 @@ Services
 .
 wm
 .
-getMostRecentWindow
+getMostRecentBrowserWindow
 (
-"
-navigator
-:
-browser
-"
 )
 ;
 const
@@ -217,7 +212,7 @@ return
 *
 typedef
 {
-Object
+object
 }
 ProfileCaptureResultAndAdditionalInformation
 *

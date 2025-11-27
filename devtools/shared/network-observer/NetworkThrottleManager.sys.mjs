@@ -608,7 +608,7 @@ originalListener
 *
 param
 {
-Number
+number
 }
 bytesPermitted
 The
@@ -625,7 +625,7 @@ sent
 *
 return
 {
-Object
+object
 }
 an
 object
@@ -2282,7 +2282,7 @@ requests
 *
 param
 {
-Object
+object
 }
 An
 object

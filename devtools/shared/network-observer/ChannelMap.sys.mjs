@@ -407,7 +407,7 @@ structure
 *
 property
 {
-Object
+object
 }
 value
 *
@@ -672,7 +672,7 @@ ChannelMap
 *
 return
 {
-Object
+object
 |
 null
 }
@@ -803,7 +803,7 @@ update
 *
 param
 {
-Object
+object
 }
 value
 *

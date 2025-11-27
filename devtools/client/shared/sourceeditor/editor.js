@@ -7733,7 +7733,7 @@ pattern
 *
 param
 {
-String
+string
 }
 className
 -
@@ -7840,7 +7840,7 @@ highlighted
 *
 param
 {
-Boolean
+boolean
 }
 reverse
 -
@@ -7983,7 +7983,7 @@ viewport
 *
 param
 {
-Number
+number
 }
 offsetHorizontalCharacters
 -
@@ -7994,7 +7994,7 @@ offscreen
 *
 param
 {
-Number
+number
 }
 offsetVerticalLines
 -
@@ -8005,7 +8005,7 @@ offscreen
 *
 returns
 {
-Object
+object
 }
 -
 The
@@ -8332,7 +8332,7 @@ selection
 *
 returns
 {
-Object
+object
 }
 cursor
 -

@@ -1967,7 +1967,7 @@ about
 *
 return
 {
-Object
+object
 }
 The
 type

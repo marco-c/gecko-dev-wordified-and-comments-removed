@@ -809,7 +809,7 @@ logged
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -820,7 +820,7 @@ configurations
 *
 param
 {
-Object
+object
 }
 options
 .
@@ -857,7 +857,7 @@ global
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -882,7 +882,7 @@ thread
 *
 param
 {
-String
+string
 }
 options
 .
@@ -901,7 +901,7 @@ traces
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -934,7 +934,7 @@ tests
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1034,7 +1034,7 @@ removed
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1067,7 +1067,7 @@ frames
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1106,7 +1106,7 @@ mousedown
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1147,7 +1147,7 @@ true
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1182,7 +1182,7 @@ throws
 *
 param
 {
-String
+string
 }
 options
 .
@@ -1223,7 +1223,7 @@ traced
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -1246,7 +1246,7 @@ number
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -1275,7 +1275,7 @@ frames
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -3712,7 +3712,7 @@ execution
 *
 param
 {
-String
+string
 }
 reason
 *
@@ -4217,7 +4217,7 @@ disabled
 *
 param
 {
-Boolean
+boolean
 }
 state
 *
@@ -4236,7 +4236,7 @@ stopped
 *
 param
 {
-String
+string
 }
 reason
 *
@@ -5603,7 +5603,7 @@ frame
 *
 param
 {
-Number
+number
 }
 depth
 *
@@ -6003,7 +6003,7 @@ frame
 *
 param
 {
-Number
+number
 }
 depth
 *
@@ -6089,13 +6089,13 @@ frame
 *
 param
 {
-String
+string
 }
 why
 *
 param
 {
-Number
+number
 }
 depth
 *
@@ -6319,7 +6319,7 @@ stdout
 *
 param
 {
-Object
+object
 }
 obj
 *
@@ -6829,7 +6829,7 @@ code
 *
 params
 {
-Object
+object
 }
 options
 (
@@ -7116,7 +7116,7 @@ frame
 *
 param
 {
-Object
+object
 }
 listener
 *
@@ -7370,7 +7370,7 @@ traced
 *
 return
 {
-String
+string
 }
 *
 The
@@ -7542,7 +7542,7 @@ ms
 *
 param
 {
-Number
+number
 }
 duration
 *

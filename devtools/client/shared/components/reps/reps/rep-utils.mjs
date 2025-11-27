@@ -1437,7 +1437,7 @@ string
 *
 param
 {
-String
+string
 }
 str
 *
@@ -1446,7 +1446,7 @@ input
 *
 param
 {
-Boolean
+boolean
 }
 escapeWhitespace
 *
@@ -1463,7 +1463,7 @@ escaped
 *
 return
 {
-String
+string
 }
 the
 escaped
@@ -1895,7 +1895,7 @@ quotes
 *
 param
 {
-String
+string
 }
 *
 name
@@ -1905,7 +1905,7 @@ name
 *
 return
 {
-String
+string
 }
 either
 the
@@ -2895,7 +2895,7 @@ Grip
 *
 param
 {
-Object
+object
 }
 Grip
 from
@@ -3268,7 +3268,7 @@ object
 *
 param
 {
-Object
+object
 }
 Grip
 from
@@ -3551,7 +3551,7 @@ items
 *
 param
 {
-String
+string
 }
 char
 *
@@ -3663,7 +3663,7 @@ declarations
 *
 param
 {
-String
+string
 }
 userProvidedStyle
 CSS
@@ -3688,7 +3688,7 @@ to
 *
 returns
 {
-Object
+object
 }
 Filtered
 CSS
@@ -4302,7 +4302,7 @@ Bug
 *
 param
 {
-String
+string
 }
 className
 :
@@ -4317,7 +4317,7 @@ element
 *
 param
 {
-String
+string
 }
 strToCheck
 :
@@ -4337,7 +4337,7 @@ chars
 *
 returns
 {
-String
+string
 }
 *
 /
@@ -4499,7 +4499,7 @@ be
 *
 param
 {
-String
+string
 }
 str
 :

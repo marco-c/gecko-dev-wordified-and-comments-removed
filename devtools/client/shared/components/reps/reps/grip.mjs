@@ -1534,7 +1534,7 @@ index
 *
 param
 {
-Object
+object
 }
 componentProps
 Grip
@@ -1544,7 +1544,7 @@ props
 *
 param
 {
-Object
+object
 }
 properties
 Properties
@@ -1568,7 +1568,7 @@ properties
 *
 param
 {
-Boolean
+boolean
 }
 suppressQuotes
 true
@@ -1717,7 +1717,7 @@ object
 *
 param
 {
-Object
+object
 }
 properties
 Props
@@ -1726,7 +1726,7 @@ object
 *
 param
 {
-Number
+number
 }
 max
 The
@@ -1915,13 +1915,13 @@ property
 *
 param
 {
-Object
+object
 }
 property
 *
 return
 {
-Object
+object
 }
 Value
 of

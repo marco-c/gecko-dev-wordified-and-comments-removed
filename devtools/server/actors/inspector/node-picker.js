@@ -903,7 +903,7 @@ event
 *
 param
 {
-Boolean
+boolean
 }
 shiftKeyOverride
 :

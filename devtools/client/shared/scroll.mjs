@@ -121,7 +121,7 @@ viewport
 *
 param
 {
-Boolean
+boolean
 }
 centered
 *
@@ -163,7 +163,7 @@ want
 *
 param
 {
-Boolean
+boolean
 }
 smooth
 *
@@ -778,7 +778,7 @@ to
 *
 param
 {
-Object
+object
 |
 undefined
 }

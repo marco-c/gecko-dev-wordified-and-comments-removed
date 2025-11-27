@@ -1707,7 +1707,7 @@ JSONFrame
 *
 property
 {
-String
+string
 }
 frame
 *
@@ -1752,7 +1752,7 @@ object
 *
 property
 {
-Object
+object
 }
 scope
 *

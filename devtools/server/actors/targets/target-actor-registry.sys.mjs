@@ -272,7 +272,7 @@ targets
 *
 param
 {
-Object
+object
 }
 sessionContext
 :
@@ -304,7 +304,7 @@ js
 *
 param
 {
-String
+string
 }
 connectionPrefix
 :
@@ -498,7 +498,7 @@ js
 *
 param
 {
-Number
+number
 }
 browserId
 :
@@ -510,7 +510,7 @@ tab
 *
 returns
 {
-Number
+number
 }
 Number
 of

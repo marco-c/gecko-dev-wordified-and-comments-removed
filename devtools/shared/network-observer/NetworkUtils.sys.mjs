@@ -1409,7 +1409,7 @@ channel
 *
 returns
 {
-Object
+object
 }
 *
 -
@@ -1898,7 +1898,7 @@ properties
 *
 param
 {
-Object
+object
 }
 httpActivity
 *
@@ -2584,7 +2584,7 @@ channel
 *
 return
 {
-Object
+object
 }
 *
 An
@@ -2598,7 +2598,7 @@ property
 {
 Array
 <
-Object
+object
 >
 }
 cookies
@@ -2616,7 +2616,7 @@ property
 {
 Array
 <
-Object
+object
 >
 }
 headers
@@ -2808,7 +2808,7 @@ pairs
 *
 param
 {
-String
+string
 }
 rawHeaders
 *
@@ -2930,7 +2930,7 @@ channel
 *
 return
 {
-Object
+object
 }
 *
 An
@@ -2944,7 +2944,7 @@ property
 {
 Array
 <
-Object
+object
 >
 }
 cookies
@@ -2962,7 +2962,7 @@ property
 {
 Array
 <
-Object
+object
 >
 }
 headers
@@ -4733,7 +4733,7 @@ data
 *
 param
 {
-Object
+object
 }
 resource
 -

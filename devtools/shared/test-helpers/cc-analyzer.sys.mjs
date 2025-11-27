@@ -191,7 +191,7 @@ noteEdge
 *
 param
 {
-Boolean
+boolean
 }
 wantAllTraces
 *

@@ -208,7 +208,7 @@ helper
 *
 param
 {
-Object
+object
 }
 testScope
 *

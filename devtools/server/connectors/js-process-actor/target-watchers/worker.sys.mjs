@@ -857,7 +857,7 @@ actor
 *
 param
 {
-Object
+object
 }
 watcherDataObject
 *
@@ -1796,7 +1796,7 @@ debugger
 *
 param
 {
-Object
+object
 }
 sessionData
 *
@@ -1834,7 +1834,7 @@ check
 *
 param
 {
-String
+string
 }
 targetType
 *
@@ -1847,7 +1847,7 @@ type
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -2389,13 +2389,13 @@ dbg
 *
 param
 {
-String
+string
 }
 workerThreadServerForwardingPrefix
 *
 param
 {
-String
+string
 }
 type
 *
@@ -2421,7 +2421,7 @@ set
 *
 param
 {
-String
+string
 }
 updateType
 *

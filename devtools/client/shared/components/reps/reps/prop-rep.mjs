@@ -376,7 +376,7 @@ value
 *
 param
 {
-Object
+object
 }
 props
 *

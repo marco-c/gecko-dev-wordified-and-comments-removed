@@ -655,6 +655,9 @@ false
 isHTML
 =
 false
+generatedSource
+=
+null
 }
 )
 {
@@ -663,6 +666,20 @@ displayURL
 =
 getDisplayURL
 (
+isPrettyPrinted
+?
+url
+.
+replace
+(
+/
+:
+formatted
+/
+"
+"
+)
+:
 url
 extensionName
 )
@@ -712,6 +729,7 @@ isWasm
 isHTML
 isPrettyPrinted
 isOriginal
+generatedSource
 }
 ;
 }
@@ -721,6 +739,7 @@ createSourceMapOriginalSource
 (
 id
 url
+generatedSource
 )
 {
 return
@@ -732,6 +751,7 @@ url
 isOriginal
 :
 true
+generatedSource
 }
 )
 ;
@@ -742,6 +762,7 @@ createPrettyPrintOriginalSource
 (
 id
 url
+generatedSource
 )
 {
 return
@@ -756,6 +777,7 @@ true
 isPrettyPrinted
 :
 true
+generatedSource
 }
 )
 ;

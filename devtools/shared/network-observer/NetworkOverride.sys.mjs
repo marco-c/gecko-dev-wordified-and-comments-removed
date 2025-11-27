@@ -288,7 +288,7 @@ for
 *
 param
 {
-String
+string
 }
 path
 *

@@ -1848,7 +1848,7 @@ clipboard
 *
 param
 {
-String
+string
 }
 string
 The
@@ -1938,7 +1938,7 @@ scope
 *
 param
 {
-String
+string
 }
 type
 Event
@@ -1947,7 +1947,7 @@ type
 *
 param
 {
-Object
+object
 }
 value
 Event

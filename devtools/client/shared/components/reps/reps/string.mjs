@@ -797,7 +797,7 @@ links
 *
 param
 {
-Object
+object
 }
 An
 options
@@ -900,7 +900,7 @@ returns
 {
 Array
 <
-String
+string
 |
 ReactElement
 >
@@ -1585,7 +1585,7 @@ string
 *
 param
 {
-String
+string
 }
 text
 :
@@ -1670,7 +1670,7 @@ string
 *
 returns
 {
-String
+string
 |
 null
 }

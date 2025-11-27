@@ -34,7 +34,7 @@ zero
 *
 param
 {
-Number
+number
 }
 numbers
 that
@@ -45,7 +45,7 @@ summed
 *
 returns
 {
-String
+string
 }
 A
 string

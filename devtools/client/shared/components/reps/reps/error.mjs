@@ -1334,7 +1334,7 @@ components
 *
 param
 {
-String
+string
 }
 stack
 *

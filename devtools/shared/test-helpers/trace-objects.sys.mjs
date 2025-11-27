@@ -1171,7 +1171,7 @@ object
 *
 param
 {
-array
+Array
 }
 path
 (

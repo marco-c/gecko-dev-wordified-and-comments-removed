@@ -166,7 +166,7 @@ from
 *
 return
 {
-String
+string
 }
 Returns
 the
@@ -450,7 +450,7 @@ context
 *
 param
 {
-Object
+object
 }
 sessionContext
 *
@@ -482,7 +482,7 @@ js
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -496,7 +496,7 @@ dictionary
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -566,7 +566,7 @@ actor
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -610,7 +610,7 @@ _validateWindowGlobal
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1614,7 +1614,7 @@ context
 *
 param
 {
-Object
+object
 }
 sessionContext
 *
@@ -1872,7 +1872,7 @@ context
 *
 param
 {
-Object
+object
 }
 sessionContext
 *
@@ -1904,7 +1904,7 @@ js
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -2288,7 +2288,7 @@ context
 *
 param
 {
-Object
+object
 }
 sessionContext
 *
@@ -2320,7 +2320,7 @@ js
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -2466,7 +2466,7 @@ recursively
 *
 param
 {
-Object
+object
 }
 sessionContext
 *

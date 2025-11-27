@@ -355,7 +355,7 @@ Set
 *
 typedef
 {
-Object
+object
 }
 BrowserToolboxLauncherArgs
 *
@@ -2050,7 +2050,7 @@ debugger
 *
 param
 {
-Object
+object
 }
 options
 *
