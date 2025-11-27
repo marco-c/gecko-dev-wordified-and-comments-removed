@@ -4418,7 +4418,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_filter
+mozac_ic_sort_24
 )
 contentDescription
 =
@@ -5369,7 +5369,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_filter
+mozac_ic_sort_24
 )
 contentDescription
 =
