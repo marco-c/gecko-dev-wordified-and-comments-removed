@@ -602,6 +602,13 @@ js
 ]
 [
 "
+browser_animation_unhandledActorPlayers
+.
+js
+"
+]
+[
+"
 browser_animation_updatedState
 .
 js
