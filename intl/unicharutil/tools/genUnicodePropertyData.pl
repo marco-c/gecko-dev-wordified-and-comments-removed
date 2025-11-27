@@ -2160,8 +2160,8 @@ CharProp2
 "
 nsCharProps2
 "
-9
-7
+11
+5
 \
 &
 sprintCharProps2_short
