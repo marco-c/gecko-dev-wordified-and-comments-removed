@@ -699,13 +699,13 @@ number_of_ratings
 }
 ;
 const
-MERINO_UNKNOWN_SUGGESTION
+MERINO_UNMANAGED_SUGGESTION
 =
 {
 provider
 :
 "
-some_unknown_provider
+top_picks
 "
 score
 :
@@ -1960,7 +1960,7 @@ add_task
 (
 async
 function
-merino_sponsored_unknown_sponsoredWins
+merino_sponsored_unmanaged_sponsoredWins
 (
 )
 {
@@ -1985,7 +1985,7 @@ suggestions
 =
 [
 MERINO_SPONSORED_SUGGESTION
-MERINO_UNKNOWN_SUGGESTION
+MERINO_UNMANAGED_SUGGESTION
 ]
 ;
 let
@@ -2073,7 +2073,7 @@ add_task
 (
 async
 function
-merino_sponsored_unknown_unknownWins
+merino_sponsored_unmanaged_unmanagedWins
 (
 )
 {
@@ -2098,7 +2098,7 @@ suggestions
 =
 [
 MERINO_SPONSORED_SUGGESTION
-MERINO_UNKNOWN_SUGGESTION
+MERINO_UNMANAGED_SUGGESTION
 ]
 ;
 let
@@ -2121,7 +2121,7 @@ scoreMap
 :
 {
 [
-MERINO_UNKNOWN_SUGGESTION
+MERINO_UNMANAGED_SUGGESTION
 .
 provider
 ]
@@ -2141,7 +2141,7 @@ makeExpectedDefaultMerinoResult
 {
 suggestion
 :
-MERINO_UNKNOWN_SUGGESTION
+MERINO_UNMANAGED_SUGGESTION
 }
 )
 }
