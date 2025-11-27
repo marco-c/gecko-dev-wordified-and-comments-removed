@@ -8448,7 +8448,7 @@ if
 mDoc
 -
 >
-IsInitialDocument
+IsUncommittedInitialDocument
 (
 )
 )

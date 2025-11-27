@@ -11995,7 +11995,7 @@ doc
 doc
 -
 >
-IsInitialDocument
+IsUncommittedInitialDocument
 (
 )
 )

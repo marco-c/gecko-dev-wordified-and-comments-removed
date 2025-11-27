@@ -299,6 +299,11 @@ file_history_back
 html
 "
 "
+file_postmessage_channel
+.
+html
+"
+"
 form_basic_shadow_DOM_both_fields_together_in_a_shadow_root
 .
 html
