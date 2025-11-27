@@ -45686,6 +45686,9 @@ false
 mirror
 :
 once
+#
+ifdef
+XP_MACOSX
 -
 name
 :
@@ -45705,6 +45708,8 @@ false
 mirror
 :
 once
+#
+endif
 -
 name
 :
