@@ -141,7 +141,7 @@ CompressWhitespace
 ;
 }
 static
-nsresult
+bool
 GetTextEquivFromIDRefs
 (
 const
@@ -157,7 +157,7 @@ aTextEquiv
 )
 ;
 static
-nsresult
+bool
 AppendTextEquivFromContent
 (
 const
