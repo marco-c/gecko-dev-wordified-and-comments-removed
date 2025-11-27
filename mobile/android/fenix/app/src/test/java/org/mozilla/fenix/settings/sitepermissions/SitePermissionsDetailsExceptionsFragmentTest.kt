@@ -215,16 +215,6 @@ mozilla
 .
 fenix
 .
-ext
-.
-settings
-import
-org
-.
-mozilla
-.
-fenix
-.
 settings
 .
 PhoneFeature
@@ -378,7 +368,7 @@ every
 {
 settings
 .
-isLnaBlockingEnabled
+isLnaFeatureEnabled
 }
 returns
 false
@@ -557,7 +547,7 @@ every
 {
 settings
 .
-isLnaBlockingEnabled
+isLnaFeatureEnabled
 }
 returns
 false
@@ -649,7 +639,7 @@ every
 {
 settings
 .
-isLnaBlockingEnabled
+isLnaFeatureEnabled
 }
 returns
 true

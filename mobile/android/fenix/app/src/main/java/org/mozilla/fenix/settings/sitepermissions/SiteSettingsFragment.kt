@@ -592,7 +592,7 @@ settings
 (
 )
 .
-isLnaBlockingEnabled
+isLnaFeatureEnabled
 }
 features
 =

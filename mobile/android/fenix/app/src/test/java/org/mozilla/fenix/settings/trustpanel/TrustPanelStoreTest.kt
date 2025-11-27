@@ -804,7 +804,7 @@ whenever
 (
 settings
 .
-isLnaBlockingEnabled
+isLnaFeatureEnabled
 )
 .
 thenReturn
@@ -990,7 +990,7 @@ whenever
 (
 settings
 .
-isLnaBlockingEnabled
+isLnaFeatureEnabled
 )
 .
 thenReturn

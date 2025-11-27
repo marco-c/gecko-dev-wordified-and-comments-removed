@@ -601,7 +601,7 @@ visible
 =
 settings
 .
-isLnaBlockingEnabled
+isLnaFeatureEnabled
 )
 initPhoneFeature
 (
@@ -610,7 +610,7 @@ visible
 =
 settings
 .
-isLnaBlockingEnabled
+isLnaFeatureEnabled
 )
 bindClearPermissionsButton
 (

@@ -1180,7 +1180,7 @@ isVisible
 =
 settings
 .
-isLnaBlockingEnabled
+isLnaFeatureEnabled
 &
 &
 shouldBeVisible

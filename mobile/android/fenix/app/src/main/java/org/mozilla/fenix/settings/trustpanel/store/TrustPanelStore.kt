@@ -553,7 +553,7 @@ isVisible
 =
 settings
 .
-isLnaBlockingEnabled
+isLnaFeatureEnabled
 &
 &
 sitePermissions
