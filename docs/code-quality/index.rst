@@ -75,6 +75,11 @@ style
 index
 .
 rst
+typescript
+/
+index
+.
+md
 .
 .
 list
