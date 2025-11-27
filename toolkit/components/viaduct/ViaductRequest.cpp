@@ -670,6 +670,14 @@ httpChannel
 do_QueryInterface
 (
 mChannel
+&
+rv
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 nsCString
