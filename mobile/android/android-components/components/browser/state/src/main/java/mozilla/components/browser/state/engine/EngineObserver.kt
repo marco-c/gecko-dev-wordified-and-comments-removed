@@ -490,6 +490,14 @@ lib
 state
 .
 Store
+import
+java
+.
+security
+.
+cert
+.
+X509Certificate
 private
 const
 val
@@ -1160,6 +1168,10 @@ issuer
 :
 String
 ?
+certificate
+:
+X509Certificate
+?
 )
 {
 store
@@ -1184,6 +1196,7 @@ issuer
 :
 "
 "
+certificate
 )
 )
 )
