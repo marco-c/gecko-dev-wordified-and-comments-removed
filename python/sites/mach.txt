@@ -404,8 +404,6 @@ orjson
 3
 .
 10
-.
-15
 :
 json
 operations
@@ -474,13 +472,6 @@ psutil
 4
 .
 2
-<
-=
-5
-.
-9
-.
-4
 :
 telemetry
 will
