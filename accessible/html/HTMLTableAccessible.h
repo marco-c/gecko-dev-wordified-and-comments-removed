@@ -257,17 +257,6 @@ HTMLTableRowAccessible
 )
 {
 }
-virtual
-ENameValueFlag
-NativeName
-(
-nsString
-&
-aName
-)
-const
-override
-;
 }
 ;
 class
