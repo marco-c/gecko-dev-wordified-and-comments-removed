@@ -26009,6 +26009,16 @@ html
 notref
 .
 html
+skip
+-
+if
+(
+Android
+&
+&
+!
+emulator
+)
 pref
 (
 dom
