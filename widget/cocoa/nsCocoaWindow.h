@@ -2407,10 +2407,6 @@ BaseWindow
 *
 mWindow
 ;
-BaseWindow
-*
-mClosedRetainedWindow
-;
 WindowDelegate
 *
 mDelegate
