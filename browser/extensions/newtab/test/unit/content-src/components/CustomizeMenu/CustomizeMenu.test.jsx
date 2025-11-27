@@ -257,6 +257,9 @@ true
 weatherEnabled
 :
 true
+trendingSearchEnabled
+:
+true
 showInferredPersonalizationEnabled
 :
 false
@@ -296,6 +299,9 @@ mayHaveInferredPersonalization
 :
 false
 mayHaveWeather
+:
+true
+mayHaveTrendingSearch
 :
 true
 mayHaveWidgets

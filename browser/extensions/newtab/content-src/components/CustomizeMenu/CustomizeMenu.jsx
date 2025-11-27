@@ -760,6 +760,15 @@ props
 .
 mayHaveWeather
 }
+mayHaveTrendingSearch
+=
+{
+this
+.
+props
+.
+mayHaveTrendingSearch
+}
 mayHaveWidgets
 =
 {
