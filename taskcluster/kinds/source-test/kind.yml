@@ -148,9 +148,9 @@ from
 -
 android
 -
-compare
+l10n
 -
-locales
+lint
 .
 yml
 -
