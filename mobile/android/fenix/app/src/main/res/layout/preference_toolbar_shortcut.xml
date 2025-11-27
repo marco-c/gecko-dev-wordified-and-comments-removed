@@ -143,6 +143,13 @@ paddingBottom
 "
 12dp
 "
+android
+:
+importantForAccessibility
+=
+"
+no
+"
 >
 <
 TextView
