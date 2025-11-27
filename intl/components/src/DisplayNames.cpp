@@ -361,6 +361,17 @@ UDAT_SHORT_WEEKDAYS
 case
 UDAT_AM_PMS
 :
+#
+ifndef
+U_HIDE_DRAFT_API
+case
+UDAT_AM_PMS_NARROW
+:
+case
+UDAT_AM_PMS_WIDE
+:
+#
+endif
 case
 UDAT_LOCALIZED_CHARS
 :
