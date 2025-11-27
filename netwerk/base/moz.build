@@ -819,11 +819,6 @@ RequestContextService
 h
 "
 "
-SimpleChannelParent
-.
-h
-"
-"
 SimpleURIUnknownSchemes
 .
 h
@@ -1180,11 +1175,6 @@ cpp
 "
 "
 SimpleChannel
-.
-cpp
-"
-"
-SimpleChannelParent
 .
 cpp
 "

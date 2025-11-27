@@ -62,10 +62,6 @@ PDataChannel
 ;
 include
 protocol
-PSimpleChannel
-;
-include
-protocol
 PTransportProvider
 ;
 include
@@ -282,9 +278,6 @@ PGeckoViewContentChannel
 ;
 #
 endif
-manages
-PSimpleChannel
-;
 manages
 PFileChannel
 ;
@@ -515,13 +508,6 @@ args
 ;
 #
 endif
-async
-PSimpleChannel
-(
-uint32_t
-channelId
-)
-;
 async
 PFileChannel
 (
