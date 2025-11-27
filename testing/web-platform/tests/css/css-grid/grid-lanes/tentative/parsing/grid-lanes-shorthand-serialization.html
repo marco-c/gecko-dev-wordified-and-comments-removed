@@ -13,9 +13,12 @@ head
 title
 >
 CSS
-Masonry
+Grid
+Lanes
 :
-masonry
+grid
+-
+lanes
 serializes
 properly
 when
@@ -122,14 +125,14 @@ body
 script
 >
 function
-testValidMasonry
+testValidGridLanes
 (
 gridTemplateRowsValue
 gridTemplateColumnsValue
 gridTemplateAreasValue
 masonryDirectionValue
 masonryFillValue
-serializedMasonryValue
+serializedGridLanesValue
 )
 {
 test
@@ -219,8 +222,8 @@ root
 .
 style
 .
-masonry
-serializedMasonryValue
+gridLanes
+serializedGridLanesValue
 )
 ;
 }
@@ -272,7 +275,7 @@ valid
 )
 ;
 }
-testValidMasonry
+testValidGridLanes
 (
 "
 none
@@ -296,7 +299,7 @@ normal
 "
 )
 ;
-testValidMasonry
+testValidGridLanes
 (
 "
 10px
@@ -320,7 +323,7 @@ reverse
 "
 )
 ;
-testValidMasonry
+testValidGridLanes
 (
 "
 10px
@@ -349,7 +352,7 @@ normal
 "
 )
 ;
-testValidMasonry
+testValidGridLanes
 (
 "
 none
@@ -386,7 +389,7 @@ reverse
 '
 )
 ;
-testValidMasonry
+testValidGridLanes
 (
 "
 20
@@ -425,7 +428,7 @@ normal
 '
 )
 ;
-testValidMasonry
+testValidGridLanes
 (
 "
 none
@@ -477,7 +480,7 @@ normal
 "
 )
 ;
-testValidMasonry
+testValidGridLanes
 (
 "
 10
