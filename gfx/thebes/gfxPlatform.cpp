@@ -5307,16 +5307,8 @@ AppendPrintf
 T
 %
 d
-%
-d
 )
 "
-StaticPrefs
-:
-:
-gfx_android_rgb16_force_AtStartup
-(
-)
 StaticPrefs
 :
 :
