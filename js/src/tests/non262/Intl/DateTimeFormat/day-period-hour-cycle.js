@@ -160,6 +160,7 @@ Hour
 Literal
 (
 "
+Uhr
 "
 )
 DayPeriod
@@ -310,6 +311,7 @@ Hour
 Literal
 (
 "
+Uhr
 "
 )
 DayPeriod
@@ -394,6 +396,7 @@ Hour
 Literal
 (
 "
+Uhr
 "
 )
 DayPeriod

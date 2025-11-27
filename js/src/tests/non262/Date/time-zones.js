@@ -531,7 +531,9 @@ GMT
 +
 0700
 (
-NOVT
+Krasnoyarsk
+Standard
+Time
 )
 "
 "
@@ -575,7 +577,9 @@ GMT
 +
 0800
 (
-NOVST
+Krasnoyarsk
+Summer
+Time
 )
 "
 "

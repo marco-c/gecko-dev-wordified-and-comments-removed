@@ -438,7 +438,7 @@ format
 endShowa
 )
 "
-64
+/
 "
 )
 ;
@@ -451,6 +451,7 @@ format
 startHeisei
 )
 "
+/
 "
 )
 ;

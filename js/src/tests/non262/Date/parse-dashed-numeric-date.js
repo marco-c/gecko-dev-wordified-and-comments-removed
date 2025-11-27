@@ -1,7 +1,9 @@
 inTimeZone
 (
 "
-MST
+America
+/
+Phoenix
 "
 (
 )

@@ -186,7 +186,7 @@ GMT
 +
 0700
 (
-Novosibirsk
+Krasnoyarsk
 Standard
 Time
 )
@@ -219,7 +219,7 @@ GMT
 +
 0700
 (
-Novosibirsk
+Krasnoyarsk
 Standard
 Time
 )
@@ -256,7 +256,7 @@ GMT
 +
 0700
 (
-Novosibirsk
+Krasnoyarsk
 Summer
 Time
 )
@@ -289,7 +289,7 @@ GMT
 +
 0600
 (
-Novosibirsk
+Krasnoyarsk
 Standard
 Time
 )
@@ -326,7 +326,7 @@ GMT
 +
 0700
 (
-Novosibirsk
+Krasnoyarsk
 Standard
 Time
 )
@@ -580,7 +580,7 @@ GMT
 +
 0800
 (
-Novosibirsk
+Krasnoyarsk
 Summer
 Time
 )
@@ -617,7 +617,7 @@ GMT
 +
 0700
 (
-Novosibirsk
+Krasnoyarsk
 Standard
 Time
 )
@@ -4042,9 +4042,11 @@ GMT
 -
 0025
 (
-Greenwich
-Mean
-Time
+GMT
++
+00
+:
+00
 )
 "
 )
