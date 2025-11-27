@@ -1937,9 +1937,13 @@ host
 ;
 hostElement
 .
-textContent
-=
+setAttribute
+(
+"
+value
+"
 host
+)
 ;
 hostElement
 .
