@@ -11353,12 +11353,6 @@ aBuilder
 tempLists
 )
 ;
-DisplayAbsoluteContinuations
-(
-aBuilder
-tempLists
-)
-;
 }
 nsDisplayListSet
 childLists

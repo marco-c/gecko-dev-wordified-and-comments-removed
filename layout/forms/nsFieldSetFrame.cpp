@@ -1273,12 +1273,6 @@ aBuilder
 aLists
 )
 ;
-DisplayAbsoluteContinuations
-(
-aBuilder
-aLists
-)
-;
 }
 nsDisplayListCollection
 contentDisplayItems
