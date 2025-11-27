@@ -153,7 +153,7 @@ mReferrerPolicy
 (
 aReferrerPolicy
 )
-mBytecodeOffset
+mSerializedStencilOffset
 (
 0
 )
@@ -219,7 +219,7 @@ aOther
 .
 mReferrerPolicy
 )
-mBytecodeOffset
+mSerializedStencilOffset
 (
 0
 )
