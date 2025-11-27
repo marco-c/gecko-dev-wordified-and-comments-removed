@@ -6338,15 +6338,6 @@ return
 milestone
 .
 is_nightly
-and
-target
-.
-os
-!
-=
-"
-WINNT
-"
 option
 (
 "
