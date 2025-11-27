@@ -225,6 +225,16 @@ fenix
 .
 iconpicker
 .
+AppIconTelemetryMiddleware
+import
+org
+.
+mozilla
+.
+fenix
+.
+iconpicker
+.
 AppIconUpdater
 import
 org
@@ -402,6 +412,9 @@ updateAppIcon
 updateAppIcon
 (
 )
+)
+AppIconTelemetryMiddleware
+(
 )
 )
 )

@@ -277,8 +277,8 @@ middleware
 =
 AppIconMiddleware
 {
-newIcon
-currentIcon
+_
+_
 -
 >
 true
@@ -411,8 +411,8 @@ middleware
 =
 AppIconMiddleware
 {
-newIcon
-currentIcon
+_
+_
 -
 >
 false
@@ -497,6 +497,14 @@ confirmAction
 SystemAction
 .
 UpdateFailed
+(
+oldIcon
+=
+currentIcon
+newIcon
+=
+newIcon
+)
 )
 result
 )
