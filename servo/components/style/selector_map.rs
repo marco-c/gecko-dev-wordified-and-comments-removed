@@ -285,15 +285,6 @@ bits
 ElementState
 :
 :
-ACTIVE_VIEW_TRANSITION
-.
-bits
-(
-)
-|
-ElementState
-:
-:
 HEADING_LEVEL_BITS
 .
 bits
