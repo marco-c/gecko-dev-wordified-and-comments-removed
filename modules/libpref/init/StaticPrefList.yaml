@@ -121186,6 +121186,9 @@ always
 #
 endif
 #
+ifdef
+ANDROID
+#
 Whether
 to
 render
@@ -121219,9 +121222,6 @@ false
 mirror
 :
 once
-#
-ifdef
-ANDROID
 #
 A
 threshold
