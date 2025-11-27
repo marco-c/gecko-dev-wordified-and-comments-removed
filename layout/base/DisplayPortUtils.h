@@ -629,6 +629,16 @@ aFrame
 )
 ;
 static
+nsIFrame
+*
+OneStepInASRChain
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 void
 SetZeroMarginDisplayPortOnAsyncScrollableAncestors
 (
