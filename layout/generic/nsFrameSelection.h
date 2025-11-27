@@ -912,6 +912,16 @@ StopAutoScrollTimer
 (
 )
 ;
+enum
+class
+IgnoreNormalSelection
+:
+bool
+{
+No
+Yes
+}
+;
 mozilla
 :
 :
@@ -928,8 +938,8 @@ int32_t
 aContentOffset
 int32_t
 aContentLength
-bool
-aSlowCheck
+IgnoreNormalSelection
+aIgnoreNormalSelection
 )
 const
 ;

@@ -1381,6 +1381,17 @@ FlushType
 aType
 )
 ;
+[
+[
+nodiscard
+]
+]
+bool
+IsSelectable
+(
+)
+const
+;
 inline
 void
 SetPrimaryFrame
