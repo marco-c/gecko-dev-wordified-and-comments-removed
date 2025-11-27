@@ -13915,14 +13915,6 @@ ins
 isIteratorHasIndices
 (
 )
-|
-|
-ins
--
->
-isIteratorsMatchAndHaveIndices
-(
-)
 )
 {
 MOZ_ASSERT
