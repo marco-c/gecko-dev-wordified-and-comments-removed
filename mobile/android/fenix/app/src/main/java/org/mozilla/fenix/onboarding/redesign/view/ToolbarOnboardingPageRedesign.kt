@@ -720,11 +720,11 @@ TextAlign
 Start
 style
 =
-FirefoxTheme
+MaterialTheme
 .
 typography
 .
-headline5
+headlineSmall
 )
 Spacer
 (

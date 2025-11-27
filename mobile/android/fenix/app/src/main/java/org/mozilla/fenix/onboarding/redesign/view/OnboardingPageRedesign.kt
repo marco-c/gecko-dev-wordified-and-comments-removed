@@ -824,7 +824,7 @@ MaterialTheme
 .
 typography
 .
-headlineMedium
+headlineSmall
 )
 mainImage
 (
