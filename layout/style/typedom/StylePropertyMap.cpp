@@ -363,7 +363,7 @@ return
 ;
 }
 nsAutoCString
-value
+cssText
 ;
 if
 (
@@ -386,9 +386,10 @@ GetAsCSSUnsupportedValue
 ;
 unsupportedValue
 .
-GetValue
+ToCssTextWithProperty
 (
-value
+propertyId
+cssText
 )
 ;
 }
@@ -414,9 +415,10 @@ GetAsCSSKeywordValue
 ;
 keywordValue
 .
-GetValue
+ToCssTextWithProperty
 (
-value
+propertyId
+cssText
 )
 ;
 }
@@ -478,7 +480,7 @@ declaration
 SetProperty
 (
 aProperty
-value
+cssText
 "
 "
 _ns
