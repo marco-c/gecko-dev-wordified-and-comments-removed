@@ -1061,8 +1061,6 @@ registerPathHandler
 (
 "
 /
-dict
-/
 wildcard
 "
 function
@@ -1199,8 +1197,6 @@ server
 registerPathHandler
 (
 "
-/
-dict
 /
 js
 "
@@ -1521,13 +1517,9 @@ generic
 "
 "
 /
-dict
-/
 wildcard
 "
 "
-/
-dict
 /
 js
 "
