@@ -402,7 +402,6 @@ v_scale_dir
 v_start_offset
 .
 x
-gl_FragCoord
 )
 ;
 #

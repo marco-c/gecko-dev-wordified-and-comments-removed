@@ -444,7 +444,6 @@ v_pos
 v_start_radius
 .
 x
-gl_FragCoord
 )
 ;
 #

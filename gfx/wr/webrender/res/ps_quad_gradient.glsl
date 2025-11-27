@@ -2666,7 +2666,6 @@ stop_count
 repeat
 pos
 start_radius
-gl_FragCoord
 )
 ;
 #
