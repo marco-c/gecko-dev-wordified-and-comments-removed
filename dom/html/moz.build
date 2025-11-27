@@ -634,6 +634,11 @@ HTMLElement
 cpp
 "
 "
+HTMLElementFactory
+.
+cpp
+"
+"
 HTMLEmbedElement
 .
 cpp
@@ -915,11 +920,6 @@ cpp
 "
 "
 nsGenericHTMLFrameElement
-.
-cpp
-"
-"
-nsHTMLContentSink
 .
 cpp
 "
