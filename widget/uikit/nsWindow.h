@@ -409,8 +409,15 @@ aRect
 override
 ;
 void
+WillPaintWindow
+(
+)
+;
+bool
 PaintWindow
 (
+LayoutDeviceIntRegion
+aRegion
 )
 ;
 bool

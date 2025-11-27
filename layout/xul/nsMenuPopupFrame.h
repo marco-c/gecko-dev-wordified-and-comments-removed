@@ -726,12 +726,16 @@ aEvent
 override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-void
+bool
 PaintWindow
 (
 nsIWidget
 *
 aWidget
+mozilla
+:
+:
+LayoutDeviceIntRegion
 )
 override
 ;
