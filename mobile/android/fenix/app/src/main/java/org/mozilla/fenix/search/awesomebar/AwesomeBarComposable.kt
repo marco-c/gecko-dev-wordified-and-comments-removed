@@ -1617,7 +1617,7 @@ fragmentStore
 (
 createInitialSearchFragmentState
 (
-activity
+context
 =
 activity
 components

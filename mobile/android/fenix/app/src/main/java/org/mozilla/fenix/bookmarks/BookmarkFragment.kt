@@ -1471,13 +1471,11 @@ fragmentStore
 (
 createInitialSearchFragmentState
 (
-activity
+context
 =
-requireActivity
+requireContext
 (
 )
-as
-HomeActivity
 components
 =
 requireComponents
