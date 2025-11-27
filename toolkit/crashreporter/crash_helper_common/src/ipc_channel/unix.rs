@@ -63,10 +63,10 @@ crate
 :
 :
 {
-ipc_channel
+errors
 :
 :
-IPCChannelError
+IPCError
 IPCConnector
 IPCListener
 Pid
@@ -99,7 +99,7 @@ new
 Result
 <
 IPCChannel
-IPCChannelError
+IPCError
 >
 {
 let
@@ -130,10 +130,10 @@ unix_socketpair
 .
 map_err
 (
-IPCChannelError
+IPCError
 :
 :
-SocketPair
+System
 )
 ?
 ;
@@ -226,7 +226,7 @@ new
 Result
 <
 IPCClientChannel
-IPCChannelError
+IPCError
 >
 {
 let
@@ -238,10 +238,10 @@ unix_socketpair
 .
 map_err
 (
-IPCChannelError
+IPCError
 :
 :
-SocketPair
+System
 )
 ?
 ;
