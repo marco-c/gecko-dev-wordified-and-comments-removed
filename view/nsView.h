@@ -518,11 +518,6 @@ mPreviousWindow
 nsSize
 mSize
 ;
-bool
-mIsDirty
-=
-false
-;
 }
 ;
 #
