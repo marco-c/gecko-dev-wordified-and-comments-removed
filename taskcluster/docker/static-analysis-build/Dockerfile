@@ -56,10 +56,6 @@ apt
 get
 install
 \
-autoconf2
-.
-13
-\
 automake
 \
 bison

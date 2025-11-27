@@ -139,10 +139,6 @@ apt
 get
 install
 \
-autoconf2
-.
-13
-\
 build
 -
 essential

@@ -1916,9 +1916,6 @@ already
 exists
 "
 else
-autoconf2
-.
-13
 mkdir
 1
 cd

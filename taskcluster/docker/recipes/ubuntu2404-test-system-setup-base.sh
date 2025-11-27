@@ -146,16 +146,6 @@ apt_packages
 =
 (
 '
-autoconf2
-.
-13
-'
-)
-apt_packages
-+
-=
-(
-'
 bluez
 -
 cups
