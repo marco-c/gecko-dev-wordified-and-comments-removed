@@ -461,7 +461,7 @@ error
 {
 console
 .
-error
+warn
 (
 "
 Error
@@ -473,8 +473,8 @@ token
 error
 )
 ;
-throw
-error
+return
+null
 ;
 }
 }
