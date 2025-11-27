@@ -37878,6 +37878,12 @@ aBuilder
 aLists
 )
 ;
+DisplayAbsoluteContinuations
+(
+aBuilder
+aLists
+)
+;
 for
 (
 nsIFrame
