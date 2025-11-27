@@ -45732,6 +45732,9 @@ mirror
 :
 once
 #
+ifdef
+MOZ_WIDGET_ANDROID
+#
 Use
 SurfaceTextures
 as
@@ -45761,6 +45764,8 @@ false
 mirror
 :
 once
+#
+endif
 -
 name
 :
