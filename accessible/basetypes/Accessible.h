@@ -2232,6 +2232,14 @@ Parent
 {
 if
 (
+parent
+-
+>
+IsDoc
+(
+)
+|
+|
 !
 parent
 -
