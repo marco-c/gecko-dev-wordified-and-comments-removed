@@ -66,6 +66,9 @@ RefPtr
 namespace
 mozilla
 {
+struct
+CSSPropertyId
+;
 class
 ErrorResult
 ;
@@ -228,6 +231,13 @@ const
 CSSUnsupportedValue
 &
 GetAsCSSUnsupportedValue
+(
+)
+;
+const
+CSSPropertyId
+*
+GetPropertyId
 (
 )
 ;
