@@ -587,6 +587,10 @@ beta
 "
 |
 "
+aurora
+"
+|
+"
 release
 "
 |
