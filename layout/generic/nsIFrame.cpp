@@ -16969,7 +16969,7 @@ stickyASR
 aBuilder
 -
 >
-AllocateActiveScrolledRootForSticky
+GetOrCreateActiveScrolledRootForSticky
 (
 aBuilder
 -
