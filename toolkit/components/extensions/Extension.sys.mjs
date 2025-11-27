@@ -11322,6 +11322,11 @@ Bug
 ignoreUnrecognizedProperties
 :
 false
+temporarilyInstalled
+:
+this
+.
+temporarilyInstalled
 }
 ;
 if
