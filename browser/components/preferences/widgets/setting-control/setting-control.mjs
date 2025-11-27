@@ -2185,6 +2185,13 @@ slot
 {
 ifDefined
 (
+item
+.
+config
+.
+slot
+|
+|
 ITEM_SLOT_BY_PARENT
 .
 get
