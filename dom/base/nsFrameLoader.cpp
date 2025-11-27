@@ -10563,6 +10563,10 @@ frameloader
 "
 )
 ;
+mDocShell
+=
+nullptr
+;
 return
 NS_ERROR_FAILURE
 ;
