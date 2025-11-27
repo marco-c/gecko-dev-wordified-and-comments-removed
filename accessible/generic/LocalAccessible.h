@@ -2291,6 +2291,15 @@ aDescription
 )
 const
 ;
+bool
+Tooltip
+(
+nsString
+&
+aTooltip
+)
+const
+;
 static
 void
 NameFromAssociatedXULLabel
