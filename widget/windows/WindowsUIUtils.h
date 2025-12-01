@@ -179,6 +179,14 @@ ComputeTransparencyEffects
 ;
 static
 void
+AssociateWithWinAppSDK
+(
+HWND
+aWnd
+)
+;
+static
+void
 SetIsTitlebarCollapsed
 (
 HWND

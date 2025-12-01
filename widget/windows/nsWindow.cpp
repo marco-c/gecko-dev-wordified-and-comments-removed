@@ -5917,10 +5917,9 @@ ShouldAssociateWithWinAppSDK
 WindowsUIUtils
 :
 :
-SetIsTitlebarCollapsed
+AssociateWithWinAppSDK
 (
 mWnd
-mCustomNonClient
 )
 ;
 }
