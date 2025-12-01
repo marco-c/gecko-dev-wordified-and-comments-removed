@@ -244,6 +244,10 @@ Web
 /
 CSS
 /
+Reference
+/
+Properties
+/
 user
 -
 select
@@ -322,6 +326,10 @@ docs
 Web
 /
 CSS
+/
+Reference
+/
+Properties
 /
 clip
 "

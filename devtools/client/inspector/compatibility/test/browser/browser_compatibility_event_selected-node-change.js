@@ -135,6 +135,10 @@ Web
 /
 CSS
 /
+Reference
+/
+Properties
+/
 scrollbar
 -
 color
@@ -166,6 +170,10 @@ docs
 Web
 /
 CSS
+/
+Reference
+/
+Properties
 /
 user
 -
@@ -224,6 +232,10 @@ Web
 /
 CSS
 /
+Reference
+/
+Properties
+/
 overflow
 -
 anchor
@@ -264,6 +276,10 @@ Web
 /
 CSS
 /
+Reference
+/
+Properties
+/
 overflow
 -
 anchor
@@ -296,6 +312,10 @@ Web
 /
 CSS
 /
+Reference
+/
+Properties
+/
 scrollbar
 -
 color
@@ -327,6 +347,10 @@ docs
 Web
 /
 CSS
+/
+Reference
+/
+Properties
 /
 user
 -
