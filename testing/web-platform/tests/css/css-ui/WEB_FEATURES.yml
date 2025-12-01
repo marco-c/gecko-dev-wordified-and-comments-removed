@@ -45,6 +45,16 @@ outline
 -
 name
 :
+resize
+files
+:
+-
+resize
+-
+*
+-
+name
+:
 user
 -
 select
