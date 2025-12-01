@@ -1903,7 +1903,7 @@ Pair
 =
 SM
 .
-getDecomposedLoc
+getDecomposedExpansionLoc
 (
 Loc
 )
@@ -2041,7 +2041,7 @@ Begin
 =
 SM
 .
-getDecomposedLoc
+getDecomposedExpansionLoc
 (
 Range
 .
@@ -2062,7 +2062,7 @@ End
 =
 SM
 .
-getDecomposedLoc
+getDecomposedExpansionLoc
 (
 Range
 .
@@ -2316,7 +2316,7 @@ Begin
 =
 SM
 .
-getDecomposedLoc
+getDecomposedExpansionLoc
 (
 Range
 .
@@ -2337,7 +2337,7 @@ End
 =
 SM
 .
-getDecomposedLoc
+getDecomposedExpansionLoc
 (
 Range
 .
@@ -10618,7 +10618,7 @@ FuncLoc
 =
 SM
 .
-getDecomposedLoc
+getDecomposedExpansionLoc
 (
 End
 )
@@ -10649,7 +10649,7 @@ ParamLoc
 =
 SM
 .
-getDecomposedLoc
+getDecomposedExpansionLoc
 (
 Param
 -
@@ -10730,7 +10730,7 @@ FuncLoc
 =
 SM
 .
-getDecomposedLoc
+getDecomposedExpansionLoc
 (
 End
 )
@@ -10776,7 +10776,7 @@ Loc
 =
 SM
 .
-getDecomposedLoc
+getDecomposedExpansionLoc
 (
 Base
 .
@@ -10905,7 +10905,7 @@ Begin1
 =
 SM
 .
-getDecomposedLoc
+getDecomposedExpansionLoc
 (
 Range1
 .
@@ -10926,7 +10926,7 @@ End1
 =
 SM
 .
-getDecomposedLoc
+getDecomposedExpansionLoc
 (
 Range1
 .
@@ -10947,7 +10947,7 @@ Begin2
 =
 SM
 .
-getDecomposedLoc
+getDecomposedExpansionLoc
 (
 Range2
 .
@@ -10968,7 +10968,7 @@ End2
 =
 SM
 .
-getDecomposedLoc
+getDecomposedExpansionLoc
 (
 Range2
 .
@@ -11061,7 +11061,7 @@ Decomposed
 =
 SM
 .
-getDecomposedLoc
+getDecomposedExpansionLoc
 (
 Loc
 )
@@ -11078,7 +11078,7 @@ Begin
 =
 SM
 .
-getDecomposedLoc
+getDecomposedExpansionLoc
 (
 Range
 .
@@ -11099,7 +11099,7 @@ End
 =
 SM
 .
-getDecomposedLoc
+getDecomposedExpansionLoc
 (
 Range
 .
