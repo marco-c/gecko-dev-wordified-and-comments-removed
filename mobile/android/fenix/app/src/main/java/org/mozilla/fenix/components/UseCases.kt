@@ -920,6 +920,11 @@ lazyMonitored
 {
 FenixBrowserUseCases
 (
+appStore
+=
+appStore
+.
+value
 addNewTabUseCase
 =
 tabsUseCases
@@ -952,11 +957,6 @@ engine
 value
 .
 profiler
-appStore
-=
-appStore
-.
-value
 )
 }
 val
