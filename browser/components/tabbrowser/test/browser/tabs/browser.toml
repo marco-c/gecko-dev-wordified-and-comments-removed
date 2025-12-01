@@ -4011,6 +4011,17 @@ browser_tab_splitview_footer
 js
 "
 ]
+support
+-
+files
+=
+[
+"
+file_withicon
+.
+html
+"
+]
 [
 "
 browser_tab_splitview_keyboard_focus
