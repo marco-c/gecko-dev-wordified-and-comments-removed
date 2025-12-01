@@ -190,6 +190,17 @@ windows
 .
 dependencies
 ]
+getrandom
+=
+{
+version
+=
+"
+0
+.
+3
+"
+}
 windows
 -
 sys
