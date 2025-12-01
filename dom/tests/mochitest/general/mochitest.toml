@@ -510,13 +510,6 @@ html
 ]
 [
 "
-test_bug1170911
-.
-html
-"
-]
-[
-"
 test_bug1208217
 .
 html
