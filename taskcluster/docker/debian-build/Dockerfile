@@ -209,8 +209,6 @@ libucl1
 \
 libxml2
 \
-m4
-\
 make
 \
 p7zip
@@ -236,9 +234,5 @@ unzip
 uuid
 \
 wget
-\
-x11
--
-utils
 \
 zip
