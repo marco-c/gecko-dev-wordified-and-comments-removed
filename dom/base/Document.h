@@ -3782,9 +3782,6 @@ CreatePresShell
 nsPresContext
 *
 aContext
-nsViewManager
-*
-aViewManager
 nsSubDocumentFrame
 *
 aEmbedderFrame

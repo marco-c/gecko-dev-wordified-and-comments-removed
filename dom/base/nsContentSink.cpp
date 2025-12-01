@@ -448,7 +448,7 @@ h
 #
 include
 "
-nsViewManager
+nsView
 .
 h
 "
@@ -4323,7 +4323,7 @@ content_sink_enable_perf_mode
 uint32_t
 lastEventTime
 =
-nsViewManager
+nsView
 :
 :
 GetLastUserEventTime

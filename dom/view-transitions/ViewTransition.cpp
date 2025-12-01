@@ -254,13 +254,6 @@ nsString
 .
 h
 "
-#
-include
-"
-nsViewManager
-.
-h
-"
 namespace
 mozilla
 :

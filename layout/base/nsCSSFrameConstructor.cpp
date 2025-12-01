@@ -773,13 +773,6 @@ h
 #
 include
 "
-nsViewManager
-.
-h
-"
-#
-include
-"
 nsXULElement
 .
 h

@@ -36379,9 +36379,6 @@ CreatePresShell
 nsPresContext
 *
 aContext
-nsViewManager
-*
-aViewManager
 nsSubDocumentFrame
 *
 aEmbedderFrame
@@ -36462,7 +36459,6 @@ presShell
 Init
 (
 aContext
-aViewManager
 )
 ;
 if

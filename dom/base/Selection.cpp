@@ -562,13 +562,6 @@ nsThreadUtils
 h
 "
 #
-include
-"
-nsViewManager
-.
-h
-"
-#
 ifdef
 ACCESSIBILITY
 #

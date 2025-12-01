@@ -329,10 +329,6 @@ mPresContext
 =
 nullptr
 ;
-mViewManager
-=
-nullptr
-;
 }
 void
 nsPrintObject
