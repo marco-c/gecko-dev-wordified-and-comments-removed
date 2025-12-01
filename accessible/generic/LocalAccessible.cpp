@@ -403,13 +403,6 @@ h
 #
 include
 "
-nsView
-.
-h
-"
-#
-include
-"
 nsIDocShellTreeItem
 .
 h

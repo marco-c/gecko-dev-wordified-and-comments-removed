@@ -4864,16 +4864,6 @@ EnsureEmbeddingPresShell
 presShell
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
-(
-presShell
--
->
-GetRootView
-(
-)
-)
-;
 }
 RefPtr
 <

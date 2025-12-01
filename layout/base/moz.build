@@ -337,6 +337,11 @@ PresShellInlines
 h
 "
 "
+PresShellWidgetListener
+.
+h
+"
+"
 RelativeTo
 .
 h
@@ -542,6 +547,11 @@ PresShell
 cpp
 "
 "
+PresShellWidgetListener
+.
+cpp
+"
+"
 ScrollStyles
 .
 cpp
@@ -700,10 +710,6 @@ svg
 dom
 /
 xul
-"
-"
-/
-view
 "
 ]
 if
