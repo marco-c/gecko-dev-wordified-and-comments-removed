@@ -17,7 +17,7 @@ html
 -
 per
 -
-global
+document
 .
 html
 -
@@ -93,7 +93,7 @@ html
 !
 per
 -
-global
+document
 .
 html
 "
