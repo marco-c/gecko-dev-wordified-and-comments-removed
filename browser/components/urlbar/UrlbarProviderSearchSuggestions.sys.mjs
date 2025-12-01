@@ -3867,6 +3867,16 @@ searchString
 "
 &
 &
+queryContext
+.
+sapName
+!
+=
+"
+searchbar
+"
+&
+&
 lazy
 .
 UrlbarPrefs
