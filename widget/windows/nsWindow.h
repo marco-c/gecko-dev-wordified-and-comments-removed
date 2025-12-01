@@ -1624,6 +1624,12 @@ mIsRTL
 ;
 }
 bool
+ShouldAssociateWithWinAppSDK
+(
+)
+const
+;
+bool
 AssociateDefaultIMC
 (
 bool
