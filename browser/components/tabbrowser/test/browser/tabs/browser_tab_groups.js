@@ -110,10 +110,6 @@ true
 }
 )
 ;
-gReduceMotionOverride
-=
-true
-;
 }
 )
 ;

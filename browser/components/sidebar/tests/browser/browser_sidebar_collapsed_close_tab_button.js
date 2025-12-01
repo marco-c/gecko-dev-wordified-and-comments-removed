@@ -11,10 +11,6 @@ async
 =
 >
 {
-gReduceMotionOverride
-=
-true
-;
 await
 SpecialPowers
 .
