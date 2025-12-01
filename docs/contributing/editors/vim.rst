@@ -446,7 +446,9 @@ the
 box
 is
 using
-neoconf
+codesettings
+.
+nvim
 <
 https
 :
@@ -456,12 +458,11 @@ github
 .
 com
 /
-folke
+mrjones2014
 /
-neoconf
+codesettings
 .
 nvim
-/
 >
 __
 which
