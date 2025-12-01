@@ -28,3 +28,17 @@ user
 select
 -
 *
+-
+name
+:
+caret
+-
+color
+files
+:
+-
+caret
+-
+color
+-
+*
