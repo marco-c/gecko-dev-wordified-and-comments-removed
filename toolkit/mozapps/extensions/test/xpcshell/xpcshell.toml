@@ -471,6 +471,13 @@ js
 ]
 [
 "
+test_addons_glean_ping
+.
+js
+"
+]
+[
+"
 test_amo_stats_telemetry
 .
 js
