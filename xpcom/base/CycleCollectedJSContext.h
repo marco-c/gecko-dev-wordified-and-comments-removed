@@ -375,6 +375,7 @@ mSuppressedMicroTaskRunnables
 }
 ;
 class
+MOZ_STACK_CLASS
 MustConsumeMicroTask
 {
 public
@@ -984,7 +985,7 @@ JSTracer
 aTrc
 )
 {
-TraceEdge
+TraceRoot
 (
 aTrc
 &
@@ -1019,13 +1020,7 @@ aMicroTask
 JS
 :
 :
-Heap
-<
-JS
-:
-:
 GenericMicroTask
->
 mMicroTask
 ;
 }
