@@ -10238,14 +10238,9 @@ const
 nsAString
 &
 aHTMLCommandName
-mozilla
-:
-:
-dom
-:
-:
-CallerType
-aCallerType
+nsIPrincipal
+&
+aSubjectPrincipal
 mozilla
 :
 :

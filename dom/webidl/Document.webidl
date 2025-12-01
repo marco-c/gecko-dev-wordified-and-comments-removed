@@ -1327,7 +1327,7 @@ commandId
 ;
 [
 Throws
-NeedsCallerType
+NeedsSubjectPrincipal
 ]
 boolean
 queryCommandSupported

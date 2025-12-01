@@ -969,6 +969,9 @@ is
 (
 supported
 aPrefValue
+|
+|
+aPermission
 "
 Check
 if
@@ -1369,6 +1372,9 @@ is
 (
 supported
 aPrefValue
+|
+|
+aPermission
 "
 Check
 if
@@ -1623,6 +1629,9 @@ is
 (
 supported
 aPrefValue
+|
+|
+aPermission
 "
 Check
 if
