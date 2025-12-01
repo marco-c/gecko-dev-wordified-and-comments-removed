@@ -203,14 +203,6 @@ syms
 .
 yml
 -
-embedded
--
-uniffi
--
-bindgen
-.
-yml
--
 fix
 -
 stacks
@@ -276,12 +268,6 @@ misc
 yml
 -
 nasm
-.
-yml
--
-nimbus
--
-fml
 .
 yml
 -
