@@ -377,9 +377,6 @@ BookmarksTelemetryMiddleware
 Suppress
 (
 "
-LongMethod
-"
-"
 CyclomaticComplexMethod
 "
 )
