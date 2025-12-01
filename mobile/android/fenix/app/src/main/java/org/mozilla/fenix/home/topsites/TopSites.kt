@@ -2523,11 +2523,9 @@ dp
 {
 TopSiteFavicon
 (
-url
+topSite
 =
 topSite
-.
-url
 )
 }
 }
@@ -2538,9 +2536,9 @@ private
 fun
 TopSiteFavicon
 (
-url
+topSite
 :
-String
+TopSite
 )
 {
 when
@@ -2550,7 +2548,7 @@ favicon
 =
 getTopSitesFavicon
 (
-url
+topSite
 )
 )
 {
@@ -2564,6 +2562,8 @@ Favicon
 (
 url
 =
+topSite
+.
 url
 size
 =
@@ -2574,7 +2574,7 @@ imageUrl
 =
 favicon
 .
-url
+imageUrl
 )
 is
 TopSitesFavicon
