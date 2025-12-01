@@ -45,6 +45,10 @@ rtt
 :
 :
 RttEstimate
+stats
+:
+:
+CongestionControlStats
 Error
 Pmtud
 }
@@ -243,6 +247,11 @@ RttEstimate
 now
 :
 Instant
+cc_stats
+:
+&
+mut
+CongestionControlStats
 )
 ;
 fn
@@ -278,6 +287,11 @@ Packet
 now
 :
 Instant
+cc_stats
+:
+&
+mut
+CongestionControlStats
 )
 -
 >
@@ -299,6 +313,11 @@ Packet
 now
 :
 Instant
+cc_stats
+:
+&
+mut
+CongestionControlStats
 )
 -
 >

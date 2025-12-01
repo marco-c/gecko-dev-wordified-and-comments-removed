@@ -25,6 +25,9 @@ mod
 encoder_instructions
 ;
 mod
+fuzz
+;
+mod
 header_block
 ;
 pub

@@ -125,7 +125,7 @@ version
 "
 0
 .
-19
+20
 .
 0
 "
@@ -1433,6 +1433,7 @@ cfg
 (
 coverage
 coverage_nightly
+fuzzing
 )
 "
 ]

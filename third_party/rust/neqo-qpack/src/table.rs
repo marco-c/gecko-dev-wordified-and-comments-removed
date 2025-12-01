@@ -536,6 +536,7 @@ HeaderLookup
 if
 inx
 >
+=
 HEADER_STATIC_TABLE
 .
 len

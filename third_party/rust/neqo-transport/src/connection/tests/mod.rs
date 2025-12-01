@@ -131,7 +131,6 @@ stats
 {
 FrameStats
 Stats
-MAX_PTO_COUNTS
 }
 tparams
 :
@@ -2933,6 +2932,9 @@ pto_counts
 [
 0
 ;
+Stats
+:
+:
 MAX_PTO_COUNTS
 ]
 ;

@@ -6355,7 +6355,10 @@ crate
 saved
 :
 :
-MAX_SAVED_DATAGRAMS
+SavedDatagrams
+:
+:
+CAPACITY
 {
 let
 c_init
