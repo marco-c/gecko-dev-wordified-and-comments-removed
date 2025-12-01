@@ -1574,7 +1574,8 @@ notificationsDelegate
 )
 CfrMiddleware
 (
-context
+appStore
+settings
 )
 FileUploadsDirCleanerMiddleware
 (
