@@ -5094,8 +5094,6 @@ name
 action_option_add_search_engine
 "
 >
-\
-n
 <
 /
 string
@@ -5218,8 +5216,6 @@ name
 search_add_error_duplicate_name
 "
 >
-\
-n
 <
 /
 string
