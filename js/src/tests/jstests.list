@@ -26214,7 +26214,6 @@ if
 (
 release_or_beta
 )
-skip
 script
 test262
 /
@@ -26243,7 +26242,6 @@ if
 (
 release_or_beta
 )
-skip
 script
 test262
 /
@@ -26270,7 +26268,6 @@ if
 (
 release_or_beta
 )
-skip
 script
 test262
 /
@@ -26299,7 +26296,6 @@ if
 (
 release_or_beta
 )
-skip
 script
 test262
 /
@@ -26326,7 +26322,6 @@ if
 (
 release_or_beta
 )
-skip
 script
 test262
 /
@@ -26355,7 +26350,6 @@ if
 (
 release_or_beta
 )
-skip
 script
 test262
 /
@@ -26382,7 +26376,6 @@ if
 (
 release_or_beta
 )
-skip
 script
 test262
 /
@@ -26409,7 +26402,6 @@ if
 (
 release_or_beta
 )
-skip
 script
 test262
 /
@@ -26438,7 +26430,6 @@ if
 (
 release_or_beta
 )
-skip
 script
 test262
 /
@@ -26467,7 +26458,6 @@ if
 (
 release_or_beta
 )
-skip
 script
 test262
 /
@@ -26494,7 +26484,6 @@ if
 (
 release_or_beta
 )
-skip
 script
 test262
 /
@@ -26511,6 +26500,32 @@ add
 constrain
 -
 day
+-
+islamic
+-
+umalqura
+.
+js
+skip
+-
+if
+(
+release_or_beta
+)
+script
+test262
+/
+intl402
+/
+Temporal
+/
+PlainDateTime
+/
+prototype
+/
+add
+/
+basic
 -
 islamic
 -
