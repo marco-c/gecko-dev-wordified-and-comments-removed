@@ -4096,6 +4096,15 @@ sPaintSequenceNumber
 1
 )
 ;
+bool
+nsDisplayListBuilder
+:
+:
+sIsPaintingForWebRender
+(
+false
+)
+;
 nsDisplayListBuilder
 :
 :
@@ -4260,10 +4269,6 @@ aReferenceFrame
 )
 )
 mUseHighQualityScaling
-(
-false
-)
-mIsPaintingForWebRender
 (
 false
 )
