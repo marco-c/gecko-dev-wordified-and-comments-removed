@@ -3673,11 +3673,6 @@ mSendingSetText
 false
 ;
 bool
-mPIPWindow
-:
-1
-;
-bool
 mMicaBackdrop
 :
 1
