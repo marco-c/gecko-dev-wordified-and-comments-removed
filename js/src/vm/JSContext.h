@@ -734,16 +734,10 @@ trc
 ;
 private
 :
-js
-:
-:
-HeapPtr
-<
 JS
 :
 :
 Value
->
 value
 ;
 }
@@ -4604,6 +4598,11 @@ false
 }
 #
 endif
+JS
+:
+:
+PersistentRooted
+<
 js
 :
 :
@@ -4613,6 +4612,7 @@ js
 :
 :
 MicroTaskQueueSet
+>
 >
 microTaskQueues
 ;
