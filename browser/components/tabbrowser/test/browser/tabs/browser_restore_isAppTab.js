@@ -104,8 +104,6 @@ BrowserTestUtils
 crashFrame
 (
 browser
-true
-false
 )
 ;
 let

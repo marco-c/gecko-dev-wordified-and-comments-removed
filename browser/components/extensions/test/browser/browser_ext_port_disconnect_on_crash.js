@@ -280,8 +280,6 @@ crashFrame
 tab
 .
 linkedBrowser
-true
-false
 )
 ;
 await
@@ -620,8 +618,6 @@ crashFrame
 tab
 .
 linkedBrowser
-true
-false
 )
 ;
 await
