@@ -1034,10 +1034,6 @@ test_clang_format
 .
 py
 -
-view
-/
-crashtests
--
 widget
 /
 cocoa
