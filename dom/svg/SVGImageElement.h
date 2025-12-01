@@ -62,6 +62,13 @@ h
 #
 include
 "
+nsISizeOf
+.
+h
+"
+#
+include
+"
 nsImageLoadingContent
 .
 h
@@ -196,6 +203,7 @@ aNodeInfo
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_ADDSIZEOFEXCLUDINGTHIS
 void
 AsyncEventRunning
 (
