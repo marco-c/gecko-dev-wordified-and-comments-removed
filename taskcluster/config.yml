@@ -7580,8 +7580,6 @@ worker
 type
 :
 misc
--
-gcp
 mac
 -
 signing
