@@ -376,9 +376,7 @@ filename
 =
 context
 .
-getFilename
-(
-)
+filename
 ;
 /
 /

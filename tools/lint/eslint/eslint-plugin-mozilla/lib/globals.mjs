@@ -4849,9 +4849,7 @@ filename
 =
 context
 .
-getFilename
-(
-)
+filename
 ;
 return
 {
