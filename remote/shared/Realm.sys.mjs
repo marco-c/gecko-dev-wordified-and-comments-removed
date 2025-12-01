@@ -1425,6 +1425,9 @@ executeInGlobal
 (
 expression
 {
+bypassCSP
+:
+true
 url
 :
 this
@@ -1664,6 +1667,9 @@ thisParameter
 )
 }
 {
+bypassCSP
+:
+true
 url
 :
 this
