@@ -105,6 +105,10 @@ Web
 /
 CSS
 /
+Reference
+/
+Properties
+/
 Position
 >
 _
@@ -143,6 +147,10 @@ Web
 /
 CSS
 /
+Reference
+/
+Properties
+/
 top
 >
 _
@@ -168,6 +176,10 @@ Web
 /
 CSS
 /
+Reference
+/
+Properties
+/
 bottom
 >
 _
@@ -192,6 +204,10 @@ docs
 Web
 /
 CSS
+/
+Reference
+/
+Properties
 /
 left
 >
@@ -218,6 +234,10 @@ docs
 Web
 /
 CSS
+/
+Reference
+/
+Properties
 /
 right
 >

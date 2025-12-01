@@ -67,6 +67,10 @@ Web
 /
 CSS
 /
+Reference
+/
+Properties
+/
 transform
 >
 _

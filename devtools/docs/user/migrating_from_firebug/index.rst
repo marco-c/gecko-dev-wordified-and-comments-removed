@@ -2519,6 +2519,10 @@ Web
 /
 CSS
 /
+Reference
+/
+Selectors
+/
 Pseudo
 -
 classes
@@ -2547,6 +2551,10 @@ Web
 /
 CSS
 /
+Reference
+/
+Selectors
+/
 :
 hover
 >
@@ -2573,6 +2581,10 @@ docs
 Web
 /
 CSS
+/
+Reference
+/
+Selectors
 /
 :
 active
@@ -2601,6 +2613,10 @@ docs
 Web
 /
 CSS
+/
+Reference
+/
+Selectors
 /
 :
 focus
@@ -2740,6 +2756,10 @@ docs
 Web
 /
 CSS
+/
+Guides
+/
+Cascade
 /
 Shorthand_properties
 >

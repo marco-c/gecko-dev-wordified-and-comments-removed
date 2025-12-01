@@ -132,7 +132,9 @@ Web
 /
 CSS
 /
-CSS_Flexible_Box_Layout
+Guides
+/
+Flexible_box_layout
 >
 _
 using
@@ -220,6 +222,10 @@ docs
 Web
 /
 CSS
+/
+Reference
+/
+Properties
 /
 display
 >
@@ -595,6 +601,10 @@ docs
 Web
 /
 CSS
+/
+Reference
+/
+Properties
 /
 display
 >

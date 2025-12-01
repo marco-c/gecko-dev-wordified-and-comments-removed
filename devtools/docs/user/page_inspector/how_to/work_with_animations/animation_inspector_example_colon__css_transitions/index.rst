@@ -143,9 +143,11 @@ Web
 /
 CSS
 /
-CSS_Transitions
+Guides
 /
-Using_CSS_transitions
+Transitions
+/
+Using
 >
 _
 .

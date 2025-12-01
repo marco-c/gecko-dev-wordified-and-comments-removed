@@ -120,7 +120,9 @@ Web
 /
 CSS
 /
-CSS_Grid_Layout
+Guides
+/
+Grid_layout
 >
 _
 using
@@ -239,9 +241,11 @@ Web
 /
 CSS
 /
-CSS_Grid_Layout
+Guides
 /
-Grid_Template_Areas
+Grid_layout
+/
+Grid_template_areas
 #
 naming_a_grid_area
 >
@@ -305,6 +309,10 @@ docs
 Web
 /
 CSS
+/
+Reference
+/
+Properties
 /
 display
 >
@@ -500,6 +508,10 @@ docs
 Web
 /
 CSS
+/
+Reference
+/
+Properties
 /
 display
 >
@@ -1922,7 +1934,9 @@ Web
 /
 CSS
 /
-CSS_Grid_Layout
+Guides
+/
+Grid_layout
 >
 _
 MDN

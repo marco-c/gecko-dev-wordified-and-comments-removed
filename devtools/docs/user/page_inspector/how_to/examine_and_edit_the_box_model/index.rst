@@ -134,9 +134,11 @@ Web
 /
 CSS
 /
-CSS_Box_Model
+Guides
 /
-Introduction_to_the_CSS_box_model
+Box_model
+/
+Introduction
 >
 _
 for
