@@ -645,7 +645,7 @@ has_modern_syntax_item
 ColorInterpolationMethod
 :
 :
-oklab
+default
 (
 )
 }
