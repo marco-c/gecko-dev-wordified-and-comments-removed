@@ -1343,17 +1343,6 @@ js
 jit
 :
 :
-ReadBarrier
-)
-\
-_
-(
-js
-:
-:
-jit
-:
-:
 StringFromCharCodeNoGC
 )
 \
