@@ -280,7 +280,7 @@ rust
 -
 analyzer
 .
-server
+cargo
 .
 extraEnv
 "
