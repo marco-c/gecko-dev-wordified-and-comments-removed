@@ -807,6 +807,13 @@ js
 ]
 [
 "
+test_marker_jit_sourceindex
+.
+js
+"
+]
+[
+"
 test_merged_stacks
 .
 js
