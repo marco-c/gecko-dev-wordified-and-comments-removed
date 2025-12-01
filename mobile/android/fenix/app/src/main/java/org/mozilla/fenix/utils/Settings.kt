@@ -741,6 +741,16 @@ fenix
 .
 settings
 .
+ShortcutType
+import
+org
+.
+mozilla
+.
+fenix
+.
+settings
+.
 deletebrowsingdata
 .
 DeleteBrowsingDataOnQuitType
@@ -1667,9 +1677,11 @@ pref_key_toolbar_simple_shortcut
 default
 =
 {
-"
-new_tab
-"
+ShortcutType
+.
+NEW_TAB
+.
+value
 }
 persistDefaultIfNotExists
 =
@@ -1713,9 +1725,11 @@ pref_key_toolbar_expanded_shortcut
 default
 =
 {
-"
-bookmark
-"
+ShortcutType
+.
+BOOKMARK
+.
+value
 }
 persistDefaultIfNotExists
 =
@@ -2717,6 +2731,7 @@ pref_key_contile_context_id
 )
 default
 =
+{
 TopSites
 .
 contextId
@@ -2728,6 +2743,7 @@ generateAndSet
 toString
 (
 )
+}
 persistDefaultIfNotExists
 =
 true
@@ -11254,6 +11270,7 @@ pref_key_pocket_sponsored_stories_profile
 )
 default
 =
+{
 UUID
 .
 randomUUID
@@ -11263,6 +11280,7 @@ randomUUID
 toString
 (
 )
+}
 persistDefaultIfNotExists
 =
 true
@@ -14195,7 +14213,7 @@ R
 .
 string
 .
-pref_key_enable_compose_logins
+pref_key_enable_compose_autofill_settings
 )
 default
 =
