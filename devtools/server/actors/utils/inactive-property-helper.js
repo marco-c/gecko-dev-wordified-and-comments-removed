@@ -78,6 +78,10 @@ Web
 /
 CSS
 /
+Reference
+/
+Selectors
+/
 :
 visited
 "
@@ -309,6 +313,10 @@ docs
 Web
 /
 CSS
+/
+Reference
+/
+Selectors
 /
 :
 :
