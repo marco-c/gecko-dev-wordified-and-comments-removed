@@ -779,13 +779,6 @@ h
 #
 include
 "
-nsXULElement
-.
-h
-"
-#
-include
-"
 nscore
 .
 h
@@ -1006,6 +999,9 @@ nsViewportInfo
 ;
 class
 nsXULPrototypeDocument
+;
+class
+nsXULPrototypeElement
 ;
 struct
 JSContext

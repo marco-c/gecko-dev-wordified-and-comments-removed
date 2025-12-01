@@ -771,6 +771,13 @@ h
 #
 include
 "
+nsXULElement
+.
+h
+"
+#
+include
+"
 RetainedDisplayListBuilder
 .
 h
