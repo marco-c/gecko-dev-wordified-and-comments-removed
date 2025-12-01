@@ -4042,11 +4042,9 @@ GMT
 -
 0025
 (
-GMT
-+
-00
-:
-00
+Greenwich
+Mean
+Time
 )
 "
 )
