@@ -3366,6 +3366,17 @@ slot
 )
 ;
 void
+ReadBarrier
+(
+gc
+:
+:
+Cell
+*
+cell
+)
+;
+void
 AssumeUnreachable
 (
 const
