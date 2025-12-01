@@ -1001,6 +1001,8 @@ const
 char
 *
 aLabel
+uint32_t
+aSourceId
 )
 {
 mBuf
@@ -1012,7 +1014,7 @@ CollectCodeLocation
 aLabel
 0
 0
-0
+aSourceId
 Nothing
 (
 )

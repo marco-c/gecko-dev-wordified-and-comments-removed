@@ -855,6 +855,8 @@ const
 char
 *
 aLabel
+uint32_t
+aSourceId
 )
 {
 MOZ_RELEASE_ASSERT

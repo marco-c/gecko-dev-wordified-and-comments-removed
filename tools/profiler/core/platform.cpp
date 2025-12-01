@@ -10401,6 +10401,9 @@ profilingCategory
 jsFrame
 .
 label
+jsFrame
+.
+sourceId
 )
 ;
 }
