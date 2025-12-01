@@ -1318,7 +1318,7 @@ settings
 (
 )
 .
-toolbarExpandedShortcutKey
+toolbarExpandedShortcut
 }
 returns
 ShortcutType
@@ -5015,7 +5015,7 @@ settings
 (
 )
 .
-toolbarExpandedShortcutKey
+toolbarExpandedShortcut
 }
 returns
 ShortcutType
@@ -5109,7 +5109,7 @@ settings
 (
 )
 .
-toolbarExpandedShortcutKey
+toolbarExpandedShortcut
 }
 returns
 ShortcutType
@@ -5203,7 +5203,7 @@ settings
 (
 )
 .
-toolbarExpandedShortcutKey
+toolbarExpandedShortcut
 }
 returns
 ShortcutType

@@ -8467,7 +8467,7 @@ every
 {
 settings
 .
-toolbarSimpleShortcutKey
+toolbarSimpleShortcut
 }
 returns
 ShortcutType
@@ -8695,7 +8695,7 @@ every
 {
 settings
 .
-toolbarSimpleShortcutKey
+toolbarSimpleShortcut
 }
 returns
 ShortcutType
@@ -15972,7 +15972,7 @@ every
 {
 settings
 .
-toolbarSimpleShortcutKey
+toolbarSimpleShortcut
 }
 returns
 ShortcutType
@@ -16052,7 +16052,7 @@ every
 {
 settings
 .
-toolbarSimpleShortcutKey
+toolbarSimpleShortcut
 }
 returns
 ShortcutType
@@ -16210,7 +16210,7 @@ every
 {
 settings
 .
-toolbarSimpleShortcutKey
+toolbarSimpleShortcut
 }
 returns
 ShortcutType
@@ -16313,7 +16313,7 @@ every
 {
 settings
 .
-toolbarSimpleShortcutKey
+toolbarSimpleShortcut
 }
 returns
 ShortcutType
@@ -16416,7 +16416,7 @@ every
 {
 settings
 .
-toolbarSimpleShortcutKey
+toolbarSimpleShortcut
 }
 returns
 ShortcutType
@@ -16516,7 +16516,7 @@ every
 {
 settings
 .
-toolbarSimpleShortcutKey
+toolbarSimpleShortcut
 }
 returns
 ShortcutType
@@ -16599,7 +16599,7 @@ every
 {
 settings
 .
-toolbarSimpleShortcutKey
+toolbarSimpleShortcut
 }
 returns
 ShortcutType
@@ -16761,7 +16761,7 @@ every
 {
 settings
 .
-toolbarSimpleShortcutKey
+toolbarSimpleShortcut
 }
 returns
 ShortcutType
@@ -16878,7 +16878,7 @@ every
 {
 settings
 .
-toolbarSimpleShortcutKey
+toolbarSimpleShortcut
 }
 returns
 ShortcutType
@@ -16992,7 +16992,7 @@ every
 {
 settings
 .
-toolbarSimpleShortcutKey
+toolbarSimpleShortcut
 }
 returns
 ShortcutType
@@ -17071,7 +17071,7 @@ every
 {
 settings
 .
-toolbarSimpleShortcutKey
+toolbarSimpleShortcut
 }
 returns
 ShortcutType
@@ -17152,7 +17152,7 @@ every
 {
 settings
 .
-toolbarSimpleShortcutKey
+toolbarSimpleShortcut
 }
 returns
 ShortcutType
@@ -17311,7 +17311,7 @@ every
 {
 settings
 .
-toolbarSimpleShortcutKey
+toolbarSimpleShortcut
 }
 returns
 ShortcutType
@@ -17473,7 +17473,7 @@ every
 {
 settings
 .
-toolbarExpandedShortcutKey
+toolbarExpandedShortcut
 }
 returns
 ShortcutType
@@ -17598,7 +17598,7 @@ every
 {
 settings
 .
-toolbarExpandedShortcutKey
+toolbarExpandedShortcut
 }
 returns
 ShortcutType
@@ -17720,7 +17720,7 @@ every
 {
 settings
 .
-toolbarExpandedShortcutKey
+toolbarExpandedShortcut
 }
 returns
 ShortcutType
@@ -17812,7 +17812,7 @@ every
 {
 settings
 .
-toolbarExpandedShortcutKey
+toolbarExpandedShortcut
 }
 returns
 ShortcutType
@@ -17901,7 +17901,7 @@ every
 {
 settings
 .
-toolbarExpandedShortcutKey
+toolbarExpandedShortcut
 }
 returns
 ShortcutType

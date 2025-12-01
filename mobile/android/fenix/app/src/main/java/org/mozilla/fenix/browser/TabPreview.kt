@@ -2580,7 +2580,7 @@ fromValue
 (
 settings
 .
-toolbarSimpleShortcutKey
+toolbarSimpleShortcut
 )
 =
 =
@@ -2763,12 +2763,6 @@ settings
 .
 shouldUseExpandedToolbar
 val
-useCustomPrimary
-=
-settings
-.
-shouldShowToolbarCustomization
-val
 primarySlotAction
 =
 ShortcutType
@@ -2777,7 +2771,7 @@ fromValue
 (
 settings
 .
-toolbarSimpleShortcutKey
+toolbarSimpleShortcut
 )
 ?
 .
@@ -2785,11 +2779,6 @@ toToolbarAction
 (
 tab
 )
-.
-takeIf
-{
-useCustomPrimary
-}
 ?
 :
 ToolbarAction
@@ -2935,12 +2924,6 @@ settings
 .
 shouldUseExpandedToolbar
 val
-useCustomPrimary
-=
-settings
-.
-shouldShowToolbarCustomization
-val
 primarySlotAction
 =
 ShortcutType
@@ -2949,7 +2932,7 @@ fromValue
 (
 settings
 .
-toolbarExpandedShortcutKey
+toolbarExpandedShortcut
 )
 ?
 .
@@ -2957,11 +2940,6 @@ toToolbarAction
 (
 tab
 )
-.
-takeIf
-{
-useCustomPrimary
-}
 ?
 :
 getBookmarkAction
