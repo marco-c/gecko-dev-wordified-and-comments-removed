@@ -2144,6 +2144,16 @@ PKG_BUILD_NUMBER
 "
 :
 1
+                
+"
+LANGUAGES
+"
+:
+[
+"
+dummy
+"
+]
             
 }
             
@@ -2266,20 +2276,51 @@ join
 (
             
 temp_testing_dir_name
+            
 "
 target_dir
 "
+            
 "
 noarch
 "
+            
 "
-langpack
-.
+firefox
+-
+l10n
+-
 dummy
+-
+111
+.
+0
+-
+1
+.
+noarch
 .
 rpm
 "
         
+)
+        
+expected_dest
+=
+mozpath
+.
+join
+(
+upload_dir
+"
+langpack
+-
+dummy
+.
+noarch
+.
+rpm
+"
 )
         
 found
@@ -2287,7 +2328,10 @@ found
 any
 (
             
+str
+(
 src
+)
 =
 =
 expected_dummy_path
@@ -2295,7 +2339,7 @@ and
 dst
 =
 =
-upload_dir
+expected_dest
             
 for
 _
