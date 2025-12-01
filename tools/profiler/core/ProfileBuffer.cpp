@@ -990,7 +990,7 @@ void
 ProfileBufferCollector
 :
 :
-CollectWasmFrame
+CollectWasmOrSyncJITFrame
 (
 JS
 :

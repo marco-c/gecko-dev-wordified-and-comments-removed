@@ -844,7 +844,7 @@ void
 ThreadStackHelper
 :
 :
-CollectWasmFrame
+CollectWasmOrSyncJITFrame
 (
 JS
 :

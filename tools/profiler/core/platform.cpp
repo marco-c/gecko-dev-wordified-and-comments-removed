@@ -10391,7 +10391,7 @@ Frame_WasmOther
 {
 aCollector
 .
-CollectWasmFrame
+CollectWasmOrSyncJITFrame
 (
 jsFrame
 .
