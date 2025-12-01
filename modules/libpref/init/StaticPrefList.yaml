@@ -2314,6 +2314,9 @@ do_not_use_directly
 :
 true
 #
+ifdef
+XP_WIN
+#
 Whether
 to
 avoid
@@ -2449,6 +2452,8 @@ value
 mirror
 :
 always
+#
+endif
 #
 -
 -
@@ -49775,6 +49780,9 @@ OpenGL
 -
 -
 -
+#
+ifdef
+XP_MACOSX
 -
 name
 :
@@ -49794,6 +49802,11 @@ true
 mirror
 :
 always
+#
+endif
+#
+ifdef
+XP_WIN
 -
 name
 :
@@ -49815,6 +49828,8 @@ false
 mirror
 :
 always
+#
+endif
 -
 name
 :
