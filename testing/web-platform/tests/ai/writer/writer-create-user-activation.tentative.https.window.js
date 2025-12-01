@@ -63,6 +63,19 @@ Writer
 create
 )
 ;
+assert_true
+(
+navigator
+.
+userActivation
+.
+isActive
+)
+;
+consumeTransientUserActivation
+(
+)
+;
 assert_equals
 (
 await
@@ -96,6 +109,7 @@ create
 '
 Create
 requires
+sticky
 user
 activation
 when
