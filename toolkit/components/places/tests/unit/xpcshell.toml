@@ -864,6 +864,14 @@ test_origins
 js
 "
 ]
+requesttimeoutfactor
+=
+3
+#
+Slow
+on
+Mac
+debug
 [
 "
 test_origins_parsing
