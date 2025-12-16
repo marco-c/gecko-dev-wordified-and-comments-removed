@@ -3077,6 +3077,7 @@ const
 TrackParseMode
 &
 aTrackParseMode
+const
 Trex
 &
 aTrex
@@ -4809,6 +4810,7 @@ const
 TrackParseMode
 &
 aTrackParseMode
+const
 Trex
 &
 aTrex
@@ -7333,6 +7335,7 @@ Trex
 :
 Trex
 (
+const
 Box
 &
 aBox
@@ -7401,6 +7404,7 @@ Trex
 :
 Parse
 (
+const
 Box
 &
 aBox
@@ -7498,6 +7502,7 @@ Tfhd
 Box
 &
 aBox
+const
 Trex
 &
 aTrex

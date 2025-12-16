@@ -314,6 +314,7 @@ ByteSlice
 ReadAsSlice
 (
 )
+const
 ;
 private
 :
@@ -365,6 +366,7 @@ public
 explicit
 BoxReader
 (
+const
 Box
 &
 aBox
