@@ -10,7 +10,10 @@ l10nId
 =
 "
 l10n
-ID
+-
+test
+-
+id
 "
 ;
 const
