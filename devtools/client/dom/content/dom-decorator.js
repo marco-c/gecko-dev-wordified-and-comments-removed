@@ -31,16 +31,8 @@ js
 "
 )
 ;
-function
+class
 DomDecorator
-(
-)
-{
-}
-DomDecorator
-.
-prototype
-=
 {
 getRowClass
 (
@@ -132,7 +124,6 @@ getValueRep
 {
 }
 }
-;
 exports
 .
 DomDecorator
