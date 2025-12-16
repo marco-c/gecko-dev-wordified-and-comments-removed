@@ -154,9 +154,6 @@ searchText
 "
 mozilla
 "
-usePrivate
-:
-false
 triggeringPrincipal
 :
 Services
@@ -189,9 +186,6 @@ searchText
 "
 firefox
 "
-usePrivate
-:
-false
 triggeringPrincipal
 :
 Services

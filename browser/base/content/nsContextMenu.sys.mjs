@@ -17619,6 +17619,8 @@ event
 engine
 policyContainer
 searchUrlType
+usePrivateWindow
+:
 usePrivate
 window
 :

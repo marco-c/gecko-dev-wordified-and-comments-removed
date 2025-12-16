@@ -2617,7 +2617,7 @@ window
 :
 win
 searchText
-usePrivate
+usePrivateWindow
 :
 lazy
 .
