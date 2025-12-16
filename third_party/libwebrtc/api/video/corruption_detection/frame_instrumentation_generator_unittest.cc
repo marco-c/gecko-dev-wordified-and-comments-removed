@@ -4038,7 +4038,7 @@ frames_destroyed
 ElementsAre
 (
 true
-false
+true
 false
 false
 )

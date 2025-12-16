@@ -252,7 +252,7 @@ constexpr
 size_t
 kMaxPendingFrames
 =
-3
+2
 ;
 std
 :
