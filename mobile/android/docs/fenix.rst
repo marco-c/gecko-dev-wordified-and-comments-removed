@@ -256,8 +256,6 @@ outputs
 /
 apk
 /
-fenix
-/
 debug
 To
 sign

@@ -190,17 +190,9 @@ bundle
 variant_name
 }
 /
-app
--
 {
-gradle_build
+aab_filename
 }
--
-{
-gradle_build_type
-}
-.
-aab
 '
 attributes
 :
@@ -470,7 +462,7 @@ build
 -
 name
 :
-fenixDebug
+debug
 gradle
 -
 build
@@ -919,7 +911,7 @@ build
 -
 name
 :
-fenixRelease
+release
 gradle
 -
 build
@@ -1216,7 +1208,7 @@ build
 -
 name
 :
-fenixNightly
+nightly
 gradle
 -
 build
@@ -1537,7 +1529,7 @@ build
 -
 name
 :
-fenixBeta
+beta
 gradle
 -
 build

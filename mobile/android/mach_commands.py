@@ -1430,7 +1430,7 @@ command_context
 "
 fenix
 :
-installFenixDebug
+installDebug
 "
 ]
 +
@@ -1630,7 +1630,7 @@ android
 fenix
 "
 "
-installFenixRelease
+installRelease
 "
 ]
 +

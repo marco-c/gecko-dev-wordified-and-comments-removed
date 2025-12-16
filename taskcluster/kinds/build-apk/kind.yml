@@ -191,11 +191,7 @@ outputs
 apk
 /
 {
-gradle_build
-}
-/
-{
-gradle_build_type
+apk_path
 }
 /
 {
@@ -458,7 +454,7 @@ build
 -
 name
 :
-fenixDebug
+debug
 gradle
 -
 build
@@ -945,7 +941,7 @@ build
 -
 name
 :
-fenixRelease
+release
 gradle
 -
 build
@@ -1335,7 +1331,7 @@ build
 -
 name
 :
-fenixNightly
+nightly
 gradle
 -
 build
@@ -1693,7 +1689,7 @@ build
 -
 name
 :
-fenixBeta
+beta
 gradle
 -
 build
@@ -2002,7 +1998,7 @@ build
 -
 name
 :
-fenixNightly
+nightly
 gradle
 -
 build
@@ -2242,7 +2238,7 @@ build
 -
 name
 :
-fenixBeta
+beta
 gradle
 -
 build
@@ -2579,8 +2575,6 @@ to
 "
 app
 -
-fenix
--
 debug
 -
 androidTest
@@ -2619,13 +2613,9 @@ apk
 /
 androidTest
 /
-fenix
-/
 debug
 /
 app
--
-fenix
 -
 debug
 -
@@ -3075,7 +3065,7 @@ is
 forced
 to
 "
-debug
+nightly
 "
 #
 *
@@ -3089,8 +3079,6 @@ forced
 to
 "
 app
--
-fenix
 -
 nightly
 -
@@ -3130,13 +3118,9 @@ apk
 /
 androidTest
 /
-fenix
-/
 nightly
 /
 app
--
-fenix
 -
 nightly
 -
@@ -3482,8 +3466,6 @@ to
 "
 app
 -
-fenix
--
 beta
 -
 androidTest
@@ -3522,13 +3504,9 @@ apk
 /
 androidTest
 /
-fenix
-/
 beta
 /
 app
--
-fenix
 -
 beta
 -
@@ -3701,8 +3679,6 @@ to
 "
 app
 -
-fenix
--
 beta
 -
 androidTest
@@ -3741,13 +3717,9 @@ apk
 /
 androidTest
 /
-fenix
-/
 beta
 /
 app
--
-fenix
 -
 beta
 -
@@ -3950,7 +3922,7 @@ build
 -
 name
 :
-fenixNightly
+nightly
 gradle
 -
 build
@@ -4080,7 +4052,7 @@ build
 -
 name
 :
-fenixBeta
+beta
 gradle
 -
 build
@@ -4243,7 +4215,7 @@ build
 -
 name
 :
-fenixRelease
+release
 gradle
 -
 build

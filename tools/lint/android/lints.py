@@ -971,7 +971,7 @@ lint
 "
 fenix
 :
-lintFenixDebug
+lintDebug
 "
         
 ]

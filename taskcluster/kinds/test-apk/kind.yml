@@ -505,7 +505,7 @@ gradlew
 clean
 '
 '
-testFenixDebugUnitTest
+testDebugUnitTest
 '
 ]
 treeherder
@@ -575,7 +575,7 @@ reports
 /
 tests
 /
-testFenixDebugUnitTest
+testDebugUnitTest
 /
 index
 .

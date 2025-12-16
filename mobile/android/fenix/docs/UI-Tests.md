@@ -568,7 +568,7 @@ you
 can
 utilize
 the
-connectedFenixDebugAndroidTest
+connectedDebugAndroidTest
 task
 which
 is
@@ -580,7 +580,7 @@ instrumented
 tests
 on
 the
-FenixDebug
+debug
 build
 variant
 .
@@ -593,6 +593,7 @@ the
 Android
 Gradle
 Plugin
+'
 s
 suite
 of
@@ -634,6 +635,7 @@ would
 navigate
 to
 Fenix
+'
 s
 root
 directory
@@ -649,7 +651,7 @@ command
 .
 /
 gradlew
-connectedFenixDebugAndroidTest
+connectedDebugAndroidTest
 -
 Pandroid
 .
@@ -670,7 +672,7 @@ This
 command
 targets
 the
-FenixDebug
+debug
 build
 variant
 and

@@ -366,7 +366,7 @@ gradle_command
 testDebug
 "
 "
-testFenixDebugUnitTest
+testDebugUnitTest
 "
 ]
         

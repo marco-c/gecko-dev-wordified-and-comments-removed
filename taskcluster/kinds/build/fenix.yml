@@ -399,13 +399,9 @@ outputs
 /
 apk
 /
-fenix
-/
 debug
 /
-fenix
--
-fenix
+app
 -
 arm64
 -

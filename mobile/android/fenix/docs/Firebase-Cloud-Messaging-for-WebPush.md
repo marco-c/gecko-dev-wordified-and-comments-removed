@@ -109,7 +109,7 @@ be
 compiled
 into
 the
-fenixDebug
+debug
 variant
 .
 3

@@ -316,13 +316,9 @@ outputs
 /
 apk
 /
-fenix
-/
 benchmark
 /
 app
--
-fenix
 -
 arm64
 -

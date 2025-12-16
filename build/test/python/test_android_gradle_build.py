@@ -1714,7 +1714,7 @@ run_mach
 "
 Verify
 that
-minifyFenixReleaseWithR8
+minifyReleaseWithR8
 is
 UP
 -
@@ -1751,7 +1751,7 @@ gradle
 :
 fenix
 :
-cleanMinifyFenixReleaseWithR8
+cleanMinifyReleaseWithR8
 "
 ]
 )
@@ -1770,7 +1770,7 @@ gradle
 :
 fenix
 :
-minifyFenixReleaseWithR8
+minifyReleaseWithR8
 "
 ]
 )
@@ -1778,7 +1778,6 @@ minifyFenixReleaseWithR8
     
 assert_ordered_task_outcomes
 (
-        
 objdir
 [
 (
@@ -1786,14 +1785,13 @@ objdir
 :
 fenix
 :
-minifyFenixReleaseWithR8
+minifyReleaseWithR8
 "
 "
 EXECUTED
 "
 )
 ]
-    
 )
     
 assert_success
@@ -1809,7 +1807,7 @@ gradle
 :
 fenix
 :
-minifyFenixReleaseWithR8
+minifyReleaseWithR8
 "
 ]
 )
@@ -1817,7 +1815,6 @@ minifyFenixReleaseWithR8
     
 assert_ordered_task_outcomes
 (
-        
 objdir
 [
 (
@@ -1825,7 +1822,7 @@ objdir
 :
 fenix
 :
-minifyFenixReleaseWithR8
+minifyReleaseWithR8
 "
 "
 UP
@@ -1836,7 +1833,6 @@ DATE
 "
 )
 ]
-    
 )
 def
 test_geckoview_build
