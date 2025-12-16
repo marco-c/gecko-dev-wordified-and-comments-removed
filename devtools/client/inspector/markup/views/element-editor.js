@@ -389,8 +389,10 @@ tooltiptext2
 )
 }
 ;
-function
+class
 ElementEditor
+{
+constructor
 (
 container
 node
@@ -669,11 +671,6 @@ initialized
 true
 ;
 }
-ElementEditor
-.
-prototype
-=
-{
 buildMarkup
 (
 )
@@ -6228,7 +6225,6 @@ null
 ;
 }
 }
-;
 module
 .
 exports
