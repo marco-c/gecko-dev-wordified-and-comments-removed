@@ -7266,7 +7266,7 @@ value
 (
 )
 .
-showExpandedCustomization
+showCustomization
 }
 )
 val

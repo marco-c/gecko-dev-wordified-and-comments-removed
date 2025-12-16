@@ -734,13 +734,6 @@ pref_key_enable_toolbar_customization
 .
 apply
 {
-isVisible
-=
-Config
-.
-channel
-.
-isNightlyOrDebug
 isChecked
 =
 context
