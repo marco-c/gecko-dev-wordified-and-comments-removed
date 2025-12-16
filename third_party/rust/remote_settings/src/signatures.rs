@@ -408,8 +408,6 @@ serialize_data
 (
 1337
 &
-vec
-!
 [
 RemoteSettingsRecord
 {
@@ -567,8 +565,6 @@ serialize_data
 (
 1337
 &
-vec
-!
 [
 RemoteSettingsRecord
 {
