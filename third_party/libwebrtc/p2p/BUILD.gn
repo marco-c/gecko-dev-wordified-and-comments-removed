@@ -970,6 +970,14 @@ network_constants
 /
 rtc_base
 :
+platform_thread_types
+"
+"
+.
+.
+/
+rtc_base
+:
 socket_address
 "
 "
