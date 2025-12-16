@@ -1071,6 +1071,9 @@ RFC8888CongestionControlFeedback
 "
 "
 Enabled
+offer
+:
+true
 "
 )
 ;
@@ -1731,6 +1734,9 @@ caller_supports_rfc8888
 ?
 "
 Enabled
+offer
+:
+true
 "
 :
 "
@@ -2436,6 +2442,9 @@ RFC8888CongestionControlFeedback
 "
 "
 Enabled
+offer
+:
+true
 "
 )
 ;
@@ -3166,6 +3175,9 @@ RFC8888CongestionControlFeedback
 "
 "
 Enabled
+offer
+:
+true
 "
 )
 ;
@@ -3498,6 +3510,9 @@ RFC8888CongestionControlFeedback
 "
 "
 Enabled
+offer
+:
+true
 "
 )
 ;
@@ -3936,6 +3951,9 @@ RFC8888CongestionControlFeedback
 "
 "
 Enabled
+offer
+:
+true
 "
 )
 ;
