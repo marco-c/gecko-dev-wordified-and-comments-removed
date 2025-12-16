@@ -99,6 +99,13 @@ js
 ]
 [
 "
+browser_tab_grouping_suggestions_checkbox
+.
+js
+"
+]
+[
+"
 browser_tab_grouping_telemetry
 .
 js
