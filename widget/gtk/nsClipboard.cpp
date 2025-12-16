@@ -341,14 +341,14 @@ kde
 passwordManagerHint
 "
 ;
-MOZ_CONSTINIT
+constinit
 ClipboardTargets
 nsRetrievalContext
 :
 :
 sClipboardTargets
 ;
-MOZ_CONSTINIT
+constinit
 ClipboardTargets
 nsRetrievalContext
 :

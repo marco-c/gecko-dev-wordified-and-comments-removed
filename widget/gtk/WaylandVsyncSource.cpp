@@ -227,7 +227,7 @@ ToMilliseconds
 )
 ;
 }
-MOZ_CONSTINIT
+constinit
 static
 nsTArray
 <
