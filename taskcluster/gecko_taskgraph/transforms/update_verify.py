@@ -15,10 +15,6 @@ description
 "
 "
 from
-copy
-import
-deepcopy
-from
 taskgraph
 .
 transforms
@@ -26,6 +22,14 @@ transforms
 base
 import
 TransformSequence
+from
+taskgraph
+.
+util
+.
+copy
+import
+deepcopy
 from
 taskgraph
 .
