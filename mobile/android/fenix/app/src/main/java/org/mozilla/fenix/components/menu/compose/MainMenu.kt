@@ -2802,6 +2802,12 @@ MORE_OPTION_CHEVRON
 }
 }
 Composable
+Suppress
+(
+"
+LongMethod
+"
+)
 private
 fun
 LibraryMenuGroup
