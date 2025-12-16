@@ -58,6 +58,17 @@ TimeStamp
 .
 h
 "
+#
+include
+"
+system_wrappers
+/
+include
+/
+clock
+.
+h
+"
 class
 nsISerialEventTarget
 ;
@@ -98,6 +109,9 @@ public
 explicit
 VideoCaptureFake
 (
+Clock
+*
+clock
 nsISerialEventTarget
 *
 aTarget
