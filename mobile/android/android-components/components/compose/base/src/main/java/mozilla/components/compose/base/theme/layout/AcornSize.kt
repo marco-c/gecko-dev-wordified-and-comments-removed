@@ -229,6 +229,14 @@ Dp
 .
 dp
 val
+static150
+:
+Dp
+=
+12
+.
+dp
+val
 static200
 :
 Dp
