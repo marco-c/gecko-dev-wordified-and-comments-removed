@@ -323,7 +323,7 @@ _
 log
 :
 :
-info
+debug
 !
 (
 "
@@ -589,9 +589,6 @@ join_dispatcher_thread
 )
 }
 pub
-(
-crate
-)
 fn
 reset_dispatcher
 (

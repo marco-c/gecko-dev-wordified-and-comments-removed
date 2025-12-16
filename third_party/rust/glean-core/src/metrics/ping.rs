@@ -1396,7 +1396,7 @@ BUILTIN_PINGS
 &
 str
 ;
-4
+5
 ]
 =
 [
@@ -1408,6 +1408,9 @@ metrics
 "
 "
 events
+"
+"
+health
 "
 "
 deletion

@@ -172,7 +172,7 @@ wc
 l
 )
 #
-2x
+1x
 "
 health
 "
@@ -182,7 +182,7 @@ prototype
 "
 expect_count
 =
-3
+2
 #
 We
 expect
