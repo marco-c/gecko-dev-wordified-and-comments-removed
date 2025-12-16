@@ -91,7 +91,7 @@ aFlags
 aFrame
 -
 >
-HasReplacedSizing
+IsReplaced
 (
 )
 ?

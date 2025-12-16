@@ -170,13 +170,13 @@ class
 ComputedStyle
 ;
 struct
-AnchorPosResolutionCache
-;
-struct
 IntrinsicSize
 ;
 struct
-SizeComputationInput
+ReflowInput
+;
+struct
+AnchorPosResolutionCache
 ;
 }
 namespace
@@ -1527,6 +1527,7 @@ nullptr
 )
 ;
 static
+inline
 AnchorPosResolutionParams
 From
 (
@@ -1534,9 +1535,9 @@ const
 mozilla
 :
 :
-SizeComputationInput
+ReflowInput
 *
-aSizingInput
+aRI
 bool
 aIgnorePositionArea
 =
