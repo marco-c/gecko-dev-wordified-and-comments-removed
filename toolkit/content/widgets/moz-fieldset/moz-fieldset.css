@@ -146,7 +146,7 @@ baseline
 has
 (
 +
-#
+.
 description
 )
 {
@@ -293,7 +293,7 @@ margin
 0
 ;
 }
-#
+.
 description
 {
 margin
@@ -312,7 +312,7 @@ var
 -
 space
 -
-xxsmall
+xsmall
 )
 ;
 color
@@ -408,7 +408,7 @@ medium
 is
 (
 legend
-#
+.
 description
 )
 ~
