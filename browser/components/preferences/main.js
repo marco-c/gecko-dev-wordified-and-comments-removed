@@ -5831,7 +5831,7 @@ id
 "
 payments
 -
-remove
+delete
 -
 payment
 -
@@ -5846,7 +5846,7 @@ id
 "
 payments
 -
-remove
+delete
 -
 payment
 -
@@ -5863,7 +5863,7 @@ id
 "
 payments
 -
-remove
+delete
 -
 payment
 -
