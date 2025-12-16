@@ -2312,7 +2312,11 @@ return
 selected_connection_
 -
 >
-rtt
+Rtt
+(
+)
+.
+ms
 (
 )
 ;
