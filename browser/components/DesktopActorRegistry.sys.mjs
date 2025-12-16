@@ -1700,6 +1700,10 @@ DOMContentLoaded
 :
 {
 }
+pageshow
+:
+{
+}
 }
 }
 enablePreference

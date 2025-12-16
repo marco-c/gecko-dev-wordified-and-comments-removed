@@ -177,6 +177,11 @@ case
 DOMContentLoaded
 "
 :
+case
+"
+pageshow
+"
+:
 this
 .
 #
