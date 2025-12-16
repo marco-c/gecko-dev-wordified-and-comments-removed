@@ -2106,6 +2106,11 @@ DefaultDistributionSettings
 (
 settings
 )
+metricController
+=
+analytics
+.
+metrics
 )
 }
 val

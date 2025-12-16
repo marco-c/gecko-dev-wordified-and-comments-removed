@@ -2320,6 +2320,16 @@ settings
 isDailyUsagePingEnabled
 )
 }
+else
+{
+components
+.
+distributionIdManager
+.
+startAdjustIfSkippingConsentScreen
+(
+)
+}
 setupPush
 (
 )
