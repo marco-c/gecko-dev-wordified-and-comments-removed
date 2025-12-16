@@ -686,7 +686,7 @@ item
 name
 =
 "
-colorPrimary
+colorPrimarySurface
 "
 >
 color
@@ -4508,7 +4508,7 @@ item
 name
 =
 "
-colorPrimary
+colorPrimarySurface
 "
 >
 color

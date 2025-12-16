@@ -3726,7 +3726,7 @@ MaterialTheme
 .
 colorScheme
 .
-inverseOnSurface
+onPrimary
 }
 val
 iconColor
@@ -3752,7 +3752,7 @@ MaterialTheme
 .
 colorScheme
 .
-inverseOnSurface
+onPrimary
 }
 Box
 {

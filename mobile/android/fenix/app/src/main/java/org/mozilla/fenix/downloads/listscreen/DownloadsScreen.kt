@@ -3080,14 +3080,14 @@ MaterialTheme
 .
 colorScheme
 .
-inverseOnSurface
+onPrimary
 iconColor
 =
 MaterialTheme
 .
 colorScheme
 .
-inverseOnSurface
+onPrimary
 )
 is
 Mode
