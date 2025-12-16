@@ -961,7 +961,7 @@ ShouldRestoreStateDueToLaunchAtLogin
 )
 ;
 static
-void
+bool
 PrepareForNativeAppModalDialog
 (
 )
