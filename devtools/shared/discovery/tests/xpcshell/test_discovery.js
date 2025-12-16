@@ -166,8 +166,10 @@ gTestTransports
 {
 }
 ;
-function
+class
 TestTransport
+{
+constructor
 (
 port
 )
@@ -195,11 +197,6 @@ port
 this
 ;
 }
-TestTransport
-.
-prototype
-=
-{
 send
 (
 object
@@ -358,7 +355,6 @@ onStopListening
 {
 }
 }
-;
 discovery
 .
 _factories
