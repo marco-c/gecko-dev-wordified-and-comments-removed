@@ -233,16 +233,6 @@ bool
 aSuppressLogMessages
 )
 ;
-static
-bool
-isValidBase64Value
-(
-const
-nsAString
-&
-aValue
-)
-;
 private
 :
 nsCSPParser
