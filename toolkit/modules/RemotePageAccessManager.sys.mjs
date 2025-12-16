@@ -436,7 +436,7 @@ RPMGetAppBuildID
 *
 "
 ]
-RPMGetInnerMostURI
+RPMGetHostForDisplay
 :
 [
 "
@@ -732,7 +732,7 @@ privacy
 v1
 "
 ]
-RPMGetInnerMostURI
+RPMGetHostForDisplay
 :
 [
 "

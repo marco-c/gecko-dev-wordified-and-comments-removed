@@ -94,7 +94,7 @@ RPMGetAppBuildID
 "
 readonly
 "
-RPMGetInnerMostURI
+RPMGetHostForDisplay
 :
 "
 readonly
