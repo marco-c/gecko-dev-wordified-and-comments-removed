@@ -125,12 +125,12 @@ MockIceTransport
 (
 )
 {
-SignalReadyToSend
+NotifyReadyToSend
 (
 this
 )
 ;
-SignalWritableState
+NotifyWritableState
 (
 this
 )

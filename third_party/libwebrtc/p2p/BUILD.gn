@@ -3649,6 +3649,14 @@ network_route
 /
 rtc_base
 :
+sigslot_trampoline
+"
+"
+.
+.
+/
+rtc_base
+:
 socket
 "
 "

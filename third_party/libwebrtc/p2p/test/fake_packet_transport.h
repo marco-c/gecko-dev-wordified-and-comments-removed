@@ -527,7 +527,7 @@ network_route_
 =
 network_route
 ;
-SignalNetworkRouteChanged
+NotifyNetworkRouteChanged
 (
 network_route
 )
@@ -574,13 +574,13 @@ if
 writable_
 )
 {
-SignalReadyToSend
+NotifyReadyToSend
 (
 this
 )
 ;
 }
-SignalWritableState
+NotifyWritableState
 (
 this
 )
@@ -608,7 +608,7 @@ receiving_
 =
 receiving
 ;
-SignalReceivingState
+NotifyReceivingState
 (
 this
 )

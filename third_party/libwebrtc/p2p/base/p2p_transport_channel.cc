@@ -9935,7 +9935,7 @@ selected_connection_
 )
 )
 {
-SignalReadyToSend
+NotifyReadyToSend
 (
 this
 )
@@ -10013,7 +10013,7 @@ conn
 )
 ;
 }
-SignalNetworkRouteChanged
+NotifyNetworkRouteChanged
 (
 network_route_
 )
@@ -11807,7 +11807,7 @@ writable
 )
 )
 {
-SignalReadyToSend
+NotifyReadyToSend
 (
 this
 )
@@ -11874,13 +11874,13 @@ has_been_writable_
 =
 true
 ;
-SignalReadyToSend
+NotifyReadyToSend
 (
 this
 )
 ;
 }
-SignalWritableState
+NotifyWritableState
 (
 this
 )
@@ -11916,7 +11916,7 @@ receiving_
 =
 receiving
 ;
-SignalReceivingState
+NotifyReceivingState
 (
 this
 )
