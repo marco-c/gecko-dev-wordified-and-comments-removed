@@ -1062,7 +1062,7 @@ kCursorLoadingTimeout
 =
 1000
 ;
-MOZ_CONSTINIT
+constinit
 static
 AutoWeakFrame
 gLastCursorSourceFrame
@@ -3076,7 +3076,7 @@ sCursorSettingManager
 =
 nullptr
 ;
-MOZ_CONSTINIT
+constinit
 AutoWeakFrame
 EventStateManager
 :

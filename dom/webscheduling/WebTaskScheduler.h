@@ -98,7 +98,7 @@ mozilla
 :
 dom
 {
-MOZ_CONSTINIT
+constinit
 extern
 uint32_t
 gNumNormalOrHighPriorityQueuesHaveTaskScheduledMainThread

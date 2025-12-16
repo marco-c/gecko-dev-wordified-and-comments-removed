@@ -3069,7 +3069,7 @@ NS_IMPL_ISUPPORTS
 JSStreamConsumer
 nsIInputStreamCallback
 )
-MOZ_CONSTINIT
+constinit
 nsCString
 FetchUtil
 :

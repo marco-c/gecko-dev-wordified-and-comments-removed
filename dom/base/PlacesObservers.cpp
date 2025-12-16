@@ -364,7 +364,7 @@ INativePlacesEventCallback
 >
 >
 ;
-MOZ_CONSTINIT
+constinit
 static
 nsTArray
 <
