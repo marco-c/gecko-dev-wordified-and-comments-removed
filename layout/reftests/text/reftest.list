@@ -3397,9 +3397,11 @@ for
 graphite
 rendering
 with
-valid
+canonical
 and
-invalid
+non
+-
+canonical
 lang
 tags
 pref
@@ -3480,7 +3482,7 @@ graphite
 -
 04
 -
-ref
+sd
 .
 html
 pref
@@ -3534,7 +3536,7 @@ graphite
 -
 04
 -
-ref
+ur
 .
 html
 pref
