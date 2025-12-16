@@ -63798,7 +63798,7 @@ css
 .
 scroll
 -
-behavior
+snap
 .
 damping
 -
@@ -63859,7 +63859,7 @@ css
 .
 scroll
 -
-behavior
+snap
 .
 spring
 -
