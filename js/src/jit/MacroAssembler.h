@@ -9518,7 +9518,7 @@ PER_ARCH
 ;
 inline
 void
-canonicalizeDouble
+canonicalizeDoubleNaN
 (
 FloatRegister
 reg
@@ -9526,7 +9526,7 @@ reg
 ;
 inline
 void
-canonicalizeFloat
+canonicalizeFloatNaN
 (
 FloatRegister
 reg

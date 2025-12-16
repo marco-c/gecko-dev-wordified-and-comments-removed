@@ -1026,7 +1026,7 @@ temp2
 volatileLiveRegs
 )
 ;
-canonicalizeFloat
+canonicalizeFloatNaN
 (
 dest
 .
@@ -1053,7 +1053,7 @@ fpu
 )
 )
 ;
-canonicalizeFloat
+canonicalizeFloatNaN
 (
 dest
 .
@@ -1080,7 +1080,7 @@ fpu
 )
 )
 ;
-canonicalizeDouble
+canonicalizeDoubleNaN
 (
 dest
 .
@@ -54483,7 +54483,7 @@ Register
 temp
 )
 {
-canonicalizeDouble
+canonicalizeDoubleNaN
 (
 src
 )
