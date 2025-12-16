@@ -3521,7 +3521,6 @@ aTargetFrame
 OverflowClipMargin
 (
 clipAxes
-false
 )
 )
 ;

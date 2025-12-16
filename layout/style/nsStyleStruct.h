@@ -2047,7 +2047,7 @@ mScrollMargin
 mozilla
 :
 :
-StyleOverflowClipMargin
+StyleLength
 mOverflowClipMargin
 ;
 }
