@@ -5902,6 +5902,13 @@ IsBold
 )
 const
 ;
+inline
+bool
+PreferBold
+(
+)
+const
+;
 "
 "
 "
