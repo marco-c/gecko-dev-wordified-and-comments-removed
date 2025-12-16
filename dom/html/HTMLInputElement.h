@@ -3470,15 +3470,6 @@ aInitialValue
 )
 ;
 void
-UpdateDateTimePicker
-(
-const
-DateTimeValue
-&
-aValue
-)
-;
-void
 CloseDateTimePicker
 (
 )

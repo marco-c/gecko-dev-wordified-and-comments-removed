@@ -3778,10 +3778,6 @@ MozOpenDateTimePicker
 :
 {
 }
-MozUpdateDateTimePicker
-:
-{
-}
 MozCloseDateTimePicker
 :
 {
