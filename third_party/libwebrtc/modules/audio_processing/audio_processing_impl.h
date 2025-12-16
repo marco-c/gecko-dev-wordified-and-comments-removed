@@ -963,10 +963,6 @@ int
 >
 instance_count_
 ;
-const
-bool
-use_setup_specific_default_aec3_config_
-;
 SwapQueue
 <
 RuntimeSetting
