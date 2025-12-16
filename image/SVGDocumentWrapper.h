@@ -126,7 +126,7 @@ dom
 :
 SVGSVGElement
 *
-GetRootSVGElem
+GetSVGRootElement
 (
 )
 const
