@@ -142,16 +142,8 @@ log
 }
 }
 ;
-function
+class
 HarAutomation
-(
-)
-{
-}
-HarAutomation
-.
-prototype
-=
 {
 async
 initialize
@@ -791,7 +783,6 @@ fullText
 ;
 }
 }
-;
 function
 getDefaultTargetFile
 (
