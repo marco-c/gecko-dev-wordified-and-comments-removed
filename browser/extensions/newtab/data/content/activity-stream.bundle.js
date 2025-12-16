@@ -57755,7 +57755,7 @@ messageData
 >
 {
 const
-wavingFox
+kitFox
 =
 "
 chrome
@@ -57772,11 +57772,9 @@ content
 /
 assets
 /
-waving
--
-fox
+kit
 .
-svg
+png
 "
 ;
 const
@@ -57993,7 +57991,7 @@ img
 {
 src
 :
-wavingFox
+kitFox
 alt
 :
 "
