@@ -40,8 +40,10 @@ log
 }
 }
 ;
-function
+class
 HarCollector
+{
+constructor
 (
 options
 )
@@ -178,11 +180,6 @@ clear
 )
 ;
 }
-HarCollector
-.
-prototype
-=
-{
 async
 start
 (
@@ -1708,7 +1705,6 @@ promise
 ;
 }
 }
-;
 function
 waitForAll
 (
