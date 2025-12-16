@@ -71,16 +71,6 @@ CSSNumericValue
 {
 public
 :
-explicit
-CSSUnitValue
-(
-nsCOMPtr
-<
-nsISupports
->
-aParent
-)
-;
 CSSUnitValue
 (
 nsCOMPtr
@@ -172,6 +162,7 @@ default
 double
 mValue
 ;
+const
 nsCString
 mUnit
 ;
