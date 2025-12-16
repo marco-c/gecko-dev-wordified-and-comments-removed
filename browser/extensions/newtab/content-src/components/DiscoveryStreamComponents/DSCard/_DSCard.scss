@@ -3665,9 +3665,9 @@ img
 {
 border
 -
-bottom
+end
 -
-left
+start
 -
 radius
 :
@@ -3675,9 +3675,9 @@ radius
 ;
 border
 -
-bottom
+end
 -
-right
+end
 -
 radius
 :
@@ -3790,7 +3790,11 @@ index
 :
 10
 ;
-bottom
+inset
+-
+block
+-
+end
 :
 0
 ;
