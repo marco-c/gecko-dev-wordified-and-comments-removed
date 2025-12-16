@@ -31,6 +31,7 @@ Debugger
 g
 )
 ;
+new
 Pattern
 (
 {
@@ -243,6 +244,7 @@ census
 true
 )
 ;
+new
 Pattern
 (
 {
@@ -304,6 +306,7 @@ objectClass
 )
 )
 ;
+new
 Pattern
 (
 {
@@ -365,6 +368,7 @@ coarseType
 )
 )
 ;
+new
 Pattern
 (
 {
@@ -464,6 +468,7 @@ NATURAL
 }
 }
 ;
+new
 Pattern
 (
 {
@@ -512,6 +517,7 @@ coarseType
 )
 )
 ;
+new
 Pattern
 (
 {
@@ -594,6 +600,7 @@ coarseType
 )
 )
 ;
+new
 Pattern
 (
 {
