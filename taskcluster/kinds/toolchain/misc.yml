@@ -1874,6 +1874,8 @@ type
 b
 -
 win2022
+-
+xxlarge
 worker
 :
 max
@@ -1882,7 +1884,7 @@ run
 -
 time
 :
-18000
+10000
 env
 :
 MSYSTEM
