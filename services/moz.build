@@ -140,6 +140,17 @@ DIRS
 "
 fxaccounts
 "
+"
+application
+-
+services
+/
+components
+/
+viaduct
+-
+necko
+"
 ]
 if
 CONFIG
