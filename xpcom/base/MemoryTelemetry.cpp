@@ -489,11 +489,6 @@ mEvents
 ;
 }
 ;
-NS_IMPL_ISUPPORTS
-(
-MemoryTelemetry
-nsISupportsWeakReference
-)
 MemoryTelemetry
 :
 :
@@ -523,6 +518,15 @@ val
 kUninitialized
 ;
 }
+}
+MemoryTelemetry
+:
+:
+~
+MemoryTelemetry
+(
+)
+{
 }
 static
 StaticRefPtr
