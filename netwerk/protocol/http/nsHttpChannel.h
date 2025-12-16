@@ -3442,6 +3442,11 @@ bool
 aIsNavigation
 )
 ;
+void
+MaybeGenerateNELReport
+(
+)
+;
 nsCOMPtr
 <
 nsITimer
