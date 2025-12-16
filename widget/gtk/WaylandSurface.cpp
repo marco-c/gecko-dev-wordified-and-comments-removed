@@ -5305,6 +5305,7 @@ WaylandSurfaceLock
 lock
 (
 this
+true
 )
 ;
 auto
