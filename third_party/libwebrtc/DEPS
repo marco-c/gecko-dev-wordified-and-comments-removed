@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-52d007b2b77f8bffe3dceb71b39e3bcea5056b28
+b22e0146ab04c71b4aaf2ce6f85ddf838c3da981
 '
 #
 Fetch
@@ -678,7 +678,7 @@ chromium
 src
 /
 ios
-a9e4ec5ce2711d2e6dee0fc580c065203273eee8
+8b13ba57af470bf9bc26935fc3415514fe603b51
 '
 '
 condition
@@ -734,7 +734,7 @@ chromium
 src
 /
 third_party
-0a651faa737d9696360d65f84b82b12fdeb92682
+ff200de5717fb93f39436b1387528b0f2b433808
 '
 '
 src
@@ -2863,7 +2863,7 @@ compiler
 rt
 .
 git
-e27cd227d8bfe7961dbdecfa0d61facac98ce3ff
+0c75031f1b7a0556a6cc07b6aa97a260278c5e0d
 '
 '
 src
@@ -2984,7 +2984,7 @@ project
 libc
 .
 git
-4e07ac808643d5eee8eec80eafd1a6761e530bd5
+3601008ab24ea2791f9b3076231ae99af63dabed
 '
 '
 src
@@ -3751,7 +3751,7 @@ com
 boringssl
 .
 git
-29cd444602d2153326db31b78d12b2a0f6c49e70
+b6b33a84ed7badd0441cec1324ba3ef7f1d897e2
 '
 '
 src
@@ -4081,7 +4081,7 @@ grpc
 grpc
 .
 git
-36725b8b7e933a17d6a61bf3e1d92f8dbe6d11da
+88306ae1378bd8eb16e0dca20020e5db35b5769f
 '
 }
 #
@@ -5140,7 +5140,7 @@ libyuv
 libyuv
 .
 git
-eb4e4736a4651dfed56d59465222851f71d42920
+06a1c004bbbca3cef3f468a8fe77704b855ca039
 '
 '
 src
