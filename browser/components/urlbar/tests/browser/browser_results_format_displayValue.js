@@ -267,9 +267,14 @@ row
 .
 result
 .
-payload
-.
+getDisplayableValueAndHighlights
+(
+"
 title
+"
+)
+.
+value
 "
 www
 .
