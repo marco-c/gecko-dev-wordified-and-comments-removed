@@ -790,6 +790,7 @@ WasmSharedArrayRawBuffer
 buffer
 length
 addressType
+pageSize
 clampedMaxPages
 sourceMaxPages
 .
@@ -2161,13 +2162,12 @@ Pages
 fromByteLengthExact
 (
 newByteLength
-wasm
-:
-:
-PageSize
-:
-:
-Standard
+buffer
+-
+>
+wasmPageSize
+(
+)
 )
 ;
 return
