@@ -125,6 +125,11 @@ Locale
 cpp
 "
 "
+LocaleNegotiation
+.
+cpp
+"
+"
 NumberFormat
 .
 cpp
