@@ -2269,6 +2269,14 @@ SessionHistoryEntry
 aEntry
 )
 ;
+void
+MaybeReuseNavigationKeyFromActiveEntry
+(
+SessionHistoryEntry
+*
+aEntry
+)
+;
 EntryList
 *
 GetActiveEntries
