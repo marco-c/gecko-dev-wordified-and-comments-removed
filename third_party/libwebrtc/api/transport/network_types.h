@@ -766,6 +766,16 @@ PacketResult
 >
 packet_feedbacks
 ;
+TimeDelta
+smoothed_rtt
+=
+TimeDelta
+:
+:
+PlusInfinity
+(
+)
+;
 std
 :
 :
