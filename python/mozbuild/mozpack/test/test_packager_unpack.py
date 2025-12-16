@@ -59,7 +59,7 @@ staticmethod
 def
 _get_copier
 (
-cls
+formatter_class
 )
 :
         
@@ -71,7 +71,7 @@ FileCopier
         
 formatter
 =
-cls
+formatter_class
 (
 copier
 )

@@ -5674,7 +5674,7 @@ staticmethod
 def
 is_firefox
 (
-cls
+build_obj
 )
 :
         
@@ -5694,7 +5694,7 @@ build
 if
 hasattr
 (
-cls
+build_obj
 "
 substs
 "
@@ -5702,7 +5702,7 @@ substs
 :
             
 return
-cls
+build_obj
 .
 substs
 .
@@ -5726,7 +5726,7 @@ staticmethod
 def
 is_jsshell
 (
-cls
+build_obj
 )
 :
         
@@ -5746,7 +5746,7 @@ build
 if
 hasattr
 (
-cls
+build_obj
 "
 substs
 "
@@ -5754,7 +5754,7 @@ substs
 :
             
 return
-cls
+build_obj
 .
 substs
 .
@@ -5778,7 +5778,7 @@ staticmethod
 def
 is_thunderbird
 (
-cls
+build_obj
 )
 :
         
@@ -5798,7 +5798,7 @@ build
 if
 hasattr
 (
-cls
+build_obj
 "
 substs
 "
@@ -5806,7 +5806,7 @@ substs
 :
             
 return
-cls
+build_obj
 .
 substs
 .
@@ -5832,7 +5832,7 @@ staticmethod
 def
 is_firefox_or_thunderbird
 (
-cls
+build_obj
 )
 :
         
@@ -5857,7 +5857,7 @@ MachCommandConditions
 is_firefox
 (
             
-cls
+build_obj
         
 )
 or
@@ -5865,7 +5865,7 @@ MachCommandConditions
 .
 is_thunderbird
 (
-cls
+build_obj
 )
     
 staticmethod
@@ -5873,7 +5873,7 @@ staticmethod
 def
 is_android
 (
-cls
+build_obj
 )
 :
         
@@ -5893,7 +5893,7 @@ build
 if
 hasattr
 (
-cls
+build_obj
 "
 substs
 "
@@ -5901,7 +5901,7 @@ substs
 :
             
 return
-cls
+build_obj
 .
 substs
 .
@@ -5925,7 +5925,7 @@ staticmethod
 def
 is_not_android
 (
-cls
+build_obj
 )
 :
         
@@ -5946,7 +5946,7 @@ build
 if
 hasattr
 (
-cls
+build_obj
 "
 substs
 "
@@ -5954,7 +5954,7 @@ substs
 :
             
 return
-cls
+build_obj
 .
 substs
 .
@@ -5978,7 +5978,7 @@ staticmethod
 def
 is_android_cpu
 (
-cls
+build_obj
 )
 :
         
@@ -5996,7 +5996,7 @@ CPU
 if
 hasattr
 (
-cls
+build_obj
 "
 substs
 "
@@ -6008,7 +6008,7 @@ return
 ANDROID_CPU_ARCH
 "
 in
-cls
+build_obj
 .
 substs
         
@@ -6020,7 +6020,7 @@ staticmethod
 def
 is_firefox_or_android
 (
-cls
+build_obj
 )
 :
         
@@ -6045,7 +6045,7 @@ MachCommandConditions
 is_firefox
 (
             
-cls
+build_obj
         
 )
 or
@@ -6053,7 +6053,7 @@ MachCommandConditions
 .
 is_android
 (
-cls
+build_obj
 )
     
 staticmethod
@@ -6061,7 +6061,7 @@ staticmethod
 def
 has_build
 (
-cls
+build_obj
 )
 :
         
@@ -6083,7 +6083,7 @@ MachCommandConditions
 is_firefox_or_android
 (
             
-cls
+build_obj
         
 )
 or
@@ -6091,7 +6091,7 @@ MachCommandConditions
 .
 is_thunderbird
 (
-cls
+build_obj
 )
     
 staticmethod
@@ -6099,7 +6099,7 @@ staticmethod
 def
 has_build_or_shell
 (
-cls
+build_obj
 )
 :
         
@@ -6124,16 +6124,16 @@ MachCommandConditions
 .
 has_build
 (
-cls
+            
+build_obj
+        
 )
 or
 MachCommandConditions
 .
 is_jsshell
 (
-            
-cls
-        
+build_obj
 )
     
 staticmethod
@@ -6141,7 +6141,7 @@ staticmethod
 def
 is_hg
 (
-cls
+build_obj
 )
 :
         
@@ -6165,7 +6165,7 @@ try
 return
 isinstance
 (
-cls
+build_obj
 .
 repository
 HgRepository
@@ -6183,7 +6183,7 @@ staticmethod
 def
 is_git
 (
-cls
+build_obj
 )
 :
         
@@ -6207,7 +6207,7 @@ try
 return
 isinstance
 (
-cls
+build_obj
 .
 repository
 GitRepository
@@ -6225,7 +6225,7 @@ staticmethod
 def
 is_jj
 (
-cls
+build_obj
 )
 :
         
@@ -6249,7 +6249,7 @@ try
 return
 isinstance
 (
-cls
+build_obj
 .
 repository
 JujutsuRepository
@@ -6267,7 +6267,7 @@ staticmethod
 def
 is_artifact_build
 (
-cls
+build_obj
 )
 :
         
@@ -6287,7 +6287,7 @@ build
 if
 hasattr
 (
-cls
+build_obj
 "
 substs
 "
@@ -6297,7 +6297,7 @@ substs
 return
 getattr
 (
-cls
+build_obj
 "
 substs
 "
@@ -6320,7 +6320,7 @@ staticmethod
 def
 is_non_artifact_build
 (
-cls
+build_obj
 )
 :
         
@@ -6341,7 +6341,7 @@ build
 if
 hasattr
 (
-cls
+build_obj
 "
 substs
 "
@@ -6354,7 +6354,7 @@ MachCommandConditions
 .
 is_artifact_build
 (
-cls
+build_obj
 )
         
 return
@@ -6365,7 +6365,7 @@ staticmethod
 def
 is_buildapp_in
 (
-cls
+build_obj
 apps
 )
 :
@@ -6413,7 +6413,7 @@ attr
 and
 attr
 (
-cls
+build_obj
 )
 :
                 

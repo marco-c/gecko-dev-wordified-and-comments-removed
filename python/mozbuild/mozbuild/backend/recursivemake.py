@@ -1028,7 +1028,7 @@ SubDirectoriesTuple
 def
 __new__
 (
-self
+cls
 )
 :
             
@@ -1039,7 +1039,7 @@ SubDirectoriesTuple
 .
 __new__
 (
-self
+cls
 [
 ]
 [
