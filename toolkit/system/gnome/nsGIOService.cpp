@@ -3324,6 +3324,9 @@ aApp
 =
 nullptr
 ;
+#
+ifdef
+MOZ_ENABLE_DBUS
 if
 (
 widget
@@ -3650,6 +3653,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 RefPtr
 <
 GAppInfo
