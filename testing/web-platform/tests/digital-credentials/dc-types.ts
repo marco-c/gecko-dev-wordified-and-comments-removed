@@ -81,6 +81,11 @@ mediation
 :
 CredentialMediationRequirement
 ;
+signal
+?
+:
+AbortSignal
+;
 }
 export
 interface
@@ -99,6 +104,11 @@ mediation
 ?
 :
 CredentialMediationRequirement
+;
+signal
+?
+:
+AbortSignal
 ;
 }
 export
@@ -139,6 +149,11 @@ mediation
 :
 CredentialMediationRequirement
 ;
+signal
+?
+:
+AbortSignal
+;
 }
 export
 interface
@@ -177,6 +192,11 @@ DigitalCredentialCreationOptions
 mediation
 :
 CredentialMediationRequirement
+;
+signal
+?
+:
+AbortSignal
 ;
 }
 export
