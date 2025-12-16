@@ -165,16 +165,6 @@ eHonorRef
 }
 virtual
 size_t
-SizeOfExcludingThis
-(
-MallocSizeOf
-aMallocSizeOf
-)
-const
-override
-;
-virtual
-size_t
 SizeOfIncludingThis
 (
 MallocSizeOf

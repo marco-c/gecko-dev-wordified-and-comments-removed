@@ -608,16 +608,6 @@ NS_DECL_NSISERIALIZABLE
 NS_DECL_NSISENSITIVEINFOHIDDENURI
 virtual
 size_t
-SizeOfExcludingThis
-(
-MallocSizeOf
-aMallocSizeOf
-)
-const
-override
-;
-virtual
-size_t
 SizeOfIncludingThis
 (
 MallocSizeOf
