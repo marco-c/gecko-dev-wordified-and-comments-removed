@@ -13324,7 +13324,7 @@ false
 #
 endif
 ;
-MOZ_CONSTINIT
+constinit
 static
 nsTArray
 <

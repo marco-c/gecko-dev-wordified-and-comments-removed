@@ -1860,7 +1860,7 @@ defined
 (
 MOZ_HAS_REMOTE
 )
-MOZ_CONSTINIT
+constinit
 static
 RefPtr
 <
@@ -1868,7 +1868,7 @@ nsRemoteService
 >
 gRemoteService
 ;
-MOZ_CONSTINIT
+constinit
 static
 RefPtr
 <
@@ -1912,7 +1912,7 @@ gAllowContentAnalysisArgPresent
 =
 false
 ;
-MOZ_CONSTINIT
+constinit
 nsString
 gAbsoluteArgv0Path
 ;
@@ -1922,7 +1922,7 @@ defined
 (
 XP_WIN
 )
-MOZ_CONSTINIT
+constinit
 nsString
 gProcessStartupShortcut
 ;
@@ -2015,7 +2015,7 @@ defined
 (
 MOZ_WAYLAND
 )
-MOZ_CONSTINIT
+constinit
 std
 :
 :
@@ -5362,12 +5362,12 @@ return
 NS_OK
 ;
 }
-MOZ_CONSTINIT
+constinit
 static
 nsCString
 gLastAppVersion
 ;
-MOZ_CONSTINIT
+constinit
 static
 nsCString
 gLastAppBuildID
@@ -13718,7 +13718,7 @@ gDoProfileReset
 =
 false
 ;
-MOZ_CONSTINIT
+constinit
 static
 nsCOMPtr
 <
