@@ -1294,6 +1294,12 @@ STIX
 Two
 Math
 "
+"
+STIX
+Two
+Math
+Regular
+"
 }
 ;
 [
