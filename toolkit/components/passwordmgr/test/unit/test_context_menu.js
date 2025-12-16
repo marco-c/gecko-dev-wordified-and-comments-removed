@@ -803,6 +803,7 @@ fragment
 document
 }
 =
+await
 createLoginsFragment
 (
 formOrigin
@@ -905,6 +906,7 @@ removeAllUserFacingLogins
 )
 ;
 }
+async
 function
 createLoginsFragment
 (
@@ -960,11 +962,10 @@ getLoginOrigin
 url
 )
 ;
-return
-{
-document
+let
 fragment
-:
+=
+await
 LoginManagerContextMenu
 .
 addLoginsToMenu
@@ -973,6 +974,11 @@ null
 browser
 formOrigin
 )
+;
+return
+{
+document
+fragment
 }
 ;
 }

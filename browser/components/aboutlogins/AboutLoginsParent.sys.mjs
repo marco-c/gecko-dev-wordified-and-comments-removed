@@ -1006,6 +1006,7 @@ UpdateLogin
 "
 :
 {
+await
 this
 .
 #
@@ -2090,6 +2091,7 @@ ex
 ;
 }
 }
+async
 #
 updateLogin
 (
@@ -2099,11 +2101,12 @@ loginUpdates
 let
 logins
 =
-lazy
+await
+Services
 .
-LoginHelper
+logins
 .
-searchLoginsWithObject
+searchLoginsAsync
 (
 {
 guid

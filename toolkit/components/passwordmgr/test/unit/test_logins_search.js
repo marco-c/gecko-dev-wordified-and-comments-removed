@@ -48,6 +48,7 @@ name
 )
 ;
 }
+async
 function
 checkSearchLogins
 (
@@ -92,16 +93,14 @@ aExpectedCount
 let
 logins
 =
+await
 Services
 .
 logins
 .
-searchLogins
-(
-newPropertyBag
+searchLoginsAsync
 (
 aQuery
-)
 )
 ;
 LoginTestUtils
@@ -113,6 +112,7 @@ expectedLogins
 )
 ;
 }
+async
 function
 checkAllSearches
 (
@@ -228,6 +228,7 @@ expectedLogins
 length
 )
 ;
+await
 checkSearchLogins
 (
 aQuery
@@ -262,11 +263,13 @@ loginList
 ;
 add_task
 (
+async
 function
 test_search_all_basic
 (
 )
 {
+await
 checkAllSearches
 (
 {
@@ -274,6 +277,7 @@ checkAllSearches
 28
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -284,6 +288,7 @@ null
 17
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -294,6 +299,7 @@ null
 11
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -317,6 +323,7 @@ null
 3
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -340,6 +347,7 @@ null
 2
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -360,6 +368,7 @@ com
 1
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -380,6 +389,7 @@ com
 1
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -398,6 +408,7 @@ com
 1
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -418,6 +429,7 @@ com
 3
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -438,6 +450,7 @@ com
 2
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -458,6 +471,7 @@ com
 2
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -476,6 +490,7 @@ com
 1
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -509,6 +524,7 @@ com
 1
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -542,6 +558,7 @@ com
 1
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -573,6 +590,7 @@ com
 1
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -587,6 +605,7 @@ Realm
 3
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -607,6 +626,7 @@ org
 1
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -622,6 +642,7 @@ Other
 2
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -647,6 +668,7 @@ Realm
 1
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -673,6 +695,7 @@ Other
 1
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -707,11 +730,13 @@ net
 ;
 add_task
 (
+async
 function
 test_searchLogins
 (
 )
 {
+await
 checkSearchLogins
 (
 {
@@ -724,6 +749,7 @@ form_field_username
 12
 )
 ;
+await
 checkSearchLogins
 (
 {
@@ -736,6 +762,7 @@ form_field_password
 13
 )
 ;
+await
 checkSearchLogins
 (
 {
@@ -747,6 +774,7 @@ usernameField
 16
 )
 ;
+await
 checkSearchLogins
 (
 {
@@ -761,6 +789,7 @@ usernameField
 5
 )
 ;
+await
 checkSearchLogins
 (
 {
@@ -790,35 +819,30 @@ usernameField
 ;
 add_task
 (
+async
 function
 test_searchLogins_invalid
 (
 )
 {
+await
 Assert
 .
-throws
+rejects
 (
-(
-)
-=
->
 Services
 .
 logins
 .
-searchLogins
-(
-newPropertyBag
+searchLoginsAsync
 (
 {
-username
+foo
 :
 "
 value
 "
 }
-)
 )
 /
 Unexpected
@@ -1019,6 +1043,7 @@ Realm
 ;
 add_task
 (
+async
 function
 test_search_all_empty
 (
@@ -1071,6 +1096,7 @@ Realm
 0
 )
 ;
+await
 checkSearchLogins
 (
 {
@@ -1082,6 +1108,7 @@ origin
 0
 )
 ;
+await
 checkSearchLogins
 (
 {

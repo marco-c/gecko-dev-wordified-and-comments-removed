@@ -208,9 +208,14 @@ involved
 .
 *
 returns
+Promise
 {
 DocumentFragment
 }
+a
+promise
+resolving
+to
 a
 document
 fragment
@@ -222,6 +227,7 @@ items
 .
 *
 /
+async
 addLoginsToMenu
 (
 inputElementIdentifier
@@ -232,6 +238,7 @@ formOrigin
 let
 foundLogins
 =
+await
 this
 .
 _findLogins
@@ -697,6 +704,7 @@ login
 list
 *
 /
+async
 _findLogins
 (
 formOrigin
@@ -721,11 +729,12 @@ schemeUpgrades
 let
 logins
 =
-lazy
+await
+Services
 .
-LoginHelper
+logins
 .
-searchLoginsWithObject
+searchLoginsAsync
 (
 searchParams
 )
