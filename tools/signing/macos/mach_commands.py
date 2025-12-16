@@ -1957,6 +1957,28 @@ signatures
     
 xattr_cmd
 =
+(
+        
+[
+"
+xattr
+"
+"
+-
+c
+"
+app
+]
+if
+sys
+.
+platform
+=
+=
+"
+linux
+"
+else
 [
 "
 xattr
@@ -1967,6 +1989,8 @@ cr
 "
 app
 ]
+    
+)
     
 run
 (
