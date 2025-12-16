@@ -175,6 +175,17 @@ include
 "
 rtc_base
 /
+memory
+/
+less_unique_ptr
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 network
 /
 received_packet
@@ -1291,6 +1302,7 @@ unique_ptr
 AsyncPacketSocket
 >
 ProtocolType
+less_unique_ptr
 >
 ;
 std
@@ -1714,6 +1726,7 @@ unique_ptr
 Socket
 >
 ServerSocketInfo
+less_unique_ptr
 >
 server_listen_sockets_
 RTC_GUARDED_BY

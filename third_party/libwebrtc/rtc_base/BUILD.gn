@@ -9095,6 +9095,11 @@ memory
 fifo_buffer
 "
 "
+memory
+:
+less_unique_ptr
+"
+"
 network
 :
 received_packet
