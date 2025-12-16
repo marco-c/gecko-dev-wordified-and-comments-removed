@@ -4969,9 +4969,9 @@ hostDefinedData
 return
 ;
 }
-if
 (
-!
+void
+)
 aMicroTask
 .
 get
@@ -4983,11 +4983,7 @@ MaybeGetAllocationSiteFromJSMicroTask
 &
 allocStack
 )
-)
-{
-return
 ;
-}
 nsIGlobalObject
 *
 incumbentGlobal
