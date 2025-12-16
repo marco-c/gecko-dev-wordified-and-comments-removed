@@ -1515,9 +1515,7 @@ data
 entrypoint
 :
 "
-ai
--
-window
+aiwindow
 "
 extraParams
 :
@@ -1525,9 +1523,7 @@ extraParams
 service
 :
 "
-ai
--
-window
+aiwindow
 "
 }
 }
