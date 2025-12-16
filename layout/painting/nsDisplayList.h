@@ -10970,7 +10970,14 @@ item
 }
 items
 .
+template
 StableSort
+<
+SortBoundsCheck
+:
+:
+Disable
+>
 (
 aComparator
 )
