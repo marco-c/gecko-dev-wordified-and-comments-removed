@@ -542,13 +542,6 @@ js
 ]
 [
 "
-browser_new_searchbar_init
-.
-js
-"
-]
-[
-"
 browser_oneOff
 .
 js
