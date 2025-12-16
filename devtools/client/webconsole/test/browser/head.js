@@ -173,7 +173,7 @@ URLSearchParams
 utm_source
 :
 "
-mozilla
+devtools
 "
 utm_medium
 :
@@ -205,7 +205,7 @@ URLSearchParams
 utm_source
 :
 "
-mozilla
+devtools
 "
 utm_medium
 :
