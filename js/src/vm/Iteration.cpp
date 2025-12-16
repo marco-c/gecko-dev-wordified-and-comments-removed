@@ -9479,8 +9479,6 @@ IteratorRange
 3
 0
 )
-#
-endif
 JS_SELF_HOSTED_FN
 (
 "
@@ -9503,6 +9501,8 @@ IteratorZipKeyed
 2
 0
 )
+#
+endif
 JS_FS_END
 }
 ;
