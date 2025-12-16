@@ -3757,6 +3757,11 @@ system
 file_wrapper
 "
 "
+aec3
+:
+neural_residual_echo_estimator_impl
+"
+"
 aec_dump
 "
 "

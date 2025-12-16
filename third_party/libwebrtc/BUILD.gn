@@ -4999,6 +4999,14 @@ poison_software_video_codecs
 )
 {
 }
+group
+(
+"
+poison_default_neural_residual_echo_estimator
+"
+)
+{
+}
 if
 (
 !

@@ -267,6 +267,15 @@ pcm
 "
 audio_processing
 /
+aec3
+/
+noop_ml_aec_model_for_testing
+.
+tflite
+"
+"
+audio_processing
+/
 agc
 /
 agc_audio
