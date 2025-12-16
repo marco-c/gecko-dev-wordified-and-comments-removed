@@ -443,6 +443,7 @@ EchoCanceller3Config
 rate
 num_render_channels
 num_capture_channels
+nullptr
 )
 ;
 std
@@ -622,6 +623,7 @@ EchoCanceller3Config
 8001
 1
 1
+nullptr
 )
 "
 "
@@ -692,6 +694,7 @@ EchoCanceller3Config
 rate
 1
 1
+nullptr
 )
 ;
 std
@@ -813,6 +816,7 @@ EchoCanceller3Config
 16000
 1
 1
+nullptr
 )
 ;
 std
@@ -1015,6 +1019,7 @@ config
 rate
 num_channels
 num_channels
+nullptr
 )
 ;
 std

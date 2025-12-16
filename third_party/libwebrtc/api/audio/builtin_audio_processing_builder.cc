@@ -138,6 +138,13 @@ move
 (
 capture_analyzer_
 )
+std
+:
+:
+move
+(
+neural_residual_echo_estimator_
+)
 )
 ;
 }

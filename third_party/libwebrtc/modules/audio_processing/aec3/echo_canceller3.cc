@@ -4754,6 +4754,9 @@ EchoCanceller3Config
 >
 &
 multichannel_config
+NeuralResidualEchoEstimator
+*
+neural_residual_echo_estimator
 int
 sample_rate_hz
 size_t
@@ -4857,6 +4860,10 @@ active_config
 multi_channel
 .
 stereo_detection_hysteresis_seconds
+)
+neural_residual_echo_estimator_
+(
+neural_residual_echo_estimator
 )
 output_framer_
 (
@@ -5292,6 +5299,7 @@ active_config
 sample_rate_hz_
 num_render_channels_to_aec_
 num_capture_channels_
+neural_residual_echo_estimator_
 )
 ;
 render_sub_frame_view_

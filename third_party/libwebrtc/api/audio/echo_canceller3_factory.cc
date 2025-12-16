@@ -177,6 +177,7 @@ EchoCanceller3
 env
 config_
 multichannel_config_
+nullptr
 sample_rate_hz
 num_render_channels
 num_capture_channels

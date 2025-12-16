@@ -2102,10 +2102,6 @@ external_delay_
 =
 external_delay
 ;
-external_delay_reported_
-=
-true
-;
 }
 const
 bool

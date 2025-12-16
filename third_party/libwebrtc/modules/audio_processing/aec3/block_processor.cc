@@ -1281,6 +1281,9 @@ size_t
 num_render_channels
 size_t
 num_capture_channels
+NeuralResidualEchoEstimator
+*
+neural_residual_echo_estimator
 )
 {
 std
@@ -1357,6 +1360,7 @@ config
 sample_rate_hz
 num_render_channels
 num_capture_channels
+neural_residual_echo_estimator
 )
 ;
 return
@@ -1424,6 +1428,9 @@ unique_ptr
 RenderDelayBuffer
 >
 render_buffer
+NeuralResidualEchoEstimator
+*
+neural_residual_echo_estimator
 )
 {
 std
@@ -1480,6 +1487,7 @@ config
 sample_rate_hz
 num_render_channels
 num_capture_channels
+neural_residual_echo_estimator
 )
 ;
 return

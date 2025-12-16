@@ -163,6 +163,16 @@ kFftLengthBy2Log2
 ;
 constexpr
 size_t
+kBlockSizeMs
+=
+kFftLengthBy2
+*
+1000
+/
+16000
+;
+constexpr
+size_t
 kExtendedBlockSize
 =
 2

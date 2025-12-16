@@ -352,6 +352,7 @@ EchoCanceller3Config
 sample_rate_hz
 kNumRenderChannels
 kNumCaptureChannels
+nullptr
 )
 ;
 Block
@@ -470,6 +471,7 @@ EchoCanceller3Config
 sample_rate_hz
 kNumRenderChannels
 kNumCaptureChannels
+nullptr
 )
 ;
 Block
@@ -560,6 +562,7 @@ EchoCanceller3Config
 sample_rate_hz
 kNumRenderChannels
 kNumCaptureChannels
+nullptr
 )
 ;
 Block
@@ -647,6 +650,7 @@ EchoCanceller3Config
 sample_rate_hz
 kNumRenderChannels
 kNumCaptureChannels
+nullptr
 )
 ;
 Block
@@ -991,6 +995,7 @@ move
 (
 render_delay_buffer_mock
 )
+nullptr
 )
 ;
 Block
@@ -1750,6 +1755,7 @@ EchoCanceller3Config
 16000
 1
 1
+nullptr
 )
 -
 >
@@ -1787,6 +1793,7 @@ EchoCanceller3Config
 8001
 1
 1
+nullptr
 )
 "
 "
