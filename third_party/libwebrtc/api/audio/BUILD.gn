@@ -869,6 +869,10 @@ aec3_config
 echo_control
 "
 "
+:
+neural_residual_echo_estimator_api
+"
+"
 .
 .
 /
@@ -943,6 +947,10 @@ h
 deps
 =
 [
+"
+:
+neural_residual_echo_estimator_api
+"
 "
 .
 .
