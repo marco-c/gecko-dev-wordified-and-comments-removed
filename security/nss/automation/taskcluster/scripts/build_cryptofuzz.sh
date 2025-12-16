@@ -27,6 +27,16 @@ OSS
 Fuzz
 .
 #
+set
+-
+e
+set
+-
+x
+set
+-
+o
+pipefail
 #
 Do
 differential
@@ -63,7 +73,7 @@ export
 CRYPTOFUZZ_VERSION
 =
 "
-687d3064c5cef2b0fe1f30824065a2f2c9c0bbd8
+3d2377257129fc5da6effb92b0736e31db147dee
 "
 export
 BOTAN_VERSION
@@ -71,9 +81,9 @@ BOTAN_VERSION
 "
 3
 .
-6
+10
 .
-1
+0
 "
 git
 clone
