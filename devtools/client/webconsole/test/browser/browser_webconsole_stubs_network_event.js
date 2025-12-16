@@ -953,11 +953,11 @@ blockedReason
 resource
 .
 blockedReason
-blockingExtension
+extension
 :
 resource
 .
-blockingExtension
+extension
 channelId
 :
 resource

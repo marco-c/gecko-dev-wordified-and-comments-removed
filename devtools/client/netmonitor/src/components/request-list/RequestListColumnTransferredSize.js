@@ -252,7 +252,7 @@ fromServiceWorker
 blockedReason
 "
 "
-blockingExtension
+extension
 "
 ]
 ;
@@ -307,7 +307,7 @@ render
 const
 {
 blockedReason
-blockingExtension
+extension
 fromCache
 fromServiceWorker
 status
@@ -334,7 +334,7 @@ text
 getBlockedReasonString
 (
 blockedReason
-blockingExtension
+extension
 )
 ;
 }

@@ -1280,11 +1280,11 @@ RESPONSE_CONTENT_COMPLETE
 :
 resourceUpdates
 .
-blockingExtension
+extension
 =
 updateResource
 .
-blockingExtension
+extension
 ;
 resourceUpdates
 .
