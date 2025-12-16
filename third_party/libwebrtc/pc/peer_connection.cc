@@ -3785,6 +3785,11 @@ if
 IsUnifiedPlan
 (
 )
+&
+&
+ConfiguredForMedia
+(
+)
 )
 {
 rtp_manager_
