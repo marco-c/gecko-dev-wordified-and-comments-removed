@@ -875,6 +875,7 @@ gpu_buffer
 :
 :
 {
+GpuBufferHandle
 GpuBufferAddress
 GpuBufferBuilder
 GpuBufferWriterF
@@ -23153,9 +23154,14 @@ texture
 let
 addr
 =
+gpu_buffer
+.
+resolve_handle
+(
 deferred_resolve
 .
-address
+handle
+)
 ;
 let
 index

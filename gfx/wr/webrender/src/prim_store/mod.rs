@@ -114,6 +114,7 @@ renderer
 :
 {
 GpuBufferAddress
+GpuBufferHandle
 GpuBufferWriterF
 }
 ;
@@ -531,9 +532,9 @@ struct
 DeferredResolve
 {
 pub
-address
+handle
 :
-GpuBufferAddress
+GpuBufferHandle
 pub
 image_properties
 :

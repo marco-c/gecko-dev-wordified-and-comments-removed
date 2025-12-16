@@ -101,8 +101,8 @@ renderer
 :
 :
 {
-GpuBufferAddress
 GpuBufferBuilderF
+GpuBufferHandle
 }
 ;
 #
@@ -224,7 +224,7 @@ FrameStamp
 pub
 uv_rect_handle
 :
-GpuBufferAddress
+GpuBufferHandle
 pub
 texture_id
 :
@@ -921,7 +921,7 @@ self
 now
 uv_rect_handle
 :
-GpuBufferAddress
+GpuBufferHandle
 :
 :
 INVALID

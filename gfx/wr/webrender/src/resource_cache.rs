@@ -372,6 +372,7 @@ renderer
 GpuBufferAddress
 GpuBufferBuilder
 GpuBufferBuilderF
+GpuBufferHandle
 }
 ;
 use
@@ -681,7 +682,7 @@ TextureSource
 pub
 uv_rect_handle
 :
-GpuBufferAddress
+GpuBufferHandle
 pub
 uv_rect
 :
@@ -717,7 +718,7 @@ TextureSource
 Invalid
 uv_rect_handle
 :
-GpuBufferAddress
+GpuBufferHandle
 :
 :
 INVALID
@@ -6764,6 +6765,10 @@ glyph_keys
 [
 GlyphKey
 ]
+gpu_buffer
+:
+&
+GpuBufferBuilderF
 fetch_buffer
 :
 &
@@ -6987,9 +6992,14 @@ as
 i32
 uv_rect_address
 :
+gpu_buffer
+.
+resolve_handle
+(
 cache_item
 .
 uv_rect_handle
+)
 offset
 :
 DevicePoint
