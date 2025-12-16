@@ -216,12 +216,6 @@ use
 uv
 :
 true
-fetches
-:
-toolchain
-:
--
-terser
 run
 :
 mozconfig

@@ -687,6 +687,13 @@ third_party
 /
 python
 /
+jsmin
+vendored
+:
+third_party
+/
+python
+/
 jsonschema
 vendored
 :

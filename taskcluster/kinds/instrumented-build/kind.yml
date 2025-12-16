@@ -238,8 +238,6 @@ toolchain
 linux64
 -
 sccache
--
-terser
 tasks
 :
 linux64

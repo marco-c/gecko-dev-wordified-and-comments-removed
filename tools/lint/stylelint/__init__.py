@@ -45,7 +45,6 @@ mozbuild
 .
 nodeutil
 import
-check_node_executables_valid
 find_node_executable
 from
 mozlint
@@ -179,6 +178,8 @@ root
     
 if
 not
+setup_helper
+.
 check_node_executables_valid
 (
 )
