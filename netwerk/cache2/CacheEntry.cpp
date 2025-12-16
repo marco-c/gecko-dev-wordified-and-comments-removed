@@ -133,13 +133,6 @@ h
 #
 include
 "
-nsISizeOf
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h
