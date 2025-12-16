@@ -16045,6 +16045,16 @@ originStateMetadata
 mPersisted
 )
 {
+if
+(
+StaticPrefs
+:
+:
+dom_quotaManager_temporaryStorage_updateOriginAccessTime
+(
+)
+)
+{
 originStateMetadata
 .
 mLastAccessTime
@@ -16053,6 +16063,7 @@ PR_Now
 (
 )
 ;
+}
 originStateMetadata
 .
 mPersisted
