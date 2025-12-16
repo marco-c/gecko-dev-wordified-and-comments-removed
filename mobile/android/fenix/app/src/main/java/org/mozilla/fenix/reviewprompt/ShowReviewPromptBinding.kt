@@ -240,7 +240,7 @@ eligibility
 *
 /
 class
-ShowPlayStoreReviewPrompt
+ShowReviewPromptBinding
 (
 private
 val

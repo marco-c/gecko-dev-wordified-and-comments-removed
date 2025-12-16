@@ -383,7 +383,7 @@ Custom
 val
 feature
 =
-ShowPlayStoreReviewPrompt
+ShowReviewPromptBinding
 (
 appStore
 promptController
@@ -523,7 +523,7 @@ captureMiddleware
 val
 feature
 =
-ShowPlayStoreReviewPrompt
+ShowReviewPromptBinding
 (
 appStore
 promptController
@@ -630,7 +630,7 @@ captureMiddleware
 val
 feature
 =
-ShowPlayStoreReviewPrompt
+ShowReviewPromptBinding
 (
 appStore
 promptController
@@ -751,7 +751,7 @@ captureMiddleware
 val
 feature
 =
-ShowPlayStoreReviewPrompt
+ShowReviewPromptBinding
 (
 appStore
 promptController
