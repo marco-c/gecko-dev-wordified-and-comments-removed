@@ -51,6 +51,13 @@ js
 ]
 [
 "
+test_Utils
+.
+js
+"
+]
+[
+"
 test_intent_classifier
 .
 js

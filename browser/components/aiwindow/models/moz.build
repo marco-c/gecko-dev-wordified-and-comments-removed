@@ -98,6 +98,11 @@ sys
 .
 mjs
 "
+"
+Utils
+.
+mjs
+"
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
