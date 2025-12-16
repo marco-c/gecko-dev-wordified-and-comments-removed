@@ -1511,6 +1511,16 @@ CalculateCompositedSizeInCssPixels
 )
 ;
 }
+CSSRect
+GetVisualViewportForLayoutViewportContainment
+(
+ScreenCoord
+aFixedLayerBottomMargin
+=
+0
+)
+const
+;
 void
 SetTransformToAncestorScale
 (
@@ -1770,6 +1780,10 @@ mVisualScrollUpdateType
 void
 RecalculateLayoutViewportOffset
 (
+ScreenCoord
+aFixedLayerBottomMargin
+=
+0
 )
 ;
 void
