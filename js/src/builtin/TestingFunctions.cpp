@@ -59254,7 +59254,7 @@ result
 ifdef
 JS_HAS_INTL_API
 using
-AvailableLocaleKind
+SupportedLocaleKind
 =
 js
 :
@@ -59262,9 +59262,12 @@ js
 intl
 :
 :
-AvailableLocaleKind
+SharedIntlData
+:
+:
+SupportedLocaleKind
 ;
-AvailableLocaleKind
+SupportedLocaleKind
 kind
 ;
 {
@@ -59307,7 +59310,7 @@ Collator
 {
 kind
 =
-AvailableLocaleKind
+SupportedLocaleKind
 :
 :
 Collator
@@ -59327,7 +59330,7 @@ DateTimeFormat
 {
 kind
 =
-AvailableLocaleKind
+SupportedLocaleKind
 :
 :
 DateTimeFormat
@@ -59347,7 +59350,7 @@ DisplayNames
 {
 kind
 =
-AvailableLocaleKind
+SupportedLocaleKind
 :
 :
 DisplayNames
@@ -59367,7 +59370,7 @@ DurationFormat
 {
 kind
 =
-AvailableLocaleKind
+SupportedLocaleKind
 :
 :
 DurationFormat
@@ -59387,7 +59390,7 @@ ListFormat
 {
 kind
 =
-AvailableLocaleKind
+SupportedLocaleKind
 :
 :
 ListFormat
@@ -59407,7 +59410,7 @@ NumberFormat
 {
 kind
 =
-AvailableLocaleKind
+SupportedLocaleKind
 :
 :
 NumberFormat
@@ -59427,7 +59430,7 @@ PluralRules
 {
 kind
 =
-AvailableLocaleKind
+SupportedLocaleKind
 :
 :
 PluralRules
@@ -59447,7 +59450,7 @@ RelativeTimeFormat
 {
 kind
 =
-AvailableLocaleKind
+SupportedLocaleKind
 :
 :
 RelativeTimeFormat
@@ -59467,7 +59470,7 @@ Segmenter
 {
 kind
 =
-AvailableLocaleKind
+SupportedLocaleKind
 :
 :
 Segmenter

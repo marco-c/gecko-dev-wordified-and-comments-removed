@@ -78,7 +78,7 @@ builtin
 /
 intl
 /
-LocaleNegotiation
+IntlObject
 .
 h
 "
