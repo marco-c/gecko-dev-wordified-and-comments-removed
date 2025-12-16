@@ -871,7 +871,7 @@ story
 =
 FakeHomepagePreview
 .
-pocketStories
+stories
 (
 limit
 =

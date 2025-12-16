@@ -2414,7 +2414,7 @@ PocketState
 (
 stories
 =
-pocketStories
+stories
 (
 limit
 =
@@ -2686,7 +2686,7 @@ flightCount
 )
 internal
 fun
-pocketStories
+stories
 (
 limit
 :

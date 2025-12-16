@@ -1874,7 +1874,7 @@ values
 =
 FakeHomepagePreview
 .
-pocketStories
+stories
 (
 limit
 =

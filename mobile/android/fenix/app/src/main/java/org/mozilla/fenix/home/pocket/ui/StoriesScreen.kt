@@ -788,7 +788,7 @@ pocketStories
 =
 FakeHomepagePreview
 .
-pocketStories
+stories
 (
 )
 )
