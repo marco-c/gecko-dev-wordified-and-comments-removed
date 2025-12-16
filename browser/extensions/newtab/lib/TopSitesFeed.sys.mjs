@@ -8696,15 +8696,13 @@ sovEnabled
 )
 |
 |
+!
 this
 .
 _linksWithDefaults
+?
 .
 length
-=
-=
-=
-0
 )
 {
 return
