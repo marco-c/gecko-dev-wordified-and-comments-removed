@@ -698,6 +698,10 @@ RemoteDecoderChild
 &
 &
 aChild
+CreateDecoderParamsForAsync
+&
+&
+aParams
 RemoteMediaIn
 aLocation
 )
