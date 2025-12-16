@@ -1234,13 +1234,6 @@ data_handle
 .
 .
 }
-if
-!
-frame_context
-.
-fb_config
-.
-is_software
 =
 >
 {
