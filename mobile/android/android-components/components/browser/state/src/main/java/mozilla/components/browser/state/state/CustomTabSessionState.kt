@@ -579,6 +579,13 @@ TrackingProtectionState
 TrackingProtectionState
 (
 )
+securityInfo
+:
+SecurityInfo
+=
+SecurityInfo
+.
+Unknown
 )
 :
 CustomTabSessionState
@@ -605,6 +612,9 @@ title
 private
 =
 private
+securityInfo
+=
+securityInfo
 webAppManifest
 =
 webAppManifest

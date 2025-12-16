@@ -864,6 +864,13 @@ TrackingProtectionState
 TrackingProtectionState
 (
 )
+securityInfo
+:
+SecurityInfo
+=
+SecurityInfo
+.
+Unknown
 )
 :
 TabSessionState
@@ -883,6 +890,9 @@ private
 title
 =
 title
+securityInfo
+=
+securityInfo
 webAppManifest
 =
 webAppManifest
