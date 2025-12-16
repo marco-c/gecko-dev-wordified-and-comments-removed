@@ -3879,12 +3879,6 @@ winWidget
 -
 112
 )
-fails
--
-if
-(
-Android
-)
 random
 -
 if
