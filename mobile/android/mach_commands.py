@@ -1261,15 +1261,12 @@ bundle
     
 java_home
 =
-java_home
-=
 os
 .
 path
 .
 dirname
 (
-        
 os
 .
 path
@@ -1285,7 +1282,6 @@ JAVA
 "
 ]
 )
-    
 )
     
 device
