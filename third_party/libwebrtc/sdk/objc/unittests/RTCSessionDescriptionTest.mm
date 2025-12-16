@@ -132,12 +132,12 @@ RTC_OBJC_TYPE
 (
 RTCSessionDescription
 )
-typeForStdString
+typeForSdpType
 :
 nativeDescription
 -
 >
-type
+GetType
 (
 )
 ]
