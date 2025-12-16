@@ -278,10 +278,6 @@ this
 ;
 }
 else
-NS_INTERFACE_MAP_ENTRY
-(
-nsISizeOf
-)
 NS_INTERFACE_MAP_END
 NS_IMETHODIMP
 nsSimpleURI
@@ -2893,7 +2889,6 @@ SizeOfIncludingThis
 MallocSizeOf
 aMallocSizeOf
 )
-const
 {
 return
 aMallocSizeOf

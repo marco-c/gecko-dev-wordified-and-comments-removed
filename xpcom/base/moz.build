@@ -378,11 +378,6 @@ nsInterfaceRequestorAgg
 h
 "
 "
-nsISizeOf
-.
-h
-"
-"
 nsISupportsImpl
 .
 h
