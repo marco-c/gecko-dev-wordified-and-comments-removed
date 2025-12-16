@@ -1677,13 +1677,6 @@ js
 ]
 [
 "
-browser_bug2002654
-.
-js
-"
-]
-[
-"
 browser_click_link_within_view_source
 .
 js
