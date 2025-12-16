@@ -218,7 +218,7 @@ assert
 fixed
 =
 =
-2
+3
 def
 test_lint_ruff
 (
