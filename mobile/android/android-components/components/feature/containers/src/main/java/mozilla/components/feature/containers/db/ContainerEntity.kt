@@ -95,7 +95,7 @@ state
 .
 state
 .
-Container
+ContainerState
 import
 mozilla
 .
@@ -107,7 +107,7 @@ state
 .
 state
 .
-Container
+ContainerState
 .
 Color
 import
@@ -121,7 +121,7 @@ state
 .
 state
 .
-Container
+ContainerState
 .
 Icon
 /
@@ -210,10 +210,10 @@ toContainer
 (
 )
 :
-Container
+ContainerState
 {
 return
-Container
+ContainerState
 (
 contextId
 name
@@ -224,7 +224,7 @@ icon
 }
 internal
 fun
-Container
+ContainerState
 .
 toContainerEntity
 (
