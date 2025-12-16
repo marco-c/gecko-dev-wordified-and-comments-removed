@@ -191,8 +191,10 @@ createExtraActors
 =
 createExtraActors
 ;
-function
+class
 LazyActor
+{
+constructor
 (
 factory
 parent
@@ -236,11 +238,6 @@ factory
 name
 ;
 }
-LazyActor
-.
-prototype
-=
-{
 loadModule
 (
 id
@@ -505,4 +502,3 @@ instance
 ;
 }
 }
-;
