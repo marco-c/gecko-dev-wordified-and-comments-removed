@@ -172,13 +172,10 @@ kRollback
 )
 ;
 return
-std
+SessionDescriptionInterface
 :
 :
-make_unique
-<
-JsepSessionDescription
->
+Create
 (
 type
 nullptr
