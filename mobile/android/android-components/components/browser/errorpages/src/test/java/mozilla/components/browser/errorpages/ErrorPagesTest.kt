@@ -459,6 +459,12 @@ assertUrlEncodingIsValid
 (
 ErrorType
 .
+ERROR_HARMFULADDON_URI
+)
+assertUrlEncodingIsValid
+(
+ErrorType
+.
 ERROR_HTTPS_ONLY
 )
 assertUrlEncodingIsValid
