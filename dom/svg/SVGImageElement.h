@@ -62,7 +62,7 @@ h
 #
 include
 "
-nsISizeOf
+nsINode
 .
 h
 "

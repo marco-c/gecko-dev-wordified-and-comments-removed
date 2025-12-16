@@ -106,7 +106,7 @@ h
 #
 include
 "
-nsIURI
+nsISizeOf
 .
 h
 "

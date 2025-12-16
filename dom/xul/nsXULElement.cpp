@@ -820,6 +820,13 @@ h
 #
 include
 "
+nsISizeOf
+.
+h
+"
+#
+include
+"
 nsISupportsUtils
 .
 h

@@ -265,13 +265,6 @@ h
 #
 include
 "
-nsISizeOf
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h
@@ -308,6 +301,13 @@ h
 include
 "
 nsTLiteralString
+.
+h
+"
+#
+include
+"
+nsWindowSizes
 .
 h
 "
