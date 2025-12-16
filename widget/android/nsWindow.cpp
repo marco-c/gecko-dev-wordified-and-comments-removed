@@ -1006,7 +1006,7 @@ GeckoViewSupport
 "
 )
 ;
-MOZ_CONSTINIT
+constinit
 static
 nsTArray
 <

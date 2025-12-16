@@ -231,13 +231,13 @@ uint8_t
 >
 sConfigData
 ;
-MOZ_CONSTINIT
+constinit
 static
 inline
 nsCString
 sConfigUrl
 ;
-MOZ_CONSTINIT
+constinit
 static
 inline
 nsCString
