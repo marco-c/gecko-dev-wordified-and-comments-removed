@@ -1968,9 +1968,9 @@ experimental
 -
 features
 -
-auto
+ime
 -
-pip
+search
 "
 firefoxLabsDescription
 :
@@ -1979,9 +1979,9 @@ experimental
 -
 features
 -
-auto
+ime
 -
-pip
+search
 -
 description
 "
