@@ -56,6 +56,17 @@ nsISupports
 aParent
 )
 ;
+CSSMathValue
+(
+nsCOMPtr
+<
+nsISupports
+>
+aParent
+ValueType
+aValueType
+)
+;
 CSSMathOperator
 Operator
 (

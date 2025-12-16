@@ -82,6 +82,9 @@ class
 CSSKeywordValue
 ;
 class
+CSSMathSum
+;
+class
 CSSUnitValue
 ;
 class
@@ -105,6 +108,7 @@ Uninitialized
 UnsupportedValue
 KeywordValue
 UnitValue
+MathSum
 }
 ;
 explicit
@@ -276,6 +280,18 @@ const
 CSSUnitValue
 &
 GetAsCSSUnitValue
+(
+)
+;
+bool
+IsCSSMathSum
+(
+)
+const
+;
+CSSMathSum
+&
+GetAsCSSMathSum
 (
 )
 ;
