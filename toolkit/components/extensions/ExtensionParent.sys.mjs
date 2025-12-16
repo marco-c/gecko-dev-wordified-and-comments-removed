@@ -5710,6 +5710,8 @@ this
 .
 devToolsToolbox
 .
+commands
+.
 resourceCommand
 .
 watchResources
@@ -5718,6 +5720,8 @@ watchResources
 this
 .
 devToolsToolbox
+.
+commands
 .
 resourceCommand
 .
@@ -5971,6 +5975,8 @@ this
 .
 devToolsToolbox
 .
+commands
+.
 resourceCommand
 .
 unwatchResources
@@ -5979,6 +5985,8 @@ unwatchResources
 this
 .
 devToolsToolbox
+.
+commands
 .
 resourceCommand
 .

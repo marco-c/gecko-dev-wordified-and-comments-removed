@@ -1222,7 +1222,7 @@ await
 this
 .
 #
-toolbox
+commands
 .
 resourceCommand
 .
@@ -1232,7 +1232,7 @@ watchResources
 this
 .
 #
-toolbox
+commands
 .
 resourceCommand
 .
@@ -1301,7 +1301,7 @@ await
 this
 .
 #
-toolbox
+commands
 .
 resourceCommand
 .
@@ -1311,7 +1311,7 @@ watchResources
 this
 .
 #
-toolbox
+commands
 .
 resourceCommand
 .
@@ -3066,7 +3066,7 @@ of
 this
 .
 #
-toolbox
+commands
 .
 resourceCommand
 .
@@ -3075,7 +3075,7 @@ getAllResources
 this
 .
 #
-toolbox
+commands
 .
 resourceCommand
 .
@@ -10208,7 +10208,7 @@ resourceType
 this
 .
 #
-toolbox
+commands
 .
 resourceCommand
 .
@@ -10491,7 +10491,7 @@ resourceType
 this
 .
 #
-toolbox
+commands
 .
 resourceCommand
 .
@@ -10672,7 +10672,7 @@ resourceType
 this
 .
 #
-toolbox
+commands
 .
 resourceCommand
 .
@@ -11445,7 +11445,7 @@ destroy
 this
 .
 #
-toolbox
+commands
 .
 resourceCommand
 .
@@ -11455,7 +11455,7 @@ unwatchResources
 this
 .
 #
-toolbox
+commands
 .
 resourceCommand
 .
@@ -11465,7 +11465,7 @@ DOCUMENT_EVENT
 this
 .
 #
-toolbox
+commands
 .
 resourceCommand
 .
