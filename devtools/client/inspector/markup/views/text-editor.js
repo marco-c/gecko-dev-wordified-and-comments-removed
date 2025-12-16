@@ -142,8 +142,10 @@ js
 true
 )
 ;
-function
+class
 TextEditor
+{
+constructor
 (
 container
 node
@@ -199,11 +201,6 @@ type
 )
 ;
 }
-TextEditor
-.
-prototype
-=
-{
 buildMarkup
 (
 type
@@ -569,7 +566,6 @@ null
 ;
 }
 }
-;
 module
 .
 exports
