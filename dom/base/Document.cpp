@@ -86024,8 +86024,6 @@ const
 TimeStamp
 &
 aTimeStamp
-ReportToConsole
-aReportToConsole
 )
 {
 MOZ_ASSERT
@@ -86059,15 +86057,6 @@ return
 }
 if
 (
-aReportToConsole
-=
-=
-ReportToConsole
-:
-:
-Yes
-&
-&
 mLastScrollLinkedEffectDetectionTime
 .
 IsNull

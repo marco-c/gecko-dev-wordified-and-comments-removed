@@ -59,9 +59,6 @@ CopyableTArray
 namespace
 mozilla
 {
-class
-nsDisplayListBuilder
-;
 struct
 AnchorPosInfo
 {
@@ -997,13 +994,6 @@ GetAnchorThatFrameScrollsWith
 nsIFrame
 *
 aFrame
-nsDisplayListBuilder
-*
-aBuilder
-bool
-aSkipAsserts
-=
-false
 )
 ;
 static

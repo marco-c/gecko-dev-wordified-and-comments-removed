@@ -7374,7 +7374,6 @@ AnchorPositioningUtils
 GetAnchorThatFrameScrollsWith
 (
 f
-nullptr
 )
 )
 )
