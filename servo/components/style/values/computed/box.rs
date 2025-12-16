@@ -65,7 +65,6 @@ box_
 {
 GenericContainIntrinsicSize
 GenericLineClamp
-GenericOverflowClipMargin
 GenericPerspective
 GenericVerticalAlign
 }
@@ -127,6 +126,7 @@ Display
 Float
 Overflow
 OverflowAnchor
+OverflowClipBox
 OverscrollBehavior
 PositionProperty
 ScrollSnapAlign
@@ -147,15 +147,6 @@ VerticalAlign
 GenericVerticalAlign
 <
 LengthPercentage
->
-;
-pub
-type
-OverflowClipMargin
-=
-GenericOverflowClipMargin
-<
-NonNegativeLength
 >
 ;
 pub

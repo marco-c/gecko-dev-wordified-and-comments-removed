@@ -234,8 +234,8 @@ align
 {
 ContentDistribution
 ItemPlacement
-JustifyItems
 SelfAlignment
+JustifyItems
 }
 ;
 pub
@@ -346,7 +346,7 @@ Float
 LineClamp
 Overflow
 OverflowAnchor
-OverflowClipMargin
+OverflowClipBox
 OverscrollBehavior
 Perspective
 PositionProperty
