@@ -14084,7 +14084,7 @@ personalization
 .
 enabled
 "
-true
+false
 )
 ;
 pref
@@ -14190,7 +14190,7 @@ spocs
 .
 personalized
 "
-true
+false
 )
 ;
 pref
