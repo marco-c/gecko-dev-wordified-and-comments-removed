@@ -1829,7 +1829,7 @@ this
 #
 chromeNavigables
 .
-deleteByValue
+deleteByObject
 (
 browsingContext
 )
