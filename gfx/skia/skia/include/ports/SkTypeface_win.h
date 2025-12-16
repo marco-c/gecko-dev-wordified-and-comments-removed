@@ -123,6 +123,9 @@ IDWriteFontFace
 struct
 IDWriteFontFallback
 ;
+struct
+IDWriteFontFamily
+;
 SK_API
 SkTypeface
 *
@@ -137,6 +140,9 @@ aFontFace
 IDWriteFont
 *
 aFont
+IDWriteFontFamily
+*
+aFontFamily
 SkFontStyle
 aStyle
 int
