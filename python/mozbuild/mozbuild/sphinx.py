@@ -1201,9 +1201,9 @@ searchfox
 .
 org
 /
-mozilla
+firefox
 -
-central
+main
 /
 source
 /
@@ -1272,7 +1272,7 @@ See
 :
 searchfox
 :
-mozilla
+firefox
 -
 beta
 :
@@ -1357,9 +1357,9 @@ else
 source
 =
 "
-mozilla
+firefox
 -
-central
+main
 "
             
 path
