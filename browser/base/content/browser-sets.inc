@@ -979,17 +979,6 @@ id
 "
 Tools
 :
-AIWindow
-"
-/
->
-<
-command
-id
-=
-"
-Tools
-:
 Sanitize
 "
 /
