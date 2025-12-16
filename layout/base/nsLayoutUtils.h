@@ -7043,6 +7043,7 @@ static
 bool
 IsInvisibleBreak
 (
+const
 nsINode
 *
 aNode

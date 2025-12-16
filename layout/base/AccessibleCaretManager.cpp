@@ -3419,9 +3419,9 @@ if
 frameSelection
 )
 {
-nsIFrame
-*
-theFrame
+const
+FrameAndOffset
+textFrameAndOffsetContainingWordBoundary
 =
 SelectionMovementUtils
 :
@@ -3441,10 +3441,10 @@ associate
 ;
 if
 (
-theFrame
+textFrameAndOffsetContainingWordBoundary
 &
 &
-theFrame
+textFrameAndOffsetContainingWordBoundary
 !
 =
 ptFrame
@@ -6108,8 +6108,6 @@ if
 (
 !
 frameAndOffset
-.
-mFrame
 )
 {
 return
@@ -6230,8 +6228,6 @@ nsresult
 rv
 =
 frameAndOffset
-.
-mFrame
 -
 >
 PeekOffset
