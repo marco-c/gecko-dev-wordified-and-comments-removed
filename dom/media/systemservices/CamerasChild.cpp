@@ -71,12 +71,6 @@ nsThreadUtils
 .
 h
 "
-#
-undef
-LOG
-#
-undef
-LOG_ENABLED
 mozilla
 :
 :
@@ -3363,3 +3357,9 @@ nullptr
 ;
 }
 }
+#
+undef
+LOG
+#
+undef
+LOG_ENABLED

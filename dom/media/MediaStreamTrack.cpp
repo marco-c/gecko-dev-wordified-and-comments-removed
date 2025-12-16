@@ -97,14 +97,6 @@ MediaUtils
 .
 h
 "
-#
-ifdef
-LOG
-#
-undef
-LOG
-#
-endif
 static
 mozilla
 :
@@ -2987,3 +2979,6 @@ mTrack
 ;
 }
 }
+#
+undef
+LOG

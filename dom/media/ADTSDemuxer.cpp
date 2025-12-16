@@ -3514,3 +3514,12 @@ nextFrameHeaderOffset
 ;
 }
 }
+#
+undef
+LOG
+#
+undef
+ADTSLOG
+#
+undef
+ADTSLOGV

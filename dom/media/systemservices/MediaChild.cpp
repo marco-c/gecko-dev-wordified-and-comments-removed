@@ -48,9 +48,6 @@ nsQueryObject
 .
 h
 "
-#
-undef
-LOG
 mozilla
 :
 :
@@ -555,3 +552,6 @@ true
 ;
 }
 }
+#
+undef
+LOG

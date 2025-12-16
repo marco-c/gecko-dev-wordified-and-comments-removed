@@ -65,12 +65,6 @@ mozilla
 :
 camera
 {
-#
-undef
-LOG
-#
-undef
-LOG_ENABLED
 mozilla
 :
 :
@@ -1796,4 +1790,10 @@ empty
 )
 ;
 }
+#
+undef
+LOG
+#
+undef
+LOG_ENABLED
 }

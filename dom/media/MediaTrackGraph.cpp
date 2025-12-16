@@ -373,14 +373,6 @@ MediaTrackGraph
 )
 ;
 #
-ifdef
-LOG
-#
-undef
-LOG
-#
-endif
-#
 define
 LOG
 (
@@ -23020,3 +23012,6 @@ NS_OK
 ;
 }
 }
+#
+undef
+LOG

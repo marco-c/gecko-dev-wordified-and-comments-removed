@@ -130,9 +130,6 @@ nsThreadUtils
 .
 h
 "
-#
-undef
-LOG
 mozilla
 :
 :
@@ -2682,6 +2679,9 @@ true
 ;
 }
 }
+#
+undef
+LOG
 template
 class
 mozilla
