@@ -21754,7 +21754,7 @@ size
 initial_
 -
 >
-sizeOfExcludingThis
+sizeOfIncludingThis
 (
 mallocSizeOf
 )
@@ -21797,7 +21797,7 @@ size
 delazification
 )
 .
-sizeOfExcludingThis
+sizeOfIncludingThis
 (
 mallocSizeOf
 )
