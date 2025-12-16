@@ -1309,6 +1309,9 @@ store
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 assertSearchSelectorEquals
 (
@@ -1366,6 +1369,9 @@ store
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 store
 .
@@ -1435,6 +1441,9 @@ store
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 store
 .
@@ -1508,6 +1517,9 @@ store
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 store
 .
@@ -1630,6 +1642,9 @@ store
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 val
 clearButton
@@ -1755,6 +1770,9 @@ store
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 val
 qrButton
@@ -1890,6 +1908,9 @@ store
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 val
 voiceSearchButton
@@ -2047,6 +2068,9 @@ store
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 store
 .
@@ -2220,6 +2244,9 @@ store
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 assertSearchSelectorEquals
 (
@@ -2480,6 +2507,9 @@ store
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 shadowOf
 (
@@ -2841,6 +2871,9 @@ store
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 shadowOf
 (
@@ -3111,6 +3144,9 @@ store
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 shadowOf
 (
@@ -3383,6 +3419,9 @@ store
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 shadowOf
 (
@@ -4777,6 +4816,9 @@ store
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 shadowOf
 (
@@ -4911,6 +4953,9 @@ store
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 val
 newSearchEngines
@@ -5074,6 +5119,9 @@ store
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 val
 newSearchEngines
@@ -6494,12 +6542,9 @@ store
 dispatch
 (
 EnterEditMode
-)
-store
-.
-dispatch
 (
-EnterEditMode
+false
+)
 )
 val
 actions
@@ -6596,6 +6641,9 @@ store
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 store
 .
@@ -6609,12 +6657,6 @@ BrowserToolbarQuery
 "
 )
 )
-)
-store
-.
-dispatch
-(
-EnterEditMode
 )
 val
 actions
@@ -6755,6 +6797,9 @@ store
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 val
 qrScannerButton
@@ -6980,6 +7025,9 @@ store
 dispatch
 (
 EnterEditMode
+(
+true
+)
 )
 val
 qrScannerButton
@@ -7221,6 +7269,9 @@ store
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 val
 qrScannerButton
@@ -7423,6 +7474,9 @@ store
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 val
 voiceAction

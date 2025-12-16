@@ -462,6 +462,9 @@ toolbarStore
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 verify
 (

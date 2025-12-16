@@ -466,6 +466,9 @@ toolbarStore
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 assertFalse
 (

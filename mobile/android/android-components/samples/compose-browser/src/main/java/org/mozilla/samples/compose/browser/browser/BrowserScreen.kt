@@ -1002,6 +1002,9 @@ dispatch
 BrowserToolbarAction
 .
 EnterEditMode
+(
+false
+)
 )
 }
 )

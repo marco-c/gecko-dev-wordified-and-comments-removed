@@ -473,6 +473,9 @@ toolbarStore
 dispatch
 (
 EnterEditMode
+(
+false
+)
 )
 mainLooperRule
 .
@@ -488,6 +491,16 @@ state
 searchState
 .
 isSearchActive
+)
+assertFalse
+(
+toolbarStore
+.
+state
+.
+editState
+.
+isQueryPrivate
 )
 }
 Test
