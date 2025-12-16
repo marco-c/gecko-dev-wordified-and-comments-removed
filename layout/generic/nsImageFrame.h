@@ -1595,7 +1595,7 @@ Frame
 )
 -
 >
-InkOverflowRectRelativeToSelf
+GetContentRectRelativeToSelf
 (
 )
 +
