@@ -3859,7 +3859,7 @@ Resize
 gecko
 =
 "
-StyleOverflowClipBox
+StyleOverflowClipMargin
 "
 servo
 =
@@ -3873,7 +3873,7 @@ values
 computed
 :
 :
-OverflowClipBox
+OverflowClipMargin
 "
 }
 {

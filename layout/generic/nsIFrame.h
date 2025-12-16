@@ -8536,7 +8536,7 @@ aOutRadii
 )
 const
 ;
-nsSize
+nsMargin
 OverflowClipMargin
 (
 mozilla
@@ -8544,6 +8544,10 @@ mozilla
 :
 PhysicalAxes
 aClipAxes
+bool
+aAllowNegative
+=
+true
 )
 const
 ;
