@@ -225,8 +225,11 @@ env_
 (
 CreateEnvironment
 (
-&
 field_trials_
+.
+CreateCopy
+(
+)
 )
 )
 encode_complete_callback_
@@ -504,7 +507,6 @@ GetNumEncodedFrames
 FieldTrials
 field_trials_
 ;
-const
 Environment
 env_
 ;
