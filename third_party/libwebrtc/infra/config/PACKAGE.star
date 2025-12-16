@@ -119,9 +119,9 @@ lucicfg
 "
 1
 .
-30
+45
 .
-9
+6
 "
 )
 pkg
@@ -224,12 +224,6 @@ analysis
 cfg
 "
 "
-luci
--
-notify
-/
-email
--
 templates
 /
 *

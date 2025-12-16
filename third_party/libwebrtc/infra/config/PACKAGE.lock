@@ -43,9 +43,9 @@ lucicfg
 "
 1
 .
-30
+45
 .
-9
+6
 "
 "
 resources
@@ -67,12 +67,6 @@ analysis
 cfg
 "
 "
-luci
--
-notify
-/
-email
--
 templates
 /
 *
