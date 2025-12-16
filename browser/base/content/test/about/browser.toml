@@ -171,6 +171,13 @@ js
 ]
 [
 "
+browser_aboutCertError_notYetValid
+.
+js
+"
+]
+[
+"
 browser_aboutCertError_offlineSupport
 .
 js
