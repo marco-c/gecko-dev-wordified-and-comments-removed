@@ -1,8 +1,6 @@
 import
 os
 import
-sys
-import
 mozpack
 .
 path
@@ -296,33 +294,12 @@ self
 )
 :
         
-sys
+from
+mozbuild
 .
-path
-.
-append
-(
-mozpath
-.
-join
-(
-self
-.
-topsrcdir
-"
-tools
-"
-"
-lint
-"
-"
-eslint
-"
-)
-)
-        
+nodeutil
 import
-setup_helper
+check_node_executables_valid
         
 with
 silence
@@ -332,8 +309,6 @@ silence
             
 node_valid
 =
-setup_helper
-.
 check_node_executables_valid
 (
 )
@@ -343,8 +318,6 @@ not
 node_valid
 :
             
-setup_helper
-.
 check_node_executables_valid
 (
 )

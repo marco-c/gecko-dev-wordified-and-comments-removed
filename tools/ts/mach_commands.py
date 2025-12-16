@@ -1468,10 +1468,15 @@ eslint
 import
 setup_helper
     
+from
+mozbuild
+.
+nodeutil
+import
+check_node_executables_valid
+    
 if
 not
-setup_helper
-.
 check_node_executables_valid
 (
 )
