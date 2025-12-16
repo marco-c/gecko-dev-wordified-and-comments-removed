@@ -910,8 +910,8 @@ OnStartedPinging
 )
 override
 ;
-int64_t
-GetLastPingSentMs
+Timestamp
+GetLastPingSent
 (
 )
 const

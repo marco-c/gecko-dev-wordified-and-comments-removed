@@ -320,10 +320,10 @@ const
 override
 ;
 PingResult
-SelectConnectionToPing
+GetConnectionToPing
 (
-int64_t
-last_ping_sent_ms
+Timestamp
+last_ping_sent
 )
 override
 ;
