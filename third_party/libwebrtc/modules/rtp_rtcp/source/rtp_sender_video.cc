@@ -1181,6 +1181,12 @@ GenericDescriptorAuth
 "
 )
 )
+raw_packetization_
+(
+config
+.
+raw_packetization
+)
 absolute_capture_time_sender_
 (
 config
@@ -3643,6 +3649,13 @@ RtpPacketizer
 :
 Create
 (
+raw_packetization_
+?
+std
+:
+:
+nullopt
+:
 codec_type
 payload
 limits

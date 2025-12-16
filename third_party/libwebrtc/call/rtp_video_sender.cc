@@ -2116,6 +2116,14 @@ task_queue_factory
 (
 )
 ;
+video_config
+.
+raw_packetization
+=
+rtp_config
+.
+raw_payload
+;
 auto
 sender_video
 =

@@ -508,6 +508,11 @@ task_queue_factory
 =
 nullptr
 ;
+bool
+raw_packetization
+=
+false
+;
 }
 ;
 explicit
@@ -1003,6 +1008,10 @@ require_frame_encryption_
 const
 bool
 generic_descriptor_auth_experiment_
+;
+const
+bool
+raw_packetization_
 ;
 AbsoluteCaptureTimeSender
 absolute_capture_time_sender_
