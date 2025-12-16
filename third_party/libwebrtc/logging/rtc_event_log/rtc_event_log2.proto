@@ -308,6 +308,11 @@ GenericAckReceived
 generic_acks_received
 =
 31
+[
+deprecated
+=
+true
+]
 ;
 repeated
 RouteChange

@@ -2375,15 +2375,6 @@ RtcEvent
 Type
 :
 :
-GenericAckReceived
-:
-case
-RtcEvent
-:
-:
-Type
-:
-:
 FrameDecoded
 :
 case

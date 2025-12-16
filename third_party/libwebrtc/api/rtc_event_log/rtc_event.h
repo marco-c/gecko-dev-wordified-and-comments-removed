@@ -47,7 +47,6 @@ VideoReceiveStreamConfig
 VideoSendStreamConfig
 GenericPacketSent
 GenericPacketReceived
-GenericAckReceived
 FrameDecoded
 NetEqSetMinimumDelay
 BeginV3Log
