@@ -336,10 +336,3 @@ browser_openPreferences
 js
 "
 ]
-[
-"
-browser_openSearchPanel
-.
-js
-"
-]
