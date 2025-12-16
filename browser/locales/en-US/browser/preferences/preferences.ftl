@@ -3108,7 +3108,10 @@ preferences
 -
 zoom
 -
-header
+header2
+=
+.
+label
 =
 Zoom
 preferences
@@ -3116,6 +3119,11 @@ preferences
 default
 -
 zoom
+-
+label
+=
+.
+label
 =
 Default
 zoom
