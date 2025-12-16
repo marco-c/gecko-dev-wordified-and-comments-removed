@@ -279,7 +279,7 @@ stateFlow
 navigation
 =
 navigation
-dispatcherScope
+scope
 =
 navigatorTestScope
 )

@@ -537,6 +537,7 @@ storeLink
 .
 start
 (
+applicationScope
 )
 initializeWebExtensionSupport
 (

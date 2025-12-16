@@ -197,6 +197,12 @@ updatePadding
 import
 androidx
 .
+lifecycle
+.
+lifecycleScope
+import
+androidx
+.
 preference
 .
 PreferenceManager
@@ -679,6 +685,8 @@ lazy
 {
 Navigator
 (
+stateFlow
+=
 components
 .
 appStore
@@ -686,6 +694,8 @@ appStore
 flow
 (
 )
+navigation
+=
 MainActivityNavigation
 (
 supportFragmentManager
@@ -715,6 +725,9 @@ onEraseAction
 :
 reactToEraseAction
 )
+scope
+=
+lifecycleScope
 )
 }
 private
