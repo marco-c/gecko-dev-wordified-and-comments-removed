@@ -2278,7 +2278,7 @@ MOZ_RELEASE_ASSERT
 aDeviceId
 )
 ;
-WeakPtr
+RefPtr
 <
 Device
 >
@@ -2313,6 +2313,10 @@ itr
 -
 >
 second
+.
+get
+(
+)
 ;
 }
 if
@@ -2542,7 +2546,7 @@ end
 )
 )
 {
-WeakPtr
+RefPtr
 <
 Device
 >
@@ -2552,6 +2556,10 @@ itr
 -
 >
 second
+.
+get
+(
+)
 ;
 if
 (
@@ -3011,7 +3019,7 @@ begin
 (
 )
 ;
-WeakPtr
+RefPtr
 <
 Device
 >
@@ -3021,6 +3029,10 @@ device_map_entry
 -
 >
 second
+.
+get
+(
+)
 ;
 mDeviceMap
 .
