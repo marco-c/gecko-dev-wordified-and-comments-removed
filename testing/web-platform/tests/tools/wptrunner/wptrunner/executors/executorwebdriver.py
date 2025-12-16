@@ -4799,7 +4799,7 @@ self
 .
 webdriver
 .
-switch_frame
+switch_to_frame
 (
 index_or_elem
 )
