@@ -1877,7 +1877,7 @@ uint32_t
 JS
 :
 :
-InitAsyncTaskCallbacks
+InitDispatchsToEventLoop
 (
 context
 -
@@ -1887,8 +1887,6 @@ Context
 )
 DispatchToEventLoop
 DelayedDispatchToEventLoop
-nullptr
-nullptr
 NS_GetCurrentThread
 (
 )
