@@ -799,10 +799,6 @@ deepcopy
 (
 task
 )
-if
-variants
-else
-task
             
 taskv
 [
