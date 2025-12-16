@@ -192,6 +192,11 @@ target_cpu
 "
 arm
 "
+android_static_analysis
+=
+"
+off
+"
 '
 You
 can
