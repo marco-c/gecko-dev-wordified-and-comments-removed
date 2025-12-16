@@ -171,6 +171,12 @@ variables
 clearPackageData
 :
 true
+additionalTestOutputDir
+:
+/
+sdcard
+/
+Download
 detect
 -
 leaks
@@ -205,6 +211,13 @@ fenix
 debug
 /
 minidumps
+-
+/
+sdcard
+/
+Download
+/
+memory_leaks
 other
 -
 files
