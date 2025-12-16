@@ -2846,6 +2846,13 @@ HasQualityConverged
 )
 )
 ;
+frame
+.
+set_is_repeat_frame
+(
+true
+)
+;
 SendFrameNow
 (
 std
