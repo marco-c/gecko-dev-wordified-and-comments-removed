@@ -228,12 +228,6 @@ nsIArray
 >
 gDraggedTransferables
 ;
-bool
-gCreatedFileForFileURL
-;
-bool
-gCreatedFileForFilePromise
-;
 already_AddRefed
 <
 nsIDragSession
@@ -1130,14 +1124,6 @@ aTransferableArray
 gDraggedTransferables
 =
 aTransferableArray
-;
-gCreatedFileForFileURL
-=
-false
-;
-gCreatedFileForFilePromise
-=
-false
 ;
 mNativeDragView
 =
