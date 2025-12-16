@@ -979,6 +979,16 @@ category
 |
 "
 "
+background_position
+:
+record
+.
+background_position
+|
+|
+"
+center
+"
 }
 ;
 }
