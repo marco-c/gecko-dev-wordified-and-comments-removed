@@ -2184,6 +2184,9 @@ aFactory
 IDWriteFontFace
 *
 aFontFace
+IDWriteFont
+*
+aFont
 SkFontStyle
 aStyle
 int
@@ -2204,6 +2207,7 @@ Create
 (
 aFactory
 aFontFace
+aFont
 aStyle
 (
 DWRITE_RENDERING_MODE
