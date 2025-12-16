@@ -854,7 +854,7 @@ delta
 wasm
 :
 :
-StandardPageSize
+StandardPageSizeBytes
 =
 =
 0
@@ -944,7 +944,7 @@ byteOffset
 wasm
 :
 :
-StandardPageSize
+StandardPageSizeBytes
 =
 =
 0
@@ -957,7 +957,7 @@ byteLen
 wasm
 :
 :
-StandardPageSize
+StandardPageSizeBytes
 =
 =
 0
@@ -1020,7 +1020,7 @@ byteLen
 wasm
 :
 :
-StandardPageSize
+StandardPageSizeBytes
 ;
 for
 (
@@ -1051,13 +1051,13 @@ i
 wasm
 :
 :
-StandardPageSize
+StandardPageSizeBytes
 )
 0
 wasm
 :
 :
-StandardPageSize
+StandardPageSizeBytes
 )
 ;
 DebugOnly
@@ -1080,12 +1080,12 @@ i
 wasm
 :
 :
-StandardPageSize
+StandardPageSizeBytes
 )
 wasm
 :
 :
-StandardPageSize
+StandardPageSizeBytes
 )
 ;
 MOZ_ASSERT
@@ -1704,7 +1704,7 @@ sourceMaxBytes
 wasm
 :
 :
-StandardPageSize
+StandardPageSizeBytes
 *
 wasm
 :
@@ -2012,7 +2012,7 @@ newByteLength
 wasm
 :
 :
-StandardPageSize
+StandardPageSizeBytes
 !
 =
 0
