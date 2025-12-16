@@ -7864,7 +7864,9 @@ active
 await
 NimbusTestUtils
 .
-waitForActiveEnrollments
+assert
+.
+activeEnrollments
 (
 expectedEnrollments
 )
@@ -8055,7 +8057,9 @@ expectedUnenrollments
 await
 NimbusTestUtils
 .
-waitForActiveEnrollments
+assert
+.
+activeEnrollments
 (
 Array
 .
@@ -8123,7 +8127,9 @@ unenrollmentOrder
 await
 NimbusTestUtils
 .
-waitForActiveEnrollments
+assert
+.
+activeEnrollments
 (
 Array
 .
@@ -8217,7 +8223,9 @@ slug
 await
 NimbusTestUtils
 .
-waitForActiveEnrollments
+assert
+.
+activeEnrollments
 (
 [
 ]
@@ -12516,7 +12524,9 @@ active
 await
 NimbusTestUtils
 .
-waitForActiveEnrollments
+assert
+.
+activeEnrollments
 (
 expectedEnrollments
 )
@@ -13048,7 +13058,9 @@ ROLLOUT
 await
 NimbusTestUtils
 .
-waitForActiveEnrollments
+assert
+.
+activeEnrollments
 (
 expectedEnrollments
 )
@@ -13509,7 +13521,9 @@ experiment
 await
 NimbusTestUtils
 .
-waitForActiveEnrollments
+assert
+.
+activeEnrollments
 (
 [
 "
@@ -14685,7 +14699,9 @@ LATEST
 await
 NimbusTestUtils
 .
-waitForActiveEnrollments
+assert
+.
+activeEnrollments
 (
 [
 "

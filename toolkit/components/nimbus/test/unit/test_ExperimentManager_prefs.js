@@ -5573,14 +5573,9 @@ setBranch
 await
 NimbusTestUtils
 .
-flushStore
-(
-)
-;
-await
-NimbusTestUtils
+assert
 .
-waitForActiveEnrollments
+activeEnrollments
 (
 expectedEnrollments
 .
