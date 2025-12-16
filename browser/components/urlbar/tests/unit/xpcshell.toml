@@ -79,6 +79,13 @@ js
 ]
 [
 "
+test_UrlbarProviderSearchSuggestions
+.
+js
+"
+]
+[
+"
 test_UrlbarProviderSemanticHistorySearch
 .
 js

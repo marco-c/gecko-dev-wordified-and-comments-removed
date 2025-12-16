@@ -682,6 +682,16 @@ return
 }
 if
 (
+queryContext
+.
+sapName
+=
+=
+"
+searchbar
+"
+|
+|
 lazy
 .
 UrlbarPrefs
