@@ -27397,7 +27397,7 @@ GetContentOffset
 GetContentLength
 (
 )
-IsSelectable
+ShouldPaintNormalSelection
 (
 )
 ?

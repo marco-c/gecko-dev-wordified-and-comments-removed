@@ -278,7 +278,7 @@ GetContent
 aFrame
 -
 >
-IsSelectable
+ShouldPaintNormalSelection
 (
 )
 ?

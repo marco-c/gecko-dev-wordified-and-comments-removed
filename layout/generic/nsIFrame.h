@@ -10008,6 +10008,17 @@ nullptr
 )
 const
 ;
+[
+[
+nodiscard
+]
+]
+bool
+ShouldPaintNormalSelection
+(
+)
+const
+;
 bool
 ShouldHaveLineIfEmpty
 (
@@ -10025,6 +10036,7 @@ nsISelectionController
 *
 aSelCon
 )
+const
 ;
 already_AddRefed
 <

@@ -2776,7 +2776,7 @@ LookUpSelection
 newContent
 offset
 1
-IsSelectable
+ShouldPaintNormalSelection
 (
 )
 ?
