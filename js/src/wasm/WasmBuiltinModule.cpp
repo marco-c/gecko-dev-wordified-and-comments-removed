@@ -1009,6 +1009,10 @@ memory
 -
 >
 shared
+PageSize
+:
+:
+Standard
 )
 )
 )
