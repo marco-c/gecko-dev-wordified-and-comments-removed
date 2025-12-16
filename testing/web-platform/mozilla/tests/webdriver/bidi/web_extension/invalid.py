@@ -42,18 +42,6 @@ value
 )
 :
     
-kwargs
-=
-{
-"
-moz
-:
-permanent
-"
-:
-value
-}
-    
 with
 pytest
 .
@@ -98,8 +86,16 @@ base64
             
 }
             
-*
-*
-kwargs
+_extension_params
+=
+{
+"
+moz
+:
+permanent
+"
+:
+value
+}
         
 )

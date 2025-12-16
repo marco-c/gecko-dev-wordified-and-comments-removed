@@ -221,7 +221,7 @@ extension_data_value
 }
 )
     
-kwargs
+extension_params
 =
 {
 "
@@ -287,9 +287,9 @@ extension_data
 =
 data
                     
-*
-*
-kwargs
+_extension_params
+=
+extension_params
                 
 )
         
@@ -340,9 +340,9 @@ extension_data
 =
 data
             
-*
-*
-kwargs
+_extension_params
+=
+extension_params
         
 )
         
