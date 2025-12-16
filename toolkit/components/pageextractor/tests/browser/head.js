@@ -181,6 +181,7 @@ PageExtractor
 return
 {
 actor
+tab
 getPageExtractor
 (
 )
