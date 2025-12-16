@@ -775,7 +775,9 @@ form
 "
 )
         
-quit
+sys
+.
+exit
 (
 )
     

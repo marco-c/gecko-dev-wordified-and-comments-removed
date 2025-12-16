@@ -772,7 +772,9 @@ form
 "
 )
         
-quit
+sys
+.
+exit
 (
 )
     
