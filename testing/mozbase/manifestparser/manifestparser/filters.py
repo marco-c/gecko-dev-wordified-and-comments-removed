@@ -48,8 +48,6 @@ enough
 "
 "
 import
-functools
-import
 itertools
 import
 os
@@ -79,14 +77,6 @@ from
 util
 import
 normsep
-functools
-.
-lru_cache
-(
-maxsize
-=
-None
-)
 def
 _match
 (
