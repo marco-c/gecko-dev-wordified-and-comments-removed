@@ -7505,7 +7505,7 @@ result
 nsFrameSelection
 :
 :
-CreateRangeExtendedToPreviousCharacterBoundary
+CreateRangeExtendedToPreviousGraphemeClusterBoundary
 <
 nsRange
 >
