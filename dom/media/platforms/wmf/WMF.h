@@ -483,7 +483,7 @@ MFShutdown
 (
 )
 ;
-MOZ_CONSTINIT
+constinit
 static
 inline
 UniquePtr

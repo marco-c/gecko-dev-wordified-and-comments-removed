@@ -247,7 +247,7 @@ sVP9Info
 ;
 }
 ;
-MOZ_CONSTINIT
+constinit
 RefPtr
 <
 PDMFactory
@@ -257,7 +257,7 @@ PropertyTest
 :
 sFactory
 ;
-MOZ_CONSTINIT
+constinit
 RefPtr
 <
 TaskQueue
@@ -267,7 +267,7 @@ PropertyTest
 :
 sTaskQueue
 ;
-MOZ_CONSTINIT
+constinit
 UniquePtr
 <
 VideoInfo
@@ -277,7 +277,7 @@ PropertyTest
 :
 sAVCInfo
 ;
-MOZ_CONSTINIT
+constinit
 UniquePtr
 <
 VideoInfo

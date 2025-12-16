@@ -689,7 +689,7 @@ ProcessCrashMonitor
 :
 sMutex
 ;
-MOZ_CONSTINIT
+constinit
 UniquePtr
 <
 ProcessCrashMonitor
