@@ -103,6 +103,8 @@ AudioProcessingImpl
 (
 env
 config_
+echo_canceller_config_
+echo_canceller_multichannel_config_
 std
 :
 :
