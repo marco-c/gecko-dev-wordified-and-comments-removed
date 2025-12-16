@@ -207,6 +207,7 @@ addEventListener
 TabGroupExpand
 "
 this
+true
 )
 ;
 this
@@ -217,6 +218,7 @@ addEventListener
 TabGroupCollapse
 "
 this
+true
 )
 ;
 this
@@ -1971,6 +1973,15 @@ on_TabGroupAnimationComplete
 event
 )
 {
+window
+.
+requestAnimationFrame
+(
+(
+)
+=
+>
+{
 this
 .
 #
@@ -1983,6 +1994,9 @@ event
 target
 .
 id
+)
+;
+}
 )
 ;
 }
