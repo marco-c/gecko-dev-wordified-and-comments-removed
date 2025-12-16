@@ -89,6 +89,7 @@ assert
 raceWithRejectOnTimeout
 assertReject
 unreachable
+hasFeature
 }
 from
 '
@@ -1213,12 +1214,11 @@ requiredFeatures
 if
 (
 !
+hasFeature
+(
 adapter
 .
 features
-.
-has
-(
 feature
 )
 )

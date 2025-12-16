@@ -59,6 +59,7 @@ js
 ;
 import
 {
+hasFeature
 unreachable
 }
 from
@@ -5011,12 +5012,11 @@ GPUDevice
 const
 featureLevel
 =
+hasFeature
+(
 device
 .
 features
-.
-has
-(
 '
 core
 -

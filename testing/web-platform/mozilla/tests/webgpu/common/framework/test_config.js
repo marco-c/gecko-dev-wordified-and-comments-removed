@@ -1,6 +1,7 @@
 import
 {
 assert
+hasFeature
 }
 from
 '
@@ -79,12 +80,11 @@ compatibility
 assert
 (
 !
+hasFeature
+(
 device
 .
 features
-.
-has
-(
 '
 core
 -
