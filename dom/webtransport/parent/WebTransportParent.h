@@ -540,7 +540,10 @@ mStream
 ;
 nsTHashMap
 <
+NoMemMoveKey
+<
 nsUint64HashKey
+>
 StreamHash
 <
 nsIWebTransportBidirectionalStream
@@ -550,7 +553,10 @@ mBidiStreamCallbackMap
 ;
 nsTHashMap
 <
+NoMemMoveKey
+<
 nsUint64HashKey
+>
 StreamHash
 <
 nsIWebTransportSendStream
