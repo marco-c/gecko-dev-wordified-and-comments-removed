@@ -27,8 +27,10 @@ js
 "
 )
 ;
-function
+class
 ReadOnlyEditor
+{
+constructor
 (
 container
 nodeFront
@@ -181,11 +183,6 @@ tabindex
 )
 ;
 }
-ReadOnlyEditor
-.
-prototype
-=
-{
 buildMarkup
 (
 )
@@ -334,7 +331,6 @@ null
 ;
 }
 }
-;
 module
 .
 exports
