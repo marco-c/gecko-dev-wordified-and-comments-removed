@@ -1191,8 +1191,6 @@ kwargs
         
 super
 (
-XPerfInterval
-self
 )
 .
 __init__
@@ -1313,8 +1311,6 @@ None
         
 super
 (
-XPerfInterval
-self
 )
 .
 on_event_matched
@@ -1802,8 +1798,6 @@ whiteboard
         
 super
 (
-XPerfCounter
-self
 )
 .
 __init__
@@ -2726,8 +2720,6 @@ event
         
 super
 (
-Nth
-self
 )
 .
 __init__
@@ -3161,8 +3153,6 @@ events
         
 super
 (
-EventSequence
-self
 )
 .
 __init__
@@ -3599,8 +3589,6 @@ event
         
 super
 (
-BindThread
-self
 )
 .
 __init__
@@ -3879,8 +3867,6 @@ guidstr
         
 super
 (
-ClassicEvent
-self
 )
 .
 __init__
@@ -3913,8 +3899,6 @@ if
 not
 super
 (
-ClassicEvent
-self
 )
 .
 match
@@ -4030,15 +4014,11 @@ self
         
 super
 (
-SessionStoreWindowRestored
-self
 )
 .
 __init__
 (
-            
 EVENT_ID_FIREFOX_WINDOW_RESTORED
-        
 )
     
 def
@@ -4109,8 +4089,6 @@ leafname
         
 super
 (
-ProcessStart
-self
 )
 .
 __init__
@@ -4260,8 +4238,6 @@ if
 not
 super
 (
-ProcessStart
-self
 )
 .
 match
@@ -4546,8 +4522,6 @@ self
         
 super
 (
-ThreadStart
-self
 )
 .
 __init__
@@ -4571,8 +4545,6 @@ if
 not
 super
 (
-ThreadStart
-self
 )
 .
 match
@@ -4772,8 +4744,6 @@ self
         
 super
 (
-ReadyThread
-self
 )
 .
 __init__
@@ -4793,8 +4763,6 @@ data
         
 super
 (
-ReadyThread
-self
 )
 .
 set_whiteboard
@@ -4814,8 +4782,6 @@ if
 not
 super
 (
-ReadyThread
-self
 )
 .
 match
@@ -4959,8 +4925,6 @@ self
         
 super
 (
-ContextSwitchToThread
-self
 )
 .
 __init__
@@ -4982,8 +4946,6 @@ if
 not
 super
 (
-ContextSwitchToThread
-self
 )
 .
 match
@@ -5184,8 +5146,6 @@ FileIOReadOrWrite
         
 super
 (
-FileIOReadOrWrite
-self
 )
 .
 __init__
@@ -5211,8 +5171,6 @@ if
 not
 super
 (
-FileIOReadOrWrite
-self
 )
 .
 match

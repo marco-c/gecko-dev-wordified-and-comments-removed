@@ -61,8 +61,6 @@ if
 not
 super
 (
-DeletionRequestPingFilter
-self
 )
 .
 __call__
@@ -121,8 +119,6 @@ if
 not
 super
 (
-EventPingFilter
-self
 )
 .
 __call__
@@ -181,8 +177,6 @@ if
 not
 super
 (
-FirstShutdownPingFilter
-self
 )
 .
 __call__
@@ -241,8 +235,6 @@ if
 not
 super
 (
-MainPingFilter
-self
 )
 .
 __call__
@@ -304,8 +296,6 @@ reason
         
 super
 (
-MainPingReasonFilter
-self
 )
 .
 __init__
@@ -330,8 +320,6 @@ if
 not
 super
 (
-MainPingReasonFilter
-self
 )
 .
 __call__

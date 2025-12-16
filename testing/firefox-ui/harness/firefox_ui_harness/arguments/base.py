@@ -37,8 +37,6 @@ kwargs
         
 super
 (
-FirefoxUIArguments
-self
 )
 .
 __init__

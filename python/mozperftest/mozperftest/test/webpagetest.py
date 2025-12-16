@@ -741,8 +741,6 @@ None
         
 super
 (
-PropagatingErrorThread
-self
 )
 .
 join
@@ -1013,8 +1011,6 @@ mach_cmd
         
 super
 (
-WebPageTest
-self
 )
 .
 __init__

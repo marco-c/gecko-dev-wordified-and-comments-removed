@@ -247,8 +247,6 @@ registry
                 
 super
 (
-OmniFooFormatter
-self
 )
 .
 __init__

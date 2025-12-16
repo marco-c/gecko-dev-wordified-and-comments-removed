@@ -25,8 +25,6 @@ self
         
 super
 (
-TestSSLStatusAfterRestart
-self
 )
 .
 setUp
@@ -136,8 +134,6 @@ enable
         
 super
 (
-TestSSLStatusAfterRestart
-self
 )
 .
 tearDown

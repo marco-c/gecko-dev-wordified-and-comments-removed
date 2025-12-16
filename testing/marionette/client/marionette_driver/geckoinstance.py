@@ -3186,8 +3186,6 @@ prefs
         
 super
 (
-FennecInstance
-self
 )
 .
 __init__
@@ -3723,8 +3721,6 @@ cleanup
         
 super
 (
-FennecInstance
-self
 )
 .
 close
@@ -4230,8 +4226,6 @@ prefs
         
 super
 (
-DesktopInstance
-self
 )
 .
 __init__
@@ -4272,8 +4266,6 @@ kwargs
         
 super
 (
-ThunderbirdInstance
-self
 )
 .
 __init__

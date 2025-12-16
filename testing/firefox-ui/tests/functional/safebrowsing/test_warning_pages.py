@@ -28,8 +28,6 @@ self
         
 super
 (
-TestSafeBrowsingWarningPages
-self
 )
 .
 setUp
@@ -389,8 +387,6 @@ finally
             
 super
 (
-TestSafeBrowsingWarningPages
-self
 )
 .
 tearDown

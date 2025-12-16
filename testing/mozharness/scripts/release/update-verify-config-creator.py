@@ -2350,8 +2350,6 @@ rw_config
         
 super
 (
-UpdateVerifyConfigCreator
-self
 )
 .
 _pre_config_lock

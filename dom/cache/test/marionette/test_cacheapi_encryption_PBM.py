@@ -116,8 +116,6 @@ self
         
 super
 (
-CacheAPIEncryptionPBM
-self
 )
 .
 setUp
@@ -274,11 +272,9 @@ self
         
 super
 (
-CacheAPIEncryptionPBM
-self
 )
 .
-setUp
+tearDown
 (
 )
         

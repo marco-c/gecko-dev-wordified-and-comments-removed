@@ -528,8 +528,6 @@ factories
         
 super
 (
-Layers
-self
 )
 .
 __init__

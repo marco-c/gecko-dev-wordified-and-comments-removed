@@ -32,8 +32,6 @@ self
         
 super
 (
-TestHTTPSFirst
-self
 )
 .
 setUp
@@ -137,8 +135,6 @@ removeAll
         
 super
 (
-TestHTTPSFirst
-self
 )
 .
 tearDown

@@ -1966,8 +1966,6 @@ self
         
 super
 (
-BaseToolchainTest
-self
 )
 .
 setUp
@@ -2066,8 +2064,6 @@ out
         
 super
 (
-BaseToolchainTest
-self
 )
 .
 tearDown

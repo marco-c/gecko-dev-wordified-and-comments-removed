@@ -206,8 +206,6 @@ kwargs
         
 super
 (
-TestParser
-self
 )
 .
 __init__

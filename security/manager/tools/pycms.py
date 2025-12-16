@@ -286,8 +286,6 @@ directive
         
 super
 (
-UnknownDirectiveError
-self
 )
 .
 __init__

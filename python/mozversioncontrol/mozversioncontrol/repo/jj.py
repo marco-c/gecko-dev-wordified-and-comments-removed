@@ -246,8 +246,6 @@ git
         
 super
 (
-JujutsuRepository
-self
 )
 .
 __init__

@@ -268,8 +268,6 @@ m
         
 super
 (
-Browsertime
-self
 )
 .
 __init__
@@ -503,8 +501,6 @@ self
         
 super
 (
-Browsertime
-self
 )
 .
 build_browser_profile
@@ -911,8 +907,6 @@ preferences
         
 super
 (
-Browsertime
-self
 )
 .
 run_test_setup
@@ -1598,8 +1592,6 @@ test
         
 super
 (
-Browsertime
-self
 )
 .
 run_test_teardown
@@ -1695,8 +1687,6 @@ self
         
 super
 (
-Browsertime
-self
 )
 .
 check_for_crashes
@@ -1737,8 +1727,6 @@ self
         
 super
 (
-Browsertime
-self
 )
 .
 clean_up

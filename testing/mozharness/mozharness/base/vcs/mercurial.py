@@ -262,8 +262,6 @@ group
 return
 super
 (
-RepositoryUpdateRevisionParser
-self
 )
 .
 parse_single_line
@@ -478,8 +476,6 @@ None
         
 super
 (
-MercurialVCS
-self
 )
 .
 __init__

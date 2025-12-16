@@ -91,8 +91,6 @@ self
         
 super
 (
-FasterMakeBackend
-self
 )
 .
 _init

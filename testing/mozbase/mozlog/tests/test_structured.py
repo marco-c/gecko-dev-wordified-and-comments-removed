@@ -292,8 +292,6 @@ self
         
 super
 (
-TestStatusHandler
-self
 )
 .
 setUp
@@ -927,8 +925,6 @@ self
         
 super
 (
-TestSummaryHandler
-self
 )
 .
 setUp

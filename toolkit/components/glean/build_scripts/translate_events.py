@@ -138,8 +138,6 @@ False
 return
 super
 (
-IndentingDumper
-self
 )
 .
 increase_indent

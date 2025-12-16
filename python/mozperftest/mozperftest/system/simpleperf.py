@@ -891,8 +891,6 @@ mach_cmd
         
 super
 (
-SimpleperfProfiler
-self
 )
 .
 __init__

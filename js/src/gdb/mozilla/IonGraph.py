@@ -567,13 +567,10 @@ self
         
 super
 (
-IonGraphBinParameter
-self
 )
 .
 __init__
 (
-            
 "
 iongraph
 -
@@ -585,7 +582,6 @@ COMMAND_SUPPORT
 gdb
 .
 PARAM_FILENAME
-        
 )
         
 self
@@ -720,13 +716,10 @@ self
         
 super
 (
-DotBinParameter
-self
 )
 .
 __init__
 (
-            
 "
 dot
 -
@@ -738,7 +731,6 @@ COMMAND_SUPPORT
 gdb
 .
 PARAM_FILENAME
-        
 )
         
 self
@@ -882,13 +874,10 @@ self
         
 super
 (
-PngViewerBinParameter
-self
 )
 .
 __init__
 (
-            
 "
 pngviewer
 -
@@ -900,7 +889,6 @@ COMMAND_SUPPORT
 gdb
 .
 PARAM_FILENAME
-        
 )
         
 self
@@ -1006,13 +994,10 @@ self
         
 super
 (
-IonGraphCommand
-self
 )
 .
 __init__
 (
-            
 "
 iongraph
 "
@@ -1022,7 +1007,6 @@ COMMAND_DATA
 gdb
 .
 COMPLETE_EXPRESSION
-        
 )
         
 self

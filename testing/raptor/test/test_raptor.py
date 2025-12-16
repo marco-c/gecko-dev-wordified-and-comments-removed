@@ -99,8 +99,6 @@ names
         
 super
 (
-TestBrowserThread
-self
 )
 .
 __init__

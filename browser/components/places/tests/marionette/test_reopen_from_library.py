@@ -26,8 +26,6 @@ self
         
 super
 (
-TestReopenFromLibrary
-self
 )
 .
 setUp
@@ -143,8 +141,6 @@ True
         
 super
 (
-TestReopenFromLibrary
-self
 )
 .
 tearDown

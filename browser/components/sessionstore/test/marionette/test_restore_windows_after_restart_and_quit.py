@@ -120,20 +120,16 @@ windows
         
 super
 (
-TestSessionStoreEnabledAllWindows
-self
 )
 .
 setUp
 (
-            
 include_private
 =
 include_private
 startup_page
 =
 3
-        
 )
     
 def
@@ -291,17 +287,13 @@ self
         
 super
 (
-TestSessionStoreEnabledNoPrivateWindows
-self
 )
 .
 setUp
 (
-            
 include_private
 =
 False
-        
 )
 class
 TestSessionStoreDisabled

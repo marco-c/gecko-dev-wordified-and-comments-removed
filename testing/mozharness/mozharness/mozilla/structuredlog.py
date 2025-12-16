@@ -159,8 +159,6 @@ False
         
 super
 (
-StructuredOutputParser
-self
 )
 .
 __init__
@@ -336,8 +334,6 @@ log_output
 return
 super
 (
-StructuredOutputParser
-self
 )
 .
 parse_single_line

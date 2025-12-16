@@ -209,8 +209,6 @@ False
         
 super
 (
-SessionStoreTestCase
-self
 )
 .
 setUp
@@ -503,8 +501,6 @@ finally
             
 super
 (
-SessionStoreTestCase
-self
 )
 .
 tearDown

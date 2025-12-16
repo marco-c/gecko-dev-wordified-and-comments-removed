@@ -550,8 +550,6 @@ verbose
                     
 super
 (
-CustomHandler
-self
 )
 .
 log_message

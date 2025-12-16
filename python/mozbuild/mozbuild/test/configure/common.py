@@ -817,8 +817,6 @@ os_contents
         
 super
 (
-ConfigureTestSandbox
-self
 )
 .
 __init__

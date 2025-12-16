@@ -549,8 +549,6 @@ kwargs
         
 super
 (
-TalosOutputParser
-self
 )
 .
 __init__
@@ -954,8 +952,6 @@ line
         
 super
 (
-TalosOutputParser
-self
 )
 .
 parse_single_line
@@ -2171,8 +2167,6 @@ config
         
 super
 (
-Talos
-self
 )
 .
 __init__
@@ -2602,8 +2596,6 @@ abs_dirs
 =
 super
 (
-Talos
-self
 )
 .
 query_abs_dirs
@@ -5440,8 +5432,6 @@ pywebsocket3
 return
 super
 (
-Talos
-self
 )
 .
 download_and_extract
@@ -5805,8 +5795,6 @@ True
         
 super
 (
-Talos
-self
 )
 .
 create_virtualenv

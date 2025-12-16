@@ -717,8 +717,6 @@ mach_cmd
         
 super
 (
-ProxyRunner
-self
 )
 .
 __init__

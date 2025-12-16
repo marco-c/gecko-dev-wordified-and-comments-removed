@@ -342,8 +342,6 @@ kwargs
         
 super
 (
-MachFormatter
-self
 )
 .
 __init__
@@ -565,8 +563,6 @@ s
 =
 super
 (
-MachFormatter
-self
 )
 .
 __call__

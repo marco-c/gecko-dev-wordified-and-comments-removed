@@ -181,8 +181,6 @@ json
         
 super
 (
-LocalesTest
-self
 )
 .
 __init__

@@ -624,8 +624,6 @@ mach_cmd
         
 super
 (
-BrowsertimeRunner
-self
 )
 .
 __init__
@@ -1356,8 +1354,6 @@ node
         
 super
 (
-BrowsertimeRunner
-self
 )
 .
 setup

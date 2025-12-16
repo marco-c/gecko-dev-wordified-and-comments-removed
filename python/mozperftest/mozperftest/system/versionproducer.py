@@ -62,8 +62,6 @@ mach_cmd
         
 super
 (
-VersionProducer
-self
 )
 .
 __init__

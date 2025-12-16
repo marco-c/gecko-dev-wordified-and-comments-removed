@@ -61,8 +61,6 @@ self
         
 super
 (
-TestSessionRestoreLogging
-self
 )
 .
 setUp
@@ -139,8 +137,6 @@ finally
             
 super
 (
-TestSessionRestoreLogging
-self
 )
 .
 tearDown

@@ -123,8 +123,6 @@ ext
         
 super
 (
-MissingVCSExtension
-self
 )
 .
 __init__

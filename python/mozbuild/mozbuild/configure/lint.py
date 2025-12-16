@@ -169,13 +169,10 @@ LOG
         
 super
 (
-LintSandbox
-self
 )
 .
 __init__
 (
-            
 {
 }
 environ
@@ -190,7 +187,6 @@ stdout
 stderr
 =
 stderr
-        
 )
     
 def
@@ -1122,8 +1118,6 @@ obj
 return
 super
 (
-LintSandbox
-self
 )
 .
 _value_for_depends
@@ -1147,8 +1141,6 @@ result
 =
 super
 (
-LintSandbox
-self
 )
 .
 option_impl
@@ -2039,8 +2031,6 @@ wrapper
 =
 super
 (
-LintSandbox
-self
 )
 .
 imports_impl
@@ -2094,8 +2084,6 @@ wrapped
 =
 super
 (
-LintSandbox
-self
 )
 .
 _prepare_function

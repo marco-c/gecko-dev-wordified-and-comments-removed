@@ -871,8 +871,6 @@ n
                 
 super
 (
-SortableTask
-self
 )
 .
 __init__
@@ -896,8 +894,6 @@ deadline
                 
 super
 (
-SortableTask
-self
 )
 .
 start

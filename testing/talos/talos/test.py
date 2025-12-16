@@ -658,8 +658,6 @@ kw
         
 super
 (
-TsBase
-self
 )
 .
 __init__

@@ -312,8 +312,6 @@ kwargs
         
 super
 (
-MakeUploadOutputParser
-self
 )
 .
 __init__
@@ -1200,11 +1198,8 @@ all_config_dicts
 .
 extend
 (
-            
 super
 (
-BuildingConfig
-self
 )
 .
 get_cfgs_from_files
@@ -1212,7 +1207,6 @@ get_cfgs_from_files
 all_config_files
 options
 )
-        
 )
         
 if
@@ -3316,8 +3310,6 @@ None
         
 super
 (
-BuildScript
-self
 )
 .
 __init__
@@ -3914,8 +3906,6 @@ deepcopy
 (
 super
 (
-BuildScript
-self
 )
 .
 query_env

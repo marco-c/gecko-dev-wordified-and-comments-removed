@@ -218,8 +218,6 @@ abs_dirs
 =
 super
 (
-Repackage
-self
 )
 .
 query_abs_dirs

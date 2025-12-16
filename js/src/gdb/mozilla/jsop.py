@@ -229,8 +229,6 @@ cache
         
 super
 (
-JSBytecodePtr
-self
 )
 .
 __init__

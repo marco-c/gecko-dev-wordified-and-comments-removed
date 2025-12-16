@@ -44,8 +44,6 @@ URL
         
 super
 (
-TestPingServer
-self
 )
 .
 setUp

@@ -2265,8 +2265,6 @@ backends
             
 super
 (
-TheHybridBackend
-self
 )
 .
 __init__

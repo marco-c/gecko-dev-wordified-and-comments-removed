@@ -2067,16 +2067,12 @@ metric_heading
 =
 super
 (
-RaptorGatherer
-self
 )
 .
 _get_metric_heading
 (
-            
 metric
 metrics_info
-        
 )
         
 return

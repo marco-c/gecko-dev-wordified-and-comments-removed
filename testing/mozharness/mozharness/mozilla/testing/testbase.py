@@ -4930,8 +4930,6 @@ abs_dirs
 =
 super
 (
-TestingMixin
-self
 )
 .
 query_abs_dirs

@@ -342,8 +342,6 @@ False
         
 super
 (
-TelemetryTestRunner
-self
 )
 .
 __init__

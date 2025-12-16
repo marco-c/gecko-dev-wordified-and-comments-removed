@@ -44,8 +44,6 @@ mach_cmd
         
 super
 (
-NodeRunner
-self
 )
 .
 __init__

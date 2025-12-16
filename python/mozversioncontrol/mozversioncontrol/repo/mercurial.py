@@ -94,8 +94,6 @@ client
         
 super
 (
-HgRepository
-self
 )
 .
 __init__
@@ -463,8 +461,6 @@ server
 return
 super
 (
-HgRepository
-self
 )
 .
 _run

@@ -28,8 +28,6 @@ self
         
 super
 (
-TestSafeBrowsingNotificationBar
-self
 )
 .
 setUp
@@ -280,8 +278,6 @@ finally
             
 super
 (
-TestSafeBrowsingNotificationBar
-self
 )
 .
 tearDown

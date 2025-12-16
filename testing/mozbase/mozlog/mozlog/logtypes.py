@@ -1235,8 +1235,6 @@ superfmt
 =
 super
 (
-Dict
-self
 )
 .
 _format_item_type
@@ -1578,8 +1576,6 @@ superfmt
 =
 super
 (
-Tuple
-self
 )
 .
 _format_item_type

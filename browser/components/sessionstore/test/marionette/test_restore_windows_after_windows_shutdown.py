@@ -37,8 +37,6 @@ self
         
 super
 (
-TestWindowsShutdown
-self
 )
 .
 setUp
@@ -99,13 +97,10 @@ self
         
 super
 (
-TestWindowsShutdownRegisterRestart
-self
 )
 .
 setUp
 (
-            
 startup_page
 =
 3
@@ -115,7 +110,6 @@ False
 win_register_restart
 =
 True
-        
 )
     
 def
@@ -171,8 +165,6 @@ self
         
 super
 (
-TestWindowsShutdownNormal
-self
 )
 .
 setUp
@@ -234,20 +226,16 @@ self
         
 super
 (
-TestWindowsShutdownForcedSessionRestore
-self
 )
 .
 setUp
 (
-            
 no_auto_updates
 =
 False
 win_register_restart
 =
 True
-        
 )
     
 def

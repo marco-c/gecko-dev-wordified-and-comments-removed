@@ -3128,8 +3128,6 @@ basic_tests
         
 super
 (
-__class__
-self
 )
 .
 __init__

@@ -90,8 +90,6 @@ self
         
 super
 (
-TestTaskbarTabSessionState
-self
 )
 .
 setUp

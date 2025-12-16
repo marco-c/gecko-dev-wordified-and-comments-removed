@@ -1232,8 +1232,6 @@ openbsd6
 return
 super
 (
-TestTargetOpenBSD
-self
 )
 .
 config_sub

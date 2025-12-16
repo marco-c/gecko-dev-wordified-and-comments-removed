@@ -93,8 +93,6 @@ pref_file_dir
         
 super
 (
-TestAutoConfig
-self
 )
 .
 tearDown

@@ -69,8 +69,6 @@ src
         
 super
 (
-SrcRepository
-self
 )
 .
 __init__

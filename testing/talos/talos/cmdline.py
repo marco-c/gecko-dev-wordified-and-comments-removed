@@ -46,8 +46,6 @@ None
         
 super
 (
-_StopAction
-self
 )
 .
 __init__

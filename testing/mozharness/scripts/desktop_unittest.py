@@ -2489,8 +2489,6 @@ None
         
 super
 (
-DesktopUnittest
-self
 )
 .
 __init__
@@ -2858,8 +2856,6 @@ rw_config
         
 super
 (
-DesktopUnittest
-self
 )
 .
 _pre_config_lock
@@ -3010,8 +3006,6 @@ abs_dirs
 =
 super
 (
-DesktopUnittest
-self
 )
 .
 query_abs_dirs
@@ -7007,8 +7001,6 @@ None
         
 super
 (
-DesktopUnittest
-self
 )
 .
 download_and_extract

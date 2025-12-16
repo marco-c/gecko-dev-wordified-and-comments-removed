@@ -151,8 +151,6 @@ wrench
         
 super
 (
-AndroidWrench
-self
 )
 .
 __init__
@@ -374,8 +372,6 @@ parent_abs_dirs
 =
 super
 (
-AndroidWrench
-self
 )
 .
 query_abs_dirs
@@ -843,8 +839,6 @@ logcat_cmd
         
 super
 (
-AndroidWrench
-self
 )
 .
 logcat_start

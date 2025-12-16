@@ -2773,13 +2773,10 @@ self
         
 super
 (
-remoteGtestOptions
-self
 )
 .
 __init__
 (
-            
 usage
 =
 "
@@ -2792,7 +2789,6 @@ options
 ]
 test_filter
 "
-        
 )
         
 self

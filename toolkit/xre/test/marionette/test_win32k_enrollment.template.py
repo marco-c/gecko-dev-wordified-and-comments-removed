@@ -922,8 +922,6 @@ self
         
 super
 (
-TestWin32kAutostart
-self
 )
 .
 setUp
@@ -1167,8 +1165,6 @@ True
         
 super
 (
-TestWin32kAutostart
-self
 )
 .
 tearDown

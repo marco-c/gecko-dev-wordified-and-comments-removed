@@ -296,8 +296,6 @@ BuildingConfig
         
 super
 (
-FxDesktopBuild
-self
 )
 .
 __init__
@@ -329,8 +327,6 @@ abs_dirs
 =
 super
 (
-FxDesktopBuild
-self
 )
 .
 query_abs_dirs

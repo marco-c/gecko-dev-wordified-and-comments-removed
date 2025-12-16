@@ -113,8 +113,6 @@ self
         
 super
 (
-TestSessionRestore
-self
 )
 .
 setUp

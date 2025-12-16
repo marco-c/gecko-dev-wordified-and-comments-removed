@@ -86,8 +86,6 @@ kwargs
         
 super
 (
-WebPlatformTestsRunnerSetup
-self
 )
 .
 __init__

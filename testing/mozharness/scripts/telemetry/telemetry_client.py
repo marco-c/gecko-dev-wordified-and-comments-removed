@@ -568,8 +568,6 @@ uninstall
         
 super
 (
-TelemetryTests
-self
 )
 .
 __init__
@@ -812,8 +810,6 @@ abs_dirs
 =
 super
 (
-TelemetryTests
-self
 )
 .
 query_abs_dirs

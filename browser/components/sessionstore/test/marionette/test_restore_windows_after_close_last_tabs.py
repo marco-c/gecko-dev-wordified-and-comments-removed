@@ -67,20 +67,16 @@ windows
         
 super
 (
-TestSessionStoreEnabledAllWindows
-self
 )
 .
 setUp
 (
-            
 include_private
 =
 include_private
 startup_page
 =
 3
-        
 )
     
 def

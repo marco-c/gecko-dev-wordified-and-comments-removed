@@ -1716,8 +1716,6 @@ None
         
 super
 (
-BrowsertimeResultsHandler
-self
 )
 .
 __init__

@@ -359,8 +359,6 @@ self
         
 super
 (
-EmptyValue
-self
 )
 .
 __init__
@@ -411,8 +409,6 @@ items
             
 super
 (
-ReadOnlyNamespace
-self
 )
 .
 __setattr__
@@ -2327,8 +2323,6 @@ kwargs
         
 super
 (
-List
-self
 )
 .
 __init__
@@ -2373,8 +2367,6 @@ instances
 return
 super
 (
-List
-self
 )
 .
 extend
@@ -2456,8 +2448,6 @@ value
 return
 super
 (
-List
-self
 )
 .
 __setitem__
@@ -2469,8 +2459,6 @@ val
 return
 super
 (
-List
-self
 )
 .
 __setitem__
@@ -2631,8 +2619,6 @@ lists
 return
 super
 (
-List
-self
 )
 .
 __iadd__
@@ -2974,8 +2960,6 @@ iterable
         
 super
 (
-StrictOrderingOnAppendList
-self
 )
 .
 __init__
@@ -3004,8 +2988,6 @@ l
 return
 super
 (
-StrictOrderingOnAppendList
-self
 )
 .
 extend
@@ -3040,8 +3022,6 @@ val
 return
 super
 (
-StrictOrderingOnAppendList
-self
 )
 .
 __setitem__
@@ -3068,8 +3048,6 @@ other
 return
 super
 (
-StrictOrderingOnAppendList
-self
 )
 .
 __add__
@@ -3095,8 +3073,6 @@ other
 return
 super
 (
-StrictOrderingOnAppendList
-self
 )
 .
 __iadd__
@@ -3413,18 +3389,14 @@ iterable
         
 super
 (
-StrictOrderingOnAppendListWithAction
-self
 )
 .
 __init__
 (
-            
 iterable
 action
 =
 action
-        
 )
     
 def
@@ -3482,8 +3454,6 @@ l
 return
 super
 (
-StrictOrderingOnAppendListWithAction
-self
 )
 .
 extend
@@ -3555,8 +3525,6 @@ val
 return
 super
 (
-StrictOrderingOnAppendListWithAction
-self
 )
 .
 __setitem__
@@ -3605,8 +3573,6 @@ list
 return
 super
 (
-StrictOrderingOnAppendListWithAction
-self
 )
 .
 __add__
@@ -3669,8 +3635,6 @@ other
 return
 super
 (
-StrictOrderingOnAppendListWithAction
-self
 )
 .
 __iadd__
@@ -4396,10 +4360,6 @@ result
 =
 super
 (
-                
-StrictOrderingOnAppendListWithFlagsSpecialization
-self
-            
 )
 .
 __setitem__
@@ -4590,10 +4550,6 @@ result
 =
 super
 (
-                
-StrictOrderingOnAppendListWithFlagsSpecialization
-self
-            
 )
 .
 extend
@@ -4631,10 +4587,6 @@ result
 =
 super
 (
-                
-StrictOrderingOnAppendListWithFlagsSpecialization
-self
-            
 )
 .
 __add__
@@ -4672,10 +4624,6 @@ result
 =
 super
 (
-                
-StrictOrderingOnAppendListWithFlagsSpecialization
-self
-            
 )
 .
 __iadd__
@@ -6146,8 +6094,6 @@ args
 return
 super
 (
-TypedTuple
-klass
 )
 .
 __new__
@@ -6434,8 +6380,6 @@ iterable
             
 super
 (
-_TypedList
-self
 )
 .
 __init__
@@ -6466,8 +6410,6 @@ l
 return
 super
 (
-_TypedList
-self
 )
 .
 extend
@@ -6496,8 +6438,6 @@ val
 return
 super
 (
-_TypedList
-self
 )
 .
 __setitem__
@@ -6526,8 +6466,6 @@ other
 return
 super
 (
-_TypedList
-self
 )
 .
 __add__
@@ -6555,8 +6493,6 @@ other
 return
 super
 (
-_TypedList
-self
 )
 .
 __iadd__
@@ -7610,8 +7546,6 @@ POSSIBLE_VALUES
 return
 super
 (
-EnumString
-self
 )
 .
 __eq__
@@ -7646,8 +7580,6 @@ self
 return
 super
 (
-EnumString
-self
 )
 .
 __hash__

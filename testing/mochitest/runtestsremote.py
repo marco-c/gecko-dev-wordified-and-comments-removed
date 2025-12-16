@@ -1793,8 +1793,6 @@ local
 =
 super
 (
-MochiRemote
-self
 )
 .
 getChromeTestDir

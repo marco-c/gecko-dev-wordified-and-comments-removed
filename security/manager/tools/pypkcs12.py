@@ -141,8 +141,6 @@ status
         
 super
 (
-OpenSSLError
-self
 )
 .
 __init__

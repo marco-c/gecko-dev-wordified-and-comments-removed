@@ -2446,8 +2446,6 @@ link
 return
 super
 (
-HardlinkFile
-self
 )
 .
 copy
@@ -2605,8 +2603,6 @@ OSError
 return
 super
 (
-HardlinkFile
-self
 )
 .
 copy
@@ -7477,8 +7473,6 @@ found
         
 super
 (
-MercurialRevisionFinder
-self
 )
 .
 __init__

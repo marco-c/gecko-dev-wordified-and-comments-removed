@@ -151,8 +151,6 @@ kwargs
         
 super
 (
-TbplFormatter
-self
 )
 .
 __init__
@@ -231,8 +229,6 @@ data
 return
 super
 (
-TbplFormatter
-self
 )
 .
 __call__

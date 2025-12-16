@@ -57,8 +57,6 @@ self
         
 super
 (
-TemporarilyInstalledAddonServiceWorkerNotPersisted
-self
 )
 .
 setUp
@@ -115,8 +113,6 @@ True
         
 super
 (
-TemporarilyInstalledAddonServiceWorkerNotPersisted
-self
 )
 .
 tearDown

@@ -373,8 +373,6 @@ INFO
         
 super
 (
-TestSummaryOutputParserHelper
-self
 )
 .
 __init__
@@ -394,8 +392,6 @@ line
         
 super
 (
-TestSummaryOutputParserHelper
-self
 )
 .
 parse_single_line
@@ -750,8 +746,6 @@ INFO
         
 super
 (
-DesktopUnittestOutputParser
-self
 )
 .
 __init__
@@ -1426,8 +1420,6 @@ line
         
 super
 (
-DesktopUnittestOutputParser
-self
 )
 .
 parse_single_line

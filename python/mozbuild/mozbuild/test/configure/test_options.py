@@ -60,8 +60,6 @@ help
         
 super
 (
-Option
-self
 )
 .
 __init__

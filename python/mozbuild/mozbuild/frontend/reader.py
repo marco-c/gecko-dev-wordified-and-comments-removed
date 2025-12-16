@@ -3002,13 +3002,11 @@ s
 .
 write
 (
-            
 "
 "
 .
 join
 (
-                
 "
 %
 s
@@ -3017,14 +3015,11 @@ n
 "
 %
 l
-                
 for
 l
 in
 super
 (
-SandboxValidationError
-self
 )
 .
 __str__
@@ -3034,9 +3029,7 @@ __str__
 splitlines
 (
 )
-            
 )
-        
 )
         
 s

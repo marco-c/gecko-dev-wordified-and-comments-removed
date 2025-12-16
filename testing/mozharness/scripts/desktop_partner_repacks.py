@@ -753,8 +753,6 @@ abs_dirs
 =
 super
 (
-DesktopPartnerRepacks
-self
 )
 .
 query_abs_dirs

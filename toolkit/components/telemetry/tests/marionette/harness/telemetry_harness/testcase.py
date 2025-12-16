@@ -175,8 +175,6 @@ server
         
 super
 (
-TelemetryTestCase
-self
 )
 .
 __init__
@@ -254,8 +252,6 @@ start
         
 super
 (
-TelemetryTestCase
-self
 )
 .
 setUp
@@ -1698,8 +1694,6 @@ testcase
         
 super
 (
-TelemetryTestCase
-self
 )
 .
 tearDown

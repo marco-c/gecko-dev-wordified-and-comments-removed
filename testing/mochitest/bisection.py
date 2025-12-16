@@ -33,8 +33,6 @@ harness
         
 super
 (
-Bisect
-self
 )
 .
 __init__

@@ -660,8 +660,6 @@ self
             
 super
 (
-PerftestImplementation
-self
 )
 .
 check_for_crashes
@@ -677,8 +675,6 @@ self
             
 super
 (
-PerftestImplementation
-self
 )
 .
 clean_up
@@ -696,8 +692,6 @@ timeout
             
 super
 (
-PerftestImplementation
-self
 )
 .
 run_test
@@ -716,8 +710,6 @@ test
             
 super
 (
-PerftestImplementation
-self
 )
 .
 run_test_setup
@@ -735,8 +727,6 @@ test
             
 super
 (
-PerftestImplementation
-self
 )
 .
 run_test_teardown
@@ -753,8 +743,6 @@ self
             
 super
 (
-PerftestImplementation
-self
 )
 .
 set_browser_test_prefs
@@ -784,8 +772,6 @@ test
             
 super
 (
-PerftestImplementation
-self
 )
 .
 setup_chrome_args
@@ -854,8 +840,6 @@ test
             
 super
 (
-BrowsertimeImplementation
-self
 )
 .
 setup_chrome_args

@@ -64,8 +64,6 @@ doc_type
         
 super
 (
-FOGDocTypePingFilter
-self
 )
 .
 __init__
@@ -90,8 +88,6 @@ if
 not
 super
 (
-FOGDocTypePingFilter
-self
 )
 .
 __call__

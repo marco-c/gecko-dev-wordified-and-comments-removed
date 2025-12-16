@@ -383,8 +383,6 @@ kwargs
         
 super
 (
-L10NRepackFormatterMixin
-self
 )
 .
 __init__
@@ -544,8 +542,6 @@ return
         
 super
 (
-L10NRepackFormatterMixin
-self
 )
 .
 add

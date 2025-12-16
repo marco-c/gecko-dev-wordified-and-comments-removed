@@ -341,10 +341,6 @@ limit
             
 super
 (
-Summary
-.
-SummaryBar
-self
 )
 .
 __init__
@@ -934,8 +930,6 @@ summary
         
 super
 (
-Test
-self
 )
 .
 __init__
@@ -1218,8 +1212,6 @@ deadline
         
 super
 (
-Test
-self
 )
 .
 start

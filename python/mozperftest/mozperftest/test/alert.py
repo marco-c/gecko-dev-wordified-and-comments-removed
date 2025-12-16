@@ -1711,8 +1711,6 @@ mach_cmd
         
 super
 (
-AlertTestRunner
-self
 )
 .
 __init__

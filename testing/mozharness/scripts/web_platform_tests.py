@@ -1426,8 +1426,6 @@ True
         
 super
 (
-WebPlatformTest
-self
 )
 .
 __init__
@@ -1743,8 +1741,6 @@ abs_dirs
 =
 super
 (
-WebPlatformTest
-self
 )
 .
 query_abs_dirs
@@ -3961,8 +3957,6 @@ self
         
 super
 (
-WebPlatformTest
-self
 )
 .
 download_and_extract
@@ -4434,8 +4428,6 @@ else
             
 super
 (
-WebPlatformTest
-self
 )
 .
 install

@@ -433,8 +433,6 @@ kwargs
         
 super
 (
-Tag
-self
 )
 .
 __init__
@@ -1913,8 +1911,6 @@ return
 return
 super
 (
-HtmlVisitor
-self
 )
 .
 repr_attribute

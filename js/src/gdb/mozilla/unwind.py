@@ -272,8 +272,6 @@ frame_class_types
         
 super
 (
-UnwinderTypeCache
-self
 )
 .
 __init__
@@ -1076,8 +1074,6 @@ cache
         
 super
 (
-JitFrameDecorator
-self
 )
 .
 __init__
@@ -3093,8 +3089,6 @@ typecache
         
 super
 (
-SpiderMonkeyUnwinder
-self
 )
 .
 __init__

@@ -41,8 +41,6 @@ self
         
 super
 (
-ServiceWorkerAtStartupTestCase
-self
 )
 .
 setUp
@@ -85,8 +83,6 @@ True
         
 super
 (
-ServiceWorkerAtStartupTestCase
-self
 )
 .
 tearDown

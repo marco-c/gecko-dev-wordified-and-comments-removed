@@ -76,8 +76,6 @@ exc_info
         
 super
 (
-expectedFailure
-self
 )
 .
 __init__
@@ -435,8 +433,6 @@ kwargs
         
 super
 (
-CommonTestCase
-self
 )
 .
 __init__
@@ -1584,8 +1580,6 @@ reset
         
 super
 (
-CommonTestCase
-self
 )
 .
 setUp
@@ -1840,8 +1834,6 @@ None
         
 super
 (
-MarionetteTestCase
-self
 )
 .
 __init__
@@ -2010,8 +2002,6 @@ self
         
 super
 (
-MarionetteTestCase
-self
 )
 .
 setUp
@@ -2062,8 +2052,6 @@ None
         
 super
 (
-MarionetteTestCase
-self
 )
 .
 tearDown

@@ -56,8 +56,6 @@ kwargs
         
 super
 (
-ReftestArgumentsParser
-self
 )
 .
 __init__
@@ -2832,8 +2830,6 @@ kwargs
         
 super
 (
-DesktopArgumentsParser
-self
 )
 .
 __init__
@@ -2900,8 +2896,6 @@ reftest
         
 super
 (
-DesktopArgumentsParser
-self
 )
 .
 validate
@@ -3239,8 +3233,6 @@ kwargs
         
 super
 (
-RemoteArgumentsParser
-self
 )
 .
 __init__

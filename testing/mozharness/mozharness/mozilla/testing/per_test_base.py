@@ -51,8 +51,6 @@ kwargs
         
 super
 (
-SingleTestMixin
-self
 )
 .
 __init__

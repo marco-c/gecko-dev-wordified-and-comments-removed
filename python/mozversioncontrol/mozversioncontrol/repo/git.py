@@ -217,8 +217,6 @@ git
         
 super
 (
-GitRepository
-self
 )
 .
 __init__

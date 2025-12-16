@@ -518,8 +518,6 @@ uninstall
         
 super
 (
-FirefoxUIFunctionalTests
-self
 )
 .
 __init__
@@ -816,17 +814,13 @@ mozbuild
         
 super
 (
-FirefoxUIFunctionalTests
-self
 )
 .
 download_and_extract
 (
-            
 extract_dirs
 =
 extract_dirs
-        
 )
     
 def
@@ -851,8 +845,6 @@ abs_dirs
 =
 super
 (
-FirefoxUIFunctionalTests
-self
 )
 .
 query_abs_dirs

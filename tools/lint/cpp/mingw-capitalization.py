@@ -63,8 +63,6 @@ kwargs
         
 super
 (
-MinGWCapitalization
-self
 )
 .
 __init__

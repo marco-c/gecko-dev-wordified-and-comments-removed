@@ -358,8 +358,6 @@ self
         
 super
 (
-DoesItCrash
-self
 )
 .
 __init__

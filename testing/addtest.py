@@ -804,8 +804,6 @@ kwargs
         
 super
 (
-WebPlatformTestsCreator
-self
 )
 .
 __init__

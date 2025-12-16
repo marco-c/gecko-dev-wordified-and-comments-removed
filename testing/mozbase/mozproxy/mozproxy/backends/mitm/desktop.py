@@ -1007,8 +1007,6 @@ stop
         
 super
 (
-MitmproxyDesktop
-self
 )
 .
 stop

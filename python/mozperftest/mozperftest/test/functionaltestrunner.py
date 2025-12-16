@@ -61,8 +61,6 @@ _match
         
 super
 (
-FunctionalTestProcessor
-self
 )
 .
 __init__
