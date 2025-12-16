@@ -2843,6 +2843,10 @@ static
 LayoutDeviceIntPoint
 sLastRefPoint
 ;
+static
+LayoutDeviceIntPoint
+sLastRefPointOfRawUpdate
+;
 LayoutDeviceIntPoint
 mGestureDownPoint
 ;
