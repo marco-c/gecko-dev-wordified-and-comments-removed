@@ -27,7 +27,6 @@ new
 UrlbarResult
 (
 {
-queryContext
 type
 :
 UrlbarUtils
@@ -148,7 +147,6 @@ new
 UrlbarResult
 (
 {
-queryContext
 type
 :
 UrlbarUtils
@@ -255,7 +253,6 @@ new
 UrlbarResult
 (
 {
-queryContext
 type
 :
 UrlbarUtils
@@ -376,7 +373,6 @@ new
 UrlbarResult
 (
 {
-queryContext
 type
 :
 UrlbarUtils
@@ -494,7 +490,6 @@ new
 UrlbarResult
 (
 {
-queryContext
 type
 :
 UrlbarUtils
@@ -600,13 +595,6 @@ new
 UrlbarResult
 (
 {
-queryContext
-:
-createContext
-(
-"
-"
-)
 type
 :
 UrlbarUtils
@@ -713,7 +701,6 @@ new
 UrlbarResult
 (
 {
-queryContext
 type
 :
 UrlbarUtils
@@ -818,7 +805,6 @@ new
 UrlbarResult
 (
 {
-queryContext
 type
 :
 UrlbarUtils

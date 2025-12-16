@@ -49,9 +49,6 @@ new
 UrlbarResult
 (
 {
-queryContext
-:
-context
 type
 :
 UrlbarUtils

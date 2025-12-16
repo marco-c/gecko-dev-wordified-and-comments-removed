@@ -1013,7 +1013,6 @@ lazy
 UrlbarResult
 (
 {
-queryContext
 type
 :
 UrlbarUtils
@@ -1238,7 +1237,6 @@ lazy
 UrlbarResult
 (
 {
-queryContext
 type
 :
 UrlbarUtils

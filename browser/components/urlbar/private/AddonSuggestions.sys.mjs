@@ -613,7 +613,6 @@ lazy
 UrlbarResult
 (
 {
-queryContext
 type
 :
 lazy

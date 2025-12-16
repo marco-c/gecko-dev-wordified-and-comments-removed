@@ -11770,7 +11770,9 @@ or
 *
 UrlbarResult
 .
-payloadHighlights
+getDisplayableValueAndHighlights
+(
+)
 .
 *
 /
@@ -21234,7 +21236,9 @@ or
 *
 UrlbarResult
 .
-payloadHighlights
+getDisplayableValueAndHighlights
+(
+)
 .
 *
 param

@@ -2068,7 +2068,6 @@ new
 UrlbarResult
 (
 {
-queryContext
 type
 :
 UrlbarUtils
@@ -2231,7 +2230,6 @@ new
 UrlbarResult
 (
 {
-queryContext
 type
 :
 UrlbarUtils
@@ -2343,7 +2341,6 @@ new
 UrlbarResult
 (
 {
-queryContext
 type
 :
 UrlbarUtils
@@ -2422,7 +2419,6 @@ new
 UrlbarResult
 (
 {
-queryContext
 type
 :
 UrlbarUtils
@@ -2514,7 +2510,6 @@ new
 UrlbarResult
 (
 {
-queryContext
 type
 :
 UrlbarUtils
@@ -2691,7 +2686,6 @@ new
 UrlbarResult
 (
 {
-queryContext
 type
 :
 UrlbarUtils
@@ -3009,7 +3003,6 @@ new
 UrlbarResult
 (
 {
-queryContext
 type
 source
 heuristic
@@ -3274,7 +3267,6 @@ new
 UrlbarResult
 (
 {
-queryContext
 type
 :
 UrlbarUtils
