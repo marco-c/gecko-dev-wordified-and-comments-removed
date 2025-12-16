@@ -1495,7 +1495,7 @@ RangeType
 >
 nsresult
 >
-CreateRangeExtendedToPreviousGraphemeClusterBoundary
+CreateRangeExtendedToPreviousCharacterBoundary
 (
 mozilla
 :
@@ -1535,7 +1535,7 @@ aLimitersAndCaretData
 aRange
 aRangeDirection
 eDirPrevious
-eSelectCluster
+eSelectCharacter
 eLogical
 )
 ;
