@@ -88,6 +88,13 @@ MOZ_SRC_FILES
 =
 [
 "
+Chat
+.
+sys
+.
+mjs
+"
+"
 ChatUtils
 .
 sys
