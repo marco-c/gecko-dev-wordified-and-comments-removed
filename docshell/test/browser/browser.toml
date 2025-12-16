@@ -1903,6 +1903,13 @@ https_first_disabled
 true
 [
 "
+browser_initialDocument_noLoadBlocking
+.
+js
+"
+]
+[
+"
 browser_initial_entry_without_interaction
 .
 js

@@ -12248,6 +12248,15 @@ return
 mSuspendDOMNotifications
 ;
 }
+bool
+IsExpectingEndLoad
+(
+)
+{
+return
+mDidCallBeginLoad
+;
+}
 protected
 :
 RefPtr
