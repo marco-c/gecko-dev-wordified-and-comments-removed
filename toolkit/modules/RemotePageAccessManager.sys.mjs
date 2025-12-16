@@ -1273,15 +1273,6 @@ privacy
 .
 trackingprotection
 .
-harmfuladdon
-.
-enabled
-"
-"
-privacy
-.
-trackingprotection
-.
 enabled
 "
 "

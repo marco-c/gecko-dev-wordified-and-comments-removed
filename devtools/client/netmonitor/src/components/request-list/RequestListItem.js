@@ -1144,7 +1144,7 @@ priority
 blockedReason
 "
 "
-extension
+blockingExtension
 "
 ]
 ;
