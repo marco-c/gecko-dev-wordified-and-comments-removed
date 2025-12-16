@@ -476,13 +476,6 @@ Alignment
 .
 Center
 )
-color
-=
-FirefoxTheme
-.
-colors
-.
-textPrimary
 style
 =
 FirefoxTheme
