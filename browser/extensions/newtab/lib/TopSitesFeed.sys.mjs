@@ -9245,9 +9245,6 @@ label
 domainObj
 .
 title
-sponsored_position
-:
-3
 partner
 :
 SPONSORED_TILE_PARTNER_FREC_BOOST

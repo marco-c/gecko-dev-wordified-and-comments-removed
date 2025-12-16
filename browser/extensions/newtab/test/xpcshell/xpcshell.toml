@@ -243,6 +243,13 @@ js
 ]
 [
 "
+test_TopSitesFeed_frecencyRanking
+.
+js
+"
+]
+[
+"
 test_TopSitesFeed_glean
 .
 js
