@@ -2162,7 +2162,7 @@ return
 }
 mSheets
 .
-RemoveElement
+UnorderedRemoveElement
 (
 aSheet
 )
@@ -2381,7 +2381,7 @@ found
 =
 mStyleSets
 .
-RemoveElement
+UnorderedRemoveElement
 (
 aStyleSet
 )
