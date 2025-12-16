@@ -1377,6 +1377,14 @@ mock_transformable_audio_frame
 /
 api
 :
+ref_count
+"
+"
+.
+.
+/
+api
+:
 rtc_error_matchers
 "
 "
