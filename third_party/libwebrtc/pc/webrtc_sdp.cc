@@ -18396,7 +18396,7 @@ string
 SdpSerialize
 (
 const
-JsepSessionDescription
+SessionDescriptionInterface
 &
 jdesc
 )

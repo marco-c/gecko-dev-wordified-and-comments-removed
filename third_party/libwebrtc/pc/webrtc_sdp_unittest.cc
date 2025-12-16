@@ -14255,11 +14255,11 @@ bool
 CompareSessionDescription
 (
 const
-JsepSessionDescription
+SessionDescriptionInterface
 &
 desc1
 const
-JsepSessionDescription
+SessionDescriptionInterface
 &
 desc2
 )
@@ -14561,7 +14561,7 @@ true
 bool
 UpdateCandidateUfragPwd
 (
-JsepSessionDescription
+SessionDescriptionInterface
 *
 jdesc
 int
@@ -17589,7 +17589,7 @@ void
 TestSerialize
 (
 const
-JsepSessionDescription
+SessionDescriptionInterface
 &
 jdesc
 )
