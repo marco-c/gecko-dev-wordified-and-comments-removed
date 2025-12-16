@@ -137,20 +137,18 @@ probe_type
         
 for
 probe_type
+probe_metric_types
 in
 GIFFT_TYPES
 .
-keys
+items
 (
 )
         
 if
 metric_type
 in
-GIFFT_TYPES
-[
-probe_type
-]
+probe_metric_types
     
 ]
     

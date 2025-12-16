@@ -611,13 +611,10 @@ res
 )
 )
                 
-else
-:
-                    
-if
+elif
 fix
 :
-                        
+                    
 content_to_write
 .
 append

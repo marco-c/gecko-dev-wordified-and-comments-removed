@@ -1,13 +1,11 @@
 import
-concurrent
-.
-futures
-as
-futures
-import
 logging
 import
 os
+from
+concurrent
+import
+futures
 from
 taskcluster
 .

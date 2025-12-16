@@ -604,10 +604,7 @@ bin_suffix
 exe
 "
         
-else
-:
-            
-if
+elif
 "
 LD_LIBRARY_PATH
 "
@@ -624,7 +621,7 @@ LD_LIBRARY_PATH
 is
 None
 :
-                
+            
 env
 [
 "
@@ -635,10 +632,10 @@ LD_LIBRARY_PATH
 self
 .
 xrePath
-            
+        
 else
 :
-                
+            
 env
 [
 "
@@ -652,7 +649,6 @@ LD_LIBRARY_PATH
 .
 join
 (
-                    
 [
 self
 .
@@ -664,7 +660,6 @@ LD_LIBRARY_PATH
 "
 ]
 ]
-                
 )
         
 args

@@ -915,16 +915,13 @@ _backend_output_files
 )
 )
         
-else
-:
-            
-if
+elif
 not
 self
 .
 dry_run
 :
-                
+            
 with
 open
 (
@@ -934,7 +931,7 @@ a
 "
 )
 :
-                    
+                
 os
 .
 utime

@@ -7315,15 +7315,13 @@ exit_code
 =
 status
         
-if
-exit_code
->
-255
-:
-            
 exit_code
 =
+min
+(
+exit_code
 255
+)
     
 command_context
 .

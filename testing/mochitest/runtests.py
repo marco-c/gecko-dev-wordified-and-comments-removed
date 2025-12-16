@@ -16908,10 +16908,7 @@ options
 .
 timeout
             
-else
-:
-                
-if
+elif
 mozinfo
 .
 info
@@ -16930,14 +16927,14 @@ debug
 "
 ]
 :
-                    
+                
 self
 .
 log
 .
 info
 (
-                        
+                    
 "
 Increasing
 default
@@ -16951,13 +16948,13 @@ or
 debug
 )
 "
-                    
+                
 )
-                    
+                
 test_timeout
 =
 90
-                
+            
 elif
 mozinfo
 .
@@ -16968,7 +16965,7 @@ tsan
 "
 ]
 :
-                    
+                
 self
 .
 log
@@ -16987,14 +16984,14 @@ tsan
 )
 "
 )
-                    
+                
 test_timeout
 =
 120
-                
+            
 else
 :
-                    
+                
 test_timeout
 =
 45
@@ -22184,7 +22181,11 @@ if
 full_key
 :
                             
-if
+firstFail
+=
+min
+(
+firstFail
 testsToRun
 .
 index
@@ -22194,20 +22195,6 @@ full_key
 0
 ]
 )
-<
-firstFail
-:
-                                
-firstFail
-=
-testsToRun
-.
-index
-(
-full_key
-[
-0
-]
 )
                     
 testsToRun

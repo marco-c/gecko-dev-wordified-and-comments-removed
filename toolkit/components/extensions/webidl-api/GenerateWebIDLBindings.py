@@ -4582,10 +4582,7 @@ allowedContexts
 "
 ]
         
-else
-:
-            
-if
+elif
 "
 allowedContexts
 "
@@ -4597,7 +4594,7 @@ schema_data_list
 0
 ]
 :
-                
+            
 return
 self
 .

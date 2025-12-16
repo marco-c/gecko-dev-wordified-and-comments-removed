@@ -10,13 +10,11 @@ import
 pytest
 import
 requests
-import
+from
 mozperftest
 .
 test
-.
-webpagetest
-as
+import
 webpagetest
 from
 mozperftest

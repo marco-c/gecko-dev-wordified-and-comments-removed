@@ -793,10 +793,7 @@ extensions
         
 )
     
-else
-:
-        
-if
+elif
 sys
 .
 platform
@@ -806,7 +803,7 @@ platform
 win32
 "
 :
-            
+        
 m
 =
 re
@@ -825,11 +822,11 @@ w
 "
 extensionDir
 )
-            
+        
 if
 m
 :
-                
+            
 extensionDir
 =
 "
@@ -859,7 +856,7 @@ extensionDir
 :
 ]
 )
-                
+            
 extensionDir
 =
 extensionDir

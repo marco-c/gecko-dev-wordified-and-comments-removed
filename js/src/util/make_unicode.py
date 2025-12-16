@@ -6074,8 +6074,6 @@ assert
 <
 =
 code
-and
-code
 <
 =
 MAX_BMP

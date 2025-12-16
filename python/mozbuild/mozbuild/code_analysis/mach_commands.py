@@ -8875,10 +8875,7 @@ append
 f_in_dir
 )
         
-else
-:
-            
-if
+elif
 os
 .
 path
@@ -8895,7 +8892,7 @@ endswith
 extensions
 )
 :
-                
+            
 path_list
 .
 append

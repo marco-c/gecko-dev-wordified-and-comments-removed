@@ -2759,10 +2759,7 @@ name
                     
 )
         
-else
-:
-            
-if
+elif
 next_test
 .
 get
@@ -2775,7 +2772,7 @@ is
 not
 None
 :
-                
+            
 next_test
 [
 "
@@ -2785,7 +2782,7 @@ playback_pageset_manifest
 =
 transform_subtest
 (
-                    
+                
 next_test
 [
 "
@@ -2798,7 +2795,7 @@ next_test
 name
 "
 ]
-                
+            
 )
         
 if

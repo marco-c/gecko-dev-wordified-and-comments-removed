@@ -1280,8 +1280,6 @@ __strip
 (
 ws_len
 )
-        
-return
     
 def
 __strip
@@ -5656,8 +5654,6 @@ keys
 )
 )
 ]
-        
-return
     
 def
 filter_emptyLines

@@ -219,10 +219,7 @@ FileNotFoundError
 shell
 )
     
-else
-:
-        
-if
+elif
 not
 os
 .
@@ -243,7 +240,7 @@ isfile
 shell
 )
 :
-            
+        
 raise
 FileNotFoundError
 (

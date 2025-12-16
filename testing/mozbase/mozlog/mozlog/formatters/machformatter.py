@@ -986,15 +986,12 @@ s
 %
 status
         
-else
-:
-            
-if
+elif
 status
 in
 known_intermittent
 :
-                
+            
 color
 =
 self
@@ -1002,7 +999,7 @@ self
 color_formatter
 .
 log_test_status_known_intermittent
-                
+            
 status
 =
 "
@@ -1015,10 +1012,10 @@ s
 "
 %
 status
-            
+        
 else
 :
-                
+            
 color
 =
 self
@@ -1026,7 +1023,7 @@ self
 color_formatter
 .
 log_test_status_fail
-                
+            
 if
 status
 in
@@ -1039,7 +1036,7 @@ OK
 "
 )
 :
-                    
+                
 status
 =
 "

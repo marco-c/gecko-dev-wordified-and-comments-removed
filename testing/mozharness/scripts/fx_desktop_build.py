@@ -49,13 +49,11 @@ path
 ]
 )
 )
-import
+from
 mozharness
 .
 base
-.
-script
-as
+import
 script
 from
 mozharness

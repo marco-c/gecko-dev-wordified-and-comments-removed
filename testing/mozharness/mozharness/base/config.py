@@ -1385,15 +1385,13 @@ sleeptime
 *
 2
         
-if
-sleeptime
->
-max_sleeptime
-:
-            
 sleeptime
 =
+min
+(
+sleeptime
 max_sleeptime
+)
         
 n
 +

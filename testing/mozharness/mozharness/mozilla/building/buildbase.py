@@ -1178,10 +1178,7 @@ build_variant
                 
 variant_cfg_file
 =
-all_config_files
-[
-i
-]
+cf
         
 if
 variant_cfg_file

@@ -5179,10 +5179,7 @@ and
 len
 (
                 
-source_assignments
-[
-key
-]
+list_of_normalized_filenames
             
 )
 >

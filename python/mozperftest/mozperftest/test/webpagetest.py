@@ -14,11 +14,9 @@ import
 Thread
 import
 requests
-import
+from
 mozperftest
-.
-utils
-as
+import
 utils
 from
 mozperftest

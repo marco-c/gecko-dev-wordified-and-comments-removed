@@ -252,15 +252,13 @@ duration
 )
 :
     
-if
-duration
->
-1
-:
-        
 duration
 =
+min
+(
+duration
 1
+)
     
 await
 asyncio

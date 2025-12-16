@@ -154,8 +154,6 @@ assert
 <
 =
 idx
-and
-idx
 <
 =
 255

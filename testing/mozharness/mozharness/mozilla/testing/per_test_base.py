@@ -4309,10 +4309,7 @@ s
 suites
 )
             
-else
-:
-                
-if
+elif
 category
 in
 [
@@ -4327,7 +4324,7 @@ reftest
 "
 ]
 :
-                    
+                
 suites
 =
 all_suites

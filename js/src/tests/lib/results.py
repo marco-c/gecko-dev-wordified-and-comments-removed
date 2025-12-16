@@ -1280,10 +1280,7 @@ cls
 .
 CRASH
         
-else
-:
-            
-if
+elif
 (
 rc
 or
@@ -1297,16 +1294,16 @@ failures
 =
 0
 :
-                
+            
 result
 =
 cls
 .
 PASS
-            
+        
 else
 :
-                
+            
 result
 =
 cls

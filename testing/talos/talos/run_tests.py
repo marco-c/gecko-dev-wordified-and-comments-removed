@@ -397,10 +397,7 @@ get
 key
 )
         
-else
-:
-            
-if
+elif
 _pref_name
 in
 test
@@ -410,7 +407,7 @@ preferences
 "
 ]
 :
-                
+            
 del
 test
 [
@@ -464,10 +461,7 @@ _pref_name
 =
 value
         
-else
-:
-            
-if
+elif
 _pref_name
 in
 test
@@ -477,7 +471,7 @@ preferences
 "
 ]
 :
-                
+            
 del
 test
 [

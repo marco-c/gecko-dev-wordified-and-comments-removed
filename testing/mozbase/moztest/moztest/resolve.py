@@ -9915,13 +9915,9 @@ self
 .
 get_test_tags
 (
-                    
 [
 ]
-manifests
-[
-manifest
-]
+data
 .
 get
 (
@@ -9932,7 +9928,6 @@ metadata_path
 "
 )
 path
-                
 )
                 
 for

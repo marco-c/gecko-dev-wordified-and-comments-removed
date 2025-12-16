@@ -362,15 +362,13 @@ timeout_delta
 -
 now
             
-if
-remaining
-<
-wait
-:
-                
 wait
 =
+min
+(
+wait
 remaining
+)
     
 return
 max

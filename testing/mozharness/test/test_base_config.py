@@ -41,13 +41,11 @@ JSON_TYPE
 "
 simplejson
 "
-import
+from
 mozharness
 .
 base
-.
-config
-as
+import
 config
 MH_DIR
 =

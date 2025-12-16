@@ -3104,27 +3104,24 @@ environment
                         
 )
                 
-else
-:
-                    
-if
+elif
 not
 build_has_tests
 and
 not
 shippable
 :
-                        
+                    
 if
 not
 missing_tests_allowed
 :
-                            
+                        
 exceptions
 .
 append
 (
-                                
+                            
 f
 "
 Build
@@ -3140,7 +3137,7 @@ tests
 but
 specifies
 "
-                                
+                            
 f
 "
 MOZ_AUTOMATION_PACKAGE_TESTS
@@ -3153,7 +3150,7 @@ the
 environment
 .
 "
-                                
+                            
 "
 Unset
 MOZ_AUTOMATION_PACKAGE_TESTS
@@ -3162,13 +3159,13 @@ the
 task
 definition
 "
-                                
+                            
 "
 to
 fix
 .
 "
-                            
+                        
 )
         
 if

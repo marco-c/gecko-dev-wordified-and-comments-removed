@@ -1096,10 +1096,7 @@ vals
 0
 ]
                     
-else
-:
-                        
-if
+elif
 len
 (
 vals
@@ -1107,7 +1104,7 @@ vals
 >
 0
 :
-                            
+                        
 varray
 =
 [
@@ -1120,7 +1117,7 @@ v
 in
 vals
 ]
-                            
+                        
 subtest
 [
 "

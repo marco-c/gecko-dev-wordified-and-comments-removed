@@ -1,10 +1,8 @@
 import
 gdb
-import
+from
 mozilla
-.
-prettyprinters
-as
+import
 prettyprinters
 prettyprinters
 .

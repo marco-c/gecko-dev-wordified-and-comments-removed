@@ -3549,15 +3549,12 @@ path
 src
 ]
                 
-else
-:
-                    
-if
+elif
 e
 .
 is_locale
 :
-                        
+                    
 localized_files
 [
 path
@@ -3567,10 +3564,10 @@ path
 [
 src
 ]
-                    
+                
 else
 :
-                        
+                    
 files
 [
 path

@@ -310,17 +310,6 @@ maximum_number_verify_chunks
 =
 3
             
-if
-task
-[
-"
-chunks
-"
-]
->
-maximum_number_verify_chunks
-:
-                
 task
 [
 "
@@ -328,7 +317,16 @@ chunks
 "
 ]
 =
+min
+(
+task
+[
+"
+chunks
+"
+]
 maximum_number_verify_chunks
+)
         
 yield
 task

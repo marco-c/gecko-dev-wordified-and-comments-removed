@@ -16,13 +16,11 @@ test
 test_files
 import
 TestWithTmpDir
-import
+from
 mozbuild
 .
 action
-.
-process_install_manifest
-as
+import
 process_install_manifest
 class
 TestGenerateManifest

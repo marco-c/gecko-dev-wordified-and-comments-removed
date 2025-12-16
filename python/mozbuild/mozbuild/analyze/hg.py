@@ -704,22 +704,19 @@ read
 )
 )
         
-else
-:
-            
-if
+elif
 cost_dict
 is
 not
 None
 :
-                
+            
 return
 cost_dict
-            
+        
 else
 :
-                
+            
 raise
 Exception
     
