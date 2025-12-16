@@ -87710,7 +87710,9 @@ initial_values
 :
 [
 "
-always
+anchors
+-
+visible
 "
 ]
 other_values
@@ -87722,9 +87724,7 @@ anchors
 valid
 "
 "
-anchors
--
-visible
+always
 "
 "
 no
