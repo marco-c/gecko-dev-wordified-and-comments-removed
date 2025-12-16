@@ -1485,6 +1485,13 @@ browsingContext
 =
 data
 ;
+if
+(
+browsingContext
+.
+isContent
+)
+{
 this
 .
 #
@@ -1493,6 +1500,7 @@ startWatchingBrowsingContextNavigation
 browsingContext
 )
 ;
+}
 }
 ;
 #
@@ -1516,6 +1524,13 @@ browsingContext
 =
 data
 ;
+if
+(
+browsingContext
+.
+isContent
+)
+{
 this
 .
 #
@@ -1524,6 +1539,7 @@ stopWatchingBrowsingContextNavigation
 browsingContext
 )
 ;
+}
 }
 ;
 #
