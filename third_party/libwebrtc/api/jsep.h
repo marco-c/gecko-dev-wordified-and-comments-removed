@@ -798,11 +798,9 @@ Clone
 (
 )
 const
-{
-return
-nullptr
+=
+0
 ;
-}
 virtual
 SessionDescription
 *
@@ -853,6 +851,8 @@ GetType
 (
 )
 const
+=
+0
 ;
 virtual
 std
