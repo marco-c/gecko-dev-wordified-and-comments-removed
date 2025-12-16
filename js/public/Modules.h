@@ -123,6 +123,9 @@ JavaScript
 JSON
 CSS
 Bytes
+JavaScriptOrWasm
+=
+JavaScript
 Limit
 =
 Bytes
