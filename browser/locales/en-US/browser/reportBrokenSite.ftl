@@ -731,3 +731,16 @@ label
 =
 Preview
 report
+report
+-
+broken
+-
+site
+-
+panel
+-
+button
+-
+copy
+=
+Copy
