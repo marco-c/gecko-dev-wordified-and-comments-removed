@@ -174,7 +174,7 @@ mozilla
 StaticMutex
 sMutex
 ;
-MOZ_CONSTINIT
+constinit
 nsCString
 WPADOptionResult
 MOZ_GUARDED_BY
