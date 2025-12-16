@@ -316,6 +316,17 @@ include
 "
 rtc_base
 /
+experiments
+/
+field_trial_parser
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 logging
 .
 h
@@ -3310,6 +3321,7 @@ MediaSessionDescriptionFactory
 :
 MediaSessionDescriptionFactory
 (
+const
 MediaEngineInterface
 *
 media_engine

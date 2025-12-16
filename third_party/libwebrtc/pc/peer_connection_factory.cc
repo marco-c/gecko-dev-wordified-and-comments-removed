@@ -626,9 +626,6 @@ dependencies
 )
 codec_vendor_
 (
-context_
--
->
 media_engine
 (
 )
@@ -1179,6 +1176,9 @@ worker_thread
 )
 ;
 return
+context_
+-
+>
 media_engine
 (
 )
@@ -1213,6 +1213,9 @@ worker_thread
 )
 )
 ;
+context_
+-
+>
 media_engine
 (
 )
@@ -1227,6 +1230,7 @@ StopAecDump
 )
 ;
 }
+const
 MediaEngineInterface
 *
 PeerConnectionFactory

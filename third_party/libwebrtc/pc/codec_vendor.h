@@ -120,6 +120,7 @@ public
 :
 CodecVendor
 (
+const
 MediaEngineInterface
 *
 media_engine

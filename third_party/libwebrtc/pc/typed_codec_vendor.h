@@ -59,6 +59,7 @@ TypedCodecVendor
 }
 TypedCodecVendor
 (
+const
 MediaEngineInterface
 *
 media_engine

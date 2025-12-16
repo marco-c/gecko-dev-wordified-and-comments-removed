@@ -4889,6 +4889,7 @@ return
 nullptr
 ;
 }
+const
 MediaEngineInterface
 *
 RtpTransmissionManager

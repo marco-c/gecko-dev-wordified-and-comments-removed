@@ -8515,6 +8515,7 @@ codec_lookup_helper_
 codec_lookup_helper
 ;
 }
+const
 MediaEngineInterface
 *
 SdpOfferAnswerHandler

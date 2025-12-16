@@ -135,17 +135,6 @@ include
 "
 rtc_base
 /
-experiments
-/
-field_trial_parser
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 memory
 /
 always_valid_pointer
@@ -178,6 +167,7 @@ public
 :
 MediaSessionDescriptionFactory
 (
+const
 MediaEngineInterface
 *
 media_engine

@@ -87,6 +87,17 @@ include
 "
 api
 /
+environment
+/
+environment
+.
+h
+"
+#
+include
+"
+api
+/
 jsep
 .
 h
@@ -2325,6 +2336,7 @@ SdpType
 type
 )
 ;
+const
 MediaEngineInterface
 *
 media_engine
