@@ -956,6 +956,7 @@ response
 }
 }
 public
+static
 class
 QueryException
 extends
