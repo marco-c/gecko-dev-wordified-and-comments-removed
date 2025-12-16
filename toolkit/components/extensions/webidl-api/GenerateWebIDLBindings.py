@@ -524,6 +524,10 @@ right_file
 name
 ]
                     
+check
+=
+False
+                    
 capture_output
 =
 True

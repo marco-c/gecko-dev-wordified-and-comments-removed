@@ -79,15 +79,6 @@ status
 "
 "
     
-kwargs
-[
-"
-check
-"
-]
-=
-True
-    
 return
 subprocess
 .
@@ -95,6 +86,9 @@ run
 (
 *
 args
+check
+=
+True
 *
 *
 kwargs

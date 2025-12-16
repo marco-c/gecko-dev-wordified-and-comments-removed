@@ -1097,6 +1097,9 @@ subprocess
 run
 (
 args
+check
+=
+False
 stderr
 =
 dest

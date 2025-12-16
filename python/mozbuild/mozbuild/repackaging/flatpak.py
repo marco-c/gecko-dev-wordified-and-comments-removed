@@ -140,6 +140,9 @@ run
 (
 *
 args
+check
+=
+True
 *
 *
 kwargs

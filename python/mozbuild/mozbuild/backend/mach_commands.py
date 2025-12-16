@@ -261,6 +261,11 @@ mach
 configure
 "
 ]
+            
+check
+=
+False
+            
 cwd
 =
 command_context
@@ -312,6 +317,10 @@ compile
 "
 ]
             
+check
+=
+False
+            
 cwd
 =
 command_context
@@ -352,6 +361,11 @@ mach
 build
 "
 ]
+            
+check
+=
+False
+            
 cwd
 =
 command_context
@@ -462,6 +476,10 @@ b
 "
 backend
 ]
+            
+check
+=
+False
             
 cwd
 =

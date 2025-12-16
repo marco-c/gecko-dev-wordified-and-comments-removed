@@ -355,6 +355,9 @@ run
 (
                     
 command
+check
+=
+True
 timeout
 =
 10
