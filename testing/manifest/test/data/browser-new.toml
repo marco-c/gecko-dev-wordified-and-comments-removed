@@ -130,10 +130,10 @@ aarch64
 &
 opt
 "
-]
 #
 Bug
 TBD
+]
 [
 "
 browser_focus_document
@@ -175,7 +175,7 @@ aarch64
 &
 opt
 "
-]
 #
 Bug
 1962169
+]

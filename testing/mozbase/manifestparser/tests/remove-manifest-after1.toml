@@ -53,7 +53,7 @@ os
 =
 =
 '
-macosx
+mac
 '
 &
 &
@@ -67,17 +67,17 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
 x86
 '
 "
-]
 #
 Bug
 333
+]
 [
 "
 test_remove_skip3
@@ -112,7 +112,7 @@ os
 mac
 '
 "
-]
 #
 Bug
 111
+]
