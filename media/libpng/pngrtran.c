@@ -6514,6 +6514,15 @@ PNG_COMPOSE
 PNG_GAMMA
 )
 ;
+png_ptr
+-
+>
+flags
+&
+=
+~
+PNG_FLAG_OPTIMIZE_ALPHA
+;
 }
 else
 {

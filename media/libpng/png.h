@@ -12,7 +12,7 @@ PNG_LIBPNG_VER_STRING
 .
 6
 .
-51
+53
 "
 #
 define
@@ -63,7 +63,7 @@ PNG_LIBPNG_VER_MINOR
 #
 define
 PNG_LIBPNG_VER_RELEASE
-51
+53
 #
 define
 PNG_LIBPNG_VER_BUILD
@@ -141,14 +141,14 @@ PNG_LIBPNG_BUILD_STABLE
 #
 define
 PNG_LIBPNG_VER
-10651
+10653
 /
 *
 1
 .
 6
 .
-51
+53
 *
 /
 #
@@ -270,7 +270,7 @@ endif
 typedef
 char
 *
-png_libpng_version_1_6_51
+png_libpng_version_1_6_53
 ;
 typedef
 struct
