@@ -298,8 +298,10 @@ url
 ]
 ;
 }
-function
+class
 LocalizationHelper
+{
+constructor
 (
 stringBundleName
 strict
@@ -320,11 +322,6 @@ strict
 strict
 ;
 }
-LocalizationHelper
-.
-prototype
-=
-{
 getStr
 (
 name
@@ -594,7 +591,6 @@ localized
 ;
 }
 }
-;
 function
 getPropertiesForNode
 (
@@ -796,8 +792,10 @@ localization
 ;
 }
 }
-function
+class
 MultiLocalizationHelper
+{
+constructor
 (
 .
 .
@@ -936,6 +934,7 @@ null
 }
 )
 ;
+}
 }
 exports
 .
