@@ -925,6 +925,8 @@ sysroot
 wasm32
 -
 wasi
+-
+terser
 armeabi
 -
 v7a
