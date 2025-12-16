@@ -9961,6 +9961,7 @@ aUpdatedFont
 auto
 hint
 =
+(
 StyleSet
 (
 )
@@ -9968,6 +9969,17 @@ StyleSet
 >
 UsesFontMetrics
 (
+)
+|
+|
+StyleSet
+(
+)
+-
+>
+UsesRootFontMetrics
+(
+)
 )
 ?
 RestyleHint

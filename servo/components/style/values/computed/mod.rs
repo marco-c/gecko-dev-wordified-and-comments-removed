@@ -2317,6 +2317,7 @@ vertical
 font
 size
 flags
+true
 )
 }
 pub

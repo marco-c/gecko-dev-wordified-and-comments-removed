@@ -615,6 +615,12 @@ UsesFontMetrics
 )
 const
 ;
+bool
+UsesRootFontMetrics
+(
+)
+const
+;
 void
 SetAuthorStyleDisabled
 (
