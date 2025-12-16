@@ -889,7 +889,6 @@ aAnchorName
 )
 ;
 static
-const
 nsIFrame
 *
 GetAnchorPosImplicitAnchor

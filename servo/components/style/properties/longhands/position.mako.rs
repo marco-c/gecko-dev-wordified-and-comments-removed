@@ -1661,7 +1661,7 @@ computed
 PositionVisibility
 :
 :
-ALWAYS
+ANCHORS_VISIBLE
 "
 engines
 =
@@ -1677,7 +1677,7 @@ specified
 PositionVisibility
 :
 :
-ALWAYS
+ANCHORS_VISIBLE
 "
 animation_type
 =

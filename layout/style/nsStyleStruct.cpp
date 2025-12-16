@@ -5342,7 +5342,7 @@ mPositionVisibility
 StylePositionVisibility
 :
 :
-ALWAYS
+ANCHORS_VISIBLE
 )
 mPositionTryFallbacks
 (
