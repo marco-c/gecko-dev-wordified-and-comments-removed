@@ -185,6 +185,13 @@ js
 ]
 [
 "
+browser_aboutCertError_revoked
+.
+js
+"
+]
+[
+"
 browser_aboutCertError_telemetry
 .
 js
