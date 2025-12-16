@@ -30,15 +30,6 @@ WebrtcEnvironmentWrapper
 .
 h
 "
-#
-include
-"
-call
-/
-rtp_transport_controller_send_factory
-.
-h
-"
 namespace
 mozilla
 {
