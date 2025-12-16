@@ -2130,7 +2130,7 @@ items
 :
             
 for
-res
+result
 in
 data_info
 :
@@ -2139,7 +2139,7 @@ new
 =
 filter
 (
-res
+result
 [
 "
 subtest
@@ -2187,7 +2187,7 @@ found
 f
 "
 {
-res
+result
 [
 '
 subtest
@@ -2205,7 +2205,7 @@ simplified
                     
 continue
                 
-res
+result
 [
 "
 subtest

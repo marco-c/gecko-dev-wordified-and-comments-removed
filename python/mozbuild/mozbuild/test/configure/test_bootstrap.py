@@ -628,7 +628,7 @@ import_module
         
 for
 t
-in_path
+in_path_item
 b
 state
 in
@@ -642,7 +642,7 @@ states
 :
             
 if
-in_path
+in_path_item
 =
 =
 "
@@ -668,7 +668,7 @@ t
 ]
             
 elif
-in_path
+in_path_item
 :
                 
 expected

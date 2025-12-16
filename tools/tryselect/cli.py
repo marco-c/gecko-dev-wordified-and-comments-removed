@@ -747,7 +747,7 @@ arguments
         
 for
 cli
-kwargs
+arg_kwargs
 in
 self
 .
@@ -762,7 +762,7 @@ add_argument
 cli
 *
 *
-kwargs
+arg_kwargs
 )
         
 for
@@ -814,7 +814,7 @@ add_mutually_exclusive_group
             
 for
 cli
-kwargs
+common_kwargs
 in
 arguments
 :
@@ -827,7 +827,7 @@ add_argument
 cli
 *
 *
-kwargs
+common_kwargs
 )
             
 if
@@ -853,7 +853,7 @@ NO_PUSH_ARGUMENT_GROUP
                 
 for
 cli
-kwargs
+push_kwargs
 in
 arguments
 :
@@ -866,7 +866,7 @@ add_argument
 cli
 *
 *
-kwargs
+push_kwargs
 )
         
 group

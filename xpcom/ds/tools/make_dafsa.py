@@ -2824,7 +2824,7 @@ open
 infile
 )
 as
-infile
+input_file
 :
         
 preamble
@@ -2832,7 +2832,7 @@ words
 =
 parse_gperf
 (
-infile
+input_file
 )
         
 outfile

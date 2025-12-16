@@ -4056,7 +4056,7 @@ location
 location
         
 for
-name
+attr_name
 value
 aloc
 in
@@ -4082,7 +4082,7 @@ aloc
 )
             
 if
-name
+attr_name
 in
 (
 "
@@ -4122,10 +4122,10 @@ self
 .
 modifier
 =
-name
+attr_name
             
 elif
-name
+attr_name
 in
 self
 .
@@ -4162,14 +4162,14 @@ self
 .
 specialtype
 =
-name
+attr_name
                 
 if
 self
 .
 specialtypes
 [
-name
+attr_name
 ]
 is
 not
@@ -4184,7 +4184,7 @@ self
 .
 specialtypes
 [
-name
+attr_name
 ]
             
 else
@@ -8994,7 +8994,7 @@ doccomments
 doccomments
         
 for
-name
+attr_name
 value
 aloc
 in
@@ -9002,7 +9002,7 @@ attlist
 :
             
 if
-name
+attr_name
 =
 =
 "
@@ -9056,7 +9056,7 @@ aloc
 )
             
 if
-name
+attr_name
 =
 =
 "
@@ -9071,7 +9071,7 @@ noscript
 True
             
 elif
-name
+attr_name
 =
 =
 "
@@ -9086,7 +9086,7 @@ notxpcom
 True
             
 elif
-name
+attr_name
 =
 =
 "
@@ -9101,7 +9101,7 @@ symbol
 True
             
 elif
-name
+attr_name
 =
 =
 "
@@ -9116,7 +9116,7 @@ implicit_jscontext
 True
             
 elif
-name
+attr_name
 =
 =
 "
@@ -9131,7 +9131,7 @@ nostdcall
 True
             
 elif
-name
+attr_name
 =
 =
 "
@@ -9146,7 +9146,7 @@ must_use
 True
             
 elif
-name
+attr_name
 =
 =
 "
@@ -9161,7 +9161,7 @@ infallible
 True
             
 elif
-name
+attr_name
 =
 =
 "
@@ -9221,7 +9221,7 @@ explicit_getter_can_run_script
 True
             
 elif
-name
+attr_name
 =
 =
 "
@@ -9260,7 +9260,7 @@ explicit_setter_can_run_script
 True
             
 elif
-name
+attr_name
 =
 =
 "
@@ -9313,7 +9313,7 @@ s
 '
 "
 %
-name
+attr_name
 aloc
 )
     
@@ -9620,7 +9620,7 @@ raises
 raises
         
 for
-name
+attr_name
 value
 aloc
 in
@@ -9628,7 +9628,7 @@ attlist
 :
             
 if
-name
+attr_name
 =
 =
 "
@@ -9682,7 +9682,7 @@ aloc
 )
             
 if
-name
+attr_name
 =
 =
 "
@@ -9697,7 +9697,7 @@ noscript
 True
             
 elif
-name
+attr_name
 =
 =
 "
@@ -9712,7 +9712,7 @@ notxpcom
 True
             
 elif
-name
+attr_name
 =
 =
 "
@@ -9727,7 +9727,7 @@ symbol
 True
             
 elif
-name
+attr_name
 =
 =
 "
@@ -9742,7 +9742,7 @@ implicit_jscontext
 True
             
 elif
-name
+attr_name
 =
 =
 "
@@ -9757,7 +9757,7 @@ optional_argc
 True
             
 elif
-name
+attr_name
 =
 =
 "
@@ -9772,7 +9772,7 @@ nostdcall
 True
             
 elif
-name
+attr_name
 =
 =
 "
@@ -9787,7 +9787,7 @@ must_use
 True
             
 elif
-name
+attr_name
 =
 =
 "
@@ -9802,7 +9802,7 @@ explicit_can_run_script
 True
             
 elif
-name
+attr_name
 =
 =
 "
@@ -9831,7 +9831,7 @@ s
 '
 "
 %
-name
+attr_name
 aloc
 )
         
@@ -10566,7 +10566,7 @@ realtype
 realtype
         
 for
-name
+attr_name
 value
 aloc
 in
@@ -10574,7 +10574,7 @@ attlist
 :
             
 if
-name
+attr_name
 =
 =
 "
@@ -10610,7 +10610,7 @@ size_is
 value
             
 elif
-name
+attr_name
 =
 =
 "
@@ -10646,7 +10646,7 @@ iid_is
 value
             
 elif
-name
+attr_name
 =
 =
 "
@@ -10695,6 +10695,7 @@ None
 raise
 IDLError
 (
+                        
 "
 Unexpected
 value
@@ -10706,12 +10707,13 @@ s
 '
 "
 %
-name
+attr_name
 aloc
+                    
 )
                 
 if
-name
+attr_name
 =
 =
 "
@@ -10726,7 +10728,7 @@ const
 True
                 
 elif
-name
+attr_name
 =
 =
 "
@@ -10741,7 +10743,7 @@ array
 True
                 
 elif
-name
+attr_name
 =
 =
 "
@@ -10756,7 +10758,7 @@ retval
 True
                 
 elif
-name
+attr_name
 =
 =
 "
@@ -10771,7 +10773,7 @@ shared
 True
                 
 elif
-name
+attr_name
 =
 =
 "
@@ -10800,7 +10802,7 @@ s
 '
 "
 %
-name
+attr_name
 aloc
 )
     

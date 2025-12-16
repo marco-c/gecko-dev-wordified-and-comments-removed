@@ -80,13 +80,13 @@ Popen
 "
 )
 as
-mocked
+popen_mock
 xvfb
 (
 )
 :
             
-mocked
+popen_mock
 .
 assert_called
 (
@@ -159,13 +159,13 @@ Popen
 "
 )
 as
-mocked
+popen_mock
 xvfb
 (
 )
 :
             
-mocked
+popen_mock
 .
 assert_called
 (

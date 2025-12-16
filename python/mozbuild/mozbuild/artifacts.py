@@ -1871,7 +1871,7 @@ filename
 )
             
 for
-filename
+entry_filename
 entry
 in
 reader
@@ -1901,7 +1901,7 @@ mozpath
 .
 match
 (
-filename
+entry_filename
 pattern
 )
 :
@@ -1914,7 +1914,7 @@ mozpath
 .
 relpath
 (
-filename
+entry_filename
 src_prefix
 )
                     
@@ -1977,6 +1977,7 @@ writer
 .
 add
 (
+                        
 destpath
 .
 encode
@@ -1989,11 +1990,12 @@ utf
 )
 reader
 [
-filename
+entry_filename
 ]
 mode
 =
 mode
+                    
 )
                     
 added_entry
@@ -2003,7 +2005,7 @@ True
 break
                 
 if
-filename
+entry_filename
 .
 endswith
 (
@@ -2032,7 +2034,7 @@ artifact
 filename
 "
 :
-filename
+entry_filename
 }
                         
 "
@@ -2070,7 +2072,7 @@ pattern
                     
 leaf_filename
 =
-filename
+entry_filename
                     
 if
 "
@@ -2101,7 +2103,7 @@ origin_pattern
                         
 leaf_filename
 =
-filename
+entry_filename
 [
 len
 (
@@ -2117,7 +2119,7 @@ mozpath
 .
 match
 (
-filename
+entry_filename
 origin_pattern
 )
 :
@@ -2172,7 +2174,7 @@ utf
 )
 reader
 [
-filename
+entry_filename
 ]
 mode
 =
@@ -2241,7 +2243,7 @@ added_entry
 False
         
 for
-filename
+tar_entry_filename
 entry
 in
 TarFinder
@@ -2274,7 +2276,7 @@ mozpath
 .
 match
 (
-filename
+tar_entry_filename
 pattern
 )
 :
@@ -2287,7 +2289,7 @@ mozpath
 .
 relpath
 (
-filename
+tar_entry_filename
 src_prefix
 )
                 
@@ -2371,7 +2373,7 @@ True
 break
             
 if
-filename
+tar_entry_filename
 .
 endswith
 (
@@ -2400,7 +2402,7 @@ artifact
 filename
 "
 :
-filename
+tar_entry_filename
 }
                     
 "
@@ -2438,7 +2440,7 @@ pattern
                 
 leaf_filename
 =
-filename
+tar_entry_filename
                 
 if
 "
@@ -2469,7 +2471,7 @@ origin_pattern
                     
 leaf_filename
 =
-filename
+tar_entry_filename
 [
 len
 (
@@ -2485,7 +2487,7 @@ mozpath
 .
 match
 (
-filename
+tar_entry_filename
 origin_pattern
 )
 :
@@ -2737,7 +2739,7 @@ writer
 :
             
 for
-filename
+archive_filename
 entry
 in
 self
@@ -2751,7 +2753,7 @@ filename
 if
 skip_compressed
 and
-filename
+archive_filename
 .
 endswith
 (
@@ -2780,7 +2782,7 @@ artifact
 filename
 "
 :
-filename
+archive_filename
 }
                         
 "
@@ -2810,7 +2812,7 @@ crashreporter
 -
 symbols
 "
-filename
+archive_filename
 )
                 
 self
@@ -3005,7 +3007,7 @@ writer
 :
             
 for
-filename
+extra_filename
 entry
 in
 self
@@ -3018,7 +3020,7 @@ filename
                 
 if
 not
-filename
+extra_filename
 .
 startswith
 (
@@ -3044,7 +3046,7 @@ artifact
 filename
 "
 :
-filename
+extra_filename
 "
 src_prefix
 "
@@ -3083,7 +3085,7 @@ mozpath
 .
 relpath
 (
-filename
+extra_filename
 src_prefix
 )
                 
@@ -3175,7 +3177,7 @@ filename
 )
             
 for
-filename
+entry_name
 in
 reader
 .
@@ -3183,10 +3185,10 @@ entries
 :
                 
 yield
-filename
+entry_name
 reader
 [
-filename
+entry_name
 ]
         
 elif
@@ -3773,7 +3775,7 @@ writer
 :
             
 for
-filename
+symbols_filename
 entry
 in
 self
@@ -3786,7 +3788,7 @@ filename
                 
 if
 not
-filename
+symbols_filename
 .
 endswith
 (
@@ -3807,7 +3809,7 @@ path
 .
 basename
 (
-filename
+symbols_filename
 )
 .
 replace

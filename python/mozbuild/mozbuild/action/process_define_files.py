@@ -243,7 +243,7 @@ open
 path
 )
 as
-input
+input_file
 :
         
 r
@@ -322,7 +322,7 @@ U
 for
 l
 in
-input
+input_file
 :
             
 m

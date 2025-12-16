@@ -2317,7 +2317,7 @@ resolve_tests
 :
         
 for
-flavor
+flavor_name
 in
 flavors
 :
@@ -2325,7 +2325,7 @@ flavors
 key
 =
 (
-flavor
+flavor_name
 kwargs
 .
 get
@@ -2700,7 +2700,7 @@ None
     
 for
 (
-flavor
+test_flavor
 subsuite
 )
 tests
@@ -2720,7 +2720,7 @@ suite
 =
 get_suite_definition
 (
-flavor
+test_flavor
 subsuite
 )
         

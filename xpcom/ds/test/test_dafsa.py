@@ -135,7 +135,7 @@ node
 :
             
 for
-node
+child_node
 in
 sorted
 (
@@ -159,7 +159,7 @@ character
                 
 _node_to_string
 (
-node
+child_node
 prefix
 buffer
 cache

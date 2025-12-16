@@ -1481,7 +1481,7 @@ pattern
 ]
                     
 for
-path
+file_path
 in
 paths
 :
@@ -1493,7 +1493,7 @@ mozpath
 join
 (
 base
-path
+file_path
 )
                         
 parts
@@ -1510,7 +1510,7 @@ mozpath
 join
 (
 dest
-path
+file_path
 )
 source
 ]

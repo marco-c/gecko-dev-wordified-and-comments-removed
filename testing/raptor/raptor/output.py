@@ -4520,7 +4520,7 @@ vals
         
 for
 name
-test
+subtest_data
 in
 _subtests
 .
@@ -4529,7 +4529,7 @@ items
 )
 :
             
-test
+subtest_data
 [
 "
 value
@@ -4540,7 +4540,7 @@ filters
 .
 mean
 (
-test
+subtest_data
 [
 "
 replicates
@@ -4553,7 +4553,7 @@ vals
 append
 (
 [
-test
+subtest_data
 [
 "
 value

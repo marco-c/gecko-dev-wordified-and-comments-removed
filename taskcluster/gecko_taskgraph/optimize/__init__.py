@@ -1584,7 +1584,7 @@ copy
 )
         
 for
-name
+override_name
 strategy
 in
 self
@@ -1633,7 +1633,7 @@ base
             
 val
 [
-name
+override_name
 ]
 =
 strategy
