@@ -13626,6 +13626,12 @@ undefined
 ;
 this
 .
+_doLocalInferredRerank
+=
+undefined
+;
+this
+.
 _spocsCacheUpdateTime
 =
 undefined
@@ -15131,6 +15137,12 @@ configReset
 this
 .
 _isContextualAds
+=
+undefined
+;
+this
+.
+_doLocalInferredRerank
 =
 undefined
 ;
