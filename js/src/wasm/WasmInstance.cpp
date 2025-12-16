@@ -3300,7 +3300,7 @@ Pages
 :
 fromPageCount
 (
-MaxMemory32PagesValidation
+MaxMemory32StandardPagesValidation
 pages
 .
 pageSize
@@ -3409,7 +3409,7 @@ Pages
 :
 fromPageCount
 (
-MaxMemory64PagesValidation
+MaxMemory64StandardPagesValidation
 pages
 .
 pageSize

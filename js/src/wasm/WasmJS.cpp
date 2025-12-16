@@ -11334,6 +11334,9 @@ MaxMemoryPagesValidation
 limits
 .
 addressType
+limits
+.
+pageSize
 )
 LimitsKind
 :
