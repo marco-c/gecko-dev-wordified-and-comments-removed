@@ -456,6 +456,30 @@ NULL
     
 if
 "
+App
+:
+sourcestamp
+"
+not
+in
+appdata
+:
+        
+appdata
+[
+"
+App
+:
+sourcestamp
+"
+]
+=
+"
+NULL
+"
+    
+if
+"
 AppUpdate
 :
 url
@@ -635,6 +659,14 @@ url
 )
 s
 "
+                 
+%
+(
+App
+:
+sourcestamp
+)
+s
              
 }
 ;

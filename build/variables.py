@@ -605,27 +605,6 @@ MOZ_SOURCE_CHANGESET
 )
     
 if
-changeset
-:
-        
-output
-.
-write
-(
-"
-#
-define
-MOZ_SOURCE_STAMP
-%
-s
-\
-n
-"
-%
-changeset
-)
-    
-if
 repo
 and
 buildconfig
