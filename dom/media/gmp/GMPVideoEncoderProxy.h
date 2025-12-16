@@ -98,6 +98,16 @@ aCodecSpecificInfo
 ;
 virtual
 void
+Dropped
+(
+uint64_t
+aTimestamp
+)
+=
+0
+;
+virtual
+void
 Error
 (
 GMPErr
