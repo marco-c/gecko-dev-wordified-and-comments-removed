@@ -71,6 +71,9 @@ Nightly
 "
 Firefox
 "
+"
+AI
+"
 ]
 )
 ;
