@@ -146,6 +146,24 @@ reporting
 "
 ]
         
+self
+.
+marionette
+.
+set_pref
+(
+"
+telemetry
+.
+glean
+.
+internal
+.
+maxPingsPerMinute
+"
+60
+)
+        
 def
 is_startup_baseline_ping
 (
