@@ -597,18 +597,6 @@ mozilla
 .
 components
 .
-compose
-.
-base
-.
-theme
-.
-AcornTheme
-import
-mozilla
-.
-components
-.
 lib
 .
 state
@@ -1478,7 +1466,7 @@ colorScheme
 onSurface
 style
 =
-AcornTheme
+FirefoxTheme
 .
 typography
 .
@@ -1507,7 +1495,7 @@ colorScheme
 onSurfaceVariant
 style
 =
-AcornTheme
+FirefoxTheme
 .
 typography
 .

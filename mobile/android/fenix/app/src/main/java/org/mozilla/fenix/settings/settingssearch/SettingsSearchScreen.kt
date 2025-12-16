@@ -367,18 +367,6 @@ mozilla
 .
 components
 .
-compose
-.
-base
-.
-theme
-.
-AcornTheme
-import
-mozilla
-.
-components
-.
 lib
 .
 state
@@ -1137,7 +1125,7 @@ RECENT_SEARCHES_CLEAR_RECENTS_TEXT_COLOR
 )
 style
 =
-AcornTheme
+FirefoxTheme
 .
 typography
 .
