@@ -614,6 +614,13 @@ C
 u8
 )
 ]
+#
+[
+typed_value
+(
+derive_fields
+)
+]
 pub
 enum
 GenericPerspective
