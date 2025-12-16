@@ -4299,7 +4299,7 @@ content
 .
 securityInfo
 .
-secure
+isSecure
 sitePermissions
 =
 sitePermissions
@@ -4371,7 +4371,7 @@ content
 .
 securityInfo
 .
-secure
+isSecure
 sitePermissions
 =
 sitePermissions
@@ -7221,7 +7221,7 @@ content
 securityInfo
 ?
 .
-secure
+isSecure
 =
 =
 true

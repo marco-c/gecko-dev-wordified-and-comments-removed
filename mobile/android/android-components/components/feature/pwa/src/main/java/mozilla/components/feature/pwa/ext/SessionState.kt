@@ -219,7 +219,7 @@ content
 .
 securityInfo
 .
-secure
+isSecure
 &
 &
 manifest

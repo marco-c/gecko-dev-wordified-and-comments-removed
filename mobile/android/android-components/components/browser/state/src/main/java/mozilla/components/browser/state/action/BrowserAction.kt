@@ -239,7 +239,7 @@ state
 .
 state
 .
-SecurityInfoState
+SecurityInfo
 import
 mozilla
 .
@@ -4156,7 +4156,7 @@ ContentAction
 Updates
 the
 [
-SecurityInfoState
+SecurityInfo
 ]
 of
 the
@@ -4183,7 +4183,7 @@ String
 val
 securityInfo
 :
-SecurityInfoState
+SecurityInfo
 )
 :
 ContentAction

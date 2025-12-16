@@ -169,7 +169,7 @@ state
 .
 state
 .
-SecurityInfoState
+SecurityInfo
 import
 mozilla
 .
@@ -2306,11 +2306,10 @@ webAppManifest
 manifest
 securityInfo
 =
-SecurityInfoState
+SecurityInfo
+.
+Secure
 (
-secure
-=
-true
 )
 )
 )

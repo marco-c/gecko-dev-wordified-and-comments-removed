@@ -498,7 +498,7 @@ content
 .
 securityInfo
 .
-secure
+isSecure
 )
 {
 Toolbar

@@ -2553,7 +2553,7 @@ content
 .
 securityInfo
 .
-secure
+isSecure
 val
 url
 =

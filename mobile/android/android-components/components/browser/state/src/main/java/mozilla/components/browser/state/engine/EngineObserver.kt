@@ -257,7 +257,7 @@ state
 .
 state
 .
-SecurityInfoState
+SecurityInfo
 import
 mozilla
 .
@@ -1152,7 +1152,9 @@ ContentAction
 UpdateSecurityInfoAction
 (
 tabId
-SecurityInfoState
+SecurityInfo
+.
+from
 (
 secure
 host

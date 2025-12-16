@@ -719,7 +719,7 @@ content
 .
 securityInfo
 .
-secure
+isSecure
 sitePermissions
 =
 sitePermissions

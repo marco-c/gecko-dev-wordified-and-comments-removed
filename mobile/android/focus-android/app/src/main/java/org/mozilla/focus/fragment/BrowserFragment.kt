@@ -5787,7 +5787,7 @@ content
 .
 securityInfo
 .
-secure
+isSecure
 blockedTrackersCount
 =
 requireContext
@@ -5996,7 +5996,7 @@ content
 .
 securityInfo
 .
-secure
+isSecure
 goBack
 =
 {

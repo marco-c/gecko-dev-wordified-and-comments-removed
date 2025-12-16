@@ -107,7 +107,7 @@ state
 .
 state
 .
-SecurityInfoState
+SecurityInfo
 import
 mozilla
 .
@@ -805,10 +805,10 @@ copy
 (
 securityInfo
 =
-SecurityInfoState
+SecurityInfo
+.
+from
 (
-secure
-=
 secure
 )
 webAppManifest

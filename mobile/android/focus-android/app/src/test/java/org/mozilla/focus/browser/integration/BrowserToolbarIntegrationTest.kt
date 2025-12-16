@@ -123,7 +123,7 @@ state
 .
 state
 .
-SecurityInfoState
+SecurityInfo
 import
 mozilla
 .
@@ -1046,9 +1046,11 @@ UpdateSecurityInfoAction
 selectedTab
 .
 id
-SecurityInfoState
+SecurityInfo
+.
+from
 (
-secure
+isSecure
 =
 secure
 host
@@ -1136,11 +1138,10 @@ copy
 (
 securityInfo
 =
-SecurityInfoState
+SecurityInfo
+.
+Secure
 (
-secure
-=
-true
 )
 )
 )
