@@ -57711,6 +57711,8 @@ area_keyword
 .
 to_self_alignment
 (
+axis
+cb_wm
 )
 else
 {
