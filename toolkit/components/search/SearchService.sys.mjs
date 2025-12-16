@@ -16211,9 +16211,11 @@ name
 already
 exists
 !
-Cr
+Ci
 .
-NS_ERROR_FILE_ALREADY_EXISTS
+nsISearchService
+.
+ERROR_DUPLICATE_ENGINE
 )
 ;
 }
