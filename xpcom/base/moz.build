@@ -106,6 +106,16 @@ nsIAvailableMemoryWatcherTestingLinux
 idl
 "
 ]
+EXPORTS
++
+=
+[
+"
+nsIPSIProvider
+.
+h
+"
+]
 if
 CONFIG
 [
