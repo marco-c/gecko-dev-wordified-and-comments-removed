@@ -1066,6 +1066,10 @@ findElementWithSelector
 dbg
 "
 .
+dbg
+-
+img
+-
 more
 -
 tabs
@@ -1187,6 +1191,10 @@ findElementWithSelector
 dbg
 "
 .
+dbg
+-
+img
+-
 more
 -
 tabs

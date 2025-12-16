@@ -850,6 +850,8 @@ index
 ;
 }
 .
+dbg
+-
 img
 {
 grid
@@ -1029,6 +1031,8 @@ file
 -
 result
 .
+dbg
+-
 img
 {
 margin
@@ -1049,8 +1053,14 @@ file
 -
 result
 .
+dbg
+-
 img
 .
+dbg
+-
+img
+-
 file
 {
 margin
@@ -1416,6 +1426,8 @@ result
 .
 focused
 .
+dbg
+-
 img
 {
 background

@@ -1234,6 +1234,10 @@ querySelector
 (
 "
 .
+dbg
+-
+img
+-
 tab
 .
 result

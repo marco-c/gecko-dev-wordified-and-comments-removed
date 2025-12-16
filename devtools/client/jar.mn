@@ -5443,7 +5443,7 @@ components
 /
 shared
 /
-AccessibleImage
+DebuggerImage
 .
 css
 (
@@ -5455,7 +5455,7 @@ components
 /
 shared
 /
-AccessibleImage
+DebuggerImage
 .
 css
 )

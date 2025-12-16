@@ -223,7 +223,7 @@ SourcesTreeItem
 "
 ;
 import
-AccessibleImage
+DebuggerImage
 from
 "
 .
@@ -231,7 +231,7 @@ from
 /
 shared
 /
-AccessibleImage
+DebuggerImage
 "
 ;
 const
@@ -1280,9 +1280,9 @@ React
 .
 createElement
 (
-AccessibleImage
+DebuggerImage
 {
-className
+name
 :
 "
 back
