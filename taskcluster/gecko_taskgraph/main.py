@@ -563,13 +563,10 @@ False
         
 )
     
-else
-:
-        
-if
+elif
 target_kinds
 :
-            
+        
 parameters
 [
 "

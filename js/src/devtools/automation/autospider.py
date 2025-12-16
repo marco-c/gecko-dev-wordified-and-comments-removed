@@ -2172,10 +2172,7 @@ CXXFLAGS
 )
 sse_flags
 )
-else
-:
-    
-if
+elif
 platform
 .
 system
@@ -2187,7 +2184,7 @@ system
 Windows
 "
 :
-        
+    
 CONFIGURE_ARGS
 +
 =
