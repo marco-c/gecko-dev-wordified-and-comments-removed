@@ -3,20 +3,6 @@ features
 -
 name
 :
-counter
--
-set
-files
-:
--
-counter
--
-set
--
-*
--
-name
-:
 text
 -
 stroke
@@ -25,8 +11,6 @@ fill
 files
 :
 -
-marker
--
 webkit
 -
 text
@@ -34,5 +18,5 @@ text
 fill
 -
 color
-.
-html
+-
+*
