@@ -3882,7 +3882,7 @@ blocking
 .
 const
 {
-blockingExtension
+extension
 blockedReason
 }
 =
@@ -3917,7 +3917,7 @@ addResponseContentComplete
 (
 {
 blockedReason
-blockingExtension
+extension
 discardResponseBody
 :
 this
