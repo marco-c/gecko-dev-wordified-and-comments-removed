@@ -3,6 +3,13 @@ DEFAULT
 ]
 [
 "
+browser_aichat_content_actors
+.
+js
+"
+]
+[
+"
 browser_open_aiwindow
 .
 js

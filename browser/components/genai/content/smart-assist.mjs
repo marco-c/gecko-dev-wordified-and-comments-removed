@@ -1888,9 +1888,9 @@ browser
 /
 content
 /
-genai
+aiwindow
 /
-smartAssist
+aiWindow
 .
 html
 "
