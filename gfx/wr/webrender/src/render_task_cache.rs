@@ -62,15 +62,6 @@ use
 crate
 :
 :
-gpu_cache
-:
-:
-GpuCache
-;
-use
-crate
-:
-:
 internal_types
 :
 :
@@ -1012,11 +1003,6 @@ bool
 parent
 :
 RenderTaskParent
-gpu_cache
-:
-&
-mut
-GpuCache
 gpu_buffer_builder
 :
 &
@@ -1045,9 +1031,6 @@ RenderTaskGraphBuilder
 &
 mut
 GpuBufferBuilderF
-&
-mut
-GpuCache
 )
 -
 >
@@ -1074,7 +1057,6 @@ f
 (
 rg_builder
 gpu_buffer_builder
-gpu_cache
 )
 true
 )
@@ -1091,7 +1073,6 @@ request_render_task_impl
 key
 is_opaque
 texture_cache
-gpu_cache
 gpu_buffer_builder
 rg_builder
 f
@@ -1160,11 +1141,6 @@ texture_cache
 &
 mut
 TextureCache
-gpu_cache
-:
-&
-mut
-GpuCache
 gpu_buffer_builder
 :
 &
@@ -1188,9 +1164,6 @@ RenderTaskGraphBuilder
 &
 mut
 GpuBufferBuilderF
-&
-mut
-GpuCache
 )
 -
 >
@@ -1318,7 +1291,6 @@ f
 (
 rg_builder
 gpu_buffer_builder
-gpu_cache
 )
 ;
 cache_entry

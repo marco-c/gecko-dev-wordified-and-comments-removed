@@ -289,15 +289,6 @@ use
 crate
 :
 :
-gpu_cache
-:
-:
-GpuCache
-;
-use
-crate
-:
-:
 gpu_types
 :
 :
@@ -3076,11 +3067,6 @@ bool
 parent
 :
 RenderTaskParent
-gpu_cache
-:
-&
-mut
-GpuCache
 gpu_buffer_builder
 :
 &
@@ -3109,9 +3095,6 @@ RenderTaskGraphBuilder
 &
 mut
 GpuBufferBuilderF
-&
-mut
-GpuCache
 )
 -
 >
@@ -3139,7 +3122,6 @@ self
 texture_cache
 is_opaque
 parent
-gpu_cache
 gpu_buffer_builder
 rg_builder
 surface_builder
@@ -3169,11 +3151,6 @@ gpu_buffer_builder
 &
 mut
 GpuBufferBuilderF
-gpu_cache
-:
-&
-mut
-GpuCache
 is_opaque
 :
 bool
@@ -3194,9 +3171,6 @@ RenderTaskGraphBuilder
 &
 mut
 GpuBufferBuilderF
-&
-mut
-GpuCache
 )
 -
 >
@@ -3213,7 +3187,6 @@ f
 (
 rg_builder
 gpu_buffer_builder
-gpu_cache
 )
 ;
 let

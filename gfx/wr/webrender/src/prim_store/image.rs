@@ -1225,9 +1225,6 @@ RenderTaskParent
 :
 :
 Surface
-frame_state
-.
-gpu_cache
 &
 mut
 frame_state
@@ -1247,7 +1244,6 @@ surface_builder
 mut
 |
 rg_builder
-_
 _
 |
 {

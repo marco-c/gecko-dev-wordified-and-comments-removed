@@ -462,9 +462,6 @@ contentFrameTime
 double
 resourceUploadTime
 ;
-double
-gpuCacheUploadTime
-;
 TimeStamp
 transactionStart
 ;

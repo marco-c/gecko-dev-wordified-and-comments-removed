@@ -277,15 +277,6 @@ use
 crate
 :
 :
-gpu_cache
-:
-:
-GpuCache
-;
-use
-crate
-:
-:
 gpu_types
 :
 :
@@ -25719,7 +25710,6 @@ mut
 |
 rg_builder
 _
-_
 |
 {
 RenderTask
@@ -26351,7 +26341,6 @@ mut
 |
 rg_builder
 _
-_
 |
 {
 rg_builder
@@ -26466,7 +26455,6 @@ is_opaque
 mut
 |
 rg_builder
-_
 _
 |
 {
@@ -26586,7 +26574,6 @@ is_opaque
 mut
 |
 rg_builder
-_
 _
 |
 {
@@ -26714,7 +26701,6 @@ is_opaque
 mut
 |
 rg_builder
-_
 _
 |
 {
@@ -26846,7 +26832,6 @@ is_opaque
 mut
 |
 rg_builder
-_
 _
 |
 {
@@ -27025,7 +27010,6 @@ is_opaque
 mut
 |
 rg_builder
-_
 _
 |
 {
@@ -27321,7 +27305,6 @@ mut
 |
 rg_builder
 gpu_buffer
-_
 |
 {
 RenderTask
@@ -27956,7 +27939,9 @@ list
 mut
 frame_state
 .
-gpu_cache
+frame_gpu_data
+.
+f32
 &
 frame_context
 .
@@ -28398,11 +28383,11 @@ Vec
 <
 OrderedPictureChild
 >
-gpu_cache
+gpu_buffer
 :
 &
 mut
-GpuCache
+GpuBufferBuilderF
 spatial_tree
 :
 &
@@ -36425,9 +36410,6 @@ RenderTaskGraphBuilder
 &
 mut
 GpuBufferBuilderF
-&
-mut
-GpuCache
 )
 -
 >
@@ -36501,9 +36483,6 @@ frame_state
 frame_gpu_data
 .
 f32
-frame_state
-.
-gpu_cache
 is_opaque
 &
 adjustment
@@ -36556,9 +36535,6 @@ frame_state
 frame_gpu_data
 .
 f32
-frame_state
-.
-gpu_cache
 )
 }
 }
