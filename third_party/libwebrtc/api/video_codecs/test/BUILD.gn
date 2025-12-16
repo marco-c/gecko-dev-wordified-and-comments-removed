@@ -132,6 +132,11 @@ sdp_video_format_unittest
 cc
 "
 "
+video_codec_unittest
+.
+cc
+"
+"
 video_decoder_software_fallback_wrapper_unittest
 .
 cc

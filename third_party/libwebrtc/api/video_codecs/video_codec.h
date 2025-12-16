@@ -543,6 +543,12 @@ IsSinglecast
 )
 ;
 }
+bool
+IsMixedCodec
+(
+)
+const
+;
 VideoCodecType
 codecType
 ;
