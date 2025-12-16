@@ -10286,6 +10286,12 @@ bool
 result_type
 :
 Boolean
+possibly_calls
+:
+true
+generate_lir
+:
+true
 -
 name
 :
@@ -10306,6 +10312,12 @@ bool
 result_type
 :
 Boolean
+possibly_calls
+:
+true
+generate_lir
+:
+true
 -
 name
 :

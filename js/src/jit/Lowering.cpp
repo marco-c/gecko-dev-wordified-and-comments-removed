@@ -46275,7 +46275,7 @@ MDeleteProperty
 ins
 )
 {
-LCallDeleteProperty
+LDeleteProperty
 *
 lir
 =
@@ -46285,7 +46285,7 @@ alloc
 (
 )
 )
-LCallDeleteProperty
+LDeleteProperty
 (
 useBoxAtStart
 (
@@ -46322,7 +46322,7 @@ MDeleteElement
 ins
 )
 {
-LCallDeleteElement
+LDeleteElement
 *
 lir
 =
@@ -46332,7 +46332,7 @@ alloc
 (
 )
 )
-LCallDeleteElement
+LDeleteElement
 (
 useBoxAtStart
 (
