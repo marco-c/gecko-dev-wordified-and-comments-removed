@@ -147,9 +147,13 @@ getSystemPrincipal
 )
 ;
 await
-promiseTabLoaded
+BrowserTestUtils
+.
+browserLoaded
 (
 tab
+.
+linkedBrowser
 )
 ;
 let
