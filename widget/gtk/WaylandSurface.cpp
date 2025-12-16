@@ -4931,7 +4931,13 @@ const
 DesktopIntRect
 rect
 (
+gUseStableRounding
+?
 mSubsurfacePosition
+:
+DesktopIntPoint
+(
+)
 aSize
 )
 ;
