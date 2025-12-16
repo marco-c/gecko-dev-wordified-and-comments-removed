@@ -7282,6 +7282,7 @@ env
 ;
 ConfigureEndpoint
 (
+env
 0
 config1
 )
@@ -7300,6 +7301,7 @@ kMinimumStepDelay
 ;
 ConfigureEndpoint
 (
+env
 1
 config2
 )
@@ -7325,6 +7327,10 @@ FROM_SETICEPARAMETERS
 void
 ConfigureEndpoint
 (
+const
+Environment
+&
+env
 int
 endpoint
 Config
@@ -7378,6 +7384,7 @@ nat
 >
 AddTranslator
 (
+env
 kPublicAddrs
 [
 endpoint
@@ -7430,6 +7437,7 @@ nat
 >
 AddTranslator
 (
+env
 kPublicAddrs
 [
 endpoint
@@ -7462,6 +7470,7 @@ NAT_SYMMETRIC
 >
 AddTranslator
 (
+env
 kPrivateAddrs
 [
 endpoint
@@ -15008,6 +15017,7 @@ nat
 >
 AddTranslator
 (
+env
 kPublicAddrs
 [
 0
@@ -15029,6 +15039,7 @@ NAT_FULL_CONE
 ;
 ConfigureEndpoint
 (
+env
 outer_nat
 0
 config1
@@ -15036,6 +15047,7 @@ config1
 ;
 ConfigureEndpoint
 (
+env
 outer_nat
 1
 config2
@@ -15050,6 +15062,10 @@ FROM_SETICEPARAMETERS
 void
 ConfigureEndpoint
 (
+const
+Environment
+&
+env
 NATSocketServer
 :
 :
@@ -15115,6 +15131,7 @@ nat
 >
 AddTranslator
 (
+env
 kPrivateAddrs
 [
 endpoint
