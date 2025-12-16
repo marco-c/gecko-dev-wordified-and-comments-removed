@@ -165,10 +165,10 @@ js
 "
 )
 ;
-var
+class
 HarBuilder
-=
-function
+{
+constructor
 (
 options
 )
@@ -247,12 +247,6 @@ currentTarget
 url
 ;
 }
-;
-HarBuilder
-.
-prototype
-=
-{
 async
 build
 (
@@ -2351,7 +2345,6 @@ promise
 ;
 }
 }
-;
 function
 findKeys
 (
