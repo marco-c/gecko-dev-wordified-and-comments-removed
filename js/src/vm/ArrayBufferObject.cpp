@@ -2431,7 +2431,7 @@ sourceMaxBytes
 wasm
 :
 :
-PageSize
+StandardPageSize
 *
 wasm
 :
@@ -3455,7 +3455,7 @@ newByteLength
 wasm
 :
 :
-PageSize
+StandardPageSize
 !
 =
 0
@@ -6012,7 +6012,7 @@ delta
 wasm
 :
 :
-PageSize
+StandardPageSize
 =
 =
 0
@@ -6098,7 +6098,7 @@ byteOffset
 wasm
 :
 :
-PageSize
+StandardPageSize
 =
 =
 0
@@ -6111,7 +6111,7 @@ byteLen
 wasm
 :
 :
-PageSize
+StandardPageSize
 =
 =
 0
@@ -7444,7 +7444,7 @@ byteLength
 wasm
 :
 :
-PageSize
+StandardPageSize
 =
 =
 0
@@ -7549,7 +7549,7 @@ static_assert
 wasm
 :
 :
-PageSize
+StandardPageSize
 >
 FixedLengthArrayBufferObject
 :

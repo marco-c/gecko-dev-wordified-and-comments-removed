@@ -2645,7 +2645,7 @@ Unsigned
 static
 const
 unsigned
-PageSize
+StandardPageSize
 =
 64
 *
@@ -2856,7 +2856,7 @@ MaxArrayNewFixedElements
 static_assert
 (
 (
-PageSize
+StandardPageSize
 *
 MaxMemory64PagesValidation
 )

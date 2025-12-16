@@ -6966,7 +6966,7 @@ byteOffset
 wasm
 :
 :
-PageSize
+StandardPageSize
 !
 =
 0
@@ -6977,7 +6977,7 @@ byteLen
 wasm
 :
 :
-PageSize
+StandardPageSize
 !
 =
 0

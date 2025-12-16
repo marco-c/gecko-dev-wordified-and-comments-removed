@@ -919,7 +919,7 @@ SystemPageSize
 wasm
 :
 :
-PageSize
+StandardPageSize
 )
 {
 return
