@@ -198,6 +198,13 @@ homepageCardImageRadius
 dp
 private
 val
+cardElevation
+=
+6
+.
+dp
+private
+val
 homepageCardShape
 =
 RoundedCornerShape
@@ -342,6 +349,9 @@ CardDefaults
 .
 cardElevation
 (
+defaultElevation
+=
+cardElevation
 )
 border
 :
@@ -532,6 +542,9 @@ CardDefaults
 .
 cardElevation
 (
+defaultElevation
+=
+cardElevation
 )
 border
 :
