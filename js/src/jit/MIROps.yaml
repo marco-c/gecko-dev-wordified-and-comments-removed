@@ -7390,6 +7390,9 @@ none
 generate_lir
 :
 true
+lir_result_type
+:
+none
 lir_temps
 :
 1
@@ -12422,6 +12425,9 @@ custom
 generate_lir
 :
 true
+lir_result_type
+:
+none
 #
 Return
 true
@@ -12847,6 +12853,9 @@ none
 generate_lir
 :
 true
+lir_result_type
+:
+none
 -
 name
 :
@@ -14449,6 +14458,9 @@ none
 generate_lir
 :
 true
+lir_result_type
+:
+none
 lir_temps
 :
 1

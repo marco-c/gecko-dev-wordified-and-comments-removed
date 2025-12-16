@@ -427,7 +427,7 @@ setVirtualRegister
 vreg
 )
 ;
-add
+addUnchecked
 (
 lir
 )

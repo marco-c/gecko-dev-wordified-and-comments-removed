@@ -10825,9 +10825,6 @@ true
 name
 :
 AsmJSStoreHeap
-result_type
-:
-WordSized
 operands
 :
 ptr
@@ -12670,9 +12667,6 @@ true
 name
 :
 WasmStoreLaneSimd128
-result_type
-:
-WordSized
 operands
 :
 ptr
