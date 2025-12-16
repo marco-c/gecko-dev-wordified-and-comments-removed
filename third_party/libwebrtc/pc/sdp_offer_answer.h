@@ -469,6 +469,10 @@ SdpOfferAnswerHandler
 >
 Create
 (
+const
+Environment
+&
+env
 PeerConnectionSdpMethods
 *
 pc
@@ -1035,6 +1039,10 @@ LocalIceCredentialsToReplace
 explicit
 SdpOfferAnswerHandler
 (
+const
+Environment
+&
+env
 PeerConnectionSdpMethods
 *
 pc
@@ -2459,6 +2467,11 @@ ConfiguredForMedia
 (
 )
 const
+;
+const
+Environment
+&
+env_
 ;
 PeerConnectionSdpMethods
 *
