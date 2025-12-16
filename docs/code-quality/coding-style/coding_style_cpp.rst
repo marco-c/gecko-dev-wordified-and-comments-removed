@@ -2886,7 +2886,7 @@ them
 as
 constexpr
 or
-MOZ_CONSTINIT
+constinit
 is
 a
 good
@@ -2938,14 +2938,15 @@ detects
 it
 could
 be
-MOZ_CONSTINIT
+constinit
 you
+will
 get
 an
 error
 .
 In
-case
+cases
 where
 the
 status
