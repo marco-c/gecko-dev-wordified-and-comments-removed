@@ -546,7 +546,9 @@ symbol
 UVCS
 platform
 :
-macosx64
+osx
+-
+shippable
 /
 opt
 kind
