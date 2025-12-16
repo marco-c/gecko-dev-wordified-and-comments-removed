@@ -75,6 +75,13 @@ uint64_t
 GetMaxOffsetGuardLimit
 (
 hugeMemory_
+wasm
+:
+:
+PageSize
+:
+:
+Standard
 )
 )
 ;

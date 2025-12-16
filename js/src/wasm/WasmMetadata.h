@@ -448,6 +448,14 @@ memoryIndex
 addressType
 (
 )
+memories
+[
+memoryIndex
+]
+.
+pageSize
+(
+)
 )
 ;
 }

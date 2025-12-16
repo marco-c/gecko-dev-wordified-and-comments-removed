@@ -136,6 +136,10 @@ wasm
 :
 :
 AddressType
+wasm
+:
+:
+PageSize
 size_t
 mappedSize
 size_t

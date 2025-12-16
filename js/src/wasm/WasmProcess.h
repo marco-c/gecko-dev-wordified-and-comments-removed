@@ -130,6 +130,8 @@ IsHugeMemoryEnabled
 (
 AddressType
 t
+PageSize
+sz
 )
 ;
 bool

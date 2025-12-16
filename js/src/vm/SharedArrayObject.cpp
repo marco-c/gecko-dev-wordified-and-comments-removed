@@ -735,6 +735,7 @@ p
 MapBufferMemory
 (
 addressType
+pageSize
 mappedSizeWithHeader
 accessibleSizeWithHeader
 )
