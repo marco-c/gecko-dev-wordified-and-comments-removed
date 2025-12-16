@@ -2283,7 +2283,7 @@ aNodeSize
 iface
 -
 >
-SizeOfExcludingThis
+SizeOfIncludingThis
 (
 aSizes
 .
