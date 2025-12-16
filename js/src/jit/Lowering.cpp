@@ -66473,16 +66473,6 @@ needsClosure
 (
 )
 ;
-uint8_t
-hint
-=
-ins
--
->
-hint
-(
-)
-;
 auto
 *
 lir
@@ -66511,7 +66501,6 @@ useRegisterAtStart
 (
 needsClosure
 )
-hint
 )
 ;
 add
