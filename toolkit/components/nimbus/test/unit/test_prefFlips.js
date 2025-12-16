@@ -827,13 +827,6 @@ manager
 )
 ;
 await
-NimbusTestUtils
-.
-waitForAllUnenrollments
-(
-)
-;
-await
 baseCleanup
 (
 )
