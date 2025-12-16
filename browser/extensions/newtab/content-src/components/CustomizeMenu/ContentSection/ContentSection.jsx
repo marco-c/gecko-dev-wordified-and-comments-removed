@@ -586,6 +586,8 @@ setPref
 mayHaveTopicSections
 exitEventFired
 onSubpanelToggle
+toggleSectionsMgmtPanel
+showSectionsMgmtPanel
 }
 =
 this
@@ -1890,6 +1892,16 @@ onSubpanelToggle
 =
 {
 onSubpanelToggle
+}
+togglePanel
+=
+{
+toggleSectionsMgmtPanel
+}
+showPanel
+=
+{
+showSectionsMgmtPanel
 }
 /
 >
