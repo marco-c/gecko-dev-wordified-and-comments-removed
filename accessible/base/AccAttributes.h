@@ -1305,6 +1305,15 @@ AccAttributes
 aOther
 )
 ;
+void
+RemoveIdentical
+(
+const
+AccAttributes
+*
+aOther
+)
+;
 bool
 Equal
 (
@@ -1321,6 +1330,10 @@ CopyTo
 AccAttributes
 *
 aDest
+bool
+aOnlyMissing
+=
+false
 )
 const
 ;
