@@ -1274,7 +1274,7 @@ const
 return
 !
 !
-mCacheInfo
+mCacheEntry
 ;
 }
 void
@@ -1282,7 +1282,7 @@ DropDiskCacheReference
 (
 )
 {
-mCacheInfo
+mCacheEntry
 =
 nullptr
 ;
@@ -1536,9 +1536,9 @@ mStencil
 ;
 nsCOMPtr
 <
-nsICacheInfoChannel
+nsICacheEntryWriteHandle
 >
-mCacheInfo
+mCacheEntry
 ;
 }
 ;
