@@ -5705,16 +5705,6 @@ libwebrtc
 /
 system_wrappers
 /
-field_trial_gn
-"
-"
-/
-third_party
-/
-libwebrtc
-/
-system_wrappers
-/
 metrics_gn
 "
 "
