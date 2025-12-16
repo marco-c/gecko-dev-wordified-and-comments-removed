@@ -2135,15 +2135,6 @@ locale
 if
 (
 localeArg
-!
-=
-=
-undefined
-)
-{
-if
-(
-localeArg
 =
 =
 =
@@ -2271,7 +2262,6 @@ localeArg
 throw
 err
 ;
-}
 }
 }
 if
