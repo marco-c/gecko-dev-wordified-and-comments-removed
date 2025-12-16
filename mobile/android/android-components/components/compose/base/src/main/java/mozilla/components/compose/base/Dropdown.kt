@@ -768,8 +768,6 @@ mutableStateOf
 dp
 )
 }
-Surface
-{
 Column
 (
 modifier
@@ -1035,7 +1033,6 @@ colors
 .
 formDefault
 )
-}
 }
 }
 Suppress
