@@ -128,9 +128,10 @@ userContextId1
 const
 taskbarTab1
 =
-createTaskbarTab
-(
 registry
+.
+findOrCreateTaskbarTab
+(
 url1
 userContextId1
 )
@@ -172,9 +173,10 @@ userContextId2
 const
 taskbarTab2
 =
-createTaskbarTab
-(
 registry
+.
+findOrCreateTaskbarTab
+(
 url2
 userContextId2
 )

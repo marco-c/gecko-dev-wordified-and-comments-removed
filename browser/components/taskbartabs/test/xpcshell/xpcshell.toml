@@ -8,13 +8,6 @@ appdir
 "
 browser
 "
-head
-=
-"
-head
-.
-js
-"
 run
 -
 if

@@ -637,10 +637,7 @@ scriptSecurityManager
 DEFAULT_USER_CONTEXT_ID
 ;
 }
-(
-{
 taskbarTab
-}
 =
 await
 lazy
@@ -655,7 +652,6 @@ url
 aContext
 .
 userContextId
-)
 )
 ;
 }

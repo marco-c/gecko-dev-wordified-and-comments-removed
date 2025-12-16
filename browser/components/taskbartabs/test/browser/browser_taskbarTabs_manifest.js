@@ -1074,10 +1074,6 @@ main
 ;
 }
 )
-.
-skip
-(
-)
 ;
 async
 function
@@ -1214,7 +1210,7 @@ tt
 await
 TaskbarTabs
 .
-findTaskbarTab
+findOrCreateTaskbarTab
 (
 uri
 0
