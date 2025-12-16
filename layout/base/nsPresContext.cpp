@@ -14112,6 +14112,15 @@ UpdateHiddenByContentVisibilityForAnimations
 (
 )
 ;
+TimelineManager
+(
+)
+-
+>
+UpdateHiddenByContentVisibilityForAnimations
+(
+)
+;
 }
 #
 ifdef

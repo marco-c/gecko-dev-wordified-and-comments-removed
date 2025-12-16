@@ -192,13 +192,12 @@ mDocument
 mDocument
 -
 >
-TimelinesController
+Timelines
 (
 )
 .
-AddDocumentTimeline
+insertBack
 (
-*
 this
 )
 ;
