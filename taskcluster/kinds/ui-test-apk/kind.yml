@@ -2534,6 +2534,12 @@ target
 noarch
 .
 apk
+-
+-
+artifact_type
+"
+memory_leaks
+"
 ]
 treeherder
 :

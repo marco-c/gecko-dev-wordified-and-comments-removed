@@ -919,6 +919,7 @@ exit_code
 def
 process_results
 (
+    
 flank_config
 :
 str
@@ -929,6 +930,11 @@ str
 "
 instrumentation
 "
+artifact_type
+:
+str
+=
+None
 )
 -
 >
@@ -989,6 +995,20 @@ or
 '
 robo
 '
+        
+artifact_type
+:
+The
+type
+of
+the
+artifacts
+to
+copy
+after
+the
+test
+run
     
 "
 "
@@ -1014,7 +1034,7 @@ py
 "
 )
     
-copy_robo_crash_artifacts_script
+copy_artifacts_script
 =
 os
 .
@@ -1022,7 +1042,6 @@ path
 .
 join
 (
-        
 SCRIPT_DIR
 "
 copy
@@ -1035,7 +1054,6 @@ ftl
 .
 py
 "
-    
 )
     
 generate_flaky_report_script
@@ -1076,7 +1094,7 @@ os
 .
 chmod
 (
-copy_robo_crash_artifacts_script
+copy_artifacts_script
 0o755
 )
     
@@ -1146,6 +1164,18 @@ log
 "
         
 )
+        
+if
+artifact_type
+:
+            
+run_command
+(
+[
+copy_artifacts_script
+artifact_type
+]
+)
     
 if
 test_type
@@ -1159,7 +1189,7 @@ robo
 run_command
 (
 [
-copy_robo_crash_artifacts_script
+copy_artifacts_script
 "
 crash_log
 "
@@ -1326,6 +1356,37 @@ None
     
 )
     
+parser
+.
+add_argument
+(
+        
+"
+-
+-
+artifact_type
+"
+        
+help
+=
+"
+Type
+of
+artifact
+to
+copy
+after
+running
+the
+tests
+"
+        
+default
+=
+None
+    
+)
+    
 args
 =
 parser
@@ -1403,14 +1464,23 @@ robo
     
 process_results
 (
+        
 flank_config
 =
 args
 .
 flank_config
+        
 test_type
 =
 instrumentation_type
+        
+artifact_type
+=
+args
+.
+artifact_type
+    
 )
     
 sys
