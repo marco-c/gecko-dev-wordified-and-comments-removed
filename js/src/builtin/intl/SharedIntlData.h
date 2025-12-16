@@ -893,7 +893,7 @@ JS
 :
 Handle
 <
-JSString
+JSLinearString
 *
 >
 locale
@@ -941,7 +941,7 @@ JS
 :
 Handle
 <
-JSString
+JSLinearString
 *
 >
 locale
