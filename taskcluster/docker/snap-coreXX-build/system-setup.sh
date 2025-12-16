@@ -528,7 +528,6 @@ multiverse
 universe
 Architectures
 :
-armhf
 arm64
 Signed
 -
@@ -561,15 +560,6 @@ add
 architecture
 "
 arm64
-"
-dpkg
--
--
-add
--
-architecture
-"
-armhf
 "
 apt
 -

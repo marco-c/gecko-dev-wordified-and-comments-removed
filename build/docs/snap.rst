@@ -643,9 +643,6 @@ cross
 -
 compilation
 for
-both
-armhf
-and
 arm64
 .
 To
