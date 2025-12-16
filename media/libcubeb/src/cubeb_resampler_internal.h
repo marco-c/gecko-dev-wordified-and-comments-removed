@@ -1882,7 +1882,7 @@ drop_audio_if_needed
 (
 )
 {
-size_t
+uint32_t
 available
 =
 samples_to_frames
