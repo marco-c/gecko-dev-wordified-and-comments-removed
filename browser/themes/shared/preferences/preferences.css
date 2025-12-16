@@ -191,6 +191,16 @@ size
 medium
 )
 ;
+-
+-
+select
+-
+max
+-
+width
+:
+20rem
+;
 user
 -
 select
