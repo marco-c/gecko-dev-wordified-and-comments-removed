@@ -121,6 +121,17 @@ nsISupports
 aParent
 )
 ;
+CSSNumericValue
+(
+nsCOMPtr
+<
+nsISupports
+>
+aParent
+ValueType
+aValueType
+)
+;
 JSObject
 *
 WrapObject

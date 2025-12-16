@@ -92,7 +92,7 @@ aParent
 ValueType
 :
 :
-Keyword
+KeywordValue
 )
 mValue
 (
@@ -301,7 +301,7 @@ mValueType
 ValueType
 :
 :
-Keyword
+KeywordValue
 )
 ;
 return
