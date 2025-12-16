@@ -396,7 +396,7 @@ NEW_TAB
 await
 SearchUIUtils
 .
-loadSearchFromExtension
+loadSearch
 (
 {
 window
@@ -404,7 +404,7 @@ window
 windowTracker
 .
 topWindow
-query
+searchText
 :
 searchProperties
 .
@@ -417,6 +417,11 @@ triggeringPrincipal
 context
 .
 principal
+sapSource
+:
+"
+webextension
+"
 }
 )
 ;
@@ -464,7 +469,7 @@ CURRENT_TAB
 await
 SearchUIUtils
 .
-loadSearchFromExtension
+loadSearch
 (
 {
 window
@@ -472,7 +477,7 @@ window
 windowTracker
 .
 topWindow
-query
+searchText
 :
 queryProperties
 .
@@ -484,6 +489,11 @@ triggeringPrincipal
 context
 .
 principal
+sapSource
+:
+"
+webextension
+"
 }
 )
 ;
