@@ -1567,6 +1567,11 @@ network
 )
 const
 {
+RTC_DCHECK_RUN_ON
+(
+network_thread_
+)
+;
 RTC_DCHECK
 (
 port_
@@ -1608,6 +1613,11 @@ generation
 )
 const
 {
+RTC_DCHECK_RUN_ON
+(
+network_thread_
+)
+;
 RTC_DCHECK
 (
 port_
@@ -1649,6 +1659,11 @@ priority
 )
 const
 {
+RTC_DCHECK_RUN_ON
+(
+network_thread_
+)
+;
 RTC_DCHECK
 (
 port_
@@ -7606,6 +7621,11 @@ ComputeNetworkCost
 )
 const
 {
+RTC_DCHECK_RUN_ON
+(
+network_thread_
+)
+;
 RTC_DCHECK
 (
 port_

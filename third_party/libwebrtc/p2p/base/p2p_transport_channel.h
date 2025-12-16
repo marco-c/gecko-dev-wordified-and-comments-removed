@@ -2196,6 +2196,7 @@ const
 Environment
 env_
 ;
+const
 std
 :
 :
@@ -2215,6 +2216,7 @@ network_thread_
 ;
 PortAllocator
 *
+const
 allocator_
 RTC_GUARDED_BY
 (

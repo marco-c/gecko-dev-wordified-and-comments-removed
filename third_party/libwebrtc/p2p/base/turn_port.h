@@ -509,6 +509,12 @@ args
 .
 password
 .
+content_name
+=
+args
+.
+content_name
+.
 lna_permission_factory
 =
 args
@@ -633,6 +639,12 @@ ice_password
 args
 .
 password
+.
+content_name
+=
+args
+.
+content_name
 .
 lna_permission_factory
 =

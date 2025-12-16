@@ -1546,6 +1546,16 @@ release
 )
 )
 ;
+EXPECT_FALSE
+(
+session
+-
+>
+pooled
+(
+)
+)
+;
 EXPECT_EQ
 (
 1

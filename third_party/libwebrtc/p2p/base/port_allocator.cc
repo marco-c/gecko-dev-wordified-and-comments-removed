@@ -1070,6 +1070,16 @@ move
 it
 )
 ;
+RTC_DCHECK
+(
+ret
+-
+>
+pooled
+(
+)
+)
+;
 ret
 -
 >
@@ -1153,8 +1163,6 @@ return
 nullptr
 ;
 }
-else
-{
 return
 it
 -
@@ -1163,7 +1171,6 @@ get
 (
 )
 ;
-}
 }
 std
 :

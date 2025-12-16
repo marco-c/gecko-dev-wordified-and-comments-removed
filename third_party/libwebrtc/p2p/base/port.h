@@ -853,6 +853,12 @@ absl
 string_view
 ice_password
 ;
+absl
+:
+:
+string_view
+content_name
+;
 LocalNetworkAccessPermissionFactoryInterface
 *
 lna_permission_factory

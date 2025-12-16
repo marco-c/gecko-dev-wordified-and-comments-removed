@@ -146,6 +146,12 @@ std
 string
 password
 ;
+std
+:
+:
+string
+content_name
+;
 TurnCustomizer
 *
 turn_customizer
