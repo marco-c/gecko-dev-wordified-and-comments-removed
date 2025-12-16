@@ -4572,9 +4572,6 @@ gfx
 Point
 aEndPoint
 const
-bool
-isRelativeEndPoint
-const
 CSSSize
 *
 aBasis
@@ -4602,9 +4599,6 @@ gfx
 Point
 aEndPoint
 const
-bool
-isRelativeEndPoint
-const
 CSSSize
 &
 aBasis
@@ -4616,7 +4610,6 @@ ToGfxPoint
 (
 aStatePos
 aEndPoint
-isRelativeEndPoint
 &
 aBasis
 )
