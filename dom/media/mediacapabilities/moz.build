@@ -84,6 +84,11 @@ MediaCapabilities
 .
 cpp
 "
+"
+MediaCapabilitiesValidation
+.
+cpp
+"
 ]
 include
 (

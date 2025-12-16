@@ -246,7 +246,6 @@ nsContentUtils
 .
 h
 "
-static
 mozilla
 :
 :
