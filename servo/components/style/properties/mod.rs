@@ -93,6 +93,15 @@ self
 ComputedCustomProperties
 }
 ;
+use
+crate
+:
+:
+dom
+:
+:
+AttributeProvider
+;
 #
 [
 cfg
@@ -7283,6 +7292,11 @@ shorthand_cache
 cache
 mut
 ShorthandsWithPropertyReferencesCache
+attr_provider
+:
+&
+dyn
+AttributeProvider
 )
 -
 >
@@ -7416,6 +7430,7 @@ variable_value
 custom_properties
 stylist
 computed_context
+attr_provider
 )
 {
 Ok

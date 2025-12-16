@@ -46,6 +46,15 @@ use
 crate
 :
 :
+dom
+:
+:
+DummyAttributeProvider
+;
+use
+crate
+:
+:
 error_reporting
 :
 :
@@ -1644,6 +1653,10 @@ style
 self
 .
 default_values
+&
+DummyAttributeProvider
+{
+}
 )
 ;
 if
@@ -4782,6 +4795,10 @@ Default
 default
 (
 )
+&
+DummyAttributeProvider
+{
+}
 )
 .
 to_css

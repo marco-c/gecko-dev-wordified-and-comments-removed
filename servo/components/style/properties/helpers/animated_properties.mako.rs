@@ -156,6 +156,15 @@ use
 crate
 :
 :
+dom
+:
+:
+AttributeProvider
+;
+use
+crate
+:
+:
 values
 :
 :
@@ -1698,6 +1707,11 @@ initial
 :
 &
 ComputedValues
+attr_provider
+:
+&
+dyn
+AttributeProvider
 )
 -
 >
@@ -2422,6 +2436,7 @@ context
 &
 mut
 cache
+attr_provider
 )
 }
 ;
@@ -2436,6 +2451,7 @@ substituted
 context
 style
 initial
+attr_provider
 )
 }
 PropertyDeclaration
@@ -2462,6 +2478,7 @@ from_declaration
 declaration
 context
 initial
+attr_provider
 )
 ?
 )
