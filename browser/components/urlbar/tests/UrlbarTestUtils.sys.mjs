@@ -719,7 +719,7 @@ complete
 *
 param
 {
-object
+ChromeWindow
 }
 win
 The
@@ -914,7 +914,7 @@ object
 *
 param
 {
-object
+ChromeWindow
 }
 options
 .
@@ -1596,7 +1596,7 @@ current
 *
 param
 {
-object
+ChromeWindow
 }
 win
 The
@@ -1722,7 +1722,7 @@ urlbar
 *
 param
 {
-object
+ChromeWindow
 }
 win
 The
@@ -1774,7 +1774,7 @@ result
 *
 param
 {
-object
+ChromeWindow
 }
 win
 The
@@ -1877,7 +1877,7 @@ selected
 *
 param
 {
-object
+ChromeWindow
 }
 win
 The
@@ -1961,7 +1961,7 @@ result
 *
 param
 {
-object
+ChromeWindow
 }
 win
 The
@@ -2468,7 +2468,7 @@ object
 *
 param
 {
-object
+ChromeWindow
 }
 options
 .
@@ -3051,7 +3051,7 @@ item
 *
 param
 {
-object
+ChromeWindow
 }
 win
 The
@@ -3383,7 +3383,7 @@ name
 *
 param
 {
-object
+ChromeWindow
 }
 win
 *
@@ -3787,7 +3787,7 @@ visible
 *
 param
 {
-object
+ChromeWindow
 }
 win
 The
@@ -3864,7 +3864,7 @@ index
 *
 param
 {
-object
+ChromeWindow
 }
 win
 The
@@ -4411,7 +4411,7 @@ element
 *
 param
 {
-object
+ChromeWindow
 }
 win
 The
@@ -4472,7 +4472,7 @@ element
 *
 param
 {
-object
+ChromeWindow
 }
 win
 The
@@ -4527,7 +4527,7 @@ index
 *
 param
 {
-object
+ChromeWindow
 }
 win
 The
@@ -4615,7 +4615,7 @@ row
 *
 param
 {
-object
+ChromeWindow
 }
 win
 The
@@ -4674,7 +4674,7 @@ element
 *
 param
 {
-object
+ChromeWindow
 }
 win
 The
@@ -4730,7 +4730,7 @@ specified
 *
 param
 {
-object
+ChromeWindow
 }
 win
 The
@@ -4791,7 +4791,7 @@ bar
 *
 param
 {
-Window
+ChromeWindow
 }
 win
 *
@@ -4858,7 +4858,7 @@ this
 *
 param
 {
-object
+ChromeWindow
 }
 win
 The
@@ -4913,7 +4913,7 @@ present
 *
 param
 {
-Window
+ChromeWindow
 }
 win
 The
@@ -5222,7 +5222,7 @@ shown
 *
 param
 {
-object
+ChromeWindow
 }
 win
 The
@@ -5396,7 +5396,7 @@ hidden
 *
 param
 {
-object
+ChromeWindow
 }
 win
 The
@@ -5634,7 +5634,7 @@ it
 *
 param
 {
-Window
+ChromeWindow
 }
 win
 the
@@ -5844,7 +5844,7 @@ closePromise
 *
 param
 {
-object
+ChromeWindow
 }
 win
 The
@@ -5919,7 +5919,7 @@ init
 *
 param
 {
-Window
+ChromeWindow
 }
 window
 *
@@ -7185,7 +7185,7 @@ init
 *
 param
 {
-object
+ChromeWindow
 }
 window
 *
@@ -7907,7 +7907,7 @@ init
 *
 param
 {
-object
+ChromeWindow
 }
 window
 *
@@ -8412,7 +8412,7 @@ search
 *
 param
 {
-object
+ChromeWindow
 }
 win
 The
@@ -8495,7 +8495,7 @@ field
 *
 param
 {
-object
+ChromeWindow
 }
 win
 The
@@ -9153,7 +9153,7 @@ it
 *
 param
 {
-object
+ChromeWindow
 }
 win
 *
@@ -9363,7 +9363,7 @@ URL
 *
 param
 {
-window
+ChromeWindow
 }
 win
 *
