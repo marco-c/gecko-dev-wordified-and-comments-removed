@@ -575,7 +575,7 @@ colocate
 ]
 check
 =
-False
+True
 )
     
 if

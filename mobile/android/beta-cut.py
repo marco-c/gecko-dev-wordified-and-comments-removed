@@ -1143,7 +1143,7 @@ TARGET_JSON
 ]
 check
 =
-False
+True
 )
             
 return

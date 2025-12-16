@@ -375,7 +375,7 @@ certificate
 ]
 check
 =
-False
+True
 )
     
 else
@@ -445,5 +445,5 @@ shell
 ]
 check
 =
-False
+True
 )

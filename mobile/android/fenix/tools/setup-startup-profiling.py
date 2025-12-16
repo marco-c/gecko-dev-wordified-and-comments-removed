@@ -425,7 +425,7 @@ filename
             
 check
 =
-False
+True
         
 )
         
@@ -457,7 +457,7 @@ id
 ]
 check
 =
-False
+True
 )
         
 print
@@ -610,7 +610,7 @@ filename
 ]
 check
 =
-False
+True
 )
     
 run
@@ -635,7 +635,7 @@ app
 ]
 check
 =
-False
+True
 )
 def
 convert_channel_to_id
