@@ -8116,6 +8116,14 @@ mock_local_network_access_permission
 /
 api
 :
+mock_packet_socket_factory
+"
+"
+.
+.
+/
+api
+:
 network_emulation_manager_api
 "
 "

@@ -7167,6 +7167,9 @@ test
 :
 test_support
 "
+"
+environment
+"
 ]
 }
 rtc_source_set
