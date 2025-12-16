@@ -1253,11 +1253,11 @@ testContext
 .
 getDrawable
 (
-R
+iconsR
 .
 drawable
 .
-ic_back_button
+mozac_ic_back_24
 )
 !
 !
