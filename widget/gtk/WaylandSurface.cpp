@@ -77,6 +77,13 @@ h
 #
 include
 "
+nsWindow
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -4924,7 +4931,13 @@ const
 DesktopIntRect
 rect
 (
+gUseStableRounding
+?
 mSubsurfacePosition
+:
+DesktopIntPoint
+(
+)
 aSize
 )
 ;
