@@ -354,6 +354,15 @@ Sync
 "
 RemoteSettingsService
 .
+client_url
+"
+=
+"
+Sync
+"
+"
+RemoteSettingsService
+.
 new
 "
 =

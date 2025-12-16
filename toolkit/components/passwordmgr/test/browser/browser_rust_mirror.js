@@ -2893,6 +2893,12 @@ Login
 has
 illegal
 origin
+:
+relative
+URL
+without
+a
+base
 "
 "
 event
