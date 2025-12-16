@@ -1468,10 +1468,12 @@ TestStunServer
 :
 Create
 (
+env_
+server_address
+*
 firewall
 (
 )
-server_address
 *
 network_thread
 (

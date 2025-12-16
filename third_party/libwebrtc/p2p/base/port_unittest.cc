@@ -2829,12 +2829,10 @@ TestStunServer
 :
 Create
 (
-ss_
-.
-get
-(
-)
+env_
 kStunAddr
+*
+ss_
 main_
 )
 )
