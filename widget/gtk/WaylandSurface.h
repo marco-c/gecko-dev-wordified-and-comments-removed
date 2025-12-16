@@ -728,6 +728,7 @@ double
 GetScale
 (
 )
+const
 ;
 void
 SetCeiledScaleLocked
@@ -1085,6 +1086,16 @@ WaylandSurfaceLock
 aProofOfLock
 )
 ;
+LayoutDeviceIntSize
+GetScaledSize
+(
+const
+DesktopIntSize
+&
+aSize
+)
+const
+;
 void
 *
 mLoggingWidget
@@ -1224,12 +1235,6 @@ nullptr
 ;
 DesktopIntPoint
 mSubsurfacePosition
-{
--
-1
--
-1
-}
 ;
 AutoTArray
 <
