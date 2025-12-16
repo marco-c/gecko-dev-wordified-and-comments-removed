@@ -8092,9 +8092,6 @@ name
 "
 TrustedHTML
 "
-earlyBetaOrEarlier
-:
-true
 insecureContext
 :
 true
@@ -8105,9 +8102,6 @@ name
 "
 TrustedScript
 "
-earlyBetaOrEarlier
-:
-true
 insecureContext
 :
 true
@@ -8118,9 +8112,6 @@ name
 "
 TrustedScriptURL
 "
-earlyBetaOrEarlier
-:
-true
 insecureContext
 :
 true
@@ -8131,9 +8122,6 @@ name
 "
 TrustedTypePolicy
 "
-earlyBetaOrEarlier
-:
-true
 insecureContext
 :
 true
@@ -8144,9 +8132,6 @@ name
 "
 TrustedTypePolicyFactory
 "
-earlyBetaOrEarlier
-:
-true
 insecureContext
 :
 true
@@ -11163,9 +11148,6 @@ name
 "
 trustedTypes
 "
-earlyBetaOrEarlier
-:
-true
 insecureContext
 :
 true
