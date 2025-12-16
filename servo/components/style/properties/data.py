@@ -3594,10 +3594,6 @@ OverflowAnchor
 "
                 
 "
-OverflowClipBox
-"
-                
-"
 OverflowWrap
 "
                 
