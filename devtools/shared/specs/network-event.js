@@ -767,13 +767,13 @@ Option
 number
 "
 )
-extension
+blockingExtension
 :
 Option
 (
 1
 "
-json
+string
 "
 )
 }

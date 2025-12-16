@@ -806,7 +806,7 @@ priority
 blockedReason
 "
 "
-extension
+blockingExtension
 "
 "
 channelId
@@ -2015,15 +2015,6 @@ Fingerprinting
 :
 "
 Socialtracking
-"
-2011
-:
-"
-Harmful
-Add
--
-on
-Blocked
 "
 3001
 :

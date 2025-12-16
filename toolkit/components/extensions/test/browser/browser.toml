@@ -444,13 +444,6 @@ js
 ]
 [
 "
-browser_ext_urlclassifier
-.
-js
-"
-]
-[
-"
 browser_ext_webNavigation_eventpage
 .
 js
