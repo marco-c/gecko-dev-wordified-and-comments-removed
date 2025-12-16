@@ -5223,6 +5223,14 @@ dtls_transport_interface
 /
 api
 :
+field_trials_view
+"
+"
+.
+.
+/
+api
+:
 libjingle_peerconnection_api
 "
 "
