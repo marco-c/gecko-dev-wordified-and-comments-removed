@@ -1879,7 +1879,7 @@ port
 )
 ;
 void
-NotifyRoleConflict
+NotifyRoleConflictInternal
 (
 )
 ;

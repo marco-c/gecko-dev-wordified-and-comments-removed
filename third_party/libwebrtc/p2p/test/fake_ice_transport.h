@@ -764,7 +764,7 @@ legacy_transport_state_
 =
 legacy_state
 ;
-SignalIceTransportStateChanged
+NotifyIceTransportStateChanged
 (
 this
 )
@@ -808,7 +808,7 @@ connection_count_
 old_connection_count
 )
 {
-SignalIceTransportStateChanged
+NotifyIceTransportStateChanged
 (
 this
 )

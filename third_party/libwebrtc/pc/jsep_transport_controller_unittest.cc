@@ -1949,7 +1949,7 @@ fake_ice_transport
 )
 -
 >
-SignalCandidateGathered
+NotifyCandidateGathered
 (
 fake_audio_dtls
 -
@@ -1970,7 +1970,7 @@ fake_ice_transport
 )
 -
 >
-SignalCandidateGathered
+NotifyCandidateGathered
 (
 fake_video_dtls
 -
@@ -7126,7 +7126,7 @@ fake_ice_transport
 )
 -
 >
-SignalCandidateGathered
+NotifyCandidateGathered
 (
 fake_audio_dtls
 -
