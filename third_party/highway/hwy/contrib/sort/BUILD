@@ -1205,6 +1205,12 @@ algo
 :
 hwy
 "
+"
+/
+/
+:
+nanobenchmark
+"
 ]
 )
 #
@@ -1402,6 +1408,12 @@ algo
 /
 :
 hwy
+"
+"
+/
+/
+:
+nanobenchmark
 "
 ]
 )

@@ -1885,7 +1885,14 @@ GetPMU
 {
 static
 PMU
+&
 pmu
+=
+*
+new
+PMU
+(
+)
 ;
 return
 pmu

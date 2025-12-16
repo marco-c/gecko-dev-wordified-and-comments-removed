@@ -4187,6 +4187,7 @@ bits
 32
 ;
 }
+{
 const
 double
 expected
@@ -4268,6 +4269,7 @@ sum_hi
 expected
 )
 ;
+}
 const
 size_t
 lanes_per_block

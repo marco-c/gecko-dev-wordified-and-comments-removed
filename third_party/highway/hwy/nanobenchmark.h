@@ -171,7 +171,7 @@ FuncOutput
 CallClosure
 (
 const
-Closure
+void
 *
 f
 const
@@ -182,7 +182,15 @@ input
 return
 (
 *
+reinterpret_cast
+<
+const
+Closure
+*
+>
+(
 f
+)
 )
 (
 input
@@ -226,7 +234,7 @@ Params
 return
 Measure
 (
-reinterpret_cast
+static_cast
 <
 Func
 >

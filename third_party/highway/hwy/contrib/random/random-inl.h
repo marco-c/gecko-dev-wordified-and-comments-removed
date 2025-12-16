@@ -70,8 +70,6 @@ HWY_NAMESPACE
 namespace
 internal
 {
-namespace
-{
 #
 if
 HWY_HAVE_FLOAT64
@@ -136,7 +134,6 @@ kLongJump
 0x39109bb02acbe635
 }
 ;
-}
 class
 SplitMix64
 {

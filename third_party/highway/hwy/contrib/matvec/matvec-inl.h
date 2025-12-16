@@ -168,7 +168,7 @@ add
 ;
 constexpr
 size_t
-kChunkSize
+kChunkSize2
 =
 64
 /
@@ -188,7 +188,7 @@ uint64_t
 (
 kOuter
 /
-kChunkSize
+kChunkSize2
 )
 ;
 const
@@ -209,7 +209,7 @@ d
 ;
 HWY_DASSERT
 (
-kChunkSize
+kChunkSize2
 >
 =
 N
@@ -744,7 +744,7 @@ r
 =
 num_chunks
 *
-kChunkSize
+kChunkSize2
 ;
 r
 <
