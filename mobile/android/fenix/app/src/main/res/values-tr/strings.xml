@@ -47782,7 +47782,7 @@ ignore
 UnusedResources
 "
 >
-Kasaba
+Townland
 <
 /
 string
@@ -48005,8 +48005,7 @@ ignore
 UnusedResources
 "
 >
-Y
-rekent
+Banliy
 <
 /
 string
@@ -48155,7 +48154,7 @@ ignore
 UnusedResources
 "
 >
-Mahalle
+Parish
 <
 /
 string
@@ -65875,8 +65874,8 @@ name
 settings_search_title
 "
 >
-Arama
-ayarlar
+Ayarlarda
+ara
 <
 /
 string

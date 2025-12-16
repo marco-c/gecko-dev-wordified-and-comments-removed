@@ -2540,7 +2540,7 @@ mozac_feature_prompts_select_credit_card_2
 >
 Folose
 te
-cartela
+cardul
 salvat
 <
 /
@@ -2575,10 +2575,9 @@ name
 mozac_feature_prompts_expand_credit_cards_content_description_2
 "
 >
-Epandeaz
+Extinde
 cardurile
-de
-credit
+salvate
 <
 /
 string

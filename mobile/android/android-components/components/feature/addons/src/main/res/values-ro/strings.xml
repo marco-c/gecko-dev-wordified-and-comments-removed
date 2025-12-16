@@ -8016,14 +8016,10 @@ name
 mozac_feature_addons_failed_to_query_extensions
 "
 >
-E
-ueaz
-cererea
-c
-tre
-lista
-de
-extensii
+Eroare
+la
+interogarea
+extensiilor
 !
 <
 /
@@ -9187,6 +9183,7 @@ name
 mozac_feature_addons_unsupported_caption_2
 "
 >
+1
 extensie
 <
 /
