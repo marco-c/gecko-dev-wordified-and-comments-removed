@@ -250,6 +250,17 @@ HREF
 IsExplicitlySet
 (
 )
+|
+|
+!
+mStringAttributes
+[
+XLINK_HREF
+]
+.
+IsExplicitlySet
+(
+)
 ?
 mStringAttributes
 [
