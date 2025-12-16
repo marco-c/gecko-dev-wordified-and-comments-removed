@@ -16763,11 +16763,6 @@ IfNotVisible
 ScrollFlags
 :
 :
-ScrollOverflowHidden
-|
-ScrollFlags
-:
-:
 ForZoomToFocusedInput
 )
 ;
