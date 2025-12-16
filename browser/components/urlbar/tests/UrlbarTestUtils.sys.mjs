@@ -4026,7 +4026,14 @@ title
 =
 result
 .
+getDisplayableValueAndHighlights
+(
+"
 title
+"
+)
+.
+value
 ;
 details
 .

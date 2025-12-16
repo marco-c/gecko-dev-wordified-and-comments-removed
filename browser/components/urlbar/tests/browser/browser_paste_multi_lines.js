@@ -914,8 +914,7 @@ urlbar
 "
 title
 :
-"
-"
+undefined
 type
 :
 UrlbarUtils
