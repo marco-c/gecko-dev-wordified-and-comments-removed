@@ -27310,8 +27310,13 @@ GeckoDriver
 prototype
 .
 takeScreenshot
+/
+/
+Global
+Privacy
+Control
 "
-WebDriver
+GPC
 :
 GetGlobalPrivacyControl
 "
@@ -27322,7 +27327,7 @@ prototype
 .
 getGlobalPrivacyControl
 "
-WebDriver
+GPC
 :
 SetGlobalPrivacyControl
 "

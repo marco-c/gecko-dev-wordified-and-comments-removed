@@ -4093,7 +4093,7 @@ marionette
 _send_message
 (
 "
-WebDriver
+GPC
 :
 SetGlobalPrivacyControl
 "
@@ -4144,7 +4144,7 @@ marionette
 _send_message
 (
 "
-WebDriver
+GPC
 :
 GetGlobalPrivacyControl
 "
