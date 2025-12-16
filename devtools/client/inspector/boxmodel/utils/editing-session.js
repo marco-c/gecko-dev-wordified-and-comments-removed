@@ -3,8 +3,10 @@ use
 strict
 "
 ;
-function
+class
 EditingSession
+{
+constructor
 (
 {
 inspector
@@ -41,11 +43,6 @@ Map
 )
 ;
 }
-EditingSession
-.
-prototype
-=
-{
 getPropertyFromRule
 (
 rule
@@ -617,7 +614,6 @@ null
 ;
 }
 }
-;
 module
 .
 exports
