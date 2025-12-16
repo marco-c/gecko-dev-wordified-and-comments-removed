@@ -443,8 +443,15 @@ std
 :
 :
 max
+<
+int
+>
 (
-MIN_CHECK_RECEIVING_INTERVAL
+kMinCheckReceivingInterval
+.
+ms
+(
+)
 config_
 .
 receiving_timeout_or_default

@@ -1213,7 +1213,11 @@ resend_delay
 )
 {
 return
-CONNECTION_RESPONSE_TIMEOUT
+kConnectionResponseTimeout
+.
+ms
+(
+)
 ;
 }
 Connection
@@ -2259,7 +2263,7 @@ unwritable_min_checks_
 .
 value_or
 (
-CONNECTION_WRITE_CONNECT_FAILURES
+kConnectionWriteConnectFailures
 )
 ;
 }
@@ -4415,7 +4419,7 @@ value
 (
 )
 >
-CONNECTION_WRITE_CONNECT_FAILURES
+kConnectionWriteConnectFailures
 )
 {
 RTC_LOG

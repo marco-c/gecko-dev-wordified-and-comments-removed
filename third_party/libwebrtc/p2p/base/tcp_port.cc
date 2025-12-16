@@ -1668,7 +1668,11 @@ false
 )
 reconnection_timeout_
 (
-CONNECTION_WRITE_CONNECT_TIMEOUT
+kConnectionWriteConnectTimeout
+.
+ms
+(
+)
 )
 {
 RTC_DCHECK_RUN_ON

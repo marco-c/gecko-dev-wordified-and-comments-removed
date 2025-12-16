@@ -717,7 +717,7 @@ num_pings_sent
 (
 )
 <
-MIN_PINGS_AT_WEAK_PING_INTERVAL
+kMinPingsAtWeakPingInterval
 ;
 }
 )
@@ -1394,7 +1394,7 @@ num_pings_sent
 (
 )
 <
-MIN_PINGS_AT_WEAK_PING_INTERVAL
+kMinPingsAtWeakPingInterval
 )
 {
 return
@@ -1419,9 +1419,16 @@ std
 :
 :
 min
+<
+int
+>
 (
 stable_interval
-WEAK_OR_STABILIZING_WRITABLE_CONNECTION_PING_INTERVAL
+kWeakOrStabilizingWritableConnectionPingInterval
+.
+ms
+(
+)
 )
 ;
 return
