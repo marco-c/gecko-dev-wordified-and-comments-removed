@@ -4078,6 +4078,9 @@ format
 bytes
 :
 bgra_pixels
+is_packed_glyph
+:
+false
 }
 )
 }
