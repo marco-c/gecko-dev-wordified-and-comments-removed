@@ -426,9 +426,13 @@ top
 level
 browsing
 contexts
+in
+/
+/
+the
+content
+process
 until
-/
-/
 the
 embedder
 element
@@ -438,6 +442,11 @@ set
 .
 if
 (
+subject
+.
+isContent
+&
+&
 !
 subject
 .
