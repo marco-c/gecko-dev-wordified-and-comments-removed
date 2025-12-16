@@ -2099,6 +2099,15 @@ Bearer
 {
 fxAccountToken
 }
+"
+service
+-
+type
+"
+:
+"
+ai
+"
 }
 :
 undefined
