@@ -4730,12 +4730,14 @@ No
 ;
 return
 {
+{
 result
 .
 mFrame
 result
 .
 mOffsetInFrameContent
+}
 result
 .
 mHint
@@ -4765,8 +4767,10 @@ offset
 ;
 return
 {
+{
 theFrame
 offset
+}
 aHint
 }
 ;
