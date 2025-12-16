@@ -438,8 +438,12 @@ repeat
 INDENT_SIZE
 )
 ;
-function
+class
 RuleEditor
+extends
+EventEmitter
+{
+constructor
 (
 ruleView
 rule
@@ -449,11 +453,8 @@ options
 }
 )
 {
-EventEmitter
-.
-decorate
+super
 (
-this
 )
 ;
 this
@@ -696,11 +697,6 @@ _create
 )
 ;
 }
-RuleEditor
-.
-prototype
-=
-{
 destroy
 (
 )
@@ -6036,7 +6032,6 @@ click
 }
 }
 }
-;
 module
 .
 exports
