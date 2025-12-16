@@ -2401,6 +2401,14 @@ string
 }
 tokenCSS
 *
+param
+{
+string
+[
+]
+}
+allowList
+*
 returns
 {
 boolean
@@ -2415,6 +2423,9 @@ isValidLocalProperty
 value
 cssCustomProperties
 tokenCSS
+allowList
+=
+ALLOW_LIST
 )
 =
 >
@@ -2504,7 +2515,7 @@ customProperty
 ]
 tokenCSS
 cssCustomProperties
-ALLOW_LIST
+allowList
 )
 ;
 }
@@ -2934,6 +2945,7 @@ isValidLocalProperty
 variableNode
 cssCustomProperties
 tokenCSS
+allowList
 )
 ;
 }
