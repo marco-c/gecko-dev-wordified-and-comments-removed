@@ -1829,6 +1829,7 @@ MoofParser
 :
 ParseMoov
 (
+const
 Box
 &
 aBox
@@ -1944,6 +1945,7 @@ MoofParser
 :
 ParseTrak
 (
+const
 Box
 &
 aBox
@@ -2119,6 +2121,7 @@ MoofParser
 :
 ParseMdia
 (
+const
 Box
 &
 aBox
@@ -2215,6 +2218,7 @@ MoofParser
 :
 ParseMvex
 (
+const
 Box
 &
 aBox
@@ -2325,6 +2329,7 @@ MoofParser
 :
 ParseMinf
 (
+const
 Box
 &
 aBox
@@ -2400,6 +2405,7 @@ MoofParser
 :
 ParseStbl
 (
+const
 Box
 &
 aBox
@@ -2623,6 +2629,7 @@ MoofParser
 :
 ParseStsd
 (
+const
 Box
 &
 aBox
@@ -2914,6 +2921,7 @@ MoofParser
 :
 ParseEncrypted
 (
+const
 Box
 &
 aBox
@@ -6800,6 +6808,7 @@ Tkhd
 :
 Tkhd
 (
+const
 Box
 &
 aBox
@@ -6848,6 +6857,7 @@ Tkhd
 :
 Parse
 (
+const
 Box
 &
 aBox
@@ -7081,6 +7091,7 @@ Mvhd
 :
 Mvhd
 (
+const
 Box
 &
 aBox
@@ -7141,6 +7152,7 @@ Mvhd
 :
 Parse
 (
+const
 Box
 &
 aBox
@@ -7323,6 +7335,7 @@ Mdhd
 :
 Mdhd
 (
+const
 Box
 &
 aBox
@@ -7503,6 +7516,7 @@ Tfhd
 :
 Tfhd
 (
+const
 Box
 &
 aBox
@@ -7559,6 +7573,7 @@ Tfhd
 :
 Parse
 (
+const
 Box
 &
 aBox
@@ -7774,6 +7789,7 @@ Tfdt
 :
 Tfdt
 (
+const
 Box
 &
 aBox
@@ -7822,6 +7838,7 @@ Tfdt
 :
 Parse
 (
+const
 Box
 &
 aBox
@@ -7908,6 +7925,7 @@ Edts
 :
 Edts
 (
+const
 Box
 &
 aBox
@@ -7960,6 +7978,7 @@ Edts
 :
 Parse
 (
+const
 Box
 &
 aBox
@@ -8294,6 +8313,7 @@ Saiz
 :
 Saiz
 (
+const
 Box
 &
 aBox
@@ -8348,6 +8368,7 @@ Saiz
 :
 Parse
 (
+const
 Box
 &
 aBox
@@ -8531,6 +8552,7 @@ Saio
 :
 Saio
 (
+const
 Box
 &
 aBox
@@ -8585,6 +8607,7 @@ Saio
 :
 Parse
 (
+const
 Box
 &
 aBox
@@ -8794,6 +8817,7 @@ Sbgp
 :
 Sbgp
 (
+const
 Box
 &
 aBox
@@ -8842,6 +8866,7 @@ Sbgp
 :
 Parse
 (
+const
 Box
 &
 aBox
@@ -9012,6 +9037,7 @@ Sgpd
 :
 Sgpd
 (
+const
 Box
 &
 aBox
@@ -9055,6 +9081,7 @@ Sgpd
 :
 Parse
 (
+const
 Box
 &
 aBox

@@ -43,6 +43,7 @@ Sinf
 :
 Sinf
 (
+const
 Box
 &
 aBox
@@ -88,6 +89,7 @@ SinfParser
 :
 SinfParser
 (
+const
 Box
 &
 aBox
@@ -174,6 +176,7 @@ SinfParser
 :
 ParseSchm
 (
+const
 Box
 &
 aBox
@@ -244,6 +247,7 @@ SinfParser
 :
 ParseSchi
 (
+const
 Box
 &
 aBox
@@ -321,6 +325,7 @@ SinfParser
 :
 ParseTenc
 (
+const
 Box
 &
 aBox
