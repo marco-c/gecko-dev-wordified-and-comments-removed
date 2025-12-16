@@ -113,7 +113,7 @@ getFormatStr
 "
 networkMenu
 .
-addonBlocked
+blockedby
 "
 extension
 .
@@ -139,7 +139,7 @@ getFormatStr
 "
 networkMenu
 .
-blockedby
+addonBlocked
 "
 extension
 .
