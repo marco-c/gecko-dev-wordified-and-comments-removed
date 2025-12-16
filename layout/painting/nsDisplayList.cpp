@@ -4492,6 +4492,12 @@ FreeTemporaryItems
 (
 )
 ;
+mAsyncScrollsWithAnchor
+.
+Clear
+(
+)
+;
 nsCSSRendering
 :
 :
