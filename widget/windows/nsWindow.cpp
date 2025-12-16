@@ -23024,10 +23024,6 @@ OnWindowPosChanged
 this
 )
 ;
-result
-=
-true
-;
 }
 break
 ;
