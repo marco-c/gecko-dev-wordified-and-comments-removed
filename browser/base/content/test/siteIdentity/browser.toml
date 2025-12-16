@@ -34,17 +34,6 @@ prefs
 =
 [
 "
-browser
-.
-urlbar
-.
-trustPanel
-.
-featureGate
-=
-false
-"
-"
 security
 .
 certerrors
