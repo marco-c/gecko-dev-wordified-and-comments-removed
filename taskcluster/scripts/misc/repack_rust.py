@@ -2892,6 +2892,9 @@ analysis
 cargo
 "
 "
+rustdoc
+"
+"
 rustfmt
 "
 "
