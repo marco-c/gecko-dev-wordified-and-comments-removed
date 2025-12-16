@@ -11028,15 +11028,6 @@ MigrateV84Up
 (
 )
 {
-printf
-(
-"
-Upgrading
-database
-.
-"
-)
-;
 nsresult
 rv
 =
