@@ -454,6 +454,17 @@ apilint
 '
 spotless
 {
+lineEndings
+=
+com
+.
+diffplug
+.
+spotless
+.
+LineEnding
+.
+UNIX
 java
 {
 googleJavaFormat
