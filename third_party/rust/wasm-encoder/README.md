@@ -386,6 +386,10 @@ I32
 ;
 types
 .
+ty
+(
+)
+.
 function
 (
 params

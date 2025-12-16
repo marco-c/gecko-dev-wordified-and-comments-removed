@@ -11,6 +11,15 @@ ComponentValType
 Encode
 }
 ;
+use
+alloc
+:
+:
+vec
+:
+:
+Vec
+;
 #
 [
 derive

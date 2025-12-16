@@ -1,3 +1,16 @@
+#
+[
+cfg
+(
+feature
+=
+"
+hash
+-
+collections
+"
+)
+]
 pub
 mod
 hash

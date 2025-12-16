@@ -9,6 +9,15 @@ Encode
 Module
 }
 ;
+use
+alloc
+:
+:
+vec
+:
+:
+Vec
+;
 #
 [
 derive

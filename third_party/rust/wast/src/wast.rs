@@ -3620,6 +3620,10 @@ allow
 missing_docs
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 WastArg
@@ -3803,6 +3807,10 @@ allow
 (
 missing_docs
 )
+]
+#
+[
+non_exhaustive
 ]
 pub
 enum

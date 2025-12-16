@@ -65,10 +65,7 @@ use
 common
 :
 :
-{
-parser_features_from_config
 validate
-}
 ;
 #
 [
@@ -994,10 +991,10 @@ clone
 let
 features
 =
-parser_features_from_config
-(
-&
 config
+.
+features
+(
 )
 ;
 let

@@ -23,6 +23,15 @@ Encode
 ExportKind
 }
 ;
+use
+alloc
+:
+:
+vec
+:
+:
+Vec
+;
 #
 [
 derive

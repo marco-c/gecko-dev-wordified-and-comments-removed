@@ -481,7 +481,7 @@ Cow
 a
 str
 >
-decimal
+fractional
 :
 Option
 <
@@ -5267,7 +5267,7 @@ s
 let
 (
 integral
-decimal
+fractional
 exponent
 )
 =
@@ -5542,9 +5542,9 @@ integral
 ;
 let
 mut
-decimal
+fractional
 =
-decimal
+fractional
 .
 and_then
 (
@@ -5634,21 +5634,21 @@ if
 let
 Some
 (
-decimal
+fractional
 )
 =
 &
 mut
-decimal
+fractional
 {
 *
-decimal
+fractional
 .
 to_mut
 (
 )
 =
-decimal
+fractional
 .
 replace
 (
@@ -5720,7 +5720,7 @@ Val
 {
 hex
 integral
-decimal
+fractional
 exponent
 }
 }
@@ -8775,7 +8775,7 @@ integral
 into
 (
 )
-decimal
+fractional
 :
 Some
 (
@@ -8821,7 +8821,7 @@ integral
 into
 (
 )
-decimal
+fractional
 :
 Some
 (
@@ -8880,7 +8880,7 @@ integral
 into
 (
 )
-decimal
+fractional
 :
 Some
 (
@@ -8938,7 +8938,7 @@ integral
 into
 (
 )
-decimal
+fractional
 :
 Some
 (
@@ -8994,7 +8994,7 @@ integral
 into
 (
 )
-decimal
+fractional
 :
 Some
 (
@@ -9052,7 +9052,7 @@ integral
 into
 (
 )
-decimal
+fractional
 :
 Some
 (
@@ -9107,7 +9107,7 @@ integral
 into
 (
 )
-decimal
+fractional
 :
 None
 exponent
@@ -9144,7 +9144,7 @@ integral
 into
 (
 )
-decimal
+fractional
 :
 None
 exponent

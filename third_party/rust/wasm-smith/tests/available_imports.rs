@@ -73,10 +73,7 @@ use
 common
 :
 :
-{
-parser_features_from_config
 validate
-}
 ;
 #
 [
@@ -180,10 +177,10 @@ u
 let
 features
 =
-parser_features_from_config
-(
-&
 config
+.
+features
+(
 )
 ;
 if

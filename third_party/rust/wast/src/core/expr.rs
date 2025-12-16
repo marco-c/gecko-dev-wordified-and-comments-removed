@@ -11955,12 +11955,14 @@ mul_wide_u
 "
 }
 }
-const
-_
-:
+#
+[
+test
+]
+fn
+assert_instruction_not_too_large
 (
 )
-=
 {
 let
 size
@@ -12014,7 +12016,6 @@ pointer
 )
 ;
 }
-;
 impl
 <
 '

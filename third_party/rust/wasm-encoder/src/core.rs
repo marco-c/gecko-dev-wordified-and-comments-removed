@@ -184,6 +184,15 @@ crate
 :
 Encode
 ;
+use
+alloc
+:
+:
+vec
+:
+:
+Vec
+;
 pub
 (
 crate

@@ -149,6 +149,12 @@ DataVal
 a
 >
 >
+page_size_log2
+:
+Option
+<
+u32
+>
 }
 }
 impl
@@ -396,6 +402,15 @@ is_some
 }
 ;
 let
+page_size_log2
+=
+page_size
+(
+parser
+)
+?
+;
+let
 data
 =
 parser
@@ -468,6 +483,7 @@ Inline
 {
 data
 is64
+page_size_log2
 }
 }
 else

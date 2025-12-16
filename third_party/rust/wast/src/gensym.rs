@@ -63,7 +63,7 @@ set
 }
 pub
 fn
-gen
+generate
 (
 span
 :
@@ -86,7 +86,7 @@ next
 |
 {
 let
-gen
+generation
 =
 next
 .
@@ -100,7 +100,7 @@ next
 .
 set
 (
-gen
+generation
 )
 ;
 Id
@@ -109,7 +109,7 @@ Id
 gensym
 (
 span
-gen
+generation
 )
 }
 )
@@ -153,7 +153,7 @@ get_or_insert_with
 (
 |
 |
-gen
+generate
 (
 span
 )

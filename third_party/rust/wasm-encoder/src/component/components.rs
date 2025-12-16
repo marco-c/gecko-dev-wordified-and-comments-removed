@@ -9,6 +9,15 @@ ComponentSectionId
 Encode
 }
 ;
+use
+alloc
+:
+:
+vec
+:
+:
+Vec
+;
 #
 [
 derive

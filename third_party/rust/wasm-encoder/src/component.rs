@@ -152,6 +152,15 @@ ProducersSection
 RawCustomSection
 }
 ;
+use
+alloc
+:
+:
+vec
+:
+:
+Vec
+;
 const
 CORE_TYPE_SORT
 :
