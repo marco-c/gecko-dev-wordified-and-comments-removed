@@ -315,6 +315,17 @@ url
 =
 =
 BROWSER_NEW_TAB_URL
+|
+|
+url
+=
+=
+=
+"
+about
+:
+opentabs
+"
 )
 {
 continue

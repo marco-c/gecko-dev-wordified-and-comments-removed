@@ -2893,6 +2893,11 @@ about
 :
 newprofile
 "
+"
+about
+:
+opentabs
+"
 ]
 }
 LinkHandler

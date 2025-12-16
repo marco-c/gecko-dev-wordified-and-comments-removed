@@ -7328,6 +7328,12 @@ _ns
 "
 about
 :
+opentabs
+"
+_ns
+"
+about
+:
 preferences
 "
 _ns

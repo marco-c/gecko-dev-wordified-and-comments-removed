@@ -985,6 +985,11 @@ about
 :
 firefoxview
 "
+"
+about
+:
+opentabs
+"
 ]
 ;
 const

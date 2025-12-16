@@ -12536,6 +12536,8 @@ null
 }
 this
 .
+tabContainer
+.
 dispatchEvent
 (
 new
@@ -12742,6 +12744,7 @@ linkedPanel
 if
 (
 panelEl
+?
 .
 querySelector
 (
@@ -12758,6 +12761,11 @@ footer
 return
 ;
 }
+if
+(
+panelEl
+)
+{
 const
 footer
 =
@@ -12788,6 +12796,7 @@ appendChild
 footer
 )
 ;
+}
 }
 openSplitViewMenu
 (
@@ -40370,7 +40379,11 @@ gBrowser
 .
 addTrustedTab
 (
-BROWSER_NEW_TAB_URL
+"
+about
+:
+opentabs
+"
 )
 ;
 tabsToAdd
