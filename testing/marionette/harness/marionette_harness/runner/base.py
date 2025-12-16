@@ -2891,6 +2891,8 @@ headless
             
 default
 =
+bool
+(
 os
 .
 environ
@@ -2900,7 +2902,7 @@ get
 "
 MOZ_HEADLESS
 "
-False
+)
 )
             
 help

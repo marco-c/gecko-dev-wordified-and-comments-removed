@@ -133,7 +133,6 @@ get
 "
 MOZ_AUTOMATION
 "
-False
 )
 )
 }

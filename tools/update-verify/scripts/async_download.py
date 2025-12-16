@@ -91,6 +91,8 @@ cache
 )
 UV_PARALLEL_DOWNLOADS
 =
+int
+(
 os
 .
 getenv
@@ -98,7 +100,10 @@ getenv
 "
 UV_PARALLEL_DOWNLOADS
 "
+"
 20
+"
+)
 )
 FTP_SERVER_TO
 =

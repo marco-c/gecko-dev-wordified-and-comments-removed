@@ -837,11 +837,10 @@ get
 "
 MOZ_AUTOMATION
 "
-0
 )
-!
-=
-0
+is
+not
+None
         
 self
 .
