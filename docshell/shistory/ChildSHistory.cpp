@@ -56,6 +56,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs_browser
+.
+h
+"
+#
+include
+"
 nsIXULRuntime
 .
 h
