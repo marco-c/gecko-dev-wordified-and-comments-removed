@@ -182,8 +182,6 @@ dom
 .
 text_fragments
 .
-create_text_fragment
-.
 enabled
 "
 ChromeOnly
