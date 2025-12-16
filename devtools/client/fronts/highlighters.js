@@ -237,12 +237,6 @@ destroy
 ;
 }
 }
-exports
-.
-CustomHighlighterFront
-=
-CustomHighlighterFront
-;
 registerFront
 (
 CustomHighlighterFront

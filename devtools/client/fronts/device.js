@@ -82,12 +82,6 @@ deviceActor
 ;
 }
 }
-exports
-.
-DeviceFront
-=
-DeviceFront
-;
 registerFront
 (
 DeviceFront

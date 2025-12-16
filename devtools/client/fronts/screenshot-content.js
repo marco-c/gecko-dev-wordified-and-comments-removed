@@ -84,12 +84,6 @@ screenshotContentActor
 ;
 }
 }
-exports
-.
-ScreenshotContentFront
-=
-ScreenshotContentFront
-;
 registerFront
 (
 ScreenshotContentFront

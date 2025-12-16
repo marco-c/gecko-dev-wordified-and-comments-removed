@@ -424,12 +424,6 @@ destroy
 ;
 }
 }
-exports
-.
-WebConsoleFront
-=
-WebConsoleFront
-;
 registerFront
 (
 WebConsoleFront

@@ -82,12 +82,6 @@ reflowActor
 ;
 }
 }
-exports
-.
-ReflowFront
-=
-ReflowFront
-;
 registerFront
 (
 ReflowFront

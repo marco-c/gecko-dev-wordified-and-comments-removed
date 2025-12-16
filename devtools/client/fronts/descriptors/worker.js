@@ -653,16 +653,8 @@ resolve
 ;
 }
 }
-exports
-.
-WorkerDescriptorFront
-=
-WorkerDescriptorFront
-;
 registerFront
 (
-exports
-.
 WorkerDescriptorFront
 )
 ;

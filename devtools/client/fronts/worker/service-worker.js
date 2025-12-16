@@ -331,12 +331,6 @@ form
 ;
 }
 }
-exports
-.
-ServiceWorkerFront
-=
-ServiceWorkerFront
-;
 registerFront
 (
 ServiceWorkerFront

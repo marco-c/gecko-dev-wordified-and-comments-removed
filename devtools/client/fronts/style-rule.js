@@ -831,12 +831,6 @@ modifications
 ;
 }
 }
-exports
-.
-StyleRuleFront
-=
-StyleRuleFront
-;
 registerFront
 (
 StyleRuleFront

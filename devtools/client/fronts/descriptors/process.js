@@ -572,12 +572,6 @@ destroy
 ;
 }
 }
-exports
-.
-ProcessDescriptorFront
-=
-ProcessDescriptorFront
-;
 registerFront
 (
 ProcessDescriptorFront

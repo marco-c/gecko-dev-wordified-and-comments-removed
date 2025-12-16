@@ -113,12 +113,6 @@ _traits
 ;
 }
 }
-exports
-.
-PreferenceFront
-=
-PreferenceFront
-;
 registerFront
 (
 PreferenceFront

@@ -138,8 +138,6 @@ ContentScriptTargetFront
 ;
 registerFront
 (
-exports
-.
 ContentScriptTargetFront
 )
 ;

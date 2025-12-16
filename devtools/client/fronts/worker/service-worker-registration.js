@@ -306,12 +306,6 @@ traits
 ;
 }
 }
-exports
-.
-ServiceWorkerRegistrationFront
-=
-ServiceWorkerRegistrationFront
-;
 registerFront
 (
 ServiceWorkerRegistrationFront

@@ -126,12 +126,6 @@ _traits
 ;
 }
 }
-exports
-.
-StyleSheetsFront
-=
-StyleSheetsFront
-;
 registerFront
 (
 StyleSheetsFront

@@ -1042,12 +1042,6 @@ contentDomReference
 ;
 }
 }
-exports
-.
-InspectorFront
-=
-InspectorFront
-;
 registerFront
 (
 InspectorFront

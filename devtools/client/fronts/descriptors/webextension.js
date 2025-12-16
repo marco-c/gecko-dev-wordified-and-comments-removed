@@ -500,12 +500,6 @@ descriptor
 ;
 }
 }
-exports
-.
-WebExtensionDescriptorFront
-=
-WebExtensionDescriptorFront
-;
 registerFront
 (
 WebExtensionDescriptorFront
