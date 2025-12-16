@@ -51,8 +51,10 @@ js
 true
 )
 ;
-function
+class
 DomPanel
+{
+constructor
 (
 iframeWindow
 toolbox
@@ -120,11 +122,6 @@ this
 )
 ;
 }
-DomPanel
-.
-prototype
-=
-{
 async
 open
 (
@@ -970,7 +967,6 @@ target
 ;
 }
 }
-;
 function
 exportIntoContentScope
 (
