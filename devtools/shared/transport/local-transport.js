@@ -112,8 +112,10 @@ init
 }
 )
 ;
-function
+class
 LocalDebuggerTransport
+{
+constructor
 (
 other
 )
@@ -164,14 +166,10 @@ this
 )
 ;
 }
-LocalDebuggerTransport
-.
-prototype
-=
-{
 isLocalTransport
-:
+=
 true
+;
 send
 (
 packet
@@ -1002,7 +1000,6 @@ prop
 }
 }
 }
-;
 exports
 .
 LocalDebuggerTransport
