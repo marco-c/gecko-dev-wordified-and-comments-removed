@@ -2986,7 +2986,7 @@ rust
 /
 branch
 :
-master
+main
 wasi
 -
 sdk
