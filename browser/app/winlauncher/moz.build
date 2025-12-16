@@ -91,9 +91,6 @@ ole32
 rpcrt4
 "
 "
-shlwapi
-"
-"
 version
 "
 ]
