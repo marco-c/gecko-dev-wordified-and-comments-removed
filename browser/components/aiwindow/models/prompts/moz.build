@@ -75,3 +75,15 @@ Learning
 General
 "
 )
+MOZ_SRC_FILES
++
+=
+[
+"
+assistantPrompts
+.
+sys
+.
+mjs
+"
+]
