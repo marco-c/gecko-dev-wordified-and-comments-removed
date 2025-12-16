@@ -930,7 +930,7 @@ RFPTarget
 name
 #
 endif
-MOZ_CONSTINIT
+constinit
 const
 RFPTargetSet
 kDefaultFingerprintingProtectionsBase
@@ -1007,7 +1007,7 @@ static
 StaticMutex
 sEnabledFingerprintingProtectionsMutex
 ;
-MOZ_CONSTINIT
+constinit
 static
 RFPTargetSet
 sEnabledFingerprintingProtectionsBase
@@ -1016,7 +1016,7 @@ MOZ_GUARDED_BY
 sEnabledFingerprintingProtectionsMutex
 )
 ;
-MOZ_CONSTINIT
+constinit
 static
 RFPTargetSet
 sEnabledFingerprintingProtections
