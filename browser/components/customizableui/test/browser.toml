@@ -41,6 +41,17 @@ closedTabsFromClosedWindows
 true
 "
 "
+browser
+.
+urlbar
+.
+trustPanel
+.
+featureGate
+=
+false
+"
+"
 sidebar
 .
 revamp
