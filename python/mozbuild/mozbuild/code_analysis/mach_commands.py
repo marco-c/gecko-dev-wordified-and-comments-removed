@@ -3337,10 +3337,6 @@ activate_virtualenv
 (
 )
     
-dump_results
-=
-dump_results
-    
 force_download
 =
 not
