@@ -1957,7 +1957,6 @@ networkMessageUpdates
 this
 .
 queuedMessageUpdates
-null
 )
 )
 ;

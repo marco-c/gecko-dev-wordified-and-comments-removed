@@ -235,7 +235,6 @@ networkMessageUpdates
 [
 updatePacket
 ]
-null
 )
 )
 ;
