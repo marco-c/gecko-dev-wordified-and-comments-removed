@@ -417,13 +417,6 @@ Tab
 Strip
 Card
 "
-color
-=
-FirefoxTheme
-.
-colors
-.
-textPrimary
 style
 =
 FirefoxTheme

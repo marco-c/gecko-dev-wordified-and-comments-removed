@@ -247,6 +247,14 @@ compose
 .
 material3
 .
+Surface
+import
+androidx
+.
+compose
+.
+material3
+.
 Text
 import
 androidx
@@ -729,6 +737,8 @@ Unit
 {
 SlideInFromBottomAnimation
 {
+Surface
+{
 Box
 (
 modifier
@@ -860,13 +870,6 @@ Text
 text
 =
 messageText
-color
-=
-FirefoxTheme
-.
-colors
-.
-textPrimary
 textAlign
 =
 TextAlign
@@ -943,6 +946,7 @@ onClick
 =
 onDismiss
 )
+}
 }
 }
 }
