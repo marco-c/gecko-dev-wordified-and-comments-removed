@@ -701,10 +701,6 @@ GdkEventTouchpadPinch
 ;
 #
 endif
-extern
-bool
-gUseStableRounding
-;
 #
 if
 !
