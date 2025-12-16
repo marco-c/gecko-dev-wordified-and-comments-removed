@@ -841,6 +841,13 @@ js
 ]
 [
 "
+test_ext_urlclassifier
+.
+js
+"
+]
+[
+"
 test_ext_webRequest_handlerBehaviorChanged
 .
 js
