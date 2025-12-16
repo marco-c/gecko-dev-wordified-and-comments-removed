@@ -1112,6 +1112,13 @@ n
     
 if
 result
+and
+result
+!
+=
+"
+None
+"
 :
         
 code
