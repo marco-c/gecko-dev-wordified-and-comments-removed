@@ -1069,7 +1069,10 @@ path
 )
 =
 =
+str
+(
 expected_path
+)
     
 mock_exists
 .
@@ -2779,7 +2782,7 @@ data
 )
     
 (
-output_dir
+mock_work_dir_path
 /
 "
 profile
@@ -2806,7 +2809,7 @@ profile
 )
     
 (
-output_dir
+mock_work_dir_path
 /
 "
 profile
@@ -3064,8 +3067,9 @@ teardown
         
 mock_rmtree
 .
-assert_not_called
+assert_called_once_with
 (
+mock_work_dir_path
 )
         
 expected_import
@@ -3103,7 +3107,7 @@ o
                 
 str
 (
-output_dir
+mock_work_dir_path
 /
 "
 profile
@@ -3157,7 +3161,7 @@ load
                 
 str
 (
-output_dir
+mock_work_dir_path
 /
 "
 profile
@@ -3269,7 +3273,7 @@ input
                 
 str
 (
-output_dir
+mock_work_dir_path
 /
 "
 profile
@@ -3290,7 +3294,7 @@ output
                 
 str
 (
-output_dir
+mock_work_dir_path
 /
 "
 profile
@@ -3773,7 +3777,7 @@ input
                 
 str
 (
-output_dir
+mock_work_dir_path
 /
 "
 profile
@@ -3794,7 +3798,7 @@ output
                 
 str
 (
-output_dir
+mock_work_dir_path
 /
 "
 profile
@@ -3861,7 +3865,7 @@ call_args_list
         
 mock_rmtree
 .
-assert_not_called
+assert_called_once
 (
 )
         
@@ -4316,21 +4320,6 @@ patch
 (
         
 "
-mozperftest
-.
-utils
-.
-ON_TRY
-"
-True
-    
-)
-mock
-.
-patch
-(
-        
-"
 tempfile
 .
 mkdtemp
@@ -4478,8 +4467,9 @@ teardown
         
 mock_rmtree
 .
-assert_called_once
+assert_called_once_with
 (
+mock_work_dir_path
 )
         
 mock_symbol_path
@@ -5188,21 +5178,6 @@ simpleperf
 ON_TRY
 "
 True
-)
-mock
-.
-patch
-(
-        
-"
-mozperftest
-.
-utils
-.
-ON_TRY
-"
-True
-    
 )
 mock
 .

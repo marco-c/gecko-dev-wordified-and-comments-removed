@@ -1721,7 +1721,7 @@ name
 =
 "
 -
-profiling
+simpleperf
 "
             
 new_job
@@ -1753,9 +1753,6 @@ MOZ_FETCHES_DIR
 android
 -
 simpleperf
--
--
-geckoprofiler
 "
             
 new_job

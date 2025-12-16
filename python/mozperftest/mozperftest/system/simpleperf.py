@@ -7,6 +7,10 @@ signal
 import
 subprocess
 import
+tarfile
+import
+tempfile
+import
 time
 import
 zipfile
@@ -42,8 +46,6 @@ mozperftest
 utils
 import
 ON_TRY
-archive_files
-extract_tgz_and_find_files
 "
 "
 "
@@ -675,8 +677,10 @@ profiler_process
 =
 None
         
-profile_path
+output_path
 =
+str
+(
 Path
 (
 output_path
@@ -690,6 +694,7 @@ index
 .
 data
 "
+)
 )
         
 self
@@ -710,10 +715,7 @@ perf
 .
 data
 "
-str
-(
-profile_path
-)
+output_path
 )
         
 self
@@ -734,22 +736,6 @@ local
 tmp
 /
 perf
-.
-data
-"
-)
-        
-return
-Path
-(
-output_path
-f
-"
-perf
--
-{
-index
-}
 .
 data
 "
@@ -905,6 +891,8 @@ mach_cmd
         
 super
 (
+SimpleperfProfiler
+self
 )
 .
 __init__
@@ -1123,6 +1111,8 @@ set_arg
 "
 path
 "
+str
+(
 Path
 (
 android
@@ -1131,6 +1121,7 @@ NDK_PATH
 "
 simpleperf
 "
+)
 )
 )
         
@@ -1667,7 +1658,9 @@ otherwise
 "
 "
         
-output
+self
+.
+output_dir
 =
 self
 .
@@ -1680,16 +1673,16 @@ output
         
 self
 .
-output_dir
+work_dir
 =
 Path
 (
-output
+tempfile
+.
+mkdtemp
+(
 )
-if
-output
-else
-None
+)
         
 if
 ON_TRY
@@ -1753,6 +1746,20 @@ bin
 "
 node
 "
+)
+            
+self
+.
+tgz_path
+=
+Path
+(
+self
+.
+output_dir
+self
+.
+test_name
 )
             
 self
@@ -1877,11 +1884,164 @@ None
 )
     
 def
+_get_perf_data
+(
+self
+)
+:
+        
+"
+"
+"
+Retrieve
+all
+the
+perf
+.
+data
+profiles
+generated
+by
+simpleperf
+.
+On
+CI
+        
+.
+tgz
+file
+containing
+the
+profiles
+needs
+to
+be
+extracted
+first
+.
+        
+:
+return
+list
+[
+pathlib
+.
+Path
+]
+:
+Returns
+list
+of
+paths
+to
+perf
+.
+data
+files
+        
+"
+"
+"
+        
+data_dir
+=
+self
+.
+output_dir
+        
+if
+ON_TRY
+:
+            
+tgz_file
+=
+Path
+(
+f
+"
+{
+self
+.
+tgz_path
+}
+.
+tgz
+"
+)
+            
+with
+tarfile
+.
+open
+(
+tgz_file
+"
+r
+:
+gz
+"
+)
+as
+tar
+:
+                
+tar
+.
+extractall
+(
+path
+=
+self
+.
+work_dir
+)
+            
+data_dir
+=
+self
+.
+work_dir
+        
+perf_data
+=
+[
+            
+data_file
+            
+for
+data_file
+in
+Path
+(
+data_dir
+)
+.
+rglob
+(
+"
+*
+.
+data
+"
+)
+            
+if
+data_file
+.
+is_file
+(
+)
+        
+]
+        
+return
+perf_data
+    
+def
 _convert_perf_to_json
 (
 self
 perf_data
-work_dir
 )
 :
         
@@ -1926,19 +2086,6 @@ to
 perf
 .
 data
-files
-        
-:
-param
-work_dir
-pathlib
-.
-Path
-:
-working
-directory
-for
-output
 files
         
 :
@@ -1999,15 +2146,9 @@ output_path
 =
 Path
 (
-                
-work_dir
-if
-work_dir
-else
 self
 .
-output_dir
-                
+work_dir
 f
 "
 profile
@@ -2020,7 +2161,6 @@ unsymbolicated
 .
 json
 "
-            
 )
             
 with
@@ -2138,7 +2278,6 @@ _symbolicate_profiles
 (
 self
 unsymbolicated_profiles
-work_dir
 )
 :
         
@@ -2199,19 +2338,6 @@ processed
 profile
 format
 .
-        
-:
-param
-work_dir
-pathlib
-.
-Path
-:
-working
-directory
-for
-output
-files
         
 :
 raises
@@ -2491,14 +2617,9 @@ output_profile_path
 =
 Path
 (
-                
-work_dir
-if
-work_dir
-else
 self
 .
-output_dir
+work_dir
 f
 "
 {
@@ -2507,7 +2628,6 @@ filename
 .
 json
 "
-            
 )
             
 with
@@ -2672,6 +2792,7 @@ compressed
 .
 zip
 file
+.
         
 :
 param
@@ -2708,15 +2829,13 @@ sort
 (
 )
         
-archive_files
+output_zip_path
+=
+Path
 (
-            
-symbolicated_profiles
-            
 self
 .
 output_dir
-            
 f
 "
 profile_
@@ -2725,14 +2844,41 @@ self
 .
 test_name
 }
+.
+zip
 "
-            
-prefix
-=
-"
-simpleperf
-"
+)
         
+with
+zipfile
+.
+ZipFile
+(
+output_zip_path
+"
+w
+"
+)
+as
+zipf
+:
+            
+for
+file_path
+in
+symbolicated_profiles
+:
+                
+zipf
+.
+write
+(
+file_path
+arcname
+=
+file_path
+.
+name
 )
     
 def
@@ -2816,10 +2962,6 @@ symbolication
 "
 "
         
-work_dir
-=
-None
-        
 try
 :
             
@@ -2854,25 +2996,11 @@ files
 )
             
 perf_data
-work_dir
 =
-extract_tgz_and_find_files
+self
+.
+_get_perf_data
 (
-                
-self
-.
-output_dir
-self
-.
-test_name
-[
-"
-*
-.
-data
-"
-]
-            
 )
             
 self
@@ -2900,7 +3028,6 @@ self
 _convert_perf_to_json
 (
 perf_data
-work_dir
 )
             
 self
@@ -2922,10 +3049,7 @@ self
 .
 _symbolicate_profiles
 (
-                
 unsymbolicated_profiles
-work_dir
-            
 )
             
 self
@@ -3016,13 +3140,21 @@ finally
 :
             
 if
+self
+.
 work_dir
+.
+exists
+(
+)
 :
                 
 shutil
 .
 rmtree
 (
+self
+.
 work_dir
 )
     
