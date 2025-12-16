@@ -6778,6 +6778,16 @@ aMimeType
 )
 ;
 static
+bool
+HasWasmMimeTypeEssence
+(
+const
+nsAString
+&
+aMimeType
+)
+;
+static
 void
 SplitMimeType
 (
