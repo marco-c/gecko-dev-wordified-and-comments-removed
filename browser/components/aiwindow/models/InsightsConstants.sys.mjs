@@ -64,6 +64,14 @@ HISTORY
 history
 "
 ;
+export
+const
+CONVERSATION
+=
+"
+conversation
+"
+;
 /
 *
 *
