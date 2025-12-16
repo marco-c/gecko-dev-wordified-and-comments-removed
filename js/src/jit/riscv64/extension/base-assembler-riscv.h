@@ -628,7 +628,7 @@ protected
 :
 virtual
 int32_t
-branch_offset_helper
+branchOffsetHelper
 (
 Label
 *
