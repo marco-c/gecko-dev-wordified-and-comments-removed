@@ -352,11 +352,6 @@ studiesEnabled
 settings
 .
 isExperimentationEnabled
-showMeasurementDataSection
-=
-settings
-.
-hasMadeMarketingTelemetrySelection
 measurementDataEnabled
 =
 settings

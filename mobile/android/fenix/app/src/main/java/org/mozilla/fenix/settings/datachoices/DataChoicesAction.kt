@@ -201,10 +201,6 @@ studiesEnabled
 :
 Boolean
 val
-showMeasurementDataSection
-:
-Boolean
-val
 measurementDataEnabled
 :
 Boolean

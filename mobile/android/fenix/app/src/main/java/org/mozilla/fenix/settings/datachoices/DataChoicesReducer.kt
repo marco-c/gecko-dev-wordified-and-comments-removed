@@ -181,11 +181,6 @@ studiesEnabled
 action
 .
 studiesEnabled
-showMeasurementDataSection
-=
-action
-.
-showMeasurementDataSection
 measurementDataEnabled
 =
 action
