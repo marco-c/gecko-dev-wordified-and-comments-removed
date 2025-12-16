@@ -550,7 +550,7 @@ sIsLive
 =
 false
 ;
-MOZ_CONSTINIT
+constinit
 RefPtr
 <
 mozilla
