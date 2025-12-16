@@ -61,10 +61,6 @@ HIGHP_SAMPLER_FLOAT
 sampler2D
 sGpuCache
 ;
-#
-define
-VECS_PER_IMAGE_RESOURCE
-2
 /
 /
 TODO

@@ -903,6 +903,7 @@ gpu_buffer
 GpuBufferAddress
 GpuBufferBuilder
 GpuBufferWriterF
+GpuBufferBlockF
 }
 ;
 pub

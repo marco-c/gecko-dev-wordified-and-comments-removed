@@ -219,7 +219,7 @@ vec4
 ]
 raw_data
 =
-fetch_from_gpu_cache_3
+fetch_from_gpu_buffer_3f
 (
 address
 )

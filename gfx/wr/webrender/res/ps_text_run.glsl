@@ -305,7 +305,7 @@ GLYPHS_PER_GPU_BLOCK
 vec4
 data
 =
-fetch_from_gpu_cache_1
+fetch_from_gpu_buffer_1f
 (
 glyph_address
 )
@@ -425,7 +425,7 @@ address
 vec4
 data
 =
-fetch_from_gpu_cache_1
+fetch_from_gpu_buffer_1f
 (
 address
 )
