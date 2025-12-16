@@ -291,7 +291,6 @@ space
 xxlarge
 )
 ;
-;
 font
 -
 size
@@ -378,9 +377,16 @@ border
 -
 top
 :
+1px
+solid
+var
+(
+-
+-
 border
 -
-secondary
+color
+)
 ;
 border
 -

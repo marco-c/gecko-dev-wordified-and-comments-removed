@@ -2711,7 +2711,6 @@ text
 color
 )
 ;
-;
 min
 -
 width
@@ -4897,9 +4896,16 @@ xxlarge
 ;
 border
 :
+1px
+solid
+var
+(
+-
+-
 border
 -
-primary
+color
+)
 ;
 &
 :
