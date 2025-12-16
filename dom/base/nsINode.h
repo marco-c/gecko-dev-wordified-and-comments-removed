@@ -811,6 +811,7 @@ Mutated
 uint8_t
 aIgnoreCount
 )
+const
 {
 return
 (
