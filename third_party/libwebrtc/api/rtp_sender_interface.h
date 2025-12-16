@@ -401,6 +401,17 @@ const
 =
 0
 ;
+[
+[
+deprecated
+(
+"
+Use
+SetFrameTransformer
+"
+)
+]
+]
 virtual
 void
 SetEncoderToPacketizerFrameTransformer

@@ -320,6 +320,17 @@ GetFrameDecryptor
 )
 const
 ;
+[
+[
+deprecated
+(
+"
+Use
+SetFrameTransformer
+"
+)
+]
+]
 virtual
 void
 SetDepacketizerToDecoderFrameTransformer

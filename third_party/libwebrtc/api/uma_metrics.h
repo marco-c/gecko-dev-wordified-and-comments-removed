@@ -50,6 +50,11 @@ enum
 IceCandidatePairType
 {
 kIceCandidatePairHostHost
+[
+[
+deprecated
+]
+]
 =
 0
 kIceCandidatePairHostSrflx

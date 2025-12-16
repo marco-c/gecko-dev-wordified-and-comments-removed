@@ -188,14 +188,12 @@ std
 :
 string
 sdpString
-;
+=
 nativeCandidate
 -
 >
 ToString
 (
-&
-sdpString
 )
 ;
 EXPECT_EQ
