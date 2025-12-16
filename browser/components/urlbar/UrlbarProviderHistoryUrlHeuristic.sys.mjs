@@ -778,13 +778,6 @@ UrlbarUtils
 HIGHLIGHT
 .
 TYPED
-title
-:
-UrlbarUtils
-.
-HIGHLIGHT
-.
-NONE
 }
 }
 )

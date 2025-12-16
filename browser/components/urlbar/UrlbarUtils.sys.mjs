@@ -1429,9 +1429,6 @@ Object
 freeze
 (
 {
-NONE
-:
-0
 TYPED
 :
 1

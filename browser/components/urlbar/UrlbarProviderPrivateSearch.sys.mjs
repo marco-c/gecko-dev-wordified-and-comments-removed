@@ -717,13 +717,6 @@ UrlbarUtils
 HIGHLIGHT
 .
 TYPED
-query
-:
-UrlbarUtils
-.
-HIGHLIGHT
-.
-NONE
 }
 }
 )

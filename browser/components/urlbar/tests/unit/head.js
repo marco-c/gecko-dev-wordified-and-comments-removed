@@ -3050,11 +3050,7 @@ HIGHLIGHT
 .
 TYPED
 :
-UrlbarUtils
-.
-HIGHLIGHT
-.
-NONE
+undefined
 query
 :
 UrlbarUtils
