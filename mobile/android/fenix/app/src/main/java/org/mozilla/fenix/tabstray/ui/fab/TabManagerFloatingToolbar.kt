@@ -2088,6 +2088,15 @@ CLOSE_ALL_TABS
 onClick
 =
 onDeleteAllTabsClick
+level
+=
+MenuItem
+.
+FixedItem
+.
+Level
+.
+Critical
 )
 val
 accountSettingsItem

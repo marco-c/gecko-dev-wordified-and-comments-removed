@@ -7653,6 +7653,16 @@ libs
 .
 androidx
 .
+compose
+.
+ui
+.
+test
+testImplementation
+libs
+.
+androidx
+.
 test
 .
 core
