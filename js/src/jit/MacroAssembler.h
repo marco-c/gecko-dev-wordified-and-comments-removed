@@ -9532,6 +9532,16 @@ FloatRegister
 reg
 )
 ;
+inline
+void
+canonicalizeDoubleZero
+(
+FloatRegister
+reg
+FloatRegister
+scratch
+)
+;
 public
 :
 inline
