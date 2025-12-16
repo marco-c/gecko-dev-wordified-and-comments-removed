@@ -210,8 +210,10 @@ destroy
 ;
 }
 }
-function
+class
 CssProperties
+{
+constructor
 (
 db
 )
@@ -264,11 +266,6 @@ this
 )
 ;
 }
-CssProperties
-.
-prototype
-=
-{
 isKnown
 (
 property
@@ -504,7 +501,6 @@ return
 ;
 }
 }
-;
 function
 normalizeCssData
 (
