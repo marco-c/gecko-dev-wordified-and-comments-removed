@@ -848,7 +848,7 @@ sNssContext
 ;
 }
 ;
-MOZ_CONSTINIT
+constinit
 std
 :
 :

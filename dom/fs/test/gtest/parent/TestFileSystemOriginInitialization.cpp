@@ -511,7 +511,7 @@ sQuotaClient
 ;
 }
 ;
-MOZ_CONSTINIT
+constinit
 RefPtr
 <
 MockFileSystemQuotaClient
