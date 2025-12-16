@@ -315,6 +315,8 @@ NS_FONT_SUB_SUPER_LARGE_SIZE
 )
 enum
 eFontPrefLang
+:
+uint8_t
 {
 #
 define
