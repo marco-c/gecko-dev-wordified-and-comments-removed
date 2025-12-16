@@ -6986,6 +6986,12 @@ custom
 compute_range
 :
 custom
+generate_lir
+:
+true
+lir_temps
+:
+1
 #
 Read
 the
@@ -7038,6 +7044,12 @@ custom
 compute_range
 :
 custom
+generate_lir
+:
+true
+lir_temps
+:
+1
 #
 Read
 the
