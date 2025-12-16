@@ -249,7 +249,7 @@ const
 val
 CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
 =
-30
+9
 /
 *
 *
