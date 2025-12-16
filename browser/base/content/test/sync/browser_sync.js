@@ -4023,9 +4023,6 @@ STATUS_SIGNED_IN
 syncEnabled
 :
 false
-hasSyncKeys
-:
-true
 email
 :
 "
@@ -4283,9 +4280,6 @@ UIState
 .
 STATUS_SIGNED_IN
 syncEnabled
-:
-true
-hasSyncKeys
 :
 true
 email
