@@ -253,11 +253,6 @@ title
 Sponsored
 suggestion
 "
-qsSuggestion
-:
-"
-sponsored
-"
 icon
 :
 null
@@ -428,11 +423,6 @@ Non
 -
 sponsored
 suggestion
-"
-qsSuggestion
-:
-"
-nonsponsored
 "
 icon
 :

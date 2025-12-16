@@ -12944,15 +12944,6 @@ type
 string
 "
 }
-qsSuggestion
-:
-{
-type
-:
-"
-string
-"
-}
 requestId
 :
 {
