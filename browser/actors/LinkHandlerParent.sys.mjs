@@ -58,8 +58,8 @@ MPL
 /
 import
 {
-TYPE_SVG
 TYPE_ICO
+SVG_DATA_URI_PREFIX
 TRUSTED_FAVICON_SCHEMES
 blobAsDataURL
 }
@@ -1304,13 +1304,7 @@ iconURL
 .
 startsWith
 (
-data
-:
-{
-TYPE_SVG
-}
-;
-base64
+SVG_DATA_URI_PREFIX
 )
 )
 {
