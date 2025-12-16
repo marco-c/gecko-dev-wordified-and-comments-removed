@@ -1813,6 +1813,8 @@ FrameMetrics
 :
 ScrollOffsetUpdateType
 aUpdateType
+ScrollMode
+aMode
 )
 ;
 bool
