@@ -3778,6 +3778,13 @@ js
 ]
 [
 "
+browser_tab_splitview_about_opentabs
+.
+js
+"
+]
+[
+"
 browser_tab_splitview_contextmenu
 .
 js
