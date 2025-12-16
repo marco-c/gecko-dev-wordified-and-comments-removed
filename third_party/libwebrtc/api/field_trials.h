@@ -7,6 +7,11 @@ API_FIELD_TRIALS_H_
 #
 include
 <
+atomic
+>
+#
+include
+<
 memory
 >
 #
@@ -131,8 +136,6 @@ FieldTrials
 &
 &
 )
-=
-default
 ;
 FieldTrials
 &
@@ -312,7 +315,13 @@ override
 if
 RTC_DCHECK_IS_ON
 mutable
+std
+:
+:
+atomic
+<
 bool
+>
 get_value_called_
 =
 false
