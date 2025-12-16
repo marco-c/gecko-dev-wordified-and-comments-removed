@@ -2329,7 +2329,7 @@ aOptions
 .
 isUiThread
 )
-mIsAPoolThreadFree
+mIsAPoolThreadFreePtr
 (
 nullptr
 )
@@ -3081,11 +3081,11 @@ aStart
 {
 if
 (
-mIsAPoolThreadFree
+mIsAPoolThreadFreePtr
 &
 &
 *
-mIsAPoolThreadFree
+mIsAPoolThreadFreePtr
 )
 {
 *

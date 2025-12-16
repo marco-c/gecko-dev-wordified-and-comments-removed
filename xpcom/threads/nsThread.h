@@ -633,7 +633,7 @@ Relaxed
 aPtr
 )
 {
-mIsAPoolThreadFree
+mIsAPoolThreadFreePtr
 =
 aPtr
 ;
@@ -947,7 +947,7 @@ mozilla
 Relaxed
 >
 *
-mIsAPoolThreadFree
+mIsAPoolThreadFreePtr
 ;
 bool
 mCanInvokeJS
