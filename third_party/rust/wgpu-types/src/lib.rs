@@ -3349,10 +3349,10 @@ Self
 {
 max_task_workgroup_total_count
 :
-65536
+1024
 max_task_workgroups_per_dimension
 :
-256
+1024
 max_mesh_multiview_view_count
 :
 0
@@ -34425,6 +34425,10 @@ pub
 force_loop_bounding
 :
 bool
+pub
+ray_query_initialization_tracking
+:
+bool
 }
 impl
 ShaderRuntimeChecks
@@ -34503,6 +34507,9 @@ bounds_checks
 :
 all_checks
 force_loop_bounding
+:
+all_checks
+ray_query_initialization_tracking
 :
 all_checks
 }

@@ -134,6 +134,7 @@ binding_model
 {
 self
 BindGroup
+BindGroupLateBufferBindingInfo
 BindGroupLayout
 BindGroupLayoutEntryError
 }
@@ -17515,7 +17516,7 @@ e
 ?
 ;
 let
-late_buffer_binding_sizes
+late_buffer_binding_infos
 =
 layout
 .
@@ -17530,6 +17531,10 @@ flat_map
 |
 binding
 |
+{
+let
+size
+=
 late_buffer_binding_sizes
 .
 get
@@ -17541,6 +17546,19 @@ binding
 cloned
 (
 )
+?
+;
+Some
+(
+BindGroupLateBufferBindingInfo
+{
+binding_index
+:
+binding
+size
+}
+)
+}
 )
 .
 collect
@@ -17599,7 +17617,7 @@ used
 used_buffer_ranges
 used_texture_ranges
 dynamic_binding_info
-late_buffer_binding_sizes
+late_buffer_binding_infos
 }
 ;
 let

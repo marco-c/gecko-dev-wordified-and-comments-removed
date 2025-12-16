@@ -2008,7 +2008,7 @@ usage
 .
 from
 .
-contains
+intersects
 (
 wgt
 :
@@ -2017,6 +2017,14 @@ TextureUses
 :
 :
 STORAGE_READ_WRITE
+|
+wgt
+:
+:
+TextureUses
+:
+:
+STORAGE_WRITE_ONLY
 )
 {
 continue

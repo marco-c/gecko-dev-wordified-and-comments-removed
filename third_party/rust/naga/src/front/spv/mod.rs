@@ -24657,15 +24657,6 @@ RayQuery
 S
 :
 :
-MeshFunction
-(
-.
-.
-)
-|
-S
-:
-:
 SubgroupBallot
 {
 .
