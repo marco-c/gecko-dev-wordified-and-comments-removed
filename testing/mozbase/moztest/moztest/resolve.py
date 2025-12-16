@@ -7905,17 +7905,12 @@ tests_by_path
 p
 ]
             
-for
-test
-in
+yield
+from
 fltr
 (
 tests
 )
-:
-                
-yield
-test
     
 def
 is_puppeteer_path

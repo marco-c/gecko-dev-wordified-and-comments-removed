@@ -4435,14 +4435,9 @@ or
 )
 )
         
-for
-entry
-in
-entries
-:
-            
 yield
-entry
+from
+entries
     
 def
 unzip

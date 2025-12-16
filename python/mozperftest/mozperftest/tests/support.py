@@ -758,14 +758,9 @@ kw
 )
 :
                 
-for
-chunk
-in
-chunks
-:
-                    
 yield
-chunk
+from
+chunks
         
 return
 Resp

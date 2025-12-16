@@ -1,3 +1,12 @@
+#
+!
+/
+usr
+/
+bin
+/
+env
+python
 import
 pathlib
 from
@@ -207,14 +216,9 @@ as
 f
 :
             
-for
-line
-in
-f
-:
-                
 yield
-line
+from
+f
 def
 fake_version_producer
 (
@@ -544,6 +548,15 @@ sys
 metadata
 )
 )
+        
+#
+we
+want
+to
+drop
+the
+first
+result
         
 metadata
 .

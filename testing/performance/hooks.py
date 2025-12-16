@@ -73,14 +73,9 @@ next_site
 )
 :
     
-for
-site
-in
-sites
-:
-        
 yield
-site
+from
+sites
 get_site
 =
 next_site

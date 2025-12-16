@@ -1644,9 +1644,8 @@ in
 parallel
 :
             
-for
-n
-in
+yield
+from
 self
 .
 traverse
@@ -1654,10 +1653,6 @@ traverse
 node
 filter
 )
-:
-                
-yield
-n
         
 for
 dir
@@ -1665,9 +1660,8 @@ in
 sequential
 :
             
-for
-d
-in
+yield
+from
 self
 .
 traverse
@@ -1675,10 +1669,6 @@ traverse
 dir
 filter
 )
-:
-                
-yield
-d
     
 def
 get_subdirs
