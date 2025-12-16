@@ -1367,6 +1367,13 @@ wgc_require_border
 }
 #
 endif
+#
+if
+!
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 ComPtr
 <
 ABI
@@ -1426,6 +1433,8 @@ wgc_include_secondary_windows
 )
 ;
 }
+#
+endif
 allow_zero_hertz_
 =
 options
