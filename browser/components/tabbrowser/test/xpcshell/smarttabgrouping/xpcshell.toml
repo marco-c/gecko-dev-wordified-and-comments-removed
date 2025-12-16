@@ -45,6 +45,13 @@ js
 ]
 [
 "
+test_tabs_to_process
+.
+js
+"
+]
+[
+"
 test_text_preprocessing
 .
 js
