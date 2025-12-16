@@ -12806,13 +12806,6 @@ mPrincipalToInheritForAboutBlank
 =
 initialPrincipal
 ;
-openWindowInfo
--
->
-mPartitionedPrincipalToInheritForAboutBlank
-=
-initialPrincipal
-;
 WindowGlobalInit
 windowInit
 =
