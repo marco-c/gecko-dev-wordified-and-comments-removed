@@ -85,9 +85,6 @@ code
 ]
 }
 {
-invalid
-:
-true
 fields
 :
 [
