@@ -240,8 +240,13 @@ activated
 await
 this
 .
-sendQuery
+eventDispatcher
+.
+sendRequestForResult
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -249,7 +254,6 @@ MediaSession
 :
 Fullscreen
 "
-{
 metadata
 :
 lazy
