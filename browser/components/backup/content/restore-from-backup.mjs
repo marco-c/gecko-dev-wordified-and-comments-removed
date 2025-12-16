@@ -2118,6 +2118,12 @@ if
 recoveryErrorCode
 &
 &
+!
+this
+.
+isIncorrectPassword
+&
+&
 this
 .
 aboutWelcomeEmbedded
@@ -2539,6 +2545,12 @@ aboutWelcomeEmbedded
 if
 (
 recoveryErrorCode
+&
+&
+!
+this
+.
+isIncorrectPassword
 )
 {
 describedBy
