@@ -112,7 +112,7 @@ lock
 lock_
 )
 ;
-RTC_DCHECK
+RTC_DCHECK_GE
 (
 new_time
 .
@@ -121,8 +121,6 @@ us
 )
 *
 1000
->
-=
 time_ns_
 )
 ;
@@ -147,6 +145,17 @@ TimeDelta
 delta
 )
 {
+RTC_DCHECK_GE
+(
+delta
+TimeDelta
+:
+:
+Zero
+(
+)
+)
+;
 MutexLock
 lock
 (
