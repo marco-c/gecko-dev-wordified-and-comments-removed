@@ -20,18 +20,6 @@ user_pref
 "
 marionette
 .
-defaultPrefs
-.
-port
-"
-2828
-)
-;
-user_pref
-(
-"
-marionette
-.
 port
 "
 2828
@@ -54,7 +42,7 @@ Trace
 user_pref
 (
 "
-marionette
+remote
 .
 log
 .
