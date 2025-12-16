@@ -560,6 +560,7 @@ id
 context
 .
 store
+scope
 )
 engineSession
 .
