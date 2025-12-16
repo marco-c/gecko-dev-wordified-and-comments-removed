@@ -588,6 +588,26 @@ WebRTC
 -
 LibaomAv1Encoder
 -
+DropRepeatFramesOnEnhancementLayers
+'
+               
+445115234
+               
+date
+(
+2026
+3
+19
+)
+)
+    
+FieldTrial
+(
+'
+WebRTC
+-
+LibaomAv1Encoder
+-
 PostEncodeFrameDrop
 '
                
