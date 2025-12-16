@@ -110,9 +110,18 @@ gBrowser
 )
 ;
 await
-promiseTabLoadEvent
+BrowserTestUtils
+.
+loadURIString
 (
+{
+browser
+:
 tab
+.
+linkedBrowser
+uriString
+:
 "
 data
 :
@@ -131,6 +140,7 @@ escape
 (
 childContent
 )
+}
 )
 ;
 await

@@ -169,9 +169,13 @@ hidden
 let
 tabLoaded
 =
-promiseTabLoadEvent
+BrowserTestUtils
+.
+browserLoaded
 (
 newTab
+.
+linkedBrowser
 )
 ;
 readerButton
