@@ -2681,7 +2681,7 @@ by
 CORS
 const
 {
-blockingExtension
+extension
 blockedReason
 }
 =
@@ -2705,7 +2705,7 @@ createNetworkEvent
 httpActivity
 {
 blockedReason
-blockingExtension
+extension
 }
 )
 ;
@@ -5272,7 +5272,7 @@ httpActivity
 {
 timestamp
 blockedReason
-blockingExtension
+extension
 inProgressRequest
 }
 =
@@ -5365,7 +5365,7 @@ onNetworkEvent
 {
 timestamp
 blockedReason
-blockingExtension
+extension
 discardRequestBody
 :
 !
