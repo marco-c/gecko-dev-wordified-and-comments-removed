@@ -37,13 +37,6 @@ files
 ]
 [
 "
-test_Chat
-.
-js
-"
-]
-[
-"
 test_ChatUtils
 .
 js
