@@ -91,8 +91,6 @@ content
 /
 aiwindow
 /
-ui
-/
 components
 /
 input

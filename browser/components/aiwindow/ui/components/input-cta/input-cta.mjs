@@ -534,8 +534,6 @@ content
 /
 aiwindow
 /
-ui
-/
 components
 /
 input
@@ -608,8 +606,6 @@ browser
 content
 /
 aiwindow
-/
-ui
 /
 assets
 /

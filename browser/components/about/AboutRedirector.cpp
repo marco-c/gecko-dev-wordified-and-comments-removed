@@ -176,8 +176,6 @@ content
 /
 aiwindow
 /
-ui
-/
 aiChatContent
 .
 html
