@@ -11002,7 +11002,12 @@ isSameDocument
 closeOpenPanels
 (
 "
+:
+is
+(
 panel
+menupopup
+)
 [
 locationspecific
 =
