@@ -1480,7 +1480,7 @@ visible
 var
 showBookmarksHomeFeature
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 appContext
 .
@@ -1505,9 +1505,6 @@ BOOKMARKS
 =
 true
 }
-featureFlag
-=
-true
 )
 /
 *
@@ -1528,7 +1525,7 @@ visible
 var
 showRecentTabsFeature
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 appContext
 .
@@ -1540,9 +1537,6 @@ string
 .
 pref_key_recent_tabs
 )
-featureFlag
-=
-true
 default
 =
 {
@@ -1843,7 +1837,7 @@ screen
 var
 historyMetadataUIFeature
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 appContext
 .
@@ -1868,9 +1862,6 @@ RECENT_EXPLORATIONS
 =
 true
 }
-featureFlag
-=
-true
 )
 /
 *
@@ -2032,7 +2023,7 @@ shown
 var
 showHomepageHeader
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 appContext
 .
@@ -2044,9 +2035,6 @@ string
 .
 pref_key_enable_homepage_header
 )
-featureFlag
-=
-true
 default
 =
 {
@@ -2084,7 +2072,7 @@ screen
 var
 showTopSitesFeature
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 appContext
 .
@@ -2096,9 +2084,6 @@ string
 .
 pref_key_show_top_sites
 )
-featureFlag
-=
-true
 default
 =
 {
@@ -2431,7 +2416,7 @@ otherwise
 var
 customReviewPromptFeatureEnabled
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 appContext
 .
@@ -2443,9 +2428,6 @@ string
 .
 pref_key_custom_review_prompt_enabled
 )
-featureFlag
-=
-true
 default
 =
 {
@@ -3167,7 +3149,7 @@ enabled
 var
 privateBrowsingLockedFeatureEnabled
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -3181,9 +3163,6 @@ string
 .
 pref_key_private_browsing_locked_enabled
 )
-featureFlag
-=
-true
 default
 =
 {
@@ -3237,7 +3216,7 @@ false
 var
 shouldShowMenuBanner
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -3266,9 +3245,6 @@ value
 .
 menuBanner
 }
-featureFlag
-=
-true
 )
 var
 defaultSearchEngineName
@@ -3625,7 +3601,7 @@ enabled
 var
 isTermsOfUsePromptEnabled
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -3654,9 +3630,6 @@ value
 .
 enabled
 }
-featureFlag
-=
-true
 )
 /
 *
@@ -3684,7 +3657,7 @@ true
 var
 shouldShowTermsOfUsePromptDragHandle
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -3713,9 +3686,6 @@ value
 .
 enableDragToDismiss
 }
-featureFlag
-=
-true
 )
 /
 *
@@ -4906,7 +4876,7 @@ enabled
 var
 isLnaBlockingEnabled
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -4920,9 +4890,6 @@ string
 .
 pref_key_enable_lna_blocking_enabled
 )
-featureFlag
-=
-true
 default
 =
 {
@@ -4963,7 +4930,7 @@ enabled
 var
 isLnaTrackerBlockingEnabled
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -4977,9 +4944,6 @@ string
 .
 pref_key_enable_lna_tracker_blocking_enabled
 )
-featureFlag
-=
-true
 default
 =
 {
@@ -5055,7 +5019,7 @@ addresses
 var
 isLnaFeatureEnabled
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -5069,9 +5033,6 @@ string
 .
 pref_key_enable_lna_feature_enabled
 )
-featureFlag
-=
-true
 default
 =
 {
@@ -5107,7 +5068,7 @@ not
 var
 isIsolatedProcessEnabled
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -5121,9 +5082,6 @@ string
 .
 pref_key_enable_isolated_process
 )
-featureFlag
-=
-true
 default
 =
 {
@@ -5163,7 +5121,7 @@ not
 var
 isAppZygoteEnabled
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -5177,9 +5135,6 @@ string
 .
 pref_key_enable_app_zygote_process
 )
-featureFlag
-=
-true
 default
 =
 {
@@ -5617,7 +5572,7 @@ close_tabs_manually_summary
 var
 whatsappLinkSharingEnabled
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -5631,9 +5586,6 @@ string
 .
 pref_key_link_sharing
 )
-featureFlag
-=
-true
 default
 =
 {
@@ -5923,7 +5875,7 @@ false
 var
 shouldUseCookieBannerPrivateMode
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 appContext
 .
@@ -5935,9 +5887,6 @@ string
 .
 pref_key_cookie_banner_private_mode
 )
-featureFlag
-=
-true
 default
 =
 {
@@ -6338,7 +6287,7 @@ enabled
 var
 reEngagementNotificationEnabled
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -6367,9 +6316,6 @@ value
 .
 enabled
 }
-featureFlag
-=
-true
 )
 /
 *
@@ -6693,7 +6639,7 @@ shown
 var
 shouldShowCookieBannersCFR
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 appContext
 .
@@ -6705,9 +6651,6 @@ string
 .
 pref_key_should_show_cookie_banners_action_popup
 )
-featureFlag
-=
-true
 default
 =
 {
@@ -11655,7 +11598,7 @@ used
 var
 useOnboardingRedesign
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -11669,9 +11612,6 @@ string
 .
 pref_key_use_onboarding_redesign
 )
-featureFlag
-=
-true
 default
 =
 {
@@ -11729,7 +11669,7 @@ true
 var
 shouldUseComposableToolbar
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -11758,9 +11698,6 @@ value
 .
 enabled
 }
-featureFlag
-=
-true
 )
 /
 *
@@ -11873,7 +11810,7 @@ configuration
 var
 useRemoteSearchConfiguration
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -11902,9 +11839,6 @@ value
 .
 enabled
 }
-featureFlag
-=
-true
 )
 /
 *
@@ -12310,7 +12244,7 @@ enabled
 var
 enableMenuRedesign
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -12339,9 +12273,6 @@ value
 .
 enabled
 }
-featureFlag
-=
-true
 )
 /
 *
@@ -12406,7 +12337,7 @@ enabled
 var
 enableHomepageAsNewTab
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -12435,9 +12366,6 @@ value
 .
 enabled
 }
-featureFlag
-=
-true
 )
 /
 *
@@ -12457,7 +12385,7 @@ enabled
 var
 enableHomepageSearchBar
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -12486,9 +12414,6 @@ value
 .
 enabled
 }
-featureFlag
-=
-true
 )
 /
 *
@@ -12587,7 +12512,7 @@ enabled
 var
 enableUnifiedTrustPanel
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -12616,9 +12541,6 @@ value
 .
 enabled
 }
-featureFlag
-=
-true
 )
 /
 *
@@ -13204,7 +13126,7 @@ not
 var
 isRelayFeatureEnabled
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -13218,9 +13140,6 @@ string
 .
 pref_key_enable_relay_email_masks
 )
-featureFlag
-=
-true
 default
 =
 {
@@ -13398,7 +13317,7 @@ enabled
 var
 microsurveyFeatureEnabled
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -13427,9 +13346,6 @@ value
 .
 enabled
 }
-featureFlag
-=
-true
 )
 /
 *
@@ -14214,7 +14130,7 @@ settings
 val
 showDohEntryPoint
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -14243,9 +14159,6 @@ value
 .
 showUi
 }
-featureFlag
-=
-true
 )
 /
 *
@@ -14816,7 +14729,7 @@ suppressed
 var
 suppressSponsoredTopSitesEnabled
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -14830,9 +14743,6 @@ string
 .
 pref_key_suppress_sponsored_tiles
 )
-featureFlag
-=
-true
 default
 =
 {
@@ -14868,7 +14778,7 @@ feature
 var
 showSetupChecklist
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -14908,9 +14818,6 @@ appContext
 )
 )
 }
-featureFlag
-=
-true
 )
 /
 *
