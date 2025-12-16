@@ -1648,6 +1648,16 @@ size
 :
 10px
 ;
+font
+-
+variant
+-
+numeric
+:
+tabular
+-
+nums
+;
 border
 -
 bottom
@@ -1676,7 +1686,7 @@ colors
 to
 avoid
 the
-blackplaing
+backplating
 that
 clips
 the
