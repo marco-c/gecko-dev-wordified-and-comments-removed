@@ -822,6 +822,7 @@ restore
 undoes
 any
 modifications
+.
 var
 old
 =
@@ -909,6 +910,7 @@ t
 modify
 the
 values
+.
 ctx
 .
 {
@@ -941,7 +943,7 @@ variant_names
 ;
 /
 /
-we
+We
 '
 re
 not
@@ -973,9 +975,7 @@ rounding
 so
 compare
 against
-'
 old
-'
 instead
 of
 against
@@ -984,6 +984,7 @@ against
 value
 }
 }
+.
 ctx
 .
 save
