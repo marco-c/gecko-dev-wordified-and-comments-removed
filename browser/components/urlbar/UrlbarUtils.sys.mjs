@@ -5296,7 +5296,16 @@ window
 gBrowser
 .
 contentPrincipal
-null
+window
+.
+docShell
+.
+QueryInterface
+(
+Ci
+.
+nsIInterfaceRequestor
+)
 false
 )
 ;
