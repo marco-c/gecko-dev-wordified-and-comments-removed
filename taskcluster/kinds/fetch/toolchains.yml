@@ -2951,6 +2951,11 @@ Rust
 nightly
 source
 code
+attributes
+:
+cached_task
+:
+false
 fetch
 :
 type
