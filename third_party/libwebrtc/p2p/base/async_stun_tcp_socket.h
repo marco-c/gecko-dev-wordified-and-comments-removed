@@ -105,14 +105,6 @@ Socket
 socket
 )
 ;
-explicit
-AsyncStunTCPSocket
-(
-Socket
-*
-socket
-)
-;
 AsyncStunTCPSocket
 (
 const
