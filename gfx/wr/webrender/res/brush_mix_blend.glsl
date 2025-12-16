@@ -68,6 +68,7 @@ include
 shared
 prim_shared
 brush
+image_source
 /
 /
 UV

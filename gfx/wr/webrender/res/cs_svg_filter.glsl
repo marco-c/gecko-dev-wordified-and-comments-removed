@@ -63,6 +63,7 @@ WR_FEATURE_TEXTURE_2D
 include
 shared
 prim_shared
+gpu_buffer
 varying
 highp
 vec2
@@ -778,7 +779,7 @@ FILTER_FLOOD
 :
 vFilterData0
 =
-fetch_from_gpu_cache_1_direct
+fetch_from_gpu_buffer_1f_direct
 (
 aFilterExtraDataAddress
 )
@@ -809,7 +810,7 @@ mat_data
 4
 ]
 =
-fetch_from_gpu_cache_4_direct
+fetch_from_gpu_buffer_4f_direct
 (
 aFilterExtraDataAddress
 )
@@ -838,7 +839,7 @@ mat_data
 ;
 vFilterData0
 =
-fetch_from_gpu_cache_1_direct
+fetch_from_gpu_buffer_1f_direct
 (
 aFilterExtraDataAddress
 +
@@ -856,7 +857,7 @@ FILTER_DROP_SHADOW
 :
 vFilterData0
 =
-fetch_from_gpu_cache_1_direct
+fetch_from_gpu_buffer_1f_direct
 (
 aFilterExtraDataAddress
 )
@@ -967,7 +968,7 @@ COMPOSITE_ARITHMETIC
 {
 vFilterData0
 =
-fetch_from_gpu_cache_1_direct
+fetch_from_gpu_buffer_1f_direct
 (
 aFilterExtraDataAddress
 )
@@ -3138,7 +3139,7 @@ i
 ;
 texel
 =
-fetch_from_gpu_cache_1_direct
+fetch_from_gpu_buffer_1f_direct
 (
 vData
 .
@@ -3209,7 +3210,7 @@ linear
 equation
 texel
 =
-fetch_from_gpu_cache_1_direct
+fetch_from_gpu_buffer_1f_direct
 (
 vData
 .
@@ -3282,7 +3283,7 @@ gamma
 equation
 texel
 =
-fetch_from_gpu_cache_1_direct
+fetch_from_gpu_buffer_1f_direct
 (
 vData
 .

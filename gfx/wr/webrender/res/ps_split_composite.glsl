@@ -63,6 +63,7 @@ WR_FEATURE_TEXTURE_2D
 include
 shared
 prim_shared
+image_source
 /
 /
 interpolated
