@@ -1023,6 +1023,12 @@ false
 ellipsized
 :
 false
+disabledOption
+:
+false
+hiddenOption
+:
+false
 }
 ;
 export
