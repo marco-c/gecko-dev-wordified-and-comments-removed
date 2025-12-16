@@ -4723,7 +4723,7 @@ Unit
 {
 AlertDialog
 (
-title
+text
 =
 {
 Text
@@ -4738,6 +4738,13 @@ string
 .
 bookmark_delete_folders_confirmation_dialog
 )
+style
+=
+FirefoxTheme
+.
+typography
+.
+body2
 )
 }
 onDismissRequest

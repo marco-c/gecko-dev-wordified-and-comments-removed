@@ -352,7 +352,7 @@ Presenting
 {
 AlertDialog
 (
-title
+text
 =
 {
 Text
@@ -373,7 +373,7 @@ FirefoxTheme
 .
 typography
 .
-headline5
+body2
 )
 }
 onDismissRequest
