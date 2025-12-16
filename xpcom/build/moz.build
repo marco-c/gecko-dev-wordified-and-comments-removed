@@ -82,11 +82,6 @@ SmallArrayLRUCache
 h
 "
 "
-XPCOM
-.
-h
-"
-"
 XREAppData
 .
 h
@@ -169,7 +164,7 @@ if
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 !
