@@ -8,10 +8,6 @@ PHttpChannel
 ;
 include
 protocol
-PCacheEntryWriteHandle
-;
-include
-protocol
 PCookieService
 ;
 include
@@ -233,9 +229,6 @@ PContent
 ;
 manages
 PHttpChannel
-;
-manages
-PCacheEntryWriteHandle
 ;
 manages
 PCookieService
@@ -540,13 +533,6 @@ rcid
 )
 ;
 async
-PCacheEntryWriteHandle
-(
-PHttpChannel
-channel
-)
-;
-async
 PAltDataOutputStream
 (
 nsCString
@@ -554,11 +540,7 @@ type
 int64_t
 predictedSize
 PHttpChannel
-?
 channel
-PCacheEntryWriteHandle
-?
-handle
 )
 ;
 async
