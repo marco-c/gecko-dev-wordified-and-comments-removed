@@ -1657,6 +1657,15 @@ boundsCheckLimit
 )
 const
 ;
+wasm
+:
+:
+PageSize
+pageSize
+(
+)
+const
+;
 WasmSharedArrayRawBuffer
 *
 sharedArrayRawBuffer
