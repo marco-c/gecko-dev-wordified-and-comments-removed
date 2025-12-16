@@ -64,10 +64,10 @@ guid
 =
 0
 ;
-var
+class
 HarImporter
-=
-function
+{
+constructor
 (
 actions
 )
@@ -79,12 +79,6 @@ actions
 actions
 ;
 }
-;
-HarImporter
-.
-prototype
-=
-{
 import
 (
 har
@@ -700,7 +694,6 @@ onLoad
 ;
 }
 }
-;
 exports
 .
 HarImporter
