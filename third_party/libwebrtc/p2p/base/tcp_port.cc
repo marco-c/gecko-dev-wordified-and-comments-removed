@@ -1951,11 +1951,6 @@ modified_options
 Timestamp
 now
 =
-Connection
-:
-:
-AlignTime
-(
 env
 (
 )
@@ -1966,7 +1961,6 @@ clock
 .
 CurrentTime
 (
-)
 )
 ;
 if
