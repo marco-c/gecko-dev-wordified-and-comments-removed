@@ -4559,6 +4559,8 @@ ResolveMarginsInAxis
 (
 LogicalAxis
 aAxis
+bool
+aAnchorCenter
 )
 {
 const
@@ -4735,6 +4737,7 @@ availMarginSpace
 outerWM
 startSideMarginIsAuto
 endSideMarginIsAuto
+aAnchorCenter
 aMargin
 )
 ;
@@ -4750,6 +4753,7 @@ availMarginSpace
 outerWM
 startSideMarginIsAuto
 endSideMarginIsAuto
+aAnchorCenter
 aMargin
 )
 ;
@@ -4762,6 +4766,11 @@ LogicalAxis
 :
 :
 Inline
+aKidReflowInput
+.
+mFlags
+.
+mIAnchorCenter
 )
 ;
 ResolveMarginsInAxis
@@ -4770,6 +4779,11 @@ LogicalAxis
 :
 :
 Block
+aKidReflowInput
+.
+mFlags
+.
+mBAnchorCenter
 )
 ;
 aKidReflowInput
@@ -6656,13 +6670,6 @@ kidReflowInput
 mFlags
 .
 mIOffsetsNeedCSSAlign
-|
-|
-kidReflowInput
-.
-mFlags
-.
-mIAnchorCenter
 )
 {
 margin
@@ -6689,13 +6696,6 @@ kidReflowInput
 mFlags
 .
 mBOffsetsNeedCSSAlign
-|
-|
-kidReflowInput
-.
-mFlags
-.
-mBAnchorCenter
 )
 {
 margin

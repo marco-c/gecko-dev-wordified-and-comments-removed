@@ -2189,6 +2189,8 @@ bool
 aIsMarginBStartAuto
 bool
 aIsMarginBEndAuto
+bool
+aIsIAnchorCenter
 LogicalMargin
 &
 aMargin
@@ -2206,6 +2208,8 @@ bool
 aIsMarginIStartAuto
 bool
 aIsMarginIEndAuto
+bool
+aIsBAnchorCenter
 LogicalMargin
 &
 aMargin
