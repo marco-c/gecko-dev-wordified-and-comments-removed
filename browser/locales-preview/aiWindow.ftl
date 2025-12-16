@@ -153,17 +153,3 @@ label
 navigate
 =
 Navigate
-#
-#
-Firstrun
-onboarding
-aiwindow
--
-firstrun
--
-title
-=
-Welcome
-to
-Smart
-Window
