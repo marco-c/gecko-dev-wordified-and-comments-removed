@@ -507,6 +507,15 @@ aError
 Cr
 .
 NS_ERROR_UNWANTED_URI
+|
+|
+aError
+=
+=
+=
+Cr
+.
+NS_ERROR_HARMFULADDON_URI
 )
 ;
 }
