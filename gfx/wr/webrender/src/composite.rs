@@ -88,6 +88,16 @@ picture
 {
 ImageDependency
 ResolvedSurfaceTexture
+}
+;
+use
+crate
+:
+:
+tile_cache
+:
+:
+{
 TileCacheInstance
 TileSurface
 }

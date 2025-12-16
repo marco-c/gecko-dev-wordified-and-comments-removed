@@ -165,6 +165,16 @@ picture
 :
 {
 DirtyRegion
+}
+;
+use
+crate
+:
+:
+tile_cache
+:
+:
+{
 SliceId
 TileCacheInstance
 }
