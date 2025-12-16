@@ -4721,6 +4721,13 @@ http3
 ]
 [
 "
+test_ckeditor4_compat_hack
+.
+html
+"
+]
+[
+"
 test_clearTimeoutIntervalNoArg
 .
 html

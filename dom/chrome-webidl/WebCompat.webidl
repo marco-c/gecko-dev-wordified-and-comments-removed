@@ -123,9 +123,11 @@ GenerateInit
 dictionary
 CkEditorProperty
 {
-required
 CkEditorVersion
 CKEDITOR
+;
+CkEditorVersion
+JEDITOR
 ;
 }
 ;
