@@ -499,7 +499,7 @@ components
 .
 settings
 .
-featureFlagPreference
+featureFlagBooleanPreference
 import
 org
 .
@@ -511,7 +511,7 @@ components
 .
 settings
 .
-lazyFeatureFlagPreference
+lazyFeatureFlagBooleanPreference
 import
 org
 .
@@ -1570,7 +1570,7 @@ shown
 var
 showPocketRecommendationsFeature
 by
-lazyFeatureFlagPreference
+lazyFeatureFlagBooleanPreference
 (
 appContext
 .
@@ -1590,7 +1590,7 @@ isContentRecommendationsFeatureEnabled
 (
 appContext
 )
-default
+defaultValue
 =
 {
 homescreenSections
@@ -1774,7 +1774,7 @@ stories
 val
 showPocketSponsoredStories
 by
-lazyFeatureFlagPreference
+lazyFeatureFlagBooleanPreference
 (
 key
 =
@@ -1788,7 +1788,7 @@ string
 .
 pref_key_pocket_sponsored_stories
 )
-default
+defaultValue
 =
 {
 homescreenSections
@@ -3113,7 +3113,7 @@ false
 val
 appIconSelection
 by
-lazyFeatureFlagPreference
+booleanPreference
 (
 key
 =
@@ -3127,9 +3127,6 @@ string
 .
 pref_key_app_icon_selection_enabled
 )
-featureFlag
-=
-true
 default
 =
 {
@@ -10510,7 +10507,7 @@ feature
 var
 isAddressSyncEnabled
 by
-featureFlagPreference
+featureFlagBooleanPreference
 (
 key
 =
@@ -10524,7 +10521,7 @@ string
 .
 pref_key_enable_address_sync
 )
-default
+defaultValue
 =
 true
 featureFlag
@@ -10537,7 +10534,7 @@ appContext
 var
 addressFeature
 by
-featureFlagPreference
+featureFlagBooleanPreference
 (
 appContext
 .
@@ -10549,7 +10546,7 @@ string
 .
 pref_key_show_address_feature
 )
-default
+defaultValue
 =
 true
 featureFlag
@@ -12825,7 +12822,7 @@ enabled
 var
 enableFxSuggest
 by
-lazyFeatureFlagPreference
+lazyFeatureFlagBooleanPreference
 (
 key
 =
@@ -12839,7 +12836,7 @@ string
 .
 pref_key_enable_fxsuggest
 )
-default
+defaultValue
 =
 {
 FxNimbus
@@ -12968,7 +12965,7 @@ enabled
 var
 showSponsoredSuggestions
 by
-lazyFeatureFlagPreference
+lazyFeatureFlagBooleanPreference
 (
 key
 =
@@ -12982,7 +12979,7 @@ string
 .
 pref_key_show_sponsored_suggestions
 )
-default
+defaultValue
 =
 {
 enableFxSuggest
@@ -13036,7 +13033,7 @@ enabled
 var
 showNonSponsoredSuggestions
 by
-lazyFeatureFlagPreference
+lazyFeatureFlagBooleanPreference
 (
 key
 =
@@ -13050,7 +13047,7 @@ string
 .
 pref_key_show_nonsponsored_suggestions
 )
-default
+defaultValue
 =
 {
 enableFxSuggest

@@ -371,12 +371,12 @@ testPreferences
 var
 property
 by
-featureFlagPreference
+featureFlagBooleanPreference
 (
 "
 key
 "
-default
+defaultValue
 =
 false
 featureFlag
