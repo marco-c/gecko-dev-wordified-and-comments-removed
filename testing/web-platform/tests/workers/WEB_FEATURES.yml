@@ -87,3 +87,17 @@ html
 -
 postMessage_
 *
+-
+name
+:
+user
+-
+agent
+-
+sniffing
+files
+:
+-
+WorkerNavigator_userAgent
+.
+htm
