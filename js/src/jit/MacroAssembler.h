@@ -3730,7 +3730,11 @@ rhs
 Register
 srcDest
 )
-PER_ARCH
+DEFINED_ON
+(
+x86
+x64
+)
 ;
 inline
 void
