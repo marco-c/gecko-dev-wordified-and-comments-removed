@@ -309,6 +309,9 @@ element
 ancestorRulesData
 :
 null
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -389,6 +392,9 @@ element
 ancestorRulesData
 :
 null
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -470,6 +476,9 @@ element
 ancestorRulesData
 :
 null
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -586,6 +595,9 @@ element
 ancestorRulesData
 :
 null
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -785,6 +797,9 @@ element
 ancestorRulesData
 :
 null
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -942,6 +957,9 @@ element
 ancestorRulesData
 :
 null
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -1099,6 +1117,9 @@ element
 ancestorRulesData
 :
 null
+selectorEditable
+:
+false
 declarations
 :
 [

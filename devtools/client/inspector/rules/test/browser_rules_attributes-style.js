@@ -183,6 +183,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -209,6 +212,9 @@ element
 attributes
 style
 "
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -253,6 +259,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -266,6 +275,9 @@ element
 attributes
 style
 "
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -312,6 +324,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -334,6 +349,9 @@ element
 attributes
 style
 "
+selectorEditable
+:
+false
 inherited
 :
 true
@@ -385,6 +403,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -433,6 +454,9 @@ element
 attributes
 style
 "
+selectorEditable
+:
+false
 inherited
 :
 true
@@ -488,6 +512,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -501,6 +528,9 @@ element
 attributes
 style
 "
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -540,6 +570,9 @@ element
 attributes
 style
 "
+selectorEditable
+:
+false
 inherited
 :
 true
@@ -590,6 +623,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -617,6 +653,9 @@ element
 attributes
 style
 "
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -664,6 +703,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -677,6 +719,9 @@ element
 attributes
 style
 "
+selectorEditable
+:
+false
 declarations
 :
 [
