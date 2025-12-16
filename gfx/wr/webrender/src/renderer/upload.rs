@@ -2946,6 +2946,11 @@ mut
 renderer
 .
 profile
+&
+mut
+renderer
+.
+command_log
 )
 ;
 prev_dst

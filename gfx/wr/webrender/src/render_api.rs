@@ -3820,6 +3820,10 @@ Sender
 DebugFlags
 >
 )
+SetRenderCommandLog
+(
+bool
+)
 SaveCapture
 (
 PathBuf
