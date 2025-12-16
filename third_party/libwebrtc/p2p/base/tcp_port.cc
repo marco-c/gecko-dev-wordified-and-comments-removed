@@ -2058,7 +2058,7 @@ port
 )
 -
 >
-SignalSentPacket
+NotifySentPacket
 (
 sent_packet
 )

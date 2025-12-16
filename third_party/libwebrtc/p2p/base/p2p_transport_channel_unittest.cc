@@ -24321,7 +24321,7 @@ port
 port
 -
 >
-SignalUnknownAddress
+NotifyUnknownAddress
 (
 port
 SocketAddress
@@ -25759,7 +25759,7 @@ ch
 port
 -
 >
-SignalUnknownAddress
+NotifyUnknownAddress
 (
 port
 SocketAddress
@@ -25829,7 +25829,7 @@ remote_priority
 port
 -
 >
-SignalUnknownAddress
+NotifyUnknownAddress
 (
 port
 SocketAddress
@@ -27881,7 +27881,7 @@ ch
 port
 -
 >
-SignalUnknownAddress
+NotifyUnknownAddress
 (
 port
 SocketAddress
@@ -28092,7 +28092,7 @@ selected_connection
 port
 -
 >
-SignalUnknownAddress
+NotifyUnknownAddress
 (
 port
 SocketAddress
@@ -28199,7 +28199,7 @@ STUN_ATTR_USE_CANDIDATE
 port
 -
 >
-SignalUnknownAddress
+NotifyUnknownAddress
 (
 port
 SocketAddress
@@ -28342,7 +28342,7 @@ kIceParams
 port
 -
 >
-SignalUnknownAddress
+NotifyUnknownAddress
 (
 port
 SocketAddress
@@ -28769,7 +28769,7 @@ ch
 port
 -
 >
-SignalUnknownAddress
+NotifyUnknownAddress
 (
 port
 SocketAddress
