@@ -352,6 +352,17 @@ mutex
 .
 h
 "
+#
+include
+"
+system_wrappers
+/
+include
+/
+clock
+.
+h
+"
 namespace
 webrtc
 {
@@ -629,6 +640,9 @@ VideoCaptureModulePipeWire
 :
 VideoCaptureModulePipeWire
 (
+Clock
+*
+clock
 VideoCaptureOptions
 *
 options
@@ -636,6 +650,7 @@ options
 :
 VideoCaptureImpl
 (
+clock
 )
 session_
 (

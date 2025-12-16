@@ -59,6 +59,9 @@ VideoCaptureImpl
 :
 Create
 (
+Clock
+*
+clock
 const
 char
 *
@@ -86,6 +89,7 @@ make_ref_counted
 VideoCaptureDS
 >
 (
+clock
 )
 ;
 if

@@ -63,6 +63,17 @@ video_capture_options
 h
 "
 #
+include
+"
+system_wrappers
+/
+include
+/
+clock
+.
+h
+"
+#
 if
 defined
 (
@@ -98,6 +109,9 @@ VideoCaptureImpl
 :
 Create
 (
+Clock
+*
+clock
 const
 char
 *
@@ -112,6 +126,7 @@ make_ref_counted
 VideoCaptureModuleV4L2
 >
 (
+clock
 )
 ;
 if
@@ -143,6 +158,9 @@ VideoCaptureImpl
 :
 Create
 (
+Clock
+*
+clock
 VideoCaptureOptions
 *
 options
@@ -179,6 +197,7 @@ make_ref_counted
 VideoCaptureModulePipeWire
 >
 (
+clock
 options
 )
 ;
@@ -219,6 +238,7 @@ make_ref_counted
 VideoCaptureModuleV4L2
 >
 (
+clock
 )
 ;
 if
