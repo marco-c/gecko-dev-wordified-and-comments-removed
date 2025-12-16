@@ -1698,7 +1698,7 @@ bits
 )
 ;
 int32_t
-branchLongOffset
+branchLongOffsetHelper
 (
 Label
 *

@@ -26769,7 +26769,7 @@ Acquire
 int32_t
 imm
 =
-branchLongOffset
+branchLongOffsetHelper
 (
 L
 )
@@ -26795,7 +26795,7 @@ L
 int32_t
 imm
 =
-branchLongOffset
+branchLongOffsetHelper
 (
 L
 )
