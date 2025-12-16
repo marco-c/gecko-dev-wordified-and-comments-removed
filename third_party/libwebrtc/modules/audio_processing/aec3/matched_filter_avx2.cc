@@ -424,6 +424,8 @@ float
 s_acum
 =
 0
+.
+0f
 ;
 const
 int
@@ -631,7 +633,7 @@ i
 __m128
 acum_error
 =
-_mm_load_ps
+_mm_loadu_ps
 (
 a_p
 )
