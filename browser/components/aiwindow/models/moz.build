@@ -116,6 +116,13 @@ sys
 mjs
 "
 "
+InsightsManager
+.
+sys
+.
+mjs
+"
+"
 InsightsSchemas
 .
 sys

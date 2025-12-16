@@ -919,6 +919,7 @@ JSON
 object
 *
 /
+export
 function
 parseAndExtractJSON
 (

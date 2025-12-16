@@ -58,6 +58,13 @@ js
 ]
 [
 "
+test_InsightsManager
+.
+js
+"
+]
+[
+"
 test_SearchBrowsingHistory
 .
 js
