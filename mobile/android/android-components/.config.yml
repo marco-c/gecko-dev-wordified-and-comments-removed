@@ -25,9 +25,12 @@ modules
 jvmTargetCompatibility
 :
 17
-compileSdkVersion
+compileSdkMajorVersion
 :
 36
+compileSdkMinorVersion
+:
+1
 minSdkVersion
 :
 26

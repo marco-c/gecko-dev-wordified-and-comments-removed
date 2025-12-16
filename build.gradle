@@ -636,7 +636,7 @@ mozconfig
 substs
 .
 ANDROID_BUILD_TOOLS_VERSION
-compileSdkVersion
+compileSdkMajorVersion
 =
 tryInt
 (
@@ -644,9 +644,9 @@ mozconfig
 .
 substs
 .
-ANDROID_COMPILE_SDK
+ANDROID_COMPILE_SDK_MAJOR
 )
-targetSdkVersion
+compileSdkMinorVersion
 =
 tryInt
 (
@@ -654,7 +654,7 @@ mozconfig
 .
 substs
 .
-ANDROID_TARGET_SDK
+ANDROID_COMPILE_SDK_MINOR
 )
 minSdkVersion
 =
@@ -665,6 +665,16 @@ mozconfig
 substs
 .
 MOZ_ANDROID_MIN_SDK_VERSION
+)
+targetSdkVersion
+=
+tryInt
+(
+mozconfig
+.
+substs
+.
+ANDROID_TARGET_SDK
 )
 manifestPlaceholders
 =

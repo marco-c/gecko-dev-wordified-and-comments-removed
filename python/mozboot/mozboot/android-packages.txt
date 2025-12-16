@@ -8,9 +8,16 @@ tools
 ;
 36
 .
-0
+1
 .
 0
+platforms
+;
+android
+-
+36
+.
+1
 platforms
 ;
 android
