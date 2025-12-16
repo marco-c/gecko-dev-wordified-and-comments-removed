@@ -237,6 +237,9 @@ mod
 picture
 ;
 mod
+picture_composite_mode
+;
+mod
 picture_graph
 ;
 mod
