@@ -107,6 +107,13 @@ js
 ]
 [
 "
+test_UrlbarResult_getDisplayableValueAndHighlights
+.
+js
+"
+]
+[
+"
 test_UrlbarSearchUtils
 .
 js

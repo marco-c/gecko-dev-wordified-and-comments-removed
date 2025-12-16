@@ -2622,9 +2622,6 @@ yelp_intent
 originalUrl
 =
 undefined
-displayUrl
-=
-undefined
 suggestedIndex
 =
 -
@@ -2643,7 +2640,6 @@ title
 source
 provider
 originalUrl
-displayUrl
 suggestedIndex
 }
 )

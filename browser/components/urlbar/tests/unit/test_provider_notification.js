@@ -74,13 +74,6 @@ mozilla
 .
 com
 "
-displayUrl
-:
-"
-mozilla
-.
-com
-"
 }
 }
 )
@@ -184,13 +177,6 @@ tags
 [
 ]
 title
-:
-"
-example
-.
-com
-"
-displayUrl
 :
 "
 example

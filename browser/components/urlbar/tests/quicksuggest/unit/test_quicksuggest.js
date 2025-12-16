@@ -6084,9 +6084,6 @@ ignore
 =
 [
 "
-displayUrl
-"
-"
 sponsoredClickUrl
 "
 "
