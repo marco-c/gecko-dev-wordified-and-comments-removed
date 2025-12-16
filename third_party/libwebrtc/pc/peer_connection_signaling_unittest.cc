@@ -9694,14 +9694,8 @@ callee
 >
 SetLocalDescription
 (
-CreateSessionDescription
+CreateRollbackSessionDescription
 (
-SdpType
-:
-:
-kRollback
-"
-"
 )
 )
 ;

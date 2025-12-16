@@ -3495,14 +3495,8 @@ Rollback
 return
 SetRemoteDescription
 (
-CreateSessionDescription
+CreateRollbackSessionDescription
 (
-SdpType
-:
-:
-kRollback
-"
-"
 )
 )
 ;

@@ -820,14 +820,8 @@ CreateRollback
 )
 {
 return
-CreateSessionDescription
+CreateRollbackSessionDescription
 (
-SdpType
-:
-:
-kRollback
-"
-"
 )
 ;
 }

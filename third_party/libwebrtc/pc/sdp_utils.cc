@@ -162,6 +162,15 @@ Clone
 )
 ;
 }
+RTC_DCHECK_EQ
+(
+type
+SdpType
+:
+:
+kRollback
+)
+;
 return
 std
 :
@@ -172,6 +181,11 @@ JsepSessionDescription
 >
 (
 type
+nullptr
+"
+"
+"
+"
 )
 ;
 }
