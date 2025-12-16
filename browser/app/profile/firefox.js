@@ -13945,7 +13945,7 @@ imageProxy
 .
 enabled
 "
-true
+false
 )
 ;
 pref
