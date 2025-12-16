@@ -68259,14 +68259,6 @@ aOperation
 =
 true
 ;
-if
-(
-!
-IsAboutPage
-(
-)
-)
-{
 const_cast
 <
 Document
@@ -68285,7 +68277,6 @@ aOperation
 )
 )
 ;
-}
 uint32_t
 flags
 =
