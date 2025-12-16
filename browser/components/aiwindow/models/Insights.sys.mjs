@@ -339,7 +339,7 @@ models
 /
 prompts
 /
-insightsPrompts
+InsightsPrompts
 .
 sys
 .
