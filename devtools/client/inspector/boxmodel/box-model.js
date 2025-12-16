@@ -167,8 +167,10 @@ d
 +
 /
 ;
-function
+class
 BoxModel
+{
+constructor
 (
 inspector
 window
@@ -362,11 +364,6 @@ onSidebarSelect
 )
 ;
 }
-BoxModel
-.
-prototype
-=
-{
 destroy
 (
 )
@@ -1851,7 +1848,6 @@ inspectorFront
 ;
 }
 }
-;
 module
 .
 exports
