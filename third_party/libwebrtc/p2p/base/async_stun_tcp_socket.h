@@ -170,6 +170,10 @@ int
 pad_bytes
 )
 ;
+const
+Environment
+env_
+;
 }
 ;
 }

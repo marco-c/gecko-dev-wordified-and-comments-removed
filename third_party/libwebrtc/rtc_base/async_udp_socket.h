@@ -310,6 +310,10 @@ Socket
 socket
 )
 ;
+const
+Environment
+env_
+;
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 sequence_checker_
