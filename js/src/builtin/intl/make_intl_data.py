@@ -18294,23 +18294,12 @@ f
         
 println
 (
-            
 '
 /
 /
 |
 reftest
 |
-shell
--
-option
-(
--
--
-enable
--
-temporal
-)
 skip
 -
 if
@@ -18326,7 +18315,6 @@ Temporal
 )
 )
 '
-        
 )
         
 println
