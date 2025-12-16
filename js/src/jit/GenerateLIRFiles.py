@@ -2741,6 +2741,31 @@ if
 generate_lir
 :
             
+lir_result_type
+=
+op
+.
+get
+(
+"
+lir_result_type
+"
+None
+)
+            
+assert
+isinstance
+(
+lir_result_type
+(
+type
+(
+None
+)
+str
+)
+)
+            
 result_type
 =
 op
@@ -2767,10 +2792,38 @@ str
 )
             
 if
+lir_result_type
+is
+not
+None
+:
+                
+if
+lir_result_type
+=
+=
+"
+none
+"
+:
+                    
+lir_result_type
+=
+None
+                
+else
+:
+                    
+assert
+lir_result_type
+in
+result_types
+            
+elif
 result_type
 :
                 
-result_type
+lir_result_type
 =
 mir_type_to_lir_type
 (
@@ -2778,7 +2831,7 @@ result_type
 )
                 
 assert
-result_type
+lir_result_type
 in
 result_types
             
@@ -2916,7 +2969,7 @@ gen_lir_class
                     
 name
                     
-result_type
+lir_result_type
                     
 successors
                     
