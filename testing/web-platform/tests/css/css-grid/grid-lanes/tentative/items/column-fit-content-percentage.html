@@ -17,7 +17,8 @@ utf
 title
 >
 CSS
-Masonry
+Grid
+Lanes
 Layout
 Test
 :
@@ -120,7 +121,9 @@ fit
 content
 lets
 the
-masonry
+grid
+-
+lanes
 container
 grow
 enough
@@ -133,7 +136,9 @@ content
 contribution
 of
 its
-masonry
+grid
+-
+lanes
 items
 .
 "
@@ -398,7 +403,7 @@ container
 )
 ;
 const
-masonry
+gridLanes
 =
 document
 .
@@ -409,7 +414,7 @@ div
 "
 )
 ;
-masonry
+gridLanes
 .
 className
 =
@@ -419,7 +424,7 @@ grid
 lanes
 "
 ;
-masonry
+gridLanes
 .
 style
 .
@@ -431,7 +436,7 @@ container
 .
 appendChild
 (
-masonry
+gridLanes
 )
 ;
 const
@@ -470,7 +475,7 @@ auto
 0px
 "
 ;
-masonry
+gridLanes
 .
 appendChild
 (
@@ -524,7 +529,8 @@ item
 offsetWidth
 colSize
 "
-Masonry
+Grid
+Lanes
 item
 width
 "
@@ -537,7 +543,8 @@ item
 offsetHeight
 height
 "
-Masonry
+Grid
+Lanes
 item
 height
 "
@@ -545,12 +552,13 @@ height
 ;
 assert_equals
 (
-masonry
+gridLanes
 .
 offsetWidth
 maxContent
 "
-Masonry
+Grid
+Lanes
 container
 width
 "
@@ -558,12 +566,13 @@ width
 ;
 assert_equals
 (
-masonry
+gridLanes
 .
 offsetHeight
 height
 "
-Masonry
+Grid
+Lanes
 container
 height
 "
@@ -573,7 +582,7 @@ assert_equals
 (
 getComputedStyle
 (
-masonry
+gridLanes
 )
 .
 gridTemplateColumns
@@ -583,7 +592,8 @@ colSize
 px
 "
 "
-Masonry
+Grid
+Lanes
 column
 size
 "
