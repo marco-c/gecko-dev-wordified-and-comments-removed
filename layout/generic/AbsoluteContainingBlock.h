@@ -356,6 +356,10 @@ const
 nsRect
 &
 aOriginalContainingBlockRect
+const
+nsRect
+&
+aOriginalScrollableContainingBlockRect
 AbsPosReflowFlags
 aFlags
 nsIFrame
