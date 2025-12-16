@@ -4536,7 +4536,7 @@ TabCounterClicked
 (
 Source
 .
-AddressBar
+Unknown
 )
 action
 .
@@ -4627,7 +4627,7 @@ source
 =
 Source
 .
-AddressBar
+Unknown
 )
 action
 .
@@ -5857,6 +5857,8 @@ Source
 Source
 .
 AddressBar
+.
+BrowserEnd
 )
 =
 TabCounterAction
@@ -6038,6 +6040,8 @@ Source
 Source
 .
 AddressBar
+.
+BrowserEnd
 )
 =
 ActionButtonRes
@@ -6139,6 +6143,8 @@ Source
 Source
 .
 AddressBar
+.
+BrowserEnd
 )
 =
 ActionButtonRes

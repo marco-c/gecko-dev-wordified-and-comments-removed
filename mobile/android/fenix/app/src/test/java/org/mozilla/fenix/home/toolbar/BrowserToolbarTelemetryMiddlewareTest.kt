@@ -314,7 +314,8 @@ record
 telemetry
 based
 on
-addressBar
+browser
+end
 or
 navbar
 source
@@ -330,6 +331,8 @@ MenuClicked
 Source
 .
 AddressBar
+.
+BrowserEnd
 )
 )
 assertTelemetryRecorded
@@ -337,6 +340,8 @@ assertTelemetryRecorded
 Source
 .
 AddressBar
+.
+BrowserEnd
 item
 =
 ToolbarActionRecord
@@ -382,7 +387,8 @@ record
 telemetry
 based
 on
-addressBar
+browser
+end
 or
 navbar
 source
@@ -398,6 +404,8 @@ TabCounterClicked
 Source
 .
 AddressBar
+.
+BrowserEnd
 )
 )
 assertTelemetryRecorded
@@ -405,6 +413,8 @@ assertTelemetryRecorded
 Source
 .
 AddressBar
+.
+BrowserEnd
 item
 =
 ToolbarActionRecord
@@ -451,7 +461,8 @@ record
 telemetry
 based
 on
-addressBar
+browser
+end
 or
 navbar
 source
@@ -467,6 +478,8 @@ TabCounterLongClicked
 Source
 .
 AddressBar
+.
+BrowserEnd
 )
 )
 assertTelemetryRecorded
@@ -474,6 +487,8 @@ assertTelemetryRecorded
 Source
 .
 AddressBar
+.
+BrowserEnd
 item
 =
 ToolbarActionRecord
@@ -519,7 +534,8 @@ record
 telemetry
 based
 on
-addressBar
+browser
+end
 or
 navbar
 source
@@ -535,6 +551,8 @@ AddNewTab
 Source
 .
 AddressBar
+.
+BrowserEnd
 )
 )
 assertTelemetryRecorded
@@ -542,6 +560,8 @@ assertTelemetryRecorded
 Source
 .
 AddressBar
+.
+BrowserEnd
 item
 =
 ToolbarActionRecord
@@ -588,7 +608,8 @@ record
 telemetry
 based
 on
-addressBar
+browser
+end
 or
 navbar
 source
@@ -604,6 +625,8 @@ AddNewPrivateTab
 Source
 .
 AddressBar
+.
+BrowserEnd
 )
 )
 assertTelemetryRecorded
@@ -611,6 +634,8 @@ assertTelemetryRecorded
 Source
 .
 AddressBar
+.
+BrowserEnd
 item
 =
 ToolbarActionRecord
@@ -688,9 +713,13 @@ when
 source
 )
 {
+is
 Source
 .
 AddressBar
+Source
+.
+Unknown
 -
 >
 SOURCE_ADDRESS_BAR

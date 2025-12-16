@@ -1068,7 +1068,7 @@ Source
 =
 Source
 .
-AddressBar
+Unknown
 )
 {
 when
@@ -1076,6 +1076,7 @@ when
 source
 )
 {
+is
 Source
 .
 AddressBar
@@ -1126,6 +1127,12 @@ toolbarActionRecord
 action
 )
 )
+Source
+.
+Unknown
+-
+>
+return
 }
 }
 }

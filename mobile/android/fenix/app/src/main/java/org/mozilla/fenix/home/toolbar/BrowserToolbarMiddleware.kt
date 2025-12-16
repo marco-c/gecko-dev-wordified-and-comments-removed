@@ -2239,6 +2239,8 @@ action
 Source
 .
 AddressBar
+.
+BrowserEnd
 )
 }
 }
@@ -2896,7 +2898,7 @@ Source
 =
 Source
 .
-AddressBar
+Unknown
 )
 :
 Action
