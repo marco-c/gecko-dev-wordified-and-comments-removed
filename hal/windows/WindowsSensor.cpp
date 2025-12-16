@@ -49,7 +49,7 @@ mozilla
 namespace
 hal_impl
 {
-MOZ_CONSTINIT
+constinit
 static
 RefPtr
 <

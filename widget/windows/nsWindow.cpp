@@ -1226,7 +1226,7 @@ sIsOleInitialized
 =
 false
 ;
-MOZ_CONSTINIT
+constinit
 nsIWidget
 :
 :
