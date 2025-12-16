@@ -631,8 +631,6 @@ resourceCommand
 }
 =
 toolbox
-.
-commands
 ;
 function
 onAvailable
