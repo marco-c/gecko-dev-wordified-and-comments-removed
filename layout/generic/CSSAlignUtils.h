@@ -79,17 +79,6 @@ const
 LogicalSize
 &
 aChildSize
-const
-Maybe
-<
-LogicalRect
->
-&
-aAnchorRect
-=
-Nothing
-(
-)
 )
 ;
 }
