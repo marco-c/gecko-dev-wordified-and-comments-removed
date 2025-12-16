@@ -7667,6 +7667,10 @@ sdp_offer_answer
 "
 "
 :
+sdp_state_provider
+"
+"
+:
 session_description
 "
 "
@@ -7866,6 +7870,14 @@ options
 api
 /
 environment
+"
+"
+.
+.
+/
+api
+/
+rtc_event_log
 "
 "
 .
