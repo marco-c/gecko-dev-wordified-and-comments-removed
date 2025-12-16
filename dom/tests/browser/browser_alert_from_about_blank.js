@@ -145,11 +145,8 @@ newWin
 location
 =
 "
-about
-:
+/
 blank
-?
-0
 "
 ;
 newWin
