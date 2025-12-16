@@ -4901,8 +4901,7 @@ SEC_OID_UNKNOWN
 break
 ;
 }
-bitSize
-=
+return
 SECKEY_MLDSAOidParamsToLen
 (
 paramSetOid
