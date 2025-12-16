@@ -293,8 +293,13 @@ null
 }
 ;
 }
-function
+class
 DelayedTask
+{
+#
+promise
+;
+constructor
 (
 taskFn
 delay
@@ -302,7 +307,8 @@ delay
 {
 this
 .
-_promise
+#
+promise
 =
 new
 Promise
@@ -378,11 +384,6 @@ error
 )
 ;
 }
-DelayedTask
-.
-prototype
-=
-{
 get
 promise
 (
@@ -391,7 +392,8 @@ promise
 return
 this
 .
-_promise
+#
+promise
 ;
 }
 cancel
@@ -448,7 +450,6 @@ runTask
 }
 }
 }
-;
 module
 .
 exports
