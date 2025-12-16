@@ -174,8 +174,10 @@ createStore
 reducers
 )
 ;
-function
+class
 DomView
+{
+constructor
 (
 localStore
 )
@@ -207,11 +209,6 @@ store
 localStore
 ;
 }
-DomView
-.
-prototype
-=
-{
 initialize
 (
 rootGrip
@@ -319,7 +316,6 @@ args
 }
 }
 }
-;
 window
 .
 view
