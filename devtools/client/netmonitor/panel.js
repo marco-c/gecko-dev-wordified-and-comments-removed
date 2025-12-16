@@ -3,8 +3,10 @@ use
 strict
 "
 ;
-function
+class
 NetMonitorPanel
+{
+constructor
 (
 iframeWindow
 toolbox
@@ -30,11 +32,6 @@ commands
 commands
 ;
 }
-NetMonitorPanel
-.
-prototype
-=
-{
 async
 open
 (
@@ -119,7 +116,6 @@ destroyed
 ;
 }
 }
-;
 exports
 .
 NetMonitorPanel
