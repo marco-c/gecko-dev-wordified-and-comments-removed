@@ -2360,6 +2360,8 @@ mainScope
 coroutineContext
 )
 {
+try
+{
 val
 geckoPermissions
 =
@@ -2389,6 +2391,16 @@ filterNotTemporaryPermissions
 (
 geckoTemporaryPermissions
 )
+}
+}
+catch
+(
+_
+:
+Exception
+)
+{
+null
 }
 }
 }
