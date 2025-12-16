@@ -2667,6 +2667,10 @@ SiteInfoClicked
 onSiteInfoClicked
 (
 )
+next
+(
+action
+)
 }
 is
 MenuClicked
