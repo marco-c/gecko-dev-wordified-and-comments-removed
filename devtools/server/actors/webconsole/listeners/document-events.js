@@ -308,6 +308,17 @@ isTopLevel
 return
 ;
 }
+if
+(
+!
+window
+.
+docShell
+)
+{
+return
+;
+}
 const
 time
 =
