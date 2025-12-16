@@ -3340,7 +3340,7 @@ isNothing
 ;
 }
 bool
-boundsCheckLimitIs32Bits
+boundsCheckLimitIsAlways32Bits
 (
 )
 const
