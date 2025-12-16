@@ -7522,11 +7522,11 @@ ThemeManager
 .
 resolveAttribute
 (
-R
+materialR
 .
 attr
 .
-textPrimary
+colorOnSurface
 context
 )
 val
@@ -7536,11 +7536,11 @@ ThemeManager
 .
 resolveAttribute
 (
-R
+materialR
 .
 attr
 .
-layer2
+colorSurfaceContainerLowest
 context
 )
 binding
