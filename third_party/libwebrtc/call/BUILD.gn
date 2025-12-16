@@ -753,11 +753,6 @@ rtp_transport_config
 h
 "
 "
-rtp_transport_controller_send_factory_interface
-.
-h
-"
-"
 rtp_transport_controller_send_interface
 .
 h
@@ -1167,11 +1162,6 @@ cc
 "
 "
 rtp_transport_controller_send
-.
-h
-"
-"
-rtp_transport_controller_send_factory
 .
 h
 "
