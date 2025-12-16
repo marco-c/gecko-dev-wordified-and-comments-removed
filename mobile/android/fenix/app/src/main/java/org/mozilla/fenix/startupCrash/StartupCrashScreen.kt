@@ -417,6 +417,8 @@ scrollState
 rememberScrollState
 (
 )
+Surface
+{
 Column
 (
 modifier
@@ -522,6 +524,7 @@ ReopenButton
 (
 store
 )
+}
 }
 }
 }
@@ -946,12 +949,9 @@ emptyList
 }
 FirefoxTheme
 {
-Surface
-{
 StartupCrashScreen
 (
 store
 )
-}
 }
 }
