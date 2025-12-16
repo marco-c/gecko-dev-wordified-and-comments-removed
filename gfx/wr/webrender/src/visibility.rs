@@ -112,8 +112,16 @@ picture
 {
 SurfaceIndex
 RasterConfig
-SubSliceIndex
 }
+;
+use
+crate
+:
+:
+tile_cache
+:
+:
+SubSliceIndex
 ;
 use
 crate

@@ -2876,7 +2876,7 @@ new
 crate
 :
 :
-picture
+tile_cache
 :
 :
 TILE_SIZE_DEFAULT
