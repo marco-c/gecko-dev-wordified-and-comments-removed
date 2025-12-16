@@ -757,9 +757,11 @@ parent_pic_index
 ;
 pic
 .
-pre_update
+resolve_scene_properties
 (
 frame_context
+.
+scene_properties
 )
 ;
 let
