@@ -786,6 +786,7 @@ make_unique
 TurnServer
 >
 (
+env
 thread_
 .
 get
@@ -855,10 +856,12 @@ turn_server_
 >
 AddInternalSocket
 (
-client_socket
-.
-release
+std
+:
+:
+move
 (
+client_socket
 )
 PROTO_UDP
 )
