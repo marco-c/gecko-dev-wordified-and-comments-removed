@@ -4840,7 +4840,7 @@ startup
 test
 -
 !
-simple
+profiling
 "
 ]
                     
