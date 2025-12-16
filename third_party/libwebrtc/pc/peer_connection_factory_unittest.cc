@@ -2011,6 +2011,13 @@ EnableMedia
 pcf_dependencies
 )
 ;
+Environment
+env
+=
+CreateEnvironment
+(
+)
+;
 scoped_refptr
 <
 ConnectionContext
@@ -2022,9 +2029,7 @@ ConnectionContext
 :
 Create
 (
-CreateEnvironment
-(
-)
+env
 &
 pcf_dependencies
 )
@@ -2043,6 +2048,7 @@ make_ref_counted
 PeerConnectionFactory
 >
 (
+env
 context
 &
 pcf_dependencies

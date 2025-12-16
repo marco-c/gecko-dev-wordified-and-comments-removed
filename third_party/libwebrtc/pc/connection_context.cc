@@ -495,10 +495,6 @@ signaling_thread
 wraps_current_thread_
 )
 )
-env_
-(
-env
-)
 media_engine_
 (
 dependencies
@@ -517,7 +513,7 @@ media_factory
 >
 CreateMediaEngine
 (
-env_
+env
 *
 dependencies
 )

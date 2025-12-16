@@ -496,12 +496,7 @@ field_trials
 const
 {
 return
-context_
--
->
-env
-(
-)
+env_
 .
 field_trials
 (
@@ -529,6 +524,8 @@ protected
 :
 PeerConnectionFactory
 (
+Environment
+env
 scoped_refptr
 <
 ConnectionContext
@@ -554,6 +551,9 @@ PeerConnectionFactory
 ;
 private
 :
+Environment
+env_
+;
 Thread
 *
 network_thread
