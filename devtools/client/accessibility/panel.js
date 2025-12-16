@@ -127,8 +127,10 @@ PropertiesUpdated
 "
 }
 ;
-function
+class
 AccessibilityPanel
+{
+constructor
 (
 iframeWindow
 toolbox
@@ -239,11 +241,6 @@ this
 )
 ;
 }
-AccessibilityPanel
-.
-prototype
-=
-{
 async
 open
 (
@@ -1240,7 +1237,6 @@ destroyed
 ;
 }
 }
-;
 exports
 .
 AccessibilityPanel
