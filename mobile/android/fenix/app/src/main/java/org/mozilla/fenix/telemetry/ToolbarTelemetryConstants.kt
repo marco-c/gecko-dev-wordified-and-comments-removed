@@ -164,6 +164,13 @@ edit_bookmark
 "
 const
 val
+ACTION_TRANSLATE_CLICKED
+=
+"
+translate
+"
+const
+val
 ACTION_HOME_CLICKED
 =
 "

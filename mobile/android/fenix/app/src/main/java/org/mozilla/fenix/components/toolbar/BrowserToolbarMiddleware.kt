@@ -3747,6 +3747,10 @@ actionBrowserFragmentToTranslationsDialogFragment
 (
 )
 )
+next
+(
+action
+)
 }
 is
 RefreshClicked
