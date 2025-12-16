@@ -351,9 +351,6 @@ sourceURL
 CharPtr
 updateURL
 ;
-CharPtr
-sourceStamp
-;
 #
 if
 defined
@@ -488,11 +485,6 @@ const
 char
 *
 updateURL
-;
-const
-char
-*
-sourceStamp
 ;
 }
 ;
