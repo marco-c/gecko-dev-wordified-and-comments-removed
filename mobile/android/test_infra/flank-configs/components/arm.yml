@@ -128,7 +128,7 @@ MediumPhone
 arm
 version
 :
-30
+34
 locale
 :
 en_US
@@ -143,7 +143,6 @@ test
 -
 shards
 :
--
 1
 num
 -
