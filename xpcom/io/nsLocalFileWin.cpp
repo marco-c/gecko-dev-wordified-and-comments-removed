@@ -895,7 +895,7 @@ nsLocalFile
 CheckForReservedFileName
 (
 const
-nsString
+nsAString
 &
 aFileName
 )
