@@ -16764,6 +16764,11 @@ ScrollFlags
 :
 :
 ScrollOverflowHidden
+|
+ScrollFlags
+:
+:
+ForZoomToFocusedInput
 )
 ;
 }
