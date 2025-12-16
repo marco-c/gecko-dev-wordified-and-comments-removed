@@ -59,8 +59,10 @@ js
 "
 )
 ;
-function
+class
 GripProvider
+{
+constructor
 (
 grips
 dispatch
@@ -79,11 +81,6 @@ dispatch
 dispatch
 ;
 }
-GripProvider
-.
-prototype
-=
-{
 getChildren
 (
 object
@@ -439,7 +436,6 @@ class
 ;
 }
 }
-;
 exports
 .
 GripProvider
