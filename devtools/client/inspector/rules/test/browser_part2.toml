@@ -1321,6 +1321,15 @@ labeled
 ]
 [
 "
+browser_rules_position
+-
+try
+.
+js
+"
+]
+[
+"
 browser_rules_preview
 -
 tooltips
