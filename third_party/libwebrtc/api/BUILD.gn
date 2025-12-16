@@ -8763,6 +8763,13 @@ corruption_detection
 frame_instrumentation_evaluation_unittest
 "
 "
+video
+/
+corruption_detection
+:
+frame_instrumentation_generator_unittest
+"
+"
 /
 /
 third_party
