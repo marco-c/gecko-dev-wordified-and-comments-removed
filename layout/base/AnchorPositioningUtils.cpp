@@ -920,7 +920,15 @@ IsViewportFrame
 )
 {
 return
-true
+!
+nsLayoutUtils
+:
+:
+IsProperAncestorFrame
+(
+aPositionedFrame
+aPossibleAnchorFrame
+)
 ;
 }
 auto
