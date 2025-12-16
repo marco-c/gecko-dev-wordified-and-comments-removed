@@ -434,6 +434,15 @@ getElementById
 manageSavedPasswords
 "
 )
+.
+shadowRoot
+.
+querySelector
+(
+"
+a
+"
+)
 ;
 showPasswordsButton
 .
