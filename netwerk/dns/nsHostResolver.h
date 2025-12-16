@@ -1086,7 +1086,7 @@ MOZ_REQUIRES
 mLock
 )
 ;
-bool
+nsresult
 ConditionallyRefreshRecord
 (
 nsHostRecord
@@ -1250,13 +1250,6 @@ aPb
 nsresult
 &
 aStatus
-const
-mozilla
-:
-:
-MutexAutoLock
-&
-aLock
 )
 MOZ_REQUIRES
 (
