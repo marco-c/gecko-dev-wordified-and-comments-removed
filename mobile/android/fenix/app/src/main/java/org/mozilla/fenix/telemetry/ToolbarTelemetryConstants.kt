@@ -295,10 +295,3 @@ ACTION_TAB_COUNTER_LONG_CLICKED
 "
 tab_counter_long_press
 "
-const
-val
-ACTION_SITE_INFO_CLICKED
-=
-"
-site_info
-"

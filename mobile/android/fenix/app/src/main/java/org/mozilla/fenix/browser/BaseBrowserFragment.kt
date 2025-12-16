@@ -4758,6 +4758,14 @@ view
 =
 view
 )
+/
+/
+Site
+info
+telemetry
+for
+legacy
+toolbar
 (
 browserToolbarView
 as

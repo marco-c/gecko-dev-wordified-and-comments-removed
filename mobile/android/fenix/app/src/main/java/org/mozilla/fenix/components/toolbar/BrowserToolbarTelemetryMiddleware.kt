@@ -515,7 +515,7 @@ fenix
 .
 telemetry
 .
-ACTION_SHARE_CLICKED
+ACTION_SECURITY_INDICATOR_CLICKED
 import
 org
 .
@@ -525,7 +525,7 @@ fenix
 .
 telemetry
 .
-ACTION_SITE_INFO_CLICKED
+ACTION_SHARE_CLICKED
 import
 org
 .
@@ -929,7 +929,7 @@ trackToolbarEvent
 (
 ToolbarActionRecord
 .
-SiteInfoClicked
+SecurityIndicatorClicked
 action
 .
 source
@@ -1088,11 +1088,11 @@ ACTION_HOME_CLICKED
 )
 data
 object
-SiteInfoClicked
+SecurityIndicatorClicked
 :
 ToolbarActionRecord
 (
-ACTION_SITE_INFO_CLICKED
+ACTION_SECURITY_INDICATOR_CLICKED
 )
 }
 private

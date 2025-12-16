@@ -1444,7 +1444,7 @@ item
 =
 ToolbarActionRecord
 .
-SiteInfoClicked
+SecurityIndicatorClicked
 .
 action
 )
