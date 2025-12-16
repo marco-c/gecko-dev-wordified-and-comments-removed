@@ -347,7 +347,7 @@ tooling
 .
 preview
 .
-Preview
+PreviewLightDark
 import
 androidx
 .
@@ -454,6 +454,18 @@ base
 text
 .
 Text
+import
+mozilla
+.
+components
+.
+compose
+.
+base
+.
+theme
+.
+surfaceDimVariant
 import
 mozilla
 .
@@ -1202,7 +1214,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainer
+surfaceDimVariant
 contentColor
 =
 MaterialTheme
@@ -2377,7 +2389,7 @@ false
 )
 )
 }
-Preview
+PreviewLightDark
 Composable
 private
 fun
