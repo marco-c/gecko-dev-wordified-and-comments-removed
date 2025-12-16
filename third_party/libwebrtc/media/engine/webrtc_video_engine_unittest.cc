@@ -6174,6 +6174,7 @@ header_extensions
 GetDefaultEnabledRtpHeaderExtensions
 (
 engine_
+nullptr
 )
 ;
 if

@@ -4415,6 +4415,13 @@ WebRtcVoiceEngine
 :
 GetRtpHeaderExtensions
 (
+const
+webrtc
+:
+:
+FieldTrialsView
+*
+field_trials
 )
 const
 {

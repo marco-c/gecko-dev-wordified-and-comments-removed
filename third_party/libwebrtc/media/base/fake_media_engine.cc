@@ -3536,6 +3536,10 @@ FakeVoiceEngine
 :
 GetRtpHeaderExtensions
 (
+const
+FieldTrialsView
+*
+field_trials
 )
 const
 {
@@ -3919,6 +3923,10 @@ FakeVideoEngine
 :
 GetRtpHeaderExtensions
 (
+const
+FieldTrialsView
+*
+field_trials
 )
 const
 {

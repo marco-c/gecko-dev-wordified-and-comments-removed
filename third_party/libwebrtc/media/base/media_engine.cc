@@ -464,6 +464,13 @@ const
 RtpHeaderExtensionQueryInterface
 &
 query_interface
+const
+webrtc
+:
+:
+FieldTrialsView
+*
+field_trials
 )
 {
 std
@@ -486,6 +493,7 @@ query_interface
 .
 GetRtpHeaderExtensions
 (
+field_trials
 )
 )
 {

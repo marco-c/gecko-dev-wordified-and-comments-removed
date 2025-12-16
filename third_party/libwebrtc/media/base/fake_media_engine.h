@@ -4979,6 +4979,10 @@ RtpHeaderExtensionCapability
 >
 GetRtpHeaderExtensions
 (
+const
+FieldTrialsView
+*
+field_trials
 )
 const
 override
@@ -5556,6 +5560,10 @@ RtpHeaderExtensionCapability
 >
 GetRtpHeaderExtensions
 (
+const
+FieldTrialsView
+*
+field_trials
 )
 const
 override
