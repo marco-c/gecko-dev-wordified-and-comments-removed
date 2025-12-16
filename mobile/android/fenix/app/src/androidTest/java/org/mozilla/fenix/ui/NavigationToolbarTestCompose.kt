@@ -6262,10 +6262,6 @@ verifyCustomTabActionButtonWithComposableToolbar
 composeTestRule
 customTabActionButton
 )
-verifyCustomTabsShareButtonWithComposableToolbar
-(
-composeTestRule
-)
 verifyMainMenuComposeButtonWithComposableToolbar
 (
 composeTestRule
