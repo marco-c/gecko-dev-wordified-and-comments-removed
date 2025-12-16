@@ -985,7 +985,7 @@ Socket
 socket
 )
 {
-SignalConnect
+NotifyConnect
 (
 this
 )

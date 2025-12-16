@@ -6684,6 +6684,10 @@ macromagic
 "
 "
 :
+sigslot_trampoline
+"
+"
+:
 socket
 "
 "

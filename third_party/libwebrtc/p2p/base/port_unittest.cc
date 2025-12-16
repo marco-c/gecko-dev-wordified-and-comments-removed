@@ -11483,7 +11483,7 @@ nullptr
 socket
 -
 >
-SignalConnect
+NotifyConnect
 (
 socket
 )
