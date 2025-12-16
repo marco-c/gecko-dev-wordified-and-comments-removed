@@ -353,7 +353,7 @@ ui
 .
 semantics
 .
-contentDescription
+clearAndSetSemantics
 import
 androidx
 .
@@ -363,7 +363,7 @@ ui
 .
 semantics
 .
-semantics
+contentDescription
 import
 androidx
 .
@@ -825,12 +825,7 @@ onClick
 null
 }
 .
-semantics
-(
-mergeDescendants
-=
-true
-)
+clearAndSetSemantics
 {
 this
 .

@@ -1693,11 +1693,6 @@ Search
 or
 enter
 address
-.
-Search
-or
-enter
-address
 "
 )
 )
