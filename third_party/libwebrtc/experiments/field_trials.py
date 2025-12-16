@@ -1034,6 +1034,24 @@ FieldTrial
 '
 WebRTC
 -
+SynchronousDestructors
+'
+               
+443588673
+               
+date
+(
+2026
+7
+1
+)
+)
+    
+FieldTrial
+(
+'
+WebRTC
+-
 PayloadTypesInTransport
 '
                
