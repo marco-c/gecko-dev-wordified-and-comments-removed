@@ -173,7 +173,7 @@ the
 previous
 ping
 .
-idchanged
+idchange
 :
 |
 The
@@ -188,6 +188,11 @@ changed
 .
 Probably
 means
+a
+user
+signed
+out
+or
 a
 different
 user
