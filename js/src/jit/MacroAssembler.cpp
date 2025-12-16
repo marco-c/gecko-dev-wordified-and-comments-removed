@@ -1026,7 +1026,7 @@ temp2
 volatileLiveRegs
 )
 ;
-canonicalizeFloatNaN
+canonicalizeFloat
 (
 dest
 .
@@ -1053,7 +1053,7 @@ fpu
 )
 )
 ;
-canonicalizeFloatNaN
+canonicalizeFloat
 (
 dest
 .
@@ -1080,7 +1080,7 @@ fpu
 )
 )
 ;
-canonicalizeDoubleNaN
+canonicalizeDouble
 (
 dest
 .
@@ -38780,6 +38780,7 @@ scratchFloat
 scratchInt
 &
 fallthrough
+false
 )
 ;
 branch32
@@ -38956,6 +38957,7 @@ convertDoubleToInt32
 scratchFloat
 dest
 oolConvert
+false
 )
 ;
 branch32
@@ -54483,7 +54485,7 @@ Register
 temp
 )
 {
-canonicalizeDoubleNaN
+canonicalizeDouble
 (
 src
 )
