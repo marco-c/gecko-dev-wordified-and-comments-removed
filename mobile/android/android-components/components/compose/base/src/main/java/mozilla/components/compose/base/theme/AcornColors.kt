@@ -736,6 +736,7 @@ information
 .
 *
 /
+internal
 var
 information
 by
@@ -764,6 +765,7 @@ theme
 .
 *
 /
+internal
 var
 surfaceDimVariant
 by
