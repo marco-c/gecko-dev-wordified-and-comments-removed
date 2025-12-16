@@ -507,7 +507,7 @@ has_set_ect1_options_
 =
 options
 .
-ecn_1
+ect_1
 )
 {
 if
@@ -526,7 +526,7 @@ Option
 OPT_SEND_ECN
 options
 .
-ecn_1
+ect_1
 ?
 1
 :
@@ -541,7 +541,7 @@ has_set_ect1_options_
 =
 options
 .
-ecn_1
+ect_1
 ;
 }
 }

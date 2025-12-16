@@ -22,6 +22,11 @@ functional
 #
 include
 <
+utility
+>
+#
+include
+<
 vector
 >
 #
@@ -250,7 +255,7 @@ dscp
 DSCP_NO_CHANGE
 ;
 bool
-ecn_1
+ect_1
 =
 false
 ;
