@@ -2437,6 +2437,17 @@ audio_decoder_fuzzer
 .
 /
 api
+:
+array_view
+"
+"
+.
+.
+/
+.
+.
+/
+api
 /
 audio_codecs
 /
