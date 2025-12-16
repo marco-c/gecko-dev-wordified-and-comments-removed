@@ -381,6 +381,8 @@ repack
 linux64
 -
 node
+-
+terser
 when
 :
 files
