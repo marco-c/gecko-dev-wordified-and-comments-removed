@@ -572,19 +572,14 @@ self
 .
 assertTrue
 (
-            
+updated_status
+in
+{
 status
-=
-=
-updated_status
-or
-updated_status
-=
-=
 ExperimentStatus
 .
 DISQUALIFIED
-        
+}
 )
         
 startup_status

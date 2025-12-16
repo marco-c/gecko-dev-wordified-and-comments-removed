@@ -748,20 +748,17 @@ nightly
     
 elif
 release_type
-=
-=
+in
+{
 "
 release
 "
-or
-release_type
-=
-=
 "
 release
 -
 rc
 "
+}
 :
         
 return

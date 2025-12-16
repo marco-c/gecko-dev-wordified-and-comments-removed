@@ -407,18 +407,15 @@ VisualStudio
     
 elif
 ide
-=
-=
+in
+{
 "
 vscode
 "
-or
-ide
-=
-=
 "
 vscodium
 "
+}
 :
         
 if
@@ -549,18 +546,15 @@ visual_studio_workspace_dir
     
 elif
 ide
-=
-=
+in
+{
 "
 vscode
 "
-or
-ide
-=
-=
 "
 vscodium
 "
+}
 :
         
 return

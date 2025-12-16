@@ -2266,23 +2266,17 @@ copy
 :
             
 if
-(
-                
 mod
-!
-=
+not
+in
+{
 __name__
-                
-and
-mod
-!
-=
 "
 taskgraph
 .
 main
 "
-                
+}
 and
 mod
 .
@@ -2294,7 +2288,9 @@ split
 1
 )
 [
+                
 0
+            
 ]
 .
 endswith
@@ -2307,8 +2303,6 @@ taskgraph
 mozbuild
 "
 )
-)
-            
 )
 :
                 

@@ -2006,19 +2006,20 @@ not
 (
                     
 term
-=
-=
+in
+{
 "
 module
 "
-                    
-or
-term
-=
-=
 "
 async
 "
+"
+test262
+-
+raw
+"
+}
                     
 or
 term
@@ -2056,16 +2057,6 @@ option
 (
 "
 )
-                    
-or
-term
-=
-=
-"
-test262
--
-raw
-"
                 
 )
             

@@ -350,20 +350,15 @@ if
 mozinfo
 .
 os
-=
-=
+in
+{
 "
 linux
 "
-or
-mozinfo
-.
-os
-=
-=
 "
 mac
 "
+}
 :
             
 self
@@ -2075,20 +2070,15 @@ if
 mozinfo
 .
 os
-=
-=
+in
+{
 "
 win
 "
-or
-mozinfo
-.
-os
-=
-=
 "
 mac
 "
+}
 :
             
 grcov_command

@@ -1732,8 +1732,8 @@ None
     
 if
 app
-=
-=
+in
+{
 "
 org
 .
@@ -1743,10 +1743,6 @@ fenix
 .
 release
 "
-or
-app
-=
-=
 "
 org
 .
@@ -1754,6 +1750,7 @@ mozilla
 .
 firefox
 "
+}
 :
         
 package_name
@@ -1786,8 +1783,8 @@ installFenixRelease
     
 elif
 app
-=
-=
+in
+{
 "
 org
 .
@@ -1797,15 +1794,12 @@ fenix
 .
 nightly
 "
-or
-app
-=
-=
 "
 fenix
 .
 nightly
 "
+}
 :
         
 package_name

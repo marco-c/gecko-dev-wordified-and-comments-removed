@@ -1134,28 +1134,23 @@ script
 None
         
 if
-(
-            
 tag
-=
-=
+in
+{
+            
 self
 .
 cache
 .
 CalleeToken_Function
             
-or
-tag
-=
-=
 self
 .
 cache
 .
 CalleeToken_FunctionConstructing
         
-)
+}
 :
             
 value

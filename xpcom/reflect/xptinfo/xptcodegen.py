@@ -1340,18 +1340,15 @@ element
         
 elif
 tag
-=
-=
+in
+{
 "
 interface_type
 "
-or
-tag
-=
-=
 "
 domobject
 "
+}
 :
             
 return

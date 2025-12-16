@@ -168,23 +168,16 @@ items
 :
         
 if
-(
 key
-=
-=
+in
+{
 "
 schema
 "
-)
-or
-(
-key
-=
-=
 "
 no_lint
 "
-)
+}
 :
             
 continue

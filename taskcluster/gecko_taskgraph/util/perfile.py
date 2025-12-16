@@ -462,8 +462,8 @@ False
                 
 if
 type
-=
-=
+in
+{
 "
 test
 -
@@ -471,10 +471,6 @@ verify
 -
 e10s
 "
-or
-type
-=
-=
 "
 test
 -
@@ -482,6 +478,7 @@ coverage
 -
 e10s
 "
+}
 :
                     
 gpu_dirs

@@ -183,18 +183,15 @@ status
             
 if
 status
-=
-=
+in
+{
 "
 FAIL
 "
-or
-status
-=
-=
 "
 PRECONDITION_FAILED
 "
+}
 :
                 
 self

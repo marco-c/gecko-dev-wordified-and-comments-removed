@@ -14977,18 +14977,15 @@ value
         
 if
 format
-=
-=
+in
+{
 "
 base64
 "
-or
-format
-=
-=
 "
 hash
 "
+}
 :
             
 return

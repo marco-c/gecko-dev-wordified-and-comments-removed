@@ -4721,22 +4721,19 @@ fileNames
                 
 if
 fileName
-=
-=
+in
+{
 "
 browser
 .
 js
 "
-or
-fileName
-=
-=
 "
 shell
 .
 js
 "
+}
 :
                     
 continue

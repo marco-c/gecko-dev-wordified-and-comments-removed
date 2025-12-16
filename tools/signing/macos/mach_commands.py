@@ -2970,18 +2970,15 @@ devedition
                 
 elif
 channel
-=
-=
+in
+{
 "
 release
 "
-or
-channel
-=
-=
 "
 beta
 "
+}
 :
                     
 entitlement_file
@@ -3730,18 +3727,15 @@ devedition
                 
 elif
 channel
-=
-=
+in
+{
 "
 release
 "
-or
-channel
-=
-=
 "
 beta
 "
+}
 :
                     
 entitlement_file

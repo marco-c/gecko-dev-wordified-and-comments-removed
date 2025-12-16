@@ -421,18 +421,15 @@ continue
             
 if
 arg
-=
-=
+in
+{
 "
 t
 "
-or
-arg
-=
-=
 "
 test
 "
+}
 :
                 
 continue

@@ -80,19 +80,16 @@ SIG_
                 
 and
 k
-!
-=
+not
+in
+{
 "
 SIGCLD
 "
-                
-and
-k
-!
-=
 "
 SIGPOLL
 "
+}
             
 )
 :

@@ -509,11 +509,10 @@ art_dict
 None
                 
 elif
-(
-                    
 plat
-=
-=
+in
+{
+                    
 "
 toolchain
 -
@@ -528,10 +527,6 @@ rt
 trunk
 "
                     
-or
-plat
-=
-=
 "
 toolchain
 -
@@ -546,10 +541,6 @@ rt
 trunk
 "
                     
-or
-plat
-=
-=
 "
 toolchain
 -
@@ -564,10 +555,6 @@ rt
 trunk
 "
                     
-or
-plat
-=
-=
 "
 android
 -
@@ -576,7 +563,7 @@ geckoview
 docs
 "
                 
-)
+}
 :
                     
 art_dict

@@ -2458,19 +2458,16 @@ ffrec
             
 if
 name
-=
-=
+in
+{
 "
 .
 "
-or
-name
-=
-=
 "
 .
 .
 "
+}
 :
                 
 continue
@@ -7129,18 +7126,15 @@ dest
             
 elif
 overwrite
-=
-=
+in
+{
 "
 no_overwrite
 "
-or
-overwrite
-=
-=
 "
 overwrite_if_exists
 "
+}
 :
                 
 files

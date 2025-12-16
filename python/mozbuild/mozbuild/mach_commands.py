@@ -3970,20 +3970,15 @@ if
 os_error
 .
 errno
-=
-=
+in
+{
 errno
 .
 EPIPE
-or
-os_error
-.
-errno
-=
-=
 errno
 .
 EINVAL
+}
 :
                 
 pass

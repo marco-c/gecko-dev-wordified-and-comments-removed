@@ -638,27 +638,19 @@ and
 (
             
 node_name
-=
-=
+            
+in
+{
 "
 Resource
 "
-            
-or
-node_name
-=
-=
 "
 Span
 "
-            
-or
-node_name
-=
-=
 "
 Comment
 "
+}
         
 )
         

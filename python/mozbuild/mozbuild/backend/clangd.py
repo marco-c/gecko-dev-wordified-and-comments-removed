@@ -23,18 +23,16 @@ ide
     
 if
 ide
-!
-=
+not
+in
+{
 "
 vscode
 "
-and
-ide
-!
-=
 "
 vscodium
 "
+}
 :
         
 return

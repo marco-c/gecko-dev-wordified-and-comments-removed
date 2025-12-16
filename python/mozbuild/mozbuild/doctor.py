@@ -2321,18 +2321,15 @@ option
     
 elif
 option
-=
-=
+in
+{
 "
 atime
 "
-or
-option
-=
-=
 "
 norelatime
 "
+}
 :
         
 status
@@ -2360,18 +2357,15 @@ option
     
 elif
 option
-=
-=
+in
+{
 "
 noatime
 "
-or
-option
-=
-=
 "
 relatime
 "
+}
 :
         
 status
