@@ -10593,6 +10593,9 @@ this
 sovEnabled
 (
 )
+&
+&
+isSponsoredTopSite
 )
 {
 if
