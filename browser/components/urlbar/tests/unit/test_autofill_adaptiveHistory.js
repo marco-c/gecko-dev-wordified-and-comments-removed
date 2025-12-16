@@ -1832,7 +1832,7 @@ example
 com
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -2287,7 +2287,7 @@ example
 org
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -2455,7 +2455,7 @@ example
 com
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -6555,7 +6555,7 @@ example
 com
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -6998,7 +6998,7 @@ example
 com
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -7398,7 +7398,7 @@ com
 /
 test
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -7861,7 +7861,7 @@ example
 com
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -8040,7 +8040,7 @@ example
 com
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -8202,7 +8202,7 @@ example
 com
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -8366,7 +8366,7 @@ example
 com
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -8947,7 +8947,7 @@ example
 com
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -9165,7 +9165,7 @@ abc
 /
 def
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -9651,7 +9651,7 @@ example
 com
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .

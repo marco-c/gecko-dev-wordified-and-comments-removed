@@ -155,7 +155,7 @@ mozilla
 org
 /
 "
-fallbackTitle
+title
 :
 "
 mozilla
@@ -281,7 +281,7 @@ mozilla
 org
 /
 "
-fallbackTitle
+title
 :
 "
 mozilla
@@ -425,7 +425,7 @@ org
 /
 link
 "
-fallbackTitle
+title
 :
 "
 mozilla

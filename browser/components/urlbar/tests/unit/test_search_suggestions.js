@@ -4229,7 +4229,7 @@ http
 SEARCH_STRING
 }
 /
-fallbackTitle
+title
 :
 {
 SEARCH_STRING
@@ -4436,7 +4436,7 @@ http
 SEARCH_STRING
 }
 /
-fallbackTitle
+title
 :
 {
 SEARCH_STRING
@@ -4520,7 +4520,7 @@ http
 somethingelse
 /
 "
-fallbackTitle
+title
 :
 "
 somethingelse
@@ -4691,7 +4691,7 @@ http
 4
 /
 "
-fallbackTitle
+title
 :
 "
 http
@@ -4793,7 +4793,7 @@ http
 30
 /
 "
-fallbackTitle
+title
 :
 "
 [
@@ -4868,7 +4868,7 @@ pass
 test
 /
 "
-fallbackTitle
+title
 :
 "
 user
@@ -4943,7 +4943,7 @@ mozilla
 org
 /
 "
-fallbackTitle
+title
 :
 "
 user
@@ -5018,7 +5018,7 @@ org
 1234
 /
 "
-fallbackTitle
+title
 :
 "
 mozilla
@@ -5089,7 +5089,7 @@ text
 plain
 Content
 "
-fallbackTitle
+title
 :
 "
 data
@@ -5293,7 +5293,7 @@ UrlbarUtils
 RESULT_SOURCE
 .
 OTHER_LOCAL
-fallbackTitle
+title
 :
 {
 query
@@ -6608,7 +6608,7 @@ ftp
 test
 /
 "
-fallbackTitle
+title
 :
 "
 ftp
@@ -6840,7 +6840,7 @@ http
 www
 /
 "
-fallbackTitle
+title
 :
 "
 http
@@ -6910,7 +6910,7 @@ https
 www
 /
 "
-fallbackTitle
+title
 :
 "
 https
@@ -6980,7 +6980,7 @@ http
 test
 /
 "
-fallbackTitle
+title
 :
 "
 http
@@ -7050,7 +7050,7 @@ https
 test
 /
 "
-fallbackTitle
+title
 :
 "
 https
@@ -7124,7 +7124,7 @@ www
 test
 /
 "
-fallbackTitle
+title
 :
 "
 http
@@ -7204,7 +7204,7 @@ test
 com
 /
 "
-fallbackTitle
+title
 :
 "
 http
@@ -7384,7 +7384,7 @@ file
 /
 Users
 "
-fallbackTitle
+title
 :
 "
 file

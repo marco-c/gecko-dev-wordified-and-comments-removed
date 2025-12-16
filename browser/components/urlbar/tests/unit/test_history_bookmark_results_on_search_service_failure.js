@@ -227,7 +227,7 @@ UrlbarUtils
 RESULT_SOURCE
 .
 OTHER_LOCAL
-fallbackTitle
+title
 :
 "
 cat

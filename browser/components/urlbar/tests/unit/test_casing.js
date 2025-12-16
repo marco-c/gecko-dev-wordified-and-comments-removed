@@ -124,7 +124,7 @@ mozilla
 org
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -977,7 +977,7 @@ mozilla
 org
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -1178,7 +1178,7 @@ mozilla
 org
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .

@@ -133,7 +133,7 @@ file
 org
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -389,7 +389,7 @@ file
 org
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .

@@ -3062,7 +3062,6 @@ makeVisitResult
 queryContext
 {
 title
-fallbackTitle
 uri
 iconUri
 providerName
@@ -3105,18 +3104,6 @@ payload
 title
 =
 title
-;
-}
-if
-(
-fallbackTitle
-)
-{
-payload
-.
-fallbackTitle
-=
-fallbackTitle
 ;
 }
 if

@@ -668,7 +668,7 @@ OTHER_LOCAL
 payload
 :
 {
-fallbackTitle
+title
 :
 UrlbarUtils
 .

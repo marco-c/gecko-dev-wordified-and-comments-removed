@@ -12833,15 +12833,6 @@ type
 boolean
 "
 }
-fallbackTitle
-:
-{
-type
-:
-"
-string
-"
-}
 frecency
 :
 {

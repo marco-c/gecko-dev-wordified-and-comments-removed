@@ -436,7 +436,7 @@ com
 /
 f
 "
-fallbackTitle
+title
 :
 "
 example
@@ -608,7 +608,7 @@ foo
 bar
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -1303,7 +1303,7 @@ com
 #
 t
 "
-fallbackTitle
+title
 :
 "
 http
@@ -1625,7 +1625,7 @@ example
 com
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -1746,7 +1746,7 @@ example
 com
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -1879,7 +1879,7 @@ com
 ABC
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -2009,7 +2009,7 @@ com
 ABC
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -2139,7 +2139,7 @@ com
 ABC
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -2270,7 +2270,7 @@ com
 abc
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -2589,7 +2589,7 @@ abc
 /
 def
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -2728,7 +2728,7 @@ com
 ABC
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -2867,7 +2867,7 @@ com
 abc
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -3110,7 +3110,7 @@ abc
 /
 def
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -3354,7 +3354,7 @@ abc
 /
 def
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -3894,7 +3894,7 @@ localhost
 foo
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -5101,7 +5101,7 @@ com
 /
 ABC
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .

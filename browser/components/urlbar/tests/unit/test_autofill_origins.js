@@ -950,7 +950,7 @@ origin
 :
 89
 /
-fallbackTitle
+title
 :
 {
 origin
@@ -1063,7 +1063,7 @@ origin
 :
 9
 /
-fallbackTitle
+title
 :
 {
 origin
@@ -1171,7 +1171,7 @@ http
 example
 /
 "
-fallbackTitle
+title
 :
 "
 example
@@ -2852,7 +2852,7 @@ context
 uri
 :
 baseURL
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -3008,7 +3008,7 @@ uri
 search
 }
 /
-fallbackTitle
+title
 :
 {
 search
@@ -3081,7 +3081,7 @@ uri
 search
 }
 /
-fallbackTitle
+title
 :
 {
 search
@@ -3158,7 +3158,7 @@ uri
 search
 }
 /
-fallbackTitle
+title
 :
 {
 search
@@ -3234,7 +3234,7 @@ context
 uri
 :
 baseURL
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -4143,7 +4143,7 @@ about
 :
 blan
 "
-fallbackTitle
+title
 :
 "
 about

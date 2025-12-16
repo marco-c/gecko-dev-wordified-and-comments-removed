@@ -222,7 +222,7 @@ http
 query
 }
 /
-fallbackTitle
+title
 :
 {
 query
@@ -311,7 +311,7 @@ http
 query
 }
 /
-fallbackTitle
+title
 :
 {
 query
@@ -399,7 +399,7 @@ http
 query
 }
 /
-fallbackTitle
+title
 :
 {
 query
@@ -488,7 +488,7 @@ uri
 query
 }
 /
-fallbackTitle
+title
 :
 {
 query
@@ -556,7 +556,7 @@ uri
 query
 }
 /
-fallbackTitle
+title
 :
 {
 query
@@ -630,7 +630,7 @@ uri
 query
 }
 /
-fallbackTitle
+title
 :
 {
 query
@@ -770,7 +770,7 @@ OTHER_LOCAL
 uri
 :
 query
-fallbackTitle
+title
 :
 query
 heuristic
@@ -848,7 +848,7 @@ uri
 query
 }
 /
-fallbackTitle
+title
 :
 {
 query
@@ -978,7 +978,7 @@ http
 {
 query
 }
-fallbackTitle
+title
 :
 {
 query
@@ -1221,7 +1221,7 @@ http
 query
 }
 /
-fallbackTitle
+title
 :
 {
 query
@@ -1303,7 +1303,7 @@ http
 {
 query
 }
-fallbackTitle
+title
 :
 {
 query
@@ -1442,7 +1442,7 @@ http
 {
 query
 }
-fallbackTitle
+title
 :
 {
 query
@@ -1533,7 +1533,7 @@ http
 query
 }
 /
-fallbackTitle
+title
 :
 {
 query
@@ -1612,7 +1612,7 @@ http
 query
 }
 /
-fallbackTitle
+title
 :
 {
 query
@@ -1740,7 +1740,7 @@ http
 query
 }
 /
-fallbackTitle
+title
 :
 {
 query
@@ -1811,7 +1811,7 @@ OTHER_LOCAL
 uri
 :
 query
-fallbackTitle
+title
 :
 query
 heuristic
@@ -2222,7 +2222,7 @@ uri
 query
 }
 /
-fallbackTitle
+title
 :
 {
 query
@@ -2295,7 +2295,7 @@ uri
 query
 }
 /
-fallbackTitle
+title
 :
 {
 query
@@ -2370,7 +2370,7 @@ http
 query
 }
 /
-fallbackTitle
+title
 :
 {
 query
@@ -2604,7 +2604,7 @@ OTHER_LOCAL
 uri
 :
 query
-fallbackTitle
+title
 :
 query
 heuristic
@@ -2676,7 +2676,7 @@ OTHER_LOCAL
 uri
 :
 query
-fallbackTitle
+title
 :
 query
 heuristic
@@ -3570,7 +3570,7 @@ http
 query
 }
 /
-fallbackTitle
+title
 :
 {
 query
@@ -3744,7 +3744,7 @@ not
 host
 /
 "
-fallbackTitle
+title
 :
 "
 user
@@ -3842,7 +3842,7 @@ user
 1
 /
 "
-fallbackTitle
+title
 :
 "
 user
@@ -4182,7 +4182,7 @@ mozilla
 .
 org
 /
-fallbackTitle
+title
 :
 {
 query
@@ -4257,7 +4257,7 @@ mozilla
 .
 org
 /
-fallbackTitle
+title
 :
 {
 query
@@ -4322,7 +4322,7 @@ http
 query
 }
 /
-fallbackTitle
+title
 :
 {
 query

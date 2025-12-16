@@ -5798,6 +5798,13 @@ finalCompleteValue
 )
 }
 ;
+let
+noVisitAction
+=
+!
+!
+title
+;
 if
 (
 title
@@ -5880,7 +5887,7 @@ includes
 ;
 payload
 .
-fallbackTitle
+title
 =
 fallbackTitle
 ;
@@ -5931,6 +5938,7 @@ length
 type
 :
 autofilledType
+noVisitAction
 }
 payload
 highlights
