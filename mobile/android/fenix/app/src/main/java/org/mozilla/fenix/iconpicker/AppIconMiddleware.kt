@@ -198,6 +198,8 @@ oldIcon
 {
 context
 .
+store
+.
 dispatch
 (
 SystemAction
@@ -213,6 +215,8 @@ newIcon
 else
 {
 context
+.
+store
 .
 dispatch
 (

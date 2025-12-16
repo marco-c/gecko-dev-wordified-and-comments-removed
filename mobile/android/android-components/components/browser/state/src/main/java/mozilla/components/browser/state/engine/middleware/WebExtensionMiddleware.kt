@@ -475,6 +475,8 @@ id
 )
 context
 .
+store
+.
 dispatch
 (
 WebExtensionAction
@@ -512,6 +514,8 @@ markActiveForWebExtensions
 true
 )
 context
+.
+store
 .
 dispatch
 (

@@ -271,6 +271,8 @@ PLAYING
 {
 context
 .
+store
+.
 dispatch
 (
 LastAccessAction
@@ -294,6 +296,8 @@ DeactivatedMediaSessionAction
 )
 {
 context
+.
+store
 .
 dispatch
 (

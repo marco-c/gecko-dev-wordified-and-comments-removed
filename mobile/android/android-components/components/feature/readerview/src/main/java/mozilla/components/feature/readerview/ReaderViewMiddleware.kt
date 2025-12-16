@@ -765,6 +765,8 @@ activeUrl
 >
 context
 .
+store
+.
 dispatch
 (
 ContentAction
@@ -783,6 +785,8 @@ true
 :
 false
 context
+.
+store
 .
 dispatch
 (
@@ -803,6 +807,8 @@ else
 {
 context
 .
+store
+.
 dispatch
 (
 ReaderAction
@@ -816,6 +822,8 @@ false
 )
 )
 context
+.
+store
 .
 dispatch
 (
@@ -831,6 +839,8 @@ false
 )
 context
 .
+store
+.
 dispatch
 (
 ReaderAction
@@ -844,6 +854,8 @@ true
 )
 )
 context
+.
+store
 .
 dispatch
 (
@@ -895,6 +907,8 @@ SelectTabAction
 {
 context
 .
+store
+.
 dispatch
 (
 ReaderAction
@@ -909,6 +923,8 @@ true
 )
 context
 .
+store
+.
 dispatch
 (
 ReaderAction
@@ -922,6 +938,8 @@ false
 )
 )
 context
+.
+store
 .
 dispatch
 (
@@ -944,6 +962,8 @@ LinkEngineSessionAction
 >
 {
 context
+.
+store
 .
 dispatch
 (
@@ -1056,6 +1076,8 @@ url
 )
 {
 context
+.
+store
 .
 dispatch
 (

@@ -1928,6 +1928,8 @@ referrerUrl
 )
 context
 .
+store
+.
 dispatch
 (
 HistoryMetadataAction

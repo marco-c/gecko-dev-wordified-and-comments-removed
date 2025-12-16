@@ -1881,6 +1881,8 @@ SearchSettingsItemClicked
 {
 context
 .
+store
+.
 dispatch
 (
 SearchQueryUpdated
@@ -2221,6 +2223,8 @@ ACTION_CLEAR_CLICKED
 )
 )
 context
+.
+store
 .
 dispatch
 (
@@ -2609,6 +2613,8 @@ defaultEngine
 )
 context
 .
+store
+.
 dispatch
 (
 HintUpdated
@@ -2668,6 +2674,8 @@ uiContext
 resources
 )
 context
+.
+store
 .
 dispatch
 (
@@ -2925,6 +2933,8 @@ launch
 {
 context
 .
+store
+.
 dispatch
 (
 BrowserEditToolbarAction
@@ -2979,6 +2989,8 @@ url
 else
 {
 context
+.
+store
 .
 dispatch
 (
@@ -3193,6 +3205,8 @@ reconcileSelectedEngine
 )
 =
 context
+.
+store
 .
 dispatch
 (
@@ -3434,6 +3448,8 @@ QrScannerInputConsumed
 )
 context
 .
+store
+.
 dispatch
 (
 SearchQueryUpdated
@@ -3560,6 +3576,8 @@ isNullOrEmpty
 )
 {
 context
+.
+store
 .
 dispatch
 (

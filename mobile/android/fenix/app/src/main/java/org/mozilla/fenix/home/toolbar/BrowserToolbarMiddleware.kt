@@ -1866,6 +1866,8 @@ it
 }
 context
 .
+store
+.
 dispatch
 (
 SearchQueryUpdated
@@ -2022,6 +2024,8 @@ SearchEngine
 =
 context
 .
+store
+.
 dispatch
 (
 PageActionsStartUpdated
@@ -2046,6 +2050,8 @@ BrowserToolbarAction
 )
 =
 context
+.
+store
 .
 dispatch
 (
@@ -2093,6 +2099,8 @@ BrowserToolbarAction
 )
 {
 context
+.
+store
 .
 dispatch
 (
@@ -2258,6 +2266,8 @@ BrowserToolbarAction
 )
 {
 context
+.
+store
 .
 dispatch
 (

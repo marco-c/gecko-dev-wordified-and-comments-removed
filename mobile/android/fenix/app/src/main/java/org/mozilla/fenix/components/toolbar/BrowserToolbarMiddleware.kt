@@ -3166,6 +3166,8 @@ else
 {
 context
 .
+store
+.
 dispatch
 (
 SearchQueryUpdated
@@ -3348,6 +3350,8 @@ PasteFromClipboardClicked
 >
 {
 context
+.
+store
 .
 dispatch
 (
@@ -4533,6 +4537,8 @@ BrowserToolbarAction
 =
 context
 .
+store
+.
 dispatch
 (
 BrowserActionsStartUpdated
@@ -4556,6 +4562,8 @@ BrowserToolbarAction
 )
 =
 context
+.
+store
 .
 dispatch
 (
@@ -4583,6 +4591,8 @@ BrowserToolbarAction
 )
 {
 context
+.
+store
 .
 dispatch
 (
@@ -4670,6 +4680,8 @@ BrowserToolbarAction
 )
 =
 context
+.
+store
 .
 dispatch
 (
@@ -5395,6 +5407,8 @@ BrowserToolbarAction
 {
 context
 .
+store
+.
 dispatch
 (
 NavigationActionsUpdated
@@ -5679,6 +5693,8 @@ progress
 collect
 {
 context
+.
+store
 .
 dispatch
 (
@@ -6000,6 +6016,8 @@ originalUrl
 }
 context
 .
+store
+.
 dispatch
 (
 BrowserDisplayToolbarAction
@@ -6106,6 +6124,8 @@ cancelPrivateDownloadsAccepted
 )
 {
 context
+.
+store
 .
 dispatch
 (

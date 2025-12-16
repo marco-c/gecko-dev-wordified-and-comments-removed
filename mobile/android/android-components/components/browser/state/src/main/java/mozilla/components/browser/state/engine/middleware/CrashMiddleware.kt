@@ -344,6 +344,8 @@ restoring
 .
 context
 .
+store
+.
 dispatch
 (
 EngineAction

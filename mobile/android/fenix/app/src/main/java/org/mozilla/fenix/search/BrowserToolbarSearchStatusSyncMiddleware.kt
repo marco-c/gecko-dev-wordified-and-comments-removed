@@ -502,6 +502,8 @@ isSearchActive
 {
 context
 .
+store
+.
 dispatch
 (
 EnterEditMode
@@ -517,6 +519,8 @@ isPrivate
 else
 {
 context
+.
+store
 .
 dispatch
 (

@@ -468,6 +468,8 @@ state
 editState
 context
 .
+store
+.
 dispatch
 (
 SearchStarted
@@ -596,6 +598,8 @@ editState
 .
 isQueryPrefilled
 context
+.
+store
 .
 dispatch
 (

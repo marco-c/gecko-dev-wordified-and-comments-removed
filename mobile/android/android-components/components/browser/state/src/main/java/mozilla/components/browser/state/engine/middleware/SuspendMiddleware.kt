@@ -392,6 +392,8 @@ state
 )
 context
 .
+store
+.
 dispatch
 (
 EngineAction

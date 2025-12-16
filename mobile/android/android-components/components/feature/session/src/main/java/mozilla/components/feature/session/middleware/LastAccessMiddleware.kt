@@ -489,6 +489,8 @@ id
 String
 )
 {
+store
+.
 dispatch
 (
 LastAccessAction

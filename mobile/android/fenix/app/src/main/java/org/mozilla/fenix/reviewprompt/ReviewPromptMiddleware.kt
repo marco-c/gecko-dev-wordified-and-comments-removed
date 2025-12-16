@@ -900,6 +900,8 @@ id
 .
 context
 .
+store
+.
 dispatch
 (
 ShowPlayStorePrompt
@@ -908,6 +910,8 @@ ShowPlayStorePrompt
 else
 {
 context
+.
+store
 .
 dispatch
 (
@@ -918,6 +922,8 @@ ShowPlayStorePrompt
 else
 {
 context
+.
+store
 .
 dispatch
 (

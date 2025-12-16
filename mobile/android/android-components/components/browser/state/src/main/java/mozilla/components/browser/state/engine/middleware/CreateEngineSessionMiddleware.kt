@@ -346,6 +346,8 @@ crashed
 {
 context
 .
+store
+.
 dispatch
 (
 EngineAction

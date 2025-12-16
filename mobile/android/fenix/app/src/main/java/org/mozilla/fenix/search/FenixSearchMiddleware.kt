@@ -1070,6 +1070,8 @@ context
 )
 context
 .
+store
+.
 dispatch
 (
 SearchFragmentAction
@@ -1724,6 +1726,8 @@ shouldShowTrendingSearches
 shouldShowSearchSuggestions
 context
 .
+store
+.
 dispatch
 (
 SearchSuggestionsVisibilityUpdated
@@ -1770,6 +1774,8 @@ url
 query
 }
 context
+.
+store
 .
 dispatch
 (
@@ -1823,6 +1829,8 @@ suggestionsProvidersBuilder
 :
 return
 context
+.
+store
 .
 dispatch
 (
@@ -2623,6 +2631,8 @@ HISTORY_SEARCH_ENGINE_ID
 {
 context
 .
+store
+.
 dispatch
 (
 SearchFragmentAction
@@ -2655,6 +2665,8 @@ BOOKMARKS_SEARCH_ENGINE_ID
 >
 {
 context
+.
+store
 .
 dispatch
 (
@@ -2689,6 +2701,8 @@ TABS_SEARCH_ENGINE_ID
 {
 context
 .
+store
+.
 dispatch
 (
 SearchFragmentAction
@@ -2711,6 +2725,8 @@ defaultEngine
 >
 {
 context
+.
+store
 .
 dispatch
 (
@@ -2737,6 +2753,8 @@ else
 >
 {
 context
+.
+store
 .
 dispatch
 (
@@ -2938,6 +2956,8 @@ is
 cleared
 .
 context
+.
+store
 .
 dispatch
 (

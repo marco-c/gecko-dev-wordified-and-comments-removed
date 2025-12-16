@@ -389,6 +389,8 @@ searchState
 >
 context
 .
+store
+.
 dispatch
 (
 UpdateSearchState

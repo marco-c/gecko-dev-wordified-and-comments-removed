@@ -560,7 +560,7 @@ TestAction
 >
 =
 {
-store
+middlewareContext
 next
 action
 -
@@ -575,6 +575,8 @@ TestAction
 DoNothingAction
 )
 {
+middlewareContext
+.
 store
 .
 dispatch
@@ -599,7 +601,7 @@ TestAction
 >
 =
 {
-store
+middlewareContext
 next
 action
 -
@@ -614,6 +616,8 @@ TestAction
 DoNothingAction
 )
 {
+middlewareContext
+.
 store
 .
 dispatch
@@ -946,7 +950,7 @@ TestAction
 >
 =
 {
-store
+middlewareContext
 next
 action
 -
@@ -961,6 +965,8 @@ TestAction
 IncrementAction
 )
 {
+middlewareContext
+.
 store
 .
 dispatch

@@ -2243,6 +2243,8 @@ collect
 {
 context
 .
+store
+.
 dispatch
 (
 UpdateProgressBarConfig
@@ -2381,6 +2383,8 @@ CustomTabSessionState
 =
 context
 .
+store
+.
 dispatch
 (
 BrowserActionsStartUpdated
@@ -2409,6 +2413,8 @@ CustomTabSessionState
 )
 =
 context
+.
+store
 .
 dispatch
 (
@@ -2442,6 +2448,8 @@ scope
 launch
 {
 context
+.
+store
 .
 dispatch
 (
@@ -2509,6 +2517,8 @@ CustomTabSessionState
 =
 context
 .
+store
+.
 dispatch
 (
 BrowserDisplayToolbarAction
@@ -2539,6 +2549,8 @@ CustomTabSessionState
 )
 =
 context
+.
+store
 .
 dispatch
 (

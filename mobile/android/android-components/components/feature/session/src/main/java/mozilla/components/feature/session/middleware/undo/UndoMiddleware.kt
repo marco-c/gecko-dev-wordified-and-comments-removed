@@ -778,6 +778,8 @@ id
 }
 context
 .
+store
+.
 dispatch
 (
 UndoAction

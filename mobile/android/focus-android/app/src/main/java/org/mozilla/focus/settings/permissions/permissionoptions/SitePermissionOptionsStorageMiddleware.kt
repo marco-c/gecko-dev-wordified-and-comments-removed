@@ -168,6 +168,8 @@ InitSitePermissionOptions
 {
 context
 .
+store
+.
 dispatch
 (
 SitePermissionOptionsScreenAction
