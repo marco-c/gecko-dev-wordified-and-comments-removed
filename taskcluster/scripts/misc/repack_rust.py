@@ -2933,15 +2933,7 @@ install
 prefix
 =
 "
-{
-install_dir
-}
-"
-        
-sysconfdir
-=
-"
-etc
+/
 "
         
 [
@@ -3277,6 +3269,12 @@ LD_LIBRARY_PATH
 "
 :
 clang_lib
+                
+"
+DESTDIR
+"
+:
+install_dir
             
 }
         
