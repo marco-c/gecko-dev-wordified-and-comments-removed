@@ -34,6 +34,9 @@ nsStubMutationObserver
 .
 h
 "
+class
+nsIParser
+;
 namespace
 mozilla
 :
@@ -100,6 +103,11 @@ virtual
 bool
 MaybeProcessScript
 (
+nsCOMPtr
+<
+nsIParser
+>
+aParser
 )
 override
 ;

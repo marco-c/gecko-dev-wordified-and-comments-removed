@@ -926,6 +926,7 @@ IsInComposedDoc
 {
 MaybeProcessScript
 (
+nullptr
 )
 ;
 }
