@@ -513,6 +513,11 @@ UserInteraction
 webidl
 "
 "
+WebCompat
+.
+webidl
+"
+"
 WebExtensionContentScript
 .
 webidl
