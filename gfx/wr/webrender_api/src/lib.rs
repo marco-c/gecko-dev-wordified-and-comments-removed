@@ -3569,7 +3569,6 @@ pub
 enum
 PrimitiveKeyKind
 {
-Clear
 Rectangle
 {
 color

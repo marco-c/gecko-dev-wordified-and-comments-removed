@@ -471,7 +471,6 @@ color
 :
 ColorF
 }
-Clear
 ExternalSurface
 {
 external_surface_index
@@ -659,7 +658,6 @@ TileKind
 {
 Opaque
 Alpha
-Clear
 }
 #
 [
@@ -890,16 +888,6 @@ TileKind
 :
 :
 Opaque
-CompositeTileSurface
-:
-:
-Clear
-=
->
-TileKind
-:
-:
-Clear
 CompositeTileSurface
 :
 :
@@ -1933,7 +1921,6 @@ color
 :
 ColorF
 }
-Clear
 }
 impl
 From
@@ -1992,16 +1979,6 @@ color
 *
 color
 }
-TileSurface
-:
-:
-Clear
-=
->
-TileSurfaceKind
-:
-:
-Clear
 }
 }
 }
