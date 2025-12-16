@@ -1209,6 +1209,10 @@ IceControllerFactoryArgs
 args
 {
 .
+env
+=
+env_
+.
 ice_transport_state_func
 =
 [
