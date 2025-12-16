@@ -1001,6 +1001,13 @@ bool
 aParseAllowAttribute
 )
 ;
+void
+RefreshEmbedderReferrerPolicy
+(
+ReferrerPolicy
+aPolicy
+)
+;
 already_AddRefed
 <
 nsIPrincipal

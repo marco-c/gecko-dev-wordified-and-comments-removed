@@ -850,6 +850,12 @@ isNewWindowTarget
 UserNavigationInvolvement
 userNavigationInvolvement
 ;
+PrincipalInfo
+?
+[
+]
+ancestorOrigins
+;
 }
 ;
 struct
