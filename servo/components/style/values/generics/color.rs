@@ -422,6 +422,16 @@ mix
 )
 ?
 ;
+if
+!
+self
+.
+interpolation
+.
+is_default
+(
+)
+{
 self
 .
 interpolation
@@ -441,6 +451,7 @@ write_str
 )
 ?
 ;
+}
 self
 .
 left
