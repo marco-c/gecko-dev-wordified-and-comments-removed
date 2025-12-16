@@ -80,7 +80,7 @@ MOZ_SRC_FILES
 =
 [
 "
-assistantPrompts
+AssistantPrompts
 .
 sys
 .

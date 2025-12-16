@@ -72,6 +72,13 @@ js
 ]
 [
 "
+test_Tools_GetOpenTabs
+.
+js
+"
+]
+[
+"
 test_Tools_SearchBrowsingHistory
 .
 js
