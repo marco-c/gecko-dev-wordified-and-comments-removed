@@ -1049,9 +1049,7 @@ self
 .
 _driver
 .
-getPageSource
-(
-)
+page_source
                 
 self
 .
