@@ -149,7 +149,6 @@ mBrowsingContext
 }
 private
 :
-virtual
 ~
 ParentChannelListener
 (
