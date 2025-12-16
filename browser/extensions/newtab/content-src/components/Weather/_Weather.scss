@@ -1965,9 +1965,7 @@ after
 {
 border
 -
-block
--
-end
+bottom
 :
 var
 (
@@ -1980,9 +1978,7 @@ outline
 ;
 border
 -
-inline
--
-end
+right
 :
 var
 (
@@ -2714,6 +2710,7 @@ text
 -
 color
 )
+;
 ;
 min
 -
@@ -4900,16 +4897,9 @@ xxlarge
 ;
 border
 :
-1px
-solid
-var
-(
--
--
 border
 -
-color
-)
+primary
 ;
 &
 :
