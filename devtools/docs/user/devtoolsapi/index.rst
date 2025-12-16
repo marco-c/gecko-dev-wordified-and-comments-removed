@@ -4724,8 +4724,10 @@ MyPanel
 window
 target
 )
-function
+class
 MyPanel
+{
+constructor
 (
 window
 target
@@ -4790,14 +4792,7 @@ handleClick
 )
 ;
 }
-MyPanel
-.
-prototype
-=
-{
 open
-:
-function
 (
 )
 {
@@ -4829,8 +4824,6 @@ this
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -4907,7 +4900,6 @@ originalTarget
 ;
 }
 }
-;
 .
 .
 _devtoolsapi
