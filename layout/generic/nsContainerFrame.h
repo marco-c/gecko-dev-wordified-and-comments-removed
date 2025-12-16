@@ -879,9 +879,9 @@ StyleAlignFlags
 CSSAlignmentForAbsPosChildWithinContainingBlock
 (
 const
-ReflowInput
+SizeComputationInput
 &
-aChildRI
+aSizingInput
 mozilla
 :
 :
