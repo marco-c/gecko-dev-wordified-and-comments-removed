@@ -533,6 +533,13 @@ lastAppVersion
 "
 extensions
 .
+manifestV3
+.
+enabled
+"
+"
+extensions
+.
 quarantinedDomains
 .
 enabled

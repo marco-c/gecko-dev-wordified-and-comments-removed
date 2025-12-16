@@ -842,6 +842,16 @@ pref_set
 "
 extensions
 .
+manifestV3
+.
+enabled
+"
+true
+]
+[
+"
+extensions
+.
 webextensions
 .
 warnings
