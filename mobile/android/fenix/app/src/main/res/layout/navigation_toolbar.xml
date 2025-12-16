@@ -173,7 +173,7 @@ titleTextAppearance
 "
 style
 /
-ToolbarTitleTextStyle
+AppBarTitleTextStyle
 "
 android
 :
