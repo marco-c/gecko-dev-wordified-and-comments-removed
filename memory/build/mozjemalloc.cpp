@@ -353,7 +353,7 @@ mozilla
 #
 ifdef
 MOZJEMALLOC_PROFILING_CALLBACKS
-MOZ_CONSTINIT
+constinit
 static
 RefPtr
 <
@@ -418,7 +418,7 @@ malloc_initialized
 ;
 #
 endif
-MOZ_CONSTINIT
+constinit
 StaticMutex
 gInitLock
 MOZ_UNANNOTATED
@@ -3377,7 +3377,7 @@ mIsDeferredPurgeEnabled
 ;
 }
 ;
-MOZ_CONSTINIT
+constinit
 static
 ArenaCollection
 gArenas
