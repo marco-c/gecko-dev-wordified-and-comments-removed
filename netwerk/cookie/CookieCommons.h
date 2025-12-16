@@ -642,6 +642,16 @@ aExpiryInMSec
 )
 ;
 static
+int64_t
+MaybeCapMaxAge
+(
+int64_t
+aCurrentTimeInMSec
+int64_t
+aMaxAgeInSec
+)
+;
+static
 bool
 IsSubdomainOf
 (

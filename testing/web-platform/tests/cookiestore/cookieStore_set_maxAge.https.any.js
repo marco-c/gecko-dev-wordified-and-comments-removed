@@ -193,11 +193,6 @@ cookieStore
 .
 set
 (
-'
-cookie
--
-name
-'
 {
 name
 :
