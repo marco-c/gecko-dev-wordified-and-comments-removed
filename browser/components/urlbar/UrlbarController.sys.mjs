@@ -3679,6 +3679,7 @@ enabled
 .
 if
 (
+(
 lazy
 .
 UrlbarPrefs
@@ -3689,6 +3690,17 @@ get
 suggest
 .
 searches
+"
+)
+|
+|
+context
+.
+sapName
+=
+=
+"
+searchbar
 "
 )
 &
