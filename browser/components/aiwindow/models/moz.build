@@ -80,6 +80,11 @@ MOZ_SRC_FILES
 =
 [
 "
+ChatUtils
+.
+mjs
+"
+"
 InsightsHistorySource
 .
 sys

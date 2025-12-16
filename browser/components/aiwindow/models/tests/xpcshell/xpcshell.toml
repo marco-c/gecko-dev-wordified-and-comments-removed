@@ -37,6 +37,13 @@ files
 ]
 [
 "
+test_ChatUtils
+.
+js
+"
+]
+[
+"
 test_InsightsHistorySource
 .
 js
