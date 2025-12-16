@@ -883,9 +883,6 @@ verifySavedLoginsAfterSync
 }
 .
 goBack
-(
-activityTestRule
-)
 {
 /
 /

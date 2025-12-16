@@ -1523,7 +1523,7 @@ R
 .
 string
 .
-preferences_passwords_saved_logins_password
+saved_logins_clear_password
 )
 trailingIcon
 =
