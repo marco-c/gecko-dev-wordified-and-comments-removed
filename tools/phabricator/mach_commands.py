@@ -216,6 +216,9 @@ subprocess
 run
 (
 cmd
+check
+=
+False
 )
     
 if
@@ -293,6 +296,9 @@ dir
 bin
 "
 ]
+check
+=
+False
 capture_output
 =
 True
@@ -367,6 +373,9 @@ install
 certificate
 "
 ]
+check
+=
+False
 )
     
 else
@@ -434,4 +443,7 @@ update
 shell
 "
 ]
+check
+=
+False
 )

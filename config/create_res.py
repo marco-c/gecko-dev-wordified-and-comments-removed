@@ -365,7 +365,7 @@ buildconfig
 substs
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 ]
@@ -423,6 +423,9 @@ subprocess
 run
 (
 command
+check
+=
+False
 stdout
 =
 fh
@@ -571,6 +574,9 @@ subprocess
 run
 (
 command
+check
+=
+False
 )
 .
 returncode

@@ -638,6 +638,9 @@ pull
 origin
 master
 "
+check
+=
+False
 shell
 =
 True

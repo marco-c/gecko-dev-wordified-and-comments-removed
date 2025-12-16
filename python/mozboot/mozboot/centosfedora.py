@@ -237,6 +237,10 @@ installed
 package
 ]
                     
+check
+=
+False
+                    
 stdout
 =
 subprocess

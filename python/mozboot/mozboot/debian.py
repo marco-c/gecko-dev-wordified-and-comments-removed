@@ -324,11 +324,17 @@ run
 (
                 
 command
+                
+check
+=
+False
+                
 stdout
 =
 subprocess
 .
 DEVNULL
+                
 stderr
 =
 subprocess

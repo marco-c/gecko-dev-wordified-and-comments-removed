@@ -1044,6 +1044,9 @@ subprocess
 run
 (
 command
+check
+=
+False
 cwd
 =
 base

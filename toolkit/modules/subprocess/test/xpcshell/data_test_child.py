@@ -213,6 +213,10 @@ first_child_start_and_exit
 "
 ]
         
+check
+=
+False
+        
 stdout
 =
 sys

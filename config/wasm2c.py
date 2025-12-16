@@ -70,6 +70,10 @@ output
 name
 wasm_lib
 ]
+        
+check
+=
+False
     
 )
 .

@@ -1782,6 +1782,10 @@ run
         
 cmd
         
+check
+=
+False
+        
 env
 =
 env
