@@ -2972,6 +2972,12 @@ GetReferrerPolicy
 )
 ;
 }
+ReferrerPolicyEnum
+ReferrerPolicyUsedToFetchThisDocument
+(
+)
+const
+;
 bool
 GetBlockAllMixedContent
 (
@@ -14036,6 +14042,14 @@ nsCOMPtr
 nsIReferrerInfo
 >
 mReferrerInfo
+;
+ReferrerPolicyEnum
+mRequestReferrerPolicy
+=
+ReferrerPolicyEnum
+:
+:
+Strict_origin_when_cross_origin
 ;
 nsString
 mLastModified

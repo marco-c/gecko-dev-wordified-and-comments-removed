@@ -180,6 +180,7 @@ SameDocument
 )
 )
 {
+const
 auto
 referrerPolicy
 =
@@ -188,7 +189,7 @@ GetAssociatedDocument
 )
 -
 >
-ReferrerPolicy
+ReferrerPolicyUsedToFetchThisDocument
 (
 )
 ;
@@ -212,6 +213,13 @@ ReferrerPolicy
 Origin
 )
 {
+aResult
+.
+SetIsVoid
+(
+true
+)
+;
 return
 ;
 }
