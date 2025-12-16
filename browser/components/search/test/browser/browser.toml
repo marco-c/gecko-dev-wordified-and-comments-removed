@@ -616,13 +616,6 @@ js
 ]
 [
 "
-browser_searchRestrictToken_privateWindow
-.
-js
-"
-]
-[
-"
 browser_search_annotation
 .
 js
