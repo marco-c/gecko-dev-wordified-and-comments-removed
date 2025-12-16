@@ -192,7 +192,7 @@ ts
 ;
 clock_gettime
 (
-CLOCK_MONOTONIC
+CLOCK_REALTIME
 &
 ts
 )
