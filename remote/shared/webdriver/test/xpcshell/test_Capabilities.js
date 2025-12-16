@@ -2893,7 +2893,6 @@ ProxyConfiguration
 ;
 ok
 (
-!
 caps
 .
 has
