@@ -206,6 +206,13 @@ js
 ]
 [
 "
+browser_aboutCertError_untrustedIssuer
+.
+js
+"
+]
+[
+"
 browser_aboutDialog_distribution
 .
 js
