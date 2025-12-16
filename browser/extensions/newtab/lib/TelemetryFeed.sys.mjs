@@ -5558,7 +5558,6 @@ cache_key
 ;
 if
 (
-!
 lazy
 .
 NewTabContentPing
@@ -5691,6 +5690,11 @@ the
 item
 if
 (
+resultItem
+.
+section
+&
+&
 resultItem
 .
 section
