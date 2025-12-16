@@ -117,11 +117,6 @@ declarations
 struct
 DataChannelInit
 {
-[
-[
-deprecated
-]
-]
 bool
 reliable
 =
