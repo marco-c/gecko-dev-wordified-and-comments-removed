@@ -125,6 +125,16 @@ https_first_disabled
 true
 [
 "
+browser_test_table_selectable
+.
+js
+"
+]
+https_first_disabled
+=
+true
+[
+"
 browser_test_visibility
 .
 js
