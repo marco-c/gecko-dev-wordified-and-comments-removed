@@ -390,11 +390,15 @@ nsIFrame
 subject
 =
 subjectElement
+?
+subjectElement
 -
 >
 GetPrimaryFrame
 (
 )
+:
+nullptr
 ;
 if
 (
