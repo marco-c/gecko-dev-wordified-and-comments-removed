@@ -212,7 +212,7 @@ rust
 -
 1
 .
-83
+87
 :
 treeherder
 :
@@ -224,7 +224,7 @@ rust
 -
 1
 .
-83
+87
 )
 run
 :
@@ -239,7 +239,7 @@ channel
 '
 1
 .
-83
+87
 .
 0
 '
@@ -307,7 +307,7 @@ target
 '
 wasm32
 -
-wasi
+wasip1
 '
 ]
 toolchain
@@ -328,7 +328,7 @@ macos
 -
 1
 .
-83
+87
 :
 description
 :
@@ -353,7 +353,7 @@ macos
 -
 1
 .
-83
+87
 )
 run
 :
@@ -368,7 +368,7 @@ channel
 '
 1
 .
-83
+87
 .
 0
 '
@@ -444,7 +444,7 @@ windows
 -
 1
 .
-83
+87
 :
 description
 :
@@ -469,7 +469,7 @@ win
 -
 1
 .
-83
+87
 )
 run
 :
@@ -484,7 +484,7 @@ channel
 '
 1
 .
-83
+87
 .
 0
 '
