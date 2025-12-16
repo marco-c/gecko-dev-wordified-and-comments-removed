@@ -264,6 +264,15 @@ nsAString
 aSource
 )
 ;
+bool
+CanSkipTrustedTypesEnforcement
+(
+const
+nsINode
+&
+aNode
+)
+;
 MOZ_CAN_RUN_SCRIPT
 const
 nsAString
@@ -713,9 +722,6 @@ const
 nsINode
 &
 aNode
-nsIPrincipal
-*
-aPrincipalOrNull
 Maybe
 <
 nsAutoString
