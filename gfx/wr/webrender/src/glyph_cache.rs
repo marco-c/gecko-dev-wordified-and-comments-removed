@@ -15,7 +15,7 @@ glyph_rasterizer
 {
 FontInstance
 GlyphFormat
-GlyphCacheKey
+GlyphKey
 GlyphRasterizer
 }
 ;
@@ -121,10 +121,6 @@ pub
 texture_cache_handle
 :
 TextureCacheHandle
-pub
-is_packed_glyph
-:
-bool
 }
 #
 [
@@ -375,7 +371,7 @@ GlyphKeyCache
 =
 ResourceClassCache
 <
-GlyphCacheKey
+GlyphKey
 GlyphCacheEntry
 GlyphKeyCacheInfo
 >
@@ -426,7 +422,7 @@ mut
 self
 key
 :
-GlyphCacheKey
+GlyphKey
 value
 :
 GlyphCacheEntry
