@@ -681,6 +681,13 @@ picker
 -
 item
 "
+"
+sync
+-
+device
+-
+name
+"
 ]
 )
 ;
