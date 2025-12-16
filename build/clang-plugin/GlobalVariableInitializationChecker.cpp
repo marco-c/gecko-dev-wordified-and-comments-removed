@@ -233,7 +233,7 @@ it
 as
 constexpr
 or
-MOZ_CONSTINIT
+constinit
 instead
 .
 "
@@ -394,7 +394,7 @@ make
 it
 constexpr
 or
-MOZ_CONSTINIT
+constinit
 if
 possible
 or

@@ -14,17 +14,6 @@ moz_global_var
 )
 #
 define
-MOZ_CONSTINIT
-[
-[
-clang
-:
-:
-require_constant_initialization
-]
-]
-#
-define
 MOZ_GLOBAL_CLASS
 __attribute__
 (
