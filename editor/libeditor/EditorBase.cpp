@@ -9198,12 +9198,6 @@ NS_ERROR_FAILURE
 )
 ;
 {
-MOZ_ASSERT
-(
-!
-aDataTransfer
-)
-;
 AutoTrackDataTransferForPaste
 trackDataTransfer
 (
