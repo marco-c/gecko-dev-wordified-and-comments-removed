@@ -1796,6 +1796,12 @@ TimeoutManager
 this
 0
 mSerialEventTarget
+mWorkerPrivate
+-
+>
+IsChromeWorker
+(
+)
 )
 ;
 LOG
