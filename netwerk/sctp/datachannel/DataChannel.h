@@ -1438,8 +1438,9 @@ aHandler
 void
 SendDataMessage
 (
-uint16_t
-aStream
+DataChannel
+&
+aChannel
 nsACString
 &
 &
