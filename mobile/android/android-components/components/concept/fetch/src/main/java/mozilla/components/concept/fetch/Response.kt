@@ -536,6 +536,11 @@ substringAfter
 charset
 =
 "
+"
+UTF
+-
+8
+"
 )
 try
 {
