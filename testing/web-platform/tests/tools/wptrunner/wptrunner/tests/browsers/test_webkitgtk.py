@@ -179,9 +179,9 @@ product_data
 products
 .
 Product
+.
+from_product_name
 (
-{
-}
 product
 )
     
