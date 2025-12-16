@@ -186,8 +186,8 @@ StyleRelativeSelectorNthEdgeInvalidateFor
 :
 uint8_t
 ;
-struct
-StyleDashedIdentAndOrTryTactic
+union
+StylePositionTryFallbacksItem
 ;
 struct
 StyleRuleChange
@@ -867,7 +867,7 @@ ComputedStyle
 &
 aStyle
 const
-StyleDashedIdentAndOrTryTactic
+StylePositionTryFallbacksItem
 &
 )
 ;

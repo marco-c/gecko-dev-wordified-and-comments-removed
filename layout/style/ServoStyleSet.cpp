@@ -3021,7 +3021,7 @@ ComputedStyle
 &
 aStyle
 const
-StyleDashedIdentAndOrTryTactic
+StylePositionTryFallbacksItem
 &
 aFallback
 )
