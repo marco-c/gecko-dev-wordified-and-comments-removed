@@ -355,6 +355,9 @@ CallInfo
 class
 ShapeListSnapshot
 ;
+class
+ShapeListWithOffsetsSnapshot
+;
 #
 ifdef
 JS_JITSPEW
