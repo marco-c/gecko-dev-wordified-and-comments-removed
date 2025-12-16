@@ -435,7 +435,7 @@ aModuleScript
 override
 ;
 nsresult
-CompileJavaScriptModule
+CompileJavaScriptOrWasmModule
 (
 JSContext
 *
