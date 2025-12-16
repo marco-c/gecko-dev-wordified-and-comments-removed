@@ -235,7 +235,7 @@ mDoSetAttr
 ;
 }
 ;
-MOZ_CONSTINIT
+constinit
 static
 SVGAttrTearoffTable
 <
@@ -247,7 +247,7 @@ DOMAnimatedInteger
 >
 sSVGFirstAnimatedIntegerTearoffTable
 ;
-MOZ_CONSTINIT
+constinit
 static
 SVGAttrTearoffTable
 <

@@ -43,7 +43,7 @@ mozilla
 :
 dom
 {
-MOZ_CONSTINIT
+constinit
 static
 SVGAttrTearoffTable
 <

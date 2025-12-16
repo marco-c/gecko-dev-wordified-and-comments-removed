@@ -168,7 +168,7 @@ mDoSetAttr
 ;
 }
 ;
-MOZ_CONSTINIT
+constinit
 static
 SVGAttrTearoffTable
 <

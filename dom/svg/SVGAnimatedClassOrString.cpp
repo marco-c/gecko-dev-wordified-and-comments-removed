@@ -44,7 +44,7 @@ h
 namespace
 mozilla
 {
-MOZ_CONSTINIT
+constinit
 static
 SVGAttrTearoffTable
 <
