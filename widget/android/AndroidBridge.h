@@ -156,12 +156,6 @@ const
 aBuf
 )
 ;
-jobject
-GetGlobalContextRef
-(
-void
-)
-;
 void
 GetCurrentBatteryInformation
 (
