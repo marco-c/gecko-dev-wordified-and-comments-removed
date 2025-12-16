@@ -945,6 +945,13 @@ sjs
 ]
 [
 "
+browser_screen_area_override
+.
+js
+"
+]
+[
+"
 browser_screen_orientation_override
 .
 js
