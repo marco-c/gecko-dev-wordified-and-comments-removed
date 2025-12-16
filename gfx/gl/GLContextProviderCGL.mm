@@ -1398,7 +1398,7 @@ forget
 )
 ;
 }
-MOZ_CONSTINIT
+constinit
 static
 RefPtr
 <

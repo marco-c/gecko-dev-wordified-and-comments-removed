@@ -121,7 +121,7 @@ mozilla
 namespace
 webgl
 {
-MOZ_CONSTINIT
+constinit
 const
 ImageInfo
 ImageInfo

@@ -50,7 +50,7 @@ mozilla
 namespace
 layers
 {
-MOZ_CONSTINIT
+constinit
 RefPtr
 <
 ID3D11Device

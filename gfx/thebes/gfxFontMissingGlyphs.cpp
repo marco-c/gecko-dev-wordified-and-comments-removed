@@ -946,7 +946,7 @@ delete
 key
 ;
 }
-MOZ_CONSTINIT
+constinit
 static
 RefPtr
 <
