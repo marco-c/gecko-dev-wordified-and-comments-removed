@@ -268,7 +268,7 @@ video
 /
 corruption_detection
 /
-frame_instrumentation_generator
+utils
 .
 cc
 "
@@ -438,9 +438,6 @@ OS_LIBS
 +
 =
 [
-"
-GLESv2
-"
 "
 log
 "
@@ -1495,6 +1492,6 @@ True
 Library
 (
 "
-frame_instrumentation_generator_gn
+utils_gn
 "
 )
