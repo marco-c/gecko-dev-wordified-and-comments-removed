@@ -8141,6 +8141,7 @@ rv
 =
 LoadEntry
 (
+nullptr
 mIndex
 loadType
 HIST_CMD_RELOAD
@@ -8252,6 +8253,7 @@ OnHistoryGotoIndex
 return
 LoadEntry
 (
+nullptr
 mIndex
 LOAD_HISTORY
 HIST_CMD_RELOAD
@@ -10650,6 +10652,7 @@ rv
 =
 GotoIndex
 (
+nullptr
 aIndex
 loadResults
 false
@@ -10736,6 +10739,9 @@ nsSHistory
 :
 GotoIndex
 (
+BrowsingContext
+*
+aSourceBrowsingContext
 int32_t
 aIndex
 nsTArray
@@ -10755,6 +10761,7 @@ aUserActivation
 return
 LoadEntry
 (
+aSourceBrowsingContext
 aIndex
 LOAD_HISTORY
 HIST_CMD_GOTOINDEX
@@ -10898,6 +10905,9 @@ nsSHistory
 :
 LoadNextPossibleEntry
 (
+BrowsingContext
+*
+aSourceBrowsingContext
 int32_t
 aNewIndex
 long
@@ -10931,6 +10941,7 @@ mIndex
 return
 LoadEntry
 (
+aSourceBrowsingContext
 aNewIndex
 -
 1
@@ -10953,6 +10964,7 @@ mIndex
 return
 LoadEntry
 (
+aSourceBrowsingContext
 aNewIndex
 +
 1
@@ -10975,6 +10987,9 @@ nsSHistory
 :
 LoadEntry
 (
+BrowsingContext
+*
+aSourceBrowsingContext
 int32_t
 aIndex
 long
@@ -11310,6 +11325,7 @@ mIndex
 {
 InitiateLoad
 (
+aSourceBrowsingContext
 nextEntry
 rootBC
 aLoadType
@@ -11337,6 +11353,12 @@ self
 RefPtr
 {
 this
+}
+sourceBrowsingContext
+=
+RefPtr
+{
+aSourceBrowsingContext
 }
 aLoadType
 &
@@ -11378,6 +11400,7 @@ self
 >
 InitiateLoad
 (
+sourceBrowsingContext
 aEntry
 aParent
 aLoadType
@@ -11403,6 +11426,7 @@ originalRequestedIndex
 return
 LoadNextPossibleEntry
 (
+aSourceBrowsingContext
 aIndex
 aLoadType
 aHistCmd
@@ -12471,6 +12495,9 @@ nsSHistory
 :
 InitiateLoad
 (
+BrowsingContext
+*
+aSourceBrowsingContext
 nsISHEntry
 *
 aFrameEntry
@@ -12541,6 +12568,14 @@ new
 nsDocShellLoadState
 (
 newURI
+)
+;
+loadState
+-
+>
+SetSourceBrowsingContext
+(
+aSourceBrowsingContext
 )
 ;
 loadState
