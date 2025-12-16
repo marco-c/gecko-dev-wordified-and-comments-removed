@@ -2757,11 +2757,6 @@ lazy
 TEXT_FRAGMENTS_ENABLED
 &
 &
-lazy
-.
-STRIP_ON_SHARE_ENABLED
-&
-&
 !
 (
 this
@@ -2843,6 +2838,11 @@ to
 highlight
 "
 shouldShow
+&
+&
+lazy
+.
+STRIP_ON_SHARE_ENABLED
 )
 ;
 /
