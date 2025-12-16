@@ -64,6 +64,15 @@ use
 crate
 :
 :
+svg_filter
+:
+:
+get_coverage_source_svgfe
+;
+use
+crate
+:
+:
 tile_cache
 :
 :
@@ -3645,8 +3654,6 @@ None
 let
 source_potential_subregion
 =
-composite_mode
-.
 get_coverage_source_svgfe
 (
 filters
