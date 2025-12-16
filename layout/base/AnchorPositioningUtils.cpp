@@ -4131,7 +4131,7 @@ aReferenceData
 return
 aReferenceData
 .
-mContainingBlockRect
+mOriginalContainingBlockRect
 .
 Contains
 (
