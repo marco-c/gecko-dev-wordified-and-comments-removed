@@ -58,6 +58,13 @@ js
 ]
 [
 "
+test_InsightsDriftDetector
+.
+js
+"
+]
+[
+"
 test_InsightsHistorySource
 .
 js

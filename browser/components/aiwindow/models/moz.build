@@ -116,6 +116,13 @@ sys
 mjs
 "
 "
+InsightsDriftDetector
+.
+sys
+.
+mjs
+"
+"
 InsightsHistorySource
 .
 sys
