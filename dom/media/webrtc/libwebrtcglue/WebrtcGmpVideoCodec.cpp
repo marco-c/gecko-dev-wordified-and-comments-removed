@@ -1359,6 +1359,12 @@ mInitting
 =
 false
 ;
+mInputImageMap
+.
+Clear
+(
+)
+;
 if
 (
 mCachedPluginId
@@ -2935,6 +2941,12 @@ nullptr
 mInitting
 =
 false
+;
+mInputImageMap
+.
+Clear
+(
+)
 ;
 if
 (
