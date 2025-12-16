@@ -157,6 +157,14 @@ test
 .
 core
 testImplementation
+libs
+.
+kotlinx
+.
+coroutines
+.
+test
+testImplementation
 platform
 (
 libs

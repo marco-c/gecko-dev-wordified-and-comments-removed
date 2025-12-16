@@ -198,6 +198,13 @@ CoroutineScope
 GlobalScope
 private
 val
+ioDispatcher
+:
+CoroutineDispatcher
+=
+IO
+private
+val
 cacheDirectory
 :
 (
@@ -240,14 +247,6 @@ String
 emptyList
 (
 )
-VisibleForTesting
-internal
-var
-dispatcher
-:
-CoroutineDispatcher
-=
-IO
 /
 *
 *
@@ -359,7 +358,7 @@ scope
 .
 launch
 (
-dispatcher
+ioDispatcher
 )
 {
 val
@@ -454,7 +453,7 @@ cleanUploadsDirectory
 {
 withContext
 (
-dispatcher
+ioDispatcher
 )
 {
 val
@@ -549,7 +548,7 @@ File
 =
 withContext
 (
-dispatcher
+ioDispatcher
 )
 {
 cacheDir
