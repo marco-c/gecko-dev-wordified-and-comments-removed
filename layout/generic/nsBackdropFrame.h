@@ -92,9 +92,10 @@ mozilla
 LogicalSize
 ComputeAutoSize
 (
-gfxContext
-*
-aRenderingContext
+const
+SizeComputationInput
+&
+aSizingInput
 mozilla
 :
 :

@@ -3523,9 +3523,10 @@ nsContainerFrame
 :
 ComputeAutoSize
 (
-gfxContext
-*
-aRenderingContext
+const
+SizeComputationInput
+&
+aSizingInput
 WritingMode
 aWM
 const
@@ -3575,7 +3576,7 @@ isTableCaption
 return
 ComputeAbsolutePosAutoSize
 (
-aRenderingContext
+aSizingInput
 aWM
 aCBSize
 aAvailableISize
@@ -3614,7 +3615,7 @@ nsIFrame
 :
 ComputeAutoSize
 (
-aRenderingContext
+aSizingInput
 aWM
 aCBSize
 aAvailableISize
@@ -3678,7 +3679,9 @@ const
 IntrinsicSizeInput
 input
 (
-aRenderingContext
+aSizingInput
+.
+mRenderingContext
 Some
 (
 aCBSize

@@ -901,9 +901,10 @@ override
 SizeComputationResult
 ComputeSize
 (
-gfxContext
-*
-aRenderingContext
+const
+SizeComputationInput
+&
+aSizingInput
 mozilla
 :
 :
@@ -953,9 +954,10 @@ mozilla
 LogicalSize
 ComputeAutoSize
 (
-gfxContext
-*
-aRenderingContext
+const
+SizeComputationInput
+&
+aSizingInput
 mozilla
 :
 :

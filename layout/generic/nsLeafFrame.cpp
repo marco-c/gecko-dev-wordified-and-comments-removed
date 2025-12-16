@@ -102,9 +102,10 @@ nsLeafFrame
 :
 ComputeAutoSize
 (
-gfxContext
-*
-aRenderingContext
+const
+SizeComputationInput
+&
+aSizingInput
 WritingMode
 aWM
 const

@@ -1011,9 +1011,10 @@ NS_FRAME_FIRST_REFLOW
 SizeComputationResult
 ComputeSize
 (
-gfxContext
-*
-aRenderingContext
+const
+SizeComputationInput
+&
+aSizingInput
 mozilla
 :
 :

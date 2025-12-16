@@ -155,9 +155,10 @@ nsBackdropFrame
 :
 ComputeAutoSize
 (
-gfxContext
-*
-aRenderingContext
+const
+SizeComputationInput
+&
+aSizingInput
 WritingMode
 aWM
 const
@@ -192,7 +193,7 @@ IsAbsolutelyPositionedWithDefiniteContainingBlock
 return
 ComputeAbsolutePosAutoSize
 (
-aRenderingContext
+aSizingInput
 aWM
 aCBSize
 aAvailableISize

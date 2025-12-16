@@ -7888,9 +7888,10 @@ nsImageFrame
 :
 ComputeSize
 (
-gfxContext
-*
-aRenderingContext
+const
+SizeComputationInput
+&
+aSizingInput
 WritingMode
 aWM
 const
@@ -7923,7 +7924,9 @@ return
 {
 ComputeSizeWithIntrinsicDimensions
 (
-aRenderingContext
+aSizingInput
+.
+mRenderingContext
 aWM
 mIntrinsicSize
 GetAspectRatio

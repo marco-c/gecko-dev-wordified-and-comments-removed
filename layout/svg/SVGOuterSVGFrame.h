@@ -172,9 +172,10 @@ override
 SizeComputationResult
 ComputeSize
 (
-gfxContext
-*
-aRenderingContext
+const
+SizeComputationInput
+&
+aSizingInput
 WritingMode
 aWritingMode
 const

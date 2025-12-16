@@ -234,9 +234,10 @@ nsCheckboxRadioFrame
 :
 ComputeAutoSize
 (
-gfxContext
-*
-aRC
+const
+SizeComputationInput
+&
+aSizingInput
 WritingMode
 aWM
 const
@@ -292,7 +293,7 @@ nsAtomicContainerFrame
 :
 ComputeAutoSize
 (
-aRC
+aSizingInput
 aWM
 aCBSize
 aAvailableISize

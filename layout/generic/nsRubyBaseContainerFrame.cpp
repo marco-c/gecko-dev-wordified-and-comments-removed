@@ -1335,9 +1335,10 @@ nsRubyBaseContainerFrame
 :
 ComputeSize
 (
-gfxContext
-*
-aRenderingContext
+const
+SizeComputationInput
+&
+aSizingInput
 WritingMode
 aWM
 const

@@ -612,9 +612,10 @@ nsFirstLetterFrame
 :
 ComputeSize
 (
-gfxContext
-*
-aRenderingContext
+const
+SizeComputationInput
+&
+aSizingInput
 WritingMode
 aWM
 const
@@ -667,7 +668,7 @@ nsContainerFrame
 :
 ComputeSize
 (
-aRenderingContext
+aSizingInput
 aWM
 aCBSize
 aAvailableISize
