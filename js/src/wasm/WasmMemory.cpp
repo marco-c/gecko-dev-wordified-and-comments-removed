@@ -688,12 +688,11 @@ OneGibPages
 Pages
 (
 OneGib
->
->
+/
 wasm
 :
 :
-PageBits
+PageSize
 )
 ;
 Pages
