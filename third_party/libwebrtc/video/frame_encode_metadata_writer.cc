@@ -488,7 +488,8 @@ if
 structure
 )
 {
-num_spatial_layers
+size_t
+svc_spatial_layers
 =
 structure
 -
@@ -498,6 +499,17 @@ StreamConfig
 )
 .
 num_spatial_layers
+;
+num_spatial_layers
+=
+std
+:
+:
+max
+(
+num_spatial_layers
+svc_spatial_layers
+)
 ;
 }
 else
