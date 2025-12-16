@@ -39,6 +39,17 @@ include
 "
 api
 /
+environment
+/
+environment
+.
+h
+"
+#
+include
+"
+api
+/
 sequence_checker
 .
 h
@@ -180,6 +191,10 @@ TestController
 :
 TestController
 (
+const
+Environment
+&
+env
 int
 min_port
 int
@@ -200,6 +215,10 @@ string
 log_file_path
 )
 :
+env_
+(
+env
+)
 socket_server_
 (
 CreateDefaultSocketServer
@@ -863,6 +882,7 @@ reset
 new
 PacketSender
 (
+env_
 this
 packet_sender_thread_
 .
@@ -913,6 +933,7 @@ reset
 new
 PacketSender
 (
+env_
 this
 packet_sender_thread_
 .
