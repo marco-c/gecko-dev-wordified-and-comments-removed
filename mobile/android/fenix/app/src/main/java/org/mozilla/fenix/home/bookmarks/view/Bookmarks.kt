@@ -667,6 +667,10 @@ modifier
 =
 Modifier
 .
+fillMaxWidth
+(
+)
+.
 semantics
 {
 testTagsAsResourceId
