@@ -11724,9 +11724,7 @@ or
 *
 UrlbarResult
 .
-payloadAndSimpleHighlights
-(
-)
+payloadHighlights
 .
 *
 /
@@ -21235,9 +21233,7 @@ or
 *
 UrlbarResult
 .
-payloadAndSimpleHighlights
-(
-)
+payloadHighlights
 .
 *
 param
