@@ -543,8 +543,10 @@ false
 ;
 }
 ;
-function
+class
 TestTabList
+{
+constructor
 (
 connection
 )
@@ -636,14 +638,6 @@ descriptorActor
 ;
 }
 }
-TestTabList
-.
-prototype
-=
-{
-constructor
-:
-TestTabList
 destroy
 (
 )
@@ -712,7 +706,6 @@ _targetActor
 ;
 }
 }
-;
 exports
 .
 createRootActor
