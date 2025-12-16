@@ -456,6 +456,18 @@ this
 .
 queryInstance
 ;
+if
+(
+queryContext
+.
+sapName
+!
+=
+"
+searchbar
+"
+)
+{
 let
 result
 =
@@ -629,6 +641,8 @@ searchResult
 return
 ;
 }
+}
+let
 result
 =
 await
