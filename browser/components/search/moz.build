@@ -63,17 +63,6 @@ test
 /
 browser
 /
-google_codes
-/
-browser
-.
-toml
-"
-"
-test
-/
-browser
-/
 telemetry
 /
 browser

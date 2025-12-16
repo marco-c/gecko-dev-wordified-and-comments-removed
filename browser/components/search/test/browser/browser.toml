@@ -521,13 +521,6 @@ js
 ]
 [
 "
-browser_google_behavior
-.
-js
-"
-]
-[
-"
 browser_hiddenOneOffs_diacritics
 .
 js
@@ -598,13 +591,6 @@ files
 trendingSuggestionEngine
 .
 sjs
-"
-]
-[
-"
-browser_searchEngine_behaviors
-.
-js
 "
 ]
 [
