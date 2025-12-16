@@ -10803,14 +10803,14 @@ SavedStacks
 :
 metadataBuilder
 ;
-MOZ_CONSTINIT
+constinit
 ReconstructedSavedFramePrincipals
 ReconstructedSavedFramePrincipals
 :
 :
 IsSystem
 ;
-MOZ_CONSTINIT
+constinit
 ReconstructedSavedFramePrincipals
 ReconstructedSavedFramePrincipals
 :
