@@ -85962,6 +85962,11 @@ WindowContext
 wc
 =
 currentWC
+-
+>
+GetParentWindowContext
+(
+)
 ;
 wc
 ;
@@ -86013,6 +86018,12 @@ if
 (
 !
 wc
+|
+|
+wc
+=
+=
+currentWC
 )
 {
 return
