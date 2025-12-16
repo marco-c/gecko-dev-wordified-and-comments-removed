@@ -296,6 +296,15 @@ aXWindow
 )
 override
 ;
+void
+SetEGLNativeWindowSize
+(
+const
+LayoutDeviceIntSize
+&
+aEGLWindowSize
+)
+;
 #
 if
 defined
