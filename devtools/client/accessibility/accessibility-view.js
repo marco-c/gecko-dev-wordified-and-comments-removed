@@ -261,8 +261,10 @@ js
 "
 )
 ;
-function
+class
 AccessibilityView
+{
+constructor
 (
 localStore
 )
@@ -294,11 +296,6 @@ store
 localStore
 ;
 }
-AccessibilityView
-.
-prototype
-=
-{
 async
 initialize
 (
@@ -883,7 +880,6 @@ args
 }
 }
 }
-;
 window
 .
 view
