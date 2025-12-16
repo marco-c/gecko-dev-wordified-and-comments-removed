@@ -629,9 +629,6 @@ device_serial
 )
 :
         
-global
-devices
-        
 if
 device_serial
 in

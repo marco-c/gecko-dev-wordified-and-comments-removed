@@ -293,9 +293,6 @@ registered
 "
 "
     
-global
-_FILTERS
-    
 _FILTERS
 [
 func
@@ -314,9 +311,6 @@ filters
 args
 )
 :
-    
-global
-_FILTERS
     
 filters_
 =

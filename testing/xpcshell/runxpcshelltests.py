@@ -12918,9 +12918,6 @@ tests
 "
 "
         
-global
-gotSIGINT
-        
 VERIFY_REPEAT
 =
 10

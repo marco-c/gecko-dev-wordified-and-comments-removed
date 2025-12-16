@@ -487,9 +487,6 @@ rs
 "
 )
     
-global
-fixed
-    
 fixed_before
 =
 fixed

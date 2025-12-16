@@ -33,9 +33,6 @@ args
 )
 :
     
-global
-old
-    
 old
 (
 context

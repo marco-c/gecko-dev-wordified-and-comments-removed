@@ -4189,9 +4189,6 @@ later
 "
 "
     
-global
-failures
-    
 sig
 =
 "
@@ -4289,9 +4286,6 @@ notice
 clazz
 )
 :
-    
-global
-noticed
     
 noticed
 [
@@ -18162,9 +18156,6 @@ birth
 "
 "
 "
-    
-global
-failures
     
 for
 prev_clazz

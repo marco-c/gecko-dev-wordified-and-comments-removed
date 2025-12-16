@@ -1351,9 +1351,6 @@ adjust
 "
 "
         
-global
-PREFETCHED_LIBS
-        
 LOG
 .
 info

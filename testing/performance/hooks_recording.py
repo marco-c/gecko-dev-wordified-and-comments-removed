@@ -522,9 +522,6 @@ env
 )
 :
     
-global
-next_site
-    
 print
 (
 "

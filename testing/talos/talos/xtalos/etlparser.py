@@ -1312,9 +1312,6 @@ getBrowserPID
 )
 :
     
-global
-gBrowserPID
-    
 return
 gBrowserPID
 def
@@ -2283,9 +2280,6 @@ debug
 False
 )
 :
-    
-global
-NAME_SUBSTITUTIONS
     
 if
 outputFile
