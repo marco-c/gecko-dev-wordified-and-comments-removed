@@ -216,6 +216,12 @@ vector
 IceCandidateCollection
 >
 candidate_collection_
+RTC_GUARDED_BY
+(
+sequence_checker
+(
+)
+)
 ;
 bool
 IsValidMLineIndex
