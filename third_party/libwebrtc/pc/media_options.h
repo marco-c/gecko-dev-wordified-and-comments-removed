@@ -482,6 +482,11 @@ use_obsolete_sctp_sdp
 =
 true
 ;
+bool
+use_sctp_snap
+=
+false
+;
 }
 ;
 }
