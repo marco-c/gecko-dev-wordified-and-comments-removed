@@ -398,6 +398,13 @@ cardColors
 containerColor
 =
 backgroundColor
+contentColor
+=
+MaterialTheme
+.
+colorScheme
+.
+onSurface
 )
 elevation
 =
