@@ -397,6 +397,10 @@ array
 "
         
 "
+to_array
+"
+        
+"
 size
 "
     
@@ -950,6 +954,14 @@ declval
         
 "
 cmp_equal
+"
+        
+"
+in_range
+"
+        
+"
+make_pair
 "
         
 "
