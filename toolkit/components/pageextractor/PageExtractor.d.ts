@@ -9,10 +9,6 @@ sufficientLength
 :
 number
 ;
-removeBoilerplate
-:
-boolean
-;
 justViewport
 :
 boolean
