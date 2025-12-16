@@ -55,17 +55,6 @@ EnumSet
 AlignJustifyFlag
 >
 ;
-struct
-AnchorAlignInfo
-{
-nscoord
-mAnchorStart
-;
-nscoord
-mAnchorSize
-;
-}
-;
 static
 nscoord
 AlignJustifySelf
@@ -93,7 +82,7 @@ aChildSize
 const
 Maybe
 <
-AnchorAlignInfo
+LogicalRect
 >
 &
 aAnchorRect
