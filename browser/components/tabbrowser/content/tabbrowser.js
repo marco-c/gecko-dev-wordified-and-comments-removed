@@ -12680,6 +12680,16 @@ splitview
 return
 ;
 }
+gBrowser
+.
+setIsSplitViewActive
+(
+false
+splitview
+.
+tabs
+)
+;
 for
 (
 let
