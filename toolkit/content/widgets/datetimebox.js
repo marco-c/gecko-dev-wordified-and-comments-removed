@@ -2244,7 +2244,7 @@ this
 .
 mInputElement
 .
-setDateTimePickerState
+setOpenState
 (
 aIsOpen
 )

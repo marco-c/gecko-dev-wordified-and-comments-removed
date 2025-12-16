@@ -3484,7 +3484,7 @@ CloseDateTimePicker
 )
 ;
 void
-SetDateTimePickerState
+SetOpenState
 (
 bool
 aIsOpen

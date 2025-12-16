@@ -1511,7 +1511,7 @@ IsChromeOrUAWidget
 "
 ]
 undefined
-setDateTimePickerState
+setOpenState
 (
 boolean
 aIsOpen
