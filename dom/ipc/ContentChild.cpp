@@ -10702,6 +10702,10 @@ principal
 (
 )
 ;
+{
+nsAutoScriptBlocker
+blockScripts
+;
 if
 (
 NS_WARN_IF
@@ -10734,6 +10738,7 @@ failed
 "
 )
 ;
+}
 }
 nsCOMPtr
 <
