@@ -1,6 +1,6 @@
 pub
 mod
-dependency
+compare
 ;
 pub
 mod
