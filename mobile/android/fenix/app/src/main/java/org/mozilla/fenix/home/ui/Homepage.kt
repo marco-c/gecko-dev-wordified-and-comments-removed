@@ -1581,7 +1581,7 @@ string
 .
 homepage_shortcuts_show_all_content_description
 )
-onShowAllClick
+onButtonClick
 =
 interactor
 :
@@ -1683,7 +1683,7 @@ string
 .
 recent_tabs_show_all_content_description_2
 )
-onShowAllClick
+onButtonClick
 =
 interactor
 :
@@ -1828,7 +1828,7 @@ string
 .
 home_bookmarks_show_all_content_description
 )
-onShowAllClick
+onButtonClick
 =
 interactor
 :
@@ -1954,7 +1954,7 @@ string
 .
 past_explorations_show_all_content_description_2
 )
-onShowAllClick
+onButtonClick
 =
 interactor
 :
