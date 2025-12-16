@@ -2149,6 +2149,14 @@ IteratorNext
 "
 )
 \
+MACRO_
+(
+join
+"
+join
+"
+)
+\
 MACRO2
 (
 js

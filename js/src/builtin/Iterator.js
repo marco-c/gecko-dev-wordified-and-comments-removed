@@ -5634,5 +5634,15 @@ return
 false
 ;
 }
+function
+IteratorJoin
+(
+separator
+)
+{
+return
+false
+;
+}
 #
 endif

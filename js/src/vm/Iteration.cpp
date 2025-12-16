@@ -9683,6 +9683,17 @@ IteratorWindows
 2
 0
 )
+JS_SELF_HOSTED_FN
+(
+"
+join
+"
+"
+IteratorJoin
+"
+1
+0
+)
 #
 endif
 JS_FS_END
