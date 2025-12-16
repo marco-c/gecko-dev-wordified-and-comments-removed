@@ -880,6 +880,7 @@ GpuBufferAddress
 GpuBufferBuilder
 GpuBufferWriterF
 GpuBufferBlockF
+GpuBufferDataF
 }
 ;
 pub
