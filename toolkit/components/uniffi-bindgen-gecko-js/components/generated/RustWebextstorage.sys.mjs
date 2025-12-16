@@ -3985,7 +3985,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-143
+141
 /
 /
 uniffi_webext_storage_fn_method_webextstoragebridgedengine_apply
@@ -4061,7 +4061,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-144
+142
 /
 /
 uniffi_webext_storage_fn_method_webextstoragebridgedengine_ensure_current_sync_id
@@ -4129,7 +4129,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-145
+143
 /
 /
 uniffi_webext_storage_fn_method_webextstoragebridgedengine_last_sync
@@ -4196,7 +4196,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-146
+144
 /
 /
 uniffi_webext_storage_fn_method_webextstoragebridgedengine_prepare_for_sync
@@ -4253,7 +4253,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-147
+145
 /
 /
 uniffi_webext_storage_fn_method_webextstoragebridgedengine_reset
@@ -4313,7 +4313,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-148
+146
 /
 /
 uniffi_webext_storage_fn_method_webextstoragebridgedengine_reset_sync_id
@@ -4380,7 +4380,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-149
+147
 /
 /
 uniffi_webext_storage_fn_method_webextstoragebridgedengine_set_last_sync
@@ -4469,7 +4469,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-150
+148
 /
 /
 uniffi_webext_storage_fn_method_webextstoragebridgedengine_set_uploaded
@@ -4550,7 +4550,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-151
+149
 /
 /
 uniffi_webext_storage_fn_method_webextstoragebridgedengine_store_incoming
@@ -4607,7 +4607,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-152
+150
 /
 /
 uniffi_webext_storage_fn_method_webextstoragebridgedengine_sync_finished
@@ -4668,7 +4668,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-153
+151
 /
 /
 uniffi_webext_storage_fn_method_webextstoragebridgedengine_sync_id
@@ -4721,7 +4721,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-154
+152
 /
 /
 uniffi_webext_storage_fn_method_webextstoragebridgedengine_sync_started
@@ -4772,7 +4772,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-155
+153
 /
 /
 uniffi_webext_storage_fn_method_webextstoragebridgedengine_wipe
@@ -5756,7 +5756,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-156
+154
 /
 /
 uniffi_webext_storage_fn_constructor_webextstoragestore_new
@@ -5818,7 +5818,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-157
+155
 /
 /
 uniffi_webext_storage_fn_method_webextstoragestore_bridged_engine
@@ -5887,7 +5887,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-158
+156
 /
 /
 uniffi_webext_storage_fn_method_webextstoragestore_clear
@@ -5946,7 +5946,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-159
+157
 /
 /
 uniffi_webext_storage_fn_method_webextstoragestore_close
@@ -6034,7 +6034,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-160
+158
 /
 /
 uniffi_webext_storage_fn_method_webextstoragestore_get
@@ -6136,7 +6136,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-161
+159
 /
 /
 uniffi_webext_storage_fn_method_webextstoragestore_get_bytes_in_use
@@ -6224,7 +6224,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-162
+160
 /
 /
 uniffi_webext_storage_fn_method_webextstoragestore_get_keys
@@ -6296,7 +6296,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-163
+161
 /
 /
 uniffi_webext_storage_fn_method_webextstoragestore_get_synced_changes
@@ -6386,7 +6386,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-164
+162
 /
 /
 uniffi_webext_storage_fn_method_webextstoragestore_remove
@@ -6488,7 +6488,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-165
+163
 /
 /
 uniffi_webext_storage_fn_method_webextstoragestore_set

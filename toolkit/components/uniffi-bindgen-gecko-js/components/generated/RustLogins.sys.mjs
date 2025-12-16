@@ -479,14 +479,7 @@ bind
 (
 FfiConverterTypeLoginStore
 )
-FfiConverterTypeLoginsApiError
-.
-lift
-.
-bind
-(
-FfiConverterTypeLoginsApiError
-)
+null
 )
 }
 /

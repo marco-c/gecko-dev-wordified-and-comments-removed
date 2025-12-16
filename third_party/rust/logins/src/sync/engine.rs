@@ -927,11 +927,6 @@ InvalidLogin
 :
 :
 IllegalOrigin
-{
-reason
-:
-_
-}
 )
 =
 >
