@@ -1472,9 +1472,6 @@ CSSPositionTryDescriptors
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -1483,9 +1480,6 @@ name
 CSSPositionTryRule
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
