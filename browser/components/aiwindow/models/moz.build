@@ -90,6 +90,8 @@ MOZ_SRC_FILES
 "
 ChatUtils
 .
+sys
+.
 mjs
 "
 "
@@ -108,6 +110,8 @@ mjs
 "
 "
 Utils
+.
+sys
 .
 mjs
 "
