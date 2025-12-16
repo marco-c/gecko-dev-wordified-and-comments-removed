@@ -161,11 +161,6 @@ mozilla
 =
 [
 "
-nsRFPIPCUtils
-.
-h
-"
-"
 RelativeTimeline
 .
 h
