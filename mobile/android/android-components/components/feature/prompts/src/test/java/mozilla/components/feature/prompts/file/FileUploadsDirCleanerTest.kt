@@ -89,7 +89,9 @@ kotlinx
 .
 coroutines
 .
-MainScope
+test
+.
+TestScope
 import
 mozilla
 .
@@ -237,7 +239,7 @@ FileUploadsDirCleaner
 (
 scope
 =
-MainScope
+TestScope
 (
 )
 )

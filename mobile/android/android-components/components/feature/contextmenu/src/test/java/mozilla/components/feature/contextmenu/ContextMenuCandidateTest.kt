@@ -125,7 +125,9 @@ kotlinx
 .
 coroutines
 .
-MainScope
+test
+.
+TestScope
 import
 mozilla
 .
@@ -1449,7 +1451,7 @@ mock
 )
 scope
 =
-MainScope
+TestScope
 (
 )
 )
@@ -2711,7 +2713,7 @@ mock
 )
 scope
 =
-MainScope
+TestScope
 (
 )
 )
@@ -3106,7 +3108,7 @@ mock
 )
 scope
 =
-MainScope
+TestScope
 (
 )
 )
