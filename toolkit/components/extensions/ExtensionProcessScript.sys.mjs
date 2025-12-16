@@ -1054,6 +1054,11 @@ ignoreQuarantine
 extension
 .
 ignoreQuarantine
+hasRecommendedState
+:
+extension
+.
+hasRecommendedState
 temporarilyInstalled
 :
 extension
