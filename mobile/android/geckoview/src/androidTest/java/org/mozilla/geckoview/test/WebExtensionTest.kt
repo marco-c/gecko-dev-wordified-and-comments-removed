@@ -9641,7 +9641,7 @@ browser
 "
 )
 val
-TEST_SINCE_VALUE
+testSinceValue
 =
 59294
 sessionRule
@@ -9704,7 +9704,7 @@ BrowsingDataDelegate
 .
 Settings
 (
-TEST_SINCE_VALUE
+testSinceValue
 CACHE
 or
 COOKIES
@@ -10784,7 +10784,7 @@ since
 )
 equalTo
 (
-TEST_SINCE_VALUE
+testSinceValue
 )
 )
 for

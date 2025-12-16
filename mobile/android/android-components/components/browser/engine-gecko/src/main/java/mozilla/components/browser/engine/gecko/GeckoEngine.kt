@@ -4192,7 +4192,6 @@ ActivityDelegate
 /
 *
 *
-*
 Having
 the
 activity

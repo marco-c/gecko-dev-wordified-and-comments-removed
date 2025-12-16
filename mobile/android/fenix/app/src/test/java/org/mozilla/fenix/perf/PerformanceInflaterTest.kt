@@ -216,9 +216,7 @@ fragment_add_on_internal_settings
 activity_privacy_content_display
 "
 /
-*
-*
-*
+/
 activity_home
 .
 xml
@@ -228,7 +226,8 @@ which
 needs
 to
 be
-*
+/
+/
 put
 inside
 FragmentActivity
@@ -237,8 +236,6 @@ order
 to
 get
 inflated
-*
-/
 "
 activity_home
 "

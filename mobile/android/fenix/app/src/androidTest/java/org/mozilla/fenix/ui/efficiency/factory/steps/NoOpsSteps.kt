@@ -89,7 +89,6 @@ StepDescriptor
 /
 *
 *
-*
 Collection
 of
 minimal

@@ -193,12 +193,6 @@ xml
 .
 *
 /
-/
-*
-*
-suppress
-*
-/
 class
 FileProvider
 :

@@ -99,7 +99,6 @@ FxaAuthData
 /
 *
 *
-*
 This
 file
 is

@@ -848,14 +848,6 @@ cancel
 (
 )
 }
-Suppress
-(
-"
-MaxLineLength
-"
-"
-"
-)
 /
 *
 *
@@ -1120,6 +1112,12 @@ state
 *
 *
 /
+Suppress
+(
+"
+MaxLineLength
+"
+)
 private
 class
 WebChannelViewContentMessageHandler

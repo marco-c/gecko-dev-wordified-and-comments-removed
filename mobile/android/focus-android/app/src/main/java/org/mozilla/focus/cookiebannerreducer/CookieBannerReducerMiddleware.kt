@@ -296,9 +296,7 @@ InitCookieBannerReducer
 >
 {
 /
-*
-*
-*
+/
 The
 initial
 CookieBannerReducerState
@@ -310,8 +308,6 @@ first
 in
 the
 screen
-*
-/
 initCookieBannerReducer
 (
 context

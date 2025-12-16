@@ -1008,9 +1008,7 @@ null
 do
 {
 /
-*
-*
-*
+/
 A
 [
 ConstraintLayout
@@ -1022,7 +1020,8 @@ issue
 with
 snackbars
 internally
-*
+/
+/
 positioning
 themselves
 above
@@ -1039,7 +1038,8 @@ edge
 to
 -
 edge
-*
+/
+/
 https
 :
 /
@@ -1061,8 +1061,6 @@ android
 issues
 /
 3446
-*
-/
 if
 (
 currentView

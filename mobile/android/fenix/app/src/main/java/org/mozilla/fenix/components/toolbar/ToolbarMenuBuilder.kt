@@ -453,6 +453,7 @@ View
 {
 if
 (
+(
 this
 is
 ToolbarMenu
@@ -465,8 +466,10 @@ Reload
 this
 .
 bypassCache
+)
 |
 |
+(
 this
 is
 ToolbarMenu
@@ -479,8 +482,10 @@ Back
 this
 .
 viewHistory
+)
 |
 |
+(
 this
 is
 ToolbarMenu
@@ -493,6 +498,7 @@ Forward
 this
 .
 viewHistory
+)
 )
 {
 view

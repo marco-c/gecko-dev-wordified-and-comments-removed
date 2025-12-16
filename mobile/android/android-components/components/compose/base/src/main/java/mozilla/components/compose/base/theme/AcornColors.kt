@@ -2819,15 +2819,11 @@ PhotonColors
 Ink90
 )
 /
-*
-*
-*
+/
 M3
 color
 scheme
 extensions
-*
-/
 /
 *
 *

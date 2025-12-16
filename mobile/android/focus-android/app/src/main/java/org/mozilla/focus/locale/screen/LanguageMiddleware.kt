@@ -417,9 +417,7 @@ InitLanguages
 >
 {
 /
-*
-*
-*
+/
 The
 initial
 LanguageScreenState
@@ -431,8 +429,6 @@ first
 in
 the
 screen
-*
-/
 context
 .
 dispatch

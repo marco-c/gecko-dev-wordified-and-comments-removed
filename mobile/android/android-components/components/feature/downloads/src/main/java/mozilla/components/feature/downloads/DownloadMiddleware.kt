@@ -1511,16 +1511,6 @@ intent
 Intent
 )
 {
-/
-*
-*
-*
-see
-[
-StartForegroundService
-]
-*
-/
 startForegroundService
 {
 ContextCompat

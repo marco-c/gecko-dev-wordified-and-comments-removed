@@ -101,12 +101,6 @@ ons
 .
 *
 /
-/
-*
-*
-suppress
-*
-/
 object
 GlobalAddonDependencyProvider
 {

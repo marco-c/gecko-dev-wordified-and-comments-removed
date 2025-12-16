@@ -623,9 +623,7 @@ LargeClass
 "
 )
 /
-*
-*
-*
+/
 The
 main
 entry
@@ -634,8 +632,6 @@ for
 the
 app
 .
-*
-/
 open
 class
 MainActivity

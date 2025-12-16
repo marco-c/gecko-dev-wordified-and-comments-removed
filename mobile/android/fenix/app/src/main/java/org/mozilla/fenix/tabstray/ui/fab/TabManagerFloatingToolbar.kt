@@ -2278,6 +2278,7 @@ onAccountSettingsClick
 return
 when
 {
+(
 selectedPage
 =
 =
@@ -2290,8 +2291,10 @@ normalTabCount
 =
 =
 0
+)
 |
 |
+(
 selectedPage
 =
 =
@@ -2304,6 +2307,7 @@ privateTabCount
 =
 =
 0
+)
 -
 >
 listOf

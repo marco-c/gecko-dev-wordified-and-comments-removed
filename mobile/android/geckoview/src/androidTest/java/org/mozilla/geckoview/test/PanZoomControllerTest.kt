@@ -220,6 +220,13 @@ errorEpsilon
 0
 private
 val
+logTag
+=
+"
+PanZoomControllerTest
+"
+private
+val
 scrollWaitTimeout
 =
 10000
@@ -229,13 +236,6 @@ scrollWaitTimeout
 /
 10
 seconds
-private
-val
-LOGTAG
-=
-"
-PanZoomControllerTest
-"
 private
 fun
 setupDocument
@@ -4969,7 +4969,7 @@ Log
 .
 d
 (
-LOGTAG
+logTag
 "
 test
 scroll

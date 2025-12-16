@@ -2528,10 +2528,8 @@ writeToParcel
 (
 parcel
 /
-*
-ignored
-*
 /
+ignored
 -
 1
 )
@@ -2752,10 +2750,8 @@ writeToParcel
 (
 parcel
 /
-*
-ignored
-*
 /
+ignored
 -
 1
 )

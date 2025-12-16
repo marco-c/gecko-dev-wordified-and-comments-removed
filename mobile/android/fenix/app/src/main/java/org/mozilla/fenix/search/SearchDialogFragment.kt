@@ -3538,6 +3538,7 @@ map
 state
 -
 >
+(
 state
 .
 url
@@ -3554,6 +3555,7 @@ query
 .
 isNotBlank
 (
+)
 )
 |
 |

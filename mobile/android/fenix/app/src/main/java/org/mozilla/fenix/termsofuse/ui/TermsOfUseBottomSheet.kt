@@ -1518,9 +1518,7 @@ ExperimentalMaterial3Api
 class
 )
 /
-*
-*
-*
+/
 Preview
 copied
 from
@@ -1538,8 +1536,6 @@ preview
 PreviewScreenSizes
 ]
 .
-*
-/
 Preview
 (
 name
@@ -1608,9 +1604,7 @@ ExperimentalMaterial3Api
 class
 )
 /
-*
-*
-*
+/
 Preview
 copied
 from
@@ -1628,8 +1622,6 @@ preview
 PreviewScreenSizes
 ]
 .
-*
-/
 Preview
 (
 name
@@ -1698,9 +1690,7 @@ ExperimentalMaterial3Api
 class
 )
 /
-*
-*
-*
+/
 Preview
 copied
 from
@@ -1718,8 +1708,6 @@ preview
 PreviewScreenSizes
 ]
 .
-*
-/
 Preview
 (
 name
