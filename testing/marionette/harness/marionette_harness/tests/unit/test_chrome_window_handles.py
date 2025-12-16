@@ -879,7 +879,13 @@ self
 .
 assertEqual
 (
+            
+len
+(
 chrome_window_handles
+)
+len
+(
 self
 .
 marionette
@@ -887,13 +893,24 @@ marionette
 chrome_window_handles
 )
         
+)
+        
+for
+item
+in
 self
 .
 marionette
 .
-switch_to_window
+chrome_window_handles
+:
+            
+self
+.
+assertNotIn
 (
-new_window
+item
+chrome_window_handles
 )
     
 def

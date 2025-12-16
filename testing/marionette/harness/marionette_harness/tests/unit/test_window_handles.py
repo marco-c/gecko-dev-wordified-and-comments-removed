@@ -837,15 +837,6 @@ assertNotIn
 item
 window_handles
 )
-        
-self
-.
-marionette
-.
-switch_to_window
-(
-new_window
-)
     
 def
 test_window_handles_include_unloaded_tabs
