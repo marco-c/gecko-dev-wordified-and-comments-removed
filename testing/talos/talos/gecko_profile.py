@@ -224,7 +224,6 @@ upload_dir
 "
 profile_
 {
-0
 }
 .
 zip
@@ -1102,7 +1101,6 @@ join
 "
 profile_
 {
-0
 }
 "
 .

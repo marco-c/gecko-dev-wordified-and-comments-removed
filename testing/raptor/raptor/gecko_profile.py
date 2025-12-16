@@ -325,7 +325,6 @@ upload_dir
 "
 profile_
 {
-0
 }
 .
 zip
@@ -1037,11 +1036,9 @@ test_run_type
                         
 "
 {
-0
 }
 -
 {
-1
 }
 "
 .

@@ -238,7 +238,6 @@ default_is
 is
 not
 {
-0
 }
 :
             
@@ -540,7 +539,6 @@ Prefs
 .
 WEBGL
 {
-0
 }
 )
 \
@@ -620,7 +618,6 @@ status
 ContentWin32kLockdownState
 .
 {
-0
 }
             
 sessionStatus
@@ -628,7 +625,6 @@ sessionStatus
 ContentWin32kLockdownState
 .
 {
-1
 }
             
 experimentStatus
@@ -636,13 +632,11 @@ experimentStatus
 ExperimentStatus
 .
 {
-2
 }
             
 pref
 =
 {
-3
 }
             
 enrollmentStatusPref
@@ -650,7 +644,6 @@ enrollmentStatusPref
 ExperimentStatus
 .
 {
-4
 }
         
 )
