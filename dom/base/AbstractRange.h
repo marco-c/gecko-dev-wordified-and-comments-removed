@@ -754,6 +754,15 @@ nsINode
 aRoot
 )
 ;
+already_AddRefed
+<
+StaticRange
+>
+GetShrunkenRangeToVisibleLeaves
+(
+)
+const
+;
 protected
 :
 template
