@@ -4363,7 +4363,7 @@ inverseSurface
 =
 PhotonColors
 .
-DarkGrey05
+DarkGrey60
 errorContainer
 =
 PhotonColors
