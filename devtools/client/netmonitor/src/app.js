@@ -339,8 +339,10 @@ js
 "
 )
 ;
-function
+class
 NetMonitorApp
+{
+constructor
 (
 api
 )
@@ -352,11 +354,6 @@ api
 api
 ;
 }
-NetMonitorApp
-.
-prototype
-=
-{
 async
 bootstrap
 (
@@ -750,7 +747,6 @@ inspector
 ;
 }
 }
-;
 exports
 .
 NetMonitorApp
