@@ -15746,10 +15746,10 @@ nsTArray
 <
 CanvasUsage
 >
-mCanvasUsage
+mCanvasUsageData
 ;
 uint64_t
-mLastCanvasUsage
+mCanvasUsageLastTimestamp
 =
 0
 ;
