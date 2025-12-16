@@ -462,14 +462,6 @@ strcmp
 aMimeType
 IMAGE_AVIF
 )
-&
-&
-StaticPrefs
-:
-:
-image_avif_enabled
-(
-)
 )
 {
 type

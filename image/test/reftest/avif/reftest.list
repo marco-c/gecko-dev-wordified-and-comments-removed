@@ -5,15 +5,6 @@ image
 .
 avif
 .
-enabled
-true
-)
-pref
-(
-image
-.
-avif
-.
 apply_transforms
 true
 )
