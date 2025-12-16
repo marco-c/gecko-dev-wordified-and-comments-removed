@@ -1600,16 +1600,6 @@ display
 :
 inherit
 ;
-&
-[
-hidden
-]
-{
-display
-:
-none
-;
-}
 }
 }
 }
