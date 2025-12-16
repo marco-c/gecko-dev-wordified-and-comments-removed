@@ -1376,9 +1376,6 @@ defined
 (
 WEBRTC_ANDROID
 )
-#
-ifndef
-NDEBUG
 EXPECT_DEATH
 (
 f
@@ -1396,8 +1393,6 @@ Enabled
 "
 )
 ;
-#
-endif
 #
 endif
 }
