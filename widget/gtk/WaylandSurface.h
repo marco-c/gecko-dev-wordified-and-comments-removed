@@ -515,10 +515,9 @@ const
 WaylandSurfaceLock
 &
 aProofOfLock
-gfx
-:
-:
-Rect
+const
+DesktopIntRect
+&
 aRect
 )
 ;
@@ -529,7 +528,9 @@ const
 WaylandSurfaceLock
 &
 aProofOfLock
+const
 DesktopIntSize
+&
 aDestSize
 )
 ;
@@ -1291,10 +1292,7 @@ mViewport
 =
 nullptr
 ;
-gfx
-:
-:
-Rect
+DesktopIntRect
 mViewportSourceRect
 {
 -
