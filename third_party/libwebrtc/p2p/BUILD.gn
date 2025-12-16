@@ -1530,6 +1530,14 @@ safe_minmax
 /
 rtc_base
 :
+sigslot_trampoline
+"
+"
+.
+.
+/
+rtc_base
+:
 socket
 "
 "
