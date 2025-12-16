@@ -71,10 +71,10 @@ __aarch64__
 )
 &
 &
-defined
-(
-__LITTLE_ENDIAN__
-)
+__BYTE_ORDER__
+=
+=
+__ORDER_LITTLE_ENDIAN__
 #
 define
 MOZ_MAY_HAVE_HTMLACCEL
