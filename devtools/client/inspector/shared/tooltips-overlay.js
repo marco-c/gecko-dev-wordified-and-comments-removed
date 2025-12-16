@@ -403,8 +403,10 @@ TOOLTIP_VARIABLE_TYPE
 variable
 "
 ;
-function
+class
 TooltipsOverlay
+{
+constructor
 (
 view
 )
@@ -466,11 +468,6 @@ addToView
 )
 ;
 }
-TooltipsOverlay
-.
-prototype
-=
-{
 get
 isEditing
 (
@@ -2265,7 +2262,6 @@ true
 ;
 }
 }
-;
 module
 .
 exports
