@@ -990,6 +990,17 @@ id
 "
 Tools
 :
+ClassicWindow
+"
+/
+>
+<
+command
+id
+=
+"
+Tools
+:
 Sanitize
 "
 /
