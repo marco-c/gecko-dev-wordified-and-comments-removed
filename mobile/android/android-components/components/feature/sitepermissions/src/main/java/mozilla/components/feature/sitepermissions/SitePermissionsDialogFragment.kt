@@ -1031,9 +1031,6 @@ isLongClickable
 false
 setOnClickListener
 {
-dismiss
-(
-)
 feature
 ?
 .
@@ -1042,6 +1039,9 @@ onLearnMorePress
 permissionRequestId
 sessionId
 learnMoreLink
+)
+dismiss
+(
 )
 }
 }
