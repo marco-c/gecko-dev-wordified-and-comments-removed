@@ -124,6 +124,10 @@ const
 nsString
 &
 aLocalAppData
+const
+nsString
+&
+aRoamingAppData
 )
 ;
 ~
@@ -175,6 +179,11 @@ const
 nsString
 &
 mLocalAppData
+;
+const
+nsString
+&
+mRoamingAppData
 ;
 HKEY
 mUserFontKey
