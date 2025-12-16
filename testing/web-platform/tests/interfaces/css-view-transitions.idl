@@ -210,6 +210,9 @@ skipTransition
 (
 )
 ;
+[
+SameObject
+]
 attribute
 ViewTransitionTypeSet
 types

@@ -1808,6 +1808,7 @@ dictionary
 ElementCreationOptions
 {
 CustomElementRegistry
+?
 customElementRegistry
 ;
 DOMString
@@ -2386,8 +2387,6 @@ false
 CustomElementRegistry
 ?
 customElementRegistry
-=
-null
 ;
 }
 ;
