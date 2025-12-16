@@ -490,6 +490,13 @@ js
 ]
 [
 "
+browser_etp_status
+.
+js
+"
+]
+[
+"
 browser_experimental_features
 .
 js
