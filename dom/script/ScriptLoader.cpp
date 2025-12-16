@@ -20572,7 +20572,6 @@ id
 )
 ;
 }
-}
 if
 (
 aRequest
@@ -20689,19 +20688,6 @@ get
 )
 )
 ;
-if
-(
-aRequest
--
->
-getLoadedScript
-(
-)
--
->
-mCacheInfo
-)
-{
 rv
 =
 SaveSRIHash
