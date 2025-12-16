@@ -257,10 +257,6 @@ WhenToScroll
 :
 :
 IfNotFullyVisible
-bool
-aOnlyIfPerceivedScrollableDirection
-=
-false
 )
 :
 mWhereToScroll
@@ -271,10 +267,6 @@ mWhenToScroll
 (
 aWhen
 )
-mOnlyIfPerceivedScrollableDirection
-(
-aOnlyIfPerceivedScrollableDirection
-)
 {
 }
 WhereToScroll
@@ -282,11 +274,6 @@ mWhereToScroll
 ;
 WhenToScroll
 mWhenToScroll
-;
-bool
-mOnlyIfPerceivedScrollableDirection
-:
-1
 ;
 }
 ;

@@ -19537,12 +19537,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-aVertical
-.
-mOnlyIfPerceivedScrollableDirection
-=
-true
-;
 presShell
 -
 >
