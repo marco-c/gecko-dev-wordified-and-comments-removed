@@ -2692,6 +2692,11 @@ desc
 addressType
 (
 )
+desc
+.
+pageSize
+(
+)
 )
 memory
 -
@@ -2774,6 +2779,11 @@ MaxMemoryPages
 desc
 .
 addressType
+(
+)
+desc
+.
+pageSize
 (
 )
 )

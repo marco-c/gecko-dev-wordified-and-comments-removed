@@ -530,6 +530,11 @@ addressType
 wasm
 :
 :
+PageSize
+pageSize
+wasm
+:
+:
 Pages
 initialPages
 wasm
@@ -649,6 +654,13 @@ Pages
 fromByteLengthExact
 (
 length_
+wasm
+:
+:
+PageSize
+:
+:
+Standard
 )
 ;
 }

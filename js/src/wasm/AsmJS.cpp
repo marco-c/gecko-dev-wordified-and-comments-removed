@@ -42244,6 +42244,13 @@ AddressType
 :
 :
 I32
+wasm
+:
+:
+PageSize
+:
+:
+Standard
 )
 )
 {
