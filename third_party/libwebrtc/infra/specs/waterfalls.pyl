@@ -1610,7 +1610,10 @@ mixins
 :
 [
 '
-mac_15_x64
+mac_15_arm64
+'
+'
+xcode_26_main
 '
 '
 chromium
@@ -2199,7 +2202,7 @@ service
 account
 '
 '
-xcode_17_main
+xcode_26_main
 '
 '
 mac_toolchain
@@ -2266,7 +2269,7 @@ service
 account
 '
 '
-xcode_17_main
+xcode_26_main
 '
 '
 mac_toolchain
@@ -2336,7 +2339,7 @@ service
 account
 '
 '
-xcode_17_main
+xcode_26_main
 '
 '
 mac_toolchain
@@ -2767,7 +2770,10 @@ mixins
 :
 [
 '
-mac_15_x64
+mac_15_arm64
+'
+'
+xcode_26_main
 '
 '
 chromium

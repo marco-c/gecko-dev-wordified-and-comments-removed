@@ -129,9 +129,6 @@ mixins
 :
 [
 '
-xcode_17_main
-'
-'
 ios_runtime_cache_17_5
 '
 ]
@@ -182,9 +179,6 @@ mixins
 '
 :
 [
-'
-xcode_17_main
-'
 '
 ios_runtime_cache_18_2
 '
