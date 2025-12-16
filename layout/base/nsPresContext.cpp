@@ -13564,10 +13564,6 @@ mPresShell
 >
 MarkFixedFramesForReflow
 (
-IntrinsicDirty
-:
-:
-None
 )
 ;
 mPresShell

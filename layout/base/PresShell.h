@@ -3817,8 +3817,13 @@ InferFromBitToAdd
 void
 MarkFixedFramesForReflow
 (
-IntrinsicDirty
-aIntrinsicDirty
+)
+;
+void
+MarkPositionedFrameForReflow
+(
+nsIFrame
+*
 )
 ;
 void
