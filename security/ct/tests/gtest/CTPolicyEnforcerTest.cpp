@@ -1512,7 +1512,7 @@ Compliant
 TEST_F
 (
 CTPolicyEnforcerTest
-DoesNotConformToCTPolicyWithNoRFC6962Logs
+DoesConformToCTPolicyWithNoRFC6962Logs
 )
 {
 VerifiedSCTList
@@ -1567,14 +1567,14 @@ DEFAULT_LIFETIME
 CTPolicyCompliance
 :
 :
-NotEnoughScts
+Compliant
 )
 ;
 }
 TEST_F
 (
 CTPolicyEnforcerTest
-DoesNotConformToCTPolicyWithNoRFC6962LogsEmbedded
+DoesConformToCTPolicyWithNoRFC6962LogsEmbedded
 )
 {
 VerifiedSCTList
@@ -1650,7 +1650,7 @@ DEFAULT_LIFETIME
 CTPolicyCompliance
 :
 :
-NotEnoughScts
+Compliant
 )
 ;
 }
