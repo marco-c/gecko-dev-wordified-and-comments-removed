@@ -79,13 +79,6 @@ js
 ]
 [
 "
-test_TitleGeneration
-.
-js
-"
-]
-[
-"
 test_Tools_GetOpenTabs
 .
 js
