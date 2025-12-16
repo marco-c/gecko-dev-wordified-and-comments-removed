@@ -106,8 +106,6 @@ import
 "
 .
 /
-fxa
--
 menu
 -
 message
@@ -129,15 +127,12 @@ Widgets
 /
 ASRouter
 /
-FxA
 Menu
 Message
 "
 component
 :
 "
-fxa
--
 menu
 -
 message
@@ -187,8 +182,6 @@ width
 "
 >
 <
-fxa
--
 menu
 -
 message
@@ -388,8 +381,6 @@ layout
 >
 <
 /
-fxa
--
 menu
 -
 message

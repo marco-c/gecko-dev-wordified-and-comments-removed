@@ -195,8 +195,6 @@ asrouter
 /
 components
 /
-fxa
--
 menu
 -
 message
@@ -207,14 +205,10 @@ content
 /
 components
 /
-fxa
--
 menu
 -
 message
 /
-fxa
--
 menu
 -
 message
@@ -229,8 +223,6 @@ asrouter
 /
 components
 /
-fxa
--
 menu
 -
 message
@@ -241,14 +233,10 @@ content
 /
 components
 /
-fxa
--
 menu
 -
 message
 /
-fxa
--
 menu
 -
 message

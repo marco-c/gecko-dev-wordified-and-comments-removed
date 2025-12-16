@@ -181,7 +181,7 @@ default
 export
 default
 class
-FxAMenuMessage
+MenuMessage
 extends
 MozLitElement
 {
@@ -545,8 +545,6 @@ asrouter
 /
 components
 /
-fxa
--
 menu
 -
 message
@@ -1143,12 +1141,10 @@ customElements
 define
 (
 "
-fxa
--
 menu
 -
 message
 "
-FxAMenuMessage
+MenuMessage
 )
 ;

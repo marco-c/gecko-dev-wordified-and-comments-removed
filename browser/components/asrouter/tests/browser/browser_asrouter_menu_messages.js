@@ -278,8 +278,6 @@ mainView
 querySelector
 (
 "
-fxa
--
 menu
 -
 message
@@ -314,8 +312,6 @@ querySelector
 PanelUI
 -
 fxa
-fxa
--
 menu
 -
 message
@@ -336,8 +332,6 @@ messageEl
 "
 Found
 the
-fxa
--
 menu
 -
 message
@@ -356,8 +350,6 @@ isVisible
 (
 messageEl
 "
-fxa
--
 menu
 -
 message
@@ -1218,8 +1210,6 @@ mainView
 querySelector
 (
 "
-fxa
--
 menu
 -
 message
@@ -1254,8 +1244,6 @@ querySelector
 PanelUI
 -
 fxa
-fxa
--
 menu
 -
 message
@@ -1275,8 +1263,6 @@ not
 have
 found
 an
-fxa
--
 menu
 -
 message
@@ -1676,8 +1662,6 @@ document
 querySelector
 (
 "
-fxa
--
 menu
 -
 message
@@ -1688,8 +1672,6 @@ Should
 not
 find
 any
-fxa
--
 menu
 -
 message
@@ -2717,8 +2699,6 @@ mainView
 querySelector
 (
 "
-fxa
--
 menu
 -
 message

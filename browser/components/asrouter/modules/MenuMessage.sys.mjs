@@ -1482,8 +1482,6 @@ document
 createElement
 (
 "
-fxa
--
 menu
 -
 message
