@@ -767,7 +767,7 @@ std
 :
 optional
 <
-int
+TimeDelta
 >
 &
 stun_keepalive_interval

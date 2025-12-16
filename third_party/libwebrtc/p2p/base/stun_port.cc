@@ -1260,10 +1260,6 @@ false
 stun_keepalive_delay_
 (
 kStunKeepaliveInterval
-.
-ms
-(
-)
 )
 dscp_
 (
@@ -1345,10 +1341,6 @@ false
 stun_keepalive_delay_
 (
 kStunKeepaliveInterval
-.
-ms
-(
-)
 )
 dscp_
 (
@@ -2099,7 +2091,7 @@ std
 :
 optional
 <
-int
+TimeDelta
 >
 &
 delay
@@ -2112,10 +2104,6 @@ delay
 value_or
 (
 kStunKeepaliveInterval
-.
-ms
-(
-)
 )
 ;
 }
@@ -3689,7 +3677,7 @@ std
 :
 optional
 <
-int
+TimeDelta
 >
 stun_keepalive_interval
 )

@@ -843,7 +843,7 @@ SendGatheringStateEvent
 ;
 }
 }
-int
+TimeDelta
 receiving_timeout
 (
 )

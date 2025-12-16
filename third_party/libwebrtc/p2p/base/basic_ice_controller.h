@@ -382,7 +382,7 @@ weak
 )
 ;
 }
-int
+TimeDelta
 weak_ping_interval
 (
 )
@@ -407,7 +407,7 @@ ice_check_min_interval_or_default
 )
 ;
 }
-int
+TimeDelta
 strong_ping_interval
 (
 )
@@ -432,7 +432,7 @@ ice_check_min_interval_or_default
 )
 ;
 }
-int
+TimeDelta
 check_receiving_interval
 (
 )
@@ -443,15 +443,8 @@ std
 :
 :
 max
-<
-int
->
 (
 kMinCheckReceivingInterval
-.
-ms
-(
-)
 config_
 .
 receiving_timeout_or_default
@@ -550,7 +543,7 @@ now
 )
 const
 ;
-int
+TimeDelta
 CalculateActiveWritablePingInterval
 (
 const
