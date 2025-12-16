@@ -8342,11 +8342,6 @@ aDestParent
 )
 )
 {
-MOZ_ALWAYS_TRUE
-(
-ERROR_SUCCESS
-=
-=
 :
 :
 SetNamedSecurityInfoW
@@ -8364,7 +8359,6 @@ nullptr
 nullptr
 childDacl
 nullptr
-)
 )
 ;
 }
