@@ -120,8 +120,10 @@ connectPipe
 )
 ;
 }
-function
+class
 TracingTransport
+{
+constructor
 (
 childTransport
 )
@@ -167,11 +169,6 @@ checkIndex
 0
 ;
 }
-TracingTransport
-.
-prototype
-=
-{
 normalize
 (
 packet
@@ -529,4 +526,3 @@ packet
 }
 }
 }
-;
