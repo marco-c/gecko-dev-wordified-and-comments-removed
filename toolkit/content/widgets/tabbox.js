@@ -1921,6 +1921,13 @@ hidden
 !
 isActive
 ;
+const
+selectedPanel
+=
+this
+.
+selectedPanel
+;
 if
 (
 isActive
@@ -1953,6 +1960,12 @@ splitViewSplitter
 )
 ;
 }
+this
+.
+selectedPanel
+=
+selectedPanel
+;
 }
 }
 MozXULElement
