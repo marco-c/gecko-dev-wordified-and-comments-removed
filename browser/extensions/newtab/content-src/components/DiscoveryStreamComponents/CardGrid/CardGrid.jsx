@@ -1327,6 +1327,13 @@ onCardFocus
 currentCardIndex
 )
 }
+attribution
+=
+{
+rec
+.
+attribution
+}
 /
 >
 )

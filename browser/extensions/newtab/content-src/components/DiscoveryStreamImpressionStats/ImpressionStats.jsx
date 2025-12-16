@@ -575,6 +575,11 @@ position
 card
 .
 pos
+attribution
+:
+card
+.
+attribution
 }
 }
 )
@@ -714,6 +719,11 @@ features
 link
 .
 features
+attribution
+:
+link
+.
+attribution
 .
 .
 .

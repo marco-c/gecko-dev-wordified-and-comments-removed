@@ -3622,6 +3622,14 @@ impression
 image_size
 :
 200
+attribution
+:
+tile
+.
+attributions
+|
+|
+null
 }
 ;
 formattedTileData
@@ -6861,6 +6869,11 @@ block_key
 site
 .
 id
+attribution
+:
+site
+.
+attribution
 }
 ;
 if

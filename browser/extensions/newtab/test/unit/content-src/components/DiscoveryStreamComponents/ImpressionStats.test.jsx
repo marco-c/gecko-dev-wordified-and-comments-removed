@@ -870,6 +870,9 @@ undefined
 features
 :
 undefined
+attribution
+:
+undefined
 format
 :
 "
@@ -914,6 +917,9 @@ undefined
 features
 :
 undefined
+attribution
+:
+undefined
 format
 :
 "
@@ -956,6 +962,9 @@ topic
 :
 undefined
 features
+:
+undefined
+attribution
 :
 undefined
 format
@@ -1270,6 +1279,9 @@ advertiser
 position
 :
 1
+attribution
+:
+undefined
 }
 )
 ;
@@ -1512,6 +1524,9 @@ undefined
 features
 :
 undefined
+attribution
+:
+undefined
 format
 :
 "
@@ -1556,6 +1571,9 @@ undefined
 features
 :
 undefined
+attribution
+:
+undefined
 format
 :
 "
@@ -1598,6 +1616,9 @@ topic
 :
 undefined
 features
+:
+undefined
+attribution
 :
 undefined
 format

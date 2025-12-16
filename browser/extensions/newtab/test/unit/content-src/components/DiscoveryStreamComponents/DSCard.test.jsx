@@ -1800,6 +1800,9 @@ undefined
 selected_topics
 :
 undefined
+attribution
+:
+undefined
 format
 :
 "
@@ -2035,6 +2038,9 @@ matches_selected_topic
 :
 undefined
 selected_topics
+:
+undefined
+attribution
 :
 undefined
 format
@@ -2275,6 +2281,9 @@ matches_selected_topic
 :
 undefined
 selected_topics
+:
+undefined
+attribution
 :
 undefined
 format

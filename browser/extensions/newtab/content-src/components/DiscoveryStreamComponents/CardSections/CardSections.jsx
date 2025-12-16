@@ -2745,6 +2745,13 @@ onCardFocus
 index
 )
 }
+attribution
+=
+{
+rec
+.
+attribution
+}
 /
 >
 )
