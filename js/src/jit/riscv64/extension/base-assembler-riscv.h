@@ -886,8 +886,8 @@ imm12
 void
 GenInstrIShift
 (
-bool
-arithshift
+uint8_t
+funct7
 uint8_t
 funct3
 BaseOpcode
@@ -903,8 +903,8 @@ shamt
 void
 GenInstrIShiftW
 (
-bool
-arithshift
+uint8_t
+funct7
 uint8_t
 funct3
 BaseOpcode
