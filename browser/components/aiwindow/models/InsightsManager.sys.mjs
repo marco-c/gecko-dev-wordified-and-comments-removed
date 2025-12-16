@@ -315,14 +315,14 @@ DEFAULT_HISTORY_DELTA_MAX_RESULTS
 500
 ;
 const
-LAST_HISTORY_INSIGHTS_TS_ATTRIBUTE
+LAST_HISTORY_INSIGHT_TS_ATTRIBUTE
 =
 "
 last_history_insight_ts
 "
 ;
 const
-LAST_CONVERSATION_INSIGHTS_TS_ATTRIBUTE
+LAST_CONVERSATION_INSIGHT_TS_ATTRIBUTE
 =
 "
 last_chat_insight_ts
@@ -474,7 +474,7 @@ last_history_insight_ts
 via
 {
 link
-getLastHistoryInsightsTimestamp
+getLastHistoryInsightTimestamp
 }
 .
 *
@@ -744,7 +744,7 @@ lastTsMs
 await
 this
 .
-getLastHistoryInsightsTimestamp
+getLastHistoryInsightTimestamp
 (
 )
 ;
@@ -1483,7 +1483,7 @@ epoch
 /
 static
 async
-getLastHistoryInsightsTimestamp
+getLastHistoryInsightTimestamp
 (
 )
 {
@@ -1500,7 +1500,7 @@ getMeta
 return
 meta
 .
-last_history_insights_ts
+last_history_insight_ts
 |
 |
 0
@@ -1703,7 +1703,7 @@ SOURCE_HISTORY
 {
 metaKey
 =
-LAST_HISTORY_INSIGHTS_TS_ATTRIBUTE
+LAST_HISTORY_INSIGHT_TS_ATTRIBUTE
 ;
 }
 else
@@ -1718,7 +1718,7 @@ SOURCE_CONVERSATION
 {
 metaKey
 =
-LAST_CONVERSATION_INSIGHTS_TS_ATTRIBUTE
+LAST_CONVERSATION_INSIGHT_TS_ATTRIBUTE
 ;
 }
 else
