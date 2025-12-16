@@ -974,6 +974,11 @@ kNumberBytesPerSample
 int
 frames_received_
 ;
+bool
+initialized_
+=
+false
+;
 mutable
 webrtc
 :
