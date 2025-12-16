@@ -803,6 +803,9 @@ static
 bool
 sCSDAvailable
 ;
+#
+ifdef
+MOZ_ENABLE_DBUS
 static
 nsCString
 GVariantToString
@@ -2139,6 +2142,8 @@ DBusConnectionCheck
 )
 ;
 }
+#
+endif
 nsLookAndFeel
 :
 :
@@ -2398,6 +2403,9 @@ nsWindow
 :
 GTK_DECORATION_NONE
 ;
+#
+ifdef
+MOZ_ENABLE_DBUS
 if
 (
 ShouldUsePortal
@@ -2504,6 +2512,8 @@ nullptr
 )
 ;
 }
+#
+endif
 if
 (
 IsKdeDesktopEnvironment
@@ -2610,6 +2620,9 @@ ClearRoundedCornerProvider
 (
 )
 ;
+#
+ifdef
+MOZ_ENABLE_DBUS
 if
 (
 mDBusID
@@ -2629,6 +2642,8 @@ UnwatchDBus
 (
 )
 ;
+#
+endif
 if
 (
 GtkSettings

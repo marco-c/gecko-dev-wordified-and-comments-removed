@@ -280,6 +280,9 @@ NS_RGB
 255
 )
 ;
+#
+ifdef
+MOZ_ENABLE_DBUS
 bool
 RecomputeDBusSettings
 (
@@ -297,6 +300,8 @@ GVariant
 aValue
 )
 ;
+#
+endif
 struct
 ColorPair
 {
@@ -469,6 +474,9 @@ ComputeColorSchemeSetting
 (
 )
 ;
+#
+ifdef
+MOZ_ENABLE_DBUS
 void
 WatchDBus
 (
@@ -479,6 +487,8 @@ UnwatchDBus
 (
 )
 ;
+#
+endif
 struct
 PerThemeData
 {
