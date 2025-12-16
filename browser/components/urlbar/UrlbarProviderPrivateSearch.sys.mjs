@@ -700,6 +700,9 @@ name
 query
 :
 searchString
+title
+:
+searchString
 icon
 inPrivateWindow
 :

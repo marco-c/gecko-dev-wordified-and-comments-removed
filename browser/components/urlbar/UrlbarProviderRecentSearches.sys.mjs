@@ -897,6 +897,11 @@ suggestion
 result
 .
 value
+title
+:
+result
+.
+value
 isBlockable
 :
 true

@@ -434,6 +434,10 @@ queryContext
 searchString
 alias
 )
+.
+trimStart
+(
+)
 ;
 let
 result
@@ -473,12 +477,9 @@ keyword
 :
 alias
 query
+title
 :
 query
-.
-trimStart
-(
-)
 icon
 }
 }

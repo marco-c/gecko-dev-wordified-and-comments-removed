@@ -2524,6 +2524,13 @@ action
 params
 .
 searchSuggestion
+title
+:
+action
+.
+params
+.
+searchSuggestion
 lowerCaseSuggestion
 :
 action
