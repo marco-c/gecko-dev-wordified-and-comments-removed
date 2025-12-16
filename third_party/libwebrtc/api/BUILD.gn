@@ -8855,6 +8855,14 @@ deps
 .
 /
 rtc_base
+:
+checks
+"
+"
+.
+.
+/
+rtc_base
 /
 system
 :

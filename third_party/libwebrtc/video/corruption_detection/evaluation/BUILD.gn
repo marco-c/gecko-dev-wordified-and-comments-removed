@@ -1198,7 +1198,7 @@ webrtc_picture_pair_provider
 /
 api
 :
-field_trials_view
+field_trials
 "
 "
 .
