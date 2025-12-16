@@ -257,6 +257,13 @@ js
 ]
 [
 "
+browser_capability_filter
+.
+js
+"
+]
+[
+"
 browser_cert_export
 .
 js
