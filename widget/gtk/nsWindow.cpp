@@ -2073,7 +2073,7 @@ sStoredLeaveNotifyEvent
 #
 define
 NS_WINDOW_TITLE_MAX_LENGTH
-4095
+2048
 static
 GdkCursor
 *
