@@ -84,10 +84,6 @@ SUBPX_DIR_VERTICAL
 2
 #
 define
-SUBPX_DIR_MIXED
-3
-#
-define
 RASTER_LOCAL
 0
 #

@@ -580,17 +580,6 @@ vec2
 125
 )
 ;
-case
-SUBPX_DIR_MIXED
-:
-return
-vec2
-(
-0
-.
-125
-)
-;
 }
 }
 void
