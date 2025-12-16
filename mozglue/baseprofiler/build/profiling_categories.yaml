@@ -1173,6 +1173,15 @@ WebGPU
 -
 name
 :
+GRAPHICS_VSync
+label
+:
+VSync
+triggered
+animation
+-
+name
+:
 DOM
 label
 :
