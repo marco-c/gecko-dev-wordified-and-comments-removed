@@ -883,6 +883,9 @@ verifySavedLoginsAfterSync
 }
 .
 goBack
+(
+activityTestRule
+)
 {
 /
 /
