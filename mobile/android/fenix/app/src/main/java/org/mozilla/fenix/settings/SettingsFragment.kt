@@ -1730,6 +1730,11 @@ scrollToPreference
 it
 )
 }
+profilerViewModel
+.
+updateProfilerActiveStatus
+(
+)
 /
 /
 Consider

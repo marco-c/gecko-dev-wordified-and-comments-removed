@@ -311,6 +311,11 @@ profilerViewModel
 resetUiState
 (
 )
+profilerViewModel
+.
+updateProfilerActiveStatus
+(
+)
 super
 .
 onDismiss
