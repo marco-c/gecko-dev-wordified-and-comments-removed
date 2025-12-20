@@ -210,6 +210,8 @@ false
 void
 popFrame
 (
+bool
+isLeavingFrame
 )
 ;
 public
