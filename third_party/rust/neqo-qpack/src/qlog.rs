@@ -46,6 +46,7 @@ qpack_read_insert_count_increment_instruction
 qlog
 :
 &
+mut
 Qlog
 increment
 :
@@ -63,7 +64,7 @@ Instant
 {
 qlog
 .
-add_event_data_with_instant
+add_event_at
 (
 |
 |

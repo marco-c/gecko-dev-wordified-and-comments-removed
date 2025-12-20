@@ -3731,10 +3731,6 @@ end
 pub
 fn
 encrypt
-<
-'
-a
->
 (
 &
 mut
@@ -3754,8 +3750,6 @@ usize
 data
 :
 &
-'
-a
 mut
 [
 u8
@@ -3765,13 +3759,7 @@ u8
 >
 Res
 <
-&
-'
-a
-mut
-[
-u8
-]
+usize
 >
 {
 debug_assert_eq
@@ -3951,7 +3939,7 @@ end
 )
 ;
 let
-data
+len
 =
 self
 .
@@ -3988,6 +3976,11 @@ hex
 (
 &
 data
+[
+.
+.
+len
+]
 )
 )
 ;
@@ -4012,7 +4005,7 @@ pn
 ;
 Ok
 (
-data
+len
 )
 }
 #
@@ -4041,10 +4034,6 @@ expansion
 pub
 fn
 decrypt
-<
-'
-a
->
 (
 &
 mut
@@ -4064,8 +4053,6 @@ usize
 data
 :
 &
-'
-a
 mut
 [
 u8
@@ -4075,13 +4062,7 @@ u8
 >
 Res
 <
-&
-'
-a
-mut
-[
-u8
-]
+usize
 >
 {
 debug_assert_eq
@@ -4175,7 +4156,7 @@ end
 )
 ;
 let
-data
+len
 =
 self
 .
@@ -4199,7 +4180,7 @@ pn
 ;
 Ok
 (
-data
+len
 )
 }
 #

@@ -41,6 +41,7 @@ h3_data_moved_up
 qlog
 :
 &
+mut
 Qlog
 stream_id
 :
@@ -55,7 +56,7 @@ Instant
 {
 qlog
 .
-add_event_data_with_instant
+add_event_at
 (
 |
 |
@@ -154,6 +155,7 @@ h3_data_moved_down
 qlog
 :
 &
+mut
 Qlog
 stream_id
 :
@@ -168,7 +170,7 @@ Instant
 {
 qlog
 .
-add_event_data_with_instant
+add_event_at
 (
 |
 |

@@ -45,7 +45,7 @@ DECODER_STREAM_CANCELLATION
 qpack_send_buf
 :
 :
-Data
+Encoder
 reader
 :
 :
@@ -188,6 +188,11 @@ crate
 )
 fn
 marshal
+<
+T
+:
+Encoder
+>
 (
 &
 self
@@ -195,7 +200,7 @@ enc
 :
 &
 mut
-Data
+T
 )
 {
 match
@@ -687,6 +692,12 @@ mod
 test
 {
 use
+neqo_common
+:
+:
+Encoder
+;
+use
 neqo_transport
 :
 :
@@ -697,7 +708,6 @@ super
 :
 :
 {
-Data
 DecoderInstruction
 DecoderInstructionReader
 }
@@ -729,7 +739,7 @@ let
 mut
 buf
 =
-Data
+Encoder
 :
 :
 default
@@ -762,8 +772,11 @@ test_receiver
 .
 write
 (
-&
 buf
+.
+as_ref
+(
+)
 )
 ;
 let
@@ -920,7 +933,7 @@ let
 mut
 buf
 =
-Data
+Encoder
 :
 :
 default
@@ -980,6 +993,10 @@ write
 (
 &
 buf
+.
+as_ref
+(
+)
 [
 i
 .
@@ -1016,6 +1033,10 @@ write
 (
 &
 buf
+.
+as_ref
+(
+)
 [
 buf
 .

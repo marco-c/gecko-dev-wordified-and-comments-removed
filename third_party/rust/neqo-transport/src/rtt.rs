@@ -398,6 +398,7 @@ self
 qlog
 :
 &
+mut
 Qlog
 mut
 rtt_sample

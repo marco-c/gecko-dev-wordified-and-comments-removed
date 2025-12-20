@@ -2518,6 +2518,7 @@ fn
 rtt_sample
 (
 &
+mut
 self
 rtt
 :
@@ -2585,6 +2586,7 @@ rtt
 update
 (
 &
+mut
 self
 .
 qlog
@@ -4118,6 +4120,7 @@ qlog
 metrics_updated
 (
 &
+mut
 self
 .
 qlog

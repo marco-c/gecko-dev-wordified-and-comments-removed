@@ -1184,8 +1184,6 @@ acked
 0
 lost
 0
-change
-0
 iface_mtu
 0
 pmtu
