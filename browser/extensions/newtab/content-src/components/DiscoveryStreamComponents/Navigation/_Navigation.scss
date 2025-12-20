@@ -713,7 +713,9 @@ li
 {
 border
 -
-top
+block
+-
+start
 :
 1px
 solid
@@ -846,7 +848,9 @@ child
 {
 border
 -
-bottom
+block
+-
+end
 :
 1px
 solid
@@ -903,7 +907,9 @@ child
 {
 border
 -
-bottom
+block
+-
+end
 :
 1px
 solid
@@ -961,7 +967,9 @@ odd
 {
 border
 -
-bottom
+block
+-
+end
 :
 0
 ;
@@ -977,7 +985,9 @@ even
 {
 border
 -
-bottom
+block
+-
+end
 :
 1px
 solid
