@@ -18809,7 +18809,7 @@ secondListener
 NotifySetRequestedInputProcessingParams
 (
 graph
-1
+3
 CUBEB_INPUT_PROCESSING_PARAM_ECHO_CANCELLATION
 )
 )
@@ -18821,7 +18821,7 @@ secondListener
 NotifySetRequestedInputProcessingParamsResult
 (
 graph
-1
+3
 Eq
 (
 std
@@ -18869,7 +18869,7 @@ secondListener
 NotifySetRequestedInputProcessingParams
 (
 graph
-1
+4
 CUBEB_INPUT_PROCESSING_PARAM_ECHO_CANCELLATION
 )
 )
@@ -18881,7 +18881,7 @@ secondListener
 NotifySetRequestedInputProcessingParamsResult
 (
 graph
-1
+4
 Eq
 (
 std
@@ -18915,7 +18915,7 @@ secondListener
 NotifySetRequestedInputProcessingParams
 (
 graph
-2
+5
 CUBEB_INPUT_PROCESSING_PARAM_NOISE_SUPPRESSION
 )
 )
@@ -18927,7 +18927,7 @@ secondListener
 NotifySetRequestedInputProcessingParamsResult
 (
 graph
-2
+5
 Eq
 (
 std
