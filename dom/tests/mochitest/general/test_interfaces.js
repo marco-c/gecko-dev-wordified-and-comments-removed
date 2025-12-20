@@ -7540,9 +7540,6 @@ Sanitizer
 insecureContext
 :
 true
-earlyBetaOrEarlier
-:
-true
 }
 {
 name
