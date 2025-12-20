@@ -241,6 +241,16 @@ UTF8String
 property
 )
 ;
+[
+ChromeOnly
+]
+boolean
+hasLonghandProperty
+(
+UTF8String
+property
+)
+;
 readonly
 attribute
 CSSRule

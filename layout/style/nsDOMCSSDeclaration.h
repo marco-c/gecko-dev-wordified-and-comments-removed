@@ -279,6 +279,16 @@ _retval
 )
 override
 ;
+bool
+HasLonghandProperty
+(
+const
+nsACString
+&
+propertyName
+)
+override
+;
 void
 RemoveProperty
 (

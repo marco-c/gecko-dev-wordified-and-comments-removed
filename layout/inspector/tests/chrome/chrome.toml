@@ -33,6 +33,13 @@ woff
 ]
 [
 "
+test_CSSStyleDeclaration_hasLonghandProperty
+.
+html
+"
+]
+[
+"
 test_CSSStyleRule_getScopeRootFor
 .
 html
