@@ -318,6 +318,16 @@ action
 record
 (
 )
+SelectFolderAction
+.
+SearchClicked
+SelectFolderAction
+.
+SearchDismissed
+is
+SelectFolderAction
+.
+SearchQueryUpdated
 CloseClicked
 AddFolderClicked
 is
@@ -349,6 +359,10 @@ is
 SelectFolderAction
 .
 FoldersLoaded
+is
+SelectFolderAction
+.
+FilteredFoldersLoaded
 Init
 is
 SelectFolderAction
@@ -498,6 +512,9 @@ source
 )
 }
 }
+SnackbarAction
+.
+SelectFolderFailed
 SnackbarAction
 .
 Undo
