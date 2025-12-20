@@ -1947,13 +1947,6 @@ hidden
 "
 )
 ;
-await
-SpecialPowers
-.
-popPrefEnv
-(
-)
-;
 BrowserTestUtils
 .
 removeTab
@@ -1961,6 +1954,13 @@ removeTab
 gBrowser
 .
 selectedTab
+)
+;
+await
+SpecialPowers
+.
+popPrefEnv
+(
 )
 ;
 }
