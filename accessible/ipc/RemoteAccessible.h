@@ -1658,6 +1658,14 @@ override
 ;
 virtual
 bool
+HasCustomActions
+(
+)
+const
+override
+;
+virtual
+bool
 IsEditable
 (
 )

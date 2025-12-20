@@ -1462,6 +1462,14 @@ const
 override
 ;
 virtual
+bool
+HasCustomActions
+(
+)
+const
+override
+;
+virtual
 KeyBinding
 AccessKey
 (

@@ -2469,6 +2469,15 @@ const
 =
 0
 ;
+virtual
+bool
+HasCustomActions
+(
+)
+const
+=
+0
+;
 protected
 :
 virtual
