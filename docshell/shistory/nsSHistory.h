@@ -797,7 +797,7 @@ newID
 }
 }
 int32_t
-GetIndexForReplace
+GetTargetIndexForHistoryOperation
 (
 )
 {

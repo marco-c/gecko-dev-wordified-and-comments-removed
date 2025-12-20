@@ -3627,7 +3627,7 @@ addToSHistory
 int32_t
 index
 =
-GetIndexForReplace
+GetTargetIndexForHistoryOperation
 (
 )
 ;
