@@ -201,8 +201,12 @@ js
 true
 )
 ;
-function
+class
 Memory
+extends
+EventEmitter
+{
+constructor
 (
 parent
 frameCache
@@ -213,11 +217,8 @@ StackFrameCache
 )
 )
 {
-EventEmitter
-.
-decorate
+super
 (
-this
 )
 ;
 this
@@ -330,11 +331,6 @@ _onWindowReady
 )
 ;
 }
-Memory
-.
-prototype
-=
-{
 destroy
 (
 )
@@ -476,7 +472,7 @@ state
 ;
 }
 detach
-:
+=
 expectState
 (
 "
@@ -527,6 +523,7 @@ the
 debugger
 "
 )
+;
 getState
 (
 )
@@ -678,7 +675,7 @@ trackingAllocationSites
 ;
 }
 saveHeapSnapshot
-:
+=
 expectState
 (
 "
@@ -749,8 +746,9 @@ boundaries
 saveHeapSnapshot
 "
 )
+;
 takeCensus
-:
+=
 expectState
 (
 "
@@ -777,8 +775,9 @@ taking
 census
 "
 )
+;
 startRecordingAllocations
-:
+=
 expectState
 (
 "
@@ -948,8 +947,9 @@ recording
 allocations
 "
 )
+;
 stopRecordingAllocations
-:
+=
 expectState
 (
 "
@@ -1029,8 +1029,9 @@ recording
 allocations
 "
 )
+;
 getAllocationsSettings
-:
+=
 expectState
 (
 "
@@ -1069,8 +1070,9 @@ allocations
 settings
 "
 )
+;
 getAllocations
-:
+=
 expectState
 (
 "
@@ -1242,6 +1244,7 @@ getting
 allocations
 "
 )
+;
 forceGarbageCollection
 (
 )
@@ -1600,7 +1603,6 @@ now
 ;
 }
 }
-;
 exports
 .
 Memory
