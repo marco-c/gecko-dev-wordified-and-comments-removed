@@ -2197,13 +2197,13 @@ split
 "
 "
 )
+}
+)
 credentials
 :
 "
 omit
 "
-}
-)
 signal
 }
 ;

@@ -4667,13 +4667,13 @@ split
 "
 "
 )
+}
+)
 credentials
 :
 "
 omit
 "
-}
-)
 signal
 }
 ;
