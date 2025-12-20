@@ -898,6 +898,13 @@ Bug
 ]
 [
 "
+browser_findbar_hidden_reveal
+.
+js
+"
+]
+[
+"
 browser_findbar_hiddenframes
 .
 js
