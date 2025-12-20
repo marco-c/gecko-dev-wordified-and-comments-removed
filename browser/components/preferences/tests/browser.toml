@@ -146,6 +146,13 @@ updater
 ]
 [
 "
+browser_aiFeatures
+.
+js
+"
+]
+[
+"
 browser_application_xml_handle_internally
 .
 js

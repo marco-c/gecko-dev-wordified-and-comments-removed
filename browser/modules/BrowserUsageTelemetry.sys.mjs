@@ -1137,6 +1137,9 @@ paneExperimental
 "
 paneMoreFromMozilla
 "
+"
+paneAiFeatures
+"
 ]
 ;
 const
