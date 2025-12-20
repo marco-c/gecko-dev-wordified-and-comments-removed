@@ -146,6 +146,11 @@ disableIPv6
 "
 )
 ;
+if
+(
+trrServer
+)
+{
 await
 trrServer
 .
@@ -153,6 +158,7 @@ stop
 (
 )
 ;
+}
 }
 )
 ;
