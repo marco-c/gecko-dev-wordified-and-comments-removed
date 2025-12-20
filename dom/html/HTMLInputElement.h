@@ -4522,13 +4522,6 @@ ErrorResult
 ;
 static
 bool
-IsExperimentalMobileType
-(
-FormControlType
-)
-;
-static
-bool
 IsDateTimeInputType
 (
 FormControlType
