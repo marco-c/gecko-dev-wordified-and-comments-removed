@@ -2259,8 +2259,7 @@ pdf
 primary
 -
 cta
-=
-.
+-
 label
 =
 Set
@@ -2275,8 +2274,7 @@ default
 pdf
 -
 next
-=
-.
+-
 label
 =
 Next
