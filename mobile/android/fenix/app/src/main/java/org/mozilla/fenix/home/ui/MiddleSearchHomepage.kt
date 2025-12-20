@@ -904,6 +904,9 @@ HomepageState
 .
 Normal
 (
+shouldShowPrivacyNoticeBanner
+=
+false
 nimbusMessage
 =
 null

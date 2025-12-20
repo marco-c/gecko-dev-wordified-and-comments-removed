@@ -231,6 +231,18 @@ fenix
 .
 home
 .
+termsofuse
+.
+PrivacyNoticeBannerInteractor
+import
+org
+.
+mozilla
+.
+fenix
+.
+home
+.
 toolbar
 .
 ToolbarInteractor
@@ -284,6 +296,7 @@ TabSessionInteractor
 ToolbarInteractor
 HomeSearchInteractor
 MessageCardInteractor
+PrivacyNoticeBannerInteractor
 RecentTabInteractor
 RecentSyncedTabInteractor
 BookmarksInteractor
