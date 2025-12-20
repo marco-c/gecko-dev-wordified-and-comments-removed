@@ -277,12 +277,6 @@ kotlinx
 .
 coroutines
 .
-Dispatchers
-import
-kotlinx
-.
-coroutines
-.
 launch
 import
 mozilla
@@ -1567,11 +1561,6 @@ requireComponents
 core
 .
 bookmarksStorage
-ioDispatcher
-=
-Dispatchers
-.
-IO
 collectionStorage
 =
 requireComponents
