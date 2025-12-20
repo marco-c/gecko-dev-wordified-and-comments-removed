@@ -1,0 +1,17 @@
+use
+crate
+:
+:
+ClassType
+;
+pub
+unsafe
+trait
+DowncastTarget
+:
+ClassType
++
+'
+static
+{
+}
