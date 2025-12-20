@@ -1348,13 +1348,6 @@ a7
 static
 constexpr
 Register
-HeapReg
-=
-s7
-;
-static
-constexpr
-Register
 RegExpMatcherRegExpReg
 =
 CallTempReg0
@@ -1516,6 +1509,13 @@ Register
 InstanceReg
 =
 s4
+;
+static
+constexpr
+Register
+HeapReg
+=
+s7
 ;
 static
 constexpr

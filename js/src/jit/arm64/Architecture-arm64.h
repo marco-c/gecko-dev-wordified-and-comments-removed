@@ -719,16 +719,6 @@ Registers
 :
 x7
 )
-|
-(
-1
-<
-<
-Registers
-:
-:
-x8
-)
 ;
 static
 const

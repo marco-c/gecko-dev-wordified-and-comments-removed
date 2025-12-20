@@ -509,13 +509,6 @@ r3
 static
 constexpr
 Register
-HeapReg
-=
-r10
-;
-static
-constexpr
-Register
 CallTempNonArgRegs
 [
 ]
@@ -916,6 +909,13 @@ Register
 InstanceReg
 =
 r9
+;
+static
+constexpr
+Register
+HeapReg
+=
+r10
 ;
 static
 constexpr

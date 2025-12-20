@@ -647,13 +647,6 @@ rax
 ;
 static
 constexpr
-Register
-HeapReg
-=
-r15
-;
-static
-constexpr
 Register64
 ReturnReg64
 (
@@ -1305,6 +1298,13 @@ Register
 InstanceReg
 =
 r14
+;
+static
+constexpr
+Register
+HeapReg
+=
+r15
 ;
 static
 constexpr
