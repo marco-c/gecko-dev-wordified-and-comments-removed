@@ -741,6 +741,17 @@ toml
 "
 tests
 /
+browser
+/
+searchbar
+/
+browser
+.
+toml
+"
+"
+tests
+/
 engagementTelemetry
 /
 browser
