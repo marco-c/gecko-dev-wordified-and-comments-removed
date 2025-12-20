@@ -293,6 +293,11 @@ getMaxDatagramSize
 (
 )
 ;
+uint64_t
+getHttpChannelID
+(
+)
+;
 [
 noscript
 ]
