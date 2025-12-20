@@ -1958,11 +1958,12 @@ _getLoginFromGUID
 oldID
 )
 ;
+await
 this
 .
 storage
 .
-modifyLogin
+modifyLoginAsync
 (
 oldLogin
 prop
@@ -2520,11 +2521,12 @@ everSynced
 =
 true
 ;
+await
 this
 .
 storage
 .
-modifyLogin
+modifyLoginAsync
 (
 loginItem
 newinfo

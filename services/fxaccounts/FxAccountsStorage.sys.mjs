@@ -4305,11 +4305,12 @@ existingLogins
 length
 )
 {
+await
 Services
 .
 logins
 .
-modifyLogin
+modifyLoginAsync
 (
 existingLogins
 [

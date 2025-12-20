@@ -495,11 +495,12 @@ testuser1
 testuser2
 ]
 ;
+await
 Services
 .
 logins
 .
-modifyLogin
+modifyLoginAsync
 (
 testuser1
 testuser2

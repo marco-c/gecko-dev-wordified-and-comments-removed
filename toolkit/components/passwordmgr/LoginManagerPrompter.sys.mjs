@@ -2624,6 +2624,7 @@ guid
 .
 )
 ;
+await
 this
 .
 _updateLogin
@@ -4770,6 +4771,7 @@ user
 .
 *
 /
+async
 promptToChangePasswordWithUsernames
 (
 browser
@@ -5033,6 +5035,7 @@ aNewLogin
 passwordField
 )
 ;
+await
 LoginManagerPrompter
 .
 _updateLogin
@@ -5091,6 +5094,7 @@ values
 *
 /
 static
+async
 _updateLogin
 (
 login
@@ -5300,11 +5304,12 @@ would
 be
 wrong
 .
+await
 Services
 .
 logins
 .
-modifyLogin
+modifyLoginAsync
 (
 login
 propBag

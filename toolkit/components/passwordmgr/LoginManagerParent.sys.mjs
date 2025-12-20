@@ -6044,6 +6044,7 @@ if
 canMatchExistingLogin
 )
 {
+await
 prompter
 .
 promptToChangePasswordWithUsernames
@@ -7738,11 +7739,12 @@ login
 "
 )
 ;
+await
 Services
 .
 logins
 .
-modifyLogin
+modifyLoginAsync
 (
 existingLogin
 lazy

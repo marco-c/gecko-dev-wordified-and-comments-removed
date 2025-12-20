@@ -886,6 +886,7 @@ return
 nothing
 *
 /
+async
 Update
 (
 )
@@ -976,11 +977,12 @@ updateProps
 passwordField
 )
 ;
+await
 Services
 .
 logins
 .
-modifyLogin
+modifyLoginAsync
 (
 oldlogin
 newlogin

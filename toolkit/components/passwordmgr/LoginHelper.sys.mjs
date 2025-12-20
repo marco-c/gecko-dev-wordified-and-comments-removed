@@ -2690,11 +2690,12 @@ modified
 "
 )
 {
+await
 Services
 .
 logins
 .
-modifyLogin
+modifyLoginAsync
 (
 summaryRow
 .

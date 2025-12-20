@@ -475,11 +475,12 @@ modifyLogin
 "
 )
 ;
+await
 Services
 .
 logins
 .
-modifyLogin
+modifyLoginAsync
 (
 oldLogin
 newLogin

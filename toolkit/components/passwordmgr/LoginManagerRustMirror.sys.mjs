@@ -1880,12 +1880,13 @@ guid
 ;
 try
 {
+await
 this
 .
 #
 rustStorage
 .
-modifyLogin
+modifyLoginAsync
 (
 loginToModify
 newLoginData

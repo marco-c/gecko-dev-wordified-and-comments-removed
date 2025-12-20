@@ -4211,11 +4211,12 @@ password
 }
 try
 {
+await
 Services
 .
 logins
 .
-modifyLogin
+modifyLoginAsync
 (
 logins
 [

@@ -2743,6 +2743,7 @@ realm
 .
 )
 ;
+await
 this
 .
 _updateLogin
@@ -5105,6 +5106,7 @@ Methods
 -
 *
 /
+async
 _updateLogin
 (
 login
@@ -5292,11 +5294,12 @@ See
 bug
 1640096
 .
+await
 Services
 .
 logins
 .
-modifyLogin
+modifyLoginAsync
 (
 login
 propBag
