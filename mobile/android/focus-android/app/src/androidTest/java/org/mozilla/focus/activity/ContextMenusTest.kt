@@ -847,10 +847,6 @@ loadPage
 imagesTestPage
 .
 url
-.
-toString
-(
-)
 )
 {
 longPressLink
