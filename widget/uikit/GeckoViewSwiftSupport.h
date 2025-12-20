@@ -239,6 +239,12 @@ NSString
 )
 type
 ;
+-
+(
+void
+)
+activate
+;
 end
 protocol
 GeckoViewWindow
