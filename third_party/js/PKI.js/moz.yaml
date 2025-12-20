@@ -394,6 +394,9 @@ test
 typedoc
 .
 json
+-
+website
+/
 keep
 :
 -
