@@ -3907,6 +3907,11 @@ WEBSOCKET
 "
 websocket
 "
+WEBTRANSPORT
+:
+"
+webtransport
+"
 COOKIE
 :
 "
