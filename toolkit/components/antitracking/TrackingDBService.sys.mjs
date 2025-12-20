@@ -1429,6 +1429,15 @@ Ci
 nsIWebProgressListener
 .
 STATE_COOKIES_BLOCKED_SOCIALTRACKER
+|
+|
+state
+&
+Ci
+.
+nsIWebProgressListener
+.
+STATE_COOKIES_PARTITIONED_TRACKER
 )
 {
 result
