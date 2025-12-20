@@ -152,6 +152,7 @@ uint8_t
 {
 NoPiP
 MediaPiP
+DocumentPiP
 }
 ;
 struct
