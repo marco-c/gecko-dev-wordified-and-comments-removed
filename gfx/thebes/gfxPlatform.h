@@ -1975,6 +1975,12 @@ void
 aDataIgnored
 )
 ;
+static
+void
+ResetHardwareVsyncSource
+(
+)
+;
 void
 UpdateForceSubpixelAAWherePossible
 (
