@@ -1123,6 +1123,11 @@ toolbarStore
 cfr
 =
 toolbarCFR
+useMinimalBottomToolbarWhenEnteringText
+=
+settings
+.
+shouldUseMinimalBottomToolbarWhenEnteringText
 )
 if
 (
@@ -1192,6 +1197,11 @@ toolbarStore
 cfr
 =
 toolbarCFR
+useMinimalBottomToolbarWhenEnteringText
+=
+settings
+.
+shouldUseMinimalBottomToolbarWhenEnteringText
 )
 navigationBarContent
 ?
@@ -1210,6 +1220,11 @@ toolbarStore
 cfr
 =
 toolbarCFR
+useMinimalBottomToolbarWhenEnteringText
+=
+settings
+.
+shouldUseMinimalBottomToolbarWhenEnteringText
 )
 if
 (
