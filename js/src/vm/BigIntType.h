@@ -378,6 +378,7 @@ Span
 Digit
 >
 ;
+MOZ_ALWAYS_INLINE
 Digits
 digits
 (
@@ -411,6 +412,7 @@ const
 Digit
 >
 ;
+MOZ_ALWAYS_INLINE
 ConstDigits
 digits
 (
@@ -433,6 +435,7 @@ digitLength
 )
 ;
 }
+MOZ_ALWAYS_INLINE
 Digit
 digit
 (
@@ -450,6 +453,7 @@ idx
 ]
 ;
 }
+MOZ_ALWAYS_INLINE
 void
 setDigit
 (
