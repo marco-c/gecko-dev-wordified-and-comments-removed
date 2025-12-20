@@ -3935,11 +3935,6 @@ mPopupPosition
 {
 }
 ;
-GdkPoint
-mRelativePopupPosition
-{
-}
-;
 RefPtr
 <
 nsWindow
