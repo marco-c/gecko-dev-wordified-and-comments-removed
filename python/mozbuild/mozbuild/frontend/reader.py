@@ -103,6 +103,8 @@ logging
 import
 os
 import
+re
+import
 sys
 import
 textwrap
@@ -7149,6 +7151,22 @@ variables
 variables
 ]
         
+variables_matcher
+=
+re
+.
+compile
+(
+"
+|
+"
+.
+join
+(
+variables
+)
+)
+        
 def
 assigned_variable
 (
@@ -7607,14 +7625,6 @@ in
 mozbuild_paths
 :
             
-assignments
-[
-:
-]
-=
-[
-]
-            
 full
 =
 os
@@ -7635,9 +7645,6 @@ with
 open
 (
 full
-"
-rb
-"
 )
 as
 fh
@@ -7650,6 +7657,27 @@ fh
 read
 (
 )
+            
+if
+not
+re
+.
+search
+(
+variables_matcher
+source
+)
+:
+                
+continue
+            
+assignments
+[
+:
+]
+=
+[
+]
             
 tree
 =
