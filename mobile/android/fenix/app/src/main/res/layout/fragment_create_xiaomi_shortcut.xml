@@ -483,7 +483,9 @@ backgroundTint
 =
 "
 ?
-borderPrimary
+attr
+/
+colorOutlineVariant
 "
 android
 :

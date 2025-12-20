@@ -189,7 +189,9 @@ background
 =
 "
 ?
-borderPrimary
+attr
+/
+colorOutlineVariant
 "
 /
 >
@@ -306,7 +308,9 @@ background
 =
 "
 ?
-borderPrimary
+attr
+/
+colorOutlineVariant
 "
 /
 >

@@ -182,7 +182,9 @@ background
 =
 "
 ?
-borderPrimary
+attr
+/
+colorOutlineVariant
 "
 app
 :

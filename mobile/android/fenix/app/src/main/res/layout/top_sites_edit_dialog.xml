@@ -281,7 +281,9 @@ backgroundTint
 =
 "
 ?
-borderPrimary
+attr
+/
+colorOutlineVariant
 "
 android
 :
@@ -506,7 +508,9 @@ backgroundTint
 =
 "
 ?
-borderPrimary
+attr
+/
+colorOutlineVariant
 "
 android
 :

@@ -408,7 +408,9 @@ background
 =
 "
 ?
-borderPrimary
+attr
+/
+colorOutlineVariant
 "
 android
 :
@@ -1130,7 +1132,9 @@ background
 =
 "
 ?
-borderPrimary
+attr
+/
+colorOutlineVariant
 "
 app
 :
@@ -1175,7 +1179,9 @@ background
 =
 "
 ?
-borderPrimary
+attr
+/
+colorOutlineVariant
 "
 app
 :

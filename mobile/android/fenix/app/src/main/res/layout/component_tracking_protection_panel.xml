@@ -1513,7 +1513,9 @@ background
 =
 "
 ?
-borderPrimary
+attr
+/
+colorOutlineVariant
 "
 app
 :
@@ -2170,7 +2172,9 @@ background
 =
 "
 ?
-borderPrimary
+attr
+/
+colorOutlineVariant
 "
 app
 :
