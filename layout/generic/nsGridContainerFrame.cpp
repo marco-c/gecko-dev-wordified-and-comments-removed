@@ -56581,14 +56581,6 @@ FrameChildListID
 Principal
 }
 ;
-supportedLists
-+
-=
-FrameChildListID
-:
-:
-Backdrop
-;
 MOZ_ASSERT
 (
 supportedLists

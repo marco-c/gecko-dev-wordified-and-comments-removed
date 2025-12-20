@@ -2541,17 +2541,6 @@ case
 FrameChildListID
 :
 :
-Backdrop
-:
-return
-"
-BackdropList
-"
-;
-case
-FrameChildListID
-:
-:
 NoReflowPrincipal
 :
 return

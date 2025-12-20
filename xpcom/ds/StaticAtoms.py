@@ -298,6 +298,16 @@ _moz_generated_content_image
 Atom
 (
 "
+mozgeneratedcontentbackdrop
+"
+"
+_moz_generated_content_backdrop
+"
+)
+    
+Atom
+(
+"
 mozquote
 "
 "
@@ -22836,6 +22846,16 @@ markerPseudoProperty
 "
 "
 markerPseudoProperty
+"
+)
+    
+Atom
+(
+"
+backdropPseudoProperty
+"
+"
+backdropPseudoProperty
 "
 )
     

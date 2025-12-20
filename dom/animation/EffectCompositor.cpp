@@ -2668,6 +2668,12 @@ PseudoStyleType
 :
 marker
 :
+case
+PseudoStyleType
+:
+:
+backdrop
+:
 {
 nsIContent
 *
@@ -3676,6 +3682,14 @@ aRoot
 -
 >
 IsGeneratedContentContainerForAfter
+(
+)
+|
+|
+aRoot
+-
+>
+IsGeneratedContentContainerForBackdrop
 (
 )
 |

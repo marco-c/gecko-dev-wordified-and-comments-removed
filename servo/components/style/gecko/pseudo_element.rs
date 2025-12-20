@@ -209,6 +209,9 @@ Self
 Self
 (
 thin_vec
+:
+:
+thin_vec
 !
 [
 name
@@ -705,6 +708,9 @@ let
 mut
 result
 =
+thin_vec
+:
+:
 thin_vec
 !
 [
@@ -1222,6 +1228,11 @@ Self
 :
 :
 Marker
+|
+Self
+:
+:
+Backdrop
 )
 }
 #

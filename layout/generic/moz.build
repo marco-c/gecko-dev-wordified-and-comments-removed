@@ -1034,11 +1034,6 @@ MiddleCroppingBlockFrame
 cpp
 "
 "
-nsBackdropFrame
-.
-cpp
-"
-"
 nsBlockFrame
 .
 cpp

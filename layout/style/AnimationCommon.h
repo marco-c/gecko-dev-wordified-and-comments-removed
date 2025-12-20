@@ -566,6 +566,7 @@ SortingIndex
 uint8_t
 {
 NotPseudo
+Backdrop
 Marker
 Before
 After
@@ -610,6 +611,18 @@ SortingIndex
 :
 :
 NotPseudo
+;
+case
+PseudoStyleType
+:
+:
+backdrop
+:
+return
+SortingIndex
+:
+:
+Backdrop
 ;
 case
 PseudoStyleType
