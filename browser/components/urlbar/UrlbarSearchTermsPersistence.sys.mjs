@@ -2828,6 +2828,9 @@ if
 provider
 .
 includeParams
+?
+.
+length
 )
 {
 let
