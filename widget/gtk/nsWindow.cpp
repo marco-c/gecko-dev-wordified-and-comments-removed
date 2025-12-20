@@ -18422,7 +18422,7 @@ moved
 aScaleChange
 |
 |
-aMayChangeCsdMargin
+clientMarginsChanged
 |
 |
 oldClientArea
@@ -18445,7 +18445,7 @@ resized
 aScaleChange
 |
 |
-aMayChangeCsdMargin
+clientMarginsChanged
 |
 |
 oldClientArea
