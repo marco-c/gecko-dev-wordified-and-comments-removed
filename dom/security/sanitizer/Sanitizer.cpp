@@ -5761,6 +5761,16 @@ Contains
 *
 elementName
 )
+&
+&
+!
+!
+child
+-
+>
+GetParent
+(
+)
 )
 {
 nsCOMPtr
