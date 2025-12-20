@@ -356,7 +356,7 @@ SupportUtils
 .
 MozillaPage
 .
-PRIVATE_NOTICE_NEXT
+PRIVACY_NOTICE_NEXT
 )
 onClick
 =
@@ -404,7 +404,7 @@ SupportUtils
 .
 MozillaPage
 .
-PRIVATE_NOTICE_UPDATE
+PRIVACY_NOTICE_UPDATE
 )
 onClick
 =

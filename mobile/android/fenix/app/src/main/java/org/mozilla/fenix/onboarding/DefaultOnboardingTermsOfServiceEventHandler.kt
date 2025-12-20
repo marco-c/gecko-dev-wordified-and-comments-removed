@@ -236,7 +236,7 @@ SupportUtils
 .
 MozillaPage
 .
-PRIVATE_NOTICE
+PRIVACY_NOTICE
 )
 }
 )
