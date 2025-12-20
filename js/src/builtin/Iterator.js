@@ -2733,9 +2733,6 @@ innerValue
 }
 }
 }
-#
-ifdef
-NIGHTLY_BUILD
 function
 IteratorZip
 (
@@ -4745,6 +4742,9 @@ catch
 }
 }
 }
+#
+ifdef
+NIGHTLY_BUILD
 function
 IteratorRangeNext
 (
