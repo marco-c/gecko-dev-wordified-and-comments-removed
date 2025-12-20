@@ -45,6 +45,13 @@ mode
 ]
 [
 "
+test_bug270145
+.
+xhtml
+"
+]
+[
+"
 test_bug401662
 .
 html
