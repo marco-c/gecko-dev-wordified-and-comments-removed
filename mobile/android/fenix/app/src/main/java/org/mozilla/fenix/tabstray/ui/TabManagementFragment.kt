@@ -1453,6 +1453,13 @@ store
 state
 .
 selectedTabId
+tabSearchEnabled
+=
+requireComponents
+.
+settings
+.
+tabSearchEnabled
 )
 middlewares
 =
