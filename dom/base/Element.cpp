@@ -13306,13 +13306,6 @@ this
 HandleShadowDOMRelatedRemovalSteps
 (
 nullParent
-!
-!
-aContext
-.
-GetBatchRemovalState
-(
-)
 )
 ;
 if

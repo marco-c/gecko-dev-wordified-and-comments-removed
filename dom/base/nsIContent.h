@@ -334,12 +334,6 @@ nsINode
 aNewParent
 =
 nullptr
-const
-BatchRemovalState
-*
-aBatchState
-=
-nullptr
 )
 ;
 enum
@@ -1055,8 +1049,6 @@ HandleShadowDOMRelatedRemovalSteps
 (
 bool
 aNullParent
-bool
-aInBatch
 )
 ;
 public
