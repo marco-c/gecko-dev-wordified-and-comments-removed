@@ -39,9 +39,9 @@ token
 :
 :
 {
-Index
 F32
 F64
+Index
 }
 ;
 #

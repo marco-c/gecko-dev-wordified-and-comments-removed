@@ -5,6 +5,8 @@ crate
 {
 CustomSection
 Encode
+Ieee32
+Ieee64
 Section
 }
 ;
@@ -1174,11 +1176,11 @@ i64
 )
 F32
 (
-f32
+Ieee32
 )
 F64
 (
-f64
+Ieee64
 )
 }
 impl

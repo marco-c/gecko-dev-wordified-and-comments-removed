@@ -9,8 +9,8 @@ anyhow
 :
 :
 {
-bail
 Result
+bail
 }
 ;
 impl

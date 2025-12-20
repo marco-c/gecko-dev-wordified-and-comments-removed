@@ -3,11 +3,11 @@ crate
 :
 :
 {
-encode_section
 CustomSection
 Encode
 Section
 SectionId
+encode_section
 }
 ;
 use

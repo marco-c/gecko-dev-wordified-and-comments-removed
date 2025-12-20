@@ -9,12 +9,12 @@ crate
 :
 :
 {
-encode_section
 ComponentExportKind
 ComponentSection
 ComponentSectionId
 Encode
 ExportKind
+encode_section
 }
 ;
 use

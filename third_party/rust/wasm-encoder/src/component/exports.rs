@@ -17,11 +17,11 @@ crate
 :
 :
 {
-encode_section
 ComponentSection
 ComponentSectionId
 ComponentTypeRef
 Encode
+encode_section
 }
 ;
 use

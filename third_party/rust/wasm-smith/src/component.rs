@@ -12,8 +12,8 @@ crate
 :
 :
 {
-arbitrary_loop
 Config
+arbitrary_loop
 }
 ;
 use
@@ -10648,6 +10648,11 @@ PrimitiveValType
 :
 :
 String
+|
+PrimitiveValType
+:
+:
+ErrorContext
 =
 >
 {
@@ -12131,6 +12136,11 @@ PrimitiveValType
 :
 :
 String
+|
+PrimitiveValType
+:
+:
+ErrorContext
 =
 >
 false

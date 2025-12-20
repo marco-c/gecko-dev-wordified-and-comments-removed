@@ -3,11 +3,11 @@ crate
 :
 :
 {
-encoding_size
 CustomSection
 Encode
 Section
 SectionId
+encoding_size
 }
 ;
 use

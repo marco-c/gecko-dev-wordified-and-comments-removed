@@ -3,12 +3,12 @@ crate
 :
 :
 {
-encode_section
 ConstExpr
 Encode
 Section
 SectionId
 ValType
+encode_section
 }
 ;
 use

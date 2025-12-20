@@ -3,10 +3,10 @@ crate
 :
 :
 {
-encoding_size
 Encode
 Section
 SectionId
+encoding_size
 }
 ;
 use

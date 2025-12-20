@@ -1016,7 +1016,7 @@ global
 Used
 in
 position
-indepenent
+independent
 code
 (
 -

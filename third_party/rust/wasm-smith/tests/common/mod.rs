@@ -3,11 +3,11 @@ wasmparser
 :
 :
 {
+Validator
 types
 :
 :
 Types
-Validator
 }
 ;
 pub
@@ -150,9 +150,9 @@ to
 validate
 :
 {
+err
 }
 "
-err
 )
 ;
 }

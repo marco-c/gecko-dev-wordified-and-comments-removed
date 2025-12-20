@@ -20,8 +20,8 @@ crate
 :
 :
 {
-VisitSimdOperator
 V128
+VisitSimdOperator
 }
 ;
 impl

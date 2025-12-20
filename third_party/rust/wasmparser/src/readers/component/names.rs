@@ -108,6 +108,14 @@ NameMap
 a
 >
 )
+CoreTags
+(
+NameMap
+<
+'
+a
+>
+)
 CoreModules
 (
 NameMap
@@ -264,7 +272,7 @@ name
 =
 reader
 .
-read_string
+read_unlimited_string
 (
 )
 ?
@@ -392,6 +400,13 @@ ComponentName
 :
 :
 CoreGlobals
+0x04
+=
+>
+ComponentName
+:
+:
+CoreTags
 0x10
 =
 >

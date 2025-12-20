@@ -116,7 +116,7 @@ name
 =
 reader
 .
-read_string
+read_unlimited_string
 (
 )
 ?
@@ -301,7 +301,7 @@ name
 =
 reader
 .
-read_string
+read_unlimited_string
 (
 )
 ?
@@ -311,7 +311,7 @@ version
 =
 reader
 .
-read_string
+read_unlimited_string
 (
 )
 ?
