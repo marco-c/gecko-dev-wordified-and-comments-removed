@@ -1796,8 +1796,6 @@ at
 offset
 %
 u
-"
-"
 (
 icScript
 :
