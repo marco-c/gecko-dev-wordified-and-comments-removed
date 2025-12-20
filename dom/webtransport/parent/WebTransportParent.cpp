@@ -196,10 +196,6 @@ nsIPrincipal
 *
 aPrincipal
 const
-int64_t
-&
-aBrowsingContextID
-const
 mozilla
 :
 :
@@ -594,9 +590,6 @@ RefPtr
 {
 aPrincipal
 }
-browsingContextID
-=
-aBrowsingContextID
 flags
 =
 nsILoadInfo
@@ -647,7 +640,6 @@ move
 nsServerCertHashes
 )
 principal
-browsingContextID
 flags
 self
 clientInfo

@@ -533,17 +533,6 @@ Ci
 .
 nsIContentPolicy
 .
-TYPE_WEB_TRANSPORT
-]
-:
-"
-webtransport
-"
-[
-Ci
-.
-nsIContentPolicy
-.
 TYPE_CSP_REPORT
 ]
 :

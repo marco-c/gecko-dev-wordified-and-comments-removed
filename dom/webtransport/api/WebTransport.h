@@ -752,11 +752,6 @@ mHttpChannelID
 =
 0
 ;
-uint64_t
-mBrowsingContextID
-=
-0
-;
 RefPtr
 <
 mozilla

@@ -802,8 +802,6 @@ aURL
 nullable
 nsIPrincipal
 aPrincipal
-uint64_t
-aBrowsingContextID
 IPCClientInfo
 ?
 aClientInfo
