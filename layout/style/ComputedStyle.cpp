@@ -1999,6 +1999,18 @@ true
 }
 if
 (
+pos
+-
+>
+mPositionAnchor
+.
+IsAuto
+(
+)
+)
+{
+if
+(
 !
 pos
 -
@@ -2071,6 +2083,7 @@ ANCHOR_CENTER
 return
 true
 ;
+}
 }
 return
 pos
