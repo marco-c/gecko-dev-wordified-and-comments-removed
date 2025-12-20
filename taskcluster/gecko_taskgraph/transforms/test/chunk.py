@@ -1739,6 +1739,15 @@ list
                 
 )
         
+last_chunk
+=
+task
+[
+"
+chunks
+"
+]
+        
 for
 i
 in
@@ -1765,6 +1774,13 @@ deepcopy
 (
 task
 )
+if
+this_chunk
+!
+=
+last_chunk
+else
+task
             
 chunked
 [
