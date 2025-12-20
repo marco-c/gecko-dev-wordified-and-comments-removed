@@ -29,8 +29,6 @@ SELECTORS
 savedCreditCardsBtn
 :
 "
-#
-formAutofillGroupBox
 setting
 -
 group
@@ -45,8 +43,6 @@ savedPaymentsButton
 reauthCheckbox
 :
 "
-#
-formAutofillGroupBox
 setting
 -
 group

@@ -529,8 +529,6 @@ document
 querySelector
 (
 "
-#
-formAutofillGroupBox
 setting
 -
 group
