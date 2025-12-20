@@ -140,6 +140,13 @@ mIgnoreIdle
 trans
 -
 >
+mIsFromPredictor
+=
+mIsFromPredictor
+;
+trans
+-
+>
 mAllow1918
 =
 mAllow1918

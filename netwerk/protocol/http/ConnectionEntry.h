@@ -489,6 +489,8 @@ caps
 bool
 speculative
 bool
+isFromPredictor
+bool
 urgentStart
 bool
 allow1918

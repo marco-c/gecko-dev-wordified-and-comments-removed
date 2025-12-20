@@ -9270,6 +9270,13 @@ js
 ]
 [
 "
+test_predictor
+.
+js
+"
+]
+[
+"
 test_prio_header_override_forbid
 .
 js
