@@ -313,9 +313,6 @@ for
 example
 domain
 exclusions
-and
-exceptions
-mode
 )
 in
 coordination
