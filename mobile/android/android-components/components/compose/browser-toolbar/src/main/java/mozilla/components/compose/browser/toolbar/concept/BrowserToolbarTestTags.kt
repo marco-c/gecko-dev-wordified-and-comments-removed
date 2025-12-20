@@ -98,6 +98,13 @@ composable
 object
 BrowserToolbarTestTags
 {
+const
+val
+MINIMAL_ADDRESS_BAR
+=
+"
+MINIMAL_ADDRESS_BAR
+"
 /
 *
 *
