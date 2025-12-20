@@ -865,6 +865,10 @@ onboardingMessage
 :
 "
 "
+bandwidthWarning
+:
+"
+"
 }
 ;
 if
