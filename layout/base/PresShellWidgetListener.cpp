@@ -560,7 +560,7 @@ return
 mPresShell
 ;
 }
-bool
+void
 PresShellWidgetListener
 :
 :
@@ -568,11 +568,10 @@ WindowResized
 (
 nsIWidget
 *
-aWidget
-int32_t
-aWidth
-int32_t
-aHeight
+const
+LayoutDeviceIntSize
+&
+aSize
 )
 {
 RefPtr
@@ -592,7 +591,6 @@ ps
 )
 {
 return
-false
 ;
 }
 nsPresContext
@@ -613,7 +611,6 @@ pc
 )
 {
 return
-false
 ;
 }
 pc
@@ -660,14 +657,6 @@ InvalidateFrame
 )
 ;
 }
-const
-LayoutDeviceIntSize
-size
-(
-aWidth
-aHeight
-)
-;
 ps
 -
 >
@@ -678,7 +667,7 @@ LayoutDeviceIntSize
 :
 ToAppUnits
 (
-size
+aSize
 p2a
 )
 false
@@ -707,9 +696,6 @@ ps
 )
 ;
 }
-return
-true
-;
 }
 void
 PresShellWidgetListener

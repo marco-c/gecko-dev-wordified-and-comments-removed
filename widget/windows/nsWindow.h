@@ -2654,7 +2654,7 @@ OnDestroy
 )
 override
 ;
-bool
+void
 OnResize
 (
 const

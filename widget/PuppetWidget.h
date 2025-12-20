@@ -359,12 +359,7 @@ NotifyWindowMoved
 (
 targetRect
 .
-X
-(
-)
-targetRect
-.
-Y
+TopLeft
 (
 )
 )
