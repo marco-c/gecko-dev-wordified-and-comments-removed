@@ -195,6 +195,12 @@ LOCAL_INCLUDES
 [
 "
 /
+toolkit
+/
+xre
+"
+"
+/
 widget
 "
 "
@@ -202,6 +208,12 @@ widget
 widget
 /
 headless
+"
+"
+/
+xpcom
+/
+components
 "
 ]
 XPCOM_MANIFESTS

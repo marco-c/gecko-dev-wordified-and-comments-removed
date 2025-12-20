@@ -1515,6 +1515,16 @@ session
 GeckoSession
 )
 {
+session
+.
+close
+(
+)
+geckoview
+.
+session
+=
+nil
 }
 func
 onFullScreen
