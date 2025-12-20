@@ -979,9 +979,15 @@ eVariant7
 eVariant8
 =
 15
+eClientGear
+=
+16
+eImperva
+=
+17
 eLastAlias
 =
-eVariant8
+eImperva
 }
 ;
 enum
