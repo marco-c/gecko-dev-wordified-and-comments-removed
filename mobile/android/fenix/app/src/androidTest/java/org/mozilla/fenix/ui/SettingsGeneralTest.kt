@@ -699,10 +699,16 @@ openThreeDotMenu
 .
 openSettings
 {
+waitForAppWindowToBeUpdated
+(
+)
 }
 .
 openLanguageSubMenu
 {
+waitForAppWindowToBeUpdated
+(
+)
 registerAndCleanupIdlingResources
 (
 RecyclerViewIdlingResource
