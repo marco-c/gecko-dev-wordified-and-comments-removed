@@ -554,7 +554,9 @@ if
 (
 this
 .
-_isContainerVerticalPinnedGrid
+_tabbrowserTabs
+.
+isContainerVerticalPinnedGrid
 (
 draggedTab
 )
@@ -1047,7 +1049,9 @@ if
 (
 this
 .
-_isContainerVerticalPinnedGrid
+_tabbrowserTabs
+.
+isContainerVerticalPinnedGrid
 (
 draggedTab
 )
@@ -2209,7 +2213,9 @@ isGrid
 =
 this
 .
-_isContainerVerticalPinnedGrid
+_tabbrowserTabs
+.
+isContainerVerticalPinnedGrid
 (
 tab
 )
@@ -3297,7 +3303,9 @@ isGrid
 =
 this
 .
-_isContainerVerticalPinnedGrid
+_tabbrowserTabs
+.
+isContainerVerticalPinnedGrid
 (
 tab
 )
