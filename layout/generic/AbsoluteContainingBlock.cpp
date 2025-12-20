@@ -5620,10 +5620,12 @@ nextFallback
 ;
 if
 (
-!
 nextFallbackStyle
 )
 {
+break
+;
+}
 aIndex
 +
 +
@@ -5644,9 +5646,6 @@ return
 false
 ;
 }
-}
-break
-;
 }
 currentFallbackIndex
 =
