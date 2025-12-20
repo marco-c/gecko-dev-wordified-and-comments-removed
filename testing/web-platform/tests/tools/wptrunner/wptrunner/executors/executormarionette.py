@@ -3783,17 +3783,19 @@ def
 generate_test_report
 (
 self
-message
+config
 )
 :
         
-self
-.
-marionette
-.
-generate_test_report
+raise
+NotImplementedError
 (
-message
+"
+generate_test_report
+not
+yet
+implemented
+"
 )
 class
 MarionetteVirtualAuthenticatorProtocolPart
