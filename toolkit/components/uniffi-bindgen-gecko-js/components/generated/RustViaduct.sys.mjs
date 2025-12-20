@@ -130,7 +130,7 @@ UniFFIScaffolding
 .
 callSync
 (
-138
+140
 /
 /
 uniffi_viaduct_fn_func_allow_android_emulator_loopback
@@ -182,7 +182,7 @@ UniFFIScaffolding
 .
 callSync
 (
-139
+141
 /
 /
 uniffi_viaduct_fn_func_init_backend
@@ -5190,7 +5190,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-140
+142
 /
 /
 uniffi_viaduct_fn_method_backend_send_request
