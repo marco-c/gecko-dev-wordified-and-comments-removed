@@ -222,6 +222,13 @@ standalone
 "
 fullscreen
 "
+"
+picture
+-
+in
+-
+picture
+"
 }
 ;
 /

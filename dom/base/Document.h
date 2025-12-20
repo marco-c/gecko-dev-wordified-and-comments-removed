@@ -6935,6 +6935,11 @@ Destroy
 )
 ;
 void
+CloseAnyAssociatedDocumentPiPWindows
+(
+)
+;
+void
 RemovedFromDocShell
 (
 )
