@@ -1440,6 +1440,11 @@ STREET_ADDRESS_COMPONENTS
 AddressRecord
 .
 TEL_COMPONENTS
+"
+address
+-
+housenumber
+"
 ]
 ;
 export
