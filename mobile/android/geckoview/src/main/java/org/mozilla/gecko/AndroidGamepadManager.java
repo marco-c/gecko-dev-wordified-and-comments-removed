@@ -612,6 +612,8 @@ byte
 ]
 nativeAddGamepad
 (
+String
+aName
 )
 ;
 WrapForJNI
@@ -1934,6 +1936,11 @@ gamepadId
 =
 nativeAddGamepad
 (
+device
+.
+getName
+(
+)
 )
 ;
 ThreadUtils
