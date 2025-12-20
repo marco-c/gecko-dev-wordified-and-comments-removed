@@ -174,12 +174,6 @@ TAR
 TAR
 )
 \
-AWK
-=
-(
-AWK
-)
-\
 MOZJS_MAJOR_VERSION
 =
 (
