@@ -2308,8 +2308,6 @@ CreateLoadInfo
 SessionHistoryEntry
 *
 aEntry
-NavigationType
-aNavigationType
 )
 ;
 void
