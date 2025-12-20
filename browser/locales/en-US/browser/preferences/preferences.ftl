@@ -8158,7 +8158,6 @@ sync
 to
 get
 your
-your
 bookmarks
 passwords
 history
