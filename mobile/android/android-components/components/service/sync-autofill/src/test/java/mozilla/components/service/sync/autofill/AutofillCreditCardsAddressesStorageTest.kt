@@ -773,10 +773,6 @@ storage
 getAllCreditCards
 (
 )
-.
-getOrThrow
-(
-)
 val
 key
 =
@@ -1841,10 +1837,6 @@ addresses
 storage
 .
 getAllAddresses
-(
-)
-.
-getOrThrow
 (
 )
 val
