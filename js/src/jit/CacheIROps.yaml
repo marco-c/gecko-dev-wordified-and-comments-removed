@@ -10826,9 +10826,6 @@ ObjId
 callee
 :
 ObjId
-kind
-:
-CompletionKindImm
 targetNargs
 :
 UInt32Imm

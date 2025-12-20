@@ -12136,8 +12136,6 @@ ObjOperandId
 iterId
 ObjOperandId
 calleeId
-CompletionKind
-kind
 uint32_t
 calleeNargs
 )
@@ -12347,17 +12345,6 @@ callJit
 callee
 )
 ;
-if
-(
-kind
-!
-=
-CompletionKind
-:
-:
-Throw
-)
-{
 Label
 success
 ;
@@ -12449,7 +12436,6 @@ setFramePushed
 framePushedAfterCall
 )
 ;
-}
 masm
 .
 loadPtr
