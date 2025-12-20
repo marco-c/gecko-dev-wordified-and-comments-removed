@@ -232,7 +232,7 @@ Click
 (
 ToolbarSelectors
 .
-URL_BAR_PLACE_HOLDER
+TOOLBAR_URL_BOX
 )
 )
 )
@@ -267,9 +267,9 @@ NavigationStep
 .
 Click
 (
-SearchBarSelectors
+ToolbarSelectors
 .
-URL_TEXT
+TOOLBAR_URL_BOX
 )
 )
 )

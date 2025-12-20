@@ -3713,6 +3713,7 @@ button
 )
 SearchRobot
 (
+composeTestRule
 )
 .
 interact
@@ -3723,6 +3724,7 @@ SearchRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -4038,6 +4040,7 @@ SyncSignInRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -4253,6 +4256,7 @@ button
 )
 HomeScreenRobot
 (
+composeTestRule
 )
 .
 interact
@@ -4263,6 +4267,7 @@ HomeScreenRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -4378,6 +4383,7 @@ title
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -4388,6 +4394,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -4473,6 +4480,7 @@ position
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -4483,6 +4491,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -4566,6 +4575,7 @@ position
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -4576,6 +4586,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -4813,6 +4824,7 @@ handle
 }
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -4823,6 +4835,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -4883,6 +4896,7 @@ button
 )
 CollectionRobot
 (
+composeTestRule
 )
 .
 interact
@@ -4893,6 +4907,7 @@ CollectionRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -5201,6 +5216,7 @@ button
 )
 CollectionRobot
 (
+composeTestRule
 )
 .
 interact
@@ -5211,6 +5227,7 @@ CollectionRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 /

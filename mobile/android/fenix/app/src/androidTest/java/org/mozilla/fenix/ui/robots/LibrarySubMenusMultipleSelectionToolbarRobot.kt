@@ -1431,6 +1431,13 @@ button
 }
 class
 Transition
+(
+private
+val
+composeTestRule
+:
+ComposeTestRule
+)
 {
 fun
 closeToolbarReturnToHistory
@@ -1503,14 +1510,12 @@ HistoryRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
 clickOpenNewTab
 (
-composeTestRule
-:
-HomeActivityComposeTestRule
 interact
 :
 TabDrawerRobot
@@ -1654,9 +1659,6 @@ composeTestRule
 fun
 clickOpenInNewTabButton
 (
-composeTestRule
-:
-HomeActivityComposeTestRule
 interact
 :
 TabDrawerRobot
@@ -1801,9 +1803,6 @@ composeTestRule
 fun
 clickOpenPrivateTab
 (
-composeTestRule
-:
-HomeActivityComposeTestRule
 interact
 :
 TabDrawerRobot
@@ -1903,6 +1902,9 @@ composeTestRule
 fun
 multipleSelectionToolbar
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
 LibrarySubMenusMultipleSelectionToolbarRobot
@@ -1930,6 +1932,7 @@ LibrarySubMenusMultipleSelectionToolbarRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 private

@@ -236,7 +236,7 @@ Click
 (
 ToolbarSelectors
 .
-URL_BAR_PLACE_HOLDER
+TOOLBAR_URL_BOX
 )
 NavigationStep
 .
@@ -244,7 +244,7 @@ EnterText
 (
 SearchBarSelectors
 .
-EDIT_SEARCHBAR_VIEW
+TOOLBAR_IN_EDIT_MODE
 )
 NavigationStep
 .
@@ -252,7 +252,7 @@ PressEnter
 (
 SearchBarSelectors
 .
-EDIT_SEARCHBAR_VIEW
+TOOLBAR_IN_EDIT_MODE
 )
 )
 )
@@ -274,9 +274,9 @@ NavigationStep
 .
 Click
 (
-SearchBarSelectors
+ToolbarSelectors
 .
-URL_TEXT
+TOOLBAR_URL_BOX
 )
 NavigationStep
 .
@@ -284,7 +284,7 @@ EnterText
 (
 SearchBarSelectors
 .
-EDIT_SEARCHBAR_VIEW
+TOOLBAR_IN_EDIT_MODE
 )
 NavigationStep
 .
@@ -292,7 +292,7 @@ PressEnter
 (
 SearchBarSelectors
 .
-EDIT_SEARCHBAR_VIEW
+TOOLBAR_IN_EDIT_MODE
 )
 )
 )
@@ -318,7 +318,7 @@ EnterText
 (
 SearchBarSelectors
 .
-EDIT_SEARCHBAR_VIEW
+TOOLBAR_IN_EDIT_MODE
 )
 NavigationStep
 .
@@ -326,7 +326,7 @@ PressEnter
 (
 SearchBarSelectors
 .
-EDIT_SEARCHBAR_VIEW
+TOOLBAR_IN_EDIT_MODE
 )
 )
 )

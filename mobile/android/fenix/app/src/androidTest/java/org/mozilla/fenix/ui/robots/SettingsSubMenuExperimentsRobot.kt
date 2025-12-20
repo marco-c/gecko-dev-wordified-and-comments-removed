@@ -113,6 +113,16 @@ fenix
 .
 helpers
 .
+HomeActivityComposeTestRule
+import
+org
+.
+mozilla
+.
+fenix
+.
+helpers
+.
 MatcherHelper
 .
 assertUIObjectExists
@@ -187,6 +197,9 @@ Transition
 fun
 goBackToHomeScreen
 (
+composeTestRule
+:
+HomeActivityComposeTestRule
 interact
 :
 HomeScreenRobot
@@ -211,6 +224,7 @@ click
 )
 HomeScreenRobot
 (
+composeTestRule
 )
 .
 interact
@@ -221,6 +235,7 @@ HomeScreenRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun

@@ -207,18 +207,6 @@ fenix
 .
 helpers
 .
-TestHelper
-.
-waitForAppWindowToBeUpdated
-import
-org
-.
-mozilla
-.
-fenix
-.
-helpers
-.
 TestSetup
 import
 org
@@ -417,6 +405,9 @@ it
 changes
 .
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -424,7 +415,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -485,6 +476,9 @@ setToolbarPositionTest
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -492,7 +486,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -520,8 +514,11 @@ goBack
 }
 .
 goBack
+(
+composeTestRule
+)
 {
-verifyAddressBarPosition
+verifyToolbarPosition
 (
 bottomPosition
 =
@@ -533,7 +530,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -553,8 +550,11 @@ exitMenu
 )
 }
 homeScreen
+(
+composeTestRule
+)
 {
-verifyAddressBarPosition
+verifyToolbarPosition
 (
 bottomPosition
 =
@@ -635,6 +635,9 @@ backGestureNavigationEnabled
 false
 )
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -642,7 +645,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -664,6 +667,9 @@ exitMenu
 )
 }
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -772,6 +778,9 @@ pullToRefreshPreferenceTest
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -779,7 +788,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -835,6 +844,9 @@ verifyTheDefaultAppIconSettingTest
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -842,7 +854,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -890,6 +902,9 @@ verifyTheAppIconSelectionPageTest
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -897,7 +912,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -946,6 +961,9 @@ verifyTheChangeAppIconButtonTest
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -953,7 +971,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -995,6 +1013,9 @@ activityRule
 )
 }
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -1002,7 +1023,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .

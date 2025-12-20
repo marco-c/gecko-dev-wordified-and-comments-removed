@@ -209,7 +209,7 @@ order
 0
 )
 val
-activityTestRule
+composeTestRule
 =
 AndroidComposeTestRule
 (
@@ -291,6 +291,9 @@ testGPCinNormalBrowsing
 )
 {
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -316,7 +319,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -342,6 +345,9 @@ goBack
 }
 .
 goBackToBrowser
+(
+composeTestRule
+)
 {
 verifyPageContent
 (
@@ -386,6 +392,9 @@ testGPCinPrivateBrowsing
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -393,6 +402,9 @@ togglePrivateBrowsingMode
 (
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -418,7 +430,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -444,6 +456,9 @@ goBack
 }
 .
 goBackToBrowser
+(
+composeTestRule
+)
 {
 verifyPageContent
 (

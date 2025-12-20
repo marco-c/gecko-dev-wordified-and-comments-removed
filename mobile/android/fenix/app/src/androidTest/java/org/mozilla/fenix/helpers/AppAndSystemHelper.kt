@@ -179,6 +179,18 @@ AndroidComposeTestRule
 import
 androidx
 .
+compose
+.
+ui
+.
+test
+.
+junit4
+.
+ComposeTestRule
+import
+androidx
+.
 core
 .
 net
@@ -3014,6 +3026,9 @@ message
 fun
 assertNativeAppOpens
 (
+composeTestRule
+:
+ComposeTestRule
 appPackageName
 :
 String
@@ -3180,6 +3195,7 @@ URL
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 verifyUrl

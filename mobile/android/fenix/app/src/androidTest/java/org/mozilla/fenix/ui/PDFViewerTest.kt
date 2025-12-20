@@ -456,6 +456,9 @@ getGenericAsset
 3
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -468,6 +471,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 itemContainingText
 (
 "
@@ -479,6 +483,7 @@ file
 )
 clickPageObject
 (
+composeTestRule
 itemWithResIdAndText
 (
 "
@@ -569,6 +574,9 @@ pdfForm
 pdf
 "
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -581,6 +589,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 itemWithText
 (
 "
@@ -592,6 +601,7 @@ file
 )
 clickPageObject
 (
+composeTestRule
 itemWithResIdAndText
 (
 "
@@ -672,6 +682,9 @@ getGenericAsset
 3
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -684,8 +697,7 @@ url
 {
 clickPageObject
 (
-MatcherHelper
-.
+composeTestRule
 itemWithText
 (
 "
@@ -697,6 +709,7 @@ file
 )
 clickPageObject
 (
+composeTestRule
 itemWithResIdAndText
 (
 "
@@ -715,15 +728,9 @@ Cancel
 .
 openThreeDotMenu
 {
-verifyThreeDotMenuExists
-(
-)
-verifyFindInPageButton
-(
-)
 }
 .
-openFindInPage
+clickFindInPageButton
 {
 verifyFindInPageNextButton
 (
@@ -773,6 +780,9 @@ verifyFindInPageResult
 }
 .
 closeFindInPageWithCloseButton
+(
+composeTestRule
+)
 {
 verifyFindInPageBar
 (
@@ -784,7 +794,7 @@ openThreeDotMenu
 {
 }
 .
-openFindInPage
+clickFindInPageButton
 {
 enterFindInPageQuery
 (
@@ -803,6 +813,9 @@ verifyFindInPageResult
 }
 .
 closeFindInPageWithBackButton
+(
+composeTestRule
+)
 {
 verifyFindInPageBar
 (
@@ -842,6 +855,9 @@ addPDFToHomeScreenTest
 )
 {
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -856,8 +872,7 @@ toUri
 {
 clickPageObject
 (
-MatcherHelper
-.
+composeTestRule
 itemContainingText
 (
 pdfFileName
@@ -875,12 +890,12 @@ pdfFileContent
 .
 openThreeDotMenu
 {
-expandMenu
+clickTheMoreButton
 (
 )
 }
 .
-openAddToHomeScreen
+clickAddToHomeScreenButton
 {
 verifyShortcutTextFieldTitle
 (
@@ -964,6 +979,9 @@ pdfForm
 pdf
 "
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -976,6 +994,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 itemWithText
 (
 "
@@ -987,6 +1006,7 @@ file
 )
 clickPageObject
 (
+composeTestRule
 itemWithResIdAndText
 (
 "
@@ -1011,12 +1031,12 @@ verifyTabCounter
 .
 openThreeDotMenu
 {
-expandMenu
+clickTheMoreButton
 (
 )
 }
 .
-openAddToHomeScreen
+clickAddToHomeScreenButton
 {
 verifyShortcutTextFieldTitle
 (
@@ -1073,6 +1093,9 @@ OPEN
 )
 }
 browserScreen
+(
+composeTestRule
+)
 {
 selectToAlwaysOpenDownloadedFileWithApp
 (
@@ -1103,6 +1126,9 @@ verifyTabCounter
 )
 }
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1115,6 +1141,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 itemWithText
 (
 "
@@ -1126,6 +1153,7 @@ file
 )
 clickPageObject
 (
+composeTestRule
 itemWithResIdAndText
 (
 "
@@ -1176,6 +1204,9 @@ pdf
 )
 }
 browserScreen
+(
+composeTestRule
+)
 {
 verifyUrl
 (
@@ -1204,11 +1235,10 @@ openThreeDotMenu
 {
 }
 .
-openDownloadsManager
+clickDownloadsButton
 {
 clickDownloadedItem
 (
-composeTestRule
 "
 pdfForm
 .
@@ -1217,6 +1247,9 @@ pdf
 )
 }
 browserScreen
+(
+composeTestRule
+)
 {
 verifyTabCounter
 (

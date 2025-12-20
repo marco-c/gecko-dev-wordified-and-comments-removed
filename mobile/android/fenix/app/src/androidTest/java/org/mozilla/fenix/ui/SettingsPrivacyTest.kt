@@ -290,6 +290,9 @@ settingsPrivacyItemsTest
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -297,7 +300,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 verifySettingsToolbar
 (
@@ -421,6 +424,9 @@ verifyDataCollectionSettingsTest
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -428,7 +434,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -569,6 +575,9 @@ clearNotifications
 )
 }
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -576,6 +585,9 @@ togglePrivateBrowsingMode
 (
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -602,6 +614,9 @@ tabs
 }
 .
 closeNotificationTray
+(
+composeTestRule
+)
 {
 }
 .
@@ -609,7 +624,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 verifySettingsOptionSummary
 (
@@ -670,6 +685,9 @@ verifyTheDailyUsagePingCanBeEnabledAndDisabledTest
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -677,7 +695,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -735,6 +753,9 @@ verifyTheCrashReportsOptionsTest
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -742,7 +763,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .

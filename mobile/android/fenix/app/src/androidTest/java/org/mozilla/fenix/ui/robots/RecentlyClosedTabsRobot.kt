@@ -81,6 +81,18 @@ Log
 import
 androidx
 .
+compose
+.
+ui
+.
+test
+.
+junit4
+.
+ComposeTestRule
+import
+androidx
+.
 test
 .
 espresso
@@ -771,6 +783,9 @@ Transition
 fun
 clickRecentlyClosedItem
 (
+composeTestRule
+:
+ComposeTestRule
 title
 :
 String
@@ -935,6 +950,7 @@ idle
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -945,6 +961,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -1225,6 +1242,9 @@ Transition
 fun
 goBackToHistoryMenu
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
 HistoryRobot
@@ -1298,6 +1318,7 @@ HistoryRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 }

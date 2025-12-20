@@ -75,6 +75,18 @@ Log
 import
 androidx
 .
+compose
+.
+ui
+.
+test
+.
+junit4
+.
+ComposeTestRule
+import
+androidx
+.
 test
 .
 espresso
@@ -3015,6 +3027,9 @@ Transition
 fun
 goBackToHomeScreen
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
 HomeScreenRobot
@@ -3073,6 +3088,7 @@ button
 )
 HomeScreenRobot
 (
+composeTestRule
 )
 .
 interact
@@ -3083,6 +3099,7 @@ HomeScreenRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -3161,6 +3178,9 @@ Transition
 fun
 clickSnackBarViewButton
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
 HomeScreenRobot
@@ -3305,6 +3325,7 @@ button
 )
 HomeScreenRobot
 (
+composeTestRule
 )
 .
 interact
@@ -3315,6 +3336,7 @@ HomeScreenRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 }

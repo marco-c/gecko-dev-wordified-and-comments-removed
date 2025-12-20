@@ -65,6 +65,18 @@ fenix
 .
 ui
 import
+androidx
+.
+compose
+.
+ui
+.
+test
+.
+junit4
+.
+AndroidComposeTestRule
+import
 org
 .
 junit
@@ -314,8 +326,10 @@ get
 :
 Rule
 val
-activityTestRule
+composeTestRule
 =
+AndroidComposeTestRule
+(
 HomeActivityTestRule
 (
 shouldUseBottomToolbar
@@ -325,6 +339,12 @@ isOpenInAppBannerEnabled
 =
 false
 )
+)
+{
+it
+.
+activity
+}
 get
 :
 Rule
@@ -398,6 +418,9 @@ mockWebServer
 .
 htmlControlsFormAsset
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -410,6 +433,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -419,6 +443,7 @@ calendar
 )
 clickPageObject
 (
+composeTestRule
 itemContainingText
 (
 "
@@ -428,6 +453,7 @@ CANCEL
 )
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -440,6 +466,7 @@ verifyNoDateIsSelected
 )
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -449,6 +476,7 @@ calendar
 )
 clickPageObject
 (
+composeTestRule
 itemWithDescription
 (
 "
@@ -459,6 +487,7 @@ currentDay
 )
 clickPageObject
 (
+composeTestRule
 itemContainingText
 (
 "
@@ -468,6 +497,7 @@ Set
 )
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -518,6 +548,9 @@ mockWebServer
 .
 htmlControlsFormAsset
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -530,6 +563,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -539,6 +573,7 @@ clock
 )
 clickPageObject
 (
+composeTestRule
 itemContainingText
 (
 "
@@ -548,6 +583,7 @@ Cancel
 )
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -562,6 +598,7 @@ minute
 )
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -576,6 +613,7 @@ minute
 )
 clickPageObject
 (
+composeTestRule
 itemContainingText
 (
 "
@@ -585,6 +623,7 @@ OK
 )
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -637,6 +676,9 @@ mockWebServer
 .
 htmlControlsFormAsset
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -649,6 +691,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -658,6 +701,7 @@ colorPicker
 )
 clickPageObject
 (
+composeTestRule
 itemWithDescription
 (
 colorHexValue
@@ -665,6 +709,7 @@ colorHexValue
 )
 clickPageObject
 (
+composeTestRule
 itemContainingText
 (
 "
@@ -674,6 +719,7 @@ CANCEL
 )
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -687,6 +733,7 @@ colorHexValue
 )
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -696,6 +743,7 @@ colorPicker
 )
 clickPageObject
 (
+composeTestRule
 itemWithDescription
 (
 colorHexValue
@@ -703,6 +751,7 @@ colorHexValue
 )
 clickPageObject
 (
+composeTestRule
 itemContainingText
 (
 "
@@ -712,6 +761,7 @@ SET
 )
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -763,6 +813,9 @@ mockWebServer
 .
 htmlControlsFormAsset
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -775,6 +828,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -784,6 +838,7 @@ dropDown
 )
 clickPageObject
 (
+composeTestRule
 itemContainingText
 (
 "
@@ -794,6 +849,7 @@ National
 )
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -848,6 +904,9 @@ mockWebServer
 .
 externalLinksAsset
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -860,6 +919,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 itemContainingText
 (
 "
@@ -873,6 +933,7 @@ waitForAppWindowToBeUpdated
 )
 clickPageObject
 (
+composeTestRule
 itemWithResIdAndText
 (
 "
@@ -889,6 +950,7 @@ Open
 )
 assertNativeAppOpens
 (
+composeTestRule
 Constants
 .
 PackageName
@@ -936,6 +998,9 @@ mockWebServer
 .
 externalLinksAsset
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -948,6 +1013,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 itemContainingText
 (
 "
@@ -961,6 +1027,7 @@ waitForAppWindowToBeUpdated
 )
 clickPageObject
 (
+composeTestRule
 itemWithResIdAndText
 (
 "
@@ -977,6 +1044,7 @@ Open
 )
 assertNativeAppOpens
 (
+composeTestRule
 Constants
 .
 PackageName

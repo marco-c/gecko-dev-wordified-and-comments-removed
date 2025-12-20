@@ -607,6 +607,9 @@ getGenericAsset
 1
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -624,6 +627,7 @@ waitForIdle
 )
 longClickPageObject
 (
+composeTestRule
 itemWithText
 (
 "
@@ -747,6 +751,9 @@ getGenericAsset
 2
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -764,6 +771,7 @@ waitForIdle
 )
 longClickPageObject
 (
+composeTestRule
 itemWithText
 (
 "
@@ -882,6 +890,9 @@ getGenericAsset
 3
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -899,6 +910,7 @@ waitForIdle
 )
 longClickPageObject
 (
+composeTestRule
 itemWithText
 (
 "
@@ -974,6 +986,9 @@ getGenericAsset
 3
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -991,6 +1006,7 @@ waitForIdle
 )
 longClickPageObject
 (
+composeTestRule
 itemWithText
 (
 "
@@ -1075,6 +1091,9 @@ getGenericAsset
 1
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1092,6 +1111,7 @@ waitForIdle
 )
 longClickPageObject
 (
+composeTestRule
 itemWithText
 (
 "
@@ -1176,6 +1196,9 @@ mockWebServer
 .
 imageAsset
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1193,6 +1216,7 @@ waitForIdle
 )
 longClickPageObject
 (
+composeTestRule
 itemWithText
 (
 "
@@ -1290,6 +1314,9 @@ mockWebServer
 .
 imageAsset
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1307,6 +1334,7 @@ waitForIdle
 )
 longClickPageObject
 (
+composeTestRule
 itemWithText
 (
 "
@@ -1404,6 +1432,9 @@ mockWebServer
 .
 imageAsset
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1421,6 +1452,7 @@ waitForIdle
 )
 longClickPageObject
 (
+composeTestRule
 itemWithText
 (
 "
@@ -1443,6 +1475,9 @@ image
 )
 }
 downloadRobot
+(
+composeTestRule
+)
 {
 verifyDownloadCompleteSnackbar
 (
@@ -1524,6 +1559,9 @@ mockWebServer
 .
 imageAsset
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1541,6 +1579,7 @@ waitForIdle
 )
 longClickPageObject
 (
+composeTestRule
 itemWithText
 (
 "
@@ -1560,6 +1599,7 @@ dismissContentContextMenu
 )
 longClickPageObject
 (
+composeTestRule
 itemWithText
 (
 "
@@ -1578,6 +1618,7 @@ dismissContentContextMenu
 )
 longClickPageObject
 (
+composeTestRule
 itemWithText
 (
 "
@@ -1634,6 +1675,9 @@ getGenericAsset
 3
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1646,6 +1690,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 itemWithText
 (
 "
@@ -1660,6 +1705,7 @@ waitForPageToLoad
 )
 clickPageObject
 (
+composeTestRule
 itemWithResIdAndText
 (
 "
@@ -1676,6 +1722,7 @@ Cancel
 )
 longClickPageObject
 (
+composeTestRule
 itemWithText
 (
 "
@@ -1798,6 +1845,9 @@ mockWebServer
 .
 externalLinksAsset
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1810,6 +1860,7 @@ url
 {
 longClickPageObject
 (
+composeTestRule
 itemContainingText
 (
 "

@@ -81,6 +81,18 @@ Log
 import
 androidx
 .
+compose
+.
+ui
+.
+test
+.
+junit4
+.
+ComposeTestRule
+import
+androidx
+.
 test
 .
 espresso
@@ -1542,6 +1554,13 @@ searchTerm
 }
 class
 Transition
+(
+private
+val
+composeTestRule
+:
+ComposeTestRule
+)
 {
 fun
 goBackToHomeScreen
@@ -1607,6 +1626,7 @@ button
 )
 HomeScreenRobot
 (
+composeTestRule
 )
 .
 interact
@@ -1617,6 +1637,7 @@ HomeScreenRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -1685,6 +1706,7 @@ button
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -1695,6 +1717,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -1782,6 +1805,7 @@ url
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -1792,6 +1816,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -1881,6 +1906,7 @@ url
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -1891,6 +1917,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -2094,6 +2121,7 @@ button
 )
 SearchRobot
 (
+composeTestRule
 )
 .
 interact
@@ -2104,6 +2132,7 @@ SearchRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 }
@@ -2111,6 +2140,9 @@ Transition
 fun
 historyMenu
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
 HistoryRobot
@@ -2138,6 +2170,7 @@ HistoryRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 private

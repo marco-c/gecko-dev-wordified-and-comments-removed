@@ -120,6 +120,13 @@ BuildConfig
 DEEP_LINK_SCHEME
 class
 DeepLinkRobot
+(
+private
+val
+composeTestRule
+:
+ComposeTestRule
+)
 {
 private
 fun
@@ -267,6 +274,7 @@ deepLink
 return
 browserScreen
 (
+composeTestRule
 interact
 )
 }
@@ -295,6 +303,7 @@ run
 {
 homeScreen
 (
+composeTestRule
 interact
 )
 }
@@ -355,6 +364,7 @@ run
 {
 historyMenu
 (
+composeTestRule
 interact
 )
 }
@@ -383,6 +393,7 @@ run
 {
 homeScreen
 (
+composeTestRule
 interact
 )
 }

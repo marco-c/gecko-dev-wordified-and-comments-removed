@@ -141,13 +141,6 @@ Boolean
 true
 private
 val
-isMenuRedesignEnabled
-:
-Boolean
-=
-false
-private
-val
 isMenuRedesignCFREnabled
 :
 Boolean
@@ -190,9 +183,6 @@ HomeActivityIntentTestRule
 skipOnboarding
 =
 skipOnboarding
-isMenuRedesignEnabled
-=
-isMenuRedesignEnabled
 isMenuRedesignCFREnabled
 =
 isMenuRedesignCFREnabled

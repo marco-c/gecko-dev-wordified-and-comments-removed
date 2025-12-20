@@ -424,6 +424,13 @@ ext
 waitNotNull
 class
 CollectionRobot
+(
+private
+val
+composeTestRule
+:
+ComposeTestRule
+)
 {
 fun
 verifySelectCollectionScreen
@@ -913,9 +920,6 @@ class
 fun
 verifyTabSavedInCollection
 (
-composeTestRule
-:
-ComposeTestRule
 title
 :
 String
@@ -1152,9 +1156,6 @@ class
 fun
 verifyCollectionTabUrl
 (
-composeTestRule
-:
-ComposeTestRule
 isDisplayed
 :
 Boolean
@@ -1392,9 +1393,6 @@ displayed
 fun
 verifyShareCollectionButtonIsVisible
 (
-composeTestRule
-:
-ComposeTestRule
 visible
 :
 Boolean
@@ -1514,9 +1512,6 @@ verifyCollectionMenuIsVisible
 visible
 :
 Boolean
-rule
-:
-ComposeTestRule
 )
 {
 if
@@ -1544,7 +1539,7 @@ exists
 )
 collectionThreeDotButton
 (
-rule
+composeTestRule
 )
 .
 assertExists
@@ -1587,7 +1582,7 @@ displayed
 )
 collectionThreeDotButton
 (
-rule
+composeTestRule
 )
 .
 assertIsDisplayed
@@ -1635,7 +1630,7 @@ exist
 )
 collectionThreeDotButton
 (
-rule
+composeTestRule
 )
 .
 assertDoesNotExist
@@ -1664,9 +1659,6 @@ exist
 fun
 clickCollectionThreeDotButton
 (
-rule
-:
-ComposeTestRule
 )
 {
 Log
@@ -1689,7 +1681,7 @@ displayed
 )
 collectionThreeDotButton
 (
-rule
+composeTestRule
 )
 .
 assertIsDisplayed
@@ -1729,7 +1721,7 @@ button
 )
 collectionThreeDotButton
 (
-rule
+composeTestRule
 )
 .
 performClick
@@ -1753,9 +1745,6 @@ button
 fun
 selectOpenTabs
 (
-rule
-:
-ComposeTestRule
 )
 {
 Log
@@ -1781,7 +1770,7 @@ is
 displayed
 "
 )
-rule
+composeTestRule
 .
 onNode
 (
@@ -1839,7 +1828,7 @@ menu
 option
 "
 )
-rule
+composeTestRule
 .
 onNode
 (
@@ -1878,9 +1867,6 @@ option
 fun
 selectRenameCollection
 (
-rule
-:
-ComposeTestRule
 )
 {
 Log
@@ -1906,7 +1892,7 @@ is
 displayed
 "
 )
-rule
+composeTestRule
 .
 onNode
 (
@@ -1964,7 +1950,7 @@ menu
 option
 "
 )
-rule
+composeTestRule
 .
 onNode
 (
@@ -2060,9 +2046,6 @@ class
 fun
 selectAddTabToCollection
 (
-rule
-:
-ComposeTestRule
 )
 {
 Log
@@ -2088,7 +2071,7 @@ is
 displayed
 "
 )
-rule
+composeTestRule
 .
 onNode
 (
@@ -2146,7 +2129,7 @@ menu
 option
 "
 )
-rule
+composeTestRule
 .
 onNode
 (
@@ -2205,7 +2188,7 @@ not
 exist
 "
 )
-rule
+composeTestRule
 .
 waitUntilDoesNotExist
 (
@@ -2252,9 +2235,6 @@ class
 fun
 selectDeleteCollection
 (
-rule
-:
-ComposeTestRule
 )
 {
 Log
@@ -2280,7 +2260,7 @@ is
 displayed
 "
 )
-rule
+composeTestRule
 .
 onNode
 (
@@ -2338,7 +2318,7 @@ menu
 option
 "
 )
-rule
+composeTestRule
 .
 onNode
 (
@@ -2397,7 +2377,7 @@ not
 exist
 "
 )
-rule
+composeTestRule
 .
 waitUntilDoesNotExist
 (
@@ -2722,13 +2702,17 @@ button
 }
 class
 Transition
+(
+private
+val
+composeTestRule
+:
+ComposeTestRule
+)
 {
 fun
 collapseCollection
 (
-composeTestRule
-:
-ComposeTestRule
 title
 :
 String
@@ -2836,6 +2820,7 @@ idle
 )
 HomeScreenRobot
 (
+composeTestRule
 )
 .
 interact
@@ -2846,6 +2831,7 @@ HomeScreenRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 /
@@ -3058,6 +3044,7 @@ createCollectionWrapper
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -3068,6 +3055,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -3188,6 +3176,7 @@ title
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -3198,6 +3187,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 OptIn
@@ -3210,9 +3200,6 @@ class
 fun
 clickShareCollectionButton
 (
-composeTestRule
-:
-ComposeTestRule
 interact
 :
 ShareOverlayRobot
@@ -3341,6 +3328,9 @@ Transition
 fun
 collectionRobot
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
 CollectionRobot
@@ -3358,6 +3348,7 @@ Transition
 {
 CollectionRobot
 (
+composeTestRule
 )
 .
 interact
@@ -3368,6 +3359,7 @@ CollectionRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 private

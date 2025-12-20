@@ -499,6 +499,9 @@ isRedesignedToolbarEnabled
 )
 {
 browserScreen
+(
+composeTestRule
+)
 {
 refreshPageFromRedesignedToolbar
 (
@@ -507,7 +510,10 @@ refreshPageFromRedesignedToolbar
 }
 else
 {
-navigationToolbar
+browserScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -515,7 +521,7 @@ openThreeDotMenu
 {
 }
 .
-refreshPage
+clickRefreshButton
 {
 }
 }
@@ -2744,6 +2750,7 @@ sheet
 }
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -2754,6 +2761,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -2825,6 +2833,7 @@ button
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -2835,6 +2844,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -2918,6 +2928,7 @@ button
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -2928,6 +2939,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -3106,6 +3118,7 @@ e
 }
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -3116,6 +3129,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun

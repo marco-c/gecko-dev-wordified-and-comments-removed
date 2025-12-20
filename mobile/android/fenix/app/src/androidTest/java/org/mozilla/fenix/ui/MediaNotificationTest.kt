@@ -429,6 +429,9 @@ mockWebServer
 .
 videoPageAsset
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -446,6 +449,7 @@ waitForIdle
 )
 clickPageObject
 (
+composeTestRule
 MatcherHelper
 .
 itemWithText
@@ -493,6 +497,9 @@ pressBack
 (
 )
 browserScreen
+(
+composeTestRule
+)
 {
 assertPlaybackState
 (
@@ -582,6 +589,9 @@ mockWebServer
 .
 audioPageAsset
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -599,6 +609,7 @@ waitForIdle
 )
 clickPageObject
 (
+composeTestRule
 MatcherHelper
 .
 itemWithText
@@ -646,6 +657,9 @@ pressBack
 (
 )
 browserScreen
+(
+composeTestRule
+)
 {
 assertPlaybackState
 (
@@ -733,13 +747,13 @@ mockWebServer
 .
 audioPageAsset
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
 openTabDrawer
-(
-composeTestRule
-)
 {
 }
 .
@@ -769,6 +783,7 @@ waitForIdle
 )
 clickPageObject
 (
+composeTestRule
 MatcherHelper
 .
 itemWithText
@@ -820,6 +835,9 @@ pressBack
 (
 )
 browserScreen
+(
+composeTestRule
+)
 {
 assertPlaybackState
 (
@@ -889,6 +907,9 @@ pressBack
 (
 )
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .

@@ -2410,6 +2410,7 @@ bookmarkTitle
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -2420,6 +2421,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 OptIn
@@ -2548,6 +2550,7 @@ button
 )
 SearchRobot
 (
+composeTestRule
 )
 .
 interact
@@ -2558,6 +2561,7 @@ SearchRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -2627,6 +2631,7 @@ button
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -2637,6 +2642,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -2706,6 +2712,7 @@ button
 )
 HomeScreenRobot
 (
+composeTestRule
 )
 .
 interact
@@ -2716,6 +2723,7 @@ HomeScreenRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 }

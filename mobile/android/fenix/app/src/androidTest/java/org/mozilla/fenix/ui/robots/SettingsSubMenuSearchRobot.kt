@@ -5912,6 +5912,9 @@ Transition
 fun
 clickCustomSearchStringLearnMoreLink
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
 BrowserRobot
@@ -5990,6 +5993,7 @@ link
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -6000,11 +6004,15 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
 clickCustomSearchSuggestionsLearnMoreLink
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
 BrowserRobot
@@ -6083,6 +6091,7 @@ link
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -6093,6 +6102,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 }

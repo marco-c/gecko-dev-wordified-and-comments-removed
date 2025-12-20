@@ -75,6 +75,18 @@ Log
 import
 androidx
 .
+compose
+.
+ui
+.
+test
+.
+junit4
+.
+ComposeTestRule
+import
+androidx
+.
 test
 .
 espresso
@@ -136,14 +148,6 @@ test
 uiautomator
 .
 UiSelector
-import
-org
-.
-mozilla
-.
-fenix
-.
-R
 import
 org
 .
@@ -276,6 +280,13 @@ as
 sitepermissionsR
 class
 SitePermissionsRobot
+(
+private
+val
+composeTestRule
+:
+ComposeTestRule
+)
 {
 fun
 verifyMicrophonePermissionPrompt
@@ -350,6 +361,9 @@ methods
 "
 )
 browserScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -357,7 +371,7 @@ openThreeDotMenu
 {
 }
 .
-refreshPage
+clickRefreshButton
 {
 }
 .
@@ -478,6 +492,9 @@ methods
 "
 )
 browserScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -485,7 +502,7 @@ openThreeDotMenu
 {
 }
 .
-refreshPage
+clickRefreshButton
 {
 }
 .
@@ -656,6 +673,9 @@ methods
 "
 )
 browserScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -663,7 +683,7 @@ openThreeDotMenu
 {
 }
 .
-refreshPage
+clickRefreshButton
 {
 }
 .
@@ -858,6 +878,9 @@ methods
 "
 )
 browserScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -865,7 +888,7 @@ openThreeDotMenu
 {
 }
 .
-refreshPage
+clickRefreshButton
 {
 }
 .
@@ -1037,6 +1060,9 @@ methods
 "
 )
 browserScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -1044,7 +1070,7 @@ openThreeDotMenu
 {
 }
 .
-refreshPage
+clickRefreshButton
 {
 }
 .
@@ -1169,6 +1195,9 @@ methods
 "
 )
 browserScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -1176,7 +1205,7 @@ openThreeDotMenu
 {
 }
 .
-refreshPage
+clickRefreshButton
 {
 }
 .
@@ -1847,6 +1876,13 @@ box
 }
 class
 Transition
+(
+private
+val
+composeTestRule
+:
+ComposeTestRule
+)
 {
 fun
 clickLearnMore
@@ -1957,6 +1993,7 @@ link
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -1967,6 +2004,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -2521,6 +2559,7 @@ gone
 }
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -2531,6 +2570,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 }

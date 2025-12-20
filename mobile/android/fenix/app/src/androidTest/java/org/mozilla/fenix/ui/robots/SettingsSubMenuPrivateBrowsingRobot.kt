@@ -75,6 +75,18 @@ Log
 import
 androidx
 .
+compose
+.
+ui
+.
+test
+.
+junit4
+.
+ComposeTestRule
+import
+androidx
+.
 test
 .
 espresso
@@ -1430,6 +1442,9 @@ Transition
 fun
 openPrivateBrowsingShortcut
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
 SearchRobot
@@ -1496,6 +1511,7 @@ icon
 )
 SearchRobot
 (
+composeTestRule
 )
 .
 interact
@@ -1506,6 +1522,7 @@ SearchRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 }

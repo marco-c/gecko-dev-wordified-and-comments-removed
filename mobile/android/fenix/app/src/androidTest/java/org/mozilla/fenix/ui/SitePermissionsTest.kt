@@ -394,11 +394,6 @@ AudioManager
 get
 :
 Rule
-(
-order
-=
-0
-)
 val
 composeTestRule
 =
@@ -577,6 +572,9 @@ isNotEmpty
 )
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -694,6 +692,9 @@ isNotEmpty
 )
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -746,7 +747,7 @@ openThreeDotMenu
 {
 }
 .
-refreshPage
+clickRefreshButton
 {
 waitForPageToLoad
 (
@@ -760,6 +761,9 @@ clickStartAudioVideoButton
 {
 }
 browserScreen
+(
+composeTestRule
+)
 {
 verifyPageContent
 (
@@ -825,6 +829,9 @@ isNotEmpty
 )
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -876,7 +883,7 @@ openThreeDotMenu
 {
 }
 .
-refreshPage
+clickRefreshButton
 {
 waitForPageToLoad
 (
@@ -890,6 +897,9 @@ clickStartAudioVideoButton
 {
 }
 browserScreen
+(
+composeTestRule
+)
 {
 verifyPageContent
 (
@@ -944,6 +954,9 @@ isNotEmpty
 )
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1047,6 +1060,9 @@ isNotEmpty
 )
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1097,7 +1113,7 @@ openThreeDotMenu
 {
 }
 .
-refreshPage
+clickRefreshButton
 {
 waitForPageToLoad
 (
@@ -1111,6 +1127,9 @@ clickStartMicrophoneButton
 {
 }
 browserScreen
+(
+composeTestRule
+)
 {
 verifyPageContent
 (
@@ -1164,6 +1183,9 @@ isNotEmpty
 )
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1213,7 +1235,7 @@ openThreeDotMenu
 {
 }
 .
-refreshPage
+clickRefreshButton
 {
 waitForPageToLoad
 (
@@ -1227,6 +1249,9 @@ clickStartMicrophoneButton
 {
 }
 browserScreen
+(
+composeTestRule
+)
 {
 verifyPageContent
 (
@@ -1279,6 +1304,9 @@ isNotEmpty
 )
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1382,6 +1410,9 @@ isNotEmpty
 )
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1432,7 +1463,7 @@ openThreeDotMenu
 {
 }
 .
-refreshPage
+clickRefreshButton
 {
 waitForPageToLoad
 (
@@ -1446,6 +1477,9 @@ clickStartCameraButton
 {
 }
 browserScreen
+(
+composeTestRule
+)
 {
 verifyPageContent
 (
@@ -1499,6 +1533,9 @@ isNotEmpty
 )
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1548,7 +1585,7 @@ openThreeDotMenu
 {
 }
 .
-refreshPage
+clickRefreshButton
 {
 waitForPageToLoad
 (
@@ -1562,6 +1599,9 @@ clickStartCameraButton
 {
 }
 browserScreen
+(
+composeTestRule
+)
 {
 verifyPageContent
 (
@@ -1605,6 +1645,9 @@ blockNotificationsPermissionTest
 )
 {
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1646,7 +1689,7 @@ openThreeDotMenu
 {
 }
 .
-refreshPage
+clickRefreshButton
 {
 waitForPageToLoad
 (
@@ -1697,6 +1740,9 @@ allowNotificationsPermissionTest
 )
 {
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1771,6 +1817,9 @@ setMockLocation
 (
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1852,6 +1901,9 @@ blockLocationPermissionsTest
 )
 {
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1897,6 +1949,9 @@ doNotAskAgainIsHiddenForLocationPermissionInPrivateMode
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -1904,6 +1959,9 @@ togglePrivateBrowsingMode
 (
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1990,6 +2048,9 @@ currentHost
 localhost
 "
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -2004,8 +2065,10 @@ waitForPageToLoad
 (
 )
 }
-.
-openNavigationToolbar
+navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .

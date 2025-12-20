@@ -261,13 +261,17 @@ feature
 /
 class
 AddToHomeScreenRobot
+(
+private
+val
+composeTestRule
+:
+ComposeTestRule
+)
 {
 fun
 verifyAddPrivateBrowsingShortcutButton
 (
-composeTestRule
-:
-ComposeTestRule
 )
 {
 Log
@@ -342,9 +346,6 @@ displayed
 fun
 verifyNoThanksPrivateBrowsingShortcutButton
 (
-composeTestRule
-:
-ComposeTestRule
 )
 {
 Log
@@ -415,9 +416,6 @@ displayed
 fun
 clickAddPrivateBrowsingShortcutButton
 (
-composeTestRule
-:
-ComposeTestRule
 )
 {
 Log
@@ -725,6 +723,13 @@ shortcutTitle
 )
 class
 Transition
+(
+private
+val
+composeTestRule
+:
+ComposeTestRule
+)
 {
 fun
 openHomeScreenShortcut
@@ -877,6 +882,7 @@ window
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -887,6 +893,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -1090,6 +1097,7 @@ window
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -1100,6 +1108,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 }
@@ -1107,6 +1116,9 @@ Transition
 fun
 addToHomeScreen
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
 AddToHomeScreenRobot
@@ -1124,6 +1136,7 @@ Transition
 {
 AddToHomeScreenRobot
 (
+composeTestRule
 )
 .
 interact
@@ -1134,6 +1147,7 @@ AddToHomeScreenRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 private

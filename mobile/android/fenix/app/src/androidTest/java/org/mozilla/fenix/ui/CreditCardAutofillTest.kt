@@ -77,6 +77,16 @@ junit4
 .
 AndroidComposeTestRule
 import
+androidx
+.
+test
+.
+espresso
+.
+Espresso
+.
+closeSoftKeyboard
+import
 org
 .
 junit
@@ -202,6 +212,18 @@ helpers
 TestHelper
 .
 packageName
+import
+org
+.
+mozilla
+.
+fenix
+.
+helpers
+.
+TestHelper
+.
+waitForAppWindowToBeUpdated
 import
 org
 .
@@ -480,6 +502,9 @@ mockWebServer
 .
 creditCardFormAsset
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -487,7 +512,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -544,9 +569,15 @@ goBack
 }
 .
 goBack
+(
+composeTestRule
+)
 {
 }
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -562,6 +593,7 @@ clickCreditCardNumberTextBox
 )
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -575,6 +607,7 @@ select_credit_card_header
 )
 clickPageObject
 (
+composeTestRule
 itemWithResIdContainingText
 (
 "
@@ -630,6 +663,9 @@ deleteSavedCreditCardUsingToolbarButtonTest
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -637,7 +673,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -726,6 +762,9 @@ deleteSavedCreditCardUsingMenuButtonTest
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -733,7 +772,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -821,6 +860,9 @@ verifyCreditCardsSectionTest
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -828,7 +870,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -915,6 +957,9 @@ mockWebServer
 .
 creditCardFormAsset
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -922,7 +967,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -954,6 +999,9 @@ exitMenu
 (
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -969,6 +1017,7 @@ clickCreditCardNumberTextBox
 )
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -983,13 +1032,13 @@ select_credit_card_header
 }
 .
 clickManageCreditCardsButton
-(
-composeTestRule
-)
 {
 }
 .
 goBackToBrowser
+(
+composeTestRule
+)
 {
 verifySelectCreditCardPromptExists
 (
@@ -1035,6 +1084,9 @@ mockWebServer
 .
 creditCardFormAsset
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -1042,7 +1094,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -1079,6 +1131,9 @@ exitMenu
 (
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1096,13 +1151,19 @@ verifySelectCreditCardPromptExists
 (
 true
 )
+closeSoftKeyboard
+(
+)
+waitForAppWindowToBeUpdated
+(
+)
 }
 .
 openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -1124,6 +1185,9 @@ exitMenu
 (
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1175,6 +1239,9 @@ verifyEditCardsViewTest
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -1182,7 +1249,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -1300,6 +1367,9 @@ mockWebServer
 .
 creditCardFormAsset
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -1307,7 +1377,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -1377,6 +1447,9 @@ exitMenu
 (
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1392,6 +1465,7 @@ clickCreditCardNumberTextBox
 )
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -1405,6 +1479,7 @@ select_credit_card_header
 )
 clickPageObject
 (
+composeTestRule
 itemWithResIdContainingText
 (
 "
@@ -1485,6 +1560,9 @@ verifyCreditCardCannotBeSavedWithoutCardNumberOrNameTest
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -1492,7 +1570,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -1613,6 +1691,9 @@ mockWebServer
 .
 creditCardFormAsset
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -1620,7 +1701,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -1699,6 +1780,9 @@ exitMenu
 (
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1714,6 +1798,7 @@ clickCreditCardNumberTextBox
 )
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -1736,6 +1821,7 @@ MOCK_LAST_CARD_DIGITS
 )
 clickPageObject
 (
+composeTestRule
 itemWithResIdContainingText
 (
 "
@@ -1796,6 +1882,9 @@ mockWebServer
 .
 creditCardFormAsset
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1833,7 +1922,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -1887,6 +1976,9 @@ mockWebServer
 .
 creditCardFormAsset
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1911,6 +2003,7 @@ MOCK_EXPIRATION_MONTH_AND_YEAR
 )
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -1934,7 +2027,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -2003,6 +2096,9 @@ mockWebServer
 .
 creditCardFormAsset
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -2010,7 +2106,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -2066,6 +2162,9 @@ exitMenu
 (
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -2081,6 +2180,7 @@ clickCreditCardNumberTextBox
 )
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -2094,6 +2194,7 @@ select_credit_card_header
 )
 clickPageObject
 (
+composeTestRule
 itemWithResIdContainingText
 (
 "
@@ -2136,7 +2237,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -2202,6 +2303,9 @@ mockWebServer
 .
 creditCardFormAsset
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -2209,7 +2313,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -2265,6 +2369,9 @@ exitMenu
 (
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -2280,6 +2387,7 @@ clickCreditCardNumberTextBox
 )
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -2293,6 +2401,7 @@ select_credit_card_header
 )
 clickPageObject
 (
+composeTestRule
 itemWithResIdContainingText
 (
 "
@@ -2324,6 +2433,7 @@ clickCreditCardFormSubmitButton
 )
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -2345,7 +2455,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -2405,6 +2515,9 @@ verifyCreditCardRedirectionsToAutofillSectionAfterInterruptionTest
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -2412,7 +2525,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .

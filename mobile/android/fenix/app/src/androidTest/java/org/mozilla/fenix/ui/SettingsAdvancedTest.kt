@@ -67,6 +67,18 @@ ui
 import
 androidx
 .
+compose
+.
+ui
+.
+test
+.
+junit4
+.
+AndroidComposeTestRule
+import
+androidx
+.
 core
 .
 net
@@ -352,13 +364,21 @@ get
 :
 Rule
 val
-activityIntentTestRule
+composeTestRule
 =
+AndroidComposeTestRule
+(
 HomeActivityIntentTestRule
 .
 withDefaultSettingsOverrides
 (
 )
+)
+{
+it
+.
+activity
+}
 get
 :
 Rule
@@ -444,6 +464,9 @@ verifyAdvancedSettingsSectionItemsTest
 /
 ADVANCED
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -451,7 +474,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 verifySettingsToolbar
 (
@@ -554,7 +577,9 @@ askBeforeOpeningOpenLinkInAppTest
 (
 )
 {
-activityIntentTestRule
+composeTestRule
+.
+activityRule
 .
 applySettingsExceptions
 {
@@ -570,6 +595,9 @@ exitMenu
 (
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -582,6 +610,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 playStoreLink
 )
 verifyUrl
@@ -629,7 +658,9 @@ privateBrowsingAskBeforeOpeningOpenLinkInAppTest
 (
 )
 {
-activityIntentTestRule
+composeTestRule
+.
+activityRule
 .
 applySettingsExceptions
 {
@@ -642,6 +673,9 @@ OpenLinksInApp
 ASK
 }
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -654,6 +688,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 playStoreLink
 )
 verifyUrl
@@ -702,7 +737,9 @@ askBeforeOpeningLinkInAppCancelTest
 (
 )
 {
-activityIntentTestRule
+composeTestRule
+.
+activityRule
 .
 applySettingsExceptions
 {
@@ -715,6 +752,9 @@ OpenLinksInApp
 ASK
 }
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -727,6 +767,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 youTubeSchemaLink
 )
 verifyOpenLinkInAnotherAppPrompt
@@ -739,6 +780,7 @@ YouTube
 )
 clickPageObject
 (
+composeTestRule
 itemWithResIdAndText
 (
 "
@@ -805,7 +847,9 @@ askBeforeOpeningLinkInAppOpenTest
 (
 )
 {
-activityIntentTestRule
+composeTestRule
+.
+activityRule
 .
 applySettingsExceptions
 {
@@ -818,6 +862,9 @@ OpenLinksInApp
 ASK
 }
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -830,6 +877,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 youTubeSchemaLink
 )
 verifyOpenLinkInAnotherAppPrompt
@@ -845,6 +893,7 @@ waitForAppWindowToBeUpdated
 )
 clickPageObject
 (
+composeTestRule
 itemWithResIdAndText
 (
 "
@@ -919,7 +968,9 @@ settings
 shouldShowCookieBannersCFR
 =
 false
-activityIntentTestRule
+composeTestRule
+.
+activityRule
 .
 applySettingsExceptions
 {
@@ -932,6 +983,9 @@ OpenLinksInApp
 ASK
 }
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -939,6 +993,9 @@ togglePrivateBrowsingMode
 (
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -951,6 +1008,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 youTubeSchemaLink
 )
 verifyPrivateBrowsingOpenLinkInAnotherAppPrompt
@@ -971,6 +1029,7 @@ youTubeSchemaLink
 )
 clickPageObject
 (
+composeTestRule
 itemWithResIdAndText
 (
 "
@@ -1036,7 +1095,9 @@ privateBrowsingAskBeforeOpeningLinkInAppOpenTest
 (
 )
 {
-activityIntentTestRule
+composeTestRule
+.
+activityRule
 .
 applySettingsExceptions
 {
@@ -1049,6 +1110,9 @@ OpenLinksInApp
 ASK
 }
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -1059,6 +1123,9 @@ exitMenu
 (
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1071,6 +1138,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 youTubeSchemaLink
 )
 verifyPrivateBrowsingOpenLinkInAnotherAppPrompt
@@ -1094,6 +1162,7 @@ waitForAppWindowToBeUpdated
 )
 clickPageObject
 (
+composeTestRule
 itemWithResIdAndText
 (
 "
@@ -1157,7 +1226,9 @@ alwaysOpenLinkInAppTest
 (
 )
 {
-activityIntentTestRule
+composeTestRule
+.
+activityRule
 .
 applySettingsExceptions
 {
@@ -1170,6 +1241,9 @@ OpenLinksInApp
 ALWAYS
 }
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1182,6 +1256,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 youTubeSchemaLink
 )
 mDevice
@@ -1225,7 +1300,9 @@ dismissOpenLinksInAppCFRTest
 (
 )
 {
-activityIntentTestRule
+composeTestRule
+.
+activityRule
 .
 applySettingsExceptions
 {
@@ -1243,6 +1320,9 @@ OpenLinksInApp
 NEVER
 }
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1316,7 +1396,9 @@ goToSettingsFromOpenLinksInAppCFRTest
 (
 )
 {
-activityIntentTestRule
+composeTestRule
+.
+activityRule
 .
 applySettingsExceptions
 {
@@ -1334,6 +1416,9 @@ OpenLinksInApp
 NEVER
 }
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .

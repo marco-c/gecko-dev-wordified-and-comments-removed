@@ -286,7 +286,7 @@ get
 :
 Rule
 val
-activityTestRule
+composeTestRule
 =
 AndroidComposeTestRule
 (
@@ -388,11 +388,10 @@ getGenericAsset
 (
 1
 )
-homeScreen
-{
-}
-.
-openNavigationToolbar
+navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -412,7 +411,7 @@ waitForIdle
 .
 openTabDrawer
 (
-activityTestRule
+composeTestRule
 )
 {
 closeTab
@@ -420,6 +419,9 @@ closeTab
 )
 }
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -427,7 +429,7 @@ openThreeDotMenu
 {
 }
 .
-openHistory
+clickHistoryButton
 {
 }
 .
@@ -440,7 +442,7 @@ registerAndCleanupIdlingResources
 (
 RecyclerViewIdlingResource
 (
-activityTestRule
+composeTestRule
 .
 activity
 .
@@ -476,6 +478,7 @@ url
 .
 clickRecentlyClosedItem
 (
+composeTestRule
 "
 Test_Page_1
 "
@@ -578,11 +581,10 @@ getGenericAsset
 (
 1
 )
-homeScreen
-{
-}
-.
-openNavigationToolbar
+navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -602,7 +604,7 @@ waitForIdle
 .
 openTabDrawer
 (
-activityTestRule
+composeTestRule
 )
 {
 closeTab
@@ -610,6 +612,9 @@ closeTab
 )
 }
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -617,7 +622,7 @@ openThreeDotMenu
 {
 }
 .
-openHistory
+clickHistoryButton
 {
 }
 .
@@ -630,7 +635,7 @@ registerAndCleanupIdlingResources
 (
 RecyclerViewIdlingResource
 (
-activityTestRule
+composeTestRule
 .
 activity
 .
@@ -732,6 +737,9 @@ getGenericAsset
 2
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -749,7 +757,7 @@ waitForPageToLoad
 .
 openTabDrawer
 (
-activityTestRule
+composeTestRule
 )
 {
 }
@@ -776,7 +784,7 @@ waitForPageToLoad
 .
 openTabDrawer
 (
-activityTestRule
+composeTestRule
 )
 {
 }
@@ -793,7 +801,7 @@ openThreeDotMenu
 {
 }
 .
-openHistory
+clickHistoryButton
 {
 }
 .
@@ -816,7 +824,7 @@ url
 )
 openActionBarOverflowOrOptionsMenu
 (
-activityTestRule
+composeTestRule
 .
 activity
 )
@@ -824,7 +832,7 @@ activity
 .
 clickOpenInNewTab
 (
-activityTestRule
+composeTestRule
 )
 {
 /
@@ -856,6 +864,9 @@ is
 fixed
 .
 browserScreen
+(
+composeTestRule
+)
 {
 verifyPageContent
 (
@@ -877,7 +888,7 @@ toString
 .
 openTabDrawer
 (
-activityTestRule
+composeTestRule
 )
 {
 verifyNormalBrowsingButtonIsSelected
@@ -970,6 +981,9 @@ getGenericAsset
 2
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -987,7 +1001,7 @@ waitForPageToLoad
 .
 openTabDrawer
 (
-activityTestRule
+composeTestRule
 )
 {
 }
@@ -1014,7 +1028,7 @@ waitForPageToLoad
 .
 openTabDrawer
 (
-activityTestRule
+composeTestRule
 )
 {
 }
@@ -1031,7 +1045,7 @@ openThreeDotMenu
 {
 }
 .
-openHistory
+clickHistoryButton
 {
 }
 .
@@ -1054,7 +1068,7 @@ url
 )
 openActionBarOverflowOrOptionsMenu
 (
-activityTestRule
+composeTestRule
 .
 activity
 )
@@ -1062,7 +1076,7 @@ activity
 .
 clickOpenInPrivateTab
 (
-activityTestRule
+composeTestRule
 )
 {
 /
@@ -1094,6 +1108,9 @@ is
 fixed
 .
 browserScreen
+(
+composeTestRule
+)
 {
 verifyPageContent
 (
@@ -1115,7 +1132,7 @@ toString
 .
 openTabDrawer
 (
-activityTestRule
+composeTestRule
 )
 {
 verifyPrivateBrowsingButtonIsSelected
@@ -1259,6 +1276,9 @@ url
 }
 "
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1276,7 +1296,7 @@ waitForPageToLoad
 .
 openTabDrawer
 (
-activityTestRule
+composeTestRule
 )
 {
 }
@@ -1303,7 +1323,7 @@ waitForPageToLoad
 .
 openTabDrawer
 (
-activityTestRule
+composeTestRule
 )
 {
 }
@@ -1320,7 +1340,7 @@ openThreeDotMenu
 {
 }
 .
-openHistory
+clickHistoryButton
 {
 }
 .
@@ -1473,6 +1493,9 @@ getGenericAsset
 2
 )
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -1480,6 +1503,9 @@ togglePrivateBrowsingMode
 (
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1497,7 +1523,7 @@ waitForPageToLoad
 .
 openTabDrawer
 (
-activityTestRule
+composeTestRule
 )
 {
 }
@@ -1524,7 +1550,7 @@ waitForPageToLoad
 .
 openTabDrawer
 (
-activityTestRule
+composeTestRule
 )
 {
 }
@@ -1541,7 +1567,7 @@ openThreeDotMenu
 {
 }
 .
-openHistory
+clickHistoryButton
 {
 }
 .
@@ -1652,6 +1678,9 @@ getGenericAsset
 2
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1669,7 +1698,7 @@ waitForPageToLoad
 .
 openTabDrawer
 (
-activityTestRule
+composeTestRule
 )
 {
 }
@@ -1696,7 +1725,7 @@ waitForPageToLoad
 .
 openTabDrawer
 (
-activityTestRule
+composeTestRule
 )
 {
 }
@@ -1713,7 +1742,7 @@ openThreeDotMenu
 {
 }
 .
-openHistory
+clickHistoryButton
 {
 }
 .
@@ -1725,6 +1754,9 @@ waitForListToExist
 }
 .
 goBackToHistoryMenu
+(
+composeTestRule
+)
 {
 clickDeleteAllHistoryButton
 (

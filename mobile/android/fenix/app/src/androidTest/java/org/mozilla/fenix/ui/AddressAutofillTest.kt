@@ -77,6 +77,16 @@ junit4
 .
 AndroidComposeTestRule
 import
+androidx
+.
+test
+.
+espresso
+.
+Espresso
+.
+closeSoftKeyboard
+import
 org
 .
 junit
@@ -467,6 +477,7 @@ composeTestRule
 {
 fillAndSaveAddress
 (
+composeTestRule
 navigateToAutofillSettings
 =
 FirstAddressAutofillDetails
@@ -530,9 +541,15 @@ goBack
 }
 .
 goBack
+(
+composeTestRule
+)
 {
 }
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -545,6 +562,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -557,6 +575,7 @@ clickSelectAddressButton
 )
 clickPageObject
 (
+composeTestRule
 itemWithResIdContainingText
 (
 "
@@ -623,6 +642,7 @@ composeTestRule
 {
 fillAndSaveAddress
 (
+composeTestRule
 navigateToAutofillSettings
 =
 FirstAddressAutofillDetails
@@ -738,6 +758,9 @@ verifyAddAddressViewTest
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -745,7 +768,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -813,6 +836,7 @@ composeTestRule
 {
 fillAndSaveAddress
 (
+composeTestRule
 navigateToAutofillSettings
 =
 FirstAddressAutofillDetails
@@ -928,6 +952,7 @@ composeTestRule
 {
 fillAndSaveAddress
 (
+composeTestRule
 navigateToAutofillSettings
 =
 FirstAddressAutofillDetails
@@ -989,6 +1014,9 @@ exitMenu
 (
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1001,6 +1029,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -1012,13 +1041,19 @@ verifySelectAddressButtonExists
 (
 true
 )
+closeSoftKeyboard
+(
+)
+waitForAppWindowToBeUpdated
+(
+)
 }
 .
 openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -1040,6 +1075,9 @@ exitMenu
 (
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1052,6 +1090,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -1109,6 +1148,7 @@ composeTestRule
 {
 fillAndSaveAddress
 (
+composeTestRule
 navigateToAutofillSettings
 =
 FirstAddressAutofillDetails
@@ -1170,6 +1210,9 @@ exitMenu
 (
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1182,6 +1225,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -1195,9 +1239,6 @@ clickSelectAddressButton
 }
 .
 clickManageAddressButton
-(
-composeTestRule
-)
 {
 verifyAutofillToolbarTitle
 (
@@ -1205,6 +1246,9 @@ verifyAutofillToolbarTitle
 }
 .
 goBackToBrowser
+(
+composeTestRule
+)
 {
 verifySaveLoginPromptIsNotDisplayed
 (
@@ -1255,6 +1299,7 @@ composeTestRule
 {
 fillAndSaveAddress
 (
+composeTestRule
 navigateToAutofillSettings
 =
 FirstAddressAutofillDetails
@@ -1319,6 +1364,7 @@ clickAddAddressButton
 )
 fillAndSaveAddress
 (
+composeTestRule
 navigateToAutofillSettings
 =
 SecondAddressAutofillDetails
@@ -1373,6 +1419,9 @@ exitMenu
 (
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1385,6 +1434,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -1397,6 +1447,7 @@ clickSelectAddressButton
 )
 clickPageObject
 (
+composeTestRule
 itemWithResIdContainingText
 (
 "
@@ -1424,6 +1475,7 @@ clearAddressForm
 )
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -1436,6 +1488,7 @@ clickSelectAddressButton
 )
 clickPageObject
 (
+composeTestRule
 itemWithResIdContainingText
 (
 "
@@ -1498,6 +1551,7 @@ composeTestRule
 {
 fillAndSaveAddress
 (
+composeTestRule
 navigateToAutofillSettings
 =
 FirstAddressAutofillDetails
@@ -1566,6 +1620,7 @@ name
 )
 fillAndSaveAddress
 (
+composeTestRule
 navigateToAutofillSettings
 =
 SecondAddressAutofillDetails
@@ -1649,6 +1704,9 @@ verifyStateFieldUpdatesInAccordanceWithCountryFieldTest
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -1656,7 +1714,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -1756,6 +1814,7 @@ composeTestRule
 {
 fillAndSaveAddress
 (
+composeTestRule
 navigateToAutofillSettings
 =
 FirstAddressAutofillDetails
@@ -1817,6 +1876,9 @@ exitMenu
 (
 )
 navigationToolbar
+(
+composeTestRule
+)
 {
 }
 .
@@ -1829,6 +1891,7 @@ url
 {
 clickPageObject
 (
+composeTestRule
 itemWithResId
 (
 "
@@ -1841,6 +1904,7 @@ clickSelectAddressButton
 )
 clickPageObject
 (
+composeTestRule
 itemWithResIdContainingText
 (
 "
@@ -1919,6 +1983,7 @@ composeTestRule
 {
 fillAndSaveAddress
 (
+composeTestRule
 navigateToAutofillSettings
 =
 FirstAddressAutofillDetails

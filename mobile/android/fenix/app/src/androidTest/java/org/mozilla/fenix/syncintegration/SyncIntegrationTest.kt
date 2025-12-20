@@ -337,7 +337,7 @@ get
 :
 Rule
 val
-activityTestRule
+composeTestRule
 =
 AndroidComposeTestRule
 (
@@ -493,6 +493,9 @@ counter_root
 )
 )
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -500,7 +503,7 @@ openThreeDotMenu
 {
 }
 .
-openHistory
+clickHistoryButton
 {
 }
 historyAfterSyncIsShown
@@ -555,6 +558,9 @@ tapReturnToPreviousApp
 (
 )
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -562,10 +568,7 @@ openThreeDotMenu
 {
 }
 .
-openBookmarksMenu
-(
-activityTestRule
-)
+clickBookmarksButton
 {
 }
 bookmarkAfterSyncIsShown
@@ -783,6 +786,9 @@ synLoginsTest
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -790,7 +796,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -859,6 +865,9 @@ verifyDefaultViewBeforeSyncComplete
 }
 .
 openSavedLogins
+(
+composeTestRule
+)
 {
 /
 /
@@ -883,9 +892,6 @@ verifySavedLoginsAfterSync
 }
 .
 goBack
-(
-activityTestRule
-)
 {
 /
 /
@@ -1331,6 +1337,9 @@ signInFxSync
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -1341,7 +1350,7 @@ verifySettingsButton
 )
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 settingsAccount

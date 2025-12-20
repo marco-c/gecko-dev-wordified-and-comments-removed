@@ -75,6 +75,18 @@ Log
 import
 androidx
 .
+compose
+.
+ui
+.
+test
+.
+junit4
+.
+ComposeTestRule
+import
+androidx
+.
 recyclerview
 .
 widget
@@ -3004,6 +3016,9 @@ Transition
 fun
 goBackToHomeScreen
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
 HomeScreenRobot
@@ -3103,6 +3118,7 @@ action
 )
 HomeScreenRobot
 (
+composeTestRule
 )
 .
 interact
@@ -3113,6 +3129,7 @@ HomeScreenRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun

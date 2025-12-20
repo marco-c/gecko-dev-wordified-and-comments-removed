@@ -75,6 +75,18 @@ Log
 import
 androidx
 .
+compose
+.
+ui
+.
+test
+.
+junit4
+.
+ComposeTestRule
+import
+androidx
+.
 test
 .
 espresso
@@ -311,6 +323,13 @@ signInEmailButton
 }
 class
 Transition
+(
+private
+val
+composeTestRule
+:
+ComposeTestRule
+)
 {
 fun
 goBack
@@ -371,6 +390,7 @@ button
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -381,6 +401,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -442,6 +463,7 @@ button
 )
 HomeScreenRobot
 (
+composeTestRule
 )
 .
 interact
@@ -452,6 +474,7 @@ HomeScreenRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 }

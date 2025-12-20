@@ -2790,6 +2790,9 @@ class
 fun
 fillAndSaveAddress
 (
+composeTestRule
+:
+ComposeTestRule
 navigateToAutofillSettings
 :
 Boolean
@@ -2835,6 +2838,9 @@ navigateToAutofillSettings
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -2842,7 +2848,7 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
@@ -5963,6 +5969,9 @@ composeTestRule
 fun
 goBackToBrowser
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
 BrowserRobot
@@ -6017,6 +6026,7 @@ button
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -6027,6 +6037,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 }

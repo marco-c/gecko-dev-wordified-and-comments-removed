@@ -4521,6 +4521,9 @@ aboutFirefoxHeading
 fun
 verifyGooglePlayRedirect
 (
+composeTestRule
+:
+ComposeTestRule
 )
 {
 if
@@ -4625,6 +4628,7 @@ methods
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 verifyRateOnGooglePlayURL
@@ -4643,6 +4647,7 @@ else
 {
 BrowserRobot
 (
+composeTestRule
 )
 .
 verifyRateOnGooglePlayURL
@@ -4746,6 +4751,9 @@ Transition
 fun
 goBack
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
 HomeScreenRobot
@@ -4802,6 +4810,7 @@ button
 )
 HomeScreenRobot
 (
+composeTestRule
 )
 .
 interact
@@ -4812,11 +4821,15 @@ HomeScreenRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
 goBackToOnboardingScreen
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
 HomeScreenRobot
@@ -4910,6 +4923,7 @@ ms
 )
 HomeScreenRobot
 (
+composeTestRule
 )
 .
 interact
@@ -4920,11 +4934,15 @@ HomeScreenRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
 goBackToBrowser
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
 BrowserRobot
@@ -4981,6 +4999,7 @@ button
 )
 BrowserRobot
 (
+composeTestRule
 )
 .
 interact
@@ -4991,6 +5010,7 @@ BrowserRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -7020,6 +7040,9 @@ Transition
 fun
 openAddonsManagerMenu
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
 SettingsSubMenuAddonsManagerRobot
@@ -7086,6 +7109,7 @@ button
 )
 SettingsSubMenuAddonsManagerRobot
 (
+composeTestRule
 )
 .
 interact
@@ -7096,6 +7120,7 @@ SettingsSubMenuAddonsManagerRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun

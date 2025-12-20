@@ -89,6 +89,18 @@ View
 import
 androidx
 .
+compose
+.
+ui
+.
+test
+.
+junit4
+.
+ComposeTestRule
+import
+androidx
+.
 test
 .
 espresso
@@ -329,6 +341,13 @@ toggle
 }
 class
 Transition
+(
+private
+val
+composeTestRule
+:
+ComposeTestRule
+)
 {
 fun
 goBack
@@ -399,6 +418,7 @@ button
 )
 SettingsSubMenuAddonsManagerRobot
 (
+composeTestRule
 )
 .
 interact
@@ -409,6 +429,7 @@ SettingsSubMenuAddonsManagerRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
@@ -563,6 +584,7 @@ button
 }
 SettingsSubMenuAddonsManagerRobot
 (
+composeTestRule
 )
 .
 interact
@@ -573,6 +595,7 @@ SettingsSubMenuAddonsManagerRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 }

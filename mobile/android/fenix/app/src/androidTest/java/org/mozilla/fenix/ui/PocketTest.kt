@@ -182,7 +182,7 @@ order
 0
 )
 val
-activityTestRule
+composeTestRule
 =
 AndroidComposeTestRule
 (
@@ -270,6 +270,9 @@ RETRY_COUNT
 try
 {
 homeScreen
+(
+composeTestRule
+)
 {
 }
 .
@@ -277,11 +280,14 @@ openThreeDotMenu
 {
 }
 .
-openSettings
+clickSettingsButton
 {
 }
 .
 goBack
+(
+composeTestRule
+)
 {
 verifyThoughtProvokingStories
 (
@@ -356,6 +362,9 @@ isNetworkConnected
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 verifyThoughtProvokingStories
 (
@@ -363,7 +372,6 @@ true
 )
 verifyPocketRecommendedStoriesItems
 (
-activityTestRule
 )
 /
 /
@@ -414,7 +422,11 @@ openThreeDotMenu
 {
 }
 .
-openCustomizeHome
+clickSettingsButton
+{
+}
+.
+openHomepageSubMenu
 {
 clickPocketButton
 (
@@ -422,6 +434,9 @@ clickPocketButton
 }
 .
 goBackToHomeScreen
+(
+composeTestRule
+)
 {
 verifyThoughtProvokingStories
 (
@@ -469,6 +484,9 @@ isNetworkConnected
 )
 {
 homeScreen
+(
+composeTestRule
+)
 {
 verifyThoughtProvokingStories
 (
