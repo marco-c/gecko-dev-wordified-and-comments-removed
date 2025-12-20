@@ -3518,7 +3518,6 @@ searchEngine
 private
 =
 browsingModeManager
-?
 .
 mode
 =
@@ -4177,7 +4176,6 @@ actionGlobalHome
 (
 )
 browserAnimator
-?
 .
 captureEngineViewAndDrawStatically
 {
@@ -4188,14 +4186,6 @@ navigate
 directions
 )
 }
-?
-:
-navController
-.
-navigate
-(
-directions
-)
 }
 next
 (
@@ -6727,7 +6717,6 @@ contentDescription
 if
 (
 browsingModeManager
-?
 .
 mode
 =
@@ -6754,7 +6743,6 @@ onClick
 if
 (
 browsingModeManager
-?
 .
 mode
 =
