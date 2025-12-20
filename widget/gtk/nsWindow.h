@@ -3549,12 +3549,6 @@ delegate
 )
 override
 ;
-int32_t
-RoundsWidgetCoordinatesTo
-(
-)
-override
-;
 void
 UpdateMozWindowActive
 (
