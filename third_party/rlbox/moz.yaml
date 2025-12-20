@@ -130,6 +130,14 @@ vendor_dir
 /
 include
 '
+patches
+:
+-
+fix
+-
+includes
+.
+patch
 updatebot
 :
 maintainer

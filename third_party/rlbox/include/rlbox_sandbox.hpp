@@ -42,6 +42,11 @@ include
 mutex
 >
 #
+include
+<
+string
+>
+#
 ifndef
 RLBOX_USE_CUSTOM_SHARED_LOCK
 #
@@ -58,11 +63,6 @@ RLBOX_MEASURE_TRANSITION_TIMES
 include
 <
 sstream
->
-#
-include
-<
-string
 >
 #
 endif
