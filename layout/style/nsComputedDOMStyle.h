@@ -743,6 +743,9 @@ RefPtr
 const
 ComputedStyle
 >
+&
+&
+aContext
 uint64_t
 aGeneration
 )
@@ -750,11 +753,9 @@ aGeneration
 void
 SetFrameComputedStyle
 (
-RefPtr
-<
-const
 ComputedStyle
->
+*
+aStyle
 uint64_t
 aGeneration
 )
