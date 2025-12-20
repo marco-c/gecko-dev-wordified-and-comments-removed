@@ -69,8 +69,7 @@ string
 any
 >
 =
-{
-}
+object
 >
 {
 names

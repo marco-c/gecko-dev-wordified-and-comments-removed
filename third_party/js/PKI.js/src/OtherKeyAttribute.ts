@@ -308,6 +308,8 @@ static
 compareWithDefault
 <
 T
+extends
+object
 >
 (
 memberName

@@ -949,6 +949,14 @@ makeInternalValues
 parameters
 :
 PKCS8ShroudedKeyBagMakeInternalValuesParams
+crypto
+=
+common
+.
+getCrypto
+(
+true
+)
 )
 :
 Promise
@@ -1021,6 +1029,7 @@ cmsEncrypted
 encrypt
 (
 encryptParams
+crypto
 )
 ;
 if

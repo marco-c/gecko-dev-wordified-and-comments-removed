@@ -929,7 +929,11 @@ default
 :
 }
 return
+(
 element
+as
+any
+)
 .
 toSchema
 (

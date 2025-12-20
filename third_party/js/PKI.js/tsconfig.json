@@ -9,14 +9,14 @@ target
 "
 :
 "
-ES6
+ES2019
 "
 "
 module
 "
 :
 "
-ES6
+CommonJS
 "
 "
 moduleResolution
@@ -56,6 +56,9 @@ exclude
 "
 :
 [
+"
+website
+"
 "
 build
 /

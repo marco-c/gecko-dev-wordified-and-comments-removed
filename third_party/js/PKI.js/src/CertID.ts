@@ -1297,6 +1297,8 @@ parameters
 hashAlgorithm
 }
 issuerKeyBuffer
+as
+BufferSource
 )
 ;
 this

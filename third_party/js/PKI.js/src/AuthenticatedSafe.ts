@@ -1504,6 +1504,7 @@ cmsEncrypted
 encrypt
 (
 currentParameters
+crypto
 )
 ;
 this

@@ -2430,9 +2430,6 @@ toJSON
 ;
 }
 catch
-(
-ex
-)
 {
 }
 }

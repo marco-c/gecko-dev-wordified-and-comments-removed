@@ -327,8 +327,7 @@ export
 type
 MakeInternalValuesParams
 =
-{
-}
+object
 |
 {
 iterations

@@ -497,9 +497,6 @@ result
 ;
 }
 catch
-(
-ex
-)
 {
 const
 res
