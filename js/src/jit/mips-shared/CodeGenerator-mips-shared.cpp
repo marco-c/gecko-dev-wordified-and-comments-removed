@@ -583,6 +583,7 @@ LambdaOutOfLineCode
 (
 [
 =
+this
 ]
 (
 OutOfLineCode
