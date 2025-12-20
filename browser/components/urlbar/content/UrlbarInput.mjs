@@ -25383,6 +25383,16 @@ openUILinkWhere
 "
 current
 "
+&
+&
+this
+.
+sapName
+!
+=
+"
+searchbar
+"
 )
 {
 this
