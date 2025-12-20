@@ -4822,6 +4822,10 @@ nsIEditor
 :
 EDirection
 aDirectionAndAmount
+const
+Element
+&
+aEditingHost
 )
 const
 ;
