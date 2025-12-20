@@ -90,9 +90,9 @@ uint64_t
 aInnerWindowID
 bool
 aIsPrivateBrowsing
-nsIClassOfService
-*
-aClassOfService
+unsigned
+long
+aClassOfServiceFlag
 nsresult
 aRequestStatus
 const
