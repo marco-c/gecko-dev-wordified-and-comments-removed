@@ -2180,7 +2180,13 @@ static_cast
 Instr
 >
 (
+static_cast
+<
+Instr
+>
+(
 op
+)
 |
 LogicalShiftedFixed
 )

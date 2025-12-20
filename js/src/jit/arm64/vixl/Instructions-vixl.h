@@ -3426,7 +3426,13 @@ if
 (
 Mask
 (
+static_cast
+<
+Instr
+>
+(
 LogicalImmediateMask
+)
 &
 LogicalOpMask
 )
