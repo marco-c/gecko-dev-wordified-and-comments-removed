@@ -31,6 +31,17 @@ plugin
 -
 transform
 -
+class
+-
+properties
+"
+"
+babel
+/
+plugin
+-
+transform
+-
 modules
 -
 commonjs
