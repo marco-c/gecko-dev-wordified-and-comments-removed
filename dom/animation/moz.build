@@ -67,6 +67,11 @@ AnimationTimeline
 h
 "
 "
+AnimationTimelinesController
+.
+h
+"
+"
 CSSAnimation
 .
 h
@@ -225,6 +230,11 @@ cpp
 "
 "
 AnimationTimeline
+.
+cpp
+"
+"
+AnimationTimelinesController
 .
 cpp
 "
