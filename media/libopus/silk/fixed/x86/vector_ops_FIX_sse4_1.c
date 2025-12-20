@@ -260,6 +260,10 @@ _mm_storel_epi64
 __m128i
 *
 )
+(
+void
+*
+)
 &
 sum
 acc1

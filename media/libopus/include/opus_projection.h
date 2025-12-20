@@ -40,7 +40,7 @@ OPUS_PROJECTION_GET_DEMIXING_MATRIX_GAIN
 x
 )
 OPUS_PROJECTION_GET_DEMIXING_MATRIX_GAIN_REQUEST
-__opus_check_int_ptr
+opus_check_int_ptr
 (
 x
 )
@@ -51,7 +51,7 @@ OPUS_PROJECTION_GET_DEMIXING_MATRIX_SIZE
 x
 )
 OPUS_PROJECTION_GET_DEMIXING_MATRIX_SIZE_REQUEST
-__opus_check_int_ptr
+opus_check_int_ptr
 (
 x
 )
@@ -64,7 +64,7 @@ y
 )
 OPUS_PROJECTION_GET_DEMIXING_MATRIX_REQUEST
 x
-__opus_check_int
+opus_check_int
 (
 y
 )

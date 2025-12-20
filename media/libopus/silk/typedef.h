@@ -389,6 +389,14 @@ silk_assert
 (
 COND
 )
+(
+(
+void
+)
+(
+COND
+)
+)
 #
 endif
 #

@@ -74,7 +74,7 @@ FIXED_POINT
 &
 defined
 (
-__mips_dsp
+__mips
 )
 &
 &

@@ -2485,6 +2485,15 @@ prev_osce_extended_mode
 =
 =
 OSCE_MODE_SILK_BBWE
+&
+&
+decControl
+-
+>
+internalSampleRate
+=
+=
+16000
 )
 {
 osce_bwe
