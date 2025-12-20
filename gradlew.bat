@@ -639,9 +639,6 @@ Setup
 the
 command
 line
-set
-CLASSPATH
-=
 rem
 Execute
 Gradle
@@ -669,13 +666,6 @@ appname
 =
 %
 APP_BASE_NAME
-%
-"
--
-classpath
-"
-%
-CLASSPATH
 %
 "
 -
