@@ -758,6 +758,7 @@ MOZ_AUTOMATION
 )
 {
 signingConfig
+=
 signingConfigs
 .
 debug
