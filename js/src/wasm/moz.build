@@ -228,6 +228,11 @@ WasmStaticTypeDefs
 cpp
 "
 "
+WasmStructLayout
+.
+cpp
+"
+"
 WasmStubs
 .
 cpp
