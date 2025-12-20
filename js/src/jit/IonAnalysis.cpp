@@ -16338,6 +16338,12 @@ case
 MIRType
 :
 :
+WasmStructData
+:
+case
+MIRType
+:
+:
 WasmArrayData
 :
 case

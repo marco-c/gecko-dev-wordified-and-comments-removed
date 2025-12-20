@@ -1727,6 +1727,7 @@ Slots
 Elements
 Pointer
 WasmAnyRef
+WasmStructData
 WasmArrayData
 StackResults
 Shape
@@ -2387,6 +2388,17 @@ WasmAnyRef
 return
 "
 WasmAnyRef
+"
+;
+case
+MIRType
+:
+:
+WasmStructData
+:
+return
+"
+WasmStructData
 "
 ;
 case
