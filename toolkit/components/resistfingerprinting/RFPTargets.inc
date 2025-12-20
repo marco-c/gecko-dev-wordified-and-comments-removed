@@ -395,6 +395,11 @@ WebGLVendorRandomize
 )
 ITEM_VALUE
 (
+WebGLRendererConstant
+80
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
