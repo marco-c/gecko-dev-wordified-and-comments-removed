@@ -362,13 +362,6 @@ Bug
 ]
 [
 "
-browser_newtab_glean
-.
-js
-"
-]
-[
-"
 browser_newtab_header
 .
 js
