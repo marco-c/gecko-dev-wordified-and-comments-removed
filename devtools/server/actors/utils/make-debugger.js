@@ -215,12 +215,14 @@ findDebuggees
 =
 function
 (
+includeAllSameProcessGlobals
 )
 {
 return
 findDebuggees
 (
 dbg
+includeAllSameProcessGlobals
 )
 ;
 }
