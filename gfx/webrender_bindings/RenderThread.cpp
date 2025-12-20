@@ -7044,6 +7044,17 @@ BeginShaderWarmupIfNeeded
 if
 (
 mShaders
+&
+&
+gfx
+:
+:
+gfxVars
+:
+:
+ShouldWarmUpWebRenderProgramBinaries
+(
+)
 )
 {
 PostResumeShaderWarmupRunnable
