@@ -1059,10 +1059,6 @@ mjs
 script
 >
 <
-/
-script
->
-<
 script
 async
 type
