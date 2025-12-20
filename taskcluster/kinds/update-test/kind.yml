@@ -99,6 +99,16 @@ balrog
 submit
 -
 toplevel
+-
+release
+-
+beetmover
+-
+push
+-
+to
+-
+release
 transforms
 :
 -
