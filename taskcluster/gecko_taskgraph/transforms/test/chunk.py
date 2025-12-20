@@ -742,6 +742,10 @@ remaining_manifests
 [
 ]
             
+found_wpt
+=
+False
+            
 for
 m
 in
@@ -844,7 +848,17 @@ dynamic
 yield
 task
                     
+found_wpt
+=
+True
+                    
 break
+            
+if
+found_wpt
+:
+                
+continue
             
 for
 m
