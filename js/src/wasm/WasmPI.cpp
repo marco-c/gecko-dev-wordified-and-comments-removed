@@ -2770,6 +2770,7 @@ Suspended
 {
 MOZ_ASSERT
 (
+!
 cx
 -
 >
@@ -2778,9 +2779,8 @@ wasm
 )
 .
 onSuspendableStack
-=
-=
-0
+(
+)
 )
 ;
 break
