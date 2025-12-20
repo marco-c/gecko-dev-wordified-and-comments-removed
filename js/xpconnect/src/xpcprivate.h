@@ -8467,6 +8467,11 @@ CSS
 1
 ;
 bool
+CSSPositionTryDescriptors
+:
+1
+;
+bool
 CSSRule
 :
 1

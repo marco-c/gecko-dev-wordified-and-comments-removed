@@ -945,6 +945,9 @@ ChromeUtils
 CSS
 "
 "
+CSSPositionTryDescriptors
+"
+"
 CSSRule
 "
 "
