@@ -177,7 +177,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -263,9 +263,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -298,7 +298,7 @@ LowMemoryAction
 {
 trimMemory
 (
-context
+store
 action
 )
 }
@@ -307,9 +307,9 @@ private
 fun
 trimMemory
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -339,8 +339,6 @@ suspendTabs
 =
 determineTabsToSuspend
 (
-context
-.
 store
 .
 state
@@ -356,8 +354,6 @@ memory
 tabs
 =
 {
-context
-.
 store
 .
 state
@@ -418,8 +414,6 @@ forEach
 tab
 -
 >
-context
-.
 store
 .
 dispatch

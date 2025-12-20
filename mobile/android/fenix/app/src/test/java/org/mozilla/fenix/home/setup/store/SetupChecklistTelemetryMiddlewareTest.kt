@@ -109,7 +109,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -961,11 +961,11 @@ isCompleted
 false
 )
 val
-context
+store
 =
 mock
 <
-MiddlewareContext
+Store
 <
 AppState
 AppAction
@@ -977,9 +977,9 @@ middleware
 .
 invoke
 (
-context
+store
 =
-context
+store
 next
 =
 {

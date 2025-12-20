@@ -167,7 +167,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -390,9 +390,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 CreditCardEditorState
 CreditCardEditorAction
@@ -429,7 +429,7 @@ action
 .
 handleInitAction
 (
-context
+store
 )
 is
 DeleteDialogAction
@@ -439,7 +439,7 @@ action
 .
 handleDeleteDialog
 (
-context
+store
 )
 is
 CreditCardEditorAction
@@ -449,7 +449,7 @@ Save
 >
 handleSaveAction
 (
-context
+store
 )
 is
 CreditCardEditorAction
@@ -476,9 +476,9 @@ DeleteDialogAction
 .
 handleDeleteDialog
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 CreditCardEditorState
 CreditCardEditorAction
@@ -507,8 +507,6 @@ storage
 .
 deleteCreditCard
 (
-context
-.
 store
 .
 state
@@ -556,9 +554,9 @@ private
 fun
 handleSaveAction
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 CreditCardEditorState
 CreditCardEditorAction
@@ -568,8 +566,6 @@ CreditCardEditorAction
 val
 state
 =
-context
-.
 store
 .
 state
@@ -856,9 +852,9 @@ Initialization
 .
 handleInitAction
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 CreditCardEditorState
 CreditCardEditorAction
@@ -889,7 +885,7 @@ null
 {
 initializeFromCard
 (
-context
+store
 creditCard
 )
 }
@@ -897,7 +893,7 @@ else
 {
 initializeFromScratch
 (
-context
+store
 )
 }
 }
@@ -911,9 +907,9 @@ private
 fun
 initializeFromScratch
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 CreditCardEditorState
 CreditCardEditorAction
@@ -923,13 +919,9 @@ CreditCardEditorAction
 val
 state
 =
-context
-.
 store
 .
 state
-context
-.
 store
 .
 dispatch
@@ -980,9 +972,9 @@ private
 fun
 initializeFromCard
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 CreditCardEditorState
 CreditCardEditorAction
@@ -1002,8 +994,6 @@ ioDispatcher
 val
 state
 =
-context
-.
 store
 .
 state
@@ -1046,8 +1036,6 @@ creditCard
 .
 expiryYear
 )
-context
-.
 store
 .
 dispatch

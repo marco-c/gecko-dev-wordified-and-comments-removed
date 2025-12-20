@@ -199,16 +199,6 @@ lib
 .
 state
 .
-MiddlewareContext
-import
-mozilla
-.
-components
-.
-lib
-.
-state
-.
 Store
 import
 org
@@ -730,9 +720,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BookmarksState
 BookmarksAction
@@ -753,8 +743,6 @@ BookmarksAction
 val
 preReductionState
 =
-context
-.
 store
 .
 state
@@ -765,8 +753,6 @@ action
 val
 dialogState
 =
-context
-.
 store
 .
 state
@@ -796,8 +782,6 @@ dialogState
 .
 guidsToDelete
 )
-context
-.
 store
 .
 dispatch
@@ -823,8 +807,6 @@ action
 Init
 -
 >
-context
-.
 store
 .
 tryDispatchLoadFor
@@ -969,8 +951,6 @@ getOrNull
 .
 also
 {
-context
-.
 store
 .
 dispatch
@@ -995,8 +975,6 @@ isNotEmpty
 )
 )
 {
-context
-.
 store
 .
 tryDispatchReceivedRecursiveCountUpdate
@@ -1060,8 +1038,6 @@ isNotEmpty
 )
 )
 {
-context
-.
 store
 .
 tryDispatchReceivedRecursiveCountUpdate
@@ -1069,8 +1045,6 @@ tryDispatchReceivedRecursiveCountUpdate
 )
 return
 }
-context
-.
 store
 .
 tryDispatchLoadFor
@@ -1089,8 +1063,6 @@ FolderLongClicked
 -
 >
 {
-context
-.
 store
 .
 tryDispatchReceivedRecursiveCountUpdate
@@ -1192,8 +1164,6 @@ bookmarksAddFolderState
 null
 &
 &
-context
-.
 store
 .
 state
@@ -1294,8 +1264,6 @@ position
 =
 position
 )
-context
-.
 store
 .
 dispatch
@@ -1368,8 +1336,6 @@ popBackStack
 )
 }
 }
-context
-.
 store
 .
 tryDispatchLoadFor
@@ -1472,8 +1438,6 @@ isNullOrEmpty
 )
 )
 {
-context
-.
 store
 .
 dispatch
@@ -1483,8 +1447,6 @@ SnackbarAction
 SelectFolderFailed
 )
 }
-context
-.
 store
 .
 tryDispatchLoadFor
@@ -1565,8 +1527,6 @@ EditFolderFailed
 )
 }
 }
-context
-.
 store
 .
 tryDispatchLoadFor
@@ -1676,8 +1636,6 @@ parentGuid
 }
 }
 }
-context
-.
 store
 .
 tryDispatchLoadFor
@@ -1763,8 +1721,6 @@ Mobile
 .
 id
 }
-context
-.
 store
 .
 tryDispatchLoadFor
@@ -1928,8 +1884,6 @@ SelectFolderAction
 ViewAppeared
 -
 >
-context
-.
 store
 .
 tryDispatchLoadFolders
@@ -1943,8 +1897,6 @@ action
 .
 handleSideEffects
 (
-context
-.
 store
 preReductionState
 )
@@ -2209,8 +2161,6 @@ FirstSyncCompleted
 -
 >
 {
-context
-.
 store
 .
 tryDispatchLoadFor
@@ -2309,8 +2259,6 @@ scope
 .
 launch
 {
-context
-.
 store
 .
 tryDispatchLoadFolders
@@ -2318,8 +2266,6 @@ tryDispatchLoadFolders
 )
 saveBookmarkSortOrder
 (
-context
-.
 store
 .
 state
@@ -2341,8 +2287,6 @@ launch
 val
 state
 =
-context
-.
 store
 .
 state
@@ -2378,8 +2322,6 @@ filteredFolders
 .
 let
 {
-context
-.
 store
 .
 dispatch

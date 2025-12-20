@@ -103,7 +103,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 org
 .
@@ -222,9 +222,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 OnboardingState
 OnboardingAction
@@ -285,8 +285,6 @@ mapOnboardingPreferenceUpdateToStoreAction
 (
 preferenceUpdate
 )
-context
-.
 store
 .
 dispatch

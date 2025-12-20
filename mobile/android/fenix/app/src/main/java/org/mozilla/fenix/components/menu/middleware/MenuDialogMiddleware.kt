@@ -275,16 +275,6 @@ lib
 .
 state
 .
-MiddlewareContext
-import
-mozilla
-.
-components
-.
-lib
-.
-state
-.
 Store
 import
 mozilla
@@ -982,9 +972,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 MenuState
 MenuAction
@@ -1005,8 +995,6 @@ MenuAction
 val
 currentState
 =
-context
-.
 store
 .
 state
@@ -1023,8 +1011,6 @@ InitAction
 >
 initialize
 (
-context
-.
 store
 )
 is
@@ -1035,8 +1021,6 @@ AddBookmark
 >
 addBookmark
 (
-context
-.
 store
 )
 is
@@ -1047,8 +1031,6 @@ AddShortcut
 >
 addShortcut
 (
-context
-.
 store
 )
 is
@@ -1059,8 +1041,6 @@ RemoveShortcut
 >
 removeShortcut
 (
-context
-.
 store
 )
 is
@@ -1098,8 +1078,6 @@ OpenInApp
 >
 openInApp
 (
-context
-.
 store
 )
 is
@@ -1119,8 +1097,6 @@ InstallAddon
 >
 installAddon
 (
-context
-.
 store
 action
 .

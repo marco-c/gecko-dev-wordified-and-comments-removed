@@ -123,16 +123,6 @@ lib
 .
 state
 .
-MiddlewareContext
-import
-mozilla
-.
-components
-.
-lib
-.
-state
-.
 Store
 /
 *
@@ -343,9 +333,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 AddressState
 AddressAction
@@ -366,8 +356,6 @@ AddressAction
 val
 preReductionCountry
 =
-context
-.
 store
 .
 state
@@ -390,8 +378,6 @@ ViewAppeared
 >
 loadAddressStructure
 (
-context
-.
 store
 true
 )
@@ -406,8 +392,6 @@ if
 preReductionCountry
 !
 =
-context
-.
 store
 .
 state
@@ -419,8 +403,6 @@ country
 {
 loadAddressStructure
 (
-context
-.
 store
 false
 )

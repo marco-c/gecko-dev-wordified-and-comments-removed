@@ -131,7 +131,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -292,9 +292,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 DataChoicesState
 DataChoicesAction
@@ -329,8 +329,6 @@ scope
 .
 launch
 {
-context
-.
 store
 .
 dispatch
@@ -382,8 +380,6 @@ TelemetryClicked
 updateTelemetryChoice
 (
 )
-context
-.
 store
 .
 dispatch

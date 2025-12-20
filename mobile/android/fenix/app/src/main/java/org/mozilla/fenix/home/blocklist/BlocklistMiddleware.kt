@@ -85,7 +85,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 org
 .
@@ -230,9 +230,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 AppState
 AppAction
@@ -254,8 +254,6 @@ next
 (
 getUpdatedAction
 (
-context
-.
 store
 .
 state

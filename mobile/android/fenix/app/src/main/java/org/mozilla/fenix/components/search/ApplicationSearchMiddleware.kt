@@ -197,16 +197,6 @@ lib
 .
 state
 .
-MiddlewareContext
-import
-mozilla
-.
-components
-.
-lib
-.
-state
-.
 Store
 import
 org
@@ -380,9 +370,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -409,8 +399,6 @@ InitAction
 {
 loadSearchEngines
 (
-context
-.
 store
 )
 }

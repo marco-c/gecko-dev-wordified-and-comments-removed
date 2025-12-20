@@ -87,7 +87,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -221,9 +221,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 HistoryFragmentState
 HistoryFragmentAction
@@ -244,8 +244,6 @@ HistoryFragmentAction
 val
 currentState
 =
-context
-.
 store
 .
 state

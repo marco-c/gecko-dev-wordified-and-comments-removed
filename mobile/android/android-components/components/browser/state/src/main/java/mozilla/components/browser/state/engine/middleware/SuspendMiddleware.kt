@@ -179,7 +179,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 /
 *
 *
@@ -283,9 +283,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -316,7 +316,7 @@ SuspendEngineSessionAction
 >
 suspend
 (
-context
+store
 action
 .
 tabId
@@ -334,7 +334,7 @@ action
 )
 suspend
 (
-context
+store
 action
 .
 tabId
@@ -353,9 +353,9 @@ private
 fun
 suspend
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -368,8 +368,6 @@ String
 val
 tab
 =
-context
-.
 store
 .
 state
@@ -392,8 +390,6 @@ clearsEngineSession
 and
 state
 )
-context
-.
 store
 .
 dispatch

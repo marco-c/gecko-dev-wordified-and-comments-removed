@@ -205,16 +205,6 @@ lib
 .
 state
 .
-MiddlewareContext
-import
-mozilla
-.
-components
-.
-lib
-.
-state
-.
 Store
 import
 mozilla
@@ -302,9 +292,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -340,8 +330,6 @@ updateJob
 =
 determineRegion
 (
-context
-.
 store
 )
 }
@@ -357,8 +345,6 @@ updateJob
 =
 determineRegion
 (
-context
-.
 store
 action
 .

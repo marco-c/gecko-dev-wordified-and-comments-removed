@@ -95,7 +95,7 @@ lib
 .
 state
 .
-MiddlewareContext
+State
 import
 mozilla
 .
@@ -105,7 +105,7 @@ lib
 .
 state
 .
-State
+Store
 import
 kotlin
 .
@@ -167,9 +167,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 S
 A

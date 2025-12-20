@@ -253,16 +253,6 @@ lib
 .
 state
 .
-MiddlewareContext
-import
-mozilla
-.
-components
-.
-lib
-.
-state
-.
 Store
 import
 mozilla
@@ -424,9 +414,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -447,8 +437,6 @@ BrowserAction
 val
 state
 =
-context
-.
 store
 .
 state
@@ -470,7 +458,7 @@ RemoveAllNormalTabsAction
 >
 onTabsRemoved
 (
-context
+store
 state
 .
 normalTabs
@@ -486,7 +474,7 @@ RemoveAllPrivateTabsAction
 >
 onTabsRemoved
 (
-context
+store
 state
 .
 privateTabs
@@ -510,7 +498,7 @@ recoverable
 {
 onTabsRemoved
 (
-context
+store
 state
 .
 tabs
@@ -540,7 +528,7 @@ let
 {
 onTabsRemoved
 (
-context
+store
 listOf
 (
 it
@@ -575,7 +563,7 @@ let
 {
 onTabsRemoved
 (
-context
+store
 it
 state
 .
@@ -594,11 +582,7 @@ RestoreRecoverableTabs
 >
 restore
 (
-context
-.
 store
-context
-.
 store
 .
 state
@@ -632,9 +616,9 @@ private
 fun
 onTabsRemoved
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -683,8 +667,6 @@ TabSessionState
 val
 index
 =
-context
-.
 store
 .
 state
@@ -782,8 +764,6 @@ state
 .
 id
 }
-context
-.
 store
 .
 dispatch
@@ -797,12 +777,6 @@ recoverableTabs
 selectionToRestore
 )
 )
-val
-store
-=
-context
-.
-store
 clearJob
 =
 waitScope

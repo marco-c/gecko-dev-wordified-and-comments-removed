@@ -209,16 +209,6 @@ lib
 .
 state
 .
-MiddlewareContext
-import
-mozilla
-.
-components
-.
-lib
-.
-state
-.
 Store
 /
 *
@@ -294,9 +284,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -333,8 +323,6 @@ action
 tag
 =
 =
-context
-.
 store
 .
 state
@@ -370,8 +358,6 @@ non
 private
 tabs
 .
-context
-.
 store
 .
 dispatch
@@ -380,8 +366,6 @@ RecentlyClosedAction
 .
 AddClosedTabsAction
 (
-context
-.
 store
 .
 state
@@ -415,8 +399,6 @@ AddRecoverableTabs
 {
 if
 (
-context
-.
 store
 .
 state
@@ -471,8 +453,6 @@ clear
 call
 above
 .
-context
-.
 store
 .
 dispatch
@@ -481,8 +461,6 @@ RecentlyClosedAction
 .
 AddClosedTabsAction
 (
-context
-.
 store
 .
 state
@@ -551,8 +529,6 @@ InitAction
 {
 initializeRecentlyClosed
 (
-context
-.
 store
 )
 }
@@ -573,8 +549,6 @@ action
 )
 pruneTabs
 (
-context
-.
 store
 )
 }

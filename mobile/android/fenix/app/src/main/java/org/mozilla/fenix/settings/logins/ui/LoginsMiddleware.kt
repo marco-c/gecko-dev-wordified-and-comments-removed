@@ -169,16 +169,6 @@ lib
 .
 state
 .
-MiddlewareContext
-import
-mozilla
-.
-components
-.
-lib
-.
-state
-.
 Store
 import
 org
@@ -413,9 +403,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 LoginsState
 LoginsAction
@@ -436,8 +426,6 @@ LoginsAction
 val
 preReductionState
 =
-context
-.
 store
 .
 state
@@ -455,8 +443,6 @@ LoginsListAppeared
 -
 >
 {
-context
-.
 store
 .
 loadLoginsList
@@ -468,8 +454,6 @@ SearchLogins
 -
 >
 {
-context
-.
 store
 .
 loadLoginsList
@@ -588,8 +572,6 @@ launch
 {
 persistLoginsSortOrder
 (
-context
-.
 store
 .
 state
@@ -710,8 +692,6 @@ AddLoginSaveClicked
 -
 >
 {
-context
-.
 store
 .
 handleAddLogin
@@ -741,8 +721,6 @@ SaveEditClicked
 -
 >
 {
-context
-.
 store
 .
 handleEditLogin

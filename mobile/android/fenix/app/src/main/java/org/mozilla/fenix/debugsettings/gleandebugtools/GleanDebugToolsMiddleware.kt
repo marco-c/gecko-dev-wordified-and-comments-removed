@@ -85,7 +85,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -252,9 +252,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 GleanDebugToolsState
 GleanDebugToolsAction
@@ -292,8 +292,6 @@ gleanDebugToolsStorage
 .
 setLogPings
 (
-context
-.
 store
 .
 state
@@ -315,8 +313,6 @@ getDebugViewLink
 (
 debugViewTag
 =
-context
-.
 store
 .
 state
@@ -347,8 +343,6 @@ getDebugViewLink
 (
 debugViewTag
 =
-context
-.
 store
 .
 state
@@ -392,8 +386,6 @@ sendPing
 (
 pingType
 =
-context
-.
 store
 .
 state
@@ -401,8 +393,6 @@ state
 pingType
 debugViewTag
 =
-context
-.
 store
 .
 state
@@ -411,8 +401,6 @@ debugViewTag
 )
 showToast
 (
-context
-.
 store
 .
 state

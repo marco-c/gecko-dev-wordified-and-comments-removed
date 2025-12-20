@@ -157,7 +157,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 /
 *
 *
@@ -195,9 +195,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -270,8 +270,6 @@ selection
 -
 >
 {
-context
-.
 store
 .
 state
@@ -342,8 +340,6 @@ tab
 val
 newSelection
 =
-context
-.
 store
 .
 state
@@ -363,7 +359,7 @@ newSelection
 selectionBeforeRemoval
 )
 {
-context
+store
 .
 dispatchUpdateActionForId
 (
@@ -378,7 +374,7 @@ SelectTabAction
 -
 >
 {
-context
+store
 .
 dispatchUpdateActionForId
 (
@@ -401,7 +397,7 @@ action
 select
 )
 {
-context
+store
 .
 dispatchUpdateActionForId
 (
@@ -427,7 +423,7 @@ selectedTabId
 .
 let
 {
-context
+store
 .
 dispatchUpdateActionForId
 (
@@ -449,8 +445,6 @@ action
 sessionId
 =
 =
-context
-.
 store
 .
 state
@@ -458,7 +452,7 @@ state
 selectedTabId
 )
 {
-context
+store
 .
 dispatchUpdateActionForId
 (
@@ -482,7 +476,7 @@ op
 }
 private
 fun
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -495,8 +489,6 @@ id
 String
 )
 {
-store
-.
 dispatch
 (
 LastAccessAction

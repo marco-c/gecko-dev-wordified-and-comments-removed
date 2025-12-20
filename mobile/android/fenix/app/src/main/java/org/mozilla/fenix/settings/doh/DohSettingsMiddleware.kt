@@ -91,7 +91,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 org
 .
@@ -160,9 +160,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 DohSettingsState
 DohSettingsAction
@@ -204,8 +204,6 @@ the
 reducer
 can
 handle
-context
-.
 store
 .
 dispatch
@@ -360,7 +358,7 @@ AddCustomClicked
 {
 handleAddCustomProvider
 (
-context
+store
 action
 )
 }
@@ -445,7 +443,7 @@ RemoveClicked
 {
 handleRemoveException
 (
-context
+store
 action
 )
 }
@@ -466,8 +464,6 @@ emptyList
 (
 )
 )
-context
-.
 store
 .
 dispatch
@@ -491,7 +487,7 @@ SaveClicked
 {
 handleSaveException
 (
-context
+store
 action
 )
 }
@@ -506,9 +502,9 @@ private
 fun
 handleAddCustomProvider
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 DohSettingsState
 DohSettingsAction
@@ -543,8 +539,6 @@ setCustomProvider
 (
 normalizedUrl
 )
-context
-.
 store
 .
 dispatch
@@ -571,8 +565,6 @@ UrlValidationException
 NonHttpsUrlException
 )
 {
-context
-.
 store
 .
 dispatch
@@ -593,8 +585,6 @@ UrlValidationException
 InvalidUrlException
 )
 {
-context
-.
 store
 .
 dispatch
@@ -611,9 +601,9 @@ private
 fun
 handleRemoveException
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 DohSettingsState
 DohSettingsAction
@@ -653,8 +643,6 @@ setExceptions
 (
 updatedExceptions
 )
-context
-.
 store
 .
 dispatch
@@ -671,9 +659,9 @@ private
 fun
 handleSaveException
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 DohSettingsState
 DohSettingsAction
@@ -729,8 +717,6 @@ url
 )
 )
 {
-context
-.
 store
 .
 dispatch
@@ -767,8 +753,6 @@ setExceptions
 (
 updatedExceptions
 )
-context
-.
 store
 .
 dispatch
@@ -780,8 +764,6 @@ ExceptionsUpdated
 updatedExceptions
 )
 )
-context
-.
 store
 .
 dispatch
@@ -798,8 +780,6 @@ UrlValidationException
 InvalidUrlException
 )
 {
-context
-.
 store
 .
 dispatch

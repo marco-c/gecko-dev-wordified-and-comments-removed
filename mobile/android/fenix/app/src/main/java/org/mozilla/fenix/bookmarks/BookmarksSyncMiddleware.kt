@@ -143,7 +143,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -206,9 +206,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BookmarksState
 BookmarksAction
@@ -300,8 +300,6 @@ onEach
 isSignedIn
 -
 >
-context
-.
 store
 .
 dispatch
@@ -357,8 +355,6 @@ cancellable
 .
 catch
 {
-context
-.
 store
 .
 dispatch

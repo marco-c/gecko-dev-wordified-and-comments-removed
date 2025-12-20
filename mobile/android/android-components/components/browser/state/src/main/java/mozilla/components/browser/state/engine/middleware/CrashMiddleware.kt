@@ -145,7 +145,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 /
 *
 *
@@ -178,9 +178,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -279,7 +279,7 @@ SessionCrashedAction
 {
 onCrash
 (
-context
+store
 action
 )
 }
@@ -288,9 +288,9 @@ private
 fun
 onCrash
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -341,8 +341,6 @@ by
 /
 /
 restoring
-.
-context
 .
 store
 .

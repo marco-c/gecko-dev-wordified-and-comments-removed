@@ -257,7 +257,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -437,9 +437,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -472,8 +472,6 @@ UnlinkEngineSessionAction
 val
 activeTab
 =
-context
-.
 store
 .
 state
@@ -553,8 +551,6 @@ adjustPriority
 val
 tab
 =
-context
-.
 store
 .
 state
@@ -615,7 +611,7 @@ let
 {
 updatePriorityToDefault
 (
-context
+store
 it
 .
 id
@@ -681,8 +677,6 @@ map
 val
 tab
 =
-context
-.
 store
 .
 state
@@ -779,8 +773,6 @@ mainScope
 .
 launch
 {
-context
-.
 store
 .
 state
@@ -855,8 +847,6 @@ it
 val
 state
 =
-context
-.
 store
 .
 state
@@ -1098,9 +1088,9 @@ private
 fun
 updatePriorityToDefault
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -1138,8 +1128,6 @@ delay
 (
 updatePriorityAfterMillis
 )
-context
-.
 store
 .
 dispatch

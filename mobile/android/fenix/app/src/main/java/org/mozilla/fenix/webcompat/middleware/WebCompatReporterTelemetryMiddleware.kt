@@ -85,7 +85,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -184,9 +184,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 WebCompatReporterState
 WebCompatReporterAction
@@ -268,8 +268,6 @@ SendExtra
 (
 sentWithBlockedTrackers
 =
-context
-.
 store
 .
 state

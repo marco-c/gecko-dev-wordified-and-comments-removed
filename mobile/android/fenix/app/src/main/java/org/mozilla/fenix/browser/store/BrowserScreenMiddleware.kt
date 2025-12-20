@@ -145,16 +145,6 @@ lib
 .
 state
 .
-MiddlewareContext
-import
-mozilla
-.
-components
-.
-lib
-.
-state
-.
 Store
 import
 org
@@ -297,9 +287,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserScreenState
 BrowserScreenAction
@@ -335,8 +325,6 @@ showCancelledDownloadWarning
 (
 store
 =
-context
-.
 store
 downloadCount
 =

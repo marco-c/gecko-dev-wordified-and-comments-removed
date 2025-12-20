@@ -97,7 +97,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -178,11 +178,11 @@ testContext
 )
 private
 val
-context
+store
 =
 mockk
 <
-MiddlewareContext
+Store
 <
 PrivacyNoticeBannerState
 PrivacyNoticeBannerAction
@@ -394,9 +394,9 @@ PrivacyNoticeBannerTelemetryMiddleware
 (
 )
 (
-context
+store
 =
-context
+store
 next
 =
 {

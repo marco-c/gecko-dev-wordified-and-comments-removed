@@ -277,16 +277,6 @@ lib
 .
 state
 .
-MiddlewareContext
-import
-mozilla
-.
-components
-.
-lib
-.
-state
-.
 Store
 import
 mozilla
@@ -692,9 +682,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -725,8 +715,6 @@ SetRegionAction
 >
 loadSearchEngines
 (
-context
-.
 store
 action
 .
@@ -801,8 +789,6 @@ RestoreHiddenSearchEnginesAction
 >
 updateHiddenSearchEngines
 (
-context
-.
 store
 .
 state
@@ -823,8 +809,6 @@ RemoveAdditionalSearchEngineAction
 >
 updateAdditionalSearchEngines
 (
-context
-.
 store
 .
 state
@@ -841,8 +825,6 @@ UpdateDisabledSearchEngineIdsAction
 >
 updateDisabledSearchEngineIds
 (
-context
-.
 store
 action
 )

@@ -143,16 +143,6 @@ lib
 .
 state
 .
-MiddlewareContext
-import
-mozilla
-.
-components
-.
-lib
-.
-state
-.
 Store
 import
 mozilla
@@ -252,9 +242,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -285,8 +275,6 @@ RestoreLocaleStateAction
 >
 restoreLocale
 (
-context
-.
 store
 )
 is

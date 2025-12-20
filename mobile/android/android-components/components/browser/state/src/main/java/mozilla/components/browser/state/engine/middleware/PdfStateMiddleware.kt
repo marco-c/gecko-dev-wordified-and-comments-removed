@@ -153,7 +153,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 private
 const
 val
@@ -222,9 +222,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -275,8 +275,6 @@ isRenderingPdf
 action
 .
 sessionId
-context
-.
 store
 .
 state
@@ -289,8 +287,6 @@ previousPdfRenderingStatus
 action
 .
 sessionId
-context
-.
 store
 .
 state
@@ -309,7 +305,7 @@ action
 .
 sessionId
 newPdfRenderingStatus
-context
+store
 )
 }
 }
@@ -325,17 +321,15 @@ String
 isPdf
 :
 Boolean
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
 >
 )
 =
-context
-.
 store
 .
 dispatch

@@ -155,7 +155,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 /
 *
 *
@@ -203,9 +203,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -235,8 +235,6 @@ RemoveAllNormalTabsAction
 -
 >
 {
-context
-.
 store
 .
 state
@@ -277,8 +275,6 @@ RemoveAllPrivateTabsAction
 -
 >
 {
-context
-.
 store
 .
 state
@@ -350,8 +346,6 @@ removed
 val
 isPrivate
 =
-context
-.
 store
 .
 state
@@ -391,8 +385,6 @@ id
 val
 isPrivate
 =
-context
-.
 store
 .
 state
@@ -437,8 +429,6 @@ s
 thumbnail
 is
 updated
-.
-context
 .
 store
 .

@@ -205,7 +205,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -262,9 +262,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -335,7 +335,7 @@ engineObserver
 =
 link
 (
-context
+store
 action
 .
 tab
@@ -402,7 +402,7 @@ UnlinkEngineSessionAction
 {
 unlink
 (
-context
+store
 action
 )
 }
@@ -433,8 +433,6 @@ LinkEngineSessionAction
 -
 >
 {
-context
-.
 store
 .
 state
@@ -456,7 +454,7 @@ engineObserver
 =
 link
 (
-context
+store
 action
 .
 engineSession
@@ -486,8 +484,6 @@ engineObserver
 .
 let
 {
-context
-.
 store
 .
 dispatch
@@ -504,8 +500,6 @@ it
 second
 )
 )
-context
-.
 store
 .
 dispatch
@@ -526,9 +520,9 @@ private
 fun
 link
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -563,8 +557,6 @@ EngineObserver
 tab
 .
 id
-context
-.
 store
 scope
 )
@@ -690,8 +682,6 @@ parentId
 .
 let
 {
-context
-.
 store
 .
 state
@@ -840,9 +830,9 @@ private
 fun
 unlink
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -857,8 +847,6 @@ UnlinkEngineSessionAction
 val
 tab
 =
-context
-.
 store
 .
 state

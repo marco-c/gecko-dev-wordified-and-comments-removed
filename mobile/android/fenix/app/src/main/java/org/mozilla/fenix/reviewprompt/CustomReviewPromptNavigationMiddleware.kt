@@ -95,7 +95,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 org
 .
@@ -154,9 +154,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 CustomReviewPromptState
 CustomReviewPromptAction
@@ -178,8 +178,6 @@ val
 events
 =
 (
-context
-.
 store
 as
 CustomReviewPromptStore

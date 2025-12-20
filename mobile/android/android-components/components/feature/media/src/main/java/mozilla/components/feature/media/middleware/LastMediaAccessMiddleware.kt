@@ -157,7 +157,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 /
 *
 *
@@ -224,9 +224,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -269,8 +269,6 @@ PlaybackState
 PLAYING
 )
 {
-context
-.
 store
 .
 dispatch
@@ -295,8 +293,6 @@ MediaSessionAction
 DeactivatedMediaSessionAction
 )
 {
-context
-.
 store
 .
 dispatch

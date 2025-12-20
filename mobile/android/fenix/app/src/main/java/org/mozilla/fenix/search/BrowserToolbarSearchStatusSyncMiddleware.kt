@@ -199,7 +199,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -361,9 +361,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserToolbarState
 BrowserToolbarAction
@@ -394,7 +394,7 @@ Init
 {
 syncSearchActive
 (
-context
+store
 )
 }
 if
@@ -459,9 +459,9 @@ private
 fun
 syncSearchActive
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserToolbarState
 BrowserToolbarAction
@@ -500,8 +500,6 @@ searchState
 isSearchActive
 )
 {
-context
-.
 store
 .
 dispatch
@@ -518,8 +516,6 @@ isPrivate
 }
 else
 {
-context
-.
 store
 .
 dispatch

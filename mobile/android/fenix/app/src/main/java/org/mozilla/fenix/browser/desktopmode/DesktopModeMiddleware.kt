@@ -151,7 +151,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -259,9 +259,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -296,8 +296,6 @@ scope
 .
 launch
 {
-context
-.
 store
 .
 dispatch
@@ -330,8 +328,6 @@ launch
 val
 updatedDesktopMode
 =
-context
-.
 store
 .
 state
@@ -363,8 +359,6 @@ revert
 the
 state
 change
-.
-context
 .
 store
 .

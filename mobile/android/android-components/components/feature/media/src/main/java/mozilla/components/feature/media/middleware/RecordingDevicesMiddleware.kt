@@ -245,7 +245,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -438,9 +438,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -513,7 +513,7 @@ CustomTabListAction
 {
 process
 (
-context
+store
 false
 )
 }
@@ -522,9 +522,9 @@ private
 fun
 process
 (
-middlewareContext
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -537,8 +537,6 @@ Boolean
 val
 devices
 =
-middlewareContext
-.
 store
 .
 state
@@ -674,7 +672,7 @@ isShowingNotification
 false
 process
 (
-middlewareContext
+store
 true
 )
 }

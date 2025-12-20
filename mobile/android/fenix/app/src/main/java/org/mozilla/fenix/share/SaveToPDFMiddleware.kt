@@ -183,7 +183,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 org
 .
@@ -402,9 +402,9 @@ override
 fun
 invoke
 (
-ctx
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -436,8 +436,6 @@ SaveToPdfAction
 {
 postTelemetryTapped
 (
-ctx
-.
 store
 .
 state
@@ -479,8 +477,6 @@ SaveToPdfCompleteAction
 {
 postTelemetryCompleted
 (
-ctx
-.
 store
 .
 state
@@ -532,8 +528,6 @@ unable_to_save_to_pdf_error
 )
 postTelemetryFailed
 (
-ctx
-.
 store
 .
 state
@@ -561,8 +555,6 @@ PrintContentAction
 {
 postTelemetryTapped
 (
-ctx
-.
 store
 .
 state
@@ -602,8 +594,6 @@ PrintContentCompletedAction
 {
 postTelemetryCompleted
 (
-ctx
-.
 store
 .
 state
@@ -655,8 +645,6 @@ unable_to_print_page_error
 )
 postTelemetryFailed
 (
-ctx
-.
 store
 .
 state

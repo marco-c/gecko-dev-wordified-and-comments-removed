@@ -89,7 +89,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -606,9 +606,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 AppState
 AppAction
@@ -652,7 +652,7 @@ CheckIfEligibleForReviewPrompt
 >
 handleReviewPromptCheck
 (
-context
+store
 )
 ReviewPromptShown
 -
@@ -691,9 +691,9 @@ private
 fun
 handleReviewPromptCheck
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 AppState
 AppAction
@@ -702,8 +702,6 @@ AppAction
 {
 if
 (
-context
-.
 store
 .
 state
@@ -900,8 +898,6 @@ id
 =
 2001801
 .
-context
-.
 store
 .
 dispatch
@@ -911,8 +907,6 @@ ShowPlayStorePrompt
 }
 else
 {
-context
-.
 store
 .
 dispatch
@@ -923,8 +917,6 @@ ShowPlayStorePrompt
 }
 else
 {
-context
-.
 store
 .
 dispatch

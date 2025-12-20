@@ -323,16 +323,6 @@ lib
 .
 state
 .
-MiddlewareContext
-import
-mozilla
-.
-components
-.
-lib
-.
-state
-.
 Store
 import
 mozilla
@@ -525,9 +515,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -561,8 +551,6 @@ removeDownload
 action
 .
 downloadId
-context
-.
 store
 )
 is
@@ -585,7 +573,7 @@ updateDownload
 action
 .
 download
-context
+store
 )
 is
 DownloadAction
@@ -595,8 +583,6 @@ RestoreDownloadsStateAction
 >
 restoreDownloads
 (
-context
-.
 store
 )
 is
@@ -607,8 +593,6 @@ RemoveDeletedDownloads
 >
 removeDeletedDownloads
 (
-context
-.
 store
 )
 is
@@ -619,8 +603,6 @@ CancelDownloadAction
 >
 closeDownloadResponse
 (
-context
-.
 store
 action
 .
@@ -646,8 +628,6 @@ private
 !
 saveDownload
 (
-context
-.
 store
 action
 .
@@ -732,8 +712,6 @@ RemoveAllPrivateTabsAction
 >
 removePrivateNotifications
 (
-context
-.
 store
 )
 is
@@ -750,8 +728,6 @@ RemoveTabAction
 val
 privateTabs
 =
-context
-.
 store
 .
 state
@@ -773,8 +749,6 @@ isEmpty
 {
 removePrivateNotifications
 (
-context
-.
 store
 )
 }
@@ -1010,9 +984,9 @@ updateDownload
 updated
 :
 DownloadState
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -1026,8 +1000,6 @@ updated
 private
 )
 return
-context
-.
 store
 .
 state

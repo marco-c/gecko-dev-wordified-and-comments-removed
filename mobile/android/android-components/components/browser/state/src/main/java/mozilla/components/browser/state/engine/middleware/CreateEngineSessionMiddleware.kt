@@ -185,16 +185,6 @@ lib
 .
 state
 .
-MiddlewareContext
-import
-mozilla
-.
-components
-.
-lib
-.
-state
-.
 Store
 import
 mozilla
@@ -274,9 +264,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -306,8 +296,6 @@ CreateEngineSessionAction
 val
 engineState
 =
-context
-.
 store
 .
 state
@@ -346,8 +334,6 @@ engineState
 crashed
 )
 {
-context
-.
 store
 .
 dispatch
@@ -364,8 +350,6 @@ true
 )
 createEngineSession
 (
-context
-.
 store
 action
 )
@@ -447,8 +431,6 @@ scope
 .
 launch
 {
-context
-.
 store
 .
 dispatch

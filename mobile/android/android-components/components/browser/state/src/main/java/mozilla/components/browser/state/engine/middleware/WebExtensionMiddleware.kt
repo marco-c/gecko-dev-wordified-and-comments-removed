@@ -169,7 +169,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -233,9 +233,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -267,8 +267,6 @@ UnlinkEngineSessionAction
 {
 if
 (
-context
-.
 store
 .
 state
@@ -284,8 +282,6 @@ tabId
 val
 activeTab
 =
-context
-.
 store
 .
 state
@@ -342,7 +338,7 @@ LinkEngineSessionAction
 {
 switchActiveStateIfNeeded
 (
-context
+store
 )
 }
 else
@@ -361,9 +357,9 @@ private
 fun
 switchActiveStateIfNeeded
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -373,8 +369,6 @@ BrowserAction
 val
 state
 =
-context
-.
 store
 .
 state
@@ -479,8 +473,6 @@ id
 )
 "
 )
-context
-.
 store
 .
 dispatch
@@ -519,8 +511,6 @@ markActiveForWebExtensions
 (
 true
 )
-context
-.
 store
 .
 dispatch

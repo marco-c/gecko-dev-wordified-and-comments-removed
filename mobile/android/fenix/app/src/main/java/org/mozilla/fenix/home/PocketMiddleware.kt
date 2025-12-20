@@ -141,16 +141,6 @@ lib
 .
 state
 .
-MiddlewareContext
-import
-mozilla
-.
-components
-.
-lib
-.
-state
-.
 Store
 import
 mozilla
@@ -610,9 +600,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 AppState
 AppAction
@@ -763,8 +753,6 @@ action
 storiesCategories
 store
 =
-context
-.
 store
 selectedPocketCategoriesDataStore
 =
@@ -845,8 +833,6 @@ coroutineScope
 coroutineScope
 currentCategoriesSelections
 =
-context
-.
 store
 .
 state

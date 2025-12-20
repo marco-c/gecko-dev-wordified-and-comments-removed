@@ -87,7 +87,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 class
 SitePermissionOptionsStorageMiddleware
 (
@@ -111,9 +111,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 SitePermissionOptionsScreenState
 SitePermissionOptionsScreenAction
@@ -166,8 +166,6 @@ InitSitePermissionOptions
 -
 >
 {
-context
-.
 store
 .
 dispatch

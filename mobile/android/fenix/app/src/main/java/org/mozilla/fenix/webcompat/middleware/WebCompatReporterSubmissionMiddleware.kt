@@ -141,7 +141,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 org
 .
@@ -447,9 +447,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 WebCompatReporterState
 WebCompatReporterAction
@@ -489,7 +489,7 @@ launch
 {
 handleSendReport
 (
-context
+store
 )
 }
 }
@@ -506,7 +506,7 @@ launch
 {
 handleOpenPreviewClicked
 (
-context
+store
 )
 }
 }
@@ -523,7 +523,7 @@ launch
 {
 handleSendMoreInfoClicked
 (
-context
+store
 )
 }
 }
@@ -539,9 +539,9 @@ suspend
 fun
 handleSendReport
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 WebCompatReporterState
 WebCompatReporterAction
@@ -564,8 +564,6 @@ let
 val
 enteredUrlMatchesTabUrl
 =
-context
-.
 store
 .
 state
@@ -590,8 +588,6 @@ webCompatInfo
 antitracking
 sendBlockedUrls
 =
-context
-.
 store
 .
 state
@@ -644,8 +640,6 @@ setUrlMetrics
 (
 url
 =
-context
-.
 store
 .
 state
@@ -656,8 +650,6 @@ setReasonMetrics
 (
 reason
 =
-context
-.
 store
 .
 state
@@ -668,8 +660,6 @@ setDescriptionMetrics
 (
 description
 =
-context
-.
 store
 .
 state
@@ -686,8 +676,6 @@ brokenSiteReport
 submit
 (
 )
-context
-.
 store
 .
 dispatch
@@ -712,9 +700,9 @@ suspend
 fun
 handleOpenPreviewClicked
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 WebCompatReporterState
 WebCompatReporterAction
@@ -734,15 +722,11 @@ webCompatJSON
 =
 generatePreviewJSON
 (
-context
-.
 store
 .
 state
 webCompatInfo
 )
-context
-.
 store
 .
 dispatch
@@ -1024,9 +1008,9 @@ suspend
 fun
 handleSendMoreInfoClicked
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 WebCompatReporterState
 WebCompatReporterAction
@@ -1039,8 +1023,6 @@ sendMoreWebCompatInfo
 (
 reason
 =
-context
-.
 store
 .
 state
@@ -1048,8 +1030,6 @@ state
 reason
 problemDescription
 =
-context
-.
 store
 .
 state
@@ -1057,8 +1037,6 @@ state
 problemDescription
 enteredUrl
 =
-context
-.
 store
 .
 state
@@ -1066,8 +1044,6 @@ state
 enteredUrl
 tabUrl
 =
-context
-.
 store
 .
 state
@@ -1087,8 +1063,6 @@ engineState
 .
 engineSession
 )
-context
-.
 store
 .
 dispatch

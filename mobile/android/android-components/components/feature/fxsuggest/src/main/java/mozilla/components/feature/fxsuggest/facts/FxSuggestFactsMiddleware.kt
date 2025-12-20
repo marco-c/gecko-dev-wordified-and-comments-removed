@@ -175,7 +175,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -369,9 +369,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -391,7 +391,7 @@ BrowserAction
 {
 handleAction
 (
-context
+store
 action
 )
 next
@@ -403,9 +403,9 @@ private
 fun
 handleAction
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -430,8 +430,6 @@ emitSuggestionFacts
 (
 awesomeBarState
 =
-context
-.
 store
 .
 state
@@ -439,8 +437,6 @@ state
 awesomeBarState
 clientCountry
 =
-context
-.
 store
 .
 state

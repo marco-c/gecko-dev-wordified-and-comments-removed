@@ -83,7 +83,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -158,9 +158,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BookmarksState
 BookmarksAction
@@ -181,8 +181,6 @@ BookmarksAction
 val
 preReductionState
 =
-context
-.
 store
 .
 state

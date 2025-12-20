@@ -167,7 +167,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -344,9 +344,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -388,8 +388,6 @@ action
 showTrackingProtectionCfr
 (
 action
-context
-.
 store
 .
 state

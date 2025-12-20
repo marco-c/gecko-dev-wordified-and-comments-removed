@@ -229,16 +229,6 @@ lib
 .
 state
 .
-MiddlewareContext
-import
-mozilla
-.
-components
-.
-lib
-.
-state
-.
 Store
 /
 *
@@ -291,9 +281,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -324,8 +314,6 @@ LoadUrlAction
 >
 loadUrl
 (
-context
-.
 store
 action
 )
@@ -337,8 +325,6 @@ LoadDataAction
 >
 loadData
 (
-context
-.
 store
 action
 )
@@ -350,8 +336,6 @@ ReloadAction
 >
 reload
 (
-context
-.
 store
 action
 )
@@ -363,8 +347,6 @@ GoBackAction
 >
 goBack
 (
-context
-.
 store
 action
 )
@@ -376,8 +358,6 @@ GoForwardAction
 >
 goForward
 (
-context
-.
 store
 action
 )
@@ -389,8 +369,6 @@ GoToHistoryIndexAction
 >
 goToHistoryIndex
 (
-context
-.
 store
 action
 )
@@ -402,8 +380,6 @@ ToggleDesktopModeAction
 >
 toggleDesktopMode
 (
-context
-.
 store
 action
 )
@@ -415,8 +391,6 @@ ExitFullScreenModeAction
 >
 exitFullScreen
 (
-context
-.
 store
 action
 )
@@ -428,8 +402,6 @@ SaveToPdfAction
 >
 saveToPdf
 (
-context
-.
 store
 action
 )
@@ -441,8 +413,6 @@ PrintContentAction
 >
 printContent
 (
-context
-.
 store
 action
 )
@@ -454,8 +424,6 @@ ClearDataAction
 >
 clearData
 (
-context
-.
 store
 action
 )
@@ -467,8 +435,6 @@ PurgeHistoryAction
 >
 purgeHistory
 (
-context
-.
 store
 .
 state
@@ -481,8 +447,6 @@ FlushEngineSessionStateAction
 >
 flushEngineSessionSate
 (
-context
-.
 store
 action
 )
@@ -499,8 +463,6 @@ action
 )
 translate
 (
-context
-.
 store
 action
 )
@@ -518,8 +480,6 @@ action
 )
 translateRestoreOriginal
 (
-context
-.
 store
 action
 )

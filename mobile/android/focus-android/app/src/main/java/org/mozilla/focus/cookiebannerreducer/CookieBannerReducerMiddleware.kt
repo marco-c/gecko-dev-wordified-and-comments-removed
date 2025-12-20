@@ -155,7 +155,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -263,9 +263,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 CookieBannerReducerState
 CookieBannerReducerAction
@@ -310,7 +310,7 @@ the
 screen
 initCookieBannerReducer
 (
-context
+store
 )
 }
 is
@@ -323,7 +323,7 @@ ToggleCookieBannerException
 handleCookieBannerToggle
 (
 action
-context
+store
 )
 next
 (
@@ -340,7 +340,7 @@ RequestReportSite
 reportSite
 (
 action
-context
+store
 )
 next
 (
@@ -367,9 +367,9 @@ action
 CookieBannerReducerAction
 .
 ToggleCookieBannerException
-context
+store
 :
-MiddlewareContext
+Store
 <
 CookieBannerReducerState
 CookieBannerReducerAction
@@ -408,8 +408,6 @@ NoExtras
 (
 )
 )
-context
-.
 store
 .
 dispatch
@@ -449,8 +447,6 @@ NoExtras
 (
 )
 )
-context
-.
 store
 .
 dispatch
@@ -485,9 +481,9 @@ action
 CookieBannerReducerAction
 .
 RequestReportSite
-context
+store
 :
-MiddlewareContext
+Store
 <
 CookieBannerReducerState
 CookieBannerReducerAction
@@ -511,8 +507,6 @@ cookieBannerReportSite
 submit
 (
 )
-context
-.
 store
 .
 dispatch
@@ -524,8 +518,6 @@ ShowSnackBarForSiteToReport
 true
 )
 )
-context
-.
 store
 .
 dispatch
@@ -557,9 +549,9 @@ private
 fun
 initCookieBannerReducer
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 CookieBannerReducerState
 CookieBannerReducerAction
@@ -572,8 +564,6 @@ shouldShowCookieBannerItem
 shouldShowCookieBannerReducerItem
 (
 )
-context
-.
 store
 .
 dispatch
@@ -600,7 +590,7 @@ if
 (
 isSiteDomainReported
 (
-context
+store
 )
 )
 {
@@ -652,8 +642,6 @@ hide
 the
 item
 .
-context
-.
 store
 .
 dispatch
@@ -676,7 +664,7 @@ hasException
 {
 showExceptionStatus
 (
-context
+store
 true
 )
 }
@@ -684,7 +672,7 @@ else
 {
 showUnsupportedSiteIfNeeded
 (
-context
+store
 )
 }
 }
@@ -695,9 +683,9 @@ private
 fun
 showUnsupportedSiteIfNeeded
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 CookieBannerReducerState
 CookieBannerReducerAction
@@ -726,14 +714,12 @@ result
 {
 showExceptionStatus
 (
-context
+store
 false
 )
 }
 else
 {
-context
-.
 store
 .
 dispatch
@@ -752,8 +738,6 @@ CookieBannerSiteNotSupported
 onException
 =
 {
-context
-.
 store
 .
 dispatch
@@ -774,9 +758,9 @@ private
 fun
 showExceptionStatus
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 CookieBannerReducerState
 CookieBannerReducerAction
@@ -791,8 +775,6 @@ if
 hasException
 )
 {
-context
-.
 store
 .
 dispatch
@@ -809,8 +791,6 @@ HasException
 }
 else
 {
-context
-.
 store
 .
 dispatch
@@ -894,9 +874,9 @@ suspend
 fun
 isSiteDomainReported
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 CookieBannerReducerState
 CookieBannerReducerAction
@@ -956,8 +936,6 @@ siteDomain
 )
 )
 {
-context
-.
 store
 .
 dispatch

@@ -143,7 +143,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 org
 .
@@ -208,9 +208,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 TranslationsDialogState
 TranslationsDialogAction
@@ -428,8 +428,6 @@ TranslateAction
 -
 >
 {
-context
-.
 store
 .
 state
@@ -445,8 +443,6 @@ let
 fromLanguage
 -
 >
-context
-.
 store
 .
 state

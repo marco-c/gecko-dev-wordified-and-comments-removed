@@ -149,16 +149,6 @@ lib
 .
 state
 .
-MiddlewareContext
-import
-mozilla
-.
-components
-.
-lib
-.
-state
-.
 Store
 import
 org
@@ -262,9 +252,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 StartupCrashState
 StartupCrashAction
@@ -301,8 +291,6 @@ launch
 {
 sendUnsentCrashReports
 (
-context
-.
 store
 )
 }

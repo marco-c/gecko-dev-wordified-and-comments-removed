@@ -155,7 +155,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 /
 *
 *
@@ -193,9 +193,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -230,7 +230,7 @@ if
 shouldBlockPrompt
 (
 action
-context
+store
 )
 )
 {
@@ -262,9 +262,9 @@ action
 ContentAction
 .
 UpdatePromptRequestAction
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -284,8 +284,6 @@ PromptRequest
 Popup
 )
 {
-context
-.
 store
 .
 state

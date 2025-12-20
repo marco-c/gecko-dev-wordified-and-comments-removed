@@ -560,7 +560,7 @@ TestAction
 >
 =
 {
-middlewareContext
+store
 next
 action
 -
@@ -575,8 +575,6 @@ TestAction
 DoNothingAction
 )
 {
-middlewareContext
-.
 store
 .
 dispatch
@@ -601,7 +599,7 @@ TestAction
 >
 =
 {
-middlewareContext
+store
 next
 action
 -
@@ -616,8 +614,6 @@ TestAction
 DoNothingAction
 )
 {
-middlewareContext
-.
 store
 .
 dispatch
@@ -950,7 +946,7 @@ TestAction
 >
 =
 {
-middlewareContext
+store
 next
 action
 -
@@ -965,8 +961,6 @@ TestAction
 IncrementAction
 )
 {
-middlewareContext
-.
 store
 .
 dispatch
@@ -1090,15 +1084,13 @@ TestAction
 >
 =
 {
-context
+store
 next
 action
 -
 >
 countBefore
 =
-context
-.
 store
 .
 state
@@ -1110,8 +1102,6 @@ action
 )
 countAfter
 =
-context
-.
 store
 .
 state
@@ -1380,9 +1370,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 TestState
 TestAction
@@ -1424,8 +1414,6 @@ delay
 (
 5
 )
-context
-.
 store
 .
 dispatch

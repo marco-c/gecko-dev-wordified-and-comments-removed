@@ -333,7 +333,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -1757,9 +1757,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 SyncState
 SyncAction
@@ -1780,8 +1780,6 @@ SyncAction
 val
 prevState
 =
-context
-.
 store
 .
 state
@@ -1792,8 +1790,6 @@ action
 val
 accountUid
 =
-context
-.
 store
 .
 state

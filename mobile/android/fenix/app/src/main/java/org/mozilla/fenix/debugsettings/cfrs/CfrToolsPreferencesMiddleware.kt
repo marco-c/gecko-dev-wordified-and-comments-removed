@@ -109,7 +109,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 /
 *
 *
@@ -190,9 +190,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 CfrToolsState
 CfrToolsAction
@@ -246,8 +246,6 @@ mapRepoUpdateToStoreAction
 (
 cfrPreferenceUpdate
 )
-context
-.
 store
 .
 dispatch
@@ -286,8 +284,6 @@ CfrPreference
 HomepageSearchBar
 value
 =
-context
-.
 store
 .
 state
@@ -320,8 +316,6 @@ CfrPreference
 TabAutoCloseBanner
 value
 =
-context
-.
 store
 .
 state
@@ -354,8 +348,6 @@ CfrPreference
 InactiveTabs
 value
 =
-context
-.
 store
 .
 state
@@ -388,8 +380,6 @@ CfrPreference
 OpenInApp
 value
 =
-context
-.
 store
 .
 state

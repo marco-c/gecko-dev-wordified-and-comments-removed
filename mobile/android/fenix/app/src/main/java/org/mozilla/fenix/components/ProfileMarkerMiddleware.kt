@@ -123,7 +123,7 @@ lib
 .
 state
 .
-MiddlewareContext
+State
 import
 mozilla
 .
@@ -133,7 +133,7 @@ lib
 .
 state
 .
-State
+Store
 /
 *
 *
@@ -231,9 +231,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 S
 A

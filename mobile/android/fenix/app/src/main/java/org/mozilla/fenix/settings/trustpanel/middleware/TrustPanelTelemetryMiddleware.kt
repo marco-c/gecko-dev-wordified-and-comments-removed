@@ -87,7 +87,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -192,9 +192,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 TrustPanelState
 TrustPanelAction
@@ -215,8 +215,6 @@ TrustPanelAction
 val
 currentState
 =
-context
-.
 store
 .
 state

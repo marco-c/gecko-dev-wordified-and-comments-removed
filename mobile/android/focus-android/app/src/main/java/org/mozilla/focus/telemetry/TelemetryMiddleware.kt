@@ -217,7 +217,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -289,9 +289,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -330,7 +330,7 @@ collectTelemetry
 action
 .
 tab
-context
+store
 )
 }
 is
@@ -348,7 +348,7 @@ withEach
 collectTelemetry
 (
 it
-context
+store
 )
 }
 is
@@ -368,8 +368,6 @@ TabCount
 .
 NewTabOpenedExtra
 (
-context
-.
 store
 .
 state
@@ -391,8 +389,6 @@ UpdateLoadingStateAction
 -
 >
 {
-context
-.
 store
 .
 state
@@ -525,9 +521,9 @@ collectTelemetry
 tab
 :
 SessionState
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -537,8 +533,6 @@ BrowserAction
 val
 tabCount
 =
-context
-.
 store
 .
 state
@@ -674,8 +668,6 @@ parentId
 .
 let
 {
-context
-.
 store
 .
 state

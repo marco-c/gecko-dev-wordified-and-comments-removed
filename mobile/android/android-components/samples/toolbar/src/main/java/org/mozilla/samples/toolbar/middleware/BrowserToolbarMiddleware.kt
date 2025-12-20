@@ -423,7 +423,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 org
 .
@@ -924,9 +924,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserToolbarState
 BrowserToolbarAction
@@ -956,10 +956,10 @@ Init
 -
 >
 {
+this
+.
 store
 =
-context
-.
 store
 as
 BrowserToolbarStore

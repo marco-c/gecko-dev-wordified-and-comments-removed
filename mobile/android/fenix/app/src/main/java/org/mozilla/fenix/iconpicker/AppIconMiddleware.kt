@@ -83,7 +83,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 /
 *
 *
@@ -143,9 +143,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 AppIconState
 AppIconAction
@@ -196,8 +196,6 @@ oldIcon
 )
 )
 {
-context
-.
 store
 .
 dispatch
@@ -214,8 +212,6 @@ newIcon
 }
 else
 {
-context
-.
 store
 .
 dispatch

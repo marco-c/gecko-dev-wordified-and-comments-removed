@@ -85,7 +85,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 org
 .
@@ -153,9 +153,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 WebCompatReporterState
 WebCompatReporterAction
@@ -189,8 +189,6 @@ NavigationAction
 -
 >
 (
-context
-.
 store
 as
 WebCompatReporterStore

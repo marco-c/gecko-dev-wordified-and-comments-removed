@@ -229,7 +229,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 /
 *
 *
@@ -275,9 +275,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -308,9 +308,7 @@ RemoveAllNormalTabsAction
 >
 onTabsRemoved
 (
-context
-context
-.
+store
 store
 .
 state
@@ -325,9 +323,7 @@ RemoveAllPrivateTabsAction
 >
 onTabsRemoved
 (
-context
-context
-.
+store
 store
 .
 state
@@ -342,9 +338,7 @@ RemoveAllTabsAction
 >
 onTabsRemoved
 (
-context
-context
-.
+store
 store
 .
 state
@@ -357,8 +351,6 @@ TabListAction
 RemoveTabAction
 -
 >
-context
-.
 store
 .
 state
@@ -375,7 +367,7 @@ let
 {
 onTabsRemoved
 (
-context
+store
 listOf
 (
 it
@@ -394,8 +386,6 @@ tabIds
 .
 mapNotNull
 {
-context
-.
 store
 .
 state
@@ -410,7 +400,7 @@ let
 {
 onTabsRemoved
 (
-context
+store
 it
 )
 }
@@ -422,9 +412,7 @@ RemoveAllCustomTabsAction
 >
 onTabsRemoved
 (
-context
-context
-.
+store
 store
 .
 state
@@ -437,8 +425,6 @@ CustomTabListAction
 RemoveCustomTabAction
 -
 >
-context
-.
 store
 .
 state
@@ -455,7 +441,7 @@ let
 {
 onTabsRemoved
 (
-context
+store
 listOf
 (
 it
@@ -482,9 +468,9 @@ private
 fun
 onTabsRemoved
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -516,8 +502,6 @@ engineSession
 null
 )
 {
-context
-.
 store
 .
 dispatch

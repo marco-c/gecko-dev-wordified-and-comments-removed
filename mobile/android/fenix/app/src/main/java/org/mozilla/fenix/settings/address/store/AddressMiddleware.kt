@@ -125,7 +125,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 org
 .
@@ -239,9 +239,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 AddressState
 AddressAction
@@ -274,8 +274,6 @@ SaveTapped
 >
 runAndNavigateBack
 {
-context
-.
 store
 .
 state
@@ -290,8 +288,6 @@ environment
 updateAddress
 (
 it
-context
-.
 store
 .
 state
@@ -314,8 +310,6 @@ environment
 .
 createAddress
 (
-context
-.
 store
 .
 state
@@ -339,8 +333,6 @@ DeleteTapped
 >
 runAndNavigateBack
 {
-context
-.
 store
 .
 state

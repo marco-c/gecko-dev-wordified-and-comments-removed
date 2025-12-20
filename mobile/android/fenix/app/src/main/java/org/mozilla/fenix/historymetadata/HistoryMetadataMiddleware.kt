@@ -239,16 +239,6 @@ lib
 .
 state
 .
-MiddlewareContext
-import
-mozilla
-.
-components
-.
-lib
-.
-state
-.
 Store
 import
 mozilla
@@ -370,9 +360,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -439,8 +429,6 @@ if
 not
 private
 .
-context
-.
 store
 .
 state
@@ -487,8 +475,6 @@ if
 not
 private
 .
-context
-.
 store
 .
 state
@@ -518,8 +504,6 @@ action
 tabId
 =
 =
-context
-.
 store
 .
 state
@@ -527,8 +511,6 @@ state
 selectedTabId
 )
 {
-context
-.
 store
 .
 state
@@ -566,8 +548,6 @@ find
 it
 =
 =
-context
-.
 store
 .
 state
@@ -578,8 +558,6 @@ selectedTabId
 .
 let
 {
-context
-.
 store
 .
 state
@@ -609,8 +587,6 @@ UpdateUrlAction
 -
 >
 {
-context
-.
 store
 .
 state
@@ -636,8 +612,6 @@ tab
 id
 =
 =
-context
-.
 store
 .
 state
@@ -989,7 +963,7 @@ private
 {
 createHistoryMetadataIfNeeded
 (
-context
+store
 action
 .
 tab
@@ -1018,8 +992,6 @@ UpdateHistoryStateAction
 -
 >
 {
-context
-.
 store
 .
 state
@@ -1039,7 +1011,7 @@ tab
 >
 createHistoryMetadataIfNeeded
 (
-context
+store
 tab
 )
 }
@@ -1092,8 +1064,6 @@ UpdateMediaMetadataAction
 -
 >
 {
-context
-.
 store
 .
 state
@@ -1113,7 +1083,7 @@ tab
 >
 createHistoryMetadata
 (
-context
+store
 tab
 )
 }
@@ -1134,9 +1104,9 @@ private
 fun
 createHistoryMetadataIfNeeded
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -1221,7 +1191,7 @@ metadataPresentForUrl
 {
 createHistoryMetadata
 (
-context
+store
 tab
 )
 }
@@ -1236,9 +1206,9 @@ private
 fun
 createHistoryMetadata
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -1255,8 +1225,6 @@ tab
 .
 getParent
 (
-context
-.
 store
 )
 val
@@ -1548,8 +1516,6 @@ searchTerms
 findSearchTerms
 (
 tabParent
-context
-.
 store
 .
 state
@@ -1687,8 +1653,6 @@ searchTerms
 findSearchTerms
 (
 tab
-context
-.
 store
 .
 state
@@ -1709,8 +1673,6 @@ null
 }
 else
 {
-context
-.
 store
 .
 state
@@ -1881,8 +1843,6 @@ else
 findSearchTerms
 (
 tab
-context
-.
 store
 .
 state
@@ -1954,8 +1914,6 @@ tab
 searchTerm
 referrerUrl
 )
-context
-.
 store
 .
 dispatch

@@ -127,7 +127,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -191,9 +191,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BookmarksState
 BookmarksAction
@@ -244,8 +244,6 @@ isInEditMode
 >
 if
 (
-context
-.
 store
 .
 state
@@ -257,8 +255,6 @@ isSearching
 isInEditMode
 )
 {
-context
-.
 store
 .
 dispatch

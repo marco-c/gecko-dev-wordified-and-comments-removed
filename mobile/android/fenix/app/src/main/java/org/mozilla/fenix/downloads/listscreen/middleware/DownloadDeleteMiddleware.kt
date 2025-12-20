@@ -151,7 +151,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 org
 .
@@ -338,9 +338,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 DownloadUIState
 DownloadUIAction
@@ -375,7 +375,7 @@ AddPendingDeletionSet
 >
 startDelayedRemoval
 (
-context
+store
 action
 .
 itemIds
@@ -409,9 +409,9 @@ private
 fun
 startDelayedRemoval
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 DownloadUIState
 DownloadUIAction
@@ -449,8 +449,6 @@ removeDownloadUseCase
 it
 )
 }
-context
-.
 store
 .
 dispatch
@@ -467,8 +465,6 @@ e
 CancellationException
 )
 {
-context
-.
 store
 .
 dispatch

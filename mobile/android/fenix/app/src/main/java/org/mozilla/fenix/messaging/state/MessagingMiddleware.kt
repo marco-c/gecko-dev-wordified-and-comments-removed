@@ -103,7 +103,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -293,7 +293,7 @@ Settings
 typealias
 AppStoreMiddlewareContext
 =
-MiddlewareContext
+Store
 <
 AppState
 AppAction
@@ -335,7 +335,7 @@ override
 fun
 invoke
 (
-context
+store
 :
 AppStoreMiddlewareContext
 next
@@ -373,8 +373,6 @@ controller
 getMessages
 (
 )
-context
-.
 store
 .
 dispatch
@@ -401,8 +399,6 @@ getNextMessage
 action
 .
 surface
-context
-.
 store
 .
 state
@@ -419,8 +415,6 @@ message
 null
 )
 {
-context
-.
 store
 .
 dispatch
@@ -433,13 +427,11 @@ message
 onMessagedDisplayed
 (
 message
-context
+store
 )
 }
 else
 {
-context
-.
 store
 .
 dispatch
@@ -462,7 +454,7 @@ onMessageClicked
 action
 .
 message
-context
+store
 )
 is
 MessageDismissed
@@ -470,7 +462,7 @@ MessageDismissed
 >
 onMessageDismissed
 (
-context
+store
 action
 .
 message
@@ -506,8 +498,6 @@ Dismissed
 -
 >
 {
-context
-.
 store
 .
 state
@@ -536,7 +526,7 @@ message
 >
 onMicrosurveyDismissed
 (
-context
+store
 message
 )
 }
@@ -548,8 +538,6 @@ Completed
 -
 >
 {
-context
-.
 store
 .
 state
@@ -578,7 +566,7 @@ message
 >
 onMicrosurveyCompleted
 (
-context
+store
 message
 action
 .
@@ -630,7 +618,7 @@ private
 fun
 onMicrosurveyCompleted
 (
-context
+store
 :
 AppStoreMiddlewareContext
 message
@@ -646,11 +634,9 @@ newMessages
 =
 removeMessage
 (
-context
+store
 message
 )
-context
-.
 store
 .
 dispatch
@@ -662,7 +648,7 @@ newMessages
 )
 consumeMessageToShowIfNeeded
 (
-context
+store
 message
 )
 coroutineScope
@@ -703,7 +689,7 @@ private
 fun
 onMicrosurveyDismissed
 (
-context
+store
 :
 AppStoreMiddlewareContext
 message
@@ -716,11 +702,9 @@ newMessages
 =
 removeMessage
 (
-context
+store
 message
 )
-context
-.
 store
 .
 dispatch
@@ -732,7 +716,7 @@ newMessages
 )
 consumeMessageToShowIfNeeded
 (
-context
+store
 message
 )
 coroutineScope
@@ -796,7 +780,7 @@ onMessagedDisplayed
 oldMessage
 :
 Message
-context
+store
 :
 AppStoreMiddlewareContext
 )
@@ -827,7 +811,7 @@ isExpired
 {
 updateMessage
 (
-context
+store
 oldMessage
 newMessage
 )
@@ -849,12 +833,10 @@ shouldShowMicrosurveyPrompt
 false
 removeMessage
 (
-context
+store
 oldMessage
 )
 }
-context
-.
 store
 .
 dispatch
@@ -884,7 +866,7 @@ private
 fun
 onMessageDismissed
 (
-context
+store
 :
 AppStoreMiddlewareContext
 message
@@ -897,11 +879,9 @@ newMessages
 =
 removeMessage
 (
-context
+store
 message
 )
-context
-.
 store
 .
 dispatch
@@ -913,7 +893,7 @@ newMessages
 )
 consumeMessageToShowIfNeeded
 (
-context
+store
 message
 )
 coroutineScope
@@ -935,7 +915,7 @@ onMessageClicked
 message
 :
 Message
-context
+store
 :
 AppStoreMiddlewareContext
 )
@@ -968,11 +948,9 @@ newMessages
 =
 removeMessage
 (
-context
+store
 message
 )
-context
-.
 store
 .
 dispatch
@@ -984,7 +962,7 @@ newMessages
 )
 consumeMessageToShowIfNeeded
 (
-context
+store
 message
 )
 }
@@ -1013,7 +991,7 @@ private
 fun
 consumeMessageToShowIfNeeded
 (
-context
+store
 :
 AppStoreMiddlewareContext
 message
@@ -1024,8 +1002,6 @@ Message
 val
 current
 =
-context
-.
 store
 .
 state
@@ -1051,8 +1027,6 @@ message
 id
 )
 {
-context
-.
 store
 .
 dispatch
@@ -1070,7 +1044,7 @@ private
 fun
 removeMessage
 (
-context
+store
 :
 AppStoreMiddlewareContext
 message
@@ -1084,8 +1058,6 @@ Message
 >
 {
 return
-context
-.
 store
 .
 state
@@ -1110,7 +1082,7 @@ private
 fun
 updateMessage
 (
-context
+store
 :
 AppStoreMiddlewareContext
 oldMessage
@@ -1129,8 +1101,6 @@ Message
 val
 actualMessageToShow
 =
-context
-.
 store
 .
 state
@@ -1156,8 +1126,6 @@ oldMessage
 id
 )
 {
-context
-.
 store
 .
 dispatch
@@ -1171,8 +1139,6 @@ updatedMessage
 val
 oldMessageIndex
 =
-context
-.
 store
 .
 state
@@ -1205,8 +1171,6 @@ oldMessageIndex
 val
 newList
 =
-context
-.
 store
 .
 state
@@ -1268,8 +1232,6 @@ cgi
 id
 =
 1897485
-context
-.
 store
 .
 state

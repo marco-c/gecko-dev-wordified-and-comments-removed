@@ -107,7 +107,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 org
 .
@@ -196,9 +196,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 AppState
 AppAction
@@ -236,8 +236,6 @@ val
 getState
 =
 {
-context
-.
 store
 .
 state
@@ -255,8 +253,6 @@ CrashAction
 Unit
 =
 {
-context
-.
 store
 .
 dispatch

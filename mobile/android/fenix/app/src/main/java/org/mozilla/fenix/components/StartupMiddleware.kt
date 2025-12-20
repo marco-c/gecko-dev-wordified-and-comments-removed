@@ -125,7 +125,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 org
 .
@@ -227,9 +227,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -254,8 +254,6 @@ is
 RestoreCompleteAction
 &
 &
-context
-.
 store
 .
 state

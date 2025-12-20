@@ -281,7 +281,7 @@ lib
 .
 state
 .
-MiddlewareContext
+Store
 import
 mozilla
 .
@@ -557,9 +557,9 @@ override
 fun
 invoke
 (
-context
+store
 :
-MiddlewareContext
+Store
 <
 BrowserState
 BrowserAction
@@ -594,8 +594,6 @@ UpdateLoadingStateAction
 -
 >
 {
-context
-.
 store
 .
 state
@@ -678,8 +676,6 @@ KillEngineSessionAction
 val
 tab
 =
-context
-.
 store
 .
 state
@@ -692,8 +688,6 @@ tabId
 )
 onEngineSessionKilled
 (
-context
-.
 store
 .
 state
@@ -710,8 +704,6 @@ CreateEngineSessionAction
 val
 tab
 =
-context
-.
 store
 .
 state
@@ -724,8 +716,6 @@ tabId
 )
 onEngineSessionCreated
 (
-context
-.
 store
 .
 state
@@ -854,8 +844,6 @@ settings
 .
 openTabsCount
 =
-context
-.
 store
 .
 state
@@ -869,8 +857,6 @@ settings
 .
 openPrivateTabsCount
 =
-context
-.
 store
 .
 state
@@ -882,8 +868,6 @@ count
 )
 if
 (
-context
-.
 store
 .
 state
