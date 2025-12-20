@@ -385,6 +385,11 @@ WebGLVendorSanitize
 )
 ITEM_VALUE
 (
+WebGLVendorConstant
+78
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
