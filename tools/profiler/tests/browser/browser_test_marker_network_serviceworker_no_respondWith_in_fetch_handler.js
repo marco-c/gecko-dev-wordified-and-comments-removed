@@ -989,6 +989,13 @@ Expect
 number
 (
 )
+priorityHeader
+:
+Expect
+.
+string
+(
+)
 count
 :
 Expect
@@ -1125,6 +1132,13 @@ pri
 Expect
 .
 number
+(
+)
+priorityHeader
+:
+Expect
+.
+string
 (
 )
 redirectType
