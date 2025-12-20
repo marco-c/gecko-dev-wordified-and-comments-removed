@@ -394,11 +394,6 @@ release_level
 config
 .
 params
-[
-"
-project
-"
-]
 )
                     
 "
