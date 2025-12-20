@@ -1991,6 +1991,16 @@ mPositionAnchor
 IsIdent
 (
 )
+|
+|
+pos
+-
+>
+mPositionAnchor
+.
+IsAuto
+(
+)
 )
 {
 return
