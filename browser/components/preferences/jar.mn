@@ -136,15 +136,6 @@ browser
 /
 preferences
 /
-translations
-.
-js
-content
-/
-browser
-/
-preferences
-/
 sync
 .
 js
