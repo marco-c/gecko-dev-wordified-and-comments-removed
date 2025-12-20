@@ -98,9 +98,6 @@ width
 :
 358px
 ;
-}
-body
-{
 background
 :
 no
@@ -136,6 +133,9 @@ attachment
 :
 fixed
 ;
+}
+body
+{
 display
 :
 flex
