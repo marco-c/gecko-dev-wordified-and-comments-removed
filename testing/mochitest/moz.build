@@ -713,6 +713,11 @@ runtestsremote
 py
 "
 "
+runtestsremoteios
+.
+py
+"
+"
 server
 .
 js
