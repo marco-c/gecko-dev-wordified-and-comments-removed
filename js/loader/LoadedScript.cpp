@@ -176,6 +176,10 @@ mIsDirty
 (
 false
 )
+mTookLongInPreviousRuns
+(
+false
+)
 mFetchOptions
 (
 aFetchOptions
@@ -245,6 +249,12 @@ mIsDirty
 aOther
 .
 mIsDirty
+)
+mTookLongInPreviousRuns
+(
+aOther
+.
+mTookLongInPreviousRuns
 )
 mFetchOptions
 (

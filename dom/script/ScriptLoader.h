@@ -284,10 +284,6 @@ ModuleScript
 class
 ScriptLoadRequest
 ;
-enum
-class
-ParserMetadata
-;
 }
 }
 namespace
@@ -2205,6 +2201,11 @@ ScriptLoadRequest
 aRequest
 )
 ;
+bool
+IsBeforeFCP
+(
+)
+;
 public
 :
 struct
@@ -2521,6 +2522,9 @@ mGiveUpDiskCaching
 ;
 bool
 mContinueParsingDocumentAfterCurrentScript
+;
+bool
+mHadFCPDoNotUseDirectly
 ;
 TimeDuration
 mMainThreadParseTime

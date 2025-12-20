@@ -162,10 +162,6 @@ mCORSMode
 (
 aCORSMode
 )
-mNonce
-(
-aNonce
-)
 mFetchPriority
 (
 aFetchPriority
@@ -177,6 +173,10 @@ aParserMetadata
 mTriggeringPrincipal
 (
 aTriggeringPrincipal
+)
+mNonce
+(
+aNonce
 )
 {
 }
@@ -331,6 +331,10 @@ mHasSourceMapURL_
 false
 )
 mHasDirtyCache_
+(
+false
+)
+mHadPostponed_
 (
 false
 )
