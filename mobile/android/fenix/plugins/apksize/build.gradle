@@ -69,8 +69,14 @@ kotlin
 dsl
 )
 }
-buildDir
-=
+layout
+.
+buildDirectory
+.
+set
+(
+file
+(
 "
 {
 gradle
@@ -94,6 +100,8 @@ plugins
 /
 apksize
 "
+)
+)
 repositories
 {
 gradle

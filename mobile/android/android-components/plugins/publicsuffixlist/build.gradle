@@ -69,8 +69,14 @@ kotlin
 dsl
 )
 }
-buildDir
-=
+layout
+.
+buildDirectory
+.
+set
+(
+file
+(
 "
 {
 gradle
@@ -96,6 +102,8 @@ plugins
 /
 publicsuffixlist
 "
+)
+)
 repositories
 {
 gradle
