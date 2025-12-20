@@ -4793,11 +4793,9 @@ browsingContextId
 const
 browsingContext
 =
-lazy
+BrowsingContext
 .
-NavigableManager
-.
-getBrowsingContextById
+get
 (
 contextId
 )
@@ -5030,11 +5028,9 @@ browsingContextId
 const
 browsingContext
 =
-lazy
+BrowsingContext
 .
-NavigableManager
-.
-getBrowsingContextById
+get
 (
 contextId
 )
