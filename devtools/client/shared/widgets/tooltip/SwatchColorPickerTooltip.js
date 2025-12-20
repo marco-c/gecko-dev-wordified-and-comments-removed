@@ -937,6 +937,17 @@ stopPropagation
 }
 this
 .
+focusableElements
+[
+0
+]
+.
+focus
+(
+)
+;
+this
+.
 tooltip
 .
 container
