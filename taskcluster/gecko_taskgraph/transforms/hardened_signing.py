@@ -160,6 +160,11 @@ release_level
 config
 .
 params
+[
+"
+project
+"
+]
 )
         
 is_shippable
@@ -454,6 +459,11 @@ release_level
 config
 .
 params
+[
+"
+project
+"
+]
 )
 =
 =
