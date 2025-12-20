@@ -171,8 +171,6 @@ caps
 bool
 speculative
 bool
-isFromPredictor
-bool
 urgentStart
 )
 ;
@@ -785,9 +783,6 @@ mSpeculative
 ;
 bool
 mUrgentStart
-;
-bool
-mIsFromPredictor
 ;
 bool
 mAllow1918
