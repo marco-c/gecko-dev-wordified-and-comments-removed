@@ -585,7 +585,11 @@ _crash_helper_pid
 :
 Pid
 )
+-
+>
+bool
 {
+true
 }
 }
 fn

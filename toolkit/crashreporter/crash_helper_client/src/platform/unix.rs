@@ -415,6 +415,10 @@ crash_helper_common
 :
 Pid
 )
+-
+>
+bool
 {
+true
 }
 }

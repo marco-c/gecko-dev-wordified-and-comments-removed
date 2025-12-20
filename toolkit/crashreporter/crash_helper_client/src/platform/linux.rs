@@ -36,11 +36,14 @@ crash_helper_pid
 :
 Pid
 )
+-
+>
+bool
 {
 unsafe
 {
 let
-_
+res
 =
 prctl
 (
@@ -48,6 +51,10 @@ PR_SET_PTRACER
 crash_helper_pid
 )
 ;
+res
+>
+=
+0
 }
 }
 }

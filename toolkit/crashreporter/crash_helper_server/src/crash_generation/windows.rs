@@ -136,7 +136,7 @@ CrashGenerator
 {
 pub
 (
-super
+crate
 )
 fn
 generate_wer_minidump
