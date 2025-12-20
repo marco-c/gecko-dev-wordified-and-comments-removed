@@ -1149,12 +1149,6 @@ renderer
 )
 )
 ;
-aRenderThread
-.
-BeginShaderWarmupIfNeeded
-(
-)
-;
 }
 const
 char
