@@ -3930,11 +3930,6 @@ aGravity
 ;
 #
 endif
-GdkPoint
-mPopupPosition
-{
-}
-;
 RefPtr
 <
 nsWindow
