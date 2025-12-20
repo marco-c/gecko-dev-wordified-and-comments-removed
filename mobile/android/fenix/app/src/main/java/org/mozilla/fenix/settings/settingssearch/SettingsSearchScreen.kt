@@ -143,7 +143,7 @@ foundation
 .
 layout
 .
-height
+heightIn
 import
 androidx
 .
@@ -1021,8 +1021,10 @@ fillMaxWidth
 (
 )
 .
-height
+heightIn
 (
+min
+=
 50
 .
 dp
