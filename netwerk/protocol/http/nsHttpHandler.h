@@ -856,8 +856,10 @@ aPrivate
 return
 aPrivate
 ?
+&
 mPrivateAuthCache
 :
+&
 mAuthCache
 ;
 }
@@ -2114,16 +2116,10 @@ nsISiteSecurityService
 >
 mSSService
 ;
-RefPtr
-<
 nsHttpAuthCache
->
 mAuthCache
 ;
-RefPtr
-<
 nsHttpAuthCache
->
 mPrivateAuthCache
 ;
 RefPtr
