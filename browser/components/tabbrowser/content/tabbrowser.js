@@ -12102,6 +12102,9 @@ true
 if
 (
 openerBrowser
+?
+.
+browsingContext
 &
 &
 !

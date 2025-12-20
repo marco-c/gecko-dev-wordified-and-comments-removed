@@ -2232,6 +2232,13 @@ Bug
 ]
 [
 "
+browser_openTabFromDiscardedOwner
+.
+js
+"
+]
+[
+"
 browser_openURI_background
 .
 js
