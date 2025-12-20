@@ -1217,6 +1217,8 @@ HandleShadowDOMRelatedRemovalSteps
 (
 bool
 aNullParent
+bool
+aInBatch
 )
 {
 using
@@ -1251,7 +1253,7 @@ parentElement
 Element
 :
 :
-FromNodeOrNull
+FromNode
 (
 mParent
 )
@@ -1278,6 +1280,7 @@ MaybeUnslotHostChild
 (
 *
 this
+aInBatch
 )
 ;
 }
