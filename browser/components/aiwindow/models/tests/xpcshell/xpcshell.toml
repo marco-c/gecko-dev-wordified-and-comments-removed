@@ -121,6 +121,13 @@ js
 ]
 [
 "
+test_Tools_GetPageContent
+.
+js
+"
+]
+[
+"
 test_Tools_SearchBrowsingHistory
 .
 js
