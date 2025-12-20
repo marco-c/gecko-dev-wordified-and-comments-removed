@@ -65,6 +65,13 @@ js
 ]
 [
 "
+test_InsightsConversationScheduler
+.
+js
+"
+]
+[
+"
 test_InsightsDriftDetector
 .
 js
