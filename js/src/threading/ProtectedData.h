@@ -708,6 +708,7 @@ value
 ;
 }
 static
+constexpr
 size_t
 offsetOfValue
 (
