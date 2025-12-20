@@ -144,8 +144,10 @@ PACKET_HEADER_MAX
 =
 200
 ;
-function
+class
 DebuggerTransport
+{
+constructor
 (
 input
 output
@@ -231,11 +233,6 @@ this
 )
 ;
 }
-DebuggerTransport
-.
-prototype
-=
-{
 send
 (
 object
@@ -550,7 +547,7 @@ _flushOutgoing
 ;
 }
 onOutputStreamReady
-:
+=
 DevToolsUtils
 .
 makeInfallible
@@ -642,6 +639,7 @@ prototype
 onOutputStreamReady
 "
 )
+;
 _finishCurrentOutgoing
 (
 )
@@ -801,7 +799,7 @@ _waitForIncoming
 ;
 }
 onInputStreamReady
-:
+=
 DevToolsUtils
 .
 makeInfallible
@@ -891,6 +889,7 @@ prototype
 onInputStreamReady
 "
 )
+;
 _processIncoming
 (
 stream
@@ -1437,7 +1436,6 @@ null
 ;
 }
 }
-;
 exports
 .
 DebuggerTransport
