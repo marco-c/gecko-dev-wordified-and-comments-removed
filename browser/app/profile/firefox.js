@@ -14007,7 +14007,7 @@ imageProxy
 .
 enabled
 "
-false
+true
 )
 ;
 pref
