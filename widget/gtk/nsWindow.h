@@ -1154,11 +1154,6 @@ GetClientOffset
 )
 override
 ;
-GdkPoint
-GetCsdOffsetInGdkCoords
-(
-)
-;
 LayoutDeviceIntPoint
 GetScreenEdgeSlop
 (
@@ -1894,6 +1889,7 @@ nsWindow
 GetEffectiveParent
 (
 )
+const
 ;
 #
 ifdef
@@ -3620,10 +3616,11 @@ ApplySizeConstraints
 (
 )
 ;
-GdkPoint
+DesktopIntPoint
 WaylandGetParentPosition
 (
 )
+const
 ;
 bool
 WaylandPopupConfigure
