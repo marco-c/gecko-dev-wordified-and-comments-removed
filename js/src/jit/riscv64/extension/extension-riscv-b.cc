@@ -141,7 +141,7 @@ void
 AssemblerRISCVB
 :
 :
-adduw
+add_uw
 (
 Register
 rd
@@ -165,7 +165,7 @@ void
 AssemblerRISCVB
 :
 :
-sh1adduw
+sh1add_uw
 (
 Register
 rd
@@ -189,7 +189,7 @@ void
 AssemblerRISCVB
 :
 :
-sh2adduw
+sh2add_uw
 (
 Register
 rd
@@ -213,7 +213,7 @@ void
 AssemblerRISCVB
 :
 :
-sh3adduw
+sh3add_uw
 (
 Register
 rd
@@ -237,7 +237,7 @@ void
 AssemblerRISCVB
 :
 :
-slliuw
+slli_uw
 (
 Register
 rd
@@ -575,7 +575,7 @@ void
 AssemblerRISCVB
 :
 :
-sextb
+sext_b
 (
 Register
 rd
@@ -598,7 +598,7 @@ void
 AssemblerRISCVB
 :
 :
-sexth
+sext_h
 (
 Register
 rd
@@ -621,7 +621,7 @@ void
 AssemblerRISCVB
 :
 :
-zexth
+zext_h
 (
 Register
 rd
@@ -709,7 +709,7 @@ void
 AssemblerRISCVB
 :
 :
-orcb
+orc_b
 (
 Register
 rd

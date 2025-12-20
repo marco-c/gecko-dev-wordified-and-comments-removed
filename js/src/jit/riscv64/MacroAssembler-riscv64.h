@@ -6386,7 +6386,7 @@ HasZbbExtension
 )
 )
 {
-sextb
+sext_b
 (
 rd
 rs
@@ -6430,7 +6430,7 @@ HasZbbExtension
 )
 )
 {
-sexth
+sext_h
 (
 rd
 rs
@@ -6490,7 +6490,7 @@ HasZbaExtension
 )
 )
 {
-zextw
+zext_w
 (
 rd
 rs
