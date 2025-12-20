@@ -5298,7 +5298,6 @@ UnsafeABIStrictness
 {
 NoExceptions
 AllowPendingExceptions
-AllowThrownExceptions
 }
 ;
 class
