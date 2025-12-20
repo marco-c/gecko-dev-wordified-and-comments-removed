@@ -3551,9 +3551,16 @@ ccov
 *
 :
 2400
+win
+.
+*
+/
+debug
+:
+1800
 default
 :
-1500
+1200
 mozharness
 :
 mochitest
