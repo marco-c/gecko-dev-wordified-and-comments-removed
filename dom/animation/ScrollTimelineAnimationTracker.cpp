@@ -33,6 +33,17 @@ TriggerPendingAnimations
 (
 )
 {
+mDocument
+-
+>
+TimelinesController
+(
+)
+.
+TrySampleScrollTimelines
+(
+)
+;
 for
 (
 RefPtr

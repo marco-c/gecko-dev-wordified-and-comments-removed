@@ -621,6 +621,11 @@ aIsVisible
 )
 override
 ;
+void
+UpdateCachedCurrentTime
+(
+)
+;
 protected
 :
 virtual
@@ -681,11 +686,6 @@ ScrollDirection
 aOrientation
 )
 const
-;
-void
-UpdateCachedCurrentTime
-(
-)
 ;
 void
 Teardown
