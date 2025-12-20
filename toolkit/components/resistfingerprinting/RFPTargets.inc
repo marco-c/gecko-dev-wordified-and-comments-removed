@@ -380,6 +380,11 @@ EfficientCanvasRandomization
 )
 ITEM_VALUE
 (
+WebGLVendorSanitize
+77
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
