@@ -6978,6 +6978,16 @@ OfflineAudioCompletionEvent
 webidl
 "
 "
+PageRevealEvent
+.
+webidl
+"
+"
+PageSwapEvent
+.
+webidl
+"
+"
 PageTransitionEvent
 .
 webidl
