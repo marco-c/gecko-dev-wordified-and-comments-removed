@@ -172,6 +172,9 @@ ComputedStyle
 struct
 AnchorPosResolutionCache
 ;
+class
+AnchorPosReferenceData
+;
 struct
 IntrinsicSize
 ;
@@ -1509,6 +1512,15 @@ mozilla
 AnchorPosResolutionCache
 *
 aCache
+)
+;
+explicit
+AutoResolutionOverrideParams
+(
+const
+nsIFrame
+*
+aFrame
 )
 ;
 bool
