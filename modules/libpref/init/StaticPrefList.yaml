@@ -56977,7 +56977,7 @@ ENABLE_WASM_BRANCH_HINTING
 )
 value
 :
-IS_NIGHTLY_BUILD
+true
 #
 else
 value
