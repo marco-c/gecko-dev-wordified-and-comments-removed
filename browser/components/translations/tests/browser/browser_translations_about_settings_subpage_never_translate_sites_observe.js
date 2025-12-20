@@ -167,7 +167,7 @@ TranslationsSettingsTestUtils
 .
 Events
 .
-NeverSitesRendered
+NeverTranslateSitesRendered
 {
 sites
 :
@@ -268,7 +268,7 @@ TranslationsSettingsTestUtils
 .
 Events
 .
-NeverSitesRendered
+NeverTranslateSitesRendered
 {
 sites
 :
@@ -400,7 +400,7 @@ TranslationsSettingsTestUtils
 .
 Events
 .
-NeverSitesRendered
+NeverTranslateSitesRendered
 {
 sites
 :
