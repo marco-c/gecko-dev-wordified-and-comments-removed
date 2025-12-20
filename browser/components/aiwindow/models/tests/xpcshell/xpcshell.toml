@@ -72,6 +72,13 @@ js
 ]
 [
 "
+test_InsightsHistoryScheduler
+.
+js
+"
+]
+[
+"
 test_InsightsHistorySource
 .
 js

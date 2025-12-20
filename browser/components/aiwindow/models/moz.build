@@ -130,6 +130,13 @@ sys
 mjs
 "
 "
+InsightsHistoryScheduler
+.
+sys
+.
+mjs
+"
+"
 InsightsHistorySource
 .
 sys

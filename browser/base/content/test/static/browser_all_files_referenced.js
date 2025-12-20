@@ -2617,7 +2617,7 @@ aiwindow
 /
 models
 /
-InsightsDriftDetector
+InsightsHistoryScheduler
 .
 sys
 .
