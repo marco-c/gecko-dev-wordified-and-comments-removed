@@ -1525,16 +1525,6 @@ mBOffsetsNeedCSSAlign
 1
 ;
 bool
-mIAnchorCenter
-:
-1
-;
-bool
-mBAnchorCenter
-:
-1
-;
-bool
 mMovedBlockFragments
 :
 1
@@ -2220,8 +2210,6 @@ bool
 aIsMarginBStartAuto
 bool
 aIsMarginBEndAuto
-bool
-aIsIAnchorCenter
 LogicalMargin
 &
 aMargin
@@ -2239,8 +2227,6 @@ bool
 aIsMarginIStartAuto
 bool
 aIsMarginIEndAuto
-bool
-aIsBAnchorCenter
 LogicalMargin
 &
 aMargin
