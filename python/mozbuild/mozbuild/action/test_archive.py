@@ -179,6 +179,14 @@ crashinjectdll
 "
 mozglue
 "
+"
+msvcp
+*
+"
+"
+vcruntime
+*
+"
 ]
 TRAIN_HOP_DLLS
 =
