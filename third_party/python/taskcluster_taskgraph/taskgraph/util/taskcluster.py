@@ -1302,7 +1302,7 @@ artifact_path
 return
 _handle_artifact
 (
-index_path
+artifact_path
 response
 )
 def

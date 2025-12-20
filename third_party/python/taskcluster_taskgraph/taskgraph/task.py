@@ -596,6 +596,8 @@ get
 "
 dependencies
 "
+{
+}
 )
             
 soft_dependencies
@@ -607,6 +609,8 @@ get
 "
 soft_dependencies
 "
+[
+]
 )
             
 if_dependencies
@@ -618,6 +622,8 @@ get
 "
 if_dependencies
 "
+[
+]
 )
         
 )
