@@ -400,8 +400,6 @@ on
 when
 more
 realiable
-/
-/
 const
 fxAccountToken
 =
@@ -480,8 +478,6 @@ enabled
 :
 true
 }
-/
-/
 fxAccountToken
 tool_choice
 :

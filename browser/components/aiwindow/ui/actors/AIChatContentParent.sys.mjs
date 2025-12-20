@@ -80,7 +80,7 @@ extends
 JSWindowActorParent
 {
 async
-dispatchAIResponse
+dispatchMessageToChatContent
 (
 response
 )
@@ -93,11 +93,9 @@ sendQuery
 "
 AIChatContent
 :
-DispatchAIResponse
+DispatchMessage
 "
-{
 response
-}
 )
 ;
 }
