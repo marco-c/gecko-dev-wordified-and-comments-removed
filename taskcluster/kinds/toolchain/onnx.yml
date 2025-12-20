@@ -292,9 +292,9 @@ win64
 -
 clang
 -
-vs
+win64
 -
-toolchain
+vs2022
 fetch
 :
 -
@@ -387,9 +387,9 @@ win64
 -
 clang
 -
-vs
+win64
 -
-toolchain
+vs2022
 fetch
 :
 -
