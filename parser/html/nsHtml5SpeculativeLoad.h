@@ -278,6 +278,8 @@ bool
 aLinkPreload
 nsHtml5String
 aFetchPriority
+nsHtml5String
+aType
 )
 {
 MOZ_ASSERT
@@ -374,6 +376,13 @@ aFetchPriority
 ToString
 (
 mFetchPriority
+)
+;
+aType
+.
+ToString
+(
+mNonceOrType
 )
 ;
 }
@@ -791,7 +800,7 @@ aNonce
 .
 ToString
 (
-mNonce
+mNonceOrType
 )
 ;
 aFetchPriority
@@ -932,7 +941,7 @@ SetIsVoid
 true
 )
 ;
-mNonce
+mNonceOrType
 .
 SetIsVoid
 (
@@ -1053,7 +1062,7 @@ aNonce
 .
 ToString
 (
-mNonce
+mNonceOrType
 )
 ;
 aIntegrity
@@ -1444,7 +1453,7 @@ nsString
 mMedia
 ;
 nsString
-mNonce
+mNonceOrType
 ;
 nsString
 mFetchPriority

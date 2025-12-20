@@ -867,6 +867,10 @@ const
 nsAString
 &
 aFetchPriority
+const
+nsAString
+&
+aType
 )
 ;
 void
@@ -1048,6 +1052,15 @@ ShouldPreloadURI
 nsIURI
 *
 aURI
+)
+;
+bool
+ImageTypeSupports
+(
+const
+nsAString
+&
+aType
 )
 ;
 ReferrerPolicy
