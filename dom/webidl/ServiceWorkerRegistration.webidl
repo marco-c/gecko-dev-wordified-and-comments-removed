@@ -434,8 +434,6 @@ dom
 .
 cookieStore
 .
-manager
-.
 enabled
 "
 ]

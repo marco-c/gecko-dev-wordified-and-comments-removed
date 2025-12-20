@@ -410,8 +410,6 @@ dom
 .
 cookieStore
 .
-manager
-.
 enabled
 "
 ]

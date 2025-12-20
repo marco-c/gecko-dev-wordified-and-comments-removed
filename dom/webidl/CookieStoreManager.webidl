@@ -176,8 +176,6 @@ dom
 .
 cookieStore
 .
-manager
-.
 enabled
 "
 ]
