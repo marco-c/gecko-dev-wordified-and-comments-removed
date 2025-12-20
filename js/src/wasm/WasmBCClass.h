@@ -1894,6 +1894,12 @@ countMemRefsOnStk
 (
 )
 ;
+inline
+bool
+hasLiveRegsOnStk
+(
+)
+;
 void
 showStack
 (
