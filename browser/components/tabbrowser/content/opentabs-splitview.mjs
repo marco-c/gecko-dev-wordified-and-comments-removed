@@ -515,6 +515,12 @@ addListeners
 (
 )
 ;
+this
+.
+requestUpdate
+(
+)
+;
 }
 else
 {

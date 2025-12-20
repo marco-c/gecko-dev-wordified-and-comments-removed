@@ -1208,7 +1208,6 @@ this
 #
 activate
 (
-true
 )
 ;
 }

@@ -1301,6 +1301,10 @@ width
 )
 )
 ;
+flex
+:
+1
+;
 width
 :
 49
@@ -1339,10 +1343,6 @@ space
 -
 xsmall
 )
-;
-flex
-:
-1
 ;
 position
 :
