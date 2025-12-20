@@ -9291,7 +9291,7 @@ CreateGCSliceBudget
 JS
 :
 :
-InitDispatchsToEventLoop
+InitAsyncTaskCallbacks
 (
 jsapi
 .
@@ -9300,6 +9300,8 @@ cx
 )
 DispatchToEventLoop
 DelayedDispatchToEventLoop
+nullptr
+nullptr
 nullptr
 )
 ;
