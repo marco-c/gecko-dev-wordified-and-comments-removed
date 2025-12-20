@@ -381,6 +381,14 @@ drawable
 /
 mozac_ic_checkmark_24
 "
+app
+:
+tint
+=
+"
+?
+iconOnColor
+"
 /
 >
 <
