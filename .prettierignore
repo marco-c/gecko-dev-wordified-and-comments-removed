@@ -7135,17 +7135,6 @@ mochitest
 /
 chrome
 /
-test_window_getRegionalPrefsLocales
-.
-html
-dom
-/
-tests
-/
-mochitest
-/
-chrome
-/
 window_focus
 .
 xhtml
