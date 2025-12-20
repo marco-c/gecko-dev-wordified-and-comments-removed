@@ -40,6 +40,10 @@ alwaysTranslateLanguagesSelect
 :
 HTMLSelectElement
 ;
+alwaysTranslateLanguagesButton
+:
+HTMLButtonElement
+;
 alwaysTranslateLanguagesNoneRow
 :
 HTMLElement
