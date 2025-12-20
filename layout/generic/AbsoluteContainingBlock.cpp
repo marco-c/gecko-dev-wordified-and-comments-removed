@@ -5731,11 +5731,6 @@ nsPoint
 >
 firstTryNormalPosition
 ;
-if
-(
-aAnchorPosResolutionCache
-)
-{
 const
 auto
 *
@@ -5797,7 +5792,6 @@ lastSuccessfulPosition
 mIndex
 )
 ;
-}
 }
 }
 bool
@@ -7618,9 +7612,13 @@ nsIFrame
 LastSuccessfulPositionFallback
 (
 )
+LastSuccessfulPositionData
+{
+currentFallbackStyle
 *
 currentFallbackIndex
 isOverflowingCB
+}
 )
 ;
 }
