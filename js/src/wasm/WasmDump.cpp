@@ -5161,15 +5161,10 @@ printf
 (
 pagesize
 %
-"
-PRIu32
-"
+d
 )
 "
-static_cast
-<
-uint32_t
->
+PageSizeInBytes
 (
 memDesc
 .
