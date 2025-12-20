@@ -192,6 +192,9 @@ in
 nsIPrincipal
 aLoadingPrincipal
 in
+int64_t
+aBrowsingContextID
+in
 unsigned
 long
 aSecurityFlags
@@ -227,6 +230,9 @@ aServerCertHashes
 in
 nsIPrincipal
 aLoadingPrincipal
+in
+int64_t
+aBrowsingContextID
 in
 unsigned
 long
