@@ -16498,6 +16498,7 @@ New
 alloc
 (
 )
+instancePointer_
 suspender
 fn
 data
@@ -16521,6 +16522,7 @@ New
 alloc
 (
 )
+instancePointer_
 suspender
 fn
 data
@@ -16544,6 +16546,7 @@ New
 alloc
 (
 )
+instancePointer_
 suspender
 data
 )
