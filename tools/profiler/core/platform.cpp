@@ -23836,7 +23836,7 @@ UtilityInfo
 0
 #
 ifdef
-XP_DARWIN
+XP_MACOSX
 MACH_PORT_NULL
 #
 endif

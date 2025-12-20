@@ -484,6 +484,9 @@ request
 utilityInfo
 )
 ;
+#
+ifdef
+XP_MACOSX
 mach_port_t
 selectedTask
 ;
@@ -857,6 +860,8 @@ identifierInfo
 thread_id
 ;
 }
+#
+endif
 if
 (
 !

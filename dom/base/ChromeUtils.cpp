@@ -10335,7 +10335,7 @@ utilityActors
 0
 #
 ifdef
-XP_DARWIN
+XP_MACOSX
 aGeckoProcess
 -
 >
@@ -10880,7 +10880,7 @@ ChildID
 )
 #
 ifdef
-XP_DARWIN
+XP_MACOSX
 contentParent
 -
 >

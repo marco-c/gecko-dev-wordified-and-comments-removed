@@ -490,7 +490,7 @@ aChildId
 0
 #
 ifdef
-XP_DARWIN
+XP_MACOSX
 mach_port_t
 aChildTask
 =
@@ -537,7 +537,7 @@ aChildId
 )
 #
 ifdef
-XP_DARWIN
+XP_MACOSX
 childTask
 (
 aChildTask
@@ -581,7 +581,7 @@ childId
 ;
 #
 ifdef
-XP_DARWIN
+XP_MACOSX
 const
 mach_port_t
 childTask

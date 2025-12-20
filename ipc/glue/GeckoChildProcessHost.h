@@ -636,7 +636,7 @@ mProcessType
 }
 #
 ifdef
-XP_DARWIN
+XP_MACOSX
 task_t
 GetChildTask
 (
@@ -910,7 +910,7 @@ mHandleLock
 if
 defined
 (
-XP_DARWIN
+XP_MACOSX
 )
 task_t
 mChildTask
