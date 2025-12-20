@@ -1296,6 +1296,10 @@ hideUntil
 =
 GetTopmostPopoverAncestor
 (
+PopoverAttributeState
+:
+:
+Auto
 nullptr
 false
 )
@@ -1903,6 +1907,10 @@ hideUntil
 =
 GetTopmostPopoverAncestor
 (
+PopoverAttributeState
+:
+:
+Auto
 nullptr
 false
 )
