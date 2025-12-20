@@ -4327,7 +4327,7 @@ theme
 "
 style
 /
-SplashScreen
+SplashScreenThemeBase
 "
 android
 :
