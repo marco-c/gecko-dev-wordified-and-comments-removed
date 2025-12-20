@@ -2571,6 +2571,9 @@ getContextFromTarget
 {
 contextId
 realmId
+supportsChromeScope
+:
+true
 }
 )
 ;
@@ -3220,6 +3223,9 @@ getContextFromTarget
 {
 contextId
 realmId
+supportsChromeScope
+:
+true
 }
 )
 ;
@@ -4771,6 +4777,9 @@ getContextFromTarget
 {
 contextId
 realmId
+supportsChromeScope
+=
+false
 }
 )
 {
@@ -4789,6 +4798,9 @@ this
 _getNavigable
 (
 contextId
+{
+supportsChromeScope
+}
 )
 ;
 }
@@ -4810,7 +4822,7 @@ All
 }
 ;
 const
-realms
+realmInfos
 =
 await
 this
@@ -4824,14 +4836,14 @@ destination
 const
 realm
 =
-realms
+realmInfos
 .
 find
 (
-el
+info
 =
 >
-el
+info
 .
 realm
 =
@@ -4861,6 +4873,9 @@ _getNavigable
 realm
 .
 context
+{
+supportsChromeScope
+}
 )
 ;
 }
