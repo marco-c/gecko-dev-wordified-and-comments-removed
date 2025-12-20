@@ -274,6 +274,9 @@ namespace
 js
 {
 class
+Compressor
+;
+class
 FrontendContext
 ;
 class
@@ -3783,6 +3786,9 @@ performTaskWork
 SourceCompressionTaskEntry
 *
 task
+Compressor
+&
+comp
 )
 ;
 struct
