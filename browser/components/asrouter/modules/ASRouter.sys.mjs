@@ -6829,6 +6829,9 @@ params
 trigger
 .
 patterns
+trigger
+.
+regexPatterns
 )
 ;
 unseenListeners
