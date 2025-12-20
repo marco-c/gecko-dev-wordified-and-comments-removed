@@ -25,6 +25,9 @@ xhtml
 "
 )
 ;
+#
+if
+TARGET_OS_SIMULATOR
 pref
 (
 "
@@ -37,6 +40,8 @@ software
 true
 )
 ;
+#
+endif
 pref
 (
 "
