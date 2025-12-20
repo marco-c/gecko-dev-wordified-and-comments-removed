@@ -2376,7 +2376,7 @@ this
 .
 markup
 .
-_isInputOrTextarea
+isInputOrTextareaOrInCodeMirrorEditor
 (
 target
 )
