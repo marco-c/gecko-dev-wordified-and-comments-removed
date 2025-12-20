@@ -1921,11 +1921,11 @@ AppCompatResources
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
-ic_readermode
+mozac_ic_reader_view_24
 )
 !
 !
@@ -1936,11 +1936,11 @@ AppCompatResources
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
-ic_readermode_selected
+mozac_ic_reader_view_fill_24
 )
 !
 !
