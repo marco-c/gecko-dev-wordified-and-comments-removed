@@ -2890,12 +2890,6 @@ Ci
 .
 nsIClearDataService
 .
-CLEAR_PREDICTOR_NETWORK_DATA
-|
-Ci
-.
-nsIClearDataService
-.
 CLEAR_CLIENT_AUTH_REMEMBER_SERVICE
 |
 Ci

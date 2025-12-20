@@ -161,14 +161,6 @@ infallible
 readonly
 attribute
 boolean
-isFromPredictor
-;
-[
-infallible
-]
-readonly
-attribute
-boolean
 allow1918
 ;
 }

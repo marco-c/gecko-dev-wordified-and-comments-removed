@@ -193,15 +193,6 @@ networkPredictionEnabled
 "
 network
 .
-predictor
-.
-enabled
-"
-:
-true
-"
-network
-.
 prefetch
 -
 next
