@@ -1604,9 +1604,14 @@ supportedLocales
 )
 ;
 }
-static
 ArrayObject
 *
+js
+:
+:
+intl
+:
+:
 LocalesListToArray
 (
 JSContext
