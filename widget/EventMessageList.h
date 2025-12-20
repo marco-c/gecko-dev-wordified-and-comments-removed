@@ -1041,6 +1041,10 @@ NS_EVENT_MESSAGE
 (
 eScrollend
 )
+NS_EVENT_MESSAGE
+(
+eMozOrientationChange
+)
 #
 ifdef
 UNDEF_NS_EVENT_MESSAGE_FIRST_LAST

@@ -1869,6 +1869,13 @@ eScrollend
 EventNameType_All
 eBasicEventClass
 )
+EVENT
+(
+mozorientationchange
+eMozOrientationChange
+EventNameType_All
+eBasicEventClass
+)
 #
 ifdef
 DEFINED_FORWARDED_EVENT
