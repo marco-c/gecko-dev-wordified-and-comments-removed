@@ -283,7 +283,7 @@ nsACString
 aName
 )
 :
-mName
+JSActorProtocol
 (
 aName
 )
@@ -312,9 +312,6 @@ JSWindowActorProtocol
 )
 =
 default
-;
-nsCString
-mName
 ;
 bool
 mAllFrames
