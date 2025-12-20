@@ -9,6 +9,8 @@ also
 =
 -
 -
+no
+-
 asmjs
 ;
 test
