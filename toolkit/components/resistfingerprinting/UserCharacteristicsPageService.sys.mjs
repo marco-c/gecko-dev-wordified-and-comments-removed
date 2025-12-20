@@ -6340,15 +6340,6 @@ media
 .
 mediasource
 .
-mp4
-.
-enabled
-"
-"
-media
-.
-mediasource
-.
 webm
 .
 enabled
