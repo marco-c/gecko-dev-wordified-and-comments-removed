@@ -501,16 +501,6 @@ CustomTabWindowFeature
 >
 (
 )
-private
-val
-hideToolbarFeature
-=
-ViewBoundFeatureWrapper
-<
-WebAppHideToolbarFeature
->
-(
-)
 Suppress
 (
 "
