@@ -15535,8 +15535,6 @@ uint32_t
 stackAdjust
 ABIType
 result
-bool
-callFromWasm
 )
 {
 loadPtr

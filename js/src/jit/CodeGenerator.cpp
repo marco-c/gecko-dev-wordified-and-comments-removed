@@ -60919,9 +60919,9 @@ void
 CodeGenerator
 :
 :
-visitWasmBuiltinFloatRegisterResult
+visitWasmSystemFloatRegisterResult
 (
-LWasmBuiltinFloatRegisterResult
+LWasmSystemFloatRegisterResult
 *
 lir
 )
@@ -61035,7 +61035,7 @@ ReturnDoubleReg
 #
 ifdef
 JS_CODEGEN_ARM
-MWasmBuiltinFloatRegisterResult
+MWasmSystemFloatRegisterResult
 *
 mir
 =
@@ -61126,7 +61126,7 @@ supported
 #
 elif
 JS_CODEGEN_X86
-MWasmBuiltinFloatRegisterResult
+MWasmSystemFloatRegisterResult
 *
 mir
 =
@@ -62458,6 +62458,13 @@ masm
 .
 setupWasmABICall
 (
+wasm
+:
+:
+SymbolicAddress
+:
+:
+UpdateSuspenderState
 )
 ;
 masm
@@ -67704,7 +67711,7 @@ rejoin
 )
 )
 ;
-saveLiveVolatile
+saveLive
 (
 lir
 )
@@ -67729,6 +67736,13 @@ masm
 .
 setupWasmABICall
 (
+wasm
+:
+:
+SymbolicAddress
+:
+:
+PostBarrierWholeCell
 )
 ;
 masm
@@ -67794,7 +67808,7 @@ Pop
 InstanceReg
 )
 ;
-restoreLiveVolatile
+restoreLive
 (
 lir
 )
@@ -67986,7 +68000,7 @@ OutOfLineCode
 ool
 )
 {
-saveLiveVolatile
+saveLive
 (
 lir
 )
@@ -68069,6 +68083,13 @@ masm
 .
 setupWasmABICall
 (
+wasm
+:
+:
+SymbolicAddress
+:
+:
+PostBarrierEdge
 )
 ;
 masm
@@ -68134,7 +68155,7 @@ Pop
 InstanceReg
 )
 ;
-restoreLiveVolatile
+restoreLive
 (
 lir
 )
@@ -73363,6 +73384,13 @@ masm
 .
 setupWasmABICall
 (
+wasm
+:
+:
+SymbolicAddress
+:
+:
+ModD
 )
 ;
 masm
@@ -132253,6 +132281,7 @@ masm
 .
 setupWasmABICall
 (
+fun
 )
 ;
 masm
@@ -132871,6 +132900,7 @@ masm
 .
 setupWasmABICall
 (
+fun
 )
 ;
 masm

@@ -3855,6 +3855,16 @@ kind
 ;
 public
 :
+ABIKind
+abi
+(
+)
+const
+{
+return
+kind_
+;
+}
 uint32_t
 stackBytesConsumedSoFar
 (

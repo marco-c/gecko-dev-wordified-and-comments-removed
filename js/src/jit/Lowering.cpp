@@ -54521,9 +54521,9 @@ void
 LIRGenerator
 :
 :
-visitWasmBuiltinFloatRegisterResult
+visitWasmSystemFloatRegisterResult
 (
-MWasmBuiltinFloatRegisterResult
+MWasmSystemFloatRegisterResult
 *
 ins
 )
@@ -54538,7 +54538,7 @@ alloc
 (
 )
 )
-LWasmBuiltinFloatRegisterResult
+LWasmSystemFloatRegisterResult
 (
 )
 ;

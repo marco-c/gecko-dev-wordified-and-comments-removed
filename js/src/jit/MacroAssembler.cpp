@@ -22647,6 +22647,13 @@ framePushed
 ;
 setupWasmABICall
 (
+wasm
+:
+:
+SymbolicAddress
+:
+:
+ToInt32
 )
 ;
 passABIArg
@@ -25695,6 +25702,11 @@ MacroAssembler
 :
 setupWasmABICall
 (
+wasm
+:
+:
+SymbolicAddress
+builtin
 )
 {
 MOZ_ASSERT
@@ -25714,10 +25726,13 @@ setupAlignedABICall
 ;
 setupABICallHelper
 (
-ABIKind
+wasm
 :
 :
-System
+ABIForBuiltin
+(
+builtin
+)
 )
 ;
 dynamicAlignment_
@@ -26675,7 +26690,6 @@ callWithABIPost
 (
 stackAdjust
 result
-true
 )
 ;
 #
@@ -26731,7 +26745,6 @@ callWithABIPost
 (
 stackAdjust
 result
-false
 )
 ;
 }

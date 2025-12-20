@@ -14884,7 +14884,7 @@ false
 -
 name
 :
-WasmBuiltinFloatRegisterResult
+WasmSystemFloatRegisterResult
 gen_boilerplate
 :
 false

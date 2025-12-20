@@ -1884,7 +1884,7 @@ MOZ_CRASH
 )
 ;
 }
-void
+CodeOffset
 MacroAssembler
 :
 :
@@ -1957,8 +1957,6 @@ uint32_t
 stackAdjust
 ABIType
 result
-bool
-callFromWasm
 )
 {
 MOZ_CRASH

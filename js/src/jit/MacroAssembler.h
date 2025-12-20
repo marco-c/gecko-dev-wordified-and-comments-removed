@@ -1890,6 +1890,11 @@ setupAlignedABICall
 void
 setupWasmABICall
 (
+wasm
+:
+:
+SymbolicAddress
+builtin
 )
 ;
 void
@@ -2137,10 +2142,6 @@ uint32_t
 stackAdjust
 ABIType
 result
-bool
-callFromWasm
-=
-false
 )
 PER_ARCH
 ;
