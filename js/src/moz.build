@@ -3307,6 +3307,15 @@ builtin
 /
 intl
 /
+LocaleNegotiation
+.
+cpp
+"
+"
+builtin
+/
+intl
+/
 NumberFormat
 .
 cpp
