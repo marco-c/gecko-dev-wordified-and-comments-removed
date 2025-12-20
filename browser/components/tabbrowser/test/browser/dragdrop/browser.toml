@@ -14,6 +14,13 @@ js
 ]
 [
 "
+browser_drag_splitview
+.
+js
+"
+]
+[
+"
 browser_drag_to_pin
 .
 js
