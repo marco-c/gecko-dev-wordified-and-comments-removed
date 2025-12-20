@@ -531,13 +531,6 @@ void
 aData
 )
 ;
-static
-const
-uint32_t
-kTimeoutLengthMS
-=
-180000
-;
 mozilla
 :
 :
