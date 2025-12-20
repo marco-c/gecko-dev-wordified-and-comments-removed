@@ -214,7 +214,7 @@ builtin
 /
 intl
 /
-Locale
+LocaleNegotiation
 .
 h
 "
