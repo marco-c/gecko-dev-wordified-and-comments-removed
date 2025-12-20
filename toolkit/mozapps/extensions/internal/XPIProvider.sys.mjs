@@ -8912,6 +8912,13 @@ startupData
 .
 lwtStyles
 ;
+delete
+data
+.
+startupData
+.
+experiment
+;
 }
 }
 }
