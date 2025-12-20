@@ -3439,10 +3439,6 @@ inputLength
 showOnboardingLabel
 =
 false
-providesSearchMode
-=
-false
-engine
 }
 )
 {
@@ -3462,8 +3458,6 @@ input
 query
 inputLength
 showOnboardingLabel
-providesSearchMode
-engine
 }
 ;
 return
