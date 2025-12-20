@@ -5,14 +5,6 @@ test
 |
 -
 -
-setpref
-=
-wasm_branch_hinting
-=
-true
-;
--
--
 wasm
 -
 compiler
