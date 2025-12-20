@@ -1111,7 +1111,7 @@ return
 suffix
 }
 def
-getArtifactId
+computeArtifactId
 (
 )
 {
@@ -1309,7 +1309,7 @@ on
 try
 :
 {
-getArtifactId
+computeArtifactId
 (
 )
 }
@@ -1326,7 +1326,7 @@ mozilla
 geckoview
 :
 {
-getArtifactId
+computeArtifactId
 (
 )
 }
@@ -1345,7 +1345,7 @@ Getting
 geckoview
 :
 {
-getArtifactId
+computeArtifactId
 (
 )
 }
@@ -1366,7 +1366,7 @@ mozilla
 geckoview
 :
 {
-getArtifactId
+computeArtifactId
 (
 )
 }

@@ -1759,7 +1759,7 @@ mozilla
 geckoview
 :
 {
-getArtifactId
+computeArtifactId
 (
 )
 }
@@ -3294,7 +3294,7 @@ mozilla
 geckoview
 '
 def
-getArtifactId
+computeArtifactId
 (
 )
 {
@@ -3465,7 +3465,7 @@ afterEvaluate
 {
 artifactId
 =
-getArtifactId
+computeArtifactId
 (
 )
 }
