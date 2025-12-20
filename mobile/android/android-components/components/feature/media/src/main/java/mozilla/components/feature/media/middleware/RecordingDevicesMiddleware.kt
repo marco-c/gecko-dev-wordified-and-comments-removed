@@ -539,6 +539,8 @@ devices
 =
 middlewareContext
 .
+store
+.
 state
 .
 tabs

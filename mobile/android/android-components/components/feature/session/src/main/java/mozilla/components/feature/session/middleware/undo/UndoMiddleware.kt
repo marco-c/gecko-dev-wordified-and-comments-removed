@@ -449,6 +449,8 @@ state
 =
 context
 .
+store
+.
 state
 when
 (
@@ -597,6 +599,8 @@ context
 store
 context
 .
+store
+.
 state
 )
 /
@@ -680,6 +684,8 @@ val
 index
 =
 context
+.
+store
 .
 state
 .

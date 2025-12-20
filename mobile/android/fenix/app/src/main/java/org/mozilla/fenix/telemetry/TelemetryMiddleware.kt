@@ -596,6 +596,8 @@ UpdateLoadingStateAction
 {
 context
 .
+store
+.
 state
 .
 findTab
@@ -678,6 +680,8 @@ tab
 =
 context
 .
+store
+.
 state
 .
 findTabOrCustomTab
@@ -689,6 +693,8 @@ tabId
 onEngineSessionKilled
 (
 context
+.
+store
 .
 state
 tab
@@ -706,6 +712,8 @@ tab
 =
 context
 .
+store
+.
 state
 .
 findTabOrCustomTab
@@ -717,6 +725,8 @@ tabId
 onEngineSessionCreated
 (
 context
+.
+store
 .
 state
 tab
@@ -846,6 +856,8 @@ openTabsCount
 =
 context
 .
+store
+.
 state
 .
 normalTabs
@@ -859,6 +871,8 @@ openPrivateTabsCount
 =
 context
 .
+store
+.
 state
 .
 privateTabs
@@ -869,6 +883,8 @@ count
 if
 (
 context
+.
+store
 .
 state
 .

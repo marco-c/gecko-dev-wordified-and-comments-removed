@@ -1160,6 +1160,8 @@ maybeShowSearchSuggestions
 context
 context
 .
+store
+.
 state
 .
 query
@@ -1189,6 +1191,8 @@ maybeShowSearchSuggestions
 (
 context
 context
+.
+store
 .
 state
 .
@@ -1603,6 +1607,8 @@ it
 :
 context
 .
+store
+.
 state
 .
 defaultEngine
@@ -1659,6 +1665,8 @@ shouldShowTrendingSearches
 =
 context
 .
+store
+.
 state
 .
 run
@@ -1694,6 +1702,8 @@ shouldShowSearchSuggestions
 with
 (
 context
+.
+store
 .
 state
 )
@@ -1741,6 +1751,8 @@ showPrivatePrompt
 with
 (
 context
+.
+store
 .
 state
 )
@@ -1842,6 +1854,8 @@ if
 (
 context
 .
+store
+.
 state
 .
 showSearchShortcuts
@@ -1862,6 +1876,8 @@ suggestionsProvidersBuilder
 getProvidersToAdd
 (
 context
+.
+store
 .
 state
 .
@@ -1916,6 +1932,8 @@ browsingModeManager
 includeSelectedTab
 =
 context
+.
+store
 .
 state
 .
@@ -2043,6 +2061,8 @@ else
 {
 context
 .
+store
+.
 state
 .
 tabId
@@ -2131,6 +2151,8 @@ searchEngine
 =
 context
 .
+store
+.
 state
 .
 searchEngineSource
@@ -2155,6 +2177,8 @@ false
 else
 {
 context
+.
+store
 .
 state
 .
@@ -2184,6 +2208,8 @@ when
 (
 context
 .
+store
+.
 state
 .
 searchAccessPoint
@@ -2206,6 +2232,8 @@ else
 >
 context
 .
+store
+.
 state
 .
 searchAccessPoint
@@ -2227,6 +2255,8 @@ searchEngine
 =
 =
 context
+.
+store
 .
 state
 .
@@ -2717,6 +2747,8 @@ searchEngine
 =
 =
 context
+.
+store
 .
 state
 .

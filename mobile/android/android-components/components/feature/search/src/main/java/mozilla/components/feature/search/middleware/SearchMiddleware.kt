@@ -803,6 +803,8 @@ updateHiddenSearchEngines
 (
 context
 .
+store
+.
 state
 .
 search
@@ -822,6 +824,8 @@ RemoveAdditionalSearchEngineAction
 updateAdditionalSearchEngines
 (
 context
+.
+store
 .
 state
 .

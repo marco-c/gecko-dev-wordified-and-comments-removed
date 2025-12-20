@@ -1476,6 +1476,8 @@ if
 (
 context
 .
+store
+.
 state
 .
 mode

@@ -370,6 +370,8 @@ tab
 =
 context
 .
+store
+.
 state
 .
 findTabOrCustomTab

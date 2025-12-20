@@ -286,6 +286,8 @@ Popup
 {
 context
 .
+store
+.
 state
 .
 findTab

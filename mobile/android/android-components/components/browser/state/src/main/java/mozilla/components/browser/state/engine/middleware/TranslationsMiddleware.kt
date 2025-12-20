@@ -697,6 +697,8 @@ tabId
 :
 context
 .
+store
+.
 state
 .
 selectedTab
@@ -748,6 +750,8 @@ scope
 launch
 {
 context
+.
+store
 .
 state
 .

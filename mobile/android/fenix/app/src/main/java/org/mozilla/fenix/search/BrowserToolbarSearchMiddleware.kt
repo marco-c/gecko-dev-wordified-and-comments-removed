@@ -1752,6 +1752,8 @@ if
 (
 context
 .
+store
+.
 state
 .
 isEditMode
@@ -2563,6 +2565,8 @@ updateAutocompletions
 context
 context
 .
+store
+.
 state
 .
 editState
@@ -2956,6 +2960,8 @@ reconcileSelectedEngine
 )
 context
 .
+store
+.
 state
 .
 editState
@@ -3215,6 +3221,8 @@ SearchActionsEndUpdated
 buildSearchEndPageActions
 (
 context
+.
+store
 .
 state
 .

@@ -294,6 +294,8 @@ setLogPings
 (
 context
 .
+store
+.
 state
 .
 logPingsToConsoleEnabled
@@ -314,6 +316,8 @@ getDebugViewLink
 debugViewTag
 =
 context
+.
+store
 .
 state
 .
@@ -344,6 +348,8 @@ getDebugViewLink
 debugViewTag
 =
 context
+.
+store
 .
 state
 .
@@ -388,12 +394,16 @@ pingType
 =
 context
 .
+store
+.
 state
 .
 pingType
 debugViewTag
 =
 context
+.
+store
 .
 state
 .
@@ -402,6 +412,8 @@ debugViewTag
 showToast
 (
 context
+.
+store
 .
 state
 .

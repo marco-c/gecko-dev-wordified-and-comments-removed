@@ -1090,13 +1090,15 @@ TestAction
 >
 =
 {
-store
+context
 next
 action
 -
 >
 countBefore
 =
+context
+.
 store
 .
 state
@@ -1108,6 +1110,8 @@ action
 )
 countAfter
 =
+context
+.
 store
 .
 state

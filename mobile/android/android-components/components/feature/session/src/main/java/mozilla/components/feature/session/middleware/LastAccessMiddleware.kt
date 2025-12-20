@@ -272,6 +272,8 @@ selection
 {
 context
 .
+store
+.
 state
 .
 selectedTabId
@@ -341,6 +343,8 @@ val
 newSelection
 =
 context
+.
+store
 .
 state
 .
@@ -446,6 +450,8 @@ sessionId
 =
 =
 context
+.
+store
 .
 state
 .

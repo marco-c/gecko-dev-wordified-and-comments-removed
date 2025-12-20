@@ -246,6 +246,8 @@ currentState
 =
 context
 .
+store
+.
 state
 next
 (

@@ -566,6 +566,8 @@ enteredUrlMatchesTabUrl
 =
 context
 .
+store
+.
 state
 .
 enteredUrl
@@ -589,6 +591,8 @@ antitracking
 sendBlockedUrls
 =
 context
+.
+store
 .
 state
 .
@@ -642,6 +646,8 @@ url
 =
 context
 .
+store
+.
 state
 .
 enteredUrl
@@ -652,6 +658,8 @@ reason
 =
 context
 .
+store
+.
 state
 .
 reason
@@ -661,6 +669,8 @@ setDescriptionMetrics
 description
 =
 context
+.
+store
 .
 state
 .
@@ -725,6 +735,8 @@ webCompatJSON
 generatePreviewJSON
 (
 context
+.
+store
 .
 state
 webCompatInfo
@@ -1029,6 +1041,8 @@ reason
 =
 context
 .
+store
+.
 state
 .
 reason
@@ -1036,6 +1050,8 @@ problemDescription
 =
 context
 .
+store
+.
 state
 .
 problemDescription
@@ -1043,12 +1059,16 @@ enteredUrl
 =
 context
 .
+store
+.
 state
 .
 enteredUrl
 tabUrl
 =
 context
+.
+store
 .
 state
 .

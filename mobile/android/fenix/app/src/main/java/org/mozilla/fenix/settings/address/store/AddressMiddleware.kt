@@ -276,6 +276,8 @@ runAndNavigateBack
 {
 context
 .
+store
+.
 state
 .
 guidToUpdate
@@ -289,6 +291,8 @@ updateAddress
 (
 it
 context
+.
+store
 .
 state
 .
@@ -312,6 +316,8 @@ createAddress
 (
 context
 .
+store
+.
 state
 .
 address
@@ -334,6 +340,8 @@ DeleteTapped
 runAndNavigateBack
 {
 context
+.
+store
 .
 state
 .

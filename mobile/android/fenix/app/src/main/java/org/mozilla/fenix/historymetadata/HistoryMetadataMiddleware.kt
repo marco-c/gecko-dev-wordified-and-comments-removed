@@ -441,6 +441,8 @@ private
 .
 context
 .
+store
+.
 state
 .
 selectedNormalTab
@@ -487,6 +489,8 @@ private
 .
 context
 .
+store
+.
 state
 .
 selectedNormalTab
@@ -516,12 +520,16 @@ tabId
 =
 context
 .
+store
+.
 state
 .
 selectedTabId
 )
 {
 context
+.
+store
 .
 state
 .
@@ -560,6 +568,8 @@ it
 =
 context
 .
+store
+.
 state
 .
 selectedTabId
@@ -569,6 +579,8 @@ selectedTabId
 let
 {
 context
+.
+store
 .
 state
 .
@@ -599,6 +611,8 @@ UpdateUrlAction
 {
 context
 .
+store
+.
 state
 .
 findNormalTab
@@ -623,6 +637,8 @@ id
 =
 =
 context
+.
+store
 .
 state
 .
@@ -1004,6 +1020,8 @@ UpdateHistoryStateAction
 {
 context
 .
+store
+.
 state
 .
 findNormalTab
@@ -1075,6 +1093,8 @@ UpdateMediaMetadataAction
 >
 {
 context
+.
+store
 .
 state
 .
@@ -1530,6 +1550,8 @@ findSearchTerms
 tabParent
 context
 .
+store
+.
 state
 .
 search
@@ -1667,6 +1689,8 @@ findSearchTerms
 tab
 context
 .
+store
+.
 state
 .
 search
@@ -1686,6 +1710,8 @@ null
 else
 {
 context
+.
+store
 .
 state
 .
@@ -1856,6 +1882,8 @@ findSearchTerms
 (
 tab
 context
+.
+store
 .
 state
 .

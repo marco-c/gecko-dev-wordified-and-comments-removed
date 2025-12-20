@@ -755,6 +755,8 @@ preReductionState
 =
 context
 .
+store
+.
 state
 next
 (
@@ -764,6 +766,8 @@ val
 dialogState
 =
 context
+.
+store
 .
 state
 .
@@ -1189,6 +1193,8 @@ null
 &
 &
 context
+.
+store
 .
 state
 .

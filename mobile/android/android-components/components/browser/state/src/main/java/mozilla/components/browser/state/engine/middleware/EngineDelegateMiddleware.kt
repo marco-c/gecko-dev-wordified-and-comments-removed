@@ -469,6 +469,8 @@ purgeHistory
 (
 context
 .
+store
+.
 state
 )
 is

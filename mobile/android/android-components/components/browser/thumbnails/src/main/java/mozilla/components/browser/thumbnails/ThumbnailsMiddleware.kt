@@ -237,6 +237,8 @@ RemoveAllNormalTabsAction
 {
 context
 .
+store
+.
 state
 .
 tabs
@@ -276,6 +278,8 @@ RemoveAllPrivateTabsAction
 >
 {
 context
+.
+store
 .
 state
 .
@@ -348,6 +352,8 @@ isPrivate
 =
 context
 .
+store
+.
 state
 .
 isTabIdPrivate
@@ -386,6 +392,8 @@ val
 isPrivate
 =
 context
+.
+store
 .
 state
 .

@@ -1007,6 +1007,8 @@ currentState
 =
 context
 .
+store
+.
 state
 when
 (

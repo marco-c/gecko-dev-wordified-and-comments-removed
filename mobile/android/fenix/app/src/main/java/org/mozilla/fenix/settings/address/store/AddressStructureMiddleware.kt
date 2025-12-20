@@ -368,6 +368,8 @@ preReductionCountry
 =
 context
 .
+store
+.
 state
 .
 address

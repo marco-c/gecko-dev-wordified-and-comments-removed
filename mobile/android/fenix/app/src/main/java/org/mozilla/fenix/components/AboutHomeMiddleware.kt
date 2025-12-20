@@ -237,6 +237,8 @@ UpdateTitleAction
 &
 context
 .
+store
+.
 state
 .
 findTab

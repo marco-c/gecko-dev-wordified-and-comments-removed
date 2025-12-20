@@ -270,6 +270,8 @@ sentWithBlockedTrackers
 =
 context
 .
+store
+.
 state
 .
 includeEtpBlockedUrls

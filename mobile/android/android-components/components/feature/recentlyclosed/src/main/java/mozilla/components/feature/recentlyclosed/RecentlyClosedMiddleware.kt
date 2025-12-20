@@ -335,6 +335,8 @@ tag
 =
 context
 .
+store
+.
 state
 .
 undoHistory
@@ -380,6 +382,8 @@ AddClosedTabsAction
 (
 context
 .
+store
+.
 state
 .
 undoHistory
@@ -412,6 +416,8 @@ AddRecoverableTabs
 if
 (
 context
+.
+store
 .
 state
 .
@@ -476,6 +482,8 @@ RecentlyClosedAction
 AddClosedTabsAction
 (
 context
+.
+store
 .
 state
 .

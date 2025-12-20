@@ -308,6 +308,8 @@ engineState
 =
 context
 .
+store
+.
 state
 .
 findTabOrCustomTab

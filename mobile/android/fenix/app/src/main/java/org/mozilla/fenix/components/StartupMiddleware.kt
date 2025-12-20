@@ -256,6 +256,8 @@ RestoreCompleteAction
 &
 context
 .
+store
+.
 state
 .
 tabs

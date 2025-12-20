@@ -332,6 +332,8 @@ updatedDesktopMode
 =
 context
 .
+store
+.
 state
 .
 desktopMode

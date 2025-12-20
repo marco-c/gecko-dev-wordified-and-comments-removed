@@ -474,6 +474,8 @@ activeTab
 =
 context
 .
+store
+.
 state
 .
 findTab
@@ -552,6 +554,8 @@ val
 tab
 =
 context
+.
+store
 .
 state
 .
@@ -679,6 +683,8 @@ tab
 =
 context
 .
+store
+.
 state
 .
 findTab
@@ -775,6 +781,8 @@ launch
 {
 context
 .
+store
+.
 state
 .
 selectedTab
@@ -848,6 +856,8 @@ val
 state
 =
 context
+.
+store
 .
 state
 updatePriorityToDefaultJobs

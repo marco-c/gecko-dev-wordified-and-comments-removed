@@ -390,6 +390,8 @@ showTrackingProtectionCfr
 action
 context
 .
+store
+.
 state
 )
 }

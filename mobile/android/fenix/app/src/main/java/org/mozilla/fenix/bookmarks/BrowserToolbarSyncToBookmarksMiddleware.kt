@@ -246,6 +246,8 @@ if
 (
 context
 .
+store
+.
 state
 .
 isSearching

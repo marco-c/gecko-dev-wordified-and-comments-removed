@@ -341,6 +341,8 @@ determineTabsToSuspend
 (
 context
 .
+store
+.
 state
 )
 logger
@@ -355,6 +357,8 @@ tabs
 =
 {
 context
+.
+store
 .
 state
 .

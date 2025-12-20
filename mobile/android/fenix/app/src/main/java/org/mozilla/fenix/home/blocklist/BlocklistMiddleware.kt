@@ -256,6 +256,8 @@ getUpdatedAction
 (
 context
 .
+store
+.
 state
 action
 )

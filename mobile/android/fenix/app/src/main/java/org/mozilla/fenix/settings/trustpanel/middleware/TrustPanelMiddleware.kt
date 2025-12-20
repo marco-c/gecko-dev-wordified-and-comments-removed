@@ -610,6 +610,8 @@ currentState
 =
 context
 .
+store
+.
 state
 val
 store

@@ -584,6 +584,8 @@ isSearchStartedForCurrentUrl
 =
 context
 .
+store
+.
 state
 .
 searchStartedForCurrentUrl

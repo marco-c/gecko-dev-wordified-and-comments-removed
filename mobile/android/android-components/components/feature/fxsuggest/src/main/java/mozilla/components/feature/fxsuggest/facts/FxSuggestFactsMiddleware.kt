@@ -432,12 +432,16 @@ awesomeBarState
 =
 context
 .
+store
+.
 state
 .
 awesomeBarState
 clientCountry
 =
 context
+.
+store
 .
 state
 .

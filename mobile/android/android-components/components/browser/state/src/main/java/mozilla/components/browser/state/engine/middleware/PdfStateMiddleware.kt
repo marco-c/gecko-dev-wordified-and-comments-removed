@@ -277,6 +277,8 @@ action
 sessionId
 context
 .
+store
+.
 state
 )
 val
@@ -288,6 +290,8 @@ action
 .
 sessionId
 context
+.
+store
 .
 state
 )

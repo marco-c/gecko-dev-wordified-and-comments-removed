@@ -370,6 +370,8 @@ NewTabOpenedExtra
 (
 context
 .
+store
+.
 state
 .
 tabs
@@ -390,6 +392,8 @@ UpdateLoadingStateAction
 >
 {
 context
+.
+store
 .
 state
 .
@@ -535,6 +539,8 @@ tabCount
 =
 context
 .
+store
+.
 state
 .
 tabs
@@ -669,6 +675,8 @@ parentId
 let
 {
 context
+.
+store
 .
 state
 .

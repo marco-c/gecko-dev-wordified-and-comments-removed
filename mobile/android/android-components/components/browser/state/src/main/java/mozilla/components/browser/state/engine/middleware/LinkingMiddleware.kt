@@ -435,6 +435,8 @@ LinkEngineSessionAction
 {
 context
 .
+store
+.
 state
 .
 findTabOrCustomTab
@@ -690,6 +692,8 @@ let
 {
 context
 .
+store
+.
 state
 .
 findTabOrCustomTab
@@ -836,7 +840,7 @@ private
 fun
 unlink
 (
-store
+context
 :
 MiddlewareContext
 <
@@ -853,6 +857,8 @@ UnlinkEngineSessionAction
 val
 tab
 =
+context
+.
 store
 .
 state

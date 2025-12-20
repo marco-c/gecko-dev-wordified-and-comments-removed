@@ -497,6 +497,8 @@ UnlinkEngineSessionAction
 {
 context
 .
+store
+.
 state
 .
 findTab
@@ -726,6 +728,8 @@ val
 tab
 =
 context
+.
+store
 .
 state
 .
@@ -1041,6 +1045,8 @@ val
 tab
 =
 context
+.
+store
 .
 state
 .

@@ -183,6 +183,8 @@ preReductionState
 =
 context
 .
+store
+.
 state
 next
 (

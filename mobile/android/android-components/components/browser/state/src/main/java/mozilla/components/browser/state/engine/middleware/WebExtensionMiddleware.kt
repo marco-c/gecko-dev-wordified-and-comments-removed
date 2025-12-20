@@ -269,6 +269,8 @@ if
 (
 context
 .
+store
+.
 state
 .
 activeWebExtensionTabId
@@ -283,6 +285,8 @@ val
 activeTab
 =
 context
+.
+store
 .
 state
 .
@@ -370,6 +374,8 @@ val
 state
 =
 context
+.
+store
 .
 state
 if

@@ -438,6 +438,8 @@ postTelemetryTapped
 (
 ctx
 .
+store
+.
 state
 .
 findTab
@@ -478,6 +480,8 @@ SaveToPdfCompleteAction
 postTelemetryCompleted
 (
 ctx
+.
+store
 .
 state
 .
@@ -530,6 +534,8 @@ postTelemetryFailed
 (
 ctx
 .
+store
+.
 state
 .
 findTab
@@ -556,6 +562,8 @@ PrintContentAction
 postTelemetryTapped
 (
 ctx
+.
+store
 .
 state
 .
@@ -595,6 +603,8 @@ PrintContentCompletedAction
 postTelemetryCompleted
 (
 ctx
+.
+store
 .
 state
 .
@@ -646,6 +656,8 @@ unable_to_print_page_error
 postTelemetryFailed
 (
 ctx
+.
+store
 .
 state
 .

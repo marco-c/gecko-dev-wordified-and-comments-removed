@@ -847,6 +847,8 @@ currentCategoriesSelections
 =
 context
 .
+store
+.
 state
 .
 recommendationState

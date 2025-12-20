@@ -288,6 +288,8 @@ value
 =
 context
 .
+store
+.
 state
 .
 homepageSearchBarShown
@@ -319,6 +321,8 @@ TabAutoCloseBanner
 value
 =
 context
+.
+store
 .
 state
 .
@@ -352,6 +356,8 @@ value
 =
 context
 .
+store
+.
 state
 .
 inactiveTabsShown
@@ -383,6 +389,8 @@ OpenInApp
 value
 =
 context
+.
+store
 .
 state
 .

@@ -311,6 +311,8 @@ onTabsRemoved
 context
 context
 .
+store
+.
 state
 .
 normalTabs
@@ -325,6 +327,8 @@ onTabsRemoved
 (
 context
 context
+.
+store
 .
 state
 .
@@ -341,6 +345,8 @@ onTabsRemoved
 context
 context
 .
+store
+.
 state
 .
 tabs
@@ -352,6 +358,8 @@ RemoveTabAction
 -
 >
 context
+.
+store
 .
 state
 .
@@ -388,6 +396,8 @@ mapNotNull
 {
 context
 .
+store
+.
 state
 .
 findTab
@@ -415,6 +425,8 @@ onTabsRemoved
 context
 context
 .
+store
+.
 state
 .
 customTabs
@@ -426,6 +438,8 @@ RemoveCustomTabAction
 -
 >
 context
+.
+store
 .
 state
 .

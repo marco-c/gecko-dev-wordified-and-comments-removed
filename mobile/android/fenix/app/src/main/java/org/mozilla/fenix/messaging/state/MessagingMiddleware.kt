@@ -403,6 +403,8 @@ action
 surface
 context
 .
+store
+.
 state
 .
 messaging
@@ -1024,6 +1026,8 @@ current
 =
 context
 .
+store
+.
 state
 .
 messaging
@@ -1082,6 +1086,8 @@ Message
 return
 context
 .
+store
+.
 state
 .
 messaging
@@ -1125,6 +1131,8 @@ actualMessageToShow
 =
 context
 .
+store
+.
 state
 .
 messaging
@@ -1165,6 +1173,8 @@ oldMessageIndex
 =
 context
 .
+store
+.
 state
 .
 messaging
@@ -1196,6 +1206,8 @@ val
 newList
 =
 context
+.
+store
 .
 state
 .
@@ -1257,6 +1269,8 @@ id
 =
 1897485
 context
+.
+store
 .
 state
 .

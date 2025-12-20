@@ -430,6 +430,8 @@ TranslateAction
 {
 context
 .
+store
+.
 state
 .
 initialFrom
@@ -444,6 +446,8 @@ fromLanguage
 -
 >
 context
+.
+store
 .
 state
 .
