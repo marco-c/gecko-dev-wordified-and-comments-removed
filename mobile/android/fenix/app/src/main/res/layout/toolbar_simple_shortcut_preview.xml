@@ -144,15 +144,6 @@ wrap_content
 "
 android
 :
-layout_marginStart
-=
-"
-dimen
-/
-top_bar_alignment_margin_start
-"
-android
-:
 layout_marginTop
 =
 "
