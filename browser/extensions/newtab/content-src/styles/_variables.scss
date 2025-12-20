@@ -2299,9 +2299,16 @@ border
 ;
 outline
 :
+1px
+solid
+var
+(
+-
+-
 border
 -
-primary
+color
+)
 ;
 outline
 -

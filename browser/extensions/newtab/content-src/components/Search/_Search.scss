@@ -2060,11 +2060,18 @@ disabled
 {
 border
 :
-input
+1px
+solid
+var
+(
+-
 -
 border
 -
-active
+color
+-
+interactive
+)
 ;
 box
 -
@@ -2491,8 +2498,6 @@ var
 (
 -
 -
-newtab
--
 border
 -
 color
@@ -2867,8 +2872,6 @@ var
 (
 -
 -
-newtab
--
 border
 -
 color
@@ -2910,8 +2913,6 @@ solid
 var
 (
 -
--
-newtab
 -
 border
 -
@@ -3077,8 +3078,6 @@ var
 (
 -
 -
-newtab
--
 border
 -
 color
@@ -3089,8 +3088,6 @@ offset
 var
 (
 -
--
-newtab
 -
 border
 -
