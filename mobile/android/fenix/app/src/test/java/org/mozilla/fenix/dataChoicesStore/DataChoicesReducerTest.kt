@@ -335,6 +335,9 @@ true
 studiesEnabled
 =
 true
+showMeasurementDataSection
+=
+true
 measurementDataEnabled
 =
 true
@@ -372,6 +375,13 @@ true
 after
 .
 studiesEnabled
+)
+assertEquals
+(
+true
+after
+.
+showMeasurementDataSection
 )
 assertEquals
 (
