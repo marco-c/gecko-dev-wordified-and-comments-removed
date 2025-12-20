@@ -231,6 +231,15 @@ value
 getAllCreditCards
 (
 )
+.
+getOrElse
+{
+return
+withContext
+Result
+.
+StorageFailure
+}
 val
 foundCreditCard
 =
