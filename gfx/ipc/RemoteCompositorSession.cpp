@@ -133,9 +133,6 @@ aWidgetDelegate
 APZCTreeManagerChild
 *
 aAPZ
-UiCompositorControllerChild
-*
-aUiController
 const
 LayersId
 &
@@ -147,7 +144,6 @@ CompositorSession
 aWidget
 aWidgetDelegate
 aChild
-aUiController
 aRootLayerTreeId
 )
 mAPZ
