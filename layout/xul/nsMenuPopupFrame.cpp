@@ -1785,6 +1785,14 @@ this
 mWidget
 -
 >
+EnableDragDrop
+(
+true
+)
+;
+mWidget
+-
+>
 SetTransparencyMode
 (
 mode
