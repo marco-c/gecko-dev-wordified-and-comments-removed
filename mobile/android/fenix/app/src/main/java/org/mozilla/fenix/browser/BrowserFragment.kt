@@ -3449,7 +3449,7 @@ isSecure
 sitePermissions
 =
 sitePermissions
-certificateName
+certificate
 =
 tab
 .
@@ -3457,7 +3457,7 @@ content
 .
 securityInfo
 .
-issuer
+certificate
 permissionHighlights
 =
 tab

@@ -1675,7 +1675,7 @@ isSecure
 sitePermissions
 =
 sitePermissions
-certificateName
+certificate
 =
 customTab
 .
@@ -1683,7 +1683,7 @@ content
 .
 securityInfo
 .
-issuer
+certificate
 permissionHighlights
 =
 customTab
