@@ -67,6 +67,16 @@ html
 -
 name
 :
+online
+files
+:
+-
+WorkerNavigator_onLine
+.
+htm
+-
+name
+:
 postmessage
 files
 :
