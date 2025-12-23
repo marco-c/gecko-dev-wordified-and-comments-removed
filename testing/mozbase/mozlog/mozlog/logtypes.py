@@ -970,15 +970,6 @@ data
 :
         
 if
-data
-is
-None
-:
-            
-return
-None
-        
-if
 isinstance
 (
 data

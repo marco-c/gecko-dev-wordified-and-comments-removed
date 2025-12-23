@@ -1063,7 +1063,7 @@ data
 )
 :
         
-subtest
+name
 =
 data
 .
@@ -1072,18 +1072,8 @@ get
 "
 subtest
 "
-)
-        
-name
-=
-subtest
-if
-subtest
-is
-not
-None
-else
 test
+)
         
 rv
 =
