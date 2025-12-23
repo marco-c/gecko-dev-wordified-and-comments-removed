@@ -501,12 +501,12 @@ spec
 ;
 readonly
 attribute
-ACString
+AUTF8String
 exposablePrePath
 ;
 readonly
 attribute
-ACString
+AUTF8String
 exposableSpec
 ;
 readonly
