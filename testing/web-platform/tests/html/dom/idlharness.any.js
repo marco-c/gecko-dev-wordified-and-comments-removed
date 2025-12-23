@@ -135,6 +135,16 @@ DedicatedWorkerGlobalScope
 self
 '
 ]
+Origin
+:
+[
+'
+new
+Origin
+(
+)
+'
+]
 }
 )
 ;
