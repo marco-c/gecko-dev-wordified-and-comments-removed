@@ -3246,13 +3246,21 @@ u2705
 if
 match_run_on_projects
 (
+                                    
+{
+"
+project
+"
+:
 x
+}
 task
 [
 "
 run_on_projects
 "
 ]
+                                
 )
                                 
 else
@@ -5014,13 +5022,21 @@ u2705
 if
 match_run_on_projects
 (
+                                
+{
+"
+project
+"
+:
 x
+}
 task
 [
 "
 run_on_projects
 "
 ]
+                            
 )
                             
 else
