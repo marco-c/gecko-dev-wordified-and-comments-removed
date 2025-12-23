@@ -267,15 +267,14 @@ aName
 ;
 private
 :
-const
-nsTArray
+Span
 <
+const
 RefPtr
 <
 HTMLInputElement
 >
 >
-&
 GetButtonsInGroup
 (
 nsRadioGroupStruct

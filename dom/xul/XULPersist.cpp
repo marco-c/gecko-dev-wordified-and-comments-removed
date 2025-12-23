@@ -824,12 +824,7 @@ id
 )
 ;
 const
-nsTArray
-<
-Element
-*
->
-*
+Span
 allElements
 =
 mDocument
@@ -842,8 +837,11 @@ id
 ;
 if
 (
-!
 allElements
+.
+IsEmpty
+(
+)
 )
 {
 continue
@@ -860,8 +858,7 @@ elements
 SetCapacity
 (
 allElements
--
->
+.
 Length
 (
 )
@@ -873,7 +870,6 @@ Element
 *
 element
 :
-*
 allElements
 )
 {
