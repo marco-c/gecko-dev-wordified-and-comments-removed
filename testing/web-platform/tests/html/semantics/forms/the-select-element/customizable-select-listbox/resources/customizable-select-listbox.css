@@ -3,9 +3,7 @@ customizable
 -
 select
 -
-in
--
-page
+listbox
 {
 display
 :
@@ -61,9 +59,7 @@ customizable
 -
 select
 -
-in
--
-page
+listbox
 .
 disabled
 {
@@ -87,9 +83,7 @@ customizable
 -
 select
 -
-in
--
-page
+listbox
 :
 not
 (
