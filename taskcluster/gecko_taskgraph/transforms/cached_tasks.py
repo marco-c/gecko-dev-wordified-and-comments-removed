@@ -91,12 +91,9 @@ set
 )
     
 while
-True
+pending
 :
         
-try
-:
-            
 task
 =
 pending
@@ -104,12 +101,6 @@ pending
 popleft
 (
 )
-        
-except
-IndexError
-:
-            
-break
         
 parents
 =
@@ -137,6 +128,11 @@ values
             
 if
 task
+in
+task_labels
+            
+if
+task
 .
 startswith
 (
@@ -154,8 +150,6 @@ emitted
 issuperset
 (
 parents
-&
-task_labels
 )
 :
             
