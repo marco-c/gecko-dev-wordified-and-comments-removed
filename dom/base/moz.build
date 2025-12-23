@@ -918,6 +918,11 @@ External
 h
 "
 "
+FastFrontRemovableArray
+.
+h
+"
+"
 FilteredNodeIterator
 .
 h
