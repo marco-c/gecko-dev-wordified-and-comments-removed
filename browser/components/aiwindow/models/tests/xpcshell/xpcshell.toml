@@ -51,6 +51,13 @@ js
 ]
 [
 "
+test_ConversationSuggestions
+.
+js
+"
+]
+[
+"
 test_Insights
 .
 js

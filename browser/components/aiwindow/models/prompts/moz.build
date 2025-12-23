@@ -87,6 +87,13 @@ sys
 mjs
 "
 "
+ConversationSuggestionsPrompts
+.
+sys
+.
+mjs
+"
+"
 InsightsPrompts
 .
 sys
