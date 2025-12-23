@@ -42,6 +42,16 @@ pytest
 .
 mark
 .
+skip_platforms
+(
+"
+gve
+"
+)
+pytest
+.
+mark
+.
 asyncio
 pytest
 .

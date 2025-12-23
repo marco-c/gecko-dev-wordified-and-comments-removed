@@ -147,6 +147,14 @@ click
 (
 )
     
+await
+client
+.
+stall
+(
+1
+)
+    
 client
 .
 await_css

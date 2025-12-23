@@ -16,15 +16,18 @@ DESKTOP_CSS
 =
 "
 .
-banner_warp
+right
+-
+slider
 "
 MOBILE_CSS
 =
 "
 .
-banner
--
-top
+title
+>
+.
+more
 "
 pytest
 .
@@ -76,6 +79,9 @@ MOBILE_CSS
 is_displayed
 =
 True
+timeout
+=
+30
 )
     
 assert
@@ -139,6 +145,9 @@ DESKTOP_CSS
 is_displayed
 =
 True
+timeout
+=
+30
 )
     
 assert

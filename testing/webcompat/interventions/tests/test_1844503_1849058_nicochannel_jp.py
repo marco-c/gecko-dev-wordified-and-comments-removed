@@ -79,14 +79,13 @@ client
 css
 (
 "
-.
-nfcp
+[
+data
 -
-overlay
--
-play
--
-lg
+testid
+=
+PlayArrowRoundedIcon
+]
 "
 )
     

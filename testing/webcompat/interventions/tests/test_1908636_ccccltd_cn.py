@@ -33,7 +33,7 @@ LOGIN_CSS
 =
 "
 #
-main
+login_form2
 "
 pytest
 .
@@ -77,7 +77,7 @@ is_displayed
 True
 timeout
 =
-30
+60
 )
     
 assert
@@ -136,7 +136,7 @@ is_displayed
 True
 timeout
 =
-30
+60
 )
         
 assert

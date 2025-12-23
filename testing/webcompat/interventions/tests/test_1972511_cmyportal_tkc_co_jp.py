@@ -78,6 +78,9 @@ SUPPORTED_CSS
 is_displayed
 =
 True
+timeout
+=
+30
 )
     
 assert
@@ -131,6 +134,9 @@ UNSUPPORTED_CSS
 is_displayed
 =
 True
+timeout
+=
+30
 )
     
 assert

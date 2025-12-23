@@ -60,6 +60,14 @@ scrollTo
 "
 )
     
+await
+client
+.
+stall
+(
+1
+)
+    
 return
 client
 .
