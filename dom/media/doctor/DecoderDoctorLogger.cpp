@@ -133,6 +133,9 @@ EnableLogging
 ;
 }
 }
+#
+ifndef
+RELEASE_OR_BETA
 struct
 DDLogShutdowner
 {
@@ -208,6 +211,8 @@ DDLogDeleter
 >
 sDDLogDeleter
 ;
+#
+endif
 void
 DecoderDoctorLogger
 :
