@@ -105,9 +105,13 @@ const
 val
 TOU_TIME_IN_MILLIS
 =
-1765800000000
+1765929600000
 /
 /
 December
-15th
+17th
 2025
+00
+:
+00
+UTC
