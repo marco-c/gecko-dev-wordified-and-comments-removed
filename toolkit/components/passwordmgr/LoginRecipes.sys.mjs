@@ -221,7 +221,7 @@ object
 .
 *
 *
-constructor
+class
 *
 param
 {

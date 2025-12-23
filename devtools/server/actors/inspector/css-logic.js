@@ -3266,7 +3266,7 @@ the
 element
 .
 *
-constructor
+class
 *
 /
 constructor
@@ -4639,8 +4639,6 @@ buildMatchedRules
 for
 definition
 .
-*
-constructor
 *
 /
 constructor

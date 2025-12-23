@@ -509,7 +509,7 @@ permission
 manager
 .
 *
-constructor
+class
 *
 /
 export

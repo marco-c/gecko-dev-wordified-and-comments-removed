@@ -916,7 +916,7 @@ for
 testing
 .
 *
-constructor
+class
 *
 /
 export

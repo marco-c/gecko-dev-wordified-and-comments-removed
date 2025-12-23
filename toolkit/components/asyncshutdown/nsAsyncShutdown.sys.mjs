@@ -663,7 +663,7 @@ and
 removeBlocker
 .
 *
-constructor
+class
 *
 /
 function
@@ -1086,7 +1086,7 @@ all
 methods
 .
 *
-constructor
+class
 *
 /
 function

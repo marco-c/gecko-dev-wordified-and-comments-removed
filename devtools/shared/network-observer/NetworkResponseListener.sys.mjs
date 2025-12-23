@@ -253,7 +253,7 @@ traffic
 /
 *
 *
-constructor
+class
 *
 param
 {

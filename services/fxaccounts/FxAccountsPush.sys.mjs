@@ -139,7 +139,7 @@ used
 for
 testing
 *
-constructor
+class
 *
 /
 export

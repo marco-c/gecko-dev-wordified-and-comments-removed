@@ -5777,7 +5777,7 @@ invoking
 LazyGetter
 .
 *
-method
+function
 get
 *
 Trap

@@ -663,7 +663,7 @@ Console
 .
 *
 *
-constructor
+class
 *
 param
 {

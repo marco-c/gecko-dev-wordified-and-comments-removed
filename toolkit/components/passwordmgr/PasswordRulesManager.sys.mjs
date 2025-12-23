@@ -227,7 +227,7 @@ collection
 class
 PasswordRulesManagerParent
 *
-extends
+augments
 {
 JSWindowActorParent
 }

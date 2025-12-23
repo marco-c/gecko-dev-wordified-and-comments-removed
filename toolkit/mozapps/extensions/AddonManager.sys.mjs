@@ -23114,7 +23114,7 @@ promise
 /
 *
 *
-constructor
+class
 *
 /
 init

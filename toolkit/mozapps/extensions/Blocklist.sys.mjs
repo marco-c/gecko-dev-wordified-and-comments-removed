@@ -9551,7 +9551,7 @@ plugins
 *
 *
 *
-method
+function
 prompt
 *
 *

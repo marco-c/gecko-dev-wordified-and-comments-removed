@@ -214,7 +214,7 @@ com
 /
 v1
 *
-constructor
+class
 *
 /
 export
@@ -1465,7 +1465,7 @@ message
 Error
 message
 *
-constructor
+class
 *
 /
 export

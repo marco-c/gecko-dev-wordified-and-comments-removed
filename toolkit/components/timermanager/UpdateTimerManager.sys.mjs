@@ -279,7 +279,7 @@ months
 .
 *
 *
-constructor
+class
 *
 /
 export

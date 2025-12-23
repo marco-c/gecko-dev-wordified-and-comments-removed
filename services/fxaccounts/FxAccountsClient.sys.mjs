@@ -3164,7 +3164,7 @@ new
 device
 *
 *
-method
+function
 registerDevice
 *
 param
@@ -3465,7 +3465,7 @@ schema
 json
 *
 *
-method
+function
 notifyDevice
 *
 param
@@ -3653,7 +3653,7 @@ device
 .
 *
 *
-method
+function
 getCommands
 *
 param
@@ -3814,7 +3814,7 @@ device
 .
 *
 *
-method
+function
 invokeCommand
 *
 param
@@ -3933,7 +3933,7 @@ existing
 device
 *
 *
-method
+function
 updateDevice
 *
 param
@@ -4181,7 +4181,7 @@ DEVICES_FILTER_DAYS
 days
 *
 *
-method
+function
 getDeviceList
 *
 param

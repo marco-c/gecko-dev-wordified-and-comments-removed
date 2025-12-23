@@ -13586,7 +13586,7 @@ size
 of
 0
 *
-constructor
+class
 *
 /
 constructor
@@ -14887,7 +14887,7 @@ contains
 no
 patches
 *
-constructor
+class
 *
 /
 constructor
@@ -17245,7 +17245,7 @@ updates
 .
 *
 *
-constructor
+class
 *
 /
 constructor
@@ -29009,7 +29009,7 @@ updates
 .
 *
 *
-constructor
+class
 *
 /
 constructor
@@ -37350,7 +37350,7 @@ this
 downloader
 .
 *
-constructor
+class
 *
 /
 constructor

@@ -181,7 +181,7 @@ returns
 Element
 }
 *
-constructor
+class
 *
 /
 export
