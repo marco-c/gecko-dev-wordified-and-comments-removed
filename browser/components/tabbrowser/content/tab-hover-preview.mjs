@@ -3584,14 +3584,14 @@ positionX
 sidebarAtStart
 ?
 -
-20
+6
 :
-20
+6
 ;
 positionY
 =
 -
-15
+10
 ;
 }
 return
