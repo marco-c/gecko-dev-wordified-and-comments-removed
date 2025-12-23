@@ -4352,8 +4352,6 @@ MaybeUnslotHostChild
 nsIContent
 &
 aChild
-bool
-aInBatch
 )
 {
 MOZ_ASSERT
@@ -4419,10 +4417,6 @@ slot
 ;
 if
 (
-(
-aInBatch
-|
-|
 slot
 -
 >
@@ -4436,7 +4430,6 @@ Length
 =
 =
 1
-)
 &
 &
 slot
@@ -4460,21 +4453,6 @@ EnqueueSlotChangeEvent
 (
 )
 ;
-if
-(
-aInBatch
-)
-{
-slot
--
->
-ClearAssignedNodes
-(
-)
-;
-}
-else
-{
 slot
 -
 >
@@ -4507,7 +4485,6 @@ SummaryChangeReason
 Deletion
 )
 ;
-}
 }
 }
 void

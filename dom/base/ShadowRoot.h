@@ -298,8 +298,6 @@ MaybeUnslotHostChild
 (
 nsIContent
 &
-bool
-aInBatch
 )
 ;
 Element

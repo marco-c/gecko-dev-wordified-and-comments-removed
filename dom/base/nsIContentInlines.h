@@ -1217,8 +1217,6 @@ HandleShadowDOMRelatedRemovalSteps
 (
 bool
 aNullParent
-bool
-aInBatch
 )
 {
 using
@@ -1280,7 +1278,6 @@ MaybeUnslotHostChild
 (
 *
 this
-aInBatch
 )
 ;
 }
