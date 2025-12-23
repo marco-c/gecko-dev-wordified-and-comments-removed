@@ -8741,6 +8741,13 @@ js
 ]
 [
 "
+test_lna_captive_portal
+.
+js
+"
+]
+[
+"
 test_localhost_offline
 .
 js
