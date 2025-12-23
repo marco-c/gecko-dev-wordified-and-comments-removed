@@ -326,7 +326,9 @@ BASE_URL
 )
 ;
 const
+{
 taskbarTab
+}
 =
 await
 TaskbarTabs
