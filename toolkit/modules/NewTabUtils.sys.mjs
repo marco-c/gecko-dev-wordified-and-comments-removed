@@ -1945,7 +1945,7 @@ pinned
 .
 *
 *
-params
+param
 aLink
 The
 link
@@ -9127,7 +9127,8 @@ aLink2
 .
 *
 *
-note
+Note
+:
 compareLinks
 '
 s

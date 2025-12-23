@@ -441,11 +441,14 @@ decrypted
 .
 *
 *
-resolve
+returns
 {
+Promise
+<
 nsILoginInfo
 [
 ]
+>
 }
 *
 /

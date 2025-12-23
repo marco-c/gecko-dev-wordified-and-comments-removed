@@ -3782,7 +3782,7 @@ access
 .
 *
 *
-params
+param
 {
 .
 .
@@ -4084,7 +4084,7 @@ empty
 .
 *
 *
-params
+param
 {
 string
 [
@@ -4100,7 +4100,7 @@ from
 .
 *
 *
-params
+param
 {
 object
 ?
@@ -4108,7 +4108,7 @@ object
 options
 *
 *
-params
+param
 {
 object
 ?
@@ -6196,7 +6196,7 @@ fail
 .
 *
 *
-params
+param
 {
 ExperimentStore
 }
@@ -7373,7 +7373,7 @@ schema
 .
 *
 *
-params
+param
 {
 object
 }

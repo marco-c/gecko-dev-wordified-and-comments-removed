@@ -1495,7 +1495,7 @@ toolbar
 style
 buttons
 *
-csspropert
+cssproperty
 [
 -
 -

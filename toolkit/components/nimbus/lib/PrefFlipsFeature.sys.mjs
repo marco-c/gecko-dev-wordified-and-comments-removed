@@ -960,7 +960,7 @@ feature
 .
 *
 *
-params
+param
 {
 string
 }
@@ -977,7 +977,7 @@ of
 .
 *
 *
-params
+param
 {
 PrefBranch
 }

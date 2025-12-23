@@ -3038,7 +3038,7 @@ the
 created
 file
 *
-throw
+throws
 an
 error
 such

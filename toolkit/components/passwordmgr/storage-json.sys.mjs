@@ -3311,11 +3311,14 @@ array
 .
 *
 *
-resolve
+returns
 {
+Promise
+<
 nsILoginInfo
 [
 ]
+>
 }
 *
 /

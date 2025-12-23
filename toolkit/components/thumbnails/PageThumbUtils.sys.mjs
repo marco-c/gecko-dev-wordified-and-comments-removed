@@ -1442,7 +1442,7 @@ text
 .
 *
 *
-params
+param
 aBrowser
 -
 the
@@ -1454,9 +1454,10 @@ snapshot
 of
 .
 *
-params
+param
 aDestCanvas
 destination
+-
 canvas
 to
 draw
@@ -1472,10 +1473,10 @@ null
 .
 *
 param
+[
 aArgs
-(
-optional
-)
+]
+-
 Additional
 named
 parameters

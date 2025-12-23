@@ -9850,11 +9850,9 @@ false
 returns
 {
 Promise
-}
-*
-resolves
-{
+<
 ImageBitmap
+>
 }
 *
 /

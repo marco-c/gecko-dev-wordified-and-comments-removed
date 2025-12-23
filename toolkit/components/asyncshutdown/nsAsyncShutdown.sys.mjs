@@ -414,7 +414,8 @@ A
 PropertyBag
 .
 *
-note
+Note
+:
 function
 is
 converted

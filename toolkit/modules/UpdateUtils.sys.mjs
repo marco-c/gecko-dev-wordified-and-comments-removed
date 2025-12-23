@@ -2621,7 +2621,7 @@ was
 saved
 .
 *
-throw
+throws
 If
 there
 is
@@ -5707,7 +5707,7 @@ object
 written
 .
 *
-throw
+throws
 A
 DOMException
 will

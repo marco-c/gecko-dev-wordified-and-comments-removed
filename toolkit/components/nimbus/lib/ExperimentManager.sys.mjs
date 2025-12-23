@@ -6695,7 +6695,7 @@ set
 .
 *
 *
-params
+param
 {
 object
 }
@@ -6709,7 +6709,7 @@ be
 enrolled
 .
 *
-params
+param
 {
 boolean
 }

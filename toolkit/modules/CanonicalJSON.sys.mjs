@@ -135,7 +135,7 @@ hexadecimal
 .
 *
 *
-usage
+example
 *
 CanonicalJSON
 .

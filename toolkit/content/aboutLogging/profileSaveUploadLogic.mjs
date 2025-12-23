@@ -250,7 +250,7 @@ Date
 }
 date
 *
-reurns
+returns
 {
 string
 }

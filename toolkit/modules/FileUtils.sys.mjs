@@ -273,7 +273,8 @@ write
 to
 .
 *
-note
+Note
+:
 The
 stream
 is
@@ -386,7 +387,8 @@ write
 to
 .
 *
-note
+Note
+:
 The
 stream
 is
@@ -520,7 +522,8 @@ write
 to
 .
 *
-note
+Note
+:
 The
 stream
 is

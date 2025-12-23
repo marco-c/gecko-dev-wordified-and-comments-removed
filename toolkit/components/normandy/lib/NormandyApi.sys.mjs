@@ -993,9 +993,12 @@ to
 look
 up
 *
-resolves
+returns
 {
+Promise
+<
 object
+>
 }
 *
 /

@@ -2070,7 +2070,7 @@ to
 install
 .
 *
-params
+param
 {
 nsIURI
 }
@@ -2090,7 +2090,7 @@ install
 flow
 .
 *
-params
+param
 {
 nsIURI
 }
