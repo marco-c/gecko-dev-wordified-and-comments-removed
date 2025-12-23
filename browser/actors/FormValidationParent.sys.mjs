@@ -774,6 +774,10 @@ displayed
 .
 *
 *
+param
+{
+MozBrowser
+}
 aBrowser
 -
 Browser
@@ -784,6 +788,10 @@ the
 popup
 .
 *
+param
+{
+object
+}
 aPanelData
 -
 Object

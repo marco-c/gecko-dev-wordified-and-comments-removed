@@ -297,7 +297,8 @@ paints
 .
 *
 *
-note
+Note
+:
 Both
 setTimeout
 and

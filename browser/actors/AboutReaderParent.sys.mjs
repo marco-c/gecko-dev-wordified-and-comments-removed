@@ -1629,9 +1629,15 @@ loaded
 return
 {
 Promise
+<
+?
+object
+>
 }
 *
-resolves
+Resolves
+to
+the
 JS
 object
 representing
@@ -1642,6 +1648,7 @@ null
 if
 no
 article
+*
 is
 found
 .

@@ -1246,12 +1246,13 @@ it
 returns
 {
 Promise
+<
+boolean
+>
 }
 *
-resolves
-{
-boolean
-}
+Resolves
+to
 true
 when
 document
@@ -1259,6 +1260,7 @@ is
 ready
 or
 rejects
+.
 *
 /
 documentIsReady
