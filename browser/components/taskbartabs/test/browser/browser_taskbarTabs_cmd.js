@@ -173,10 +173,9 @@ userContextId1
 taskbarTab1
 =
 await
-TaskbarTabs
-.
-findOrCreateTaskbarTab
+createTaskbarTab
 (
+TaskbarTabs
 url1
 userContextId1
 )

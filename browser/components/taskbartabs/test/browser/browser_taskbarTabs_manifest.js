@@ -1074,6 +1074,10 @@ main
 ;
 }
 )
+.
+skip
+(
+)
 ;
 async
 function

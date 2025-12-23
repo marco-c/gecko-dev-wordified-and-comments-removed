@@ -707,7 +707,9 @@ return
 )
 ;
 let
+{
 taskbarTab
+}
 =
 await
 this
