@@ -1816,6 +1816,15 @@ didSeeFinalScreen
 "
 browser
 .
+aiwindow
+.
+firstrun
+.
+modelChoice
+"
+"
+browser
+.
 crashReports
 .
 unsubmittedCheck
