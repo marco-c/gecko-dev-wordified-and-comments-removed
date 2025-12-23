@@ -243,6 +243,13 @@ js
 ]
 [
 "
+test_TopSitesFeed_frecencyDeduping
+.
+js
+"
+]
+[
+"
 test_TopSitesFeed_frecencyRanking
 .
 js
