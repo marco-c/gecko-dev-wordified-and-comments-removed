@@ -227,7 +227,7 @@ ops
 is
 PrivacyNoticeBannerAction
 .
-OnFragmentStopped
+OnNavigatedAwayFromHome
 -
 >
 {

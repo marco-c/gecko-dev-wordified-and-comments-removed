@@ -157,7 +157,7 @@ Test
 fun
 WHEN
 the
-OnFragmentStopped
+OnNavigatedAwayFromHome
 action
 is
 received
@@ -198,7 +198,7 @@ dispatch
 (
 PrivacyNoticeBannerAction
 .
-OnFragmentStopped
+OnNavigatedAwayFromHome
 )
 assertFalse
 (

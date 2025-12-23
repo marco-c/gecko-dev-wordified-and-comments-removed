@@ -191,7 +191,7 @@ OnCloseClicked
 is
 PrivacyNoticeBannerAction
 .
-OnFragmentStopped
+OnNavigatedAwayFromHome
 -
 >
 {

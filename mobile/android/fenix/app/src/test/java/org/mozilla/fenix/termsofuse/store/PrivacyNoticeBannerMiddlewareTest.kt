@@ -292,7 +292,7 @@ action
 =
 PrivacyNoticeBannerAction
 .
-OnFragmentStopped
+OnNavigatedAwayFromHome
 )
 assertFalse
 (
