@@ -1147,7 +1147,7 @@ testChangingColorShouldEmitEventsHelper
 s
 sendUpKey
 [
-127
+128
 64
 64
 1
@@ -1159,7 +1159,7 @@ testChangingColorShouldEmitEventsHelper
 s
 sendRightKey
 [
-128
+127
 63
 63
 1
