@@ -301,16 +301,9 @@ override
 void
 AttachToTrack
 (
-const
-RefPtr
-<
-MediaStreamTrack
->
-&
+AudioStreamTrack
+*
 aTrack
-ErrorResult
-&
-aRv
 )
 ;
 void
@@ -543,7 +536,7 @@ mInputStream
 ;
 RefPtr
 <
-MediaStreamTrack
+AudioStreamTrack
 >
 mInputTrack
 ;

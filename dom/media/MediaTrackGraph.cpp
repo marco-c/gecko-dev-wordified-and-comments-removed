@@ -16892,13 +16892,6 @@ Graph
 )
 const
 {
-mGraph
--
->
-AssertOnGraphThreadOrNotRunning
-(
-)
-;
 return
 mGraph
 ;

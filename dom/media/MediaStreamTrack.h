@@ -1698,6 +1698,7 @@ MediaStreamTrack
 (
 )
 ;
+virtual
 void
 SetReadyState
 (
