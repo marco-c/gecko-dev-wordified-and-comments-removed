@@ -89,7 +89,8 @@ with
 Files
 (
 "
-PageInfoChild
+PageInfo
+*
 .
 sys
 .
@@ -113,7 +114,8 @@ with
 Files
 (
 "
-PageStyleChild
+PageStyle
+*
 .
 sys
 .
@@ -433,6 +435,13 @@ sys
 mjs
 "
 "
+PageInfoPreviewChild
+.
+sys
+.
+mjs
+"
+"
 PageStyleChild
 .
 sys
@@ -532,6 +541,13 @@ mjs
 "
 "
 SwitchDocumentDirectionChild
+.
+sys
+.
+mjs
+"
+"
+TLSCertificateBindingChild
 .
 sys
 .

@@ -306,6 +306,53 @@ sctspec
 "
 )
 def
+is_bindingspec_file
+(
+filename
+)
+:
+    
+"
+"
+"
+Returns
+True
+if
+the
+given
+filename
+is
+a
+TLS
+certificate
+    
+binding
+specification
+file
+(
+.
+bindingspec
+)
+and
+False
+    
+otherwise
+.
+"
+"
+"
+    
+return
+filename
+.
+endswith
+(
+"
+.
+bindingspec
+"
+)
+def
 is_specification_file
 (
 filename
@@ -360,6 +407,12 @@ filename
         
 or
 is_sctspec_file
+(
+filename
+)
+        
+or
+is_bindingspec_file
 (
 filename
 )
@@ -461,6 +514,9 @@ pykey
 import
 pypkcs12
     
+import
+pytlsbinding
+    
 if
 not
 specifications
@@ -535,6 +591,17 @@ output_is_binary
 =
 True
         
+elif
+is_bindingspec_file
+(
+specification
+)
+:
+            
+module
+=
+pytlsbinding
+        
 else
 :
             
@@ -556,9 +623,11 @@ a
 certspec
 .
 keyspec
-or
 .
 pkcs12spec
+or
+.
+bindingspec
 file
 "
             
@@ -618,6 +687,19 @@ specifications
 inclusions
 =
 [
+        
+"
+browser
+/
+base
+/
+content
+/
+test
+/
+siteIdentity
+/
+"
         
 "
 netwerk
