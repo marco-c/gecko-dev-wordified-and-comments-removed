@@ -180,6 +180,7 @@ IntProperty
 BidiPairedBracketType
 EastAsianWidth
 HangulSyllableType
+IdentifierStatus
 LineBreak
 NumericType
 VerticalOrientation
@@ -273,6 +274,18 @@ VerticalOrientation
 prop
 =
 UCHAR_VERTICAL_ORIENTATION
+;
+break
+;
+case
+IntProperty
+:
+:
+IdentifierStatus
+:
+prop
+=
+UCHAR_IDENTIFIER_STATUS
 ;
 break
 ;
