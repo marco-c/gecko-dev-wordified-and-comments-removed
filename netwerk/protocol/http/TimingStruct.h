@@ -54,9 +54,6 @@ TimeStamp
 responseStart
 ;
 TimeStamp
-finalResponseHeadersStart
-;
-TimeStamp
 responseEnd
 ;
 TimeStamp
