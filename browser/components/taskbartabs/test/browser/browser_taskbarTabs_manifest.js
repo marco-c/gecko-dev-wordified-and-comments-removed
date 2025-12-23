@@ -1210,7 +1210,7 @@ tt
 await
 TaskbarTabs
 .
-findOrCreateTaskbarTab
+findTaskbarTab
 (
 uri
 0
