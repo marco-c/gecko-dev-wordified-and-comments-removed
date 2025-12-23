@@ -233,6 +233,23 @@ False
 return
 True
     
+if
+params
+[
+"
+repository_type
+"
+]
+=
+=
+"
+git
+"
+:
+        
+return
+True
+    
 project
 =
 params
