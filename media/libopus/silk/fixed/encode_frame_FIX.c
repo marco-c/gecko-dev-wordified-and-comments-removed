@@ -2188,13 +2188,6 @@ sNSQ_LBRR
 ;
 SAVE_STACK
 ;
-ALLOC
-(
-sNSQ_LBRR
-1
-silk_nsq_state
-)
-;
 if
 (
 psEnc
@@ -2219,6 +2212,13 @@ LBRR_SPEECH_ACTIVITY_THRES
 )
 )
 {
+ALLOC
+(
+sNSQ_LBRR
+1
+silk_nsq_state
+)
+;
 psEnc
 -
 >

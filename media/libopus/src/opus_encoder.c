@@ -4568,6 +4568,9 @@ c
 ;
 }
 }
+#
+ifndef
+FIXED_POINT
 for
 (
 j
@@ -4643,6 +4646,8 @@ j
 0
 ;
 }
+#
+endif
 }
 #
 endif
@@ -11577,8 +11582,6 @@ arch
 ;
 activity
 =
-2
-*
 st
 -
 >
@@ -11594,7 +11597,10 @@ PSEUDO_SNR_THRESHOLD
 (
 opus_val64
 )
+HALF32
+(
 noise_energy
+)
 )
 ;
 }
