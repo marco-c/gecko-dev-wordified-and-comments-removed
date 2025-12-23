@@ -2060,6 +2060,7 @@ params
 startTs
 *
 Optional
+local
 ISO
 -
 8601
@@ -2080,10 +2081,6 @@ g
 00
 :
 00
--
-05
-:
-00
 "
 )
 .
@@ -2099,6 +2096,7 @@ params
 endTs
 *
 Optional
+local
 ISO
 -
 8601
@@ -2117,10 +2115,6 @@ g
 07T09
 :
 00
-:
-00
--
-05
 :
 00
 "
