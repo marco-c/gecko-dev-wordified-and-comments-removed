@@ -1703,6 +1703,15 @@ mStopServiceThread
 =
 false
 ;
+static
+constexpr
+PRUint32
+kRemoteBackbufferStackSize
+=
+40
+*
+1024
+;
 mServiceThread
 =
 PR_CreateThread
@@ -1735,7 +1744,7 @@ this
 PR_PRIORITY_NORMAL
 PR_GLOBAL_THREAD
 PR_JOINABLE_THREAD
-0
+kRemoteBackbufferStackSize
 )
 ;
 return
