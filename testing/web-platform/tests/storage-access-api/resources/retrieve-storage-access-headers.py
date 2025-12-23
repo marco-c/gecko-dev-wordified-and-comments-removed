@@ -1,5 +1,25 @@
 import
-hashlib
+importlib
+header_helpers
+=
+importlib
+.
+import_module
+(
+"
+storage
+-
+access
+-
+api
+.
+resources
+.
+header
+-
+helpers
+"
+)
 def
 main
 (
@@ -48,15 +68,14 @@ b
   
 stash_key
 =
-hashlib
+header_helpers
 .
-md5
+make_stash_key
 (
 key
-)
+request
 .
-hexdigest
-(
+GET
 )
   
 headers
