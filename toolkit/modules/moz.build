@@ -1597,6 +1597,13 @@ MOZ_SRC_FILES
 =
 [
 "
+ColorPickerPanel
+.
+sys
+.
+mjs
+"
+"
 DateTimePickerPanel
 .
 sys
