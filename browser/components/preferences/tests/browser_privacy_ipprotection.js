@@ -11,7 +11,7 @@ browser
 .
 ipProtection
 .
-variant
+enabled
 "
 ;
 const
@@ -86,6 +86,8 @@ setupVpnPrefs
 (
 {
 feature
+=
+false
 siteExceptions
 =
 false
@@ -214,9 +216,7 @@ setupVpnPrefs
 {
 feature
 :
-"
-alpha
-"
+false
 }
 )
 ;
@@ -293,9 +293,7 @@ setupVpnPrefs
 {
 feature
 :
-"
-beta
-"
+true
 }
 )
 ;
@@ -348,9 +346,7 @@ setupVpnPrefs
 {
 feature
 :
-"
-beta
-"
+true
 siteExceptions
 :
 true
@@ -990,9 +986,7 @@ setupVpnPrefs
 {
 feature
 :
-"
-beta
-"
+true
 autostartFeatureEnabled
 :
 true
@@ -1146,9 +1140,7 @@ setupVpnPrefs
 {
 feature
 :
-"
-beta
-"
+true
 }
 )
 ;
