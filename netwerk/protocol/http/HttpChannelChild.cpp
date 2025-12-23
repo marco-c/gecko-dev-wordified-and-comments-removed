@@ -1900,6 +1900,16 @@ responseStart
 ;
 aTimings
 .
+finalResponseHeadersStart
+=
+aArgs
+.
+finalResponseHeadersStart
+(
+)
+;
+aTimings
+.
 responseEnd
 =
 aArgs
