@@ -58,6 +58,17 @@ only
 =
 true
 "
+"
+dom
+.
+forms
+.
+html_color_picker
+.
+enabled
+=
+false
+"
 ]
 [
 "
