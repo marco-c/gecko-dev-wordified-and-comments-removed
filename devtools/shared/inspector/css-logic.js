@@ -1941,6 +1941,17 @@ implementedPseudoElement
 :
 after
 "
+|
+|
+implementedPseudoElement
+=
+=
+=
+"
+:
+:
+backdrop
+"
 )
 {
 pseudo

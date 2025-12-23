@@ -662,6 +662,17 @@ nodeName
 "
 _moz_generated_content_after
 "
+|
+|
+node
+.
+nodeName
+=
+=
+=
+"
+_moz_generated_content_backdrop
+"
 )
 {
 return
