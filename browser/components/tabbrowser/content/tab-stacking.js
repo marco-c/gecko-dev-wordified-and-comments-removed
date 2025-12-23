@@ -3884,6 +3884,8 @@ left
 rect
 .
 left
+-
+movingTabsOffsetX
 +
 "
 px
@@ -3936,6 +3938,8 @@ left
 rect
 .
 left
+-
+movingTabsOffsetX
 +
 "
 px
@@ -3953,6 +3957,8 @@ left
 rect
 .
 left
+-
+movingTabsOffsetX
 +
 "
 px
