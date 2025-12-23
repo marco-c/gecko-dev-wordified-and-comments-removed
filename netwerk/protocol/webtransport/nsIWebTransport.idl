@@ -228,6 +228,9 @@ in
 nsIPrincipal
 aLoadingPrincipal
 in
+uint64_t
+aBrowsingContextID
+in
 unsigned
 long
 aSecurityFlags

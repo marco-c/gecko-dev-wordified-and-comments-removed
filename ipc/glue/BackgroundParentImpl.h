@@ -497,6 +497,10 @@ nsIPrincipal
 *
 aPrincipal
 const
+uint64_t
+&
+aBrowsingContextID
+const
 mozilla
 :
 :

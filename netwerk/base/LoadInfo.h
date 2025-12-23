@@ -168,6 +168,9 @@ LoadInfoArgs
 class
 LoadInfo
 ;
+class
+WebTransportSessionProxy
+;
 }
 namespace
 ipc
@@ -1878,6 +1881,16 @@ net
 :
 :
 EarlyHintPreloader
+;
+friend
+class
+mozilla
+:
+:
+net
+:
+:
+WebTransportSessionProxy
 ;
 void
 UpdateBrowsingContextID
