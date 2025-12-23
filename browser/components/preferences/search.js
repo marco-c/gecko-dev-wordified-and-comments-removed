@@ -628,7 +628,7 @@ Services
 .
 search
 .
-getEngines
+getVisibleEngines
 (
 )
 ;
