@@ -6827,7 +6827,7 @@ code
 .
 *
 *
-params
+param
 {
 object
 }

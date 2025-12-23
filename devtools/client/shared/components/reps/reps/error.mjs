@@ -856,6 +856,7 @@ from
 :
 *
 *
+*
 semicolon
 debugger
 eval
@@ -893,11 +894,13 @@ code
 227
 *
 *
+*
 Into
 a
 column
 layout
 :
+*
 *
 *
 semicolon
@@ -942,6 +945,7 @@ anonymous
 :
 1
 )
+*
 *
 /
 function
