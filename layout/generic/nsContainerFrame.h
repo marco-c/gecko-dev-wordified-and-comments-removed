@@ -828,7 +828,7 @@ aLists
 )
 ;
 void
-DisplayAbsoluteContinuations
+DisplayPushedAbsoluteFrames
 (
 nsDisplayListBuilder
 *
