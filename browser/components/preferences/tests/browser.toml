@@ -504,7 +504,14 @@ js
 ]
 [
 "
-browser_etp_customize
+browser_etp_customize_1
+.
+js
+"
+]
+[
+"
+browser_etp_customize_2
 .
 js
 "
