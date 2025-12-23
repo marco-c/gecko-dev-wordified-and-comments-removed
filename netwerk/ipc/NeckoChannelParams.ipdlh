@@ -850,6 +850,10 @@ isNewWindowTarget
 UserNavigationInvolvement
 userNavigationInvolvement
 ;
+FeaturePolicyInfo
+?
+containerFeaturePolicyInfo
+;
 }
 ;
 struct

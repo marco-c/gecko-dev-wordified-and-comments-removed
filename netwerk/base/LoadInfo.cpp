@@ -3736,6 +3736,16 @@ nsIPolicyContainer
 *
 aPolicyContainerToInherit
 const
+Maybe
+<
+dom
+:
+:
+FeaturePolicyInfo
+>
+&
+aContainerFeaturePolicyInfo
+const
 nsACString
 &
 aTriggeringRemoteType
@@ -3915,6 +3925,10 @@ aCookieJarSettings
 mPolicyContainerToInherit
 (
 aPolicyContainerToInherit
+)
+mContainerFeaturePolicyInfo
+(
+aContainerFeaturePolicyInfo
 )
 mTriggeringRemoteType
 (

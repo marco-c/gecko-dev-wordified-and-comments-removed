@@ -3515,6 +3515,12 @@ aLoadInfo
 GetUserNavigationInvolvement
 (
 )
+aLoadInfo
+-
+>
+GetContainerFeaturePolicyInfo
+(
+)
 )
 ;
 return
@@ -4831,6 +4837,11 @@ topLevelPrincipal
 resultPrincipalURI
 cookieJarSettings
 policyContainerToInherit
+loadInfoArgs
+.
+containerFeaturePolicyInfo
+(
+)
 triggeringRemoteType
 loadInfoArgs
 .
