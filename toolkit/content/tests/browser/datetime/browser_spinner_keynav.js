@@ -149,7 +149,7 @@ querySelector
 (
 "
 #
-DateTimePickerPanelPopupFrame
+dateTimePopupFrame
 "
 )
 .
@@ -1832,7 +1832,7 @@ querySelector
 (
 "
 #
-DateTimePickerPanelPopupFrame
+dateTimePopupFrame
 "
 )
 .
