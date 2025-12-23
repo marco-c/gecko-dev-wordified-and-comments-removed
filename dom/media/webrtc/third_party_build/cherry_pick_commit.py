@@ -2785,7 +2785,7 @@ n
             
 "
 The
-mercurial
+Mozilla
 repo
 is
 in
@@ -3465,7 +3465,8 @@ print
 (
 f
 "
-Mercurial
+Mozilla
+repo
 changes
 :
 \
@@ -3476,17 +3477,18 @@ stdout_lines
 "
 )
         
-hg_file_change_cnt
+mozilla_file_change_cnt
 =
 len
 (
 stdout_lines
 )
         
-git_paths_changed
+libwebrtc_paths_changed
 =
 filter_git_changes
 (
+            
 args
 .
 repo_path
@@ -3494,28 +3496,30 @@ args
 .
 commit_sha
 None
+        
 )
         
 print
 (
 f
 "
-github
+Libwebrtc
+repo
 changes
 :
 \
 n
 {
-git_paths_changed
+libwebrtc_paths_changed
 }
 "
 )
         
-git_file_change_cnt
+libwebrtc_file_change_cnt
 =
 len
 (
-git_paths_changed
+libwebrtc_paths_changed
 )
         
 error_help
@@ -3552,17 +3556,25 @@ changed
 file
 counts
 between
-mercurial
+the
+Mozilla
+repo
 (
 {
-hg_file_change_cnt
+mozilla_file_change_cnt
 }
 )
+"
+            
+f
+"
 and
-git
+the
+libwebrtc
+repo
 (
 {
-git_file_change_cnt
+libwebrtc_file_change_cnt
 }
 )
 .
@@ -3608,7 +3620,6 @@ f
 the
 newly
 committed
-mercurial
 patch
 please
 re
@@ -3635,10 +3646,10 @@ processing
 )
         
 if
-hg_file_change_cnt
+mozilla_file_change_cnt
 !
 =
-git_file_change_cnt
+libwebrtc_file_change_cnt
 :
             
 sys
