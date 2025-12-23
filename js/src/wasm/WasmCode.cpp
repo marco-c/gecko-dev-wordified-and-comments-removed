@@ -2729,7 +2729,14 @@ lazyExport
 ;
 }
 }
-stubCodeBlock
+guard
+-
+>
+blocks
+[
+*
+stubBlockIndex
+]
 -
 >
 sendToProfiler
