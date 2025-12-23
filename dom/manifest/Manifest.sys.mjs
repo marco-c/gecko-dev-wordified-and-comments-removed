@@ -220,7 +220,8 @@ string
 .
 *
 *
-note
+Note
+:
 The
 generated
 hash

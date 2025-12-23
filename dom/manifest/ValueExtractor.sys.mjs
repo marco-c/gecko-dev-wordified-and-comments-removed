@@ -111,7 +111,8 @@ spec
 object
 .
 *
-note
+Note
+:
 This
 function
 takes
