@@ -58,6 +58,11 @@ editor
 "
 broken
 -
+font
+"
+"
+broken
+-
 images
 "
 "
