@@ -270,7 +270,8 @@ directory
 .
 *
 *
-note
+Note
+:
 It
 is
 not

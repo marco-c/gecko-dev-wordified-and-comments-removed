@@ -150,7 +150,8 @@ is
 .
 *
 *
-usage
+example
+*
 this
 .
 _chain

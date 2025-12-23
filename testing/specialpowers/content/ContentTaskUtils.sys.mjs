@@ -898,7 +898,8 @@ promise
 .
 *
 *
-note
+Note
+:
 Because
 this
 function
@@ -942,13 +943,10 @@ test
 returns
 {
 Promise
-}
-*
-resolves
-The
+<
 Event
-object
-.
+>
+}
 *
 /
 waitForEvent

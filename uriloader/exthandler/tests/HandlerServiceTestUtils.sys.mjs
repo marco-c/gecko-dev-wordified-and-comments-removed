@@ -292,7 +292,8 @@ protocols
 .
 *
 *
-note
+Note
+:
 The
 nsIHandlerInfo
 instances
@@ -412,7 +413,8 @@ testing
 .
 *
 *
-note
+Note
+:
 If
 the
 handler
@@ -801,7 +803,8 @@ platform
 .
 *
 *
-note
+Note
+:
 For
 this
 method
