@@ -1525,17 +1525,6 @@ true
 "
 BackupUI
 :
-RerunEncryption
-"
-:
-{
-wantUntrusted
-:
-true
-}
-"
-BackupUI
-:
 ShowBackupLocation
 "
 :
