@@ -2181,6 +2181,16 @@ this
 isBlockLevel
 (
 )
+&
+&
+this
+.
+localName
+!
+=
+"
+br
+"
 fixId
 :
 "
