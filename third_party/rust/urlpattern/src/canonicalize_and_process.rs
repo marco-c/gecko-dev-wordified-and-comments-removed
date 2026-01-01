@@ -761,6 +761,17 @@ url
 if
 !
 leading_slash
+&
+&
+pathname
+.
+starts_with
+(
+"
+/
+-
+"
+)
 {
 pathname
 =
