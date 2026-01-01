@@ -311,6 +311,11 @@ translations
 detect
 -
 default
+-
+label
+=
+.
+label
 =
 Detect
 language
@@ -372,6 +377,11 @@ translations
 detect
 -
 language
+-
+label
+=
+.
+label
 =
 {
 language
@@ -493,6 +503,11 @@ about
 translations
 -
 select
+-
+label
+=
+.
+label
 =
 Select
 language
