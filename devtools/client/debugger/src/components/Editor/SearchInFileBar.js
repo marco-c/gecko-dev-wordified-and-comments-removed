@@ -1629,7 +1629,7 @@ getStr
 "
 sourceSearch
 .
-resultsSummary1
+resultsSummary2
 "
 )
 ;
