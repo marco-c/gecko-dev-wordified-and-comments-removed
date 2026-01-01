@@ -1757,12 +1757,6 @@ Backend
 :
 :
 Vulkan
-subgroup_min_size
-:
-32
-subgroup_max_size
-:
-32
 transient_saves_memory
 :
 true

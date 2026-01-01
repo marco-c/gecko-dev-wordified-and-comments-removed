@@ -21,7 +21,10 @@ use
 rand
 :
 :
+{
+thread_rng
 Rng
+}
 ;
 use
 metal
@@ -592,10 +595,7 @@ let
 mut
 rng
 =
-rand
-:
-:
-rng
+thread_rng
 (
 )
 ;
@@ -849,7 +849,7 @@ new
 (
 rng
 .
-random_range
+gen_range
 (
 0f32
 .
@@ -861,7 +861,7 @@ random_range
 )
 rng
 .
-random_range
+gen_range
 (
 0f32
 .
@@ -873,7 +873,7 @@ random_range
 )
 rng
 .
-random_range
+gen_range
 (
 0f32
 .

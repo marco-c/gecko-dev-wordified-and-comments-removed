@@ -555,7 +555,7 @@ ffi
 CopyExternalImageDestInfo
 ;
 const
-IMMEDIATES_CLEAR_ARRAY
+PUSH_CONSTANT_CLEAR_ARRAY
 :
 &
 [
@@ -5635,7 +5635,7 @@ Vec
 u8
 >
 pub
-immediates_data
+push_constant_data
 :
 Vec
 <
@@ -5713,7 +5713,7 @@ Vec
 new
 (
 )
-immediates_data
+push_constant_data
 :
 Vec
 :
@@ -5785,7 +5785,7 @@ Vec
 new
 (
 )
-immediates_data
+push_constant_data
 :
 Vec
 :
@@ -5895,7 +5895,7 @@ self
 .
 string_data
 )
-immediates_data
+push_constant_data
 :
 mem
 :
@@ -5906,7 +5906,7 @@ take
 mut
 self
 .
-immediates_data
+push_constant_data
 )
 }
 )
@@ -8106,7 +8106,7 @@ Ok
 )
 }
 fn
-immediates_clear
+push_constant_clear
 <
 PushFn
 >
@@ -8148,7 +8148,7 @@ size_bytes
 wgt
 :
 :
-IMMEDIATE_DATA_ALIGNMENT
+PUSH_CONSTANT_ALIGNMENT
 ;
 while
 count_words
@@ -8163,7 +8163,7 @@ count_words
 wgt
 :
 :
-IMMEDIATE_DATA_ALIGNMENT
+PUSH_CONSTANT_ALIGNMENT
 ;
 let
 size_to_write_words
@@ -8176,7 +8176,7 @@ count_words
 .
 min
 (
-IMMEDIATES_CLEAR_ARRAY
+PUSH_CONSTANT_CLEAR_ARRAY
 .
 len
 (
@@ -8191,7 +8191,7 @@ offset
 +
 count_bytes
 &
-IMMEDIATES_CLEAR_ARRAY
+PUSH_CONSTANT_CLEAR_ARRAY
 [
 0
 .
@@ -8822,12 +8822,12 @@ error
 "
 In
 a
-set_immediates
+set_push_constant
 command
 "
 )
 ]
-SetImmediate
+SetPushConstant
 #
 [
 error

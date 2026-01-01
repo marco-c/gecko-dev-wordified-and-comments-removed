@@ -75,7 +75,7 @@ CONTEXT_LOCK_TIMEOUT_SECS
 :
 u64
 =
-6
+1
 ;
 const
 EGL_CONTEXT_FLAGS_KHR
@@ -606,7 +606,7 @@ log
 Level
 :
 :
-Debug
+Info
 _
 =
 >
@@ -616,7 +616,7 @@ log
 Level
 :
 :
-Trace
+Debug
 }
 ;
 let
@@ -1682,7 +1682,7 @@ tier_max
 log
 :
 :
-info
+warn
 !
 (
 "
@@ -1763,7 +1763,7 @@ None
 log
 :
 :
-debug
+warn
 !
 (
 "
@@ -3245,7 +3245,7 @@ else
 log
 :
 :
-debug
+warn
 !
 (
 "
@@ -5308,7 +5308,7 @@ egl1_5
 log
 :
 :
-debug
+info
 !
 (
 "
@@ -5402,7 +5402,7 @@ egl1_5
 log
 :
 :
-debug
+info
 !
 (
 "
@@ -5499,7 +5499,7 @@ egl1_5
 log
 :
 :
-debug
+info
 !
 (
 "
@@ -5628,7 +5628,7 @@ EGL_MESA_platform_surfaceless
 log
 :
 :
-debug
+warn
 !
 (
 "
@@ -5726,7 +5726,7 @@ else
 log
 :
 :
-debug
+warn
 !
 (
 "

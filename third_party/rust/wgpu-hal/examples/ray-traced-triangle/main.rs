@@ -1461,9 +1461,6 @@ default
 (
 )
 }
-telemetry
-:
-None
 }
 ;
 let
@@ -2361,9 +2358,11 @@ bind_group_layouts
 &
 bgl
 ]
-immediate_size
+push_constant_ranges
 :
-0
+&
+[
+]
 }
 ;
 let

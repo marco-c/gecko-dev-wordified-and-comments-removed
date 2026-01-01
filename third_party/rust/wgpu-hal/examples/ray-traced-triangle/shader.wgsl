@@ -1,6 +1,3 @@
-enable
-wgpu_ray_query
-;
 struct
 Uniforms
 {

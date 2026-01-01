@@ -177,7 +177,7 @@ name_binding_map
 a
 mut
 NameBindingMap
-immediates_items
+push_constant_items
 :
 &
 '
@@ -194,7 +194,7 @@ back
 glsl
 :
 :
-ImmediateItem
+PushConstantItem
 >
 multiview_mask
 :
@@ -762,11 +762,11 @@ unreachable
 *
 self
 .
-immediates_items
+push_constant_items
 =
 reflection_info
 .
-immediates_items
+push_constant_items
 ;
 if
 naga_stage
@@ -1313,13 +1313,12 @@ is_empty
 log
 :
 :
-debug
+warn
 !
 (
 "
 \
 tCompile
-message
 :
 {
 msg
@@ -2490,7 +2489,7 @@ default
 ;
 let
 mut
-immediates_items
+push_constant_items
 =
 ArrayVec
 :
@@ -2587,7 +2586,7 @@ let
 pc_item
 =
 {
-immediates_items
+push_constant_items
 .
 push
 (
@@ -2599,7 +2598,7 @@ new
 )
 )
 ;
-immediates_items
+push_constant_items
 .
 last_mut
 (
@@ -2626,7 +2625,7 @@ name_binding_map
 &
 mut
 name_binding_map
-immediates_items
+push_constant_items
 :
 pc_item
 multiview_mask
@@ -2702,7 +2701,7 @@ void
 log
 :
 :
-debug
+info
 !
 (
 "
@@ -2888,13 +2887,12 @@ is_empty
 log
 :
 :
-debug
+warn
 !
 (
 "
 \
 tLink
-message
 :
 {
 msg
@@ -3172,7 +3170,7 @@ stage_idx
 stage_items
 )
 in
-immediates_items
+push_constant_items
 .
 into_iter
 (
@@ -3243,8 +3241,8 @@ trace
 !
 (
 "
-immediate
-data
+push
+constant
 item
 :
 name
@@ -3294,7 +3292,7 @@ push
 super
 :
 :
-ImmediateDesc
+PushConstantDesc
 {
 location
 offset
@@ -3384,7 +3382,7 @@ PipelineInner
 program
 sampler_map
 first_instance_location
-immediates_descs
+push_constant_descs
 :
 uniforms
 clip_distance_count

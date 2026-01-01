@@ -50,7 +50,6 @@ GlobalVariable
 Handle
 Interpolation
 Literal
-Override
 Sampling
 StorageAccess
 Type
@@ -82,17 +81,6 @@ Constant
 Handle
 <
 Constant
->
-Handle
-<
-Type
->
-)
-Override
-(
-Handle
-<
-Override
 >
 Handle
 <

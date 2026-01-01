@@ -162,7 +162,7 @@ default
 }
 )
 "
-immediate
+push_constant
 "
 =
 >
@@ -174,7 +174,7 @@ crate
 AddressSpace
 :
 :
-Immediate
+PushConstant
 )
 "
 function

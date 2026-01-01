@@ -1960,11 +1960,11 @@ bind_group_layouts
 :
 &
 bind_group_layouts
-immediate_size
+push_constant_ranges
 :
 desc
 .
-immediate_size
+push_constant_ranges
 flags
 :
 desc

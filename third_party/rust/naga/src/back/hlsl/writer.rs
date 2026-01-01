@@ -2667,7 +2667,7 @@ false
 log
 :
 :
-debug
+info
 !
 (
 "
@@ -5656,7 +5656,7 @@ binding
 log
 :
 :
-debug
+info
 !
 (
 "
@@ -6005,7 +6005,7 @@ crate
 AddressSpace
 :
 :
-Immediate
+PushConstant
 =
 >
 {
@@ -6040,7 +6040,7 @@ crate
 AddressSpace
 :
 :
-Immediate
+PushConstant
 {
 self
 .
@@ -6145,7 +6145,7 @@ crate
 AddressSpace
 :
 :
-Immediate
+PushConstant
 {
 match
 module
@@ -6235,7 +6235,7 @@ self
 .
 options
 .
-immediates_target
+push_constants_target
 .
 as_ref
 (
@@ -6251,7 +6251,8 @@ was
 defined
 for
 the
-immediates
+push
+constants
 block
 "
 )
@@ -7082,7 +7083,7 @@ err
 log
 :
 :
-debug
+info
 !
 (
 "
@@ -19632,7 +19633,7 @@ crate
 AddressSpace
 :
 :
-Immediate
+PushConstant
 |
 crate
 :

@@ -389,7 +389,7 @@ log
 Level
 :
 :
-Trace
+Debug
 vk
 :
 :
@@ -405,7 +405,7 @@ log
 Level
 :
 :
-Debug
+Info
 vk
 :
 :
@@ -1607,10 +1607,10 @@ extensions
 .
 push
 (
-khr
+ext
 :
 :
-get_physical_device_properties2
+physical_device_drm
 :
 :
 NAME
@@ -1725,7 +1725,7 @@ else
 log
 :
 :
-debug
+warn
 !
 (
 "
@@ -1890,7 +1890,7 @@ NAME
 log
 :
 :
-debug
+info
 !
 (
 "
@@ -4116,7 +4116,7 @@ else
 log
 :
 :
-debug
+warn
 !
 (
 "
@@ -5827,7 +5827,7 @@ version
 log
 :
 :
-debug
+warn
 !
 (
 concat

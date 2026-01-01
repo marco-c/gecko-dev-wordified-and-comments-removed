@@ -94,7 +94,7 @@ u32
 }
 var
 <
-immediate
+push_constant
 >
 metadata_range
 :

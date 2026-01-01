@@ -1878,14 +1878,6 @@ AttachmentOps
 :
 :
 STORE
-|
-hal
-:
-:
-AttachmentOps
-:
-:
-LOAD_CLEAR
 clear_value
 :
 wgpu_types

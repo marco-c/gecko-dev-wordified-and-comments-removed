@@ -788,7 +788,7 @@ DynamicOffset
 }
 unsafe
 fn
-set_immediates
+set_push_constants
 (
 &
 mut
@@ -797,6 +797,12 @@ layout
 :
 &
 Resource
+stages
+:
+wgt
+:
+:
+ShaderStages
 offset_bytes
 :
 u32
