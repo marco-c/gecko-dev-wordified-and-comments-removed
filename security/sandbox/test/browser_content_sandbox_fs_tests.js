@@ -2969,6 +2969,16 @@ GetPerUserExtensionDir
 (
 )
 ;
+await
+IOUtils
+.
+makeDirectory
+(
+extDir
+.
+path
+)
+;
 tests
 .
 push
