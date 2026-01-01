@@ -427,13 +427,6 @@ html
 ]
 [
 "
-test_bug430392
-.
-html
-"
-]
-[
-"
 test_bug439808
 .
 html
