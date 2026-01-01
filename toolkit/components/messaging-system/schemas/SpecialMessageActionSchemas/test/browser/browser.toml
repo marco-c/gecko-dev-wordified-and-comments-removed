@@ -138,6 +138,13 @@ js
 ]
 [
 "
+browser_sma_fxa_aiwindow_signin_flow
+.
+js
+"
+]
+[
+"
 browser_sma_handle_multiaction
 .
 js
