@@ -428,7 +428,7 @@ gfx
 gfxVars
 :
 :
-UseVP9HwDecode
+VP9HwDecodeIsAccelerated
 (
 )
 ;

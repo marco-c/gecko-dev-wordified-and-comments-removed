@@ -183,16 +183,6 @@ aMimeType
 ;
 static
 bool
-IsMainProfile
-(
-const
-MediaByteBuffer
-*
-aBox
-)
-;
-static
-bool
 IsKeyframe
 (
 Span
