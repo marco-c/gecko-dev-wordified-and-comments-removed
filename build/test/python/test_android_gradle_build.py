@@ -1114,6 +1114,20 @@ geckoview
 :
 generateDebugAssets
 "
+            
+"
+:
+fenix
+:
+generateSafeArgsDebug
+"
+            
+"
+:
+fenix
+:
+suppressUselessCastInSafeArgs
+"
         
 ]
     
