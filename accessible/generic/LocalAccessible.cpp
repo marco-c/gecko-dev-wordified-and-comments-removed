@@ -22488,7 +22488,7 @@ mDoc
 labelEl
 -
 >
-GetControl
+GetLabeledElementInternal
 (
 )
 )

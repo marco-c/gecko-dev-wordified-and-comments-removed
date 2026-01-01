@@ -200,6 +200,11 @@ attribute
 double
 position
 ;
+[
+BinaryName
+=
+labelsForBindings
+]
 readonly
 attribute
 NodeList

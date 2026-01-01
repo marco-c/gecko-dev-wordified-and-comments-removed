@@ -191,6 +191,13 @@ attribute
 DOMString
 htmlFor
 ;
+[
+BinaryName
+=
+"
+controlForBindings
+"
+]
 readonly
 attribute
 HTMLElement
