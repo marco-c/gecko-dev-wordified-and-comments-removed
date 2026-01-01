@@ -3199,6 +3199,7 @@ have_same_style_attribute
 (
 target
 candidate
+shared_context
 )
 {
 trace
