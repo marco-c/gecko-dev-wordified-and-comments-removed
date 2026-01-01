@@ -420,6 +420,13 @@ linux
 ]
 [
 "
+browser_usercharacteristics_timezone
+.
+js
+"
+]
+[
+"
 browser_worker_granular_overrides
 .
 js
