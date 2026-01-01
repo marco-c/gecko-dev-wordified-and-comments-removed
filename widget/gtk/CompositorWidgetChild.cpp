@@ -94,6 +94,13 @@ CompositorWidgetChild
 :
 Initialize
 (
+const
+layers
+:
+:
+CompositorOptions
+&
+aOptions
 )
 {
 return

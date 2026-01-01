@@ -86,6 +86,13 @@ aInitData
 bool
 Initialize
 (
+const
+layers
+:
+:
+CompositorOptions
+&
+aOptions
 )
 ;
 void

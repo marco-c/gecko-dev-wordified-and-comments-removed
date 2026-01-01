@@ -6165,6 +6165,7 @@ widget
 >
 Initialize
 (
+aOptions
 )
 )
 {
