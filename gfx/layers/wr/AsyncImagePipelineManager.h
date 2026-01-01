@@ -1389,7 +1389,7 @@ RefPtr
 <
 Fence
 >
-mReleaseFence
+mReadFence
 ;
 }
 ;

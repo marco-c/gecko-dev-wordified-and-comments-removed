@@ -296,6 +296,15 @@ NotifyNotUsed
 )
 override
 ;
+void
+SetReadFence
+(
+Fence
+*
+aReadFence
+)
+override
+;
 RemoteTextureHostWrapper
 *
 AsRemoteTextureHostWrapper

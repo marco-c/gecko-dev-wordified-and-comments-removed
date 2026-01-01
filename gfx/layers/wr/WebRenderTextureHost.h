@@ -419,6 +419,15 @@ aFenceFd
 )
 override
 ;
+void
+SetReadFence
+(
+Fence
+*
+aReadFence
+)
+override
+;
 UniqueFileHandle
 GetAndResetReleaseFence
 (
