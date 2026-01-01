@@ -80,6 +80,13 @@ js
 ]
 [
 "
+test_security_logger
+.
+js
+"
+]
+[
+"
 test_security_orchestrator
 .
 js
