@@ -130,17 +130,6 @@ include
 "
 mozilla
 /
-layers
-/
-UpdateImageHelper
-.
-h
-"
-#
-include
-"
-mozilla
-/
 PerfStats
 .
 h

@@ -1309,11 +1309,6 @@ TreeTraversal
 h
 "
 "
-UpdateImageHelper
-.
-h
-"
-"
 wr
 /
 AsyncImagePipelineManager
