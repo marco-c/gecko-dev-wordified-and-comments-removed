@@ -1134,6 +1134,15 @@ case
 "
 Tools
 :
+ChatsHistory
+"
+:
+break
+;
+case
+"
+Tools
+:
 Sanitize
 "
 :

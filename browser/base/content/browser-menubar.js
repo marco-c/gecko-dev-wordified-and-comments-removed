@@ -841,6 +841,14 @@ event
 )
 ;
 }
+AIWindow
+.
+appMenu
+(
+event
+window
+)
+;
 break
 ;
 case
