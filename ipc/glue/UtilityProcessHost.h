@@ -331,6 +331,10 @@ defined
 (
 MOZ_SANDBOX
 )
+static
+bool
+sLaunchWithMacSandbox
+;
 bool
 IsMacSandboxLaunchEnabled
 (
@@ -338,7 +342,7 @@ IsMacSandboxLaunchEnabled
 override
 {
 return
-mDisableOSActivityMode
+sLaunchWithMacSandbox
 ;
 }
 bool
