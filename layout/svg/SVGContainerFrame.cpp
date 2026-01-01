@@ -887,6 +887,16 @@ RestyleHint
 nsChangeHint_UpdateOverflow
 )
 ;
+PresShell
+(
+)
+-
+>
+SynthesizeMouseMove
+(
+false
+)
+;
 }
 SVGContainerFrame
 :
