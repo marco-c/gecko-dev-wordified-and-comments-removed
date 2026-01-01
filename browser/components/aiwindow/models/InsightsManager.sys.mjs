@@ -2818,6 +2818,14 @@ schema
 :
 INSIGHTS_MESSAGE_CLASSIFY_SCHEMA
 }
+fxAccountToken
+:
+await
+openAIEngine
+.
+getFxAccountToken
+(
+)
 }
 )
 ;
