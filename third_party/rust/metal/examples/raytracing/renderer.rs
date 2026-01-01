@@ -62,10 +62,7 @@ use
 rand
 :
 :
-{
-thread_rng
 RngCore
-}
 ;
 use
 crate
@@ -1911,7 +1908,10 @@ let
 mut
 rng
 =
-thread_rng
+rand
+:
+:
+rng
 (
 )
 ;

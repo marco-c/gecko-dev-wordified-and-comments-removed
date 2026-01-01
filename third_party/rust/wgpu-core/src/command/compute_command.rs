@@ -110,7 +110,7 @@ R
 :
 ComputePipeline
 )
-SetPushConstant
+SetImmediate
 {
 offset
 :

@@ -566,7 +566,7 @@ resources
 :
 BindingMap
 pub
-push_constant_buffer
+immediates_buffer
 :
 Option
 <
@@ -1304,14 +1304,13 @@ error
 "
 mapping
 for
-push
-constants
+immediates
 is
 missing
 "
 )
 ]
-MissingPushConstants
+MissingImmediateData
 #
 [
 error
@@ -2778,7 +2777,7 @@ res_binding
 }
 }
 fn
-resolve_push_constants
+resolve_immediates
 (
 &
 self
@@ -2815,7 +2814,7 @@ res
 |
 res
 .
-push_constant_buffer
+immediates_buffer
 )
 ;
 match
@@ -2888,7 +2887,7 @@ Err
 EntryPointError
 :
 :
-MissingPushConstants
+MissingImmediateData
 )
 }
 }

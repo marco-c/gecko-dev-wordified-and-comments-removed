@@ -951,6 +951,16 @@ clear
 }
 #
 [
+expect
+(
+rustdoc
+:
+:
+private_intra_doc_links
+)
+]
+#
+[
 allow
 (
 clippy
