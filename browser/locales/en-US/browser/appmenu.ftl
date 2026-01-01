@@ -262,14 +262,6 @@ value
 Zoom
 appmenuitem
 -
-chats
-=
-.
-label
-=
-Chats
-appmenuitem
--
 more
 -
 tools

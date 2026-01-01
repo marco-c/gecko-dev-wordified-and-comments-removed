@@ -990,17 +990,6 @@ id
 "
 Tools
 :
-ChatsHistory
-"
-/
->
-<
-command
-id
-=
-"
-Tools
-:
 ClassicWindow
 "
 /
