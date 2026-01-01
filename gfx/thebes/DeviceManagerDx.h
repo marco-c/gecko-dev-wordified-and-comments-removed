@@ -360,6 +360,11 @@ CanUseDComp
 )
 ;
 bool
+CanUseDCompositionTexture
+(
+)
+;
+bool
 CanInitializeKeyedMutexTextures
 (
 )
@@ -887,6 +892,13 @@ mDeviceLock
 ;
 bool
 mCompositorDeviceSupportsVideo
+MOZ_GUARDED_BY
+(
+mDeviceLock
+)
+;
+bool
+mSupportsDCompositionTexture
 MOZ_GUARDED_BY
 (
 mDeviceLock
