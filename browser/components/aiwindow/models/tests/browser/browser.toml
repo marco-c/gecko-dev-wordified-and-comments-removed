@@ -27,6 +27,13 @@ true
 ]
 [
 "
+browser_getCurrentTabMetadata
+.
+js
+"
+]
+[
+"
 browser_get_page_content
 .
 js
