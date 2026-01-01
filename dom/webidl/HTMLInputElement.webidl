@@ -406,6 +406,9 @@ indeterminate
 ;
 [
 Pure
+BinaryName
+=
+listForBindings
 ]
 readonly
 attribute
