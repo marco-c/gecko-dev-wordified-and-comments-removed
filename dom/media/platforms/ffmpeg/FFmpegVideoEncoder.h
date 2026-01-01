@@ -145,6 +145,12 @@ InitEncoder
 )
 override
 ;
+bool
+ShouldTryHardware
+(
+)
+const
+;
 MediaResult
 InitEncoderInternal
 (
