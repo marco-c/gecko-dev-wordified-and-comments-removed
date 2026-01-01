@@ -11502,13 +11502,6 @@ SyncWindowPropertiesIfNeeded
 (
 )
 ;
-ps
--
->
-PaintSynchronously
-(
-)
-;
 if
 (
 nsXULPopupManager
@@ -11532,6 +11525,13 @@ this
 )
 ;
 }
+ps
+-
+>
+PaintSynchronously
+(
+)
+;
 }
 return
 true
