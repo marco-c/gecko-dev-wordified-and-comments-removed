@@ -12087,7 +12087,7 @@ form
 control
 -
 >
-GetFormInternal
+GetForm
 (
 )
 )
@@ -22488,7 +22488,7 @@ mDoc
 labelEl
 -
 >
-GetLabeledElementInternal
+GetControl
 (
 )
 )

@@ -37,12 +37,12 @@ payload
 )
 :
         
-selectors
+selector
 =
 payload
 [
 "
-selectors
+selector
 "
 ]
         
@@ -54,9 +54,9 @@ protocol
 .
 select
 .
-element_by_selector_array
+element_by_selector
 (
-selectors
+selector
 )
         
 self
@@ -73,7 +73,7 @@ element
 s
 "
 %
-selectors
+selector
 )
         
 self
@@ -248,12 +248,12 @@ payload
 )
 :
         
-selectors
+selector
 =
 payload
 [
 "
-selectors
+selector
 "
 ]
         
@@ -265,9 +265,9 @@ protocol
 .
 select
 .
-element_by_selector_array
+element_by_selector
 (
-selectors
+selector
 )
         
 self
@@ -340,12 +340,12 @@ payload
 )
 :
         
-selectors
+selector
 =
 payload
 [
 "
-selectors
+selector
 "
 ]
         
@@ -357,9 +357,9 @@ protocol
 .
 select
 .
-element_by_selector_array
+element_by_selector
 (
-selectors
+selector
 )
         
 self
@@ -508,12 +508,12 @@ payload
 )
 :
         
-selectors
+selector
 =
 payload
 [
 "
-selectors
+selector
 "
 ]
         
@@ -534,9 +534,9 @@ protocol
 .
 select
 .
-element_by_selector_array
+element_by_selector
 (
-selectors
+selector
 )
         
 self
@@ -555,7 +555,7 @@ element
 s
 "
 %
-selectors
+selector
 )
         
 self
@@ -875,7 +875,7 @@ origin
 ]
 [
 "
-selectors
+selector
 "
 ]
 )
@@ -901,7 +901,7 @@ def
 get_element
 (
 self
-element_selectors
+element_selector
 )
 :
         
@@ -912,9 +912,9 @@ protocol
 .
 select
 .
-element_by_selector_array
+element_by_selector
 (
-element_selectors
+element_selector
 )
     
 def

@@ -156,13 +156,10 @@ disabled
 ;
 [
 Pure
-BinaryName
-=
-formForBindings
 ]
 readonly
 attribute
-Element
+HTMLFormElement
 ?
 form
 ;
@@ -370,11 +367,6 @@ showPicker
 (
 )
 ;
-[
-BinaryName
-=
-labelsForBindings
-]
 readonly
 attribute
 NodeList

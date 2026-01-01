@@ -3091,7 +3091,7 @@ HTMLFormElement
 HTMLImageElement
 :
 :
-GetFormInternal
+GetForm
 (
 )
 const

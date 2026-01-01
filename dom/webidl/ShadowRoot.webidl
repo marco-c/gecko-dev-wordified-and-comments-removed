@@ -272,7 +272,6 @@ enabled
 ]
 attribute
 DOMString
-?
 referenceTarget
 ;
 Element

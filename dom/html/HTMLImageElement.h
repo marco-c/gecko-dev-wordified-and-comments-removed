@@ -1154,7 +1154,7 @@ ifdef
 DEBUG
 HTMLFormElement
 *
-GetFormInternal
+GetForm
 (
 )
 const

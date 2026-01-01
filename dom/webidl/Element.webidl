@@ -1993,7 +1993,6 @@ enabled
 "
 ]
 DOMString
-?
 referenceTarget
 ;
 }

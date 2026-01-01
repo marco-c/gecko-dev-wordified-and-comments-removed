@@ -11,13 +11,6 @@ FastFrontRemovableArray
 .
 h
 "
-#
-include
-"
-nsContentUtils
-.
-h
-"
 class
 nsINode
 ;
@@ -39,13 +32,6 @@ template
 <
 typename
 NodePointer
-TreeKind
-K
-=
-TreeKind
-:
-:
-DOM
 >
 class
 TreeOrderedArray

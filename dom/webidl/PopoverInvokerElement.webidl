@@ -126,11 +126,6 @@ PopoverInvokerElement
 {
 [
 CEReactions
-BinaryName
-=
-"
-popoverTargetElementForBindings
-"
 ]
 attribute
 Element
