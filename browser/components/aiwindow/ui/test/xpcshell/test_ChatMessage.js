@@ -40,7 +40,7 @@ mjs
 add_task
 (
 function
-test_ChatConversation_constructor_defaults
+test_ChatMessage_constructor_defaults
 (
 )
 {
