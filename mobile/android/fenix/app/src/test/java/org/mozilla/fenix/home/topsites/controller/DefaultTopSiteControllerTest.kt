@@ -111,6 +111,20 @@ mockk
 .
 verify
 import
+kotlinx
+.
+coroutines
+.
+CoroutineScope
+import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
+import
 mozilla
 .
 components
@@ -237,33 +251,9 @@ support
 .
 test
 .
-ext
-.
-joinBlocking
-import
-mozilla
-.
-components
-.
-support
-.
-test
-.
 robolectric
 .
 testContext
-import
-mozilla
-.
-components
-.
-support
-.
-test
-.
-rule
-.
-MainCoroutineRule
 import
 org
 .
@@ -486,15 +476,6 @@ get
 :
 Rule
 val
-coroutinesTestRule
-=
-MainCoroutineRule
-(
-)
-get
-:
-Rule
-val
 gleanTestRule
 =
 FenixGleanTestRule
@@ -609,13 +590,6 @@ relaxed
 =
 true
 )
-private
-val
-scope
-=
-coroutinesTestRule
-.
-scope
 private
 val
 searchEngine
@@ -839,6 +813,8 @@ fun
 setup
 (
 )
+=
+runTest
 {
 store
 =
@@ -895,6 +871,8 @@ fun
 handleSelectDefaultTopSite
 (
 )
+=
+runTest
 {
 val
 topSite
@@ -929,6 +907,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 every
@@ -1079,6 +1058,8 @@ fun
 handleSelectNonDefaultTopSite
 (
 )
+=
+runTest
 {
 val
 topSite
@@ -1113,6 +1094,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 every
@@ -1239,6 +1221,8 @@ existing
 tab
 (
 )
+=
+runTest
 {
 val
 topSite
@@ -1273,6 +1257,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 every
@@ -1360,6 +1345,8 @@ new
 tab
 (
 )
+=
+runTest
 {
 every
 {
@@ -1414,6 +1401,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 every
@@ -1487,6 +1475,8 @@ new
 tab
 (
 )
+=
+runTest
 {
 val
 url
@@ -1559,6 +1549,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 every
@@ -1721,6 +1712,8 @@ new
 tab
 (
 )
+=
+runTest
 {
 val
 url
@@ -1809,6 +1802,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 every
@@ -1979,6 +1973,8 @@ to
 tab
 (
 )
+=
+runTest
 {
 val
 url
@@ -2051,6 +2047,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 every
@@ -2167,6 +2164,8 @@ to
 tab
 (
 )
+=
+runTest
 {
 val
 url
@@ -2239,6 +2238,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 every
@@ -2343,6 +2343,8 @@ fun
 handleSelectGoogleDefaultTopSiteUS
 (
 )
+=
+runTest
 {
 val
 topSite
@@ -2375,6 +2377,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 every
@@ -2587,6 +2590,8 @@ fun
 handleSelectGoogleDefaultTopSiteXX
 (
 )
+=
+runTest
 {
 val
 topSite
@@ -2619,6 +2624,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 every
@@ -2829,6 +2835,8 @@ fun
 handleSelectGoogleDefaultTopSite_EventPerformedSearchTopSite
 (
 )
+=
+runTest
 {
 assertNull
 (
@@ -2871,6 +2879,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 every
@@ -2997,6 +3006,8 @@ fun
 handleSelectDuckDuckGoTopSite_EventPerformedSearchTopSite
 (
 )
+=
+runTest
 {
 assertNull
 (
@@ -3045,6 +3056,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 every
@@ -3086,6 +3098,8 @@ fun
 handleSelectGooglePinnedTopSiteUS
 (
 )
+=
+runTest
 {
 val
 topSite
@@ -3118,6 +3132,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 every
@@ -3328,6 +3343,8 @@ fun
 handleSelectGooglePinnedTopSiteXX
 (
 )
+=
+runTest
 {
 val
 topSite
@@ -3360,6 +3377,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 every
@@ -3570,6 +3588,8 @@ fun
 handleSelectGoogleFrecentTopSiteUS
 (
 )
+=
+runTest
 {
 val
 topSite
@@ -3602,6 +3622,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 every
@@ -3812,6 +3833,8 @@ fun
 handleSelectGoogleFrecentTopSiteXX
 (
 )
+=
+runTest
 {
 val
 topSite
@@ -3844,6 +3867,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 every
@@ -4054,6 +4078,8 @@ fun
 handleSelectProvidedTopSite
 (
 )
+=
+runTest
 {
 val
 topSite
@@ -4104,6 +4130,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 every
@@ -4274,6 +4301,8 @@ callback
 request
 (
 )
+=
+runTest
 {
 val
 controller
@@ -4282,6 +4311,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 val
@@ -4559,6 +4589,8 @@ callback
 request
 (
 )
+=
+runTest
 {
 val
 controller
@@ -4567,6 +4599,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 val
@@ -4845,6 +4878,8 @@ is
 recorded
 (
 )
+=
+runTest
 {
 val
 controller
@@ -4853,6 +4888,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 val
@@ -5014,6 +5050,8 @@ top
 site
 (
 )
+=
+runTest
 {
 val
 topSite
@@ -5048,6 +5086,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 val
@@ -5112,6 +5151,8 @@ in
 storage
 (
 )
+=
+runTest
 {
 val
 topSite
@@ -5146,6 +5187,7 @@ spyk
 (
 createController
 (
+this
 )
 )
 val
@@ -5211,9 +5253,12 @@ the
 interaction
 (
 )
+=
+runTest
 {
 createController
 (
+this
 )
 .
 handleTopSiteSettingsClicked
@@ -5294,9 +5339,12 @@ the
 interaction
 (
 )
+=
+runTest
 {
 createController
 (
+this
 )
 .
 handleSponsorPrivacyClicked
@@ -5406,6 +5454,8 @@ the
 interaction
 (
 )
+=
+runTest
 {
 every
 {
@@ -5429,6 +5479,7 @@ shortcutsFragment
 }
 createController
 (
+this
 )
 .
 handleSponsorPrivacyClicked
@@ -5533,6 +5584,8 @@ click
 telemetry
 (
 )
+=
+runTest
 {
 assertNull
 (
@@ -5584,6 +5637,7 @@ createdAt
 )
 createController
 (
+this
 )
 .
 handleTopSiteLongClicked
@@ -5642,6 +5696,8 @@ record
 telemetry
 (
 )
+=
+runTest
 {
 val
 topSite
@@ -5683,6 +5739,7 @@ createdAt
 )
 createController
 (
+this
 )
 .
 handleOpenInPrivateTabClicked
@@ -5792,6 +5849,8 @@ record
 telemetry
 (
 )
+=
+runTest
 {
 every
 {
@@ -5853,6 +5912,7 @@ createdAt
 )
 createController
 (
+this
 )
 .
 handleOpenInPrivateTabClicked
@@ -5963,6 +6023,8 @@ record
 telemetry
 (
 )
+=
+runTest
 {
 every
 {
@@ -6012,6 +6074,7 @@ createdAt
 )
 createController
 (
+this
 )
 .
 handleOpenInPrivateTabClicked
@@ -6112,12 +6175,15 @@ is
 recorded
 (
 )
+=
+runTest
 {
 val
 controller
 =
 createController
 (
+this
 )
 val
 topSite1
@@ -6284,6 +6350,8 @@ is
 logged
 (
 )
+=
+runTest
 {
 assertNull
 (
@@ -6300,6 +6368,7 @@ controller
 =
 createController
 (
+this
 )
 controller
 .
@@ -6321,6 +6390,9 @@ private
 fun
 createController
 (
+scope
+:
+CoroutineScope
 )
 :
 DefaultTopSiteController
