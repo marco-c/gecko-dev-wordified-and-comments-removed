@@ -63,6 +63,13 @@ js
 ]
 [
 "
+browser_ChromeWindowListener
+.
+js
+"
+]
+[
+"
 browser_ConsoleAPIListener
 .
 js
