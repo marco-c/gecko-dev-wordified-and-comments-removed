@@ -591,6 +591,7 @@ Save
 }
 openAppFromExternalLink
 (
+composeTestRule
 loginPage
 )
 browserScreen
@@ -708,6 +709,7 @@ longClickAndCopyToolbarUrl
 }
 openAppFromExternalLink
 (
+composeTestRule
 customTabPage
 .
 url
@@ -1475,6 +1477,7 @@ composeTestRule
 }
 openAppFromExternalLink
 (
+composeTestRule
 customTabPage
 .
 url

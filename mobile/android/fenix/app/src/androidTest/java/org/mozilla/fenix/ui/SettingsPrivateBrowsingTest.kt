@@ -447,6 +447,7 @@ AppAndSystemHelper
 .
 openAppFromExternalLink
 (
+composeTestRule
 firstWebPage
 .
 url
@@ -546,6 +547,7 @@ AppAndSystemHelper
 .
 openAppFromExternalLink
 (
+composeTestRule
 secondWebPage
 .
 url

@@ -1139,6 +1139,7 @@ waitForIdle
 )
 openAppFromExternalLink
 (
+composeTestRule
 genericPage
 .
 url
