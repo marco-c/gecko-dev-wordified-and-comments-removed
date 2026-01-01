@@ -5569,6 +5569,16 @@ browser
 .
 search
 .
+openintab
+"
+false
+]
+[
+"
+browser
+.
+search
+.
 suggest
 .
 enabled
