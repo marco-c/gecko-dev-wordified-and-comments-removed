@@ -356,6 +356,7 @@ buffered
 )
 loadSafely
 (
+context
 engine
 engineInputStream
 )
@@ -372,6 +373,9 @@ private
 fun
 loadSafely
 (
+context
+:
+Context
 id
 :
 String
@@ -394,6 +398,7 @@ let
 {
 parseLegacySearchEngine
 (
+context
 id
 it
 )

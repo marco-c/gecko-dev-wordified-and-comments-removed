@@ -347,6 +347,7 @@ null
 )
 loadSafely
 (
+context
 id
 xml
 ?
@@ -373,6 +374,9 @@ private
 fun
 loadSafely
 (
+context
+:
+Context
 id
 :
 String
@@ -395,6 +399,7 @@ let
 {
 parseLegacySearchEngine
 (
+context
 id
 it
 )

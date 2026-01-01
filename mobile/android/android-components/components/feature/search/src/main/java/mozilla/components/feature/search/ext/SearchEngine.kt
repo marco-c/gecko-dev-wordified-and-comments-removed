@@ -69,6 +69,12 @@ ext
 import
 android
 .
+content
+.
+Context
+import
+android
+.
 graphics
 .
 Bitmap
@@ -663,6 +669,9 @@ removed
 fun
 parseLegacySearchEngine
 (
+context
+:
+Context
 id
 :
 String
@@ -678,6 +687,7 @@ reader
 =
 SearchEngineReader
 (
+context
 SearchEngine
 .
 Type
