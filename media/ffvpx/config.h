@@ -324,7 +324,7 @@ endif
 #
 include
 "
-config_components
+config_override
 .
 h
 "
