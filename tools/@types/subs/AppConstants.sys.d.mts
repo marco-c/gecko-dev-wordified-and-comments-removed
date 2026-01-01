@@ -776,9 +776,8 @@ boolean
 ifdef
 !
 MOZ_THUNDERBIRD
-REMOTE_SETTINGS_SERVER_URLS
+REMOTE_SETTINGS_SERVER_URL
 :
-[
 "
 https
 :
@@ -796,7 +795,6 @@ com
 /
 v1
 "
-]
 ;
 /
 /

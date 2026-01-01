@@ -48,7 +48,9 @@ history
 .
 store
 (
+"
 42
+"
 "
 success
 "
@@ -76,7 +78,9 @@ cfr
 .
 store
 (
+"
 88
+"
 "
 error
 "
@@ -182,7 +186,9 @@ history
 .
 store
 (
+"
 42
+"
 "
 success
 "
@@ -193,7 +199,9 @@ history
 .
 store
 (
+"
 41
+"
 "
 sync_error
 "
@@ -204,7 +212,9 @@ history
 .
 store
 (
+"
 43
+"
 "
 up_to_date
 "
@@ -235,7 +245,9 @@ history
 .
 store
 (
+"
 44
+"
 "
 success
 "
@@ -246,7 +258,9 @@ anotherHistory
 .
 store
 (
+"
 44
+"
 "
 success
 "
@@ -347,7 +361,9 @@ history
 .
 store
 (
+"
 42
+"
 "
 success
 "
@@ -358,7 +374,9 @@ history
 .
 store
 (
+"
 41
+"
 "
 sync_error
 "
@@ -369,7 +387,9 @@ history
 .
 store
 (
+"
 44
+"
 "
 up_to_date
 "

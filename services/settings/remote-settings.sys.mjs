@@ -3340,7 +3340,7 @@ const
 {
 serverTimeMillis
 changes
-timestamp
+currentEtag
 backoffSeconds
 ageSeconds
 }
@@ -3794,6 +3794,10 @@ duration
 :
 durationMilliseconds
 timestamp
+:
+{
+currentEtag
+}
 trigger
 }
 ;
@@ -3862,7 +3866,7 @@ gSyncHistory
 .
 store
 (
-timestamp
+currentEtag
 status
 {
 expectedTimestamp
@@ -4057,7 +4061,7 @@ gPrefs
 setStringPref
 (
 PREF_SETTINGS_LAST_ETAG
-timestamp
+currentEtag
 )
 ;
 /
@@ -4108,7 +4112,7 @@ gSyncHistory
 .
 store
 (
-timestamp
+currentEtag
 status
 )
 .
@@ -4401,7 +4405,7 @@ random
 (
 {
 changes
-timestamp
+currentEtag
 :
 serverTimestamp
 }
@@ -5185,7 +5189,7 @@ expectedTimestamp
 :
 version
 .
-replaceAll
+replace
 (
 '
 "
