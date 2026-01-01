@@ -103,6 +103,17 @@ message
 -
 bar
 )
+:
+not
+(
+[
+slot
+=
+"
+nested
+"
+]
+)
 {
 display
 :
