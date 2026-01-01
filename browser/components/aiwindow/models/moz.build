@@ -200,6 +200,13 @@ sys
 mjs
 "
 "
+SearchBrowsingHistoryDomainBoost
+.
+sys
+.
+mjs
+"
+"
 TitleGeneration
 .
 sys
