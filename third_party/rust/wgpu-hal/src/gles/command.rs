@@ -242,22 +242,22 @@ glow
 :
 UniformLocation
 >
-push_constant_descs
+immediates_descs
 :
 ArrayVec
 <
 super
 :
 :
-PushConstantDesc
+ImmediateDesc
 {
 super
 :
 :
-MAX_PUSH_CONSTANT_COMMANDS
+MAX_IMMEDIATES_COMMANDS
 }
 >
-current_push_constant_data
+current_immediates_data
 :
 [
 u32
@@ -265,7 +265,7 @@ u32
 super
 :
 :
-MAX_PUSH_CONSTANTS
+MAX_IMMEDIATES
 ]
 end_of_pass_timestamp
 :
@@ -455,7 +455,7 @@ Default
 default
 (
 )
-push_constant_descs
+immediates_descs
 :
 Default
 :
@@ -463,7 +463,7 @@ Default
 default
 (
 )
-current_push_constant_data
+current_immediates_data
 :
 [
 0
@@ -471,7 +471,7 @@ current_push_constant_data
 super
 :
 :
-MAX_PUSH_CONSTANTS
+MAX_IMMEDIATES
 ]
 end_of_pass_timestamp
 :
@@ -595,7 +595,7 @@ as
 u32
 }
 fn
-add_push_constant_data
+add_immediates_data
 (
 &
 mut
@@ -1567,14 +1567,14 @@ self
 .
 state
 .
-push_constant_descs
+immediates_descs
 .
 clone_from
 (
 &
 inner
 .
-push_constant_descs
+immediates_descs
 )
 ;
 let
@@ -3531,7 +3531,6 @@ clone
 ;
 }
 if
-!
 cat
 .
 ops
@@ -3544,7 +3543,7 @@ crate
 AttachmentOps
 :
 :
-STORE
+STORE_DISCARD
 )
 {
 self
@@ -3671,7 +3670,6 @@ DEPTH
 )
 &
 &
-!
 dsat
 .
 depth_ops
@@ -3684,7 +3682,7 @@ crate
 AttachmentOps
 :
 :
-STORE
+STORE_DISCARD
 )
 {
 self
@@ -3717,7 +3715,6 @@ STENCIL
 )
 &
 &
-!
 dsat
 .
 stencil_ops
@@ -3730,7 +3727,7 @@ crate
 AttachmentOps
 :
 :
-STORE
+STORE_DISCARD
 )
 {
 self
@@ -3894,7 +3891,6 @@ enumerate
 )
 {
 if
-!
 cat
 .
 ops
@@ -3907,7 +3903,7 @@ crate
 AttachmentOps
 :
 :
-LOAD
+LOAD_CLEAR
 )
 {
 let
@@ -4119,7 +4115,6 @@ depth_stencil_attachment
 let
 clear_depth
 =
-!
 dsat
 .
 depth_ops
@@ -4132,13 +4127,12 @@ crate
 AttachmentOps
 :
 :
-LOAD
+LOAD_CLEAR
 )
 ;
 let
 clear_stencil
 =
-!
 dsat
 .
 stencil_ops
@@ -4151,7 +4145,7 @@ crate
 AttachmentOps
 :
 :
-LOAD
+LOAD_CLEAR
 )
 ;
 if
@@ -4911,7 +4905,7 @@ dirty_samplers
 }
 unsafe
 fn
-set_push_constants
+set_immediates
 (
 &
 mut
@@ -4923,12 +4917,6 @@ super
 :
 :
 PipelineLayout
-_stages
-:
-wgt
-:
-:
-ShaderStages
 offset_bytes
 :
 u32
@@ -4964,7 +4952,7 @@ self
 .
 state
 .
-current_push_constant_data
+current_immediates_data
 [
 start_words
 as
@@ -4988,7 +4976,7 @@ self
 .
 state
 .
-push_constant_descs
+immediates_descs
 .
 iter
 (
@@ -5047,7 +5035,7 @@ self
 .
 state
 .
-current_push_constant_data
+current_immediates_data
 [
 uniform_start_words
 as
@@ -5066,7 +5054,7 @@ self
 .
 cmd_buffer
 .
-add_push_constant_data
+add_immediates_data
 (
 uniform_data
 )
@@ -5082,7 +5070,7 @@ push
 C
 :
 :
-SetPushConstants
+SetImmediates
 {
 uniform
 offset

@@ -785,6 +785,11 @@ dx12
 clone
 (
 )
+telemetry
+:
+desc
+.
+telemetry
 }
 )
 }
@@ -1100,6 +1105,9 @@ options
 clone
 (
 )
+self
+.
+telemetry
 )
 }
 )

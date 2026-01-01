@@ -208,7 +208,7 @@ log
 Level
 :
 :
-Info
+Debug
 )
 (
 "
@@ -220,7 +220,7 @@ log
 Level
 :
 :
-Debug
+Trace
 )
 ]
 ;

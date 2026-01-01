@@ -1743,7 +1743,7 @@ Option
 BindTarget
 >
 pub
-push_constants_target
+immediates_target
 :
 Option
 <
@@ -1892,7 +1892,7 @@ BTreeMap
 default
 (
 )
-push_constants_target
+immediates_target
 :
 None
 dynamic_storage_buffer_offsets_targets

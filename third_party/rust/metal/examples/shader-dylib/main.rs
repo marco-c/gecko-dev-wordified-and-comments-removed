@@ -1,3 +1,10 @@
+#
+[
+allow
+(
+deprecated
+)
+]
 use
 cocoa
 :
@@ -230,6 +237,13 @@ set_framebuffer_only
 false
 )
 ;
+#
+[
+allow
+(
+deprecated
+)
+]
 unsafe
 {
 if

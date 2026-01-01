@@ -211,14 +211,8 @@ Rect
 u32
 >
 )
-SetPushConstant
+SetImmediate
 {
-stages
-:
-wgt
-:
-:
-ShaderStages
 offset
 :
 u32

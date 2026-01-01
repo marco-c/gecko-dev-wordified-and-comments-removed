@@ -7495,7 +7495,7 @@ super
 ShaderStages
 :
 :
-COMPUTE
+COMPUTE_LIKE
 ;
 if
 barrier
@@ -9748,7 +9748,7 @@ super
 ShaderStages
 :
 :
-COMPUTE
+COMPUTE_LIKE
 ;
 let
 pointer_inner

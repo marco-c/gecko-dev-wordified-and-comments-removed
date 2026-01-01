@@ -156,7 +156,7 @@ Uint64
 >
 ;
 struct
-PushConstants
+ImmediateData
 {
 timestamp_offset
 :
@@ -167,11 +167,11 @@ u32
 }
 var
 <
-push_constant
+immediate
 >
-pc
+im
 :
-PushConstants
+ImmediateData
 ;
 compute
 workgroup_size
@@ -196,7 +196,7 @@ id
 x
 >
 =
-pc
+im
 .
 timestamp_count
 {
@@ -210,7 +210,7 @@ id
 .
 x
 +
-pc
+im
 .
 timestamp_offset
 ;

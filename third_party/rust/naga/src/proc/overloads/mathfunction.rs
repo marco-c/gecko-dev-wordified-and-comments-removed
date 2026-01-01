@@ -57,7 +57,6 @@ utils
 :
 :
 {
-concrete_int_scalars
 float_scalars
 float_scalars_unimplemented_abstract
 list
@@ -65,7 +64,6 @@ pairs
 rule
 scalar_or_vecn
 triples
-vector_sizes
 }
 ;
 use
@@ -79,6 +77,21 @@ overloads
 :
 :
 OverloadSet
+;
+use
+crate
+:
+:
+proc
+:
+:
+type_methods
+:
+:
+{
+concrete_int_scalars
+vector_sizes
+}
 ;
 use
 crate
