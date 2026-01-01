@@ -426,15 +426,11 @@ param
 M
 -
 spi
--
-nw
 "
             
 "
 Mochitests
 with
-networking
-on
 socket
 process
 enabled
@@ -444,8 +440,6 @@ id
 =
 "
 spi
--
-nw
 variant
 "
         
@@ -461,32 +455,26 @@ M
 -
 spi
 -
-nw
--
-http3
+nofis
 "
             
 "
 Mochitests
+without
+fission
+enabled
 with
-networking
-on
 socket
 process
 enabled
-with
-http3
-server
 "
             
 id
 =
 "
 spi
--
-nw
 and
-http3
+nofis
 variants
 "
         
