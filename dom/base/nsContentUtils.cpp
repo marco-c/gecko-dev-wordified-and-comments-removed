@@ -8597,7 +8597,7 @@ form
 control
 -
 >
-GetForm
+GetFormInternal
 (
 )
 ;
@@ -21820,7 +21820,7 @@ formElement
 control
 -
 >
-GetForm
+GetFormInternal
 (
 )
 ;

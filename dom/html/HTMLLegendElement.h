@@ -216,9 +216,16 @@ aCBWM
 )
 const
 ;
+Element
+*
+GetFormForBindings
+(
+)
+const
+;
 HTMLFormElement
 *
-GetForm
+GetFormInternal
 (
 )
 const
@@ -276,7 +283,7 @@ Element
 *
 form
 =
-GetForm
+GetFormInternal
 (
 )
 ;
