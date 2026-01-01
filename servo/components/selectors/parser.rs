@@ -14284,9 +14284,6 @@ unreachable
 )
 }
 }
-'
-outer_loop
-:
 loop
 {
 let
@@ -14401,8 +14398,6 @@ c
 else
 {
 break
-'
-outer_loop
 ;
 }
 ;
