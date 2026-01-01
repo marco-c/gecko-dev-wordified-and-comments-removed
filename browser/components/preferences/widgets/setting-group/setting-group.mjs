@@ -326,13 +326,6 @@ box
 -
 group
 "
-"
-moz
--
-message
--
-bar
-"
 ]
 )
 ;
