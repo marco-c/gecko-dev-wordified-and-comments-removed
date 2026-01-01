@@ -7907,11 +7907,7 @@ hasLocalData
 ?
 undefined
 :
-"
-{
 localTimestamp
-}
-"
 ;
 /
 /
