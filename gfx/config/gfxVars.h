@@ -697,13 +697,6 @@ false
 \
 _
 (
-VP9HwDecodeIsAccelerated
-bool
-false
-)
-\
-_
-(
 HwDecodedVideoZeroCopy
 bool
 false
