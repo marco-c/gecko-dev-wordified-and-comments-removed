@@ -311,7 +311,7 @@ GPUConst
 .
 TextureUsage
 .
-STORAGE
+STORAGE_BINDING
 }
 sample
 :
@@ -347,7 +347,7 @@ GPUConst
 .
 TextureUsage
 .
-SAMPLED
+TEXTURE_BINDING
 writeUsage
 :
 0

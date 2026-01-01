@@ -110,11 +110,6 @@ description
 makeLimitTestGroup
 (
 limit
-{
-limitOptional
-:
-true
-}
 )
 ;
 function
