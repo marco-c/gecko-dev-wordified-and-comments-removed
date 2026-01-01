@@ -410,6 +410,16 @@ aichatcontent
 "
 )
 ;
+browser
+.
+setAttribute
+(
+"
+transparent
+"
+true
+)
+;
 const
 container
 =
