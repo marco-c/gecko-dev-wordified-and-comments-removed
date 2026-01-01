@@ -1098,7 +1098,7 @@ getInstrumentation
 )
 Test
 fun
-verifyRunBlockingAndStrictModeSuppresionCount
+verifyRunBlockingAndStrictModeSuppressionCount
 (
 )
 {
@@ -1121,7 +1121,7 @@ load
 This
 might
 cause
-intermittents
+intermittent
 :
 at
 an
@@ -1174,7 +1174,7 @@ it
 occurs
 .
 val
-actualSuppresionCount
+actualSuppressionCount
 =
 activityTestRule
 .
@@ -1207,7 +1207,7 @@ assertEquals
 (
 failureMsgStrictMode
 EXPECTED_SUPPRESSION_COUNT
-actualSuppresionCount
+actualSuppressionCount
 )
 assertTrue
 (
