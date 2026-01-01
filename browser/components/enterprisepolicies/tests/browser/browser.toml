@@ -534,6 +534,13 @@ js
 ]
 [
 "
+browser_policy_privatebrowsingmodeavailability_srd
+.
+js
+"
+]
+[
+"
 browser_policy_search_engine
 .
 js
