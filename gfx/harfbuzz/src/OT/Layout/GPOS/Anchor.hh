@@ -41,7 +41,12 @@ protected
 :
 union
 {
+struct
+{
 HBUINT16
+v
+;
+}
 format
 ;
 AnchorFormat1
@@ -62,6 +67,8 @@ DEFINE_SIZE_UNION
 (
 2
 format
+.
+v
 )
 ;
 bool
@@ -85,6 +92,8 @@ u
 .
 format
 .
+v
+.
 sanitize
 (
 c
@@ -104,6 +113,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -190,6 +201,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -268,6 +281,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -403,6 +418,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case

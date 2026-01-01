@@ -175,8 +175,6 @@ gsubgpos_graph_context_t
 &
 c
 unsigned
-parent_index
-unsigned
 this_index
 )
 {
@@ -368,15 +366,7 @@ split_context
 {
 c
 this
-c
-.
-graph
-.
-duplicate_if_shared
-(
-parent_index
 this_index
-)
 }
 ;
 return
@@ -1044,8 +1034,6 @@ gsubgpos_graph_context_t
 &
 c
 unsigned
-parent_index
-unsigned
 this_index
 )
 {
@@ -1489,15 +1477,7 @@ split_context
 {
 c
 this
-c
-.
-graph
-.
-duplicate_if_shared
-(
-parent_index
 this_index
-)
 class1_record_size
 total_value_len
 value_1_len
@@ -3184,8 +3164,6 @@ gsubgpos_graph_context_t
 &
 c
 unsigned
-parent_index
-unsigned
 this_index
 )
 {
@@ -3194,6 +3172,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -3217,7 +3197,6 @@ format1
 split_subtables
 (
 c
-parent_index
 this_index
 )
 ;
@@ -3242,7 +3221,6 @@ format2
 split_subtables
 (
 c
-parent_index
 this_index
 )
 ;
@@ -3308,6 +3286,8 @@ u
 .
 format
 .
+v
+.
 get_size
 (
 )
@@ -3324,6 +3304,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case

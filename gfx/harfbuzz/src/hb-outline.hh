@@ -155,6 +155,16 @@ const
 ;
 HB_INTERNAL
 void
+translate
+(
+float
+dx
+float
+dy
+)
+;
+HB_INTERNAL
+void
 slant
 (
 float

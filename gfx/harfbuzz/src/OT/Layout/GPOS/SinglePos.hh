@@ -34,7 +34,12 @@ protected
 :
 union
 {
+struct
+{
 HBUINT16
+v
+;
+}
 format
 ;
 SinglePosFormat1
@@ -175,6 +180,8 @@ extend_min
 u
 .
 format
+.
+v
 )
 )
 )
@@ -206,6 +213,8 @@ glyph_val_iter_pairs
 u
 .
 format
+.
+v
 =
 format
 ;
@@ -214,6 +223,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -303,6 +314,8 @@ this
 u
 .
 format
+.
+v
 )
 )
 )
@@ -320,6 +333,8 @@ this
 u
 .
 format
+.
+v
 )
 ;
 switch
@@ -327,6 +342,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case

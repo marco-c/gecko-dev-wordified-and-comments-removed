@@ -1328,6 +1328,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -1420,6 +1422,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -1489,6 +1493,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -1607,6 +1613,8 @@ this
 u
 .
 format
+.
+v
 )
 )
 )
@@ -1624,6 +1632,8 @@ this
 u
 .
 format
+.
+v
 )
 ;
 switch
@@ -1631,6 +1641,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -1804,6 +1816,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -1927,6 +1941,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -2018,7 +2034,12 @@ protected
 :
 union
 {
+struct
+{
 HBUINT16
+v
+;
+}
 format
 ;
 AxisValueFormat1
@@ -2042,6 +2063,8 @@ DEFINE_SIZE_UNION
 (
 2
 format
+.
+v
 )
 ;
 }

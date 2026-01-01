@@ -1999,6 +1999,8 @@ return
 u
 .
 tag
+.
+v
 ;
 }
 unsigned
@@ -2013,6 +2015,8 @@ switch
 u
 .
 tag
+.
+v
 )
 {
 case
@@ -2092,6 +2096,8 @@ switch
 u
 .
 tag
+.
+v
 )
 {
 case
@@ -2253,6 +2259,8 @@ u
 .
 tag
 .
+v
+.
 sanitize
 (
 c
@@ -2273,6 +2281,8 @@ switch
 u
 .
 tag
+.
+v
 )
 {
 case
@@ -2342,7 +2352,12 @@ protected
 :
 union
 {
+struct
+{
 Tag
+v
+;
+}
 tag
 ;
 OpenTypeFontFace
@@ -2363,6 +2378,8 @@ DEFINE_SIZE_UNION
 (
 4
 tag
+.
+v
 )
 ;
 }

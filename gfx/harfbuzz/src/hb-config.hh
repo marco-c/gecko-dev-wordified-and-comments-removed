@@ -321,14 +321,6 @@ HB_NO_PAINT
 endif
 #
 ifdef
-HB_NO_GETENV
-#
-define
-HB_NO_UNISCRIBE_BUG_COMPATIBLE
-#
-endif
-#
-ifdef
 HB_NO_LEGACY
 #
 define

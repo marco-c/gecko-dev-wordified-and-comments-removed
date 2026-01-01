@@ -34,7 +34,12 @@ protected
 :
 union
 {
+struct
+{
 HBUINT16
+v
+;
+}
 format
 ;
 PairPosFormat1_3
@@ -116,6 +121,8 @@ this
 u
 .
 format
+.
+v
 )
 )
 )
@@ -133,6 +140,8 @@ this
 u
 .
 format
+.
+v
 )
 ;
 switch
@@ -140,6 +149,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case

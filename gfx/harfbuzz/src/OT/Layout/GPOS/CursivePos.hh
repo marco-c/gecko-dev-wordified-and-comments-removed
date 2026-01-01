@@ -27,7 +27,12 @@ protected
 :
 union
 {
+struct
+{
 HBUINT16
+v
+;
+}
 format
 ;
 CursivePosFormat1
@@ -83,6 +88,8 @@ this
 u
 .
 format
+.
+v
 )
 )
 )
@@ -100,6 +107,8 @@ this
 u
 .
 format
+.
+v
 )
 ;
 switch
@@ -107,6 +116,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case

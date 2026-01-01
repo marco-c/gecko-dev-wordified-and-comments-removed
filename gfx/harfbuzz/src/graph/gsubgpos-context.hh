@@ -64,6 +64,16 @@ unsigned
 >
 subtable_to_extension
 ;
+hb_hashmap_t
+<
+unsigned
+hb_vector_t
+<
+unsigned
+>
+>
+split_subtables
+;
 HB_INTERNAL
 gsubgpos_graph_context_t
 (

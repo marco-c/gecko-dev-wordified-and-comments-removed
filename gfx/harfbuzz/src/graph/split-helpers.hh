@@ -128,10 +128,9 @@ reset
 ;
 new_objects
 .
-allocated
-=
--
-1
+ensure_error
+(
+)
 ;
 return
 new_objects
@@ -167,10 +166,9 @@ reset
 ;
 new_objects
 .
-allocated
-=
--
-1
+ensure_error
+(
+)
 ;
 }
 return

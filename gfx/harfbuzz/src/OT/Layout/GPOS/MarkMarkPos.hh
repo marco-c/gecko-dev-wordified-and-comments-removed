@@ -27,7 +27,12 @@ protected
 :
 union
 {
+struct
+{
 HBUINT16
+v
+;
+}
 format
 ;
 MarkMarkPosFormat1_2
@@ -97,6 +102,8 @@ this
 u
 .
 format
+.
+v
 )
 )
 )
@@ -114,6 +121,8 @@ this
 u
 .
 format
+.
+v
 )
 ;
 switch
@@ -121,6 +130,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case

@@ -1207,7 +1207,7 @@ inner_maps
 )
 ;
 HB_INTERNAL
-void
+bool
 normalize_axes_location
 (
 hb_face_t

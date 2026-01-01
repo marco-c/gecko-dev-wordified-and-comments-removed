@@ -563,6 +563,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
