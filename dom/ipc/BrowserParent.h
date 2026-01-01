@@ -665,6 +665,12 @@ return
 mCreatingWindow
 ;
 }
+bool
+IsTransparent
+(
+)
+const
+;
 template
 <
 typename
@@ -3171,6 +3177,11 @@ aPreserveLayers
 ;
 void
 NotifyResolutionChanged
+(
+)
+;
+void
+NotifyTransparencyChanged
 (
 )
 ;
