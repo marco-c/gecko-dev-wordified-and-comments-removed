@@ -30,9 +30,9 @@ read
 -
 only
 ;
-scrollbar
+overflow
 -
-color
+anchor
 :
 auto
 ;
@@ -84,9 +84,9 @@ div
 property
 :
 "
-scrollbar
+overflow
 -
-color
+anchor
 "
 nodes
 :
