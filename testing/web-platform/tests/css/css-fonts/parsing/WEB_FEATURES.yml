@@ -374,3 +374,17 @@ feature
 settings
 -
 *
+-
+name
+:
+font
+-
+kerning
+files
+:
+-
+font
+-
+kerning
+-
+*
