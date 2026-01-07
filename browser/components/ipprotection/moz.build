@@ -28,9 +28,7 @@ jar
 mn
 "
 ]
-EXTRA_JS_MODULES
-.
-ipprotection
+MOZ_SRC_FILES
 +
 =
 [
