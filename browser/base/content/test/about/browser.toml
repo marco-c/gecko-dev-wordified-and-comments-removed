@@ -329,6 +329,13 @@ sjs
 ]
 [
 "
+browser_aboutNetError_emptyResponse
+.
+js
+"
+]
+[
+"
 browser_aboutNetError_httpAuthDisabled
 .
 js
