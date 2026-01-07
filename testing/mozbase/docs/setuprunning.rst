@@ -81,3 +81,4 @@ mozprocess
 mozrunner
 mozcrash
 mozdebug
+mozshellutil

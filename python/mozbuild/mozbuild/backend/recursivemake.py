@@ -38,6 +38,12 @@ manifests
 import
 InstallManifest
 from
+mozshellutil
+import
+quote
+as
+shell_quote
+from
 mozbuild
 import
 frontend
@@ -60,14 +66,6 @@ RenamedSourcePath
     
 SourcePath
 )
-from
-mozbuild
-.
-shellutil
-import
-quote
-as
-shell_quote
 from
 .
 .

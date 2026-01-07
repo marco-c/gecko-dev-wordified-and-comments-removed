@@ -129,6 +129,12 @@ mozscreenshot
 /
 mozbase
 /
+mozshellutil
+.
+.
+/
+mozbase
+/
 mozsystemmonitor
 .
 .

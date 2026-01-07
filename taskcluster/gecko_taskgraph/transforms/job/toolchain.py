@@ -19,9 +19,7 @@ os
 import
 taskgraph
 from
-mozbuild
-.
-shellutil
+mozshellutil
 import
 quote
 as

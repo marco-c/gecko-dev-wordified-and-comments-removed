@@ -201,6 +201,15 @@ editable
 /
 mozbase
 /
+mozshellutil
+-
+-
+editable
+.
+.
+/
+mozbase
+/
 moztest
 -
 -

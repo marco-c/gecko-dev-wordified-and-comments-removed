@@ -267,6 +267,13 @@ testing
 /
 mozbase
 /
+mozshellutil
+pth
+:
+testing
+/
+mozbase
+/
 mozsystemmonitor
 pth
 :

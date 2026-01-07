@@ -156,6 +156,15 @@ manifest
 toml
 "
 "
+mozshellutil
+/
+tests
+/
+manifest
+.
+toml
+"
+"
 mozsystemmonitor
 /
 tests
@@ -242,6 +251,9 @@ mozscreenshot
 "
 "
 mozserve
+"
+"
+mozshellutil
 "
 "
 mozsystemmonitor

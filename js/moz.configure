@@ -6550,9 +6550,7 @@ imports
 _from
 =
 "
-mozbuild
-.
-shellutil
+mozshellutil
 "
 _import
 =

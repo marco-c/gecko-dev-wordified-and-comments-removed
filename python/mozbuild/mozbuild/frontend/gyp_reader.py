@@ -22,16 +22,14 @@ mozpack
 path
 as
 mozpath
+import
+mozshellutil
 from
 mozpack
 .
 files
 import
 FileFinder
-from
-mozbuild
-import
-shellutil
 from
 mozbuild
 .
@@ -2716,7 +2714,7 @@ CC
             
 CFLAGS
 =
-shellutil
+mozshellutil
 .
 quote
 (

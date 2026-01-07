@@ -12,6 +12,12 @@ path
 as
 mozpath
 from
+mozshellutil
+import
+quote
+as
+shell_quote
+from
 mozbuild
 .
 backend
@@ -38,14 +44,6 @@ Sources
     
 VariablePassthru
 )
-from
-mozbuild
-.
-shellutil
-import
-quote
-as
-shell_quote
 from
 mozbuild
 .

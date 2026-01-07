@@ -21,6 +21,12 @@ path
 as
 mozpath
 from
+mozshellutil
+import
+quote
+as
+shell_quote
+from
 mozunit
 import
 MockedOpen
@@ -38,14 +44,6 @@ configure
 import
 ConfigureError
 ConfigureSandbox
-from
-mozbuild
-.
-shellutil
-import
-quote
-as
-shell_quote
 class
 TestChecksConfigure
 (

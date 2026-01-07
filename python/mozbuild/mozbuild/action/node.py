@@ -7,9 +7,7 @@ sys
 import
 buildconfig
 from
-mozbuild
-.
-shellutil
+mozshellutil
 import
 quote
 as

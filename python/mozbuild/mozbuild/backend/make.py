@@ -5,6 +5,12 @@ path
 as
 mozpath
 from
+mozshellutil
+import
+quote
+as
+shell_quote
+from
 mozbuild
 .
 frontend
@@ -12,14 +18,6 @@ frontend
 data
 import
 GeneratedFile
-from
-mozbuild
-.
-shellutil
-import
-quote
-as
-shell_quote
 from
 .
 common
