@@ -60,6 +60,7 @@ static
 void
 Init
 (
+const
 FFmpegLibWrapper
 *
 aLib
@@ -72,6 +73,7 @@ PlatformEncoderModule
 >
 Create
 (
+const
 FFmpegLibWrapper
 *
 aLib
@@ -187,6 +189,7 @@ protected
 explicit
 FFmpegEncoderModule
 (
+const
 FFmpegLibWrapper
 *
 aLib

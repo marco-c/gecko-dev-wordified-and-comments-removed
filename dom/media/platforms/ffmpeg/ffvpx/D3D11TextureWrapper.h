@@ -46,6 +46,7 @@ D3D11TextureWrapper
 AVFrame
 *
 aAVFrame
+const
 FFmpegLibWrapper
 *
 aLib
@@ -139,6 +140,7 @@ mReleaseMethod
 ;
 private
 :
+const
 FFmpegLibWrapper
 *
 mLib

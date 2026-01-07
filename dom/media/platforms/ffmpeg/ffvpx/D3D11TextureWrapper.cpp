@@ -101,6 +101,7 @@ D3D11TextureWrapper
 AVFrame
 *
 aAVFrame
+const
 FFmpegLibWrapper
 *
 aLib

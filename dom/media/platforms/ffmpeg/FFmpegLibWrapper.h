@@ -148,6 +148,7 @@ bool
 IsVAAPIAvailable
 (
 )
+const
 ;
 #
 endif

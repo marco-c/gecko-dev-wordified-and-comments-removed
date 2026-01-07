@@ -337,6 +337,7 @@ aAVCodecContext
 AVFrame
 *
 aAVFrame
+const
 FFmpegLibWrapper
 *
 aLib
@@ -459,6 +460,7 @@ aAVCodecContext
 AVFrame
 *
 aAVFrame
+const
 FFmpegLibWrapper
 *
 aLib
@@ -486,6 +488,7 @@ aAVCodecContext
 AVFrame
 *
 aAVFrame
+const
 FFmpegLibWrapper
 *
 aLib
