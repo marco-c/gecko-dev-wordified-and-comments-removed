@@ -7,13 +7,6 @@ h
 "
 #
 include
-<
-stdlib
-.
-h
->
-#
-include
 "
 gtest
 /

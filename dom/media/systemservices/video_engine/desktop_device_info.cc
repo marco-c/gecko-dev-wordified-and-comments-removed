@@ -13,11 +13,6 @@ cstddef
 #
 include
 <
-cstdlib
->
-#
-include
-<
 cstring
 >
 #

@@ -197,13 +197,6 @@ unistd
 h
 >
 #
-include
-<
-stdio
-.
-h
->
-#
 endif
 #
 define

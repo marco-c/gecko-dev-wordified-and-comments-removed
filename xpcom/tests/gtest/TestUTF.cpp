@@ -1,12 +1,5 @@
 #
 include
-<
-stdlib
-.
-h
->
-#
-include
 "
 nsString
 .
