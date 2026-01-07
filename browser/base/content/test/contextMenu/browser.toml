@@ -425,13 +425,6 @@ Bug
 ]
 [
 "
-browser_contextmenu_bookmark_link_text
-.
-js
-"
-]
-[
-"
 browser_contextmenu_contenteditable
 .
 js
