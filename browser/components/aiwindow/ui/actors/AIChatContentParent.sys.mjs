@@ -79,16 +79,14 @@ AIChatContentParent
 extends
 JSWindowActorParent
 {
-async
 dispatchMessageToChatContent
 (
 response
 )
 {
-return
 this
 .
-sendQuery
+sendAsyncMessage
 (
 "
 AIChatContent

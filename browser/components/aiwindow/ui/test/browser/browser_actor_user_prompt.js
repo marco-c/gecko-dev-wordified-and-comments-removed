@@ -99,7 +99,7 @@ Assert
 equal
 (
 result
-true
+undefined
 "
 dispatchUserPrompt
 should
@@ -193,7 +193,7 @@ Assert
 equal
 (
 result
-true
+undefined
 "
 Streaming
 AI
