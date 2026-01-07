@@ -2479,7 +2479,13 @@ not
 match_run_on_projects
 (
             
+{
+"
 project
+"
+:
+project
+}
 entry
 .
 attributes
