@@ -1214,12 +1214,6 @@ rtp_sender_
 SSRC
 (
 )
-rtp_sender_
--
->
-Rid
-(
-)
 config
 .
 task_queue_factory
