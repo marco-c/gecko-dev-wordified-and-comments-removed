@@ -14563,6 +14563,9 @@ XPCONNECT_SHUTDOWN
 StartOffThreadCompressionsOnGC
 (
 rt
+isShrinkingGC
+(
+)
 )
 ;
 }
