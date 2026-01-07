@@ -103,7 +103,7 @@ kTextureUsages
 kTextureViewDimensions
 sampledAndStorageBindingEntries
 texBindingTypeInfo
-IsValidTextureUsageCombination
+isValidTextureUsageCombination
 }
 from
 '
@@ -4525,7 +4525,7 @@ usage1
 {
 return
 !
-IsValidTextureUsageCombination
+isValidTextureUsageCombination
 (
 usage0
 |
@@ -6938,7 +6938,7 @@ usage1
 {
 return
 !
-IsValidTextureUsageCombination
+isValidTextureUsageCombination
 (
 usage0
 |
