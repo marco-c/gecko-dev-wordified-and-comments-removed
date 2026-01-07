@@ -4641,7 +4641,7 @@ background
 -
 color
 :
-SelectedItem
+AccentColor
 ;
 pointer
 -
@@ -8879,7 +8879,7 @@ primary
 -
 color
 :
-SelectedItemText
+AccentColorText
 ;
 -
 -
@@ -8893,7 +8893,7 @@ accent
 -
 color
 :
-SelectedItem
+AccentColor
 ;
 will
 -
