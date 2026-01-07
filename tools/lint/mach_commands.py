@@ -167,9 +167,6 @@ VALID_FORMATTERS
 =
 {
 "
-black
-"
-"
 clang
 -
 format
