@@ -12172,6 +12172,16 @@ libcxx_override_visibility
 .
 hide_from_abi
 )
+set_define
+(
+"
+_LIBCPP_REMOVE_TRANSITIVE_INCLUDES
+"
+True
+when
+=
+using_libcxx
+)
 depends
 (
 target
