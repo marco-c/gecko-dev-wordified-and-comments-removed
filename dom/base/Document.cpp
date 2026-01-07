@@ -86897,11 +86897,15 @@ GetDOMWindow
 (
 )
 ;
-NS_ENSURE_TRUE_VOID
+if
 (
+!
 outer
 )
+{
+return
 ;
+}
 nsPIDOMWindowInner
 *
 inner
