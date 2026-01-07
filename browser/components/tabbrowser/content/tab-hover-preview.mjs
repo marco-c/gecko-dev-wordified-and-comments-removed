@@ -3259,17 +3259,6 @@ this
 .
 #
 tab
-{
-telemetrySource
-:
-lazy
-.
-TabNotes
-.
-TELEMETRY_SOURCE
-.
-TAB_HOVER_PREVIEW_PANEL
-}
 )
 ;
 this
