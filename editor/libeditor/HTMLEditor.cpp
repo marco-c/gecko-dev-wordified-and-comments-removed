@@ -750,14 +750,6 @@ HTMLEditUtils
 :
 LeafNodeOptions
 ;
-using
-WalkTreeOption
-=
-HTMLEditUtils
-:
-:
-WalkTreeOption
-;
 static
 bool
 IsLinkTag

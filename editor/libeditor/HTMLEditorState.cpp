@@ -187,14 +187,6 @@ HTMLEditUtils
 :
 LeafNodeOption
 ;
-using
-WalkTreeOption
-=
-HTMLEditUtils
-:
-:
-WalkTreeOption
-;
 ListElementSelectionState
 :
 :

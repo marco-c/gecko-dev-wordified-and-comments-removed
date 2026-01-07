@@ -311,14 +311,6 @@ HTMLEditUtils
 :
 LeafNodeOptions
 ;
-using
-WalkTreeOption
-=
-HTMLEditUtils
-:
-:
-WalkTreeOption
-;
 Result
 <
 EditActionResult

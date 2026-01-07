@@ -541,14 +541,6 @@ HTMLEditUtils
 :
 WalkTreeDirection
 ;
-using
-WalkTreeOption
-=
-HTMLEditUtils
-:
-:
-WalkTreeOption
-;
 static
 bool
 IsPendingStyleCachePreservingSubAction
@@ -16932,6 +16924,7 @@ if
 (
 Element
 *
+const
 deepestDivBlockquoteOrListElement
 =
 HTMLEditUtils
@@ -16944,7 +16937,7 @@ aArrayOfContents
 0
 ]
 {
-WalkTreeOption
+LeafNodeOption
 :
 :
 IgnoreNonEditableNode
