@@ -396,6 +396,15 @@ nsIFrame
 aFrame
 )
 ;
+void
+DrainPushedChildList
+(
+const
+nsIFrame
+*
+aDelegatingFrame
+)
+;
 nsFrameList
 mAbsoluteFrames
 ;
