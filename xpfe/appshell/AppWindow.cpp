@@ -1185,6 +1185,17 @@ nullptr
 NS_ERROR_FAILURE
 )
 ;
+NS_ENSURE_TRUE
+(
+mDocShell
+-
+>
+GetDocument
+(
+)
+NS_ERROR_FAILURE
+)
+;
 mDocShell
 -
 >
