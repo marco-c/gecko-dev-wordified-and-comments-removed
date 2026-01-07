@@ -1110,6 +1110,15 @@ textButtonColors
 modifier
 =
 Modifier
+.
+heightIn
+(
+min
+=
+48
+.
+dp
+)
 enabled
 =
 true
