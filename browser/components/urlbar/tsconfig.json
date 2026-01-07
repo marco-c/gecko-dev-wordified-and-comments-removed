@@ -28,6 +28,13 @@ exclude
 "
 content
 /
+SmartbarInput
+.
+mjs
+"
+"
+content
+/
 UrlbarInput
 .
 mjs
