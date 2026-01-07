@@ -918,7 +918,13 @@ using
 nsGenericHTMLFormControlElementWithState
 :
 :
-GetForm
+GetFormForBindings
+;
+using
+nsGenericHTMLFormControlElementWithState
+:
+:
+GetFormInternal
 ;
 int32_t
 MaxLength

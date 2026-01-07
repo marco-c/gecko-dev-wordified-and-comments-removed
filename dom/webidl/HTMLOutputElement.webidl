@@ -218,9 +218,14 @@ attribute
 DOMTokenList
 htmlFor
 ;
+[
+BinaryName
+=
+formForBindings
+]
 readonly
 attribute
-HTMLFormElement
+Element
 ?
 form
 ;
