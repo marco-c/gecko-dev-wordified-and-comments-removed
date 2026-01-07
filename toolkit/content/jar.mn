@@ -530,7 +530,7 @@ contentAreaUtils
 js
 #
 ifndef
-MOZ_FENNEC
+MOZ_GECKOVIEW
 content
 /
 global
@@ -706,7 +706,7 @@ treeUtils
 js
 #
 ifndef
-MOZ_FENNEC
+MOZ_GECKOVIEW
 content
 /
 global

@@ -67,7 +67,7 @@ mozapps
 /
 #
 ifndef
-MOZ_FENNEC
+MOZ_GECKOVIEW
 content
 /
 mozapps

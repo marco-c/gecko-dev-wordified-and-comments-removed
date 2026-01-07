@@ -69,7 +69,7 @@ android
 DEFINES
 [
 "
-MOZ_FENNEC
+MOZ_GECKOVIEW
 "
 ]
 =

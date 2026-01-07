@@ -366,7 +366,7 @@ properties
 )
 #
 ifndef
-MOZ_FENNEC
+MOZ_GECKOVIEW
 locale
 /
 AB_CD
@@ -400,7 +400,7 @@ XP_WIN
 !
 defined
 (
-MOZ_FENNEC
+MOZ_GECKOVIEW
 )
 locale
 /
@@ -725,7 +725,7 @@ properties
 )
 #
 ifndef
-MOZ_FENNEC
+MOZ_GECKOVIEW
 locale
 /
 AB_CD
