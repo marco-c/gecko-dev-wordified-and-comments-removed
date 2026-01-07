@@ -34896,6 +34896,15 @@ RegRef
 value
 )
 {
+MOZ_ASSERT
+(
+object
+.
+isNothing
+(
+)
+)
+;
 if
 (
 object

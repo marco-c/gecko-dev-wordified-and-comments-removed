@@ -27331,10 +27331,11 @@ void
 if
 (
 !
-builtinCall5
+builtinCall6
 (
 SASigArrayRefsMove
 lineOrBytecode
+dstArrayObject
 dstData
 dstArrayIndex
 srcData
