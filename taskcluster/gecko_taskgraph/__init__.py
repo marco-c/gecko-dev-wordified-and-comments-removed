@@ -234,15 +234,6 @@ object
 "
     
 from
-taskgraph
-.
-optimize
-.
-base
-import
-registry
-    
-from
 gecko_taskgraph
 import
 (
@@ -281,18 +272,6 @@ util
 verify
 import
 verifications
-    
-del
-registry
-[
-"
-skip
--
-unless
--
-changed
-"
-]
     
 register_mozilla_taskgraph
 (
