@@ -167,6 +167,11 @@ rosegment
 patch
 "
 "
+sanitizer_deadlock_suppression
+.
+patch
+"
+"
 compiler
 -
 rt

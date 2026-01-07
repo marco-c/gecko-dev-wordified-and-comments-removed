@@ -110,6 +110,11 @@ rosegment
 patch
 "
 "
+sanitizer_deadlock_suppression_clang_22
+.
+patch
+"
+"
 compiler
 -
 rt

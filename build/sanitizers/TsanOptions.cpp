@@ -851,6 +851,17 @@ CompareCanvases
 n
 "
 "
+deadlock
+:
+libgallium
+-
+*
+.
+so
+\
+n
+"
+"
 race
 :
 init_simd
