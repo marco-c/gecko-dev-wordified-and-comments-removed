@@ -292,6 +292,15 @@ MemoryBarrier
 (
 _
 )
+|
+S
+:
+:
+CooperativeStore
+{
+.
+.
+}
 )
 )
 |

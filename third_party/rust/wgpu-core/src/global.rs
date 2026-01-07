@@ -152,7 +152,6 @@ name
 str
 instance_desc
 :
-&
 wgt
 :
 :

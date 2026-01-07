@@ -1662,10 +1662,7 @@ match
 *
 self
 {
-crate
-:
-:
-TypeInner
+Self
 :
 :
 Image
@@ -1674,10 +1671,7 @@ Image
 .
 }
 |
-crate
-:
-:
-TypeInner
+Self
 :
 :
 Sampler
@@ -1686,10 +1680,7 @@ Sampler
 .
 }
 |
-crate
-:
-:
-TypeInner
+Self
 :
 :
 AccelerationStructure
