@@ -22813,12 +22813,16 @@ if
 (
 aChild
 .
-IsHTMLElement
+IsAnyOfHTMLElements
 (
 nsGkAtoms
 :
 :
 option
+nsGkAtoms
+:
+:
+hr
 )
 )
 {
