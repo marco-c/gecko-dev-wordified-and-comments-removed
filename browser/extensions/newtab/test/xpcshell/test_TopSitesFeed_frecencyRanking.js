@@ -99,6 +99,7 @@ ROWS_PREF
 topSitesRows
 "
 ;
+async
 function
 getTopSitesFeedForTest
 (
@@ -449,6 +450,15 @@ value
 frecencyBoostedSponsors
 )
 ;
+await
+feed
+.
+frecencyBoostProvider
+.
+update
+(
+)
+;
 return
 feed
 ;
@@ -495,6 +505,7 @@ history
 const
 feed
 =
+await
 getTopSitesFeedForTest
 (
 sandbox
@@ -553,6 +564,7 @@ format
 const
 feed
 =
+await
 getTopSitesFeedForTest
 (
 sandbox
@@ -689,6 +701,7 @@ matches
 const
 feed
 =
+await
 getTopSitesFeedForTest
 (
 sandbox
@@ -814,6 +827,7 @@ url
 const
 feed
 =
+await
 getTopSitesFeedForTest
 (
 sandbox
@@ -910,6 +924,7 @@ subdomain
 const
 feed
 =
+await
 getTopSitesFeedForTest
 (
 sandbox
@@ -1007,6 +1022,7 @@ subdomain
 const
 feed
 =
+await
 getTopSitesFeedForTest
 (
 sandbox
@@ -1088,6 +1104,7 @@ subdomain
 const
 feed
 =
+await
 getTopSitesFeedForTest
 (
 sandbox
@@ -1184,6 +1201,7 @@ domain
 const
 feed
 =
+await
 getTopSitesFeedForTest
 (
 sandbox
