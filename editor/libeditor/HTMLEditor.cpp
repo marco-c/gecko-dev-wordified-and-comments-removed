@@ -35674,12 +35674,12 @@ deepestEditableContent
 HTMLEditUtils
 :
 :
-GetPreviousContent
+GetPreviousLeafContent
 (
 *
 deepestEditableContent
 {
-WalkTreeOption
+LeafNodeOption
 :
 :
 IgnoreNonEditableNode
