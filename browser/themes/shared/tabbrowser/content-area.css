@@ -1716,6 +1716,12 @@ deck
 selected
 )
 >
+.
+browserContainer
+>
+.
+browserStack
+>
 split
 -
 view
@@ -1724,7 +1730,7 @@ footer
 {
 display
 :
-inherit
+flex
 ;
 &
 [
