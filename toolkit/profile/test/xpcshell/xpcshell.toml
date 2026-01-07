@@ -164,6 +164,13 @@ js
 ]
 [
 "
+test_profile_descriptor_and_localdir
+.
+js
+"
+]
+[
+"
 test_profile_reset
 .
 js
