@@ -139,6 +139,11 @@ nsSearchControlFrame
 cpp
 "
 "
+nsSelectsAreaFrame
+.
+cpp
+"
+"
 nsTextControlFrame
 .
 cpp
