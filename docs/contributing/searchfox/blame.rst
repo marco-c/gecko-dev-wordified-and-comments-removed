@@ -219,6 +219,16 @@ mozilla
 .
 org
 .
+Phabricator
+Revision
+Open
+the
+Phabricator
+revision
+for
+the
+commit
+.
 Show
 latest
 version
