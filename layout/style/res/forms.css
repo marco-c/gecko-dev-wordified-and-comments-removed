@@ -1922,6 +1922,16 @@ size
 :
 1em
 ;
+min
+-
+inline
+-
+size
+:
+min
+-
+content
+;
 padding
 -
 block
