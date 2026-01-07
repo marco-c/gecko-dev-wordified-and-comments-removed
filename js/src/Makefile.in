@@ -168,12 +168,6 @@ DIST
 DIST
 )
 \
-TAR
-=
-(
-TAR
-)
-\
 MOZJS_MAJOR_VERSION
 =
 (
