@@ -21070,6 +21070,7 @@ generator
 )
 )
 {
+const
 PreBarriered
 <
 DebuggerFrame

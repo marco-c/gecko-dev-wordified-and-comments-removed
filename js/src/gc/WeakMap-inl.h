@@ -3122,7 +3122,7 @@ key
 auto
 ptr
 =
-lookupUnbarriered
+lookupMutableUnbarriered
 (
 key
 )
@@ -3161,7 +3161,7 @@ key
 ;
 ptr
 =
-lookupUnbarriered
+lookupMutableUnbarriered
 (
 key
 )
