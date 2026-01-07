@@ -7474,6 +7474,7 @@ AssignPointerEventData
 *
 aPointerEvent
 true
+false
 )
 ;
 DebugOnly

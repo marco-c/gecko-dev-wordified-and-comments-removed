@@ -1438,6 +1438,10 @@ WidgetMouseEvent
 aEvent
 bool
 aCopyTargets
+bool
+aCopyCoalescedEvents
+=
+true
 )
 {
 AssignMouseEventBaseData
@@ -1449,7 +1453,7 @@ aCopyTargets
 AssignPointerHelperData
 (
 aEvent
-true
+aCopyCoalescedEvents
 )
 ;
 AssignMouseEventDataOnly
@@ -3029,12 +3033,17 @@ WidgetPointerEvent
 aEvent
 bool
 aCopyTargets
+bool
+aCopyCoalescedEvents
+=
+true
 )
 {
 AssignMouseEventData
 (
 aEvent
 aCopyTargets
+aCopyCoalescedEvents
 )
 ;
 mWidth
