@@ -1620,9 +1620,6 @@ TimeStamp
 responseStart
 ;
 TimeStamp
-finalResponseHeadersStart
-;
-TimeStamp
 responseEnd
 ;
 TimeStamp
@@ -1656,9 +1653,6 @@ requestStart
 ;
 TimeStamp
 responseStart
-;
-TimeStamp
-finalResponseHeadersStart
 ;
 TimeStamp
 responseEnd
