@@ -16723,6 +16723,8 @@ this
 ;
 }
 }
+if
+(
 const
 CustomElementData
 *
@@ -16732,8 +16734,6 @@ GetCustomElementData
 (
 )
 ;
-if
-(
 data
 &
 &
@@ -16750,6 +16750,9 @@ State
 :
 :
 eCustom
+&
+&
+aNotify
 )
 {
 CustomElementDefinition
