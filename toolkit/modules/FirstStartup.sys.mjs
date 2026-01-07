@@ -947,7 +947,7 @@ elapsed
 =
 Math
 .
-round
+ceil
 (
 ChromeUtils
 .
