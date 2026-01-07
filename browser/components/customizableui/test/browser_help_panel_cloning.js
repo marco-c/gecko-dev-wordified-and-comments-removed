@@ -385,7 +385,7 @@ attr
 =
 =
 "
-command
+disabled
 "
 )
 {
