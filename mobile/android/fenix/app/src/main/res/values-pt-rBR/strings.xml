@@ -6040,8 +6040,8 @@ name
 a11y_selected_locale_content_description
 "
 >
-Selecionar
-idioma
+Idioma
+selecionado
 <
 /
 string
@@ -33915,7 +33915,7 @@ name
 preference_option_phone_feature_blocked
 "
 >
-Bloquear
+Bloqueado
 <
 /
 string
@@ -38895,7 +38895,7 @@ name
 delete_browsing_data_prompt_cancel
 "
 >
-Cancel
+Cancelar
 <
 /
 string
@@ -49924,7 +49924,8 @@ ignore
 UnusedResources
 "
 >
-Prefeitura
+Prov
+ncia
 <
 /
 string
