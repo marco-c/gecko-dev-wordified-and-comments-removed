@@ -7494,9 +7494,6 @@ else
 {
 browserScreen
 (
-this
-BrowserRobot
-.
 composeTestRule
 )
 {
