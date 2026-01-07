@@ -301,9 +301,6 @@ MessageData
 class
 MessagePortIdentifier
 ;
-struct
-MozPluginParameter
-;
 template
 <
 typename
