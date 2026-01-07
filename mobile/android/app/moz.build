@@ -49,9 +49,6 @@ var
 in
 (
 "
-MOZ_UPDATER
-"
-"
 MOZ_APP_UA_NAME
 "
 "

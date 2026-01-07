@@ -58,7 +58,7 @@ Package
 file
 for
 the
-Fennec
+GeckoView
 build
 .
 ;
@@ -130,16 +130,6 @@ BINPATH
 default
 .
 locale
-#
-ifdef
-MOZ_UPDATER
-BINPATH
-/
-updater
-.
-ini
-#
-endif
 BINPATH
 /
 hyphenation
