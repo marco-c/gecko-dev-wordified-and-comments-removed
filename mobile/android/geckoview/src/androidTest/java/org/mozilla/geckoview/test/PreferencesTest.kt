@@ -5727,14 +5727,10 @@ floatPref
 "
 dom
 .
-image
--
 lazy
 -
 loading
 .
-root
--
 margin
 .
 bottom
