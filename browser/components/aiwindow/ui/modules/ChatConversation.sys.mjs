@@ -88,7 +88,7 @@ mjs
 ;
 import
 {
-constructRelevantInsightsContextMessage
+constructRelevantMemoriesContextMessage
 constructRealTimeInfoInjectionMessage
 }
 from
@@ -1327,7 +1327,7 @@ const
 insightsContext
 =
 await
-constructRelevantInsightsContextMessage
+constructRelevantMemoriesContextMessage
 (
 )
 ;

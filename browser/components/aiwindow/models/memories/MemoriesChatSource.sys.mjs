@@ -349,7 +349,7 @@ uses
 Date
 type
 but
-InsightsStore
+MemoriesStore
 maintains
 in
 TS

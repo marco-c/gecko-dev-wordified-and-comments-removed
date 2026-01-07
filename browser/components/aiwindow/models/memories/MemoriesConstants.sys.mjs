@@ -89,7 +89,7 @@ CONVERSATION
 *
 *
 *
-Insight
+Memory
 categories
 *
 /
@@ -213,7 +213,7 @@ Transportation
 *
 *
 *
-Insight
+Memory
 intents
 *
 /
@@ -281,7 +281,7 @@ Revisit
 /
 if
 generate
-insights
+memories
 is
 enabled
 .
@@ -292,17 +292,17 @@ by
 /
 /
 -
-InsightsScheduler
+MemoriesScheduler
 export
 const
-PREF_GENERATE_INSIGHTS
+PREF_GENERATE_MEMORIES
 =
 "
 browser
 .
 aiwindow
 .
-insights
+memories
 "
 ;
 /
