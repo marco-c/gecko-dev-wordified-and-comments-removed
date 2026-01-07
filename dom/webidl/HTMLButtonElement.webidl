@@ -348,6 +348,11 @@ commandfor
 .
 enabled
 "
+BinaryName
+=
+"
+commandForElementForBindings
+"
 CEReactions
 ]
 attribute

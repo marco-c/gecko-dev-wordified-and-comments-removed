@@ -2391,7 +2391,7 @@ list
 =
 input
 .
-GetList
+GetListInternal
 (
 )
 ;
