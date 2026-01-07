@@ -2412,7 +2412,9 @@ aiwindow
 /
 models
 /
-InsightsHistoryScheduler
+memories
+/
+MemoriesHistoryScheduler
 .
 sys
 .
@@ -2464,7 +2466,9 @@ aiwindow
 /
 models
 /
-InsightsConversationScheduler
+memories
+/
+MemoriesConversationScheduler
 .
 sys
 .
