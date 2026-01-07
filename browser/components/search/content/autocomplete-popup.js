@@ -4,11 +4,17 @@ strict
 "
 ;
 {
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineESModuleGetters
 (
-this
+lazy
 {
 BrowserSearchTelemetry
 :
@@ -449,6 +455,8 @@ this
 _oneOffButtons
 =
 new
+lazy
+.
 SearchOneOffs
 (
 this
@@ -879,6 +887,8 @@ aEvent
 return
 ;
 }
+lazy
+.
 BrowserSearchTelemetry
 .
 recordSearchSuggestionSelectionMethod
@@ -908,6 +918,8 @@ selectedIndex
 let
 where
 =
+lazy
+.
 BrowserUtils
 .
 whereToOpenLink
