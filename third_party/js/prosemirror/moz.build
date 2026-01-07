@@ -23,17 +23,6 @@ MOZ_SRC_FILES
 [
 "
 prosemirror
--
-view
-/
-style
-/
-prosemirror
-.
-css
-"
-"
-prosemirror
 .
 bundle
 .
