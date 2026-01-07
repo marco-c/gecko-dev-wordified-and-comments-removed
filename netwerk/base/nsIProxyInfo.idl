@@ -114,15 +114,5 @@ TRANSPARENT_PROXY_RESOLVES_HOST
 <
 0
 ;
-const
-unsigned
-short
-ALWAYS_TUNNEL_VIA_PROXY
-=
-1
-<
-<
-1
-;
 }
 ;

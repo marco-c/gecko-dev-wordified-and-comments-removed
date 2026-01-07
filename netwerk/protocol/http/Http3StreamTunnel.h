@@ -205,6 +205,14 @@ nsresult
 condition
 )
 ;
+void
+MaybeSetRequestDone
+(
+nsIOutputStreamCallback
+*
+aCallback
+)
+;
 private
 :
 friend
@@ -375,6 +383,11 @@ CleanupStream
 (
 nsresult
 aReason
+)
+;
+void
+SetRequestDone
+(
 )
 ;
 void
