@@ -1998,9 +1998,8 @@ aUses
 nsIChannel
 *
 aChannel
-const
-nsACString
-&
+nsIURI
+*
 aURI
 const
 nsACString
@@ -2015,9 +2014,8 @@ MaybeReportFontFingerprinter
 nsIChannel
 *
 aChannel
-const
-nsACString
-&
+nsIURI
+*
 aURI
 const
 nsACString
