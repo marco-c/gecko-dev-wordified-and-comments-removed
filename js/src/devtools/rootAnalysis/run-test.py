@@ -607,17 +607,15 @@ subprocess
 .
 check_call
 (
-[
     
+[
 cfg
 .
 js
-    
 "
 -
 e
 "
-    
 '
 if
 (

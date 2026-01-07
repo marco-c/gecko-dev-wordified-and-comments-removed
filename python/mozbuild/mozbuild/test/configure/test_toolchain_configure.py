@@ -321,8 +321,9 @@ version
 return
 FakeCompiler
 (
-{
         
+{
+            
 "
 __GNUC__
 "
@@ -330,7 +331,7 @@ __GNUC__
 version
 .
 major
-        
+            
 "
 __GNUC_MINOR__
 "
@@ -338,7 +339,7 @@ __GNUC_MINOR__
 version
 .
 minor
-        
+            
 "
 __GNUC_PATCHLEVEL__
 "
@@ -346,14 +347,15 @@ __GNUC_PATCHLEVEL__
 version
 .
 patch
-        
+            
 "
 __STDC__
 "
 :
 1
-    
+        
 }
+    
 )
 memoize
 def
@@ -780,14 +782,15 @@ version
 return
 FakeCompiler
 (
-{
         
+{
+            
 "
 __clang__
 "
 :
 1
-        
+            
 "
 __clang_major__
 "
@@ -795,7 +798,7 @@ __clang_major__
 version
 .
 major
-        
+            
 "
 __clang_minor__
 "
@@ -803,7 +806,7 @@ __clang_minor__
 version
 .
 minor
-        
+            
 "
 __clang_patchlevel__
 "
@@ -811,8 +814,9 @@ __clang_patchlevel__
 version
 .
 patch
-    
+        
 }
+    
 )
 memoize
 def
@@ -1327,12 +1331,13 @@ version
 return
 FakeCompiler
 (
-{
         
+{
+            
 None
 :
 {
-            
+                
 "
 _MSC_VER
 "
@@ -1352,7 +1357,7 @@ version
 .
 minor
 )
-            
+                
 "
 _MSC_FULL_VER
 "
@@ -1365,7 +1370,7 @@ _MSC_FULL_VER
 %
 05d
 "
-            
+                
 %
 (
 version
@@ -1378,7 +1383,7 @@ version
 .
 patch
 )
-            
+                
 "
 _MT
 "
@@ -1386,9 +1391,9 @@ _MT
 "
 1
 "
-        
+            
 }
-        
+            
 "
 *
 .
@@ -1396,8 +1401,9 @@ cpp
 "
 :
 DEFAULT_CXX_97
-    
+        
 }
+    
 )
 VS_2017u8
 =
@@ -4628,8 +4634,9 @@ paths
 .
 update
 (
+            
 {
-            
+                
 "
 /
 opt
@@ -4652,7 +4659,7 @@ bin
 clang
 "
 ]
-            
+                
 "
 /
 opt
@@ -4679,8 +4686,9 @@ clang
 +
 "
 ]
-        
+            
 }
+        
 )
         
 result
@@ -4835,8 +4843,9 @@ paths
 .
 update
 (
+            
 {
-            
+                
 "
 /
 usr
@@ -4861,7 +4870,7 @@ bin
 clang
 "
 ]
-            
+                
 "
 /
 usr
@@ -4890,8 +4899,9 @@ clang
 +
 "
 ]
-        
+            
 }
+        
 )
         
 self
@@ -6087,13 +6097,14 @@ flags
 :
 PrependFlags
 (
-[
             
+[
+                
 "
 -
 isysroot
 "
-            
+                
 xcrun
 (
 "
@@ -6113,7 +6124,7 @@ path
 [
 1
 ]
-            
+                
 "
 -
 mmacosx
@@ -6126,8 +6137,9 @@ min
 .
 15
 "
-        
+            
 ]
+        
 )
     
 }
@@ -9840,8 +9852,9 @@ paths
 .
 update
 (
-{
             
+{
+                
 "
 %
 s
@@ -9859,7 +9872,7 @@ PLATFORMS
 [
 target
 ]
-            
+                
 "
 %
 s
@@ -9879,8 +9892,9 @@ PLATFORMS
 [
 target
 ]
-        
+            
 }
+        
 )
         
 self
@@ -10753,8 +10767,9 @@ paths
 .
 update
 (
+            
 {
-            
+                
 "
 /
 usr
@@ -10779,7 +10794,7 @@ bin
 clang
 "
 ]
-            
+                
 "
 /
 usr
@@ -10808,8 +10823,9 @@ clang
 +
 "
 ]
-        
+            
 }
+        
 )
         
 afl_clang_result
@@ -11008,8 +11024,9 @@ PATHS
 .
 update
 (
-{
         
+{
+            
 "
 /
 usr
@@ -11022,7 +11039,7 @@ clang
 CLANG_17
 +
 CLANG_PLATFORM_X86_64_LINUX
-        
+            
 "
 /
 usr
@@ -11037,8 +11054,9 @@ clang
 CLANGXX_17
 +
 CLANG_PLATFORM_X86_64_LINUX
-    
+        
 }
+    
 )
     
 DEFAULT_CLANG_RESULT

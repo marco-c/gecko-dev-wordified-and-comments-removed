@@ -244,8 +244,8 @@ regex_excludes
 .
 join
 (
-[
         
+[
 f
 "
 ^
@@ -277,8 +277,8 @@ for
 incl
 in
 exclude_dir_list
-    
 ]
+    
 )
     
 files_not_excluded

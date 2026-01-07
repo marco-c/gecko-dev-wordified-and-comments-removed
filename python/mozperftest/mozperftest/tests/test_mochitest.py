@@ -157,8 +157,6 @@ TEST
 ]
     
 with
-(
-        
 mock
 .
 patch
@@ -173,12 +171,11 @@ TestResolver
 )
 as
 test_resolver_mock
-        
 mock
 .
 patch
 (
-            
+        
 "
 mozperftest
 .
@@ -188,16 +185,15 @@ functionaltestrunner
 .
 load_class_from_path
 "
-        
+    
 )
 as
 load_class_path_mock
-        
 mock
 .
 patch
 (
-            
+        
 "
 mozperftest
 .
@@ -213,15 +209,15 @@ MachFormatter
 .
 __new__
 "
-        
+    
 )
 as
 formatter_mock
-        
 mock
 .
 patch
 (
+        
 "
 mozperftest
 .
@@ -231,7 +227,6 @@ mochitest
 .
 install_requirements_file
 "
-)
     
 )
 :
@@ -586,8 +581,6 @@ TEST
 ]
     
 with
-(
-        
 mock
 .
 patch
@@ -602,12 +595,11 @@ TestResolver
 )
 as
 test_resolver_mock
-        
 mock
 .
 patch
 (
-            
+        
 "
 mozperftest
 .
@@ -617,16 +609,15 @@ functionaltestrunner
 .
 load_class_from_path
 "
-        
+    
 )
 as
 load_class_path_mock
-        
 mock
 .
 patch
 (
-            
+        
 "
 mozperftest
 .
@@ -642,15 +633,15 @@ MachFormatter
 .
 __new__
 "
-        
+    
 )
 as
 formatter_mock
-        
 mock
 .
 patch
 (
+        
 "
 mozperftest
 .
@@ -660,7 +651,6 @@ mochitest
 .
 install_requirements_file
 "
-)
     
 )
 :
@@ -1010,8 +1000,6 @@ TEST
 ]
     
 with
-(
-        
 mock
 .
 patch
@@ -1026,12 +1014,11 @@ TestResolver
 )
 as
 test_resolver_mock
-        
 mock
 .
 patch
 (
-            
+        
 "
 mozperftest
 .
@@ -1041,16 +1028,15 @@ functionaltestrunner
 .
 load_class_from_path
 "
-        
+    
 )
 as
 load_class_path_mock
-        
 mock
 .
 patch
 (
-            
+        
 "
 mozperftest
 .
@@ -1066,15 +1052,15 @@ MachFormatter
 .
 __new__
 "
-        
+    
 )
 as
 formatter_mock
-        
 mock
 .
 patch
 (
+        
 "
 mozperftest
 .
@@ -1084,7 +1070,6 @@ mochitest
 .
 install_requirements_file
 "
-)
     
 )
 :
@@ -1477,13 +1462,11 @@ start
 )
     
 with
-(
-        
 mock
 .
 patch
 (
-            
+        
 "
 mozperftest
 .
@@ -1495,15 +1478,15 @@ FunctionalTestRunner
 .
 test
 "
-        
+    
 )
 as
 test_mock
-        
 mock
 .
 patch
 (
+        
 "
 mozperftest
 .
@@ -1513,12 +1496,13 @@ mochitest
 .
 install_requirements_file
 "
+    
 )
-        
 mock
 .
 patch
 (
+        
 "
 mozperftest
 .
@@ -1528,7 +1512,6 @@ mochitest
 .
 Path
 "
-)
     
 )
 :
@@ -1696,13 +1679,11 @@ TEST
 ]
     
 with
-(
-        
 mock
 .
 patch
 (
-            
+        
 "
 mozperftest
 .
@@ -1714,11 +1695,10 @@ FunctionalTestRunner
 .
 test
 "
-        
+    
 )
 as
 test_mock
-        
 mock
 .
 patch
@@ -1732,8 +1712,6 @@ mochitest
 .
 install_requirements_file
 "
-)
-    
 )
 :
         

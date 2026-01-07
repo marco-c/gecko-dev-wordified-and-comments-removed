@@ -526,8 +526,9 @@ self
 .
 restart_with_prefs
 (
-{
             
+{
+                
 "
 sidebar
 .
@@ -535,7 +536,7 @@ revamp
 "
 :
 True
-            
+                
 "
 browser
 .
@@ -545,8 +546,9 @@ page
 "
 :
 3
-        
+            
 }
+        
 )
         
 self
@@ -1072,8 +1074,9 @@ marionette
 .
 set_prefs
 (
-{
             
+{
+                
 "
 sidebar
 .
@@ -1081,7 +1084,7 @@ revamp
 "
 :
 True
-            
+                
 "
 sidebar
 .
@@ -1091,8 +1094,9 @@ defaultLauncherVisible
 "
 :
 False
-        
+            
 }
+        
 )
         
 Wait
@@ -1214,8 +1218,9 @@ self
 .
 restart_with_prefs
 (
-{
             
+{
+                
 "
 sidebar
 .
@@ -1223,7 +1228,7 @@ revamp
 "
 :
 True
-            
+                
 "
 sidebar
 .
@@ -1231,7 +1236,7 @@ verticalTabs
 "
 :
 True
-            
+                
 "
 sidebar
 .
@@ -1243,8 +1248,9 @@ always
 -
 show
 "
-        
+            
 }
+        
 )
         
 Wait

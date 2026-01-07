@@ -371,8 +371,8 @@ covered_function_count
 =
 len
 (
-[
             
+[
 c
 for
 c
@@ -386,8 +386,8 @@ values
 )
 if
 c
-        
 ]
+        
 )
         
 self
@@ -990,8 +990,8 @@ _current_pp_info
 =
 dict
 (
-[
             
+[
 (
 tuple
 (
@@ -1023,8 +1023,8 @@ pp_info
 items
 (
 )
-        
 ]
+        
 )
         
 self

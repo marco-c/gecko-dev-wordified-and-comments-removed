@@ -681,8 +681,9 @@ worker
 .
 update
 (
-{
             
+{
+                
 "
 implementation
 "
@@ -690,7 +691,7 @@ implementation
 "
 beetmover
 "
-            
+                
 "
 release
 -
@@ -702,7 +703,7 @@ craft_release_properties
 config
 task
 )
-            
+                
 "
 artifact
 -
@@ -711,7 +712,7 @@ map
 :
 generate_beetmover_artifact_map
 (
-                
+                    
 config
 task
 platform
@@ -720,10 +721,11 @@ build_type
 locale
 =
 locale
-            
+                
 )
-        
+            
 }
+        
 )
         
 if

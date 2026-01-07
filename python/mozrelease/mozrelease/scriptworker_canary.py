@@ -290,11 +290,19 @@ hgrc_content
 ui
 ]
 \
-nusername
+n
+"
+            
+"
+username
 =
 trybld
 \
-nssh
+n
+"
+            
+"
+ssh
 =
 ssh
 -
@@ -528,14 +536,15 @@ base_command
 .
 extend
 (
-[
             
+[
+                
 "
 -
 -
 route
 "
-            
+                
 f
 "
 notify
@@ -550,13 +559,13 @@ on
 -
 failed
 "
-            
+                
 "
 -
 -
 route
 "
-            
+                
 f
 "
 notify
@@ -571,8 +580,9 @@ on
 -
 exception
 "
-        
+            
 ]
+        
 )
     
 with

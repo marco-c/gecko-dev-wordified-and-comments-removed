@@ -44,7 +44,7 @@ unicode_message
 =
 "
 \
-u201cfoo
+u201Cfoo
 "
 cause
 =

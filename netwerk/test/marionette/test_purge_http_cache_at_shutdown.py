@@ -40,8 +40,9 @@ marionette
 .
 enforce_gecko_prefs
 (
-{
             
+{
+                
 "
 privacy
 .
@@ -51,7 +52,7 @@ sanitizeOnShutdown
 "
 :
 True
-            
+                
 "
 privacy
 .
@@ -61,7 +62,7 @@ cache
 "
 :
 True
-            
+                
 "
 network
 .
@@ -71,8 +72,9 @@ shutdown_purge_in_background_task
 "
 :
 True
-        
+            
 }
+        
 )
         
 self

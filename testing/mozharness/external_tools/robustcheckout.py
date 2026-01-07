@@ -436,6 +436,9 @@ of
 attempts
 for
 network
+"
+b
+"
 operations
 "
         
@@ -493,6 +496,10 @@ working
 directory
 \
 n
+"
+            
+b
+"
 (
 only
 a
@@ -993,6 +1000,9 @@ fragment
 12
 -
 40
+"
+b
+"
 characters
 long
 "
@@ -1096,6 +1106,9 @@ be
 enabled
 to
 use
+"
+b
+"
 -
 -
 sparseprofile
@@ -1609,32 +1622,33 @@ suites
 .
 append
 (
-{
                     
+{
+                        
 "
 name
 "
 :
 op
-                    
+                        
 "
 value
 "
 :
 duration
-                    
+                        
 "
 lowerIsBetter
 "
 :
 True
-                    
+                        
 "
 shouldAlert
 "
 :
 False
-                    
+                        
 "
 serverUrl
 "
@@ -1649,7 +1663,7 @@ utf
 8
 "
 )
-                    
+                        
 "
 hgVersion
 "
@@ -1668,7 +1682,7 @@ utf
 8
 "
 )
-                    
+                        
 "
 extraOptions
 "
@@ -1683,15 +1697,16 @@ TASKCLUSTER_INSTANCE_TYPE
 "
 ]
 ]
-                    
+                        
 "
 subtests
 "
 :
 [
 ]
-                
+                    
 }
+                
 )
             
 ui
@@ -2097,6 +2112,9 @@ sparse
 profile
 on
 existing
+"
+b
+"
 non
 -
 sparse
@@ -2154,6 +2172,9 @@ checkout
 on
 existing
 sparse
+"
+b
+"
 checkout
 "
             
@@ -2620,6 +2641,9 @@ recover
 repo
 state
 ;
+"
+b
+"
 deleting
 shared
 store
@@ -2702,6 +2726,9 @@ of
 network
 attempts
 ;
+"
+b
+"
 giving
 up
 \
@@ -3425,6 +3452,9 @@ root
 revision
 from
 clone
+"
+b
+"
 source
 "
 )
@@ -4388,6 +4418,9 @@ first
 characters
 of
 a
+"
+b
+"
 SHA
 -
 1
@@ -5201,21 +5234,18 @@ parentchange
 )
             
 with
-(
-                
 repo
 .
 wlock
 (
 )
-                
 parentchange
 (
 repo
 )
-                
 timeit
 (
+                
 "
 sparse_update_config
 "
@@ -5226,7 +5256,6 @@ update
 -
 config
 "
-)
             
 )
 :

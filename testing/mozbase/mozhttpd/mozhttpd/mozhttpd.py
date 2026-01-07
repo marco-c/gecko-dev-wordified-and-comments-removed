@@ -392,14 +392,13 @@ request_log
 .
 append
 (
-{
                 
+{
 "
 method
 "
 :
 method
-                
 "
 path
 "
@@ -409,7 +408,6 @@ self
 request
 .
 path
-                
 "
 time
 "
@@ -419,8 +417,8 @@ time
 time
 (
 )
-            
 }
+            
 )
         
 handlers

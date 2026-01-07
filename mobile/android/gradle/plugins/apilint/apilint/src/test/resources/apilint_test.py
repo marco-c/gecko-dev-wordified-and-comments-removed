@@ -230,12 +230,13 @@ sp
 .
 call
 (
-[
             
+[
+                
 "
 python3
 "
-            
+                
 "
 src
 /
@@ -247,24 +248,25 @@ diff
 .
 py
 "
-            
+                
 "
 -
 -
 existing
 "
-            
+                
 before_api
-            
+                
 "
 -
 -
 local
 "
-            
+                
 after_api
-        
+            
 ]
+        
 )
     
 json_file

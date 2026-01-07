@@ -126,8 +126,9 @@ common_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 Any
@@ -142,7 +143,7 @@ tarball
 )
 :
 source_definition
-    
+        
 Optional
 (
 "
@@ -151,7 +152,7 @@ name
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -160,7 +161,7 @@ patch
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -173,7 +174,7 @@ command
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -182,7 +183,7 @@ arch
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -193,7 +194,7 @@ packages
 [
 str
 ]
-    
+        
 Optional
 (
 "
@@ -212,7 +213,7 @@ get
 aptitude
 "
 )
-    
+        
 Required
 (
 "
@@ -221,6 +222,7 @@ workdir
 )
 :
 str
+    
 }
 )
 debian_schema
@@ -229,8 +231,9 @@ common_schema
 .
 extend
 (
-{
     
+{
+        
 Required
 (
 "
@@ -243,7 +246,7 @@ debian
 -
 package
 "
-    
+        
 Required
 (
 "
@@ -252,6 +255,7 @@ dist
 )
 :
 str
+    
 }
 )
 ubuntu_schema
@@ -260,8 +264,9 @@ common_schema
 .
 extend
 (
-{
     
+{
+        
 Required
 (
 "
@@ -274,7 +279,7 @@ ubuntu
 -
 package
 "
-    
+        
 Required
 (
 "
@@ -283,6 +288,7 @@ dist
 )
 :
 str
+    
 }
 )
 def
@@ -547,6 +553,9 @@ package
 }
 &
 &
+"
+            
+"
 tar
 -
 C
@@ -1112,7 +1121,6 @@ upgrade
 &
 &
 "
-        
 "
 cd
 /

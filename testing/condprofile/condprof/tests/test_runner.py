@@ -206,6 +206,8 @@ firefox
 /
 nightly
 /
+"
+"
 latest
 -
 mozilla

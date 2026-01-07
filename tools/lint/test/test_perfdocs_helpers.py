@@ -1101,18 +1101,16 @@ table
 .
 add_row
 (
-[
             
+[
 "
 big
 ones
 "
-            
 "
 small
 ones
 "
-            
 "
 some
 as
@@ -1122,15 +1120,14 @@ your
 head
 !
 "
-            
 "
 (
 and
 bigger
 )
 "
-        
 ]
+        
 )
     
 assert
@@ -1232,18 +1229,16 @@ table
 .
 add_rows
 (
-[
             
+[
 "
 big
 ones
 "
-            
 "
 small
 ones
 "
-            
 "
 some
 as
@@ -1253,15 +1248,14 @@ your
 head
 !
 "
-            
 "
 (
 and
 bigger
 )
 "
-        
 ]
+        
 )
     
 assert
@@ -1371,8 +1365,8 @@ table
 .
 add_row
 (
-[
         
+[
 "
 Give
 '
@@ -1380,7 +1374,6 @@ em
 a
 twist
 "
-        
 "
 A
 flick
@@ -1388,7 +1381,6 @@ of
 the
 wrist
 "
-        
 "
 That
 '
@@ -1399,8 +1391,8 @@ showman
 said
 !
 "
-    
 ]
+    
 )
     
 table

@@ -69,16 +69,14 @@ subprocess
 .
 check_call
 (
-[
             
+[
 "
 git
 "
-            
 "
 clone
 "
-            
 self
 .
 repo_url
@@ -86,14 +84,13 @@ repo_url
 geturl
 (
 )
-            
 self
 .
 workdir
 .
 name
-        
 ]
+        
 )
     
 def

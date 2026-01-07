@@ -96,12 +96,13 @@ source_test_description_schema
 =
 Schema
 (
-{
     
+{
+        
 Extra
 :
 object
-    
+        
 Required
 (
 "
@@ -116,7 +117,7 @@ str
 str
 ]
 )
-    
+        
 Optional
 (
 "
@@ -137,7 +138,7 @@ str
 str
 }
 )
-    
+        
 Required
 (
 "
@@ -149,7 +150,7 @@ type
 :
 optionally_keyed_by
 (
-        
+            
 "
 platform
 "
@@ -161,9 +162,9 @@ worker
 type
 "
 ]
-    
+        
 )
-    
+        
 Required
 (
 "
@@ -173,7 +174,7 @@ worker
 :
 optionally_keyed_by
 (
-        
+            
 "
 platform
 "
@@ -183,9 +184,9 @@ job_description_schema
 worker
 "
 ]
-    
+        
 )
-    
+        
 Optional
 (
 "
@@ -194,7 +195,7 @@ dependencies
 )
 :
 {
-        
+            
 k
 :
 optionally_keyed_by
@@ -204,7 +205,7 @@ platform
 "
 v
 )
-        
+            
 for
 k
 v
@@ -219,9 +220,9 @@ dependencies
 items
 (
 )
-    
+        
 }
-    
+        
 Optional
 (
 "
@@ -230,11 +231,12 @@ fetches
 )
 :
 {
-        
+            
 str
 :
 optionally_keyed_by
 (
+                
 "
 platform
 "
@@ -247,9 +249,11 @@ fetches
 [
 str
 ]
+            
 )
-    
+        
 }
+    
 }
 )
 transforms

@@ -114,8 +114,9 @@ beetmover_description_schema
 =
 Schema
 (
-{
     
+{
+        
 Optional
 (
 "
@@ -124,7 +125,7 @@ label
 )
 :
 str
-    
+        
 Required
 (
 "
@@ -135,7 +136,7 @@ path
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -144,7 +145,7 @@ extra
 )
 :
 object
-    
+        
 Optional
 (
 "
@@ -158,7 +159,7 @@ task_description_schema
 attributes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -172,7 +173,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Required
 (
 "
@@ -190,7 +191,7 @@ shipping
 phase
 "
 ]
-    
+        
 Optional
 (
 "
@@ -208,7 +209,7 @@ shipping
 product
 "
 ]
-    
+        
 Optional
 (
 "
@@ -222,7 +223,7 @@ task_description_schema
 priority
 "
 ]
-    
+        
 Optional
 (
 "
@@ -240,7 +241,7 @@ task
 from
 "
 ]
-    
+        
 Optional
 (
 "
@@ -266,6 +267,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms
@@ -958,8 +960,9 @@ upstream_artifacts
 .
 append
 (
-{
             
+{
+                
 "
 taskId
 "
@@ -973,7 +976,7 @@ reference
 :
 build_task_ref
 }
-            
+                
 "
 taskType
 "
@@ -981,7 +984,7 @@ taskType
 "
 build
 "
-            
+                
 "
 paths
 "
@@ -1004,22 +1007,24 @@ tar
 xz
 "
 ]
-            
+                
 "
 locale
 "
 :
 partner_path
-        
+            
 }
+        
 )
         
 upstream_artifacts
 .
 append
 (
-{
             
+{
+                
 "
 taskId
 "
@@ -1033,7 +1038,7 @@ reference
 :
 repackage_signing_task_ref
 }
-            
+                
 "
 taskType
 "
@@ -1041,7 +1046,7 @@ taskType
 "
 repackage
 "
-            
+                
 "
 paths
 "
@@ -1066,14 +1071,15 @@ xz
 asc
 "
 ]
-            
+                
 "
 locale
 "
 :
 partner_path
-        
+            
 }
+        
 )
     
 elif
@@ -1088,8 +1094,9 @@ upstream_artifacts
 .
 append
 (
-{
             
+{
+                
 "
 taskId
 "
@@ -1103,7 +1110,7 @@ reference
 :
 repackage_task_ref
 }
-            
+                
 "
 taskType
 "
@@ -1111,7 +1118,7 @@ taskType
 "
 repackage
 "
-            
+                
 "
 paths
 "
@@ -1132,22 +1139,24 @@ target
 dmg
 "
 ]
-            
+                
 "
 locale
 "
 :
 partner_path
-        
+            
 }
+        
 )
         
 upstream_artifacts
 .
 append
 (
-{
             
+{
+                
 "
 taskId
 "
@@ -1161,7 +1170,7 @@ reference
 :
 repackage_signing_task_ref
 }
-            
+                
 "
 taskType
 "
@@ -1169,7 +1178,7 @@ taskType
 "
 repackage
 "
-            
+                
 "
 paths
 "
@@ -1192,14 +1201,15 @@ dmg
 asc
 "
 ]
-            
+                
 "
 locale
 "
 :
 partner_path
-        
+            
 }
+        
 )
     
 elif
@@ -1214,8 +1224,9 @@ upstream_artifacts
 .
 append
 (
-{
             
+{
+                
 "
 taskId
 "
@@ -1229,7 +1240,7 @@ reference
 :
 repackage_signing_task_ref
 }
-            
+                
 "
 taskType
 "
@@ -1237,7 +1248,7 @@ taskType
 "
 repackage
 "
-            
+                
 "
 paths
 "
@@ -1260,22 +1271,24 @@ installer
 exe
 "
 ]
-            
+                
 "
 locale
 "
 :
 partner_path
-        
+            
 }
+        
 )
         
 upstream_artifacts
 .
 append
 (
-{
             
+{
+                
 "
 taskId
 "
@@ -1289,7 +1302,7 @@ reference
 :
 repackage_signing_task_ref
 }
-            
+                
 "
 taskType
 "
@@ -1297,7 +1310,7 @@ taskType
 "
 repackage
 "
-            
+                
 "
 paths
 "
@@ -1322,14 +1335,15 @@ exe
 asc
 "
 ]
-            
+                
 "
 locale
 "
 :
 partner_path
-        
+            
 }
+        
 )
         
 if
@@ -1349,8 +1363,9 @@ upstream_artifacts
 .
 append
 (
-{
                 
+{
+                    
 "
 taskId
 "
@@ -1364,7 +1379,7 @@ reference
 :
 repackage_signing_task_ref
 }
-                
+                    
 "
 taskType
 "
@@ -1372,12 +1387,13 @@ taskType
 "
 repackage
 "
-                
+                    
 "
 paths
 "
 :
 [
+                        
 f
 "
 {
@@ -1396,23 +1412,26 @@ installer
 .
 exe
 "
+                    
 ]
-                
+                    
 "
 locale
 "
 :
 partner_path
-            
+                
 }
+            
 )
             
 upstream_artifacts
 .
 append
 (
-{
                 
+{
+                    
 "
 taskId
 "
@@ -1426,7 +1445,7 @@ reference
 :
 repackage_signing_task_ref
 }
-                
+                    
 "
 taskType
 "
@@ -1434,13 +1453,13 @@ taskType
 "
 repackage
 "
-                
+                    
 "
 paths
 "
 :
 [
-                    
+                        
 f
 "
 {
@@ -1461,16 +1480,17 @@ exe
 .
 asc
 "
-                
+                    
 ]
-                
+                    
 "
 locale
 "
 :
 partner_path
-            
+                
 }
+            
 )
     
 if

@@ -302,8 +302,9 @@ fails
 .
 append
 (
-{
                 
+{
+                    
 "
 test
 "
@@ -314,13 +315,13 @@ data
 test
 "
 ]
-                
+                    
 "
 message
 "
 :
 (
-                    
+                        
 "
 assertion
 count
@@ -332,7 +333,7 @@ than
 %
 i
 "
-                    
+                        
 %
 (
 data
@@ -348,10 +349,11 @@ max_expected
 "
 ]
 )
-                
+                    
 )
-            
+                
 }
+            
 )
         
 elif
@@ -411,27 +413,25 @@ n
 .
 join
 (
-[
             
+[
 self
 .
 output_fails
 (
 )
-            
 self
 .
 output_errors
 (
 )
-            
 self
 .
 output_summary
 (
 )
-        
 ]
+        
 )
         
 return

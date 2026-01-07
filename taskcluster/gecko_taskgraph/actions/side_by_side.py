@@ -269,13 +269,13 @@ metadata
 "
 ]
 [
+        
 "
 name
 "
+    
 ]
 =
-(
-        
 f
 "
 {
@@ -319,8 +319,6 @@ new_revision
 ]
 }
 "
-    
-)
     
 task
 .

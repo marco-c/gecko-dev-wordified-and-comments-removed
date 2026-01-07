@@ -165,8 +165,9 @@ log
 .
 log_raw
 (
-{
             
+{
+                
 "
 action
 "
@@ -174,7 +175,7 @@ action
 "
 log
 "
-            
+                
 "
 message
 "
@@ -184,7 +185,7 @@ message
 perfMetrics
 "
 '
-            
+                
 "
 extra
 "
@@ -201,8 +202,9 @@ metrics2
 :
 2
 }
-        
+            
 }
+        
 )
         
 self
@@ -211,8 +213,8 @@ log
 .
 log_raw
 (
-{
             
+{
 "
 action
 "
@@ -220,7 +222,6 @@ action
 "
 log
 "
-            
 "
 message
 "
@@ -230,7 +231,6 @@ message
 perfMetrics
 "
 '
-            
 "
 extra
 "
@@ -242,8 +242,8 @@ metrics3
 :
 3
 }
-        
 }
+        
 )
         
 self

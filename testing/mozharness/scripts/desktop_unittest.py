@@ -4733,8 +4733,9 @@ base_cmd
 .
 extend
 (
-[
                     
+[
+                        
 f
 "
 -
@@ -4755,7 +4756,7 @@ e
 )
 }
 "
-                    
+                        
 for
 e
 in
@@ -4765,8 +4766,9 @@ c
 install_extension
 "
 ]
-                
+                    
 ]
+                
 )
             
 if
@@ -5064,8 +5066,9 @@ base_cmd
 .
 extend
 (
-[
                         
+[
+                            
 "
 -
 -
@@ -5073,14 +5076,14 @@ total
 -
 chunks
 "
-                        
+                            
 c
 [
 "
 total_chunks
 "
 ]
-                        
+                            
 "
 -
 -
@@ -5088,15 +5091,16 @@ this
 -
 chunk
 "
-                        
+                            
 c
 [
 "
 this_chunk
 "
 ]
-                    
+                        
 ]
+                    
 )
                 
 if
@@ -7144,18 +7148,19 @@ command
 .
 extend
 (
-[
                 
+[
+                    
 "
 pulseaudio
 "
-                
+                    
 "
 -
 -
 daemonize
 "
-                
+                    
 "
 -
 -
@@ -7165,7 +7170,7 @@ level
 =
 4
 "
-                
+                    
 "
 -
 -
@@ -7175,12 +7180,12 @@ time
 =
 1
 "
-                
+                    
 "
 -
 vvvvv
 "
-                
+                    
 "
 -
 -
@@ -7193,8 +7198,9 @@ time
 -
 1
 "
-            
+                
 ]
+            
 )
             
 if

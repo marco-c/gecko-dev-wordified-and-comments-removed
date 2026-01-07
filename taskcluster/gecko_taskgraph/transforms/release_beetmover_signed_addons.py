@@ -120,8 +120,9 @@ beetmover_description_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -134,7 +135,7 @@ str
 :
 object
 }
-    
+        
 Optional
 (
 "
@@ -143,7 +144,7 @@ label
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -157,7 +158,7 @@ task_description_schema
 treeherder
 "
 ]
-    
+        
 Required
 (
 "
@@ -166,7 +167,7 @@ description
 )
 :
 str
-    
+        
 Required
 (
 "
@@ -185,7 +186,7 @@ level
 "
 str
 )
-    
+        
 Required
 (
 "
@@ -199,7 +200,7 @@ projects
 :
 [
 ]
-    
+        
 Optional
 (
 "
@@ -208,7 +209,7 @@ locale
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -226,7 +227,7 @@ shipping
 phase
 "
 ]
-    
+        
 Optional
 (
 "
@@ -244,7 +245,7 @@ task
 from
 "
 ]
-    
+        
 Optional
 (
 "
@@ -258,7 +259,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -284,6 +285,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms

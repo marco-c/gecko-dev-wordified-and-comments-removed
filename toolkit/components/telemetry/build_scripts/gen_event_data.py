@@ -1169,8 +1169,9 @@ name
 =
 OrderedDict
 (
+            
 {
-            
+                
 "
 methods
 "
@@ -1178,7 +1179,7 @@ methods
 event
 .
 methods
-            
+                
 "
 objects
 "
@@ -1186,7 +1187,7 @@ objects
 event
 .
 objects
-            
+                
 "
 extra_keys
 "
@@ -1194,12 +1195,13 @@ extra_keys
 event
 .
 extra_keys
-            
+                
 "
 record_on_release
 "
 :
 (
+                    
 True
 if
 event
@@ -1214,8 +1216,9 @@ out
 "
 else
 False
+                
 )
-            
+                
 "
 expires
 "
@@ -1223,13 +1226,13 @@ expires
 event
 .
 expiry_version
-            
+                
 "
 expired
 "
 :
 False
-            
+                
 "
 products
 "
@@ -1237,8 +1240,9 @@ products
 event
 .
 products
-        
+            
 }
+        
 )
     
 json

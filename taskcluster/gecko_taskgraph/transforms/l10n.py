@@ -138,8 +138,9 @@ l10n_description_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -148,7 +149,7 @@ name
 )
 :
 str
-    
+        
 Required
 (
 "
@@ -159,7 +160,7 @@ platform
 )
 :
 str
-    
+        
 Required
 (
 "
@@ -173,7 +174,7 @@ _by_platform
 (
 int
 )
-    
+        
 Required
 (
 "
@@ -189,7 +190,7 @@ _by_platform
 str
 ]
 )
-    
+        
 Required
 (
 "
@@ -198,7 +199,7 @@ mozharness
 )
 :
 {
-        
+            
 Required
 (
 "
@@ -210,7 +211,7 @@ _by_platform
 (
 str
 )
-        
+            
 Required
 (
 "
@@ -224,7 +225,7 @@ _by_platform
 str
 ]
 )
-        
+            
 Optional
 (
 "
@@ -237,7 +238,7 @@ paths
 [
 str
 ]
-        
+            
 Optional
 (
 "
@@ -251,7 +252,7 @@ _by_platform
 str
 ]
 )
-        
+            
 Required
 (
 "
@@ -265,7 +266,7 @@ _by_platform
 str
 ]
 )
-        
+            
 Optional
 (
 "
@@ -276,9 +277,9 @@ checkout
 )
 :
 bool
-    
+        
 }
-    
+        
 Optional
 (
 "
@@ -287,7 +288,7 @@ index
 )
 :
 {
-        
+            
 Required
 (
 "
@@ -299,7 +300,7 @@ _by_platform
 (
 str
 )
-        
+            
 Required
 (
 "
@@ -313,7 +314,7 @@ _by_platform
 (
 str
 )
-        
+            
 Optional
 (
 "
@@ -325,9 +326,9 @@ _by_platform
 (
 str
 )
-    
+        
 }
-    
+        
 Required
 (
 "
@@ -339,7 +340,7 @@ _by_platform
 (
 str
 )
-    
+        
 Optional
 (
 "
@@ -361,7 +362,7 @@ on
 projects
 "
 ]
-    
+        
 Optional
 (
 "
@@ -387,7 +388,7 @@ repo
 type
 "
 ]
-    
+        
 Required
 (
 "
@@ -401,7 +402,7 @@ _by_platform
 (
 str
 )
-    
+        
 Required
 (
 "
@@ -415,7 +416,7 @@ _by_platform
 (
 str
 )
-    
+        
 Required
 (
 "
@@ -435,7 +436,7 @@ public
 "
 )
 )
-    
+        
 Optional
 (
 "
@@ -447,7 +448,7 @@ image
 :
 _by_platform
 (
-        
+            
 {
 "
 in
@@ -457,9 +458,9 @@ tree
 :
 str
 }
-    
+        
 )
-    
+        
 Optional
 (
 "
@@ -468,7 +469,7 @@ fetches
 )
 :
 {
-        
+            
 str
 :
 _by_platform
@@ -477,9 +478,9 @@ _by_platform
 str
 ]
 )
-    
+        
 }
-    
+        
 Optional
 (
 "
@@ -497,7 +498,7 @@ str
 ]
 )
 )
-    
+        
 Required
 (
 "
@@ -506,7 +507,7 @@ treeherder
 )
 :
 {
-        
+            
 Required
 (
 "
@@ -518,7 +519,7 @@ _by_platform
 (
 str
 )
-        
+            
 Required
 (
 "
@@ -527,7 +528,7 @@ symbol
 )
 :
 str
-        
+            
 Required
 (
 "
@@ -539,9 +540,9 @@ _by_platform
 (
 int
 )
-    
+        
 }
-    
+        
 Optional
 (
 "
@@ -557,7 +558,7 @@ str
 taskref_or_string
 }
 )
-    
+        
 Optional
 (
 "
@@ -573,7 +574,7 @@ _by_platform
 (
 int
 )
-    
+        
 Optional
 (
 "
@@ -586,7 +587,7 @@ str
 :
 str
 }
-    
+        
 Optional
 (
 "
@@ -605,7 +606,7 @@ changed
 str
 ]
 }
-    
+        
 Optional
 (
 "
@@ -619,7 +620,7 @@ job_description_schema
 attributes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -633,7 +634,7 @@ job_description_schema
 extra
 "
 ]
-    
+        
 Optional
 (
 "
@@ -651,7 +652,7 @@ shipping
 product
 "
 ]
-    
+        
 Optional
 (
 "
@@ -669,7 +670,7 @@ shipping
 phase
 "
 ]
-    
+        
 Optional
 (
 "
@@ -687,6 +688,7 @@ task
 from
 "
 ]
+    
 }
 )
 transforms
@@ -1820,8 +1822,9 @@ options
 .
 extend
 (
-[
                     
+[
+                        
 f
 "
 locale
@@ -1834,14 +1837,15 @@ locale
 changeset
 }
 "
-                    
+                        
 for
 locale
 changeset
 in
 chunked_locales
-                
+                    
 ]
+                
 )
                 
 chunked
@@ -1962,8 +1966,9 @@ options
 .
 extend
 (
-[
                 
+[
+                    
 f
 "
 locale
@@ -1976,7 +1981,7 @@ locale
 changeset
 }
 "
-                
+                    
 for
 locale
 changeset
@@ -1989,8 +1994,9 @@ items
 (
 )
 )
-            
+                
 ]
+            
 )
             
 yield
@@ -2209,8 +2215,9 @@ mozharness
 .
 update
 (
-{
             
+{
+                
 "
 using
 "
@@ -2218,7 +2225,7 @@ using
 "
 mozharness
 "
-            
+                
 "
 job
 -
@@ -2238,7 +2245,7 @@ l10n
 .
 sh
 "
-            
+                
 "
 secrets
 "
@@ -2252,8 +2259,9 @@ secrets
 "
 False
 )
-        
+            
 }
+        
 )
         
 job_description
@@ -3092,14 +3100,15 @@ artifacts
 .
 append
 (
-{
                     
+{
+                        
 "
 name
 "
 :
 path
-                    
+                        
 "
 path
 "
@@ -3110,7 +3119,7 @@ artifact
 path
 "
 ]
-                    
+                        
 "
 type
 "
@@ -3118,8 +3127,9 @@ type
 "
 file
 "
-                
+                    
 }
+                
 )
         
 yield

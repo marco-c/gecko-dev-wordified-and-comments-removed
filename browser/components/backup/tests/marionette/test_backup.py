@@ -43,8 +43,9 @@ marionette
 .
 enforce_gecko_prefs
 (
-{
             
+{
+                
 "
 browser
 .
@@ -54,7 +55,7 @@ enabled
 "
 :
 True
-            
+                
 "
 browser
 .
@@ -64,7 +65,7 @@ log
 "
 :
 True
-            
+                
 "
 browser
 .
@@ -76,7 +77,7 @@ enabled
 "
 :
 True
-            
+                
 "
 browser
 .
@@ -88,7 +89,7 @@ enabled
 "
 :
 True
-            
+                
 "
 browser
 .
@@ -100,7 +101,7 @@ overridePlatformCheck
 "
 :
 True
-            
+                
 "
 browser
 .
@@ -112,7 +113,7 @@ overridePlatformCheck
 "
 :
 True
-            
+                
 "
 browser
 .
@@ -122,8 +123,9 @@ resume_from_crash
 "
 :
 True
-        
+            
 }
+        
 )
         
 self

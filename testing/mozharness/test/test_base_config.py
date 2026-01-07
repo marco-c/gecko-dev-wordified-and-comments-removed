@@ -804,14 +804,15 @@ c
 .
 parse_args
 (
-[
             
+[
+                
 "
 -
 -
 cfg
 "
-            
+                
 "
 test
 /
@@ -824,7 +825,7 @@ test_override2
 .
 py
 "
-            
+                
 "
 -
 -
@@ -832,7 +833,7 @@ opt
 -
 cfg
 "
-            
+                
 "
 test
 /
@@ -840,8 +841,9 @@ test_optional
 .
 py
 "
-        
+            
 ]
+        
 )
         
 self
@@ -890,14 +892,15 @@ c
 .
 parse_args
 (
-[
             
+[
+                
 "
 -
 -
 cfg
 "
-            
+                
 "
 test
 /
@@ -910,7 +913,7 @@ test_override2
 .
 py
 "
-            
+                
 "
 -
 -
@@ -918,7 +921,7 @@ opt
 -
 cfg
 "
-            
+                
 "
 test
 /
@@ -929,8 +932,9 @@ does_not_exist
 .
 py
 "
-        
+            
 ]
+        
 )
         
 self
@@ -979,14 +983,15 @@ c
 .
 parse_args
 (
-[
             
+[
+                
 "
 -
 -
 cfg
 "
-            
+                
 "
 test
 /
@@ -999,7 +1004,7 @@ test_override2
 .
 py
 "
-            
+                
 "
 -
 -
@@ -1007,7 +1012,7 @@ opt
 -
 cfg
 "
-            
+                
 "
 test
 /
@@ -1015,8 +1020,9 @@ test_optional
 .
 py
 "
-        
+            
 ]
+        
 )
         
 self

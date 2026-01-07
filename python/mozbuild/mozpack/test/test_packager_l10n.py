@@ -157,8 +157,9 @@ app_finder
 =
 MockFinder
 (
-{
             
+{
+                
 "
 bar
 /
@@ -166,7 +167,7 @@ foo
 "
 :
 foo
-            
+                
 "
 chrome
 /
@@ -176,7 +177,7 @@ foobar
 "
 :
 foobar
-            
+                
 "
 chrome
 /
@@ -188,7 +189,7 @@ properties
 "
 :
 qux
-            
+                
 "
 chrome
 /
@@ -202,7 +203,7 @@ properties
 "
 :
 baz
-            
+                
 "
 chrome
 /
@@ -213,13 +214,13 @@ manifest
 :
 ManifestFile
 (
-                
+                    
 "
 chrome
 "
-                
-[
                     
+[
+                        
 ManifestContent
 (
 "
@@ -233,7 +234,7 @@ foo
 /
 "
 )
-                    
+                        
 ManifestLocale
 (
 "
@@ -252,11 +253,11 @@ qux
 /
 "
 )
-                
+                    
 ]
-            
+                
 )
-            
+                
 "
 chrome
 .
@@ -265,7 +266,7 @@ manifest
 :
 ManifestFile
 (
-                
+                    
 "
 "
 [
@@ -282,9 +283,9 @@ manifest
 "
 )
 ]
-            
+                
 )
-            
+                
 "
 dict
 /
@@ -292,7 +293,7 @@ aa
 "
 :
 dict_aa
-            
+                
 "
 app
 /
@@ -306,7 +307,7 @@ dtd
 "
 :
 barbaz
-            
+                
 "
 app
 /
@@ -319,7 +320,7 @@ manifest
 :
 ManifestFile
 (
-                
+                    
 "
 app
 /
@@ -347,9 +348,9 @@ bar
 "
 )
 ]
-            
+                
 )
-            
+                
 "
 app
 /
@@ -360,7 +361,7 @@ manifest
 :
 ManifestFile
 (
-                
+                    
 "
 app
 "
@@ -379,9 +380,9 @@ manifest
 "
 )
 ]
-            
+                
 )
-            
+                
 "
 app
 /
@@ -391,7 +392,7 @@ bb
 "
 :
 dict_bb
-            
+                
 "
 app
 /
@@ -401,7 +402,7 @@ cc
 "
 :
 dict_cc
-            
+                
 "
 app
 /
@@ -417,7 +418,7 @@ xml
 "
 :
 foo
-            
+                
 "
 app
 /
@@ -433,7 +434,7 @@ xml
 "
 :
 bar
-            
+                
 "
 app
 /
@@ -449,7 +450,7 @@ txt
 "
 :
 lst
-            
+                
 "
 META
 -
@@ -459,7 +460,7 @@ foo
 "
 :
 foo
-            
+                
 "
 inner
 /
@@ -471,7 +472,7 @@ foo
 "
 :
 foo
-            
+                
 "
 app
 /
@@ -483,7 +484,7 @@ foo
 "
 :
 foo
-            
+                
 "
 app
 /
@@ -497,8 +498,9 @@ foo
 "
 :
 foo
-        
+            
 }
+        
 )
         
 app_finder
@@ -572,8 +574,9 @@ l10n_finder
 =
 MockFinder
 (
-{
             
+{
+                
 "
 chrome
 /
@@ -587,7 +590,7 @@ properties
 "
 :
 qux_l10n
-            
+                
 "
 chrome
 /
@@ -603,7 +606,7 @@ properties
 "
 :
 baz_l10n
-            
+                
 "
 chrome
 /
@@ -614,13 +617,13 @@ manifest
 :
 ManifestFile
 (
-                
+                    
 "
 chrome
 "
-                
-[
                     
+[
+                        
 ManifestLocale
 (
 "
@@ -641,11 +644,11 @@ l10n
 /
 "
 )
-                
+                    
 ]
-            
+                
 )
-            
+                
 "
 chrome
 .
@@ -654,7 +657,7 @@ manifest
 :
 ManifestFile
 (
-                
+                    
 "
 "
 [
@@ -671,9 +674,9 @@ manifest
 "
 )
 ]
-            
+                
 )
-            
+                
 "
 dict
 /
@@ -681,7 +684,7 @@ bb
 "
 :
 dict_bb
-            
+                
 "
 dict
 /
@@ -689,7 +692,7 @@ cc
 "
 :
 dict_cc
-            
+                
 "
 app
 /
@@ -705,7 +708,7 @@ dtd
 "
 :
 barbaz_l10n
-            
+                
 "
 app
 /
@@ -718,13 +721,13 @@ manifest
 :
 ManifestFile
 (
-                
+                    
 "
 app
 /
 chrome
 "
-                
+                    
 [
 ManifestLocale
 (
@@ -749,9 +752,9 @@ l10n
 "
 )
 ]
-            
+                
 )
-            
+                
 "
 app
 /
@@ -762,7 +765,7 @@ manifest
 :
 ManifestFile
 (
-                
+                    
 "
 app
 "
@@ -781,9 +784,9 @@ manifest
 "
 )
 ]
-            
+                
 )
-            
+                
 "
 app
 /
@@ -793,7 +796,7 @@ aa
 "
 :
 dict_aa
-            
+                
 "
 app
 /
@@ -811,7 +814,7 @@ xml
 "
 :
 foo_l10n
-            
+                
 "
 app
 /
@@ -829,7 +832,7 @@ xml
 "
 :
 qux_l10n
-            
+                
 "
 app
 /
@@ -847,8 +850,9 @@ txt
 "
 :
 lst_l10n
-        
+            
 }
+        
 )
         
 l10n_finder

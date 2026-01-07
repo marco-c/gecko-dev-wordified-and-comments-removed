@@ -401,12 +401,14 @@ deleted
 .
 format
 (
+                    
 job
 [
 "
 name
 "
 ]
+                
 )
             
 )
@@ -531,13 +533,14 @@ entries
 .
 update
 (
-{
                 
+{
+                    
 bouncer_alias
 .
 replace
 (
-                    
+                        
 "
 PARTNER
 "
@@ -551,24 +554,24 @@ partner
 sub_config_name
 }
 "
-                
+                    
 )
 :
 craft_partner_bouncer_product_name
 (
-                    
+                        
 product
-                    
+                        
 bouncer_product
-                    
+                        
 current_version
-                    
+                        
 partner
-                    
+                        
 sub_config_name
-                
+                    
 )
-                
+                    
 for
 bouncer_alias
 bouncer_product
@@ -578,8 +581,9 @@ partner_bouncer_products_per_alias
 items
 (
 )
-            
+                
 }
+            
 )
     
 return

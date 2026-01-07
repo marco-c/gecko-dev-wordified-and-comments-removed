@@ -248,6 +248,8 @@ extra
 )
         
 assert
+(
+            
 extra_data
 .
 get
@@ -261,8 +263,8 @@ Marionette
 "
 1
 "
-(
-            
+        
+)
 "
 Marionette
 entry
@@ -271,10 +273,10 @@ missing
 or
 invalid
 "
-        
-)
         
 assert
+(
+            
 extra_data
 .
 get
@@ -288,8 +290,8 @@ RemoteAgent
 "
 1
 "
-(
-            
+        
+)
 "
 RemoteAgent
 entry
@@ -298,8 +300,6 @@ missing
 or
 invalid
 "
-        
-)
         
 remove_files
 (
@@ -609,10 +609,12 @@ keys
 )
     
 assert
-not
-missing_extensions
 (
         
+not
+missing_extensions
+    
+)
 f
 "
 Missing
@@ -625,8 +627,6 @@ extensions
 missing_extensions
 }
 "
-    
-)
     
 return
 file_map

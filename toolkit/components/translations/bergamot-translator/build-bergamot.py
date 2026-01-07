@@ -791,13 +791,15 @@ translations_repo
 :
         
 assert
+(
+            
 translations_repo
 .
 is_dir
 (
 )
-(
-            
+        
+)
 f
 "
 The
@@ -812,8 +814,6 @@ directory
 translations_repo
 }
 "
-        
-)
         
 logger
 .

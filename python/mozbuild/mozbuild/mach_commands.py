@@ -709,8 +709,9 @@ ValueError
 return
 Schema
 (
-{
         
+{
+            
 Required
 (
 "
@@ -723,19 +724,19 @@ All
 str
 starts_with_cargo
 )
-        
+            
 "
 continue_on_error
 "
 :
 Boolean
-        
+            
 "
 requires_export
 "
 :
 Boolean
-        
+            
 "
 cargo_build_flags
 "
@@ -743,7 +744,7 @@ cargo_build_flags
 [
 str
 ]
-        
+            
 "
 cargo_extra_flags
 "
@@ -751,8 +752,9 @@ cargo_extra_flags
 [
 str
 ]
-    
+        
 }
+    
 )
 Command
 (
@@ -2733,6 +2735,9 @@ of
 }
 (
 default
+"
+    
+"
 objdir
 and
 python
@@ -2742,7 +2747,6 @@ python
 .
 format
 (
-        
 "
 "
 .
@@ -2750,7 +2754,6 @@ join
 (
 CLOBBER_CHOICES
 )
-    
 )
 )
 CommandArgument
@@ -4096,14 +4099,15 @@ logging
 .
 makeLogRecord
 (
-{
                 
+{
+                    
 "
 created
 "
 :
 created
-                
+                    
 "
 name
 "
@@ -4113,7 +4117,7 @@ command_context
 _logger
 .
 name
-                
+                    
 "
 levelno
 "
@@ -4121,7 +4125,7 @@ levelno
 logging
 .
 INFO
-                
+                    
 "
 msg
 "
@@ -4131,20 +4135,21 @@ msg
 line
 }
 "
-                
+                    
 "
 params
 "
 :
 params
-                
+                    
 "
 action
 "
 :
 action
-            
+                
 }
+            
 )
             
 command_context
@@ -9075,6 +9080,9 @@ to
 start
 before
 returning
+"
+        
+"
 (
 default
 :
@@ -10171,6 +10179,9 @@ temporary
 profile
 created
 inside
+"
+        
+"
 the
 objdir
 .
@@ -18305,6 +18316,9 @@ on
 Windows
 11
 .
+"
+    
+"
 (
 Default
 :
@@ -20794,6 +20808,9 @@ root
 please
 use
 the
+"
+            
+"
 -
 -
 sudo

@@ -56,8 +56,9 @@ haz_run_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -68,7 +69,7 @@ using
 "
 hazard
 "
-    
+        
 Required
 (
 "
@@ -77,7 +78,7 @@ command
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -86,7 +87,7 @@ mozconfig
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -101,7 +102,7 @@ bool
 str
 ]
 )
-    
+        
 Optional
 (
 "
@@ -110,6 +111,7 @@ workdir
 )
 :
 str
+    
 }
 )
 run_job_using
@@ -238,8 +240,9 @@ env
 .
 update
 (
-{
         
+{
+            
 "
 MOZ_BUILD_DATE
 "
@@ -252,7 +255,7 @@ params
 moz_build_date
 "
 ]
-        
+            
 "
 MOZ_SCM_LEVEL
 "
@@ -265,8 +268,9 @@ params
 level
 "
 ]
-    
+        
 }
+    
 )
     
 if

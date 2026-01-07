@@ -138,8 +138,9 @@ beetmover_description_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -148,7 +149,7 @@ label
 )
 :
 str
-    
+        
 Required
 (
 "
@@ -162,7 +163,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -176,7 +177,7 @@ task_description_schema
 treeherder
 "
 ]
-    
+        
 Optional
 (
 "
@@ -190,7 +191,7 @@ task_description_schema
 attributes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -199,7 +200,7 @@ locale
 )
 :
 str
-    
+        
 Required
 (
 "
@@ -217,7 +218,7 @@ shipping
 phase
 "
 ]
-    
+        
 Optional
 (
 "
@@ -235,7 +236,7 @@ task
 from
 "
 ]
-    
+        
 Optional
 (
 "
@@ -261,6 +262,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms
@@ -1985,8 +1987,8 @@ if
 not
 any
 (
-[
                 
+[
 path
 .
 endswith
@@ -2008,8 +2010,8 @@ artifact
 paths
 "
 ]
-            
 ]
+            
 )
 :
                 

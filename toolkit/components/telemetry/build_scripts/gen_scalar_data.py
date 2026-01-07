@@ -1085,8 +1085,9 @@ name
 =
 OrderedDict
 (
-{
             
+{
+                
 "
 kind
 "
@@ -1094,7 +1095,7 @@ kind
 scalar
 .
 nsITelemetry_kind
-            
+                
 "
 keyed
 "
@@ -1102,7 +1103,7 @@ keyed
 scalar
 .
 keyed
-            
+                
 "
 keys
 "
@@ -1110,12 +1111,13 @@ keys
 scalar
 .
 keys
-            
+                
 "
 record_on_release
 "
 :
 (
+                    
 True
 if
 scalar
@@ -1130,8 +1132,9 @@ out
 "
 else
 False
+                
 )
-            
+                
 #
 We
 don
@@ -1149,7 +1152,7 @@ re
 only
 meant
 for
-            
+                
 #
 use
 in
@@ -1164,13 +1167,13 @@ expire
 when
 rebuilding
 .
-            
+                
 "
 expired
 "
 :
 False
-            
+                
 "
 stores
 "
@@ -1178,7 +1181,7 @@ stores
 scalar
 .
 record_into_store
-            
+                
 "
 expires
 "
@@ -1186,7 +1189,7 @@ expires
 scalar
 .
 expires
-            
+                
 "
 products
 "
@@ -1194,8 +1197,9 @@ products
 scalar
 .
 products
-        
+            
 }
+        
 )
     
 json

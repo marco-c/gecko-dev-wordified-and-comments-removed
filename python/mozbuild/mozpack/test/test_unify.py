@@ -367,8 +367,8 @@ assertEqual
             
 sorted
 (
-[
                 
+[
 (
 f
 c
@@ -402,8 +402,8 @@ find
 foo
 "
 )
-            
 ]
+            
 )
             
 [
@@ -486,8 +486,8 @@ assertEqual
             
 sorted
 (
-[
                 
+[
 (
 f
 c
@@ -521,8 +521,8 @@ find
 test
 "
 )
-            
 ]
+            
 )
             
 [
@@ -682,8 +682,9 @@ assertEqual
             
 sorted
 (
-[
                 
+[
+                    
 (
 f
 c
@@ -705,7 +706,7 @@ utf
 "
 )
 )
-                
+                    
 for
 f
 c
@@ -723,8 +724,9 @@ chrome
 manifest
 "
 )
-            
+                
 ]
+            
 )
             
 [
@@ -794,26 +796,27 @@ n
 .
 join
 (
-[
                 
+[
+                    
 "
 <
 html
 >
 "
-                
+                    
 "
 <
 body
 >
 "
-                
+                    
 "
 <
 div
 >
 "
-                
+                    
 "
 <
 h1
@@ -825,7 +828,7 @@ Configuration
 h1
 >
 "
-                
+                    
 "
 <
 div
@@ -836,29 +839,30 @@ foo
 div
 >
 "
-                
+                    
 "
 <
 /
 div
 >
 "
-                
+                    
 "
 <
 /
 body
 >
 "
-                
+                    
 "
 <
 /
 html
 >
 "
-            
+                
 ]
+            
 )
         
 )
@@ -891,26 +895,27 @@ n
 .
 join
 (
-[
                 
+[
+                    
 "
 <
 html
 >
 "
-                
+                    
 "
 <
 body
 >
 "
-                
+                    
 "
 <
 div
 >
 "
-                
+                    
 "
 <
 h1
@@ -922,7 +927,7 @@ Configuration
 h1
 >
 "
-                
+                    
 "
 <
 div
@@ -933,29 +938,30 @@ bar
 div
 >
 "
-                
+                    
 "
 <
 /
 div
 >
 "
-                
+                    
 "
 <
 /
 body
 >
 "
-                
+                    
 "
 <
 /
 html
 >
 "
-            
+                
 ]
+            
 )
         
 )
@@ -967,8 +973,9 @@ assertEqual
             
 sorted
 (
-[
                 
+[
+                    
 (
 f
 c
@@ -990,7 +997,7 @@ utf
 "
 )
 )
-                
+                    
 for
 f
 c
@@ -1008,8 +1015,9 @@ buildconfig
 html
 "
 )
-            
+                
 ]
+            
 )
             
 [
@@ -1035,26 +1043,27 @@ n
 .
 join
 (
-[
                         
+[
+                            
 "
 <
 html
 >
 "
-                        
+                            
 "
 <
 body
 >
 "
-                        
+                            
 "
 <
 div
 >
 "
-                        
+                            
 "
 <
 h1
@@ -1066,7 +1075,7 @@ Configuration
 h1
 >
 "
-                        
+                            
 "
 <
 div
@@ -1077,7 +1086,7 @@ foo
 div
 >
 "
-                        
+                            
 "
 <
 hr
@@ -1087,7 +1096,7 @@ hr
 hr
 >
 "
-                        
+                            
 "
 <
 div
@@ -1098,29 +1107,30 @@ bar
 div
 >
 "
-                        
+                            
 "
 <
 /
 div
 >
 "
-                        
+                            
 "
 <
 /
 body
 >
 "
-                        
+                            
 "
 <
 /
 html
 >
 "
-                    
+                        
 ]
+                    
 )
                 
 )
@@ -1389,8 +1399,9 @@ rdf_tag
 .
 join
 (
-[
             
+[
+                
 '
 <
 {
@@ -1415,7 +1426,7 @@ qux
 "
 >
 '
-            
+                
 "
 <
 {
@@ -1432,13 +1443,13 @@ em
 foo
 >
 "
-            
+                
 "
 {
 targets
 }
 "
-            
+                
 "
 <
 {
@@ -1455,7 +1466,7 @@ em
 baz
 >
 "
-            
+                
 "
 <
 /
@@ -1465,8 +1476,9 @@ RDF
 Description
 >
 "
-        
+            
 ]
+        
 )
         
 rdf_attr
@@ -1476,8 +1488,9 @@ rdf_attr
 .
 join
 (
-[
             
+[
+                
 '
 <
 {
@@ -1505,13 +1518,13 @@ qux
 "
 >
 '
-            
+                
 "
 {
 targets
 }
 "
-            
+                
 "
 <
 {
@@ -1542,7 +1555,7 @@ em
 baz
 >
 "
-            
+                
 "
 <
 /
@@ -1552,8 +1565,9 @@ RDF
 Description
 >
 "
-        
+            
 ]
+        
 )
         
 for
@@ -1914,8 +1928,9 @@ assertEqual
                 
 sorted
 (
-[
                     
+[
+                        
 (
 f
 c
@@ -1937,7 +1952,7 @@ utf
 "
 )
 )
-                    
+                        
 for
 f
 c
@@ -1955,8 +1970,9 @@ install
 rdf
 "
 )
-                
+                    
 ]
+                
 )
                 
 results

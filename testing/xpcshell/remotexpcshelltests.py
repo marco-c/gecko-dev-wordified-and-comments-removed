@@ -3611,15 +3611,16 @@ f
 .
 writelines
 (
-[
                 
+[
+                    
 "
 cd
 1
 \
 n
 "
-                
+                    
 "
 echo
 xpcw
@@ -3629,13 +3630,13 @@ cd
 \
 n
 "
-                
+                    
 "
 shift
 \
 n
 "
-                
+                    
 '
 echo
 xpcw
@@ -3646,7 +3647,7 @@ xpcshell
 \
 n
 '
-                
+                    
 '
 %
 s
@@ -3661,8 +3662,9 @@ n
 self
 .
 remoteBinDir
-            
+                
 ]
+            
 )
         
 remoteWrapper
@@ -3751,6 +3753,9 @@ remotexpcshelltests
 .
 py
 |
+"
+                
+"
 no
 more
 free

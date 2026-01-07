@@ -317,8 +317,9 @@ upstream_artifacts
 .
 append
 (
-{
                 
+{
+                    
 "
 taskId
 "
@@ -341,21 +342,22 @@ kind
 >
 "
 }
-                
+                    
 "
 taskType
 "
 :
 upstream_task_type
-                
+                    
 "
 paths
 "
 :
 sorted
 (
+                        
 {
-                    
+                            
 path_template
 .
 format
@@ -364,7 +366,7 @@ locale
 =
 locale
 )
-                    
+                            
 for
 locale
 in
@@ -380,7 +382,7 @@ chunk_locales
 [
 ]
 )
-                    
+                            
 for
 path_template
 in
@@ -390,10 +392,11 @@ spec
 artifacts
 "
 ]
-                
+                        
 }
+                    
 )
-                
+                    
 "
 formats
 "
@@ -404,8 +407,9 @@ spec
 formats
 "
 ]
-            
+                
 }
+            
 )
         
 job

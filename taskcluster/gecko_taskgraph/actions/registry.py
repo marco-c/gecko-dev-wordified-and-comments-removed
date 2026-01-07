@@ -1024,10 +1024,10 @@ schema
 or
 is_json
 (
-schema
-)
-(
             
+schema
+        
+)
 "
 schema
 must
@@ -1037,8 +1037,6 @@ JSON
 compatible
 object
 "
-        
-)
         
 assert
 isinstance
@@ -1102,12 +1100,12 @@ assert
 not
 mem
 [
+            
 "
 registered
 "
+        
 ]
-(
-            
 "
 register_callback_action
 must
@@ -1116,8 +1114,6 @@ used
 as
 decorator
 "
-        
-)
         
 assert
 cb_name
@@ -1483,8 +1479,9 @@ rv
 .
 update
 (
-{
                 
+{
+                    
 "
 kind
 "
@@ -1492,7 +1489,7 @@ kind
 "
 hook
 "
-                
+                    
 "
 hookGroupId
 "
@@ -1505,7 +1502,7 @@ project
 trustDomain
 }
 "
-                
+                    
 "
 hookId
 "
@@ -1530,45 +1527,45 @@ permission
 tcyml_hash
 }
 "
-                
+                    
 "
 hookPayload
 "
 :
 {
-                    
+                        
 "
 decision
 "
 :
 {
-                        
+                            
 "
 action
 "
 :
 action
-                        
+                            
 "
 repository
 "
 :
 repository
-                        
+                            
 "
 push
 "
 :
 push
-                    
+                        
 }
-                    
+                        
 "
 user
 "
 :
 {
-                        
+                            
 "
 input
 "
@@ -1582,7 +1579,7 @@ eval
 input
 "
 }
-                        
+                            
 "
 taskId
 "
@@ -1596,12 +1593,13 @@ eval
 taskId
 "
 }
-                        
+                            
 "
 taskGroupId
 "
 :
 {
+                                
 "
 eval
 "
@@ -1609,27 +1607,29 @@ eval
 "
 taskGroupId
 "
+                            
+}
+                        
 }
                     
 }
-                
-}
-                
+                    
 "
 extra
 "
 :
 {
-                    
+                        
 "
 actionPerm
 "
 :
 permission
+                    
+}
                 
 }
             
-}
 )
             
 return

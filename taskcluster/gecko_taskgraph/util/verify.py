@@ -2825,8 +2825,9 @@ missing_tests_allowed
 =
 any
 (
-(
             
+(
+                
 bool
 (
 parameters
@@ -2840,7 +2841,7 @@ kinds
 "
 )
 )
-            
+                
 parameters
 [
 "
@@ -2852,8 +2853,9 @@ test_manifest_loader
 "
 default
 "
-        
+            
 )
+        
 )
         
 test_env

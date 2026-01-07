@@ -676,27 +676,25 @@ images
 .
 append
 (
+            
 {
-            
 "
 screenshot
 "
 :
 screenshot
-            
 "
 test_name
 "
 :
 test_name
-            
 "
 page_cycle
 "
 :
 page_cycle
-        
 }
+        
 )
     
 def
@@ -1425,14 +1423,15 @@ self
 .
 build_extra_options
 (
-[
                 
-(
+[
                     
+(
+                        
 self
 .
 conditioned_profile
-                    
+                        
 "
 condprof
 -
@@ -1443,9 +1442,9 @@ s
 self
 .
 conditioned_profile
-                
+                    
 )
-                
+                    
 (
 self
 .
@@ -1454,8 +1453,9 @@ fission_enabled
 fission
 "
 )
-            
+                
 ]
+            
 )
         
 )
@@ -2079,8 +2079,9 @@ target_subfolders
 .
 extend
 (
-[
                     
+[
+                        
 self
 .
 browsertime_results_folders
@@ -2089,7 +2090,7 @@ browsertime_results_folders
 videos_annotated
 "
 ]
-                    
+                        
 self
 .
 browsertime_results_folders
@@ -2098,8 +2099,9 @@ browsertime_results_folders
 videos_original
 "
 ]
-                
+                    
 ]
+                
 )
             
 return
@@ -4517,8 +4519,9 @@ powerUsage
 .
 extend
 (
-[
                         
+[
+                            
 round
 (
 vals
@@ -4539,13 +4542,14 @@ powerUsage
 )
 2
 )
-                        
+                            
 for
 vals
 in
 power_vals
-                    
+                        
 ]
+                    
 )
             
 if

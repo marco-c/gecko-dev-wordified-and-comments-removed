@@ -592,8 +592,8 @@ routes
 .
 extend
 (
-[
         
+[
 f
 "
 index
@@ -613,8 +613,8 @@ for
 route
 in
 EXTRA_CACHE_INDEXES
-    
 ]
+    
 )
     
 taskdesc

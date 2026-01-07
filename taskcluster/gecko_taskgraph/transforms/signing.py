@@ -90,8 +90,9 @@ signing_description_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -102,9 +103,9 @@ artifacts
 )
 :
 [
-        
-{
             
+{
+                
 Required
 (
 "
@@ -113,7 +114,7 @@ taskId
 )
 :
 taskref_or_string
-            
+                
 Required
 (
 "
@@ -122,7 +123,7 @@ taskType
 )
 :
 str
-            
+                
 Required
 (
 "
@@ -133,7 +134,7 @@ paths
 [
 str
 ]
-            
+                
 Required
 (
 "
@@ -144,11 +145,11 @@ formats
 [
 str
 ]
-        
+            
 }
-    
+        
 ]
-    
+        
 Optional
 (
 "
@@ -161,7 +162,7 @@ str
 :
 object
 }
-    
+        
 Optional
 (
 "
@@ -170,7 +171,7 @@ label
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -184,7 +185,7 @@ task_description_schema
 treeherder
 "
 ]
-    
+        
 Optional
 (
 "
@@ -195,7 +196,7 @@ routes
 [
 str
 ]
-    
+        
 Optional
 (
 "
@@ -213,7 +214,7 @@ shipping
 phase
 "
 ]
-    
+        
 Optional
 (
 "
@@ -231,7 +232,7 @@ shipping
 product
 "
 ]
-    
+        
 Required
 (
 "
@@ -245,7 +246,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -258,7 +259,7 @@ str
 :
 object
 }
-    
+        
 Optional
 (
 "
@@ -271,7 +272,7 @@ chunk
 )
 :
 int
-    
+        
 Optional
 (
 "
@@ -285,7 +286,7 @@ task_description_schema
 priority
 "
 ]
-    
+        
 Optional
 (
 "
@@ -303,7 +304,7 @@ task
 from
 "
 ]
-    
+        
 Optional
 (
 "
@@ -329,6 +330,7 @@ repo
 type
 "
 ]
+    
 }
 )
 def

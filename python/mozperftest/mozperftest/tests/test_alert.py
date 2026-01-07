@@ -298,12 +298,11 @@ test
 )
     
 with
-(
-        
 mock
 .
 patch
 (
+        
 "
 mozperftest
 .
@@ -315,14 +314,15 @@ requests
 .
 get
 "
+    
 )
 as
 mocked_request
-        
 mock
 .
 patch
 (
+        
 "
 mozperftest
 .
@@ -332,14 +332,16 @@ alert
 .
 mozprocess
 "
+    
 )
 as
 mocked_mozprocess
-        
 (
+        
 MOCK_DATA_DIR
 /
 alert_json
+    
 )
 .
 open
@@ -347,8 +349,6 @@ open
 )
 as
 f
-    
-)
 :
         
 mocked_response
@@ -683,12 +683,11 @@ test
 )
     
 with
-(
-        
 mock
 .
 patch
 (
+        
 "
 mozperftest
 .
@@ -700,14 +699,15 @@ requests
 .
 get
 "
+    
 )
 as
 mocked_request
-        
 mock
 .
 patch
 (
+        
 "
 mozperftest
 .
@@ -717,14 +717,16 @@ alert
 .
 mozprocess
 "
+    
 )
 as
 mocked_mozprocess
-        
 (
+        
 MOCK_DATA_DIR
 /
 alert_json
+    
 )
 .
 open
@@ -732,8 +734,6 @@ open
 )
 as
 f
-    
-)
 :
         
 mocked_response
@@ -1836,12 +1836,11 @@ TEST
 ]
     
 with
-(
-        
 mock
 .
 patch
 (
+        
 "
 mozperftest
 .
@@ -1853,14 +1852,15 @@ requests
 .
 get
 "
+    
 )
 as
 mocked_request
-        
 mock
 .
 patch
 (
+        
 "
 mozperftest
 .
@@ -1870,14 +1870,16 @@ alert
 .
 mozprocess
 "
+    
 )
 as
 mocked_mozprocess
-        
 (
+        
 MOCK_DATA_DIR
 /
 alert_json
+    
 )
 .
 open
@@ -1885,11 +1887,12 @@ open
 )
 as
 alert_file
-        
 (
+        
 MOCK_DATA_DIR
 /
 task_info_json
+    
 )
 .
 open
@@ -1897,8 +1900,6 @@ open
 )
 as
 task_file
-    
-)
 :
         
 mocked_alert_response
@@ -2127,12 +2128,11 @@ test
 )
     
 with
-(
-        
 mock
 .
 patch
 (
+        
 "
 mozperftest
 .
@@ -2144,14 +2144,15 @@ requests
 .
 get
 "
+    
 )
 as
 mocked_request
-        
 mock
 .
 patch
 (
+        
 "
 mozperftest
 .
@@ -2161,14 +2162,16 @@ alert
 .
 mozprocess
 "
+    
 )
 as
 mocked_mozprocess
-        
 (
+        
 MOCK_DATA_DIR
 /
 alert_json
+    
 )
 .
 open
@@ -2176,8 +2179,6 @@ open
 )
 as
 f
-    
-)
 :
         
 mocked_response

@@ -7,6 +7,7 @@ align_stack_comment
 .
 py
 FILE
+    
 This
 script
 aligns
@@ -17,10 +18,12 @@ comment
 in
 BytecodeEmitter
 and
+    
 its
 helper
 classes
 .
+    
 The
 stack
 transition
@@ -30,7 +33,7 @@ like
 the
 following
 :
-  
+      
 /
 /
 [

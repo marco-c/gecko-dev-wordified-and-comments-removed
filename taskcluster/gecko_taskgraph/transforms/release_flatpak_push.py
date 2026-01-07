@@ -69,8 +69,9 @@ push_flatpak_description_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -79,7 +80,7 @@ name
 )
 :
 str
-    
+        
 Required
 (
 "
@@ -97,7 +98,7 @@ task
 from
 "
 ]
-    
+        
 Required
 (
 "
@@ -111,7 +112,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Required
 (
 "
@@ -125,7 +126,7 @@ task_description_schema
 description
 "
 ]
-    
+        
 Required
 (
 "
@@ -139,7 +140,7 @@ task_description_schema
 treeherder
 "
 ]
-    
+        
 Required
 (
 "
@@ -161,7 +162,7 @@ on
 projects
 "
 ]
-    
+        
 Required
 (
 "
@@ -180,7 +181,7 @@ level
 "
 str
 )
-    
+        
 Required
 (
 "
@@ -189,7 +190,7 @@ worker
 )
 :
 object
-    
+        
 Optional
 (
 "
@@ -200,7 +201,7 @@ scopes
 [
 str
 ]
-    
+        
 Required
 (
 "
@@ -218,7 +219,7 @@ shipping
 phase
 "
 ]
-    
+        
 Required
 (
 "
@@ -236,7 +237,7 @@ shipping
 product
 "
 ]
-    
+        
 Required
 (
 "
@@ -247,7 +248,7 @@ scope
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -261,7 +262,7 @@ task_description_schema
 extra
 "
 ]
-    
+        
 Optional
 (
 "
@@ -275,7 +276,7 @@ task_description_schema
 attributes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -301,6 +302,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms

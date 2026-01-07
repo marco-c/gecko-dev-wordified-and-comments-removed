@@ -1003,8 +1003,9 @@ b
 .
 join
 (
-[
                         
+[
+                            
 b
 "
 resource
@@ -1014,7 +1015,7 @@ qux
 \
 n
 "
-                        
+                            
 b
 "
 binary
@@ -1026,8 +1027,9 @@ so
 \
 n
 "
-                    
+                        
 ]
+                    
 )
                 
 )
@@ -1173,8 +1175,9 @@ b
 .
 join
 (
-[
                 
+[
+                    
 b
 "
 manifest
@@ -1186,7 +1189,7 @@ manifest
 \
 n
 "
-                
+                    
 b
 "
 manifest
@@ -1198,8 +1201,9 @@ manifest
 \
 n
 "
-            
+                
 ]
+            
 )
         
 )
@@ -3311,72 +3315,74 @@ get_bases
             
 set
 (
+                
 [
-                
+                    
 "
 "
-                
+                    
 "
 addon
 "
-                
+                    
 "
 addon2
 "
-                
+                    
 "
 addon3
 "
-                
+                    
 "
 addon4
 "
-                
+                    
 "
 addon5
 "
-                
+                    
 "
 addon6
 "
-                
+                    
 "
 addon7
 "
-                
+                    
 "
 addon8
 "
-                
+                    
 "
 addon9
 "
-                
+                    
 "
 addon10
 "
-                
+                    
 "
 addon11
 "
-                
+                    
 "
 qux
 "
-                
+                    
 "
 hybrid
 "
-                
+                    
 "
 hybrid2
 "
-                
+                    
 "
 webextension
 "
-            
+                
 ]
+            
 )
         
 )
@@ -3438,6 +3444,7 @@ manifest
             
 GeneratedFile
 (
+                
 b
 "
 manifest
@@ -3447,7 +3454,11 @@ bar
 .
 manifest
 \
-nmanifest
+n
+"
+b
+"
+manifest
 bar
 /
 baz
@@ -3456,6 +3467,7 @@ manifest
 \
 n
 "
+            
 )
         
 )
@@ -3603,6 +3615,7 @@ manifest
             
 GeneratedFile
 (
+                
 b
 "
 manifest
@@ -3612,7 +3625,11 @@ bar
 .
 manifest
 \
-nmanifest
+n
+"
+b
+"
+manifest
 bar
 /
 baz
@@ -3621,6 +3638,7 @@ manifest
 \
 n
 "
+            
 )
         
 )
@@ -3921,8 +3939,9 @@ finder
 =
 MockFinder
 (
-{
             
+{
+                
 "
 bin
 /
@@ -3932,7 +3951,7 @@ bar
 "
 :
 foobar
-            
+                
 "
 bin
 /
@@ -3942,7 +3961,7 @@ baz
 "
 :
 foobaz
-            
+                
 "
 bin
 /
@@ -3952,7 +3971,7 @@ qux
 "
 :
 fooqux
-            
+                
 "
 bin
 /
@@ -3962,7 +3981,7 @@ zot
 "
 :
 foozot
-            
+                
 "
 bin
 /
@@ -3983,7 +4002,7 @@ foo
 /
 "
 )
-            
+                
 "
 bin
 /
@@ -4004,8 +4023,9 @@ chrome
 manifest
 "
 )
-        
+            
 }
+        
 )
         
 parser

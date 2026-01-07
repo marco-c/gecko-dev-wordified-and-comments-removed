@@ -83,6 +83,8 @@ argument
 followed
 by
 required
+"
+"
 argument
 .
 "
@@ -173,6 +175,8 @@ argument
 followed
 by
 optional
+"
+"
 argument
 .
 "
@@ -261,6 +265,8 @@ argument
 explicitly
 flagged
 as
+"
+"
 optional
 .
 "

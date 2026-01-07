@@ -276,25 +276,26 @@ localpath
     
 check_call
 (
-[
         
+[
+            
 "
 svn
 "
-        
+            
 "
 export
 "
-        
+            
 "
 -
 r
 "
-        
+            
 "
 BASE
 "
-        
+            
 os
 .
 path
@@ -307,10 +308,11 @@ src
 "
 svnpath
 )
-        
+            
 localpath
-    
+        
 ]
+    
 )
 doexport
 (

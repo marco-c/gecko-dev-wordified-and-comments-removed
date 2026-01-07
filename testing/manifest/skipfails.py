@@ -1381,17 +1381,19 @@ if
             
 sum
 (
+                
 [
-                
+                    
 carryover_mode
-                
+                    
 known_intermittents_mode
-                
+                    
 new_failures_mode
-                
+                    
 replace_tbd_mode
-            
+                
 ]
+            
 )
             
 >
@@ -5771,7 +5773,7 @@ Agent
 msg
 =
 f
-"
+'
 Error
 querying
 mozci
@@ -5796,14 +5798,14 @@ session
 .
 headers
 [
-'
+"
 User
 -
 Agent
-'
+"
 ]
 }
-"
+'
             
 if
 self
@@ -13892,8 +13894,9 @@ taskcluster
 .
 Index
 (
-{
             
+{
+                
 "
 rootUrl
 "
@@ -13915,8 +13918,9 @@ mozilla
 .
 com
 "
-        
+            
 }
+        
 )
         
 route
@@ -13947,8 +13951,9 @@ taskcluster
 .
 Queue
 (
-{
             
+{
+                
 "
 rootUrl
 "
@@ -13970,8 +13975,9 @@ mozilla
 .
 com
 "
-        
+            
 }
+        
 )
         
 result
@@ -20389,14 +20395,12 @@ RUNS
 task_id
 ]
 [
+                    
 DIFFERENCE
+                
 ]
 =
-(
-                    
 difference
-                
-)
             
 if
 pixels
@@ -20890,6 +20894,8 @@ log_url
 :
 str
 =
+(
+                            
 f
 "
 https
@@ -20922,6 +20928,8 @@ lineNumber
 line_number
 }
 "
+                        
+)
                         
 comment
 +

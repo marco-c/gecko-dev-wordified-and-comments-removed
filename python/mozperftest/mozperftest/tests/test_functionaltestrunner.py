@@ -24,8 +24,6 @@ test_functionaltestrunner_pass
 :
     
 with
-(
-        
 mock
 .
 patch
@@ -40,12 +38,11 @@ TestResolver
 )
 as
 test_resolver_mock
-        
 mock
 .
 patch
 (
-            
+        
 "
 mozperftest
 .
@@ -55,15 +52,15 @@ functionaltestrunner
 .
 load_class_from_path
 "
-        
+    
 )
 as
 load_class_path_mock
-        
 mock
 .
 patch
 (
+        
 "
 mozperftest
 .
@@ -73,12 +70,13 @@ functionaltestrunner
 .
 FunctionalTestProcessor
 "
+    
 )
-        
 mock
 .
 patch
 (
+        
 "
 mozperftest
 .
@@ -88,7 +86,6 @@ functionaltestrunner
 .
 mozlog
 "
-)
     
 )
 :

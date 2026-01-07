@@ -7011,23 +7011,25 @@ cxxparams
 .
 extend
 (
-[
                 
+[
+                    
 makeCallbackResolveDecl
 (
 self
 .
 returns
 )
-                
+                    
 makeCallbackRejectDecl
 (
 self
 .
 returns
 )
-            
+                
 ]
+            
 )
         
 elif
@@ -7160,16 +7162,17 @@ cxxargs
 .
 extend
 (
-[
                 
-(
+[
                     
+(
+                        
 p
 .
 var
 (
 )
-                    
+                        
 if
 p
 .
@@ -7178,7 +7181,7 @@ ipdltype
 isRefcounted
 (
 )
-                    
+                        
 or
 (
 p
@@ -7197,7 +7200,7 @@ isNotNull
 (
 )
 )
-                    
+                        
 else
 ExprMove
 (
@@ -7207,17 +7210,18 @@ var
 (
 )
 )
-                
+                    
 )
-                
+                    
 for
 p
 in
 self
 .
 params
-            
+                
 ]
+            
 )
         
 elif
@@ -10148,11 +10152,12 @@ structUnionDefns
 .
 extend
 (
-[
                 
+[
+                    
 Whitespace
 (
-                    
+                        
 "
 "
 "
@@ -10254,7 +10259,7 @@ s
 "
 "
 "
-                    
+                        
 %
 (
 which
@@ -10262,9 +10267,9 @@ su
 .
 name
 )
-                
+                    
 )
-                
+                    
 _putInNamespaces
 (
 methoddefns
@@ -10272,14 +10277,15 @@ su
 .
 namespaces
 )
-                
+                    
 Whitespace
 .
 NL
-                
+                    
 traitsdefns
-            
+                
 ]
+            
 )
         
 def
@@ -10442,12 +10448,13 @@ hdrfile
 .
 addthings
 (
-[
             
+[
+                
 Whitespace
 .
 NL
-            
+                
 _makeForwardDeclForActor
 (
 p
@@ -10459,7 +10466,7 @@ type
 Parent
 "
 )
-            
+                
 _makeForwardDeclForActor
 (
 p
@@ -10471,8 +10478,9 @@ type
 Child
 "
 )
-        
+            
 ]
+        
 )
         
 self
@@ -12085,8 +12093,9 @@ block
 .
 addstmts
 (
-[
             
+[
+                
 StmtExpr
 (
 cls
@@ -12098,8 +12107,9 @@ writervar
 ipdltype
 )
 )
-        
+            
 ]
+        
 )
         
 block
@@ -12173,14 +12183,15 @@ block
 .
 addstmts
 (
-[
             
+[
+                
 StmtExpr
 (
-                
+                    
 ExprCall
 (
-                    
+                        
 ExprSelect
 (
 cls
@@ -12194,13 +12205,14 @@ writervar
 WriteBytes
 "
 )
-                    
+                        
 args
 =
 [
-                        
+                            
 ExprAddrOf
 (
+                                
 ExprCall
 (
 first
@@ -12217,8 +12229,9 @@ sel
 "
 )
 )
+                            
 )
-                        
+                            
 ExprLiteral
 .
 Int
@@ -12230,14 +12243,15 @@ len
 fields
 )
 )
-                    
+                        
 ]
+                    
+)
                 
 )
             
-)
-        
 ]
+        
 )
         
 block
@@ -12382,8 +12396,8 @@ ifbad
 .
 addifstmts
 (
-[
             
+[
 cls
 .
 fatalError
@@ -12393,15 +12407,14 @@ cls
 readervar
 errmsg
 )
-            
 StmtReturn
 (
 readResultError
 (
 )
 )
-        
 ]
+        
 )
         
 block
@@ -13984,17 +13997,18 @@ readcase
 .
 addstmts
 (
-[
                 
+[
+                    
 cls
 .
 _checkedRead
 (
-                    
+                        
 c
 .
 ipdltype
-                    
+                        
 c
 .
 bareType
@@ -14003,11 +14017,11 @@ fq
 =
 True
 )
-                    
+                        
 tmpvar
-                    
+                        
 origenum
-                    
+                        
 "
 variant
 "
@@ -14024,9 +14038,9 @@ uniontype
 name
 (
 )
-                
+                    
 )
-                
+                    
 StmtReturn
 (
 ExprMove
@@ -14034,8 +14048,9 @@ ExprMove
 tmpvar
 )
 )
-            
+                
 ]
+            
 )
             
 readswitch
@@ -14057,13 +14072,14 @@ DefaultLabel
             
 StmtBlock
 (
-[
                 
+[
+                    
 cls
 .
 fatalError
 (
-                    
+                        
 cls
 .
 writervar
@@ -14079,14 +14095,15 @@ uniontype
 name
 (
 )
-                
+                    
 )
-                
+                    
 StmtReturn
 (
 )
-            
+                
 ]
+            
 )
         
 )
@@ -14102,13 +14119,14 @@ DefaultLabel
             
 StmtBlock
 (
-[
                 
+[
+                    
 cls
 .
 fatalError
 (
-                    
+                        
 cls
 .
 readervar
@@ -14124,17 +14142,18 @@ uniontype
 name
 (
 )
-                
+                    
 )
-                
+                    
 StmtReturn
 (
 readResultError
 (
 )
 )
-            
+                
 ]
+            
 )
         
 )
@@ -14530,8 +14549,9 @@ forwardDeclStmts
 .
 extend
 (
-[
             
+[
+                
 _makeForwardDeclForActor
 (
 t
@@ -14541,11 +14561,11 @@ protocol
 parent
 "
 )
-            
+                
 Whitespace
 .
 NL
-            
+                
 _makeForwardDeclForActor
 (
 t
@@ -14555,12 +14575,13 @@ protocol
 child
 "
 )
-            
+                
 Whitespace
 .
 NL
-        
+            
 ]
+        
 )
     
 def
@@ -16220,8 +16241,9 @@ struct
 .
 addstmts
 (
-[
         
+[
+            
 StmtDecl
 (
 Decl
@@ -16239,7 +16261,7 @@ memberVar
 name
 )
 )
-        
+            
 for
 f
 in
@@ -16248,8 +16270,9 @@ sd
 fields_member_order
 (
 )
-    
+        
 ]
+    
 )
     
 return
@@ -17028,8 +17051,9 @@ sanity
 .
 addstmts
 (
-[
         
+[
+            
 _abortIfFalse
 (
 ExprBinary
@@ -17047,7 +17071,7 @@ type
 tag
 "
 )
-        
+            
 _abortIfFalse
 (
 ExprBinary
@@ -17065,8 +17089,9 @@ type
 tag
 "
 )
-    
+        
 ]
+    
 )
     
 cls
@@ -17131,8 +17156,9 @@ sanity2
 .
 addstmts
 (
-[
         
+[
+            
 StmtExpr
 (
 ExprCall
@@ -17140,7 +17166,7 @@ ExprCall
 assertsanityvar
 )
 )
-        
+            
 _abortIfFalse
 (
 ExprBinary
@@ -17158,8 +17184,9 @@ type
 tag
 "
 )
-    
+        
 ]
+    
 )
     
 cls
@@ -17178,15 +17205,16 @@ cls
 .
 addstmts
 (
-[
         
+[
+            
 Label
 .
 PUBLIC
-        
+            
 ConstructorDefn
 (
-            
+                
 ConstructorDecl
 (
 ud
@@ -17196,7 +17224,7 @@ force_inline
 =
 True
 )
-            
+                
 memberinits
 =
 [
@@ -17208,14 +17236,15 @@ tnonevar
 ]
 )
 ]
-        
+            
 )
-        
+            
 Whitespace
 .
 NL
-    
+        
 ]
+    
 )
     
 othervar
@@ -17278,8 +17307,9 @@ copyctor
 .
 addstmts
 (
-[
                 
+[
+                    
 StmtExpr
 (
 c
@@ -17289,7 +17319,7 @@ callCtor
 othervar
 )
 )
-                
+                    
 StmtExpr
 (
 ExprAssn
@@ -17302,8 +17332,9 @@ enumvar
 )
 )
 )
-            
+                
 ]
+            
 )
             
 cls
@@ -17363,8 +17394,9 @@ movector
 .
 addstmts
 (
-[
             
+[
+                
 StmtExpr
 (
 c
@@ -17377,7 +17409,7 @@ othervar
 )
 )
 )
-            
+                
 StmtExpr
 (
 ExprAssn
@@ -17390,8 +17422,9 @@ enumvar
 )
 )
 )
-        
+            
 ]
+        
 )
         
 cls
@@ -17494,18 +17527,20 @@ enum
                 
 StmtBlock
 (
-[
                     
+[
+                        
 StmtExpr
 (
-                        
+                            
 c
 .
 callCtor
 (
-                            
+                                
 ExprCall
 (
+                                    
 ExprSelect
 (
 othervar
@@ -17518,17 +17553,19 @@ getConstTypeName
 (
 )
 )
+                                
+)
+                            
 )
                         
 )
-                    
-)
-                    
+                        
 StmtBreak
 (
 )
-                
+                    
 ]
+                
 )
             
 )
@@ -17582,8 +17619,9 @@ copyctor
 .
 addstmts
 (
-[
             
+[
+                
 StmtExpr
 (
 callAssertSanity
@@ -17593,9 +17631,9 @@ uvar
 othervar
 )
 )
-            
+                
 copyswitch
-            
+                
 StmtExpr
 (
 ExprAssn
@@ -17604,8 +17642,9 @@ mtypevar
 othertype
 )
 )
-        
+            
 ]
+        
 )
         
 cls
@@ -17685,22 +17724,24 @@ case
 .
 addstmts
 (
-[
                 
+[
+                    
 StmtExpr
 (
-                    
+                        
 ExprAssn
 (
-                        
+                            
 c
 .
 callGetPtr
 (
 )
-                        
+                            
 ExprCall
 (
+                                
 ExprSelect
 (
 othervar
@@ -17716,13 +17757,15 @@ getPtrName
 )
 )
 )
+                            
+)
+                        
 )
                     
 )
                 
-)
-            
 ]
+            
 )
         
 else
@@ -17732,18 +17775,20 @@ case
 .
 addstmts
 (
-[
                 
+[
+                    
 StmtExpr
 (
-                    
+                        
 c
 .
 callCtor
 (
-                        
+                            
 ExprMove
 (
+                                
 ExprCall
 (
 ExprSelect
@@ -17759,12 +17804,13 @@ getTypeName
 )
 )
 )
+                            
+)
+                        
 )
                     
 )
-                
-)
-                
+                    
 StmtExpr
 (
 ExprCall
@@ -17779,8 +17825,9 @@ maybedtorvar
 )
 )
 )
-            
+                
 ]
+            
 )
         
 case
@@ -17858,8 +17905,9 @@ movector
 .
 addstmts
 (
-[
         
+[
+            
 StmtExpr
 (
 callAssertSanity
@@ -17869,7 +17917,7 @@ uvar
 othervar
 )
 )
-        
+            
 StmtDecl
 (
 Decl
@@ -17888,9 +17936,9 @@ callType
 othervar
 )
 )
-        
+            
 moveswitch
-        
+            
 StmtExpr
 (
 ExprAssn
@@ -17906,7 +17954,7 @@ mtypevar
 tnonevar
 )
 )
-        
+            
 StmtExpr
 (
 ExprAssn
@@ -17915,8 +17963,9 @@ mtypevar
 othertypevar
 )
 )
-    
+        
 ]
+    
 )
     
 cls
@@ -18288,19 +18337,21 @@ case
 .
 addstmts
 (
-[
                 
+[
+                    
 maybeDestroy
 (
 )
-                
+                    
 StmtExpr
 (
-                    
+                        
 c
 .
 callCtor
 (
+                            
 ExprCall
 (
 ExprSelect
@@ -18316,15 +18367,17 @@ getConstTypeName
 )
 )
 )
+                        
 )
-                
+                    
 )
-                
+                    
 StmtBreak
 (
 )
-            
+                
 ]
+            
 )
             
 opeqswitch
@@ -18397,8 +18450,9 @@ opeq
 .
 addstmts
 (
-[
             
+[
+                
 StmtExpr
 (
 callAssertSanity
@@ -18408,7 +18462,7 @@ uvar
 rhsvar
 )
 )
-            
+                
 StmtDecl
 (
 Decl
@@ -18427,9 +18481,9 @@ callType
 rhsvar
 )
 )
-            
+                
 opeqswitch
-            
+                
 StmtExpr
 (
 ExprAssn
@@ -18438,7 +18492,7 @@ mtypevar
 rhstypevar
 )
 )
-            
+                
 StmtReturn
 (
 ExprDeref
@@ -18448,8 +18502,9 @@ ExprVar
 THIS
 )
 )
-        
+            
 ]
+        
 )
         
 cls
@@ -18535,24 +18590,25 @@ case
 .
 addstmts
 (
-[
                 
+[
+                    
 maybeDestroy
 (
 )
-                
+                    
 StmtExpr
 (
-                    
+                        
 ExprAssn
 (
-                        
+                            
 c
 .
 callGetPtr
 (
 )
-                        
+                            
 ExprCall
 (
 ExprSelect
@@ -18571,12 +18627,13 @@ getPtrName
 )
 )
 )
+                        
+)
                     
 )
                 
-)
-            
 ]
+            
 )
         
 else
@@ -18586,20 +18643,21 @@ case
 .
 addstmts
 (
-[
                 
+[
+                    
 maybeDestroy
 (
 )
-                
+                    
 StmtExpr
 (
-                    
+                        
 c
 .
 callCtor
 (
-                        
+                            
 ExprMove
 (
 ExprCall
@@ -18618,11 +18676,11 @@ getTypeName
 )
 )
 )
+                        
+)
                     
 )
-                
-)
-                
+                    
 StmtExpr
 (
 ExprCall
@@ -18637,8 +18695,9 @@ maybedtorvar
 )
 )
 )
-            
+                
 ]
+            
 )
         
 case
@@ -18722,8 +18781,9 @@ opeq
 .
 addstmts
 (
-[
         
+[
+            
 StmtExpr
 (
 callAssertSanity
@@ -18733,7 +18793,7 @@ uvar
 rhsvar
 )
 )
-        
+            
 StmtDecl
 (
 Decl
@@ -18752,9 +18812,9 @@ callType
 rhsvar
 )
 )
-        
+            
 opeqswitch
-        
+            
 StmtExpr
 (
 ExprAssn
@@ -18770,7 +18830,7 @@ mtypevar
 tnonevar
 )
 )
-        
+            
 StmtExpr
 (
 ExprAssn
@@ -18779,7 +18839,7 @@ mtypevar
 rhstypevar
 )
 )
-        
+            
 StmtReturn
 (
 ExprDeref
@@ -18789,8 +18849,9 @@ ExprVar
 THIS
 )
 )
-    
+        
 ]
+    
 )
     
 cls
@@ -19186,8 +19247,9 @@ getvalue
 .
 addstmts
 (
-[
             
+[
+                
 StmtExpr
 (
 callAssertSanity
@@ -19201,7 +19263,7 @@ enumvar
 )
 )
 )
-            
+                
 StmtReturn
 (
 ExprDeref
@@ -19213,8 +19275,9 @@ callGetPtr
 )
 )
 )
-        
+            
 ]
+        
 )
         
 getconstvalue
@@ -19253,8 +19316,9 @@ getconstvalue
 .
 addstmts
 (
-[
             
+[
+                
 StmtExpr
 (
 callAssertSanity
@@ -19268,7 +19332,7 @@ enumvar
 )
 )
 )
-            
+                
 StmtReturn
 (
 c
@@ -19277,8 +19341,9 @@ getConstValue
 (
 )
 )
-        
+            
 ]
+        
 )
         
 cls
@@ -19381,12 +19446,13 @@ cls
 .
 addstmts
 (
-[
         
+[
+            
 Label
 .
 PRIVATE
-        
+            
 StmtDecl
 (
 Decl
@@ -19396,7 +19462,7 @@ valuetype
 "
 )
 )
-        
+            
 StmtDecl
 (
 Decl
@@ -19407,8 +19473,9 @@ mtypevar
 name
 )
 )
-    
+        
 ]
+    
 )
     
 return
@@ -19784,8 +19851,9 @@ typedefSet
 =
 set
 (
-[
             
+[
+                
 Typedef
 (
 Type
@@ -19804,7 +19872,7 @@ ActorId
 ActorId
 "
 )
-            
+                
 Typedef
 (
 Type
@@ -19820,7 +19888,7 @@ ProcessId
 ProcessId
 "
 )
-            
+                
 Typedef
 (
 Type
@@ -19839,7 +19907,7 @@ ProtocolId
 ProtocolId
 "
 )
-            
+                
 Typedef
 (
 Type
@@ -19863,10 +19931,10 @@ FooSide
 "
 ]
 )
-            
+                
 Typedef
 (
-                
+                    
 Type
 (
 "
@@ -19879,19 +19947,19 @@ ipc
 ManagedEndpoint
 "
 )
-                
+                    
 "
 ManagedEndpoint
 "
-                
+                    
 [
 "
 FooSide
 "
 ]
-            
+                
 )
-            
+                
 Typedef
 (
 Type
@@ -19912,9 +19980,10 @@ T
 "
 ]
 )
-            
+                
 Typedef
 (
+                    
 Type
 (
 "
@@ -19930,9 +19999,11 @@ ResponseRejectReason
 "
 ResponseRejectReason
 "
+                
 )
-        
+            
 ]
+        
 )
     
 def
@@ -20482,27 +20553,23 @@ hdrns
 .
 addstmts
 (
+            
 [
-            
 Whitespace
 .
 NL
-            
 Whitespace
 .
 NL
-            
 clsdecl
-            
 Whitespace
 .
 NL
-            
 Whitespace
 .
 NL
-        
 ]
+        
 )
         
 actortype
@@ -20795,27 +20862,23 @@ cppns
 .
 addstmts
 (
+            
 [
-            
 Whitespace
 .
 NL
-            
 Whitespace
 .
 NL
-            
 clsdefn
-            
 Whitespace
 .
 NL
-            
 Whitespace
 .
 NL
-        
 ]
+        
 )
         
 cf
@@ -20900,19 +20963,20 @@ usingDecls
 .
 extend
 (
-[
                 
+[
+                    
 _makeForwardDeclForQClass
 (
-                    
+                        
 spec
 .
 baseid
-                    
+                        
 spec
 .
 quals
-                    
+                        
 cls
 =
 using
@@ -20920,7 +20984,7 @@ using
 isClass
 (
 )
-                    
+                        
 struct
 =
 using
@@ -20928,14 +20992,15 @@ using
 isStruct
 (
 )
-                
+                    
 )
-                
+                    
 Whitespace
 .
 NL
-            
+                
 ]
+            
 )
             
 self
@@ -21082,8 +21147,9 @@ actorForwardDecls
 .
 extend
 (
-[
                 
+[
+                    
 _makeForwardDeclForActor
 (
 ip
@@ -21095,7 +21161,7 @@ self
 .
 side
 )
-                
+                    
 _makeForwardDeclForActor
 (
 ip
@@ -21110,12 +21176,13 @@ self
 side
 )
 )
-                
+                    
 Whitespace
 .
 NL
-            
+                
 ]
+            
 )
             
 self
@@ -21563,8 +21630,8 @@ hdrfile
 .
 addthings
 (
-[
                 
+[
 _makeForwardDeclForQClass
 (
 "
@@ -21573,12 +21640,11 @@ nsIFile
 [
 ]
 )
-                
 Whitespace
 .
 NL
-            
 ]
+            
 )
         
 self
@@ -21678,8 +21744,8 @@ actorForwardDecls
 .
 extend
 (
-[
                 
+[
 _makeForwardDeclForActor
 (
 friend
@@ -21687,12 +21753,11 @@ self
 .
 prettyside
 )
-                
 Whitespace
 .
 NL
-            
 ]
+            
 )
             
 self
@@ -22542,17 +22607,19 @@ cls
 .
 addstmts
 (
+                
 [
-                
+                    
 processingerror
-                
+                    
 shouldcontinue
-                
+                    
 Whitespace
 .
 NL
-            
+                
 ]
+            
 )
         
 self
@@ -23395,19 +23462,21 @@ cls
 .
 addstmts
 (
+                
 [
-                
+                    
 otherpidmeth
-                
+                    
 otherchildidmeth
-                
+                    
 otherendpointprocinfometh
-                
+                    
 Whitespace
 .
 NL
-            
+                
 ]
+            
 )
         
 if
@@ -24255,21 +24324,23 @@ MANAGED_ENDPOINT_BOUND_MESSAGE_TYPE
                 
 StmtBlock
 (
-[
                     
+[
+                        
 StmtCode
 (
 clearawaitingmanagedendpointbind
 )
-                    
+                        
 StmtReturn
 (
 _Result
 .
 Processed
 )
-                
+                    
 ]
+                
 )
             
 )
@@ -24290,41 +24361,43 @@ MANAGED_ENDPOINT_DROPPED_MESSAGE_TYPE
                 
 StmtBlock
 (
-[
                     
+[
+                        
 StmtCode
 (
 clearawaitingmanagedendpointbind
 )
-                    
+                        
 *
 self
 .
 destroyActor
 (
-                        
+                            
 None
-                        
+                            
 ExprVar
 .
 THIS
-                        
+                            
 why
 =
 _DestroyReason
 .
 ManagedEndpointDropped
-                    
+                        
 )
-                    
+                        
 StmtReturn
 (
 _Result
 .
 Processed
 )
-                
+                    
 ]
+                
 )
             
 )
@@ -24790,34 +24863,36 @@ cls
 .
 addstmts
 (
-[
             
+[
+                
 makeHandlerMethod
 (
-                
+                    
 "
 OnMessageReceived
 "
-                
+                    
 self
 .
 asyncSwitch
-                
+                    
 hasReply
 =
 False
-                
+                    
 dispatches
 =
 dispatches
-            
+                
 )
-            
+                
 Whitespace
 .
 NL
-        
+            
 ]
+        
 )
         
 self
@@ -24826,34 +24901,36 @@ cls
 .
 addstmts
 (
-[
             
+[
+                
 makeHandlerMethod
 (
-                
+                    
 "
 OnMessageReceived
 "
-                
+                    
 self
 .
 syncSwitch
-                
+                    
 hasReply
 =
 True
-                
+                    
 dispatches
 =
 dispatches
-            
+                
 )
-            
+                
 Whitespace
 .
 NL
-        
+            
 ]
+        
 )
         
 self
@@ -24877,14 +24954,15 @@ cls
 .
 addstmts
 (
-[
                 
+[
+                    
 StmtDecl
 (
-                    
+                        
 Decl
 (
-                        
+                            
 Type
 (
 "
@@ -24897,20 +24975,21 @@ ipc
 IPDLAsyncReturnsCallbacks
 "
 )
-                        
+                            
 "
 mAsyncCallbacks
 "
+                        
+)
                     
 )
-                
-)
-                
+                    
 Whitespace
 .
 NL
-            
+                
 ]
+            
 )
         
 if
@@ -24928,11 +25007,12 @@ cls
 .
 addstmts
 (
-[
                 
+[
+                    
 StmtDecl
 (
-                    
+                        
 Decl
 (
 Type
@@ -24942,20 +25022,21 @@ BOOL
 mAwaitingManagedEndpointBind
 "
 )
-                    
+                        
 init
 =
 ExprLiteral
 .
 FALSE
-                
+                    
 )
-                
+                    
 Whitespace
 .
 NL
-            
+                
 ]
+            
 )
         
 for
@@ -24972,14 +25053,15 @@ cls
 .
 addstmts
 (
-[
                 
+[
+                    
 StmtDecl
 (
-                    
+                        
 Decl
 (
-                        
+                            
 p
 .
 managedVarType
@@ -24989,7 +25071,7 @@ self
 .
 side
 )
-                        
+                            
 p
 .
 managedVar
@@ -25001,12 +25083,13 @@ side
 )
 .
 name
+                        
+)
                     
 )
                 
-)
-            
 ]
+            
 )
     
 def
@@ -27354,8 +27437,9 @@ helper
 .
 addstmts
 (
-[
             
+[
+                
 self
 .
 callAllocActor
@@ -27372,13 +27456,13 @@ self
 .
 side
 )
-            
+                
 StmtReturn
 (
-                
+                    
 ExprCall
 (
-                    
+                        
 ExprVar
 (
 helperdecl
@@ -27397,12 +27481,13 @@ paramsems
 move
 "
 )
+                    
+)
                 
 )
             
-)
-        
 ]
+        
 )
         
 return
@@ -29750,36 +29835,37 @@ reads
 .
 extend
 (
-[
             
+[
+                
 _ParamTraits
 .
 checkedRead
 (
-                
+                    
 p
 .
 ipdltype
-                
+                    
 maybeTainted
 (
 p
 side
 )
-                
+                    
 p
 .
 var
 (
 )
-                
+                    
 ExprAddrOf
 (
 readervar
 )
-                
+                    
 errfn
-                
+                    
 "
 '
 %
@@ -29794,19 +29880,19 @@ ipdltype
 name
 (
 )
-                
+                    
 sentinelKey
 =
 p
 .
 name
-                
+                    
 errfnSentinel
 =
 errfnSent
-            
+                
 )
-            
+                
 for
 p
 in
@@ -29817,8 +29903,9 @@ params
 start
 :
 ]
-        
+            
 ]
+        
 )
         
 stmts
@@ -30931,73 +31018,76 @@ FALSE
                     
 StmtBlock
 (
-[
                         
+[
+                            
 StmtExpr
 (
-                            
+                                
 ExprCall
 (
-                                
+                                    
 ExprVar
 (
 "
 AUTO_PROFILER_MARKER
 "
 )
-                                
-[
                                     
+[
+                                        
 ExprLiteral
 .
 String
 (
-                                        
+                                            
 self
 .
 protocol
 .
 name
+                                            
 +
 "
 :
 :
 "
+                                            
 +
 md
 .
 prettyMsgName
 (
 )
-                                    
+                                        
 )
-                                    
+                                        
 ExprVar
 (
 "
 IPC
 "
 )
-                                
+                                    
 ]
+                                
+)
                             
 )
-                        
-)
-                        
+                            
 StmtExpr
 (
-                            
+                                
 ExprAssn
 (
-                                
+                                    
 sendok
-                                
+                                    
 ExprCall
 (
-                                    
+                                        
 send
-                                    
+                                        
 args
 =
 [
@@ -31010,14 +31100,15 @@ ExprAddrOf
 replyexpr
 )
 ]
+                                    
+)
                                 
 )
                             
 )
                         
-)
-                    
 ]
+                    
 )
                 
 ]
@@ -31537,8 +31628,9 @@ failif
 .
 addifstmts
 (
-[
             
+[
+                
 _protocolErrorBreakpoint
 (
 "
@@ -31549,9 +31641,10 @@ code
 !
 "
 )
-            
+                
 Whitespace
 (
+                    
 "
 /
 /
@@ -31571,16 +31664,18 @@ n
 indent
 =
 True
+                
 )
-            
+                
 StmtReturn
 (
 _Result
 .
 ProcessingError
 )
-        
+            
 ]
+        
 )
         
 return

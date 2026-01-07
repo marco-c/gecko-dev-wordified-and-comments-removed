@@ -145,6 +145,7 @@ legacy_enum
 .
 strip
 (
+    
 "
 \
 n
@@ -204,6 +205,7 @@ string
 .
 strip
 (
+    
 "
 \
 n

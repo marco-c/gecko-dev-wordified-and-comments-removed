@@ -176,6 +176,8 @@ mach
 command
 without
 a
+"
+"
 category
 :
 %

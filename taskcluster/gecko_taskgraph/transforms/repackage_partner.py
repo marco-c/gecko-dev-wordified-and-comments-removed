@@ -181,8 +181,9 @@ packaging_description_schema
 =
 Schema
 (
-{
     
+{
+        
 Optional
 (
 "
@@ -191,7 +192,7 @@ label
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -202,7 +203,7 @@ routes
 [
 str
 ]
-    
+        
 Optional
 (
 "
@@ -216,7 +217,7 @@ task_description_schema
 extra
 "
 ]
-    
+        
 Optional
 (
 "
@@ -234,7 +235,7 @@ shipping
 product
 "
 ]
-    
+        
 Optional
 (
 "
@@ -252,7 +253,7 @@ shipping
 phase
 "
 ]
-    
+        
 Required
 (
 "
@@ -264,7 +265,7 @@ formats
 :
 optionally_keyed_by
 (
-        
+            
 "
 build
 -
@@ -278,9 +279,9 @@ type
 [
 str
 ]
-    
+        
 )
-    
+        
 Required
 (
 "
@@ -289,7 +290,7 @@ mozharness
 )
 :
 {
-        
+            
 Required
 (
 "
@@ -308,7 +309,7 @@ platform
 str
 ]
 )
-        
+            
 Optional
 (
 "
@@ -321,7 +322,7 @@ paths
 [
 str
 ]
-        
+            
 Optional
 (
 "
@@ -332,9 +333,9 @@ checkout
 )
 :
 bool
-    
+        
 }
-    
+        
 Optional
 (
 "
@@ -348,7 +349,7 @@ task_description_schema
 priority
 "
 ]
-    
+        
 Optional
 (
 "
@@ -366,7 +367,7 @@ task
 from
 "
 ]
-    
+        
 Optional
 (
 "
@@ -380,7 +381,7 @@ task_description_schema
 attributes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -394,7 +395,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -420,6 +421,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms
@@ -1101,8 +1103,9 @@ run
 .
 update
 (
-{
             
+{
+                
 "
 using
 "
@@ -1110,7 +1113,7 @@ using
 "
 mozharness
 "
-            
+                
 "
 script
 "
@@ -1124,7 +1127,7 @@ repackage
 .
 py
 "
-            
+                
 "
 job
 -
@@ -1142,7 +1145,7 @@ repackage
 .
 sh
 "
-            
+                
 "
 actions
 "
@@ -1155,7 +1158,7 @@ setup
 repackage
 "
 ]
-            
+                
 "
 extra
 -
@@ -1163,16 +1166,17 @@ config
 "
 :
 {
-                
+                    
 "
 repackage_config
 "
 :
 repackage_config
+                
+}
             
 }
         
-}
 )
         
 worker
@@ -1565,27 +1569,29 @@ toolchain
 .
 extend
 (
-[
                 
+[
+                    
 "
 linux64
 -
 libdmg
 "
-                
+                    
 "
 linux64
 -
 hfsplus
 "
-                
+                    
 "
 linux64
 -
 node
 "
-            
+                
 ]
+            
 )
         
 yield
@@ -1745,10 +1751,11 @@ download_config
 .
 extend
 (
-[
                 
-{
+[
                     
+{
+                        
 "
 artifact
 "
@@ -1764,15 +1771,15 @@ stub
 .
 zip
 "
-                    
+                        
 "
 extract
 "
 :
 False
-                
+                    
 }
-                
+                    
 f
 "
 {
@@ -1784,8 +1791,9 @@ stub
 .
 exe
 "
-            
+                
 ]
+            
 )
         
 return
@@ -1972,8 +1980,9 @@ output_files
 .
 append
 (
-{
             
+{
+                
 "
 type
 "
@@ -1981,7 +1990,7 @@ type
 "
 file
 "
-            
+                
 "
 path
 "
@@ -1999,7 +2008,7 @@ outputs
 .
 format
 (
-                
+                    
 local_prefix
 partner_output_path
 config
@@ -2008,9 +2017,9 @@ config
 output
 "
 ]
-            
+                
 )
-            
+                
 "
 name
 "
@@ -2027,7 +2036,7 @@ name
 .
 format
 (
-                
+                    
 artifact_prefix
 partner_output_path
 config
@@ -2036,10 +2045,11 @@ config
 output
 "
 ]
-            
+                
 )
-        
+            
 }
+        
 )
     
 return

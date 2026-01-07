@@ -2954,8 +2954,9 @@ mainthread_counter
 .
 append
 (
-[
                             
+[
+                                
 int
 (
 values
@@ -2966,15 +2967,16 @@ i
 ]
 ]
 )
-                            
+                                
 values
 [
 "
 filename
 "
 ]
-                        
+                            
 ]
+                        
 )
         
 if

@@ -4478,6 +4478,7 @@ r
 "
 "
 "
+                
 %
 mozpath
 .
@@ -8991,8 +8992,8 @@ key
 with
 MockedOpen
 (
+            
 {
-            
 "
 default
 -
@@ -9009,7 +9010,6 @@ key
 \
 n
 "
-            
 "
 key
 "
@@ -9024,8 +9024,8 @@ key
 \
 n
 "
-        
 }
+        
 )
 :
             

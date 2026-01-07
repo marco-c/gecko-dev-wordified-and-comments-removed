@@ -2441,8 +2441,9 @@ suite
 assert
 all
 (
-[
             
+[
+                
 re
 .
 search
@@ -2470,13 +2471,14 @@ toml
 "
 m
 )
-            
+                
 for
 m
 in
 items
-        
+            
 ]
+        
 )
     
 if

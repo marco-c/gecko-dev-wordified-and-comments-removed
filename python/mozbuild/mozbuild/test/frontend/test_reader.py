@@ -2243,8 +2243,8 @@ reader
 .
 _find_relevant_mozbuilds
 (
-[
             
+[
 "
 d1
 /
@@ -2260,8 +2260,8 @@ child
 /
 file
 "
-        
 ]
+        
 )
         
 self
@@ -2335,8 +2335,8 @@ reader
 .
 _find_relevant_mozbuilds
 (
-[
             
+[
 "
 d1
 /
@@ -2354,8 +2354,8 @@ dir3
 /
 file
 "
-        
 ]
+        
 )
         
 self
@@ -2427,8 +2427,8 @@ reader
 .
 _find_relevant_mozbuilds
 (
-[
             
+[
 "
 d1
 /
@@ -2440,7 +2440,6 @@ a
 /
 file
 "
-            
 "
 d1
 /
@@ -2452,8 +2451,8 @@ b
 /
 file
 "
-        
 ]
+        
 )
         
 self
@@ -2700,8 +2699,8 @@ reader
 .
 read_relevant_mozbuilds
 (
-[
             
+[
 "
 d1
 /
@@ -2713,7 +2712,6 @@ a
 /
 file
 "
-            
 "
 d1
 /
@@ -2725,14 +2723,13 @@ b
 /
 file
 "
-            
 "
 d2
 /
 file
 "
-        
 ]
+        
 )
         
 self
@@ -3029,8 +3026,9 @@ reader
 .
 files_info
 (
-[
             
+[
+                
 "
 bug_component
 /
@@ -3038,7 +3036,7 @@ static
 /
 foo
 "
-            
+                
 "
 bug_component
 /
@@ -3046,7 +3044,7 @@ static
 /
 bar
 "
-            
+                
 "
 bug_component
 /
@@ -3056,8 +3054,9 @@ foo
 /
 baz
 "
-        
+            
 ]
+        
 )
         
 self
@@ -3299,8 +3298,9 @@ reader
 .
 files_info
 (
-[
             
+[
+                
 "
 bug_component
 /
@@ -3312,7 +3312,7 @@ foo
 .
 jsm
 "
-            
+                
 "
 bug_component
 /
@@ -3324,7 +3324,7 @@ bar
 .
 cpp
 "
-            
+                
 "
 bug_component
 /
@@ -3336,8 +3336,9 @@ baz
 .
 misc
 "
-        
+            
 ]
+        
 )
         
 self
@@ -3498,8 +3499,9 @@ reader
 .
 files_info
 (
-[
             
+[
+                
 "
 bug_component
 /
@@ -3507,7 +3509,7 @@ final
 /
 foo
 "
-            
+                
 "
 bug_component
 /
@@ -3517,7 +3519,7 @@ Makefile
 .
 in
 "
-            
+                
 "
 bug_component
 /
@@ -3529,7 +3531,7 @@ Makefile
 .
 in
 "
-            
+                
 "
 bug_component
 /
@@ -3539,8 +3541,9 @@ subcomponent
 /
 bar
 "
-        
+            
 ]
+        
 )
         
 self
@@ -3755,8 +3758,9 @@ reader
 .
 files_info
 (
-[
             
+[
+                
 "
 win
 .
@@ -3764,23 +3768,23 @@ and
 .
 osx
 "
-            
+                
 "
 somefile
 "
-            
+                
 "
 foo
 .
 win
 "
-            
+                
 "
 foo
 .
 osx
 "
-            
+                
 "
 subd
 /
@@ -3788,7 +3792,7 @@ aa
 .
 py
 "
-            
+                
 "
 subd
 /
@@ -3796,7 +3800,7 @@ yaml
 .
 py
 "
-            
+                
 "
 subd
 /
@@ -3804,8 +3808,9 @@ win
 .
 js
 "
-        
+            
 ]
+        
 )
         
 self

@@ -170,8 +170,9 @@ params
 =
 FakeParameters
 (
-{
         
+{
+            
 "
 base_repository
 "
@@ -187,7 +188,7 @@ example
 .
 com
 "
-        
+            
 "
 head_repository
 "
@@ -203,7 +204,7 @@ example
 .
 com
 "
-        
+            
 "
 head_rev
 "
@@ -211,13 +212,13 @@ head_rev
 "
 abcdef
 "
-        
+            
 "
 level
 "
 :
 1
-        
+            
 "
 project
 "
@@ -225,8 +226,9 @@ project
 "
 example
 "
-    
+        
 }
+    
 )
     
 return

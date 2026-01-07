@@ -93,8 +93,9 @@ beetmover_description_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -103,7 +104,7 @@ label
 )
 :
 str
-    
+        
 Required
 (
 "
@@ -112,7 +113,7 @@ description
 )
 :
 str
-    
+        
 Required
 (
 "
@@ -126,7 +127,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Required
 (
 "
@@ -144,7 +145,7 @@ if
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -158,7 +159,7 @@ task_description_schema
 treeherder
 "
 ]
-    
+        
 Required
 (
 "
@@ -180,7 +181,7 @@ on
 projects
 "
 ]
-    
+        
 Optional
 (
 "
@@ -194,7 +195,7 @@ task_description_schema
 attributes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -212,7 +213,7 @@ task
 from
 "
 ]
-    
+        
 Required
 (
 "
@@ -230,7 +231,7 @@ worker
 type
 "
 ]
-    
+        
 Required
 (
 "
@@ -247,7 +248,7 @@ project
 str
 ]
 )
-    
+        
 Optional
 (
 "
@@ -273,6 +274,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms

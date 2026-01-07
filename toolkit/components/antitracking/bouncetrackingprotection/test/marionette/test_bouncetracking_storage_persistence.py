@@ -34,8 +34,9 @@ marionette
 .
 enforce_gecko_prefs
 (
-{
             
+{
+                
 "
 privacy
 .
@@ -45,7 +46,7 @@ enabled
 "
 :
 True
-            
+                
 "
 privacy
 .
@@ -55,8 +56,9 @@ enableTestMode
 "
 :
 True
-        
+            
 }
+        
 )
         
 self

@@ -255,6 +255,8 @@ const
 nsCSSProps
 :
 :
+"
+"
 kIDLNameTable
 [
 eCSSProperty_COUNT
@@ -408,6 +410,9 @@ int32_t
 nsCSSProps
 :
 :
+"
+        
+"
 kIDLNameSortPositionTable
 [
 eCSSProperty_COUNT
@@ -469,6 +474,8 @@ nsCSSProps
 :
 :
 PropertyPref
+"
+"
 nsCSSProps
 :
 :

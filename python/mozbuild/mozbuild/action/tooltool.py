@@ -595,6 +595,8 @@ args
 :
 %
 s
+"
+"
 kwargs
 :
 %
@@ -1620,18 +1622,19 @@ n
 .
 join
 (
-[
         
+[
+            
 normalize_header_attr
 (
 header
 )
-        
+            
 for
 header
 in
 [
-            
+                
 "
 hawk
 .
@@ -1647,39 +1650,40 @@ HAWK_VER
 "
 +
 mac_type
-            
+                
 timestamp
-            
+                
 nonce
-            
+                
 method
 or
 "
 "
-            
+                
 name
 or
 "
 "
-            
+                
 host
-            
+                
 port
-            
+                
 content_hash
 or
 "
 "
-            
+                
+"
+"
+                
 "
 "
             
-"
-"
+]
         
 ]
     
-]
 )
 def
 calculate_mac
@@ -5116,8 +5120,6 @@ try
 :
             
 with
-(
-                
 request
 (
 url
@@ -5125,22 +5127,21 @@ auth_file
 )
 as
 f
-                
 builtins
 .
 open
 (
+                
 temp_path
 mode
 =
 "
 wb
 "
+            
 )
 as
 out
-            
-)
 :
                 
 k
@@ -5801,15 +5802,13 @@ source
 .
 append
 (
+                        
 (
-                        
 member
-                        
 targetpath
-                        
 numeric_owner
-                    
 )
+                    
 )
             
 return
@@ -10280,6 +10279,9 @@ file
 after
 fetch
 .
+"
+        
+"
 This
 is
 helpful
@@ -10431,6 +10433,9 @@ tooltool
 /
 ;
 default
+"
+        
+"
 is
 appropriate
 for
@@ -10545,6 +10550,8 @@ upload
 or
 fetch
 ;
+"
+"
 example
 :
 -

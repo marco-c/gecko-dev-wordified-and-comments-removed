@@ -95,8 +95,9 @@ toolchain_run_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -109,7 +110,7 @@ toolchain
 -
 script
 "
-    
+        
 Required
 (
 "
@@ -118,7 +119,7 @@ script
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -129,7 +130,7 @@ arguments
 [
 str
 ]
-    
+        
 Required
 (
 "
@@ -141,19 +142,19 @@ downloads
 :
 Any
 (
-        
+            
 False
-        
+            
 "
 public
 "
-        
+            
 "
 internal
 "
-    
+        
 )
-    
+        
 Required
 (
 "
@@ -168,7 +169,7 @@ Any
 str
 None
 )
-    
+        
 Optional
 (
 "
@@ -181,7 +182,7 @@ prefix
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -192,7 +193,7 @@ resources
 [
 str
 ]
-    
+        
 Required
 (
 "
@@ -203,16 +204,16 @@ artifact
 )
 :
 str
-    
+        
 Optional
 (
-        
+            
 "
 toolchain
 -
 alias
 "
-        
+            
 description
 =
 "
@@ -231,7 +232,7 @@ job
 name
 in
 "
-        
+            
 "
 fetch
 stanzas
@@ -239,7 +240,7 @@ for
 jobs
 .
 "
-    
+        
 )
 :
 optionally_keyed_by
@@ -256,16 +257,16 @@ str
 ]
 )
 )
-    
+        
 Optional
 (
-        
+            
 "
 toolchain
 -
 env
 "
-        
+            
 description
 =
 "
@@ -282,7 +283,7 @@ using
 this
 toolchain
 "
-    
+        
 )
 :
 {
@@ -290,16 +291,16 @@ str
 :
 object
 }
-    
+        
 Optional
 (
-        
+            
 "
 toolchain
 -
 extract
 "
-        
+            
 description
 =
 "
@@ -314,7 +315,7 @@ it
 is
 fetched
 "
-        
+            
 +
 "
 (
@@ -323,11 +324,11 @@ default
 True
 )
 "
-    
+        
 )
 :
 bool
-    
+        
 Optional
 (
 "
@@ -336,6 +337,7 @@ workdir
 )
 :
 str
+    
 }
 )
 def
@@ -879,8 +881,9 @@ env
 .
 update
 (
-{
         
+{
+            
 "
 MOZ_BUILD_DATE
 "
@@ -893,7 +896,7 @@ params
 moz_build_date
 "
 ]
-        
+            
 "
 MOZ_SCM_LEVEL
 "
@@ -906,7 +909,7 @@ params
 level
 "
 ]
-        
+            
 "
 TOOLCHAIN_ARTIFACT
 "
@@ -921,8 +924,9 @@ toolchain
 artifact
 "
 )
-    
+        
 }
+    
 )
     
 if

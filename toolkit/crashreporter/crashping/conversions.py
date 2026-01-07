@@ -281,18 +281,20 @@ args
 +
 =
 f
-'
+"
+\
 "
 {
 glean
 [
-"
+'
 delimiter
-"
+'
 ]
 }
+\
 "
-'
+"
         
 output
 .

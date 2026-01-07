@@ -314,10 +314,10 @@ path
 .
 exists
 (
-header_path
-)
-(
             
+header_path
+        
+)
 f
 "
 {
@@ -334,8 +334,6 @@ in
 mfbt
 /
 "
-        
-)
         
 with
 open
@@ -419,9 +417,11 @@ header_content
 )
                 
 assert
-symbol_found
 (
                     
+symbol_found
+                
+)
 f
 "
 {
@@ -444,8 +444,6 @@ be
 found
 there
 "
-                
-)
 def
 test_lint_mfbt_includes
 (

@@ -4343,16 +4343,17 @@ common_attrs
 =
 find_common_attrs
 (
+                    
 [
-                    
+                        
 attrs
-                    
+                        
 for
 args
 attrs
 in
 configs
-                    
+                        
 if
 all
 (
@@ -4376,8 +4377,9 @@ v
 in
 cond
 )
-                
+                    
 ]
+                
 )
                 
 if
@@ -5025,8 +5027,9 @@ input_variables
 .
 update
 (
-{
         
+{
+            
 f
 "
 {
@@ -5035,20 +5038,21 @@ moz_build_flag
 "
 :
 True
-        
+            
 "
 concurrent_links
 "
 :
 1
-        
+            
 "
 action_pool_depth
 "
 :
 1
-    
+        
 }
+    
 )
     
 if
@@ -5069,8 +5073,9 @@ input_variables
 .
 update
 (
-{
             
+{
+                
 "
 visual_studio_path
 "
@@ -5078,13 +5083,13 @@ visual_studio_path
 "
 /
 "
-            
+                
 "
 visual_studio_version
 "
 :
 2015
-            
+                
 "
 wdk_path
 "
@@ -5092,7 +5097,7 @@ wdk_path
 "
 /
 "
-            
+                
 "
 windows_sdk_version
 "
@@ -5102,8 +5107,9 @@ n
 /
 a
 "
-        
+            
 }
+        
 )
     
 if
@@ -5124,8 +5130,9 @@ input_variables
 .
 update
 (
-{
             
+{
+                
 "
 mac_sdk_path
 "
@@ -5133,27 +5140,28 @@ mac_sdk_path
 "
 /
 "
-        
+            
 }
+        
 )
     
 gn_args
 =
 f
-"
+'
 -
 -
 args
 =
 {
-'
-'
+"
+"
 .
 join
 (
 [
 f
-'
+"
 {
 k
 }
@@ -5164,7 +5172,7 @@ str_for_arg
 v
 )
 }
-'
+"
 for
 k
 v
@@ -5177,7 +5185,7 @@ items
 ]
 )
 }
-"
+'
     
 with
 tempfile

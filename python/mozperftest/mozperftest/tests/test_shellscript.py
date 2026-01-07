@@ -361,12 +361,11 @@ on_try_setting
 :
     
 with
-(
-        
 mock
 .
 patch
 (
+        
 "
 mozperftest
 .
@@ -379,21 +378,18 @@ ON_TRY
 new
 =
 on_try_setting
+    
 )
-        
 temp_dir
 (
 )
 as
 tmp_output_dir
-        
 temp_dir
 (
 )
 as
 tmp_testing_dir
-    
-)
 :
         
 mach_cmd

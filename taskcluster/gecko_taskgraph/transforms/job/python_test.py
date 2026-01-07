@@ -45,8 +45,9 @@ python_test_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -59,7 +60,7 @@ python
 -
 test
 "
-    
+        
 Required
 (
 "
@@ -68,7 +69,7 @@ subsuite
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -77,7 +78,7 @@ workdir
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -94,7 +95,7 @@ bool
 str
 ]
 )
-    
+        
 Optional
 (
 "
@@ -109,6 +110,7 @@ str
 :
 str
 }
+    
 }
 )
 defaults

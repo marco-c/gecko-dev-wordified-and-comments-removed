@@ -1104,8 +1104,9 @@ run
 .
 update
 (
-{
             
+{
+                
 "
 using
 "
@@ -1113,7 +1114,7 @@ using
 "
 mach
 "
-            
+                
 "
 mach
 "
@@ -1125,8 +1126,9 @@ join
 (
 command
 )
-        
+            
 }
+        
 )
         
 if

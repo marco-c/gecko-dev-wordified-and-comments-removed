@@ -125,6 +125,7 @@ univ
 .
 ObjectIdentifier
 (
+            
 "
 1
 .
@@ -138,17 +139,14 @@ ObjectIdentifier
 .
 1
 "
+        
 )
-(
-            
 "
 should
 be
 an
 ECPublicKey
 "
-        
-)
         
 assert
 ident
@@ -161,6 +159,7 @@ univ
 .
 ObjectIdentifier
 (
+            
 "
 1
 .
@@ -176,9 +175,8 @@ ObjectIdentifier
 .
 7
 "
+        
 )
-(
-            
 "
 should
 be
@@ -186,8 +184,6 @@ a
 EcdsaP256
 key
 "
-        
-)
         
 bits
 =

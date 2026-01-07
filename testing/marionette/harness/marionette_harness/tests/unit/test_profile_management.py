@@ -1233,11 +1233,11 @@ switch_profile
 \
 u0024
 \
-u00a2
+u00A2
 \
-u20ac
+u20AC
 \
-u1f36A
+u1F36A
 "
 )
         
@@ -1269,11 +1269,11 @@ assertIn
 \
 u0024
 \
-u00a2
+u00A2
 \
-u20ac
+u20AC
 \
-u1f36A
+u1F36A
 "
 self
 .

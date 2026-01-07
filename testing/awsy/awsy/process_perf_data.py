@@ -1140,8 +1140,8 @@ values
 +
 sum
 (
-[
                 
+[
 v
 for
 k
@@ -1159,8 +1159,8 @@ Main
 not
 in
 k
-            
 ]
+            
 )
         
 subtest

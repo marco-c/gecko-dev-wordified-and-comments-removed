@@ -606,18 +606,16 @@ else
         
 run_cmd_checked
 (
-[
             
+[
 "
 .
 /
 gradlew
 "
-            
 "
 publishToMavenLocal
 "
-            
 f
 "
 -
@@ -631,8 +629,8 @@ time_ns
 )
 }
 "
-        
 ]
+        
 )
     
 with

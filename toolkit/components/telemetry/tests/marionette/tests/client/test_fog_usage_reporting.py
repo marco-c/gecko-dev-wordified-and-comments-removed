@@ -130,8 +130,8 @@ profile
 .
 set_persistent_preferences
 (
-{
             
+{
 "
 datareporting
 .
@@ -141,8 +141,8 @@ uploadEnabled
 "
 :
 False
-        
 }
+        
 )
         
 self
@@ -193,8 +193,8 @@ profile
 .
 set_persistent_preferences
 (
-{
             
+{
 "
 datareporting
 .
@@ -204,8 +204,8 @@ uploadEnabled
 "
 :
 True
-        
 }
+        
 )
         
 self
@@ -2034,8 +2034,8 @@ marionette
 .
 enforce_gecko_prefs
 (
-{
             
+{
 "
 datareporting
 .
@@ -2045,8 +2045,8 @@ uploadEnabled
 "
 :
 False
-        
 }
+        
 )
         
 self
@@ -2095,8 +2095,8 @@ marionette
 .
 enforce_gecko_prefs
 (
-{
             
+{
 "
 datareporting
 .
@@ -2106,8 +2106,8 @@ uploadEnabled
 "
 :
 True
-        
 }
+        
 )
         
 self

@@ -612,7 +612,9 @@ testvar
 .
 format
 (
+                    
 var1
+                
 )
             
 )
@@ -990,6 +992,7 @@ marionette
 .
 execute_async_script
 (
+            
 "
 this
 .
@@ -1000,6 +1003,8 @@ foobar
 42
 ]
 ;
+"
+"
 arguments
 [
 0
@@ -1008,6 +1013,7 @@ arguments
 )
 ;
 "
+        
 )
         
 self

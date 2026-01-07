@@ -1522,10 +1522,13 @@ _tests_re
 }
 "
 but
+'
+                
+"
 found
 none
 !
-'
+"
             
 )
         
@@ -4663,8 +4666,9 @@ extra_archives
 .
 update
 (
-{
             
+{
+                
 "
 .
 update_framework_artifacts
@@ -4673,7 +4677,7 @@ zip
 "
 :
 {
-                
+                    
 "
 description
 "
@@ -4686,14 +4690,14 @@ macOS
 Framework
 Artifacts
 "
-                
+                    
 "
 src_prefix
 "
 :
 "
 "
-                
+                    
 "
 dest_prefix
 "
@@ -4701,10 +4705,11 @@ dest_prefix
 "
 update_framework_artifacts
 "
+                
+}
             
 }
         
-}
 )
         
 return
@@ -6008,8 +6013,9 @@ package_re
 .
 join
 (
-[
         
+[
+            
 f
 "
 (
@@ -6020,7 +6026,7 @@ package_re
 }
 )
 "
-        
+            
 for
 cls
 in
@@ -6029,8 +6035,9 @@ LinuxArtifactJob
 MacArtifactJob
 WinArtifactJob
 )
-    
+        
 ]
+    
 )
     
 job_configuration

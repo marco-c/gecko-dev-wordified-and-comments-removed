@@ -975,8 +975,8 @@ allowed_dupes
 .
 extend
 (
-[
             
+[
 line
 .
 partition
@@ -1006,8 +1006,8 @@ getvalue
 splitlines
 (
 )
-        
 ]
+        
 )
     
 find_dupes

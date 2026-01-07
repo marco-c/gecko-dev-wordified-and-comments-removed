@@ -207,8 +207,9 @@ taskcluster
 .
 Secrets
 (
-{
             
+{
+                
 "
 baseUrl
 "
@@ -224,8 +225,9 @@ secrets
 /
 v1
 "
-        
+            
 }
+        
 )
     
 except
@@ -242,8 +244,9 @@ taskcluster
 .
 Secrets
 (
-{
             
+{
+                
 "
 rootUrl
 "
@@ -254,7 +257,7 @@ environ
 .
 get
 (
-                
+                    
 "
 TASKCLUSTER_PROXY_URL
 "
@@ -267,10 +270,11 @@ taskcluster
 .
 net
 "
-            
+                
 )
-        
+            
 }
+        
 )
     
 return

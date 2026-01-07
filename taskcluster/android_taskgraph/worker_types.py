@@ -363,8 +363,9 @@ scopes
 .
 extend
 (
-[
         
+[
+            
 "
 {
 }
@@ -387,7 +388,7 @@ action
 "
 ]
 )
-        
+            
 "
 {
 }
@@ -410,8 +411,9 @@ bucket
 "
 ]
 )
+        
+]
     
-]
 )
 payload_builder
 (

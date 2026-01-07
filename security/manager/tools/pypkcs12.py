@@ -354,8 +354,6 @@ self
 :
         
 with
-(
-            
 NamedTemporaryFile
 (
 mode
@@ -367,19 +365,19 @@ wt
 )
 as
 certTmp
-            
 NamedTemporaryFile
 (
+            
 mode
 =
 "
 wt
 +
 "
+        
 )
 as
 keyTmp
-            
 NamedTemporaryFile
 (
 mode
@@ -391,8 +389,6 @@ rb
 )
 as
 pkcs12Tmp
-        
-)
 :
             
 certTmp

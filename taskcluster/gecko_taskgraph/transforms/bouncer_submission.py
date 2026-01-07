@@ -132,8 +132,6 @@ aarch64
 }
 CANDIDATES_PATH_TEMPLATE
 =
-(
-    
 "
 /
 {
@@ -168,7 +166,6 @@ lang
 file
 }
 "
-)
 RELEASES_PATH_TEMPLATE
 =
 "
@@ -1272,12 +1269,14 @@ deleted
 .
 format
 (
+                    
 job
 [
 "
 name
 "
 ]
+                
 )
             
 )
@@ -1409,12 +1408,14 @@ for
 .
 format
 (
+                
 job
 [
 "
 name
 "
 ]
+            
 )
         
 )

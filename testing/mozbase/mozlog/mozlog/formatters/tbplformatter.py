@@ -334,8 +334,8 @@ self
 .
 _log
 (
-{
             
+{
 "
 level
 "
@@ -343,7 +343,6 @@ level
 "
 INFO
 "
-            
 "
 message
 "
@@ -353,14 +352,13 @@ message
 "
 *
 count
-            
 "
 component
 "
 :
 component
-        
 }
+        
 )
     
 output_subtests

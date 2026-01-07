@@ -1749,6 +1749,8 @@ to
 directory
 from
 which
+"
+"
 to
 run
 the
@@ -1789,6 +1791,8 @@ to
 directory
 containing
 XRE
+"
+"
 (
 probably
 xulrunner

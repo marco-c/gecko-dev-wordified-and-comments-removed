@@ -222,15 +222,16 @@ paths
 .
 extend
 (
-[
                     
+[
+                        
 apk_metadata
 [
 "
 name
 "
 ]
-                    
+                        
 for
 arch
 apk_metadata
@@ -251,7 +252,7 @@ apks
 items
 (
 )
-                    
+                        
 if
 not
 only_archs
@@ -259,8 +260,9 @@ or
 arch
 in
 only_archs
-                
+                    
 ]
+                
 )
                 
 if
@@ -309,8 +311,9 @@ artifacts
 .
 append
 (
-{
                         
+{
+                            
 "
 taskId
 "
@@ -333,7 +336,7 @@ kind
 >
 "
 }
-                        
+                            
 "
 taskType
 "
@@ -344,7 +347,7 @@ dep
 .
 kind
 )
-                        
+                            
 "
 paths
 "
@@ -353,8 +356,9 @@ sorted
 (
 paths
 )
-                    
+                        
 }
+                    
 )
         
 task

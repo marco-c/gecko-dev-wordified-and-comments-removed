@@ -507,8 +507,9 @@ deps
 =
 sorted
 (
-[
             
+[
+                
 "
 (
 wildcard
@@ -533,13 +534,14 @@ statusd
 d
 )
 )
-            
+                
 for
 d
 in
 deps
-        
+            
 ]
+        
 )
         
 self

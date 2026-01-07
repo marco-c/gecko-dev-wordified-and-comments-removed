@@ -843,14 +843,15 @@ suite
 .
 update
 (
-{
                     
+{
+                        
 "
 lowerIsBetter
 "
 :
 True
-                    
+                        
 "
 unit
 "
@@ -861,7 +862,7 @@ data_set
 unit
 "
 ]
-                    
+                        
 "
 alertThreshold
 "
@@ -869,8 +870,9 @@ alertThreshold
 2
 .
 0
-                
+                    
 }
+                
 )
             
 for
@@ -1969,18 +1971,16 @@ os
 "
 ]
 [
+                    
 "
 platform_version
 "
+                
 ]
 =
-(
-                    
 self
 .
 os_platform_version
-                
-)
         
 total_perfdata
 =
@@ -3393,8 +3393,8 @@ replicates
 .
 extend
 (
-[
                     
+[
 round
 (
 x
@@ -3404,8 +3404,8 @@ for
 x
 in
 updated_metric
-                
 ]
+                
 )
         
 vals
@@ -4495,8 +4495,8 @@ replicates
 .
 extend
 (
-[
                     
+[
 float
 (
 round
@@ -4509,8 +4509,8 @@ for
 x
 in
 replicates
-                
 ]
+                
 )
         
 vals
@@ -6120,8 +6120,8 @@ replicates
 .
 extend
 (
-[
                     
+[
 float
 (
 round
@@ -6134,8 +6134,8 @@ for
 x
 in
 replicates
-                
 ]
+                
 )
         
 vals
@@ -6651,8 +6651,8 @@ replicates
 .
 extend
 (
-[
                     
+[
 float
 (
 round
@@ -6665,8 +6665,8 @@ for
 x
 in
 replicates
-                
 ]
+                
 )
         
 subtests
@@ -7120,8 +7120,8 @@ replicates
 .
 extend
 (
-[
                     
+[
 float
 (
 round
@@ -7134,8 +7134,8 @@ for
 x
 in
 replicates
-                
 ]
+                
 )
         
 vals
@@ -8733,8 +8733,9 @@ benchmark
 if
 any
 (
-[
                     
+[
+                        
 "
 youtube
 -
@@ -8742,7 +8743,7 @@ playback
 "
 in
 measurement
-                    
+                        
 for
 measurement
 in
@@ -8756,8 +8757,9 @@ measurements
 keys
 (
 )
-                
+                    
 ]
+                
 )
 :
                     

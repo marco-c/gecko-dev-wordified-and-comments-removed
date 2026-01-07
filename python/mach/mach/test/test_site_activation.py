@@ -267,24 +267,26 @@ subprocess
 .
 check_call
 (
-[
             
+[
+                
 sys
 .
 executable
-            
+                
 "
 -
 m
 "
-            
+                
 "
 venv
 "
-            
+                
 venv_dir
-        
+            
 ]
+        
 )
         
 venv

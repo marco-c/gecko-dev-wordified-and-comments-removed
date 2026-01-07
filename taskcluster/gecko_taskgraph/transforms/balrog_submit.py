@@ -76,8 +76,9 @@ balrog_description_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -86,10 +87,10 @@ label
 )
 :
 str
-    
+        
 Optional
 (
-        
+            
 "
 update
 -
@@ -97,7 +98,7 @@ no
 -
 wnp
 "
-        
+            
 description
 =
 "
@@ -116,7 +117,7 @@ as
 well
 .
 "
-    
+        
 )
 :
 optionally_keyed_by
@@ -128,7 +129,7 @@ type
 "
 bool
 )
-    
+        
 Optional
 (
 "
@@ -142,7 +143,7 @@ task_description_schema
 treeherder
 "
 ]
-    
+        
 Optional
 (
 "
@@ -156,7 +157,7 @@ task_description_schema
 attributes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -170,7 +171,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -188,7 +189,7 @@ task
 from
 "
 ]
-    
+        
 Optional
 (
 "
@@ -206,7 +207,7 @@ shipping
 product
 "
 ]
-    
+        
 Optional
 (
 "
@@ -224,7 +225,7 @@ shipping
 phase
 "
 ]
-    
+        
 Optional
 (
 "
@@ -250,6 +251,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms

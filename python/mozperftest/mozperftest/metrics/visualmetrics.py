@@ -476,8 +476,9 @@ metadata
 .
 add_result
 (
-{
                 
+{
+                    
 "
 name
 "
@@ -495,7 +496,7 @@ name
 -
 vm
 "
-                
+                    
 "
 framework
 "
@@ -509,7 +510,7 @@ name
 mozperftest
 "
 }
-                
+                    
 "
 transformer
 "
@@ -523,7 +524,7 @@ visualmetrics
 :
 VisualData
 "
-                
+                    
 "
 results
 "
@@ -538,8 +539,9 @@ values
 (
 )
 )
-            
+                
 }
+            
 )
             
 def

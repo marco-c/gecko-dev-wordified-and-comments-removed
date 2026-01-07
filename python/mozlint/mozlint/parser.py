@@ -159,6 +159,8 @@ attribute
 s
 )
 :
+"
+"
 {
 }
 "
@@ -286,6 +288,8 @@ directive
 must
 be
 a
+"
+"
 list
 of
 strings

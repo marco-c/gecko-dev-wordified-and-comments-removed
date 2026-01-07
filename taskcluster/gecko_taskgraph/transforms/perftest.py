@@ -77,8 +77,9 @@ perftest_description_schema
 =
 Schema
 (
-{
     
+{
+        
 Optional
 (
 "
@@ -91,7 +92,7 @@ perftest
 str
 ]
 ]
-    
+        
 Optional
 (
 "
@@ -103,18 +104,18 @@ metrics
 :
 optionally_keyed_by
 (
-        
+            
 "
 perftest
 "
-        
+            
 Any
 (
-            
+                
 [
 str
 ]
-            
+                
 {
 str
 :
@@ -135,11 +136,11 @@ str
 }
 )
 }
+            
+)
         
 )
-    
-)
-    
+        
 Optional
 (
 "
@@ -153,7 +154,7 @@ global
 :
 optionally_keyed_by
 (
-        
+            
 "
 perftest
 "
@@ -169,9 +170,9 @@ str
 ]
 )
 }
-    
+        
 )
-    
+        
 Optional
 (
 "
@@ -192,7 +193,7 @@ perftest
 str
 ]
 )
-    
+        
 Optional
 (
 "
@@ -206,7 +207,7 @@ variants
 :
 optionally_keyed_by
 (
-        
+            
 "
 perftest
 "
@@ -219,12 +220,13 @@ str
 )
 ]
 ]
-    
+        
 )
-    
+        
 Extra
 :
 object
+    
 }
 )
 transforms
@@ -1331,29 +1333,33 @@ perftest_metrics
 .
 join
 (
-[
                 
+[
+                    
 "
 "
 .
 join
 (
+                        
 [
-                    
+                            
 "
 :
 "
 .
 join
 (
+                                
 [
-                        
+                                    
 option
-                        
+                                    
 str
 (
 value
 )
+                                    
 .
 replace
 (
@@ -1362,6 +1368,7 @@ replace
 "
 "
 )
+                                    
 .
 replace
 (
@@ -1370,10 +1377,11 @@ replace
 "
 quote_escape
 )
-                    
+                                
 ]
+                            
 )
-                    
+                            
 for
 option
 value
@@ -1383,16 +1391,18 @@ metric_info
 items
 (
 )
-                
+                        
 ]
+                    
 )
-                
+                    
 for
 metric_info
 in
 perftest_metrics
-            
+                
 ]
+            
 )
         
 )
@@ -1468,8 +1478,8 @@ s
 .
 join
 (
-[
             
+[
 opt
 .
 strip
@@ -1490,8 +1500,8 @@ btime
 variants
 "
 )
-        
 ]
+        
 )
         
 yield
@@ -1721,14 +1731,14 @@ run
 "
 ]
 [
+                
 "
 command
 "
+            
 ]
 +
 =
-(
-                
 "
 -
 -
@@ -1747,8 +1757,6 @@ simpleperf
 -
 geckoprofiler
 "
-            
-)
             
 new_job
 [
@@ -1834,8 +1842,9 @@ toolchain
 .
 extend
 (
-[
                 
+[
+                    
 "
 linux64
 -
@@ -1847,20 +1856,21 @@ linux
 -
 repack
 "
-                
+                    
 "
 linux64
 -
 samply
 "
-                
+                    
 "
 symbolicator
 -
 cli
 "
-            
+                
 ]
+            
 )
             
 new_job

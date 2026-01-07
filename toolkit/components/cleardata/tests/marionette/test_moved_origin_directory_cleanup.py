@@ -40,8 +40,9 @@ marionette
 .
 enforce_gecko_prefs
 (
-{
             
+{
+                
 "
 privacy
 .
@@ -51,7 +52,7 @@ sanitizeOnShutdown
 "
 :
 True
-            
+                
 "
 privacy
 .
@@ -61,7 +62,7 @@ offlineApps
 "
 :
 True
-            
+                
 "
 dom
 .
@@ -73,7 +74,7 @@ enabled
 "
 :
 False
-            
+                
 "
 browser
 .
@@ -85,8 +86,9 @@ loglevel
 "
 All
 "
-        
+            
 }
+        
 )
         
 self

@@ -132,8 +132,9 @@ prefs
 .
 update
 (
-{
             
+{
+                
 "
 browser
 .
@@ -146,7 +147,7 @@ url
 :
 "
 "
-            
+                
 "
 browser
 .
@@ -160,7 +161,7 @@ enabled
 "
 :
 False
-            
+                
 "
 toolkit
 .
@@ -177,7 +178,7 @@ SERVER_URL
 /
 pings
 "
-            
+                
 "
 telemetry
 .
@@ -190,7 +191,7 @@ localhost_port
 :
 -
 1
-            
+                
 "
 toolkit
 .
@@ -200,7 +201,7 @@ initDelay
 "
 :
 1
-            
+                
 "
 toolkit
 .
@@ -210,7 +211,7 @@ minSubsessionLength
 "
 :
 0
-            
+                
 "
 datareporting
 .
@@ -220,7 +221,7 @@ uploadEnabled
 "
 :
 True
-            
+                
 "
 datareporting
 .
@@ -230,7 +231,7 @@ dataSubmissionEnabled
 "
 :
 True
-            
+                
 "
 datareporting
 .
@@ -240,7 +241,7 @@ dataSubmissionPolicyBypassNotification
 "
 :
 True
-            
+                
 "
 datareporting
 .
@@ -250,7 +251,7 @@ uploadEnabled
 "
 :
 True
-            
+                
 "
 toolkit
 .
@@ -264,7 +265,7 @@ level
 "
 Trace
 "
-            
+                
 "
 toolkit
 .
@@ -276,7 +277,7 @@ dump
 "
 :
 True
-            
+                
 "
 toolkit
 .
@@ -288,7 +289,7 @@ overrideOfficialCheck
 "
 :
 True
-            
+                
 "
 toolkit
 .
@@ -300,7 +301,7 @@ disableFuzzingDelay
 "
 :
 True
-            
+                
 "
 app
 .
@@ -310,7 +311,7 @@ enabled
 "
 :
 False
-            
+                
 "
 app
 .
@@ -322,7 +323,7 @@ enabled
 "
 :
 False
-            
+                
 "
 screenshots
 .
@@ -334,8 +335,9 @@ enabled
 "
 :
 False
-        
+            
 }
+        
 )
         
 super

@@ -111,8 +111,9 @@ PATH_SUBSTITUTIONS
 =
 OrderedDict
 (
-[
     
+[
+        
 (
 "
 profile
@@ -123,7 +124,7 @@ profile
 }
 "
 )
-    
+        
 (
 "
 firefox
@@ -134,7 +135,7 @@ xre
 }
 "
 )
-    
+        
 (
 "
 desktop
@@ -145,7 +146,7 @@ desktop
 }
 "
 )
-    
+        
 (
 "
 fonts
@@ -156,7 +157,7 @@ fonts
 }
 "
 )
-    
+        
 (
 "
 appdata
@@ -167,14 +168,16 @@ appdata
 }
 "
 )
+    
 ]
 )
 NAME_SUBSTITUTIONS
 =
 OrderedDict
 (
-[
     
+[
+        
 (
 "
 installtime
@@ -185,7 +188,7 @@ time
 }
 "
 )
-    
+        
 (
 "
 prefetch
@@ -196,7 +199,7 @@ prefetch
 }
 "
 )
-    
+        
 (
 "
 thumbnails
@@ -207,7 +210,7 @@ thumbnails
 }
 "
 )
-    
+        
 (
 "
 temp
@@ -220,7 +223,7 @@ temp
 }
 "
 )
-    
+        
 (
 "
 cltbld
@@ -232,7 +235,7 @@ cltbld
 }
 "
 )
-    
+        
 (
 "
 windows
@@ -245,7 +248,7 @@ media_player
 }
 "
 )
-    
+        
 (
 re
 .
@@ -292,7 +295,7 @@ uuid
 }
 "
 )
-    
+        
 (
 re
 .
@@ -327,6 +330,7 @@ db
 }
 "
 )
+    
 ]
 )
 TUPLE_EVENT_SOURCE_INDEX

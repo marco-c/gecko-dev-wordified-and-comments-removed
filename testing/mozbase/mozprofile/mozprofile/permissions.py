@@ -548,8 +548,8 @@ options
 return
 len
 (
-[
             
+[
 i
 for
 i
@@ -570,8 +570,8 @@ getattr
 location
 i
 )
-        
 ]
+        
 )
 =
 =
@@ -1553,8 +1553,8 @@ user_prefs
 .
 append
 (
-(
                     
+(
 "
 network
 .
@@ -1564,10 +1564,9 @@ https_rr
 .
 check_record_with_cname
 "
-                    
 False
-                
 )
+                
 )
             
 else

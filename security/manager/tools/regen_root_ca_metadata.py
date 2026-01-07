@@ -1943,8 +1943,8 @@ digest_half_1
 .
 join
 (
-[
                 
+[
 f
 "
 0x
@@ -1972,8 +1972,8 @@ digest
 >
 1
 ]
-            
 ]
+            
 )
 .
 removesuffix
@@ -1989,8 +1989,8 @@ digest_half_2
 .
 join
 (
-[
                 
+[
 f
 "
 0x
@@ -2018,8 +2018,8 @@ digest
 1
 :
 ]
-            
 ]
+            
 )
 .
 removesuffix

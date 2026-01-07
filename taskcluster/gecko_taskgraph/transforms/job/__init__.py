@@ -172,8 +172,9 @@ job_description_schema
 =
 Schema
 (
-{
     
+{
+        
 Optional
 (
 "
@@ -182,7 +183,7 @@ name
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -191,7 +192,7 @@ label
 )
 :
 str
-    
+        
 Required
 (
 "
@@ -205,7 +206,7 @@ task_description_schema
 description
 "
 ]
-    
+        
 Optional
 (
 "
@@ -219,7 +220,7 @@ task_description_schema
 attributes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -237,7 +238,7 @@ task
 from
 "
 ]
-    
+        
 Optional
 (
 "
@@ -251,7 +252,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -269,7 +270,7 @@ if
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -287,7 +288,7 @@ soft
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -305,7 +306,7 @@ if
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -319,7 +320,7 @@ task_description_schema
 requires
 "
 ]
-    
+        
 Optional
 (
 "
@@ -337,7 +338,7 @@ expires
 after
 "
 ]
-    
+        
 Optional
 (
 "
@@ -355,7 +356,7 @@ expiration
 policy
 "
 ]
-    
+        
 Optional
 (
 "
@@ -369,7 +370,7 @@ task_description_schema
 routes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -383,7 +384,7 @@ task_description_schema
 scopes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -397,7 +398,7 @@ task_description_schema
 tags
 "
 ]
-    
+        
 Optional
 (
 "
@@ -411,7 +412,7 @@ task_description_schema
 extra
 "
 ]
-    
+        
 Optional
 (
 "
@@ -425,7 +426,7 @@ task_description_schema
 treeherder
 "
 ]
-    
+        
 Optional
 (
 "
@@ -439,7 +440,7 @@ task_description_schema
 index
 "
 ]
-    
+        
 Optional
 (
 "
@@ -465,7 +466,7 @@ repo
 type
 "
 ]
-    
+        
 Optional
 (
 "
@@ -487,7 +488,7 @@ on
 projects
 "
 ]
-    
+        
 Optional
 (
 "
@@ -513,7 +514,7 @@ git
 branches
 "
 ]
-    
+        
 Optional
 (
 "
@@ -531,7 +532,7 @@ shipping
 phase
 "
 ]
-    
+        
 Optional
 (
 "
@@ -549,7 +550,7 @@ shipping
 product
 "
 ]
-    
+        
 Optional
 (
 "
@@ -567,7 +568,7 @@ always
 target
 "
 ]
-    
+        
 Exclusive
 (
 "
@@ -580,11 +581,13 @@ optimization
 :
 task_description_schema
 [
+            
 "
 optimization
 "
+        
 ]
-    
+        
 Optional
 (
 "
@@ -602,7 +605,7 @@ use
 sccache
 "
 ]
-    
+        
 Optional
 (
 "
@@ -625,7 +628,7 @@ Coerce
 Version
 )
 )
-    
+        
 Optional
 (
 "
@@ -636,7 +639,7 @@ uv
 )
 :
 bool
-    
+        
 Optional
 (
 "
@@ -650,7 +653,7 @@ task_description_schema
 priority
 "
 ]
-    
+        
 Exclusive
 (
 "
@@ -663,11 +666,11 @@ optimization
 :
 Any
 (
-        
-None
-        
-{
             
+None
+            
+{
+                
 Optional
 (
 "
@@ -680,11 +683,11 @@ changed
 [
 str
 ]
-        
+            
 }
-    
+        
 )
-    
+        
 Optional
 (
 "
@@ -693,15 +696,15 @@ fetches
 )
 :
 {
-        
+            
 str
 :
 [
-            
-str
-            
-{
                 
+str
+                
+{
+                    
 Required
 (
 "
@@ -710,7 +713,7 @@ artifact
 )
 :
 str
-                
+                    
 Optional
 (
 "
@@ -719,7 +722,7 @@ dest
 )
 :
 str
-                
+                    
 Optional
 (
 "
@@ -728,7 +731,7 @@ extract
 )
 :
 bool
-                
+                    
 Optional
 (
 "
@@ -739,25 +742,25 @@ hash
 )
 :
 bool
+                
+}
             
+]
+        
 }
         
-]
-    
-}
-    
 "
 run
 "
 :
 {
-        
+            
 "
 using
 "
 :
 str
-        
+            
 Optional
 (
 "
@@ -766,13 +769,13 @@ workdir
 )
 :
 str
-        
+            
 Extra
 :
 object
-    
+        
 }
-    
+        
 Required
 (
 "
@@ -790,7 +793,7 @@ worker
 type
 "
 ]
-    
+        
 Optional
 (
 "
@@ -799,6 +802,7 @@ worker
 )
 :
 dict
+    
 }
 )
 transforms
@@ -1931,8 +1935,9 @@ artifacts
 .
 append
 (
-{
             
+{
+                
 "
 type
 "
@@ -1940,7 +1945,7 @@ type
 "
 file
 "
-            
+                
 "
 name
 "
@@ -1960,14 +1965,15 @@ content
 .
 json
 "
-            
+                
 "
 path
 "
 :
 perfherder_fetch_content_json_path
-        
+            
 }
+        
 )
         
 env
@@ -2554,14 +2560,15 @@ job_fetches
 .
 append
 (
-{
                         
+{
+                            
 "
 artifact
 "
 :
 path
-                        
+                            
 "
 task
 "
@@ -2574,7 +2581,7 @@ label
 }
 >
 "
-                        
+                            
 "
 extract
 "
@@ -2586,8 +2593,9 @@ get
 label
 True
 )
-                    
+                        
 }
+                    
 )
                     
 if

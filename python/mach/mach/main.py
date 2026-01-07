@@ -2841,6 +2841,8 @@ s
 global
 arguments
 ]
+"
+"
 command
 [
 command

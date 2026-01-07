@@ -2550,7 +2550,6 @@ extra_flags
 )
 :
 with
-(
 create_temporary_file
 (
 suffix
@@ -2584,7 +2583,6 @@ out
 )
 as
 outname
-)
 :
 with
 open

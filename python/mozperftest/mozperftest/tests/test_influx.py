@@ -353,14 +353,15 @@ json
 .
 dumps
 (
-{
             
+{
+                
 "
 secret
 "
 :
 {
-                
+                    
 "
 influx_host
 "
@@ -368,13 +369,13 @@ influx_host
 "
 influxdb
 "
-                
+                    
 "
 influx_port
 "
 :
 0
-                
+                    
 "
 influx_user
 "
@@ -382,7 +383,7 @@ influx_user
 "
 admin
 "
-                
+                    
 "
 influx_password
 "
@@ -390,7 +391,7 @@ influx_password
 "
 pass
 "
-                
+                    
 "
 influx_db
 "
@@ -398,7 +399,7 @@ influx_db
 "
 db
 "
-                
+                    
 "
 grafana_key
 "
@@ -406,7 +407,7 @@ grafana_key
 "
 xxx
 "
-                
+                    
 "
 grafana_host
 "
@@ -414,16 +415,17 @@ grafana_host
 "
 grafana
 "
-                
+                    
 "
 grafana_port
 "
 :
 0
+                
+}
             
 }
         
-}
 )
         
 status

@@ -217,15 +217,12 @@ json
 )
     
 with
-(
-        
 linter_module_mocks
 (
 )
-        
 linter_class_mocks
 (
-            
+        
 get_firefox_addons_tar_names
 =
 mock
@@ -237,8 +234,6 @@ return_value
 list
 (
 )
-)
-        
 )
     
 )
@@ -431,23 +426,18 @@ xpi
 )
     
 with
-(
-        
 linter_module_mocks
 (
 )
-        
 linter_class_mocks
 (
-            
+        
 get_firefox_addons_tar_names
 =
 get_tarnames_mock
 read_json
 =
 read_json_mock
-        
-)
     
 )
 :
@@ -572,21 +562,18 @@ dict
 )
     
 with
-(
-        
 linter_module_mocks
 (
 )
-        
 linter_class_mocks
 (
+        
 read_json
 =
 read_json_mock
 read_yaml
 =
 read_yaml_mock
-)
     
 )
 :
@@ -1004,8 +991,6 @@ side_effect
 mocked_download_tar
     
 with
-(
-        
 tempfile
 .
 TemporaryDirectory
@@ -1013,28 +998,24 @@ TemporaryDirectory
 )
 as
 tempdir
-        
 linter_module_mocks
 (
-            
+        
 MOZ_AUTOMATION
 =
 0
-            
+        
 tempdir
 =
 tempdir
-        
+    
 )
-        
 linter_class_mocks
 (
-            
+        
 download_firefox_addons_tar
 =
 download_firefox_addons_tar_mock
-        
-)
     
 )
 :
@@ -1172,8 +1153,6 @@ paths
 :
     
 with
-(
-        
 tempfile
 .
 TemporaryDirectory
@@ -1181,16 +1160,15 @@ TemporaryDirectory
 )
 as
 tempdir
-        
 linter_module_mocks
 (
+        
 MOZ_AUTOMATION
 =
 0
 tempdir
 =
 tempdir
-)
     
 )
 :
@@ -1375,8 +1353,6 @@ paths
 :
     
 with
-(
-        
 tempfile
 .
 TemporaryDirectory
@@ -1384,16 +1360,15 @@ TemporaryDirectory
 )
 as
 tempdir
-        
 linter_module_mocks
 (
+        
 MOZ_AUTOMATION
 =
 0
 tempdir
 =
 tempdir
-)
     
 )
 :
@@ -1674,11 +1649,9 @@ xpi
 )
     
 with
-(
-        
 linter_module_mocks
 (
-            
+        
 customizations_path
 =
 "
@@ -1688,21 +1661,18 @@ customizations
 -
 dir
 "
-        
+    
 )
-        
 linter_class_mocks
 (
-            
+        
 get_firefox_addons_tar_names
 =
 get_tarnames_mock
-            
+        
 read_json
 =
 read_json_mock
-        
-)
     
 )
 :

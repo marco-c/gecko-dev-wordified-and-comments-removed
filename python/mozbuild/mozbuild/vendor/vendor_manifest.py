@@ -4667,8 +4667,9 @@ changed_files
 =
 set
 (
-[
             
+[
+                
 os
 .
 path
@@ -4677,6 +4678,7 @@ abspath
 (
 f
 )
+                
 for
 f
 in
@@ -4692,23 +4694,25 @@ mode
 staged
 "
 )
-        
+            
 ]
+        
 )
         
 generated_files
 =
 set
 (
-[
             
+[
+                
 self
 .
 get_full_path
 (
 f
 )
-            
+                
 for
 f
 in
@@ -4729,8 +4733,9 @@ generated
 [
 ]
 )
-        
+            
 ]
+        
 )
         
 changed_files

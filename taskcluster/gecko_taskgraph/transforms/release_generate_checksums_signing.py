@@ -82,8 +82,9 @@ release_generate_checksums_signing_schema
 =
 Schema
 (
-{
     
+{
+        
 Optional
 (
 "
@@ -92,7 +93,7 @@ label
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -106,7 +107,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -120,7 +121,7 @@ task_description_schema
 attributes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -134,7 +135,7 @@ task_description_schema
 treeherder
 "
 ]
-    
+        
 Optional
 (
 "
@@ -152,7 +153,7 @@ shipping
 product
 "
 ]
-    
+        
 Optional
 (
 "
@@ -170,7 +171,7 @@ shipping
 phase
 "
 ]
-    
+        
 Optional
 (
 "
@@ -188,7 +189,7 @@ task
 from
 "
 ]
-    
+        
 Optional
 (
 "
@@ -214,6 +215,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms

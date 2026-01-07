@@ -416,8 +416,9 @@ failures
 .
 append
 (
-{
                 
+{
+                    
 "
 column
 "
@@ -428,7 +429,7 @@ info
 column
 "
 ]
-                
+                    
 "
 file
 "
@@ -438,7 +439,7 @@ args
 changelog_file
 .
 name
-                
+                    
 "
 line
 "
@@ -449,7 +450,7 @@ info
 line
 "
 ]
-                
+                    
 "
 msg
 "
@@ -460,7 +461,7 @@ info
 message
 "
 ]
-                
+                    
 "
 rule
 "
@@ -471,14 +472,15 @@ info
 rule
 "
 ]
-                
+                    
 "
 error
 "
 :
 True
-            
+                
 }
+            
 )
         
 args
@@ -530,20 +532,21 @@ MissingApiVersionError
         
 dumpJsonError
 (
-{
             
+{
+                
 "
 column
 "
 :
 0
-            
+                
 "
 line
 "
 :
 1
-            
+                
 "
 message
 "
@@ -561,7 +564,7 @@ version
 pin
 .
 "
-            
+                
 "
 Please
 update
@@ -574,7 +577,7 @@ following
 line
 :
 "
-            
+                
 f
 "
 [
@@ -587,7 +590,7 @@ version
 currentApiVersion
 }
 "
-            
+                
 "
 rule
 "
@@ -595,8 +598,9 @@ rule
 "
 missing_api_version
 "
-        
+            
 }
+        
 )
         
 print
@@ -722,20 +726,21 @@ expectedApiVersion
         
 dumpJsonError
 (
-{
             
+{
+                
 "
 column
 "
 :
 14
-            
+                
 "
 line
 "
 :
 lineNumber
-            
+                
 "
 message
 "
@@ -754,7 +759,7 @@ Please
 update
 the
 "
-            
+                
 "
 file
 and
@@ -770,7 +775,7 @@ as
 follows
 :
 "
-            
+                
 f
 "
 [
@@ -783,7 +788,7 @@ version
 currentApiVersion
 }
 "
-            
+                
 "
 rule
 "
@@ -791,8 +796,9 @@ rule
 "
 wrong_api_version
 "
-        
+            
 }
+        
 )
         
 print

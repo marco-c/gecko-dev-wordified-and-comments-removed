@@ -882,8 +882,8 @@ self
 .
 _handle_generated_sources
 (
-[
                 
+[
 mozpath
 .
 join
@@ -902,8 +902,8 @@ basename
 h
 "
 )
-            
 ]
+            
 )
             
 return
@@ -1106,8 +1106,8 @@ self
 .
 _handle_generated_sources
 (
-[
                         
+[
 ObjDirPath
 (
 obj
@@ -1122,8 +1122,8 @@ relpath
 )
 .
 full_path
-                    
 ]
+                    
 )
             
 return

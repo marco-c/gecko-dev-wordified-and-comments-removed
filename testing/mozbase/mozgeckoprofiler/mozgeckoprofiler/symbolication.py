@@ -1898,15 +1898,13 @@ self
 .
 _validate_symbolication_deps
 (
+                
 [
-                
 symbolicator_path
-                
 samply_path
-                
 node_path
-            
 ]
+            
 )
 :
                 

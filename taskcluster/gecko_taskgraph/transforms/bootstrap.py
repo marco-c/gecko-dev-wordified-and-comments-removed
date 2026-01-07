@@ -37,8 +37,9 @@ bootstrap_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -47,7 +48,7 @@ name
 )
 :
 str
-    
+        
 Required
 (
 "
@@ -68,7 +69,7 @@ tree
 str
 }
 )
-    
+        
 Required
 (
 "
@@ -81,7 +82,7 @@ commands
 [
 str
 ]
-    
+        
 Optional
 (
 "
@@ -92,7 +93,7 @@ from
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -118,6 +119,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms

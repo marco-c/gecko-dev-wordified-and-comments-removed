@@ -476,53 +476,55 @@ VALID_ACTIONS
 =
 set
 (
-[
         
+[
+            
 "
 suite_start
 "
-        
+            
 "
 suite_end
 "
-        
+            
 "
 group_start
 "
-        
+            
 "
 group_end
 "
-        
+            
 "
 test_start
 "
-        
+            
 "
 test_end
 "
-        
+            
 "
 test_status
 "
-        
+            
 "
 log
 "
-        
+            
 "
 assertion_count
 "
-        
+            
 "
 buffering_on
 "
-        
+            
 "
 buffering_off
 "
-    
+        
 ]
+    
 )
     
 TEST_PATH_PREFIXES
@@ -2915,8 +2917,8 @@ LD_LIBRARY_PATH
 .
 join
 (
-[
                 
+[
 os
 .
 path
@@ -2935,15 +2937,14 @@ here
 bin
 "
 )
-                
 env
 [
 "
 LD_LIBRARY_PATH
 "
 ]
-            
 ]
+            
 )
         
 env
@@ -5682,10 +5683,11 @@ subprocess
 .
 Popen
 (
+        
 [
-        
+            
 gst
-        
+            
 "
 -
 -
@@ -5693,17 +5695,17 @@ no
 -
 fault
 "
-        
+            
 "
 videotestsrc
 "
-        
+            
 "
 pattern
 =
 green
 "
-        
+            
 "
 num
 -
@@ -5711,15 +5713,15 @@ buffers
 =
 1
 "
-        
+            
 "
 !
 "
-        
+            
 "
 v4l2sink
 "
-        
+            
 "
 device
 =
@@ -5728,8 +5730,9 @@ s
 "
 %
 device
-    
+        
 ]
+    
 )
     
 info
@@ -20754,8 +20757,9 @@ input_devices
 .
 append
 (
-{
                 
+{
+                    
 "
 name
 "
@@ -20768,7 +20772,7 @@ sine
 freq
 }
 "
-                
+                    
 "
 description
 "
@@ -20782,14 +20786,15 @@ Hz
 Sine
 Source
 "
-                
+                    
 "
 frequency
 "
 :
 freq
-            
+                
 }
+            
 )
         
 pactl
@@ -21862,6 +21867,9 @@ module
 sine
 -
 source
+"
+                    
+"
 (
 freq
 =
@@ -21872,14 +21880,12 @@ freq
 .
 format
 (
-                        
 device
 [
 "
 frequency
 "
 ]
-                    
 )
                 
 )
@@ -23545,8 +23551,9 @@ mozinfo
 .
 update
 (
+            
 {
-            
+                
 "
 a11y_checks
 "
@@ -23554,7 +23561,7 @@ a11y_checks
 options
 .
 a11y_checks
-            
+                
 "
 e10s
 "
@@ -23562,7 +23569,7 @@ e10s
 options
 .
 e10s
-            
+                
 "
 fission
 "
@@ -23571,7 +23578,7 @@ not
 options
 .
 disable_fission
-            
+                
 "
 headless
 "
@@ -23579,7 +23586,7 @@ headless
 options
 .
 headless
-            
+                
 "
 http3
 "
@@ -23587,7 +23594,7 @@ http3
 options
 .
 useHttp3Server
-            
+                
 "
 http2
 "
@@ -23595,7 +23602,7 @@ http2
 options
 .
 useHttp2Server
-            
+                
 "
 inc_origin_init
 "
@@ -23615,7 +23622,7 @@ MOZ_ENABLE_INC_ORIGIN_INIT
 "
 1
 "
-            
+                
 "
 sessionHistoryInParent
 "
@@ -23624,7 +23631,7 @@ not
 options
 .
 disable_fission
-            
+                
 or
 not
 self
@@ -23639,7 +23646,7 @@ fission
 disableSessionHistoryInParent
 "
 )
-            
+                
 "
 socketprocess_e10s
 "
@@ -23650,6 +23657,7 @@ extraPrefs
 .
 get
 (
+                    
 "
 network
 .
@@ -23658,8 +23666,9 @@ process
 enabled
 "
 False
+                
 )
-            
+                
 "
 socketprocess_networking
 "
@@ -23670,7 +23679,7 @@ extraPrefs
 .
 get
 (
-                
+                    
 "
 network
 .
@@ -23681,9 +23690,9 @@ network_access_on_socket_process
 enabled
 "
 False
-            
+                
 )
-            
+                
 "
 swgl
 "
@@ -23703,7 +23712,7 @@ software
 "
 False
 )
-            
+                
 "
 verify
 "
@@ -23711,7 +23720,7 @@ verify
 options
 .
 verify
-            
+                
 "
 verify_fission
 "
@@ -23719,7 +23728,7 @@ verify_fission
 options
 .
 verify_fission
-            
+                
 "
 vertical_tab
 "
@@ -23737,7 +23746,7 @@ verticalTabs
 "
 False
 )
-            
+                
 "
 webgl_ipc
 "
@@ -23759,13 +23768,13 @@ process
 "
 False
 )
-            
+                
 "
 wmfme
 "
 :
 (
-                
+                    
 self
 .
 extraPrefs
@@ -23785,7 +23794,7 @@ enabled
 "
 0
 )
-                
+                    
 and
 self
 .
@@ -23793,7 +23802,7 @@ extraPrefs
 .
 get
 (
-                    
+                        
 "
 media
 .
@@ -23810,11 +23819,11 @@ decoder
 enabled
 "
 False
+                    
+)
                 
 )
-            
-)
-            
+                
 "
 mda_gpu
 "
@@ -23825,7 +23834,7 @@ extraPrefs
 .
 get
 (
-                
+                    
 "
 media
 .
@@ -23840,9 +23849,9 @@ force
 enabled
 "
 False
-            
+                
 )
-            
+                
 "
 xorigin
 "
@@ -23850,7 +23859,7 @@ xorigin
 options
 .
 xOriginTests
-            
+                
 "
 condprof
 "
@@ -23858,7 +23867,7 @@ condprof
 options
 .
 conditionedProfile
-            
+                
 "
 msix
 "
@@ -23870,7 +23879,7 @@ in
 options
 .
 app
-            
+                
 "
 android
 "
@@ -23886,7 +23895,7 @@ android
 "
 False
 )
-            
+                
 "
 is_emulator
 "
@@ -23902,7 +23911,7 @@ is_emulator
 "
 False
 )
-            
+                
 "
 coverage
 "
@@ -23918,7 +23927,7 @@ coverage
 "
 False
 )
-            
+                
 "
 nogpu
 "
@@ -23934,8 +23943,9 @@ nogpu
 "
 False
 )
-        
+            
 }
+        
 )
         
 if
@@ -25389,6 +25399,9 @@ valgrind
 supp
 -
 files
+"
+                
+"
 but
 not
 -

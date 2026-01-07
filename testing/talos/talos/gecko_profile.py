@@ -467,8 +467,9 @@ env
 .
 update
 (
-{
             
+{
+                
 "
 MOZ_PROFILER_STARTUP
 "
@@ -476,7 +477,7 @@ MOZ_PROFILER_STARTUP
 "
 1
 "
-            
+                
 "
 MOZ_PROFILER_STARTUP_NO_BASE
 "
@@ -484,7 +485,7 @@ MOZ_PROFILER_STARTUP_NO_BASE
 "
 1
 "
-            
+                
 "
 MOZ_PROFILER_STARTUP_INTERVAL
 "
@@ -500,7 +501,7 @@ interval
 "
 )
 )
-            
+                
 "
 MOZ_PROFILER_STARTUP_ENTRIES
 "
@@ -516,7 +517,7 @@ entries
 "
 )
 )
-            
+                
 "
 MOZ_PROFILER_STARTUP_FEATURES
 "
@@ -532,7 +533,7 @@ features
 "
 )
 )
-            
+                
 "
 MOZ_PROFILER_STARTUP_FILTERS
 "
@@ -548,8 +549,9 @@ threads
 "
 )
 )
-        
+            
 }
+        
 )
     
 def
@@ -738,14 +740,15 @@ symbolicator
 =
 ProfileSymbolicator
 (
-{
             
+{
+                
 "
 enableTracing
 "
 :
 0
-            
+                
 "
 remoteSymbolServer
 "
@@ -767,31 +770,31 @@ symbolicate
 /
 v4
 "
-            
+                
 "
 maxCacheEntries
 "
 :
 2000000
-            
+                
 "
 prefetchInterval
 "
 :
 12
-            
+                
 "
 prefetchThreshold
 "
 :
 48
-            
+                
 "
 prefetchMaxSymbolsPerLib
 "
 :
 3
-            
+                
 "
 defaultApp
 "
@@ -799,7 +802,7 @@ defaultApp
 "
 FIREFOX
 "
-            
+                
 "
 defaultOs
 "
@@ -807,7 +810,7 @@ defaultOs
 "
 WINDOWS
 "
-            
+                
 "
 symbolPaths
 "
@@ -815,8 +818,9 @@ symbolPaths
 self
 .
 symbol_paths
-        
+            
 }
+        
 )
         
 if

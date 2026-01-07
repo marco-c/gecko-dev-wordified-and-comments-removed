@@ -509,16 +509,14 @@ project_id
     
 run_command
 (
-[
         
+[
 "
 gcloud
 "
-        
 "
 auth
 "
-        
 "
 activate
 -
@@ -526,7 +524,6 @@ service
 -
 account
 "
-        
 "
 -
 -
@@ -534,10 +531,9 @@ key
 -
 file
 "
-        
 credentials_file
-    
 ]
+    
 )
 def
 execute_tests
@@ -816,8 +812,9 @@ flank_command
 .
 extend
 (
-[
             
+[
+                
 "
 -
 -
@@ -825,7 +822,7 @@ client
 -
 details
 "
-            
+                
 f
 "
 matrixLabel
@@ -855,8 +852,9 @@ geckoRev
 geckoRev
 }
 "
-        
+            
 ]
+        
 )
     
 if

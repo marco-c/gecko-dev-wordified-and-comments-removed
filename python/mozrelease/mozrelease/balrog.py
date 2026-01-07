@@ -423,21 +423,23 @@ result
 .
 append
 (
-{
                 
+{
+                    
 "
 fields
 "
 :
 fields
-                
+                    
 "
 for
 "
 :
 conditions
-            
+                
 }
+            
 )
     
 return

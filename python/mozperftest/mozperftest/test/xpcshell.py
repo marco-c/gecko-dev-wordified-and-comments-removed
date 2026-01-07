@@ -1220,8 +1220,9 @@ metadata
 .
 add_result
 (
-{
             
+{
+                
 "
 name
 "
@@ -1229,7 +1230,7 @@ name
 test
 .
 name
-            
+                
 "
 framework
 "
@@ -1243,7 +1244,7 @@ name
 mozperftest
 "
 }
-            
+                
 "
 transformer
 "
@@ -1257,13 +1258,13 @@ xpcshell
 :
 XPCShellData
 "
-            
+                
 "
 results
 "
 :
 [
-                
+                    
 {
 "
 values
@@ -1276,7 +1277,7 @@ name
 :
 subtest
 }
-                
+                    
 for
 subtest
 measures
@@ -1286,10 +1287,11 @@ results
 items
 (
 )
-            
+                
 ]
-        
+            
 }
+        
 )
         
 return

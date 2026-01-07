@@ -1313,17 +1313,18 @@ temp
     
 run
 (
-[
         
+[
+            
 "
 -
 l
 "
-        
+            
 "
 string
 "
-        
+            
 f
 "
 -
@@ -1340,7 +1341,7 @@ foobar
 .
 py
 "
-        
+            
 "
 -
 -
@@ -1350,13 +1351,14 @@ stdin
 -
 file
 "
-        
+            
 str
 (
 tmpfile
 )
-    
+        
 ]
+    
 )
     
 out

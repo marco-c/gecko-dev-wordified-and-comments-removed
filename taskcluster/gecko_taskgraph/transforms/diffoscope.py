@@ -81,8 +81,9 @@ diff_description_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -91,7 +92,7 @@ name
 )
 :
 str
-    
+        
 Required
 (
 "
@@ -100,7 +101,7 @@ tier
 )
 :
 int
-    
+        
 Required
 (
 "
@@ -109,7 +110,7 @@ symbol
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -120,7 +121,7 @@ from
 )
 :
 str
-    
+        
 Required
 (
 "
@@ -129,7 +130,7 @@ original
 )
 :
 index_or_string
-    
+        
 Required
 (
 "
@@ -138,7 +139,7 @@ new
 )
 :
 index_or_string
-    
+        
 Optional
 (
 "
@@ -147,7 +148,7 @@ args
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -158,7 +159,7 @@ args
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -171,7 +172,7 @@ diff
 )
 :
 bool
-    
+        
 Optional
 (
 "
@@ -180,7 +181,7 @@ artifact
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -189,7 +190,7 @@ unpack
 )
 :
 bool
-    
+        
 Optional
 (
 "
@@ -204,7 +205,7 @@ commands
 [
 str
 ]
-    
+        
 Optional
 (
 "
@@ -226,7 +227,7 @@ on
 projects
 "
 ]
-    
+        
 Optional
 (
 "
@@ -252,7 +253,7 @@ repo
 type
 "
 ]
-    
+        
 Optional
 (
 "
@@ -266,6 +267,7 @@ task_description_schema
 optimization
 "
 ]
+    
 }
 )
 transforms
@@ -1164,8 +1166,9 @@ toolchain
 .
 extend
 (
-[
                 
+[
+                    
 "
 linux64
 -
@@ -1173,14 +1176,15 @@ cctools
 -
 port
 "
-                
+                    
 "
 linux64
 -
 libdmg
 "
-            
+                
 ]
+            
 )
         
 yield

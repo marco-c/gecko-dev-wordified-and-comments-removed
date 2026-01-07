@@ -1534,8 +1534,9 @@ json
 .
 dumps
 (
-{
             
+{
+                
 "
 _message
 "
@@ -1545,7 +1546,7 @@ socket
 message
 one
 "
-            
+                
 "
 action
 "
@@ -1553,7 +1554,7 @@ action
 "
 test_message
 "
-            
+                
 "
 _level
 "
@@ -1561,8 +1562,9 @@ _level
 "
 DEBUG
 "
-        
+            
 }
+        
 )
         
 message_string_two
@@ -1571,8 +1573,9 @@ json
 .
 dumps
 (
-{
             
+{
+                
 "
 _message
 "
@@ -1582,7 +1585,7 @@ socket
 message
 two
 "
-            
+                
 "
 action
 "
@@ -1590,7 +1593,7 @@ action
 "
 test_message
 "
-            
+                
 "
 _level
 "
@@ -1598,8 +1601,9 @@ _level
 "
 DEBUG
 "
-        
+            
 }
+        
 )
         
 message_string_three
@@ -1608,8 +1612,9 @@ json
 .
 dumps
 (
-{
             
+{
+                
 "
 _message
 "
@@ -1619,7 +1624,7 @@ socket
 message
 three
 "
-            
+                
 "
 action
 "
@@ -1627,7 +1632,7 @@ action
 "
 test_message
 "
-            
+                
 "
 _level
 "
@@ -1635,8 +1640,9 @@ _level
 "
 DEBUG
 "
-        
+            
 }
+        
 )
         
 message_string

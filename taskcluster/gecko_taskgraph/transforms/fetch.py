@@ -79,8 +79,9 @@ FETCH_SCHEMA
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -89,7 +90,7 @@ name
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -100,7 +101,7 @@ from
 )
 :
 str
-    
+        
 Required
 (
 "
@@ -109,16 +110,16 @@ description
 )
 :
 str
-    
+        
 Optional
 (
-        
+            
 "
 fetch
 -
 alias
 "
-        
+            
 description
 =
 "
@@ -137,7 +138,7 @@ job
 name
 in
 "
-        
+            
 "
 fetch
 stanzas
@@ -145,20 +146,20 @@ for
 jobs
 .
 "
-    
+        
 )
 :
 str
-    
+        
 Optional
 (
-        
+            
 "
 artifact
 -
 prefix
 "
-        
+            
 description
 =
 "
@@ -172,7 +173,7 @@ being
 uploaded
 .
 "
-        
+            
 "
 Defaults
 to
@@ -187,7 +188,7 @@ something
 other
 than
 "
-        
+            
 "
 public
 /
@@ -200,11 +201,11 @@ to
 access
 .
 "
-    
+        
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -217,7 +218,7 @@ str
 :
 object
 }
-    
+        
 Optional
 (
 "
@@ -243,7 +244,7 @@ repo
 type
 "
 ]
-    
+        
 Required
 (
 "
@@ -252,7 +253,7 @@ fetch
 )
 :
 {
-        
+            
 Required
 (
 "
@@ -261,12 +262,13 @@ type
 )
 :
 str
-        
+            
 Extra
 :
 object
-    
+        
 }
+    
 }
 )
 fetch_builders
@@ -1639,8 +1641,9 @@ command
 .
 extend
 (
-[
             
+[
+                
 "
 -
 -
@@ -1650,9 +1653,9 @@ sig
 -
 url
 "
-            
+                
 sig_url
-            
+                
 "
 -
 -
@@ -1662,12 +1665,13 @@ key
 -
 env
 "
-            
+                
 "
 FETCH_GPG_KEY
 "
-        
+            
 ]
+        
 )
     
 for
@@ -1703,15 +1707,16 @@ command
 .
 extend
 (
-[
         
+[
+            
 fetch
 [
 "
 url
 "
 ]
-        
+            
 "
 /
 builds
@@ -1725,8 +1730,9 @@ s
 "
 %
 artifact_name
-    
+        
 ]
+    
 )
     
 return
@@ -2591,6 +2597,8 @@ cd
 }
 &
 &
+"
+"
 /
 usr
 /
@@ -2910,6 +2918,8 @@ cd
 }
 &
 &
+"
+"
 /
 usr
 /

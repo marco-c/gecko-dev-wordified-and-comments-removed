@@ -181,27 +181,22 @@ sanitizedUrl
 =
 urlunparse
 (
-(
                 
+(
 parsedUrl
 .
 scheme
-                
 parsedUrl
 .
 netloc
-                
 parsedUrl
 .
 path
-                
 None
-                
 None
-                
 None
-            
 )
+            
 )
             
 normalizedUrl

@@ -754,6 +754,8 @@ filename
 "
         
 assert
+(
+            
 len
 (
 matches
@@ -761,8 +763,8 @@ matches
 =
 =
 1
-(
-            
+        
+)
 f
 "
 More
@@ -781,8 +783,6 @@ filename
 matches
 }
 "
-        
-)
         
 return
 matches

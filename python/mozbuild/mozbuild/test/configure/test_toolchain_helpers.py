@@ -637,8 +637,8 @@ pp
 =
 CompilerPreprocessor
 (
-{
             
+{
 "
 __has_attribute
 (
@@ -647,7 +647,6 @@ bar
 "
 :
 1
-            
 '
 __has_warning
 (
@@ -664,8 +663,8 @@ foo
 '
 :
 1
-        
 }
+        
 )
         
 pp
@@ -1839,8 +1838,9 @@ compiler
 =
 FakeCompiler
 (
-{
                 
+{
+                    
 None
 :
 {
@@ -1859,7 +1859,7 @@ B
 2
 "
 }
-                
+                    
 "
 -
 foo
@@ -1874,7 +1874,7 @@ C
 foo
 "
 }
-                
+                    
 "
 -
 bar
@@ -1896,7 +1896,7 @@ C
 bar
 "
 }
-                
+                    
 "
 -
 qux
@@ -1909,7 +1909,7 @@ B
 :
 False
 }
-                
+                    
 "
 *
 .
@@ -1925,8 +1925,9 @@ B
 42
 "
 }
-            
+                
 }
+            
 )
             
 self

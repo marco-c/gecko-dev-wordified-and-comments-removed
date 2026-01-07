@@ -994,8 +994,9 @@ sources
             
 set
 (
-[
                 
+[
+                    
 mozpath
 .
 join
@@ -1009,7 +1010,7 @@ mochitest
 toml
 "
 )
-                
+                    
 mozpath
 .
 join
@@ -1025,7 +1026,7 @@ common
 toml
 "
 )
-                
+                    
 mozpath
 .
 join
@@ -1039,10 +1040,11 @@ moz
 build
 "
 )
-                
+                    
 status_path
-            
+                
 ]
+            
 )
         
 )

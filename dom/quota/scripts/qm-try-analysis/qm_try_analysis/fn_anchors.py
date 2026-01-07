@@ -57,8 +57,9 @@ subprocess
 .
 check_output
 (
-[
             
+[
+                
 path
 .
 join
@@ -80,10 +81,11 @@ fetch_fn_names
 sh
 "
 )
-            
+                
 src_url
-        
+            
 ]
+        
 )
     
 else
@@ -203,8 +205,9 @@ functions
 .
 append
 (
+            
 {
-            
+                
 "
 name
 "
@@ -215,7 +218,7 @@ metrics_space
 name
 "
 ]
-            
+                
 "
 start_line
 "
@@ -229,7 +232,7 @@ start_line
 "
 ]
 )
-            
+                
 "
 end_line
 "
@@ -243,8 +246,9 @@ end_line
 "
 ]
 )
-        
+            
 }
+        
 )
     
 for

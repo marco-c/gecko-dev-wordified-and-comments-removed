@@ -195,8 +195,9 @@ return
 .
 join
 (
-[
         
+[
+            
 path_component
 [
 0
@@ -211,11 +212,12 @@ path_component
 1
 :
 ]
-        
+            
 for
 path_component
 in
 path_components
-    
+        
 ]
+    
 )

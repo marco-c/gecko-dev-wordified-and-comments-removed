@@ -56,8 +56,9 @@ json
 .
 dumps
 (
-{
         
+{
+            
 "
 status
 "
@@ -65,13 +66,13 @@ status
 "
 OK
 "
-        
+            
 "
 location
 "
 :
 {
-            
+                
 "
 lat
 "
@@ -79,7 +80,7 @@ lat
 37
 .
 41857
-            
+                
 "
 lng
 "
@@ -88,16 +89,17 @@ lng
 122
 .
 08769
-        
+            
 }
-        
+            
 "
 accuracy
 "
 :
 42
-    
+        
 }
+    
 )
 .
 encode

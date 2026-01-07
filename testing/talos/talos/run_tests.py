@@ -924,6 +924,7 @@ preferences
 "
 ]
 [
+                
 "
 dom
 .
@@ -933,13 +934,10 @@ time_to_non_blank_paint
 .
 enabled
 "
+            
 ]
 =
-(
-                
 True
-            
-)
         
 test
 [
@@ -1149,6 +1147,8 @@ autoconfig_url
 "
 ]
 =
+(
+        
 "
 "
 "
@@ -1197,6 +1197,7 @@ DIRECT
 "
 "
 "
+        
 %
 browser_config
 [
@@ -1204,6 +1205,8 @@ browser_config
 webserver
 "
 ]
+    
+)
     
 if
 config
@@ -1242,6 +1245,9 @@ coverage
 flag
 is
 only
+"
+                
+"
 supported
 in
 production
@@ -3165,40 +3171,42 @@ comp_results
 .
 append
 (
-{
             
+{
+                
 "
 index
 "
 :
 0
-            
+                
 "
 runs
 "
 :
 [
 ]
-            
+                
 "
 page
 "
 :
 sub_test_name
-            
+                
 "
 base_runs
 "
 :
 base_result_runs
-            
+                
 "
 ref_runs
 "
 :
 ref_result_runs
-        
+            
 }
+        
 )
         
 _index

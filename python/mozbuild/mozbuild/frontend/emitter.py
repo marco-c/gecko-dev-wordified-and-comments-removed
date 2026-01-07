@@ -4285,17 +4285,18 @@ _linkage
 .
 append
 (
+                    
 (
-                    
+                        
 context
-                    
+                        
 self
 .
 _binaries
 [
 program
 ]
-                    
+                        
 kind
 .
 replace
@@ -4307,8 +4308,9 @@ PROGRAM
 USE_LIBS
 "
 )
-                
+                    
 )
+                
 )
                 
 add_program
@@ -4516,17 +4518,18 @@ _linkage
 .
 append
 (
+                        
 (
-                        
+                            
 context
-                        
+                            
 self
 .
 _binaries
 [
 program
 ]
-                        
+                            
 kind
 .
 replace
@@ -4538,8 +4541,9 @@ RUST_PROGRAMS
 USE_LIBS
 "
 )
-                    
+                        
 )
+                    
 )
                     
 add_program
@@ -4674,21 +4678,24 @@ _linkage
 .
 append
 (
+                    
 (
-                    
+                        
 context
-                    
+                        
 self
 .
 _binaries
 [
 program
 ]
-                    
+                        
 (
+                            
 "
 HOST_USE_LIBS
 "
+                            
 if
 kind
 =
@@ -4696,13 +4703,16 @@ kind
 "
 HOST_SIMPLE_PROGRAMS
 "
+                            
 else
 "
 USE_LIBS
 "
+                        
+)
+                    
 )
                 
-)
 )
                 
 add_program
@@ -5011,6 +5021,9 @@ FINAL_LIBRARY
 implies
 FORCE_STATIC_LIB
 .
+"
+                    
+"
 Please
 remove
 the
@@ -5036,6 +5049,9 @@ conflicts
 with
 FORCE_SHARED_LIB
 .
+"
+                    
+"
 Please
 remove
 one
@@ -5060,6 +5076,8 @@ conflicts
 with
 IS_FRAMEWORK
 .
+"
+"
 Please
 remove
 one
@@ -5105,6 +5123,8 @@ conflicts
 with
 SONAME
 .
+"
+"
 Please
 remove
 one
@@ -5969,6 +5989,8 @@ SandboxValidationError
 LIBRARY_DEFINES
 needs
 a
+"
+"
 LIBRARY_NAME
 to
 take
@@ -6440,6 +6462,9 @@ Source
 file
 should
 only
+"
+                        
+"
 be
 added
 to
@@ -6562,6 +6587,9 @@ in
 s
 does
 not
+"
+                        
+"
 exist
 :
 '
@@ -6786,6 +6814,8 @@ SOURCES
 ]
 .
 no_pgo
+"
+"
 cannot
 be
 set
@@ -7878,8 +7908,8 @@ LDFLAGS
 .
 extend
 (
-[
                     
+[
 (
 "
 -
@@ -7900,8 +7930,8 @@ context
 DELAYLOAD_DLLS
 "
 ]
-                
 ]
+                
 )
             
 else
@@ -7916,8 +7946,9 @@ LDFLAGS
 .
 extend
 (
-[
                     
+[
+                        
 (
 "
 -
@@ -7934,7 +7965,7 @@ s
 %
 dll
 )
-                    
+                        
 for
 dll
 in
@@ -7944,8 +7975,9 @@ context
 DELAYLOAD_DLLS
 "
 ]
-                
+                    
 ]
+                
 )
             
 context
@@ -9302,8 +9334,9 @@ generated_files
 .
 update
 (
-[
             
+[
+                
 "
 %
 s
@@ -9328,7 +9361,7 @@ BIN_SUFFIX
 "
 )
 )
-            
+                
 for
 k
 in
@@ -9339,8 +9372,9 @@ _binaries
 keys
 (
 )
-        
+            
 ]
+        
 )
         
 processed_moz_src_files
@@ -10116,6 +10150,8 @@ used
 with
 DIST_SUBDIR
 or
+"
+"
 XPI_NAME
 .
 "
@@ -10661,6 +10697,8 @@ must
 be
 defined
 if
+"
+"
 XPIDL_SOURCES
 is
 defined
@@ -10692,6 +10730,8 @@ XPIDL_MODULE
 cannot
 be
 defined
+"
+"
 unless
 there
 are
@@ -10788,6 +10828,8 @@ File
 s
 from
 XPIDL_SOURCES
+"
+"
 does
 not
 exist
@@ -11686,15 +11728,16 @@ deferred_installs
 if
 all
 (
-[
                         
+[
+                            
 "
 *
 "
 not
 in
 install_path
-                        
+                            
 not
 os
 .
@@ -11702,7 +11745,7 @@ path
 .
 isfile
 (
-                            
+                                
 mozpath
 .
 join
@@ -11718,17 +11761,18 @@ install_path
 :
 ]
 )
-                        
+                            
 )
-                        
+                            
 install_path
 not
 in
 install_info
 .
 external_installs
-                    
+                        
 ]
+                    
 )
 :
                         
@@ -12221,6 +12265,9 @@ JAR_MANIFESTS
 is
 a
 list
+"
+                
+"
 it
 is
 currently

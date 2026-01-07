@@ -1018,6 +1018,9 @@ passed
 to
 rcodesign
 without
+"
+    
+"
 validation
 .
 "
@@ -1229,6 +1232,8 @@ with
 no
 p12
 file
+"
+"
 use
 both
 or
@@ -1283,6 +1288,8 @@ no
 p12
 password
 file
+"
+"
 use
 both
 or
@@ -1359,6 +1366,9 @@ signing
 not
 supported
 with
+"
+            
+"
 native
 codesign
 only
@@ -1423,6 +1433,8 @@ rcodesign
 requires
 pkcs12
 or
+"
+"
 ad
 -
 hoc
@@ -1475,6 +1487,8 @@ hoc
 and
 pkcs12
 signing
+"
+"
 requested
 "
             
@@ -1543,6 +1557,8 @@ sign
 "
 ERROR
 :
+"
+"
 Production
 entitlements
 and
@@ -1550,6 +1566,8 @@ self
 -
 signing
 are
+"
+"
 not
 compatible
 "

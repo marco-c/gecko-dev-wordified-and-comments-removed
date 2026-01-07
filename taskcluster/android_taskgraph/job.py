@@ -118,8 +118,9 @@ gradlew_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -130,7 +131,7 @@ using
 "
 gradlew
 "
-    
+        
 Optional
 (
 "
@@ -145,7 +146,7 @@ gradlew
 str
 ]
 ]
-    
+        
 Required
 (
 "
@@ -156,7 +157,7 @@ gradlew
 [
 str
 ]
-    
+        
 Optional
 (
 "
@@ -171,7 +172,7 @@ gradlew
 str
 ]
 ]
-    
+        
 Required
 (
 "
@@ -180,7 +181,7 @@ workdir
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -197,7 +198,7 @@ bool
 str
 ]
 )
-    
+        
 Optional
 (
 "
@@ -208,7 +209,7 @@ secrets
 [
 secret_schema
 ]
-    
+        
 Optional
 (
 "
@@ -221,14 +222,16 @@ secrets
 [
 dummy_secret_schema
 ]
+    
 }
 )
 run_commands_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -241,7 +244,7 @@ run
 -
 commands
 "
-    
+        
 Optional
 (
 "
@@ -256,7 +259,7 @@ commands
 str
 ]
 ]
-    
+        
 Required
 (
 "
@@ -269,7 +272,7 @@ commands
 taskref_or_string
 ]
 ]
-    
+        
 Required
 (
 "
@@ -278,7 +281,7 @@ workdir
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -295,7 +298,7 @@ bool
 str
 ]
 )
-    
+        
 Optional
 (
 "
@@ -306,7 +309,7 @@ secrets
 [
 secret_schema
 ]
-    
+        
 Optional
 (
 "
@@ -319,6 +322,7 @@ secrets
 [
 dummy_secret_schema
 ]
+    
 }
 )
 run_job_using
@@ -563,8 +567,9 @@ env
 .
 update
 (
-{
         
+{
+            
 "
 ANDROID_SDK_ROOT
 "
@@ -582,7 +587,7 @@ sdk
 linux
 "
 )
-        
+            
 "
 GRADLE_USER_HOME
 "
@@ -591,7 +596,7 @@ path
 .
 join
 (
-            
+                
 topsrc_dir
 "
 mobile
@@ -604,9 +609,9 @@ dotgradle
 -
 offline
 "
-        
+            
 )
-        
+            
 "
 MOZ_BUILD_DATE
 "
@@ -619,8 +624,9 @@ params
 moz_build_date
 "
 ]
-    
+        
 }
+    
 )
     
 worker
@@ -751,8 +757,9 @@ env
 .
 update
 (
-{
         
+{
+            
 "
 PRE_GRADLEW
 "
@@ -772,7 +779,7 @@ gradlew
 ]
 )
 )
-        
+            
 "
 GET_SECRETS
 "
@@ -783,7 +790,7 @@ dummy_secrets
 +
 secrets
 )
-        
+            
 "
 GRADLEW_ARGS
 "
@@ -802,7 +809,7 @@ gradlew
 "
 )
 )
-        
+            
 "
 POST_GRADLEW
 "
@@ -822,8 +829,9 @@ gradlew
 ]
 )
 )
-    
+        
 }
+    
 )
     
 run

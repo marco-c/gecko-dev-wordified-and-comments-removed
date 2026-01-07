@@ -322,8 +322,9 @@ defines
 .
 update
 (
-{
             
+{
+                
 "
 AB_CD
 "
@@ -333,8 +334,9 @@ en
 -
 US
 "
-        
+            
 }
+        
 )
         
 return
@@ -698,12 +700,14 @@ files
 =
 set
 (
-[
                     
+[
+                        
 mozpath
 .
 normpath
 (
+                            
 mozpath
 .
 join
@@ -715,8 +719,9 @@ config_environment
 topsrcdir
 f
 )
+                        
 )
-                    
+                        
 for
 f
 in
@@ -730,8 +735,9 @@ files
 [
 ]
 )
-                
+                    
 ]
+                
 )
         
 return

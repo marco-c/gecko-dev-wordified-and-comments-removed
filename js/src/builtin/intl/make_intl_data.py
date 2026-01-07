@@ -3,6 +3,7 @@
 "
 Usage
 :
+    
 make_intl_data
 .
 py
@@ -12,27 +13,33 @@ cldr_common
 .
 zip
 ]
+    
 make_intl_data
 .
 py
 tzdata
+    
 make_intl_data
 .
 py
 currency
+    
 make_intl_data
 .
 py
 units
+    
 make_intl_data
 .
 py
 numbering
+    
 Target
 "
 langtags
 "
 :
+    
 This
 script
 extracts
@@ -44,6 +51,7 @@ mappings
 between
 deprecated
 and
+    
 current
 Unicode
 BCP
@@ -56,6 +64,7 @@ and
 deprecated
 and
 current
+    
 BCP
 47
 Unicode
@@ -71,6 +80,7 @@ C
 +
 +
 mapping
+    
 code
 in
 intl
@@ -86,6 +96,7 @@ code
 is
 used
 in
+    
 intl
 /
 components
@@ -94,11 +105,13 @@ Locale
 .
 cpp
 .
+    
 Target
 "
 tzdata
 "
 :
+    
 This
 script
 computes
@@ -115,6 +128,7 @@ to
 date
 in
 ICU
+    
 and
 provides
 the
@@ -125,6 +139,7 @@ workaround
 this
 problem
 .
+    
 https
 :
 /
@@ -142,11 +157,13 @@ trac
 ticket
 /
 12044
+    
 Target
 "
 currency
 "
 :
+    
 Generates
 the
 mapping
@@ -160,11 +177,13 @@ used
 for
 them
 .
+    
 Target
 "
 units
 "
 :
+    
 Generate
 source
 and
@@ -180,6 +199,7 @@ called
 "
 sanctioned
 unit
+    
 identifiers
 "
 and
@@ -193,11 +213,13 @@ includes
 these
 units
 .
+    
 Target
 "
 numbering
 "
 :
+    
 Generate
 source
 and
@@ -210,6 +232,7 @@ of
 numbering
 systems
 with
+    
 simple
 digit
 mappings
@@ -720,10 +743,12 @@ println
 .
 lstrip
 (
+            
 "
 \
 n
 "
+        
 )
     
 )
@@ -971,10 +996,12 @@ length
 .
 rstrip
 (
+                    
 "
 \
 n
 "
+                
 )
             
 )
@@ -1000,27 +1027,15 @@ println
 .
 rstrip
 (
+                    
 "
 \
 n
 "
+                
 )
             
 )
-        
-#
-The
-subtags
-need
-to
-be
-sorted
-for
-binary
-search
-to
-work
-.
         
 subtags
 =
@@ -1056,19 +1071,6 @@ subtag
 "
 "
 "
-        
-#
-Don
-'
-t
-emit
-a
-binary
-search
-for
-short
-lists
-.
         
 if
 len
@@ -1154,10 +1156,12 @@ false
 .
 strip
 (
+                        
 "
 \
 n
 "
+                    
 )
                 
 )
@@ -1190,10 +1194,12 @@ subtags
 .
 strip
 (
+                        
 "
 \
 n
 "
+                    
 )
                 
 )
@@ -1272,10 +1278,12 @@ true
 .
 strip
 (
+                            
 "
 \
 n
 "
+                        
 )
                     
 )
@@ -1296,10 +1304,12 @@ false
 .
 strip
 (
+                        
 "
 \
 n
 "
+                    
 )
                 
 )
@@ -1369,10 +1379,12 @@ cond
 .
 strip
 (
+                        
 "
 \
 n
 "
+                    
 )
                 
 )
@@ -1533,10 +1545,12 @@ println
 .
 strip
 (
+                
 "
 \
 n
 "
+            
 )
         
 )
@@ -1867,10 +1881,12 @@ cond
 .
 strip
 (
+                
 "
 \
 n
 "
+            
 )
         
 )
@@ -1898,10 +1914,12 @@ language
 .
 strip
 (
+                
 "
 \
 n
 "
+            
 )
         
 )
@@ -1952,10 +1970,12 @@ script
 .
 strip
 (
+                    
 "
 \
 n
 "
+                
 )
             
 )
@@ -2006,10 +2026,12 @@ region
 .
 strip
 (
+                    
 "
 \
 n
 "
+                
 )
             
 )
@@ -2028,10 +2050,12 @@ println
 .
 strip
 (
+                
 "
 \
 n
 "
+            
 )
         
 )
@@ -2049,10 +2073,12 @@ println
 .
 strip
 (
+            
 "
 \
 n
 "
+        
 )
     
 )
@@ -2418,10 +2444,12 @@ cond
 .
 strip
 (
+                
 "
 \
 n
 "
+            
 )
         
 )
@@ -2430,8 +2458,8 @@ replacement_regions
 =
 sorted
 (
-{
             
+{
 region
 for
 (
@@ -2441,8 +2469,8 @@ region
 )
 in
 non_default_replacements
-        
 }
+        
 )
         
 first_case
@@ -2656,10 +2684,12 @@ rstrip
 .
 strip
 (
+                    
 "
 \
 n
 "
+                
 )
             
 )
@@ -2701,10 +2731,12 @@ rstrip
 .
 strip
 (
+                
 "
 \
 n
 "
+            
 )
         
 )
@@ -2722,10 +2754,12 @@ println
 .
 strip
 (
+            
 "
 \
 n
 "
+        
 )
     
 )
@@ -3269,10 +3303,12 @@ i
 .
 strip
 (
+            
 "
 \
 n
 "
+        
 )
     
 )
@@ -3342,10 +3378,12 @@ i
 .
 strip
 (
+                
 "
 \
 n
 "
+            
 )
         
 )
@@ -3382,10 +3420,12 @@ replacement
 .
 strip
 (
+                    
 "
 \
 n
 "
+                
 )
             
 )
@@ -3422,10 +3462,12 @@ replacement
 .
 strip
 (
+                    
 "
 \
 n
 "
+                
 )
             
 )
@@ -3482,10 +3524,12 @@ false
 .
 strip
 (
+                    
 "
 \
 n
 "
+                
 )
             
 )
@@ -3504,10 +3548,12 @@ println
 .
 strip
 (
+                
 "
 \
 n
 "
+            
 )
         
 )
@@ -3541,10 +3587,12 @@ true
 .
 strip
 (
+            
 "
 \
 n
 "
+        
 )
     
 )
@@ -3727,9 +3775,6 @@ true
 ;
   
 }
-#
-ifdef
-DEBUG
   
 for
 (
@@ -3763,8 +3808,6 @@ variant
 ;
   
 }
-#
-endif
   
 /
 /
@@ -4205,6 +4248,14 @@ pIndex
     
 )
     
+#
+Helper
+class
+for
+pattern
+matching
+.
+    
 class
 AnyClass
 :
@@ -4228,6 +4279,14 @@ Any
 AnyClass
 (
 )
+    
+#
+Group
+the
+mappings
+by
+language
+.
     
 legacy_mappings_by_language
 =
@@ -4268,11 +4327,32 @@ type
 =
 replacement
     
+#
+Handle
+the
+empty
+language
+case
+first
+.
+    
 if
 None
 in
 legacy_mappings_by_language
 :
+        
+#
+Get
+the
+mappings
+and
+remove
+them
+from
+the
+dict
+.
         
 mappings
 =
@@ -4282,6 +4362,33 @@ pop
 (
 None
 )
+        
+#
+This
+case
+only
+applies
+for
+the
+"
+hepburn
+-
+heploc
+"
+-
+>
+"
+alalc97
+"
+        
+#
+mapping
+so
+just
+inline
+it
+here
+.
         
 from_tag
 =
@@ -4567,10 +4674,12 @@ rstrip
 .
 lstrip
 (
+                
 "
 \
 n
 "
+            
 )
         
 )
@@ -4869,10 +4978,12 @@ rstrip
 .
 lstrip
 (
+                
 "
 \
 n
 "
+            
 )
         
 )
@@ -5083,10 +5194,12 @@ rstrip
 .
 lstrip
 (
+                            
 "
 \
 n
 "
+                        
 )
                     
 )
@@ -5174,10 +5287,12 @@ rstrip
 .
 lstrip
 (
+                        
 "
 \
 n
 "
+                    
 )
                 
 )
@@ -5224,10 +5339,12 @@ rstrip
 .
 lstrip
 (
+                            
 "
 \
 n
 "
+                        
 )
                     
 )
@@ -5250,10 +5367,12 @@ rstrip
 .
 lstrip
 (
+                
 "
 \
 n
 "
+            
 )
         
 )
@@ -5959,12 +6078,14 @@ language_id
 )
         
 assert
+(
+            
 match
 is
 not
 None
-(
-            
+        
+)
 f
 "
 {
@@ -5977,8 +6098,6 @@ BCP
 locale
 identifier
 "
-        
-)
         
 canonical_language_id
 =
@@ -6219,12 +6338,14 @@ replacements
 ]
                 
 assert
+(
+                    
 type
 not
 in
 territory_exception_rules
-(
-                    
+                
+)
 f
 "
 Duplicate
@@ -6235,8 +6356,6 @@ rule
 type
 }
 "
-                
-)
                 
 territory_exception_rules
 [
@@ -7025,11 +7144,13 @@ subtag
 "
                 
 assert
+(
+                    
 r_variants
 is
 None
-(
-                    
+                
+)
 f
 "
 Unhandled
@@ -7043,8 +7164,6 @@ alias
 replacement
 }
 "
-                
-)
                 
 if
 replacement
@@ -7088,12 +7207,14 @@ None
 :
                 
 assert
+(
+                    
 r_script
 is
 not
 None
-(
-                    
+                
+)
 f
 "
 Can
@@ -7108,8 +7229,6 @@ subtag
 replacement
 }
 "
-                
-)
                 
 assert
 replacement
@@ -7154,12 +7273,14 @@ None
 :
                 
 assert
+(
+                    
 r_region
 is
 not
 None
-(
-                    
+                
+)
 f
 "
 Can
@@ -7174,8 +7295,6 @@ subtag
 replacement
 }
 "
-                
-)
                 
 assert
 replacement
@@ -7272,6 +7391,8 @@ split
 1
                 
 assert
+(
+                    
 multi_map_size
 (
 replacement
@@ -7279,8 +7400,8 @@ replacement
 <
 =
 1
-(
-                    
+                
+)
 f
 "
 Unhandled
@@ -7293,8 +7414,6 @@ alias
 replacement
 }
 "
-                
-)
                 
 if
 r_language
@@ -7558,12 +7677,14 @@ from_tag
 )
         
 assert
+(
+            
 from_match
 is
 not
 None
-(
-            
+        
+)
 f
 "
 {
@@ -7577,9 +7698,9 @@ locale
 identifier
 "
         
-)
-        
 assert
+(
+            
 from_match
 .
 group
@@ -7590,8 +7711,8 @@ variants
 )
 is
 None
-(
-            
+        
+)
 f
 "
 unexpected
@@ -7602,8 +7723,6 @@ in
 from_tag
 }
 "
-        
-)
         
 to_tag
 =
@@ -7629,12 +7748,14 @@ to_tag
 )
         
 assert
+(
+            
 to_match
 is
 not
 None
-(
-            
+        
+)
 f
 "
 {
@@ -7648,9 +7769,9 @@ locale
 identifier
 "
         
-)
-        
 assert
+(
+            
 to_match
 .
 group
@@ -7661,8 +7782,8 @@ variants
 )
 is
 None
-(
-            
+        
+)
 f
 "
 unexpected
@@ -7673,8 +7794,6 @@ in
 to_tag
 }
 "
-        
-)
         
 from_canonical
 =
@@ -8249,6 +8368,8 @@ PRIVATE_USE
 continue
                 
 assert
+(
+                    
 typeRE
 .
 match
@@ -8258,8 +8379,8 @@ name
 is
 not
 None
-(
-                    
+                
+)
 f
 "
 {
@@ -8272,8 +8393,6 @@ type
 '
 production
 "
-                
-)
                 
 preferred
 =
@@ -8462,6 +8581,8 @@ type
 )
             
 assert
+(
+                
 typeRE
 .
 match
@@ -8471,8 +8592,8 @@ type
 is
 not
 None
-(
-                
+            
+)
 f
 "
 {
@@ -8485,8 +8606,6 @@ type
 '
 production
 "
-            
-)
             
 replacement
 =
@@ -8532,6 +8651,8 @@ zzzz
 "
             
 assert
+(
+                
 typeRE
 .
 match
@@ -8541,8 +8662,8 @@ replacement
 is
 not
 None
-(
-                
+            
+)
 f
 "
 replacement
@@ -8556,8 +8677,6 @@ type
 '
 production
 "
-            
-)
             
 mapping
 [
@@ -10292,12 +10411,14 @@ now
 .
             
 assert
+(
+                
 region
 not
 in
 complex_region_mappings
-(
-                
+            
+)
 f
 "
 unexpected
@@ -10310,8 +10431,6 @@ mappings
 region
 }
 "
-            
-)
         
 return
 (
@@ -20583,10 +20702,12 @@ Length
 .
 rstrip
 (
+            
 "
 \
 n
 "
+        
 )
     
 )
@@ -21050,10 +21171,12 @@ nullptr
 .
 rstrip
 (
+                
 "
 \
 n
 "
+            
 )
         
 )
@@ -21583,10 +21706,12 @@ cond
 .
 strip
 (
+                
 "
 \
 n
 "
+            
 )
         
 )
@@ -21707,10 +21832,12 @@ type
 .
 strip
 (
+                    
 "
 \
 n
 "
+                
 )
             
 )
@@ -21768,10 +21895,12 @@ replacement
 .
 strip
 (
+                        
 "
 \
 n
 "
+                    
 )
                 
 )
@@ -21790,10 +21919,12 @@ println
 .
 lstrip
 (
+                
 "
 \
 n
 "
+            
 )
         
 )
@@ -21815,10 +21946,12 @@ nullptr
 .
 strip
 (
+            
 "
 \
 n
 "
+        
 )
     
 )
@@ -23209,10 +23342,12 @@ endif
 .
 strip
 (
+                
 "
 \
 n
 "
+            
 )
         
 )
@@ -23477,10 +23612,12 @@ true
 .
 format
 (
+                    
 "
 "
 *
 indent
+                
 )
             
 )
@@ -25770,10 +25907,10 @@ all_numbering_systems_simple_digits
 .
 issuperset
 (
-numbering_systems
-)
-(
         
+numbering_systems
+    
+)
 f
 "
 {
@@ -25785,18 +25922,16 @@ all_numbering_systems_simple_digits
 )
 }
 "
-    
-)
     
 assert
 all_numbering_systems_simple_digits
 .
 issubset
 (
-numbering_systems
-)
-(
         
+numbering_systems
+    
+)
 f
 "
 {
@@ -25808,8 +25943,6 @@ numbering_systems
 )
 }
 "
-    
-)
     
 writeNumberingSystemFiles
 (
@@ -26435,6 +26568,9 @@ list
 (
 default
 :
+"
+        
+"
 %
 (
 default

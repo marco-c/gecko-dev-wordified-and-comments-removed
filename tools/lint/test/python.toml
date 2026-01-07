@@ -15,6 +15,13 @@ py
 ]
 [
 "
+test_black
+.
+py
+"
+]
+[
+"
 test_cargo
 -
 audit
@@ -266,13 +273,6 @@ py
 [
 "
 test_ruff
-.
-py
-"
-]
-[
-"
-test_ruff_format
 .
 py
 "

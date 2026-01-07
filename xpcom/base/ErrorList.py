@@ -8122,6 +8122,7 @@ uint32_t
 .
 format
 (
+            
 "
 \
 n
@@ -8131,6 +8132,7 @@ join
 (
 items
 )
+        
 )
     
 )
@@ -8194,6 +8196,7 @@ ErrorList_h__
 .
 format
 (
+            
 "
 \
 n
@@ -8203,6 +8206,7 @@ join
 (
 items
 )
+        
 )
     
 )

@@ -97,8 +97,9 @@ beetmover_description_schema
 =
 Schema
 (
+    
 {
-    
+        
 Required
 (
 "
@@ -112,7 +113,7 @@ task_description_schema
 attributes
 "
 ]
-    
+        
 Required
 (
 "
@@ -126,7 +127,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Required
 (
 "
@@ -135,7 +136,7 @@ label
 )
 :
 str
-    
+        
 Required
 (
 "
@@ -144,7 +145,7 @@ name
 )
 :
 str
-    
+        
 Required
 (
 "
@@ -162,7 +163,7 @@ shipping
 phase
 "
 ]
-    
+        
 Required
 (
 "
@@ -180,6 +181,7 @@ task
 from
 "
 ]
+    
 }
 )
 transforms

@@ -2219,10 +2219,12 @@ html
 .
 strip
 (
+        
 "
 \
 n
 "
+    
 )
     
 logger

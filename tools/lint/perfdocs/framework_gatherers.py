@@ -3266,7 +3266,7 @@ run_on_projects
 else
 "
 \
-u274c
+u274C
 "
                             
 )
@@ -3912,8 +3912,8 @@ replace
 .
 update
 (
-{
                     
+{
 cleaned_name
 :
 {
@@ -3926,8 +3926,8 @@ str
 path
 )
 }
-                
 }
+                
 )
         
 return
@@ -5042,7 +5042,7 @@ run_on_projects
 else
 "
 \
-u274c
+u274C
 "
                         
 )

@@ -3213,8 +3213,9 @@ results
 .
 append
 (
+                
 {
-                
+                    
 "
 state
 "
@@ -3225,7 +3226,7 @@ result
 state
 "
 ]
-                
+                    
 "
 name
 "
@@ -3236,7 +3237,7 @@ result
 name
 "
 ]
-                
+                    
 "
 message
 "
@@ -3247,7 +3248,7 @@ result
 message
 "
 ]
-                
+                    
 "
 logdata
 "
@@ -3258,8 +3259,9 @@ result
 logdata
 "
 ]
-            
+                
 }
+            
 )
             
 if

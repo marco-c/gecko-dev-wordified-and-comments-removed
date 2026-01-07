@@ -740,8 +740,9 @@ artifacts
 .
 append
 (
-{
             
+{
+                
 "
 paths
 "
@@ -750,7 +751,7 @@ sorted
 (
 upstream_files
 )
-            
+                
 "
 taskId
 "
@@ -764,21 +765,22 @@ reference
 :
 task_ref
 }
-            
+                
 "
 taskType
 "
 :
 task_type
-            
+                
 "
 formats
 "
 :
 [
 ]
-        
+            
 }
+        
 )
         
 yield

@@ -525,6 +525,7 @@ good
 }
 good
 [
+    
 "
 static_pref_list_all_h
 "
@@ -577,6 +578,7 @@ h
 "
 good
 [
+    
 "
 static_prefs_all_h
 "
@@ -1008,6 +1010,7 @@ mozilla_StaticPrefs_my_h
 }
 good
 [
+    
 "
 static_prefs_c_getters_cpp
 "
@@ -1146,6 +1149,7 @@ preflock
 "
 good
 [
+    
 "
 static_prefs_rs
 "

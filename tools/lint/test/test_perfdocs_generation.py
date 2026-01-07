@@ -499,8 +499,6 @@ return_value
 sample_gatherer_result
             
 with
-(
-                
 perfdocs_sample
 [
 "
@@ -516,12 +514,13 @@ w
 )
 as
 f1
-                
 perfdocs_sample
 [
+                
 "
 config_metrics
 "
+            
 ]
 .
 open
@@ -532,8 +531,6 @@ r
 )
 as
 f2
-            
-)
 :
                 
 f1
@@ -566,16 +563,18 @@ _gatherer
 .
 framework_gatherers
 [
-                
 "
 raptor
 "
-            
 ]
 .
 _descriptions
 =
+(
+                
 sample_test_list_result
+            
+)
         
 generator
 =

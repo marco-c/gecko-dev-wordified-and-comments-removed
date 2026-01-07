@@ -106,8 +106,9 @@ beetmover_description_schema
 =
 Schema
 (
-{
     
+{
+        
 Optional
 (
 "
@@ -118,7 +119,7 @@ from
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -127,7 +128,7 @@ name
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -141,7 +142,7 @@ task_description_schema
 attributes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -155,7 +156,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Required
 (
 "
@@ -169,7 +170,7 @@ build
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -178,7 +179,7 @@ label
 )
 :
 str
-    
+        
 Required
 (
 "
@@ -189,7 +190,7 @@ path
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -198,7 +199,7 @@ extra
 )
 :
 object
-    
+        
 Required
 (
 "
@@ -216,7 +217,7 @@ shipping
 phase
 "
 ]
-    
+        
 Optional
 (
 "
@@ -234,7 +235,7 @@ shipping
 product
 "
 ]
-    
+        
 Optional
 (
 "
@@ -248,7 +249,7 @@ task_description_schema
 priority
 "
 ]
-    
+        
 Optional
 (
 "
@@ -274,6 +275,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms
@@ -863,8 +865,9 @@ upstream_artifacts
 .
 append
 (
-{
             
+{
+                
 "
 taskId
 "
@@ -885,7 +888,7 @@ attribution_task_kind
 >
 "
 }
-            
+                
 "
 taskType
 "
@@ -893,7 +896,7 @@ taskType
 "
 repackage
 "
-            
+                
 "
 paths
 "
@@ -901,7 +904,7 @@ paths
 [
 artifact
 ]
-            
+                
 "
 locale
 "
@@ -910,26 +913,27 @@ partner_path
 .
 format
 (
-                
+                    
 partner
 =
 partner
-                
+                    
 subpartner
 =
 subpartner
-                
+                    
 platform
 =
 platform
-                
+                    
 locale
 =
 locale
-            
+                
 )
-        
+            
 }
+        
 )
     
 if

@@ -171,21 +171,17 @@ cmd
     
 check_call
 (
+        
 [
-        
 hg
-        
 "
 parent
 "
-        
 "
 -
 R
 "
-        
 fulldir
-        
 "
 -
 -
@@ -201,8 +197,8 @@ node
 \
 n
 "
-    
 ]
+    
 )
 def
 do_hg_replace
