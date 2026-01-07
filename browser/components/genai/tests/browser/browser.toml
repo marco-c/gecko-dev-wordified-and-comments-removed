@@ -279,6 +279,13 @@ standalone
 ]
 [
 "
+browser_chat_prompt
+.
+js
+"
+]
+[
+"
 browser_chat_request
 .
 js
