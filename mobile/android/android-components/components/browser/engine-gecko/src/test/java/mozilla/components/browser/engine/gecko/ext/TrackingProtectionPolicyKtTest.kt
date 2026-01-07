@@ -462,11 +462,8 @@ queryParameterStrippingStripList
 Test
 fun
 getEtpLevel
-is
-always
-Strict
-unless
-None
+reflects
+TrackingProtectionPolicy
 (
 )
 {
@@ -474,7 +471,7 @@ assertEquals
 (
 EtpLevel
 .
-STRICT
+DEFAULT
 TrackingProtectionPolicy
 .
 recommended

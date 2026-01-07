@@ -5977,18 +5977,11 @@ Test
 fun
 setEnhancedTrackingProtectionLevel
 MUST
-always
-be
-set
-to
-STRICT
-unless
+reflect
 the
 tracking
 protection
 policy
-is
-none
 (
 )
 {
@@ -6080,7 +6073,7 @@ ContentBlocking
 .
 EtpLevel
 .
-STRICT
+DEFAULT
 )
 reset
 (
@@ -6115,7 +6108,7 @@ ContentBlocking
 .
 EtpLevel
 .
-STRICT
+DEFAULT
 )
 reset
 (
@@ -6139,9 +6132,6 @@ mockRuntime
 settings
 .
 contentBlocking
-never
-(
-)
 )
 .
 setEnhancedTrackingProtectionLevel
