@@ -4016,6 +4016,7 @@ aNonAutoAlignParams
 safetyBits
 &
 &
+(
 rawAlignConst
 !
 =
@@ -4023,6 +4024,16 @@ StyleAlignFlags
 :
 :
 AUTO
+|
+|
+alignConst
+=
+=
+StyleAlignFlags
+:
+:
+ANCHOR_CENTER
+)
 )
 {
 const
