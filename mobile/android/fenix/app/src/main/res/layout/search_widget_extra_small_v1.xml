@@ -186,6 +186,13 @@ layout_height
 "
 android
 :
+padding
+=
+"
+12dp
+"
+android
+:
 layout_gravity
 =
 "
@@ -214,7 +221,7 @@ src
 "
 drawable
 /
-ic_launcher_foreground
+ic_firefox
 "
 /
 >

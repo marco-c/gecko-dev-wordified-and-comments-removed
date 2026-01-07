@@ -176,6 +176,13 @@ layout_height
 "
 android
 :
+padding
+=
+"
+12dp
+"
+android
+:
 layout_gravity
 =
 "
