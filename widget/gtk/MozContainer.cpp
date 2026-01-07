@@ -241,7 +241,7 @@ moz_container_type
 =
 g_type_register_static
 (
-GTK_TYPE_CONTAINER
+GTK_TYPE_WIDGET
 "
 MozContainer
 "

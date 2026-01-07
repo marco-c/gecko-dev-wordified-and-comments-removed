@@ -176,8 +176,8 @@ MozContainerClass
 struct
 _MozContainer
 {
-GtkContainer
-container
+GtkWidget
+widget
 ;
 gboolean
 destroyed
@@ -196,7 +196,7 @@ endif
 struct
 _MozContainerClass
 {
-GtkContainerClass
+GtkWidgetClass
 parent_class
 ;
 }
