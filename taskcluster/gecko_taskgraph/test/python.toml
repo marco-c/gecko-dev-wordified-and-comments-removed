@@ -29,6 +29,13 @@ py
 ]
 [
 "
+test_files_changed
+.
+py
+"
+]
+[
+"
 test_main
 .
 py
