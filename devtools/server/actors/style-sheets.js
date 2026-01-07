@@ -188,9 +188,6 @@ return
 traits
 :
 {
-hasGetStyleSheetIndentation
-:
-true
 }
 }
 ;
