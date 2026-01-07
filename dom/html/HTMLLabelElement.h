@@ -147,17 +147,11 @@ aHtmlFor
 }
 nsGenericHTMLElement
 *
-GetControl
+GetControlForBindings
 (
 )
 const
-{
-return
-GetLabeledElement
-(
-)
 ;
-}
 using
 nsGenericHTMLElement
 :
@@ -233,7 +227,7 @@ override
 ;
 nsGenericHTMLElement
 *
-GetLabeledElement
+GetLabeledElementInternal
 (
 )
 const

@@ -666,6 +666,11 @@ DOMString
 error
 )
 ;
+[
+BinaryName
+=
+labelsForBindings
+]
 readonly
 attribute
 NodeList
