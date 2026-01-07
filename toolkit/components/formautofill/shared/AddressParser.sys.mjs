@@ -643,7 +643,7 @@ ste
 |
 room
 "
-;
++
 /
 /
 From
@@ -653,6 +653,18 @@ source
 /
 Firefox
 specific
+"
+|
+dpto
+|
+int
+"
+;
+/
+/
+es
+-
+MX
 static
 PREFIX
 =
