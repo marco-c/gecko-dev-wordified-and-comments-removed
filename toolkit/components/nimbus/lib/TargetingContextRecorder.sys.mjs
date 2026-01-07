@@ -2849,12 +2849,4 @@ getProfileGroupID
 (
 )
 ;
-GleanPings
-.
-nimbusTargetingContext
-.
-submit
-(
-)
-;
 }
