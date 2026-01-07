@@ -550,16 +550,6 @@ aWidgetType
 ;
 virtual
 bool
-WidgetIsContainer
-(
-StyleAppearance
-aWidgetType
-)
-=
-0
-;
-virtual
-bool
 ThemeDrawsFocusForWidget
 (
 nsIFrame
