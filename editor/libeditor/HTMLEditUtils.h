@@ -905,6 +905,11 @@ BlockInlineCheck
 aBlockInlineCheck
 )
 ;
+[
+[
+nodiscard
+]
+]
 static
 bool
 IsVisibleElementEvenIfLeafNode
