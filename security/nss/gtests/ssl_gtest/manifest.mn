@@ -236,6 +236,10 @@ ssl_staticrsa_unittest
 .
 cc
 \
+ssl_timers_unittest
+.
+cc
+\
 ssl_tls13compat_unittest
 .
 cc
@@ -292,9 +296,9 @@ tls_subcerts_unittest
 .
 cc
 \
-tls_xyber_unittest
-.
-cc
+(
+XYBER_FILES
+)
 \
 (
 SSLKEYLOGFILE_FILES

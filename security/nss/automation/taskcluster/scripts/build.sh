@@ -21,10 +21,6 @@ sh
 set
 -
 e
-test
--
-v
-VCS_PATH
 #
 builds
 write
