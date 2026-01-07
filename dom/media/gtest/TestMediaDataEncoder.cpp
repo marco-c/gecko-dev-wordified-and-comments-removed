@@ -2748,6 +2748,7 @@ AnnexB
 :
 IsAnnexB
 (
+*
 output
 [
 0
@@ -3023,6 +3024,7 @@ AnnexB
 :
 IsAnnexB
 (
+*
 frame
 )
 )
@@ -3590,6 +3592,7 @@ AnnexB
 :
 IsAnnexB
 (
+*
 frame
 )
 )
@@ -4734,6 +4737,7 @@ AnnexB
 :
 IsAnnexB
 (
+*
 frame
 )
 )
