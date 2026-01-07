@@ -2519,9 +2519,8 @@ n
 .
 join
 (
-                
 [
-                    
+                
 "
 [
 %
@@ -2536,7 +2535,7 @@ join
 (
 attrs
 )
-                    
+                
 "
 readonly
 attribute
@@ -2549,9 +2548,8 @@ s
 api_event
 .
 name
-                
-]
             
+]
 )
         
 if
@@ -2714,9 +2712,8 @@ lines
 .
 extend
 (
-                    
 [
-                        
+                    
 "
 [
 %
@@ -2731,7 +2728,7 @@ join
 (
 attrs
 )
-                        
+                    
 "
 %
 s
@@ -2751,9 +2748,8 @@ api_fun
 name
 params
 )
-                    
-]
                 
+]
 )
             
 return
@@ -7376,8 +7372,8 @@ template
 .
 render
 (
-            
 {
+            
 "
 webidl_name
 "
@@ -7388,6 +7384,7 @@ webidl_props
 webidl_name
 "
 ]
+            
 "
 api_namespace
 "
@@ -7395,8 +7392,8 @@ api_namespace
 self
 .
 name
-}
         
+}
 )
     
 def
@@ -7439,8 +7436,8 @@ template
 .
 render
 (
-            
 {
+            
 "
 webidl_name
 "
@@ -7451,6 +7448,7 @@ webidl_props
 webidl_name
 "
 ]
+            
 "
 api_namespace
 "
@@ -7458,8 +7456,8 @@ api_namespace
 self
 .
 name
-}
         
+}
 )
     
 def

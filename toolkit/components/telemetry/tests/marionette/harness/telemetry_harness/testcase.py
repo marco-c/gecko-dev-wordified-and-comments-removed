@@ -334,8 +334,8 @@ profile
 .
 set_persistent_preferences
 (
-            
 {
+            
 "
 datareporting
 .
@@ -345,8 +345,8 @@ uploadEnabled
 "
 :
 False
-}
         
+}
 )
         
 self
@@ -401,8 +401,8 @@ profile
 .
 set_persistent_preferences
 (
-            
 {
+            
 "
 datareporting
 .
@@ -412,8 +412,8 @@ uploadEnabled
 "
 :
 True
-}
         
+}
 )
         
 self

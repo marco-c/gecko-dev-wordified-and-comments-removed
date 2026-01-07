@@ -2846,9 +2846,8 @@ env
 .
 update
 (
-            
 {
-                
+            
 "
 HGPLAIN
 "
@@ -2856,7 +2855,7 @@ HGPLAIN
 "
 1
 "
-                
+            
 "
 HGRCPATH
 "
@@ -2864,9 +2863,8 @@ HGRCPATH
 "
 !
 "
-            
-}
         
+}
 )
         
 try

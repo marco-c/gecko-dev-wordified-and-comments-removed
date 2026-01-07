@@ -1825,9 +1825,11 @@ tests
     
 )
     
-add_arg
 (
         
+add_arg
+(
+            
 "
 -
 -
@@ -1835,17 +1837,17 @@ browser
 -
 cycles
 "
-        
+            
 dest
 =
 "
 browser_cycles
 "
-        
+            
 type
 =
 int
-        
+            
 help
 =
 "
@@ -1866,7 +1868,7 @@ load
 tests
 only
 "
-        
+            
 "
 where
 the
@@ -1880,28 +1882,32 @@ test
 iterations
 )
 "
+        
+)
     
 )
     
-add_arg
 (
         
+add_arg
+(
+            
 "
 -
 -
 project
 "
-        
+            
 dest
 =
 "
 project
 "
-        
+            
 type
 =
 str
-        
+            
 default
 =
 "
@@ -1909,7 +1915,7 @@ mozilla
 -
 central
 "
-        
+            
 help
 =
 "
@@ -1924,6 +1930,8 @@ etc
 .
 )
 "
+        
+)
     
 )
     

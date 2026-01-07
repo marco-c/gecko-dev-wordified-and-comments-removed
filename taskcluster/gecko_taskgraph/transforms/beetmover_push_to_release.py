@@ -66,9 +66,8 @@ beetmover_push_to_release_description_schema
 =
 Schema
 (
-    
 {
-        
+    
 Required
 (
 "
@@ -77,7 +76,7 @@ name
 )
 :
 str
-        
+    
 Required
 (
 "
@@ -86,7 +85,7 @@ product
 )
 :
 str
-        
+    
 Required
 (
 "
@@ -97,7 +96,7 @@ platform
 )
 :
 str
-        
+    
 Optional
 (
 "
@@ -110,7 +109,7 @@ str
 :
 object
 }
-        
+    
 Optional
 (
 "
@@ -128,7 +127,7 @@ task
 from
 "
 ]
-        
+    
 Optional
 (
 "
@@ -141,7 +140,7 @@ str
 :
 object
 }
-        
+    
 Optional
 (
 "
@@ -163,7 +162,7 @@ on
 projects
 "
 ]
-        
+    
 Optional
 (
 "
@@ -189,7 +188,7 @@ repo
 type
 "
 ]
-        
+    
 Optional
 (
 "
@@ -202,7 +201,7 @@ str
 :
 taskref_or_string
 }
-        
+    
 Optional
 (
 "
@@ -215,7 +214,7 @@ str
 :
 str
 }
-        
+    
 Optional
 (
 "
@@ -226,7 +225,7 @@ routes
 [
 str
 ]
-        
+    
 Required
 (
 "
@@ -244,7 +243,7 @@ shipping
 phase
 "
 ]
-        
+    
 Required
 (
 "
@@ -262,7 +261,7 @@ shipping
 product
 "
 ]
-        
+    
 Optional
 (
 "
@@ -276,7 +275,6 @@ task_description_schema
 extra
 "
 ]
-    
 }
 )
 transforms

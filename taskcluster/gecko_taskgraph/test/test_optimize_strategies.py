@@ -2777,8 +2777,8 @@ labels
 =
 sorted
 (
-        
 [
+        
 "
 task
 -
@@ -2786,6 +2786,7 @@ task
 -
 label
 "
+        
 "
 task
 -
@@ -2793,6 +2794,7 @@ task
 -
 label
 "
+        
 "
 task
 -
@@ -2800,6 +2802,7 @@ task
 -
 label
 "
+        
 "
 task
 -
@@ -2807,8 +2810,8 @@ task
 -
 label
 "
-]
     
+]
 )
 def
 test_bugbug_timeout

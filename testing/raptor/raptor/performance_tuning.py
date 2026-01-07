@@ -1044,9 +1044,8 @@ commands
 .
 update
 (
-                
 {
-                    
+                
 "
 /
 sys
@@ -1067,7 +1066,7 @@ scaling_governor
 "
 performance
 "
-                    
+                
 "
 /
 sys
@@ -1088,7 +1087,7 @@ scaling_governor
 "
 performance
 "
-                    
+                
 "
 /
 sys
@@ -1109,7 +1108,7 @@ scaling_min_freq
 "
 1742000
 "
-                    
+                
 "
 /
 sys
@@ -1130,9 +1129,8 @@ scaling_min_freq
 "
 2314000
 "
-                
-}
             
+}
 )
         
 else

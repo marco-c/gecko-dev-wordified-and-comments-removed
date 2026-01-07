@@ -851,9 +851,6 @@ which
 may
 cause
 spurious
-"
-            
-"
 failures
 and
 passes
@@ -1088,8 +1085,6 @@ the
 application
 '
 s
-"
-"
 environment
 "
         
@@ -2140,9 +2135,8 @@ manifests
 =
 OrderedDict
 (
-            
 [
-                
+            
 (
 "
 reftest
@@ -2153,7 +2147,7 @@ list
 reftest
 "
 )
-                
+            
 (
 "
 crashtests
@@ -2164,7 +2158,7 @@ list
 crashtest
 "
 )
-                
+            
 (
 "
 jstests
@@ -2175,9 +2169,8 @@ list
 jstestbrowser
 "
 )
-            
-]
         
+]
 )
         
 for

@@ -148,9 +148,8 @@ extra_prefs
 .
 update
 (
-            
 {
-                
+            
 "
 remote
 .
@@ -162,9 +161,8 @@ level
 "
 Trace
 "
-            
-}
         
+}
 )
     
 args

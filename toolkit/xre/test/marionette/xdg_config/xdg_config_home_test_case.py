@@ -364,8 +364,6 @@ self
 :
         
 assert
-(
-            
 "
 mozrunner
 -
@@ -377,8 +375,8 @@ in
 self
 .
 homedir
-        
-)
+(
+            
 f
 "
 HOME
@@ -396,6 +394,8 @@ self
 homedir
 }
 "
+        
+)
     
 def
 get_home_root

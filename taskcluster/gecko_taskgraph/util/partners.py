@@ -3397,8 +3397,8 @@ kind
 .
 startswith
 (
-            
 (
+            
 "
 release
 -
@@ -3406,6 +3406,7 @@ partner
 -
 repack
 "
+            
 "
 release
 -
@@ -3413,8 +3414,8 @@ partner
 -
 attribution
 "
-)
         
+)
 )
         
 and
@@ -3660,31 +3661,30 @@ append
 .
 join
 (
-                
 [
-                    
+                
 dmg_app_path
-                    
+                
 "
 attribute
 "
-                    
+                
 a
 [
 "
 input
 "
 ]
-                    
+                
 a
 [
 "
 output
 "
 ]
-                    
+                
 MACOS_ATTRIBUTION_SENTINEL
-                    
+                
 _build_macos_attribution_string
 (
 attribution_code
@@ -3696,9 +3696,8 @@ attribution
 "
 ]
 )
-                
-]
             
+]
 )
         
 )

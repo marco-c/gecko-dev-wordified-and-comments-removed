@@ -865,8 +865,6 @@ foo
 ;
 }
 ;
-"
-"
 interface
 Test
 {
@@ -1380,8 +1378,6 @@ InterfaceWithToJSON
 {
 }
 ;
-"
-"
 interface
 Test
 {
@@ -1507,8 +1503,6 @@ foo
 ;
 }
 ;
-"
-"
 interface
 Test
 {
@@ -1869,8 +1863,6 @@ bar
 ;
 }
 ;
-"
-"
 interface
 Test
 {
@@ -1914,9 +1906,6 @@ InterfaceWithoutToJSON
 {
 }
 ;
-"
-        
-"
 interface
 Test
 {

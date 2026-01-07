@@ -877,8 +877,8 @@ n
 .
 join
 (
-                    
 [
+                    
 t
 for
 t
@@ -896,8 +896,8 @@ condition
 ]
 if
 t
-]
                 
+]
 )
             
 self

@@ -4779,9 +4779,8 @@ tooltool_artifacts
 .
 append
 (
-                
 {
-                    
+                
 "
 name
 "
@@ -4789,7 +4788,7 @@ name
 self
 .
 pagesets_name
-                    
+                
 "
 manifest
 "
@@ -4797,24 +4796,22 @@ manifest
 self
 .
 pagesets_name_manifest
-                    
+                
 "
 dest
 "
 :
 src_talos_pageset_dest
-                
-}
             
+}
 )
             
 tooltool_artifacts
 .
 append
 (
-                
 {
-                    
+                
 "
 name
 "
@@ -4822,7 +4819,7 @@ name
 self
 .
 pagesets_name
-                    
+                
 "
 manifest
 "
@@ -4830,13 +4827,13 @@ manifest
 self
 .
 pagesets_name_manifest
-                    
+                
 "
 dest
 "
 :
 src_talos_pageset_multidomain_dest
-                    
+                
 "
 postprocess
 "
@@ -4844,9 +4841,8 @@ postprocess
 self
 .
 replace_relative_iframe_paths
-                
-}
             
+}
 )
         
 if
@@ -4861,9 +4857,8 @@ tooltool_artifacts
 .
 append
 (
-                
 {
-                    
+                
 "
 name
 "
@@ -4871,7 +4866,7 @@ name
 self
 .
 benchmark_zip
-                    
+                
 "
 manifest
 "
@@ -4879,15 +4874,14 @@ manifest
 self
 .
 benchmark_zip_manifest
-                    
+                
 "
 dest
 "
 :
 src_talos_pageset_dest
-                
-}
             
+}
 )
         
 if
@@ -4902,9 +4896,8 @@ tooltool_artifacts
 .
 append
 (
-                
 {
-                    
+                
 "
 name
 "
@@ -4912,7 +4905,7 @@ name
 self
 .
 webextensions_zip
-                    
+                
 "
 manifest
 "
@@ -4920,15 +4913,14 @@ manifest
 self
 .
 webextensions_zip_manifest
-                    
+                
 "
 dest
 "
 :
 webextension_dest
-                
-}
             
+}
 )
         
 for

@@ -148,16 +148,15 @@ group_tasks
 .
 extend
 (
-            
 [
-                
+            
 task
-                
+            
 for
 task
 in
 tasks_for_all_components
-                
+            
 if
 task
 .
@@ -174,9 +173,8 @@ type
 =
 =
 build_type
-            
-]
         
+]
 )
     
 return

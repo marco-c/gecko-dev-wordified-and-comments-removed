@@ -43,9 +43,8 @@ mach_schema
 =
 Schema
 (
-    
 {
-        
+    
 Required
 (
 "
@@ -56,7 +55,7 @@ using
 "
 mach
 "
-        
+    
 Required
 (
 "
@@ -65,7 +64,7 @@ mach
 )
 :
 taskref_or_string
-        
+    
 Optional
 (
 "
@@ -80,7 +79,7 @@ Any
 str
 None
 )
-        
+    
 Required
 (
 "
@@ -91,7 +90,7 @@ checkout
 )
 :
 bool
-        
+    
 Optional
 (
 "
@@ -106,7 +105,7 @@ str
 :
 str
 }
-        
+    
 Optional
 (
 "
@@ -115,7 +114,7 @@ workdir
 )
 :
 str
-        
+    
 Optional
 (
 "
@@ -132,7 +131,6 @@ bool
 str
 ]
 )
-    
 }
 )
 defaults

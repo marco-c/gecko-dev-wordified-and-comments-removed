@@ -638,7 +638,6 @@ and
 (
             
 node_name
-            
 in
 {
 "
@@ -2859,8 +2858,8 @@ files
 =
 set
 (
-                
 [
+                
 mozpath
 .
 join
@@ -2880,8 +2879,8 @@ error_type
 files
 "
 ]
-]
             
+]
 )
         
 return

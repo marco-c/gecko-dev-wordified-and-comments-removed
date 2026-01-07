@@ -401,18 +401,15 @@ args
         
 if
 arg
-=
-=
+in
+{
 "
 Float32
 "
-or
-arg
-=
-=
 "
 Float64
 "
+}
 :
             
 return
@@ -1549,25 +1546,18 @@ n
         
 if
 ret
-=
-=
+in
+{
 "
 General
 "
-or
-ret
-=
-=
 "
 Int32
 "
-or
-ret
-=
-=
 "
 Int64
 "
+}
 :
             
 contents

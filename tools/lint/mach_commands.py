@@ -309,11 +309,10 @@ excludes
 .
 extend
 (
-        
 [
-            
+        
 name
-            
+        
 for
 name
 in
@@ -323,7 +322,7 @@ listdir
 (
 topsrcdir
 )
-            
+        
 if
 name
 .
@@ -342,9 +341,8 @@ isdir
 (
 name
 )
-        
-]
     
+]
 )
     
 if

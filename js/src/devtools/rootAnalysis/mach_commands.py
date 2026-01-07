@@ -1041,9 +1041,6 @@ of
 }
 (
 default
-"
-    
-"
 objdir
 and
 work
@@ -1053,6 +1050,7 @@ work
 .
 format
 (
+        
 "
 "
 .
@@ -1060,6 +1058,7 @@ join
 (
 CLOBBER_CHOICES
 )
+    
 )
 )
 def
@@ -2346,9 +2345,8 @@ buildscript
 .
 join
 (
-        
 [
-            
+        
 command_context
 .
 topsrcdir
@@ -2359,7 +2357,7 @@ mach
 hazards
 compile
 "
-            
+        
 *
 kwargs
 .
@@ -2371,7 +2369,7 @@ what
 [
 ]
 )
-            
+        
 "
 -
 -
@@ -2383,7 +2381,7 @@ size
 .
 0
 "
-            
+        
 "
 -
 -
@@ -2392,7 +2390,7 @@ project
 "
 +
 project
-            
+        
 "
 -
 -
@@ -2403,9 +2401,8 @@ objdir
 "
 +
 objdir
-        
-]
     
+]
 )
     
 args

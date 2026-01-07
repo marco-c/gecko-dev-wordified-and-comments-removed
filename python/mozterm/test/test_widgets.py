@@ -146,9 +146,8 @@ footer
 .
 write
 (
-        
 [
-            
+        
 (
 "
 bright_black
@@ -157,7 +156,7 @@ bright_black
 foo
 "
 )
-            
+        
 (
 "
 green
@@ -166,9 +165,8 @@ green
 bar
 "
 )
-        
-]
     
+]
 )
     
 value

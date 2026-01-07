@@ -245,13 +245,11 @@ TEMPORARY_PROJECTS
 =
 set
 (
-    
 {
-        
+    
 "
 oak
 "
-    
 }
 )
 TRY_PROJECTS

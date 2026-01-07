@@ -214,8 +214,6 @@ enable
 application
 =
 browser
-"
-"
 MOZ_VTUNE
 =
 1

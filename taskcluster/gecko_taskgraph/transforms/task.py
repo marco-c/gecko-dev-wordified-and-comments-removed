@@ -445,9 +445,8 @@ task_description_schema
 =
 Schema
 (
-    
 {
-        
+    
 Required
 (
 "
@@ -456,7 +455,7 @@ label
 )
 :
 str
-        
+    
 Required
 (
 "
@@ -465,7 +464,7 @@ description
 )
 :
 str
-        
+    
 Optional
 (
 "
@@ -478,7 +477,7 @@ str
 :
 object
 }
-        
+    
 Optional
 (
 "
@@ -489,7 +488,7 @@ from
 )
 :
 str
-        
+    
 Optional
 (
 "
@@ -498,15 +497,15 @@ dependencies
 )
 :
 {
-            
+        
 All
 (
-                
+            
 str
-                
+            
 NotIn
 (
-                    
+                
 [
 "
 self
@@ -515,7 +514,7 @@ self
 decision
 "
 ]
-                    
+                
 "
 Can
 '
@@ -532,15 +531,15 @@ depdency
 names
 .
 "
-                
-)
             
+)
+        
 )
 :
 object
-        
+    
 }
-        
+    
 Optional
 (
 "
@@ -553,7 +552,7 @@ dependencies
 [
 str
 ]
-        
+    
 Optional
 (
 "
@@ -566,7 +565,7 @@ dependencies
 [
 str
 ]
-        
+    
 Optional
 (
 "
@@ -587,7 +586,7 @@ all
 resolved
 "
 )
-        
+    
 Optional
 (
 "
@@ -598,7 +597,7 @@ after
 )
 :
 str
-        
+    
 Optional
 (
 "
@@ -609,7 +608,7 @@ after
 )
 :
 str
-        
+    
 Optional
 (
 "
@@ -620,7 +619,7 @@ policy
 )
 :
 str
-        
+    
 Optional
 (
 "
@@ -631,7 +630,7 @@ routes
 [
 str
 ]
-        
+    
 Optional
 (
 "
@@ -642,7 +641,7 @@ scopes
 [
 str
 ]
-        
+    
 Optional
 (
 "
@@ -655,7 +654,7 @@ str
 :
 str
 }
-        
+    
 Optional
 (
 "
@@ -668,7 +667,7 @@ str
 :
 object
 }
-        
+    
 Optional
 (
 "
@@ -677,13 +676,13 @@ treeherder
 )
 :
 {
-            
+        
 "
 symbol
 "
 :
 str
-            
+        
 "
 kind
 "
@@ -700,13 +699,13 @@ test
 other
 "
 )
-            
+        
 "
 tier
 "
 :
 int
-            
+        
 "
 platform
 "
@@ -746,9 +745,9 @@ z0
 }
 "
 )
-        
+    
 }
-        
+    
 Optional
 (
 "
@@ -757,13 +756,13 @@ index
 )
 :
 {
-            
+        
 "
 product
 "
 :
 str
-            
+        
 "
 job
 -
@@ -771,51 +770,41 @@ name
 "
 :
 str
-            
+        
 "
 type
 "
 :
 Any
 (
-                
+            
 "
 generic
 "
-                
+            
 "
 l10n
 "
-                
+            
 "
 shippable
 "
-                
+            
 "
 shippable
 -
 l10n
 "
-                
+            
 "
 android
 -
 shippable
 "
-                
+            
 "
 android
 -
-shippable
--
-with
--
-multi
--
-l10n
-"
-                
-"
 shippable
 -
 with
@@ -825,31 +814,41 @@ multi
 l10n
 "
             
+"
+shippable
+-
+with
+-
+multi
+-
+l10n
+"
+        
 )
-            
+        
 "
 rank
 "
 :
 Any
 (
-                
+            
 "
 by
 -
 tier
 "
-                
+            
 int
-                
+            
 "
 build_date
 "
-            
+        
 )
-        
+    
 }
-        
+    
 Optional
 (
 "
@@ -874,7 +873,7 @@ hg
 "
 )
 ]
-        
+    
 Optional
 (
 "
@@ -897,7 +896,7 @@ platform
 str
 ]
 )
-        
+    
 Optional
 (
 "
@@ -920,7 +919,7 @@ project
 str
 ]
 )
-        
+    
 Optional
 (
 "
@@ -937,7 +936,7 @@ branches
 [
 str
 ]
-        
+    
 Required
 (
 "
@@ -949,27 +948,27 @@ phase
 :
 Any
 (
-            
+        
 None
-            
+        
 "
 build
 "
-            
+        
 "
 promote
 "
-            
+        
 "
 push
 "
-            
+        
 "
 ship
 "
-        
+    
 )
-        
+    
 Required
 (
 "
@@ -984,7 +983,7 @@ Any
 None
 str
 )
-        
+    
 Required
 (
 "
@@ -995,7 +994,7 @@ target
 )
 :
 bool
-        
+    
 Required
 (
 "
@@ -1004,7 +1003,7 @@ optimization
 )
 :
 OptimizationSchema
-        
+    
 "
 worker
 -
@@ -1012,7 +1011,7 @@ type
 "
 :
 str
-        
+    
 Required
 (
 "
@@ -1023,7 +1022,7 @@ sccache
 )
 :
 bool
-        
+    
 Optional
 (
 "
@@ -1032,7 +1031,7 @@ worker
 )
 :
 {
-            
+        
 Required
 (
 "
@@ -1041,13 +1040,13 @@ implementation
 )
 :
 str
-            
+        
 Extra
 :
 object
-        
+    
 }
-        
+    
 Optional
 (
 "
@@ -1056,7 +1055,7 @@ priority
 )
 :
 str
-        
+    
 Optional
 (
 "
@@ -1065,7 +1064,6 @@ retries
 )
 :
 int
-    
 }
 )
 TC_TREEHERDER_SCHEMA_URL
@@ -1123,8 +1121,6 @@ has
 no
 name
 ;
-"
-"
 add
 it
 to
@@ -4268,6 +4264,7 @@ Any
 [
 taskref_or_string
 ]
+            
 [
 [
 taskref_or_string
@@ -5408,9 +5405,8 @@ scopes
 .
 extend
 (
-            
 [
-                
+            
 "
 generic
 -
@@ -5439,7 +5435,7 @@ type
 ]
 group
 )
-                
+            
 for
 group
 in
@@ -5451,9 +5447,8 @@ os
 groups
 "
 ]
-            
-]
         
+]
 )
     
 if
@@ -7716,9 +7711,8 @@ payload
 .
 update
 (
-            
 {
-                
+            
 "
 upstreamArtifacts
 "
@@ -7731,7 +7725,7 @@ upstream
 artifacts
 "
 ]
-                
+            
 "
 suffixes
 "
@@ -7742,9 +7736,8 @@ worker
 suffixes
 "
 ]
-            
-}
         
+}
 )
     
 else
@@ -7885,9 +7878,8 @@ payload
 .
 update
 (
-            
 {
-                
+            
 "
 build_number
 "
@@ -7898,7 +7890,7 @@ release_config
 build_number
 "
 ]
-                
+            
 "
 product
 "
@@ -7909,7 +7901,7 @@ worker
 product
 "
 ]
-                
+            
 "
 version
 "
@@ -7920,9 +7912,8 @@ release_config
 version
 "
 ]
-            
-}
         
+}
 )
         
 for
@@ -8048,9 +8039,8 @@ payload
 .
 update
 (
-                
 {
-                    
+                
 "
 app_version
 "
@@ -8061,7 +8051,7 @@ release_config
 appVersion
 "
 ]
-                    
+                
 "
 archive_domain
 "
@@ -8074,7 +8064,7 @@ archive
 domain
 "
 ]
-                    
+                
 "
 channel_names
 "
@@ -8087,7 +8077,7 @@ channel
 names
 "
 ]
-                    
+                
 "
 download_domain
 "
@@ -8100,7 +8090,7 @@ download
 domain
 "
 ]
-                    
+                
 "
 partial_versions
 "
@@ -8115,7 +8105,7 @@ partial_versions
 "
 "
 )
-                    
+                
 "
 platforms
 "
@@ -8126,7 +8116,7 @@ worker
 platforms
 "
 ]
-                    
+                
 "
 rules_to_update
 "
@@ -8141,7 +8131,7 @@ to
 update
 "
 ]
-                    
+                
 "
 require_mirrors
 "
@@ -8154,7 +8144,7 @@ require
 mirrors
 "
 ]
-                    
+                
 "
 update_line
 "
@@ -8167,9 +8157,8 @@ update
 line
 "
 ]
-                
-}
             
+}
 )
         
 else
@@ -8184,9 +8173,8 @@ payload
 .
 update
 (
-                
 {
-                    
+                
 "
 publish_rules
 "
@@ -8199,7 +8187,7 @@ publish
 rules
 "
 ]
-                    
+                
 "
 release_eta
 "
@@ -8208,7 +8196,7 @@ worker
 .
 get
 (
-                        
+                    
 "
 release
 -
@@ -8224,15 +8212,14 @@ get
 release_eta
 "
 )
-                    
+                
 )
-                    
+                
 or
 "
 "
-                
-}
             
+}
 )
             
 if
@@ -9846,9 +9833,8 @@ tag_names
 .
 extend
 (
-                
 [
-                    
+                
 f
 "
 {
@@ -9863,9 +9849,8 @@ _BUILD
 buildnum
 }
 "
-                
-]
             
+]
 )
         
 if
@@ -12022,9 +12007,8 @@ tag_names
 .
 extend
 (
-                
 [
-                    
+                
 f
 "
 {
@@ -12039,9 +12023,8 @@ _BUILD
 buildnum
 }
 "
-                
-]
             
+]
 )
         
 if
@@ -16629,9 +16612,8 @@ tags
 .
 update
 (
-            
 {
-                
+            
 "
 createdForUser
 "
@@ -16644,7 +16626,7 @@ params
 owner
 "
 ]
-                
+            
 "
 kind
 "
@@ -16652,7 +16634,7 @@ kind
 config
 .
 kind
-                
+            
 "
 label
 "
@@ -16663,7 +16645,7 @@ task
 label
 "
 ]
-                
+            
 "
 retrigger
 "
@@ -16685,7 +16667,7 @@ else
 "
 false
 "
-                
+            
 "
 project
 "
@@ -16698,7 +16680,7 @@ params
 project
 "
 ]
-                
+            
 "
 trust
 -
@@ -16715,9 +16697,8 @@ trust
 domain
 "
 ]
-            
-}
         
+}
 )
         
 task_def
@@ -17458,9 +17439,8 @@ env
 .
 update
 (
-                    
 {
-                        
+                    
 "
 MOZ_AUTOMATION
 "
@@ -17468,7 +17448,7 @@ MOZ_AUTOMATION
 "
 1
 "
-                        
+                    
 "
 MOZ_BUILD_DATE
 "
@@ -17481,7 +17461,7 @@ params
 moz_build_date
 "
 ]
-                        
+                    
 "
 MOZ_SCM_LEVEL
 "
@@ -17494,7 +17474,7 @@ params
 level
 "
 ]
-                        
+                    
 "
 MOZ_SOURCE_CHANGESET
 "
@@ -17503,7 +17483,7 @@ get_branch_rev
 (
 config
 )
-                        
+                    
 "
 MOZ_SOURCE_REPO
 "
@@ -17512,9 +17492,8 @@ get_branch_repo
 (
 config
 )
-                    
-}
                 
+}
 )
         
 dependencies

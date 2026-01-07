@@ -501,15 +501,17 @@ dep_target
 .
 append
 (
-                                
 (
+                                
 merge
+                                
 f
 .
 full_path
+                                
 src
-)
                             
+)
 )
                             
 src
@@ -1471,9 +1473,8 @@ rule
 .
 add_commands
 (
-                    
 [
-                        
+                    
 "
 (
 PYTHON3
@@ -1488,7 +1489,7 @@ bin
 .
 build_file
 "
-                        
+                    
 f
 "
 -
@@ -1510,9 +1511,8 @@ target
 merge
 }
 "
-                    
-]
                 
+]
 )
                 
 mk

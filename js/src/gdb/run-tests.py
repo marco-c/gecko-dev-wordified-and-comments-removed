@@ -1673,25 +1673,24 @@ subprocess
 .
 check_output
 (
-            
 [
-                
+            
 OPTIONS
 .
 gdb_executable
-                
+            
 "
 -
 -
 batch
 "
-                
+            
 "
 -
 -
 ex
 "
-                
+            
 "
 python
 import
@@ -1704,9 +1703,8 @@ sys
 hexversion
 )
 "
-            
-]
         
+]
 )
         
 .

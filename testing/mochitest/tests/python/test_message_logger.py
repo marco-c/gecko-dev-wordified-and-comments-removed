@@ -604,39 +604,37 @@ FAIL
     
 assert_actions
 (
-        
 [
-            
+        
 "
 log
 "
-            
+        
 "
 test_status
 "
-            
+        
 "
 log
 "
-            
+        
 "
 test_status
 "
-            
+        
 "
 log
 "
-            
+        
 "
 log
 "
-            
+        
 "
 test_end
 "
-        
-]
     
+]
 )
     
 ml

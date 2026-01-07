@@ -179,9 +179,8 @@ mozharness_test_run_schema
 =
 Schema
 (
-    
 {
-        
+    
 Required
 (
 "
@@ -194,7 +193,7 @@ mozharness
 -
 test
 "
-        
+    
 Required
 (
 "
@@ -203,7 +202,7 @@ test
 )
 :
 {
-            
+        
 Required
 (
 "
@@ -214,7 +213,7 @@ platform
 )
 :
 str
-            
+        
 Required
 (
 "
@@ -228,7 +227,7 @@ test_description_schema
 mozharness
 "
 ]
-            
+        
 Required
 (
 "
@@ -246,7 +245,7 @@ docker
 image
 "
 ]
-            
+        
 Required
 (
 "
@@ -264,7 +263,7 @@ loopback
 video
 "
 ]
-            
+        
 Required
 (
 "
@@ -282,7 +281,7 @@ loopback
 audio
 "
 ]
-            
+        
 Required
 (
 "
@@ -304,7 +303,7 @@ run
 time
 "
 ]
-            
+        
 Optional
 (
 "
@@ -326,13 +325,13 @@ exit
 status
 "
 ]
-            
+        
 Extra
 :
 object
-        
+    
 }
-        
+    
 Optional
 (
 "
@@ -341,7 +340,6 @@ workdir
 )
 :
 str
-    
 }
 )
 def
@@ -916,17 +914,16 @@ artifacts
 .
 extend
 (
-        
 [
-            
+        
 {
-                
+            
 "
 name
 "
 :
 prefix
-                
+            
 "
 path
 "
@@ -953,7 +950,7 @@ run
 )
 path
 )
-                
+            
 "
 type
 "
@@ -961,7 +958,7 @@ type
 "
 directory
 "
-                
+            
 "
 expires
 -
@@ -975,9 +972,9 @@ config
 default
 "
 )
-            
+        
 }
-            
+        
 for
 (
 prefix
@@ -985,9 +982,8 @@ path
 )
 in
 artifacts
-        
-]
     
+]
 )
     
 worker
@@ -999,9 +995,8 @@ artifacts
 .
 append
 (
-        
 {
-            
+        
 "
 name
 "
@@ -1015,7 +1010,7 @@ errors
 .
 log
 "
-            
+        
 "
 path
 "
@@ -1037,7 +1032,7 @@ format
 *
 run
 )
-            
+        
 "
 type
 "
@@ -1045,7 +1040,7 @@ type
 "
 file
 "
-            
+        
 "
 expires
 -
@@ -1059,9 +1054,8 @@ config
 default
 "
 )
-        
-}
     
+}
 )
     
 docker_worker_add_artifacts
@@ -1088,9 +1082,8 @@ env
 .
 update
 (
-        
 {
-            
+        
 "
 MOZHARNESS_CONFIG
 "
@@ -1107,7 +1100,7 @@ config
 "
 ]
 )
-            
+        
 "
 MOZHARNESS_SCRIPT
 "
@@ -1118,7 +1111,7 @@ mozharness
 script
 "
 ]
-            
+        
 "
 MOZILLA_BUILD_URL
 "
@@ -1132,7 +1125,7 @@ reference
 :
 installer
 }
-            
+        
 "
 NEED_WINDOW_MANAGER
 "
@@ -1140,7 +1133,7 @@ NEED_WINDOW_MANAGER
 "
 true
 "
-            
+        
 "
 ENABLE_E10S
 "
@@ -1163,7 +1156,7 @@ e10s
 lower
 (
 )
-            
+        
 "
 WORKING_DIR
 "
@@ -1174,9 +1167,8 @@ builds
 /
 worker
 "
-        
-}
     
+}
 )
     
 env
@@ -2438,9 +2430,8 @@ artifacts
 .
 append
 (
-            
 {
-                
+            
 "
 name
 "
@@ -2450,7 +2441,7 @@ public
 /
 test_info
 "
-                
+            
 "
 path
 "
@@ -2460,7 +2451,7 @@ build
 /
 blobber_upload_dir
 "
-                
+            
 "
 type
 "
@@ -2468,7 +2459,7 @@ type
 "
 directory
 "
-                
+            
 "
 expires
 -
@@ -2482,9 +2473,8 @@ config
 default
 "
 )
-            
-}
         
+}
 )
     
 if
@@ -2928,9 +2918,8 @@ env
 .
 update
 (
-            
 {
-                
+            
 "
 LC_ALL
 "
@@ -2942,7 +2931,7 @@ UTF
 -
 8
 "
-                
+            
 "
 LANG
 "
@@ -2954,7 +2943,7 @@ UTF
 -
 8
 "
-                
+            
 "
 MOZ_NODE_PATH
 "
@@ -2969,7 +2958,7 @@ bin
 /
 node
 "
-                
+            
 "
 PATH
 "
@@ -2998,7 +2987,7 @@ sbin
 /
 sbin
 "
-                
+            
 "
 SHELL
 "
@@ -3009,9 +2998,8 @@ bin
 /
 bash
 "
-            
-}
         
+}
 )
     
 elif
@@ -3024,9 +3012,8 @@ env
 .
 update
 (
-            
 {
-                
+            
 "
 LANG
 "
@@ -3038,7 +3025,7 @@ UTF
 -
 8
 "
-                
+            
 "
 MOZHARNESS_CONFIG
 "
@@ -3055,7 +3042,7 @@ config
 "
 ]
 )
-                
+            
 "
 MOZHARNESS_SCRIPT
 "
@@ -3066,13 +3053,13 @@ mozharness
 script
 "
 ]
-                
+            
 "
 MOZHARNESS_URL
 "
 :
 {
-                    
+                
 "
 artifact
 -
@@ -3092,9 +3079,9 @@ mozharness
 zip
 >
 "
-                
+            
 }
-                
+            
 "
 MOZILLA_BUILD_URL
 "
@@ -3108,7 +3095,7 @@ reference
 :
 installer
 }
-                
+            
 "
 NEED_XVFB
 "
@@ -3116,7 +3103,7 @@ NEED_XVFB
 "
 false
 "
-                
+            
 "
 XPCOM_DEBUG_BREAK
 "
@@ -3124,7 +3111,7 @@ XPCOM_DEBUG_BREAK
 "
 warn
 "
-                
+            
 "
 NO_FAIL_ON_TEST_ERRORS
 "
@@ -3132,7 +3119,7 @@ NO_FAIL_ON_TEST_ERRORS
 "
 1
 "
-                
+            
 "
 MOZ_HIDE_RESULTS_TABLE
 "
@@ -3140,7 +3127,7 @@ MOZ_HIDE_RESULTS_TABLE
 "
 1
 "
-                
+            
 "
 MOZ_NODE_PATH
 "
@@ -3155,7 +3142,7 @@ bin
 /
 node
 "
-                
+            
 "
 TASKCLUSTER_WORKER_TYPE
 "
@@ -3168,9 +3155,8 @@ worker
 type
 "
 ]
-            
-}
         
+}
 )
     
 extra_config

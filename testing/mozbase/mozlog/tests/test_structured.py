@@ -2235,8 +2235,8 @@ self
 .
 assert_log_equals
 (
-            
 {
+            
 "
 action
 "
@@ -2244,6 +2244,7 @@ action
 "
 suite_start
 "
+            
 "
 name
 "
@@ -2251,6 +2252,7 @@ name
 "
 logtest
 "
+            
 "
 tests
 "
@@ -2266,8 +2268,8 @@ test
 "
 ]
 }
-}
         
+}
 )
         
 self
@@ -2350,9 +2352,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -2360,7 +2361,7 @@ action
 "
 add_subsuite
 "
-                
+            
 "
 name
 "
@@ -2368,7 +2369,7 @@ name
 "
 other
 "
-                
+            
 "
 run_info
 "
@@ -2382,9 +2383,8 @@ subsuite
 other
 "
 }
-            
-}
         
+}
 )
         
 self
@@ -2438,9 +2438,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -2448,7 +2447,7 @@ action
 "
 add_subsuite
 "
-                
+            
 "
 name
 "
@@ -2456,7 +2455,7 @@ name
 "
 other
 "
-                
+            
 "
 run_info
 "
@@ -2470,9 +2469,8 @@ subsuite
 other
 "
 }
-            
-}
         
+}
 )
         
 self
@@ -2595,9 +2593,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -2605,7 +2602,7 @@ action
 "
 test_start
 "
-                
+            
 "
 test
 "
@@ -2624,7 +2621,7 @@ test1
 ref
 "
 )
-                
+            
 "
 path
 "
@@ -2636,9 +2633,8 @@ to
 /
 test
 "
-            
-}
         
+}
 )
         
 self
@@ -2692,9 +2688,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -2702,7 +2697,7 @@ action
 "
 log
 "
-                
+            
 "
 message
 "
@@ -2717,7 +2712,7 @@ in
 progress
 .
 "
-                
+            
 "
 level
 "
@@ -2725,9 +2720,8 @@ level
 "
 ERROR
 "
-            
-}
         
+}
 )
         
 self
@@ -2797,9 +2791,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -2807,7 +2800,7 @@ action
 "
 test_start
 "
-                
+            
 "
 test
 "
@@ -2815,7 +2808,7 @@ test
 "
 test1
 "
-                
+            
 "
 subsuite
 "
@@ -2823,9 +2816,8 @@ subsuite
 "
 other
 "
-            
-}
         
+}
 )
         
 self
@@ -2899,9 +2891,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -2909,7 +2900,7 @@ action
 "
 test_status
 "
-                
+            
 "
 subtest
 "
@@ -2918,7 +2909,7 @@ subtest
 subtest
 name
 "
-                
+            
 "
 status
 "
@@ -2926,7 +2917,7 @@ status
 "
 FAIL
 "
-                
+            
 "
 message
 "
@@ -2935,7 +2926,7 @@ message
 Test
 message
 "
-                
+            
 "
 test
 "
@@ -2943,9 +2934,8 @@ test
 "
 test1
 "
-            
-}
         
+}
 )
         
 self
@@ -3020,9 +3010,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -3030,7 +3019,7 @@ action
 "
 test_status
 "
-                
+            
 "
 subtest
 "
@@ -3039,7 +3028,7 @@ subtest
 subtest
 name
 "
-                
+            
 "
 status
 "
@@ -3047,7 +3036,7 @@ status
 "
 FAIL
 "
-                
+            
 "
 expected
 "
@@ -3055,7 +3044,7 @@ expected
 "
 PASS
 "
-                
+            
 "
 test
 "
@@ -3063,9 +3052,8 @@ test
 "
 test1
 "
-            
-}
         
+}
 )
         
 self
@@ -3191,9 +3179,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -3201,7 +3188,7 @@ action
 "
 test_status
 "
-                
+            
 "
 subtest
 "
@@ -3210,7 +3197,7 @@ subtest
 subtest
 name
 "
-                
+            
 "
 status
 "
@@ -3218,7 +3205,7 @@ status
 "
 FAIL
 "
-                
+            
 "
 expected
 "
@@ -3226,7 +3213,7 @@ expected
 "
 PASS
 "
-                
+            
 "
 test
 "
@@ -3234,7 +3221,7 @@ test
 "
 test1
 "
-                
+            
 "
 extra
 "
@@ -3246,9 +3233,8 @@ data
 :
 42
 }
-            
-}
         
+}
 )
         
 self
@@ -3345,9 +3331,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -3355,7 +3340,7 @@ action
 "
 test_status
 "
-                
+            
 "
 subtest
 "
@@ -3364,7 +3349,7 @@ subtest
 subtest
 name
 "
-                
+            
 "
 status
 "
@@ -3372,7 +3357,7 @@ status
 "
 FAIL
 "
-                
+            
 "
 expected
 "
@@ -3380,7 +3365,7 @@ expected
 "
 PASS
 "
-                
+            
 "
 test
 "
@@ -3388,7 +3373,7 @@ test
 "
 test1
 "
-                
+            
 "
 stack
 "
@@ -3402,9 +3387,8 @@ nof
 \
 nstack
 "
-            
-}
         
+}
 )
         
 self
@@ -3488,9 +3472,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -3498,7 +3481,7 @@ action
 "
 test_status
 "
-                
+            
 "
 subtest
 "
@@ -3507,7 +3490,7 @@ subtest
 subtest
 name
 "
-                
+            
 "
 status
 "
@@ -3515,7 +3498,7 @@ status
 "
 FAIL
 "
-                
+            
 "
 expected
 "
@@ -3523,7 +3506,7 @@ expected
 "
 PASS
 "
-                
+            
 "
 known_intermittent
 "
@@ -3533,7 +3516,7 @@ known_intermittent
 FAIL
 "
 ]
-                
+            
 "
 test
 "
@@ -3541,9 +3524,8 @@ test
 "
 test1
 "
-            
-}
         
+}
 )
         
 self
@@ -3690,9 +3672,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -3700,7 +3681,7 @@ action
 "
 test_status
 "
-                
+            
 "
 subtest
 "
@@ -3709,7 +3690,7 @@ subtest
 subtest
 name
 "
-                
+            
 "
 status
 "
@@ -3717,7 +3698,7 @@ status
 "
 FAIL
 "
-                
+            
 "
 expected
 "
@@ -3725,7 +3706,7 @@ expected
 "
 PASS
 "
-                
+            
 "
 test
 "
@@ -3733,9 +3714,8 @@ test
 "
 test1
 "
-            
-}
         
+}
 )
         
 self
@@ -3886,9 +3866,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -3896,7 +3875,7 @@ action
 "
 test_end
 "
-                
+            
 "
 status
 "
@@ -3904,7 +3883,7 @@ status
 "
 FAIL
 "
-                
+            
 "
 expected
 "
@@ -3912,7 +3891,7 @@ expected
 "
 OK
 "
-                
+            
 "
 message
 "
@@ -3921,7 +3900,7 @@ message
 Test
 message
 "
-                
+            
 "
 test
 "
@@ -3929,9 +3908,8 @@ test
 "
 test1
 "
-            
-}
         
+}
 )
         
 self
@@ -4002,9 +3980,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -4012,7 +3989,7 @@ action
 "
 test_end
 "
-                
+            
 "
 status
 "
@@ -4020,7 +3997,7 @@ status
 "
 PASS
 "
-                
+            
 "
 extra
 "
@@ -4032,7 +4009,7 @@ data
 :
 123
 }
-                
+            
 "
 test
 "
@@ -4040,9 +4017,8 @@ test
 "
 test1
 "
-            
-}
         
+}
 )
         
 self
@@ -4142,9 +4118,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -4152,7 +4127,7 @@ action
 "
 test_end
 "
-                
+            
 "
 status
 "
@@ -4160,7 +4135,7 @@ status
 "
 PASS
 "
-                
+            
 "
 test
 "
@@ -4168,7 +4143,7 @@ test
 "
 test1
 "
-                
+            
 "
 stack
 "
@@ -4182,9 +4157,8 @@ nof
 \
 nstack
 "
-            
-}
         
+}
 )
         
 self
@@ -4395,9 +4369,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -4405,7 +4378,7 @@ action
 "
 test_end
 "
-                
+            
 "
 status
 "
@@ -4413,7 +4386,7 @@ status
 "
 OK
 "
-                
+            
 "
 test
 "
@@ -4421,7 +4394,7 @@ test
 "
 test1
 "
-                
+            
 "
 subsuite
 "
@@ -4429,9 +4402,8 @@ subsuite
 "
 other
 "
-            
-}
         
+}
 )
         
 self
@@ -4493,8 +4465,8 @@ self
 .
 assert_log_equals
 (
-            
 {
+            
 "
 action
 "
@@ -4502,6 +4474,7 @@ action
 "
 test_end
 "
+            
 "
 status
 "
@@ -4509,6 +4482,7 @@ status
 "
 PASS
 "
+            
 "
 test
 "
@@ -4516,8 +4490,8 @@ test
 "
 test2
 "
-}
         
+}
 )
         
 self
@@ -5018,8 +4992,8 @@ self
 .
 assert_log_equals
 (
-            
 {
+            
 "
 action
 "
@@ -5027,6 +5001,7 @@ action
 "
 process_output
 "
+            
 "
 process
 "
@@ -5034,6 +5009,7 @@ process
 "
 1234
 "
+            
 "
 data
 "
@@ -5042,8 +5018,8 @@ data
 test
 output
 "
-}
         
+}
 )
     
 def
@@ -5105,8 +5081,8 @@ self
 .
 assert_log_equals
 (
-            
 {
+            
 "
 action
 "
@@ -5114,6 +5090,7 @@ action
 "
 process_exit
 "
+            
 "
 process
 "
@@ -5121,13 +5098,14 @@ process
 "
 1234
 "
+            
 "
 exitcode
 "
 :
 0
-}
         
+}
 )
     
 def
@@ -5176,8 +5154,8 @@ self
 .
 assert_log_equals
 (
-                
 {
+                
 "
 action
 "
@@ -5185,6 +5163,7 @@ action
 "
 log
 "
+                
 "
 level
 "
@@ -5194,6 +5173,7 @@ level
 upper
 (
 )
+                
 "
 message
 "
@@ -5201,8 +5181,8 @@ message
 "
 message
 "
-}
             
+}
 )
     
 def
@@ -5316,8 +5296,8 @@ self
 .
 assert_log_equals
 (
-                    
 {
+                    
 "
 action
 "
@@ -5325,6 +5305,7 @@ action
 "
 log
 "
+                    
 "
 level
 "
@@ -5334,6 +5315,7 @@ level
 upper
 (
 )
+                    
 "
 message
 "
@@ -5341,8 +5323,8 @@ message
 "
 message
 "
-}
                 
+}
 )
         
 finally
@@ -5770,8 +5752,8 @@ self
 .
 assert_log_equals
 (
-            
 {
+            
 "
 action
 "
@@ -5779,6 +5761,7 @@ action
 "
 log
 "
+            
 "
 level
 "
@@ -5786,6 +5769,7 @@ level
 "
 INFO
 "
+            
 "
 message
 "
@@ -5794,6 +5778,7 @@ message
 line
 1
 "
+            
 "
 source
 "
@@ -5802,8 +5787,8 @@ source
 test
 1
 "
-}
         
+}
 )
         
 log
@@ -5970,9 +5955,8 @@ self
 .
 assert_log_equals
 (
-                
 {
-                    
+                
 "
 action
 "
@@ -5980,7 +5964,7 @@ action
 "
 log
 "
-                    
+                
 "
 level
 "
@@ -5988,7 +5972,7 @@ level
 "
 INFO
 "
-                    
+                
 "
 message
 "
@@ -5997,7 +5981,7 @@ message
 line
 2
 "
-                    
+                
 "
 source
 "
@@ -6006,9 +5990,8 @@ source
 test
 2
 "
-                
-}
             
+}
 )
         
 self
@@ -6138,8 +6121,8 @@ self
 .
 assert_log_equals
 (
-            
 {
+            
 "
 action
 "
@@ -6147,6 +6130,7 @@ action
 "
 suite_start
 "
+            
 "
 tests
 "
@@ -6162,13 +6146,14 @@ default
 "
 ]
 }
+            
 "
 time
 "
 :
 1234
-}
         
+}
 )
         
 self
@@ -6202,9 +6187,8 @@ logger
 .
 test_start
 (
-            
 (
-                
+            
 b
 "
 \
@@ -6228,7 +6212,7 @@ xf0
 \
 x90
 "
-                
+            
 b
 "
 \
@@ -6248,25 +6232,23 @@ x84
 decode
 (
 )
-                
+            
 42
-                
+            
 "
 \
 u16a4
 "
-            
-)
         
+)
 )
         
 self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -6274,7 +6256,7 @@ action
 "
 test_start
 "
-                
+            
 "
 test
 "
@@ -6298,9 +6280,8 @@ U00010344
 u16a4
 "
 )
-            
-}
         
+}
 )
         
 self
@@ -6398,9 +6379,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -6408,7 +6388,7 @@ action
 "
 log
 "
-                
+            
 "
 message
 "
@@ -6432,7 +6412,7 @@ xff
 '
 ]
 "
-                
+            
 "
 level
 "
@@ -6440,9 +6420,8 @@ level
 "
 INFO
 "
-            
-}
         
+}
 )
         
 self
@@ -6637,8 +6616,8 @@ self
 .
 assert_log_equals
 (
-            
 {
+            
 "
 action
 "
@@ -6646,6 +6625,7 @@ action
 "
 suite_start
 "
+            
 "
 tests
 "
@@ -6658,14 +6638,15 @@ default
 [
 ]
 }
+            
 "
 run_info
 "
 :
 {
 }
-}
         
+}
 )
         
 self
@@ -6709,9 +6690,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -6719,7 +6699,7 @@ action
 "
 test_status
 "
-                
+            
 "
 test
 "
@@ -6727,7 +6707,7 @@ test
 "
 test1
 "
-                
+            
 "
 subtest
 "
@@ -6735,7 +6715,7 @@ subtest
 "
 subtest1
 "
-                
+            
 "
 status
 "
@@ -6743,7 +6723,7 @@ status
 "
 PASS
 "
-                
+            
 "
 expected
 "
@@ -6751,9 +6731,8 @@ expected
 "
 FAIL
 "
-            
-}
         
+}
 )
         
 self
@@ -6775,9 +6754,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -6785,7 +6763,7 @@ action
 "
 process_output
 "
-                
+            
 "
 process
 "
@@ -6793,7 +6771,7 @@ process
 "
 123
 "
-                
+            
 "
 command
 "
@@ -6801,7 +6779,7 @@ command
 "
 test
 "
-                
+            
 "
 data
 "
@@ -6809,9 +6787,8 @@ data
 "
 data
 "
-            
-}
         
+}
 )
         
 self
@@ -7065,9 +7042,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -7075,7 +7051,7 @@ action
 "
 log
 "
-                
+            
 "
 level
 "
@@ -7083,7 +7059,7 @@ level
 "
 INFO
 "
-                
+            
 "
 message
 "
@@ -7092,7 +7068,7 @@ message
 Test
 1
 "
-                
+            
 "
 component
 "
@@ -7100,9 +7076,8 @@ component
 "
 test_component
 "
-            
-}
         
+}
 )
         
 component_logger
@@ -7157,9 +7132,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -7167,7 +7141,7 @@ action
 "
 log
 "
-                
+            
 "
 level
 "
@@ -7175,7 +7149,7 @@ level
 "
 DEBUG
 "
-                
+            
 "
 message
 "
@@ -7184,7 +7158,7 @@ message
 Test
 3
 "
-                
+            
 "
 component
 "
@@ -7192,9 +7166,8 @@ component
 "
 test_component
 "
-            
-}
         
+}
 )
     
 def
@@ -7340,9 +7313,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -7350,7 +7322,7 @@ action
 "
 log
 "
-                
+            
 "
 level
 "
@@ -7358,7 +7330,7 @@ level
 "
 DEBUG
 "
-                
+            
 "
 message
 "
@@ -7367,7 +7339,7 @@ message
 Test
 2
 "
-                
+            
 "
 component
 "
@@ -7375,9 +7347,8 @@ component
 "
 test_component
 "
-            
-}
         
+}
 )
         
 self
@@ -7516,8 +7487,8 @@ self
 .
 assert_log_equals
 (
-            
 {
+            
 "
 action
 "
@@ -7525,6 +7496,7 @@ action
 "
 log
 "
+            
 "
 level
 "
@@ -7532,6 +7504,7 @@ level
 "
 DEBUG
 "
+            
 "
 message
 "
@@ -7541,8 +7514,8 @@ FILTERED
 !
 Test
 "
-}
         
+}
 )
         
 self
@@ -8169,8 +8142,8 @@ parser
 .
 parse_args
 (
-            
 [
+            
 "
 -
 -
@@ -8187,6 +8160,7 @@ self
 logfile
 .
 name
+            
 "
 -
 -
@@ -8198,8 +8172,8 @@ level
 =
 error
 "
-]
         
+]
 )
         
 logger
@@ -8290,8 +8264,8 @@ parser
 .
 parse_args
 (
-            
 [
+            
 "
 -
 -
@@ -8308,6 +8282,7 @@ self
 logfile
 .
 name
+            
 "
 -
 -
@@ -8319,8 +8294,8 @@ level
 =
 debug
 "
-]
         
+]
 )
         
 logger
@@ -8733,9 +8708,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -8743,7 +8717,7 @@ action
 "
 test_status
 "
-                
+            
 "
 test
 "
@@ -8751,7 +8725,7 @@ test
 "
 test1
 "
-                
+            
 "
 status
 "
@@ -8759,7 +8733,7 @@ status
 "
 PASS
 "
-                
+            
 "
 subtest
 "
@@ -8767,9 +8741,8 @@ subtest
 "
 sub1
 "
-            
-}
         
+}
 )
         
 self
@@ -9210,9 +9183,8 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -9220,7 +9192,7 @@ action
 "
 test_status
 "
-                
+            
 "
 test
 "
@@ -9228,7 +9200,7 @@ test
 "
 test1
 "
-                
+            
 "
 subtest
 "
@@ -9236,7 +9208,7 @@ subtest
 "
 sub8
 "
-                
+            
 "
 status
 "
@@ -9244,7 +9216,7 @@ status
 "
 FAIL
 "
-                
+            
 "
 expected
 "
@@ -9252,18 +9224,16 @@ expected
 "
 PASS
 "
-            
-}
         
+}
 )
         
 self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -9271,7 +9241,7 @@ action
 "
 test_status
 "
-                
+            
 "
 test
 "
@@ -9279,7 +9249,7 @@ test
 "
 test1
 "
-                
+            
 "
 status
 "
@@ -9287,7 +9257,7 @@ status
 "
 PASS
 "
-                
+            
 "
 subtest
 "
@@ -9295,18 +9265,16 @@ subtest
 "
 sub7
 "
-            
-}
         
+}
 )
         
 self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -9314,7 +9282,7 @@ action
 "
 test_status
 "
-                
+            
 "
 test
 "
@@ -9322,7 +9290,7 @@ test
 "
 test1
 "
-                
+            
 "
 status
 "
@@ -9330,7 +9298,7 @@ status
 "
 PASS
 "
-                
+            
 "
 subtest
 "
@@ -9338,18 +9306,16 @@ subtest
 "
 sub6
 "
-            
-}
         
+}
 )
         
 self
 .
 assert_log_equals
 (
-            
 {
-                
+            
 "
 action
 "
@@ -9357,7 +9323,7 @@ action
 "
 test_status
 "
-                
+            
 "
 test
 "
@@ -9365,7 +9331,7 @@ test
 "
 test1
 "
-                
+            
 "
 status
 "
@@ -9373,7 +9339,7 @@ status
 "
 PASS
 "
-                
+            
 "
 subtest
 "
@@ -9381,9 +9347,8 @@ subtest
 "
 sub5
 "
-            
-}
         
+}
 )
         
 self

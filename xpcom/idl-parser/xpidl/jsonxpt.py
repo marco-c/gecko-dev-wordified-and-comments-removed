@@ -922,15 +922,13 @@ resolved
 )
     
 assert
-(
-        
 iface
 .
 attributes
 .
 scriptable
-    
-)
+(
+        
 "
 Don
 '
@@ -944,6 +942,8 @@ non
 scriptable
 interfaces
 "
+    
+)
     
 consts
 =
@@ -972,9 +972,8 @@ consts
 .
 append
 (
-            
 {
-                
+            
 "
 name
 "
@@ -982,7 +981,7 @@ name
 c
 .
 name
-                
+            
 "
 type
 "
@@ -995,7 +994,7 @@ basetype
 "
 "
 )
-                
+            
 "
 value
 "
@@ -1005,9 +1004,8 @@ c
 getValue
 (
 )
-            
-}
         
+}
 )
     
 def
@@ -1029,9 +1027,8 @@ consts
 .
 append
 (
-                
 {
-                    
+                
 "
 name
 "
@@ -1039,7 +1036,7 @@ name
 var
 .
 name
-                    
+                
 "
 type
 "
@@ -1051,7 +1048,7 @@ b
 in
 "
 )
-                    
+                
 "
 value
 "
@@ -1059,9 +1056,8 @@ value
 var
 .
 value
-                
-}
             
+}
 )
     
 def
@@ -1807,10 +1803,10 @@ linked
 =
 len
 (
-        
 linked
-    
 )
+(
+        
 "
 Multiple
 typelibs
@@ -1822,6 +1818,8 @@ were
 linked
 together
 "
+    
+)
     
 return
 linked

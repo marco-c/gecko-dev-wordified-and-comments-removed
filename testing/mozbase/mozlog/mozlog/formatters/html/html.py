@@ -597,9 +597,8 @@ rev
 .
 join
 (
-                            
 [
-                                
+                            
 version_info
 .
 get
@@ -608,7 +607,7 @@ get
 application_repository
 "
 )
-                                
+                            
 version_info
 .
 get
@@ -617,9 +616,8 @@ get
 application_changeset
 "
 )
-                            
-]
                         
+]
 )
                         
 target
@@ -2390,14 +2388,12 @@ html
 .
 tr
 (
-                                    
 [
-                                        
+                                    
 html
 .
 th
 (
-                                            
 "
 Result
 "
@@ -2411,9 +2407,8 @@ col
 "
 result
 "
-                                        
 )
-                                        
+                                    
 html
 .
 th
@@ -2432,31 +2427,31 @@ col
 name
 "
 )
-                                        
+                                    
 html
 .
 th
 (
-                                            
+                                        
 "
 Duration
 "
-                                            
+                                        
 class_
 =
 "
 sortable
 numeric
 "
-                                            
+                                        
 col
 =
 "
 duration
 "
-                                        
+                                    
 )
-                                        
+                                    
 html
 .
 th
@@ -2465,9 +2460,8 @@ th
 Links
 "
 )
-                                    
-]
                                 
+]
 )
                                 
 id

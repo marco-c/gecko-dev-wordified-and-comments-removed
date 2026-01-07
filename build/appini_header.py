@@ -12,7 +12,6 @@ and
 outputs
 the
 corresponding
-   
 StaticXREAppData
 structure
 as

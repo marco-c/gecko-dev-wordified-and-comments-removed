@@ -1215,9 +1215,8 @@ metadata
 .
 add_result
 (
-            
 {
-                
+            
 "
 name
 "
@@ -1228,7 +1227,7 @@ test
 name
 "
 ]
-                
+            
 "
 framework
 "
@@ -1242,7 +1241,7 @@ name
 mozperftest
 "
 }
-                
+            
 "
 transformer
 "
@@ -1256,13 +1255,13 @@ shellscript
 :
 ShellScriptData
 "
-                
+            
 "
 shouldAlert
 "
 :
 True
-                
+            
 "
 results
 "
@@ -1272,9 +1271,8 @@ self
 parse_metrics
 (
 )
-            
-}
         
+}
 )
         
 return

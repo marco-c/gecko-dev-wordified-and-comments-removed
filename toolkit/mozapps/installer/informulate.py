@@ -292,8 +292,8 @@ all_key_value_pairs
 .
 update
 (
-        
 {
+        
 x
 .
 lower
@@ -315,8 +315,8 @@ for
 x
 in
 other_substitutions
-}
     
+}
 )
     
 build_id
@@ -334,15 +334,14 @@ all_key_value_pairs
 .
 update
 (
-        
 {
-            
+        
 "
 buildid
 "
 :
 build_id
-            
+        
 "
 moz_source_stamp
 "
@@ -355,7 +354,7 @@ substs
 MOZ_SOURCE_CHANGESET
 "
 ]
-            
+        
 "
 moz_pkg_platform
 "
@@ -363,9 +362,8 @@ moz_pkg_platform
 args
 .
 pkg_platform
-        
-}
     
+}
 )
     
 with

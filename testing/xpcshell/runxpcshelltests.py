@@ -181,21 +181,19 @@ EXPECTED_LOG_ACTIONS
 =
 set
 (
-    
 [
-        
+    
 "
 crash_reporter_init
 "
-        
+    
 "
 test_status
 "
-        
+    
 "
 log
 "
-    
 ]
 )
 here
@@ -4847,21 +4845,22 @@ thread
 .
 join
 (
-                    
 [
+                    
 current_thread
 (
 )
 .
 name
+                    
 line
 [
 "
 xpcshell_process
 "
 ]
-]
                 
+]
 )
             
 else
@@ -6011,12 +6010,13 @@ command
 .
 extend
 (
-            
 [
+            
 "
 -
 e
 "
+            
 '
 const
 _EXPECTED
@@ -6036,8 +6036,8 @@ test_object
 expected
 "
 ]
-]
         
+]
 )
         
 if
@@ -6052,12 +6052,13 @@ command
 .
 extend
 (
-                
 [
+                
 "
 -
 e
 "
+                
 '
 const
 _JSCOV_DIR
@@ -6083,8 +6084,8 @@ replace
 /
 "
 )
-]
             
+]
 )
         
 if
@@ -9496,11 +9497,12 @@ LD_LIBRARY_PATH
 .
 join
 (
-                
 [
+                
 self
 .
 xrePath
+                
 self
 .
 env
@@ -9509,8 +9511,8 @@ env
 LD_LIBRARY_PATH
 "
 ]
-]
             
+]
 )
         
 usingASan

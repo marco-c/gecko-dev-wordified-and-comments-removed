@@ -82,9 +82,8 @@ schema_dir
 =
 write_jsonschema_fixtures
 (
-        
 {
-            
+        
 "
 test_api
 .
@@ -93,7 +92,7 @@ json
 :
 dedent
 (
-                
+            
 "
 "
 "
@@ -327,11 +326,10 @@ MyType
 "
 "
 "
-            
-)
         
-}
+)
     
+}
 )
     
 schemas
@@ -581,9 +579,8 @@ schema_dir
 =
 write_jsonschema_fixtures
 (
-        
 {
-            
+        
 "
 test_broken_types
 .
@@ -594,17 +591,16 @@ json
 .
 dumps
 (
-                
 [
-                    
+            
 {
-                        
+                
 *
 *
 base_schema
 (
 )
-                        
+                
 "
 namespace
 "
@@ -612,27 +608,25 @@ namespace
 "
 testBrokenTypeAPI
 "
-                        
+                
 "
 types
 "
 :
 [
-                            
+                    
 {
-                            
-}
-                        
-]
                     
 }
                 
 ]
             
-)
-        
 }
+        
+]
+)
     
+}
 )
     
 schemas
@@ -718,9 +712,8 @@ schema_dir
 =
 write_jsonschema_fixtures
 (
-        
 {
-            
+        
 "
 test_broken_types
 .
@@ -731,17 +724,16 @@ json
 .
 dumps
 (
-                
 [
-                    
+            
 {
-                        
+                
 *
 *
 base_schema
 (
 )
-                        
+                
 "
 namespace
 "
@@ -749,15 +741,15 @@ namespace
 "
 testUnsupportedTypesAPI
 "
-                        
+                
 "
 types
 "
 :
 [
-                            
+                    
 {
-                                
+                        
 "
 id
 "
@@ -765,7 +757,7 @@ id
 "
 AnUnsupportedType
 "
-                                
+                        
 "
 type
 "
@@ -773,25 +765,25 @@ type
 "
 string
 "
-                                
+                        
 "
 unsupported
 "
 :
 True
-                            
+                    
 }
-                            
+                    
 {
-                                
+                        
 "
 unsupported
 "
 :
 True
-                            
+                    
 }
-                            
+                    
 {
 "
 id
@@ -808,17 +800,15 @@ type
 string
 "
 }
-                        
-]
-                    
-}
                 
 ]
             
-)
-        
 }
+        
+]
+)
     
+}
 )
     
 schemas

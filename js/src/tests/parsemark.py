@@ -949,8 +949,6 @@ count
 towards
 the
 average
-"
-"
 [
 %
 default
@@ -992,8 +990,6 @@ when
 omitted
 will
 look
-"
-"
 in
 likely
 places
@@ -1038,8 +1034,6 @@ with
 baseline
 values
 to
-"
-"
 compare
 against
 "

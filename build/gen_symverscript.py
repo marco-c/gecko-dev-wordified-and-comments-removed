@@ -27,17 +27,15 @@ context
 .
 update
 (
-        
 {
-            
+        
 "
 VERSION
 "
 :
 version
-        
-}
     
+}
 )
     
 pp

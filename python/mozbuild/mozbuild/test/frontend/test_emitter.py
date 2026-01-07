@@ -8323,11 +8323,13 @@ elsewhere
 )
 :
             
+(
 self
 .
 read_topsrcdir
 (
 reader
+)
 )
     
 def
@@ -8725,8 +8727,8 @@ expected
 =
 set
 (
-            
 [
+            
 "
 bar
 /
@@ -8734,6 +8736,7 @@ bar
 .
 ipdl
 "
+            
 "
 bar
 /
@@ -8741,6 +8744,7 @@ bar2
 .
 ipdlh
 "
+            
 "
 foo
 /
@@ -8748,6 +8752,7 @@ foo
 .
 ipdl
 "
+            
 "
 foo
 /
@@ -8755,8 +8760,8 @@ foo2
 .
 ipdlh
 "
-]
         
+]
 )
         
 self

@@ -391,9 +391,6 @@ inside
 nullable
 const
 typedef
-"
-        
-"
 after
 interface
 .

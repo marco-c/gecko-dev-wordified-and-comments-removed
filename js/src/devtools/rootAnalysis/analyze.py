@@ -2498,8 +2498,6 @@ still
 present
 for
 backwards
-"
-"
 compatibility
 "
 )
@@ -3011,8 +3009,6 @@ num_outputs
 1
         
 assert
-(
-            
 len
 (
 outfiles
@@ -3020,8 +3016,8 @@ outfiles
 =
 =
 num_outputs
-        
-)
+(
+            
 '
 step
 "
@@ -3045,16 +3041,19 @@ params
 d
 )
 '
+            
 %
 (
-            
+                
 step
-            
+                
 num_outputs
-            
+                
 len
 (
 outfiles
+)
+            
 )
         
 )

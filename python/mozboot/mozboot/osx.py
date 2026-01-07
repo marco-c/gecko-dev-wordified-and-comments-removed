@@ -1110,17 +1110,19 @@ subprocess
 .
 check_output
 (
-                
 [
+                
 to_optional_str
 (
 self
 .
 brew
 )
+                
 "
 tap
 "
+                
 "
 homebrew
 /
@@ -1128,8 +1130,8 @@ cask
 -
 versions
 "
-]
             
+]
 )
         
 if
@@ -1147,24 +1149,26 @@ subprocess
 .
 check_output
 (
-                
 [
+                
 to_optional_str
 (
 self
 .
 brew
 )
+                
 "
 untap
 "
+                
 "
 caskroom
 /
 versions
 "
-]
             
+]
 )
         
 self

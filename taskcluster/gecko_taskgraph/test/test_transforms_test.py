@@ -436,11 +436,10 @@ tasks
 return
 make_test_task
 (
-            
 *
 *
 {
-                
+            
 "
 attributes
 "
@@ -452,7 +451,7 @@ unittest_variant
 :
 variant
 }
-                
+            
 "
 description
 "
@@ -464,13 +463,13 @@ variant
 }
 variant
 "
-                
+            
 "
 mozharness
 "
 :
 {
-                    
+                
 "
 extra
 -
@@ -491,9 +490,9 @@ variant
 1
 "
 ]
-                
+            
 }
-                
+            
 "
 treeherder
 -
@@ -511,7 +510,7 @@ variant
 t
 )
 "
-                
+            
 "
 variant
 -
@@ -525,9 +524,8 @@ f
 variant
 }
 "
-            
-}
         
+}
 )
     
 run_split_variants
@@ -548,11 +546,10 @@ input_task
 =
 make_test_task
 (
-        
 *
 *
 {
-            
+        
 "
 run
 -
@@ -562,9 +559,8 @@ variant
 "
 :
 True
-        
-}
     
+}
 )
     
 tasks
@@ -617,11 +613,10 @@ input_task
 =
 make_test_task
 (
-        
 *
 *
 {
-            
+        
 "
 run
 -
@@ -631,7 +626,7 @@ variant
 "
 :
 True
-            
+        
 "
 variants
 "
@@ -644,9 +639,8 @@ foo
 bar
 "
 ]
-        
-}
     
+}
 )
     
 tasks
@@ -742,11 +736,10 @@ input_task
 =
 make_test_task
 (
-        
 *
 *
 {
-            
+        
 "
 run
 -
@@ -756,7 +749,7 @@ variant
 "
 :
 True
-            
+        
 "
 variants
 "
@@ -768,9 +761,8 @@ foo
 bar
 "
 ]
-        
-}
     
+}
 )
     
 tasks
@@ -887,11 +879,10 @@ input_task
 =
 make_test_task
 (
-        
 *
 *
 {
-            
+        
 "
 run
 -
@@ -901,7 +892,7 @@ variant
 "
 :
 True
-            
+        
 "
 test
 -
@@ -911,7 +902,7 @@ platform
 "
 windows
 "
-            
+        
 "
 variants
 "
@@ -929,9 +920,8 @@ foo
 bar
 "
 ]
-        
-}
     
+}
 )
     
 tasks
@@ -996,11 +986,10 @@ input_task
 =
 make_test_task
 (
-        
 *
 *
 {
-            
+        
 "
 run
 -
@@ -1010,7 +999,7 @@ variant
 "
 :
 False
-            
+        
 "
 variants
 "
@@ -1020,9 +1009,8 @@ variants
 foo
 "
 ]
-        
-}
     
+}
 )
     
 tasks

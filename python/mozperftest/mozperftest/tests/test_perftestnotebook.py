@@ -179,6 +179,8 @@ kwargs
 )
     
 with
+(
+        
 mock
 .
 patch
@@ -191,11 +193,12 @@ open
 "
 mocked_open
 )
+        
 mock
 .
 patch
 (
-        
+            
 "
 mozperftest
 .
@@ -209,15 +212,16 @@ webbrowser
 .
 open_new_tab
 "
-    
+        
 )
 as
 browser
+        
 mock
 .
 patch
 (
-        
+            
 "
 mozperftest
 .
@@ -229,10 +233,12 @@ perftestnotebook
 .
 HTTPServer
 "
-    
+        
 )
 as
 server
+    
+)
 :
         
 ptnb
@@ -530,8 +536,8 @@ server
 .
 assert_has_calls
 (
-            
 [
+            
 mock
 .
 call
@@ -541,6 +547,7 @@ call
 serve_forever
 (
 )
+            
 mock
 .
 call
@@ -550,8 +557,8 @@ call
 server_close
 (
 )
-]
         
+]
 )
 if
 __name__

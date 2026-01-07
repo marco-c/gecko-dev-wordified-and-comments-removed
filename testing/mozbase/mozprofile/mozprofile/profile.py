@@ -1412,9 +1412,8 @@ prefs_js
 .
 append
 (
-                        
 (
-                            
+                        
 "
 security
 .
@@ -1426,25 +1425,23 @@ mac
 .
 testing_read_path2
 "
-                            
+                        
 self
 .
 _allowlistpaths
 [
 1
 ]
-                        
-)
                     
+)
 )
                 
 prefs_js
 .
 append
 (
-                    
 (
-                        
+                    
 "
 security
 .
@@ -1456,16 +1453,15 @@ mac
 .
 testing_read_path1
 "
-                        
+                    
 self
 .
 _allowlistpaths
 [
 0
 ]
-                    
-)
                 
+)
 )
             
 else
@@ -1475,9 +1471,8 @@ prefs_js
 .
 append
 (
-                    
 (
-                        
+                    
 "
 security
 .
@@ -1487,7 +1482,7 @@ content
 .
 read_path_whitelist
 "
-                        
+                    
 "
 "
 .
@@ -1497,9 +1492,8 @@ self
 .
 _allowlistpaths
 )
-                    
-)
                 
+)
 )
         
 self
@@ -2472,21 +2466,20 @@ parts
 .
 append
 (
-                        
 (
-                            
+                        
 prefs_file
-                            
+                        
 "
 \
 n
 %
 s
 "
-                            
+                        
 %
 (
-                                
+                            
 "
 \
 n
@@ -2494,9 +2487,8 @@ n
 .
 join
 (
-                                    
 [
-                                        
+                                
 "
 %
 s
@@ -2516,7 +2508,7 @@ key
 ]
 )
 )
-                                        
+                                
 for
 key
 in
@@ -2528,15 +2520,13 @@ keys
 (
 )
 )
-                                    
-]
-                                
-)
                             
+]
 )
                         
 )
                     
+)
 )
                     
 network_proxy_autoconfig
@@ -2765,9 +2755,8 @@ parts
 .
 append
 (
-                            
 (
-                                
+                            
 "
 Network
 Proxy
@@ -2779,7 +2768,7 @@ s
 (
 prefs_file
 )
-                                
+                            
 "
 \
 n
@@ -2796,9 +2785,8 @@ join
 (
 lines
 )
-                            
-)
                         
+)
 )
         
 if

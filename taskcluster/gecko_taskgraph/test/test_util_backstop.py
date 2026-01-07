@@ -826,10 +826,10 @@ BACKSTOP_INDEX
 .
 format
 (
-                
 *
 *
 {
+                
 "
 trust
 -
@@ -839,6 +839,7 @@ domain
 "
 gecko
 "
+                
 "
 project
 "
@@ -849,8 +850,8 @@ params
 project
 "
 ]
-}
             
+}
 )
         
 )

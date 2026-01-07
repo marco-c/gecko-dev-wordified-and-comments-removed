@@ -11235,8 +11235,6 @@ JPEG
 library
 version
 for
-"
-"
 -
 -
 with
@@ -11324,8 +11322,6 @@ turbo
 JCS_EXTENSIONS
 required
 for
-"
-"
 -
 -
 with

@@ -2753,24 +2753,22 @@ n
 .
 join
 (
-            
 [
-                
+            
 repo
 .
 get_patches_after_ref
 (
 base_commit
 )
-                
+            
 repo
 .
 get_patch_for_uncommitted_changes
 (
 )
-            
-]
         
+]
 )
         
 if
@@ -3041,13 +3039,14 @@ extra_args_debugger_notation
 .
 join
 (
-            
 [
+            
 "
 -
 -
 debugger
 "
+            
 log_args
 .
 get
@@ -3056,8 +3055,8 @@ get
 debugger
 "
 )
-]
         
+]
 )
         
 if
@@ -8966,15 +8965,14 @@ with_context
 .
 append
 (
-                
 {
-                    
+                
 "
 to_test
 "
 :
 to_test
-                    
+                
 "
 references
 "
@@ -8985,9 +8983,8 @@ context
 references
 "
 ]
-                
-}
             
+}
 )
         
 except

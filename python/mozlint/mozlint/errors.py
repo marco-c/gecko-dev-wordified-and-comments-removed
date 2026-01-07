@@ -138,8 +138,6 @@ Use
 LintRoller
 .
 read
-"
-"
 to
 register
 a

@@ -779,9 +779,8 @@ parameters
 .
 update
 (
-        
 {
-            
+        
 "
 target_tasks_method
 "
@@ -790,21 +789,20 @@ TARGET_TASKS
 [
 tasks
 ]
-            
+        
 "
 optimize_target_tasks
 "
 :
 True
-            
+        
 "
 release_type
 "
 :
 release_type
-        
-}
     
+}
 )
     
 with

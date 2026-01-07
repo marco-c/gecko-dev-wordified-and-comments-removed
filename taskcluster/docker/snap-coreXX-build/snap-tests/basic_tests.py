@@ -1753,18 +1753,19 @@ subprocess
 .
 check_output
 (
-            
 [
+            
 self
 .
 _EXE_PATH
+            
 "
 -
 -
 help
 "
-]
         
+]
 )
 .
 decode
@@ -3008,14 +3009,12 @@ left
 "
             
 assert
-(
-                
 lower
 >
 =
 upper
-            
-)
+(
+                
 f
 "
 Inconsistent
@@ -3031,6 +3030,8 @@ upper
 upper
 }
 "
+            
+)
             
 if
 (
@@ -3078,14 +3079,12 @@ ignoring
 return
             
 assert
-(
-                
 diff_px_on_bbox
 <
 =
 allowance
-            
-)
+(
+                
 "
 Mismatching
 screenshots
@@ -3102,6 +3101,8 @@ exp
 reference
 "
 ]
+)
+            
 )
 class
 SnapTests
@@ -3345,8 +3346,6 @@ text
 )
         
 assert
-(
-            
 distributionid_box
 .
 text
@@ -3358,13 +3357,15 @@ exp
 distribution_id
 "
 ]
-        
-)
+(
+            
 "
 distribution_id
 should
 match
 "
+        
+)
         
 windowing_protocol
 =
@@ -3541,15 +3542,15 @@ text
 .
 startswith
 (
-            
 exp
 [
 "
 source_repo
 "
 ]
-        
 )
+(
+            
 "
 source
 repo
@@ -3558,6 +3559,8 @@ exists
 and
 match
 "
+        
+)
         
 build_flags_box
 =
@@ -3629,8 +3632,6 @@ text
 )
         
 assert
-(
-            
 build_flags_box
 .
 text
@@ -3647,8 +3648,8 @@ official
 >
 =
 0
-        
-)
+(
+            
 "
 official
 build
@@ -3657,6 +3658,8 @@ should
 be
 there
 "
+        
+)
         
 return
 True
@@ -3728,11 +3731,12 @@ EC
 .
 visibility_of_element_located
 (
-                    
 (
+                    
 By
 .
 CSS_SELECTOR
+                    
 "
 button
 [
@@ -3744,8 +3748,8 @@ label
 Accept
 ]
 "
-)
                 
+)
 )
             
 )
@@ -3815,11 +3819,12 @@ EC
 .
 visibility_of_element_located
 (
-                    
 (
+                    
 By
 .
 CSS_SELECTOR
+                    
 "
 button
 [
@@ -3831,8 +3836,8 @@ label
 Dismiss
 ]
 "
-)
                 
+)
 )
             
 )
@@ -4035,8 +4040,6 @@ duration
 )
             
 assert
-(
-                
 video
 .
 get_property
@@ -4052,8 +4055,8 @@ exp
 duration
 "
 ]
-            
-)
+(
+                
 "
 youtube
 video
@@ -4061,6 +4064,8 @@ should
 have
 duration
 "
+            
+)
             
 self
 .
@@ -4120,8 +4125,6 @@ currentTime
 )
             
 assert
-(
-                
 video
 .
 get_property
@@ -4137,8 +4140,8 @@ exp
 playback
 "
 ]
-            
-)
+(
+                
 "
 youtube
 video
@@ -4146,6 +4149,8 @@ should
 perform
 playback
 "
+            
+)
         
 except
 TimeoutException
@@ -4287,11 +4292,12 @@ EC
 .
 visibility_of_element_located
 (
-                
 (
+                
 By
 .
 CSS_SELECTOR
+                
 "
 .
 notification
@@ -4306,8 +4312,8 @@ DRM
 '
 ]
 "
-)
             
+)
 )
         
 )
@@ -4341,11 +4347,12 @@ EC
 .
 invisibility_of_element_located
 (
-                
 (
+                
 By
 .
 CSS_SELECTOR
+                
 "
 .
 notification
@@ -4360,8 +4367,8 @@ DRM
 '
 ]
 "
-)
             
+)
 )
         
 )
@@ -4389,11 +4396,12 @@ EC
 .
 visibility_of_element_located
 (
-                
 (
+                
 By
 .
 CSS_SELECTOR
+                
 "
 .
 infobar
@@ -4405,8 +4413,8 @@ drmContentCDMInstalling
 '
 ]
 "
-)
             
+)
 )
         
 )
@@ -4438,11 +4446,12 @@ EC
 .
 invisibility_of_element_located
 (
-                
 (
+                
 By
 .
 CSS_SELECTOR
+                
 "
 .
 infobar
@@ -4454,8 +4463,8 @@ drmContentCDMInstalling
 '
 ]
 "
-)
             
+)
 )
         
 )
@@ -4565,11 +4574,12 @@ EC
 .
 visibility_of_element_located
 (
-                
 (
+                
 By
 .
 CSS_SELECTOR
+                
 "
 video
 .
@@ -4579,8 +4589,8 @@ main
 -
 video
 "
-)
             
+)
 )
         
 )
@@ -4637,8 +4647,6 @@ duration
 )
         
 assert
-(
-            
 video
 .
 get_property
@@ -4654,8 +4662,8 @@ exp
 duration
 "
 ]
-        
-)
+(
+            
 "
 youtube
 video
@@ -4663,6 +4671,8 @@ should
 have
 duration
 "
+        
+)
         
 self
 .
@@ -4747,8 +4757,6 @@ currentTime
 )
         
 assert
-(
-            
 video
 .
 get_property
@@ -4764,8 +4772,8 @@ exp
 playback
 "
 ]
-        
-)
+(
+            
 "
 youtube
 video
@@ -4773,6 +4781,8 @@ should
 perform
 playback
 "
+        
+)
         
 return
 True

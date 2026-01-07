@@ -236,17 +236,15 @@ copy
     
 print
 (
-        
 [
-            
-initial_sys_path
-            
-mach_sys_path
-            
-command_sys_path
         
-]
+initial_sys_path
+        
+mach_sys_path
+        
+command_sys_path
     
+]
 )
 if
 __name__

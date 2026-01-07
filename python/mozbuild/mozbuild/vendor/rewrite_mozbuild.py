@@ -3460,11 +3460,10 @@ source_assignment_nodes
 .
 extend
 (
-            
 [
-                
+            
 node
-                
+            
 for
 node
 in
@@ -3474,7 +3473,7 @@ walk
 (
 root
 )
-                
+            
 if
 isinstance
 (
@@ -3483,12 +3482,12 @@ ast
 .
 Assign
 )
-                
+            
 and
 (
-                    
+                
 (
-                        
+                    
 isinstance
 (
 node
@@ -3501,7 +3500,7 @@ ast
 .
 Name
 )
-                        
+                    
 and
 node
 .
@@ -3516,12 +3515,12 @@ id
 "
 EXPORTS
 "
-                    
+                
 )
-                    
+                
 or
 (
-                        
+                    
 isinstance
 (
 node
@@ -3534,7 +3533,7 @@ ast
 .
 Attribute
 )
-                        
+                    
 and
 get_attribute_label
 (
@@ -3552,13 +3551,12 @@ startswith
 EXPORTS
 "
 )
-                    
-)
                 
 )
             
-]
+)
         
+]
 )
     
 assignment_index
@@ -3638,14 +3636,12 @@ a
 )
         
 assert
-(
-            
 source_assignment_location
 not
 in
 source_assignments
-        
-)
+(
+            
 "
 In
 %
@@ -3663,12 +3659,15 @@ s
 '
 )
 "
+            
 %
 (
-            
+                
 normalized_mozbuild_filename
-            
+                
 source_assignment_location
+            
+)
         
 )
         
@@ -4333,13 +4332,13 @@ path
 .
 isfile
 (
-            
 "
 .
 arcconfig
 "
-        
 )
+(
+            
 "
 We
 do
@@ -4353,6 +4352,8 @@ the
 gecko
 root
 "
+        
+)
     
 test_directory
 =
@@ -4807,9 +4808,8 @@ path_list
 =
 set
 (
-        
 [
-            
+        
 os
 .
 path
@@ -4830,14 +4830,13 @@ sep
 /
 "
 )
-            
+        
 for
 f
 in
 list_of_normalized_filenames
-        
-]
     
+]
 )
     
 return
@@ -6869,16 +6868,14 @@ original_normalized_filename_to_add
 continue
             
 assert
-(
-                
 len
 (
 possible_assignments
 )
 >
 0
-            
-)
+(
+                
 "
 Could
 not
@@ -6889,6 +6886,8 @@ possible
 source
 assignment
 "
+            
+)
             
 if
 len

@@ -2116,6 +2116,8 @@ test_render_templates
 :
     
 with
+(
+        
 tempfile
 .
 TemporaryDirectory
@@ -2123,6 +2125,7 @@ TemporaryDirectory
 )
 as
 template_dir
+        
 tempfile
 .
 TemporaryDirectory
@@ -2130,6 +2133,8 @@ TemporaryDirectory
 )
 as
 source_dir
+    
+)
 :
         
 with
@@ -4606,6 +4611,8 @@ _mock_copy
 )
     
 with
+(
+        
 tempfile
 .
 TemporaryDirectory
@@ -4613,6 +4620,7 @@ TemporaryDirectory
 )
 as
 xpi_dir
+        
 tempfile
 .
 TemporaryDirectory
@@ -4620,6 +4628,8 @@ TemporaryDirectory
 )
 as
 output_dir
+    
+)
 :
         
 for

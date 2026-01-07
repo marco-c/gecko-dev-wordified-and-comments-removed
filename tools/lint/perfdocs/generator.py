@@ -803,22 +803,21 @@ static
 .
 append
 (
-                        
 {
-                            
+                        
 "
 file
 "
 :
 static_file
-                            
+                        
 "
 content
 "
 :
 read_file
 (
-                                
+                            
 pathlib
 .
 Path
@@ -831,15 +830,14 @@ path
 ]
 static_file
 )
-                                
+                            
 stringify
 =
 True
-                            
-)
                         
-}
+)
                     
+}
 )
                 
 else
@@ -862,15 +860,14 @@ static
 .
 append
 (
-                        
 {
-                            
+                        
 "
 file
 "
 :
 static_file
-                            
+                        
 "
 content
 "
@@ -887,9 +884,8 @@ path
 ]
 static_file
 )
-                        
-}
                     
+}
 )
         
 return
@@ -1738,9 +1734,8 @@ files
 .
 extend
 (
-                    
 [
-                        
+                    
 pathlib
 .
 Path
@@ -1758,7 +1753,7 @@ yml
 "
 ]
 )
-                        
+                    
 pathlib
 .
 Path
@@ -1776,9 +1771,8 @@ rst
 "
 ]
 )
-                    
-]
                 
+]
 )
             
 return

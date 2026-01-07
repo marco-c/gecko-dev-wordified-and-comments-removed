@@ -586,8 +586,6 @@ URL
 )
             
 assert
-(
-                
 f
 "
 /
@@ -603,8 +601,8 @@ candidates
 "
 in
 patch_url
-            
-)
+(
+                
 f
 '
 "
@@ -627,6 +625,8 @@ url
 patch_url
 }
 '
+            
+)
             
 patch_response
 =

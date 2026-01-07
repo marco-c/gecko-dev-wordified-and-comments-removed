@@ -820,9 +820,8 @@ subtests
 .
 append
 (
-                    
 {
-                        
+                    
 "
 test
 "
@@ -834,7 +833,7 @@ test
 wpt
 .
 id
-                        
+                    
 "
 subtest
 "
@@ -842,7 +841,7 @@ subtest
 test
 .
 name
-                        
+                    
 "
 status
 "
@@ -850,15 +849,14 @@ status
 test
 .
 status
-                        
+                    
 "
 expected
 "
 :
 expected
-                    
-}
                 
+}
 )
                 
 results
@@ -1153,9 +1151,6 @@ WE
 EXPECT
 EXIT
 CODE
-"
-                    
-"
 (
 (
 ?

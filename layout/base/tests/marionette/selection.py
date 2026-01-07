@@ -1006,7 +1006,6 @@ character
 .
 format
 (
-                
 offset
 "
 backward
@@ -1017,7 +1016,6 @@ else
 "
 forward
 "
-            
 )
         
 )

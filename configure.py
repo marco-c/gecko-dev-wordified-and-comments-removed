@@ -1725,8 +1725,6 @@ topsrcdir
 '
 defines
 '
-"
-"
 '
 substs
 '

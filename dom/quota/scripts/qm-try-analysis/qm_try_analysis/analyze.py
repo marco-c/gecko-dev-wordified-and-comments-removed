@@ -403,19 +403,19 @@ join
 (
 workdir
 f
-'
+"
 qmstacks_until_
 {
 run
 [
-"
+'
 lasteventtime
-"
+'
 ]
 }
 .
 txt
-'
+"
 )
     
 elif

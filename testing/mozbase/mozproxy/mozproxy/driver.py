@@ -758,9 +758,8 @@ proxy_service
 =
 get_playback
 (
-                
 {
-                    
+                
 "
 run_local
 "
@@ -768,7 +767,7 @@ run_local
 args
 .
 local
-                    
+                
 "
 host
 "
@@ -776,7 +775,7 @@ host
 args
 .
 host
-                    
+                
 "
 binary
 "
@@ -784,7 +783,7 @@ binary
 args
 .
 binary
-                    
+                
 "
 obj_path
 "
@@ -792,7 +791,7 @@ obj_path
 args
 .
 objdir
-                    
+                
 "
 platform
 "
@@ -800,7 +799,7 @@ platform
 mozinfo
 .
 os
-                    
+                
 "
 playback_tool
 "
@@ -808,7 +807,7 @@ playback_tool
 args
 .
 tool
-                    
+                
 "
 playback_version
 "
@@ -816,7 +815,7 @@ playback_version
 args
 .
 tool_version
-                    
+                
 "
 playback_files
 "
@@ -824,7 +823,7 @@ playback_files
 args
 .
 file
-                    
+                
 "
 app
 "
@@ -832,7 +831,7 @@ app
 args
 .
 app
-                    
+                
 "
 local_profile_dir
 "
@@ -840,7 +839,7 @@ local_profile_dir
 args
 .
 profiledir
-                    
+                
 "
 verbose
 "
@@ -848,9 +847,8 @@ verbose
 args
 .
 verbose
-                
-}
             
+}
 )
         
 if
@@ -913,9 +911,8 @@ proxy_service
 =
 get_playback
 (
-                
 {
-                    
+                
 "
 run_local
 "
@@ -923,7 +920,7 @@ run_local
 args
 .
 local
-                    
+                
 "
 host
 "
@@ -931,7 +928,7 @@ host
 args
 .
 host
-                    
+                
 "
 binary
 "
@@ -939,7 +936,7 @@ binary
 args
 .
 binary
-                    
+                
 "
 obj_path
 "
@@ -947,7 +944,7 @@ obj_path
 args
 .
 objdir
-                    
+                
 "
 platform
 "
@@ -955,7 +952,7 @@ platform
 mozinfo
 .
 os
-                    
+                
 "
 playback_tool
 "
@@ -963,13 +960,12 @@ playback_tool
 args
 .
 tool
-                    
+                
 "
 playback_version
 "
 :
 (
-                        
 "
 8
 .
@@ -985,15 +981,14 @@ else
 args
 .
 tool_version
-                    
 )
-                    
+                
 "
 record
 "
 :
 True
-                    
+                
 "
 recording_file
 "
@@ -1004,7 +999,7 @@ file
 [
 0
 ]
-                    
+                
 "
 app
 "
@@ -1012,7 +1007,7 @@ app
 args
 .
 app
-                    
+                
 "
 local_profile_dir
 "
@@ -1020,7 +1015,7 @@ local_profile_dir
 args
 .
 profiledir
-                    
+                
 "
 verbose
 "
@@ -1028,7 +1023,7 @@ verbose
 args
 .
 verbose
-                    
+                
 "
 inject_deterministic
 "
@@ -1036,9 +1031,8 @@ inject_deterministic
 args
 .
 deterministic
-                
-}
             
+}
 )
         
 LOG

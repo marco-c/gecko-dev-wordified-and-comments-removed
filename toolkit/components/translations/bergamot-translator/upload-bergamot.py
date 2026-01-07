@@ -1438,7 +1438,7 @@ translator
 print
 (
 f
-'
+"
 -
 bergamot
 -
@@ -1446,12 +1446,12 @@ translator
 {
 record
 [
-"
+'
 version
-"
+'
 ]
 }
-'
+"
 )
         
 print

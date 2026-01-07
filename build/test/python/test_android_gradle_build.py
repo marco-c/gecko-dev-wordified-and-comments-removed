@@ -1215,16 +1215,14 @@ always_executed_tasks
 :
             
 assert
-(
-                
 actual_status
 =
 =
 "
 EXECUTED
 "
-            
-)
+(
+                
 f
 "
 Task
@@ -1241,18 +1239,18 @@ actual_status
 }
 '
 "
+            
+)
         
 else
 :
             
 assert
-(
-                
 actual_status
 in
 acceptable_statuses
-            
-)
+(
+                
 f
 "
 Task
@@ -1273,6 +1271,8 @@ of
 acceptable_statuses
 }
 "
+            
+)
 def
 assert_ordered_task_outcomes
 (
@@ -1447,14 +1447,12 @@ missing_tasks
 "
     
 assert
-(
-        
 task_order
 =
 =
 expected_order
-    
-)
+(
+        
 f
 "
 Task
@@ -1473,6 +1471,8 @@ Got
 task_order
 }
 "
+    
+)
     
 task_lookup
 =
@@ -1519,14 +1519,12 @@ status
 )
         
 assert
-(
-            
 actual_status
 =
 =
 expected_status
-        
-)
+(
+            
 f
 "
 Task
@@ -1547,6 +1545,8 @@ expected_status
 }
 '
 "
+        
+)
 def
 test_artifact_build
 (

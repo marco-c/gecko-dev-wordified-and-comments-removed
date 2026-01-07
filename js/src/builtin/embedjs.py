@@ -412,11 +412,10 @@ n
 .
 join
 (
-        
 [
-            
+        
 line
-            
+        
 for
 line
 in
@@ -425,7 +424,7 @@ preprocessed
 splitlines
 (
 )
-            
+        
 if
 (
 line
@@ -444,9 +443,8 @@ startswith
 "
 )
 )
-        
-]
     
+]
 )
     
 js_out

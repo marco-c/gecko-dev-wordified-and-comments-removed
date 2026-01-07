@@ -913,9 +913,8 @@ build_artifact_definitions
 .
 append
 (
-                    
 {
-                        
+                    
 "
 type
 "
@@ -926,7 +925,7 @@ optional_artifact_template
 type
 "
 ]
-                        
+                    
 "
 name
 "
@@ -937,7 +936,7 @@ optional_artifact_template
 name
 "
 ]
-                        
+                    
 "
 path
 "
@@ -951,18 +950,17 @@ path
 .
 format
 (
-                            
+                        
 component_path
 =
 get_path
 (
 component
 )
-                        
-)
                     
-}
+)
                 
+}
 )
         
 if
@@ -1118,9 +1116,8 @@ build_artifact_definitions
 .
 append
 (
-                    
 {
-                        
+                    
 "
 type
 "
@@ -1131,13 +1128,13 @@ artifact_template
 type
 "
 ]
-                        
+                    
 "
 name
 "
 :
 artifact_full_name
-                        
+                    
 "
 path
 "
@@ -1151,25 +1148,25 @@ path
 .
 format
 (
-                            
+                        
 component_path
 =
 get_path
 (
 component
 )
-                            
+                        
 component
 =
 component
-                            
+                        
 version
 =
 craft_path_version
 (
-                                
+                            
 version
-                                
+                            
 task
 [
 "
@@ -1183,19 +1180,18 @@ build
 type
 "
 ]
-                                
+                            
 nightly_version
-                            
+                        
 )
-                            
+                        
 artifact_file_name
 =
 artifact_file_name
-                        
-)
                     
-}
+)
                 
+}
 )
                 
 artifacts

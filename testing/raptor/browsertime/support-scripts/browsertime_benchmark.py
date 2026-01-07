@@ -236,9 +236,8 @@ cmd
 .
 extend
 (
-            
 [
-                
+            
 "
 -
 -
@@ -246,11 +245,11 @@ browsertime
 .
 cpuTime_test
 "
-                
+            
 "
 true
 "
-                
+            
 "
 -
 -
@@ -258,13 +257,12 @@ browsertime
 .
 wallclock_tracking_test
 "
-                
+            
 "
 true
 "
-            
-]
         
+]
 )
     
 def
@@ -1915,8 +1913,8 @@ replicates
 .
 extend
 (
-                    
 [
+                    
 round
 (
 x
@@ -1926,8 +1924,8 @@ for
 x
 in
 updated_metric
-]
                 
+]
 )
         
 vals
