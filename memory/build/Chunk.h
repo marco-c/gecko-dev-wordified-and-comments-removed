@@ -362,7 +362,7 @@ size
 size_t
 alignment
 ShouldCommit
-committed
+should_commit
 )
 ;
 #
