@@ -361,6 +361,14 @@ aGivenProto
 )
 final
 ;
+const
+StyleLockedDeclarationBlock
+*
+RawStyle
+(
+)
+const
+;
 private
 :
 ~
