@@ -2217,6 +2217,17 @@ const
 0
 ;
 virtual
+bool
+IsMapped
+(
+)
+const
+{
+return
+true
+;
+}
+virtual
 void
 ConstrainPosition
 (
