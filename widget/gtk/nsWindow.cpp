@@ -21206,6 +21206,14 @@ if
 mPendingBoundsChange
 )
 {
+gtk_container_check_resize
+(
+GTK_CONTAINER
+(
+mShell
+)
+)
+;
 RecomputeBounds
 (
 )
