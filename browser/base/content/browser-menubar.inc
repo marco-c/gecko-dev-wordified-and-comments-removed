@@ -1600,11 +1600,6 @@ command
 "
 cmd_fullZoomToggle
 "
-checked
-=
-"
-false
-"
 data
 -
 l10n

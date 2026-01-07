@@ -4770,7 +4770,7 @@ radio
 ;
 allDomains
 .
-setAttribute
+toggleAttribute
 (
 "
 checked
@@ -4841,7 +4841,7 @@ radio
 ;
 whenClicked
 .
-setAttribute
+toggleAttribute
 (
 "
 checked
@@ -4948,7 +4948,7 @@ radio
 ;
 alwaysOn
 .
-setAttribute
+toggleAttribute
 (
 "
 checked

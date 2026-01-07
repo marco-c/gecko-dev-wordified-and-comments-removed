@@ -3196,7 +3196,7 @@ getElementById
 id
 )
 .
-setAttribute
+toggleAttribute
 (
 "
 disabled

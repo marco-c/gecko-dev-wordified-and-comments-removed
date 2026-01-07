@@ -454,10 +454,6 @@ querySelector
 menuitem
 [
 checked
-=
-'
-true
-'
 ]
 "
 )

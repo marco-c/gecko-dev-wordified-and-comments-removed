@@ -932,13 +932,10 @@ dialog
 ;
 dialogEl
 .
-setAttribute
+removeAttribute
 (
 "
 buttondisabledaccept
-"
-"
-false
 "
 )
 ;

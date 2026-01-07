@@ -526,7 +526,7 @@ waitForCondition
 >
 recentlyClosedTabs
 .
-getAttribute
+hasAttribute
 (
 "
 disabled
@@ -548,7 +548,7 @@ ok
 (
 recentlyClosedTabs
 .
-getAttribute
+hasAttribute
 (
 "
 disabled
@@ -569,7 +569,7 @@ ok
 (
 recentlyClosedWindows
 .
-getAttribute
+hasAttribute
 (
 "
 disabled
@@ -629,7 +629,7 @@ waitForCondition
 !
 recentlyClosedTabs
 .
-getAttribute
+hasAttribute
 (
 "
 disabled
@@ -652,7 +652,7 @@ ok
 !
 recentlyClosedTabs
 .
-getAttribute
+hasAttribute
 (
 "
 disabled
@@ -673,7 +673,7 @@ ok
 (
 recentlyClosedWindows
 .
-getAttribute
+hasAttribute
 (
 "
 disabled
@@ -761,7 +761,7 @@ waitForCondition
 !
 recentlyClosedWindows
 .
-getAttribute
+hasAttribute
 (
 "
 disabled
@@ -784,7 +784,7 @@ ok
 !
 recentlyClosedTabs
 .
-getAttribute
+hasAttribute
 (
 "
 disabled
@@ -806,7 +806,7 @@ ok
 !
 recentlyClosedWindows
 .
-getAttribute
+hasAttribute
 (
 "
 disabled
@@ -890,7 +890,7 @@ ok
 (
 recentlyClosedTabs
 .
-getAttribute
+hasAttribute
 (
 "
 disabled
@@ -947,7 +947,7 @@ ok
 (
 recentlyClosedTabs
 .
-getAttribute
+hasAttribute
 (
 "
 disabled
@@ -1006,7 +1006,7 @@ ok
 (
 recentlyClosedTabs
 .
-getAttribute
+hasAttribute
 (
 "
 disabled

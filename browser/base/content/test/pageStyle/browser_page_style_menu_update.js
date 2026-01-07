@@ -92,10 +92,6 @@ querySelector
 menuitem
 [
 checked
-=
-'
-true
-'
 ]
 "
 )
@@ -168,10 +164,6 @@ querySelector
 menuitem
 [
 checked
-=
-'
-true
-'
 ]
 "
 )

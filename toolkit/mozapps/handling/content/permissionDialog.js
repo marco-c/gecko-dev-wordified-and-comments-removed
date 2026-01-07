@@ -354,12 +354,11 @@ this
 .
 _dialog
 .
-setAttribute
+removeAttribute
 (
 "
 buttondisabledaccept
 "
-false
 )
 ;
 }

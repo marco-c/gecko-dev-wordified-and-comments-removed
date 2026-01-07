@@ -21315,17 +21315,12 @@ if
 (
 node
 .
-getAttribute
+hasAttribute
 (
 "
 disabled
 "
 )
-=
-=
-"
-true
-"
 )
 {
 return
@@ -37180,7 +37175,7 @@ UndoCloseTab
 "
 )
 .
-setAttribute
+toggleAttribute
 (
 "
 disabled

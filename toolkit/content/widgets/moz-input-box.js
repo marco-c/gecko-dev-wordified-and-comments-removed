@@ -1121,7 +1121,7 @@ enabled
 ;
 enabledCheckbox
 .
-setAttribute
+toggleAttribute
 (
 "
 checked

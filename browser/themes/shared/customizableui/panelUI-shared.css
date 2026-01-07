@@ -2314,10 +2314,6 @@ shrink
 &
 [
 disabled
-=
-"
-true
-"
 ]
 {
 visibility
@@ -9229,10 +9225,6 @@ start
 &
 [
 checked
-=
-"
-true
-"
 ]
 {
 list
@@ -9450,10 +9442,6 @@ text
 subviewbutton
 [
 checked
-=
-"
-true
-"
 ]
 >
 .
@@ -11541,10 +11529,6 @@ flex
 &
 [
 disabled
-=
-"
-true
-"
 ]
 {
 pointer
@@ -14752,10 +14736,6 @@ margin
 &
 [
 disabled
-=
-"
-true
-"
 ]
 :
 :

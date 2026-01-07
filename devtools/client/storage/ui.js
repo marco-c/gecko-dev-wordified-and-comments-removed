@@ -7922,7 +7922,7 @@ this
 .
 _variableViewPopupCopy
 .
-setAttribute
+toggleAttribute
 (
 "
 disabled

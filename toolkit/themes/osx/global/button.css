@@ -188,10 +188,6 @@ where
 (
 [
 default
-=
-"
-true
-"
 ]
 :
 not
@@ -287,10 +283,6 @@ where
 (
 [
 disabled
-=
-"
-true
-"
 ]
 )
 {

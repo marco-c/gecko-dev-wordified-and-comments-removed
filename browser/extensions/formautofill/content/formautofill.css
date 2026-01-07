@@ -117,11 +117,7 @@ auto
 /
 *
 Treat
-collpased
-=
-"
-true
-"
+collapsed
 as
 display
 :
@@ -164,10 +160,6 @@ Values
 &
 [
 collapsed
-=
-"
-true
-"
 ]
 {
 display
@@ -179,10 +171,6 @@ none
 &
 [
 disabled
-=
-"
-true
-"
 ]
 {
 opacity

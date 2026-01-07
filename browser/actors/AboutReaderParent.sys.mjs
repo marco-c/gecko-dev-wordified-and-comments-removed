@@ -1101,12 +1101,11 @@ readerview
 ;
 key
 .
-setAttribute
+removeAttribute
 (
 "
 disabled
 "
-false
 )
 ;
 Services
@@ -1193,7 +1192,7 @@ readerview
 ;
 key
 .
-setAttribute
+toggleAttribute
 (
 "
 disabled

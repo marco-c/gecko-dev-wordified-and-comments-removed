@@ -168,12 +168,11 @@ children
 {
 childNode
 .
-setAttribute
+removeAttribute
 (
 "
 disabled
 "
-false
 )
 ;
 }

@@ -1860,12 +1860,11 @@ click
 }
 dialogEl
 .
-setAttribute
+removeAttribute
 (
 "
 buttondisabledaccept
 "
-false
 )
 ;
 dialogEl
