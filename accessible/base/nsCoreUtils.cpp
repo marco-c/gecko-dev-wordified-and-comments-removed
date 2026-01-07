@@ -363,7 +363,7 @@ label
 label
 -
 >
-GetLabeledElementInternal
+GetControl
 (
 )
 )

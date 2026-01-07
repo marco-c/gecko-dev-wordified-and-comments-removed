@@ -1811,7 +1811,7 @@ return
 internals
 -
 >
-GetFormInternal
+GetForm
 (
 )
 ;

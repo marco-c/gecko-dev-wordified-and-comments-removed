@@ -255,11 +255,6 @@ attribute
 double
 optimum
 ;
-[
-BinaryName
-=
-labelsForBindings
-]
 readonly
 attribute
 NodeList

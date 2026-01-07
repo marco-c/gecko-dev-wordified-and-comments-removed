@@ -170,13 +170,10 @@ state
 ;
 [
 Throws
-BinaryName
-=
-formForBindings
 ]
 readonly
 attribute
-Element
+HTMLFormElement
 ?
 form
 ;

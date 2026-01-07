@@ -29176,7 +29176,7 @@ return
 label
 -
 >
-GetLabeledElementInternal
+GetLabeledElement
 (
 )
 ;

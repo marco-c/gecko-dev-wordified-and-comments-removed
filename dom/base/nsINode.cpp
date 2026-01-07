@@ -18035,7 +18035,7 @@ FromNodeOrNull
 buttonControl
 -
 >
-GetCommandForElementInternal
+GetCommandForElement
 (
 )
 )
@@ -18131,7 +18131,7 @@ FromNodeOrNull
 formControl
 -
 >
-GetPopoverTargetElementInternal
+GetPopoverTargetElement
 (
 )
 )

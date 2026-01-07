@@ -82,10 +82,6 @@ RefPtr
 <
 HTMLInputElement
 >
-TreeKind
-:
-:
-DOM
 >
 mRadioButtons
 ;

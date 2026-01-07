@@ -218,14 +218,9 @@ attribute
 DOMTokenList
 htmlFor
 ;
-[
-BinaryName
-=
-formForBindings
-]
 readonly
 attribute
-Element
+HTMLFormElement
 ?
 form
 ;
@@ -299,11 +294,6 @@ DOMString
 error
 )
 ;
-[
-BinaryName
-=
-labelsForBindings
-]
 readonly
 attribute
 NodeList
