@@ -1093,6 +1093,16 @@ nsAString
 aResult
 )
 ;
+bool
+HasReferenceTarget
+(
+)
+const
+{
+return
+mReferenceTarget
+;
+}
 void
 GetReferenceTarget
 (

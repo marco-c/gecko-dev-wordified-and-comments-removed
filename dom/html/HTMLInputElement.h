@@ -2104,7 +2104,7 @@ bool
 aValue
 )
 ;
-HTMLDataListElement
+Element
 *
 GetListForBindings
 (
