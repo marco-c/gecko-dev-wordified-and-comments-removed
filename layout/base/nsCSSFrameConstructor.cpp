@@ -19877,12 +19877,6 @@ StyleDisplayInside
 :
 Grid
 :
-case
-StyleDisplayInside
-:
-:
-GridLanes
-:
 {
 static
 constexpr
