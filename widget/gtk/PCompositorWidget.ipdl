@@ -63,13 +63,6 @@ CleanupResources
 (
 )
 ;
-async
-SetRenderingSurface
-(
-uintptr_t
-aXWindow
-)
-;
 child
 :
 async
