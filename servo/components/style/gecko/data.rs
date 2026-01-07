@@ -2,6 +2,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 dom
 :
 :
@@ -108,7 +117,10 @@ crate
 stylist
 :
 :
+{
+DocumentFlushResult
 Stylist
+}
 ;
 use
 atomic_refcell
@@ -1039,7 +1051,7 @@ SnapshotMap
 )
 -
 >
-bool
+DocumentFlushResult
 where
 E
 :
