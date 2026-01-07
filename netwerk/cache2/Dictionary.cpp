@@ -991,6 +991,8 @@ pattern
 ;
 UrlpOptions
 options
+{
+}
 ;
 const
 nsCString
