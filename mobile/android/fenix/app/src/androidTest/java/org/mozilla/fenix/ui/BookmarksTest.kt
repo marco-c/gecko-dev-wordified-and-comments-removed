@@ -490,6 +490,12 @@ clickEdit
 clickParentFolderSelector
 (
 )
+expandSelectableFolder
+(
+"
+Bookmarks
+"
+)
 selectFolder
 (
 bookmarkFolderName
@@ -533,6 +539,12 @@ clickEdit
 {
 clickParentFolderSelector
 (
+)
+expandSelectableFolder
+(
+"
+Bookmarks
+"
 )
 selectFolder
 (
