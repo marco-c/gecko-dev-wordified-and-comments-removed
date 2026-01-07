@@ -1799,7 +1799,7 @@ R
 .
 color
 .
-photonDarkGrey05
+photonLightGrey40
 private
 val
 RECENT_SEARCHES_CLEAR_RECENTS_TEXT_COLOR
