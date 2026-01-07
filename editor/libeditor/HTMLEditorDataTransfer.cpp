@@ -2933,6 +2933,13 @@ prevVisibleThingOfBRElement
 ReachedSpecialContent
 (
 )
+|
+|
+prevVisibleThingOfBRElement
+.
+ReachedEmptyInlineContainerElement
+(
+)
 )
 {
 pointToPutCaret

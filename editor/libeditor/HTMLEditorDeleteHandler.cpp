@@ -4858,7 +4858,7 @@ if
 !
 scanFromCaretPointResult
 .
-IsContentEditable
+ContentIsEditable
 (
 )
 )
@@ -6450,7 +6450,7 @@ if
 !
 scanFromCaretPointResult
 .
-IsContentEditable
+ContentIsEditable
 (
 )
 )
@@ -7019,6 +7019,13 @@ if
 aScanFromCaretPointResult
 .
 ReachedSpecialContent
+(
+)
+|
+|
+aScanFromCaretPointResult
+.
+ReachedEmptyInlineContainerElement
 (
 )
 |
@@ -7788,6 +7795,13 @@ if
 aScanFromCaretPointResult
 .
 ReachedSpecialContent
+(
+)
+|
+|
+aScanFromCaretPointResult
+.
+ReachedEmptyInlineContainerElement
 (
 )
 |
@@ -9314,6 +9328,14 @@ if
 aScanFromCaretPointResult
 .
 ReachedSpecialContent
+(
+)
+&
+&
+!
+aScanFromCaretPointResult
+.
+ReachedEmptyInlineContainerElement
 (
 )
 )
@@ -11622,7 +11644,7 @@ if
 (
 maybePreviousText
 .
-IsContentEditable
+ContentIsEditable
 (
 )
 &
@@ -11681,7 +11703,7 @@ if
 (
 maybeNextText
 .
-IsContentEditable
+ContentIsEditable
 (
 )
 &
@@ -21068,7 +21090,7 @@ if
 (
 maybePreviousText
 .
-IsContentEditable
+ContentIsEditable
 (
 )
 &
@@ -31761,7 +31783,7 @@ if
 (
 maybePreviousText
 .
-IsContentEditable
+ContentIsEditable
 (
 )
 &
