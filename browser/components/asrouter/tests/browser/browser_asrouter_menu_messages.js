@@ -2220,6 +2220,9 @@ APP_MENU
 browserIsSelected
 :
 true
+isAIWindow
+:
+false
 }
 }
 )
@@ -2288,6 +2291,9 @@ PXI_MENU
 browserIsSelected
 :
 true
+isAIWindow
+:
+false
 }
 }
 )

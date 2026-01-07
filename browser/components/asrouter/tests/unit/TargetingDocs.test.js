@@ -416,6 +416,9 @@ screenImpressions
 "
 browserIsSelected
 "
+"
+isAIWindow
+"
 ]
 ;
 for
