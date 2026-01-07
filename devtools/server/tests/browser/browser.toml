@@ -820,6 +820,15 @@ browser_compatibility_cssIssues
 js
 "
 ]
+tags
+=
+"
+devtools
+-
+compat
+-
+data
+"
 [
 "
 browser_connectToFrame

@@ -5,6 +5,11 @@ tags
 =
 "
 devtools
+devtools
+-
+compat
+-
+data
 "
 subsuite
 =
@@ -218,13 +223,6 @@ js
 browser_compatibility_issue
 -
 node
-.
-js
-"
-]
-[
-"
-browser_compatibility_preference
 .
 js
 "
