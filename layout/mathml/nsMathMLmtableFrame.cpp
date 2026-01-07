@@ -185,7 +185,7 @@ static_cast
 int8_t
 >
 (
-StyleVerticalAlignKeyword
+TableCellAlignment
 :
 :
 Top
@@ -210,7 +210,7 @@ static_cast
 int8_t
 >
 (
-StyleVerticalAlignKeyword
+TableCellAlignment
 :
 :
 Bottom
@@ -235,7 +235,7 @@ static_cast
 int8_t
 >
 (
-StyleVerticalAlignKeyword
+TableCellAlignment
 :
 :
 Middle
@@ -248,7 +248,7 @@ static_cast
 int8_t
 >
 (
-StyleVerticalAlignKeyword
+TableCellAlignment
 :
 :
 Baseline
@@ -5404,11 +5404,11 @@ aModType
 )
 ;
 }
-StyleVerticalAlignKeyword
+TableCellAlignment
 nsMathMLmtdFrame
 :
 :
-GetVerticalAlign
+GetTableCellAlignment
 (
 )
 const
@@ -5419,7 +5419,7 @@ alignment
 nsTableCellFrame
 :
 :
-GetVerticalAlign
+GetTableCellAlignment
 (
 )
 ;
@@ -5453,7 +5453,7 @@ RowIndex
 return
 static_cast
 <
-StyleVerticalAlignKeyword
+TableCellAlignment
 >
 (
 (

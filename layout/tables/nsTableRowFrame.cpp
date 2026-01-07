@@ -2264,7 +2264,7 @@ if
 aCellFrame
 -
 >
-HasVerticalAlignBaseline
+HasTableCellAlignmentBaseline
 (
 )
 )

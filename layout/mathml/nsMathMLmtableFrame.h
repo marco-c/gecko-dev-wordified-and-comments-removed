@@ -765,11 +765,8 @@ aModType
 )
 override
 ;
-mozilla
-:
-:
-StyleVerticalAlignKeyword
-GetVerticalAlign
+TableCellAlignment
+GetTableCellAlignment
 (
 )
 const
