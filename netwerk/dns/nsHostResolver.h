@@ -1250,6 +1250,13 @@ aPb
 nsresult
 &
 aStatus
+const
+mozilla
+:
+:
+MutexAutoLock
+&
+aLock
 )
 MOZ_REQUIRES
 (
