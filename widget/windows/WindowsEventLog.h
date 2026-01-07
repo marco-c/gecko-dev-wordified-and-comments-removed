@@ -7,13 +7,6 @@ mozilla_WindowsEventLog_h
 #
 include
 <
-stdio
-.
-h
->
-#
-include
-<
 windows
 .
 h

@@ -30,13 +30,6 @@ __MINGW32__
 #
 include
 <
-stdio
-.
-h
->
-#
-include
-<
 shellapi
 .
 h

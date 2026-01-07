@@ -6,13 +6,6 @@ define
 shell_jsoptparse_h
 #
 include
-<
-stdio
-.
-h
->
-#
-include
 "
 js
 /

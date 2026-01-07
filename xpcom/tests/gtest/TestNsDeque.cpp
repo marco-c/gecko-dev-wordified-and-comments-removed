@@ -33,13 +33,6 @@ h
 #
 include
 <
-stdio
-.
-h
->
-#
-include
-<
 functional
 >
 #

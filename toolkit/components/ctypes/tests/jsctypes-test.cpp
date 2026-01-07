@@ -23,13 +23,6 @@ h
 >
 #
 include
-<
-stdio
-.
-h
->
-#
-include
 "
 typedefs
 .

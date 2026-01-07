@@ -17,6 +17,13 @@ h
 #
 include
 <
+wchar
+.
+h
+>
+#
+include
+<
 oleauto
 .
 h
@@ -30,11 +37,6 @@ lib
 oleaut32
 "
 )
-#
-include
-<
-cstdio
->
 void
 TestNoCrash
 (

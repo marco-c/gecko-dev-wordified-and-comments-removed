@@ -7,13 +7,6 @@ h
 "
 #
 include
-<
-stdio
-.
-h
->
-#
-include
 "
 GMPContentChild
 .

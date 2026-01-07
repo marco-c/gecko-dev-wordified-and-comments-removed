@@ -22,13 +22,6 @@ h
 #
 include
 <
-stdio
-.
-h
->
-#
-include
-<
 mach
 /
 mach_port

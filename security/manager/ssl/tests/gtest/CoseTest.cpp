@@ -24,13 +24,6 @@ h
 #
 include
 <
-stdio
-.
-h
->
-#
-include
-<
 cstddef
 >
 #

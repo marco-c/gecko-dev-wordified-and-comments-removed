@@ -21,13 +21,6 @@ h
 >
 #
 include
-<
-stdio
-.
-h
->
-#
-include
 "
 GMPLog
 .

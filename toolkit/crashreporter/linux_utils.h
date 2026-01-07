@@ -7,13 +7,6 @@ toolkit_breakpad_linux_utils_h__
 #
 include
 <
-stdio
-.
-h
->
-#
-include
-<
 stdint
 .
 h

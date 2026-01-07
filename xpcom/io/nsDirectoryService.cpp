@@ -121,13 +121,6 @@ stdlib
 h
 >
 #
-include
-<
-stdio
-.
-h
->
-#
 elif
 defined
 (

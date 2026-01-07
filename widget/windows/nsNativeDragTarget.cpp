@@ -1,12 +1,5 @@
 #
 include
-<
-stdio
-.
-h
->
-#
-include
 "
 nsIDragService
 .

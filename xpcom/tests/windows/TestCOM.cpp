@@ -14,13 +14,6 @@ h
 >
 #
 include
-<
-stdio
-.
-h
->
-#
-include
 "
 nsISupports
 .

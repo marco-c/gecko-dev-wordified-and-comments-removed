@@ -11,13 +11,6 @@ array
 >
 #
 include
-<
-stdio
-.
-h
->
-#
-include
 "
 GLDefs
 .

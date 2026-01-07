@@ -37,11 +37,6 @@ h
 #
 include
 <
-cstdio
->
-#
-include
-<
 cstring
 >
 #
