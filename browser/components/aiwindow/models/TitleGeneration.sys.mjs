@@ -443,6 +443,14 @@ run
 (
 {
 messages
+fxAccountToken
+:
+await
+openAIEngine
+.
+getFxAccountToken
+(
+)
 }
 )
 ;
