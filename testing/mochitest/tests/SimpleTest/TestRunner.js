@@ -3655,11 +3655,16 @@ ERROR
 var
 unexpectedCrashDumpFiles
 =
+SpecialPowers
+.
+unwrap
+(
 await
 SpecialPowers
 .
 findUnexpectedCrashDumpFiles
 (
+)
 )
 ;
 TestRunner

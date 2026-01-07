@@ -109,6 +109,13 @@ html
 ]
 [
 "
+test_SpecialPowersStructuredClone
+.
+html
+"
+]
+[
+"
 test_TestsRunningAfterSimpleTestFinish
 .
 html
