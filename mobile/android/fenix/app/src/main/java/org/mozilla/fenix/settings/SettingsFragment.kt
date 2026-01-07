@@ -1595,6 +1595,16 @@ showToolbarWithIconButton
 title
 =
 toolbarTitle
+contentDescription
+=
+getString
+(
+R
+.
+string
+.
+settings_search_button_content_description
+)
 iconResId
 =
 R
