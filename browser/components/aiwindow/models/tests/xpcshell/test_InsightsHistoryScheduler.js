@@ -37,7 +37,7 @@ mjs
 ;
 const
 {
-MemoriesHistoryScheduler
+InsightsHistoryScheduler
 }
 =
 ChromeUtils
@@ -60,9 +60,7 @@ aiwindow
 /
 models
 /
-memories
-/
-MemoriesHistoryScheduler
+InsightsHistoryScheduler
 .
 sys
 .
@@ -72,7 +70,7 @@ mjs
 ;
 const
 {
-MemoriesDriftDetector
+InsightsDriftDetector
 }
 =
 ChromeUtils
@@ -95,9 +93,7 @@ aiwindow
 /
 models
 /
-memories
-/
-MemoriesDriftDetector
+InsightsDriftDetector
 .
 sys
 .
@@ -107,7 +103,7 @@ mjs
 ;
 const
 {
-MemoriesManager
+InsightsManager
 }
 =
 ChromeUtils
@@ -130,9 +126,7 @@ aiwindow
 /
 models
 /
-memories
-/
-MemoriesManager
+InsightsManager
 .
 sys
 .
@@ -142,7 +136,7 @@ mjs
 ;
 const
 {
-PREF_GENERATE_MEMORIES
+PREF_GENERATE_INSIGHTS
 }
 =
 ChromeUtils
@@ -165,9 +159,7 @@ aiwindow
 /
 models
 /
-memories
-/
-MemoriesConstants
+InsightsConstants
 .
 sys
 .
@@ -283,7 +275,7 @@ prefs
 .
 clearUserPref
 (
-PREF_GENERATE_MEMORIES
+PREF_GENERATE_INSIGHTS
 )
 ;
 await
@@ -312,7 +304,7 @@ prefs
 .
 setBoolPref
 (
-PREF_GENERATE_MEMORIES
+PREF_GENERATE_INSIGHTS
 true
 )
 ;
@@ -323,9 +315,9 @@ sinon
 .
 stub
 (
-MemoriesManager
+InsightsManager
 "
-generateMemoriesFromBrowsingHistory
+generateInsightsFromBrowsingHistory
 "
 )
 .
@@ -340,7 +332,7 @@ sinon
 .
 stub
 (
-MemoriesDriftDetector
+InsightsDriftDetector
 "
 computeHistoryDriftAndTrigger
 "
@@ -417,7 +409,7 @@ try
 let
 scheduler
 =
-MemoriesHistoryScheduler
+InsightsHistoryScheduler
 .
 maybeInit
 (
@@ -479,7 +471,7 @@ prefs
 .
 setBoolPref
 (
-PREF_GENERATE_MEMORIES
+PREF_GENERATE_INSIGHTS
 true
 )
 ;
@@ -490,9 +482,9 @@ sinon
 .
 stub
 (
-MemoriesManager
+InsightsManager
 "
-generateMemoriesFromBrowsingHistory
+generateInsightsFromBrowsingHistory
 "
 )
 .
@@ -507,7 +499,7 @@ sinon
 .
 stub
 (
-MemoriesDriftDetector
+InsightsDriftDetector
 "
 computeHistoryDriftAndTrigger
 "
@@ -583,7 +575,7 @@ try
 let
 scheduler
 =
-MemoriesHistoryScheduler
+InsightsHistoryScheduler
 .
 maybeInit
 (
@@ -644,7 +636,7 @@ prefs
 .
 setBoolPref
 (
-PREF_GENERATE_MEMORIES
+PREF_GENERATE_INSIGHTS
 true
 )
 ;
@@ -655,9 +647,9 @@ sinon
 .
 stub
 (
-MemoriesManager
+InsightsManager
 "
-generateMemoriesFromBrowsingHistory
+generateInsightsFromBrowsingHistory
 "
 )
 .
@@ -672,7 +664,7 @@ sinon
 .
 stub
 (
-MemoriesDriftDetector
+InsightsDriftDetector
 "
 computeHistoryDriftAndTrigger
 "
@@ -716,9 +708,9 @@ sinon
 .
 stub
 (
-MemoriesManager
+InsightsManager
 "
-getLastHistoryMemoryTimestamp
+getLastHistoryInsightTimestamp
 "
 )
 .
@@ -732,7 +724,7 @@ try
 let
 scheduler
 =
-MemoriesHistoryScheduler
+InsightsHistoryScheduler
 .
 maybeInit
 (

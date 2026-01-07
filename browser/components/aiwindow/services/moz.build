@@ -81,7 +81,7 @@ MOZ_SRC_FILES
 =
 [
 "
-MemoryStore
+InsightStore
 .
 sys
 .

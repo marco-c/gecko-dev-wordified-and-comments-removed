@@ -27,9 +27,7 @@ aiwindow
 /
 models
 /
-memories
-/
-MemoriesHistorySource
+InsightsHistorySource
 .
 sys
 .

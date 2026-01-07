@@ -37,7 +37,7 @@ mjs
 ;
 const
 {
-MemoriesConversationScheduler
+InsightsConversationScheduler
 }
 =
 ChromeUtils
@@ -60,9 +60,7 @@ aiwindow
 /
 models
 /
-memories
-/
-MemoriesConversationScheduler
+InsightsConversationScheduler
 .
 sys
 .
@@ -72,7 +70,7 @@ mjs
 ;
 const
 {
-MemoriesManager
+InsightsManager
 }
 =
 ChromeUtils
@@ -95,9 +93,7 @@ aiwindow
 /
 models
 /
-memories
-/
-MemoriesManager
+InsightsManager
 .
 sys
 .
@@ -107,7 +103,7 @@ mjs
 ;
 const
 {
-PREF_GENERATE_MEMORIES
+PREF_GENERATE_INSIGHTS
 }
 =
 ChromeUtils
@@ -130,9 +126,7 @@ aiwindow
 /
 models
 /
-memories
-/
-MemoriesConstants
+InsightsConstants
 .
 sys
 .
@@ -197,7 +191,7 @@ prefs
 .
 clearUserPref
 (
-PREF_GENERATE_MEMORIES
+PREF_GENERATE_INSIGHTS
 )
 ;
 }
@@ -326,14 +320,14 @@ prefs
 .
 setBoolPref
 (
-PREF_GENERATE_MEMORIES
+PREF_GENERATE_INSIGHTS
 false
 )
 ;
 let
 scheduler
 =
-MemoriesConversationScheduler
+InsightsConversationScheduler
 .
 maybeInit
 (
@@ -375,7 +369,7 @@ prefs
 .
 setBoolPref
 (
-PREF_GENERATE_MEMORIES
+PREF_GENERATE_INSIGHTS
 true
 )
 ;
@@ -435,9 +429,9 @@ sb
 .
 stub
 (
-MemoriesManager
+InsightsManager
 "
-getLastConversationMemoryTimestamp
+getLastConversationInsightTimestamp
 "
 )
 .
@@ -453,9 +447,9 @@ sb
 .
 stub
 (
-MemoriesManager
+InsightsManager
 "
-generateMemoriesFromConversationHistory
+generateInsightsFromConversationHistory
 "
 )
 .
@@ -466,7 +460,7 @@ resolves
 let
 scheduler
 =
-MemoriesConversationScheduler
+InsightsConversationScheduler
 .
 maybeInit
 (
@@ -524,7 +518,7 @@ calledOnce
 Should
 check
 last
-memory
+insight
 timestamp
 once
 "
@@ -539,7 +533,7 @@ generateStub
 .
 calledOnce
 "
-Memories
+Insights
 generation
 should
 not
@@ -579,7 +573,7 @@ prefs
 .
 setBoolPref
 (
-PREF_GENERATE_MEMORIES
+PREF_GENERATE_INSIGHTS
 true
 )
 ;
@@ -638,9 +632,9 @@ sb
 .
 stub
 (
-MemoriesManager
+InsightsManager
 "
-getLastConversationMemoryTimestamp
+getLastConversationInsightTimestamp
 "
 )
 .
@@ -656,9 +650,9 @@ sb
 .
 stub
 (
-MemoriesManager
+InsightsManager
 "
-generateMemoriesFromConversationHistory
+generateInsightsFromConversationHistory
 "
 )
 .
@@ -669,7 +663,7 @@ resolves
 let
 scheduler
 =
-MemoriesConversationScheduler
+InsightsConversationScheduler
 .
 maybeInit
 (
@@ -727,7 +721,7 @@ calledOnce
 Should
 check
 last
-memory
+insight
 timestamp
 once
 "
@@ -741,7 +735,7 @@ generateStub
 .
 calledOnce
 "
-Memories
+Insights
 generation
 should
 be
