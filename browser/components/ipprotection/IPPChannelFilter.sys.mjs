@@ -135,7 +135,6 @@ nsIProtocolProxyService
 const
 {
 TRANSPARENT_PROXY_RESOLVES_HOST
-ALWAYS_TUNNEL_VIA_PROXY
 }
 =
 Ci
@@ -638,8 +637,6 @@ port
 authToken
 isolationKey
 TRANSPARENT_PROXY_RESOLVES_HOST
-|
-ALWAYS_TUNNEL_VIA_PROXY
 failOverTimeout
 fallBackInfo
 )
