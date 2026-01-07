@@ -259,26 +259,6 @@ localeService
 }
 ;
 }
-async
-function
-recordTargetingContextAndSubmit
-(
-)
-{
-await
-recordTargetingContext
-(
-)
-;
-GleanPings
-.
-nimbusTargetingContext
-.
-submit
-(
-)
-;
-}
 function
 getRecordedTargetingContextMetrics
 (
@@ -918,7 +898,7 @@ metric
 ;
 }
 }
-recordTargetingContextAndSubmit
+recordTargetingContext
 )
 ;
 manager
@@ -1073,7 +1053,7 @@ telemetry
 )
 ;
 }
-recordTargetingContextAndSubmit
+recordTargetingContext
 )
 ;
 Services
@@ -1202,7 +1182,7 @@ telemetry
 )
 ;
 }
-recordTargetingContextAndSubmit
+recordTargetingContext
 )
 ;
 Services
@@ -1350,7 +1330,7 @@ telemetry
 )
 ;
 }
-recordTargetingContextAndSubmit
+recordTargetingContext
 )
 ;
 Services
@@ -1425,7 +1405,7 @@ telemetry
 )
 ;
 }
-recordTargetingContextAndSubmit
+recordTargetingContext
 )
 ;
 Services
@@ -1495,7 +1475,7 @@ telemetry
 )
 ;
 }
-recordTargetingContextAndSubmit
+recordTargetingContext
 )
 ;
 Services
@@ -1608,7 +1588,7 @@ enrollmentsMap
 )
 ;
 }
-recordTargetingContextAndSubmit
+recordTargetingContext
 )
 ;
 await
@@ -1868,7 +1848,7 @@ sort
 )
 ;
 }
-recordTargetingContextAndSubmit
+recordTargetingContext
 )
 ;
 manager
@@ -2032,7 +2012,7 @@ sort
 )
 ;
 }
-recordTargetingContextAndSubmit
+recordTargetingContext
 )
 ;
 await
@@ -2197,7 +2177,7 @@ telemetry
 )
 ;
 }
-recordTargetingContextAndSubmit
+recordTargetingContext
 )
 ;
 info
@@ -2295,7 +2275,7 @@ telemetry
 )
 ;
 }
-recordTargetingContextAndSubmit
+recordTargetingContext
 )
 ;
 Services
@@ -2411,7 +2391,7 @@ isFirstStartup
 )
 ;
 }
-recordTargetingContextAndSubmit
+recordTargetingContext
 )
 ;
 await
@@ -2651,7 +2631,7 @@ default
 )
 ;
 }
-recordTargetingContextAndSubmit
+recordTargetingContext
 )
 ;
 Services
@@ -2910,7 +2890,7 @@ metric
 )
 ;
 }
-recordTargetingContextAndSubmit
+recordTargetingContext
 )
 ;
 await
@@ -3028,7 +3008,7 @@ info
 )
 ;
 }
-recordTargetingContextAndSubmit
+recordTargetingContext
 )
 ;
 const
@@ -3154,7 +3134,7 @@ addon
 )
 ;
 }
-recordTargetingContextAndSubmit
+recordTargetingContext
 )
 ;
 const
@@ -3289,7 +3269,7 @@ addons
 )
 ;
 }
-recordTargetingContextAndSubmit
+recordTargetingContext
 )
 ;
 await
@@ -3387,7 +3367,7 @@ info
 )
 ;
 }
-recordTargetingContextAndSubmit
+recordTargetingContext
 )
 ;
 await
