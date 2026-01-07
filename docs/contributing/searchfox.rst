@@ -80,6 +80,9 @@ searchfox
 blame
 searchfox
 /
+diagramming
+searchfox
+/
 backend
 Repositories
 =
