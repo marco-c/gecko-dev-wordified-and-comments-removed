@@ -110,11 +110,6 @@ test_coopError
 (
 )
 {
-await
-setSecurityCertErrorsFeltPrivacyToFalse
-(
-)
-;
 let
 iframeTab
 =

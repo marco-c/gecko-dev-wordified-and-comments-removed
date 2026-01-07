@@ -4114,7 +4114,6 @@ pre
 ;
 return
 textContainer
-?
 .
 textContent
 ;
