@@ -13722,7 +13722,7 @@ nsContainerFrame
 *
 scrolledFrame
 =
-NS_NewSelectsAreaFrame
+NS_NewBlockFrame
 (
 mPresShell
 computedStyle
