@@ -880,7 +880,7 @@ os
 .
 path
 .
-dirname
+normpath
 (
 safari_bundle_path
 )
@@ -902,7 +902,7 @@ os
 .
 path
 .
-dirname
+normpath
 (
 safari_bundle_path
 )
