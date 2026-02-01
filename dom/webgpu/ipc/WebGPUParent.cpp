@@ -4214,9 +4214,10 @@ ToFFI
 )
 )
 ;
-ForwardError
-(
 getRangeError
+.
+GetError
+(
 )
 ;
 if
@@ -4341,9 +4342,10 @@ ToFFI
 )
 )
 ;
-ForwardError
-(
 unmapError
+.
+GetError
+(
 )
 ;
 if
