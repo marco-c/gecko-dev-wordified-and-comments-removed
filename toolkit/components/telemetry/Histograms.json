@@ -93600,6 +93600,9 @@ permissions_request
 "
 launchWebAuthFlow
 "
+"
+downloads_saveAs
+"
 ]
 "
 releaseChannelCollection
@@ -93742,6 +93745,9 @@ permissions_request
 "
 "
 launchWebAuthFlow
+"
+"
+downloads_saveAs
 "
 ]
 "
