@@ -4710,6 +4710,15 @@ value
 enabled
 :
 true
+-
+channel
+:
+beta
+value
+:
+enabled
+:
+true
 toolbar
 -
 redesign
