@@ -866,7 +866,9 @@ AUjQPiI
 ]
 import
 sys
-imp
+importlib
+.
+util
 base64
 zlib
 for
@@ -890,13 +892,29 @@ source
 )
 )
     
-mod
+spec
 =
-imp
+importlib
 .
-new_module
+util
+.
+spec_from_loader
 (
 name
+loader
+=
+None
+)
+    
+mod
+=
+importlib
+.
+util
+.
+module_from_spec
+(
+spec
 )
     
 exec
