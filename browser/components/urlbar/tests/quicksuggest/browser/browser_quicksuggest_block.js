@@ -578,12 +578,6 @@ assertIsQuickSuggest
 {
 window
 isSponsored
-isManageable
-:
-isSponsored
-|
-|
-undefined
 url
 :
 isSponsored
@@ -803,12 +797,6 @@ assertIsQuickSuggest
 {
 window
 isSponsored
-isManageable
-:
-isSponsored
-|
-|
-undefined
 url
 :
 isSponsored
