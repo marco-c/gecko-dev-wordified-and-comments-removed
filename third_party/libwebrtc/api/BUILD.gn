@@ -9561,6 +9561,14 @@ mock_data_channel
 "
 "
 :
+mock_datagram_connection
+"
+"
+:
+mock_datagram_connection_observer
+"
+"
+:
 mock_dtmf_sender
 "
 "
