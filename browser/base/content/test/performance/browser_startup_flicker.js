@@ -200,6 +200,12 @@ alreadyFocused
 =
 true
 ;
+let
+expectedRects
+=
+[
+]
+;
 rects
 =
 rects
@@ -456,6 +462,13 @@ name
 rectText
 )
 ;
+expectedRects
+.
+push
+(
+rect
+)
+;
 return
 false
 ;
@@ -506,6 +519,7 @@ reportFlickerWithAPNG
 previousFrame
 frame
 i
+expectedRects
 )
 ;
 unexpectedRects
