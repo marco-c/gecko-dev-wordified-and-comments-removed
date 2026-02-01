@@ -10353,11 +10353,10 @@ ignore
 UnusedResources
 "
 >
-Prep
-rate
+Preparate
 para
-correr
-libre
+navegar
+libremente
 <
 /
 string
@@ -10867,6 +10866,7 @@ y
 bloqueamos
 autom
 ticamente
+a
 las
 empresas
 para
@@ -11679,7 +11679,7 @@ BrandUsage
 UnusedResources
 "
 >
-Comenc
+Comenz
 cada
 b
 squeda
@@ -25139,7 +25139,8 @@ al
 azar
 para
 probar
-funciones
+las
+funcionalidades
 lo
 que
 mejora
@@ -25219,7 +25220,7 @@ studies_title_2
 Permitir
 estudios
 de
-funciones
+funcionalidades
 <
 /
 string
