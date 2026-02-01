@@ -14613,7 +14613,7 @@ Mixed
 )
 mMozBoxCollapse
 (
-StyleMozBoxCollapse
+StyleBoxCollapse
 :
 :
 Flex

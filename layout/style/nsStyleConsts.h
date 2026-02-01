@@ -679,7 +679,7 @@ Sideways
 ;
 enum
 class
-StyleMozBoxCollapse
+StyleBoxCollapse
 :
 uint8_t
 {
