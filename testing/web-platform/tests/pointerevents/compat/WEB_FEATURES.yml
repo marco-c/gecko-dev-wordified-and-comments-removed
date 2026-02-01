@@ -24,13 +24,6 @@ action
 *
 "
 -
-"
-!
-inheritance
-.
-html
-"
--
 name
 :
 touch
@@ -46,7 +39,3 @@ touch
 action
 *
 "
--
-inheritance
-.
-html
