@@ -10,6 +10,11 @@ include
 string
 >
 #
+include
+<
+cstdint
+>
+#
 ifdef
 DEBUG
 #
