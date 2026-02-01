@@ -407,8 +407,6 @@ sb
 stub
 (
 ChatStore
-.
-prototype
 "
 findMessagesByDate
 "
@@ -640,8 +638,6 @@ sb
 stub
 (
 ChatStore
-.
-prototype
 "
 findMessagesByDate
 "

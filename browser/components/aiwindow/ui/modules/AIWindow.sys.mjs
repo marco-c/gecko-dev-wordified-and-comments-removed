@@ -493,12 +493,9 @@ chatStore
 )
 =
 >
-new
 lazy
 .
 ChatStore
-(
-)
 )
 ;
 this
