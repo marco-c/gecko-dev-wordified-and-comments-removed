@@ -243,7 +243,6 @@ active
 ;
 const
 {
-initExperimentAPI
 cleanup
 loader
 }
@@ -337,7 +336,9 @@ setTimer
 )
 ;
 await
-initExperimentAPI
+ExperimentAPI
+.
+init
 (
 )
 ;

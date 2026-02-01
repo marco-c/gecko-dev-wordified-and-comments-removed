@@ -253,7 +253,6 @@ const
 {
 sandbox
 loader
-initExperimentAPI
 cleanup
 }
 =
@@ -290,7 +289,9 @@ updateRecipes
 )
 ;
 await
-initExperimentAPI
+ExperimentAPI
+.
+init
 (
 )
 ;
@@ -348,7 +349,6 @@ const
 {
 sandbox
 loader
-initExperimentAPI
 cleanup
 }
 =
@@ -402,7 +402,9 @@ false
 )
 ;
 await
-initExperimentAPI
+ExperimentAPI
+.
+init
 (
 )
 ;
@@ -537,7 +539,6 @@ const
 sandbox
 loader
 manager
-initExperimentAPI
 cleanup
 }
 =
@@ -584,7 +585,9 @@ resolves
 )
 ;
 await
-initExperimentAPI
+ExperimentAPI
+.
+init
 (
 )
 ;
@@ -1209,7 +1212,6 @@ false
 const
 {
 loader
-initExperimentAPI
 cleanup
 }
 =
@@ -1231,7 +1233,9 @@ recipe
 )
 ;
 await
-initExperimentAPI
+ExperimentAPI
+.
+init
 (
 )
 ;
@@ -1388,7 +1392,6 @@ false
 const
 {
 loader
-initExperimentAPI
 cleanup
 }
 =
@@ -1417,7 +1420,9 @@ LATEST
 )
 ;
 await
-initExperimentAPI
+ExperimentAPI
+.
+init
 (
 )
 ;
@@ -1573,7 +1578,6 @@ const
 {
 sandbox
 loader
-initExperimentAPI
 cleanup
 }
 =
@@ -1628,7 +1632,9 @@ promiseEnrollmentsUpdated
 )
 ;
 await
-initExperimentAPI
+ExperimentAPI
+.
+init
 (
 )
 ;

@@ -2122,7 +2122,6 @@ const
 sandbox
 loader
 manager
-initExperimentAPI
 cleanup
 }
 =
@@ -2204,7 +2203,9 @@ _unenroll
 )
 ;
 await
-initExperimentAPI
+ExperimentAPI
+.
+init
 (
 )
 ;
@@ -3042,7 +3043,6 @@ reason
 const
 {
 sandbox
-initExperimentAPI
 cleanup
 }
 =
@@ -3072,7 +3072,9 @@ recordValidationFailure
 )
 ;
 await
-initExperimentAPI
+ExperimentAPI
+.
+init
 (
 )
 ;
@@ -3413,7 +3415,6 @@ const
 {
 sandbox
 manager
-initExperimentAPI
 cleanup
 }
 =
@@ -3463,7 +3464,9 @@ recordValidationFailure
 )
 ;
 await
-initExperimentAPI
+ExperimentAPI
+.
+init
 (
 )
 ;
@@ -8018,7 +8021,6 @@ const
 {
 sandbox
 manager
-initExperimentAPI
 cleanup
 }
 =
@@ -8045,7 +8047,9 @@ onRecipe
 )
 ;
 await
-initExperimentAPI
+ExperimentAPI
+.
+init
 (
 )
 ;

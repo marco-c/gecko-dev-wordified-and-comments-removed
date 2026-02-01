@@ -150,7 +150,6 @@ const
 {
 sandbox
 manager
-initExperimentAPI
 cleanup
 }
 =
@@ -307,7 +306,9 @@ setExperimentActive
 )
 ;
 await
-initExperimentAPI
+ExperimentAPI
+.
+init
 (
 )
 ;
@@ -504,7 +505,6 @@ const
 {
 sandbox
 manager
-initExperimentAPI
 cleanup
 }
 =
@@ -575,7 +575,9 @@ _unenroll
 )
 ;
 await
-initExperimentAPI
+ExperimentAPI
+.
+init
 (
 )
 ;
