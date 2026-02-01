@@ -19247,6 +19247,12 @@ mMainThreadTrackCount
 =
 =
 0
+&
+&
+graph
+-
+>
+mRealtime
 )
 {
 nsCOMPtr
