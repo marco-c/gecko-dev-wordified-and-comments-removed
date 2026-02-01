@@ -7419,12 +7419,6 @@ aPanInput
 if
 (
 !
-XRE_IsParentProcess
-(
-)
-|
-|
-!
 NS_IsMainThread
 (
 )
