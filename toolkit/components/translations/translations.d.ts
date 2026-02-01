@@ -426,11 +426,6 @@ lex
 :
 LanguageTranslationModelFile
 ;
-qualityModel
-?
-:
-LanguageTranslationModelFile
-;
 vocab
 ?
 :
