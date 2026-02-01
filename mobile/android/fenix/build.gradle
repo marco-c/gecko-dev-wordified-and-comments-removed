@@ -134,10 +134,6 @@ files
 plugins
 {
 id
-'
-ApkSizePlugin
-'
-id
 "
 mozac
 .

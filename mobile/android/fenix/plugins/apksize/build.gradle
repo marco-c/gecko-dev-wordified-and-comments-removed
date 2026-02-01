@@ -114,6 +114,14 @@ json
 :
 20210307
 "
+implementation
+libs
+.
+android
+.
+gradle
+.
+plugin
 }
 gradlePlugin
 {
