@@ -15,6 +15,16 @@ third_party
 /
 jsoncpp
 "
+"
++
+absl
+/
+strings
+/
+str_format
+.
+h
+"
 ]
 specific_include_rules
 =
