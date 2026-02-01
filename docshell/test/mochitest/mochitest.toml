@@ -1330,6 +1330,13 @@ http3
 ]
 [
 "
+test_remove_iframe_during_append
+.
+html
+"
+]
+[
+"
 test_triggeringprincipal_location_seturi
 .
 html
