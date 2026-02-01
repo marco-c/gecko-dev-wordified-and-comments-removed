@@ -287,15 +287,6 @@ namespace
 CSS
 {
 [
-Pref
-=
-"
-dom
-.
-customHighlightAPI
-.
-enabled
-"
 GetterThrows
 ]
 readonly

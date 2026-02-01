@@ -67,15 +67,6 @@ true
 "
 dom
 .
-customHighlightAPI
-.
-enabled
-=
-true
-"
-"
-dom
-.
 viewTransitions
 .
 enabled
