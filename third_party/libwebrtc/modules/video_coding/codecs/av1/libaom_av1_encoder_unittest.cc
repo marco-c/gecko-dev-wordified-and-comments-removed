@@ -4829,11 +4829,6 @@ expected_frames
 .
 WillRepeatedly
 (
-testing
-:
-:
-Invoke
-(
 [
 &
 ]
@@ -4883,7 +4878,6 @@ OK
 )
 ;
 }
-)
 )
 ;
 for
@@ -5214,11 +5208,6 @@ Times
 .
 WillOnce
 (
-testing
-:
-:
-Invoke
-(
 [
 ]
 (
@@ -5251,7 +5240,6 @@ OK
 )
 ;
 }
-)
 )
 ;
 ASSERT_EQ
@@ -5388,11 +5376,6 @@ Times
 .
 WillOnce
 (
-testing
-:
-:
-Invoke
-(
 [
 ]
 (
@@ -5425,7 +5408,6 @@ OK
 )
 ;
 }
-)
 )
 ;
 VideoFrame

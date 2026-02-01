@@ -6402,13 +6402,6 @@ Times
 .
 WillRepeatedly
 (
-:
-:
-testing
-:
-:
-Invoke
-(
 [
 &
 ]
@@ -6501,7 +6494,6 @@ OK
 ;
 }
 )
-)
 ;
 EXPECT_EQ
 (
@@ -6529,13 +6521,6 @@ _
 )
 .
 WillOnce
-(
-:
-:
-testing
-:
-:
-Invoke
 (
 [
 ]
@@ -6584,7 +6569,6 @@ kDefaultHeight
 )
 ;
 }
-)
 )
 ;
 EXPECT_EQ
@@ -6616,13 +6600,6 @@ _
 .
 WillOnce
 (
-:
-:
-testing
-:
-:
-Invoke
-(
 [
 ]
 (
@@ -6670,7 +6647,6 @@ kDefaultHeight
 )
 ;
 }
-)
 )
 ;
 EXPECT_EQ
@@ -6702,13 +6678,6 @@ _
 .
 WillOnce
 (
-:
-:
-testing
-:
-:
-Invoke
-(
 [
 ]
 (
@@ -6752,7 +6721,6 @@ kDefaultHeight
 )
 ;
 }
-)
 )
 ;
 EXPECT_EQ

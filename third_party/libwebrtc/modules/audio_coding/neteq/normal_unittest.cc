@@ -177,14 +177,6 @@ testing
 :
 _
 ;
-using
-:
-:
-testing
-:
-:
-Invoke
-;
 namespace
 webrtc
 {
@@ -749,10 +741,7 @@ _
 .
 WillOnce
 (
-Invoke
-(
 ExpandProcess120ms
-)
 )
 ;
 EXPECT_CALL

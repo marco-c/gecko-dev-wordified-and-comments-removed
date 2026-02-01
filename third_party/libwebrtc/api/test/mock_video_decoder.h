@@ -65,12 +65,6 @@ testing
 :
 _
 ;
-using
-testing
-:
-:
-Invoke
-;
 class
 MockDecodedImageCallback
 :
@@ -184,8 +178,6 @@ _
 .
 WillByDefault
 (
-Invoke
-(
 [
 this
 ]
@@ -207,7 +199,6 @@ render_time_ms
 )
 ;
 }
-)
 )
 ;
 }

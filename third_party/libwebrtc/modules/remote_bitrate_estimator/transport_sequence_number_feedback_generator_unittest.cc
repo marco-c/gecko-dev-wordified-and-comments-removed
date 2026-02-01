@@ -205,14 +205,6 @@ using
 testing
 :
 :
-Invoke
-;
-using
-:
-:
-testing
-:
-:
 MockFunction
 ;
 using
@@ -762,8 +754,6 @@ Call
 .
 WillOnce
 (
-Invoke
-(
 [
 ]
 (
@@ -862,7 +852,6 @@ kBaseTime
 ;
 }
 )
-)
 ;
 Process
 (
@@ -902,8 +891,6 @@ Call
 )
 .
 WillOnce
-(
-Invoke
 (
 [
 ]
@@ -1006,7 +993,6 @@ true
 ;
 }
 )
-)
 ;
 Process
 (
@@ -1075,8 +1061,6 @@ Call
 .
 WillOnce
 (
-Invoke
-(
 [
 ]
 (
@@ -1186,7 +1170,6 @@ Seconds
 )
 ;
 }
-)
 )
 ;
 Process
@@ -1246,8 +1229,6 @@ Call
 .
 WillOnce
 (
-Invoke
-(
 [
 ]
 (
@@ -1370,7 +1351,6 @@ Millis
 ;
 }
 )
-)
 ;
 Process
 (
@@ -1427,8 +1407,6 @@ Call
 .
 WillOnce
 (
-Invoke
-(
 [
 ]
 (
@@ -1527,11 +1505,8 @@ kBaseTime
 ;
 }
 )
-)
 .
 WillOnce
-(
-Invoke
 (
 [
 ]
@@ -1637,7 +1612,6 @@ kTooLargeDelta
 ;
 }
 )
-)
 ;
 Process
 (
@@ -1689,8 +1663,6 @@ Call
 )
 .
 WillOnce
-(
-Invoke
 (
 [
 &
@@ -1780,7 +1752,6 @@ kBaseTime
 )
 ;
 }
-)
 )
 ;
 Process
@@ -1885,8 +1856,6 @@ Call
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 ]
@@ -1988,7 +1957,6 @@ kDelta
 )
 ;
 }
-)
 )
 ;
 Process
@@ -2093,8 +2061,6 @@ Call
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 ]
@@ -2202,7 +2168,6 @@ kBaseTime
 ;
 }
 )
-)
 ;
 Process
 (
@@ -2245,8 +2210,6 @@ Call
 .
 WillOnce
 (
-Invoke
-(
 [
 ]
 (
@@ -2356,7 +2319,6 @@ Millis
 )
 ;
 }
-)
 )
 ;
 Process
@@ -2387,8 +2349,6 @@ Call
 .
 WillOnce
 (
-Invoke
-(
 [
 ]
 (
@@ -2510,7 +2470,6 @@ Millis
 )
 ;
 }
-)
 )
 ;
 Process
@@ -2548,8 +2507,6 @@ Call
 .
 WillOnce
 (
-Invoke
-(
 [
 ]
 (
@@ -2626,7 +2583,6 @@ kBaseTime
 ;
 }
 )
-)
 ;
 Process
 (
@@ -2647,8 +2603,6 @@ Call
 )
 .
 WillOnce
-(
-Invoke
 (
 [
 &
@@ -2727,7 +2681,6 @@ kTimeoutTime
 ;
 }
 )
-)
 ;
 Process
 (
@@ -2770,8 +2723,6 @@ Call
 )
 .
 WillOnce
-(
-Invoke
 (
 [
 &
@@ -2884,7 +2835,6 @@ kTimeoutTime
 )
 ;
 }
-)
 )
 ;
 Process
@@ -3172,8 +3122,6 @@ Call
 .
 WillOnce
 (
-Invoke
-(
 [
 ]
 (
@@ -3279,7 +3227,6 @@ kMaxSmallDelta
 )
 ;
 }
-)
 )
 ;
 constexpr
@@ -3355,8 +3302,6 @@ Call
 .
 WillOnce
 (
-Invoke
-(
 [
 ]
 (
@@ -3494,7 +3439,6 @@ kMaxSmallDelta
 )
 ;
 }
-)
 )
 ;
 constexpr
@@ -3583,8 +3527,6 @@ Call
 .
 WillOnce
 (
-Invoke
-(
 [
 ]
 (
@@ -3706,7 +3648,6 @@ kMaxSmallDelta
 )
 ;
 }
-)
 )
 ;
 constexpr
