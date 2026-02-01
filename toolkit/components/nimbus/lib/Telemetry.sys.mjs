@@ -1448,6 +1448,11 @@ LABS_OPT_OUT
 case
 UnenrollReason
 .
+ROLLOUTS_OPT_OUT
+:
+case
+UnenrollReason
+.
 STUDIES_OPT_OUT
 :
 enrollmentStatus
