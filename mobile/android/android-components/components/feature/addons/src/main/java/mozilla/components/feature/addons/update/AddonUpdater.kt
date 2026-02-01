@@ -3919,6 +3919,15 @@ val
 params
 :
 WorkerParameters
+private
+val
+mainDispatcher
+:
+CoroutineDispatcher
+=
+Dispatchers
+.
+Main
 )
 :
 CoroutineWorker
@@ -3975,9 +3984,7 @@ Result
 =
 withContext
 (
-Dispatchers
-.
-Main
+mainDispatcher
 )
 {
 val
