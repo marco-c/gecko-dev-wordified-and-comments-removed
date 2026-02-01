@@ -94,6 +94,7 @@ head
 inspector
 )
 ;
+await
 inspector
 .
 sidebar
@@ -188,6 +189,7 @@ panel
 true
 )
 ;
+await
 inspector
 .
 sidebar

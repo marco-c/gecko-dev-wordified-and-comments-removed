@@ -185,6 +185,7 @@ sidebar
 "
 )
 ;
+await
 inspector
 .
 sidebar

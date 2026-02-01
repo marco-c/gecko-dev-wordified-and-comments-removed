@@ -158,6 +158,7 @@ refreshed
 "
 )
 ;
+await
 selectComputedView
 (
 inspector

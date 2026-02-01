@@ -105,6 +105,7 @@ openRuleView
 const
 changesView
 =
+await
 selectChangesView
 (
 inspector

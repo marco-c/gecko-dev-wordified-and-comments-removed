@@ -249,6 +249,7 @@ refreshed
 const
 view
 =
+await
 selectComputedView
 (
 inspector

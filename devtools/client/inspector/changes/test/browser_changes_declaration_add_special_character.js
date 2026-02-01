@@ -117,6 +117,7 @@ doc
 store
 }
 =
+await
 selectChangesView
 (
 inspector

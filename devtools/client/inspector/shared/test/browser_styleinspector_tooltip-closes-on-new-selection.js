@@ -144,6 +144,7 @@ selection
 ;
 view
 =
+await
 selectComputedView
 (
 inspector

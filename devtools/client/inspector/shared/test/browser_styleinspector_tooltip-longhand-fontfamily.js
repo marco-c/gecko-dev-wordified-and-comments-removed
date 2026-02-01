@@ -146,6 +146,7 @@ refreshed
 ;
 view
 =
+await
 selectComputedView
 (
 inspector

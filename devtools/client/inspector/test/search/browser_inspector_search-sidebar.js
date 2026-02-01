@@ -169,6 +169,7 @@ it
 "
 )
 ;
+await
 selectComputedView
 (
 inspector

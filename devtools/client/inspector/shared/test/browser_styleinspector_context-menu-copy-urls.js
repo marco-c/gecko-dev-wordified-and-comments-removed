@@ -320,6 +320,7 @@ view
 ;
 view
 =
+await
 selectComputedView
 (
 inspector

@@ -66,6 +66,7 @@ blank
 "
 )
 ;
+await
 inspector
 .
 sidebar
@@ -258,6 +259,7 @@ blank
 "
 )
 ;
+await
 inspector
 .
 sidebar
@@ -400,6 +402,7 @@ blank
 "
 )
 ;
+await
 inspector
 .
 sidebar
