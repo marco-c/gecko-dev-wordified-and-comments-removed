@@ -3296,6 +3296,11 @@ MaxUint32
 =
 0xFFFF_FFFF
 ;
+const
+MaxImports
+=
+1000000
+;
 function
 iota
 (
