@@ -1491,10 +1491,6 @@ UpdateInstallAddonInProgress
 is
 MenuAction
 .
-UpdateShowExtensionsOnboarding
-is
-MenuAction
-.
 UpdateShowDisabledExtensionsOnboarding
 is
 MenuAction
