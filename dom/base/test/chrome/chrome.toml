@@ -482,6 +482,13 @@ xhtml
 ]
 [
 "
+test_droppedLinkHandler
+.
+xhtml
+"
+]
+[
+"
 test_fileconstructor
 .
 xhtml
