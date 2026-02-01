@@ -11744,15 +11744,6 @@ intl_CompareStrings
 JS_FN
 (
 "
-intl_ComputeDisplayName
-"
-intl_ComputeDisplayName
-6
-0
-)
-JS_FN
-(
-"
 intl_CreateSegmentIterator
 "
 intl_CreateSegmentIterator
