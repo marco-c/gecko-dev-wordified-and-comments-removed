@@ -484,10 +484,6 @@ with
 the
 returned
 URI
-(
-see
-nsISearchSubmission
-)
 .
 *
 /

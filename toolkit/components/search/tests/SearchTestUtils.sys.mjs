@@ -4716,8 +4716,11 @@ post
 data
 string
 from
-an
-nsISearchSubmission
+the
+data
+returned
+by
+getSubmission
 .
 *
 If
@@ -4734,7 +4737,11 @@ null
 param
 {
 ?
-nsISearchSubmission
+{
+postData
+:
+nsIMIMEInputStream
+}
 }
 submission
 *
