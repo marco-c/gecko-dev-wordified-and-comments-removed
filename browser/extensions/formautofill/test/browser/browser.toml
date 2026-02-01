@@ -127,6 +127,16 @@ html
 /
 fixtures
 /
+dynamic_form_replace_form
+.
+html
+"
+"
+.
+.
+/
+fixtures
+/
 page_navigation
 .
 html
