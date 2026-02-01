@@ -619,12 +619,6 @@ menu
 learn
 -
 more
--
-about
--
-firefox
--
-suggest
 "
 }
 }
