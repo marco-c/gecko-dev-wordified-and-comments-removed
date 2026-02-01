@@ -1571,6 +1571,7 @@ engines
 =
 "
 gecko
+servo
 "
 initial_specified_value
 =
@@ -1605,6 +1606,13 @@ anchor
 positioning
 .
 enabled
+"
+servo_pref
+=
+"
+layout
+.
+unimplemented
 "
 spec
 =
