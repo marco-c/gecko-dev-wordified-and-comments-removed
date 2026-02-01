@@ -958,7 +958,11 @@ favicon
 .
 ico
 "
+{
+size
+:
 32
+}
 )
 )
 ;

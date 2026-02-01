@@ -4829,7 +4829,9 @@ FaviconUtils
 getMozRemoteImageURL
 (
 url
+{
 size
+}
 )
 ;
 }
