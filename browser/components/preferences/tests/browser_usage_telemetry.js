@@ -501,7 +501,7 @@ light
 class
 :
 "
-appearance
+setting
 -
 chooser
 -
@@ -564,7 +564,7 @@ dark
 class
 :
 "
-appearance
+setting
 -
 chooser
 -
