@@ -4462,7 +4462,7 @@ mDCLayerTree
 mDCLayerTree
 -
 >
-UseNativeCompositor
+UseCompositor
 (
 )
 ;
@@ -4516,7 +4516,13 @@ ShouldUseNativeCompositor
 )
 {
 return
-UseCompositor
+mDCLayerTree
+&
+&
+mDCLayerTree
+-
+>
+UseNativeCompositor
 (
 )
 ;
