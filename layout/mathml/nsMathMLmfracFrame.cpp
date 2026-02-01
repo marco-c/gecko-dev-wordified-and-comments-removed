@@ -268,8 +268,14 @@ UpdatePresentationDataFromChildAt
 (
 1
 1
-NS_MATHML_COMPRESSED
-NS_MATHML_COMPRESSED
+MathMLPresentationFlag
+:
+:
+Compressed
+MathMLPresentationFlag
+:
+:
+Compressed
 )
 ;
 }

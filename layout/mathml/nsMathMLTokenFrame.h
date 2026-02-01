@@ -69,9 +69,12 @@ mtext
 mPresentationData
 .
 flags
-|
++
 =
-NS_MATHML_SPACE_LIKE
+MathMLPresentationFlag
+:
+:
+SpaceLike
 ;
 }
 return

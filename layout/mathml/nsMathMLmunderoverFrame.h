@@ -90,9 +90,9 @@ override
 NS_IMETHOD
 UpdatePresentationData
 (
-uint32_t
+MathMLPresentationFlags
 aFlagsValues
-uint32_t
+MathMLPresentationFlags
 aFlagsToUpdate
 )
 override

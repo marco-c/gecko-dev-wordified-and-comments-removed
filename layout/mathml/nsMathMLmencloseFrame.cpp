@@ -833,9 +833,12 @@ aParent
 mPresentationData
 .
 flags
-|
++
 =
-NS_MATHML_STRETCH_ALL_CHILDREN_VERTICALLY
+MathMLPresentationFlag
+:
+:
+StretchAllChildrenVertically
 ;
 InitNotations
 (

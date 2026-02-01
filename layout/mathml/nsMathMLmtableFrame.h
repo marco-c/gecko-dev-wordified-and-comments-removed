@@ -882,9 +882,9 @@ int32_t
 aFirstIndex
 int32_t
 aLastIndex
-uint32_t
+MathMLPresentationFlags
 aFlagsValues
-uint32_t
+MathMLPresentationFlags
 aFlagsToUpdate
 )
 override
