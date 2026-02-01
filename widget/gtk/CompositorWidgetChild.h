@@ -134,15 +134,6 @@ CleanupResources
 )
 override
 ;
-void
-SetRenderingSurface
-(
-const
-uintptr_t
-aXWindow
-)
-override
-;
 private
 :
 ~
