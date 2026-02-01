@@ -907,16 +907,6 @@ allowuntrusted
 Atom
 (
 "
-alpha
-"
-"
-alpha
-"
-)
-    
-Atom
-(
-"
 alt
 "
 "
@@ -2921,16 +2911,6 @@ headerContentType
 content
 -
 type
-"
-)
-    
-Atom
-(
-"
-colorspace
-"
-"
-colorspace
 "
 )
     

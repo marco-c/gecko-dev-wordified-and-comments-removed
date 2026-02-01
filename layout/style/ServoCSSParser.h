@@ -207,7 +207,7 @@ Maybe
 <
 StyleAbsoluteColor
 >
-ComputeAbsoluteColor
+ComputeColorWellControlColor
 (
 const
 StylePerDocumentStyleData
@@ -217,6 +217,8 @@ const
 nsACString
 &
 aValue
+StyleColorSpace
+aToColorSpace
 )
 ;
 static

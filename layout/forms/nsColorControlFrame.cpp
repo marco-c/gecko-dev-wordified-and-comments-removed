@@ -385,6 +385,8 @@ nsGkAtoms
 style
 u
 "
+background
+-
 color
 :
 "
