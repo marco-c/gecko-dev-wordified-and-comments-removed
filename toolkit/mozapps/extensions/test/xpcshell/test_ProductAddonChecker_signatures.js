@@ -532,7 +532,6 @@ goodXmlPath
 +
 validSignatureQuery
 false
-false
 true
 Ci
 .
@@ -691,7 +690,6 @@ goodXmlPath
 +
 invalidSignatureQuery
 false
-false
 true
 Ci
 .
@@ -791,7 +789,6 @@ goodXmlPath
 "
 +
 missingSignatureQuery
-false
 false
 true
 Ci
@@ -898,7 +895,6 @@ goodXmlPath
 +
 incompleteSignatureQuery
 false
-false
 true
 Ci
 .
@@ -1001,7 +997,6 @@ goodXmlPath
 "
 +
 badX5uSignatureQuery
-false
 false
 true
 Ci

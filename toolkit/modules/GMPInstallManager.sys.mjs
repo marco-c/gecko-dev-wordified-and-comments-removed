@@ -2200,12 +2200,6 @@ allowNonBuiltIn
 true
 /
 *
-allowedCerts
-*
-/
-null
-/
-*
 verifyContentSignature
 *
 /
