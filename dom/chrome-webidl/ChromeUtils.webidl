@@ -5688,6 +5688,9 @@ windowsUtils
 "
 windowsFileDialog
 "
+"
+pkcs11Module
+"
 }
 ;
 dictionary
