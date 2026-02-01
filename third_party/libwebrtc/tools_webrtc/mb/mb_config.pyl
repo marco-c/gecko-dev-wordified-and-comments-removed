@@ -2918,7 +2918,7 @@ android
 android_static_analysis
 =
 "
-off
+on
 "
 '
 }
