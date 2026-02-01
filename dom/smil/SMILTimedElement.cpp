@@ -8416,7 +8416,10 @@ timeVal
 SMILInstanceTime
 :
 :
-SOURCE_DOM
+SMILInstanceTimeSource
+:
+:
+DOM
 )
 ;
 AddInstanceTime
