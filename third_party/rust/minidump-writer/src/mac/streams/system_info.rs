@@ -1,10 +1,9 @@
 use
+{
 super
 :
 :
 *
-;
-use
 crate
 :
 :
@@ -12,6 +11,7 @@ minidump_format
 :
 :
 *
+}
 ;
 fn
 os_version

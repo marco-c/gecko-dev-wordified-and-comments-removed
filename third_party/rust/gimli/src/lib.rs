@@ -128,6 +128,17 @@ allow
 clippy
 :
 :
+needless_lifetimes
+)
+]
+#
+!
+[
+allow
+(
+clippy
+:
+:
 should_implement_trait
 )
 ]

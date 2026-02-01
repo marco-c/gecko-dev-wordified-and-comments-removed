@@ -32,11 +32,11 @@ decrease
 .
 rs
 :
-19
+20
 :
 27
 |
-19
+20
 |
 const
 DECREASE_SIZE

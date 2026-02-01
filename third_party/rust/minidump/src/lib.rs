@@ -45,6 +45,9 @@ iostuff
 mod
 minidump
 ;
+mod
+stability_report
+;
 pub
 use
 minidump_common
@@ -78,6 +81,16 @@ crate
 :
 :
 minidump
+:
+:
+*
+;
+pub
+use
+crate
+:
+:
+stability_report
 :
 :
 *

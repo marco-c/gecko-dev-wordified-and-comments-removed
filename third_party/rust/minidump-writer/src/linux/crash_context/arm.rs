@@ -1,10 +1,9 @@
 use
+{
 super
 :
 :
 CrashContext
-;
-use
 crate
 :
 :
@@ -12,6 +11,7 @@ minidump_cpu
 :
 :
 RawContextCPU
+}
 ;
 impl
 CrashContext

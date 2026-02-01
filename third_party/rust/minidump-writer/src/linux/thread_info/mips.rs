@@ -1,5 +1,5 @@
 use
-crate
+super
 :
 :
 {
@@ -9,9 +9,6 @@ errors
 ThreadInfoError
 Pid
 }
-;
-use
-libc
 ;
 type
 Result

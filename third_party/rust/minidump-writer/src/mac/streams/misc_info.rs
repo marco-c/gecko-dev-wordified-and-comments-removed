@@ -1,10 +1,9 @@
 use
+{
 super
 :
 :
 *
-;
-use
 format
 :
 :
@@ -14,8 +13,6 @@ MINIDUMP_MISC_INFO_2
 as
 MDRawMiscInfo
 }
-;
-use
 std
 :
 :
@@ -23,6 +20,7 @@ time
 :
 :
 Duration
+}
 ;
 #
 [

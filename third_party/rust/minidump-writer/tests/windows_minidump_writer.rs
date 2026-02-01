@@ -19,6 +19,11 @@ x86_64
 )
 ]
 use
+{
+common
+:
+:
+start_child_and_return
 minidump
 :
 :
@@ -30,8 +35,6 @@ MinidumpMemoryList
 MinidumpSystemInfo
 MinidumpThreadList
 }
-;
-use
 minidump_writer
 :
 :
@@ -39,15 +42,10 @@ minidump_writer
 :
 :
 MinidumpWriter
+}
 ;
 mod
 common
-;
-use
-common
-:
-:
-start_child_and_return
 ;
 const
 EXCEPTION_ILLEGAL_INSTRUCTION
@@ -1088,6 +1086,7 @@ MinidumpWriter
 :
 dump_crash_context
 (
+&
 crash_context
 None
 tmpfile

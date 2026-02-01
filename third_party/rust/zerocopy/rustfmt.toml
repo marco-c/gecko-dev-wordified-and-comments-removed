@@ -94,7 +94,7 @@ terms
 edition
 =
 "
-2021
+2024
 "
 #
 The
@@ -109,7 +109,7 @@ which
 splits
 lines
 too
-aggresively
+aggressively
 .
 #
 We
@@ -179,4 +179,14 @@ newline_style
 =
 "
 Unix
+"
+imports_granularity
+=
+"
+Crate
+"
+group_imports
+=
+"
+StdExternalCrate
 "

@@ -1,10 +1,9 @@
 use
+{
 super
 :
 :
 CrashContext
-;
-use
 crate
 :
 :
@@ -21,8 +20,6 @@ format
 :
 ContextFlagsX86
 }
-;
-use
 libc
 :
 :
@@ -44,6 +41,7 @@ REG_FS
 REG_GS
 REG_SS
 REG_UESP
+}
 }
 ;
 impl

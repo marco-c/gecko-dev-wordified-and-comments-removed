@@ -1,10 +1,9 @@
 use
+{
 super
 :
 :
 CrashContext
-;
-use
 crate
 :
 :
@@ -21,6 +20,7 @@ minidump_format
 :
 :
 format
+}
 }
 ;
 impl

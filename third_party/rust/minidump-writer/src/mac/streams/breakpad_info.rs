@@ -1,10 +1,9 @@
 use
+{
 super
 :
 :
 *
-;
-use
 format
 :
 :
@@ -13,6 +12,7 @@ BreakpadInfoValid
 MINIDUMP_BREAKPAD_INFO
 as
 BreakpadInfo
+}
 }
 ;
 impl

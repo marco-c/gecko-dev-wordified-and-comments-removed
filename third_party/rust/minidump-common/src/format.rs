@@ -424,6 +424,9 @@ LinuxDsoDebug
 CrashpadInfoStream
 =
 0x43500001
+StabilityReportStream
+=
+0x4b6b0002
 MozMacosCrashInfoStream
 =
 0x4d7a0001
@@ -1132,6 +1135,7 @@ let
 data1
 =
 (
+(
 uuid
 [
 0
@@ -1142,7 +1146,9 @@ u32
 <
 <
 24
+)
 |
+(
 (
 uuid
 [
@@ -1154,7 +1160,9 @@ u32
 <
 <
 16
+)
 |
+(
 (
 uuid
 [
@@ -1166,6 +1174,7 @@ u32
 <
 <
 8
+)
 |
 uuid
 [
@@ -1178,6 +1187,7 @@ let
 data2
 =
 (
+(
 uuid
 [
 4
@@ -1188,6 +1198,7 @@ u16
 <
 <
 8
+)
 |
 uuid
 [
@@ -1200,6 +1211,7 @@ let
 data3
 =
 (
+(
 uuid
 [
 6
@@ -1210,6 +1222,7 @@ u16
 <
 <
 8
+)
 |
 uuid
 [
@@ -6251,6 +6264,10 @@ self
 -
 >
 XstateFeatureIter
+<
+'
+_
+>
 {
 XstateFeatureIter
 {
