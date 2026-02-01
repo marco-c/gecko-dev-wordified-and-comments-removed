@@ -1163,9 +1163,12 @@ pid
 0
 )
                                 
-finally
+except
+OSError
 :
                                     
+pass
+                                
 return
 send_sig
 (
@@ -2670,8 +2673,6 @@ WinError
 (
 errcode
 )
-                            
-break
                     
 if
 compkey
