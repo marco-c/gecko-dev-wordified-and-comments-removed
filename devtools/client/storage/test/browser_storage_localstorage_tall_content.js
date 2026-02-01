@@ -70,6 +70,7 @@ org
 ]
 )
 ;
+await
 testRowHeights
 (
 ROW_IDS
@@ -86,6 +87,7 @@ value
 "
 )
 ;
+await
 testRowHeights
 (
 ROW_IDS
@@ -115,6 +117,7 @@ repeat
 )
 )
 ;
+await
 testRowHeights
 (
 [
@@ -149,6 +152,7 @@ repeat
 )
 )
 ;
+await
 testRowHeights
 (
 [
@@ -179,6 +183,7 @@ remove
 "
 )
 ;
+await
 testRowHeights
 (
 ROW_IDS
@@ -194,6 +199,7 @@ newTall
 }
 )
 ;
+async
 function
 testRowHeights
 (
@@ -220,6 +226,28 @@ of
 rowIds
 )
 {
+await
+waitFor
+(
+(
+)
+=
+>
+getRowItem
+(
+rowId
+)
+Wait
+for
+row
+{
+rowId
+}
+to
+be
+available
+)
+;
 checkRowHeights
 (
 rowId
