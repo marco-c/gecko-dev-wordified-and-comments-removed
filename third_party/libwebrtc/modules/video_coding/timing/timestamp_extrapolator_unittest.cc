@@ -2401,7 +2401,7 @@ GetConfigForTest
 (
 )
 ;
-EXPECT_FALSE
+EXPECT_TRUE
 (
 config
 .
@@ -2458,15 +2458,14 @@ outlier_rejection_forgetting_factor
 999
 )
 ;
-EXPECT_FALSE
+EXPECT_EQ
 (
 config
 .
 outlier_rejection_stddev
+2
 .
-has_value
-(
-)
+0
 )
 ;
 EXPECT_EQ

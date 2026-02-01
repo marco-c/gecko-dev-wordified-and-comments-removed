@@ -249,10 +249,9 @@ double
 >
 outlier_rejection_stddev
 =
-std
-:
-:
-nullopt
+2
+.
+0
 ;
 int
 alarm_threshold
