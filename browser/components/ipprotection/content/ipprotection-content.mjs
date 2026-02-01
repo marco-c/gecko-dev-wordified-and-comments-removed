@@ -1926,6 +1926,14 @@ this
 .
 state
 .
+isSiteExceptionsEnabled
+|
+|
+!
+this
+.
+state
+.
 siteData
 |
 |

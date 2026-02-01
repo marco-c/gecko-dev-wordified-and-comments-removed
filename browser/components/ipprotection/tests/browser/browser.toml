@@ -25,6 +25,17 @@ log
 true
 "
 "
+browser
+.
+ipProtection
+.
+features
+.
+siteExceptions
+=
+true
+"
+"
 dom
 .
 security
