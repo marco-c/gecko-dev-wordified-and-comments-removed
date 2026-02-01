@@ -135,10 +135,12 @@ FRAMERATE_THRESHOLD
 15
 ;
 private
+final
 TextView
 captureFormatText
 ;
 private
+final
 CallFragment
 .
 OnCallEvents

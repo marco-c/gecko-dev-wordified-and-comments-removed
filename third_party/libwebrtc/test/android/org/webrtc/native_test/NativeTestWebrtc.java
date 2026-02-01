@@ -158,6 +158,7 @@ String
 mCommandLineFilePath
 ;
 private
+final
 StringBuilder
 mCommandLineFlags
 =
@@ -188,10 +189,12 @@ Thread
 UncaughtExceptionHandler
 {
 private
+final
 TestStatusReporter
 mReporter
 ;
 private
+final
 Thread
 .
 UncaughtExceptionHandler

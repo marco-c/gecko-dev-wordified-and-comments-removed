@@ -432,6 +432,7 @@ SCALE_ASPECT_BALANCED
 }
 private
 static
+final
 float
 BALANCED_VISIBLE_FRACTION
 =

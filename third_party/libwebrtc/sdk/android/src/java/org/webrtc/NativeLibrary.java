@@ -8,6 +8,7 @@ NativeLibrary
 {
 private
 static
+final
 String
 TAG
 =
@@ -58,6 +59,7 @@ true
 }
 private
 static
+final
 Object
 lock
 =

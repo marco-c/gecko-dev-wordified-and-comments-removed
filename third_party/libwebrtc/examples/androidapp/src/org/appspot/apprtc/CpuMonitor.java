@@ -344,6 +344,7 @@ double
 currentValue
 ;
 private
+final
 double
 [
 ]

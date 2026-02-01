@@ -477,6 +477,7 @@ SessionDescription
 localDesc
 ;
 private
+final
 List
 <
 IceCandidate
@@ -538,6 +539,7 @@ implements
 VideoSink
 {
 private
+final
 String
 rendererName
 ;

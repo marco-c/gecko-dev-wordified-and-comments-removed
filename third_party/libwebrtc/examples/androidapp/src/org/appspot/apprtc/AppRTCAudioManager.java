@@ -216,6 +216,7 @@ apprtcContext
 ;
 Nullable
 private
+final
 AudioManager
 audioManager
 ;
@@ -291,6 +292,7 @@ HashSet
 )
 ;
 private
+final
 BroadcastReceiver
 wiredHeadsetReceiver
 ;

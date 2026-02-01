@@ -851,11 +851,6 @@ position
 ;
 }
 else
-if
-(
-!
-isChecked
-)
 {
 selectedDecoders
 .
