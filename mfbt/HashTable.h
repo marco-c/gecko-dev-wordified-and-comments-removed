@@ -3794,7 +3794,7 @@ HashTableEntry
 *
 aOther
 bool
-aIsLive
+aOtherIsLive
 )
 {
 using
@@ -3816,7 +3816,7 @@ return
 }
 if
 (
-aIsLive
+aOtherIsLive
 )
 {
 swap
@@ -3837,14 +3837,18 @@ valuePtr
 }
 else
 {
-*
+new
+(
+KnownNotNull
 aOther
 -
 >
 valuePtr
 (
 )
-=
+)
+NonConstT
+(
 std
 :
 :
@@ -3853,6 +3857,7 @@ move
 *
 valuePtr
 (
+)
 )
 )
 ;
