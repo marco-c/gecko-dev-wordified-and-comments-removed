@@ -79,9 +79,7 @@ SharedThreadPool
 >
 Get
 (
-const
-nsCString
-&
+StaticString
 aName
 uint32_t
 aThreadLimit
