@@ -20035,7 +20035,7 @@ tabs
 .
 remoteSVGIconDecoding
 "
-true
+false
 )
 ;
 pref
