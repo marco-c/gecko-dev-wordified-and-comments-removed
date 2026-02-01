@@ -386,6 +386,12 @@ mCurrentFramePts
 PtsMap
 mPtsMap
 ;
+RefPtr
+<
+MediaByteBuffer
+>
+mLastExtraData
+;
 }
 ;
 }
