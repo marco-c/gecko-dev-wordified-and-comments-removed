@@ -19496,6 +19496,10 @@ setGrayBitsInvalid
 (
 )
 {
+waitBackgroundSweepEnd
+(
+)
+;
 grayBitsValid
 =
 false
