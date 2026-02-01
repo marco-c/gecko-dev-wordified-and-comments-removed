@@ -1864,6 +1864,13 @@ browser
 .
 aiwindow
 .
+enabled
+"
+"
+browser
+.
+aiwindow
+.
 firstrun
 .
 hasCompleted
