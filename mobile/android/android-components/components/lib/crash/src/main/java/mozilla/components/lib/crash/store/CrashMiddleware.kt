@@ -81,6 +81,12 @@ annotation
 .
 StringRes
 import
+androidx
+.
+annotation
+.
+VisibleForTesting
+import
 kotlinx
 .
 coroutines
@@ -1394,7 +1400,8 @@ it
 )
 }
 }
-private
+VisibleForTesting
+internal
 suspend
 fun
 sendCrashReports
