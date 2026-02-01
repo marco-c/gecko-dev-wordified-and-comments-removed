@@ -87,15 +87,6 @@ include
 "
 api
 /
-rtc_error
-.
-h
-"
-#
-include
-"
-api
-/
 rtp_transceiver_direction
 .
 h
@@ -136,6 +127,9 @@ h
 namespace
 webrtc
 {
+class
+RTCError
+;
 class
 StringBuilder
 ;
