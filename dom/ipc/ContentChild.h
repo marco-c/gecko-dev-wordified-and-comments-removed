@@ -2815,6 +2815,10 @@ const
 ImageIntSize
 &
 aSize
+const
+ColorScheme
+&
+aColoScheme
 DecodeImageResolver
 &
 &
