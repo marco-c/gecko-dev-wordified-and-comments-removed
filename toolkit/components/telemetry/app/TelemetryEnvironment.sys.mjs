@@ -9972,6 +9972,11 @@ msstoresignedin
 attributionData
 .
 msstoresignedin
+msclkid
+:
+attributionData
+.
+msclkid
 dlsource
 :
 attributionData
