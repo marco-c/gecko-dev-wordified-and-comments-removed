@@ -18,7 +18,7 @@ editing
 .
 version
 =
-3
+4
 [
 [
 package
@@ -81,9 +81,9 @@ version
 "
 2
 .
-6
+9
 .
-0
+1
 "
 source
 =
@@ -111,7 +111,7 @@ index
 checksum
 =
 "
-b048fb63fd8b5923fc5aa7b340d8e156aec7ec02f0c78fa8a6ddc2613f6f71de
+1b8e56985ec62d17e9c1001dc89c88ecd7dc08e47eba5ec7c29c7b5eeecde967
 "
 [
 [
@@ -177,9 +177,9 @@ version
 "
 1
 .
-1
+2
 .
-21
+30
 "
 source
 =
@@ -207,7 +207,7 @@ index
 checksum
 =
 "
-07b1695e2c7e8fc85310cde85aeaab7e3097f593c91d209d3f9df76c928100f0
+deec109607ca693028562ed836a5f1c4b8bd77755c4e132fc5ce11b0b6211ae7
 "
 dependencies
 =
@@ -233,7 +233,7 @@ version
 .
 1
 .
-51
+54
 "
 source
 =
@@ -261,7 +261,7 @@ index
 checksum
 =
 "
-fb1e43aa7fd152b1f968787f7dbcdeb306d1867ff373c69955211876c053f91a
+e7caa3f9de89ddbe2c607f4101924c5abec803763ae9534e4f4d7d8f84aa81f0
 "
 dependencies
 =
@@ -287,7 +287,7 @@ version
 "
 0
 .
-13
+31
 .
 0
 "
@@ -317,7 +317,7 @@ index
 checksum
 =
 "
-67361fe9b49b4599e2a230ce322529b6ddd91df14897c872dcede716f8fbca81
+4a56724783cf9f75f5cf80d93668ed2d59de9cf11d6a482a72d357f4e5ce151e
 "
 dependencies
 =
@@ -345,7 +345,7 @@ version
 "
 0
 .
-13
+31
 .
 0
 "
@@ -375,7 +375,7 @@ index
 checksum
 =
 "
-ac08d314dd1ec6d41d9ccdeec70899c98ed3b89845367000dd6096099481bc73
+4315d0a32efa534f9e123d6c18fb301419fefb09d89aca08b24125e9a22721c3
 "
 dependencies
 =
@@ -387,6 +387,9 @@ bitflags
 3
 .
 2
+"
+"
+cc
 "
 "
 cubeb
@@ -455,7 +458,7 @@ version
 "
 0
 .
-13
+31
 .
 0
 "
@@ -485,7 +488,7 @@ index
 checksum
 =
 "
-26073cd50c7b6ba4272204839f56921557609a0d67e092882cbb903df94cab39
+da8f5a3df42aea09ad244bcd92a10b0eafa2d56794a515e9cbea43aa198a6a7b
 "
 dependencies
 =
@@ -516,7 +519,7 @@ version
 .
 2
 .
-159
+174
 "
 source
 =
@@ -544,7 +547,7 @@ index
 checksum
 =
 "
-561d97a539a36e26a9a5fad1ea11a3039a67714694aaa379433e580854bc3dc5
+1171693293099992e19cddea4e8b849964e9846f4acee11b3948bcc337be8776
 "
 [
 [
@@ -565,7 +568,7 @@ version
 .
 3
 .
-31
+32
 "
 source
 =
@@ -593,7 +596,7 @@ index
 checksum
 =
 "
-953ec861398dccce10c670dfeaf3ec4911ca479e9c02154b3a215178c5f566f2
+7edddbd0b52d732b21ad9a5fab5c704c14cd949e5e9a1ec5929a24fded1b904c
 "
 [
 [
@@ -621,9 +624,9 @@ dependencies
 bitflags
 2
 .
-6
+9
 .
-0
+1
 "
 "
 pulse
@@ -732,7 +735,7 @@ version
 .
 0
 .
-23
+26
 "
 source
 =
@@ -760,7 +763,7 @@ index
 checksum
 =
 "
-61697e0a1c7e512e84a621326239844a24d8207b4669b41bc18b32ea5cbf988b
+56e6fa9c48d24d85fb3de5ad847117517440f6beceb7798af16b4a87d616b8d0
 "
 [
 [

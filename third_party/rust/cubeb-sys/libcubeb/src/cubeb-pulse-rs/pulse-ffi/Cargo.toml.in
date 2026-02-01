@@ -52,6 +52,11 @@ license
 "
 ISC
 "
+edition
+=
+"
+2021
+"
 [
 features
 ]

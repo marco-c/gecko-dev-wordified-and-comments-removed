@@ -51,9 +51,6 @@ os
 [
 macos
 -
-13
-macos
--
 14
 macos
 -
@@ -123,6 +120,9 @@ minimal
 component
 rustfmt
 clippy
+rust
+-
+src
 -
 name
 :

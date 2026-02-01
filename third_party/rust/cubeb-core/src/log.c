@@ -17,7 +17,7 @@ define
 CUBEB_LOG_MESSAGE_MAX_SIZE
 256
 void
-rust_write_formatted_msg
+RUST_WRITE_FORMATTED_MSG
 (
 char
 *
@@ -64,7 +64,7 @@ va_end
 args
 )
 ;
-rust_write_formatted_msg
+RUST_WRITE_FORMATTED_MSG
 (
 msg
 )

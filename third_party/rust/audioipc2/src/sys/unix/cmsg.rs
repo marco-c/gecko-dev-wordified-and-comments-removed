@@ -199,7 +199,7 @@ cmsg_space
 )
 ;
 let
-zeroed
+_zeroed
 =
 unsafe
 {
@@ -268,7 +268,7 @@ libc
 SCM_RIGHTS
 .
 .
-zeroed
+_zeroed
 }
 ;
 unsafe

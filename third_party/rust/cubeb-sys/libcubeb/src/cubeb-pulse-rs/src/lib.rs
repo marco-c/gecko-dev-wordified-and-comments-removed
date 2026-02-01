@@ -30,6 +30,9 @@ capi
 ;
 pub
 use
+crate
+:
+:
 capi
 :
 :

@@ -1,7 +1,4 @@
 use
-ffi
-;
-use
 std
 :
 :

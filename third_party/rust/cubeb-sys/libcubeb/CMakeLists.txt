@@ -18,7 +18,7 @@ cmake_minimum_required
 VERSION
 3
 .
-15
+19
 FATAL_ERROR
 )
 cmake_policy

@@ -183,6 +183,11 @@ fmt
 .
 .
 )
+PRINTF_FORMAT
+(
+3
+4
+)
 ;
 void
 cubeb_async_log
@@ -194,6 +199,11 @@ fmt
 .
 .
 .
+)
+PRINTF_FORMAT
+(
+1
+2
 )
 ;
 void

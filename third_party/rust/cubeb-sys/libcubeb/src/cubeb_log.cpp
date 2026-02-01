@@ -868,6 +868,14 @@ g_cubeb_log_callback
 =
 log_callback
 ;
+if
+(
+log_level
+=
+=
+CUBEB_LOG_VERBOSE
+)
+{
 cubeb_async_logger
 :
 :
@@ -879,6 +887,7 @@ start
 (
 )
 ;
+}
 }
 else
 if
