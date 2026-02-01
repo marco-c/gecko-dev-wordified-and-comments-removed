@@ -246,6 +246,12 @@ test_stub
 .
 nsi
 \
+nsis
+/
+get_installation_type
+.
+nsh
+\
 stub
 .
 tag

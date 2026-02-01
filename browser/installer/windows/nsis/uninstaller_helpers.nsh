@@ -59,6 +59,11 @@ UNINSTALLER_HELPERS_NSH
 !
 define
 UNINSTALLER_HELPERS_NSH
+!
+include
+get_installation_type
+.
+nsh
 /
 *
 *

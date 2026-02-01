@@ -679,6 +679,11 @@ include
 stub
 .
 nsh
+!
+include
+get_installation_type
+.
+nsh
 ;
 .
 onInit
