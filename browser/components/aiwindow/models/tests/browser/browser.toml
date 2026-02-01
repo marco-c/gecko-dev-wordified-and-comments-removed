@@ -63,6 +63,13 @@ js
 ]
 [
 "
+browser_title_generation
+.
+js
+"
+]
+[
+"
 browser_utils_loadConfig
 .
 js
