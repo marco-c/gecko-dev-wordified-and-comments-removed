@@ -43,6 +43,14 @@ ALL_COMPONENTS
     
 {
 "
+docs
+"
+:
+None
+}
+    
+{
+"
 index
 -
 search
@@ -239,6 +247,20 @@ str
 str
 ]
 )
+}
+    
+{
+"
+skip
+-
+unless
+-
+sphinx
+-
+js
+"
+:
+None
 }
 )
 OptimizationSchema
