@@ -3199,6 +3199,13 @@ transport_cc_callee
 )
 ;
 }
+#
+if
+!
+defined
+(
+WEBRTC_ANDROID
+)
 struct
 SendMediaTestResult
 {
@@ -4296,6 +4303,8 @@ KilobitsPerSec
 )
 ;
 }
+#
+endif
 TEST
 (
 L4STest
