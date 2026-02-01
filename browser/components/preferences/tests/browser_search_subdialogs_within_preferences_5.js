@@ -76,7 +76,7 @@ Link
 Colors
 "
 "
-contrast
+contrastControlGroup
 "
 )
 ;

@@ -1248,7 +1248,6 @@ header
 )
 &
 &
-(
 !
 child
 .
@@ -1258,19 +1257,6 @@ contains
 (
 "
 subcategory
-"
-)
-|
-|
-child
-.
-localName
-=
-=
-"
-setting
--
-group
 "
 )
 &

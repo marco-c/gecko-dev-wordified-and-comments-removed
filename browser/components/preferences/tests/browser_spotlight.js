@@ -50,9 +50,6 @@ panePrivacy
 privacy
 "
 "
-addresses
--
-autofill
 address
 -
 autofill
@@ -79,11 +76,6 @@ privacy
 payment
 -
 methods
--
-autofill
-credit
--
-card
 -
 autofill
 "
