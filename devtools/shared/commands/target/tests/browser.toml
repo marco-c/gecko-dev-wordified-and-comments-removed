@@ -108,6 +108,11 @@ helper_service_workers_navigation
 js
 "
 "
+test_image
+.
+png
+"
+"
 test_service_worker
 .
 js
@@ -231,6 +236,13 @@ Bug
 [
 "
 browser_target_command_content_scripts
+.
+js
+"
+]
+[
+"
+browser_target_command_content_scripts_imagetab
 .
 js
 "
