@@ -2551,6 +2551,12 @@ clear
 (
 )
 ;
+this
+.
+shouldLoadMoreItems
+=
+false
+;
 }
 set
 animationsEnabled
