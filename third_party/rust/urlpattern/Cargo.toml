@@ -100,7 +100,7 @@ package
 edition
 =
 "
-2021
+2024
 "
 name
 =
@@ -112,9 +112,9 @@ version
 "
 0
 .
-4
+5
 .
-2
+0
 "
 authors
 =
