@@ -128,6 +128,26 @@ rocky
 oracle
 "
 )
+or
+(
+            
+self
+.
+distro
+=
+=
+"
+fedora
+"
+and
+self
+.
+version
+>
+=
+42
+        
+)
 :
             
 packages
