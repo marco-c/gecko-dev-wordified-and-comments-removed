@@ -1556,6 +1556,12 @@ assertIsQuickSuggest
 {
 window
 isSponsored
+isManageable
+:
+isSponsored
+|
+|
+undefined
 index
 :
 expectedViewIndex
