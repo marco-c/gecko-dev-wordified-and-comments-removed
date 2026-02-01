@@ -4273,17 +4273,6 @@ onConfigurationChanged
 (
 newConfig
 )
-(
-toolbarView
-as
-?
-HomeToolbarView
-)
-?
-.
-dismissMenu
-(
-)
 /
 /
 If
