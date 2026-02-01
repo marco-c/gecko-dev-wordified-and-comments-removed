@@ -1254,6 +1254,9 @@ mUseWebRenderDCompVideoHwOverlayWin
 bool
 mUseWebRenderDCompVideoSwOverlayWin
 ;
+bool
+mUseWebRenderDCompositionTextureOverlayWin
+;
 #
 endif
 TimeStamp

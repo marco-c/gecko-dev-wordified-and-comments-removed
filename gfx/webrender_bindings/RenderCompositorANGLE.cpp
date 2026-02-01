@@ -5361,7 +5361,7 @@ UseLayerCompositor
 mDCLayerTree
 -
 >
-SupportsDCompositionTexture
+UseDCLayerDCompositionTexture
 (
 )
 )
