@@ -675,6 +675,17 @@ name
 let
 expiration
 =
+queryContext
+.
+sapName
+=
+=
+"
+searchbar
+"
+?
+Infinity
+:
 parseInt
 (
 lazy
