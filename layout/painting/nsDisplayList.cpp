@@ -44739,7 +44739,10 @@ nullptr
 SVGObserverUtils
 :
 :
-eHasRefsSomeInvalid
+ReferenceState
+:
+:
+HasRefsSomeInvalid
 )
 {
 if

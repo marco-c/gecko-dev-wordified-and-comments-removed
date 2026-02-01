@@ -1359,7 +1359,10 @@ filterFrames
 SVGObserverUtils
 :
 :
-eHasRefsSomeInvalid
+ReferenceState
+:
+:
+HasRefsSomeInvalid
 )
 {
 return
@@ -1512,7 +1515,10 @@ filterFrames
 SVGObserverUtils
 :
 :
-eHasRefsSomeInvalid
+ReferenceState
+:
+:
+HasRefsSomeInvalid
 )
 {
 return
@@ -4133,7 +4139,10 @@ filterFrames
 SVGObserverUtils
 :
 :
-eHasRefsSomeInvalid
+ReferenceState
+:
+:
+HasRefsSomeInvalid
 )
 {
 aCallback

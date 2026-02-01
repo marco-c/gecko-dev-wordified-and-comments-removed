@@ -4793,7 +4793,10 @@ this
 SVGObserverUtils
 :
 :
-INVALIDATE_DESTROY
+InvalidationFlag
+:
+:
+Destroy
 )
 ;
 const
@@ -36700,7 +36703,10 @@ this
 SVGObserverUtils
 :
 :
-INVALIDATE_REFLOW
+InvalidationFlag
+:
+:
+Reflow
 )
 ;
 RemoveStateBits
