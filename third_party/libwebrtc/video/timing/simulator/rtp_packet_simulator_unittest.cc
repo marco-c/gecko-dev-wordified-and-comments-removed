@@ -180,7 +180,7 @@ simulator
 env
 )
 ;
-LoggedRtpPacketIncoming
+LoggedRtpPacket
 logged_packet
 (
 Timestamp
@@ -296,7 +296,7 @@ ssrc
 =
 83653358
 ;
-LoggedRtpPacketIncoming
+LoggedRtpPacket
 logged_packet
 (
 Timestamp
@@ -469,7 +469,7 @@ hasAbsoluteSendTime
 =
 true
 ;
-LoggedRtpPacketIncoming
+LoggedRtpPacket
 logged_packet
 (
 Timestamp
@@ -591,7 +591,7 @@ paddingLength
 =
 100
 ;
-LoggedRtpPacketIncoming
+LoggedRtpPacket
 logged_packet
 (
 Timestamp

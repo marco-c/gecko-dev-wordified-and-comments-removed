@@ -106,7 +106,7 @@ RtpPacketReceived
 SimulateRtpPacketReceived
 (
 const
-LoggedRtpPacketIncoming
+LoggedRtpPacket
 &
 logged_packet
 )

@@ -133,7 +133,7 @@ RtpPacketSimulator
 SimulateRtpPacketReceived
 (
 const
-LoggedRtpPacketIncoming
+LoggedRtpPacket
 &
 logged_packet
 )
@@ -167,8 +167,6 @@ RTPHeader
 header
 =
 logged_packet
-.
-rtp
 .
 header
 ;
@@ -295,8 +293,6 @@ RtpDependencyDescriptorExtension
 (
 logged_packet
 .
-rtp
-.
 dependency_descriptor_wire_format
 )
 ;
@@ -306,13 +302,9 @@ AllocatePayload
 (
 logged_packet
 .
-rtp
-.
 total_length
 -
 logged_packet
-.
-rtp
 .
 header_length
 -
