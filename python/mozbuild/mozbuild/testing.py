@@ -1269,7 +1269,7 @@ sys
 path
 =
 old_path
-        
+    
 f
 =
 context
@@ -1280,10 +1280,10 @@ get
 (
 full_path
 )
-        
+    
 try
 :
-            
+        
 rv
 =
 wptmanifest
@@ -1295,7 +1295,7 @@ load
 tests_root
 f
 )
-        
+    
 except
 wptmanifest
 .
@@ -1303,7 +1303,7 @@ manifest
 .
 ManifestVersionMismatch
 :
-            
+        
 rv
 =
 wptmanifest
@@ -1313,6 +1313,6 @@ manifest
 Manifest
 (
 )
-        
+    
 return
 rv
