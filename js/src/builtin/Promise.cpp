@@ -44,13 +44,6 @@ h
 #
 include
 "
-jsexn
-.
-h
-"
-#
-include
-"
 jsfriendapi
 .
 h

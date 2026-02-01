@@ -1971,11 +1971,6 @@ jsapi
 cpp
 "
 "
-jsexn
-.
-cpp
-"
-"
 jsfriendapi
 .
 cpp
