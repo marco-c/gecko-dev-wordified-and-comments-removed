@@ -498,6 +498,24 @@ FieldTrial
 '
 WebRTC
 -
+EnforceTransceiverDirection
+'
+               
+448408148
+               
+date
+(
+2026
+6
+1
+)
+)
+    
+FieldTrial
+(
+'
+WebRTC
+-
 ForceDtls13
 '
                
