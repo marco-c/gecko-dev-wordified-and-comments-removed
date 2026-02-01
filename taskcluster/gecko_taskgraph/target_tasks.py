@@ -201,19 +201,6 @@ qr
     
 r
 "
-linux
--
-"
-    
-r
-"
-linux1804
--
-32
-"
-    
-r
-"
 web
 -
 platform
