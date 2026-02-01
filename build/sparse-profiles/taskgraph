@@ -590,6 +590,13 @@ dependencies
 .
 path
 :
+config
+/
+milestone
+.
+txt
+path
+:
 gradle
 /
 path
