@@ -161,10 +161,13 @@ size_t
 aStoragePages
 )
 <
+=
 sandbox
 :
 :
 kPolMemPageCount
+-
+2
 )
 ;
 constexpr
