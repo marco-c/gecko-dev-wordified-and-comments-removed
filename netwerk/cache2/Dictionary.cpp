@@ -1426,6 +1426,11 @@ OPEN_COMPLETE_ONLY
 nsICacheStorage
 :
 :
+OPEN_ALWAYS
+|
+nsICacheStorage
+:
+:
 CHECK_MULTITHREADED
 this
 )

@@ -926,6 +926,8 @@ aCallback
 bool
 aReadOnly
 bool
+aReadAlways
+bool
 aCheckOnAnyThread
 bool
 aSecret
@@ -997,6 +999,11 @@ mTarget
 ;
 bool
 mReadOnly
+:
+1
+;
+bool
+mReadAlways
 :
 1
 ;
