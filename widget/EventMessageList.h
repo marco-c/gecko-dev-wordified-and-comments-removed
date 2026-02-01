@@ -447,10 +447,6 @@ ePageHide
 )
 NS_EVENT_MESSAGE
 (
-ePageReveal
-)
-NS_EVENT_MESSAGE
-(
 eContextLost
 )
 NS_EVENT_MESSAGE
