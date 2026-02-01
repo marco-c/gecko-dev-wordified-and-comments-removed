@@ -573,13 +573,6 @@ html
 ]
 [
 "
-test_htmlcopyencoder_details
-.
-html
-"
-]
-[
-"
 test_htmlcopyencoder_list
 .
 html
