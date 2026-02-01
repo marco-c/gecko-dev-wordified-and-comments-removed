@@ -5500,7 +5500,7 @@ timings
 /
 fetch
 -
-xpcshell
+test
 -
 data
 .
