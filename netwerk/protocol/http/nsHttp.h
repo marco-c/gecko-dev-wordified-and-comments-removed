@@ -1464,7 +1464,7 @@ include
 "
 nsHttpAtomList
 .
-h
+inc
 "
 #
 undef

@@ -208,7 +208,7 @@ include
 "
 nsHttpAtomList
 .
-h
+inc
 "
 NUM_HTTP_ATOMS
 }
@@ -292,7 +292,7 @@ include
 "
 nsHttpAtomList
 .
-h
+inc
 "
 #
 undef
