@@ -259,7 +259,7 @@ UpdatePanFeedbackX
 (
 HWND
 hWnd
-int32_t
+bool
 scrollOverflow
 bool
 &
@@ -271,7 +271,7 @@ UpdatePanFeedbackY
 (
 HWND
 hWnd
-int32_t
+bool
 scrollOverflow
 bool
 &
