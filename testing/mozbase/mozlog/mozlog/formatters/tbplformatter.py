@@ -1751,25 +1751,16 @@ data
         
 message
 =
-"
--
-"
-+
 data
-[
+.
+get
+(
 "
 message
 "
-]
-if
-"
-message
-"
-in
-data
-else
 "
 "
+)
         
 if
 "
@@ -1839,23 +1830,6 @@ subtest
 "
 ]
         
-subtest_str
-=
-(
-"
-|
-%
-s
-"
-%
-subtest
-)
-if
-subtest
-else
-"
-"
-        
 if
 "
 expected
@@ -1903,7 +1877,6 @@ message
 message
 =
 "
--
 expected
 %
 s
@@ -1915,6 +1888,27 @@ data
 expected
 "
 ]
+                
+if
+subtest
+:
+                    
+subtest_msg
+=
+subtest
++
+"
+-
+"
++
+message
+                
+else
+:
+                    
+subtest_msg
+=
+message
                 
 failure_line
 =
@@ -1928,8 +1922,7 @@ s
 |
 %
 s
-%
-s
+|
 %
 s
 \
@@ -1947,9 +1940,7 @@ test
 "
 ]
                     
-subtest_str
-                    
-message
+subtest_msg
                 
 )
                 
@@ -1996,6 +1987,34 @@ info_line
 return
 failure_line
         
+if
+subtest
+:
+            
+subtest_msg
+=
+subtest
+            
+if
+message
+:
+                
+subtest_msg
++
+=
+"
+-
+"
++
+message
+        
+else
+:
+            
+subtest_msg
+=
+message
+        
 return
 "
 TEST
@@ -2005,8 +2024,7 @@ s
 |
 %
 s
-%
-s
+|
 %
 s
 \
@@ -2024,9 +2042,7 @@ test
 "
 ]
             
-subtest_str
-            
-message
+subtest_msg
         
 )
     
