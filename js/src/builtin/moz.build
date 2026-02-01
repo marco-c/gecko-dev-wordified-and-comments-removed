@@ -445,13 +445,6 @@ js
 "
 intl
 /
-IntlObject
-.
-js
-"
-"
-intl
-/
 ListFormat
 .
 js

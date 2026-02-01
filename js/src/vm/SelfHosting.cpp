@@ -11878,15 +11878,6 @@ intl_FormatRelativeTime
 JS_FN
 (
 "
-intl_GetCalendarInfo
-"
-intl_GetCalendarInfo
-1
-0
-)
-JS_FN
-(
-"
 intl_GetPluralCategories
 "
 intl_GetPluralCategories
