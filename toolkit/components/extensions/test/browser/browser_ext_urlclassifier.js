@@ -489,7 +489,7 @@ Glean
 .
 network
 .
-urlclassifierAddonBlock
+urlclassifierHarmfulAddonBlock
 .
 testGetValue
 (
@@ -597,7 +597,7 @@ Glean
 .
 network
 .
-urlclassifierAddonBlock
+urlclassifierHarmfulAddonBlock
 .
 testGetValue
 (
