@@ -537,7 +537,7 @@ browser
 addEventListener
 (
 "
-DoZoomEnlargeBy10
+DoZoomEnlarge
 "
 (
 )
@@ -598,7 +598,7 @@ browser
 addEventListener
 (
 "
-DoZoomReduceBy10
+DoZoomReduce
 "
 (
 )

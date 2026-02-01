@@ -103,7 +103,7 @@ gBrowser
 addEventListener
 (
 "
-DoZoomEnlargeBy10
+DoZoomEnlarge
 "
 this
 )
@@ -113,7 +113,7 @@ gBrowser
 addEventListener
 (
 "
-DoZoomReduceBy10
+DoZoomReduce
 "
 this
 )
@@ -291,7 +291,7 @@ gBrowser
 removeEventListener
 (
 "
-DoZoomEnlargeBy10
+DoZoomEnlarge
 "
 this
 )
@@ -301,7 +301,7 @@ gBrowser
 removeEventListener
 (
 "
-DoZoomReduceBy10
+DoZoomReduce
 "
 this
 )
@@ -334,7 +334,7 @@ type
 {
 case
 "
-DoZoomEnlargeBy10
+DoZoomEnlarge
 "
 :
 this
@@ -353,7 +353,7 @@ break
 ;
 case
 "
-DoZoomReduceBy10
+DoZoomReduce
 "
 :
 this

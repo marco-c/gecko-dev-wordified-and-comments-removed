@@ -965,7 +965,7 @@ browser
 removeEventListener
 (
 "
-DoZoomEnlargeBy10
+DoZoomEnlarge
 "
 this
 )
@@ -975,7 +975,7 @@ browser
 removeEventListener
 (
 "
-DoZoomReduceBy10
+DoZoomReduce
 "
 this
 )
@@ -1501,7 +1501,7 @@ break
 ;
 case
 "
-DoZoomEnlargeBy10
+DoZoomEnlarge
 "
 :
 {
@@ -1564,7 +1564,7 @@ break
 }
 case
 "
-DoZoomReduceBy10
+DoZoomReduce
 "
 :
 {
@@ -2228,7 +2228,7 @@ browser
 addEventListener
 (
 "
-DoZoomEnlargeBy10
+DoZoomEnlarge
 "
 this
 true
@@ -2251,7 +2251,7 @@ browser
 addEventListener
 (
 "
-DoZoomReduceBy10
+DoZoomReduce
 "
 this
 true
