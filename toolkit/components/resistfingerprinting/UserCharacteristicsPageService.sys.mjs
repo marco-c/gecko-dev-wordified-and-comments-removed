@@ -7337,15 +7337,6 @@ media
 .
 mediasource
 .
-webm
-.
-enabled
-"
-"
-media
-.
-mediasource
-.
 vp9
 .
 enabled
