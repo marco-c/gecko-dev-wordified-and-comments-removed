@@ -3395,13 +3395,10 @@ header
 {
 host
 :
-window
+this
 .
-gIdentityHandler
-.
-getHostForDisplay
-(
-)
+#
+host
 }
 )
 ;
