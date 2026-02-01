@@ -7008,12 +7008,9 @@ download
 *
 returns
 {
-Promise
-<
 MLEngine
 <
 FeatureID
->
 >
 }
 *

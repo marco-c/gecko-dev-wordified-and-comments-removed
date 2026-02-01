@@ -1668,7 +1668,6 @@ replaced
 .
 *
 /
-async
 removeEngine
 (
 engineId
@@ -1698,10 +1697,9 @@ engineId
 ;
 try
 {
-await
 this
 .
-sendQuery
+sendAsyncMessage
 (
 "
 MLEngine
@@ -1760,10 +1758,9 @@ shutDownIfEmpty
 {
 try
 {
-await
 this
 .
-sendQuery
+sendAsyncMessage
 (
 "
 MLEngine
@@ -3659,7 +3656,6 @@ this
 #
 engine
 ;
-await
 engine
 .
 terminate
@@ -3698,7 +3694,6 @@ status
 TERMINATED
 "
 ;
-await
 this
 .
 mlEngineChild
@@ -4739,7 +4734,6 @@ engineRunOptions
 )
 ;
 }
-async
 terminate
 (
 )
