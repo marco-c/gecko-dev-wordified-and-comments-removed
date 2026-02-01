@@ -150,6 +150,13 @@ js
 ]
 [
 "
+test_ToolDefinitions
+.
+js
+"
+]
+[
+"
 test_Tools_GetOpenTabs
 .
 js

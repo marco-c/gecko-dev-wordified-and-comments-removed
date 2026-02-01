@@ -542,6 +542,11 @@ list
 parameters
 :
 {
+type
+:
+"
+object
+"
 properties
 :
 {
