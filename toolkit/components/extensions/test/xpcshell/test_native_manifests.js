@@ -3342,9 +3342,11 @@ ECHO
 OFF
 \
 n
+"
 {
 PYTHON
 }
+"
 -
 u
 "
