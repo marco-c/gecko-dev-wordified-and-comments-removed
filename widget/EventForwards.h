@@ -297,7 +297,7 @@ mozilla
 /
 KeyNameList
 .
-h
+inc
 "
 KEY_NAME_INDEX_USE_STRING
 }
@@ -341,7 +341,7 @@ mozilla
 /
 PhysicalKeyCodeNameList
 .
-h
+inc
 "
 CODE_NAME_INDEX_USE_STRING
 }
@@ -386,7 +386,7 @@ mozilla
 /
 InputTypeList
 .
-h
+inc
 "
 eUnknown
 }
@@ -462,7 +462,7 @@ mozilla
 /
 InputTypeList
 .
-h
+inc
 "
 case
 EditorInputType

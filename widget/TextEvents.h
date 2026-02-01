@@ -237,7 +237,7 @@ mozilla
 /
 VirtualKeyCodeList
 .
-h
+inc
 "
 #
 undef

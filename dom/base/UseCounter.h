@@ -131,7 +131,7 @@ include
 "
 nsDeprecatedOperationList
 .
-h
+inc
 "
 #
 undef

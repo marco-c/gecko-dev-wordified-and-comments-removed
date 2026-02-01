@@ -170,7 +170,7 @@ h
 "
 EventNameList
 .
-h
+inc
 "
 "
 EventStateManager
@@ -200,7 +200,7 @@ h
 "
 InputTypeList
 .
-h
+inc
 "
 "
 JSEventHandler
@@ -215,7 +215,7 @@ h
 "
 KeyNameList
 .
-h
+inc
 "
 "
 PendingFullscreenEvent
@@ -225,7 +225,7 @@ h
 "
 PhysicalKeyCodeNameList
 .
-h
+inc
 "
 "
 ShortcutKeys
@@ -240,7 +240,7 @@ h
 "
 VirtualKeyCodeList
 .
-h
+inc
 "
 "
 WheelHandlingHelper

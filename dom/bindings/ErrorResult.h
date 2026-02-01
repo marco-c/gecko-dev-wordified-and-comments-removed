@@ -7,13 +7,6 @@ mozilla_ErrorResult_h
 #
 include
 <
-stdarg
-.
-h
->
-#
-include
-<
 new
 >
 #
@@ -1405,7 +1398,7 @@ dom
 /
 DOMExceptionNames
 .
-h
+inc
 "
 #
 undef

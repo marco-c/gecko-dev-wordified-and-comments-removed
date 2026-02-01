@@ -21440,7 +21440,7 @@ include
 "
 nsDeprecatedOperationList
 .
-h
+inc
 "
 nullptr
 }

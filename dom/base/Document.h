@@ -1603,7 +1603,7 @@ include
 "
 nsDeprecatedOperationList
 .
-h
+inc
 "
 eDeprecatedOperationCount
 }
@@ -9157,7 +9157,7 @@ include
 "
 nsDocumentWarningList
 .
-h
+inc
 "
 eDocumentWarningCount
 }

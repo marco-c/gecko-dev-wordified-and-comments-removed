@@ -585,7 +585,7 @@ svg
 /
 SVGTagList
 .
-h
+inc
 !
 #
 Then
@@ -842,7 +842,7 @@ svg
 /
 SVGTagList
 .
-h
+inc
 #
 Copy
 and

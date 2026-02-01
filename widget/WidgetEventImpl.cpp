@@ -1171,7 +1171,7 @@ mozilla
 /
 VirtualKeyCodeList
 .
-h
+inc
 "
 #
 undef
@@ -4882,7 +4882,7 @@ mozilla
 /
 KeyNameList
 .
-h
+inc
 "
 }
 ;
@@ -4922,7 +4922,7 @@ mozilla
 /
 PhysicalKeyCodeNameList
 .
-h
+inc
 "
 }
 ;
@@ -9574,7 +9574,7 @@ mozilla
 /
 InputTypeList
 .
-h
+inc
 "
 }
 ;

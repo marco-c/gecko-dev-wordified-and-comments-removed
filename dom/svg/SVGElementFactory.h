@@ -210,7 +210,7 @@ mozilla
 /
 SVGTagList
 .
-h
+inc
 "
 #
 undef

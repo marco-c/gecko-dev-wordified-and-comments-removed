@@ -5066,7 +5066,7 @@ mozilla
 /
 EventNameList
 .
-h
+inc
 "
 #
 undef
@@ -5675,7 +5675,7 @@ mozilla
 /
 EventNameList
 .
-h
+inc
 "
 #
 undef

@@ -13896,7 +13896,7 @@ in
 [
 nsDeprecatedOperationList
 .
-h
+inc
 ]
 (
 https

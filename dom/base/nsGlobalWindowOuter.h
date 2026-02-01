@@ -2077,7 +2077,7 @@ mozilla
 /
 EventNameList
 .
-h
+inc
 "
 #
 undef

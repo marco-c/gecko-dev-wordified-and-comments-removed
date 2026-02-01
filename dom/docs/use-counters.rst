@@ -500,7 +500,7 @@ searchfox
 :
 nsDeprecatedOperationList
 .
-h
+inc
 <
 dom
 /

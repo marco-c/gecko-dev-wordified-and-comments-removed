@@ -68111,7 +68111,7 @@ include
 "
 nsDeprecatedOperationList
 .
-h
+inc
 "
 nullptr
 }
@@ -68144,7 +68144,7 @@ include
 "
 nsDocumentWarningList
 .
-h
+inc
 "
 nullptr
 }
@@ -68193,7 +68193,7 @@ include
 "
 nsDeprecatedOperationList
 .
-h
+inc
 "
 #
 undef
