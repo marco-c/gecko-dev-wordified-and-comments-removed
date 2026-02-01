@@ -903,8 +903,9 @@ M8
 fill
 =
 "
-#
-5B5B66
+context
+-
+fill
 "
 /
 >
@@ -933,8 +934,9 @@ y2
 stroke
 =
 "
-#
-5B5B66
+context
+-
+fill
 "
 stroke
 -

@@ -74,6 +74,10 @@ icon
 -
 fill
 :
+light
+-
+dark
+(
 var
 (
 -
@@ -83,6 +87,8 @@ color
 gray
 -
 70
+)
+white
 )
 ;
 -
