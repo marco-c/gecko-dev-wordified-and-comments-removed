@@ -301,6 +301,12 @@ TrustPanelAction
 Navigate
 .
 ManagePhoneFeature
+is
+TrustPanelAction
+.
+Navigate
+.
+SecurityCertificate
 -
 >
 Unit
