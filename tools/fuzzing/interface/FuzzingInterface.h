@@ -1,9 +1,9 @@
 #
 ifndef
-FuzzingInterface_h__
+FuzzingInterface_h_
 #
 define
-FuzzingInterface_h__
+FuzzingInterface_h_
 #
 include
 <

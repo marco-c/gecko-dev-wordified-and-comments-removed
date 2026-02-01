@@ -1,9 +1,9 @@
 #
 ifndef
-nsExternalProtocolHandler_h___
+nsExternalProtocolHandler_h_
 #
 define
-nsExternalProtocolHandler_h___
+nsExternalProtocolHandler_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-__nsAppShellService_h
+_nsAppShellService_h
 #
 define
-__nsAppShellService_h
+_nsAppShellService_h
 #
 include
 "

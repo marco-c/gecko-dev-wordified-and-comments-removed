@@ -1,9 +1,9 @@
 #
 ifndef
-StringBuffer_h__
+StringBuffer_h_
 #
 define
-StringBuffer_h__
+StringBuffer_h_
 #
 include
 <

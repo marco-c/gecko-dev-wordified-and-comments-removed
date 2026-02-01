@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla__net__GeckoViewContentChannelParent_h
+mozilla_net_GeckoViewContentChannelParent_h
 #
 define
-mozilla__net__GeckoViewContentChannelParent_h
+mozilla_net_GeckoViewContentChannelParent_h
 #
 include
 "

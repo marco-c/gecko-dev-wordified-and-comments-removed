@@ -1,9 +1,9 @@
 #
 ifndef
-_JEMALLOC_TYPES_H_
+JEMALLOC_TYPES_H_
 #
 define
-_JEMALLOC_TYPES_H_
+JEMALLOC_TYPES_H_
 #
 include
 <

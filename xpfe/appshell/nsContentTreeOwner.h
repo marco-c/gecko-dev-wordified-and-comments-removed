@@ -1,9 +1,9 @@
 #
 ifndef
-nsContentTreeOwner_h__
+nsContentTreeOwner_h_
 #
 define
-nsContentTreeOwner_h__
+nsContentTreeOwner_h_
 #
 include
 "

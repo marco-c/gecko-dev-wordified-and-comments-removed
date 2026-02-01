@@ -1,9 +1,9 @@
 #
 ifndef
-nsAuth_h__
+nsAuth_h_
 #
 define
-nsAuth_h__
+nsAuth_h_
 enum
 pType
 {

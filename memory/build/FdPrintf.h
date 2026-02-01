@@ -1,9 +1,9 @@
 #
 ifndef
-__FdPrintf_h__
+FdPrintf_h_
 #
 define
-__FdPrintf_h__
+FdPrintf_h_
 #
 include
 <

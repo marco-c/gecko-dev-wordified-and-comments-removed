@@ -1,9 +1,9 @@
 #
 ifndef
-nsDocShellLoadState_h__
+nsDocShellLoadState_h_
 #
 define
-nsDocShellLoadState_h__
+nsDocShellLoadState_h_
 #
 include
 "

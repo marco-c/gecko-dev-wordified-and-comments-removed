@@ -1,9 +1,9 @@
 #
 ifndef
-FuzzingInterfaceStream_h__
+FuzzingInterfaceStream_h_
 #
 define
-FuzzingInterfaceStream_h__
+FuzzingInterfaceStream_h_
 #
 ifdef
 JS_STANDALONE

@@ -1,9 +1,9 @@
 #
 ifndef
-nsDocShell_h__
+nsDocShell_h_
 #
 define
-nsDocShell_h__
+nsDocShell_h_
 #
 include
 "

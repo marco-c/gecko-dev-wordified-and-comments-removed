@@ -1,9 +1,9 @@
 #
 ifndef
-nsOSHelperAppServiceChild_h__
+nsOSHelperAppServiceChild_h_
 #
 define
-nsOSHelperAppServiceChild_h__
+nsOSHelperAppServiceChild_h_
 #
 include
 "

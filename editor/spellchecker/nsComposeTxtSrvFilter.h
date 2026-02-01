@@ -1,9 +1,9 @@
 #
 ifndef
-nsComposeTxtSrvFilter_h__
+nsComposeTxtSrvFilter_h_
 #
 define
-nsComposeTxtSrvFilter_h__
+nsComposeTxtSrvFilter_h_
 #
 include
 "

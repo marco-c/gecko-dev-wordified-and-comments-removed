@@ -1,9 +1,9 @@
 #
 ifndef
-nsChromeTreeOwner_h__
+nsChromeTreeOwner_h_
 #
 define
-nsChromeTreeOwner_h__
+nsChromeTreeOwner_h_
 #
 include
 "

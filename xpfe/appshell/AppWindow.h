@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_AppWindow_h__
+mozilla_AppWindow_h_
 #
 define
-mozilla_AppWindow_h__
+mozilla_AppWindow_h_
 #
 include
 "

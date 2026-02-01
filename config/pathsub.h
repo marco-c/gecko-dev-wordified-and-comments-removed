@@ -1,9 +1,9 @@
 #
 ifndef
-pathsub_h___
+pathsub_h_
 #
 define
-pathsub_h___
+pathsub_h_
 #
 include
 <

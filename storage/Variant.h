@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_storage_Variant_h__
+mozilla_storage_Variant_h_
 #
 define
-mozilla_storage_Variant_h__
+mozilla_storage_Variant_h_
 #
 include
 "

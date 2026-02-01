@@ -1,9 +1,9 @@
 #
 ifndef
-mozPersonalDictionary_h__
+mozPersonalDictionary_h_
 #
 define
-mozPersonalDictionary_h__
+mozPersonalDictionary_h_
 #
 include
 "

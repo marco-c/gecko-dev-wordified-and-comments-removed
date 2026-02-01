@@ -1,9 +1,9 @@
 #
 ifndef
-_FuzzerRegistry_h__
+FuzzerRegistry_h_
 #
 define
-_FuzzerRegistry_h__
+FuzzerRegistry_h_
 #
 include
 <

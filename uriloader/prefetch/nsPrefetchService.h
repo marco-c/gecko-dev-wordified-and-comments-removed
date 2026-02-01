@@ -1,9 +1,9 @@
 #
 ifndef
-nsPrefetchService_h__
+nsPrefetchService_h_
 #
 define
-nsPrefetchService_h__
+nsPrefetchService_h_
 #
 include
 "

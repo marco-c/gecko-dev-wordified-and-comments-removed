@@ -1,9 +1,9 @@
 #
 ifndef
-nsIContentSink_h___
+nsIContentSink_h_
 #
 define
-nsIContentSink_h___
+nsIContentSink_h_
 #
 include
 "

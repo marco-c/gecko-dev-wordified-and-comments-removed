@@ -1,9 +1,9 @@
 #
 ifndef
-nsDocShellTelemetryUtils_h__
+nsDocShellTelemetryUtils_h_
 #
 define
-nsDocShellTelemetryUtils_h__
+nsDocShellTelemetryUtils_h_
 #
 include
 "

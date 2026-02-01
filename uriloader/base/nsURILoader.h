@@ -1,9 +1,9 @@
 #
 ifndef
-nsURILoader_h__
+nsURILoader_h_
 #
 define
-nsURILoader_h__
+nsURILoader_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla__CryptoTask_h
+mozilla_CryptoTask_h
 #
 define
-mozilla__CryptoTask_h
+mozilla_CryptoTask_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-__ClearKeyCencParser_h__
+ClearKeyCencParser_h_
 #
 define
-__ClearKeyCencParser_h__
+ClearKeyCencParser_h_
 #
 include
 <
