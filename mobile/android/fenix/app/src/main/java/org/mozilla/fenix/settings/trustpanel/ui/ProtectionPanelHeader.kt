@@ -351,7 +351,7 @@ fenix
 .
 theme
 .
-Theme
+PreviewThemeProvider
 import
 org
 .
@@ -361,7 +361,7 @@ fenix
 .
 theme
 .
-ThemeProvider
+Theme
 private
 val
 ICON_SIZE
@@ -726,7 +726,7 @@ ProtectionPanelHeaderPreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class
@@ -800,7 +800,7 @@ ProtectionPanelHeaderUrlAsTitlePreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class

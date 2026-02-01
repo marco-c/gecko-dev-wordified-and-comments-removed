@@ -359,7 +359,7 @@ fenix
 .
 theme
 .
-Theme
+PreviewThemeProvider
 import
 org
 .
@@ -369,7 +369,7 @@ fenix
 .
 theme
 .
-ThemeProvider
+Theme
 /
 *
 *
@@ -1078,7 +1078,7 @@ ProfilerDialogueCardPreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class

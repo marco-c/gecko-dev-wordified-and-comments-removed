@@ -319,7 +319,7 @@ fenix
 .
 theme
 .
-Theme
+PreviewThemeProvider
 import
 org
 .
@@ -329,7 +329,7 @@ fenix
 .
 theme
 .
-ThemeProvider
+Theme
 internal
 val
 FAVICON_ROUNDED_CORNER_SHAPE
@@ -1039,7 +1039,7 @@ FaviconPreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class

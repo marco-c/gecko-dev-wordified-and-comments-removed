@@ -353,7 +353,7 @@ fenix
 .
 theme
 .
-Theme
+PreviewThemeProvider
 import
 org
 .
@@ -363,7 +363,7 @@ fenix
 .
 theme
 .
-ThemeProvider
+Theme
 private
 val
 IconSize
@@ -680,7 +680,7 @@ SelectAppIconPreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class

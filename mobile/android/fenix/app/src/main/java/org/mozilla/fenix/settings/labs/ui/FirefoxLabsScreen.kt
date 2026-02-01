@@ -531,7 +531,7 @@ fenix
 .
 theme
 .
-Theme
+PreviewThemeProvider
 import
 org
 .
@@ -541,7 +541,7 @@ fenix
 .
 theme
 .
-ThemeProvider
+Theme
 import
 org
 .
@@ -1714,7 +1714,7 @@ ToggleFeatureDialogPreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class
@@ -1753,7 +1753,7 @@ RestoreDefaultsDialogPreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class

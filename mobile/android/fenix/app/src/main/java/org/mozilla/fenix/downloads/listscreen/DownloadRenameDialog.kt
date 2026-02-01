@@ -259,7 +259,7 @@ fenix
 .
 theme
 .
-Theme
+PreviewThemeProvider
 import
 org
 .
@@ -269,7 +269,7 @@ fenix
 .
 theme
 .
-ThemeProvider
+Theme
 import
 java
 .
@@ -679,7 +679,7 @@ RenameDownloadFileDialogPreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class
@@ -722,7 +722,7 @@ RenameDownloadFileDialogMultipleExtensionsPreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class

@@ -679,7 +679,7 @@ fenix
 .
 theme
 .
-Theme
+PreviewThemeProvider
 import
 org
 .
@@ -689,7 +689,7 @@ fenix
 .
 theme
 .
-ThemeProvider
+Theme
 import
 org
 .
@@ -3732,7 +3732,7 @@ MenuDialogPreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class

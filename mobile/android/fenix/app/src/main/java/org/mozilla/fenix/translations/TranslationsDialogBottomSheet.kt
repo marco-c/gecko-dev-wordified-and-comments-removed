@@ -533,7 +533,7 @@ fenix
 .
 theme
 .
-Theme
+PreviewThemeProvider
 import
 org
 .
@@ -543,7 +543,7 @@ fenix
 .
 theme
 .
-ThemeProvider
+Theme
 import
 java
 .
@@ -3514,7 +3514,7 @@ TranslationsDialogBottomSheetPreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class
