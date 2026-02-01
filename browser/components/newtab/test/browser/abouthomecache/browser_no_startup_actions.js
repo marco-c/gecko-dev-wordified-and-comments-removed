@@ -144,7 +144,6 @@ uninit
 (
 )
 ;
-await
 AboutNewTab
 .
 onBrowserReady

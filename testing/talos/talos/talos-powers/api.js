@@ -1102,7 +1102,6 @@ e
 )
 {
 }
-await
 AboutNewTab
 .
 onBrowserReady
