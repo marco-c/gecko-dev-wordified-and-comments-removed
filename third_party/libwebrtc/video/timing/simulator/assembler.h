@@ -293,6 +293,8 @@ frame_id
 )
 override
 ;
+private
+:
 bool
 SendRtp
 (
@@ -343,8 +345,6 @@ encoded_frame
 )
 override
 ;
-private
-:
 SequenceChecker
 sequence_checker_
 ;
