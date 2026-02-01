@@ -3706,7 +3706,7 @@ width
 296
 height
 :
-148
+160
 }
 ;
 const
@@ -4938,7 +4938,7 @@ width
 300
 height
 :
-150
+160
 }
 large
 :
