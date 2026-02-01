@@ -348,12 +348,6 @@ extra_gecko_values
 #
 gecko_enum_prefix
 #
-gecko_needs_conversion
--
-true
-/
-false
-#
 gecko_constant_prefix
 #
 custom_consts
@@ -28952,9 +28946,6 @@ gecko_enum_prefix
 "
 StyleMathStyle
 "
-gecko_needs_conversion
-=
-true
 }
 [
 math
@@ -29036,9 +29027,6 @@ gecko_enum_prefix
 "
 StyleMathShift
 "
-gecko_needs_conversion
-=
-true
 }
 [
 -
@@ -32541,9 +32529,6 @@ gecko_enum_prefix
 "
 StyleMathVariant
 "
-gecko_needs_conversion
-=
-true
 }
 [
 white
