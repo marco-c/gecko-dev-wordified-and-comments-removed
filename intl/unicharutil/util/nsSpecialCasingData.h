@@ -1,4 +1,10 @@
 #
+ifndef
+INTL_UNICHARUTIL_UTIL_NSSPECIALCASINGDATA_H_
+#
+define
+INTL_UNICHARUTIL_UTIL_NSSPECIALCASINGDATA_H_
+#
 include
 <
 stdint
@@ -54,3 +60,5 @@ aCh
 ;
 }
 }
+#
+endif
