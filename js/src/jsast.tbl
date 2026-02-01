@@ -238,6 +238,13 @@ CallImport
 )
 ASTDEF
 (
+AST_CALL_IMPORT_SOURCE
+"
+CallImportSource
+"
+)
+ASTDEF
+(
 AST_EMPTY_STMT
 "
 EmptyStatement

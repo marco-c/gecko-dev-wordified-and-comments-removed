@@ -709,6 +709,17 @@ ParseNodeKind
 :
 CallImportExpr
 :
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
+case
+ParseNodeKind
+:
+:
+CallImportSourceExpr
+:
+#
+endif
 case
 ParseNodeKind
 :
