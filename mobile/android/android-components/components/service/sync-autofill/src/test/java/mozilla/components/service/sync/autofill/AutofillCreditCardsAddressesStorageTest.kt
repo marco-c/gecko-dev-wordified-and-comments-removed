@@ -1839,6 +1839,10 @@ storage
 getAllAddresses
 (
 )
+.
+getOrThrow
+(
+)
 val
 savedAddress1
 =

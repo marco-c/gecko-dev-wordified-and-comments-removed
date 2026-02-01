@@ -1246,7 +1246,12 @@ mock
 )
 doReturn
 (
+Result
+.
+success
+(
 storedAddresses
+)
 )
 .
 when
