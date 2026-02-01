@@ -171,6 +171,4 @@ fun
 refreshTopSitesIfCacheExpired
 (
 )
-=
-Unit
 }
