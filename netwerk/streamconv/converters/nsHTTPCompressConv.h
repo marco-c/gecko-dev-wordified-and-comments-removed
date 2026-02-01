@@ -384,7 +384,10 @@ false
 bool
 mFailUncleanStops
 ;
+Atomic
+<
 bool
+>
 mDispatchToMainThread
 {
 false
