@@ -283,7 +283,7 @@ midirMIDIPlatformService
 :
 gOwnerThreadMutex
 ;
-MOZ_RUNINIT
+constinit
 nsCOMPtr
 <
 nsISerialEventTarget

@@ -215,7 +215,7 @@ IID_MsaaAccessible
 }
 }
 ;
-MOZ_RUNINIT
+constinit
 MsaaIdGenerator
 MsaaAccessible
 :
