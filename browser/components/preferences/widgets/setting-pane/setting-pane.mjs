@@ -870,6 +870,9 @@ render
 return
 html
 <
+section
+>
+<
 moz
 -
 page
@@ -954,6 +957,10 @@ groupId
 )
 )
 }
+<
+/
+section
+>
 ;
 }
 }
