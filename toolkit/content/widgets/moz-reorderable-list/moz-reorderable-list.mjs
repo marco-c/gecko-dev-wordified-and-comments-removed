@@ -1980,6 +1980,14 @@ min
 direction
 0
 )
+draggedIndex
+:
+fromIndex
+targetIndex
+:
+fromIndex
++
+direction
 }
 ;
 }
