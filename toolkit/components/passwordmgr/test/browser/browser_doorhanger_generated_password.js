@@ -73,11 +73,12 @@ task_setup
 (
 )
 {
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;

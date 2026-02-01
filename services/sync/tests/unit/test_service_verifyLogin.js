@@ -180,11 +180,12 @@ test_verifyLogin
 (
 )
 {
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;

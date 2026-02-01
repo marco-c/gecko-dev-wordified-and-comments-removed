@@ -147,6 +147,7 @@ tabOpenedPromise
 ;
 registerCleanupFunction
 (
+async
 (
 )
 =
@@ -161,11 +162,12 @@ gBrowser
 selectedTab
 )
 ;
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;

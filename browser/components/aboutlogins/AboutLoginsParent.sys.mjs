@@ -1068,6 +1068,7 @@ RemoveAllLogins
 "
 :
 {
+await
 this
 .
 #
@@ -3031,16 +3032,18 @@ record
 }
 }
 }
+async
 #
 removeAllLogins
 (
 )
 {
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;
@@ -3498,6 +3501,7 @@ removeAllLogins
 "
 :
 {
+await
 this
 .
 #
@@ -3822,6 +3826,7 @@ login
 )
 ;
 }
+async
 #
 removeAllLogins
 (

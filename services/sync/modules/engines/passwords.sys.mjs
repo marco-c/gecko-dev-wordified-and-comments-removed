@@ -2539,11 +2539,12 @@ wipe
 (
 )
 {
+await
 this
 .
 storage
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 true
 )

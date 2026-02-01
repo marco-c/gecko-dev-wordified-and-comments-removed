@@ -4289,6 +4289,7 @@ cleanup
 ;
 runInParent
 (
+async
 function
 cleanupParent
 (
@@ -4320,11 +4321,12 @@ mjs
 "
 )
 ;
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;

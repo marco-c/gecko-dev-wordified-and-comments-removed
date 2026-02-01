@@ -1055,11 +1055,12 @@ test_no_logins_empty_url_hash
 (
 )
 {
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;

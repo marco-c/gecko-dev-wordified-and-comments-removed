@@ -841,6 +841,7 @@ origin
 ]
 )
 ;
+await
 LoginTestUtils
 .
 clearData
@@ -910,6 +911,7 @@ origin
 ]
 )
 ;
+await
 LoginTestUtils
 .
 clearData
@@ -1018,6 +1020,7 @@ encoding
 ]
 )
 ;
+await
 LoginTestUtils
 .
 clearData
@@ -1087,6 +1090,7 @@ encoding
 ]
 )
 ;
+await
 LoginTestUtils
 .
 clearData
