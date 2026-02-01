@@ -1,9 +1,9 @@
 #
 ifndef
-AndroidSurfaceTexture_h__
+AndroidSurfaceTexture_h_
 #
 define
-AndroidSurfaceTexture_h__
+AndroidSurfaceTexture_h_
 #
 include
 "

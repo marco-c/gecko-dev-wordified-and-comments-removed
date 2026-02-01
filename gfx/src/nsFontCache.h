@@ -1,9 +1,9 @@
 #
 ifndef
-_NS_FONTCACHE_H_
+NS_FONTCACHE_H_
 #
 define
-_NS_FONTCACHE_H_
+NS_FONTCACHE_H_
 #
 include
 <

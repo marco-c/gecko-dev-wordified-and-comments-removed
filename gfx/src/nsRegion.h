@@ -1,9 +1,9 @@
 #
 ifndef
-nsRegion_h__
+nsRegion_h_
 #
 define
-nsRegion_h__
+nsRegion_h_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-nsFont_h___
+nsFont_h_
 #
 define
-nsFont_h___
+nsFont_h_
 #
 include
 <

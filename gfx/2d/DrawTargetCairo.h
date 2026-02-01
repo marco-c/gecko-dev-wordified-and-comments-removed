@@ -1,9 +1,9 @@
 #
 ifndef
-_MOZILLA_GFX_DRAWTARGET_CAIRO_H_
+MOZILLA_GFX_DRAWTARGET_CAIRO_H_
 #
 define
-_MOZILLA_GFX_DRAWTARGET_CAIRO_H_
+MOZILLA_GFX_DRAWTARGET_CAIRO_H_
 #
 include
 "
@@ -177,10 +177,6 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 DrawTargetCairo
 override
 )
-friend
-class
-BorrowedXlibDrawable
-;
 DrawTargetCairo
 (
 )

@@ -1,9 +1,9 @@
 #
 ifndef
-__GFXMESSAGEUTILS_H__
+GFXMESSAGEUTILS_H_
 #
 define
-__GFXMESSAGEUTILS_H__
+GFXMESSAGEUTILS_H_
 #
 include
 "

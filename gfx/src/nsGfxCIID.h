@@ -1,9 +1,9 @@
 #
 ifndef
-nsGfxCIID_h__
+nsGfxCIID_h_
 #
 define
-nsGfxCIID_h__
+nsGfxCIID_h_
 #
 define
 NS_FONT_ENUMERATOR_CID

@@ -1,9 +1,9 @@
 #
 ifndef
-gfx_src_gfxTelemetry_h__
+gfx_src_gfxTelemetry_h_
 #
 define
-gfx_src_gfxTelemetry_h__
+gfx_src_gfxTelemetry_h_
 #
 include
 <

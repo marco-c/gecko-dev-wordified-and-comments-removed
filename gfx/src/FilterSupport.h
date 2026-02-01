@@ -1,9 +1,9 @@
 #
 ifndef
-__FilterSupport_h
+FilterSupport_h
 #
 define
-__FilterSupport_h
+FilterSupport_h
 #
 include
 "

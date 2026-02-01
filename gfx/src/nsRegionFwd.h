@@ -1,9 +1,9 @@
 #
 ifndef
-nsRegionFwd_h__
+nsRegionFwd_h_
 #
 define
-nsRegionFwd_h__
+nsRegionFwd_h_
 namespace
 mozilla
 {

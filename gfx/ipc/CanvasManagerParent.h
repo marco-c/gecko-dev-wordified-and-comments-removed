@@ -1,9 +1,9 @@
 #
 ifndef
-_include_gfx_ipc_CanvasManagerParent_h__
+_include_gfx_ipc_CanvasManagerParent_h_
 #
 define
-_include_gfx_ipc_CanvasManagerParent_h__
+_include_gfx_ipc_CanvasManagerParent_h_
 #
 include
 "

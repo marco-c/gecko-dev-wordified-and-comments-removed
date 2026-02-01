@@ -1,9 +1,9 @@
 #
 ifndef
-__FilterDescription_h
+FilterDescription_h
 #
 define
-__FilterDescription_h
+FilterDescription_h
 #
 include
 "

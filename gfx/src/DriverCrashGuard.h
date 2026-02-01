@@ -1,9 +1,9 @@
 #
 ifndef
-gfx_src_DriverCrashGuard_h__
+gfx_src_DriverCrashGuard_h_
 #
 define
-gfx_src_DriverCrashGuard_h__
+gfx_src_DriverCrashGuard_h_
 #
 include
 "

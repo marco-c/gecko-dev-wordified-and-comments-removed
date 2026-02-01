@@ -1,9 +1,9 @@
 #
 ifndef
-NSFONTMETRICS__H__
+NSFONTMETRICS_H_
 #
 define
-NSFONTMETRICS__H__
+NSFONTMETRICS_H_
 #
 include
 <
