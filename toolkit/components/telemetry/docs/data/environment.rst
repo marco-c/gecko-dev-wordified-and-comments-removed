@@ -3406,9 +3406,7 @@ field
 s
 contents
 are
-Services
-.
-search
+SearchService
 .
 defaultEngine
 .
@@ -3423,9 +3421,7 @@ other
 -
 "
 +
-Services
-.
-search
+SearchService
 .
 defaultEngine
 .

@@ -156,7 +156,7 @@ defined
 within
 Ci
 .
-nsISearchService
+nsIIOService
 .
 .
 .
@@ -168,7 +168,7 @@ block
 js
 Services
 .
-search
+io
 .
 foo
 (
@@ -228,7 +228,7 @@ defined
 within
 Ci
 .
-nsISearchService
+nsIIOService
 .
 .
 .
@@ -240,7 +240,7 @@ block
 js
 Services
 .
-search
+io
 .
 bar
 (
