@@ -738,6 +738,14 @@ const
 DOMHighResTimeStamp
 &
 aRenderTime
+const
+nsAString
+&
+aElement
+const
+nsACString
+&
+aImageURL
 )
 ;
 void
@@ -1003,6 +1011,12 @@ mozilla
 :
 TimeStamp
 mLargestContentfulRender
+;
+nsString
+mLCPElement
+;
+nsCString
+mLCPImageURL
 ;
 mozilla
 :
