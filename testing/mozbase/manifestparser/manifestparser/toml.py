@@ -2820,23 +2820,6 @@ i
 op
 )
             
-elif
-os_version
-=
-=
-"
-18
-.
-04
-"
-:
-                
-return
-(
-None
-new_conds
-)
-            
 else
 :
                 
