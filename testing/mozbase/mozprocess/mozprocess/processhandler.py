@@ -3387,7 +3387,9 @@ winprocess
 WAIT_OBJECT_0
 :
                         
-print
+self
+.
+debug
 (
 "
 Single
