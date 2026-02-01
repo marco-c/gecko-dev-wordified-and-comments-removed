@@ -74,7 +74,9 @@ else
 #
 include
 "
-BaseProfiler
+mozilla
+/
+Attributes
 .
 h
 "
@@ -83,7 +85,7 @@ include
 "
 mozilla
 /
-Attributes
+BaseProfiler
 .
 h
 "

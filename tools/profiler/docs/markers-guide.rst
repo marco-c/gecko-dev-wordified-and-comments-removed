@@ -1243,6 +1243,8 @@ markers
 #
 include
 "
+mozilla
+/
 BaseProfiler
 .
 h

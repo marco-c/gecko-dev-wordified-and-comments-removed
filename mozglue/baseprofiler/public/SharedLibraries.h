@@ -7,6 +7,8 @@ SHARED_LIBRARIES_H_
 #
 include
 "
+mozilla
+/
 BaseProfiler
 .
 h
@@ -20,13 +22,6 @@ algorithm
 include
 <
 stdint
-.
-h
->
-#
-include
-<
-stdlib
 .
 h
 >

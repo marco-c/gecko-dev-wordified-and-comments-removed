@@ -20,6 +20,8 @@ NonNative
 #
 include
 "
+mozilla
+/
 BaseProfileJSONWriter
 .
 h
@@ -27,6 +29,8 @@ h
 #
 include
 "
+mozilla
+/
 BaseProfilingCategory
 .
 h

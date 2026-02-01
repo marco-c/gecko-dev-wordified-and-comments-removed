@@ -104,6 +104,8 @@ endif
 #
 include
 "
+mozilla
+/
 BaseProfiler
 .
 h

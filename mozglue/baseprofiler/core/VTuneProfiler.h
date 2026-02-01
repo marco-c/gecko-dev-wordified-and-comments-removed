@@ -35,6 +35,8 @@ else
 #
 include
 "
+mozilla
+/
 BaseProfiler
 .
 h
@@ -48,13 +50,6 @@ ittnotify
 .
 h
 "
-#
-include
-<
-stddef
-.
-h
->
 #
 include
 <
