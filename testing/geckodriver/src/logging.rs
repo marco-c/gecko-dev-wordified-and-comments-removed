@@ -2360,6 +2360,10 @@ LEVEL_MUTEX
 lock
 (
 )
+.
+unwrap
+(
+)
 ;
 set_max_level
 (
@@ -2397,6 +2401,10 @@ _guard
 LEVEL_MUTEX
 .
 lock
+(
+)
+.
+unwrap
 (
 )
 ;
@@ -2456,6 +2464,10 @@ _guard
 LEVEL_MUTEX
 .
 lock
+(
+)
+.
+unwrap
 (
 )
 ;
