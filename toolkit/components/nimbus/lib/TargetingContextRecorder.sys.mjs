@@ -1486,17 +1486,6 @@ freeze
 "
 browser
 .
-ai
-.
-control
-.
-default
-"
-:
-PREF_BOOL
-"
-browser
-.
 newtabpage
 .
 activity
