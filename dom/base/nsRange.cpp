@@ -6446,10 +6446,6 @@ aPoint
 .
 AsRangeBoundaryInFlatTree
 (
-RangeBoundaryFor
-:
-:
-Start
 )
 )
 :
@@ -6530,10 +6526,6 @@ MayCrossShadowBoundaryEndRef
 .
 AsRangeBoundaryInFlatTree
 (
-RangeBoundaryFor
-:
-:
-End
 )
 )
 ;
@@ -6617,10 +6609,6 @@ MayCrossShadowBoundaryEndRef
 .
 AsRangeBoundaryInFlatTree
 (
-RangeBoundaryFor
-:
-:
-End
 )
 )
 ;
@@ -7024,10 +7012,6 @@ aPoint
 .
 AsRangeBoundaryInFlatTree
 (
-RangeBoundaryFor
-:
-:
-End
 )
 )
 :
@@ -7115,10 +7099,6 @@ MayCrossShadowBoundaryStartRef
 .
 AsRangeBoundaryInFlatTree
 (
-RangeBoundaryFor
-:
-:
-Start
 )
 pointInFlat
 .
@@ -7202,10 +7182,6 @@ MayCrossShadowBoundaryStartRef
 .
 AsRangeBoundaryInFlatTree
 (
-RangeBoundaryFor
-:
-:
-Start
 )
 pointInFlat
 .
