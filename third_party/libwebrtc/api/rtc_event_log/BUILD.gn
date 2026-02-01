@@ -153,6 +153,14 @@ rtc_base
 :
 timeutils
 "
+"
+.
+.
+/
+units
+:
+timestamp
+"
 ]
 }
 rtc_source_set
