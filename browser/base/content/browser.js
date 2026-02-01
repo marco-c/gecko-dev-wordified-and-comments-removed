@@ -10923,6 +10923,16 @@ updateBookmarkToolbarVisibility
 (
 )
 ;
+AIWindow
+.
+updateImmersiveView
+(
+gBrowser
+.
+currentURI
+window
+)
+;
 }
 let
 closeOpenPanels
