@@ -612,6 +612,15 @@ include
 "
 rtc_base
 /
+buffer
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 random
 .
 h
@@ -1094,6 +1103,11 @@ rtcp
 :
 ReportBlock
 NewReportBlock
+(
+)
+;
+Buffer
+NewRtcpPacket
 (
 )
 ;
