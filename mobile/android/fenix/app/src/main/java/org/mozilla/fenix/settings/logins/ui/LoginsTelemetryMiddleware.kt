@@ -260,7 +260,7 @@ isPasswordVisible
 {
 Logins
 .
-copyLogin
+viewPasswordLogin
 .
 record
 (
