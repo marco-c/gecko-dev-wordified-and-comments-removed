@@ -3781,8 +3781,6 @@ clientHeight
 Pass
 the
 width
-and
-height
 of
 the
 button
@@ -3867,6 +3865,17 @@ textContent
 "
 ;
 addNoteButton
+.
+setAttribute
+(
+"
+hidden
+"
+"
+"
+)
+;
+noteContainer
 .
 setAttribute
 (
