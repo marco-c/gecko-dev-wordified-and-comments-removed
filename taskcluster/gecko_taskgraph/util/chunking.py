@@ -697,6 +697,13 @@ processor
 "
 ]
 =
+info
+[
+"
+arch
+"
+]
+=
 platform_info
 .
 arch
