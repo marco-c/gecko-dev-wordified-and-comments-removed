@@ -7986,7 +7986,7 @@ addSetting
 id
 :
 "
-ipProtectionAdditionalLinks
+ipProtectionLinks
 "
 deps
 :
