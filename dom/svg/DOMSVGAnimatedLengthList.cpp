@@ -246,7 +246,10 @@ SVGElement
 aElement
 uint8_t
 aAttrEnum
-uint8_t
+SVGLength
+:
+:
+Axis
 aAxis
 )
 {

@@ -359,7 +359,10 @@ aInstance
 >
 GetPrimitiveNumber
 (
-SVGContentUtils
+SVGLength
+:
+:
+Axis
 :
 :
 X
@@ -382,7 +385,10 @@ aInstance
 >
 GetPrimitiveNumber
 (
-SVGContentUtils
+SVGLength
+:
+:
+Axis
 :
 :
 Y
@@ -423,7 +429,10 @@ aInstance
 >
 GetPrimitiveNumber
 (
-SVGContentUtils
+SVGLength
+:
+:
+Axis
 :
 :
 X
@@ -438,7 +447,10 @@ aInstance
 >
 GetPrimitiveNumber
 (
-SVGContentUtils
+SVGLength
+:
+:
+Axis
 :
 :
 Y
