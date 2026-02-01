@@ -351,9 +351,7 @@ fenix
 .
 compose
 .
-list
-.
-SwitchListItem
+SwitchWithLabel
 import
 org
 .
@@ -742,7 +740,7 @@ string
 glean_debug_tools_logging_title
 )
 )
-SwitchListItem
+SwitchWithLabel
 (
 label
 =
@@ -771,11 +769,8 @@ layout
 .
 space
 .
-dynamic150
+dynamic400
 )
-showSwitchAfter
-=
-true
 )
 {
 onLogPingsToConsoleToggled

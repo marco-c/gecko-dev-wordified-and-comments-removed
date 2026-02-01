@@ -329,9 +329,7 @@ fenix
 .
 compose
 .
-list
-.
-RadioButtonListItem
+SwitchWithLabel
 import
 org
 .
@@ -343,7 +341,7 @@ compose
 .
 list
 .
-SwitchListItem
+RadioButtonListItem
 import
 org
 .
@@ -850,7 +848,7 @@ forEach
 debugLocaleState
 -
 >
-SwitchListItem
+SwitchWithLabel
 (
 label
 =
@@ -864,10 +862,7 @@ checked
 debugLocaleState
 .
 enabled
-showSwitchAfter
-=
-true
-onClick
+onCheckedChange
 =
 {
 onRegionToggled
