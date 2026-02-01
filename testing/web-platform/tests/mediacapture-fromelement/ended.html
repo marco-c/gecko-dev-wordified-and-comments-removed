@@ -77,6 +77,7 @@ makeAsyncTest
 function
 (
 filename
+trackCount
 )
 {
 async_test
@@ -150,6 +151,11 @@ captureStream
 (
 )
 ;
+let
+trackRemovedCount
+=
+0
+;
 stream
 .
 onremovetrack
@@ -162,6 +168,16 @@ function
 (
 )
 {
+if
+(
++
++
+trackRemovedCount
+<
+trackCount
+)
+return
+;
 assert_true
 (
 video
@@ -254,6 +270,7 @@ v
 .
 webm
 "
+1
 ]
 [
 "
@@ -274,6 +291,7 @@ a
 .
 webm
 "
+1
 ]
 [
 "
@@ -300,6 +318,7 @@ av
 .
 webm
 "
+2
 ]
 ]
 )
