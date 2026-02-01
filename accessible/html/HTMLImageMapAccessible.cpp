@@ -603,9 +603,6 @@ IsEmpty
 return
 nameFlag
 ;
-if
-(
-!
 mContent
 -
 >
@@ -622,14 +619,7 @@ nsGkAtoms
 alt
 aName
 )
-)
-{
-Value
-(
-aName
-)
 ;
-}
 return
 eNameOK
 ;
