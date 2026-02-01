@@ -24390,7 +24390,6 @@ false
 }
 if
 (
-!
 IsNewChannelSameOrigin
 (
 aNewChannel
@@ -24398,7 +24397,7 @@ aNewChannel
 )
 {
 return
-true
+false
 ;
 }
 nsresult
