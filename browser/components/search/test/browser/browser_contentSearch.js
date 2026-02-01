@@ -345,7 +345,7 @@ Engine
 data
 :
 {
-isPrivateEngine
+inPrivateBrowsing
 :
 false
 engine
