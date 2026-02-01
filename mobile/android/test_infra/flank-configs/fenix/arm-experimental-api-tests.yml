@@ -220,6 +220,11 @@ version
 locale
 :
 en_US
+parameterized
+-
+tests
+:
+default
 flank
 :
 project
