@@ -535,6 +535,7 @@ spatial_tree
 frame_context
 .
 spatial_tree
+interned_clips
 fb_config
 :
 frame_context
@@ -778,6 +779,7 @@ spatial_tree
 frame_context
 .
 spatial_tree
+interned_clips
 fb_config
 :
 frame_context
