@@ -549,6 +549,11 @@ include
 locales
 .
 nsi
+!
+include
+installer_helpers
+.
+nsh
 VIAddVersionKey
 "
 FileDescription

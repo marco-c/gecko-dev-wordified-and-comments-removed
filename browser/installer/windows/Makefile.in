@@ -182,6 +182,12 @@ nsi
 \
 nsis
 /
+installer_helpers
+.
+nsh
+\
+nsis
+/
 uninstaller
 .
 nsi

@@ -53,6 +53,12 @@ MPL
 0
 /
 .
+!
+ifndef
+CONTROL_UTILS_NSH
+!
+define
+CONTROL_UTILS_NSH
 ;
 This
 is
@@ -214,3 +220,5 @@ SwapShellVarContext
 insertmacro
 SwapShellVarContext
 "
+!
+endif
