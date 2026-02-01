@@ -653,6 +653,11 @@ browserFlowScope
 browserStore
 .
 flowScoped
+(
+dispatcher
+=
+mainDispatcher
+)
 {
 flow
 -
