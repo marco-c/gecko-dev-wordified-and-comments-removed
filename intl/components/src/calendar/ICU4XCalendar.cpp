@@ -63,6 +63,8 @@ h
 #
 include
 "
+icu4x
+/
 diplomat_runtime
 .
 hpp
@@ -278,6 +280,9 @@ capi
 :
 icu4x_Date_from_codes_in_calendar_mv1
 (
+icu4x
+:
+:
 diplomat
 :
 :
@@ -298,6 +303,9 @@ length
 )
 }
 eraYear
+icu4x
+:
+:
 diplomat
 :
 :
@@ -1125,6 +1133,9 @@ buf
 auto
 writable
 =
+icu4x
+:
+:
 diplomat
 :
 :

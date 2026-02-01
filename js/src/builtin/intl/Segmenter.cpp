@@ -1314,6 +1314,9 @@ Latin1Char
 using
 StringView
 =
+icu4x
+:
+:
 diplomat
 :
 :
@@ -1412,6 +1415,9 @@ char16_t
 using
 StringView
 =
+icu4x
+:
+:
 diplomat
 :
 :
@@ -1573,6 +1579,9 @@ Latin1Char
 using
 StringView
 =
+icu4x
+:
+:
 diplomat
 :
 :
@@ -1672,6 +1681,9 @@ char16_t
 using
 StringView
 =
+icu4x
+:
+:
 diplomat
 :
 :
@@ -1834,6 +1846,9 @@ Latin1Char
 using
 StringView
 =
+icu4x
+:
+:
 diplomat
 :
 :
@@ -1932,6 +1947,9 @@ char16_t
 using
 StringView
 =
+icu4x
+:
+:
 diplomat
 :
 :
