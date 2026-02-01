@@ -541,6 +541,12 @@ HasScaleResolutionDownTo
 )
 const
 ;
+bool
+HasScaleResolutionDownBy
+(
+)
+const
+;
 SdpVideoFormat
 GetSimulcastVideoFormat
 (
