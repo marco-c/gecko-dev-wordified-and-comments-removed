@@ -17309,6 +17309,18 @@ pref
 "
 identity
 .
+tabs
+.
+remoteSVGIconDecoding
+"
+false
+)
+;
+pref
+(
+"
+identity
+.
 mobilepromo
 .
 android
@@ -20035,7 +20047,7 @@ tabs
 .
 remoteSVGIconDecoding
 "
-false
+true
 )
 ;
 pref
