@@ -31,6 +31,11 @@ disableFxaBadge
 )
 ;
 await
+ensureSearchIconVisible
+(
+)
+;
+await
 SpecialPowers
 .
 pushPrefEnv
