@@ -1363,9 +1363,6 @@ supportedSAPs
 :
 [
 "
-searchbar
-"
-"
 smartbar
 "
 "
