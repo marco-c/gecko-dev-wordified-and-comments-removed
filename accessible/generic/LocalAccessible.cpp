@@ -18437,11 +18437,6 @@ aria_valuetext
 else
 if
 (
-IsTextField
-(
-)
-|
-|
 IsHTMLLink
 (
 )
