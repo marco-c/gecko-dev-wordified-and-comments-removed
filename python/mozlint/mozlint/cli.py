@@ -1736,10 +1736,6 @@ time
 "
 )
         
-invalid
-=
-None
-        
 if
 args
 .
@@ -1767,37 +1763,11 @@ exists
 p
 )
 ]
-        
-if
-args
-.
-stdin_filename
-and
-not
-os
-.
-path
-.
-exists
-(
-args
-.
-stdin_filename
-)
-:
             
-invalid
-=
-[
-args
-.
-stdin_filename
-]
-        
 if
 invalid
 :
-            
+                
 s_do
 =
 "
@@ -1816,7 +1786,7 @@ else
 s
 do
 "
-            
+                
 invalid
 =
 "
@@ -1828,7 +1798,7 @@ join
 (
 invalid
 )
-            
+                
 self
 .
 error
