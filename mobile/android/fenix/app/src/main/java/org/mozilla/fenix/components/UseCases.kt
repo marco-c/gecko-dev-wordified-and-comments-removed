@@ -925,11 +925,9 @@ appStore
 appStore
 .
 value
-addNewTabUseCase
+tabsUseCases
 =
 tabsUseCases
-.
-addTab
 loadUrlUseCase
 =
 sessionUseCases
