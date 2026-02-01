@@ -1547,14 +1547,6 @@ android
 *
 /
 bin
-mobile
-/
-android
-/
-*
-*
-/
-generated
 #
 app
 -
