@@ -264,12 +264,8 @@ newValue
 match
 (
 /
-^
-(
 .
 *
-?
-)
 (
 devtools
 .
@@ -278,7 +274,7 @@ devtools
 /
 )
 [
-2
+1
 ]
 ;
 }
