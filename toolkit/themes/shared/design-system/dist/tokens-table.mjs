@@ -4276,7 +4276,7 @@ mix
 in
 srgb
 currentColor
-20
+6
 %
 transparent
 )
@@ -12530,7 +12530,7 @@ mix
 in
 srgb
 currentColor
-20
+6
 %
 transparent
 )
