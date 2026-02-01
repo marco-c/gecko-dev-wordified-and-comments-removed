@@ -3017,6 +3017,7 @@ dom
 Element
 &
 aElement
+const
 ComputedStyle
 &
 aStyle
