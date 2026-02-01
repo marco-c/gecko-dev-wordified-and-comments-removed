@@ -175,6 +175,14 @@ btn
 addEventListener
 (
 "
+aiwindow
+-
+memories
+-
+toggle
+:
+on
+-
 change
 "
 e
