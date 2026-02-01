@@ -1,4 +1,10 @@
 #
+ifndef
+DOM_MEDIA_WEBRTC_LIBWEBRTC_OVERRIDES_COMMON_AUDIO_INTRIN_H_
+#
+define
+DOM_MEDIA_WEBRTC_LIBWEBRTC_OVERRIDES_COMMON_AUDIO_INTRIN_H_
+#
 if
 defined
 (
@@ -38,6 +44,8 @@ fmaintrin
 .
 h
 >
+#
+endif
 #
 endif
 #

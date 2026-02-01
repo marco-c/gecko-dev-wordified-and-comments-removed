@@ -1,4 +1,10 @@
 #
+ifndef
+DOM_GAMEPAD_IPC_GAMEPADTESTCHANNELPARENT_H_
+#
+define
+DOM_GAMEPAD_IPC_GAMEPADTESTCHANNELPARENT_H_
+#
 include
 "
 mozilla
@@ -164,5 +170,7 @@ mDeferredGamepadAdded
 }
 ;
 }
+#
+endif
 #
 endif

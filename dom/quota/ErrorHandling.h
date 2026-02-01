@@ -1,4 +1,10 @@
 #
+ifndef
+DOM_QUOTA_ERRORHANDLING_H_
+#
+define
+DOM_QUOTA_ERRORHANDLING_H_
+#
 include
 "
 ErrorList
@@ -172,3 +178,5 @@ UsageInfoResponseResolver
 >
 ;
 }
+#
+endif

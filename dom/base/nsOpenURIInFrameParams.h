@@ -1,4 +1,10 @@
 #
+ifndef
+DOM_BASE_NSOPENURIINFRAMEPARAMS_H_
+#
+define
+DOM_BASE_NSOPENURIINFRAMEPARAMS_H_
+#
 include
 "
 mozilla
@@ -143,3 +149,5 @@ mPolicyContainer
 ;
 }
 ;
+#
+endif

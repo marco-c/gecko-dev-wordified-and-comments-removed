@@ -1,11 +1,4 @@
 #
-include
-"
-Intervals
-.
-h
-"
-#
 if
 !
 defined
@@ -24,6 +17,13 @@ ogg
 .
 h
 >
+#
+include
+"
+Intervals
+.
+h
+"
 #
 include
 <

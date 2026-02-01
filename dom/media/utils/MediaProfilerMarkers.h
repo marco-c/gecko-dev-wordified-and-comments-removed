@@ -1,4 +1,10 @@
 #
+ifndef
+DOM_MEDIA_UTILS_MEDIAPROFILERMARKERS_H_
+#
+define
+DOM_MEDIA_UTILS_MEDIAPROFILERMARKERS_H_
+#
 include
 "
 mozilla
@@ -2060,3 +2066,5 @@ aFlow
 }
 ;
 }
+#
+endif

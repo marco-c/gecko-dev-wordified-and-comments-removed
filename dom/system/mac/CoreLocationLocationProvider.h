@@ -1,4 +1,10 @@
 #
+ifndef
+DOM_SYSTEM_MAC_CORELOCATIONLOCATIONPROVIDER_H_
+#
+define
+DOM_SYSTEM_MAC_CORELOCATIONLOCATIONPROVIDER_H_
+#
 include
 "
 mozilla
@@ -144,3 +150,5 @@ default
 ;
 }
 ;
+#
+endif

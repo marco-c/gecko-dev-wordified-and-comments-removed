@@ -1,4 +1,10 @@
 #
+ifndef
+DOM_MEDIA_FAKE_CDM_CDM_TEST_OUTPUT_PROTECTION_H_
+#
+define
+DOM_MEDIA_FAKE_CDM_CDM_TEST_OUTPUT_PROTECTION_H_
+#
 if
 defined
 (
@@ -637,3 +643,5 @@ completed
 ;
 }
 }
+#
+endif

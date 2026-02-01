@@ -1,4 +1,10 @@
 #
+ifndef
+mozilla_dom_GamepadEventChannelParent_h_
+#
+define
+mozilla_dom_GamepadEventChannelParent_h_
+#
 include
 "
 mozilla
@@ -9,12 +15,6 @@ PGamepadEventChannelParent
 .
 h
 "
-#
-ifndef
-mozilla_dom_GamepadEventChannelParent_h_
-#
-define
-mozilla_dom_GamepadEventChannelParent_h_
 namespace
 mozilla
 :

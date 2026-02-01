@@ -1,4 +1,10 @@
 #
+ifndef
+DOM_MIDI_MIDIUTILS_H_
+#
+define
+DOM_MIDI_MIDIUTILS_H_
+#
 include
 "
 mozilla
@@ -59,3 +65,5 @@ a
 ;
 }
 }
+#
+endif

@@ -1,4 +1,10 @@
 #
+ifndef
+DOM_MEDIA_PACER_H_
+#
+define
+DOM_MEDIA_PACER_H_
+#
 include
 "
 MediaEventSource
@@ -19,12 +25,6 @@ nsDeque
 .
 h
 "
-#
-ifndef
-DOM_MEDIA_PACER_H_
-#
-define
-DOM_MEDIA_PACER_H_
 extern
 mozilla
 :

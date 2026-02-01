@@ -1,4 +1,10 @@
 #
+ifndef
+DOM_SYSTEM_NSHAPTICFEEDBACK_H_
+#
+define
+DOM_SYSTEM_NSHAPTICFEEDBACK_H_
+#
 include
 "
 nsIHapticFeedback
@@ -26,3 +32,5 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIHAPTICFEEDBACK
 }
 ;
+#
+endif

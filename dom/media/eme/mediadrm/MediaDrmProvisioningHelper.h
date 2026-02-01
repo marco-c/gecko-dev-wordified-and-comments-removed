@@ -1,4 +1,10 @@
 #
+ifndef
+DOM_MEDIA_EME_MEDIADRM_MEDIADRMPROVISIONINGHELPER_H_
+#
+define
+DOM_MEDIA_EME_MEDIADRM_MEDIADRMPROVISIONINGHELPER_H_
+#
 include
 "
 mozilla
@@ -211,3 +217,5 @@ mResolver
 }
 ;
 }
+#
+endif
