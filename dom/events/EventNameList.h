@@ -1160,6 +1160,13 @@ eBasicEventClass
 )
 WINDOW_EVENT
 (
+pagereveal
+ePageReveal
+EventNameType_HTMLBodyOrFramesetOnly
+eBasicEventClass
+)
+WINDOW_EVENT
+(
 pageshow
 ePageShow
 EventNameType_HTMLBodyOrFramesetOnly
