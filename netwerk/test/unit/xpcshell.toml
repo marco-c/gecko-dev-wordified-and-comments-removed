@@ -11605,6 +11605,13 @@ js
 ]
 [
 "
+test_wallpaper_protocol
+.
+js
+"
+]
+[
+"
 test_websocket_500k
 .
 js
