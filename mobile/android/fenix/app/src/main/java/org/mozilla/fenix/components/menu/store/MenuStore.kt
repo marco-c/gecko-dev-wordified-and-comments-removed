@@ -255,10 +255,6 @@ OnCFRShown
 is
 MenuAction
 .
-OpenInRegularTab
-is
-MenuAction
-.
 OnCFRDismiss
 -
 >

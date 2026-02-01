@@ -2164,13 +2164,6 @@ useCases
 sessionUseCases
 .
 requestDesktopSite
-tabsUseCases
-=
-components
-.
-useCases
-.
-tabsUseCases
 materialAlertDialogBuilder
 =
 MaterialAlertDialogBuilder
