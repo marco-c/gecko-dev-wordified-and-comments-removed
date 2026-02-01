@@ -313,6 +313,13 @@ false
 clearTelemetry
 :
 true
+migrationState
+:
+NimbusTestUtils
+.
+migrationState
+.
+UNMIGRATED
 .
 .
 .
