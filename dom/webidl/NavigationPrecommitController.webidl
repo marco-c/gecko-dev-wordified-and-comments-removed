@@ -151,16 +151,6 @@ options
 }
 )
 ;
-[
-Throws
-]
-undefined
-addHandler
-(
-NavigationInterceptHandler
-handler
-)
-;
 }
 ;
 callback
