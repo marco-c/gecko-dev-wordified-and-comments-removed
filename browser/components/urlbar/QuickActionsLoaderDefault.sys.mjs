@@ -1905,6 +1905,16 @@ isVisible
 >
 {
 return
+(
+lazy
+.
+TranslationsParent
+.
+AIFeature
+.
+isEnabled
+&
+&
 Services
 .
 prefs
@@ -1921,6 +1931,7 @@ quickAction
 enabled
 "
 false
+)
 )
 ;
 }
