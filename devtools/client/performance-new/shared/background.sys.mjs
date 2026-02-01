@@ -1562,9 +1562,11 @@ startup
 /
 DevToolsStartup
 .
-jsm
-when
+sys
+.
+mjs
 *
+when
 using
 the
 shortcut
@@ -1726,9 +1728,11 @@ startup
 /
 DevToolsStartup
 .
-jsm
-when
+sys
+.
+mjs
 *
+when
 using
 the
 shortcut
