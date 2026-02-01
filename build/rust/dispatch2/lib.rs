@@ -1,0 +1,13 @@
+compile_error
+!
+(
+"
+The
+dispatch2
+crate
+is
+not
+available
+"
+)
+;
