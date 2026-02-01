@@ -981,6 +981,13 @@ ByteBuf
 buf
 )
 ;
+async
+ReportGLStrings
+(
+GfxInfoGLStrings
+aStrings
+)
+;
 }
 ;
 }

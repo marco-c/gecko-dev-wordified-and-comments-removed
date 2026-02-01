@@ -185,6 +185,15 @@ NotifyDisableRemoteCanvas
 (
 )
 ;
+void
+ReportGLStrings
+(
+GfxInfoGLStrings
+&
+&
+aStrings
+)
+;
 mozilla
 :
 :
