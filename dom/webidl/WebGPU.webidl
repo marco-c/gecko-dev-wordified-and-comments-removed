@@ -3808,6 +3808,7 @@ required
 sequence
 <
 GPUColorTargetState
+?
 >
 targets
 ;
@@ -5028,6 +5029,7 @@ required
 sequence
 <
 GPURenderPassColorAttachment
+?
 >
 colorAttachments
 ;
@@ -5150,6 +5152,7 @@ required
 sequence
 <
 GPUTextureFormat
+?
 >
 colorFormats
 ;
