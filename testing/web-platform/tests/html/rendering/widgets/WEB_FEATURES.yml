@@ -24,3 +24,17 @@ files
 textarea
 -
 *
+-
+name
+:
+input
+-
+password
+files
+:
+-
+input
+-
+password
+-
+*
