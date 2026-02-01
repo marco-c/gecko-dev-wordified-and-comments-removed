@@ -45,6 +45,13 @@ js
 ]
 [
 "
+test_settings_utils
+.
+js
+"
+]
+[
+"
 test_tabs_to_process
 .
 js
