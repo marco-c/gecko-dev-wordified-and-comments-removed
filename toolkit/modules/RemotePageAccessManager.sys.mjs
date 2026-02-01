@@ -443,6 +443,13 @@ RPMGetHostForDisplay
 *
 "
 ]
+RPMGetInnermostAsciiHost
+:
+[
+"
+*
+"
+]
 RPMIsWindowPrivate
 :
 [
@@ -777,6 +784,13 @@ v1
 "
 ]
 RPMGetHostForDisplay
+:
+[
+"
+*
+"
+]
+RPMGetInnermostAsciiHost
 :
 [
 "

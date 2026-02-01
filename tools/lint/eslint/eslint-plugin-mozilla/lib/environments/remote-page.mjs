@@ -99,6 +99,11 @@ RPMGetHostForDisplay
 "
 readonly
 "
+RPMGetInnermostAsciiHost
+:
+"
+readonly
+"
 RPMGetIntPref
 :
 "
