@@ -128,6 +128,12 @@ UrgentStartQueueLength
 (
 )
 ;
+bool
+UrgentStartQueueIsEmpty
+(
+)
+const
+;
 void
 PrintPendingQ
 (
@@ -618,6 +624,12 @@ PendingQueueLengthForWindow
 (
 uint64_t
 windowId
+)
+const
+;
+bool
+PendingQueueIsEmpty
+(
 )
 const
 ;

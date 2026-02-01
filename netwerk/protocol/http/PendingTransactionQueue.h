@@ -166,6 +166,12 @@ windowId
 )
 const
 ;
+bool
+PendingQueueIsEmpty
+(
+)
+const
+;
 void
 RemoveEmptyPendingQ
 (
@@ -183,6 +189,12 @@ size_t
 UrgentStartQueueLength
 (
 )
+;
+bool
+UrgentStartQueueIsEmpty
+(
+)
+const
 ;
 void
 PrintPendingQ
