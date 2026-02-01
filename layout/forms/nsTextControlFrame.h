@@ -1,9 +1,9 @@
 #
 ifndef
-nsTextControlFrame_h___
+nsTextControlFrame_h_
 #
 define
-nsTextControlFrame_h___
+nsTextControlFrame_h_
 #
 include
 "

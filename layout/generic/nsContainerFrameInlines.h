@@ -1,9 +1,9 @@
 #
 ifndef
-nsContainerFrameInlines_h___
+nsContainerFrameInlines_h_
 #
 define
-nsContainerFrameInlines_h___
+nsContainerFrameInlines_h_
 #
 include
 "

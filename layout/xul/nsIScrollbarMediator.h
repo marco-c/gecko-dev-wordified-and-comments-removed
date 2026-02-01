@@ -1,9 +1,9 @@
 #
 ifndef
-nsIScrollbarMediator_h___
+nsIScrollbarMediator_h_
 #
 define
-nsIScrollbarMediator_h___
+nsIScrollbarMediator_h_
 #
 include
 "

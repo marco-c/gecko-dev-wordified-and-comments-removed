@@ -1,9 +1,9 @@
 #
 ifndef
-nsGenConList_h___
+nsGenConList_h_
 #
 define
-nsGenConList_h___
+nsGenConList_h_
 #
 include
 <

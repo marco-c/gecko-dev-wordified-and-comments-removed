@@ -1,9 +1,9 @@
 #
 ifndef
-nsStyleChangeList_h___
+nsStyleChangeList_h_
 #
 define
-nsStyleChangeList_h___
+nsStyleChangeList_h_
 #
 include
 "

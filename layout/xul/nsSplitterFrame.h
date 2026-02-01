@@ -1,9 +1,9 @@
 #
 ifndef
-nsSplitterFrame_h__
+nsSplitterFrame_h_
 #
 define
-nsSplitterFrame_h__
+nsSplitterFrame_h_
 #
 include
 "

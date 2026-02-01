@@ -1,9 +1,9 @@
 #
 ifndef
-nsNumberControlFrame_h__
+nsNumberControlFrame_h_
 #
 define
-nsNumberControlFrame_h__
+nsNumberControlFrame_h_
 #
 include
 "

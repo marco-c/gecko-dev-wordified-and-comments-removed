@@ -1,9 +1,9 @@
 #
 ifndef
-nsXULPopupManager_h__
+nsXULPopupManager_h_
 #
 define
-nsXULPopupManager_h__
+nsXULPopupManager_h_
 #
 include
 "

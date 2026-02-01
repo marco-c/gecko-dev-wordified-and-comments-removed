@@ -1,9 +1,9 @@
 #
 ifndef
-nsLeafFrame_h___
+nsLeafFrame_h_
 #
 define
-nsLeafFrame_h___
+nsLeafFrame_h_
 #
 include
 "

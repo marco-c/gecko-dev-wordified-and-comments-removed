@@ -1,9 +1,9 @@
 #
 ifndef
-nsCSSRendering_h___
+nsCSSRendering_h_
 #
 define
-nsCSSRendering_h___
+nsCSSRendering_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsImageFrame_h___
+nsImageFrame_h_
 #
 define
-nsImageFrame_h___
+nsImageFrame_h_
 #
 include
 "

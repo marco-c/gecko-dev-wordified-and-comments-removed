@@ -1,9 +1,9 @@
 #
 ifndef
-nsCSSPropertyIDSet_h__
+nsCSSPropertyIDSet_h_
 #
 define
-nsCSSPropertyIDSet_h__
+nsCSSPropertyIDSet_h_
 #
 include
 <

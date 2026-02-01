@@ -1,9 +1,9 @@
 #
 ifndef
-nsCSSProps_h___
+nsCSSProps_h_
 #
 define
-nsCSSProps_h___
+nsCSSProps_h_
 #
 include
 <

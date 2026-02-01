@@ -1,9 +1,9 @@
 #
 ifndef
-nsROCSSPrimitiveValue_h___
+nsROCSSPrimitiveValue_h_
 #
 define
-nsROCSSPrimitiveValue_h___
+nsROCSSPrimitiveValue_h_
 #
 include
 "

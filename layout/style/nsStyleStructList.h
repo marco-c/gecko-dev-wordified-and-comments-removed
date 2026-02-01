@@ -1,9 +1,9 @@
 #
 ifndef
-nsStyleStructList_h__
+nsStyleStructList_h_
 #
 define
-nsStyleStructList_h__
+nsStyleStructList_h_
 #
 define
 FOR_EACH_STYLE_STRUCT

@@ -1,9 +1,9 @@
 #
 ifndef
-nsMathMLAtoms_h___
+nsMathMLAtoms_h_
 #
 define
-nsMathMLAtoms_h___
+nsMathMLAtoms_h_
 #
 include
 "

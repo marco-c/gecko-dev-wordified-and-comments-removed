@@ -1,9 +1,9 @@
 #
 ifndef
-nsTreeStyleCache_h__
+nsTreeStyleCache_h_
 #
 define
-nsTreeStyleCache_h__
+nsTreeStyleCache_h_
 #
 include
 "

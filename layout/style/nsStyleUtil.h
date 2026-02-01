@@ -1,9 +1,9 @@
 #
 ifndef
-nsStyleUtil_h___
+nsStyleUtil_h_
 #
 define
-nsStyleUtil_h___
+nsStyleUtil_h_
 #
 include
 "

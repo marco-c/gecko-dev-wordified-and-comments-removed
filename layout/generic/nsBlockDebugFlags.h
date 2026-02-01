@@ -1,9 +1,9 @@
 #
 ifndef
-nsBlockDebugFlags_h__
+nsBlockDebugFlags_h_
 #
 define
-nsBlockDebugFlags_h__
+nsBlockDebugFlags_h_
 #
 undef
 NOISY_FIRST_LETTER

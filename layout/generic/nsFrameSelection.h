@@ -1,9 +1,9 @@
 #
 ifndef
-nsFrameSelection_h___
+nsFrameSelection_h_
 #
 define
-nsFrameSelection_h___
+nsFrameSelection_h_
 #
 include
 <

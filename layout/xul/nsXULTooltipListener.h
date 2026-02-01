@@ -1,9 +1,9 @@
 #
 ifndef
-nsXULTooltipListener_h__
+nsXULTooltipListener_h_
 #
 define
-nsXULTooltipListener_h__
+nsXULTooltipListener_h_
 #
 include
 "

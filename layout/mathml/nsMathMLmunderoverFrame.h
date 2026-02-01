@@ -1,9 +1,9 @@
 #
 ifndef
-nsMathMLmunderoverFrame_h___
+nsMathMLmunderoverFrame_h_
 #
 define
-nsMathMLmunderoverFrame_h___
+nsMathMLmunderoverFrame_h_
 #
 include
 "

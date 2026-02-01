@@ -1,9 +1,9 @@
 #
 ifndef
-nsRubyFrame_h___
+nsRubyFrame_h_
 #
 define
-nsRubyFrame_h___
+nsRubyFrame_h_
 #
 include
 "

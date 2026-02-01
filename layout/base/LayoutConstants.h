@@ -1,9 +1,9 @@
 #
 ifndef
-LayoutConstants_h___
+LayoutConstants_h_
 #
 define
-LayoutConstants_h___
+LayoutConstants_h_
 #
 include
 "

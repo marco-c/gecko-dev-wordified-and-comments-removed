@@ -1,9 +1,9 @@
 #
 ifndef
-nsICSSDeclaration_h__
+nsICSSDeclaration_h_
 #
 define
-nsICSSDeclaration_h__
+nsICSSDeclaration_h_
 #
 include
 "

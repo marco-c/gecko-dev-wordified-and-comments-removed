@@ -1,9 +1,9 @@
 #
 ifndef
-nsChangeHint_h___
+nsChangeHint_h_
 #
 define
-nsChangeHint_h___
+nsChangeHint_h_
 #
 include
 "

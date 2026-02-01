@@ -1,9 +1,9 @@
 #
 ifndef
-nsFileControlFrame_h___
+nsFileControlFrame_h_
 #
 define
-nsFileControlFrame_h___
+nsFileControlFrame_h_
 #
 include
 "

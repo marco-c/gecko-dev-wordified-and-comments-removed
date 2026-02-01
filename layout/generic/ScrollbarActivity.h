@@ -1,9 +1,9 @@
 #
 ifndef
-ScrollbarActivity_h___
+ScrollbarActivity_h_
 #
 define
-ScrollbarActivity_h___
+ScrollbarActivity_h_
 #
 include
 "

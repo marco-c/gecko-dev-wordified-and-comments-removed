@@ -1,9 +1,9 @@
 #
 ifndef
-nsMathMLChar_h___
+nsMathMLChar_h_
 #
 define
-nsMathMLChar_h___
+nsMathMLChar_h_
 #
 include
 "

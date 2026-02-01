@@ -1,9 +1,9 @@
 #
 ifndef
-nsHTMLCanvasFrame_h___
+nsHTMLCanvasFrame_h_
 #
 define
-nsHTMLCanvasFrame_h___
+nsHTMLCanvasFrame_h_
 #
 include
 "

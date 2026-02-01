@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_SharedSubResourceCache_h__
+mozilla_SharedSubResourceCache_h_
 #
 define
-mozilla_SharedSubResourceCache_h__
+mozilla_SharedSubResourceCache_h_
 #
 include
 "

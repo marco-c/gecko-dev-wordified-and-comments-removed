@@ -1,9 +1,9 @@
 #
 ifndef
-nsContentDLF_h__
+nsContentDLF_h_
 #
 define
-nsContentDLF_h__
+nsContentDLF_h_
 #
 include
 "

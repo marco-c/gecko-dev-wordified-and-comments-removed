@@ -1,9 +1,9 @@
 #
 ifndef
-nsColorControlFrame_h___
+nsColorControlFrame_h_
 #
 define
-nsColorControlFrame_h___
+nsColorControlFrame_h_
 #
 include
 "

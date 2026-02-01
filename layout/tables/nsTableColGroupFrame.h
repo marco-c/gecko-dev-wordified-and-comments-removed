@@ -1,9 +1,9 @@
 #
 ifndef
-nsTableColGroupFrame_h__
+nsTableColGroupFrame_h_
 #
 define
-nsTableColGroupFrame_h__
+nsTableColGroupFrame_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsCSSPseudoElements_h___
+nsCSSPseudoElements_h_
 #
 define
-nsCSSPseudoElements_h___
+nsCSSPseudoElements_h_
 #
 include
 "

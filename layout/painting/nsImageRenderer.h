@@ -1,9 +1,9 @@
 #
 ifndef
-nsImageRenderer_h__
+nsImageRenderer_h_
 #
 define
-nsImageRenderer_h__
+nsImageRenderer_h_
 #
 include
 "

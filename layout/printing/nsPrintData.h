@@ -1,9 +1,9 @@
 #
 ifndef
-nsPrintData_h___
+nsPrintData_h_
 #
 define
-nsPrintData_h___
+nsPrintData_h_
 #
 include
 "

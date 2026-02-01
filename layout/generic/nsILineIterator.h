@@ -1,9 +1,9 @@
 #
 ifndef
-nsILineIterator_h___
+nsILineIterator_h_
 #
 define
-nsILineIterator_h___
+nsILineIterator_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsDateTimeControlFrame_h__
+nsDateTimeControlFrame_h_
 #
 define
-nsDateTimeControlFrame_h__
+nsDateTimeControlFrame_h_
 #
 include
 "

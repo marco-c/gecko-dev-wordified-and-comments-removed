@@ -1,9 +1,9 @@
 #
 ifndef
-InspectorCSSParser_h___
+InspectorCSSParser_h_
 #
 define
-InspectorCSSParser_h___
+InspectorCSSParser_h_
 #
 include
 "

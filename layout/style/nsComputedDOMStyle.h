@@ -1,9 +1,9 @@
 #
 ifndef
-nsComputedDOMStyle_h__
+nsComputedDOMStyle_h_
 #
 define
-nsComputedDOMStyle_h__
+nsComputedDOMStyle_h_
 #
 include
 "

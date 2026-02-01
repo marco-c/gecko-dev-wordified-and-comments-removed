@@ -1,9 +1,9 @@
 #
 ifndef
-nsVideoFrame_h___
+nsVideoFrame_h_
 #
 define
-nsVideoFrame_h___
+nsVideoFrame_h_
 #
 include
 "

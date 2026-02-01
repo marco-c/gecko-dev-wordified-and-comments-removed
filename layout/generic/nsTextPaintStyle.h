@@ -1,9 +1,9 @@
 #
 ifndef
-nsTextPaintStyle_h__
+nsTextPaintStyle_h_
 #
 define
-nsTextPaintStyle_h__
+nsTextPaintStyle_h_
 #
 include
 "

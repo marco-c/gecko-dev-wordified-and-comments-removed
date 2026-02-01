@@ -1,9 +1,9 @@
 #
 ifndef
-nsCSSVisitedDependentPropList_h__
+nsCSSVisitedDependentPropList_h_
 #
 define
-nsCSSVisitedDependentPropList_h__
+nsCSSVisitedDependentPropList_h_
 #
 define
 FOR_EACH_VISITED_DEPENDENT_STYLE_STRUCT

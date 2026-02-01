@@ -1,9 +1,9 @@
 #
 ifndef
-nsRangeFrame_h___
+nsRangeFrame_h_
 #
 define
-nsRangeFrame_h___
+nsRangeFrame_h_
 #
 include
 "

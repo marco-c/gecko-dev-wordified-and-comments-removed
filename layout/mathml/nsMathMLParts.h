@@ -1,9 +1,9 @@
 #
 ifndef
-nsMathMLParts_h___
+nsMathMLParts_h_
 #
 define
-nsMathMLParts_h___
+nsMathMLParts_h_
 #
 include
 "

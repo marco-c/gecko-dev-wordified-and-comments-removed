@@ -1,9 +1,9 @@
 #
 ifndef
-nsListControlFrame_h___
+nsListControlFrame_h_
 #
 define
-nsListControlFrame_h___
+nsListControlFrame_h_
 #
 include
 "

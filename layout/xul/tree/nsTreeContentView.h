@@ -1,9 +1,9 @@
 #
 ifndef
-nsTreeContentView_h__
+nsTreeContentView_h_
 #
 define
-nsTreeContentView_h__
+nsTreeContentView_h_
 #
 include
 "

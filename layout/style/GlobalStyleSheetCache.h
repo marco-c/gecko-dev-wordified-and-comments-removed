@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_GlobalStyleSheetCache_h__
+mozilla_GlobalStyleSheetCache_h_
 #
 define
-mozilla_GlobalStyleSheetCache_h__
+mozilla_GlobalStyleSheetCache_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsPageFrame_h___
+nsPageFrame_h_
 #
 define
-nsPageFrame_h___
+nsPageFrame_h_
 #
 include
 "

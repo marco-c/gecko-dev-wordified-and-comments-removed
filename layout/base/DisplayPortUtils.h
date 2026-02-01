@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_DisplayPortUtils_h__
+mozilla_DisplayPortUtils_h_
 #
 define
-mozilla_DisplayPortUtils_h__
+mozilla_DisplayPortUtils_h_
 #
 include
 <

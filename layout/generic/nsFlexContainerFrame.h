@@ -1,9 +1,9 @@
 #
 ifndef
-nsFlexContainerFrame_h___
+nsFlexContainerFrame_h_
 #
 define
-nsFlexContainerFrame_h___
+nsFlexContainerFrame_h_
 #
 include
 <

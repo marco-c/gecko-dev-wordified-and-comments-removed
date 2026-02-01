@@ -1,9 +1,9 @@
 #
 ifndef
-nsFieldSetFrame_h___
+nsFieldSetFrame_h_
 #
 define
-nsFieldSetFrame_h___
+nsFieldSetFrame_h_
 #
 include
 "

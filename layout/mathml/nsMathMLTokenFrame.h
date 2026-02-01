@@ -1,9 +1,9 @@
 #
 ifndef
-nsMathMLTokenFrame_h___
+nsMathMLTokenFrame_h_
 #
 define
-nsMathMLTokenFrame_h___
+nsMathMLTokenFrame_h_
 #
 include
 "

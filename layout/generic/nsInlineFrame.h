@@ -1,9 +1,9 @@
 #
 ifndef
-nsInlineFrame_h___
+nsInlineFrame_h_
 #
 define
-nsInlineFrame_h___
+nsInlineFrame_h_
 #
 include
 "

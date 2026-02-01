@@ -1,9 +1,9 @@
 #
 ifndef
-nsBlockFrame_h___
+nsBlockFrame_h_
 #
 define
-nsBlockFrame_h___
+nsBlockFrame_h_
 #
 include
 "

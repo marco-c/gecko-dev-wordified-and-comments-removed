@@ -1,9 +1,9 @@
 #
 ifndef
-nsIPercentBSizeObserver_h___
+nsIPercentBSizeObserver_h_
 #
 define
-nsIPercentBSizeObserver_h___
+nsIPercentBSizeObserver_h_
 #
 include
 "

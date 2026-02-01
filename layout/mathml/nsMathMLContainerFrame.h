@@ -1,9 +1,9 @@
 #
 ifndef
-nsMathMLContainerFrame_h___
+nsMathMLContainerFrame_h_
 #
 define
-nsMathMLContainerFrame_h___
+nsMathMLContainerFrame_h_
 #
 include
 "

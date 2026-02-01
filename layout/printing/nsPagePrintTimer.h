@@ -1,9 +1,9 @@
 #
 ifndef
-nsPagePrintTimer_h___
+nsPagePrintTimer_h_
 #
 define
-nsPagePrintTimer_h___
+nsPagePrintTimer_h_
 #
 include
 "

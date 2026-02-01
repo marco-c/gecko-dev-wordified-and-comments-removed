@@ -1,9 +1,9 @@
 #
 ifndef
-nsTreeImageListener_h__
+nsTreeImageListener_h_
 #
 define
-nsTreeImageListener_h__
+nsTreeImageListener_h_
 #
 include
 "

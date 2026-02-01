@@ -1,9 +1,9 @@
 #
 ifndef
-nsMenuPopupFrame_h__
+nsMenuPopupFrame_h_
 #
 define
-nsMenuPopupFrame_h__
+nsMenuPopupFrame_h_
 #
 include
 "

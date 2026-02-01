@@ -1,9 +1,9 @@
 #
 ifndef
-nsISelectControlFrame_h___
+nsISelectControlFrame_h_
 #
 define
-nsISelectControlFrame_h___
+nsISelectControlFrame_h_
 #
 include
 "

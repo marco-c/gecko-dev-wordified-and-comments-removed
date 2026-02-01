@@ -1,9 +1,9 @@
 #
 ifndef
-__inDeepTreeWalker_h___
+_inDeepTreeWalker_h_
 #
 define
-__inDeepTreeWalker_h___
+_inDeepTreeWalker_h_
 #
 include
 "

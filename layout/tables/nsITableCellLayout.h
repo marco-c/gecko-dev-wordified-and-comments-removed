@@ -1,9 +1,9 @@
 #
 ifndef
-nsITableCellLayout_h__
+nsITableCellLayout_h_
 #
 define
-nsITableCellLayout_h__
+nsITableCellLayout_h_
 #
 include
 "

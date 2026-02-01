@@ -1,9 +1,9 @@
 #
 ifndef
-nsPlaceholderFrame_h___
+nsPlaceholderFrame_h_
 #
 define
-nsPlaceholderFrame_h___
+nsPlaceholderFrame_h_
 #
 include
 "

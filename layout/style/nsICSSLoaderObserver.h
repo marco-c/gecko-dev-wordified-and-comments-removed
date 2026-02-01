@@ -1,9 +1,9 @@
 #
 ifndef
-nsICSSLoaderObserver_h___
+nsICSSLoaderObserver_h_
 #
 define
-nsICSSLoaderObserver_h___
+nsICSSLoaderObserver_h_
 #
 include
 "

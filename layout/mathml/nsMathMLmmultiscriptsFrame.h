@@ -1,9 +1,9 @@
 #
 ifndef
-nsMathMLmmultiscriptsFrame_h___
+nsMathMLmmultiscriptsFrame_h_
 #
 define
-nsMathMLmmultiscriptsFrame_h___
+nsMathMLmmultiscriptsFrame_h_
 #
 include
 "

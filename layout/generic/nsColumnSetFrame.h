@@ -1,9 +1,9 @@
 #
 ifndef
-nsColumnSetFrame_h___
+nsColumnSetFrame_h_
 #
 define
-nsColumnSetFrame_h___
+nsColumnSetFrame_h_
 #
 include
 "

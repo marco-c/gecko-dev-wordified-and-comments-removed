@@ -1,9 +1,9 @@
 #
 ifndef
-nsIReflowCallback_h___
+nsIReflowCallback_h_
 #
 define
-nsIReflowCallback_h___
+nsIReflowCallback_h_
 class
 nsIReflowCallback
 {

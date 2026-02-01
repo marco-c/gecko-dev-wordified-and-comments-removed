@@ -1,9 +1,9 @@
 #
 ifndef
-nsCSSValue_h___
+nsCSSValue_h_
 #
 define
-nsCSSValue_h___
+nsCSSValue_h_
 #
 include
 "

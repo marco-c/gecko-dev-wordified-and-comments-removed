@@ -1,9 +1,9 @@
 #
 ifndef
-nsCompatibility_h___
+nsCompatibility_h_
 #
 define
-nsCompatibility_h___
+nsCompatibility_h_
 enum
 nsCompatibility
 {

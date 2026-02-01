@@ -1,9 +1,9 @@
 #
 ifndef
-nsAtomicContainerFrame_h___
+nsAtomicContainerFrame_h_
 #
 define
-nsAtomicContainerFrame_h___
+nsAtomicContainerFrame_h_
 #
 include
 "

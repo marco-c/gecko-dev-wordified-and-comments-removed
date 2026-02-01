@@ -1,9 +1,9 @@
 #
 ifndef
-nsPresContext_h___
+nsPresContext_h_
 #
 define
-nsPresContext_h___
+nsPresContext_h_
 #
 include
 "

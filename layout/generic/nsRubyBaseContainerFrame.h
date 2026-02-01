@@ -1,9 +1,9 @@
 #
 ifndef
-nsRubyBaseContainerFrame_h___
+nsRubyBaseContainerFrame_h_
 #
 define
-nsRubyBaseContainerFrame_h___
+nsRubyBaseContainerFrame_h_
 #
 include
 "

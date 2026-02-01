@@ -1,9 +1,9 @@
 #
 ifndef
-nsProgressFrame_h___
+nsProgressFrame_h_
 #
 define
-nsProgressFrame_h___
+nsProgressFrame_h_
 #
 include
 "

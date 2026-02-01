@@ -1,9 +1,9 @@
 #
 ifndef
-nsQuoteList_h___
+nsQuoteList_h_
 #
 define
-nsQuoteList_h___
+nsQuoteList_h_
 #
 include
 "

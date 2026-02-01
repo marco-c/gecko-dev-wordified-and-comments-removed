@@ -1,9 +1,9 @@
 #
 ifndef
-nsTreeColumns_h__
+nsTreeColumns_h_
 #
 define
-nsTreeColumns_h__
+nsTreeColumns_h_
 #
 include
 "

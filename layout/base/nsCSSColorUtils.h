@@ -1,9 +1,9 @@
 #
 ifndef
-__nsCSSColorUtils_h
+_nsCSSColorUtils_h
 #
 define
-__nsCSSColorUtils_h
+_nsCSSColorUtils_h
 #
 include
 "

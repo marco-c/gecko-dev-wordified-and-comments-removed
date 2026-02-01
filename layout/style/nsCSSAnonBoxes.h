@@ -1,9 +1,9 @@
 #
 ifndef
-nsCSSAnonBoxes_h___
+nsCSSAnonBoxes_h_
 #
 define
-nsCSSAnonBoxes_h___
+nsCSSAnonBoxes_h_
 #
 include
 "

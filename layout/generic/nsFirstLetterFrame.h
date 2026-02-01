@@ -1,9 +1,9 @@
 #
 ifndef
-nsFirstLetterFrame_h__
+nsFirstLetterFrame_h_
 #
 define
-nsFirstLetterFrame_h__
+nsFirstLetterFrame_h_
 #
 include
 "

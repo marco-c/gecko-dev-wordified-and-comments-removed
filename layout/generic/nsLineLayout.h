@@ -1,9 +1,9 @@
 #
 ifndef
-nsLineLayout_h___
+nsLineLayout_h_
 #
 define
-nsLineLayout_h___
+nsLineLayout_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsMathMLmtableFrame_h___
+nsMathMLmtableFrame_h_
 #
 define
-nsMathMLmtableFrame_h___
+nsMathMLmtableFrame_h_
 #
 include
 "

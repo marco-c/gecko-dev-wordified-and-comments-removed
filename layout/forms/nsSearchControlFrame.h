@@ -1,9 +1,9 @@
 #
 ifndef
-nsSearchControlFrame_h__
+nsSearchControlFrame_h_
 #
 define
-nsSearchControlFrame_h__
+nsSearchControlFrame_h_
 #
 include
 "

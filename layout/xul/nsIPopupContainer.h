@@ -1,9 +1,9 @@
 #
 ifndef
-nsIPopupContainer_h___
+nsIPopupContainer_h_
 #
 define
-nsIPopupContainer_h___
+nsIPopupContainer_h_
 #
 include
 "

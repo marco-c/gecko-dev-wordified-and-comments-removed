@@ -1,9 +1,9 @@
 #
 ifndef
-nsTableWrapperFrame_h__
+nsTableWrapperFrame_h_
 #
 define
-nsTableWrapperFrame_h__
+nsTableWrapperFrame_h_
 #
 include
 "

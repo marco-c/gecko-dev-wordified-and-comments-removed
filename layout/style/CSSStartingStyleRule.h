@@ -1,9 +1,9 @@
 #
 ifndef
-CSSStaringStyleRule_h___
+CSSStaringStyleRule_h_
 #
 define
-CSSStaringStyleRule_h___
+CSSStaringStyleRule_h_
 #
 include
 "

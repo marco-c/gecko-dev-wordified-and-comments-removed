@@ -1,9 +1,9 @@
 #
 ifndef
-nsHTMLFrameset_h___
+nsHTMLFrameset_h_
 #
 define
-nsHTMLFrameset_h___
+nsHTMLFrameset_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsMathMLmfracFrame_h___
+nsMathMLmfracFrame_h_
 #
 define
-nsMathMLmfracFrame_h___
+nsMathMLmfracFrame_h_
 #
 include
 "

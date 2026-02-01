@@ -1,9 +1,9 @@
 #
 ifndef
-nsBlockReflowContext_h___
+nsBlockReflowContext_h_
 #
 define
-nsBlockReflowContext_h___
+nsBlockReflowContext_h_
 #
 include
 "

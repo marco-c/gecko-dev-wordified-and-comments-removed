@@ -1,9 +1,9 @@
 #
 ifndef
-nsIFrame_h___
+nsIFrame_h_
 #
 define
-nsIFrame_h___
+nsIFrame_h_
 #
 ifndef
 MOZILLA_INTERNAL_API

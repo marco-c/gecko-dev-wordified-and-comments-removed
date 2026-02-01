@@ -1,9 +1,9 @@
 #
 ifndef
-nsTreeUtils_h__
+nsTreeUtils_h_
 #
 define
-nsTreeUtils_h__
+nsTreeUtils_h_
 #
 include
 "

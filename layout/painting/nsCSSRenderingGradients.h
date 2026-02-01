@@ -1,9 +1,9 @@
 #
 ifndef
-nsCSSRenderingGradients_h__
+nsCSSRenderingGradients_h_
 #
 define
-nsCSSRenderingGradients_h__
+nsCSSRenderingGradients_h_
 #
 include
 "

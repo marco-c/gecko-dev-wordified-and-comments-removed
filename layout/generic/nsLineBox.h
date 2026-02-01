@@ -1,9 +1,9 @@
 #
 ifndef
-nsLineBox_h___
+nsLineBox_h_
 #
 define
-nsLineBox_h___
+nsLineBox_h_
 #
 include
 <
