@@ -142,6 +142,13 @@ sys
 mjs
 "
 "
+SmartbarMentionsPanelSearch
+.
+sys
+.
+mjs
+"
+"
 UrlbarController
 .
 sys

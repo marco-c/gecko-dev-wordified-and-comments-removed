@@ -607,6 +607,9 @@ supportedSAPs
 :
 [
 "
+smartbar
+"
+"
 urlbar
 "
 ]
