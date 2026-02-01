@@ -3333,6 +3333,11 @@ EndRef
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 static
 bool
 IsInclusiveAncestorCSSDisplayNone
@@ -3341,6 +3346,12 @@ const
 nsIContent
 &
 aContent
+const
+nsIContent
+*
+aAncestorLimiter
+=
+nullptr
 )
 ;
 template
