@@ -14,12 +14,6 @@ Optional
 Union
 from
 .
-.
-error
-import
-UnknownErrorException
-from
-.
 _module
 import
 BidiModule

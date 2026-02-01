@@ -4,7 +4,6 @@ import
 Any
 Mapping
 MutableMapping
-Optional
 from
 .
 _module

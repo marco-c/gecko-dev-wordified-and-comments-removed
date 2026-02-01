@@ -1118,7 +1118,13 @@ def
 _assert_partition_key
 (
 self
-partitionKey
+partition_key
+:
+Mapping
+[
+str
+Any
+]
 )
 -
 >
@@ -1128,7 +1134,7 @@ Any
 assert
 isinstance
 (
-partitionKey
+partition_key
 dict
 )
         
@@ -1137,13 +1143,13 @@ if
 userContext
 "
 in
-partitionKey
+partition_key
 :
             
 assert
 isinstance
 (
-partitionKey
+partition_key
 [
 "
 userContext
@@ -1157,13 +1163,13 @@ if
 sourceOrigin
 "
 in
-partitionKey
+partition_key
 :
             
 assert
 isinstance
 (
-partitionKey
+partition_key
 [
 "
 sourceOrigin
