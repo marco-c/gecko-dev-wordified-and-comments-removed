@@ -277,6 +277,13 @@ richlistitem
 )
 ;
 await
+new
+Promise
+(
+requestAnimationFrame
+)
+;
+await
 TestUtils
 .
 waitForCondition
