@@ -577,7 +577,7 @@ htmlparser
 /
 nsHTMLTagList
 .
-h
+inc
 or
 dom
 /
@@ -820,7 +820,7 @@ htmlparser
 /
 nsHTMLTagList
 .
-h
+inc
 .
 .
 /

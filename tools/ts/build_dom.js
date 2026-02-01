@@ -45,7 +45,7 @@ htmlparser
 /
 nsHTMLTagList
 .
-h
+inc
 "
 )
 ;

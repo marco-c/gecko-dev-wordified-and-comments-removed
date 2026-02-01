@@ -87,7 +87,7 @@ include
 "
 nsHTMLTagList
 .
-h
+inc
 "
 }
 ;

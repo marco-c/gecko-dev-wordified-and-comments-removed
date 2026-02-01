@@ -161,7 +161,7 @@ include
 "
 nsHTMLTagList
 .
-h
+inc
 "
 #
 undef

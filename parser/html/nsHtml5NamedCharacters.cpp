@@ -69,7 +69,7 @@ include
 "
 nsHtml5NamedCharactersInclude
 .
-h
+inc
 "
 #
 undef
@@ -154,7 +154,7 @@ include
 "
 nsHtml5NamedCharactersInclude
 .
-h
+inc
 "
 #
 undef
@@ -237,7 +237,7 @@ include
 "
 nsHtml5NamedCharactersInclude
 .
-h
+inc
 "
 #
 undef
@@ -335,7 +335,7 @@ include
 "
 nsHtml5NamedCharactersInclude
 .
-h
+inc
 "
 #
 undef

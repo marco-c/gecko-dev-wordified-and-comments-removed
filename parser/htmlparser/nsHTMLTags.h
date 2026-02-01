@@ -65,7 +65,7 @@ include
 "
 nsHTMLTagList
 .
-h
+inc
 "
 eHTMLTag_userdefined
 }
