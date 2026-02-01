@@ -291,6 +291,15 @@ browser
 /
 preferences
 /
+OnDeviceModelManager
+.
+mjs
+content
+/
+browser
+/
+preferences
+/
 config
 /
 aiFeatures
