@@ -327,6 +327,7 @@ bool
 ObservesReflow
 (
 )
+const
 {
 return
 false
@@ -358,6 +359,7 @@ Element
 GetReferencedElementWithoutObserving
 (
 )
+const
 =
 0
 ;
@@ -368,6 +370,7 @@ void
 DebugObserverSet
 (
 )
+const
 ;
 #
 endif
@@ -506,8 +509,7 @@ enum
 class
 InvalidationFlag
 {
-Reflow
-Destroy
+FrameBeingDestroyed
 }
 ;
 using

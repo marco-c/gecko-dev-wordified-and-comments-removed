@@ -4796,7 +4796,7 @@ SVGObserverUtils
 InvalidationFlag
 :
 :
-Destroy
+FrameBeingDestroyed
 )
 ;
 const
@@ -36700,13 +36700,6 @@ SVGObserverUtils
 InvalidateDirectRenderingObservers
 (
 this
-SVGObserverUtils
-:
-:
-InvalidationFlag
-:
-:
-Reflow
 )
 ;
 RemoveStateBits
