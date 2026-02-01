@@ -664,11 +664,11 @@ maas
 /
 TODO
 :
-update
-with
-actual
-memories
+pin
+gemini
+as
 default
+memories
 model
 [
 MODEL_FEATURES
