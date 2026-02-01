@@ -171,15 +171,6 @@ dependencies
 "
 )
 }
-plugins
-{
-id
-"
-mozac
-.
-DependenciesPlugin
-"
-}
 dependencyResolutionManagement
 {
 versionCatalogs
