@@ -3091,6 +3091,13 @@ _init
 initSettingGroup
 (
 "
+defaultBrowserSync
+"
+)
+;
+initSettingGroup
+(
+"
 sync
 "
 )
