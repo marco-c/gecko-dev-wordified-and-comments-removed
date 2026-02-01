@@ -58,6 +58,13 @@ js
 ]
 [
 "
+browser_UserPromptHandlerManager
+.
+js
+"
+]
+[
+"
 browser_WebDriverBiDi
 .
 js
