@@ -290,6 +290,13 @@ Bug
 ]
 [
 "
+test_splitview_restore
+.
+py
+"
+]
+[
+"
 test_tabgroups_restore
 .
 py
