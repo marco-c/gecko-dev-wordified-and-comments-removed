@@ -2275,6 +2275,13 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
+&
+&
+!
+defined
+(
+NIGHTLY_BUILD
+)
 pref
 (
 "
