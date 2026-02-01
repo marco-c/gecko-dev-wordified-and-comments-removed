@@ -4214,6 +4214,8 @@ defaultEngine
 selectedItem
 .
 engine
+.
+originalEngine
 Ci
 .
 nsISearchService
@@ -4273,6 +4275,8 @@ defaultPrivateEngine
 selectedItem
 .
 engine
+.
+originalEngine
 Ci
 .
 nsISearchService

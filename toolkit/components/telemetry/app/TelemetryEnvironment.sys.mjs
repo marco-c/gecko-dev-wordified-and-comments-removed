@@ -7388,7 +7388,15 @@ SearchService
 defaultEngine
 !
 =
+(
 aSubject
+?
+.
+wrappedJSObject
+?
+?
+aSubject
+)
 )
 {
 return
