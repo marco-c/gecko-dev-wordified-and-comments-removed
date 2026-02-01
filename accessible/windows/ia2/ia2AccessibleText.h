@@ -1,9 +1,9 @@
 #
 ifndef
-_ACCESSIBLE_TEXT_H
+ACCESSIBLE_TEXT_H
 #
 define
-_ACCESSIBLE_TEXT_H
+ACCESSIBLE_TEXT_H
 #
 include
 "

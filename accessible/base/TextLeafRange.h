@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_a11y_TextLeafRange_h__
+mozilla_a11y_TextLeafRange_h_
 #
 define
-mozilla_a11y_TextLeafRange_h__
+mozilla_a11y_TextLeafRange_h_
 #
 include
 <

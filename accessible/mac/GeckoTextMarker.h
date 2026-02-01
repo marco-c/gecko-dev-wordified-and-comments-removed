@@ -1,9 +1,9 @@
 #
 ifndef
-_GeckoTextMarker_H_
+GeckoTextMarker_H_
 #
 define
-_GeckoTextMarker_H_
+GeckoTextMarker_H_
 #
 include
 <

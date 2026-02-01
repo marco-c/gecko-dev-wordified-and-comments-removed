@@ -1,9 +1,9 @@
 #
 ifndef
-_TraversalRule_H_
+TraversalRule_H_
 #
 define
-_TraversalRule_H_
+TraversalRule_H_
 #
 include
 "

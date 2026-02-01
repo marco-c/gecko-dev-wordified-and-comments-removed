@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_a11y_PlatformExtTypes_h__
+mozilla_a11y_PlatformExtTypes_h_
 #
 define
-mozilla_a11y_PlatformExtTypes_h__
+mozilla_a11y_PlatformExtTypes_h_
 namespace
 mozilla
 {

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_a11y_TextLeafAccessible_h__
+mozilla_a11y_TextLeafAccessible_h_
 #
 define
-mozilla_a11y_TextLeafAccessible_h__
+mozilla_a11y_TextLeafAccessible_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-__NS_MAI_H__
+NS_MAI_H_
 #
 define
-__NS_MAI_H__
+NS_MAI_H_
 #
 include
 <

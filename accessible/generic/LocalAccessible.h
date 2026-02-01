@@ -1,9 +1,9 @@
 #
 ifndef
-_LocalAccessible_H_
+LocalAccessible_H_
 #
 define
-_LocalAccessible_H_
+LocalAccessible_H_
 #
 include
 "

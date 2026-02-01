@@ -1,9 +1,9 @@
 #
 ifndef
-_MozAccessible_H_
+MozAccessible_H_
 #
 define
-_MozAccessible_H_
+MozAccessible_H_
 #
 include
 "

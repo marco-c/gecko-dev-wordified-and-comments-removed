@@ -1,9 +1,9 @@
 #
 ifndef
-_AccEvent_H_
+AccEvent_H_
 #
 define
-_AccEvent_H_
+AccEvent_H_
 #
 include
 "

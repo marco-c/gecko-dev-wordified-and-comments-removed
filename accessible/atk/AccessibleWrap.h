@@ -1,9 +1,9 @@
 #
 ifndef
-__NS_ACCESSIBLE_WRAP_H__
+NS_ACCESSIBLE_WRAP_H_
 #
 define
-__NS_ACCESSIBLE_WRAP_H__
+NS_ACCESSIBLE_WRAP_H_
 #
 include
 "

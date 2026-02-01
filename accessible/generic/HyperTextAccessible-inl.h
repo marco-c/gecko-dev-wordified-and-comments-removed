@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_a11y_HyperTextAccessible_inl_h__
+mozilla_a11y_HyperTextAccessible_inl_h_
 #
 define
-mozilla_a11y_HyperTextAccessible_inl_h__
+mozilla_a11y_HyperTextAccessible_inl_h_
 #
 include
 "

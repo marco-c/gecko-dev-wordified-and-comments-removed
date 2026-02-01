@@ -1,9 +1,9 @@
 #
 ifndef
-__MAI_HYPERLINK_H__
+MAI_HYPERLINK_H_
 #
 define
-__MAI_HYPERLINK_H__
+MAI_HYPERLINK_H_
 #
 include
 "
