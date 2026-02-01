@@ -566,11 +566,11 @@ IPProtectionService
 state
 IPProtectionStates
 .
-UNAVAILABLE
+UNAUTHENTICATED
 "
 State
 is
-UNAVAILABLE
+UNAUTHENTICATED
 when
 user
 is
