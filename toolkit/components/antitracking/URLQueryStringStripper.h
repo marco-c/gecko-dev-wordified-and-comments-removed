@@ -260,15 +260,6 @@ StripRule
 >
 mStripOnShareMap
 ;
-Maybe
-<
-dom
-:
-:
-StripRule
->
-mStripOnShareGlobal
-;
 bool
 mIsInitialized
 ;
