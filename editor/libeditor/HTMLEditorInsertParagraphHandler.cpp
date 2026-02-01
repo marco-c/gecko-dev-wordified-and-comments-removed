@@ -6225,11 +6225,11 @@ FromNodeOrNull
 HTMLEditUtils
 :
 :
-GetPreviousContent
+GetPreviousLeafContent
 (
 aPointToSplit
 {
-WalkTreeOption
+LeafNodeOption
 :
 :
 IgnoreNonEditableNode
@@ -6237,7 +6237,7 @@ IgnoreNonEditableNode
 BlockInlineCheck
 :
 :
-Unused
+Auto
 &
 mEditingHost
 )
@@ -6269,11 +6269,11 @@ FromNodeOrNull
 HTMLEditUtils
 :
 :
-GetNextContent
+GetNextLeafContent
 (
 aPointToSplit
 {
-WalkTreeOption
+LeafNodeOption
 :
 :
 IgnoreNonEditableNode
@@ -6281,7 +6281,7 @@ IgnoreNonEditableNode
 BlockInlineCheck
 :
 :
-Unused
+Auto
 &
 mEditingHost
 )
