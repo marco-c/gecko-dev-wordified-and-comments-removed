@@ -197,6 +197,12 @@ bytes_in_flight_head_room
 ;
 FieldTrialParameter
 <
+double
+>
+beta_loss
+;
+FieldTrialParameter
+<
 int
 >
 post_congestion_delay_rtts
