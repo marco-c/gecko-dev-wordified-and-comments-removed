@@ -1,4 +1,10 @@
 #
+ifndef
+MOBILE_IOS_GECKOTESTBROWSER_GECKOVIEW_GECKOVIEW_H_
+#
+define
+MOBILE_IOS_GECKOTESTBROWSER_GECKOVIEW_GECKOVIEW_H_
+#
 import
 <
 Foundation
@@ -37,3 +43,5 @@ GeckoViewSwiftSupport
 .
 h
 >
+#
+endif
