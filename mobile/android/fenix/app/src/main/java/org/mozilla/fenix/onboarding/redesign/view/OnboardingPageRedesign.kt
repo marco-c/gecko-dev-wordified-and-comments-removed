@@ -898,7 +898,7 @@ R
 .
 string
 .
-onboarding_redesign_set_default_browser_title
+nova_onboarding_set_to_default_title_2
 )
 description
 =
@@ -908,7 +908,7 @@ R
 .
 string
 .
-onboarding_redesign_set_default_browser_body
+nova_onboarding_set_to_default_subtitle
 )
 primaryButton
 =
@@ -922,7 +922,7 @@ R
 .
 string
 .
-juno_onboarding_default_browser_positive_button
+nova_onboarding_set_to_default_button
 )
 onClick
 =
@@ -941,7 +941,7 @@ R
 .
 string
 .
-juno_onboarding_default_browser_negative_button
+nova_onboarding_negative_button
 )
 onClick
 =
@@ -1001,7 +1001,7 @@ R
 .
 string
 .
-onboarding_redesign_sync_title
+nova_onboarding_sync_title
 )
 description
 =
@@ -1011,7 +1011,7 @@ R
 .
 string
 .
-onboarding_redesign_sync_body
+nova_onboarding_sync_subtitle
 )
 primaryButton
 =
@@ -1025,7 +1025,7 @@ R
 .
 string
 .
-onboarding_redesign_sync_positive_button
+nova_onboarding_sync_button
 )
 onClick
 =
@@ -1044,7 +1044,7 @@ R
 .
 string
 .
-onboarding_redesign_sync_negative_button
+nova_onboarding_negative_button
 )
 onClick
 =
@@ -1104,7 +1104,7 @@ R
 .
 string
 .
-juno_onboarding_enable_notifications_title_nimbus_2
+nova_onboarding_add_search_widget_title
 )
 description
 =
@@ -1114,7 +1114,7 @@ R
 .
 string
 .
-juno_onboarding_enable_notifications_description_nimbus_2
+nova_onboarding_add_search_widget_subtitle
 )
 primaryButton
 =
@@ -1128,7 +1128,7 @@ R
 .
 string
 .
-juno_onboarding_enable_notifications_positive_button
+nova_onboarding_notifications_button
 )
 onClick
 =
@@ -1147,7 +1147,7 @@ R
 .
 string
 .
-juno_onboarding_enable_notifications_negative_button
+nova_onboarding_negative_button
 )
 onClick
 =
@@ -1207,7 +1207,7 @@ R
 .
 string
 .
-juno_onboarding_add_search_widget_title
+nova_onboarding_add_search_widget_title
 )
 description
 =
@@ -1217,7 +1217,7 @@ R
 .
 string
 .
-juno_onboarding_add_search_widget_description
+nova_onboarding_add_search_widget_subtitle
 )
 primaryButton
 =
@@ -1231,7 +1231,7 @@ R
 .
 string
 .
-juno_onboarding_add_search_widget_positive_button
+nova_onboarding_add_search_widget_button
 )
 onClick
 =
@@ -1250,7 +1250,7 @@ R
 .
 string
 .
-juno_onboarding_add_search_widget_negative_button
+nova_onboarding_negative_button
 )
 onClick
 =
