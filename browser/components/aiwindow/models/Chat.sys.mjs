@@ -707,6 +707,12 @@ toolCall
 function
 .
 arguments
+|
+|
+"
+{
+}
+"
 }
 }
 )
