@@ -268,19 +268,6 @@ sumPrecise
 "
     
 "
-upsert
-"
-:
-"
-!
-Map
-.
-prototype
-.
-getOrInsertComputed
-"
-    
-"
 immutable
 -
 arraybuffer
