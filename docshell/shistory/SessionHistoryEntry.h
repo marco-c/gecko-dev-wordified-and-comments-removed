@@ -1543,6 +1543,11 @@ public
 nsISHEntry
 public
 nsSupportsWeakReference
+public
+LinkedListElement
+<
+SessionHistoryEntry
+>
 {
 public
 :
@@ -1895,14 +1900,6 @@ aState
 )
 ;
 }
-already_AddRefed
-<
-nsSHistory
->
-GetSessionHistory
-(
-)
-;
 private
 :
 friend
