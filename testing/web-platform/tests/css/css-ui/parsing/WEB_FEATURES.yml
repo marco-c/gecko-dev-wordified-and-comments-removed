@@ -45,6 +45,16 @@ color
 -
 name
 :
+cursor
+files
+:
+-
+cursor
+-
+*
+-
+name
+:
 text
 -
 overflow
