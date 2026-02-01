@@ -6315,8 +6315,6 @@ cpp
 absl
 /
 strings
-:
-string_view
 "
 ]
 }
