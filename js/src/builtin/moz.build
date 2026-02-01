@@ -403,6 +403,13 @@ h
 "
 intl
 /
+Collator
+.
+js
+"
+"
+intl
+/
 CommonFunctions
 .
 js
@@ -418,6 +425,13 @@ js
 intl
 /
 DateTimeFormat
+.
+js
+"
+"
+intl
+/
+DurationFormat
 .
 js
 "
