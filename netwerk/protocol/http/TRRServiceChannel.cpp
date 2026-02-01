@@ -1989,6 +1989,15 @@ network_trr_force_http3_first
 )
 |
 |
+(
+StaticPrefs
+:
+:
+network_trr_allow_default_http3_first
+(
+)
+&
+&
 TRRService
 :
 :
@@ -1999,6 +2008,7 @@ Get
 >
 Http3FirstEnabled
 (
+)
 )
 )
 )
