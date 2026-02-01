@@ -1061,9 +1061,6 @@ html
 traits
 :
 {
-hasPseudoElementNameInDisplayName
-:
-true
 }
 }
 ;
