@@ -43,6 +43,12 @@ badOffsets
 null
 true
 1000n
+"
++
+00
+:
+0000
+"
 ]
 ;
 badOffsets

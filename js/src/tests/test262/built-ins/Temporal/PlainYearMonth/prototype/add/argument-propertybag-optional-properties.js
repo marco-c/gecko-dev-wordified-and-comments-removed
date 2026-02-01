@@ -14,7 +14,7 @@ const
 oneProperty
 =
 {
-hours
+months
 :
 1
 }
@@ -28,7 +28,7 @@ years
 0
 months
 :
-0
+1
 weeks
 :
 0
@@ -37,7 +37,7 @@ days
 0
 hours
 :
-1
+0
 minutes
 :
 0
@@ -90,9 +90,13 @@ be
 the
 same
 with
+0
+for
+disallowed
+properties
 and
 without
-optional
+disallowed
 properties
 "
 )
