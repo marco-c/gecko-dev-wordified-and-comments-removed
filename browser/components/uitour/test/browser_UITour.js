@@ -3169,9 +3169,7 @@ let
 defaultEngine
 =
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (
@@ -3181,9 +3179,7 @@ let
 visibleEngines
 =
 await
-Services
-.
-search
+SearchService
 .
 getVisibleEngines
 (
@@ -3442,9 +3438,7 @@ default
 {
 is
 (
-Services
-.
-search
+SearchService
 .
 defaultEngine
 .
@@ -3493,9 +3487,7 @@ async
 >
 {
 await
-Services
-.
-search
+SearchService
 .
 setDefault
 (
@@ -3523,9 +3515,7 @@ someOtherEngineID
 let
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineById
 (
