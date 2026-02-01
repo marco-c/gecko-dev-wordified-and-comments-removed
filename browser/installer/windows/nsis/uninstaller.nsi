@@ -616,12 +616,12 @@ CleanVirtualStore
 insertmacro
 un
 .
-DeleteShortcuts
+GetCommonDirectory
 !
 insertmacro
 un
 .
-GetCommonDirectory
+DeleteShortcuts
 !
 insertmacro
 un

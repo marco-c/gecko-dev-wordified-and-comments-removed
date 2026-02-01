@@ -18295,12 +18295,6 @@ _MOZFUNC_UN_TMP
 }
 GetLongPath
 !
-insertmacro
-{
-_MOZFUNC_UN_TMP
-}
-GetCommonDirectory
-!
 undef
 _MOZFUNC_UN
 !
