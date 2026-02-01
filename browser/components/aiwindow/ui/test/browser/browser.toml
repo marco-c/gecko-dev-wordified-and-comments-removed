@@ -226,3 +226,10 @@ browser_sidebar_aiwindow
 js
 "
 ]
+[
+"
+browser_smartwindow_init
+.
+js
+"
+]
