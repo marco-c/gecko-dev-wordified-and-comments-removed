@@ -78,6 +78,10 @@ PBrowserBridge
 ;
 include
 protocol
+PDigitalCredential
+;
+include
+protocol
 PWebAuthnTransaction
 ;
 include
@@ -424,6 +428,9 @@ manager
 PBrowser
 or
 PInProcess
+;
+manages
+PDigitalCredential
 ;
 manages
 PWebAuthnTransaction
@@ -842,6 +849,11 @@ OnInitialStorageAccess
 ;
 async
 RecordUserActivationForBTP
+(
+)
+;
+async
+PDigitalCredential
 (
 )
 ;
