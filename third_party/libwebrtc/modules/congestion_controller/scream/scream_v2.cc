@@ -434,6 +434,9 @@ RtcEventBweUpdateScream
 >
 (
 ref_window_
+msg
+.
+data_in_flight
 target_rate_
 msg
 .

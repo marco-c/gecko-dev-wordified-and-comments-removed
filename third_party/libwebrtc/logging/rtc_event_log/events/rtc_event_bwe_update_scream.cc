@@ -75,6 +75,8 @@ RtcEventBweUpdateScream
 (
 DataSize
 ref_window
+DataSize
+data_in_flight
 DataRate
 target_rate
 TimeDelta
@@ -88,6 +90,14 @@ l4s_marked_permille
 ref_window_bytes_
 (
 ref_window
+.
+bytes
+(
+)
+)
+data_in_flight_bytes_
+(
+data_in_flight
 .
 bytes
 (

@@ -2627,6 +2627,12 @@ l4s_marked_permille
 =
 6
 ;
+optional
+uint32
+data_in_flight_bytes
+=
+7
+;
 /
 /
 optional
@@ -2644,7 +2650,7 @@ optional
 uint32
 number_of_deltas
 =
-7
+15
 ;
 /
 /
@@ -2686,6 +2692,12 @@ bytes
 l4s_marked_permille_deltas
 =
 106
+;
+optional
+bytes
+data_in_flight_bytes_deltas
+=
+107
 ;
 }
 /
