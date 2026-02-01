@@ -3098,7 +3098,10 @@ tell
 )
             
 except
+(
 OSError
+AttributeError
+)
 :
                 
 self
@@ -3109,6 +3112,9 @@ True
             
 return
         
+try
+:
+            
 self
 .
 _value
@@ -3119,6 +3125,19 @@ self
 .
 _start_position
 )
+        
+except
+(
+OSError
+AttributeError
+)
+:
+            
+self
+.
+_consumed
+=
+True
     
 def
 _read_and_available_len
@@ -3458,16 +3477,39 @@ bytes
         
 Returns
 the
-number
+total
+size
 of
-bytes
-remaining
-to
-be
-read
+the
+payload
+content
 from
 the
-file
+initial
+position
+.
+        
+This
+ensures
+consistent
+Content
+-
+Length
+for
+requests
+including
+307
+/
+308
+redirects
+        
+where
+the
+same
+payload
+instance
+is
+reused
 .
         
 Returns
@@ -3496,6 +3538,26 @@ streams
 try
 :
             
+if
+self
+.
+_start_position
+is
+None
+:
+                
+self
+.
+_start_position
+=
+self
+.
+_value
+.
+tell
+(
+)
+            
 return
 os
 .
@@ -3514,11 +3576,7 @@ st_size
 -
 self
 .
-_value
-.
-tell
-(
-)
+_start_position
         
 except
 (
