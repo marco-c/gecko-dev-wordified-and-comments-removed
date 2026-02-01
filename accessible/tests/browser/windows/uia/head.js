@@ -369,6 +369,10 @@ waitForUiaEvent
 return
 runPython
 (
+global
+event
+event
+=
 onEvent
 .
 wait
