@@ -895,12 +895,7 @@ root
 lwtheme
 ]
 {
-.
-browser
--
-toolbox
--
-background
+body
 toolbar
 &
 [
@@ -927,12 +922,7 @@ lwtheme
 -
 brighttext
 ]
-.
-browser
--
-toolbox
--
-background
+body
 toolbar
 [
 brighttext
