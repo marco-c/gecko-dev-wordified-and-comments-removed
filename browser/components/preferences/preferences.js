@@ -1468,9 +1468,6 @@ groupIds
 :
 [
 "
-debugModelManagement
-"
-"
 aiFeatures
 "
 "
