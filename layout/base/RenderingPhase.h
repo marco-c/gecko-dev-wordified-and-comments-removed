@@ -27,9 +27,10 @@ RenderingPhase
 :
 uint8_t
 {
-FlushAutoFocusCandidates
+Reveal
 =
 0
+FlushAutoFocusCandidates
 ResizeSteps
 ScrollSteps
 EvaluateMediaQueriesAndReportChanges
@@ -61,6 +62,10 @@ AllRenderingPhases
 {
 return
 {
+RenderingPhase
+:
+:
+Reveal
 RenderingPhase
 :
 :
