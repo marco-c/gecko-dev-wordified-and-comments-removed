@@ -35,7 +35,7 @@ version
 "
 149
 .
-0
+1
 .
 0
 "
@@ -191,7 +191,7 @@ appConstants
 json
 "
 "
-parent
+child
 "
 :
 {
@@ -201,7 +201,7 @@ scopes
 :
 [
 "
-addon_parent
+addon_child
 "
 ]
 "

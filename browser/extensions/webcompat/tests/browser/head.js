@@ -393,6 +393,15 @@ _resetToDefaultShims
 ;
 }
 )
+.
+catch
+(
+_
+=
+>
+{
+}
+)
 ;
 }
 async
