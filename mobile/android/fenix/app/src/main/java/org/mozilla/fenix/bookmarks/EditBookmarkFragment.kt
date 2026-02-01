@@ -127,12 +127,6 @@ Fragment
 import
 androidx
 .
-lifecycle
-.
-lifecycleScope
-import
-androidx
-.
 navigation
 .
 NavHostController
@@ -679,9 +673,6 @@ it
 )
 )
 }
-lifecycleScope
-=
-lifecycleScope
 )
 )
 bookmarkToLoad
