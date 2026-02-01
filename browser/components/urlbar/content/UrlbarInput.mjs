@@ -36553,11 +36553,13 @@ droppedData
 ;
 if
 (
-droppedString
+this
+.
+#
+isAddressbar
 &
 &
 droppedString
-!
 =
 =
 this
@@ -36571,6 +36573,9 @@ currentURI
 spec
 )
 {
+return
+;
+}
 this
 .
 value
@@ -36819,7 +36824,6 @@ event
 }
 )
 ;
-}
 }
 }
 _on_uidensitychanged
