@@ -1951,7 +1951,10 @@ NotifyChildrenOfSVGChange
 nsIFrame
 *
 aFrame
-uint32_t
+ISVGDisplayableFrame
+:
+:
+ChangeFlags
 aFlags
 )
 {

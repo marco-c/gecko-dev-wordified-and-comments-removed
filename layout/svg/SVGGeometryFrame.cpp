@@ -597,7 +597,7 @@ StyleDisplay
 {
 NotifySVGChanged
 (
-ChangeFlags
+ChangeFlag
 :
 :
 TransformChanged
@@ -1596,10 +1596,7 @@ SVGGeometryFrame
 :
 NotifySVGChanged
 (
-EnumSet
-<
 ChangeFlags
->
 aFlags
 )
 {
@@ -1609,7 +1606,7 @@ aFlags
 .
 contains
 (
-ChangeFlags
+ChangeFlag
 :
 :
 TransformChanged
@@ -1620,7 +1617,7 @@ aFlags
 .
 contains
 (
-ChangeFlags
+ChangeFlag
 :
 :
 CoordContextChanged
@@ -1640,7 +1637,7 @@ aFlags
 .
 contains
 (
-ChangeFlags
+ChangeFlag
 :
 :
 CoordContextChanged
@@ -1727,7 +1724,7 @@ aFlags
 .
 contains
 (
-ChangeFlags
+ChangeFlag
 :
 :
 TransformChanged

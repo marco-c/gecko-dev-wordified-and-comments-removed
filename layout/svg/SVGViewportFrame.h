@@ -105,7 +105,7 @@ override
 void
 NotifySVGChanged
 (
-uint32_t
+ChangeFlags
 aFlags
 )
 override
@@ -146,7 +146,7 @@ override
 void
 NotifyViewportOrTransformChanged
 (
-uint32_t
+ChangeFlags
 aFlags
 )
 override

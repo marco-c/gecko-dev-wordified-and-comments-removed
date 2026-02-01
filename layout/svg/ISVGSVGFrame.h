@@ -7,6 +7,15 @@ LAYOUT_SVG_ISVGSVGFRAME_H_
 #
 include
 "
+mozilla
+/
+ISVGDisplayableFrame
+.
+h
+"
+#
+include
+"
 nsQueryFrame
 .
 h
@@ -27,7 +36,10 @@ virtual
 void
 NotifyViewportOrTransformChanged
 (
-uint32_t
+ISVGDisplayableFrame
+:
+:
+ChangeFlags
 aFlags
 )
 =

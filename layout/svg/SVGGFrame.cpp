@@ -190,7 +190,10 @@ transform
 {
 NotifySVGChanged
 (
-TRANSFORM_CHANGED
+ChangeFlag
+:
+:
+TransformChanged
 )
 ;
 }

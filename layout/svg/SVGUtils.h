@@ -63,6 +63,15 @@ include
 "
 mozilla
 /
+ISVGDisplayableFrame
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 Rect
@@ -781,7 +790,10 @@ NotifyChildrenOfSVGChange
 nsIFrame
 *
 aFrame
-uint32_t
+ISVGDisplayableFrame
+:
+:
+ChangeFlags
 aFlags
 )
 ;

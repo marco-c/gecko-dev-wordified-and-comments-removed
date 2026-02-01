@@ -406,7 +406,7 @@ override
 void
 NotifyViewportOrTransformChanged
 (
-uint32_t
+ChangeFlags
 aFlags
 )
 override
