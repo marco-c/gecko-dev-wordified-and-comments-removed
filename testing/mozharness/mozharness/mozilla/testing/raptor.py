@@ -29,10 +29,6 @@ mozsystemmonitor
 resourcemonitor
 import
 SystemResourceMonitor
-from
-six
-import
-string_types
 import
 mozharness
 from
@@ -8190,7 +8186,7 @@ if
 isinstance
 (
 value
-string_types
+str
 )
 :
                     

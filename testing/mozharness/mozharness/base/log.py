@@ -162,10 +162,6 @@ from
 datetime
 import
 datetime
-from
-six
-import
-binary_type
 FATAL_LEVEL
 =
 logging
@@ -2452,7 +2448,7 @@ if
 isinstance
 (
 line
-binary_type
+bytes
 )
 :
                 

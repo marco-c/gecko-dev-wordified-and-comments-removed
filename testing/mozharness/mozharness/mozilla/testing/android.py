@@ -24,8 +24,6 @@ from
 threading
 import
 Timer
-import
-six
 from
 mozharness
 .
@@ -3793,13 +3791,25 @@ s
 process_name
 )
         
-process_name
-=
-six
-.
-ensure_binary
+if
+isinstance
 (
 process_name
+str
+)
+:
+            
+process_name
+=
+process_name
+.
+encode
+(
+"
+utf
+-
+8
+"
 )
         
 out
