@@ -1749,9 +1749,11 @@ URL
 |
 Response
 }
+[
 params
 .
 source
+]
 -
 The
 source
@@ -1945,12 +1947,13 @@ ignored
 *
 param
 {
-?
 AbortSignal
 }
+[
 params
 .
 abortSignal
+]
 -
 AbortSignal
 to

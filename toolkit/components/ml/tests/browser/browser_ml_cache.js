@@ -4743,10 +4743,7 @@ hub
 .
 deleteNonMatchingModelRevisions
 (
-{
 taskName
-modelWithHostname
-:
 {
 hostname
 }
@@ -4754,12 +4751,9 @@ hostname
 org
 /
 model2
-targetRevision
-:
 "
 v3
 "
-}
 )
 ;
 const

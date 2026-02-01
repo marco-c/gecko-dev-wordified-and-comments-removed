@@ -8,7 +8,7 @@ string
 ;
 size
 :
-string
+number
 ;
 filename
 :

@@ -364,6 +364,8 @@ options
 param
 {
 string
+|
+null
 }
 [
 options
@@ -382,6 +384,8 @@ feature
 param
 {
 string
+|
+null
 }
 [
 options
@@ -1338,6 +1342,8 @@ provided
 param
 {
 string
+|
+null
 }
 options
 .
@@ -1351,6 +1357,8 @@ identifier
 param
 {
 string
+|
+null
 }
 options
 .
@@ -1364,6 +1372,8 @@ identifier
 param
 {
 string
+|
+null
 }
 options
 .
@@ -1377,6 +1387,8 @@ name
 param
 {
 string
+|
+null
 }
 options
 .
@@ -1389,9 +1401,7 @@ identifier
 *
 param
 {
-string
-|
-object
+unknown
 }
 options
 .
@@ -2246,6 +2256,8 @@ provided
 param
 {
 number
+|
+null
 }
 options
 .
@@ -2302,6 +2314,8 @@ machine
 param
 {
 number
+|
+null
 }
 options
 .
@@ -2326,6 +2340,8 @@ used
 param
 {
 number
+|
+null
 }
 options
 .
@@ -2380,6 +2396,8 @@ identifier
 param
 {
 string
+|
+null
 }
 options
 .
@@ -2393,6 +2411,8 @@ identifier
 param
 {
 string
+|
+null
 }
 options
 .
