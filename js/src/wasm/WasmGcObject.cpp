@@ -1278,7 +1278,6 @@ const
 {
 if
 (
-!
 isDataInline
 (
 )
