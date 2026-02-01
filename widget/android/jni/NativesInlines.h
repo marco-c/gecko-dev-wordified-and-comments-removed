@@ -1,4 +1,10 @@
 #
+ifndef
+mozilla_jni_NativesInlines_h_
+#
+define
+mozilla_jni_NativesInlines_h_
+#
 include
 "
 Natives
@@ -476,3 +482,5 @@ promise
 ;
 }
 }
+#
+endif

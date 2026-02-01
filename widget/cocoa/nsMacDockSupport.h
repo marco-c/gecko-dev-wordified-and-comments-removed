@@ -1,4 +1,10 @@
 #
+ifndef
+mozilla_widget_nsMacDockSupport_h
+#
+define
+mozilla_widget_nsMacDockSupport_h
+#
 include
 "
 nsIMacDockSupport
@@ -103,3 +109,5 @@ UpdateDockTile
 ;
 }
 ;
+#
+endif
