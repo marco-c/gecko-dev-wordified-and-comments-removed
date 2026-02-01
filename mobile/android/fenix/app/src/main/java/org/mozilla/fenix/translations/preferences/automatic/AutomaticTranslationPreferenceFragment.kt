@@ -524,6 +524,16 @@ value
 }
 }
 }
+automaticTranslationListPreferences
+.
+sortBy
+{
+it
+.
+language
+.
+localizedDisplayName
+}
 return
 automaticTranslationListPreferences
 }
