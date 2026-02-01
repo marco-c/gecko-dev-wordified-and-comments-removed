@@ -2850,7 +2850,15 @@ already_AddRefed
 <
 nsINodeList
 >
-Labels
+LabelsForBindings
+(
+)
+;
+already_AddRefed
+<
+nsINodeList
+>
+LabelsInternal
 (
 )
 ;

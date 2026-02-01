@@ -146,6 +146,13 @@ js
 ]
 [
 "
+browser_multiple_relations_crash
+.
+js
+"
+]
+[
+"
 browser_popover_and_command
 .
 js

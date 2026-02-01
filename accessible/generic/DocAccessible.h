@@ -1739,6 +1739,10 @@ friend
 class
 RelatedAccIterator
 ;
+friend
+class
+HTMLLabelIterator
+;
 nsTArray
 <
 RefPtr

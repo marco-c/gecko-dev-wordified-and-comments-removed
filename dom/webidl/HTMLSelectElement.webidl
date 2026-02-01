@@ -370,6 +370,11 @@ showPicker
 (
 )
 ;
+[
+BinaryName
+=
+labelsForBindings
+]
 readonly
 attribute
 NodeList

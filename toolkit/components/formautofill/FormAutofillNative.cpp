@@ -6103,7 +6103,7 @@ control
 label
 -
 >
-GetControl
+GetLabeledElementInternal
 (
 )
 ;

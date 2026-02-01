@@ -10806,9 +10806,7 @@ AppendIter
 new
 HTMLLabelIterator
 (
-Document
-(
-)
+mDoc
 this
 )
 )
@@ -22482,7 +22480,7 @@ mDoc
 labelEl
 -
 >
-GetControl
+GetLabeledElementInternal
 (
 )
 )
