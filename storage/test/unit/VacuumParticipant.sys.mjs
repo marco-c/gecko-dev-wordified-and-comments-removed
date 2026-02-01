@@ -180,9 +180,17 @@ vacuumed
 *
 param
 {
+object
+}
+options
+*
+param
+{
 number
 }
 [
+options
+.
 expectedPageSize
 ]
 *
@@ -200,6 +208,8 @@ param
 boolean
 }
 [
+options
+.
 useIncrementalVacuum
 ]
 *
@@ -218,6 +228,8 @@ param
 boolean
 }
 [
+options
+.
 grant
 ]
 *

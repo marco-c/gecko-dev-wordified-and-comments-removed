@@ -2469,7 +2469,9 @@ BFCache
 entries
 *
 returns
+{
 nsISHEntry
+}
 *
 /
 deserializeEntry

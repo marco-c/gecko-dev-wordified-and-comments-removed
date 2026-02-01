@@ -1190,7 +1190,7 @@ InflatedMarker
 [
 ]
 }
-networkMarkers
+allNetworkMarkers
 Network
 markers
 *
@@ -1669,11 +1669,13 @@ param
 {
 string
 }
+s
 the
 JSON
 string
 to
 check
+.
 *
 return
 {
@@ -2130,7 +2132,7 @@ param
 {
 InflatedMarker
 }
-marker
+inflatedMarker
 *
 returns
 {

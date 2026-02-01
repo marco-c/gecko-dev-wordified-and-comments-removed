@@ -194,8 +194,7 @@ identifiers
 :
 *
 *
-param
-{
+*
 {
 *
 sandbox
@@ -210,7 +209,7 @@ appLocale
 string
 *
 }
-}
+*
 *
 /
 export

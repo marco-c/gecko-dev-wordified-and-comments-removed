@@ -200,7 +200,9 @@ itself
 .
 *
 returns
-bool
+{
+boolean
+}
 *
 True
 if
@@ -259,8 +261,9 @@ from
 .
 *
 returns
-DOM
-element
+{
+Element
+}
 *
 The
 full

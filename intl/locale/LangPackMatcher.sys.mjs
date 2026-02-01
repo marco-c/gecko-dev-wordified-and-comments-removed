@@ -1604,7 +1604,7 @@ param
 {
 string
 }
-locale
+localeString
 *
 returns
 {
