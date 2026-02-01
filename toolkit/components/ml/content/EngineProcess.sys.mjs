@@ -1540,9 +1540,11 @@ browser
 /
 components
 /
-genai
+aiwindow
 /
-SmartAssistEngine
+models
+/
+IntentClassifier
 .
 sys
 .
