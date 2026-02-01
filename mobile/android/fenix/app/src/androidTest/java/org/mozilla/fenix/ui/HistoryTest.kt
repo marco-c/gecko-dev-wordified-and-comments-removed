@@ -917,11 +917,6 @@ firstWebPage
 url
 )
 {
-mDevice
-.
-waitForIdle
-(
-)
 }
 .
 openThreeDotMenu
