@@ -3173,6 +3173,10 @@ re
 compile
 (
         
+re
+.
+escape
+(
 os
 .
 path
@@ -3186,6 +3190,7 @@ manager
 staging_dir
 "
 "
+)
 )
 +
 r
