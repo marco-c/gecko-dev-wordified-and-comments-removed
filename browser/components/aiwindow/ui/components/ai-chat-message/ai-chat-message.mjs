@@ -359,14 +359,13 @@ div
 class
 =
 {
-"
 message
 -
-"
-+
+{
 this
 .
 role
+}
 }
 >
 <
