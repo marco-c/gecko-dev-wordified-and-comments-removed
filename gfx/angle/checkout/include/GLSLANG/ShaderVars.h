@@ -17,6 +17,11 @@ array
 #
 include
 <
+cstdint
+>
+#
+include
+<
 string
 >
 #
