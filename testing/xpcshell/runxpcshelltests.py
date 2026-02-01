@@ -9926,6 +9926,51 @@ dirname
 )
     
 def
+buildNodeEnvironment
+(
+self
+)
+:
+        
+"
+"
+"
+        
+Return
+the
+environment
+to
+use
+for
+the
+node
+process
+.
+This
+can
+be
+overridden
+        
+by
+subclasses
+to
+filter
+or
+modify
+the
+environment
+.
+        
+"
+"
+"
+        
+return
+self
+.
+env
+    
+def
 trySetupNode
 (
 self
@@ -10169,6 +10214,14 @@ nodeBin
 )
 )
         
+node_env
+=
+self
+.
+buildNodeEnvironment
+(
+)
+        
 def
 read_streams
 (
@@ -10339,9 +10392,7 @@ PIPE
                         
 env
 =
-self
-.
-env
+node_env
                         
 cwd
 =
