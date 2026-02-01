@@ -6515,6 +6515,14 @@ isDrained
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+hasAnyDeferredWeakMaps
+(
+)
+)
+;
 safeToYield
 =
 false
@@ -9279,6 +9287,11 @@ isDrained
 |
 |
 hasDelayedMarking
+(
+)
+|
+|
+hasAnyDeferredWeakMaps
 (
 )
 )
