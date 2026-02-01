@@ -1151,6 +1151,14 @@ click
 )
 =
 >
+{
+this
+.
+#
+hidePopup
+(
+)
+;
 window
 .
 openTrustedLinkIn
@@ -1166,6 +1174,8 @@ privacy
 tab
 "
 )
+;
+}
 )
 ;
 document
