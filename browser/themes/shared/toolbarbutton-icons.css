@@ -2871,7 +2871,10 @@ svg
 )
 ;
 >
-image
+.
+toolbarbutton
+-
+icon
 {
 width
 :
@@ -2968,11 +2971,6 @@ panel
 "
 ]
 )
->
-.
-toolbarbutton
--
-icon
 {
 list
 -
@@ -3087,11 +3085,6 @@ panel
 "
 ]
 )
->
-.
-toolbarbutton
--
-icon
 {
 list
 -
@@ -3206,11 +3199,6 @@ panel
 "
 ]
 )
->
-.
-toolbarbutton
--
-icon
 {
 list
 -
