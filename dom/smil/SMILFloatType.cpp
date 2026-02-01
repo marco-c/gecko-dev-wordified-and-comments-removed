@@ -402,7 +402,10 @@ mDouble
 ;
 aDistance
 =
-fabs
+std
+:
+:
+abs
 (
 to
 -

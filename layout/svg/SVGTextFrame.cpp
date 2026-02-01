@@ -11072,6 +11072,9 @@ epsilon
 ;
 if
 (
+std
+:
+:
 abs
 (
 mLengthAdjustScaleFactor

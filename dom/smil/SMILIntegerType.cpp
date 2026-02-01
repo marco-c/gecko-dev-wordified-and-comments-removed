@@ -376,7 +376,10 @@ type
 ;
 aDistance
 =
-fabs
+std
+:
+:
+abs
 (
 double
 (

@@ -549,7 +549,10 @@ Element
 ;
 aDistance
 =
-fabs
+std
+:
+:
+abs
 (
 to
 .
