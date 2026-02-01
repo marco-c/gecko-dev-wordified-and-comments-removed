@@ -236,7 +236,7 @@ test
 -
 shards
 :
-100
+5
 num
 -
 test
