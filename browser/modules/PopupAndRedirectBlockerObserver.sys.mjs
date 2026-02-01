@@ -1010,12 +1010,11 @@ blockedPopupDontShowMessage
 ;
 blockedPopupDontShowMessage
 .
-setAttribute
+removeAttribute
 (
 "
 checked
 "
-false
 )
 ;
 gBrowser
