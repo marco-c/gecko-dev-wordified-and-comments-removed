@@ -3480,6 +3480,8 @@ weather
 see
 -
 forecast
+-
+description
 =
 .
 title
@@ -3490,6 +3492,15 @@ in
 {
 provider
 }
+.
+aria
+-
+description
+=
+{
+provider
+}
+Sponsored
 #
 Variables
 :
