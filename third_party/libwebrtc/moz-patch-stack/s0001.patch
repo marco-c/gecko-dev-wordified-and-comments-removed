@@ -3813,10 +3813,10 @@ rtp_parameters
 .
 cc
 index
-7bd443f711
+22d8e403c1
 .
 .
-a433aa21e7
+7363a34c59
 100644
 -
 -
@@ -3839,10 +3839,10 @@ rtp_parameters
 .
 cc
 -
-144
+223
 7
 +
-144
+223
 8
 bool
 RtpExtension

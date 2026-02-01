@@ -6259,10 +6259,6 @@ track_media_info_map
 transport_stats
 "
 "
-:
-webrtc_sdp
-"
-"
 .
 .
 /
