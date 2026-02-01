@@ -333,6 +333,9 @@ kIceOptionsTrickle
 kIceCandidateCount
 =
 32
+kBundle
+=
+33
 kRtpHeaderExtensionRemoved
 =
 40
