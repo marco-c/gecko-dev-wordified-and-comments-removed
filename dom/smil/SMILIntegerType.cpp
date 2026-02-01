@@ -8,9 +8,7 @@ h
 #
 include
 <
-math
-.
-h
+cmath
 >
 #
 include
@@ -376,7 +374,10 @@ type
 ;
 aDistance
 =
-fabs
+std
+:
+:
+abs
 (
 double
 (

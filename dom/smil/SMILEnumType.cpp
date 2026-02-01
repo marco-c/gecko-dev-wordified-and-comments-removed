@@ -7,13 +7,6 @@ h
 "
 #
 include
-<
-math
-.
-h
->
-#
-include
 "
 mozilla
 /

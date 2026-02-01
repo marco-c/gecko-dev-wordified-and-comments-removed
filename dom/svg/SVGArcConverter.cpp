@@ -153,7 +153,10 @@ return
 }
 mRx
 =
-fabs
+std
+:
+:
+abs
 (
 radii
 .
@@ -162,7 +165,10 @@ x
 ;
 mRy
 =
-fabs
+std
+:
+:
+abs
 (
 radii
 .
@@ -565,7 +571,10 @@ int
 (
 ceil
 (
-fabs
+std
+:
+:
+abs
 (
 dtheta
 /
@@ -629,7 +638,10 @@ from
 ;
 if
 (
-fabs
+std
+:
+:
+abs
 (
 dtheta
 )
