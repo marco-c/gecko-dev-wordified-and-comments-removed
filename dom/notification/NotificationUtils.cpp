@@ -254,6 +254,14 @@ Add
 ;
 return
 ;
+case
+PermissionCheckPurpose
+:
+:
+LoadImageForShow
+:
+return
+;
 default
 :
 MOZ_CRASH

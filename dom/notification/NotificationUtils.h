@@ -105,6 +105,7 @@ uint8_t
 PermissionRequest
 PermissionAttribute
 NotificationShow
+LoadImageForShow
 }
 ;
 bool
