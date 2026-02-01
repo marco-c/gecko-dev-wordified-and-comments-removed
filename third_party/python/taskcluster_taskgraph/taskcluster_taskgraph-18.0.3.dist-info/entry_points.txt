@@ -1,0 +1,10 @@
+[
+console_scripts
+]
+taskgraph
+=
+taskgraph
+.
+main
+:
+main
