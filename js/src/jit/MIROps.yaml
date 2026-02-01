@@ -5672,6 +5672,9 @@ if_operands_equal
 alias_set
 :
 none
+possibly_calls
+:
+true
 generate_lir
 :
 true
@@ -5708,6 +5711,9 @@ if_operands_equal
 alias_set
 :
 none
+possibly_calls
+:
+true
 generate_lir
 :
 true
