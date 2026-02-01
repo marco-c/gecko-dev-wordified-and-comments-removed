@@ -1345,7 +1345,6 @@ data
 )
 ;
 }
-}
 applyScopeDataTyped
 (
 [
@@ -1367,6 +1366,7 @@ trc
 }
 )
 ;
+}
 }
 template
 <
