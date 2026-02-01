@@ -34896,7 +34896,7 @@ originalURI
 if
 (
 !
-this
+gBrowser
 .
 _allowTransparentBrowser
 )
