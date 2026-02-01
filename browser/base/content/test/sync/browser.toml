@@ -137,13 +137,6 @@ html
 ]
 [
 "
-browser_sendtab_telemetry
-.
-js
-"
-]
-[
-"
 browser_signed_out_avatar_variants
 .
 js
