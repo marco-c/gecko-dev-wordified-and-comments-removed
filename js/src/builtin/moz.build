@@ -438,13 +438,6 @@ js
 "
 intl
 /
-ListFormat
-.
-js
-"
-"
-intl
-/
 NumberFormat
 .
 js

@@ -66549,12 +66549,6 @@ case
 InlinableNative
 :
 :
-IntlGuardToListFormat
-:
-case
-InlinableNative
-:
-:
 IntlGuardToNumberFormat
 :
 case
