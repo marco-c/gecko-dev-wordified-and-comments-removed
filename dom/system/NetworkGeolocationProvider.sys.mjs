@@ -2133,7 +2133,7 @@ result
 await
 this
 .
-makeRequest
+fetchLocation
 (
 url
 wifiData
@@ -2290,7 +2290,7 @@ error
 }
 }
 async
-makeRequest
+fetchLocation
 (
 url
 wifiData
@@ -2414,7 +2414,7 @@ timeout
 )
 ;
 let
-req
+response
 =
 await
 fetch
@@ -2433,7 +2433,7 @@ timeoutId
 if
 (
 !
-req
+response
 .
 ok
 )
@@ -2452,7 +2452,7 @@ non
 ok
 status
 {
-req
+response
 .
 status
 }
@@ -2460,7 +2460,7 @@ status
 cause
 :
 await
-req
+response
 .
 text
 (
@@ -2472,7 +2472,7 @@ text
 let
 result
 =
-req
+response
 .
 json
 (
