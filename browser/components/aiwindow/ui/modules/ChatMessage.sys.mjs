@@ -199,7 +199,7 @@ turn
 *
 param
 {
-string
+URL
 }
 [
 param
@@ -815,14 +815,6 @@ this
 pageUrl
 =
 pageUrl
-?
-new
-URL
-(
-pageUrl
-)
-:
-null
 ;
 this
 .
