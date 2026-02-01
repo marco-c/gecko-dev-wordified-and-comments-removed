@@ -75,6 +75,12 @@ pcm
 /
 *
 .
+rtceventlog
+*
+*
+/
+*
+.
 rtp
 *
 *
