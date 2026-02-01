@@ -3112,6 +3112,15 @@ getConnection
 (
 )
 ;
+if
+(
+!
+conn
+)
+{
+return
+;
+}
 let
 pagesRankChangedCount
 =
