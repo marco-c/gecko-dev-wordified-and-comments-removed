@@ -4580,7 +4580,7 @@ AFL
 +
 4
 .
-0x
+x
 source
 fetch
 :
@@ -4602,7 +4602,7 @@ AFLplusplus
 AFLplusplus
 revision
 :
-10db3a35cf17600594946edb6662d606bd4e4207
+ada0855022ac6e77de74622d0ab61ca7a37b9a9c
 cargo
 -
 vet
