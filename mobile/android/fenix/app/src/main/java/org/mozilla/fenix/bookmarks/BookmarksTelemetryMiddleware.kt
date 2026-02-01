@@ -795,6 +795,12 @@ BookmarksListMenuAction
 Bookmark
 .
 EditClicked
+is
+BookmarksListMenuAction
+.
+Bookmark
+.
+SelectClicked
 -
 >
 Unit
@@ -890,6 +896,12 @@ BookmarksListMenuAction
 Folder
 .
 DeleteClicked
+is
+BookmarksListMenuAction
+.
+Folder
+.
+SelectClicked
 -
 >
 Unit
