@@ -49,8 +49,10 @@ patch
 mode
 =
 none
-hg
+git
 commit
+-
+a
 -
 m
 "
@@ -85,8 +87,10 @@ patch
 mode
 =
 only
-hg
+git
 commit
+-
+a
 -
 m
 "
