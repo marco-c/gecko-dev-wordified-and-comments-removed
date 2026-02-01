@@ -2091,11 +2091,26 @@ text
 =
 =
 expected_text
+pytest
+.
+mark
+.
+parametrize
+(
+"
+value
+"
+[
+None
+1
+]
+)
 def
 test_implicit_wait_shadow_root
 (
 session
 get_test_page
+value
 )
 :
     
@@ -2113,7 +2128,7 @@ timeouts
 .
 implicit
 =
-1
+value
     
 session
 .
