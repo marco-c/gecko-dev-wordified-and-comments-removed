@@ -142,6 +142,8 @@ UpdateReferenceWindow
 DataSize
 rew_window
 double
+ref_window_mss_ratio
+double
 virtual_alpha_lim
 )
 const

@@ -1669,7 +1669,7 @@ Millis
 *
 2
 +
-20
+25
 )
 )
 ;
@@ -1740,7 +1740,7 @@ DataRate
 :
 KilobitsPerSec
 (
-5200
+5400
 )
 )
 ;
@@ -1754,7 +1754,7 @@ DataRate
 :
 KilobitsPerSec
 (
-4000
+2500
 )
 )
 ;
@@ -1768,7 +1768,7 @@ DataRate
 :
 KilobitsPerSec
 (
-5200
+5400
 )
 )
 ;
@@ -1782,7 +1782,7 @@ DataRate
 :
 KilobitsPerSec
 (
-3500
+2500
 )
 )
 ;
@@ -1821,7 +1821,7 @@ network_config
 .
 queue_delay_ms
 =
-5
+10
 .
 link_capacity
 =

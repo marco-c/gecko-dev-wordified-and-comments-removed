@@ -663,6 +663,9 @@ ref_window
 1
 .
 0
+1
+.
+0
 )
 ref_window
 )
@@ -814,6 +817,9 @@ ref_window
 1
 .
 0
+1
+.
+0
 )
 ;
 EXPECT_LT
@@ -821,7 +827,7 @@ EXPECT_LT
 updated_ref_window
 0
 .
-8
+98
 *
 ref_window
 )
@@ -987,6 +993,9 @@ delay_controller
 UpdateReferenceWindow
 (
 ref_window
+1
+.
+0
 1
 .
 0
