@@ -120,6 +120,14 @@ stack
 protector
 '
 ]
+LIBRARY_DEFINES
+[
+"
+MOZ_HAS_MOZGLUE
+"
+]
+=
+True
 Library
 (
 '
