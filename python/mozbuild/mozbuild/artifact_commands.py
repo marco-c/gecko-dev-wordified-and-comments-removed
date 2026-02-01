@@ -17,10 +17,6 @@ collections
 import
 OrderedDict
 import
-gecko_taskgraph
-.
-main
-import
 mozversioncontrol
 from
 mach
@@ -50,6 +46,13 @@ mozbuild
 dirutils
 import
 ensureParentDir
+from
+mozbuild
+.
+util
+import
+get_root_url
+get_taskcluster_client
 _COULD_NOT_FIND_ARTIFACTS_TEMPLATE
 =
 (
@@ -1646,15 +1649,6 @@ import
 requests
     
 from
-taskgraph
-.
-util
-.
-taskcluster
-import
-get_artifact_url
-    
-from
 mozbuild
 .
 action
@@ -1801,21 +1795,14 @@ net
 "
 )
     
-taskcluster_proxy_url
-=
-os
-.
-environ
-.
-get
-(
+if
 "
 TASKCLUSTER_PROXY_URL
 "
-)
-    
-if
-taskcluster_proxy_url
+in
+os
+.
+environ
 :
         
 tooltool_url
@@ -1823,7 +1810,9 @@ tooltool_url
 f
 "
 {
-taskcluster_proxy_url
+get_root_url
+(
+)
 }
 /
 {
@@ -1988,6 +1977,15 @@ artifact_name
 )
 :
             
+queue
+=
+get_taskcluster_client
+(
+"
+queue
+"
+)
+            
 for
 _
 in
@@ -2006,19 +2004,16 @@ sleeptime
 )
 :
                 
-cot
+cot_url
 =
-cache
+queue
 .
-_download_manager
-.
-session
-.
-get
+buildUrl
 (
                     
-get_artifact_url
-(
+"
+getArtifact
+"
 task_id
 "
 public
@@ -2031,8 +2026,20 @@ trust
 .
 json
 "
+                
 )
                 
+cot
+=
+cache
+.
+_download_manager
+.
+session
+.
+get
+(
+cot_url
 )
                 
 if
@@ -2124,17 +2131,9 @@ basename
 artifact_name
 )
             
-artifact_url
-=
-get_artifact_url
+if
 (
                 
-task_id
-                
-artifact_name
-                
-use_proxy
-=
 not
 artifact_name
 .
@@ -2145,7 +2144,62 @@ public
 /
 "
 )
+                
+and
+"
+TASKCLUSTER_PROXY_URL
+"
+in
+os
+.
+environ
             
+)
+:
+                
+artifact_url
+=
+queue
+.
+buildUrl
+(
+                    
+"
+getLatestArtifact
+"
+task_id
+artifact_name
+                
+)
+            
+else
+:
+                
+public_queue
+=
+get_taskcluster_client
+(
+"
+queue
+"
+block_proxy
+=
+True
+)
+                
+artifact_url
+=
+public_queue
+.
+buildUrl
+(
+                    
+"
+getLatestArtifact
+"
+task_id
+artifact_name
+                
 )
             
 super

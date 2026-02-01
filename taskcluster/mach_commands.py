@@ -18,24 +18,6 @@ from
 functools
 import
 partial
-import
-gecko_taskgraph
-.
-main
-from
-gecko_taskgraph
-.
-files_changed
-import
-get_locally_changed_files
-from
-gecko_taskgraph
-.
-main
-import
-commands
-as
-taskgraph_commands
 from
 mach
 .
@@ -56,16 +38,6 @@ mozsystemmonitor
 resourcemonitor
 import
 SystemResourceMonitor
-get_locally_changed_files
-.
-preload
-(
-os
-.
-getcwd
-(
-)
-)
 def
 setup_logging
 (
@@ -251,6 +223,15 @@ instance
 "
 "
 "
+    
+from
+gecko_taskgraph
+.
+main
+import
+commands
+as
+taskgraph_commands
     
 command
 =
@@ -606,6 +587,12 @@ in
 -
 tree
 "
+    
+virtualenv_name
+=
+"
+taskgraph
+"
 )
 def
 taskgraph_command
@@ -723,6 +710,15 @@ command_context
 options
 )
 :
+    
+from
+gecko_taskgraph
+.
+main
+import
+commands
+as
+taskgraph_commands
     
 try
 :
@@ -1067,6 +1063,11 @@ command_context
 options
 )
 :
+    
+import
+gecko_taskgraph
+.
+main
     
 gecko_taskgraph
 .
@@ -1527,6 +1528,15 @@ task
 "
 "
     
+from
+gecko_taskgraph
+.
+main
+import
+commands
+as
+taskgraph_commands
+    
 try
 :
         
@@ -1935,6 +1945,15 @@ options
 )
 :
     
+from
+gecko_taskgraph
+.
+main
+import
+commands
+as
+taskgraph_commands
+    
 setup_logging
 (
 command_context
@@ -2004,6 +2023,15 @@ command_context
 options
 )
 :
+    
+from
+gecko_taskgraph
+.
+main
+import
+commands
+as
+taskgraph_commands
     
 setup_logging
 (
@@ -2116,6 +2144,15 @@ kwargs
 )
 :
     
+from
+gecko_taskgraph
+.
+main
+import
+commands
+as
+taskgraph_commands
+    
 setup_logging
 (
 command_context
@@ -2177,6 +2214,15 @@ command_context
 kwargs
 )
 :
+    
+from
+gecko_taskgraph
+.
+main
+import
+commands
+as
+taskgraph_commands
     
 setup_logging
 (
@@ -2276,6 +2322,15 @@ command_context
 kwargs
 )
 :
+    
+from
+gecko_taskgraph
+.
+main
+import
+commands
+as
+taskgraph_commands
     
 setup_logging
 (
@@ -2400,6 +2455,15 @@ kwargs
 )
 :
     
+from
+gecko_taskgraph
+.
+main
+import
+commands
+as
+taskgraph_commands
+    
 setup_logging
 (
 command_context
@@ -2446,6 +2510,12 @@ by
 enable
 partials
 generation
+"
+    
+virtualenv_name
+=
+"
+try
 "
 )
 CommandArgument

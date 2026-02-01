@@ -5,12 +5,6 @@ pathlib
 import
 PurePath
 from
-gecko_taskgraph
-.
-target_tasks
-import
-filter_by_uncommon_try_tasks
-from
 .
 .
 cli
@@ -821,6 +815,13 @@ False
 kwargs
 )
 :
+    
+from
+gecko_taskgraph
+.
+target_tasks
+import
+filter_by_uncommon_try_tasks
     
 fzf
 =
