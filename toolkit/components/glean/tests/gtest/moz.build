@@ -16,6 +16,11 @@ TestFog
 .
 cpp
 "
+"
+TestFogBench
+.
+cpp
+"
 ]
 TEST_HARNESS_FILES
 .
