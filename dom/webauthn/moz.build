@@ -402,13 +402,3 @@ browser
 toml
 "
 ]
-TEST_DIRS
-+
-=
-[
-"
-tests
-/
-gtest
-"
-]
