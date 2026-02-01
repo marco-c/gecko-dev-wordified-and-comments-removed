@@ -1,4 +1,10 @@
 #
+ifndef
+BUILD_CLANG_PLUGIN_MOZSEARCH_PLUGIN_BINDINGOPERATIONS_H_
+#
+define
+BUILD_CLANG_PLUGIN_MOZSEARCH_PLUGIN_BINDINGOPERATIONS_H_
+#
 include
 <
 clang
@@ -148,3 +154,5 @@ Decl
 decl
 )
 ;
+#
+endif
