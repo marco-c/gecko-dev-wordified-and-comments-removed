@@ -454,6 +454,14 @@ webextension
 webextension
 "
 ]
+[
+"
+aiwindow_assistant
+"
+"
+aiwindow_assistant
+"
+]
 ]
 )
 ;
