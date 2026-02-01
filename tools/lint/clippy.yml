@@ -10,17 +10,6 @@ rust
 include
 :
 -
-browser
-/
-components
-/
-shell
-/
-rust
-/
-shell_windows
-/
--
 build
 /
 workspace
