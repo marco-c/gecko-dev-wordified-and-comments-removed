@@ -21,13 +21,6 @@ js
 ]
 [
 "
-browser_open_uri
-.
-js
-"
-]
-[
-"
 browser_verify_login
 .
 js
