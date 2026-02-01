@@ -967,6 +967,13 @@ js
 ]
 [
 "
+browser_tab_discard
+.
+js
+"
+]
+[
+"
 browser_tab_not_selected
 .
 js
