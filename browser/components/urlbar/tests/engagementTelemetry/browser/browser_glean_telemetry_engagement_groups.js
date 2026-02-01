@@ -114,7 +114,7 @@ results
 :
 "
 search_engine
-history
+history_adaptive
 "
 n_results
 :
