@@ -29,7 +29,7 @@ up
 windows
 "
 "
-permissionsGroup
+permissions
 "
 )
 ;

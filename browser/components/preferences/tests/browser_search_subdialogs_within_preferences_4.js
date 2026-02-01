@@ -100,7 +100,7 @@ location
 permissions
 "
 "
-permissionsGroup
+permissions
 "
 )
 ;
