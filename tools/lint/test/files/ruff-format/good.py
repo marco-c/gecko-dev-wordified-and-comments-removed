@@ -1,0 +1,12 @@
+def
+hello
+(
+)
+:
+    
+print
+(
+"
+world
+"
+)

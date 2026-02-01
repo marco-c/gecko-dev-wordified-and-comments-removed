@@ -272,6 +272,13 @@ py
 ]
 [
 "
+test_ruff_format
+.
+py
+"
+]
+[
+"
 test_rustfmt
 .
 py
