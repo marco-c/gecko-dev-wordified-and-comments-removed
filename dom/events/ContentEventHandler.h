@@ -455,7 +455,7 @@ aEndOffset
 nsresult
 SetEndAfter
 (
-nsINode
+nsIContent
 *
 aEndContainer
 )
