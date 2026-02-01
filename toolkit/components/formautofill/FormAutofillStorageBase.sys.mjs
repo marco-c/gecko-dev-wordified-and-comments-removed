@@ -1445,6 +1445,13 @@ address
 -
 housenumber
 "
+"
+address
+-
+extra
+-
+housesuffix
+"
 ]
 ;
 export

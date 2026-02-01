@@ -2133,6 +2133,9 @@ alpha_3_code
 "
 NLD
 "
+address_reversed
+:
+true
 }
 "
 data
