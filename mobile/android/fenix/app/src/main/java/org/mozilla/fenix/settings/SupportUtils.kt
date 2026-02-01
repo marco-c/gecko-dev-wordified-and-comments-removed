@@ -536,6 +536,14 @@ firefox
 android
 "
 )
+REMOTE_IMPROVEMENTS
+(
+"
+remote
+-
+improvements
+"
+)
 SEND_TABS
 (
 "
