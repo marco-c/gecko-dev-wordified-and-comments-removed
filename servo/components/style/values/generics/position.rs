@@ -1416,7 +1416,10 @@ constant
 pub
 target_element
 :
+TreeScoped
+<
 DashedIdent
+>
 pub
 side
 :
@@ -1499,6 +1502,8 @@ if
 self
 .
 target_element
+.
+value
 .
 is_empty
 (

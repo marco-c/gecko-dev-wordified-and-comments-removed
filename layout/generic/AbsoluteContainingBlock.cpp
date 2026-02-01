@@ -1339,6 +1339,12 @@ GetParent
 (
 )
 nullptr
+StyleCascadeLevel
+:
+:
+Default
+(
+)
 false
 &
 result
@@ -6484,6 +6490,12 @@ ResolveAnchorPosRect
 aKidFrame
 aDelegatingFrame
 nullptr
+StyleCascadeLevel
+:
+:
+Default
+(
+)
 false
 aAnchorPosResolutionCache
 )

@@ -868,6 +868,8 @@ const
 nsAtom
 *
 aAnchorName
+StyleCascadeLevel
+aAnchorTreeScope
 bool
 aCBRectIsvalid
 AnchorPosResolutionCache
@@ -890,6 +892,8 @@ const
 nsAtom
 *
 aAnchorName
+StyleCascadeLevel
+aAnchorTreeScope
 AnchorPosResolutionCache
 *
 aResolutionCache
