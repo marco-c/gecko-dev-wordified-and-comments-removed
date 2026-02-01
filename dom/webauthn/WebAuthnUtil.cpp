@@ -2225,7 +2225,13 @@ NS_ERROR_FAILURE
 }
 aOut
 =
+std
+:
+:
+move
+(
 jsonString
+)
 ;
 return
 NS_OK
@@ -3030,7 +3036,13 @@ NS_ERROR_FAILURE
 }
 aOut
 =
+std
+:
+:
+move
+(
 jsonString
+)
 ;
 return
 NS_OK
