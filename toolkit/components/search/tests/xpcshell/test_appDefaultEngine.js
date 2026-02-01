@@ -140,9 +140,7 @@ Promise
 all
 (
 [
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -157,9 +155,7 @@ Assert
 .
 equal
 (
-Services
-.
-search
+SearchService
 .
 appDefaultEngine
 .
@@ -204,9 +200,7 @@ Assert
 .
 equal
 (
-Services
-.
-search
+SearchService
 .
 appDefaultEngine
 .

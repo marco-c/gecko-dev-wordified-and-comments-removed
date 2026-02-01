@@ -597,9 +597,7 @@ let
 initResult
 =
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -640,9 +638,7 @@ service
 let
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -708,9 +704,7 @@ ok
 !
 (
 await
-Services
-.
-search
+SearchService
 .
 getEngineById
 (
@@ -732,9 +726,7 @@ let
 engines
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngines
 (

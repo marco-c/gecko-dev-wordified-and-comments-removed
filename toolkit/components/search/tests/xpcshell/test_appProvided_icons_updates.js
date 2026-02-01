@@ -133,9 +133,7 @@ size
 let
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineById
 (
@@ -539,9 +537,7 @@ CONFIG
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (

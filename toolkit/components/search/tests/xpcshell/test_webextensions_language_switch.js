@@ -64,9 +64,7 @@ unused
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -203,9 +201,7 @@ Name
 let
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineById
 (
@@ -260,9 +256,7 @@ name
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 setDefault
 (
@@ -319,9 +313,7 @@ promiseChanged
 ;
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineById
 (
@@ -381,9 +373,7 @@ equal
 (
 (
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (
@@ -450,9 +440,7 @@ promiseChanged
 ;
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineById
 (
@@ -517,9 +505,7 @@ equal
 (
 (
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (

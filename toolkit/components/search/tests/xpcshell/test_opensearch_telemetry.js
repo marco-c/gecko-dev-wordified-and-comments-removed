@@ -177,9 +177,7 @@ testResetFOG
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 runBackgroundChecks
 (
@@ -226,9 +224,7 @@ useHttpServer
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (

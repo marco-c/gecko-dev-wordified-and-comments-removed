@@ -184,9 +184,7 @@ initXPCShellAddonManager
 (
 )
 ;
-Services
-.
-search
+SearchService
 .
 wrappedJSObject
 .
@@ -195,9 +193,7 @@ reset
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -389,9 +385,7 @@ let
 engines
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngines
 (
@@ -455,9 +449,7 @@ resetHistory
 (
 )
 ;
-Services
-.
-search
+SearchService
 .
 wrappedJSObject
 .
@@ -466,9 +458,7 @@ reset
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -491,9 +481,7 @@ awaitStartup
 let
 engineAfterRestart
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (

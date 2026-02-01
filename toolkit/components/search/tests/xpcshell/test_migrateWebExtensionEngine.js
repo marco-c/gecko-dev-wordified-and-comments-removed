@@ -42,9 +42,7 @@ unused
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -118,9 +116,7 @@ _extensionID
 null
 ;
 await
-Services
-.
-search
+SearchService
 .
 setDefault
 (
@@ -173,9 +169,7 @@ true
 ;
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -220,9 +214,7 @@ equal
 (
 (
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (
@@ -320,9 +312,7 @@ _extensionID
 null
 ;
 await
-Services
-.
-search
+SearchService
 .
 setDefault
 (
@@ -376,9 +366,7 @@ true
 ;
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -405,9 +393,7 @@ engine
 ;
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -453,9 +439,7 @@ equal
 (
 (
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (
