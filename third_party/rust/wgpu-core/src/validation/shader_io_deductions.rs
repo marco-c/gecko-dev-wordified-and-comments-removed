@@ -329,6 +329,10 @@ BuiltIn
 :
 :
 Barycentric
+{
+.
+.
+}
 =
 >
 InterStageBuiltIn

@@ -483,6 +483,11 @@ PointCoord
 FrontFacing
 PrimitiveIndex
 Barycentric
+{
+perspective
+:
+bool
+}
 SampleIndex
 SampleMask
 GlobalInvocationId
@@ -1111,6 +1116,7 @@ Interpolation
 Perspective
 Linear
 Flat
+PerVertex
 }
 #
 [

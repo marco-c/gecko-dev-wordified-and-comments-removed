@@ -1698,6 +1698,10 @@ pub
 force_loop_bounding
 :
 bool
+pub
+ray_query_initialization_tracking
+:
+bool
 }
 impl
 Default
@@ -1788,6 +1792,9 @@ restrict_indexing
 :
 true
 force_loop_bounding
+:
+true
+ray_query_initialization_tracking
 :
 true
 }
