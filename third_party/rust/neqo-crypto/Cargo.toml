@@ -109,7 +109,7 @@ version
 "
 1
 .
-87
+81
 .
 0
 "
@@ -125,9 +125,9 @@ version
 "
 0
 .
-22
+21
 .
-1
+0
 "
 authors
 =
@@ -872,11 +872,6 @@ if_then_some_else_none
 "
 warn
 "
-impl_trait_in_params
-=
-"
-warn
-"
 infinite_loop
 =
 "
@@ -905,7 +900,7 @@ warn
 literal_string_with_formatting_args
 =
 "
-warn
+allow
 "
 lossy_float_literal
 =
@@ -998,6 +993,11 @@ rc_buffer
 warn
 "
 rc_mutex
+=
+"
+warn
+"
+redundant_test_prefix
 =
 "
 warn
@@ -1155,11 +1155,6 @@ absolute_paths_not_starting_with_crate
 "
 warn
 "
-ambiguous_negative_literals
-=
-"
-warn
-"
 explicit_outlives_requirements
 =
 "
@@ -1176,11 +1171,6 @@ missing_abi
 warn
 "
 non_ascii_idents
-=
-"
-warn
-"
-redundant_imports
 =
 "
 warn

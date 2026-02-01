@@ -586,7 +586,6 @@ SSL_OptionGetDefault
 (
 opt
 &
-raw
 mut
 v
 )

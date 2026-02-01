@@ -141,7 +141,6 @@ space
 }
 }
 pub
-const
 fn
 is_either_full
 (

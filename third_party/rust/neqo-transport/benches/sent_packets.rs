@@ -50,6 +50,7 @@ neqo_transport
 :
 :
 {
+self
 packet
 recovery
 :

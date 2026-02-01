@@ -87,7 +87,6 @@ MIB_IPINTERFACE_TABLE
 impl
 MibTablePtr
 {
-const
 fn
 mut_ptr_ptr
 (
@@ -473,8 +472,6 @@ MIB_IPINTERFACE_ROW
 >
 (
 &
-raw
-const
 (
 *
 if_table

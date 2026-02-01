@@ -758,7 +758,6 @@ sent
 must_use
 ]
 pub
-const
 fn
 has_buffered_data
 (

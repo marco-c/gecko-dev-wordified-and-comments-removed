@@ -290,7 +290,6 @@ SSL_GetEchRetryConfigs
 (
 fd
 &
-raw
 mut
 item
 )
@@ -339,7 +338,6 @@ slc
 SECITEM_FreeItem
 (
 &
-raw
 mut
 item
 PRBool
@@ -596,7 +594,6 @@ cast
 (
 )
 &
-raw
 mut
 public_ptr
 p11
@@ -709,7 +706,6 @@ cast
 (
 )
 &
-raw
 mut
 public_ptr
 p11
@@ -1009,7 +1005,6 @@ as_mut_ptr
 (
 )
 &
-raw
 mut
 encoded_len
 c_uint

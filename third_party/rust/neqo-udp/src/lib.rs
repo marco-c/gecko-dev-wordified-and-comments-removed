@@ -76,10 +76,10 @@ neqo_common
 :
 :
 {
-datagram
 qdebug
 qtrace
 Datagram
+DatagramBatch
 Tos
 }
 ;
@@ -226,10 +226,7 @@ _
 d
 :
 &
-datagram
-:
-:
-Batch
+DatagramBatch
 )
 -
 >
@@ -371,7 +368,6 @@ Ignoring
 error
 :
 {
-e
 }
 "
 d
@@ -407,6 +403,7 @@ d
 destination
 (
 )
+e
 )
 ;
 return
@@ -1327,10 +1324,7 @@ self
 d
 :
 &
-datagram
-:
-:
-Batch
+DatagramBatch
 )
 -
 >
@@ -1796,10 +1790,7 @@ unwrap
 let
 datagram
 :
-datagram
-:
-:
-Batch
+DatagramBatch
 =
 Datagram
 :
@@ -2526,10 +2517,7 @@ max_gso_segments
 let
 batch
 =
-datagram
-:
-:
-Batch
+DatagramBatch
 :
 :
 new

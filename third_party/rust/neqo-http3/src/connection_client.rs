@@ -742,7 +742,6 @@ Ok
 must_use
 ]
 pub
-const
 fn
 connection_id
 (
@@ -36037,8 +36036,6 @@ new_server
 :
 <
 CountingConnectionIdGenerator
-&
-str
 >
 (
 DEFAULT_ALPN_H3
@@ -36107,8 +36104,6 @@ new_server
 :
 <
 CountingConnectionIdGenerator
-&
-str
 >
 (
 DEFAULT_ALPN_H3

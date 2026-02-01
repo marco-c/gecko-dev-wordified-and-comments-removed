@@ -493,7 +493,7 @@ control_stream_local
 ControlStreamLocal
 :
 :
-default
+new
 (
 )
 qpack_encoder
@@ -2385,7 +2385,7 @@ control_stream_local
 ControlStreamLocal
 :
 :
-default
+new
 (
 )
 ;
@@ -8815,7 +8815,6 @@ state
 must_use
 ]
 pub
-const
 fn
 state_mut
 (

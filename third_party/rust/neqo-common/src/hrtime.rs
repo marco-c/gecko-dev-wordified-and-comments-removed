@@ -902,7 +902,6 @@ unsafe
 mach_timebase_info
 (
 &
-raw
 mut
 timebase_info
 )
@@ -1060,11 +1059,9 @@ cast
 (
 )
 &
-raw
 mut
 count
 &
-raw
 mut
 get_default
 )

@@ -61,9 +61,6 @@ SSLExtensionType
 SSLExtensionWriter
 "
 "
-SSLExtraServerCertData
-"
-"
 SSLHelloRetryRequestAction
 "
 "
@@ -262,9 +259,6 @@ opaque
 CERTCertificate
 "
 "
-CERTCertificateList
-"
-"
 PK11SymKey
 "
 "
@@ -278,6 +272,9 @@ SECKEYPrivateKey
 "
 "
 SECKEYPublicKey
+"
+"
+SSLExtraServerCertData
 "
 ]
 [

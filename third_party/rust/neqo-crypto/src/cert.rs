@@ -131,7 +131,6 @@ SSL_PeerCertificateChainDER
 (
 fd
 &
-raw
 mut
 chain_ptr
 )

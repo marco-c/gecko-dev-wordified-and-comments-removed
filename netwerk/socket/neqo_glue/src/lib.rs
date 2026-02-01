@@ -138,7 +138,6 @@ neqo_common
 :
 :
 {
-datagram
 event
 :
 :
@@ -153,6 +152,7 @@ qlog
 Qlog
 qwarn
 Datagram
+DatagramBatch
 Decoder
 Encoder
 Header
@@ -575,10 +575,7 @@ buffered_outbound_datagram
 :
 Option
 <
-datagram
-:
-:
-Batch
+DatagramBatch
 >
 datagram_segment_size_sent
 :
