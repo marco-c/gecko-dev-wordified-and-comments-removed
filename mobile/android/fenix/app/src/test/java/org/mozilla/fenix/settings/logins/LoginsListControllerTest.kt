@@ -147,14 +147,6 @@ mozilla
 .
 fenix
 .
-BrowserDirection
-import
-org
-.
-mozilla
-.
-fenix
-.
 GleanMetrics
 .
 Logins
@@ -294,7 +286,6 @@ browserNavigator
 (
 String
 Boolean
-BrowserDirection
 )
 -
 >
@@ -529,9 +520,6 @@ SumoTopic
 SYNC_SETUP
 )
 true
-BrowserDirection
-.
-FromSavedLoginsFragment
 )
 }
 }
