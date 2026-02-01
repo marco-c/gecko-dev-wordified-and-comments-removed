@@ -1,9 +1,9 @@
 #
 ifndef
-GlobalVariableInitializationChecker_h__
+GlobalVariableInitializationChecker_h_
 #
 define
-GlobalVariableInitializationChecker_h__
+GlobalVariableInitializationChecker_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-ScopeChecker_h__
+ScopeChecker_h_
 #
 define
-ScopeChecker_h__
+ScopeChecker_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-VariableUsageHelpers_h__
+VariableUsageHelpers_h_
 #
 define
-VariableUsageHelpers_h__
+VariableUsageHelpers_h_
 #
 include
 "

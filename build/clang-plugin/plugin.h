@@ -1,9 +1,9 @@
 #
 ifndef
-plugin_h__
+plugin_h_
 #
 define
-plugin_h__
+plugin_h_
 #
 include
 "

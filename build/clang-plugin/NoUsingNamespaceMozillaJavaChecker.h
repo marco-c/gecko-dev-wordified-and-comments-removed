@@ -1,9 +1,9 @@
 #
 ifndef
-NoUsingNamespaceMozillaJavaChecker_h__
+NoUsingNamespaceMozillaJavaChecker_h_
 #
 define
-NoUsingNamespaceMozillaJavaChecker_h__
+NoUsingNamespaceMozillaJavaChecker_h_
 #
 include
 "

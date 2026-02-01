@@ -1,9 +1,9 @@
 #
 ifndef
-ExplicitOperatorBoolChecker_h__
+ExplicitOperatorBoolChecker_h_
 #
 define
-ExplicitOperatorBoolChecker_h__
+ExplicitOperatorBoolChecker_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-NoPrincipalGetURI_h__
+NoPrincipalGetURI_h_
 #
 define
-NoPrincipalGetURI_h__
+NoPrincipalGetURI_h_
 #
 include
 "

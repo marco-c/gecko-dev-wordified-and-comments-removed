@@ -1,9 +1,9 @@
 #
 ifndef
-RefCountedCopyConstructorChecker_h__
+RefCountedCopyConstructorChecker_h_
 #
 define
-RefCountedCopyConstructorChecker_h__
+RefCountedCopyConstructorChecker_h_
 #
 include
 "

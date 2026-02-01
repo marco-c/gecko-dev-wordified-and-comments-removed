@@ -1,9 +1,9 @@
 #
 ifndef
-NoAddRefReleaseOnReturnChecker_h__
+NoAddRefReleaseOnReturnChecker_h_
 #
 define
-NoAddRefReleaseOnReturnChecker_h__
+NoAddRefReleaseOnReturnChecker_h_
 #
 include
 "

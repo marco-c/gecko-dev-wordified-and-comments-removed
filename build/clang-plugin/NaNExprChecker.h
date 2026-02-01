@@ -1,9 +1,9 @@
 #
 ifndef
-NaNExprChecker_h__
+NaNExprChecker_h_
 #
 define
-NaNExprChecker_h__
+NaNExprChecker_h_
 #
 include
 "

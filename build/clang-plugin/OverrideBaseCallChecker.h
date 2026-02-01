@@ -1,9 +1,9 @@
 #
 ifndef
-OverrideBaseCallChecker_h__
+OverrideBaseCallChecker_h_
 #
 define
-OverrideBaseCallChecker_h__
+OverrideBaseCallChecker_h_
 #
 include
 "

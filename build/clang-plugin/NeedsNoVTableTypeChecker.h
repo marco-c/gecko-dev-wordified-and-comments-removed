@@ -1,9 +1,9 @@
 #
 ifndef
-NeedsNoVTableTypeChecker_h__
+NeedsNoVTableTypeChecker_h_
 #
 define
-NeedsNoVTableTypeChecker_h__
+NeedsNoVTableTypeChecker_h_
 #
 include
 "

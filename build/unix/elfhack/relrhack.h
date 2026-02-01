@@ -1,9 +1,9 @@
 #
 ifndef
-__RELRHACK_H__
+RELRHACK_H_
 #
 define
-__RELRHACK_H__
+RELRHACK_H_
 #
 include
 <

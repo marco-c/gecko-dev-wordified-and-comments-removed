@@ -1,9 +1,9 @@
 #
 ifndef
-NoDuplicateRefCntMemberChecker_h__
+NoDuplicateRefCntMemberChecker_h_
 #
 define
-NoDuplicateRefCntMemberChecker_h__
+NoDuplicateRefCntMemberChecker_h_
 #
 include
 "

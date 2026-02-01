@@ -1,9 +1,9 @@
 #
 ifndef
-CanRunScriptChecker_h__
+CanRunScriptChecker_h_
 #
 define
-CanRunScriptChecker_h__
+CanRunScriptChecker_h_
 #
 include
 "

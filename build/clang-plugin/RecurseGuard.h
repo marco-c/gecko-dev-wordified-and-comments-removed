@@ -1,9 +1,9 @@
 #
 ifndef
-RecurseGuard_h__
+RecurseGuard_h_
 #
 define
-RecurseGuard_h__
+RecurseGuard_h_
 #
 include
 "

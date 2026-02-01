@@ -1,9 +1,9 @@
 #
 ifndef
-ArithmeticArgChecker_h__
+ArithmeticArgChecker_h_
 #
 define
-ArithmeticArgChecker_h__
+ArithmeticArgChecker_h_
 #
 include
 "

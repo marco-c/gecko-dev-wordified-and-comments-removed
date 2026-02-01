@@ -1,9 +1,9 @@
 #
 ifndef
-AssertAssignmentChecker_h__
+AssertAssignmentChecker_h_
 #
 define
-AssertAssignmentChecker_h__
+AssertAssignmentChecker_h_
 #
 include
 "
