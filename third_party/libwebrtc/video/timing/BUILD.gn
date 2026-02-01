@@ -139,6 +139,13 @@ simulator
 :
 simulator_tests
 "
+"
+simulator
+/
+test
+:
+test_tests
+"
 ]
 }
 }
