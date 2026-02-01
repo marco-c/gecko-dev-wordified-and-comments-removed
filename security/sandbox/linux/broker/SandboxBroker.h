@@ -264,6 +264,11 @@ MAY_ACCESS
 )
 ;
 void
+RemoveAllDenyRules
+(
+)
+;
+void
 AddPath
 (
 int

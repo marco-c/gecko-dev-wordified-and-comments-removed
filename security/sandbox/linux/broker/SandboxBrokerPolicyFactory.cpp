@@ -4658,6 +4658,13 @@ aFileProcess
 policy
 -
 >
+RemoveAllDenyRules
+(
+)
+;
+policy
+-
+>
 AddTree
 (
 rdonly
