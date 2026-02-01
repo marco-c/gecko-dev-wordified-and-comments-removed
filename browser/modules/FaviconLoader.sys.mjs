@@ -94,7 +94,7 @@ src
 /
 /
 /
-browser
+toolkit
 /
 modules
 /

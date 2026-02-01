@@ -733,7 +733,7 @@ src
 /
 /
 /
-browser
+toolkit
 /
 modules
 /
@@ -41085,6 +41085,17 @@ TabNotes
 delete
 (
 tab
+{
+telemetrySource
+:
+this
+.
+TabNotes
+.
+TELEMETRY_SOURCE
+.
+TAB_CONTEXT_MENU
+}
 )
 ;
 }

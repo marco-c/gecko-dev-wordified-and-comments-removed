@@ -168,7 +168,7 @@ src
 /
 /
 /
-browser
+toolkit
 /
 modules
 /
