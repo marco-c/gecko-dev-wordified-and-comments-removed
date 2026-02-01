@@ -1,0 +1,17 @@
+evalInWorker
+(
+"
+try
+{
+getAtomMarkIndex
+(
+'
+'
+)
+}
+catch
+{
+}
+"
+)
+;
