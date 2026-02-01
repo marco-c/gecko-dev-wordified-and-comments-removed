@@ -166,7 +166,7 @@ include
 "
 RelationTypeMap
 .
-h
+inc
 "
 }
 return

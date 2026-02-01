@@ -257,7 +257,7 @@ include
 "
 RelationTypeMap
 .
-h
+inc
 "
 }
 ;

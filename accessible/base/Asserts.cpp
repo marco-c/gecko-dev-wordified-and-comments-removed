@@ -106,7 +106,7 @@ include
 "
 RoleMap
 .
-h
+inc
 "
 #
 undef
@@ -167,7 +167,7 @@ include
 "
 RelationTypeMap
 .
-h
+inc
 "
 #
 undef
