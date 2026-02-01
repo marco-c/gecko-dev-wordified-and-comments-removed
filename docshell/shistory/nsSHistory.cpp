@@ -2426,7 +2426,13 @@ data
 >
 resultEntry
 =
+std
+:
+:
+move
+(
 dest
+)
 ;
 return
 rv
