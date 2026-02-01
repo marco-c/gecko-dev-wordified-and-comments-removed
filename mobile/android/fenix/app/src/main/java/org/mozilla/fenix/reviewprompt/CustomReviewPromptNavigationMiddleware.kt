@@ -288,6 +288,7 @@ action
 /
 *
 *
+*
 Events
 to
 emit
@@ -310,6 +311,7 @@ CustomReviewPromptNavigationEvent
 /
 *
 *
+*
 Dismiss
 the
 custom
@@ -328,6 +330,7 @@ CustomReviewPromptNavigationEvent
 (
 )
 /
+*
 *
 *
 Call
@@ -354,6 +357,7 @@ CustomReviewPromptNavigationEvent
 (
 )
 /
+*
 *
 *
 Open
