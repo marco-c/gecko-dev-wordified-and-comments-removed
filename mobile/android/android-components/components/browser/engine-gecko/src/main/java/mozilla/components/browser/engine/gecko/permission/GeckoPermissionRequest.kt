@@ -681,6 +681,10 @@ isCompleted
 {
 geckoResults
 .
+toList
+(
+)
+.
 forEach
 {
 it
@@ -708,6 +712,10 @@ isCompleted
 )
 {
 geckoResults
+.
+toList
+(
+)
 .
 forEach
 {
@@ -1092,6 +1100,10 @@ Permission
 {
 callbacks
 .
+toList
+(
+)
+.
 forEach
 {
 it
@@ -1108,6 +1120,10 @@ reject
 )
 {
 callbacks
+.
+toList
+(
+)
 .
 forEach
 {
