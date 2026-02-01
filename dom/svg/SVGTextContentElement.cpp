@@ -180,7 +180,10 @@ SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
-SVGContentUtils
+SVGLength
+:
+:
+Axis
 :
 :
 XY

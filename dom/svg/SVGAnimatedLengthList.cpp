@@ -344,7 +344,10 @@ SVGElement
 aSVGElement
 uint8_t
 aAttrEnum
-uint8_t
+SVGLength
+:
+:
+Axis
 aAxis
 bool
 aCanZeroPadList
