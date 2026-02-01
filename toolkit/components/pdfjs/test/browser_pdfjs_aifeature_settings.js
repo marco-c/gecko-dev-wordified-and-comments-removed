@@ -559,15 +559,12 @@ getBoolPref
 PREF_ALT_TEXT_ENABLED
 true
 )
-true
+false
 "
 disable
 (
 )
-don
-'
-t
-change
+changes
 pdfjs
 .
 enableAltText
