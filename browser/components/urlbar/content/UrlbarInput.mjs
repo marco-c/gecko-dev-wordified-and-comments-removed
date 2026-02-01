@@ -25338,7 +25338,10 @@ params
 .
 allowPinnedTabHostChange
 =
-true
+this
+.
+#
+isAddressbar
 ;
 params
 .
