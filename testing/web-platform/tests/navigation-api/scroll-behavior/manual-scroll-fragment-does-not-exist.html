@@ -262,7 +262,7 @@ scroll
 (
 )
 ;
-assert_not_equals
+assert_equals
 (
 window
 .
@@ -279,7 +279,7 @@ promises
 .
 finished
 ;
-assert_not_equals
+assert_equals
 (
 window
 .
@@ -295,8 +295,11 @@ scroll
 (
 )
 should
-do
-nothing
+scroll
+to
+beginning
+of
+document
 when
 the
 fragment
