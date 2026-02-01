@@ -134,7 +134,6 @@ nsGkAtoms
 :
 stdDeviation
 2
-2
 }
 }
 ;

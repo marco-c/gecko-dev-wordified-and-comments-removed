@@ -1816,7 +1816,6 @@ nsGkAtoms
 :
 kernelUnitLength
 0
-0
 }
 }
 ;

@@ -170,7 +170,6 @@ nsGkAtoms
 :
 kernelUnitLength
 0
-0
 }
 }
 ;
@@ -221,7 +220,6 @@ nsGkAtoms
 :
 :
 order
-3
 3
 }
 }

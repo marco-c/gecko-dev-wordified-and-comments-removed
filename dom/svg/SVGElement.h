@@ -2047,11 +2047,7 @@ mName
 ;
 const
 float
-mDefaultValue1
-;
-const
-float
-mDefaultValue2
+mDefaultValue
 ;
 }
 ;
@@ -2097,11 +2093,7 @@ mName
 ;
 const
 int32_t
-mDefaultValue1
-;
-const
-int32_t
-mDefaultValue2
+mDefaultValue
 ;
 }
 ;

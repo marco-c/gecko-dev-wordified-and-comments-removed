@@ -143,11 +143,7 @@ aAttrEnum
 =
 0xff
 float
-aValue1
-=
-0
-float
-aValue2
+aValue
 =
 0
 )
@@ -158,8 +154,8 @@ mBaseVal
 =
 PairValues
 (
-aValue1
-aValue2
+aValue
+aValue
 )
 ;
 mAttrEnum

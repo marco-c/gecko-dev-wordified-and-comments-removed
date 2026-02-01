@@ -165,7 +165,6 @@ nsGkAtoms
 :
 baseFrequency
 0
-0
 }
 }
 ;

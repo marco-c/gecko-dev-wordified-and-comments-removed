@@ -120,7 +120,6 @@ nsGkAtoms
 :
 radius
 0
-0
 }
 }
 ;
