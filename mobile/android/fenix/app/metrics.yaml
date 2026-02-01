@@ -16734,7 +16734,7 @@ prompt
 send_in_pings
 :
 -
-metrics
+events
 bugs
 :
 -
@@ -56702,10 +56702,6 @@ The
 set
 value
 .
-send_in_pings
-:
--
-metrics
 bugs
 :
 -
