@@ -719,4 +719,14 @@ false
 )
 ;
 }
+static
+get
+isManagedByPolicy
+(
+)
+{
+return
+false
+;
+}
 }
