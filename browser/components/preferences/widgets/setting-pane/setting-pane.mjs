@@ -899,6 +899,16 @@ config
 iconSrc
 }
 .
+supportPage
+=
+{
+this
+.
+config
+.
+supportPage
+}
+.
 backButton
 =
 {
