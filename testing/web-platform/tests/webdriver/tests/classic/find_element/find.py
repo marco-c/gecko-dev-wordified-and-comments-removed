@@ -1158,26 +1158,11 @@ assert_success
 (
 response
 )
-pytest
-.
-mark
-.
-parametrize
-(
-"
-value
-"
-[
-None
-1
-]
-)
 def
 test_implicit_wait
 (
 session
 inline
-value
 )
 :
     
@@ -1246,7 +1231,7 @@ timeouts
 .
 implicit
 =
-value
+1
     
 response
 =

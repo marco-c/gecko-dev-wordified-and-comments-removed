@@ -1965,16 +1965,9 @@ match
 *
 key
 {
+_x
 "
 script
-"
-|
-"
-pageLoad
-"
-|
-"
-implicit
 "
 if
 value
