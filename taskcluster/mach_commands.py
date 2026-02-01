@@ -1771,10 +1771,31 @@ lowerIsBetter
 True
                         
 "
-shouldAlert
+monitor
 "
 :
 True
+                        
+"
+alertNotifyEmails
+"
+:
+[
+                            
+"
+release
++
+gecko
+-
+decision
+-
+alerts
+mozilla
+.
+com
+"
+                        
+]
                         
 "
 subtests
