@@ -68,12 +68,11 @@ class
 nsAlertsIconListener
 :
 public
-nsIAlertNotificationImageListener
+nsISupports
 {
 public
 :
 NS_DECL_ISUPPORTS
-NS_DECL_NSIALERTNOTIFICATIONIMAGELISTENER
 nsAlertsIconListener
 (
 nsSystemAlertsService
@@ -89,7 +88,7 @@ aAlertName
 )
 ;
 nsresult
-InitAlertAsync
+InitAlert
 (
 nsIAlertNotification
 *
@@ -426,9 +425,9 @@ mClosureHandler
 nsresult
 ShowAlert
 (
-GdkPixbuf
+imgIContainer
 *
-aPixbuf
+aImage
 )
 ;
 void

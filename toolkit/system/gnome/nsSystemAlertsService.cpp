@@ -163,7 +163,7 @@ return
 alertListener
 -
 >
-InitAlertAsync
+InitAlert
 (
 aAlert
 aAlertListener
