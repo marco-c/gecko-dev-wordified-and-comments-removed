@@ -15839,6 +15839,11 @@ peer_connection_svc_integrationtest
 cc
 "
 "
+pranswer_switch_integrationtest
+.
+cc
+"
+"
 proxy_unittest
 .
 cc
