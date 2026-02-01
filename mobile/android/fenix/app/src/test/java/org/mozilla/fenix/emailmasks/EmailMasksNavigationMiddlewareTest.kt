@@ -127,6 +127,8 @@ settings
 .
 emailmasks
 .
+middleware
+.
 EmailMasksNavigationMiddleware
 import
 org
@@ -150,6 +152,8 @@ fenix
 settings
 .
 emailmasks
+.
+middleware
 .
 EmailMasksUrlProvider
 import
