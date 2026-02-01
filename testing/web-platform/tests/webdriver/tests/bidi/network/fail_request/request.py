@@ -121,12 +121,19 @@ assert_fetch_error_event
         
 fetch_error_event
         
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
-        
-redirect_count
-=
+"
+redirectCount
+"
+:
 0
+}
     
 )

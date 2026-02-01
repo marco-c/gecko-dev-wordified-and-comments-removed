@@ -255,14 +255,23 @@ before_request_sent_events
 [
 0
 ]
-is_blocked
+            
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 True
+"
 intercepts
-=
+"
+:
 [
 intercept
 ]
+}
         
 )
     
@@ -291,9 +300,15 @@ before_request_sent_events
 [
 0
 ]
-is_blocked
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 False
+}
         
 )
         
@@ -304,14 +319,23 @@ response_started_events
 [
 0
 ]
-is_blocked
+            
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 True
+"
 intercepts
-=
+"
+:
 [
 intercept
 ]
+}
         
 )
     
@@ -385,13 +409,21 @@ before_request_sent_events
     
 assert_before_request_sent_event
 (
+        
 before_request_sent_events
 [
 1
 ]
-is_blocked
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 False
+}
+    
 )
     
 if
@@ -414,13 +446,21 @@ response_started_events
         
 assert_response_event
 (
+            
 response_started_events
 [
 0
 ]
-is_blocked
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 False
+}
+        
 )
     
 elif
@@ -443,13 +483,21 @@ response_started_events
         
 assert_response_event
 (
+            
 response_started_events
 [
 1
 ]
-is_blocked
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 False
+}
+        
 )
     
 assert
@@ -463,13 +511,21 @@ response_completed_events
     
 assert_response_event
 (
+        
 response_completed_events
 [
 0
 ]
-is_blocked
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 False
+}
+    
 )
 pytest
 .

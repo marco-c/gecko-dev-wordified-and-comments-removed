@@ -191,13 +191,23 @@ events
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 expected_request
+            
+"
+response
+"
+:
+expected_response
         
-expected_response
-=
-expected_response
+}
     
 )
     
@@ -261,13 +271,23 @@ events
 1
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 expected_request
+            
+"
+response
+"
+:
+expected_response
         
-expected_response
-=
-expected_response
+}
     
 )
 pytest
@@ -429,13 +449,23 @@ events
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 expected_request
+            
+"
+response
+"
+:
+expected_response
         
-expected_response
-=
-expected_response
+}
     
 )
     
@@ -479,13 +509,23 @@ events
 1
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 redirected_request
-        
-expected_response
-=
+            
+"
+response
+"
+:
 redirected_response
+        
+}
     
 )
     
@@ -538,13 +578,23 @@ events
 2
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 expected_request
+            
+"
+response
+"
+:
+expected_response
         
-expected_response
-=
-expected_response
+}
     
 )
     
@@ -556,13 +606,23 @@ events
 3
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 redirected_request
-        
-expected_response
-=
+            
+"
+response
+"
+:
 redirected_response
+        
+}
     
 )
 pytest
@@ -747,13 +807,23 @@ events
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 expected_request
+            
+"
+response
+"
+:
+expected_response
         
-expected_response
-=
-expected_response
+}
     
 )
     
@@ -833,13 +903,23 @@ events
 1
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 expected_request
+            
+"
+response
+"
+:
+expected_response
         
-expected_response
-=
-expected_response
+}
     
 )
 pytest
@@ -1010,8 +1090,14 @@ events
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -1026,9 +1112,11 @@ url
 :
 page_with_cached_css
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -1040,6 +1128,8 @@ fromCache
 "
 :
 False
+}
+        
 }
     
 )
@@ -1052,8 +1142,14 @@ events
 1
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -1068,9 +1164,11 @@ url
 :
 cached_link_css_url
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -1082,6 +1180,8 @@ fromCache
 "
 :
 False
+}
+        
 }
     
 )
@@ -1129,8 +1229,14 @@ events
 2
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -1145,9 +1251,11 @@ url
 :
 page_with_cached_css
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -1160,6 +1268,8 @@ fromCache
 :
 False
 }
+        
+}
     
 )
     
@@ -1171,8 +1281,14 @@ events
 3
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -1187,9 +1303,11 @@ url
 :
 cached_link_css_url
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -1201,6 +1319,8 @@ fromCache
 "
 :
 True
+}
+        
 }
     
 )
@@ -1371,8 +1491,14 @@ events
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -1387,9 +1513,11 @@ url
 :
 page_with_cached_css
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -1401,6 +1529,8 @@ fromCache
 "
 :
 False
+}
+        
 }
     
 )
@@ -1413,8 +1543,14 @@ events
 1
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -1429,9 +1565,11 @@ url
 :
 cached_import_css_url
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -1443,6 +1581,8 @@ fromCache
 "
 :
 False
+}
+        
 }
     
 )
@@ -1490,8 +1630,14 @@ events
 2
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -1506,9 +1652,11 @@ url
 :
 page_with_cached_css
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -1521,6 +1669,8 @@ fromCache
 :
 False
 }
+        
+}
     
 )
     
@@ -1532,8 +1682,14 @@ events
 3
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -1548,9 +1704,11 @@ url
 :
 cached_import_css_url
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -1562,6 +1720,8 @@ fromCache
 "
 :
 True
+}
+        
 }
     
 )
@@ -1834,8 +1994,14 @@ events
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -1850,9 +2016,11 @@ url
 :
 page_with_cached_css
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -1864,6 +2032,8 @@ fromCache
 "
 :
 False
+}
+        
 }
     
 )
@@ -1901,8 +2071,14 @@ assert_response_event
         
 link_css_event
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -1917,9 +2093,11 @@ url
 :
 cached_link_css_url
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -1931,6 +2109,8 @@ fromCache
 "
 :
 False
+}
+        
 }
     
 )
@@ -1968,8 +2148,14 @@ assert_response_event
         
 import_css_event
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -1984,9 +2170,11 @@ url
 :
 cached_import_css_url
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -1998,6 +2186,8 @@ fromCache
 "
 :
 False
+}
+        
 }
     
 )
@@ -2053,8 +2243,14 @@ cached_events
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -2069,9 +2265,11 @@ url
 :
 page_with_cached_css
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -2084,6 +2282,8 @@ fromCache
 :
 False
 }
+        
+}
     
 )
     
@@ -2120,8 +2320,14 @@ assert_response_event
         
 cached_link_css_event
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -2136,9 +2342,11 @@ url
 :
 cached_link_css_url
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -2150,6 +2358,8 @@ fromCache
 "
 :
 True
+}
+        
 }
     
 )
@@ -2187,8 +2397,14 @@ assert_response_event
         
 cached_import_css_event
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -2203,9 +2419,11 @@ url
 :
 cached_import_css_url
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -2217,6 +2435,8 @@ fromCache
 "
 :
 True
+}
+        
 }
     
 )
@@ -2381,8 +2601,14 @@ events
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -2397,9 +2623,11 @@ url
 :
 page_with_cached_js
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -2411,6 +2639,8 @@ fromCache
 "
 :
 False
+}
+        
 }
     
 )
@@ -2423,8 +2653,14 @@ events
 1
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -2439,9 +2675,11 @@ url
 :
 cached_script_js_url
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -2453,6 +2691,8 @@ fromCache
 "
 :
 False
+}
+        
 }
     
 )
@@ -2500,8 +2740,14 @@ events
 2
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -2516,9 +2762,11 @@ url
 :
 page_with_cached_js
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -2531,6 +2779,8 @@ fromCache
 :
 False
 }
+        
+}
     
 )
     
@@ -2542,8 +2792,14 @@ events
 3
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -2558,9 +2814,11 @@ url
 :
 cached_script_js_url
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -2572,6 +2830,8 @@ fromCache
 "
 :
 True
+}
+        
 }
     
 )
@@ -2705,8 +2965,14 @@ cached_events
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -2721,9 +2987,11 @@ url
 :
 page_with_2_cached_js
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -2736,6 +3004,8 @@ fromCache
 :
 False
 }
+        
+}
     
 )
     
@@ -2747,8 +3017,14 @@ cached_events
 1
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -2763,9 +3039,11 @@ url
 :
 cached_script_js_url
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -2777,6 +3055,8 @@ fromCache
 "
 :
 True
+}
+        
 }
     
 )
@@ -2798,8 +3078,14 @@ cached_events
 2
 ]
             
-expected_request
+expected_event
 =
+{
+                
+"
+request
+"
+:
 {
 "
 method
@@ -2814,9 +3100,11 @@ url
 :
 cached_script_js_url
 }
-            
-expected_response
-=
+                
+"
+response
+"
+:
 {
 "
 url
@@ -2828,6 +3116,8 @@ fromCache
 "
 :
 True
+}
+            
 }
         
 )
@@ -3124,8 +3414,14 @@ events
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -3140,9 +3436,11 @@ url
 :
 page_with_cached_js_module
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -3154,6 +3452,8 @@ fromCache
 "
 :
 False
+}
+        
 }
     
 )
@@ -3166,8 +3466,14 @@ events
 1
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -3182,9 +3488,11 @@ url
 :
 cached_js_module_url
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -3196,6 +3504,8 @@ fromCache
 "
 :
 False
+}
+        
 }
     
 )
@@ -3243,8 +3553,14 @@ events
 2
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -3259,9 +3575,11 @@ url
 :
 page_with_cached_js_module
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -3274,6 +3592,8 @@ fromCache
 :
 False
 }
+        
+}
     
 )
     
@@ -3285,8 +3605,14 @@ events
 3
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -3301,9 +3627,11 @@ url
 :
 cached_js_module_url
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -3315,6 +3643,8 @@ fromCache
 "
 :
 True
+}
+        
 }
     
 )
@@ -3419,8 +3749,14 @@ cached_events
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -3435,9 +3771,11 @@ url
 :
 page_with_2_cached_js_modules
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -3450,6 +3788,8 @@ fromCache
 :
 False
 }
+        
+}
     
 )
     
@@ -3461,8 +3801,14 @@ cached_events
 1
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -3477,9 +3823,11 @@ url
 :
 cached_js_module_url
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -3491,6 +3839,8 @@ fromCache
 "
 :
 True
+}
+        
 }
     
 )
@@ -3644,8 +3994,14 @@ events
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -3660,9 +4016,11 @@ url
 :
 page_with_cached_image
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -3674,6 +4032,8 @@ fromCache
 "
 :
 False
+}
+        
 }
     
 )
@@ -3686,8 +4046,14 @@ events
 1
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -3702,9 +4068,11 @@ url
 :
 cached_image_url
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -3716,6 +4084,8 @@ fromCache
 "
 :
 False
+}
+        
 }
     
 )
@@ -3763,8 +4133,14 @@ events
 2
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -3779,9 +4155,11 @@ url
 :
 page_with_cached_image
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -3794,6 +4172,8 @@ fromCache
 :
 False
 }
+        
+}
     
 )
     
@@ -3805,8 +4185,14 @@ events
 3
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 method
@@ -3821,9 +4207,11 @@ url
 :
 cached_image_url
 }
-        
-expected_response
-=
+            
+"
+response
+"
+:
 {
 "
 url
@@ -3835,6 +4223,8 @@ fromCache
 "
 :
 True
+}
+        
 }
     
 )

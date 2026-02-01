@@ -199,14 +199,20 @@ events
 [
 0
 ]
-        
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
-        
-redirect_count
-=
+"
+redirectCount
+"
+:
 0
+}
     
 )
     
@@ -380,8 +386,14 @@ events
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 url
@@ -389,15 +401,19 @@ url
 :
 test_page_same_origin_frame
 }
-        
+            
+"
 context
-=
+"
+:
 top_context
 [
 "
 context
 "
 ]
+        
+}
     
 )
     
@@ -409,8 +425,14 @@ events
 1
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 url
@@ -418,15 +440,19 @@ url
 :
 test_page
 }
-        
+            
+"
 context
-=
+"
+:
 frame_context
 [
 "
 context
 "
 ]
+        
+}
     
 )
 pytest
@@ -549,14 +575,20 @@ events
 [
 0
 ]
-        
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
-        
-redirect_count
-=
+"
+redirectCount
+"
+:
 0
+}
     
 )
 pytest
@@ -682,17 +714,29 @@ events
 [
 0
 ]
-expected_request
+        
+expected_event
 =
+{
+            
+"
+request
+"
+:
 expected_request
+            
+"
 navigation
-=
+"
+:
 result
 [
 "
 navigation
 "
 ]
+        
+}
     
 )
     
@@ -774,10 +818,15 @@ events
 [
 1
 ]
-        
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
+}
     
 )
     
@@ -934,14 +983,20 @@ events
 [
 0
 ]
-        
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
-        
-redirect_count
-=
+"
+redirectCount
+"
+:
 0
+}
     
 )
 pytest
@@ -1095,14 +1150,20 @@ events
 [
 0
 ]
-        
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
-        
-redirect_count
-=
+"
+redirectCount
+"
+:
 0
+}
     
 )
 pytest
@@ -1288,14 +1349,20 @@ events
 [
 0
 ]
-        
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
-        
-redirect_count
-=
+"
+redirectCount
+"
+:
 0
+}
     
 )
     
@@ -1468,14 +1535,20 @@ events
 [
 1
 ]
-        
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
-        
-redirect_count
-=
+"
+redirectCount
+"
+:
 0
+}
     
 )
 pytest
@@ -1613,17 +1686,29 @@ events
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 expected_request
-        
-expected_time_range
-=
+            
+"
+timestamp
+"
+:
 time_range
-        
-redirect_count
-=
+            
+"
+redirectCount
+"
+:
 0
+        
+}
     
 )
 pytest
@@ -1741,14 +1826,20 @@ events
 [
 0
 ]
-        
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
-        
-redirect_count
-=
+"
+redirectCount
+"
+:
 0
+}
     
 )
     
@@ -1776,12 +1867,20 @@ events
 [
 1
 ]
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
-redirect_count
-=
+"
+redirectCount
+"
+:
 1
+}
     
 )
     
@@ -1931,22 +2030,34 @@ events
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 expected_request
-        
-redirect_count
-=
+            
+"
+redirectCount
+"
+:
 0
-        
+            
+"
 navigation
-=
+"
+:
 result
 [
 "
 navigation
 "
 ]
+        
+}
     
 )
     
@@ -1974,14 +2085,20 @@ events
 [
 1
 ]
-        
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
-        
-redirect_count
-=
+"
+redirectCount
+"
+:
 0
+}
     
 )
     
@@ -2190,22 +2307,34 @@ events
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 expected_request
-        
+            
+"
 navigation
-=
+"
+:
 result
 [
 "
 navigation
 "
 ]
-        
-redirect_count
-=
+            
+"
+redirectCount
+"
+:
 0
+        
+}
     
 )
     
@@ -2234,22 +2363,34 @@ events
 1
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 expected_request
-        
+            
+"
 navigation
-=
+"
+:
 result
 [
 "
 navigation
 "
 ]
-        
-redirect_count
-=
+            
+"
+redirectCount
+"
+:
 1
+        
+}
     
 )
     
@@ -2468,10 +2609,16 @@ events
 0
 ]
         
-expected_request
+expected_event
 =
 {
             
+"
+request
+"
+:
+{
+                
 "
 method
 "
@@ -2479,22 +2626,28 @@ method
 "
 GET
 "
-            
+                
 "
 url
 "
 :
 serviceworker_url
+            
+}
+            
+"
+timestamp
+"
+:
+time_range
+            
+"
+redirectCount
+"
+:
+0
         
 }
-        
-expected_time_range
-=
-time_range
-        
-redirect_count
-=
-0
     
 )
 pytest
@@ -2620,10 +2773,16 @@ events
 0
 ]
         
-expected_request
+expected_event
 =
 {
             
+"
+request
+"
+:
+{
+                
 "
 method
 "
@@ -2631,22 +2790,28 @@ method
 "
 GET
 "
-            
+                
 "
 url
 "
 :
 fragment_url
+            
+}
+            
+"
+timestamp
+"
+:
+time_range
+            
+"
+redirectCount
+"
+:
+0
         
 }
-        
-expected_time_range
-=
-time_range
-        
-redirect_count
-=
-0
     
 )
 pytest
@@ -2803,10 +2968,16 @@ events
 0
 ]
         
-expected_request
+expected_event
 =
 {
             
+"
+request
+"
+:
+{
+                
 "
 method
 "
@@ -2814,31 +2985,39 @@ method
 "
 GET
 "
-            
+                
 "
 url
 "
 :
 page_url
-        
+            
 }
-        
-expected_time_range
-=
+            
+"
+timestamp
+"
+:
 time_range
-        
-redirect_count
-=
+            
+"
+redirectCount
+"
+:
 0
-        
+            
+"
 navigation
-=
+"
+:
 result
 [
 "
 navigation
 "
 ]
+        
+}
     
 )
     
@@ -2991,10 +3170,16 @@ events
 0
 ]
         
-expected_request
+expected_event
 =
 {
             
+"
+request
+"
+:
+{
+                
 "
 method
 "
@@ -3002,22 +3187,28 @@ method
 "
 GET
 "
-            
+                
 "
 url
 "
 :
 fetch_url
+            
+}
+            
+"
+timestamp
+"
+:
+time_range
+            
+"
+redirectCount
+"
+:
+0
         
 }
-        
-expected_time_range
-=
-time_range
-        
-redirect_count
-=
-0
     
 )
     
@@ -3167,21 +3358,29 @@ assert_before_request_sent_event
             
 event
             
-expected_request
+expected_event
 =
 {
                 
+"
+request
+"
+:
+{
+                    
 "
 destination
 "
 :
 destination
-                
+                    
 "
 initiatorType
 "
 :
 initiator_type
+                
+}
             
 }
         
@@ -3307,17 +3506,23 @@ assert_before_request_sent_event
         
 event
         
-expected_request
+expected_event
 =
 {
             
+"
+request
+"
+:
+{
+                
 "
 destination
 "
 :
 "
 "
-            
+                
 "
 initiatorType
 "
@@ -3325,6 +3530,8 @@ initiatorType
 "
 fetch
 "
+            
+}
         
 }
     

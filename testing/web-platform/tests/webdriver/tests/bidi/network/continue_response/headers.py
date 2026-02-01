@@ -212,14 +212,21 @@ assert_response_event
 (
         
 response_completed_event
-expected_response
+        
+expected_event
 =
+{
+"
+response
+"
+:
 {
 "
 headers
 "
 :
 response_headers
+}
 }
     
 )
@@ -407,14 +414,21 @@ assert_response_event
 (
         
 response_completed_event
-expected_response
+        
+expected_event
 =
+{
+"
+response
+"
+:
 {
 "
 headers
 "
 :
 response_headers
+}
 }
     
 )

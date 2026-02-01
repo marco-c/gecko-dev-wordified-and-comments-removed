@@ -367,15 +367,27 @@ assert_before_request_sent_event
 (
         
 event
-is_blocked
+        
+expected_event
 =
+{
+            
+"
+isBlocked
+"
+:
 True
+            
+"
 intercepts
-=
+"
+:
 [
 string_intercept
 global_intercept
 ]
+        
+}
     
 )
     
@@ -430,14 +442,22 @@ assert_before_request_sent_event
 (
         
 event
-is_blocked
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 True
+"
 intercepts
-=
+"
+:
 [
 global_intercept
 ]
+}
     
 )
     
@@ -488,14 +508,22 @@ assert_before_request_sent_event
 (
         
 event
-is_blocked
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 True
+"
 intercepts
-=
+"
+:
 [
 string_intercept
 ]
+}
     
 )
     

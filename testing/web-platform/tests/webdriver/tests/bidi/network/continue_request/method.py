@@ -154,9 +154,15 @@ on_response_completed
     
 assert_response_event
 (
+        
 response_event
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 {
 "
 method
@@ -164,4 +170,6 @@ method
 :
 updated_method
 }
+}
+    
 )

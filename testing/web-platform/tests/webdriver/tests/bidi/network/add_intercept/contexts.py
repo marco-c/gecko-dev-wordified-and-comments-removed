@@ -369,9 +369,15 @@ on_network_event
 assert_network_event
 (
 event
-is_blocked
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 True
+}
 )
 pytest
 .
@@ -614,9 +620,15 @@ on_network_event
 assert_network_event
 (
 event
-is_blocked
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 True
+}
 )
     
 await
@@ -837,12 +849,16 @@ on_network_event
     
 assert_before_request_sent_event
 (
-        
 event
-is_blocked
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 True
-    
+}
 )
     
 on_network_event
@@ -875,12 +891,16 @@ on_network_event
     
 assert_before_request_sent_event
 (
-        
 event
-is_blocked
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 False
-    
+}
 )
 pytest
 .
@@ -1093,14 +1113,22 @@ assert_before_request_sent_event
 (
         
 event
-is_blocked
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 True
+"
 intercepts
-=
+"
+:
 [
 intercept
 ]
+}
     
 )
     
@@ -1136,14 +1164,22 @@ assert_before_request_sent_event
 (
         
 event
-is_blocked
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 True
+"
 intercepts
-=
+"
+:
 [
 intercept
 ]
+}
     
 )
 pytest
@@ -1386,15 +1422,27 @@ assert_before_request_sent_event
 (
         
 event
-is_blocked
+        
+expected_event
 =
+{
+            
+"
+isBlocked
+"
+:
 True
+            
+"
 intercepts
-=
+"
+:
 [
 context_intercept
 global_intercept
 ]
+        
+}
     
 )
     
@@ -1430,13 +1478,21 @@ assert_before_request_sent_event
 (
         
 event
-is_blocked
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 True
+"
 intercepts
-=
+"
+:
 [
 global_intercept
 ]
+}
     
 )

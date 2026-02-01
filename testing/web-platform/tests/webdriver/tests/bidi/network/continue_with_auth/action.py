@@ -152,16 +152,22 @@ assert_response_event
         
 response_event
         
-expected_response
+expected_event
 =
 {
             
+"
+response
+"
+:
+{
+                
 "
 status
 "
 :
 401
-            
+                
 "
 statusText
 "
@@ -169,6 +175,8 @@ statusText
 "
 Unauthorized
 "
+            
+}
         
 }
     
@@ -445,16 +453,22 @@ assert_response_event
         
 response_event
         
-expected_response
+expected_event
 =
 {
             
+"
+response
+"
+:
+{
+                
 "
 status
 "
 :
 200
-            
+                
 "
 statusText
 "
@@ -462,6 +476,8 @@ statusText
 "
 OK
 "
+            
+}
         
 }
     
@@ -679,16 +695,22 @@ assert_response_event
         
 response_event
         
-expected_response
+expected_event
 =
 {
             
+"
+response
+"
+:
+{
+                
 "
 status
 "
 :
 200
-            
+                
 "
 statusText
 "
@@ -696,6 +718,8 @@ statusText
 "
 OK
 "
+            
+}
         
 }
     

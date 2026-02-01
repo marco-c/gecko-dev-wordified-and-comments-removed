@@ -241,9 +241,15 @@ on_response_completed
     
 assert_response_event
 (
+        
 response_event
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 {
 "
 headers
@@ -251,6 +257,8 @@ headers
 :
 headers
 }
+}
+    
 )
 async
 def
@@ -385,9 +393,15 @@ response_event
 await
 on_response_completed
     
+expected_event
+=
+{
+}
+    
 assert_response_event
 (
 response_event
+expected_event
 )
     
 event_headers

@@ -127,15 +127,20 @@ assert_response_event
 (
         
 response_completed_event
-        
-expected_response
+expected_event
 =
+{
+"
+response
+"
+:
 {
 "
 status
 "
 :
 status_code
+}
 }
     
 )

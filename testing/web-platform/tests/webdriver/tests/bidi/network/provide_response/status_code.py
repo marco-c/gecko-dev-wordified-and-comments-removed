@@ -155,8 +155,13 @@ assert_response_event
         
 response_started_event
         
-expected_response
+expected_event
 =
+{
+"
+response
+"
+:
 {
 "
 status
@@ -168,6 +173,7 @@ statusText
 "
 :
 status_text
+}
 }
     
 )
@@ -185,8 +191,13 @@ assert_response_event
         
 response_completed_event
         
-expected_response
+expected_event
 =
+{
+"
+response
+"
+:
 {
 "
 status
@@ -198,6 +209,7 @@ statusText
 "
 :
 status_text
+}
 }
     
 )
