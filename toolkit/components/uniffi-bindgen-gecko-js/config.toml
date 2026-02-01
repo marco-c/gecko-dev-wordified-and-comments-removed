@@ -376,7 +376,7 @@ update_config
 "
 =
 "
-Sync
+AsyncWrapped
 "
 "
 RemoteSettingsService

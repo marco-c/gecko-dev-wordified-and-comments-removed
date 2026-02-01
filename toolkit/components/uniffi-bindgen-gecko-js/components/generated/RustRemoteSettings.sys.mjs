@@ -11402,6 +11402,7 @@ RemoteSettingsConfig2
 config
 *
 /
+async
 updateConfig
 (
 config
@@ -12069,6 +12070,7 @@ RemoteSettingsConfig2
 config
 *
 /
+async
 updateConfig
 (
 config
@@ -12084,9 +12086,10 @@ config
 const
 result
 =
+await
 UniFFIScaffolding
 .
-callSync
+callAsyncWrapper
 (
 83
 /
