@@ -565,6 +565,8 @@ mCanonicalOutputPrincipal
 .
 0
 true
+false
+nullptr
 mAudioQueue
 mVideoQueue
 )
