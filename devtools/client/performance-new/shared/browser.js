@@ -418,6 +418,7 @@ function
 openFilePickerForObjdir
 (
 window
+pickerTitle
 objdirs
 changeObjdirs
 )
@@ -452,11 +453,7 @@ init
 window
 .
 browsingContext
-"
-Pick
-build
-directory
-"
+pickerTitle
 FilePicker
 .
 modeGetFolder
