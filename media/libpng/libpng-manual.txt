@@ -74,10 +74,10 @@ through
 .
 6
 .
-53
+54
 -
-December
-2025
+January
+2026
 Updated
 and
 distributed
@@ -90,7 +90,7 @@ c
 )
 2018
 -
-2025
+2026
 Cosmin
 Truta
 libpng
