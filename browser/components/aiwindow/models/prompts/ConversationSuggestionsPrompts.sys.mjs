@@ -110,7 +110,7 @@ data
 -
 get_page_content
 (
-url
+url_list
 )
 :
 Retrieve
@@ -118,11 +118,15 @@ cleaned
 text
 content
 of
+all
 the
 provided
 browser
 page
-URL
+URLs
+in
+the
+url_list
 -
 search_browsing_history
 (

@@ -136,7 +136,7 @@ server
 }
 async
 function
-setupGetPageContentTest
+setupGetPageContentTests
 (
 html
 )
@@ -198,10 +198,16 @@ url
 true
 )
 ;
+const
+url_list
+=
+[
+url
+]
+;
 return
 {
-tab
-url
+url_list
 GetPageContent
 async
 cleanup
