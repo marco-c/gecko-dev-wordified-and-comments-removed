@@ -861,8 +861,6 @@ const
 RtpTransceiverStatsInfo
 &
 stats
-bool
-spec_lifetime
 RTCStatsReport
 *
 report
@@ -878,8 +876,6 @@ const
 RtpTransceiverStatsInfo
 &
 stats
-bool
-spec_lifetime
 RTCStatsReport
 *
 report
