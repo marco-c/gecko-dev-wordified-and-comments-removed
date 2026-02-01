@@ -4102,9 +4102,15 @@ detail
 partnerId
 :
 "
-demo
+295BEEF7
 -
-partner
+1E3B
+-
+4128
+-
+B8F8
+-
+858E12AA660B
 "
 lookbackDays
 :
