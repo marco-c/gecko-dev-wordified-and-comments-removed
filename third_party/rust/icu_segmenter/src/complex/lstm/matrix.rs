@@ -111,6 +111,8 @@ self
 >
 MatrixBorrowed
 <
+'
+_
 D
 >
 {
@@ -211,6 +213,8 @@ Option
 <
 MatrixBorrowed
 <
+'
+_
 M
 >
 >
@@ -279,6 +283,8 @@ self
 >
 MatrixBorrowedMut
 <
+'
+_
 D
 >
 {
@@ -328,6 +334,8 @@ Option
 <
 MatrixBorrowedMut
 <
+'
+_
 M
 >
 >
@@ -650,12 +658,8 @@ D
 ;
 #
 [
-allow
+expect
 (
-clippy
-:
-:
-indexing_slicing
 clippy
 :
 :
@@ -1035,6 +1039,8 @@ self
 >
 MatrixBorrowed
 <
+'
+_
 D
 >
 {
@@ -2880,7 +2886,7 @@ D
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -3139,12 +3145,8 @@ D
 ;
 #
 [
-allow
+expect
 (
-clippy
-:
-:
-indexing_slicing
 clippy
 :
 :
@@ -3393,7 +3395,7 @@ yit
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -3435,7 +3437,7 @@ unwrap
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -3798,7 +3800,7 @@ yit
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -3847,7 +3849,7 @@ unwrap
 ;
 #
 [
-allow
+expect
 (
 clippy
 :

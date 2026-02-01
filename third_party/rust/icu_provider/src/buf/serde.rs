@@ -94,6 +94,8 @@ self
 >
 DeserializingBufferProvider
 <
+'
+_
 Self
 >
 ;
@@ -123,6 +125,8 @@ self
 >
 DeserializingBufferProvider
 <
+'
+_
 Self
 >
 {

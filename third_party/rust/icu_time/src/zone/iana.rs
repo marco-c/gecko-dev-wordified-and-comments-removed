@@ -78,7 +78,7 @@ compiled_data
 ]
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -256,6 +256,10 @@ self
 -
 >
 IanaParserBorrowed
+<
+'
+_
+>
 {
 IanaParserBorrowed
 {
@@ -795,7 +799,7 @@ compiled_data
 ]
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1205,6 +1209,10 @@ self
 -
 >
 IanaParserExtendedBorrowed
+<
+'
+_
+>
 {
 IanaParserExtendedBorrowed
 {

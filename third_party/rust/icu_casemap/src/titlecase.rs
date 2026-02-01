@@ -344,7 +344,7 @@ compiled_data
 ]
 #
 [
-allow
+expect
 (
 clippy
 :

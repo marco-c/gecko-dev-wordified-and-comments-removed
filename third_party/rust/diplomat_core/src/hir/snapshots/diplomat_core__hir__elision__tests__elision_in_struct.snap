@@ -12,9 +12,6 @@ hir
 elision
 .
 rs
-assertion_line
-:
-536
 expression
 :
 method
@@ -110,6 +107,9 @@ Attrs
 disable
 :
 false
+deprecated
+:
+None
 namespace
 :
 None
@@ -133,6 +133,9 @@ special_method
 :
 None
 custom_errors
+:
+false
+default
 :
 false
 demo_attrs
@@ -165,6 +168,12 @@ default_value
 "
 }
 }
+generate_mocking_interface
+:
+false
+abi_compatible
+:
+false
 }
 }
 )
@@ -238,6 +247,9 @@ Attrs
 disable
 :
 false
+deprecated
+:
+None
 namespace
 :
 None
@@ -261,6 +273,9 @@ special_method
 :
 None
 custom_errors
+:
+false
+default
 :
 false
 demo_attrs
@@ -293,6 +308,12 @@ default_value
 "
 }
 }
+generate_mocking_interface
+:
+false
+abi_compatible
+:
+false
 }
 }
 ]
@@ -309,6 +330,9 @@ Attrs
 disable
 :
 false
+deprecated
+:
+None
 namespace
 :
 None
@@ -332,6 +356,9 @@ special_method
 :
 None
 custom_errors
+:
+false
+default
 :
 false
 demo_attrs
@@ -364,5 +391,11 @@ default_value
 "
 }
 }
+generate_mocking_interface
+:
+false
+abi_compatible
+:
+false
 }
 }

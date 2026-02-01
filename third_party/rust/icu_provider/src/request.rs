@@ -971,17 +971,6 @@ default
 )
 }
 }
-#
-[
-cfg
-(
-feature
-=
-"
-alloc
-"
-)
-]
 pub
 fn
 from_owned
@@ -1311,7 +1300,7 @@ len
 {
 #
 [
-allow
+expect
 (
 clippy
 :

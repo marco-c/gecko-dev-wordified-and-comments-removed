@@ -39,7 +39,7 @@ ZeroVec
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -49,7 +49,7 @@ indexing_slicing
 ]
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -349,6 +349,8 @@ u32
 >
 ZeroVec
 <
+'
+_
 PotentialCodePoint
 >
 {

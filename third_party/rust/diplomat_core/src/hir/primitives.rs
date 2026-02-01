@@ -140,6 +140,7 @@ PrimitiveType
 Bool
 Char
 Byte
+Ordering
 Int
 (
 IntType
@@ -749,6 +750,15 @@ Byte
 >
 "
 byte
+"
+PrimitiveType
+:
+:
+Ordering
+=
+>
+"
+ordering
 "
 PrimitiveType
 :

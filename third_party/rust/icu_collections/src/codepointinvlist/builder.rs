@@ -147,7 +147,7 @@ collect
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -299,7 +299,7 @@ end_ind
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -648,7 +648,7 @@ CodePointInversionList
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -768,7 +768,7 @@ last
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -934,7 +934,7 @@ end
 }
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1186,7 +1186,7 @@ u32
 }
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1550,7 +1550,7 @@ is_empty
 {
 #
 [
-allow
+expect
 (
 clippy
 :

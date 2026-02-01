@@ -26,6 +26,8 @@ syn
 :
 parse_quote
 !
+\
+n
 {
 \
 n
@@ -71,8 +73,7 @@ x
 n
 }
 \
-n
-PathType
+nPathType
 :
 :
 new
@@ -100,8 +101,7 @@ MyStructContainingMethod
 )
 )
 \
-n
-None
+nNone
 &
 Attrs
 :
@@ -167,6 +167,18 @@ attrs
 :
 {
 }
+self_type
+:
+path
+:
+elements
+:
+-
+MyStructContainingMethod
+lifetimes
+:
+[
+]
 params
 :
 -

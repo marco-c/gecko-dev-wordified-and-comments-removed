@@ -679,16 +679,7 @@ is_empty
 )
 =
 >
-alloc
-:
-:
-borrow
-:
-:
-Cow
-:
-:
-Borrowed
+Some
 (
 "
 true

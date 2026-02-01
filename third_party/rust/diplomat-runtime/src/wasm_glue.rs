@@ -100,7 +100,7 @@ std
 panic
 :
 :
-PanicInfo
+PanicHookInfo
 )
 {
 let

@@ -107,7 +107,7 @@ hidden
 ]
 #
 [
-allow
+expect
 (
 clippy
 :

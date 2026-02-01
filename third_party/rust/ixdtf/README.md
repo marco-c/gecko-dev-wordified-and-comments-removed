@@ -195,10 +195,11 @@ use
 ixdtf
 :
 :
+{
 parsers
 :
 :
-{
+IxdtfParser
 records
 :
 :
@@ -206,7 +207,6 @@ records
 Sign
 TimeZoneRecord
 }
-IxdtfParser
 }
 ;
 let
@@ -586,10 +586,11 @@ use
 ixdtf
 :
 :
+{
 parsers
 :
 :
-{
+IxdtfParser
 records
 :
 :
@@ -597,7 +598,6 @@ records
 Sign
 TimeZoneRecord
 }
-IxdtfParser
 }
 ;
 let
@@ -1063,10 +1063,11 @@ use
 ixdtf
 :
 :
+{
 parsers
 :
 :
-{
+IxdtfParser
 records
 :
 :
@@ -1074,7 +1075,6 @@ records
 Sign
 TimeZoneRecord
 }
-IxdtfParser
 }
 ;
 let
@@ -2419,10 +2419,10 @@ use
 ixdtf
 :
 :
+{
 parsers
 :
 :
-{
 IxdtfParser
 records
 :

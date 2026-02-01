@@ -466,7 +466,7 @@ compiled_data
 ]
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1099,7 +1099,7 @@ Default
 }
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2048,7 +2048,7 @@ compiled_data
 ]
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2690,7 +2690,7 @@ compiled_data
 ]
 #
 [
-allow
+expect
 (
 clippy
 :

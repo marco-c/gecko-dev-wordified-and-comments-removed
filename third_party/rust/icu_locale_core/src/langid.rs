@@ -245,7 +245,7 @@ hidden
 ]
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -437,6 +437,8 @@ Result
 <
 Cow
 <
+'
+_
 str
 >
 ParseError
@@ -493,6 +495,8 @@ Result
 <
 Cow
 <
+'
+_
 str
 >
 ParseError
@@ -1331,12 +1335,15 @@ is_empty
 )
 =
 >
+Some
+(
 selff
 .
 language
 .
-write_to_string
+as_str
 (
+)
 )
 )
 ;

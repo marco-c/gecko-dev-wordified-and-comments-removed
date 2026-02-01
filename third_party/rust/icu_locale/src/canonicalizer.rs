@@ -2081,7 +2081,7 @@ to_vec
 }
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2824,9 +2824,9 @@ as_str
 result
 "
 {
+source
 }
 "
-source
 )
 ;
 }

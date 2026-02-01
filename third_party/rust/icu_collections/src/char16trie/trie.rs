@@ -335,6 +335,10 @@ Char16Trie
 data
 >
 {
+#
+[
+inline
+]
 pub
 fn
 new
@@ -357,6 +361,10 @@ Self
 data
 }
 }
+#
+[
+inline
+]
 pub
 fn
 iter
@@ -367,6 +375,10 @@ self
 -
 >
 Char16TrieIterator
+<
+'
+_
+>
 {
 Char16TrieIterator
 :
@@ -550,6 +562,10 @@ Char16TrieIterator
 a
 >
 {
+#
+[
+inline
+]
 pub
 fn
 new

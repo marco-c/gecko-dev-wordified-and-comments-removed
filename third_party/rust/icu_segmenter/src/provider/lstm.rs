@@ -1014,7 +1014,7 @@ hidden
 ]
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1143,7 +1143,7 @@ datagen
 ]
 #
 [
-allow
+expect
 (
 clippy
 :

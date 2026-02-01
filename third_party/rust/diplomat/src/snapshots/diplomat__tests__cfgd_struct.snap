@@ -183,6 +183,13 @@ foo
 "
 )
 ]
+#
+[
+allow
+(
+deprecated
+)
+]
 extern
 "
 C
@@ -216,6 +223,13 @@ feature
 "
 foo
 "
+)
+]
+#
+[
+allow
+(
+deprecated
 )
 ]
 extern

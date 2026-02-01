@@ -480,7 +480,7 @@ v
 {
 #
 [
-allow
+expect
 (
 clippy
 :

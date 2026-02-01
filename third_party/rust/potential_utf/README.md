@@ -1,5 +1,5 @@
 #
-unvalidated_utf
+potential_utf
 [
 !
 [
@@ -22,7 +22,7 @@ crates
 /
 v
 /
-unvalidated_utf
+potential_utf
 )
 ]
 (
@@ -36,7 +36,7 @@ io
 /
 crates
 /
-unvalidated_utf
+potential_utf
 )
 <
 !

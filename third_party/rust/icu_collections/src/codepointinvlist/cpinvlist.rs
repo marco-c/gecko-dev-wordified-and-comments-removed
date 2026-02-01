@@ -954,9 +954,9 @@ Unicode
 code
 point
 {
+cp
 }
 "
-cp
 )
 )
 }
@@ -1476,7 +1476,7 @@ InvalidSetError
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1867,6 +1867,8 @@ self
 &
 ZeroVec
 <
+'
+_
 PotentialCodePoint
 >
 {
@@ -1897,7 +1899,7 @@ _
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1994,7 +1996,7 @@ _
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2255,7 +2257,7 @@ None
 ;
 #
 [
-allow
+expect
 (
 clippy
 :

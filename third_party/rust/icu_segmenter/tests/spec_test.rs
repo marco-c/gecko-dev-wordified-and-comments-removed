@@ -1119,9 +1119,9 @@ Test
 case
 #
 {
+i
 }
 "
-i
 )
 ;
 panic
@@ -1783,9 +1783,9 @@ Test
 case
 #
 {
+i
 }
 "
-i
 )
 ;
 panic
@@ -2344,9 +2344,9 @@ Test
 case
 #
 {
+i
 }
 "
-i
 )
 ;
 panic
@@ -2911,9 +2911,9 @@ Test
 case
 #
 {
+i
 }
 "
-i
 )
 ;
 panic

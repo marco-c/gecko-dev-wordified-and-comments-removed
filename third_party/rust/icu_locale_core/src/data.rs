@@ -344,12 +344,15 @@ is_none
 )
 =
 >
+Some
+(
 selff
 .
 language
 .
-write_to_string
+as_str
 (
+)
 )
 )
 ;

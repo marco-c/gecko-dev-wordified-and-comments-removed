@@ -115,6 +115,17 @@ Extensions
 [
 test
 ]
+#
+[
+cfg
+(
+target_pointer_width
+=
+"
+64
+"
+)
+]
 fn
 test_sizes
 (
@@ -608,6 +619,8 @@ Result
 <
 Cow
 <
+'
+_
 str
 >
 ParseError
@@ -664,6 +677,8 @@ Result
 <
 Cow
 <
+'
+_
 str
 >
 ParseError
@@ -709,7 +724,7 @@ other
 }
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1171,7 +1186,7 @@ hidden
 ]
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1503,7 +1518,7 @@ selff
 .
 id
 .
-write_to_string
+writeable_borrow
 (
 )
 )

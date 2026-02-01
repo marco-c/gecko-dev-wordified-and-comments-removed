@@ -79,6 +79,13 @@ Option
 SelfParam
 >
 pub
+self_type
+:
+Option
+<
+PathType
+>
+pub
 params
 :
 Vec
@@ -383,6 +390,10 @@ as_ref
 Some
 (
 self_path_type
+.
+clone
+(
+)
 )
 )
 )
@@ -461,6 +472,12 @@ from
 extern_ident
 )
 self_param
+self_type
+:
+Some
+(
+self_path_type
+)
 params
 :
 all_params
@@ -481,6 +498,10 @@ self
 -
 >
 BorrowedParams
+<
+'
+_
+>
 {
 if
 let
@@ -1585,7 +1606,6 @@ _
 ltk
 )
 |
-(
 *
 ltk
 =
@@ -1594,7 +1614,6 @@ LifetimeKind
 :
 :
 ReturnValue
-)
 )
 .
 map
@@ -1648,7 +1667,6 @@ _
 ltk
 )
 |
-(
 *
 ltk
 =
@@ -1657,7 +1675,6 @@ LifetimeKind
 :
 :
 Static
-)
 )
 .
 map

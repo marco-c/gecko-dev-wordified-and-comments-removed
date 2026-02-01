@@ -192,6 +192,13 @@ foo
 "
 )
 ]
+#
+[
+allow
+(
+deprecated
+)
+]
 extern
 "
 C

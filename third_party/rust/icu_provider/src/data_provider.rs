@@ -748,6 +748,10 @@ collections
 BTreeSet
 <
 DataIdentifierCow
+<
+'
+_
+>
 >
 DataError
 >
@@ -1520,6 +1524,10 @@ collections
 BTreeSet
 <
 DataIdentifierCow
+<
+'
+_
+>
 >
 DataError
 >
@@ -1592,6 +1600,10 @@ collections
 BTreeSet
 <
 DataIdentifierCow
+<
+'
+_
+>
 >
 DataError
 >

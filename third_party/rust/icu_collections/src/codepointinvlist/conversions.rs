@@ -160,7 +160,7 @@ set
 ;
 #
 [
-allow
+expect
 (
 clippy
 :

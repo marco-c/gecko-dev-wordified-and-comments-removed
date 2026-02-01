@@ -136,6 +136,13 @@ c_void
 [
 no_mangle
 ]
+#
+[
+allow
+(
+deprecated
+)
+]
 extern
 "
 C

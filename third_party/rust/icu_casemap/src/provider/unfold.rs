@@ -201,7 +201,7 @@ datagen
 ]
 #
 [
-allow
+expect
 (
 clippy
 :

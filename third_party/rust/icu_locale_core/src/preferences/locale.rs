@@ -673,7 +673,7 @@ ue_region
 {
 #
 [
-allow
+expect
 (
 clippy
 :

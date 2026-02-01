@@ -55,7 +55,7 @@ end
 ;
 #
 [
-allow
+expect
 (
 clippy
 :

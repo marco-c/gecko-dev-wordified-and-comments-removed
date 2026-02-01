@@ -262,7 +262,7 @@ toolooong
 ;
 #
 [
-allow
+expect
 (
 clippy
 :

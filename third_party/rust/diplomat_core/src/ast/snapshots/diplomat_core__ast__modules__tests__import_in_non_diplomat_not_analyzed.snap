@@ -26,6 +26,8 @@ syn
 :
 parse_quote
 !
+\
+n
 {
 \
 n
@@ -115,6 +117,10 @@ declared_traits
 :
 {
 }
+declared_functions
+:
+{
+}
 sub_modules
 :
 [
@@ -137,6 +143,10 @@ declared_types
 {
 }
 declared_traits
+:
+{
+}
+declared_functions
 :
 {
 }

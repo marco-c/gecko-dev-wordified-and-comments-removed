@@ -181,6 +181,12 @@ HexDigit
 Hyphen
 =
 14
+IdCompatMathContinue
+=
+65
+IdCompatMathStart
+=
+66
 IdContinue
 =
 15
@@ -196,6 +202,9 @@ IdStart
 IdsTrinaryOperator
 =
 19
+IdsUnaryOperator
+=
+67
 JoinControl
 =
 20
@@ -208,6 +217,9 @@ Lowercase
 Math
 =
 23
+ModifierCombiningMark
+=
+68
 NfcInert
 =
 39

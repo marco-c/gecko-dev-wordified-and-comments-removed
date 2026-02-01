@@ -4,6 +4,10 @@ crate
 :
 {
 assert_syntax
+core
+:
+:
+EncodingType
 parsers
 :
 :
@@ -21,15 +25,15 @@ is_annotation_value_component
 is_critical_flag
 is_hyphen
 }
+timezone
+Cursor
+}
 records
 :
 :
 {
 Annotation
 TimeZoneAnnotation
-}
-timezone
-Cursor
 }
 ParseError
 ParserResult
@@ -44,6 +48,9 @@ AnnotationSet
 <
 '
 a
+T
+:
+EncodingType
 >
 {
 pub
@@ -58,6 +65,7 @@ TimeZoneAnnotation
 <
 '
 a
+T
 >
 >
 pub
@@ -72,7 +80,10 @@ Option
 '
 a
 [
-u8
+T
+:
+:
+CodeUnit
 ]
 >
 }
@@ -85,6 +96,9 @@ parse_annotation_set
 <
 '
 a
+T
+:
+EncodingType
 >
 (
 cursor
@@ -95,6 +109,7 @@ Cursor
 <
 '
 a
+T
 >
 handler
 :
@@ -105,6 +120,7 @@ Annotation
 <
 '
 a
+T
 >
 )
 -
@@ -115,6 +131,7 @@ Annotation
 <
 '
 a
+T
 >
 >
 )
@@ -126,6 +143,7 @@ AnnotationSet
 <
 '
 a
+T
 >
 >
 {
@@ -151,6 +169,7 @@ check_or
 false
 is_annotation_open
 )
+?
 ;
 if
 annotations
@@ -200,6 +219,9 @@ parse_annotations
 <
 '
 a
+T
+:
+EncodingType
 >
 (
 cursor
@@ -210,6 +232,7 @@ Cursor
 <
 '
 a
+T
 >
 mut
 handler
@@ -221,6 +244,7 @@ Annotation
 <
 '
 a
+T
 >
 )
 -
@@ -231,6 +255,7 @@ Annotation
 <
 '
 a
+T
 >
 >
 )
@@ -244,7 +269,10 @@ Option
 '
 a
 [
-u8
+T
+:
+:
+CodeUnit
 ]
 >
 >
@@ -259,6 +287,7 @@ Annotation
 <
 '
 a
+T
 >
 >
 =
@@ -272,6 +301,7 @@ check_or
 false
 is_annotation_open
 )
+?
 {
 let
 annotation
@@ -293,19 +323,14 @@ Some
 kv
 )
 if
+T
+:
+:
+check_calendar_key
+(
 kv
 .
 key
-=
-=
-"
-u
--
-ca
-"
-.
-as_bytes
-(
 )
 =
 >
@@ -419,6 +444,9 @@ parse_kv_annotation
 <
 '
 a
+T
+:
+EncodingType
 >
 (
 cursor
@@ -429,6 +457,7 @@ Cursor
 <
 '
 a
+T
 >
 )
 -
@@ -439,6 +468,7 @@ Annotation
 <
 '
 a
+T
 >
 >
 {
@@ -471,6 +501,7 @@ check_or
 false
 is_critical_flag
 )
+?
 ;
 cursor
 .
@@ -554,6 +585,9 @@ parse_annotation_key
 <
 '
 a
+T
+:
+EncodingType
 >
 (
 cursor
@@ -564,6 +598,7 @@ Cursor
 <
 '
 a
+T
 >
 )
 -
@@ -574,7 +609,10 @@ ParserResult
 '
 a
 [
-u8
+T
+:
+:
+CodeUnit
 ]
 >
 {
@@ -618,6 +656,7 @@ cursor
 next
 (
 )
+?
 {
 if
 cursor
@@ -627,6 +666,7 @@ check_or
 false
 is_annotation_key_value_separator
 )
+?
 {
 return
 cursor
@@ -674,6 +714,9 @@ parse_annotation_value
 <
 '
 a
+T
+:
+EncodingType
 >
 (
 cursor
@@ -684,6 +727,7 @@ Cursor
 <
 '
 a
+T
 >
 )
 -
@@ -694,7 +738,10 @@ ParserResult
 '
 a
 [
-u8
+T
+:
+:
+CodeUnit
 ]
 >
 {
@@ -725,6 +772,7 @@ cursor
 next
 (
 )
+?
 {
 if
 cursor
@@ -734,6 +782,7 @@ check_or
 false
 is_annotation_close
 )
+?
 {
 return
 cursor
@@ -771,6 +820,7 @@ cursor
 peek
 (
 )
+?
 .
 is_some_and
 (

@@ -67,7 +67,7 @@ segment
 /
 /
 *
-616B
+636B
 [
 ^
 1
@@ -160,7 +160,7 @@ msrv
 "
 1
 .
-82
+83
 "
 ]
 const
@@ -186,7 +186,7 @@ msrv
 "
 1
 .
-82
+83
 "
 ]
 impl
@@ -259,7 +259,7 @@ from_bytes_unchecked
 (
 b
 "
-0
+1
 \
 0
 \
@@ -418,7 +418,11 @@ x01
 \
 xEA
 \
-x01UnknownAmbiguousAlphabeticBreak_BothBreak_AfterBreak_BeforeMandatory_BreakContingent_BreakClose_PunctuationCombining_MarkCarriage_ReturnExclamationGlueHyphenIdeographicInseparableInfix_NumericLine_FeedNonstarterNumericOpen_PunctuationPostfix_NumericPrefix_NumericQuotationComplex_ContextSurrogateSpaceBreak_SymbolsZWSpaceNext_LineWord_JoinerH2H3JLJTJVClose_ParenthesisConditional_Japanese_StarterHebrew_LetterRegional_IndicatorE_BaseE_ModifierZWJAksaraAksara_PrebaseAksara_StartVirama_FinalVirama
+x01
+\
+xF0
+\
+x01UnknownAmbiguousAlphabeticBreak_BothBreak_AfterBreak_BeforeMandatory_BreakContingent_BreakClose_PunctuationCombining_MarkCarriage_ReturnExclamationGlueHyphenIdeographicInseparableInfix_NumericLine_FeedNonstarterNumericOpen_PunctuationPostfix_NumericPrefix_NumericQuotationComplex_ContextSurrogateSpaceBreak_SymbolsZWSpaceNext_LineWord_JoinerH2H3JLJTJVClose_ParenthesisConditional_Japanese_StarterHebrew_LetterRegional_IndicatorE_BaseE_ModifierZWJAksaraAksara_PrebaseAksara_StartVirama_FinalViramaUnambiguous_Hyphen
 "
 )
 }
@@ -435,7 +439,7 @@ msrv
 "
 1
 .
-82
+83
 "
 ]
 impl
@@ -610,7 +614,7 @@ msrv
 "
 1
 .
-82
+83
 "
 ]
 impl
@@ -714,7 +718,7 @@ msrv
 "
 1
 .
-82
+83
 "
 ]
 impl
@@ -855,7 +859,7 @@ msrv
 "
 1
 .
-82
+83
 "
 ]
 impl
@@ -978,7 +982,7 @@ msrv
 "
 1
 .
-82
+83
 "
 ]
 impl

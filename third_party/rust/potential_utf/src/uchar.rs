@@ -927,7 +927,7 @@ serde
 )
 ]
 impl
-serde
+serde_core
 :
 :
 Serialize
@@ -962,13 +962,13 @@ Error
 where
 S
 :
-serde
+serde_core
 :
 :
 Serializer
 {
 use
-serde
+serde_core
 :
 :
 ser
@@ -1053,7 +1053,7 @@ impl
 '
 de
 >
-serde
+serde_core
 :
 :
 Deserialize
@@ -1087,7 +1087,7 @@ Error
 where
 D
 :
-serde
+serde_core
 :
 :
 Deserializer

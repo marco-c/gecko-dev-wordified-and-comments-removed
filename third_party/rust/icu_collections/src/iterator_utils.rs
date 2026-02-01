@@ -177,7 +177,7 @@ None
 ;
 #
 [
-allow
+expect
 (
 clippy
 :

@@ -96,7 +96,7 @@ Sync
 {
 #
 [
-allow
+expect
 (
 clippy
 :

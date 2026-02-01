@@ -135,6 +135,7 @@ ast
 :
 {
 Docs
+DocsTypeReferenceSyntax
 DocsUrlGenerator
 }
 ;

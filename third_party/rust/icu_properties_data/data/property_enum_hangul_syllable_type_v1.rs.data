@@ -160,7 +160,7 @@ msrv
 "
 1
 .
-82
+83
 "
 ]
 const
@@ -186,7 +186,7 @@ msrv
 "
 1
 .
-82
+83
 "
 ]
 impl
@@ -242,6 +242,8 @@ PropertyCodePointMap
 :
 CodePointTrie
 (
+unsafe
+{
 icu
 :
 :
@@ -254,7 +256,7 @@ codepointtrie
 CodePointTrie
 :
 :
-from_parts
+from_parts_unstable_unchecked_v1
 (
 icu
 :
@@ -1910,6 +1912,7 @@ HangulSyllableType
 :
 NotApplicable
 )
+}
 )
 ;
 }
@@ -1923,7 +1926,7 @@ msrv
 "
 1
 .
-82
+83
 "
 ]
 impl
@@ -2098,7 +2101,7 @@ msrv
 "
 1
 .
-82
+83
 "
 ]
 impl
@@ -2202,7 +2205,7 @@ msrv
 "
 1
 .
-82
+83
 "
 ]
 impl
@@ -2343,7 +2346,7 @@ msrv
 "
 1
 .
-82
+83
 "
 ]
 impl
@@ -2466,7 +2469,7 @@ msrv
 "
 1
 .
-82
+83
 "
 ]
 impl

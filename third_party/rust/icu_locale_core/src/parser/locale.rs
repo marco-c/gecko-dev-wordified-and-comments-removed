@@ -164,7 +164,7 @@ extensions
 }
 #
 [
-allow
+expect
 (
 clippy
 :

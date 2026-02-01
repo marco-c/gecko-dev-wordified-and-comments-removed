@@ -676,6 +676,17 @@ impl_display_with_writeable
 !
 (
 Private
+#
+[
+cfg
+(
+feature
+=
+"
+alloc
+"
+)
+]
 )
 ;
 impl

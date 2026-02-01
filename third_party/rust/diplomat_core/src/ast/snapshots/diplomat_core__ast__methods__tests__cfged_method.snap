@@ -26,6 +26,8 @@ syn
 :
 parse_quote
 !
+\
+n
 {
 \
 n
@@ -42,8 +44,6 @@ docs
 \
 "
 ]
-\
-n
 #
 [
 diplomat
@@ -107,8 +107,7 @@ MyCustomStruct
 n
 }
 \
-n
-PathType
+nPathType
 :
 :
 new
@@ -136,8 +135,7 @@ MyStructContainingMethod
 )
 )
 \
-n
-None
+nNone
 &
 Attrs
 :
@@ -183,6 +181,18 @@ MyStructContainingMethod_foo
 self_param
 :
 ~
+self_type
+:
+path
+:
+elements
+:
+-
+MyStructContainingMethod
+lifetimes
+:
+[
+]
 params
 :
 -

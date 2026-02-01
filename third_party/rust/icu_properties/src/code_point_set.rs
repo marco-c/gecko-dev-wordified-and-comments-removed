@@ -73,7 +73,7 @@ CodePointSetData
 {
 #
 [
-allow
+expect
 (
 clippy
 :

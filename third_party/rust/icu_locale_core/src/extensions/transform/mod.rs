@@ -488,7 +488,7 @@ clear
 }
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1102,6 +1102,17 @@ impl_display_with_writeable
 !
 (
 Transform
+#
+[
+cfg
+(
+feature
+=
+"
+alloc
+"
+)
+]
 )
 ;
 impl

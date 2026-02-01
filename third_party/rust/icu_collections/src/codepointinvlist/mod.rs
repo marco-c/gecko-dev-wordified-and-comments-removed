@@ -6,10 +6,6 @@ warn
 missing_docs
 )
 ]
-extern
-crate
-alloc
-;
 #
 [
 cfg
