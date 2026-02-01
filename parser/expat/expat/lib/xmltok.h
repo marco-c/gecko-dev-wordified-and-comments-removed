@@ -1361,6 +1361,7 @@ XmlInitUnknownEncoding
 void
 *
 mem
+const
 int
 *
 table
@@ -1458,6 +1459,7 @@ XmlInitUnknownEncodingNS
 void
 *
 mem
+const
 int
 *
 table

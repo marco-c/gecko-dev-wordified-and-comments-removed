@@ -6,15 +6,6 @@ define
 XmlRole_INCLUDED
 1
 #
-ifdef
-__VMS
-#
-define
-XmlPrologStateInitExternalEntity
-XmlPrologStateInitExternalEnt
-#
-endif
-#
 include
 "
 xmltok
