@@ -1389,6 +1389,8 @@ outline
 none
 ;
 }
+#
+urlbar
 .
 urlbar
 -
@@ -3128,6 +3130,10 @@ input
 -
 box
 {
+#
+urlbar
+&
+{
 /
 *
 Show
@@ -3153,6 +3159,7 @@ direction
 :
 ltr
 ;
+}
 :
 root
 [
