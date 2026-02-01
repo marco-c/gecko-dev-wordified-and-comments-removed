@@ -8136,6 +8136,10 @@ Functions
 Function
 .
 onInit
+StrCpy
+AddTaskbarSC
+"
+"
 ;
 Remove
 the
