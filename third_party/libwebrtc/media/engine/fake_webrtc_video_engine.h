@@ -612,13 +612,6 @@ format
 )
 override
 ;
-bool
-WaitForCreatedVideoEncoders
-(
-int
-num_encoders
-)
-;
 void
 EncoderDestroyed
 (
@@ -690,9 +683,6 @@ private
 :
 Mutex
 mutex_
-;
-Event
-created_video_encoder_event_
 ;
 std
 :
