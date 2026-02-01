@@ -2700,11 +2700,14 @@ true
 }
 alwaysDeniedSchemes
 =
+AlwaysDeniedSchemes
+(
 setOf
 (
 "
 intent
 "
+)
 )
 )
 val

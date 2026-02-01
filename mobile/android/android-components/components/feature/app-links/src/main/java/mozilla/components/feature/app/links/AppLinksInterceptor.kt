@@ -642,12 +642,12 @@ private
 val
 alwaysDeniedSchemes
 :
-Set
-<
-String
->
+AlwaysDeniedSchemes
 =
+AlwaysDeniedSchemes
+(
 ALWAYS_DENY_SCHEMES
+)
 private
 var
 launchInApp
@@ -949,7 +949,7 @@ in
 blocklist
 alwaysDeniedSchemes
 .
-contains
+shouldDeny
 (
 uriScheme
 )
