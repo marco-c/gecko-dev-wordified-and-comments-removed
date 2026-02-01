@@ -55,3 +55,6 @@ bin
 /
 firefox
 endif
+override_dh_strip
+:
+:
