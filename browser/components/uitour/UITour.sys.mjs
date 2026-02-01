@@ -11909,11 +11909,13 @@ SearchService
 setDefault
 (
 engine
-Ci
+lazy
 .
-nsISearchService
+SearchService
 .
-CHANGE_REASON_UITOUR
+CHANGE_REASON
+.
+UITOUR
 )
 ;
 }
