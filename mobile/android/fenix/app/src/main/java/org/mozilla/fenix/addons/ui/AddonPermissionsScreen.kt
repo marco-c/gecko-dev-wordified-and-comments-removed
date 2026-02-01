@@ -283,7 +283,9 @@ fenix
 .
 compose
 .
-SwitchWithLabel
+list
+.
+SwitchListItem
 import
 org
 .
@@ -1256,7 +1258,7 @@ onRemoveAllSitesPermissions
 Unit
 )
 {
-SwitchWithLabel
+SwitchListItem
 (
 label
 =
@@ -1288,6 +1290,11 @@ vertical
 .
 dp
 )
+maxLabelLines
+=
+Int
+.
+MAX_VALUE
 description
 =
 stringResource
@@ -1298,6 +1305,14 @@ string
 .
 addons_permissions_allow_for_all_sites_subtitle
 )
+maxDescriptionLines
+=
+Int
+.
+MAX_VALUE
+showSwitchAfter
+=
+true
 )
 {
 enabled
@@ -1509,7 +1524,7 @@ AddonPermissionsUpdateRequest
 Unit
 )
 {
-SwitchWithLabel
+SwitchListItem
 (
 label
 =
@@ -1529,6 +1544,9 @@ modifier
 enabled
 =
 isEnabled
+showSwitchAfter
+=
+true
 )
 {
 enabled

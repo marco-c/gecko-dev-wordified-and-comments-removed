@@ -293,7 +293,9 @@ fenix
 .
 compose
 .
-SwitchWithLabel
+list
+.
+SwitchListItem
 import
 org
 .
@@ -545,7 +547,7 @@ item
 TranslationSwitchItem
 -
 >
-SwitchWithLabel
+SwitchListItem
 (
 label
 =
@@ -584,6 +586,14 @@ bottom
 .
 dp
 )
+maxLabelLines
+=
+Int
+.
+MAX_VALUE
+showSwitchAfter
+=
+true
 )
 {
 checked
