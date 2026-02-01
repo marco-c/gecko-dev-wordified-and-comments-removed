@@ -14389,18 +14389,6 @@ get_branch_rev
 config
 )
     
-subs
-[
-"
-project
-"
-]
-=
-get_project_alias
-(
-config
-)
-    
 locales
 =
 task
@@ -14963,10 +14951,14 @@ product
 project
 "
 :
-get_project_alias
-(
 config
-)
+.
+params
+[
+"
+project
+"
+]
         
 "
 trust
@@ -16980,10 +16972,14 @@ self
 .
 format
 (
-get_project_alias
-(
 config
-)
+.
+params
+[
+"
+project
+"
+]
 branch_rev
 )
             
