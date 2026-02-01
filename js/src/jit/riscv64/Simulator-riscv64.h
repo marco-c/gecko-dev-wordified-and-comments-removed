@@ -2120,8 +2120,9 @@ public
 SimInstruction
 (
 )
-{
-}
+=
+default
+;
 explicit
 SimInstruction
 (
@@ -5733,8 +5734,9 @@ true
 void
 InstructionDecode
 (
-Instruction
-*
+const
+SimInstruction
+&
 instr
 )
 ;
@@ -6885,8 +6887,9 @@ static
 void
 checkICacheLocked
 (
+const
 SimInstruction
-*
+&
 instr
 )
 ;
