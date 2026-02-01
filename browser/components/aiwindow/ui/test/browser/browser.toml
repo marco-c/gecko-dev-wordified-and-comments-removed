@@ -66,6 +66,13 @@ js
 ]
 [
 "
+browser_aiwindow_switcher
+.
+js
+"
+]
+[
+"
 browser_aiwindow_transparency
 .
 js
