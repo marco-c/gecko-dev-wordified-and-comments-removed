@@ -1,4 +1,10 @@
 #
+ifndef
+ACCESSIBLE_MAC_ROTORRULES_H_
+#
+define
+ACCESSIBLE_MAC_ROTORRULES_H_
+#
 import
 "
 mozAccessible
@@ -617,3 +623,5 @@ override
 ;
 }
 ;
+#
+endif

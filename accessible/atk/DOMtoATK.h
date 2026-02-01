@@ -1,14 +1,15 @@
 #
+ifndef
+ACCESSIBLE_ATK_DOMTOATK_H_
+#
+define
+ACCESSIBLE_ATK_DOMTOATK_H_
+#
 include
 <
 glib
 .
 h
->
-#
-include
-<
-cstdint
 >
 #
 include
@@ -326,3 +327,5 @@ character
 }
 }
 }
+#
+endif

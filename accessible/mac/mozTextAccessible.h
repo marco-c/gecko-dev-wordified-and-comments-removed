@@ -1,4 +1,10 @@
 #
+ifndef
+ACCESSIBLE_MAC_MOZTEXTACCESSIBLE_H_
+#
+define
+ACCESSIBLE_MAC_MOZTEXTACCESSIBLE_H_
+#
 import
 "
 mozAccessible
@@ -300,3 +306,5 @@ NSValue
 range
 ;
 end
+#
+endif

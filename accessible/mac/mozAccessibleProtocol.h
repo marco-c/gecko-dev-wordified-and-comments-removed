@@ -1,4 +1,10 @@
 #
+ifndef
+ACCESSIBLE_MAC_MOZACCESSIBLEPROTOCOL_H_
+#
+define
+ACCESSIBLE_MAC_MOZACCESSIBLEPROTOCOL_H_
+#
 import
 <
 Cocoa
@@ -131,3 +137,5 @@ NSString
 action
 ;
 end
+#
+endif

@@ -1,4 +1,10 @@
 #
+ifndef
+ACCESSIBLE_MAC_MOXACCESSIBLEBASE_H_
+#
+define
+ACCESSIBLE_MAC_MOXACCESSIBLEBASE_H_
+#
 import
 <
 Cocoa
@@ -475,3 +481,5 @@ void
 expire
 ;
 end
+#
+endif

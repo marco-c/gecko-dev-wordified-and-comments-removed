@@ -1,4 +1,10 @@
 #
+ifndef
+ACCESSIBLE_IOS_MUIROOTACCESSIBLE_H_
+#
+define
+ACCESSIBLE_IOS_MUIROOTACCESSIBLE_H_
+#
 import
 "
 MUIAccessible
@@ -62,3 +68,5 @@ id
 representedView
 ;
 end
+#
+endif

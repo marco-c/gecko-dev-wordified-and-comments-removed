@@ -1,4 +1,10 @@
 #
+ifndef
+ACCESSIBLE_MAC_MOXTEXTMARKERDELEGATE_H_
+#
+define
+ACCESSIBLE_MAC_MOXTEXTMARKERDELEGATE_H_
+#
 import
 <
 Cocoa
@@ -510,3 +516,5 @@ AXTextSelectionGranularityAll
 ;
 }
 }
+#
+endif

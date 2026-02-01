@@ -1,4 +1,10 @@
 #
+ifndef
+ACCESSIBLE_MAC_MOZACTIONELEMENTS_H_
+#
+define
+ACCESSIBLE_MAC_MOZACTIONELEMENTS_H_
+#
 import
 <
 Cocoa
@@ -243,3 +249,5 @@ NSString
 moxTitle
 ;
 end
+#
+endif

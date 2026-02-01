@@ -1,4 +1,10 @@
 #
+ifndef
+ACCESSIBLE_MAC_MOZTABLEACCESSIBLE_H_
+#
+define
+ACCESSIBLE_MAC_MOZTABLEACCESSIBLE_H_
+#
 import
 "
 mozAccessible
@@ -407,3 +413,5 @@ BOOL
 enabled
 ;
 end
+#
+endif
