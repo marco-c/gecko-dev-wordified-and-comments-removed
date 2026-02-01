@@ -220,6 +220,14 @@ lock
 )
 ;
 void
+resumeWaitingTasks
+(
+AutoLockHelperThreadState
+&
+lock
+)
+;
+void
 waitUntilResumed
 (
 AutoLockHelperThreadState

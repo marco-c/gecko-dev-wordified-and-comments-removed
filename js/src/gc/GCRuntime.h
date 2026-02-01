@@ -4626,14 +4626,6 @@ releaseMarkingThreads
 (
 )
 ;
-bool
-hasMarkingWork
-(
-MarkColor
-color
-)
-const
-;
 void
 drainMarkStack
 (
