@@ -529,7 +529,7 @@ R
 .
 string
 .
-studies_title_2
+studies_title
 )
 )
 itemContainingText
@@ -1201,7 +1201,7 @@ R
 .
 string
 .
-studies_title_2
+studies_title
 )
 )
 .
