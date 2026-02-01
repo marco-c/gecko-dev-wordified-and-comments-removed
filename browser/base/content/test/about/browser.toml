@@ -350,6 +350,13 @@ js
 ]
 [
 "
+browser_aboutNetError_invalid_cert_noUserFix
+.
+js
+"
+]
+[
+"
 browser_aboutNetError_invalid_header
 .
 js
@@ -674,6 +681,13 @@ js
 [
 "
 browser_bug633691
+.
+js
+"
+]
+[
+"
+browser_bug2008464
 .
 js
 "
