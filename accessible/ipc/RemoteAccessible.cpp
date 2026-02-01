@@ -1994,6 +1994,11 @@ ARIARoleMap
 ;
 if
 (
+IsTextField
+(
+)
+|
+|
 (
 roleMapEntry
 &
