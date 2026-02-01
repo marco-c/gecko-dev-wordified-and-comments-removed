@@ -341,13 +341,6 @@ aCtx
 nullptr
 )
 ;
-~
-SVGElementMetrics
-(
-)
-=
-default
-;
 float
 GetEmLength
 (
@@ -451,11 +444,9 @@ SVGElement
 mSVGElement
 ;
 mutable
-RefPtr
-<
 const
 SVGViewportElement
->
+*
 mCtx
 ;
 }
