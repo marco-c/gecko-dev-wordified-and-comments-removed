@@ -480,10 +480,9 @@ right
 .
 svg
 "
-role
+alt
 =
 "
-presentation
 "
 /
 >
