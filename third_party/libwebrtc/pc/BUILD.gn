@@ -9080,11 +9080,6 @@ sources
 =
 [
 "
-jsep_ice_candidate
-.
-cc
-"
-"
 jsep_session_description
 .
 cc
