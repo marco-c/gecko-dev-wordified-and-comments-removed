@@ -193,8 +193,8 @@ tuple
 }
 )
 is
-an
-opaque
+a
+tuple
 origin
 .
 )
