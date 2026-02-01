@@ -1428,8 +1428,6 @@ mMap
 LookupOrInsertWith
 (
 aKey
-.
-mName
 [
 &
 exists
@@ -1534,8 +1532,6 @@ mMap
 Lookup
 (
 aKey
-.
-mName
 )
 .
 DataPtrOrNull
