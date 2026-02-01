@@ -943,7 +943,6 @@ in
 the
 format
 "
-v
 {
 major
 }
@@ -971,7 +970,7 @@ e
 g
 .
 "
-v1
+1
 .
 2
 "
@@ -1008,6 +1007,7 @@ match
 /
 ^
 v
+?
 (
 \
 d
@@ -1290,6 +1290,20 @@ length
 0
 )
 {
+console
+.
+warn
+(
+Missing
+featureConfigs
+for
+major
+version
+{
+majorVersion
+}
+)
+;
 return
 null
 ;
