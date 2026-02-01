@@ -88,6 +88,7 @@ BaselineShiftKeyword
 Sub
 Super
 Top
+Center
 Bottom
 }
 #
