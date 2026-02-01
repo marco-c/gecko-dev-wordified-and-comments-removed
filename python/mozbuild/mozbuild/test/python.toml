@@ -262,15 +262,6 @@ py
 "
 controller
 /
-test_build_output
-.
-py
-"
-]
-[
-"
-controller
-/
 test_ccachestats
 .
 py
