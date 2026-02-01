@@ -110,9 +110,6 @@ aChar
 )
 ;
 }
-#
-ifdef
-__cpp_char8_t
 inline
 constexpr
 bool
@@ -136,8 +133,6 @@ aChar
 )
 ;
 }
-#
-endif
 inline
 constexpr
 bool
