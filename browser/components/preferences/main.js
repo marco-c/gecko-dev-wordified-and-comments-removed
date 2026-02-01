@@ -11247,7 +11247,7 @@ layout
 -
 horizontal
 -
-tabs
+tabs2
 "
 controlAttrs
 :
@@ -11304,7 +11304,7 @@ layout
 -
 vertical
 -
-tabs
+tabs2
 "
 controlAttrs
 :
