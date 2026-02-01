@@ -338,6 +338,17 @@ rtc_base
 :
 checks
 "
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
+logging
+"
 ]
 }
 rtc_library

@@ -271,9 +271,9 @@ FieldsAre
 (
 DoubleNear
 (
-127
+40
 .
-8
+0
 kMaxAbsoluteError
 )
 kLumaThreshold
@@ -371,9 +371,7 @@ FieldsAre
 (
 DoubleNear
 (
-176
-.
-37
+40
 kMaxAbsoluteError
 )
 kLumaThreshold
@@ -450,9 +448,9 @@ FieldsAre
 (
 DoubleNear
 (
-81
+40
 .
-0346
+0
 kMaxAbsoluteError
 )
 kLumaThreshold
@@ -529,9 +527,9 @@ FieldsAre
 (
 DoubleNear
 (
-81
+40
 .
-7
+0
 kMaxAbsoluteError
 )
 kLumaThreshold
