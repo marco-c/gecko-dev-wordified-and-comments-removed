@@ -2479,6 +2479,22 @@ logging
 CRITICAL
 )
         
+logging
+.
+getLogger
+(
+"
+filelock
+"
+)
+.
+setLevel
+(
+logging
+.
+CRITICAL
+)
+        
 for
 logger
 in
