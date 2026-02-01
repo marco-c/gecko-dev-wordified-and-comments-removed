@@ -93,6 +93,17 @@ test
 '
 -
 '
+servo
+/
+components
+/
+style
+/
+properties
+/
+'
+-
+'
 toolkit
 /
 components

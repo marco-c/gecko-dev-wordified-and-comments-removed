@@ -990,6 +990,73 @@ v
 return
 aliases
 class
+Vector
+(
+object
+)
+:
+    
+def
+__init__
+(
+        
+self
+        
+need_index
+=
+False
+        
+none_value
+=
+None
+        
+separator
+=
+'
+Comma
+'
+        
+animation_type
+=
+None
+        
+simple_bindings
+=
+False
+    
+)
+:
+        
+self
+.
+need_index
+=
+need_index
+        
+self
+.
+none_value
+=
+none_value
+        
+self
+.
+separator
+=
+separator
+        
+self
+.
+animation_type
+=
+animation_type
+        
+self
+.
+simple_bindings
+=
+simple_bindings
+class
 Keyword
 (
 object
@@ -1034,13 +1101,13 @@ servo_aliases
 =
 None
         
-gecko_strip_moz_prefix
-=
-None
-        
 gecko_inexhaustive
 =
 None
+        
+gecko_needs_conversion
+=
+False
     
 )
 :
@@ -1128,6 +1195,12 @@ gecko_enum_prefix
         
 self
 .
+gecko_needs_conversion
+=
+gecko_needs_conversion
+        
+self
+.
 extra_gecko_values
 =
 (
@@ -1192,22 +1265,6 @@ is
 None
 else
 custom_consts
-        
-self
-.
-gecko_strip_moz_prefix
-=
-(
-            
-True
-if
-gecko_strip_moz_prefix
-is
-None
-else
-gecko_strip_moz_prefix
-        
-)
         
 self
 .
@@ -1341,8 +1398,6 @@ value
         
 moz_stripped
 =
-(
-            
 value
 .
 replace
@@ -1354,29 +1409,6 @@ moz
 "
 "
 "
-)
-            
-if
-self
-.
-gecko_strip_moz_prefix
-            
-else
-value
-.
-replace
-(
-"
--
-moz
--
-"
-"
-moz
--
-"
-)
-        
 )
         
 mapped
@@ -2121,13 +2153,29 @@ style_struct
         
 name
         
+initial_value
+=
+None
+        
+initial_specified_value
+=
+None
+        
+parse_method
+=
+'
+parse
+'
+        
 spec
 =
 None
         
 animation_type
 =
-None
+"
+normal
+"
         
 keyword
 =
@@ -2150,10 +2198,6 @@ enabled_in
 "
 content
 "
-        
-need_index
-=
-False
         
 gecko_ffi_name
 =
@@ -2199,21 +2243,15 @@ None
         
 allow_quirks
 =
-"
-No
-"
+False
         
 ignored_when_colors_disabled
 =
 False
         
-simple_vector_bindings
-=
-False
-        
 vector
 =
-False
+None
         
 servo_restyle_damage
 =
@@ -2289,6 +2327,24 @@ self
 affects_flags
 (
 )
+        
+self
+.
+parse_method
+=
+parse_method
+        
+self
+.
+initial_value
+=
+initial_value
+        
+self
+.
+initial_specified_value
+=
+initial_specified_value
         
 self
 .
@@ -2405,12 +2461,6 @@ internal
         
 self
 .
-need_index
-=
-need_index
-        
-self
-.
 gecko_ffi_name
 =
 gecko_ffi_name
@@ -2489,27 +2539,21 @@ ignored_when_colors_disabled
         
 self
 .
-is_vector
-=
 vector
-        
-self
-.
-simple_vector_bindings
 =
-simple_vector_bindings
-        
+Vector
+(
+*
+*
+vector
+)
 if
-animation_type
+vector
 is
+not
 None
-:
-            
-animation_type
-=
-"
-normal
-"
+else
+None
         
 assert
 animation_type
@@ -3009,7 +3053,7 @@ and
 not
 self
 .
-is_vector
+vector
 :
             
 return
@@ -3068,7 +3112,7 @@ and
 not
 self
 .
-is_vector
+vector
 :
             
 ty
@@ -3320,7 +3364,7 @@ self
 if
 self
 .
-is_vector
+vector
 or
 self
 .
@@ -4948,6 +4992,48 @@ current_style_struct
 None
     
 def
+style_struct_by_name_lower
+(
+self
+name
+)
+:
+        
+for
+s
+in
+self
+.
+style_structs
+:
+            
+if
+s
+.
+name_lower
+=
+=
+name
+:
+                
+return
+s
+        
+raise
+TypeError
+(
+f
+"
+Unexpected
+struct
+name
+{
+name
+}
+"
+)
+    
+def
 active_style_structs
 (
 self
@@ -5016,6 +5102,7 @@ def
 declare_longhand
 (
 self
+style_struct
 name
 engines
 =
@@ -5049,9 +5136,7 @@ longhand
 =
 Longhand
 (
-self
-.
-current_style_struct
+style_struct
 name
 *
 *
@@ -5099,9 +5184,7 @@ longhand
 .
 aliases
         
-self
-.
-current_style_struct
+style_struct
 .
 longhands
 .

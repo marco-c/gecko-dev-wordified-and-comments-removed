@@ -86,9 +86,7 @@ DEFAULT_RULES_AND_PAGE
 POSITION_TRY_RULE
 allow_quirks
 =
-"
-Yes
-"
+True
 )
 }
 {

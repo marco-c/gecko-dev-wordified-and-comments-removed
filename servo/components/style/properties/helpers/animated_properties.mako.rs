@@ -104,6 +104,7 @@ properties
 :
 :
 {
+gecko
 longhands
 :
 :
@@ -142,6 +143,15 @@ super
 :
 :
 ComputedValues
+;
+use
+crate
+:
+:
+derives
+:
+:
+*
 ;
 use
 crate
@@ -293,6 +303,12 @@ value
 :
 :
 CustomAnimatedValue
+;
+use
+debug_unreachable
+:
+:
+debug_unreachable
 ;
 #
 [
@@ -1923,7 +1939,7 @@ get_system
 (
 )
 {
-longhands
+gecko
 :
 :
 system_font
