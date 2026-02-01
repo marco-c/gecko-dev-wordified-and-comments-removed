@@ -341,7 +341,6 @@ if
 =
 [
 "
-(
 os
 =
 =
@@ -351,7 +350,6 @@ android
 &
 &
 release_or_beta
-)
 "
 #
 bug

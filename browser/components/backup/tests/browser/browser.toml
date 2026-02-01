@@ -125,6 +125,14 @@ os_version
 '
 &
 &
+display
+=
+=
+'
+x11
+'
+&
+&
 tsan
 "
 #

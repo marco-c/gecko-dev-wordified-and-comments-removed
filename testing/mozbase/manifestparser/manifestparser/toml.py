@@ -1368,8 +1368,6 @@ infrastructure
 "
     
 if
-(
-        
 condition
 .
 find
@@ -1396,8 +1394,9 @@ os_version
 >
 =
 0
-        
 and
+(
+        
 condition
 .
 find
@@ -1409,8 +1408,54 @@ asan
 >
 =
 0
+or
+condition
+.
+find
+(
+"
+tsan
+"
+)
+>
+=
+0
     
 )
+:
+        
+return
+True
+    
+if
+condition
+.
+find
+(
+"
+os
+=
+=
+'
+win
+'
+"
+)
+>
+=
+0
+and
+condition
+.
+find
+(
+"
+tsan
+"
+)
+>
+=
+0
 :
         
 return
@@ -4559,7 +4604,7 @@ e_comment
 =
 simple
                         
-if
+elif
 e_comment
 :
                             

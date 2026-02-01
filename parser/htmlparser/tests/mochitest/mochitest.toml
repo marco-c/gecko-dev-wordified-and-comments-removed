@@ -858,10 +858,10 @@ http2
 http3
 "
 "
-xorigin
-&
-&
 debug
+&
+&
+xorigin
 "
 ]
 [
@@ -935,10 +935,10 @@ if
 =
 [
 "
-xorigin
-&
-&
 debug
+&
+&
+xorigin
 "
 ]
 [

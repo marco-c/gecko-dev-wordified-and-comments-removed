@@ -2155,13 +2155,13 @@ x11
 '
 &
 &
-swgl
+tsan
 &
 &
 fission
 &
 &
-tsan
+swgl
 "
 #
 high
