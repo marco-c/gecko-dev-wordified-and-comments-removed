@@ -1,0 +1,12 @@
+[
+console_scripts
+]
+chardetect
+=
+chardet
+.
+cli
+.
+chardetect
+:
+main

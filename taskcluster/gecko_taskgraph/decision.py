@@ -17,8 +17,6 @@ pathlib
 import
 Path
 import
-taskgraph
-import
 yaml
 from
 redo
@@ -1370,12 +1368,22 @@ taskgraph_dir
 =
 Path
 (
+        
+GECKO
+"
+third_party
+"
+"
+python
+"
+"
+taskcluster_taskgraph
+"
+"
 taskgraph
-.
-__file__
+"
+    
 )
-.
-parent
     
 to_copy
 =
