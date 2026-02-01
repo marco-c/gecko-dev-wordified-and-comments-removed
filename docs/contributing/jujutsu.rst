@@ -2025,9 +2025,9 @@ following
 :
 :
 [
-core
-]
 fsmonitor
+]
+backend
 =
 "
 watchman
