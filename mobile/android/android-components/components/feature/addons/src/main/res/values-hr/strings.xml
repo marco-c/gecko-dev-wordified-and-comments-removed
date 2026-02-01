@@ -175,7 +175,7 @@ mozac_feature_addons_permissions_one_site_description
 "
 >
 Pristup
-podatcima
+podacima
 za
 %
 1
@@ -251,7 +251,7 @@ mozac_feature_addons_permissions_sites_in_domain_description
 "
 >
 Pristup
-podatcima
+podacima
 stranica
 na
 domeni
@@ -333,7 +333,7 @@ mozac_feature_addons_permissions_one_extra_site_description_2
 >
 Pristup
 tvojim
-podatcima
+podacima
 na
 drugoj
 stranici
@@ -412,7 +412,7 @@ mozac_feature_addons_permissions_extra_sites_description_2
 >
 Pristup
 tvojim
-podatcima
+podacima
 na
 drugim
 stranicama
@@ -490,7 +490,7 @@ mozac_feature_addons_permissions_one_extra_domain_description_2
 >
 Pristup
 tvojim
-podatcima
+podacima
 na
 drugoj
 domeni
@@ -569,7 +569,7 @@ mozac_feature_addons_permissions_extra_domains_description_plural_2
 >
 Pristup
 tvojim
-podatcima
+podacima
 na
 drugim
 domenama
