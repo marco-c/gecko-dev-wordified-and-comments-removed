@@ -9193,6 +9193,11 @@ ARIARoleMap
 ;
 if
 (
+IsTextField
+(
+)
+|
+|
 (
 roleMapEntry
 &
