@@ -101,6 +101,11 @@ note
 editor
 -
 panel
+panel
+-
+no
+-
+padding
 "
 orient
 =
@@ -194,6 +199,8 @@ class
 "
 panel
 -
+subview
+-
 body
 tab
 -
@@ -277,6 +284,9 @@ panel
 action
 -
 row
+panel
+-
+footer
 "
 >
 <
