@@ -75,6 +75,13 @@ js
 ]
 [
 "
+browser_aiwindow_ask_button
+.
+js
+"
+]
+[
+"
 browser_aiwindow_assistant_message_footer
 .
 js
