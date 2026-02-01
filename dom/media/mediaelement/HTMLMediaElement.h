@@ -2492,11 +2492,7 @@ MozAudioCaptured
 (
 )
 const
-{
-return
-mAudioCaptured
 ;
-}
 void
 MozGetMetadata
 (
