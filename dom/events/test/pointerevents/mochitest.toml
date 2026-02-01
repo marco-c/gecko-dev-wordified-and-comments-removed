@@ -854,13 +854,6 @@ html
 ]
 [
 "
-test_pointer_boundary_events_iframe
-.
-html
-"
-]
-[
-"
 test_pointercancel_target_at_dragstart
 .
 html

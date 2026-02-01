@@ -5492,12 +5492,6 @@ WidgetMouseEvent
 :
 eSynthesized
 ;
-GeneratePointerEnterExit
-(
-ePointerMove
-mouseEvent
-)
-;
 }
 else
 {
