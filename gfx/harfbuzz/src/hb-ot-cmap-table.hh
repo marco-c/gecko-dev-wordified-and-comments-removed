@@ -8798,6 +8798,17 @@ create
 source_table
 )
 ;
+if
+(
+unlikely
+(
+!
+cache
+)
+)
+return
+nullptr
+;
 for
 (
 const
