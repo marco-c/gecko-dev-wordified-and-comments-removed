@@ -140,7 +140,7 @@ label
 -
 chat
 =
-Ask
+Chat
 aiwindow
 -
 input
@@ -162,7 +162,7 @@ label
 -
 navigate
 =
-Go
+Navigate
 }
 argTypes
 :
@@ -173,8 +173,7 @@ action
 options
 :
 [
-"
-"
+null
 "
 chat
 "

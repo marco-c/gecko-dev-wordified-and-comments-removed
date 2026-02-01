@@ -274,7 +274,7 @@ label
 -
 chat
 =
-Ask
+Chat
 aiwindow
 -
 input
@@ -296,7 +296,7 @@ label
 -
 navigate
 =
-Go
+Navigate
 #
 #
 Smartbar
