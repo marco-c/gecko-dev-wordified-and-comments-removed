@@ -183,6 +183,7 @@ enabled
 ]
 attribute
 DOMString
+?
 shadowRootReferenceTarget
 ;
 }
