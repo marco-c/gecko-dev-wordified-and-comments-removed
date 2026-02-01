@@ -313,8 +313,6 @@ mock
 val
 state
 =
-spy
-(
 BrowserState
 (
 tabs
@@ -351,7 +349,6 @@ selectedTabId
 "
 123
 "
-)
 )
 val
 store
@@ -462,8 +459,6 @@ mock
 val
 state
 =
-spy
-(
 BrowserState
 (
 tabs
@@ -500,7 +495,6 @@ selectedTabId
 "
 123
 "
-)
 )
 val
 store

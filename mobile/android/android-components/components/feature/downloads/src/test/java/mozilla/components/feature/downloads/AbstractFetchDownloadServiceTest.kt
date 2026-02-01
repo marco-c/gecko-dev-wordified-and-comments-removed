@@ -8996,8 +8996,6 @@ Response
 val
 download
 =
-spy
-(
 DownloadState
 (
 "
@@ -9024,7 +9022,6 @@ null
 contentLength
 =
 1000
-)
 )
 val
 downloadJob
@@ -9117,8 +9114,6 @@ Response
 val
 download
 =
-spy
-(
 DownloadState
 (
 "
@@ -9145,7 +9140,6 @@ responseFromDownloadState
 contentLength
 =
 1000
-)
 )
 val
 downloadJob
@@ -9239,8 +9233,6 @@ Response
 val
 download
 =
-spy
-(
 DownloadState
 (
 "
@@ -9267,7 +9259,6 @@ responseFromDownloadState
 contentLength
 =
 1000
-)
 )
 val
 downloadJob
