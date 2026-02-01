@@ -1019,7 +1019,7 @@ closest
 (
 "
 #
-aiwindow
+smartwindow
 -
 ask
 -

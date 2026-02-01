@@ -115,7 +115,7 @@ document
 getElementById
 (
 "
-aiwindow
+smartwindow
 -
 ask
 -
@@ -653,7 +653,7 @@ document
 getElementById
 (
 "
-aiwindow
+smartwindow
 -
 ask
 -

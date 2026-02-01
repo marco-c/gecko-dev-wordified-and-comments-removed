@@ -943,7 +943,7 @@ document
 getElementById
 (
 "
-aiwindow
+smartwindow
 -
 ask
 -

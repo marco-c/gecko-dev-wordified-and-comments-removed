@@ -626,7 +626,7 @@ message
 Ask
 Toolbar
 Button
-aiwindow
+smartwindow
 -
 ask
 -

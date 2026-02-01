@@ -980,7 +980,7 @@ view
 -
 button
 #
-aiwindow
+smartwindow
 -
 ask
 -
@@ -1413,7 +1413,7 @@ break
 ;
 case
 "
-aiwindow
+smartwindow
 -
 ask
 -
@@ -1629,7 +1629,7 @@ view
 -
 button
 #
-aiwindow
+smartwindow
 -
 ask
 -
@@ -2024,7 +2024,7 @@ break
 ;
 case
 "
-aiwindow
+smartwindow
 -
 ask
 -
