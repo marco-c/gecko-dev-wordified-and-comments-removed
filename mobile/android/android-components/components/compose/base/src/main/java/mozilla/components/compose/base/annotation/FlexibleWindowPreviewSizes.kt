@@ -69,6 +69,12 @@ annotation
 internal
 const
 val
+EXTRA_SMALL_WINDOW_HEIGHT
+=
+480
+internal
+const
+val
 SMALL_WINDOW_WIDTH
 =
 400

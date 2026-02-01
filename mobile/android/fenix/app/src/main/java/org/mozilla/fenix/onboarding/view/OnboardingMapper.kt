@@ -1196,6 +1196,9 @@ mapToOnboardingPageState
 onboardingPageUiData
 :
 OnboardingPageUiData
+shouldShowElevation
+:
+Boolean
 onMakeFirefoxDefaultClick
 :
 (
@@ -1321,6 +1324,9 @@ onMakeFirefoxDefaultClick
 onNegativeButtonClick
 =
 onMakeFirefoxDefaultSkipClick
+shouldShowElevation
+=
+shouldShowElevation
 )
 OnboardingPageUiData
 .
@@ -1340,6 +1346,9 @@ onAddFirefoxWidgetClick
 onNegativeButtonClick
 =
 onAddFirefoxWidgetSkipClick
+shouldShowElevation
+=
+shouldShowElevation
 )
 OnboardingPageUiData
 .
@@ -1359,6 +1368,9 @@ onSignInButtonClick
 onNegativeButtonClick
 =
 onSignInSkipClick
+shouldShowElevation
+=
+shouldShowElevation
 )
 OnboardingPageUiData
 .
@@ -1378,6 +1390,9 @@ onNotificationPermissionButtonClick
 onNegativeButtonClick
 =
 onNotificationPermissionSkipClick
+shouldShowElevation
+=
+shouldShowElevation
 )
 OnboardingPageUiData
 .
@@ -1408,6 +1423,9 @@ for
 toolbar
 placement
 .
+shouldShowElevation
+=
+shouldShowElevation
 )
 OnboardingPageUiData
 .
@@ -1438,6 +1456,9 @@ for
 theme
 selection
 .
+shouldShowElevation
+=
+shouldShowElevation
 )
 OnboardingPageUiData
 .
@@ -1469,6 +1490,9 @@ terms
 of
 service
 .
+shouldShowElevation
+=
+shouldShowElevation
 )
 OnboardingPageUiData
 .
@@ -1499,6 +1523,9 @@ for
 marketing
 data
 .
+shouldShowElevation
+=
+shouldShowElevation
 )
 }
 private
@@ -1508,6 +1535,9 @@ createOnboardingPageState
 onboardingPageUiData
 :
 OnboardingPageUiData
+shouldShowElevation
+:
+Boolean
 onPositiveButtonClick
 :
 (
@@ -1592,4 +1622,7 @@ marketingData
 onboardingPageUiData
 .
 marketingData
+shouldShowElevation
+=
+shouldShowElevation
 )

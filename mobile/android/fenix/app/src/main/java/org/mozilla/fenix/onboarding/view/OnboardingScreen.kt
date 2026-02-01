@@ -1758,6 +1758,9 @@ onCustomizeThemeButtonClick
 onTermsOfServiceButtonClick
 =
 onAgreeAndConfirmTermsOfService
+shouldShowElevation
+=
+false
 )
 OnboardingPageForType
 (
