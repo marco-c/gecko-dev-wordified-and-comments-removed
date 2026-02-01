@@ -359,7 +359,11 @@ multilineeditor
 .
 stories
 .
+(
 mjs
+|
+md
+)
 "
 .
 .
