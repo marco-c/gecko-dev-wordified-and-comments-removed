@@ -101,6 +101,14 @@ TaskQueueBase
 attached_queue
 )
 ;
+SequenceCheckerImpl
+(
+SequenceCheckerImpl
+&
+&
+o
+)
+;
 ~
 SequenceCheckerImpl
 (
