@@ -1493,9 +1493,6 @@ aiFeatures
 "
 aiStatesDescription
 "
-"
-aiWindowFeatures
-"
 ]
 module
 :
