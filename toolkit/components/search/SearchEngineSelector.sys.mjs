@@ -741,9 +741,8 @@ length
 )
 {
 throw
-Components
-.
-Exception
+new
+Error
 (
 "
 Failed
@@ -755,9 +754,6 @@ from
 Remote
 Settings
 "
-Cr
-.
-NS_ERROR_UNEXPECTED
 )
 ;
 }
