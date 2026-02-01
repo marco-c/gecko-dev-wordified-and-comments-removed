@@ -111,6 +111,11 @@ MapObject
 cpp
 "
 "
+Math
+.
+cpp
+"
+"
 ModuleObject
 .
 cpp
@@ -233,11 +238,6 @@ SOURCES
 +
 =
 [
-"
-Math
-.
-cpp
-"
 "
 RegExp
 .
