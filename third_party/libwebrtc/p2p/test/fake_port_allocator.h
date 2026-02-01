@@ -735,7 +735,7 @@ RegatherOnFailedNetworks
 )
 override
 {
-SignalIceRegathering
+NotifyIceRegathering
 (
 this
 IceRegatheringReason
@@ -943,7 +943,7 @@ push_back
 port
 )
 ;
-SignalPortReady
+NotifyPortReady
 (
 this
 port
@@ -1004,7 +1004,7 @@ end
 )
 )
 ;
-SignalCandidatesReady
+NotifyCandidatesReady
 (
 this
 candidates
@@ -1014,7 +1014,7 @@ allocation_done_
 =
 true
 ;
-SignalCandidatesAllocationDone
+NotifyCandidatesAllocationDone
 (
 this
 )
