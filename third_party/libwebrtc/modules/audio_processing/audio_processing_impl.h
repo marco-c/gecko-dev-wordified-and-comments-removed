@@ -1971,9 +1971,6 @@ linear_aec_output
 StreamConfig
 capture_processing_format
 ;
-int
-split_rate
-;
 bool
 echo_path_gain_change
 ;
@@ -2028,10 +2025,6 @@ capture_processing_format
 (
 kSampleRate16kHz
 )
-split_rate
-(
-kSampleRate16kHz
-)
 stream_delay_ms
 (
 0
@@ -2040,9 +2033,6 @@ stream_delay_ms
 }
 StreamConfig
 capture_processing_format
-;
-int
-split_rate
 ;
 int
 stream_delay_ms
