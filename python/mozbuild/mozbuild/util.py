@@ -8804,8 +8804,8 @@ taskcluster
 .
 optionsFromEnvironment
 (
-            
 {
+            
 "
 rootUrl
 "
@@ -8814,8 +8814,8 @@ get_root_url
 (
 block_proxy
 )
-}
         
+}
 )
     
 return
