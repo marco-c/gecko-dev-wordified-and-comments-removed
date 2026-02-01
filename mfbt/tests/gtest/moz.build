@@ -27,6 +27,11 @@ TestTainting
 .
 cpp
 "
+"
+TestUniquePtrExtensions
+.
+cpp
+"
 ]
 SOURCES
 +
