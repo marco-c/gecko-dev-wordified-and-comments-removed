@@ -17367,12 +17367,6 @@ itemAfter
 itemAfter
 .
 splitview
-?
-.
-nextElementSibling
-|
-|
-null
 ;
 }
 tab
