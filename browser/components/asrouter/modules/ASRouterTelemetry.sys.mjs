@@ -95,9 +95,8 @@ already
 stubs
 out
 XPCOMUtils
-AppConstants
 and
-RemoteSettings
+AppConstants
 /
 /
 and
