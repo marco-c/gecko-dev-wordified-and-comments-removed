@@ -262,7 +262,7 @@ observe
 [
 AppState
 .
-isReaderViewActive
+readerViewState
 ]
 .
 *

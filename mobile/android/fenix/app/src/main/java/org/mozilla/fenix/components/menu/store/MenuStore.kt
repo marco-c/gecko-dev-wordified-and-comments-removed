@@ -239,10 +239,6 @@ CustomMenuItemAction
 is
 MenuAction
 .
-ToggleReaderView
-is
-MenuAction
-.
 CustomizeReaderView
 is
 MenuAction
