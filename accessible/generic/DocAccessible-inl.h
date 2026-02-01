@@ -476,6 +476,14 @@ IsCombobox
 aAccessible
 -
 >
+IsPassword
+(
+)
+|
+|
+aAccessible
+-
+>
 Role
 (
 )
