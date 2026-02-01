@@ -109,6 +109,8 @@ sys
 .
 mjs
 "
+AIWindow
+:
 /
 /
 eslint
@@ -129,8 +131,6 @@ refs
 in
 -
 toolkit
-AIWindowAccountAuth
-:
 "
 moz
 -
@@ -149,7 +149,7 @@ ui
 /
 modules
 /
-AIWindowAccountAuth
+AIWindow
 .
 sys
 .
@@ -1858,6 +1858,15 @@ browser
 aboutwelcome
 .
 didSeeFinalScreen
+"
+"
+browser
+.
+aiwindow
+.
+firstrun
+.
+hasCompleted
 "
 "
 browser
@@ -5124,9 +5133,9 @@ boolean
 return
 lazy
 .
-AIWindowAccountAuth
+AIWindow
 .
-launchAIWindow
+launchWindow
 (
 browser
 )
