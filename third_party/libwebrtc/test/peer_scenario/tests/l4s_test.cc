@@ -4322,7 +4322,7 @@ DataRate
 :
 KilobitsPerSec
 (
-2100
+3000
 )
 )
 ;
