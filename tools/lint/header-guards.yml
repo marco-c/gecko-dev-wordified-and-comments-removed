@@ -163,14 +163,6 @@ h
 -
 gfx
 /
-thebes
-/
-gfxFontPrefLangList
-.
-h
--
-gfx
-/
 src
 /
 X11UndefineNone

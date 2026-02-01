@@ -335,7 +335,7 @@ include
 "
 gfxFontPrefLangList
 .
-h
+inc
 "
 #
 undef
