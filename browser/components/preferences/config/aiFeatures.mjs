@@ -2902,6 +2902,11 @@ registerGroups
 aiControlsDescription
 :
 {
+card
+:
+"
+never
+"
 items
 :
 [
@@ -3051,6 +3056,11 @@ svg
 aiStatesDescription
 :
 {
+card
+:
+"
+never
+"
 items
 :
 [
@@ -3185,6 +3195,11 @@ blocked
 aiFeatures
 :
 {
+card
+:
+"
+always
+"
 items
 :
 [
