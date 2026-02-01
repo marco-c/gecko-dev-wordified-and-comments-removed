@@ -1486,6 +1486,17 @@ freeze
 "
 browser
 .
+ai
+.
+control
+.
+default
+"
+:
+PREF_STRING
+"
+browser
+.
 newtabpage
 .
 activity
