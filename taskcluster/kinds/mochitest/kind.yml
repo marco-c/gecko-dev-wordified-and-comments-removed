@@ -781,6 +781,9 @@ shippable
 opt
 :
 [
+'
+trunk
+'
 ]
 windows11
 -
