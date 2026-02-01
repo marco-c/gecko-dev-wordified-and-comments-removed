@@ -3092,6 +3092,17 @@ return
 NS_OK
 ;
 }
+MOZ_ASSERT
+(
+mReadyState
+=
+=
+RTCDataChannelState
+:
+:
+Open
+)
+;
 DC_VERBOSE
 (
 (
