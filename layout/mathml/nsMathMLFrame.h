@@ -276,6 +276,16 @@ return
 false
 ;
 }
+nscoord
+ItalicCorrection
+(
+)
+override
+{
+return
+0
+;
+}
 static
 void
 GetEmbellishDataFrom

@@ -211,6 +211,12 @@ ChildListChanged
 )
 ;
 }
+nscoord
+ItalicCorrection
+(
+)
+final
+;
 protected
 :
 explicit

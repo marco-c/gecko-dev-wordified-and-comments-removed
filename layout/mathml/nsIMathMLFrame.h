@@ -97,6 +97,7 @@ uint8_t
 EmbellishedOperator
 MovableLimits
 Accent
+LargeOp
 AccentOver
 AccentUnder
 Fence
@@ -275,6 +276,14 @@ aFrame
 virtual
 bool
 IsMrowLike
+(
+)
+=
+0
+;
+virtual
+nscoord
+ItalicCorrection
 (
 )
 =
