@@ -637,9 +637,7 @@ locales
 is
 set
 to
-SearchUtils
-.
-DEFAULT_TAG
+default
 .
 Search
 Extensions
