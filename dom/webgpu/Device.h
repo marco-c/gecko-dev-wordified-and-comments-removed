@@ -459,6 +459,9 @@ ExpireExternalTextures
 (
 )
 ;
+bool
+mLost
+;
 RefPtr
 <
 dom
