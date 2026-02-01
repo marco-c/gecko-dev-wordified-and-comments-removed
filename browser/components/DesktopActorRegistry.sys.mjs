@@ -1372,6 +1372,17 @@ wantUntrusted
 :
 true
 }
+"
+AIChatContent
+:
+Ready
+"
+:
+{
+wantUntrusted
+:
+true
+}
 }
 }
 allFrames
