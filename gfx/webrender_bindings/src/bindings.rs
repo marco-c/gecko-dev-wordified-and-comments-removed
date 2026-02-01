@@ -3266,6 +3266,11 @@ ThinVec
 <
 DeviceIntRect
 >
+out_did_rasterize
+:
+&
+mut
+bool
 )
 -
 >
@@ -3309,6 +3314,13 @@ results
 .
 dirty_rects
 )
+;
+*
+out_did_rasterize
+=
+results
+.
+did_rasterize_any_tile
 ;
 true
 }

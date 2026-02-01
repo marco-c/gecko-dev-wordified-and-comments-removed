@@ -737,6 +737,9 @@ failedAssignedLayerMessages
 :
 [
 ]
+failedNoWRRaster
+:
+false
 startAfter
 :
 undefined

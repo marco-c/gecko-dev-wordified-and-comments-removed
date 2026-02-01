@@ -3098,6 +3098,10 @@ FrameVec
 <
 CompositorClip
 >
+pub
+did_rasterize_any_tile
+:
+bool
 }
 impl
 CompositeState
@@ -3223,6 +3227,9 @@ new_vec
 )
 low_quality_pinch_zoom
 clips
+did_rasterize_any_tile
+:
+false
 }
 }
 fn
