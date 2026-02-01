@@ -41813,14 +41813,6 @@ GetActualAndNormalOverflowAreasRelativeToParent
 )
 const
 {
-const
-bool
-hasAnchorPosReference
-=
-HasAnchorPosReference
-(
-)
-;
 if
 (
 MOZ_LIKELY
@@ -41829,10 +41821,6 @@ MOZ_LIKELY
 IsRelativelyOrStickyPositioned
 (
 )
-&
-&
-!
-hasAnchorPosReference
 )
 )
 {
@@ -41864,9 +41852,6 @@ if
 IsRelativelyPositioned
 (
 )
-|
-|
-hasAnchorPosReference
 )
 {
 actualAndNormalOverflows
