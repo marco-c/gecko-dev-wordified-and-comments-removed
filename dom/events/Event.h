@@ -1197,6 +1197,15 @@ const
 ;
 EventTarget
 *
+GetOriginalTarget
+(
+CallerType
+aCallerType
+)
+const
+;
+EventTarget
+*
 GetExplicitOriginalTarget
 (
 )

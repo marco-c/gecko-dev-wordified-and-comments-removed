@@ -412,6 +412,9 @@ retargetings
 .
 *
 /
+[
+NeedsCallerType
+]
 readonly
 attribute
 EventTarget
