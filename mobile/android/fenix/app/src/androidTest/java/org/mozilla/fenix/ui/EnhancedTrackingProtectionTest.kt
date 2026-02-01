@@ -698,6 +698,9 @@ genericPage
 url
 )
 {
+waitForPageToLoad
+(
+)
 }
 .
 openSiteSecuritySheet
