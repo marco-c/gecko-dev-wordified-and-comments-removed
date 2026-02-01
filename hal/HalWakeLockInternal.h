@@ -1,9 +1,9 @@
 #
 ifndef
-HAL_WAKELOCK_INTERNAL_H_
+__HAL_WAKELOCK_INTERNAL_H_
 #
 define
-HAL_WAKELOCK_INTERNAL_H_
+__HAL_WAKELOCK_INTERNAL_H_
 namespace
 mozilla
 {

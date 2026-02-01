@@ -1,9 +1,9 @@
 #
 ifndef
-nsScannerString_h_
+nsScannerString_h___
 #
 define
-nsScannerString_h_
+nsScannerString_h___
 #
 include
 "

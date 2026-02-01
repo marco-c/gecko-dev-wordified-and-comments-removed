@@ -1,9 +1,9 @@
 #
 ifndef
-nsDocShellTreeOwner_h_
+nsDocShellTreeOwner_h__
 #
 define
-nsDocShellTreeOwner_h_
+nsDocShellTreeOwner_h__
 #
 include
 "

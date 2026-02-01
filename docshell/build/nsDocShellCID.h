@@ -1,9 +1,9 @@
 #
 ifndef
-nsDocShellCID_h_
+nsDocShellCID_h__
 #
 define
-nsDocShellCID_h_
+nsDocShellCID_h__
 #
 define
 NS_WEBNAVIGATION_INFO_CONTRACTID

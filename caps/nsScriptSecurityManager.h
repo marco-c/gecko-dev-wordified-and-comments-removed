@@ -1,9 +1,9 @@
 #
 ifndef
-nsScriptSecurityManager_h_
+nsScriptSecurityManager_h__
 #
 define
-nsScriptSecurityManager_h_
+nsScriptSecurityManager_h__
 #
 include
 "

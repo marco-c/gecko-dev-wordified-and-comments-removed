@@ -1,6 +1,6 @@
 #
 ifndef
-mozilla_storage_Variant_h_
+mozilla_storage_Variant_h__
 #
 error
 "

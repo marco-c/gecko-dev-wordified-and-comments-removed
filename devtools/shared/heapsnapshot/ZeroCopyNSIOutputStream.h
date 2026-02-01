@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_devtools_ZeroCopyNSIOutputStream_
+mozilla_devtools_ZeroCopyNSIOutputStream__
 #
 define
-mozilla_devtools_ZeroCopyNSIOutputStream_
+mozilla_devtools_ZeroCopyNSIOutputStream__
 #
 include
 <

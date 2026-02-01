@@ -1,9 +1,9 @@
 #
 ifndef
-MAR_PRIVATE_H_
+MAR_PRIVATE_H__
 #
 define
-MAR_PRIVATE_H_
+MAR_PRIVATE_H__
 #
 include
 <

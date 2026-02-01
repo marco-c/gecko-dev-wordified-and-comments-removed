@@ -1,9 +1,9 @@
 #
 ifndef
-nsNTLMAuthModule_h_
+nsNTLMAuthModule_h__
 #
 define
-nsNTLMAuthModule_h_
+nsNTLMAuthModule_h__
 #
 include
 "

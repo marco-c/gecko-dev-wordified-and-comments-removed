@@ -1,9 +1,9 @@
 #
 ifndef
-nsExternalHelperAppService_h_
+nsExternalHelperAppService_h__
 #
 define
-nsExternalHelperAppService_h_
+nsExternalHelperAppService_h__
 #
 include
 "

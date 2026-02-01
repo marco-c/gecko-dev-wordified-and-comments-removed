@@ -1,9 +1,9 @@
 #
 ifndef
-MAR_CMDLINE_H_
+MAR_CMDLINE_H__
 #
 define
-MAR_CMDLINE_H_
+MAR_CMDLINE_H__
 #
 ifdef
 __cplusplus

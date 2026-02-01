@@ -1,9 +1,9 @@
 #
 ifndef
-nsIScrollObserver_h_
+nsIScrollObserver_h___
 #
 define
-nsIScrollObserver_h_
+nsIScrollObserver_h___
 #
 include
 "

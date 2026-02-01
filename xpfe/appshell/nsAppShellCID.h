@@ -1,9 +1,9 @@
 #
 ifndef
-nsAppShellCID_h_
+nsAppShellCID_h__
 #
 define
-nsAppShellCID_h_
+nsAppShellCID_h__
 #
 define
 NS_APPSHELLSERVICE_CONTRACTID

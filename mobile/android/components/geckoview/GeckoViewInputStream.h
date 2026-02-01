@@ -1,9 +1,9 @@
 #
 ifndef
-GeckoViewInputStream_h_
+GeckoViewInputStream_h__
 #
 define
-GeckoViewInputStream_h_
+GeckoViewInputStream_h__
 #
 include
 "

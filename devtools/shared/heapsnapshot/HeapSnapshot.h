@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_devtools_HeapSnapshot_
+mozilla_devtools_HeapSnapshot__
 #
 define
-mozilla_devtools_HeapSnapshot_
+mozilla_devtools_HeapSnapshot__
 #
 include
 "

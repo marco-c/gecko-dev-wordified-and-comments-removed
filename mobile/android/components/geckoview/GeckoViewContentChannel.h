@@ -1,9 +1,9 @@
 #
 ifndef
-GeckoViewContentChannel_h_
+GeckoViewContentChannel_h__
 #
 define
-GeckoViewContentChannel_h_
+GeckoViewContentChannel_h__
 #
 include
 "

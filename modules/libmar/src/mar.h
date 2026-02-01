@@ -1,9 +1,9 @@
 #
 ifndef
-MAR_H_
+MAR_H__
 #
 define
-MAR_H_
+MAR_H__
 #
 include
 <

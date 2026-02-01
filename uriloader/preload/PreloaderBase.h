@@ -1,9 +1,9 @@
 #
 ifndef
-PreloaderBase_h_
+PreloaderBase_h__
 #
 define
-PreloaderBase_h_
+PreloaderBase_h__
 #
 include
 "

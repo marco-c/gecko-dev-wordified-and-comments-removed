@@ -1,9 +1,9 @@
 #
 ifndef
-nsJARProtocolHandler_h_
+nsJARProtocolHandler_h__
 #
 define
-nsJARProtocolHandler_h_
+nsJARProtocolHandler_h__
 #
 include
 "

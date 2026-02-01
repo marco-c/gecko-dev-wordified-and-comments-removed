@@ -1,9 +1,9 @@
 #
 ifndef
-md4_h_
+md4_h__
 #
 define
-md4_h_
+md4_h__
 #
 ifdef
 __cplusplus

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_EHABIStackWalk_h_
+mozilla_EHABIStackWalk_h__
 #
 define
-mozilla_EHABIStackWalk_h_
+mozilla_EHABIStackWalk_h__
 #
 include
 <

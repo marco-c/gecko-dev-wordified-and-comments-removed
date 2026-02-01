@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_AutoSelectionRestorer_h_
+mozilla_AutoSelectionRestorer_h__
 #
 define
-mozilla_AutoSelectionRestorer_h_
+mozilla_AutoSelectionRestorer_h__
 #
 include
 "

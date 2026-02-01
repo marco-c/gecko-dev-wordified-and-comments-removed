@@ -1,9 +1,9 @@
 #
 ifndef
-nsRefreshTimer_h_
+nsRefreshTimer_h__
 #
 define
-nsRefreshTimer_h_
+nsRefreshTimer_h__
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsAuthSambaNTLM_h_
+nsAuthSambaNTLM_h__
 #
 define
-nsAuthSambaNTLM_h_
+nsAuthSambaNTLM_h__
 #
 include
 "

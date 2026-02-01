@@ -1,9 +1,9 @@
 #
 ifndef
-nsAuthSASL_h_
+nsAuthSASL_h__
 #
 define
-nsAuthSASL_h_
+nsAuthSASL_h__
 #
 include
 "

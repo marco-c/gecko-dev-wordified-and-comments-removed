@@ -1,9 +1,9 @@
 #
 ifndef
-NS_EXPAT_DRIVER_
+NS_EXPAT_DRIVER__
 #
 define
-NS_EXPAT_DRIVER_
+NS_EXPAT_DRIVER__
 #
 include
 "

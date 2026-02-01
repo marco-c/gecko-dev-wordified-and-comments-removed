@@ -1,9 +1,9 @@
 #
 ifndef
-nsAboutRedirector_h_
+nsAboutRedirector_h__
 #
 define
-nsAboutRedirector_h_
+nsAboutRedirector_h__
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-_mozilla_pthread_atfork_h_
+__mozilla_pthread_atfork_h_
 #
 define
-_mozilla_pthread_atfork_h_
+__mozilla_pthread_atfork_h_
 #
 if
 defined

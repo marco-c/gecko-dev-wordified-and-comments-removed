@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_psm_IPCClientCertsParent_h_
+mozilla_psm_IPCClientCertsParent_h__
 #
 define
-mozilla_psm_IPCClientCertsParent_h_
+mozilla_psm_IPCClientCertsParent_h__
 #
 include
 "

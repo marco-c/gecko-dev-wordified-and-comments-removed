@@ -1,9 +1,9 @@
 #
 ifndef
-nsAuthGSSAPI_h_
+nsAuthGSSAPI_h__
 #
 define
-nsAuthGSSAPI_h_
+nsAuthGSSAPI_h__
 #
 include
 "

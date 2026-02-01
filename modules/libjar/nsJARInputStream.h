@@ -1,9 +1,9 @@
 #
 ifndef
-nsJARINPUTSTREAM_h_
+nsJARINPUTSTREAM_h__
 #
 define
-nsJARINPUTSTREAM_h_
+nsJARINPUTSTREAM_h__
 #
 include
 "

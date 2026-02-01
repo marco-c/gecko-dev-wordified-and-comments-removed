@@ -1,9 +1,9 @@
 #
 ifndef
-nsProfilerCIID_h_
+nsProfilerCIID_h__
 #
 define
-nsProfilerCIID_h_
+nsProfilerCIID_h__
 #
 define
 NS_PROFILER_CID

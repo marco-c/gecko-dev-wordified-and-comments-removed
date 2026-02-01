@@ -1,9 +1,9 @@
 #
 ifndef
-nsHTMLTags_h_
+nsHTMLTags_h___
 #
 define
-nsHTMLTags_h_
+nsHTMLTags_h___
 #
 include
 "

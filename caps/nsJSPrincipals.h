@@ -1,9 +1,9 @@
 #
 ifndef
-nsJSPrincipals_h_
+nsJSPrincipals_h__
 #
 define
-nsJSPrincipals_h_
+nsJSPrincipals_h__
 #
 include
 "

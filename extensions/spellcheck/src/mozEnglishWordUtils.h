@@ -1,9 +1,9 @@
 #
 ifndef
-mozEnglishWordUtils_h_
+mozEnglishWordUtils_h__
 #
 define
-mozEnglishWordUtils_h_
+mozEnglishWordUtils_h__
 #
 include
 "

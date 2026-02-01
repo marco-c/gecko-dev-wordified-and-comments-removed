@@ -1,9 +1,9 @@
 #
 ifndef
-storage_test_harness_h_
+storage_test_harness_h__
 #
 define
-storage_test_harness_h_
+storage_test_harness_h__
 #
 include
 "

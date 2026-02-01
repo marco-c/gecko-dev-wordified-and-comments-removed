@@ -1,9 +1,9 @@
 #
 ifndef
-nsJARChannel_h_
+nsJARChannel_h__
 #
 define
-nsJARChannel_h_
+nsJARChannel_h__
 #
 include
 "

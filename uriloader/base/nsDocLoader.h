@@ -1,9 +1,9 @@
 #
 ifndef
-nsDocLoader_h_
+nsDocLoader_h__
 #
 define
-nsDocLoader_h_
+nsDocLoader_h__
 #
 include
 "

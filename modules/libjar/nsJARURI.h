@@ -1,9 +1,9 @@
 #
 ifndef
-nsJARURI_h_
+nsJARURI_h__
 #
 define
-nsJARURI_h_
+nsJARURI_h__
 #
 include
 "

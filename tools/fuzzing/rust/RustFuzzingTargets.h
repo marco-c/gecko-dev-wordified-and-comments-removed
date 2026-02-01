@@ -1,9 +1,9 @@
 #
 ifndef
-RustFuzzingTargets_h_
+RustFuzzingTargets_h__
 #
 define
-RustFuzzingTargets_h_
+RustFuzzingTargets_h__
 #
 include
 <

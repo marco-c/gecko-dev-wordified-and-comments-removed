@@ -1,9 +1,9 @@
 #
 ifndef
-_nsSiteSecurityService_h_
+__nsSiteSecurityService_h__
 #
 define
-_nsSiteSecurityService_h_
+__nsSiteSecurityService_h__
 #
 include
 "

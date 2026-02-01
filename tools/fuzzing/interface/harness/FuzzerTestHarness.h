@@ -1,9 +1,9 @@
 #
 ifndef
-FuzzerTestHarness_h_
+FuzzerTestHarness_h__
 #
 define
-FuzzerTestHarness_h_
+FuzzerTestHarness_h__
 #
 include
 "

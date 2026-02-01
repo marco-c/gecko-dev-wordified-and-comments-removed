@@ -1,9 +1,9 @@
 #
 ifndef
-nsHttpNegotiateAuth_h_
+nsHttpNegotiateAuth_h__
 #
 define
-nsHttpNegotiateAuth_h_
+nsHttpNegotiateAuth_h__
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_devtools_gtest_DevTools_
+mozilla_devtools_gtest_DevTools__
 #
 define
-mozilla_devtools_gtest_DevTools_
+mozilla_devtools_gtest_DevTools__
 #
 include
 <

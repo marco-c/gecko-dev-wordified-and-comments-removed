@@ -1,9 +1,9 @@
 #
 ifndef
-_nsDBusHandlerAppImpl_h_
+__nsDBusHandlerAppImpl_h__
 #
 define
-_nsDBusHandlerAppImpl_h_
+__nsDBusHandlerAppImpl_h__
 #
 include
 "
