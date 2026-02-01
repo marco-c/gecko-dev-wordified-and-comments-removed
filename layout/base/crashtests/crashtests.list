@@ -2011,17 +2011,10 @@ the
 next
 test
 )
-asserts
-(
-1
-)
 load
 474075
 .
 html
-#
-bug
-1775003
 load
 477333
 -

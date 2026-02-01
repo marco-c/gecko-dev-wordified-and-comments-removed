@@ -17557,7 +17557,7 @@ aState
 .
 mReflowStatus
 .
-SetIncomplete
+Reset
 (
 )
 ;
