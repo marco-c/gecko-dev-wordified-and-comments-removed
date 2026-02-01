@@ -8460,6 +8460,11 @@ jsep_unittest
 cc
 "
 "
+peer_connection_interface_unittest
+.
+cc
+"
+"
 rtc_error_unittest
 .
 cc
