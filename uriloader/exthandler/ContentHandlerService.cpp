@@ -576,8 +576,10 @@ GetPreferredAction
 action
 )
 ;
+*
+aHandlerInfo
+=
 HandlerInfo
-info
 (
 type
 isMIMEInfo
@@ -594,11 +596,6 @@ happ
 happs
 action
 )
-;
-*
-aHandlerInfo
-=
-info
 ;
 }
 NS_IMETHODIMP
