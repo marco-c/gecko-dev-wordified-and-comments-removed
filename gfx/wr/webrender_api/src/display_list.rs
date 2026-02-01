@@ -8565,12 +8565,6 @@ di
 :
 :
 BorderRadius
-shadow_radius
-:
-di
-:
-:
-BorderRadius
 clip_mode
 :
 di
@@ -8616,7 +8610,6 @@ color
 blur_radius
 spread_radius
 border_radius
-shadow_radius
 clip_mode
 }
 )

@@ -10810,13 +10810,6 @@ const
 wr
 :
 :
-BorderRadius
-&
-aShadowRadius
-const
-wr
-:
-:
 BoxShadowClipMode
 &
 aClipMode
@@ -10839,7 +10832,6 @@ aColor
 aBlurRadius
 aSpreadRadius
 aBorderRadius
-aShadowRadius
 aClipMode
 )
 ;
