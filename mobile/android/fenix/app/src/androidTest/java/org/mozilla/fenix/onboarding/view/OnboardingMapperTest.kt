@@ -1273,7 +1273,7 @@ R
 .
 drawable
 .
-ic_extensions_onboarding
+ic_firefox
 val
 title
 =
