@@ -138,9 +138,6 @@ CycleCollectedJSContext
 class
 CycleCollectedJSRuntime
 ;
-class
-PromiseJobRunnable
-;
 namespace
 dom
 {
@@ -2018,16 +2015,6 @@ mMicrotasksToTrace
 ;
 private
 :
-friend
-class
-PromiseJobRunnable
-;
-RefPtr
-<
-PromiseJobRunnable
->
-mRecycledPromiseJob
-;
 uint32_t
 mDebuggerRecursionDepth
 ;
