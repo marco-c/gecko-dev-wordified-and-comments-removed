@@ -15443,7 +15443,7 @@ eBBoxIncludeClipped
 SVGUtils
 :
 :
-eBBoxIncludeFill
+eBBoxIncludeFillGeometry
 |
 SVGUtils
 :
