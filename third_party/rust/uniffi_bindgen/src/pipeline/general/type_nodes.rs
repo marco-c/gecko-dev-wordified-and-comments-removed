@@ -20,11 +20,11 @@ pub
 fn
 pass
 (
-module
+namespace
 :
 &
 mut
-Module
+Namespace
 )
 -
 >
@@ -50,7 +50,7 @@ default
 (
 )
 ;
-module
+namespace
 .
 try_visit
 (
@@ -137,7 +137,7 @@ Ok
 )
 ?
 ;
-module
+namespace
 .
 visit
 (
@@ -182,7 +182,7 @@ clone
 }
 )
 ;
-module
+namespace
 .
 visit_mut
 (

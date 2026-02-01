@@ -548,9 +548,6 @@ impl
 askama
 :
 :
-filters
-:
-:
 FastWritable
 for
 Foo
@@ -572,6 +569,14 @@ dest
 &
 mut
 AskamaW
+values
+:
+&
+dyn
+askama
+:
+:
+Values
 )
 -
 >
@@ -621,10 +626,11 @@ askama
 Template
 :
 :
-render_into
+render_into_with_values
 (
 self
 dest
+values
 )
 }
 }

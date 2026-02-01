@@ -1,17 +1,10 @@
-{
-%
--
-let
-inner_ffi_converter
-=
-inner_type
-|
-ffi_converter_name
-%
-}
 class
 {
 {
+seq
+.
+self_type
+.
 ffi_converter_name
 }
 }
@@ -38,7 +31,11 @@ value
             
 {
 {
-inner_ffi_converter
+seq
+.
+inner
+.
+ffi_converter_name
 }
 }
 .
@@ -80,7 +77,11 @@ value
             
 {
 {
-inner_ffi_converter
+seq
+.
+inner
+.
+ffi_converter_name
 }
 }
 .
@@ -130,7 +131,11 @@ return
             
 {
 {
-inner_ffi_converter
+seq
+.
+inner
+.
+ffi_converter_name
 }
 }
 .

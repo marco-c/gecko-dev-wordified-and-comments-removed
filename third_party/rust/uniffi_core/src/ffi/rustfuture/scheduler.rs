@@ -177,7 +177,7 @@ data
 RustFuturePoll
 :
 :
-MaybeReady
+Wake
 )
 ;
 }
@@ -252,7 +252,7 @@ old_data
 RustFuturePoll
 :
 :
-MaybeReady
+Wake
 )
 ;
 }

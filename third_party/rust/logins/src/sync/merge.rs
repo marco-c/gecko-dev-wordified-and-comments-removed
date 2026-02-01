@@ -220,7 +220,10 @@ Alive
 {
 login
 :
+Box
+<
 EncryptedLogin
+>
 local_modified
 :
 SystemTime
@@ -446,6 +449,14 @@ LocalLogin
 Alive
 {
 login
+:
+Box
+:
+:
+new
+(
+login
+)
 local_modified
 }
 }

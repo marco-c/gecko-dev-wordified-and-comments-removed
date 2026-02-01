@@ -1,7 +1,7 @@
 _UNIFFI_RUST_FUTURE_POLL_READY
 =
 0
-_UNIFFI_RUST_FUTURE_POLL_MAYBE_READY
+_UNIFFI_RUST_FUTURE_POLL_WAKE
 =
 1
 _UniffiContinuationHandleMap
@@ -318,17 +318,14 @@ rust_future
 %
 -
 if
-ci
-.
-has_async_callback_interface_definition
-(
-)
+has_async_callback_method
 %
 }
 def
 _uniffi_trait_interface_call_async
 (
 make_call
+uniffi_out_dropped_callback
 handle_success
 handle_error
 )
@@ -344,12 +341,11 @@ make_call_and_call_callback
 try
 :
             
-handle_success
-(
+call_result
+=
 await
 make_call
 (
-)
 )
         
 except
@@ -397,18 +393,13 @@ CALL_UNEXPECTED_ERROR
                 
 {
 {
-Type
-:
-:
-String
+string_type_node
 .
-borrow
-(
-)
-|
-lower_fn
+ffi_converter_name
 }
 }
+.
+lower
 (
 repr
 (
@@ -416,6 +407,14 @@ e
 )
 )
             
+)
+        
+else
+:
+            
+handle_success
+(
+call_result
 )
     
 eventloop
@@ -448,16 +447,21 @@ task
 )
 )
     
-return
-_UniffiForeignFuture
+uniffi_out_dropped_callback
+[
+0
+]
+=
+_UniffiForeignFutureDroppedCallbackStruct
 (
 handle
-_uniffi_foreign_future_free
+_uniffi_future_dropped_callback
 )
 def
 _uniffi_trait_interface_call_async_with_error
 (
 make_call
+uniffi_out_dropped_callback
 handle_success
 handle_error
 error_type
@@ -478,12 +482,11 @@ try
 try
 :
                 
-handle_success
-(
+call_result
+=
 await
 make_call
 (
-)
 )
             
 except
@@ -505,6 +508,14 @@ e
 )
                 
 )
+            
+else
+:
+                
+handle_success
+(
+call_result
+)
         
 except
 Exception
@@ -551,18 +562,13 @@ CALL_UNEXPECTED_ERROR
                 
 {
 {
-Type
-:
-:
-String
+string_type_node
 .
-borrow
-(
-)
-|
-lower_fn
+ffi_converter_name
 }
 }
+.
+lower
 (
 repr
 (
@@ -602,20 +608,24 @@ task
 )
 )
     
-return
-_UniffiForeignFuture
+uniffi_out_dropped_callback
+[
+0
+]
+=
+_UniffiForeignFutureDroppedCallbackStruct
 (
 handle
-_uniffi_foreign_future_free
+_uniffi_future_dropped_callback
 )
 _UNIFFI_FOREIGN_FUTURE_HANDLE_MAP
 =
 _UniffiHandleMap
 (
 )
-_UNIFFI_FOREIGN_FUTURE_FREE
+_UNIFFI_FOREIGN_FUTURE_DROPPED_CALLBACK
 def
-_uniffi_foreign_future_free
+_uniffi_future_dropped_callback
 (
 handle
 )
@@ -637,11 +647,11 @@ eventloop
 .
 call_soon
 (
-_uniffi_foreign_future_do_free
+_uniffi_cancel_task
 task
 )
 def
-_uniffi_foreign_future_do_free
+_uniffi_cancel_task
 (
 task
 )

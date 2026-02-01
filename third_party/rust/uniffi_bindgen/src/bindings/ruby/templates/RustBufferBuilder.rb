@@ -990,7 +990,7 @@ canonical_type_name
 (
 obj
 )
-pointer
+handle
 =
 {
 {
@@ -1009,9 +1009,7 @@ pack_into
 Q
 >
 '
-pointer
-.
-address
+handle
 )
 end
 {

@@ -700,14 +700,8 @@ read
 canonical_type_name
 }
 }
-pointer
+handle
 =
-FFI
-:
-:
-Pointer
-.
-new
 unpack_from
 8
 '
@@ -725,7 +719,7 @@ class_name_rb
 .
 uniffi_allocate
 (
-pointer
+handle
 )
 end
 {

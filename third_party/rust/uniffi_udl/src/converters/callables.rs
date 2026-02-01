@@ -65,6 +65,7 @@ uniffi_meta
 :
 {
 ConstructorMetadata
+DefaultValueMetadata
 FieldMetadata
 FnMetadata
 FnParamMetadata
@@ -447,6 +448,11 @@ v
 >
 Some
 (
+DefaultValueMetadata
+:
+:
+Literal
+(
 convert_default_value
 (
 &
@@ -457,6 +463,7 @@ value
 type_
 )
 ?
+)
 )
 }
 ;
@@ -1226,6 +1233,14 @@ ci
 module_path
 (
 )
+self_name
+:
+Default
+:
+:
+default
+(
+)
 name
 :
 match
@@ -1303,14 +1318,6 @@ constructor
 name
 }
 }
-self_name
-:
-Default
-:
-:
-default
-(
-)
 is_async
 inputs
 :

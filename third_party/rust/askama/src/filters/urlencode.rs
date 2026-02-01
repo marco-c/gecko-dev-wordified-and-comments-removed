@@ -39,9 +39,15 @@ crate
 filters
 :
 :
+HtmlSafeOutput
+;
+use
+crate
+:
+:
 {
 FastWritable
-HtmlSafeOutput
+Values
 }
 ;
 const
@@ -306,6 +312,11 @@ f
 &
 mut
 W
+values
+:
+&
+dyn
+Values
 )
 -
 >
@@ -333,6 +344,7 @@ self
 .
 1
 )
+values
 )
 }
 }

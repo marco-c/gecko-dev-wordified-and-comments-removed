@@ -109,7 +109,7 @@ version
 "
 1
 .
-81
+83
 "
 name
 =
@@ -121,9 +121,9 @@ version
 "
 0
 .
-13
+14
 .
-1
+0
 "
 build
 =
@@ -380,6 +380,8 @@ derive
 =
 [
 "
+dep
+:
 askama_derive
 "
 ]
@@ -567,9 +569,9 @@ version
 =
 0
 .
-13
+14
 .
-1
+0
 "
 optional
 =

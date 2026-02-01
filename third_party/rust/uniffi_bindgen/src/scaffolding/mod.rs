@@ -141,6 +141,14 @@ type_
 :
 &
 Type
+_values
+:
+&
+dyn
+askama
+:
+:
+Values
 )
 -
 >
@@ -516,6 +524,7 @@ Option
 type_rs
 (
 inner_type
+_values
 )
 ?
 )
@@ -529,6 +538,7 @@ inner_type
 }
 =
 >
+{
 format
 !
 (
@@ -548,9 +558,11 @@ Vec
 type_rs
 (
 inner_type
+_values
 )
 ?
 )
+}
 Type
 :
 :
@@ -584,11 +596,13 @@ HashMap
 type_rs
 (
 key_type
+_values
 )
 ?
 type_rs
 (
 value_type
+_values
 )
 ?
 )

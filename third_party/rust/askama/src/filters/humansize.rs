@@ -23,12 +23,6 @@ mem
 MaybeUninit
 ;
 use
-super
-:
-:
-FastWritable
-;
-use
 crate
 :
 :
@@ -38,6 +32,16 @@ ascii_str
 {
 AsciiChar
 AsciiStr
+}
+;
+use
+crate
+:
+:
+{
+FastWritable
+NO_VALUES
+Values
 }
 ;
 #
@@ -128,6 +132,7 @@ self
 write_into
 (
 f
+NO_VALUES
 )
 ?
 )
@@ -159,6 +164,11 @@ dest
 &
 mut
 W
+values
+:
+&
+dyn
+Values
 )
 -
 >
@@ -189,6 +199,7 @@ u32
 write_into
 (
 dest
+values
 )
 ?
 ;
@@ -270,6 +281,7 @@ scaled
 write_into
 (
 dest
+values
 )
 ?
 ;
@@ -290,6 +302,7 @@ scaled
 write_into
 (
 dest
+values
 )
 }
 else

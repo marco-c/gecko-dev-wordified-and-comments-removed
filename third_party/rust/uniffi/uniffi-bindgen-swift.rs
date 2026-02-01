@@ -1,0 +1,16 @@
+use
+uniffi
+:
+:
+uniffi_bindgen_swift
+;
+fn
+main
+(
+)
+{
+uniffi_bindgen_swift
+(
+)
+;
+}

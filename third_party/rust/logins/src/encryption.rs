@@ -99,6 +99,13 @@ authentication_with_primary_password_is_needed
 get_or_create_aes256_key
 }
 ;
+#
+[
+uniffi
+:
+:
+trait_interface
+]
 pub
 trait
 EncryptorDecryptor
@@ -650,6 +657,13 @@ into
 )
 }
 }
+#
+[
+uniffi
+:
+:
+trait_interface
+]
 pub
 trait
 KeyManager

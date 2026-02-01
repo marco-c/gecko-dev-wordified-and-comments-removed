@@ -1,17 +1,10 @@
-{
-%
--
-let
-inner_ffi_converter
-=
-inner_type
-|
-ffi_converter_name
-%
-}
 class
 {
 {
+opt
+.
+self_type
+.
 ffi_converter_name
 }
 }
@@ -39,7 +32,11 @@ None
             
 {
 {
-inner_ffi_converter
+opt
+.
+inner
+.
+ffi_converter_name
 }
 }
 .
@@ -83,7 +80,11 @@ write_u8
         
 {
 {
-inner_ffi_converter
+opt
+.
+inner
+.
+ffi_converter_name
 }
 }
 .
@@ -131,7 +132,11 @@ flag
 return
 {
 {
-inner_ffi_converter
+opt
+.
+inner
+.
+ffi_converter_name
 }
 }
 .

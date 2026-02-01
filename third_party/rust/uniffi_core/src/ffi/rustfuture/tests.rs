@@ -452,8 +452,7 @@ channel
 Sender
 Arc
 <
-dyn
-RustFutureFfi
+RustFuture
 <
 RustBuffer
 >
@@ -518,7 +517,13 @@ Sender
 (
 channel
 )
+Arc
+:
+:
+new
+(
 rust_future
+)
 )
 }
 fn
@@ -529,8 +534,7 @@ rust_future
 &
 Arc
 <
-dyn
-RustFutureFfi
+RustFuture
 <
 RustBuffer
 >
@@ -585,7 +589,7 @@ clone
 (
 )
 .
-ffi_poll
+poll
 (
 poll_continuation
 handle
@@ -653,8 +657,7 @@ rust_future
 :
 Arc
 <
-dyn
-RustFutureFfi
+RustFuture
 <
 RustBuffer
 >
@@ -683,7 +686,7 @@ return_value
 =
 rust_future
 .
-ffi_complete
+complete
 (
 &
 mut
@@ -754,7 +757,7 @@ Some
 RustFuturePoll
 :
 :
-MaybeReady
+Wake
 )
 )
 ;
@@ -809,7 +812,7 @@ Some
 RustFuturePoll
 :
 :
-MaybeReady
+Wake
 )
 )
 ;
@@ -965,7 +968,7 @@ Some
 RustFuturePoll
 :
 :
-MaybeReady
+Wake
 )
 )
 ;
@@ -1137,7 +1140,7 @@ Some
 RustFuturePoll
 :
 :
-MaybeReady
+Wake
 )
 )
 ;
@@ -1232,7 +1235,8 @@ arg
 arg0
 '
 :
-Invalid
+\
+nInvalid
 handle
 "
 )
@@ -1278,7 +1282,7 @@ None
 ;
 rust_future
 .
-ffi_cancel
+cancel
 (
 )
 ;
@@ -1400,7 +1404,7 @@ clone
 ;
 rust_future
 .
-ffi_free
+free
 (
 )
 ;
@@ -1475,7 +1479,7 @@ rust_future
 ;
 rust_future
 .
-ffi_free
+free
 (
 )
 ;
@@ -1579,13 +1583,17 @@ rust_future
 :
 Arc
 <
-dyn
-RustFutureFfi
+RustFuture
 <
 RustBuffer
 >
 >
 =
+Arc
+:
+:
+new
+(
 RustFuture
 :
 :
@@ -1602,6 +1610,7 @@ crate
 :
 :
 UniFfiTag
+)
 )
 ;
 let
@@ -1627,7 +1636,7 @@ Some
 RustFuturePoll
 :
 :
-MaybeReady
+Wake
 )
 )
 ;
