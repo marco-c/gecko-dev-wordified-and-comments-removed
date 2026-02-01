@@ -3790,7 +3790,7 @@ linkedBrowser
 let
 sharingState
 =
-tab
+browser
 .
 _sharingState
 ?

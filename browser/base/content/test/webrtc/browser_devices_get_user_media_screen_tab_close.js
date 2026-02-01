@@ -148,6 +148,13 @@ gBrowser
 TEST_PAGE
 )
 ;
+let
+browser
+=
+tab
+.
+linkedBrowser
+;
 testSelected
 (
 tab
@@ -156,9 +163,7 @@ tab
 await
 shareDevices
 (
-tab
-.
-linkedBrowser
+browser
 false
 false
 SHARE_WINDOW
@@ -166,7 +171,7 @@ SHARE_WINDOW
 ;
 ok
 (
-tab
+browser
 .
 _sharingState
 .
@@ -257,7 +262,7 @@ ok
 !
 gBrowser
 .
-selectedTab
+selectedBrowser
 .
 _sharingState
 ?
@@ -269,6 +274,9 @@ screen
 "
 Selected
 tab
+'
+s
+browser
 doesn
 '
 t
