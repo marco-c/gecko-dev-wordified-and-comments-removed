@@ -280,7 +280,10 @@ aOwner
 StaticRange
 (
 aNode
-RangeBoundaryIsMutationObserved
+StaticRange
+:
+:
+MutationObserved
 :
 :
 Yes

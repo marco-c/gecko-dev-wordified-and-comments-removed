@@ -981,10 +981,10 @@ newBoundary
 CopyFrom
 (
 aBoundary
-RangeBoundaryIsMutationObserved
+RangeBoundarySetBy
 :
 :
-Yes
+Ref
 )
 ;
 newBoundary
