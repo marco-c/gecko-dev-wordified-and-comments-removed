@@ -17,6 +17,7 @@ bytes
 mod
 codec
 ;
+pub
 mod
 datagram
 ;
@@ -135,10 +136,7 @@ MAX_VARINT
 datagram
 :
 :
-{
 Datagram
-DatagramBatch
-}
 header
 :
 :

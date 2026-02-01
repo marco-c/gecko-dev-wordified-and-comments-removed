@@ -40,6 +40,7 @@ neqo_common
 :
 :
 {
+datagram
 hex
 qdebug
 qinfo
@@ -50,7 +51,6 @@ Qlog
 qtrace
 qwarn
 Buffer
-DatagramBatch
 Encoder
 Tos
 }
@@ -2864,6 +2864,7 @@ qlog
 }
 }
 pub
+const
 fn
 set_ecn_baseline
 (
@@ -3025,6 +3026,7 @@ remote
 =
 remote
 }
+const
 fn
 update_port
 (
@@ -3165,6 +3167,7 @@ now
 ;
 }
 pub
+const
 fn
 update
 (
@@ -3442,7 +3445,10 @@ Stats
 )
 -
 >
-DatagramBatch
+datagram
+:
+:
+Batch
 {
 self
 .
@@ -3454,7 +3460,10 @@ num_datagrams
 stats
 )
 ;
-DatagramBatch
+datagram
+:
+:
+Batch
 :
 :
 new
@@ -4176,6 +4185,7 @@ stats
 ;
 }
 pub
+const
 fn
 lost_ack_frequency
 (
@@ -4199,6 +4209,7 @@ lost
 ;
 }
 pub
+const
 fn
 acked_ecn
 (
@@ -4501,6 +4512,7 @@ self
 rtt
 }
 pub
+const
 fn
 rtt_mut
 (
@@ -4666,6 +4678,7 @@ rtt
 ;
 }
 pub
+const
 fn
 add_received
 (
@@ -4692,6 +4705,7 @@ count
 ;
 }
 pub
+const
 fn
 add_sent
 (

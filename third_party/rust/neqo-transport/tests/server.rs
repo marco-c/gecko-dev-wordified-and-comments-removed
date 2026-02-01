@@ -3226,7 +3226,7 @@ header_enc
 Encoder
 :
 :
-new
+default
 (
 )
 ;
@@ -3945,7 +3945,7 @@ header_enc
 Encoder
 :
 :
-new
+default
 (
 )
 ;

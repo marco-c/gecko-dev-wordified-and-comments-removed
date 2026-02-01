@@ -2031,6 +2031,7 @@ current_max_push_id
 }
 }
 pub
+const
 fn
 handle_zero_rtt_rejected
 (

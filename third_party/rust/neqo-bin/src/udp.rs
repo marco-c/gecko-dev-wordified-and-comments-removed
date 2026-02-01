@@ -35,8 +35,8 @@ neqo_common
 :
 :
 {
+datagram
 qdebug
-DatagramBatch
 }
 ;
 use
@@ -399,7 +399,10 @@ self
 d
 :
 &
-DatagramBatch
+datagram
+:
+:
+Batch
 )
 -
 >

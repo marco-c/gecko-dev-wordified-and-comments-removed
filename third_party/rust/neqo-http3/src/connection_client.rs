@@ -742,6 +742,7 @@ Ok
 must_use
 ]
 pub
+const
 fn
 connection_id
 (
@@ -5078,6 +5079,12 @@ time
 Duration
 ;
 use
+http
+:
+:
+Uri
+;
+use
 neqo_common
 :
 :
@@ -5142,12 +5149,6 @@ DEFAULT_ALPN_H3
 DEFAULT_KEYS
 DEFAULT_SERVER_NAME
 }
-;
-use
-url
-:
-:
-Url
 ;
 use
 super
@@ -7743,10 +7744,10 @@ now
 GET
 "
 &
-Url
+Uri
 :
 :
-parse
+from_static
 (
 "
 https
@@ -7758,10 +7759,6 @@ something
 com
 /
 "
-)
-.
-unwrap
-(
 )
 headers
 Priority
@@ -36036,6 +36033,8 @@ new_server
 :
 <
 CountingConnectionIdGenerator
+&
+str
 >
 (
 DEFAULT_ALPN_H3
@@ -36104,6 +36103,8 @@ new_server
 :
 <
 CountingConnectionIdGenerator
+&
+str
 >
 (
 DEFAULT_ALPN_H3

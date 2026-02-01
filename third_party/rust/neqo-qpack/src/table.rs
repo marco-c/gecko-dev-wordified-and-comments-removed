@@ -127,6 +127,7 @@ base
 first_not_acked
 }
 pub
+const
 fn
 size
 (
@@ -156,6 +157,7 @@ len
 ADDITIONAL_TABLE_ENTRY_SIZE
 }
 pub
+const
 fn
 add_ref
 (

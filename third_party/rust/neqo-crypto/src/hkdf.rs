@@ -433,6 +433,7 @@ salt_ptr
 *
 ikm
 &
+raw
 mut
 prk
 )
@@ -548,6 +549,7 @@ len
 )
 ?
 &
+raw
 mut
 secret
 )

@@ -225,6 +225,7 @@ index
 )
 ;
 }
+const
 fn
 new_ref
 (
