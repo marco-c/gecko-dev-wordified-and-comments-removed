@@ -641,6 +641,11 @@ bool
 newValue
 )
 ;
+void
+clear
+(
+)
+;
 static
 FinalizationQueueObject
 *
