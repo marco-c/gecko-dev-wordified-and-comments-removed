@@ -10210,16 +10210,6 @@ ok
 )
 ?
 ;
-let
-value
-=
-value
-.
-to_computed_value
-(
-computed_context
-)
-;
 Some
 (
 Substitution
