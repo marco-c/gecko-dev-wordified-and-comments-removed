@@ -27094,7 +27094,7 @@ textFrame
 IntrinsicDirty
 :
 :
-FrameAncestorsAndDescendants
+FrameAndAncestors
 NS_FRAME_IS_DIRTY
 )
 ;
