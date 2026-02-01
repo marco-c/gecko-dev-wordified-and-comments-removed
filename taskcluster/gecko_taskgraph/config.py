@@ -693,6 +693,23 @@ globs
 [
 str
 ]
+                    
+Optional
+(
+"
+only
+-
+if
+-
+milestone
+-
+is
+-
+nightly
+"
+)
+:
+bool
                 
 }
             
