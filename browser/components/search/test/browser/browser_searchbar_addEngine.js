@@ -81,9 +81,7 @@ removeSearchBar
 (
 )
 ;
-Services
-.
-search
+SearchService
 .
 restoreDefaultEngines
 (
@@ -346,9 +344,7 @@ correct
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 removeEngine
 (
@@ -682,9 +678,7 @@ default
 const
 defaultEngine
 =
-Services
-.
-search
+SearchService
 .
 defaultEngine
 ;
@@ -692,9 +686,7 @@ const
 engines
 =
 await
-Services
-.
-search
+SearchService
 .
 getVisibleEngines
 (
@@ -722,9 +714,7 @@ name
 )
 {
 await
-Services
-.
-search
+SearchService
 .
 removeEngine
 (

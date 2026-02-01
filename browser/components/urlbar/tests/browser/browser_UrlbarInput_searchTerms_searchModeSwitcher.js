@@ -63,9 +63,7 @@ installPersistTestEngines
 ;
 nonDefaultEngine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -305,9 +303,7 @@ UrlbarUtils
 .
 getSearchQueryUrl
 (
-Services
-.
-search
+SearchService
 .
 defaultEngine
 SEARCH_STRING

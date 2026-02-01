@@ -61,9 +61,7 @@ addSearchBar
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (

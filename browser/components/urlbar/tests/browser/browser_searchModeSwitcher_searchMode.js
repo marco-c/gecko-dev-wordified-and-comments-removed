@@ -35,9 +35,7 @@ let
 oldDefaultEngine
 =
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (
@@ -132,9 +130,7 @@ function
 )
 {
 await
-Services
-.
-search
+SearchService
 .
 setDefault
 (

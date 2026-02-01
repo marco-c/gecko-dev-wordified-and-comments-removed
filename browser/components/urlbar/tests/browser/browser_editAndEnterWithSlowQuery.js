@@ -92,9 +92,7 @@ true
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 moveEngine
 (
@@ -2364,9 +2362,7 @@ payload
 {
 engine
 :
-Services
-.
-search
+SearchService
 .
 defaultEngine
 .

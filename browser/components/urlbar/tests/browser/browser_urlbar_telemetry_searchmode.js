@@ -353,9 +353,7 @@ suggestionEngine
 name
 ;
 await
-Services
-.
-search
+SearchService
 .
 moveEngine
 (

@@ -764,9 +764,7 @@ engineName
 :
 (
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (

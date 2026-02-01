@@ -1403,9 +1403,7 @@ const
 originalDefaultEngine
 =
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (
@@ -1851,9 +1849,7 @@ eraseEverything
 ;
 }
 await
-Services
-.
-search
+SearchService
 .
 setDefault
 (

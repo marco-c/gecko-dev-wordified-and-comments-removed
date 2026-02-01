@@ -438,9 +438,7 @@ expectedURI
 =
 (
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (

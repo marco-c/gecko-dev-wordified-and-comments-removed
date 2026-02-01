@@ -74,9 +74,7 @@ true
 let
 defaultEngine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -86,9 +84,7 @@ Example
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 moveEngine
 (

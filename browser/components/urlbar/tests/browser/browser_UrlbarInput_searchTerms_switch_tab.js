@@ -578,9 +578,7 @@ test
 let
 parseResult
 =
-Services
-.
-search
+SearchService
 .
 parseSubmissionURL
 (

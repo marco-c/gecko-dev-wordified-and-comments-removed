@@ -109,9 +109,7 @@ init
 )
 {
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -2950,9 +2948,7 @@ isSponsored
 false
 engine
 :
-Services
-.
-search
+SearchService
 .
 defaultEngine
 .

@@ -1603,9 +1603,7 @@ let
 engine
 of
 await
-Services
-.
-search
+SearchService
 .
 getEngines
 (
@@ -1825,9 +1823,7 @@ true
 ;
 if
 (
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -2910,9 +2906,7 @@ const
 defaultEngine
 =
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (

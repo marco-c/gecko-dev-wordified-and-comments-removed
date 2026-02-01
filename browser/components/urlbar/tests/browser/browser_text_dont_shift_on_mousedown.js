@@ -23,9 +23,7 @@ installPersistTestEngines
 ;
 gDefaultEngine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (

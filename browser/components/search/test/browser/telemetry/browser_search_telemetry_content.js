@@ -107,9 +107,7 @@ mozalias2
 let
 engineOneOff
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -119,9 +117,7 @@ MozSearch2
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 moveEngine
 (

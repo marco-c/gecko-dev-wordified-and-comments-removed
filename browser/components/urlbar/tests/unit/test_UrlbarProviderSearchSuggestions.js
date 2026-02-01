@@ -77,9 +77,7 @@ function
 )
 {
 await
-Services
-.
-search
+SearchService
 .
 init
 (

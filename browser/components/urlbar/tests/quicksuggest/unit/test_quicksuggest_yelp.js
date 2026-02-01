@@ -329,9 +329,7 @@ CONFIG_V2
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (

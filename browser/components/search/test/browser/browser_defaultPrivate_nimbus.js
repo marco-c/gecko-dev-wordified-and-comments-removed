@@ -329,9 +329,7 @@ Assert
 .
 equal
 (
-Services
-.
-search
+SearchService
 .
 defaultPrivateEngine
 .
@@ -413,9 +411,7 @@ Assert
 .
 equal
 (
-Services
-.
-search
+SearchService
 .
 defaultPrivateEngine
 .
@@ -461,9 +457,7 @@ Assert
 .
 equal
 (
-Services
-.
-search
+SearchService
 .
 defaultPrivateEngine
 .
@@ -501,9 +495,7 @@ Assert
 .
 equal
 (
-Services
-.
-search
+SearchService
 .
 defaultPrivateEngine
 .
@@ -585,9 +577,7 @@ Assert
 .
 equal
 (
-Services
-.
-search
+SearchService
 .
 separatePrivateDefaultUrlbarResultEnabled
 true
@@ -630,9 +620,7 @@ Assert
 .
 equal
 (
-Services
-.
-search
+SearchService
 .
 defaultPrivateEngine
 .
