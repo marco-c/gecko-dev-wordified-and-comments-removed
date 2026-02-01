@@ -69,6 +69,11 @@ clip
 ellipse
 .
 png
+fuzzy
+(
+1
+1000
+)
 platform
 (
 linux
