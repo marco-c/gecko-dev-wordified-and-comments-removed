@@ -16073,6 +16073,15 @@ class
 Events
 {
 static
+EnabledStateChanged
+=
+"
+AboutTranslationsTest
+:
+EnabledStateChanged
+"
+;
+static
 DetectedLanguageUpdated
 =
 "
