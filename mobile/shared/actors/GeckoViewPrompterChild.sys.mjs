@@ -229,6 +229,13 @@ prompt
 getPromptType
 (
 )
+owningBrowsingContext
+:
+prompt
+.
+_domWin
+.
+browsingContext
 }
 )
 ;
