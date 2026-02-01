@@ -2400,7 +2400,7 @@ UndoCloseTab
 "
 )
 .
-setAttribute
+toggleAttribute
 (
 "
 disabled
