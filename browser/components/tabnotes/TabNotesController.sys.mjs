@@ -1582,8 +1582,15 @@ sendAsyncMessage
 "
 CanonicalURL
 :
-Detect
+DetectFromPushState
 "
+{
+pushStateUrl
+:
+aLocation
+.
+spec
+}
 )
 ;
 lazy
@@ -1596,7 +1603,7 @@ debug
 requesting
 CanonicalURL
 :
-Detect
+DetectFromPushState
 due
 to
 history
