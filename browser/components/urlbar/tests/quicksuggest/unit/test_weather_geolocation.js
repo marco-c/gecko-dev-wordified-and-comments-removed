@@ -195,6 +195,12 @@ country
 "
 US
 "
+region
+:
+"
+San
+Francisco
+"
 city
 :
 "
@@ -382,6 +388,11 @@ SEQUENCE_NUMBER
 ]
 :
 index
+request_type
+:
+"
+weather
+"
 source
 :
 "

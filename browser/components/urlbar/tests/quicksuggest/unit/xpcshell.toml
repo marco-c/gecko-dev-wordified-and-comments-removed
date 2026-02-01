@@ -99,6 +99,13 @@ on
 Windows
 [
 "
+test_merinoClient_weather
+.
+js
+"
+]
+[
+"
 test_quicksuggest
 .
 js
