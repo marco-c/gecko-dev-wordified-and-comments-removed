@@ -71,7 +71,7 @@ js
 ]
 [
 "
-browser_ipprotection_content_signedout
+browser_ipprotection_content_unauthenticated
 .
 js
 "
