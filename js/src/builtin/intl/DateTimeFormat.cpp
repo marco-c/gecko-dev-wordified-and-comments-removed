@@ -580,7 +580,7 @@ JSCLASS_HAS_CACHED_PROTO
 JSProto_DateTimeFormat
 )
 |
-JSCLASS_FOREGROUND_FINALIZE
+JSCLASS_BACKGROUND_FINALIZE
 &
 DateTimeFormatObject
 :
@@ -1649,16 +1649,6 @@ JSObject
 obj
 )
 {
-MOZ_ASSERT
-(
-gcx
--
->
-onMainThread
-(
-)
-)
-;
 auto
 *
 dateTimeFormat

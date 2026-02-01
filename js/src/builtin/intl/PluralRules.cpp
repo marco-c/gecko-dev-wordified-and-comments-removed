@@ -211,7 +211,7 @@ JSCLASS_HAS_CACHED_PROTO
 JSProto_PluralRules
 )
 |
-JSCLASS_FOREGROUND_FINALIZE
+JSCLASS_BACKGROUND_FINALIZE
 &
 PluralRulesObject
 :
@@ -618,16 +618,6 @@ JSObject
 obj
 )
 {
-MOZ_ASSERT
-(
-gcx
--
->
-onMainThread
-(
-)
-)
-;
 auto
 *
 pluralRules

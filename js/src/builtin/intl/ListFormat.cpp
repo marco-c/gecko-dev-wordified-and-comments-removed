@@ -225,7 +225,7 @@ JSCLASS_HAS_CACHED_PROTO
 JSProto_ListFormat
 )
 |
-JSCLASS_FOREGROUND_FINALIZE
+JSCLASS_BACKGROUND_FINALIZE
 &
 ListFormatObject
 :
@@ -629,16 +629,6 @@ JSObject
 obj
 )
 {
-MOZ_ASSERT
-(
-gcx
--
->
-onMainThread
-(
-)
-)
-;
 mozilla
 :
 :

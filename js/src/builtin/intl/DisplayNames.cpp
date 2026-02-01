@@ -359,7 +359,7 @@ JSCLASS_HAS_CACHED_PROTO
 JSProto_DisplayNames
 )
 |
-JSCLASS_FOREGROUND_FINALIZE
+JSCLASS_BACKGROUND_FINALIZE
 &
 DisplayNamesObject
 :
@@ -999,16 +999,6 @@ JSObject
 obj
 )
 {
-MOZ_ASSERT
-(
-gcx
--
->
-onMainThread
-(
-)
-)
-;
 if
 (
 mozilla
