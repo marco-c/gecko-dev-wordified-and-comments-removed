@@ -1,3 +1,9 @@
+#
+ifndef
+TESTING_GTEST_MOZILLA_GTESTRUNNER_H_
+#
+define
+TESTING_GTEST_MOZILLA_GTESTRUNNER_H_
 namespace
 mozilla
 {
@@ -16,3 +22,5 @@ char
 )
 ;
 }
+#
+endif
