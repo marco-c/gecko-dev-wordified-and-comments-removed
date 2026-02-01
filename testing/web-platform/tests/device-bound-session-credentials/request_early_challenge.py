@@ -176,6 +176,12 @@ session_id
 )
         
 if
+test_session_manager
+.
+get_allows_challenges
+(
+)
+and
 early_challenge
 is
 not
