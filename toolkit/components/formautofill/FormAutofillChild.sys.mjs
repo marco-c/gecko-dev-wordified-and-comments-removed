@@ -2371,7 +2371,6 @@ queryEligibleElements
 this
 .
 document
-true
 )
 [
 0
@@ -6479,20 +6478,6 @@ inspectFields
 )
 {
 const
-isTop
-=
-this
-.
-browsingContext
-=
-=
-this
-.
-browsingContext
-.
-top
-;
-const
 elements
 =
 lazy
@@ -6504,7 +6489,6 @@ queryEligibleElements
 this
 .
 document
-isTop
 )
 ;
 /

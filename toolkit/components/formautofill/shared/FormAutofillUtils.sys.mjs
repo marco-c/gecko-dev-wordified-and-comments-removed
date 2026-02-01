@@ -1532,7 +1532,7 @@ queryEligibleElements
 element
 includeIframe
 =
-false
+true
 )
 {
 const
