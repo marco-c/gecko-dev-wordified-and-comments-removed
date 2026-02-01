@@ -333,6 +333,17 @@ override
 ;
 virtual
 void
+Value
+(
+nsString
+&
+aValue
+)
+const
+override
+;
+virtual
+void
 ApplyARIAState
 (
 uint64_t
