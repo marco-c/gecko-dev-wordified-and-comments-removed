@@ -269,6 +269,13 @@ gets
 echoed
 .
 "
+telemetryOptions
+:
+{
+attach
+:
+true
+}
 }
 )
 ;
@@ -598,9 +605,9 @@ event
 )
 ;
 await
-engineInstance
+res
 .
-lastResourceRequest
+telemetryPromise
 ;
 const
 value
