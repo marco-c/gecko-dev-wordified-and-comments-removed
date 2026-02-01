@@ -322,6 +322,13 @@ js
 ]
 [
 "
+browser_autofill_creditCard_expiry
+.
+js
+"
+]
+[
+"
 browser_autofill_creditCard_name
 .
 js
