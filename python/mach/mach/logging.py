@@ -704,6 +704,12 @@ params
 }
 )
         
+msg
+=
+record
+.
+msg
+        
 return
 json
 .
@@ -715,6 +721,7 @@ record
 created
 action
 params
+msg
 ]
 )
 class
