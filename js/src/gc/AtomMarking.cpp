@@ -444,6 +444,7 @@ GCZonesIter
 zone
 (
 gc
+SkipAtoms
 )
 ;
 !
@@ -456,17 +457,6 @@ done
 zone
 .
 next
-(
-)
-)
-{
-if
-(
-!
-zone
--
->
-isAtomsZone
 (
 )
 )
@@ -478,7 +468,6 @@ marked
 )
 ;
 }
-}
 return
 ;
 }
@@ -488,6 +477,7 @@ GCZonesIter
 zone
 (
 gc
+SkipAtoms
 )
 ;
 !
@@ -500,17 +490,6 @@ done
 zone
 .
 next
-(
-)
-)
-{
-if
-(
-!
-zone
--
->
-isAtomsZone
 (
 )
 )
@@ -559,7 +538,6 @@ zone
 aiter
 )
 ;
-}
 }
 }
 }
