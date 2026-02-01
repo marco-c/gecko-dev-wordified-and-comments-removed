@@ -204,6 +204,14 @@ xpconnect
 /
 src
 "
+"
+/
+netwerk
+/
+url
+-
+classifier
+"
 ]
 BROWSER_CHROME_MANIFESTS
 +

@@ -259,6 +259,16 @@ mDangling
 =
 false
 ;
+bool
+mShowPending
+=
+false
+;
+bool
+mClosePending
+=
+false
+;
 }
 ;
 }
