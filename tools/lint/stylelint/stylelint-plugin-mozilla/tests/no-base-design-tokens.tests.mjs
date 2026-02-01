@@ -59,14 +59,6 @@ MPL
 *
 /
 /
-*
-eslint
--
-env
-node
-*
-/
-/
 /
 Bug
 1948378
