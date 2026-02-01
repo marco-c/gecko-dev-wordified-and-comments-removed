@@ -4719,6 +4719,12 @@ MaybeMarkSHEntryAsUserInteracted
 (
 )
 ;
+bool
+ShouldHaveTrackSources
+(
+)
+const
+;
 #
 ifdef
 MOZ_WMF_CDM
