@@ -628,6 +628,13 @@ scripts
 "
 lib
 /
+logging
+.
+js
+"
+"
+lib
+/
 remote_settings_update_check
 .
 js
