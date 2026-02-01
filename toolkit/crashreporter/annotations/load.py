@@ -115,6 +115,12 @@ c
 islower
 (
 )
+or
+c
+.
+isnumeric
+(
+)
 for
 c
 in
