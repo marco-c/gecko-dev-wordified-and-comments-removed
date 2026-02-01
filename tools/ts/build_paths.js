@@ -99,6 +99,13 @@ obj
 /
 test262
 /
+/
+eslint
+-
+plugin
+-
+mozilla
+/
 ]
 ;
 const
