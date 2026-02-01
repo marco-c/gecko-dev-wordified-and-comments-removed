@@ -846,6 +846,14 @@ groupid
 {
 groupId
 }
+.
+inSubPane
+=
+{
+this
+.
+isSubPane
+}
 >
 <
 /
