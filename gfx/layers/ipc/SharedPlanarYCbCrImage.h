@@ -1,4 +1,10 @@
 #
+ifndef
+GFX_LAYERS_IPC_SHAREDPLANARYCBCRIMAGE_H_
+#
+define
+GFX_LAYERS_IPC_SHAREDPLANARYCBCRIMAGE_H_
+#
 include
 <
 stdint
@@ -249,5 +255,7 @@ mRecycleAllocator
 ;
 }
 }
+#
+endif
 #
 endif

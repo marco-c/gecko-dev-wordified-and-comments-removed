@@ -1,4 +1,10 @@
 #
+ifndef
+GFX_2D_SVGTURBULENCERENDERER_INL_H_
+#
+define
+GFX_2D_SVGTURBULENCERENDERER_INL_H_
+#
 include
 "
 2D
@@ -2419,3 +2425,5 @@ forget
 }
 }
 }
+#
+endif

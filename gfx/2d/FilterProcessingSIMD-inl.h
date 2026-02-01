@@ -1,4 +1,10 @@
 #
+ifndef
+GFX_2D_FILTERPROCESSINGSIMD_INL_H_
+#
+define
+GFX_2D_FILTERPROCESSINGSIMD_INL_H_
+#
 include
 "
 FilterProcessing
@@ -7833,3 +7839,5 @@ forget
 }
 }
 }
+#
+endif

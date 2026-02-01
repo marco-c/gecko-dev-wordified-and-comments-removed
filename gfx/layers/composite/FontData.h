@@ -1,3 +1,9 @@
+#
+ifndef
+GFX_LAYERS_COMPOSITE_FONTDATA_H_
+#
+define
+GFX_LAYERS_COMPOSITE_FONTDATA_H_
 namespace
 mozilla
 {
@@ -3457,3 +3463,5 @@ sFontPNG
 ;
 }
 }
+#
+endif

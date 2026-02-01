@@ -1,3 +1,9 @@
+#
+ifndef
+GFX_THEBES_D3DKMTQUERYSTATISTICS_H_
+#
+define
+GFX_THEBES_D3DKMTQUERYSTATISTICS_H_
 typedef
 struct
 _D3DKMTQS_COUNTER
@@ -450,3 +456,5 @@ D3DKMTQS
 )
 ;
 }
+#
+endif

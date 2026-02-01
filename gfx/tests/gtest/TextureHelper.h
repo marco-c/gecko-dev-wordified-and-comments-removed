@@ -1,4 +1,10 @@
 #
+ifndef
+GFX_TESTS_GTEST_TEXTUREHELPER_H_
+#
+define
+GFX_TESTS_GTEST_TEXTUREHELPER_H_
+#
 include
 "
 Types
@@ -682,3 +688,5 @@ id
 }
 }
 }
+#
+endif

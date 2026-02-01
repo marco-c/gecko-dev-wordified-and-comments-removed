@@ -1,4 +1,10 @@
 #
+ifndef
+GFX_GL_WGLLIBRARY_H_
+#
+define
+GFX_GL_WGLLIBRARY_H_
+#
 include
 "
 GLContextTypes
@@ -455,3 +461,5 @@ sWGLLib
 ;
 }
 }
+#
+endif
