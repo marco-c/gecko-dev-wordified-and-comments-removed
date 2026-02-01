@@ -294,6 +294,11 @@ float
 const
 spectrum_
 ;
+float
+*
+const
+work_
+;
 PFFFT_Setup
 *
 pffft_setup_
