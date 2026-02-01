@@ -340,9 +340,6 @@ thirdPartyUtil
 )
 ;
 #
-undef
-LOG
-#
 define
 LOG
 (
@@ -2376,3 +2373,6 @@ return
 result
 ;
 }
+#
+undef
+LOG

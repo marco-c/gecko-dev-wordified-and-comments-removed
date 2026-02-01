@@ -259,6 +259,9 @@ nsUnicharInputStream
 .
 h
 "
+#
+undef
+small
 using
 namespace
 mozilla

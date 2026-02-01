@@ -2014,3 +2014,9 @@ aNeedsDepthBuffer
 ;
 }
 }
+#
+undef
+LOG
+#
+undef
+LOGVERBOSE

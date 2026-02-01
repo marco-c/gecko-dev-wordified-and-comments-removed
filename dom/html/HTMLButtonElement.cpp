@@ -3020,3 +3020,9 @@ aGivenProto
 ;
 }
 }
+#
+undef
+NS_IN_SUBMIT_CLICK
+#
+undef
+NS_OUTER_ACTIVATE_EVENT
