@@ -4196,11 +4196,11 @@ DataRate
 :
 KilobitsPerSec
 (
-1300
+1600
 )
 )
 ;
-EXPECT_LT
+EXPECT_LE
 (
 available_bwe
 DataRate
@@ -4208,7 +4208,7 @@ DataRate
 :
 KilobitsPerSec
 (
-3800
+2600
 )
 )
 ;
@@ -4310,7 +4310,7 @@ DataRate
 :
 KilobitsPerSec
 (
-1400
+1500
 )
 )
 ;
@@ -4322,7 +4322,7 @@ DataRate
 :
 KilobitsPerSec
 (
-3000
+2100
 )
 )
 ;

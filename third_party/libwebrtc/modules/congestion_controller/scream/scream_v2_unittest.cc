@@ -878,7 +878,7 @@ ref_window
 TEST
 (
 ScreamV2Test
-ReferenceWindowIncreaseTo2xDataInflight
+ReferenceWindowIncreaseToDataInflight
 )
 {
 SimulatedClock
@@ -1007,7 +1007,9 @@ scream
 ref_window
 (
 )
-2
+1
+.
+1
 *
 feedback
 .
@@ -1867,7 +1869,7 @@ DataRate
 :
 KilobitsPerSec
 (
-2100
+2300
 )
 )
 ;
