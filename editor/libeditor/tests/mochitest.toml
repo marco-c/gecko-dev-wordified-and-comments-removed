@@ -2830,6 +2830,13 @@ html
 ]
 [
 "
+test_selectable_input_event_dispatching_for_compositionend
+.
+html
+"
+]
+[
+"
 test_selection_at_beforeinput_insertReplacementText
 .
 html
