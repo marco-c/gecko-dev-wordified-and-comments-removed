@@ -10893,7 +10893,8 @@ GetBaseURI
 ;
 if
 (
-!
+NS_FAILED
+(
 docShell
 -
 >
@@ -10901,6 +10902,7 @@ Initialize
 (
 openWindowInfo
 nullptr
+)
 )
 )
 {

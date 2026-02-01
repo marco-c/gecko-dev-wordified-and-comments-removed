@@ -273,10 +273,7 @@ SetWillChangeProcess
 )
 ;
 static
-already_AddRefed
-<
-nsWebBrowser
->
+nsresult
 Create
 (
 nsIWebBrowserChrome
@@ -306,6 +303,10 @@ aInitialWindowChild
 nsIOpenWindowInfo
 *
 aOpenWindowInfo
+nsWebBrowser
+*
+*
+aWebBrowser
 )
 ;
 protected

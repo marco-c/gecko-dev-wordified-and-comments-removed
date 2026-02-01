@@ -2591,8 +2591,8 @@ InitData
 )
 )
 ;
-mWebBrowser
-=
+MOZ_TRY
+(
 nsWebBrowser
 :
 :
@@ -2603,6 +2603,11 @@ mPuppetWidget
 mBrowsingContext
 aInitialWindowChild
 aOpenWindowInfo
+getter_AddRefs
+(
+mWebBrowser
+)
+)
 )
 ;
 if
