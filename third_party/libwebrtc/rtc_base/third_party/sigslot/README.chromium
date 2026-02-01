@@ -13,7 +13,7 @@ Name
 sigslot
 URL
 :
-http
+https
 :
 /
 /
@@ -37,7 +37,13 @@ Date
 09
 License
 :
-Ignorable
+LicenseRef
+-
+Public
+-
+Domain
+-
+Sigslot
 License
 File
 :

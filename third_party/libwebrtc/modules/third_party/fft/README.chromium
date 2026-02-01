@@ -23,6 +23,10 @@ Mechanism
 :
 Static
 (
+https
+:
+/
+/
 crbug
 .
 com
@@ -38,8 +42,7 @@ Date
 26
 License
 :
-Custom
-license
+dtoa
 License
 File
 :

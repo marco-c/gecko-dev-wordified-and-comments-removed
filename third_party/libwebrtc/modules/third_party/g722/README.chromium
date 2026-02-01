@@ -47,8 +47,13 @@ Date
 25
 License
 :
-Custom
-license
+LicenseRef
+-
+Public
+-
+Domain
+-
+SpanDSP
 License
 File
 :
