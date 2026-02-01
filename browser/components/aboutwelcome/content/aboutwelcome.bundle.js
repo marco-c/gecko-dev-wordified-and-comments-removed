@@ -20812,6 +20812,9 @@ options
 =
 content
 .
+tiles
+?
+.
 migration_wizard_options
 ;
 (
@@ -21075,6 +21078,10 @@ options
 ?
 .
 selection_header_string
+|
+|
+"
+"
 "
 selection
 -
