@@ -9223,6 +9223,11 @@ PostVisibilityUpdateEvent
 (
 )
 ;
+void
+Reveal
+(
+)
+;
 bool
 IsSyntheticDocument
 (
@@ -14927,6 +14932,11 @@ mHasPolicyWithRequireTrustedTypesForDirective
 ;
 bool
 mClipboardCopyTriggered
+:
+1
+;
+bool
+mHasBeenRevealed
 :
 1
 ;
