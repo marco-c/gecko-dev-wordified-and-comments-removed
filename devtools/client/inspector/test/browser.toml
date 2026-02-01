@@ -849,6 +849,17 @@ js
 "
 browser_inspector_picker
 -
+page
+-
+reload
+.
+js
+"
+]
+[
+"
+browser_inspector_picker
+-
 reset
 -
 reference
