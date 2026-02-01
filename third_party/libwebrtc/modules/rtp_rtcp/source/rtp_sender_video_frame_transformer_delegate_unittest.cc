@@ -330,13 +330,7 @@ SendVideo
 (
 int
 payload_type
-std
-:
-:
-optional
-<
 VideoCodecType
->
 codec_type
 uint32_t
 rtp_timestamp
@@ -1864,13 +1858,7 @@ test_sender_
 SendVideo
 (
 payload_type
-std
-:
-:
-make_optional
-(
 kVideoCodecVP8
-)
 timestamp
 Timestamp
 :

@@ -8133,13 +8133,7 @@ kPayloadType
 127
 ;
 const
-std
-:
-:
-optional
-<
 VideoCodecType
->
 kCodecType
 =
 VideoCodecType
