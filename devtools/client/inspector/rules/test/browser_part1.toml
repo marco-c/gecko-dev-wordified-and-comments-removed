@@ -475,6 +475,13 @@ js
 ]
 [
 "
+browser_rules_attr
+.
+js
+"
+]
+[
+"
 browser_rules_attributes
 -
 style
