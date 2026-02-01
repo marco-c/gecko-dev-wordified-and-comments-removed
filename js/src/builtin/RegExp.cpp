@@ -4062,6 +4062,17 @@ args
 toBoolean
 (
 )
+&
+&
+JS
+:
+:
+Prefs
+:
+:
+experimental_legacy_regexp
+(
+)
 ;
 RegExpObject
 *
