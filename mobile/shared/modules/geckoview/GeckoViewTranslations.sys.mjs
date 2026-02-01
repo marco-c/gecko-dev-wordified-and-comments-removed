@@ -983,7 +983,7 @@ all
 {
 lazy
 .
-TranslationsParent
+TranslationsUtils
 .
 deleteAllLanguageFiles
 (
