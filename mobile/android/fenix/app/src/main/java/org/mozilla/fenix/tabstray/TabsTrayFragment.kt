@@ -2565,6 +2565,11 @@ requireComponents
 core
 .
 bookmarksStorage
+mainDispatcher
+=
+Dispatchers
+.
+Main
 ioDispatcher
 =
 Dispatchers
