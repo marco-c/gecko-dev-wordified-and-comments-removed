@@ -66,8 +66,6 @@ the
 tests
 requires
 python
-and
-pip
 as
 well
 as
@@ -114,8 +112,6 @@ manager
 to
 install
 python
-and
-pip
 .
 On
 Ubuntu
@@ -127,9 +123,6 @@ apt
 get
 install
 python3
-python3
--
-pip
 python3
 -
 venv

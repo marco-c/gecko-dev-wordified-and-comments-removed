@@ -348,7 +348,7 @@ curl
 python3
 python3
 -
-pip
+venv
 git
 -
 For
@@ -359,9 +359,6 @@ sudo
 dnf
 install
 python3
-python3
--
-pip
 git
 If
 you
