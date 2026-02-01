@@ -1525,6 +1525,9 @@ _login
 .
 origin
 breachTimestamp
+breachDetails
+.
+Name
 )
 ;
 }
@@ -6521,6 +6524,7 @@ updateBreachAlert
 (
 hostname
 date
+breachName
 )
 {
 this
@@ -6538,6 +6542,18 @@ _breachAlert
 date
 =
 date
+;
+this
+.
+_breachAlert
+.
+breachName
+=
+breachName
+|
+|
+"
+"
 ;
 }
 #

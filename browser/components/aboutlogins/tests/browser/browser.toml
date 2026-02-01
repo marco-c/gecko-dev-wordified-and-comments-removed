@@ -218,6 +218,13 @@ Bug
 ]
 [
 "
+browser_breachAlertLinkTelemetry
+.
+js
+"
+]
+[
+"
 browser_breachAlertShowingForAddedLogin
 .
 js
