@@ -3316,12 +3316,6 @@ prim_store
 scene
 .
 prim_store
-clip_store
-:
-&
-scene
-.
-clip_store
 resource_cache
 use_dual_source_blending
 use_advanced_blending
@@ -3464,12 +3458,6 @@ ctx
 RenderTargetContext
 {
 global_device_pixel_scale
-clip_store
-:
-&
-scene
-.
-clip_store
 prim_store
 :
 &
