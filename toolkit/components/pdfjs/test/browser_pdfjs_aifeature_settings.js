@@ -222,7 +222,6 @@ Assert
 .
 ok
 (
-!
 PdfJsGuessAltTextFeature
 .
 isEnabled
@@ -235,7 +234,7 @@ set
 isEnabled
 should
 be
-false
+true
 "
 )
 ;
