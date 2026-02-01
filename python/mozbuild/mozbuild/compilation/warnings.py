@@ -33,8 +33,10 @@ x1b
 d
 ;
 ]
-+
-m
+*
+[
+mK
+]
 "
 )
 RE_CLANG_WARNING_AND_ERROR
