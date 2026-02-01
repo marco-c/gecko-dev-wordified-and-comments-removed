@@ -88,3 +88,17 @@ navigator
 any
 .
 js
+-
+name
+:
+cookie
+-
+enabled
+files
+:
+-
+navigatorcookies
+-
+cookieenabled
+-
+*
