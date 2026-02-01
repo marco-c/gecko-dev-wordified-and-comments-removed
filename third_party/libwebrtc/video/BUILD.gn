@@ -4625,6 +4625,14 @@ video_test_constants
 .
 /
 test
+:
+y4m_frame_generator
+"
+"
+.
+.
+/
+test
 /
 network
 :
