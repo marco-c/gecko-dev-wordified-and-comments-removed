@@ -10342,6 +10342,14 @@ fileutils
 /
 test
 :
+near_matcher
+"
+"
+.
+.
+/
+test
+:
 test_main
 "
 "
