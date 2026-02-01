@@ -2732,6 +2732,9 @@ TimeDelta
 >
 pacer_burst_interval
 ;
+bool
+always_negotiate_datachannel
+;
 }
 ;
 static_assert
@@ -3170,6 +3173,14 @@ pacer_burst_interval
 o
 .
 pacer_burst_interval
+&
+&
+always_negotiate_data_channels
+=
+=
+o
+.
+always_negotiate_data_channels
 ;
 }
 bool

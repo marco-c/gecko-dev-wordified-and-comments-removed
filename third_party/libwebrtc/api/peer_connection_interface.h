@@ -1893,6 +1893,11 @@ TimeDelta
 >
 pacer_burst_interval
 ;
+bool
+always_negotiate_data_channels
+=
+false
+;
 }
 ;
 struct
