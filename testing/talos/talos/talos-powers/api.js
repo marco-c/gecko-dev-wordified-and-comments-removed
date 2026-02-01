@@ -1102,12 +1102,6 @@ e
 )
 {
 }
-AboutNewTab
-.
-onBrowserReady
-(
-)
-;
 let
 pollForFeed
 =
@@ -1122,6 +1116,7 @@ foundFeed
 AboutNewTab
 .
 activityStream
+?
 .
 store
 .
