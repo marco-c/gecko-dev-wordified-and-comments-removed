@@ -707,11 +707,11 @@ bottomTextL10n
 id
 :
 "
-firefox
+urlbar
 -
-suggest
+result
 -
-addons
+suggestion
 -
 recommended
 "
