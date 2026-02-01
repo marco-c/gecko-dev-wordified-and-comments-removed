@@ -1,4 +1,10 @@
 #
+ifndef
+WIDGET_COCOA_NSWIDGETFACTORY_H_
+#
+define
+WIDGET_COCOA_NSWIDGETFACTORY_H_
+#
 include
 "
 nsID
@@ -103,3 +109,5 @@ nsWidgetCocoaModuleDtor
 (
 )
 ;
+#
+endif

@@ -1,4 +1,10 @@
 #
+ifndef
+WIDGET_WINDOWS_AUDIOSESSION_H_
+#
+define
+WIDGET_WINDOWS_AUDIOSESSION_H_
+#
 include
 "
 nsString
@@ -23,3 +29,5 @@ DestroyAudioSession
 ;
 }
 }
+#
+endif

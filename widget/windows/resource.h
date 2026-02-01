@@ -1,4 +1,10 @@
 #
+ifndef
+WIDGET_WINDOWS_RESOURCE_H_
+#
+define
+WIDGET_WINDOWS_RESOURCE_H_
+#
 define
 IDC_GRAB
 4101
@@ -46,3 +52,5 @@ IDC_DUMMY_CE_MENUBAR
 define
 IDC_NONE
 4112
+#
+endif
