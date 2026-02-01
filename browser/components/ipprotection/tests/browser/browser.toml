@@ -78,6 +78,13 @@ js
 ]
 [
 "
+browser_ipprotection_content_site_exclusion
+.
+js
+"
+]
+[
+"
 browser_ipprotection_header
 .
 js
