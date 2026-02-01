@@ -3344,6 +3344,10 @@ in
 {
                 
 "
+AlignmentBaseline
+"
+                
+"
 Appearance
 "
                 
@@ -5916,9 +5920,15 @@ smoothing
 "
                 
 "
-vertical
+alignment
 -
-align
+baseline
+"
+                
+"
+baseline
+-
+shift
 "
                 
 "
@@ -6113,9 +6123,15 @@ smoothing
 "
                 
 "
-vertical
+alignment
 -
-align
+baseline
+"
+                
+"
+baseline
+-
+shift
 "
                 
 "

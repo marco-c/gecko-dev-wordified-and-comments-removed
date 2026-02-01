@@ -7781,8 +7781,14 @@ mPerspectiveOrigin
 mozilla
 :
 :
-StyleVerticalAlign
-mVerticalAlign
+StyleAlignmentBaseline
+mAlignmentBaseline
+;
+mozilla
+:
+:
+StyleBaselineShift
+mBaselineShift
 ;
 mozilla
 :

@@ -545,6 +545,9 @@ include
 =
 [
 "
+AlignmentBaseline
+"
+"
 AnchorName
 "
 "
@@ -881,6 +884,9 @@ PositionOrAuto
 BackgroundSize
 "
 "
+BaselineShift
+"
+"
 BaselineSource
 "
 "
@@ -1023,9 +1029,6 @@ SystemFont
 "
 "
 GradientItem
-"
-"
-VerticalAlign
 "
 "
 BasicShape
