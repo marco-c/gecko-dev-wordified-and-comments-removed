@@ -36935,6 +36935,12 @@ static_assertions
 static_prefs
 "
 "
+strum
+"
+"
+strum_macros
+"
+"
 style_derive
 "
 "
