@@ -412,6 +412,8 @@ sysroot
 wasm32
 -
 wasi
+-
+terser
 optimization
 :
 skip

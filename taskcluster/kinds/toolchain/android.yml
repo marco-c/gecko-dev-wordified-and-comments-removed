@@ -2327,6 +2327,8 @@ repack
 linux64
 -
 node
+-
+terser
 linux64
 -
 android
@@ -2650,6 +2652,8 @@ repack
 linux64
 -
 node
+-
+terser
 linux64
 -
 android
