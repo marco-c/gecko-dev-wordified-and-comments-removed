@@ -254,6 +254,12 @@ height
 ;
 margin
 -
+top
+:
+1rem
+;
+margin
+-
 bottom
 :
 1rem
@@ -322,6 +328,7 @@ align
 -
 items
 :
+safe
 center
 ;
 }
