@@ -117,6 +117,17 @@ api
 /
 transport
 /
+ecn_marking
+.
+h
+"
+#
+include
+"
+api
+/
+transport
+/
 stun
 .
 h
@@ -178,6 +189,15 @@ rtc_base
 memory
 /
 less_unique_ptr
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+net_helper
 .
 h
 "
@@ -514,6 +534,8 @@ const
 TurnMessage
 *
 msg
+EcnMarking
+ecn
 )
 ;
 void
@@ -525,6 +547,8 @@ const
 uint8_t
 >
 payload
+EcnMarking
+ecn
 )
 ;
 private
@@ -610,6 +634,8 @@ const
 TurnMessage
 *
 msg
+EcnMarking
+ecn
 )
 ;
 void
@@ -750,6 +776,8 @@ const
 SocketAddress
 &
 peer
+EcnMarking
+ecn
 )
 ;
 TurnServer
@@ -1366,6 +1394,8 @@ const
 uint8_t
 >
 payload
+EcnMarking
+ecn
 )
 RTC_RUN_ON
 (
@@ -1403,6 +1433,8 @@ absl
 :
 string_view
 key
+EcnMarking
+ecn
 )
 RTC_RUN_ON
 (
@@ -1567,6 +1599,8 @@ conn
 StunMessage
 *
 msg
+EcnMarking
+ecn
 )
 ;
 void
@@ -1579,6 +1613,8 @@ const
 ByteBufferWriter
 &
 buf
+EcnMarking
+ecn
 )
 ;
 void
