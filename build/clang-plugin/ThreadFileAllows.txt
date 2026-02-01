@@ -193,6 +193,15 @@ gtest
 TestThreadUtils
 .
 cpp
+xpcom
+/
+tests
+/
+gtest
+/
+TestTaskQueue
+.
+cpp
 #
 Tests
 which
