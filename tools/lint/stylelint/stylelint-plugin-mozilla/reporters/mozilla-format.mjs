@@ -80,6 +80,14 @@ no
 console
 *
 /
+/
+*
+eslint
+-
+env
+node
+*
+/
 import
 {
 Transform

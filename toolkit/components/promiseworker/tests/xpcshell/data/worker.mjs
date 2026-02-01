@@ -29,6 +29,16 @@ zero
 *
 /
 /
+*
+eslint
+-
+env
+mozilla
+/
+worker
+*
+/
+/
 /
 Trivial
 worker

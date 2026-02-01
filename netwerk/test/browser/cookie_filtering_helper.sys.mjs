@@ -51,6 +51,16 @@ scope
 .
 /
 *
+eslint
+-
+env
+mozilla
+/
+simpletest
+*
+/
+/
+*
 global
 ContentTaskUtils
 content

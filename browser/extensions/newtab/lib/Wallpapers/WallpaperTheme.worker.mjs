@@ -57,6 +57,14 @@ MPL
 *
 /
 /
+*
+eslint
+-
+env
+webworker
+*
+/
+/
 /
 eslint
 -
