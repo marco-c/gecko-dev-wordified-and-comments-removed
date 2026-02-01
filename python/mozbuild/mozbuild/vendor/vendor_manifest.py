@@ -6174,6 +6174,22 @@ header_files_warning
 "
                 
 {
+                    
+"
+num_headers
+"
+:
+len
+(
+header_files_to_add
+)
+                    
+"
+headers
+"
+:
+header_files_to_add
+                
 }
                 
 (
@@ -6181,14 +6197,19 @@ header_files_warning
 "
 We
 found
-%
-s
+{
+num_headers
+}
 header
 files
 in
 the
 update
 pass
+"
+                    
++
+"
 -
 -
 add
@@ -6199,32 +6220,24 @@ exports
 if
 you
 want
-"
-                    
-+
-"
 to
 attempt
 to
 include
 them
+"
+                    
++
+"
 in
 EXPORTS
 blocks
 :
-%
-s
+{
+header_files_to_add
+}
 "
                 
-)
-                
-%
-(
-len
-(
-header_files_to_add
-)
-header_files_to_add
 )
             
 )
@@ -6309,14 +6322,20 @@ vendor
 "
                     
 {
+"
+f
+"
+:
+f
 }
                     
 "
 Could
 not
 add
-%
-s
+{
+f
+}
 to
 the
 appropriate
@@ -6325,8 +6344,6 @@ moz
 build
 file
 "
-%
-f
                 
 )
                 
@@ -6368,14 +6385,20 @@ vendor
 "
                     
 {
+"
+f
+"
+:
+f
 }
                     
 "
 Could
 not
 remove
-%
-s
+{
+f
+}
 from
 the
 appropriate
@@ -6384,8 +6407,6 @@ moz
 build
 file
 "
-%
-f
                 
 )
                 
@@ -6666,9 +6687,13 @@ vendor
 "
                             
 {
+"
+reject_content
+"
+:
+reject_content
 }
                             
-f
 "
 Patch
 rejection
@@ -6834,8 +6859,17 @@ WARN
 vendor
 "
 {
-}
+"
 m
+"
+:
+m
+}
+"
+{
+m
+}
+"
 )
             
 raise
