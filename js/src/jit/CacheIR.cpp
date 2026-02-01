@@ -66531,12 +66531,6 @@ case
 InlinableNative
 :
 :
-IntlGuardToCollator
-:
-case
-InlinableNative
-:
-:
 IntlGuardToDateTimeFormat
 :
 case
