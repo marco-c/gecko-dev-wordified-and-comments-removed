@@ -64,9 +64,6 @@ ping
 backgroundhangmonitor
 -
 ping
-anonymous
--
-ping
 first
 -
 shutdown
