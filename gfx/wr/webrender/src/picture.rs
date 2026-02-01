@@ -2204,10 +2204,6 @@ segments_are_valid
 :
 bool
 pub
-is_opaque
-:
-bool
-pub
 raster_space
 :
 RasterSpace
@@ -2676,9 +2672,6 @@ zero
 (
 )
 segments_are_valid
-:
-false
-is_opaque
 :
 false
 raster_space
