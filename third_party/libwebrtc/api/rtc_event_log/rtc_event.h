@@ -57,8 +57,6 @@ RtpPacketIncoming
 RtpPacketOutgoing
 VideoReceiveStreamConfig
 VideoSendStreamConfig
-GenericPacketSent
-GenericPacketReceived
 FrameDecoded
 NetEqSetMinimumDelay
 BeginV3Log
