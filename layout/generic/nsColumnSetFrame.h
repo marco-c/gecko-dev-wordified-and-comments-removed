@@ -324,6 +324,11 @@ mIsLastBalancingReflow
 =
 false
 ;
+bool
+mIsInMeasuringReflow
+=
+false
+;
 nscoord
 mKnownFeasibleBSize
 =
