@@ -87,6 +87,12 @@ util
 .
 JsonWriter
 import
+kotlinx
+.
+coroutines
+.
+CoroutineDispatcher
+import
 mozilla
 .
 components
@@ -303,6 +309,9 @@ override
 fun
 finishSetupMegazord
 (
+ioDispatcher
+:
+CoroutineDispatcher
 )
 =
 Unit

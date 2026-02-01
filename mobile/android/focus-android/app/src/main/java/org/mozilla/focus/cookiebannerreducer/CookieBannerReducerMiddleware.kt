@@ -89,19 +89,7 @@ kotlinx
 .
 coroutines
 .
-Dispatchers
-import
-kotlinx
-.
-coroutines
-.
 launch
-import
-kotlinx
-.
-coroutines
-.
-withContext
 import
 mozilla
 .
@@ -233,7 +221,7 @@ CookieBannerReducerMiddleware
 (
 private
 val
-ioScope
+scope
 :
 CoroutineScope
 private
@@ -376,7 +364,7 @@ CookieBannerReducerAction
 >
 )
 {
-ioScope
+scope
 .
 launch
 {
@@ -531,7 +519,7 @@ CookieBannerReducerStatus
 CookieBannerUnsupportedSiteRequestWasSubmitted
 )
 )
-ioScope
+scope
 .
 launch
 {
@@ -582,7 +570,7 @@ if
 shouldShowCookieBannerItem
 )
 {
-ioScope
+scope
 .
 launch
 {
@@ -611,13 +599,6 @@ content
 url
 true
 )
-withContext
-(
-Dispatchers
-.
-Main
-)
-{
 if
 (
 hasException
@@ -654,7 +635,7 @@ null
 )
 )
 return
-withContext
+launch
 }
 else
 if
@@ -674,7 +655,6 @@ showUnsupportedSiteIfNeeded
 (
 store
 )
-}
 }
 }
 }
@@ -997,13 +977,6 @@ host
 await
 (
 )
-withContext
-(
-Dispatchers
-.
-Main
-)
-{
 appContext
 .
 components
@@ -1035,6 +1008,5 @@ BrowsingData
 ALL_SITE_DATA
 )
 )
-}
 }
 }

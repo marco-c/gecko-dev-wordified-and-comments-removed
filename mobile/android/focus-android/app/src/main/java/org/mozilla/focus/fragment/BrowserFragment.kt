@@ -1772,15 +1772,11 @@ listOf
 (
 CookieBannerReducerMiddleware
 (
-ioScope
+scope
 =
-this
+viewLifecycleOwner
 .
 lifecycleScope
-+
-Dispatchers
-.
-IO
 cookieBannersStorage
 =
 requireContext
