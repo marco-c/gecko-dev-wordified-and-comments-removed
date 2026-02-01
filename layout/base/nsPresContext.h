@@ -1346,6 +1346,12 @@ GetBimodalDynamicToolbarHeightInAppUnits
 )
 const
 ;
+nscoord
+GetBimodalDynamicToolbarHeightForFixedPosInAppUnits
+(
+)
+const
+;
 mozilla
 :
 :

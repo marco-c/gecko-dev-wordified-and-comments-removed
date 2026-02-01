@@ -162,6 +162,15 @@ ComputeIntrinsicResolution
 )
 const
 ;
+mozilla
+:
+:
+CSSToScreenScale
+GetIntrinsicScaleForFixedViewport
+(
+)
+const
+;
 void
 HandleDOMMetaAdded
 (

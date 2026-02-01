@@ -3987,6 +3987,12 @@ GetVisualViewportSizeUpdatedByDynamicToolbar
 )
 const
 ;
+nsSize
+GetFixedViewportSize
+(
+)
+const
+;
 void
 RefreshViewportSize
 (
