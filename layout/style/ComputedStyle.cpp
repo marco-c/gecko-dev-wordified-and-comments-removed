@@ -1837,8 +1837,10 @@ ComputedStyle
 :
 GetCachedLazyPseudoStyle
 (
-PseudoStyleType
-aPseudo
+const
+PseudoStyleRequest
+&
+aRequest
 )
 const
 {
@@ -1849,7 +1851,9 @@ PseudoStyle
 :
 IsPseudoElement
 (
-aPseudo
+aRequest
+.
+mType
 )
 )
 ;
@@ -1860,7 +1864,9 @@ nsCSSPseudoElements
 :
 PseudoElementSupportsUserActionState
 (
-aPseudo
+aRequest
+.
+mType
 )
 )
 {
@@ -1873,7 +1879,7 @@ mCachedInheritingStyles
 .
 Lookup
 (
-aPseudo
+aRequest
 )
 ;
 }

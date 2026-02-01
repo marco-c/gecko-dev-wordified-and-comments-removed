@@ -2318,10 +2318,6 @@ const
 bool
 cacheable
 =
-!
-aFunctionalPseudoParameter
-&
-&
 LazyPseudoIsCacheable
 (
 aType
@@ -2342,7 +2338,10 @@ aParentStyle
 >
 GetCachedLazyPseudoStyle
 (
+{
 aType
+aFunctionalPseudoParameter
+}
 )
 :
 nullptr
@@ -2416,6 +2415,7 @@ aParentStyle
 SetCachedLazyPseudoStyle
 (
 style
+aFunctionalPseudoParameter
 )
 ;
 }
