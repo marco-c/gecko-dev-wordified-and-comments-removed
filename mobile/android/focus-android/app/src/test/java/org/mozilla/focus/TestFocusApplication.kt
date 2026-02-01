@@ -309,7 +309,7 @@ override
 fun
 finishSetupMegazord
 (
-ioDispatcher
+dispatcher
 :
 CoroutineDispatcher
 )

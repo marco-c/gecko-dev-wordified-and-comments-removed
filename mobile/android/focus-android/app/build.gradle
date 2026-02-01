@@ -2605,6 +2605,12 @@ libs
 .
 androidx
 .
+emoji2
+implementation
+libs
+.
+androidx
+.
 fragment
 implementation
 libs
