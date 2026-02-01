@@ -384,18 +384,6 @@ handleAIResponseEvent
 event
 )
 {
-/
-/
-TODO
-(
-bug
-2009434
-)
-:
-update
-reference
-to
-insights
 const
 {
 ordinal
@@ -403,7 +391,7 @@ id
 :
 messageId
 content
-insightsApplied
+memoriesApplied
 }
 =
 event
@@ -431,7 +419,7 @@ content
 body
 appliedMemories
 :
-insightsApplied
+memoriesApplied
 ?
 ?
 [

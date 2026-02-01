@@ -188,7 +188,7 @@ typedef
 |
 2
 }
-InsightsFlagSource
+MemoriesFlagSource
 *
 /
 /
@@ -197,13 +197,13 @@ InsightsFlagSource
 *
 type
 {
-InsightsFlagSource
+MemoriesFlagSource
 }
 *
 /
 export
 const
-INSIGHTS_FLAG_SOURCE
+MEMORIES_FLAG_SOURCE
 =
 Object
 .
@@ -233,7 +233,7 @@ text
 "
 |
 "
-injected_insights
+injected_memories
 "
 |
 "
@@ -267,10 +267,10 @@ TEXT
 "
 text
 "
-INSIGHTS
+MEMORIES
 :
 "
-injected_insights
+injected_memories
 "
 REAL_TIME
 :

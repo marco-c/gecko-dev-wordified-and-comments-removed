@@ -1135,7 +1135,7 @@ type
 :
 text
 |
-injected_insights
+injected_memories
 |
 injected_real_time_info
 *
@@ -1721,7 +1721,7 @@ string
 *
 }
 }
-InsightsApiFunctionParams
+MemoryApiFunctionReturn
 *
 *
 typedef
@@ -1738,16 +1738,16 @@ Promise
 <
 null
 |
-InsightsContextParams
+MemoryApiFunctionReturn
 >
 *
 }
-InsightsApiFunction
+MemoriesApiFunction
 *
 *
 param
 {
-InsightsApiFunction
+MemoriesApiFunction
 }
 [
 constructMemories
@@ -1800,7 +1800,7 @@ addSystemMessage
 (
 SYSTEM_PROMPT_TYPE
 .
-INSIGHTS
+MEMORIES
 memoriesContext
 .
 content
