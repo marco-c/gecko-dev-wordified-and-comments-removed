@@ -45459,6 +45459,7 @@ aSelectionType
 kSelectionTypesWithDecorations
 )
 {
+const
 bool
 didHaveOverflowingSelection
 =
@@ -45475,8 +45476,6 @@ r
 (
 nsPoint
 (
-0
-0
 )
 GetSize
 (
@@ -45517,7 +45516,7 @@ f
 IntrinsicDirty
 :
 :
-FrameAncestorsAndDescendants
+None
 NS_FRAME_IS_DIRTY
 )
 ;
