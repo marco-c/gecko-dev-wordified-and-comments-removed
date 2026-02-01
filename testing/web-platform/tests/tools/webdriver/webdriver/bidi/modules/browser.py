@@ -87,17 +87,6 @@ Any
 :
         
 assert
-result
-[
-'
-clientWindows
-'
-]
-is
-not
-None
-        
-assert
 isinstance
 (
 result
@@ -309,17 +298,6 @@ Any
 :
         
 assert
-result
-[
-"
-userContext
-"
-]
-is
-not
-None
-        
-assert
 isinstance
 (
 result
@@ -379,17 +357,6 @@ Any
 >
 Any
 :
-        
-assert
-result
-[
-"
-userContexts
-"
-]
-is
-not
-None
         
 assert
 isinstance

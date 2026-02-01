@@ -774,15 +774,16 @@ Any
 :
         
 assert
+isinstance
+(
 result
 [
 "
 intercept
 "
 ]
-is
-not
-None
+str
+)
         
 return
 result
@@ -1629,15 +1630,16 @@ Any
 :
         
 assert
+isinstance
+(
 result
 [
 "
 collector
 "
 ]
-is
-not
-None
+str
+)
         
 return
 result
@@ -1939,15 +1941,38 @@ Any
 :
         
 assert
+isinstance
+(
 result
 [
 "
 bytes
 "
 ]
-is
-not
-None
+[
+"
+type
+"
+]
+str
+)
+        
+assert
+isinstance
+(
+result
+[
+"
+bytes
+"
+]
+[
+"
+value
+"
+]
+str
+)
         
 return
 result

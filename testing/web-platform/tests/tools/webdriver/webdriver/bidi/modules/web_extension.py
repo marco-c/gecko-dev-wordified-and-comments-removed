@@ -81,21 +81,28 @@ Any
 )
 -
 >
-Optional
-[
-str
-]
+Any
 :
         
-return
-result
-.
-get
+assert
+isinstance
 (
+result
+[
 "
 extension
 "
+]
+str
 )
+        
+return
+result
+[
+"
+extension
+"
+]
     
 command
     
