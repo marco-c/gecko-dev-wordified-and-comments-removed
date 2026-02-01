@@ -183,6 +183,13 @@ Bug
 ]
 [
 "
+browser_keyboard_mousewheel_zoom_consistency
+.
+js
+"
+]
+[
+"
 browser_mousewheel_zoom
 .
 js
