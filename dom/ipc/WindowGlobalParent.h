@@ -1693,17 +1693,6 @@ AllocPWebIdentityParent
 (
 )
 ;
-already_AddRefed
-<
-dom
-:
-:
-PDigitalCredentialParent
->
-AllocPDigitalCredentialParent
-(
-)
-;
 private
 :
 WindowGlobalParent
