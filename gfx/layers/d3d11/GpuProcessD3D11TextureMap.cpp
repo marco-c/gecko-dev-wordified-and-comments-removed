@@ -214,10 +214,8 @@ gfx
 IntSize
 &
 aSize
-RefPtr
-<
 ZeroCopyUsageInfo
->
+*
 aUsageInfo
 RefPtr
 <
@@ -271,10 +269,8 @@ gfx
 IntSize
 &
 aSize
-RefPtr
-<
 ZeroCopyUsageInfo
->
+*
 aUsageInfo
 RefPtr
 <
@@ -2252,10 +2248,8 @@ gfx
 IntSize
 &
 aSize
-RefPtr
-<
 ZeroCopyUsageInfo
->
+*
 aUsageInfo
 RefPtr
 <
