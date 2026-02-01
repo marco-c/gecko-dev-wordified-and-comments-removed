@@ -301,13 +301,6 @@ nsIScriptSecurityManager
 scriptSecurityManager
 "
 "
-nsISearchService
-"
-:
-"
-search
-"
-"
 nsISessionStorageService
 "
 :
