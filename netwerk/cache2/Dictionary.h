@@ -628,6 +628,13 @@ aWriteCount
 )
 ;
 void
+CleanupOnCacheData
+(
+nsresult
+result
+)
+;
+void
 MakeMetadataEntry
 (
 nsCString

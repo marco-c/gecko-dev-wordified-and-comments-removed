@@ -109,6 +109,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 prnetdb
 .
 h
@@ -2082,7 +2089,10 @@ nullptr
 }
 if
 (
-strcmp
+nsCRT
+:
+:
+strcasecmp
 (
 data
 aKey
