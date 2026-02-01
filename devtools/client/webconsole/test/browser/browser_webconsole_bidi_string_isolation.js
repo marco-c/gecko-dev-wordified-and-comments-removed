@@ -388,9 +388,6 @@ div
 rtlOverride
 }
 msg10
-=
-"
-"
 >
 ]
 ;
