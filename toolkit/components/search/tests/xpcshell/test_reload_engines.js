@@ -821,14 +821,6 @@ _setHomeRegion
 "
 FR
 "
-false
-)
-;
-await
-SearchService
-.
-_maybeReloadEngines
-(
 )
 ;
 await
