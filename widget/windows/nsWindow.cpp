@@ -10880,14 +10880,6 @@ Invalidate
 )
 ;
 }
-#
-define
-DWMWA_USE_IMMERSIVE_DARK_MODE_BEFORE_20H1
-19
-#
-define
-DWMWA_USE_IMMERSIVE_DARK_MODE
-20
 void
 nsWindow
 :
