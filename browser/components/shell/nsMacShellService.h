@@ -1,9 +1,9 @@
 #
 ifndef
-nsmacshellservice_h____
+nsmacshellservice_h_
 #
 define
-nsmacshellservice_h____
+nsmacshellservice_h_
 #
 include
 "

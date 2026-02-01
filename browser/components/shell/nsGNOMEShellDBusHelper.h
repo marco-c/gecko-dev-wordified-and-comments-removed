@@ -1,9 +1,9 @@
 #
 ifndef
-__nsGNOMEShellDBusHelper_h__
+_nsGNOMEShellDBusHelper_h_
 #
 define
-__nsGNOMEShellDBusHelper_h__
+_nsGNOMEShellDBusHelper_h_
 #
 include
 <

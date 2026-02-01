@@ -1,9 +1,9 @@
 #
 ifndef
-nsgnomeshellservice_h____
+nsgnomeshellservice_h_
 #
 define
-nsgnomeshellservice_h____
+nsgnomeshellservice_h_
 #
 include
 "

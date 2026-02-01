@@ -1,9 +1,9 @@
 #
 ifndef
-iehistoryenumerator___h___
+iehistoryenumerator_h_
 #
 define
-iehistoryenumerator___h___
+iehistoryenumerator_h_
 #
 include
 <

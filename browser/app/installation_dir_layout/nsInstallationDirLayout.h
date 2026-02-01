@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_nsInstDirLayout_h__
+mozilla_nsInstDirLayout_h_
 #
 define
-mozilla_nsInstDirLayout_h__
+mozilla_nsInstDirLayout_h_
 #
 include
 "

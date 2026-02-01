@@ -1,9 +1,9 @@
 #
 ifndef
-windowsmigrationutils__h__
+windowsmigrationutils_h_
 #
 define
-windowsmigrationutils__h__
+windowsmigrationutils_h_
 #
 include
 "

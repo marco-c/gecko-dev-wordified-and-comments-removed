@@ -1,9 +1,9 @@
 #
 ifndef
-nswindowsshellservice_h____
+nswindowsshellservice_h_
 #
 define
-nswindowsshellservice_h____
+nswindowsshellservice_h_
 #
 include
 "

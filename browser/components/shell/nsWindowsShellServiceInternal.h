@@ -1,9 +1,9 @@
 #
 ifndef
-nswindowsshellserviceinternal_h____
+nswindowsshellserviceinternal_h_
 #
 define
-nswindowsshellserviceinternal_h____
+nswindowsshellserviceinternal_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-AboutRedirector_h__
+AboutRedirector_h_
 #
 define
-AboutRedirector_h__
+AboutRedirector_h_
 #
 include
 "

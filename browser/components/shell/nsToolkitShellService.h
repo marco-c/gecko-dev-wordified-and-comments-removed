@@ -1,9 +1,9 @@
 #
 ifndef
-nstoolkitshellservice_h____
+nstoolkitshellservice_h_
 #
 define
-nstoolkitshellservice_h____
+nstoolkitshellservice_h_
 #
 include
 "
