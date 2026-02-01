@@ -952,16 +952,6 @@ CandidateTest
 ToCandidateAttributeTcpCandidates
 )
 {
-constexpr
-char
-TCPTYPE_ACTIVE_STR
-[
-]
-=
-"
-active
-"
-;
 Candidate
 candidate
 (
