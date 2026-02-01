@@ -131,6 +131,12 @@ net
 .
 toUri
 import
+kotlinx
+.
+coroutines
+.
+runBlocking
+import
 mozilla
 .
 components
@@ -217,6 +223,8 @@ is
 returned
 (
 )
+=
+runBlocking
 {
 createFakeContentProviderForAdjust
 (
@@ -264,6 +272,8 @@ is
 returned
 (
 )
+=
+runBlocking
 {
 val
 provider
@@ -298,6 +308,8 @@ is
 returned
 (
 )
+=
+runBlocking
 {
 createFakeContentProviderForAdjust
 (
@@ -348,6 +360,8 @@ is
 returned
 (
 )
+=
+runBlocking
 {
 createFakeContentProviderForAdjust
 (
@@ -427,6 +441,8 @@ is
 returned
 (
 )
+=
+runBlocking
 {
 createFakeContentProviderForAdjust
 (
@@ -497,6 +513,8 @@ is
 returned
 (
 )
+=
+runBlocking
 {
 createFakeContentProviderForAdjust
 (

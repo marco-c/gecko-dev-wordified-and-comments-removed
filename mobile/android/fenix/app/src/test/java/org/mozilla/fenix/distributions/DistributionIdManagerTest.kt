@@ -65,6 +65,12 @@ fenix
 .
 distributions
 import
+kotlinx
+.
+coroutines
+.
+runBlocking
+import
 mozilla
 .
 components
@@ -223,6 +229,7 @@ object
 DistributionProviderChecker
 {
 override
+suspend
 fun
 queryProvider
 (
@@ -352,6 +359,8 @@ is
 returned
 (
 )
+=
+runBlocking
 {
 val
 subject
@@ -443,6 +452,8 @@ is
 returned
 (
 )
+=
+runBlocking
 {
 val
 subject
@@ -513,6 +524,8 @@ is
 returned
 (
 )
+=
+runBlocking
 {
 val
 subject
@@ -600,6 +613,8 @@ is
 returned
 (
 )
+=
+runBlocking
 {
 val
 subject
@@ -661,6 +676,8 @@ is
 returned
 (
 )
+=
+runBlocking
 {
 val
 subject
@@ -735,6 +752,8 @@ is
 returned
 (
 )
+=
+runBlocking
 {
 val
 subject
@@ -808,6 +827,8 @@ is
 returned
 (
 )
+=
+runBlocking
 {
 val
 subject
@@ -879,6 +900,8 @@ is
 returned
 (
 )
+=
+runBlocking
 {
 val
 subject
@@ -949,6 +972,8 @@ is
 returned
 (
 )
+=
+runBlocking
 {
 val
 subject
@@ -1017,6 +1042,8 @@ a
 deal
 (
 )
+=
+runBlocking
 {
 val
 subject
@@ -1193,6 +1220,8 @@ is
 skipped
 (
 )
+=
+runBlocking
 {
 val
 subject
@@ -1367,6 +1396,8 @@ is
 returned
 (
 )
+=
+runBlocking
 {
 val
 subject
@@ -1437,6 +1468,8 @@ is
 returned
 (
 )
+=
+runBlocking
 {
 val
 subject
@@ -1513,6 +1546,8 @@ is
 returned
 (
 )
+=
+runBlocking
 {
 val
 subject
@@ -1587,6 +1622,8 @@ is
 returned
 (
 )
+=
+runBlocking
 {
 val
 subject
@@ -1655,6 +1692,8 @@ is
 updated
 (
 )
+=
+runBlocking
 {
 val
 subject
@@ -1760,6 +1799,8 @@ is
 updated
 (
 )
+=
+runBlocking
 {
 val
 subject
@@ -1860,6 +1901,8 @@ not
 updated
 (
 )
+=
+runBlocking
 {
 val
 subject
@@ -1949,6 +1992,8 @@ is
 returned
 (
 )
+=
+runBlocking
 {
 val
 subject
@@ -2019,6 +2064,8 @@ is
 returned
 (
 )
+=
+runBlocking
 {
 val
 subject
@@ -2083,6 +2130,8 @@ are
 started
 (
 )
+=
+runBlocking
 {
 val
 metricsController

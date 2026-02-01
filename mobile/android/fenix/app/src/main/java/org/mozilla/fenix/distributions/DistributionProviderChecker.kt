@@ -172,6 +172,7 @@ provider
 value
 *
 /
+suspend
 fun
 queryProvider
 (
@@ -236,6 +237,7 @@ classVersion
 Default
 "
 override
+suspend
 fun
 queryProvider
 (

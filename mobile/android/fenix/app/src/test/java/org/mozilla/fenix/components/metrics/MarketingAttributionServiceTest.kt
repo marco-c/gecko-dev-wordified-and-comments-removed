@@ -79,6 +79,12 @@ runners
 .
 AndroidJUnit4
 import
+kotlinx
+.
+coroutines
+.
+runBlocking
+import
 mozilla
 .
 components
@@ -228,6 +234,7 @@ object
 DistributionProviderChecker
 {
 override
+suspend
 fun
 queryProvider
 (
@@ -353,6 +360,8 @@ marketing
 onboarding
 (
 )
+=
+runBlocking
 {
 assertFalse
 (
@@ -404,6 +413,8 @@ marketing
 onboarding
 (
 )
+=
+runBlocking
 {
 assertTrue
 (
@@ -478,6 +489,8 @@ marketing
 onboarding
 (
 )
+=
+runBlocking
 {
 assertFalse
 (
@@ -618,6 +631,8 @@ skip
 it
 (
 )
+=
+runBlocking
 {
 distributionIdManager
 .
@@ -722,6 +737,8 @@ skip
 it
 (
 )
+=
+runBlocking
 {
 distributionIdManager
 .

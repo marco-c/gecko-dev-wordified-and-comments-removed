@@ -558,6 +558,7 @@ exists
 .
 *
 /
+suspend
 fun
 getDistributionId
 (
@@ -833,6 +834,7 @@ during
 onboarding
 *
 /
+suspend
 fun
 shouldSkipMarketingConsentScreen
 (
@@ -930,6 +932,7 @@ distribution
 deal
 *
 /
+suspend
 fun
 isPartnershipDistribution
 (
@@ -1031,6 +1034,7 @@ screen
 .
 *
 /
+suspend
 fun
 startAdjustIfSkippingConsentScreen
 (

@@ -123,6 +123,12 @@ mockk
 .
 verify
 import
+kotlinx
+.
+coroutines
+.
+runBlocking
+import
 mozilla
 .
 components
@@ -565,6 +571,7 @@ object
 DistributionProviderChecker
 {
 override
+suspend
 fun
 queryProvider
 (
@@ -926,6 +933,8 @@ base
 metrics
 (
 )
+=
+runBlocking
 {
 val
 expectedAppName
@@ -2376,6 +2385,8 @@ SDK
 28
 (
 )
+=
+runBlocking
 {
 val
 settings
@@ -2463,6 +2474,8 @@ cookies
 option
 (
 )
+=
+runBlocking
 {
 val
 settings

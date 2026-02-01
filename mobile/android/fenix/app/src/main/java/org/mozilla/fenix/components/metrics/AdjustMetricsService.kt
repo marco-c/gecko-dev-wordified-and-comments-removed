@@ -284,6 +284,15 @@ start
 (
 )
 {
+CoroutineScope
+(
+Dispatchers
+.
+IO
+)
+.
+launch
+{
 val
 settings
 =
@@ -340,6 +349,7 @@ build
 )
 }
 return
+launch
 }
 if
 (
@@ -360,6 +370,7 @@ retrieved
 "
 )
 return
+launch
 }
 System
 .
@@ -618,6 +629,7 @@ SDK
 enabled
 "
 )
+}
 }
 override
 fun

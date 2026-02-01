@@ -2885,6 +2885,13 @@ isDailyUsagePingEnabled
 }
 else
 {
+CoroutineScope
+(
+IO
+)
+.
+launch
+{
 components
 .
 distributionIdManager
@@ -2892,6 +2899,7 @@ distributionIdManager
 startAdjustIfSkippingConsentScreen
 (
 )
+}
 }
 setupPush
 (
@@ -5537,6 +5545,7 @@ CyclomaticComplexMethod
 )
 VisibleForTesting
 internal
+suspend
 fun
 setStartupMetrics
 (
