@@ -10616,7 +10616,7 @@ distributionId
 :
 defaults
 .
-getStringPref
+getCharPref
 (
 PREF_DISTRIBUTION_ID
 null
