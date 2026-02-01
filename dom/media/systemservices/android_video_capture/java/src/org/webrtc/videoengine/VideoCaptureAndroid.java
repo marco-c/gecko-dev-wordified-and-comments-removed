@@ -591,7 +591,7 @@ started
 )
 ;
 return
-false
+true
 ;
 }
 cameraVideoCapturer
@@ -692,7 +692,7 @@ started
 )
 ;
 return
-false
+true
 ;
 }
 native_capturer
