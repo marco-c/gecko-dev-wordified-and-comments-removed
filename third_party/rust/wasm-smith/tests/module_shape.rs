@@ -704,6 +704,10 @@ for
 import
 in
 ir
+.
+into_imports
+(
+)
 {
 let
 import

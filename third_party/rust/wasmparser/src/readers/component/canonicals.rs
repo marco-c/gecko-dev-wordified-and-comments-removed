@@ -154,7 +154,6 @@ table_index
 u32
 }
 ThreadAvailableParallelism
-BackpressureSet
 BackpressureInc
 BackpressureDec
 TaskReturn
@@ -634,13 +633,6 @@ read
 )
 ?
 }
-0x08
-=
->
-CanonicalFunction
-:
-:
-BackpressureSet
 0x24
 =
 >

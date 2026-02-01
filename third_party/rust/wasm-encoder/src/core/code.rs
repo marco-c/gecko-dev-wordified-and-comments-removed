@@ -690,6 +690,7 @@ impl
 Ieee32
 {
 pub
+const
 fn
 new
 (
@@ -707,6 +708,7 @@ bits
 )
 }
 pub
+const
 fn
 bits
 (
@@ -856,6 +858,7 @@ impl
 Ieee64
 {
 pub
+const
 fn
 new
 (
@@ -873,6 +876,7 @@ bits
 )
 }
 pub
+const
 fn
 bits
 (

@@ -973,7 +973,7 @@ module
 &
 imp
 .
-field
+name
 crate
 :
 :

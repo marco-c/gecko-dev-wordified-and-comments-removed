@@ -412,6 +412,10 @@ for
 import
 in
 rdr
+.
+into_imports
+(
+)
 {
 let
 import

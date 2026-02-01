@@ -109,7 +109,7 @@ version
 "
 1
 .
-76
+81
 .
 0
 "
@@ -121,7 +121,7 @@ wast
 version
 =
 "
-243
+244
 .
 0
 .
@@ -527,7 +527,7 @@ version
 "
 0
 .
-243
+244
 .
 0
 "
@@ -605,11 +605,6 @@ lints
 .
 clippy
 ]
-allow_attributes_without_reason
-=
-"
-warn
-"
 clone_on_copy
 =
 "

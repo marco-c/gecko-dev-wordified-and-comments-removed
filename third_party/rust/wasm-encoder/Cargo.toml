@@ -109,7 +109,7 @@ version
 "
 1
 .
-76
+81
 .
 0
 "
@@ -125,7 +125,7 @@ version
 "
 0
 .
-243
+244
 .
 0
 "
@@ -145,11 +145,7 @@ com
 ]
 build
 =
-"
-build
-.
-rs
-"
+false
 autolib
 =
 false
@@ -376,7 +372,7 @@ version
 "
 0
 .
-243
+244
 .
 0
 "
@@ -442,7 +438,7 @@ version
 "
 0
 .
-243
+244
 .
 0
 "
@@ -456,11 +452,6 @@ lints
 .
 clippy
 ]
-allow_attributes_without_reason
-=
-"
-warn
-"
 clone_on_copy
 =
 "
