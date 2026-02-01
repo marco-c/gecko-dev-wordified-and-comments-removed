@@ -9946,17 +9946,6 @@ ToString
 (
 )
 ;
-SignalRouteChange
-(
-this
-selected_connection_
--
->
-remote_candidate
-(
-)
-)
-;
 if
 (
 selected_connection_
