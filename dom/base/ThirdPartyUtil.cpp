@@ -2025,12 +2025,11 @@ else
 {
 rv
 =
-nsContentUtils
-:
-:
-GetAsciiHostOrIPv6WithBrackets
-(
 aHostURI
+-
+>
+GetAsciiHost
+(
 aBaseDomain
 )
 ;
