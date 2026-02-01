@@ -430,6 +430,8 @@ def
 run
 (
     
+metrics
+    
 version
     
 migrations
@@ -467,6 +469,16 @@ push_to_vcs
 False
 )
 :
+    
+metrics
+.
+mach_try
+.
+task_config_generation_duration
+.
+start
+(
+)
     
 app_version
 =
@@ -1153,6 +1165,16 @@ locales
         
 )
     
+metrics
+.
+mach_try
+.
+task_config_generation_duration
+.
+stop
+(
+)
+    
 msg
 =
 f
@@ -1181,6 +1203,8 @@ msg
 =
 msg
 )
+        
+metrics
         
 stage_changes
 =

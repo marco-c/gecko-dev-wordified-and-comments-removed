@@ -187,6 +187,7 @@ current_revision_ref
 def
 run
 (
+metrics
 compare_commit
 =
 None
@@ -338,6 +339,7 @@ try
         
 fuzzy_run
 (
+metrics
 *
 *
 kwargs
@@ -467,6 +469,7 @@ compare_commit
         
 again_run
 (
+metrics
 )
         
 print

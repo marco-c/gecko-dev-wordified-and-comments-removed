@@ -965,6 +965,8 @@ method
     
 msg
     
+metrics
+    
 try_task_config
 =
 None
@@ -994,6 +996,16 @@ push_to_vcs
 False
 )
 :
+    
+metrics
+.
+mach_try
+.
+commit_prep
+.
+start
+(
+)
     
 push
 =
@@ -1239,6 +1251,16 @@ changed_files
         
 return
     
+metrics
+.
+mach_try
+.
+commit_prep
+.
+stop
+(
+)
+    
 try
 :
         
@@ -1273,6 +1295,7 @@ push_to_lando_try
 vcs
 commit_message
 changed_files
+metrics
 )
             
 if
