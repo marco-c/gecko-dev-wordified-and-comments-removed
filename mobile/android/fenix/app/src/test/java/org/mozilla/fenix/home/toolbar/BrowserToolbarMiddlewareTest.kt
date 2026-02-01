@@ -1294,18 +1294,6 @@ settings
 (
 )
 .
-tabManagerEnhancementsEnabled
-}
-returns
-false
-every
-{
-testContext
-.
-settings
-(
-)
-.
 shouldShowToolbarCustomization
 }
 returns
@@ -3268,7 +3256,7 @@ id
 homeFragment
 NavGraphDirections
 .
-actionGlobalTabsTrayFragment
+actionGlobalTabManagementFragment
 (
 page
 =
@@ -3372,7 +3360,7 @@ id
 homeFragment
 NavGraphDirections
 .
-actionGlobalTabsTrayFragment
+actionGlobalTabManagementFragment
 (
 page
 =

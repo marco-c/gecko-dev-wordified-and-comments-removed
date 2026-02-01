@@ -359,7 +359,9 @@ fenix
 .
 tabstray
 .
-TabsTrayAccessPoint
+ui
+.
+AccessPoint
 import
 org
 .
@@ -448,7 +450,7 @@ private
 val
 accessPoint
 =
-TabsTrayAccessPoint
+AccessPoint
 .
 HomeRecentSyncedTab
 private
@@ -1030,7 +1032,7 @@ navigate
 (
 HomeFragmentDirections
 .
-actionGlobalTabsTrayFragment
+actionGlobalTabManagementFragment
 (
 page
 =

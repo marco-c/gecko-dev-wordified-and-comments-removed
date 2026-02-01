@@ -911,13 +911,6 @@ context
 isLargeWindow
 (
 )
-settings
-=
-context
-.
-settings
-(
-)
 )
 private
 fun

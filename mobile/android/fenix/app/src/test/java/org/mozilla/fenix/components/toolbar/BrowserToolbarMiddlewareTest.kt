@@ -1927,7 +1927,9 @@ fenix
 .
 tabstray
 .
-TabsTrayAccessPoint
+ui
+.
+AccessPoint
 import
 org
 .
@@ -4361,7 +4363,7 @@ navigate
 (
 NavGraphDirections
 .
-actionGlobalTabsTrayFragment
+actionGlobalTabManagementFragment
 (
 page
 =
@@ -4504,7 +4506,7 @@ navigate
 (
 NavGraphDirections
 .
-actionGlobalTabsTrayFragment
+actionGlobalTabManagementFragment
 (
 enterMultiselect
 =
@@ -4516,7 +4518,7 @@ Page
 PrivateTabs
 accessPoint
 =
-TabsTrayAccessPoint
+AccessPoint
 .
 None
 )

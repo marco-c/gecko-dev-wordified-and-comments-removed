@@ -735,16 +735,6 @@ fenix
 .
 tabstray
 .
-TabsTrayAccessPoint
-import
-org
-.
-mozilla
-.
-fenix
-.
-tabstray
-.
 TabsTrayAction
 import
 org
@@ -1265,7 +1255,6 @@ Bundle
 )
 :
 View
-?
 {
 /
 /
@@ -1315,7 +1304,7 @@ takeIf
 it
 !
 =
-TabsTrayAccessPoint
+AccessPoint
 .
 None
 }

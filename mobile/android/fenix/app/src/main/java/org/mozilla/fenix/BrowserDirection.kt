@@ -309,14 +309,6 @@ id
 .
 loginDetailFragment
 )
-FromTabsTray
-(
-R
-.
-id
-.
-tabsTrayFragment
-)
 FromTabManager
 (
 R

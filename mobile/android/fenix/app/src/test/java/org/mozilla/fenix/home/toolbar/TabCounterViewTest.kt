@@ -516,7 +516,7 @@ navigate
 (
 NavGraphDirections
 .
-actionGlobalTabsTrayFragment
+actionGlobalTabManagementFragment
 (
 )
 null
@@ -1141,9 +1141,6 @@ tabCounter
 showLongPressMenu
 =
 showLongPressMenu
-settings
-=
-settings
 )
 }
 }

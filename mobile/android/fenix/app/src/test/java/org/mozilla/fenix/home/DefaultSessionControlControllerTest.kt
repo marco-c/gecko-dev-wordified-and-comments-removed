@@ -2932,7 +2932,7 @@ R
 .
 id
 .
-action_global_tabsTrayFragment
+action_global_tabManagementFragment
 }
 null
 )
