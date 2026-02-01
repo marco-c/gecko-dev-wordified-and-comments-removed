@@ -1,4 +1,10 @@
 #
+ifndef
+HAL_COCOA_SMSLIB_H_
+#
+define
+HAL_COCOA_SMSLIB_H_
+#
 import
 <
 Foundation
@@ -216,3 +222,5 @@ smsShutdown
 void
 )
 ;
+#
+endif
