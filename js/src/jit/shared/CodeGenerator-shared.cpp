@@ -4567,8 +4567,6 @@ scripts
 i
 ]
 .
-scriptData
-.
 sourceAndExtent
 .
 matches
