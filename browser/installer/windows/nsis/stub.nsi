@@ -173,6 +173,11 @@ stub
 .
 nsh
 "
+!
+include
+stub_helpers
+.
+nsh
 Page
 custom
 createProfileCleanup

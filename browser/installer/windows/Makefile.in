@@ -206,6 +206,12 @@ nsh
 \
 nsis
 /
+stub_helpers
+.
+nsh
+\
+nsis
+/
 stub_shared_defs
 .
 nsh
