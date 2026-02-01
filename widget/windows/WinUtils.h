@@ -1049,6 +1049,11 @@ fmt
 .
 .
 )
+MOZ_FORMAT_PRINTF
+(
+1
+2
+)
 ;
 static
 void
@@ -1061,6 +1066,11 @@ fmt
 .
 .
 .
+)
+MOZ_FORMAT_WPRINTF
+(
+1
+2
 )
 ;
 static

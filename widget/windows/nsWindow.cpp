@@ -35015,7 +35015,7 @@ failure
 GetLastError
 =
 %
-d
+lu
 "
 GetLastError
 (
@@ -35334,7 +35334,7 @@ failure
 GetLastError
 =
 %
-d
+lu
 "
 error
 )
