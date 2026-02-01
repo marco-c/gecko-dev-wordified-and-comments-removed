@@ -5557,6 +5557,7 @@ mFrontBuffer
 >
 IsAttached
 (
+lock
 )
 )
 {
@@ -5620,6 +5621,7 @@ mSurfacePoolHandle
 >
 ObtainBufferFromPool
 (
+lock
 mSize
 mRootLayer
 -
@@ -5665,6 +5667,7 @@ mSurfacePoolHandle
 >
 ReturnBufferToPool
 (
+lock
 mFrontBuffer
 )
 ;
@@ -5732,6 +5735,7 @@ mInProgressBuffer
 >
 IsAttached
 (
+lock
 )
 "
 Reusing
@@ -5835,6 +5839,7 @@ mFrontBuffer
 >
 IsAttached
 (
+lock
 )
 )
 {
@@ -5898,6 +5903,7 @@ mSurfacePoolHandle
 >
 ObtainBufferFromPool
 (
+lock
 mSize
 mRootLayer
 -
@@ -5941,6 +5947,7 @@ mInProgressBuffer
 >
 IsAttached
 (
+lock
 )
 "
 Reusing
@@ -6027,6 +6034,7 @@ mSurfacePoolHandle
 >
 ReturnBufferToPool
 (
+lock
 mFrontBuffer
 )
 ;
@@ -6649,6 +6657,7 @@ mInProgressBuffer
 >
 IsAttached
 (
+aProofOfLock
 )
 |
 |
@@ -6661,6 +6670,7 @@ mSurfacePoolHandle
 >
 ReturnBufferToPool
 (
+aProofOfLock
 mInProgressBuffer
 )
 ;
@@ -6681,6 +6691,7 @@ mFrontBuffer
 >
 IsAttached
 (
+aProofOfLock
 )
 |
 |
@@ -6693,6 +6704,7 @@ mSurfacePoolHandle
 >
 ReturnBufferToPool
 (
+aProofOfLock
 mFrontBuffer
 )
 ;
