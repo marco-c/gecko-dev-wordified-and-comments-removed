@@ -249,7 +249,10 @@ nullptr
 SVGContentUtils
 :
 :
-eIgnoreStrokeDashing
+StrokeOptionFlag
+:
+:
+IgnoreStrokeDashing
 )
 ;
 if
