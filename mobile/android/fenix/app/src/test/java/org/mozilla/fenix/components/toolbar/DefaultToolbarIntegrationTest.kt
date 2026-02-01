@@ -258,14 +258,6 @@ relaxed
 =
 true
 )
-toolbarMenu
-=
-mockk
-(
-relaxed
-=
-true
-)
 lifecycleOwner
 =
 mockk
