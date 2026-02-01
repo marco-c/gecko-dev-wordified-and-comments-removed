@@ -1,4 +1,10 @@
 #
+ifndef
+NETWERK_BASE_NETWORKINFOSERVICEIMPL_H_
+#
+define
+NETWERK_BASE_NETWORKINFOSERVICEIMPL_H_
+#
 include
 "
 nsString
@@ -37,3 +43,5 @@ aAddrMap
 ;
 }
 }
+#
+endif
