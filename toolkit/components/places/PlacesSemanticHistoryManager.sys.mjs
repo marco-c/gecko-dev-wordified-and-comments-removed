@@ -4406,10 +4406,7 @@ error
 Error
 processing
 tensors
-:
-{
 ex
-}
 )
 ;
 /
