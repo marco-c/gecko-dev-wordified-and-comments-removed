@@ -1827,6 +1827,11 @@ getPageContent
 url_list
 }
 allowedUrls
+=
+new
+Set
+(
+)
 )
 {
 /

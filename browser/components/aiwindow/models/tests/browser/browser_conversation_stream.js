@@ -1535,9 +1535,10 @@ contentArray
 includes
 (
 "
-Error
-retrieving
-content
+Headline
+Body
+text
+.
 "
 )
 "
