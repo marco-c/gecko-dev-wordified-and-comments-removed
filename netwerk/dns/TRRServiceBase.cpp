@@ -1140,6 +1140,12 @@ OriginAttributes
 )
 http2Allowed
 http3Allowed
+StaticPrefs
+:
+:
+network_trr_force_http3_first
+(
+)
 )
 )
 )
