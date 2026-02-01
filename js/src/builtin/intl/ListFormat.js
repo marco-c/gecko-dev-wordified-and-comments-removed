@@ -572,11 +572,6 @@ stringList
 ]
 ;
 }
-getListFormatInternals
-(
-listFormat
-)
-;
 return
 intl_FormatList
 (
@@ -681,11 +676,6 @@ stringList
 ]
 ;
 }
-getListFormatInternals
-(
-listFormat
-)
-;
 return
 intl_FormatList
 (
