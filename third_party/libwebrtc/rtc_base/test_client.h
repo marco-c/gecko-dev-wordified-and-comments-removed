@@ -29,6 +29,17 @@ include
 "
 api
 /
+transport
+/
+ecn_marking
+.
+h
+"
+#
+include
+"
+api
+/
 units
 /
 time_delta
@@ -166,6 +177,9 @@ addr
 ;
 Buffer
 buf
+;
+EcnMarking
+ecn
 ;
 std
 :
@@ -331,6 +345,8 @@ NextPacket
 (
 int
 timeout_ms
+=
+kTimeoutMs
 )
 ;
 bool
