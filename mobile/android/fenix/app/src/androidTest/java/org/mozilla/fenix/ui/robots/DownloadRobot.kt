@@ -1248,6 +1248,13 @@ pageLoadWaitingTime
 =
 waitingTimeLong
 )
+assertUIObjectExists
+(
+itemContainingText
+(
+downloadFile
+)
+)
 }
 .
 clickDownloadLink
