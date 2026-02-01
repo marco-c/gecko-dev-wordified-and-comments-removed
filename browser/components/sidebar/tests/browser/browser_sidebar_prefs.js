@@ -717,6 +717,11 @@ sidebar
 .
 updateComplete
 ;
+await
+ensureSidebarLauncherIsVisible
+(
+)
+;
 const
 origCount
 =

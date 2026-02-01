@@ -94,6 +94,11 @@ enabled
 }
 )
 ;
+await
+ensureSidebarLauncherIsVisible
+(
+)
+;
 }
 )
 ;
