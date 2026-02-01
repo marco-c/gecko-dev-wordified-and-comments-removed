@@ -56,7 +56,7 @@ MPL
 -
 -
 -
-s3_bucket_paths
+bucket_paths
 :
 by
 -
@@ -147,7 +147,7 @@ product
 of
 :
 #
-s3_bucket_paths
+bucket_paths
 +
 destinations
 +

@@ -56,7 +56,7 @@ MPL
 -
 -
 -
-s3_bucket_paths
+bucket_paths
 :
 -
 maven2
@@ -119,7 +119,7 @@ product
 of
 :
 #
-s3_bucket_paths
+bucket_paths
 +
 destinations
 +
