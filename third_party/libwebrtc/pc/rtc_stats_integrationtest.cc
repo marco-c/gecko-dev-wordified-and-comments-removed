@@ -8238,6 +8238,9 @@ Video
 CalculatePsnr
 /
 Enabled
+sampling_interval
+:
+1000ms
 /
 "
 )
