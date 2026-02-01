@@ -1073,6 +1073,8 @@ error
 .
 HTTPError
 )
+as
+cm
 :
             
 self
@@ -1087,6 +1089,14 @@ sub
 .
 txt
 "
+)
+        
+cm
+.
+exception
+.
+close
+(
 )
     
 def

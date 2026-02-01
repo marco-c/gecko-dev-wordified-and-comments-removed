@@ -404,7 +404,7 @@ versionSpec
 '
 3
 .
-13
+14
 '
 -
 template
@@ -586,7 +586,7 @@ py38
 -
 job
 :
-tools_unittest_mac_py313
+tools_unittest_mac_py314
 displayName
 :
 '
@@ -599,7 +599,7 @@ macOS
 Python
 3
 .
-13
+14
 '
 dependsOn
 :
@@ -641,7 +641,7 @@ versionSpec
 '
 3
 .
-13
+14
 '
 -
 template
@@ -675,7 +675,7 @@ tools
 /
 toxenv
 :
-py313
+py314
 -
 job
 :
@@ -776,7 +776,7 @@ py38
 -
 job
 :
-wptrunner_unittest_mac_py313
+wptrunner_unittest_mac_py314
 displayName
 :
 '
@@ -791,7 +791,7 @@ macOS
 Python
 3
 .
-13
+14
 '
 dependsOn
 :
@@ -833,7 +833,7 @@ versionSpec
 '
 3
 .
-13
+14
 '
 -
 template
@@ -869,7 +869,7 @@ wptrunner
 /
 toxenv
 :
-py313
+py314
 -
 job
 :
@@ -986,7 +986,7 @@ py38
 -
 job
 :
-wpt_integration_mac_py313
+wpt_integration_mac_py314
 displayName
 :
 '
@@ -1001,7 +1001,7 @@ macOS
 Python
 3
 .
-13
+14
 '
 dependsOn
 :
@@ -1047,7 +1047,7 @@ versionSpec
 '
 3
 .
-13
+14
 '
 -
 template
@@ -1095,7 +1095,7 @@ wpt
 /
 toxenv
 :
-py313
+py314
 -
 job
 :
@@ -1200,7 +1200,7 @@ py38
 -
 job
 :
-tools_unittest_win_py313
+tools_unittest_win_py314
 displayName
 :
 '
@@ -1213,7 +1213,7 @@ Windows
 Python
 3
 .
-13
+14
 '
 dependsOn
 :
@@ -1255,7 +1255,7 @@ versionSpec
 '
 3
 .
-13
+14
 '
 addToPath
 :
@@ -1292,7 +1292,7 @@ tools
 /
 toxenv
 :
-py313
+py314
 -
 job
 :
@@ -1396,7 +1396,7 @@ py38
 -
 job
 :
-wptrunner_unittest_win_py313
+wptrunner_unittest_win_py314
 displayName
 :
 '
@@ -1411,7 +1411,7 @@ Windows
 Python
 3
 .
-13
+14
 '
 dependsOn
 :
@@ -1453,7 +1453,7 @@ versionSpec
 '
 3
 .
-13
+14
 '
 addToPath
 :
@@ -1492,7 +1492,7 @@ wptrunner
 /
 toxenv
 :
-py313
+py314
 -
 job
 :
@@ -1609,7 +1609,7 @@ py38
 -
 job
 :
-wpt_integration_win_py313
+wpt_integration_win_py314
 displayName
 :
 '
@@ -1624,7 +1624,7 @@ Windows
 Python
 3
 .
-13
+14
 '
 dependsOn
 :
@@ -1670,7 +1670,7 @@ versionSpec
 '
 3
 .
-13
+14
 '
 -
 template
@@ -1718,7 +1718,7 @@ wpt
 /
 toxenv
 :
-py313
+py314
 -
 job
 :
@@ -1839,7 +1839,7 @@ versionSpec
 '
 3
 .
-13
+14
 '
 -
 template
@@ -2242,7 +2242,7 @@ versionSpec
 '
 3
 .
-13
+14
 '
 -
 template
@@ -2657,7 +2657,7 @@ versionSpec
 '
 3
 .
-13
+14
 '
 -
 template
@@ -3027,7 +3027,7 @@ versionSpec
 '
 3
 .
-13
+14
 '
 -
 template

@@ -544,13 +544,13 @@ python3
 venv
 tox
 -
-python3_13
+python3_14
 :
 env
 :
 TOXENV
 :
-py313
+py314
 PY_COLORS
 :
 "
@@ -561,17 +561,17 @@ install
 -
 python3
 .
-13
+14
 -
 python3
 .
-13
+14
 -
 dev
 -
 python3
 .
-13
+14
 -
 venv
 tests
@@ -2603,7 +2603,7 @@ unittests
 Python
 3
 .
-13
+14
 )
 :
 description
@@ -2619,7 +2619,7 @@ under
 Python
 3
 .
-13
+14
 excluding
 wptrunner
 use
@@ -2635,7 +2635,7 @@ pr
 -
 tox
 -
-python3_13
+python3_14
 command
 :
 .
@@ -2760,7 +2760,7 @@ tests
 Python
 3
 .
-13
+14
 )
 :
 description
@@ -2776,7 +2776,7 @@ under
 Python
 3
 .
-13
+14
 use
 :
 -
@@ -2790,7 +2790,7 @@ pr
 -
 tox
 -
-python3_13
+python3_14
 command
 :
 .
@@ -2932,7 +2932,7 @@ tests
 Python
 3
 .
-13
+14
 )
 :
 description
@@ -2954,7 +2954,7 @@ under
 Python
 3
 .
-13
+14
 use
 :
 -
@@ -2968,7 +2968,7 @@ pr
 -
 tox
 -
-python3_13
+python3_14
 command
 :
 .

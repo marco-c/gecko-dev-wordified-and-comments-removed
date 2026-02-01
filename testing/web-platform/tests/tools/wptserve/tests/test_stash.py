@@ -282,10 +282,10 @@ multiprocessing
 get_start_method
 (
 )
-=
+!
 =
 "
-spawn
+fork
 "
                    
 reason
@@ -605,10 +605,10 @@ multiprocessing
 get_start_method
 (
 )
-=
+!
 =
 "
-spawn
+fork
 "
                    
 reason

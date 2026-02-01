@@ -70,13 +70,19 @@ not_existing
 "
 )
         
+with
+cm
+.
+exception
+as
+exc
+:
+            
 self
 .
 assertEqual
 (
-cm
-.
-exception
+exc
 .
 code
 404
@@ -288,13 +294,19 @@ raises
 "
 )
         
+with
+cm
+.
+exception
+as
+exc
+:
+            
 self
 .
 assertEqual
 (
-cm
-.
-exception
+exc
 .
 code
 500
