@@ -6423,7 +6423,7 @@ r_language
 assert
 type
 in
-{
+(
                         
 (
 Any
@@ -6439,7 +6439,7 @@ None
 Any
 )
                     
-}
+)
                     
 assert
 replacement
@@ -6813,7 +6813,7 @@ new_rules
 assert
 k
 in
-{
+(
                     
 (
 Any
@@ -6837,7 +6837,7 @@ xiang
 "
 )
                 
-}
+)
         
 rules
 .
