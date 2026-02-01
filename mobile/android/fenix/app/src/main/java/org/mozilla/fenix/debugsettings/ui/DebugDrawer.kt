@@ -329,7 +329,7 @@ fenix
 .
 theme
 .
-PreviewThemeProvider
+Theme
 import
 org
 .
@@ -339,7 +339,7 @@ fenix
 .
 theme
 .
-Theme
+ThemeProvider
 import
 mozilla
 .
@@ -690,7 +690,7 @@ DebugDrawerPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class

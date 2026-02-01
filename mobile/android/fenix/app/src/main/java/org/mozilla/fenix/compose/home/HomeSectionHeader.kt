@@ -355,7 +355,7 @@ fenix
 .
 theme
 .
-PreviewThemeProvider
+Theme
 import
 org
 .
@@ -365,7 +365,7 @@ fenix
 .
 theme
 .
-Theme
+ThemeProvider
 import
 org
 .
@@ -906,7 +906,7 @@ HomeSectionsHeaderPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class

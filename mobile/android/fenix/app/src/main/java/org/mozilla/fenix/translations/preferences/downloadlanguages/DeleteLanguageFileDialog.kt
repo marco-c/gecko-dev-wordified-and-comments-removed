@@ -195,7 +195,7 @@ fenix
 .
 theme
 .
-PreviewThemeProvider
+Theme
 import
 org
 .
@@ -205,7 +205,7 @@ fenix
 .
 theme
 .
-Theme
+ThemeProvider
 import
 java
 .
@@ -578,7 +578,7 @@ DeleteLanguageFileDialogPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class
@@ -635,7 +635,7 @@ DeleteAllLanguagesFileDialogPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class

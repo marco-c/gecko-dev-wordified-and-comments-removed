@@ -345,7 +345,7 @@ fenix
 .
 theme
 .
-PreviewThemeProvider
+Theme
 import
 org
 .
@@ -355,7 +355,7 @@ fenix
 .
 theme
 .
-Theme
+ThemeProvider
 import
 mozilla
 .
@@ -871,7 +871,7 @@ DownloadIconIndicatorPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class
@@ -926,7 +926,7 @@ DownloadInProgressIndicatorPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class
@@ -969,7 +969,7 @@ DownloadIndicatorPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class

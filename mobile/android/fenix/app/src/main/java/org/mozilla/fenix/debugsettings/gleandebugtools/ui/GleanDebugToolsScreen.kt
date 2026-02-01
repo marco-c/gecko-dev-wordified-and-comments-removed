@@ -421,7 +421,7 @@ fenix
 .
 theme
 .
-PreviewThemeProvider
+Theme
 import
 org
 .
@@ -431,7 +431,7 @@ fenix
 .
 theme
 .
-Theme
+ThemeProvider
 /
 *
 *
@@ -1423,7 +1423,7 @@ GleanDebugToolsPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class

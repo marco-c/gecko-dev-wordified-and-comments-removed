@@ -385,7 +385,7 @@ fenix
 .
 theme
 .
-PreviewThemeProvider
+Theme
 import
 org
 .
@@ -395,7 +395,7 @@ fenix
 .
 theme
 .
-Theme
+ThemeProvider
 import
 java
 .
@@ -1367,7 +1367,7 @@ TranslationSettingsPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class

@@ -425,7 +425,7 @@ fenix
 .
 theme
 .
-PreviewThemeProvider
+Theme
 import
 org
 .
@@ -435,7 +435,7 @@ fenix
 .
 theme
 .
-Theme
+ThemeProvider
 /
 *
 *
@@ -2076,7 +2076,7 @@ DataChoicesPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class
@@ -2114,7 +2114,7 @@ DataChoicesTelemetryDisabledPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class
@@ -2158,7 +2158,7 @@ DataChoicesMarketingSectionDisabledPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class

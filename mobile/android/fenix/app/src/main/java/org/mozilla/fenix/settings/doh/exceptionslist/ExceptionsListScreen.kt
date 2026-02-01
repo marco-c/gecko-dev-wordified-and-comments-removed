@@ -325,7 +325,7 @@ fenix
 .
 theme
 .
-PreviewThemeProvider
+Theme
 import
 org
 .
@@ -335,7 +335,7 @@ fenix
 .
 theme
 .
-Theme
+ThemeProvider
 import
 mozilla
 .
@@ -735,7 +735,7 @@ ExceptionsListScreenPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class

@@ -369,7 +369,7 @@ fenix
 .
 theme
 .
-PreviewThemeProvider
+Theme
 import
 org
 .
@@ -379,7 +379,7 @@ fenix
 .
 theme
 .
-Theme
+ThemeProvider
 OptIn
 (
 ExperimentalMaterial3Api
@@ -733,7 +733,7 @@ WebCompatReporterSheetPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class

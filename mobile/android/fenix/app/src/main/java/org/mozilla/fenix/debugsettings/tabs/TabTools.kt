@@ -501,7 +501,7 @@ fenix
 .
 theme
 .
-PreviewThemeProvider
+Theme
 import
 org
 .
@@ -511,7 +511,7 @@ fenix
 .
 theme
 .
-Theme
+ThemeProvider
 VisibleForTesting
 internal
 const
@@ -1642,7 +1642,7 @@ TabToolsPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class
@@ -1678,7 +1678,7 @@ TabToolsInactiveTabsDisabledPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class

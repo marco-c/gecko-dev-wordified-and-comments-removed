@@ -389,7 +389,7 @@ fenix
 .
 theme
 .
-PreviewThemeProvider
+Theme
 import
 org
 .
@@ -399,7 +399,7 @@ fenix
 .
 theme
 .
-Theme
+ThemeProvider
 /
 *
 *
@@ -1121,7 +1121,7 @@ PrefDownloadLanguageFileDialogPreviewAllLanguages
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class
@@ -1180,7 +1180,7 @@ PrefDownloadLanguageFileDialogPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class

@@ -385,7 +385,7 @@ fenix
 .
 theme
 .
-PreviewThemeProvider
+Theme
 import
 org
 .
@@ -395,7 +395,7 @@ fenix
 .
 theme
 .
-Theme
+ThemeProvider
 import
 mozilla
 .
@@ -774,7 +774,7 @@ MicrosurveyContentPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class

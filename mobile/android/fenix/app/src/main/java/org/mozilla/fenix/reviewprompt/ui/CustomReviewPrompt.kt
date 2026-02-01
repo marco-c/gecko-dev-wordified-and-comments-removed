@@ -515,7 +515,7 @@ fenix
 .
 theme
 .
-PreviewThemeProvider
+Theme
 import
 org
 .
@@ -525,7 +525,7 @@ fenix
 .
 theme
 .
-Theme
+ThemeProvider
 /
 *
 *
@@ -1520,7 +1520,7 @@ BottomSheetPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class
@@ -1590,7 +1590,7 @@ PrePromptPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class
@@ -1660,7 +1660,7 @@ RatePromptPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class
@@ -1730,7 +1730,7 @@ FeedbackPromptPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class
@@ -1793,7 +1793,7 @@ FoxEmojiButtonPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class
@@ -1870,7 +1870,7 @@ InteractiveBottomSheetPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class

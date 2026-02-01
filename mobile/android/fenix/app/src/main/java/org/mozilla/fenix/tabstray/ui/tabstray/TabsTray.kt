@@ -666,7 +666,7 @@ ui
 .
 theme
 .
-TabManagerThemeProvider
+getTabManagerTheme
 import
 org
 .
@@ -2562,15 +2562,11 @@ FirefoxTheme
 (
 theme
 =
-TabManagerThemeProvider
+getTabManagerTheme
 (
-selectedPage
+page
 =
 page
-)
-.
-provideTheme
-(
 )
 )
 {

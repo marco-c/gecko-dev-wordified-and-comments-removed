@@ -653,7 +653,7 @@ fenix
 .
 theme
 .
-PreviewThemeProvider
+Theme
 import
 org
 .
@@ -663,7 +663,7 @@ fenix
 .
 theme
 .
-Theme
+ThemeProvider
 import
 org
 .
@@ -2768,7 +2768,7 @@ TopSitesPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class

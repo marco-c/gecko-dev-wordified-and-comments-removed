@@ -295,7 +295,7 @@ fenix
 .
 theme
 .
-PreviewThemeProvider
+Theme
 import
 org
 .
@@ -305,7 +305,7 @@ fenix
 .
 theme
 .
-Theme
+ThemeProvider
 /
 *
 *
@@ -506,7 +506,7 @@ DeleteAddressDialogPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class

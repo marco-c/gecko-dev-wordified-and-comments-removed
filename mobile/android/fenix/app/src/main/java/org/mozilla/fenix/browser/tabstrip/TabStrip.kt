@@ -771,7 +771,7 @@ fenix
 .
 theme
 .
-PreviewThemeProvider
+Theme
 import
 org
 .
@@ -781,7 +781,7 @@ fenix
 .
 theme
 .
-Theme
+ThemeProvider
 import
 org
 .
@@ -3167,7 +3167,7 @@ TabStripPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class

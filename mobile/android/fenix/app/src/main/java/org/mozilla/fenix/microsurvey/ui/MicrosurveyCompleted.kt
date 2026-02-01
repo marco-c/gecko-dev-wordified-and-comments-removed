@@ -319,7 +319,7 @@ fenix
 .
 theme
 .
-PreviewThemeProvider
+Theme
 import
 org
 .
@@ -329,7 +329,7 @@ fenix
 .
 theme
 .
-Theme
+ThemeProvider
 private
 val
 shape
@@ -551,7 +551,7 @@ MicrosurveyCompletedPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class

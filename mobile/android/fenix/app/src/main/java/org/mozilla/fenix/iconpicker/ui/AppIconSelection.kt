@@ -725,7 +725,7 @@ fenix
 .
 theme
 .
-PreviewThemeProvider
+Theme
 import
 org
 .
@@ -735,7 +735,7 @@ fenix
 .
 theme
 .
-Theme
+ThemeProvider
 private
 val
 ListItemHeight
@@ -2028,7 +2028,7 @@ AppIconOptionPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class
@@ -2062,7 +2062,7 @@ AppIconOptionWithSubtitlePreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class
@@ -2096,7 +2096,7 @@ RestartWarningDialogPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class
@@ -2141,7 +2141,7 @@ ShortcutRemovalWarningDialogPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class

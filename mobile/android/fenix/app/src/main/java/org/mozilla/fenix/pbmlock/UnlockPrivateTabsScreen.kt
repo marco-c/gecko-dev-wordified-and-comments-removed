@@ -345,7 +345,7 @@ fenix
 .
 theme
 .
-PreviewThemeProvider
+Theme
 import
 org
 .
@@ -355,7 +355,7 @@ fenix
 .
 theme
 .
-Theme
+ThemeProvider
 private
 const
 val
@@ -835,7 +835,7 @@ ScreenPreview
 (
 PreviewParameter
 (
-PreviewThemeProvider
+ThemeProvider
 :
 :
 class

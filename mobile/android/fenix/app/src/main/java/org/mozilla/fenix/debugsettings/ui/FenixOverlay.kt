@@ -525,7 +525,7 @@ fenix
 .
 theme
 .
-DefaultThemeProvider
+FirefoxTheme
 import
 org
 .
@@ -535,7 +535,7 @@ fenix
 .
 theme
 .
-FirefoxTheme
+Theme
 /
 *
 *
@@ -1054,10 +1054,13 @@ FirefoxTheme
 (
 theme
 =
-DefaultThemeProvider
+Theme
 .
-provideTheme
+getTheme
 (
+allowPrivateTheme
+=
+false
 )
 )
 {
