@@ -8001,7 +8001,12 @@ SizeTrackingConfig
 trackingConfig
 (
 config
-12
+sandbox
+:
+:
+kPolMemPageCount
+-
+2
 )
 ;
 if
