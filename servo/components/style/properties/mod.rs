@@ -189,7 +189,7 @@ crate
 dom
 :
 :
-AttributeProvider
+AttributeTracker
 ;
 #
 [
@@ -7382,11 +7382,11 @@ shorthand_cache
 cache
 mut
 ShorthandsWithPropertyReferencesCache
-attr_provider
+attribute_tracker
 :
 &
-dyn
-AttributeProvider
+mut
+AttributeTracker
 )
 -
 >
@@ -7520,7 +7520,7 @@ variable_value
 custom_properties
 stylist
 computed_context
-attr_provider
+attribute_tracker
 )
 {
 Ok

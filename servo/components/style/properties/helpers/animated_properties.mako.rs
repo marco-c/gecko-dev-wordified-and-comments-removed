@@ -169,7 +169,7 @@ crate
 dom
 :
 :
-AttributeProvider
+AttributeTracker
 ;
 use
 crate
@@ -1723,11 +1723,11 @@ initial
 :
 &
 ComputedValues
-attr_provider
+attribute_tracker
 :
 &
-dyn
-AttributeProvider
+mut
+AttributeTracker
 )
 -
 >
@@ -2452,7 +2452,7 @@ context
 &
 mut
 cache
-attr_provider
+attribute_tracker
 )
 }
 ;
@@ -2467,7 +2467,7 @@ substituted
 context
 style
 initial
-attr_provider
+attribute_tracker
 )
 }
 PropertyDeclaration
@@ -2494,7 +2494,7 @@ from_declaration
 declaration
 context
 initial
-attr_provider
+attribute_tracker
 )
 ?
 )

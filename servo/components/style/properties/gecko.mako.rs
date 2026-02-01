@@ -317,6 +317,15 @@ font
 :
 FontSize
 ;
+use
+crate
+:
+:
+dom
+:
+:
+AttributeReferences
+;
 pub
 mod
 style_structs
@@ -444,6 +453,9 @@ PseudoElement
 custom_properties
 :
 ComputedCustomProperties
+attributes_referenced
+:
+AttributeReferences
 writing_mode
 :
 WritingMode
@@ -509,6 +521,7 @@ ComputedValuesInner
 new
 (
 custom_properties
+attributes_referenced
 writing_mode
 effective_zoom
 flags
@@ -561,6 +574,12 @@ ComputedValuesInner
 new
 (
 ComputedCustomProperties
+:
+:
+default
+(
+)
+AttributeReferences
 :
 :
 default
@@ -964,6 +983,9 @@ new
 custom_properties
 :
 ComputedCustomProperties
+attribute_references
+:
+AttributeReferences
 writing_mode
 :
 WritingMode
@@ -1023,6 +1045,7 @@ Self
 Self
 {
 custom_properties
+attribute_references
 writing_mode
 rules
 visited_style
