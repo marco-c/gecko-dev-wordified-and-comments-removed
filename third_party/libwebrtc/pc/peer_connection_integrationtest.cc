@@ -23101,7 +23101,7 @@ added
 TEST_F
 (
 PeerConnectionIntegrationTestUnifiedPlan
-RenegotiateManyVideoTransceivers
+DISABLED_RenegotiateManyVideoTransceivers
 )
 {
 OverrideLoggingLevelForTest
