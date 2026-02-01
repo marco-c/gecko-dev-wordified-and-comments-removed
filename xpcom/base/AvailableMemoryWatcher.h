@@ -126,6 +126,11 @@ full_total
 =
 0
 ;
+bool
+psi_available
+=
+false
+;
 }
 ;
 nsresult
@@ -134,6 +139,11 @@ GetLastPSISnapshot
 PSIInfo
 &
 aResult
+)
+;
+void
+StartNonOOMPSISampling
+(
 )
 ;
 #
