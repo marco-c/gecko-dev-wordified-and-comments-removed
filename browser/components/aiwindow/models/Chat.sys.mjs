@@ -233,11 +233,6 @@ get_page_content
 GetPageContent
 .
 getPageContent
-.
-bind
-(
-GetPageContent
-)
 }
 /
 *
