@@ -1426,8 +1426,11 @@ mParent
 ;
 if
 (
+NS_WARN_IF
+(
 !
 firstChild
+)
 )
 {
 return
@@ -1443,10 +1446,13 @@ firstChild
 }
 if
 (
+NS_WARN_IF
+(
 !
 GetNextSibling
 (
 ref
+)
 )
 )
 {
@@ -1507,8 +1513,11 @@ Ref
 ;
 if
 (
+NS_WARN_IF
+(
 !
 ref
+)
 )
 {
 return
