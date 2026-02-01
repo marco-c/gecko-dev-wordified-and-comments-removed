@@ -1632,6 +1632,12 @@ incoming_ecn_feedback
 "
 outgoing_ecn_feedback
 "
+"
+scream_delay_estimates
+"
+"
+scream_ref_window
+"
 }
 }
 }
