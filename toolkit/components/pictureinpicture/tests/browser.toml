@@ -1146,6 +1146,13 @@ js
 ]
 [
 "
+browser_reconnectPiPAfterVideoReparented
+.
+js
+"
+]
+[
+"
 browser_removeVideoElement
 .
 js
