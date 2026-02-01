@@ -5514,6 +5514,8 @@ MaxScrollY
 break
 ;
 }
+#
+endif
 case
 nsIAccessibleEvent
 :
@@ -5550,8 +5552,6 @@ Priority
 break
 ;
 }
-#
-endif
 #
 if
 defined
