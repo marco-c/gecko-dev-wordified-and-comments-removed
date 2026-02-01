@@ -1757,11 +1757,6 @@ jsep_ice_candidate
 h
 "
 "
-jsep_session_description
-.
-h
-"
-"
 webrtc_sdp
 .
 cc
@@ -2424,6 +2419,14 @@ port_allocator
 pc
 :
 media_factory
+"
+"
+.
+.
+/
+pc
+:
+session_description
 "
 "
 .
