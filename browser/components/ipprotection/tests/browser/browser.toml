@@ -64,6 +64,13 @@ js
 ]
 [
 "
+browser_ipprotection_confirmation_hints_site_exclusion
+.
+js
+"
+]
+[
+"
 browser_ipprotection_content
 .
 js
