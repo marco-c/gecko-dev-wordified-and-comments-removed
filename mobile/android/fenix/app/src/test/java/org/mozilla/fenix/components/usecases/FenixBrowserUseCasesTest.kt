@@ -343,14 +343,6 @@ mozilla
 .
 fenix
 .
-TabPartitionTags
-import
-org
-.
-mozilla
-.
-fenix
-.
 browser
 .
 browsingmode
@@ -2134,11 +2126,6 @@ tabsUseCases
 .
 addTabsInGroup
 (
-partition
-=
-TabPartitionTags
-.
-TAB_GROUPS
 group
 =
 group
