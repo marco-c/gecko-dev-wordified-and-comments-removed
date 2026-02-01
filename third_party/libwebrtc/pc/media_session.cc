@@ -2946,6 +2946,8 @@ push_back
 extension_with_id
 )
 ;
+break
+;
 }
 }
 }
