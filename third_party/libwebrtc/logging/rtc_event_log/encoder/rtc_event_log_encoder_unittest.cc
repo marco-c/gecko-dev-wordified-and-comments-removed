@@ -823,6 +823,8 @@ gen_
 seed_
 *
 880001UL
+&
+clock_
 )
 verifier_
 (
