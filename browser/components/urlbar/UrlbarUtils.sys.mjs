@@ -13341,6 +13341,15 @@ string
 titleL10n
 :
 L10N_SCHEMA
+subtitle
+:
+{
+type
+:
+"
+string
+"
+}
 subtitleL10n
 :
 L10N_SCHEMA
