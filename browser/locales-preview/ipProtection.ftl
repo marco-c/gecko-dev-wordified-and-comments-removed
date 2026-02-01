@@ -411,6 +411,16 @@ off
 for
 this
 site
+ipprotection
+-
+settings
+-
+link
+=
+.
+label
+=
+Settings
 #
 #
 Status
