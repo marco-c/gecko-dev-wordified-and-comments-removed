@@ -2468,7 +2468,7 @@ this
 .
 _menuSortByDate
 .
-setAttribute
+toggleAttribute
 (
 "
 checked
@@ -2489,7 +2489,7 @@ this
 .
 _menuSortBySite
 .
-setAttribute
+toggleAttribute
 (
 "
 checked
@@ -2510,7 +2510,7 @@ this
 .
 _menuSortByDateSite
 .
-setAttribute
+toggleAttribute
 (
 "
 checked
@@ -2531,7 +2531,7 @@ this
 .
 _menuSortByLastVisited
 .
-setAttribute
+toggleAttribute
 (
 "
 checked
