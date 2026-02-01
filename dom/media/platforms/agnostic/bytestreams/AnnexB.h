@@ -383,8 +383,6 @@ NAL_TYPES
 aTypes
 )
 ;
-private
-:
 static
 size_t
 FindNalType
@@ -413,6 +411,8 @@ size_t
 aStartIndex
 )
 ;
+private
+:
 static
 mozilla
 :
