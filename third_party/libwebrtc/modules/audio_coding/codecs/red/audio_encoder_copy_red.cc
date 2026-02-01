@@ -996,6 +996,13 @@ info
 .
 payload_type
 ;
+if
+(
+info
+.
+speech
+)
+{
 auto
 rit
 =
@@ -1102,6 +1109,7 @@ SetData
 primary_encoded_
 )
 ;
+}
 }
 info
 .
