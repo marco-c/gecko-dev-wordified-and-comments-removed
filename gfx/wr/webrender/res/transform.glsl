@@ -74,6 +74,15 @@ HIGHP_SAMPLER_FLOAT
 sampler2D
 sTransformPalette
 ;
+/
+/
+See
+GpuTransformId
+.
+#
+define
+TRANSFORM_INDEX_MASK
+0x003fffff
 void
 rectangle_aa_vertex
 (
@@ -129,7 +138,7 @@ index
 =
 id
 &
-0x007fffff
+TRANSFORM_INDEX_MASK
 ;
 /
 /
