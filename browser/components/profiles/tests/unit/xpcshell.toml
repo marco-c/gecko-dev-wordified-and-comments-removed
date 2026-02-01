@@ -198,6 +198,13 @@ js
 ]
 [
 "
+test_relative_profile_path
+.
+js
+"
+]
+[
+"
 test_selectable_profile_launch
 .
 js

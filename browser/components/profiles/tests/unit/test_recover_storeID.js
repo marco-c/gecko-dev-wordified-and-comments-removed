@@ -104,6 +104,8 @@ let
 db
 =
 await
+lazy
+.
 Sqlite
 .
 openConnection
