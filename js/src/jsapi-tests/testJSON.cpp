@@ -5,13 +5,6 @@ limits
 >
 #
 include
-<
-string
-.
-h
->
-#
-include
 "
 js
 /

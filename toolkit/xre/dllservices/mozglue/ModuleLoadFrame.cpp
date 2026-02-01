@@ -32,13 +32,6 @@ h
 "
 #
 include
-<
-string
-.
-h
->
-#
-include
 "
 WindowsFallbackLoaderAPI
 .

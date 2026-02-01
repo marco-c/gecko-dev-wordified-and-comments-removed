@@ -147,13 +147,6 @@ h
 #
 include
 <
-stdarg
-.
-h
->
-#
-include
-<
 stdio
 .
 h
@@ -162,13 +155,6 @@ h
 include
 <
 stdlib
-.
-h
->
-#
-include
-<
-string
 .
 h
 >

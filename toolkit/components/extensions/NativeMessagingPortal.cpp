@@ -93,13 +93,6 @@ prlink
 .
 h
 "
-#
-include
-<
-string
-.
-h
->
 static
 mozilla
 :

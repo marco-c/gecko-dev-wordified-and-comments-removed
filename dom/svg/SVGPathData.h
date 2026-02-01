@@ -6,13 +6,6 @@ define
 DOM_SVG_SVGPATHDATA_H_
 #
 include
-<
-string
-.
-h
->
-#
-include
 "
 mozilla
 /

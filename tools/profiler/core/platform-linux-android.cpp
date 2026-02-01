@@ -183,13 +183,6 @@ h
 >
 #
 include
-<
-stdarg
-.
-h
->
-#
-include
 "
 prenv
 .
@@ -229,13 +222,6 @@ h
 "
 #
 endif
-#
-include
-<
-string
-.
-h
->
 using
 namespace
 mozilla

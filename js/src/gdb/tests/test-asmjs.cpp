@@ -70,13 +70,6 @@ Text
 .
 h
 "
-#
-include
-<
-string
-.
-h
->
 FRAGMENT
 (
 asmjs

@@ -13,13 +13,6 @@ memory
 include
 <
 string
-.
-h
->
-#
-include
-<
-string
 >
 std
 :

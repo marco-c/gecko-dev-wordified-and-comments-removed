@@ -183,13 +183,6 @@ h
 >
 #
 include
-<
-stdarg
-.
-h
->
-#
-include
 "
 prenv
 .
@@ -204,13 +197,6 @@ PodOperations
 .
 h
 "
-#
-include
-<
-string
-.
-h
->
 using
 namespace
 mozilla
