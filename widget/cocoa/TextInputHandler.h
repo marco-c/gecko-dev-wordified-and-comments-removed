@@ -2894,6 +2894,11 @@ mBlockDismissTextSubstitutionPanel
 =
 false
 ;
+bool
+mPendingDismissTextSubstitution
+=
+false
+;
 IMEInputHandler
 (
 nsCocoaWindow
