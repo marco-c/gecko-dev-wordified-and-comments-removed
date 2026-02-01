@@ -616,6 +616,12 @@ Init
 )
 override
 ;
+void
+Terminate
+(
+)
+override
+;
 scoped_refptr
 <
 AudioState

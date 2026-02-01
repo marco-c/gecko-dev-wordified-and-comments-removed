@@ -415,6 +415,17 @@ override
 ;
 MOCK_METHOD
 (
+void
+Terminate
+(
+)
+(
+override
+)
+)
+;
+MOCK_METHOD
+(
 scoped_refptr
 <
 AudioState
