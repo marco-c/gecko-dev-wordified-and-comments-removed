@@ -1,9 +1,9 @@
 #
 ifndef
-nsVersionComparator_h__
+nsVersionComparator_h_
 #
 define
-nsVersionComparator_h__
+nsVersionComparator_h_
 #
 include
 <

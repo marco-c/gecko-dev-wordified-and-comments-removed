@@ -1,9 +1,9 @@
 #
 ifndef
-nsAString_h___
+nsAString_h_
 #
 define
-nsAString_h___
+nsAString_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-utfstrings_h__
+utfstrings_h_
 #
 define
-utfstrings_h__
+utfstrings_h_
 struct
 UTFStringsStringPair
 {

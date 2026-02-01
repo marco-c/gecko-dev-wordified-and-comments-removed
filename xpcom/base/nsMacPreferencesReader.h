@@ -1,9 +1,9 @@
 #
 ifndef
-MacPreferencesReader_h__
+MacPreferencesReader_h_
 #
 define
-MacPreferencesReader_h__
+MacPreferencesReader_h_
 #
 include
 "

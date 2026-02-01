@@ -1,9 +1,9 @@
 #
 ifndef
-nsCRTGlue_h__
+nsCRTGlue_h_
 #
 define
-nsCRTGlue_h__
+nsCRTGlue_h_
 #
 include
 "

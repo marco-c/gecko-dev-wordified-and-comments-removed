@@ -1,9 +1,9 @@
 #
 ifndef
-nsCycleCollector_h__
+nsCycleCollector_h_
 #
 define
-nsCycleCollector_h__
+nsCycleCollector_h_
 class
 nsICycleCollectorListener
 ;

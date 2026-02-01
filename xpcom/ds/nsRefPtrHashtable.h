@@ -1,9 +1,9 @@
 #
 ifndef
-nsRefPtrHashtable_h__
+nsRefPtrHashtable_h_
 #
 define
-nsRefPtrHashtable_h__
+nsRefPtrHashtable_h_
 #
 include
 "

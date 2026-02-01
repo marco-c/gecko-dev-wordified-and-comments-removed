@@ -1,9 +1,9 @@
 #
 ifndef
-nsDirectoryServiceDefs_h___
+nsDirectoryServiceDefs_h_
 #
 define
-nsDirectoryServiceDefs_h___
+nsDirectoryServiceDefs_h_
 #
 define
 NS_OS_HOME_DIR

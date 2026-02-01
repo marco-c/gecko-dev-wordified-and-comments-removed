@@ -1,9 +1,9 @@
 #
 ifndef
-nsXPTCUtils_h__
+nsXPTCUtils_h_
 #
 define
-nsXPTCUtils_h__
+nsXPTCUtils_h_
 #
 include
 "

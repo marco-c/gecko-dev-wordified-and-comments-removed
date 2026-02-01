@@ -1,9 +1,9 @@
 #
 ifndef
-Tokenizer_h__
+Tokenizer_h_
 #
 define
-Tokenizer_h__
+Tokenizer_h_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-_nsXULAppAPI_h__
+_nsXULAppAPI_h_
 #
 define
-_nsXULAppAPI_h__
+_nsXULAppAPI_h_
 #
 include
 "

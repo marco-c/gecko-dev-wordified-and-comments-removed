@@ -1,9 +1,9 @@
 #
 ifndef
-nsXPCOMCIDInternal_h__
+nsXPCOMCIDInternal_h_
 #
 define
-nsXPCOMCIDInternal_h__
+nsXPCOMCIDInternal_h_
 #
 include
 "

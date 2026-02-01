@@ -1,9 +1,9 @@
 #
 ifndef
-nsMacUtilsImpl_h___
+nsMacUtilsImpl_h_
 #
 define
-nsMacUtilsImpl_h___
+nsMacUtilsImpl_h_
 #
 include
 "

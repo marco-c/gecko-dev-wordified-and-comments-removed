@@ -1,9 +1,9 @@
 #
 ifndef
-__nsInterfaceRequestorUtils_h
+_nsInterfaceRequestorUtils_h
 #
 define
-__nsInterfaceRequestorUtils_h
+_nsInterfaceRequestorUtils_h
 #
 include
 "

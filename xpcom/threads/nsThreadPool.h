@@ -1,9 +1,9 @@
 #
 ifndef
-nsThreadPool_h__
+nsThreadPool_h_
 #
 define
-nsThreadPool_h__
+nsThreadPool_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsArrayUtils_h__
+nsArrayUtils_h_
 #
 define
-nsArrayUtils_h__
+nsArrayUtils_h_
 #
 include
 "

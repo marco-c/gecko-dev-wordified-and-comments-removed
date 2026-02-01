@@ -1,9 +1,9 @@
 #
 ifndef
-nsSegmentedBuffer_h__
+nsSegmentedBuffer_h_
 #
 define
-nsSegmentedBuffer_h__
+nsSegmentedBuffer_h_
 #
 include
 <

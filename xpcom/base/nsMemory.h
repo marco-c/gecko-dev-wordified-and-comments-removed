@@ -1,9 +1,9 @@
 #
 ifndef
-nsMemory_h__
+nsMemory_h_
 #
 define
-nsMemory_h__
+nsMemory_h_
 #
 include
 "

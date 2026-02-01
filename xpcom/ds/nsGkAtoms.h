@@ -1,9 +1,9 @@
 #
 ifndef
-nsGkAtoms_h___
+nsGkAtoms_h_
 #
 define
-nsGkAtoms_h___
+nsGkAtoms_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsLiteralString_h___
+nsLiteralString_h_
 #
 define
-nsLiteralString_h___
+nsLiteralString_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsCharTraits_h___
+nsCharTraits_h_
 #
 define
-nsCharTraits_h___
+nsCharTraits_h_
 #
 include
 <

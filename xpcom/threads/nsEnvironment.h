@@ -1,9 +1,9 @@
 #
 ifndef
-nsEnvironment_h__
+nsEnvironment_h_
 #
 define
-nsEnvironment_h__
+nsEnvironment_h_
 #
 include
 "

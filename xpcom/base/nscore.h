@@ -1,9 +1,9 @@
 #
 ifndef
-nscore_h___
+nscore_h_
 #
 define
-nscore_h___
+nscore_h_
 #
 if
 !
@@ -29,13 +29,6 @@ h
 "
 #
 endif
-#
-include
-<
-stddef
-.
-h
->
 #
 include
 <

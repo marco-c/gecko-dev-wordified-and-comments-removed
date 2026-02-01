@@ -1,9 +1,9 @@
 #
 ifndef
-nsIClassInfoImpl_h__
+nsIClassInfoImpl_h_
 #
 define
-nsIClassInfoImpl_h__
+nsIClassInfoImpl_h_
 #
 include
 "

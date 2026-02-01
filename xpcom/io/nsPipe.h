@@ -1,9 +1,9 @@
 #
 ifndef
-nsPipe_h__
+nsPipe_h_
 #
 define
-nsPipe_h__
+nsPipe_h_
 #
 define
 NS_PIPE_CONTRACTID

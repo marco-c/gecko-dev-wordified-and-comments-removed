@@ -1,9 +1,9 @@
 #
 ifndef
-nsNativeCharsetUtils_h__
+nsNativeCharsetUtils_h_
 #
 define
-nsNativeCharsetUtils_h__
+nsNativeCharsetUtils_h_
 #
 include
 "

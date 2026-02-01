@@ -1,9 +1,9 @@
 #
 ifndef
-nsThreadManager_h__
+nsThreadManager_h_
 #
 define
-nsThreadManager_h__
+nsThreadManager_h_
 #
 include
 "

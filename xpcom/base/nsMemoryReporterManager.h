@@ -1,9 +1,9 @@
 #
 ifndef
-nsMemoryReporterManager_h__
+nsMemoryReporterManager_h_
 #
 define
-nsMemoryReporterManager_h__
+nsMemoryReporterManager_h_
 #
 include
 "

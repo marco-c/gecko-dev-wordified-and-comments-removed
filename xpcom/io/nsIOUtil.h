@@ -1,9 +1,9 @@
 #
 ifndef
-nsIOUtil_h__
+nsIOUtil_h_
 #
 define
-nsIOUtil_h__
+nsIOUtil_h_
 #
 define
 NS_IOUTIL_CID

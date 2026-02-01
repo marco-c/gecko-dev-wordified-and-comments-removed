@@ -1,9 +1,9 @@
 #
 ifndef
-nsWildCard_h__
+nsWildCard_h_
 #
 define
-nsWildCard_h__
+nsWildCard_h_
 #
 include
 "

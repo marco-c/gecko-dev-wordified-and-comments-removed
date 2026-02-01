@@ -1,9 +1,9 @@
 #
 ifndef
-nsCOMArray_h__
+nsCOMArray_h_
 #
 define
-nsCOMArray_h__
+nsCOMArray_h_
 #
 include
 "

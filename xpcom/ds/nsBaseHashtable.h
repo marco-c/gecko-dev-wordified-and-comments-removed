@@ -1,9 +1,9 @@
 #
 ifndef
-nsBaseHashtable_h__
+nsBaseHashtable_h_
 #
 define
-nsBaseHashtable_h__
+nsBaseHashtable_h_
 #
 include
 <

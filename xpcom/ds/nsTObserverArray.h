@@ -1,9 +1,9 @@
 #
 ifndef
-nsTObserverArray_h___
+nsTObserverArray_h_
 #
 define
-nsTObserverArray_h___
+nsTObserverArray_h_
 #
 include
 "

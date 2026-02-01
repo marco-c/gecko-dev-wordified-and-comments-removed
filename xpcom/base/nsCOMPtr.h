@@ -1,9 +1,9 @@
 #
 ifndef
-nsCOMPtr_h___
+nsCOMPtr_h_
 #
 define
-nsCOMPtr_h___
+nsCOMPtr_h_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-xptcall_h___
+xptcall_h_
 #
 define
-xptcall_h___
+xptcall_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsCom_h__
+nsCom_h_
 #
 define
-nsCom_h__
+nsCom_h_
 #
 include
 "

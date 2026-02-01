@@ -1,9 +1,9 @@
 #
 ifndef
-resources_h___
+resources_h_
 #
 define
-resources_h___
+resources_h_
 #
 define
 TIMER_1SECOND

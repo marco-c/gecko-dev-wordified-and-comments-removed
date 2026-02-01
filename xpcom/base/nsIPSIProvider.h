@@ -1,9 +1,9 @@
 #
 ifndef
-nsIPSIProvider_h__
+nsIPSIProvider_h_
 #
 define
-nsIPSIProvider_h__
+nsIPSIProvider_h_
 #
 include
 "

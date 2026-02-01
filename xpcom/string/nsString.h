@@ -1,9 +1,9 @@
 #
 ifndef
-nsString_h___
+nsString_h_
 #
 define
-nsString_h___
+nsString_h_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-nsCycleCollectionContainerParticipant_h__
+nsCycleCollectionContainerParticipant_h_
 #
 define
-nsCycleCollectionContainerParticipant_h__
+nsCycleCollectionContainerParticipant_h_
 #
 include
 <

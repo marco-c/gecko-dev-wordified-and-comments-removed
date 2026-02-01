@@ -1,9 +1,9 @@
 #
 ifndef
-nsHashPropertyBag_h___
+nsHashPropertyBag_h_
 #
 define
-nsHashPropertyBag_h___
+nsHashPropertyBag_h_
 #
 include
 "

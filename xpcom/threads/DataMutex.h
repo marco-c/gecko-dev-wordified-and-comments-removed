@@ -1,9 +1,9 @@
 #
 ifndef
-DataMutex_h__
+DataMutex_h_
 #
 define
-DataMutex_h__
+DataMutex_h_
 #
 include
 <

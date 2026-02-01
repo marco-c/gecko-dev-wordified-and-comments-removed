@@ -1,9 +1,9 @@
 #
 ifndef
-nsCycleCollectionNoteChild_h__
+nsCycleCollectionNoteChild_h_
 #
 define
-nsCycleCollectionNoteChild_h__
+nsCycleCollectionNoteChild_h_
 #
 include
 "

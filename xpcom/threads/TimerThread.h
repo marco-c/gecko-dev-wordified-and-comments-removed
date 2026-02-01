@@ -1,9 +1,9 @@
 #
 ifndef
-TimerThread_h___
+TimerThread_h_
 #
 define
-TimerThread_h___
+TimerThread_h_
 #
 include
 "

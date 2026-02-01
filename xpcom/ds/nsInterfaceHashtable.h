@@ -1,9 +1,9 @@
 #
 ifndef
-nsInterfaceHashtable_h__
+nsInterfaceHashtable_h_
 #
 define
-nsInterfaceHashtable_h__
+nsInterfaceHashtable_h_
 #
 include
 "

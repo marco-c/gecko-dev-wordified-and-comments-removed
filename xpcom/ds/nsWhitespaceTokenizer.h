@@ -1,9 +1,9 @@
 #
 ifndef
-__nsWhitespaceTokenizer_h
+_nsWhitespaceTokenizer_h
 #
 define
-__nsWhitespaceTokenizer_h
+_nsWhitespaceTokenizer_h
 #
 include
 "

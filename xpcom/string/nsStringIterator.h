@@ -1,9 +1,9 @@
 #
 ifndef
-nsStringIterator_h___
+nsStringIterator_h_
 #
 define
-nsStringIterator_h___
+nsStringIterator_h_
 #
 include
 "

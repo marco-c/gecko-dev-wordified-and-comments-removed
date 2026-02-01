@@ -1,9 +1,9 @@
 #
 ifndef
-__nsconsolemessage_h__
+_nsconsolemessage_h_
 #
 define
-__nsconsolemessage_h__
+_nsconsolemessage_h_
 #
 include
 "

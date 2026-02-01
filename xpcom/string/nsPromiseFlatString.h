@@ -1,9 +1,9 @@
 #
 ifndef
-nsPromiseFlatString_h___
+nsPromiseFlatString_h_
 #
 define
-nsPromiseFlatString_h___
+nsPromiseFlatString_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsProperties_h___
+nsProperties_h_
 #
 define
-nsProperties_h___
+nsProperties_h_
 #
 include
 "

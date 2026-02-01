@@ -1,9 +1,9 @@
 #
 ifndef
-nsDependentString_h___
+nsDependentString_h_
 #
 define
-nsDependentString_h___
+nsDependentString_h_
 #
 include
 "

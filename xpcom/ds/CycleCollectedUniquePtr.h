@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_CycleCollectedUniquePtr_h__
+mozilla_CycleCollectedUniquePtr_h_
 #
 define
-mozilla_CycleCollectedUniquePtr_h__
+mozilla_CycleCollectedUniquePtr_h_
 #
 include
 "

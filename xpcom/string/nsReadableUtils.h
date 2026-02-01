@@ -1,9 +1,9 @@
 #
 ifndef
-nsReadableUtils_h___
+nsReadableUtils_h_
 #
 define
-nsReadableUtils_h___
+nsReadableUtils_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsObserverList_h___
+nsObserverList_h_
 #
 define
-nsObserverList_h___
+nsObserverList_h_
 #
 include
 "

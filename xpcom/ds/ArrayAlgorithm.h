@@ -1,9 +1,9 @@
 #
 ifndef
-ArrayAlgorithm_h___
+ArrayAlgorithm_h_
 #
 define
-ArrayAlgorithm_h___
+ArrayAlgorithm_h_
 #
 include
 "

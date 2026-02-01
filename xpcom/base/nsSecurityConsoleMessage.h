@@ -1,9 +1,9 @@
 #
 ifndef
-nsSecurityConsoleMessage_h__
+nsSecurityConsoleMessage_h_
 #
 define
-nsSecurityConsoleMessage_h__
+nsSecurityConsoleMessage_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsUnicharInputStream_h__
+nsUnicharInputStream_h_
 #
 define
-nsUnicharInputStream_h__
+nsUnicharInputStream_h_
 #
 include
 "

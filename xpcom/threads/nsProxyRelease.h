@@ -1,9 +1,9 @@
 #
 ifndef
-nsProxyRelease_h__
+nsProxyRelease_h_
 #
 define
-nsProxyRelease_h__
+nsProxyRelease_h_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-__nsCharSeparatedTokenizer_h
+_nsCharSeparatedTokenizer_h
 #
 define
-__nsCharSeparatedTokenizer_h
+_nsCharSeparatedTokenizer_h
 #
 include
 "

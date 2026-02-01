@@ -1,9 +1,9 @@
 #
 ifndef
-nsTArray_h__
+nsTArray_h_
 #
 define
-nsTArray_h__
+nsTArray_h_
 #
 include
 <

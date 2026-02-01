@@ -1,9 +1,9 @@
 #
 ifndef
-nsTHashKeys_h__
+nsTHashKeys_h_
 #
 define
-nsTHashKeys_h__
+nsTHashKeys_h_
 #
 include
 "

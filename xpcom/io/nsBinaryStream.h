@@ -1,9 +1,9 @@
 #
 ifndef
-nsBinaryStream_h___
+nsBinaryStream_h_
 #
 define
-nsBinaryStream_h___
+nsBinaryStream_h_
 #
 include
 "

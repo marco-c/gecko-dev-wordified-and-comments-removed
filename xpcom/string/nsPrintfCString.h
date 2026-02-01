@@ -1,9 +1,9 @@
 #
 ifndef
-nsPrintfCString_h___
+nsPrintfCString_h_
 #
 define
-nsPrintfCString_h___
+nsPrintfCString_h_
 #
 include
 "

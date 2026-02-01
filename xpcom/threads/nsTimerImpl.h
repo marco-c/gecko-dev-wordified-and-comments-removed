@@ -1,9 +1,9 @@
 #
 ifndef
-nsTimerImpl_h___
+nsTimerImpl_h_
 #
 define
-nsTimerImpl_h___
+nsTimerImpl_h_
 #
 include
 "

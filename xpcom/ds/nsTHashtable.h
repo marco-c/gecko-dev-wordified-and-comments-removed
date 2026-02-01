@@ -1,9 +1,9 @@
 #
 ifndef
-nsTHashtable_h__
+nsTHashtable_h_
 #
 define
-nsTHashtable_h__
+nsTHashtable_h_
 #
 include
 <

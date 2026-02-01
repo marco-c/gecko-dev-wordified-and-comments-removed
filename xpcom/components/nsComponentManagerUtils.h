@@ -1,9 +1,9 @@
 #
 ifndef
-nsComponentManagerUtils_h__
+nsComponentManagerUtils_h_
 #
 define
-nsComponentManagerUtils_h__
+nsComponentManagerUtils_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsTStringHasher_h___
+nsTStringHasher_h_
 #
 define
-nsTStringHasher_h___
+nsTStringHasher_h_
 #
 include
 "

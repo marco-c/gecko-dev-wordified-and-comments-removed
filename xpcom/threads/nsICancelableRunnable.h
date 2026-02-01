@@ -1,9 +1,9 @@
 #
 ifndef
-nsICancelableRunnable_h__
+nsICancelableRunnable_h_
 #
 define
-nsICancelableRunnable_h__
+nsICancelableRunnable_h_
 #
 include
 "

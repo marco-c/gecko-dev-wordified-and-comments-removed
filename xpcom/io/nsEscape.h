@@ -1,9 +1,9 @@
 #
 ifndef
-_ESCAPE_H_
+ESCAPE_H_
 #
 define
-_ESCAPE_H_
+ESCAPE_H_
 #
 include
 "

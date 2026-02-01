@@ -1,9 +1,9 @@
 #
 ifndef
-nsStringStream_h__
+nsStringStream_h_
 #
 define
-nsStringStream_h__
+nsStringStream_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsDirectoryServiceUtils_h___
+nsDirectoryServiceUtils_h_
 #
 define
-nsDirectoryServiceUtils_h___
+nsDirectoryServiceUtils_h_
 #
 include
 "

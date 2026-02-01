@@ -1,9 +1,9 @@
 #
 ifndef
-nsStaticNameTable_h___
+nsStaticNameTable_h_
 #
 define
-nsStaticNameTable_h___
+nsStaticNameTable_h_
 #
 include
 "

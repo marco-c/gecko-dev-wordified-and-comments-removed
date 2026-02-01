@@ -1,9 +1,9 @@
 #
 ifndef
-nsAppDirectoryServiceDefs_h___
+nsAppDirectoryServiceDefs_h_
 #
 define
-nsAppDirectoryServiceDefs_h___
+nsAppDirectoryServiceDefs_h_
 #
 define
 NS_APP_APPLICATION_REGISTRY_FILE

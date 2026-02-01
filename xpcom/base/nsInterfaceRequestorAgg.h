@@ -1,9 +1,9 @@
 #
 ifndef
-nsInterfaceRequestorAgg_h__
+nsInterfaceRequestorAgg_h_
 #
 define
-nsInterfaceRequestorAgg_h__
+nsInterfaceRequestorAgg_h_
 #
 include
 "

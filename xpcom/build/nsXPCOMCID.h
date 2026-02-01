@@ -1,9 +1,9 @@
 #
 ifndef
-nsXPCOMCID_h__
+nsXPCOMCID_h_
 #
 define
-nsXPCOMCID_h__
+nsXPCOMCID_h_
 #
 define
 NS_DIRECTORY_SERVICE_CONTRACTID

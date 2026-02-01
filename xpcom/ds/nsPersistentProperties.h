@@ -1,9 +1,9 @@
 #
 ifndef
-nsPersistentProperties_h___
+nsPersistentProperties_h_
 #
 define
-nsPersistentProperties_h___
+nsPersistentProperties_h_
 #
 include
 "

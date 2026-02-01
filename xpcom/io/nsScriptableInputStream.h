@@ -1,9 +1,9 @@
 #
 ifndef
-___nsscriptableinputstream___h_
+_nsscriptableinputstream_h_
 #
 define
-___nsscriptableinputstream___h_
+_nsscriptableinputstream_h_
 #
 include
 "

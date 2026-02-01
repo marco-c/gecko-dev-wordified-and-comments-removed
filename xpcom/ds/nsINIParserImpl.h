@@ -1,9 +1,9 @@
 #
 ifndef
-nsINIParserImpl_h__
+nsINIParserImpl_h_
 #
 define
-nsINIParserImpl_h__
+nsINIParserImpl_h_
 #
 include
 "

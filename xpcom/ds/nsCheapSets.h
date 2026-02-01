@@ -1,9 +1,9 @@
 #
 ifndef
-__nsCheapSets_h__
+_nsCheapSets_h_
 #
 define
-__nsCheapSets_h__
+_nsCheapSets_h_
 #
 include
 "

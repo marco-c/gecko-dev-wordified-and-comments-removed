@@ -1,9 +1,9 @@
 #
 ifndef
-nsAtomTable_h__
+nsAtomTable_h_
 #
 define
-nsAtomTable_h__
+nsAtomTable_h_
 #
 include
 "

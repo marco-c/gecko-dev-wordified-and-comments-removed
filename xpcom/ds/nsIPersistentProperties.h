@@ -1,9 +1,9 @@
 #
 ifndef
-__gen_nsIPersistentProperties_h__
+_gen_nsIPersistentProperties_h_
 #
 define
-__gen_nsIPersistentProperties_h__
+_gen_nsIPersistentProperties_h_
 #
 include
 "

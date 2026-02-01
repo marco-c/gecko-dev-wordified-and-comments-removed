@@ -1,9 +1,9 @@
 #
 ifndef
-nsThreadUtils_h__
+nsThreadUtils_h_
 #
 define
-nsThreadUtils_h__
+nsThreadUtils_h_
 #
 include
 <

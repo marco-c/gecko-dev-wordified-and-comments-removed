@@ -1,9 +1,9 @@
 #
 ifndef
-nsObserverService_h___
+nsObserverService_h_
 #
 define
-nsObserverService_h___
+nsObserverService_h_
 #
 include
 "

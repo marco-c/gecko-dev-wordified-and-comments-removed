@@ -1,9 +1,9 @@
 #
 ifndef
-nsIIdleRunnable_h__
+nsIIdleRunnable_h_
 #
 define
-nsIIdleRunnable_h__
+nsIIdleRunnable_h_
 #
 include
 "

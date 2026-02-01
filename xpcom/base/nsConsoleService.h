@@ -1,9 +1,9 @@
 #
 ifndef
-__nsconsoleservice_h__
+_nsconsoleservice_h_
 #
 define
-__nsconsoleservice_h__
+_nsconsoleservice_h_
 #
 include
 <

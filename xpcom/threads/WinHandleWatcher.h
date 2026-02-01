@@ -1,9 +1,9 @@
 #
 ifndef
-WinHandleWatcher_h__
+WinHandleWatcher_h_
 #
 define
-WinHandleWatcher_h__
+WinHandleWatcher_h_
 #
 include
 <
