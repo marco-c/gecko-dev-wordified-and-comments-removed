@@ -3645,8 +3645,6 @@ new_load_path
 :
 engine
 .
-wrappedJSObject
-.
 _loadPath
 new_submission_url
 :

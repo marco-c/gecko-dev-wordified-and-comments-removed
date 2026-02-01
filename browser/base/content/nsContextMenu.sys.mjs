@@ -17154,8 +17154,6 @@ url
 =
 engine
 .
-wrappedJSObject
-.
 getURLOfType
 (
 searchUrlType
@@ -17524,8 +17522,6 @@ visualSearchUrl
 menuitem
 .
 engine
-.
-wrappedJSObject
 .
 getURLOfType
 (

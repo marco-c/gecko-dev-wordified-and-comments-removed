@@ -10131,15 +10131,6 @@ termsParameterName
 }
 ;
 }
-get
-wrappedJSObject
-(
-)
-{
-return
-this
-;
-}
 /
 *
 *

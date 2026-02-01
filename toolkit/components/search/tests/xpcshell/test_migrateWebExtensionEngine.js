@@ -84,8 +84,6 @@ xml
 ;
 engine
 .
-wrappedJSObject
-.
 _loadPath
 =
 jar
@@ -175,8 +173,6 @@ Assert
 equal
 (
 engine
-.
-wrappedJSObject
 .
 _loadPath
 "
@@ -269,8 +265,6 @@ xml
 )
 ;
 engine
-.
-wrappedJSObject
 .
 _loadPath
 =
@@ -390,8 +384,6 @@ Assert
 equal
 (
 engine
-.
-wrappedJSObject
 .
 _loadPath
 "

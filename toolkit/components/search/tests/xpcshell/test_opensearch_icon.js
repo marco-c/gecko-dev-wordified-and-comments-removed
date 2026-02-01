@@ -435,8 +435,6 @@ keys
 (
 engine
 .
-wrappedJSObject
-.
 _iconMapObj
 )
 .
@@ -445,10 +443,15 @@ length
 =
 3
 "
-Not
-all
+Should
+have
 added
-todo
+all
+the
+items
+to
+the
+map
 "
 )
 ;
@@ -719,8 +722,6 @@ keys
 (
 engine
 .
-wrappedJSObject
-.
 _iconMapObj
 )
 ;
@@ -813,8 +814,6 @@ Object
 keys
 (
 engine
-.
-wrappedJSObject
 .
 _iconMapObj
 )
@@ -914,8 +913,6 @@ Object
 keys
 (
 engine
-.
-wrappedJSObject
 .
 _iconMapObj
 )
@@ -1036,8 +1033,6 @@ Object
 keys
 (
 engine
-.
-wrappedJSObject
 .
 _iconMapObj
 )

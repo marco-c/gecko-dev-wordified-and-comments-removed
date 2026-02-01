@@ -7764,8 +7764,6 @@ lazy
 SearchService
 .
 defaultEngine
-.
-wrappedJSObject
 )
 ;
 const
@@ -7858,8 +7856,6 @@ lazy
 SearchService
 .
 defaultPrivateEngine
-.
-wrappedJSObject
 )
 ;
 }

@@ -5680,8 +5680,6 @@ values
 if
 (
 engine
-.
-wrappedJSObject
 =
 =
 e
@@ -6316,12 +6314,6 @@ NS_ERROR_FAILURE
 )
 ;
 }
-engine
-=
-engine
-.
-wrappedJSObject
-;
 var
 currentIndex
 =

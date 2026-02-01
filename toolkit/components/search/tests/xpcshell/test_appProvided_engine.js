@@ -609,8 +609,6 @@ equal
 (
 engine
 .
-wrappedJSObject
-.
 queryCharset
 "
 EUC
@@ -965,8 +963,6 @@ equal
 (
 engine
 .
-wrappedJSObject
-.
 getURLOfType
 (
 SearchUtils
@@ -1000,8 +996,6 @@ ok
 !
 engine
 .
-wrappedJSObject
-.
 getURLOfType
 (
 SearchUtils
@@ -1033,8 +1027,6 @@ ok
 !
 engine
 .
-wrappedJSObject
-.
 getURLOfType
 (
 SearchUtils
@@ -1062,8 +1054,6 @@ Assert
 equal
 (
 engine
-.
-wrappedJSObject
 .
 getURLOfType
 (
@@ -1100,8 +1090,6 @@ ok
 (
 engine
 .
-wrappedJSObject
-.
 getURLOfType
 (
 SearchUtils
@@ -1132,8 +1120,6 @@ Assert
 ok
 (
 engine
-.
-wrappedJSObject
 .
 getURLOfType
 (
@@ -1262,8 +1248,6 @@ Assert
 equal
 (
 engine
-.
-wrappedJSObject
 .
 queryCharset
 "
@@ -1828,8 +1812,6 @@ ok
 !
 engine
 .
-wrappedJSObject
-.
 getURLOfType
 (
 type
@@ -1936,8 +1918,6 @@ equal
 (
 engine
 .
-wrappedJSObject
-.
 getURLOfType
 (
 type
@@ -2035,8 +2015,6 @@ ok
 !
 engine
 .
-wrappedJSObject
-.
 getURLOfType
 (
 type
@@ -2086,8 +2064,6 @@ ok
 !
 engine
 .
-wrappedJSObject
-.
 isNew
 (
 )
@@ -2111,8 +2087,6 @@ ok
 !
 engine
 .
-wrappedJSObject
-.
 getURLOfType
 (
 SearchUtils
@@ -2142,8 +2116,6 @@ ok
 !
 engine
 .
-wrappedJSObject
-.
 getURLOfType
 (
 SearchUtils
@@ -2171,8 +2143,6 @@ Assert
 ok
 (
 engine
-.
-wrappedJSObject
 .
 getURLOfType
 (
@@ -2225,8 +2195,6 @@ ok
 (
 engine
 .
-wrappedJSObject
-.
 isNew
 (
 )
@@ -2247,8 +2215,6 @@ ok
 (
 !
 engine
-.
-wrappedJSObject
 .
 getURLOfType
 (
@@ -2278,8 +2244,6 @@ ok
 (
 !
 engine
-.
-wrappedJSObject
 .
 getURLOfType
 (
@@ -2335,8 +2299,6 @@ equal
 !
 !
 engine
-.
-wrappedJSObject
 .
 getURLOfType
 (

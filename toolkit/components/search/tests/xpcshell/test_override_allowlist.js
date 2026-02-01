@@ -1067,8 +1067,6 @@ equal
 !
 engine
 .
-wrappedJSObject
-.
 getAttr
 (
 "
@@ -1369,8 +1367,6 @@ UNKNOWN
 )
 ;
 engine
-.
-wrappedJSObject
 .
 removeExtensionOverride
 (

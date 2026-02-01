@@ -492,8 +492,6 @@ equal
 (
 engineAfterRestart
 .
-wrappedJSObject
-.
 getAttr
 (
 "
@@ -533,8 +531,6 @@ notificationSpy
 withArgs
 (
 engineAfterRestart
-.
-wrappedJSObject
 "
 engine
 -

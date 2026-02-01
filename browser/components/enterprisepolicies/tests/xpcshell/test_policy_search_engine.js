@@ -818,8 +818,6 @@ equal
 await
 engine
 .
-wrappedJSObject
-.
 getIconURL
 (
 )
@@ -837,8 +835,6 @@ Assert
 equal
 (
 engine
-.
-wrappedJSObject
 .
 queryCharset
 "
@@ -1057,8 +1053,6 @@ Assert
 equal
 (
 engine
-.
-wrappedJSObject
 .
 _urls
 [
@@ -1303,8 +1297,6 @@ Assert
 equal
 (
 engine
-.
-wrappedJSObject
 .
 queryCharset
 "

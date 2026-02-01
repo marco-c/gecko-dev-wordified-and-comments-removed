@@ -2921,9 +2921,6 @@ mozilla
 .
 org
 "
-wrappedJSObject
-:
-{
 _iconURL
 :
 "
@@ -3379,7 +3376,6 @@ undefined
 ]
 }
 ]
-}
 }
 }
 ;

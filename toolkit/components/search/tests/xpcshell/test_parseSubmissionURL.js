@@ -328,8 +328,6 @@ equal
 result
 .
 engine
-.
-wrappedJSObject
 engine1
 )
 ;
@@ -385,8 +383,6 @@ equal
 result
 .
 engine
-.
-wrappedJSObject
 engine2
 )
 ;
@@ -446,8 +442,6 @@ equal
 result
 .
 engine
-.
-wrappedJSObject
 engine1
 )
 ;
@@ -560,8 +554,6 @@ equal
 result
 .
 engine
-.
-wrappedJSObject
 engine1
 )
 ;
@@ -766,8 +758,6 @@ equal
 result
 .
 engine
-.
-wrappedJSObject
 engine5
 )
 ;
@@ -825,8 +815,6 @@ equal
 result
 .
 engine
-.
-wrappedJSObject
 engine5
 )
 ;
@@ -884,8 +872,6 @@ equal
 result
 .
 engine
-.
-wrappedJSObject
 engine1
 )
 ;
@@ -940,8 +926,6 @@ equal
 result
 .
 engine
-.
-wrappedJSObject
 engine1
 )
 ;
@@ -992,8 +976,6 @@ equal
 result
 .
 engine
-.
-wrappedJSObject
 engine1
 )
 ;
@@ -1043,8 +1025,6 @@ equal
 result
 .
 engine
-.
-wrappedJSObject
 engine1
 )
 ;
@@ -1095,8 +1075,6 @@ equal
 result
 .
 engine
-.
-wrappedJSObject
 engine1
 )
 ;

@@ -657,8 +657,6 @@ NONCONFIG_ENGINE_NAME
 ;
 nonconfigEngine
 .
-wrappedJSObject
-.
 _urls
 .
 push
@@ -1450,8 +1448,6 @@ Assert
 ok
 (
 engine
-.
-wrappedJSObject
 .
 getURLOfType
 (

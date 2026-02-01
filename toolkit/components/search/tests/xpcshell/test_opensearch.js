@@ -395,8 +395,6 @@ equal
 (
 engine
 .
-wrappedJSObject
-.
 _loadPath
 [
 http
