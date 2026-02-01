@@ -1350,6 +1350,14 @@ zlib
 /
 mozglue
 /
+baseprofiler
+/
+core
+/
+vtune
+/
+mozglue
+/
 misc
 /
 decimal
