@@ -7,7 +7,7 @@ MODULES_CONGESTION_CONTROLLER_SCREAM_SCREAM_NETWORK_CONTROLLER_H_
 #
 include
 <
-memory
+optional
 >
 #
 include
@@ -246,7 +246,7 @@ env_
 std
 :
 :
-unique_ptr
+optional
 <
 ScreamV2
 >
