@@ -42,6 +42,17 @@ mozilla
 /
 dom
 /
+ChromeUtilsBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Promise
 .
 h

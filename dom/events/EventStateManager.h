@@ -203,6 +203,9 @@ BrowserParent
 class
 RemoteDragStartData
 ;
+struct
+InteractionData
+;
 }
 class
 OverOutElementsWrapper
