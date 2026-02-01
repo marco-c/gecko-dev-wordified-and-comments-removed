@@ -1923,6 +1923,12 @@ password
 ;
 passwordField
 .
+revealPassword
+=
+false
+;
+passwordField
+.
 value
 =
 login
