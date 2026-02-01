@@ -1308,6 +1308,10 @@ bool
 aHttp2Allowed
 bool
 aHttp3Allowed
+bool
+aForceHttp3First
+=
+false
 )
 {
 return
@@ -1323,6 +1327,7 @@ pb
 originAttributes
 aHttp2Allowed
 aHttp3Allowed
+aForceHttp3First
 )
 ;
 }
