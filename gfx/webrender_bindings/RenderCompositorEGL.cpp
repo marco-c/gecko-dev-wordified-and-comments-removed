@@ -836,7 +836,7 @@ if
 layers
 :
 :
-AndroidHardwareBufferApi
+AndroidHardwareBufferManager
 :
 :
 Get
@@ -1564,7 +1564,7 @@ MOZ_ASSERT
 layers
 :
 :
-AndroidHardwareBufferApi
+AndroidHardwareBufferManager
 :
 :
 Get

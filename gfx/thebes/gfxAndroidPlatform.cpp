@@ -930,16 +930,6 @@ Shutdown
 (
 )
 ;
-layers
-:
-:
-AndroidHardwareBufferApi
-:
-:
-Shutdown
-(
-)
-;
 }
 void
 gfxAndroidPlatform

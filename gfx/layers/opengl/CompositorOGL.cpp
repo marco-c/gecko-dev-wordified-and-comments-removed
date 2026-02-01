@@ -8295,7 +8295,7 @@ nullptr
 ;
 if
 (
-AndroidHardwareBufferApi
+AndroidHardwareBufferManager
 :
 :
 Get
