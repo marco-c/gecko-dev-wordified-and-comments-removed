@@ -192,13 +192,13 @@ Bool
 "
 initialValue
 :
-true
+false
 newValue
 :
-false
+true
 expectedValue
 :
-false
+true
 listenForUpdate
 :
 true

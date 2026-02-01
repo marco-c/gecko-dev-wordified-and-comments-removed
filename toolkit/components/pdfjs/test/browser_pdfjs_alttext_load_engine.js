@@ -113,6 +113,15 @@ pdfjs
 annotationEditorMode
 "
 ;
+const
+altTextModelDownloadPref
+=
+"
+pdfjs
+.
+enableAltTextModelDownload
+"
+;
 async
 function
 setupRemoteClient
@@ -348,6 +357,10 @@ true
 ]
 [
 guessAltTextPref
+true
+]
+[
+altTextModelDownloadPref
 true
 ]
 [
