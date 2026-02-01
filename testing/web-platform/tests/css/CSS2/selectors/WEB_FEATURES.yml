@@ -42,3 +42,15 @@ focus
 selector
 -
 *
+-
+name
+:
+lang
+files
+:
+-
+lang
+-
+selector
+-
+*
