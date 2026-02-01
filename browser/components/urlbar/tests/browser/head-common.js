@@ -151,7 +151,7 @@ sys
 .
 mjs
 "
-UrlbarProvidersManager
+ProvidersManager
 :
 "
 moz

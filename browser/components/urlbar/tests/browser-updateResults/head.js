@@ -26,7 +26,7 @@ sys
 .
 mjs
 "
-UrlbarProvidersManager
+ProvidersManager
 :
 "
 moz
@@ -870,7 +870,19 @@ Infinity
 }
 )
 ;
-UrlbarProvidersManager
+let
+providersManager
+=
+ProvidersManager
+.
+getInstanceForSap
+(
+"
+urlbar
+"
+)
+;
+providersManager
 .
 registerProvider
 (
@@ -884,7 +896,7 @@ registerCleanupFunction
 =
 >
 {
-UrlbarProvidersManager
+providersManager
 .
 unregisterProvider
 (
@@ -2064,7 +2076,7 @@ handleRevert
 (
 )
 ;
-UrlbarProvidersManager
+providersManager
 .
 unregisterProvider
 (

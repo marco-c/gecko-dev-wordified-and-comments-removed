@@ -487,7 +487,7 @@ changes
 UrlbarController
 *
 tells
-UrlbarProvidersManager
+ProvidersManager
 <
 https
 :
@@ -530,7 +530,7 @@ results
 #
 .
 *
-UrlbarProvidersManager
+ProvidersManager
 *
 tells
 each
@@ -690,7 +690,7 @@ _
 #
 .
 *
-UrlbarProvidersManager
+ProvidersManager
 *
 then
 tells
@@ -816,7 +816,7 @@ results
 back
 to
 *
-UrlbarProvidersManager
+ProvidersManager
 *
 .
 They
@@ -869,7 +869,7 @@ into
 startQuery
 .
 *
-UrlbarProvidersManager
+ProvidersManager
 *
 takes
 all
@@ -973,7 +973,7 @@ handle
 slow
 providers
 *
-UrlbarProvidersManager
+ProvidersManager
 *
 gathers
 results
@@ -1023,7 +1023,7 @@ steps
 #
 .
 *
-UrlbarProvidersManager
+ProvidersManager
 *
 asks
 <
@@ -1136,7 +1136,7 @@ results
 are
 sorted
 *
-UrlbarProvidersManager
+ProvidersManager
 *
 tells
 UrlbarController

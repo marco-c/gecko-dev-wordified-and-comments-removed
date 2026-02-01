@@ -15041,7 +15041,7 @@ registered
 through
 *
 the
-UrlbarProvidersManager
+ProvidersManager
 .
 *
 /

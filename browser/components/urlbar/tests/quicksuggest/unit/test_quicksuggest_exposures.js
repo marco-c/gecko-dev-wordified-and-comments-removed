@@ -1699,6 +1699,18 @@ let
 historyProvider
 ;
 let
+providersManager
+=
+ProvidersManager
+.
+getInstanceForSap
+(
+"
+urlbar
+"
+)
+;
+let
 historyResults
 =
 [
@@ -1786,7 +1798,7 @@ historyResults
 }
 )
 ;
-UrlbarProvidersManager
+providersManager
 .
 registerProvider
 (
@@ -1913,7 +1925,7 @@ if
 historyProvider
 )
 {
-UrlbarProvidersManager
+providersManager
 .
 unregisterProvider
 (

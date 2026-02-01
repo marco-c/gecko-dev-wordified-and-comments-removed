@@ -1037,7 +1037,9 @@ to
 register
 it
 in
-UrlbarProvidersManager
+a
+ProvidersManager
+instance
 .
 __
 https

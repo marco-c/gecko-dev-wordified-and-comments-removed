@@ -130,6 +130,18 @@ ResultWithHighlightsProvider
 (
 )
 ;
+let
+providersManager
+=
+ProvidersManager
+.
+getInstanceForSap
+(
+"
+urlbar
+"
+)
+;
 registerCleanupFunction
 (
 async
@@ -138,7 +150,7 @@ async
 =
 >
 {
-UrlbarProvidersManager
+providersManager
 .
 unregisterProvider
 (
@@ -171,7 +183,7 @@ handleRevert
 }
 )
 ;
-UrlbarProvidersManager
+providersManager
 .
 registerProvider
 (

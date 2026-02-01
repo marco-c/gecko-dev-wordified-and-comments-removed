@@ -116,7 +116,7 @@ sys
 .
 mjs
 "
-UrlbarProvidersManager
+ProvidersManager
 :
 "
 moz
@@ -3108,7 +3108,14 @@ REDIRECT
 }
 )
 ;
-UrlbarProvidersManager
+ProvidersManager
+.
+getInstanceForSap
+(
+"
+urlbar
+"
+)
 .
 getProvider
 (

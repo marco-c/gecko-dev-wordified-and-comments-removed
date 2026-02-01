@@ -42,6 +42,18 @@ test_providers
 (
 )
 {
+let
+providersManager
+=
+ProvidersManager
+.
+getInstanceForSap
+(
+"
+urlbar
+"
+)
+;
 Assert
 .
 throws
@@ -50,7 +62,7 @@ throws
 )
 =
 >
-UrlbarProvidersManager
+providersManager
 .
 registerProvider
 (
@@ -76,7 +88,7 @@ throws
 )
 =
 >
-UrlbarProvidersManager
+providersManager
 .
 registerProvider
 (
@@ -104,7 +116,7 @@ throws
 )
 =
 >
-UrlbarProvidersManager
+providersManager
 .
 registerProvider
 (
@@ -136,7 +148,7 @@ throws
 )
 =
 >
-UrlbarProvidersManager
+providersManager
 .
 registerProvider
 (
@@ -174,7 +186,7 @@ throws
 )
 =
 >
-UrlbarProvidersManager
+providersManager
 .
 registerProvider
 (
@@ -302,7 +314,7 @@ onQueryResults
 )
 ;
 await
-UrlbarProvidersManager
+providersManager
 .
 startQuery
 (
@@ -310,7 +322,7 @@ context
 controller
 )
 ;
-UrlbarProvidersManager
+providersManager
 .
 cancelQuery
 (

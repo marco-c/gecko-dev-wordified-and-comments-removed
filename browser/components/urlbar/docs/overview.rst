@@ -378,7 +378,7 @@ registered
 /
 through
 the
-UrlbarProvidersManager
+ProvidersManager
 .
 providers
 ;
@@ -401,7 +401,7 @@ be
 registered
 through
 the
-UrlbarProvidersManager
+ProvidersManager
 .
 sources
 :
@@ -680,7 +680,7 @@ the
 core
 is
 the
-UrlbarProvidersManager
+ProvidersManager
 <
 https
 :
@@ -725,7 +725,7 @@ them
 .
 The
 *
-UrlbarProvidersManager
+ProvidersManager
 *
 is
 a
@@ -774,7 +774,7 @@ queries
 through
 the
 *
-UrlbarProvidersManager
+ProvidersManager
 *
 .
 It
@@ -959,7 +959,7 @@ code
 :
 :
 JavaScript
-UrlbarProvidersManager
+ProvidersManager
 {
 registerProvider
 (
@@ -1072,7 +1072,7 @@ Objects
 through
 the
 *
-UrlbarProvidersManager
+ProvidersManager
 *
 .
 Each

@@ -468,9 +468,9 @@ larger
 than
 /
 /
-UrlbarProvidersManager
+ProvidersManager
 .
-CHUNK_RESULTS_DELAY_MS
+chunkResultsDelayMs
 .
 static
 DEFERRING_TIMEOUT_MS
