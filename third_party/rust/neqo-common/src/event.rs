@@ -136,6 +136,7 @@ E
 ?
 Sized
 {
+const
 fn
 new
 (
