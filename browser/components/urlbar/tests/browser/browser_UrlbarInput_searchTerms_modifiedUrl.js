@@ -100,9 +100,7 @@ UrlbarUtils
 .
 getSearchQueryUrl
 (
-Services
-.
-search
+SearchService
 .
 defaultEngine
 SEARCH_STRING
@@ -303,9 +301,7 @@ UrlbarUtils
 .
 getSearchQueryUrl
 (
-Services
-.
-search
+SearchService
 .
 defaultEngine
 SEARCH_STRING

@@ -39,9 +39,7 @@ let
 engine
 =
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (

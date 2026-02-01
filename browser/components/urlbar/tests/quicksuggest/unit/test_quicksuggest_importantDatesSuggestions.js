@@ -582,9 +582,7 @@ US
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -2444,9 +2442,7 @@ title
 date
 engine
 :
-Services
-.
-search
+SearchService
 .
 defaultEngine
 .

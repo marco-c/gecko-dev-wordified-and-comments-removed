@@ -110,9 +110,7 @@ MochiSearch
 let
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -122,9 +120,7 @@ MochiSearch
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 setDefault
 (
@@ -137,9 +133,7 @@ CHANGE_REASON_UNKNOWN
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 moveEngine
 (

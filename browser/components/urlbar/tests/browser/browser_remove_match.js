@@ -73,9 +73,7 @@ true
 let
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -85,9 +83,7 @@ Example
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 moveEngine
 (

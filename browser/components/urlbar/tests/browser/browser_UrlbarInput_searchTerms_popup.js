@@ -258,9 +258,7 @@ searchWithTab
 (
 SEARCH_TERM
 null
-Services
-.
-search
+SearchService
 .
 defaultEngine
 false

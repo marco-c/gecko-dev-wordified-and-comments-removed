@@ -168,9 +168,7 @@ true
 let
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -180,9 +178,7 @@ Example
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 moveEngine
 (
@@ -850,9 +846,7 @@ foobar
 let
 badEngine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (

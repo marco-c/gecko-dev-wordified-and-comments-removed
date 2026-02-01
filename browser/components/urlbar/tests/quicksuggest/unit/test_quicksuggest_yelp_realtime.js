@@ -80,9 +80,7 @@ init
 )
 {
 await
-Services
-.
-search
+SearchService
 .
 init
 (

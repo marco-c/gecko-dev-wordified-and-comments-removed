@@ -1028,9 +1028,7 @@ true
 let
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -1038,9 +1036,7 @@ TEST_DEFAULT_ENGINE_NAME
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 moveEngine
 (

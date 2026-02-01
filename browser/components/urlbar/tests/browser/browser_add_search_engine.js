@@ -668,9 +668,7 @@ let
 engine
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -680,9 +678,7 @@ add_search_engine_0
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 removeEngine
 (
@@ -2256,9 +2252,7 @@ let
 engine
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -2268,9 +2262,7 @@ add_search_engine_0
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 removeEngine
 (

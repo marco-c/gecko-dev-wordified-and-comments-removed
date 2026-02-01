@@ -256,9 +256,7 @@ test_remote_override
 let
 defaultEngine
 =
-Services
-.
-search
+SearchService
 .
 defaultEngine
 ;

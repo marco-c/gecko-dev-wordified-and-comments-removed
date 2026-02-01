@@ -373,9 +373,7 @@ formatValues
 {
 id
 :
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -1954,9 +1952,7 @@ engine
 {
 id
 :
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (

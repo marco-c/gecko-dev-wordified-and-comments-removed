@@ -94,9 +94,7 @@ tab
 let
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -112,9 +110,7 @@ notEqual
 engine
 .
 name
-Services
-.
-search
+SearchService
 .
 defaultEngine
 .
@@ -361,9 +357,7 @@ mode
 let
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -379,9 +373,7 @@ notEqual
 engine
 .
 name
-Services
-.
-search
+SearchService
 .
 defaultEngine
 .
@@ -1483,9 +1475,7 @@ SEARCH_STRING
 let
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -1629,9 +1619,7 @@ SEARCH_STRING
 let
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (

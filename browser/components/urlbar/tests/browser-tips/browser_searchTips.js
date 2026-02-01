@@ -354,9 +354,7 @@ let
 defaultEngine
 =
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (

@@ -903,9 +903,7 @@ complete
 let
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -918,9 +916,7 @@ Promise
 all
 (
 [
-Services
-.
-search
+SearchService
 .
 removeEngine
 (
