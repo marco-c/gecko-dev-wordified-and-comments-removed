@@ -1241,6 +1241,12 @@ dispatchToMainThread
 resolve
 (
 aSubject
+?
+.
+wrappedJSObject
+?
+?
+aSubject
 )
 )
 ;
