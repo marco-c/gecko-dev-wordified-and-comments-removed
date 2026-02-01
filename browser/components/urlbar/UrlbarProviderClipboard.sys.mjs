@@ -404,9 +404,7 @@ false
 }
 textFromClipboard
 =
-controller
-.
-input
+UrlbarUtils
 .
 sanitizeTextFromClipboard
 (
