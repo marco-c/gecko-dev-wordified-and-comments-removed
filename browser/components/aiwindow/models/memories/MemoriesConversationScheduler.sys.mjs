@@ -223,12 +223,12 @@ Conversation
 scheduler
 tick
 every
-30
+2
 mins
 const
 MEMORIES_SCHEDULER_INTERVAL_MS
 =
-30
+2
 *
 60
 *
