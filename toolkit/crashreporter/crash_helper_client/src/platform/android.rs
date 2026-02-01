@@ -11,7 +11,7 @@ crash_helper_common
 {
 IPCConnector
 Pid
-RawIPCConnector
+RawAncillaryData
 }
 ;
 use
@@ -32,7 +32,7 @@ new
 (
 server_socket
 :
-RawIPCConnector
+RawAncillaryData
 )
 -
 >
@@ -49,7 +49,7 @@ unsafe
 IPCConnector
 :
 :
-from_raw_connector
+from_raw_ancillary
 (
 server_socket
 )

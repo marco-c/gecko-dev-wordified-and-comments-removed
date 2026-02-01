@@ -6703,9 +6703,6 @@ anyhow
 crash_helper_common
 "
 "
-mach2
-"
-"
 minidump
 -
 writer
@@ -6766,12 +6763,6 @@ getrandom
 3
 .
 3
-"
-"
-log
-"
-"
-mach2
 "
 "
 minidump

@@ -51,7 +51,7 @@ use
 crash_helper_common
 :
 :
-RawIPCConnector
+RawAncillaryData
 ;
 use
 crash_helper_common
@@ -380,7 +380,7 @@ const
 c_char
 pipe
 :
-RawIPCConnector
+RawAncillaryData
 )
 {
 logging
@@ -501,7 +501,7 @@ unsafe
 IPCConnector
 :
 :
-from_raw_connector
+from_raw_ancillary
 (
 pipe
 )
