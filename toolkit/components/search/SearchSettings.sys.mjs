@@ -3639,7 +3639,7 @@ undefined
 nsIObserver
 observe
 (
-engine
+subject
 topic
 verb
 )
@@ -3734,8 +3734,9 @@ settings
 if
 (
 !
-engine
-?
+subject
+.
+wrappedJSObject
 .
 isConfigEngine
 )

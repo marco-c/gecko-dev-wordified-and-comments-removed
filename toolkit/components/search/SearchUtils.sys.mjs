@@ -1377,7 +1377,7 @@ service
 *
 param
 {
-nsISearchEngine
+SearchEngine
 }
 engine
 *

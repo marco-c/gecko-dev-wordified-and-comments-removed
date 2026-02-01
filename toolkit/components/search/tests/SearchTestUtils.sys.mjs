@@ -4874,12 +4874,7 @@ engine
 =
 subject
 .
-QueryInterface
-(
-Ci
-.
-nsISearchEngine
-)
+wrappedJSObject
 ;
 if
 (
