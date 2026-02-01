@@ -171,7 +171,7 @@ SVGLength
 :
 :
 Axis
-aCtxType
+aAxis
 )
 const
 ;

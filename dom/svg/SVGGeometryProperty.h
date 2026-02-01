@@ -101,8 +101,7 @@ SVGGEOMETRYPROPERTY_GENERATETAG
 (
 tagName
 resolver
-direction
-\
+axis
 styleStruct
 )
 \
@@ -122,7 +121,7 @@ resolver
 constexpr
 static
 auto
-CtxDirection
+Axis
 =
 SVGLength
 :
@@ -130,7 +129,7 @@ SVGLength
 Axis
 :
 :
-direction
+axis
 ;
 \
 constexpr
@@ -227,7 +226,7 @@ LengthPercentWidthHeight
 constexpr
 static
 auto
-CtxDirection
+Axis
 =
 SVGLength
 :
@@ -306,7 +305,7 @@ LengthPercentWidthHeight
 constexpr
 static
 auto
-CtxDirection
+Axis
 =
 SVGLength
 :
@@ -384,7 +383,7 @@ LengthPercentRXY
 constexpr
 static
 auto
-CtxDirection
+Axis
 =
 SVGLength
 :
@@ -426,7 +425,7 @@ LengthPercentRXY
 constexpr
 static
 auto
-CtxDirection
+Axis
 =
 SVGLength
 :
@@ -476,7 +475,7 @@ int
 ]
 ;
 using
-CtxDirectionType
+AxisType
 =
 decltype
 (
@@ -491,7 +490,7 @@ X
 ;
 template
 <
-CtxDirectionType
+AxisType
 CTD
 >
 float
@@ -580,7 +579,7 @@ ResolvePureLengthPercentage
 Tag
 :
 :
-CtxDirection
+Axis
 >
 (
 aElement
@@ -694,7 +693,7 @@ ResolvePureLengthPercentage
 Tag
 :
 :
-CtxDirection
+Axis
 >
 (
 aElement
@@ -834,7 +833,7 @@ ResolvePureLengthPercentage
 Other
 :
 :
-CtxDirection
+Axis
 >
 (
 aElement
@@ -1127,7 +1126,7 @@ ResolvePureLengthPercentage
 Tag
 :
 :
-CtxDirection
+Axis
 >
 (
 aElement
@@ -1196,7 +1195,7 @@ ResolvePureLengthPercentage
 Rother
 :
 :
-CtxDirection
+Axis
 >
 (
 aElement

@@ -185,7 +185,7 @@ SVGLength
 :
 :
 Axis
-aCtxType
+aAxis
 )
 const
 ;
@@ -196,7 +196,7 @@ SVGLength
 :
 :
 Axis
-aCtxType
+aAxis
 const
 SVGAnimatedNumber
 *
@@ -207,7 +207,7 @@ const
 return
 GetPrimitiveNumber
 (
-aCtxType
+aAxis
 aNumber
 -
 >
@@ -224,7 +224,7 @@ SVGLength
 :
 :
 Axis
-aCtxType
+aAxis
 const
 SVGAnimatedNumberPair
 *
@@ -237,7 +237,7 @@ const
 return
 GetPrimitiveNumber
 (
-aCtxType
+aAxis
 aNumberPair
 -
 >
@@ -265,7 +265,7 @@ SVGLength
 :
 :
 Axis
-aCtxType
+aAxis
 float
 aValue
 )
@@ -339,7 +339,7 @@ SVGLength
 :
 :
 Axis
-aCtxType
+aAxis
 float
 aValue
 )
