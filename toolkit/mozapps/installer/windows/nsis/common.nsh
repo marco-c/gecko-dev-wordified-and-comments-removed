@@ -35374,11 +35374,6 @@ LogDesktopShortcut
 insertmacro
 LogDesktopShortcutCall
 "
-Function
-LogDesktopShortcut
-Call
-LogShortcut
-FunctionEnd
 !
 verbose
 pop
@@ -35409,7 +35404,7 @@ _FILE_NAME
 }
 "
 Call
-LogDesktopShortcut
+LogShortcut
 !
 verbose
 pop
