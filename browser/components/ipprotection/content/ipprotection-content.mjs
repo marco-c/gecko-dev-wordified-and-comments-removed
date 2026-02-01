@@ -1269,7 +1269,7 @@ false
 ;
 }
 }
-handleToggleExclusion
+handleToggleUseVPN
 (
 event
 )
@@ -1298,7 +1298,7 @@ CustomEvent
 "
 IPProtection
 :
-ToggleOnExclusion
+UserEnableVPNForSite
 "
 {
 bubbles
@@ -1321,7 +1321,7 @@ CustomEvent
 "
 IPProtection
 :
-ToggleOffExclusion
+UserDisableVPNForSite
 "
 {
 bubbles
@@ -1957,7 +1957,7 @@ exclusion
 -
 toggle
 -
-enabled
+disabled
 "
 :
 "
@@ -1967,7 +1967,7 @@ exclusion
 -
 toggle
 -
-disabled
+enabled
 "
 ;
 return
@@ -2113,6 +2113,7 @@ toggle
 pressed
 =
 {
+!
 isExclusion
 }
 toggle
@@ -2120,7 +2121,7 @@ toggle
 {
 this
 .
-handleToggleExclusion
+handleToggleUseVPN
 }
 >
 <
