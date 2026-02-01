@@ -132,6 +132,16 @@ large
 -
 icon
 "
+"
+Medium
+icon
+"
+:
+"
+medium
+-
+icon
+"
 }
 )
 startActions
