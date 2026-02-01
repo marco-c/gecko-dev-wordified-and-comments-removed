@@ -135,6 +135,12 @@ testing
 :
 SizeIs
 ;
+constexpr
+uint32_t
+kSsrc
+=
+1234
+;
 RtpPacketReceived
 CreatePacket
 (
@@ -160,7 +166,7 @@ packet
 .
 SetSsrc
 (
-1234
+kSsrc
 )
 ;
 packet
@@ -226,6 +232,9 @@ Millis
 ;
 CongestionControlFeedbackTracker
 tracker
+(
+kSsrc
+)
 ;
 tracker
 .
@@ -452,6 +461,9 @@ kEct1
 ;
 CongestionControlFeedbackTracker
 tracker
+(
+kSsrc
+)
 ;
 tracker
 .
@@ -606,6 +618,9 @@ Millis
 ;
 CongestionControlFeedbackTracker
 tracker
+(
+kSsrc
+)
 ;
 tracker
 .
@@ -786,6 +801,9 @@ Millis
 ;
 CongestionControlFeedbackTracker
 tracker
+(
+kSsrc
+)
 ;
 tracker
 .
@@ -1014,6 +1032,9 @@ Millis
 ;
 CongestionControlFeedbackTracker
 tracker
+(
+kSsrc
+)
 ;
 tracker
 .
