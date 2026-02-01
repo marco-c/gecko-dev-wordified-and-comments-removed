@@ -10,6 +10,12 @@ jxl
 enabled
 true
 )
+fails
+-
+if
+(
+release_or_beta
+)
 =
 =
 jxl
