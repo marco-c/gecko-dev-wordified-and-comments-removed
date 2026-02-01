@@ -66573,12 +66573,6 @@ case
 InlinableNative
 :
 :
-IntlGuardToRelativeTimeFormat
-:
-case
-InlinableNative
-:
-:
 IntlGuardToSegmenter
 :
 case
