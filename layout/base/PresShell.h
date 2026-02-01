@@ -444,6 +444,9 @@ AutoConnectedAncestorTracker
 struct
 PointerInfo
 ;
+struct
+ScopedNameRef
+;
 #
 ifdef
 ACCESSIBILITY
@@ -1956,8 +1959,8 @@ nsIFrame
 GetAnchorPosAnchor
 (
 const
-nsAtom
-*
+ScopedNameRef
+&
 aName
 const
 nsIFrame

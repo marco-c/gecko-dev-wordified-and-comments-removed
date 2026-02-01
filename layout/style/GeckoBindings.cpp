@@ -10732,9 +10732,11 @@ ResolveAnchorPosRect
 (
 positioned
 containingBlock
+{
 aAnchorName
 *
 aTreeScope
+}
 !
 aParams
 -
@@ -11495,9 +11497,11 @@ AnchorPositioningUtils
 ResolveAnchorPosSize
 (
 positioned
+{
 aAnchorName
 *
 aTreeScope
+}
 aParams
 -
 >
