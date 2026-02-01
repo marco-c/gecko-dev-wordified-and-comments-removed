@@ -1994,25 +1994,6 @@ parameters
 repo_param
 ]
     
-assert
-head_repository
-.
-startswith
-(
-"
-https
-:
-/
-/
-hg
-.
-mozilla
-.
-org
-/
-"
-)
-    
 expected_scope
 =
 f
