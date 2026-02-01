@@ -1133,11 +1133,6 @@ skipOnboarding
 Boolean
 =
 true
-isMenuRedesignEnabled
-:
-Boolean
-=
-true
 isMenuRedesignCFREnabled
 :
 Boolean
@@ -1164,9 +1159,6 @@ HomeActivityIntentTestRule
 skipOnboarding
 =
 skipOnboarding
-isMenuRedesignEnabled
-=
-isMenuRedesignEnabled
 isMenuRedesignCFREnabled
 =
 isMenuRedesignCFREnabled
