@@ -504,9 +504,6 @@ CanonicalQuotaObject
 >
 mCanonicalQuotaObjects
 ;
-ClientUsageArray
-mClientUsages
-;
 GroupInfo
 *
 mGroupInfo
@@ -518,9 +515,6 @@ mOrigin
 const
 nsCString
 mStorageOrigin
-;
-uint64_t
-mUsage
 ;
 int64_t
 mAccessTime
@@ -543,6 +537,14 @@ mIsExtension
 ;
 bool
 mDirectoryExists
+;
+private
+:
+ClientUsageArray
+mClientUsages
+;
+uint64_t
+mUsage
 ;
 }
 ;
