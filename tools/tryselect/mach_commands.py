@@ -987,7 +987,8 @@ subcommand
     
 )
     
-return
+result
+=
 mod
 .
 run
@@ -996,6 +997,19 @@ run
 *
 kwargs
 )
+    
+if
+result
+=
+=
+1
+:
+        
+return
+1
+    
+return
+0
 Command
 (
     
