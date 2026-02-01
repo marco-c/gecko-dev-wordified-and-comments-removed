@@ -341,7 +341,7 @@ transform
 :
 :
 {
-TransformPaletteId
+GpuTransformId
 TransformPalette
 }
 ;
@@ -11496,7 +11496,7 @@ clip_task_index
 ClipTaskIndex
 transform_id
 :
-TransformPaletteId
+GpuTransformId
 z_id
 :
 ZBufferId
@@ -12848,13 +12848,13 @@ ClipMaskInstanceCommon
 {
 clip_transform_id
 :
-TransformPaletteId
+GpuTransformId
 :
 :
 IDENTITY
 prim_transform_id
 :
-TransformPaletteId
+GpuTransformId
 :
 :
 IDENTITY

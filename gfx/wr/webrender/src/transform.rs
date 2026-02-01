@@ -109,14 +109,14 @@ C
 ]
 pub
 struct
-TransformPaletteId
+GpuTransformId
 (
 pub
 u32
 )
 ;
 impl
-TransformPaletteId
+GpuTransformId
 {
 pub
 const
@@ -124,7 +124,7 @@ IDENTITY
 :
 Self
 =
-TransformPaletteId
+GpuTransformId
 (
 0
 )
@@ -180,7 +180,7 @@ TransformedRectKind
 >
 Self
 {
-TransformPaletteId
+GpuTransformId
 (
 (
 self
@@ -606,7 +606,7 @@ SpatialTree
 )
 -
 >
-TransformPaletteId
+GpuTransformId
 {
 let
 index
@@ -634,7 +634,7 @@ transform_kind
 as
 u32
 ;
-TransformPaletteId
+GpuTransformId
 (
 (
 index
@@ -663,7 +663,7 @@ LayoutToPictureTransform
 )
 -
 >
-TransformPaletteId
+GpuTransformId
 {
 let
 index
@@ -697,7 +697,7 @@ transform_kind
 as
 u32
 ;
-TransformPaletteId
+GpuTransformId
 (
 (
 index

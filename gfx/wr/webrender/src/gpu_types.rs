@@ -71,7 +71,7 @@ crate
 transform
 :
 :
-TransformPaletteId
+GpuTransformId
 ;
 use
 crate
@@ -1220,11 +1220,11 @@ f32
 pub
 clip_transform_id
 :
-TransformPaletteId
+GpuTransformId
 pub
 prim_transform_id
 :
-TransformPaletteId
+GpuTransformId
 }
 #
 [
@@ -2510,7 +2510,7 @@ i32
 pub
 transform_id
 :
-TransformPaletteId
+GpuTransformId
 pub
 z
 :
@@ -2644,7 +2644,7 @@ i32
 pub
 transform_id
 :
-TransformPaletteId
+GpuTransformId
 pub
 render_task_address
 :
@@ -3066,7 +3066,7 @@ QuadHeader
 pub
 transform_id
 :
-TransformPaletteId
+GpuTransformId
 pub
 z_id
 :
@@ -3564,7 +3564,7 @@ PrimitiveInstanceData
 pub
 clip_transform_id
 :
-TransformPaletteId
+GpuTransformId
 pub
 clip_address
 :
