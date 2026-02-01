@@ -132,7 +132,6 @@ gpu_types
 :
 :
 {
-TransformPalette
 ZBufferIdGenerator
 MaskInstance
 ClipSpace
@@ -150,7 +149,6 @@ gpu_types
 ZBufferId
 QuadSegment
 PrimitiveInstanceData
-TransformPaletteId
 }
 ;
 use
@@ -200,6 +198,18 @@ tile_cache
 {
 SliceId
 TileCacheInstance
+}
+;
+use
+crate
+:
+:
+transform
+:
+:
+{
+TransformPalette
+TransformPaletteId
 }
 ;
 use

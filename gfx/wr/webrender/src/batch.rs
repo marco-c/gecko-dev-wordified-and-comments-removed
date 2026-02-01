@@ -142,8 +142,6 @@ gpu_types
 {
 PrimitiveHeader
 PrimitiveHeaderIndex
-TransformPaletteId
-TransformPalette
 }
 ;
 use
@@ -334,6 +332,18 @@ space
 :
 :
 SpaceMapper
+;
+use
+crate
+:
+:
+transform
+:
+:
+{
+TransformPaletteId
+TransformPalette
+}
 ;
 use
 crate

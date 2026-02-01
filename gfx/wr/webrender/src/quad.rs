@@ -95,7 +95,6 @@ QuadHeader
 QuadInstance
 QuadPrimitive
 QuadSegment
-TransformPaletteId
 ZBufferId
 }
 ;
@@ -249,6 +248,15 @@ surface
 :
 :
 SurfaceBuilder
+;
+use
+crate
+:
+:
+transform
+:
+:
+TransformPaletteId
 ;
 use
 crate

@@ -192,7 +192,6 @@ gpu_types
 :
 {
 BoxShadowStretchMode
-TransformPaletteId
 UvRectKind
 BlurEdgeMode
 }
@@ -205,6 +204,15 @@ render_task_graph
 :
 :
 RenderTaskId
+;
+use
+crate
+:
+:
+transform
+:
+:
+TransformPaletteId
 ;
 use
 crate

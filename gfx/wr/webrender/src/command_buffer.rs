@@ -58,10 +58,7 @@ crate
 gpu_types
 :
 :
-{
 QuadSegment
-TransformPaletteId
-}
 ;
 use
 crate
@@ -71,6 +68,15 @@ segment
 :
 :
 EdgeAaSegmentMask
+;
+use
+crate
+:
+:
+transform
+:
+:
+TransformPaletteId
 ;
 #
 [
