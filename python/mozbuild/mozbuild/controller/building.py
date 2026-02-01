@@ -7736,8 +7736,22 @@ not
 what
 :
                 
-print
+self
+.
+log
 (
+                    
+logging
+.
+ERROR
+                    
+"
+build_error
+"
+                    
+{
+}
+                    
 "
 Can
 only
@@ -7755,6 +7769,7 @@ target
 name
 .
 "
+                
 )
                 
 return
@@ -7997,8 +8012,22 @@ is
 None
 :
                     
-print
+self
+.
+log
 (
+                        
+logging
+.
+INFO
+                        
+"
+build_output
+"
+                        
+{
+}
+                        
 "
 Config
 object
@@ -8008,6 +8037,7 @@ by
 mach
 .
 "
+                    
 )
                 
 config_rc
@@ -8447,8 +8477,22 @@ all_backends
 )
 :
                 
-print
+self
+.
+log
 (
+                    
+logging
+.
+INFO
+                    
+"
+build_output
+"
+                    
+{
+}
+                    
 "
 Build
 configuration
@@ -8458,6 +8502,7 @@ Regenerating
 backend
 .
 "
+                
 )
                 
 args
@@ -12087,13 +12132,39 @@ readlines
 )
 :
             
+msg
+=
+line
+.
+rstrip
+(
+)
+            
+level
+=
+logging
+.
+INFO
+if
+msg
+=
+=
+"
+Clobber
+not
+needed
+.
+"
+else
+logging
+.
+WARNING
+            
 self
 .
 log
 (
-logging
-.
-WARNING
+level
 "
 clobber
 "
@@ -12102,11 +12173,7 @@ clobber
 msg
 "
 :
-line
-.
-rstrip
-(
-)
+msg
 }
 "
 {
