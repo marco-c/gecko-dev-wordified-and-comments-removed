@@ -3141,6 +3141,8 @@ textureFormatsAreViewCompatible
 t
 .
 device
+.
+features
 format
 viewFormat
 )

@@ -1767,6 +1767,8 @@ isTextureFormatUsableAsRenderAttachment
 t
 .
 device
+.
+features
 format
 )
 ?

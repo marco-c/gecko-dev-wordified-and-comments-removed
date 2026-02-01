@@ -406,6 +406,8 @@ textureFormatsAreViewCompatible
 t
 .
 device
+.
+features
 textureFormat
 viewFormat
 )
@@ -2728,6 +2730,8 @@ textureFormatsAreViewCompatible
 t
 .
 device
+.
+features
 textureFormat
 viewFormat
 )
@@ -2816,6 +2820,8 @@ isTextureFormatUsableWithStorageAccessMode
 t
 .
 device
+.
+features
 viewFormat
 '
 write
@@ -2852,6 +2858,8 @@ isTextureFormatColorRenderable
 t
 .
 device
+.
+features
 viewFormat
 )
 )

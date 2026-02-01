@@ -1,6 +1,6 @@
 import
 {
-isCompatibilityDevice
+isCompatibilityMode
 }
 from
 '
@@ -6979,7 +6979,7 @@ export
 function
 isTextureFormatUsableWithCopyExternalImageToTexture
 (
-device
+features
 format
 )
 {
@@ -7014,7 +7014,7 @@ format
 &
 isTextureFormatColorRenderable
 (
-device
+features
 format
 )
 )
@@ -7944,7 +7944,7 @@ export
 function
 textureDimensionAndFormatCompatibleForDevice
 (
-device
+features
 dimension
 format
 )
@@ -7969,8 +7969,6 @@ format
 &
 hasFeature
 (
-device
-.
 features
 '
 texture
@@ -7994,8 +7992,6 @@ format
 &
 hasFeature
 (
-device
-.
 features
 '
 texture
@@ -8071,7 +8067,7 @@ export
 function
 textureViewDimensionAndFormatCompatibleForDevice
 (
-device
+features
 dimension
 format
 )
@@ -8079,7 +8075,7 @@ format
 return
 textureDimensionAndFormatCompatibleForDevice
 (
-device
+features
 getTextureDimensionFromView
 (
 dimension
@@ -8092,15 +8088,15 @@ export
 function
 textureFormatsAreViewCompatible
 (
-device
+features
 a
 b
 )
 {
 return
-isCompatibilityDevice
+isCompatibilityMode
 (
-device
+features
 )
 ?
 a
@@ -9162,7 +9158,7 @@ export
 function
 isTextureFormatUsableAsRenderAttachment
 (
-device
+features
 format
 )
 {
@@ -9180,8 +9176,6 @@ rg11b10ufloat
 return
 hasFeature
 (
-device
-.
 features
 '
 rg11b10ufloat
@@ -9202,8 +9196,6 @@ format
 return
 hasFeature
 (
-device
-.
 features
 '
 texture
@@ -9216,17 +9208,21 @@ tier1
 ;
 }
 return
+!
+!
+(
 kTextureFormatInfo
 [
 format
 ]
 .
 colorRender
-|
-|
+?
+?
 isDepthOrStencilTextureFormat
 (
 format
+)
 )
 ;
 }
@@ -9234,7 +9230,7 @@ export
 function
 isTextureFormatColorRenderable
 (
-device
+features
 format
 )
 {
@@ -9252,8 +9248,6 @@ rg11b10ufloat
 return
 hasFeature
 (
-device
-.
 features
 '
 rg11b10ufloat
@@ -9274,8 +9268,6 @@ format
 return
 hasFeature
 (
-device
-.
 features
 '
 texture
@@ -9302,7 +9294,7 @@ export
 function
 isTextureFormatBlendable
 (
-device
+features
 format
 )
 {
@@ -9311,7 +9303,7 @@ if
 !
 isTextureFormatColorRenderable
 (
-device
+features
 format
 )
 )
@@ -9334,8 +9326,6 @@ rg11b10ufloat
 return
 hasFeature
 (
-device
-.
 features
 '
 rg11b10ufloat
@@ -9356,8 +9346,6 @@ format
 return
 hasFeature
 (
-device
-.
 features
 '
 float32
@@ -9385,7 +9373,7 @@ export
 function
 isTextureFormatFilterable
 (
-device
+features
 format
 )
 {
@@ -9428,8 +9416,6 @@ format
 return
 hasFeature
 (
-device
-.
 features
 '
 float32
@@ -9922,15 +9908,15 @@ rg32uint
 function
 isTextureFormatUsableAsWriteOnlyStorageTexture
 (
-device
+features
 format
 )
 {
 if
 (
-isCompatibilityDevice
+isCompatibilityMode
 (
-device
+features
 )
 )
 {
@@ -9965,8 +9951,6 @@ bgra8unorm
 &
 hasFeature
 (
-device
-.
 features
 '
 bgra8unorm
@@ -9990,8 +9974,6 @@ format
 &
 hasFeature
 (
-device
-.
 features
 '
 texture
@@ -10048,7 +10030,7 @@ export
 function
 isTextureFormatUsableWithStorageAccessMode
 (
-device
+features
 format
 access
 )
@@ -10073,7 +10055,7 @@ only
 return
 isTextureFormatUsableAsReadOnlyStorageTexture
 (
-device
+features
 format
 )
 ;
@@ -10092,7 +10074,7 @@ only
 return
 isTextureFormatUsableAsWriteOnlyStorageTexture
 (
-device
+features
 format
 )
 ;
@@ -10111,7 +10093,7 @@ write
 return
 isTextureFormatUsableAsReadWriteStorageTexture
 (
-device
+features
 format
 )
 ;
@@ -10120,7 +10102,7 @@ format
 function
 isTextureFormatUsableAsReadOnlyStorageTexture
 (
-device
+features
 format
 )
 {
@@ -10142,7 +10124,7 @@ false
 return
 isTextureFormatUsableAsWriteOnlyStorageTexture
 (
-device
+features
 format
 )
 ;
@@ -10151,7 +10133,7 @@ export
 function
 isTextureFormatUsableAsStorageFormatInCreateShaderModule
 (
-device
+features
 format
 )
 {
@@ -10167,7 +10149,7 @@ format
 function
 isTextureFormatUsableAsReadWriteStorageTexture
 (
-device
+features
 format
 )
 {
@@ -10182,8 +10164,6 @@ format
 return
 hasFeature
 (
-device
-.
 features
 '
 texture
@@ -10362,15 +10342,15 @@ export
 function
 isTextureFormatMultisampled
 (
-device
+features
 format
 )
 {
 if
 (
-isCompatibilityDevice
+isCompatibilityMode
 (
-device
+features
 )
 )
 {
@@ -10406,8 +10386,6 @@ rg11b10ufloat
 return
 hasFeature
 (
-device
-.
 features
 '
 rg11b10ufloat
@@ -10428,8 +10406,6 @@ format
 return
 hasFeature
 (
-device
-.
 features
 '
 texture
@@ -10454,7 +10430,7 @@ export
 function
 isTextureFormatResolvable
 (
-device
+features
 format
 )
 {
@@ -10472,8 +10448,6 @@ rg11b10ufloat
 return
 hasFeature
 (
-device
-.
 features
 '
 rg11b10ufloat
@@ -10494,8 +10468,6 @@ format
 return
 hasFeature
 (
-device
-.
 features
 '
 texture
@@ -10512,7 +10484,7 @@ if
 !
 isTextureFormatMultisampled
 (
-device
+features
 format
 )
 )

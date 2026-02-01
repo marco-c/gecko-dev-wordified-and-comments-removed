@@ -2281,6 +2281,8 @@ textureViewDimensionAndFormatCompatibleForDevice
 this
 .
 device
+.
+features
 viewDimension
 format
 )
@@ -2322,6 +2324,8 @@ textureDimensionAndFormatCompatibleForDevice
 this
 .
 device
+.
+features
 dimension
 format
 )
@@ -2383,6 +2387,8 @@ isTextureFormatResolvable
 this
 .
 device
+.
+features
 format
 )
 )
@@ -2665,6 +2671,8 @@ isTextureFormatUsableWithStorageAccessMode
 this
 .
 device
+.
+features
 format
 access
 )
@@ -2731,6 +2739,8 @@ isTextureFormatUsableAsRenderAttachment
 this
 .
 device
+.
+features
 format
 )
 )
@@ -2798,6 +2808,8 @@ isTextureFormatMultisampled
 this
 .
 device
+.
+features
 format
 )
 )
@@ -2866,6 +2878,8 @@ isTextureFormatBlendable
 this
 .
 device
+.
+features
 format
 )
 {
@@ -2922,6 +2936,8 @@ isTextureFormatFilterable
 this
 .
 device
+.
+features
 format
 )
 {
@@ -3055,6 +3071,8 @@ isTextureFormatUsableWithCopyExternalImageToTexture
 this
 .
 device
+.
+features
 format
 )
 can
