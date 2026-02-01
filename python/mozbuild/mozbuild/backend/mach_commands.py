@@ -833,16 +833,6 @@ associations
 "
 *
 .
-jsm
-"
-:
-"
-javascript
-"
-            
-"
-*
-.
 sjs
 "
 :
