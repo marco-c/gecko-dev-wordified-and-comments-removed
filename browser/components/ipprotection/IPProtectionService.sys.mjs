@@ -900,6 +900,8 @@ helper
 helper
 .
 initOnStartupCompleted
+?
+.
 (
 )
 )
