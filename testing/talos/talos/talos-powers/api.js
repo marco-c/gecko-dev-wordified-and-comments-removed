@@ -1102,6 +1102,7 @@ e
 )
 {
 }
+await
 AboutNewTab
 .
 onBrowserReady
