@@ -77,7 +77,7 @@ include
 "
 nsCSSPseudoElementList
 .
-h
+inc
 "
 #
 undef
@@ -647,7 +647,7 @@ include
 "
 nsCSSPseudoElementList
 .
-h
+inc
 "
 #
 undef

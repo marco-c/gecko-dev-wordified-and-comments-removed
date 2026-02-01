@@ -29,7 +29,7 @@ include
 "
 nsDisplayItemTypesList
 .
-h
+inc
 "
 #
 undef
@@ -109,7 +109,7 @@ include
 "
 nsDisplayItemTypesList
 .
-h
+inc
 "
 #
 undef
@@ -163,7 +163,7 @@ include
 "
 nsDisplayItemTypesList
 .
-h
+inc
 "
 #
 undef

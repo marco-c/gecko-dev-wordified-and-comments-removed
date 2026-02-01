@@ -245,7 +245,7 @@ include
 "
 nsCSSCounterDescList
 .
-h
+inc
 "
 #
 undef

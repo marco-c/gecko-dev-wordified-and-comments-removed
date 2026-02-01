@@ -4431,7 +4431,7 @@ include
 "
 BuiltinCounterStyleList
 .
-h
+inc
 "
 #
 undef
@@ -4496,7 +4496,7 @@ include
 "
 BuiltinCounterStyleList
 .
-h
+inc
 "
 #
 undef

@@ -2676,7 +2676,7 @@ include
 "
 nsPresArenaObjectList
 .
-h
+inc
 "
 #
 undef
@@ -2762,7 +2762,7 @@ include
 "
 nsDisplayListArenaTypes
 .
-h
+inc
 "
 #
 undef
@@ -4076,7 +4076,7 @@ include
 "
 nsPresArenaObjectList
 .
-h
+inc
 "
 #
 undef
@@ -4158,7 +4158,7 @@ include
 "
 nsDisplayListArenaTypes
 .
-h
+inc
 "
 #
 undef

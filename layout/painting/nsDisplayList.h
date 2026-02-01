@@ -438,7 +438,7 @@ include
 "
 nsDisplayListArenaTypes
 .
-h
+inc
 "
 #
 undef
@@ -2913,7 +2913,7 @@ include
 "
 nsDisplayItemTypesList
 .
-h
+inc
 "
 static_assert
 (

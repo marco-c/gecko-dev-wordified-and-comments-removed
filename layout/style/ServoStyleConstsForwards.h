@@ -777,7 +777,7 @@ mozilla
 /
 ServoLockedArcTypeList
 .
-h
+inc
 "
 #
 undef
@@ -802,7 +802,7 @@ mozilla
 /
 ServoBoxedTypeList
 .
-h
+inc
 "
 #
 undef

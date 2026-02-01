@@ -32,7 +32,7 @@ include
 "
 nsPresArenaObjectList
 .
-h
+inc
 "
 #
 undef
