@@ -877,6 +877,9 @@ showEditSuggestion
 safeSearchTerm
 else
 null
+isRemovalAllowed
+=
+true
 /
 /
 Reducing

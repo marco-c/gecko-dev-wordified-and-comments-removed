@@ -749,6 +749,14 @@ onSuggestionClicked
 onAutoComplete
 =
 onAutoComplete
+onRemoveClicked
+=
+{
+/
+/
+not
+supported
+}
 )
 }
 }

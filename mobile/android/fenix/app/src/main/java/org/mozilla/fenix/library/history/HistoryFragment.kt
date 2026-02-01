@@ -3272,6 +3272,10 @@ suggestion
 )
 )
 }
+onRemoveClicked
+=
+{
+}
 onVisibilityStateUpdated
 =
 {

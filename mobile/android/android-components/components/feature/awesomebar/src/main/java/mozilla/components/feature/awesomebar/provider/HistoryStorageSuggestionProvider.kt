@@ -1022,6 +1022,9 @@ result
 url
 else
 null
+isRemovalAllowed
+=
+true
 score
 =
 result
