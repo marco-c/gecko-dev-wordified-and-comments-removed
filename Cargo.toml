@@ -157,6 +157,15 @@ manager
 /
 ssl
 /
+pdf_trust_anchors
+"
+"
+security
+/
+manager
+/
+ssl
+/
 trust_anchors
 "
 "
