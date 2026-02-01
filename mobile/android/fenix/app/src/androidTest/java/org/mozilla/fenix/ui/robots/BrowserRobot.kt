@@ -11731,6 +11731,9 @@ itemContainingText
 title
 )
 )
+waitForAppWindowToBeUpdated
+(
+)
 DownloadRobot
 (
 composeTestRule
