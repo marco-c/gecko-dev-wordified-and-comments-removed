@@ -6524,7 +6524,7 @@ F32
 {
 masm
 .
-canonicalizeFloat
+canonicalizeFloatNaN
 (
 ReturnFloat32Reg
 )
@@ -6574,7 +6574,7 @@ F64
 {
 masm
 .
-canonicalizeDouble
+canonicalizeDoubleNaN
 (
 ReturnDoubleReg
 )
@@ -8488,7 +8488,7 @@ F32
 :
 masm
 .
-canonicalizeFloat
+canonicalizeFloatNaN
 (
 ReturnFloat32Reg
 )
@@ -8516,7 +8516,7 @@ F64
 :
 masm
 .
-canonicalizeDouble
+canonicalizeDoubleNaN
 (
 ReturnDoubleReg
 )
@@ -10147,7 +10147,7 @@ fpscratch
 ;
 masm
 .
-canonicalizeDouble
+canonicalizeDoubleNaN
 (
 fpscratch
 )
@@ -10199,7 +10199,7 @@ fpscratch
 ;
 masm
 .
-canonicalizeDouble
+canonicalizeDoubleNaN
 (
 fpscratch
 )
@@ -10474,7 +10474,7 @@ dscratch
 }
 masm
 .
-canonicalizeDouble
+canonicalizeDoubleNaN
 (
 dscratch
 )

@@ -4869,7 +4869,7 @@ void
 MacroAssembler
 :
 :
-canonicalizeFloat
+canonicalizeFloatNaN
 (
 FloatRegister
 reg
@@ -4912,7 +4912,7 @@ void
 MacroAssembler
 :
 :
-canonicalizeDouble
+canonicalizeDoubleNaN
 (
 FloatRegister
 reg
