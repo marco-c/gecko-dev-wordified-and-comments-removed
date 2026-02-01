@@ -29681,8 +29681,7 @@ R0
 "
 "
 continue
-+
-1
+hideshortcuts
 ;
 Require
 elevation
