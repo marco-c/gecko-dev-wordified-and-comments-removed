@@ -1391,6 +1391,17 @@ const
 dailyBriefV2Enabled
 =
 prefs
+.
+trainhopConfig
+?
+.
+dailyBriefing_v2
+?
+.
+enabled
+|
+|
+prefs
 [
 PREF_DAILY_BRIEF_V2_ENABLED
 ]
