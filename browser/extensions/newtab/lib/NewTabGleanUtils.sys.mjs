@@ -130,6 +130,9 @@ event
 "
 memory_distribution
 "
+"
+timing_distribution
+"
 ]
 ;
 /
