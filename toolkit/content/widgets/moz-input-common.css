@@ -1219,6 +1219,13 @@ link
 "
 ]
 :
+not
+(
+[
+hidden
+]
+)
+:
 :
 slotted
 (
@@ -1231,6 +1238,13 @@ support
 link
 "
 ]
+:
+not
+(
+[
+hidden
+]
+)
 )
 {
 display
