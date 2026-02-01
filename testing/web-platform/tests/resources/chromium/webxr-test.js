@@ -6031,7 +6031,7 @@ vrMojom
 .
 XRPresentationTransportMethod
 .
-SUBMIT_AS_MAILBOX_HOLDER
+SUBMIT_AS_TEST
 waitForTransferNotification
 :
 true
