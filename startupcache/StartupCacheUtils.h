@@ -50,17 +50,6 @@ mozilla
 namespace
 scache
 {
-enum
-class
-ResourceType
-{
-Gre
-App
-Xpi
-File
-Other
-}
-;
 nsresult
 NewObjectInputStreamFromBuffer
 (
@@ -137,9 +126,6 @@ in
 nsACString
 &
 out
-ResourceType
-*
-aResourceType
 )
 ;
 template
@@ -165,9 +151,6 @@ in
 nsACString
 &
 out
-ResourceType
-*
-aResourceType
 )
 {
 return
@@ -179,7 +162,6 @@ N
 1
 in
 out
-aResourceType
 )
 ;
 }
