@@ -90,15 +90,9 @@ setup
 {
 TabProvider
 .
-shouldSkipWindow
+getOrderedNonPrivateWindows
 =
-mockShouldSkipWindow
-;
-TabProvider
-.
-getWindowEnumerator
-=
-mockGetWindowEnumerator
+mockGetOrderedNonPrivateWindows
 .
 bind
 (
