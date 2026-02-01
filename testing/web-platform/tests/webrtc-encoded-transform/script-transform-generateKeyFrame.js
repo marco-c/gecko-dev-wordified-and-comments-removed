@@ -17,7 +17,7 @@ keyFrameCount
 0
 ;
 let
-gotFrame
+gotFrameCallback
 ;
 transformer
 .

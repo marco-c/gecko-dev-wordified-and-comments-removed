@@ -12,7 +12,7 @@ event
 transformer
 ;
 let
-gotFrame
+gotFrameCallback
 ;
 transformer
 .
