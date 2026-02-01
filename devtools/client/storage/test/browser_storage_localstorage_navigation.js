@@ -283,7 +283,7 @@ anymore
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

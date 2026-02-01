@@ -423,7 +423,7 @@ network
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 gBrowser
 .

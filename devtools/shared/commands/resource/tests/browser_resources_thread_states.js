@@ -1236,7 +1236,7 @@ load
 const
 reloaded
 =
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

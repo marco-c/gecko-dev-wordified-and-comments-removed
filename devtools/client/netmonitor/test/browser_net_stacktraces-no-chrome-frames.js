@@ -92,7 +92,7 @@ test
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

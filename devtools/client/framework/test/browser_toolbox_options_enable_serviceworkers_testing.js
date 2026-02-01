@@ -190,7 +190,7 @@ click
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;
@@ -338,7 +338,7 @@ destroy
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

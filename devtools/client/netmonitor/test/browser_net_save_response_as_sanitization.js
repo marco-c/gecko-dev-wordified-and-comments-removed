@@ -356,7 +356,7 @@ monitor
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

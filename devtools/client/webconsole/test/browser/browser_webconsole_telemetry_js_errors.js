@@ -108,7 +108,7 @@ JSMSG_NOT_FUNCTION
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

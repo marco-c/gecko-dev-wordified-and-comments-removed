@@ -207,7 +207,7 @@ expectedEventTimings
 }
 )
 ;
-reloadBrowser
+reloadSelectedTab
 (
 {
 waitForLoad

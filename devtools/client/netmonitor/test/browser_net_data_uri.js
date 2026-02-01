@@ -110,7 +110,7 @@ monitor
 1
 )
 ;
-reloadBrowser
+reloadSelectedTab
 (
 {
 waitForLoad
@@ -402,7 +402,7 @@ monitor
 1
 )
 ;
-reloadBrowser
+reloadSelectedTab
 (
 {
 waitForLoad

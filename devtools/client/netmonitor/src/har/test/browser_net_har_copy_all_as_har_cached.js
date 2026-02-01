@@ -109,7 +109,7 @@ runs
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

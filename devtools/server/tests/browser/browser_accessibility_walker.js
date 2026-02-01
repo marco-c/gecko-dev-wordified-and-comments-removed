@@ -1019,7 +1019,7 @@ event
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

@@ -160,7 +160,7 @@ duplicated
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

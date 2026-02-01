@@ -347,7 +347,7 @@ navigation
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

@@ -994,7 +994,7 @@ disabled
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

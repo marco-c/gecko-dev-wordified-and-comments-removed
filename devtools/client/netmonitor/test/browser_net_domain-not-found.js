@@ -108,7 +108,7 @@ monitor
 1
 )
 ;
-reloadBrowser
+reloadSelectedTab
 (
 {
 waitForLoad

@@ -418,7 +418,7 @@ stylesheet
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

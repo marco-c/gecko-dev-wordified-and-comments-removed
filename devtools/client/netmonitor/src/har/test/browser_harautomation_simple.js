@@ -77,7 +77,7 @@ inspector
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

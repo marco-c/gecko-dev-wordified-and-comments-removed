@@ -900,7 +900,7 @@ content
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

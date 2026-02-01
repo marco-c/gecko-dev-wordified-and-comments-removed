@@ -265,7 +265,7 @@ nodePrincipal
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

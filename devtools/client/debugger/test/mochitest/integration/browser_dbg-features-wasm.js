@@ -42,7 +42,7 @@ webconsole
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

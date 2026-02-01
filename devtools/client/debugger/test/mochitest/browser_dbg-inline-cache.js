@@ -230,7 +230,7 @@ script
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;
@@ -403,7 +403,7 @@ attempt
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;
@@ -521,7 +521,7 @@ attempt
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;
@@ -666,7 +666,7 @@ attempt
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;
@@ -784,7 +784,7 @@ attempt
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

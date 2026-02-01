@@ -1106,11 +1106,8 @@ state
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
-tab
-.
-linkedBrowser
 )
 ;
 result
@@ -2239,11 +2236,8 @@ Block
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
-tab
-.
-linkedBrowser
 )
 ;
 result

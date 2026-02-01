@@ -269,7 +269,7 @@ manager
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

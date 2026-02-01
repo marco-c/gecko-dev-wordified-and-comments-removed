@@ -844,7 +844,7 @@ target
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 {
 waitForLoad

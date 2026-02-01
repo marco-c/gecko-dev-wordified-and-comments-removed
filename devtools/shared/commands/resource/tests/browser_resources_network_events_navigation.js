@@ -247,7 +247,7 @@ onUpdated
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;
@@ -640,7 +640,7 @@ IFRAME_JS_CONTENT
 ;
 }
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;
@@ -1008,7 +1008,7 @@ true
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

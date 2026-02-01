@@ -943,7 +943,7 @@ reloading
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;
@@ -1115,9 +1115,7 @@ frame
 -
 com
 -
-new
--
-bc
+2
 {
 }
 }

@@ -186,7 +186,7 @@ in
 order
 to
 ensure
-renduring
+rendering
 the
 console
 "
@@ -208,15 +208,8 @@ tab
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
-{
-browser
-:
-tab1
-.
-linkedBrowser
-}
 )
 ;
 info

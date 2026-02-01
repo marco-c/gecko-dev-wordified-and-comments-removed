@@ -1020,7 +1020,7 @@ targets
 length
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

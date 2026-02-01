@@ -146,7 +146,7 @@ selectedTab
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

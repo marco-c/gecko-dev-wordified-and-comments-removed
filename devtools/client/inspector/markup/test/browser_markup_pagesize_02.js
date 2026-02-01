@@ -86,7 +86,7 @@ children
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

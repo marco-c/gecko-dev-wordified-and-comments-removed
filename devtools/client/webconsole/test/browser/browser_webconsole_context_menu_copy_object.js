@@ -372,7 +372,7 @@ TEST_URI
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;
