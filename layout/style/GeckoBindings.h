@@ -3419,6 +3419,13 @@ const
 nsAtom
 *
 aAnchorName
+const
+mozilla
+:
+:
+StyleCascadeLevel
+*
+aTreeScope
 mozilla
 :
 :
@@ -3450,6 +3457,13 @@ const
 nsAtom
 *
 aAnchorName
+const
+mozilla
+:
+:
+StyleCascadeLevel
+*
+aTreeScope
 mozilla
 :
 :

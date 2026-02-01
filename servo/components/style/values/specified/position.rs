@@ -10968,6 +10968,11 @@ Self
 {
 target_element
 :
+TreeScoped
+:
+:
+with_default_level
+(
 target_element
 .
 unwrap_or_else
@@ -10976,6 +10981,7 @@ DashedIdent
 :
 :
 empty
+)
 )
 side
 fallback

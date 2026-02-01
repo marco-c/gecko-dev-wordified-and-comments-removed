@@ -65,6 +65,7 @@ GenericPositionComponent
 PositionOrAuto
 as
 GenericPositionOrAuto
+TreeScoped
 ZIndex
 as
 GenericZIndex
@@ -324,7 +325,10 @@ resolve
 anchor_name
 :
 &
+TreeScoped
+<
 DashedIdent
+>
 anchor_side
 :
 &
@@ -391,11 +395,17 @@ Gecko_GetAnchorPosOffset
 params
 anchor_name
 .
+value
+.
 0
 .
 as_ptr
 (
 )
+&
+anchor_name
+.
+scope
 prop_side
 as
 u8
