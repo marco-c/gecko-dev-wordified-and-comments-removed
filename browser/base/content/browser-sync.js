@@ -3600,7 +3600,7 @@ button
 addEventListener
 (
 "
-click
+command
 "
 this
 )
@@ -3630,7 +3630,7 @@ button
 addEventListener
 (
 "
-click
+command
 "
 this
 )
@@ -3777,11 +3777,6 @@ break
 case
 "
 command
-"
-:
-case
-"
-click
 "
 :
 {
