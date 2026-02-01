@@ -1002,7 +1002,7 @@ moz
 -
 mdn
 -
-title2
+title
 "
 description_string_id
 :
