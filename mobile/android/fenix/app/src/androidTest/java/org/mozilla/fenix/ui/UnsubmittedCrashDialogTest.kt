@@ -408,7 +408,7 @@ HomeActivityTestRule
 .
 withDefaultSettingsOverrides
 (
-useNewCrashReporterDialog
+useNewCrashReporterFlow
 =
 true
 )

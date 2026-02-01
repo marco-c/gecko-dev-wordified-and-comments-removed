@@ -4289,11 +4289,11 @@ isMainProcess
 )
 &
 &
-Config
+components
 .
-channel
+settings
 .
-isNightlyOrDebug
+useNewCrashReporterFlow
 &
 &
 !

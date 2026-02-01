@@ -8796,7 +8796,7 @@ settings
 (
 )
 .
-useNewCrashReporterDialog
+useNewCrashReporterFlow
 )
 {
 return

@@ -980,7 +980,7 @@ settings
 (
 )
 .
-useNewCrashReporterDialog
+useNewCrashReporterFlow
 runtimeTagProviders
 =
 listOf

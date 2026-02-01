@@ -506,11 +506,12 @@ disable
 new
 crash
 reporter
+flow
 .
 *
 /
 var
-isUseNewCrashReporterDialog
+isUseNewCrashReporterFlow
 :
 Boolean
 /

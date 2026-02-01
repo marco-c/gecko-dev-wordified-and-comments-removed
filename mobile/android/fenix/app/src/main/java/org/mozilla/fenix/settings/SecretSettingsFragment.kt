@@ -1975,7 +1975,7 @@ settings
 (
 )
 .
-useNewCrashReporterDialog
+useNewCrashReporterFlow
 onPreferenceChangeListener
 =
 Preference
@@ -1992,7 +1992,7 @@ settings
 (
 )
 .
-useNewCrashReporterDialog
+useNewCrashReporterFlow
 =
 newValue
 as

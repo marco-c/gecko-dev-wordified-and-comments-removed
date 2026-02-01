@@ -538,7 +538,7 @@ Boolean
 settings
 .
 shouldUseBottomToolbar
-isUseNewCrashReporterDialog
+isUseNewCrashReporterFlow
 :
 Boolean
 =
@@ -658,9 +658,9 @@ shouldUseBottomToolbar
 shouldUseBottomToolbar
 this
 .
-isUseNewCrashReporterDialog
+isUseNewCrashReporterFlow
 =
-isUseNewCrashReporterDialog
+isUseNewCrashReporterFlow
 this
 .
 isTabSwipeCFREnabled
@@ -954,7 +954,7 @@ skipOnboarding
 Boolean
 =
 false
-useNewCrashReporterDialog
+useNewCrashReporterFlow
 :
 Boolean
 =
@@ -1024,9 +1024,9 @@ true
 isPageLoadTranslationsPromptEnabled
 =
 false
-isUseNewCrashReporterDialog
+isUseNewCrashReporterFlow
 =
-useNewCrashReporterDialog
+useNewCrashReporterFlow
 isTabSwipeCFREnabled
 =
 true
