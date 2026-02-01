@@ -71,7 +71,7 @@ build
 gcc
 sixgill_rev
 =
-a84b31ab04ee
+0b78708b131a
 sixgill_repo
 =
 https
