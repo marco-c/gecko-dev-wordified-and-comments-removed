@@ -3126,6 +3126,16 @@ aDescendantFrame
 )
 ;
 static
+bool
+HasAbsolutelyPositionedDescendants
+(
+const
+nsIFrame
+*
+aFrame
+)
+;
+static
 nsBlockFrame
 *
 FindNearestBlockAncestor

@@ -1490,6 +1490,11 @@ mIsInLastColumnBalancingReflow
 1
 ;
 bool
+mIsInColumnMeasuringReflow
+:
+1
+;
+bool
 mColumnSetWrapperHasNoBSizeLeft
 :
 1
