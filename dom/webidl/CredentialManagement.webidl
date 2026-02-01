@@ -370,6 +370,13 @@ required
 dictionary
 CredentialCreationOptions
 {
+CredentialMediationRequirement
+mediation
+=
+"
+optional
+"
+;
 /
 /
 This
