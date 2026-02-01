@@ -29,7 +29,6 @@ pdf
 ;
 is
 (
-(
 await
 getPageExtractor
 (
@@ -38,9 +37,6 @@ getPageExtractor
 getText
 (
 )
-)
-.
-text
 [
 "
 Etymology
