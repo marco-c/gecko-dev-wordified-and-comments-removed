@@ -704,6 +704,9 @@ index
 isSponsored
 :
 true
+isManageable
+:
+true
 url
 :
 "
