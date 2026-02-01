@@ -104,6 +104,13 @@ key
 secs
 *
 1000
+if
+secs
+is
+not
+None
+else
+secs
 }
         
 self
