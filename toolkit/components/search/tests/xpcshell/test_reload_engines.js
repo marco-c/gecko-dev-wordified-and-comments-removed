@@ -998,13 +998,6 @@ equal
 (
 newDefault
 .
-QueryInterface
-(
-Ci
-.
-nsISearchEngine
-)
-.
 name
 "
 defaultInFRRegion
@@ -1032,13 +1025,6 @@ Assert
 equal
 (
 newDefaultPrivate
-.
-QueryInterface
-(
-Ci
-.
-nsISearchEngine
-)
 .
 name
 "

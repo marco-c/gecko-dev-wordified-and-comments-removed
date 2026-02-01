@@ -1009,7 +1009,7 @@ originated
 *
 param
 {
-nsISearchEngine
+SearchEngine
 }
 engine
 *
@@ -1928,7 +1928,7 @@ form
 *
 param
 {
-nsISearchEngine
+SearchEngine
 }
 engine
 *
@@ -2034,7 +2034,7 @@ SAP
 *
 param
 {
-nsISearchEngine
+SearchEngine
 |
 null
 }
@@ -2300,7 +2300,7 @@ originated
 *
 param
 {
-nsISearchEngine
+SearchEngine
 }
 engine
 *

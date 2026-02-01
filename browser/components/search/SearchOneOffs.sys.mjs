@@ -273,7 +273,7 @@ urlbar
 *
 property
 {
-nsISearchEngine
+SearchEngine
 }
 engine
 *
@@ -6725,7 +6725,7 @@ pick
 *
 param
 {
-nsISearchEngine
+SearchEngine
 }
 engine
 *

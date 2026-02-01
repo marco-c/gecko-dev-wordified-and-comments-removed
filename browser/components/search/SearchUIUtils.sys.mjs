@@ -2481,7 +2481,7 @@ background
 param
 {
 ?
-nsISearchEngine
+SearchEngine
 }
 [
 options
@@ -2890,7 +2890,7 @@ object
 *
 param
 {
-nsISearchEngine
+SearchEngine
 }
 options
 .

@@ -7186,7 +7186,7 @@ opened
 *
 property
 {
-nsISearchEngine
+SearchEngine
 }
 engine
 *
@@ -9038,7 +9038,7 @@ use
 *
 param
 {
-nsISearchEngine
+SearchEngine
 }
 [
 searchEngine
@@ -14358,7 +14358,7 @@ options
 *
 param
 {
-nsISearchEngine
+SearchEngine
 }
 [
 options
@@ -15184,7 +15184,7 @@ options
 *
 param
 {
-nsISearchEngine
+SearchEngine
 }
 options
 .
@@ -23004,7 +23004,7 @@ send
 *
 param
 {
-nsISearchEngine
+SearchEngine
 }
 engine
 *
@@ -30262,7 +30262,7 @@ returns
 {
 Promise
 <
-nsISearchEngine
+SearchEngine
 >
 }
 *

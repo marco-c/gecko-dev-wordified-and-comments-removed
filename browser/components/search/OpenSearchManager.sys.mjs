@@ -370,7 +370,7 @@ search
 engine
 objects
 :
-nsISearchEngine
+SearchEngine
 objects
 /
 /
