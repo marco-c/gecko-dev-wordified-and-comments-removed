@@ -4758,13 +4758,6 @@ MaxScrollY
 break
 ;
 }
-#
-if
-!
-defined
-(
-XP_WIN
-)
 case
 nsIAccessibleEvent
 :
@@ -4804,8 +4797,6 @@ Priority
 break
 ;
 }
-#
-endif
 case
 nsIAccessibleEvent
 :

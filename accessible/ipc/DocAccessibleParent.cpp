@@ -4016,13 +4016,6 @@ IPC_OK
 )
 ;
 }
-#
-if
-!
-defined
-(
-XP_WIN
-)
 mozilla
 :
 :
@@ -4189,8 +4182,6 @@ IPC_OK
 )
 ;
 }
-#
-endif
 mozilla
 :
 :
