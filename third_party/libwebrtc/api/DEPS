@@ -588,6 +588,14 @@ no_unique_address
 .
 h
 "
+"
++
+rtc_base
+/
+thread_annotations
+.
+h
+"
 ]
 "
 local_network_access_permission
