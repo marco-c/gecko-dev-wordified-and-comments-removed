@@ -492,6 +492,11 @@ experiments
 experimentParticipation
 =
 isChecked
+experiments
+.
+rolloutParticipation
+=
+isChecked
 }
 bindDescription
 (
@@ -621,7 +626,7 @@ R
 .
 string
 .
-studies_description_4
+studies_description_3
 )
 val
 learnMore
