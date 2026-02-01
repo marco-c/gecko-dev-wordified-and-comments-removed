@@ -23455,14 +23455,6 @@ StaticPrefs
 print_prefer_system_dialog
 (
 )
-|
-|
-StaticPrefs
-:
-:
-print_always_print_silent
-(
-)
 ;
 }
 else
