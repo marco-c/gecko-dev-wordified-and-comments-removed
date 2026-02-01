@@ -389,11 +389,6 @@ IntlGuardToDateTimeFormat
 \
 _
 (
-IntlGuardToDurationFormat
-)
-\
-_
-(
 IntlGuardToNumberFormat
 )
 \
