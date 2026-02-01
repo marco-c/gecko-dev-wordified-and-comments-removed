@@ -38545,7 +38545,7 @@ storageBytes
 WasmArrayObject
 :
 :
-calcStorageBytesUnchecked
+calcArrayDataBytesUnchecked
 (
 elemSize
 numElements
