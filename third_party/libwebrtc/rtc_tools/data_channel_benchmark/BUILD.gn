@@ -507,6 +507,17 @@ video_encoder_factory_template_open_h264_adapter
 .
 .
 /
+pc
+:
+libjingle_peerconnection
+"
+"
+.
+.
+/
+.
+.
+/
 rtc_base
 :
 checks

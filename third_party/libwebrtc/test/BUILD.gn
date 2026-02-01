@@ -1741,14 +1741,6 @@ video_test_common
 /
 api
 :
-libjingle_peerconnection_api
-"
-"
-.
-.
-/
-api
-:
 media_stream_interface
 "
 "

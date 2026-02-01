@@ -445,6 +445,13 @@ mutex
 /
 api
 :
+jsep
+"
+"
+/
+/
+api
+:
 libjingle_peerconnection_api
 "
 "
@@ -492,6 +499,13 @@ utility
 pc
 :
 libjingle_peerconnection
+"
+"
+/
+/
+pc
+:
+webrtc_sdp
 "
 "
 /

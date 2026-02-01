@@ -3224,7 +3224,7 @@ deps
 /
 api
 :
-libjingle_peerconnection_api
+jsep
 "
 "
 .
@@ -3316,6 +3316,17 @@ deps
 .
 :
 wait_until
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
+jsep
 "
 "
 .
