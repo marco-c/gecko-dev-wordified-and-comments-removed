@@ -4977,17 +4977,6 @@ property
 )
 :
         
-if
-self
-.
-engine
-=
-=
-"
-gecko
-"
-:
-            
 for
 prefix
 pref
@@ -4996,7 +4985,7 @@ property
 .
 extra_prefixes
 :
-                
+            
 property
 .
 aliases
