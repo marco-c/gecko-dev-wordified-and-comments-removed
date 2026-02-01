@@ -118,6 +118,16 @@ libs
 .
 plugins
 .
+dependency
+.
+analysis
+)
+alias
+(
+libs
+.
+plugins
+.
 python
 .
 envs

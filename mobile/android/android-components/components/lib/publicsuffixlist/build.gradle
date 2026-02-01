@@ -58,6 +58,16 @@ MPL
 /
 plugins
 {
+alias
+(
+libs
+.
+plugins
+.
+dependency
+.
+analysis
+)
 id
 '
 com

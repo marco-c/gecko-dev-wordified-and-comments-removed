@@ -64,6 +64,16 @@ libs
 .
 plugins
 .
+dependency
+.
+analysis
+)
+alias
+(
+libs
+.
+plugins
+.
 kotlin
 .
 compose

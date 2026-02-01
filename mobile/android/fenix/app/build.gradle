@@ -113,6 +113,16 @@ libs
 .
 plugins
 .
+dependency
+.
+analysis
+)
+alias
+(
+libs
+.
+plugins
+.
 kotlin
 .
 android
