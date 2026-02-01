@@ -821,16 +821,6 @@ EndIf
 FileClose
 Stdout
 Return
-OnError
-:
-Abort
-"
-Failed
-to
-run
-tests
-.
-"
 FunctionEnd
 ;
 Expect
