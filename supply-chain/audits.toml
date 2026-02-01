@@ -50396,10 +50396,8 @@ code
 The
 exported
 extern
-\
 "
 C
-\
 "
 functions
 are
@@ -70369,7 +70367,7 @@ version
 "
 notes
 =
-"
+'
 This
 crate
 is
@@ -70378,10 +70376,8 @@ zero
 copy
 version
 of
-\
 "
 From
-\
 "
 .
 This
@@ -70395,7 +70391,7 @@ no
 ambient
 capabilities
 .
-"
+'
 [
 [
 audits
