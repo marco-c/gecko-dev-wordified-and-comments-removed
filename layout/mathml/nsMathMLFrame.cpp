@@ -206,8 +206,10 @@ aParent
 mEmbellishData
 .
 flags
-=
-0
+.
+clear
+(
+)
 ;
 mEmbellishData
 .
@@ -425,8 +427,10 @@ aEmbellishData
 aEmbellishData
 .
 flags
-=
-0
+.
+clear
+(
+)
 ;
 aEmbellishData
 .
