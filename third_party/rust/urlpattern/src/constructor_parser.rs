@@ -2,12 +2,6 @@ use
 crate
 :
 :
-UrlPatternInit
-;
-use
-crate
-:
-:
 error
 :
 :
@@ -39,6 +33,12 @@ tokenizer
 :
 :
 TokenType
+;
+use
+crate
+:
+:
+UrlPatternInit
 ;
 #
 [
