@@ -2262,9 +2262,9 @@ result
 -
 menu
 -
-trending
+learn
 -
-why
+more
 "
 }
 }
