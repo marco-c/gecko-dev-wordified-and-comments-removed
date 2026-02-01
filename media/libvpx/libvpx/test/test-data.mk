@@ -235,6 +235,16 @@ CONFIG_VP9_ENCODER
 )
 +
 =
+4x2
+.
+y4m
+LIBVPX_TEST_DATA
+-
+(
+CONFIG_VP9_ENCODER
+)
++
+=
 desktop_credits
 .
 y4m

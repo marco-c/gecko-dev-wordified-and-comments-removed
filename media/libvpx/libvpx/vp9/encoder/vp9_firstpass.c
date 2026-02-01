@@ -2597,7 +2597,6 @@ sr
 =
 0
 ;
-const
 int
 dim
 =
@@ -2611,6 +2610,14 @@ cpi
 -
 >
 initial_height
+)
+;
+dim
+=
+VPXMAX
+(
+dim
+MI_SIZE
 )
 ;
 while

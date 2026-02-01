@@ -3253,6 +3253,10 @@ VPX_CODEC_OK
 )
 ;
 }
+#
+if
+!
+CONFIG_REALTIME_ONLY
 TEST
 (
 EncodeAPI
@@ -3527,6 +3531,8 @@ VPX_CODEC_OK
 )
 ;
 }
+#
+endif
 void
 EncodeOssFuzz69906
 (

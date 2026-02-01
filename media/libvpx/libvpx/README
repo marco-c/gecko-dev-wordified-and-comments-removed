@@ -661,6 +661,11 @@ darwin24
 gcc
 arm64
 -
+darwin25
+-
+gcc
+arm64
+-
 linux
 -
 gcc
@@ -986,6 +991,11 @@ gcc
 x86_64
 -
 darwin24
+-
+gcc
+x86_64
+-
+darwin25
 -
 gcc
 x86_64

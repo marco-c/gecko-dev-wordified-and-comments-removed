@@ -218,6 +218,10 @@ kEncodeVectors
 ]
 =
 {
+#
+if
+!
+CONFIG_REALTIME_ONLY
 {
 :
 :
@@ -263,6 +267,8 @@ libvpx_test
 kTwoPassGood
 5
 }
+#
+endif
 {
 :
 :

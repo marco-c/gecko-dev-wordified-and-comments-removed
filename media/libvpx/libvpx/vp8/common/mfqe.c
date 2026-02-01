@@ -1345,10 +1345,10 @@ int
 i
 j
 ;
-vp8_zero
+vp8_zero_array
 (
-*
 map
+4
 )
 ;
 for

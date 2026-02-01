@@ -1282,6 +1282,13 @@ yes
 partial_idct_test
 .
 cc
+ifneq
+(
+(
+CONFIG_REALTIME_ONLY
+)
+yes
+)
 LIBVPX_TEST_SRCS
 -
 yes
@@ -1298,6 +1305,7 @@ yes
 tile_independence_test
 .
 cc
+endif
 LIBVPX_TEST_SRCS
 -
 yes

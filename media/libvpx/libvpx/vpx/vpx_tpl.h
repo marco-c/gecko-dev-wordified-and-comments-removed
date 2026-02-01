@@ -35,7 +35,7 @@ endif
 #
 define
 VPX_TPL_ABI_VERSION
-4
+5
 /
 *
 *

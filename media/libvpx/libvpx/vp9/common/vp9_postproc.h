@@ -95,6 +95,9 @@ uint8_t
 *
 limits
 ;
+int
+limits_size
+;
 int8_t
 *
 generated_noise
