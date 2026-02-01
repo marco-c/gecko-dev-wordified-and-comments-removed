@@ -432,6 +432,13 @@ js
 ]
 [
 "
+browser_contextmenu_chrome_images
+.
+js
+"
+]
+[
+"
 browser_contextmenu_contenteditable
 .
 js
