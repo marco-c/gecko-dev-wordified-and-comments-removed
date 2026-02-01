@@ -1035,6 +1035,8 @@ EncodedFrameMap
 void
 PurgeOldStats
 (
+Timestamp
+now
 )
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
