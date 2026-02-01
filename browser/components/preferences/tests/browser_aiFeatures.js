@@ -115,7 +115,7 @@ paneLoaded
 waitForPaneChange
 (
 "
-aiFeatures
+ai
 "
 )
 ;

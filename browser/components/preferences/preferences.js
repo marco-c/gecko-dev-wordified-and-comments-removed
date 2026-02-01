@@ -1451,7 +1451,7 @@ translations
 svg
 "
 }
-aiFeatures
+ai
 :
 {
 l10nId
@@ -1461,7 +1461,7 @@ preferences
 -
 ai
 -
-features
+controls
 -
 header
 "

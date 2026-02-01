@@ -1166,7 +1166,7 @@ paneExperimental
 paneMoreFromMozilla
 "
 "
-paneAiFeatures
+paneAi
 "
 ]
 ;
