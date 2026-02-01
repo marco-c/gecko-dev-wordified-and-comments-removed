@@ -71,15 +71,6 @@ include
 "
 api
 /
-jsep_session_description
-.
-h
-"
-#
-include
-"
-api
-/
 media_types
 .
 h

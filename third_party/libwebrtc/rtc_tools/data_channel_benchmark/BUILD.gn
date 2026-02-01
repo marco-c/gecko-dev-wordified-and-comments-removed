@@ -109,7 +109,7 @@ deps
 /
 api
 :
-libjingle_peerconnection_api
+jsep
 "
 ]
 }
@@ -157,7 +157,7 @@ signaling_interface
 /
 api
 :
-libjingle_peerconnection_api
+jsep
 "
 "
 .
@@ -299,6 +299,17 @@ field_trials
 api
 :
 field_trials_view
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
+jsep
 "
 "
 .

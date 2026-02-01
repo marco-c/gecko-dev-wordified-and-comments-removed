@@ -59,15 +59,6 @@ include
 "
 api
 /
-jsep_session_description
-.
-h
-"
-#
-include
-"
-api
-/
 rtp_parameters
 .
 h
@@ -97,9 +88,6 @@ h
 namespace
 webrtc
 {
-class
-JsepSessionDescription
-;
 struct
 SdpParseError
 ;

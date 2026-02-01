@@ -984,6 +984,17 @@ enable_media_with_defaults
 /
 api
 :
+jsep
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
 libjingle_peerconnection_api
 "
 "
