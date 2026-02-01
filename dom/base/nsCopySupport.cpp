@@ -1404,6 +1404,8 @@ ClipboardType
 aClipboardID
 bool
 aWithRubyAnnotation
+UpdateClipboard
+aUpdateClipboard
 )
 {
 NS_ENSURE_TRUE
@@ -1474,6 +1476,17 @@ rv
 rv
 )
 ;
+if
+(
+aUpdateClipboard
+=
+=
+UpdateClipboard
+:
+:
+Yes
+)
+{
 rv
 =
 PutToClipboard
@@ -1490,6 +1503,7 @@ rv
 rv
 )
 ;
+}
 return
 rv
 ;
