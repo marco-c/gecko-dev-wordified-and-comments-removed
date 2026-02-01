@@ -507,16 +507,6 @@ yaml
 "
 parser
 /
-html
-/
-metrics
-.
-yaml
-"
-    
-"
-parser
-/
 htmlparser
 /
 metrics
