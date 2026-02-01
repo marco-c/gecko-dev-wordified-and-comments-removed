@@ -1103,12 +1103,6 @@ fflush
 stdout
 )
 ;
-JS
-:
-:
-AutoSuppressGCAnalysis
-ignore
-;
 if
 (
 !
