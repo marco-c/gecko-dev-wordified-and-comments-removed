@@ -370,6 +370,8 @@ sysroot
 wasm32
 -
 wasi
+-
+terser
 linux64
 -
 searchfox
@@ -839,6 +841,8 @@ sysroot
 wasm32
 -
 wasi
+-
+terser
 macosx64
 -
 aarch64
@@ -1361,6 +1365,8 @@ sysroot
 wasm32
 -
 wasi
+-
+terser
 -
 vs
 -
