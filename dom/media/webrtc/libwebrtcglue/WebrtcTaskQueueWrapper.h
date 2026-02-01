@@ -101,7 +101,7 @@ nsIEventTarget
 >
 aTarget
 const
-nsACString
+nsLiteralCString
 &
 aName
 bool
