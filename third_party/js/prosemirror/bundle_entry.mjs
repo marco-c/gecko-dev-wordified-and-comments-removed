@@ -192,6 +192,9 @@ core
 export
 {
 defaultMarkdownParser
+defaultMarkdownSerializer
+MarkdownParser
+MarkdownSerializer
 }
 from
 "
@@ -207,6 +210,9 @@ Third
 party
 export
 {
+markdownParser
+markdownSerializer
+mentionNodeSpec
 suggestionsPlugin
 triggerCharacter
 }
