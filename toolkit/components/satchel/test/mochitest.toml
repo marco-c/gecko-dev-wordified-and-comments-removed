@@ -132,13 +132,6 @@ slow
 ]
 [
 "
-test_datalist_showPicker
-.
-html
-"
-]
-[
-"
 test_datalist_with_caching
 .
 html

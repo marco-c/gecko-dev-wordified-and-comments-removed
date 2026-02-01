@@ -1015,7 +1015,6 @@ showPopupWithResults
 rect
 dir
 results
-selectedIndex
 }
 )
 {
@@ -1322,6 +1321,15 @@ view
 =
 AutoCompleteResultView
 ;
+this
+.
+openedPopup
+.
+selectedIndex
+=
+-
+1
+;
 /
 /
 Reset
@@ -1488,14 +1496,6 @@ openedPopup
 invalidate
 (
 )
-;
-this
-.
-openedPopup
-.
-selectedIndex
-=
-selectedIndex
 ;
 this
 .
@@ -2453,7 +2453,6 @@ rect
 dir
 inputElementIdentifier
 formOrigin
-selectedIndex
 }
 =
 message
@@ -2498,7 +2497,6 @@ showPopupWithResults
 results
 rect
 dir
-selectedIndex
 }
 )
 ;
