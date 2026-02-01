@@ -857,7 +857,7 @@ mozilla
 com
 expires
 :
-150
+160
 telemetry_mirror
 :
 CANVAS_FINGERPRINTING_PER_TAB
