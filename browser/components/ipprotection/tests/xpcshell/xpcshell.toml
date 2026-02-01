@@ -60,6 +60,13 @@ js
 ]
 [
 "
+test_IPPAutoRestore
+.
+js
+"
+]
+[
+"
 test_IPPChannelFilter
 .
 js

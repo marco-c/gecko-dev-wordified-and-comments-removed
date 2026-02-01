@@ -637,7 +637,9 @@ by
 the
 *
 IPPAutoStart
-object
+and
+IPPAutoRestore
+objects
 above
 .
 *
