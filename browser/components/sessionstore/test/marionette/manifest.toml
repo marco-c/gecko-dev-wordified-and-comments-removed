@@ -22,13 +22,6 @@ py
 ]
 [
 "
-test_restore_aiwindow
-.
-py
-"
-]
-[
-"
 test_restore_loading_tab
 .
 py
