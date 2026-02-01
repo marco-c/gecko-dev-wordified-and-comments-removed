@@ -2533,11 +2533,10 @@ retval
 .
 extend
 (
-                
 [
+                
+(
                     
-(
-                        
 "
 %
 s
@@ -2546,10 +2545,10 @@ s
 %
 s
 "
-                        
+                    
 %
 (
-                            
+                        
 "
 "
 .
@@ -2557,7 +2556,7 @@ join
 (
 indent
 )
-                            
+                        
 files_end
 if
 filename
@@ -2566,13 +2565,13 @@ filename
 last_file
 else
 item_marker
-                            
-filename
                         
-)
+filename
                     
 )
-                    
+                
+)
+                
 for
 index
 filename
@@ -2581,9 +2580,8 @@ enumerate
 (
 filenames
 )
-                
-]
             
+]
 )
     
 return

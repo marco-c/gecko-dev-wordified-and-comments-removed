@@ -76,7 +76,6 @@ mock
 .
 patch
 (
-        
 "
 mozperftest
 .
@@ -86,7 +85,6 @@ functionaltestrunner
 .
 mozlog
 "
-    
 )
 :
         

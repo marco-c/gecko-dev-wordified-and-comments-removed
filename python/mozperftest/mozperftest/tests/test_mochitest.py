@@ -1502,7 +1502,6 @@ mock
 .
 patch
 (
-        
 "
 mozperftest
 .
@@ -1512,7 +1511,6 @@ mochitest
 .
 Path
 "
-    
 )
 :
         

@@ -30,9 +30,8 @@ PARAMS
 .
 update
 (
-    
 {
-        
+    
 "
 head_repository
 "
@@ -50,7 +49,7 @@ org
 /
 try
 "
-        
+    
 "
 project
 "
@@ -58,7 +57,7 @@ project
 "
 try
 "
-        
+    
 "
 target_kind
 "
@@ -66,13 +65,13 @@ target_kind
 "
 mochitest
 "
-        
+    
 "
 pushdate
 "
 :
 1593029536
-        
+    
 "
 pushlog_id
 "
@@ -80,7 +79,6 @@ pushlog_id
 "
 2
 "
-    
 }
 )
 PARAMS_NEW_CONFIG
@@ -94,9 +92,8 @@ PARAMS_NEW_CONFIG
 .
 update
 (
-    
 {
-        
+    
 "
 head_repository
 "
@@ -114,7 +111,7 @@ org
 /
 try
 "
-        
+    
 "
 project
 "
@@ -122,7 +119,7 @@ project
 "
 try
 "
-        
+    
 "
 target_kind
 "
@@ -130,13 +127,13 @@ target_kind
 "
 mochitest
 "
-        
+    
 "
 pushdate
 "
 :
 1593029536
-        
+    
 "
 pushlog_id
 "
@@ -144,7 +141,7 @@ pushlog_id
 "
 2
 "
-        
+    
 "
 try_task_config
 "
@@ -160,7 +157,7 @@ config
 :
 True
 }
-        
+    
 "
 try_mode
 "
@@ -168,7 +165,7 @@ try_mode
 "
 try_task_config
 "
-        
+    
 "
 target_tasks_method
 "
@@ -176,7 +173,7 @@ target_tasks_method
 "
 try_tasks
 "
-        
+    
 "
 test_manifest_loader
 "
@@ -184,7 +181,6 @@ test_manifest_loader
 "
 default
 "
-    
 }
 )
 pytest

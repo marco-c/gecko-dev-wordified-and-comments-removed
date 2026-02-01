@@ -232,8 +232,6 @@ an
 interface
 with
 a
-"
-"
 named
 setter
 "
@@ -339,8 +337,6 @@ an
 interface
 with
 a
-"
-"
 named
 deleter
 "
@@ -649,8 +645,6 @@ an
 interface
 with
 a
-"
-"
 descendant
 "
     

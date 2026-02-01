@@ -117,9 +117,8 @@ schema_dir
 =
 write_jsonschema_fixtures
 (
-        
 {
-            
+        
 "
 test_api
 .
@@ -128,7 +127,7 @@ json
 :
 dedent
 (
-                
+            
 "
 "
 "
@@ -347,11 +346,10 @@ parameters
 "
 "
 "
-            
-)
         
-}
+)
     
+}
 )
     
 assert
@@ -467,9 +465,8 @@ n
 .
 join
 (
-        
 [
-            
+        
 '
 [
 Throws
@@ -480,7 +477,7 @@ AsyncAmbiguous
 "
 ]
 '
-            
+        
 "
 any
 jsonSchemaAmbiguousMethod
@@ -493,9 +490,8 @@ args
 )
 ;
 "
-        
-]
     
+]
 )
     
 assert
@@ -543,9 +539,8 @@ n
 .
 join
 (
-        
 [
-            
+        
 '
 [
 Throws
@@ -556,7 +551,7 @@ AsyncAmbiguous
 "
 ]
 '
-            
+        
 "
 any
 configuredAsAmbiguousMethod
@@ -569,9 +564,8 @@ args
 )
 ;
 "
-        
-]
     
+]
 )
     
 assert

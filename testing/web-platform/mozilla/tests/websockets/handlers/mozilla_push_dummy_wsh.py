@@ -571,9 +571,8 @@ json
 .
 dumps
 (
-                
 {
-                    
+                
 "
 messageType
 "
@@ -581,7 +580,7 @@ messageType
 "
 notification
 "
-                    
+                
 "
 channelID
 "
@@ -595,7 +594,7 @@ channelID
 [
 0
 ]
-                    
+                
 "
 data
 "
@@ -610,7 +609,7 @@ post_body
 decode
 (
 )
-                    
+                
 "
 headers
 "
@@ -625,7 +624,7 @@ post_body
 0
 else
 None
-                    
+                
 "
 version
 "
@@ -636,9 +635,8 @@ uuid4
 (
 )
 )
-                
-}
             
+}
 )
         
 )
@@ -885,9 +883,8 @@ json
 .
 dumps
 (
-                    
 {
-                        
+                    
 "
 messageType
 "
@@ -895,27 +892,26 @@ messageType
 "
 hello
 "
-                        
+                    
 "
 uaid
 "
 :
 UAID
-                        
+                    
 "
 status
 "
 :
 200
-                        
+                    
 "
 use_webpush
 "
 :
 True
-                    
-}
                 
+}
 )
             
 )
@@ -949,9 +945,8 @@ json
 .
 dumps
 (
-                    
 {
-                        
+                    
 "
 messageType
 "
@@ -959,25 +954,25 @@ messageType
 "
 register
 "
-                        
+                    
 "
 uaid
 "
 :
 UAID
-                        
+                    
 "
 channelID
 "
 :
 channelID
-                        
+                    
 "
 status
 "
 :
 200
-                        
+                    
 "
 pushEndpoint
 "
@@ -1006,9 +1001,8 @@ channelID
 channelID
 }
 "
-                    
-}
                 
+}
 )
             
 )
@@ -1033,9 +1027,8 @@ json
 .
 dumps
 (
-                    
 {
-                        
+                    
 "
 messageType
 "
@@ -1043,7 +1036,7 @@ messageType
 "
 unregister
 "
-                        
+                    
 "
 channelID
 "
@@ -1054,15 +1047,14 @@ message
 channelID
 "
 ]
-                        
+                    
 "
 status
 "
 :
 200
-                    
-}
                 
+}
 )
             
 )

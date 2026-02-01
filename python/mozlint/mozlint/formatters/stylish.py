@@ -165,12 +165,10 @@ diff
 .
 lstrip
 (
-        
 "
 \
 n
 "
-    
 )
     
 fmt_summary

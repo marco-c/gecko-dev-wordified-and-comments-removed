@@ -261,9 +261,8 @@ files
 .
 extend
 (
-                    
 [
-                        
+                    
 f
 "
 {
@@ -274,12 +273,12 @@ f
 ext
 }
 "
-                        
+                    
 for
 f
 in
 base_names
-                        
+                    
 if
 f
 and
@@ -295,9 +294,8 @@ proto
 =
 =
 is_v4
-                    
-]
                 
+]
 )
         
 return
@@ -375,9 +373,8 @@ prefs_provider_update_time
 .
 update
 (
-                
 {
-                    
+                
 "
 browser
 .
@@ -391,9 +388,8 @@ nextupdatetime
 "
 :
 1
-                
-}
             
+}
 )
         
 is_safebrowsing_v5_enabled
@@ -477,9 +473,8 @@ prefs_provider_update_time
 .
 update
 (
-                    
 {
-                        
+                    
 "
 browser
 .
@@ -493,9 +488,8 @@ nextupdatetime
 "
 :
 1
-                    
-}
                 
+}
 )
             
 else
@@ -507,9 +501,8 @@ prefs_provider_update_time
 .
 update
 (
-                    
 {
-                        
+                    
 "
 browser
 .
@@ -523,9 +516,8 @@ nextupdatetime
 "
 :
 1
-                    
-}
                 
+}
 )
         
 enforce_prefs

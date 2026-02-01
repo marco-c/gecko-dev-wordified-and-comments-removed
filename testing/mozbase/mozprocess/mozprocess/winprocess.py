@@ -1290,7 +1290,9 @@ WINFUNCTYPE
 (
     
 HANDLE
+    
 LPVOID
+    
 LPCWSTR
 )
 CreateJobObjectFlags
@@ -1337,7 +1339,9 @@ WINFUNCTYPE
 (
     
 BOOL
+    
 HANDLE
+    
 HANDLE
 )
 AssignProcessToJobObjectFlags
@@ -1556,7 +1560,9 @@ WINFUNCTYPE
 (
     
 BOOL
+    
 HANDLE
+    
 UINT
 )
 TerminateProcessFlags
@@ -1602,7 +1608,9 @@ WINFUNCTYPE
 (
     
 BOOL
+    
 HANDLE
+    
 UINT
 )
 TerminateJobObjectFlags

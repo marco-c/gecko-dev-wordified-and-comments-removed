@@ -165,8 +165,6 @@ reason
 Bug
 1635204
 :
-"
-"
 test_shared_presets
 [
 sample

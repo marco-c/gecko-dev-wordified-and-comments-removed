@@ -232,8 +232,6 @@ xperf
 tool
 defaults
 to
-"
-"
 '
 xperf
 .
@@ -291,8 +289,6 @@ to
 work
 with
 .
-"
-"
 Defaults
 to
 '
@@ -413,8 +409,6 @@ all
 output
 to
 default
-"
-"
 is
 stdout
 "
@@ -520,8 +514,6 @@ providers
 to
 collect
 data
-"
-"
 from
 "
         
@@ -623,9 +615,6 @@ file
 with
 test
 run
-"
-            
-"
 and
 browser
 information
@@ -728,8 +717,6 @@ I
 /
 O
 output
-"
-"
 not
 just
 startup
@@ -788,8 +775,6 @@ I
 /
 O
 output
-"
-"
 not
 just
 main
@@ -901,8 +886,6 @@ store
 the
 failures
 detected
-"
-"
 while
 runnning
 the

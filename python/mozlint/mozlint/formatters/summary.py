@@ -218,8 +218,8 @@ abspath
 =
 len
 (
-                
 [
+                
 r
 for
 r
@@ -239,8 +239,8 @@ level
 "
 error
 "
-]
             
+]
 )
             
 summary
@@ -254,8 +254,8 @@ abspath
 =
 len
 (
-                
 [
+                
 r
 for
 r
@@ -275,8 +275,8 @@ level
 "
 warning
 "
-]
             
+]
 )
             
 summary

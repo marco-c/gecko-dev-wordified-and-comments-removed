@@ -289,31 +289,29 @@ bcontroller_vars
 .
 extend
 (
-            
 [
-                
+            
 "
 xperf_providers
 "
-                
+            
 "
 xperf_user_providers
 "
-                
+            
 "
 xperf_stackwalk
 "
-                
+            
 "
 processID
 "
-                
+            
 "
 approot
 "
-            
-]
         
+]
 )
     
 content

@@ -236,9 +236,8 @@ s
 .
 join
 (
-        
 [
-            
+        
 "
 %
 s
@@ -265,16 +264,15 @@ or
 "
 "
 )
-            
+        
 for
 name
 value
 aloc
 in
 attlist
-        
-]
     
+]
 )
 _paramsHardcode
 =
@@ -437,9 +435,8 @@ s
 .
 join
 (
-        
 [
-            
+        
 "
 %
 s
@@ -466,16 +463,15 @@ or
 "
 "
 )
-            
+        
 for
 name
 value
 aloc
 in
 sorted
-        
-]
     
+]
 )
 def
 unaliasType
@@ -5289,16 +5285,14 @@ parent
 :
         
 assert
-(
-            
 parent
 .
 webidlconfig
 is
 not
 None
-        
-)
+(
+            
 "
 WebIDL
 declarations
@@ -5309,6 +5303,8 @@ to
 resolve
 .
 "
+        
+)
         
 config
 =
@@ -9243,8 +9239,6 @@ IDLError
 Redundant
 setter_can_run_script
 annotation
-"
-"
 on
 attribute
 "
@@ -9282,8 +9276,6 @@ IDLError
 Redundant
 getter_can_run_script
 annotation
-"
-"
 on
 attribute
 "

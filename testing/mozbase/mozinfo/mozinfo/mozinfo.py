@@ -977,15 +977,14 @@ info
 .
 update
 (
-    
 {
-        
+    
 "
 processor
 "
 :
 processor
-        
+    
 "
 bits
 "
@@ -994,7 +993,6 @@ int
 (
 bits
 )
-    
 }
 )
 if

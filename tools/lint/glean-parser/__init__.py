@@ -911,9 +911,11 @@ else
 lineno
 file_path
 =
-None
 (
                                     
+None
+                                    
+(
 group_files
 [
 0
@@ -922,6 +924,7 @@ if
 group_files
 else
 None
+)
                                 
 )
                         

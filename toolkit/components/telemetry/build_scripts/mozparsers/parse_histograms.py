@@ -154,8 +154,6 @@ toolkit
 /
 components
 /
-"
-"
 telemetry
 /
 telemetry

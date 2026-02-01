@@ -177,14 +177,14 @@ raise
 ValueError
 (
 f
-'
+"
 Expected
 one
 of
 :
 {
-"
-"
+'
+'
 .
 join
 (
@@ -193,7 +193,7 @@ true_vals
 false_vals
 )
 }
-'
+"
 )
 def
 flatten

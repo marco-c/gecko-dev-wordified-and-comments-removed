@@ -942,7 +942,6 @@ TOKENHERE
 .
 replace
 (
-    
 "
 TOKENHERE
 "

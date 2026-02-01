@@ -1871,8 +1871,6 @@ for
 each
 page
 in
-"
-"
 the
 manifest
 "

@@ -288,8 +288,8 @@ self
 .
 make_taskgraph
 (
-            
 {
+            
 t
 [
 "
@@ -312,8 +312,8 @@ tasks
 [
 :
 ]
-}
         
+}
 )
         
 res

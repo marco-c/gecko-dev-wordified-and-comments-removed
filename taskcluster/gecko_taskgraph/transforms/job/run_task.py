@@ -95,9 +95,8 @@ run_task_schema
 =
 Schema
 (
-    
 {
-        
+    
 Required
 (
 "
@@ -110,7 +109,7 @@ run
 -
 task
 "
-        
+    
 Optional
 (
 "
@@ -127,7 +126,7 @@ bool
 str
 ]
 )
-        
+    
 Required
 (
 "
@@ -136,14 +135,14 @@ checkout
 )
 :
 bool
-        
+    
 Optional
 (
-            
+        
 "
 cwd
 "
-            
+        
 description
 =
 "
@@ -161,7 +160,7 @@ present
 the
 path
 "
-            
+        
 "
 to
 the
@@ -174,11 +173,11 @@ the
 key
 checkout
 "
-        
+    
 )
 :
 str
-        
+    
 Required
 (
 "
@@ -193,7 +192,7 @@ Any
 str
 None
 )
-        
+    
 Optional
 (
 "
@@ -206,7 +205,7 @@ prefix
 )
 :
 str
-        
+    
 Optional
 (
 "
@@ -217,7 +216,7 @@ clone
 )
 :
 bool
-        
+    
 Required
 (
 "
@@ -228,7 +227,7 @@ checkout
 )
 :
 bool
-        
+    
 Required
 (
 "
@@ -243,7 +242,7 @@ taskref_or_string
 ]
 taskref_or_string
 )
-        
+    
 Optional
 (
 "
@@ -252,7 +251,7 @@ workdir
 )
 :
 str
-        
+    
 Required
 (
 "
@@ -264,19 +263,19 @@ downloads
 :
 Any
 (
-            
+        
 False
-            
+        
 "
 public
 "
-            
+        
 "
 internal
 "
-        
+    
 )
-        
+    
 Optional
 (
 "
@@ -289,7 +288,6 @@ root
 )
 :
 bool
-    
 }
 )
 def
@@ -1476,15 +1474,14 @@ mounts
 .
 append
 (
-        
 {
-            
+        
 "
 content
 "
 :
 {
-                
+            
 "
 url
 "
@@ -1494,9 +1491,9 @@ script_url
 config
 run_task_bin
 )
-            
+        
 }
-            
+        
 "
 file
 "
@@ -1508,9 +1505,8 @@ run
 -
 task
 "
-        
-}
     
+}
 )
     
 if
@@ -1569,15 +1565,14 @@ mounts
 .
 append
 (
-            
 {
-                
+            
 "
 content
 "
 :
 {
-                    
+                
 "
 url
 "
@@ -1591,9 +1586,9 @@ fetch
 content
 "
 )
-                
+            
 }
-                
+            
 "
 file
 "
@@ -1605,9 +1600,8 @@ fetch
 -
 content
 "
-            
-}
         
+}
 )
     
 if
@@ -1630,15 +1624,14 @@ mounts
 .
 append
 (
-            
 {
-                
+            
 "
 content
 "
 :
 {
-                    
+                
 "
 url
 "
@@ -1652,9 +1645,9 @@ robustcheckout
 py
 "
 )
-                
+            
 }
-                
+            
 "
 file
 "
@@ -1666,9 +1659,8 @@ robustcheckout
 .
 py
 "
-            
-}
         
+}
 )
     
 run_command

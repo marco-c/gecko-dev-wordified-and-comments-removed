@@ -69,9 +69,8 @@ raptor_description_schema
 =
 Schema
 (
-    
 {
-        
+    
 Optional
 (
 "
@@ -80,7 +79,7 @@ raptor
 )
 :
 {
-            
+        
 Optional
 (
 "
@@ -95,7 +94,7 @@ app
 "
 str
 )
-            
+        
 Optional
 (
 "
@@ -117,7 +116,7 @@ subtest
 str
 ]
 )
-            
+        
 Optional
 (
 "
@@ -134,7 +133,7 @@ app
 "
 str
 )
-            
+        
 Optional
 (
 "
@@ -148,7 +147,7 @@ metrics
 :
 optionally_keyed_by
 (
-                
+            
 "
 app
 "
@@ -158,9 +157,9 @@ test
 platform
 "
 bool
-            
+        
 )
-            
+        
 Optional
 (
 "
@@ -180,7 +179,7 @@ platform
 "
 list
 )
-            
+        
 Optional
 (
 "
@@ -189,7 +188,7 @@ test
 )
 :
 str
-            
+        
 Optional
 (
 "
@@ -203,7 +202,7 @@ param
 :
 optionally_keyed_by
 (
-                
+            
 "
 subtest
 "
@@ -213,9 +212,9 @@ test
 platform
 "
 str
-            
+        
 )
-            
+        
 Optional
 (
 "
@@ -227,7 +226,6 @@ schedule
 :
 optionally_keyed_by
 (
-                
 "
 subtest
 "
@@ -237,9 +235,8 @@ test
 platform
 "
 str
-            
 )
-            
+        
 Optional
 (
 "
@@ -256,9 +253,9 @@ subtest
 "
 list
 )
-        
+    
 }
-        
+    
 Optional
 (
 "
@@ -272,7 +269,7 @@ time
 :
 optionally_keyed_by
 (
-            
+        
 "
 app
 "
@@ -294,9 +291,9 @@ run
 time
 "
 ]
-        
+    
 )
-        
+    
 Optional
 (
 "
@@ -310,31 +307,31 @@ projects
 :
 optionally_keyed_by
 (
-            
+        
 "
 app
 "
-            
+        
 "
 test
 -
 name
 "
-            
+        
 "
 raptor
 .
 test
 "
-            
+        
 "
 subtest
 "
-            
+        
 "
 variant
 "
-            
+        
 test_description_schema
 [
 "
@@ -345,9 +342,9 @@ on
 projects
 "
 ]
-        
+    
 )
-        
+    
 Optional
 (
 "
@@ -361,7 +358,7 @@ test_description_schema
 variants
 "
 ]
-        
+    
 Optional
 (
 "
@@ -371,7 +368,6 @@ target
 :
 optionally_keyed_by
 (
-            
 "
 app
 "
@@ -381,9 +377,8 @@ test_description_schema
 target
 "
 ]
-        
 )
-        
+    
 Optional
 (
 "
@@ -393,7 +388,7 @@ tier
 :
 optionally_keyed_by
 (
-            
+        
 "
 app
 "
@@ -414,9 +409,9 @@ test_description_schema
 tier
 "
 ]
-        
+    
 )
-        
+    
 Required
 (
 "
@@ -434,7 +429,7 @@ test
 name
 "
 ]
-        
+    
 Required
 (
 "
@@ -452,7 +447,7 @@ test
 platform
 "
 ]
-        
+    
 Required
 (
 "
@@ -466,7 +461,7 @@ extensions
 :
 test_description_schema
 [
-            
+        
 "
 require
 -
@@ -474,9 +469,9 @@ signed
 -
 extensions
 "
-        
+    
 ]
-        
+    
 Required
 (
 "
@@ -494,11 +489,10 @@ treeherder
 symbol
 "
 ]
-        
+    
 Extra
 :
 object
-    
 }
 )
 transforms
@@ -1471,9 +1465,8 @@ extra_options
 .
 extend
 (
-                
 [
-                    
+                
 f
 "
 -
@@ -1488,7 +1481,7 @@ network_type
 network_type
 }
 "
-                    
+                
 f
 "
 -
@@ -1503,9 +1496,8 @@ pkt_loss_rate
 packet_loss_rate
 }
 "
-                
-]
             
+]
 )
             
 new_test
@@ -3533,9 +3525,8 @@ artifacts
 .
 append
 (
-                
 {
-                    
+                
 "
 name
 "
@@ -3543,7 +3534,7 @@ name
 "
 perftest
 "
-                    
+                
 "
 path
 "
@@ -3555,7 +3546,7 @@ build
 /
 perftest
 "
-                    
+                
 "
 type
 "
@@ -3563,9 +3554,8 @@ type
 "
 directory
 "
-                
-}
             
+}
 )
         
 else
@@ -3589,9 +3579,8 @@ artifacts
 .
 append
 (
-                
 {
-                    
+                
 "
 name
 "
@@ -3599,7 +3588,7 @@ name
 "
 perftest
 "
-                    
+                
 "
 path
 "
@@ -3609,7 +3598,7 @@ build
 /
 perftest
 "
-                    
+                
 "
 type
 "
@@ -3617,9 +3606,8 @@ type
 "
 directory
 "
-                
-}
             
+}
 )
         
 yield
@@ -3897,13 +3885,13 @@ env
 "
 ]
 [
-                        
 "
 TASKCLUSTER_WORKER_TYPE
 "
-                    
 ]
 =
+(
+                        
 "
 t
 -
@@ -3913,6 +3901,8 @@ perf
 -
 a55
 "
+                    
+)
                     
 cmds
 =
@@ -3939,14 +3929,13 @@ cmds
 .
 append
 (
-                            
 [
-                                
+                            
 c
 .
 replace
 (
-                                    
+                                
 "
 /
 builds
@@ -3957,7 +3946,7 @@ script
 .
 py
 "
-                                    
+                                
 "
 /
 home
@@ -3970,14 +3959,14 @@ script
 .
 py
 "
-                                
+                            
 )
-                                
+                            
 for
 c
 in
 cmd
-                                
+                            
 if
 not
 c
@@ -3992,9 +3981,8 @@ conditioned
 profile
 "
 )
-                            
-]
                         
+]
 )
                     
 task

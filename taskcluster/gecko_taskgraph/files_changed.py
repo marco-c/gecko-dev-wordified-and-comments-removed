@@ -314,8 +314,6 @@ Missing
 comm_head_rev
 parameters
 ;
-"
-"
 assuming
 all
 files

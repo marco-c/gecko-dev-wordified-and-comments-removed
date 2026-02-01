@@ -796,16 +796,19 @@ device
 .
 command_output
 (
-                    
 [
+                    
 "
 pull
 "
+                    
 "
 -
 a
 "
+                    
 screenshot_file
+                    
 os
 .
 environ
@@ -814,8 +817,8 @@ environ
 TESTING_DIR
 "
 ]
-]
                 
+]
 )
         
 self

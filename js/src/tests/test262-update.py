@@ -24,9 +24,8 @@ UNSUPPORTED_FEATURES
 =
 set
 (
-    
 [
-        
+    
 "
 tail
 -
@@ -34,7 +33,7 @@ call
 -
 optimization
 "
-        
+    
 "
 Intl
 .
@@ -42,7 +41,7 @@ Locale
 -
 info
 "
-        
+    
 "
 source
 -
@@ -50,7 +49,7 @@ phase
 -
 imports
 "
-        
+    
 "
 source
 -
@@ -62,13 +61,13 @@ module
 -
 source
 "
-        
+    
 "
 import
 -
 defer
 "
-        
+    
 "
 nonextensible
 -
@@ -78,7 +77,6 @@ to
 -
 private
 "
-    
 ]
 )
 FEATURE_CHECK_NEEDED
@@ -1823,7 +1821,6 @@ harness
 "
     
 )
-(
 "
 Missing
 async
@@ -1835,7 +1832,6 @@ s
 "
 %
 testName
-)
     
 isModule
 =
@@ -1984,13 +1980,12 @@ refTestSkipIf
 .
 append
 (
-                    
 (
-                        
+                    
 "
 release_or_beta
 "
-                        
+                    
 "
 %
 s
@@ -2007,9 +2002,8 @@ join
 (
 releaseOrBeta
 )
-                    
-)
                 
+)
 )
             
 featureCheckNeeded
@@ -2041,9 +2035,8 @@ refTestSkipIf
 .
 append
 (
-                    
 (
-                        
+                    
 "
 |
 |
@@ -2051,7 +2044,6 @@ append
 .
 join
 (
-                            
 [
 FEATURE_CHECK_NEEDED
 [
@@ -2062,9 +2054,8 @@ f
 in
 featureCheckNeeded
 ]
-                        
 )
-                        
+                    
 "
 %
 s
@@ -2073,7 +2064,6 @@ not
 enabled
 unconditionally
 "
-                        
 %
 "
 "
@@ -2082,9 +2072,8 @@ join
 (
 featureCheckNeeded
 )
-                    
-)
                 
+)
 )
             
 if
@@ -2120,9 +2109,8 @@ refTestSkipIf
 .
 append
 (
-                    
 (
-                        
+                    
 "
 (
 this
@@ -2134,7 +2122,7 @@ getBuildConfiguration
 '
 )
 "
-                        
+                    
 "
 &
 &
@@ -2148,7 +2136,7 @@ simulator
 )
 )
 "
-                        
+                    
 "
 ARM64
 Simulator
@@ -2156,9 +2144,8 @@ cannot
 emulate
 atomics
 "
-                    
-)
                 
+)
 )
             
 shellOptions
@@ -3308,23 +3295,21 @@ externManifests
 .
 append
 (
-                        
 {
-                            
+                        
 "
 name
 "
 :
 newFileName
-                            
+                        
 "
 reftest
 "
 :
 externRefTest
-                        
-}
                     
+}
 )
         
 includeSet
@@ -5193,14 +5178,16 @@ subprocess
 .
 check_call
 (
-                
 [
+                
 "
 git
 "
+                
 "
 clone
 "
+                
 "
 -
 -
@@ -5208,6 +5195,7 @@ depth
 =
 1
 "
+                
 "
 -
 -
@@ -5218,10 +5206,12 @@ s
 "
 %
 branch
+                
 url
+                
 inDir
-]
             
+]
 )
         
 else
@@ -5231,14 +5221,16 @@ subprocess
 .
 check_call
 (
-                
 [
+                
 "
 git
 "
+                
 "
 clone
 "
+                
 "
 -
 -
@@ -5246,6 +5238,7 @@ single
 -
 branch
 "
+                
 "
 -
 -
@@ -5256,10 +5249,12 @@ s
 "
 %
 branch
+                
 url
+                
 inDir
-]
             
+]
 )
             
 subprocess

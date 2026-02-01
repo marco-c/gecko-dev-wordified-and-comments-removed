@@ -984,16 +984,13 @@ invalidUnionTypes
         
 interface
 =
-(
-            
 testPre
-            
 +
 string
 .
 Template
 (
-                
+            
 "
 "
 "
@@ -1018,7 +1015,7 @@ arg
 "
 "
 "
-            
+        
 )
 .
 substitute
@@ -1026,8 +1023,6 @@ substitute
 type
 =
 invalid
-)
-        
 )
         
 threw

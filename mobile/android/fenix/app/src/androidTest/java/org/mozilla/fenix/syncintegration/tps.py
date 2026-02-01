@@ -121,9 +121,8 @@ profile
 .
 set_preferences
 (
-            
 {
-                
+            
 "
 testing
 .
@@ -140,7 +139,7 @@ abspath
 (
 test
 )
-                
+            
 "
 testing
 .
@@ -150,7 +149,7 @@ testPhase
 "
 :
 phase
-                
+            
 "
 testing
 .
@@ -160,9 +159,8 @@ ignoreUnusedEngines
 "
 :
 ignore_unused_engines
-            
-}
         
+}
 )
         
 args

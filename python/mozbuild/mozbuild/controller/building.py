@@ -277,9 +277,8 @@ INSTALL_TESTS_CLOBBER
 .
 join
 (
-    
 [
-        
+    
 TextWrapper
 (
 )
@@ -293,7 +292,7 @@ line
 \
 n
 "
-        
+    
 for
 line
 in
@@ -401,7 +400,6 @@ clobber_file
 splitlines
 (
 )
-    
 ]
 )
 CLOBBER_REQUESTED_MESSAGE
@@ -7206,8 +7204,6 @@ with
 an
 explicit
 target
-"
-"
 name
 .
 "
@@ -7868,14 +7864,13 @@ config_rc
 and
 any
 (
-                
 [
-                    
+                
 self
 .
 backend_out_of_date
 (
-                        
+                    
 mozpath
 .
 join
@@ -7892,16 +7887,15 @@ sBackend
 %
 backend
 )
-                    
+                
 )
-                    
+                
 for
 backend
 in
 all_backends
-                
-]
             
+]
 )
 :
                 
@@ -9196,8 +9190,6 @@ column
 flag
 }
 ]
-"
-"
 {
 message
 }
@@ -9414,8 +9406,8 @@ what
 and
 any
 (
-                
 [
+                
 target
 for
 target
@@ -9433,8 +9425,8 @@ faster
 binaries
 "
 )
-]
             
+]
 )
 :
                 
@@ -9516,8 +9508,6 @@ build
 run
 |
 mach
-"
-"
 resource
 -
 usage
@@ -11249,9 +11239,8 @@ auto_clobber
 =
 any
 (
-            
 [
-                
+            
 env
 .
 get
@@ -11261,7 +11250,7 @@ AUTOCLOBBER
 "
 False
 )
-                
+            
 (
 mozconfig
 [
@@ -11290,7 +11279,7 @@ AUTOCLOBBER
 "
 False
 )
-                
+            
 "
 AUTOCLOBBER
 =
@@ -11308,9 +11297,8 @@ or
 [
 ]
 )
-            
-]
         
+]
 )
         
 from

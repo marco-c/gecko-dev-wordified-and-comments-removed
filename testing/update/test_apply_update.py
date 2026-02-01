@@ -453,8 +453,6 @@ URL
 )
             
 assert
-(
-                
 f
 "
 {
@@ -463,8 +461,8 @@ target_ver
 "
 in
 patch_url
-            
-)
+(
+                
 f
 "
 {
@@ -479,6 +477,8 @@ url
 patch_url
 }
 "
+            
+)
             
 patch_response
 =

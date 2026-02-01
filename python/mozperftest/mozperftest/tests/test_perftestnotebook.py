@@ -530,8 +530,8 @@ server
 .
 assert_has_calls
 (
-            
 [
+            
 mock
 .
 call
@@ -541,6 +541,7 @@ call
 serve_forever
 (
 )
+            
 mock
 .
 call
@@ -550,8 +551,8 @@ call
 server_close
 (
 )
-]
         
+]
 )
 if
 __name__

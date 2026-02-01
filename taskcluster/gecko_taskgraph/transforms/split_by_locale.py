@@ -77,9 +77,8 @@ split_by_locale_schema
 =
 Schema
 (
-    
 {
-        
+    
 Required
 (
 "
@@ -90,7 +89,7 @@ file
 )
 :
 str
-        
+    
 Optional
 (
 "
@@ -103,7 +102,7 @@ platform
 )
 :
 str
-        
+    
 Optional
 (
 "
@@ -118,11 +117,10 @@ locale
 [
 str
 ]
-        
+    
 Extra
 :
 object
-    
 }
 )
 transforms

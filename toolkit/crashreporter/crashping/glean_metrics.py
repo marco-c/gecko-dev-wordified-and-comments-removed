@@ -331,9 +331,8 @@ glean
 .
 update
 (
-            
 {
-                
+            
 "
 description
 "
@@ -348,13 +347,13 @@ description
 strip
 (
 )
-                
+            
 "
 notification_emails
 "
 :
 [
-                    
+                
 "
 crash
 -
@@ -365,22 +364,22 @@ mozilla
 .
 org
 "
-                    
+                
 "
 stability
 mozilla
 .
 org
 "
-                
+            
 ]
-                
+            
 "
 bugs
 "
 :
 bug_urls
-                
+            
 "
 data_reviews
 "
@@ -390,7 +389,7 @@ bug_urls
 copy
 (
 )
-                
+            
 "
 data_sensitivity
 "
@@ -400,7 +399,7 @@ data_sensitivity
 technical
 "
 ]
-                
+            
 "
 expires
 "
@@ -408,7 +407,7 @@ expires
 "
 never
 "
-                
+            
 "
 send_in_pings
 "
@@ -418,9 +417,8 @@ send_in_pings
 crash
 "
 ]
-            
-}
         
+}
 )
         
 output

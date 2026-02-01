@@ -509,7 +509,6 @@ environ
 raise
 Exception
 (
-            
 "
 Using
 the
@@ -518,12 +517,9 @@ environment
 variable
 is
 not
-"
-"
 supported
 .
 "
-        
 )
     
 if
@@ -548,8 +544,6 @@ environment
 variable
 is
 not
-"
-"
 supported
 .
 "
@@ -582,8 +576,6 @@ an
 absolute
 directory
 :
-"
-"
 %
 s
 "

@@ -245,9 +245,8 @@ mark
 .
 capabilities
 (
-    
 {
-        
+    
 "
 moz
 :
@@ -255,13 +254,13 @@ firefoxOptions
 "
 :
 {
-            
+        
 "
 prefs
 "
 :
 {
-                
+            
 "
 remote
 .
@@ -271,11 +270,10 @@ maxTotalDataSize
 "
 :
 MAX_TOTAL_SIZE
-            
-}
         
 }
     
+}
 }
 )
 pytest

@@ -862,14 +862,16 @@ config
 }
 )
 [
-                
 "
 mozconfig_variant
 "
-            
 ]
 =
+(
+                
 mozconfig_variant
+            
+)
         
 yield
 job
@@ -1809,8 +1811,6 @@ job
 continue
         
 assert
-(
-            
 "
 artifacts
 "
@@ -1821,8 +1821,8 @@ job
 worker
 "
 ]
-        
-)
+(
+            
 "
 macosx
 build
@@ -1835,6 +1835,8 @@ artifacts
 defined
 .
 "
+        
+)
         
 is_shippable
 =
@@ -2064,9 +2066,8 @@ artifacts
 .
 append
 (
-                
 {
-                    
+                
 "
 name
 "
@@ -2082,7 +2083,7 @@ utility
 .
 xml
 "
-                    
+                
 "
 path
 "
@@ -2104,7 +2105,7 @@ utility
 .
 xml
 "
-                    
+                
 "
 type
 "
@@ -2112,9 +2113,8 @@ type
 "
 file
 "
-                
-}
             
+}
 )
         
 impl

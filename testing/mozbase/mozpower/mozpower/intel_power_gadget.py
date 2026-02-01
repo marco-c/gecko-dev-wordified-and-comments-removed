@@ -5359,8 +5359,8 @@ avg
 =
 sum
 (
-                    
 [
+                    
 float
 (
 val
@@ -5372,8 +5372,8 @@ cut_results
 [
 measure
 ]
-]
                 
+]
 )
 /
 len
@@ -5399,8 +5399,8 @@ max
 =
 max
 (
-                    
 [
+                    
 float
 (
 val
@@ -5412,8 +5412,8 @@ cut_results
 [
 measure
 ]
-]
                 
+]
 )
         
 average_utilization
@@ -5516,8 +5516,8 @@ utilized_name
 =
 sum
 (
-                
 [
+                
 float
 (
 val
@@ -5529,8 +5529,8 @@ cut_results
 [
 utilization
 ]
-]
             
+]
 )
 /
 len
@@ -5658,8 +5658,8 @@ favg
 =
 sum
 (
-                
 [
+                
 float
 (
 val
@@ -5671,8 +5671,8 @@ cut_results
 [
 frequency_measure
 ]
-]
             
+]
 )
 /
 len
@@ -5695,8 +5695,8 @@ fmax
 =
 max
 (
-                
 [
+                
 float
 (
 val
@@ -5708,8 +5708,8 @@ cut_results
 [
 frequency_measure
 ]
-]
             
+]
 )
             
 frequency_info
@@ -5724,8 +5724,8 @@ fmin
 =
 min
 (
-                
 [
+                
 float
 (
 val
@@ -5737,8 +5737,8 @@ cut_results
 [
 frequency_measure
 ]
-]
             
+]
 )
         
 summarized_results

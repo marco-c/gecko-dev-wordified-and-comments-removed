@@ -24,9 +24,8 @@ mark
 .
 capabilities
 (
-    
 {
-        
+    
 "
 moz
 :
@@ -34,13 +33,13 @@ firefoxOptions
 "
 :
 {
-            
+        
 "
 prefs
 "
 :
 {
-                
+            
 "
 dom
 .
@@ -50,11 +49,10 @@ processCount
 "
 :
 1
-            
-}
         
 }
     
+}
 }
 )
 async

@@ -47,7 +47,7 @@ args
         
 return
 f
-'
+"
 fake
 -
 task
@@ -59,15 +59,15 @@ for
 {
 task
 [
-"
+'
 index
-"
+'
 ]
 [
 0
 ]
 }
-'
+"
 class
 TestBootstrap
 (

@@ -413,11 +413,10 @@ level
 .
 format
 (
-        
 *
 *
 {
-            
+        
 "
 trust
 -
@@ -432,21 +431,20 @@ trust
 domain
 "
 ]
-            
-"
-level
-"
-:
-level
-            
-"
-alias
-"
-:
-alias
         
-}
+"
+level
+"
+:
+level
+        
+"
+alias
+"
+:
+alias
     
+}
 )
     
 attrs
@@ -521,11 +519,10 @@ attrs
 .
 format
 (
-        
 *
 *
 {
-            
+        
 "
 trust
 -
@@ -540,21 +537,20 @@ trust
 domain
 "
 ]
-            
-"
-level
-"
-:
-level
-            
-"
-alias
-"
-:
-alias
         
-}
+"
+level
+"
+:
+level
+        
+"
+alias
+"
+:
+alias
     
+}
 )
     
 return

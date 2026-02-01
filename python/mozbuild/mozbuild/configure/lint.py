@@ -1434,9 +1434,6 @@ be
 used
 instead
 of
-"
-                    
-"
 {
 }
 with

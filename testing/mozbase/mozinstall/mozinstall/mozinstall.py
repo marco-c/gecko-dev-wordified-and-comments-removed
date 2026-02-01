@@ -2682,15 +2682,13 @@ getcwd
         
 help
 =
-"
+'
 Directory
 to
 install
 application
 into
 .
-"
-'
 [
 default
 :

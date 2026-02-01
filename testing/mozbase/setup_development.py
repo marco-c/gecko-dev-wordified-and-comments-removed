@@ -1204,10 +1204,10 @@ packages
 .
 issubset
 (
-        
 mozbase_packages
-    
 )
+(
+        
 "
 Packages
 should
@@ -1227,6 +1227,8 @@ s
 (
 mozbase_packages
 packages
+)
+    
 )
     
 if

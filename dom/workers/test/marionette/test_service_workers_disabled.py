@@ -102,9 +102,8 @@ profile
 .
 set_preferences
 (
-            
 {
-                
+            
 "
 dom
 .
@@ -114,9 +113,8 @@ enabled
 "
 :
 False
-            
-}
         
+}
 )
         
 self

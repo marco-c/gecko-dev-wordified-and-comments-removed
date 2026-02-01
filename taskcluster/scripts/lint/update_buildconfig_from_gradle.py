@@ -141,8 +141,8 @@ cmd
 .
 extend
 (
-        
 [
+        
 f
 "
 {
@@ -158,8 +158,8 @@ sorted
 (
 gradle_projects
 )
-]
     
+]
 )
     
 current_project_name

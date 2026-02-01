@@ -930,31 +930,29 @@ subprocess
 .
 Popen
 (
-            
 [
-                
+            
 "
 adb
 "
-                
+            
 "
 shell
 "
-                
+            
 "
 screenrecord
 "
-                
+            
 "
 -
 -
 bugreport
 "
-                
-video_location
             
-]
+video_location
         
+]
 )
         
 self
@@ -1046,16 +1044,19 @@ device
 .
 command_output
 (
-            
 [
+            
 "
 pull
 "
+            
 "
 -
 a
 "
+            
 video_location
+            
 os
 .
 environ
@@ -1064,8 +1065,8 @@ environ
 TESTING_DIR
 "
 ]
-]
         
+]
 )
         
 time

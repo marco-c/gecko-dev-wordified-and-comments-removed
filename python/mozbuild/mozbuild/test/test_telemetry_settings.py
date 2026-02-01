@@ -468,7 +468,6 @@ mock
 .
 patch
 (
-        
 "
 mach
 .
@@ -476,7 +475,6 @@ config
 .
 ConfigSettings
 "
-    
 )
 mock
 .
@@ -885,7 +883,6 @@ mock
 .
 patch
 (
-            
 "
 mach
 .
@@ -893,7 +890,6 @@ telemetry
 .
 record_is_employee_telemetry_setting
 "
-        
 )
 :
             
@@ -1061,7 +1057,6 @@ mock
 .
 patch
 (
-        
 "
 mach
 .
@@ -1069,7 +1064,6 @@ telemetry
 .
 record_is_employee_telemetry_setting
 "
-    
 )
 as
 record_mock

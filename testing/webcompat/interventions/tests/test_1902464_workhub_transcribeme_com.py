@@ -178,32 +178,30 @@ client
 .
 await_first_element_of
 (
-            
 [
-                
+            
 client
 .
 css
 (
 CAPTCHA_CSS
 )
-                
+            
 client
 .
 css
 (
 UNSUPPORTED_CSS
 )
-                
+            
 client
 .
 css
 (
 EXPIRED_CSS
 )
-            
-]
         
+]
 )
         
 if

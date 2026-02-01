@@ -1118,30 +1118,28 @@ data
 .
 append
 (
-                
 (
-                    
+                
 last_time
-                    
+                
 measured_end_time
-                    
+                
 io_diff
-                    
+                
 net_io_diff
-                    
+                
 cpu_diff
-                    
+                
 cpu_percent
-                    
+                
 list
 (
 virt_mem
 )
-                    
-swap_entry
                 
-)
+swap_entry
             
+)
 )
             
 update_known_processes
@@ -1256,16 +1254,15 @@ cmdline
 .
 join
 (
-                
 [
-                    
+                
 arg
-                    
+                
 for
 arg
 in
 cmd
-                    
+                
 if
 not
 arg
@@ -1277,7 +1274,7 @@ startswith
 D
 "
 )
-                    
+                
 and
 not
 arg
@@ -1289,7 +1286,7 @@ startswith
 I
 "
 )
-                    
+                
 and
 not
 arg
@@ -1301,7 +1298,7 @@ startswith
 W
 "
 )
-                    
+                
 and
 not
 arg
@@ -1313,29 +1310,35 @@ startswith
 L
 "
 )
-                
-]
             
+]
 )
             
 pipe
 .
 send
 (
-                
 (
+                
 "
 process
 "
+                
 pid
+                
 create_time
+                
 end_time
+                
 cmdline
+                
 ppid
+                
 None
+                
 None
-)
             
+)
 )
         
 pipe
@@ -2791,25 +2794,23 @@ s
 %
 str
 (
-                        
 (
-                            
-start_time
-                            
-end_time
-                            
-io_diff
-                            
-cpu_diff
-                            
-cpu_percent
-                            
-virt_mem
-                            
-swap_mem
                         
-)
+start_time
+                        
+end_time
+                        
+io_diff
+                        
+cpu_diff
+                        
+cpu_percent
+                        
+virt_mem
+                        
+swap_mem
                     
+)
 )
                 
 )
@@ -3735,31 +3736,29 @@ markers
 .
 append
 (
-                    
 (
-                        
+                    
 "
 sccache
 "
-                        
+                    
 data
 [
 "
 start_time
 "
 ]
-                        
+                    
 data
 [
 "
 end_time
 "
 ]
-                        
-marker_data
                     
-)
+marker_data
                 
+)
 )
         
 except
@@ -3817,20 +3816,19 @@ markers
 .
 append
 (
-                    
 (
-                        
+                    
 "
 sccache
 parsing
 "
-                        
+                    
 parse_start
-                        
+                    
 parse_end
-                        
+                    
 {
-                            
+                        
 "
 type
 "
@@ -3838,7 +3836,7 @@ type
 "
 Text
 "
-                            
+                        
 "
 text
 "
@@ -3854,11 +3852,10 @@ entries
 from
 log
 "
-                        
-}
                     
-)
+}
                 
+)
 )
     
 staticmethod
@@ -12686,8 +12683,8 @@ cpuData
 .
 append
 (
-                    
 {
+                    
 "
 key
 "
@@ -12697,11 +12694,13 @@ field
 "
 _pct
 "
+                    
 "
 label
 "
 :
 label
+                    
 "
 format
 "
@@ -12709,8 +12708,8 @@ format
 "
 string
 "
-}
                 
+}
 )
         
 cpuGraphs

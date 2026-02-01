@@ -912,9 +912,8 @@ test_prefs
 =
 dict
 (
-                
 [
-                    
+                
 (
 i
 utils
@@ -924,7 +923,7 @@ parse_pref
 j
 )
 )
-                    
+                
 for
 i
 j
@@ -941,9 +940,8 @@ preferences
 items
 (
 )
-                
-]
             
+]
 )
             
 preferences
@@ -1472,8 +1470,6 @@ because
 MOZ_UPLOAD_DIR
 was
 not
-"
-"
 set
 "
 )

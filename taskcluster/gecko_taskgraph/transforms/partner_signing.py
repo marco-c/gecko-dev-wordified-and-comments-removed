@@ -130,8 +130,6 @@ default_label
 )
         
 assert
-(
-            
 job
 [
 "
@@ -143,8 +141,8 @@ label
 dep_job
 .
 label
-        
-)
+(
+            
 f
 "
 Unable
@@ -158,6 +156,8 @@ config
 kind
 }
 "
+        
+)
         
 yield
 job

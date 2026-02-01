@@ -161,7 +161,6 @@ get
 MOZBUILD_STATE_PATH
 "
 )
-        
 or
 pathmodule
 .
@@ -899,9 +898,6 @@ variant
 '
 s
 default
-"
-    
-"
 set
 "
 )
@@ -4061,16 +4057,15 @@ results
 .
 append
 (
-        
 (
-            
+        
 "
 mach
 jit
 -
 test
 "
-            
+        
 run_mach_command
 (
 [
@@ -4096,9 +4091,8 @@ test
 ]
 ]
 )
-        
-)
     
+)
 )
 if
 "
@@ -4198,14 +4192,13 @@ results
 .
 append
 (
-        
 (
-            
+        
 "
 mach
 jstests
 "
-            
+        
 run_mach_command
 (
 [
@@ -4227,9 +4220,8 @@ jstests
 ]
 ]
 )
-        
-)
     
+)
 )
 if
 "
@@ -4291,16 +4283,14 @@ results
 .
 append
 (
-        
 (
-            
+        
 "
 gdb
 "
-            
+        
 run_test_command
 (
-                
 [
 PYTHON
 test_script
@@ -4315,11 +4305,9 @@ gdb
 ]
 OBJDIR
 ]
-            
-)
-        
 )
     
+)
 )
 if
 variant
@@ -4834,13 +4822,12 @@ use_minidump
     
 run_mach_command
 (
-        
 [
-            
+        
 "
 python
 "
-            
+        
 "
 -
 -
@@ -4848,7 +4835,7 @@ virtualenv
 =
 build
 "
-            
+        
 os
 .
 path
@@ -4872,7 +4859,7 @@ mozcrash
 py
 "
 )
-            
+        
 os
 .
 getenv
@@ -4885,7 +4872,7 @@ TMPDIR
 tmp
 "
 )
-            
+        
 os
 .
 path
@@ -4901,9 +4888,8 @@ crashreporter
 symbols
 "
 )
-        
-]
     
+]
 )
 for
 name

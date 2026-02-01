@@ -185,22 +185,20 @@ lines
 =
 [
 f
-"
+'
 [
-\
 "
 {
 test
 [
-'
+"
 name
-'
+"
 ]
 }
-\
 "
 ]
-"
+'
 for
 test
 in
@@ -314,16 +312,15 @@ self
 .
 assertFalse
 (
-            
 [
-                
+            
 test
-                
+            
 for
 test
 in
 restart_tests
-                
+            
 if
 test
 [
@@ -331,7 +328,6 @@ test
 manifest
 "
 ]
-                
 !
 =
 os
@@ -351,9 +347,8 @@ example
 toml
 "
 )
-            
-]
         
+]
 )
         
 self
@@ -601,9 +596,8 @@ assertTrue
             
 all
 (
-                
 [
-                    
+                
 t
 [
 "
@@ -619,14 +613,14 @@ example
 .
 toml
 "
-                    
+                
 for
 t
 in
 parser
 .
 tests
-                    
+                
 if
 t
 [
@@ -639,9 +633,8 @@ name
 "
 fleem
 "
-                
-]
             
+]
 )
         
 )
@@ -1130,9 +1123,8 @@ assertTrue
             
 all
 (
-                
 [
-                    
+                
 t
 [
 "
@@ -1148,14 +1140,14 @@ example
 .
 toml
 "
-                    
+                
 for
 t
 in
 parser
 .
 tests
-                    
+                
 if
 t
 [
@@ -1168,9 +1160,8 @@ name
 "
 fleem
 "
-                
-]
             
+]
 )
         
 )

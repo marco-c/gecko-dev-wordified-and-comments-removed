@@ -337,11 +337,9 @@ mozprocess
 as
 mocked_mozprocess
 (
-        
 MOCK_DATA_DIR
 /
 alert_json
-    
 )
 .
 open
@@ -722,11 +720,9 @@ mozprocess
 as
 mocked_mozprocess
 (
-        
 MOCK_DATA_DIR
 /
 alert_json
-    
 )
 .
 open
@@ -1875,11 +1871,9 @@ mozprocess
 as
 mocked_mozprocess
 (
-        
 MOCK_DATA_DIR
 /
 alert_json
-    
 )
 .
 open
@@ -2167,11 +2161,9 @@ mozprocess
 as
 mocked_mozprocess
 (
-        
 MOCK_DATA_DIR
 /
 alert_json
-    
 )
 .
 open

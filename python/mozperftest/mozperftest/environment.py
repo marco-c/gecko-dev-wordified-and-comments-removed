@@ -100,8 +100,8 @@ _mach_args
 =
 dict
 (
-            
 [
+            
 (
 self
 .
@@ -120,8 +120,8 @@ kwargs
 items
 (
 )
-]
         
+]
 )
         
 self

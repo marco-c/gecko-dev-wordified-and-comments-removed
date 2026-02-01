@@ -69,11 +69,10 @@ lines
 .
 extend
 (
-        
 [
-            
+        
 f
-            
+        
 "
 -
 "
@@ -82,12 +81,11 @@ len
 (
 f
 )
-            
-"
-"
         
-]
+"
+"
     
+]
 )
     
 docstring
@@ -101,19 +99,17 @@ lines
 .
 extend
 (
-        
 [
-            
+        
 docstring
 [
 0
 ]
-            
-"
-"
         
-]
+"
+"
     
+]
 )
     
 arg_types
@@ -193,9 +189,8 @@ lines
 .
 extend
 (
-        
 [
-            
+        
 "
 :
 Arguments
@@ -205,12 +200,11 @@ s
 "
 %
 arg_s
-            
-"
-"
         
-]
+"
+"
     
+]
 )
     
 lines
@@ -275,28 +269,25 @@ lines
 .
 extend
 (
-        
 [
-            
+        
 docstring
 [
 0
 ]
-            
-"
-"
         
-]
+"
+"
     
+]
 )
     
 lines
 .
 extend
 (
-        
 [
-            
+        
 "
 :
 Storage
@@ -309,7 +300,7 @@ s
 st_type
 .
 __name__
-            
+        
 "
 :
 Input
@@ -322,12 +313,11 @@ s
 in_type
 .
 __name__
-            
-"
-"
         
-]
+"
+"
     
+]
 )
     
 lines
@@ -392,17 +382,16 @@ lines
 .
 extend
 (
-        
 [
-            
+        
 docstring
 [
 0
 ]
-            
+        
 "
 "
-            
+        
 "
 :
 Type
@@ -414,12 +403,11 @@ s
 typ
 .
 __name__
-            
-"
-"
         
-]
+"
+"
     
+]
 )
     
 lines
@@ -459,9 +447,8 @@ lines
 .
 extend
 (
-        
 [
-            
+        
 "
 .
 .
@@ -469,7 +456,7 @@ note
 :
 :
 "
-            
+        
 "
 moz
 .
@@ -483,9 +470,8 @@ Path
 class
 .
 "
-        
-]
     
+]
 )
     
 path_docstring_minus_summary
@@ -539,9 +525,8 @@ lines
 .
 extend
 (
-            
 [
-                
+            
 "
 .
 .
@@ -552,10 +537,10 @@ s
 "
 %
 subcontext
-                
+            
 "
 "
-                
+            
 "
 Sub
 -
@@ -566,7 +551,7 @@ s
 "
 %
 subcontext
-                
+            
 "
 =
 =
@@ -591,12 +576,11 @@ len
 (
 subcontext
 )
-                
-"
-"
             
-]
+"
+"
         
+]
 )
         
 lines
@@ -659,13 +643,12 @@ lines
 .
 extend
 (
-        
 [
-            
+        
 "
 Variables
 "
-            
+        
 "
 =
 =
@@ -676,13 +659,12 @@ Variables
 =
 =
 =
-"
-            
-"
 "
         
-]
+"
+"
     
+]
 )
     
 for
@@ -717,13 +699,12 @@ lines
 .
 extend
 (
-        
 [
-            
+        
 "
 Functions
 "
-            
+        
 "
 =
 =
@@ -734,13 +715,12 @@ Functions
 =
 =
 =
-"
-            
-"
 "
         
-]
+"
+"
     
+]
 )
     
 for
@@ -775,14 +755,13 @@ lines
 .
 extend
 (
-        
 [
-            
+        
 "
 Special
 Variables
 "
-            
+        
 "
 =
 =
@@ -801,13 +780,12 @@ Variables
 =
 =
 =
-"
-            
-"
 "
         
-]
+"
+"
     
+]
 )
     
 for

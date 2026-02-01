@@ -385,8 +385,8 @@ notebook
 .
 assert_has_calls
 (
-        
 [
+        
 mock
 .
 call
@@ -404,8 +404,8 @@ start_local_server
 =
 True
 )
-]
     
+]
 )
 pytest
 .
@@ -680,8 +680,8 @@ notebook
 .
 assert_has_calls
 (
-        
 [
+        
 mock
 .
 call
@@ -699,8 +699,8 @@ start_local_server
 =
 True
 )
-]
     
+]
 )
 pytest
 .

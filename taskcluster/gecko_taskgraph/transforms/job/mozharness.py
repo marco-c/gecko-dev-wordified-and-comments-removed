@@ -104,9 +104,8 @@ mozharness_run_schema
 =
 Schema
 (
-    
 {
-        
+    
 Required
 (
 "
@@ -117,7 +116,7 @@ using
 "
 mozharness
 "
-        
+    
 Required
 (
 "
@@ -126,7 +125,7 @@ script
 )
 :
 str
-        
+    
 Optional
 (
 "
@@ -139,7 +138,7 @@ paths
 [
 str
 ]
-        
+    
 Required
 (
 "
@@ -150,7 +149,7 @@ config
 [
 str
 ]
-        
+    
 Optional
 (
 "
@@ -159,7 +158,7 @@ actions
 )
 :
 [
-            
+        
 Match
 (
 "
@@ -184,9 +183,9 @@ alphanumeric
 strings
 "
 )
-        
+    
 ]
-        
+    
 Optional
 (
 "
@@ -195,10 +194,10 @@ options
 )
 :
 [
-            
+        
 Match
 (
-                
+            
 "
 ^
 [
@@ -219,7 +218,7 @@ z0
 )
 ?
 "
-                
+            
 "
 options
 must
@@ -234,11 +233,11 @@ optional
 argument
 )
 "
-            
+        
 )
-        
+    
 ]
-        
+    
 Optional
 (
 "
@@ -253,7 +252,7 @@ cfg
 )
 :
 str
-        
+    
 Optional
 (
 "
@@ -264,7 +263,7 @@ config
 )
 :
 dict
-        
+    
 Required
 (
 "
@@ -276,19 +275,19 @@ downloads
 :
 Any
 (
-            
+        
 False
-            
+        
 "
 public
 "
-            
+        
 "
 internal
 "
-        
+    
 )
-        
+    
 Required
 (
 "
@@ -303,7 +302,7 @@ bool
 str
 ]
 )
-        
+    
 Required
 (
 "
@@ -314,7 +313,7 @@ proxy
 )
 :
 bool
-        
+    
 Required
 (
 "
@@ -325,7 +324,7 @@ artifacts
 )
 :
 bool
-        
+    
 Optional
 (
 "
@@ -336,7 +335,7 @@ script
 )
 :
 str
-        
+    
 Required
 (
 "
@@ -349,7 +348,7 @@ builds
 )
 :
 bool
-        
+    
 Optional
 (
 "
@@ -366,7 +365,7 @@ bool
 str
 ]
 )
-        
+    
 Required
 (
 "
@@ -379,7 +378,7 @@ package
 )
 :
 bool
-        
+    
 Required
 (
 "
@@ -394,7 +393,7 @@ args
 )
 :
 bool
-        
+    
 Required
 (
 "
@@ -405,7 +404,7 @@ checkout
 )
 :
 bool
-        
+    
 Optional
 (
 "
@@ -414,7 +413,7 @@ workdir
 )
 :
 str
-        
+    
 Optional
 (
 "
@@ -427,7 +426,6 @@ root
 )
 :
 bool
-    
 }
 )
 mozharness_defaults
@@ -705,9 +703,8 @@ artifacts
 .
 append
 (
-        
 {
-            
+        
 "
 name
 "
@@ -717,7 +714,7 @@ public
 /
 logs
 "
-            
+        
 "
 path
 "
@@ -737,7 +734,7 @@ format
 *
 run
 )
-            
+        
 "
 type
 "
@@ -745,7 +742,7 @@ type
 "
 directory
 "
-            
+        
 "
 expires
 -
@@ -759,9 +756,8 @@ config
 medium
 "
 )
-        
-}
     
+}
 )
     
 worker
@@ -809,9 +805,8 @@ env
 .
 update
 (
-        
 {
-            
+        
 "
 WORKSPACE
 "
@@ -830,7 +825,7 @@ format
 *
 run
 )
-            
+        
 "
 MOZHARNESS_CONFIG
 "
@@ -849,7 +844,7 @@ config
 "
 )
 )
-            
+        
 "
 MOZHARNESS_SCRIPT
 "
@@ -862,7 +857,7 @@ pop
 script
 "
 )
-            
+        
 "
 MH_BRANCH
 "
@@ -875,7 +870,7 @@ params
 project
 "
 ]
-            
+        
 "
 PYTHONUNBUFFERED
 "
@@ -883,9 +878,8 @@ PYTHONUNBUFFERED
 "
 1
 "
-        
-}
     
+}
 )
     
 worker
@@ -1495,9 +1489,8 @@ artifacts
 .
 append
 (
-        
 {
-            
+        
 "
 name
 "
@@ -1507,7 +1500,7 @@ public
 /
 logs
 "
-            
+        
 "
 path
 "
@@ -1515,7 +1508,7 @@ path
 "
 logs
 "
-            
+        
 "
 type
 "
@@ -1523,7 +1516,7 @@ type
 "
 directory
 "
-            
+        
 "
 expires
 -
@@ -1537,9 +1530,8 @@ config
 medium
 "
 )
-        
-}
     
+}
 )
     
 if
@@ -1581,9 +1573,8 @@ env
 .
 update
 (
-        
 {
-            
+        
 "
 MH_BRANCH
 "
@@ -1596,9 +1587,8 @@ params
 project
 "
 ]
-        
-}
     
+}
 )
     
 if
@@ -2346,13 +2336,11 @@ command
 "
 ]
 =
-(
-            
 [
-                
+            
 dedent
 (
-                    
+                
 "
 "
 "
@@ -2416,9 +2404,9 @@ build
 "
 "
 "
-                
+            
 )
-                
+            
 r
 "
 mklink
@@ -2432,7 +2420,7 @@ build
 cd
 %
 "
-                
+            
 r
 "
 icacls
@@ -2455,7 +2443,7 @@ D
 /
 L
 "
-                
+            
 r
 "
 cd
@@ -2466,9 +2454,8 @@ z
 \
 build
 "
-            
+        
 ]
-            
 +
 worker
 [
@@ -2476,5 +2463,3 @@ worker
 command
 "
 ]
-        
-)

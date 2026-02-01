@@ -52,9 +52,8 @@ DEFAULT_WINDOWS
 =
 set
 (
-    
 [
-        
+    
 (
 inline
 (
@@ -75,9 +74,9 @@ div
 "
 )
 )
-        
+    
 (
-            
+        
 inline
 (
 "
@@ -96,7 +95,7 @@ div
 "
 "
 )
-            
+        
 inline
 (
 "
@@ -115,11 +114,11 @@ div
 "
 "
 )
-        
+    
 )
-        
+    
 (
-            
+        
 inline
 (
 "
@@ -138,7 +137,7 @@ div
 "
 "
 )
-            
+        
 inline
 (
 "
@@ -157,9 +156,8 @@ div
 "
 "
 )
-        
-)
     
+)
 ]
 )
 class
@@ -270,11 +268,10 @@ private_windows
 =
 set
 (
-            
 [
-                
+            
 (
-                    
+                
 inline
 (
 "
@@ -293,7 +290,7 @@ div
 "
 "
 )
-                    
+                
 inline
 (
 "
@@ -312,11 +309,11 @@ div
 "
 "
 )
-                
+            
 )
-                
+            
 (
-                    
+                
 inline
 (
 "
@@ -335,7 +332,7 @@ div
 "
 "
 )
-                    
+                
 inline
 (
 "
@@ -354,11 +351,10 @@ div
 "
 "
 )
-                
-)
             
-]
+)
         
+]
 )
         
 self
@@ -367,9 +363,8 @@ marionette
 .
 enforce_gecko_prefs
 (
-            
 {
-                
+            
 "
 browser
 .
@@ -379,7 +374,7 @@ page
 "
 :
 startup_page
-                
+            
 "
 browser
 .
@@ -389,7 +384,7 @@ restore_on_demand
 "
 :
 restore_on_demand
-                
+            
 "
 browser
 .
@@ -401,7 +396,7 @@ no_auto_updates
 "
 :
 no_auto_updates
-                
+            
 "
 toolkit
 .
@@ -409,7 +404,7 @@ winRegisterApplicationRestart
 "
 :
 win_register_restart
-                
+            
 "
 browser
 .
@@ -419,9 +414,8 @@ enabled
 "
 :
 taskbartabs_enable
-            
-}
         
+}
 )
         
 self

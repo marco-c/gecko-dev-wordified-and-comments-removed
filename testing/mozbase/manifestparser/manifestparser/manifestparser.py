@@ -2925,8 +2925,8 @@ files
 .
 update
 (
-                    
 [
+                    
 os
 .
 path
@@ -2940,8 +2940,8 @@ for
 filename
 in
 filenames
-]
                 
+]
 )
         
 paths
@@ -4924,8 +4924,8 @@ n
 .
 join
 (
-                
 [
+                
 f
 "
 [
@@ -4941,8 +4941,8 @@ for
 filename
 in
 filenames
-]
             
+]
 )
             
 print

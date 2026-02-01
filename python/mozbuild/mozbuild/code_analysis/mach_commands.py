@@ -3143,9 +3143,6 @@ order
 to
 determine
 that
-"
-    
-"
 the
 analysis
 did

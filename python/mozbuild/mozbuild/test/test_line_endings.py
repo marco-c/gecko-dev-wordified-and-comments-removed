@@ -161,7 +161,7 @@ createFile
 b
 "
 \
-x0D
+x0d
 "
 ]
 *
@@ -220,7 +220,7 @@ createFile
 b
 "
 \
-x0A
+x0a
 "
 ]
 *
@@ -279,9 +279,9 @@ createFile
 b
 "
 \
-x0D
+x0d
 \
-x0A
+x0a
 "
 ]
 *

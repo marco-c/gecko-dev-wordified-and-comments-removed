@@ -454,15 +454,14 @@ errors
 .
 append
 (
-            
 {
-                
+            
 "
 path
 "
 :
 path
-                
+            
 "
 message
 "
@@ -473,7 +472,7 @@ some_pref
 raw
 "
 ]
-                
+            
 "
 lineno
 "
@@ -484,7 +483,7 @@ some_pref
 line
 "
 ]
-                
+            
 "
 hint
 "
@@ -501,7 +500,7 @@ to
 IGNORE_PREFS
 .
 "
-                
+            
 "
 level
 "
@@ -509,9 +508,8 @@ level
 "
 error
 "
-            
-}
         
+}
 )
     
 return
@@ -574,9 +572,8 @@ prefs
 .
 append
 (
-                    
 {
-                        
+                    
 "
 name
 "
@@ -589,7 +586,7 @@ group
 pref
 "
 )
-                        
+                    
 "
 value
 "
@@ -605,21 +602,20 @@ val
 "
 )
 )
-                        
+                    
 "
 line
 "
 :
 lineno
-                        
+                    
 "
 raw
 "
 :
 line
-                    
-}
                 
+}
 )
     
 return

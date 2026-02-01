@@ -750,8 +750,6 @@ else
 "
         
 assert
-(
-            
 "
 hash
 "
@@ -761,8 +759,8 @@ error_output
 lower
 (
 )
-        
-)
+(
+            
 f
 "
 Expected
@@ -776,6 +774,8 @@ got
 error_output
 }
 "
+        
+)
 def
 test_requirements_txt_installs_with_hashes
 (

@@ -420,8 +420,6 @@ from
 union
 with
 nullable
-"
-"
 member
 type
 "
@@ -450,8 +448,6 @@ type
 not
 distinguishable
 from
-"
-"
 nullable
 type
 "

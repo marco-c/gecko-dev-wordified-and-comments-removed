@@ -324,8 +324,6 @@ or
 setgid
 set
 :
-"
-"
 %
 s
 "

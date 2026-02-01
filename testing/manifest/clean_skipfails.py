@@ -863,9 +863,8 @@ manifest_paths
 =
 set
 (
-                
 [
-                    
+                
 str
 (
 x
@@ -881,7 +880,7 @@ replace
 /
 "
 )
-                    
+                
 for
 x
 in
@@ -893,9 +892,8 @@ self
 .
 manifest_search_path
 )
-                
-]
             
+]
 )
         
 return

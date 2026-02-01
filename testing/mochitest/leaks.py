@@ -828,9 +828,8 @@ errors
 .
 append
 (
-                    
 {
-                        
+                    
 "
 test
 "
@@ -841,7 +840,7 @@ test
 fileName
 "
 ]
-                        
+                    
 "
 msg
 "
@@ -863,15 +862,14 @@ url
 s
 ]
 "
-                        
+                    
 %
 (
 count
 url
 )
-                    
-}
                 
+}
 )
                 
 failures
@@ -944,9 +942,8 @@ errors
 .
 append
 (
-                    
 {
-                        
+                    
 "
 test
 "
@@ -957,7 +954,7 @@ test
 fileName
 "
 ]
-                        
+                    
 "
 msg
 "
@@ -973,7 +970,7 @@ s
 until
 shutdown
 "
-                        
+                    
 %
 (
 len
@@ -986,9 +983,8 @@ leakedDocShells
 ]
 )
 )
-                    
-}
                 
+}
 )
                 
 failures
@@ -1036,9 +1032,8 @@ fileName
 .
 join
 (
-                            
 [
-                                
+                            
 "
 [
 pid
@@ -1055,7 +1050,6 @@ s
 "
 %
 x
-                                
 for
 x
 in
@@ -1065,9 +1059,8 @@ test
 leakedDocShells
 "
 ]
-                            
-]
                         
+]
 )
                     
 )
@@ -1752,8 +1745,8 @@ leakedWindowsString
 .
 join
 (
-                
 [
+                
 "
 [
 pid
@@ -1774,8 +1767,8 @@ for
 x
 in
 leakedWindows
-]
             
+]
 )
             
 test

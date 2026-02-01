@@ -171,8 +171,6 @@ member
 type
 should
 have
-"
-"
 thrown
 .
 "
@@ -274,8 +272,6 @@ member
 type
 should
 have
-"
-"
 thrown
 .
 "

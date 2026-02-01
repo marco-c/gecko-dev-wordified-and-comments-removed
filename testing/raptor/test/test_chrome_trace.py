@@ -245,8 +245,6 @@ test_config
 )
         
 assert
-(
-            
 len
 (
 profile
@@ -258,8 +256,8 @@ collect_profiles
 =
 =
 2
-        
-)
+(
+            
 "
 We
 have
@@ -272,6 +270,8 @@ cold
 warm
 run
 "
+        
+)
         
 profile
 .

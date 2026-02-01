@@ -250,7 +250,6 @@ n
 .
 format
 (
-            
 "
 True
 "
@@ -265,7 +264,6 @@ else
 "
 False
 "
-        
 )
     
 )
@@ -655,10 +653,8 @@ n
 .
 format
 (
-            
 *
 assertion
-        
 )
     
 )

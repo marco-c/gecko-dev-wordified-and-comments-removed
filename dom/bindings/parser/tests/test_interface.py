@@ -1765,9 +1765,6 @@ collision
 between
 partial
 interface
-"
-        
-"
 and
 other
 object
@@ -1862,8 +1859,6 @@ name
 collision
 between
 interface
-"
-"
 and
 other
 object
@@ -1951,9 +1946,6 @@ collision
 between
 external
 interface
-"
-        
-"
 and
 other
 object
@@ -2043,8 +2035,6 @@ collision
 between
 external
 interface
-"
-"
 and
 interface
 "
@@ -2122,8 +2112,6 @@ collisions
 between
 external
 interface
-"
-"
 declarations
 "
     

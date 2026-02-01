@@ -330,7 +330,6 @@ artifacts
 {
             
 extension
-            
 +
 _DETACHED_SIGNATURE_EXTENSION
 :

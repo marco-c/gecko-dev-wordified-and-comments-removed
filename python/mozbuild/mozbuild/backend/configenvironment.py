@@ -1064,9 +1064,8 @@ ACDEFINES
 .
 join
 (
-            
 [
-                
+            
 "
 -
 D
@@ -1097,7 +1096,7 @@ replace
 "
 )
 )
-                
+            
 for
 name
 in
@@ -1105,9 +1104,8 @@ sorted
 (
 global_defines
 )
-            
-]
         
+]
 )
         
 def
@@ -1187,9 +1185,8 @@ join
             
 sorted
 (
-                
 [
-                    
+                
 "
 %
 s
@@ -1211,14 +1208,14 @@ name
 ]
 )
 )
-                    
+                
 for
 name
 in
 self
 .
 substs
-                    
+                
 if
 self
 .
@@ -1226,9 +1223,8 @@ substs
 [
 name
 ]
-                
-]
             
+]
 )
         
 )
@@ -2334,9 +2330,8 @@ acdefines
 .
 join
 (
-            
 [
-                
+            
 "
 -
 D
@@ -2346,7 +2341,6 @@ s
 %
 s
 "
-                
 %
 (
 name
@@ -2371,7 +2365,7 @@ replace
 "
 )
 )
-                
+            
 for
 name
 in
@@ -2379,9 +2373,8 @@ sorted
 (
 global_defines
 )
-            
-]
         
+]
 )
         
 substs

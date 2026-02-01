@@ -1059,8 +1059,8 @@ driver_paths
 .
 extend
 (
-                
 [
+                
 "
 -
 -
@@ -1068,11 +1068,12 @@ firefox
 .
 geckodriverPath
 "
+                
 self
 .
 browsertime_geckodriver
-]
             
+]
 )
         
 if
@@ -1515,8 +1516,8 @@ driver_paths
 .
 extend
 (
-                
 [
+                
 "
 -
 -
@@ -1524,11 +1525,12 @@ chrome
 .
 chromedriverPath
 "
+                
 self
 .
 browsertime_chromedriver
-]
             
+]
 )
         
 if
@@ -2794,9 +2796,8 @@ browsertime_options
 .
 extend
 (
-                
 [
-                    
+                
 "
 -
 -
@@ -2804,11 +2805,11 @@ browsertime
 .
 browserRestartTries
 "
-                    
+                
 "
 10
 "
-                    
+                
 "
 -
 -
@@ -2816,13 +2817,12 @@ timeouts
 .
 browserStart
 "
-                    
+                
 "
 180000
 "
-                
-]
             
+]
 )
         
 if
@@ -2840,8 +2840,8 @@ browsertime_options
 .
 extend
 (
-                
 [
+                
 "
 -
 -
@@ -2849,6 +2849,7 @@ browsertime
 .
 secondary_url
 "
+                
 test
 .
 get
@@ -2857,8 +2858,8 @@ get
 secondary_url
 "
 )
-]
             
+]
 )
         
 MULTI_OPTS
@@ -3175,13 +3176,14 @@ priority1_options
 .
 extend
 (
-                
 [
+                
 "
 -
 -
 resultDir
 "
+                
 self
 .
 results_handler
@@ -3190,8 +3192,8 @@ result_dir_for_test
 (
 test
 )
-]
             
+]
 )
         
 else
@@ -3201,15 +3203,14 @@ priority1_options
 .
 extend
 (
-                
 [
-                    
+                
 "
 -
 -
 resultDir
 "
-                    
+                
 self
 .
 results_handler
@@ -3218,9 +3219,8 @@ result_dir_for_test_profiling
 (
 test
 )
-                
-]
             
+]
 )
         
 if
@@ -3236,8 +3236,8 @@ priority1_options
 .
 extend
 (
-                
 [
+                
 "
 -
 -
@@ -3245,6 +3245,7 @@ firefox
 .
 profileTemplate
 "
+                
 str
 (
 self
@@ -3253,8 +3254,8 @@ profile
 .
 profile
 )
-]
             
+]
 )
         
 for
@@ -3403,25 +3404,24 @@ priority1_options
 .
 extend
 (
-                
 [
-                    
+                
 "
 -
 -
 video
 "
-                    
+                
 "
 true
 "
-                    
+                
 "
 -
 -
 visualMetrics
 "
-                    
+                
 "
 true
 "
@@ -3433,37 +3433,37 @@ else
 "
 false
 "
-                    
+                
 "
 -
 -
 visualMetricsContentful
 "
-                    
+                
 "
 true
 "
-                    
+                
 "
 -
 -
 visualMetricsPerceptual
 "
-                    
+                
 "
 true
 "
-                    
+                
 "
 -
 -
 visualMetricsPortable
 "
-                    
+                
 "
 true
 "
-                    
+                
 "
 -
 -
@@ -3471,13 +3471,12 @@ videoParams
 .
 keepOriginalVideo
 "
-                    
+                
 "
 true
 "
-                
-]
             
+]
 )
             
 if
@@ -3527,9 +3526,8 @@ priority1_options
 .
 extend
 (
-                    
 [
-                        
+                    
 "
 -
 -
@@ -3537,11 +3535,11 @@ firefox
 .
 windowRecorder
 "
-                        
+                    
 "
 false
 "
-                        
+                    
 "
 -
 -
@@ -3549,13 +3547,12 @@ xvfbParams
 .
 display
 "
-                        
+                    
 "
 0
 "
-                    
-]
                 
+]
 )
                 
 LOG
@@ -3586,9 +3583,8 @@ priority1_options
 .
 extend
 (
-                    
 [
-                        
+                    
 "
 -
 -
@@ -3596,13 +3592,12 @@ firefox
 .
 windowRecorder
 "
-                        
+                    
 "
 true
 "
-                    
-]
                 
+]
 )
                 
 LOG
@@ -4176,9 +4171,8 @@ priority1_options
 .
 extend
 (
-                
 [
-                    
+                
 "
 -
 -
@@ -4186,13 +4180,12 @@ firefox
 .
 geckoProfilerRecordingType
 "
-                    
+                
 "
 custom
 "
-                
-]
             
+]
 )
         
 for
@@ -4771,8 +4764,8 @@ browsertime_options
 .
 extend
 (
-            
 [
+            
 "
 -
 -
@@ -4780,6 +4773,7 @@ browsertime
 .
 liveSite
 "
+            
 str
 (
 self
@@ -4791,8 +4785,8 @@ live_sites
 "
 ]
 )
-]
         
+]
 )
         
 login_required

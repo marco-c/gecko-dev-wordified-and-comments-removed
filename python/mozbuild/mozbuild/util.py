@@ -2403,7 +2403,6 @@ list
 raise
 ValueError
 (
-                    
 "
 List
 can
@@ -2413,12 +2412,9 @@ sliced
 with
 other
 list
-"
-"
 instances
 .
 "
-                
 )
             
 if
@@ -2439,8 +2435,6 @@ with
 a
 nonzero
 step
-"
-"
 value
 "
 )

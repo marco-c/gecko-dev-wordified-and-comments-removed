@@ -5406,8 +5406,8 @@ missing
 assert
 all
 (
-        
 [
+        
 expanded_cats
 .
 get
@@ -5426,8 +5426,8 @@ unique_categories
 keys
 (
 )
-]
     
+]
 )
     
 for
@@ -7057,7 +7057,6 @@ mock
 .
 patch
 (
-        
 "
 tryselect
 .
@@ -7067,7 +7066,6 @@ perf
 .
 requests
 "
-    
 )
 as
 requests_mock
@@ -7986,7 +7984,6 @@ mock
 .
 patch
 (
-        
 "
 tryselect
 .
@@ -7996,7 +7993,6 @@ perf
 .
 requests
 "
-    
 )
 as
 requests_mock
@@ -9832,7 +9828,6 @@ mock
 .
 patch
 (
-        
 "
 tryselect
 .
@@ -9846,7 +9841,6 @@ Path
 .
 open
 "
-    
 )
 :
         
@@ -10030,7 +10024,6 @@ mock
 .
 patch
 (
-        
 "
 tryselect
 .
@@ -10044,7 +10037,6 @@ Path
 .
 open
 "
-    
 )
 :
         

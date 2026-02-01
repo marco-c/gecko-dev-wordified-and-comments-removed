@@ -2706,9 +2706,8 @@ n
 .
 join
 (
-            
 [
-                
+            
 f
 "
 commit
@@ -2720,13 +2719,13 @@ machtry
 branch
 }
 "
-                
+            
 "
 mark
 :
 1
 "
-                
+            
 f
 "
 author
@@ -2734,7 +2733,7 @@ author
 author
 }
 "
-                
+            
 f
 "
 committer
@@ -2742,12 +2741,12 @@ committer
 committer
 }
 "
-                
+            
 data
 (
 commit_message
 )
-                
+            
 f
 "
 from
@@ -2755,7 +2754,7 @@ from
 current_head
 }
 "
-                
+            
 "
 \
 n
@@ -2763,7 +2762,7 @@ n
 .
 join
 (
-                    
+                
 f
 "
 M
@@ -2781,7 +2780,7 @@ content
 )
 }
 "
-                    
+                
 for
 path
 content
@@ -2796,9 +2795,9 @@ or
 items
 (
 )
-                
+            
 )
-                
+            
 f
 "
 reset
@@ -2810,12 +2809,12 @@ machtry
 branch
 }
 "
-                
+            
 "
 from
 0000000000000000000000000000000000000000
 "
-                
+            
 "
 get
 -
@@ -2823,12 +2822,11 @@ mark
 :
 1
 "
-                
-"
-"
             
-]
+"
+"
         
+]
 )
         
 cmd

@@ -1,6 +1,4 @@
 import
-codecs
-import
 itertools
 import
 logging
@@ -1584,8 +1582,6 @@ return
 1
     
 with
-codecs
-.
 open
 (
 "
@@ -1596,6 +1592,8 @@ status
 "
 w
 "
+encoding
+=
 "
 utf
 -
@@ -1725,8 +1723,6 @@ topsrcdir
 '
 defines
 '
-"
-"
 '
 substs
 '
