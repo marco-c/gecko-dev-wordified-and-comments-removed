@@ -102,6 +102,13 @@ sent_packet
 "
 )
 {
+visibility
+=
+[
+"
+*
+"
+]
 sources
 =
 [

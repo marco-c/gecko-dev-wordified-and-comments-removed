@@ -1188,7 +1188,7 @@ callback
 )
 ;
 void
-NotifyCandidateready
+NotifyCandidateReady
 (
 Port
 *
