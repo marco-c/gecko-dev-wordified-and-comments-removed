@@ -26,6 +26,13 @@ sites
 docs
 .
 txt
+path
+:
+taskcluster
+/
+requirements
+.
+txt
 #
 Code
 for
