@@ -285,14 +285,6 @@ eFormInvalid
 )
 NS_EVENT_MESSAGE
 (
-eFormCheckboxStateChange
-)
-NS_EVENT_MESSAGE
-(
-eFormRadioStateChange
-)
-NS_EVENT_MESSAGE
-(
 eFormData
 )
 NS_EVENT_MESSAGE

@@ -94,11 +94,6 @@ aContent
 aDoc
 )
 {
-mStateFlags
-|
-=
-eIgnoreDOMUIEvent
-;
 mType
 =
 eHTMLRadioButtonType
