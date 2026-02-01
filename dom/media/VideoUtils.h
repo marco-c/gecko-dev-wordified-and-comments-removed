@@ -928,9 +928,7 @@ TaskQueue
 >
 CreateMediaDecodeTaskQueue
 (
-const
-char
-*
+StaticString
 aName
 )
 ;
@@ -1245,6 +1243,15 @@ aOutCodecs
 ;
 bool
 IsH264CodecString
+(
+const
+nsAString
+&
+aCodec
+)
+;
+bool
+IsAllowedH264Codec
 (
 const
 nsAString

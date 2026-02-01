@@ -78,9 +78,7 @@ LazyIdleThread
 (
 uint32_t
 aIdleTimeoutMS
-const
-char
-*
+StaticString
 aName
 ShutdownMethod
 aShutdownMethod
