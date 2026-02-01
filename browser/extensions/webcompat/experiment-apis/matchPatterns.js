@@ -41,7 +41,6 @@ Cu
 cloneInto
 (
 {
-patterns
 matches
 :
 url

@@ -2287,10 +2287,11 @@ GOOGLE_TLDS
 ;
 }
 async
-registerContentScripts
+_registerContentScripts
 (
 scriptsToReg
 typeStr
+logger
 )
 {
 const
@@ -2384,7 +2385,7 @@ registerContentScripts
 stillNeeded
 )
 ;
-debugLog
+logger
 (
 Registered
 still
@@ -2418,7 +2419,7 @@ registerContentScripts
 scriptsToReg
 )
 ;
-debugLog
+logger
 (
 Registered
 all
