@@ -1,4 +1,10 @@
 #
+ifndef
+BROWSER_COMPONENTS_SHELL_NSSHELLSERVICE_H_
+#
+define
+BROWSER_COMPONENTS_SHELL_NSSHELLSERVICE_H_
+#
 define
 PREF_CHECKDEFAULTBROWSER
 "
@@ -34,3 +40,5 @@ brand
 .
 properties
 "
+#
+endif
