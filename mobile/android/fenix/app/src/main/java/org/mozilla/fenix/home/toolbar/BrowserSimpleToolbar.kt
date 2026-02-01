@@ -465,7 +465,7 @@ fenix
 .
 theme
 .
-Theme
+PreviewThemeProvider
 import
 org
 .
@@ -475,7 +475,7 @@ fenix
 .
 theme
 .
-ThemeProvider
+Theme
 import
 mozilla
 .
@@ -1049,7 +1049,7 @@ BrowserSimpleToolbarPreview_Edit
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class
@@ -1077,7 +1077,7 @@ BrowserSimpleToolbarPreview_Initial
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class
@@ -1105,7 +1105,7 @@ BrowserSimpleToolbarPreview_Search
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class

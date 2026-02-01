@@ -237,7 +237,7 @@ fenix
 .
 theme
 .
-Theme
+PreviewThemeProvider
 import
 org
 .
@@ -247,7 +247,7 @@ fenix
 .
 theme
 .
-ThemeProvider
+Theme
 import
 org
 .
@@ -428,7 +428,7 @@ MessageCardPreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class
@@ -486,7 +486,7 @@ MessageCardWithoutTitlePreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class
@@ -561,7 +561,7 @@ MessageCardWithButtonLabelPreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class

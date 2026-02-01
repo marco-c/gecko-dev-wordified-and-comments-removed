@@ -113,7 +113,7 @@ PreviewText
 *
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class
@@ -147,7 +147,7 @@ hello
 *
 /
 class
-ThemeProvider
+PreviewThemeProvider
 :
 PreviewParameterProvider
 <

@@ -657,7 +657,7 @@ fenix
 .
 theme
 .
-Theme
+PreviewThemeProvider
 import
 org
 .
@@ -667,7 +667,7 @@ fenix
 .
 theme
 .
-ThemeProvider
+Theme
 import
 mozilla
 .
@@ -2662,7 +2662,7 @@ AddAddressPreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class
@@ -2697,7 +2697,7 @@ EditAddressPreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class

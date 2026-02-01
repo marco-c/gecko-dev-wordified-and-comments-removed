@@ -223,7 +223,7 @@ fenix
 .
 theme
 .
-Theme
+PreviewThemeProvider
 import
 org
 .
@@ -233,7 +233,7 @@ fenix
 .
 theme
 .
-ThemeProvider
+Theme
 /
 *
 *
@@ -427,7 +427,7 @@ AutomaticTranslationOptionsPreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class

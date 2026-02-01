@@ -431,7 +431,7 @@ fenix
 .
 theme
 .
-Theme
+PreviewThemeProvider
 import
 org
 .
@@ -441,7 +441,7 @@ fenix
 .
 theme
 .
-ThemeProvider
+Theme
 import
 mozilla
 .
@@ -1815,7 +1815,7 @@ CustomTabMenuPreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class
@@ -1979,7 +1979,7 @@ CustomTabMenuDisabledButtonsPreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class

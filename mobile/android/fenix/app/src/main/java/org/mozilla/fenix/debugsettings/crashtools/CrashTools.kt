@@ -331,7 +331,7 @@ fenix
 .
 theme
 .
-Theme
+PreviewThemeProvider
 import
 org
 .
@@ -341,7 +341,7 @@ fenix
 .
 theme
 .
-ThemeProvider
+Theme
 import
 org
 .
@@ -701,7 +701,7 @@ CrashToolsPreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class

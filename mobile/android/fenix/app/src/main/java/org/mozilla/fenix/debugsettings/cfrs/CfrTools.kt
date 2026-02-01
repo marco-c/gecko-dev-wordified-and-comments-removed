@@ -303,7 +303,7 @@ fenix
 .
 theme
 .
-Theme
+PreviewThemeProvider
 import
 org
 .
@@ -313,7 +313,7 @@ fenix
 .
 theme
 .
-ThemeProvider
+Theme
 /
 *
 *
@@ -1201,7 +1201,7 @@ CfrToolsPreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class

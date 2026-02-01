@@ -585,7 +585,7 @@ fenix
 .
 theme
 .
-Theme
+PreviewThemeProvider
 import
 org
 .
@@ -595,7 +595,7 @@ fenix
 .
 theme
 .
-ThemeProvider
+Theme
 import
 org
 .
@@ -2975,7 +2975,7 @@ DownloadLanguagesPreferencePreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class

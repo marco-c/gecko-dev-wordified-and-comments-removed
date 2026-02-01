@@ -319,7 +319,7 @@ fenix
 .
 theme
 .
-Theme
+PreviewThemeProvider
 import
 org
 .
@@ -329,7 +329,7 @@ fenix
 .
 theme
 .
-ThemeProvider
+Theme
 import
 mozilla
 .
@@ -518,7 +518,7 @@ SubmenuHeaderPreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class

@@ -409,7 +409,7 @@ fenix
 .
 theme
 .
-Theme
+PreviewThemeProvider
 import
 org
 .
@@ -419,7 +419,7 @@ fenix
 .
 theme
 .
-ThemeProvider
+Theme
 import
 kotlin
 .
@@ -1412,7 +1412,7 @@ FontSizePreferencePreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class
@@ -1454,7 +1454,7 @@ FontSizePreferenceDisabledPreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class

@@ -419,7 +419,7 @@ fenix
 .
 theme
 .
-Theme
+PreviewThemeProvider
 import
 org
 .
@@ -429,7 +429,7 @@ fenix
 .
 theme
 .
-ThemeProvider
+Theme
 /
 *
 *
@@ -686,7 +686,7 @@ DebugDrawerHomePreview
 (
 PreviewParameter
 (
-ThemeProvider
+PreviewThemeProvider
 :
 :
 class
