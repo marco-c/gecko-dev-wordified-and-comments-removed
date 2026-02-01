@@ -1754,6 +1754,20 @@ capi
 {
     
 "
+assert
+.
+h
+"
+:
+[
+        
+"
+assert
+"
+    
+]
+    
+"
 string
 .
 h
