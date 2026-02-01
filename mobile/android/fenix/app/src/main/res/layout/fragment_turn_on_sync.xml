@@ -347,7 +347,7 @@ android
 scaleType
 =
 "
-fitXY
+fitCenter
 "
 app
 :
@@ -379,7 +379,7 @@ srcCompat
 "
 drawable
 /
-ic_scan
+nova_onboarding_sync_qr
 "
 /
 >
