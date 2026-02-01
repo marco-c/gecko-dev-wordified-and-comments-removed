@@ -4085,6 +4085,10 @@ fec_controller_api
 "
 "
 :
+field_trials
+"
+"
+:
 libjingle_peerconnection_api
 "
 "

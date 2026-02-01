@@ -4530,6 +4530,14 @@ system_wrappers
 /
 test
 :
+create_test_field_trials
+"
+"
+.
+.
+/
+test
+:
 direct_transport
 "
 "

@@ -100,6 +100,15 @@ include
 "
 test
 /
+create_test_field_trials
+.
+h
+"
+#
+include
+"
+test
+/
 frame_generator_capturer
 .
 h
@@ -174,6 +183,8 @@ CpuOveruseTest
 :
 CallTest
 (
+CreateTestFieldTrials
+(
 "
 WebRTC
 -
@@ -186,6 +197,7 @@ ForceSimulatedOveruseIntervalMs
 60000
 /
 "
+)
 )
 {
 }

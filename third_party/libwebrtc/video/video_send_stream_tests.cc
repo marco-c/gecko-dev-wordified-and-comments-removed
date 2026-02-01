@@ -997,6 +997,15 @@ include
 "
 test
 /
+create_test_field_trials
+.
+h
+"
+#
+include
+"
+test
+/
 encoder_settings
 .
 h
@@ -4237,6 +4246,8 @@ VideoSendStreamWithoutUlpfecTest
 :
 CallTest
 (
+CreateTestFieldTrials
+(
 "
 WebRTC
 -
@@ -4245,6 +4256,7 @@ DisableUlpFecExperiment
 Enabled
 /
 "
+)
 )
 {
 }
