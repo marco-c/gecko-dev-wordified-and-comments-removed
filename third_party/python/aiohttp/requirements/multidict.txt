@@ -61,7 +61,7 @@ multidict
 =
 6
 .
-6
+4
 .
 4
 #
@@ -80,9 +80,9 @@ extensions
 =
 4
 .
-15
+13
 .
-0
+2
 #
 via
 multidict

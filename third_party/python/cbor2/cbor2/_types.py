@@ -15,7 +15,6 @@ abc
 import
 Iterable
 Iterator
-Mapping
 from
 functools
 import
@@ -28,6 +27,7 @@ from
 typing
 import
 Any
+Mapping
 TypeVar
 KT
 =

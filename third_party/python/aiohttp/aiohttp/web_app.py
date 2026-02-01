@@ -186,17 +186,35 @@ _AppSignal
 =
 Signal
 [
+Callable
+[
+[
 "
 Application
 "
+]
+Awaitable
+[
+None
+]
+]
 ]
     
 _RespPrepareSignal
 =
 Signal
 [
+Callable
+[
+[
 Request
 StreamResponse
+]
+Awaitable
+[
+None
+]
+]
 ]
     
 _Middlewares

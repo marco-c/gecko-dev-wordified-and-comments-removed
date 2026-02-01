@@ -69,21 +69,10 @@ CIMultiDict
 CIMultiDictProxy
 from
 .
-abc
-import
-AbstractStreamWriter
-from
-.
 compression_utils
 import
-(
-    
-DEFAULT_MAX_DECOMPRESS_SIZE
-    
 ZLibCompressor
-    
 ZLibDecompressor
-)
 from
 .
 hdrs
@@ -563,23 +552,6 @@ pop
 (
 0
 )
-        
-if
-not
-item
-:
-            
-warnings
-.
-warn
-(
-BadContentDispositionHeader
-(
-header
-)
-)
-            
-continue
         
 if
 "
@@ -1525,12 +1497,6 @@ str
 ]
 =
 None
-        
-max_decompress_size
-:
-int
-=
-DEFAULT_MAX_DECOMPRESS_SIZE
     
 )
 -
@@ -1674,12 +1640,6 @@ Any
 =
 {
 }
-        
-self
-.
-_max_decompress_size
-=
-max_decompress_size
     
 def
 __aiter__
@@ -1859,7 +1819,6 @@ decode
 :
             
 return
-await
 self
 .
 decode
@@ -2156,7 +2115,10 @@ if
 self
 .
 _at_eof
-and
+:
+            
+clrf
+=
 await
 self
 .
@@ -2165,8 +2127,10 @@ _content
 readline
 (
 )
-!
-=
+            
+assert
+(
+                
 b
 "
 \
@@ -2174,13 +2138,13 @@ r
 \
 n
 "
-:
+=
+=
+clrf
             
-raise
-ValueError
-(
+)
 "
-Reader
+reader
 did
 not
 read
@@ -2192,7 +2156,6 @@ it
 is
 malformed
 "
-)
         
 return
 chunk
@@ -2329,14 +2292,6 @@ self
 .
 _prev_chunk
 =
-b
-"
-\
-r
-\
-n
-"
-+
 await
 self
 .
@@ -2393,23 +2348,17 @@ at_eof
 )
 )
             
-if
+assert
 self
 .
 _content_eof
->
-2
-:
-                
-raise
-ValueError
-(
+<
+3
 "
 Reading
 after
 EOF
 "
-)
             
 if
 self
@@ -2559,6 +2508,12 @@ idx
 ]
 )
             
+if
+size
+>
+idx
+:
+                
 self
 .
 _prev_chunk
@@ -2601,14 +2556,6 @@ result
 self
 .
 _prev_chunk
-[
-2
-if
-first_chunk
-else
-0
-:
-]
         
 self
 .
@@ -3230,7 +3177,6 @@ self
 .
 _at_eof
     
-async
 def
 decode
 (
@@ -3306,7 +3252,6 @@ headers
 :
             
 return
-await
 self
 .
 _decode_content
@@ -3317,7 +3262,6 @@ data
 return
 data
     
-async
 def
 _decode_content
 (
@@ -3374,7 +3318,6 @@ gzip
 :
             
 return
-await
 ZLibDecompressor
 (
                 
@@ -3388,14 +3331,9 @@ True
             
 )
 .
-decompress
+decompress_sync
 (
 data
-max_length
-=
-self
-.
-_max_decompress_size
 )
         
 raise
@@ -4002,7 +3940,7 @@ write
 self
 writer
 :
-AbstractStreamWriter
+Any
 )
 -
 >
@@ -4039,7 +3977,6 @@ writer
 .
 write
 (
-await
 field
 .
 decode
@@ -5277,6 +5214,9 @@ str
 lines
 =
 [
+b
+"
+"
 ]
         
 while
@@ -5298,15 +5238,8 @@ chunk
 =
 chunk
 .
-rstrip
+strip
 (
-b
-"
-\
-r
-\
-n
-"
 )
             
 lines
@@ -6571,18 +6504,14 @@ self
 _parts
 :
             
-part_size
-=
-part
-.
-size
-            
 if
 encoding
 or
 te_encoding
 or
-part_size
+part
+.
+size
 is
 None
 :
@@ -6610,7 +6539,9 @@ _boundary
 2
                 
 +
-part_size
+part
+.
+size
                 
 +
 len
@@ -6955,17 +6886,15 @@ async
 def
 write
 (
-        
 self
 writer
 :
-AbstractStreamWriter
+Any
 close_boundary
 :
 bool
 =
 True
-    
 )
 -
 >
@@ -7314,7 +7243,7 @@ __init__
 self
 writer
 :
-AbstractStreamWriter
+Any
 )
 -
 >

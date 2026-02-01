@@ -5141,16 +5141,11 @@ Payload
 :
                 
 if
-(
-size
-:
-=
 self
 .
 _body
 .
 size
-)
 is
 not
 None
@@ -5167,6 +5162,10 @@ CONTENT_LENGTH
 =
 str
 (
+self
+.
+_body
+.
 size
 )
             

@@ -141,8 +141,6 @@ Haoran
 Ben
 Bader
 Ben
-Beasley
-Ben
 Greiner
 Ben
 Kallus
@@ -330,8 +328,6 @@ Greg
 Holt
 Gregory
 Haynes
-Guillaume
-Leurquin
 Gus
 Goulart
 Gustavo
@@ -391,8 +387,6 @@ Nick
 Koston
 Jacob
 Champion
-Jacob
-Henner
 Jaesung
 Lee
 Jake
@@ -484,8 +478,6 @@ Kay
 Zheng
 Kevin
 Samuel
-Kilian
-Guillaume
 Kimmo
 Parviainen
 -
@@ -494,8 +486,6 @@ Kirill
 Klenov
 Kirill
 Malovitsa
-Kirill
-Potapenko
 Konstantin
 Shutkin
 Konstantin
@@ -553,8 +543,6 @@ Mariano
 Anaya
 Mariusz
 Masztalerczuk
-Mark
-Larah
 Marko
 Kohtala
 Martijn
@@ -598,8 +586,6 @@ Mikhail
 Lukyanchenko
 Mikhail
 Nacharov
-Mingjie
-Zhao
 Misha
 Behersky
 Mitchell
@@ -641,8 +627,6 @@ Pankaj
 Pandey
 Parag
 Jain
-Patrick
-Lee
 Pau
 Freixes
 Paul
@@ -709,8 +693,6 @@ Samir
 Akarioh
 Samuel
 Colvin
-Samuel
-Gaist
 Sean
 Hunt
 Sebastian
@@ -790,8 +772,6 @@ Tomasz
 Trebski
 Toshiaki
 Tanaka
-Trevor
-Gamblin
 Trinh
 Hoang
 Nhu

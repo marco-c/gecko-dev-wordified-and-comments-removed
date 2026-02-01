@@ -72,6 +72,12 @@ import
 BuildEnvironmentNotFoundException
 MozbuildObject
 from
+taskgraph
+.
+util
+import
+taskcluster
+from
 .
 tasks
 import
@@ -1962,13 +1968,6 @@ use_existing_tasks
 )
 :
         
-from
-taskgraph
-.
-util
-import
-taskcluster
-        
 branch
 =
 "
@@ -2226,13 +2225,6 @@ use_existing_tasks
 :
             
 return
-        
-from
-taskgraph
-.
-util
-import
-taskcluster
         
 if
 use_existing_tasks

@@ -626,11 +626,6 @@ cython
 -
 3
 -
-X
-freethreading_compatible
-=
-True
--
 o
 <
 -
@@ -676,11 +671,6 @@ cython
 -
 3
 -
-X
-freethreading_compatible
-=
-True
--
 o
 <
 -
@@ -715,11 +705,6 @@ CYS
 cython
 -
 3
--
-X
-freethreading_compatible
-=
-True
 -
 o
 <
@@ -1677,9 +1662,9 @@ in
 '
 from
 '
-pyproject
+setup
 .
-toml
+cfg
 '
 .
 .

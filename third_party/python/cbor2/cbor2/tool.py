@@ -47,10 +47,6 @@ Collection
 Iterable
 Iterator
 from
-contextlib
-import
-ExitStack
-from
 datetime
 import
 datetime
@@ -63,7 +59,6 @@ typing
 import
 TYPE_CHECKING
 Any
-BinaryIO
 TypeVar
 from
 .
@@ -447,7 +442,9 @@ iterdecode
     
 f
 :
-BinaryIO
+io
+.
+BytesIO
     
 tag_hook
 :
@@ -840,10 +837,7 @@ dict
 )
 :
             
-rval
-[
-k
-]
+v
 =
 key_to_str
 (
@@ -863,10 +857,7 @@ set
 )
 :
             
-rval
-[
-k
-]
+v
 =
 [
 key_to_str
@@ -880,9 +871,6 @@ in
 v
 ]
         
-else
-:
-            
 rval
 [
 k
@@ -999,13 +987,16 @@ nargs
 *
 "
         
-default
+type
 =
-[
+argparse
+.
+FileType
+(
 "
--
+rb
 "
-]
+)
         
 help
 =
@@ -1211,11 +1202,6 @@ type
 =
 str
         
-default
-=
-"
-"
-        
 help
 =
 "
@@ -1243,9 +1229,53 @@ parse_args
 (
 )
     
-if
+outfile
+=
 options
 .
+outfile
+    
+sort_keys
+=
+options
+.
+sort_keys
+    
+pretty
+=
+options
+.
+pretty
+    
+sequence
+=
+options
+.
+sequence
+    
+decode
+=
+options
+.
+decode
+    
+infiles
+=
+options
+.
+infiles
+or
+[
+sys
+.
+stdin
+]
+    
+closefd
+=
+True
+    
+if
 outfile
 =
 =
@@ -1262,19 +1292,12 @@ closefd
 =
 False
     
-else
-:
-        
-outfile
-=
+if
 options
 .
-outfile
+tag_ignore
+:
         
-closefd
-=
-True
-    
 ignore_s
 =
 options
@@ -1286,7 +1309,7 @@ split
 "
 "
 )
-    
+        
 droptags
 =
 {
@@ -1315,6 +1338,15 @@ isdigit
 )
 )
 }
+    
+else
+:
+        
+droptags
+=
+set
+(
+)
     
 my_hook
 =
@@ -1354,67 +1386,39 @@ closefd
     
 )
 as
-outfp
+outfile
 :
         
 for
-path
+infile
 in
-options
-.
 infiles
 :
             
-with
-ExitStack
+if
+hasattr
 (
+infile
+"
+buffer
+"
 )
-as
-stack
+and
+not
+decode
 :
                 
-if
-path
-=
-=
-"
--
-"
-:
-                    
 infile
-:
-BinaryIO
 =
-sys
-.
-stdin
+infile
 .
 buffer
-                
-else
-:
-                    
+            
+with
 infile
-=
-stack
-.
-enter_context
-(
-open
-(
-path
-mode
-=
-"
-rb
-"
-)
-)
+:
                 
 if
-options
-.
 decode
 :
                     
@@ -1440,8 +1444,6 @@ try
 :
                     
 if
-options
-.
 sequence
 :
                         
@@ -1491,12 +1493,10 @@ key_to_str
 obj
 )
                             
-outfp
+outfile
                             
 sort_keys
 =
-options
-.
 sort_keys
                             
 indent
@@ -1506,8 +1506,6 @@ None
 4
 )
 [
-options
-.
 pretty
 ]
                             
@@ -1521,7 +1519,7 @@ False
                         
 )
                         
-outfp
+outfile
 .
 write
 (

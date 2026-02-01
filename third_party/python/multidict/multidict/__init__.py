@@ -57,7 +57,15 @@ __all__
 (
     
 "
-CIMultiDict
+MultiMapping
+"
+    
+"
+MutableMultiMapping
+"
+    
+"
+MultiDictProxy
 "
     
 "
@@ -69,19 +77,11 @@ MultiDict
 "
     
 "
-MultiDictProxy
+CIMultiDict
 "
     
 "
-MultiMapping
-"
-    
-"
-MutableMultiMapping
-"
-    
-"
-getversion
+upstr
 "
     
 "
@@ -89,7 +89,7 @@ istr
 "
     
 "
-upstr
+getversion
 "
 )
 __version__
@@ -97,9 +97,9 @@ __version__
 "
 6
 .
-7
+6
 .
-0
+4
 "
 if
 TYPE_CHECKING

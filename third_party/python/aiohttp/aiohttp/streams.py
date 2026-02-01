@@ -561,14 +561,6 @@ _high_water
 "
         
 "
-_low_water_chunks
-"
-        
-"
-_high_water_chunks
-"
-        
-"
 _loop
 "
         
@@ -622,10 +614,6 @@ _eof_counter
         
 "
 total_bytes
-"
-        
-"
-total_compressed_bytes
 "
     
 )
@@ -708,34 +696,6 @@ get_event_loop
         
 self
 .
-_high_water_chunks
-=
-max
-(
-3
-limit
-/
-/
-4
-)
-        
-self
-.
-_low_water_chunks
-=
-max
-(
-2
-self
-.
-_high_water_chunks
-/
-/
-2
-)
-        
-self
-.
 _loop
 =
 loop
@@ -758,7 +718,7 @@ _http_chunk_splits
 :
 Optional
 [
-Deque
+List
 [
 int
 ]
@@ -878,17 +838,6 @@ self
 total_bytes
 =
 0
-        
-self
-.
-total_compressed_bytes
-:
-Optional
-[
-int
-]
-=
-None
     
 def
 __repr__
@@ -1480,36 +1429,6 @@ _eof_waiter
 =
 None
     
-property
-    
-def
-total_raw_bytes
-(
-self
-)
--
->
-int
-:
-        
-if
-self
-.
-total_compressed_bytes
-is
-None
-:
-            
-return
-self
-.
-total_bytes
-        
-return
-self
-.
-total_compressed_bytes
-    
 def
 unread_data
 (
@@ -1812,11 +1731,8 @@ self
 .
 _http_chunk_splits
 =
-collections
-.
-deque
-(
-)
+[
+]
     
 def
 end_http_chunk_receiving
@@ -1890,39 +1806,6 @@ append
 self
 .
 total_bytes
-)
-        
-if
-(
-            
-len
-(
-self
-.
-_http_chunk_splits
-)
->
-self
-.
-_high_water_chunks
-            
-and
-not
-self
-.
-_protocol
-.
-_reading_paused
-        
-)
-:
-            
-self
-.
-_protocol
-.
-pause_reading
-(
 )
         
 waiter
@@ -2612,8 +2495,9 @@ self
 .
 _http_chunk_splits
 .
-popleft
+pop
 (
+0
 )
                 
 if
@@ -3047,20 +2931,12 @@ _cursor
             
 chunk_splits
 .
-popleft
+pop
 (
+0
 )
         
 if
-(
-            
-self
-.
-_protocol
-.
-_reading_paused
-            
-and
 self
 .
 _size
@@ -3068,31 +2944,12 @@ _size
 self
 .
 _low_water
-            
 and
-(
-                
 self
 .
-_http_chunk_splits
-is
-None
-                
-or
-len
-(
-self
+_protocol
 .
-_http_chunk_splits
-)
-<
-self
-.
-_low_water_chunks
-            
-)
-        
-)
+_reading_paused
 :
             
 self

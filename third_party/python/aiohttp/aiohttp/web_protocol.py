@@ -2427,14 +2427,16 @@ None
 if
 self
 .
-_logging_enabled
-and
-self
-.
 access_logger
 is
 not
 None
+and
+self
+.
+access_logger
+.
+enabled
 :
             
 if
