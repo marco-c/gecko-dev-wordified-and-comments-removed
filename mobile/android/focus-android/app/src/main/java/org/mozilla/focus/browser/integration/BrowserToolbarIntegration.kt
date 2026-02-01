@@ -1517,9 +1517,9 @@ state
 .
 tabs
 .
-size
->
-1
+isNotEmpty
+(
+)
 )
 {
 toolbar
