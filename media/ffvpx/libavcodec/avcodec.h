@@ -2220,6 +2220,9 @@ decoded_side_data
 int
 nb_decoded_side_data
 ;
+int
+moz_extradata_offset
+;
 void
 *
 moz_ndk_crypto
