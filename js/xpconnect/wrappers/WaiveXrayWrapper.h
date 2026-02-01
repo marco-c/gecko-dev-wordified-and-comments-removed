@@ -1,9 +1,9 @@
 #
 ifndef
-__CrossOriginWrapper_h__
+CrossOriginWrapper_h_
 #
 define
-__CrossOriginWrapper_h__
+CrossOriginWrapper_h_
 #
 include
 "

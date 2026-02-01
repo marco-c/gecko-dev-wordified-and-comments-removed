@@ -1,9 +1,9 @@
 #
 ifndef
-__AccessCheck_h__
+AccessCheck_h_
 #
 define
-__AccessCheck_h__
+AccessCheck_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-jit_riscv64_constant_Base_constant_riscv__h_
+jit_riscv64_constant_Base_constant_riscv_h_
 #
 define
-jit_riscv64_constant_Base_constant_riscv__h_
+jit_riscv64_constant_Base_constant_riscv_h_
 #
 include
 "

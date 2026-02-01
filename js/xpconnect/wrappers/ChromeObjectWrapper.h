@@ -1,9 +1,9 @@
 #
 ifndef
-__ChromeObjectWrapper_h__
+ChromeObjectWrapper_h_
 #
 define
-__ChromeObjectWrapper_h__
+ChromeObjectWrapper_h_
 #
 include
 "

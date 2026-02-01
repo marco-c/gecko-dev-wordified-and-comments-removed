@@ -1,9 +1,9 @@
 #
 ifndef
-xpcforwards_h___
+xpcforwards_h_
 #
 define
-xpcforwards_h___
+xpcforwards_h_
 class
 nsXPConnect
 ;

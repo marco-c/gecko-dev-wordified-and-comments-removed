@@ -1,9 +1,9 @@
 #
 ifndef
-xpcprivate_h___
+xpcprivate_h_
 #
 define
-xpcprivate_h___
+xpcprivate_h_
 #
 include
 "

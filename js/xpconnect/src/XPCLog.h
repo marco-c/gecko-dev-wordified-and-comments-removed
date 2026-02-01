@@ -1,9 +1,9 @@
 #
 ifndef
-xpclog_h___
+xpclog_h_
 #
 define
-xpclog_h___
+xpclog_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-xpcmaps_h___
+xpcmaps_h_
 #
 define
-xpcmaps_h___
+xpcmaps_h_
 #
 include
 "

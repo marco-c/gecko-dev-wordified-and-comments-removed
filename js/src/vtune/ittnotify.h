@@ -1,9 +1,9 @@
 #
 ifndef
-_ITTNOTIFY_H_
+ITTNOTIFY_H_
 #
 define
-_ITTNOTIFY_H_
+ITTNOTIFY_H_
 #
 ifndef
 ITT_OS_WIN

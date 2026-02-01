@@ -1,9 +1,9 @@
 #
 ifndef
-SystemGlobal_h__
+SystemGlobal_h_
 #
 define
-SystemGlobal_h__
+SystemGlobal_h_
 #
 include
 "

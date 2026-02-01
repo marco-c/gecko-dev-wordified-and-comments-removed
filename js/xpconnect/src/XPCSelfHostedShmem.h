@@ -1,9 +1,9 @@
 #
 ifndef
-xpcselfhostedshmem_h___
+xpcselfhostedshmem_h_
 #
 define
-xpcselfhostedshmem_h___
+xpcselfhostedshmem_h_
 #
 include
 "

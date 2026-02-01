@@ -1,9 +1,9 @@
 #
 ifndef
-_LEGACY_ITTNOTIFY_H_
+_LEGACYITTNOTIFY_H_
 #
 define
-_LEGACY_ITTNOTIFY_H_
+_LEGACYITTNOTIFY_H_
 #
 ifndef
 ITT_OS_WIN
@@ -1260,7 +1260,7 @@ C
 endif
 #
 ifndef
-_ITTNOTIFY_H_
+ITTNOTIFY_H_
 void
 ITTAPI
 __itt_pause
@@ -2622,7 +2622,7 @@ __itt_notify_sync_releasing_ptr
 endif
 #
 ifndef
-_ITTNOTIFY_H_
+ITTNOTIFY_H_
 typedef
 int
 __itt_event

@@ -1,9 +1,9 @@
 #
 ifndef
-xpcjsweakreference_h___
+xpcjsweakreference_h_
 #
 define
-xpcjsweakreference_h___
+xpcjsweakreference_h_
 #
 include
 "

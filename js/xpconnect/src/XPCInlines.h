@@ -1,9 +1,9 @@
 #
 ifndef
-xpcinlines_h___
+xpcinlines_h_
 #
 define
-xpcinlines_h___
+xpcinlines_h_
 #
 include
 <
