@@ -22,6 +22,13 @@ location
 location_
 *
 -
+"
+!
+location_hashchange_infinite_loop
+.
+html
+"
+-
 no
 -
 browsing
@@ -53,3 +60,13 @@ html
 -
 scripted_
 *
+-
+name
+:
+hashchange
+files
+:
+-
+location_hashchange_infinite_loop
+.
+html

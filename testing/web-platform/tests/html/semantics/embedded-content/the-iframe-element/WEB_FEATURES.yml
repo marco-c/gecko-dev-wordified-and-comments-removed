@@ -40,3 +40,13 @@ with
 base
 .
 html
+-
+name
+:
+hashchange
+files
+:
+-
+srcdoc_change_hash
+.
+html
