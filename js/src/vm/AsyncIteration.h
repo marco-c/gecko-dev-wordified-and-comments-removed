@@ -396,7 +396,7 @@ State
 state_
 )
 {
-setFixedSlot
+setNeverGCThingFixedSlot
 (
 Slot_State
 Int32Value
