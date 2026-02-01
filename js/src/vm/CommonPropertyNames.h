@@ -2324,14 +2324,6 @@ localeMatcher
 \
 MACRO_
 (
-lower
-"
-lower
-"
-)
-\
-MACRO_
-(
 many
 "
 many
