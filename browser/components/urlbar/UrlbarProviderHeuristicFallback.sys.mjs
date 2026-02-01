@@ -2278,17 +2278,6 @@ title
 query
 keyword
 }
-highlights
-:
-{
-engine
-:
-UrlbarUtils
-.
-HIGHLIGHT
-.
-TYPED
-}
 }
 )
 ;

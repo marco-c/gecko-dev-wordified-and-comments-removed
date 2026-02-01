@@ -771,6 +771,13 @@ js
 ]
 [
 "
+test_result_highlights
+.
+js
+"
+]
+[
+"
 test_richsuggestions
 .
 js
