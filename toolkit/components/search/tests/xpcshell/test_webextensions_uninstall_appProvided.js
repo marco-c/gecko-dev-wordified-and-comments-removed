@@ -44,9 +44,7 @@ initXPCShellAddonManager
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -136,9 +134,7 @@ idle
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 runBackgroundChecks
 (
@@ -206,9 +202,7 @@ let
 engine1
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -235,9 +229,7 @@ installed
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 runBackgroundChecks
 (
@@ -246,9 +238,7 @@ runBackgroundChecks
 engine1
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (

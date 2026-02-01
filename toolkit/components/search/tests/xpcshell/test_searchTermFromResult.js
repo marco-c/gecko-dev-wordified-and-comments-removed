@@ -185,9 +185,7 @@ CONFIG_V2
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -195,9 +193,7 @@ init
 ;
 defaultEngine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -262,9 +258,7 @@ search
 let
 engineEscapedIDN
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -353,9 +347,7 @@ find
 let
 engineWinCharset
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -401,9 +393,7 @@ org
 let
 engineWithAccentsInPath
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -1580,9 +1570,7 @@ search_url_get_params
 let
 testEngine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -1721,9 +1709,7 @@ search_url_get_params
 ;
 testEngine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (

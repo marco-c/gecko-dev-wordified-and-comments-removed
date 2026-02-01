@@ -201,9 +201,7 @@ startup
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -221,9 +219,7 @@ let
 engine
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (

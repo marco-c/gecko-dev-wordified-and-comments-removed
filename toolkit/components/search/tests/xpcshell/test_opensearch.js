@@ -275,9 +275,7 @@ useHttpServer
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -651,9 +649,7 @@ test_telemetry_reporting
 let
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -663,9 +659,7 @@ simple
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 setDefault
 (

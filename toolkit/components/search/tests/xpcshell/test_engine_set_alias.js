@@ -15,9 +15,7 @@ useHttpServer
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -89,9 +87,7 @@ let
 engine1
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -212,9 +208,7 @@ let
 engine2
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -335,9 +329,7 @@ let
 engine3
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -460,9 +452,7 @@ let
 engine4
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -581,9 +571,7 @@ let
 engine5
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -705,9 +693,7 @@ let
 engine6
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (

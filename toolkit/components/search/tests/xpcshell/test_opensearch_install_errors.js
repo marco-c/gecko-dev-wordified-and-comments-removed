@@ -10,9 +10,7 @@ useHttpServer
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -65,9 +63,7 @@ Assert
 .
 rejects
 (
-Services
-.
-search
+SearchService
 .
 addOpenSearchEngine
 (
@@ -146,9 +142,7 @@ let
 engine
 =
 await
-Services
-.
-search
+SearchService
 .
 addOpenSearchEngine
 (
@@ -189,9 +183,7 @@ Assert
 .
 rejects
 (
-Services
-.
-search
+SearchService
 .
 addOpenSearchEngine
 (
@@ -264,9 +256,7 @@ Assert
 .
 rejects
 (
-Services
-.
-search
+SearchService
 .
 addOpenSearchEngine
 (

@@ -288,9 +288,7 @@ config
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -310,9 +308,7 @@ ok
 (
 !
 !
-Services
-.
-search
+SearchService
 .
 getEngineById
 (

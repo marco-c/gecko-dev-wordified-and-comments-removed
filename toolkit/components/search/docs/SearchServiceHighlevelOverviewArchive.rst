@@ -399,9 +399,7 @@ js
 >
 _
 calls
-Services
-.
-search
+SearchService
 .
 getDefault
 to
