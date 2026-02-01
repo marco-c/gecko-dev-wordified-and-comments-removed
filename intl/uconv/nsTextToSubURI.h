@@ -1,9 +1,9 @@
 #
 ifndef
-nsTextToSubURI_h__
+nsTextToSubURI_h_
 #
 define
-nsTextToSubURI_h__
+nsTextToSubURI_h_
 #
 include
 "

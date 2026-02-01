@@ -1,9 +1,9 @@
 #
 ifndef
-nsStringBundle_h__
+nsStringBundle_h_
 #
 define
-nsStringBundle_h__
+nsStringBundle_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_intl_LocaleService_h__
+mozilla_intl_LocaleService_h_
 #
 define
-mozilla_intl_LocaleService_h__
+mozilla_intl_LocaleService_h_
 #
 include
 "

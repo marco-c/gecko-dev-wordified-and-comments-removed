@@ -1,9 +1,9 @@
 #
 ifndef
-nsHyphenator_h__
+nsHyphenator_h_
 #
 define
-nsHyphenator_h__
+nsHyphenator_h_
 #
 include
 "

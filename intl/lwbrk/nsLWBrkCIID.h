@@ -1,9 +1,9 @@
 #
 ifndef
-nsLWBrkCIID_h__
+nsLWBrkCIID_h_
 #
 define
-nsLWBrkCIID_h__
+nsLWBrkCIID_h_
 #
 define
 NS_LBRK_CID

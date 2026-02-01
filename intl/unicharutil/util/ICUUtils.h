@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_ICUUtils_h__
+mozilla_ICUUtils_h_
 #
 define
-mozilla_ICUUtils_h__
+mozilla_ICUUtils_h_
 #
 ifdef
 MOZILLA_INTERNAL_API

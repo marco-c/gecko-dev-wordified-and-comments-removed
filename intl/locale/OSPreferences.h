@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_intl_IntlOSPreferences_h__
+mozilla_intl_IntlOSPreferences_h_
 #
 define
-mozilla_intl_IntlOSPreferences_h__
+mozilla_intl_IntlOSPreferences_h_
 #
 include
 "

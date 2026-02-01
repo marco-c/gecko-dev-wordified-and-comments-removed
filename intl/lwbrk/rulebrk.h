@@ -1,9 +1,9 @@
 #
 ifndef
-__RULEBRK_H__
+RULEBRK_H_
 #
 define
-__RULEBRK_H__
+RULEBRK_H_
 #
 include
 "

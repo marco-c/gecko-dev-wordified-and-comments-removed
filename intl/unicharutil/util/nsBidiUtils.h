@@ -1,9 +1,9 @@
 #
 ifndef
-nsBidiUtils_h__
+nsBidiUtils_h_
 #
 define
-nsBidiUtils_h__
+nsBidiUtils_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsUnicharUtils_h__
+nsUnicharUtils_h_
 #
 define
-nsUnicharUtils_h__
+nsUnicharUtils_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsComplexBreaker_h__
+nsComplexBreaker_h_
 #
 define
-nsComplexBreaker_h__
+nsComplexBreaker_h_
 #
 include
 <
