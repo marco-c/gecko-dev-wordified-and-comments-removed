@@ -139,7 +139,7 @@ include
 "
 WMFSymbols
 .
-h
+inc
 "
 #
 undef
@@ -225,7 +225,7 @@ include
 "
 WMFSymbols
 .
-h
+inc
 "
 #
 undef
