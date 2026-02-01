@@ -2319,6 +2319,10 @@ border_radius
 :
 BorderRadius
 pub
+shadow_radius
+:
+BorderRadius
+pub
 clip_mode
 :
 BoxShadowClipMode
