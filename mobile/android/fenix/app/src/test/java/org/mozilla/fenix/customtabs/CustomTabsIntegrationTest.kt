@@ -1003,9 +1003,6 @@ CustomTabsIntegration
 return
 CustomTabsIntegration
 (
-context
-=
-testContext
 store
 =
 browserStore
@@ -1031,13 +1028,7 @@ activity
 isPrivate
 =
 false
-shouldReverseItems
-=
-false
 isSandboxCustomTab
-=
-false
-isMenuRedesignEnabled
 =
 false
 )
