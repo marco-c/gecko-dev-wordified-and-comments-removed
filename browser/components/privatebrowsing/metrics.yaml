@@ -591,6 +591,9 @@ no_lint
 :
 -
 COMMON_PREFIX
+telemetry_mirror
+:
+Aboutprivatebrowsing_Click_InfoLink
 click_promo_link
 :
 type
@@ -650,6 +653,9 @@ no_lint
 :
 -
 COMMON_PREFIX
+telemetry_mirror
+:
+Aboutprivatebrowsing_Click_PromoLink
 click_dismiss_button
 :
 type
@@ -709,3 +715,6 @@ no_lint
 :
 -
 COMMON_PREFIX
+telemetry_mirror
+:
+Aboutprivatebrowsing_Click_DismissButton
