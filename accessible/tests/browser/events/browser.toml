@@ -53,6 +53,15 @@ js
 prefs
 =
 [
+"
+accessibility
+.
+ariaNotify
+.
+enabled
+=
+true
+"
 #
 Required
 for

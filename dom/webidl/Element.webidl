@@ -2130,6 +2130,10 @@ Element
 includes
 ARIAMixin
 ;
+Element
+includes
+ARIANotifyMixin
+;
 /
 /
 https
