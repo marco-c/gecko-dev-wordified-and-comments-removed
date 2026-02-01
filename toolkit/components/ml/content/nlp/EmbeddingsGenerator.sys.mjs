@@ -1511,7 +1511,7 @@ text
 await
 this
 .
-createEngineIfNotPresent
+ensureEngine
 (
 )
 ;
@@ -1726,7 +1726,7 @@ texts
 await
 this
 .
-createEngineIfNotPresent
+ensureEngine
 (
 )
 ;
