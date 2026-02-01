@@ -1,0 +1,15 @@
+os
+:
+osx
+language
+:
+rust
+sudo
+:
+false
+branches
+:
+except
+:
+-
+master

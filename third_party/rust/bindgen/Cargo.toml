@@ -339,6 +339,9 @@ metadata
 .
 release
 ]
+release
+=
+true
 pre
 -
 release
@@ -367,9 +370,6 @@ CHANGELOG
 md
 "
 ]
-release
-=
-true
 [
 [
 package
@@ -394,6 +394,12 @@ file
 CHANGELOG
 .
 md
+"
+search
+=
+"
+#
+Unreleased
 "
 replace
 =
@@ -432,12 +438,6 @@ date
 )
 "
 "
-"
-search
-=
-"
-#
-Unreleased
 "
 [
 features

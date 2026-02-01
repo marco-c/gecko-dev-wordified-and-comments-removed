@@ -1,0 +1,17 @@
+{
+"
+rust
+-
+analyzer
+.
+cargo
+.
+features
+"
+:
+[
+"
+serde
+"
+]
+}

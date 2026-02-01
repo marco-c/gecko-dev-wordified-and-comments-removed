@@ -5578,14 +5578,18 @@ add_remove_files
 vendor_dir
 )
         
-orig_files
+vendor_path
 =
-list
-(
 Path
 (
 vendor_dir
 )
+        
+extra_files
+=
+list
+(
+vendor_path
 .
 glob
 (
@@ -5602,8 +5606,27 @@ orig
 )
 )
         
+extra_files
++
+=
+list
+(
+vendor_path
+.
+glob
+(
+"
+*
+*
+/
+.
+*
+"
+)
+)
+        
 if
-orig_files
+extra_files
 :
             
 self
@@ -5613,7 +5636,7 @@ repository
 add_remove_files
 (
 *
-orig_files
+extra_files
 force
 =
 True
