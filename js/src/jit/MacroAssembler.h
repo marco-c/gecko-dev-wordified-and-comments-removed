@@ -9585,6 +9585,16 @@ FloatRegister
 scratch
 )
 ;
+inline
+void
+canonicalizeValueZero
+(
+ValueOperand
+value
+FloatRegister
+scratch
+)
+;
 public
 :
 inline
