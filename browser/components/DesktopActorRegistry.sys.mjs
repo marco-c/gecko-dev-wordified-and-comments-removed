@@ -916,6 +916,13 @@ privatebrowsing
 *
 "
 ]
+remoteTypes
+:
+[
+"
+privilegedabout
+"
+]
 }
 AboutProtections
 :
@@ -985,6 +992,13 @@ about
 protections
 ?
 *
+"
+]
+remoteTypes
+:
+[
+"
+privilegedabout
 "
 ]
 }

@@ -685,6 +685,13 @@ about
 certificate
 "
 ]
+remoteTypes
+:
+[
+"
+privilegedabout
+"
+]
 }
 AboutHttpsOnlyError
 :
