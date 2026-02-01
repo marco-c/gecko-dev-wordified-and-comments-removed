@@ -1744,7 +1744,7 @@ length
 std
 :
 :
-abs
+fabs
 (
 to
 .
@@ -1847,7 +1847,7 @@ length
 std
 :
 :
-abs
+fabs
 (
 to
 .
@@ -2184,10 +2184,7 @@ Nothing
 bool
 x
 =
-std
-:
-:
-abs
+fabs
 (
 v
 .
@@ -2201,10 +2198,7 @@ x
 bool
 y
 =
-std
-:
-:
-abs
+fabs
 (
 v
 .

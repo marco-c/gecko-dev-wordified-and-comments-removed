@@ -689,10 +689,7 @@ NS_ERROR_FAILURE
 }
 aDistance
 =
-std
-:
-:
-abs
+fabs
 (
 ValueInDegrees
 (

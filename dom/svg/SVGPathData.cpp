@@ -2332,10 +2332,7 @@ aRy
 float
 rx
 =
-std
-:
-:
-abs
+fabs
 (
 aRx
 )
@@ -2343,10 +2340,7 @@ aRx
 float
 ry
 =
-std
-:
-:
-abs
+fabs
 (
 aRy
 )

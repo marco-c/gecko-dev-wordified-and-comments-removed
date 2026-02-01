@@ -631,10 +631,7 @@ currentT
 }
 while
 (
-std
-:
-:
-abs
+fabs
 (
 currentX
 )
