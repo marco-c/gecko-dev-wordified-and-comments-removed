@@ -3817,15 +3817,6 @@ jit
 PerfEnabled
 (
 )
-|
-|
-mirGen
-(
-)
-.
-isProfilerInstrumentationEnabled
-(
-)
 ;
 if
 (
