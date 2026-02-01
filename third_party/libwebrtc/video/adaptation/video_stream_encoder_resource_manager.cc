@@ -1866,10 +1866,12 @@ pixel_limit_resource_
 AddResource
 (
 pixel_limit_resource_
-VideoAdaptationReason
-:
-:
-kCpu
+pixel_limit_resource_
+-
+>
+adaptation_reason
+(
+)
 )
 ;
 }
