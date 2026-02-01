@@ -768,6 +768,12 @@ Option
 a
 u32
 >
+usage
+:
+wgt
+:
+:
+TextureUsages
 }
 #
 [

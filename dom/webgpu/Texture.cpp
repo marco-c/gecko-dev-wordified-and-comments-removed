@@ -514,6 +514,14 @@ layerCount
 :
 nullptr
 ;
+desc
+.
+usage
+=
+aDesc
+.
+mUsage
+;
 RawId
 id
 =

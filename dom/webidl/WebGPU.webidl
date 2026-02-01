@@ -1740,6 +1740,11 @@ format
 GPUTextureViewDimension
 dimension
 ;
+GPUTextureUsageFlags
+usage
+=
+0
+;
 GPUTextureAspect
 aspect
 =
