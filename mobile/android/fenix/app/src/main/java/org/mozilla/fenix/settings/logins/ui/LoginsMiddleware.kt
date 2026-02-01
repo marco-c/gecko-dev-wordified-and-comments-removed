@@ -759,6 +759,10 @@ AddLoginAction
 .
 PasswordChanged
 is
+DetailLoginAction
+.
+PasswordVisibilityChanged
+is
 DetailLoginMenuAction
 .
 DeleteLoginMenuItemClicked

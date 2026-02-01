@@ -458,4 +458,17 @@ String
 DetailLoginAction
 (
 )
+data
+class
+PasswordVisibilityChanged
+(
+val
+isPasswordVisible
+:
+Boolean
+)
+:
+DetailLoginAction
+(
+)
 }

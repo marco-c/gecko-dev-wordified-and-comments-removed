@@ -1620,6 +1620,17 @@ isPasswordVisible
 =
 !
 isPasswordVisible
+store
+.
+dispatch
+(
+DetailLoginAction
+.
+PasswordVisibilityChanged
+(
+isPasswordVisible
+)
+)
 }
 )
 IconButton
