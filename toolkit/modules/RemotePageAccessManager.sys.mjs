@@ -688,6 +688,12 @@ securityDohNeterror
 "
 securityUiTlserror
 "
+"
+securityUiCerterror
+"
+"
+securityUiNeterror
+"
 ]
 RPMAddMessageListener
 :
@@ -858,6 +864,11 @@ network
 trr
 .
 mode
+"
+"
+security
+.
+dialog_enable_delay
 "
 ]
 }
