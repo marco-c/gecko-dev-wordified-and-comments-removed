@@ -410,7 +410,7 @@ DLL_SUFFIX
 BINPATH
 /
 DLL_PREFIX
-minidump_analyzer
+crashtools
 DLL_SUFFIX
 #
 endif

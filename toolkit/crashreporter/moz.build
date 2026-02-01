@@ -370,10 +370,6 @@ DIRS
 =
 [
 "
-minidump
--
-analyzer
-/
 android
 "
 ]
@@ -392,6 +388,9 @@ crash_helper_client
 "
 "
 crash_helper_server
+"
+"
+crashping
 "
 "
 mozannotation_client

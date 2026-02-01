@@ -3941,9 +3941,9 @@ dep
 zerovec
 "
 ]
-minidump
+crashreporter
 -
-analyzer
+android
 -
 export
 =

@@ -1,9 +1,9 @@
 RustLibrary
 (
 "
-minidump
+crashreporter
 -
-analyzer
+android
 -
 export
 "

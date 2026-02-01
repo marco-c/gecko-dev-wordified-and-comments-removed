@@ -11,9 +11,9 @@ USE_LIBS
 =
 [
 "
-minidump
+crashreporter
 -
-analyzer
+android
 -
 export
 "
@@ -51,6 +51,6 @@ cpp
 SharedLibrary
 (
 "
-minidump_analyzer
+crashtools
 "
 )
