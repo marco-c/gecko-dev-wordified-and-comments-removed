@@ -181,10 +181,10 @@ model
 {
 vocab
 :
-list
-[
+Array
+<
 any
-]
+>
 }
 ;
 encode
