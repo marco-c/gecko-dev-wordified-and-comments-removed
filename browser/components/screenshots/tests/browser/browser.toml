@@ -370,13 +370,6 @@ js
 ]
 [
 "
-browser_screenshots_splitview
-.
-js
-"
-]
-[
-"
 browser_screenshots_telemetry_tests
 .
 js

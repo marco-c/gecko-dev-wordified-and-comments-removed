@@ -517,11 +517,10 @@ ownerDocument
 .
 querySelector
 (
-helper
-.
-selector
-.
-panel
+"
+#
+screenshotsPagePanel
+"
 )
 ;
 let
