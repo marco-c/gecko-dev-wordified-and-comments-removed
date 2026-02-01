@@ -167,7 +167,7 @@ nullptr
 obj
 -
 >
-setFixedSlot
+initFixedSlot
 (
 VALUE_SLOT
 value
@@ -425,7 +425,7 @@ if
 mozilla
 :
 :
-NumberEqualsInt32
+NumberIsInt32
 (
 doubleValue
 &

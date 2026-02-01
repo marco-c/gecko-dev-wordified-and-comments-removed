@@ -38814,7 +38814,6 @@ scratchFloat
 scratchInt
 &
 fallthrough
-false
 )
 ;
 branch32
@@ -38991,7 +38990,6 @@ convertDoubleToInt32
 scratchFloat
 dest
 oolConvert
-false
 )
 ;
 branch32
