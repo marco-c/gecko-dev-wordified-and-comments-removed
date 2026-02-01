@@ -8777,7 +8777,7 @@ mFrameLoader
 uint32_t
 mLastTouched
 ;
-int32_t
+uint32_t
 mDistance
 ;
 }
@@ -8946,7 +8946,7 @@ min
 container
 .
 mDistance
-DeprecatedAbs
+Abs
 (
 i
 -
@@ -9052,7 +9052,7 @@ min
 container
 .
 mDistance
-DeprecatedAbs
+Abs
 (
 i
 -
@@ -9087,7 +9087,7 @@ container
 (
 shist
 entry
-DeprecatedAbs
+Abs
 (
 i
 -
