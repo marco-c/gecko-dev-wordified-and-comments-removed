@@ -45457,6 +45457,16 @@ aSelectionType
 )
 &
 kSelectionTypesWithDecorations
+&
+&
+!
+f
+-
+>
+HasAnyStateBits
+(
+NS_FRAME_IS_DIRTY
+)
 )
 {
 const
