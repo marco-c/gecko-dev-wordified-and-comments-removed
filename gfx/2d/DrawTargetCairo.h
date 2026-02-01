@@ -1063,6 +1063,16 @@ return
 32766
 ;
 }
+static
+size_t
+GetMaxSurfaceArea
+(
+)
+{
+return
+0x7FFFFFFF
+;
+}
 private
 :
 bool

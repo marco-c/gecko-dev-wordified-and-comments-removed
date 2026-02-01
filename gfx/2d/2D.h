@@ -7929,8 +7929,16 @@ aDest
 )
 ;
 static
-uint32_t
+size_t
 GetMaxSurfaceSize
+(
+BackendType
+aType
+)
+;
+static
+size_t
+GetMaxSurfaceArea
 (
 BackendType
 aType
