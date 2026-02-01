@@ -16165,7 +16165,15 @@ mPresShell
 >
 GetAnchorPosAnchor
 (
+{
 anchorName
+StyleCascadeLevel
+:
+:
+Default
+(
+)
+}
 frame
 )
 )

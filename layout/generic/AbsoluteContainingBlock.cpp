@@ -1338,6 +1338,7 @@ aKidFrame
 GetParent
 (
 )
+{
 nullptr
 StyleCascadeLevel
 :
@@ -1345,6 +1346,7 @@ StyleCascadeLevel
 Default
 (
 )
+}
 false
 &
 result
@@ -3670,7 +3672,7 @@ aKidReflowInput
 mAnchorPosResolutionCache
 )
 {
-auto
+AnchorPosReferenceData
 *
 referenceData
 =
@@ -3696,10 +3698,16 @@ referenceData
 >
 Lookup
 (
+{
 referenceData
 -
 >
 mDefaultAnchorName
+referenceData
+-
+>
+mAnchorTreeScope
+}
 )
 ;
 if
@@ -6489,6 +6497,7 @@ ResolveAnchorPosRect
 (
 aKidFrame
 aDelegatingFrame
+{
 nullptr
 StyleCascadeLevel
 :
@@ -6496,6 +6505,7 @@ StyleCascadeLevel
 Default
 (
 )
+}
 false
 aAnchorPosResolutionCache
 )
