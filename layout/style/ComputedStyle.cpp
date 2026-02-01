@@ -1988,6 +1988,8 @@ pos
 >
 mPositionAnchor
 .
+value
+.
 IsIdent
 (
 )
@@ -2003,6 +2005,8 @@ pos
 -
 >
 mPositionAnchor
+.
+value
 .
 IsAuto
 (

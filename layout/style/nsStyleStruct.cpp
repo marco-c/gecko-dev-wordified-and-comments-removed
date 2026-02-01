@@ -5733,7 +5733,7 @@ None
 )
 mPositionAnchor
 (
-StylePositionAnchor
+StylePositionAnchorKeyword
 :
 :
 None
