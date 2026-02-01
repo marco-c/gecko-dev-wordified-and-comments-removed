@@ -5877,6 +5877,9 @@ smartblockEmbedReplaced
 "
 smartblockGetFluentString
 "
+"
+shouldShowEmbedContentInPlaceholders
+"
 ]
 isSmartblockEmbedShim
 :
@@ -6013,6 +6016,9 @@ smartblockEmbedReplaced
 "
 smartblockGetFluentString
 "
+"
+shouldShowEmbedContentInPlaceholders
+"
 ]
 isSmartblockEmbedShim
 :
@@ -6122,6 +6128,9 @@ smartblockEmbedReplaced
 "
 "
 smartblockGetFluentString
+"
+"
+shouldShowEmbedContentInPlaceholders
 "
 ]
 isSmartblockEmbedShim
@@ -6634,6 +6643,9 @@ smartblockEmbedReplaced
 "
 "
 smartblockGetFluentString
+"
+"
+shouldShowEmbedContentInPlaceholders
 "
 ]
 isSmartblockEmbedShim
