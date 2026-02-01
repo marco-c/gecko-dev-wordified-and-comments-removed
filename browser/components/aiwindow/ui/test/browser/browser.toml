@@ -137,6 +137,13 @@ js
 ]
 [
 "
+browser_aiwindow_new_chat_button
+.
+js
+"
+]
+[
+"
 browser_aiwindow_memory_tokens
 .
 js
