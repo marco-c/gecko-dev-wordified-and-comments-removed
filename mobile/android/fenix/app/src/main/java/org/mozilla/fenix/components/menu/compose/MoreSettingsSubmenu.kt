@@ -786,13 +786,6 @@ translatedLanguage
 state
 =
 state
-badgeBackgroundColor
-=
-MaterialTheme
-.
-colorScheme
-.
-primaryContainer
 )
 }
 }

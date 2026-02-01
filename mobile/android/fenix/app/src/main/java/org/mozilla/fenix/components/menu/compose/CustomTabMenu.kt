@@ -1488,9 +1488,6 @@ badgeText
 state
 =
 menuItemState
-badgeBackgroundColor
-=
-badgeBackgroundColor
 )
 }
 if

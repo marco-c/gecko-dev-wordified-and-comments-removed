@@ -2599,9 +2599,6 @@ badgeText
 state
 =
 menuItemState
-badgeBackgroundColor
-=
-badgeBackgroundColor
 )
 }
 ExtensionsMenuItem
