@@ -1240,6 +1240,14 @@ platform_thread
 /
 rtc_base
 :
+race_checker
+"
+"
+.
+.
+/
+rtc_base
+:
 rate_statistics
 "
 "

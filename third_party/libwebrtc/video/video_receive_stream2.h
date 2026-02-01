@@ -347,6 +347,15 @@ include
 "
 rtc_base
 /
+race_checker
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 synchronization
 /
 mutex
@@ -1205,6 +1214,9 @@ RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 decode_sequence_checker_
 ;
+RaceChecker
+decode_callback_race_checker_
+;
 TransportAdapter
 transport_adapter_
 ;
@@ -1552,7 +1564,7 @@ FrameInstrumentationEvaluation
 frame_evaluator_
 RTC_GUARDED_BY
 (
-decode_sequence_checker_
+decode_callback_race_checker_
 )
 ;
 ScopedTaskSafety
