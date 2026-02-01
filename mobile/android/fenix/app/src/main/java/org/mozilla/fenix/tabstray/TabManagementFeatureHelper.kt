@@ -391,5 +391,5 @@ Config
 .
 channel
 .
-isDebug
+isNightlyOrDebug
 }
