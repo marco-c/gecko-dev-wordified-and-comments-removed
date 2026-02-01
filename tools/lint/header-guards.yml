@@ -993,16 +993,6 @@ resource
 .
 h
 -
-toolkit
-/
-components
-/
-resistfingerprinting
-/
-KeyCodeConsensus_En_US
-.
-h
--
 tools
 /
 clang
