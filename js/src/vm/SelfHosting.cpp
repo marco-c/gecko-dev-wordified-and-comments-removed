@@ -12171,6 +12171,15 @@ intl_NumberFormat
 JS_FN
 (
 "
+intl_ResolveLocale
+"
+intl_ResolveLocale
+3
+0
+)
+JS_FN
+(
+"
 intl_SelectPluralRule
 "
 intl_SelectPluralRule
