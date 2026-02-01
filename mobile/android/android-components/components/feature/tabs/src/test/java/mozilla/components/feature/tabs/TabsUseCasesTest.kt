@@ -5554,7 +5554,7 @@ Group
 "
 tabIds
 =
-listOf
+setOf
 (
 tab
 .
@@ -5664,7 +5664,7 @@ Group
 "
 tabIds
 =
-listOf
+setOf
 (
 tab
 .
@@ -5818,7 +5818,7 @@ Group
 "
 tabIds
 =
-listOf
+setOf
 (
 tab
 .
@@ -6029,7 +6029,7 @@ group
 )
 assertEquals
 (
-listOf
+setOf
 (
 tab1
 .
@@ -6052,7 +6052,7 @@ group1
 "
 tabIds
 =
-listOf
+setOf
 (
 tab2
 .
@@ -6081,7 +6081,7 @@ group1
 )
 assertEquals
 (
-listOf
+setOf
 (
 tab1
 .
@@ -6178,7 +6178,7 @@ group1
 "
 tabIds
 =
-listOf
+setOf
 (
 tab1
 .
@@ -6232,7 +6232,7 @@ group1
 )
 assertEquals
 (
-listOf
+setOf
 (
 tab2
 .
@@ -6259,7 +6259,7 @@ group1
 "
 tabIds
 =
-listOf
+setOf
 (
 tab2
 .

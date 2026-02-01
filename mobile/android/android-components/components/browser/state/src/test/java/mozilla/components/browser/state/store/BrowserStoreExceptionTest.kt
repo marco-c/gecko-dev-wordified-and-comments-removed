@@ -775,7 +775,7 @@ test
 "
 tabIds
 =
-listOf
+setOf
 (
 "
 invalid
@@ -832,7 +832,7 @@ test1
 "
 tabIds
 =
-emptyList
+emptySet
 (
 )
 )
@@ -950,7 +950,7 @@ test1
 "
 tabIds
 =
-emptyList
+emptySet
 (
 )
 )
@@ -1052,7 +1052,7 @@ id
 tabGroup
 .
 id
-listOf
+setOf
 (
 tab1
 .

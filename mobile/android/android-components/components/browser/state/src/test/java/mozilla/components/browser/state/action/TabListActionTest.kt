@@ -1560,7 +1560,7 @@ test1
 "
 tabIds
 =
-listOf
+setOf
 (
 "
 a
@@ -1699,7 +1699,7 @@ url
 )
 assertEquals
 (
-listOf
+setOf
 (
 "
 b
@@ -1886,7 +1886,7 @@ test1
 "
 tabIds
 =
-listOf
+setOf
 (
 "
 a
@@ -8131,7 +8131,7 @@ test1
 "
 tabIds
 =
-listOf
+setOf
 (
 "
 a
@@ -8628,7 +8628,7 @@ test1
 "
 tabIds
 =
-listOf
+setOf
 (
 "
 a
@@ -8645,7 +8645,7 @@ test2
 "
 tabIds
 =
-listOf
+setOf
 (
 "
 b
@@ -9182,7 +9182,7 @@ test1
 "
 tabIds
 =
-listOf
+setOf
 (
 "
 a
@@ -9199,7 +9199,7 @@ test2
 "
 tabIds
 =
-listOf
+setOf
 (
 "
 b

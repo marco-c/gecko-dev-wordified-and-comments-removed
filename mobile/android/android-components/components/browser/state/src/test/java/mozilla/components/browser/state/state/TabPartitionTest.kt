@@ -274,7 +274,7 @@ test
 "
 test
 "
-listOf
+setOf
 (
 "
 tab1
@@ -343,7 +343,7 @@ id
 "
 abc
 "
-listOf
+setOf
 (
 "
 tab1
@@ -371,7 +371,7 @@ null
 )
 assertEquals
 (
-listOf
+setOf
 (
 "
 tab1
@@ -452,7 +452,7 @@ id
 "
 abc
 "
-listOf
+setOf
 (
 "
 tab1
@@ -481,7 +481,7 @@ null
 )
 assertEquals
 (
-listOf
+setOf
 (
 "
 tab1

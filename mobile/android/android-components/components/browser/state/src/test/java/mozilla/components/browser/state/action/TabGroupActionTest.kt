@@ -382,7 +382,7 @@ test
 "
 tabIds
 =
-listOf
+setOf
 (
 "
 tab1
@@ -439,7 +439,7 @@ id
 )
 assertEquals
 (
-listOf
+setOf
 (
 "
 tab1
@@ -482,7 +482,7 @@ test1
 "
 tabIds
 =
-listOf
+setOf
 (
 "
 tab1
@@ -502,7 +502,7 @@ test2
 "
 tabIds
 =
-listOf
+setOf
 (
 "
 tab1
@@ -704,7 +704,7 @@ test1
 "
 tabIds
 =
-listOf
+setOf
 (
 "
 tab1
@@ -860,7 +860,7 @@ test1
 "
 tabIds
 =
-emptyList
+emptySet
 (
 )
 )
@@ -1014,7 +1014,7 @@ test1
 "
 tabIds
 =
-emptyList
+emptySet
 (
 )
 )
@@ -1157,7 +1157,7 @@ test1
 "
 tabIds
 =
-listOf
+setOf
 (
 "
 tab1
@@ -1324,7 +1324,7 @@ test1
 "
 tabIds
 =
-emptyList
+emptySet
 (
 )
 )
@@ -1427,7 +1427,7 @@ id
 tabGroup
 .
 id
-listOf
+setOf
 (
 tab1
 .
@@ -1520,7 +1520,7 @@ test1
 "
 tabIds
 =
-emptyList
+emptySet
 (
 )
 )
@@ -1607,7 +1607,7 @@ id
 tabGroup
 .
 id
-listOf
+setOf
 (
 tab1
 .
@@ -1705,7 +1705,7 @@ test1
 "
 tabIds
 =
-listOf
+setOf
 (
 "
 tab1
@@ -1811,7 +1811,7 @@ id
 tabGroup
 .
 id
-listOf
+setOf
 (
 tab1
 .
@@ -1918,7 +1918,7 @@ test1
 "
 tabIds
 =
-emptyList
+emptySet
 (
 )
 )
@@ -1982,7 +1982,7 @@ id
 tabGroup
 .
 id
-listOf
+setOf
 (
 tab1
 .
@@ -2115,7 +2115,7 @@ test1
 "
 tabIds
 =
-listOf
+setOf
 (
 tab1
 .
@@ -2311,7 +2311,7 @@ test1
 "
 tabIds
 =
-listOf
+setOf
 (
 tab1
 .
@@ -2376,7 +2376,7 @@ id
 tabGroup
 .
 id
-listOf
+setOf
 (
 tab1
 .
