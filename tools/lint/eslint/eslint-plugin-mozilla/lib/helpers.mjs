@@ -123,7 +123,9 @@ fs
 "
 ;
 import
-toml
+{
+parseTOML
+}
 from
 "
 toml
@@ -3054,8 +3056,6 @@ try
 const
 ast
 =
-toml
-.
 parseTOML
 (
 fs
