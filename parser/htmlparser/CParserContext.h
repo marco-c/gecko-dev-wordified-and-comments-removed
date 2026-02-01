@@ -1,9 +1,9 @@
 #
 ifndef
-__CParserContext
+CParserContext_h
 #
 define
-__CParserContext
+CParserContext_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsEditingSession_h__
+nsEditingSession_h_
 #
 define
-nsEditingSession_h__
+nsEditingSession_h_
 #
 include
 "

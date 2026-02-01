@@ -1,9 +1,9 @@
 #
 ifndef
-nsChromeProtocolHandler_h___
+nsChromeProtocolHandler_h_
 #
 define
-nsChromeProtocolHandler_h___
+nsChromeProtocolHandler_h_
 #
 include
 "

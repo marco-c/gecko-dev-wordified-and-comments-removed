@@ -1,9 +1,9 @@
 #
 ifndef
-__WMFUtils_h__
+WMFUtils_h_
 #
 define
-__WMFUtils_h__
+WMFUtils_h_
 #
 include
 <

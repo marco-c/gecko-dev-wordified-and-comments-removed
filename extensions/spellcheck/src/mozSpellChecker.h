@@ -1,9 +1,9 @@
 #
 ifndef
-mozSpellChecker_h__
+mozSpellChecker_h_
 #
 define
-mozSpellChecker_h__
+mozSpellChecker_h_
 #
 include
 "

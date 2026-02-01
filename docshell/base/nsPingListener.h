@@ -1,9 +1,9 @@
 #
 ifndef
-nsPingListener_h__
+nsPingListener_h_
 #
 define
-nsPingListener_h__
+nsPingListener_h_
 #
 include
 "

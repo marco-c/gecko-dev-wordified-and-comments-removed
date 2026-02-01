@@ -1,9 +1,9 @@
 #
 ifndef
-_SIPCC_SDP_H_
+SIPCCSDP_H_
 #
 define
-_SIPCC_SDP_H_
+SIPCCSDP_H_
 #
 include
 "

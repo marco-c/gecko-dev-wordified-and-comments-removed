@@ -1,9 +1,9 @@
 #
 ifndef
-nsSHEntryShared_h__
+nsSHEntryShared_h_
 #
 define
-nsSHEntryShared_h__
+nsSHEntryShared_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_storage_VacuumManager_h__
+mozilla_storage_VacuumManager_h_
 #
 define
-mozilla_storage_VacuumManager_h__
+mozilla_storage_VacuumManager_h_
 #
 include
 "

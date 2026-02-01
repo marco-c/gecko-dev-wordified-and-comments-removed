@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_devtools_DeserializedNode__
+mozilla_devtools_DeserializedNode_
 #
 define
-mozilla_devtools_DeserializedNode__
+mozilla_devtools_DeserializedNode_
 #
 include
 <

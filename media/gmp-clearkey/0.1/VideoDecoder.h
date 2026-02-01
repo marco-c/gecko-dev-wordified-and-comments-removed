@@ -1,9 +1,9 @@
 #
 ifndef
-__VideoDecoder_h__
+VideoDecoder_h_
 #
 define
-__VideoDecoder_h__
+VideoDecoder_h_
 #
 include
 <

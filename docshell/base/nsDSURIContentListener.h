@@ -1,9 +1,9 @@
 #
 ifndef
-nsDSURIContentListener_h__
+nsDSURIContentListener_h_
 #
 define
-nsDSURIContentListener_h__
+nsDSURIContentListener_h_
 #
 include
 "

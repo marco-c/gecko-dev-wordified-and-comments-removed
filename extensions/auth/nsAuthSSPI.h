@@ -1,9 +1,9 @@
 #
 ifndef
-nsAuthSSPI_h__
+nsAuthSSPI_h_
 #
 define
-nsAuthSSPI_h__
+nsAuthSSPI_h_
 #
 include
 "

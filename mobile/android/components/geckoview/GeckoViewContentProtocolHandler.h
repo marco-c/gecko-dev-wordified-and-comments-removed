@@ -1,9 +1,9 @@
 #
 ifndef
-GeckoViewContentProtocolHandler_h__
+GeckoViewContentProtocolHandler_h_
 #
 define
-GeckoViewContentProtocolHandler_h__
+GeckoViewContentProtocolHandler_h_
 #
 include
 "

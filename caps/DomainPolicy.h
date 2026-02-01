@@ -1,9 +1,9 @@
 #
 ifndef
-DomainPolicy_h__
+DomainPolicy_h_
 #
 define
-DomainPolicy_h__
+DomainPolicy_h_
 #
 include
 "

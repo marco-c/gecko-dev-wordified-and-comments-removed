@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_mfbt_initializedonce_h__
+mozilla_mfbt_initializedonce_h_
 #
 define
-mozilla_mfbt_initializedonce_h__
+mozilla_mfbt_initializedonce_h_
 #
 include
 "

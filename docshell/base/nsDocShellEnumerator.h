@@ -1,9 +1,9 @@
 #
 ifndef
-nsDocShellEnumerator_h___
+nsDocShellEnumerator_h_
 #
 define
-nsDocShellEnumerator_h___
+nsDocShellEnumerator_h_
 #
 include
 "

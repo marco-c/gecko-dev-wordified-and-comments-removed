@@ -1,9 +1,9 @@
 #
 ifndef
-DMD_h___
+DMD_h_
 #
 define
-DMD_h___
+DMD_h_
 #
 include
 <

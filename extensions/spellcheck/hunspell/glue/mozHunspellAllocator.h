@@ -1,9 +1,9 @@
 #
 ifndef
-mozHunspellAllocator_h__
+mozHunspellAllocator_h_
 #
 define
-mozHunspellAllocator_h__
+mozHunspellAllocator_h_
 #
 include
 "
