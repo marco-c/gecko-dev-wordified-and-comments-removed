@@ -2377,7 +2377,5 @@ android
 rfc
 -
 process
-.
-md
 >
 .

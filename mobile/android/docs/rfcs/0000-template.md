@@ -1,5 +1,4 @@
 #
-#
 Summary
 This
 section
@@ -12,7 +11,6 @@ of
 the
 proposal
 .
-#
 #
 Motivation
 This
@@ -66,7 +64,6 @@ or
 pager
 .
 #
-#
 Guide
 -
 level
@@ -89,7 +86,6 @@ implement
 the
 proposal
 .
-#
 #
 Reference
 -
@@ -131,7 +127,6 @@ include
 here
 .
 #
-#
 Drawbacks
 (
 optional
@@ -146,7 +141,6 @@ to
 the
 proposal
 .
-#
 #
 Rationale
 and
@@ -174,7 +168,6 @@ for
 the
 proposal
 .
-#
 #
 Resources
 and
@@ -221,7 +214,6 @@ follow
 up
 bugs
 .
-#
 #
 Unresolved
 questions
