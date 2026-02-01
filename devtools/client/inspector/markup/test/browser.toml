@@ -665,6 +665,13 @@ js
 ]
 [
 "
+browser_markup_empty_attributes
+.
+js
+"
+]
+[
+"
 browser_markup_flex_display_badge
 .
 js
