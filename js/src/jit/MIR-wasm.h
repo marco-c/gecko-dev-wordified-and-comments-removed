@@ -179,7 +179,7 @@ isSome
 )
 )
 {
-initWasmRefType
+setWasmRefType
 (
 wasm
 :
@@ -975,7 +975,7 @@ setMovable
 (
 )
 ;
-initWasmRefType
+setWasmRefType
 (
 wasm
 :
@@ -6582,7 +6582,7 @@ setMovable
 (
 )
 ;
-initWasmRefType
+setWasmRefType
 (
 maybeRefType
 )
@@ -6788,7 +6788,7 @@ setMovable
 (
 )
 ;
-initWasmRefType
+setWasmRefType
 (
 globalType
 .
@@ -6905,7 +6905,7 @@ setMovable
 (
 )
 ;
-initWasmRefType
+setWasmRefType
 (
 wasm
 :
@@ -8222,7 +8222,7 @@ setResultType
 mirType
 )
 ;
-initWasmRefType
+setWasmRefType
 (
 refType
 )
@@ -8569,7 +8569,7 @@ type
 reg
 )
 {
-initWasmRefType
+setWasmRefType
 (
 maybeRefType
 )
@@ -13107,7 +13107,7 @@ setMovable
 )
 ;
 }
-initWasmRefType
+setWasmRefType
 (
 maybeRefType
 )
@@ -13587,7 +13587,7 @@ setGuard
 )
 ;
 }
-initWasmRefType
+setWasmRefType
 (
 maybeRefType
 )
@@ -15904,7 +15904,7 @@ setGuard
 (
 )
 ;
-initWasmRefType
+setWasmRefType
 (
 wasm
 :
@@ -16074,7 +16074,7 @@ setGuard
 (
 )
 ;
-initWasmRefType
+setWasmRefType
 (
 wasm
 :
@@ -16672,7 +16672,7 @@ MIRType
 WasmAnyRef
 )
 ;
-initWasmRefType
+setWasmRefType
 (
 wasm
 :
@@ -16945,7 +16945,7 @@ MIRType
 WasmAnyRef
 )
 ;
-initWasmRefType
+setWasmRefType
 (
 wasm
 :

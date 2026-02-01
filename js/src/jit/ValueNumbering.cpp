@@ -553,7 +553,7 @@ wasm
 MaybeRefType
 :
 :
-leastUpperBound
+greatestLowerBound
 (
 from
 -
