@@ -284,6 +284,10 @@ fetches
 toolchain
 :
 -
+vs
+-
+toolchain
+-
 win64
 -
 cmake
@@ -291,10 +295,6 @@ cmake
 win64
 -
 clang
--
-win64
--
-vs2022
 fetch
 :
 -
@@ -379,6 +379,10 @@ fetches
 toolchain
 :
 -
+vs
+-
+toolchain
+-
 win64
 -
 cmake
@@ -386,10 +390,6 @@ cmake
 win64
 -
 clang
--
-win64
--
-vs2022
 fetch
 :
 -

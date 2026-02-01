@@ -1614,16 +1614,6 @@ changed
 :
 -
 '
-build
-/
-win64
-/
-mozconfig
-.
-vs2022
-'
--
-'
 gfx
 /
 wr
