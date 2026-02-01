@@ -2357,10 +2357,11 @@ Failed
 )
 )
 ;
-RefPtr
+nsIGlobalObject
+*
 global
 =
-GetOwnerGlobal
+GetCurrentGlobal
 (
 )
 ;
@@ -5299,13 +5300,10 @@ fmt
 :
 format
 (
-FMT_STRING
-(
 "
 {
 }
 "
-)
 aOngoingEvent
 -
 >

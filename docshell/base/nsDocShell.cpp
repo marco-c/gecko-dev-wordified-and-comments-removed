@@ -65550,13 +65550,10 @@ fmt
 :
 format
 (
-FMT_STRING
-(
 "
 {
 }
 "
-)
 type
 )
 ;

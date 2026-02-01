@@ -1215,15 +1215,12 @@ launched
 nsFmtString
 name
 {
-FMT_STRING
-(
 u
 "
 GMPProcessParent
 {
 }
 "
-)
 static_cast
 <
 void

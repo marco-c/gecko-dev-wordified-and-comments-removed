@@ -1021,10 +1021,7 @@ PROFILER_MARKER_TEXT
 nsFmtCString
 fmt
 (
-FMT_STRING
-(
 format
-)
 #
 #
 __VA_ARGS__
@@ -2133,10 +2130,7 @@ category
 categoryName
 options
 \
-FMT_STRING
-(
 format
-)
 __VA_ARGS__
 )
 #
@@ -2176,10 +2170,7 @@ category
 categoryName
 options
 \
-FMT_STRING
-(
 format
-)
 __VA_ARGS__
 )
 template

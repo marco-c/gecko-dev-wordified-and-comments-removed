@@ -657,12 +657,8 @@ LlamaChatResponse
 }
 else
 {
-auto
-msg
-=
 nsFmtCString
-(
-FMT_STRING
+msg
 (
 "
 {
@@ -677,7 +673,6 @@ queue
 is
 full
 "
-)
 __PRETTY_FUNCTION__
 )
 ;
@@ -744,8 +739,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -758,7 +751,6 @@ to
 the
 response
 "
-)
 __PRETTY_FUNCTION__
 )
 ;
@@ -997,8 +989,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -1019,7 +1009,6 @@ queue
 is
 full
 "
-)
 __PRETTY_FUNCTION__
 )
 ;
@@ -1319,8 +1308,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -1342,7 +1329,6 @@ shoudn
 '
 t
 "
-)
 __PRETTY_FUNCTION__
 )
 ;
@@ -2078,8 +2064,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -2092,7 +2076,6 @@ llama
 source
 stream
 "
-)
 __PRETTY_FUNCTION__
 )
 ;
@@ -2225,8 +2208,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -2241,7 +2222,6 @@ via
 nsThreadManager
 .
 "
-)
 __PRETTY_FUNCTION__
 )
 ;
@@ -2362,8 +2342,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -2376,7 +2354,6 @@ start
 generation
 task
 "
-)
 __PRETTY_FUNCTION__
 )
 ;
@@ -2471,8 +2448,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -2484,7 +2459,6 @@ in
 the
 background
 "
-)
 __PRETTY_FUNCTION__
 )
 ;
@@ -2928,8 +2902,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -2939,7 +2911,6 @@ initialize
 the
 JSAPI
 "
-)
 __PRETTY_FUNCTION__
 )
 ;

@@ -676,8 +676,6 @@ const
 return
 nsFmtCString
 (
-FMT_STRING
-(
 "
 EncodedVideoChunkData
 [
@@ -699,7 +697,6 @@ dur
 }
 ]
 "
-)
 mBuffer
 ?
 mBuffer

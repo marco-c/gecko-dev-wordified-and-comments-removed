@@ -630,8 +630,6 @@ format_to_n
 (
 aDiagnostic
 1023
-FMT_STRING
-(
 "
 Cannot
 cast
@@ -650,7 +648,6 @@ out
 of
 range
 "
-)
 static_cast
 <
 int64_t
@@ -693,8 +690,6 @@ format_to_n
 (
 aDiagnostic
 1023
-FMT_STRING
-(
 "
 Cannot
 cast
@@ -711,7 +706,6 @@ out
 of
 range
 "
-)
 aIn
 TypeToString
 <

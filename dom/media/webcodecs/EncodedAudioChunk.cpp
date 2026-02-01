@@ -666,8 +666,6 @@ const
 return
 nsFmtCString
 (
-FMT_STRING
-(
 "
 EncodedAudioChunkData
 [
@@ -689,7 +687,6 @@ dur
 }
 ]
 "
-)
 mBuffer
 ?
 mBuffer

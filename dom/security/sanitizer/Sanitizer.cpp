@@ -1132,8 +1132,6 @@ Assign
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 Duplicate
 attribute
@@ -1148,7 +1146,6 @@ of
 }
 .
 "
-)
 canonicalAttr
 CanonicalizeElement
 (
@@ -1242,8 +1239,6 @@ Assign
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 Duplicate
 attribute
@@ -1258,7 +1253,6 @@ of
 }
 .
 "
-)
 canonicalAttr
 CanonicalizeElement
 (
@@ -1467,8 +1461,6 @@ ThrowTypeError
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 Duplicate
 element
@@ -1480,7 +1472,6 @@ elements
 '
 .
 "
-)
 elementName
 )
 )
@@ -1602,8 +1593,6 @@ ThrowTypeError
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 Duplicate
 element
@@ -1615,7 +1604,6 @@ removeElements
 '
 .
 "
-)
 canonical
 )
 )
@@ -1693,8 +1681,6 @@ ThrowTypeError
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 Duplicate
 element
@@ -1706,7 +1692,6 @@ replaceWithChildrenElements
 '
 .
 "
-)
 canonical
 )
 )
@@ -1784,8 +1769,6 @@ ThrowTypeError
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 Duplicate
 attribute
@@ -1797,7 +1780,6 @@ attributes
 '
 .
 "
-)
 canonical
 )
 )
@@ -1875,8 +1857,6 @@ ThrowTypeError
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 Duplicate
 attribute
@@ -1888,7 +1868,6 @@ removeAttributes
 '
 .
 "
-)
 canonical
 )
 )
@@ -2139,8 +2118,6 @@ ThrowTypeError
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 Element
 {
@@ -2162,7 +2139,6 @@ replaceWithChildrenElements
 '
 .
 "
-)
 name
 )
 )
@@ -2208,8 +2184,6 @@ ThrowTypeError
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 Element
 {
@@ -2231,7 +2205,6 @@ replaceWithChildrenElements
 '
 .
 "
-)
 name
 )
 )
@@ -2331,8 +2304,6 @@ ThrowTypeError
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 Attribute
 {
@@ -2363,7 +2334,6 @@ attributes
 '
 .
 "
-)
 name
 entry
 .
@@ -2416,8 +2386,6 @@ ThrowTypeError
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 Attribute
 {
@@ -2447,7 +2415,6 @@ attributes
 '
 .
 "
-)
 name
 entry
 .
@@ -2516,8 +2483,6 @@ aRv
 ThrowTypeError
 (
 nsFmtCString
-(
-FMT_STRING
 (
 "
 Data
@@ -2546,7 +2511,6 @@ being
 true
 .
 "
-)
 name
 entry
 .
@@ -2611,8 +2575,6 @@ ThrowTypeError
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 Data
 attribute
@@ -2636,7 +2598,6 @@ being
 true
 .
 "
-)
 name
 )
 )
@@ -2698,8 +2659,6 @@ ThrowTypeError
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 Element
 {
@@ -2720,7 +2679,6 @@ removeAttributes
 '
 .
 "
-)
 entry
 .
 GetKey
@@ -2767,8 +2725,6 @@ ThrowTypeError
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 Attribute
 {
@@ -2797,7 +2753,6 @@ removeAttributes
 '
 .
 "
-)
 name
 entry
 .
@@ -2849,8 +2804,6 @@ ThrowTypeError
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 Attribute
 {
@@ -2883,7 +2836,6 @@ removeAttributes
 '
 .
 "
-)
 name
 entry
 .

@@ -1176,8 +1176,6 @@ integemm
 :
 PreparB
 "
-FMT_STRING
-(
 "
 rowsB
 :
@@ -1192,7 +1190,6 @@ sizeB
 {
 }
 "
-)
 rowsB
 colsB
 sizeB
@@ -1404,8 +1401,6 @@ intgemm
 :
 PreparBTransposed
 "
-FMT_STRING
-(
 "
 rowsB
 :
@@ -1420,7 +1415,6 @@ sizeB
 {
 }
 "
-)
 rowsB
 colsB
 sizeB
@@ -1628,8 +1622,6 @@ intgemm
 :
 PrepareBQuantizedTransposed
 "
-FMT_STRING
-(
 "
 rowsB
 :
@@ -1640,7 +1632,6 @@ colsB
 {
 }
 "
-)
 rowsB
 colsB
 )
@@ -1843,8 +1834,6 @@ intgemm
 :
 PrepareA
 "
-FMT_STRING
-(
 "
 rowsA
 :
@@ -1855,7 +1844,6 @@ colsA
 {
 }
 "
-)
 rowsA
 colsA
 )
@@ -2149,8 +2137,6 @@ w
 input
 bias
 "
-FMT_STRING
-(
 "
 rowsB
 :
@@ -2165,7 +2151,6 @@ sizeB
 {
 }
 "
-)
 rowsB
 colsB
 sizeB
@@ -2219,8 +2204,6 @@ intgemm
 :
 PrepareBias
 "
-FMT_STRING
-(
 "
 rowsB
 :
@@ -2235,7 +2218,6 @@ sizeB
 {
 }
 "
-)
 rowsB
 colsB
 sizeB
@@ -2576,8 +2558,6 @@ Shift
 :
 Multiply
 "
-FMT_STRING
-(
 "
 rowsA
 :
@@ -2592,7 +2572,6 @@ colsA
 {
 }
 "
-)
 rowsA
 width
 colsB
@@ -2868,8 +2847,6 @@ integemm
 :
 SelectColumnsB
 "
-FMT_STRING
-(
 "
 rowsB
 :
@@ -2888,7 +2865,6 @@ sizeB
 {
 }
 "
-)
 rowsB
 colsB
 sizeColIndexList

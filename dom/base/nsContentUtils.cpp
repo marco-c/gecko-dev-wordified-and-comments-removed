@@ -6101,8 +6101,6 @@ fmt
 :
 format
 (
-FMT_STRING
-(
 "
 The
 caller
@@ -6153,7 +6151,6 @@ n
 {
 }
 "
-)
 ToString
 (
 *
@@ -6172,14 +6169,11 @@ fmt
 :
 format
 (
-FMT_STRING
-(
 "
 +
 {
 }
 "
-)
 ToString
 (
 *

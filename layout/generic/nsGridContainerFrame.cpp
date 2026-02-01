@@ -14734,8 +14734,6 @@ fmt
 :
 print
 (
-FMT_STRING
-(
 "
 {
 }
@@ -14750,7 +14748,6 @@ union
 bits
 :
 "
-)
 numTracks
 mIsMasonry
 ?
@@ -14811,8 +14808,6 @@ fmt
 :
 print
 (
-FMT_STRING
-(
 "
 {
 }
@@ -14820,7 +14815,6 @@ FMT_STRING
 }
 :
 "
-)
 trackName
 i
 )
@@ -14848,8 +14842,6 @@ fmt
 :
 println
 (
-FMT_STRING
-(
 "
 first
 baseline
@@ -14862,7 +14854,6 @@ baseline
 {
 }
 "
-)
 BaselineToStr
 (
 GetBaseline
@@ -14898,8 +14889,6 @@ fmt
 :
 println
 (
-FMT_STRING
-(
 "
 {
 }
@@ -14918,7 +14907,6 @@ size
 {
 }
 "
-)
 trackName
 CoordToStr
 (

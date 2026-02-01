@@ -2628,8 +2628,6 @@ fmt
 print
 (
 stderr
-FMT_STRING
-(
 "
 [
 {
@@ -2640,7 +2638,6 @@ FMT_STRING
 \
 n
 "
-)
 mod
 -
 >

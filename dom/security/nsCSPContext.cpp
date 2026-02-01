@@ -6971,8 +6971,6 @@ mEffectiveDirective
 nsFmtCString
 s
 (
-FMT_STRING
-(
 "
 Unexpected
 CSP
@@ -7040,7 +7038,6 @@ allow_internal_csp_violation
 true
 .
 "
-)
 selfURISpec
 .
 get

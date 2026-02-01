@@ -233,8 +233,6 @@ format_to_n
 (
 res
 1024
-FMT_STRING
-(
 "
 Formatting
 a
@@ -258,7 +256,6 @@ string
 {
 }
 "
-)
 a
 b
 literal
@@ -373,8 +370,6 @@ fmt
 :
 format
 (
-FMT_STRING
-(
 "
 POD
 :
@@ -387,7 +382,6 @@ mB
 {
 }
 "
-)
 aInstance
 .
 mA
@@ -485,8 +479,6 @@ fmt
 :
 println
 (
-FMT_STRING
-(
 "
 #
 #
@@ -496,7 +488,6 @@ debug
 {
 }
 "
-)
 p
 )
 ;
@@ -506,8 +497,6 @@ fmt
 print
 (
 stderr
-FMT_STRING
-(
 "
 #
 #
@@ -520,7 +509,6 @@ stderr
 \
 n
 "
-)
 p
 )
 ;
@@ -620,8 +608,6 @@ fmt
 format_to
 (
 bufFmt
-FMT_STRING
-(
 "
 {
 :
@@ -629,7 +615,6 @@ FMT_STRING
 04x
 }
 "
-)
 fmt
 :
 :
@@ -771,13 +756,10 @@ aLovelyString
 .
 AppendFmt
 (
-FMT_SRING
-(
 "
 {
 }
 "
-)
 4
 )
 ;
@@ -798,8 +780,6 @@ aLovelyString
 .
 AppendFmt
 (
-FMT_SRING
-(
 u
 "
 {
@@ -807,7 +787,6 @@ u
 {
 }
 "
-)
 4
 u
 "
@@ -830,8 +809,6 @@ c
 nsFmtCString
 str
 (
-FMT_STRING
-(
 "
 {
 }
@@ -842,7 +819,6 @@ FMT_STRING
 {
 }
 "
-)
 1
 1
 2
@@ -851,8 +827,6 @@ FMT_STRING
 ;
 nsFmtString
 str
-(
-FMT_STRING
 (
 u
 "
@@ -865,7 +839,6 @@ u
 {
 }
 "
-)
 1
 1
 2

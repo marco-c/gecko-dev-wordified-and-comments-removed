@@ -16168,8 +16168,6 @@ NS_ASSERTION
 false
 nsFmtCString
 (
-FMT_STRING
-(
 "
 mFrameSelection
 is
@@ -16191,7 +16189,6 @@ GetFrameSelection
 }
 )
 "
-)
 mozilla
 :
 :

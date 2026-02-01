@@ -30951,8 +30951,6 @@ fmt
 :
 format
 (
-FMT_STRING
-(
 "
 For
 WebGL
@@ -30971,7 +30969,6 @@ Use
 }
 .
 "
-)
 mIsWebGL2
 ?
 "
