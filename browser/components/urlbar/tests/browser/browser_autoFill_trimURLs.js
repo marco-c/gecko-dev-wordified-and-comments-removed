@@ -107,13 +107,6 @@ com
 /
 whatever
 "
-transition
-:
-PlacesUtils
-.
-history
-.
-TRANSITION_TYPED
 }
 {
 uri
@@ -131,13 +124,6 @@ com
 /
 whatever
 "
-transition
-:
-PlacesUtils
-.
-history
-.
-TRANSITION_TYPED
 }
 ]
 )

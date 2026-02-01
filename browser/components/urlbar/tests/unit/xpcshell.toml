@@ -274,13 +274,6 @@ false
 ]
 [
 "
-test_autofill_origins_typed_frecency
-.
-js
-"
-]
-[
-"
 test_autofill_prefix_fallback
 .
 js

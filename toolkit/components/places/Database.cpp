@@ -5927,12 +5927,12 @@ if
 (
 currentSchemaVersion
 <
-85
+84
 )
 {
 rv
 =
-MigrateV85Up
+MigrateV84Up
 (
 )
 ;
@@ -11024,7 +11024,7 @@ nsresult
 Database
 :
 :
-MigrateV85Up
+MigrateV84Up
 (
 )
 {
