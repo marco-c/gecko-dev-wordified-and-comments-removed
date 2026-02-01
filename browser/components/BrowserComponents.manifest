@@ -1680,9 +1680,6 @@ mjs
 NewTabUtils
 .
 uninit
-#
-ifdef
-MOZ_NORMANDY
 category
 browser
 -
@@ -1705,8 +1702,6 @@ mjs
 Normandy
 .
 uninit
-#
-endif
 category
 browser
 -
