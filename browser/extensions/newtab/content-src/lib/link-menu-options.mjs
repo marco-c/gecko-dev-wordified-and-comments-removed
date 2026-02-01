@@ -2379,6 +2379,8 @@ menu
 hide
 -
 weather
+-
+v2
 "
 action
 :

@@ -3786,12 +3786,11 @@ menu
 hide
 -
 weather
+-
+v2
 =
 Hide
 weather
-on
-New
-Tab
 newtab
 -
 weather
