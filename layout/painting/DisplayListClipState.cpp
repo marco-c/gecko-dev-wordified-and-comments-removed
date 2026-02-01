@@ -580,10 +580,6 @@ ActiveScrolledRoot
 aInvalidateUpTo
 )
 {
-mClippedToDisplayPort
-=
-false
-;
 mCurrentCombinedClipChainIsValid
 =
 false

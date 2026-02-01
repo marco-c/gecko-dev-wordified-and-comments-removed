@@ -146,10 +146,6 @@ mCurrentCombinedClipChainIsValid
 =
 false
 ;
-mClippedToDisplayPort
-=
-false
-;
 }
 void
 SetClipChainForContainingBlockDescendants
@@ -295,9 +291,6 @@ mCurrentCombinedClipChain
 ;
 bool
 mCurrentCombinedClipChainIsValid
-;
-bool
-mClippedToDisplayPort
 ;
 }
 ;
