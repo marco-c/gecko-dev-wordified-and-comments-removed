@@ -66,9 +66,9 @@ assistantPromptMetadata
 version
 :
 "
-0
+v1
 .
-1
+0
 "
 }
 ;

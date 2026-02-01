@@ -1,5 +1,6 @@
 const
 {
+MODEL_FEATURES
 openAIEngine
 renderPrompt
 }
@@ -209,7 +210,7 @@ add_task
 (
 async
 function
-test_createOpenAIEngine
+test_createOpenAIEngine_with_chat_feature
 (
 )
 {
@@ -311,6 +312,9 @@ openAIEngine
 .
 build
 (
+MODEL_FEATURES
+.
+CHAT
 )
 ;
 Assert
@@ -434,18 +438,16 @@ openai
 ;
 Assert
 .
-equal
+ok
 (
 opts
 .
 modelId
-MODEL
 "
 modelId
 should
-come
-from
-pref
+be
+set
 "
 )
 ;

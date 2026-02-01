@@ -107,8 +107,11 @@ mjs
 ;
 import
 {
+DEFAULT_ENGINE_ID
+MODEL_FEATURES
 openAIEngine
 renderPrompt
+SERVICE_TYPES
 }
 from
 "
@@ -476,6 +479,13 @@ openAIEngine
 .
 build
 (
+MODEL_FEATURES
+.
+MEMORIES
+DEFAULT_ENGINE_ID
+SERVICE_TYPES
+.
+MEMORIES
 )
 ;
 }
