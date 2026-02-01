@@ -28,6 +28,10 @@ ffiValue
 :
 pointer
 ;
+constructor
+(
+)
+;
 get
 asSlice
 (

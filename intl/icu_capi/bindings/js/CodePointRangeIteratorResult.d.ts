@@ -42,4 +42,8 @@ done
 :
 boolean
 ;
+constructor
+(
+)
+;
 }

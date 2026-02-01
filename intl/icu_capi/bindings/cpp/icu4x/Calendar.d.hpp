@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_Calendar_D_HPP
+ICU4X_Calendar_D_HPP
 #
 define
-icu4x_Calendar_D_HPP
+ICU4X_Calendar_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -134,6 +131,9 @@ kind
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :

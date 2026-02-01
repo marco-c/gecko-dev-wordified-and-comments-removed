@@ -28,6 +28,7 @@ d
 ts
 "
 ;
+export
 type
 BidiMirroringGlyph_obj
 =
@@ -112,6 +113,13 @@ BidiMirroringGlyph_obj
 :
 BidiMirroringGlyph
 ;
+constructor
+(
+structObj
+:
+BidiMirroringGlyph_obj
+)
+;
 static
 forChar
 (
@@ -121,12 +129,5 @@ codepoint
 )
 :
 BidiMirroringGlyph
-;
-constructor
-(
-structObj
-:
-BidiMirroringGlyph_obj
-)
 ;
 }

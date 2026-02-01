@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_JoiningType_HPP
+ICU4X_JoiningType_HPP
 #
 define
-icu4x_JoiningType_HPP
+ICU4X_JoiningType_HPP
 #
 include
 "
@@ -64,9 +64,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -101,6 +98,9 @@ icu4x_JoiningType_long_name_mv1_result
 {
 union
 {
+icu4x
+:
+:
 diplomat
 :
 :
@@ -137,6 +137,9 @@ icu4x_JoiningType_short_name_mv1_result
 {
 union
 {
+icu4x
+:
+:
 diplomat
 :
 :

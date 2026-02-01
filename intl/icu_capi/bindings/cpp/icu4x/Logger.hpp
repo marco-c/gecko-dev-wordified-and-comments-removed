@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_Logger_HPP
+ICU4X_Logger_HPP
 #
 define
-icu4x_Logger_HPP
+ICU4X_Logger_HPP
 #
 include
 "
@@ -64,9 +64,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp

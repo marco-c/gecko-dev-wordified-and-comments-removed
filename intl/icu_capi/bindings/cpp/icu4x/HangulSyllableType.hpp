@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_HangulSyllableType_HPP
+ICU4X_HangulSyllableType_HPP
 #
 define
-icu4x_HangulSyllableType_HPP
+ICU4X_HangulSyllableType_HPP
 #
 include
 "
@@ -64,9 +64,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp

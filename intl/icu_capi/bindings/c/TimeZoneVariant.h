@@ -51,8 +51,6 @@ h
 TimeZoneVariant
 icu4x_TimeZoneVariant_from_rearguard_isdst_mv1
 (
-TimeZoneVariant
-self
 bool
 isdst
 )

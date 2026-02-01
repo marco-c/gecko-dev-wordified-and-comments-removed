@@ -105,6 +105,10 @@ ffiValue
 :
 pointer
 ;
+constructor
+(
+)
+;
 static
 createSpecificLong
 (
@@ -339,7 +343,7 @@ ZonedDateFormatterGregorian
 ;
 formatIso
 (
-date
+isoDate
 :
 IsoDate
 zone

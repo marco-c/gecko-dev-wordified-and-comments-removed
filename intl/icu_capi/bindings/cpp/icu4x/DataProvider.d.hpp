@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_DataProvider_D_HPP
+ICU4X_DataProvider_D_HPP
 #
 define
-icu4x_DataProvider_D_HPP
+ICU4X_DataProvider_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -110,6 +107,9 @@ public
 :
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -141,6 +141,9 @@ path
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -163,6 +166,9 @@ DataError
 >
 from_byte_slice
 (
+icu4x
+:
+:
 diplomat
 :
 :
@@ -175,6 +181,9 @@ blob
 )
 ;
 inline
+icu4x
+:
+:
 diplomat
 :
 :
@@ -200,6 +209,9 @@ other
 )
 ;
 inline
+icu4x
+:
+:
 diplomat
 :
 :
@@ -225,6 +237,9 @@ other
 )
 ;
 inline
+icu4x
+:
+:
 diplomat
 :
 :

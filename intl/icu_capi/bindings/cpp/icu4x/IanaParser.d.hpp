@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_IanaParser_D_HPP
+ICU4X_IanaParser_D_HPP
 #
 define
-icu4x_IanaParser_D_HPP
+ICU4X_IanaParser_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -146,6 +143,9 @@ create
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :

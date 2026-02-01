@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_Time_D_HPP
+ICU4X_Time_D_HPP
 #
 define
-icu4x_Time_D_HPP
+ICU4X_Time_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -103,6 +100,9 @@ public
 :
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -137,6 +137,9 @@ subsecond
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -168,6 +171,9 @@ v
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -194,6 +200,9 @@ start_of_day
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :

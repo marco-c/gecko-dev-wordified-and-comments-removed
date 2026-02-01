@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_LineBreakIteratorLatin1_HPP
+ICU4X_LineBreakIteratorLatin1_HPP
 #
 define
-icu4x_LineBreakIteratorLatin1_HPP
+ICU4X_LineBreakIteratorLatin1_HPP
 #
 include
 "
@@ -64,9 +64,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp

@@ -83,6 +83,10 @@ ffiValue
 :
 pointer
 ;
+constructor
+(
+)
+;
 static
 createWithGroupingStrategy
 (

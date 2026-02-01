@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_TimeZoneAndCanonical_D_HPP
+ICU4X_TimeZoneAndCanonical_D_HPP
 #
 define
-icu4x_TimeZoneAndCanonical_D_HPP
+ICU4X_TimeZoneAndCanonical_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -95,6 +92,9 @@ TimeZone
 *
 time_zone
 ;
+icu4x
+:
+:
 diplomat
 :
 :

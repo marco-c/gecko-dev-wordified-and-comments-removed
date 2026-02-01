@@ -187,6 +187,9 @@ LineBreak_ViramaFinal
 LineBreak_Virama
 =
 47
+LineBreak_UnambiguousHyphen
+=
+48
 }
 LineBreak
 ;

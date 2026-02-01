@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_WordSegmenter_D_HPP
+ICU4X_WordSegmenter_D_HPP
 #
 define
-icu4x_WordSegmenter_D_HPP
+ICU4X_WordSegmenter_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -166,6 +163,9 @@ create_auto
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -199,6 +199,9 @@ locale
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -255,6 +258,9 @@ create_lstm
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -288,6 +294,9 @@ locale
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -344,6 +353,9 @@ create_dictionary
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -377,6 +389,9 @@ locale
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -470,6 +485,9 @@ WordBreakIteratorLatin1
 >
 segment_latin1
 (
+icu4x
+:
+:
 diplomat
 :
 :

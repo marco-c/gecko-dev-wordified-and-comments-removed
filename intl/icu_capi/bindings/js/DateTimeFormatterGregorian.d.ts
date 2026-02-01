@@ -127,6 +127,10 @@ ffiValue
 :
 pointer
 ;
+constructor
+(
+)
+;
 static
 createDt
 (
@@ -520,7 +524,7 @@ DateTimeFormatterGregorian
 ;
 formatIso
 (
-date
+isoDate
 :
 IsoDate
 time

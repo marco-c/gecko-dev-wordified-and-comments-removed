@@ -17,6 +17,7 @@ d
 ts
 "
 ;
+export
 type
 IsoWeekOfYear_obj
 =

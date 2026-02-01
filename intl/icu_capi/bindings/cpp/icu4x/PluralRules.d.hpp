@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_PluralRules_D_HPP
+ICU4X_PluralRules_D_HPP
 #
 define
-icu4x_PluralRules_D_HPP
+ICU4X_PluralRules_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -136,6 +133,9 @@ public
 :
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -169,6 +169,9 @@ locale
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -209,6 +212,9 @@ locale
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -242,6 +248,9 @@ locale
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :

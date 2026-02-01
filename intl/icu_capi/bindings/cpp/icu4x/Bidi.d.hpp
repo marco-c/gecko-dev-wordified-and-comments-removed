@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_Bidi_D_HPP
+ICU4X_Bidi_D_HPP
 #
 define
-icu4x_Bidi_D_HPP
+ICU4X_Bidi_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -146,6 +143,9 @@ create
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -219,6 +219,9 @@ ReorderedIndexMap
 >
 reorder_visual
 (
+icu4x
+:
+:
 diplomat
 :
 :

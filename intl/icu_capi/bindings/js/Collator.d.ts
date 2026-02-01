@@ -95,8 +95,11 @@ ffiValue
 pointer
 ;
 static
-create
+createWithProvider
 (
+provider
+:
+DataProvider
 locale
 :
 Locale
@@ -128,9 +131,6 @@ CollatorResolvedOptions
 ;
 constructor
 (
-provider
-:
-DataProvider
 locale
 :
 Locale

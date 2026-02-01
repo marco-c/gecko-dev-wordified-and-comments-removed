@@ -853,7 +853,7 @@ self
 const
 IsoDate
 *
-date
+iso_date
 DiplomatWrite
 *
 write

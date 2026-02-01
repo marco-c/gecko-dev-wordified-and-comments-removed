@@ -28,6 +28,7 @@ d
 ts
 "
 ;
+export
 type
 GeneralCategoryGroup_obj
 =
@@ -66,6 +67,13 @@ GeneralCategoryGroup_obj
 )
 :
 GeneralCategoryGroup
+;
+constructor
+(
+structObj
+:
+GeneralCategoryGroup_obj
+)
 ;
 contains
 (
@@ -169,12 +177,5 @@ symbol
 )
 :
 GeneralCategoryGroup
-;
-constructor
-(
-structObj
-:
-GeneralCategoryGroup_obj
-)
 ;
 }

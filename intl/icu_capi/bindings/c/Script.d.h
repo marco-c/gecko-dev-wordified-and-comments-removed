@@ -76,6 +76,9 @@ Script_Batak
 Script_Bengali
 =
 4
+Script_BeriaErfe
+=
+208
 Script_Bhaiksuki
 =
 168
@@ -112,6 +115,9 @@ Script_Cham
 Script_Cherokee
 =
 6
+Script_Chisoi
+=
+209
 Script_Chorasmian
 =
 189
@@ -439,6 +445,9 @@ Script_Shavian
 Script_Siddham
 =
 166
+Script_Sidetic
+=
+210
 Script_SignWriting
 =
 112
@@ -478,6 +487,9 @@ Script_TaiTham
 Script_TaiViet
 =
 127
+Script_TaiYo
+=
+211
 Script_Takri
 =
 153
@@ -508,6 +520,9 @@ Script_Tifinagh
 Script_Tirhuta
 =
 158
+Script_TolongSiki
+=
+212
 Script_Toto
 =
 196

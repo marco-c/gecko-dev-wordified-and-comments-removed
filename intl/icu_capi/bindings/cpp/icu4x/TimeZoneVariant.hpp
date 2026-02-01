@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_TimeZoneVariant_HPP
+ICU4X_TimeZoneVariant_HPP
 #
 define
-icu4x_TimeZoneVariant_HPP
+ICU4X_TimeZoneVariant_HPP
 #
 include
 "
@@ -64,9 +64,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -91,14 +88,6 @@ capi
 TimeZoneVariant
 icu4x_TimeZoneVariant_from_rearguard_isdst_mv1
 (
-icu4x
-:
-:
-capi
-:
-:
-TimeZoneVariant
-self
 bool
 isdst
 )
@@ -229,7 +218,6 @@ from_rearguard_isdst
 bool
 isdst
 )
-const
 {
 auto
 result
@@ -242,12 +230,6 @@ capi
 :
 icu4x_TimeZoneVariant_from_rearguard_isdst_mv1
 (
-this
--
->
-AsFFI
-(
-)
 isdst
 )
 ;

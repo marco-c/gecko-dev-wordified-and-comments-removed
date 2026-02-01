@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_CodePointMapData16_D_HPP
+ICU4X_CodePointMapData16_D_HPP
 #
 define
-icu4x_CodePointMapData16_D_HPP
+ICU4X_CodePointMapData16_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -211,6 +208,9 @@ create_script
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :

@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_EmojiSetData_D_HPP
+ICU4X_EmojiSetData_D_HPP
 #
 define
-icu4x_EmojiSetData_D_HPP
+ICU4X_EmojiSetData_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -147,6 +144,9 @@ create_basic
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :

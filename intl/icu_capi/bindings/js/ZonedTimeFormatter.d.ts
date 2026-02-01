@@ -127,6 +127,10 @@ ffiValue
 :
 pointer
 ;
+constructor
+(
+)
+;
 static
 createSpecificLong
 (

@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_LocaleDirection_HPP
+ICU4X_LocaleDirection_HPP
 #
 define
-icu4x_LocaleDirection_HPP
+ICU4X_LocaleDirection_HPP
 #
 include
 "
@@ -64,9 +64,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -77,12 +74,6 @@ icu4x
 namespace
 capi
 {
-extern
-"
-C
-"
-{
-}
 }
 }
 inline

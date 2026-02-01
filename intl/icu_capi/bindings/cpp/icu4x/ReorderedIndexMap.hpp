@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_ReorderedIndexMap_HPP
+ICU4X_ReorderedIndexMap_HPP
 #
 define
-icu4x_ReorderedIndexMap_HPP
+ICU4X_ReorderedIndexMap_HPP
 #
 include
 "
@@ -64,9 +64,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -82,6 +79,9 @@ extern
 C
 "
 {
+icu4x
+:
+:
 diplomat
 :
 :
@@ -162,6 +162,9 @@ self
 }
 }
 inline
+icu4x
+:
+:
 diplomat
 :
 :
@@ -201,6 +204,9 @@ AsFFI
 )
 ;
 return
+icu4x
+:
+:
 diplomat
 :
 :

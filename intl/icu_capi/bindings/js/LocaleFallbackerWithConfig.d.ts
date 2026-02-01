@@ -50,6 +50,10 @@ ffiValue
 :
 pointer
 ;
+constructor
+(
+)
+;
 fallbackForLocale
 (
 locale

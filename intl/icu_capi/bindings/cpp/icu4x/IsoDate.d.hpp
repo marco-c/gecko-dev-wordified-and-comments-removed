@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_IsoDate_D_HPP
+ICU4X_IsoDate_D_HPP
 #
 define
-icu4x_IsoDate_D_HPP
+ICU4X_IsoDate_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -129,6 +126,9 @@ public
 :
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -179,6 +179,9 @@ rd
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :

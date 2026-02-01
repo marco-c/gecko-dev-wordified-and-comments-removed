@@ -63,4 +63,8 @@ other
 :
 boolean
 ;
+constructor
+(
+)
+;
 }

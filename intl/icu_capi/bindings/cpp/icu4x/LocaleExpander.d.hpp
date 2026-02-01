@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_LocaleExpander_D_HPP
+ICU4X_LocaleExpander_D_HPP
 #
 define
-icu4x_LocaleExpander_D_HPP
+ICU4X_LocaleExpander_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -139,6 +136,9 @@ create_common
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -188,6 +188,9 @@ create_extended
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :

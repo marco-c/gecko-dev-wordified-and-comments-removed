@@ -288,6 +288,11 @@ Virama
 LineBreak
 ;
 static
+UnambiguousHyphen
+:
+LineBreak
+;
+static
 forChar
 (
 ch

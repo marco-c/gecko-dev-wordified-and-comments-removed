@@ -94,6 +94,10 @@ ffiValue
 :
 pointer
 ;
+constructor
+(
+)
+;
 get
 (
 cp

@@ -79,6 +79,10 @@ time
 :
 Time
 ;
+constructor
+(
+)
+;
 static
 fromString
 (

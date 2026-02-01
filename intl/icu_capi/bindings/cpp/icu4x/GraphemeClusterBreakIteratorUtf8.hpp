@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_GraphemeClusterBreakIteratorUtf8_HPP
+ICU4X_GraphemeClusterBreakIteratorUtf8_HPP
 #
 define
-icu4x_GraphemeClusterBreakIteratorUtf8_HPP
+ICU4X_GraphemeClusterBreakIteratorUtf8_HPP
 #
 include
 "
@@ -64,9 +64,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp

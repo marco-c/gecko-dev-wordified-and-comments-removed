@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_PluralCategory_HPP
+ICU4X_PluralCategory_HPP
 #
 define
-icu4x_PluralCategory_HPP
+ICU4X_PluralCategory_HPP
 #
 include
 "
@@ -64,9 +64,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -108,6 +105,9 @@ icu4x_PluralCategory_get_for_cldr_string_mv1_result
 icu4x_PluralCategory_get_for_cldr_string_mv1_result
 icu4x_PluralCategory_get_for_cldr_string_mv1
 (
+icu4x
+:
+:
 diplomat
 :
 :

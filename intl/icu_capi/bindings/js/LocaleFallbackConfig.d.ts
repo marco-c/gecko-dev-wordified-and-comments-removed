@@ -28,6 +28,7 @@ d
 ts
 "
 ;
+export
 type
 LocaleFallbackConfig_obj
 =

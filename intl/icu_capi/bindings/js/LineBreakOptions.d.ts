@@ -39,6 +39,7 @@ d
 ts
 "
 ;
+export
 type
 LineBreakOptions_obj
 =

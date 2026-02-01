@@ -35,4 +35,8 @@ second
 :
 codepoint
 ;
+constructor
+(
+)
+;
 }

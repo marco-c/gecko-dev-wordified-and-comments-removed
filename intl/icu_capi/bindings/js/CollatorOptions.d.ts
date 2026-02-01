@@ -61,6 +61,7 @@ d
 ts
 "
 ;
+export
 type
 CollatorOptions_obj
 =

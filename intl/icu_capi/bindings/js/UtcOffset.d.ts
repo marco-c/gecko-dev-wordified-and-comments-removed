@@ -39,6 +39,10 @@ ffiValue
 :
 pointer
 ;
+constructor
+(
+)
+;
 static
 fromSeconds
 (

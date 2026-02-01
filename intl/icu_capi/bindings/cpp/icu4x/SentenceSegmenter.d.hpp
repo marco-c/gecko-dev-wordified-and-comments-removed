@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_SentenceSegmenter_D_HPP
+ICU4X_SentenceSegmenter_D_HPP
 #
 define
-icu4x_SentenceSegmenter_D_HPP
+ICU4X_SentenceSegmenter_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -166,6 +163,9 @@ create
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -199,6 +199,9 @@ locale
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -292,6 +295,9 @@ SentenceBreakIteratorLatin1
 >
 segment_latin1
 (
+icu4x
+:
+:
 diplomat
 :
 :

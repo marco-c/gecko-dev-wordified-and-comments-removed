@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_LineSegmenter_D_HPP
+ICU4X_LineSegmenter_D_HPP
 #
 define
-icu4x_LineSegmenter_D_HPP
+ICU4X_LineSegmenter_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -229,6 +226,9 @@ options
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -302,6 +302,9 @@ options
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -375,6 +378,9 @@ options
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -473,6 +479,9 @@ LineBreakIteratorLatin1
 >
 segment_latin1
 (
+icu4x
+:
+:
 diplomat
 :
 :

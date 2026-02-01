@@ -50,6 +50,7 @@ d
 ts
 "
 ;
+export
 type
 DisplayNamesOptions_obj
 =

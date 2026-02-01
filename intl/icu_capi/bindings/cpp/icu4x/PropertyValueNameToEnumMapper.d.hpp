@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_PropertyValueNameToEnumMapper_D_HPP
+ICU4X_PropertyValueNameToEnumMapper_D_HPP
 #
 define
-icu4x_PropertyValueNameToEnumMapper_D_HPP
+ICU4X_PropertyValueNameToEnumMapper_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -150,6 +147,9 @@ create_general_category
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -199,6 +199,9 @@ create_hangul_syllable_type
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -248,6 +251,9 @@ create_east_asian_width
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -297,6 +303,9 @@ create_bidi_class
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -346,6 +355,9 @@ create_indic_syllabic_category
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -395,6 +407,9 @@ create_line_break
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -444,6 +459,9 @@ create_grapheme_cluster_break
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -493,6 +511,9 @@ create_word_break
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -542,6 +563,9 @@ create_sentence_break
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -591,6 +615,9 @@ create_script
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -640,6 +667,9 @@ create_vertical_orientation
 ;
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :

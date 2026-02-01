@@ -714,7 +714,7 @@ self
 const
 IsoDate
 *
-date
+iso_date
 const
 TimeZoneInfo
 *

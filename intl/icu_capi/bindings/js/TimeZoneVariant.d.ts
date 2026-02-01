@@ -57,6 +57,7 @@ Daylight
 :
 TimeZoneVariant
 ;
+static
 fromRearguardIsdst
 (
 isdst

@@ -129,4 +129,8 @@ numeric
 :
 CollatorNumericOrdering
 ;
+constructor
+(
+)
+;
 }
