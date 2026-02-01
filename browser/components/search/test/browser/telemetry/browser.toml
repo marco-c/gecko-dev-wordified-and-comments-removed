@@ -988,6 +988,13 @@ css
 ]
 [
 "
+browser_search_telemetry_impressionAttributes
+.
+js
+"
+]
+[
+"
 browser_search_telemetry_new_window
 .
 js

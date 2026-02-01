@@ -278,7 +278,16 @@ default
 true
 }
 ]
-shoppingTab
+impressionAttributes
+:
+[
+{
+key
+:
+"
+is_shopping_page
+"
+url
 :
 {
 regexp
@@ -290,6 +299,8 @@ page
 shop
 "
 }
+}
+]
 }
 ]
 ;
