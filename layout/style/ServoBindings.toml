@@ -1986,12 +1986,6 @@ RefPtr_Proxy
 RefPtr_Proxy_member_function
 "
 "
-nsAutoPtr_Proxy
-"
-"
-nsAutoPtr_Proxy_member_function
-"
-"
 nsRegion_
 .
 *
