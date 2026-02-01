@@ -11551,7 +11551,7 @@ to
 autofill
 and
 manage
-payments
+payment
 methods
 .
 accesskey
