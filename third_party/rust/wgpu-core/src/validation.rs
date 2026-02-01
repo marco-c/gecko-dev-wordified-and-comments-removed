@@ -10308,7 +10308,11 @@ if
 location
 >
 =
-max_fragment_shader_input_variables
+self
+.
+limits
+.
+max_inter_stage_shader_variables
 {
 return
 Err

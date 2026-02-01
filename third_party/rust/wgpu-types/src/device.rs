@@ -308,4 +308,16 @@ path
 :
 PathBuf
 )
+#
+[
+cfg
+(
+feature
+=
+"
+trace
+"
+)
+]
+Memory
 }

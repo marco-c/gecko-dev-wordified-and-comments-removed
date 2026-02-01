@@ -116,6 +116,16 @@ use
 expression
 :
 :
+builtin
+:
+:
+ZeroValueError
+;
+pub
+use
+expression
+:
+:
 {
 check_literal_value
 LiteralError

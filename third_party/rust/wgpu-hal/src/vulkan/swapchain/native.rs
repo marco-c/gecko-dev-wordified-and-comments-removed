@@ -2273,7 +2273,7 @@ self
 .
 fence
 ]
-false
+true
 timeout_ns
 )
 .

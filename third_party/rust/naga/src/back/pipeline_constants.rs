@@ -1308,7 +1308,7 @@ to_ctx
 (
 )
 .
-eval_expr_to_u32
+get_const_val
 (
 adjusted_global_expressions
 [
@@ -1457,7 +1457,7 @@ to_ctx
 (
 )
 .
-eval_expr_to_u32
+get_const_val
 (
 adjusted_global_expressions
 [
@@ -1503,7 +1503,7 @@ to_ctx
 (
 )
 .
-eval_expr_to_u32
+get_const_val
 (
 adjusted_global_expressions
 [
