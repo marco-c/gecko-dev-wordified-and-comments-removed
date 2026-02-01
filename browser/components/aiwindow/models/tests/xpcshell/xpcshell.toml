@@ -115,6 +115,13 @@ js
 ]
 [
 "
+test_MemoriesHistorySource_blocklist
+.
+js
+"
+]
+[
+"
 test_MemoriesManager
 .
 js
