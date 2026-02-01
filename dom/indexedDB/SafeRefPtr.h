@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_saferefptr_h__
+mozilla_saferefptr_h_
 #
 define
-mozilla_saferefptr_h__
+mozilla_saferefptr_h_
 #
 include
 "

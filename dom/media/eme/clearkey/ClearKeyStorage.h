@@ -1,9 +1,9 @@
 #
 ifndef
-__ClearKeyStorage_h__
+ClearKeyStorage_h_
 #
 define
-__ClearKeyStorage_h__
+ClearKeyStorage_h_
 #
 include
 <

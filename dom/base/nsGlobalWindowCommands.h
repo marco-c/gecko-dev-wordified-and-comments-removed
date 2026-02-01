@@ -1,9 +1,9 @@
 #
 ifndef
-nsGlobalWindowCommands_h__
+nsGlobalWindowCommands_h_
 #
 define
-nsGlobalWindowCommands_h__
+nsGlobalWindowCommands_h_
 #
 include
 "

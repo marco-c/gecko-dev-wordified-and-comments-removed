@@ -1,9 +1,9 @@
 #
 ifndef
-nsXULPrototypeDocument_h__
+nsXULPrototypeDocument_h_
 #
 define
-nsXULPrototypeDocument_h__
+nsXULPrototypeDocument_h_
 #
 include
 <

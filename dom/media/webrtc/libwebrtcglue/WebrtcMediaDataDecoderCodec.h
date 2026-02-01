@@ -1,9 +1,9 @@
 #
 ifndef
-WebrtcMediaDataDecoderCodec_h__
+WebrtcMediaDataDecoderCodec_h_
 #
 define
-WebrtcMediaDataDecoderCodec_h__
+WebrtcMediaDataDecoderCodec_h_
 #
 include
 "

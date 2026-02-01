@@ -1,9 +1,9 @@
 #
 ifndef
-transportlayerlog_h__
+transportlayerlog_h_
 #
 define
-transportlayerlog_h__
+transportlayerlog_h_
 #
 include
 "

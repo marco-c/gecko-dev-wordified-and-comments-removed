@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_shadowroot_h__
+mozilla_dom_shadowroot_h_
 #
 define
-mozilla_dom_shadowroot_h__
+mozilla_dom_shadowroot_h_
 #
 include
 "

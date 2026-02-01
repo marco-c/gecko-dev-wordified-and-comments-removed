@@ -1,9 +1,9 @@
 #
 ifndef
-nsXULControllers_h__
+nsXULControllers_h_
 #
 define
-nsXULControllers_h__
+nsXULControllers_h_
 #
 include
 "

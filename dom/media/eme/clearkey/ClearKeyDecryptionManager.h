@@ -1,9 +1,9 @@
 #
 ifndef
-__ClearKeyDecryptionManager_h__
+ClearKeyDecryptionManager_h_
 #
 define
-__ClearKeyDecryptionManager_h__
+ClearKeyDecryptionManager_h_
 #
 include
 <

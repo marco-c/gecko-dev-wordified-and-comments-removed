@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_fetchChild_h__
+mozilla_dom_fetchChild_h_
 #
 define
-mozilla_dom_fetchChild_h__
+mozilla_dom_fetchChild_h_
 #
 include
 "

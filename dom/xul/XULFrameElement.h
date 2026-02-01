@@ -1,9 +1,9 @@
 #
 ifndef
-XULFrameElement_h__
+XULFrameElement_h_
 #
 define
-XULFrameElement_h__
+XULFrameElement_h_
 #
 include
 "

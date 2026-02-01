@@ -1,9 +1,9 @@
 #
 ifndef
-__FFVPXRuntimeLinker_h__
+FFVPXRuntimeLinker_h_
 #
 define
-__FFVPXRuntimeLinker_h__
+FFVPXRuntimeLinker_h_
 #
 include
 "

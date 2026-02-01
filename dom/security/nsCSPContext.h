@@ -1,9 +1,9 @@
 #
 ifndef
-nsCSPContext_h___
+nsCSPContext_h_
 #
 define
-nsCSPContext_h___
+nsCSPContext_h_
 #
 include
 "

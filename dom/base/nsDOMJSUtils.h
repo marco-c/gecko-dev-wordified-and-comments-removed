@@ -1,9 +1,9 @@
 #
 ifndef
-nsDOMJSUtils_h__
+nsDOMJSUtils_h_
 #
 define
-nsDOMJSUtils_h__
+nsDOMJSUtils_h_
 #
 include
 "

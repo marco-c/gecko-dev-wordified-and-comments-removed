@@ -1,9 +1,9 @@
 #
 ifndef
-nsAttrName_h___
+nsAttrName_h_
 #
 define
-nsAttrName_h___
+nsAttrName_h_
 #
 include
 "

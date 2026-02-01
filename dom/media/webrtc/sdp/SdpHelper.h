@@ -1,9 +1,9 @@
 #
 ifndef
-_SDPHELPER_H_
+SDPHELPER_H_
 #
 define
-_SDPHELPER_H_
+SDPHELPER_H_
 #
 include
 <

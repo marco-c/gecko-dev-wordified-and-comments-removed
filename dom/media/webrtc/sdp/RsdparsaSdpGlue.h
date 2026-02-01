@@ -1,9 +1,9 @@
 #
 ifndef
-_RUSTSDPGLUE_H_
+RUSTSDPGLUE_H_
 #
 define
-_RUSTSDPGLUE_H_
+RUSTSDPGLUE_H_
 #
 include
 <

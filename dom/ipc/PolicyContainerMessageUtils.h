@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_policy_container_message_utils_h__
+mozilla_dom_policy_container_message_utils_h_
 #
 define
-mozilla_dom_policy_container_message_utils_h__
+mozilla_dom_policy_container_message_utils_h_
 #
 include
 "

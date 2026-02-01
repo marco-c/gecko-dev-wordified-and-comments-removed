@@ -1,9 +1,9 @@
 #
 ifndef
-srtpflow_h__
+srtpflow_h_
 #
 define
-srtpflow_h__
+srtpflow_h_
 #
 include
 "

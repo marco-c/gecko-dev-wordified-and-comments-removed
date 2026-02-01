@@ -1,9 +1,9 @@
 #
 ifndef
-txOwningArray_h__
+txOwningArray_h_
 #
 define
-txOwningArray_h__
+txOwningArray_h_
 template
 <
 class

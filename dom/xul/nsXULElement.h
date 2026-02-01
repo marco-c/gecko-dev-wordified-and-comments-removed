@@ -1,9 +1,9 @@
 #
 ifndef
-nsXULElement_h__
+nsXULElement_h_
 #
 define
-nsXULElement_h__
+nsXULElement_h_
 #
 include
 <

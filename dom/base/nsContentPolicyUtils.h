@@ -1,9 +1,9 @@
 #
 ifndef
-__nsContentPolicyUtils_h__
+_nsContentPolicyUtils_h_
 #
 define
-__nsContentPolicyUtils_h__
+_nsContentPolicyUtils_h_
 #
 include
 "

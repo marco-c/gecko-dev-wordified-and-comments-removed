@@ -1,9 +1,9 @@
 #
 ifndef
-nsHTMLDocument_h___
+nsHTMLDocument_h_
 #
 define
-nsHTMLDocument_h___
+nsHTMLDocument_h_
 #
 include
 "

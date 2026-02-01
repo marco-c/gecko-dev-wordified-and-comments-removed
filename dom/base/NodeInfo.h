@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_NodeInfo_h___
+mozilla_dom_NodeInfo_h_
 #
 define
-mozilla_dom_NodeInfo_h___
+mozilla_dom_NodeInfo_h_
 #
 include
 "

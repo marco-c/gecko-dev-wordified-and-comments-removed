@@ -1,9 +1,9 @@
 #
 ifndef
-XULTreeElement_h__
+XULTreeElement_h_
 #
 define
-XULTreeElement_h__
+XULTreeElement_h_
 #
 include
 "

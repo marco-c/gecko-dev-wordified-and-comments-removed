@@ -1,9 +1,9 @@
 #
 ifndef
-_RTCSctpTransport_h_
+RTCSctpTransport_h_
 #
 define
-_RTCSctpTransport_h_
+RTCSctpTransport_h_
 #
 include
 "

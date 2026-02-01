@@ -1,9 +1,9 @@
 #
 ifndef
-nsHistory_h___
+nsHistory_h_
 #
 define
-nsHistory_h___
+nsHistory_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-test_nr_socket__
+test_nr_socket_
 #
 define
-test_nr_socket__
+test_nr_socket_
 extern
 "
 C

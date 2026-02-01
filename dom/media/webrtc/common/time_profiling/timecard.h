@@ -1,9 +1,9 @@
 #
 ifndef
-timecard_h__
+timecard_h_
 #
 define
-timecard_h__
+timecard_h_
 #
 include
 "

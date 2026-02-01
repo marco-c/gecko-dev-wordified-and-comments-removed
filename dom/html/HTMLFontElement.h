@@ -1,9 +1,9 @@
 #
 ifndef
-HTMLFontElement_h___
+HTMLFontElement_h_
 #
 define
-HTMLFontElement_h___
+HTMLFontElement_h_
 #
 include
 "

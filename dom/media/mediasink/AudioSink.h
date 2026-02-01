@@ -1,9 +1,9 @@
 #
 ifndef
-AudioSink_h__
+AudioSink_h_
 #
 define
-AudioSink_h__
+AudioSink_h_
 #
 include
 "

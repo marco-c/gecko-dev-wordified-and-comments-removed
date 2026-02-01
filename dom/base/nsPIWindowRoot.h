@@ -1,9 +1,9 @@
 #
 ifndef
-nsPIWindowRoot_h__
+nsPIWindowRoot_h_
 #
 define
-nsPIWindowRoot_h__
+nsPIWindowRoot_h_
 #
 include
 "

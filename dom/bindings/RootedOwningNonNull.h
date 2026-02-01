@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_RootedOwningNonNull_h__
+mozilla_RootedOwningNonNull_h_
 #
 define
-mozilla_RootedOwningNonNull_h__
+mozilla_RootedOwningNonNull_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-FragmentOrElement_h___
+FragmentOrElement_h_
 #
 define
-FragmentOrElement_h___
+FragmentOrElement_h_
 #
 include
 "

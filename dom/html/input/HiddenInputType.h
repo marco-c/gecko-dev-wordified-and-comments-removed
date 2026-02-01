@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_HiddenInputType_h__
+mozilla_dom_HiddenInputType_h_
 #
 define
-mozilla_dom_HiddenInputType_h__
+mozilla_dom_HiddenInputType_h_
 #
 include
 "

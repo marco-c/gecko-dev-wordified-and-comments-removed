@@ -1,9 +1,9 @@
 #
 ifndef
-nsDOMTokenList_h___
+nsDOMTokenList_h_
 #
 define
-nsDOMTokenList_h___
+nsDOMTokenList_h_
 #
 include
 "

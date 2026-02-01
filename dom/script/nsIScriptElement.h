@@ -1,9 +1,9 @@
 #
 ifndef
-nsIScriptElement_h___
+nsIScriptElement_h_
 #
 define
-nsIScriptElement_h___
+nsIScriptElement_h_
 #
 include
 "

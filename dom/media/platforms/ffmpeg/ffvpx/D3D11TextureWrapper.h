@@ -1,9 +1,9 @@
 #
 ifndef
-__D3D11TextureWrapper_h__
+D3D11TextureWrapper_h_
 #
 define
-__D3D11TextureWrapper_h__
+D3D11TextureWrapper_h_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-XULTextElement_h__
+XULTextElement_h_
 #
 define
-XULTextElement_h__
+XULTextElement_h_
 #
 include
 "

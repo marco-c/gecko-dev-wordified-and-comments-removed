@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_mediakeys_h__
+mozilla_dom_mediakeys_h_
 #
 define
-mozilla_dom_mediakeys_h__
+mozilla_dom_mediakeys_h_
 #
 include
 "

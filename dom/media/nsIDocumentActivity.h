@@ -1,9 +1,9 @@
 #
 ifndef
-nsIDocumentActivity_h__
+nsIDocumentActivity_h_
 #
 define
-nsIDocumentActivity_h__
+nsIDocumentActivity_h_
 #
 include
 "

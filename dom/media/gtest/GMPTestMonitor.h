@@ -1,9 +1,9 @@
 #
 ifndef
-__GMPTestMonitor_h__
+GMPTestMonitor_h_
 #
 define
-__GMPTestMonitor_h__
+GMPTestMonitor_h_
 #
 include
 "

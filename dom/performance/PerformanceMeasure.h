@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_performancemeasure_h___
+mozilla_dom_performancemeasure_h_
 #
 define
-mozilla_dom_performancemeasure_h___
+mozilla_dom_performancemeasure_h_
 #
 include
 "

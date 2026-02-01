@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_serviceworkeroppromise_h__
+mozilla_dom_serviceworkeroppromise_h_
 #
 define
-mozilla_dom_serviceworkeroppromise_h__
+mozilla_dom_serviceworkeroppromise_h_
 #
 include
 "

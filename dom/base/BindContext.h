@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_BindContext_h__
+mozilla_dom_BindContext_h_
 #
 define
-mozilla_dom_BindContext_h__
+mozilla_dom_BindContext_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-dom_indexeddb_dbschema_h__
+dom_indexeddb_dbschema_h_
 #
 define
-dom_indexeddb_dbschema_h__
+dom_indexeddb_dbschema_h_
 #
 include
 <

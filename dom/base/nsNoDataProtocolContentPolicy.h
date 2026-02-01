@@ -1,9 +1,9 @@
 #
 ifndef
-nsNoDataProtocolContentPolicy_h__
+nsNoDataProtocolContentPolicy_h_
 #
 define
-nsNoDataProtocolContentPolicy_h__
+nsNoDataProtocolContentPolicy_h_
 #
 define
 NS_NODATAPROTOCOLCONTENTPOLICY_CID

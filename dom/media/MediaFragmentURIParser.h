@@ -3,11 +3,11 @@ if
 !
 defined
 (
-MediaFragmentURIParser_h__
+MediaFragmentURIParser_h_
 )
 #
 define
-MediaFragmentURIParser_h__
+MediaFragmentURIParser_h_
 #
 include
 "

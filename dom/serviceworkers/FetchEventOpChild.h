@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_fetcheventopchild_h__
+mozilla_dom_fetcheventopchild_h_
 #
 define
-mozilla_dom_fetcheventopchild_h__
+mozilla_dom_fetcheventopchild_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-WebBrowserPersistDocumentChild_h__
+WebBrowserPersistDocumentChild_h_
 #
 define
-WebBrowserPersistDocumentChild_h__
+WebBrowserPersistDocumentChild_h_
 #
 include
 "

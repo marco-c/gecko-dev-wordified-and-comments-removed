@@ -1,14 +1,9 @@
 #
 ifndef
-ThirdPartyUtil_h__
+ThirdPartyUtil_h_
 #
 define
-ThirdPartyUtil_h__
-#
-include
-<
-cstdint
->
+ThirdPartyUtil_h_
 #
 include
 "

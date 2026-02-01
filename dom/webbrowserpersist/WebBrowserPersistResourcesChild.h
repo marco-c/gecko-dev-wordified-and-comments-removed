@@ -1,9 +1,9 @@
 #
 ifndef
-WebBrowserPersistResourcesChild_h__
+WebBrowserPersistResourcesChild_h_
 #
 define
-WebBrowserPersistResourcesChild_h__
+WebBrowserPersistResourcesChild_h_
 #
 include
 "

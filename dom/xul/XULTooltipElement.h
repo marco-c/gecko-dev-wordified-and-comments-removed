@@ -1,9 +1,9 @@
 #
 ifndef
-XULTooltipElement_h__
+XULTooltipElement_h_
 #
 define
-XULTooltipElement_h__
+XULTooltipElement_h_
 #
 include
 "

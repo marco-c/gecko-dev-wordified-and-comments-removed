@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_NavigationTransition_h___
+mozilla_dom_NavigationTransition_h_
 #
 define
-mozilla_dom_NavigationTransition_h___
+mozilla_dom_NavigationTransition_h_
 #
 include
 "

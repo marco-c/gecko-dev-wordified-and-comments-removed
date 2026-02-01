@@ -1,9 +1,9 @@
 #
 ifndef
-nsIAnimationObserver_h___
+nsIAnimationObserver_h_
 #
 define
-nsIAnimationObserver_h___
+nsIAnimationObserver_h_
 #
 include
 "

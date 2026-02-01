@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_NumericInputTypes_h__
+mozilla_dom_NumericInputTypes_h_
 #
 define
-mozilla_dom_NumericInputTypes_h__
+mozilla_dom_NumericInputTypes_h_
 #
 include
 "

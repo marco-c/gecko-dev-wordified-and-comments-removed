@@ -1,9 +1,9 @@
 #
 ifndef
-HTMLMarqueeElement_h___
+HTMLMarqueeElement_h_
 #
 define
-HTMLMarqueeElement_h___
+HTMLMarqueeElement_h_
 #
 include
 "

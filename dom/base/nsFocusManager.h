@@ -1,9 +1,9 @@
 #
 ifndef
-nsFocusManager_h___
+nsFocusManager_h_
 #
 define
-nsFocusManager_h___
+nsFocusManager_h_
 #
 include
 "

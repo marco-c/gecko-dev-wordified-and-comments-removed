@@ -1,9 +1,9 @@
 #
 ifndef
-nsAttrValueOrString_h___
+nsAttrValueOrString_h_
 #
 define
-nsAttrValueOrString_h___
+nsAttrValueOrString_h_
 #
 include
 "

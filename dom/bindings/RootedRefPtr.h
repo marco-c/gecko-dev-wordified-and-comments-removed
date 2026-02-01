@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_RootedRefPtr_h__
+mozilla_RootedRefPtr_h_
 #
 define
-mozilla_RootedRefPtr_h__
+mozilla_RootedRefPtr_h_
 #
 include
 "

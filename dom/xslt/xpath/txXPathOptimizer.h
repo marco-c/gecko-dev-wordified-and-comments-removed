@@ -1,9 +1,9 @@
 #
 ifndef
-txXPathOptimizer_h__
+txXPathOptimizer_h_
 #
 define
-txXPathOptimizer_h__
+txXPathOptimizer_h_
 #
 include
 "

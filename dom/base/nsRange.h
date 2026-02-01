@@ -1,9 +1,9 @@
 #
 ifndef
-nsRange_h___
+nsRange_h_
 #
 define
-nsRange_h___
+nsRange_h_
 #
 include
 "

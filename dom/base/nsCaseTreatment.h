@@ -1,9 +1,9 @@
 #
 ifndef
-nsCaseTreatment_h___
+nsCaseTreatment_h_
 #
 define
-nsCaseTreatment_h___
+nsCaseTreatment_h_
 enum
 nsCaseTreatment
 {

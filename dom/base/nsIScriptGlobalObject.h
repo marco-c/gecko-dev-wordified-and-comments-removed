@@ -1,9 +1,9 @@
 #
 ifndef
-nsIScriptGlobalObject_h__
+nsIScriptGlobalObject_h_
 #
 define
-nsIScriptGlobalObject_h__
+nsIScriptGlobalObject_h_
 #
 include
 "

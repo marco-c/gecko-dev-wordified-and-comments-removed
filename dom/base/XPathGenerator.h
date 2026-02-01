@@ -1,9 +1,9 @@
 #
 ifndef
-XPATHGENERATOR_H__
+XPATHGENERATOR_H_
 #
 define
-XPATHGENERATOR_H__
+XPATHGENERATOR_H_
 #
 include
 "

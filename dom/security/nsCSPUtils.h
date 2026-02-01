@@ -1,9 +1,9 @@
 #
 ifndef
-nsCSPUtils_h___
+nsCSPUtils_h_
 #
 define
-nsCSPUtils_h___
+nsCSPUtils_h_
 #
 include
 "

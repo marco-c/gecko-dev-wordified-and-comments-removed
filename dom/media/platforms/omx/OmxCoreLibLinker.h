@@ -1,9 +1,9 @@
 #
 ifndef
-__OmxCoreLibLinker_h__
+OmxCoreLibLinker_h_
 #
 define
-__OmxCoreLibLinker_h__
+OmxCoreLibLinker_h_
 struct
 PRLibrary
 ;

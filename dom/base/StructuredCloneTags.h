@@ -1,9 +1,9 @@
 #
 ifndef
-StructuredCloneTags_h__
+StructuredCloneTags_h_
 #
 define
-StructuredCloneTags_h__
+StructuredCloneTags_h_
 #
 include
 "

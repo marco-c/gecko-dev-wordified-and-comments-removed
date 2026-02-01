@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_indexeddb_key_h__
+mozilla_dom_indexeddb_key_h_
 #
 define
-mozilla_dom_indexeddb_key_h__
+mozilla_dom_indexeddb_key_h_
 #
 include
 "

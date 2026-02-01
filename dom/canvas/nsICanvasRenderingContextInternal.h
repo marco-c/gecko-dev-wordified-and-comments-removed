@@ -1,9 +1,9 @@
 #
 ifndef
-nsICanvasRenderingContextInternal_h___
+nsICanvasRenderingContextInternal_h_
 #
 define
-nsICanvasRenderingContextInternal_h___
+nsICanvasRenderingContextInternal_h_
 #
 include
 "

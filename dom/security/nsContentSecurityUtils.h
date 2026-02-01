@@ -1,9 +1,9 @@
 #
 ifndef
-nsContentSecurityUtils_h___
+nsContentSecurityUtils_h_
 #
 define
-nsContentSecurityUtils_h___
+nsContentSecurityUtils_h_
 #
 include
 <

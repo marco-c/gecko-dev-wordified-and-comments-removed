@@ -1,9 +1,9 @@
 #
 ifndef
-txNodeSet_h__
+txNodeSet_h_
 #
 define
-txNodeSet_h__
+txNodeSet_h_
 #
 include
 "

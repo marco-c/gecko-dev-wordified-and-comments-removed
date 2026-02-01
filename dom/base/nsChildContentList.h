@@ -1,9 +1,9 @@
 #
 ifndef
-nsChildContentList_h__
+nsChildContentList_h_
 #
 define
-nsChildContentList_h__
+nsChildContentList_h_
 #
 include
 "

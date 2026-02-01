@@ -1,9 +1,9 @@
 #
 ifndef
-txKey_h__
+txKey_h_
 #
 define
-txKey_h__
+txKey_h_
 #
 include
 "

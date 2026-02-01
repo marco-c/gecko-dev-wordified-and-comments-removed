@@ -1,9 +1,9 @@
 #
 ifndef
-stun_socket_filter_h__
+stun_socket_filter_h_
 #
 define
-stun_socket_filter_h__
+stun_socket_filter_h_
 #
 include
 "

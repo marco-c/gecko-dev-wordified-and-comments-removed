@@ -1,9 +1,9 @@
 #
 ifndef
-_JSEPSESSION_H_
+JSEPSESSION_H_
 #
 define
-_JSEPSESSION_H_
+JSEPSESSION_H_
 #
 include
 <

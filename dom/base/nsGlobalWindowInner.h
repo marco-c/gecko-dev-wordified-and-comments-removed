@@ -1,9 +1,9 @@
 #
 ifndef
-nsGlobalWindowInner_h___
+nsGlobalWindowInner_h_
 #
 define
-nsGlobalWindowInner_h___
+nsGlobalWindowInner_h_
 #
 include
 "

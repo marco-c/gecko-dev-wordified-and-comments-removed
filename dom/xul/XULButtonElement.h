@@ -1,9 +1,9 @@
 #
 ifndef
-dom_xul_XULButtonElement_h__
+dom_xul_XULButtonElement_h_
 #
 define
-dom_xul_XULButtonElement_h__
+dom_xul_XULButtonElement_h_
 #
 include
 "

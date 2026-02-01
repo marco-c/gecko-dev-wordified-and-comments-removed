@@ -1,9 +1,9 @@
 #
 ifndef
-gtest_utils__h__
+gtest_utils_h_
 #
 define
-gtest_utils__h__
+gtest_utils_h_
 #
 include
 <

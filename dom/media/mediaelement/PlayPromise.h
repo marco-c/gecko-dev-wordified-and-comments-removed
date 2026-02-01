@@ -1,9 +1,9 @@
 #
 ifndef
-__PlayPromise_h__
+PlayPromise_h_
 #
 define
-__PlayPromise_h__
+PlayPromise_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsXMLElement_h___
+nsXMLElement_h_
 #
 define
-nsXMLElement_h___
+nsXMLElement_h_
 #
 include
 "

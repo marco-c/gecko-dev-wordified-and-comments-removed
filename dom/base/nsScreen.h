@@ -1,9 +1,9 @@
 #
 ifndef
-nsScreen_h___
+nsScreen_h_
 #
 define
-nsScreen_h___
+nsScreen_h_
 #
 include
 "

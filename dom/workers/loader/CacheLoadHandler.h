@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_workers_CacheLoadHandler_h__
+mozilla_dom_workers_CacheLoadHandler_h_
 #
 define
-mozilla_dom_workers_CacheLoadHandler_h__
+mozilla_dom_workers_CacheLoadHandler_h_
 #
 include
 "

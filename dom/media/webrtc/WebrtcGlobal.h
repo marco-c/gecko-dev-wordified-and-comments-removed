@@ -1,9 +1,9 @@
 #
 ifndef
-_WEBRTC_GLOBAL_H_
+WEBRTC_GLOBAL_H_
 #
 define
-_WEBRTC_GLOBAL_H_
+WEBRTC_GLOBAL_H_
 #
 include
 "

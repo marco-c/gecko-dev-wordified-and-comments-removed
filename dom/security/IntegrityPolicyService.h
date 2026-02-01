@@ -1,9 +1,9 @@
 #
 ifndef
-IntegrityPolicyService_h___
+IntegrityPolicyService_h_
 #
 define
-IntegrityPolicyService_h___
+IntegrityPolicyService_h_
 #
 include
 "

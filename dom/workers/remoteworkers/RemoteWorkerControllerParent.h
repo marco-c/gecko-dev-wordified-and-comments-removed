@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_remoteworkercontrollerparent_h__
+mozilla_dom_remoteworkercontrollerparent_h_
 #
 define
-mozilla_dom_remoteworkercontrollerparent_h__
+mozilla_dom_remoteworkercontrollerparent_h_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-_MTRANSPORTCHILD_H__
+MTRANSPORTCHILD_H_
 #
 define
-_MTRANSPORTCHILD_H__
+MTRANSPORTCHILD_H_
 #
 include
 "

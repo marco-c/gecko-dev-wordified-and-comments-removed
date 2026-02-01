@@ -1,9 +1,9 @@
 #
 ifndef
-_CANDIDATE_INFO_H__
+CANDIDATE_INFO_H_
 #
 define
-_CANDIDATE_INFO_H__
+CANDIDATE_INFO_H_
 #
 include
 <

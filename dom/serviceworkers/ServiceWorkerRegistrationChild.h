@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_serviceworkerregistrationchild_h__
+mozilla_dom_serviceworkerregistrationchild_h_
 #
 define
-mozilla_dom_serviceworkerregistrationchild_h__
+mozilla_dom_serviceworkerregistrationchild_h_
 #
 include
 "

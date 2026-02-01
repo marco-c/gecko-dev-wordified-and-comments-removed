@@ -1,9 +1,9 @@
 #
 ifndef
-nsWrapperCache_h___
+nsWrapperCache_h_
 #
 define
-nsWrapperCache_h___
+nsWrapperCache_h_
 #
 include
 <

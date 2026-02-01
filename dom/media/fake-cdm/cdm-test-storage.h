@@ -1,9 +1,9 @@
 #
 ifndef
-TEST_CDM_STORAGE_H__
+TEST_CDM_STORAGE_H_
 #
 define
-TEST_CDM_STORAGE_H__
+TEST_CDM_STORAGE_H_
 #
 include
 <

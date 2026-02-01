@@ -1,9 +1,9 @@
 #
 ifndef
-nsIDocumentTransformer_h__
+nsIDocumentTransformer_h_
 #
 define
-nsIDocumentTransformer_h__
+nsIDocumentTransformer_h_
 #
 include
 "

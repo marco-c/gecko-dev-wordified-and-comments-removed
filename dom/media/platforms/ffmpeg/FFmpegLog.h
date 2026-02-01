@@ -1,9 +1,9 @@
 #
 ifndef
-__FFmpegLog_h__
+FFmpegLog_h_
 #
 define
-__FFmpegLog_h__
+FFmpegLog_h_
 #
 include
 "

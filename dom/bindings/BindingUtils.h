@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_BindingUtils_h__
+mozilla_dom_BindingUtils_h_
 #
 define
-mozilla_dom_BindingUtils_h__
+mozilla_dom_BindingUtils_h_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-nsContentUtils_h___
+nsContentUtils_h_
 #
 define
-nsContentUtils_h___
+nsContentUtils_h_
 #
 if
 defined

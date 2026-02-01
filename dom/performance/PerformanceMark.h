@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_performancemark_h___
+mozilla_dom_performancemark_h_
 #
 define
-mozilla_dom_performancemark_h___
+mozilla_dom_performancemark_h_
 #
 include
 "

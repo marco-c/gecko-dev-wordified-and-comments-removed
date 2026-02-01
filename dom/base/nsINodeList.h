@@ -1,9 +1,9 @@
 #
 ifndef
-nsINodeList_h___
+nsINodeList_h_
 #
 define
-nsINodeList_h___
+nsINodeList_h_
 #
 include
 "

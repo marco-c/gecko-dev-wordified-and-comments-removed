@@ -1,9 +1,9 @@
 #
 ifndef
-nsHTTPSOnlyUtils_h___
+nsHTTPSOnlyUtils_h_
 #
 define
-nsHTTPSOnlyUtils_h___
+nsHTTPSOnlyUtils_h_
 #
 include
 "

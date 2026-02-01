@@ -1,9 +1,9 @@
 #
 ifndef
-nsXMLContentSink_h__
+nsXMLContentSink_h_
 #
 define
-nsXMLContentSink_h__
+nsXMLContentSink_h_
 #
 include
 "

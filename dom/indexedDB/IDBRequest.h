@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_idbrequest_h__
+mozilla_dom_idbrequest_h_
 #
 define
-mozilla_dom_idbrequest_h__
+mozilla_dom_idbrequest_h_
 #
 include
 "

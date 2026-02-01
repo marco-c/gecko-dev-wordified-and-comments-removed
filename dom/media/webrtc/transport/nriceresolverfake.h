@@ -1,9 +1,9 @@
 #
 ifndef
-nriceresolverfake_h__
+nriceresolverfake_h_
 #
 define
-nriceresolverfake_h__
+nriceresolverfake_h_
 #
 include
 <

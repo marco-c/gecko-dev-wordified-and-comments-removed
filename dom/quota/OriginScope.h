@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_quota_originorpatternstring_h__
+mozilla_dom_quota_originorpatternstring_h_
 #
 define
-mozilla_dom_quota_originorpatternstring_h__
+mozilla_dom_quota_originorpatternstring_h_
 #
 include
 <

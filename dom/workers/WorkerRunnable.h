@@ -1,14 +1,9 @@
 #
 ifndef
-mozilla_dom_workers_workerrunnable_h__
+mozilla_dom_workers_workerrunnable_h_
 #
 define
-mozilla_dom_workers_workerrunnable_h__
-#
-include
-<
-cstdint
->
+mozilla_dom_workers_workerrunnable_h_
 #
 include
 <

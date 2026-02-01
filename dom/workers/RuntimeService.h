@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_workers_runtimeservice_h__
+mozilla_dom_workers_runtimeservice_h_
 #
 define
-mozilla_dom_workers_runtimeservice_h__
+mozilla_dom_workers_runtimeservice_h_
 #
 include
 "

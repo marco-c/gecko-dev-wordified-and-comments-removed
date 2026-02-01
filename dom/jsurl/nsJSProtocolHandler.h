@@ -1,9 +1,9 @@
 #
 ifndef
-nsJSProtocolHandler_h___
+nsJSProtocolHandler_h_
 #
 define
-nsJSProtocolHandler_h___
+nsJSProtocolHandler_h_
 #
 include
 "

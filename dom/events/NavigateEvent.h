@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_NavigateEvent_h___
+mozilla_dom_NavigateEvent_h_
 #
 define
-mozilla_dom_NavigateEvent_h___
+mozilla_dom_NavigateEvent_h_
 #
 include
 "

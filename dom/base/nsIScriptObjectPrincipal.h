@@ -1,9 +1,9 @@
 #
 ifndef
-nsIScriptObjectPrincipal_h__
+nsIScriptObjectPrincipal_h_
 #
 define
-nsIScriptObjectPrincipal_h__
+nsIScriptObjectPrincipal_h_
 #
 include
 "

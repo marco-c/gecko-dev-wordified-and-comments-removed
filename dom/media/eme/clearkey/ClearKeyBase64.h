@@ -1,9 +1,9 @@
 #
 ifndef
-__ClearKeyBase64_h__
+ClearKeyBase64_h_
 #
 define
-__ClearKeyBase64_h__
+ClearKeyBase64_h_
 #
 include
 <

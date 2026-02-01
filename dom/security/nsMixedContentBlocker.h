@@ -1,9 +1,9 @@
 #
 ifndef
-nsMixedContentBlocker_h___
+nsMixedContentBlocker_h_
 #
 define
-nsMixedContentBlocker_h___
+nsMixedContentBlocker_h_
 #
 define
 NS_MIXEDCONTENTBLOCKER_CONTRACTID

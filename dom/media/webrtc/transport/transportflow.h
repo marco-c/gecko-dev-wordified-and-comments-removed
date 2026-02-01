@@ -1,9 +1,9 @@
 #
 ifndef
-transportflow_h__
+transportflow_h_
 #
 define
-transportflow_h__
+transportflow_h_
 #
 include
 <

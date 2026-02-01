@@ -1,9 +1,9 @@
 #
 ifndef
-nrinterfacepriority_h__
+nrinterfacepriority_h_
 #
 define
-nrinterfacepriority_h__
+nrinterfacepriority_h_
 extern
 "
 C

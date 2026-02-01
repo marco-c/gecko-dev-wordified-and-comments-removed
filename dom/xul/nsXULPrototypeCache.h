@@ -1,9 +1,9 @@
 #
 ifndef
-nsXULPrototypeCache_h__
+nsXULPrototypeCache_h_
 #
 define
-nsXULPrototypeCache_h__
+nsXULPrototypeCache_h_
 #
 include
 "

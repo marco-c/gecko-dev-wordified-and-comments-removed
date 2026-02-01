@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_network_Constants_h__
+mozilla_dom_network_Constants_h_
 #
 define
-mozilla_dom_network_Constants_h__
+mozilla_dom_network_Constants_h_
 namespace
 mozilla
 :

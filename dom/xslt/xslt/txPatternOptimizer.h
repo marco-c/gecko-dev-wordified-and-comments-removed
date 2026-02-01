@@ -1,9 +1,9 @@
 #
 ifndef
-txPatternOptimizer_h__
+txPatternOptimizer_h_
 #
 define
-txPatternOptimizer_h__
+txPatternOptimizer_h_
 #
 include
 "

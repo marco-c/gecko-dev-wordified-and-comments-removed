@@ -1,9 +1,9 @@
 #
 ifndef
-__TX_XPATH_SET_CONTEXT
+TX_XPATH_SET_CONTEXT
 #
 define
-__TX_XPATH_SET_CONTEXT
+TX_XPATH_SET_CONTEXT
 #
 include
 "

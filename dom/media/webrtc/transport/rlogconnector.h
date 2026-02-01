@@ -1,9 +1,9 @@
 #
 ifndef
-rlogconnector_h__
+rlogconnector_h_
 #
 define
-rlogconnector_h__
+rlogconnector_h_
 #
 include
 <

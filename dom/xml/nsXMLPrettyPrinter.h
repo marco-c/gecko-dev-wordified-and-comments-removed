@@ -1,9 +1,9 @@
 #
 ifndef
-nsXMLPrettyPrinter_h__
+nsXMLPrettyPrinter_h_
 #
 define
-nsXMLPrettyPrinter_h__
+nsXMLPrettyPrinter_h_
 #
 include
 "

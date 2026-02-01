@@ -1,9 +1,9 @@
 #
 ifndef
-webrtc_tcp_socket_log_h__
+webrtc_tcp_socket_log_h_
 #
 define
-webrtc_tcp_socket_log_h__
+webrtc_tcp_socket_log_h_
 #
 include
 "

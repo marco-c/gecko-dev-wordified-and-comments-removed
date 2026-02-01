@@ -1,9 +1,9 @@
 #
 ifndef
-nricestunaddr_h__
+nricestunaddr_h_
 #
 define
-nricestunaddr_h__
+nricestunaddr_h_
 #
 include
 "

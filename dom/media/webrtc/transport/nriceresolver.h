@@ -1,9 +1,9 @@
 #
 ifndef
-nriceresolver_h__
+nriceresolver_h_
 #
 define
-nriceresolver_h__
+nriceresolver_h_
 #
 include
 "

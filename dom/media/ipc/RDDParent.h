@@ -1,9 +1,9 @@
 #
 ifndef
-_include_dom_media_ipc_RDDParent_h__
+_include_dom_media_ipc_RDDParent_h_
 #
 define
-_include_dom_media_ipc_RDDParent_h__
+_include_dom_media_ipc_RDDParent_h_
 #
 include
 "

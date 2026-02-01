@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_UDPSocketChild_h__
+mozilla_dom_UDPSocketChild_h_
 #
 define
-mozilla_dom_UDPSocketChild_h__
+mozilla_dom_UDPSocketChild_h_
 #
 include
 "

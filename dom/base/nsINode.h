@@ -1,9 +1,9 @@
 #
 ifndef
-nsINode_h___
+nsINode_h_
 #
 define
-nsINode_h___
+nsINode_h_
 #
 include
 <

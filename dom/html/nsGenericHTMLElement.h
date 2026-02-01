@@ -1,9 +1,9 @@
 #
 ifndef
-nsGenericHTMLElement_h___
+nsGenericHTMLElement_h_
 #
 define
-nsGenericHTMLElement_h___
+nsGenericHTMLElement_h_
 #
 include
 <

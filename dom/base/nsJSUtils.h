@@ -1,9 +1,9 @@
 #
 ifndef
-nsJSUtils_h__
+nsJSUtils_h_
 #
 define
-nsJSUtils_h__
+nsJSUtils_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-__FFmpegLibs_h__
+FFmpegLibs_h_
 #
 define
-__FFmpegLibs_h__
+FFmpegLibs_h_
 extern
 "
 C

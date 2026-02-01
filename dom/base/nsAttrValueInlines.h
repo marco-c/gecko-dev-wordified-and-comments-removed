@@ -1,9 +1,9 @@
 #
 ifndef
-nsAttrValueInlines_h__
+nsAttrValueInlines_h_
 #
 define
-nsAttrValueInlines_h__
+nsAttrValueInlines_h_
 #
 include
 <

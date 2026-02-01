@@ -1,9 +1,9 @@
 #
 ifndef
-dom_indexeddb_schemaupgrades_h__
+dom_indexeddb_schemaupgrades_h_
 #
 define
-dom_indexeddb_schemaupgrades_h__
+dom_indexeddb_schemaupgrades_h_
 #
 include
 <

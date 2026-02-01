@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_serviceworker_h__
+mozilla_dom_serviceworker_h_
 #
 define
-mozilla_dom_serviceworker_h__
+mozilla_dom_serviceworker_h_
 #
 include
 "

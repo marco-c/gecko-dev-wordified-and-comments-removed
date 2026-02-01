@@ -1,9 +1,9 @@
 #
 ifndef
-nsHTTPSOnlyStreamListener_h___
+nsHTTPSOnlyStreamListener_h_
 #
 define
-nsHTTPSOnlyStreamListener_h___
+nsHTTPSOnlyStreamListener_h_
 #
 include
 "

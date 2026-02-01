@@ -1,9 +1,9 @@
 #
 ifndef
-_SDPATTRIBUTE_H_
+SDPATTRIBUTE_H_
 #
 define
-_SDPATTRIBUTE_H_
+SDPATTRIBUTE_H_
 #
 include
 <

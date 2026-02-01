@@ -1,9 +1,9 @@
 #
 ifndef
-nsXMLContentSerializer_h__
+nsXMLContentSerializer_h_
 #
 define
-nsXMLContentSerializer_h__
+nsXMLContentSerializer_h_
 #
 include
 "

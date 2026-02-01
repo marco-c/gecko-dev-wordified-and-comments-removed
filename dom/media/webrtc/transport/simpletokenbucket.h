@@ -1,9 +1,9 @@
 #
 ifndef
-simpletokenbucket_h__
+simpletokenbucket_h_
 #
 define
-simpletokenbucket_h__
+simpletokenbucket_h_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-txXPathNode_h__
+txXPathNode_h_
 #
 define
-txXPathNode_h__
+txXPathNode_h_
 #
 include
 "

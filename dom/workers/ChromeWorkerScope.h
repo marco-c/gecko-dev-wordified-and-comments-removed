@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_workers_chromeworkerscope_h__
+mozilla_dom_workers_chromeworkerscope_h_
 #
 define
-mozilla_dom_workers_chromeworkerscope_h__
+mozilla_dom_workers_chromeworkerscope_h_
 #
 include
 "

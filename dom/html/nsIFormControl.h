@@ -1,9 +1,9 @@
 #
 ifndef
-nsIFormControl_h___
+nsIFormControl_h_
 #
 define
-nsIFormControl_h___
+nsIFormControl_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsPluginArray_h___
+nsPluginArray_h_
 #
 define
-nsPluginArray_h___
+nsPluginArray_h_
 #
 include
 "

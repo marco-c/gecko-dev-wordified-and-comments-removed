@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom__CoalescedTouchData_h
+mozilla_dom_CoalescedTouchData_h
 #
 define
-mozilla_dom__CoalescedTouchData_h
+mozilla_dom_CoalescedTouchData_h
 #
 include
 "

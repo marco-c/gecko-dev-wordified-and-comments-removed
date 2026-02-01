@@ -1,9 +1,9 @@
 #
 ifndef
-nsDOMString_h___
+nsDOMString_h_
 #
 define
-nsDOMString_h___
+nsDOMString_h_
 #
 include
 "

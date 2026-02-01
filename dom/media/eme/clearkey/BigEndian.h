@@ -1,9 +1,9 @@
 #
 ifndef
-__BigEndian_h__
+BigEndian_h_
 #
 define
-__BigEndian_h__
+BigEndian_h_
 #
 include
 <

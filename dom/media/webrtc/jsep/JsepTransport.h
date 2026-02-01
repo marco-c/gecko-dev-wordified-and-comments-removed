@@ -1,9 +1,9 @@
 #
 ifndef
-_JSEPTRANSPORT_H_
+JSEPTRANSPORT_H_
 #
 define
-_JSEPTRANSPORT_H_
+JSEPTRANSPORT_H_
 #
 include
 <

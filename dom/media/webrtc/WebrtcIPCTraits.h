@@ -1,9 +1,9 @@
 #
 ifndef
-_WEBRTC_IPC_TRAITS_H_
+WEBRTC_IPC_TRAITS_H_
 #
 define
-_WEBRTC_IPC_TRAITS_H_
+WEBRTC_IPC_TRAITS_H_
 #
 include
 <

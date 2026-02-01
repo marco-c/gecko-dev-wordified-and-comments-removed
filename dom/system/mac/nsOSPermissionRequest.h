@@ -1,9 +1,9 @@
 #
 ifndef
-nsOSPermissionRequest_h__
+nsOSPermissionRequest_h_
 #
 define
-nsOSPermissionRequest_h__
+nsOSPermissionRequest_h_
 #
 include
 "

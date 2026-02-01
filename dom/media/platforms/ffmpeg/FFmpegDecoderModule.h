@@ -1,9 +1,9 @@
 #
 ifndef
-__FFmpegDecoderModule_h__
+FFmpegDecoderModule_h_
 #
 define
-__FFmpegDecoderModule_h__
+FFmpegDecoderModule_h_
 #
 include
 "

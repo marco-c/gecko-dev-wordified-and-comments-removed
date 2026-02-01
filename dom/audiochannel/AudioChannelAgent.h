@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_audio_channel_agent_h__
+mozilla_dom_audio_channel_agent_h_
 #
 define
-mozilla_dom_audio_channel_agent_h__
+mozilla_dom_audio_channel_agent_h_
 #
 include
 "

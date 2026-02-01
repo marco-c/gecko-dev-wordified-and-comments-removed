@@ -1,9 +1,9 @@
 #
 ifndef
-logging_h__
+logging_h_
 #
 define
-logging_h__
+logging_h_
 #
 include
 <

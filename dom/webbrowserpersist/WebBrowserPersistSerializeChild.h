@@ -1,9 +1,9 @@
 #
 ifndef
-WebBrowserPersistSerializeChild_h__
+WebBrowserPersistSerializeChild_h_
 #
 define
-WebBrowserPersistSerializeChild_h__
+WebBrowserPersistSerializeChild_h_
 #
 include
 "

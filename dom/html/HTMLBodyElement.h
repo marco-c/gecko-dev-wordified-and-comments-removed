@@ -1,9 +1,9 @@
 #
 ifndef
-HTMLBodyElement_h___
+HTMLBodyElement_h_
 #
 define
-HTMLBodyElement_h___
+HTMLBodyElement_h_
 #
 include
 "

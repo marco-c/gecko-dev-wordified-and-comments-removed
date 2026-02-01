@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_notification_h__
+mozilla_dom_notification_h_
 #
 define
-mozilla_dom_notification_h__
+mozilla_dom_notification_h_
 #
 include
 "

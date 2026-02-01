@@ -1,9 +1,9 @@
 #
 ifndef
-transportlayerloopback_h__
+transportlayerloopback_h_
 #
 define
-transportlayerloopback_h__
+transportlayerloopback_h_
 #
 include
 <

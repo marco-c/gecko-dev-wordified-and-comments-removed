@@ -1,9 +1,9 @@
 #
 ifndef
-nsNodeInfoManager_h___
+nsNodeInfoManager_h_
 #
 define
-nsNodeInfoManager_h___
+nsNodeInfoManager_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-dom_base_nsPIDOMWindowInlines_h___
+dom_base_nsPIDOMWindowInlines_h_
 #
 define
-dom_base_nsPIDOMWindowInlines_h___
+dom_base_nsPIDOMWindowInlines_h_
 inline
 bool
 nsPIDOMWindowOuter

@@ -1,9 +1,9 @@
 #
 ifndef
-nsCommandManager_h__
+nsCommandManager_h_
 #
 define
-nsCommandManager_h__
+nsCommandManager_h_
 #
 include
 "

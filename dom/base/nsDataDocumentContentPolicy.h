@@ -1,9 +1,9 @@
 #
 ifndef
-nsDataDocumentContentPolicy_h__
+nsDataDocumentContentPolicy_h_
 #
 define
-nsDataDocumentContentPolicy_h__
+nsDataDocumentContentPolicy_h_
 #
 define
 NS_DATADOCUMENTCONTENTPOLICY_CID

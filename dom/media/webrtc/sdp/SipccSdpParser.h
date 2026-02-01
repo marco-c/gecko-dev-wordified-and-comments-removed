@@ -1,9 +1,9 @@
 #
 ifndef
-_SIPCCSDPPARSER_H_
+SIPCCSDPPARSER_H_
 #
 define
-_SIPCCSDPPARSER_H_
+SIPCCSDPPARSER_H_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-nsXULCommandDispatcher_h__
+nsXULCommandDispatcher_h_
 #
 define
-nsXULCommandDispatcher_h__
+nsXULCommandDispatcher_h_
 #
 include
 "

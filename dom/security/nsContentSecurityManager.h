@@ -1,9 +1,9 @@
 #
 ifndef
-nsContentSecurityManager_h___
+nsContentSecurityManager_h_
 #
 define
-nsContentSecurityManager_h___
+nsContentSecurityManager_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nricemediastream_h__
+nricemediastream_h_
 #
 define
-nricemediastream_h__
+nricemediastream_h_
 #
 include
 <

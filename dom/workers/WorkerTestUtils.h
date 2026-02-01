@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_WorkerTestUtils__
+mozilla_dom_WorkerTestUtils_
 #
 define
-mozilla_dom_WorkerTestUtils__
+mozilla_dom_WorkerTestUtils_
 #
 include
 "

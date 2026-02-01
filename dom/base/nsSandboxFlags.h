@@ -1,9 +1,9 @@
 #
 ifndef
-nsSandboxFlags_h___
+nsSandboxFlags_h_
 #
 define
-nsSandboxFlags_h___
+nsSandboxFlags_h_
 const
 unsigned
 long

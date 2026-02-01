@@ -1,9 +1,9 @@
 #
 ifndef
-nsCSPParser_h___
+nsCSPParser_h_
 #
 define
-nsCSPParser_h___
+nsCSPParser_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsMimeTypeArray_h___
+nsMimeTypeArray_h_
 #
 define
-nsMimeTypeArray_h___
+nsMimeTypeArray_h_
 #
 include
 "

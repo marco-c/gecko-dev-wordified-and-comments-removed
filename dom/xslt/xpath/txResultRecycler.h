@@ -1,9 +1,9 @@
 #
 ifndef
-txResultRecycler_h__
+txResultRecycler_h_
 #
 define
-txResultRecycler_h__
+txResultRecycler_h_
 #
 include
 "

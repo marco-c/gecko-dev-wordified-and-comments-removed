@@ -1,9 +1,9 @@
 #
 ifndef
-__RefCount_h__
+RefCount_h_
 #
 define
-__RefCount_h__
+RefCount_h_
 #
 include
 <

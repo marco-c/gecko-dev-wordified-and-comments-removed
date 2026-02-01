@@ -1,9 +1,9 @@
 #
 ifndef
-nr_socket_tcp_h__
+nr_socket_tcp_h_
 #
 define
-nr_socket_tcp_h__
+nr_socket_tcp_h_
 #
 include
 <

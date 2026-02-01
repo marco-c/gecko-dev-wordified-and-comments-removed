@@ -1,9 +1,9 @@
 #
 ifndef
-txStringUtils_h__
+txStringUtils_h_
 #
 define
-txStringUtils_h__
+txStringUtils_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-__WEBAUTHN_H_
+WEBAUTHN_H_
 #
 define
-__WEBAUTHN_H_
+WEBAUTHN_H_
 #
 pragma
 once

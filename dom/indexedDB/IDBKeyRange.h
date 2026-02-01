@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_idbkeyrange_h__
+mozilla_dom_idbkeyrange_h_
 #
 define
-mozilla_dom_idbkeyrange_h__
+mozilla_dom_idbkeyrange_h_
 #
 include
 "

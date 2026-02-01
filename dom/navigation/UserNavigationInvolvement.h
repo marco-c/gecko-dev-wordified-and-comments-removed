@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_UserNavigationInvolvement_h___
+mozilla_dom_UserNavigationInvolvement_h_
 #
 define
-mozilla_dom_UserNavigationInvolvement_h___
+mozilla_dom_UserNavigationInvolvement_h_
 #
 include
 <

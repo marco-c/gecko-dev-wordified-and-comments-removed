@@ -1,9 +1,9 @@
 #
 ifndef
-nsXHTMLContentSerializer_h__
+nsXHTMLContentSerializer_h_
 #
 define
-nsXHTMLContentSerializer_h__
+nsXHTMLContentSerializer_h_
 #
 include
 "
