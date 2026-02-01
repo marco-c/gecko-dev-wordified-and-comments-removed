@@ -3874,6 +3874,15 @@ not
 in
 parameters
     
+is_expected_connection
+=
+"
+pipe
+"
+not
+in
+parameters
+    
 is_expected_protocol
 =
 "
@@ -3930,13 +3939,16 @@ return
 is_expected_product
         
 and
-is_expected_protocol
+is_expected_connection
         
 and
 is_expected_mode
         
 and
 is_expected_platform
+        
+and
+is_expected_protocol
     
 )
 Command
