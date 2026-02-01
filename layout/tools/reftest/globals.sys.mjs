@@ -818,6 +818,11 @@ yet
 dumpedConditionSandbox
 :
 false
+currentTestStatus
+:
+"
+PASS
+"
 }
 }
 ;
