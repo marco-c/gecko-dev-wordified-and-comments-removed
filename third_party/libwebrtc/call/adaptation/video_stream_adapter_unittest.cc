@@ -4969,7 +4969,7 @@ SetDegradationPreference
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 )
 ;
 input_state_provider_
@@ -5302,7 +5302,7 @@ fps_adaptations
 TEST_F
 (
 VideoStreamAdapterTest
-AdaptationDisabledStatusAlwaysWhenDegradationPreferenceDisabled
+AdaptationDisabledStatusWhenPreferenceIsMaintainFramerateAndResolution
 )
 {
 adapter_
@@ -5312,7 +5312,7 @@ SetDegradationPreference
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 )
 ;
 input_state_provider_

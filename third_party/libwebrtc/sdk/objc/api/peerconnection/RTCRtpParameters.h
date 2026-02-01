@@ -56,7 +56,10 @@ NSInteger
 RTCDegradationPreference
 )
 {
+RTCDegradationPreferenceMaintainFramerateAndResolution
 RTCDegradationPreferenceDisabled
+=
+RTCDegradationPreferenceMaintainFramerateAndResolution
 RTCDegradationPreferenceMaintainFramerate
 RTCDegradationPreferenceMaintainResolution
 RTCDegradationPreferenceBalanced

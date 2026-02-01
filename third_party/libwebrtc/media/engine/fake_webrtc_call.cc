@@ -12,11 +12,6 @@ h
 #
 include
 <
-cstddef
->
-#
-include
-<
 cstdint
 >
 #
@@ -2065,7 +2060,7 @@ case
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 :
 resolution_scaling_enabled_
 =

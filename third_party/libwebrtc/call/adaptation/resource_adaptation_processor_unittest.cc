@@ -3707,7 +3707,7 @@ SetDegradationPreference
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 )
 ;
 processor_

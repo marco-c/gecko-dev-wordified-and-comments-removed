@@ -757,7 +757,7 @@ case
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 :
 source_restrictions
 .
@@ -1164,7 +1164,7 @@ degradation_preference_
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 )
 awaiting_frame_size_change_
 (
@@ -2096,7 +2096,7 @@ case
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 :
 return
 Adaptation
@@ -2521,7 +2521,7 @@ case
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 :
 return
 Adaptation
@@ -3533,7 +3533,7 @@ case
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 :
 return
 RestrictionsOrStateToAdaptation

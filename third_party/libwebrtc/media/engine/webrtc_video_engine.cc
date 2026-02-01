@@ -11125,7 +11125,7 @@ nullptr
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 )
 ;
 if
@@ -11206,7 +11206,7 @@ return
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 ;
 }
 DegradationPreference

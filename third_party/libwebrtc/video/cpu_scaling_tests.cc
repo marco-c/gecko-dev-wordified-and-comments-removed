@@ -677,7 +677,7 @@ RunTestAndCheckForAdaptation
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 false
 )
 ;
