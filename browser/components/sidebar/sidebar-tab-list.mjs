@@ -2044,6 +2044,13 @@ this
 .
 primaryActionHandler
 }
+auxclick
+=
+{
+this
+.
+auxActionHandler
+}
 keydown
 =
 {
