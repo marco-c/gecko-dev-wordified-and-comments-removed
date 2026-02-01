@@ -1168,12 +1168,16 @@ new_tab
 wait_for_event
     
 wait_for_future_safe
+    
+iframe
 )
 :
     
-iframe_url
+page_url
 =
 inline
+(
+iframe
 (
 "
 <
@@ -1186,25 +1190,6 @@ div
 >
 "
 )
-    
-page_url
-=
-inline
-(
-f
-"
-<
-iframe
-src
-=
-{
-iframe_url
-}
->
-<
-/
-iframe
-"
 )
     
 await

@@ -112,6 +112,8 @@ wait_for_future_safe
 domain
     
 phase
+    
+iframe
 )
 :
     
@@ -144,10 +146,8 @@ context
     
 )
     
-frame_url
+frame_html
 =
-inline
-(
 "
 <
 div
@@ -158,29 +158,15 @@ foo
 div
 >
 "
-)
     
 test_url
 =
 inline
 (
-f
-"
-<
 iframe
-src
-=
-'
-{
-frame_url
-}
-'
->
-<
-/
-iframe
->
-"
+(
+frame_html
+)
 domain
 =
 domain

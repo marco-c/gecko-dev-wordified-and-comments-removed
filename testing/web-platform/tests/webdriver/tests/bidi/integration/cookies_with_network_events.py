@@ -331,6 +331,8 @@ wait_for_event
 wait_for_future_safe
     
 domain_1
+    
+iframe
 )
 :
     
@@ -346,11 +348,8 @@ cookie_value
 foo
 "
     
-iframe_url
+iframe_html
 =
-inline
-(
-        
 "
 <
 div
@@ -369,6 +368,13 @@ cookies
 div
 >
 "
+    
+iframe_url
+=
+inline
+(
+        
+iframe_html
         
 domain
 =
@@ -458,23 +464,41 @@ page_url
 =
 inline
 (
+        
+iframe
+(
+iframe_html
+        
+domain
+=
+domain_1
+        
+parameters
+=
+{
+"
+pipe
+"
+:
 f
 "
-<
-iframe
-src
-=
-'
+header
+(
+Set
+-
+Cookie
 {
-iframe_url
+cookie_name
 }
-'
->
-<
-/
-iframe
->
+=
+{
+cookie_value
+}
+)
 "
+}
+)
+    
 )
     
 await

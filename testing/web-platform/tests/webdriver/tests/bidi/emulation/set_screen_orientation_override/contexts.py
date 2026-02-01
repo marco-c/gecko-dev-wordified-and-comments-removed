@@ -323,6 +323,8 @@ another_web_screen_orientation
 inline
     
 domain
+    
+iframe
 )
 :
     
@@ -361,9 +363,11 @@ new_tab
 =
 some_web_screen_orientation
     
-iframe_url
+page_url
 =
 inline
+(
+iframe
 (
 "
 <
@@ -386,28 +390,6 @@ domain
 =
 domain
 )
-    
-page_url
-=
-inline
-(
-f
-"
-<
-iframe
-src
-=
-'
-{
-iframe_url
-}
-'
->
-<
-/
-iframe
->
-"
 )
     
 await

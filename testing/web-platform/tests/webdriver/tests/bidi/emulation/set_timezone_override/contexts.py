@@ -294,6 +294,8 @@ get_current_timezone
 some_timezone
     
 another_timezone
+    
+iframe
 )
 :
     
@@ -332,9 +334,11 @@ new_tab
 =
 some_timezone
     
-iframe_url
+page_url
 =
 inline
+(
+iframe
 (
 "
 <
@@ -357,28 +361,6 @@ domain
 =
 domain
 )
-    
-page_url
-=
-inline
-(
-f
-"
-<
-iframe
-src
-=
-'
-{
-iframe_url
-}
-'
->
-<
-/
-iframe
->
-"
 )
     
 await

@@ -351,13 +351,12 @@ new_tab
 inline
 domain_value
 add_document_cookie
+iframe
 )
 :
     
-iframe_url
+iframe_html
 =
-inline
-(
 "
 <
 div
@@ -375,6 +374,12 @@ foo
 div
 >
 "
+    
+iframe_url
+=
+inline
+(
+iframe_html
 )
     
 source_origin
@@ -388,23 +393,10 @@ page_url
 =
 inline
 (
-f
-"
-<
 iframe
-src
-=
-'
-{
-iframe_url
-}
-'
->
-<
-/
-iframe
->
-"
+(
+iframe_html
+)
 )
     
 await

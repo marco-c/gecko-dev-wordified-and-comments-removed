@@ -315,6 +315,7 @@ wait_for_event
 wait_for_future_safe
 value
 accept
+iframe
 )
 :
     
@@ -322,30 +323,12 @@ page
 =
 inline
 (
-f
-"
-"
-"
-<
 iframe
-src
-=
-{
-inline
 (
 "
 foo
 "
 )
-}
->
-<
-/
-iframe
->
-"
-"
-"
 )
     
 await
@@ -625,6 +608,7 @@ wait_for_event
 wait_for_future_safe
 value
 accept
+iframe
 )
 :
     
@@ -632,30 +616,12 @@ page
 =
 inline
 (
-f
-"
-"
-"
-<
 iframe
-src
-=
-{
-inline
 (
 "
 foo
 "
 )
-}
->
-<
-/
-iframe
->
-"
-"
-"
 )
     
 await

@@ -551,12 +551,15 @@ inline
 domain_value
 domain
 set_cookie
+iframe
 )
 :
     
-iframe_url
+page_url
 =
 inline
+(
+iframe
 (
 "
 <
@@ -579,28 +582,6 @@ domain
 =
 domain
 )
-    
-page_url
-=
-inline
-(
-f
-"
-<
-iframe
-src
-=
-'
-{
-iframe_url
-}
-'
->
-<
-/
-iframe
->
-"
 )
     
 await
