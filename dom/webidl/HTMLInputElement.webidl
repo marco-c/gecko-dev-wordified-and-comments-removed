@@ -412,7 +412,7 @@ listForBindings
 ]
 readonly
 attribute
-HTMLDataListElement
+Element
 ?
 list
 ;
