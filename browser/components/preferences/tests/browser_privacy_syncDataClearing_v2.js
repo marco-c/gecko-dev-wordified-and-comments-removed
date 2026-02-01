@@ -24,16 +24,6 @@ cookies
 "
 true
 ]
-[
-"
-privacy
-.
-sanitize
-.
-useOldClearHistoryDialog
-"
-false
-]
 ]
 }
 )

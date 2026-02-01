@@ -112,16 +112,6 @@ loglevel
 All
 "
 ]
-[
-"
-privacy
-.
-sanitize
-.
-useOldClearHistoryDialog
-"
-false
-]
 ]
 }
 )

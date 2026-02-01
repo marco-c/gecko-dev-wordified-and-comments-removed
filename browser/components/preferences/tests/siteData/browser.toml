@@ -43,13 +43,6 @@ appcache
 ]
 [
 "
-browser_clearSiteData
-.
-js
-"
-]
-[
-"
 browser_clearSiteData_v2
 .
 js
