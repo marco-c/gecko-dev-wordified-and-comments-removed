@@ -1711,16 +1711,6 @@ ContinueProcessNormal2
 nsresult
 )
 ;
-[
-[
-nodiscard
-]
-]
-nsresult
-ContinueProcessNormal3
-(
-)
-;
 void
 ProcessAltService
 (
