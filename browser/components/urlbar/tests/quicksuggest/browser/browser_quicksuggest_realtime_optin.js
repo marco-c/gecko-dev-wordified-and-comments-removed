@@ -602,15 +602,6 @@ isBestMatch
 ;
 Assert
 .
-ok
-(
-result
-.
-hideRowLabel
-)
-;
-Assert
-.
 equal
 (
 result

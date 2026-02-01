@@ -882,9 +882,6 @@ SEARCH
 isBestMatch
 :
 true
-hideRowLabel
-:
-true
 rowIndex
 :
 -

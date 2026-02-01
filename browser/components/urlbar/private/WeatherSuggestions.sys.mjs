@@ -1279,6 +1279,9 @@ UrlbarUtils
 RESULT_SOURCE
 .
 SEARCH
+isBestMatch
+:
+true
 suggestedIndex
 :
 1
@@ -1496,9 +1499,6 @@ low
 [
 unit
 ]
-showRowLabel
-:
-true
 helpUrl
 :
 lazy

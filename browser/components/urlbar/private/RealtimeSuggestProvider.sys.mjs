@@ -2119,9 +2119,6 @@ SEARCH
 isBestMatch
 :
 true
-hideRowLabel
-:
-true
 .
 .
 .
@@ -2457,9 +2454,6 @@ RESULT_SOURCE
 .
 OTHER_LOCAL
 isBestMatch
-:
-true
-hideRowLabel
 :
 true
 payload

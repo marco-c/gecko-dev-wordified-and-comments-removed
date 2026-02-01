@@ -1491,9 +1491,6 @@ SEARCH
 isBestMatch
 :
 true
-hideRowLabel
-:
-true
 richSuggestionIconSize
 :
 24

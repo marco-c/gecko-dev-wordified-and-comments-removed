@@ -838,9 +838,6 @@ SEARCH
 isBestMatch
 :
 true
-hideRowLabel
-:
-true
 heuristic
 :
 false
