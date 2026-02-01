@@ -107,7 +107,7 @@ Boarding
 isEnrollmentPaused
 "
 :
-false
+true
 "
 isRollout
 "
@@ -899,7 +899,13 @@ startDate
 enrollmentEndDate
 "
 :
-null
+"
+2026
+-
+01
+-
+22
+"
 "
 endDate
 "
