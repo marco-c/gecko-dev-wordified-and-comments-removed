@@ -5276,7 +5276,6 @@ zipPath
 =
 >
 {
-let
 now
 =
 Math
@@ -5368,7 +5367,6 @@ Success
 set
 the
 prefs
-let
 now
 =
 Math
@@ -5616,7 +5614,6 @@ gmpAddon
 id
 )
 ;
-let
 now
 =
 Math
@@ -5774,7 +5771,6 @@ gmpAddon
 id
 )
 ;
-let
 now
 =
 Math
