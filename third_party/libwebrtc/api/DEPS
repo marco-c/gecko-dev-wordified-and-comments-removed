@@ -513,6 +513,14 @@ port_allocator
 .
 h
 "
+"
++
+rtc_base
+/
+rtc_certificate
+.
+h
+"
 ]
 "
 dtls_transport_interface
