@@ -879,7 +879,7 @@ kDetached
 ;
 const
 bool
-minimized_remsampling_on_mobile_trial_enabled_
+minimized_resampling_on_mobile_trial_enabled_
 ;
 const
 bool
