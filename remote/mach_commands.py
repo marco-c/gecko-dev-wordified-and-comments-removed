@@ -414,7 +414,7 @@ mocha
 -
 reporter
 .
-js
+cjs
 "
 )
         
@@ -435,7 +435,7 @@ mocha
 -
 reporter
 .
-js
+cjs
 "
 )
     
@@ -672,7 +672,7 @@ mocha
 -
 reporter
 .
-js
+cjs
 "
 )
         
@@ -2705,7 +2705,7 @@ mocha
 -
 reporter
 .
-js
+cjs
 "
             
 "
