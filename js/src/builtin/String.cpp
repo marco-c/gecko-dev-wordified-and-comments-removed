@@ -13809,10 +13809,8 @@ return
 true
 ;
 }
+static
 bool
-js
-:
-:
 str_startsWith
 (
 JSContext
@@ -14147,10 +14145,8 @@ return
 true
 ;
 }
+static
 bool
-js
-:
-:
 str_endsWith
 (
 JSContext
