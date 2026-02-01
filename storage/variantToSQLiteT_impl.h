@@ -1,3 +1,9 @@
+#
+ifndef
+STORAGE_VARIANTTOSQLITET_IMPL_H_
+#
+define
+STORAGE_VARIANTTOSQLITET_IMPL_H_
 template
 <
 typename
@@ -574,3 +580,5 @@ return
 SQLITE_OK
 ;
 }
+#
+endif
