@@ -46,11 +46,14 @@ template
 <
 typename
 Node
+TreeKind
+K
 >
 size_t
 TreeOrderedArray
 <
 Node
+K
 >
 :
 :
@@ -190,10 +193,7 @@ nsContentUtils
 :
 CompareTreePosition
 <
-TreeKind
-:
-:
-DOM
+K
 >
 (
 &

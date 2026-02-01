@@ -1802,7 +1802,7 @@ if
 fc
 -
 >
-GetForm
+GetFormInternal
 (
 )
 !
@@ -2093,6 +2093,10 @@ TreeOrderedArray
 <
 nsGenericHTMLFormElement
 *
+TreeKind
+:
+:
+ShadowIncludingDOM
 >
 &
 aArray
@@ -2259,7 +2263,7 @@ form
 fc
 -
 >
-GetForm
+GetFormInternal
 (
 )
 ;
@@ -2420,7 +2424,7 @@ form
 node
 -
 >
-GetForm
+GetFormInternal
 (
 )
 ;
@@ -5376,6 +5380,10 @@ TreeOrderedArray
 <
 nsGenericHTMLFormElement
 *
+TreeKind
+:
+:
+ShadowIncludingDOM
 >
 &
 controlList
@@ -5823,6 +5831,10 @@ TreeOrderedArray
 <
 nsGenericHTMLFormElement
 *
+TreeKind
+:
+:
+ShadowIncludingDOM
 >
 &
 controls

@@ -270,10 +270,13 @@ useMap
 ;
 [
 Pure
+BinaryName
+=
+formForBindings
 ]
 readonly
 attribute
-HTMLFormElement
+Element
 ?
 form
 ;

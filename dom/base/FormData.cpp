@@ -1725,7 +1725,7 @@ if
 fc
 -
 >
-GetForm
+GetFormInternal
 (
 )
 !

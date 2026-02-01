@@ -328,9 +328,14 @@ attribute
 boolean
 disabled
 ;
+[
+BinaryName
+=
+formForBindings
+]
 readonly
 attribute
-HTMLFormElement
+Element
 ?
 form
 ;

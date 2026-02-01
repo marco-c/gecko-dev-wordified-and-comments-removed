@@ -238,9 +238,14 @@ constructor
 (
 )
 ;
+[
+BinaryName
+=
+formForBindings
+]
 readonly
 attribute
-HTMLFormElement
+Element
 ?
 form
 ;
