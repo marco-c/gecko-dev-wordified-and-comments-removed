@@ -11701,15 +11701,6 @@ intl_CreateSegmentIterator
 JS_FN
 (
 "
-intl_CreateSegmentsObject
-"
-intl_CreateSegmentsObject
-2
-0
-)
-JS_FN
-(
-"
 intl_DefaultTimeZone
 "
 intrinsic_DefaultTimeZone

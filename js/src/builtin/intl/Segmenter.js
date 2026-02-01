@@ -416,11 +416,6 @@ Intl_Segmenter_segment
 )
 ;
 }
-getSegmenterInternals
-(
-segmenter
-)
-;
 var
 string
 =
