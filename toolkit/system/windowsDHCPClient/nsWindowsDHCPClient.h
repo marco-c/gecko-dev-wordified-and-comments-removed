@@ -1,4 +1,10 @@
 #
+ifndef
+TOOLKIT_SYSTEM_WINDOWSDHCPCLIENT_NSWINDOWSDHCPCLIENT_H_
+#
+define
+TOOLKIT_SYSTEM_WINDOWSDHCPCLIENT_NSWINDOWSDHCPCLIENT_H_
+#
 include
 "
 nsIDHCPClient
@@ -81,3 +87,5 @@ mNetworkFunctions
 }
 }
 }
+#
+endif

@@ -1,4 +1,10 @@
 #
+ifndef
+TOOLKIT_COMPONENTS_CTYPES_TESTS_JSCTYPES_TEST_ERRNO_H_
+#
+define
+TOOLKIT_COMPONENTS_CTYPES_TESTS_JSCTYPES_TEST_ERRNO_H_
+#
 include
 "
 mozilla
@@ -61,3 +67,5 @@ get_last_error
 #
 endif
 MOZ_END_EXTERN_C
+#
+endif

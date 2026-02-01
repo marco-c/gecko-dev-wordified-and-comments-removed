@@ -1,4 +1,10 @@
 #
+ifndef
+TOOLKIT_COMPONENTS_MEDIASNIFFER_MP3SNIFF_H_
+#
+define
+TOOLKIT_COMPONENTS_MEDIASNIFFER_MP3SNIFF_H_
+#
 include
 <
 stdint
@@ -30,5 +36,7 @@ length
 ifdef
 __cplusplus
 }
+#
+endif
 #
 endif

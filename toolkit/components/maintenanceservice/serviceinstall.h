@@ -1,4 +1,10 @@
 #
+ifndef
+TOOLKIT_COMPONENTS_MAINTENANCESERVICE_SERVICEINSTALL_H_
+#
+define
+TOOLKIT_COMPONENTS_MAINTENANCESERVICE_SERVICEINSTALL_H_
+#
 include
 "
 readstrings
@@ -74,3 +80,5 @@ serviceDescription
 ;
 }
 ;
+#
+endif

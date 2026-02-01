@@ -1,4 +1,10 @@
 #
+ifndef
+TOOLKIT_COMPONENTS_TYPEAHEADFIND_NSTYPEAHEADFIND_H_
+#
+define
+TOOLKIT_COMPONENTS_TYPEAHEADFIND_NSTYPEAHEADFIND_H_
+#
 include
 "
 mozilla
@@ -505,3 +511,5 @@ mSelectionController
 ;
 }
 ;
+#
+endif

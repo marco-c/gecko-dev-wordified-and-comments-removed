@@ -1,4 +1,10 @@
 #
+ifndef
+TOOLKIT_COMPONENTS_REMOTE_NSXREMOTECLIENT_H_
+#
+define
+TOOLKIT_COMPONENTS_REMOTE_NSXREMOTECLIENT_H_
+#
 include
 <
 X11
@@ -204,3 +210,5 @@ mStartupToken
 ;
 }
 ;
+#
+endif

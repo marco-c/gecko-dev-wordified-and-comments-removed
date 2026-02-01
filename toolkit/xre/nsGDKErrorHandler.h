@@ -1,4 +1,10 @@
 #
+ifndef
+TOOLKIT_XRE_NSGDKERRORHANDLER_H_
+#
+define
+TOOLKIT_XRE_NSGDKERRORHANDLER_H_
+#
 ifdef
 MOZ_WIDGET_GTK
 void
@@ -6,5 +12,7 @@ InstallGdkErrorHandler
 (
 )
 ;
+#
+endif
 #
 endif

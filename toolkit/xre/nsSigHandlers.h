@@ -1,4 +1,10 @@
 #
+ifndef
+TOOLKIT_XRE_NSSIGHANDLERS_H_
+#
+define
+TOOLKIT_XRE_NSSIGHANDLERS_H_
+#
 if
 defined
 (
@@ -50,5 +56,7 @@ FPU_EXCEPTION_MASK
 <
 7
 )
+#
+endif
 #
 endif

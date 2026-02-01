@@ -1,3 +1,9 @@
+#
+ifndef
+TOOLKIT_MOZAPPS_UPDATE_UPDATER_CRCTABLE_H_
+#
+define
+TOOLKIT_MOZAPPS_UPDATE_UPDATER_CRCTABLE_H_
 unsigned
 int
 BZ2_crc32Table
@@ -264,3 +270,5 @@ BZ2_crc32Table
 0xb1f740b4L
 }
 ;
+#
+endif

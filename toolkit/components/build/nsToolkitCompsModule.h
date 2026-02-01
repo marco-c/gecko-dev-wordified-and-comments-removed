@@ -1,4 +1,10 @@
 #
+ifndef
+TOOLKIT_COMPONENTS_BUILD_NSTOOLKITCOMPSMODULE_H_
+#
+define
+TOOLKIT_COMPONENTS_BUILD_NSTOOLKITCOMPSMODULE_H_
+#
 include
 "
 nscore
@@ -28,3 +34,5 @@ void
 aResult
 )
 ;
+#
+endif
