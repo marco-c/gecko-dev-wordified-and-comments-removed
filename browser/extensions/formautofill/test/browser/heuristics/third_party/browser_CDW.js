@@ -153,6 +153,9 @@ Checkout_BillingPaymentInfo
 .
 html
 "
+useTestYear
+:
+2024
 expectedResult
 :
 [
