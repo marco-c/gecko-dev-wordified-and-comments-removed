@@ -1,9 +1,9 @@
 #
 ifndef
-nsAboutBlank_h__
+nsAboutBlank_h_
 #
 define
-nsAboutBlank_h__
+nsAboutBlank_h_
 #
 include
 "

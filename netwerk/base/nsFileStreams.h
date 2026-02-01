@@ -1,9 +1,9 @@
 #
 ifndef
-nsFileStreams_h__
+nsFileStreams_h_
 #
 define
-nsFileStreams_h__
+nsFileStreams_h_
 #
 include
 "

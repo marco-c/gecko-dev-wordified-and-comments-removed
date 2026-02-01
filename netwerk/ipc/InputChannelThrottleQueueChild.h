@@ -1,9 +1,9 @@
 #
 ifndef
-InputChannelThrottleQueueChild_h__
+InputChannelThrottleQueueChild_h_
 #
 define
-InputChannelThrottleQueueChild_h__
+InputChannelThrottleQueueChild_h_
 #
 include
 "

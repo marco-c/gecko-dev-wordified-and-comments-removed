@@ -1,9 +1,9 @@
 #
 ifndef
-nsFileChannel_h__
+nsFileChannel_h_
 #
 define
-nsFileChannel_h__
+nsFileChannel_h_
 #
 include
 "

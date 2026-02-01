@@ -1,9 +1,9 @@
 #
 ifndef
-nsAboutCacheEntry_h__
+nsAboutCacheEntry_h_
 #
 define
-nsAboutCacheEntry_h__
+nsAboutCacheEntry_h_
 #
 include
 "

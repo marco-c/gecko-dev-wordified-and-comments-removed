@@ -1,9 +1,9 @@
 #
 ifndef
-__nsWifiMonitor__
+_nsWifiMonitor_
 #
 define
-__nsWifiMonitor__
+_nsWifiMonitor_
 #
 include
 "

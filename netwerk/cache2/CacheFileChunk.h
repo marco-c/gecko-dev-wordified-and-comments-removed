@@ -1,9 +1,9 @@
 #
 ifndef
-CacheFileChunk__h__
+CacheFileChunk_h_
 #
 define
-CacheFileChunk__h__
+CacheFileChunk_h_
 #
 include
 "

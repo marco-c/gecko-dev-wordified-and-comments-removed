@@ -1,9 +1,9 @@
 #
 ifndef
-nsUnknownDecoder_h__
+nsUnknownDecoder_h_
 #
 define
-nsUnknownDecoder_h__
+nsUnknownDecoder_h_
 #
 include
 "
@@ -309,6 +309,7 @@ _func
 )
 \
 {
+\
 _bytes
 sizeof
 (
@@ -318,6 +319,7 @@ _bytes
 1
 nullptr
 _func
+\
 }
 static
 nsSnifferEntry

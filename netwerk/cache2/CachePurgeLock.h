@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_net_CachePurgeLock_h__
+mozilla_net_CachePurgeLock_h_
 #
 define
-mozilla_net_CachePurgeLock_h__
+mozilla_net_CachePurgeLock_h_
 #
 include
 "

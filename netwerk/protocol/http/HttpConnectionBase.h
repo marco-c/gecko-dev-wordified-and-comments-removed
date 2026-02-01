@@ -1,9 +1,9 @@
 #
 ifndef
-HttpConnectionBase_h__
+HttpConnectionBase_h_
 #
 define
-HttpConnectionBase_h__
+HttpConnectionBase_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-NeqoHttp3Conn_h__
+NeqoHttp3Conn_h_
 #
 define
-NeqoHttp3Conn_h__
+NeqoHttp3Conn_h_
 #
 include
 <

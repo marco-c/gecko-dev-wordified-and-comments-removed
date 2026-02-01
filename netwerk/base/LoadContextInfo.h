@@ -1,9 +1,9 @@
 #
 ifndef
-nsLoadContextInfo_h__
+nsLoadContextInfo_h_
 #
 define
-nsLoadContextInfo_h__
+nsLoadContextInfo_h_
 #
 include
 "

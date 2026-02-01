@@ -1,9 +1,9 @@
 #
 ifndef
-PollableEvent_h__
+PollableEvent_h_
 #
 define
-PollableEvent_h__
+PollableEvent_h_
 #
 include
 "

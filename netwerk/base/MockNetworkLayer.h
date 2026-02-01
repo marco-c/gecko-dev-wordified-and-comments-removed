@@ -1,9 +1,9 @@
 #
 ifndef
-MockNetworkLayer_h__
+MockNetworkLayer_h_
 #
 define
-MockNetworkLayer_h__
+MockNetworkLayer_h_
 #
 include
 "

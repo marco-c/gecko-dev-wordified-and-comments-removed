@@ -1,9 +1,9 @@
 #
 ifndef
-PendingTransactionQueue_h__
+PendingTransactionQueue_h_
 #
 define
-PendingTransactionQueue_h__
+PendingTransactionQueue_h_
 #
 include
 "

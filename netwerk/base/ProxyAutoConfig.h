@@ -1,9 +1,9 @@
 #
 ifndef
-ProxyAutoConfig_h__
+ProxyAutoConfig_h_
 #
 define
-ProxyAutoConfig_h__
+ProxyAutoConfig_h_
 #
 include
 <

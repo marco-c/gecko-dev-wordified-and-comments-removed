@@ -1,9 +1,9 @@
 #
 ifndef
-__ClassOfService_h__
+ClassOfService_h_
 #
 define
-__ClassOfService_h__
+ClassOfService_h_
 #
 include
 "

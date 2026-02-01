@@ -1,9 +1,9 @@
 #
 ifndef
-BackgroundFileSaver_h__
+BackgroundFileSaver_h_
 #
 define
-BackgroundFileSaver_h__
+BackgroundFileSaver_h_
 #
 include
 "

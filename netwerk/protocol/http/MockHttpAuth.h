@@ -1,9 +1,9 @@
 #
 ifndef
-MockHttpAuth_h__
+MockHttpAuth_h_
 #
 define
-MockHttpAuth_h__
+MockHttpAuth_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-__netCore_h__
+_netCore_h_
 #
 define
-__netCore_h__
+_netCore_h_
 #
 include
 "

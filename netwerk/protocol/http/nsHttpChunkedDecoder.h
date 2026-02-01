@@ -1,9 +1,9 @@
 #
 ifndef
-nsHttpChunkedDecoder_h__
+nsHttpChunkedDecoder_h_
 #
 define
-nsHttpChunkedDecoder_h__
+nsHttpChunkedDecoder_h_
 #
 include
 "

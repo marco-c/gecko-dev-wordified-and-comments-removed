@@ -1,9 +1,9 @@
 #
 ifndef
-nsSOCKSIOLayer_h__
+nsSOCKSIOLayer_h_
 #
 define
-nsSOCKSIOLayer_h__
+nsSOCKSIOLayer_h_
 #
 include
 "

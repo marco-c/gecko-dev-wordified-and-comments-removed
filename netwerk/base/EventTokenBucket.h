@@ -1,9 +1,9 @@
 #
 ifndef
-NetEventTokenBucket_h__
+NetEventTokenBucket_h_
 #
 define
-NetEventTokenBucket_h__
+NetEventTokenBucket_h_
 #
 include
 "

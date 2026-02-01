@@ -1,9 +1,9 @@
 #
 ifndef
-HttpTransactionShell_h__
+HttpTransactionShell_h_
 #
 define
-HttpTransactionShell_h__
+HttpTransactionShell_h_
 #
 include
 <

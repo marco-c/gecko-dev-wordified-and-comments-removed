@@ -1,9 +1,9 @@
 #
 ifndef
-RemoteStreamGetter_h___
+RemoteStreamGetter_h_
 #
 define
-RemoteStreamGetter_h___
+RemoteStreamGetter_h_
 #
 include
 "

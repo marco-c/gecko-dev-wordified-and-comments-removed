@@ -1,9 +1,9 @@
 #
 ifndef
-nsSOCKSSocketProvider_h__
+nsSOCKSSocketProvider_h_
 #
 define
-nsSOCKSSocketProvider_h__
+nsSOCKSSocketProvider_h_
 #
 include
 "

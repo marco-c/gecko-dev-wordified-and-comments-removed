@@ -1,9 +1,9 @@
 #
 ifndef
-HTTPSSVC_h__
+HTTPSSVC_h_
 #
 define
-HTTPSSVC_h__
+HTTPSSVC_h_
 #
 include
 "

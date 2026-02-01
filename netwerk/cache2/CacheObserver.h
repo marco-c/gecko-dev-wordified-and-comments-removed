@@ -1,9 +1,9 @@
 #
 ifndef
-CacheObserver__h__
+CacheObserver_h_
 #
 define
-CacheObserver__h__
+CacheObserver_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-MozSrcProtocolHandler_h___
+MozSrcProtocolHandler_h_
 #
 define
-MozSrcProtocolHandler_h___
+MozSrcProtocolHandler_h_
 #
 include
 "

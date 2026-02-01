@@ -1,9 +1,9 @@
 #
 ifndef
-SimpleBuffer_h__
+SimpleBuffer_h_
 #
 define
-SimpleBuffer_h__
+SimpleBuffer_h_
 #
 include
 "

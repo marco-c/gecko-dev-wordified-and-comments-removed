@@ -1,9 +1,9 @@
 #
 ifndef
-ExtensionProtocolHandler_h___
+ExtensionProtocolHandler_h_
 #
 define
-ExtensionProtocolHandler_h___
+ExtensionProtocolHandler_h_
 #
 include
 "

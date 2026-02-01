@@ -1,9 +1,9 @@
 #
 ifndef
-nsIncrementalStreamLoader_h__
+nsIncrementalStreamLoader_h_
 #
 define
-nsIncrementalStreamLoader_h__
+nsIncrementalStreamLoader_h_
 #
 include
 "

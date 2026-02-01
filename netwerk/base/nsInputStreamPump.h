@@ -1,9 +1,9 @@
 #
 ifndef
-nsInputStreamPump_h__
+nsInputStreamPump_h_
 #
 define
-nsInputStreamPump_h__
+nsInputStreamPump_h_
 #
 include
 "

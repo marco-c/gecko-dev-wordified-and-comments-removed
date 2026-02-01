@@ -1,9 +1,9 @@
 #
 ifndef
-nsDashboard_h__
+nsDashboard_h_
 #
 define
-nsDashboard_h__
+nsDashboard_h_
 #
 include
 "

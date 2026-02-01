@@ -1,9 +1,9 @@
 #
 ifndef
-ContentRange_h__
+ContentRange_h_
 #
 define
-ContentRange_h__
+ContentRange_h_
 #
 include
 "

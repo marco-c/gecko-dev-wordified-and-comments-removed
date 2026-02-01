@@ -1,9 +1,9 @@
 #
 ifndef
-nsDownloader_h__
+nsDownloader_h_
 #
 define
-nsDownloader_h__
+nsDownloader_h_
 #
 include
 "

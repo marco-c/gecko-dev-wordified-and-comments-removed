@@ -1,9 +1,9 @@
 #
 ifndef
-nsLoadGroup_h__
+nsLoadGroup_h_
 #
 define
-nsLoadGroup_h__
+nsLoadGroup_h_
 #
 include
 "

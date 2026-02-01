@@ -1,9 +1,9 @@
 #
 ifndef
-nsHttpAuthCache_h__
+nsHttpAuthCache_h_
 #
 define
-nsHttpAuthCache_h__
+nsHttpAuthCache_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-HttpConnectionUDP_h__
+HttpConnectionUDP_h_
 #
 define
-HttpConnectionUDP_h__
+HttpConnectionUDP_h_
 #
 include
 "

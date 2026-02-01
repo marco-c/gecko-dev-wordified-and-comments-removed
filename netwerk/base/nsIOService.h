@@ -1,9 +1,9 @@
 #
 ifndef
-nsIOService_h__
+nsIOService_h_
 #
 define
-nsIOService_h__
+nsIOService_h_
 #
 include
 "

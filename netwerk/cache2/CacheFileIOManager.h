@@ -1,9 +1,9 @@
 #
 ifndef
-CacheFileIOManager__h__
+CacheFileIOManager_h_
 #
 define
-CacheFileIOManager__h__
+CacheFileIOManager_h_
 #
 include
 "

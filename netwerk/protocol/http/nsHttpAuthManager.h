@@ -1,9 +1,9 @@
 #
 ifndef
-nsHttpAuthManager_h__
+nsHttpAuthManager_h_
 #
 define
-nsHttpAuthManager_h__
+nsHttpAuthManager_h_
 #
 include
 "

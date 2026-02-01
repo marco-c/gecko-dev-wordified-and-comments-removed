@@ -1,9 +1,9 @@
 #
 ifndef
-CacheControlParser_h__
+CacheControlParser_h_
 #
 define
-CacheControlParser_h__
+CacheControlParser_h_
 #
 include
 "

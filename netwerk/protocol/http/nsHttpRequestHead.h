@@ -1,9 +1,9 @@
 #
 ifndef
-nsHttpRequestHead_h__
+nsHttpRequestHead_h_
 #
 define
-nsHttpRequestHead_h__
+nsHttpRequestHead_h_
 #
 include
 "

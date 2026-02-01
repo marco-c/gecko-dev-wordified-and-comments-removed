@@ -1,9 +1,9 @@
 #
 ifndef
-nsBaseChannel_h__
+nsBaseChannel_h_
 #
 define
-nsBaseChannel_h__
+nsBaseChannel_h_
 #
 include
 "

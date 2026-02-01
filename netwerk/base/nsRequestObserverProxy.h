@@ -1,9 +1,9 @@
 #
 ifndef
-nsRequestObserverProxy_h__
+nsRequestObserverProxy_h_
 #
 define
-nsRequestObserverProxy_h__
+nsRequestObserverProxy_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-HttpWinUtils_h__
+HttpWinUtils_h_
 #
 define
-HttpWinUtils_h__
+HttpWinUtils_h_
 namespace
 mozilla
 {

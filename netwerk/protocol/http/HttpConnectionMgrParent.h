@@ -1,9 +1,9 @@
 #
 ifndef
-HttpConnectionMgrParent_h__
+HttpConnectionMgrParent_h_
 #
 define
-HttpConnectionMgrParent_h__
+HttpConnectionMgrParent_h_
 #
 include
 "

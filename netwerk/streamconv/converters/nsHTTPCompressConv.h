@@ -3,11 +3,11 @@ if
 !
 defined
 (
-__nsHTTPCompressConv__h__
+_nsHTTPCompressConv_h_
 )
 #
 define
-__nsHTTPCompressConv__h__
+_nsHTTPCompressConv_h_
 1
 #
 include

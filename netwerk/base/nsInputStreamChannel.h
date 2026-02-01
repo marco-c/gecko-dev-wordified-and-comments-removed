@@ -1,9 +1,9 @@
 #
 ifndef
-nsInputStreamChannel_h__
+nsInputStreamChannel_h_
 #
 define
-nsInputStreamChannel_h__
+nsInputStreamChannel_h_
 #
 include
 "

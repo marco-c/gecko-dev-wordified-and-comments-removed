@@ -1,9 +1,9 @@
 #
 ifndef
-nsURIHashKey_h__
+nsURIHashKey_h_
 #
 define
-nsURIHashKey_h__
+nsURIHashKey_h_
 #
 include
 <

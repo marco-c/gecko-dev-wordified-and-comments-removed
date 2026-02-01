@@ -1,9 +1,9 @@
 #
 ifndef
-NetworkDataCountLayer_h__
+NetworkDataCountLayer_h_
 #
 define
-NetworkDataCountLayer_h__
+NetworkDataCountLayer_h_
 #
 include
 "

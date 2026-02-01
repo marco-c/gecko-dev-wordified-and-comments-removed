@@ -1,9 +1,9 @@
 #
 ifndef
-nsHttpActivityDistributor_h__
+nsHttpActivityDistributor_h_
 #
 define
-nsHttpActivityDistributor_h__
+nsHttpActivityDistributor_h_
 #
 include
 "

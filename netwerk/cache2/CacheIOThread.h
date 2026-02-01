@@ -1,9 +1,9 @@
 #
 ifndef
-CacheIOThread__h__
+CacheIOThread_h_
 #
 define
-CacheIOThread__h__
+CacheIOThread_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsStandardURL_h__
+nsStandardURL_h_
 #
 define
-nsStandardURL_h__
+nsStandardURL_h_
 #
 include
 <

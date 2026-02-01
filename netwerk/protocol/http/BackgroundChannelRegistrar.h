@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_net_BackgroundChannelRegistrar_h__
+mozilla_net_BackgroundChannelRegistrar_h_
 #
 define
-mozilla_net_BackgroundChannelRegistrar_h__
+mozilla_net_BackgroundChannelRegistrar_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-FuzzingStreamListener_h__
+FuzzingStreamListener_h_
 #
 define
-FuzzingStreamListener_h__
+FuzzingStreamListener_h_
 #
 include
 "

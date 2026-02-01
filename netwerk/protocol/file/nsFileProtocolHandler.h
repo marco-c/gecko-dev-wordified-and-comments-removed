@@ -1,9 +1,9 @@
 #
 ifndef
-nsFileProtocolHandler_h__
+nsFileProtocolHandler_h_
 #
 define
-nsFileProtocolHandler_h__
+nsFileProtocolHandler_h_
 #
 include
 "

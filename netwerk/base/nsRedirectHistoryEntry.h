@@ -1,9 +1,9 @@
 #
 ifndef
-nsRedirectHistoryEntry_h__
+nsRedirectHistoryEntry_h_
 #
 define
-nsRedirectHistoryEntry_h__
+nsRedirectHistoryEntry_h_
 #
 include
 "

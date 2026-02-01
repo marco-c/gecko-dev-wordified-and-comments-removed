@@ -1,9 +1,9 @@
 #
 ifndef
-nsDirIndex_h__
+nsDirIndex_h_
 #
 define
-nsDirIndex_h__
+nsDirIndex_h_
 #
 include
 "

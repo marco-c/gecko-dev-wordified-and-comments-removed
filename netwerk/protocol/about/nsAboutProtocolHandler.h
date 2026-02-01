@@ -1,9 +1,9 @@
 #
 ifndef
-nsAboutProtocolHandler_h___
+nsAboutProtocolHandler_h_
 #
 define
-nsAboutProtocolHandler_h___
+nsAboutProtocolHandler_h_
 #
 include
 "

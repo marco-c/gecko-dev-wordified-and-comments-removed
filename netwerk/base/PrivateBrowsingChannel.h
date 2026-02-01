@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_net_PrivateBrowsingChannel_h__
+mozilla_net_PrivateBrowsingChannel_h_
 #
 define
-mozilla_net_PrivateBrowsingChannel_h__
+mozilla_net_PrivateBrowsingChannel_h_
 #
 include
 "

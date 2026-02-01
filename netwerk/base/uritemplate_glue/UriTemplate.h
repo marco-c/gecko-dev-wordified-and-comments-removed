@@ -1,9 +1,9 @@
 #
 ifndef
-UriTemplateGlue_h__
+UriTemplateGlue_h_
 #
 define
-UriTemplateGlue_h__
+UriTemplateGlue_h_
 #
 include
 "

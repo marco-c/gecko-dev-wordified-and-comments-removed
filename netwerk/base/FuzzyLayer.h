@@ -1,9 +1,9 @@
 #
 ifndef
-FuzzyLayer_h__
+FuzzyLayer_h_
 #
 define
-FuzzyLayer_h__
+FuzzyLayer_h_
 #
 include
 "

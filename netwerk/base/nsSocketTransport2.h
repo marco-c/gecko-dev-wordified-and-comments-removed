@@ -1,9 +1,9 @@
 #
 ifndef
-nsSocketTransport2_h__
+nsSocketTransport2_h_
 #
 define
-nsSocketTransport2_h__
+nsSocketTransport2_h_
 #
 ifdef
 DEBUG_darinf

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla__net__RequestContextService_h
+mozilla_net_RequestContextService_h
 #
 define
-mozilla__net__RequestContextService_h
+mozilla_net_RequestContextService_h
 #
 include
 "

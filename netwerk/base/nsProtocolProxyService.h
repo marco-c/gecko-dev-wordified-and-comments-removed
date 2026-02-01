@@ -1,9 +1,9 @@
 #
 ifndef
-nsProtocolProxyService_h__
+nsProtocolProxyService_h_
 #
 define
-nsProtocolProxyService_h__
+nsProtocolProxyService_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-SpeculativeTransaction_h__
+SpeculativeTransaction_h_
 #
 define
-SpeculativeTransaction_h__
+SpeculativeTransaction_h_
 #
 include
 "

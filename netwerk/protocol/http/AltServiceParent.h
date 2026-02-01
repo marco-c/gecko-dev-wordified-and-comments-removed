@@ -1,9 +1,9 @@
 #
 ifndef
-AltServiceParent_h__
+AltServiceParent_h_
 #
 define
-AltServiceParent_h__
+AltServiceParent_h_
 #
 include
 "

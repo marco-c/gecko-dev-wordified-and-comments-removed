@@ -1,9 +1,9 @@
 #
 ifndef
-nsStreamLoader_h__
+nsStreamLoader_h_
 #
 define
-nsStreamLoader_h__
+nsStreamLoader_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsNetUtil_h__
+nsNetUtil_h_
 #
 define
-nsNetUtil_h__
+nsNetUtil_h_
 #
 include
 <

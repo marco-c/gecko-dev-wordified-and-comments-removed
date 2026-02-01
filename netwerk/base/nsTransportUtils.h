@@ -1,9 +1,9 @@
 #
 ifndef
-nsTransportUtils_h__
+nsTransportUtils_h_
 #
 define
-nsTransportUtils_h__
+nsTransportUtils_h_
 #
 include
 "

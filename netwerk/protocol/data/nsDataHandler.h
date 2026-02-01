@@ -1,9 +1,9 @@
 #
 ifndef
-nsDataHandler_h___
+nsDataHandler_h_
 #
 define
-nsDataHandler_h___
+nsDataHandler_h_
 #
 include
 "

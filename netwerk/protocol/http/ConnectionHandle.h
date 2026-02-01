@@ -1,9 +1,9 @@
 #
 ifndef
-ConnectionHandle_h__
+ConnectionHandle_h_
 #
 define
-ConnectionHandle_h__
+ConnectionHandle_h_
 #
 include
 "

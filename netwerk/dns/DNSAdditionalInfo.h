@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_net_DNSAdditionalInfo_h__
+mozilla_net_DNSAdditionalInfo_h_
 #
 define
-mozilla_net_DNSAdditionalInfo_h__
+mozilla_net_DNSAdditionalInfo_h_
 #
 include
 "

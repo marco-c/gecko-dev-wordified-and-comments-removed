@@ -1,9 +1,9 @@
 #
 ifndef
-nsPreloadedStream_h__
+nsPreloadedStream_h_
 #
 define
-nsPreloadedStream_h__
+nsPreloadedStream_h_
 #
 include
 "

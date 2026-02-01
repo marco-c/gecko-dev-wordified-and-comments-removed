@@ -1,9 +1,9 @@
 #
 ifndef
-nsGIOProtocolHandler_h___
+nsGIOProtocolHandler_h_
 #
 define
-nsGIOProtocolHandler_h___
+nsGIOProtocolHandler_h_
 #
 include
 "

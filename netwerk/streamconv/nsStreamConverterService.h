@@ -1,9 +1,9 @@
 #
 ifndef
-__nsstreamconverterservice__h___
+_nsstreamconverterservice_h_
 #
 define
-__nsstreamconverterservice__h___
+_nsstreamconverterservice_h_
 #
 include
 "

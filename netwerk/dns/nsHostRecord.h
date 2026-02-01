@@ -1,9 +1,9 @@
 #
 ifndef
-nsHostRecord_h__
+nsHostRecord_h_
 #
 define
-nsHostRecord_h__
+nsHostRecord_h_
 #
 include
 "

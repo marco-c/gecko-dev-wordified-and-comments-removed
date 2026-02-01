@@ -1,9 +1,9 @@
 #
 ifndef
-nsBasicAuth_h__
+nsBasicAuth_h_
 #
 define
-nsBasicAuth_h__
+nsBasicAuth_h_
 #
 include
 "

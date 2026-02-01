@@ -1,9 +1,9 @@
 #
 ifndef
-nsServerSocket_h__
+nsServerSocket_h_
 #
 define
-nsServerSocket_h__
+nsServerSocket_h_
 #
 include
 "

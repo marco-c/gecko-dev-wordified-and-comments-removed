@@ -1,9 +1,9 @@
 #
 ifndef
-nsUDPSocket_h__
+nsUDPSocket_h_
 #
 define
-nsUDPSocket_h__
+nsUDPSocket_h_
 #
 include
 "

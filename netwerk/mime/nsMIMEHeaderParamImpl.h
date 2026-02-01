@@ -1,9 +1,9 @@
 #
 ifndef
-__nsmimeheaderparamimpl_h___
+_nsmimeheaderparamimpl_h_
 #
 define
-__nsmimeheaderparamimpl_h___
+_nsmimeheaderparamimpl_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-Cache2Log__h__
+Cache2Log_h_
 #
 define
-Cache2Log__h__
+Cache2Log_h_
 #
 include
 "

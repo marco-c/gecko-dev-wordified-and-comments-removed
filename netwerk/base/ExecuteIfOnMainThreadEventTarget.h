@@ -1,9 +1,9 @@
 #
 ifndef
-ExecuteIfOnMainThreadEventTarget_h__
+ExecuteIfOnMainThreadEventTarget_h_
 #
 define
-ExecuteIfOnMainThreadEventTarget_h__
+ExecuteIfOnMainThreadEventTarget_h_
 #
 include
 "

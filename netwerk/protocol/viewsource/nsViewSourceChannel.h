@@ -1,9 +1,9 @@
 #
 ifndef
-nsViewSourceChannel_h___
+nsViewSourceChannel_h_
 #
 define
-nsViewSourceChannel_h___
+nsViewSourceChannel_h_
 #
 include
 "

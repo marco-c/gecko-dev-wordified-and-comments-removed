@@ -1,9 +1,9 @@
 #
 ifndef
-DNSListenerProxy_h__
+DNSListenerProxy_h_
 #
 define
-DNSListenerProxy_h__
+DNSListenerProxy_h_
 #
 include
 "

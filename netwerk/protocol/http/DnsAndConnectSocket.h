@@ -1,9 +1,9 @@
 #
 ifndef
-DnsAndConnectSocket_h__
+DnsAndConnectSocket_h_
 #
 define
-DnsAndConnectSocket_h__
+DnsAndConnectSocket_h_
 #
 include
 "

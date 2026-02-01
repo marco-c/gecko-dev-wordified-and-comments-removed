@@ -1,9 +1,9 @@
 #
 ifndef
-nsStreamListenerWrapper_h__
+nsStreamListenerWrapper_h_
 #
 define
-nsStreamListenerWrapper_h__
+nsStreamListenerWrapper_h_
 #
 include
 "

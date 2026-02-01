@@ -1,9 +1,9 @@
 #
 ifndef
-FuzzySecurityInfo_h__
+FuzzySecurityInfo_h_
 #
 define
-FuzzySecurityInfo_h__
+FuzzySecurityInfo_h_
 #
 include
 "

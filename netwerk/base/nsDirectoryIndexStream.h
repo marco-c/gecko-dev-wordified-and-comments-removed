@@ -1,9 +1,9 @@
 #
 ifndef
-nsDirectoryIndexStream_h__
+nsDirectoryIndexStream_h_
 #
 define
-nsDirectoryIndexStream_h__
+nsDirectoryIndexStream_h_
 #
 include
 "

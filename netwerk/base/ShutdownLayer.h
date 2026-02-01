@@ -1,9 +1,9 @@
 #
 ifndef
-SHUTDOWNLAYER_H___
+SHUTDOWNLAYER_H_
 #
 define
-SHUTDOWNLAYER_H___
+SHUTDOWNLAYER_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsHttpConnection_h__
+nsHttpConnection_h_
 #
 define
-nsHttpConnection_h__
+nsHttpConnection_h_
 #
 include
 <

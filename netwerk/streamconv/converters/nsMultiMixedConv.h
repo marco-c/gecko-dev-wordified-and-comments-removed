@@ -1,9 +1,9 @@
 #
 ifndef
-__nsmultimixedconv__h__
+_nsmultimixedconv_h_
 #
 define
-__nsmultimixedconv__h__
+_nsmultimixedconv_h_
 #
 include
 "

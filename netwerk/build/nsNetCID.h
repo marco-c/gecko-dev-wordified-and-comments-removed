@@ -1,9 +1,9 @@
 #
 ifndef
-nsNetCID_h__
+nsNetCID_h_
 #
 define
-nsNetCID_h__
+nsNetCID_h_
 #
 define
 NS_IOSERVICE_CONTRACTID

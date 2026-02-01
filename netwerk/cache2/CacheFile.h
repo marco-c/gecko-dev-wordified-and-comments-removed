@@ -1,9 +1,9 @@
 #
 ifndef
-CacheFile__h__
+CacheFile_h_
 #
 define
-CacheFile__h__
+CacheFile_h_
 #
 include
 "

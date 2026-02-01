@@ -1,9 +1,9 @@
 #
 ifndef
-DefaultURI_h__
+DefaultURI_h_
 #
 define
-DefaultURI_h__
+DefaultURI_h_
 #
 include
 "

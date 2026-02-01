@@ -1,9 +1,9 @@
 #
 ifndef
-HttpTransactionParent_h__
+HttpTransactionParent_h_
 #
 define
-HttpTransactionParent_h__
+HttpTransactionParent_h_
 #
 include
 "

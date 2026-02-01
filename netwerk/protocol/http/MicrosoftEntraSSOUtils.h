@@ -1,9 +1,9 @@
 #
 ifndef
-MicrosoftEntraSSOUtils_h__
+MicrosoftEntraSSOUtils_h_
 #
 define
-MicrosoftEntraSSOUtils_h__
+MicrosoftEntraSSOUtils_h_
 #
 include
 "

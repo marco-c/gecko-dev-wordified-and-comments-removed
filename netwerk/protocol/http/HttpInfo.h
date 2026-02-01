@@ -1,9 +1,9 @@
 #
 ifndef
-nsHttpInfo__
+nsHttpInfo_
 #
 define
-nsHttpInfo__
+nsHttpInfo_
 #
 include
 "

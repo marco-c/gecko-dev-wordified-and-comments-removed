@@ -1,9 +1,9 @@
 #
 ifndef
-nsPACMan_h__
+nsPACMan_h_
 #
 define
-nsPACMan_h__
+nsPACMan_h_
 #
 include
 "

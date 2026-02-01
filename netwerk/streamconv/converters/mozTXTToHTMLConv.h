@@ -1,9 +1,9 @@
 #
 ifndef
-_mozTXTToHTMLConv_h__
+_mozTXTToHTMLConv_h_
 #
 define
-_mozTXTToHTMLConv_h__
+_mozTXTToHTMLConv_h_
 #
 include
 "

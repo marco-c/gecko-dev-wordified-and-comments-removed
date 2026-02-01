@@ -1,9 +1,9 @@
 #
 ifndef
-nsAHttpTransaction_h__
+nsAHttpTransaction_h_
 #
 define
-nsAHttpTransaction_h__
+nsAHttpTransaction_h_
 #
 include
 "

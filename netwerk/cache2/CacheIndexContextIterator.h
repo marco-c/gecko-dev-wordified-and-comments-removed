@@ -1,9 +1,9 @@
 #
 ifndef
-CacheIndexContextIterator__h__
+CacheIndexContextIterator_h_
 #
 define
-CacheIndexContextIterator__h__
+CacheIndexContextIterator_h_
 #
 include
 "

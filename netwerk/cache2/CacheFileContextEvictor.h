@@ -1,9 +1,9 @@
 #
 ifndef
-CacheFileContextEvictor__h__
+CacheFileContextEvictor_h_
 #
 define
-CacheFileContextEvictor__h__
+CacheFileContextEvictor_h_
 #
 include
 "

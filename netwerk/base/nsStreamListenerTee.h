@@ -1,9 +1,9 @@
 #
 ifndef
-nsStreamListenerTee_h__
+nsStreamListenerTee_h_
 #
 define
-nsStreamListenerTee_h__
+nsStreamListenerTee_h_
 #
 include
 "

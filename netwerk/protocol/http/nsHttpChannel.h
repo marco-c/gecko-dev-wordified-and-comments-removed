@@ -1,9 +1,9 @@
 #
 ifndef
-nsHttpChannel_h__
+nsHttpChannel_h_
 #
 define
-nsHttpChannel_h__
+nsHttpChannel_h_
 #
 include
 "

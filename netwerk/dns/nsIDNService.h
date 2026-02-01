@@ -1,9 +1,9 @@
 #
 ifndef
-nsIDNService_h__
+nsIDNService_h_
 #
 define
-nsIDNService_h__
+nsIDNService_h_
 #
 include
 "

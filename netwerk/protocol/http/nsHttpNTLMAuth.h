@@ -1,9 +1,9 @@
 #
 ifndef
-nsHttpNTLMAuth_h__
+nsHttpNTLMAuth_h_
 #
 define
-nsHttpNTLMAuth_h__
+nsHttpNTLMAuth_h_
 #
 include
 "

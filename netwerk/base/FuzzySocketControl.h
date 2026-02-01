@@ -1,9 +1,9 @@
 #
 ifndef
-FuzzySocketControl_h__
+FuzzySocketControl_h_
 #
 define
-FuzzySocketControl_h__
+FuzzySocketControl_h_
 #
 include
 "

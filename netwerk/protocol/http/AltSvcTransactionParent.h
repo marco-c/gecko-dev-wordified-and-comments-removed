@@ -1,9 +1,9 @@
 #
 ifndef
-AltSvcTransactionParent_h__
+AltSvcTransactionParent_h_
 #
 define
-AltSvcTransactionParent_h__
+AltSvcTransactionParent_h_
 #
 include
 "

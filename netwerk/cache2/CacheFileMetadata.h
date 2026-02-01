@@ -1,9 +1,9 @@
 #
 ifndef
-CacheFileMetadata__h__
+CacheFileMetadata_h_
 #
 define
-CacheFileMetadata__h__
+CacheFileMetadata_h_
 #
 include
 "

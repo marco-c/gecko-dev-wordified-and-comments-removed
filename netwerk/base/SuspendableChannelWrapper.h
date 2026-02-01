@@ -1,9 +1,9 @@
 #
 ifndef
-SuspendableChannelWrapper_h__
+SuspendableChannelWrapper_h_
 #
 define
-SuspendableChannelWrapper_h__
+SuspendableChannelWrapper_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-URLPatternGlue_h__
+URLPatternGlue_h_
 #
 define
-URLPatternGlue_h__
+URLPatternGlue_h_
 #
 include
 "

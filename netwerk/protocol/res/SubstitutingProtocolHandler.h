@@ -1,9 +1,9 @@
 #
 ifndef
-SubstitutingProtocolHandler_h___
+SubstitutingProtocolHandler_h_
 #
 define
-SubstitutingProtocolHandler_h___
+SubstitutingProtocolHandler_h_
 #
 include
 "
