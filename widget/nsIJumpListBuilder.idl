@@ -80,6 +80,11 @@ jsval
 aCustomDescriptions
 )
 ;
+void
+clearRecentsList
+(
+)
+;
 [
 implicit_jscontext
 ]
