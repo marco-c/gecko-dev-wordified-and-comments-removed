@@ -2909,10 +2909,7 @@ alias
 :
 "
 "
-wrappedJSObject
-:
-{
-_extensionID
+extensionID
 :
 "
 test
@@ -2924,6 +2921,9 @@ mozilla
 .
 org
 "
+wrappedJSObject
+:
+{
 _iconURL
 :
 "

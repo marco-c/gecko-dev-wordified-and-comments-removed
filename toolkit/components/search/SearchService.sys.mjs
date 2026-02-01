@@ -8928,7 +8928,7 @@ AddonSearchEngine
 &
 engine
 .
-_extensionID
+extensionID
 =
 =
 extensionID
@@ -9025,7 +9025,7 @@ AddonSearchEngine
 &
 engine
 .
-_extensionID
+extensionID
 =
 =
 details
@@ -16877,7 +16877,7 @@ AddonSearchEngine
 &
 existingEngine
 .
-_extensionID
+extensionID
 =
 =
 extensionId
@@ -24926,7 +24926,7 @@ thirdPartyId
 =
 engine
 .
-_extensionID
+extensionID
 )
 ;
 }
