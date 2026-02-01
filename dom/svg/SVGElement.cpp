@@ -5258,12 +5258,6 @@ attributes
 nsGkAtoms
 :
 :
-baseline_shift
-}
-{
-nsGkAtoms
-:
-:
 clip
 }
 {

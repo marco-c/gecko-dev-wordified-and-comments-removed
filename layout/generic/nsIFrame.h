@@ -11761,6 +11761,17 @@ AlignmentBaseline
 )
 const
 ;
+const
+mozilla
+:
+:
+StyleBaselineShift
+&
+BaselineShift
+(
+)
+const
+;
 static
 void
 AddInPopupStateBitToDescendants
