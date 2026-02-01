@@ -14,10 +14,6 @@ ErrorBufferType
 OwnedErrorBuffer
 }
 make_byte_buf
-telemetry
-:
-:
-build_telemetry_struct
 wgpu_string
 AdapterInformation
 BufferMapResult
@@ -959,12 +955,7 @@ display
 :
 None
 }
-Some
-(
-build_telemetry_struct
-(
-)
-)
+None
 )
 ;
 let
