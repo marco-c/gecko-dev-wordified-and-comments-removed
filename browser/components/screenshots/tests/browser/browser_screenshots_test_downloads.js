@@ -637,10 +637,11 @@ ownerDocument
 .
 querySelector
 (
-"
-#
-screenshotsPagePanel
-"
+helper
+.
+selector
+.
+panel
 )
 ;
 let
