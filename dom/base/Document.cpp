@@ -89218,7 +89218,7 @@ UpdateLastRememberedSizes
 ;
 const
 bool
-evaluateAllFallbacksIfNeeded
+firstTime
 =
 !
 initialAnchorOverflowDone
@@ -89235,7 +89235,7 @@ AnchorPositioningUtils
 TriggerLayoutOnOverflow
 (
 ps
-evaluateAllFallbacksIfNeeded
+firstTime
 )
 )
 {
