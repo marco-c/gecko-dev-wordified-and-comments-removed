@@ -1,3 +1,9 @@
+#
+ifndef
+shell_xpcshellMacUtils_h
+#
+define
+shell_xpcshellMacUtils_h
 void
 InitAutoreleasePool
 (
@@ -8,3 +14,5 @@ FinishAutoreleasePool
 (
 )
 ;
+#
+endif

@@ -1,4 +1,10 @@
 #
+ifndef
+threading_CpuCount_h
+#
+define
+threading_CpuCount_h
+#
 include
 <
 inttypes
@@ -14,3 +20,5 @@ GetCPUCount
 )
 ;
 }
+#
+endif
