@@ -1807,6 +1807,7 @@ store
 openPopup
 )
 }
+private
 val
 webExtensionPromptFeature
 by

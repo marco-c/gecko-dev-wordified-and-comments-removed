@@ -240,7 +240,6 @@ sites
 .
 *
 /
-internal
 class
 DefaultTopSitesPresenter
 (
