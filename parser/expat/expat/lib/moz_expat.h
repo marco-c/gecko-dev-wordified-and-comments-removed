@@ -141,8 +141,7 @@ int
 do_nst
 )
 ;
-enum
-XML_Status
+void
 MOZ_XML_SetBase
 (
 XML_Parser
@@ -169,8 +168,7 @@ XML_Parser
 parser
 )
 ;
-enum
-XML_Status
+int
 MOZ_XML_Parse
 (
 XML_Parser
@@ -185,8 +183,7 @@ int
 isFinal
 )
 ;
-enum
-XML_Status
+void
 MOZ_XML_StopParser
 (
 XML_Parser
@@ -195,8 +192,7 @@ int
 resumable
 )
 ;
-enum
-XML_Status
+int
 MOZ_XML_ResumeParser
 (
 XML_Parser
@@ -238,8 +234,7 @@ long
 hash_salt
 )
 ;
-enum
-XML_Error
+int
 MOZ_XML_GetErrorCode
 (
 XML_Parser
