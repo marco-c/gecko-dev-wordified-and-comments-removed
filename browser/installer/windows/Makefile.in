@@ -194,6 +194,12 @@ nsi
 \
 nsis
 /
+uninstaller_helpers
+.
+nsh
+\
+nsis
+/
 stub
 .
 nsi

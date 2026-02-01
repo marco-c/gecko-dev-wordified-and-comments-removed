@@ -697,6 +697,11 @@ include
 shared
 .
 nsh
+!
+include
+uninstaller_helpers
+.
+nsh
 ;
 Helper
 macros
