@@ -1,9 +1,9 @@
 #
 ifndef
-nsUpdateSyncManager_h__
+nsUpdateSyncManager_h_
 #
 define
-nsUpdateSyncManager_h__
+nsUpdateSyncManager_h_
 #
 include
 "

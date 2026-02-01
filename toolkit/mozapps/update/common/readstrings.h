@@ -1,9 +1,9 @@
 #
 ifndef
-READSTRINGS_H__
+READSTRINGS_H_
 #
 define
-READSTRINGS_H__
+READSTRINGS_H_
 #
 include
 "

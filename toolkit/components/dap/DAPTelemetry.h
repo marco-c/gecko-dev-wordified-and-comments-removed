@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_nsIDAPTelemetry_h__
+mozilla_nsIDAPTelemetry_h_
 #
 define
-mozilla_nsIDAPTelemetry_h__
+mozilla_nsIDAPTelemetry_h_
 #
 include
 "

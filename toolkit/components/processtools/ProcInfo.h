@@ -1,9 +1,9 @@
 #
 ifndef
-__mozilla_ProcInfo_h
+_mozilla_ProcInfo_h
 #
 define
-__mozilla_ProcInfo_h
+_mozilla_ProcInfo_h
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-nsUrlClassifierGTestCommon_h__
+nsUrlClassifierGTestCommon_h_
 #
 define
-nsUrlClassifierGTestCommon_h__
+nsUrlClassifierGTestCommon_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-NotificationFactory_h__
+NotificationFactory_h_
 #
 define
-NotificationFactory_h__
+NotificationFactory_h_
 #
 include
 <

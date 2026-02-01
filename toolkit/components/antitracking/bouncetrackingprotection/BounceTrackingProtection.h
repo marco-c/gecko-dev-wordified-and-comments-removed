@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_BounceTrackingProtection_h__
+mozilla_BounceTrackingProtection_h_
 #
 define
-mozilla_BounceTrackingProtection_h__
+mozilla_BounceTrackingProtection_h_
 #
 include
 "

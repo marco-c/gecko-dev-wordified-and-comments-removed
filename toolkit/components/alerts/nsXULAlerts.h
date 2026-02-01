@@ -1,9 +1,9 @@
 #
 ifndef
-nsXULAlerts_h__
+nsXULAlerts_h_
 #
 define
-nsXULAlerts_h__
+nsXULAlerts_h_
 #
 include
 "

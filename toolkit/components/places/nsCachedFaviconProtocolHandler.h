@@ -1,9 +1,9 @@
 #
 ifndef
-nsCachedFaviconProtocolHandler_h___
+nsCachedFaviconProtocolHandler_h_
 #
 define
-nsCachedFaviconProtocolHandler_h___
+nsCachedFaviconProtocolHandler_h_
 #
 include
 "

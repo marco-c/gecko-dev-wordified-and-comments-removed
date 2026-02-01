@@ -1,9 +1,9 @@
 #
 ifndef
-DBusRemoteClient_h__
+DBusRemoteClient_h_
 #
 define
-DBusRemoteClient_h__
+DBusRemoteClient_h_
 #
 ifdef
 MOZ_ENABLE_DBUS

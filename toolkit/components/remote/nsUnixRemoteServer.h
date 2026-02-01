@@ -1,9 +1,9 @@
 #
 ifndef
-__nsUnixRemoteServer_h__
+_nsUnixRemoteServer_h_
 #
 define
-__nsUnixRemoteServer_h__
+_nsUnixRemoteServer_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsSystemAlertsService_h__
+nsSystemAlertsService_h_
 #
 define
-nsSystemAlertsService_h__
+nsSystemAlertsService_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-__nsAutoCompleteController__
+_nsAutoCompleteController_
 #
 define
-__nsAutoCompleteController__
+_nsAutoCompleteController_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mock_Link_h__
+mock_Link_h_
 #
 define
-mock_Link_h__
+mock_Link_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-__nsWinRemoteServer_h__
+_nsWinRemoteServer_h_
 #
 define
-__nsWinRemoteServer_h__
+_nsWinRemoteServer_h_
 #
 include
 "

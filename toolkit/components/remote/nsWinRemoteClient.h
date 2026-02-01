@@ -1,9 +1,9 @@
 #
 ifndef
-nsWinRemoteClient_h__
+nsWinRemoteClient_h_
 #
 define
-nsWinRemoteClient_h__
+nsWinRemoteClient_h_
 #
 include
 "

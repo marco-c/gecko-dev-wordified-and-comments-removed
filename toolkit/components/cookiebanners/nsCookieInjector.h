@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_nsCookieInjector_h__
+mozilla_nsCookieInjector_h_
 #
 define
-mozilla_nsCookieInjector_h__
+mozilla_nsCookieInjector_h_
 #
 include
 "

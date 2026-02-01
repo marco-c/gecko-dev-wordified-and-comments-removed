@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_finalizationwitnessservice_h__
+mozilla_finalizationwitnessservice_h_
 #
 define
-mozilla_finalizationwitnessservice_h__
+mozilla_finalizationwitnessservice_h_
 #
 include
 "

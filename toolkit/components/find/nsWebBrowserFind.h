@@ -1,9 +1,9 @@
 #
 ifndef
-nsWebBrowserFindImpl_h__
+nsWebBrowserFindImpl_h_
 #
 define
-nsWebBrowserFindImpl_h__
+nsWebBrowserFindImpl_h_
 #
 include
 "

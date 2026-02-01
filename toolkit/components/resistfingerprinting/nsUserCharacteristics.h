@@ -1,9 +1,9 @@
 #
 ifndef
-__nsUserCharacteristics_h__
+_nsUserCharacteristics_h_
 #
 define
-__nsUserCharacteristics_h__
+_nsUserCharacteristics_h_
 #
 include
 "

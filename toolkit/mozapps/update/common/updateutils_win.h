@@ -1,9 +1,9 @@
 #
 ifndef
-WINDIRENT_H__
+WINDIRENT_H_
 #
 define
-WINDIRENT_H__
+WINDIRENT_H_
 #
 ifndef
 XP_WIN

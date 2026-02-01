@@ -1,9 +1,9 @@
 #
 ifndef
-TelemetryIPCAccumulator_h__
+TelemetryIPCAccumulator_h_
 #
 define
-TelemetryIPCAccumulator_h__
+TelemetryIPCAccumulator_h_
 #
 include
 "

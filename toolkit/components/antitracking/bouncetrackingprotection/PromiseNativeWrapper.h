@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_PromiseNativeWrapper_h__
+mozilla_PromiseNativeWrapper_h_
 #
 define
-mozilla_PromiseNativeWrapper_h__
+mozilla_PromiseNativeWrapper_h_
 #
 include
 "

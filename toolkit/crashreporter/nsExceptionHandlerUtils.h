@@ -1,9 +1,9 @@
 #
 ifndef
-nsExceptionHandlerUtils_h__
+nsExceptionHandlerUtils_h_
 #
 define
-nsExceptionHandlerUtils_h__
+nsExceptionHandlerUtils_h_
 bool
 SimpleNoCLibDtoA
 (

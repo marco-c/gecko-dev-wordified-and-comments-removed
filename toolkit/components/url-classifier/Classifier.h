@@ -1,9 +1,9 @@
 #
 ifndef
-Classifier_h__
+Classifier_h_
 #
 define
-Classifier_h__
+Classifier_h_
 #
 include
 "

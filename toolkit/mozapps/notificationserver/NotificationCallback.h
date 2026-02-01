@@ -1,9 +1,9 @@
 #
 ifndef
-NotificationCallback_h__
+NotificationCallback_h_
 #
 define
-NotificationCallback_h__
+NotificationCallback_h_
 #
 include
 <

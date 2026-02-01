@@ -1,9 +1,9 @@
 #
 ifndef
-ProcessedStack_h__
+ProcessedStack_h_
 #
 define
-ProcessedStack_h__
+ProcessedStack_h_
 #
 include
 <

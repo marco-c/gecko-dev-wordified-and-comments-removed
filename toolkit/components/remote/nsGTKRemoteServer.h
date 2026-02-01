@@ -1,9 +1,9 @@
 #
 ifndef
-__nsGTKRemoteServer_h__
+_nsGTKRemoteServer_h_
 #
 define
-__nsGTKRemoteServer_h__
+_nsGTKRemoteServer_h_
 #
 include
 <

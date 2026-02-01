@@ -1,9 +1,9 @@
 #
 ifndef
-TelemetryScalar_h__
+TelemetryScalar_h_
 #
 define
-TelemetryScalar_h__
+TelemetryScalar_h_
 #
 include
 <

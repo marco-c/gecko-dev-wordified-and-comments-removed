@@ -1,9 +1,9 @@
 #
 ifndef
-TelemetryEvent_h__
+TelemetryEvent_h_
 #
 define
-TelemetryEvent_h__
+TelemetryEvent_h_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_nsCookieBannerService_h__
+mozilla_nsCookieBannerService_h_
 #
 define
-mozilla_nsCookieBannerService_h__
+mozilla_nsCookieBannerService_h_
 #
 include
 "

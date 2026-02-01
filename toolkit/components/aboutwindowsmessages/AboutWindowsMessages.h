@@ -1,9 +1,9 @@
 #
 ifndef
-__AboutWindowsMessages_h__
+AboutWindowsMessages_h_
 #
 define
-__AboutWindowsMessages_h__
+AboutWindowsMessages_h_
 #
 include
 "

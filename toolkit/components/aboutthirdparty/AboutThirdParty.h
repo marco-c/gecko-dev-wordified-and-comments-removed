@@ -1,9 +1,9 @@
 #
 ifndef
-__AboutThirdParty_h__
+AboutThirdParty_h_
 #
 define
-__AboutThirdParty_h__
+AboutThirdParty_h_
 #
 include
 "

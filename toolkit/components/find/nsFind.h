@@ -1,9 +1,9 @@
 #
 ifndef
-nsFind_h__
+nsFind_h_
 #
 define
-nsFind_h__
+nsFind_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-ProtocolParser_h__
+ProtocolParser_h_
 #
 define
-ProtocolParser_h__
+ProtocolParser_h_
 #
 include
 "

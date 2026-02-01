@@ -1,9 +1,9 @@
 #
 ifndef
-telemetry_UntrustedModules_h__
+telemetry_UntrustedModules_h_
 #
 define
-telemetry_UntrustedModules_h__
+telemetry_UntrustedModules_h_
 #
 include
 "

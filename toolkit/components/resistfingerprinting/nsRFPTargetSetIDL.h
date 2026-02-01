@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_RFPTargetSetIDL_h__
+mozilla_RFPTargetSetIDL_h_
 #
 define
-mozilla_RFPTargetSetIDL_h__
+mozilla_RFPTargetSetIDL_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-TelemetryUserInteraction_h__
+TelemetryUserInteraction_h_
 #
 define
-TelemetryUserInteraction_h__
+TelemetryUserInteraction_h_
 #
 include
 "

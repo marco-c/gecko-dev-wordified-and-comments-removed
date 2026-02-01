@@ -1,9 +1,9 @@
 #
 ifndef
-nsWebBrowser_h__
+nsWebBrowser_h_
 #
 define
-nsWebBrowser_h__
+nsWebBrowser_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-__MsiDatabase_h__
+MsiDatabase_h_
 #
 define
-__MsiDatabase_h__
+MsiDatabase_h_
 #
 include
 "

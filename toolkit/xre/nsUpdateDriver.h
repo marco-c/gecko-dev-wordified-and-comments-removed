@@ -1,9 +1,9 @@
 #
 ifndef
-nsUpdateDriver_h__
+nsUpdateDriver_h_
 #
 define
-nsUpdateDriver_h__
+nsUpdateDriver_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-LlamaRuntimeLinker_h__
+LlamaRuntimeLinker_h_
 #
 define
-LlamaRuntimeLinker_h__
+LlamaRuntimeLinker_h_
 #
 include
 "

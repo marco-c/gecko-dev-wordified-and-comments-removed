@@ -1,9 +1,9 @@
 #
 ifndef
-__nsDialogParamBlock_h
+_nsDialogParamBlock_h
 #
 define
-__nsDialogParamBlock_h
+_nsDialogParamBlock_h
 #
 include
 "

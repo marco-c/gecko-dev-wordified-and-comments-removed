@@ -1,9 +1,9 @@
 #
 ifndef
-HashStore_h__
+HashStore_h_
 #
 define
-HashStore_h__
+HashStore_h_
 #
 include
 "

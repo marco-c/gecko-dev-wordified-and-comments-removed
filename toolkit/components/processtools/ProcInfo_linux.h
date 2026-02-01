@@ -1,9 +1,9 @@
 #
 ifndef
-__mozilla_ProcInfo_linux_h
+_mozilla_ProcInfo_linux_h
 #
 define
-__mozilla_ProcInfo_linux_h
+_mozilla_ProcInfo_linux_h
 #
 ifndef
 CPUCLOCK_SCHED

@@ -1,9 +1,9 @@
 #
 ifndef
-ArchiveReader_h__
+ArchiveReader_h_
 #
 define
-ArchiveReader_h__
+ArchiveReader_h_
 #
 include
 <

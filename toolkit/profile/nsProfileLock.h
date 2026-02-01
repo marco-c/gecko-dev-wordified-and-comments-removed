@@ -1,9 +1,9 @@
 #
 ifndef
-__nsProfileLock_h___
+_nsProfileLock_h_
 #
 define
-__nsProfileLock_h___
+_nsProfileLock_h_
 #
 include
 "

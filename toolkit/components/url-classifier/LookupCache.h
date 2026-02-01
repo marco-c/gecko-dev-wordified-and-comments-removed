@@ -1,9 +1,9 @@
 #
 ifndef
-LookupCache_h__
+LookupCache_h_
 #
 define
-LookupCache_h__
+LookupCache_h_
 #
 include
 "

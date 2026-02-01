@@ -1,9 +1,9 @@
 #
 ifndef
-__nsAutoCompleteSimpleResult__
+_nsAutoCompleteSimpleResult_
 #
 define
-__nsAutoCompleteSimpleResult__
+_nsAutoCompleteSimpleResult_
 #
 include
 "

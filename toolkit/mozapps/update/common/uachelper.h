@@ -1,9 +1,9 @@
 #
 ifndef
-_UACHELPER_H_
+UACHELPER_H_
 #
 define
-_UACHELPER_H_
+UACHELPER_H_
 #
 include
 <

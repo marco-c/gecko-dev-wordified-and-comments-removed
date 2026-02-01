@@ -1,9 +1,9 @@
 #
 ifndef
-ExtraFileParser_h__
+ExtraFileParser_h_
 #
 define
-ExtraFileParser_h__
+ExtraFileParser_h_
 #
 include
 "

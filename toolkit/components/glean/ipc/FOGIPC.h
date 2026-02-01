@@ -1,9 +1,9 @@
 #
 ifndef
-FOGIPC_h__
+FOGIPC_h_
 #
 define
-FOGIPC_h__
+FOGIPC_h_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-_nsXREDirProvider_h__
+_nsXREDirProvider_h_
 #
 define
-_nsXREDirProvider_h__
+_nsXREDirProvider_h_
 #
 include
 "

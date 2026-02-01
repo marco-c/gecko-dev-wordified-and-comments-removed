@@ -1,9 +1,9 @@
 #
 ifndef
-nsUpdateMutex_h__
+nsUpdateMutex_h_
 #
 define
-nsUpdateMutex_h__
+nsUpdateMutex_h_
 #
 include
 "

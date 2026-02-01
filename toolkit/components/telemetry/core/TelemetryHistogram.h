@@ -1,9 +1,9 @@
 #
 ifndef
-TelemetryHistogram_h__
+TelemetryHistogram_h_
 #
 define
-TelemetryHistogram_h__
+TelemetryHistogram_h_
 #
 include
 "

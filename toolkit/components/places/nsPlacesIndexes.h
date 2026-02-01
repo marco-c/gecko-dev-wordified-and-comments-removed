@@ -1,9 +1,9 @@
 #
 ifndef
-nsPlacesIndexes_h__
+nsPlacesIndexes_h_
 #
 define
-nsPlacesIndexes_h__
+nsPlacesIndexes_h_
 #
 define
 CREATE_PLACES_IDX

@@ -1,9 +1,9 @@
 #
 ifndef
-__nsFormFillController__
+_nsFormFillController_
 #
 define
-__nsFormFillController__
+_nsFormFillController_
 #
 include
 "

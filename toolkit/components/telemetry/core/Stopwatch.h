@@ -1,9 +1,9 @@
 #
 ifndef
-Stopwatch_h__
+Stopwatch_h_
 #
 define
-Stopwatch_h__
+Stopwatch_h_
 #
 include
 "

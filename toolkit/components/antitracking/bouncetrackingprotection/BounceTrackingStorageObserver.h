@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_BounceTrackingStorageObserver_h__
+mozilla_BounceTrackingStorageObserver_h_
 #
 define
-mozilla_BounceTrackingStorageObserver_h__
+mozilla_BounceTrackingStorageObserver_h_
 #
 include
 "

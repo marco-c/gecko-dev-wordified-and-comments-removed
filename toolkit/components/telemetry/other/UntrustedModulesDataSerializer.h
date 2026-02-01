@@ -1,9 +1,9 @@
 #
 ifndef
-UntrustedModulesDataSerializer_h__
+UntrustedModulesDataSerializer_h_
 #
 define
-UntrustedModulesDataSerializer_h__
+UntrustedModulesDataSerializer_h_
 #
 include
 "

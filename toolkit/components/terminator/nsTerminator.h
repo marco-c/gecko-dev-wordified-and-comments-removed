@@ -1,9 +1,9 @@
 #
 ifndef
-nsTerminator_h__
+nsTerminator_h_
 #
 define
-nsTerminator_h__
+nsTerminator_h_
 #
 include
 "

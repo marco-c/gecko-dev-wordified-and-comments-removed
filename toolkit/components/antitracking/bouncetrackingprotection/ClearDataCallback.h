@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_ClearDataCallback_h__
+mozilla_ClearDataCallback_h_
 #
 define
-mozilla_ClearDataCallback_h__
+mozilla_ClearDataCallback_h_
 #
 include
 "
