@@ -231,6 +231,9 @@ mock
 mock
 (
 )
+mock
+(
+)
 )
 val
 result
@@ -318,6 +321,9 @@ geckoDelegate
 GeckoServiceWorkerDelegate
 (
 delegate
+mock
+(
+)
 mock
 (
 )
