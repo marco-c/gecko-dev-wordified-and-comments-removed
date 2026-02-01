@@ -212,7 +212,7 @@ aModType
 )
 ;
 }
-eMathMLFrameType
+MathMLFrameType
 nsMathMLmrowFrame
 :
 :

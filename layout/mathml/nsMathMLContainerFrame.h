@@ -602,7 +602,7 @@ aReflowOutput
 nsBoundingMetrics
 &
 aBoundingMetrics
-eMathMLFrameType
+MathMLFrameType
 *
 aMathMLFrameType
 =

@@ -148,7 +148,7 @@ mozilla
 :
 gfx
 ;
-eMathMLFrameType
+MathMLFrameType
 nsMathMLFrame
 :
 :
@@ -189,7 +189,10 @@ baseFrame
 ;
 }
 return
-eMathMLFrameType_Ordinary
+MathMLFrameType
+:
+:
+Ordinary
 ;
 }
 NS_IMETHODIMP

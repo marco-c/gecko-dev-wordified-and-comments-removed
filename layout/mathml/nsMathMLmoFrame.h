@@ -54,7 +54,7 @@ ComputedStyle
 aStyle
 )
 ;
-eMathMLFrameType
+MathMLFrameType
 GetMathMLFrameType
 (
 )

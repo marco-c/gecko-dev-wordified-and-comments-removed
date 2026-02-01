@@ -186,7 +186,7 @@ char16_t
 0x2064
 )
 ;
-eMathMLFrameType
+MathMLFrameType
 nsMathMLmoFrame
 :
 :
@@ -200,9 +200,15 @@ NS_MATHML_OPERATOR_IS_INVISIBLE
 mFlags
 )
 ?
-eMathMLFrameType_OperatorInvisible
+MathMLFrameType
 :
-eMathMLFrameType_OperatorOrdinary
+:
+OperatorInvisible
+:
+MathMLFrameType
+:
+:
+OperatorOrdinary
 ;
 }
 bool

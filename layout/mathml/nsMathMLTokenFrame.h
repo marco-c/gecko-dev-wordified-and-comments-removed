@@ -90,7 +90,7 @@ aParent
 )
 override
 ;
-eMathMLFrameType
+MathMLFrameType
 GetMathMLFrameType
 (
 )

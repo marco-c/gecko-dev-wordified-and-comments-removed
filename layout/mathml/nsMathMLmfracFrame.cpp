@@ -173,7 +173,7 @@ nsMathMLmfracFrame
 =
 default
 ;
-eMathMLFrameType
+MathMLFrameType
 nsMathMLmfracFrame
 :
 :
@@ -182,7 +182,10 @@ GetMathMLFrameType
 )
 {
 return
-eMathMLFrameType_Inner
+MathMLFrameType
+:
+:
+Inner
 ;
 }
 uint8_t

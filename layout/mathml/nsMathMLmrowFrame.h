@@ -81,7 +81,7 @@ TransmitAutomaticDataForMrowLikeElement
 )
 ;
 }
-eMathMLFrameType
+MathMLFrameType
 GetMathMLFrameType
 (
 )
