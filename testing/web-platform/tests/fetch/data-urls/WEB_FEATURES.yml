@@ -3,7 +3,9 @@ features
 -
 name
 :
-fetch
+data
+-
+urls
 files
 :
 "
