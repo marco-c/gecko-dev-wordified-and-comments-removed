@@ -50,7 +50,7 @@ U_ICU_VERSION_MAJOR_NUM
 #
 define
 U_ICU_VERSION_MINOR_NUM
-1
+2
 #
 define
 U_ICU_VERSION_PATCHLEVEL_NUM
@@ -227,7 +227,7 @@ U_ICU_VERSION
 "
 78
 .
-1
+2
 "
 #
 define
@@ -244,7 +244,7 @@ U_ICU_DATA_VERSION
 "
 78
 .
-1
+2
 "
 #
 endif

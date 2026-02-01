@@ -28,7 +28,7 @@ for
 ICU
 78
 .
-1
+2
 .
 #
 #
@@ -4915,7 +4915,7 @@ PACKAGE_VERSION
 '
 78
 .
-1
+2
 '
 PACKAGE_STRING
 =
@@ -4923,7 +4923,7 @@ PACKAGE_STRING
 ICU
 78
 .
-1
+2
 '
 PACKAGE_BUGREPORT
 =
@@ -11133,7 +11133,7 @@ configures
 ICU
 78
 .
-1
+2
 to
 adapt
 to
@@ -11768,7 +11768,7 @@ of
 ICU
 78
 .
-1
+2
 :
 "
 ;
@@ -13030,7 +13030,7 @@ ICU
 configure
 78
 .
-1
+2
 generated
 by
 GNU
@@ -17063,7 +17063,7 @@ ICU
 as_me
 78
 .
-1
+2
 which
 was
 generated
@@ -65415,7 +65415,7 @@ ICU
 as_me
 78
 .
-1
+2
 which
 was
 generated
@@ -65778,7 +65778,7 @@ config
 status
 78
 .
-1
+2
 configured
 by
 0

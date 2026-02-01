@@ -4469,6 +4469,8 @@ s2
 template
 <
 typename
+US
+typename
 S
 typename
 =
@@ -4481,6 +4483,16 @@ ConvertibleToU16StringView
 <
 S
 >
+&
+&
+std
+:
+:
+is_same_v
+<
+US
+UnicodeString
+>
 >
 >
 inline
@@ -4489,7 +4501,7 @@ operator
 +
 (
 const
-UnicodeString
+US
 &
 s1
 const
