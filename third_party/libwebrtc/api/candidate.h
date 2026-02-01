@@ -891,6 +891,17 @@ true
 )
 ;
 }
+std
+:
+:
+string
+ToCandidateAttribute
+(
+bool
+include_ufrag
+)
+const
+;
 uint32_t
 GetPriority
 (

@@ -1102,6 +1102,14 @@ logging
 /
 rtc_base
 :
+net_helper
+"
+"
+.
+.
+/
+rtc_base
+:
 network_constants
 "
 "
