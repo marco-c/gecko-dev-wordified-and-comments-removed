@@ -68,7 +68,7 @@ window
 label
 =
 New
-Smart
+AI
 window
 appmenuitem
 -
@@ -98,7 +98,7 @@ window
 label
 =
 New
-Smart
+AI
 Window
 menu
 -
@@ -141,7 +141,7 @@ Recent
 Chats
 #
 #
-Smart
+AI
 Window
 Toggle
 Button
@@ -158,14 +158,14 @@ toggle
 .
 label
 =
-Smart
+AI
 window
 .
 tooltiptext
 =
 Switch
 between
-Smart
+AI
 and
 Classic
 windows
@@ -198,7 +198,7 @@ ai
 .
 label
 =
-Smart
+AI
 Window
 ai
 -
@@ -244,7 +244,7 @@ label
 -
 active
 =
-Smart
+AI
 Window
 ai
 -
