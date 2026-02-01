@@ -214,7 +214,7 @@ browser
 .
 crashReports
 .
-crashPull
+onDemand
 "
 )
 ;

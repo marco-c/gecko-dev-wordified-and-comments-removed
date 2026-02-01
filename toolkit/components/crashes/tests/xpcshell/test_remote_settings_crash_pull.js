@@ -2388,7 +2388,7 @@ browser
 .
 crashReports
 .
-crashPull
+onDemand
 "
 )
 ;
@@ -2403,7 +2403,7 @@ browser
 .
 crashReports
 .
-crashPull
+onDemand
 "
 false
 )
@@ -2500,7 +2500,7 @@ browser
 .
 crashReports
 .
-crashPull
+onDemand
 "
 originalPref
 )
@@ -2529,7 +2529,7 @@ browser
 .
 crashReports
 .
-crashPull
+onDemand
 "
 )
 ;
@@ -2544,7 +2544,7 @@ browser
 .
 crashReports
 .
-crashPull
+onDemand
 "
 true
 )
@@ -2639,7 +2639,7 @@ browser
 .
 crashReports
 .
-crashPull
+onDemand
 "
 originalPref
 )

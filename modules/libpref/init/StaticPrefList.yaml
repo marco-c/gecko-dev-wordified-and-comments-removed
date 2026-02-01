@@ -8709,7 +8709,9 @@ the
 feature
 of
 crash
-pull
+reports
+on
+demand
 at
 all
 -
@@ -8719,7 +8721,7 @@ browser
 .
 crashReports
 .
-crashPull
+onDemand
 type
 :
 bool
