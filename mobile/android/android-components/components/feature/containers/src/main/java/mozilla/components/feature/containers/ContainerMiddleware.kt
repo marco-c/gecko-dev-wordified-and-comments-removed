@@ -440,11 +440,10 @@ ContainerAction
 .
 RemoveContainerAction
 )
-=
-scope
-.
-launch
 {
+val
+containerToRemove
+=
 store
 .
 state
@@ -455,6 +454,11 @@ action
 .
 contextId
 ]
+scope
+.
+launch
+{
+containerToRemove
 ?
 .
 let
@@ -465,6 +469,7 @@ removeContainer
 (
 it
 )
+}
 }
 }
 /
