@@ -184,6 +184,8 @@ Download
 /
 Installation
 page
+Page
+instfiles
 Function
 CanWrite
 StrCpy
