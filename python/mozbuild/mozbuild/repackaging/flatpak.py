@@ -40,7 +40,7 @@ get_build_variables
 FREEDESKTOP_VERSION
 =
 "
-24
+25
 .
 08
 "
