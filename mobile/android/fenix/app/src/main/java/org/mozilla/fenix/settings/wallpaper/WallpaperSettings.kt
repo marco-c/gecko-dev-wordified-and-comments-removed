@@ -1820,7 +1820,7 @@ layout
 .
 elevation
 .
-medium
+level2
 )
 {
 if
