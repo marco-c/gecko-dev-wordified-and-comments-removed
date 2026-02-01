@@ -941,7 +941,7 @@ mCurrentFrame
 ;
 }
 void
-SetPendingCommet
+SetPendingCommit
 (
 )
 {

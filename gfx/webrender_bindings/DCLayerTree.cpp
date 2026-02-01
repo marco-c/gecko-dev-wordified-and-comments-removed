@@ -12319,7 +12319,7 @@ mRenderTextureHost
 mDCLayerTree
 -
 >
-SetPendingCommet
+SetPendingCommit
 (
 )
 ;
