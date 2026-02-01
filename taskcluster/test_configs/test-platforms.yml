@@ -233,8 +233,6 @@ test
 sets
 :
 -
-awsy
--
 talos
 -
 browsertime
@@ -261,8 +259,6 @@ test
 -
 sets
 :
--
-awsy
 -
 talos
 -
@@ -368,8 +364,6 @@ test
 -
 sets
 :
--
-awsy
 -
 browsertime
 -
