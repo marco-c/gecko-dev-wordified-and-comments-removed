@@ -514,6 +514,9 @@ options
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 PublicKeyCredentialCreationOptionsJSON
 {
@@ -567,15 +570,6 @@ attestation
 "
 none
 "
-;
-sequence
-<
-DOMString
->
-attestationFormats
-=
-[
-]
 ;
 AuthenticationExtensionsClientInputsJSON
 extensions
@@ -652,6 +646,9 @@ options
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 PublicKeyCredentialRequestOptionsJSON
 {

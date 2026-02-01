@@ -625,6 +625,9 @@ nsString
 ]
 Hints
 ;
+nsString
+Json
+;
 }
 ;
 struct
@@ -706,6 +709,9 @@ nsString
 [
 ]
 Hints
+;
+nsString
+Json
 ;
 }
 ;
