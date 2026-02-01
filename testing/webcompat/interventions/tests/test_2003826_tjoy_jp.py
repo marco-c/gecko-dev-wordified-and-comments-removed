@@ -34,6 +34,12 @@ CARD_CSS
 card
 -
 header
+.
+js
+-
+card
+-
+click
 "
 RESERVE_CSS
 =
@@ -44,6 +50,12 @@ schedule
 box
 -
 body
+[
+onclick
+*
+=
+reservation
+]
 "
 ZOOM_WRAPPER_CSS
 =
@@ -105,7 +117,7 @@ click
 (
 )
     
-tomorrows_movie_card
+tomorrows_movie_cards
 =
 client
 .
@@ -115,9 +127,22 @@ CARD_CSS
 is_displayed
 =
 True
+all
+=
+True
 )
     
-tomorrows_movie_card
+for
+elem
+in
+tomorrows_movie_cards
+[
+:
+5
+]
+:
+        
+elem
 .
 click
 (

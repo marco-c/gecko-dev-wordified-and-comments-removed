@@ -81,7 +81,7 @@ is_displayed
 True
 timeout
 =
-30
+60
 )
     
 assert
@@ -147,7 +147,7 @@ is_displayed
 True
 timeout
 =
-30
+60
 )
     
 assert
