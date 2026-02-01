@@ -167,10 +167,6 @@ default
 ;
 protected
 :
-struct
-STAT
-mCachedStat
-;
 nsCString
 mPath
 ;
@@ -219,9 +215,13 @@ nsACString
 aResult
 )
 ;
-bool
-FillStatCache
+nsresult
+StatFile
 (
+struct
+STAT
+*
+statInfo
 )
 ;
 nsresult
