@@ -117,6 +117,13 @@ js
 ]
 [
 "
+browser_aiwindow_token_parsing
+.
+js
+"
+]
+[
+"
 browser_aiwindow_transparency
 .
 js
