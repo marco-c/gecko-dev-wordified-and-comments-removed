@@ -4129,15 +4129,6 @@ remoteTypes
 privilegedabout
 "
 ]
-enablePreference
-:
-"
-browser
-.
-translations
-.
-enable
-"
 }
 ;
 JSWINDOWACTORS
