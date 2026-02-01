@@ -4158,6 +4158,11 @@ network_control
 "
 video_codecs
 :
+scalability_mode
+"
+"
+video_codecs
+:
 video_codecs_api
 "
 ]
