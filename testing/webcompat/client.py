@@ -3635,7 +3635,7 @@ getBackgroundPage
 waitFor
 }
 .
-ready
+allSettled
 (
 )
 "

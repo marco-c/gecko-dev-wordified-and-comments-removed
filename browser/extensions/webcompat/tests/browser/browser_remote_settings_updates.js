@@ -750,7 +750,7 @@ update
 await
 WebCompatExtension
 .
-interventionsReady
+interventionsSettled
 (
 )
 ;
@@ -999,7 +999,7 @@ enabled
 await
 WebCompatExtension
 .
-interventionsReady
+interventionsSettled
 (
 )
 ;
@@ -1052,7 +1052,7 @@ update
 await
 WebCompatExtension
 .
-interventionsReady
+interventionsSettled
 (
 )
 ;
@@ -1299,7 +1299,7 @@ enabled
 await
 WebCompatExtension
 .
-interventionsReady
+interventionsSettled
 (
 )
 ;
@@ -1352,7 +1352,7 @@ update
 await
 WebCompatExtension
 .
-interventionsReady
+interventionsSettled
 (
 )
 ;
