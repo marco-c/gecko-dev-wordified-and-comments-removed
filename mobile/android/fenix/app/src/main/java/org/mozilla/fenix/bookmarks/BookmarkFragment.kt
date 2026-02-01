@@ -880,6 +880,9 @@ lifecycleScope
 )
 BookmarksMiddleware
 (
+lifecycleScope
+=
+lifecycleScope
 bookmarksStorage
 =
 requireContext
