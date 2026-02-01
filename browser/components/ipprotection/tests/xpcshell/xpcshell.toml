@@ -60,13 +60,6 @@ js
 ]
 [
 "
-test_IPPAutoStart
-.
-js
-"
-]
-[
-"
 test_IPPChannelFilter
 .
 js
