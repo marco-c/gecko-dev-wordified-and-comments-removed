@@ -3,7 +3,7 @@ pytest
 from
 support
 .
-helpers
+fixtures
 import
 get_pref
 pytest
