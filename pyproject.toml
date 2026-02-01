@@ -179,7 +179,8 @@ These
 are
 handled
 by
-black
+ruff
+format
 .
 "
 E1

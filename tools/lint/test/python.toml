@@ -15,13 +15,6 @@ py
 ]
 [
 "
-test_black
-.
-py
-"
-]
-[
-"
 test_cargo
 -
 audit

@@ -40,16 +40,6 @@ alabaster
 13
 pypi
 :
-black
-=
-=
-24
-.
-8
-.
-0
-pypi
-:
 codespell
 =
 =
