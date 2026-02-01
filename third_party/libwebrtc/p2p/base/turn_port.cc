@@ -379,15 +379,6 @@ include
 "
 rtc_base
 /
-platform_thread_types
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 socket
 .
 h
@@ -4842,7 +4833,7 @@ flag
 this
 ]
 {
-SignalPortError
+NotifyPortError
 (
 this
 )
