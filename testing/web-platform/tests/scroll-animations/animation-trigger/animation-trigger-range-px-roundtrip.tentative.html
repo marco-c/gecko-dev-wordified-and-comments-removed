@@ -147,6 +147,7 @@ trigger
 new
 TimelineTrigger
 (
+[
 {
 timeline
 :
@@ -182,11 +183,17 @@ rangeEnd
 300px
 "
 }
+]
 )
 ;
 assert_equals
 (
 trigger
+.
+ranges
+[
+0
+]
 .
 rangeStart
 "
@@ -203,6 +210,11 @@ returned
 assert_equals
 (
 trigger
+.
+ranges
+[
+0
+]
 .
 rangeEnd
 "
