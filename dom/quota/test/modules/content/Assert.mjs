@@ -52,16 +52,6 @@ loaded
 into
 .
 /
-*
-eslint
--
-env
-mozilla
-/
-simpletest
-*
-/
-/
 /
 Just
 a
