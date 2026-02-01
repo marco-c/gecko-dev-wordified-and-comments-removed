@@ -1,9 +1,9 @@
 #
 ifndef
-ScreenHelperAndroid_h___
+ScreenHelperAndroid_h_
 #
 define
-ScreenHelperAndroid_h___
+ScreenHelperAndroid_h_
 #
 include
 "

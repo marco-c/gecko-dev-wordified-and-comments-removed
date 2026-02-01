@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_widget_AndroidWidgetUtils_h__
+mozilla_widget_AndroidWidgetUtils_h_
 #
 define
-mozilla_widget_AndroidWidgetUtils_h__
+mozilla_widget_AndroidWidgetUtils_h_
 #
 include
 "

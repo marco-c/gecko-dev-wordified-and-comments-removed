@@ -1,9 +1,9 @@
 #
 ifndef
-nsCUPSShim_h___
+nsCUPSShim_h_
 #
 define
-nsCUPSShim_h___
+nsCUPSShim_h_
 #
 include
 <

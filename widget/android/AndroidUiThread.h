@@ -1,9 +1,9 @@
 #
 ifndef
-AndroidUiThread_h__
+AndroidUiThread_h_
 #
 define
-AndroidUiThread_h__
+AndroidUiThread_h_
 #
 include
 <

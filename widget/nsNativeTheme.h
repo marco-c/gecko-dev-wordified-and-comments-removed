@@ -1,9 +1,9 @@
 #
 ifndef
-_NSNATIVETHEME_H_
+NSNATIVETHEME_H_
 #
 define
-_NSNATIVETHEME_H_
+NSNATIVETHEME_H_
 #
 include
 "

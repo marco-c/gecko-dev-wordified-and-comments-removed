@@ -1,9 +1,9 @@
 #
 ifndef
-nsBaseClipboard_h__
+nsBaseClipboard_h_
 #
 define
-nsBaseClipboard_h__
+nsBaseClipboard_h_
 #
 include
 "

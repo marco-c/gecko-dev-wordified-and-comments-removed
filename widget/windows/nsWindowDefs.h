@@ -1,9 +1,9 @@
 #
 ifndef
-WindowDefs_h__
+WindowDefs_h_
 #
 define
-WindowDefs_h__
+WindowDefs_h_
 #
 include
 "

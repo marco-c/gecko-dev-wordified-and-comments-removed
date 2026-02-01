@@ -1,9 +1,9 @@
 #
 ifndef
-__nsBidiKeyboard
+_nsBidiKeyboard
 #
 define
-__nsBidiKeyboard
+_nsBidiKeyboard
 #
 include
 "

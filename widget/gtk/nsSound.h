@@ -1,9 +1,9 @@
 #
 ifndef
-__nsSound_h__
+_nsSound_h_
 #
 define
-__nsSound_h__
+_nsSound_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-__nsXPLookAndFeel
+_nsXPLookAndFeel
 #
 define
-__nsXPLookAndFeel
+_nsXPLookAndFeel
 #
 include
 "

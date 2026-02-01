@@ -1,9 +1,9 @@
 #
 ifndef
-nsPrinterCUPS_h___
+nsPrinterCUPS_h_
 #
 define
-nsPrinterCUPS_h___
+nsPrinterCUPS_h_
 #
 include
 "

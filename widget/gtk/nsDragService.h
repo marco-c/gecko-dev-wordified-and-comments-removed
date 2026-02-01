@@ -1,9 +1,9 @@
 #
 ifndef
-nsDragService_h__
+nsDragService_h_
 #
 define
-nsDragService_h__
+nsDragService_h_
 #
 include
 "

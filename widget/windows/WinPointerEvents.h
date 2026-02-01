@@ -1,9 +1,9 @@
 #
 ifndef
-WinPointerEvents_h__
+WinPointerEvents_h_
 #
 define
-WinPointerEvents_h__
+WinPointerEvents_h_
 #
 include
 "

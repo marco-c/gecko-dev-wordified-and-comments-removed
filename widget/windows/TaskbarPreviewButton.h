@@ -1,9 +1,9 @@
 #
 ifndef
-__mozilla_widget_TaskbarPreviewButton_h__
+_mozilla_widget_TaskbarPreviewButton_h_
 #
 define
-__mozilla_widget_TaskbarPreviewButton_h__
+_mozilla_widget_TaskbarPreviewButton_h_
 #
 include
 <

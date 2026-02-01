@@ -1,9 +1,9 @@
 #
 ifndef
-nsIWidget_h__
+nsIWidget_h_
 #
 define
-nsIWidget_h__
+nsIWidget_h_
 #
 include
 <

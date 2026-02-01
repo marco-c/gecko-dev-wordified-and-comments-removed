@@ -1,9 +1,9 @@
 #
 ifndef
-MockDragServiceController_h__
+MockDragServiceController_h_
 #
 define
-MockDragServiceController_h__
+MockDragServiceController_h_
 #
 include
 "

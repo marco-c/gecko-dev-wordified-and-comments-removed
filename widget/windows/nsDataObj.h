@@ -1,9 +1,9 @@
 #
 ifndef
-_NSDATAOBJ_H_
+NSDATAOBJ_H_
 #
 define
-_NSDATAOBJ_H_
+NSDATAOBJ_H_
 #
 include
 <

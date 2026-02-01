@@ -1,9 +1,9 @@
 #
 ifndef
-__mozilla_widget_GfxInfoBase_h__
+_mozilla_widget_GfxInfoBase_h_
 #
 define
-__mozilla_widget_GfxInfoBase_h__
+_mozilla_widget_GfxInfoBase_h_
 #
 include
 "

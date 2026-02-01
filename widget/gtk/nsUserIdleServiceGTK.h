@@ -1,9 +1,9 @@
 #
 ifndef
-nsUserIdleServiceGTK_h__
+nsUserIdleServiceGTK_h_
 #
 define
-nsUserIdleServiceGTK_h__
+nsUserIdleServiceGTK_h_
 #
 include
 "

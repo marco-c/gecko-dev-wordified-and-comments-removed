@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_jni_TypeAdapter_h__
+mozilla_jni_TypeAdapter_h_
 #
 define
-mozilla_jni_TypeAdapter_h__
+mozilla_jni_TypeAdapter_h_
 #
 include
 <

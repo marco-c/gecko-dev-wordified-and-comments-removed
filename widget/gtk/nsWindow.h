@@ -1,9 +1,9 @@
 #
 ifndef
-__nsWindow_h__
+_nsWindow_h_
 #
 define
-__nsWindow_h__
+_nsWindow_h_
 #
 include
 <

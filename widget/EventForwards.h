@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_EventForwards_h__
+mozilla_EventForwards_h_
 #
 define
-mozilla_EventForwards_h__
+mozilla_EventForwards_h_
 #
 include
 <

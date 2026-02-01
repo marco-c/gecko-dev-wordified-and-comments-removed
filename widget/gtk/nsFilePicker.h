@@ -1,9 +1,9 @@
 #
 ifndef
-nsFilePicker_h__
+nsFilePicker_h_
 #
 define
-nsFilePicker_h__
+nsFilePicker_h_
 #
 include
 <

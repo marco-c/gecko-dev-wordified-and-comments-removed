@@ -1,9 +1,9 @@
 #
 ifndef
-nsUserIdleServiceAndroid_h__
+nsUserIdleServiceAndroid_h_
 #
 define
-nsUserIdleServiceAndroid_h__
+nsUserIdleServiceAndroid_h_
 #
 include
 "

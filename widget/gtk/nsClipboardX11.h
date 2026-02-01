@@ -1,9 +1,9 @@
 #
 ifndef
-__nsClipboardX11_h_
+_nsClipboardX11_h_
 #
 define
-__nsClipboardX11_h_
+_nsClipboardX11_h_
 #
 include
 <

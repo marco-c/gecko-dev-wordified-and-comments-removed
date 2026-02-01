@@ -1,9 +1,9 @@
 #
 ifndef
-KeyboardLayout_h__
+KeyboardLayout_h_
 #
 define
-KeyboardLayout_h__
+KeyboardLayout_h_
 #
 include
 "

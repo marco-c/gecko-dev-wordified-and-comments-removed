@@ -1,9 +1,9 @@
 #
 ifndef
-nsGtkUtils_h__
+nsGtkUtils_h_
 #
 define
-nsGtkUtils_h__
+nsGtkUtils_h_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-nsAutoRollup_h__
+nsAutoRollup_h_
 #
 define
-nsAutoRollup_h__
+nsAutoRollup_h_
 #
 include
 "

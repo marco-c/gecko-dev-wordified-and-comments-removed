@@ -1,9 +1,9 @@
 #
 ifndef
-__MOZ_WAYLAND_DISPLAY_H__
+MOZ_WAYLAND_DISPLAY_H_
 #
 define
-__MOZ_WAYLAND_DISPLAY_H__
+MOZ_WAYLAND_DISPLAY_H_
 #
 include
 "

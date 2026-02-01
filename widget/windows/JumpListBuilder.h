@@ -1,9 +1,9 @@
 #
 ifndef
-__JumpListBuilder_h__
+JumpListBuilder_h_
 #
 define
-__JumpListBuilder_h__
+JumpListBuilder_h_
 #
 include
 "

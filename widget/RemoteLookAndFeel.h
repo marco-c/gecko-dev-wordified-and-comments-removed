@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_widget_RemoteLookAndFeel_h__
+mozilla_widget_RemoteLookAndFeel_h_
 #
 define
-mozilla_widget_RemoteLookAndFeel_h__
+mozilla_widget_RemoteLookAndFeel_h_
 #
 include
 "

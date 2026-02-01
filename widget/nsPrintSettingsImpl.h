@@ -1,9 +1,9 @@
 #
 ifndef
-nsPrintSettingsImpl_h__
+nsPrintSettingsImpl_h_
 #
 define
-nsPrintSettingsImpl_h__
+nsPrintSettingsImpl_h_
 #
 include
 "

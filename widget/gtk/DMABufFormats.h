@@ -1,9 +1,9 @@
 #
 ifndef
-__MOZ_DMABUF_FORMATS_H__
+MOZ_DMABUF_FORMATS_H_
 #
 define
-__MOZ_DMABUF_FORMATS_H__
+MOZ_DMABUF_FORMATS_H_
 #
 include
 "

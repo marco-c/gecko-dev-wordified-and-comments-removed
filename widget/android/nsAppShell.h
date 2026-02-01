@@ -1,9 +1,9 @@
 #
 ifndef
-nsAppShell_h__
+nsAppShell_h_
 #
 define
-nsAppShell_h__
+nsAppShell_h_
 #
 include
 <

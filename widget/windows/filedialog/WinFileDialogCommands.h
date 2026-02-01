@@ -1,9 +1,9 @@
 #
 ifndef
-widget_windows_filedialog_WinFileDialogCommands_h__
+widget_windows_filedialog_WinFileDialogCommands_h_
 #
 define
-widget_windows_filedialog_WinFileDialogCommands_h__
+widget_windows_filedialog_WinFileDialogCommands_h_
 #
 include
 "

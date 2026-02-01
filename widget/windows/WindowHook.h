@@ -1,9 +1,9 @@
 #
 ifndef
-__mozilla_WindowHook_h__
+_mozilla_WindowHook_h_
 #
 define
-__mozilla_WindowHook_h__
+_mozilla_WindowHook_h_
 #
 include
 <

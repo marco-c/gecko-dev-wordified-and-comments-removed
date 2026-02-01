@@ -1,9 +1,9 @@
 #
 ifndef
-nsToolkit_h__
+nsToolkit_h_
 #
 define
-nsToolkit_h__
+nsToolkit_h_
 #
 include
 "

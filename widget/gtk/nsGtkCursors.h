@@ -1,9 +1,9 @@
 #
 ifndef
-nsGtkCursors_h__
+nsGtkCursors_h_
 #
 define
-nsGtkCursors_h__
+nsGtkCursors_h_
 typedef
 struct
 {

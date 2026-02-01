@@ -1,9 +1,9 @@
 #
 ifndef
-AndroidBridge_h__
+AndroidBridge_h_
 #
 define
-AndroidBridge_h__
+AndroidBridge_h_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-WindowLoggedMessages_h__
+WindowLoggedMessages_h_
 #
 define
-WindowLoggedMessages_h__
+WindowLoggedMessages_h_
 #
 include
 "

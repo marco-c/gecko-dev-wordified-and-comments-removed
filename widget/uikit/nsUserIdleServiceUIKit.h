@@ -1,9 +1,9 @@
 #
 ifndef
-nsUserIdleServiceUIKit_h__
+nsUserIdleServiceUIKit_h_
 #
 define
-nsUserIdleServiceUIKit_h__
+nsUserIdleServiceUIKit_h_
 #
 include
 "

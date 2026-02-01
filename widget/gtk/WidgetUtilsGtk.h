@@ -1,9 +1,9 @@
 #
 ifndef
-WidgetUtilsGtk_h__
+WidgetUtilsGtk_h_
 #
 define
-WidgetUtilsGtk_h__
+WidgetUtilsGtk_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-WindowDbg_h__
+WindowDbg_h_
 #
 define
-WindowDbg_h__
+WindowDbg_h_
 #
 include
 "

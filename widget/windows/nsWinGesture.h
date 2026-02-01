@@ -1,9 +1,9 @@
 #
 ifndef
-WinGesture_h__
+WinGesture_h_
 #
 define
-WinGesture_h__
+WinGesture_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsPaper_h__
+nsPaper_h_
 #
 define
-nsPaper_h__
+nsPaper_h_
 #
 include
 "

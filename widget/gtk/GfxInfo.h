@@ -1,9 +1,9 @@
 #
 ifndef
-WIDGET_GTK_GFXINFO_h__
+WIDGET_GTK_GFXINFO_h_
 #
 define
-WIDGET_GTK_GFXINFO_h__
+WIDGET_GTK_GFXINFO_h_
 #
 include
 "

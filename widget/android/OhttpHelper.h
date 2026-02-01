@@ -1,9 +1,9 @@
 #
 ifndef
-OhttpHelper_h__
+OhttpHelper_h_
 #
 define
-OhttpHelper_h__
+OhttpHelper_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-Base64UtilsSupport_h__
+Base64UtilsSupport_h_
 #
 define
-Base64UtilsSupport_h__
+Base64UtilsSupport_h_
 #
 include
 "

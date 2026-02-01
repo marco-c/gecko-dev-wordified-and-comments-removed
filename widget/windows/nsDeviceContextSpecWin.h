@@ -1,9 +1,9 @@
 #
 ifndef
-nsDeviceContextSpecWin_h___
+nsDeviceContextSpecWin_h_
 #
 define
-nsDeviceContextSpecWin_h___
+nsDeviceContextSpecWin_h_
 #
 include
 "

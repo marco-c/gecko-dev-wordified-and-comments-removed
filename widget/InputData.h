@@ -1,9 +1,9 @@
 #
 ifndef
-InputData_h__
+InputData_h_
 #
 define
-InputData_h__
+InputData_h_
 #
 include
 "

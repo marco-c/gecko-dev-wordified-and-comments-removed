@@ -1,9 +1,9 @@
 #
 ifndef
-nsPrinterListBase_h__
+nsPrinterListBase_h_
 #
 define
-nsPrinterListBase_h__
+nsPrinterListBase_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsApplicationChooser_h__
+nsApplicationChooser_h_
 #
 define
-nsApplicationChooser_h__
+nsApplicationChooser_h_
 #
 include
 <

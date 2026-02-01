@@ -1,9 +1,9 @@
 #
 ifndef
-DBusService_h__
+DBusService_h_
 #
 define
-DBusService_h__
+DBusService_h_
 #
 include
 <

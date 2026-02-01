@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_widget_CompositorWidget_h__
+mozilla_widget_CompositorWidget_h_
 #
 define
-mozilla_widget_CompositorWidget_h__
+mozilla_widget_CompositorWidget_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_widget_nsTextRecognition__
+mozilla_widget_nsTextRecognition_
 #
 define
-mozilla_widget_nsTextRecognition__
+mozilla_widget_nsTextRecognition_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsBaseFilePicker_h__
+nsBaseFilePicker_h_
 #
 define
-nsBaseFilePicker_h__
+nsBaseFilePicker_h_
 #
 include
 "

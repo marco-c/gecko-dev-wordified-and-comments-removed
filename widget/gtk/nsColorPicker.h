@@ -1,9 +1,9 @@
 #
 ifndef
-nsColorPicker_h__
+nsColorPicker_h_
 #
 define
-nsColorPicker_h__
+nsColorPicker_h_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_TouchEvents_h__
+mozilla_TouchEvents_h_
 #
 define
-mozilla_TouchEvents_h__
+mozilla_TouchEvents_h_
 #
 include
 <

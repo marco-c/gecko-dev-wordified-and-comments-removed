@@ -1,9 +1,9 @@
 #
 ifndef
-nsPrintDialog_h__
+nsPrintDialog_h_
 #
 define
-nsPrintDialog_h__
+nsPrintDialog_h_
 #
 include
 "

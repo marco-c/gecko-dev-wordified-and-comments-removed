@@ -1,9 +1,9 @@
 #
 ifndef
-nsUserIdleService_h__
+nsUserIdleService_h_
 #
 define
-nsUserIdleService_h__
+nsUserIdleService_h_
 #
 include
 "

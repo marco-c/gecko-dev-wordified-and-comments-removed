@@ -1,9 +1,9 @@
 #
 ifndef
-IEnumeFE_h__
+IEnumeFE_h_
 #
 define
-IEnumeFE_h__
+IEnumeFE_h_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-ToastNotification_h__
+ToastNotification_h_
 #
 define
-ToastNotification_h__
+ToastNotification_h_
 #
 include
 "
