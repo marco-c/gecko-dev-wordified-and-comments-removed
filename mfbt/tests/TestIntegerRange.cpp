@@ -23,6 +23,13 @@ stddef
 .
 h
 >
+#
+include
+<
+stdint
+.
+h
+>
 using
 mozilla
 :

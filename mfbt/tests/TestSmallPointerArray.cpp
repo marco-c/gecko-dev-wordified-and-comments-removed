@@ -8,6 +8,13 @@ SmallPointerArray
 h
 "
 #
+include
+<
+stdint
+.
+h
+>
+#
 define
 PTR1
 (
