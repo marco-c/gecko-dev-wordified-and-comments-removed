@@ -54,6 +54,14 @@ mozprocess
 4
 .
 0
+mozshellutil
+=
+=
+1
+.
+0
+.
+0
 packaging
 =
 =
