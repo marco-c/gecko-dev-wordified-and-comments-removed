@@ -363,6 +363,13 @@ transform
 "
     
 "
+-
+webkit
+-
+transform
+"
+    
+"
 top
 "
     
@@ -442,43 +449,7 @@ type
 =
 =
 "
-shorthand
-"
-or
-prop
-.
-type
-(
-)
-=
-=
-"
 alias
-"
-:
-        
-return
-True
-    
-if
-prop
-.
-keyword
-and
-prop
-.
-name
-!
-=
-"
--
-moz
--
-osx
--
-font
--
-smoothing
 "
 :
         

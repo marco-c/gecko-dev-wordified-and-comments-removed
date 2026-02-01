@@ -1216,6 +1216,14 @@ already_AddRefed
 <
 CSSValue
 >
+DoGetWebkitTransform
+(
+)
+;
+already_AddRefed
+<
+CSSValue
+>
 DoGetTransformOrigin
 (
 )
