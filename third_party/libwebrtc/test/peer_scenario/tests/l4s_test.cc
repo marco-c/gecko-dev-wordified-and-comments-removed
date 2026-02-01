@@ -3968,7 +3968,7 @@ DataRate
 :
 KilobitsPerSec
 (
-300
+350
 )
 )
 ;
@@ -4082,7 +4082,7 @@ DataRate
 :
 KilobitsPerSec
 (
-350
+600
 )
 )
 ;
@@ -4310,7 +4310,7 @@ DataRate
 :
 KilobitsPerSec
 (
-600
+1400
 )
 )
 ;
