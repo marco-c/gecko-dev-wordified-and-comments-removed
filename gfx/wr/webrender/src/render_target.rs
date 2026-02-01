@@ -5557,6 +5557,8 @@ clip_transform_id
 =
 transforms
 .
+gpu
+.
 get_id
 (
 clip_node
@@ -5909,6 +5911,8 @@ clip_transform_id
 =
 transforms
 .
+gpu
+.
 get_id
 (
 raster_spatial_node_index
@@ -5980,6 +5984,8 @@ prim_transform_id
 =
 transforms
 .
+gpu
+.
 get_id
 (
 prim_spatial_node_index
@@ -6001,6 +6007,8 @@ coordinate_system_id
 {
 transforms
 .
+gpu
+.
 get_id
 (
 clip_node
@@ -6015,6 +6023,8 @@ spatial_tree
 else
 {
 transforms
+.
+gpu
 .
 get_id
 (

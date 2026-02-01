@@ -4295,6 +4295,8 @@ transform_id
 =
 transforms
 .
+gpu
+.
 get_id
 (
 prim_spatial_node_index
@@ -4784,6 +4786,8 @@ raster_clip_rect
 )
 ;
 transforms
+.
+gpu
 .
 get_custom
 (
@@ -6467,6 +6471,8 @@ z_id
 transform_id
 :
 transforms
+.
+gpu
 .
 get_id
 (
@@ -13371,6 +13377,8 @@ clip_transform_id
 =
 transforms
 .
+gpu
+.
 get_id
 (
 clip_node
@@ -13390,6 +13398,8 @@ let
 prim_transform_id
 =
 transforms
+.
+gpu
 .
 get_id
 (
