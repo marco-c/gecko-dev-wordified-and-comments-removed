@@ -33,7 +33,9 @@ algorithm
 #
 include
 "
-jsmath
+builtin
+/
+Math
 .
 h
 "

@@ -150,7 +150,9 @@ h
 #
 include
 "
-jsmath
+builtin
+/
+MapObject
 .
 h
 "
@@ -159,7 +161,7 @@ include
 "
 builtin
 /
-MapObject
+Math
 .
 h
 "

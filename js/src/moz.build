@@ -1981,16 +1981,6 @@ jsfriendapi
 cpp
 "
 ]
-SOURCES
-+
-=
-[
-"
-jsmath
-.
-cpp
-"
-]
 if
 CONFIG
 [
