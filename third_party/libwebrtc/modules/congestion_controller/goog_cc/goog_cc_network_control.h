@@ -697,6 +697,9 @@ PlusInfinity
 double
 pacing_factor_
 ;
+TimeDelta
+pacing_time_window_
+;
 DataRate
 min_total_allocated_bitrate_
 ;
