@@ -433,6 +433,9 @@ class
 ProfileChunkedBuffer
 ;
 class
+ScopedNameRef
+;
+class
 ScrollContainerFrame
 ;
 class
@@ -443,9 +446,6 @@ AutoConnectedAncestorTracker
 ;
 struct
 PointerInfo
-;
-struct
-ScopedNameRef
 ;
 #
 ifdef

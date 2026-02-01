@@ -3865,6 +3865,8 @@ mName
 &
 &
 anchorKey
+.
+mName
 !
 =
 anchorName
@@ -3877,8 +3879,6 @@ nullptr
 ;
 }
 anchorName
-.
-mName
 =
 anchorKey
 ;
