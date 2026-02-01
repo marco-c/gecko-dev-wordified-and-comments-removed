@@ -85,8 +85,7 @@ UniFFIPointer
 >
 Create
 (
-void
-*
+uint64_t
 aPtr
 const
 uniffi
@@ -146,8 +145,7 @@ const
 ;
 UniFFIPointer
 (
-void
-*
+uint64_t
 aPtr
 const
 uniffi
@@ -198,8 +196,7 @@ PrivilegedJunkScope
 )
 ;
 }
-void
-*
+uint64_t
 ClonePtr
 (
 )
@@ -228,8 +225,7 @@ UniFFIPointerType
 *
 mType
 ;
-void
-*
+uint64_t
 mPtr
 ;
 protected

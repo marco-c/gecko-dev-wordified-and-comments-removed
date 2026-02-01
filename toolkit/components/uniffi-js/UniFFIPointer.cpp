@@ -140,8 +140,7 @@ UniFFIPointer
 :
 Create
 (
-void
-*
+uint64_t
 aPtr
 const
 UniFFIPointerType
@@ -318,14 +317,9 @@ return
 nullptr
 ;
 }
-void
-*
+uint64_t
 ptr
 =
-(
-void
-*
-)
 mozilla
 :
 :
@@ -451,8 +445,7 @@ buffer
 )
 )
 ;
-void
-*
+uint64_t
 clone
 =
 ClonePtr
@@ -548,9 +541,6 @@ data_ptr
 Elements
 (
 )
-(
-uint64_t
-)
 clone
 )
 ;
@@ -583,8 +573,7 @@ UniFFIPointer
 :
 UniFFIPointer
 (
-void
-*
+uint64_t
 aPtr
 const
 UniFFIPointerType
@@ -637,8 +626,7 @@ aGivenProto
 )
 ;
 }
-void
-*
+uint64_t
 UniFFIPointer
 :
 :

@@ -157,7 +157,7 @@ UniFFIScaffolding
 .
 callSync
 (
-250
+261
 /
 /
 uniffi_uniffi_bindings_tests_collision_fn_func_invoke_collision_callback
@@ -287,7 +287,7 @@ handleId
 return
 uniffiCallbackHandlerUniffiBindingsTestsCollisionTestCallbackInterface
 .
-getCallbackObj
+takeCallbackObj
 (
 handleId
 )

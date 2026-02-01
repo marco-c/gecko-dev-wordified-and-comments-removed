@@ -70,11 +70,6 @@ ffi_value_class
 {
 private
 :
-bool
-mLowered
-=
-false
-;
 uint64_t
 mValue
 =
@@ -200,10 +195,6 @@ mValue
 =
 intValue
 ;
-mLowered
-=
-true
-;
 }
 void
 Lift
@@ -235,10 +226,6 @@ mValue
 =
 0
 ;
-mLowered
-=
-false
-;
 }
 uint64_t
 IntoRust
@@ -253,10 +240,6 @@ mValue
 mValue
 =
 0
-;
-mLowered
-=
-false
 ;
 return
 handle
@@ -297,9 +280,6 @@ mValue
 !
 =
 0
-&
-&
-mLowered
 )
 {
 {
@@ -316,10 +296,6 @@ mValue
 mValue
 =
 0
-;
-mLowered
-=
-false
 ;
 }
 }

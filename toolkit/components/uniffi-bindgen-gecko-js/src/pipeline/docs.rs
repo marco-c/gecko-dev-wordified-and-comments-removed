@@ -36,15 +36,15 @@ root
 visit_mut
 (
 |
-module
+namespace
 :
 &
 mut
-Module
+Namespace
 |
 {
 if
-module
+namespace
 .
 fixture
 {
@@ -68,7 +68,7 @@ format
 .
 md
 "
-module
+namespace
 .
 name
 )
@@ -83,7 +83,7 @@ format
 .
 sys
 "
-module
+namespace
 .
 js_name
 )
@@ -100,7 +100,7 @@ sys
 .
 mjs
 "
-module
+namespace
 .
 js_name
 )
@@ -118,7 +118,7 @@ vec
 ]
 }
 ;
-module
+namespace
 .
 visit
 (
@@ -274,7 +274,7 @@ _
 }
 )
 ;
-module
+namespace
 .
 visit
 (

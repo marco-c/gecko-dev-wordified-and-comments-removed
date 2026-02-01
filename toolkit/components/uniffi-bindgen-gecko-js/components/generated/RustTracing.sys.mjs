@@ -163,7 +163,7 @@ UniFFIScaffolding
 .
 callSync
 (
-136
+142
 /
 /
 uniffi_tracing_support_fn_func_register_event_sink
@@ -247,7 +247,7 @@ UniFFIScaffolding
 .
 callSync
 (
-137
+143
 /
 /
 uniffi_tracing_support_fn_func_register_min_level_event_sink
@@ -311,7 +311,7 @@ UniFFIScaffolding
 .
 callSync
 (
-138
+144
 /
 /
 uniffi_tracing_support_fn_func_unregister_event_sink
@@ -365,7 +365,7 @@ UniFFIScaffolding
 .
 callSync
 (
-139
+145
 /
 /
 uniffi_tracing_support_fn_func_unregister_min_level_event_sink
@@ -1782,7 +1782,7 @@ handleId
 return
 uniffiCallbackHandlerTracingEventSink
 .
-getCallbackObj
+takeCallbackObj
 (
 handleId
 )

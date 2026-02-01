@@ -1292,7 +1292,7 @@ handleId
 return
 uniffiCallbackHandlerContextIdContextIdCallback
 .
-getCallbackObj
+takeCallbackObj
 (
 handleId
 )

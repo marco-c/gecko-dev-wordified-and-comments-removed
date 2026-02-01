@@ -48,15 +48,13 @@ UniFFIPointerType
 nsLiteralCString
 typeName
 ;
-void
-*
+uint64_t
 (
 *
 clone
 )
 (
-void
-*
+uint64_t
 RustCallStatus
 *
 )
@@ -67,8 +65,7 @@ void
 destructor
 )
 (
-void
-*
+uint64_t
 RustCallStatus
 *
 )

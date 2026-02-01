@@ -14,11 +14,11 @@ pub
 fn
 pass
 (
-module
+namespace
 :
 &
 mut
-Module
+Namespace
 )
 -
 >
@@ -29,9 +29,9 @@ Result
 >
 {
 let
-module_name
+namespace_name
 =
-module
+namespace
 .
 name
 .
@@ -39,7 +39,7 @@ clone
 (
 )
 ;
-module
+namespace
 .
 visit_mut
 (
@@ -168,7 +168,7 @@ default
 }
 )
 ;
-module
+namespace
 .
 visit_mut
 (
@@ -194,7 +194,7 @@ uniffiCallbackHandler
 {
 }
 "
-module_name
+namespace_name
 .
 to_upper_camel_case
 (

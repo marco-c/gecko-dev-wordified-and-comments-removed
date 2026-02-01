@@ -126,7 +126,7 @@ js_handler_var
 }
 }
 .
-getCallbackObj
+takeCallbackObj
 (
 handleId
 )

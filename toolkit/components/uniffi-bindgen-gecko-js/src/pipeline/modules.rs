@@ -42,7 +42,7 @@ FnMut
 (
 &
 mut
-Module
+Namespace
 )
 -
 >
@@ -54,14 +54,14 @@ Result
 {
 move
 |
-module
+namespace
 :
 &
 mut
-Module
+Namespace
 |
 {
-module
+namespace
 .
 config
 =
@@ -70,7 +70,7 @@ config_map
 remove
 (
 &
-module
+namespace
 .
 crate_name
 )
@@ -80,7 +80,7 @@ unwrap_or_default
 )
 ;
 if
-module
+namespace
 .
 name
 .
@@ -91,14 +91,14 @@ uniffi_bindings_tests
 "
 )
 {
-module
+namespace
 .
 fixture
 =
 true
 ;
 }
-module
+namespace
 .
 string_type_node
 =
@@ -132,7 +132,7 @@ default
 let
 config
 =
-module
+namespace
 .
 config
 .
@@ -151,7 +151,7 @@ new
 (
 )
 ;
-module
+namespace
 .
 try_visit_mut
 (
@@ -320,7 +320,7 @@ sort
 (
 )
 ;
-module
+namespace
 .
 imports
 =
@@ -332,7 +332,7 @@ saw_callback_interface
 =
 false
 ;
-module
+namespace
 .
 visit
 (
@@ -347,7 +347,7 @@ saw_callback_interface
 true
 )
 ;
-module
+namespace
 .
 has_callback_interface
 =

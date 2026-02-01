@@ -18,7 +18,7 @@ from
 {
 external
 .
-module_name
+namespace
 }
 }
 .
