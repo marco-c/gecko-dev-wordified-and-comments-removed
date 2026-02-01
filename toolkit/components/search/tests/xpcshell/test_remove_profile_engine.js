@@ -204,7 +204,9 @@ data
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -213,7 +215,9 @@ init
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (
@@ -240,7 +244,9 @@ engine
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 removeEngine
 (

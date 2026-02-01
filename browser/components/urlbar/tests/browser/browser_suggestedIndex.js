@@ -277,7 +277,9 @@ unshift
 (
 (
 await
-SearchService
+Services
+.
+search
 .
 getDefault
 (
@@ -584,7 +586,9 @@ urls
 [
 (
 await
-SearchService
+Services
+.
+search
 .
 getDefault
 (

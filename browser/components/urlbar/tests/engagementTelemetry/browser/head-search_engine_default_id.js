@@ -36,7 +36,9 @@ const
 defaultEngine
 =
 await
-SearchService
+Services
+.
+search
 .
 getDefault
 (
@@ -89,7 +91,9 @@ const
 defaultEngine
 =
 await
-SearchService
+Services
+.
+search
 .
 getDefault
 (
@@ -139,7 +143,9 @@ const
 newEngine
 =
 await
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (
@@ -159,7 +165,9 @@ telemetryId
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 setDefault
 (
@@ -193,7 +201,9 @@ telemetryId
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 setDefault
 (

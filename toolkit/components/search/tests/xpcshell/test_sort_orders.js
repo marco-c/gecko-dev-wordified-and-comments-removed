@@ -214,7 +214,9 @@ type
 expectedOrder
 )
 {
-SearchService
+Services
+.
+search
 .
 wrappedJSObject
 .
@@ -226,7 +228,9 @@ const
 sortedEngines
 =
 await
-SearchService
+Services
+.
+search
 [
 type
 ]
@@ -313,7 +317,9 @@ nonbuiltin1
 }
 )
 ;
-SearchService
+Services
+.
+search
 .
 wrappedJSObject
 .

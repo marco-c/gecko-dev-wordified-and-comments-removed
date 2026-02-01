@@ -40,7 +40,9 @@ let
 engine
 =
 await
-SearchService
+Services
+.
+search
 .
 getDefault
 (
@@ -315,7 +317,9 @@ let
 engine
 =
 await
-SearchService
+Services
+.
+search
 .
 getDefault
 (

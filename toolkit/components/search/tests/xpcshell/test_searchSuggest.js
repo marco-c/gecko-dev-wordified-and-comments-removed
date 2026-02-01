@@ -392,7 +392,9 @@ telemetrySuffix
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -456,7 +458,9 @@ thirdPartyData
 ;
 getEngine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (
@@ -469,7 +473,9 @@ engine
 ;
 postEngine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (
@@ -482,7 +488,9 @@ engine
 ;
 unresolvableEngine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (
@@ -495,7 +503,9 @@ engine
 ;
 alternateJSONEngine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (

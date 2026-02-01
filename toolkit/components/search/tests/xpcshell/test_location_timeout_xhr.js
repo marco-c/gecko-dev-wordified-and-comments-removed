@@ -251,7 +251,9 @@ starting
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (

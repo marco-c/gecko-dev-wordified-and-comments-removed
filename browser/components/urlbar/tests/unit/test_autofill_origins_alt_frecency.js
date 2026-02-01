@@ -453,7 +453,9 @@ recalculateAnyOutdatedFrecencies
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 defaultEngine
 ;
@@ -749,7 +751,9 @@ correctly
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 defaultEngine
 ;
@@ -956,7 +960,9 @@ frecency
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 defaultEngine
 ;

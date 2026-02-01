@@ -626,7 +626,9 @@ false
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (

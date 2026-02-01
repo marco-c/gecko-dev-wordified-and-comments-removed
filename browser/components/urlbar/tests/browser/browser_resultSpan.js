@@ -630,7 +630,9 @@ payload
 {
 engine
 :
-SearchService
+Services
+.
+search
 .
 defaultEngine
 .
@@ -872,7 +874,9 @@ payload
 {
 engine
 :
-SearchService
+Services
+.
+search
 .
 defaultEngine
 .

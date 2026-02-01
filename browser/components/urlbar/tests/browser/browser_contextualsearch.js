@@ -987,7 +987,9 @@ search
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (

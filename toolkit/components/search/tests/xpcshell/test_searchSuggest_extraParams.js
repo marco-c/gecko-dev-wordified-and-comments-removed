@@ -88,7 +88,9 @@ CONFIG
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -108,7 +110,9 @@ test_custom_suggest_param
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (

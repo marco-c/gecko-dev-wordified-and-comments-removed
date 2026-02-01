@@ -224,7 +224,9 @@ UrlbarUtils
 .
 getSearchQueryUrl
 (
-SearchService
+Services
+.
+search
 .
 defaultEngine
 searchString

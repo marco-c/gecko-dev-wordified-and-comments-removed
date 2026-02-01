@@ -219,7 +219,9 @@ searchWithTab
 (
 SEARCH_STRING
 null
-SearchService
+Services
+.
+search
 .
 defaultEngine
 false
@@ -1422,7 +1424,9 @@ searchWithTab
 (
 SEARCH_STRING
 null
-SearchService
+Services
+.
+search
 .
 defaultEngine
 false

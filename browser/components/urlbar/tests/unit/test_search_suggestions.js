@@ -627,7 +627,9 @@ let
 oldDefaultEngine
 =
 await
-SearchService
+Services
+.
+search
 .
 getDefault
 (
@@ -641,7 +643,9 @@ async
 =
 >
 {
-SearchService
+Services
+.
+search
 .
 setDefault
 (
@@ -698,7 +702,9 @@ restore
 }
 )
 ;
-SearchService
+Services
+.
+search
 .
 setDefault
 (
@@ -8505,7 +8511,9 @@ let
 engine
 =
 await
-SearchService
+Services
+.
+search
 .
 getDefault
 (
@@ -9323,7 +9331,9 @@ let
 engine
 =
 await
-SearchService
+Services
+.
+search
 .
 getDefault
 (

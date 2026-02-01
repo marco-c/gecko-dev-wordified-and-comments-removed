@@ -276,7 +276,9 @@ installPersistTestEngines
 ;
 defaultTestEngine
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (

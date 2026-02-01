@@ -383,7 +383,9 @@ suggestion
 i
 engine
 :
-SearchService
+Services
+.
+search
 .
 defaultEngine
 .
@@ -1241,7 +1243,9 @@ suggestion
 newSuggestion
 engine
 :
-SearchService
+Services
+.
+search
 .
 defaultEngine
 .
@@ -1699,7 +1703,9 @@ suggestion
 "
 engine
 :
-SearchService
+Services
+.
+search
 .
 defaultEngine
 .
@@ -1823,7 +1829,9 @@ suggestion
 newSuggestion
 engine
 :
-SearchService
+Services
+.
+search
 .
 defaultEngine
 .
@@ -2325,7 +2333,9 @@ suggestion
 i
 engine
 :
-SearchService
+Services
+.
+search
 .
 defaultEngine
 .
@@ -3367,7 +3377,9 @@ suggestion
 i
 engine
 :
-SearchService
+Services
+.
+search
 .
 defaultEngine
 .

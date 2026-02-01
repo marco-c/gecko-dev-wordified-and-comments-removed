@@ -134,7 +134,9 @@ CONFIG
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -172,7 +174,9 @@ let
 engines
 =
 await
-SearchService
+Services
+.
+search
 .
 getEngines
 (
@@ -213,7 +217,9 @@ engineName
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (

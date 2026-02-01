@@ -89,7 +89,9 @@ addTestSuggestionsEngine
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 setDefault
 (
@@ -104,7 +106,9 @@ CHANGE_REASON_UNKNOWN
 let
 oldCurrentEngine
 =
-SearchService
+Services
+.
+search
 .
 defaultEngine
 ;
@@ -144,7 +148,9 @@ QUICKACTIONS_PREF
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 setDefault
 (

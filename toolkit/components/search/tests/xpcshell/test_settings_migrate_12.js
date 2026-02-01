@@ -290,7 +290,9 @@ CONFIG
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 wrappedJSObject
 .
@@ -321,7 +323,9 @@ true
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -373,7 +377,9 @@ ico
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (
@@ -521,7 +527,9 @@ ico
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (

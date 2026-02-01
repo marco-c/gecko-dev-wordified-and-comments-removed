@@ -401,7 +401,9 @@ true
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -421,7 +423,9 @@ test_icon_migration
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (

@@ -381,7 +381,9 @@ partialConfig
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -421,7 +423,9 @@ engineId
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (

@@ -70,7 +70,9 @@ ALIAS
 ;
 aliasEngine
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (

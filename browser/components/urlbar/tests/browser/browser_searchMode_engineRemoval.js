@@ -56,7 +56,9 @@ true
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (
@@ -66,7 +68,9 @@ Example
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 moveEngine
 (
@@ -164,7 +168,9 @@ true
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (
@@ -174,7 +180,9 @@ Example
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 moveEngine
 (
@@ -333,7 +341,9 @@ true
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (
@@ -343,7 +353,9 @@ Example
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 moveEngine
 (

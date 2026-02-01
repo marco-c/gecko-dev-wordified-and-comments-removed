@@ -22,7 +22,9 @@ promiseAfterSettings
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -73,7 +75,9 @@ let
 engine
 =
 await
-SearchService
+Services
+.
+search
 .
 getEngineByAlias
 (
@@ -101,7 +105,9 @@ alias
 "
 )
 ;
-SearchService
+Services
+.
+search
 .
 wrappedJSObject
 .
@@ -110,7 +116,9 @@ reset
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -119,7 +127,9 @@ init
 engine
 =
 await
-SearchService
+Services
+.
+search
 .
 getEngineByAlias
 (

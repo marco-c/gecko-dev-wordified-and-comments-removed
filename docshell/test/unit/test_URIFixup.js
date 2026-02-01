@@ -748,7 +748,9 @@ setup
 (
 )
 {
-SearchService
+Services
+.
+search
 .
 wrappedJSObject
 .

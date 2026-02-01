@@ -1525,7 +1525,9 @@ tab
 null
 engine
 =
-SearchService
+Services
+.
+search
 .
 defaultEngine
 expectedPersistedSearchTerms

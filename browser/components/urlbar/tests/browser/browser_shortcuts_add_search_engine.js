@@ -944,7 +944,9 @@ rebuild
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 removeEngine
 (
@@ -1347,7 +1349,9 @@ default
 const
 defaultEngine
 =
-SearchService
+Services
+.
+search
 .
 defaultEngine
 ;
@@ -1355,7 +1359,9 @@ const
 engines
 =
 await
-SearchService
+Services
+.
+search
 .
 getVisibleEngines
 (
@@ -1383,7 +1389,9 @@ name
 )
 {
 await
-SearchService
+Services
+.
+search
 .
 removeEngine
 (
@@ -1508,7 +1516,9 @@ hidden
 }
 )
 ;
-SearchService
+Services
+.
+search
 .
 restoreDefaultEngines
 (

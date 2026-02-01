@@ -407,7 +407,9 @@ let
 defaultEngine
 =
 await
-SearchService
+Services
+.
+search
 .
 getDefault
 (

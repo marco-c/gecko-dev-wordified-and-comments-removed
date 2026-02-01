@@ -9398,7 +9398,9 @@ field
 s
 contents
 are
-SearchService
+Services
+.
+search
 .
 defaultEngine
 .
@@ -9413,7 +9415,9 @@ other
 -
 "
 +
-SearchService
+Services
+.
+search
 .
 defaultEngine
 .

@@ -89,7 +89,9 @@ UrlbarUtils
 .
 getSearchQueryUrl
 (
-SearchService
+Services
+.
+search
 .
 defaultEngine
 SEARCH_STRING

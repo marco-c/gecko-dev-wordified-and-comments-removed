@@ -48,7 +48,9 @@ resetEngines
 )
 {
 await
-SearchService
+Services
+.
+search
 .
 setDefault
 (
@@ -61,7 +63,9 @@ CHANGE_REASON_UNKNOWN
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 setDefaultPrivate
 (
@@ -133,7 +137,9 @@ addSearchBar
 originalEngine
 =
 await
-SearchService
+Services
+.
+search
 .
 getDefault
 (
@@ -142,7 +148,9 @@ getDefault
 originalPrivateEngine
 =
 await
-SearchService
+Services
+.
+search
 .
 getDefaultPrivate
 (
@@ -544,7 +552,9 @@ Assert
 .
 equal
 (
-SearchService
+Services
+.
+search
 [
 testPrivate
 ?

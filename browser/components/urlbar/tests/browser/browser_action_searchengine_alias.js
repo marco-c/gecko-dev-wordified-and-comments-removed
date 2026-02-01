@@ -27,7 +27,9 @@ true
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (

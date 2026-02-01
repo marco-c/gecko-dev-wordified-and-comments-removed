@@ -117,7 +117,9 @@ CONFIG
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -173,7 +175,9 @@ test_configEngineSearchform
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (
@@ -226,7 +230,9 @@ test_configEngineNoSearchform
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (
@@ -276,7 +282,9 @@ test_addonEngine
 let
 engine2
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (

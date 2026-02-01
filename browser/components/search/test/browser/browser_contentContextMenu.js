@@ -106,7 +106,9 @@ const
 originalPrivateDefault
 =
 await
-SearchService
+Services
+.
+search
 .
 getDefaultPrivate
 (
@@ -121,7 +123,9 @@ let
 engine
 of
 await
-SearchService
+Services
+.
+search
 .
 getVisibleEngines
 (
@@ -504,7 +508,9 @@ changePrivateDefaultEngine
 )
 {
 await
-SearchService
+Services
+.
+search
 .
 setDefaultPrivate
 (
@@ -863,7 +869,9 @@ changePrivateDefaultEngine
 )
 {
 await
-SearchService
+Services
+.
+search
 .
 setDefaultPrivate
 (

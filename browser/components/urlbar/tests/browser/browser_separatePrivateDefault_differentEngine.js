@@ -205,7 +205,9 @@ xml
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 moveEngine
 (
@@ -234,7 +236,9 @@ alias
 ;
 gAliasEngine
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (
@@ -762,7 +766,9 @@ AssertPrivateResult
 (
 window
 await
-SearchService
+Services
+.
+search
 .
 getDefaultPrivate
 (
@@ -1020,7 +1026,9 @@ let
 engine
 =
 await
-SearchService
+Services
+.
+search
 .
 getDefaultPrivate
 (

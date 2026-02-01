@@ -3366,7 +3366,9 @@ name
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 removeEngine
 (

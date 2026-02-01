@@ -115,7 +115,9 @@ initXPCShellAddonManager
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -174,7 +176,9 @@ promiseAfterSettings
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 wrappedJSObject
 .
@@ -183,7 +187,9 @@ reset
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -196,7 +202,9 @@ const
 engine1
 =
 await
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (
@@ -209,7 +217,9 @@ const
 engine2
 =
 await
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (

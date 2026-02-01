@@ -215,7 +215,9 @@ bad
 ;
 }
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -224,7 +226,9 @@ init
 const
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (
@@ -353,7 +357,9 @@ unique123456
 const
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (
@@ -476,7 +482,9 @@ code
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (
@@ -560,7 +568,9 @@ enableEnterprise
 const
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (

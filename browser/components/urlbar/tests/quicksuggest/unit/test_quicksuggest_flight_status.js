@@ -128,7 +128,9 @@ init
 )
 {
 await
-SearchService
+Services
+.
+search
 .
 init
 (
