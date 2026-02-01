@@ -765,10 +765,20 @@ constexpr
 impl
 :
 :
+QuantityMetric
+unordered_quantity_metric
+(
+29
+)
+;
+constexpr
+impl
+:
+:
 UuidMetric
 uuid_metric
 (
-29
+30
 )
 ;
 }
@@ -963,7 +973,7 @@ impl
 BooleanMetric
 boolean_metric
 (
-30
+31
 )
 ;
 constexpr
@@ -982,7 +992,7 @@ eBaseOrLabeled
 >
 counter_metric
 (
-31
+32
 )
 ;
 constexpr
@@ -992,7 +1002,7 @@ impl
 CustomDistributionMetric
 custom_distribution_metric
 (
-32
+33
 )
 ;
 constexpr
@@ -1009,7 +1019,7 @@ DynamicLabel
 >
 labeled_boolean_metric
 (
-33
+34
 )
 ;
 enum
@@ -1065,7 +1075,7 @@ LabeledBooleanMetricLabelsLabel
 >
 labeled_boolean_metric_labels
 (
-34
+35
 )
 ;
 constexpr
@@ -1091,7 +1101,7 @@ DynamicLabel
 >
 labeled_counter_metric
 (
-35
+36
 )
 ;
 enum
@@ -1132,7 +1142,7 @@ LabeledCounterMetricLabelsLabel
 >
 labeled_counter_metric_labels
 (
-36
+37
 )
 ;
 constexpr
@@ -1149,7 +1159,7 @@ DynamicLabel
 >
 labeled_string_metric
 (
-37
+38
 )
 ;
 enum
@@ -1181,7 +1191,7 @@ LabeledStringMetricLabelsLabel
 >
 labeled_string_metric_labels
 (
-38
+39
 )
 ;
 constexpr
@@ -1191,7 +1201,7 @@ impl
 MemoryDistributionMetric
 memory_distribution_metric
 (
-39
+40
 )
 ;
 constexpr
@@ -1201,7 +1211,7 @@ impl
 StringListMetric
 string_list_metric
 (
-40
+41
 )
 ;
 constexpr
@@ -1211,7 +1221,7 @@ impl
 StringMetric
 string_metric
 (
-41
+42
 )
 ;
 constexpr
@@ -1221,7 +1231,7 @@ impl
 TextMetric
 text_metric
 (
-42
+43
 )
 ;
 constexpr
@@ -1231,7 +1241,7 @@ impl
 TimespanMetric
 timespan_metric
 (
-43
+44
 )
 ;
 constexpr
@@ -1241,7 +1251,7 @@ impl
 TimingDistributionMetric
 timing_distribution_metric
 (
-44
+45
 )
 ;
 constexpr
@@ -1251,7 +1261,7 @@ impl
 BooleanMetric
 unordered_boolean_metric
 (
-45
+46
 )
 ;
 constexpr
@@ -1268,7 +1278,7 @@ DynamicLabel
 >
 unordered_labeled_boolean_metric
 (
-46
+47
 )
 ;
 }
@@ -1318,7 +1328,7 @@ AnObjectObjectTag
 >
 an_object
 (
-47
+48
 )
 ;
 constexpr
@@ -1328,7 +1338,7 @@ impl
 DatetimeMetric
 datetime_metric
 (
-48
+49
 )
 ;
 constexpr
@@ -1341,7 +1351,7 @@ NoExtraKeys
 >
 event_metric
 (
-49
+50
 )
 ;
 struct
@@ -1493,7 +1503,7 @@ EventMetricWithExtraExtra
 >
 event_metric_with_extra
 (
-50
+51
 )
 ;
 constexpr
@@ -1512,7 +1522,7 @@ eBaseOrLabeled
 >
 external_denominator
 (
-51
+52
 )
 ;
 constexpr
@@ -1531,7 +1541,7 @@ eBaseOrLabeled
 >
 optimizable_counter_metric
 (
-52
+53
 )
 ;
 constexpr
@@ -1550,7 +1560,7 @@ eBaseOrLabeled
 >
 optimizable_disabled_counter_metric
 (
-53
+54
 )
 ;
 constexpr
@@ -1560,7 +1570,7 @@ impl
 QuantityMetric
 quantity_metric
 (
-54
+55
 )
 ;
 constexpr
@@ -1570,7 +1580,7 @@ impl
 RateMetric
 rate_metric
 (
-55
+56
 )
 ;
 constexpr
@@ -1580,7 +1590,7 @@ impl
 NumeratorMetric
 rate_with_external_denominator
 (
-56
+57
 )
 ;
 constexpr
@@ -1590,7 +1600,7 @@ impl
 UuidMetric
 uuid_metric
 (
-57
+58
 )
 ;
 }

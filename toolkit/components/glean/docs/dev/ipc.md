@@ -457,6 +457,9 @@ metrics
 Labeled
 Boolean
 metrics
+*
+Quantity
+metrics
 {
 note
 }
