@@ -38,6 +38,17 @@ h
 #
 include
 "
+api
+/
+task_queue
+/
+pending_task_safety_flag
+.
+h
+"
+#
+include
+"
 call
 /
 rtp_demuxer
@@ -770,6 +781,9 @@ SentPacketInfo
 &
 >
 callback_list_sent_packet_
+;
+ScopedTaskSafety
+safety_
 ;
 }
 ;

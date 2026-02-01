@@ -168,6 +168,15 @@ h
 #
 include
 "
+rtc_base
+/
+thread
+.
+h
+"
+#
+include
+"
 test
 /
 create_test_field_trials
@@ -1917,6 +1926,9 @@ encrypted_headers
 )
 ;
 }
+AutoThread
+main_thread
+;
 std
 :
 :
