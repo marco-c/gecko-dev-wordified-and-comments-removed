@@ -12962,6 +12962,24 @@ vxworks
 "
                 
 "
+loongarch32
+-
+unknown
+-
+none
+"
+                
+"
+loongarch32
+-
+unknown
+-
+none
+-
+softfloat
+"
+                
+"
 loongarch64
 -
 unknown
@@ -14115,6 +14133,14 @@ x86_64
 linux
 -
 android
+"
+                
+"
+x86_64
+-
+lynx
+-
+lynxos178
 "
                 
 "
