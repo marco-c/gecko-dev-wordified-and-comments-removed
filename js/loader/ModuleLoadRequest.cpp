@@ -503,15 +503,6 @@ HasErrorToRethrow
 (
 )
 ;
-MOZ_ASSERT_IF
-(
-hasRethrow
-!
-IsDynamicImport
-(
-)
-)
-;
 MOZ_ASSERT
 (
 IsErrored
