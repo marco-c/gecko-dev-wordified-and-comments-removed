@@ -166,7 +166,7 @@ revert_files
 fi
 patch
 -
-p0
+p3
 -
 i
 mozilla
