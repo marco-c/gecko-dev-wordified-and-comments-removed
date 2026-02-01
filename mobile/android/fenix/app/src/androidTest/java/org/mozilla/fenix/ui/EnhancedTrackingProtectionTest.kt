@@ -873,6 +873,10 @@ firstPage
 url
 )
 {
+waitForPageToLoad
+(
+waitingTimeLong
+)
 }
 .
 openSiteSecuritySheet
@@ -1018,6 +1022,10 @@ trackingPage
 url
 )
 {
+waitForPageToLoad
+(
+waitingTimeLong
+)
 verifyUrl
 (
 trackingPage
