@@ -11263,6 +11263,11 @@ received_rank
 item
 .
 receivedRank
+server_score
+:
+item
+.
+serverScore
 recommended_at
 :
 feedResponse

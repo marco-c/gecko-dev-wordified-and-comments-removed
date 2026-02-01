@@ -21921,6 +21921,11 @@ publisher
 section
 publisher
 "
+serverScore
+:
+0
+.
+9
 receivedRank
 :
 1
@@ -22153,6 +22158,11 @@ publisher
 section
 publisher
 "
+server_score
+:
+0
+.
+9
 raw_image_src
 :
 "
