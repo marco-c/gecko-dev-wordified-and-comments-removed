@@ -5378,8 +5378,9 @@ init
 void
 format
 (
+const
 SimInstruction
-*
+&
 instr
 const
 char
@@ -5478,8 +5479,9 @@ loadLinkedW
 (
 uint64_t
 addr
+const
 SimInstruction
-*
+&
 instr
 )
 ;
@@ -5491,8 +5493,9 @@ uint64_t
 addr
 int32_t
 value
+const
 SimInstruction
-*
+&
 instr
 )
 ;
@@ -5502,8 +5505,9 @@ loadLinkedD
 (
 uint64_t
 addr
+const
 SimInstruction
-*
+&
 instr
 )
 ;
@@ -5515,8 +5519,9 @@ uint64_t
 addr
 int64_t
 value
+const
 SimInstruction
-*
+&
 instr
 )
 ;
@@ -5556,8 +5561,9 @@ code
 bool
 isStopInstruction
 (
+const
 SimInstruction
-*
+&
 instr
 )
 ;
@@ -5599,7 +5605,7 @@ code
 struct
 Breakpoint
 {
-SimInstruction
+Instruction
 *
 location
 ;
@@ -5620,9 +5626,10 @@ breakpoints_
 void
 SetBreakpoint
 (
+const
 SimInstruction
-*
-breakpoint
+&
+location
 bool
 is_tbreak
 )
