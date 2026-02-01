@@ -431,13 +431,6 @@ js
 "
 intl
 /
-DisplayNames
-.
-js
-"
-"
-intl
-/
 DurationFormat
 .
 js

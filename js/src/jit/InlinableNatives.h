@@ -394,11 +394,6 @@ IntlGuardToDateTimeFormat
 \
 _
 (
-IntlGuardToDisplayNames
-)
-\
-_
-(
 IntlGuardToDurationFormat
 )
 \
