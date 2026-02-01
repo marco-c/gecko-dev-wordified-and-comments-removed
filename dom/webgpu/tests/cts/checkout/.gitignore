@@ -53,6 +53,14 @@ docs
 tsdoc
 /
 #
+pnpm
+lockfile
+pnpm
+-
+lock
+.
+yaml
+#
 Cache
 files
 /
