@@ -169,8 +169,14 @@ boolean
 mockedValues
 ?
 :
-{
-}
+Record
+<
+string
+Iterable
+<
+number
+>
+>
 ;
 }
 interface
