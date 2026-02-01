@@ -4604,6 +4604,15 @@ SdpType
 :
 :
 kAnswer
+|
+|
+sdp_type
+=
+=
+SdpType
+:
+:
+kPrAnswer
 )
 {
 negotiated_header_extensions_
