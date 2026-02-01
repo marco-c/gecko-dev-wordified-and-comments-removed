@@ -31,16 +31,6 @@ tables
 .
 h
 "
-#
-ifdef
-__cplusplus
-extern
-"
-C
-"
-{
-#
-endif
 const
 opus_int16
 silk_stereo_pred_quant_Q13
@@ -432,9 +422,3 @@ TRANSITION_NA
 }
 }
 ;
-#
-ifdef
-__cplusplus
-}
-#
-endif

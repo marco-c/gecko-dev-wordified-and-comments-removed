@@ -17,16 +17,6 @@ tables
 .
 h
 "
-#
-ifdef
-__cplusplus
-extern
-"
-C
-"
-{
-#
-endif
 const
 opus_uint8
 silk_gain_iCDF
@@ -127,9 +117,3 @@ MIN_DELTA_GAIN_QUANT
 0
 }
 ;
-#
-ifdef
-__cplusplus
-}
-#
-endif

@@ -88,7 +88,7 @@ _M_IX86_FP
 #
 include
 <
-xmmintrin
+intrin
 .
 h
 >

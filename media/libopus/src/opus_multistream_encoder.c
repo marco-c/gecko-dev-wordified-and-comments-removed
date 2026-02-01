@@ -4369,7 +4369,7 @@ bitrate
 =
 nb_normal
 *
-300000
+750000
 +
 nb_lfe
 *
@@ -4705,7 +4705,7 @@ total_rate
 =
 nb_channels
 *
-320000
+750000
 ;
 }
 else
@@ -4896,6 +4896,21 @@ rate_sum
 ;
 }
 #
+ifdef
+ENABLE_QEXT
+#
+define
+MS_FRAME_TMP
+(
+6
+*
+QEXT_PACKET_SIZE_CAP
++
+12
+)
+#
+else
+#
 define
 MS_FRAME_TMP
 (
@@ -4905,6 +4920,8 @@ MS_FRAME_TMP
 +
 12
 )
+#
+endif
 int
 opus_multistream_encode_native
 (
@@ -6750,7 +6767,7 @@ value
 =
 IMIN
 (
-300000
+750000
 *
 st
 -

@@ -96,7 +96,7 @@ S_MUL
 a
 b
 )
-MULT32_32_P31
+MULT32_32_P31_ovflw
 (
 b
 a
@@ -108,7 +108,7 @@ S_MUL2
 a
 b
 )
-MULT32_32_P31
+MULT32_32_P31_ovflw
 (
 b
 a
