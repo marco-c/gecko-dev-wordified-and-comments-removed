@@ -1,0 +1,10 @@
+[
+console_scripts
+]
+cookiecutter
+=
+cookiecutter
+.
+__main__
+:
+main
