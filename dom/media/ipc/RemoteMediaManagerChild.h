@@ -306,8 +306,10 @@ aConfig
 )
 ;
 static
+nsCOMPtr
+<
 nsISerialEventTarget
-*
+>
 GetManagerThread
 (
 )
