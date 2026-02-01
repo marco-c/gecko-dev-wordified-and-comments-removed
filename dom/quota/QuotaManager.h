@@ -2852,6 +2852,14 @@ InvalidateQuotaCache
 (
 )
 ;
+OriginMetadataArray
+GetTemporaryOrigins
+(
+PersistenceType
+aPersistenceType
+)
+const
+;
 private
 :
 virtual
