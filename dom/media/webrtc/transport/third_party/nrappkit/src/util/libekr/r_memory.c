@@ -33,6 +33,9 @@ r_memory
 .
 h
 "
+#
+ifndef
+NO_MALLOC_REPLACE
 typedef
 struct
 r_malloc_chunk_
@@ -359,6 +362,8 @@ chunk
 )
 ;
 }
+#
+endif
 char
 *
 r_strdup
@@ -403,9 +408,8 @@ if
 (
 nstr
 =
-r_malloc
+RMALLOC
 (
-0
 len
 )
 )
