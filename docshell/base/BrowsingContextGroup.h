@@ -236,6 +236,17 @@ nsACString
 aRemoteType
 )
 ;
+bool
+IsKnownForMessageReader
+(
+IPC
+:
+:
+MessageReader
+*
+aReader
+)
+;
 void
 AddKeepAlive
 (
