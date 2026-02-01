@@ -3263,9 +3263,10 @@ selectors
 :
             
 return
+self
+.
 elements_by_selector
 (
-self
 selectors
 [
 0
