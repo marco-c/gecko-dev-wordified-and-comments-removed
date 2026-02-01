@@ -536,14 +536,6 @@ using
 testing
 :
 :
-Invoke
-;
-using
-:
-:
-testing
-:
-:
 NiceMock
 ;
 using
@@ -3749,8 +3741,6 @@ _
 .
 WillOnce
 (
-Invoke
-(
 [
 ]
 (
@@ -3805,7 +3795,6 @@ return
 img
 ;
 }
-)
 )
 ;
 EXPECT_EQ

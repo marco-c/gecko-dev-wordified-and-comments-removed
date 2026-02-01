@@ -827,14 +827,6 @@ using
 testing
 :
 :
-Invoke
-;
-using
-:
-:
-testing
-:
-:
 Return
 ;
 namespace
@@ -2341,8 +2333,6 @@ GetParameters
 .
 WillRepeatedly
 (
-Invoke
-(
 [
 s
 =
@@ -2365,7 +2355,6 @@ GetParametersInternal
 ;
 }
 )
-)
 ;
 EXPECT_CALL
 (
@@ -2377,8 +2366,6 @@ GetParametersInternal
 )
 .
 WillRepeatedly
-(
-Invoke
 (
 [
 ssrc
@@ -2415,7 +2402,6 @@ return
 params
 ;
 }
-)
 )
 ;
 EXPECT_CALL
@@ -2522,8 +2508,6 @@ ssrc
 .
 WillRepeatedly
 (
-Invoke
-(
 [
 ssrc
 ]
@@ -2534,7 +2518,6 @@ return
 ssrc
 ;
 }
-)
 )
 ;
 EXPECT_CALL
@@ -2616,8 +2599,6 @@ GetParameters
 .
 WillRepeatedly
 (
-Invoke
-(
 [
 ssrc
 ]
@@ -2653,7 +2634,6 @@ return
 params
 ;
 }
-)
 )
 ;
 EXPECT_CALL

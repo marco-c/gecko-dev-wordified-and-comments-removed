@@ -86,14 +86,6 @@ using
 testing
 :
 :
-Invoke
-;
-using
-:
-:
-testing
-:
-:
 IsEmpty
 ;
 using
@@ -891,8 +883,6 @@ WithArg
 0
 >
 (
-Invoke
-(
 [
 &
 id
@@ -918,7 +908,6 @@ uint32_t
 )
 ;
 }
-)
 )
 Return
 (

@@ -10,11 +10,6 @@ h
 #
 include
 <
-cstddef
->
-#
-include
-<
 cstdint
 >
 #
@@ -157,14 +152,6 @@ testing
 :
 :
 Eq
-;
-using
-:
-:
-testing
-:
-:
-Invoke
 ;
 using
 :
@@ -1518,8 +1505,6 @@ RequestCallOnNextTick
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 callback
@@ -1550,7 +1535,6 @@ cb
 )
 ;
 }
-)
 )
 ;
 auto

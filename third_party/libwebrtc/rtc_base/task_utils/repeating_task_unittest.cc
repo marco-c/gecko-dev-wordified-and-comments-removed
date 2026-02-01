@@ -161,14 +161,6 @@ using
 testing
 :
 :
-Invoke
-;
-using
-:
-:
-testing
-:
-:
 MockFunction
 ;
 using
@@ -1100,8 +1092,6 @@ Delete
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 done
@@ -1114,7 +1104,6 @@ Set
 )
 ;
 }
-)
 )
 ;
 TaskQueueForTest
@@ -1231,8 +1220,6 @@ Delete
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 done
@@ -1245,7 +1232,6 @@ Set
 )
 ;
 }
-)
 )
 ;
 TaskQueueForTest
@@ -1554,8 +1540,6 @@ Zero
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 ]
@@ -1575,7 +1559,6 @@ PlusInfinity
 )
 ;
 }
-)
 )
 ;
 TaskQueueForTest
@@ -1669,8 +1652,6 @@ Millis
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 ]
@@ -1690,7 +1671,6 @@ PlusInfinity
 )
 ;
 }
-)
 )
 ;
 TaskQueueForTest

@@ -554,14 +554,6 @@ using
 testing
 :
 :
-Invoke
-;
-using
-:
-:
-testing
-:
-:
 IsEmpty
 ;
 using
@@ -9758,8 +9750,6 @@ _
 .
 WillOnce
 (
-Invoke
-(
 [
 ]
 (
@@ -9778,7 +9768,6 @@ return
 0
 ;
 }
-)
 )
 ;
 neteq_

@@ -180,14 +180,6 @@ using
 testing
 :
 :
-Invoke
-;
-using
-:
-:
-testing
-:
-:
 MockFunction
 ;
 using
@@ -857,8 +849,6 @@ _
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 ]
@@ -931,7 +921,6 @@ num_packets
 )
 ;
 }
-)
 )
 ;
 EXPECT_TRUE
@@ -1086,8 +1075,6 @@ _
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 ]
@@ -1161,11 +1148,8 @@ num_packets
 ;
 }
 )
-)
 .
 WillOnce
-(
-Invoke
 (
 [
 &
@@ -1239,7 +1223,6 @@ num_packets
 )
 ;
 }
-)
 )
 ;
 EXPECT_TRUE
