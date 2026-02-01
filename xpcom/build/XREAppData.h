@@ -349,6 +349,9 @@ CharPtr
 sourceURL
 ;
 CharPtr
+sourceRevision
+;
+CharPtr
 updateURL
 ;
 #
@@ -480,6 +483,11 @@ const
 char
 *
 sourceURL
+;
+const
+char
+*
+sourceRevision
 ;
 const
 char
