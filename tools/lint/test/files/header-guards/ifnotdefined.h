@@ -1,0 +1,12 @@
+#
+if
+!
+defined
+(
+FOO
+)
+#
+define
+FOO
+#
+endif

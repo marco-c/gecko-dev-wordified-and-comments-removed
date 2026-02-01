@@ -188,6 +188,13 @@ py
 ]
 [
 "
+test_header_guards
+.
+py
+"
+]
+[
+"
 test_ignorefile
 .
 py
