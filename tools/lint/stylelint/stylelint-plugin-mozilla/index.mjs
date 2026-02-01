@@ -58,14 +58,6 @@ MPL
 .
 *
 /
-/
-*
-eslint
--
-env
-node
-*
-/
 import
 stylelint
 from
