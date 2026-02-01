@@ -425,7 +425,7 @@ if
 gecko_profiler
 :
 :
-can_accept_markers
+current_thread_is_being_profiled_for_markers
 (
 )
 {
@@ -613,7 +613,7 @@ if
 gecko_profiler
 :
 :
-can_accept_markers
+current_thread_is_being_profiled_for_markers
 (
 )
 {
