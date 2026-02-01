@@ -298,17 +298,6 @@ org
 event
 -
 beforematch
-[
-Pref
-=
-"
-dom
-.
-hidden_until_found
-.
-enabled
-"
-]
 attribute
 EventHandler
 onbeforematch
