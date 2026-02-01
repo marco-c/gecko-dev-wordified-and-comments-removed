@@ -17509,7 +17509,7 @@ NS_ERROR_UNKNOWN_SOCKET_TYPE
 error
 =
 "
-unknownSocketType
+clientSocketMisconfiguration
 "
 ;
 break
