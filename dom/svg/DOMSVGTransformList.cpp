@@ -429,7 +429,7 @@ Element
 )
 -
 >
-GetAnimatedTransformList
+GetExistingAnimatedTransformList
 (
 )
 ;
@@ -528,7 +528,7 @@ Element
 )
 -
 >
-GetAnimatedTransformList
+GetExistingAnimatedTransformList
 (
 )
 ;

@@ -1681,7 +1681,7 @@ auto
 *
 transformList
 =
-GetAnimatedTransformList
+GetExistingAnimatedTransformList
 (
 )
 )
@@ -1690,9 +1690,8 @@ GetAnimatedTransformList
 dest
 -
 >
-GetAnimatedTransformList
+GetOrCreateAnimatedTransformList
 (
-DO_ALLOCATE
 )
 =
 *
@@ -3894,9 +3893,8 @@ SVGAnimatedTransformList
 *
 transformList
 =
-GetAnimatedTransformList
+GetOrCreateAnimatedTransformList
 (
-DO_ALLOCATE
 )
 ;
 rv
@@ -4884,7 +4882,7 @@ SVGAnimatedTransformList
 *
 transformList
 =
-GetAnimatedTransformList
+GetExistingAnimatedTransformList
 (
 )
 ;
@@ -7303,7 +7301,7 @@ auto
 *
 transform
 =
-GetAnimatedTransformList
+GetExistingAnimatedTransformList
 (
 )
 ;
@@ -7430,7 +7428,7 @@ auto
 *
 transform
 =
-GetAnimatedTransformList
+GetExistingAnimatedTransformList
 (
 )
 )
@@ -10449,9 +10447,8 @@ newValue
 .
 SetTo
 (
-GetAnimatedTransformList
+GetOrCreateAnimatedTransformList
 (
-DO_ALLOCATE
 )
 -
 >
@@ -10500,7 +10497,7 @@ auto
 *
 animTransformList
 =
-GetAnimatedTransformList
+GetExistingAnimatedTransformList
 (
 )
 ;
@@ -11136,9 +11133,8 @@ aName
 )
 {
 return
-GetAnimatedTransformList
+GetOrCreateAnimatedTransformList
 (
-DO_ALLOCATE
 )
 -
 >
