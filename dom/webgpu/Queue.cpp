@@ -794,15 +794,11 @@ GetChild
 )
 -
 >
-mPendingOnSubmittedWorkDonePromises
-[
+EnqueueOnSubmittedWorkDonePromise
+(
 GetId
 (
 )
-]
-.
-push_back
-(
 promise
 )
 ;
