@@ -250,9 +250,6 @@ private
 class
 State
 ;
-ScopedTaskSafety
-safety_
-;
 scoped_refptr
 <
 State
@@ -272,6 +269,9 @@ void
 )
 >
 callback_
+;
+ScopedTaskSafety
+safety_
 ;
 }
 ;
