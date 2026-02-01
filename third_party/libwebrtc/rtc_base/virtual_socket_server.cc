@@ -2302,7 +2302,7 @@ safety
 >
 socket_
 .
-SignalConnectEvent
+NotifyConnectEvent
 (
 &
 safety
@@ -2643,7 +2643,7 @@ Clear
 socket
 -
 >
-SignalCloseEvent
+NotifyCloseEvent
 (
 socket
 error_to_signal
@@ -4015,7 +4015,7 @@ false
 socket
 -
 >
-SignalCloseEvent
+NotifyCloseEvent
 (
 socket
 0

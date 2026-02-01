@@ -185,7 +185,7 @@ Close
 (
 )
 ;
-SignalCloseEvent
+NotifyCloseEvent
 (
 this
 0

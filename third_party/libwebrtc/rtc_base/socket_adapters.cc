@@ -791,7 +791,7 @@ Close
 (
 )
 ;
-SignalCloseEvent
+NotifyCloseEvent
 (
 this
 0
@@ -863,7 +863,7 @@ Close
 (
 )
 ;
-SignalCloseEvent
+NotifyCloseEvent
 (
 this
 0
@@ -918,7 +918,7 @@ BufferInput
 false
 )
 ;
-SignalConnectEvent
+NotifyConnectEvent
 (
 this
 )

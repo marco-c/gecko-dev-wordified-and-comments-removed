@@ -3719,7 +3719,7 @@ SetError
 error
 )
 ;
-SignalCloseEvent
+NotifyCloseEvent
 (
 this
 error
@@ -5244,7 +5244,7 @@ DisableEvents
 DE_CONNECT
 )
 ;
-SignalConnectEvent
+NotifyConnectEvent
 (
 this
 )
@@ -5336,7 +5336,7 @@ SetEnabledEvents
 0
 )
 ;
-SignalCloseEvent
+NotifyCloseEvent
 (
 this
 err
