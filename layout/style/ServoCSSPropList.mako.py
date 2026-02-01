@@ -472,7 +472,7 @@ prop
     
 if
 "
-Style
+style
 "
 not
 in

@@ -696,7 +696,7 @@ CSS_PROP_LIST_EXCLUDE_INTERNAL
         
 if
 "
-Style
+style
 "
 not
 in

@@ -499,31 +499,33 @@ RULE_VALUES
 {
     
 "
-Style
+style
 "
 :
 STYLE_RULE
     
 "
-Page
+page
 "
 :
 PAGE_RULE
     
 "
-Keyframe
+keyframe
 "
 :
 KEYFRAME_RULE
     
 "
-PositionTry
+position
+-
+try
 "
 :
 POSITION_TRY_RULE
     
 "
-Scope
+scope
 "
 :
 SCOPE_RULE
@@ -531,20 +533,17 @@ SCOPE_RULE
 def
 rule_values_from_arg
 (
-that
+rule_types
 )
 :
     
 if
-isinstance
-(
-that
-int
-)
+not
+rule_types
 :
         
 return
-that
+DEFAULT_RULES
     
 mask
 =
@@ -553,11 +552,7 @@ mask
 for
 rule
 in
-that
-.
-split
-(
-)
+rule_types
 :
         
 mask
@@ -810,10 +805,6 @@ for
 pair
 in
 value
-.
-split
-(
-)
 :
         
 [
@@ -965,10 +956,15 @@ self
 values
 =
 values
-.
-split
+;
+        
+assert
+isinstance
 (
+values
+list
 )
+name
         
 if
 gecko_constant_prefix
@@ -1056,31 +1052,19 @@ self
 .
 extra_gecko_values
 =
-(
 extra_gecko_values
 or
-"
-"
-)
-.
-split
-(
-)
+[
+]
         
 self
 .
 extra_servo_values
 =
-(
 extra_servo_values
 or
-"
-"
-)
-.
-split
-(
-)
+[
+]
         
 self
 .
@@ -1090,8 +1074,8 @@ parse_aliases
 (
 gecko_aliases
 or
-"
-"
+[
+]
 )
         
 self
@@ -1102,8 +1086,8 @@ parse_aliases
 (
 servo_aliases
 or
-"
-"
+[
+]
 )
         
 self
@@ -1496,10 +1480,6 @@ for
 alias
 in
 alias_list
-.
-split
-(
-)
 :
             
 (
@@ -1979,7 +1959,7 @@ None
         
 rule_types_allowed
 =
-DEFAULT_RULES
+None
         
 cast_type
 =
@@ -3702,7 +3682,7 @@ content
         
 rule_types_allowed
 =
-DEFAULT_RULES
+None
         
 aliases
 =
@@ -4908,33 +4888,24 @@ declare_longhand
 self
 style_struct
 name
-engines
+engine
 =
-"
-servo
-gecko
-"
+None
 *
 *
 kwargs
 )
 :
         
-engines
-=
-engines
-.
-split
-(
-)
-        
 if
+engine
+and
 self
 .
 engine
-not
-in
-engines
+!
+=
+engine
 :
             
 return
@@ -5053,12 +5024,9 @@ declare_shorthand
 self
 name
 sub_properties
-engines
+engine
 =
-"
-servo
-gecko
-"
+None
 *
 args
 *
@@ -5067,21 +5035,15 @@ kwargs
 )
 :
         
-engines
-=
-engines
-.
-split
-(
-)
-        
 if
+engine
+and
 self
 .
 engine
-not
-in
-engines
+!
+=
+engine
 :
             
 return
