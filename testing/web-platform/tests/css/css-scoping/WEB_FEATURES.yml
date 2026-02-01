@@ -40,3 +40,16 @@ context
 selector
 .
 html
+-
+name
+:
+scope
+-
+psuedo
+files
+:
+-
+scope
+-
+pseudo
+*
