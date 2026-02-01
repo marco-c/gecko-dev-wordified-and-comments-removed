@@ -233,9 +233,9 @@ ScriptLoadHandler
 bool
 EnsureDecoder
 (
-nsIIncrementalStreamLoader
+nsIChannel
 *
-aLoader
+aChannel
 const
 uint8_t
 *
@@ -258,7 +258,7 @@ true
 return
 TrySetDecoder
 (
-aLoader
+aChannel
 aData
 aDataLength
 aEndOfStream
@@ -268,9 +268,9 @@ aEndOfStream
 bool
 TrySetDecoder
 (
-nsIIncrementalStreamLoader
+nsIChannel
 *
-aLoader
+aChannel
 const
 uint8_t
 *
@@ -292,9 +292,9 @@ sriLength
 nsresult
 EnsureKnownDataType
 (
-nsIIncrementalStreamLoader
+nsIChannel
 *
-aLoader
+aChannel
 )
 ;
 RefPtr
