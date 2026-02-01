@@ -991,12 +991,6 @@ Action
 theme
 :
 Theme
-=
-Theme
-.
-getTheme
-(
-)
 )
 {
 val
