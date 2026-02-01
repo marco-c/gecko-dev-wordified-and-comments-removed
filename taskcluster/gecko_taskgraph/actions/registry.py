@@ -1321,6 +1321,59 @@ base_revision
             
 }
             
+if
+branch
+:
+=
+parameters
+.
+get
+(
+"
+head_ref
+"
+)
+:
+                
+push
+[
+"
+branch
+"
+]
+=
+branch
+            
+if
+(
+base_branch
+:
+=
+parameters
+.
+get
+(
+"
+base_ref
+"
+)
+)
+and
+branch
+!
+=
+base_branch
+:
+                
+push
+[
+"
+base_branch
+"
+]
+=
+base_branch
+            
 action
 =
 {
@@ -1360,6 +1413,23 @@ symbol
 "
 :
 symbol
+            
+}
+            
+filtered_params
+=
+{
+                
+"
+repository_type
+"
+:
+parameters
+[
+"
+repository_type
+"
+]
             
 }
             
@@ -1560,6 +1630,12 @@ push
 "
 :
 push
+                        
+"
+parameters
+"
+:
+filtered_params
                     
 }
                     
