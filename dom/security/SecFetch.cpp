@@ -280,6 +280,12 @@ case
 nsIContentPolicy
 :
 :
+TYPE_INTERNAL_IMAGE_NOTIFICATION
+:
+case
+nsIContentPolicy
+:
+:
 TYPE_IMAGE
 :
 return

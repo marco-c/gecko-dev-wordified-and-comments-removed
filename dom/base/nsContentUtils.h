@@ -9961,6 +9961,12 @@ nsIContentPolicy
 :
 TYPE_INTERNAL_IMAGE_FAVICON
 :
+case
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_IMAGE_NOTIFICATION
+:
 return
 ExtContentPolicy
 :
