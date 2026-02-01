@@ -429,6 +429,14 @@ mockito
 .
 Mockito
 .
+anyBoolean
+import
+org
+.
+mockito
+.
+Mockito
+.
 atLeast
 import
 org
@@ -1725,6 +1733,7 @@ mozilla
 .
 org
 "
+false
 )
 }
 Test
@@ -1782,6 +1791,9 @@ any
 (
 )
 any
+(
+)
+anyBoolean
 (
 )
 )
@@ -1895,6 +1907,9 @@ any
 (
 )
 any
+(
+)
+anyBoolean
 (
 )
 )
