@@ -151,7 +151,7 @@ service
 .
 fxrelay
 .
-FxRelay
+RelayAccountDetails
 import
 mozilla
 .
@@ -161,7 +161,7 @@ service
 .
 fxrelay
 .
-RelayAccountDetails
+createFxRelay
 import
 mozilla
 .
@@ -461,7 +461,7 @@ Result
 RelayAccountDetails
 >
 =
-FxRelay
+createFxRelay
 (
 account
 )

@@ -341,7 +341,7 @@ service
 .
 fxrelay
 .
-FxRelay
+createFxRelay
 import
 mozilla
 .
@@ -1043,7 +1043,7 @@ launch
 val
 addressList
 =
-FxRelay
+createFxRelay
 (
 account
 )
