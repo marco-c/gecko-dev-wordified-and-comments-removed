@@ -1150,6 +1150,8 @@ OutputManager
 aOutput
 bool
 aUseLineBreaker
+bool
+aAllowBonusWidth
 nsPlainTextSerializer
 *
 aSerializer
