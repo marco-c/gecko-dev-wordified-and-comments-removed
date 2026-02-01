@@ -2322,6 +2322,12 @@ nsIFile
 >
 mCurrentFile
 ;
+nsCOMPtr
+<
+nsISerialEventTarget
+>
+mAsyncTarget
+;
 PRTime
 mUserPrefsFileLastModifiedAtStartup
 =
