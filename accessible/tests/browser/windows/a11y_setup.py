@@ -550,7 +550,7 @@ CoCreateInstance
     
 uiaMod
 .
-CUIAutomation
+CUIAutomation8
 .
 _reg_clsid_
     
@@ -558,7 +558,7 @@ interface
 =
 uiaMod
 .
-IUIAutomation
+IUIAutomation5
     
 clsctx
 =
@@ -2082,6 +2082,10 @@ IUIAutomationPropertyChangedEventHandler
 uiaMod
 .
 IUIAutomationEventHandler
+        
+uiaMod
+.
+IUIAutomationNotificationEventHandler
     
 ]
     
@@ -2217,6 +2221,36 @@ AddFocusChangedEventHandler
 (
 None
 self
+)
+        
+elif
+eventId
+=
+=
+uiaMod
+.
+UIA_NotificationEventId
+:
+            
+uiaClient
+.
+AddNotificationEventHandler
+(
+                
+uiaClient
+.
+GetRootElement
+(
+)
+                
+uiaMod
+.
+TreeScope_Subtree
+                
+None
+                
+self
+            
 )
         
 elif
@@ -2459,6 +2493,55 @@ UiaEvent
 (
 sender
 )
+)
+    
+def
+HandleNotificationEvent
+(
+        
+self
+        
+sender
+        
+notificationKind
+        
+notificationProcessing
+        
+displayString
+        
+activityId
+    
+)
+:
+        
+self
+.
+_checkMatch
+(
+            
+UiaEvent
+(
+                
+sender
+                
+notificationKind
+=
+notificationKind
+                
+notificationProcessing
+=
+notificationProcessing
+                
+displayString
+=
+displayString
+                
+activityId
+=
+activityId
+            
+)
+        
 )
     
 def

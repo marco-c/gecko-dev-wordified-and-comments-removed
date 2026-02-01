@@ -894,6 +894,16 @@ uint16_t
 aPriority
 )
 {
+uiaRawElmProvider
+:
+:
+RaiseUiaNotificationEvent
+(
+aTarget
+aAnnouncement
+aPriority
+)
+;
 }
 static
 bool
