@@ -1985,7 +1985,17 @@ none
 engines
 =
 "
+servo
 gecko
+"
+servo_pref
+=
+"
+layout
+.
+variable_fonts
+.
+enabled
 "
 gecko_pref
 =
