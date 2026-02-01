@@ -5379,6 +5379,10 @@ deps
 =
 [
 "
+:
+function_view
+"
+"
 .
 .
 /
