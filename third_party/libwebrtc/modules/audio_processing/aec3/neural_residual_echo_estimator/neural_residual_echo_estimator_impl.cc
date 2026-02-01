@@ -7,6 +7,8 @@ audio_processing
 /
 aec3
 /
+neural_residual_echo_estimator
+/
 neural_residual_echo_estimator_impl
 .
 h
@@ -141,6 +143,8 @@ audio_processing
 /
 aec3
 /
+neural_residual_echo_estimator
+/
 neural_feature_extractor
 .
 h
@@ -183,6 +187,8 @@ audio_processing
 aec3
 /
 neural_residual_echo_estimator
+/
+neural_residual_echo_estimator
 .
 pb
 .
@@ -198,6 +204,8 @@ modules
 audio_processing
 /
 aec3
+/
+neural_residual_echo_estimator
 /
 neural_residual_echo_estimator
 .

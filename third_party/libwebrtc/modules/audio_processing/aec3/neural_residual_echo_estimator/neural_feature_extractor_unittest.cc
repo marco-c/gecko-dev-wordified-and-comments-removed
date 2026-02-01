@@ -7,6 +7,8 @@ audio_processing
 /
 aec3
 /
+neural_residual_echo_estimator
+/
 neural_feature_extractor
 .
 h
