@@ -14363,16 +14363,6 @@ uint32_t
 aFeature
 )
 {
-MOZ_RELEASE_ASSERT
-(
-CorePS
-:
-:
-Exists
-(
-)
-)
-;
 return
 RacyFeatures
 :
