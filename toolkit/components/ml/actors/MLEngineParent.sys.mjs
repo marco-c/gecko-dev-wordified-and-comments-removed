@@ -3511,15 +3511,6 @@ of
 the
 worker
 *
-*
-returns
-{
-Promise
-<
-object
->
-}
-*
 /
 static
 getWorkerConfig

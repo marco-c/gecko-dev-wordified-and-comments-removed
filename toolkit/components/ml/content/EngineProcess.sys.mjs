@@ -505,7 +505,14 @@ key
 string
 ]
 :
+{
+modelId
+:
 string
+dtype
+:
+string
+}
 }
 }
 *

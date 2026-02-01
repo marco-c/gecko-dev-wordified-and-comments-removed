@@ -117,6 +117,8 @@ options
 PipelineOptions
 |
 PipelineOptionsRaw
+|
+null
 ;
 }
 >
