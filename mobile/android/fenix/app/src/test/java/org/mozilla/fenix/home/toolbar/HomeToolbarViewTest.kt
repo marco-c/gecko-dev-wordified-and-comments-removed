@@ -207,16 +207,6 @@ HomeFragment
 import
 org
 .
-mozilla
-.
-fenix
-.
-home
-.
-HomeMenuView
-import
-org
-.
 robolectric
 .
 RobolectricTestRunner
@@ -335,9 +325,6 @@ true
 )
 homeFragment
 homeActivity
-mockk
-(
-)
 )
 )
 every
