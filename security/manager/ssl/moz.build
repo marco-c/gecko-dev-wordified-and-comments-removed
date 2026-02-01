@@ -6,9 +6,6 @@ DIRS
 abridged_certs
 "
 "
-pdf_trust_anchors
-"
-"
 qwac_trust_anchors
 "
 ]
@@ -576,11 +573,6 @@ cpp
 "
 "
 PDFSignatureVerification
-.
-cpp
-"
-"
-PDFTrustDomain
 .
 cpp
 "
