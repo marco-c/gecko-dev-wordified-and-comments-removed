@@ -609,12 +609,9 @@ self
 .
 connectors
 .
-len
+is_empty
 (
 )
-=
-=
-0
 {
 return
 Ok

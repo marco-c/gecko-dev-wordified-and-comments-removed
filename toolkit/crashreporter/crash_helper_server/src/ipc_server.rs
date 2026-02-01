@@ -476,7 +476,7 @@ u8
 >
 ancillary_data
 :
-Option
+Vec
 <
 AncillaryData
 >
@@ -682,7 +682,7 @@ from_ancillary
 (
 message
 .
-ipc_endpoint
+ancillary_data
 )
 ?
 ;
