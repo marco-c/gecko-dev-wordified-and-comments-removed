@@ -99,6 +99,13 @@ js
 ]
 [
 "
+test_ExternalComponentsFeed
+.
+js
+"
+]
+[
+"
 test_HighlightsFeed
 .
 js
