@@ -2618,7 +2618,7 @@ mBoxSizing
 StyleBoxSizing
 :
 :
-Border
+BorderBox
 )
 {
 adjustment

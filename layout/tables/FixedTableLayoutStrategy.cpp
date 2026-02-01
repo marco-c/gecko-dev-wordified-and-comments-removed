@@ -973,7 +973,7 @@ mBoxSizing
 StyleBoxSizing
 :
 :
-Content
+ContentBox
 )
 {
 nsIFrame

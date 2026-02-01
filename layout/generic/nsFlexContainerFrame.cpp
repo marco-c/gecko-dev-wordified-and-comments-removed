@@ -1942,7 +1942,7 @@ mBoxSizing
 StyleBoxSizing
 :
 :
-Border
+BorderBox
 )
 {
 mainSize
@@ -2000,7 +2000,7 @@ mBoxSizing
 StyleBoxSizing
 :
 :
-Border
+BorderBox
 )
 {
 crossSize
@@ -5987,7 +5987,7 @@ mBoxSizing
 StyleBoxSizing
 :
 :
-Border
+BorderBox
 ?
 aFlexItem
 .
@@ -9425,7 +9425,7 @@ mBoxSizing
 StyleBoxSizing
 :
 :
-Border
+BorderBox
 ?
 BorderPadding
 (
@@ -9729,7 +9729,7 @@ mBoxSizing
 StyleBoxSizing
 :
 :
-Border
+BorderBox
 ?
 BorderPadding
 (
@@ -26536,7 +26536,7 @@ mBoxSizing
 StyleBoxSizing
 :
 :
-Content
+ContentBox
 ?
 offsetData
 .

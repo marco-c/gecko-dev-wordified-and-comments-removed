@@ -3887,7 +3887,7 @@ mozilla
 StyleBoxSizing
 :
 :
-Content
+ContentBox
 )
 {
 stretchSize
@@ -3932,7 +3932,7 @@ mozilla
 StyleBoxSizing
 :
 :
-Content
+ContentBox
 )
 ;
 }

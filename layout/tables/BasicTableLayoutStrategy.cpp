@@ -369,7 +369,7 @@ mBoxSizing
 StyleBoxSizing
 :
 :
-Border
+BorderBox
 ?
 aFrame
 -
@@ -487,7 +487,7 @@ mBoxSizing
 StyleBoxSizing
 :
 :
-Content
+ContentBox
 )
 {
 boxSizingToBorderEdge

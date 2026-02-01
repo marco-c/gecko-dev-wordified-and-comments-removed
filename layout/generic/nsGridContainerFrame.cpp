@@ -1000,7 +1000,7 @@ mBoxSizing
 StyleBoxSizing
 :
 :
-Border
+BorderBox
 )
 {
 mValue

@@ -1588,7 +1588,7 @@ mBoxSizing
 StyleBoxSizing
 :
 :
-Content
+ContentBox
 )
 {
 areaOccupied

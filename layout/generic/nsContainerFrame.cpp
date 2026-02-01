@@ -4765,7 +4765,7 @@ mBoxSizing
 StyleBoxSizing
 :
 :
-Border
+BorderBox
 ?
 prevInFlow
 -
@@ -10295,7 +10295,7 @@ mBoxSizing
 StyleBoxSizing
 :
 :
-Border
+BorderBox
 ?
 aBorderPadding
 :
