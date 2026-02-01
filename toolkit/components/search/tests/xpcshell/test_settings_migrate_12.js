@@ -292,8 +292,6 @@ CONFIG
 await
 SearchService
 .
-wrappedJSObject
-.
 reset
 (
 )

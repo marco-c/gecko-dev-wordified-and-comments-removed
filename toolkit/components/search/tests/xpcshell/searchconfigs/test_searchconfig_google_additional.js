@@ -574,8 +574,6 @@ GB
 ;
 SearchService
 .
-wrappedJSObject
-.
 reset
 (
 )

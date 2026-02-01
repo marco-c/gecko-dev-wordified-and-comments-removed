@@ -497,8 +497,6 @@ lazy
 .
 SearchService
 .
-wrappedJSObject
-.
 _settings
 .
 _testResetSettings

@@ -186,8 +186,6 @@ initXPCShellAddonManager
 ;
 SearchService
 .
-wrappedJSObject
-.
 reset
 (
 )
@@ -450,8 +448,6 @@ resetHistory
 )
 ;
 SearchService
-.
-wrappedJSObject
 .
 reset
 (

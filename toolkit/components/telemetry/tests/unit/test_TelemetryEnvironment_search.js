@@ -723,8 +723,6 @@ reInitSearchService
 {
 SearchService
 .
-wrappedJSObject
-.
 reset
 (
 )

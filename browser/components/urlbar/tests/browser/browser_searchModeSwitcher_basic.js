@@ -4456,8 +4456,6 @@ failed
 ;
 SearchService
 .
-wrappedJSObject
-.
 forceInitializationStatusForTests
 (
 "
@@ -4690,8 +4688,6 @@ restore
 )
 ;
 SearchService
-.
-wrappedJSObject
 .
 forceInitializationStatusForTests
 (

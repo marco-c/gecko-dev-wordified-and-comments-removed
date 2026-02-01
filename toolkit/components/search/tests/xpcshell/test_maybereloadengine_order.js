@@ -209,8 +209,6 @@ equal
 (
 SearchService
 .
-wrappedJSObject
-.
 _settings
 .
 getMetaDataAttribute

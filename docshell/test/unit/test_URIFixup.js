@@ -750,8 +750,6 @@ setup
 {
 SearchService
 .
-wrappedJSObject
-.
 errorToThrowInTest
 .
 type

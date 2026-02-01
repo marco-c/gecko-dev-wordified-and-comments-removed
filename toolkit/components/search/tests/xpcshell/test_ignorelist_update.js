@@ -375,8 +375,6 @@ test_correct_default_engine_change_reason
 {
 SearchService
 .
-wrappedJSObject
-.
 reset
 (
 )

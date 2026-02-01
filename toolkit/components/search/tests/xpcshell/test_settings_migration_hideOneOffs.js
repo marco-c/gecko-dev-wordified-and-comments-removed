@@ -176,8 +176,6 @@ promiseAfterSettings
 await
 SearchService
 .
-wrappedJSObject
-.
 reset
 (
 )

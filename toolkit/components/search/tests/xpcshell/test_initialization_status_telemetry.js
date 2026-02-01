@@ -1,10 +1,3 @@
-const
-searchService
-=
-SearchService
-.
-wrappedJSObject
-;
 add_setup
 (
 async
@@ -66,7 +59,7 @@ Assert
 .
 equal
 (
-searchService
+SearchService
 .
 isInitialized
 false
@@ -92,7 +85,7 @@ Assert
 .
 equal
 (
-searchService
+SearchService
 .
 hasSuccessfullyInitialized
 true
@@ -379,7 +372,7 @@ corrupt
 "
 )
 ;
-searchService
+SearchService
 .
 reset
 (
@@ -392,7 +385,7 @@ sinon
 .
 stub
 (
-searchService
+SearchService
 "
 _showSearchSettingsResetNotificationBox
 "
@@ -428,7 +421,7 @@ Assert
 .
 equal
 (
-searchService
+SearchService
 .
 isInitialized
 false
@@ -454,7 +447,7 @@ Assert
 .
 equal
 (
-searchService
+SearchService
 .
 hasSuccessfullyInitialized
 true
@@ -515,13 +508,13 @@ errorType
 errorMessage
 )
 {
-searchService
+SearchService
 .
 reset
 (
 )
 ;
-searchService
+SearchService
 .
 errorToThrowInTest
 .
@@ -529,7 +522,7 @@ type
 =
 errorType
 ;
-searchService
+SearchService
 .
 errorToThrowInTest
 .
@@ -541,7 +534,7 @@ Assert
 .
 equal
 (
-searchService
+SearchService
 .
 isInitialized
 false
@@ -619,7 +612,7 @@ promise
 "
 )
 ;
-searchService
+SearchService
 .
 errorToThrowInTest
 =

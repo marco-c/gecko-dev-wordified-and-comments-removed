@@ -1837,8 +1837,6 @@ policy
 {
 SearchService
 .
-wrappedJSObject
-.
 reset
 (
 )

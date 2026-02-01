@@ -24,13 +24,6 @@ mjs
 "
 )
 ;
-const
-searchService
-=
-SearchService
-.
-wrappedJSObject
-;
 add_setup
 (
 async
@@ -51,7 +44,7 @@ quickactions
 false
 )
 ;
-searchService
+SearchService
 .
 errorToThrowInTest
 .
@@ -85,7 +78,7 @@ async
 =
 >
 {
-searchService
+SearchService
 .
 errorToThrowInTest
 .
@@ -116,7 +109,7 @@ Assert
 .
 equal
 (
-searchService
+SearchService
 .
 isInitialized
 false
@@ -271,7 +264,7 @@ Assert
 .
 equal
 (
-searchService
+SearchService
 .
 isInitialized
 true
@@ -293,7 +286,7 @@ Assert
 .
 equal
 (
-searchService
+SearchService
 .
 hasSuccessfullyInitialized
 false
@@ -329,7 +322,7 @@ Assert
 .
 equal
 (
-searchService
+SearchService
 .
 isInitialized
 true
@@ -355,7 +348,7 @@ Assert
 .
 equal
 (
-searchService
+SearchService
 .
 hasSuccessfullyInitialized
 false

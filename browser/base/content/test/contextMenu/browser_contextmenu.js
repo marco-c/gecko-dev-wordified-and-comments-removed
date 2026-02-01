@@ -6660,8 +6660,6 @@ statuses
 {
 SearchService
 .
-wrappedJSObject
-.
 forceInitializationStatusForTests
 (
 status
@@ -6834,8 +6832,6 @@ chat
 ;
 }
 SearchService
-.
-wrappedJSObject
 .
 forceInitializationStatusForTests
 (

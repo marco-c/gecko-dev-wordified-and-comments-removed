@@ -163,8 +163,6 @@ stub
 (
 await
 SearchService
-.
-wrappedJSObject
 "
 _showRemovalOfSearchEngineNotificationBox
 "
@@ -212,8 +210,6 @@ userSettings
 =
 await
 SearchService
-.
-wrappedJSObject
 .
 _settings
 .
@@ -562,8 +558,6 @@ currentEngineName
 =
 SearchService
 .
-wrappedJSObject
-.
 _getEngineDefault
 (
 false
@@ -686,8 +680,6 @@ stub
 (
 await
 SearchService
-.
-wrappedJSObject
 "
 _getEngineDefault
 "
@@ -744,8 +736,6 @@ test_current_engine_is_null
 )
 {
 SearchService
-.
-wrappedJSObject
 .
 _currentEngine
 =
@@ -878,8 +868,6 @@ metadata
 await
 SearchService
 .
-wrappedJSObject
-.
 _fetchEngineSelectorEngines
 (
 )
@@ -893,8 +881,6 @@ metaData
 .
 .
 SearchService
-.
-wrappedJSObject
 .
 _settings
 .
@@ -1033,8 +1019,6 @@ metadata
 await
 SearchService
 .
-wrappedJSObject
-.
 _fetchEngineSelectorEngines
 (
 )
@@ -1048,8 +1032,6 @@ metaData
 .
 .
 SearchService
-.
-wrappedJSObject
 .
 _settings
 .
@@ -1200,8 +1182,6 @@ metaData
 current
 =
 SearchService
-.
-wrappedJSObject
 .
 _currentEngine
 ;
@@ -1421,8 +1401,6 @@ config
 {
 SearchService
 .
-wrappedJSObject
-.
 resetEngineSelector
 (
 )
@@ -1473,8 +1451,6 @@ promiseAfterSettings
 await
 SearchService
 .
-wrappedJSObject
-.
 _reloadEngines
 (
 settings
@@ -1505,8 +1481,6 @@ promiseAfterSettings
 )
 ;
 SearchService
-.
-wrappedJSObject
 .
 reset
 (

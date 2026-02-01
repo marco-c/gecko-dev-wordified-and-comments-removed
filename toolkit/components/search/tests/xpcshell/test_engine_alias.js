@@ -103,8 +103,6 @@ alias
 ;
 SearchService
 .
-wrappedJSObject
-.
 reset
 (
 )

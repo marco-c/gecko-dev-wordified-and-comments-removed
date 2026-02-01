@@ -119,8 +119,6 @@ expectedOrder
 {
 SearchService
 .
-wrappedJSObject
-.
 _cachedSortedEngines
 =
 null
@@ -188,8 +186,6 @@ nonbuiltin1
 )
 ;
 SearchService
-.
-wrappedJSObject
 .
 _settings
 .

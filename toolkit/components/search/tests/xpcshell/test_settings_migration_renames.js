@@ -348,8 +348,6 @@ test_migration_after_renames
 await
 SearchService
 .
-wrappedJSObject
-.
 reset
 (
 )

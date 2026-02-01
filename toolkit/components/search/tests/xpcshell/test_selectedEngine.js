@@ -187,8 +187,6 @@ length
 ;
 SearchService
 .
-wrappedJSObject
-.
 reset
 (
 )
@@ -300,8 +298,6 @@ metadata
 )
 ;
 SearchService
-.
-wrappedJSObject
 .
 reset
 (
@@ -641,8 +637,6 @@ promiseAfterSettings
 )
 ;
 SearchService
-.
-wrappedJSObject
 .
 reset
 (

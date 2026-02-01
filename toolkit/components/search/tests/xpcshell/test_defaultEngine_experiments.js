@@ -443,8 +443,6 @@ engine
 return
 SearchService
 .
-wrappedJSObject
-.
 _settings
 .
 getVerifiedMetaDataAttribute
