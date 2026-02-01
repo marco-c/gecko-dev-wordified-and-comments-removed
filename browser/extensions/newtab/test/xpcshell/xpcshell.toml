@@ -120,6 +120,13 @@ js
 ]
 [
 "
+test_InferredPersonalizationFeed
+.
+js
+"
+]
+[
+"
 test_ListsFeed
 .
 js
