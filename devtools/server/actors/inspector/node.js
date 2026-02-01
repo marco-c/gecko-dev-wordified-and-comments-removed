@@ -240,7 +240,7 @@ server
 /
 actors
 /
-utils
+stylesheets
 /
 style
 -

@@ -94,7 +94,7 @@ server
 /
 actors
 /
-utils
+stylesheets
 /
 style
 -
@@ -328,7 +328,7 @@ server
 /
 actors
 /
-utils
+stylesheets
 /
 stylesheets
 -

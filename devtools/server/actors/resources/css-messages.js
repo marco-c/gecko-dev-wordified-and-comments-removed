@@ -136,7 +136,7 @@ server
 /
 actors
 /
-utils
+stylesheets
 /
 stylesheet
 -
