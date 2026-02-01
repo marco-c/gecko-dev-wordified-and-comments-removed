@@ -414,10 +414,7 @@ StyleSVGReset
 -
 >
 mX
-SVGLength
-:
-:
-Axis
+SVGContentUtils
 :
 :
 X
@@ -438,10 +435,7 @@ StyleSVGReset
 -
 >
 mY
-SVGLength
-:
-:
-Axis
+SVGContentUtils
 :
 :
 Y

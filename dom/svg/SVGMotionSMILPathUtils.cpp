@@ -462,10 +462,7 @@ x
 GetValueInPixels
 (
 mSVGElement
-SVGLength
-:
-:
-Axis
+SVGContentUtils
 :
 :
 X
@@ -479,10 +476,7 @@ y
 GetValueInPixels
 (
 mSVGElement
-SVGLength
-:
-:
-Axis
+SVGContentUtils
 :
 :
 Y

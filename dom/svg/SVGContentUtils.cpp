@@ -4816,10 +4816,7 @@ const
 LengthPercentage
 &
 aLength
-SVGLength
-:
-:
-Axis
+uint8_t
 aCtxType
 )
 {

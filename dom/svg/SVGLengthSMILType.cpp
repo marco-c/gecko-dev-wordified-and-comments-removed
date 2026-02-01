@@ -15,9 +15,7 @@ h
 #
 include
 "
-mozilla
-/
-SMILValue
+SVGAnimatedLengthList
 .
 h
 "
@@ -26,9 +24,7 @@ include
 "
 mozilla
 /
-dom
-/
-SVGAnimatedLength
+SMILValue
 .
 h
 "
