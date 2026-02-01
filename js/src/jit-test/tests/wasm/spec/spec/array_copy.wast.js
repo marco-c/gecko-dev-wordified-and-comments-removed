@@ -105,9 +105,8 @@ const
 )
 )
 )
-array
-is
 immutable
+array
 )
 ;
 assert_invalid

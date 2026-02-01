@@ -3434,6 +3434,8 @@ fail1
 )
 indirect
 call
+type
+mismatch
 )
 ;
 assert_trap
@@ -3451,6 +3453,8 @@ fail2
 )
 indirect
 call
+type
+mismatch
 )
 ;
 assert_trap
@@ -3468,6 +3472,8 @@ fail3
 )
 indirect
 call
+type
+mismatch
 )
 ;
 assert_trap
@@ -3484,6 +3490,7 @@ fail4
 ]
 )
 cast
+failure
 )
 ;
 assert_trap
@@ -3500,6 +3507,7 @@ fail5
 ]
 )
 cast
+failure
 )
 ;
 assert_trap
@@ -3516,6 +3524,7 @@ fail6
 ]
 )
 cast
+failure
 )
 ;
 let
@@ -3715,6 +3724,8 @@ fail1
 )
 indirect
 call
+type
+mismatch
 )
 ;
 assert_trap
@@ -3732,6 +3743,8 @@ fail2
 )
 indirect
 call
+type
+mismatch
 )
 ;
 assert_trap
@@ -3748,6 +3761,7 @@ fail3
 ]
 )
 cast
+failure
 )
 ;
 assert_trap
@@ -3764,6 +3778,7 @@ fail4
 ]
 )
 cast
+failure
 )
 ;
 let
@@ -4018,6 +4033,8 @@ fail1
 )
 indirect
 call
+type
+mismatch
 )
 ;
 assert_trap
@@ -4035,6 +4052,8 @@ fail2
 )
 indirect
 call
+type
+mismatch
 )
 ;
 let
@@ -7593,6 +7612,7 @@ g1
 )
 incompatible
 import
+type
 )
 ;
 let
@@ -9146,6 +9166,7 @@ f11
 )
 incompatible
 import
+type
 )
 ;
 let
@@ -9344,6 +9365,7 @@ f11
 )
 incompatible
 import
+type
 )
 ;
 assert_invalid
@@ -9927,12 +9949,6 @@ any
 )
 sub
 type
-1
-does
-not
-match
-super
-type
 )
 ;
 assert_invalid
@@ -9987,12 +10003,6 @@ none
 )
 sub
 type
-1
-does
-not
-match
-super
-type
 )
 ;
 assert_invalid
@@ -10044,12 +10054,6 @@ any
 )
 sub
 type
-1
-does
-not
-match
-super
-type
 )
 ;
 assert_invalid
@@ -10100,12 +10104,6 @@ any
 )
 )
 sub
-type
-1
-does
-not
-match
-super
 type
 )
 ;
@@ -10160,12 +10158,6 @@ any
 )
 )
 sub
-type
-1
-does
-not
-match
-super
 type
 )
 ;
@@ -10227,12 +10219,6 @@ none
 )
 sub
 type
-1
-does
-not
-match
-super
-type
 )
 ;
 assert_invalid
@@ -10290,12 +10276,6 @@ any
 )
 sub
 type
-1
-does
-not
-match
-super
-type
 )
 ;
 assert_invalid
@@ -10352,12 +10332,6 @@ any
 )
 )
 sub
-type
-1
-does
-not
-match
-super
 type
 )
 ;

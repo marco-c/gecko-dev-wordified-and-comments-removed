@@ -310,6 +310,7 @@ t2
 )
 incompatible
 import
+type
 )
 ;
 assert_unlinkable
@@ -351,5 +352,6 @@ t
 )
 incompatible
 import
+type
 )
 ;
