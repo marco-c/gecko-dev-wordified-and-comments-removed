@@ -5375,8 +5375,6 @@ Int
 default
 :
 4
-relay
--
 email
 -
 masks
@@ -5386,7 +5384,8 @@ description
 Feature
 to
 enable
-Relay
+Email
+Mask
 for
 users
 on
@@ -5402,9 +5401,8 @@ description
 :
 If
 true
-Relay
-email
-masks
+Email
+Mask
 feature
 is
 enabled

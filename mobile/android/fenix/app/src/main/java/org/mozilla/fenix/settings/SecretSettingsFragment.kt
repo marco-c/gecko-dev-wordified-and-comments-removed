@@ -2820,7 +2820,7 @@ R
 .
 string
 .
-pref_key_enable_relay_email_masks
+pref_key_enable_email_masks
 )
 .
 apply
@@ -2840,7 +2840,7 @@ settings
 (
 )
 .
-isRelayFeatureEnabled
+isEmailMaskFeatureEnabled
 onPreferenceChangeListener
 =
 SharedPreferenceUpdater

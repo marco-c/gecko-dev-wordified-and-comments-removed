@@ -13331,7 +13331,9 @@ false
 *
 Indicates
 whether
-Relay
+Email
+Mask
+is
 enabled
 or
 not
@@ -13339,7 +13341,7 @@ not
 *
 /
 var
-isRelayFeatureEnabled
+isEmailMaskFeatureEnabled
 by
 booleanPreference
 (
@@ -13353,7 +13355,7 @@ R
 .
 string
 .
-pref_key_enable_relay_email_masks
+pref_key_enable_email_masks
 )
 default
 =
@@ -13362,7 +13364,7 @@ FxNimbus
 .
 features
 .
-relayEmailMasks
+emailMasks
 .
 value
 (

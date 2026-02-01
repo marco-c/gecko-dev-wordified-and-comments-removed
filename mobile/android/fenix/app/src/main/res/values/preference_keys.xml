@@ -1809,7 +1809,7 @@ string
 name
 =
 "
-pref_key_enable_relay_email_masks
+pref_key_enable_email_masks
 "
 translatable
 =
@@ -1817,7 +1817,7 @@ translatable
 false
 "
 >
-pref_key_enable_relay_email_masks
+pref_key_enable_email_masks
 <
 /
 string
