@@ -9359,9 +9359,6 @@ rv
 =
 NS_OK
 ;
-#
-ifdef
-NS_PRINT_PREVIEW
 if
 (
 !
@@ -9531,8 +9528,6 @@ OnEndPrinting
 (
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -10560,9 +10555,6 @@ nullptr
 return
 ;
 }
-#
-ifdef
-NS_PRINT_PREVIEW
 if
 (
 aPresContext
@@ -10582,8 +10574,6 @@ eContext_PrintPreview
 return
 ;
 }
-#
-endif
 NS_ASSERTION
 (
 aRootFrame
