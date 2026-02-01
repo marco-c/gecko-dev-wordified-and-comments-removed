@@ -169,7 +169,10 @@ eventNames
 =
 [
 '
-command
+beforetoggle
+'
+'
+toggle
 '
 ]
 ;
@@ -381,7 +384,7 @@ dispatch
 }
 }
 '
-CommandEvent
+ToggleEvent
 .
 source
 should
@@ -573,7 +576,7 @@ target
 addEventListener
 (
 '
-command
+toggle
 '
 event
 =
@@ -605,7 +608,7 @@ target
 addEventListener
 (
 '
-command
+toggle
 '
 event
 =
@@ -631,13 +634,13 @@ true
 ;
 }
 const
-commandEvent
+toggleEvent
 =
 new
-CommandEvent
+ToggleEvent
 (
 '
-command
+toggle
 '
 {
 composed
@@ -651,7 +654,7 @@ target
 .
 dispatchEvent
 (
-commandEvent
+toggleEvent
 )
 ;
 for
@@ -769,7 +772,7 @@ dispatch
 }
 }
 '
-CommandEvent
+Toggle
 .
 source
 should
@@ -867,7 +870,10 @@ eventNames
 =
 [
 '
-command
+beforetoggle
+'
+'
+toggle
 '
 ]
 ;
@@ -980,7 +986,7 @@ dispatch
 }
 }
 '
-CommandEvent
+ToggleEvent
 .
 source
 should
