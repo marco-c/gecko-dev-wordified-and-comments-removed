@@ -744,6 +744,13 @@ js
 ]
 [
 "
+browser_partitionedABBredirectToABAServiceWorkers
+.
+js
+"
+]
+[
+"
 browser_partitionedABOpen
 .
 js
