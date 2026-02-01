@@ -336,6 +336,9 @@ kIceCandidateCount
 kBundle
 =
 33
+kBandwidth
+=
+34
 kRtpHeaderExtensionRemoved
 =
 40
