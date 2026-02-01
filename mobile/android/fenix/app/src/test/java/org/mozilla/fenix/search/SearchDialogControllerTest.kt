@@ -3623,6 +3623,10 @@ clearToolbar
 dismissDialogAndGoBack
 =
 dismissDialogAndGoBack
+showDeleteHistoryItemSnackbar
+=
+{
+}
 )
 }
 private

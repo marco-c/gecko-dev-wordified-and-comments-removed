@@ -140,6 +140,11 @@ searchSuggestionsProviders
 emptyList
 (
 )
+hiddenSuggestions
+=
+emptySet
+(
+)
 searchSuggestionsOrientedAtBottom
 =
 false
