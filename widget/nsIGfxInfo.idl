@@ -661,7 +661,7 @@ widget
 /
 GfxInfoFeatureDefs
 .
-h
+inc
 "
 #
 undef
@@ -728,7 +728,7 @@ widget
 /
 GfxInfoFeatureStatusDefs
 .
-h
+inc
 "
 #
 undef

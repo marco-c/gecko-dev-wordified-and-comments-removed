@@ -770,7 +770,7 @@ widget
 /
 GfxInfoOperatingSystemDefs
 .
-h
+inc
 "
 #
 undef
@@ -800,7 +800,7 @@ widget
 /
 GfxInfoDriverVersionCmpDefs
 .
-h
+inc
 "
 #
 undef
@@ -883,7 +883,7 @@ widget
 /
 GfxInfoDeviceVendorDefs
 .
-h
+inc
 "
 #
 undef
@@ -913,7 +913,7 @@ widget
 /
 GfxInfoDriverVendorDefs
 .
-h
+inc
 "
 #
 undef
@@ -944,7 +944,7 @@ widget
 /
 GfxInfoWindowProtocolDefs
 .
-h
+inc
 "
 #
 undef
@@ -973,7 +973,7 @@ widget
 /
 GfxInfoRefreshRateStatusDefs
 .
-h
+inc
 "
 #
 undef
