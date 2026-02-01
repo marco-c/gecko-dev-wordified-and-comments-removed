@@ -987,6 +987,15 @@ model_id
 inferredModel
 .
 model_id
+timeZoneOffset
+:
+lazy
+.
+NewTabUtils
+.
+getUtcOffset
+(
+)
 }
 )
 ;
