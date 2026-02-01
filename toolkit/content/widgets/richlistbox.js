@@ -3710,6 +3710,7 @@ hadFocus
 this
 .
 currentItem
+?
 .
 contains
 (

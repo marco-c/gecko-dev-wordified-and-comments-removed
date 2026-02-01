@@ -695,7 +695,7 @@ BLOCK
 0
 ]
 .
-click
+doCommand
 (
 )
 ;
