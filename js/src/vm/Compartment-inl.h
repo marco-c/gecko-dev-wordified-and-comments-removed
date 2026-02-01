@@ -30,7 +30,9 @@ h
 #
 include
 "
-jsnum
+builtin
+/
+Number
 .
 h
 "

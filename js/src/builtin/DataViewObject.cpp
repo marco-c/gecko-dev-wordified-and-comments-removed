@@ -54,7 +54,9 @@ type_traits
 #
 include
 "
-jsnum
+builtin
+/
+Number
 .
 h
 "

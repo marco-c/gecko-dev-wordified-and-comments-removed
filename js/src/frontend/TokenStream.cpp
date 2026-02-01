@@ -137,7 +137,9 @@ utility
 #
 include
 "
-jsnum
+builtin
+/
+Number
 .
 h
 "

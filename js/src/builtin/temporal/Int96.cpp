@@ -53,13 +53,6 @@ cmath
 #
 include
 <
-stddef
-.
-h
->
-#
-include
-<
 stdint
 .
 h
@@ -67,7 +60,9 @@ h
 #
 include
 "
-jsnum
+builtin
+/
+Number
 .
 h
 "

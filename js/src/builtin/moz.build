@@ -116,6 +116,11 @@ ModuleObject
 cpp
 "
 "
+Number
+.
+cpp
+"
+"
 Object
 .
 cpp

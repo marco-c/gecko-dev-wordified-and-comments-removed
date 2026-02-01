@@ -51,7 +51,9 @@ algorithm
 #
 include
 "
-jsnum
+builtin
+/
+Number
 .
 h
 "
