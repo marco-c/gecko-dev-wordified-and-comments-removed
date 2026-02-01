@@ -20,3 +20,16 @@ fill
 color
 -
 *
+-
+name
+:
+gradients
+files
+:
+-
+webkit
+-
+*
+-
+gradient
+*

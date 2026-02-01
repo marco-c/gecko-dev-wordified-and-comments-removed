@@ -49,3 +49,17 @@ settings
 inherit
 .
 html
+-
+name
+:
+font
+-
+stretch
+files
+:
+-
+font
+-
+stretch
+.
+html
