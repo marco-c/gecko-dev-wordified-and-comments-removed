@@ -197,9 +197,6 @@ control_utils
 nsh
 "
 Function
-ExitProcess
-FunctionEnd
-Function
 AttachConsole
 ;
 NSIS
