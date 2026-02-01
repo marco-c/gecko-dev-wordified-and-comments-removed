@@ -499,9 +499,6 @@ HomeMenuView
 context
 =
 testContext
-lifecycleOwner
-=
-lifecycleOwner
 homeActivity
 =
 homeActivity

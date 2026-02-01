@@ -892,11 +892,6 @@ HomeMenuView
 context
 =
 context
-lifecycleOwner
-=
-homeFragment
-.
-viewLifecycleOwner
 homeActivity
 =
 homeActivity
