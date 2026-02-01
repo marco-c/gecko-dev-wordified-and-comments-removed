@@ -59,6 +59,9 @@ NavigationNavigateOptions
 class
 NavigateEvent
 ;
+class
+NavigationInterceptHandler
+;
 }
 class
 nsIGlobalObject
@@ -146,6 +149,17 @@ const
 NavigationNavigateOptions
 &
 aOptions
+ErrorResult
+&
+aRv
+)
+;
+void
+AddHandler
+(
+NavigationInterceptHandler
+&
+aHandler
 ErrorResult
 &
 aRv
