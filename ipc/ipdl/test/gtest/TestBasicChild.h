@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla__ipdltest_TestBasicChild_h
+mozilla_ipdltest_TestBasicChild_h
 #
 define
-mozilla__ipdltest_TestBasicChild_h
+mozilla_ipdltest_TestBasicChild_h
 #
 include
 "

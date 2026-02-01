@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_ipc_IdleSchedulerParent_h__
+mozilla_ipc_IdleSchedulerParent_h_
 #
 define
-mozilla_ipc_IdleSchedulerParent_h__
+mozilla_ipc_IdleSchedulerParent_h_
 #
 include
 "

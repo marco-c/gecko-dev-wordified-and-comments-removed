@@ -1,9 +1,9 @@
 #
 ifndef
-_include_ipc_glue_UtilityProcessImpl_h__
+_include_ipc_glue_UtilityProcessImpl_h_
 #
 define
-_include_ipc_glue_UtilityProcessImpl_h__
+_include_ipc_glue_UtilityProcessImpl_h_
 #
 include
 "

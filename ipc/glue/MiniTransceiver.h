@@ -1,9 +1,9 @@
 #
 ifndef
-__MINITRANSCEIVER_H_
+MINITRANSCEIVER_H_
 #
 define
-__MINITRANSCEIVER_H_
+MINITRANSCEIVER_H_
 #
 include
 "

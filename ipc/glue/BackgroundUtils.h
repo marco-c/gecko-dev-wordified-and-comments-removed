@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_ipc_backgroundutils_h__
+mozilla_ipc_backgroundutils_h_
 #
 define
-mozilla_ipc_backgroundutils_h__
+mozilla_ipc_backgroundutils_h_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-BASE_PICKLE_H__
+BASE_PICKLE_H_
 #
 define
-BASE_PICKLE_H__
+BASE_PICKLE_H_
 #
 include
 <

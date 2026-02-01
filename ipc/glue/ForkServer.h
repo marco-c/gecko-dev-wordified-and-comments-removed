@@ -1,9 +1,9 @@
 #
 ifndef
-__FORKSERVER_H_
+FORKSERVER_H_
 #
 define
-__FORKSERVER_H_
+FORKSERVER_H_
 #
 include
 "

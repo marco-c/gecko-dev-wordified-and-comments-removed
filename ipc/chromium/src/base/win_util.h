@@ -1,9 +1,9 @@
 #
 ifndef
-BASE_WIN_UTIL_H__
+BASE_WIN_UTIL_H_
 #
 define
-BASE_WIN_UTIL_H__
+BASE_WIN_UTIL_H_
 #
 include
 <
