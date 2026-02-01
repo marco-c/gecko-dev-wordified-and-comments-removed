@@ -181,7 +181,9 @@ already_AddRefed
 nsIEventTarget
 >
 aTarget
-StaticString
+const
+char
+*
 aName
 bool
 aSupportsTailDispatch

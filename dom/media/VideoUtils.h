@@ -928,7 +928,9 @@ TaskQueue
 >
 CreateMediaDecodeTaskQueue
 (
-StaticString
+const
+char
+*
 aName
 )
 ;

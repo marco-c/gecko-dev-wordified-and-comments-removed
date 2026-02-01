@@ -310,7 +310,9 @@ TaskQueue
 >
 CreateBackgroundTaskQueue
 (
-StaticString
+const
+char
+*
 aName
 )
 ;
@@ -1009,7 +1011,9 @@ BackgroundEventTarget
 :
 CreateBackgroundTaskQueue
 (
-StaticString
+const
+char
+*
 aName
 )
 {
@@ -2295,10 +2299,9 @@ nsThreadManager
 :
 CreateBackgroundTaskQueue
 (
-mozilla
-:
-:
-StaticString
+const
+char
+*
 aName
 )
 {
