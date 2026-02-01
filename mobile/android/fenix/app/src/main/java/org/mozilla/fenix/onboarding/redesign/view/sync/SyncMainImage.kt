@@ -185,7 +185,7 @@ R
 .
 drawable
 .
-android_sync_illustration
+nova_onboarding_sync
 )
 contentDescription
 =

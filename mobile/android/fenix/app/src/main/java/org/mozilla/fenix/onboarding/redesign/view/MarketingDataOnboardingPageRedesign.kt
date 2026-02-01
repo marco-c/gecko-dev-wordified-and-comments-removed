@@ -1083,7 +1083,7 @@ R
 .
 drawable
 .
-ic_onboarding_marketing_redesign
+nova_onboarding_marketing
 title
 =
 stringResource

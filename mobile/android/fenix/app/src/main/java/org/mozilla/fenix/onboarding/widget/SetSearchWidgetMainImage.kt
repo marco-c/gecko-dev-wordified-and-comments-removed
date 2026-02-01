@@ -218,7 +218,7 @@ R
 .
 drawable
 .
-ic_onboarding_search_widget
+nova_onboarding_widget
 )
 contentDescription
 =

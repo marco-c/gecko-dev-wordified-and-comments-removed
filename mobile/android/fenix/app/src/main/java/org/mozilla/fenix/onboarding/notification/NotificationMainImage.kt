@@ -181,7 +181,7 @@ R
 .
 drawable
 .
-ic_notification_permission
+nova_onboarding_notifications
 )
 contentDescription
 =

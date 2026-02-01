@@ -753,7 +753,7 @@ image
 -
 res
 :
-ic_firefox
+nova_onboarding_tou
 primary
 -
 button
@@ -981,11 +981,6 @@ nova_onboarding_add_search_widget_title
 body
 :
 nova_onboarding_add_search_widget_subtitle
-image
--
-res
-:
-ic_onboarding_search_widget
 ordering
 :
 10
@@ -1156,11 +1151,6 @@ nova_onboarding_notifications_title
 body
 :
 nova_onboarding_notifications_subtitle
-image
--
-res
-:
-ic_notification_permission
 ordering
 :
 20
@@ -1370,11 +1360,6 @@ nova_onboarding_toolbar_selection_title
 body
 :
 onboarding_customize_toolbar_description
-image
--
-res
-:
-ic_onboarding_customize_toolbar
 ordering
 :
 35
@@ -1530,7 +1515,7 @@ image
 -
 res
 :
-ic_onboarding_marketing_redesign
+nova_onboarding_marketing
 ordering
 :
 40
@@ -1593,6 +1578,11 @@ service
 title
 :
 nova_onboarding_tou_title
+image
+-
+res
+:
+nova_onboarding_tou
 primary
 -
 button
@@ -1774,11 +1764,6 @@ placement
 title
 :
 nova_onboarding_toolbar_selection_title
-image
--
-res
-:
-ic_onboarding_customize_toolbar
 primary
 -
 button
@@ -1845,7 +1830,7 @@ image
 -
 res
 :
-ic_onboarding_marketing_redesign
+nova_onboarding_marketing
 primary
 -
 button
