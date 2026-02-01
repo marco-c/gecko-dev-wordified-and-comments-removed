@@ -14,6 +14,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 parser
 :
 :
@@ -219,6 +228,7 @@ cssparser
 :
 :
 {
+match_ignore_ascii_case
 Delimiter
 Parser
 Token
@@ -500,6 +510,8 @@ mix
 .
 left
 .
+color
+.
 has_modern_syntax
 (
 )
@@ -508,6 +520,8 @@ has_modern_syntax
 mix
 .
 right
+.
+color
 .
 has_modern_syntax
 (
