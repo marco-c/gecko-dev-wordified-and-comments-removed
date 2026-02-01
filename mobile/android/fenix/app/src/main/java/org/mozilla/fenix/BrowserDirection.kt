@@ -301,6 +301,14 @@ id
 .
 addonPermissionsDetailFragment
 )
+FromLoginDetailFragment
+(
+R
+.
+id
+.
+loginDetailFragment
+)
 FromTabsTray
 (
 R

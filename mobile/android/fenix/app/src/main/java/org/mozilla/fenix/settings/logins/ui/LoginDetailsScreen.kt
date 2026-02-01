@@ -553,16 +553,6 @@ mozilla
 .
 fenix
 .
-ext
-.
-simplifiedUrl
-import
-org
-.
-mozilla
-.
-fenix
-.
 theme
 .
 FirefoxTheme
@@ -911,9 +901,7 @@ text
 =
 loginItem
 .
-url
-.
-simplifiedUrl
+getDomainName
 (
 )
 style
