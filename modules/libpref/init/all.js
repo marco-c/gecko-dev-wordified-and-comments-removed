@@ -2798,7 +2798,7 @@ directwrite
 .
 use_gdi_table_loading
 "
-true
+false
 )
 ;
 #
