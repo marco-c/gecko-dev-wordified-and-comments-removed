@@ -1,4 +1,12 @@
+#
+ifndef
+PARSER_HTML_NSICONTENTHANDLE_H_
+#
+define
+PARSER_HTML_NSICONTENTHANDLE_H_
 typedef
 void
 nsIContentHandle
 ;
+#
+endif
