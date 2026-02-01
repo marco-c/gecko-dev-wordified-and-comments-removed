@@ -3097,6 +3097,12 @@ o
 )
 ;
 }
+bool
+IsMixedCodec
+(
+)
+const
+;
 }
 ;
 }

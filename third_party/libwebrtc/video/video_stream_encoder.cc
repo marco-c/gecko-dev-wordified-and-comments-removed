@@ -12942,6 +12942,14 @@ at_target_quality
 ;
 if
 (
+!
+send_codec_
+.
+IsMixedCodec
+(
+)
+&
+&
 codec_type
 =
 =
