@@ -5,6 +5,11 @@ global
 :
 {
 "
+isGlobal
+"
+:
+true
+"
 queryParams
 "
 :
@@ -61,15 +66,6 @@ utm_campaign_id
 utm_newsletter_id
 "
 ]
-"
-topLevelSites
-"
-:
-[
-"
-*
-"
-]
 }
 "
 twitter
@@ -92,7 +88,7 @@ s
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -236,7 +232,7 @@ qualifier
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -471,7 +467,7 @@ pp
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -552,7 +548,7 @@ id
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -619,7 +615,7 @@ organic_search_click
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -647,7 +643,7 @@ reflink
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -675,7 +671,7 @@ source
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -701,7 +697,7 @@ sh
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -735,7 +731,7 @@ srnd
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -799,7 +795,7 @@ q
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -851,7 +847,7 @@ xtor
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -879,7 +875,7 @@ ref
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -941,7 +937,7 @@ ref_
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -976,7 +972,7 @@ int_source
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -1015,7 +1011,7 @@ partnerID
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -1047,7 +1043,7 @@ mibextid
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -1108,7 +1104,7 @@ pos
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -1185,7 +1181,7 @@ ei
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -1274,7 +1270,7 @@ id
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -1328,7 +1324,7 @@ share_id
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -1356,7 +1352,7 @@ mbid
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -1424,7 +1420,7 @@ clid
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -1483,7 +1479,7 @@ hash
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -1544,7 +1540,7 @@ lid
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -1647,7 +1643,7 @@ gs_lcrp
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -3169,7 +3165,7 @@ sp
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -3200,7 +3196,7 @@ tt_medium
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -3235,7 +3231,7 @@ ftag
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -3263,7 +3259,7 @@ smid
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -3294,7 +3290,7 @@ email_source
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -3326,7 +3322,7 @@ trackingId
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -3373,7 +3369,7 @@ mbid
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
@@ -3416,7 +3412,7 @@ intl
 "
 ]
 "
-topLevelSites
+origins
 "
 :
 [
