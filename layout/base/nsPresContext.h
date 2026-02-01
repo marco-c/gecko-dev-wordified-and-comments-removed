@@ -608,12 +608,11 @@ nsPresContextType
 aType
 )
 ;
-nsresult
+void
 Init
 (
 nsDeviceContext
 *
-aDeviceContext
 )
 ;
 void

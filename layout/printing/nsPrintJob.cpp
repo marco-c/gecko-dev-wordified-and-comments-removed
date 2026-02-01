@@ -5926,8 +5926,6 @@ SetPrintSettings
 mPrintSettings
 )
 ;
-MOZ_TRY
-(
 aPO
 -
 >
@@ -5940,7 +5938,6 @@ printData
 -
 >
 mPrintDC
-)
 )
 ;
 bool

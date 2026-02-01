@@ -3376,7 +3376,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 EventStateManager
 :
 :
@@ -3402,12 +3402,9 @@ GetObserverService
 ;
 if
 (
-!
 observerService
 )
-return
-NS_ERROR_FAILURE
-;
+{
 observerService
 -
 >
@@ -3418,9 +3415,7 @@ NS_XPCOM_SHUTDOWN_OBSERVER_ID
 true
 )
 ;
-return
-NS_OK
-;
+}
 }
 bool
 EventStateManager
@@ -3695,7 +3690,7 @@ NS_XPCOM_SHUTDOWN_OBSERVER_ID
 }
 }
 }
-nsresult
+void
 EventStateManager
 :
 :
@@ -3706,9 +3701,6 @@ Shutdown
 m_haveShutdown
 =
 true
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
