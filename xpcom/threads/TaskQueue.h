@@ -325,6 +325,15 @@ aTask
 )
 override
 ;
+NS_IMETHOD_
+(
+FeatureFlags
+)
+GetFeatures
+(
+)
+override
+;
 using
 CancelPromise
 =
