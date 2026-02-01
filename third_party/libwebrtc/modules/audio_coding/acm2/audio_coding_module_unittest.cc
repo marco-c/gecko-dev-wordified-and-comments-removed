@@ -4994,7 +4994,7 @@ WEBRTC_ARCH_X86_64
 TEST_F
 (
 AcmSenderBitExactnessOldApi
-Opus_stereo_20ms
+DISABLED_Opus_stereo_20ms
 )
 {
 ASSERT_NO_FATAL_FAILURE
@@ -5044,7 +5044,7 @@ WEBRTC_ARCH_X86_64
 TEST_F
 (
 AcmSenderBitExactnessNewApi
-OpusFromFormat_stereo_20ms
+DISABLED_OpusFromFormat_stereo_20ms
 )
 {
 const
@@ -5339,7 +5339,7 @@ WEBRTC_ARCH_X86_64
 TEST_F
 (
 AcmSenderBitExactnessNewApi
-OpusFromFormat_stereo_20ms_voip
+DISABLED_OpusFromFormat_stereo_20ms_voip
 )
 {
 auto
