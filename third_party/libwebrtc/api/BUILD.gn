@@ -1900,6 +1900,14 @@ simulcast_sdp_serializer
 /
 rtc_base
 :
+base64
+"
+"
+.
+.
+/
+rtc_base
+:
 checks
 "
 "

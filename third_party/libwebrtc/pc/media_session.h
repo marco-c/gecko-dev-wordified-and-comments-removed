@@ -691,11 +691,6 @@ TransportDescriptionFactory
 *
 transport_desc_factory_
 ;
-[
-[
-maybe_unused
-]
-]
 SctpTransportFactoryInterface
 *
 sctp_factory_
@@ -707,11 +702,6 @@ codec_lookup_helper_
 bool
 payload_types_in_transport_trial_enabled_
 ;
-[
-[
-maybe_unused
-]
-]
 const
 Environment
 env_
