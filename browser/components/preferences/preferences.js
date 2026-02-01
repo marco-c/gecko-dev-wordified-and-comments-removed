@@ -1471,6 +1471,9 @@ groupIds
 "
 aiFeatures
 "
+"
+aiWindowFeatures
+"
 ]
 module
 :
