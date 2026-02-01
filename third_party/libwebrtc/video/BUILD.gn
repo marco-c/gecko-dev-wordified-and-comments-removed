@@ -4852,6 +4852,14 @@ webrtc_vp9
 /
 test
 :
+create_test_field_trials
+"
+"
+.
+.
+/
+test
+:
 fileutils
 "
 "

@@ -2538,9 +2538,8 @@ field_trials_ptr
 :
 CreateTestFieldTrials
 (
-injection_components
-.
-field_trials
+"
+"
 )
 )
 video_decoder_factory_

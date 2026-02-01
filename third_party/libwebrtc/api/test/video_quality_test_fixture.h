@@ -585,12 +585,6 @@ receiver_network
 std
 :
 :
-string
-field_trials
-;
-std
-:
-:
 unique_ptr
 <
 FieldTrials
