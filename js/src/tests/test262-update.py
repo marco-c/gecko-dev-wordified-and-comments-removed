@@ -255,19 +255,6 @@ concat
 "
     
 "
-Math
-.
-sumPrecise
-"
-:
-"
-!
-Math
-.
-sumPrecise
-"
-    
-"
 immutable
 -
 arraybuffer
