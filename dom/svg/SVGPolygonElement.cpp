@@ -180,7 +180,10 @@ type
 SVGMark
 :
 :
-eEnd
+Type
+:
+:
+End
 )
 {
 return
@@ -247,7 +250,10 @@ type
 SVGMark
 :
 :
-eMid
+Type
+:
+:
+Mid
 ;
 endMark
 -
@@ -305,7 +311,10 @@ angle
 SVGMark
 :
 :
-eEnd
+Type
+:
+:
+End
 )
 )
 ;

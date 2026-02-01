@@ -469,7 +469,10 @@ angle
 SVGMark
 :
 :
-eStart
+Type
+:
+:
+Start
 )
 )
 ;
@@ -486,7 +489,10 @@ angle
 SVGMark
 :
 :
-eEnd
+Type
+:
+:
+End
 )
 )
 ;
