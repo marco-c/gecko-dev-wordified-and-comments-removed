@@ -501,7 +501,7 @@ file
 on
 (
 '
-finish
+close
 '
 (
 )

@@ -110,6 +110,7 @@ BrowserPlatform
 ChromeReleaseChannel
 createProfile
 getVersionComparator
+resolveDefaultUserDataDir
 }
 from
 '
@@ -143,6 +144,10 @@ export
 {
 Cache
 InstalledBrowser
+type
+Metadata
+type
+ComputeExecutablePathOptions
 }
 from
 '

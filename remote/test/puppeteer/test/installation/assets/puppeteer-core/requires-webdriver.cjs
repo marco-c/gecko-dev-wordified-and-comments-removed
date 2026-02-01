@@ -56,7 +56,7 @@ core
 /
 lib
 /
-cjs
+esm
 /
 puppeteer
 /
@@ -75,7 +75,7 @@ core
 /
 lib
 /
-cjs
+esm
 /
 puppeteer
 /

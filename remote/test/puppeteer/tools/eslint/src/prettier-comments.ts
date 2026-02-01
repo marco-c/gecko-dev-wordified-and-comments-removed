@@ -572,6 +572,6 @@ return
 )
 ;
 export
-=
+default
 prettierCommentsRule
 ;

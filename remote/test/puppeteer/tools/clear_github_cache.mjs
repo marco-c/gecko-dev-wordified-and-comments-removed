@@ -29,6 +29,8 @@ exec
 }
 from
 '
+node
+:
 child_process
 '
 ;
@@ -38,6 +40,8 @@ promisify
 }
 from
 '
+node
+:
 util
 '
 ;

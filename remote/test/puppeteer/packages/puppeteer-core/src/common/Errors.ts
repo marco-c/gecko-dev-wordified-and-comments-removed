@@ -164,3 +164,10 @@ extends
 ProtocolError
 {
 }
+export
+class
+ConnectionClosedError
+extends
+ProtocolError
+{
+}

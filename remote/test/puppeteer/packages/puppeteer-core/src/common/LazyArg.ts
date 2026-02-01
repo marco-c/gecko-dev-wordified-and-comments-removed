@@ -17,7 +17,9 @@ js
 ;
 import
 type
-PuppeteerUtil
+{
+PuppeteerInjectedUtil
+}
 from
 '
 .
@@ -40,7 +42,7 @@ Promise
 <
 JSHandle
 <
-PuppeteerUtil
+PuppeteerInjectedUtil
 >
 >
 ;

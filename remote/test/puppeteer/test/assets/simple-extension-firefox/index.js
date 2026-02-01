@@ -1,0 +1,6 @@
+globalThis
+.
+MAGIC
+=
+42
+;

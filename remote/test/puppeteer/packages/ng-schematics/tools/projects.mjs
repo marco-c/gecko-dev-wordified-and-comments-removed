@@ -29,6 +29,8 @@ spawn
 }
 from
 '
+node
+:
 child_process
 '
 ;
@@ -38,6 +40,8 @@ randomUUID
 }
 from
 '
+node
+:
 crypto
 '
 ;
@@ -48,6 +52,8 @@ writeFile
 }
 from
 '
+node
+:
 fs
 /
 promises
@@ -59,6 +65,8 @@ join
 }
 from
 '
+node
+:
 path
 '
 ;
@@ -68,6 +76,8 @@ cwd
 }
 from
 '
+node
+:
 process
 '
 ;

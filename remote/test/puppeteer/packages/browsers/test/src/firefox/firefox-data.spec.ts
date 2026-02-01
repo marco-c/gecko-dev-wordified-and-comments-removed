@@ -51,7 +51,7 @@ from
 /
 lib
 /
-cjs
+esm
 /
 browser
 -
@@ -84,7 +84,7 @@ from
 /
 lib
 /
-cjs
+esm
 /
 browser
 -

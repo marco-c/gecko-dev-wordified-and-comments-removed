@@ -493,9 +493,14 @@ Configuration
 =
 result
 ?
+{
+.
+.
+.
 result
 .
 config
+}
 :
 {
 }

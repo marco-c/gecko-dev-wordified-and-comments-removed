@@ -53,6 +53,7 @@ js
 import
 {
 attachFrame
+html
 }
 from
 '
@@ -1402,6 +1403,7 @@ page
 .
 setContent
 (
+html
 <
 iframe
 srcdoc
@@ -1431,6 +1433,7 @@ textarea
 iframe
 >
 "
+>
 <
 /
 iframe

@@ -36,14 +36,14 @@ module
 "
 :
 "
-NodeNext
+ES2022
 "
 "
 moduleResolution
 "
 :
 "
-NodeNext
+Bundler
 "
 "
 outDir

@@ -151,9 +151,9 @@ packageDirectory
 }
 from
 '
-pkg
+package
 -
-dir
+directory
 '
 ;
 import

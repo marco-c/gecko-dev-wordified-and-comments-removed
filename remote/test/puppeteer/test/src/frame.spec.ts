@@ -84,6 +84,7 @@ import
 attachFrame
 detachFrame
 dumpFrames
+html
 navigateFrame
 waitEvent
 }
@@ -2811,6 +2812,7 @@ page
 .
 setContent
 (
+html
 <
 div
 id

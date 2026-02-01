@@ -245,6 +245,8 @@ this
 #
 remoteObject
 )
+as
+T
 ;
 }
 const

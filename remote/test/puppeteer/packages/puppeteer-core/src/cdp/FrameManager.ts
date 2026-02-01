@@ -232,7 +232,7 @@ js
 ;
 import
 {
-DeviceRequestPromptManager
+CdpDeviceRequestPromptManager
 }
 from
 '
@@ -474,7 +474,7 @@ new
 WeakMap
 <
 CDPSession
-DeviceRequestPromptManager
+CdpDeviceRequestPromptManager
 >
 (
 )
@@ -570,6 +570,15 @@ new
 NetworkManager
 (
 this
+page
+.
+browser
+(
+)
+.
+isNetworkEnabled
+(
+)
 )
 ;
 this
@@ -2115,7 +2124,7 @@ client
 CDPSession
 )
 :
-DeviceRequestPromptManager
+CdpDeviceRequestPromptManager
 {
 let
 manager
@@ -2142,7 +2151,7 @@ undefined
 manager
 =
 new
-DeviceRequestPromptManager
+CdpDeviceRequestPromptManager
 (
 client
 this

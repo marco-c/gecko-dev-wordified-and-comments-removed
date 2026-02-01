@@ -48,7 +48,7 @@ from
 /
 lib
 /
-cjs
+esm
 /
 CLI
 .

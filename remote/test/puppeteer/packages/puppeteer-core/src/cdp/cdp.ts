@@ -15,7 +15,7 @@ from
 '
 .
 /
-AriaQueryHandler
+Binding
 .
 js
 '
@@ -26,7 +26,7 @@ from
 '
 .
 /
-Binding
+BluetoothEmulation
 .
 js
 '
@@ -357,6 +357,17 @@ from
 .
 /
 TargetManager
+.
+js
+'
+;
+export
+*
+from
+'
+.
+/
+TargetManageEvents
 .
 js
 '

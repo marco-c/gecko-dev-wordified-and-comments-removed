@@ -137,6 +137,11 @@ platform
 case
 BrowserPlatform
 .
+LINUX_ARM
+:
+case
+BrowserPlatform
+.
 LINUX
 :
 return
@@ -154,11 +159,6 @@ return
 Mac_Arm
 '
 ;
-case
-BrowserPlatform
-.
-LINUX_ARM
-:
 case
 BrowserPlatform
 .

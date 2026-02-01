@@ -31,6 +31,19 @@ utils
 js
 '
 ;
+import
+{
+html
+}
+from
+'
+.
+/
+utils
+.
+js
+'
+;
 describe
 (
 '
@@ -1104,6 +1117,7 @@ page
 .
 setContent
 (
+html
 <
 div
 style
@@ -1118,6 +1132,10 @@ height
 11px
 ;
 "
+>
+<
+/
+div
 >
 )
 ;
@@ -1820,6 +1838,7 @@ page
 .
 setContent
 (
+html
 something
 above
 <
@@ -1955,6 +1974,7 @@ page
 .
 setContent
 (
+html
 something
 above
 <
@@ -2158,6 +2178,7 @@ page
 .
 setContent
 (
+html
 something
 above
 <
@@ -2339,6 +2360,7 @@ page
 .
 setContent
 (
+html
 <
 !
 DOCTYPE
@@ -2469,7 +2491,7 @@ page
 .
 setContent
 (
-'
+html
 <
 h1
 >
@@ -2479,7 +2501,6 @@ this
 /
 h1
 >
-'
 )
 ;
 using
@@ -2614,7 +2635,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 style
@@ -2633,7 +2654,6 @@ height
 /
 div
 >
-'
 )
 ;
 using
@@ -2727,7 +2747,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 style
@@ -2757,7 +2777,6 @@ black
 /
 div
 >
-'
 )
 ;
 using
@@ -2839,7 +2858,7 @@ page
 .
 setContent
 (
-'
+html
 <
 !
 DOCTYPE
@@ -2890,7 +2909,6 @@ black
 /
 div
 >
-'
 )
 ;
 using
@@ -3482,6 +3500,7 @@ page
 .
 setContent
 (
+html
 something
 above
 <

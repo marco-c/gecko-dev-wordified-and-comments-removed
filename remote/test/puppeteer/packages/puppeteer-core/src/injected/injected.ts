@@ -213,8 +213,9 @@ RAFPoller
 }
 )
 ;
+export
 type
-PuppeteerUtil
+PuppeteerInjectedUtil
 =
 typeof
 PuppeteerUtil

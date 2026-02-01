@@ -55,7 +55,7 @@ from
 /
 lib
 /
-cjs
+esm
 /
 main
 .

@@ -3042,6 +3042,7 @@ up
 ;
 }
 }
+export
 class
 CdpTouchHandle
 implements

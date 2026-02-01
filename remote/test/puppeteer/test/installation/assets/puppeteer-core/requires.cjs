@@ -56,7 +56,7 @@ core
 /
 lib
 /
-cjs
+esm
 /
 puppeteer
 /

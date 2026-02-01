@@ -58,11 +58,6 @@ bundledPackages
 "
 :
 [
-"
-puppeteer
--
-core
-"
 ]
 "
 apiReport
@@ -147,7 +142,7 @@ logLevel
 "
 :
 "
-warning
+error
 "
 }
 }
@@ -206,7 +201,7 @@ logLevel
 "
 :
 "
-warning
+error
 "
 }
 }
@@ -225,7 +220,7 @@ logLevel
 "
 :
 "
-warning
+error
 "
 }
 }

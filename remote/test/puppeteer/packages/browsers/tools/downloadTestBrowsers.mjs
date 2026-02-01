@@ -60,6 +60,8 @@ rmSync
 }
 from
 '
+node
+:
 fs
 '
 ;
@@ -71,6 +73,8 @@ dirname
 }
 from
 '
+node
+:
 path
 '
 ;

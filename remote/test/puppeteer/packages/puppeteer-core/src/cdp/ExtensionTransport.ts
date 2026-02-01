@@ -263,6 +263,13 @@ object
 :
 void
 {
+setTimeout
+(
+(
+)
+=
+>
+{
 this
 .
 onmessage
@@ -275,6 +282,10 @@ stringify
 (
 message
 )
+)
+;
+}
+0
 )
 ;
 }
@@ -531,6 +542,11 @@ method
 Target
 .
 attachedToTarget
+'
+sessionId
+:
+'
+tabTargetSessionId
 '
 params
 :

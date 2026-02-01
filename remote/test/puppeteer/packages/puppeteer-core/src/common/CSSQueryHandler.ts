@@ -1,6 +1,8 @@
 import
 type
-PuppeteerUtil
+{
+PuppeteerInjectedUtil
+}
 from
 '
 .
@@ -47,7 +49,7 @@ string
 cssQuerySelector
 }
 :
-PuppeteerUtil
+PuppeteerInjectedUtil
 )
 :
 Node
@@ -80,7 +82,7 @@ string
 cssQuerySelectorAll
 }
 :
-PuppeteerUtil
+PuppeteerInjectedUtil
 )
 :
 Iterable
