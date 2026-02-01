@@ -142,16 +142,11 @@ queryParams
 [
 ]
 ;
-boolean
-isGlobal
-=
-false
-;
 sequence
 <
 UTF8String
 >
-origins
+topLevelSites
 =
 [
 ]

@@ -881,9 +881,13 @@ queryParams
 utm_ad
 "
 ]
-isGlobal
+topLevelSites
 :
-true
+[
+"
+*
+"
+]
 }
 example
 :
@@ -898,7 +902,7 @@ test_2
 test_1
 "
 ]
-origins
+topLevelSites
 :
 [
 "
@@ -923,7 +927,7 @@ test_3
 test_4
 "
 ]
-origins
+topLevelSites
 :
 [
 "

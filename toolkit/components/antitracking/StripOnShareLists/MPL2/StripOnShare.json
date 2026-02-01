@@ -5,11 +5,6 @@ global
 :
 {
 "
-isGlobal
-"
-:
-true
-"
 queryParams
 "
 :
@@ -170,6 +165,15 @@ hsa_net
 hsa_mt
 "
 ]
+"
+topLevelSites
+"
+:
+[
+"
+*
+"
+]
 }
 "
 twitter
@@ -189,7 +193,7 @@ ref_url
 "
 ]
 "
-origins
+topLevelSites
 "
 :
 [
@@ -230,7 +234,7 @@ ig_rid
 "
 ]
 "
-origins
+topLevelSites
 "
 :
 [
@@ -359,7 +363,7 @@ store_ref
 "
 ]
 "
-origins
+topLevelSites
 "
 :
 [
@@ -585,7 +589,7 @@ share
 "
 ]
 "
-origins
+topLevelSites
 "
 :
 [
@@ -616,7 +620,7 @@ xptdk
 "
 ]
 "
-origins
+topLevelSites
 "
 :
 [
@@ -704,7 +708,7 @@ extParam
 "
 ]
 "
-origins
+topLevelSites
 "
 :
 [
@@ -732,7 +736,7 @@ si
 "
 ]
 "
-origins
+topLevelSites
 "
 :
 [
@@ -769,7 +773,7 @@ searchId
 "
 ]
 "
-origins
+topLevelSites
 "
 :
 [
@@ -810,7 +814,7 @@ __tn__
 "
 ]
 "
-origins
+topLevelSites
 "
 :
 [
@@ -838,7 +842,7 @@ wprov
 "
 ]
 "
-origins
+topLevelSites
 "
 :
 [
@@ -985,7 +989,7 @@ live_from
 "
 ]
 "
-origins
+topLevelSites
 "
 :
 [
@@ -1033,7 +1037,7 @@ hmb_campaign
 "
 ]
 "
-origins
+topLevelSites
 "
 :
 [
