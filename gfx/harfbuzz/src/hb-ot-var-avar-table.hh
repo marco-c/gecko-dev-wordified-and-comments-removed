@@ -2397,6 +2397,15 @@ return
 true
 ;
 #
+else
+return
+version
+.
+major
+<
+2
+;
+#
 endif
 }
 bool

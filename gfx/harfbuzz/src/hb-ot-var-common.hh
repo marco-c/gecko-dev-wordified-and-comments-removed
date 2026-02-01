@@ -1624,7 +1624,7 @@ axis_tuples
 ;
 indices
 .
-allocate_from_pool
+duplicate_vector_from_pool
 (
 pool
 o
@@ -1634,7 +1634,7 @@ indices
 ;
 deltas_x
 .
-allocate_from_pool
+duplicate_vector_from_pool
 (
 pool
 o
@@ -1644,7 +1644,7 @@ deltas_x
 ;
 deltas_y
 .
-allocate_from_pool
+duplicate_vector_from_pool
 (
 pool
 o
@@ -1654,7 +1654,7 @@ deltas_y
 ;
 compiled_tuple_header
 .
-allocate_from_pool
+duplicate_vector_from_pool
 (
 pool
 o
@@ -1664,7 +1664,7 @@ compiled_tuple_header
 ;
 compiled_deltas
 .
-allocate_from_pool
+duplicate_vector_from_pool
 (
 pool
 o
@@ -1674,7 +1674,7 @@ compiled_deltas
 ;
 compiled_peak_coords
 .
-allocate_from_pool
+duplicate_vector_from_pool
 (
 pool
 o
@@ -1684,7 +1684,7 @@ compiled_peak_coords
 ;
 compiled_interm_coords
 .
-allocate_from_pool
+duplicate_vector_from_pool
 (
 pool
 o

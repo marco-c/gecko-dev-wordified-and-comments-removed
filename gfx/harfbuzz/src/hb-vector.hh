@@ -2954,7 +2954,7 @@ allocator_t
 >
 HB_ALWAYS_INLINE_VECTOR_ALLOCS
 bool
-allocate_from_pool
+duplicate_vector_from_pool
 (
 allocator_t
 *
