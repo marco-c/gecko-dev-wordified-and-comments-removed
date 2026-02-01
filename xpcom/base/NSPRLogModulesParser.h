@@ -1,4 +1,10 @@
 #
+ifndef
+XPCOM_BASE_NSPRLOGMODULESPARSER_H_
+#
+define
+XPCOM_BASE_NSPRLOGMODULESPARSER_H_
+#
 include
 "
 mozilla
@@ -42,3 +48,5 @@ aCallback
 )
 ;
 }
+#
+endif

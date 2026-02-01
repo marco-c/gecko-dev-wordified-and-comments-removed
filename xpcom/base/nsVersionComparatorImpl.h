@@ -1,4 +1,10 @@
 #
+ifndef
+XPCOM_BASE_NSVERSIONCOMPARATORIMPL_H_
+#
+define
+XPCOM_BASE_NSVERSIONCOMPARATORIMPL_H_
+#
 include
 "
 nsIVersionComparator
@@ -61,3 +67,5 @@ NS_VERSIONCOMPARATOR_CID
 0xa8
 }
 }
+#
+endif
