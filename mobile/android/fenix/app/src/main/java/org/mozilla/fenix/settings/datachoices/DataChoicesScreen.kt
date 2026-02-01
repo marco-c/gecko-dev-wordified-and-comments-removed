@@ -1732,6 +1732,7 @@ that
 displays
 the
 user
+'
 s
 participation
 status
@@ -1894,7 +1895,7 @@ R
 .
 string
 .
-studies_title
+studies_title_2
 )
 description
 =
