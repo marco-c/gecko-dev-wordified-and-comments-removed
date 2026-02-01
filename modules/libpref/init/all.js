@@ -28297,6 +28297,12 @@ key
 %
 GOOGLE_LOCATION_SERVICE_API_KEY
 %
+&
+solution_channel
+=
+%
+OS
+%
 "
 )
 ;
