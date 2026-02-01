@@ -13,6 +13,10 @@ justViewport
 :
 boolean
 ;
+includeLinks
+:
+boolean
+;
 }
 >
 ;

@@ -125,6 +125,7 @@ div
 ;
 is
 (
+(
 await
 actor
 .
@@ -136,6 +137,9 @@ justViewport
 true
 }
 )
+)
+.
+text
 "
 Viewport
 page
@@ -192,6 +196,7 @@ scrollIntoView
 ;
 is
 (
+(
 await
 actor
 .
@@ -203,6 +208,9 @@ justViewport
 true
 }
 )
+)
+.
+text
 "
 Viewport
 page
@@ -222,12 +230,16 @@ position
 ;
 is
 (
+(
 await
 actor
 .
 getText
 (
 )
+)
+.
+text
 [
 "
 Viewport
