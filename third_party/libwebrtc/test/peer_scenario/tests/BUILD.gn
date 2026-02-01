@@ -528,6 +528,17 @@ network_constants
 .
 .
 /
+network
+:
+emulated_network
+"
+"
+.
+.
+/
+.
+.
+/
 scenario
 "
 "

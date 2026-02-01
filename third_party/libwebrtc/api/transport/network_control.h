@@ -275,6 +275,17 @@ NetworkStateEstimate
 =
 0
 ;
+virtual
+bool
+SupportsEcnAdaptation
+(
+)
+const
+{
+return
+false
+;
+}
 }
 ;
 class

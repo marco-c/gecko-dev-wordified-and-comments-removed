@@ -208,6 +208,17 @@ NetworkStateEstimate
 )
 override
 ;
+bool
+SupportsEcnAdaptation
+(
+)
+const
+override
+{
+return
+true
+;
+}
 private
 :
 NetworkControlUpdate
