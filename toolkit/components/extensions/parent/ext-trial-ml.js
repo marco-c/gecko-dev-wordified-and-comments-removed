@@ -156,6 +156,12 @@ ExtensionError
 (
 Trial
 ML
+API
+is
+disabled
+.
+This
+API
 is
 only
 available
@@ -556,10 +562,6 @@ getAPI
 context
 )
 {
-ensureInferenceEnabled
-(
-)
-;
 return
 {
 trial
@@ -575,6 +577,10 @@ request
 =
 >
 {
+ensureInferenceEnabled
+(
+)
+;
 if
 (
 !
@@ -651,6 +657,10 @@ request
 =
 >
 {
+ensureInferenceEnabled
+(
+)
+;
 if
 (
 this
@@ -724,6 +734,10 @@ async
 =
 >
 {
+ensureInferenceEnabled
+(
+)
+;
 await
 modelHub
 .
