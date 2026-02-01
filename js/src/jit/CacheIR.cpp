@@ -66561,12 +66561,6 @@ case
 InlinableNative
 :
 :
-IntlGuardToSegmenter
-:
-case
-InlinableNative
-:
-:
 IntlGuardToSegments
 :
 case
