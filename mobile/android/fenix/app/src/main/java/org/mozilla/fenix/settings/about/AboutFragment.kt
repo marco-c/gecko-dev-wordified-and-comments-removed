@@ -406,10 +406,7 @@ aboutPageAdapter
 AboutPageAdapter
 ?
 =
-AboutPageAdapter
-(
-this
-)
+null
 private
 var
 _binding
@@ -580,6 +577,13 @@ super
 onDestroyView
 (
 )
+binding
+.
+aboutList
+.
+adapter
+=
+null
 aboutPageAdapter
 =
 null
