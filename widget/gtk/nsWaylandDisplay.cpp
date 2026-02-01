@@ -4063,7 +4063,7 @@ registry
 id
 &
 wp_color_manager_v1_interface
-version
+1
 )
 ;
 display
@@ -4139,7 +4139,7 @@ registry
 id
 &
 xx_pip_shell_v1_interface
-version
+1
 )
 ;
 display
@@ -4164,6 +4164,20 @@ xdg_wm_base
 )
 )
 {
+uint32_t
+vers
+=
+MIN
+(
+version
+(
+uint32_t
+)
+xdg_wm_base_interface
+.
+version
+)
+;
 auto
 *
 xdgWm
@@ -4177,7 +4191,7 @@ registry
 id
 &
 xdg_wm_base_interface
-version
+vers
 )
 ;
 display
