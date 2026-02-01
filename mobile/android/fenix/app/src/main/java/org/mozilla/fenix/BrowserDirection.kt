@@ -301,14 +301,6 @@ id
 .
 addonPermissionsDetailFragment
 )
-FromLoginDetailFragment
-(
-R
-.
-id
-.
-loginDetailFragment
-)
 FromTabManager
 (
 R
