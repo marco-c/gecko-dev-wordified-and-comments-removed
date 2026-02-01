@@ -2237,9 +2237,11 @@ onSendPendingIntentWithUrl
 :
 :
 sendPendingIntentWithUrl
-scope
+mainDispatcher
 =
-coroutineScope
+Dispatchers
+.
+Main
 lastSavedFolderCache
 =
 context
