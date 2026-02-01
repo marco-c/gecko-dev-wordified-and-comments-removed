@@ -76,11 +76,11 @@ h
 #
 include
 "
-p2p
+api
 /
-base
+units
 /
-p2p_constants
+time_delta
 .
 h
 "
@@ -91,7 +91,7 @@ p2p
 /
 base
 /
-port
+p2p_constants
 .
 h
 "
@@ -1202,10 +1202,6 @@ IceTransportInternal
 (
 )
 :
-candidate_gathered_trampoline_
-(
-this
-)
 role_conflict_trampoline_
 (
 this
@@ -1370,9 +1366,9 @@ Candidate
 callback
 )
 {
-candidate_gathered_trampoline_
+candidate_gathered_callbacks_
 .
-Subscribe
+AddReceiver
 (
 std
 :
