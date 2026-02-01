@@ -96,6 +96,11 @@ Printf
 cpp
 "
 "
+RandomSeed
+.
+cpp
+"
+"
 StringBuilder
 .
 cpp
