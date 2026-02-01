@@ -80,6 +80,11 @@ apple
 darwin
 -
 lipo
+_MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE
+=
+MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE
+unset
+MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE
 for
 i
 in
@@ -91,6 +96,10 @@ GECKO_PATH
 /
 mach
 python
+-
+-
+virtualenv
+repackage
 -
 m
 mozbuild
@@ -137,6 +146,10 @@ GECKO_PATH
 mach
 python
 -
+-
+virtualenv
+repackage
+-
 m
 mozbuild
 .
@@ -147,6 +160,10 @@ x64
 target
 .
 dmg
+export
+MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE
+=
+_MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE
 mkdir
 -
 p
