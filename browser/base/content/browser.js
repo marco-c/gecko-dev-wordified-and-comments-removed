@@ -18476,6 +18476,9 @@ aOpenParams
 aUserContextId
 =
 null
+aSplitView
+=
+null
 )
 {
 return
@@ -18488,6 +18491,7 @@ aURI
 aOpenNew
 aOpenParams
 aUserContextId
+aSplitView
 )
 ;
 }
