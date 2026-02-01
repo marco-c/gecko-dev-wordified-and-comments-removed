@@ -502,6 +502,10 @@ WaylandBuffer
 :
 IsAttached
 (
+const
+WaylandSurfaceLock
+&
+aSurfaceLock
 )
 const
 {
@@ -754,6 +758,10 @@ WaylandBuffer
 :
 RemoveTransaction
 (
+const
+WaylandSurfaceLock
+&
+aSurfaceLock
 RefPtr
 <
 BufferTransaction
@@ -1155,8 +1163,9 @@ this
 ;
 MOZ_RELEASE_ASSERT
 (
-!
-IsAttached
+mBufferTransactions
+.
+IsEmpty
 (
 )
 )
@@ -1877,8 +1886,9 @@ GetUID
 ;
 MOZ_RELEASE_ASSERT
 (
-!
-IsAttached
+mBufferTransactions
+.
+IsEmpty
 (
 )
 )
@@ -2844,6 +2854,7 @@ mBuffer
 >
 RemoveTransaction
 (
+aSurfaceLock
 this
 )
 ;
