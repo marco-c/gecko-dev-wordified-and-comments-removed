@@ -340,7 +340,7 @@ add_task
 (
 async
 function
-unblock_icon_should_disapear_after_resume_tab
+unblock_icon_should_disappear_after_resume_tab
 (
 )
 {
