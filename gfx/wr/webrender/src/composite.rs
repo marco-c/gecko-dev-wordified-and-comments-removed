@@ -3232,6 +3232,7 @@ did_rasterize_any_tile
 false
 }
 }
+pub
 fn
 compositor_clip_params
 (

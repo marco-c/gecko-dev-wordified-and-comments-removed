@@ -10240,6 +10240,17 @@ PrimitiveFlags
 :
 PREFER_COMPOSITOR_SURFACE
 )
+(
+"
+checkerboard
+-
+background
+"
+PrimitiveFlags
+:
+:
+CHECKERBOARD_BACKGROUND
+)
 ]
 {
 if
