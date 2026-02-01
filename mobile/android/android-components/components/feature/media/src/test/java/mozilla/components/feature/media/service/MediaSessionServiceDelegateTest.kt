@@ -169,6 +169,14 @@ coroutines
 .
 CoroutineExceptionHandler
 import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
+import
 mozilla
 .
 components
@@ -447,30 +455,6 @@ support
 .
 test
 .
-rule
-.
-MainCoroutineRule
-import
-mozilla
-.
-components
-.
-support
-.
-test
-.
-rule
-.
-runTestOnMain
-import
-mozilla
-.
-components
-.
-support
-.
-test
-.
 whenever
 import
 mozilla
@@ -532,12 +516,6 @@ junit
 Assert
 .
 assertTrue
-import
-org
-.
-junit
-.
-Rule
 import
 org
 .
@@ -638,15 +616,6 @@ class
 class
 MediaSessionServiceDelegateTest
 {
-get
-:
-Rule
-val
-coroutinesTestRule
-=
-MainCoroutineRule
-(
-)
 private
 val
 notificationId
@@ -678,6 +647,8 @@ focus
 manager
 (
 )
+=
+runTest
 {
 val
 delegate
@@ -697,6 +668,7 @@ mock
 mock
 (
 )
+this
 )
 delegate
 .
@@ -758,6 +730,8 @@ audio
 focus
 (
 )
+=
+runTest
 {
 val
 delegate
@@ -777,6 +751,7 @@ mock
 mock
 (
 )
+this
 )
 delegate
 .
@@ -843,6 +818,8 @@ emit
 telemetry
 (
 )
+=
+runTest
 {
 val
 delegate
@@ -862,6 +839,7 @@ mock
 mock
 (
 )
+this
 )
 delegate
 .
@@ -969,6 +947,8 @@ emit
 telemetry
 (
 )
+=
+runTest
 {
 val
 delegate
@@ -988,6 +968,7 @@ mock
 mock
 (
 )
+this
 )
 delegate
 .
@@ -1091,6 +1072,8 @@ and
 shutdown
 (
 )
+=
+runTest
 {
 val
 notificationManagerCompat
@@ -1237,6 +1220,8 @@ emit
 telemetry
 (
 )
+=
+runTest
 {
 val
 mediaTab
@@ -1262,6 +1247,7 @@ mock
 mock
 (
 )
+this
 )
 delegate
 .
@@ -1336,6 +1322,8 @@ internal
 properties
 (
 )
+=
+runTest
 {
 val
 mediaTab
@@ -1430,7 +1418,7 @@ properties
 (
 )
 =
-runTestOnMain
+runTest
 {
 val
 mediaTab
@@ -1462,6 +1450,7 @@ mock
 (
 )
 notificationsDelegate
+this
 )
 delegate
 .
@@ -1485,6 +1474,11 @@ delegate
 handleMediaPlaying
 (
 mediaTab
+)
+testScheduler
+.
+advanceUntilIdle
+(
 )
 verify
 (
@@ -1539,6 +1533,8 @@ as
 foreground
 (
 )
+=
+runTest
 {
 val
 mediaTab
@@ -1564,6 +1560,7 @@ mock
 mock
 (
 )
+this
 )
 delegate
 .
@@ -1587,6 +1584,11 @@ delegate
 handleMediaPlaying
 (
 mediaTab
+)
+testScheduler
+.
+advanceUntilIdle
+(
 )
 verify
 (
@@ -1633,7 +1635,7 @@ notification
 (
 )
 =
-runTestOnMain
+runTest
 {
 val
 mediaTab
@@ -1665,6 +1667,7 @@ mock
 (
 )
 notificationsDelegate
+this
 )
 delegate
 .
@@ -1708,6 +1711,11 @@ delegate
 updateNotification
 (
 mediaTab
+)
+testScheduler
+.
+advanceUntilIdle
+(
 )
 verify
 (
@@ -1764,7 +1772,7 @@ state
 (
 )
 =
-runTestOnMain
+runTest
 {
 val
 mediaTab
@@ -1790,6 +1798,7 @@ mock
 mock
 (
 )
+this
 )
 delegate
 .
@@ -1833,6 +1842,12 @@ delegate
 startForeground
 (
 mediaTab
+coroutineContext
+)
+testScheduler
+.
+advanceUntilIdle
+(
 )
 verify
 (
@@ -1880,6 +1895,8 @@ right
 session
 (
 )
+=
+runTest
 {
 val
 mediaTab1
@@ -2003,6 +2020,8 @@ emit
 telemetry
 (
 )
+=
+runTest
 {
 val
 mediaTab
@@ -2031,6 +2050,7 @@ mock
 mock
 (
 )
+this
 )
 CollectionProcessor
 .
@@ -2105,7 +2125,7 @@ service
 (
 )
 =
-runTestOnMain
+runTest
 {
 val
 mediaTab
@@ -2205,6 +2225,7 @@ mock
 (
 )
 notificationsDelegate
+this
 )
 )
 delegate
@@ -2247,6 +2268,11 @@ delegate
 handleMediaPaused
 (
 mediaTab
+)
+testScheduler
+.
+advanceUntilIdle
+(
 )
 verify
 (
@@ -2305,6 +2331,8 @@ emit
 telemetry
 (
 )
+=
+runTest
 {
 val
 mediaTab
@@ -2333,6 +2361,7 @@ mock
 mock
 (
 )
+this
 )
 CollectionProcessor
 .
@@ -2407,7 +2436,7 @@ service
 (
 )
 =
-runTestOnMain
+runTest
 {
 val
 mediaTab
@@ -2444,6 +2473,7 @@ mock
 (
 )
 notificationsDelegate
+this
 )
 )
 delegate
@@ -2461,6 +2491,11 @@ delegate
 handleMediaStopped
 (
 mediaTab
+)
+testScheduler
+.
+advanceUntilIdle
+(
 )
 verify
 (
@@ -2540,6 +2575,8 @@ media
 service
 (
 )
+=
+runTest
 {
 val
 notificationManagerCompat
@@ -2649,6 +2686,8 @@ media
 session
 (
 )
+=
+runTest
 {
 val
 bitmap
@@ -2743,6 +2782,7 @@ mock
 mock
 (
 )
+this
 )
 delegate
 .
@@ -2803,6 +2843,11 @@ delegate
 updateMediaSession
 (
 mediaTab
+)
+testScheduler
+.
+advanceUntilIdle
+(
 )
 verify
 (
@@ -3087,6 +3132,8 @@ foreground
 service
 (
 )
+=
+runTest
 {
 val
 delegate
@@ -3106,6 +3153,7 @@ mock
 mock
 (
 )
+this
 )
 delegate
 .
@@ -3157,6 +3205,8 @@ return
 early
 (
 )
+=
+runTest
 {
 val
 context
@@ -3246,6 +3296,8 @@ register
 it
 (
 )
+=
+runTest
 {
 val
 delegate
@@ -3334,6 +3386,8 @@ unregister
 it
 (
 )
+=
+runTest
 {
 val
 context
@@ -3451,6 +3505,8 @@ return
 early
 (
 )
+=
+runTest
 {
 val
 context
@@ -3515,6 +3571,8 @@ media
 service
 (
 )
+=
+runTest
 {
 val
 notificationManagerCompat
@@ -3611,6 +3669,8 @@ is
 paused
 (
 )
+=
+runTest
 {
 val
 controller
@@ -3747,7 +3807,7 @@ reporter
 (
 )
 =
-runTestOnMain
+runTest
 {
 val
 crashReporter
@@ -3779,6 +3839,7 @@ crashReporter
 mock
 (
 )
+this
 )
 delegate
 .
@@ -3860,6 +3921,12 @@ startForeground
 mock
 (
 )
+coroutineContext
+)
+testScheduler
+.
+advanceUntilIdle
+(
 )
 verify
 (
@@ -3898,6 +3965,8 @@ the
 exception
 (
 )
+=
+runTest
 {
 var
 throwable
@@ -3919,8 +3988,6 @@ throwable
 =
 t
 }
-runTestOnMain
-{
 val
 crashReporter
 :
@@ -3951,6 +4018,7 @@ crashReporter
 mock
 (
 )
+this
 )
 delegate
 .
@@ -4034,7 +4102,6 @@ mock
 )
 exceptionHandler
 )
-}
 throwable
 ?
 .
