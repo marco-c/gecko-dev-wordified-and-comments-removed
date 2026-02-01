@@ -456,7 +456,7 @@ cases
 /
 view
 /
-1836845
+3205329
 SmokeTest
 Test
 fun
@@ -627,7 +627,7 @@ cases
 /
 view
 /
-1836856
+3205332
 SmokeTest
 Test
 fun
@@ -750,7 +750,7 @@ cases
 /
 view
 /
-1836840
+3205316
 Test
 fun
 verifyAddAddressViewTest
@@ -822,7 +822,7 @@ cases
 /
 view
 /
-1836841
+3205321
 Test
 fun
 verifyEditAddressViewTest
@@ -903,6 +903,9 @@ FirstAddressAutofillDetails
 .
 name
 )
+waitForAppWindowToBeUpdated
+(
+)
 verifyEditAddressView
 (
 )
@@ -932,7 +935,7 @@ cases
 /
 view
 /
-1836839
+3205318
 Test
 fun
 verifyAddressAutofillToggleTest
@@ -1128,7 +1131,7 @@ cases
 /
 view
 /
-1836847
+3205330
 Test
 fun
 verifyManageAddressesPromptOptionTest
@@ -1279,7 +1282,7 @@ cases
 /
 view
 /
-1836849
+3205319
 Test
 fun
 verifyMultipleAddressesSelectionTest
@@ -1537,7 +1540,7 @@ cases
 /
 view
 /
-1836850
+3205322
 Test
 fun
 verifySavedAddressCanBeEditedTest
@@ -1696,7 +1699,7 @@ cases
 /
 view
 /
-1836848
+3205320
 Test
 fun
 verifyStateFieldUpdatesInAccordanceWithCountryFieldTest
@@ -1794,7 +1797,7 @@ cases
 /
 view
 /
-1836858
+3205331
 Test
 fun
 verifyFormFieldCanBeFilledManuallyTest
@@ -1969,7 +1972,7 @@ cases
 /
 view
 /
-1836838
+3205317
 Test
 fun
 verifyAutofillAddressSectionTest
