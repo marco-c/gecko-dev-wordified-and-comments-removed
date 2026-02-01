@@ -1961,7 +1961,10 @@ IsPausedByType
 SMILTimeContainer
 :
 :
-PAUSE_BEGIN
+PauseType
+:
+:
+Begin
 )
 )
 return

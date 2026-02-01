@@ -648,7 +648,10 @@ Resume
 SMILTimeContainer
 :
 :
-PAUSE_IMAGE
+PauseType
+:
+:
+Image
 )
 ;
 }
@@ -717,7 +720,10 @@ Pause
 SMILTimeContainer
 :
 :
-PAUSE_IMAGE
+PauseType
+:
+:
+Image
 )
 ;
 }

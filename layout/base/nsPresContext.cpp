@@ -6109,7 +6109,10 @@ Resume
 SMILTimeContainer
 :
 :
-PAUSE_USERPREF
+PauseType
+:
+:
+UserPref
 )
 ;
 }
@@ -6140,7 +6143,10 @@ Pause
 SMILTimeContainer
 :
 :
-PAUSE_USERPREF
+PauseType
+:
+:
+UserPref
 )
 ;
 }

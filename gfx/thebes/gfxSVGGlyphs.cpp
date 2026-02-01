@@ -908,7 +908,10 @@ Resume
 SMILTimeContainer
 :
 :
-PAUSE_IMAGE
+PauseType
+:
+:
+Image
 )
 ;
 }
