@@ -329,9 +329,9 @@ h
 Globals
 .
 h
-Globals_inc
+Globals
 .
-h
+inc
 and
 Globals
 .
@@ -344,9 +344,9 @@ other
 global
 values
 .
-Globals_inc
+Globals
 .
-h
+inc
 is
 included
 indirectly

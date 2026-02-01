@@ -343,14 +343,6 @@ WMFSymbols
 .
 h
 -
-memory
-/
-build
-/
-Globals_inc
-.
-h
--
 modules
 /
 libpref
