@@ -1480,9 +1480,7 @@ computed
 PositionAnchor
 :
 :
-none
-(
-)
+None
 "
 engines
 =
