@@ -152,6 +152,7 @@ from
 util
 import
 FileAvoidWrite
+construct_log_filename
 resolve_target_to_make
 from
 .
@@ -2510,11 +2511,12 @@ self
 _get_build_log_filename
 (
                     
+construct_log_filename
+(
 "
-profile_build_resources
-.
-json
+profile
 "
+)
                 
 )
             
@@ -7518,11 +7520,12 @@ self
 .
 _get_build_log_filename
 (
+construct_log_filename
+(
 "
 warnings
-.
-json
 "
+)
 )
         
 monitor

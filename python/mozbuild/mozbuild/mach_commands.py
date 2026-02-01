@@ -117,6 +117,8 @@ MOZBUILD_METRICS_PATH
 ForwardingArgumentParser
     
 ensure_l10n_central
+    
+get_latest_file
 )
 here
 =
@@ -3873,34 +3875,33 @@ command_name
 }
 "
         
-log_path
+log_dir
 =
 Path
 (
-            
 command_context
 .
 _get_state_filename
 (
 "
-last_log
-.
-json
 "
 subdir
 =
 subdir
 )
+)
         
+log_path
+=
+get_latest_file
+(
+log_dir
+command_name
 )
         
 if
 not
 log_path
-.
-exists
-(
-)
 :
             
 command_context
@@ -3911,21 +3912,35 @@ log
 logging
 .
 WARNING
+                
 "
 show_log
 "
+                
 {
 }
+                
 f
 "
-Log
-file
-not
+No
+log
+files
 found
-:
+for
+latest
+'
 {
-log_path
+command_name
 }
+'
+command
+.
+They
+may
+have
+been
+deleted
+.
 "
             
 )
@@ -4297,14 +4312,15 @@ command_context
 :
     
 return
+get_latest_file
+(
 command_context
 .
-_get_build_log_filename
+_build_log_dir
 (
+)
 "
 warnings
-.
-json
 "
 )
 def
@@ -4337,13 +4353,12 @@ WarningsDatabase
 )
     
 if
-os
-.
+path
+and
 path
 .
 exists
 (
-path
 )
 :
         
@@ -4351,7 +4366,10 @@ database
 .
 load_from_file
 (
+str
+(
 path
+)
 )
     
 return
