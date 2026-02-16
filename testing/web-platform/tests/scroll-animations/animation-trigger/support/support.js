@@ -528,14 +528,14 @@ y
 "
 }
 )
-entryRangeStart
+activationRangeStart
 :
 "
 contain
 0
 %
 "
-entryRangeEnd
+activationRangeEnd
 :
 "
 contain
