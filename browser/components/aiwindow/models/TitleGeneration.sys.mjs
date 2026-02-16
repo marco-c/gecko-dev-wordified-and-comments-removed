@@ -319,13 +319,13 @@ build
 MODEL_FEATURES
 .
 TITLE_GENERATION
-"
-smart
+{
+MODEL_FEATURES
+.
+TITLE_GENERATION
+}
 -
-openai
--
-title
-"
+engine
 )
 ;
 const
@@ -375,7 +375,6 @@ TITLE_GENERATION
 const
 systemPrompt
 =
-await
 renderPrompt
 (
 rawPrompt
