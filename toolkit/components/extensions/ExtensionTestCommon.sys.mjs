@@ -5339,6 +5339,16 @@ number
 ;
 }
 let
+version
+=
+data
+.
+manifest
+?
+.
+version
+;
+let
 signedState
 =
 lazy
@@ -5411,6 +5421,7 @@ Extension
 (
 {
 id
+version
 resourceURI
 :
 jarURI

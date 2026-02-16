@@ -1034,6 +1034,11 @@ name
 extension
 .
 name
+version
+:
+extension
+.
+version
 type
 :
 extension

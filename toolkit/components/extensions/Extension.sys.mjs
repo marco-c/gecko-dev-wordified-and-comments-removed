@@ -24597,6 +24597,11 @@ name
 this
 .
 name
+version
+:
+this
+.
+version
 type
 :
 this
@@ -26360,6 +26365,11 @@ baseURL
 this
 .
 resourceURL
+version
+:
+this
+.
+version
 isPrivileged
 :
 this
@@ -26448,6 +26458,11 @@ baseURL
 this
 .
 resourceURL
+version
+:
+this
+.
+version
 isPrivileged
 :
 this
