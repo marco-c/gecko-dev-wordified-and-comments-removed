@@ -260,6 +260,13 @@ html
 ]
 [
 "
+test_bug2013707
+.
+html
+"
+]
+[
+"
 test_bug260264
 .
 html
