@@ -868,6 +868,13 @@ aActor
 override
 ;
 void
+EnsureWebRenderBridgeParentInitialized
+(
+)
+override
+{
+}
+void
 ObserveLayersUpdate
 (
 LayersId
