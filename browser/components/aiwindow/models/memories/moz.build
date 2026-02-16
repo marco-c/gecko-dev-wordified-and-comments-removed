@@ -149,4 +149,11 @@ sys
 .
 mjs
 "
+"
+SensitiveInfoDetector
+.
+sys
+.
+mjs
+"
 ]
