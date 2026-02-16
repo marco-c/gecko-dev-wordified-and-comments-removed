@@ -3432,8 +3432,8 @@ preference_autocomplete_action_add
 P
 idat
 vlastn
-URL
 adresu
+URL
 <
 /
 string
@@ -3551,8 +3551,8 @@ preference_autocomplete_title_add
 P
 idat
 vlastn
-URL
 adresu
+URL
 <
 /
 string
@@ -3586,8 +3586,8 @@ custom_autocomplete_quick_add
 P
 idat
 vlastn
-URL
 adresu
+URL
 <
 /
 string
@@ -3724,8 +3724,8 @@ preference_autocomplete_title_remove
 >
 Odebrat
 vlastn
-URL
 adresy
+URL
 <
 /
 string
@@ -3832,8 +3832,8 @@ name
 preference_autocomplete_add_title
 "
 >
+Adresa
 URL
-adresa
 k
 p
 id
@@ -3882,8 +3882,8 @@ Vlo
 te
 nebo
 zadejte
-URL
 adresu
+URL
 <
 /
 string
@@ -3999,8 +3999,8 @@ preference_autocomplete_add_confirmation
 "
 >
 Vlastn
-URL
 adresa
+URL
 p
 id
 na
@@ -4111,8 +4111,8 @@ preference_autocomplete_add_error
 >
 Zkontrolujte
 zadanou
-URL
 adresu
+URL
 .
 <
 /
@@ -9396,8 +9396,8 @@ name
 preference_autocomplete_duplicate_url_error
 "
 >
+Adresa
 URL
-adresa
 u
 existuje
 <
@@ -9815,8 +9815,8 @@ name
 custom_tab_copy_url_action
 "
 >
+Adresa
 URL
-adresa
 zkop
 rov
 na

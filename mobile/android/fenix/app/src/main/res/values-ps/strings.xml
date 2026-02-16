@@ -2624,6 +2624,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 <
@@ -2657,6 +2658,13 @@ name
 =
 "
 onboarding_marketing_redesign_positive_button
+"
+tools
+:
+ignore
+=
+"
+UnusedResources
 "
 >
 <
