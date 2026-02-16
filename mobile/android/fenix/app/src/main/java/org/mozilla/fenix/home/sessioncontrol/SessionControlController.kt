@@ -67,6 +67,12 @@ home
 .
 sessioncontrol
 import
+android
+.
+app
+.
+Activity
+import
 androidx
 .
 annotation
@@ -240,14 +246,6 @@ fenix
 GleanMetrics
 .
 RecentTabs
-import
-org
-.
-mozilla
-.
-fenix
-.
-HomeActivity
 import
 org
 .
@@ -945,7 +943,7 @@ activityRef
 :
 WeakReference
 <
-HomeActivity
+Activity
 >
 private
 val
@@ -1057,7 +1055,7 @@ private
 val
 activity
 :
-HomeActivity
+Activity
 get
 (
 )
@@ -1719,9 +1717,9 @@ getNormalOrPrivateTabs
 (
 private
 =
-activity
+appStore
 .
-browsingModeManager
+state
 .
 mode
 .
