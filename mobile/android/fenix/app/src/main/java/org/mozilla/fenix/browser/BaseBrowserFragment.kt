@@ -3836,12 +3836,12 @@ requireComponents
 core
 .
 store
-sessionId
-=
-customTabSessionId
 fragmentManager
 =
 parentFragmentManager
+sessionId
+=
+customTabSessionId
 launchInApp
 =
 {
