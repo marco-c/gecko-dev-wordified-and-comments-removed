@@ -412,6 +412,16 @@ column
 }
 }
 section
+:
+not
+(
+:
+first
+-
+of
+-
+type
+)
 {
 margin
 -
