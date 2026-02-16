@@ -123,11 +123,6 @@ JS
 :
 loader
 {
-NS_IMPL_CYCLE_COLLECTION
-(
-ScriptFetchOptions
-mTriggeringPrincipal
-)
 ScriptFetchOptions
 :
 :
