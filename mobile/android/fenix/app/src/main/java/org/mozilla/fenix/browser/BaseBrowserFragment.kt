@@ -6925,6 +6925,13 @@ feature
 =
 RelayFeatureIntegration
 (
+engine
+=
+requireComponents
+.
+core
+.
+engine
 accountManager
 =
 requireComponents
