@@ -1020,6 +1020,14 @@ JSTracer
 trc
 )
 ;
+enum
+class
+ICScriptHandling
+{
+MarkActive
+AssertActive
+}
+;
 ICCacheIRStub
 *
 clone
@@ -1030,6 +1038,8 @@ rt
 ICStubSpace
 &
 newSpace
+ICScriptHandling
+icScriptHandling
 )
 ;
 bool

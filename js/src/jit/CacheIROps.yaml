@@ -6194,7 +6194,7 @@ rhs
 ValId
 icScript
 :
-RawPointerField
+ICScriptField
 sameRealm
 :
 BoolImm
@@ -6715,7 +6715,7 @@ argc
 Int32Id
 icScript
 :
-RawPointerField
+ICScriptField
 flags
 :
 CallFlagsImm
@@ -7919,7 +7919,7 @@ callee
 ObjId
 icScript
 :
-RawPointerField
+ICScriptField
 sameRealm
 :
 BoolImm
