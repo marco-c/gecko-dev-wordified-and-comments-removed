@@ -32,7 +32,7 @@ Canadian
 Syllabary
 "
 "
-fontsGroup
+fonts
 "
 )
 ;
