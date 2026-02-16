@@ -2946,14 +2946,10 @@ verifyShowSearchSuggestionsToggleTest
 (
 )
 {
-homeScreen
+searchScreen
 (
 composeTestRule
 )
-{
-}
-.
-openSearch
 {
 /
 /
