@@ -924,13 +924,6 @@ addTabSplitView
 tab2
 tab3
 ]
-{
-id
-:
-"
-1
-"
-}
 )
 ;
 let
@@ -1311,9 +1304,7 @@ tab3
 {
 id
 :
-"
 1
-"
 }
 )
 ;
