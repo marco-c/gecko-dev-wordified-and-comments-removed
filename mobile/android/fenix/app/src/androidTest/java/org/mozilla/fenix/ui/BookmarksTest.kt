@@ -844,6 +844,12 @@ openThreeDotMenu
 .
 clickBookmarksButton
 {
+verifyBookmarkTitle
+(
+defaultWebPage
+.
+title
+)
 }
 .
 openThreeDotMenu
@@ -2300,6 +2306,12 @@ openThreeDotMenu
 .
 clickBookmarksButton
 {
+verifyBookmarkTitle
+(
+defaultWebPage
+.
+title
+)
 }
 .
 openThreeDotMenu
