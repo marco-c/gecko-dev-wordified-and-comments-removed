@@ -68,6 +68,16 @@ dependency
 .
 analysis
 )
+alias
+(
+libs
+.
+plugins
+.
+kotlin
+.
+compose
+)
 }
 apply
 plugin
