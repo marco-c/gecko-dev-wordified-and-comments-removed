@@ -1180,9 +1180,9 @@ test
 name
 :
 {
+name
 }
 "
-name
 )
 )
 }

@@ -915,9 +915,9 @@ test
 name
 :
 {
+name
 }
 "
-name
 )
 )
 }
