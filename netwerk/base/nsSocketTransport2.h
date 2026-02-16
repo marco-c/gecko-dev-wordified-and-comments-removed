@@ -354,12 +354,6 @@ ByteCountSent
 )
 override
 ;
-bool
-IsTRRConnection
-(
-)
-override
-;
 static
 void
 CloseSocket
@@ -1544,11 +1538,6 @@ false
 ;
 bool
 mRetryDnsIfPossible
-=
-false
-;
-bool
-mIsTRRConnection
 =
 false
 ;

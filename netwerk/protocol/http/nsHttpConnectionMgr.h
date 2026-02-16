@@ -285,13 +285,6 @@ DoSingleConnectionCleanup
 (
 nsHttpConnectionInfo
 *
-uint32_t
-aPriority
-=
-nsIRunnablePriority
-:
-:
-PRIORITY_NORMAL
 )
 ;
 void
@@ -1076,13 +1069,6 @@ ARefBase
 vparam
 =
 nullptr
-uint32_t
-priority
-=
-nsIRunnablePriority
-:
-:
-PRIORITY_NORMAL
 )
 ;
 void
