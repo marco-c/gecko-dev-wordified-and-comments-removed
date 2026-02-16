@@ -6327,9 +6327,7 @@ if
 surf
 )
 {
-gfxCriticalError
-(
-)
+gfxCriticalNote
 <
 <
 "
@@ -6341,8 +6339,6 @@ wrapping
 "
 "
 DataSourceSurface
-for
-Shmem
 .
 "
 ;
