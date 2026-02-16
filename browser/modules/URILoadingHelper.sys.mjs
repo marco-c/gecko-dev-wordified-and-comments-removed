@@ -6096,7 +6096,7 @@ aWindow
 .
 gBrowser
 .
-visibleTabs
+tabs
 [
 i
 ]
@@ -6114,6 +6114,14 @@ true
 aSplitView
 .
 tabs
+)
+;
+aSplitView
+.
+ownerGlobal
+.
+focus
+(
 )
 ;
 }
