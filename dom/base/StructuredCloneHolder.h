@@ -481,6 +481,15 @@ CloneDataPolicy
 aCloneDataPolicy
 )
 ;
+void
+Adopt
+(
+JSStructuredCloneData
+&
+&
+aData
+)
+;
 bool
 HasData
 (
