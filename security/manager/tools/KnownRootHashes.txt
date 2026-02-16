@@ -1569,3 +1569,15 @@ Server
 Root
 ECC
 G1
+tJFBUC0AZj10Dy5
++
+w0DFKACWJmYSGjbQnPfdK5A4T7Q
+=
+152
+e
+-
+Szigno
+TLS
+Root
+CA
+2023
