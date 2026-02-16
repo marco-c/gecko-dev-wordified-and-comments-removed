@@ -620,13 +620,6 @@ mHolder
 >
 Read
 (
-xpc
-:
-:
-NativeGlobal
-(
-scope
-)
 aCx
 aResult
 aRv

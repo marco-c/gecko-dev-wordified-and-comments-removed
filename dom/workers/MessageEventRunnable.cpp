@@ -290,7 +290,6 @@ allowSharedMemoryObjects
 }
 Read
 (
-parent
 aCx
 &
 messageData
@@ -792,7 +791,6 @@ allowSharedMemoryObjects
 }
 Read
 (
-parent
 aCx
 &
 messageData
