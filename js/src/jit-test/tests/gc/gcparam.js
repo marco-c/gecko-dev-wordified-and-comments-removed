@@ -394,3 +394,10 @@ storeBufferScaling
 "
 )
 ;
+testChangeParam
+(
+"
+incrementalWeakMapMarkingEnabled
+"
+)
+;

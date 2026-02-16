@@ -563,6 +563,15 @@ storeBufferScaling
 JSGC_STORE_BUFFER_SCALING
 true
 )
+\
+_
+(
+"
+incrementalWeakMapMarkingEnabled
+"
+JSGC_INCREMENTAL_WEAKMAP_ENABLED
+true
+)
 extern
 bool
 GetGCParameterInfo
