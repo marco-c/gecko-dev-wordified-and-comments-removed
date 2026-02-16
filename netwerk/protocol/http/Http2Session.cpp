@@ -186,6 +186,13 @@ h
 #
 include
 "
+nsHttpConnectionMgr
+.
+h
+"
+#
+include
+"
 nsIRequestContext
 .
 h
