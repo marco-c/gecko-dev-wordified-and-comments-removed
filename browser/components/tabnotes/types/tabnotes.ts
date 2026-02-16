@@ -7,6 +7,11 @@ EventTarget
 canonicalUrl
 :
 string
+;
+hasTabNote
+:
+boolean
+;
 }
 ;
 type
