@@ -400,6 +400,7 @@ abs
 inBase
 )
 >
+=
 static_cast
 <
 double
