@@ -173,15 +173,6 @@ mjs
 "
 modules
 /
-AIWindowTabStatesManager
-.
-sys
-.
-mjs
-"
-"
-modules
-/
 AIWindowUI
 .
 sys
