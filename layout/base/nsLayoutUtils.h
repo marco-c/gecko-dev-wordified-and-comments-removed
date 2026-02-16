@@ -2895,6 +2895,7 @@ UseContentBox
 UsePaddingBox
 UseMarginBox
 UseMarginBoxWithAutoResolvedAsZero
+UseInkOverflowAsBox
 }
 ;
 using
