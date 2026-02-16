@@ -135,7 +135,13 @@ process
 has
 the
 lock
+:
 "
++
+String
+(
+_e
+)
 )
 ;
 }
@@ -191,7 +197,13 @@ has
 released
 the
 lock
+:
 "
++
+String
+(
+_e
+)
 )
 ;
 }

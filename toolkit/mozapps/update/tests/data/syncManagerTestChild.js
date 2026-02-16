@@ -30,14 +30,14 @@ lock
 will
 exit
 in
-5
+3
 seconds
 "
 )
 ;
 simulateNoScriptActivity
 (
-5
+3
 )
 ;
 print
