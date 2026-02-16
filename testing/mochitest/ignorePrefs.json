@@ -197,6 +197,17 @@ totalSearches
 "
 browser
 .
+tabs
+.
+notes
+.
+newBadge
+.
+enabled
+"
+"
+browser
+.
 toolbars
 .
 bookmarks
