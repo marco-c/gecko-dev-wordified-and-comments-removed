@@ -123,9 +123,12 @@ private
 MediaHardwareKeysEventSourceMac
 (
 )
-=
-default
+{
+StopEventTap
+(
+)
 ;
+}
 bool
 StartEventTap
 (
