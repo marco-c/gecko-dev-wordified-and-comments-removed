@@ -652,7 +652,7 @@ getWindow
 return
 gBrowser
 .
-tabs
+visibleTabs
 .
 filter
 (
@@ -662,12 +662,6 @@ tab
 {
 return
 (
-!
-tab
-.
-hidden
-&
-&
 !
 tab
 .
