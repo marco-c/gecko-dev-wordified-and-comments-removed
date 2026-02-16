@@ -112,7 +112,7 @@ this
 .
 _panel
 .
-_toolbox
+toolbox
 ;
 }
 get

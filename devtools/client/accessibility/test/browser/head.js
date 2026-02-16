@@ -474,7 +474,7 @@ toolbox
 :
 panel
 .
-_toolbox
+toolbox
 doc
 store
 }
