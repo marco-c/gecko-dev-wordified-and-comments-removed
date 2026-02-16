@@ -4580,6 +4580,11 @@ mForcedHidden
 =
 false
 ;
+bool
+mIsCurrentlyStalled
+=
+false
+;
 Visibility
 mVisibilityState
 =

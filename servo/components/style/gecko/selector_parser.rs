@@ -1638,6 +1638,16 @@ Self
 :
 :
 Seeking
+|
+Self
+:
+:
+Buffering
+|
+Self
+:
+:
+Stalled
 )
 {
 return
