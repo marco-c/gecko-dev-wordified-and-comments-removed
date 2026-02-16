@@ -18332,7 +18332,7 @@ group
 0
 )
 class
-ServoWebDriver
+ServoLegacy
 (
 Servo
 )
@@ -18341,7 +18341,7 @@ Servo
 product
 =
 "
-servodriver
+servo_legacy
 "
 class
 Sauce
