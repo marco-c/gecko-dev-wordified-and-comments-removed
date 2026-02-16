@@ -740,6 +740,13 @@ package_name
 }
 "
 )
+        
+time
+.
+sleep
+(
+3
+)
     
 def
 skip_onboarding
