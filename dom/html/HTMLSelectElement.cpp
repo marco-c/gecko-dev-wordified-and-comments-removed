@@ -5494,6 +5494,10 @@ UpdateValidityElementStates
 aHaveNotified
 )
 ;
+SelectedContentTextMightHaveChanged
+(
+)
+;
 }
 mDefaultSelectionSet
 =
