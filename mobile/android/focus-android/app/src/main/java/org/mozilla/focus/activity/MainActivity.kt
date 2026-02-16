@@ -980,7 +980,6 @@ intentProcessor
 .
 handleNewIntent
 (
-this
 safeIntent
 )
 }
@@ -1577,7 +1576,6 @@ intentProcessor
 .
 handleNewIntent
 (
-this
 intent
 )
 }

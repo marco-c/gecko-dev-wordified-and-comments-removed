@@ -244,7 +244,6 @@ intentProcessor
 .
 handleIntent
 (
-this
 intent
 savedInstanceState
 )
