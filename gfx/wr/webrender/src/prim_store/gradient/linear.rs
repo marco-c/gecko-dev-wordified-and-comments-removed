@@ -380,6 +380,10 @@ NinePatchDescriptor
 >
 >
 pub
+edge_aa_mask
+:
+EdgeMask
+pub
 enable_dithering
 :
 bool
@@ -457,6 +461,11 @@ nine_patch
 linear_grad
 .
 nine_patch
+edge_aa_mask
+:
+linear_grad
+.
+edge_aa_mask
 enable_dithering
 :
 linear_grad
@@ -1853,6 +1862,7 @@ LinearGradientKey
 Self
 {
 let
+mut
 common
 =
 PrimTemplateCommonData
@@ -1864,6 +1874,14 @@ item
 .
 common
 )
+;
+common
+.
+edge_aa_mask
+=
+item
+.
+edge_aa_mask
 ;
 let
 (

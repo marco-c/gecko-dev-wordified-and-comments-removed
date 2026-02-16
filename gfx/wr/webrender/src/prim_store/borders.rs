@@ -1570,7 +1570,7 @@ NormalBorderTemplate
 >
 (
 )
-216
+208
 "
 NormalBorderTemplate
 size
@@ -1636,7 +1636,7 @@ ImageBorderTemplate
 >
 (
 )
-104
+96
 "
 ImageBorderTemplate
 size
