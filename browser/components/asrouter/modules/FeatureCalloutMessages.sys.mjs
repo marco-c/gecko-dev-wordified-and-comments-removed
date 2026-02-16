@@ -6394,6 +6394,17 @@ hasCompleted
 |
 preferenceValue
 "
+skip_in_tests
+:
+"
+it
+'
+s
+not
+tested
+in
+automation
+"
 trigger
 :
 {
