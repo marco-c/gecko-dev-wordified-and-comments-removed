@@ -303,6 +303,7 @@ possible
 }
 \
 }
+const
 char
 *
 nr_strerror

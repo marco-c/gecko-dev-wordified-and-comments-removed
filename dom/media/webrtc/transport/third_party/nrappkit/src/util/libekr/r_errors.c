@@ -39,6 +39,7 @@ struct
 int
 errnum
 ;
+const
 char
 *
 str
@@ -50,6 +51,7 @@ errors
 =
 NR_ERROR_MAPPING
 ;
+const
 char
 *
 nr_strerror
@@ -68,6 +70,7 @@ unknown_error
 size_t
 i
 ;
+const
 char
 *
 error
