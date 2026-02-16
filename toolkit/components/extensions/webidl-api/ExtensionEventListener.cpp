@@ -1572,6 +1572,13 @@ mArgsHolder
 >
 Read
 (
+xpc
+:
+:
+CurrentNativeGlobal
+(
+aCx
+)
 aCx
 &
 jsvalue
@@ -3084,6 +3091,7 @@ resHolder
 >
 Read
 (
+global
 cx
 &
 jsvalue

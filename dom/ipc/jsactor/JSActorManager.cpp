@@ -801,11 +801,13 @@ JSIPCValue
 &
 &
 aData
+UniquePtr
+<
 ipc
 :
 :
 StructuredCloneData
-*
+>
 aStack
 )
 {
@@ -980,6 +982,11 @@ error
 .
 SuppressException
 (
+)
+;
+JS_ClearPendingException
+(
+cx
 )
 ;
 stackVal

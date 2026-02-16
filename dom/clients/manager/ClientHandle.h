@@ -234,14 +234,11 @@ GenericErrorResultPromise
 >
 PostMessage
 (
-NotNull
-<
 ipc
 :
 :
 StructuredCloneData
-*
->
+&
 aData
 const
 ServiceWorkerDescriptor

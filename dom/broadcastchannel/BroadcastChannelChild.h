@@ -77,11 +77,9 @@ ipc
 IPCResult
 RecvNotify
 (
-NotNull
-<
-SharedMessageBody
-*
->
+const
+MessageData
+&
 aData
 )
 override

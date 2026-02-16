@@ -43,7 +43,7 @@ class
 BroadcastChannelParent
 ;
 class
-SharedMessageBody
+MessageData
 ;
 class
 BroadcastChannelService
@@ -94,11 +94,9 @@ PostMessage
 BroadcastChannelParent
 *
 aParent
-NotNull
-<
-SharedMessageBody
-*
->
+const
+MessageData
+&
 aData
 const
 nsAString

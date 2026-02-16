@@ -210,11 +210,13 @@ JSIPCValue
 &
 &
 aData
+UniquePtr
+<
 ipc
 :
 :
 StructuredCloneData
-*
+>
 aStack
 ErrorResult
 &
