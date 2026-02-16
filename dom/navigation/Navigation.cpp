@@ -5974,8 +5974,6 @@ MOZ_CAN_RUN_SCRIPT
 void
 CommitNavigateEvent
 (
-NavigationType
-aNavigationType
 )
 {
 RefPtr
@@ -6195,7 +6193,12 @@ Committed
 ;
 switch
 (
-aNavigationType
+mEvent
+-
+>
+NavigationType
+(
+)
 )
 {
 case
@@ -6239,7 +6242,12 @@ NavigationUtils
 :
 NavigationHistoryBehavior
 (
-aNavigationType
+mEvent
+-
+>
+NavigationType
+(
+)
 )
 document
 -
@@ -6289,7 +6297,12 @@ docShell
 GetActiveSessionHistoryInfo
 (
 )
-aNavigationType
+mEvent
+-
+>
+NavigationType
+(
+)
 )
 ;
 }
@@ -7951,7 +7964,6 @@ scope
 >
 CommitNavigateEvent
 (
-aNavigationType
 )
 ;
 }
@@ -8058,7 +8070,6 @@ WeakPtr
 (
 scope
 )
-aNavigationType
 ]
 (
 const
@@ -8102,7 +8113,6 @@ scope
 >
 CommitNavigateEvent
 (
-aNavigationType
 )
 ;
 }
