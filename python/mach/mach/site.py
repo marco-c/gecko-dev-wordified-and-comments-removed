@@ -36,11 +36,6 @@ import
 Callable
 Optional
 from
-filelock
-import
-FileLock
-Timeout
-from
 mozfile
 import
 json
@@ -50,6 +45,13 @@ packaging
 specifiers
 import
 SpecifierSet
+from
+mach
+.
+filelock
+import
+LockTimeout
+SoftFileLock
 from
 mach
 .
@@ -2228,7 +2230,7 @@ try
 :
                 
 with
-FileLock
+SoftFileLock
 (
 lock_file
 timeout
@@ -2247,7 +2249,7 @@ force
 )
             
 except
-Timeout
+LockTimeout
 :
                 
 self
@@ -3646,7 +3648,7 @@ try
 :
             
 with
-FileLock
+SoftFileLock
 (
 lock_file
 timeout
@@ -3807,7 +3809,7 @@ _metadata
 )
         
 except
-Timeout
+LockTimeout
 :
             
 self
