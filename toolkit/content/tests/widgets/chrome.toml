@@ -514,6 +514,13 @@ Bug
 ]
 [
 "
+test_moz_select_panel
+.
+html
+"
+]
+[
+"
 test_moz_support_link
 .
 html
@@ -578,6 +585,13 @@ html
 [
 "
 test_panel_list_min_width_from_anchor
+.
+html
+"
+]
+[
+"
+test_panel_list_popover
 .
 html
 "
