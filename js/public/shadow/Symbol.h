@@ -17,7 +17,7 @@ js
 namespace
 gc
 {
-struct
+class
 Cell
 ;
 }

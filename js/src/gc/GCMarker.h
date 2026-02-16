@@ -137,7 +137,7 @@ AutoSetMarkColor
 class
 AutoUpdateMarkStackRanges
 ;
-struct
+class
 Cell
 ;
 class

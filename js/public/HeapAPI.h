@@ -140,7 +140,7 @@ gc
 class
 Arena
 ;
-struct
+class
 Cell
 ;
 class

@@ -357,7 +357,7 @@ JS_DECLARE_IS_HEAP_CONSTRUCTIBLE_TYPE
 namespace
 gc
 {
-struct
+class
 Cell
 ;
 }

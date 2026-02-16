@@ -406,7 +406,7 @@ PromiseObject
 namespace
 gc
 {
-struct
+class
 Cell
 ;
 }

@@ -149,7 +149,7 @@ gc
 struct
 BufferChunk
 ;
-struct
+class
 Cell
 ;
 class

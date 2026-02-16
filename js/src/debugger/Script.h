@@ -67,7 +67,7 @@ GlobalObject
 namespace
 gc
 {
-struct
+class
 Cell
 ;
 }

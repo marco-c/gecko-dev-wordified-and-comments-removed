@@ -52,7 +52,7 @@ WeakMapBase
 namespace
 gc
 {
-struct
+class
 Cell
 ;
 template

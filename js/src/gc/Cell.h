@@ -537,9 +537,11 @@ RESERVED_MASK
 }
 }
 ;
-struct
+class
 Cell
 {
+protected
+:
 HeaderWord
 header_
 ;

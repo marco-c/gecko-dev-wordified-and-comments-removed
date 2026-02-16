@@ -6,13 +6,6 @@ define
 gc_Allocator_h
 #
 include
-<
-stdint
-.
-h
->
-#
-include
 "
 gc
 /
@@ -56,7 +49,7 @@ gc
 class
 AllocSite
 ;
-struct
+class
 Cell
 ;
 class

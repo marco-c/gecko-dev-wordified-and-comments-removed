@@ -407,7 +407,7 @@ gc
 class
 AutoGCSession
 ;
-struct
+class
 Cell
 ;
 class

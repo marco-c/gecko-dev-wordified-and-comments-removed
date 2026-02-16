@@ -28,7 +28,7 @@ js
 :
 gc
 {
-struct
+class
 Cell
 ;
 [

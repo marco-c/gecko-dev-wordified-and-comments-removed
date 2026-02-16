@@ -6,13 +6,6 @@ define
 gc_GCProbes_h
 #
 include
-<
-stddef
-.
-h
->
-#
-include
 "
 gc
 /
@@ -41,7 +34,7 @@ gc
 class
 GCRuntime
 ;
-struct
+class
 Cell
 ;
 namespace

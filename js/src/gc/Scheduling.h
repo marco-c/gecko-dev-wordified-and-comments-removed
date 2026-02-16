@@ -1116,7 +1116,7 @@ ZoneAllocator
 namespace
 gc
 {
-struct
+class
 Cell
 ;
 namespace
