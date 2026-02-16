@@ -3507,6 +3507,7 @@ return
 os
 .
 path
+        
 .
 normpath
 (
