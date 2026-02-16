@@ -6150,9 +6150,6 @@ aInnerWindow
 principal
 aHasUserInteraction
 aRequireUserInteraction
-Nothing
-(
-)
 aFrameOnly
 )
 ;
