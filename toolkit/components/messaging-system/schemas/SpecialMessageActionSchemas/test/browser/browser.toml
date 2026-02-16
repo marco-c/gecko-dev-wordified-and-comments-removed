@@ -208,6 +208,13 @@ js
 ]
 [
 "
+browser_sma_open_tab_in_splitview
+.
+js
+"
+]
+[
+"
 browser_sma_open_url
 .
 js
