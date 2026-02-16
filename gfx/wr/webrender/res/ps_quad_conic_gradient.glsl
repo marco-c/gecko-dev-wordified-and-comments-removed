@@ -361,17 +361,9 @@ v_offset_scale
 v_dir
 =
 (
-(
 info
 .
 local_pos
--
-info
-.
-local_prim_rect
-.
-p0
-)
 *
 gradient
 .

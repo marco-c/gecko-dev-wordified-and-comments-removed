@@ -355,17 +355,9 @@ origin
 v_pos
 =
 (
-(
 info
 .
 local_pos
--
-info
-.
-local_prim_rect
-.
-p0
-)
 *
 gradient
 .
