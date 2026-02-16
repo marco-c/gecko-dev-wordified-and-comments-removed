@@ -105,14 +105,6 @@ mozilla
 .
 fenix
 .
-HomeActivity
-import
-org
-.
-mozilla
-.
-fenix
-.
 R
 import
 org
@@ -281,7 +273,7 @@ state
 StartupState
 activity
 :
-HomeActivity
+Activity
 )
 {
 if
@@ -441,7 +433,7 @@ state
 StartupState
 activity
 :
-HomeActivity
+Activity
 )
 {
 if
