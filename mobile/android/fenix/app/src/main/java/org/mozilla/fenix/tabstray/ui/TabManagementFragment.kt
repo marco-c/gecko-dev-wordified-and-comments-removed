@@ -1593,11 +1593,6 @@ requireContext
 settings
 (
 )
-browsingModeManager
-=
-activity
-.
-browsingModeManager
 navController
 =
 findNavController
