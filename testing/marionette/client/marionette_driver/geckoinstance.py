@@ -855,6 +855,14 @@ volume_scale
 "
         
 "
+mousewheel
+.
+allow_scrolling_more_than_one_page
+"
+:
+True
+        
+"
 network
 .
 connectivity

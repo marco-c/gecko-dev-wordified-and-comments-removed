@@ -157,6 +157,16 @@ false
 user_pref
 (
 "
+mousewheel
+.
+allow_scrolling_more_than_one_page
+"
+true
+)
+;
+user_pref
+(
+"
 network
 .
 proxy
