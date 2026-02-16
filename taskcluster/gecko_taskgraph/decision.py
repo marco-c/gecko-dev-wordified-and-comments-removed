@@ -2408,18 +2408,10 @@ release_history
 =
 populate_release_history
 (
-            
 "
 Firefox
 "
 project
-maxbuilds
-=
-16
-maxsearch
-=
-32
-        
 )
     
 if
