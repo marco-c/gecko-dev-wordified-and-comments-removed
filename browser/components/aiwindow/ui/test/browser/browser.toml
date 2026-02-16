@@ -277,6 +277,13 @@ js
 ]
 [
 "
+browser_smartwindow_shortcut
+.
+js
+"
+]
+[
+"
 browser_smartwindow_tab_move
 .
 js
