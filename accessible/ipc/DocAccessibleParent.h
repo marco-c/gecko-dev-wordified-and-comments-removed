@@ -327,6 +327,10 @@ const
 bool
 &
 aFromUser
+const
+bool
+&
+aSuppressEvent
 )
 final
 ;
