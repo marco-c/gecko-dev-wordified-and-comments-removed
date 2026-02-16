@@ -546,11 +546,6 @@ TO_NUMBER
 value
 )
 ;
-getPluralRulesInternals
-(
-pluralRules
-)
-;
 return
 intl_SelectPluralRule
 (
