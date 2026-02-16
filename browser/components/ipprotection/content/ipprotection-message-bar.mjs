@@ -300,6 +300,13 @@ type
 :
 String
 }
+bandwidthUsage
+:
+{
+type
+:
+Object
+}
 }
 ;
 constructor
