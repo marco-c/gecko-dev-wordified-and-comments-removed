@@ -124,7 +124,7 @@ inset
 -
 inline
 -
-center
+end
 inset
 -
 block
@@ -138,7 +138,7 @@ arrow
 -
 top
 -
-center
+start
 "
 openedOverride
 =
