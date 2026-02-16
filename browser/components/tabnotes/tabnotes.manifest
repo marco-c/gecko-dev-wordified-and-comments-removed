@@ -26,7 +26,7 @@ sys
 mjs
 TabNotesController
 .
-browserFirstWindowReady
+init
 category
 browser
 -
@@ -55,7 +55,7 @@ sys
 mjs
 TabNotesController
 .
-browserWindowDelayedStartup
+registerWindow
 category
 browser
 -
@@ -82,7 +82,7 @@ sys
 mjs
 TabNotesController
 .
-browserWindowUnload
+unregisterWindow
 category
 browser
 -
@@ -111,4 +111,4 @@ sys
 mjs
 TabNotesController
 .
-browserQuitApplicationGranted
+quit
