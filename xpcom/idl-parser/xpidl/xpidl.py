@@ -3063,20 +3063,6 @@ kind
 cdata
 "
     
-_re
-=
-re
-.
-compile
-(
-r
-"
-\
-n
-+
-"
-)
-    
 def
 __init__
 (
@@ -3090,18 +3076,7 @@ self
 .
 data
 =
-self
-.
-_re
-.
-sub
-(
-"
-\
-n
-"
 data
-)
         
 self
 .
