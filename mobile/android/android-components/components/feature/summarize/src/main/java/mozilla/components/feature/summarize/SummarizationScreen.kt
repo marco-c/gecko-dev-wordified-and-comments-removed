@@ -339,6 +339,9 @@ Composable
 fun
 SummarizationUi
 (
+productName
+:
+String
 )
 {
 SummarizationScreen
@@ -350,6 +353,9 @@ Modifier
 fillMaxWidth
 (
 )
+productName
+=
+productName
 store
 =
 SummarizationStore
@@ -385,6 +391,9 @@ private
 fun
 SummarizationScreen
 (
+productName
+:
+String
 modifier
 :
 Modifier
@@ -440,6 +449,9 @@ WaitingForConsent
 {
 SummarizationConsent
 (
+productName
+=
+productName
 dispatchAction
 =
 {
@@ -736,6 +748,11 @@ SummarizationState
 {
 SummarizationScreen
 (
+productName
+=
+"
+FenixPreview
+"
 store
 =
 SummarizationStore

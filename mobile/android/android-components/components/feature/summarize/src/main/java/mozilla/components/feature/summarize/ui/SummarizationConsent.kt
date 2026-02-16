@@ -325,6 +325,9 @@ internal
 fun
 SummarizationConsent
 (
+productName
+:
+String
 modifier
 :
 Modifier
@@ -371,6 +374,9 @@ OnDeviceSummarizerConsent
 modifier
 =
 modifier
+productName
+=
+productName
 onClickAllow
 =
 {
@@ -398,6 +404,9 @@ private
 fun
 OnDeviceSummarizerConsent
 (
+productName
+:
+String
 modifier
 :
 Modifier
@@ -424,6 +433,7 @@ modifier
 {
 OnDeviceSummarizerContent
 (
+productName
 )
 Spacer
 (
@@ -458,6 +468,9 @@ private
 fun
 OnDeviceSummarizerContent
 (
+productName
+:
+String
 modifier
 :
 Modifier
@@ -537,6 +550,7 @@ R
 string
 .
 mozac_summarize_consent_message_on_device
+productName
 )
 style
 =
@@ -711,6 +725,11 @@ Center
 {
 SummarizationConsent
 (
+productName
+=
+"
+FenixPreview
+"
 )
 }
 }
