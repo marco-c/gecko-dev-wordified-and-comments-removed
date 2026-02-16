@@ -1633,6 +1633,11 @@ Self
 :
 :
 Paused
+|
+Self
+:
+:
+Seeking
 )
 {
 return
