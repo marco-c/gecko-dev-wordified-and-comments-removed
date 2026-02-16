@@ -322,11 +322,6 @@ stop
 (
 userAction
 )
-and
-startLoginFlow
-(
-browser
-)
 .
 Proxy
 manager
