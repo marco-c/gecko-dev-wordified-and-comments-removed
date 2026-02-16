@@ -983,6 +983,13 @@ Bug
 ]
 [
 "
+test_pointerevent_altitude_azimuth_angle
+.
+html
+"
+]
+[
+"
 test_pointermove_drag_scrollbar
 .
 html
