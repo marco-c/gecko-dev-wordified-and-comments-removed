@@ -4731,6 +4731,11 @@ SliceBudget
 budget
 )
 ;
+void
+markIncomingSymbolEdgesFromUncollectedZones
+(
+)
+;
 IncrementalProgress
 markWeakReferencesInCurrentGroup
 (
