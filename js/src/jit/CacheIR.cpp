@@ -69248,7 +69248,7 @@ maybeAllocSite
 ;
 writer
 .
-metaScriptedThisShape
+metaCreateThis
 (
 thisShape
 maybeAllocSite

@@ -37059,7 +37059,7 @@ bool
 WarpCacheIRTranspiler
 :
 :
-emitMetaScriptedThisShape
+emitMetaCreateThis
 (
 uint32_t
 thisShapeOffset

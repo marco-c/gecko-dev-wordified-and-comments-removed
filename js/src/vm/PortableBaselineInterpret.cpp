@@ -3552,7 +3552,7 @@ CallNativeFunction
 ;
 DECLARE_CACHEOP_CASE
 (
-MetaScriptedThisShape
+MetaCreateThis
 )
 ;
 DECLARE_CACHEOP_CASE
@@ -16110,12 +16110,12 @@ DISPATCH_CACHEOP
 }
 CACHEOP_CASE
 (
-MetaScriptedThisShape
+MetaCreateThis
 )
 {
 cacheIRReader
 .
-argsForMetaScriptedThisShape
+argsForMetaCreateThis
 (
 )
 ;

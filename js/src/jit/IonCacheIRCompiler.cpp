@@ -13483,7 +13483,7 @@ bool
 IonCacheIRCompiler
 :
 :
-emitMetaScriptedThisShape
+emitMetaCreateThis
 (
 uint32_t
 thisShapeOffset

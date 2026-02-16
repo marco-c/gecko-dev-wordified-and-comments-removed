@@ -15969,7 +15969,7 @@ bool
 BaselineCacheIRCompiler
 :
 :
-emitMetaScriptedThisShape
+emitMetaCreateThis
 (
 uint32_t
 thisShapeOffset
