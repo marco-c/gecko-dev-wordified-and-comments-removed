@@ -746,6 +746,8 @@ mobile
 android
 /
 fenix
+/
+app
 "
 ]
         

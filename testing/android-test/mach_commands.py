@@ -376,6 +376,9 @@ android
 "
 fenix
 "
+"
+app
+"
 )
         
 test_path
@@ -387,9 +390,6 @@ path
 join
 (
 subdir
-"
-app
-"
 "
 src
 "
@@ -437,6 +437,9 @@ focus
 -
 android
 "
+"
+app
+"
 )
         
 test_path
@@ -448,9 +451,6 @@ path
 join
 (
 subdir
-"
-app
-"
 "
 src
 "
