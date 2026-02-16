@@ -1544,7 +1544,7 @@ com
 /
 D119038
 >
-_
+__
 .
 Common
 Architecture
@@ -2478,7 +2478,7 @@ cpp
 -
 590
 >
-_
+__
 .
 You
 can
@@ -2569,7 +2569,7 @@ cpp
 -
 671
 >
-_
+__
 *
 Add
 a
@@ -2653,7 +2653,7 @@ gfxPlatform
 .
 cpp
 >
-_
+__
 -
 Add
 a
@@ -2701,7 +2701,7 @@ cpp
 -
 810
 >
-_
+__
 -
 Add
 a
@@ -2749,7 +2749,7 @@ cpp
 -
 1259
 >
-_
+__
 Android
 #
 #
@@ -3269,7 +3269,7 @@ ipdl
 #
 6
 >
-_
+__
 +
 To
 parent
@@ -3303,7 +3303,7 @@ ipdl
 #
 32
 >
-_
+__
 +
 To
 child
@@ -3339,7 +3339,7 @@ ipdl
 -
 48
 >
-_
+__
 -
 Add
 handling
@@ -3502,7 +3502,7 @@ cpp
 -
 166
 >
-_
+__
 -
 On
 the
@@ -3543,7 +3543,7 @@ cpp
 -
 69
 >
-_
+__
 +
 Provide
 an
@@ -3579,7 +3579,7 @@ cpp
 -
 77
 >
-_
+__
 If
 you
 want
@@ -4001,7 +4001,7 @@ ipdl
 #
 9
 >
-_
+__
 +
 Child
 -
@@ -4034,7 +4034,7 @@ ipdl
 #
 42
 >
-_
+__
 -
 Make
 sure
@@ -4073,7 +4073,7 @@ cpp
 -
 223
 >
-_
+__
 .
 You
 will
@@ -4132,7 +4132,7 @@ cpp
 -
 151
 >
-_
+__
 -
 You
 will
@@ -4905,7 +4905,7 @@ ipdl
 #
 55
 >
-_
+__
 +
 TestTriggerMetrics
 <
@@ -4935,7 +4935,7 @@ ipdl
 #
 60
 >
-_
+__
 -
 Provide
 a
@@ -4974,7 +4974,7 @@ cpp
 -
 82
 >
-_
+__
 -
 Provide
 a
@@ -5013,7 +5013,7 @@ cpp
 -
 183
 >
-_
+__
 -
 Child
 -
@@ -5055,7 +5055,7 @@ cpp
 -
 201
 >
-_
+__
 -
 Child
 -
@@ -5091,7 +5091,7 @@ cpp
 -
 191
 >
-_
+__
 -
 Within
 FOGIPC
@@ -5124,7 +5124,7 @@ FOGIPC
 .
 cpp
 >
-_
+__
 +
 Add
 handling
@@ -5171,7 +5171,7 @@ cpp
 -
 121
 >
-_
+__
 and
 SendFOGData
 (
@@ -5210,7 +5210,7 @@ cpp
 -
 182
 >
-_
+__
 +
 Add
 support
@@ -5256,7 +5256,7 @@ cpp
 -
 232
 >
-_
+__
 -
 Handle
 process
@@ -5298,7 +5298,7 @@ ipc
 .
 rs
 >
-_
+__
 Third
 -
 Party
@@ -5449,7 +5449,7 @@ cpp
 -
 151
 >
-_
+__
 -
 Update
 your
@@ -6328,7 +6328,7 @@ cpp
 -
 1743
 >
-_
+__
 -
 Add
 new
@@ -6372,7 +6372,7 @@ h
 -
 20
 >
-_
+__
 -
 Within
 macOS
@@ -6405,7 +6405,7 @@ Sandbox
 .
 mm
 >
-_
+__
 handle
 the
 new
@@ -6453,7 +6453,7 @@ mm
 -
 188
 >
-_
+__
 +
 StartMacSandbox
 (
@@ -6497,7 +6497,7 @@ mm
 -
 436
 >
-_
+__
 .
 This
 code
@@ -6559,7 +6559,7 @@ mm
 -
 782
 >
-_
+__
 .
 You
 might
@@ -6651,7 +6651,7 @@ build
 -
 13
 >
-_
+__
 .
 Those
 rules
@@ -6706,7 +6706,7 @@ v1
 .
 pdf
 >
-_
+__
 as
 well
 as
@@ -6786,7 +6786,7 @@ cpp
 -
 1344
 >
-_
+__
 -
 Add
 new
@@ -6837,7 +6837,7 @@ cpp
 -
 1470
 >
-_
+__
 .
 This
 will
