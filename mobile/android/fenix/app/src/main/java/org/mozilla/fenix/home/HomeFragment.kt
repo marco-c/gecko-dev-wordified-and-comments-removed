@@ -4151,11 +4151,6 @@ components
 core
 .
 store
-browsingModeManager
-=
-activity
-.
-browsingModeManager
 settings
 =
 activity
@@ -4163,6 +4158,9 @@ activity
 settings
 (
 )
+browsingModeManager
+=
+browsingModeManager
 directToSearchConfig
 =
 DirectToSearchConfig
