@@ -9832,12 +9832,6 @@ urlbar
 -
 container
 #
-aiwindow
--
-ask
--
-button
-#
 nav
 -
 bar
@@ -9865,6 +9859,12 @@ overflow
 button
 #
 PanelUI
+-
+button
+#
+smartwindow
+-
+ask
 -
 button
 {
