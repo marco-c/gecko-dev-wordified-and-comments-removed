@@ -4503,6 +4503,11 @@ DialogInterface
 _
 -
 >
+if
+(
+isAdded
+)
+{
 findNavController
 (
 )
@@ -4546,6 +4551,7 @@ dialog
 dismiss
 (
 )
+}
 }
 create
 (
