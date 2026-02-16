@@ -2111,7 +2111,7 @@ W2
 Friday
 Post
 -
-B6
+B5
 Pre
 -
 release
@@ -2137,6 +2137,15 @@ for
 features
 riding
 train
+Beta
+W3
+Friday
+Deadline
+for
+security
+-
+approval
+requests
 Beta
 W3
 Friday
