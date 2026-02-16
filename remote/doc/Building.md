@@ -209,7 +209,7 @@ your
 mozconfig
 ]
 :
-make
+shell
 ac_add_options
 -
 -
@@ -265,7 +265,7 @@ your
 mozconfig
 ]
 :
-make
+shell
 ac_add_options
 -
 -

@@ -2,6 +2,14 @@
 .
 taskcluster_index
 :
+.
+.
+_TaskCluster
+Task
+-
+Graph
+Generation
+:
 Firefox
 CI
 and

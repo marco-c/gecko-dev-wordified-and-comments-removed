@@ -4055,7 +4055,7 @@ nsIPrincipal
 .
 idl
 >
-_
+__
 .
 Principals
 contain

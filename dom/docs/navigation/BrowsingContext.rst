@@ -691,7 +691,7 @@ BrowsingContext
 .
 h
 >
-_
+__
 *
 source
 (
@@ -720,7 +720,7 @@ BrowsingContext
 .
 cpp
 >
-_
+__
 *
 html
 spec
@@ -982,7 +982,7 @@ CanonicalBrowsingContext
 .
 h
 >
-_
+__
 *
 source
 (
@@ -1011,7 +1011,7 @@ CanonicalBrowsingContext
 .
 cpp
 >
-_
+__
 When
 a
 :
@@ -1102,7 +1102,7 @@ WindowContext
 .
 h
 >
-_
+__
 *
 source
 (
@@ -1131,7 +1131,7 @@ WindowContext
 .
 cpp
 >
-_
+__
 .
 .
 cpp
@@ -1184,7 +1184,7 @@ WindowGlobalParent
 .
 h
 >
-_
+__
 *
 source
 (
@@ -1213,7 +1213,7 @@ WindowGlobalParent
 .
 cpp
 >
-_
+__
 .
 .
 cpp
@@ -1264,7 +1264,7 @@ WindowGlobalChild
 .
 h
 >
-_
+__
 *
 source
 (
@@ -1293,4 +1293,4 @@ WindowGlobalChild
 .
 cpp
 >
-_
+__

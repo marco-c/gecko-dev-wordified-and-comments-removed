@@ -1074,7 +1074,7 @@ ref
 :
 above
 <
-run_make_schemas_
+run_make_schemas
 >
 .
 Triggers

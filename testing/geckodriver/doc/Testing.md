@@ -98,7 +98,7 @@ your
 mozconfig
 ]
 :
-make
+shell
 ac_add_options
 -
 -
