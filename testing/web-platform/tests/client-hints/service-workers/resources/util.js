@@ -128,12 +128,6 @@ resolve
 }
 )
 ;
-popup_window
-.
-location
-=
-url
-;
 await
 popup_load
 ;
