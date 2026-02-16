@@ -1264,7 +1264,7 @@ isSignedIn
 false
 isEnrolledAndEntitled
 :
-undefined
+false
 canEnroll
 :
 true
