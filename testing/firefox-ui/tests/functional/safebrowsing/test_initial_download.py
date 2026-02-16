@@ -1,10 +1,6 @@
 import
 os
 from
-functools
-import
-reduce
-from
 marionette_driver
 import
 Wait
@@ -113,6 +109,11 @@ nextupdatetime
 :
 1
     
+}
+    
+prefs_provider_google_update_time
+=
+{
 }
     
 prefs_safebrowsing
@@ -369,7 +370,7 @@ safebrowsing_shavar_files
             
 self
 .
-prefs_provider_update_time
+prefs_provider_google_update_time
 .
 update
 (
@@ -390,32 +391,6 @@ nextupdatetime
 1
             
 }
-)
-        
-is_safebrowsing_v5_enabled
-=
-bool
-(
-            
-self
-.
-marionette
-.
-get_pref
-(
-"
-browser
-.
-safebrowsing
-.
-provider
-.
-google5
-.
-enabled
-"
-)
-        
 )
         
 self
@@ -463,46 +438,14 @@ safebrowsing_protobuf_files
 )
 :
             
-if
-is_safebrowsing_v5_enabled
-:
-                
 self
 .
-prefs_provider_update_time
+prefs_provider_google_update_time
 .
 update
 (
 {
-                    
-"
-browser
-.
-safebrowsing
-.
-provider
-.
-google5
-.
-nextupdatetime
-"
-:
-1
                 
-}
-)
-            
-else
-:
-                
-self
-.
-prefs_provider_update_time
-.
-update
-(
-{
-                    
 "
 browser
 .
@@ -517,6 +460,20 @@ nextupdatetime
 :
 1
                 
+"
+browser
+.
+safebrowsing
+.
+provider
+.
+google5
+.
+nextupdatetime
+"
+:
+1
+            
 }
 )
         
@@ -533,6 +490,15 @@ update
 self
 .
 prefs_provider_update_time
+)
+        
+enforce_prefs
+.
+update
+(
+self
+.
+prefs_provider_google_update_time
 )
         
 self
@@ -619,16 +585,43 @@ _
 )
 :
             
+for
+pref
+in
+self
+.
+prefs_provider_update_time
+:
+                
+if
+int
+(
+self
+.
+marionette
+.
+get_pref
+(
+pref
+)
+)
+=
+=
+1
+:
+                    
 return
-reduce
+False
+            
+if
+self
+.
+prefs_provider_google_update_time
+and
+not
+any
 (
                 
-lambda
-state
-pref
-:
-state
-and
 int
 (
 self
@@ -644,16 +637,21 @@ pref
 =
 1
                 
-list
-(
+for
+pref
+in
 self
 .
-prefs_provider_update_time
-)
-                
-True
+prefs_provider_google_update_time
             
 )
+:
+                
+return
+False
+            
+return
+True
         
 try
 :
