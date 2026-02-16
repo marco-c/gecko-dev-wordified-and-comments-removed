@@ -72,6 +72,11 @@ MaxTouchPoints
 (
 )
 ;
+void
+PopulateMathMLPrefs
+(
+)
+;
 }
 }
 ;
