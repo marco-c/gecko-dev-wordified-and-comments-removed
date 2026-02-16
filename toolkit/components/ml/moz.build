@@ -194,6 +194,15 @@ perftest
 .
 toml
 "
+"
+tests
+/
+browser_eval
+/
+eval
+.
+toml
+"
 ]
 XPIDL_SOURCES
 +
