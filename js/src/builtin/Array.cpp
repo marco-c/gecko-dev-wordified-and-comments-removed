@@ -22110,10 +22110,8 @@ rval
 )
 ;
 }
+static
 bool
-js
-:
-:
 array_indexOf
 (
 JSContext
@@ -22719,10 +22717,8 @@ return
 true
 ;
 }
+static
 bool
-js
-:
-:
 array_lastIndexOf
 (
 JSContext
@@ -23323,10 +23319,8 @@ return
 true
 ;
 }
+static
 bool
-js
-:
-:
 array_includes
 (
 JSContext

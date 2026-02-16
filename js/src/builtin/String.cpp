@@ -9779,10 +9779,8 @@ return
 true
 ;
 }
+static
 bool
-js
-:
-:
 str_charCodeAt
 (
 JSContext
@@ -20368,10 +20366,8 @@ return
 true
 ;
 }
+static
 bool
-js
-:
-:
 str_fromCharCode
 (
 JSContext
@@ -21454,9 +21450,6 @@ JS_INLINABLE_FN
 "
 fromCharCode
 "
-js
-:
-:
 str_fromCharCode
 1
 0
@@ -21467,9 +21460,6 @@ JS_INLINABLE_FN
 "
 fromCodePoint
 "
-js
-:
-:
 str_fromCodePoint
 1
 0
