@@ -124,7 +124,7 @@ memory_summary
 score
 "
 "
-why
+reasoning
 "
 "
 evidence
@@ -202,7 +202,7 @@ type
 integer
 "
 }
-why
+reasoning
 :
 {
 type

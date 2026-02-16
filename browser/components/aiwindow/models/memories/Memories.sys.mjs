@@ -1530,6 +1530,9 @@ intent
 "
 memory_summary
 "
+"
+reasoning
+"
 ]
 )
 {
@@ -1642,6 +1645,11 @@ memory_summary
 memory
 .
 memory_summary
+reasoning
+:
+memory
+.
+reasoning
 score
 }
 ;
