@@ -679,7 +679,7 @@ browser
 .
 ipProtection
 .
-userEnabled
+autoRestoreEnabled
 "
 )
 )

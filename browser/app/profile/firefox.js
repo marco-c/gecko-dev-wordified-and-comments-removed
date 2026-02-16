@@ -26295,7 +26295,7 @@ ipProtection
 .
 autoRestoreEnabled
 "
-true
+false
 )
 ;
 pref
