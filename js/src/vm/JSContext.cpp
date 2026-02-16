@@ -1820,7 +1820,7 @@ return
 cx
 -
 >
-reportAllocationOverflow
+reportAllocOverflow
 (
 )
 ;
@@ -3805,7 +3805,7 @@ void
 JSContext
 :
 :
-reportAllocationOverflow
+reportAllocOverflow
 (
 )
 {

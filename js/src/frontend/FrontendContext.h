@@ -250,7 +250,7 @@ nullptr
 )
 ;
 void
-reportAllocationOverflow
+reportAllocOverflow
 (
 )
 ;

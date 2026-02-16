@@ -169,7 +169,7 @@ void
 FrontendAllocator
 :
 :
-reportAllocationOverflow
+reportAllocOverflow
 (
 )
 {

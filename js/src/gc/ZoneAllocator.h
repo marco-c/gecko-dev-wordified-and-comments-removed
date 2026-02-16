@@ -223,7 +223,7 @@ nullptr
 )
 ;
 void
-reportAllocationOverflow
+reportAllocOverflow
 (
 )
 const
@@ -1236,17 +1236,6 @@ ShouldFailWithOOM
 )
 ;
 }
-void
-reportAllocOverflow
-(
-)
-const
-{
-reportAllocationOverflow
-(
-)
-;
-}
 [
 [
 nodiscard
@@ -1288,7 +1277,7 @@ reallocPtr
 ;
 }
 void
-reportAllocationOverflow
+reportAllocOverflow
 (
 )
 const
@@ -1298,7 +1287,7 @@ zone
 )
 -
 >
-reportAllocationOverflow
+reportAllocOverflow
 (
 )
 ;

@@ -4299,7 +4299,7 @@ afterWaitCallback
 public
 :
 void
-reportAllocationOverflow
+reportAllocOverflow
 (
 )
 {
