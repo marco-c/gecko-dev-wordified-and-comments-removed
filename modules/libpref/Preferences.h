@@ -392,7 +392,10 @@ mRootBranch
 ;
 }
 static
-int32_t
+nsIPrefBranch
+:
+:
+PreferenceType
 GetType
 (
 const
