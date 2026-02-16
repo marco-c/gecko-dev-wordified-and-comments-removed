@@ -2,6 +2,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 values
 :
 :
@@ -145,6 +154,8 @@ OverflowWrap
 RubyPosition
 TextAlignLast
 TextAutospace
+TextBoxEdge
+TextBoxTrim
 TextDecorationLine
 TextDecorationSkipInk
 TextEmphasisPosition

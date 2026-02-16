@@ -5405,6 +5405,12 @@ mozilla
 StyleTextDecorationInset
 mTextDecorationInset
 ;
+mozilla
+:
+:
+StyleTextBoxTrim
+mTextBoxTrim
+;
 }
 ;
 struct
@@ -5642,6 +5648,12 @@ mozilla
 :
 StyleTextIndent
 mTextIndent
+;
+mozilla
+:
+:
+StyleTextBoxEdge
+mTextBoxEdge
 ;
 mozilla
 :
