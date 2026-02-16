@@ -450,10 +450,6 @@ nsListControlFrame
 )
 NS_QUERYFRAME_ENTRY
 (
-nsISelectControlFrame
-)
-NS_QUERYFRAME_ENTRY
-(
 nsListControlFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
@@ -2274,7 +2270,7 @@ aIndex
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsListControlFrame
 :
 :
@@ -2297,9 +2293,6 @@ aIndex
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 nsListControlFrame
@@ -2565,7 +2558,7 @@ Length
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsListControlFrame
 :
 :
@@ -2578,11 +2571,8 @@ ResetList
 true
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 nsListControlFrame
 :
 :
@@ -2598,7 +2588,6 @@ true
 ;
 if
 (
-!
 Select
 (
 )
@@ -2608,17 +2597,11 @@ IsDoneAddingChildren
 )
 )
 {
-return
-NS_OK
-;
-}
 mPostChildrenLoadedReset
 =
 true
 ;
-return
-NS_OK
-;
+}
 }
 static
 int32_t
@@ -2653,7 +2636,7 @@ aSelectionIndex
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsListControlFrame
 :
 :
@@ -2834,9 +2817,6 @@ kNothingSelected
 InvalidateFocus
 (
 )
-;
-return
-NS_OK
 ;
 }
 bool

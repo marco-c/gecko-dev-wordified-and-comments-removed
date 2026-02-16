@@ -118,7 +118,7 @@ class
 nsIHTMLCollection
 ;
 class
-nsISelectControlFrame
+nsListControlFrame
 ;
 namespace
 mozilla
@@ -1433,7 +1433,7 @@ aNotify
 void
 OnOptionSelected
 (
-nsISelectControlFrame
+nsListControlFrame
 *
 aSelectFrame
 int32_t
@@ -1530,9 +1530,9 @@ int32_t
 aEndIndex
 )
 ;
-nsISelectControlFrame
+nsListControlFrame
 *
-GetSelectFrame
+GetListBoxFrame
 (
 )
 ;
