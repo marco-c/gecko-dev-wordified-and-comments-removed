@@ -250,7 +250,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-ErrorResult
+IgnoredErrorResult
 rv
 ;
 Write
@@ -272,12 +272,6 @@ Failed
 )
 )
 {
-rv
-.
-SuppressException
-(
-)
-;
 return
 NS_ERROR_DOM_DATA_CLONE_ERR
 ;
@@ -412,7 +406,7 @@ jsStateObj
 aCx
 )
 ;
-ErrorResult
+IgnoredErrorResult
 rv
 ;
 Read
@@ -435,12 +429,6 @@ Failed
 )
 )
 {
-rv
-.
-SuppressException
-(
-)
-;
 return
 NS_ERROR_DOM_DATA_CLONE_ERR
 ;
