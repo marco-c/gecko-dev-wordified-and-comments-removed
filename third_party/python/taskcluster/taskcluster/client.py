@@ -14,32 +14,26 @@ apis
 "
 "
 "
-from
-__future__
 import
-absolute_import
-division
-print_function
-import
-json
-import
-logging
+calendar
 import
 copy
+import
+datetime
 import
 hashlib
 import
 hmac
 import
-datetime
+json
 import
-calendar
+logging
 import
 time
 import
-warnings
-import
 urllib
+import
+warnings
 import
 mohawk
 import
@@ -49,21 +43,21 @@ bewit
 import
 requests
 import
-taskcluster
-.
-exceptions
-as
-exceptions
-import
-taskcluster
-.
-utils
-as
-utils
-import
 taskcluster_urls
 as
 liburls
+import
+taskcluster
+.
+exceptions
+as
+exceptions
+import
+taskcluster
+.
+utils
+as
+utils
 log
 =
 logging
@@ -78,47 +72,47 @@ config
 =
 {
     
-'
+"
 credentials
-'
+"
 :
 {
         
-'
+"
 clientId
-'
+"
 :
 None
         
-'
+"
 accessToken
-'
+"
 :
 None
         
-'
+"
 certificate
-'
+"
 :
 None
     
 }
     
-'
+"
 rootUrl
-'
+"
 :
 None
     
-'
+"
 maxRetries
-'
+"
 :
 5
     
-'
+"
 signedUrlExpiration
-'
+"
 :
 15
 *
@@ -179,9 +173,6 @@ kwargs
 )
 class
 BaseClient
-(
-object
-)
 :
     
 "
@@ -256,9 +247,9 @@ options
 .
 get
 (
-'
+"
 baseUrl
-'
+"
 )
 :
             
@@ -267,14 +258,14 @@ exceptions
 .
 TaskclusterFailure
 (
-'
+"
 baseUrl
 option
 is
 no
 longer
 allowed
-'
+"
 )
         
 o
@@ -312,9 +303,9 @@ o
 .
 get
 (
-'
+"
 rootUrl
-'
+"
 )
 :
             
@@ -323,12 +314,12 @@ exceptions
 .
 TaskclusterFailure
 (
-'
+"
 rootUrl
 option
 is
 required
-'
+"
 )
         
 credentials
@@ -337,9 +328,9 @@ o
 .
 get
 (
-'
+"
 credentials
-'
+"
 )
         
 if
@@ -350,15 +341,15 @@ for
 x
 in
 (
-'
+"
 accessToken
-'
-'
+"
+"
 clientId
-'
-'
+"
+"
 certificate
-'
+"
 )
 :
                 
@@ -397,9 +388,9 @@ x
 .
 encode
 (
-'
+"
 ascii
-'
+"
 )
                     
 except
@@ -408,26 +399,24 @@ Exception
                         
 s
 =
-'
-%
-s
+f
+"
+{
+x
+}
 (
-%
-s
+{
+credentials
+[
+x
+]
+}
 )
 must
 be
 unicode
 encodable
-'
-%
-(
-x
-credentials
-[
-x
-]
-)
+"
                         
 raise
 exceptions
@@ -444,9 +433,9 @@ options
 o
         
 if
-'
+"
 credentials
-'
+"
 in
 o
 :
@@ -455,14 +444,14 @@ log
 .
 debug
 (
-'
+"
 credentials
 key
 scrubbed
 from
 logging
 output
-'
+"
 )
         
 log
@@ -488,9 +477,9 @@ if
 k
 !
 =
-'
+"
 credentials
-'
+"
 )
 )
         
@@ -587,9 +576,9 @@ o
 .
 get
 (
-'
+"
 credentials
-'
+"
 {
 }
 )
@@ -599,18 +588,18 @@ c
 .
 get
 (
-'
+"
 clientId
-'
+"
 )
 and
 c
 .
 get
 (
-'
+"
 accessToken
-'
+"
 )
 :
             
@@ -625,9 +614,9 @@ c
 .
 get
 (
-'
+"
 certificate
-'
+"
 )
             
 if
@@ -669,33 +658,33 @@ cert
                 
 ext
 [
-'
+"
 certificate
-'
+"
 ]
 =
 cert
             
 if
-'
+"
 authorizedScopes
-'
+"
 in
 o
 :
                 
 ext
 [
-'
+"
 authorizedScopes
-'
+"
 ]
 =
 o
 [
-'
+"
 authorizedScopes
-'
+"
 ]
             
 return
@@ -703,6 +692,7 @@ utils
 .
 makeB64UrlSafe
 (
+                
 utils
 .
 encodeStringForB64Header
@@ -718,6 +708,7 @@ ext
 strip
 (
 )
+            
 )
         
 else
@@ -782,7 +773,7 @@ args
                 
 errStr
 =
-'
+"
 Pass
 either
 a
@@ -792,7 +783,7 @@ dictionary
 or
 only
 kwargs
-'
+"
                 
 raise
 exceptions
@@ -820,48 +811,51 @@ data
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
-%
-s
+"
+{
+}
 /
-%
-s
-'
-%
+{
+}
+"
+.
+format
 (
+                
 self
 .
 options
 [
-'
+"
 exchangePrefix
-'
+"
 ]
 .
 rstrip
 (
-'
+"
 /
-'
+"
 )
-                                   
+                
 entry
 [
-'
+"
 exchange
-'
+"
 ]
 .
 lstrip
 (
-'
+"
 /
-'
+"
 )
+            
 )
         
 }
@@ -878,7 +872,7 @@ log
 .
 debug
 (
-'
+"
 Passing
 through
 string
@@ -886,14 +880,14 @@ for
 topic
 exchange
 key
-'
+"
 )
             
 data
 [
-'
+"
 routingKeyPattern
-'
+"
 ]
 =
 routingKeyPattern
@@ -912,14 +906,14 @@ dict
             
 errStr
 =
-'
+"
 routingKeyPattern
 must
 eventually
 be
 a
 dict
-'
+"
             
 raise
 exceptions
@@ -949,16 +943,16 @@ key
 in
 entry
 [
-'
+"
 routingKey
-'
+"
 ]
 :
             
 if
-'
+"
 constant
-'
+"
 in
 key
 :
@@ -967,17 +961,17 @@ value
 =
 key
 [
-'
+"
 constant
-'
+"
 ]
             
 elif
 key
 [
-'
+"
 name
-'
+"
 ]
 in
 routingKeyPattern
@@ -987,7 +981,7 @@ log
 .
 debug
 (
-'
+"
 Found
 %
 s
@@ -995,12 +989,12 @@ in
 routing
 key
 params
-'
+"
 key
 [
-'
+"
 name
-'
+"
 ]
 )
                 
@@ -1012,9 +1006,9 @@ routingKeyPattern
 [
 key
 [
-'
+"
 name
-'
+"
 ]
 ]
 )
@@ -1025,14 +1019,14 @@ key
 .
 get
 (
-'
+"
 multipleWords
-'
+"
 )
 and
-'
+"
 .
-'
+"
 in
 value
 :
@@ -1043,7 +1037,7 @@ exceptions
 TaskclusterTopicExchangeFailure
 (
                         
-'
+"
 Cannot
 have
 periods
@@ -1051,7 +1045,8 @@ in
 single
 word
 keys
-'
+"
+                    
 )
             
 else
@@ -1059,28 +1054,29 @@ else
                 
 value
 =
-'
+"
 #
-'
+"
 if
 key
 .
 get
 (
-'
+"
 multipleWords
-'
+"
 )
 else
-'
+"
 *
-'
+"
                 
 log
 .
 debug
 (
-'
+                    
+"
 Did
 not
 find
@@ -1092,14 +1088,15 @@ params
 using
 %
 s
-'
+"
 key
 [
-'
+"
 name
-'
+"
 ]
 value
+                
 )
             
 routingKey
@@ -1111,14 +1108,14 @@ value
         
 data
 [
-'
+"
 routingKeyPattern
-'
+"
 ]
 =
-'
+"
 .
-'
+"
 .
 join
 (
@@ -1172,12 +1169,14 @@ exceptions
 TaskclusterFailure
 (
                 
+f
 '
 Requested
 method
 "
-%
-s
+{
+methodName
+}
 "
 not
 found
@@ -1185,8 +1184,7 @@ in
 API
 Reference
 '
-%
-methodName
+            
 )
         
 routeParams
@@ -1224,9 +1222,9 @@ query
 route
 +
 =
-'
+"
 ?
-'
+"
 +
 urllib
 .
@@ -1242,13 +1240,14 @@ liburls
 .
 api
 (
+            
 self
 .
 options
 [
-'
+"
 rootUrl
-'
+"
 ]
 self
 .
@@ -1257,6 +1256,7 @@ self
 .
 apiVersion
 route
+        
 )
     
 def
@@ -1297,9 +1297,9 @@ resource
 "
         
 if
-'
+"
 expiration
-'
+"
 in
 kwargs
 :
@@ -1308,17 +1308,17 @@ expiration
 =
 kwargs
 [
-'
+"
 expiration
-'
+"
 ]
             
 del
 kwargs
 [
-'
+"
 expiration
-'
+"
 ]
         
 else
@@ -1330,15 +1330,16 @@ self
 .
 options
 [
-'
+"
 signedUrlExpiration
-'
+"
 ]
         
 expiration
 =
 int
 (
+            
 time
 .
 time
@@ -1346,6 +1347,7 @@ time
 )
 +
 expiration
+        
 )
         
 requestUrl
@@ -1376,11 +1378,11 @@ exceptions
 .
 TaskclusterAuthFailure
 (
-'
+"
 Invalid
 Hawk
 Credentials
-'
+"
 )
         
 clientId
@@ -1393,14 +1395,14 @@ self
 .
 options
 [
-'
+"
 credentials
-'
+"
 ]
 [
-'
+"
 clientId
-'
+"
 ]
 )
         
@@ -1414,14 +1416,14 @@ self
 .
 options
 [
-'
+"
 credentials
-'
+"
 ]
 [
-'
+"
 accessToken
-'
+"
 ]
 )
         
@@ -1444,33 +1446,33 @@ credentials
 =
 {
                     
-'
+"
 id
-'
+"
 :
 clientId
                     
-'
+"
 key
-'
+"
 :
 accessToken
                     
-'
+"
 algorithm
-'
+"
 :
-'
+"
 sha256
-'
+"
                 
 }
                 
 method
 =
-'
+"
 GET
-'
+"
                 
 ext
 =
@@ -1495,8 +1497,8 @@ expiration
                 
 nonce
 =
-'
-'
+"
+"
             
 )
             
@@ -1516,9 +1518,9 @@ bewit
 .
 rstrip
 (
-'
+"
 =
-'
+"
 )
         
 bewit
@@ -1537,13 +1539,13 @@ exceptions
 .
 TaskclusterFailure
 (
-'
+"
 Did
 not
 receive
 a
 bewit
-'
+"
 )
         
 u
@@ -1570,21 +1572,21 @@ qs
 qs
 +
 =
-'
+"
 &
-'
+"
         
 qs
 +
 =
-'
+f
+"
 bewit
 =
-%
-s
-'
-%
+{
 bewit
+}
+"
         
 return
 urllib
@@ -1593,31 +1595,33 @@ parse
 .
 urlunparse
 (
-(
             
+(
+                
 u
 .
 scheme
-            
+                
 u
 .
 netloc
-            
+                
 u
 .
 path
-            
+                
 u
 .
 params
-            
+                
 qs
-            
+                
 u
 .
 fragment
-        
+            
 )
+        
 )
     
 def
@@ -1660,9 +1664,9 @@ self
 .
 options
 [
-'
+"
 rootUrl
-'
+"
 ]
             
 self
@@ -1677,10 +1681,11 @@ route
 .
 rstrip
 (
-'
+"
 /
-'
+"
 )
+        
 )
     
 def
@@ -1755,17 +1760,17 @@ routeParams
 if
 paginationLimit
 and
-'
+"
 limit
-'
+"
 in
 entry
 .
 get
 (
-'
+"
 query
-'
+"
 [
 ]
 )
@@ -1773,9 +1778,9 @@ query
             
 query
 [
-'
+"
 limit
-'
+"
 ]
 =
 paginationLimit
@@ -1788,9 +1793,9 @@ _route
 =
 route
 +
-'
+"
 ?
-'
+"
 +
 urllib
 .
@@ -1816,9 +1821,9 @@ _makeHttpRequest
 (
 entry
 [
-'
+"
 method
-'
+"
 ]
 _route
 payload
@@ -1838,33 +1843,33 @@ response
 .
 get
 (
-'
+"
 continuationToken
-'
+"
 )
 :
                 
 query
 [
-'
+"
 continuationToken
-'
+"
 ]
 =
 response
 [
-'
+"
 continuationToken
-'
+"
 ]
                 
 _route
 =
 route
 +
-'
+"
 ?
-'
+"
 +
 urllib
 .
@@ -1883,9 +1888,9 @@ _makeHttpRequest
 (
 entry
 [
-'
+"
 method
-'
+"
 ]
 _route
 payload
@@ -1965,9 +1970,9 @@ reqArgs
 =
 entry
 [
-'
+"
 args
-'
+"
 ]
         
 routeParams
@@ -2008,9 +2013,9 @@ kwargs
 :
             
 if
-'
+"
 input
-'
+"
 in
 entry
 and
@@ -2068,20 +2073,22 @@ exceptions
 .
 TaskclusterFailure
 (
-'
+                    
+"
 Incorrect
 number
 of
 positional
 arguments
-'
+"
+                
 )
             
 log
 .
 debug
 (
-'
+"
 Using
 method
 (
@@ -2091,7 +2098,7 @@ payload
 )
 calling
 convention
-'
+"
 )
         
 else
@@ -2138,9 +2145,9 @@ False
 break
                 
 if
-'
+"
 input
-'
+"
 in
 entry
 and
@@ -2158,9 +2165,9 @@ isFlatKwargs
 False
                 
 if
-'
+"
 input
-'
+"
 not
 in
 entry
@@ -2195,9 +2202,9 @@ isFlatKwargs
 :
                 
 if
-'
+"
 input
-'
+"
 in
 entry
 :
@@ -2218,7 +2225,7 @@ log
 .
 debug
 (
-'
+"
 Using
 method
 (
@@ -2232,7 +2239,7 @@ v2
 )
 calling
 convention
-'
+"
 )
                 
 warnings
@@ -2273,9 +2280,9 @@ kwargs
 .
 get
 (
-'
+"
 params
-'
+"
 {
 }
 )
@@ -2286,9 +2293,9 @@ kwargs
 .
 get
 (
-'
+"
 payload
-'
+"
 None
 )
                 
@@ -2298,9 +2305,9 @@ kwargs
 .
 get
 (
-'
+"
 query
-'
+"
 {
 }
 )
@@ -2311,9 +2318,9 @@ kwargs
 .
 get
 (
-'
+"
 paginationHandler
-'
+"
 None
 )
                 
@@ -2323,9 +2330,9 @@ kwargs
 .
 get
 (
-'
+"
 paginationLimit
-'
+"
 None
 )
                 
@@ -2333,7 +2340,8 @@ log
 .
 debug
 (
-'
+                    
+"
 Using
 method
 (
@@ -2356,13 +2364,14 @@ v2
 )
 calling
 convention
-'
+"
+                
 )
         
 if
-'
+"
 input
-'
+"
 in
 entry
 and
@@ -2381,11 +2390,11 @@ exceptions
 .
 TaskclusterFailure
 (
-'
+"
 Payload
 is
 required
-'
+"
 )
         
 for
@@ -2420,12 +2429,12 @@ TaskclusterFailure
 Positional
 arg
 "
-%
-s
+{
+}
 "
 to
-%
-s
+{
+}
 is
 not
 a
@@ -2433,16 +2442,20 @@ string
 or
 int
 '
-%
+.
+format
 (
+                        
 arg
 entry
 [
-'
+"
 name
-'
+"
 ]
+                    
 )
+                
 )
         
 for
@@ -2482,15 +2495,15 @@ TaskclusterFailure
 KW
 arg
 "
-%
-s
+{
+}
 :
-%
-s
+{
+}
 "
 to
-%
-s
+{
+}
 is
 not
 a
@@ -2498,17 +2511,21 @@ string
 or
 int
 '
-%
+.
+format
 (
+                        
 name
 arg
 entry
 [
-'
+"
 name
-'
+"
 ]
+                    
 )
+                
 )
         
 if
@@ -2532,7 +2549,8 @@ exceptions
 .
 TaskclusterFailure
 (
-'
+                
+"
 Specify
 either
 positional
@@ -2540,7 +2558,8 @@ or
 key
 word
 arguments
-'
+"
+            
 )
         
 if
@@ -2566,32 +2585,26 @@ exceptions
 TaskclusterFailure
 (
                 
-'
-%
-s
-takes
-%
-d
-args
-only
-%
-d
-were
-given
-'
-%
-(
-                    
+f
+"
+{
 entry
 [
 '
 name
 '
 ]
+}
+takes
+{
 len
 (
 reqArgs
 )
+}
+args
+only
+{
 len
 (
 args
@@ -2601,7 +2614,11 @@ len
 (
 kwApiArgs
 )
-)
+}
+were
+given
+"
+            
 )
         
 if
@@ -2621,7 +2638,8 @@ exceptions
 .
 TaskclusterFailure
 (
-'
+                
+"
 %
 s
 called
@@ -2630,14 +2648,14 @@ too
 many
 positional
 args
-'
-                                                
+"
 entry
 [
-'
+"
 name
-'
+"
 ]
+            
 )
         
 i
@@ -2654,7 +2672,7 @@ log
 .
 debug
 (
-'
+"
 Found
 a
 positional
@@ -2662,7 +2680,7 @@ argument
 :
 %
 s
-'
+"
 arg
 )
             
@@ -2685,7 +2703,7 @@ log
 .
 debug
 (
-'
+"
 After
 processing
 positional
@@ -2695,7 +2713,7 @@ have
 :
 %
 s
-'
+"
 routeParams
 )
         
@@ -2710,7 +2728,7 @@ log
 .
 debug
 (
-'
+"
 After
 keyword
 arguments
@@ -2719,7 +2737,7 @@ have
 :
 %
 s
-'
+"
 routeParams
 )
         
@@ -2738,40 +2756,40 @@ routeParams
             
 errMsg
 =
-'
-%
-s
+"
+{
+}
 takes
-%
-s
+{
+}
 args
-%
-s
+{
+}
 given
-'
-%
+"
+.
+format
 (
                 
 entry
 [
-'
+"
 name
-'
+"
 ]
-                
-'
-'
+"
+"
 .
 join
 (
 reqArgs
 )
-                
 routeParams
 .
 keys
 (
 )
+            
 )
             
 log
@@ -2805,13 +2823,13 @@ routeParams
 errMsg
 =
 '
-%
-s
+{
+}
 requires
 a
 "
-%
-s
+{
+}
 "
 argument
 which
@@ -2819,16 +2837,18 @@ was
 not
 provided
 '
-%
+.
+format
 (
                     
 entry
 [
-'
+"
 name
-'
+"
 ]
 reqArg
+                
 )
                 
 log
@@ -2914,9 +2934,9 @@ route
 =
 entry
 [
-'
+"
 route
-'
+"
 ]
         
 for
@@ -2932,14 +2952,14 @@ items
             
 toReplace
 =
+f
 "
 <
-%
-s
+{
+arg
+}
 >
 "
-%
-arg
             
 if
 toReplace
@@ -2954,28 +2974,30 @@ exceptions
 TaskclusterFailure
 (
                     
-'
+"
 Arg
-%
-s
+{
+}
 not
 found
 in
 route
 for
-%
-s
-'
-%
+{
+}
+"
+.
+format
 (
 arg
 entry
 [
-'
+"
 name
-'
+"
 ]
 )
+                
 )
             
 val
@@ -2999,8 +3021,8 @@ utf
 8
 "
 )
-'
-'
+"
+"
 )
             
 route
@@ -3009,14 +3031,14 @@ route
 .
 replace
 (
+f
 "
 <
-%
-s
+{
+arg
+}
 >
 "
-%
-arg
 val
 )
         
@@ -3025,9 +3047,9 @@ route
 .
 lstrip
 (
-'
+"
 /
-'
+"
 )
     
 def
@@ -3058,44 +3080,44 @@ options
 .
 get
 (
-'
+"
 credentials
-'
+"
 )
         
 return
 (
             
 cred
-and
             
-'
+and
+"
 clientId
-'
+"
 in
 cred
-and
             
-'
+and
+"
 accessToken
-'
+"
 in
 cred
-and
             
+and
 cred
 [
-'
+"
 clientId
-'
+"
 ]
-and
             
+and
 cred
 [
-'
+"
 accessToken
-'
+"
 ]
         
 )
@@ -3165,7 +3187,7 @@ log
 .
 debug
 (
-'
+"
 Full
 URL
 used
@@ -3173,7 +3195,7 @@ is
 :
 %
 s
-'
+"
 url
 )
         
@@ -3212,9 +3234,9 @@ self
 .
 options
 [
-'
+"
 maxRetries
-'
+"
 ]
         
 while
@@ -3265,49 +3287,49 @@ credentials
 =
 {
                         
-'
+"
 id
-'
+"
 :
 self
 .
 options
 [
-'
+"
 credentials
-'
+"
 ]
 [
-'
+"
 clientId
-'
+"
 ]
                         
-'
+"
 key
-'
+"
 :
 self
 .
 options
 [
-'
+"
 credentials
-'
+"
 ]
 [
-'
+"
 accessToken
-'
+"
 ]
                         
-'
+"
 algorithm
-'
+"
 :
-'
+"
 sha256
-'
+"
                     
 }
                     
@@ -3330,21 +3352,21 @@ payload
 if
 payload
 else
-'
-'
+"
+"
                     
 content_type
 =
-'
+"
 application
 /
 json
-'
+"
 if
 payload
 else
-'
-'
+"
+"
                     
 method
 =
@@ -3355,9 +3377,9 @@ method
 headers
 =
 {
-'
+"
 Authorization
-'
+"
 :
 sender
 .
@@ -3371,12 +3393,12 @@ log
 .
 debug
 (
-'
+"
 Not
 using
 hawk
 !
-'
+"
 )
                 
 headers
@@ -3390,29 +3412,29 @@ payload
                 
 headers
 [
-'
+"
 Content
 -
 Type
-'
+"
 ]
 =
-'
+"
 application
 /
 json
-'
+"
             
 log
 .
 debug
 (
-'
+"
 Making
 attempt
 %
 d
-'
+"
 retry
 )
             
@@ -3451,16 +3473,16 @@ log
 .
 warning
 (
-'
+f
+"
 Retrying
 because
 of
 :
-%
-s
-'
-%
+{
 rerr
+}
+"
 )
                     
 continue
@@ -3477,7 +3499,6 @@ to
 establish
 connection
 "
-                    
 superExc
 =
 rerr
@@ -3538,18 +3559,18 @@ log
 .
 warning
 (
-'
+f
+"
 Retrying
 because
 of
 a
-%
-s
+{
+status
+}
 status
 code
-'
-%
-status
+"
 )
                     
 continue
@@ -3598,9 +3619,9 @@ data
 .
 get
 (
-'
+"
 message
-'
+"
 )
                 
 else
@@ -3649,15 +3670,12 @@ TaskclusterAuthFailure
 (
                         
 message
-                        
 status_code
 =
 status
-                        
 body
 =
 data
-                        
 superExc
 =
 None
@@ -3671,15 +3689,12 @@ TaskclusterRestFailure
 (
                     
 message
-                    
 status_code
 =
 status
-                    
 body
 =
 data
-                    
 superExc
 =
 None
@@ -3734,9 +3749,9 @@ api
 =
 api
 [
-'
+"
 reference
-'
+"
 ]
     
 attributes
@@ -3754,9 +3769,9 @@ api
 .
 get
 (
-'
+"
 description
-'
+"
 )
         
 classOptions
@@ -3772,9 +3787,9 @@ funcinfo
 )
     
 if
-'
+"
 apiVersion
-'
+"
 not
 in
 api
@@ -3782,21 +3797,21 @@ api
         
 api
 [
-'
+"
 apiVersion
-'
+"
 ]
 =
-'
+"
 v1
-'
+"
     
 copiedOptions
 =
 (
-'
+"
 exchangePrefix
-'
+"
 )
     
 for
@@ -3813,9 +3828,9 @@ api
             
 attributes
 [
-'
+"
 classOptions
-'
+"
 ]
 [
 opt
@@ -3829,12 +3844,12 @@ opt
 copiedProperties
 =
 (
-'
+"
 serviceName
-'
-'
+"
+"
 apiVersion
-'
+"
 )
     
 for
@@ -3864,24 +3879,24 @@ entry
 in
 api
 [
-'
+"
 entries
-'
+"
 ]
 :
         
 if
 entry
 [
-'
+"
 type
-'
+"
 ]
 =
 =
-'
+"
 function
-'
+"
 :
             
 def
@@ -3931,42 +3946,43 @@ docStr
 "
 Call
 the
-%
-s
+{
+}
 api
 '
 s
-%
-s
+{
+}
 method
 .
 "
-%
+.
+format
 (
 name
 entry
 [
-'
+"
 name
-'
+"
 ]
 )
             
 if
 entry
 [
-'
+"
 args
-'
+"
 ]
 and
 len
 (
 entry
 [
-'
+"
 args
-'
+"
 ]
 )
 >
@@ -3990,29 +4006,29 @@ n
 docStr
 +
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
 [
-'
+f
+"
 -
-%
-s
-'
-%
+{
 x
+}
+"
 for
 x
 in
 entry
 [
-'
+"
 args
-'
+"
 ]
 ]
 )
@@ -4020,12 +4036,12 @@ args
 docStr
 +
 =
-'
+"
 \
 n
 \
 n
-'
+"
             
 else
 :
@@ -4043,9 +4059,9 @@ arguments
 "
             
 if
-'
+"
 input
-'
+"
 in
 entry
 :
@@ -4058,22 +4074,25 @@ This
 method
 takes
 input
-%
-s
+{
+}
 .
 "
-%
+.
+format
+(
 entry
 [
-'
+"
 input
-'
+"
 ]
+)
             
 if
-'
+"
 output
-'
+"
 in
 entry
 :
@@ -4086,21 +4105,24 @@ This
 method
 gives
 output
-%
-s
+{
+}
 "
-%
+.
+format
+(
 entry
 [
-'
+"
 output
-'
+"
 ]
+)
             
 docStr
 +
 =
-'
+"
 \
 n
 \
@@ -4108,21 +4130,22 @@ nThis
 method
 does
 a
-%
-s
+{
+}
 to
-%
-s
+{
+}
 .
-'
-%
+"
+.
+format
 (
                 
 entry
 [
-'
+"
 method
-'
+"
 ]
 .
 upper
@@ -4130,10 +4153,11 @@ upper
 )
 entry
 [
-'
+"
 route
-'
+"
 ]
+            
 )
             
 f
@@ -4144,16 +4168,16 @@ docStr
             
 attributes
 [
-'
+"
 funcinfo
-'
+"
 ]
 [
 entry
 [
-'
+"
 name
-'
+"
 ]
 ]
 =
@@ -4162,17 +4186,17 @@ entry
 elif
 entry
 [
-'
+"
 type
-'
+"
 ]
 =
 =
-'
+"
 topic
 -
 exchange
-'
+"
 :
             
 def
@@ -4219,7 +4243,7 @@ entry
             
 docStr
 =
-'
+"
 Generate
 a
 routing
@@ -4227,23 +4251,28 @@ key
 pattern
 for
 the
-%
-s
+{
+}
 exchange
 .
-'
-%
+"
+.
+format
+(
+                
 entry
 [
-'
+"
 exchange
-'
+"
 ]
+            
+)
             
 docStr
 +
 =
-'
+"
 This
 method
 takes
@@ -4256,12 +4285,12 @@ a
 string
 or
 a
-'
+"
             
 docStr
 +
 =
-'
+"
 dictionary
 .
 For
@@ -4271,12 +4300,12 @@ dictionary
 key
 the
 corresponding
-'
+"
             
 docStr
 +
 =
-'
+"
 routing
 key
 token
@@ -4288,12 +4317,12 @@ For
 routing
 key
 tokens
-'
+"
             
 docStr
 +
 =
-'
+"
 which
 are
 not
@@ -4306,12 +4335,14 @@ the
 or
 #
 character
-'
+"
             
 docStr
 +
 =
-'
+(
+                
+"
 is
 used
 depending
@@ -4329,12 +4360,14 @@ words
 n
 \
 n
-'
+"
+            
+)
             
 docStr
 +
 =
-'
+"
 This
 exchange
 takes
@@ -4346,41 +4379,46 @@ keys
 n
 \
 n
-'
+"
             
 docStr
 +
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
+                
 [
-'
+"
 -
-%
-s
-'
-%
+{
+}
+"
+.
+format
+(
 x
 [
-'
+"
 name
-'
+"
 ]
+)
 for
 x
 in
 entry
 [
-'
+"
 routingKey
-'
+"
 ]
 ]
+            
 )
             
 f
@@ -4397,9 +4435,9 @@ str
 (
 entry
 [
-'
+"
 name
-'
+"
 ]
 )
         
@@ -4407,9 +4445,9 @@ attributes
 [
 entry
 [
-'
+"
 name
-'
+"
 ]
 ]
 =
@@ -4574,12 +4612,12 @@ exceptions
 .
 TaskclusterFailure
 (
-'
+"
 Scope
 must
 be
 string
-'
+"
 )
     
 if
@@ -4602,12 +4640,12 @@ exceptions
 .
 TaskclusterFailure
 (
-'
+"
 Only
 31
 days
 allowed
-'
+"
 )
     
 cert
@@ -4663,9 +4701,9 @@ slugId
 .
 encode
 (
-'
+"
 ascii
-'
+"
 )
 +
 utils
@@ -4676,9 +4714,9 @@ slugId
 .
 encode
 (
-'
+"
 ascii
-'
+"
 )
     
 )
@@ -4689,9 +4727,9 @@ name
         
 cert
 [
-'
+"
 issuer
-'
+"
 ]
 =
 utils
@@ -4704,10 +4742,10 @@ clientId
 sig
 =
 [
-'
+"
 version
 :
-'
+"
 +
 utils
 .
@@ -4715,9 +4753,9 @@ toStr
 (
 cert
 [
-'
+"
 version
-'
+"
 ]
 )
 ]
@@ -4730,12 +4768,13 @@ sig
 .
 extend
 (
-[
             
-'
+[
+                
+"
 clientId
 :
-'
+"
 +
 utils
 .
@@ -4743,11 +4782,11 @@ toStr
 (
 name
 )
-            
-'
+                
+"
 issuer
 :
-'
+"
 +
 utils
 .
@@ -4755,20 +4794,22 @@ toStr
 (
 clientId
 )
-        
+            
 ]
+        
 )
     
 sig
 .
 extend
 (
-[
         
-'
+[
+            
+"
 seed
 :
-'
+"
 +
 utils
 .
@@ -4776,16 +4817,16 @@ toStr
 (
 cert
 [
-'
+"
 seed
-'
+"
 ]
 )
-        
-'
+            
+"
 start
 :
-'
+"
 +
 utils
 .
@@ -4793,16 +4834,16 @@ toStr
 (
 cert
 [
-'
+"
 start
-'
+"
 ]
 )
-        
-'
+            
+"
 expiry
 :
-'
+"
 +
 utils
 .
@@ -4810,28 +4851,30 @@ toStr
 (
 cert
 [
-'
+"
 expiry
-'
+"
 ]
 )
-        
-'
+            
+"
 scopes
 :
-'
+"
+        
+]
+        
++
+scopes
     
-]
-+
-scopes
 )
     
 sigStr
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -4877,9 +4920,9 @@ digest
     
 cert
 [
-'
+"
 signature
-'
+"
 ]
 =
 utils
@@ -4898,9 +4941,9 @@ new
 accessToken
 cert
 [
-'
+"
 seed
-'
+"
 ]
 hashlib
 .
@@ -4927,35 +4970,37 @@ newToken
 .
 replace
 (
+        
 b
-'
+"
 =
-'
+"
 b
-'
-'
+"
+"
+    
 )
     
 return
 {
         
-'
+"
 clientId
-'
+"
 :
 name
 or
 clientId
         
-'
+"
 accessToken
-'
+"
 :
 newToken
         
-'
+"
 certificate
-'
+"
 :
 utils
 .
@@ -4969,19 +5014,19 @@ __all__
 =
 [
     
-'
+"
 createTemporaryCredentials
-'
+"
     
-'
+"
 config
-'
+"
     
-'
+"
 BaseClient
-'
+"
     
-'
+"
 createApiClient
-'
+"
 ]

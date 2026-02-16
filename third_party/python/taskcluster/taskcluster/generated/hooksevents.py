@@ -1,39 +1,20 @@
-#
-coding
-=
-utf
--
-8
 from
 .
 .
 client
 import
+(
+    
 BaseClient
-from
-.
-.
-client
-import
-createApiClient
-from
-.
-.
-client
-import
+    
 config
-from
-.
-.
-client
-import
-createTemporaryCredentials
-from
-.
-.
-client
-import
+    
+createApiClient
+    
 createSession
+    
+createTemporaryCredentials
+)
 _defaultConfig
 =
 config
@@ -166,15 +147,15 @@ v1
     
 serviceName
 =
-'
+"
 hooks
-'
+"
     
 apiVersion
 =
-'
+"
 v1
-'
+"
     
 def
 hookCreated
@@ -274,55 +255,55 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 hook
 -
 created
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 hookCreated
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 pulse
@@ -335,7 +316,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -448,55 +429,55 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 hook
 -
 updated
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 hookUpdated
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 pulse
@@ -509,7 +490,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -622,55 +603,55 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 hook
 -
 deleted
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 hookDeleted
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 pulse
@@ -683,7 +664,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -703,27 +684,32 @@ kwargs
 funcinfo
 =
 {
-    
 }
 __all__
 =
 [
-'
-createTemporaryCredentials
-'
-'
-config
-'
-'
-_defaultConfig
-'
-'
-createApiClient
-'
-'
-createSession
-'
-'
+    
+"
 HooksEvents
-'
+"
+    
+"
+_defaultConfig
+"
+    
+"
+config
+"
+    
+"
+createApiClient
+"
+    
+"
+createSession
+"
+    
+"
+createTemporaryCredentials
+"
 ]

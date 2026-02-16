@@ -1,25 +1,17 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
+import
+datetime
+import
+logging
 import
 os
 import
-datetime
+urllib
+.
+parse
 from
 datetime
 import
 timezone
-import
-logging
 import
 requests
 from
@@ -44,10 +36,6 @@ taskcluster
 utils
 import
 stringDate
-import
-urllib
-.
-parse
 logger
 =
 logging
@@ -58,9 +46,6 @@ __name__
 )
 class
 TaskclusterConfig
-(
-object
-)
 :
     
 "
@@ -107,6 +92,8 @@ self
 .
 default_url
 =
+(
+            
 url
 if
 url
@@ -125,6 +112,8 @@ TASKCLUSTER_ROOT_URL
 "
 )
         
+)
+        
 assert
 self
 .
@@ -132,6 +121,8 @@ default_url
 is
 not
 None
+(
+            
 "
 You
 must
@@ -141,6 +132,8 @@ Taskcluster
 deployment
 url
 "
+        
+)
     
 def
 auth
@@ -359,6 +352,7 @@ environ
 .
 get
 (
+                
 "
 TASKCLUSTER_PROXY_URL
 "
@@ -369,6 +363,7 @@ http
 /
 taskcluster
 "
+            
 )
         
 else
@@ -467,20 +462,15 @@ service
 is
 not
 None
+f
 "
 Invalid
 Taskcluster
 service
 {
+service_name
 }
 "
-.
-format
-(
-            
-service_name
-        
-)
         
 return
 service
@@ -541,9 +531,9 @@ self
 .
 get_service
 (
-'
+"
 secrets
-'
+"
 )
             
 secret_name
@@ -598,9 +588,9 @@ self
 .
 get_service
 (
-'
+"
 queue
-'
+"
 )
             
 artifact_path
@@ -630,19 +620,24 @@ load_secrets
 (
     
 secrets_service
+    
 secret_name
+    
 prefixes
 =
 [
 ]
+    
 required
 =
 [
 ]
+    
 existing
 =
 {
 }
+    
 local_secrets
 =
 None
@@ -799,18 +794,15 @@ logger
 .
 info
 (
+f
 "
 Loaded
 Taskcluster
 secret
 {
+secret_name
 }
 "
-.
-format
-(
-secret_name
-)
 )
     
 if
@@ -864,20 +856,17 @@ secrets
 raise
 Exception
 (
+f
 "
 Missing
 value
 {
+required_secret
 }
 in
 secrets
 .
 "
-.
-format
-(
-required_secret
-)
 )
     
 return
@@ -1126,6 +1115,7 @@ raise_for_status
 )
     
 return
+f
 "
 /
 api
@@ -1149,23 +1139,6 @@ run_id
 artifacts
 /
 {
-path
+artifact_path
 }
 "
-.
-format
-(
-        
-task_id
-=
-task_id
-        
-run_id
-=
-run_id
-        
-path
-=
-artifact_path
-    
-)

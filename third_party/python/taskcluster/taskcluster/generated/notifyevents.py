@@ -1,39 +1,20 @@
-#
-coding
-=
-utf
--
-8
 from
 .
 .
 client
 import
+(
+    
 BaseClient
-from
-.
-.
-client
-import
-createApiClient
-from
-.
-.
-client
-import
+    
 config
-from
-.
-.
-client
-import
-createTemporaryCredentials
-from
-.
-.
-client
-import
+    
+createApiClient
+    
 createSession
+    
+createTemporaryCredentials
+)
 _defaultConfig
 =
 config
@@ -106,15 +87,15 @@ v1
     
 serviceName
 =
-'
+"
 notify
-'
+"
     
 apiVersion
 =
-'
+"
 v1
-'
+"
     
 def
 notify
@@ -269,79 +250,79 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 notification
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 notify
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 topic
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 notification
@@ -350,7 +331,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -370,27 +351,32 @@ kwargs
 funcinfo
 =
 {
-    
 }
 __all__
 =
 [
-'
-createTemporaryCredentials
-'
-'
-config
-'
-'
-_defaultConfig
-'
-'
-createApiClient
-'
-'
-createSession
-'
-'
+    
+"
 NotifyEvents
-'
+"
+    
+"
+_defaultConfig
+"
+    
+"
+config
+"
+    
+"
+createApiClient
+"
+    
+"
+createSession
+"
+    
+"
+createTemporaryCredentials
+"
 ]

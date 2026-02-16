@@ -1,39 +1,20 @@
-#
-coding
-=
-utf
--
-8
 from
 .
 .
 client
 import
+(
+    
 BaseClient
-from
-.
-.
-client
-import
-createApiClient
-from
-.
-.
-client
-import
+    
 config
-from
-.
-.
-client
-import
-createTemporaryCredentials
-from
-.
-.
-client
-import
+    
+createApiClient
+    
 createSession
+    
+createTemporaryCredentials
+)
 _defaultConfig
 =
 config
@@ -111,20 +92,19 @@ time
 classOptions
 =
 {
-    
 }
     
 serviceName
 =
-'
+"
 object
-'
+"
     
 apiVersion
 =
-'
+"
 v1
-'
+"
     
 def
 ping
@@ -1247,21 +1227,21 @@ createUpload
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 name
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 create
@@ -1272,29 +1252,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 put
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 createUpload
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 create
@@ -1305,28 +1285,28 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 upload
 /
 <
 name
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1336,52 +1316,52 @@ download
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 name
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 download
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 download
 /
 <
 name
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1391,21 +1371,21 @@ finishUpload
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 name
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 finish
@@ -1416,29 +1396,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 finishUpload
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 finish
 -
@@ -1447,15 +1427,15 @@ upload
 <
 name
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1465,45 +1445,45 @@ heartbeat
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 heartbeat
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __heartbeat__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1513,45 +1493,45 @@ lbheartbeat
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 lbheartbeat
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __lbheartbeat__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1561,37 +1541,37 @@ object
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 name
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 object
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 get
@@ -1602,28 +1582,28 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 metadata
 /
 <
 name
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1633,45 +1613,45 @@ ping
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 ping
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 ping
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1681,21 +1661,21 @@ startDownload
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 name
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 download
@@ -1706,29 +1686,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 put
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 startDownload
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 download
@@ -1739,13 +1719,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 start
 -
@@ -1754,15 +1734,15 @@ download
 <
 name
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1772,45 +1752,45 @@ version
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 version
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __version__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
     
@@ -1818,22 +1798,28 @@ stable
 __all__
 =
 [
-'
-createTemporaryCredentials
-'
-'
-config
-'
-'
-_defaultConfig
-'
-'
-createApiClient
-'
-'
-createSession
-'
-'
+    
+"
 Object
-'
+"
+    
+"
+_defaultConfig
+"
+    
+"
+config
+"
+    
+"
+createApiClient
+"
+    
+"
+createSession
+"
+    
+"
+createTemporaryCredentials
+"
 ]

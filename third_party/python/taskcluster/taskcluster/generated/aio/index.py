@@ -1,9 +1,3 @@
-#
-coding
-=
-utf
--
-8
 from
 .
 .
@@ -12,43 +6,18 @@ aio
 .
 asyncclient
 import
+(
+    
 AsyncBaseClient
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
-createApiClient
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
+    
 config
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
-createTemporaryCredentials
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
+    
+createApiClient
+    
 createSession
+    
+createTemporaryCredentials
+)
 _defaultConfig
 =
 config
@@ -138,20 +107,19 @@ paths
 classOptions
 =
 {
-    
 }
     
 serviceName
 =
-'
+"
 index
-'
+"
     
 apiVersion
 =
-'
+"
 v1
-'
+"
     
 async
 def
@@ -558,6 +526,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -571,6 +540,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -1269,6 +1239,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -1282,6 +1253,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -1366,52 +1338,52 @@ deleteTask
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 namespace
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 delete
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 deleteTask
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
 <
 namespace
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1421,40 +1393,40 @@ findArtifactFromTask
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 indexPath
-'
-'
+"
+"
 name
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 findArtifactFromTask
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
@@ -1467,15 +1439,15 @@ artifacts
 <
 name
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1485,37 +1457,37 @@ findTask
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 indexPath
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 findTask
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 indexed
@@ -1526,28 +1498,28 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
 <
 indexPath
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1557,18 +1529,18 @@ findTasksAtIndex
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -1581,29 +1553,29 @@ index
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 findTasksAtIndex
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -1614,39 +1586,39 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 tasks
 /
 indexes
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -1656,45 +1628,45 @@ heartbeat
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 heartbeat
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __heartbeat__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1704,21 +1676,21 @@ insertTask
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 namespace
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 insert
@@ -1729,29 +1701,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 put
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 insertTask
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 indexed
@@ -1762,28 +1734,28 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
 <
 namespace
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1793,45 +1765,45 @@ lbheartbeat
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 lbheartbeat
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __lbheartbeat__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1841,37 +1813,37 @@ listNamespaces
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 namespace
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listNamespaces
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -1882,41 +1854,41 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 namespaces
 /
 <
 namespace
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1926,37 +1898,37 @@ listTasks
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 namespace
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listTasks
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -1967,41 +1939,41 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 tasks
 /
 <
 namespace
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -2011,45 +1983,45 @@ ping
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 ping
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 ping
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -2059,45 +2031,45 @@ version
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 version
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __version__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
     
@@ -2105,22 +2077,28 @@ stable
 __all__
 =
 [
-'
-createTemporaryCredentials
-'
-'
-config
-'
-'
-_defaultConfig
-'
-'
-createApiClient
-'
-'
-createSession
-'
-'
+    
+"
 Index
-'
+"
+    
+"
+_defaultConfig
+"
+    
+"
+config
+"
+    
+"
+createApiClient
+"
+    
+"
+createSession
+"
+    
+"
+createTemporaryCredentials
+"
 ]

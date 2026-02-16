@@ -1,39 +1,20 @@
-#
-coding
-=
-utf
--
-8
 from
 .
 .
 client
 import
+(
+    
 BaseClient
-from
-.
-.
-client
-import
-createApiClient
-from
-.
-.
-client
-import
+    
 config
-from
-.
-.
-client
-import
-createTemporaryCredentials
-from
-.
-.
-client
-import
+    
+createApiClient
+    
 createSession
+    
+createTemporaryCredentials
+)
 _defaultConfig
 =
 config
@@ -586,15 +567,15 @@ v1
     
 serviceName
 =
-'
+"
 queue
-'
+"
     
 apiVersion
 =
-'
+"
 v1
-'
+"
     
 def
 taskDefined
@@ -875,225 +856,225 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 task
 -
 defined
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 taskDefined
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 taskId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 runId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerGroup
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 provisionerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerType
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 schedulerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 taskGroupId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -1104,7 +1085,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -1429,225 +1410,225 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 task
 -
 pending
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 taskPending
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 taskId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 runId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerGroup
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 provisionerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerType
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 schedulerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 taskGroupId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -1658,7 +1639,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -1937,225 +1918,225 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 task
 -
 running
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 taskRunning
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 taskId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 runId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerGroup
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 provisionerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerType
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 schedulerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 taskGroupId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -2166,7 +2147,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -2654,225 +2635,225 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 artifact
 -
 created
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 artifactCreated
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 taskId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 runId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerGroup
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 provisionerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerType
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 schedulerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 taskGroupId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 artifact
@@ -2883,7 +2864,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -3186,225 +3167,225 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 task
 -
 completed
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 taskCompleted
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 taskId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 runId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerGroup
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 provisionerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerType
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 schedulerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 taskGroupId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -3415,7 +3396,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -3699,225 +3680,225 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 task
 -
 failed
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 taskFailed
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 taskId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 runId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerGroup
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 provisionerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerType
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 schedulerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 taskGroupId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -3928,7 +3909,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -4251,225 +4232,225 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 task
 -
 exception
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 taskException
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 taskId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 runId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerGroup
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 provisionerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerType
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 schedulerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 taskGroupId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -4480,7 +4461,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -4688,119 +4669,119 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 task
 -
 group
 -
 resolved
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 taskGroupResolved
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 taskGroupId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 schedulerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -4813,7 +4794,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -4987,119 +4968,119 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 task
 -
 group
 -
 sealed
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 taskGroupSealed
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 taskGroupId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 schedulerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -5112,7 +5093,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -5132,27 +5113,32 @@ kwargs
 funcinfo
 =
 {
-    
 }
 __all__
 =
 [
-'
-createTemporaryCredentials
-'
-'
-config
-'
-'
-_defaultConfig
-'
-'
-createApiClient
-'
-'
-createSession
-'
-'
+    
+"
 QueueEvents
-'
+"
+    
+"
+_defaultConfig
+"
+    
+"
+config
+"
+    
+"
+createApiClient
+"
+    
+"
+createSession
+"
+    
+"
+createTemporaryCredentials
+"
 ]

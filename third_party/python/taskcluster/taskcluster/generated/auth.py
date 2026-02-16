@@ -1,39 +1,20 @@
-#
-coding
-=
-utf
--
-8
 from
 .
 .
 client
 import
+(
+    
 BaseClient
-from
-.
-.
-client
-import
-createApiClient
-from
-.
-.
-client
-import
+    
 config
-from
-.
-.
-client
-import
-createTemporaryCredentials
-from
-.
-.
-client
-import
+    
+createApiClient
+    
 createSession
+    
+createTemporaryCredentials
+)
 _defaultConfig
 =
 config
@@ -117,20 +98,19 @@ API
 classOptions
 =
 {
-    
 }
     
 serviceName
 =
-'
+"
 auth
-'
+"
     
 apiVersion
 =
-'
+"
 v1
-'
+"
     
 def
 ping
@@ -3938,18 +3918,18 @@ authenticateHawk
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 authenticate
@@ -3960,29 +3940,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 authenticateHawk
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 authenticate
@@ -3993,26 +3973,26 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 authenticate
 -
 hawk
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -4022,43 +4002,43 @@ awsS3Credentials
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 level
-'
-'
+"
+"
 bucket
-'
-'
+"
+"
 prefix
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 awsS3Credentials
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 aws
@@ -4071,23 +4051,23 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 format
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 aws
 /
@@ -4104,15 +4084,15 @@ bucket
 <
 prefix
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -4122,34 +4102,34 @@ azureAccounts
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 azureAccounts
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 azure
@@ -4162,26 +4142,26 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 azure
 /
 accounts
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 deprecated
-'
+"
         
 }
         
@@ -4191,43 +4171,43 @@ azureContainerSAS
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 account
-'
-'
+"
+"
 container
-'
-'
+"
+"
 level
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 azureContainerSAS
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 azure
@@ -4238,13 +4218,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 azure
 /
@@ -4261,15 +4241,15 @@ container
 <
 level
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 deprecated
-'
+"
         
 }
         
@@ -4279,37 +4259,37 @@ azureContainers
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 account
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 azureContainers
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 azure
@@ -4322,23 +4302,23 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 azure
 /
@@ -4347,15 +4327,15 @@ account
 >
 /
 containers
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 deprecated
-'
+"
         
 }
         
@@ -4365,43 +4345,43 @@ azureTableSAS
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 account
-'
-'
+"
+"
 table
-'
-'
+"
+"
 level
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 azureTableSAS
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 azure
@@ -4414,13 +4394,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 azure
 /
@@ -4437,15 +4417,15 @@ table
 <
 level
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 deprecated
-'
+"
         
 }
         
@@ -4455,37 +4435,37 @@ azureTables
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 account
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 azureTables
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 azure
@@ -4498,23 +4478,23 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 azure
 /
@@ -4523,15 +4503,15 @@ account
 >
 /
 tables
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 deprecated
-'
+"
         
 }
         
@@ -4541,37 +4521,37 @@ client
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 clientId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 client
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 get
@@ -4582,28 +4562,28 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 clients
 /
 <
 clientId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -4613,21 +4593,21 @@ createClient
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 clientId
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 create
@@ -4638,29 +4618,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 put
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 createClient
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 create
@@ -4671,28 +4651,28 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 clients
 /
 <
 clientId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -4702,21 +4682,21 @@ createRole
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 roleId
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 create
@@ -4727,29 +4707,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 put
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 createRole
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 get
@@ -4760,28 +4740,28 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 roles
 /
 <
 roleId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -4791,60 +4771,60 @@ currentScopes
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 currentScopes
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 scopeset
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 scopes
 /
 current
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -4854,52 +4834,52 @@ deleteClient
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 clientId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 delete
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 deleteClient
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 clients
 /
 <
 clientId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -4909,52 +4889,52 @@ deleteRole
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 roleId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 delete
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 deleteRole
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 roles
 /
 <
 roleId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -4964,37 +4944,37 @@ disableClient
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 clientId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 disableClient
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 get
@@ -5005,13 +4985,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 clients
 /
@@ -5020,15 +5000,15 @@ clientId
 >
 /
 disable
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -5038,37 +5018,37 @@ enableClient
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 clientId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 enableClient
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 get
@@ -5079,13 +5059,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 clients
 /
@@ -5094,15 +5074,15 @@ clientId
 >
 /
 enable
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -5112,73 +5092,73 @@ expandScopes
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 scopeset
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 expandScopes
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 scopeset
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 scopes
 /
 expand
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -5188,40 +5168,40 @@ gcpCredentials
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 projectId
-'
-'
+"
+"
 serviceAccount
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 gcpCredentials
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 gcp
@@ -5232,13 +5212,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 gcp
 /
@@ -5251,15 +5231,15 @@ projectId
 <
 serviceAccount
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -5269,40 +5249,40 @@ getEntityHistory
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 entityType
-'
-'
+"
+"
 entityId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 getEntityHistory
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 get
@@ -5315,26 +5295,26 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 audit
 /
@@ -5345,15 +5325,15 @@ entityType
 <
 entityId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -5363,45 +5343,45 @@ heartbeat
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 heartbeat
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __heartbeat__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -5411,45 +5391,45 @@ lbheartbeat
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 lbheartbeat
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __lbheartbeat__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -5459,37 +5439,37 @@ listAuditHistory
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 clientId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listAuditHistory
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 get
@@ -5502,26 +5482,26 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 clients
 /
@@ -5530,15 +5510,15 @@ clientId
 >
 /
 audit
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -5548,34 +5528,34 @@ listClients
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listClients
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -5586,41 +5566,41 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 prefix
-'
-'
+"
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 clients
 /
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -5630,34 +5610,34 @@ listRoleIds
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listRoleIds
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -5670,38 +5650,38 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 roleids
 /
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -5711,34 +5691,34 @@ listRoles
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listRoles
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -5749,25 +5729,25 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 roles
 /
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -5777,34 +5757,34 @@ listRoles2
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listRoles2
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -5815,38 +5795,38 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 roles2
 /
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -5856,45 +5836,45 @@ ping
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 ping
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 ping
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -5904,37 +5884,37 @@ resetAccessToken
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 clientId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 resetAccessToken
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 create
@@ -5945,13 +5925,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 clients
 /
@@ -5960,15 +5940,15 @@ clientId
 >
 /
 reset
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -5978,37 +5958,37 @@ role
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 roleId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 role
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 get
@@ -6019,28 +5999,28 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 roles
 /
 <
 roleId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -6050,37 +6030,37 @@ sentryDSN
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 project
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 sentryDSN
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 sentry
@@ -6091,13 +6071,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 sentry
 /
@@ -6106,15 +6086,15 @@ project
 >
 /
 dsn
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -6124,18 +6104,18 @@ testAuthenticate
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 test
@@ -6146,29 +6126,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 testAuthenticate
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 test
@@ -6179,26 +6159,26 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 test
 -
 authenticate
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -6208,34 +6188,34 @@ testAuthenticateGet
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 testAuthenticateGet
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 test
@@ -6246,13 +6226,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 test
 -
@@ -6260,15 +6240,15 @@ authenticate
 -
 get
 /
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -6278,21 +6258,21 @@ updateClient
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 clientId
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 create
@@ -6303,29 +6283,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 updateClient
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 get
@@ -6336,28 +6316,28 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 clients
 /
 <
 clientId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -6367,21 +6347,21 @@ updateRole
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 roleId
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 create
@@ -6392,29 +6372,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 updateRole
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 get
@@ -6425,28 +6405,28 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 roles
 /
 <
 roleId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -6456,45 +6436,45 @@ version
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 version
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __version__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -6504,40 +6484,40 @@ websocktunnelToken
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 wstAudience
-'
-'
+"
+"
 wstClient
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 websocktunnelToken
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 websocktunnel
@@ -6548,13 +6528,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 websocktunnel
 /
@@ -6565,15 +6545,15 @@ wstAudience
 <
 wstClient
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
     
@@ -6581,22 +6561,28 @@ stable
 __all__
 =
 [
-'
-createTemporaryCredentials
-'
-'
-config
-'
-'
-_defaultConfig
-'
-'
-createApiClient
-'
-'
-createSession
-'
-'
+    
+"
 Auth
-'
+"
+    
+"
+_defaultConfig
+"
+    
+"
+config
+"
+    
+"
+createApiClient
+"
+    
+"
+createSession
+"
+    
+"
+createTemporaryCredentials
+"
 ]

@@ -1,39 +1,20 @@
-#
-coding
-=
-utf
--
-8
 from
 .
 .
 client
 import
+(
+    
 BaseClient
-from
-.
-.
-client
-import
-createApiClient
-from
-.
-.
-client
-import
+    
 config
-from
-.
-.
-client
-import
-createTemporaryCredentials
-from
-.
-.
-client
-import
+    
+createApiClient
+    
 createSession
+    
+createTemporaryCredentials
+)
 _defaultConfig
 =
 config
@@ -115,22 +96,21 @@ response
 classOptions
 =
 {
-    
 }
     
 serviceName
 =
-'
+"
 worker
 -
 manager
-'
+"
     
 apiVersion
 =
-'
+"
 v1
-'
+"
     
 def
 ping
@@ -771,6 +751,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -784,6 +765,7 @@ args
 *
 *
 kwargs
+        
 )
     
 def
@@ -1406,6 +1388,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -1419,6 +1402,7 @@ args
 *
 *
 kwargs
+        
 )
     
 def
@@ -1919,6 +1903,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -1932,6 +1917,7 @@ args
 *
 *
 kwargs
+        
 )
     
 def
@@ -2477,27 +2463,27 @@ createWorker
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 workerPoolId
-'
-'
+"
+"
 workerGroup
-'
-'
+"
+"
 workerId
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 create
@@ -2508,29 +2494,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 put
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 createWorker
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 worker
@@ -2539,13 +2525,13 @@ full
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 workers
 /
@@ -2560,15 +2546,15 @@ workerGroup
 <
 workerId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -2578,21 +2564,21 @@ createWorkerPool
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 workerPoolId
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 create
@@ -2605,29 +2591,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 put
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 createWorkerPool
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 worker
@@ -2638,13 +2624,13 @@ full
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 worker
 -
@@ -2653,15 +2639,15 @@ pool
 <
 workerPoolId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -2671,37 +2657,37 @@ deleteWorkerPool
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 workerPoolId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 delete
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 deleteWorkerPool
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 worker
@@ -2712,13 +2698,13 @@ full
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 worker
 -
@@ -2727,15 +2713,15 @@ pool
 <
 workerPoolId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -2745,46 +2731,46 @@ getWorker
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 provisionerId
-'
-'
+"
+"
 workerType
-'
-'
+"
+"
 workerGroup
-'
-'
+"
+"
 workerId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 getWorker
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 worker
@@ -2793,13 +2779,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 provisioners
 /
@@ -2824,15 +2810,15 @@ workerGroup
 <
 workerId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -2842,45 +2828,45 @@ heartbeat
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 heartbeat
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __heartbeat__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -2890,45 +2876,45 @@ lbheartbeat
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 lbheartbeat
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __lbheartbeat__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -2938,34 +2924,34 @@ listProviders
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listProviders
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 provider
@@ -2974,37 +2960,37 @@ list
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 providers
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -3014,37 +3000,37 @@ listWorkerPoolErrors
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 workerPoolId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listWorkerPoolErrors
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 worker
@@ -3057,32 +3043,32 @@ list
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
-'
+"
+"
 launchConfigId
-'
-'
+"
+"
 errorId
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 worker
 -
@@ -3093,15 +3079,15 @@ errors
 <
 workerPoolId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -3111,37 +3097,37 @@ listWorkerPoolLaunchConfigs
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 workerPoolId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listWorkerPoolLaunchConfigs
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 worker
@@ -3156,29 +3142,29 @@ list
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
-'
+"
+"
 includeArchived
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 worker
 -
@@ -3191,15 +3177,15 @@ workerPoolId
 launch
 -
 configs
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -3209,34 +3195,34 @@ listWorkerPools
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listWorkerPools
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 worker
@@ -3247,39 +3233,39 @@ list
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 worker
 -
 pools
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -3289,34 +3275,34 @@ listWorkerPoolsStats
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listWorkerPoolsStats
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 worker
@@ -3329,41 +3315,41 @@ stats
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 worker
 -
 pools
 /
 stats
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -3373,40 +3359,40 @@ listWorkers
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 provisionerId
-'
-'
+"
+"
 workerType
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listWorkers
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -3417,35 +3403,41 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+                
+"
 continuationToken
-'
-'
+"
+                
+"
 limit
-'
-'
+"
+                
+"
 launchConfigId
-'
-'
+"
+                
+"
 quarantined
-'
-'
+"
+                
+"
 workerState
-'
+"
+            
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 provisioners
 /
@@ -3462,15 +3454,15 @@ workerType
 >
 /
 workers
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -3480,40 +3472,40 @@ listWorkersForWorkerGroup
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 workerPoolId
-'
-'
+"
+"
 workerGroup
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listWorkersForWorkerGroup
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 worker
@@ -3522,26 +3514,26 @@ list
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 workers
 /
@@ -3552,15 +3544,15 @@ workerPoolId
 <
 workerGroup
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -3570,37 +3562,37 @@ listWorkersForWorkerPool
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 workerPoolId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listWorkersForWorkerPool
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 worker
@@ -3609,47 +3601,47 @@ list
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
-'
+"
+"
 launchConfigId
-'
-'
+"
+"
 state
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 workers
 /
 <
 workerPoolId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -3659,45 +3651,45 @@ ping
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 ping
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 ping
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -3707,18 +3699,18 @@ registerWorker
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 register
@@ -3729,29 +3721,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 registerWorker
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 register
@@ -3762,26 +3754,26 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 worker
 /
 register
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -3791,43 +3783,43 @@ removeWorker
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 workerPoolId
-'
-'
+"
+"
 workerGroup
-'
-'
+"
+"
 workerId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 delete
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 removeWorker
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 workers
 /
@@ -3842,15 +3834,15 @@ workerGroup
 <
 workerId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -3860,21 +3852,21 @@ reportWorkerError
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 workerPoolId
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 report
@@ -3887,29 +3879,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 reportWorkerError
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 worker
@@ -3920,13 +3912,13 @@ error
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 worker
 -
@@ -3937,15 +3929,15 @@ errors
 <
 workerPoolId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -3955,18 +3947,18 @@ reregisterWorker
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 reregister
@@ -3977,29 +3969,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 reregisterWorker
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 reregister
@@ -4010,26 +4002,26 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 worker
 /
 reregister
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -4039,27 +4031,27 @@ updateWorker
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 workerPoolId
-'
-'
+"
+"
 workerGroup
-'
-'
+"
+"
 workerId
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 create
@@ -4070,29 +4062,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 updateWorker
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 worker
@@ -4101,13 +4093,13 @@ full
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 workers
 /
@@ -4122,15 +4114,15 @@ workerGroup
 <
 workerId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -4140,21 +4132,21 @@ updateWorkerPool
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 workerPoolId
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 update
@@ -4167,29 +4159,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 updateWorkerPool
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 worker
@@ -4200,13 +4192,13 @@ full
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 worker
 -
@@ -4215,15 +4207,15 @@ pool
 <
 workerPoolId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -4233,45 +4225,45 @@ version
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 version
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __version__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -4281,43 +4273,43 @@ worker
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 workerPoolId
-'
-'
+"
+"
 workerGroup
-'
-'
+"
+"
 workerId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 worker
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 worker
@@ -4326,13 +4318,13 @@ full
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 workers
 /
@@ -4347,15 +4339,15 @@ workerGroup
 <
 workerId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -4365,37 +4357,37 @@ workerPool
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 workerPoolId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 workerPool
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 worker
@@ -4406,13 +4398,13 @@ full
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 worker
 -
@@ -4421,15 +4413,15 @@ pool
 <
 workerPoolId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -4439,34 +4431,34 @@ workerPoolErrorStats
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 workerPoolErrorStats
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 worker
@@ -4479,23 +4471,23 @@ stats
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 workerPoolId
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 worker
 -
@@ -4504,15 +4496,15 @@ pool
 errors
 /
 stats
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -4522,37 +4514,37 @@ workerPoolStats
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 workerPoolId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 workerPoolStats
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 worker
@@ -4563,13 +4555,13 @@ stats
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 worker
 -
@@ -4580,15 +4572,15 @@ workerPoolId
 >
 /
 stats
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
     
@@ -4596,22 +4588,28 @@ experimental
 __all__
 =
 [
-'
-createTemporaryCredentials
-'
-'
-config
-'
-'
-_defaultConfig
-'
-'
-createApiClient
-'
-'
-createSession
-'
-'
+    
+"
 WorkerManager
-'
+"
+    
+"
+_defaultConfig
+"
+    
+"
+config
+"
+    
+"
+createApiClient
+"
+    
+"
+createSession
+"
+    
+"
+createTemporaryCredentials
+"
 ]

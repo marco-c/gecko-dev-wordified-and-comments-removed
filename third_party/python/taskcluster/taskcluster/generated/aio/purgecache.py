@@ -1,9 +1,3 @@
-#
-coding
-=
-utf
--
-8
 from
 .
 .
@@ -12,43 +6,18 @@ aio
 .
 asyncclient
 import
+(
+    
 AsyncBaseClient
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
-createApiClient
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
+    
 config
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
-createTemporaryCredentials
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
+    
+createApiClient
+    
 createSession
+    
+createTemporaryCredentials
+)
 _defaultConfig
 =
 config
@@ -122,22 +91,21 @@ timestamp
 classOptions
 =
 {
-    
 }
     
 serviceName
 =
-'
+"
 purge
 -
 cache
-'
+"
     
 apiVersion
 =
-'
+"
 v1
-'
+"
     
 async
 def
@@ -531,6 +499,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -544,6 +513,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -724,34 +694,34 @@ allPurgeRequests
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 allPurgeRequests
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 all
@@ -766,41 +736,41 @@ list
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 purge
 -
 cache
 /
 list
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -810,45 +780,45 @@ heartbeat
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 heartbeat
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __heartbeat__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -858,45 +828,45 @@ lbheartbeat
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 lbheartbeat
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __lbheartbeat__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -906,45 +876,45 @@ ping
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 ping
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 ping
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -954,21 +924,21 @@ purgeCache
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 workerPoolId
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 purge
@@ -979,29 +949,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 purgeCache
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 purge
 -
@@ -1010,15 +980,15 @@ cache
 <
 workerPoolId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1028,37 +998,37 @@ purgeRequests
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 workerPoolId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 purgeRequests
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 purge
@@ -1071,23 +1041,23 @@ list
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 since
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 purge
 -
@@ -1096,15 +1066,15 @@ cache
 <
 workerPoolId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1114,45 +1084,45 @@ version
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 version
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __version__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
     
@@ -1160,22 +1130,28 @@ stable
 __all__
 =
 [
-'
-createTemporaryCredentials
-'
-'
-config
-'
-'
-_defaultConfig
-'
-'
-createApiClient
-'
-'
-createSession
-'
-'
+    
+"
 PurgeCache
-'
+"
+    
+"
+_defaultConfig
+"
+    
+"
+config
+"
+    
+"
+createApiClient
+"
+    
+"
+createSession
+"
+    
+"
+createTemporaryCredentials
+"
 ]

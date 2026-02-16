@@ -100,7 +100,9 @@ self
         
 return
 (
+            
 TaskclusterRestFailure
+            
 (
 str
 (
@@ -116,6 +118,7 @@ self
 .
 body
 )
+        
 )
 class
 TaskclusterConnectionError
@@ -247,7 +250,9 @@ self
         
 return
 (
+            
 TaskclusterAuthFailure
+            
 (
 str
 (
@@ -263,6 +268,7 @@ self
 .
 body
 )
+        
 )
 class
 TaskclusterTopicExchangeFailure

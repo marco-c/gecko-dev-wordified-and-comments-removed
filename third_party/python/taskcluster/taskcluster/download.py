@@ -634,6 +634,7 @@ writerFactory
 return
 runAsync
 (
+        
 aio_download
 .
 downloadArtifact
@@ -645,6 +646,7 @@ wrappedWriterFactory
 *
 kwargs
 )
+    
 )
 def
 _wrapSyncWriterFactory
