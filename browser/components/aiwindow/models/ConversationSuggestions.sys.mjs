@@ -451,6 +451,7 @@ n
 const
 memoryPrompt
 =
+await
 renderPrompt
 (
 conversationMemoriesPrompt
@@ -1436,6 +1437,7 @@ template
 const
 base
 =
+await
 renderPrompt
 (
 conversationStarterPrompt
@@ -1869,6 +1871,7 @@ CONVERSATION_SUGGESTIONS_ASSISTANT_LIMITATIONS
 const
 base
 =
+await
 renderPrompt
 (
 conversationFollowupPrompt
