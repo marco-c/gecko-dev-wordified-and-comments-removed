@@ -5132,7 +5132,7 @@ if
 (
 rule
 .
-_applyingModifications
+applyingModifications
 )
 {
 promises
@@ -5141,7 +5141,7 @@ push
 (
 rule
 .
-_applyingModifications
+applyingModifications
 )
 ;
 }
