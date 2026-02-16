@@ -631,6 +631,13 @@ jsonb
 :
 content
 )
+web_search_queries_jsonb
+=
+jsonb
+(
+:
+web_search_queries_jsonb
+)
 ;
 ;
 export
