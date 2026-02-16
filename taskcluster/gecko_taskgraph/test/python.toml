@@ -85,6 +85,13 @@ py
 ]
 [
 "
+test_transforms_task
+.
+py
+"
+]
+[
+"
 test_transforms_test
 .
 py
