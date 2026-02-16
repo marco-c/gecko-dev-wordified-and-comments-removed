@@ -860,7 +860,7 @@ principals
 )
 -
 >
-isSystemOrAddonPrincipal
+isSystemPrincipal
 (
 )
 ;
