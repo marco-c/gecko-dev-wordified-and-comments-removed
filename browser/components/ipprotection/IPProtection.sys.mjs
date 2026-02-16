@@ -810,8 +810,6 @@ prevWidget
 prevWidget
 .
 position
--
-1
 :
 null
 ;
