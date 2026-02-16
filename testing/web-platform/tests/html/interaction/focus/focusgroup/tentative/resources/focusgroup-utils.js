@@ -30,6 +30,7 @@ kArrowDown
 uE015
 '
 ;
+async
 function
 focusAndKeyPress
 (
@@ -41,6 +42,19 @@ target
 .
 focus
 (
+)
+;
+await
+new
+Promise
+(
+resolve
+=
+>
+requestAnimationFrame
+(
+resolve
+)
 )
 ;
 return
