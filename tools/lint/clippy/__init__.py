@@ -23,6 +23,24 @@ mozlint
 pathutils
 import
 expand_exclusions
+CLIPPY_FIX_ARGS
+=
+(
+"
+-
+-
+fix
+"
+"
+-
+-
+allow
+-
+no
+-
+vcs
+"
+)
 def
 in_sorted_list
 (
@@ -906,13 +924,9 @@ fix
         
 clippy_args
 .
-append
+extend
 (
-"
--
--
-fix
-"
+CLIPPY_FIX_ARGS
 )
     
 clippy_args
@@ -1140,11 +1154,8 @@ clippy_args
 extend
 (
 [
-"
--
--
-fix
-"
+*
+CLIPPY_FIX_ARGS
 "
 -
 -
