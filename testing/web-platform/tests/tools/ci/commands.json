@@ -552,12 +552,7 @@ requirements
 :
 [
 "
-.
-.
-/
-wpt
-/
-requirements_metadata
+requirements_update_codeowners
 .
 txt
 "

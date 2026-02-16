@@ -130,6 +130,13 @@ txt
 r
 metadata
 /
+requirements
+.
+txt
+-
+r
+metadata
+/
 yaml
 /
 requirements
@@ -166,13 +173,6 @@ r
 wpt
 /
 requirements_install
-.
-txt
--
-r
-wpt
-/
-requirements_metadata
 .
 txt
 -

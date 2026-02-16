@@ -633,7 +633,12 @@ requirements
 :
 [
 "
-requirements_metadata
+.
+.
+/
+metadata
+/
+requirements
 .
 txt
 "
@@ -695,7 +700,12 @@ requirements
 :
 [
 "
-requirements_metadata
+.
+.
+/
+metadata
+/
+requirements
 .
 txt
 "
