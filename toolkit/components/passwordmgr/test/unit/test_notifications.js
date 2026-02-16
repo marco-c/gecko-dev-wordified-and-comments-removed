@@ -591,11 +591,12 @@ expectedData
 =
 null
 ;
+await
 Services
 .
 logins
 .
-removeAllLogins
+removeAllLoginsAsync
 (
 )
 ;
@@ -659,11 +660,12 @@ expectedData
 =
 null
 ;
+await
 Services
 .
 logins
 .
-removeAllLogins
+removeAllLoginsAsync
 (
 )
 ;

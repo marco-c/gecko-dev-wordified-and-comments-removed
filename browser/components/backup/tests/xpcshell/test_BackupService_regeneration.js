@@ -1867,11 +1867,12 @@ async
 =
 >
 {
+await
 Services
 .
 logins
 .
-removeAllLogins
+removeAllLoginsAsync
 (
 )
 ;

@@ -3095,11 +3095,12 @@ if
 confirmed
 )
 {
+await
 Services
 .
 logins
 .
-removeAllLogins
+removeAllLoginsAsync
 (
 )
 ;

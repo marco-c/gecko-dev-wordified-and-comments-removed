@@ -1138,11 +1138,12 @@ name
 test
 )
 ;
+await
 Services
 .
 logins
 .
-removeAllLogins
+removeAllLoginsAsync
 (
 )
 ;

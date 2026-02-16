@@ -252,7 +252,7 @@ Services
 .
 logins
 .
-removeAllLogins
+removeAllLoginsAsync
 (
 )
 ;

@@ -212,11 +212,12 @@ setupPasswords
 (
 )
 {
+await
 Services
 .
 logins
 .
-removeAllLogins
+removeAllLoginsAsync
 (
 )
 ;

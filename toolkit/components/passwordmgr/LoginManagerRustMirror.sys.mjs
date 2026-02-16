@@ -2239,12 +2239,13 @@ logins
 ;
 try
 {
+await
 this
 .
 #
 rustStorage
 .
-removeAllLogins
+removeAllLoginsAsync
 (
 )
 ;
