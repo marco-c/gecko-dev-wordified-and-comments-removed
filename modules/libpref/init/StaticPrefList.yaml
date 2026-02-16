@@ -53108,6 +53108,9 @@ mirror
 :
 once
 #
+ifdef
+MOZ_JXL
+#
 Whether
 we
 attempt
@@ -53135,6 +53138,8 @@ false
 mirror
 :
 always
+#
+endif
 #
 -
 -
