@@ -715,8 +715,6 @@ security
 manager
 /
 ssl
-/
-tests
 "
         
 "
