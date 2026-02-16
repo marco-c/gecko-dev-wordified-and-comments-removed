@@ -653,7 +653,7 @@ if
 mNumGPUsDetected
 =
 =
-2
+kMaxGPUs
 )
 {
 break
@@ -782,6 +782,17 @@ IOObjectRelease
 entry
 )
 ;
+if
+(
+mNumGPUsDetected
+=
+=
+kMaxGPUs
+)
+{
+break
+;
+}
 }
 IOObjectRelease
 (
@@ -1000,6 +1011,17 @@ IOObjectRelease
 entry
 )
 ;
+if
+(
+mNumGPUsDetected
+=
+=
+kMaxGPUs
+)
+{
+break
+;
+}
 }
 IOObjectRelease
 (
@@ -1231,7 +1253,7 @@ if
 (
 mNumGPUsDetected
 <
-2
+kMaxGPUs
 )
 {
 return
@@ -1288,7 +1310,7 @@ if
 (
 mNumGPUsDetected
 <
-2
+kMaxGPUs
 )
 {
 return
@@ -1345,7 +1367,7 @@ if
 (
 mNumGPUsDetected
 <
-2
+kMaxGPUs
 )
 {
 return
@@ -1402,7 +1424,7 @@ if
 (
 mNumGPUsDetected
 <
-2
+kMaxGPUs
 )
 {
 return
@@ -1459,7 +1481,7 @@ if
 (
 mNumGPUsDetected
 <
-2
+kMaxGPUs
 )
 {
 return
@@ -1516,7 +1538,7 @@ if
 (
 mNumGPUsDetected
 <
-2
+kMaxGPUs
 )
 {
 return
@@ -1572,7 +1594,7 @@ if
 (
 mNumGPUsDetected
 <
-2
+kMaxGPUs
 )
 {
 return
@@ -1627,7 +1649,7 @@ if
 (
 mNumGPUsDetected
 <
-2
+kMaxGPUs
 )
 {
 return
