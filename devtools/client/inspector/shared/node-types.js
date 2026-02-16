@@ -5,6 +5,16 @@ strict
 ;
 exports
 .
+VIEW_NODE_ATTR_TYPE
+=
+"
+attr
+-
+type
+"
+;
+exports
+.
 VIEW_NODE_CSS_QUERY_CONTAINER
 =
 "
