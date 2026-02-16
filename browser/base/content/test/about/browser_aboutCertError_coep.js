@@ -36,7 +36,7 @@ add_task
 (
 async
 function
-test_coepError
+test_coepError_legacy
 (
 )
 {
@@ -280,7 +280,7 @@ add_task
 (
 async
 function
-test_coepError_feltPrivacyToTrue
+test_coepError
 (
 )
 {

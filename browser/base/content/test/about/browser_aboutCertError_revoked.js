@@ -371,6 +371,16 @@ errorCodeString
 ;
 netErrorCard
 .
+errorConfig
+=
+netErrorCard
+.
+getErrorConfig
+(
+)
+;
+netErrorCard
+.
 requestUpdate
 (
 )
