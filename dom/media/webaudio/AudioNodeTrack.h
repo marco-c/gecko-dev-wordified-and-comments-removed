@@ -75,6 +75,9 @@ ThreadSharedFloatArrayBufferList
 class
 AudioNodeEngine
 ;
+class
+AudioNodeExternalInputTrack
+;
 typedef
 AlignedAutoTArray
 <
@@ -543,6 +546,17 @@ ScheduleCheckForInactive
 (
 )
 ;
+virtual
+AudioNodeExternalInputTrack
+*
+AsAudioNodeExternalInputTrack
+(
+)
+{
+return
+nullptr
+;
+}
 protected
 :
 void
