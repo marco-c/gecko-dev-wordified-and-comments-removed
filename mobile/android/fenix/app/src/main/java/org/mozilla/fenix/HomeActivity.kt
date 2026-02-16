@@ -5154,15 +5154,6 @@ core
 .
 pocketStoriesService
 .
-stopPeriodicSponsoredStoriesRefresh
-(
-)
-components
-.
-core
-.
-pocketStoriesService
-.
 stopPeriodicContentRecommendationsRefresh
 (
 )
