@@ -134,7 +134,7 @@ elementStyle
 =
 view
 .
-_elementStyle
+elementStyle
 ;
 is
 (

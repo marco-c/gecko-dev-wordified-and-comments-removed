@@ -129,7 +129,7 @@ elementStyle
 =
 view
 .
-_elementStyle
+elementStyle
 ;
 const
 rule

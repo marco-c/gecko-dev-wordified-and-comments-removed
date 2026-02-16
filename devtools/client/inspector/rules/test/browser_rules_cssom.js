@@ -53,7 +53,7 @@ elementStyle
 =
 view
 .
-_elementStyle
+elementStyle
 ;
 let
 rule

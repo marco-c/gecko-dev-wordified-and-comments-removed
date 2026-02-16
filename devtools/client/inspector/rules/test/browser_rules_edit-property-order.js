@@ -90,7 +90,7 @@ elementStyle
 =
 view
 .
-_elementStyle
+elementStyle
 ;
 const
 elementRule

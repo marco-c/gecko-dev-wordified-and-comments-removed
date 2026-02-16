@@ -1239,9 +1239,7 @@ property
 )
 {
 const
-{
-highlightProperty
-}
+ruleView
 =
 this
 .
@@ -1259,6 +1257,8 @@ view
 const
 isHighlighted
 =
+ruleView
+.
 highlightProperty
 (
 property

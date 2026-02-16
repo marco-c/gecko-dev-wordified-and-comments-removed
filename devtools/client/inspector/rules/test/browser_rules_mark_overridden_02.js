@@ -131,7 +131,7 @@ elementStyle
 =
 view
 .
-_elementStyle
+elementStyle
 ;
 const
 classRule

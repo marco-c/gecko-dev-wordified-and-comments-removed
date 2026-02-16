@@ -564,7 +564,7 @@ from
 (
 view
 .
-_elementStyle
+elementStyle
 .
 usedVariables
 )

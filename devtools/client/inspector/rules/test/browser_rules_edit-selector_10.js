@@ -216,7 +216,7 @@ is
 (
 view
 .
-_elementStyle
+elementStyle
 .
 rules
 .

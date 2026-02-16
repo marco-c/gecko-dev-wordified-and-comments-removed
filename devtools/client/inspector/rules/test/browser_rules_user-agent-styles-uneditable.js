@@ -198,7 +198,7 @@ uaRules
 =
 view
 .
-_elementStyle
+elementStyle
 .
 rules
 .

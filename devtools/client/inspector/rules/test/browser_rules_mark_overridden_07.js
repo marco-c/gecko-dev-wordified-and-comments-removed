@@ -213,7 +213,7 @@ elementStyle
 =
 view
 .
-_elementStyle
+elementStyle
 ;
 const
 RESULTS
