@@ -1125,6 +1125,9 @@ void
 js
 :
 :
+intl
+:
+:
 RelativeTimeFormatObject
 :
 :

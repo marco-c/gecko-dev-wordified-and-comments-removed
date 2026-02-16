@@ -64,8 +64,8 @@ NumberFormat
 }
 namespace
 js
-{
-namespace
+:
+:
 intl
 {
 enum
@@ -224,7 +224,6 @@ style
 ;
 }
 ;
-}
 class
 DurationFormatObject
 :

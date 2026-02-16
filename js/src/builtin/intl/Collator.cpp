@@ -1591,6 +1591,9 @@ void
 js
 :
 :
+intl
+:
+:
 CollatorObject
 :
 :

@@ -31,6 +31,9 @@ h
 "
 namespace
 js
+:
+:
+intl
 {
 class
 LocaleObject

@@ -64,8 +64,8 @@ JSTracer
 ;
 namespace
 js
-{
-namespace
+:
+:
 intl
 {
 [
@@ -433,7 +433,6 @@ UnicodeExtensionKeyword
 keywords
 )
 ;
-}
 }
 #
 endif

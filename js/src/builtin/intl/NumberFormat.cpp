@@ -6411,6 +6411,9 @@ void
 js
 :
 :
+intl
+:
+:
 NumberFormatObject
 :
 :

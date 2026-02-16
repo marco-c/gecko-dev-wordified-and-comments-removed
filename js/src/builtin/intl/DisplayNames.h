@@ -97,7 +97,11 @@ js
 struct
 ClassSpec
 ;
+}
 namespace
+js
+:
+:
 intl
 {
 struct
@@ -192,7 +196,6 @@ false
 ;
 }
 ;
-}
 class
 DisplayNamesObject
 :

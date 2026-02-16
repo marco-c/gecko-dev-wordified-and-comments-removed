@@ -182,6 +182,13 @@ using
 namespace
 js
 ;
+using
+namespace
+js
+:
+:
+intl
+;
 void
 js
 :

@@ -5162,6 +5162,9 @@ get
 ;
 Rooted
 <
+intl
+:
+:
 NumberFormatObject
 *
 >

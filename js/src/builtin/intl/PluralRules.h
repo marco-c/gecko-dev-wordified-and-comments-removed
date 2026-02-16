@@ -77,8 +77,8 @@ PluralRules
 }
 namespace
 js
-{
-namespace
+:
+:
 intl
 {
 struct
@@ -141,7 +141,6 @@ Short
 ;
 }
 ;
-}
 class
 PluralRulesObject
 :

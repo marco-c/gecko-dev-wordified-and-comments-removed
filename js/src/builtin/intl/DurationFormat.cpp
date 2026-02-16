@@ -725,6 +725,9 @@ void
 js
 :
 :
+intl
+:
+:
 DurationFormatObject
 :
 :
@@ -10215,6 +10218,9 @@ true
 }
 bool
 js
+:
+:
+intl
 :
 :
 TemporalDurationToLocaleString

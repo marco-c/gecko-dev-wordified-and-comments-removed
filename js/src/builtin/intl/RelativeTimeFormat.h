@@ -77,8 +77,8 @@ RelativeTimeFormat
 }
 namespace
 js
-{
-namespace
+:
+:
 intl
 {
 struct
@@ -123,7 +123,6 @@ Always
 ;
 }
 ;
-}
 class
 RelativeTimeFormatObject
 :
@@ -566,9 +565,6 @@ obj
 ;
 }
 ;
-namespace
-intl
-{
 using
 RelativeTimeFormatUnit
 =
@@ -614,7 +610,6 @@ MutableHandleValue
 result
 )
 ;
-}
 }
 #
 endif

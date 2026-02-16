@@ -75,8 +75,8 @@ Collator
 }
 namespace
 js
-{
-namespace
+:
+:
 intl
 {
 struct
@@ -169,7 +169,6 @@ caseFirst
 ;
 }
 ;
-}
 class
 CollatorObject
 :
@@ -695,9 +694,6 @@ obj
 ;
 }
 ;
-namespace
-intl
-{
 [
 [
 nodiscard
@@ -824,7 +820,6 @@ Value
 result
 )
 ;
-}
 }
 #
 endif

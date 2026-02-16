@@ -81,7 +81,11 @@ js
 class
 ArrayObject
 ;
+}
 namespace
+js
+:
+:
 intl
 {
 struct
@@ -395,7 +399,6 @@ Auto
 ;
 }
 ;
-}
 class
 NumberFormatObject
 :
@@ -1013,9 +1016,6 @@ obj
 ;
 }
 ;
-namespace
-intl
-{
 struct
 PluralRulesOptions
 ;
@@ -1353,7 +1353,6 @@ unit
 nullptr
 )
 ;
-}
 }
 #
 endif

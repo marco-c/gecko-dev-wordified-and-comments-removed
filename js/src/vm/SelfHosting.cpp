@@ -11128,6 +11128,9 @@ CallNonGenericSelfhostedMethod
 <
 Is
 <
+intl
+:
+:
 SegmentIteratorObject
 >
 >
@@ -11143,6 +11146,9 @@ CallNonGenericSelfhostedMethod
 <
 Is
 <
+intl
+:
+:
 SegmentsObject
 >
 >
@@ -11183,6 +11189,9 @@ intl_GuardToSegmentIterator
 "
 intrinsic_GuardToBuiltin
 <
+intl
+:
+:
 SegmentIteratorObject
 >
 1
@@ -11196,6 +11205,9 @@ intl_GuardToSegments
 "
 intrinsic_GuardToBuiltin
 <
+intl
+:
+:
 SegmentsObject
 >
 1

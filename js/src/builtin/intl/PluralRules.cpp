@@ -1327,6 +1327,9 @@ void
 js
 :
 :
+intl
+:
+:
 PluralRulesObject
 :
 :

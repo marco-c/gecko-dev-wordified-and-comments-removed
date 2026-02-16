@@ -75,8 +75,8 @@ ListFormat
 }
 namespace
 js
-{
-namespace
+:
+:
 intl
 {
 struct
@@ -122,7 +122,6 @@ Long
 ;
 }
 ;
-}
 class
 ListFormatObject
 :

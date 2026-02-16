@@ -77,6 +77,9 @@ GCContext
 }
 namespace
 js
+:
+:
+intl
 {
 enum
 class
@@ -1813,6 +1816,10 @@ obj
 ;
 }
 ;
+}
+namespace
+js
+{
 [
 [
 nodiscard

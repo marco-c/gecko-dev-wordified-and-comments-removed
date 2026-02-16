@@ -100,8 +100,8 @@ DateIntervalFormat
 }
 namespace
 js
-{
-namespace
+:
+:
 intl
 {
 struct
@@ -458,7 +458,6 @@ timeZoneName
 ;
 }
 ;
-}
 enum
 class
 DateTimeValueKind
@@ -1546,9 +1545,6 @@ obj
 ;
 }
 ;
-namespace
-intl
-{
 enum
 class
 DateTimeFormatKind
@@ -1706,7 +1702,6 @@ toLocaleStringTimeZone
 nullptr
 )
 ;
-}
 }
 #
 endif

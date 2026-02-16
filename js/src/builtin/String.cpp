@@ -8056,6 +8056,9 @@ get
 ;
 Rooted
 <
+intl
+:
+:
 CollatorObject
 *
 >

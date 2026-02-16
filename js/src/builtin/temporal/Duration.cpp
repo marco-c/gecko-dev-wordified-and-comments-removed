@@ -17538,6 +17538,9 @@ args
 )
 {
 return
+intl
+:
+:
 TemporalDurationToLocaleString
 (
 cx

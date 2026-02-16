@@ -15,6 +15,9 @@ h
 "
 namespace
 js
+:
+:
+intl
 {
 extern
 const
