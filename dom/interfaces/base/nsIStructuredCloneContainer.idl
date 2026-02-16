@@ -26,6 +26,7 @@ h
 }
 [
 scriptable
+builtinclass
 uuid
 (
 c664aae7

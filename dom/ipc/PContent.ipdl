@@ -859,6 +859,9 @@ MessagePort
 h
 "
 ;
+[
+RefCounted
+]
 using
 class
 mozilla
@@ -3507,10 +3510,8 @@ JSActorMessageMeta
 aMetadata
 JSIPCValue
 aData
-UniquePtr
-<
-ClonedMessageData
->
+nullable
+StructuredCloneData
 aStack
 )
 ;
@@ -4811,10 +4812,7 @@ SetXPCOMProcessAttributes
 (
 XPCOMInitData
 xpcomInit
-UniquePtr
-<
 StructuredCloneData
->
 initialData
 FullLookAndFeel
 lookAndFeeldata
@@ -6535,7 +6533,7 @@ SynchronizeNavigationAPIState
 (
 MaybeDiscardedBrowsingContext
 aContext
-ClonedMessageData
+nsStructuredCloneContainer
 aState
 )
 ;
@@ -6784,15 +6782,12 @@ SyncMessage
 (
 nsString
 aMessage
-ClonedMessageData
+StructuredCloneData
 aData
 )
 returns
 (
-UniquePtr
-<
 StructuredCloneData
->
 [
 ]
 retval
@@ -7030,7 +7025,7 @@ bool
 isFromPrivateWindow
 bool
 isFromChromeContext
-ClonedMessageData
+StructuredCloneData
 stack
 )
 ;
@@ -11065,7 +11060,7 @@ AsyncMessage
 (
 nsString
 aMessage
-ClonedMessageData
+StructuredCloneData
 aData
 )
 ;
@@ -11570,7 +11565,8 @@ WindowPostMessage
 (
 MaybeDiscardedBrowsingContext
 aContext
-ClonedOrErrorMessageData
+nullable
+StructuredCloneData
 aMessage
 PostMessageData
 aData

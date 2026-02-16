@@ -204,9 +204,6 @@ class
 RemoteWorkerControllerChild
 ;
 class
-ServiceWorkerCloneData
-;
-class
 ServiceWorkerInfo
 ;
 class
@@ -347,12 +344,11 @@ mClientInfo
 nsresult
 SendMessageEvent
 (
-RefPtr
-<
-ServiceWorkerCloneData
->
-&
-&
+ipc
+:
+:
+StructuredCloneData
+*
 aData
 const
 ServiceWorkerLifetimeExtension

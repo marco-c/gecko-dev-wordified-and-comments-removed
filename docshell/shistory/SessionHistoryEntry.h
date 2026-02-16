@@ -47,6 +47,13 @@ h
 #
 include
 "
+nsIInputStream
+.
+h
+"
+#
+include
+"
 nsILayoutHistoryState
 .
 h
