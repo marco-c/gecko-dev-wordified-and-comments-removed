@@ -375,6 +375,10 @@ targeting
 backupRestoreEnabled
 &
 &
+!
+hasSelectableProfiles
+&
+&
 (
 backupsInfo
 .
