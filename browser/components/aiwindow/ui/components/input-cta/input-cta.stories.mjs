@@ -136,6 +136,8 @@ input
 -
 cta
 -
+submit
+-
 label
 -
 chat
@@ -147,6 +149,8 @@ input
 -
 cta
 -
+submit
+-
 label
 -
 search
@@ -157,6 +161,8 @@ aiwindow
 input
 -
 cta
+-
+submit
 -
 label
 -
