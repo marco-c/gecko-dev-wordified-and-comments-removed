@@ -1032,6 +1032,15 @@ showAddSearchWidgetPrompt
 -
 >
 Unit
+private
+val
+requestSetDefaultBrowserPrompt
+:
+(
+)
+-
+>
+Unit
 )
 :
 SessionControlController
@@ -2030,9 +2039,7 @@ Type
 SET_AS_DEFAULT
 -
 >
-activity
-.
-showSetDefaultBrowserPrompt
+requestSetDefaultBrowserPrompt
 (
 )
 ChecklistItem
