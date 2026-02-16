@@ -554,6 +554,15 @@ SerializableSet
 (
 )
 ;
+this
+.
+previousFailedOut
+=
+new
+SerializableSet
+(
+)
+;
 }
 RotaryEngine
 .
