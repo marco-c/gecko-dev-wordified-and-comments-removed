@@ -12080,6 +12080,16 @@ NonTSPseudoClass
 :
 :
 Seeking
+|
+NonTSPseudoClass
+:
+:
+Buffering
+|
+NonTSPseudoClass
+:
+:
+Stalled
 =
 >
 {
