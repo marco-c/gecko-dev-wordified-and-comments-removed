@@ -563,7 +563,7 @@ addGlobalMonitorForEventsMatchingMask
 :
 NSEventMaskLeftMouseDown
 |
-NSEventMaskLeftMouseDown
+NSEventMaskOtherMouseDown
 handler
 :
 ^
