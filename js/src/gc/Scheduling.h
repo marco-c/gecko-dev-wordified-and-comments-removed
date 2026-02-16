@@ -1174,6 +1174,13 @@ false
 static
 const
 bool
+ConcurrentMarkingEnabled
+=
+false
+;
+static
+const
+bool
 IncrementalWeakMapMarkingEnabled
 =
 true

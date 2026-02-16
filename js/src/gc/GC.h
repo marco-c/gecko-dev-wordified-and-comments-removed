@@ -375,6 +375,15 @@ true
 _
 (
 "
+concurrentMarkingEnabled
+"
+JSGC_CONCURRENT_MARKING_ENABLED
+true
+)
+\
+_
+(
+"
 parallelMarkingThresholdMB
 "
 JSGC_PARALLEL_MARKING_THRESHOLD_MB
