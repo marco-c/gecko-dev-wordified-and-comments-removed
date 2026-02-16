@@ -307,17 +307,6 @@ open
 html
 "
 "
-file_fullscreen
--
-window
--
-open
--
-target
-.
-html
-"
-"
 file_with_link_to_http
 .
 html
