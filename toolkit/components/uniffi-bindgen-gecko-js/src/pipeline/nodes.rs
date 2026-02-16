@@ -1731,7 +1731,10 @@ eq
 Method
 ne
 :
+Box
+<
 Method
+>
 }
 Hash
 {
