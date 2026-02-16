@@ -109,9 +109,9 @@ check_PointerEvent
 (
 event
 testNamePrefix
-standardAttrs
+optionalAtributesOnly
 =
-true
+false
 )
 {
 if
@@ -164,7 +164,8 @@ type
 ;
 if
 (
-standardAttrs
+!
+optionalAtributesOnly
 )
 {
 if
@@ -354,8 +355,7 @@ object
 ;
 if
 (
-!
-standardAttrs
+optionalAtributesOnly
 )
 {
 test
