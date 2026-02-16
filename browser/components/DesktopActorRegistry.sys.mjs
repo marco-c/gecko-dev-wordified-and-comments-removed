@@ -1383,6 +1383,17 @@ wantUntrusted
 :
 true
 }
+"
+AIChatContent
+:
+DispatchFooterAction
+"
+:
+{
+wantUntrusted
+:
+true
+}
 }
 }
 allFrames
