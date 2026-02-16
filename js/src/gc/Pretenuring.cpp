@@ -2315,6 +2315,14 @@ if
 hasScript
 (
 )
+&
+&
+pcOffset
+(
+)
+!
+=
+EnvSitePCOffset
 )
 {
 uint32_t
