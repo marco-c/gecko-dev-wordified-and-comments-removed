@@ -265,12 +265,6 @@ html
 "
 #
 define
-kAOLMailMime
-"
-AOLMAIL
-"
-#
-define
 kPNGImageMime
 "
 image

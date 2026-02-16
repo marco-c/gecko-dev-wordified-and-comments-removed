@@ -77,7 +77,7 @@ const
 void
 *
 aDataBuff
-uint32_t
+size_t
 aDataLen
 nsISupports
 *
@@ -90,8 +90,10 @@ if
 !
 aPrimitive
 )
+{
 return
 ;
+}
 if
 (
 aFlavor
@@ -224,8 +226,10 @@ MOZ_LIKELY
 buffer
 )
 )
+{
 return
 ;
+}
 memcpy
 (
 buffer
@@ -274,12 +278,14 @@ start
 start
 +
 (
+(
 aDataLen
 +
 1
 )
 /
 2
+)
 )
 )
 ;
