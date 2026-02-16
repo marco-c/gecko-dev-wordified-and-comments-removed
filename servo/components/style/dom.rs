@@ -3267,6 +3267,14 @@ has_animation_hint
 ;
 }
 fn
+note_highlight_pseudo_style_invalidated
+(
+&
+self
+)
+{
+}
+fn
 shadow_root
 (
 &

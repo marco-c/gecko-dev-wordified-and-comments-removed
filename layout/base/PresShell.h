@@ -3342,6 +3342,11 @@ aRawSelectionType
 override
 ;
 void
+RepaintPseudoElementStyledSelections
+(
+)
+;
+void
 SelectionWillTakeFocus
 (
 )
