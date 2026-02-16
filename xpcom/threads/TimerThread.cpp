@@ -2265,13 +2265,6 @@ Format
 :
 :
 String
-MS
-:
-:
-PayloadFlags
-:
-:
-Searchable
 )
 ;
 schema

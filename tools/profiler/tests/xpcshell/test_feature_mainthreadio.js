@@ -131,9 +131,6 @@ format
 "
 string
 "
-searchable
-:
-true
 }
 {
 key
@@ -151,9 +148,6 @@ format
 "
 string
 "
-searchable
-:
-true
 }
 {
 key
@@ -173,9 +167,6 @@ file
 -
 path
 "
-searchable
-:
-true
 }
 {
 key
@@ -194,9 +185,6 @@ format
 "
 string
 "
-searchable
-:
-true
 }
 ]
 }

@@ -6329,13 +6329,6 @@ Format
 :
 :
 UniqueString
-MS
-:
-:
-PayloadFlags
-:
-:
-Searchable
 )
 ;
 schema

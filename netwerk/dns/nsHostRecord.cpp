@@ -329,13 +329,6 @@ Format
 :
 :
 SanitizedString
-MS
-:
-:
-PayloadFlags
-:
-:
-Searchable
 )
 ;
 schema
@@ -352,13 +345,6 @@ Format
 :
 :
 SanitizedString
-MS
-:
-:
-PayloadFlags
-:
-:
-Searchable
 )
 ;
 schema

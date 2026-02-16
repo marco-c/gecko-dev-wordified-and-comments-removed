@@ -235,7 +235,7 @@ extra
 ;
 schema
 .
-add_key_label_format_with_flags
+add_key_label_format
 (
 "
 id
@@ -247,10 +247,6 @@ Format
 :
 :
 UniqueString
-PayloadFlags
-:
-:
-Searchable
 )
 ;
 schema

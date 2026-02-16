@@ -325,13 +325,6 @@ Format
 :
 :
 String
-MS
-:
-:
-PayloadFlags
-:
-:
-Searchable
 )
 ;
 schema
@@ -352,13 +345,6 @@ Format
 :
 :
 String
-MS
-:
-:
-PayloadFlags
-:
-:
-Searchable
 )
 ;
 schema
