@@ -3142,6 +3142,7 @@ remove_all
 ;
 }
 }
+async
 confirmRemoveLogin
 (
 [
@@ -3149,11 +3150,12 @@ record
 ]
 )
 {
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 record
 )
@@ -4401,11 +4403,12 @@ length
 return
 ;
 }
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 logins
 [

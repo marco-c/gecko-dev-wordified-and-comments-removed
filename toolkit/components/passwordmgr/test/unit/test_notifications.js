@@ -544,11 +544,12 @@ expectedData
 =
 testuser2
 ;
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 testuser2
 )

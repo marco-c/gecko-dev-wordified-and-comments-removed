@@ -824,6 +824,7 @@ DeleteLogin
 "
 :
 {
+await
 this
 .
 #
@@ -1369,6 +1370,7 @@ preselectedLogin
 null
 ;
 }
+async
 #
 deleteLogin
 (
@@ -1387,11 +1389,12 @@ vanillaObjectToLogin
 loginObject
 )
 ;
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 login
 )
@@ -3467,6 +3470,7 @@ modifyLogin
 "
 :
 {
+await
 this
 .
 #

@@ -2705,11 +2705,12 @@ guid
 .
 )
 ;
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 loginToRemove
 )
@@ -3393,11 +3394,12 @@ origin
 }
 )
 ;
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 matchingLogins
 [

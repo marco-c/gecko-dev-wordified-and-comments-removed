@@ -1025,6 +1025,7 @@ return
 nothing
 *
 /
+async
 Remove
 (
 )
@@ -1072,11 +1073,12 @@ props
 passwordField
 )
 ;
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 login
 )

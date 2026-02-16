@@ -2080,6 +2080,7 @@ removeLogin
 "
 :
 {
+await
 this
 .
 #
@@ -2385,6 +2386,7 @@ data
 ;
 }
 }
+async
 #
 onRemoveLogin
 (
@@ -2406,7 +2408,7 @@ Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 login
 )

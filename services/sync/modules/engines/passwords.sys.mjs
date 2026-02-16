@@ -2410,11 +2410,12 @@ ignoring
 return
 ;
 }
+await
 this
 .
 storage
 .
-removeLogin
+removeLoginAsync
 (
 loginItem
 sourceSync

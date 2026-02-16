@@ -1376,6 +1376,7 @@ test
 .
 runInParent
 (
+async
 (
 )
 =
@@ -1441,11 +1442,12 @@ old
 "
 )
 ;
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 tmpLogin
 )

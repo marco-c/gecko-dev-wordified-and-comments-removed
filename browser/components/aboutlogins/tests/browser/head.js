@@ -527,11 +527,12 @@ length
 return
 ;
 }
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 logins
 [

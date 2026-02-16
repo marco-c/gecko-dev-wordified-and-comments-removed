@@ -436,7 +436,7 @@ Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 login
 )

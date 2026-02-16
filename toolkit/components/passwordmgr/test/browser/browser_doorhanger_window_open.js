@@ -763,11 +763,12 @@ password
 pass2
 "
 ;
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 login1
 )
@@ -1238,11 +1239,12 @@ password
 pass2
 "
 ;
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 login2
 )

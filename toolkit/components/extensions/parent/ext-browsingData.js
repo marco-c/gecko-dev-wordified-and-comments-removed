@@ -1176,11 +1176,12 @@ options
 since
 )
 {
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 login
 )

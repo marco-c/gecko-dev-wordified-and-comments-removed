@@ -863,6 +863,7 @@ origin
 }
 ;
 }
+async
 removeFromStorage
 (
 )
@@ -911,11 +912,12 @@ vanilla
 }
 else
 {
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 this
 .

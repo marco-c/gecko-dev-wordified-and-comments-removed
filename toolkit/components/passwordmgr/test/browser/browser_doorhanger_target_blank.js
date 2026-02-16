@@ -426,11 +426,12 @@ value
 "
 )
 ;
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 login
 )

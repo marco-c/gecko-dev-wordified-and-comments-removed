@@ -1985,12 +1985,13 @@ guid
 ;
 try
 {
+await
 this
 .
 #
 rustStorage
 .
-removeLogin
+removeLoginAsync
 (
 subject
 )

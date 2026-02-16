@@ -3937,11 +3937,12 @@ of
 logins
 )
 {
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 login
 )

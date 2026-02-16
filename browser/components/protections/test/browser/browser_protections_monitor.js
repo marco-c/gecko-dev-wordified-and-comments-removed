@@ -764,11 +764,12 @@ enabled
 true
 )
 ;
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 TEST_LOGIN1
 )

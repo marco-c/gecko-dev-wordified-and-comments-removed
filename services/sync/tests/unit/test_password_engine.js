@@ -2313,11 +2313,12 @@ guid
 ]
 )
 ;
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 foundLogins
 [
