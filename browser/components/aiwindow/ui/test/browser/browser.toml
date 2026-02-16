@@ -270,6 +270,13 @@ js
 ]
 [
 "
+browser_smartwindow_leak
+.
+js
+"
+]
+[
+"
 browser_smartwindow_prompts
 .
 js
