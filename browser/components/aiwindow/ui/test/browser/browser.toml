@@ -235,6 +235,13 @@ js
 ]
 [
 "
+browser_smartwindow_content
+.
+js
+"
+]
+[
+"
 browser_smartwindow_init
 .
 js
