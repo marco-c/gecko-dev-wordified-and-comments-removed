@@ -133,6 +133,17 @@ content
 .
 id
 event
+event_context
+:
+{
+writeInMicrosurvey
+:
+message
+.
+content
+.
+writeInMicrosurvey
+}
 }
 ;
 dispatch
