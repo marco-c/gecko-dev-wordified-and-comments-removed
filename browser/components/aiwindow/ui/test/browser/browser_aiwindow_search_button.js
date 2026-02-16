@@ -882,7 +882,7 @@ loadSearch
 was
 called
 from
-AI
+Smart
 Window
 Perform
 Search
@@ -929,10 +929,10 @@ args
 .
 sapSource
 "
-aiwindow_assistant
+smartwindow_assistant
 "
 "
-AI
+Smart
 Window
 sapSource
 passed
@@ -960,7 +960,7 @@ other
 source
 :
 "
-aiwindow_assistant
+smartwindow_assistant
 "
 count
 :

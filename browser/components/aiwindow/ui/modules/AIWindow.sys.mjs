@@ -2681,7 +2681,7 @@ null
 sapSource
 :
 "
-aiwindow_assistant
+smartwindow_assistant
 "
 }
 )
