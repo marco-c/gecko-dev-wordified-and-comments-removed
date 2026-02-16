@@ -7418,7 +7418,7 @@ androidx
 .
 navigation3
 .
-ui
+runtime
 implementation
 libs
 .
@@ -7426,7 +7426,7 @@ androidx
 .
 navigation3
 .
-runtime
+ui
 implementation
 libs
 .
