@@ -236,6 +236,11 @@ engineSettings
 :
 Settings
 ?
+private
+val
+downloadFileUtils
+:
+DownloadFileUtils
 )
 :
 GeckoRuntime
@@ -264,6 +269,9 @@ GeckoEngineSession
 runtime
 =
 runtime
+downloadFileUtils
+=
+downloadFileUtils
 privateMode
 =
 false

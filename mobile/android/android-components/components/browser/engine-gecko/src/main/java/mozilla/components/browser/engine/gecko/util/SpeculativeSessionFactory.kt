@@ -107,6 +107,16 @@ engine
 .
 Settings
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+DownloadFileUtils
+import
 org
 .
 mozilla
@@ -220,6 +230,9 @@ defaultSettings
 :
 Settings
 ?
+downloadFileUtils
+:
+DownloadFileUtils
 )
 {
 if
@@ -288,6 +301,9 @@ private
 contextId
 =
 contextId
+downloadFileUtils
+=
+downloadFileUtils
 defaultSettings
 =
 defaultSettings
@@ -666,6 +682,9 @@ GeckoRuntime
 private
 :
 Boolean
+downloadFileUtils
+:
+DownloadFileUtils
 contextId
 :
 String
@@ -689,6 +708,9 @@ runtime
 privateMode
 =
 private
+downloadFileUtils
+=
+downloadFileUtils
 defaultSettings
 =
 defaultSettings
