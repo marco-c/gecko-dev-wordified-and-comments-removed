@@ -24699,6 +24699,11 @@ tabs
 =
 [
 contextTab
+.
+splitview
+?
+?
+contextTab
 ]
 ;
 }
