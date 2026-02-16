@@ -64,16 +64,6 @@ components
 feature
 .
 downloads
-import
-mozilla
-.
-components
-.
-support
-.
-utils
-.
-DateTimeProvider
 private
 const
 val
