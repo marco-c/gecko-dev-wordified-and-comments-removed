@@ -1743,6 +1743,12 @@ no
 op
 if
 (
+!
+Cu
+.
+isInAutomation
+&
+&
 newPath
 =
 =
