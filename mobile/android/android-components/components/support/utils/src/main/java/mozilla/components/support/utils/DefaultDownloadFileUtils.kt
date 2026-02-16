@@ -230,7 +230,7 @@ context
 .
 *
 param
-downloadLocationGetter
+downloadLocation
 A
 lambda
 providing
@@ -253,7 +253,7 @@ context
 Context
 private
 val
-downloadLocationGetter
+downloadLocation
 :
 (
 )
@@ -459,7 +459,7 @@ uniqueFileName
 (
 directoryPath
 =
-downloadLocationGetter
+downloadLocation
 (
 )
 fileName

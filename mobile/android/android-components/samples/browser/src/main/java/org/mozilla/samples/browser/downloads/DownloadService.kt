@@ -269,7 +269,7 @@ DefaultDownloadFileUtils
 context
 =
 applicationContext
-downloadLocationGetter
+downloadLocation
 =
 {
 Environment

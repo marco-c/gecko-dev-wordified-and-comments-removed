@@ -321,7 +321,7 @@ download
 DefaultDownloadFileUtils
 (
 testContext
-downloadLocationGetter
+downloadLocation
 =
 {
 "
