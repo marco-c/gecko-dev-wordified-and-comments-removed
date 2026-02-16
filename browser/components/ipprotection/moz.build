@@ -138,6 +138,13 @@ sys
 mjs
 "
 "
+IPProtectionInfobarManager
+.
+sys
+.
+mjs
+"
+"
 IPProtectionPanel
 .
 sys

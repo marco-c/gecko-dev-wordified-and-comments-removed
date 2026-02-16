@@ -128,6 +128,13 @@ js
 ]
 [
 "
+browser_ipprotection_infobar
+.
+js
+"
+]
+[
+"
 browser_ipprotection_keyboard_navigation
 .
 js
