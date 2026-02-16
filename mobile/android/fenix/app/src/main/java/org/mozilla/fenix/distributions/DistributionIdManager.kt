@@ -900,7 +900,7 @@ Distribution
 XIAOMI_001
 -
 >
-false
+true
 }
 }
 /
