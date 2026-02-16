@@ -1032,6 +1032,10 @@ nr_ice_cand_pair
 *
 pair
 =
+(
+nr_ice_cand_pair
+*
+)
 cb_arg
 ;
 nr_ice_cand_pair
@@ -3575,6 +3579,10 @@ nr_ice_cand_pair
 *
 pair
 =
+(
+nr_ice_cand_pair
+*
+)
 cb_arg
 ;
 int
@@ -3840,6 +3848,10 @@ nr_ice_cand_pair
 *
 pair
 =
+(
+nr_ice_cand_pair
+*
+)
 cb_arg
 ;
 pair

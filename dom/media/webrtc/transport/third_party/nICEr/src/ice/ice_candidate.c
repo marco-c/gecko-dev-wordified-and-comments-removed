@@ -3315,6 +3315,10 @@ nr_ice_candidate
 *
 cand
 =
+(
+nr_ice_candidate
+*
+)
 cb_arg
 ;
 cand
@@ -4388,6 +4392,10 @@ nr_ice_candidate
 *
 cand
 =
+(
+nr_ice_candidate
+*
+)
 cb_arg
 ;
 int
@@ -4742,6 +4750,10 @@ nr_ice_candidate
 *
 cand
 =
+(
+nr_ice_candidate
+*
+)
 cb_arg
 ;
 int
@@ -5082,6 +5094,10 @@ nr_ice_candidate
 *
 cand
 =
+(
+nr_ice_candidate
+*
+)
 cb_arg
 ;
 int
@@ -5393,6 +5409,10 @@ nr_ice_candidate
 *
 cand
 =
+(
+nr_ice_candidate
+*
+)
 cb_arg
 ;
 r_log
@@ -5621,6 +5641,10 @@ nr_ice_candidate
 *
 cand
 =
+(
+nr_ice_candidate
+*
+)
 cb_arg
 ;
 nr_turn_client_ctx

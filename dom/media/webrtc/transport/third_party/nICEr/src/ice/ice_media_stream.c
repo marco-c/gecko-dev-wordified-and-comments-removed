@@ -1915,6 +1915,10 @@ nr_ice_media_stream
 *
 stream
 =
+(
+nr_ice_media_stream
+*
+)
 cb_arg
 ;
 nr_ice_cand_pair
