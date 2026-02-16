@@ -1532,10 +1532,10 @@ write
 f
 "
 {
-spacing
 }
 MATCH
 "
+spacing
 )
 ?
 ;
@@ -1609,11 +1609,11 @@ write
 f
 "
 {
-t
 :
 ?
 }
 "
+t
 )
 ?
 ;

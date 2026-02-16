@@ -310,9 +310,9 @@ test
 name
 :
 {
-name
 }
 "
+name
 )
 )
 }

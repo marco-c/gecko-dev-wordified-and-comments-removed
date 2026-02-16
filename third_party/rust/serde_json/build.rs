@@ -130,14 +130,6 @@ target_arch
 =
 =
 "
-riscv64
-"
-|
-|
-target_arch
-=
-=
-"
 wasm32
 "
 |
