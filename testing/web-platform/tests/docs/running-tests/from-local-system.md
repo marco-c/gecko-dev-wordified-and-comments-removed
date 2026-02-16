@@ -80,7 +80,7 @@ requires
 Python
 3
 .
-8
+9
 or
 higher
 .

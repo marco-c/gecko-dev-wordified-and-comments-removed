@@ -591,7 +591,7 @@ pyenv
 install
 3
 .
-8
+9
 cd
 html
 /
@@ -602,7 +602,7 @@ pyenv
 local
 3
 .
-8
+9
 python3
 -
 m
