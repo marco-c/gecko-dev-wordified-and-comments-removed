@@ -373,6 +373,10 @@ action
 SearchFragmentAction
 )
 {
+next
+(
+action
+)
 if
 (
 action
@@ -401,10 +405,6 @@ store
 )
 }
 }
-next
-(
-action
-)
 }
 private
 fun
