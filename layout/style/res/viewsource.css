@@ -66,6 +66,12 @@ scheme
 light
 dark
 ;
+background
+-
+color
+:
+Canvas
+;
 direction
 :
 ltr
