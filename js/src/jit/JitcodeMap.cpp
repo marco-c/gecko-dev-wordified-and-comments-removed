@@ -3802,6 +3802,8 @@ scriptList
 scriptIdx
 ]
 .
+scriptData
+.
 sourceAndExtent
 .
 matches
@@ -4741,6 +4743,8 @@ scriptList
 0
 ]
 .
+scriptData
+.
 sourceAndExtent
 .
 scriptSource
@@ -4754,6 +4758,8 @@ scriptList
 0
 ]
 .
+scriptData
+.
 sourceAndExtent
 .
 toStringStart
@@ -4761,6 +4767,8 @@ scriptList
 [
 0
 ]
+.
+scriptData
 .
 sourceAndExtent
 .
@@ -4840,6 +4848,8 @@ scriptList
 i
 ]
 .
+scriptData
+.
 sourceAndExtent
 .
 scriptSource
@@ -4853,6 +4863,8 @@ scriptList
 i
 ]
 .
+scriptData
+.
 sourceAndExtent
 .
 toStringStart
@@ -4860,6 +4872,8 @@ scriptList
 [
 i
 ]
+.
+scriptData
 .
 sourceAndExtent
 .
