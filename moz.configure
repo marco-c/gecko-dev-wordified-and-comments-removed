@@ -830,7 +830,13 @@ MOZ_PGO
 "
 )
 (
+lambda
+x
+:
 bool
+(
+x
+)
 )
 )
 imply_option

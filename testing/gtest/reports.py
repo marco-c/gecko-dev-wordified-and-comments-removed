@@ -617,9 +617,15 @@ result_files
 filter
 (
                 
+lambda
+f
+:
 path
 .
 isfile
+(
+f
+)
 map
 (
 lambda
