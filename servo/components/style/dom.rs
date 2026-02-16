@@ -4141,7 +4141,6 @@ Debug
 PartialEq
 )
 ]
-pub
 struct
 DummyAttributeProvider
 ;
