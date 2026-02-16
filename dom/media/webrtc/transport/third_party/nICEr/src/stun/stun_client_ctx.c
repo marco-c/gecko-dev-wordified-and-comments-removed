@@ -487,6 +487,11 @@ int
 r
 _status
 ;
+int
+flags
+=
+0
+;
 if
 (
 ctx
@@ -502,7 +507,6 @@ ABORT
 R_NOT_PERMITTED
 )
 ;
-int
 flags
 =
 ctx
