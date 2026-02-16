@@ -218,6 +218,12 @@ aDest
 )
 const
 ;
+StyleMathSum
+ToStyleMathSum
+(
+)
+const
+;
 private
 :
 virtual

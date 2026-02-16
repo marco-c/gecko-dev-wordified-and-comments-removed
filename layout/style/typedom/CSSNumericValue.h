@@ -95,6 +95,9 @@ ErrorResult
 struct
 StyleNumericValue
 ;
+struct
+StyleNumericValueResult
+;
 namespace
 dom
 {
@@ -425,6 +428,12 @@ aPropertyId
 nsACString
 &
 aDest
+)
+const
+;
+StyleNumericValueResult
+ToStyleNumericValue
+(
 )
 const
 ;
