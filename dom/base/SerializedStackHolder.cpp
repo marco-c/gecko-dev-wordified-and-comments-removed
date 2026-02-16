@@ -416,13 +416,6 @@ mHolder
 .
 Read
 (
-xpc
-:
-:
-CurrentNativeGlobal
-(
-aCx
-)
 aCx
 &
 stackValue
