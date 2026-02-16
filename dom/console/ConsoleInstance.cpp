@@ -1567,6 +1567,15 @@ WebIDLLogLevelToInteger
 (
 aLevel
 )
+|
+|
+mConsole
+-
+>
+ShouldLogToMozLog
+(
+aLevel
+)
 ;
 }
 void
