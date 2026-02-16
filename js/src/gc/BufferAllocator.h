@@ -246,6 +246,9 @@ FullChunkSizeClass
 =
 AllocSizeClasses
 ;
+struct
+Stats
+;
 class
 AutoLock
 :
@@ -545,6 +548,14 @@ checkAvailable
 (
 )
 const
+;
+void
+getStats
+(
+Stats
+&
+stats
+)
 ;
 }
 ;
