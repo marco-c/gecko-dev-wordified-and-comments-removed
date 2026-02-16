@@ -384,11 +384,6 @@ FunctionBind
 \
 _
 (
-IntlGuardToNumberFormat
-)
-\
-_
-(
 IntlGuardToPluralRules
 )
 \
