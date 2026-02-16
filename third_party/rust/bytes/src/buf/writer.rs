@@ -184,12 +184,11 @@ self
 .
 buf
 .
-put
+put_slice
 (
 &
 src
 [
-0
 .
 .
 n

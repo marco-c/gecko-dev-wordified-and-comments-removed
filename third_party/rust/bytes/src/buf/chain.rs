@@ -17,7 +17,6 @@ crate
 {
 Buf
 BufMut
-Bytes
 }
 ;
 #
@@ -236,7 +235,7 @@ remaining
 (
 )
 .
-checked_add
+saturating_add
 (
 self
 .
@@ -245,10 +244,6 @@ b
 remaining
 (
 )
-)
-.
-unwrap
-(
 )
 }
 fn
@@ -448,6 +443,9 @@ usize
 )
 -
 >
+crate
+:
+:
 Bytes
 {
 let
