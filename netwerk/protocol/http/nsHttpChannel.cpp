@@ -30523,10 +30523,10 @@ return
 false
 ;
 }
-UrlpPattern
+UrlPatternGlue
 pattern
 ;
-UrlpOptions
+UrlPatternOptions
 options
 {
 }
@@ -30534,7 +30534,7 @@ options
 if
 (
 !
-urlp_parse_pattern_from_string
+urlpattern_parse_pattern_from_string
 (
 &
 matchVal
@@ -30572,7 +30572,7 @@ false
 }
 if
 (
-urlp_get_has_regexp_groups
+urlpattern_get_has_regexp_groups
 (
 pattern
 )

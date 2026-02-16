@@ -68,7 +68,7 @@ URLPattern
 nsISupports
 *
 aParent
-UrlpPattern
+UrlPatternGlue
 aPattern
 bool
 aIgnoreCase
@@ -311,7 +311,7 @@ nsISupports
 >
 mParent
 ;
-UrlpPattern
+UrlPatternGlue
 mPattern
 ;
 bool
