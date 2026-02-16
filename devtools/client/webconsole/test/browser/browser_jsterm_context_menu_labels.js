@@ -74,12 +74,9 @@ node
 .
 querySelector
 (
-"
+codemirrorSelectors
 .
-CodeMirror
--
-wrap
-"
+cmContent
 )
 ;
 const

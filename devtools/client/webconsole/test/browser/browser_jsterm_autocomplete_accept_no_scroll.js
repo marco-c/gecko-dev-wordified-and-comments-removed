@@ -195,12 +195,9 @@ document
 .
 querySelector
 (
-"
+codemirrorSelectors
 .
-CodeMirror
--
-scroll
-"
+cmScroller
 )
 ;
 Assert

@@ -52,12 +52,9 @@ outputNode
 .
 querySelector
 (
-"
+codemirrorSelectors
 .
-CodeMirror
--
-scroll
-"
+cmScroller
 )
 ;
 info
