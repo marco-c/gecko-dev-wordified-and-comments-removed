@@ -14650,6 +14650,9 @@ if
 (
 !
 tabIndex
+&
+&
+elementIndex
 )
 {
 tabIndex
