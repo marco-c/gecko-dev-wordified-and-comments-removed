@@ -24541,9 +24541,6 @@ true
 &
 data
 aRetvals
-IgnoreErrors
-(
-)
 )
 ;
 }
@@ -24642,9 +24639,6 @@ false
 &
 data
 nullptr
-IgnoreErrors
-(
-)
 )
 ;
 }
