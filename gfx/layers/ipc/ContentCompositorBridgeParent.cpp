@@ -1033,7 +1033,6 @@ WebRenderBridgeParent
 (
 this
 aPipelineId
-nullptr
 root
 -
 >
