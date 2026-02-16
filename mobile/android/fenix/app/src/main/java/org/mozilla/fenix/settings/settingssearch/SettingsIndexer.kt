@@ -73,8 +73,6 @@ settingssearch
 This
 interface
 provides
-a
-static
 methods
 for
 indexing
@@ -102,6 +100,7 @@ app
 .
 *
 /
+suspend
 fun
 indexAllSettings
 (
