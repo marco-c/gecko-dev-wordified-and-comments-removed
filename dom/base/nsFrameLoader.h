@@ -1021,11 +1021,6 @@ aMessage
 mozilla
 :
 :
-NotNull
-<
-mozilla
-:
-:
 dom
 :
 :
@@ -1033,8 +1028,7 @@ ipc
 :
 :
 StructuredCloneData
-*
->
+&
 aData
 )
 override

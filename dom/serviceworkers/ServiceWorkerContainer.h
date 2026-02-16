@@ -401,6 +401,9 @@ aMessage
 MessageEventInit
 &
 aInit
+ErrorResult
+&
+aRv
 )
 ;
 void

@@ -33,9 +33,6 @@ IPCCore
 h
 "
 ;
-[
-RefCounted
-]
 using
 class
 mozilla
@@ -163,7 +160,15 @@ double
 ;
 int32_t
 ;
+UniquePtr
+<
 StructuredCloneData
+>
+;
+UniquePtr
+<
+ClonedMessageData
+>
 ;
 nsIPrincipal
 ;
