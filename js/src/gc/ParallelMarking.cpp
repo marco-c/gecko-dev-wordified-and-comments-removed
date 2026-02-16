@@ -430,7 +430,7 @@ canDonateWork
 GCMarker
 :
 :
-moveWork
+moveSomeWork
 (
 marker
 &
@@ -1885,7 +1885,7 @@ wordsMoved
 GCMarker
 :
 :
-moveWork
+moveSomeWork
 (
 waitingTask
 -
