@@ -120,6 +120,8 @@ false
 GaussianBlur
 (
 )
+=
+default
 ;
 void
 Init
@@ -161,6 +163,8 @@ false
 GaussianBlur
 (
 )
+=
+default
 ;
 IntSize
 GetSize

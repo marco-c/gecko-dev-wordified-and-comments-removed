@@ -121,16 +121,6 @@ mNumBitsLeft
 )
 {
 }
-BitReader
-:
-:
-~
-BitReader
-(
-)
-=
-default
-;
 uint32_t
 BitReader
 :

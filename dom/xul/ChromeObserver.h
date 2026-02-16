@@ -85,6 +85,8 @@ bool
 ChromeObserver
 (
 )
+=
+default
 ;
 Document
 *

@@ -28,6 +28,8 @@ private
 nsUUIDGenerator
 (
 )
+=
+default
 ;
 }
 ;

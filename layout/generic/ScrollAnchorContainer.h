@@ -66,6 +66,8 @@ aScrollFrame
 ScrollAnchorContainer
 (
 )
+=
+default
 ;
 static
 ScrollAnchorContainer

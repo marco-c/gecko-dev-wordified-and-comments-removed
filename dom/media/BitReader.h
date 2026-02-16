@@ -52,6 +52,8 @@ aBits
 BitReader
 (
 )
+=
+default
 ;
 uint32_t
 ReadBits

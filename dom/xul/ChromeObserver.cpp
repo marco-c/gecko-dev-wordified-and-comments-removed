@@ -117,16 +117,6 @@ aDocument
 )
 {
 }
-ChromeObserver
-:
-:
-~
-ChromeObserver
-(
-)
-=
-default
-;
 void
 ChromeObserver
 :

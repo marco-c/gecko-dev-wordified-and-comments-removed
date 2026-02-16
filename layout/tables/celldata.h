@@ -305,6 +305,8 @@ BCData
 BCData
 (
 )
+=
+default
 ;
 nscoord
 GetIStartEdge
@@ -1216,17 +1218,6 @@ mCornerBevel
 false
 ;
 }
-inline
-BCData
-:
-:
-~
-BCData
-(
-)
-=
-default
-;
 inline
 nscoord
 BCData
