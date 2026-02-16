@@ -17340,6 +17340,17 @@ oldMuted
 return
 ;
 }
+SetStates
+(
+ElementState
+:
+:
+MUTED
+mMuted
+&
+MUTED_BY_CONTENT
+)
+;
 SetVolumeInternal
 (
 )

@@ -12090,6 +12090,11 @@ NonTSPseudoClass
 :
 :
 Stalled
+|
+NonTSPseudoClass
+:
+:
+Muted
 =
 >
 {
