@@ -894,6 +894,7 @@ handleAction
 negotiatedLanguage
 langPackInstallPhase
 messageId
+writeInMicrosurvey
 }
 =
 props
@@ -1519,6 +1520,12 @@ messageId
 "
 download_langpack
 "
+"
+CLICK_BUTTON
+"
+{
+writeInMicrosurvey
+}
 )
 ;
 setIsAwaitingLangpack

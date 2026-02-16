@@ -43,10 +43,3 @@ test_AboutWelcomeTelemetry_exposure
 js
 "
 ]
-[
-"
-test_AboutWelcomeTelemetry_glean
-.
-js
-"
-]
