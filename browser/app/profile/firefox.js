@@ -8018,7 +8018,7 @@ preferences
 .
 aiControls
 "
-false
+true
 )
 ;
 pref
