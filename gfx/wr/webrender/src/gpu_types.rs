@@ -3547,7 +3547,7 @@ pub
 enum
 ClipSpace
 {
-Device
+Raster
 =
 0
 Primitive
@@ -3573,7 +3573,7 @@ self
 ClipSpace
 :
 :
-Device
+Raster
 =
 >
 0

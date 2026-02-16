@@ -178,7 +178,7 @@ aClipData
 ;
 #
 define
-CLIP_SPACE_DEVICE
+CLIP_SPACE_RASTER
 0
 #
 define
@@ -410,7 +410,7 @@ clip
 space
 =
 =
-CLIP_SPACE_DEVICE
+CLIP_SPACE_RASTER
 )
 {
 vTransformBounds
