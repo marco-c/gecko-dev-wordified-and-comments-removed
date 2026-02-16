@@ -1525,9 +1525,6 @@ C
 js
 /
 src
-source
--
-package
 install
 :
 (

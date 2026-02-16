@@ -2292,6 +2292,27 @@ py
 )
     
 "
+source
+-
+package
+"
+:
+MachCommandReference
+(
+"
+python
+/
+mozbuild
+/
+mozbuild
+/
+mach_commands
+.
+py
+"
+)
+    
+"
 static
 -
 analysis
