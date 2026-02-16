@@ -1,0 +1,16 @@
+"
+use
+strict
+"
+;
+self
+.
+postMessage
+(
+"
+chrome
+worker
+loaded
+"
+)
+;

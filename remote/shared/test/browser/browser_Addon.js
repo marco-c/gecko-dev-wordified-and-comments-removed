@@ -85,6 +85,8 @@ addonPath
 getSupportFilePath
 (
 "
+webextensions
+/
 amosigned
 .
 xpi
@@ -206,6 +208,8 @@ addonPath
 getSupportFilePath
 (
 "
+webextensions
+/
 amosigned
 .
 xpi
@@ -344,6 +348,8 @@ addonPath
 getSupportFilePath
 (
 "
+webextensions
+/
 amosigned
 .
 xpi

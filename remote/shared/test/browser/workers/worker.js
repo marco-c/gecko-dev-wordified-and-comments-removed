@@ -1,0 +1,15 @@
+"
+use
+strict
+"
+;
+self
+.
+postMessage
+(
+"
+worker
+loaded
+"
+)
+;
