@@ -151,7 +151,16 @@ min
 -
 width
 :
-100px
+var
+(
+-
+-
+size
+-
+layout
+-
+xsmall
+)
 ;
 }
 /

@@ -6049,7 +6049,16 @@ notification
 {
 width
 :
-400px
+var
+(
+-
+-
+size
+-
+layout
+-
+large
+)
 ;
 .
 popup

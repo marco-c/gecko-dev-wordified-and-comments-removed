@@ -828,7 +828,16 @@ min
 -
 width
 :
-300px
+var
+(
+-
+-
+size
+-
+layout
+-
+medium
+)
 ;
 position
 :
