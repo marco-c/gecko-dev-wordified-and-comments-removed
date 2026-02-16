@@ -7498,7 +7498,7 @@ batch_features
 brush_flags
 common_data
 .
-edge_aa_mask
+transformed_aa_edges
 prim_header_index
 bounding_rect
 transform_metadata
@@ -7624,7 +7624,7 @@ z_id
 INVALID_SEGMENT_INDEX
 common_data
 .
-edge_aa_mask
+transformed_aa_edges
 clip_task_address
 brush_flags
 |
@@ -7977,7 +7977,7 @@ batch_features
 brush_flags
 common_data
 .
-edge_aa_mask
+transformed_aa_edges
 prim_header_index
 bounding_rect
 transform_metadata
@@ -9246,7 +9246,7 @@ z_id
 INVALID_SEGMENT_INDEX
 common_data
 .
-edge_aa_mask
+transformed_aa_edges
 clip_task_address
 brush_flags
 |
@@ -9355,7 +9355,7 @@ batch_features
 brush_flags
 common_data
 .
-edge_aa_mask
+transformed_aa_edges
 prim_header_index
 bounding_rect
 transform_metadata
@@ -9714,7 +9714,7 @@ batch_features
 brush_flags
 common_data
 .
-edge_aa_mask
+transformed_aa_edges
 prim_header_index
 bounding_rect
 transform_metadata
@@ -10193,7 +10193,7 @@ batch_features
 brush_flags
 common_data
 .
-edge_aa_mask
+transformed_aa_edges
 prim_header_index
 bounding_rect
 transform_metadata
@@ -10741,7 +10741,7 @@ batch_features
 brush_flags
 prim_data
 .
-edge_aa_mask
+transformed_aa_edges
 prim_header_index
 bounding_rect
 transform_metadata
@@ -10878,7 +10878,7 @@ z_id
 INVALID_SEGMENT_INDEX
 prim_data
 .
-edge_aa_mask
+transformed_aa_edges
 clip_task_address
 brush_flags
 |

@@ -1063,7 +1063,7 @@ LineDecorationTemplate
 >
 (
 )
-56
+60
 "
 LineDecorationTemplate
 size
