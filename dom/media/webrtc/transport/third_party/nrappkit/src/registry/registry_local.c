@@ -244,6 +244,7 @@ size_t
 length
 )
 ;
+const
 char
 *
 nr_reg_action_name
