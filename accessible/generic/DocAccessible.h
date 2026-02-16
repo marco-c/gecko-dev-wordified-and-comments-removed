@@ -1126,17 +1126,6 @@ LocalAccessible
 aTarget
 )
 ;
-void
-QueueCacheUpdateForPopoverInvokers
-(
-dom
-:
-:
-Element
-*
-aPopoverEl
-)
-;
 protected
 :
 virtual
