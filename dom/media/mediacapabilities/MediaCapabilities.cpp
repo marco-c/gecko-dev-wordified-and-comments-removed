@@ -3556,7 +3556,7 @@ CapabilitiesPromise
 :
 All
 (
-targetThread
+taskQueue
 promises
 )
 -
