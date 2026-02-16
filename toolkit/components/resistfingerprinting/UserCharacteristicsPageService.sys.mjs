@@ -6718,6 +6718,12 @@ mathml10
 monochrome
 "
 "
+cssSystemColors
+"
+"
+cssSystemFonts
+"
+"
 oscpu
 "
 "
