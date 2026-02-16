@@ -25388,6 +25388,11 @@ emitProfilingInstrumentation_
 true
 ;
 }
+void
+instrumentProfilerCallSite
+(
+)
+;
 private
 :
 class
