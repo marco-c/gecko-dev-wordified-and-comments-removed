@@ -1,0 +1,15 @@
+[
+DEFAULT
+]
+subsuite
+=
+"
+testing
+"
+[
+"
+test_mach_commands
+.
+py
+"
+]
