@@ -1102,7 +1102,7 @@ double
 storeBufferScaling
 ConvertTimes100
 \
-NoCheck
+CheckNonZeroUnitRange
 0
 .
 25
