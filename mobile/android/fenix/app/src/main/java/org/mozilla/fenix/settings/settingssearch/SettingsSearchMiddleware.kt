@@ -466,11 +466,6 @@ searchItem
 scope
 .
 launch
-(
-Dispatchers
-.
-Main
-)
 {
 navController
 .
