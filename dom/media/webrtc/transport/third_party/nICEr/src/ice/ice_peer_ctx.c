@@ -160,12 +160,9 @@ if
 (
 pctx
 =
-RCALLOC
-(
-sizeof
+R_NEW
 (
 nr_ice_peer_ctx
-)
 )
 )
 )

@@ -89,12 +89,9 @@ if
 (
 sock
 =
-RCALLOC
-(
-sizeof
+R_NEW
 (
 nr_socket
-)
 )
 )
 )
@@ -696,12 +693,9 @@ if
 (
 factoryp
 =
-RCALLOC
-(
-sizeof
+R_NEW
 (
 nr_socket_factory
-)
 )
 )
 )

@@ -49,12 +49,9 @@ if
 (
 ifp
 =
-RCALLOC
-(
-sizeof
+R_NEW
 (
 nr_interface_prioritizer
-)
 )
 )
 )
