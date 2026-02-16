@@ -76,13 +76,6 @@ h
 #
 include
 "
-nsHttpConnectionMgr
-.
-h
-"
-#
-include
-"
 nsHttpTransaction
 .
 h
