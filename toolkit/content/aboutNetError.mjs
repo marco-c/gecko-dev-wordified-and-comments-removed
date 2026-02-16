@@ -4396,6 +4396,9 @@ showOSXPermissionWarning
 RPMShowOSXLocalNetworkPermissionWarning
 (
 )
+offline
+:
+gOffline
 }
 ;
 /
@@ -4460,7 +4463,6 @@ getResolvedErrorConfig
 (
 gErrorCode
 context
-gOffline
 )
 ;
 /
