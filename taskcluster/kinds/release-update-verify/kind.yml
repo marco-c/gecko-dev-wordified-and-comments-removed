@@ -184,6 +184,8 @@ type
 b
 -
 linux
+-
+amd
 worker
 :
 artifacts
