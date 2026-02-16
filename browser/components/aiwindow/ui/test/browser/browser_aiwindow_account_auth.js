@@ -103,9 +103,9 @@ smartwindow
 .
 tos
 .
-hasConsent
+consentTime
 "
-false
+0
 ]
 ]
 }
@@ -250,9 +250,9 @@ smartwindow
 .
 tos
 .
-hasConsent
+consentTime
 "
-true
+1735689600
 ]
 ]
 }
