@@ -7386,12 +7386,6 @@ libs
 .
 androidx
 .
-localbroadcastmanager
-implementation
-libs
-.
-androidx
-.
 navigation
 .
 compose
