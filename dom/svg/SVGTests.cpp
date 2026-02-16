@@ -519,7 +519,10 @@ aLangTag
 }
 }
 ;
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 LangTag
 LangTagDelete

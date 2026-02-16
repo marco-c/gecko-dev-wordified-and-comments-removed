@@ -1021,7 +1021,10 @@ container
 ;
 }
 }
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 SMILCompositorTable
 >

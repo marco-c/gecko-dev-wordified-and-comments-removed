@@ -269,7 +269,10 @@ mElement
 )
 ;
 }
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 SMILAttr
 >
@@ -490,7 +493,10 @@ mAttributeName
 )
 return
 ;
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 SMILAttr
 >
@@ -518,7 +524,10 @@ ClearAnimValue
 )
 ;
 }
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 SMILAttr
 >
@@ -549,7 +558,10 @@ eCSSProperty_UNKNOWN
 )
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 SMILCSSProperty
 >

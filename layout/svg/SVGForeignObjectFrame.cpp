@@ -1840,7 +1840,10 @@ GetContent
 ;
 mCanvasTM
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 gfxMatrix
 >
@@ -1979,7 +1982,10 @@ kid
 return
 ;
 }
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 gfxContext
 >

@@ -1665,7 +1665,10 @@ mAnimVal
 {
 mAnimVal
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SVGPathData
 >
@@ -1740,7 +1743,10 @@ IsEmpty
 )
 ;
 }
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 SMILAttr
 >
@@ -1755,7 +1761,10 @@ aElement
 )
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 SMILAnimatedPathSegList
 >

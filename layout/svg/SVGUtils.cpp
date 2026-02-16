@@ -2851,7 +2851,10 @@ gfxContext
 *
 mSourceCtx
 ;
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 gfxContext
 >

@@ -294,7 +294,10 @@ mAnimVal
 {
 mAnimVal
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SVGPointList
 >
@@ -392,7 +395,10 @@ DidAnimatePointList
 )
 ;
 }
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 SMILAttr
 >
@@ -407,7 +413,10 @@ aElement
 )
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 SMILAnimatedPointList
 >

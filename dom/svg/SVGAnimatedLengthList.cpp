@@ -229,7 +229,10 @@ mAnimVal
 {
 mAnimVal
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SVGLengthList
 >
@@ -330,7 +333,10 @@ aAttrEnum
 )
 ;
 }
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 SMILAttr
 >
@@ -354,7 +360,10 @@ aCanZeroPadList
 )
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 SMILAnimatedLengthList
 >
