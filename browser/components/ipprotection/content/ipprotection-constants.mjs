@@ -320,6 +320,9 @@ BYTES_IN_GB
 BYTES_IN_MB
 :
 1000000
+MAX_IN_GB
+:
+50
 }
 )
 ;

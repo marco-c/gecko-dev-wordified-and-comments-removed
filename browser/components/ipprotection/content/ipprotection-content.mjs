@@ -103,9 +103,9 @@ mjs
 ;
 import
 {
+BANDWIDTH
 LINKS
 ERRORS
-BANDWIDTH
 }
 from
 "
