@@ -1342,6 +1342,12 @@ aValue
 rv
 )
 ;
+rv
+.
+WouldReportJSException
+(
+)
+;
 if
 (
 rv

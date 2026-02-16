@@ -984,11 +984,6 @@ SuppressException
 (
 )
 ;
-JS_ClearPendingException
-(
-cx
-)
-;
 stackVal
 .
 setUndefined

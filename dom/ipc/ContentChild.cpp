@@ -3551,6 +3551,12 @@ stack
 err
 )
 ;
+err
+.
+WouldReportJSException
+(
+)
+;
 if
 (
 err
@@ -7731,7 +7737,7 @@ MOZ_CRASH
 )
 ;
 }
-ErrorResult
+IgnoredErrorResult
 rv
 ;
 JS
