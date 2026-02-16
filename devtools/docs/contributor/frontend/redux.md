@@ -50,6 +50,7 @@ read
 them
 .
 #
+Redux
 Quick
 Intro
 Just
