@@ -424,13 +424,6 @@ js
 "
 intl
 /
-DurationFormat
-.
-js
-"
-"
-intl
-/
 NumberFormat
 .
 js
