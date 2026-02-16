@@ -184,7 +184,7 @@ object
 expression
 :
 "
-master
+HEAD
 :
 %
 (
