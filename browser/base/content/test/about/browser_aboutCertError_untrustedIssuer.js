@@ -378,16 +378,6 @@ shouldHideExceptionButton
 (
 )
 ;
-netErrorCard
-.
-errorConfig
-=
-netErrorCard
-.
-getErrorConfig
-(
-)
-;
 await
 netErrorCard
 .

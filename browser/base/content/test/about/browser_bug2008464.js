@@ -336,9 +336,9 @@ equal
 (
 netErrorCard
 .
-errorConfig
+errorInfo
 .
-errorCode
+errorCodeString
 "
 NS_ERROR_BASIC_HTTP_AUTH_DISABLED
 "
