@@ -319,9 +319,6 @@ locale
 )
 ;
 }
-intl
-:
-:
 ListFormatOptions
 *
 getOptions
@@ -355,9 +352,6 @@ nullptr
 return
 static_cast
 <
-intl
-:
-:
 ListFormatOptions
 *
 >
@@ -373,9 +367,6 @@ toPrivate
 void
 setOptions
 (
-intl
-:
-:
 ListFormatOptions
 *
 options

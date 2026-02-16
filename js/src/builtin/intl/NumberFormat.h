@@ -689,9 +689,6 @@ numberingSystem
 )
 ;
 }
-intl
-:
-:
 NumberFormatOptions
 *
 getOptions
@@ -725,9 +722,6 @@ nullptr
 return
 static_cast
 <
-intl
-:
-:
 NumberFormatOptions
 *
 >
@@ -743,9 +737,6 @@ toPrivate
 void
 setOptions
 (
-intl
-:
-:
 NumberFormatOptions
 *
 options

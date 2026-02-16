@@ -383,9 +383,6 @@ numberingSystem
 )
 ;
 }
-intl
-:
-:
 RelativeTimeFormatOptions
 *
 getOptions
@@ -419,9 +416,6 @@ nullptr
 return
 static_cast
 <
-intl
-:
-:
 RelativeTimeFormatOptions
 *
 >
@@ -437,9 +431,6 @@ toPrivate
 void
 setOptions
 (
-intl
-:
-:
 RelativeTimeFormatOptions
 *
 options

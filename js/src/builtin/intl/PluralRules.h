@@ -338,9 +338,6 @@ locale
 )
 ;
 }
-intl
-:
-:
 PluralRulesOptions
 *
 getOptions
@@ -374,9 +371,6 @@ nullptr
 return
 static_cast
 <
-intl
-:
-:
 PluralRulesOptions
 *
 >
@@ -392,9 +386,6 @@ toPrivate
 void
 setOptions
 (
-intl
-:
-:
 PluralRulesOptions
 *
 options

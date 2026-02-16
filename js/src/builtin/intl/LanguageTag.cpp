@@ -148,9 +148,6 @@ str
 )
 )
 {
-intl
-:
-:
 StringAsciiChars
 chars
 (
