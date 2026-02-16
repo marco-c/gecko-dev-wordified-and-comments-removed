@@ -1177,12 +1177,7 @@ equal
 (
 statusBox
 .
-getAttribute
-(
-"
 type
-"
-)
 ERRORS
 .
 GENERIC

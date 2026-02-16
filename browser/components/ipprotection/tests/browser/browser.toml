@@ -142,6 +142,13 @@ js
 ]
 [
 "
+browser_ipprotection_network_error
+.
+js
+"
+]
+[
+"
 browser_ipprotection_optout
 .
 js

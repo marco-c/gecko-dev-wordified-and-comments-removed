@@ -184,6 +184,13 @@ generic
 -
 error
 "
+NETWORK
+:
+"
+network
+-
+error
+"
 }
 )
 ;
