@@ -1859,6 +1859,13 @@ error
 0
 .
 0
+&
+&
+inBase
+.
+IsValid
+(
+)
 )
 {
 return
@@ -2040,6 +2047,13 @@ error
 =
 =
 0
+&
+&
+inBase
+.
+IsValid
+(
+)
 )
 {
 return
