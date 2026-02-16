@@ -302,7 +302,7 @@ visited
 const
 MEMORIES_SCHEDULER_PAGES_THRESHOLD
 =
-2
+30
 ;
 /
 /
