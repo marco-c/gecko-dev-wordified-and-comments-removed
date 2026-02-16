@@ -101,17 +101,6 @@ int
 type
 )
 ;
-int
-nr_reg_compute_type
-(
-char
-*
-type_name
-int
-*
-type
-)
-;
 char
 *
 nr_reg_action_name
