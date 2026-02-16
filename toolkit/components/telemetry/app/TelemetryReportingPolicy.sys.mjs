@@ -1108,6 +1108,7 @@ accessible
 on
 TelemetryReportingPolicy
 OLDEST_ALLOWED_TOU_ACCEPTANCE_YEAR
+TOU_ACCEPTED_DATE_PREF
 /
 *
 *
@@ -1485,6 +1486,17 @@ TelemetryReportingPolicyImpl
 _notificationInProgress
 =
 inProgress
+;
+}
+get
+termsOfUseAcceptedDate
+(
+)
+{
+return
+TelemetryReportingPolicyImpl
+.
+termsOfUseAcceptedDate
 ;
 }
 /
