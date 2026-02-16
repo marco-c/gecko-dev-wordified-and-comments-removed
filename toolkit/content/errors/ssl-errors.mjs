@@ -108,7 +108,7 @@ cert
 introContent
 :
 {
-id
+dataL10nId
 :
 "
 fp
@@ -117,7 +117,7 @@ certerror
 -
 intro
 "
-args
+dataL10nArgs
 :
 {
 hostname
@@ -251,7 +251,7 @@ cert
 introContent
 :
 {
-id
+dataL10nId
 :
 "
 fp
@@ -262,7 +262,7 @@ connection
 -
 intro
 "
-args
+dataL10nArgs
 :
 {
 hostname
@@ -384,7 +384,7 @@ introContent
 :
 [
 {
-id
+dataL10nId
 :
 "
 cert
@@ -397,7 +397,7 @@ connection
 -
 error
 "
-args
+dataL10nArgs
 :
 {
 hostname
@@ -409,7 +409,7 @@ null
 }
 }
 {
-id
+dataL10nId
 :
 "
 ssl
@@ -527,7 +527,7 @@ introContent
 :
 [
 {
-id
+dataL10nId
 :
 "
 cert
@@ -540,7 +540,7 @@ connection
 -
 error
 "
-args
+dataL10nArgs
 :
 {
 hostname
@@ -552,7 +552,7 @@ null
 }
 }
 {
-id
+dataL10nId
 :
 "
 ssl
@@ -668,7 +668,7 @@ introContent
 :
 [
 {
-id
+dataL10nId
 :
 "
 cert
@@ -681,7 +681,7 @@ connection
 -
 error
 "
-args
+dataL10nArgs
 :
 {
 hostname
@@ -693,7 +693,7 @@ null
 }
 }
 {
-id
+dataL10nId
 :
 "
 ssl

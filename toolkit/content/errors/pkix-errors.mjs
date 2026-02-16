@@ -105,7 +105,7 @@ cert
 introContent
 :
 {
-id
+dataL10nId
 :
 "
 fp
@@ -114,7 +114,7 @@ certerror
 -
 intro
 "
-args
+dataL10nArgs
 :
 {
 hostname
@@ -224,7 +224,7 @@ cert
 introContent
 :
 {
-id
+dataL10nId
 :
 "
 fp
@@ -235,7 +235,7 @@ transparency
 -
 intro
 "
-args
+dataL10nArgs
 :
 {
 hostname
@@ -356,7 +356,7 @@ cert
 introContent
 :
 {
-id
+dataL10nId
 :
 "
 fp
@@ -365,7 +365,7 @@ certerror
 -
 intro
 "
-args
+dataL10nArgs
 :
 {
 hostname
@@ -402,7 +402,7 @@ context
 errorInfo
 ?
 {
-id
+dataL10nId
 :
 "
 fp
@@ -423,7 +423,7 @@ dangerous
 -
 body
 "
-args
+dataL10nArgs
 :
 {
 date
@@ -558,7 +558,7 @@ cert
 introContent
 :
 {
-id
+dataL10nId
 :
 "
 fp
@@ -567,7 +567,7 @@ certerror
 -
 intro
 "
-args
+dataL10nArgs
 :
 {
 hostname
@@ -644,7 +644,7 @@ cert
 introContent
 :
 {
-id
+dataL10nId
 :
 "
 fp
@@ -653,7 +653,7 @@ certerror
 -
 intro
 "
-args
+dataL10nArgs
 :
 {
 hostname
@@ -732,7 +732,7 @@ cert
 introContent
 :
 {
-id
+dataL10nId
 :
 "
 fp
@@ -741,7 +741,7 @@ certerror
 -
 intro
 "
-args
+dataL10nArgs
 :
 {
 hostname
@@ -818,7 +818,7 @@ cert
 introContent
 :
 {
-id
+dataL10nId
 :
 "
 fp
@@ -827,7 +827,7 @@ certerror
 -
 intro
 "
-args
+dataL10nArgs
 :
 {
 hostname

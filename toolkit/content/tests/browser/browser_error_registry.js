@@ -753,7 +753,7 @@ const
 config
 =
 {
-id
+dataL10nId
 :
 "
 test
@@ -762,7 +762,7 @@ l10n
 -
 id
 "
-args
+dataL10nArgs
 :
 {
 hostname
@@ -804,7 +804,7 @@ equal
 (
 resolved
 .
-id
+dataL10nId
 "
 test
 -
@@ -820,7 +820,7 @@ equal
 (
 resolved
 .
-args
+dataL10nArgs
 .
 hostname
 "
@@ -836,7 +836,7 @@ equal
 (
 resolved
 .
-args
+dataL10nArgs
 .
 otherArg
 "
@@ -974,14 +974,14 @@ body
 introContent
 :
 {
-id
+dataL10nId
 :
 "
 test
 -
 intro
 "
-args
+dataL10nArgs
 :
 {
 hostname
@@ -992,7 +992,7 @@ null
 shortDescription
 :
 {
-id
+dataL10nId
 :
 "
 test
@@ -1001,7 +1001,7 @@ short
 -
 desc
 "
-args
+dataL10nArgs
 :
 {
 hostname
@@ -1066,7 +1066,7 @@ resolved
 .
 introContent
 .
-args
+dataL10nArgs
 .
 hostname
 "
@@ -1086,7 +1086,7 @@ resolved
 .
 shortDescription
 .
-args
+dataL10nArgs
 .
 hostname
 "
