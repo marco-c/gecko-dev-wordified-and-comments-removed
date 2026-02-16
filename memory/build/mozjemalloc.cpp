@@ -17713,6 +17713,13 @@ gPageSize
 aStats
 -
 >
+real_page_size
+=
+gRealPageSize
+;
+aStats
+-
+>
 dirty_max
 =
 opt_dirty_max

@@ -1390,7 +1390,7 @@ large_max
 -
 stats
 .
-page_size
+real_page_size
 ;
 for
 (
