@@ -1754,6 +1754,13 @@ isSearchSuggestionsFeatureEnabled
 showSearchShortcuts
 &
 &
+query
+.
+isNotBlank
+(
+)
+&
+&
 url
 !
 =
