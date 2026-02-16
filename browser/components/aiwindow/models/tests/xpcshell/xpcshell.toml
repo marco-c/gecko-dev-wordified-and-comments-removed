@@ -171,6 +171,13 @@ js
 ]
 [
 "
+test_Tools_RunSearch
+.
+js
+"
+]
+[
+"
 test_Tools_SearchBrowsingHistory
 .
 js
