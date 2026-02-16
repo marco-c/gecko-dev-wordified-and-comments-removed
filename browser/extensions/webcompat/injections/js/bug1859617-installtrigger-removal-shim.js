@@ -59,8 +59,6 @@ details
 delete
 window
 .
-wrappedJSObject
-.
 InstallTrigger
 ;
 }

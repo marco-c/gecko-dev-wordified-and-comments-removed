@@ -3,12 +3,21 @@ use
 strict
 "
 ;
+if
+(
+!
+window
+.
+InstallTrigger
+)
+{
 console
 .
 info
 (
 "
-The
+window
+.
 InstallTrigger
 has
 been
@@ -43,8 +52,6 @@ details
 ;
 window
 .
-wrappedJSObject
-.
 InstallTrigger
 =
 "
@@ -60,3 +67,4 @@ reasons
 .
 "
 ;
+}

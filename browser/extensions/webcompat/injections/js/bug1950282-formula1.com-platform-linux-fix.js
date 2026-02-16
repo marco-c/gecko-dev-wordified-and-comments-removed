@@ -3,6 +3,21 @@ use
 strict
 "
 ;
+if
+(
+!
+navigator
+.
+platform
+.
+includes
+(
+"
+Win64
+"
+)
+)
+{
 console
 .
 info
@@ -50,8 +65,6 @@ Object
 getPrototypeOf
 (
 navigator
-.
-wrappedJSObject
 )
 ;
 const
@@ -71,8 +84,6 @@ platform
 .
 get
 =
-exportFunction
-(
 (
 )
 =
@@ -80,8 +91,6 @@ exportFunction
 "
 Win64
 "
-window
-)
 ;
 Object
 .
@@ -94,3 +103,4 @@ platform
 platform
 )
 ;
+}

@@ -3,6 +3,21 @@ use
 strict
 "
 ;
+if
+(
+!
+navigator
+.
+appVersion
+.
+includes
+(
+"
+Linux
+"
+)
+)
+{
 console
 .
 info
@@ -50,8 +65,6 @@ Object
 getPrototypeOf
 (
 navigator
-.
-wrappedJSObject
 )
 ;
 const
@@ -71,8 +84,6 @@ appVersion
 .
 get
 =
-exportFunction
-(
 (
 )
 =
@@ -85,8 +96,6 @@ exportFunction
 Linux
 )
 "
-window
-)
 ;
 Object
 .
@@ -99,3 +108,4 @@ appVersion
 appVersion
 )
 ;
+}
