@@ -92,30 +92,6 @@ max
 100
 )
 }
-        
-Optional
-(
-"
-branch
--
-map
-"
-)
-:
-optionally_keyed_by
-(
-            
-"
-project
-"
-            
-{
-str
-:
-str
-}
-        
-)
     
 }
     
