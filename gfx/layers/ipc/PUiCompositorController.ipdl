@@ -158,6 +158,8 @@ aColor
 async
 RequestScreenPixels
 (
+uint64_t
+aRequestId
 IntRect
 aSourceRect
 IntSize
@@ -190,6 +192,8 @@ aUpdate
 async
 ScreenPixels
 (
+uint64_t
+aRequestId
 FileDescriptor
 ?
 aHardwareBuffer

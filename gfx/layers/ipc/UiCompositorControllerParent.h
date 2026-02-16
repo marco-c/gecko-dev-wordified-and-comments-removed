@@ -226,6 +226,8 @@ ipc
 IPCResult
 RecvRequestScreenPixels
 (
+uint64_t
+aRequestId
 gfx
 :
 :
