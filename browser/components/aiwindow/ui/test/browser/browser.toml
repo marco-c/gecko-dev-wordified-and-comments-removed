@@ -275,3 +275,10 @@ browser_smartwindow_tab_move
 js
 "
 ]
+[
+"
+browser_smartwindow_tab_switching
+.
+js
+"
+]
