@@ -41214,7 +41214,7 @@ value
 PreBarrierKind
 :
 :
-None
+Normal
 PostBarrierKind
 :
 :
