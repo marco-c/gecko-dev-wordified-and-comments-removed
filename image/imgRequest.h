@@ -497,6 +497,16 @@ get
 )
 ;
 }
+int64_t
+GetContentLength
+(
+)
+const
+{
+return
+mContentLength
+;
+}
 void
 GetFileName
 (
@@ -806,6 +816,9 @@ mTimedChannel
 ;
 nsCString
 mContentType
+;
+int64_t
+mContentLength
 ;
 RefPtr
 <

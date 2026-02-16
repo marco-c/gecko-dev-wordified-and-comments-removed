@@ -1205,6 +1205,13 @@ js
 ]
 [
 "
+browser_net_cache_svg_size
+.
+js
+"
+]
+[
+"
 browser_net_cached
 -
 status
