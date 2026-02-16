@@ -12858,6 +12858,15 @@ NSEvent
 )
 event
 {
+if
+(
+!
+mGeckoChild
+)
+{
+return
+;
+}
 WidgetContentCommandEvent
 contentCommandEvent
 (
