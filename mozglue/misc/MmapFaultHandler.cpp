@@ -126,17 +126,6 @@ si_addr
 )
 )
 {
-mas
--
->
-CrashWithInfo
-(
-info
--
->
-si_addr
-)
-;
 siglongjmp
 (
 mas

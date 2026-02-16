@@ -335,7 +335,15 @@ fd
 fd
 -
 >
-mMap
+mFileStart
+&
+&
+fd
+-
+>
+mTotalLen
+>
+0
 )
 {
 \
