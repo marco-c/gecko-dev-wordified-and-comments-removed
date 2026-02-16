@@ -196,6 +196,12 @@ ABORT
 r
 )
 ;
+[
+[
+fallthrough
+]
+]
+;
 case
 NR_STUN_MODE_STUN_NO_AUTH
 :
