@@ -454,6 +454,18 @@ aliases
 Property
 aliases
 #
+extra_gecko_aliases
+-
+Additional
+property
+aliases
+for
+Gecko
+not
+for
+Servo
+.
+#
 extra_prefixes
 -
 Vendor
@@ -10190,11 +10202,6 @@ struct
 =
 "
 list
-"
-engine
-=
-"
-gecko
 "
 initial_specified_value
 =
@@ -22945,7 +22952,7 @@ struct
 "
 border
 "
-aliases
+extra_gecko_aliases
 =
 [
 "
@@ -23039,7 +23046,7 @@ struct
 "
 border
 "
-aliases
+extra_gecko_aliases
 =
 [
 "
@@ -23609,7 +23616,7 @@ struct
 "
 border
 "
-aliases
+extra_gecko_aliases
 =
 [
 "
@@ -23710,7 +23717,7 @@ struct
 "
 border
 "
-aliases
+extra_gecko_aliases
 =
 [
 "
@@ -24315,7 +24322,7 @@ struct
 "
 border
 "
-aliases
+extra_gecko_aliases
 =
 [
 "
@@ -24418,7 +24425,7 @@ struct
 "
 border
 "
-aliases
+extra_gecko_aliases
 =
 [
 "
@@ -25809,7 +25816,7 @@ struct
 "
 margin
 "
-aliases
+extra_gecko_aliases
 =
 [
 "
@@ -25922,7 +25929,7 @@ struct
 "
 margin
 "
-aliases
+extra_gecko_aliases
 =
 [
 "
@@ -27201,7 +27208,7 @@ struct
 "
 padding
 "
-aliases
+extra_gecko_aliases
 =
 [
 "
@@ -27296,7 +27303,7 @@ struct
 "
 padding
 "
-aliases
+extra_gecko_aliases
 =
 [
 "

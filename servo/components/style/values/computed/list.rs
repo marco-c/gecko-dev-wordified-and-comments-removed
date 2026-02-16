@@ -1,14 +1,3 @@
-#
-[
-cfg
-(
-feature
-=
-"
-gecko
-"
-)
-]
 pub
 use
 crate
