@@ -109,14 +109,6 @@ glob
 /
 *
 .
-jsm
-glob
-:
-*
-*
-/
-*
-.
 json
 #
 Potential

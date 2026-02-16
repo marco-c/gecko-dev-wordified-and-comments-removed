@@ -125,7 +125,9 @@ modules
 /
 osfile
 .
-jsm
+sys
+.
+mjs
 FN
 :
 1
@@ -425,7 +427,9 @@ modules
 /
 osfile
 .
-jsm
+sys
+.
+mjs
 FN
 :
 1
@@ -2861,7 +2865,9 @@ lib
 /
 PrefsFeed
 .
-jsm
+sys
+.
+mjs
 ?
 q
 =
@@ -2882,7 +2888,9 @@ lib
 /
 PrefsFeed
 .
-jsm
+sys
+.
+mjs
 "
 None
 )

@@ -206,7 +206,9 @@ modules
 /
 RemoteWebProgress
 .
-jsm
+sys
+.
+mjs
 "
 "
 toolkit

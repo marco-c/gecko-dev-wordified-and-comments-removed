@@ -3407,7 +3407,9 @@ modules
 /
 foo
 .
-jsm
+sys
+.
+mjs
 "
 )
 )
