@@ -1227,6 +1227,7 @@ int32
 shape
 :
 [
+(
 context
 .
 opSupportLimits
@@ -1234,10 +1235,11 @@ opSupportLimits
 )
 .
 maxTensorByteLength
-/
-4
 +
 1
+)
+/
+4
 ]
 writable
 :
