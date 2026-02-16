@@ -64,6 +64,7 @@ uint8_t
 None
 Auto
 Manual
+Hint
 }
 ;
 enum
