@@ -36,6 +36,13 @@ js
 ]
 [
 "
+browser_tab_notes_enable_disable
+.
+js
+"
+]
+[
+"
 browser_tab_notes_menu
 .
 js
