@@ -1282,6 +1282,12 @@ mCumulativeChanges
 mOpacity
 ;
 }
+double
+AnimationsPlayBackRateMultiplier
+(
+)
+const
+;
 protected
 :
 ~
