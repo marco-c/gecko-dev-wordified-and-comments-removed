@@ -1992,11 +1992,6 @@ Intl_DateTimeFormat_formatToParts
 )
 ;
 }
-getDateTimeFormatInternals
-(
-dtf
-)
-;
 return
 intl_FormatDateTime
 (
@@ -2092,11 +2087,6 @@ formatRange
 )
 ;
 }
-getDateTimeFormatInternals
-(
-dtf
-)
-;
 return
 intl_FormatDateTimeRange
 (
@@ -2193,11 +2183,6 @@ formatRangeToParts
 )
 ;
 }
-getDateTimeFormatInternals
-(
-dtf
-)
-;
 return
 intl_FormatDateTimeRange
 (

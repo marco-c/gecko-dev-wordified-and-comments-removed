@@ -11953,15 +11953,6 @@ intl_availableMeasurementUnits
 )
 #
 endif
-JS_FN
-(
-"
-intl_resolveDateTimeFormatComponents
-"
-intl_resolveDateTimeFormatComponents
-3
-0
-)
 #
 endif
 JS_FN
