@@ -2231,8 +2231,6 @@ bool
 shouldUseCache
 =
 !
-options
-.
 ignoreCache
 &
 &
@@ -2357,6 +2355,9 @@ stencil
 storeIntoStartupCache
 =
 cache
+&
+&
+shouldUseCache
 ;
 JS
 :
@@ -2458,8 +2459,7 @@ endif
 bool
 storeIntoPreloadCache
 =
-!
-ignoreCache
+shouldUseCache
 &
 &
 !
