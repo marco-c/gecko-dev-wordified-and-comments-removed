@@ -1506,6 +1506,11 @@ description
 onShown
 =
 {
+settings
+.
+hasSeenBrowserToolbarCFR
+=
+true
 Toolbar
 .
 cfrShown
@@ -1520,11 +1525,6 @@ NoExtras
 onDismiss
 =
 {
-settings
-.
-hasSeenBrowserToolbarCFR
-=
-true
 settings
 .
 lastCfrShownTimeInMillis
