@@ -160,12 +160,9 @@ if
 (
 ctx
 =
-RCALLOC
-(
-sizeof
+R_NEW
 (
 nr_stun_client_ctx
-)
 )
 )
 )

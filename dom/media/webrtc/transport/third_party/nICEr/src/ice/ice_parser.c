@@ -308,6 +308,10 @@ str
 ;
 tmp
 =
+(
+char
+*
+)
 RMALLOC
 (
 len
@@ -428,12 +432,9 @@ if
 (
 cand
 =
-RCALLOC
-(
-sizeof
+R_NEW
 (
 nr_ice_candidate
-)
 )
 )
 )

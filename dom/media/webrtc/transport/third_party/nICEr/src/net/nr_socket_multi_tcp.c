@@ -203,12 +203,9 @@ if
 (
 sock
 =
-RCALLOC
-(
-sizeof
+R_NEW
 (
 nr_tcp_socket_ctx
-)
 )
 )
 )
@@ -1052,12 +1049,9 @@ if
 (
 sock
 =
-RCALLOC
-(
-sizeof
+R_NEW
 (
 nr_socket_multi_tcp
-)
 )
 )
 )
