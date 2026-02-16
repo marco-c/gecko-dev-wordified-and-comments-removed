@@ -496,7 +496,7 @@ feedback_erase2
 >
 Riwayat
 penjelajahan
-dihapus
+dibersihkan
 <
 /
 string
@@ -955,7 +955,7 @@ name
 menu_remove_from_shortcuts
 "
 >
-Hapuskan
+Hapus
 dari
 Pintasan
 <
@@ -1130,7 +1130,7 @@ menu_trackers_blocked_title
 "
 >
 Pelacak
-terblokir
+diblokir
 <
 /
 string
