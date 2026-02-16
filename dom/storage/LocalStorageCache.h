@@ -95,7 +95,6 @@ void
 )
 ;
 virtual
-const
 nsCString
 Origin
 (
@@ -419,7 +418,6 @@ nsString
 aKeys
 )
 ;
-const
 nsCString
 Origin
 (

@@ -1309,7 +1309,6 @@ CacheParentBridge
 default
 ;
 virtual
-const
 nsCString
 Origin
 (

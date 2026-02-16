@@ -3620,7 +3620,6 @@ NS_ERROR_UNEXPECTED
 ;
 }
 virtual
-const
 nsCString
 Origin
 (
@@ -4882,7 +4881,6 @@ NS_OK
 }
 ;
 }
-const
 nsCString
 StorageDBParent
 :
