@@ -753,7 +753,7 @@ smallFunctionMaxBytecodeLength
 SET_DEFAULT
 (
 inliningEntryThreshold
-90
+95
 )
 ;
 SET_DEFAULT
