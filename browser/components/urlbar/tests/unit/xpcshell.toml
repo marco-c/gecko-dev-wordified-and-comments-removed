@@ -79,6 +79,13 @@ js
 ]
 [
 "
+test_UrlbarProviderAiChat
+.
+js
+"
+]
+[
+"
 test_UrlbarProviderSearchSuggestions
 .
 js

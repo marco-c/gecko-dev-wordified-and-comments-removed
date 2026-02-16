@@ -191,6 +191,13 @@ sys
 mjs
 "
 "
+UrlbarProviderAiChat
+.
+sys
+.
+mjs
+"
+"
 UrlbarProviderAliasEngines
 .
 sys

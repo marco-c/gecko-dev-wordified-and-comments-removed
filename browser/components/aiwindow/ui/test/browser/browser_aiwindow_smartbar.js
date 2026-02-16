@@ -118,6 +118,8 @@ true
 ;
 smartbar
 .
+ownerDocument
+.
 dispatchEvent
 (
 commitEvent
