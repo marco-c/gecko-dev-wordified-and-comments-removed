@@ -309,6 +309,13 @@ html
 ]
 [
 "
+test_animations_playback_rate_multiplier
+.
+html
+"
+]
+[
+"
 test_bfcache_plus_hash
 .
 html
