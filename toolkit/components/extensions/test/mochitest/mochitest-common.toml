@@ -1559,6 +1559,13 @@ http3
 ]
 [
 "
+test_ext_executeScript_mozextension
+.
+html
+"
+]
+[
+"
 test_ext_extension_getViews
 .
 html
