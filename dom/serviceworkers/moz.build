@@ -69,11 +69,6 @@ ServiceWorkerChild
 h
 "
 "
-ServiceWorkerCloneData
-.
-h
-"
-"
 ServiceWorkerContainer
 .
 h
@@ -230,11 +225,6 @@ cpp
 "
 "
 ServiceWorkerChild
-.
-cpp
-"
-"
-ServiceWorkerCloneData
 .
 cpp
 "
