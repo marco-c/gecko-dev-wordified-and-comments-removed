@@ -381,8 +381,6 @@ data
 {
 autoClose
 :
-!
-!
 lazy
 .
 hasFirstrunCompleted
