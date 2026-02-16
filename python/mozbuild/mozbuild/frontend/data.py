@@ -3325,10 +3325,6 @@ cargo_file
 "
         
 "
-features
-"
-        
-"
 location
 "
         
@@ -3353,7 +3349,6 @@ self
 context
 name
 cargo_file
-features
 )
 :
         
@@ -3443,12 +3438,6 @@ join
 cargo_dir
 exe_file
 )
-        
-self
-.
-features
-=
-features
 class
 RustProgram
 (
@@ -3473,12 +3462,6 @@ TARGET_SUBST_VAR
 "
 RUST_TARGET
 "
-    
-FEATURES_VAR
-=
-"
-RUST_PROGRAM_FEATURES
-"
 class
 HostRustProgram
 (
@@ -3502,12 +3485,6 @@ TARGET_SUBST_VAR
 =
 "
 RUST_HOST_TARGET
-"
-    
-FEATURES_VAR
-=
-"
-HOST_RUST_PROGRAM_FEATURES
 "
 class
 RustTests
