@@ -742,6 +742,11 @@ NonSyntacticLexialEnvironmentsMap
 >
 (
 cx
+-
+>
+zone
+(
+)
 )
 ;
 if
@@ -1945,6 +1950,11 @@ ObjectMetadataTable
 >
 (
 cx
+-
+>
+zone
+(
+)
 )
 ;
 if

@@ -1440,8 +1440,6 @@ cx
 JSObject
 *
 memOf
-=
-nullptr
 )
 ;
 explicit
@@ -1453,11 +1451,6 @@ JS
 Zone
 *
 zone
-JSObject
-*
-memOf
-=
-nullptr
 )
 ;
 ~
@@ -2223,6 +2216,12 @@ override
 endif
 private
 :
+static
+void
+staticAssertions
+(
+)
+;
 Map
 &
 map
