@@ -194,7 +194,7 @@ DefaultDownloadFileUtils
 context
 =
 testContext
-downloadLocationGetter
+downloadLocation
 =
 {
 rootPath
@@ -2586,7 +2586,7 @@ DefaultDownloadFileUtils
 context
 =
 testContext
-downloadLocationGetter
+downloadLocation
 =
 {
 Environment

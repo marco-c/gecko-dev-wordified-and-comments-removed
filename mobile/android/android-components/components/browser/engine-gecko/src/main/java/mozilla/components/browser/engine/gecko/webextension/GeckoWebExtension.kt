@@ -247,16 +247,6 @@ logger
 .
 Logger
 import
-mozilla
-.
-components
-.
-support
-.
-utils
-.
-DownloadFileUtils
-import
 org
 .
 json
@@ -352,10 +342,6 @@ val
 runtime
 :
 GeckoRuntime
-val
-downloadFileUtils
-:
-DownloadFileUtils
 )
 :
 WebExtension
@@ -1616,9 +1602,6 @@ GeckoEngineSession
 runtime
 =
 runtime
-downloadFileUtils
-=
-downloadFileUtils
 defaultSettings
 =
 defaultSettings
@@ -1689,9 +1672,6 @@ GeckoEngineSession
 runtime
 =
 runtime
-downloadFileUtils
-=
-downloadFileUtils
 defaultSettings
 =
 defaultSettings
