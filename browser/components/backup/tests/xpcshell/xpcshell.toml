@@ -450,13 +450,6 @@ js
 ]
 [
 "
-test_PreferencesBackupResource_selectableProfile
-.
-js
-"
-]
-[
-"
 test_ResourceFailures
 .
 js
