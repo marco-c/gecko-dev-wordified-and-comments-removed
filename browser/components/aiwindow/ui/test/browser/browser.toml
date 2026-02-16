@@ -240,3 +240,10 @@ browser_smartwindow_init
 js
 "
 ]
+[
+"
+browser_smartwindow_tab_move
+.
+js
+"
+]
