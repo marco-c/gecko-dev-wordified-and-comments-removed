@@ -1260,6 +1260,7 @@ LoadingSessionHistoryInfo
 aLoadingInfo
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 HistoryCommitIndexAndLength
 (
