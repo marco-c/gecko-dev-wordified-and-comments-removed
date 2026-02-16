@@ -1397,6 +1397,17 @@ true
 "
 AIChatContent
 :
+DispatchFollowUp
+"
+:
+{
+wantUntrusted
+:
+true
+}
+"
+AIChatContent
+:
 Ready
 "
 :
