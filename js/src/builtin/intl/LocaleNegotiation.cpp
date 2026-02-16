@@ -6209,7 +6209,7 @@ canParseLocale
 {
 candidate
 =
-NewStringCopyZ
+NewStringCopy
 <
 CanGC
 >
@@ -6505,7 +6505,7 @@ supportedCollator
 ;
 }
 return
-NewStringCopyZ
+NewStringCopy
 <
 CanGC
 >

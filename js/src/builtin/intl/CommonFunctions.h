@@ -20,6 +20,11 @@ h
 >
 #
 include
+<
+string_view
+>
+#
+include
 "
 js
 /
@@ -165,10 +170,11 @@ error
 )
 ;
 static
-inline
-const
-char
-*
+constexpr
+std
+:
+:
+string_view
 LastDitchLocale
 (
 )
