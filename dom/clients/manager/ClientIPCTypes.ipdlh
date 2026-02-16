@@ -510,7 +510,7 @@ serviceWorker
 struct
 ClientPostMessageArgs
 {
-ClonedMessageData
+StructuredCloneData
 clonedData
 ;
 /

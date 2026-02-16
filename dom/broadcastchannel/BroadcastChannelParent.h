@@ -88,9 +88,11 @@ ipc
 IPCResult
 RecvPostMessage
 (
-const
-MessageData
-&
+NotNull
+<
+SharedMessageBody
+*
+>
 aData
 )
 override

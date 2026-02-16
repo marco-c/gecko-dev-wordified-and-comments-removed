@@ -130,9 +130,11 @@ BroadcastChannelParent
 :
 RecvPostMessage
 (
-const
-MessageData
-&
+NotNull
+<
+SharedMessageBody
+*
+>
 aData
 )
 {

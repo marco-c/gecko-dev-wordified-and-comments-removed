@@ -962,7 +962,11 @@ MessagePort
 h
 "
 ;
+[
+RefCounted
+]
 using
+class
 mozilla
 :
 :
@@ -1511,7 +1515,7 @@ AsyncMessage
 (
 nsString
 aMessage
-ClonedMessageData
+StructuredCloneData
 aData
 )
 ;
@@ -1582,15 +1586,12 @@ SyncMessage
 (
 nsString
 aMessage
-ClonedMessageData
+StructuredCloneData
 aData
 )
 returns
 (
-UniquePtr
-<
 StructuredCloneData
->
 [
 ]
 retval

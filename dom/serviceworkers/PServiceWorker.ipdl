@@ -96,7 +96,8 @@ Teardown
 async
 PostMessage
 (
-ClonedOrErrorMessageData
+nullable
+StructuredCloneData
 aClonedData
 PostMessageSource
 aSource
