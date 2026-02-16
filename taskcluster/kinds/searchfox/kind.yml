@@ -224,6 +224,12 @@ type
 b
 -
 linux
+-
+docker
+-
+large
+-
+amd
 worker
 :
 env
