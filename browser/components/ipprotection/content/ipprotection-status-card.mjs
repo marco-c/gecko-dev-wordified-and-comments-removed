@@ -598,14 +598,14 @@ slot
 "
 bandwidth
 "
-value
+remaining
 =
 {
 this
 .
 bandwidthUsage
 .
-currentBandwidthUsage
+remaining
 }
 max
 =
@@ -614,7 +614,7 @@ this
 .
 bandwidthUsage
 .
-maxBandwidth
+max
 }
 numeric
 >

@@ -1324,10 +1324,10 @@ lazy
 BANDWIDTH_USAGE_ENABLED
 ?
 {
-currentBandwidthUsage
+remaining
 :
-0
-maxBandwidth
+50
+max
 :
 50
 }
