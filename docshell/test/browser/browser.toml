@@ -359,11 +359,6 @@ head
 js
 "
 "
-file_data_load_inherit_csp
-.
-html
-"
-"
 file_click_link_within_view_source
 .
 html
@@ -1833,13 +1828,6 @@ js
 https_first_disabled
 =
 true
-[
-"
-browser_data_load_inherit_csp
-.
-js
-"
-]
 [
 "
 browser_fall_back_to_https
