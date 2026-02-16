@@ -1690,6 +1690,10 @@ nr_ice_stun_ctx
 *
 sc
 =
+(
+nr_ice_stun_ctx
+*
+)
 handle
 ;
 if

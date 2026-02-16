@@ -317,6 +317,10 @@ return
 ;
 sturn
 =
+(
+nr_socket_turn
+*
+)
 *
 objp
 ;
@@ -380,6 +384,10 @@ nr_socket_turn
 *
 sturn
 =
+(
+nr_socket_turn
+*
+)
 obj
 ;
 assert
@@ -412,6 +420,11 @@ sturn
 -
 >
 turn
+(
+const
+UCHAR
+*
+)
 msg
 len
 flags
@@ -509,6 +522,10 @@ nr_socket_turn
 *
 sturn
 =
+(
+nr_socket_turn
+*
+)
 obj
 ;
 int
@@ -582,6 +599,10 @@ nr_socket_turn
 *
 sturn
 =
+(
+nr_socket_turn
+*
+)
 obj
 ;
 assert

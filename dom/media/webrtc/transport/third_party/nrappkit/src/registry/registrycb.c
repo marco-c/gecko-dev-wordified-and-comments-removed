@@ -491,6 +491,7 @@ name
 (
 void
 *
+*
 )
 &
 assoc
@@ -575,6 +576,10 @@ r
 =
 compute_cb_id
 (
+(
+void
+*
+)
 cb
 action
 cb_id
@@ -602,6 +607,7 @@ cb_id
 SIZEOF_CB_ID
 (
 void
+*
 *
 )
 &
@@ -1106,6 +1112,7 @@ tmp
 (
 void
 *
+*
 )
 &
 assoc
@@ -1229,6 +1236,7 @@ iter
 (
 void
 *
+*
 )
 &
 key
@@ -1236,6 +1244,7 @@ key
 keyl
 (
 void
+*
 *
 )
 &
