@@ -669,6 +669,15 @@ ImportDecl
 BinaryNode
 )
 \
+IF_SOURCE_PHASE_IMPORTS
+(
+F
+(
+ImportSourceDecl
+BinaryNode
+)
+)
+\
 F
 (
 ImportSpecList
