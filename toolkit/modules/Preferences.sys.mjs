@@ -1718,14 +1718,14 @@ Array
 the
 pref
 to
-lock
+unlock
 or
 an
 array
 of
 prefs
 to
-lock
+unlock
 *
 /
 Preferences
