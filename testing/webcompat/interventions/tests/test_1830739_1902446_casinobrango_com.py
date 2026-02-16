@@ -62,6 +62,16 @@ URL
     
 client
 .
+hide_elements
+(
+"
+#
+RowCookiesBox
+"
+)
+    
+client
+.
 switch_to_frame
 (
 client

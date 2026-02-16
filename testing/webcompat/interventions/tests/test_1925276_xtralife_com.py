@@ -1,5 +1,11 @@
 import
 pytest
+from
+webdriver
+.
+error
+import
+StaleElementReferenceException
 URL
 =
 "
@@ -86,6 +92,18 @@ is_displayed
 True
 )
     
+for
+_
+in
+range
+(
+4
+)
+:
+        
+try
+:
+            
 client
 .
 await_css
@@ -102,6 +120,14 @@ send_keys
 test
 "
 )
+            
+break
+        
+except
+StaleElementReferenceException
+:
+            
+pass
     
 results
 =

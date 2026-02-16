@@ -23,12 +23,9 @@ IFRAME_CSS
 iframe
 [
 src
+*
 =
 '
-https
-:
-/
-/
 booking
 -
 v3
@@ -36,7 +33,6 @@ v3
 hiskin
 .
 care
-/
 '
 ]
 "

@@ -11,8 +11,6 @@ import
     
 ElementClickInterceptedException
     
-NoSuchElementException
-    
 WebDriverException
 )
 URL
@@ -117,43 +115,19 @@ none
 "
 )
     
-try
-:
-        
 client
 .
-await_css
+hide_elements
 (
-COOKIES_CSS
-is_displayed
-=
-True
-timeout
-=
-5
+"
+#
+usercentrics
+-
+cmp
+-
+ui
+"
 )
-.
-click
-(
-)
-        
-client
-.
-await_element_hidden
-(
-client
-.
-css
-(
-COOKIES_OVERLAY_CSS
-)
-)
-    
-except
-NoSuchElementException
-:
-        
-pass
     
 for
 _

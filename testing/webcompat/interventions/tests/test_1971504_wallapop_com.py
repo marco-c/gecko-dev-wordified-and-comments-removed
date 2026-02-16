@@ -7,7 +7,12 @@ webdriver
 .
 error
 import
+(
+    
+ElementClickInterceptedException
+    
 StaleElementReferenceException
+)
 URL
 =
 "
@@ -76,6 +81,10 @@ onetrust
 consent
 -
 sdk
+#
+cmpwrapper
+#
+credential_picker_iframe
 "
 )
     
@@ -140,6 +149,20 @@ click
 )
             
 break
+        
+except
+ElementClickInterceptedException
+:
+            
+await
+client
+.
+stall
+(
+0
+.
+5
+)
         
 except
 StaleElementReferenceException

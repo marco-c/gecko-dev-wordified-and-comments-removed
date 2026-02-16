@@ -62,13 +62,25 @@ client
 )
 :
     
+try
+:
+        
 await
 client
 .
 navigate
 (
 URL
+no_skip
+=
+True
 )
+    
+except
+Exception
+:
+        
+pass
     
 assert
 client
@@ -114,13 +126,25 @@ client
 )
 :
     
+try
+:
+        
 await
 client
 .
 navigate
 (
 URL
+no_skip
+=
+True
 )
+    
+except
+Exception
+:
+        
+pass
     
 assert
 client
