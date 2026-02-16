@@ -53,8 +53,6 @@ Set
 Symbol
 FunctionPrototype
 IteratorPrototype
-DateTimeFormatPrototype
-NumberFormatPrototype
 None
 }
 ;
