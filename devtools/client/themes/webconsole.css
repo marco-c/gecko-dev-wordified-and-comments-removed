@@ -4555,8 +4555,16 @@ input
 -
 container
 >
+:
+is
+(
 .
 CodeMirror
+.
+cm
+-
+editor
+)
 {
 /
 *
@@ -4725,6 +4733,10 @@ dimmed
 -
 color
 )
+;
+outline
+:
+none
 ;
 }
 /

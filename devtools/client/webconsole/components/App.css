@@ -3977,8 +3977,16 @@ input
 -
 container
 >
+:
+is
+(
 .
 CodeMirror
+.
+cm
+-
+editor
+)
 {
 flex
 :
