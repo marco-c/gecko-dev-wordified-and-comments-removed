@@ -124,7 +124,7 @@ crate
 segment
 :
 :
-EdgeAaSegmentMask
+EdgeMask
 ;
 use
 crate
@@ -2819,7 +2819,7 @@ GpuBufferAddress
 pub
 edge_aa_mask
 :
-EdgeAaSegmentMask
+EdgeMask
 }
 impl
 PrimTemplateCommonData
@@ -2871,7 +2871,7 @@ translucent
 )
 edge_aa_mask
 :
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 all
@@ -3732,7 +3732,7 @@ bool
 pub
 edge_flags
 :
-EdgeAaSegmentMask
+EdgeMask
 pub
 extra_data
 :
@@ -3761,7 +3761,7 @@ may_need_clip_mask
 bool
 edge_flags
 :
-EdgeAaSegmentMask
+EdgeMask
 extra_data
 :
 [

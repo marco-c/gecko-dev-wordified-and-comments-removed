@@ -170,7 +170,7 @@ crate
 segment
 :
 :
-EdgeAaSegmentMask
+EdgeMask
 ;
 use
 crate
@@ -682,7 +682,7 @@ GpuTransformId
 IDENTITY
 edge_flags
 :
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 empty

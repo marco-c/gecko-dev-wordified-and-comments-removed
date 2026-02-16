@@ -148,7 +148,7 @@ crate
 segment
 :
 :
-EdgeAaSegmentMask
+EdgeMask
 ;
 use
 crate
@@ -2860,7 +2860,7 @@ LayoutSize
 pub
 edge_flags
 :
-EdgeAaSegmentMask
+EdgeMask
 }
 impl
 Eq

@@ -393,7 +393,7 @@ crate
 segment
 :
 :
-EdgeAaSegmentMask
+EdgeMask
 ;
 const
 OPAQUE_TASK_ADDRESS
@@ -3623,7 +3623,7 @@ segment_index
 i32
 edge_flags
 :
-EdgeAaSegmentMask
+EdgeMask
 clip_task_address
 :
 RenderTaskAddress
@@ -5374,7 +5374,7 @@ batch_features
 bounding_rect
 z_id
 INVALID_SEGMENT_INDEX
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 all
@@ -6300,7 +6300,7 @@ segment_index
 INVALID_SEGMENT_INDEX
 edge_flags
 :
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 all
@@ -6699,7 +6699,7 @@ batch_params
 blend_mode
 batch_features
 brush_flags
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 all
@@ -6847,7 +6847,7 @@ batch_features
 bounding_rect
 z_id
 INVALID_SEGMENT_INDEX
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 all
@@ -11428,7 +11428,7 @@ batch_features
 bounding_rect
 z_id
 INVALID_SEGMENT_INDEX
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 all
@@ -11613,7 +11613,7 @@ CLIP_MASK
 bounding_rect
 z_id
 INVALID_SEGMENT_INDEX
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 empty
@@ -11665,7 +11665,7 @@ brush_flags
 BrushFlags
 edge_aa_mask
 :
-EdgeAaSegmentMask
+EdgeMask
 bounding_rect
 :
 &
@@ -11881,7 +11881,7 @@ brush_flags
 BrushFlags
 edge_aa_mask
 :
-EdgeAaSegmentMask
+EdgeMask
 prim_header_index
 :
 PrimitiveHeaderIndex

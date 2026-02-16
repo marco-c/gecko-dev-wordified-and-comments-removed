@@ -85,7 +85,7 @@ crate
 segment
 :
 :
-EdgeAaSegmentMask
+EdgeMask
 ;
 use
 crate
@@ -5193,7 +5193,7 @@ quad_address
 task
 .
 quad_flags
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 all
@@ -5416,7 +5416,7 @@ quad_address
 task
 .
 quad_flags
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 empty

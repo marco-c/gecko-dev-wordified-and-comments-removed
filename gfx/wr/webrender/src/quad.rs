@@ -246,7 +246,7 @@ crate
 segment
 :
 :
-EdgeAaSegmentMask
+EdgeMask
 ;
 use
 crate
@@ -1331,7 +1331,7 @@ aa_flags
 if
 prim_is_2d_axis_aligned
 {
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 empty
@@ -1340,7 +1340,7 @@ empty
 }
 else
 {
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 all
@@ -1990,7 +1990,7 @@ quad_flags
 QuadFlags
 aa_flags
 :
-EdgeAaSegmentMask
+EdgeMask
 clips_range
 :
 ClipNodeRange
@@ -2756,7 +2756,7 @@ quad_flags
 QuadFlags
 aa_flags
 :
-EdgeAaSegmentMask
+EdgeMask
 clip_chain
 :
 &
@@ -4585,7 +4585,7 @@ transform_id
 GpuTransformId
 aa_flags
 :
-EdgeAaSegmentMask
+EdgeMask
 quad_flags
 :
 QuadFlags
@@ -4931,7 +4931,7 @@ GpuTransformId
 :
 IDENTITY
 quad_flags
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 empty
@@ -5060,7 +5060,7 @@ GpuTransformId
 :
 IDENTITY
 quad_flags
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 empty
@@ -6496,7 +6496,7 @@ quad_flags
 QuadFlags
 edge_flags
 :
-EdgeAaSegmentMask
+EdgeMask
 segment_index
 :
 u8
@@ -6815,7 +6815,7 @@ edge_flags
 .
 contains
 (
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 LEFT
@@ -6855,7 +6855,7 @@ edge_flags
 .
 contains
 (
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 RIGHT
@@ -6895,7 +6895,7 @@ edge_flags
 .
 contains
 (
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 TOP
@@ -6935,7 +6935,7 @@ edge_flags
 .
 contains
 (
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 BOTTOM
