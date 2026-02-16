@@ -5332,6 +5332,8 @@ IntSize
 100
 100
 )
+TEST_CASE_IS_ANIMATED
+2
 )
 ;
 }
