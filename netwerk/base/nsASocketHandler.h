@@ -164,6 +164,16 @@ ByteCountReceived
 =
 0
 ;
+virtual
+bool
+IsTRRConnection
+(
+)
+{
+return
+false
+;
+}
 }
 ;
 #
