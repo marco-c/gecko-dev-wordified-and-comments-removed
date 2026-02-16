@@ -112,7 +112,6 @@ configurations
 import
 {
 getErrorConfig
-isErrorSupported
 }
 from
 "
@@ -287,7 +286,7 @@ gErrorCode
 ;
 if
 (
-isErrorSupported
+isFeltPrivacySupported
 (
 defaultErrorCode
 )
@@ -302,7 +301,7 @@ if
 isOffline
 &
 &
-isErrorSupported
+isFeltPrivacySupported
 (
 "
 NS_ERROR_OFFLINE
@@ -329,7 +328,7 @@ if
 customCode
 &
 &
-isErrorSupported
+isFeltPrivacySupported
 (
 customCode
 )
