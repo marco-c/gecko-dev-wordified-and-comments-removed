@@ -1232,6 +1232,12 @@ firstPage
 url
 )
 {
+verifyPageContent
+(
+firstPage
+.
+content
+)
 }
 .
 openSiteSecuritySheet
