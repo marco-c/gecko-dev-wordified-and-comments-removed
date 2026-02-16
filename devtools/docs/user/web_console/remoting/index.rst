@@ -119,7 +119,7 @@ org
 /
 Remote_Debugging_Protocol
 >
-_
+__
 .
 This
 architecture
@@ -174,7 +174,7 @@ org
 /
 Debugger_Architecture
 >
-_
+__
 .
 The
 WebConsoleActor
@@ -275,7 +275,7 @@ actors
 .
 js
 >
-_
+__
 in
 the
 toolkit
@@ -307,7 +307,7 @@ devtools
 webconsole
 /
 >
-_
+__
 folder
 .
 The
@@ -345,7 +345,7 @@ WebConsoleClient
 jsm
 /
 >
-_
+__
 (
 in
 toolkit
@@ -377,7 +377,7 @@ devtools
 webconsole
 /
 >
-_
+__
 )
 and
 it
@@ -446,7 +446,7 @@ webconsole
 js
 /
 >
-_
+__
 and
 search
 for
@@ -1596,7 +1596,7 @@ API
 /
 console
 >
-_
+__
 calls
 send
 internal
@@ -1673,7 +1673,7 @@ actors
 .
 js
 >
-_
+__
 without
 a
 ThreadActor
@@ -1715,7 +1715,7 @@ Remote_Debugging_Protocol
 #
 Grip_Lifetimes
 >
-_
+__
 in
 the
 Web
@@ -1797,7 +1797,7 @@ ConsoleAPI
 .
 js
 >
-_
+__
 .
 For
 each
@@ -2128,7 +2128,7 @@ ConsoleAPI
 .
 js
 >
-_
+__
 .
 JavaScript
 evaluation
@@ -2811,7 +2811,7 @@ id
 =
 717611
 >
-_
+__
 .
 An
 alternate
@@ -3049,7 +3049,7 @@ API
 /
 XMLHttpRequest
 >
-_
+__
 instance
 that
 is
@@ -3859,7 +3859,7 @@ Remote_Debugging_Protocol
 #
 Objects
 >
-_
+__
 when
 the
 value
@@ -4323,7 +4323,7 @@ id
 =
 787981
 >
-_
+__
 -
 added
 LongStringActor
@@ -4356,7 +4356,7 @@ id
 =
 792062
 >
-_
+__
 -
 removed
 locationChanged
@@ -4394,7 +4394,7 @@ id
 =
 783499
 >
-_
+__
 -
 removed
 the
@@ -4461,7 +4461,7 @@ id
 =
 874061
 >
-_
+__
 .
 Also
 added
@@ -4505,7 +4505,7 @@ id
 =
 859046
 >
-_
+__
 .
 -
 Firefox
@@ -4540,7 +4540,7 @@ id
 =
 877773
 >
-_
+__
 .
 The
 lineText
@@ -4617,7 +4617,7 @@ id
 =
 768096
 >
-_
+__
 and
 subsequent
 changes
