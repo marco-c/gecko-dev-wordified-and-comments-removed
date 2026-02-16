@@ -60,6 +60,7 @@ nr_socket_turn
 h
 "
 static
+const
 char
 *
 nr_socket_turn_magic_cookie
@@ -72,6 +73,7 @@ typedef
 struct
 nr_socket_turn_
 {
+const
 char
 *
 magic_cookie

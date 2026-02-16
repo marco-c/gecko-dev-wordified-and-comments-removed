@@ -55,6 +55,7 @@ stun
 h
 "
 static
+const
 char
 *
 nr_ice_cand_pair_states

@@ -56,6 +56,7 @@ nr_stun_message
 req
 )
 ;
+const
 char
 *
 nr_stun_msg_type
