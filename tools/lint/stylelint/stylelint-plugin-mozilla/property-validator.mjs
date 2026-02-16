@@ -295,6 +295,10 @@ propType
 propType
 .
 allow
+?
+?
+[
+]
 )
 .
 concat
