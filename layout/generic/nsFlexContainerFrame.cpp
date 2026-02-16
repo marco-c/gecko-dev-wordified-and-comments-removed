@@ -11155,7 +11155,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-scrolledContent
+MozScrolledContent
 "
 The
 only
@@ -19660,7 +19660,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-scrolledContent
+MozScrolledContent
 ;
 bool
 anyScrolledContentItem

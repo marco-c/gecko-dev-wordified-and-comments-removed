@@ -74,6 +74,13 @@ h
 #
 include
 "
+PseudoStyleType
+.
+h
+"
+#
+include
+"
 RegionBuilder
 .
 h
@@ -1002,13 +1009,6 @@ h
 #
 include
 "
-nsCSSAnonBoxes
-.
-h
-"
-#
-include
-"
 nsCSSColorUtils
 .
 h
@@ -1024,13 +1024,6 @@ h
 include
 "
 nsCSSProps
-.
-h
-"
-#
-include
-"
-nsCSSPseudoElements
 .
 h
 "
@@ -18004,7 +17997,7 @@ pseudoType
 PseudoStyleType
 :
 :
-tableWrapper
+MozTableWrapper
 )
 {
 for
@@ -18050,7 +18043,7 @@ pseudoType
 PseudoStyleType
 :
 :
-mozBlockInsideInlineWrapper
+MozBlockInsideInlineWrapper
 |
 |
 pseudoType
@@ -18059,7 +18052,7 @@ pseudoType
 PseudoStyleType
 :
 :
-mozMathMLAnonymousBlock
+MozMathmlAnonymousBlock
 )
 {
 for
@@ -18187,7 +18180,7 @@ pseudoType
 PseudoStyleType
 :
 :
-tableWrapper
+MozTableWrapper
 |
 |
 pseudoType
@@ -18196,7 +18189,7 @@ pseudoType
 PseudoStyleType
 :
 :
-mozBlockInsideInlineWrapper
+MozBlockInsideInlineWrapper
 |
 |
 pseudoType
@@ -18205,7 +18198,7 @@ pseudoType
 PseudoStyleType
 :
 :
-mozMathMLAnonymousBlock
+MozMathmlAnonymousBlock
 )
 {
 for

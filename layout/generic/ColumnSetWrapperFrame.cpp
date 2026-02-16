@@ -1514,7 +1514,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-columnSpanWrapper
+MozColumnSpanWrapper
 "
 aFrame
 should
