@@ -319,13 +319,6 @@ nsXULAppAPI
 .
 h
 "
-#
-include
-<
-stdlib
-.
-h
->
 namespace
 mozilla
 {
@@ -3091,6 +3084,12 @@ Write
 cx
 value
 rv
+)
+;
+rv
+.
+WouldReportJSException
+(
 )
 ;
 if
