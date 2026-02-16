@@ -583,7 +583,11 @@ FormattedRelativeTimeToParts
 JSContext
 *
 cx
-HandleString
+Handle
+<
+JSString
+*
+>
 str
 const
 mozilla
@@ -597,7 +601,13 @@ NumberPartVector
 parts
 RelativeTimeFormatUnit
 relativeTimeUnit
-MutableHandleValue
+MutableHandle
+<
+JS
+:
+:
+Value
+>
 result
 )
 ;
