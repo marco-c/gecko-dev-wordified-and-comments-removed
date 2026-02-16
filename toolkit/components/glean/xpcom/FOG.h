@@ -65,6 +65,16 @@ InitMemoryReporter
 (
 )
 ;
+static
+void
+SetApplicationID
+(
+const
+nsACString
+&
+aAppId
+)
+;
 private
 :
 ~
