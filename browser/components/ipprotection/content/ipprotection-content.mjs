@@ -1742,6 +1742,16 @@ hasExclusion
 {
 hasExclusion
 }
+.
+isActivating
+=
+{
+this
+.
+state
+.
+isActivating
+}
 >
 <
 /
