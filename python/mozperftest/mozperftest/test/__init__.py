@@ -35,7 +35,8 @@ test
 .
 mochitest
 import
-Mochitest
+EvalMochitest
+PerfMochitest
 from
 mozperftest
 .
@@ -77,7 +78,7 @@ XPCShell
         
 WebPageTest
         
-Mochitest
+PerfMochitest
         
 ShellScriptRunner
         
@@ -189,7 +190,28 @@ Layers
 env
 mach_cmd
 (
-Mochitest
+PerfMochitest
+)
+)
+    
+if
+flavor
+=
+=
+"
+eval
+-
+mochitest
+"
+:
+        
+return
+Layers
+(
+env
+mach_cmd
+(
+EvalMochitest
 )
 )
     
