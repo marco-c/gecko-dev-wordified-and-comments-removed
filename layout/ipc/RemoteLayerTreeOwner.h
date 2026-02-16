@@ -156,8 +156,11 @@ Destroy
 void
 EnsureLayersConnected
 (
+Maybe
+<
 CompositorOptions
-*
+>
+&
 aCompositorOptions
 )
 ;

@@ -2008,8 +2008,9 @@ renderer
 )
 )
 ;
-aRenderThread
-.
+renderThread
+-
+>
 BeginShaderWarmupIfNeeded
 (
 )
