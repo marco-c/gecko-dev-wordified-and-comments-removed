@@ -5494,6 +5494,7 @@ aError
 ErrorEventInit
 &
 aErrorEventInitDict
+const
 NavigateEvent
 *
 aEvent
@@ -8566,6 +8567,7 @@ AbortNavigateEvent
 JSContext
 *
 aCx
+const
 NavigateEvent
 *
 aEvent
@@ -8582,6 +8584,10 @@ Value
 aReason
 )
 {
+mOngoingNavigateEvent
+=
+nullptr
+;
 aEvent
 -
 >
@@ -8612,10 +8618,6 @@ aReason
 init
 aEvent
 )
-;
-mOngoingNavigateEvent
-=
-nullptr
 ;
 if
 (

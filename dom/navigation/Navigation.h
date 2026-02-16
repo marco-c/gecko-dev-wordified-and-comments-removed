@@ -802,6 +802,7 @@ AbortNavigateEvent
 JSContext
 *
 aCx
+const
 NavigateEvent
 *
 aEvent
