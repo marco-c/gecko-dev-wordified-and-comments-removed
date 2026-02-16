@@ -112,14 +112,6 @@ aMimeType
 )
 ;
 static
-DecoderFlags
-GetDefaultDecoderFlagsForType
-(
-DecoderType
-aType
-)
-;
-static
 nsresult
 CreateDecoder
 (
