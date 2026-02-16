@@ -516,7 +516,7 @@ AutoCrossSize
 )
 ;
 void
-ReflowAnonymousContent
+ReflowChildFrames
 (
 nsPresContext
 *
