@@ -766,10 +766,6 @@ of
 this
 memo
 .
-.
-.
-_Limitations
-:
 Limitations
 -
 -
@@ -1029,10 +1025,6 @@ NT
 implementation
 .
 *
-.
-.
-_Conclusions
-:
 Conclusions
 -
 -
