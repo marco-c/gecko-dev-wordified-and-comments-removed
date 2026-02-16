@@ -300,7 +300,7 @@ PREF_GENERATE_MEMORIES
 "
 browser
 .
-aiwindow
+smartwindow
 .
 memories
 "

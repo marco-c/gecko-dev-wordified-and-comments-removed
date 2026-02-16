@@ -3501,7 +3501,7 @@ schedulers
 -
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 pref

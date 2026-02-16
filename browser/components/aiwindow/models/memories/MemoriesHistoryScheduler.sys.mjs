@@ -254,7 +254,7 @@ maxLogLevelPref
 "
 browser
 .
-aiwindow
+smartwindow
 .
 memoriesLogLevel
 "
@@ -348,7 +348,7 @@ getIntPref
 "
 browser
 .
-aiwindow
+smartwindow
 .
 memoriesSchedulerCooldownInMs
 "

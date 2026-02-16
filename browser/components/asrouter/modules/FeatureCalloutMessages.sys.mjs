@@ -6385,7 +6385,7 @@ isAIWindow
 '
 browser
 .
-aiwindow
+smartwindow
 .
 firstrun
 .

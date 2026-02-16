@@ -1402,7 +1402,7 @@ enablePreference
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "

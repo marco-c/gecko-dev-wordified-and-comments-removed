@@ -1862,14 +1862,14 @@ didSeeFinalScreen
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
 "
 browser
 .
-aiwindow
+smartwindow
 .
 firstrun
 .
@@ -1878,7 +1878,7 @@ hasCompleted
 "
 browser
 .
-aiwindow
+smartwindow
 .
 firstrun
 .

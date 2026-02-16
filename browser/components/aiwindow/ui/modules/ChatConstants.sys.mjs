@@ -148,7 +148,7 @@ PREF_BRANCH
 "
 browser
 .
-aiWindow
+smartwindow
 .
 chatHistory
 "

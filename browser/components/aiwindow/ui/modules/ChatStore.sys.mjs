@@ -116,7 +116,7 @@ maxLogLevelPref
 "
 browser
 .
-aiwindow
+smartwindow
 .
 chatStore
 .

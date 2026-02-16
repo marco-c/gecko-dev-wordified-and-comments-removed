@@ -327,7 +327,7 @@ maxLogLevelPref
 "
 browser
 .
-aiwindow
+smartwindow
 .
 chatHistory
 .

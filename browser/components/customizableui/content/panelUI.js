@@ -471,7 +471,7 @@ isAIWindowEnabled
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "

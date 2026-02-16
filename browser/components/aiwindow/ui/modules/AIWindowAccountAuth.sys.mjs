@@ -187,7 +187,7 @@ getBoolPref
 "
 browser
 .
-aiwindow
+smartwindow
 .
 log
 "
@@ -218,7 +218,7 @@ hasAIWindowToSConsent
 "
 browser
 .
-aiwindow
+smartwindow
 .
 tos
 .
@@ -238,7 +238,7 @@ hasFirstrunCompleted
 "
 browser
 .
-aiwindow
+smartwindow
 .
 firstrun
 .
@@ -278,7 +278,7 @@ setBoolPref
 "
 browser
 .
-aiwindow
+smartwindow
 .
 tos
 .

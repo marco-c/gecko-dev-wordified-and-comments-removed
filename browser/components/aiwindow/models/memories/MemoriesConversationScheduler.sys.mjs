@@ -185,7 +185,7 @@ maxLogLevelPref
 "
 browser
 .
-aiwindow
+smartwindow
 .
 memoriesLogLevel
 "

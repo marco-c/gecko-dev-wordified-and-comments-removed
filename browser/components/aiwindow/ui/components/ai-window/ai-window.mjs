@@ -424,7 +424,7 @@ maxLogLevelPref
 "
 browser
 .
-aiwindow
+smartwindow
 .
 chatStore
 .
@@ -456,7 +456,7 @@ PREF_MEMORIES
 "
 browser
 .
-aiwindow
+smartwindow
 .
 memories
 "

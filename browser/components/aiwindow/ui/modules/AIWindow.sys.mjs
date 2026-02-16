@@ -377,7 +377,7 @@ hasFirstrunCompleted
 "
 browser
 .
-aiwindow
+smartwindow
 .
 firstrun
 .
@@ -2343,7 +2343,7 @@ setBoolPref
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -2659,7 +2659,7 @@ AIWindowEnabled
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "

@@ -350,7 +350,7 @@ id
 "
 browser
 .
-aiwindow
+smartwindow
 .
 preferences
 .
@@ -368,7 +368,7 @@ id
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -384,7 +384,7 @@ id
 "
 browser
 .
-aiwindow
+smartwindow
 .
 memories
 "
@@ -2930,7 +2930,7 @@ pref
 "
 browser
 .
-aiwindow
+smartwindow
 .
 preferences
 .
@@ -2954,7 +2954,7 @@ pref
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -3166,7 +3166,7 @@ pref
 "
 browser
 .
-aiwindow
+smartwindow
 .
 memories
 "
@@ -3636,7 +3636,7 @@ addObserver
 "
 browser
 .
-aiwindow
+smartwindow
 .
 memories
 "
@@ -3678,7 +3678,7 @@ removeObserver
 "
 browser
 .
-aiwindow
+smartwindow
 .
 memories
 "
@@ -3732,7 +3732,7 @@ getBoolPref
 "
 browser
 .
-aiwindow
+smartwindow
 .
 memories
 "

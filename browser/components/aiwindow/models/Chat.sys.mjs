@@ -194,7 +194,7 @@ modelId
 "
 browser
 .
-aiwindow
+smartwindow
 .
 model
 "
