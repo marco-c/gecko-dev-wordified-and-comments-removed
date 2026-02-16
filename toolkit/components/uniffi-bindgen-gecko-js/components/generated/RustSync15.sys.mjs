@@ -172,6 +172,10 @@ export
 const
 DeviceType
 =
+Object
+.
+freeze
+(
 {
 /
 *
@@ -234,12 +238,6 @@ UNKNOWN
 :
 5
 }
-;
-Object
-.
-freeze
-(
-DeviceType
 )
 ;
 /
