@@ -162,6 +162,13 @@ js
 ]
 [
 "
+test_profileDataUpgrade_smartwindow
+.
+js
+"
+]
+[
+"
 test_startupTelemetry_launchMethod
 .
 js
