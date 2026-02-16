@@ -1733,6 +1733,16 @@ scope
 )
 ;
 }
+uint32_t
+version
+(
+)
+const
+{
+return
+version_
+;
+}
 void
 adopt
 (
