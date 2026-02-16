@@ -754,7 +754,7 @@ ifr
 ifr_data
 =
 (
-void
+char
 *
 )
 &

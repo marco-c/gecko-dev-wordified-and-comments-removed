@@ -431,7 +431,8 @@ nr_reg_fetch_node
 name
 NR_REG_TYPE_REGISTRY
 (
-void
+nr_registry_node
+*
 *
 )
 &
