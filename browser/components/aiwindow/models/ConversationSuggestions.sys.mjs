@@ -1536,7 +1536,7 @@ engineInstance
 run
 (
 {
-messages
+args
 :
 [
 {
@@ -1570,6 +1570,14 @@ content
 filled
 }
 ]
+fxAccountToken
+:
+await
+openAIEngine
+.
+getFxAccountToken
+(
+)
 .
 .
 .
