@@ -4462,7 +4462,7 @@ aClearDictionary
 DictionaryCache
 :
 :
-RemoveDictionaryOMT
+RemoveDictionaryFor
 (
 aKey
 )

@@ -8354,7 +8354,7 @@ else
 DictionaryCache
 :
 :
-RemoveDictionaryOMT
+RemoveDictionaryFor
 (
 mURI
 )
