@@ -49,13 +49,6 @@ Variant
 .
 h
 "
-#
-include
-"
-sqlite3_static_ext
-.
-h
-"
 namespace
 mozilla
 :
