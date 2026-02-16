@@ -2959,11 +2959,6 @@ UpdateWakeLock
 )
 ;
 void
-UpdatePlaybackPseudoClasses
-(
-)
-;
-void
 CreateAudioWakeLockIfNeeded
 (
 )
@@ -4577,11 +4572,6 @@ false
 ;
 bool
 mForcedHidden
-=
-false
-;
-bool
-mIsCurrentlyStalled
 =
 false
 ;
