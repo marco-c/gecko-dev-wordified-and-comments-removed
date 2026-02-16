@@ -700,11 +700,6 @@ TrustPanelState
 scope
 .
 launch
-(
-Dispatchers
-.
-Main
-)
 {
 currentState
 .

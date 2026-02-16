@@ -129,12 +129,6 @@ kotlinx
 .
 coroutines
 .
-MainScope
-import
-kotlinx
-.
-coroutines
-.
 launch
 import
 mozilla
@@ -1015,9 +1009,7 @@ settings
 installPwaOpened
 =
 true
-MainScope
-(
-)
+scope
 .
 launch
 {
@@ -2005,9 +1997,7 @@ settings
 installPwaOpened
 =
 true
-MainScope
-(
-)
+scope
 .
 launch
 {
