@@ -131,8 +131,8 @@ nsCOMPtr
 nsISupports
 >
 aParent
-ValueType
-aValueType
+StyleValueType
+aStyleValueType
 )
 ;
 static

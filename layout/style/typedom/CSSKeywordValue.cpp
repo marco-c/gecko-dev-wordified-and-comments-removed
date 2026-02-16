@@ -89,7 +89,7 @@ move
 (
 aParent
 )
-ValueType
+StyleValueType
 :
 :
 KeywordValue
@@ -295,10 +295,10 @@ GetAsCSSKeywordValue
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
-mValueType
+mStyleValueType
 =
 =
-ValueType
+StyleValueType
 :
 :
 KeywordValue

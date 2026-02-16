@@ -130,7 +130,7 @@ move
 (
 aParent
 )
-ValueType
+StyleValueType
 :
 :
 MathSum
@@ -649,10 +649,10 @@ GetAsCSSMathSum
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
-mValueType
+mStyleValueType
 =
 =
-ValueType
+StyleValueType
 :
 :
 MathSum

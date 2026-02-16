@@ -109,7 +109,7 @@ move
 (
 aParent
 )
-ValueType
+StyleValueType
 :
 :
 UnitValue
@@ -423,10 +423,10 @@ GetAsCSSUnitValue
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
-mValueType
+mStyleValueType
 =
 =
-ValueType
+StyleValueType
 :
 :
 UnitValue
