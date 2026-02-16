@@ -971,6 +971,9 @@ sendAsyncMessage
 "
 EditBackupLocation
 "
+event
+.
+detail
 )
 ;
 }
