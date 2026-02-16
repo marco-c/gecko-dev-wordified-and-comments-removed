@@ -27,13 +27,6 @@ endif
 #
 include
 "
-expat_external
-.
-h
-"
-#
-include
-"
 internal
 .
 h

@@ -301,7 +301,7 @@ lu
 elif
 defined
 (
-EMSCRIPTEN
+__wasm32__
 )
 #
 define

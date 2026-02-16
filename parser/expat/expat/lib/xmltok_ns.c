@@ -433,7 +433,7 @@ ptr
 end
 )
 return
-0
+NULL
 ;
 *
 p
@@ -475,7 +475,7 @@ i
 UNKNOWN_ENC
 )
 return
-0
+NULL
 ;
 return
 NS

@@ -76,7 +76,7 @@ XML_BUILDING_EXPAT
 if
 defined
 (
-_MSC_EXTENSIONS
+_MSC_VER
 )
 &
 &
@@ -85,7 +85,6 @@ defined
 (
 __BEOS__
 )
-\
 &
 &
 !
