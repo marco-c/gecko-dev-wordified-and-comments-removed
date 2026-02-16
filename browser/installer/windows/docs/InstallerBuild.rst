@@ -317,7 +317,7 @@ dist
 /
 bin
 /
-uninstaller
+uninstall
 /
 helper
 .
