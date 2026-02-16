@@ -284,7 +284,7 @@ aSamples
 ;
 }
 void
-CustomDistributionMetric
+CustomDistributionStandalone
 :
 :
 AccumulateSingleSample
@@ -580,7 +580,7 @@ aSamples
 ;
 }
 void
-CustomDistributionMetric
+CustomDistributionStandalone
 :
 :
 AccumulateSingleSampleSigned

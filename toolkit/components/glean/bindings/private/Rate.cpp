@@ -95,7 +95,7 @@ namespace
 impl
 {
 void
-RateMetric
+RateStandalone
 :
 :
 AddToNumerator
@@ -151,7 +151,7 @@ aAmount
 ;
 }
 void
-RateMetric
+RateStandalone
 :
 :
 AddToDenominator

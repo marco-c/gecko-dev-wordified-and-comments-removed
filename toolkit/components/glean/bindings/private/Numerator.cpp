@@ -95,7 +95,7 @@ namespace
 impl
 {
 void
-NumeratorMetric
+NumeratorStandalone
 :
 :
 AddToNumerator

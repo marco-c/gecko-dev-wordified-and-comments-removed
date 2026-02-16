@@ -490,7 +490,7 @@ template
 <
 >
 void
-CounterMetric
+CounterStandalone
 <
 CounterType
 :
@@ -870,7 +870,7 @@ template
 <
 >
 void
-CounterMetric
+CounterStandalone
 <
 CounterType
 :

@@ -149,7 +149,7 @@ namespace
 impl
 {
 void
-MemoryDistributionMetric
+MemoryDistributionStandalone
 :
 :
 Accumulate

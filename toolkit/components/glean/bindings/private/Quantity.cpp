@@ -88,7 +88,7 @@ namespace
 impl
 {
 void
-QuantityMetric
+QuantityStandalone
 :
 :
 Set

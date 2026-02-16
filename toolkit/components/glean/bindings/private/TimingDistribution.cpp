@@ -2074,7 +2074,7 @@ namespace
 impl
 {
 TimerId
-TimingDistributionMetric
+TimingDistributionStandalone
 :
 :
 Start
@@ -2090,7 +2090,7 @@ mId
 ;
 }
 void
-TimingDistributionMetric
+TimingDistributionStandalone
 :
 :
 StopAndAccumulate
@@ -2111,7 +2111,7 @@ aId
 ;
 }
 void
-TimingDistributionMetric
+TimingDistributionStandalone
 :
 :
 AccumulateRawDuration
@@ -2213,7 +2213,7 @@ roundedDurationNs
 ;
 }
 void
-TimingDistributionMetric
+TimingDistributionStandalone
 :
 :
 Cancel
@@ -2339,11 +2339,11 @@ count
 )
 ;
 }
-TimingDistributionMetric
+TimingDistributionStandalone
 :
 :
 AutoTimer
-TimingDistributionMetric
+TimingDistributionStandalone
 :
 :
 Measure
@@ -2365,7 +2365,7 @@ Start
 ;
 }
 void
-TimingDistributionMetric
+TimingDistributionStandalone
 :
 :
 AutoTimer
@@ -2392,7 +2392,7 @@ mTimerId
 0
 ;
 }
-TimingDistributionMetric
+TimingDistributionStandalone
 :
 :
 AutoTimer

@@ -547,7 +547,7 @@ lock
 ;
 }
 void
-TimespanMetric
+TimespanStandalone
 :
 :
 Start
@@ -640,7 +640,7 @@ mId
 ;
 }
 void
-TimespanMetric
+TimespanStandalone
 :
 :
 Stop
@@ -815,7 +815,7 @@ mId
 ;
 }
 void
-TimespanMetric
+TimespanStandalone
 :
 :
 Cancel
@@ -884,7 +884,7 @@ mId
 ;
 }
 void
-TimespanMetric
+TimespanStandalone
 :
 :
 SetRaw
