@@ -7345,7 +7345,7 @@ chunk_to_release
 nullptr
 ;
 bool
-is_dying
+arena_is_dying
 ;
 {
 MaybeMutexAutoLock
@@ -7366,7 +7366,7 @@ chunk
 mIsPurging
 )
 ;
-is_dying
+arena_is_dying
 =
 purge_info
 .
@@ -7452,7 +7452,7 @@ ARENA_CHUNK
 }
 if
 (
-is_dying
+arena_is_dying
 )
 {
 return
