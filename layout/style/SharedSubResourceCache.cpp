@@ -352,9 +352,6 @@ nsIURI
 aEntryURI
 nsIPrincipal
 *
-aEntryLoaderPrincipal
-nsIPrincipal
-*
 aEntryPartitionPrincipal
 const
 Maybe
@@ -421,7 +418,7 @@ uri
 {
 uri
 =
-aEntryLoaderPrincipal
+aEntryPartitionPrincipal
 -
 >
 GetURI
@@ -476,7 +473,7 @@ if
 aEntryURI
 &
 &
-aEntryLoaderPrincipal
+aEntryPartitionPrincipal
 -
 >
 IsSystemPrincipal

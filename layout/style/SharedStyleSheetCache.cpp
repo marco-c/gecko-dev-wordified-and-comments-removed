@@ -1261,11 +1261,6 @@ iter
 Key
 (
 )
-iter
-.
-Key
-(
-)
 aChrome
 aPrincipal
 aSchemelessSite

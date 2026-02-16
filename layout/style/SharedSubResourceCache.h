@@ -426,9 +426,6 @@ nsIURI
 aEntryURI
 nsIPrincipal
 *
-aEntryLoaderPrincipal
-nsIPrincipal
-*
 aEntryPartitionPrincipal
 const
 Maybe
@@ -1240,15 +1237,6 @@ Key
 )
 .
 URI
-(
-)
-iter
-.
-Key
-(
-)
-.
-LoaderPrincipal
 (
 )
 iter
