@@ -2826,11 +2826,6 @@ getDefault
 )
 .
 layoutDirection
-window
-.
-setupPersistentInsets
-(
-)
 binding
 =
 ActivityHomeBinding
@@ -4447,6 +4442,11 @@ profiler
 ?
 .
 getProfilerTime
+(
+)
+window
+.
+setupPersistentInsets
 (
 )
 components

@@ -425,6 +425,12 @@ any
 }
 just
 Runs
+every
+{
+enableHomepageEdgeToEdgeBackgroundFeature
+}
+returns
+false
 }
 private
 lateinit

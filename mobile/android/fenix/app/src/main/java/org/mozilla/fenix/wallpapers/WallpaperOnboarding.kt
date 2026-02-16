@@ -647,11 +647,6 @@ WallpaperThumbnails
 wallpapers
 =
 wallpapers
-defaultWallpaper
-=
-Wallpaper
-.
-Default
 selectedWallpaper
 =
 currentWallpaper

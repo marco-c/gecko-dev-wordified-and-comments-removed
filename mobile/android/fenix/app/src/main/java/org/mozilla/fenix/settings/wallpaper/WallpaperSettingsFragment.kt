@@ -386,11 +386,6 @@ availableWallpapers
 }
 .
 value
-?
-:
-listOf
-(
-)
 val
 currentWallpaper
 =
@@ -409,11 +404,6 @@ currentWallpaper
 }
 .
 value
-?
-:
-Wallpaper
-.
-Default
 val
 coroutineScope
 =
@@ -429,11 +419,6 @@ wallpapers
 groupByDisplayableCollection
 (
 )
-defaultWallpaper
-=
-Wallpaper
-.
-Default
 selectedWallpaper
 =
 currentWallpaper
