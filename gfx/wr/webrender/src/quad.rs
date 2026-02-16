@@ -6858,7 +6858,7 @@ contains
 EdgeMask
 :
 :
-RIGHT
+TOP
 )
 {
 let
@@ -6898,7 +6898,7 @@ contains
 EdgeMask
 :
 :
-TOP
+RIGHT
 )
 {
 let
