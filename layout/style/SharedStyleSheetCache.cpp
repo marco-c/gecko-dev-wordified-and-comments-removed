@@ -124,6 +124,7 @@ NS_IMPL_ISUPPORTS
 (
 SharedStyleSheetCache
 nsIMemoryReporter
+nsIObserver
 )
 MOZ_DEFINE_MALLOC_SIZE_OF
 (
