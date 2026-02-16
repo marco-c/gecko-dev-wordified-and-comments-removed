@@ -13327,6 +13327,13 @@ budget
 {
 MOZ_ASSERT
 (
+isGCMarking
+(
+)
+)
+;
+MOZ_ASSERT
+(
 marker
 -
 >

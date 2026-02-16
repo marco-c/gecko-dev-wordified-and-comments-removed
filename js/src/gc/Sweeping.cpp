@@ -4880,6 +4880,14 @@ clearGCSliceThresholds
 (
 )
 ;
+WeakMapBase
+:
+:
+unmarkZone
+(
+zone
+)
+;
 #
 ifdef
 DEBUG
