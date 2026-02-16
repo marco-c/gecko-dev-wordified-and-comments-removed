@@ -292,10 +292,6 @@ move
 aNodeInfo
 )
 )
-mHasChildrenOnlyTransform
-(
-false
-)
 {
 }
 already_AddRefed
