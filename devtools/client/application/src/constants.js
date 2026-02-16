@@ -57,6 +57,11 @@ UPDATE_WORKERS
 "
 UPDATE_WORKERS
 "
+UPDATE_SESSION_HISTORY
+:
+"
+UPDATE_SESSION_HISTORY
+"
 }
 ;
 const
@@ -74,6 +79,13 @@ SERVICE_WORKERS
 service
 -
 workers
+"
+SESSION_HISTORY
+:
+"
+session
+-
+history
 "
 }
 ;
