@@ -276,6 +276,7 @@ options
 }
 }
 pub
+const
 fn
 set_options
 (

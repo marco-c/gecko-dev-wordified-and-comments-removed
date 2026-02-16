@@ -85,6 +85,7 @@ pub
 (
 super
 )
+const
 fn
 start
 (
@@ -122,6 +123,7 @@ pub
 (
 super
 )
+const
 fn
 block
 (

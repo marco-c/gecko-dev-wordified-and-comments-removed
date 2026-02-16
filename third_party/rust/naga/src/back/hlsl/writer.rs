@@ -894,6 +894,15 @@ keywords
 :
 :
 RESERVED_SET
+proc
+:
+:
+KeywordSet
+:
+:
+empty
+(
+)
 &
 super
 :

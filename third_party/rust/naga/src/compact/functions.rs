@@ -390,6 +390,7 @@ trace_expressions
 )
 ;
 }
+const
 fn
 as_expression
 (

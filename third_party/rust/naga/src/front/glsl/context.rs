@@ -178,6 +178,9 @@ Debug
 )
 ]
 pub
+(
+crate
+)
 struct
 Context
 <
@@ -1880,6 +1883,7 @@ Ok
 must_use
 ]
 pub
+const
 fn
 stmt_ctx
 (

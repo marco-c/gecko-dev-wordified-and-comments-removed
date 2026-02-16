@@ -425,6 +425,15 @@ RESERVED_KEYWORD_SET
 proc
 :
 :
+KeywordSet
+:
+:
+empty
+(
+)
+proc
+:
+:
 CaseInsensitiveKeywordSet
 :
 :

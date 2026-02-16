@@ -448,6 +448,9 @@ SHADER_BARYCENTRICS
 }
 }
 pub
+(
+crate
+)
 struct
 FeaturesManager
 (
@@ -497,6 +500,7 @@ self
 features
 }
 pub
+const
 fn
 contains
 (

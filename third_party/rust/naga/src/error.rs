@@ -913,6 +913,7 @@ inner
 }
 }
 pub
+const
 fn
 inner_mut
 (

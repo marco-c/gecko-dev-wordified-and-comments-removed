@@ -320,16 +320,6 @@ new
 )
 }
 }
-#
-[
-allow
-(
-clippy
-:
-:
-missing_const_for_fn
-)
-]
 pub
 fn
 into_inner
@@ -348,6 +338,7 @@ self
 data
 }
 pub
+const
 fn
 len
 (
@@ -367,6 +358,7 @@ len
 )
 }
 pub
+const
 fn
 is_empty
 (

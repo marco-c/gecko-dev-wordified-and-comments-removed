@@ -321,6 +321,11 @@ target_os
 "
 freebsd
 "
+target_os
+=
+"
+netbsd
+"
 )
 )
 '

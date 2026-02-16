@@ -625,6 +625,7 @@ default
 }
 }
 pub
+const
 fn
 first_and_last
 (

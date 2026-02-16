@@ -2118,6 +2118,7 @@ u32
 impl
 IdGenerator
 {
+const
 fn
 generate
 (

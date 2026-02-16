@@ -6850,13 +6850,6 @@ error
 )
 )
 }
-#
-[
-allow
-(
-unused_unsafe
-)
-]
 pub
 unsafe
 fn

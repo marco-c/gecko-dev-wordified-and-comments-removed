@@ -1505,16 +1505,6 @@ emulated_first_instance_value
 ;
 }
 }
-#
-[
-allow
-(
-clippy
-:
-:
-clone_on_copy
-)
-]
 fn
 set_pipeline_inner
 (

@@ -5591,13 +5591,6 @@ unwrap
 (
 )
 ;
-#
-[
-allow
-(
-trivial_casts
-)
-]
 unsafe
 {
 list

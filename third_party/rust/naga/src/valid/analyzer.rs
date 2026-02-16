@@ -1292,13 +1292,6 @@ pub
 struct
 FunctionInfo
 {
-#
-[
-allow
-(
-dead_code
-)
-]
 flags
 :
 ValidationFlags

@@ -258,16 +258,6 @@ InstanceFlags
 GPU_BASED_VALIDATION
 )
 {
-#
-[
-allow
-(
-clippy
-:
-:
-collapsible_if
-)
-]
 if
 let
 Ok

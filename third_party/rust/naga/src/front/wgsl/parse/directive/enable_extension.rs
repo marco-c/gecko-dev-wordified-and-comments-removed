@@ -33,12 +33,16 @@ Box
 derive
 (
 Clone
+Copy
 Debug
 Eq
 PartialEq
 )
 ]
 pub
+(
+crate
+)
 struct
 EnableExtensions
 {
@@ -109,6 +113,7 @@ pub
 (
 crate
 )
+const
 fn
 add
 (

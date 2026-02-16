@@ -1101,13 +1101,6 @@ InitTracker
 u32
 >
 {
-#
-[
-allow
-(
-dead_code
-)
-]
 pub
 (
 crate

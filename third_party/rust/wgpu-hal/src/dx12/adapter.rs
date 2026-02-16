@@ -1720,6 +1720,16 @@ HighestShaderModel
 Direct3D12
 :
 :
+D3D_SHADER_MODEL_5_1
+=
+>
+ShaderModel
+:
+:
+_5_1
+Direct3D12
+:
+:
 D3D_SHADER_MODEL_6_0
 =
 >

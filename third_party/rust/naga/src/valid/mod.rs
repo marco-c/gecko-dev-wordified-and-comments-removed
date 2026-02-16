@@ -2918,13 +2918,6 @@ crate
 :
 ResourceBinding
 >
-#
-[
-allow
-(
-dead_code
-)
-]
 switch_values
 :
 FastHashSet
@@ -4186,6 +4179,7 @@ new
 }
 }
 pub
+const
 fn
 subgroup_stages
 (
@@ -4211,6 +4205,7 @@ stages
 self
 }
 pub
+const
 fn
 subgroup_operations
 (

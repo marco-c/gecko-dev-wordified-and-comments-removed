@@ -14,13 +14,6 @@ pub
 enum
 LanguageExtension
 {
-#
-[
-allow
-(
-unused
-)
-]
 Implemented
 (
 ImplementedLanguageExtension

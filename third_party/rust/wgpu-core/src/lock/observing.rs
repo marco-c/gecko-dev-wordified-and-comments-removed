@@ -1338,13 +1338,6 @@ buffer
 :
 String
 }
-#
-[
-allow
-(
-trivial_casts
-)
-]
 impl
 ObservationLog
 {

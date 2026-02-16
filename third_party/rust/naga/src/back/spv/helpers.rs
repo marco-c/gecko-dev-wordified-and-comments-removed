@@ -168,11 +168,11 @@ bytes
 len
 (
 )
-%
+.
+is_multiple_of
+(
 4
-=
-=
-0
+)
 {
 words
 .

@@ -512,6 +512,7 @@ Word
 impl
 IdGenerator
 {
+const
 fn
 next
 (
@@ -2289,6 +2290,7 @@ access_id
 0
 }
 }
+const
 fn
 reset_for_function
 (
@@ -2652,6 +2654,7 @@ BlockContext
 _
 >
 {
+const
 fn
 gen_id
 (
