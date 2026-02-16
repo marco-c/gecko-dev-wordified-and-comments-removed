@@ -341,7 +341,7 @@ feature
 PoweredByNotification
 (
 testContext
-mockk
+BrowserStore
 (
 )
 "

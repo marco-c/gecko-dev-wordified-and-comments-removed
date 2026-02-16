@@ -382,14 +382,9 @@ true
 private
 val
 store
-:
+=
 BrowserStore
-=
-mockk
 (
-relaxed
-=
-true
 )
 private
 val
