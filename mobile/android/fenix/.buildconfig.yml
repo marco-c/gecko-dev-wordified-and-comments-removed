@@ -327,12 +327,6 @@ components
 :
 feature
 -
-summarize
--
-components
-:
-feature
--
 syncedtabs
 -
 components
