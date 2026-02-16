@@ -1863,9 +1863,11 @@ this
 #
 messageHandler
 .
-contextMatchesDescriptor
+contextsMatchDescriptor
 (
+[
 context
+]
 item
 .
 contextDescriptor

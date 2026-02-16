@@ -692,9 +692,9 @@ messageData
 {
 const
 {
-name
-contextInfo
 data
+name
+relatedContexts
 sessionId
 }
 =
@@ -1011,7 +1011,7 @@ emitEvent
 (
 name
 eventPayload
-contextInfo
+relatedContexts
 )
 ;
 }

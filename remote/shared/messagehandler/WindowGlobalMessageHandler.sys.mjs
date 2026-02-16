@@ -1407,11 +1407,13 @@ contextDescriptor
 return
 this
 .
-contextMatchesDescriptor
+contextsMatchDescriptor
 (
+[
 this
 .
 context
+]
 contextDescriptor
 )
 ;

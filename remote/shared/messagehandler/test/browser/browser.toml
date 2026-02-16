@@ -58,6 +58,13 @@ js
 ]
 [
 "
+browser_events_dispatcher_related_contexts
+.
+js
+"
+]
+[
+"
 browser_events_handler
 .
 js
