@@ -61,11 +61,9 @@ mozilla
 .
 components
 .
-browser
+concept
 .
 storage
-.
-sync
 import
 android
 .
