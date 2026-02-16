@@ -10794,6 +10794,13 @@ name
 "
 nova_onboarding_tou_title
 "
+tools
+:
+ignore
+=
+"
+UnusedResources
+"
 >
 P
 ipravte
@@ -17017,6 +17024,8 @@ n
 j
 proch
 zen
+str
+nek
 s
 aplikac
 %
@@ -34625,6 +34634,7 @@ B
 hem
 proch
 zen
+internetu
 si
 m
 ete

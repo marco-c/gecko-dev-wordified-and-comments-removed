@@ -10277,6 +10277,13 @@ name
 "
 nova_onboarding_tou_title
 "
+tools
+:
+ignore
+=
+"
+UnusedResources
+"
 >
 Pretu
 libere
