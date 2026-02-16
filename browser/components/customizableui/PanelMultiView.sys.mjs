@@ -4583,9 +4583,10 @@ subviews
 {
 viewCache
 .
-appendChild
+moveBefore
 (
 subview
+null
 )
 ;
 }
