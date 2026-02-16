@@ -358,10 +358,12 @@ encoding
 size_t
 encoding_length
 ;
+const
 char
 *
 name
 ;
+const
 char
 *
 type_name
@@ -409,6 +411,7 @@ typedef
 struct
 nr_stun_message_
 {
+const
 char
 *
 name
@@ -542,6 +545,7 @@ nr_stun_message
 msg
 UINT2
 number
+const
 char
 *
 reason
@@ -572,6 +576,7 @@ nr_stun_message_add_nonce_attribute
 nr_stun_message
 *
 msg
+const
 char
 *
 nonce

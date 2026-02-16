@@ -267,6 +267,7 @@ nr_stun_server_client_create
 nr_stun_server_ctx
 *
 ctx
+const
 char
 *
 client_label

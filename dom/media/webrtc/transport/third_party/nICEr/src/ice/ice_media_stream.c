@@ -48,6 +48,7 @@ ice_ctx
 h
 "
 static
+const
 char
 *
 nr_ice_media_stream_states

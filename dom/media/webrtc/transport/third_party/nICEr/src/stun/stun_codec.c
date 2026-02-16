@@ -1486,6 +1486,7 @@ nr_stun_attr_codec_UCHAR_print
 nr_stun_attr_info
 *
 attr_info
+const
 char
 *
 msg
@@ -1731,6 +1732,7 @@ nr_stun_attr_codec_UINT4_print
 nr_stun_attr_info
 *
 attr_info
+const
 char
 *
 msg
@@ -1945,6 +1947,7 @@ nr_stun_attr_codec_UINT8_print
 nr_stun_attr_info
 *
 attr_info
+const
 char
 *
 msg
@@ -2159,6 +2162,7 @@ nr_stun_attr_codec_addr_print
 nr_stun_attr_info
 *
 attr_info
+const
 char
 *
 msg
@@ -2784,6 +2788,7 @@ nr_stun_attr_codec_data_print
 nr_stun_attr_info
 *
 attr_info
+const
 char
 *
 msg
@@ -3054,6 +3059,7 @@ nr_stun_attr_codec_error_code_print
 nr_stun_attr_info
 *
 attr_info
+const
 char
 *
 msg
@@ -3483,6 +3489,7 @@ nr_stun_attr_codec_fingerprint_print
 nr_stun_attr_info
 *
 attr_info
+const
 char
 *
 msg
@@ -3945,6 +3952,7 @@ nr_stun_attr_codec_flag_print
 nr_stun_attr_info
 *
 attr_info
+const
 char
 *
 msg
@@ -4112,6 +4120,7 @@ nr_stun_attr_codec_message_integrity_print
 nr_stun_attr_info
 *
 attr_info
+const
 char
 *
 msg
@@ -4685,6 +4694,7 @@ nr_stun_attr_codec_quoted_string_print
 nr_stun_attr_info
 *
 attr_info
+const
 char
 *
 msg
@@ -4812,6 +4822,7 @@ nr_stun_attr_codec_string_print
 nr_stun_attr_info
 *
 attr_info
+const
 char
 *
 msg
@@ -5117,6 +5128,7 @@ nr_stun_attr_codec_unknown_attributes_print
 nr_stun_attr_info
 *
 attr_info
+const
 char
 *
 msg
@@ -5621,6 +5633,7 @@ nr_stun_attr_codec_xor_mapped_address_print
 nr_stun_attr_info
 *
 attr_info
+const
 char
 *
 msg

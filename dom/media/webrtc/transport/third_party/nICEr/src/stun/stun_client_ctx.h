@@ -391,6 +391,7 @@ NR_STUN_TRANSPORT_ADDR_CHECK_LINK_LOCAL
 int
 nr_stun_client_ctx_create
 (
+const
 char
 *
 label
