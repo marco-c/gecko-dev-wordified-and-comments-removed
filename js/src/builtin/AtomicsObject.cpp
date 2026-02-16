@@ -6263,6 +6263,16 @@ i
 +
 )
 {
+AutoRealm
+ar
+(
+cx
+promisesToResolve
+[
+i
+]
+)
+;
 if
 (
 !
