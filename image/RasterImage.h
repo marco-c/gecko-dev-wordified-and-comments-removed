@@ -736,6 +736,13 @@ WantFullDecode
 TimeStamp
 mDrawStartTime
 ;
+DecoderFlags
+mDefaultDecoderFlags
+=
+DefaultDecoderFlags
+(
+)
+;
 bool
 CanDownscaleDuringDecode
 (

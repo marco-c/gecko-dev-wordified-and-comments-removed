@@ -197,8 +197,12 @@ mMimeType
 DecoderFlags
 decoderFlags
 =
-DefaultDecoderFlags
+DecoderFactory
+:
+:
+GetDefaultDecoderFlagsForType
 (
+decoderType
 )
 ;
 decoderFlags
@@ -570,8 +574,12 @@ mMimeType
 DecoderFlags
 decoderFlags
 =
-DefaultDecoderFlags
+DecoderFactory
+:
+:
+GetDefaultDecoderFlagsForType
 (
+decoderType
 )
 ;
 decoderFlags

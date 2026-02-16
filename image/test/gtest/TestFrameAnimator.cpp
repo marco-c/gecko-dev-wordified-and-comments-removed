@@ -460,8 +460,12 @@ mMimeType
 DecoderFlags
 decoderFlags
 =
-DefaultDecoderFlags
+DecoderFactory
+:
+:
+GetDefaultDecoderFlagsForType
 (
+decoderType
 )
 ;
 RefPtr
