@@ -41,7 +41,7 @@ gc
 {
 JS_PUBLIC_API
 void
-TraceRealm
+TraceRealmRoot
 (
 JSTracer
 *
@@ -115,7 +115,7 @@ js
 gc
 :
 :
-TraceRealm
+TraceRealmRoot
 (
 trc
 *
