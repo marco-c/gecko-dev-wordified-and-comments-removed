@@ -597,7 +597,7 @@ remaining
 relayDetails
 ?
 .
-remainingMasksForFreeUsers
+totalMasksUsed
 ?
 :
 0
