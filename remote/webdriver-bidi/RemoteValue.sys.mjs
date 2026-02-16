@@ -3887,6 +3887,14 @@ shadowRoot
 =
 =
 null
+&
+&
+!
+shadowRoot
+.
+isUAWidget
+(
+)
 )
 {
 serialized
