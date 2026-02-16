@@ -118,6 +118,11 @@ attribute
 any
 state
 ;
+readonly
+attribute
+boolean
+hasUAVisualTransition
+;
 }
 ;
 dictionary
@@ -129,6 +134,11 @@ any
 state
 =
 null
+;
+boolean
+hasUAVisualTransition
+=
+false
 ;
 }
 ;
