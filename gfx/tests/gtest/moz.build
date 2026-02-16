@@ -48,11 +48,6 @@ TestCoord
 cpp
 "
 "
-TestFontFallback
-.
-cpp
-"
-"
 TestFontOverlapPrevention
 .
 cpp
@@ -311,12 +306,6 @@ src
 gfx
 /
 qcms
-"
-"
-/
-gfx
-/
-thebes
 "
 "
 /

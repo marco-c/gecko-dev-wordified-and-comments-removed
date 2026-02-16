@@ -2940,10 +2940,6 @@ friend
 class
 nsCaseTransformTextRunFactory
 ;
-friend
-class
-gfxPlatformFontList
-;
 static
 void
 Shutdown
