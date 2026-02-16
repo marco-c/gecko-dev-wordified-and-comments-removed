@@ -374,8 +374,6 @@ this
 )
 store
 =
-spy
-(
 BrowserStore
 (
 initialState
@@ -393,7 +391,6 @@ selectedTabId
 selectedTab
 .
 id
-)
 )
 )
 toolbar

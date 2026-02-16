@@ -659,7 +659,7 @@ testContext
 mock
 (
 )
-mock
+BrowserStore
 (
 )
 mock
@@ -742,7 +742,7 @@ testContext
 mock
 (
 )
-mock
+BrowserStore
 (
 )
 mock
@@ -830,7 +830,7 @@ testContext
 mock
 (
 )
-mock
+BrowserStore
 (
 )
 mock
@@ -959,7 +959,7 @@ testContext
 mock
 (
 )
-mock
+BrowserStore
 (
 )
 mock
@@ -1238,7 +1238,7 @@ testContext
 mock
 (
 )
-mock
+BrowserStore
 (
 )
 mock
@@ -1342,7 +1342,7 @@ testContext
 mock
 (
 )
-mock
+BrowserStore
 (
 )
 mock
@@ -1443,7 +1443,7 @@ testContext
 mock
 (
 )
-mock
+BrowserStore
 (
 )
 mock
@@ -1551,7 +1551,7 @@ testContext
 mock
 (
 )
-mock
+BrowserStore
 (
 )
 mock
@@ -1660,7 +1660,7 @@ testContext
 mock
 (
 )
-mock
+BrowserStore
 (
 )
 mock
@@ -1789,7 +1789,7 @@ testContext
 mock
 (
 )
-mock
+BrowserStore
 (
 )
 mock
@@ -2041,7 +2041,7 @@ testContext
 mock
 (
 )
-mock
+BrowserStore
 (
 )
 mock
@@ -2218,7 +2218,7 @@ testContext
 mock
 (
 )
-mock
+BrowserStore
 (
 )
 mock
@@ -2352,7 +2352,7 @@ testContext
 mock
 (
 )
-mock
+BrowserStore
 (
 )
 mock
@@ -2466,7 +2466,7 @@ testContext
 mock
 (
 )
-mock
+BrowserStore
 (
 )
 mock
@@ -2614,7 +2614,7 @@ testContext
 mock
 (
 )
-mock
+BrowserStore
 (
 )
 mock
@@ -2773,7 +2773,7 @@ testContext
 mock
 (
 )
-mock
+BrowserStore
 (
 )
 mock
@@ -3144,7 +3144,7 @@ testContext
 mock
 (
 )
-mock
+BrowserStore
 (
 )
 mock
@@ -3224,7 +3224,7 @@ context
 mock
 (
 )
-mock
+BrowserStore
 (
 )
 mock
@@ -3310,7 +3310,7 @@ testContext
 mock
 (
 )
-mock
+BrowserStore
 (
 )
 mock
@@ -3405,8 +3405,11 @@ context
 mock
 (
 )
+BrowserStore
+(
 mock
 (
+)
 )
 mock
 (
@@ -3414,6 +3417,7 @@ mock
 mock
 (
 )
+this
 )
 delegate
 .
@@ -3524,7 +3528,7 @@ context
 mock
 (
 )
-mock
+BrowserStore
 (
 )
 mock
@@ -3610,7 +3614,7 @@ testContext
 mock
 (
 )
-mock
+BrowserStore
 (
 )
 mock
@@ -3832,7 +3836,7 @@ MediaSessionServiceDelegate
 (
 testContext
 service
-mock
+BrowserStore
 (
 )
 crashReporter
@@ -4011,7 +4015,7 @@ MediaSessionServiceDelegate
 (
 testContext
 service
-mock
+BrowserStore
 (
 )
 crashReporter

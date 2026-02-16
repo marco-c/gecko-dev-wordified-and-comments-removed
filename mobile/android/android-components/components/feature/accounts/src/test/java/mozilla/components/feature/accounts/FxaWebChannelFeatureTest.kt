@@ -421,14 +421,6 @@ mockito
 .
 Mockito
 .
-spy
-import
-org
-.
-mockito
-.
-Mockito
-.
 times
 import
 org
@@ -1205,8 +1197,6 @@ engineSession
 val
 store
 =
-spy
-(
 BrowserStore
 (
 initialState
@@ -1224,7 +1214,6 @@ selectedTabId
 tab
 .
 id
-)
 )
 )
 val
@@ -6865,8 +6854,6 @@ bar
 )
 )
 return
-spy
-(
 FxaWebChannelFeature
 (
 null
@@ -6877,7 +6864,6 @@ store
 accountManager
 serverConfig
 fxaCapabilities
-)
 )
 }
 }

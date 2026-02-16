@@ -394,8 +394,6 @@ mock
 val
 store
 =
-spy
-(
 BrowserStore
 (
 BrowserState
@@ -455,7 +453,6 @@ tab1
 "
 )
 )
-)
 val
 toolbarPresenter
 =
@@ -485,17 +482,6 @@ scheduler
 .
 advanceUntilIdle
 (
-)
-verify
-(
-store
-)
-.
-observeManually
-(
-any
-(
-)
 )
 verify
 (
@@ -589,8 +575,6 @@ mock
 val
 store
 =
-spy
-(
 BrowserStore
 (
 BrowserState
@@ -650,7 +634,6 @@ tab1
 "
 )
 )
-)
 val
 toolbarPresenter
 =
@@ -685,17 +668,6 @@ scheduler
 .
 advanceUntilIdle
 (
-)
-verify
-(
-store
-)
-.
-observeManually
-(
-any
-(
-)
 )
 verify
 (
@@ -781,8 +753,6 @@ mock
 val
 store
 =
-spy
-(
 BrowserStore
 (
 BrowserState
@@ -840,7 +810,6 @@ selectedTabId
 "
 tab1
 "
-)
 )
 )
 val
@@ -962,8 +931,6 @@ mock
 val
 store
 =
-spy
-(
 BrowserStore
 (
 BrowserState
@@ -1028,7 +995,6 @@ selectedTabId
 "
 tab1
 "
-)
 )
 )
 val
@@ -1244,8 +1210,6 @@ mock
 val
 store
 =
-spy
-(
 BrowserStore
 (
 BrowserState
@@ -1303,7 +1267,6 @@ selectedTabId
 "
 tab1
 "
-)
 )
 )
 val
@@ -1412,8 +1375,6 @@ mock
 val
 store
 =
-spy
-(
 BrowserStore
 (
 BrowserState
@@ -1471,7 +1432,6 @@ selectedTabId
 "
 tab1
 "
-)
 )
 )
 val
@@ -1616,8 +1576,6 @@ mock
 val
 store
 =
-spy
-(
 BrowserStore
 (
 BrowserState
@@ -1703,7 +1661,6 @@ selectedTabId
 "
 tab1
 "
-)
 )
 )
 val
@@ -1871,8 +1828,6 @@ mock
 val
 store
 =
-spy
-(
 BrowserStore
 (
 BrowserState
@@ -2000,7 +1955,6 @@ selectedTabId
 "
 tab1
 "
-)
 )
 )
 val
@@ -2260,8 +2214,6 @@ mock
 val
 store
 =
-spy
-(
 BrowserStore
 (
 BrowserState
@@ -2326,7 +2278,6 @@ selectedTabId
 "
 tab
 "
-)
 )
 )
 val
@@ -2494,8 +2445,6 @@ mock
 val
 store
 =
-spy
-(
 BrowserStore
 (
 BrowserState
@@ -2560,7 +2509,6 @@ selectedTabId
 "
 tab
 "
-)
 )
 )
 val
@@ -2949,8 +2897,6 @@ mock
 val
 store
 =
-spy
-(
 BrowserStore
 (
 BrowserState
@@ -2980,7 +2926,6 @@ selectedTabId
 "
 tab1
 "
-)
 )
 )
 val
@@ -3077,8 +3022,6 @@ mock
 val
 store
 =
-spy
-(
 BrowserStore
 (
 BrowserState
@@ -3115,7 +3058,6 @@ selectedTabId
 "
 tab1
 "
-)
 )
 )
 val

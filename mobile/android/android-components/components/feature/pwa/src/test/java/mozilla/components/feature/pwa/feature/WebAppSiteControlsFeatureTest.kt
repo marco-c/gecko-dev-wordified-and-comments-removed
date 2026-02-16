@@ -322,7 +322,7 @@ spy
 WebAppSiteControlsFeature
 (
 testContext
-mock
+BrowserStore
 (
 )
 "
@@ -395,7 +395,7 @@ feature
 WebAppSiteControlsFeature
 (
 context
-mock
+BrowserStore
 (
 )
 "

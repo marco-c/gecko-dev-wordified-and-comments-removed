@@ -81,6 +81,18 @@ mozilla
 .
 components
 .
+browser
+.
+state
+.
+store
+.
+BrowserStore
+import
+mozilla
+.
+components
+.
 feature
 .
 findinpage
@@ -192,7 +204,7 @@ feature
 =
 FindInPageFeature
 (
-mock
+BrowserStore
 (
 )
 mock
@@ -267,7 +279,7 @@ feature
 =
 FindInPageFeature
 (
-mock
+BrowserStore
 (
 )
 mock
@@ -342,7 +354,7 @@ feature
 =
 FindInPageFeature
 (
-mock
+BrowserStore
 (
 )
 mock
@@ -429,7 +441,7 @@ spy
 (
 FindInPageFeature
 (
-mock
+BrowserStore
 (
 )
 mock
@@ -515,7 +527,7 @@ spy
 (
 FindInPageFeature
 (
-mock
+BrowserStore
 (
 )
 mock
@@ -589,7 +601,7 @@ feature
 =
 FindInPageFeature
 (
-mock
+BrowserStore
 (
 )
 mock
@@ -665,7 +677,7 @@ feature
 =
 FindInPageFeature
 (
-mock
+BrowserStore
 (
 )
 mock

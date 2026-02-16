@@ -448,7 +448,7 @@ mock
 emptyList
 (
 )
-mock
+BrowserStore
 (
 )
 )
@@ -1223,7 +1223,7 @@ style
 emptyList
 (
 )
-mock
+BrowserStore
 (
 )
 )
@@ -1442,7 +1442,7 @@ style
 emptyList
 (
 )
-mock
+BrowserStore
 (
 )
 )
@@ -1762,7 +1762,7 @@ style
 emptyList
 (
 )
-mock
+BrowserStore
 (
 )
 )
@@ -1892,7 +1892,7 @@ style
 emptyList
 (
 )
-mock
+BrowserStore
 (
 )
 )
@@ -2025,7 +2025,7 @@ style
 emptyList
 (
 )
-mock
+BrowserStore
 (
 )
 )
@@ -2206,7 +2206,7 @@ style
 emptyList
 (
 )
-mock
+BrowserStore
 (
 )
 )
@@ -2498,7 +2498,7 @@ mock
 emptyList
 (
 )
-mock
+BrowserStore
 (
 )
 )
@@ -2594,7 +2594,7 @@ mock
 emptyList
 (
 )
-mock
+BrowserStore
 (
 )
 )
@@ -2794,7 +2794,7 @@ mock
 emptyList
 (
 )
-mock
+BrowserStore
 (
 )
 )
@@ -3186,7 +3186,7 @@ mock
 emptyList
 (
 )
-mock
+BrowserStore
 (
 )
 )
@@ -3268,7 +3268,7 @@ mock
 emptyList
 (
 )
-mock
+BrowserStore
 (
 )
 )
@@ -3721,7 +3721,7 @@ mock
 emptyList
 (
 )
-mock
+BrowserStore
 (
 )
 )
@@ -3787,7 +3787,7 @@ mock
 emptyList
 (
 )
-mock
+BrowserStore
 (
 )
 )
@@ -4065,7 +4065,7 @@ mock
 emptyList
 (
 )
-mock
+BrowserStore
 (
 )
 )
@@ -4438,7 +4438,7 @@ mock
 emptyList
 (
 )
-mock
+BrowserStore
 (
 )
 )
@@ -4769,7 +4769,7 @@ mock
 emptyList
 (
 )
-mock
+BrowserStore
 (
 )
 )
@@ -5068,7 +5068,7 @@ mock
 emptyList
 (
 )
-mock
+BrowserStore
 (
 )
 )
@@ -5368,7 +5368,7 @@ mock
 emptyList
 (
 )
-mock
+BrowserStore
 (
 )
 )
@@ -5836,7 +5836,7 @@ mock
 emptyList
 (
 )
-mock
+BrowserStore
 (
 )
 )

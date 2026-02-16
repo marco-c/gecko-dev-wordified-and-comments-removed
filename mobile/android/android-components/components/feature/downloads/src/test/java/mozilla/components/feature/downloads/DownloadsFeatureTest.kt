@@ -5264,7 +5264,7 @@ applicationContext
 testContext
 store
 =
-mock
+BrowserStore
 (
 )
 useCases
@@ -7039,7 +7039,7 @@ applicationContext
 testContext
 store
 =
-mock
+BrowserStore
 (
 )
 useCases
@@ -7286,7 +7286,7 @@ applicationContext
 testContext
 store
 =
-mock
+BrowserStore
 (
 )
 useCases
@@ -7517,7 +7517,7 @@ applicationContext
 spyContext
 store
 =
-mock
+BrowserStore
 (
 )
 useCases
@@ -7789,7 +7789,7 @@ applicationContext
 spyContext
 store
 =
-mock
+BrowserStore
 (
 )
 useCases
@@ -9871,7 +9871,7 @@ applicationContext
 testContext
 store
 =
-mock
+BrowserStore
 (
 )
 useCases
@@ -10567,7 +10567,7 @@ applicationContext
 testContext
 store
 =
-mock
+BrowserStore
 (
 )
 useCases
@@ -10665,7 +10665,7 @@ applicationContext
 testContext
 store
 =
-mock
+BrowserStore
 (
 )
 useCases
@@ -10766,7 +10766,7 @@ applicationContext
 testContext
 store
 =
-mock
+BrowserStore
 (
 )
 useCases
@@ -10858,7 +10858,7 @@ applicationContext
 testContext
 store
 =
-mock
+BrowserStore
 (
 )
 useCases
