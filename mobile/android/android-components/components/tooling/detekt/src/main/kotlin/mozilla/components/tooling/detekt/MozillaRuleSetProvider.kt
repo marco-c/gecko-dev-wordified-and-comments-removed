@@ -150,6 +150,10 @@ ProjectLicenseRule
 (
 config
 )
+NoSystemCurrentTimeMillisRule
+(
+config
+)
 )
 )
 }
