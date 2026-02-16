@@ -594,8 +594,8 @@ value
 "
 )
 {
-var
-secmoddb
+const
+fipsUtils
 =
 Cc
 [
@@ -606,7 +606,7 @@ org
 /
 security
 /
-pkcs11moduledb
+fipsutils
 ;
 1
 "
@@ -616,12 +616,12 @@ getService
 (
 Ci
 .
-nsIPKCS11ModuleDB
+nsIFIPSUtils
 )
 ;
 if
 (
-secmoddb
+fipsUtils
 .
 isFIPSEnabled
 )
