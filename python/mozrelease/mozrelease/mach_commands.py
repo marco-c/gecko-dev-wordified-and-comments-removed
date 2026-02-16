@@ -494,6 +494,12 @@ scriptworker
 deployments
 .
 "
+    
+virtualenv_name
+=
+"
+taskgraph
+"
 )
 CommandArgument
 (
