@@ -1602,7 +1602,7 @@ JS
 :
 WorkBudget
 (
-1000
+200
 )
 )
 ;
@@ -1633,15 +1633,14 @@ gc
 state
 (
 )
-=
-=
+<
 gc
 :
 :
 State
 :
 :
-Prepare
+Sweep
 )
 {
 rt

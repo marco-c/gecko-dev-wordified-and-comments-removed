@@ -289,6 +289,18 @@ compactingEnabled
 "
 )
 ;
+if
+(
+gcparam
+(
+"
+helperThreadCount
+"
+)
+>
+1
+)
+{
 testChangeParam
 (
 "
@@ -296,6 +308,7 @@ parallelMarkingEnabled
 "
 )
 ;
+}
 testChangeParam
 (
 "
