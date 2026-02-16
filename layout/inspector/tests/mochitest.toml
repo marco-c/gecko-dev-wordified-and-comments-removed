@@ -208,6 +208,13 @@ html
 ]
 [
 "
+test_getAnchorFor
+.
+html
+"
+]
+[
+"
 test_getCSSPseudoElementNames
 .
 html
