@@ -606,6 +606,8 @@ mScaleY
 enum
 class
 DrawingMethod
+:
+uint8_t
 {
 Normal
 Variant
