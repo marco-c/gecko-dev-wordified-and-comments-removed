@@ -1100,6 +1100,11 @@ aCx
 errorValue
 )
 ;
+JS_ClearPendingException
+(
+aCx
+)
+;
 ReadableStreamDefaultControllerError
 (
 aCx
