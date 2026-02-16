@@ -518,7 +518,7 @@ missing_docs
 ]
 pub
 mod
-shorthands_generated
+shorthands
 {
 <
 %
@@ -3062,7 +3062,7 @@ all
 else
 :
 <
-shorthands_generated
+shorthands
 :
 :
 {
@@ -3192,7 +3192,7 @@ do_nothing
 else
 :
 <
-shorthands_generated
+shorthands
 :
 :
 {
@@ -5909,7 +5909,7 @@ all_to_css
 %
 else
 :
-shorthands_generated
+shorthands
 :
 :
 {
@@ -6311,7 +6311,7 @@ parse_all
 %
 else
 :
-shorthands_generated
+shorthands
 :
 :
 {
