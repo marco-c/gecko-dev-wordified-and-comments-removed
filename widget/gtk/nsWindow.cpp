@@ -10009,6 +10009,15 @@ popup
 WaylandPopupFitsToplevelWindow
 (
 )
+&
+&
+!
+StaticPrefs
+:
+:
+widget_wayland_force_move_to_rect
+(
+)
 )
 {
 return
