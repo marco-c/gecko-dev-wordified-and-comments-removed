@@ -657,7 +657,10 @@ R_NO_MEMORY
 )
 ;
 }
-strncpy
+(
+void
+)
+strlcpy
 (
 info
 -
