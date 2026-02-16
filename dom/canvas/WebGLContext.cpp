@@ -16057,6 +16057,16 @@ subrectSize
 ;
 metrics
 .
+usedPixelsPerRow
+=
+usedPixelsPerRow
+.
+value
+(
+)
+;
+metrics
+.
 bytesPerPixel
 =
 BytesPerPixel
