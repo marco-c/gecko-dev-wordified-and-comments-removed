@@ -382,11 +382,14 @@ const
 ContainingBlockRects
 *
 aFragmentedContainingBlockRects
+mozilla
+:
+:
 AnchorPosResolutionCache
 *
 aAnchorPosResolutionCache
-bool
-aReuseUnfragmentedAnchorPosReferences
+=
+nullptr
 )
 ;
 void
