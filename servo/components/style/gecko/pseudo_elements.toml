@@ -630,6 +630,9 @@ enabled_in
 "
 chrome
 "
+is_element_backed
+=
+true
 #
 The
 menulist
@@ -671,6 +674,9 @@ enabled_in
 "
 chrome
 "
+is_element_backed
+=
+true
 [
 -
 moz
