@@ -1441,7 +1441,7 @@ fakeEngine
 )
 ;
 const
-recordsWithV3
+recordsWithV2
 =
 [
 .
@@ -1471,7 +1471,7 @@ prompt
 version
 :
 "
-v3
+v2
 .
 0
 "
@@ -1504,7 +1504,7 @@ stub
 .
 resolves
 (
-recordsWithV3
+recordsWithV2
 )
 }
 )
@@ -1561,7 +1561,7 @@ select
 .
 x
 not
-3
+2
 .
 0
 "
