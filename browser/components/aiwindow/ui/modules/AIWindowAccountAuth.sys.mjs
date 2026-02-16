@@ -389,7 +389,7 @@ hasFirstrunCompleted
 entrypoint
 :
 "
-aiwindow
+smartwindow
 "
 extraParams
 :
@@ -397,7 +397,7 @@ extraParams
 service
 :
 "
-aiwindow
+smartwindow
 "
 }
 }
