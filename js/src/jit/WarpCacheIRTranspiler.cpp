@@ -37063,6 +37063,8 @@ emitMetaScriptedThisShape
 (
 uint32_t
 thisShapeOffset
+uint32_t
+siteOffset
 )
 {
 SharedShape
@@ -37123,13 +37125,10 @@ gc
 Heap
 heap
 =
-gc
-:
-:
-Heap
-:
-:
-Default
+allocSiteInitialHeapField
+(
+siteOffset
+)
 ;
 uint32_t
 numFixedSlots

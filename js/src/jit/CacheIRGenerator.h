@@ -2598,6 +2598,12 @@ flags
 Shape
 *
 thisShape
+gc
+:
+:
+AllocSite
+*
+maybeAllocSite
 bool
 isBoundFunction
 )
@@ -5147,6 +5153,12 @@ JSOp
 :
 :
 Lambda
+|
+|
+IsConstructOp
+(
+op
+)
 ;
 }
 class
