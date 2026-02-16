@@ -497,7 +497,7 @@ config
 .
 version
 "
-v2
+v1
 .
 0
 "
@@ -505,7 +505,7 @@ v2
 Version
 should
 be
-v2
+v1
 .
 0
 "
