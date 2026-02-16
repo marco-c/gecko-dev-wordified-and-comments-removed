@@ -487,6 +487,8 @@ show
 when
 the
 following
+are
+true
 :
 /
 /
@@ -527,6 +529,7 @@ showWeather
 )
 /
 /
+-
 The
 weather
 forecast
@@ -561,6 +564,8 @@ widget
 is
 not
 enabled
+/
+/
 then
 the
 mini
