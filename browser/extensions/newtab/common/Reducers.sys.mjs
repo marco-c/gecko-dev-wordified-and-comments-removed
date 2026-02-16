@@ -3522,6 +3522,8 @@ isVisible
 action
 .
 data
+.
+isVisible
 }
 ;
 default
