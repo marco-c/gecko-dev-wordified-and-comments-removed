@@ -2454,3 +2454,16 @@ launcher
 BIN_SUFFIX
 #
 endif
+#
+if
+defined
+(
+BUILT_BY_MOZILLA
+)
+RESPATH
+/
+distribution
+/
+*
+#
+endif
