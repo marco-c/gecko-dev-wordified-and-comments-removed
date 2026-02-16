@@ -254,6 +254,13 @@ js
 ]
 [
 "
+test_WebExtensionContentScript_mozextMatchWarning
+.
+js
+"
+]
+[
+"
 test_ext_contentscript_perf_observers
 .
 js
