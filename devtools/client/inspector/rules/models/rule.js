@@ -1688,7 +1688,7 @@ this
 .
 elementStyle
 .
-_changed
+notifyChanged
 (
 )
 ;
@@ -1949,7 +1949,7 @@ this
 .
 elementStyle
 .
-_changed
+notifyChanged
 (
 )
 ;

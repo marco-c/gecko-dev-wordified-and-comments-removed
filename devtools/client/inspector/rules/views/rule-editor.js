@@ -5913,7 +5913,7 @@ newRule
 ;
 elementStyle
 .
-_changed
+notifyChanged
 (
 )
 ;
