@@ -522,16 +522,6 @@ mBoundingMetrics
 aBoundingMetrics
 ;
 }
-mozilla
-:
-:
-ComputedStyle
-*
-GetComputedStyle
-(
-)
-const
-;
 void
 SetComputedStyle
 (
