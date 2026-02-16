@@ -46,8 +46,6 @@ urlpattern
 :
 :
 quirks
-as
-Uq
 ;
 use
 urlpattern
@@ -1328,7 +1326,7 @@ collect
 impl
 From
 <
-Uq
+quirks
 :
 :
 MatchInput
@@ -1341,7 +1339,7 @@ from
 (
 match_input
 :
-Uq
+quirks
 :
 :
 MatchInput
@@ -1769,7 +1767,7 @@ From
 UrlpInit
 >
 for
-Uq
+quirks
 :
 :
 UrlPatternInit
@@ -1783,7 +1781,7 @@ UrlpInit
 )
 -
 >
-Uq
+quirks
 :
 :
 UrlPatternInit
@@ -1816,7 +1814,7 @@ else
 None
 }
 ;
-Uq
+quirks
 :
 :
 UrlPatternInit
@@ -1906,7 +1904,7 @@ From
 UrlpInit
 >
 for
-Uq
+quirks
 :
 :
 UrlPatternInit
@@ -1951,7 +1949,7 @@ else
 None
 }
 ;
-Uq
+quirks
 :
 :
 UrlPatternInit
@@ -2037,7 +2035,7 @@ maybe_base
 impl
 From
 <
-Uq
+quirks
 :
 :
 UrlPatternInit
@@ -2050,7 +2048,7 @@ from
 (
 init
 :
-Uq
+quirks
 :
 :
 UrlPatternInit
