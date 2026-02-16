@@ -119,6 +119,7 @@ reg_initted
 0
 ;
 static
+const
 char
 *
 typenames
@@ -1134,6 +1135,7 @@ _status
 )
 ;
 }
+const
 char
 *
 nr_reg_type_name

@@ -62,6 +62,7 @@ r_macros
 h
 "
 static
+const
 char
 CB_ACTIONS
 [
@@ -886,6 +887,7 @@ return
 0
 ;
 }
+const
 char
 *
 nr_reg_action_name
@@ -894,6 +896,7 @@ int
 action
 )
 {
+const
 char
 *
 name
@@ -1452,6 +1455,7 @@ _status
 int
 count
 ;
+const
 char
 *
 event

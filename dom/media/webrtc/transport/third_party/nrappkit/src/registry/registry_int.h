@@ -93,6 +93,7 @@ NR_REG_TYPE_STRING
 define
 NR_REG_TYPE_REGISTRY
 11
+const
 char
 *
 nr_reg_type_name
@@ -101,6 +102,7 @@ int
 type
 )
 ;
+const
 char
 *
 nr_reg_action_name
