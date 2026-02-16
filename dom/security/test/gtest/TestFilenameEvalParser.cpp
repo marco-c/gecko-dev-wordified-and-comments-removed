@@ -1530,7 +1530,9 @@ bootstrap
 /
 Overlays
 .
-jsm
+sys
+.
+mjs
 "
 _ns
 "
@@ -1656,7 +1658,9 @@ utils
 /
 Overlays
 .
-jsm
+sys
+.
+mjs
 "
 _ns
 "
@@ -1670,7 +1674,9 @@ ucjs
 /
 UserScriptLoaderParent
 .
-jsm
+sys
+.
+mjs
 "
 _ns
 "
@@ -1684,7 +1690,9 @@ legacy
 /
 CPManager
 .
-jsm
+sys
+.
+mjs
 "
 _ns
 "
