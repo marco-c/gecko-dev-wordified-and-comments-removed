@@ -17,6 +17,14 @@ mozperftest
 .
 metrics
 .
+eval
+import
+EvalMetrics
+from
+mozperftest
+.
+metrics
+.
 notebookupload
 import
 Notebook
@@ -103,6 +111,7 @@ mochitest
         
 layers
 =
+EvalMetrics
 Perfherder
 ConsoleOutput
     
