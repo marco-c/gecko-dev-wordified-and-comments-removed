@@ -17530,7 +17530,7 @@ else
 {
 aSize
 =
-PAGE_CEILING
+REAL_PAGE_CEILING
 (
 aSize
 )
