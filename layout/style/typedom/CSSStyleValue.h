@@ -88,6 +88,9 @@ class
 CSSNumericValue
 ;
 class
+CSSTransformValue
+;
+class
 CSSStyleValue
 :
 public
@@ -105,6 +108,7 @@ Uninitialized
 UnsupportedValue
 KeywordValue
 NumericValue
+TransformValue
 }
 ;
 explicit
@@ -276,6 +280,18 @@ const
 CSSNumericValue
 &
 GetAsCSSNumericValue
+(
+)
+;
+bool
+IsCSSTransformValue
+(
+)
+const
+;
+CSSTransformValue
+&
+GetAsCSSTransformValue
 (
 )
 ;
