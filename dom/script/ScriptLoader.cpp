@@ -1079,10 +1079,10 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 mNonAsyncExternalScriptInsertedRequests
 mLoadingAsyncRequests
 mLoadedAsyncRequests
-mOffThreadCompilingRequests
 mDeferRequests
 mXSLTRequests
 mParserBlockingRequest
+mOffThreadCompilingRequests
 mDiskCacheQueue
 mPreloads
 mPendingChildLoaders
@@ -1100,10 +1100,10 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 mNonAsyncExternalScriptInsertedRequests
 mLoadingAsyncRequests
 mLoadedAsyncRequests
-mOffThreadCompilingRequests
 mDeferRequests
 mXSLTRequests
 mParserBlockingRequest
+mOffThreadCompilingRequests
 mDiskCacheQueue
 mPreloads
 mPendingChildLoaders
