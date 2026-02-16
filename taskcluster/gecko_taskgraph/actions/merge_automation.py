@@ -456,6 +456,42 @@ version
 "
             
 }
+            
+"
+merge
+-
+automation
+-
+id
+"
+:
+{
+                
+"
+type
+"
+:
+"
+integer
+"
+                
+"
+description
+"
+:
+"
+Shipit
+merge
+automation
+ID
+for
+marking
+as
+merged
+.
+"
+            
+}
         
 }
         
@@ -583,6 +619,14 @@ fetch
 version
 -
 from
+"
+        
+"
+merge
+-
+automation
+-
+id
 "
     
 ]
