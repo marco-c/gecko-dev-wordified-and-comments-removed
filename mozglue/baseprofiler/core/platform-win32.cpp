@@ -933,6 +933,17 @@ SamplerThread
 (
 )
 {
+if
+(
+mHiResTimer
+)
+{
+CloseHandle
+(
+mHiResTimer
+)
+;
+}
 WaitForSingleObject
 (
 mThread
