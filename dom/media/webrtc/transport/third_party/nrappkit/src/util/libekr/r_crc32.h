@@ -7,6 +7,7 @@ _r_crc32_
 int
 r_crc32
 (
+const
 char
 *
 buf
