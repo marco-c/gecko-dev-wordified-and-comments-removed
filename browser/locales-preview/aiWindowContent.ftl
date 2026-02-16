@@ -65,15 +65,6 @@ Smart
 window
 chat
 messages
-smartwindow
--
-document
--
-title
-=
-Smart
-window
-chat
 #
 #
 TO

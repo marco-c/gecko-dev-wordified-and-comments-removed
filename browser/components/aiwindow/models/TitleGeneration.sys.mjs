@@ -319,6 +319,13 @@ build
 MODEL_FEATURES
 .
 TITLE_GENERATION
+"
+smart
+-
+openai
+-
+title
+"
 )
 ;
 const

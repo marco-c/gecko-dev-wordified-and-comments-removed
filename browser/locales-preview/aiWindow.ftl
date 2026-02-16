@@ -139,6 +139,14 @@ label
 =
 Recent
 Chats
+smartwindow
+-
+document
+-
+title
+=
+New
+Tab
 #
 #
 Smart
