@@ -1497,10 +1497,6 @@ FCDATA_MAY_NEED_SCROLLFRAME
 0x80
 #
 define
-FCDATA_IS_POPUP
-0x100
-#
-define
 FCDATA_SKIP_ABSPOS_PUSH
 0x200
 #
@@ -3133,10 +3129,6 @@ mIsBlock
 (
 false
 )
-mIsPopup
-(
-false
-)
 mIsRenderedLegend
 (
 false
@@ -3313,11 +3305,6 @@ mIsAllInline
 ;
 bool
 mIsBlock
-:
-1
-;
-bool
-mIsPopup
 :
 1
 ;
