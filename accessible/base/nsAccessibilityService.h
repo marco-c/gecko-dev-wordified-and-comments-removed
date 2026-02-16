@@ -603,6 +603,13 @@ aMutatingNode
 )
 ;
 void
+ComboboxValueChanged
+(
+nsIContent
+*
+)
+;
+void
 UpdateText
 (
 mozilla

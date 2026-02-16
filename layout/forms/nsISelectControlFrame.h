@@ -44,8 +44,6 @@ index
 NS_IMETHOD
 DoneAddingChildren
 (
-bool
-aIsDone
 )
 =
 0

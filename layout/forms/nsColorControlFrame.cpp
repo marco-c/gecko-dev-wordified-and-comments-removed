@@ -160,6 +160,10 @@ NS_QUERYFRAME_ENTRY
 (
 nsColorControlFrame
 )
+NS_QUERYFRAME_ENTRY
+(
+nsIAnonymousContentCreator
+)
 NS_QUERYFRAME_TAIL_INHERITING
 (
 ButtonControlFrame
