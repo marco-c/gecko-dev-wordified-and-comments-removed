@@ -994,8 +994,10 @@ manual
 steps
 below
 <
-Ensure
+ensure
+-
 antivirus
+-
 exclusions
 >
 .

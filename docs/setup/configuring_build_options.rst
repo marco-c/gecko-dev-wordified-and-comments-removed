@@ -123,6 +123,10 @@ the
 source
 tree
 .
+.
+.
+_setting_up_a_mozconfig
+:
 Using
 a
 mozconfig
@@ -3080,6 +3084,8 @@ ref
 unified
 builds
 <
-unified_builds
+unified
+-
+builds
 >
 .
