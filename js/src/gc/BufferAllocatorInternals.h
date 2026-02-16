@@ -1866,7 +1866,7 @@ bool
 >
 allocatedDuringCollection
 ;
-MainThreadData
+MainThreadOrGCTaskData
 <
 bool
 >
