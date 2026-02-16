@@ -1433,7 +1433,6 @@ catch
 e
 =
 >
-{
 console
 .
 warn
@@ -1454,8 +1453,6 @@ e
 .
 message
 )
-;
-}
 )
 ;
 }
