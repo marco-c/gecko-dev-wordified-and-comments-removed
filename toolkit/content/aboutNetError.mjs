@@ -99,6 +99,7 @@ gIsCertError
 isCaptive
 gErrorCode
 gHasSts
+gOffline
 searchParams
 getHostName
 getSubjectAltNames
@@ -4459,6 +4460,7 @@ getResolvedErrorConfig
 (
 gErrorCode
 context
+gOffline
 )
 ;
 /
@@ -8864,13 +8866,10 @@ init
 if
 (
 !
-(
-await
 NetErrorCard
 .
 isSupported
 (
-)
 )
 )
 {
