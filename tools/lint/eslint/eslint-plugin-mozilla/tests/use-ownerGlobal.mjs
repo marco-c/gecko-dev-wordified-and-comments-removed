@@ -407,11 +407,6 @@ messageId
 "
 useOwnerGlobal
 "
-type
-:
-"
-MemberExpression
-"
 }
 ]
 }

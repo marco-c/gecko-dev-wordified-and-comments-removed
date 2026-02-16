@@ -409,11 +409,6 @@ messageId
 "
 rejectPassingGlobalThis
 "
-type
-:
-"
-CallExpression
-"
 }
 ]
 }
@@ -436,11 +431,6 @@ messageId
 :
 "
 rejectModifyGlobalThis
-"
-type
-:
-"
-AssignmentExpression
 "
 }
 ]

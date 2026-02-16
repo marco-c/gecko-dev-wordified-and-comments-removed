@@ -419,11 +419,6 @@ data
 {
 url
 }
-type
-:
-"
-Literal
-"
 }
 ]
 }

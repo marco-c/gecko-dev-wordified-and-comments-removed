@@ -423,11 +423,6 @@ oldName
 :
 originalName
 }
-type
-:
-"
-MemberExpression
-"
 }
 ]
 }

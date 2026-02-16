@@ -404,11 +404,6 @@ messageId
 "
 rejectRelativeRequires
 "
-type
-:
-"
-CallExpression
-"
 }
 ]
 ;

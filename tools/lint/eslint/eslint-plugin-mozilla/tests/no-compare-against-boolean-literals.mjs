@@ -408,11 +408,6 @@ messageId
 "
 noCompareBoolean
 "
-type
-:
-"
-BinaryExpression
-"
 }
 ]
 ;

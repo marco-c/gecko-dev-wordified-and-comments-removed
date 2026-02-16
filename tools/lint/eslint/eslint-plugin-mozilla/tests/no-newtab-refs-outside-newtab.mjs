@@ -100,11 +100,6 @@ data
 {
 url
 }
-type
-:
-"
-Literal
-"
 }
 ]
 }

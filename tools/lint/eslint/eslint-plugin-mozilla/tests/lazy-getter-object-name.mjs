@@ -411,11 +411,6 @@ messageId
 "
 mustUseLazy
 "
-type
-:
-"
-CallExpression
-"
 }
 ]
 }

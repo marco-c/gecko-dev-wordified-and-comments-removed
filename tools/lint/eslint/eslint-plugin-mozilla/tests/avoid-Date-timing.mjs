@@ -395,7 +395,6 @@ function
 invalidCode
 (
 code
-type
 )
 {
 return
@@ -410,7 +409,6 @@ messageId
 "
 usePerfNow
 "
-type
 }
 ]
 }
@@ -488,9 +486,6 @@ now
 )
 ;
 "
-"
-CallExpression
-"
 )
 invalidCode
 (
@@ -500,9 +495,6 @@ Date
 (
 )
 ;
-"
-"
-NewExpression
 "
 )
 ]

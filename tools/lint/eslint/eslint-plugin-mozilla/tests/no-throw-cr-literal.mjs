@@ -410,11 +410,6 @@ errors
 [
 {
 messageId
-type
-:
-"
-ThrowStatement
-"
 }
 ]
 }

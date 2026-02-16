@@ -406,11 +406,6 @@ return
 {
 messageId
 data
-type
-:
-"
-CallExpression
-"
 }
 ]
 ;

@@ -406,11 +406,6 @@ messageId
 "
 preferIsInstance
 "
-type
-:
-"
-BinaryExpression
-"
 }
 ]
 ;

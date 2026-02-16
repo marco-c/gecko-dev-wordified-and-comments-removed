@@ -405,11 +405,6 @@ messageId
 "
 useSingleCall
 "
-type
-:
-"
-CallExpression
-"
 line
 column
 }

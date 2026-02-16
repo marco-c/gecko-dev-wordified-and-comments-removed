@@ -415,11 +415,6 @@ property
 :
 methodName
 }
-type
-:
-"
-ExpressionStatement
-"
 }
 ]
 }

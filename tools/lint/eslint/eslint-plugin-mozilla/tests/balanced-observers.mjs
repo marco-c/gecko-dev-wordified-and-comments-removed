@@ -408,11 +408,6 @@ messageId
 "
 noCorresponding
 "
-type
-:
-"
-Identifier
-"
 data
 :
 {

@@ -438,11 +438,6 @@ messageId
 "
 listenForEvents
 "
-type
-:
-"
-CallExpression
-"
 }
 ]
 ;

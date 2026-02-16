@@ -404,11 +404,6 @@ messageId
 "
 useStaticImport
 "
-type
-:
-"
-VariableDeclaration
-"
 }
 ]
 ;

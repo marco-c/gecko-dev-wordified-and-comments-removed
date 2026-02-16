@@ -406,11 +406,6 @@ messageId
 "
 preferBooleanCheck
 "
-type
-:
-"
-BinaryExpression
-"
 }
 ]
 ;

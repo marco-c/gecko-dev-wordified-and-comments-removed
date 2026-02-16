@@ -410,11 +410,6 @@ data
 {
 path
 }
-type
-:
-"
-CallExpression
-"
 }
 ]
 ;

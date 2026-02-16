@@ -408,11 +408,6 @@ errors
 [
 {
 messageId
-type
-:
-"
-CallExpression
-"
 }
 ]
 }

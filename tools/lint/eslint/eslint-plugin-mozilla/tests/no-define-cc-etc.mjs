@@ -445,11 +445,6 @@ name
 :
 variableName
 }
-type
-:
-"
-VariableDeclarator
-"
 }
 ;
 }

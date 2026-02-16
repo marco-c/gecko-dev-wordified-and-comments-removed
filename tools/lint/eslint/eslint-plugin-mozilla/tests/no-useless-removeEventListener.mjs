@@ -409,11 +409,6 @@ messageId
 "
 useOnce
 "
-type
-:
-"
-CallExpression
-"
 }
 ]
 }

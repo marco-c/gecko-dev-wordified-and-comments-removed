@@ -413,11 +413,6 @@ messageId
 "
 useIncludes
 "
-type
-:
-"
-BinaryExpression
-"
 }
 ]
 }

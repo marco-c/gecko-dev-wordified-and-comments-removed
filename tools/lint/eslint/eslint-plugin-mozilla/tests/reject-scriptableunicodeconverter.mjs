@@ -402,11 +402,6 @@ messageId
 "
 rejectScriptableUnicodeConverter
 "
-type
-:
-"
-MemberExpression
-"
 }
 ]
 ;

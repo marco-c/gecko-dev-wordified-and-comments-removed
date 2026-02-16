@@ -395,11 +395,6 @@ invalidCode
 code
 serviceName
 getterName
-type
-=
-"
-CallExpression
-"
 )
 {
 return
@@ -420,7 +415,6 @@ data
 serviceName
 getterName
 }
-type
 }
 ]
 }
@@ -611,9 +605,6 @@ uuid
 "
 "
 defineLazyServiceGetters
-"
-"
-ArrayExpression
 "
 )
 invalidCode

@@ -404,11 +404,6 @@ messageId
 "
 useAddSetup
 "
-type
-:
-"
-CallExpression
-"
 }
 ]
 ;

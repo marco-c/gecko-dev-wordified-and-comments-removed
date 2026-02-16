@@ -404,11 +404,6 @@ messageId
 "
 useConsoleError
 "
-type
-:
-"
-CallExpression
-"
 }
 ]
 ;

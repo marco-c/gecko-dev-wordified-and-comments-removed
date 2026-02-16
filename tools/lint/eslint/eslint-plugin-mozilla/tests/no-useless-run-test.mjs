@@ -413,11 +413,6 @@ messageId
 "
 noUselessRunTest
 "
-type
-:
-"
-FunctionDeclaration
-"
 }
 ]
 }
