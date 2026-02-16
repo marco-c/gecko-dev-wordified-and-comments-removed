@@ -12439,23 +12439,6 @@ CDATA
         
 t
 .
-value
-=
-t
-.
-lexer
-.
-lexmatch
-.
-group
-(
-"
-cdata
-"
-)
-        
-t
-.
 lexer
 .
 lineno
@@ -12470,6 +12453,23 @@ count
 "
 \
 n
+"
+)
+        
+t
+.
+value
+=
+t
+.
+lexer
+.
+lexmatch
+.
+group
+(
+"
+cdata
 "
 )
         
