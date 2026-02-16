@@ -1132,6 +1132,13 @@ patch
 {
 filename
 }
+.
+patch
+"
+"
+{
+filename
+}
 "
 \
 n
@@ -2283,6 +2290,19 @@ in
 oldfiles
 :
         
+if
+rel_path
+=
+=
+"
+updatev3
+.
+manifest
+"
+:
+            
+continue
+        
 new_file_abs
 =
 os
@@ -2504,20 +2524,8 @@ else
                     
 make_patch_instruction
 (
-patch_file
+rel_path
 manifest_file
-)
-                    
-path_relpath
-=
-os
-.
-path
-.
-relpath
-(
-patch_file
-partials_dir
 )
                     
 archivefiles
@@ -2527,7 +2535,7 @@ append
 f
 "
 {
-path_relpath
+rel_path
 }
 .
 patch
