@@ -35194,11 +35194,6 @@ NS_UNCONSTRAINEDSIZE
 StyleSize
 :
 :
-LengthPercentage
-(
-StyleLengthPercentage
-:
-:
 FromAppUnits
 (
 result
@@ -35206,7 +35201,6 @@ result
 BSize
 (
 aWM
-)
 )
 )
 :

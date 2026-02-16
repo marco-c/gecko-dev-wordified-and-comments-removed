@@ -1499,15 +1499,9 @@ return
 StyleSize
 :
 :
-LengthPercentage
-(
-LengthPercentage
-:
-:
 FromAppUnits
 (
 size
-)
 )
 ;
 }

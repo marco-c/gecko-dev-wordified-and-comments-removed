@@ -4744,11 +4744,6 @@ emplace
 StyleSize
 :
 :
-LengthPercentage
-(
-LengthPercentage
-:
-:
 FromAppUnits
 (
 frame
@@ -4784,7 +4779,6 @@ wm
 )
 )
 )
-)
 ;
 if
 (
@@ -4805,15 +4799,9 @@ emplace
 StyleSize
 :
 :
-LengthPercentage
-(
-LengthPercentage
-:
-:
 FromAppUnits
 (
 0
-)
 )
 )
 ;

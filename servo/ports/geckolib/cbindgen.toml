@@ -2498,6 +2498,14 @@ LengthPercent
 &
 )
 ;
+static
+inline
+StyleGenericSize
+FromAppUnits
+(
+nscoord
+)
+;
 "
 "
 "
