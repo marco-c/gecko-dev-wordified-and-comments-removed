@@ -724,7 +724,13 @@ false
 }
 result
 =
+std
+:
+:
+move
+(
 file
+)
 ;
 return
 true

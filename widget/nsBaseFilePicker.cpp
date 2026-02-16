@@ -1474,7 +1474,13 @@ rv
 }
 mDisplayDirectory
 =
+std
+:
+:
+move
+(
 directory
+)
 ;
 return
 NS_OK

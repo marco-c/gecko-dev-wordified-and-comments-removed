@@ -1685,7 +1685,13 @@ aGethashNoise
 ;
 mCacheDir
 =
+std
+:
+:
+move
+(
 aCacheDir
+)
 ;
 mDBService
 =

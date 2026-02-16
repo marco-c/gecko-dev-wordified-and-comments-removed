@@ -1926,7 +1926,13 @@ return
 }
 mCaretPosition
 =
+std
+:
+:
+move
+(
 newPos
+)
 ;
 SchedulePaint
 (

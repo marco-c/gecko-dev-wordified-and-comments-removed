@@ -5609,7 +5609,13 @@ rv
 }
 mHttpChannel
 =
+std
+:
+:
+move
+(
 http
+)
 ;
 return
 NS_OK

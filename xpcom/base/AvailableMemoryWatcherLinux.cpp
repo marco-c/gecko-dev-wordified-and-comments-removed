@@ -1036,7 +1036,13 @@ rv
 }
 mThread
 =
+std
+:
+:
+move
+(
 thread
+)
 ;
 UpdatePSIInfo
 (

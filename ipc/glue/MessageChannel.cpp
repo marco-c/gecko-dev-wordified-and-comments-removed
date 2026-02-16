@@ -2851,7 +2851,13 @@ aMessageChannelId
 ;
 mWorkerThread
 =
+std
+:
+:
+move
+(
 eventTarget
+)
 ;
 mShutdownTask
 =

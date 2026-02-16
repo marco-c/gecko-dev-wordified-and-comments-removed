@@ -19571,7 +19571,13 @@ get
 ;
 mTrashDir
 =
+std
+:
+:
+move
+(
 file
+)
 ;
 return
 NS_OK

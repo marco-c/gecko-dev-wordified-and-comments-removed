@@ -498,7 +498,13 @@ mSwapChain
 >
 mFrontBuffer
 =
+std
+:
+:
+move
+(
 newFront
+)
 ;
 }
 }
