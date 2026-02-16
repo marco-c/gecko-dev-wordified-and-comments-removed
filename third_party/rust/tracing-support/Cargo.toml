@@ -121,6 +121,14 @@ version
 build
 =
 false
+exclude
+=
+[
+"
+/
+android
+"
+]
 autolib
 =
 false
