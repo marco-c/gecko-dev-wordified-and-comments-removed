@@ -1899,6 +1899,12 @@ a
 return
 value
 .
+.
+.
+_cpp
+virtual
+final
+:
 Method
 declarations
 must
@@ -3067,6 +3073,11 @@ check
 with
 autofixes
 .
+.
+.
+_header
+files
+:
 Header
 files
 -
