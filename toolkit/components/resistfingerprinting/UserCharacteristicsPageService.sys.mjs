@@ -3981,12 +3981,6 @@ set
 :
 [
 "
-canvasdata11Webgl
-"
-"
-canvasdata11WebglSoftware
-"
-"
 voicesCount
 "
 "
