@@ -479,13 +479,6 @@ psutil
 4
 .
 2
-<
-=
-5
-.
-9
-.
-4
 :
 telemetry
 will
