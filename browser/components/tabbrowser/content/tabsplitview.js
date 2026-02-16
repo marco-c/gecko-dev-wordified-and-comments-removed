@@ -622,6 +622,8 @@ splitViewId
 )
 {
 return
+parseInt
+(
 this
 .
 getAttribute
@@ -629,6 +631,7 @@ getAttribute
 "
 splitViewId
 "
+)
 )
 ;
 }
