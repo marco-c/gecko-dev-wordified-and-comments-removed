@@ -419,8 +419,6 @@ res
 ASSERT_FALSE
 (
 pattern
-.
-_0
 )
 ;
 }
@@ -480,8 +478,6 @@ res
 ASSERT_TRUE
 (
 pattern
-.
-_0
 )
 ;
 }
@@ -547,8 +543,6 @@ res
 ASSERT_TRUE
 (
 pattern
-.
-_0
 )
 ;
 auto
@@ -630,8 +624,6 @@ res
 ASSERT_TRUE
 (
 pattern
-.
-_0
 )
 ;
 auto
@@ -880,8 +872,6 @@ rv
 ASSERT_TRUE
 (
 pattern
-.
-_0
 )
 ;
 nsAutoCString
@@ -5241,8 +5231,6 @@ res
 ASSERT_TRUE
 (
 pattern
-.
-_0
 )
 ;
 nsCString
@@ -5470,8 +5458,6 @@ res
 ASSERT_TRUE
 (
 pattern
-.
-_0
 )
 ;
 UrlPatternInput

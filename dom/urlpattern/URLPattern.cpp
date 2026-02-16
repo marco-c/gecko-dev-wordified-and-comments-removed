@@ -25,6 +25,17 @@ MozURL
 .
 h
 "
+#
+include
+"
+mozilla
+/
+net
+/
+URLPatternGlue
+.
+h
+"
 namespace
 mozilla
 :

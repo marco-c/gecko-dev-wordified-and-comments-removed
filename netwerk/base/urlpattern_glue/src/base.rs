@@ -100,7 +100,7 @@ false
 [
 repr
 (
-C
+transparent
 )
 ]
 pub
