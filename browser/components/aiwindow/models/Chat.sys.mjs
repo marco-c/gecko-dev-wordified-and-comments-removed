@@ -145,6 +145,7 @@ getOpenTabs
 searchBrowsingHistory
 GetPageContent
 RunSearch
+getUserMemories
 }
 from
 "
@@ -301,6 +302,9 @@ bind
 (
 RunSearch
 )
+get_user_memories
+:
+getUserMemories
 }
 /
 *
