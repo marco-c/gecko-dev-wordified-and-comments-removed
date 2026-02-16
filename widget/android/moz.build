@@ -922,4 +922,7 @@ OS_LIBS
 "
 android
 "
+"
+jnigraphics
+"
 ]
