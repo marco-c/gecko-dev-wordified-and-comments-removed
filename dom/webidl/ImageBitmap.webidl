@@ -4062,8 +4062,6 @@ default
 "
 }
 ;
-/
-/
 enum
 ResizeQuality
 {
@@ -4128,8 +4126,6 @@ unsigned
 long
 resizeHeight
 ;
-/
-/
 ResizeQuality
 resizeQuality
 =
