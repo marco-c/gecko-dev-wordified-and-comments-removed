@@ -197,6 +197,12 @@ bool
 aCaptureStacks
 )
 ;
+static
+bool
+GetLogJSStacks
+(
+)
+;
 bool
 ShouldLog
 (
