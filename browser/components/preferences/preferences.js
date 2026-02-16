@@ -3002,6 +3002,14 @@ category
 )
 ;
 }
+categoryModule
+.
+handlePrefControlledSection
+?
+.
+(
+)
+;
 let
 gleanId
 =
