@@ -1270,6 +1270,16 @@ aDelta
 const
 ;
 bool
+CanScrollOrOverscroll
+(
+const
+ParentLayerPoint
+&
+aDelta
+)
+const
+;
+bool
 CanScrollWithWheel
 (
 const
