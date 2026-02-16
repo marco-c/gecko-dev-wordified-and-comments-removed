@@ -1140,6 +1140,23 @@ filename
 )
 )
     
+def
+is_standalone
+(
+header_name
+)
+:
+        
+return
+header_name
+.
+startswith
+(
+"
+JsSrc
+"
+)
+    
 all_objs
 options
 =
@@ -1299,6 +1316,15 @@ category_name
 {
 }
             
+metric
+.
+standalone
+=
+is_standalone
+(
+filename
+)
+            
 all_metric_header_files
 [
 filename
@@ -1364,16 +1390,28 @@ h
 )
             
 {
+                
 "
 header_name
 "
 :
 header_name
+                
 "
 get_metric_id
 "
 :
 get_metric_id
+                
+"
+standalone
+"
+:
+is_standalone
+(
+header_name
+)
+            
 }
         
 )

@@ -338,6 +338,29 @@ tag
 >
 "
     
+suffix
+=
+"
+Metric
+"
+    
+if
+getattr
+(
+obj
+"
+standalone
+"
+False
+)
+:
+        
+suffix
+=
+"
+Standalone
+"
+    
 if
 obj
 .
@@ -350,8 +373,12 @@ counter
 :
         
 return
+f
 "
-CounterMetric
+Counter
+{
+suffix
+}
 <
 impl
 :
@@ -373,9 +400,7 @@ obj
 type
 )
 +
-"
-Metric
-"
+suffix
 def
 extra_type_name
 (
