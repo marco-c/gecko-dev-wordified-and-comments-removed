@@ -218,30 +218,30 @@ STRUCT
 [
             
 (
-'
+"
 version
-'
-'
+"
+"
 uint32
-'
+"
 )
             
 (
-'
+"
 filename_size
-'
-'
+"
+"
 uint16
-'
+"
 )
             
 (
-'
+"
 filename
-'
-'
+"
+"
 filename_size
-'
+"
 )
         
 ]

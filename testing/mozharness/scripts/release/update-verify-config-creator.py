@@ -360,10 +360,18 @@ False
 >
 all
 (
+    
+.
+.
+.
 is_triangular
 (
 x
 )
+    
+.
+.
+.
 for
 x
 in
@@ -384,6 +392,10 @@ in
 91
 105
 ]
+    
+.
+.
+.
 )
     
 True
@@ -393,11 +405,19 @@ True
 >
 all
 (
+    
+.
+.
+.
 not
 is_triangular
 (
 x
 )
+    
+.
+.
+.
 for
 x
 in
@@ -418,6 +438,10 @@ in
 98
 112
 ]
+    
+.
+.
+.
 )
     
 True

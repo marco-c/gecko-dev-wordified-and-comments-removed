@@ -7635,13 +7635,13 @@ module
     
     
 {
-      
+        
 "
 MAILNEWS
 "
 :
 {
-        
+            
 "
 description
 "
@@ -7655,25 +7655,25 @@ comm
 /
 mail
 "
-        
+            
 "
 code
 "
 :
 16
-        
+            
 "
 members
 "
 :
 {
-          
+                
 "
 NS_MSG_ERROR_MBOX_MALFORMED
 "
 :
 {
-            
+                    
 "
 severity
 "
@@ -7681,13 +7681,13 @@ severity
 "
 FAILURE
 "
-            
+                    
 "
 code
 "
 :
 36
-            
+                    
 "
 description
 "
@@ -7707,11 +7707,11 @@ separator
 line
 .
 "
-          
+                
+}
+            
 }
         
-}
-      
 }
     
 }

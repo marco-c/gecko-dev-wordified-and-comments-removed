@@ -12494,6 +12494,7 @@ marionette
 .
 execute_script
 (
+                
 "
 return
 arguments
@@ -12507,13 +12508,17 @@ arguments
 ]
 ;
 "
-                                               
+                
 script_args
 =
 (
+                    
 2
+                    
 3
+                
 )
+            
 )
             
 assert
@@ -12542,6 +12547,7 @@ marionette
 .
 execute_script
 (
+                
 "
 return
 arguments
@@ -12557,6 +12563,7 @@ script_args
 (
 some_element
 )
+            
 )
             
 assert
@@ -12734,6 +12741,7 @@ marionette
 .
 execute_script
 (
+                
 "
 return
 global
@@ -12744,6 +12752,7 @@ test1
 new_sandbox
 =
 False
+            
 )
             
 assert
@@ -14334,6 +14343,7 @@ driver
 add_cookie
 (
 {
+                
 "
 name
 "
@@ -14341,6 +14351,7 @@ name
 "
 foo
 "
+                
 "
 value
 "
@@ -14348,6 +14359,7 @@ value
 "
 bar
 "
+                
 "
 path
 "
@@ -14355,12 +14367,13 @@ path
 "
 /
 "
-                               
+                
 "
 secure
 "
 :
 True
+            
 }
 )
         

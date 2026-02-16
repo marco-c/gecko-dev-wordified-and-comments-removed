@@ -70,11 +70,11 @@ ipg_measure_duration
 600
 output_file_path
 =
-'
+"
 power
 -
 testing
-'
+"
 )
        
 mip
@@ -96,13 +96,13 @@ finalize_power_measurements
 (
 test_name
 =
-'
+"
 raptor
 -
 test
 -
 name
-'
+"
 )
        
 perfherder_data

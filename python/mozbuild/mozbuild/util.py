@@ -4424,14 +4424,15 @@ StrictOrderingOnAppendListWithFlagsFactory
 (
 {
             
-'
+"
 foo
-'
+"
 :
 bool
-'
+            
+"
 bar
-'
+"
 :
 unicode
         
@@ -4443,23 +4444,23 @@ foo
 FooList
 (
 [
-'
+"
 a
-'
-'
+"
+"
 b
-'
-'
+"
+"
 c
-'
+"
 ]
 )
         
 foo
 [
-'
+"
 a
-'
+"
 ]
 .
 foo
@@ -4468,16 +4469,16 @@ True
         
 foo
 [
-'
+"
 b
-'
+"
 ]
 .
 bar
 =
-'
+"
 bar
-'
+"
     
 "
 "
