@@ -79,18 +79,6 @@ mockk
 .
 verify
 import
-mozilla
-.
-components
-.
-browser
-.
-state
-.
-store
-.
-BrowserStore
-import
 org
 .
 junit
@@ -128,7 +116,7 @@ mockk
 )
 store
 =
-BrowserStore
+mockk
 (
 )
 sessionId

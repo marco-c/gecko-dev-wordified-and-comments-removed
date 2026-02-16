@@ -4376,7 +4376,7 @@ browserStore
 :
 BrowserStore
 =
-BrowserStore
+mock
 (
 )
 appStore

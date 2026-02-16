@@ -1865,7 +1865,7 @@ store
 :
 BrowserStore
 =
-BrowserStore
+mock
 (
 )
 override

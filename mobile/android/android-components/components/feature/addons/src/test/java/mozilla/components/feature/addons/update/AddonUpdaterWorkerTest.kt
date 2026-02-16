@@ -367,8 +367,11 @@ initWebExtensionSupport
 val
 store
 =
+spy
+(
 BrowserStore
 (
+)
 )
 val
 engine

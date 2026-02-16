@@ -79,18 +79,6 @@ mozilla
 .
 components
 .
-browser
-.
-state
-.
-store
-.
-BrowserStore
-import
-mozilla
-.
-components
-.
 support
 .
 test
@@ -132,7 +120,7 @@ provider
 =
 SearchActionProvider
 (
-BrowserStore
+mock
 (
 )
 mock
@@ -176,7 +164,7 @@ provider
 =
 SearchActionProvider
 (
-BrowserStore
+mock
 (
 )
 mock
@@ -220,7 +208,7 @@ SearchActionProvider
 (
 store
 =
-BrowserStore
+mock
 (
 )
 searchEngine

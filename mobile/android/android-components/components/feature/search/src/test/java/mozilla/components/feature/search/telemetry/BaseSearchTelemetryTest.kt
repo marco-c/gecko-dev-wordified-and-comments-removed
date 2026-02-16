@@ -684,8 +684,10 @@ mock
 )
 val
 store
-=
+:
 BrowserStore
+=
+mock
 (
 )
 val

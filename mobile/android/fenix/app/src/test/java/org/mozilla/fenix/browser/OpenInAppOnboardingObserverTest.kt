@@ -1187,7 +1187,7 @@ spyk
 OpenInAppOnboardingObserver
 (
 testContext
-BrowserStore
+mockk
 (
 )
 mockk
@@ -1232,7 +1232,7 @@ spyk
 OpenInAppOnboardingObserver
 (
 testContext
-BrowserStore
+mockk
 (
 )
 mockk

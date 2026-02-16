@@ -659,7 +659,7 @@ feature
 addSessionProvider
 (
 resources
-BrowserStore
+mock
 (
 )
 mock
@@ -822,8 +822,10 @@ any
 )
 val
 store
-=
+:
 BrowserStore
+=
+mock
 (
 )
 feature
@@ -1626,7 +1628,7 @@ feature
 .
 addSearchActionProvider
 (
-BrowserStore
+mock
 (
 )
 mock

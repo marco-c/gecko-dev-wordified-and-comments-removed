@@ -131,18 +131,6 @@ components
 .
 browser
 .
-state
-.
-store
-.
-BrowserStore
-import
-mozilla
-.
-components
-.
-browser
-.
 toolbar
 .
 BrowserToolbar
@@ -2515,7 +2503,7 @@ activity
 activity
 store
 =
-BrowserStore
+mock
 (
 )
 tabId

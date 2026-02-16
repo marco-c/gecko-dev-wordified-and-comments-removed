@@ -1115,7 +1115,7 @@ browserStore
 :
 BrowserStore
 =
-BrowserStore
+mockk
 (
 )
 settings

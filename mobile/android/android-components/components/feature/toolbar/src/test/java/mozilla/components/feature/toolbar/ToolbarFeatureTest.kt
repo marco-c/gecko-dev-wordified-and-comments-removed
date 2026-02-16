@@ -77,18 +77,6 @@ mozilla
 .
 components
 .
-browser
-.
-state
-.
-store
-.
-BrowserStore
-import
-mozilla
-.
-components
-.
 concept
 .
 toolbar
@@ -174,7 +162,7 @@ ToolbarFeature
 toolbar
 store
 =
-BrowserStore
+mock
 (
 )
 loadUrlUseCase
@@ -231,7 +219,7 @@ ToolbarFeature
 mock
 (
 )
-BrowserStore
+mock
 (
 )
 mock
@@ -322,7 +310,7 @@ ToolbarFeature
 mock
 (
 )
-BrowserStore
+mock
 (
 )
 mock
@@ -398,7 +386,7 @@ ToolbarFeature
 mock
 (
 )
-BrowserStore
+mock
 (
 )
 mock
@@ -474,7 +462,7 @@ ToolbarFeature
 mock
 (
 )
-BrowserStore
+mock
 (
 )
 mock
@@ -540,7 +528,7 @@ ToolbarFeature
 mock
 (
 )
-BrowserStore
+mock
 (
 )
 mock
@@ -606,7 +594,7 @@ ToolbarFeature
 toolbar
 store
 =
-BrowserStore
+mock
 (
 )
 loadUrlUseCase

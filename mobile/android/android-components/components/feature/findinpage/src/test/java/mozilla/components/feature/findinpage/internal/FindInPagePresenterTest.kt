@@ -663,7 +663,7 @@ presenter
 =
 FindInPagePresenter
 (
-BrowserStore
+mock
 (
 )
 view
@@ -743,7 +743,7 @@ presenter
 =
 FindInPagePresenter
 (
-BrowserStore
+mock
 (
 )
 view

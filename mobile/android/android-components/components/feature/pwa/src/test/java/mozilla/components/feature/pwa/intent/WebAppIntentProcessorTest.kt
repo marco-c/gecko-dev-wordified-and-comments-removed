@@ -458,7 +458,7 @@ processor
 =
 WebAppIntentProcessor
 (
-BrowserStore
+mock
 (
 )
 mock

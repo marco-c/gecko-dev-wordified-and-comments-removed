@@ -81,12 +81,6 @@ kotlinx
 .
 coroutines
 .
-CoroutineDispatcher
-import
-kotlinx
-.
-coroutines
-.
 CoroutineScope
 import
 kotlinx
@@ -94,12 +88,6 @@ kotlinx
 coroutines
 .
 Deferred
-import
-kotlinx
-.
-coroutines
-.
-Dispatchers
 import
 kotlinx
 .
@@ -1494,13 +1482,6 @@ openPopupInTab
 Boolean
 =
 false
-mainDispatcher
-:
-CoroutineDispatcher
-=
-Dispatchers
-.
-Main
 onNewTabOverride
 :
 (
@@ -1617,7 +1598,6 @@ registerInstalledExtensions
 (
 store
 runtime
-mainDispatcher
 )
 /
 /
@@ -1638,7 +1618,6 @@ sessions
 registerHandlersForNewSessions
 (
 store
-mainDispatcher
 )
 runtime
 .
@@ -2441,7 +2420,6 @@ registerInstalledExtensions
 (
 store
 runtime
-mainDispatcher
 )
 }
 override
@@ -2539,9 +2517,6 @@ BrowserStore
 runtime
 :
 WebExtensionRuntime
-mainDispatcher
-:
-CoroutineDispatcher
 )
 {
 runtime
@@ -2572,7 +2547,6 @@ closeUnsupportedTabs
 (
 store
 extensions
-mainDispatcher
 )
 initializationResult
 .
@@ -2880,9 +2854,6 @@ List
 <
 WebExtension
 >
-mainDispatcher
-:
-CoroutineDispatcher
 )
 {
 val
@@ -2961,11 +2932,6 @@ scope
 store
 .
 flowScoped
-(
-dispatcher
-=
-mainDispatcher
-)
 {
 flow
 -
@@ -3208,9 +3174,6 @@ registerHandlersForNewSessions
 store
 :
 BrowserStore
-mainDispatcher
-:
-CoroutineDispatcher
 )
 {
 /
@@ -3243,11 +3206,6 @@ view
 store
 .
 flowScoped
-(
-dispatcher
-=
-mainDispatcher
-)
 {
 flow
 -

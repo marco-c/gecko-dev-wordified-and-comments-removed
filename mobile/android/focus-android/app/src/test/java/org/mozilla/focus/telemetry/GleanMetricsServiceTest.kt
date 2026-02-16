@@ -231,8 +231,14 @@ java
 val
 store
 =
-BrowserStore
+mock
 (
+BrowserStore
+:
+:
+class
+.
+java
 )
 val
 engine

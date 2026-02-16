@@ -510,7 +510,7 @@ security
 cert
 .
 X509Certificate
-internal
+private
 const
 val
 PAGE_LOAD_COMPLETION_PROGRESS

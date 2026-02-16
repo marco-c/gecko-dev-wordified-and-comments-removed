@@ -2737,7 +2737,7 @@ RecentSyncedTabState
 .
 Success
 (
-emptyList
+mockk
 (
 )
 )
@@ -2806,7 +2806,7 @@ RecentSyncedTabState
 .
 Success
 (
-emptyList
+mockk
 (
 )
 )

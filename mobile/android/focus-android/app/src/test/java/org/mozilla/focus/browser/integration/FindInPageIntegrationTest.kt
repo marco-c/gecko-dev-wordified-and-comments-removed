@@ -117,18 +117,6 @@ components
 .
 browser
 .
-state
-.
-store
-.
-BrowserStore
-import
-mozilla
-.
-components
-.
-browser
-.
 toolbar
 .
 BrowserToolbar
@@ -247,7 +235,7 @@ spy
 (
 FindInPageIntegration
 (
-BrowserStore
+mock
 (
 )
 findInPageBar
@@ -344,7 +332,7 @@ spy
 (
 FindInPageIntegration
 (
-BrowserStore
+mock
 (
 )
 findInPageBar
