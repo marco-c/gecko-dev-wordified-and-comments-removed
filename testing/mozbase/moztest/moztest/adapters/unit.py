@@ -266,6 +266,20 @@ result_callbacks
         
 self
 .
+group
+=
+kwargs
+.
+pop
+(
+"
+group
+"
+None
+)
+        
+self
+.
 passed
 =
 0
@@ -370,6 +384,11 @@ test
 id
 (
 )
+group
+=
+self
+.
+group
 )
     
 def
@@ -756,6 +775,12 @@ test
 extra
 =
 extra
+            
+group
+=
+self
+.
+group
         
 )
     
@@ -837,6 +862,12 @@ test
 extra
 =
 extra
+            
+group
+=
+self
+.
+group
         
 )
     
@@ -863,6 +894,7 @@ logger
 .
 test_end
 (
+            
 test
 .
 id
@@ -879,6 +911,12 @@ PASS
 extra
 =
 extra
+group
+=
+self
+.
+group
+        
 )
     
 def
@@ -959,6 +997,12 @@ test
 extra
 =
 extra
+            
+group
+=
+self
+.
+group
         
 )
     
@@ -1000,6 +1044,7 @@ logger
 .
 test_end
 (
+            
 test
 .
 id
@@ -1016,6 +1061,12 @@ FAIL
 extra
 =
 extra
+group
+=
+self
+.
+group
+        
 )
     
 def
@@ -1063,20 +1114,30 @@ test
 id
 (
 )
+            
 "
 SKIP
 "
+            
 message
 =
 reason
+            
 expected
 =
 "
 PASS
 "
+            
 extra
 =
 extra
+            
+group
+=
+self
+.
+group
         
 )
 class

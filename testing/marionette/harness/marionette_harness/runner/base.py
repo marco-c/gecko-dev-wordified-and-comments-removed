@@ -1413,6 +1413,20 @@ capabilities
 "
 )
         
+self
+.
+group
+=
+kwargs
+.
+pop
+(
+"
+group
+"
+None
+)
+        
 StructuredTestRunner
 .
 __init__
@@ -1465,6 +1479,12 @@ result_callbacks
 self
 .
 result_callbacks
+            
+group
+=
+self
+.
+group
         
 )
     
@@ -7715,6 +7735,9 @@ run_test
 self
 filepath
 expected
+group
+=
+None
 )
 :
         
@@ -7867,6 +7890,10 @@ result_callbacks
 self
 .
 result_callbacks
+                
+group
+=
+group
             
 )
             
@@ -8138,11 +8165,79 @@ shuffle
 tests
 )
         
+current_group
+=
+None
+        
 for
 test
 in
 tests
 :
+            
+group
+=
+test
+.
+get
+(
+"
+group
+"
+)
+            
+if
+group
+:
+                
+group
+=
+self
+.
+_fix_test_path
+(
+group
+)
+            
+if
+group
+!
+=
+current_group
+:
+                
+if
+current_group
+is
+not
+None
+:
+                    
+self
+.
+logger
+.
+group_end
+(
+name
+=
+current_group
+)
+                
+current_group
+=
+group
+                
+self
+.
+logger
+.
+group_start
+(
+name
+=
+current_group
+)
             
 self
 .
@@ -8160,6 +8255,9 @@ test
 expected
 "
 ]
+group
+=
+group
 )
             
 if
@@ -8171,6 +8269,24 @@ record_crash
 :
                 
 break
+        
+if
+current_group
+is
+not
+None
+:
+            
+self
+.
+logger
+.
+group_end
+(
+name
+=
+current_group
+)
     
 def
 run_test_sets
