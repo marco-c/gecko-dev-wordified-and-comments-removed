@@ -28,6 +28,13 @@ android
 ]
 [
 "
+test_extensions_late_startup
+.
+html
+"
+]
+[
+"
 test_geckoview_translations
 .
 html
