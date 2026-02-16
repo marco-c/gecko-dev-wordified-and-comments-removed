@@ -1454,6 +1454,11 @@ Lock
 )
 ;
 void
+StartCacheWriteIfReady
+(
+)
+;
+void
 StartCacheWrite
 (
 )
@@ -1803,6 +1808,11 @@ mScripts
 ;
 bool
 mStartupFinished
+=
+false
+;
+bool
+mStartupHasAdvancedToCacheWritingStage
 =
 false
 ;
