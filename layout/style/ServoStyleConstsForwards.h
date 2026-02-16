@@ -194,6 +194,9 @@ mozilla
 struct
 StyleCalcLengthPercentage
 ;
+struct
+StyleNumericValue
+;
 namespace
 gfx
 {
