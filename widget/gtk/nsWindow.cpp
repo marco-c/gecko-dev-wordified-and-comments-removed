@@ -4072,8 +4072,7 @@ value
 )
 )
 {
-aGeckoEvent
-.
+int32_t
 tiltX
 =
 int32_t
@@ -4086,7 +4085,6 @@ value
 )
 )
 ;
-}
 if
 (
 gdk_event_get_axis
@@ -4098,8 +4096,7 @@ value
 )
 )
 {
-aGeckoEvent
-.
+int32_t
 tiltY
 =
 int32_t
@@ -4112,6 +4109,17 @@ value
 )
 )
 ;
+aGeckoEvent
+.
+mTilt
+.
+emplace
+(
+tiltX
+tiltY
+)
+;
+}
 }
 if
 (

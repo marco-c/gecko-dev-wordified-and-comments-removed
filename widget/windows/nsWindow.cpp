@@ -33480,7 +33480,9 @@ mTiltX
 =
 aPointerInfo
 .
-tiltX
+ComputeTiltX
+(
+)
 ;
 touchData
 .
@@ -33488,7 +33490,9 @@ mTiltY
 =
 aPointerInfo
 .
-tiltY
+ComputeTiltY
+(
+)
 ;
 touchData
 .
