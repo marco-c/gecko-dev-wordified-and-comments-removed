@@ -7387,6 +7387,11 @@ class
 ]
 )
 {
+[
+mClickThroughMouseDownEvent
+release
+]
+;
 mClickThroughMouseDownEvent
 =
 [
