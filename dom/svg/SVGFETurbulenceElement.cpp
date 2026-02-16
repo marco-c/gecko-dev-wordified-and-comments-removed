@@ -85,7 +85,7 @@ SVG_STITCHTYPE_NOSTITCH
 2
 ;
 static
-const
+constexpr
 int32_t
 MAX_OCTAVES
 =

@@ -471,14 +471,14 @@ return
 mViewBox
 ;
 }
+SVGAnimatedViewBox
+mViewBox
+;
 gfx
 :
 :
 Size
 mViewportSize
-;
-SVGAnimatedViewBox
-mViewBox
 ;
 SVGAnimatedPreserveAspectRatio
 mPreserveAspectRatio
