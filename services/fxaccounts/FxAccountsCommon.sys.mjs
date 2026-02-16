@@ -651,6 +651,16 @@ command_received
 ;
 export
 let
+ON_SERVICE_ENABLED_NOTIFICATION
+=
+"
+fxaccounts
+:
+service_enabled
+"
+;
+export
+let
 FXA_PUSH_SCOPE_ACCOUNT_UPDATE
 =
 "
