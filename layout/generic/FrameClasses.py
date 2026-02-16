@@ -784,8 +784,6 @@ TextInput
 REPLACED
 |
 LEAF
-|
-BACKDROP_UNSUPPORTED
 )
     
 Frame
@@ -984,8 +982,6 @@ TextInput
 REPLACED
 |
 LEAF
-|
-BACKDROP_UNSUPPORTED
 )
     
 Frame
@@ -1493,8 +1489,6 @@ TextInput
 REPLACED
 |
 LEAF
-|
-BACKDROP_UNSUPPORTED
 )
     
 Frame
