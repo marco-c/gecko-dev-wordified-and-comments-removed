@@ -19,7 +19,7 @@ c
 )
 2018
 -
-2025
+2026
 Cosmin
 Truta
 Copyright
@@ -74,9 +74,9 @@ through
 .
 6
 .
-54
+55
 -
-January
+February
 2026
 Updated
 and

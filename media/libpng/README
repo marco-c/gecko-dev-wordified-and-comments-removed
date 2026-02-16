@@ -6,7 +6,7 @@ version
 .
 6
 .
-54
+55
 =
 =
 =
@@ -297,6 +297,7 @@ libpng
 is
 or
 at
+<
 https
 :
 /
@@ -304,6 +305,7 @@ https
 zlib
 .
 net
+>
 .
 You
 may
@@ -337,6 +339,7 @@ can
 find
 these
 at
+<
 http
 :
 /
@@ -354,6 +357,7 @@ png
 pngdocs
 .
 html
+>
 .
 This
 code
@@ -362,6 +366,7 @@ currently
 being
 archived
 at
+<
 https
 :
 /
@@ -371,12 +376,14 @@ libpng
 sourceforge
 .
 io
+>
 in
 the
 download
 area
 and
 at
+<
 http
 :
 /
@@ -386,6 +393,7 @@ libpng
 download
 /
 src
+>
 .
 This
 release
@@ -444,6 +452,7 @@ is
 required
 ;
 visit
+<
 https
 :
 /
@@ -463,6 +472,7 @@ png
 mng
 -
 implement
+>
 to
 subscribe
 .
@@ -493,6 +503,7 @@ is
 required
 ;
 visit
+<
 https
 :
 /
@@ -512,6 +523,7 @@ png
 mng
 -
 misc
+>
 to
 subscribe
 .
