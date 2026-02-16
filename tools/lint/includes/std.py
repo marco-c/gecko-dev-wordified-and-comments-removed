@@ -1890,6 +1890,10 @@ strerror
 "
 strlen
 "
+        
+"
+strnlen
+"
     
 ]
     
