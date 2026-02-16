@@ -2454,3 +2454,8 @@ launcher
 BIN_SUFFIX
 #
 endif
+RESPATH
+/
+distribution
+/
+*
