@@ -228,7 +228,7 @@ component
 .
 html
 )
-javascript
+jsx
 class
 Application
 extends
@@ -299,7 +299,7 @@ optimized
 in
 React
 .
-javascript
+jsx
 function
 Application
 (
@@ -1691,7 +1691,7 @@ subtree
 *
 *
 .
-javascript
+jsx
 class
 ComplexPanel
 extends
@@ -2016,7 +2016,7 @@ for
 reference
 equality
 .
-javascript
+jsx
 class
 ComplexPanel
 extends

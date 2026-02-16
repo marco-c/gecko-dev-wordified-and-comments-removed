@@ -6711,7 +6711,7 @@ this
 Web
 IDL
 :
-webidl
+text
 dictionary
 Dict
 {
@@ -8418,7 +8418,7 @@ example
 this
 IDL
 :
-webidl
+text
 undefined
 passUnion
 (

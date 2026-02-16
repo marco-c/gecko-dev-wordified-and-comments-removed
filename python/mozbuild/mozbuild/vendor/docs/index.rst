@@ -220,7 +220,7 @@ yaml
 :
 language
 :
-YAML
+text
 Common
 Vendoring
 Operations

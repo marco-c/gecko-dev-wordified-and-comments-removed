@@ -2819,7 +2819,7 @@ code
 block
 :
 :
-JavaScript
+text
 UrlbarResult
 {
 constructor

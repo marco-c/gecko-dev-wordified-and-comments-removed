@@ -1791,7 +1791,7 @@ Consider
 the
 following
 .
-css
+text
 :
 root
 {
@@ -2062,7 +2062,7 @@ border
 width
 )
 .
-css
+text
 :
 root
 {
@@ -2287,7 +2287,7 @@ basis
 like
 below
 :
-css
+text
 :
 root
 {
@@ -2854,7 +2854,7 @@ reduced
 color
 palette
 .
-css
+text
 :
 root
 {
@@ -2981,7 +2981,7 @@ something
 like
 this
 :
-css
+text
 :
 root
 {
@@ -3144,7 +3144,7 @@ but
 not
 controls
 .
-css
+text
 :
 root
 {
@@ -3361,7 +3361,7 @@ to
 something
 brighter
 .
-css
+text
 :
 root
 {
@@ -3529,7 +3529,7 @@ CSS
 system
 colors
 .
-css
+text
 :
 root
 {
@@ -3739,7 +3739,7 @@ particular
 Something
 like
 :
-css
+text
 :
 root
 {

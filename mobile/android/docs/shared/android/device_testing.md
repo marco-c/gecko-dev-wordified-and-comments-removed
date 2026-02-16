@@ -293,7 +293,7 @@ arm64
 -
 v8a
 :
-patch
+diff
 run
 :
 commands
@@ -390,7 +390,7 @@ arm64
 v8a
 again
 :
-patch
+diff
 run
 :
 commands
@@ -552,7 +552,7 @@ to
 run
 on
 :
-patch
+diff
 device
 :
 -

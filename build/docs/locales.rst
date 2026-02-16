@@ -1466,7 +1466,7 @@ code
 block
 :
 :
-toml
+text
 [
 paths
 ]

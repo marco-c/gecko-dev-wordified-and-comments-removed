@@ -1511,7 +1511,7 @@ of
 sample
 browser
 :
-XML
+text
 <
 manifest
 xmlns

@@ -514,7 +514,7 @@ mjs
 code
 :
 :
-java
+javascript
 this
 .
 registerListener
@@ -965,7 +965,7 @@ js
 code
 :
 :
-java
+javascript
 {
 name
 :
