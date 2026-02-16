@@ -71,7 +71,7 @@ MOZ_RAII
 AutoReferenceChainGuard
 {
 static
-const
+constexpr
 int16_t
 sDefaultMaxChainLength
 =
@@ -80,7 +80,7 @@ sDefaultMaxChainLength
 public
 :
 static
-const
+constexpr
 int16_t
 noChain
 =

@@ -278,14 +278,14 @@ StyleFilter
 &
 mFilter
 ;
-nscolor
-mShadowFallbackColor
-;
 nsIntRect
 mTargetBoundsInFilterSpace
 ;
 gfxMatrix
 mFrameSpaceInCSSPxToFilterSpaceTransform
+;
+nscolor
+mShadowFallbackColor
 ;
 }
 ;

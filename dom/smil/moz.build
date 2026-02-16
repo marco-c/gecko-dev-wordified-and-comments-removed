@@ -235,11 +235,6 @@ SMILParserUtils
 cpp
 "
 "
-SMILRepeatCount
-.
-cpp
-"
-"
 SMILStringType
 .
 cpp

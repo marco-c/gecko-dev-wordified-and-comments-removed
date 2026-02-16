@@ -765,9 +765,6 @@ float
 aElement
 )
 ;
-SVGViewBox
-mBaseVal
-;
 std
 :
 :
@@ -776,6 +773,9 @@ unique_ptr
 SVGViewBox
 >
 mAnimVal
+;
+SVGViewBox
+mBaseVal
 ;
 bool
 mHasBaseVal

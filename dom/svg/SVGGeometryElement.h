@@ -912,9 +912,6 @@ FlushIfNeeded
 (
 )
 ;
-SVGAnimatedNumber
-mPathLength
-;
 static
 NumberInfo
 sNumberInfo
@@ -925,6 +922,9 @@ RefPtr
 Path
 >
 mCachedPath
+;
+SVGAnimatedNumber
+mPathLength
 ;
 private
 :
