@@ -8582,6 +8582,9 @@ isGCThing
 )
 )
 ;
+#
+ifndef
+JS_GC_CONCURRENT_MARKING
 MOZ_ASSERT
 (
 !
@@ -8598,6 +8601,8 @@ isMarkedBlack
 )
 )
 ;
+#
+endif
 gc
 :
 :
@@ -8629,6 +8634,9 @@ MOZ_ASSERT
 stringp
 )
 ;
+#
+ifndef
+JS_GC_CONCURRENT_MARKING
 MOZ_ASSERT
 (
 !
@@ -8643,6 +8651,8 @@ isMarkedBlack
 )
 )
 ;
+#
+endif
 gc
 :
 :
@@ -8674,6 +8684,9 @@ MOZ_ASSERT
 objp
 )
 ;
+#
+ifndef
+JS_GC_CONCURRENT_MARKING
 MOZ_ASSERT
 (
 !
@@ -8688,6 +8701,8 @@ isMarkedBlack
 )
 )
 ;
+#
+endif
 gc
 :
 :
@@ -8713,6 +8728,9 @@ shapep
 AutoUnsafeCallWithABI
 unsafe
 ;
+#
+ifndef
+JS_GC_CONCURRENT_MARKING
 MOZ_ASSERT
 (
 !
@@ -8727,6 +8745,8 @@ isMarkedBlack
 )
 )
 ;
+#
+endif
 gc
 :
 :
