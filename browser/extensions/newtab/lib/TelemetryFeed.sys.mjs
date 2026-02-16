@@ -9359,7 +9359,7 @@ newtab_visit_id
 :
 session
 .
-visit_id
+session_id
 }
 ;
 switch
@@ -9461,7 +9461,7 @@ newtab_visit_id
 :
 session
 .
-visit_id
+session_id
 }
 ;
 switch
