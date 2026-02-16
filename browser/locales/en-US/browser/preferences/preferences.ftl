@@ -6119,16 +6119,6 @@ Home
 Section
 home
 -
-section
-=
-.
-heading
-=
-Home
-and
-startup
-home
--
 new
 -
 windows
