@@ -24861,7 +24861,7 @@ mNativeKeyEvent
 nsCocoaUtils
 :
 :
-MakeNewCococaEventFromWidgetEvent
+MakeNewCocoaEventFromWidgetEvent
 (
 aKeyEvent
 windowNumber
