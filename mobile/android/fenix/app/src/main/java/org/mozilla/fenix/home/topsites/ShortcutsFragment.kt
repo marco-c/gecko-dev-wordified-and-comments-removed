@@ -185,14 +185,6 @@ mozilla
 .
 fenix
 .
-HomeActivity
-import
-org
-.
-mozilla
-.
-fenix
-.
 components
 .
 components
@@ -380,9 +372,9 @@ activityRef
 =
 WeakReference
 (
-activity
-as
-HomeActivity
+requireActivity
+(
+)
 )
 store
 =

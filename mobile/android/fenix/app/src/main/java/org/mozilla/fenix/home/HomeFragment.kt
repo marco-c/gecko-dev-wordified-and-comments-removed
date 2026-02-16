@@ -3965,7 +3965,9 @@ activityRef
 =
 WeakReference
 (
-activity
+requireActivity
+(
+)
 )
 store
 =

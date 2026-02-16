@@ -69,6 +69,12 @@ topsites
 .
 controller
 import
+android
+.
+app
+.
+Activity
+import
 androidx
 .
 navigation
@@ -375,14 +381,6 @@ mozilla
 .
 fenix
 .
-HomeActivity
-import
-org
-.
-mozilla
-.
-fenix
-.
 R
 import
 org
@@ -502,7 +500,7 @@ private
 val
 activity
 :
-HomeActivity
+Activity
 =
 mockk
 (
