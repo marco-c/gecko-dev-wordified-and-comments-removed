@@ -181,6 +181,13 @@ PropTypes
 object
 .
 isRequired
+entriesByKey
+:
+PropTypes
+.
+object
+.
+isRequired
 }
 ;
 }
@@ -193,6 +200,7 @@ const
 count
 current
 rows
+entriesByKey
 }
 =
 this
@@ -234,6 +242,7 @@ SessionHistoryDiagram
 count
 current
 rows
+entriesByKey
 }
 )
 )
