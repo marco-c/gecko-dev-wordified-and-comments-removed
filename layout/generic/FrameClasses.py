@@ -178,13 +178,6 @@ Replaced
 }
 |
 LEAF
-BACKDROP_UNSUPPORTED
-=
-{
-"
-BackdropUnsupported
-"
-}
 FRAME_CLASSES
 =
 [
@@ -239,7 +232,6 @@ BLOCK
     
 Frame
 (
-        
 "
 nsCheckboxRadioFrame
 "
@@ -249,9 +241,6 @@ CheckboxRadio
 REPLACED
 |
 LEAF
-|
-BACKDROP_UNSUPPORTED
-    
 )
     
 Frame

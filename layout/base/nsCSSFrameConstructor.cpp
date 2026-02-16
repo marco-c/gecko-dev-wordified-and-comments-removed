@@ -41750,15 +41750,6 @@ aContent
 IsInNativeAnonymousSubtree
 (
 )
-&
-&
-!
-aPossiblyLeafFrame
--
->
-BackdropUnsupported
-(
-)
 )
 {
 CreateGeneratedContentItem
