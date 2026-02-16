@@ -2150,8 +2150,9 @@ Beta
 W3
 Friday
 Release
-Notes
-ready
+note
+submission
+deadline
 Beta
 W4
 Tuesday
@@ -2159,6 +2160,9 @@ What
 s
 new
 page
+&
+release
+notes
 ready
 Beta
 W4
