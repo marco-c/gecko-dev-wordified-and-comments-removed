@@ -971,9 +971,6 @@ sendAsyncMessage
 "
 EditBackupLocation
 "
-event
-.
-detail
 )
 ;
 }
