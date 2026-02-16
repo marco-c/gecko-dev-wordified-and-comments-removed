@@ -476,6 +476,13 @@ js
 ]
 [
 "
+browser_bookmark_drag_splitview
+.
+js
+"
+]
+[
+"
 browser_bookmark_folder_moveability
 .
 js
