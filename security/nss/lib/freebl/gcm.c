@@ -2647,6 +2647,9 @@ cLen
 +
 =
 (
+(
+uint64_t
+)
 len
 *
 PR_BITS_PER_BYTE

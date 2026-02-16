@@ -2668,6 +2668,13 @@ crypto
 -
 avx2
 '
+'
+gcm
+.
+gyp
+:
+gcm
+'
 ]
 '
 asflags_mozilla
