@@ -158,19 +158,6 @@ decorators
 "
     
 "
-uint8array
--
-base64
-"
-:
-"
-!
-Uint8Array
-.
-fromBase64
-"
-    
-"
 explicit
 -
 resource
