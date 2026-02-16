@@ -2959,6 +2959,11 @@ UpdateWakeLock
 )
 ;
 void
+UpdatePlaybackPseudoClasses
+(
+)
+;
+void
 CreateAudioWakeLockIfNeeded
 (
 )
