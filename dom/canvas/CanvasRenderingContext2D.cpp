@@ -27369,7 +27369,7 @@ GetBaselines
 fontOrientation
 )
 .
-mIdeographic
+mIdeographicUnder
 ;
 break
 ;
@@ -27587,7 +27587,7 @@ mAlphabetic
 baselineAnchor
 baselines
 .
-mIdeographic
+mIdeographicUnder
 -
 baselineAnchor
 )
