@@ -1193,7 +1193,10 @@ StretchDirection
 Vertical
 contSize
 radicalSize
-NS_STRETCH_LARGER
+MathMLStretchFlag
+:
+:
+Larger
 StyleVisibility
 (
 )
