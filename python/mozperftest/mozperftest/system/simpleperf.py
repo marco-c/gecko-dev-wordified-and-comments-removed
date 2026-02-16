@@ -1995,11 +1995,18 @@ split
 1
 ]
             
-output_path
+parent_folder
+=
+file_path
+.
+parent
+.
+name
+            
+output_dir
 =
 Path
 (
-                
 work_dir
 if
 work_dir
@@ -2007,7 +2014,26 @@ else
 self
 .
 output_dir
-                
+)
+/
+parent_folder
+            
+output_dir
+.
+mkdir
+(
+parents
+=
+True
+exist_ok
+=
+True
+)
+            
+output_path
+=
+output_dir
+/
 f
 "
 profile
@@ -2020,8 +2046,6 @@ unsymbolicated
 .
 json
 "
-            
-)
             
 with
 subprocess
@@ -2122,12 +2146,6 @@ unsymbolicated_profiles
 append
 (
 output_path
-)
-        
-unsymbolicated_profiles
-.
-sort
-(
 )
         
 return
@@ -2489,16 +2507,10 @@ unsymbolicated
             
 output_profile_path
 =
-Path
-(
-                
-work_dir
-if
-work_dir
-else
-self
+file_path
 .
-output_dir
+parent
+/
 f
 "
 {
@@ -2507,8 +2519,6 @@ filename
 .
 json
 "
-            
-)
             
 with
 subprocess
@@ -2656,6 +2666,7 @@ _archive_profiles
 (
 self
 symbolicated_profiles
+base_dir
 )
 :
         
@@ -2698,15 +2709,26 @@ be
 archived
 .
         
-"
-"
-"
-        
-symbolicated_profiles
+:
+param
+base_dir
+pathlib
 .
-sort
-(
-)
+Path
+:
+Base
+directory
+to
+preserve
+relative
+paths
+in
+archive
+.
+        
+"
+"
+"
         
 archive_files
 (
@@ -2727,11 +2749,39 @@ test_name
 }
 "
             
-prefix
+sort_key
 =
+lambda
+p
+:
+(
+p
+.
+parent
+.
+name
+int
+(
+p
+.
+stem
+.
+split
+(
 "
-simpleperf
+-
 "
+)
+[
+-
+1
+]
+)
+)
+            
+base_dir
+=
+base_dir
         
 )
     
@@ -2854,6 +2904,7 @@ files
 )
             
 perf_data
+search_dir
 work_dir
 =
 extract_tgz_and_find_files
@@ -2947,6 +2998,7 @@ self
 _archive_profiles
 (
 symbolicated_profiles
+search_dir
 )
         
 except

@@ -1876,9 +1876,30 @@ mkdir
 (
 )
     
-profile
+profile_dir
 =
 work_dir
+/
+"
+test_gecko
+"
+/
+"
+geckoprofiler
+"
+    
+profile_dir
+.
+mkdir
+(
+parents
+=
+True
+)
+    
+profile
+=
+profile_dir
 /
 "
 profile
@@ -1956,9 +1977,17 @@ add
 profile
 arcname
 =
+"
+test_gecko
+/
+geckoprofiler
+/
 profile
+-
+0
 .
-name
+json
+"
 )
     
 mock_extract
@@ -1969,6 +1998,7 @@ return_value
 [
 profile
 ]
+work_dir
 work_dir
 )
     
