@@ -38,7 +38,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 taskgraph
 .
@@ -82,7 +82,7 @@ TransformSequence
 )
 signing_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

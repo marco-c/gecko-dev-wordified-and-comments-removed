@@ -142,7 +142,7 @@ schema
 import
 (
     
-Schema
+LegacySchema
     
 optionally_keyed_by
     
@@ -440,7 +440,7 @@ moz_build_date
 "
 task_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

@@ -38,7 +38,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 voluptuous
 import
@@ -69,7 +69,7 @@ import
 get_signing_type
 checksums_signing_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

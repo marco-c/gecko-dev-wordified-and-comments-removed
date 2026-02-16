@@ -34,7 +34,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 taskref_or_string
 from
 voluptuous
@@ -64,7 +64,7 @@ get_beetmover_bucket_scope
 )
 beetmover_push_to_release_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

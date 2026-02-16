@@ -25,7 +25,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 resolve_keyed_by
 validate_schema
 from
@@ -79,7 +79,7 @@ defined
 "
 variant_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

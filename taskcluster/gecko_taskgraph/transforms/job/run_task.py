@@ -49,7 +49,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 taskgraph
 .
@@ -93,7 +93,7 @@ import
 taskref_or_string
 run_task_schema
 =
-Schema
+LegacySchema
 (
 {
     

@@ -42,7 +42,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 voluptuous
 import
@@ -65,7 +65,7 @@ import
 task_description_schema
 diff_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

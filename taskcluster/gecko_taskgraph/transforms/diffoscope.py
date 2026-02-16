@@ -34,7 +34,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 taskgraph
 .
@@ -79,7 +79,7 @@ str
 )
 diff_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

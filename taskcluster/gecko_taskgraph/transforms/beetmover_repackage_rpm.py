@@ -41,7 +41,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 taskgraph
 .
@@ -95,7 +95,7 @@ TransformSequence
 )
 beetmover_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

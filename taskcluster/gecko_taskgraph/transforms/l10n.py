@@ -56,7 +56,7 @@ schema
 import
 (
     
-Schema
+LegacySchema
     
 optionally_keyed_by
     
@@ -136,7 +136,7 @@ arg
 )
 l10n_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

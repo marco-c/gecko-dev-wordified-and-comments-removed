@@ -41,7 +41,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 voluptuous
 import
@@ -89,7 +89,7 @@ get_beetmover_bucket_scope
 )
 beetmover_checksums_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

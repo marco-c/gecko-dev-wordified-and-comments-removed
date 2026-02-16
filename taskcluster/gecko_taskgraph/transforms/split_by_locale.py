@@ -53,7 +53,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 voluptuous
 import
@@ -75,7 +75,7 @@ TransformSequence
 )
 split_by_locale_schema
 =
-Schema
+LegacySchema
 (
 {
     

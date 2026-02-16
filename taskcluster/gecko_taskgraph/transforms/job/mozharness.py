@@ -51,7 +51,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 voluptuous
 import
@@ -102,7 +102,7 @@ import
 is_try
 mozharness_run_schema
 =
-Schema
+LegacySchema
 (
 {
     

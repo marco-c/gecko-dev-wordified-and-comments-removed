@@ -45,7 +45,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 optionally_keyed_by
 resolve_keyed_by
 from
@@ -98,7 +98,7 @@ import
 worker_type_implementation
 packaging_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

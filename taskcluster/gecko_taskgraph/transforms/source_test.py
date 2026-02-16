@@ -65,7 +65,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 optionally_keyed_by
 resolve_keyed_by
 from
@@ -94,7 +94,7 @@ import
 job_description_schema
 source_test_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

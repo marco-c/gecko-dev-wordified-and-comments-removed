@@ -26,7 +26,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 taskref_or_string
 from
 voluptuous
@@ -116,7 +116,7 @@ bool
 }
 gradlew_schema
 =
-Schema
+LegacySchema
 (
 {
     
@@ -225,7 +225,7 @@ dummy_secret_schema
 )
 run_commands_schema
 =
-Schema
+LegacySchema
 (
 {
     

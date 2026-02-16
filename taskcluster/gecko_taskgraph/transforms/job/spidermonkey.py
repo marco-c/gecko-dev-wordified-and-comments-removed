@@ -19,7 +19,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 voluptuous
 import
@@ -52,7 +52,7 @@ generic_worker_add_artifacts
 )
 sm_run_schema
 =
-Schema
+LegacySchema
 (
 {
     

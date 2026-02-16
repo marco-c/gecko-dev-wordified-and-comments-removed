@@ -33,7 +33,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 optionally_keyed_by
 resolve_keyed_by
 from
@@ -67,7 +67,7 @@ import
 add_scope_prefix
 push_msix_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

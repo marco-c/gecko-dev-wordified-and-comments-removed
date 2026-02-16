@@ -41,7 +41,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 taskgraph
 .
@@ -80,7 +80,7 @@ import
 get_signing_type
 release_generate_checksums_signing_schema
 =
-Schema
+LegacySchema
 (
 {
     

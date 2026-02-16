@@ -38,7 +38,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 taskgraph
 .
@@ -90,7 +90,7 @@ TransformSequence
 )
 repackage_signing_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

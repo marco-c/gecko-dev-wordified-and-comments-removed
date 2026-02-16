@@ -37,7 +37,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 taskgraph
 .
@@ -104,7 +104,7 @@ get_beetmover_bucket_scope
 )
 beetmover_description_schema
 =
-Schema
+LegacySchema
 (
 {
     
