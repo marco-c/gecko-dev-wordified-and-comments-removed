@@ -1262,6 +1262,16 @@ size_t
 newBytes
 )
 ;
+void
+setDeallocated
+(
+void
+*
+alloc
+size_t
+bytes
+)
+;
 bool
 isAllocated
 (
