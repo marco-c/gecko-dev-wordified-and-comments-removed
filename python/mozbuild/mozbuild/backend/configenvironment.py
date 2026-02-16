@@ -412,7 +412,7 @@ a
 few
 arguments
 :
-      
+    
 -
 topsrcdir
 and
@@ -423,13 +423,13 @@ the
 top
 source
 and
-        
+      
 the
 top
 object
 directory
 .
-      
+    
 -
 defines
 is
@@ -443,7 +443,7 @@ AC_DEFINE_UNQUOTED
 in
 autoconf
 .
-      
+    
 -
 substs
 is
@@ -469,7 +469,7 @@ all
 the
 defines
 :
-      
+    
 -
 ACDEFINES
 contains
@@ -485,7 +485,7 @@ VALUE
 for
 use
 on
-        
+      
 preprocessor
 command
 lines
@@ -497,7 +497,7 @@ which
 defines
 were
 given
-        
+      
 when
 creating
 the
@@ -518,7 +518,7 @@ the
 other
 substs
 :
-      
+    
 -
 ALLSUBSTS
 contains
@@ -532,7 +532,7 @@ NAME
 VALUE
 in
 sorted
-        
+      
 order
 for
 use
@@ -545,7 +545,7 @@ It
 includes
 ACDEFINES
 .
-        
+      
 Only
 substs
 with
@@ -558,7 +558,7 @@ that
 the
 resulting
 file
-        
+      
 doesn
 '
 t
@@ -570,7 +570,7 @@ substs
 are
 added
 .
-        
+      
 This
 results
 in
@@ -582,14 +582,14 @@ dependencies
 in
 the
 case
-        
+      
 of
 autoconf
 .
 mk
 .
 .
-      
+    
 -
 ALLEMPTYSUBSTS
 contains
