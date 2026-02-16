@@ -1821,6 +1821,7 @@ slot
 =
 i
 ;
+}
 item
 .
 setAttribute
@@ -1831,7 +1832,6 @@ position
 i
 )
 ;
-}
 item
 .
 classList
