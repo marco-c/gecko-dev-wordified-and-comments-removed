@@ -273,7 +273,7 @@ Waiting
 for
 ruleview
 -
-refreshed
+changed
 after
 previewValue
 was

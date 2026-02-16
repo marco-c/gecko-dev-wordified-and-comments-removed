@@ -773,12 +773,14 @@ grid
 )
 ;
 await
-view
+inspector
 .
 once
 (
 "
-ruleview
+rule
+-
+view
 -
 refreshed
 "

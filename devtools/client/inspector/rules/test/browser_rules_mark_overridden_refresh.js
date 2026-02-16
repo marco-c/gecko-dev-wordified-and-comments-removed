@@ -181,12 +181,14 @@ refresh
 const
 onRuleViewRefreshed
 =
-view
+inspector
 .
 once
 (
 "
-ruleview
+rule
+-
+view
 -
 refreshed
 "
