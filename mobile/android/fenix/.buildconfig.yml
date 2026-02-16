@@ -441,6 +441,14 @@ components
 :
 service
 -
+firefox
+-
+relay
+-
+components
+:
+service
+-
 glean
 -
 components
