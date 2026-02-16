@@ -309,6 +309,15 @@ command
 id
 =
 "
+cmd_returnToOpener
+"
+/
+>
+<
+command
+id
+=
+"
 cmd_minimizeWindow
 "
 /

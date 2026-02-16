@@ -99,6 +99,13 @@ UI
 elements
 [
 "
+browser_return_to_opener
+.
+js
+"
+]
+[
+"
 browser_sessionstore_ignore_dpip
 .
 js
