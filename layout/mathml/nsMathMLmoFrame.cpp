@@ -1990,7 +1990,6 @@ ParseNumericValue
 (
 value
 cssValue
-0
 mContent
 -
 >
@@ -2110,7 +2109,6 @@ ParseNumericValue
 (
 value
 cssValue
-0
 mContent
 -
 >
@@ -2659,7 +2657,6 @@ ParseNumericValue
 (
 value
 cssValue
-0
 mContent
 -
 >
@@ -2795,7 +2792,6 @@ ParseNumericValue
 (
 value
 cssValue
-0
 mContent
 -
 >

@@ -2189,7 +2189,6 @@ ParseAndCalcNumericValue
 valueString
 &
 newValue
-0
 aFontSizeInflation
 aFrame
 )
