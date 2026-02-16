@@ -1290,17 +1290,6 @@ test
 /
 puppeteer
 /
-package
--
-lock
-.
-json
-remote
-/
-test
-/
-puppeteer
-/
 packages
 /
 browsers
