@@ -471,6 +471,12 @@ fill
 :
 currentColor
 ;
+flex
+-
+shrink
+:
+0
+;
 }
 .
 actions
