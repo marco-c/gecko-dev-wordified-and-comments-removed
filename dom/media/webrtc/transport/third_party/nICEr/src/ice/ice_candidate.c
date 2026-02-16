@@ -3761,6 +3761,12 @@ protocol
 =
 NR_RESOLVE_PROTOCOL_TURN
 ;
+[
+[
+fallthrough
+]
+]
+;
 #
 endif
 case

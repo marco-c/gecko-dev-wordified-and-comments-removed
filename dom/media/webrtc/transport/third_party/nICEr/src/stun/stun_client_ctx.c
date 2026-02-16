@@ -2448,6 +2448,12 @@ compute_lt_key
 =
 1
 ;
+[
+[
+fallthrough
+]
+]
+;
 case
 NR_STUN_CLIENT_MODE_BINDING_REQUEST_SHORT_TERM_AUTH
 :
