@@ -640,6 +640,12 @@ double
 aPlaybackRate
 )
 ;
+double
+PlaybackRateInternal
+(
+)
+const
+;
 AnimationPlayState
 PlayState
 (
@@ -2045,6 +2051,12 @@ mPendingReadyTime
 ;
 private
 :
+double
+AnimationsPlayBackRateMultiplier
+(
+)
+const
+;
 uint64_t
 mIdOnCompositor
 =
