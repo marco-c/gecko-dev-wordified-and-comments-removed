@@ -1935,7 +1935,7 @@ args
 )
 {
 return
-NewBuffer
+NewSizedBuffer
 <
 T
 >

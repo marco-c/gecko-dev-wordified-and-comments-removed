@@ -46,7 +46,7 @@ WeakMap
 <
 Value
 Value
-ZoneAllocPolicy
+BufferAllocPolicy
 >
 ;
 Map
@@ -72,7 +72,7 @@ mozilla
 :
 :
 MallocSizeOf
-aMallocSizeOf
+mallocSizeOf
 )
 ;
 size_t

@@ -834,8 +834,6 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_WeakSet
 )
-|
-JSCLASS_BACKGROUND_FINALIZE
 &
 WeakCollectionObject
 :
@@ -950,13 +948,14 @@ proto
 )
 {
 return
-NewObjectWithClassProto
+NewObjectWithClassProtoAndKind
 <
 WeakSetObject
 >
 (
 cx
 proto
+TenuredObject
 )
 ;
 }

@@ -407,11 +407,6 @@ ScriptPrivateData
 \
 _
 (
-WeakMapObject
-)
-\
-_
-(
 ShapeSetForAdd
 )
 \

@@ -7015,6 +7015,9 @@ sweepWeakMaps
 (
 )
 {
+AutoSetThreadIsSweeping
+threadIsSweeping
+;
 SweepingTracer
 trc
 (
