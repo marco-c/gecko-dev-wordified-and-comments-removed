@@ -390,6 +390,15 @@ html
 "
 mozilla
 /
+test_animations_playback_rate_multiplier_on_compositor
+.
+html
+"
+]
+[
+"
+mozilla
+/
 test_cascade
 .
 html
