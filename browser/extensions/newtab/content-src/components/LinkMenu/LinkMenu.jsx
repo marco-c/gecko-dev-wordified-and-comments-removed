@@ -179,6 +179,7 @@ source
 isPrivateBrowsingEnabled
 siteInfo
 platform
+privacyInfoUrl
 dispatch
 options
 shouldSendImpressionStats
@@ -243,6 +244,7 @@ source
 isPrivateBrowsingEnabled
 siteInfo
 platform
+privacyInfoUrl
 )
 )
 .
@@ -676,6 +678,20 @@ Prefs
 values
 .
 platform
+privacyInfoUrl
+:
+state
+.
+Prefs
+.
+values
+[
+"
+privacyInfo
+.
+url
+"
+]
 }
 )
 ;
