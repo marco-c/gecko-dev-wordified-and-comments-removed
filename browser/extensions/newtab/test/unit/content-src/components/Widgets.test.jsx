@@ -4933,8 +4933,7 @@ data
 .
 action_value
 "
-maximize
-widgets
+maximize_widgets
 "
 )
 ;
@@ -5198,8 +5197,7 @@ data
 .
 action_value
 "
-minimize
-widgets
+minimize_widgets
 "
 "
 action_value
