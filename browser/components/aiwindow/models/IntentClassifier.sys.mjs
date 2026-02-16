@@ -1135,7 +1135,7 @@ modelRevision
 "
 v0
 .
-2
+3
 .
 0
 "
@@ -1191,7 +1191,7 @@ score
 :
 0
 .
-95
+05
 }
 {
 label
@@ -1203,7 +1203,7 @@ score
 :
 0
 .
-04
+94
 }
 ]
 if
@@ -1222,7 +1222,7 @@ toLowerCase
 =
 =
 "
-chat
+search
 "
 &
 &
@@ -1239,13 +1239,13 @@ threshold
 {
 return
 "
-chat
+search
 "
 ;
 }
 return
 "
-search
+chat
 "
 ;
 }
