@@ -5441,7 +5441,7 @@ addToShortcutsButton
 (
 )
 .
-assertIsDisplayed
+assertIsNotDisplayed
 (
 )
 Log
