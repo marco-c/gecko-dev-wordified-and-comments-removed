@@ -5272,7 +5272,7 @@ atomsZone
 )
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -13735,6 +13735,7 @@ zone
 >
 changeGCState
 (
+this
 Zone
 :
 :
@@ -15746,6 +15747,7 @@ zone
 >
 changeGCState
 (
+this
 Zone
 :
 :
@@ -17620,6 +17622,7 @@ zone
 >
 changeGCState
 (
+this
 Zone
 :
 :
@@ -17815,7 +17818,7 @@ MOZ_ASSERT
 zone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -19149,6 +19152,7 @@ zone
 >
 changeGCState
 (
+this
 zone
 -
 >
@@ -19309,6 +19313,7 @@ zone
 >
 changeGCState
 (
+this
 zone
 -
 >
@@ -19630,7 +19635,7 @@ MOZ_ASSERT
 zone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -19638,8 +19643,9 @@ needsIncrementalBarrier
 zone
 -
 >
-setNeedsIncrementalBarrier
+setNeedsMarkingBarrier
 (
+this
 false
 )
 ;
@@ -19650,7 +19656,7 @@ MOZ_ASSERT
 zone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -19693,7 +19699,7 @@ MOZ_ASSERT
 zone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -19711,8 +19717,9 @@ isGCMarking
 zone
 -
 >
-setNeedsIncrementalBarrier
+setNeedsMarkingBarrier
 (
+this
 true
 )
 ;

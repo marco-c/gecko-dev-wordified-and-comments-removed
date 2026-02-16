@@ -1223,7 +1223,7 @@ zoneFromAnyThread
 )
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 &

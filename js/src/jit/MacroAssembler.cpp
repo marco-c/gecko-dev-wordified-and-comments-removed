@@ -42751,7 +42751,7 @@ mask
 barrier
 )
 ;
-branchTestNeedsIncrementalBarrierAnyZone
+branchTestNeedsMarkingBarrierAnyZone
 (
 Assembler
 :

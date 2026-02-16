@@ -7522,7 +7522,7 @@ label
 ;
 inline
 void
-branchTestNeedsIncrementalBarrier
+branchTestNeedsMarkingBarrier
 (
 Condition
 cond
@@ -7533,7 +7533,7 @@ label
 ;
 inline
 void
-branchTestNeedsIncrementalBarrierAnyZone
+branchTestNeedsMarkingBarrierAnyZone
 (
 Condition
 cond
@@ -21944,7 +21944,7 @@ type
 Label
 done
 ;
-branchTestNeedsIncrementalBarrier
+branchTestNeedsMarkingBarrier
 (
 Assembler
 :
@@ -21988,7 +21988,7 @@ scratch
 Label
 done
 ;
-branchTestNeedsIncrementalBarrierAnyZone
+branchTestNeedsMarkingBarrierAnyZone
 (
 Assembler
 :

@@ -1182,7 +1182,7 @@ if
 zone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )

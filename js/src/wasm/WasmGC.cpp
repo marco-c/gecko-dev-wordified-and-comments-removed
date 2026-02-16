@@ -749,7 +749,7 @@ instance
 Instance
 :
 :
-offsetOfAddressOfNeedsIncrementalBarrier
+offsetOfAddressOfNeedsMarkingBarrier
 (
 )
 )

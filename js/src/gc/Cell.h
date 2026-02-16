@@ -2137,7 +2137,7 @@ zone
 )
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 ;
@@ -2621,7 +2621,7 @@ if
 shadowZone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -2823,7 +2823,7 @@ if
 zone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -3013,7 +3013,7 @@ if
 shadowZone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )

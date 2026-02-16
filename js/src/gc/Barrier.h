@@ -4493,7 +4493,7 @@ shadowZone
 )
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -4589,7 +4589,7 @@ shadowZone
 )
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )

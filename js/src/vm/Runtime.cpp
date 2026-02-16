@@ -3713,7 +3713,7 @@ return
 zone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 &

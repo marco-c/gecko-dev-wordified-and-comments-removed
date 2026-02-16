@@ -270,7 +270,7 @@ Zone
 :
 BarrierState
 *
-addressOfNeedsIncrementalBarrier_
+addressOfNeedsMarkingBarrier_
 ;
 js
 :
@@ -884,7 +884,7 @@ addressOfLastBufferedWholeCell_
 static
 constexpr
 size_t
-offsetOfAddressOfNeedsIncrementalBarrier
+offsetOfAddressOfNeedsMarkingBarrier
 (
 )
 {
@@ -892,7 +892,7 @@ return
 offsetof
 (
 Instance
-addressOfNeedsIncrementalBarrier_
+addressOfNeedsMarkingBarrier_
 )
 ;
 }
