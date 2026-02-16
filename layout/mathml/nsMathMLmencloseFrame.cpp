@@ -2353,7 +2353,10 @@ StretchDirection
 Vertical
 contSize
 bmLongdivChar
-NS_STRETCH_LARGER
+MathMLStretchFlag
+:
+:
+Larger
 false
 )
 ;
