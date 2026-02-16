@@ -996,9 +996,17 @@ memory
 >
 {
 return
+{
+memory
+.
+id
+}
+-
+{
 memory
 .
 memory_summary
+}
 ;
 }
 )

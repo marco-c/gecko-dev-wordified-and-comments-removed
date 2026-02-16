@@ -903,6 +903,8 @@ label
 >
 {
 memory
+.
+memory_summary
 }
 <
 /
