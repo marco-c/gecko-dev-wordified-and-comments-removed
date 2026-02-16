@@ -40,6 +40,8 @@ ReflowOutput
 enum
 class
 MathMLFrameType
+:
+uint8_t
 {
 Ordinary
 OperatorOrdinary
