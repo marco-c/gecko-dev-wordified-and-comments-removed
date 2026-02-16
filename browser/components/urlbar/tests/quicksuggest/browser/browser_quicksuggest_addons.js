@@ -1003,7 +1003,7 @@ input
 :
 "
 aaa
-b
+bb
 "
 expected
 :
@@ -1046,7 +1046,7 @@ input
 :
 "
 aaa
-b
+bbb
 "
 expected
 :
@@ -1147,7 +1147,7 @@ input
 :
 "
 aaa
-b
+bbb
 "
 expected
 :
@@ -1167,7 +1167,7 @@ input
 :
 "
 aaa
-bb
+bbbc
 "
 expected
 :
