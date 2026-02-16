@@ -71,13 +71,6 @@ page
 js
 "
 "
-session
--
-history
-.
-js
-"
-"
 ui
 .
 js
