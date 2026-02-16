@@ -69,57 +69,44 @@ occurences
 :
       
 -
-"
 #
 undef
 NAME
-"
 is
 turned
 into
-"
 #
 define
 NAME
 VALUE
-"
       
 -
-"
 #
 define
 NAME
-"
 is
 unchanged
       
 -
-"
 #
 define
 NAME
 ORIGINAL_VALUE
-"
 is
 turned
 into
-"
 #
 define
 NAME
 VALUE
-"
       
 -
-"
 #
 undef
 UNKNOWN_NAME
-"
 is
 turned
 into
-"
 /
 *
 #
@@ -127,7 +114,6 @@ undef
 UNKNOWN_NAME
 *
 /
-"
       
 -
 Whitespaces
