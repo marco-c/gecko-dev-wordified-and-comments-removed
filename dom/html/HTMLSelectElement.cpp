@@ -703,7 +703,7 @@ SetPseudoElementType
 PseudoStyleType
 :
 :
-mozSelectContent
+MozSelectContent
 )
 ;
 {
@@ -770,7 +770,7 @@ SetPseudoElementType
 PseudoStyleType
 :
 :
-mozSelectPickerIcon
+MozSelectPickerIcon
 )
 ;
 {

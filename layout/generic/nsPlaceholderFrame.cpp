@@ -373,7 +373,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-backdrop
+Backdrop
 &
 &
 !

@@ -547,7 +547,7 @@ SetPseudoElementType
 PseudoStyleType
 :
 :
-fileSelectorButton
+FileSelectorButton
 )
 ;
 nsAutoString
@@ -751,7 +751,7 @@ SetPseudoElementType
 PseudoStyleType
 :
 :
-mozFileContent
+MozFileContent
 )
 ;
 RefPtr

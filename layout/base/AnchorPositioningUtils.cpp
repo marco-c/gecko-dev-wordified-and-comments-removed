@@ -198,13 +198,13 @@ case
 PseudoStyleType
 :
 :
-scrolledContent
+MozScrolledContent
 :
 case
 PseudoStyleType
 :
 :
-scrolledCanvas
+MozScrolledCanvas
 :
 return
 true
@@ -1199,7 +1199,7 @@ pseudoElementType
 PseudoStyleType
 :
 :
-before
+Before
 |
 |
 pseudoElementType
@@ -1208,7 +1208,7 @@ pseudoElementType
 PseudoStyleType
 :
 :
-after
+After
 |
 |
 pseudoElementType
@@ -1217,7 +1217,7 @@ pseudoElementType
 PseudoStyleType
 :
 :
-marker
+Marker
 ;
 }
 size_t

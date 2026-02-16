@@ -5266,7 +5266,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-fieldsetContent
+MozFieldsetContent
 )
 {
 while

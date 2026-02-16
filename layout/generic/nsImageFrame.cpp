@@ -334,13 +334,6 @@ h
 #
 include
 "
-nsCSSAnonBoxes
-.
-h
-"
-#
-include
-"
 nsCSSRendering
 .
 h
@@ -5379,7 +5372,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-viewTransitionOld
+ViewTransitionOld
 ?
 vt
 -
@@ -5489,7 +5482,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-viewTransitionOld
+ViewTransitionOld
 ?
 vt
 -
@@ -12312,7 +12305,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-viewTransitionOld
+ViewTransitionOld
 )
 {
 inkOverflowRect
@@ -15834,7 +15827,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-cellContent
+MozCellContent
 )
 {
 nsIFrame

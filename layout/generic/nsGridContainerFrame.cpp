@@ -50946,7 +50946,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-scrolledContent
+MozScrolledContent
 )
 {
 const
