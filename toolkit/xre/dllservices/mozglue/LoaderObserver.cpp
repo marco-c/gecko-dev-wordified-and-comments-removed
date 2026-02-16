@@ -10,15 +10,6 @@ include
 "
 mozilla
 /
-AutoProfilerLabel
-.
-h
-"
-#
-include
-"
-mozilla
-/
 BaseProfilerMarkers
 .
 h
@@ -95,13 +86,6 @@ MOZ_ASSERT
 aContext
 )
 ;
-if
-(
-IsProfilerPresent
-(
-)
-)
-{
 UniquePtr
 <
 char
@@ -153,7 +137,6 @@ release
 (
 )
 ;
-}
 #
 if
 defined

@@ -10,11 +10,6 @@ mozilla
 =
 [
 "
-AutoProfilerLabel
-.
-h
-"
-"
 AwakeTimeStamp
 .
 h
@@ -172,11 +167,6 @@ SOURCES
 +
 =
 [
-"
-AutoProfilerLabel
-.
-cpp
-"
 "
 AwakeTimeStamp
 .
