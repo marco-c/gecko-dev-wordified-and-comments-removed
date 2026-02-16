@@ -65,8 +65,7 @@ windows
 AncillaryData
 IPCConnector
 IPCConnectorKey
-RawAncillaryData
-INVALID_ANCILLARY_DATA
+RawIPCConnector
 }
 ;
 #
@@ -120,8 +119,7 @@ unix
 AncillaryData
 IPCConnector
 IPCConnectorKey
-RawAncillaryData
-INVALID_ANCILLARY_DATA
+RawIPCConnector
 }
 ;
 #
