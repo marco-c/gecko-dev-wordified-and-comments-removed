@@ -12169,6 +12169,13 @@ PAUSED
 NonTSPseudoClass
 :
 :
+VolumeLocked
+=
+>
+false
+NonTSPseudoClass
+:
+:
 Dir
 (
 ref
