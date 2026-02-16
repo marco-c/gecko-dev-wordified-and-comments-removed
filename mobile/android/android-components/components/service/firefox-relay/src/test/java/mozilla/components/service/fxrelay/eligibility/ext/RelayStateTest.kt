@@ -340,7 +340,7 @@ Eligible
 .
 Free
 (
-totalMasksUsed
+remaining
 =
 5
 )

@@ -467,7 +467,7 @@ relayPlanTier
 RelayPlanTier
 .
 FREE
-totalMasksUsed
+remaining
 =
 5
 lastCheckedMs
