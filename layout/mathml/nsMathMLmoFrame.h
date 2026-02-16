@@ -181,7 +181,7 @@ Stretch
 DrawTarget
 *
 aDrawTarget
-StretchDirection
+nsStretchDirection
 aStretchDirection
 nsBoundingMetrics
 &
@@ -235,6 +235,10 @@ nsMathMLTokenFrame
 aStyle
 aPresContext
 kClassID
+)
+mFlags
+(
+0
 )
 mMinSize
 (

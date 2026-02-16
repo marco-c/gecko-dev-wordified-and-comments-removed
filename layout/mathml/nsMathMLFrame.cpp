@@ -224,10 +224,7 @@ mEmbellishData
 .
 direction
 =
-StretchDirection
-:
-:
-Unsupported
+NS_STRETCH_DIRECTION_UNSUPPORTED
 ;
 mEmbellishData
 .
@@ -448,10 +445,7 @@ aEmbellishData
 .
 direction
 =
-StretchDirection
-:
-:
-Unsupported
+NS_STRETCH_DIRECTION_UNSUPPORTED
 ;
 aEmbellishData
 .
@@ -1339,7 +1333,7 @@ const
 nsDisplayListSet
 &
 aLists
-uint16_t
+uint32_t
 aIndex
 )
 {

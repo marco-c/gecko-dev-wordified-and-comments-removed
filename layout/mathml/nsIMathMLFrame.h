@@ -40,8 +40,6 @@ ReflowOutput
 enum
 class
 MathMLFrameType
-:
-uint8_t
 {
 Ordinary
 OperatorOrdinary
@@ -186,7 +184,7 @@ gfx
 DrawTarget
 *
 aDrawTarget
-StretchDirection
+nsStretchDirection
 aStretchDirection
 nsBoundingMetrics
 &
@@ -305,13 +303,10 @@ coreFrame
 =
 nullptr
 ;
-StretchDirection
+nsStretchDirection
 direction
 =
-StretchDirection
-:
-:
-Unsupported
+NS_STRETCH_DIRECTION_UNSUPPORTED
 ;
 nscoord
 leadingSpace
