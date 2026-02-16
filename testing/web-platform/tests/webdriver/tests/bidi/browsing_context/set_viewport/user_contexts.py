@@ -25,6 +25,7 @@ from
 import
 get_device_pixel_ratio
 get_viewport_dimensions
+remote_mapping_to_dict
 pytestmark
 =
 pytest
@@ -242,8 +243,6 @@ test_set_to_user_context_window_open
     
 bidi_session
     
-new_tab
-    
 create_user_context
     
 inline
@@ -358,19 +357,29 @@ bidi_session
 .
 script
 .
-evaluate
+call_function
 (
         
 await_promise
 =
 False
         
-expression
+function_declaration
 =
 f
 "
 "
 "
+(
+)
+=
+>
+{
+{
+            
+const
+win
+=
 window
 .
 open
@@ -386,6 +395,27 @@ popup
 }
 '
 )
+;
+            
+return
+{
+{
+width
+:
+win
+.
+innerWidth
+height
+:
+win
+.
+innerHeight
+}
+}
+;
+        
+}
+}
 "
 "
 "
@@ -403,6 +433,20 @@ context
 )
     
 )
+    
+assert
+remote_mapping_to_dict
+(
+result
+[
+"
+value
+"
+]
+)
+=
+=
+test_viewport
     
 event
 =
