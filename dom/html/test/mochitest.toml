@@ -3678,6 +3678,13 @@ html
 ]
 [
 "
+test_details_handle_command_internal
+.
+html
+"
+]
+[
+"
 test_dir_attributes_reflection
 .
 html

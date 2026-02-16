@@ -964,8 +964,9 @@ return
 true
 ;
 }
-MOZ_ASSERT
+if
 (
+!
 StaticPrefs
 :
 :
@@ -973,7 +974,11 @@ dom_element_commandfor_on_details_enabled
 (
 )
 )
+{
+return
+false
 ;
+}
 if
 (
 aCommand
