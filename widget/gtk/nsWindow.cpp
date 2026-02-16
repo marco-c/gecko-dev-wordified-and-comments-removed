@@ -10023,7 +10023,7 @@ WaylandPopupFitsToplevelWindow
 StaticPrefs
 :
 :
-widget_wayland_force_move_to_rect
+widget_wayland_force_move_to_rect_AtStartup
 (
 )
 )
