@@ -1093,13 +1093,11 @@ action_value
 newMaximizedState
 ?
 "
-maximize
-widgets
+maximize_widgets
 "
 :
 "
-minimize
-widgets
+minimize_widgets
 "
 widget_size
 :
@@ -1631,6 +1629,11 @@ isMaximized
 =
 {
 isMaximized
+}
+widgetsMayBeMaximized
+=
+{
+widgetsMayBeMaximized
 }
 /
 >
