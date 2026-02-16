@@ -1078,7 +1078,7 @@ return
 {
 isEntitled
 :
-false
+true
 }
 ;
 }
