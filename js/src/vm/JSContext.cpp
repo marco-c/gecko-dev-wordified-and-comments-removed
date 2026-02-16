@@ -6416,6 +6416,11 @@ bypassCSPForDebugger
 this
 false
 )
+hasDebuggerForcedLexicalInit
+(
+this
+false
+)
 insideExclusiveDebuggerOnEval
 (
 this

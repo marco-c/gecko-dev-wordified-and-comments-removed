@@ -4484,6 +4484,15 @@ js
 :
 ContextData
 <
+bool
+>
+hasDebuggerForcedLexicalInit
+;
+js
+:
+:
+ContextData
+<
 js
 :
 :
