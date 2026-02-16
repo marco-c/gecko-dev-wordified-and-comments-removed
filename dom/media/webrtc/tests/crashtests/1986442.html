@@ -32,6 +32,8 @@ async
 =
 >
 {
+try
+{
 const
 stream
 =
@@ -102,6 +104,9 @@ onresize
 r
 )
 ;
+}
+finally
+{
 document
 .
 documentElement
@@ -113,6 +118,7 @@ class
 "
 )
 ;
+}
 }
 )
 ;
