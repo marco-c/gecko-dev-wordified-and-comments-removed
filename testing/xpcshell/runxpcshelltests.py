@@ -8094,6 +8094,14 @@ info
             
 raise
         
+self
+.
+missing_manifests
+=
+set
+(
+)
+        
 if
 path_filter
 and
@@ -8101,6 +8109,14 @@ path_filter
 .
 missing
 :
+            
+self
+.
+missing_manifests
+=
+path_filter
+.
+missing
             
 self
 .
@@ -16413,6 +16429,22 @@ id
 "
 ]
 )
+        
+for
+missing_path
+in
+self
+.
+missing_manifests
+:
+            
+tests_by_manifest
+[
+missing_path
+]
+=
+[
+]
         
 self
 .
