@@ -1139,7 +1139,7 @@ GCVector
 <
 Callback
 0
-InfallibleAllocPolicy
+JSInfallibleAllocPolicy
 >
 ;
 JS

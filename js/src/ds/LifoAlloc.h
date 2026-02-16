@@ -4321,6 +4321,9 @@ fb
 >
 class
 LifoAllocPolicy
+:
+public
+AllocPolicyBase
 {
 LifoAlloc
 &
@@ -4653,13 +4656,6 @@ p
 size_t
 numElems
 )
-{
-}
-void
-reportAllocOverflow
-(
-)
-const
 {
 }
 [

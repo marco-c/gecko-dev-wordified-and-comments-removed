@@ -73,6 +73,9 @@ Client
 >
 struct
 MallocProvider
+:
+public
+AllocPolicyBase
 {
 template
 <
