@@ -1194,6 +1194,13 @@ js
 ]
 [
 "
+browser_rules_mark_overridden_refresh
+.
+js
+"
+]
+[
+"
 browser_rules_mathml
 -
 element
