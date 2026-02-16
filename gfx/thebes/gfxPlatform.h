@@ -365,6 +365,9 @@ eGfxLog_cmapdata
 eGfxLog_textperf
 =
 5
+eGfxLog_fontquery
+=
+6
 }
 ;
 enum
