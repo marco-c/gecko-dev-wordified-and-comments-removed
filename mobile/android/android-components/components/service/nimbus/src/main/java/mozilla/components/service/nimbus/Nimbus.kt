@@ -153,6 +153,8 @@ experiments
 .
 nimbus
 .
+internal
+.
 NimbusServerSettings
 import
 org
@@ -257,10 +259,6 @@ typealias
 NimbusAppInfo
 =
 NimbusAppInfo
-typealias
-NimbusServerSettings
-=
-NimbusServerSettings
 /
 *
 *
