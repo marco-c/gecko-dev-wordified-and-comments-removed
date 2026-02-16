@@ -1235,11 +1235,6 @@ void
 StopLazyLoading
 (
 StartLoad
-=
-StartLoad
-:
-:
-Yes
 )
 ;
 const
