@@ -691,14 +691,12 @@ chat
 .
 tooltiptext
 =
-Start
-new
+New
 chat
 .
 aria
 -
 label
 =
-Start
-new
+New
 chat
