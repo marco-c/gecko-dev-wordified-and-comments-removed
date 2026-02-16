@@ -48128,7 +48128,7 @@ XP_WIN
 )
 value
 :
-IS_EARLY_BETA_OR_EARLIER
+true
 #
 else
 value
