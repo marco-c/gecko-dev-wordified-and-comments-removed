@@ -117,14 +117,6 @@ explainerURL
 "
 ;
 const
-BRAND_DARK_PURPLE
-=
-"
-#
-210340
-"
-;
-const
 autoAdvanceMS
 =
 Services
@@ -359,9 +351,6 @@ fontSize
 fontWeight
 :
 320
-color
-:
-BRAND_DARK_PURPLE
 }
 tiles
 :
@@ -425,9 +414,6 @@ fontSize
 fontWeight
 :
 613
-color
-:
-BRAND_DARK_PURPLE
 }
 icon
 :
@@ -483,9 +469,6 @@ fast
 -
 body
 "
-color
-:
-BRAND_DARK_PURPLE
 fontSize
 :
 "
@@ -551,9 +534,6 @@ fontSize
 fontWeight
 :
 613
-color
-:
-BRAND_DARK_PURPLE
 }
 icon
 :
@@ -609,9 +589,6 @@ allpurpose
 -
 body
 "
-color
-:
-BRAND_DARK_PURPLE
 fontSize
 :
 "
@@ -677,9 +654,6 @@ fontSize
 fontWeight
 :
 613
-color
-:
-BRAND_DARK_PURPLE
 }
 icon
 :
@@ -735,9 +709,6 @@ personal
 -
 body
 "
-color
-:
-BRAND_DARK_PURPLE
 fontSize
 :
 "
