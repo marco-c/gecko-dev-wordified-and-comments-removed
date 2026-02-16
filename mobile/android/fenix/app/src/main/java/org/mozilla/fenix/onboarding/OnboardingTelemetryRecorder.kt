@@ -151,6 +151,11 @@ val
 onboardingReason
 :
 OnboardingReason
+private
+val
+installSource
+:
+String
 )
 {
 /
@@ -233,6 +238,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 Onboarding
@@ -255,6 +263,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 Pings
@@ -300,6 +311,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -424,6 +438,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -462,6 +479,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -500,6 +520,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -538,6 +561,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -576,6 +602,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -614,6 +643,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -652,6 +684,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -690,6 +725,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -775,6 +813,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -858,6 +899,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -940,6 +984,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -1023,6 +1070,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -1107,6 +1157,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -1190,6 +1243,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -1273,6 +1329,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -1356,6 +1415,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -1457,6 +1519,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -1562,6 +1627,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -1648,6 +1716,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -1689,6 +1760,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -1728,6 +1802,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -1768,6 +1845,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -1807,6 +1887,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 Onboarding
@@ -1826,6 +1909,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 TermsOfUse
@@ -1925,6 +2011,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }
@@ -1966,6 +2055,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 /
@@ -2026,6 +2118,9 @@ onboardingReason
 onboardingReason
 .
 value
+installSource
+=
+installSource
 )
 )
 }

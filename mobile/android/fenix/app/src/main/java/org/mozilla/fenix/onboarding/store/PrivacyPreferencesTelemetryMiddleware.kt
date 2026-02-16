@@ -127,6 +127,13 @@ s
 /
 class
 PrivacyPreferencesTelemetryMiddleware
+(
+private
+val
+installSource
+:
+String
+)
 :
 Middleware
 <
@@ -195,6 +202,9 @@ value
 action
 .
 enabled
+installSource
+=
+installSource
 )
 )
 is
@@ -225,6 +235,9 @@ value
 action
 .
 enabled
+installSource
+=
+installSource
 )
 )
 is
@@ -252,6 +265,9 @@ OnboardingReason
 NEW_USER
 .
 value
+installSource
+=
+installSource
 )
 )
 is
@@ -279,6 +295,9 @@ OnboardingReason
 NEW_USER
 .
 value
+installSource
+=
+installSource
 )
 )
 /

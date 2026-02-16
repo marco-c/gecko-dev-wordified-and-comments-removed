@@ -226,6 +226,11 @@ middleware
 =
 PrivacyPreferencesTelemetryMiddleware
 (
+installSource
+=
+"
+installPackage
+"
 )
 }
 Test
