@@ -729,8 +729,6 @@ CloseElement
 Element
 *
 aElement
-bool
-aHadChildren
 )
 ;
 }
