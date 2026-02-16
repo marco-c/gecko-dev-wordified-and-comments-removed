@@ -592,7 +592,7 @@ relayDetails
 ?
 .
 relayPlanTier
-remaining
+totalMasksUsed
 =
 relayDetails
 ?

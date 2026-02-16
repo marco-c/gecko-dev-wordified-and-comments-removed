@@ -351,7 +351,7 @@ relayPlanTier
 RelayPlanTier
 .
 FREE
-remaining
+totalMasksUsed
 =
 10
 lastCheckedMs
@@ -423,7 +423,7 @@ relayPlanTier
 RelayPlanTier
 .
 NONE
-remaining
+totalMasksUsed
 =
 5
 lastCheckedMs
@@ -498,7 +498,7 @@ relayPlanTier
 RelayPlanTier
 .
 FREE
-remaining
+totalMasksUsed
 =
 3
 lastCheckedMs
@@ -573,7 +573,7 @@ relayPlanTier
 RelayPlanTier
 .
 PREMIUM
-remaining
+totalMasksUsed
 =
 0
 lastCheckedMs
@@ -646,7 +646,7 @@ true
 relayPlanTier
 =
 null
-remaining
+totalMasksUsed
 =
 99
 lastCheckedMs

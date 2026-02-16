@@ -246,7 +246,7 @@ Free
 (
 action
 .
-remaining
+totalMasksUsed
 )
 action
 .

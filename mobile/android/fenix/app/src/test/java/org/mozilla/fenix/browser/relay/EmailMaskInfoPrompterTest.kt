@@ -328,7 +328,7 @@ Eligible
 .
 Free
 (
-remaining
+totalMasksUsed
 =
 5
 )
@@ -461,7 +461,7 @@ Eligible
 .
 Free
 (
-remaining
+totalMasksUsed
 =
 5
 )

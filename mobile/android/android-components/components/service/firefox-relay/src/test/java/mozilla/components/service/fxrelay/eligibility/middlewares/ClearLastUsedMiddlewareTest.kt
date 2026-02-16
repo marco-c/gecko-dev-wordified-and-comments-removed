@@ -228,7 +228,7 @@ Eligible
 .
 Free
 (
-remaining
+totalMasksUsed
 =
 5
 )
@@ -389,7 +389,7 @@ relayPlanTier
 RelayPlanTier
 .
 PREMIUM
-remaining
+totalMasksUsed
 =
 0
 lastCheckedMs

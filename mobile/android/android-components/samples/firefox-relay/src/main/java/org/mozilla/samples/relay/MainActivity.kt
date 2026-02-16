@@ -1297,7 +1297,7 @@ remaining
 {
 e
 .
-remaining
+totalMasksUsed
 }
 "
 is
