@@ -666,6 +666,12 @@ scroll
 -
 container
 "
+tabindex
+=
+"
+-
+1
+"
 >
 <
 slot
