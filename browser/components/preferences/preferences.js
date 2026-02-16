@@ -1350,10 +1350,10 @@ groupIds
 :
 [
 "
-etpReset
-"
-"
 etpCustomize
+"
+"
+etpReset
 "
 ]
 }
