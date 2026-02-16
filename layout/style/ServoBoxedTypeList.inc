@@ -38,3 +38,8 @@ SERVO_BOXED_TYPE
 NumericDeclaration
 NumericDeclaration
 )
+SERVO_BOXED_TYPE
+(
+SumValue
+SumValue
+)
