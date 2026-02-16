@@ -599,6 +599,9 @@ title
 tab
 .
 url
+tab
+.
+privacy
 )
 )
 }
@@ -930,6 +933,9 @@ title
 tab
 .
 url
+tab
+.
+privacy
 )
 )
 }

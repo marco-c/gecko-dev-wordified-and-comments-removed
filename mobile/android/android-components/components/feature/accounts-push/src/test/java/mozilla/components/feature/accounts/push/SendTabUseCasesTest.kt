@@ -149,6 +149,16 @@ mozilla
 .
 components
 .
+concept
+.
+sync
+.
+TabPrivacy
+import
+mozilla
+.
+components
+.
 service
 .
 fxa
@@ -412,6 +422,9 @@ example
 .
 com
 "
+TabPrivacy
+.
+Normal
 )
 )
 testScheduler
@@ -482,6 +495,9 @@ example
 .
 com
 "
+TabPrivacy
+.
+Normal
 )
 when
 (
@@ -602,6 +618,9 @@ example
 .
 com
 "
+TabPrivacy
+.
+Normal
 )
 useCases
 .
@@ -772,6 +791,9 @@ example
 .
 com
 "
+TabPrivacy
+.
+Normal
 )
 val
 tab1
@@ -794,6 +816,9 @@ some
 /
 pdf
 "
+TabPrivacy
+.
+Normal
 )
 val
 tab2
@@ -808,6 +833,9 @@ about
 :
 config
 "
+TabPrivacy
+.
+Normal
 )
 when
 (
@@ -934,6 +962,9 @@ example
 .
 com
 "
+TabPrivacy
+.
+Normal
 )
 useCases
 .
@@ -1112,6 +1143,9 @@ example
 .
 com
 "
+TabPrivacy
+.
+Normal
 )
 useCases
 .
@@ -1336,6 +1370,9 @@ mozilla
 .
 org
 "
+TabPrivacy
+.
+Normal
 )
 useCases
 .
@@ -1457,6 +1494,9 @@ mozilla
 .
 org
 "
+TabPrivacy
+.
+Normal
 )
 val
 tab2
@@ -1475,6 +1515,9 @@ firefox
 .
 com
 "
+TabPrivacy
+.
+Normal
 )
 useCases
 .
@@ -1550,6 +1593,9 @@ mozilla
 .
 org
 "
+TabPrivacy
+.
+Normal
 )
 val
 device
@@ -1705,6 +1751,9 @@ mozilla
 .
 org
 "
+TabPrivacy
+.
+Normal
 )
 val
 tab2
@@ -1723,6 +1772,9 @@ firefox
 .
 com
 "
+TabPrivacy
+.
+Normal
 )
 val
 device
@@ -1959,6 +2011,9 @@ mozilla
 .
 org
 "
+TabPrivacy
+.
+Normal
 )
 val
 tab2
@@ -1977,6 +2032,9 @@ firefox
 .
 com
 "
+TabPrivacy
+.
+Normal
 )
 /
 /
@@ -2003,6 +2061,9 @@ to
 /
 pdffile
 "
+TabPrivacy
+.
+Normal
 )
 /
 /
@@ -2023,6 +2084,9 @@ about
 :
 config
 "
+TabPrivacy
+.
+Normal
 )
 useCases
 .
@@ -2111,6 +2175,9 @@ example
 .
 com
 "
+TabPrivacy
+.
+Normal
 )
 useCases
 .

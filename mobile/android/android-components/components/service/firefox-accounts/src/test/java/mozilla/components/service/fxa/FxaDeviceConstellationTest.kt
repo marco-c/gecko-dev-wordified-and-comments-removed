@@ -279,6 +279,16 @@ mozilla
 .
 components
 .
+concept
+.
+sync
+.
+TabPrivacy
+import
+mozilla
+.
+components
+.
 support
 .
 test
@@ -1706,6 +1716,9 @@ mozilla
 .
 org
 "
+TabPrivacy
+.
+Normal
 )
 )
 )
@@ -1825,6 +1838,9 @@ mozilla
 .
 org
 "
+TabPrivacy
+.
+Normal
 )
 )
 assertFalse
@@ -1941,6 +1957,9 @@ mozilla
 .
 org
 "
+TabPrivacy
+.
+Normal
 )
 )
 assertFalse
