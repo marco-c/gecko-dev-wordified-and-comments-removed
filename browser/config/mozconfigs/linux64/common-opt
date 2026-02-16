@@ -113,14 +113,6 @@ export
 MOZILLA_OFFICIAL
 =
 1
-ac_add_options
--
--
-built
--
-by
--
-mozilla
 #
 Package
 js
