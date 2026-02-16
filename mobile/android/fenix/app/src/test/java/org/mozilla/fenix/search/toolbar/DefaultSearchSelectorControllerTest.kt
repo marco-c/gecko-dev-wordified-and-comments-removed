@@ -67,6 +67,12 @@ search
 .
 toolbar
 import
+android
+.
+app
+.
+Activity
+import
 androidx
 .
 navigation
@@ -114,14 +120,6 @@ org
 junit
 .
 Test
-import
-org
-.
-mozilla
-.
-fenix
-.
-HomeActivity
 import
 org
 .
@@ -177,7 +175,7 @@ private
 val
 activity
 :
-HomeActivity
+Activity
 =
 mockk
 (

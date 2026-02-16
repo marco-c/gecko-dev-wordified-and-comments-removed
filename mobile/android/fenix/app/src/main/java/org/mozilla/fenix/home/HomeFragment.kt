@@ -4836,9 +4836,6 @@ MicrosurveyRequestPrompt
 microsurvey
 =
 it
-activity
-=
-activity
 onStartSurveyClicked
 =
 {
