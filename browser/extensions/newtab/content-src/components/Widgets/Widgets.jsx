@@ -1356,6 +1356,11 @@ isMaximized
 {
 isMaximized
 }
+widgetsMayBeMaximized
+=
+{
+widgetsMayBeMaximized
+}
 /
 >
 )
