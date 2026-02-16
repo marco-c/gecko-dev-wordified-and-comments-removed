@@ -3,10 +3,10 @@ criterion
 :
 :
 {
+Criterion
 black_box
 criterion_group
 criterion_main
-Criterion
 }
 ;
 use
@@ -84,7 +84,7 @@ ShippingGroupsSummary
 js
 "
 .
-to_owned
+into
 (
 )
 )

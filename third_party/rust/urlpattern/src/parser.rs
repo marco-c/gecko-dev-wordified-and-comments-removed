@@ -716,6 +716,8 @@ new
 struct
 PatternParser
 <
+'
+a
 F
 >
 where
@@ -739,6 +741,10 @@ token_list
 Vec
 <
 Token
+<
+'
+a
+>
 >
 encoding_callback
 :
@@ -764,10 +770,14 @@ usize
 }
 impl
 <
+'
+a
 F
 >
 PatternParser
 <
+'
+a
 F
 >
 where
@@ -801,6 +811,10 @@ TokenType
 Option
 <
 Token
+<
+'
+a
+>
 >
 {
 assert
@@ -879,6 +893,10 @@ bool
 Option
 <
 Token
+<
+'
+a
+>
 >
 {
 let
@@ -935,6 +953,10 @@ self
 Option
 <
 Token
+<
+'
+a
+>
 >
 {
 self
@@ -1121,10 +1143,6 @@ match
 modifier_token
 .
 value
-.
-as_ref
-(
-)
 {
 "
 ?
@@ -1428,6 +1446,10 @@ name
 name_token
 .
 value
+.
+to_owned
+(
+)
 ;
 }
 else
@@ -1646,7 +1668,6 @@ result
 .
 push_str
 (
-&
 token
 .
 unwrap
@@ -1733,7 +1754,7 @@ index
 .
 value
 .
-clone
+to_owned
 (
 )
 )
@@ -2060,7 +2081,6 @@ pending_fixed_value
 .
 push_str
 (
-&
 fixed_token
 .
 value
