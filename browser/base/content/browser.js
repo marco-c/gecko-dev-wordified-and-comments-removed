@@ -21515,7 +21515,7 @@ MozXULElement
 insertFTLIfNeeded
 (
 "
-preview
+browser
 /
 ipProtection
 .

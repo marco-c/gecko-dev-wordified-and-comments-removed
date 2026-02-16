@@ -81,7 +81,7 @@ Localization
 (
 [
 "
-preview
+browser
 /
 ipProtection
 .
