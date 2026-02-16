@@ -745,7 +745,7 @@ enabled
 false
 title
 :
-nova_onboarding_tou_title
+onboarding_welcome_to_firefox
 ordering
 :
 0
@@ -1556,7 +1556,7 @@ service
 :
 title
 :
-nova_onboarding_tou_title
+onboarding_welcome_to_firefox
 image
 -
 res
@@ -1890,7 +1890,7 @@ service
 :
 title
 :
-nova_onboarding_tou_title
+onboarding_welcome_to_firefox
 image
 -
 res

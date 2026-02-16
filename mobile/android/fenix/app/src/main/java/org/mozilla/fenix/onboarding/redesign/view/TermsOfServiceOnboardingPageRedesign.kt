@@ -1241,7 +1241,7 @@ R
 .
 string
 .
-nova_onboarding_tou_title
+onboarding_welcome_to_firefox
 )
 description
 =
