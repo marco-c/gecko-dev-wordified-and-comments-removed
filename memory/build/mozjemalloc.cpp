@@ -7152,6 +7152,9 @@ chunk
 aStats
 )
 ;
+bool
+chunk_is_dying
+;
 {
 MaybeMutexAutoLock
 lock
@@ -7219,6 +7222,13 @@ ShouldContinuePurge
 aCond
 )
 ;
+chunk_is_dying
+=
+chunk
+-
+>
+mDying
+;
 if
 (
 !
@@ -7247,10 +7257,7 @@ continue_purge_chunk
 {
 if
 (
-chunk
--
->
-mDying
+chunk_is_dying
 )
 {
 chunk_dealloc
