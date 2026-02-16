@@ -187,6 +187,14 @@ Closed
 window
 customkeys
 -
+sidebar
+-
+toggle
+=
+Toggle
+Sidebar
+customkeys
+-
 dev
 -
 tools
