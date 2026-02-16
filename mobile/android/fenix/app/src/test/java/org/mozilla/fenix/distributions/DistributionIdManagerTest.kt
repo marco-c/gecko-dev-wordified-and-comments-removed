@@ -1372,7 +1372,7 @@ XIAOMI_001
 )
 assertEquals
 (
-true
+false
 subject
 .
 shouldSkipMarketingConsentScreen
