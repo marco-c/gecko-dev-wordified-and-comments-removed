@@ -266,6 +266,17 @@ enabled
 =
 false
 "
+"
+media
+.
+ffvpx
+-
+hw
+.
+enabled
+=
+false
+"
 ]
 [
 "

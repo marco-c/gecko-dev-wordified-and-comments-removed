@@ -7388,6 +7388,17 @@ preferred
 =
 false
 "
+"
+media
+.
+ffvpx
+-
+hw
+.
+minimal
+=
+true
+"
 ]
 [
 "
