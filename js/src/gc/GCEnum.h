@@ -201,6 +201,12 @@ CheckHeapAfterGC
 \
 D
 (
+ConcurrentMarking
+16
+)
+\
+D
+(
 YieldBeforeSweepingAtoms
 17
 )
