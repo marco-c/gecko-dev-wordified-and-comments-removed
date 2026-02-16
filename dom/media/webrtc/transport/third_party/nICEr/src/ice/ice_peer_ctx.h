@@ -270,16 +270,6 @@ nr_ice_peer_ctx
 pctx
 )
 ;
-void
-nr_ice_peer_ctx_dump_state
-(
-nr_ice_peer_ctx
-*
-pctx
-int
-log_level
-)
-;
 int
 nr_ice_peer_ctx_log_state
 (
