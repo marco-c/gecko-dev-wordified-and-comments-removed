@@ -6410,6 +6410,7 @@ bogus
 )
 "
 )
+;
 should_not_apply
 (
 "
@@ -6421,6 +6422,7 @@ bogus
 )
 "
 )
+;
 /
 /
 Parsing
@@ -6441,6 +6443,7 @@ overflow
 block
 "
 )
+;
 expression_should_be_known
 (
 "
@@ -6451,6 +6454,7 @@ block
 none
 "
 )
+;
 expression_should_be_known
 (
 "
@@ -6461,6 +6465,7 @@ block
 paged
 "
 )
+;
 expression_should_be_known
 (
 "
@@ -6471,6 +6476,7 @@ block
 scroll
 "
 )
+;
 expression_should_be_unknown
 (
 "
@@ -6483,6 +6489,7 @@ optional
 paged
 "
 )
+;
 expression_should_be_unknown
 (
 "
@@ -6499,6 +6506,29 @@ invalid
 thing
 "
 )
+;
+expression_should_be_unknown
+(
+"
+overflow
+-
+block
+=
+scroll
+"
+)
+;
+expression_should_be_unknown
+(
+"
+overflow
+-
+block
+<
+scroll
+"
+)
+;
 /
 /
 Sanity
