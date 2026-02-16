@@ -3808,7 +3808,7 @@ sections
 "
 value
 :
-false
+true
 }
 ]
 [
@@ -3839,7 +3839,7 @@ menu
 "
 value
 :
-false
+true
 }
 ]
 [
