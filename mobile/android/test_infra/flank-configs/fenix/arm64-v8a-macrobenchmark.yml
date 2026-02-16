@@ -202,15 +202,6 @@ fenix
 benchmark
 .
 BaselineProfileMacrobenchmark
-org
-.
-mozilla
-.
-fenix
-.
-benchmark
-.
-TabsTrayMacrobenchmark
 device
 :
 -
