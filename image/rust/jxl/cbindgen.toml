@@ -151,6 +151,9 @@ JxlDecoderStatus
 "
 JxlBasicInfo
 "
+"
+JxlFrameInfo
+"
 ]
 [
 fn

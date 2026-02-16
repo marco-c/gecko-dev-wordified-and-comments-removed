@@ -185,6 +185,11 @@ State
 >
 mLexer
 ;
+uint32_t
+mFrameIndex
+=
+0
+;
 Vector
 <
 uint8_t
