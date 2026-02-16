@@ -530,14 +530,6 @@ small_max
 =
 stats
 .
-subpage_max
-?
-stats
-.
-subpage_max
-:
-stats
-.
 quantum_wide_max
 ;
 for
