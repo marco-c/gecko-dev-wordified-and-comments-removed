@@ -17,6 +17,11 @@ head
 js
 "
 "
+doc_xul
+.
+xhtml
+"
+"
 !
 /
 accessible
@@ -194,6 +199,13 @@ js
 [
 "
 browser_media
+.
+js
+"
+]
+[
+"
+browser_no_remote_xul
 .
 js
 "

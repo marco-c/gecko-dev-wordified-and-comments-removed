@@ -8267,6 +8267,12 @@ content
 IsXULElement
 (
 )
+&
+&
+!
+IPCAccessibilityActive
+(
+)
 )
 {
 if
