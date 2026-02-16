@@ -30080,12 +30080,6 @@ DoneCreatingElement
 (
 )
 {
-MOZ_ASSERT
-(
-!
-mDoneCreating
-)
-;
 mDoneCreating
 =
 true

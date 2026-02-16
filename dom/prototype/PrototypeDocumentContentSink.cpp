@@ -5109,7 +5109,7 @@ newNodeInfo
 forget
 (
 )
-FROM_PARSER_NETWORK
+NOT_FROM_PARSER
 aPrototype
 -
 >
@@ -5132,7 +5132,7 @@ newNodeInfo
 forget
 (
 )
-FROM_PARSER_NETWORK
+NOT_FROM_PARSER
 )
 ;
 }
