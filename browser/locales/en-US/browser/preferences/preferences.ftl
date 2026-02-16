@@ -6667,6 +6667,11 @@ homepage
 replace
 -
 with
+-
+prompt
+=
+.
+label
 =
 Replace
 with
@@ -6693,6 +6698,8 @@ homepage
 replace
 -
 with
+-
+prompt
 )
 home
 -
@@ -6735,6 +6742,8 @@ homepage
 replace
 -
 with
+-
+prompt
 )
 home
 -
