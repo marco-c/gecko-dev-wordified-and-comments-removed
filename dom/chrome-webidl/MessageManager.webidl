@@ -1536,6 +1536,7 @@ json
 =
 null
 ;
+required
 sequence
 <
 MessagePort
@@ -1543,7 +1544,10 @@ MessagePort
 ports
 ;
 FrameLoader
+?
 targetFrameLoader
+=
+null
 ;
 }
 ;
