@@ -662,5 +662,10 @@ long
 aNumEvicted
 )
 ;
+void
+OnHistoryCommit
+(
+)
+;
 }
 ;
