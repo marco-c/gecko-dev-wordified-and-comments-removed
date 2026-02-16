@@ -1928,13 +1928,14 @@ EditBackupLocation
 )
 {
 const
-window
+path
 =
-this
+message
 .
-browsingContext
+data
+?
 .
-topChromeWindow
+path
 ;
 this
 .
@@ -1943,7 +1944,7 @@ bs
 .
 editBackupLocation
 (
-window
+path
 )
 ;
 }
