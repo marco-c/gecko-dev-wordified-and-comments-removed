@@ -152,7 +152,16 @@ min
 -
 width
 :
-200px
+var
+(
+-
+-
+size
+-
+layout
+-
+small
+)
 ;
 width
 :
