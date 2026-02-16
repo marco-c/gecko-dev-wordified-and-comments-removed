@@ -297,30 +297,6 @@ robolectric
 .
 testContext
 import
-mozilla
-.
-components
-.
-support
-.
-test
-.
-rule
-.
-MainCoroutineRule
-import
-mozilla
-.
-components
-.
-support
-.
-test
-.
-rule
-.
-runTestOnMain
-import
 org
 .
 hamcrest
@@ -417,12 +393,6 @@ org
 .
 junit
 .
-Rule
-import
-org
-.
-junit
-.
 Test
 import
 org
@@ -488,22 +458,6 @@ class
 class
 PlacesHistoryStorageTest
 {
-get
-:
-Rule
-val
-coroutinesTestRule
-=
-MainCoroutineRule
-(
-)
-private
-val
-dispatcher
-=
-coroutinesTestRule
-.
-testDispatcher
 private
 lateinit
 var
@@ -516,7 +470,7 @@ setup
 (
 )
 =
-runTestOnMain
+runTest
 {
 history
 =
@@ -563,7 +517,7 @@ cleanup
 (
 )
 =
-runTestOnMain
+runTest
 {
 history
 .
@@ -585,7 +539,7 @@ types
 (
 )
 =
-runTestOnMain
+runTest
 {
 history
 .
@@ -1895,7 +1849,7 @@ calls
 (
 )
 =
-runTestOnMain
+runTest
 {
 history
 .
@@ -2083,7 +2037,7 @@ information
 (
 )
 =
-runTestOnMain
+runTest
 {
 val
 toAdd
@@ -2868,7 +2822,7 @@ information
 (
 )
 =
-runTestOnMain
+runTest
 {
 history
 .
@@ -3212,7 +3166,7 @@ callbacks
 (
 )
 =
-runTestOnMain
+runTest
 {
 /
 /
@@ -3566,7 +3520,7 @@ callbacks
 (
 )
 =
-runTestOnMain
+runTest
 {
 assertEquals
 (
@@ -3928,7 +3882,7 @@ changes
 (
 )
 =
-runTestOnMain
+runTest
 {
 /
 /
@@ -4318,7 +4272,7 @@ suggestions
 (
 )
 =
-runTestOnMain
+runTest
 {
 assertEquals
 (
@@ -4960,7 +4914,7 @@ suggestions
 (
 )
 =
-runTestOnMain
+runTest
 {
 assertNull
 (
@@ -5769,7 +5723,7 @@ operations
 (
 )
 =
-runTestOnMain
+runTest
 {
 /
 /
@@ -5842,7 +5796,7 @@ everything
 (
 )
 =
-runTestOnMain
+runTest
 {
 history
 .
@@ -6080,7 +6034,7 @@ url
 (
 )
 =
-runTestOnMain
+runTest
 {
 history
 .
@@ -6381,7 +6335,7 @@ since
 (
 )
 =
-runTestOnMain
+runTest
 {
 history
 .
@@ -6507,7 +6461,7 @@ range
 (
 )
 =
-runTestOnMain
+runTest
 {
 history
 .
@@ -6533,9 +6487,7 @@ VisitType
 TYPED
 )
 )
-dispatcher
-.
-scheduler
+testScheduler
 .
 advanceUntilIdle
 (
@@ -6564,9 +6516,7 @@ VisitType
 DOWNLOAD
 )
 )
-dispatcher
-.
-scheduler
+testScheduler
 .
 advanceUntilIdle
 (
@@ -6714,7 +6664,7 @@ timestamp
 (
 )
 =
-runTestOnMain
+runTest
 {
 history
 .
@@ -7022,7 +6972,7 @@ store
 (
 )
 =
-runTestOnMain
+runTest
 {
 history
 .
@@ -7381,7 +7331,7 @@ calls
 (
 )
 =
-runTestOnMain
+runTest
 {
 var
 passedAuthInfo
@@ -7581,7 +7531,7 @@ results
 (
 )
 =
-runTestOnMain
+runTest
 {
 val
 conn
@@ -7728,7 +7678,7 @@ exceptions
 (
 )
 =
-runTestOnMain
+runTest
 {
 /
 /
@@ -7903,7 +7853,7 @@ exceptions
 (
 )
 =
-runTestOnMain
+runTest
 {
 val
 exception
@@ -8077,7 +8027,7 @@ panics
 (
 )
 =
-runTestOnMain
+runTest
 {
 val
 exception
@@ -8235,7 +8185,7 @@ url
 (
 )
 =
-runTestOnMain
+runTest
 {
 val
 metaKey
@@ -8358,7 +8308,7 @@ query
 (
 )
 =
-runTestOnMain
+runTest
 {
 assertEquals
 (
@@ -9040,7 +8990,7 @@ between
 (
 )
 =
-runTestOnMain
+runTest
 {
 assertEquals
 (
@@ -9568,7 +9518,7 @@ since
 (
 )
 =
-runTestOnMain
+runTest
 {
 val
 beginning
@@ -10040,7 +9990,7 @@ term
 (
 )
 =
-runTestOnMain
+runTest
 {
 /
 /
@@ -10672,7 +10622,7 @@ places
 (
 )
 =
-runTestOnMain
+runTest
 {
 val
 result
@@ -10741,7 +10691,7 @@ default
 (
 )
 =
-runTestOnMain
+runTest
 {
 val
 result
@@ -11248,7 +11198,7 @@ url
 (
 )
 =
-runTestOnMain
+runTest
 {
 /
 /
