@@ -213,6 +213,13 @@ type
 :
 String
 }
+descriptionL10nArgs
+:
+{
+type
+:
+String
+}
 type
 :
 {

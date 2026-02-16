@@ -44,6 +44,17 @@ https_first
 =
 false
 "
+"
+browser
+.
+ipProtection
+.
+bandwidth
+.
+enabled
+=
+true
+"
 ]
 [
 "
