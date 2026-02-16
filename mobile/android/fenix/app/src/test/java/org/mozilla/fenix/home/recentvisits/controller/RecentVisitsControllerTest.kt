@@ -558,11 +558,8 @@ true
 )
 store
 =
-mockk
+BrowserStore
 (
-relaxed
-=
-true
 )
 controller
 =
