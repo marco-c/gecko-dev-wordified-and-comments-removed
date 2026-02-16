@@ -3055,9 +3055,14 @@ settings
 requireComponents
 .
 settings
-fragment
+window
 =
 this
+.
+dialog
+?
+.
+window
 )
 owner
 =
