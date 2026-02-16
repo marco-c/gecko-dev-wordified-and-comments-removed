@@ -20295,11 +20295,6 @@ struct
 "
 inherited_text
 "
-engine
-=
-"
-gecko
-"
 animation_type
 =
 "
@@ -20335,6 +20330,11 @@ affects
 =
 "
 layout
+"
+servo_restyle_damage
+=
+"
+rebuild_box
 "
 [
 ruby
