@@ -122,6 +122,13 @@ sys
 mjs
 "
 "
+GeckoViewPageExtractor
+.
+sys
+.
+mjs
+"
+"
 GeckoViewProcessHangMonitor
 .
 sys
