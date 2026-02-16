@@ -3112,6 +3112,13 @@ https_first_disabled
 true
 [
 "
+browser_ext_tabs_splitViewId
+.
+js
+"
+]
+[
+"
 browser_ext_tabs_successors
 .
 js
