@@ -944,6 +944,13 @@ name
 is
 not
 valid
+and
+has
+a
+path
+separator
+or
+slash
 .
 *
 /
