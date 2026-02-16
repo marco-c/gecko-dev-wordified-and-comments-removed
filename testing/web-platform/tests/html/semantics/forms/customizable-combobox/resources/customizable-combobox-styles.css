@@ -251,3 +251,15 @@ space
 nowrap
 ;
 }
+.
+active
+-
+option
+{
+outline
+:
+black
+auto
+1px
+;
+}
