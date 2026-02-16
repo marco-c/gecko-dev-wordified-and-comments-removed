@@ -1708,6 +1708,7 @@ return
 this
 .
 store
+?
 .
 getState
 (
@@ -1958,6 +1959,7 @@ trainhopConfig
 this
 .
 store
+?
 .
 getState
 (
@@ -8327,6 +8329,7 @@ prefs
 this
 .
 store
+?
 .
 getState
 (
