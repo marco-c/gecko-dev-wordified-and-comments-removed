@@ -2957,10 +2957,6 @@ block
 }
 media
 (
-min
--
-width
-:
 break
 -
 point
@@ -2968,6 +2964,15 @@ point
 layout
 -
 variant
+<
+=
+width
+<
+break
+-
+point
+-
+widest
 )
 {
 .

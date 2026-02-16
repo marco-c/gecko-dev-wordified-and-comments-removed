@@ -60581,11 +60581,12 @@ block
 }
 media
 (
-min
--
-width
-:
 724px
+<
+=
+width
+<
+1122px
 )
 {
 .
