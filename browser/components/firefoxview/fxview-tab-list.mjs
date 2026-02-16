@@ -3951,6 +3951,14 @@ type
 "
 auxclick
 "
+&
+&
+event
+.
+button
+=
+=
+1
 )
 {
 event
@@ -3981,7 +3989,7 @@ tab
 -
 list
 -
-aux
+middleclick
 -
 action
 "

@@ -1235,7 +1235,7 @@ error
 )
 ;
 }
-onAuxAction
+onMiddleClickAction
 (
 e
 )
@@ -2370,14 +2370,14 @@ tab
 -
 list
 -
-aux
+middleclick
 -
 action
 =
 {
 this
 .
-onAuxAction
+onMiddleClickAction
 }
 >
 <
