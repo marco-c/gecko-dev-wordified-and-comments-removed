@@ -55437,6 +55437,8 @@ MarkFixedFramesForReflow
 (
 )
 {
+if
+(
 nsIFrame
 *
 rootFrame
@@ -55447,10 +55449,6 @@ mFrameConstructor
 GetRootFrame
 (
 )
-;
-if
-(
-rootFrame
 )
 {
 const
@@ -55466,7 +55464,7 @@ GetChildList
 FrameChildListID
 :
 :
-Fixed
+Absolute
 )
 ;
 for

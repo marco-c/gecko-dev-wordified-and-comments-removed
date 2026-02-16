@@ -3468,15 +3468,6 @@ listID
 FrameChildListID
 :
 :
-Fixed
-|
-|
-listID
-=
-=
-FrameChildListID
-:
-:
 Float
 |
 |

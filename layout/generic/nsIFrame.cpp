@@ -1874,9 +1874,6 @@ AbsoluteContainingBlockProperty
 new
 AbsoluteContainingBlock
 (
-GetAbsoluteListID
-(
-)
 )
 )
 ;
@@ -10723,9 +10720,10 @@ if
 aListID
 =
 =
-GetAbsoluteListID
-(
-)
+FrameChildListID
+:
+:
+Absolute
 )
 {
 return
@@ -10739,7 +10737,6 @@ GetChildList
 )
 ;
 }
-else
 if
 (
 aListID
@@ -10816,9 +10813,10 @@ absoluteList
 AppendIfNonempty
 (
 aLists
-GetAbsoluteListID
-(
-)
+FrameChildListID
+:
+:
+Absolute
 )
 ;
 const
@@ -53026,10 +53024,6 @@ FrameChildListID
 :
 :
 Absolute
-FrameChildListID
-:
-:
-Fixed
 FrameChildListID
 :
 :
