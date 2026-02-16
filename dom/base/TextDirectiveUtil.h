@@ -302,7 +302,7 @@ aNode
 )
 ;
 static
-void
+bool
 AdvanceStartToNextNonWhitespacePosition
 (
 nsRange

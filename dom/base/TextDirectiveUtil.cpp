@@ -1243,7 +1243,7 @@ return
 false
 ;
 }
-void
+bool
 TextDirectiveUtil
 :
 :
@@ -1339,6 +1339,7 @@ GetNextNode
 )
 {
 return
+false
 ;
 }
 continue
@@ -1373,6 +1374,7 @@ offset
 )
 {
 return
+true
 ;
 }
 aRange
@@ -1386,6 +1388,9 @@ offset
 )
 ;
 }
+return
+false
+;
 }
 RangeBoundary
 TextDirectiveUtil
