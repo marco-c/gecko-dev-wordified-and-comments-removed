@@ -1163,6 +1163,16 @@ true
 ;
 }
 }
+if
+(
+this
+.
+hasActiveTab
+|
+|
+isSessionRestore
+)
+{
 this
 .
 #
@@ -1183,6 +1193,7 @@ this
 tabs
 )
 ;
+}
 for
 (
 let
