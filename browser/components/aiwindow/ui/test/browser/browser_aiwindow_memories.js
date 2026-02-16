@@ -371,9 +371,9 @@ window
 ;
 AIWindow
 .
-_initialized
-=
-false
+uninit
+(
+)
 ;
 AIWindow
 .
@@ -461,9 +461,9 @@ false
 ;
 AIWindow
 .
-_initialized
-=
-false
+uninit
+(
+)
 ;
 AIWindow
 .
