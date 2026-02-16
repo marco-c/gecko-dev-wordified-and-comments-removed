@@ -28,6 +28,13 @@ h
 #
 include
 "
+HttpTransactionShell
+.
+h
+"
+#
+include
+"
 nsIReplacedHttpResponse
 .
 h
@@ -183,6 +190,13 @@ h
 include
 "
 nsIThreadRetargetableStreamListener
+.
+h
+"
+#
+include
+"
+nsITransport
 .
 h
 "

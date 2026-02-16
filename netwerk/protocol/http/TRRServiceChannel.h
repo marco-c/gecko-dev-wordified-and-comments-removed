@@ -51,6 +51,13 @@ h
 #
 include
 "
+nsITransport
+.
+h
+"
+#
+include
+"
 nsWeakReference
 .
 h
