@@ -2013,9 +2013,8 @@ Get
 )
 -
 >
-GetHttp3FirstForServer
+Http3FirstEnabled
 (
-host
 )
 )
 )
