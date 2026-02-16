@@ -2667,6 +2667,11 @@ FONT_PAIR
 variantD
 variant_d
 )
+FONT_PAIR
+(
+variantE
+variant_e
+)
 }
 ;
 #
