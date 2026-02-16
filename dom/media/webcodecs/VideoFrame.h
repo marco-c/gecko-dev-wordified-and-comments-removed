@@ -7,6 +7,13 @@ mozilla_dom_VideoFrame_h
 #
 include
 "
+MediaResult
+.
+h
+"
+#
+include
+"
 js
 /
 TypeDecls
@@ -1115,7 +1122,11 @@ aSize
 )
 const
 ;
+Result
+<
 size_t
+MediaResult
+>
 ByteCount
 (
 const
