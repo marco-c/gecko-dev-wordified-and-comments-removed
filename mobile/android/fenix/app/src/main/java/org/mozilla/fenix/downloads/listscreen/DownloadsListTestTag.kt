@@ -134,4 +134,16 @@ rename
 .
 cancel
 "
+internal
+const
+val
+RENAME_DIALOG_FAILURE_DISMISS_BUTTON
+=
+"
+DOWNLOADS_LIST
+.
+rename
+.
+ok
+"
 }
