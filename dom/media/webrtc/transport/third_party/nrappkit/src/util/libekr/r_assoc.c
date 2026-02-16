@@ -88,7 +88,6 @@ int
 hash_func
 )
 (
-const
 char
 *
 key
@@ -128,7 +127,6 @@ r_assoc_fetch_bucket
 r_assoc
 *
 assoc
-const
 char
 *
 key
@@ -153,7 +151,6 @@ int
 hash_func
 )
 (
-const
 char
 *
 key
@@ -450,7 +447,6 @@ r_assoc_fetch_bucket
 r_assoc
 *
 assoc
-const
 char
 *
 key
@@ -555,7 +551,6 @@ r_assoc_fetch
 r_assoc
 *
 assoc
-const
 char
 *
 key
@@ -628,7 +623,6 @@ r_assoc_insert
 r_assoc
 *
 assoc
-const
 char
 *
 key
@@ -1437,7 +1431,6 @@ return
 int
 r_crc32
 (
-const
 char
 *
 data
@@ -1451,7 +1444,6 @@ crcval
 int
 r_assoc_crc32_hash_compute
 (
-const
 char
 *
 data

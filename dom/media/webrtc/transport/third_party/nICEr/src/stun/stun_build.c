@@ -2491,13 +2491,11 @@ nr_stun_message
 res
 int
 number
-const
 char
 *
 msg
 )
 {
-const
 char
 *
 str

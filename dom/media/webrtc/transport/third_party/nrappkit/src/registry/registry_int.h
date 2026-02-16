@@ -41,7 +41,7 @@ NR_LOG_REGISTRY
 int
 nr_reg_is_valid
 (
-NR_registry_name
+NR_registry
 name
 )
 ;
@@ -93,7 +93,6 @@ NR_REG_TYPE_STRING
 define
 NR_REG_TYPE_REGISTRY
 11
-const
 char
 *
 nr_reg_type_name
@@ -102,7 +101,17 @@ int
 type
 )
 ;
-const
+int
+nr_reg_compute_type
+(
+char
+*
+type_name
+int
+*
+type
+)
+;
 char
 *
 nr_reg_action_name
@@ -135,7 +144,7 @@ connect_to_port
 int
 nr_reg_raise_event
 (
-NR_registry_name
+NR_registry
 name
 int
 action
@@ -282,7 +291,6 @@ void
 int
 nr_reg_get
 (
-const
 char
 *
 name
@@ -296,7 +304,6 @@ out
 int
 nr_reg_get_array
 (
-const
 char
 *
 name
@@ -316,7 +323,6 @@ length
 int
 nr_reg_set
 (
-const
 char
 *
 name
@@ -330,14 +336,12 @@ data
 int
 nr_reg_set_array
 (
-const
 char
 *
 name
 unsigned
 char
 type
-const
 UCHAR
 *
 data
@@ -348,7 +352,6 @@ length
 int
 nr_reg_fetch_node
 (
-const
 char
 *
 name
@@ -367,7 +370,7 @@ free_node
 int
 nr_reg_local_get_length
 (
-NR_registry_name
+NR_registry
 name
 size_t
 *
@@ -377,14 +380,14 @@ len
 int
 nr_reg_local_del
 (
-NR_registry_name
+NR_registry
 name
 )
 ;
 int
 nr_reg_local_get_child_count
 (
-NR_registry_name
+NR_registry
 parent
 size_t
 *
@@ -394,7 +397,7 @@ count
 int
 nr_reg_local_get_children
 (
-NR_registry_name
+NR_registry
 parent
 NR_registry
 *

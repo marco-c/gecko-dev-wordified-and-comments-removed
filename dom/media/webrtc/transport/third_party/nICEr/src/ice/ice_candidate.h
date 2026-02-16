@@ -219,7 +219,6 @@ entry_comp
 }
 ;
 extern
-const
 char
 *
 nr_ice_candidate_type_names
@@ -227,7 +226,6 @@ nr_ice_candidate_type_names
 ]
 ;
 extern
-const
 char
 *
 nr_ice_candidate_tcp_type_names
@@ -358,7 +356,6 @@ nr_ice_peer_peer_rflx_candidate_create
 nr_ice_ctx
 *
 ctx
-const
 char
 *
 label

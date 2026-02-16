@@ -22,7 +22,6 @@ int
 hash_func
 )
 (
-const
 char
 *
 int
@@ -38,7 +37,6 @@ r_assoc_insert
 r_assoc
 *
 assoc
-const
 char
 *
 key
@@ -89,7 +87,6 @@ r_assoc_fetch
 r_assoc
 *
 assoc
-const
 char
 *
 key
@@ -113,7 +110,6 @@ assocp
 int
 r_assoc_crc32_hash_compute
 (
-const
 char
 *
 key

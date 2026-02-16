@@ -1101,9 +1101,6 @@ cand
 >
 type
 =
-(
-nr_ice_candidate_type
-)
 i
 ;
 break
@@ -1527,9 +1524,6 @@ cand
 >
 tcp_type
 =
-(
-nr_socket_tcp_type
-)
 i
 ;
 fast_forward

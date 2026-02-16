@@ -7,7 +7,6 @@ _hex_h
 int
 nr_nbin2hex
 (
-const
 UCHAR
 *
 bin

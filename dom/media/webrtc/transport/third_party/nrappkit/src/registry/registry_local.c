@@ -159,7 +159,6 @@ static
 int
 nr_reg_insert_node
 (
-const
 char
 *
 name
@@ -172,7 +171,6 @@ static
 int
 nr_reg_change_node
 (
-const
 char
 *
 name
@@ -188,7 +186,7 @@ static
 int
 nr_reg_get_data
 (
-NR_registry_name
+NR_registry
 name
 nr_scalar_registry_node
 *
@@ -202,7 +200,6 @@ static
 int
 nr_reg_set_parent_registries
 (
-const
 char
 *
 name
@@ -212,7 +209,6 @@ char
 *
 nr_reg_alloc_node_data
 (
-const
 char
 *
 name
@@ -237,7 +233,6 @@ static
 int
 nr_reg_compute_length
 (
-const
 char
 *
 name
@@ -249,7 +244,6 @@ size_t
 length
 )
 ;
-const
 char
 *
 nr_reg_action_name
@@ -269,7 +263,7 @@ static
 int
 nr_reg_local_iter
 (
-NR_registry_name
+NR_registry
 prefix
 int
 (
@@ -283,11 +277,9 @@ ptr
 r_assoc_iterator
 *
 iter
-const
 char
 *
 prefix
-const
 char
 *
 name
@@ -310,11 +302,9 @@ ptr
 r_assoc_iterator
 *
 iter
-const
 char
 *
 prefix
-const
 char
 *
 name
@@ -333,11 +323,9 @@ ptr
 r_assoc_iterator
 *
 iter
-const
 char
 *
 prefix
-const
 char
 *
 name
@@ -356,11 +344,9 @@ ptr
 r_assoc_iterator
 *
 iter
-const
 char
 *
 prefix
-const
 char
 *
 name
@@ -372,7 +358,7 @@ node
 int
 nr_reg_local_iter
 (
-NR_registry_name
+NR_registry
 prefix
 int
 (
@@ -386,11 +372,9 @@ ptr
 r_assoc_iterator
 *
 iter
-const
 char
 *
 prefix
-const
 char
 *
 name
@@ -481,7 +465,6 @@ iter
 (
 void
 *
-*
 )
 &
 name
@@ -489,7 +472,6 @@ name
 namel
 (
 void
-*
 *
 )
 &
@@ -655,11 +637,9 @@ ptr
 r_assoc_iterator
 *
 iter
-const
 char
 *
 prefix
-const
 char
 *
 name
@@ -709,11 +689,9 @@ ptr
 r_assoc_iterator
 *
 iter
-const
 char
 *
 prefix
-const
 char
 *
 name
@@ -733,7 +711,6 @@ strlen
 prefix
 )
 ;
-const
 char
 *
 dot
@@ -745,7 +722,7 @@ nr_reg_find_children_arg
 arg
 =
 (
-nr_reg_find_children_arg
+void
 *
 )
 ptr
@@ -895,11 +872,9 @@ ptr
 r_assoc_iterator
 *
 iter
-const
 char
 *
 prefix
-const
 char
 *
 name
@@ -916,7 +891,6 @@ strlen
 prefix
 )
 ;
-const
 char
 *
 dot
@@ -1031,7 +1005,6 @@ return
 int
 nr_reg_fetch_node
 (
-const
 char
 *
 name
@@ -1094,7 +1067,6 @@ name
 1
 (
 void
-*
 *
 )
 node
@@ -1251,7 +1223,6 @@ _status
 int
 nr_reg_insert_node
 (
-const
 char
 *
 name
@@ -1366,7 +1337,7 @@ nr_reg_alloc_node_data
 (
 name
 (
-nr_registry_node
+void
 *
 )
 node
@@ -1446,7 +1417,6 @@ _status
 int
 nr_reg_change_node
 (
-const
 char
 *
 name
@@ -1557,7 +1527,7 @@ nr_reg_alloc_node_data
 (
 name
 (
-nr_registry_node
+void
 *
 )
 node
@@ -1638,7 +1608,6 @@ char
 *
 nr_reg_alloc_node_data
 (
-const
 char
 *
 name
@@ -2205,7 +2174,6 @@ s
 int
 nr_reg_get
 (
-const
 char
 *
 name
@@ -2241,8 +2209,7 @@ nr_reg_fetch_node
 name
 type
 (
-nr_registry_node
-*
+void
 *
 )
 &
@@ -2299,7 +2266,7 @@ _status
 int
 nr_reg_get_data
 (
-NR_registry_name
+NR_registry
 name
 nr_scalar_registry_node
 *
@@ -2516,7 +2483,6 @@ _status
 int
 nr_reg_get_array
 (
-const
 char
 *
 name
@@ -2559,8 +2525,7 @@ nr_reg_fetch_node
 name
 type
 (
-nr_registry_node
-*
+void
 *
 )
 &
@@ -2659,7 +2624,6 @@ _status
 int
 nr_reg_set
 (
-const
 char
 *
 name
@@ -2705,8 +2669,7 @@ nr_reg_fetch_node
 name
 type
 (
-nr_registry_node
-*
+void
 *
 )
 &
@@ -3024,14 +2987,12 @@ _status
 int
 nr_reg_set_array
 (
-const
 char
 *
 name
 unsigned
 char
 type
-const
 UCHAR
 *
 data
@@ -3080,8 +3041,7 @@ nr_reg_fetch_node
 name
 type
 (
-nr_registry_node
-*
+void
 *
 )
 &
@@ -3347,7 +3307,6 @@ _status
 int
 nr_reg_set_parent_registries
 (
-const
 char
 *
 name
@@ -3455,7 +3414,7 @@ _status
 int
 nr_reg_is_valid
 (
-NR_registry_name
+NR_registry
 name
 )
 {
@@ -3644,7 +3603,6 @@ _status
 int
 nr_reg_compute_length
 (
-const
 char
 *
 name
@@ -3906,7 +3864,7 @@ _status
 int
 nr_reg_local_get_length
 (
-NR_registry_name
+NR_registry
 name
 size_t
 *
@@ -3957,7 +3915,6 @@ name
 (
 void
 *
-*
 )
 &
 node
@@ -4002,7 +3959,7 @@ _status
 int
 nr_reg_local_del
 (
-NR_registry_name
+NR_registry
 name
 )
 {
@@ -4137,7 +4094,7 @@ _status
 int
 nr_reg_local_get_child_count
 (
-NR_registry_name
+NR_registry
 parent
 size_t
 *
@@ -4240,7 +4197,7 @@ _status
 int
 nr_reg_local_get_children
 (
-NR_registry_name
+NR_registry
 parent
 NR_registry
 *

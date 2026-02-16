@@ -346,7 +346,6 @@ h
 int
 r_crc32
 (
-const
 char
 *
 buf
@@ -363,7 +362,6 @@ crc
 ~
 0
 ;
-const
 char
 *
 p

@@ -62,7 +62,6 @@ r_macros
 h
 "
 static
-const
 char
 CB_ACTIONS
 [
@@ -93,7 +92,7 @@ void
 cb_arg
 char
 action
-NR_registry_name
+NR_registry
 name
 )
 ;
@@ -177,7 +176,6 @@ static
 int
 nr_reg_raise_event_recurse
 (
-const
 char
 *
 name
@@ -192,7 +190,7 @@ static
 int
 nr_reg_register_callback
 (
-NR_registry_name
+NR_registry
 name
 char
 action
@@ -207,7 +205,7 @@ void
 cb_arg
 char
 action
-NR_registry_name
+NR_registry
 name
 )
 void
@@ -355,7 +353,7 @@ _status
 int
 nr_reg_register_callback
 (
-NR_registry_name
+NR_registry
 name
 char
 action
@@ -370,7 +368,7 @@ void
 cb_arg
 char
 action
-NR_registry_name
+NR_registry
 name
 )
 void
@@ -491,7 +489,6 @@ name
 (
 void
 *
-*
 )
 &
 assoc
@@ -576,10 +573,6 @@ r
 =
 compute_cb_id
 (
-(
-void
-*
-)
 cb
 action
 cb_id
@@ -607,7 +600,6 @@ cb_id
 SIZEOF_CB_ID
 (
 void
-*
 *
 )
 &
@@ -894,7 +886,6 @@ return
 0
 ;
 }
-const
 char
 *
 nr_reg_action_name
@@ -903,7 +894,6 @@ int
 action
 )
 {
-const
 char
 *
 name
@@ -1009,7 +999,6 @@ return
 int
 nr_reg_raise_event_recurse
 (
-const
 char
 *
 name
@@ -1111,7 +1100,6 @@ tmp
 1
 (
 void
-*
 *
 )
 &
@@ -1236,7 +1224,6 @@ iter
 (
 void
 *
-*
 )
 &
 key
@@ -1244,7 +1231,6 @@ key
 keyl
 (
 void
-*
 *
 )
 &
@@ -1453,7 +1439,7 @@ _status
 int
 nr_reg_raise_event
 (
-NR_registry_name
+NR_registry
 name
 int
 action
@@ -1466,7 +1452,6 @@ _status
 int
 count
 ;
-const
 char
 *
 event
@@ -1601,7 +1586,7 @@ _status
 int
 NR_reg_register_callback
 (
-NR_registry_name
+NR_registry
 name
 char
 action
@@ -1616,7 +1601,7 @@ void
 cb_arg
 char
 action
-NR_registry_name
+NR_registry
 name
 )
 void
