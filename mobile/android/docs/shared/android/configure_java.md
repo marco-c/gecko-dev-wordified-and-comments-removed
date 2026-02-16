@@ -277,10 +277,6 @@ from
 Homebrew
 ]
 (
-[
-url
-]
-(
 https
 :
 /
@@ -289,7 +285,6 @@ brew
 .
 sh
 /
-)
 )
 using
 the
