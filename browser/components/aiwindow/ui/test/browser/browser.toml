@@ -81,6 +81,13 @@ js
 ]
 [
 "
+browser_aichat_content_message_event
+.
+js
+"
+]
+[
+"
 browser_aichat_message
 .
 js

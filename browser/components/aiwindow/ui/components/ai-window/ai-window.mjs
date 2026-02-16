@@ -4493,13 +4493,10 @@ dispatchMessageToChatContent
 role
 :
 "
+clear
+-
+conversation
 "
-/
-/
-wont
-be
-checked
-.
 content
 :
 {
