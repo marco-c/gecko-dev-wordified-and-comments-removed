@@ -1164,7 +1164,7 @@ SharedTransitionScope
 .
 ResizeMode
 .
-ScaleToBounds
+scaleToBounds
 (
 )
 )
