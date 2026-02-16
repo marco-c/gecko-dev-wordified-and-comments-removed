@@ -178,6 +178,13 @@ Replaced
 }
 |
 LEAF
+BACKDROP_UNSUPPORTED
+=
+{
+"
+BackdropUnsupported
+"
+}
 FRAME_CLASSES
 =
 [
@@ -232,6 +239,7 @@ BLOCK
     
 Frame
 (
+        
 "
 nsCheckboxRadioFrame
 "
@@ -241,6 +249,9 @@ CheckboxRadio
 REPLACED
 |
 LEAF
+|
+BACKDROP_UNSUPPORTED
+    
 )
     
 Frame
@@ -773,6 +784,8 @@ TextInput
 REPLACED
 |
 LEAF
+|
+BACKDROP_UNSUPPORTED
 )
     
 Frame
@@ -834,6 +847,8 @@ Progress
 REPLACED
 |
 LEAF
+|
+BACKDROP_UNSUPPORTED
 )
     
 Frame
@@ -847,6 +862,8 @@ Range
 REPLACED
 |
 LEAF
+|
+BACKDROP_UNSUPPORTED
 )
     
 Frame
@@ -967,6 +984,8 @@ TextInput
 REPLACED
 |
 LEAF
+|
+BACKDROP_UNSUPPORTED
 )
     
 Frame
@@ -1474,6 +1493,8 @@ TextInput
 REPLACED
 |
 LEAF
+|
+BACKDROP_UNSUPPORTED
 )
     
 Frame

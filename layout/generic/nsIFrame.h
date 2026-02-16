@@ -2230,6 +2230,12 @@ SVGRenderingObserverContainer
 <
 <
 15
+BackdropUnsupported
+=
+1
+<
+<
+16
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
@@ -9218,6 +9224,10 @@ SupportsContainLayoutAndPaint
 CLASS_FLAG_METHOD0
 (
 SupportsAspectRatio
+)
+CLASS_FLAG_METHOD0
+(
+BackdropUnsupported
 )
 CLASS_FLAG_METHOD
 (
