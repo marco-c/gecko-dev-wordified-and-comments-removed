@@ -12101,7 +12101,17 @@ pref_key_toolbar_cfr
 )
 default
 =
+Config
+.
+channel
+.
+isReleaseOrBeta
+|
+|
 isBenchmarkBuild
+persistDefaultIfNotExists
+=
+true
 )
 /
 *
