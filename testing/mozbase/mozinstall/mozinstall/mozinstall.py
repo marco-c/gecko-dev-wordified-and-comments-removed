@@ -1860,7 +1860,6 @@ app_dir
 (
             
 subprocess
-            
 .
 check_output
 (
@@ -2590,7 +2589,6 @@ in
 (
                                 
 subprocess
-                                
 .
 check_output
 (

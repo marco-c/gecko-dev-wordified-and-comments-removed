@@ -2012,7 +2012,6 @@ if
 config
 .
 params
-                
 .
 get
 (

@@ -225,7 +225,6 @@ return
 self
 .
 header
-            
 .
 Dereference
 (
@@ -588,7 +587,6 @@ print
 (
             
 field
-            
 .
 GetChildMemberWithName
 (
