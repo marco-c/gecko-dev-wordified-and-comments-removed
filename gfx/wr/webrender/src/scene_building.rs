@@ -13247,17 +13247,7 @@ height
 let
 cached
 =
-(
-!
-self
-.
-config
-.
-is_software
-|
-|
 is_tiled
-)
 &
 &
 !
