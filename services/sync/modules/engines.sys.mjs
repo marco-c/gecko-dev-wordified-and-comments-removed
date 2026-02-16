@@ -4860,7 +4860,7 @@ _beforeSaveMetadata
 ;
 this
 .
-_previousFailedStorage
+_previousFailedInStorage
 =
 new
 JSONFile
@@ -5322,7 +5322,7 @@ ensureDirectory
 (
 this
 .
-_previousFailedStorage
+_previousFailedInStorage
 .
 path
 )
@@ -5468,7 +5468,7 @@ load
 await
 this
 .
-_previousFailedStorage
+_previousFailedInStorage
 .
 load
 (
@@ -6681,13 +6681,13 @@ saveSoon
 ;
 }
 get
-previousFailed
+previousFailedIn
 (
 )
 {
 this
 .
-_previousFailedStorage
+_previousFailedInStorage
 .
 ensureDataReady
 (
@@ -6696,7 +6696,7 @@ ensureDataReady
 return
 this
 .
-_previousFailedStorage
+_previousFailedInStorage
 .
 data
 .
@@ -6704,7 +6704,7 @@ ids
 ;
 }
 set
-previousFailed
+previousFailedIn
 (
 ids
 )
@@ -6733,7 +6733,7 @@ Bug
 Attempted
 to
 set
-previousFailed
+previousFailedIn
 to
 something
 that
@@ -6748,7 +6748,7 @@ SerializableSet
 }
 this
 .
-_previousFailedStorage
+_previousFailedInStorage
 .
 data
 =
@@ -6758,7 +6758,7 @@ ids
 ;
 this
 .
-_previousFailedStorage
+_previousFailedInStorage
 .
 saveSoon
 (
@@ -8630,7 +8630,7 @@ failedInPreviousSync
 =
 this
 .
-previousFailed
+previousFailedIn
 ;
 let
 idsToBackfill
@@ -8710,7 +8710,7 @@ noise
 .
 this
 .
-previousFailed
+previousFailedIn
 =
 failedInCurrentSync
 ;
@@ -8981,7 +8981,7 @@ ids
 ;
 this
 .
-previousFailed
+previousFailedIn
 =
 Utils
 .
@@ -8989,7 +8989,7 @@ setAddAll
 (
 this
 .
-previousFailed
+previousFailedIn
 failedInBackfill
 )
 ;
@@ -9032,7 +9032,7 @@ item
 of
 this
 .
-previousFailed
+previousFailedIn
 )
 {
 /
@@ -9090,7 +9090,7 @@ item
 {
 this
 .
-previousFailed
+previousFailedIn
 .
 delete
 (
@@ -14073,7 +14073,7 @@ false
 ;
 this
 .
-previousFailed
+previousFailedIn
 =
 new
 SerializableSet
@@ -14304,7 +14304,7 @@ finalize
 await
 this
 .
-_previousFailedStorage
+_previousFailedInStorage
 .
 finalize
 (

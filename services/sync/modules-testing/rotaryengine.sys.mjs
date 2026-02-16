@@ -547,7 +547,7 @@ SerializableSet
 ;
 this
 .
-previousFailed
+previousFailedIn
 =
 new
 SerializableSet
