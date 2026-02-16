@@ -4039,11 +4039,6 @@ struct
 "
 inherited_ui
 "
-engine
-=
-"
-gecko
-"
 spec
 =
 "
@@ -4069,6 +4064,11 @@ color
 ignored_when_colors_disabled
 =
 true
+servo_restyle_damage
+=
+"
+repaint
+"
 affects
 =
 "
