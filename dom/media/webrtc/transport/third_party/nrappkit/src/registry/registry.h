@@ -56,8 +56,14 @@ NR_registry_type
 NR_REG_MAX_TYPE_LEN
 ]
 ;
+typedef
+const
+char
+*
+NR_registry_name
+;
 extern
-NR_registry
+NR_registry_name
 NR_TOP_LEVEL_REGISTRY
 ;
 int
@@ -75,7 +81,7 @@ void
 int
 NR_reg_get_char
 (
-NR_registry
+NR_registry_name
 name
 char
 *
@@ -85,7 +91,7 @@ out
 int
 NR_reg_get_uchar
 (
-NR_registry
+NR_registry_name
 name
 UCHAR
 *
@@ -95,7 +101,7 @@ out
 int
 NR_reg_get_uint2
 (
-NR_registry
+NR_registry_name
 name
 UINT2
 *
@@ -105,7 +111,7 @@ out
 int
 NR_reg_get_int4
 (
-NR_registry
+NR_registry_name
 name
 INT4
 *
@@ -115,7 +121,7 @@ out
 int
 NR_reg_get_uint4
 (
-NR_registry
+NR_registry_name
 name
 UINT4
 *
@@ -125,7 +131,7 @@ out
 int
 NR_reg_get_uint8
 (
-NR_registry
+NR_registry_name
 name
 UINT8
 *
@@ -135,7 +141,7 @@ out
 int
 NR_reg_get_double
 (
-NR_registry
+NR_registry_name
 name
 double
 *
@@ -145,7 +151,7 @@ out
 int
 NR_reg_get_registry
 (
-NR_registry
+NR_registry_name
 name
 NR_registry
 out
@@ -154,7 +160,7 @@ out
 int
 NR_reg_get_bytes
 (
-NR_registry
+NR_registry_name
 name
 UCHAR
 *
@@ -169,7 +175,7 @@ length
 int
 NR_reg_get_string
 (
-NR_registry
+NR_registry_name
 name
 char
 *
@@ -181,7 +187,7 @@ size
 int
 NR_reg_get_length
 (
-NR_registry
+NR_registry_name
 name
 size_t
 *
@@ -191,7 +197,7 @@ length
 int
 NR_reg_get2_char
 (
-NR_registry
+NR_registry_name
 prefix
 const
 char
@@ -204,7 +210,7 @@ char
 int
 NR_reg_get2_uchar
 (
-NR_registry
+NR_registry_name
 prefix
 const
 char
@@ -217,7 +223,7 @@ UCHAR
 int
 NR_reg_get2_uint2
 (
-NR_registry
+NR_registry_name
 prefix
 const
 char
@@ -230,7 +236,7 @@ UINT2
 int
 NR_reg_alloc2_string
 (
-NR_registry
+NR_registry_name
 prefix
 const
 char
@@ -244,7 +250,7 @@ char
 int
 NR_reg_alloc2_data
 (
-NR_registry
+NR_registry_name
 prefix
 const
 char
@@ -257,7 +263,7 @@ Data
 int
 NR_reg_set_char
 (
-NR_registry
+NR_registry_name
 name
 char
 data
@@ -266,7 +272,7 @@ data
 int
 NR_reg_set_uchar
 (
-NR_registry
+NR_registry_name
 name
 UCHAR
 data
@@ -275,7 +281,7 @@ data
 int
 NR_reg_set_int4
 (
-NR_registry
+NR_registry_name
 name
 INT4
 data
@@ -284,7 +290,7 @@ data
 int
 NR_reg_set_uint4
 (
-NR_registry
+NR_registry_name
 name
 UINT4
 data
@@ -293,14 +299,14 @@ data
 int
 NR_reg_set_registry
 (
-NR_registry
+NR_registry_name
 name
 )
 ;
 int
 NR_reg_set_bytes
 (
-NR_registry
+NR_registry_name
 name
 const
 UCHAR
@@ -313,7 +319,7 @@ length
 int
 NR_reg_set_string
 (
-NR_registry
+NR_registry_name
 name
 const
 char
@@ -324,7 +330,7 @@ data
 int
 NR_reg_set2_uchar
 (
-NR_registry
+NR_registry_name
 prefix
 const
 char
@@ -337,7 +343,7 @@ data
 int
 NR_reg_set2_string
 (
-NR_registry
+NR_registry_name
 prefix
 const
 char
@@ -352,14 +358,14 @@ data
 int
 NR_reg_del
 (
-NR_registry
+NR_registry_name
 name
 )
 ;
 int
 NR_reg_get_child_count
 (
-NR_registry
+NR_registry_name
 parent
 unsigned
 int
@@ -370,7 +376,7 @@ count
 int
 NR_reg_get_child_registry
 (
-NR_registry
+NR_registry_name
 parent
 unsigned
 int
@@ -382,7 +388,7 @@ child
 int
 NR_reg_alloc_data
 (
-NR_registry
+NR_registry_name
 name
 Data
 *
@@ -392,7 +398,7 @@ data
 int
 NR_reg_alloc_string
 (
-NR_registry
+NR_registry_name
 name
 char
 *
@@ -439,7 +445,7 @@ NR_REG_CB_ACTION_FINAL
 int
 NR_reg_register_callback
 (
-NR_registry
+NR_registry_name
 name
 char
 action
@@ -454,7 +460,7 @@ void
 cb_arg
 char
 action
-NR_registry
+NR_registry_name
 name
 )
 void
@@ -465,7 +471,7 @@ cb_arg
 int
 NR_reg_make_registry
 (
-NR_registry
+NR_registry_name
 parent
 const
 char

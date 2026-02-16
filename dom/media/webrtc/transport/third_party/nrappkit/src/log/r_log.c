@@ -376,7 +376,7 @@ void
 cb_arg
 char
 action
-NR_registry
+NR_registry_name
 name
 )
 ;
@@ -389,7 +389,7 @@ void
 cb_arg
 char
 action
-NR_registry
+NR_registry_name
 name
 )
 ;
@@ -402,7 +402,7 @@ void
 cb_arg
 char
 action
-NR_registry
+NR_registry_name
 name
 )
 ;
@@ -415,7 +415,7 @@ void
 cb_arg
 char
 action
-NR_registry
+NR_registry_name
 name
 )
 ;
@@ -458,7 +458,7 @@ static
 int
 r_log_get_reg_level
 (
-NR_registry
+NR_registry_name
 name
 int
 *
@@ -849,7 +849,7 @@ static
 int
 r_log_get_reg_level
 (
-NR_registry
+NR_registry_name
 name
 int
 *
@@ -989,7 +989,7 @@ void
 cb_arg
 char
 action
-NR_registry
+NR_registry_name
 name
 )
 {
@@ -1054,7 +1054,7 @@ void
 cb_arg
 char
 action
-NR_registry
+NR_registry_name
 name
 )
 {
@@ -2191,7 +2191,7 @@ void
 cb_arg
 char
 action
-NR_registry
+NR_registry_name
 name
 )
 {
@@ -2210,7 +2210,7 @@ void
 cb_arg
 char
 action
-NR_registry
+NR_registry_name
 name
 )
 {
