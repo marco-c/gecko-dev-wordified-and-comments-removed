@@ -1240,10 +1240,6 @@ img
 -
 tab
 .
-dbg
--
-img
--
 result
 -
 item

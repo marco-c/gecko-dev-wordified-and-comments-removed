@@ -408,6 +408,11 @@ createElement
 (
 DebuggerImage
 {
+className
+:
+item
+.
+iconClassName
 name
 :
 item
