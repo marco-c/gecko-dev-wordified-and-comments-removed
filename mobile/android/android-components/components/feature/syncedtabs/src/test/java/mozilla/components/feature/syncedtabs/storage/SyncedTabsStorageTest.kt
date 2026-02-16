@@ -432,8 +432,6 @@ setup
 {
 store
 =
-spy
-(
 BrowserStore
 (
 BrowserState
@@ -521,7 +519,6 @@ selectedTabId
 "
 tab1
 "
-)
 )
 )
 tabsStorage

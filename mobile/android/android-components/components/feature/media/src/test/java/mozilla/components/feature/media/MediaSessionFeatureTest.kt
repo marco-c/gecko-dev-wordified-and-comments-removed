@@ -367,10 +367,8 @@ runTest
 {
 val
 store
-:
-BrowserStore
 =
-mock
+BrowserStore
 (
 )
 val
@@ -445,7 +443,7 @@ MediaSessionServiceDelegate
 class
 .
 java
-mock
+BrowserStore
 (
 )
 mainDispatcher
@@ -635,7 +633,7 @@ mock
 mediaService
 .
 javaClass
-mock
+BrowserStore
 (
 )
 mainDispatcher

@@ -315,14 +315,6 @@ mockito
 .
 Mockito
 .
-spy
-import
-org
-.
-mockito
-.
-Mockito
-.
 times
 import
 org
@@ -2760,8 +2752,6 @@ sessions
 val
 store
 =
-spy
-(
 BrowserStore
 (
 middleware
@@ -2828,7 +2818,6 @@ customTab1
 crashed
 =
 true
-)
 )
 )
 )

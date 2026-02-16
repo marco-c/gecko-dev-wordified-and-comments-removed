@@ -978,10 +978,8 @@ mock
 )
 val
 store
-:
-BrowserStore
 =
-mock
+BrowserStore
 (
 )
 val

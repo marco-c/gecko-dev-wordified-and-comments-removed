@@ -661,10 +661,8 @@ public
 override
 val
 store
-:
-BrowserStore
 =
-mock
+BrowserStore
 (
 )
 public

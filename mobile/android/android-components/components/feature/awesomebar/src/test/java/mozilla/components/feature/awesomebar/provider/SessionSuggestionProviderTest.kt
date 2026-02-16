@@ -252,7 +252,7 @@ provider
 =
 SessionSuggestionProvider
 (
-mock
+BrowserStore
 (
 )
 mock
