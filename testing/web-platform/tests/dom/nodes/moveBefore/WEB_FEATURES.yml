@@ -12,3 +12,15 @@ files
 *
 *
 "
+-
+name
+:
+slot
+files
+:
+-
+slotchange
+-
+events
+.
+html
