@@ -87,7 +87,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 firstrun
 .
@@ -99,7 +99,7 @@ false
 "
 browser
 .
-aiwindow
+smartwindow
 .
 tos
 .
@@ -234,7 +234,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 firstrun
 .
@@ -246,7 +246,7 @@ true
 "
 browser
 .
-aiwindow
+smartwindow
 .
 tos
 .

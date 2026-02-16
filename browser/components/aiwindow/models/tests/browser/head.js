@@ -1348,7 +1348,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 endpoint
 "

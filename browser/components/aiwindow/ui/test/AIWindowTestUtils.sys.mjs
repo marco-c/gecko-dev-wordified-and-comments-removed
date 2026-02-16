@@ -102,7 +102,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "

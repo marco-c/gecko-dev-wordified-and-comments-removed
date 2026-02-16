@@ -44,7 +44,7 @@ true
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -169,7 +169,7 @@ true
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -316,7 +316,7 @@ true
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -470,7 +470,7 @@ true
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "

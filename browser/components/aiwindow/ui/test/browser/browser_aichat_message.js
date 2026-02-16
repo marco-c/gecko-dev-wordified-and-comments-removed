@@ -24,7 +24,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -1058,7 +1058,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -1881,7 +1881,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "

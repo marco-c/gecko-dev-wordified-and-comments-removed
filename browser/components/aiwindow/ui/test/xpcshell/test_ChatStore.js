@@ -408,7 +408,7 @@ setBoolPref
 "
 browser
 .
-aiwindow
+smartwindow
 .
 removeDatabaseOnStartup
 "
@@ -452,7 +452,7 @@ clearUserPref
 "
 browser
 .
-aiwindow
+smartwindow
 .
 removeDatabaseOnStartup
 "
