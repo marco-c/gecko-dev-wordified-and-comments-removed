@@ -6925,6 +6925,11 @@ feature
 =
 RelayFeatureIntegration
 (
+context
+=
+requireContext
+(
+)
 engine
 =
 requireComponents
@@ -6944,6 +6949,11 @@ store
 requireComponents
 .
 relayEligibilityStore
+appStore
+=
+requireComponents
+.
+appStore
 )
 owner
 =
