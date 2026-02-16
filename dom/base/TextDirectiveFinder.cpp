@@ -322,17 +322,6 @@ document
 uri
 )
 ;
-mDocument
--
->
-FlushPendingNotifications
-(
-FlushType
-:
-:
-Layout
-)
-;
 nsTArray
 <
 RefPtr
