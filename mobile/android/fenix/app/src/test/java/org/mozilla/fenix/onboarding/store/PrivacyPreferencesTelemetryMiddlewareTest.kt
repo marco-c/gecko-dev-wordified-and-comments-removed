@@ -173,12 +173,6 @@ org
 .
 mockito
 .
-Mock
-import
-org
-.
-mockito
-.
 MockitoAnnotations
 import
 org

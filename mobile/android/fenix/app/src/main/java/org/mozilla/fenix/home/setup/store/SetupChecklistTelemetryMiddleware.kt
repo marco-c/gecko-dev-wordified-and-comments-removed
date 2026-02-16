@@ -370,6 +370,8 @@ Onboarding
 .
 SetupChecklistTaskClickedExtra
 (
+taskId
+=
 task
 .
 type
