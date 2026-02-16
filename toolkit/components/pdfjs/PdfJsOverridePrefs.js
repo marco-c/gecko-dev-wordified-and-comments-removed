@@ -107,5 +107,15 @@ enableGuessAltText
 false
 )
 ;
+pref
+(
+"
+pdfjs
+.
+enableHWA
+"
+true
+)
+;
 #
 endif
