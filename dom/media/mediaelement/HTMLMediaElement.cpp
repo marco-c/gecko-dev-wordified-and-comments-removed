@@ -20662,7 +20662,7 @@ CaptureStreamInternal
 StreamCaptureBehavior
 :
 :
-FINISH_WHEN_ENDED
+CONTINUE_WHEN_ENDED
 StreamCaptureType
 :
 :
