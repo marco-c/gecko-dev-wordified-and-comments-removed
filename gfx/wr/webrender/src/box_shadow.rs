@@ -685,17 +685,6 @@ pattern_input
 color_pattern
 .
 shader_input
-device_pixel_scale
-:
-DevicePixelScale
-:
-:
-new
-(
-1
-.
-0
-)
 content_origin
 prim_address_f
 :

@@ -1114,10 +1114,6 @@ pattern_input
 :
 PatternShaderInput
 pub
-device_pixel_scale
-:
-DevicePixelScale
-pub
 content_origin
 :
 DevicePoint
@@ -2822,9 +2818,6 @@ PatternKind
 pattern_input
 :
 PatternShaderInput
-device_pixel_scale
-:
-DevicePixelScale
 content_origin
 :
 DevicePoint
@@ -2860,7 +2853,6 @@ PrimTask
 {
 pattern
 pattern_input
-device_pixel_scale
 content_origin
 prim_address_f
 transform_id
@@ -3449,9 +3441,12 @@ task
 >
 {
 [
-task
-.
-device_pixel_scale
+DevicePixelScale
+:
+:
+identity
+(
+)
 .
 0
 task

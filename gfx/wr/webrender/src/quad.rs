@@ -4751,7 +4751,6 @@ kind
 pattern
 .
 shader_input
-device_pixel_scale
 content_origin
 prim_address_f
 transform_id
