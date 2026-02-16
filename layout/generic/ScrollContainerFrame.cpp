@@ -1621,7 +1621,7 @@ nsPoint
 ;
 if
 (
-UsesOverlayScrollbars
+UseOverlayScrollbars
 (
 )
 )
@@ -2552,7 +2552,7 @@ mOverlayScrollbars
 aFrame
 -
 >
-UsesOverlayScrollbars
+UseOverlayScrollbars
 (
 )
 ;
@@ -3427,7 +3427,7 @@ ScrollableOverflow
 ;
 if
 (
-UsesOverlayScrollbars
+UseOverlayScrollbars
 (
 )
 &
@@ -5418,11 +5418,6 @@ const
 {
 if
 (
-PresContext
-(
-)
--
->
 UseOverlayScrollbars
 (
 )
@@ -5638,11 +5633,6 @@ const
 {
 if
 (
-PresContext
-(
-)
--
->
 UseOverlayScrollbars
 (
 )
@@ -7567,19 +7557,8 @@ GetDesiredScrollbarSizes
 )
 const
 {
-nsPresContext
-*
-pc
-=
-PresContext
-(
-)
-;
 if
 (
-pc
--
->
 UseOverlayScrollbars
 (
 )
@@ -7656,7 +7635,9 @@ size
 =
 GetNonOverlayScrollbarSize
 (
-pc
+PresContext
+(
+)
 scrollbarWidth
 )
 ;
@@ -7784,7 +7765,7 @@ mScrollbarActivity
 &
 &
 !
-UsesOverlayScrollbars
+UseOverlayScrollbars
 (
 )
 )
@@ -7808,7 +7789,7 @@ if
 mScrollbarActivity
 &
 &
-UsesOverlayScrollbars
+UseOverlayScrollbars
 (
 )
 )
@@ -15276,7 +15257,7 @@ const
 bool
 overlayScrollbars
 =
-UsesOverlayScrollbars
+UseOverlayScrollbars
 (
 )
 ;
@@ -27769,7 +27750,7 @@ false
 if
 (
 !
-UsesOverlayScrollbars
+UseOverlayScrollbars
 (
 )
 )
@@ -29439,7 +29420,7 @@ const
 bool
 overlayScrollbars
 =
-UsesOverlayScrollbars
+UseOverlayScrollbars
 (
 )
 ;
@@ -31717,7 +31698,7 @@ INCLUDE_VISUAL_VIEWPORT_SCROLLBARS
 &
 &
 !
-UsesOverlayScrollbars
+UseOverlayScrollbars
 (
 )
 )
@@ -35232,7 +35213,7 @@ bool
 ScrollContainerFrame
 :
 :
-UsesOverlayScrollbars
+UseOverlayScrollbars
 (
 )
 const
