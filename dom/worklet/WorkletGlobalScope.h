@@ -312,6 +312,16 @@ ToMilliseconds
 )
 ;
 }
+TimeStamp
+CreationTimeStamp
+(
+)
+const
+{
+return
+mCreationTimeStamp
+;
+}
 void
 InitModuleLoader
 (
