@@ -443,6 +443,13 @@ requireComponents
 useCases
 .
 marsUseCases
+mozAdsUseCases
+=
+requireComponents
+.
+useCases
+.
+mozAdsUseCases
 viewLifecycleScope
 =
 viewLifecycleOwner

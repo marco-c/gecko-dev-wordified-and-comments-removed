@@ -3870,6 +3870,13 @@ components
 useCases
 .
 marsUseCases
+mozAdsUseCases
+=
+components
+.
+useCases
+.
+mozAdsUseCases
 viewLifecycleScope
 =
 viewLifecycleOwner
