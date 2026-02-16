@@ -745,6 +745,9 @@ mkdir
 parents
 =
 True
+exist_ok
+=
+True
 )
             
 _inject_flatpak_distribution_ini
