@@ -674,6 +674,11 @@ i
 =
 convertedChild
 ;
+[
+convertedChild
+release
+]
+;
 }
 }
 [
