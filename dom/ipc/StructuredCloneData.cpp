@@ -193,6 +193,14 @@ IPC
 WriteParam
 (
 aWriter
+BufferVersion
+(
+)
+)
+;
+WriteParam
+(
+aWriter
 BufferData
 (
 )
@@ -257,6 +265,9 @@ initialized
 "
 )
 ;
+uint32_t
+version
+;
 JSStructuredCloneData
 data
 (
@@ -271,6 +282,15 @@ DifferentProcess
 ;
 if
 (
+!
+ReadParam
+(
+aReader
+&
+version
+)
+|
+|
 !
 ReadParam
 (
@@ -293,6 +313,7 @@ move
 (
 data
 )
+version
 )
 ;
 if
@@ -350,6 +371,8 @@ char
 aData
 size_t
 aDataLength
+uint32_t
+aVersion
 )
 {
 MOZ_ASSERT
@@ -401,6 +424,7 @@ move
 (
 data
 )
+aVersion
 )
 ;
 return
