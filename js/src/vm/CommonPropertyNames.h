@@ -2033,6 +2033,14 @@ InterpretGeneratorResume
 \
 MACRO_
 (
+IntlLegacyConstructedSymbol
+"
+IntlLegacyConstructedSymbol
+"
+)
+\
+MACRO_
+(
 Invalid_Date_
 "
 Invalid
