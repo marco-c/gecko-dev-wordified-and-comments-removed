@@ -106,6 +106,9 @@ str
 here
 )
 )
+SKIP_ARTIFACT_BUILD_CHECK
+=
+False
 class
 ParameterConfig
 :
@@ -527,6 +530,12 @@ True
         
 if
 no_artifact
+:
+            
+return
+        
+if
+SKIP_ARTIFACT_BUILD_CHECK
 :
             
 return

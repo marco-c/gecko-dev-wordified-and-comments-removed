@@ -185,6 +185,7 @@ tryselect
 import
 lando
 push
+task_config
     
 mach_context
 =
@@ -226,6 +227,24 @@ try
 [
 "
 maxhistory
+"
+]
+    
+task_config
+.
+SKIP_ARTIFACT_BUILD_CHECK
+=
+mach_context
+.
+settings
+[
+"
+try
+"
+]
+[
+"
+noartifact
 "
 ]
 memoize
