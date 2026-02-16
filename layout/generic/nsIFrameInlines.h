@@ -27,6 +27,13 @@ h
 #
 include
 "
+nsCSSAnonBoxes
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -320,7 +327,7 @@ mozilla
 PseudoStyleType
 :
 :
-MozTableWrapper
+tableWrapper
 ;
 }
 bool
@@ -646,7 +653,7 @@ mozilla
 PseudoStyleType
 :
 :
-MozColumnSpanWrapper
+columnSpanWrapper
 )
 )
 ;

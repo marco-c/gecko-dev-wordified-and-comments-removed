@@ -25,7 +25,10 @@ name_
 value_
 hash_
 is_ascii_lower_
+type_
+atom_type_
 )
+\
 u
 "
 "
@@ -49,6 +52,8 @@ name_
 value_
 hash_
 is_ascii_lower_
+type_
+atom_type_
 )
 \
 nsStaticAtom

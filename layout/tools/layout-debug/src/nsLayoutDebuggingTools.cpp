@@ -990,7 +990,7 @@ GetPseudoElementType
 PseudoStyleType
 :
 :
-MozSnapshotContainingBlock
+mozSnapshotContainingBlock
 )
 {
 fprintf

@@ -163,6 +163,13 @@ h
 #
 include
 "
+nsCSSAnonBoxes
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -1519,7 +1526,7 @@ ResolveNonInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozFramesetBlank
+framesetBlank
 )
 ;
 nsHTMLFramesetBlankFrame
@@ -4582,7 +4589,7 @@ ResolveNonInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozHframesetBorder
+horizontalFramesetBorder
 )
 ;
 borderFrame
@@ -4753,7 +4760,7 @@ ResolveNonInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozVframesetBorder
+verticalFramesetBorder
 )
 ;
 borderFrame

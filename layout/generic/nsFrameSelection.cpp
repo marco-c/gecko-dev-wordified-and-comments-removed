@@ -1111,7 +1111,7 @@ GetPseudoElementType
 PseudoStyleType
 :
 :
-MozTextControlEditingRoot
+mozTextControlEditingRoot
 )
 ;
 MOZ_ASSERT
@@ -1906,7 +1906,7 @@ GetPseudoElementType
 PseudoStyleType
 :
 :
-MozTextControlEditingRoot
+mozTextControlEditingRoot
 )
 ;
 MOZ_ASSERT_IF

@@ -5904,7 +5904,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozColumnContent
+columnContent
 "
 What
 sort

@@ -96,7 +96,7 @@ mozilla
 PseudoStyleType
 :
 :
-Before
+before
 |
 |
 mPseudoFrame
@@ -118,7 +118,7 @@ mozilla
 PseudoStyleType
 :
 :
-After
+after
 |
 |
 mPseudoFrame
@@ -140,7 +140,7 @@ mozilla
 PseudoStyleType
 :
 :
-Marker
+marker
 "
 not
 CSS
@@ -347,7 +347,7 @@ mozilla
 PseudoStyleType
 :
 :
-Marker
+marker
 )
 {
 *
@@ -381,7 +381,7 @@ mozilla
 PseudoStyleType
 :
 :
-Before
+before
 )
 {
 *
@@ -415,7 +415,7 @@ mozilla
 PseudoStyleType
 :
 :
-After
+after
 )
 {
 *

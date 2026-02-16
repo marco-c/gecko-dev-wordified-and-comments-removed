@@ -17,6 +17,13 @@ h
 #
 include
 "
+nsCSSAnonBoxes
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h
@@ -54,7 +61,7 @@ pseudoType
 PseudoStyleType
 :
 :
-MozRubyBase
+rubyBase
 &
 &
 pseudoType
@@ -63,7 +70,7 @@ pseudoType
 PseudoStyleType
 :
 :
-MozRubyText
+rubyText
 )
 {
 return

@@ -20,13 +20,6 @@ utility
 #
 include
 "
-PseudoStyleType
-.
-h
-"
-#
-include
-"
 js
 /
 ForOfIterator
@@ -207,6 +200,13 @@ h
 include
 "
 nsCSSProps
+.
+h
+"
+#
+include
+"
+nsCSSPseudoElements
 .
 h
 "

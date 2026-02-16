@@ -2865,7 +2865,7 @@ Some
 PseudoElement
 :
 :
-MozFieldsetContent
+FieldsetContent
 )
 {
 return

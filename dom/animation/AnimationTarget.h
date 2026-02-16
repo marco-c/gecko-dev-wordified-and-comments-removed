@@ -45,7 +45,7 @@ include
 "
 mozilla
 /
-PseudoStyleRequest
+PseudoStyleType
 .
 h
 "

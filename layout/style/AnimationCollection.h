@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-PseudoStyleRequest
+PseudoStyleType
 .
 h
 "
@@ -28,6 +28,13 @@ include
 mozilla
 /
 RefPtr
+.
+h
+"
+#
+include
+"
+nsCSSPseudoElements
 .
 h
 "

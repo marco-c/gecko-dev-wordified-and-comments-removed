@@ -239,7 +239,7 @@ SetPseudoElementType
 PseudoStyleType
 :
 :
-MozColorSwatch
+mozColorSwatch
 )
 ;
 mColorContent

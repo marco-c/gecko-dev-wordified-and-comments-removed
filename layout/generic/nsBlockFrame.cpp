@@ -6338,7 +6338,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozScrolledContent
+scrolledContent
 )
 {
 MOZ_ASSERT
@@ -12213,7 +12213,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozScrolledContent
+scrolledContent
 )
 {
 const
@@ -12373,7 +12373,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozScrolledContent
+scrolledContent
 )
 {
 return
@@ -12839,7 +12839,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozScrolledContent
+scrolledContent
 ;
 const
 bool
@@ -20848,7 +20848,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozColumnContent
+columnContent
 )
 {
 const
@@ -21869,7 +21869,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozScrolledContent
+scrolledContent
 )
 {
 auto
@@ -26583,7 +26583,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozScrolledContent
+scrolledContent
 )
 {
 Maybe
@@ -26992,7 +26992,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozScrolledContent
+scrolledContent
 )
 {
 Span
@@ -31487,7 +31487,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozBlockRubyContent
+blockRubyContent
 )
 {
 return
@@ -32245,31 +32245,31 @@ case
 PseudoStyleType
 :
 :
-MozFieldsetContent
+fieldsetContent
 :
 case
 PseudoStyleType
 :
 :
-MozColumnContent
+columnContent
 :
 case
 PseudoStyleType
 :
 :
-MozCellContent
+cellContent
 :
 case
 PseudoStyleType
 :
 :
-MozScrolledContent
+scrolledContent
 :
 case
 PseudoStyleType
 :
 :
-MozAnonymousItem
+anonymousItem
 :
 return
 true
@@ -32562,7 +32562,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-Marker
+marker
 )
 {
 if
@@ -32831,7 +32831,7 @@ GetParent
 PseudoStyleType
 :
 :
-FirstLetter
+firstLetter
 )
 ;
 ComputedStyle
@@ -32869,7 +32869,7 @@ AsElement
 PseudoStyleType
 :
 :
-FirstLetter
+firstLetter
 nullptr
 parentStyle
 )
@@ -39713,7 +39713,7 @@ pseudo
 PseudoStyleType
 :
 :
-MozCellContent
+cellContent
 &
 &
 !
@@ -39739,7 +39739,7 @@ pseudo
 PseudoStyleType
 :
 :
-MozFieldsetContent
+fieldsetContent
 |
 |
 pseudo
@@ -39748,7 +39748,7 @@ pseudo
 PseudoStyleType
 :
 :
-MozColumnContent
+columnContent
 |
 |
 (
@@ -39758,7 +39758,7 @@ pseudo
 PseudoStyleType
 :
 :
-MozScrolledContent
+scrolledContent
 &
 &
 !
@@ -39779,7 +39779,7 @@ pseudo
 PseudoStyleType
 :
 :
-MozSvgText
+mozSVGText
 )
 &
 &
@@ -42019,7 +42019,7 @@ GetParent
 PseudoStyleType
 :
 :
-FirstLine
+firstLine
 )
 ;
 ComputedStyle
@@ -42057,7 +42057,7 @@ AsElement
 PseudoStyleType
 :
 :
-FirstLine
+firstLine
 nullptr
 parentStyle
 )
@@ -42079,7 +42079,7 @@ ResolveInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozLineFrame
+mozLineFrame
 parentStyle
 )
 ;
@@ -43253,7 +43253,7 @@ AsElement
 PseudoStyleType
 :
 :
-FirstLetter
+firstLetter
 nullptr
 Style
 (

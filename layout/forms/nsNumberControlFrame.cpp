@@ -15,13 +15,6 @@ h
 #
 include
 "
-PseudoStyleType
-.
-h
-"
-#
-include
-"
 mozilla
 /
 BasicEvents
@@ -34,6 +27,13 @@ include
 mozilla
 /
 PresShell
+.
+h
+"
+#
+include
+"
+nsCSSPseudoElements
 .
 h
 "
@@ -234,7 +234,7 @@ MakeAnonElement
 PseudoStyleType
 :
 :
-MozNumberSpinBox
+mozNumberSpinBox
 )
 ;
 mSpinUp
@@ -244,7 +244,7 @@ MakeAnonElement
 PseudoStyleType
 :
 :
-MozNumberSpinUp
+mozNumberSpinUp
 mButton
 )
 ;
@@ -255,7 +255,7 @@ MakeAnonElement
 PseudoStyleType
 :
 :
-MozNumberSpinDown
+mozNumberSpinDown
 mButton
 )
 ;
