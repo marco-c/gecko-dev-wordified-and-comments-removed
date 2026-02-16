@@ -926,13 +926,6 @@ js
 "
 shims
 /
-firebase
-.
-js
-"
-"
-shims
-/
 google
 -
 ads
