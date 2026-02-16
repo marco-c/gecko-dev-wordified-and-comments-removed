@@ -50,6 +50,13 @@ h
 #
 include
 "
+nsReadableUtils
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h
