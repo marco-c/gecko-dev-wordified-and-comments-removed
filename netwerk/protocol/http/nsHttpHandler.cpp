@@ -1291,9 +1291,6 @@ avif
 ;
 #
 endif
-#
-ifdef
-MOZ_JXL
 if
 (
 mozilla
@@ -1319,8 +1316,6 @@ jxl
 )
 ;
 }
-#
-endif
 mimeTypes
 .
 Append
@@ -1429,9 +1424,6 @@ avif
 ;
 #
 endif
-#
-ifdef
-MOZ_JXL
 if
 (
 mozilla
@@ -1457,8 +1449,6 @@ jxl
 )
 ;
 }
-#
-endif
 mimeTypes
 .
 Append
