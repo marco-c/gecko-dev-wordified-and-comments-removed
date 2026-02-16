@@ -4309,7 +4309,7 @@ cases
 /
 view
 /
-2939173
+2937924
 Test
 fun
 verifyTheWhatIsBrokenErrorMessageTest
@@ -4414,7 +4414,7 @@ cases
 /
 view
 /
-2939175
+2937926
 Test
 fun
 verifyThatTheBrokenSiteFormSubmissionCanBeCanceledTest
@@ -4518,7 +4518,7 @@ cases
 /
 view
 /
-2939176
+2937927
 Ignore
 (
 "
@@ -4684,7 +4684,7 @@ cases
 /
 view
 /
-2939179
+2937930
 Test
 fun
 verifyThatTheBrokenSiteFormInfoPersistsTest
@@ -4809,7 +4809,7 @@ cases
 /
 view
 /
-2939180
+2937931
 Test
 fun
 verifyTheBrokenSiteFormIsEmptyWithoutSubmittingThePreviousOneTest
@@ -4971,7 +4971,7 @@ cases
 /
 view
 /
-2939181
+2937932
 Test
 fun
 verifyThatTheBrokenSiteFormInfoIsErasedWhenKillingTheAppTest
@@ -5114,7 +5114,7 @@ cases
 /
 view
 /
-2939182
+2937933
 Test
 fun
 verifyReportBrokenSiteFormNotDisplayedWhenTelemetryIsDisabledTest
