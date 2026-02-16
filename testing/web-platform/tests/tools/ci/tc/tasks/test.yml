@@ -703,7 +703,7 @@ use
 -
 trigger
 -
-weekly
+daily
 -
 trigger
 -
@@ -1164,7 +1164,7 @@ use
 -
 trigger
 -
-weekly
+daily
 -
 trigger
 -
@@ -1584,7 +1584,7 @@ use
 -
 trigger
 -
-weekly
+daily
 -
 trigger
 -
