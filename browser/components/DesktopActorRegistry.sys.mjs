@@ -1408,7 +1408,7 @@ true
 "
 AIChatContent
 :
-DispatchFooterAction
+DispatchAction
 "
 :
 {

@@ -217,7 +217,7 @@ Ready
 "
 AIChatContent
 :
-DispatchFooterAction
+DispatchAction
 "
 ]
 )
@@ -315,14 +315,14 @@ case
 "
 AIChatContent
 :
-DispatchFooterAction
+DispatchAction
 "
 :
 {
 this
 .
 #
-handleFooterActionDispatch
+handleActionDispatch
 (
 event
 )
@@ -392,7 +392,7 @@ detail
 ;
 }
 #
-handleFooterActionDispatch
+handleActionDispatch
 (
 event
 )
