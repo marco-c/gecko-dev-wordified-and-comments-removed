@@ -588,7 +588,12 @@ return
 mSVGView
 |
 |
+!
 mCurrentViewID
+.
+IsVoid
+(
+)
 ;
 }
 float
@@ -2819,7 +2824,12 @@ const
 {
 if
 (
+!
 mCurrentViewID
+.
+IsVoid
+(
+)
 )
 {
 Document
@@ -2844,7 +2854,6 @@ doc
 >
 GetElementById
 (
-*
 mCurrentViewID
 )
 ;
