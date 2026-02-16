@@ -69,9 +69,11 @@ mozilla
 .
 components
 .
-support
+feature
 .
-utils
+downloads
+.
+fake
 .
 FakeDateTimeProvider
 import
