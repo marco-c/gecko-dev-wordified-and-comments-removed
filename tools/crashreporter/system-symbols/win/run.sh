@@ -277,6 +277,9 @@ http
 error
 =
 429
+502
+503
+504
 -
 -
 compression
