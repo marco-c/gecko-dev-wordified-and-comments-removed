@@ -39,6 +39,13 @@ h
 #
 include
 "
+nsHttpConnectionMgr
+.
+h
+"
+#
+include
+"
 Http2StreamTunnel
 .
 h

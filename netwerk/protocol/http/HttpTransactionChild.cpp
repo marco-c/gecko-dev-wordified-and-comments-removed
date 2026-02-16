@@ -95,6 +95,13 @@ h
 #
 include
 "
+nsISocketTransport
+.
+h
+"
+#
+include
+"
 nsITransportSecurityInfo
 .
 h
@@ -103,6 +110,13 @@ h
 include
 "
 nsHttpHandler
+.
+h
+"
+#
+include
+"
+nsHttpTransaction
 .
 h
 "

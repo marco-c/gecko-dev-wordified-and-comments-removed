@@ -130,6 +130,13 @@ h
 #
 include
 "
+nsHttpConnectionMgr
+.
+h
+"
+#
+include
+"
 ConnectionEntry
 .
 h

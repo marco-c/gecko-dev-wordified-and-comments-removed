@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsAHttpConnection
+.
+h
+"
+#
+include
+"
 nsHttp
 .
 h

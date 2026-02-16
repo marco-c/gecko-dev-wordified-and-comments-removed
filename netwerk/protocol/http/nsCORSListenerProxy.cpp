@@ -172,6 +172,13 @@ h
 #
 include
 "
+nsIDNSRecord
+.
+h
+"
+#
+include
+"
 nsIDNSService
 .
 h

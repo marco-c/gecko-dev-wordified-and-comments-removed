@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsInputStreamPump
+.
+h
+"
+#
+include
+"
 nsIThreadRetargetableRequest
 .
 h
