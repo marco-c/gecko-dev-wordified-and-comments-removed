@@ -28,6 +28,12 @@ MachCommandConditions
 as
 conditions
 from
+mozbuild
+.
+util
+import
+construct_log_filename
+from
 mozsystemmonitor
 .
 resourcemonitor
@@ -755,13 +761,27 @@ json
 else
 :
             
+log_subdir
+=
+os
+.
+path
+.
+join
+(
+"
+logs
+"
+"
+lint
+"
+)
+            
 command_context
 .
 _ensure_state_subdir_exists
 (
-"
-.
-"
+log_subdir
 )
             
 profile_path
@@ -771,11 +791,15 @@ command_context
 _get_state_filename
 (
                 
+construct_log_filename
+(
 "
-profile_build_resources
-.
-json
+profile
 "
+)
+subdir
+=
+log_subdir
             
 )
         
