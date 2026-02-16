@@ -1805,7 +1805,9 @@ write
 (
 p
 .
-data
+data_with_comment
+(
+)
 )
             
 continue
@@ -3929,14 +3931,11 @@ fd
 .
 write
 (
-"
-%
-s
-"
-%
 member
 .
-data
+data_with_comment
+(
+)
 )
                 
 elif
