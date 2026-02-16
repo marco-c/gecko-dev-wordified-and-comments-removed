@@ -49115,6 +49115,16 @@ info
 entry
 )
 ;
+if
+(
+Navigation
+:
+:
+IsAPIEnabled
+(
+)
+)
+{
 info
 .
 mContiguousEntries
@@ -49125,6 +49135,7 @@ AppendElement
 entry
 )
 ;
+}
 SetLoadingSessionHistoryInfo
 (
 info
