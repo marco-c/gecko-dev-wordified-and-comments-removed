@@ -762,9 +762,7 @@ mirGen
 (
 )
 .
-tracker
-.
-reset
+cleanup
 (
 )
 ;
