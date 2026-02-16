@@ -8915,9 +8915,13 @@ NudgeWindow
 {
 int64_t
 r1
+=
+0
 ;
 int64_t
 r2
+=
+0
 ;
 EpochNanoseconds
 startEpochNs

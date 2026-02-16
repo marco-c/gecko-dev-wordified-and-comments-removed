@@ -2515,9 +2515,15 @@ BalanceISODate
 isoDateTime
 .
 date
+static_cast
+<
+int32_t
+>
+(
 roundedTime
 .
 days
+)
 )
 ;
 return
@@ -2856,7 +2862,6 @@ return
 true
 ;
 }
-else
 if
 (
 unit
