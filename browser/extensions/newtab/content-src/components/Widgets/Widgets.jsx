@@ -494,6 +494,14 @@ PREF_WIDGETS_MAXIMIZED
 ]
 ;
 const
+widgetsMayBeMaximized
+=
+prefs
+[
+PREF_WIDGETS_SYSTEM_MAXIMIZED
+]
+;
+const
 dispatch
 =
 useDispatch
@@ -1316,6 +1324,11 @@ isMaximized
 =
 {
 isMaximized
+}
+widgetsMayBeMaximized
+=
+{
+widgetsMayBeMaximized
 }
 /
 >
