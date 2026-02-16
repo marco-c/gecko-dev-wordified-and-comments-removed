@@ -839,7 +839,9 @@ showWeather
 "
 data
 -
-eventSource
+event
+-
+source
 =
 "
 WEATHER
@@ -937,7 +939,9 @@ enabled
 "
 data
 -
-eventSource
+event
+-
+source
 =
 "
 WIDGET_LISTS
@@ -1035,7 +1039,9 @@ enabled
 "
 data
 -
-eventSource
+event
+-
+source
 =
 "
 WIDGET_TIMER
@@ -1182,7 +1188,9 @@ showWeather
 "
 data
 -
-eventSource
+event
+-
+source
 =
 "
 WEATHER
@@ -1262,7 +1270,9 @@ topsites
 "
 data
 -
-eventSource
+event
+-
+source
 =
 "
 TOP_SITES
@@ -1632,7 +1642,9 @@ topstories
 "
 data
 -
-eventSource
+event
+-
+source
 =
 "
 TOP_STORIES
@@ -1817,7 +1829,9 @@ enabled
 "
 data
 -
-eventSource
+event
+-
+source
 =
 "
 INFERRED_PERSONALIZATION
