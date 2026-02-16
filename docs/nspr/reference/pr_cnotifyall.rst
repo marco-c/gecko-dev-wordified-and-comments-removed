@@ -106,9 +106,6 @@ Returns
 ~
 ~
 -
-:
-ref
-:
 PR_SUCCESS
 indicates
 that
@@ -127,9 +124,6 @@ the
 monitor
 .
 -
-:
-ref
-:
 PR_FAILURE
 indicates
 that

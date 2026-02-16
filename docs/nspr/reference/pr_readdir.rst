@@ -101,9 +101,6 @@ the
 following
 :
 -
-:
-ref
-:
 PR_SKIP_NONE
 .
 Do
@@ -113,9 +110,6 @@ any
 files
 .
 -
-:
-ref
-:
 PR_SKIP_DOT
 .
 Skip
@@ -131,9 +125,6 @@ current
 directory
 .
 -
-:
-ref
-:
 PR_SKIP_DOT_DOT
 .
 Skip
@@ -150,9 +141,6 @@ parent
 directory
 .
 -
-:
-ref
-:
 PR_SKIP_BOTH
 .
 Skip
@@ -166,9 +154,6 @@ and
 .
 "
 -
-:
-ref
-:
 PR_SKIP_HIDDEN
 .
 Skip

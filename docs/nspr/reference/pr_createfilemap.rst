@@ -125,9 +125,6 @@ following
 options
 :
 -
-:
-ref
-:
 PR_PROT_READONLY
 .
 Read
@@ -136,9 +133,6 @@ only
 access
 .
 -
-:
-ref
-:
 PR_PROT_READWRITE
 .
 Readable
@@ -148,9 +142,6 @@ is
 shared
 .
 -
-:
-ref
-:
 PR_PROT_WRITECOPY
 .
 Readable

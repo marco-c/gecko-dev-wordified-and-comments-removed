@@ -132,9 +132,6 @@ known
 identities
 :
 -
-:
-ref
-:
 PR_INVALID_IO_LAYER
 an
 invalid
@@ -144,9 +141,6 @@ for
 error
 return
 -
-:
-ref
-:
 PR_TOP_IO_LAYER
 the
 identity
@@ -157,9 +151,6 @@ of
 the
 stack
 -
-:
-ref
-:
 PR_NSPR_IO_LAYER
 the
 identity

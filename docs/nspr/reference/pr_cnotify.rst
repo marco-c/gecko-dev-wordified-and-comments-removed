@@ -100,9 +100,6 @@ Returns
 ~
 ~
 -
-:
-ref
-:
 PR_SUCCESS
 indicates
 that
@@ -126,9 +123,6 @@ address
 parameter
 .
 -
-:
-ref
-:
 PR_FAILURE
 indicates
 that

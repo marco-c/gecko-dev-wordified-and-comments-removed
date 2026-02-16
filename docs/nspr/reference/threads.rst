@@ -546,9 +546,6 @@ running
 code
 .
 -
-:
-ref
-:
 PR_AttachThread
 associates
 a
@@ -564,9 +561,6 @@ native
 thread
 .
 -
-:
-ref
-:
 PR_DetachThread
 disassociates
 a

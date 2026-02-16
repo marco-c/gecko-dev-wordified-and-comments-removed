@@ -180,9 +180,6 @@ PRExplodedTime
 are
 :
 -
-:
-ref
-:
 tm_year
 :
 absolute
@@ -210,9 +207,6 @@ is
 )
 .
 -
-:
-ref
-:
 tm_month
 :
 number
@@ -238,9 +232,6 @@ is
 December
 .
 -
-:
-ref
-:
 tm_mday
 :
 the
@@ -268,9 +259,6 @@ to
 0
 .
 -
-:
-ref
-:
 tm_hour
 :
 number
@@ -288,9 +276,6 @@ is
 ]
 .
 -
-:
-ref
-:
 tm_min
 :
 number
@@ -308,9 +293,6 @@ is
 ]
 .
 -
-:
-ref
-:
 tm_sec
 :
 number
@@ -342,9 +324,6 @@ leap
 seconds
 .
 -
-:
-ref
-:
 tm_usec
 :
 number
@@ -362,9 +341,6 @@ is
 ]
 .
 -
-:
-ref
-:
 tm_params
 :
 a
@@ -388,9 +364,6 @@ PRExplodedTime
 are
 :
 -
-:
-ref
-:
 tm_wday
 :
 day
@@ -417,9 +390,6 @@ is
 Saturday
 .
 -
-:
-ref
-:
 tm_yday
 :
 day

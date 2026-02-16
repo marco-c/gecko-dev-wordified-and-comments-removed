@@ -93,9 +93,6 @@ following
 values
 :
 -
-:
-ref
-:
 PR_ACCESS_READ_OK
 .
 Test
@@ -104,9 +101,6 @@ read
 permission
 .
 -
-:
-ref
-:
 PR_ACCESS_WRITE_OK
 .
 Test
@@ -115,9 +109,6 @@ write
 permission
 .
 -
-:
-ref
-:
 PR_ACCESS_EXISTS
 .
 Check

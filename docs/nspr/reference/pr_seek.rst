@@ -262,9 +262,6 @@ the
 following
 :
 -
-:
-ref
-:
 PR_SEEK_SET
 .
 Sets
@@ -280,9 +277,6 @@ offset
 parameter
 .
 -
-:
-ref
-:
 PR_SEEK_CUR
 .
 Sets
@@ -302,9 +296,6 @@ offset
 parameter
 .
 -
-:
-ref
-:
 PR_SEEK_END
 .
 Sets

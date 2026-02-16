@@ -55,10 +55,9 @@ O
 operations
 see
 :
-ref
+doc
 :
-Introduction_to_NSPR
->
+introduction_to_nspr
 .
 For
 information
@@ -1089,9 +1088,6 @@ poll
 it
 with
 the
-:
-ref
-:
 PR_POLL_READ
 flag
 .
@@ -1242,9 +1238,6 @@ ref
 PR_Poll
 with
 the
-:
-ref
-:
 PR_POLL_READ
 flag
 on
@@ -1265,9 +1258,6 @@ PR_Poll
 returns
 the
 the
-:
-ref
-:
 PR_POLL_READ
 flag
 set
@@ -1458,9 +1448,6 @@ PRDescIdentity
 )
 0
 -
-:
-ref
-:
 PR_INVALID_IO_LAYER
 :
 An
@@ -1474,9 +1461,6 @@ return
 )
 .
 -
-:
-ref
-:
 PR_TOP_IO_LAYER
 :
 The
@@ -1489,9 +1473,6 @@ the
 stack
 .
 -
-:
-ref
-:
 PR_NSPR_IO_LAYER
 :
 The
@@ -1503,9 +1484,6 @@ implemented
 by
 NSPR
 .
-:
-ref
-:
 PR_TOP_IO_LAYER
 may
 be

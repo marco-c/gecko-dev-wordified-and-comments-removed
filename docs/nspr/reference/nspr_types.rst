@@ -176,9 +176,6 @@ or
 variables
 .
 -
-:
-ref
-:
 PR_CALLBACK
 is
 used

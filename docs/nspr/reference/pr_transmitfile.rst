@@ -149,9 +149,6 @@ following
 flags
 :
 -
-:
-ref
-:
 PR_TRANSMITFILE_KEEP_OPEN
 indicates
 that
@@ -168,9 +165,6 @@ is
 sent
 .
 -
-:
-ref
-:
 PR_TRANSMITFILE_CLOSE_SOCKET
 indicates
 that

@@ -103,9 +103,6 @@ the
 following
 :
 -
-:
-ref
-:
 PR_SHUTDOWN_RCV
 .
 Further
@@ -115,9 +112,6 @@ be
 disallowed
 .
 -
-:
-ref
-:
 PR_SHUTDOWN_SEND
 .
 Further
@@ -127,9 +121,6 @@ be
 disallowed
 .
 -
-:
-ref
-:
 PR_SHUTDOWN_BOTH
 .
 Further

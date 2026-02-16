@@ -144,9 +144,6 @@ following
 values
 :
 -
-:
-ref
-:
 PR_SUCCESS
 means
 the
@@ -177,9 +174,6 @@ has
 expired
 .
 -
-:
-ref
-:
 PR_FAILURE
 means
 PR_Wait

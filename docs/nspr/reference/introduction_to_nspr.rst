@@ -160,13 +160,7 @@ declarations
 like
 this
 :
-:
-ref
-:
 PRInt
-:
-ref
-:
 PRFileDesc
 -
 Function
@@ -185,13 +179,7 @@ declarations
 like
 this
 :
-:
-ref
-:
 PR_Read
-:
-ref
-:
 PR_JoinThread
 -
 Preprocessor
@@ -218,9 +206,6 @@ _
 )
 like
 this
-:
-:
-ref
 :
 PR_BYTES_PER_SHORT
 :
@@ -322,9 +307,6 @@ opaque
 structure
 of
 type
-:
-ref
-:
 PRThread
 .
 A

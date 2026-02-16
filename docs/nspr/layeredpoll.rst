@@ -156,9 +156,6 @@ does
 it
 map
 the
-:
-ref
-:
 PRPollDesc
 array
 into
@@ -201,9 +198,6 @@ every
 element
 of
 the
-:
-ref
-:
 PRPollDesc
 array
 that

@@ -74,9 +74,6 @@ is
 to
 install
 the
-:
-ref
-:
 MozillaBuild
 package
 .

@@ -149,9 +149,6 @@ following
 values
 :
 -
-:
-ref
-:
 PR_SUCCESS
 indicates
 either
@@ -176,9 +173,6 @@ been
 exceeded
 .
 -
-:
-ref
-:
 PR_FAILURE
 indicates
 either
