@@ -42,9 +42,12 @@ if
 (
 resolver
 =
-R_NEW
+RCALLOC
+(
+sizeof
 (
 nr_resolver
+)
 )
 )
 )

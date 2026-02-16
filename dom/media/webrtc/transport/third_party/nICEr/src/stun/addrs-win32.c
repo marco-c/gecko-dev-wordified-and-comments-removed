@@ -354,7 +354,7 @@ my_fn
 char
 *
 )
-RCALLOC_RAWSIZE
+RCALLOC
 (
 newlen
 )

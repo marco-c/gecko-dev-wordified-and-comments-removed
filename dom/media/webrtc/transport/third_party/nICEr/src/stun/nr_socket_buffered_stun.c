@@ -487,9 +487,12 @@ if
 (
 sock
 =
-R_NEW
+RCALLOC
+(
+sizeof
 (
 nr_socket_buffered_stun
+)
 )
 )
 )
@@ -622,10 +625,6 @@ sock
 >
 buffer
 =
-(
-UCHAR
-*
-)
 RMALLOC
 (
 sock
@@ -1009,10 +1008,6 @@ if
 (
 frame
 =
-(
-nr_frame_header
-*
-)
 RMALLOC
 (
 len
