@@ -27997,11 +27997,6 @@ sOncePrefRead
 false
 )
 ;
-static
-StaticMutex
-sOncePrefMutex
-MOZ_UNANNOTATED
-;
 namespace
 StaticPrefs
 {
@@ -28021,12 +28016,6 @@ sOncePrefRead
 return
 ;
 }
-StaticMutexAutoLock
-lock
-(
-sOncePrefMutex
-)
-;
 if
 (
 NS_IsMainThread
@@ -28037,6 +28026,10 @@ NS_IsMainThread
 InitOncePrefs
 (
 )
+;
+sOncePrefRead
+=
+true
 ;
 }
 else
@@ -28061,7 +28054,7 @@ MaybeInitOncePrefs
 (
 )
 {
-InitOncePrefs
+MaybeInitOncePrefs
 (
 )
 ;
@@ -28080,10 +28073,6 @@ runnable
 )
 ;
 }
-sOncePrefRead
-=
-true
-;
 }
 #
 define
@@ -28420,6 +28409,10 @@ static
 void
 InitOncePrefs
 (
+)
+MOZ_REQUIRES
+(
+sMainThreadCapability
 )
 {
 #
