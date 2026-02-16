@@ -848,7 +848,7 @@ clickOn
 browser
 "
 #
-deleteModelButton
+createModelButton
 "
 )
 ;
@@ -884,7 +884,7 @@ clickOn
 browser
 "
 #
-downloadModelButton
+createModelButton
 "
 )
 ;
