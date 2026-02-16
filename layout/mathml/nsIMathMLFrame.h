@@ -184,7 +184,7 @@ gfx
 DrawTarget
 *
 aDrawTarget
-nsStretchDirection
+StretchDirection
 aStretchDirection
 nsBoundingMetrics
 &
@@ -303,10 +303,13 @@ coreFrame
 =
 nullptr
 ;
-nsStretchDirection
+StretchDirection
 direction
 =
-NS_STRETCH_DIRECTION_UNSUPPORTED
+StretchDirection
+:
+:
+Unsupported
 ;
 nscoord
 leadingSpace

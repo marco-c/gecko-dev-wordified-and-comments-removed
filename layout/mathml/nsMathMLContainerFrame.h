@@ -122,7 +122,7 @@ Stretch
 DrawTarget
 *
 aDrawTarget
-nsStretchDirection
+StretchDirection
 aStretchDirection
 nsBoundingMetrics
 &
@@ -379,7 +379,7 @@ DrawTarget
 aDrawTarget
 uint32_t
 aOptions
-nsStretchDirection
+StretchDirection
 aStretchDirection
 nsBoundingMetrics
 &
