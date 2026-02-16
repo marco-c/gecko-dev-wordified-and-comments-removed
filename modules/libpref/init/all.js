@@ -30218,7 +30218,7 @@ urlclassifier
 .
 features
 .
-harmfuladdon
+harmfuladdonV2
 .
 blocklistTables
 "
@@ -30238,7 +30238,7 @@ urlclassifier
 .
 features
 .
-harmfuladdon
+harmfuladdonV2
 .
 entitylistTables
 "

@@ -2447,7 +2447,7 @@ urlclassifier
 .
 features
 .
-harmfuladdon
+harmfuladdonV2
 .
 blocklistTables
 "

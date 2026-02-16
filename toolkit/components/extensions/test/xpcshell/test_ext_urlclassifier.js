@@ -34,7 +34,7 @@ urlclassifier
 .
 features
 .
-harmfuladdon
+harmfuladdonV2
 .
 blocklistHosts
 "
@@ -56,7 +56,7 @@ urlclassifier
 .
 features
 .
-harmfuladdon
+harmfuladdonV2
 .
 entitylistHosts
 "
@@ -75,7 +75,7 @@ urlclassifier
 .
 features
 .
-harmfuladdon
+harmfuladdonV2
 .
 skipURLs
 "
@@ -101,7 +101,7 @@ urlclassifier
 .
 features
 .
-harmfuladdon
+harmfuladdonV2
 .
 blocklistHosts
 "
@@ -118,7 +118,7 @@ urlclassifier
 .
 features
 .
-harmfuladdon
+harmfuladdonV2
 .
 entitylistHosts
 "
@@ -135,7 +135,7 @@ urlclassifier
 .
 features
 .
-harmfuladdon
+harmfuladdonV2
 .
 skipURLs
 "
