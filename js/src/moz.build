@@ -1986,6 +1986,16 @@ jsfriendapi
 cpp
 "
 ]
+SOURCES
++
+=
+[
+"
+jsglean
+.
+cpp
+"
+]
 if
 CONFIG
 [
