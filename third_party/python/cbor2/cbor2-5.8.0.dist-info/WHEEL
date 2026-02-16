@@ -9,9 +9,9 @@ Generator
 :
 setuptools
 (
-75
+80
 .
-6
+9
 .
 0
 )
@@ -22,13 +22,6 @@ Is
 Purelib
 :
 true
-Tag
-:
-py2
--
-none
--
-any
 Tag
 :
 py3

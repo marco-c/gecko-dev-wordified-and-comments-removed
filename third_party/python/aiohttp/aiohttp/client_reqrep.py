@@ -130,6 +130,7 @@ from
 compression_utils
 import
 HAS_BROTLI
+HAS_ZSTD
 from
 .
 formdata
@@ -151,13 +152,11 @@ HeadersMixin
     
 TimerNoop
     
-basicauth_from_netrc
-    
-netrc_from_env
-    
 noop
     
 reify
+    
+sentinel
     
 set_exception
     
@@ -356,19 +355,54 @@ _gen_default_accept_encoding
 str
 :
     
-return
+encodings
+=
+[
+        
 "
 gzip
-deflate
-br
 "
+        
+"
+deflate
+"
+    
+]
+    
 if
 HAS_BROTLI
-else
+:
+        
+encodings
+.
+append
+(
 "
-gzip
-deflate
+br
 "
+)
+    
+if
+HAS_ZSTD
+:
+        
+encodings
+.
+append
+(
+"
+zstd
+"
+)
+    
+return
+"
+"
+.
+join
+(
+encodings
+)
 attr
 .
 s
@@ -469,9 +503,13 @@ str
         
 real_url
 :
+Union
+[
 URL
-=
 _SENTINEL
+]
+=
+sentinel
     
 )
 -
@@ -520,7 +558,7 @@ url
 if
 real_url
 is
-_SENTINEL
+sentinel
 else
 real_url
 )
@@ -6835,50 +6873,6 @@ if
 auth
 is
 None
-and
-trust_env
-and
-self
-.
-url
-.
-host
-is
-not
-None
-:
-            
-netrc_obj
-=
-netrc_from_env
-(
-)
-            
-with
-contextlib
-.
-suppress
-(
-LookupError
-)
-:
-                
-auth
-=
-basicauth_from_netrc
-(
-netrc_obj
-self
-.
-url
-.
-host
-)
-        
-if
-auth
-is
-None
 :
             
 return
@@ -8013,6 +8007,8 @@ Optional
 [
 int
 ]
+=
+None
     
 )
 -

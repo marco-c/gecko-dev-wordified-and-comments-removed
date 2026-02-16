@@ -321,6 +321,11 @@ tasks
 build
 .
 topsrcdir
+[
+"
+try
+"
+]
 )
     
 def
