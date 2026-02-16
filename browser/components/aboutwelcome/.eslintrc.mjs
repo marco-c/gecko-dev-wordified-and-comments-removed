@@ -621,9 +621,12 @@ max
 statements
 "
 :
+[
 "
-off
+error
 "
+50
+]
 "
 new
 -

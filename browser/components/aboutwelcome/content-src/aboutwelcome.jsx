@@ -280,13 +280,6 @@ this
 props
 .
 UTMTerm
-writeInMicrosurvey
-:
-this
-.
-props
-.
-write_in_microsurvey
 }
 )
 ;
@@ -493,13 +486,6 @@ message_id
 props
 .
 messageId
-}
-writeInMicrosurvey
-=
-{
-props
-.
-write_in_microsurvey
 }
 defaultScreens
 =

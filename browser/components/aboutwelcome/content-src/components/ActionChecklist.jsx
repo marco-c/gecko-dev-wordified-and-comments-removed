@@ -554,7 +554,6 @@ ActionChecklist
 {
 content
 message_id
-writeInMicrosurvey
 }
 )
 =
@@ -893,12 +892,6 @@ sendActionTelemetry
 (
 message_id
 source_id
-"
-CLICK_BUTTON
-"
-{
-writeInMicrosurvey
-}
 )
 ;
 }

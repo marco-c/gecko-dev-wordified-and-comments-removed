@@ -160,9 +160,6 @@ sendImpressionTelemetry
 (
 messageId
 context
-=
-{
-}
 )
 {
 window
@@ -202,10 +199,6 @@ eventName
 "
 CLICK_BUTTON
 "
-context
-=
-{
-}
 )
 {
 const
@@ -222,10 +215,6 @@ source
 :
 elementId
 page
-.
-.
-.
-context
 }
 message_id
 :
@@ -246,10 +235,6 @@ sendDismissTelemetry
 (
 messageId
 elementId
-context
-=
-{
-}
 )
 {
 /
@@ -294,7 +279,6 @@ elementId
 "
 DISMISS
 "
-context
 )
 ;
 }
@@ -448,7 +432,6 @@ handleCampaignAction
 (
 action
 messageId
-context
 )
 {
 window
@@ -480,10 +463,6 @@ messageId
 "
 CAMPAIGN_ACTION
 "
-"
-CLICK_BUTTON
-"
-context
 )
 ;
 }

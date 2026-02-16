@@ -529,12 +529,7 @@ AWPage
 :
 TELEMETRY_EVENT
 "
-sinon
-.
-match
-(
 expectedData
-)
 )
 ;
 if
