@@ -967,7 +967,7 @@ sandbox
 SBOX_ALL_OK
 ;
 }
-void
+bool
 UserFontConfigHelper
 :
 :
@@ -1286,6 +1286,7 @@ mUserFontKey
 )
 {
 return
+true
 ;
 }
 windowsUserFontDir
@@ -1362,6 +1363,7 @@ inside
 )
 ;
 return
+false
 ;
 }
 for
@@ -1475,10 +1477,14 @@ outside
 )
 ;
 return
+true
 ;
 }
 }
 }
+return
+true
+;
 }
 }
 }

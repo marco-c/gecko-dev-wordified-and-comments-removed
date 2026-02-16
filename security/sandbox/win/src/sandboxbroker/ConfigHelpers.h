@@ -135,7 +135,7 @@ UserFontConfigHelper
 (
 )
 ;
-void
+bool
 AddRules
 (
 sandboxing
