@@ -287,6 +287,17 @@ if
 data_
 )
 {
+TraceBufferEdge
+(
+trc
+this
+&
+data_
+"
+PrivateScriptData
+"
+)
+;
 data_
 -
 >

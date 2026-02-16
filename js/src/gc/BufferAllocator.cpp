@@ -4488,6 +4488,16 @@ checkAccess
 ;
 if
 (
+!
+alloc
+)
+{
+return
+0
+;
+}
+if
+(
 IsLargeAlloc
 (
 alloc
