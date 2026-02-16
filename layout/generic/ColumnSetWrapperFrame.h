@@ -231,11 +231,6 @@ nsIFrame
 aFrame
 )
 ;
-bool
-mFinishedBuildingColumns
-=
-false
-;
 #
 endif
 template
