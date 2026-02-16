@@ -73,6 +73,10 @@ nr_ice_socket
 *
 sock
 =
+(
+nr_ice_socket
+*
+)
 cb_arg
 ;
 UCHAR
