@@ -10408,7 +10408,7 @@ category
 "
 viewport
 -
-overrides
+override
 "
 moduleName
 :
@@ -10466,7 +10466,7 @@ category
 "
 viewport
 -
-overrides
+override
 "
 moduleName
 :

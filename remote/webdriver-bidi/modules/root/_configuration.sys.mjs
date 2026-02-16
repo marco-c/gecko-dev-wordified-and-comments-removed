@@ -273,7 +273,7 @@ except
 from
 viewport
 -
-overrides
+override
 which
 is
 handled
@@ -701,7 +701,7 @@ _configuration
 "
 viewport
 -
-overrides
+override
 "
 {
 type
@@ -1199,7 +1199,7 @@ category
 "
 viewport
 -
-overrides
+override
 "
 )
 {
@@ -1215,7 +1215,7 @@ category
 "
 viewport
 -
-overrides
+override
 "
 )
 {
