@@ -29,6 +29,9 @@ mod
 parallel
 ;
 mod
+sync_callback
+;
+mod
 tone
 ;
 mod
