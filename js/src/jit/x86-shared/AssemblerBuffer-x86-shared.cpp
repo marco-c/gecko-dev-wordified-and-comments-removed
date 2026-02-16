@@ -210,7 +210,7 @@ jit
 GenericAssembler
 :
 :
-spew
+spewVA
 (
 const
 char
