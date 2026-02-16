@@ -721,3 +721,17 @@ auto
 cb
 .
 html
+-
+name
+:
+svg
+files
+:
+-
+svg
+-
+intrinsic
+-
+size
+-
+*
