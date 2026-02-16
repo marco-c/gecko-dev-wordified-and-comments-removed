@@ -315,7 +315,9 @@ for
 a
 data
 -
-eventSource
+event
+-
+source
 attribute
 and
 dispatch
@@ -428,7 +430,9 @@ should
 have
 data
 -
-eventSource
+event
+-
+source
 attributes
 on
 relevant
@@ -478,7 +482,9 @@ prop
 "
 data
 -
-eventSource
+event
+-
+source
 "
 )
 "
@@ -507,7 +513,9 @@ prop
 "
 data
 -
-eventSource
+event
+-
+source
 "
 )
 "
@@ -536,7 +544,9 @@ prop
 "
 data
 -
-eventSource
+event
+-
+source
 "
 )
 "
