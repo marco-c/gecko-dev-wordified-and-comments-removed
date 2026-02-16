@@ -3322,17 +3322,6 @@ js
 ]
 [
 "
-browser_net_view
--
-source
--
-requests
-.
-js
-"
-]
-[
-"
 browser_net_waterfall
 -
 click
