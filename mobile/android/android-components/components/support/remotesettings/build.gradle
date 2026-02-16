@@ -183,6 +183,10 @@ utils
 implementation
 ComponentsDependencies
 .
+mozilla_appservices_errorsupport
+implementation
+ComponentsDependencies
+.
 mozilla_remote_settings
 implementation
 libs

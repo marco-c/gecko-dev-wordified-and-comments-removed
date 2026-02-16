@@ -254,6 +254,10 @@ ktx
 implementation
 ComponentsDependencies
 .
+mozilla_appservices_errorsupport
+implementation
+ComponentsDependencies
+.
 mozilla_appservices_suggest
 implementation
 libs
