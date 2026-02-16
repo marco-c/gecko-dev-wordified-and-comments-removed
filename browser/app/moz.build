@@ -220,6 +220,14 @@ Firefox
 General
 "
 )
+DIRS
++
+=
+[
+"
+distribution
+"
+]
 if
 CONFIG
 [
