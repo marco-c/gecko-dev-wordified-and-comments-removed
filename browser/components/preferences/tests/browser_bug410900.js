@@ -235,7 +235,11 @@ rbox
 getElementsByTagName
 (
 "
-richlistitem
+moz
+-
+box
+-
+item
 "
 )
 ;
