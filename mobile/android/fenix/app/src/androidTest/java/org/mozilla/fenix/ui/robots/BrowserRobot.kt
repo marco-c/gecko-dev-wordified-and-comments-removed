@@ -11454,6 +11454,11 @@ back
 button
 "
 )
+composeTestRule
+.
+waitForIdle
+(
+)
 HomeScreenRobot
 (
 composeTestRule

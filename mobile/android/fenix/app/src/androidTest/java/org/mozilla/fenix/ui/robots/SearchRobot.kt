@@ -4957,7 +4957,9 @@ back
 button
 "
 )
-waitForAppWindowToBeUpdated
+composeTestRule
+.
+waitForIdle
 (
 )
 HomeScreenRobot
