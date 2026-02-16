@@ -2422,6 +2422,7 @@ network
 .
 timeout
 "
+60000
 )
 )
 ;
