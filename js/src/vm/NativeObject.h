@@ -6603,6 +6603,13 @@ uint32_t
 count
 )
 ;
+inline
+bool
+canMoveElementsHeader
+(
+)
+const
+;
 public
 :
 void
