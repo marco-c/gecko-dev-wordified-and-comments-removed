@@ -1099,6 +1099,13 @@ true
 ]
 [
 "
+browser_permissions_about_hidden
+.
+js
+"
+]
+[
+"
 browser_permissions_checkPermissionsWereAdded
 .
 js

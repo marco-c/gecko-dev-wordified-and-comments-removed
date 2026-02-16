@@ -2300,6 +2300,17 @@ capability
 )
 |
 |
+!
+SitePermissions
+.
+isSupportedPrincipal
+(
+perm
+.
+principal
+)
+|
+|
 (
 perm
 .
