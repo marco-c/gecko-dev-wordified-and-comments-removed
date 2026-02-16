@@ -461,6 +461,15 @@ Unit
 httpClient
 :
 Client
+private
+val
+mainDispatcher
+:
+CoroutineDispatcher
+=
+Dispatchers
+.
+Main
 ioDispatcher
 :
 CoroutineDispatcher
@@ -494,6 +503,11 @@ scope
 store
 .
 flowScoped
+(
+dispatcher
+=
+mainDispatcher
+)
 {
 flow
 -

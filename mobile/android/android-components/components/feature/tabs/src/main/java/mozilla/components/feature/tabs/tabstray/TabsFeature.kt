@@ -282,6 +282,8 @@ tabsTray
 store
 defaultTabsFilter
 defaultTabPartitionsFilter
+closeTabsTray
+=
 onCloseTray
 )
 override

@@ -839,7 +839,6 @@ Bitmap
 /
 class
 BrowserIcons
-constructor
 (
 private
 val
@@ -987,6 +986,14 @@ BrowserIcons
 asCoroutineDispatcher
 (
 )
+val
+mainDispatcher
+:
+CoroutineDispatcher
+=
+Dispatchers
+.
+Main
 )
 :
 MemoryConsumer
@@ -1518,6 +1525,11 @@ extension
 store
 .
 flowScoped
+(
+dispatcher
+=
+mainDispatcher
+)
 {
 flow
 -

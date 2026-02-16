@@ -671,7 +671,8 @@ components
 .
 sessionUseCases
 sessionId
-)
+fullScreenChanged
+=
 {
 inFullScreen
 -
@@ -698,6 +699,7 @@ exitImmersiveMode
 )
 }
 }
+)
 owner
 =
 this

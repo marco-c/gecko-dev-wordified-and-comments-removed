@@ -1094,6 +1094,8 @@ BrowserAction
 :
 AbstractPrivateNotificationService
 (
+notificationScope
+=
 scope
 )
 {

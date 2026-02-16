@@ -397,16 +397,6 @@ fenix
 .
 ext
 .
-settings
-import
-org
-.
-mozilla
-.
-fenix
-.
-ext
-.
 showToolbar
 import
 org
@@ -939,6 +929,9 @@ appStore
 flowScoped
 (
 viewLifecycleOwner
+Dispatchers
+.
+Main
 )
 {
 flow

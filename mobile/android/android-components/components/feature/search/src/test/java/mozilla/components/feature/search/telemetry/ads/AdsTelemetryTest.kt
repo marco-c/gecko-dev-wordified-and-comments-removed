@@ -87,6 +87,14 @@ coroutines
 .
 runBlocking
 import
+kotlinx
+.
+coroutines
+.
+test
+.
+StandardTestDispatcher
+import
 mozilla
 .
 components
@@ -438,6 +446,13 @@ var
 telemetry
 :
 AdsTelemetry
+private
+val
+testDispatcher
+=
+StandardTestDispatcher
+(
+)
 fun
 createMockProviderList
 (
@@ -950,6 +965,7 @@ spy
 (
 AdsTelemetry
 (
+testDispatcher
 )
 )
 }

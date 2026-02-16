@@ -143,6 +143,12 @@ kotlinx
 .
 coroutines
 .
+Dispatchers
+import
+kotlinx
+.
+coroutines
+.
 flow
 .
 distinctUntilChanged
@@ -545,6 +551,9 @@ store
 flowScoped
 (
 viewLifecycleOwner
+Dispatchers
+.
+Main
 )
 {
 flow

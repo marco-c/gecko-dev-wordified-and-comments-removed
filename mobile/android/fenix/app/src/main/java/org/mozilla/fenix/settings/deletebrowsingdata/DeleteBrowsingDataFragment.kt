@@ -130,6 +130,12 @@ kotlinx
 coroutines
 .
 Dispatchers
+import
+kotlinx
+.
+coroutines
+.
+Dispatchers
 .
 IO
 import
@@ -739,6 +745,9 @@ store
 flowScoped
 (
 viewLifecycleOwner
+Dispatchers
+.
+Main
 )
 {
 flow

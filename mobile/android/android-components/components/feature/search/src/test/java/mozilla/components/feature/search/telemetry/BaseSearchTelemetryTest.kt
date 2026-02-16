@@ -85,6 +85,14 @@ coroutines
 .
 runBlocking
 import
+kotlinx
+.
+coroutines
+.
+test
+.
+StandardTestDispatcher
+import
 mozilla
 .
 components
@@ -273,6 +281,13 @@ mockRootStorageDirectory
 File
 =
 mock
+(
+)
+private
+val
+testDispatcher
+=
+StandardTestDispatcher
 (
 )
 private
@@ -589,6 +604,7 @@ object
 :
 BaseSearchTelemetry
 (
+testDispatcher
 )
 {
 override
