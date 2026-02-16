@@ -3896,8 +3896,6 @@ NS_WARNING
 ovr_SetTrackingOriginType
 failed
 .
-\
-n
 "
 )
 ;

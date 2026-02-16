@@ -4842,8 +4842,6 @@ doesn
 t
 exist
 !
-\
-n
 "
 )
 ;

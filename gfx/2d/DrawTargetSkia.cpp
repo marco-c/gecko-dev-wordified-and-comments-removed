@@ -6906,8 +6906,6 @@ bitmap
 around
 skia
 data
-\
-n
 "
 )
 ;

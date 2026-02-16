@@ -1743,8 +1743,6 @@ not
 setup
 crash
 reporting
-\
-n
 "
 )
 ;

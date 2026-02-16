@@ -1957,8 +1957,6 @@ NS_WARNING
 Unsupported
 fill
 type
-\
-n
 "
 )
 ;
