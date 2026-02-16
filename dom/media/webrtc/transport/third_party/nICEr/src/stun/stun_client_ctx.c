@@ -487,11 +487,6 @@ int
 r
 _status
 ;
-int
-flags
-=
-0
-;
 if
 (
 ctx
@@ -507,6 +502,7 @@ ABORT
 R_NOT_PERMITTED
 )
 ;
+int
 flags
 =
 ctx
@@ -2451,12 +2447,6 @@ fail_on_error
 compute_lt_key
 =
 1
-;
-[
-[
-fallthrough
-]
-]
 ;
 case
 NR_STUN_CLIENT_MODE_BINDING_REQUEST_SHORT_TERM_AUTH

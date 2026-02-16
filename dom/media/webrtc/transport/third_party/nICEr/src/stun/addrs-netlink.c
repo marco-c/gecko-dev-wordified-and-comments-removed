@@ -316,7 +316,7 @@ ifr
 )
 )
 ;
-strlcpy
+strncpy
 (
 ifr
 .
@@ -327,12 +327,9 @@ addr
 addr
 .
 ifname
-sizeof
-(
-ifr
-.
-ifr_name
-)
+IFNAMSIZ
+-
+1
 )
 ;
 int
@@ -727,7 +724,7 @@ SOCK_DGRAM
 0
 )
 ;
-strlcpy
+strncpy
 (
 ifr
 .
@@ -833,7 +830,7 @@ speed
 #
 endif
 }
-strlcpy
+strncpy
 (
 wrq
 .
