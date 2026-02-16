@@ -1099,6 +1099,11 @@ path
 '
 w
 '
+encoding
+=
+'
+utf8
+'
 )
 as
 f
