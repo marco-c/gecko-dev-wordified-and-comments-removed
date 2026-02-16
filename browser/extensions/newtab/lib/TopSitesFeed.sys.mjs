@@ -13853,6 +13853,17 @@ site
 originalIndex
 )
 ;
+let
+adjustedDraggedFromIndex
+=
+this
+.
+_adjustPinIndexForSponsoredLinks
+(
+site
+draggedFromIndex
+)
+;
 /
 /
 Don
@@ -13959,7 +13970,7 @@ else
 {
 pinned
 [
-draggedFromIndex
+adjustedDraggedFromIndex
 ]
 =
 null
@@ -14003,7 +14014,7 @@ indexStep
 =
 index
 >
-draggedFromIndex
+adjustedDraggedFromIndex
 ?
 -
 1
