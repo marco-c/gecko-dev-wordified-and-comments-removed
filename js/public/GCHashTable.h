@@ -3243,7 +3243,7 @@ js
 gc
 :
 :
-AutoLockStoreBuffer
+AutoLockSweepingLock
 >
 lock
 ;
@@ -4332,7 +4332,7 @@ js
 gc
 :
 :
-AutoLockStoreBuffer
+AutoLockSweepingLock
 >
 lock
 ;

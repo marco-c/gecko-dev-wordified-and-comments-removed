@@ -66,7 +66,7 @@ ExecutionTracerInstanceLock
 \
 _
 (
-StoreBuffer
+Sweeping
 275
 )
 \

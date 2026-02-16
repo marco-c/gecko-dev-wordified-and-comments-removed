@@ -5719,7 +5719,7 @@ Maybe
 gc
 :
 :
-AutoLockStoreBuffer
+AutoLockSweepingLock
 >
 lock
 ;

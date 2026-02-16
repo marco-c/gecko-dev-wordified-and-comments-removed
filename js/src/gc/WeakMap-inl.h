@@ -2169,7 +2169,7 @@ removeFront
 gc
 :
 :
-AutoLockStoreBuffer
+AutoLockSweepingLock
 lock
 (
 trc

@@ -1802,12 +1802,12 @@ mutexid
 :
 GCLock
 )
-storeBufferLock
+sweepingLock
 (
 mutexid
 :
 :
-StoreBuffer
+Sweeping
 )
 delayedMarkingLock
 (
@@ -11914,7 +11914,7 @@ assertBackgroundSweepingFinished
 (
 )
 ;
-AutoLockStoreBuffer
+AutoLockSweepingLock
 lock
 (
 rt

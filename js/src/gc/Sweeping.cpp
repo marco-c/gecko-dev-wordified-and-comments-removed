@@ -6683,7 +6683,7 @@ detail
 WeakCacheBase
 :
 :
-LockStoreBuffer
+Lock
 )
 ;
 }
@@ -7239,7 +7239,7 @@ trc
 rt
 )
 ;
-AutoLockStoreBuffer
+AutoLockSweepingLock
 lock
 (
 rt
@@ -7397,7 +7397,7 @@ trc
 rt
 )
 ;
-AutoLockStoreBuffer
+AutoLockSweepingLock
 lock
 (
 rt
@@ -8164,7 +8164,7 @@ detail
 WeakCacheBase
 :
 :
-LockStoreBuffer
+Lock
 )
 ;
 return
@@ -8192,7 +8192,7 @@ using
 namespace
 gcstats
 ;
-AutoLockStoreBuffer
+AutoLockSweepingLock
 lock
 (
 rt
@@ -8421,7 +8421,7 @@ bufferAllocator
 setMultiThreadedUse
 (
 &
-storeBufferLock
+sweepingLock
 )
 ;
 if
@@ -9007,7 +9007,7 @@ PhaseKind
 FINALIZE_END
 )
 ;
-AutoLockStoreBuffer
+AutoLockSweepingLock
 lock
 (
 rt
@@ -10176,7 +10176,7 @@ detail
 WeakCacheBase
 :
 :
-LockStoreBuffer
+Lock
 )
 ;
 cache
@@ -13031,7 +13031,7 @@ PhaseKind
 FINALIZE_END
 )
 ;
-AutoLockStoreBuffer
+AutoLockSweepingLock
 lock
 (
 rt

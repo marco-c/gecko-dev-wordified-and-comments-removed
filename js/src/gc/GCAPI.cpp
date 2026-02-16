@@ -5264,7 +5264,7 @@ js
 gc
 :
 :
-LockStoreBuffer
+LockSweepingLock
 (
 JSRuntime
 *
@@ -5281,7 +5281,7 @@ runtime
 >
 gc
 .
-lockStoreBuffer
+lockSweepingLock
 (
 )
 ;
@@ -5294,7 +5294,7 @@ js
 gc
 :
 :
-UnlockStoreBuffer
+UnlockSweepingLock
 (
 JSRuntime
 *
@@ -5311,7 +5311,7 @@ runtime
 >
 gc
 .
-unlockStoreBuffer
+unlockSweepingLock
 (
 )
 ;

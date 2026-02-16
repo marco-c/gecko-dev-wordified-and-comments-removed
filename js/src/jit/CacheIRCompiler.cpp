@@ -7690,7 +7690,7 @@ stubDataStart
 gc
 :
 :
-AutoLockStoreBuffer
+AutoLockSweepingLock
 lock
 (
 rt

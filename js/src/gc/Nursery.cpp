@@ -10335,7 +10335,7 @@ runtime
 >
 gc
 .
-assertCurrentThreadHasLockedStoreBuffer
+assertCurrentThreadHasLockedSweepingLock
 (
 )
 ;

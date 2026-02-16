@@ -804,7 +804,7 @@ empty
 )
 )
 {
-AutoLockStoreBuffer
+AutoLockSweepingLock
 lock
 (
 trc
