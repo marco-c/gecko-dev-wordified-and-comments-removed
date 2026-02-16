@@ -423,10 +423,7 @@ mPrincipalInfo
 nsCString
 mWorkerScript
 ;
-Maybe
-<
 ClientInfo
->
 mClientInfo
 ;
 Maybe
@@ -505,6 +502,9 @@ ipc
 :
 PrincipalInfo
 mPrincipalInfo
+;
+ClientInfo
+mClientInfo
 ;
 Maybe
 <
