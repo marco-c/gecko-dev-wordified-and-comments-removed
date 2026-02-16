@@ -4512,12 +4512,11 @@ Selecteditem
 :
 color
 =
-NS_RGBA
+NS_RGB
 (
-249
-249
-250
-26
+0
+221
+255
 )
 ;
 break
