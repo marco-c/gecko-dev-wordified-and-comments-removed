@@ -9794,10 +9794,13 @@ init
 if
 (
 !
+(
+await
 NetErrorCard
 .
 isSupported
 (
+)
 )
 )
 {
