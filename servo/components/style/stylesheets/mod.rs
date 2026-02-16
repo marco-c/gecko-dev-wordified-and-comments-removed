@@ -86,6 +86,15 @@ pub
 mod
 supports_rule
 ;
+use
+crate
+:
+:
+derives
+:
+:
+*
+;
 #
 [
 cfg
@@ -605,7 +614,6 @@ stylesheet
 {
 StylesheetContents
 StylesheetInDocument
-UserAgentStylesheets
 }
 ;
 pub
