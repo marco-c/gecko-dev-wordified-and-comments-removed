@@ -12,6 +12,9 @@ appservices
 .
 init_rust_components
 "
+omit_checksums
+=
+true
 [
 bindings
 .

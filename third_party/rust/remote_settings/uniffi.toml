@@ -12,6 +12,9 @@ appservices
 .
 remotesettings
 "
+omit_checksums
+=
+true
 [
 bindings
 .

@@ -12,6 +12,9 @@ appservices
 .
 errorsupport
 "
+omit_checksums
+=
+true
 [
 bindings
 .

@@ -12,6 +12,9 @@ appservices
 .
 tracing
 "
+omit_checksums
+=
+true
 [
 bindings
 .

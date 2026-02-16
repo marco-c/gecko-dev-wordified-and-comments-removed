@@ -12,6 +12,9 @@ appservices
 .
 remotetabs
 "
+omit_checksums
+=
+true
 [
 bindings
 .

@@ -27,3 +27,6 @@ appservices
 .
 search
 "
+omit_checksums
+=
+true

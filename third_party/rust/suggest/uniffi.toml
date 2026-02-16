@@ -12,6 +12,9 @@ appservices
 .
 suggest
 "
+omit_checksums
+=
+true
 [
 bindings
 .

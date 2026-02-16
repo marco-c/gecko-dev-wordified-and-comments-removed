@@ -12,6 +12,9 @@ appservices
 .
 sync15
 "
+omit_checksums
+=
+true
 [
 bindings
 .

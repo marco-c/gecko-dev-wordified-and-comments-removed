@@ -17,3 +17,6 @@ cdylib_name
 "
 megazord
 "
+omit_checksums
+=
+true

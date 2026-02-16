@@ -12,6 +12,9 @@ appservices
 .
 viaduct
 "
+omit_checksums
+=
+true
 [
 bindings
 .

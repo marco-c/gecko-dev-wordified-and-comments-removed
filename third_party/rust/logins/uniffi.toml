@@ -12,6 +12,9 @@ appservices
 .
 logins
 "
+omit_checksums
+=
+true
 [
 bindings
 .

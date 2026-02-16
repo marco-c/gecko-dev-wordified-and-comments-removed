@@ -283,15 +283,6 @@ support
 /
 error
 "
-features
-=
-[
-"
-tracing
--
-logging
-"
-]
 [
 dependencies
 .
