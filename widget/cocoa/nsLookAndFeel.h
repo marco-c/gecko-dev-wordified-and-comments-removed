@@ -140,16 +140,6 @@ mInitialized
 =
 false
 ;
-bool
-mRtl
-=
-false
-;
-int32_t
-mTitlebarHeight
-=
-0
-;
 }
 ;
 #
