@@ -981,8 +981,7 @@ userRef
 )
 ;
 extern
-JSErrorReport
-*
+bool
 ErrorFromException
 (
 JSContext
@@ -990,6 +989,12 @@ JSContext
 cx
 HandleObject
 obj
+JS
+:
+:
+BorrowedErrorReport
+&
+errorReport
 )
 ;
 extern

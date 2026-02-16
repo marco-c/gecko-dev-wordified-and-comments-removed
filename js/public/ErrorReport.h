@@ -99,6 +99,15 @@ include
 "
 js
 /
+Exception
+.
+h
+"
+#
+include
+"
+js
+/
 RootingAPI
 .
 h
@@ -1361,8 +1370,8 @@ ownedReport
 JS
 :
 :
-RootedObject
-exnObject
+BorrowedErrorReport
+borrowedReport
 ;
 JS
 :

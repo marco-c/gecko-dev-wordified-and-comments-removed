@@ -22108,8 +22108,7 @@ SavedFrame
 }
 }
 JS_PUBLIC_API
-JSErrorReport
-*
+bool
 JS_ErrorFromException
 (
 JSContext
@@ -22117,6 +22116,12 @@ JSContext
 cx
 HandleObject
 obj
+JS
+:
+:
+BorrowedErrorReport
+&
+errorReport
 )
 {
 AssertHeapIsIdle
@@ -22141,6 +22146,7 @@ ErrorFromException
 (
 cx
 obj
+errorReport
 )
 ;
 }
