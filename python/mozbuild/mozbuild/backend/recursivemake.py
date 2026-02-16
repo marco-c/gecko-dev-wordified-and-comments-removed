@@ -5016,8 +5016,12 @@ t
 for
 t
 in
+reversed
+(
 rust_roots
+)
 ]
+                        
 key
 =
 lambda
