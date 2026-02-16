@@ -243,6 +243,9 @@ FUNCTION
 AnnotationTarget
 .
 CONSTRUCTOR
+AnnotationTarget
+.
+PROPERTY
 )
 annotation
 class
