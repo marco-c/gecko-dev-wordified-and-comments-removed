@@ -208,9 +208,9 @@ gatherPromise
 .
 resolve
 "
-gather
+idle
 -
-telemetry
+daily
 "
 )
 ;
@@ -230,7 +230,7 @@ null
 await
 gatherPromise
 .
-promise
+resolve
 ;
 Assert
 .
@@ -239,9 +239,9 @@ ok
 true
 "
 Received
-gather
+idle
 -
-telemetry
+daily
 notification
 .
 "
@@ -257,9 +257,9 @@ gatherPromise
 .
 resolve
 "
-gather
+idle
 -
-telemetry
+daily
 "
 )
 ;

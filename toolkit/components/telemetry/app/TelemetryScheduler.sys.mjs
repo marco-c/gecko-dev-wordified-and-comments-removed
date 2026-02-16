@@ -243,9 +243,6 @@ idle
 -
 daily
 a
-gather
--
-telemetry
 notification
 is
 fired
