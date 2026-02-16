@@ -2693,7 +2693,13 @@ URI
 }
 mDocumentURI
 =
+std
+:
+:
+move
+(
 aURI
+)
 ;
 return
 IPC_OK

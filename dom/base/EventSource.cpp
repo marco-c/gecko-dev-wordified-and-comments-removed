@@ -2130,7 +2130,13 @@ spec
 }
 mSrc
 =
+std
+:
+:
+move
+(
 srcURI
+)
 ;
 mOrigin
 =

@@ -2406,7 +2406,13 @@ changes
 ;
 mSupportedKeys
 =
+std
+:
+:
+move
+(
 newSupportedKeys
+)
 ;
 mSupportedKeysChangedEvent
 .

@@ -3162,7 +3162,13 @@ aRequest
 >
 mTimer
 =
+std
+:
+:
+move
+(
 timer
+)
 ;
 mPendingInstallRequests
 .

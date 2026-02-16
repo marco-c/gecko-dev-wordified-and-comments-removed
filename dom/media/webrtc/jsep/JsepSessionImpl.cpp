@@ -6002,7 +6002,13 @@ iceLite
 ;
 mIceOptions
 =
+std
+:
+:
+move
+(
 iceOptions
+)
 ;
 SetIceRestarting
 (

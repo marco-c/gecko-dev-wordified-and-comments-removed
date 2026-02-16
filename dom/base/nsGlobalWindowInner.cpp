@@ -10201,7 +10201,13 @@ mChromeEventHandler
 }
 mParentTarget
 =
+std
+:
+:
+move
+(
 eventTarget
+)
 ;
 }
 EventTarget
