@@ -1532,12 +1532,12 @@ wm
 )
 ;
 }
-void
+bool
 joinSweepTask
 (
 )
 ;
-void
+bool
 joinDecommitTask
 (
 )
