@@ -193,7 +193,7 @@ TestUriTemplate
 cpp
 "
 "
-TestURLPatternGlue
+TestUrlPatternGlue
 .
 cpp
 "
