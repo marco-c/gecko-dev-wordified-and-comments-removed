@@ -238,11 +238,15 @@ true
 THEN
 NoRelay
 and
-resets
+keeps
 lastEntitlementCheckMs
 (
 )
 {
+val
+initialEntitlementCheckMs
+=
+999L
 val
 initial
 =
@@ -255,7 +259,7 @@ Ineligible
 FirefoxAccountNotLoggedIn
 lastEntitlementCheckMs
 =
-999L
+initialEntitlementCheckMs
 )
 val
 result
@@ -283,7 +287,7 @@ eligibilityState
 )
 assertEquals
 (
-NO_ENTITLEMENT_CHECK_YET_MS
+initialEntitlementCheckMs
 result
 .
 lastEntitlementCheckMs
