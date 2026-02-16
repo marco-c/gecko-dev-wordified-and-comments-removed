@@ -5297,7 +5297,7 @@ Integer
 }
 {
 "
-next
+last_result
 "
 MS
 :
