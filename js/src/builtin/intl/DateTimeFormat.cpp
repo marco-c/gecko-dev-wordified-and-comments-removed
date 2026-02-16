@@ -505,12 +505,6 @@ JS
 :
 ClippedTime
 ;
-using
-JS
-:
-:
-TimeClip
-;
 const
 JSClassOps
 DateTimeFormatObject
@@ -4992,6 +4986,7 @@ hc
 if
 (
 auto
+*
 nu
 =
 dateTimeFormat
@@ -9019,8 +9014,6 @@ Maybe
 TimeZoneOffsetString
 >
 timeZoneOffset_
-{
-}
 ;
 mozilla
 :
@@ -12913,6 +12906,8 @@ time
 ;
 DateTimeValueKind
 kind
+{
+}
 ;
 }
 ;
@@ -13985,12 +13980,9 @@ if
 overallResult
 -
 >
-length
+empty
 (
 )
-=
-=
-0
 )
 {
 result
@@ -14335,6 +14327,8 @@ end
 ;
 DateTimeValueKind
 kind
+{
+}
 ;
 }
 ;
