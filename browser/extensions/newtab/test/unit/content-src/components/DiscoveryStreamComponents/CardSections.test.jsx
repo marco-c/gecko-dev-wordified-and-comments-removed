@@ -3357,8 +3357,6 @@ discoverystream
 .
 dailyBrief
 .
-v2
-.
 enabled
 "
 :

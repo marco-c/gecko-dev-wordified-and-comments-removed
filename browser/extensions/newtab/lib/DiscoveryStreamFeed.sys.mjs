@@ -11048,7 +11048,7 @@ PREF_CLIENT_LAYOUT_ENABLED
 ]
 ;
 const
-dailyBriefV2Enabled
+dailyBriefEnabled
 =
 prefs
 .
@@ -11058,7 +11058,7 @@ trainhopConfig
 dailyBriefing
 ?
 .
-v2Enabled
+enabled
 |
 |
 this
@@ -11077,8 +11077,6 @@ values
 discoverystream
 .
 dailyBrief
-.
-v2
 .
 enabled
 "
@@ -11145,7 +11143,7 @@ headlineCount
 const
 shouldMarkHeadlines
 =
-dailyBriefV2Enabled
+dailyBriefEnabled
 &
 &
 sectionKey

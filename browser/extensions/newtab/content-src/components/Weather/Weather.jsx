@@ -1576,16 +1576,6 @@ searchActive
 "
 search
 "
-props
-.
-isInSection
-&
-&
-"
-section
--
-weather
-"
 ]
 .
 filter

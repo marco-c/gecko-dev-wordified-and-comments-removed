@@ -589,10 +589,6 @@ spocs
 {
 }
 }
-Weather
-:
-{
-}
 dispatch
 :
 (

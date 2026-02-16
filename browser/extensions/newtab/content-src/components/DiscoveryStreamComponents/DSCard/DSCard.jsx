@@ -3817,7 +3817,7 @@ this
 .
 props
 .
-isDailyBriefV2
+isDailyBrief
 &
 &
 this

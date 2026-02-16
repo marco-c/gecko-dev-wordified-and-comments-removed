@@ -5417,7 +5417,7 @@ render
 topic
 label
 when
-isDailyBriefV2
+isDailyBrief
 is
 true
 "
@@ -5458,7 +5458,7 @@ DSCard
 .
 DEFAULT_PROPS
 }
-isDailyBriefV2
+isDailyBrief
 =
 {
 true
