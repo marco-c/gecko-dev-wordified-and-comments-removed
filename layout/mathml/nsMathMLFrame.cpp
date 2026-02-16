@@ -224,7 +224,10 @@ mEmbellishData
 .
 direction
 =
-NS_STRETCH_DIRECTION_UNSUPPORTED
+StretchDirection
+:
+:
+Unsupported
 ;
 mEmbellishData
 .
@@ -445,7 +448,10 @@ aEmbellishData
 .
 direction
 =
-NS_STRETCH_DIRECTION_UNSUPPORTED
+StretchDirection
+:
+:
+Unsupported
 ;
 aEmbellishData
 .
