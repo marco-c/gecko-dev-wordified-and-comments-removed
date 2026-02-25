@@ -10234,9 +10234,6 @@ item
 )
 ;
 stringifier
-DOMString
-(
-)
 ;
 readonly
 attribute

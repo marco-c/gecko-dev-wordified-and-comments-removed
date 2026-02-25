@@ -618,9 +618,6 @@ false
 NeedsCallerType
 ]
 stringifier
-DOMString
-(
-)
 ;
 }
 ;
