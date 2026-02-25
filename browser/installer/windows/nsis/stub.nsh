@@ -278,6 +278,8 @@ Var
 DownloadedBytes
 Var
 DownloadRetryCount
+Var
+DesktopLauncherStatus
 ;
 After
 a
@@ -5311,7 +5313,7 @@ HadOldInstall
 Call
 GetDesktopLauncherStatus
 Pop
-R9
+DesktopLauncherStatus
 ;
 Note
 :
@@ -5714,7 +5716,7 @@ nDesktop
 Launcher
 Status
 =
-R9
+DesktopLauncherStatus
 "
 ;
 The
@@ -5899,7 +5901,7 @@ R4
 /
 DownloadRequestsBlockedByServer
 /
-R9
+DesktopLauncherStatus
 "
 \
 "
