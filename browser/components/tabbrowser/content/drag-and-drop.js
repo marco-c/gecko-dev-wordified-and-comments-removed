@@ -2556,9 +2556,17 @@ dropElement
 )
 &
 &
+(
 isTab
 (
 draggedTab
+)
+|
+|
+isSplitViewWrapper
+(
+draggedTab
+)
 )
 )
 {
