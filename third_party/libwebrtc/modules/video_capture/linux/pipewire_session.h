@@ -693,6 +693,15 @@ RTC_GUARDED_BY
 device_info_lock_
 )
 ;
+std
+:
+:
+unique_ptr
+<
+PipeWireInitializer
+>
+pw_initializer_
+;
 struct
 pw_thread_loop
 *
