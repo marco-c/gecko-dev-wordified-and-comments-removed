@@ -861,7 +861,8 @@ Sprawd
 po
 czenie
 i
-spr
+\
+u00a0spr
 buj
 ponownie
 .
@@ -1320,7 +1321,8 @@ do
 plik
 w
 i
-multimedi
+\
+u00a0multimedi
 w
 .
 Przejd
@@ -1330,7 +1332,8 @@ Androida
 stuknij
 Uprawnienia
 i
-stuknij
+\
+u00a0stuknij
 Zezw
 l
 .
@@ -1506,7 +1509,8 @@ mozac_feature_downloads_cancel_active_private_downloads_deny
 >
 Pozosta
 w
-trybie
+\
+u00a0trybie
 prywatnym
 <
 /
