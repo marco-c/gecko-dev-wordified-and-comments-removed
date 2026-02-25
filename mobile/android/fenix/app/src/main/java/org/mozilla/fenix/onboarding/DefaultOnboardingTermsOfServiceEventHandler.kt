@@ -163,6 +163,15 @@ val
 settings
 :
 Settings
+private
+val
+startGlean
+:
+(
+)
+-
+>
+Unit
 )
 :
 OnboardingTermsOfServiceEventHandler
@@ -285,5 +294,8 @@ settings
 termsOfUseAcceptedTimeInMillis
 =
 nowMillis
+startGlean
+(
+)
 }
 }
