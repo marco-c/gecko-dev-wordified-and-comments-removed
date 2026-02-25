@@ -1345,7 +1345,7 @@ false
 "
 >
 <
-label
+menucaption
 class
 =
 "
@@ -1371,6 +1371,8 @@ searchmode
 popup
 -
 description
+-
+menucaption
 "
 role
 =
