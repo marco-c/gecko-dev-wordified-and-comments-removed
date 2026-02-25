@@ -1444,11 +1444,6 @@ space
 this
 .
 spaceAndSizeTemplate
-dimension
-:
-this
-.
-spaceAndSizeTemplate
 "
 text
 -

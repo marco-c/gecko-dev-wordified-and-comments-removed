@@ -151,9 +151,9 @@ tokenTypes
 Token
 categories
 from
-semantic
+tokens
 -
-categories
+table
 .
 mjs
 whose
@@ -173,9 +173,9 @@ aliasTokenTypes
 Token
 categories
 from
-semantic
+tokens
 -
-categories
+table
 .
 mjs
 whose

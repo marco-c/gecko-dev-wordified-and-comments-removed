@@ -55,12 +55,8 @@ system
 /
 src
 /
-tokens
-/
-base
-/
-color
-.
+design
+-
 tokens
 .
 json

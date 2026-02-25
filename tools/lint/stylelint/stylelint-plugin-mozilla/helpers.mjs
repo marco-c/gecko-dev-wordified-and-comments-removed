@@ -99,9 +99,9 @@ system
 /
 dist
 /
-semantic
+tokens
 -
-categories
+table
 .
 mjs
 "

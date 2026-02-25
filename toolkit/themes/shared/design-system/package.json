@@ -86,15 +86,6 @@ mjs
 /
 dist
 /
-semantic
--
-categories
-.
-mjs
-.
-/
-dist
-/
 tokens
 -
 figma
