@@ -1507,7 +1507,7 @@ scope
 type
 =
 "
-AnchorScope
+ScopedName
 "
 initial
 =
@@ -1515,7 +1515,7 @@ initial
 computed
 :
 :
-AnchorScope
+ScopedName
 :
 :
 none

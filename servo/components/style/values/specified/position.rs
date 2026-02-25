@@ -2567,7 +2567,7 @@ u8
 ]
 pub
 enum
-AnchorScopeKeyword
+ScopedNameKeyword
 {
 None
 All
@@ -2605,7 +2605,7 @@ DashedIdent
 )
 }
 impl
-AnchorScopeKeyword
+ScopedNameKeyword
 {
 pub
 fn
@@ -2625,7 +2625,7 @@ None
 impl
 Parse
 for
-AnchorScopeKeyword
+ScopedNameKeyword
 {
 fn
 parse
@@ -2787,7 +2787,7 @@ input
 }
 Ok
 (
-AnchorScopeKeyword
+ScopedNameKeyword
 :
 :
 Idents
@@ -2811,15 +2811,15 @@ drain
 }
 pub
 type
-AnchorScope
+ScopedName
 =
 TreeScoped
 <
-AnchorScopeKeyword
+ScopedNameKeyword
 >
 ;
 impl
-AnchorScope
+ScopedName
 {
 pub
 fn
@@ -2835,7 +2835,7 @@ Self
 :
 with_default_level
 (
-AnchorScopeKeyword
+ScopedNameKeyword
 :
 :
 none
