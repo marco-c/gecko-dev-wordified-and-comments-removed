@@ -8706,6 +8706,14 @@ connection_info
 /
 p2p
 :
+dtls_transport_factory
+"
+"
+.
+.
+/
+p2p
+:
 dtls_transport_internal
 "
 "

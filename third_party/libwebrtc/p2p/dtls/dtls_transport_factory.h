@@ -41,17 +41,6 @@ h
 #
 include
 "
-p2p
-/
-dtls
-/
-dtls_transport_internal
-.
-h
-"
-#
-include
-"
 rtc_base
 /
 ssl_stream_adapter
@@ -61,6 +50,9 @@ h
 namespace
 webrtc
 {
+class
+DtlsTransportInternal
+;
 class
 DtlsTransportFactory
 {
