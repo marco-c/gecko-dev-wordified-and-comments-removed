@@ -793,7 +793,7 @@ ledger
 typeof
 ledger
 .
-has
+lookup
 !
 =
 =
@@ -840,7 +840,7 @@ url
 >
 ledger
 .
-has
+lookup
 (
 url
 )
@@ -865,7 +865,7 @@ url
 !
 ledger
 .
-has
+lookup
 (
 url
 )
