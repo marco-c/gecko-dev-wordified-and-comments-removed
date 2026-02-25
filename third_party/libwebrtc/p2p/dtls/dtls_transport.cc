@@ -2887,7 +2887,7 @@ result
 dtls_
 -
 >
-WriteAll
+Write
 (
 MakeArrayView
 (
@@ -2926,6 +2926,14 @@ return
 1
 ;
 }
+RTC_CHECK
+(
+written
+=
+=
+size
+)
+;
 return
 static_cast
 <
