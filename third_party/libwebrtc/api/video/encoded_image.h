@@ -672,7 +672,7 @@ temporal_index
 {
 RTC_DCHECK_GE
 (
-temporal_index_
+temporal_index
 .
 value_or
 (
@@ -683,7 +683,7 @@ value_or
 ;
 RTC_DCHECK_LT
 (
-temporal_index_
+temporal_index
 .
 value_or
 (
