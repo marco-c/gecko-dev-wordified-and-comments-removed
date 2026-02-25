@@ -2498,6 +2498,16 @@ if
 nativeTab
 .
 parentNode
+|
+|
+this
+.
+adoptedTabs
+.
+has
+(
+nativeTab
+)
 )
 {
 return
