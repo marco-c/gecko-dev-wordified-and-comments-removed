@@ -829,6 +829,7 @@ strm
 msg
 =
 (
+z_const
 char
 *
 )
@@ -925,6 +926,7 @@ strm
 msg
 =
 (
+z_const
 char
 *
 )
@@ -1468,6 +1470,7 @@ strm
 msg
 =
 (
+z_const
 char
 *
 )
@@ -1571,6 +1574,7 @@ strm
 msg
 =
 (
+z_const
 char
 *
 )

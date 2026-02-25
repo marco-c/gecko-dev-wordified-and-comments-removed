@@ -71,3 +71,17 @@ FAR
 work
 )
 ;
+struct
+inflate_state
+;
+void
+ZLIB_INTERNAL
+inflate_fixed
+(
+struct
+inflate_state
+FAR
+*
+state
+)
+;

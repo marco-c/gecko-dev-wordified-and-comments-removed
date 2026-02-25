@@ -529,8 +529,14 @@ bi_buf
 int
 bi_valid
 ;
+int
+bi_used
+;
 ulg
 high_water
+;
+int
+slid
 ;
 }
 FAR
