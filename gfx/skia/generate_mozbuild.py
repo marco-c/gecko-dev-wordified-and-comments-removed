@@ -626,7 +626,7 @@ SKIA_IMPLEMENTATION
 DEFINES
 [
 '
-SK_PDF_USE_HARFBUZZ_SUBSETTING
+SK_PDF_USE_HARFBUZZ_SUBSET
 '
 ]
 =
@@ -810,6 +810,20 @@ private
 field
 '
     
+]
+LOCAL_INCLUDES
++
+=
+[
+    
+"
+/
+gfx
+/
+harfbuzz
+/
+src
+"
 ]
 if
 CONFIG
