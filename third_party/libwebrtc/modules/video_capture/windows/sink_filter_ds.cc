@@ -3865,12 +3865,6 @@ IMediaSample
 media_sample
 )
 {
-RTC_DCHECK_RUN_ON
-(
-&
-capture_checker_
-)
-;
 CaptureSinkFilter
 *
 const
