@@ -2702,6 +2702,13 @@ repr
 C
 )
 ]
+#
+[
+typed_value
+(
+derive_fields
+)
+]
 pub
 enum
 GenericMargin
