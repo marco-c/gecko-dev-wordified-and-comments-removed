@@ -1258,7 +1258,7 @@ the
 stub
 ping
 currently
-8
+12
 stub_build_id
 (
 stub
