@@ -653,6 +653,10 @@ extern
 crate
 adblock
 ;
+extern
+crate
+content_classifier_engine
+;
 #
 [
 cfg
