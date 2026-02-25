@@ -3777,6 +3777,11 @@ system
 :
 no_unique_address
 "
+"
+system
+:
+rtc_export
+"
 ]
 }
 rtc_library

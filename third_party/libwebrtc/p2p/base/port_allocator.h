@@ -1844,6 +1844,7 @@ nullptr
 )
 const
 ;
+virtual
 void
 DiscardCandidatePool
 (

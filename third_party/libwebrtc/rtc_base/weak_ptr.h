@@ -66,6 +66,17 @@ include
 "
 rtc_base
 /
+system
+/
+rtc_export
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 thread_annotations
 .
 h
@@ -238,6 +249,7 @@ flag_
 }
 ;
 class
+RTC_EXPORT
 WeakReferenceOwner
 {
 public
