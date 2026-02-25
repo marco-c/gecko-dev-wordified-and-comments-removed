@@ -74,6 +74,7 @@ numChannels
 FIFOSampleBuffer
 (
 )
+override
 ;
 virtual
 SAMPLETYPE
@@ -81,6 +82,7 @@ SAMPLETYPE
 ptrBegin
 (
 )
+override
 ;
 SAMPLETYPE
 *
@@ -101,6 +103,7 @@ samples
 uint
 numSamples
 )
+override
 ;
 virtual
 void
@@ -120,6 +123,7 @@ output
 uint
 maxSamples
 )
+override
 ;
 virtual
 uint
@@ -128,6 +132,7 @@ receiveSamples
 uint
 maxSamples
 )
+override
 ;
 virtual
 uint
@@ -135,6 +140,7 @@ numSamples
 (
 )
 const
+override
 ;
 void
 setChannels
@@ -158,12 +164,14 @@ isEmpty
 (
 )
 const
+override
 ;
 virtual
 void
 clear
 (
 )
+override
 ;
 uint
 adjustAmountOfSamples
@@ -171,6 +179,7 @@ adjustAmountOfSamples
 uint
 numSamples
 )
+override
 ;
 void
 addSilent

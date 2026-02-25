@@ -59,11 +59,11 @@ sizeInBytes
 ;
 buffer
 =
-NULL
+nullptr
 ;
 bufferUnaligned
 =
-NULL
+nullptr
 ;
 samplesInBuffer
 =
@@ -101,11 +101,11 @@ bufferUnaligned
 ;
 bufferUnaligned
 =
-NULL
+nullptr
 ;
 buffer
 =
-NULL
+nullptr
 ;
 }
 void
@@ -385,7 +385,7 @@ if
 tempUnaligned
 =
 =
-NULL
+nullptr
 )
 {
 ST_THROW_RT_ERROR

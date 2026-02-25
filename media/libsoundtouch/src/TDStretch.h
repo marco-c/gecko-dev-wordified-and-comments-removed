@@ -313,6 +313,7 @@ virtual
 TDStretch
 (
 )
+override
 ;
 static
 void
@@ -367,6 +368,7 @@ void
 clear
 (
 )
+override
 ;
 void
 clearInput
@@ -444,6 +446,7 @@ samples
 uint
 numSamples
 )
+override
 ;
 int
 getInputSampleReq
@@ -514,6 +517,7 @@ double
 &
 norm
 )
+override
 ;
 double
 calcCrossCorrAccumulate
@@ -530,6 +534,7 @@ double
 &
 norm
 )
+override
 ;
 virtual
 void
@@ -544,12 +549,14 @@ short
 input
 )
 const
+override
 ;
 virtual
 void
 clearCrossCorrState
 (
 )
+override
 ;
 }
 ;
@@ -581,6 +588,7 @@ double
 &
 norm
 )
+override
 ;
 double
 calcCrossCorrAccumulate
@@ -597,6 +605,7 @@ double
 &
 norm
 )
+override
 ;
 }
 ;

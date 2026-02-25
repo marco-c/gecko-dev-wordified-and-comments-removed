@@ -286,9 +286,6 @@ uint
 nSamples
 )
 {
-uint
-count
-;
 if
 (
 nSamples
@@ -314,8 +311,9 @@ bUseAAFilter
 false
 )
 {
-count
-=
+(
+void
+)
 pTransposer
 -
 >
@@ -850,7 +848,7 @@ false
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 #

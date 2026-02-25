@@ -27,13 +27,15 @@ SOUNDTOUCH_VERSION
 "
 2
 .
-2
+4
+.
+0
 "
 #
 define
 SOUNDTOUCH_VERSION_ID
 (
-20200
+20400
 )
 #
 define
@@ -134,6 +136,7 @@ virtual
 SoundTouch
 (
 )
+override
 ;
 static
 const
@@ -240,6 +243,7 @@ samples
 uint
 numSamples
 )
+override
 ;
 virtual
 uint
@@ -251,6 +255,7 @@ output
 uint
 maxSamples
 )
+override
 ;
 virtual
 uint
@@ -259,12 +264,14 @@ receiveSamples
 uint
 maxSamples
 )
+override
 ;
 virtual
 void
 clear
 (
 )
+override
 ;
 bool
 setSetting

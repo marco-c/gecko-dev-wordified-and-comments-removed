@@ -98,7 +98,7 @@ if
 fptr
 =
 =
-NULL
+nullptr
 )
 return
 ;

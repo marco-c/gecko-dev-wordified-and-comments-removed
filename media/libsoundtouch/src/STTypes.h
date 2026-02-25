@@ -68,7 +68,7 @@ soundtouch
 #
 define
 SOUNDTOUCH_MAX_CHANNELS
-16
+32
 #
 if
 (
@@ -236,7 +236,6 @@ endif
 #
 endif
 }
-;
 #
 ifdef
 ST_NO_EXCEPTION_HANDLING

@@ -118,7 +118,8 @@ FIFOSamplePipe
 other
 )
 {
-int
+const
+uint
 oNumSamples
 =
 other
@@ -145,7 +146,6 @@ oNumSamples
 )
 ;
 }
-;
 virtual
 uint
 receiveSamples
@@ -232,7 +232,7 @@ assert
 output
 =
 =
-NULL
+nullptr
 )
 ;
 assert
@@ -240,7 +240,7 @@ assert
 pOutput
 !
 =
-NULL
+nullptr
 )
 ;
 output
@@ -254,7 +254,7 @@ FIFOProcessor
 {
 output
 =
-NULL
+nullptr
 ;
 }
 FIFOProcessor
@@ -274,6 +274,7 @@ virtual
 FIFOProcessor
 (
 )
+override
 {
 }
 virtual
@@ -282,6 +283,7 @@ SAMPLETYPE
 ptrBegin
 (
 )
+override
 {
 return
 output
@@ -304,6 +306,7 @@ outBuffer
 uint
 maxSamples
 )
+override
 {
 return
 output
@@ -323,6 +326,7 @@ receiveSamples
 uint
 maxSamples
 )
+override
 {
 return
 output
@@ -340,6 +344,7 @@ numSamples
 (
 )
 const
+override
 {
 return
 output
@@ -356,6 +361,7 @@ isEmpty
 (
 )
 const
+override
 {
 return
 output
@@ -373,6 +379,7 @@ adjustAmountOfSamples
 uint
 numSamples
 )
+override
 {
 return
 output

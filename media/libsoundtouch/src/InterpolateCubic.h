@@ -44,6 +44,7 @@ int
 &
 srcSamples
 )
+override
 ;
 virtual
 int
@@ -60,6 +61,7 @@ int
 &
 srcSamples
 )
+override
 ;
 virtual
 int
@@ -76,6 +78,7 @@ int
 &
 srcSamples
 )
+override
 ;
 double
 fract
@@ -91,12 +94,15 @@ void
 resetRegisters
 (
 )
+override
 ;
+virtual
 int
 getLatency
 (
 )
 const
+override
 {
 return
 1

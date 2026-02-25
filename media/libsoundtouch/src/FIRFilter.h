@@ -36,9 +36,6 @@ uint
 resultDivFactor
 ;
 SAMPLETYPE
-resultDivider
-;
-SAMPLETYPE
 *
 filterCoeffs
 ;
@@ -196,6 +193,7 @@ uint
 numSamples
 )
 const
+override
 ;
 public
 :
@@ -221,6 +219,7 @@ newLength
 uint
 uResultDivFactor
 )
+override
 ;
 }
 ;
@@ -260,6 +259,7 @@ uint
 numSamples
 )
 const
+override
 ;
 public
 :
@@ -285,6 +285,7 @@ newLength
 uint
 uResultDivFactor
 )
+override
 ;
 }
 ;
