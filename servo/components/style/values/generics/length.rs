@@ -748,6 +748,13 @@ C
 u8
 )
 ]
+#
+[
+typed_value
+(
+derive_fields
+)
+]
 pub
 enum
 GenericSize
@@ -1143,6 +1150,13 @@ repr
 (
 C
 u8
+)
+]
+#
+[
+typed_value
+(
+derive_fields
 )
 ]
 pub
@@ -1722,6 +1736,7 @@ ToComputedValue
 ToResolvedValue
 Serialize
 Deserialize
+ToTyped
 )
 ]
 #
