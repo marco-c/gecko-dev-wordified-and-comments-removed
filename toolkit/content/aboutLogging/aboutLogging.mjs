@@ -1117,9 +1117,6 @@ MediaStreamTrack
 DriftCompensator
 :
 5
-ForwardInputTrack
-:
-5
 MediaRecorder
 :
 5
