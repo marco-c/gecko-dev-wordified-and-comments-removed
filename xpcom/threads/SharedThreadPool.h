@@ -320,7 +320,6 @@ nsIThreadPool
 aPool
 )
 ;
-virtual
 ~
 SharedThreadPool
 (
