@@ -649,6 +649,10 @@ extern
 crate
 urlpattern_glue
 ;
+extern
+crate
+adblock
+;
 #
 [
 cfg
