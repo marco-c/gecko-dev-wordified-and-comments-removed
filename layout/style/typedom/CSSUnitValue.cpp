@@ -319,6 +319,9 @@ case
 eCSSProperty_column_width
 :
 case
+eCSSProperty_flex_basis
+:
+case
 eCSSProperty_perspective
 :
 case
