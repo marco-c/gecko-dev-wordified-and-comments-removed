@@ -195,6 +195,13 @@ condprof
 ]
 [
 "
+test_pbm_cleanup
+.
+js
+"
+]
+[
+"
 test_permissions
 .
 js
