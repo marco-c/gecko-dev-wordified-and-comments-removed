@@ -226,6 +226,14 @@ WATCHLISTS
 per
 -
 file
+whitespace
+.
+txt
+=
+*
+per
+-
+file
 native
 -
 api
