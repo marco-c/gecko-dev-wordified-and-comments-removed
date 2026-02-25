@@ -39,6 +39,12 @@ js
 '
 )
 ;
+var
+typeInfo
+=
+{
+}
+;
 function
 checkExternalFunction
 (
@@ -4920,6 +4926,7 @@ callees
 =
 getCallees
 (
+typeInfo
 edge
 )
 ;

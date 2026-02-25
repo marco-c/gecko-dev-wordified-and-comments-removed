@@ -606,6 +606,7 @@ attrs
 of
 getCallees
 (
+typeInfo
 body
 edge
 scopeAttrs

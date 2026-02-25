@@ -707,6 +707,7 @@ attrs
 of
 getCallees
 (
+typeInfo
 body
 edge
 scopeAttrs
@@ -900,9 +901,16 @@ findGCBeforeValueUse
 start_body
 start_point
 funcAttrs
-variable
+decl
 )
 {
+const
+variable
+=
+decl
+.
+Variable
+;
 class
 Path
 {
@@ -1283,8 +1291,9 @@ if
 (
 edgeEndsValueLiveRange
 (
+typeInfo
 edge
-variable
+decl
 body
 )
 )
@@ -1298,8 +1307,9 @@ edge_starts
 =
 edgeStartsValueLiveRange
 (
+typeInfo
 edge
-variable
+decl
 )
 ;
 const
@@ -1307,8 +1317,9 @@ edge_uses
 =
 edgeUsesVariable
 (
+typeInfo
 edge
-variable
+decl
 body
 )
 ;
@@ -1670,7 +1681,7 @@ function
 variableLiveAcrossGC
 (
 funcAttrs
-variable
+decl
 liveToEnd
 =
 false
@@ -1724,8 +1735,9 @@ if
 (
 edgeEndsValueLiveRange
 (
+typeInfo
 edge
-variable
+decl
 body
 )
 )
@@ -1736,8 +1748,9 @@ usePoint
 =
 edgeUsesVariable
 (
+typeInfo
 edge
-variable
+decl
 body
 liveToEnd
 )
@@ -1755,7 +1768,7 @@ findGCBeforeValueUse
 body
 usePoint
 funcAttrs
-variable
+decl
 )
 ;
 if
@@ -3202,8 +3215,6 @@ variableLiveAcrossGC
 (
 funcAttrs
 decl
-.
-Variable
 )
 )
 {
@@ -3323,8 +3334,6 @@ variableLiveAcrossGC
 (
 funcAttrs
 decl
-.
-Variable
 liveToEnd
 )
 ;
