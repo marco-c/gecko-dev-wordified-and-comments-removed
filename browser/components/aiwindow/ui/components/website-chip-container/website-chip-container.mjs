@@ -288,6 +288,11 @@ true
 detail
 :
 {
+url
+:
+website
+.
+url
 label
 :
 website
@@ -432,6 +437,12 @@ iconSrc
 "
 "
 }
+ai
+-
+website
+-
+chip
+:
 remove
 =
 {
