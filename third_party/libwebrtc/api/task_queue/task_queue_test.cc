@@ -51,6 +51,9 @@ cleanup
 h
 "
 #
+ifdef
+BUILD_EXPERIMENTAL_TASK_QUEUE_COROUTINE_TESTS
+#
 include
 "
 absl
@@ -61,6 +64,8 @@ any_invocable
 .
 h
 "
+#
+endif
 #
 include
 "
