@@ -7867,10 +7867,6 @@ Vec
 u8
 >
 pub
-entry_point
-:
-String
-pub
 num_workgroups
 :
 (
@@ -7892,10 +7888,6 @@ HlslPassthroughShader
 {
 pub
 shader
-:
-String
-pub
-entry_point
 :
 String
 pub

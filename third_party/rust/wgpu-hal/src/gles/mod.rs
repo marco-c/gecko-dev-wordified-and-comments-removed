@@ -2987,6 +2987,12 @@ String
 zero_initialize_workgroup_memory
 :
 bool
+constant_hash
+:
+Vec
+<
+u8
+>
 }
 #
 [
