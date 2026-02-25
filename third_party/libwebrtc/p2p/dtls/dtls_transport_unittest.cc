@@ -428,6 +428,8 @@ h
 namespace
 webrtc
 {
+namespace
+{
 using
 :
 :
@@ -2445,9 +2447,6 @@ class
 FakeSSLStreamAdapter
 :
 public
-webrtc
-:
-:
 SSLStreamAdapter
 {
 public
@@ -2460,9 +2459,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 SSLStreamAdapter
 >
 impl_
@@ -2542,9 +2538,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 SSLIdentity
 >
 identity
@@ -2566,9 +2559,6 @@ identity
 )
 ;
 }
-webrtc
-:
-:
 SSLIdentity
 *
 GetIdentityForTesting
@@ -2589,9 +2579,6 @@ GetIdentityForTesting
 void
 SetServerRole
 (
-webrtc
-:
-:
 SSLRole
 role
 )
@@ -2625,9 +2612,6 @@ declarations
 void
 SetMode
 (
-webrtc
-:
-:
 SSLMode
 mode
 )
@@ -2642,9 +2626,6 @@ mode
 )
 ;
 }
-webrtc
-:
-:
 SSLProtocolVersion
 GetSslVersion
 (
@@ -2669,9 +2650,6 @@ pop
 void
 SetMaxProtocolVersion
 (
-webrtc
-:
-:
 SSLProtocolVersion
 version
 )
@@ -2735,9 +2713,6 @@ StartSSL
 )
 ;
 }
-webrtc
-:
-:
 SSLPeerCertificateDigestError
 SetPeerCertificateDigest
 (
@@ -2746,9 +2721,6 @@ absl
 :
 string_view
 digest_alg
-webrtc
-:
-:
 ArrayView
 <
 const
@@ -2774,9 +2746,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 SSLCertChain
 >
 GetPeerSSLCertChain
@@ -2862,9 +2831,6 @@ version
 bool
 ExportSrtpKeyingMaterial
 (
-webrtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t
@@ -3019,9 +2985,6 @@ GetSslGroupId
 )
 ;
 }
-webrtc
-:
-:
 StreamState
 GetState
 (
@@ -3052,15 +3015,9 @@ Close
 )
 ;
 }
-webrtc
-:
-:
 StreamResult
 Read
 (
-webrtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -3087,15 +3044,9 @@ error
 )
 ;
 }
-webrtc
-:
-:
 StreamResult
 Write
 (
-webrtc
-:
-:
 ArrayView
 <
 const
@@ -3122,9 +3073,6 @@ error
 write_error_
 ;
 return
-webrtc
-:
-:
 SR_ERROR
 ;
 }
@@ -3162,9 +3110,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 StreamInterface
 >
 stream_
@@ -3174,9 +3119,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 SSLStreamAdapter
 >
 impl_
@@ -4761,9 +4703,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 StreamInterface
 >
 stream
@@ -4907,9 +4846,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 StreamInterface
 >
 stream
@@ -12008,5 +11944,6 @@ ClearPacketFilters
 (
 )
 ;
+}
 }
 }
