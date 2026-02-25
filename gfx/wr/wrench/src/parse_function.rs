@@ -658,6 +658,10 @@ start
 .
 end
 ]
+.
+trim
+(
+)
 )
 ;
 p
