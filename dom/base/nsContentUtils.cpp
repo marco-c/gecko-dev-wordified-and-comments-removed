@@ -49922,7 +49922,7 @@ AppUnitsPerDevPixel
 namespace
 {
 class
-SynthesizedMouseEventCallback
+SynthesizedEventCallback
 final
 :
 public
@@ -49932,7 +49932,7 @@ NS_DECL_ISUPPORTS
 public
 :
 explicit
-SynthesizedMouseEventCallback
+SynthesizedEventCallback
 (
 VoidFunction
 &
@@ -50011,7 +50011,7 @@ private
 :
 virtual
 ~
-SynthesizedMouseEventCallback
+SynthesizedEventCallback
 (
 )
 =
@@ -50028,7 +50028,7 @@ mCallback
 ;
 NS_IMPL_ISUPPORTS
 (
-SynthesizedMouseEventCallback
+SynthesizedEventCallback
 nsISynthesizedEventCallback
 )
 }
@@ -50588,7 +50588,7 @@ callback
 =
 MakeAndAddRef
 <
-SynthesizedMouseEventCallback
+SynthesizedEventCallback
 >
 (
 aCallback
