@@ -258,10 +258,10 @@ generic_decoder
 .
 cc
 index
-613e77397e
+790d53a908
 .
 .
-109faa945e
+b607e78268
 100644
 -
 -
@@ -430,10 +430,10 @@ FrameInfo
 frame_info
 ;
 -
-325
+327
 8
 +
-325
+327
 8
 int32_t
 VCMGenericDecoder
