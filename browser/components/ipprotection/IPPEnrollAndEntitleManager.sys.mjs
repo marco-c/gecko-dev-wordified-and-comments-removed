@@ -955,7 +955,7 @@ return
 {
 isEnrolledAndEntitled
 :
-null
+false
 error
 :
 entitlementError
