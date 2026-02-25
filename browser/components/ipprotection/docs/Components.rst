@@ -160,7 +160,6 @@ stack
 subgraph
 Proxy
 IPPChannelFilter
-IPProtectionUsage
 IPPNetworkErrorObserver
 GuardianClient
 end
@@ -201,11 +200,6 @@ IPPProxyManager
 -
 >
 IPPChannelFilter
-IPPProxyManager
--
--
->
-IPProtectionUsage
 IPPProxyManager
 -
 -
