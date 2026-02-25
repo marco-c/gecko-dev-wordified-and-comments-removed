@@ -555,6 +555,7 @@ mThread
 __func__
 [
 =
+this
 self
 =
 RefPtr
@@ -697,7 +698,7 @@ Then
 mThread
 __func__
 [
-=
+this
 self
 =
 RefPtr
@@ -755,7 +756,7 @@ Then
 mThread
 __func__
 [
-=
+this
 self
 =
 RefPtr
@@ -813,7 +814,7 @@ Then
 mThread
 __func__
 [
-=
+this
 self
 =
 RefPtr
@@ -891,6 +892,7 @@ mThread
 __func__
 [
 =
+this
 self
 =
 RefPtr
@@ -1038,6 +1040,7 @@ mThread
 __func__
 [
 =
+this
 iceServers
 =
 aIceServers
@@ -1292,6 +1295,7 @@ mThread
 __func__
 [
 =
+this
 self
 =
 RefPtr
@@ -1363,6 +1367,7 @@ mThread
 __func__
 [
 =
+this
 self
 =
 RefPtr
@@ -1434,6 +1439,7 @@ mThread
 __func__
 [
 =
+this
 stunAddrs
 =
 aStunAddrs
@@ -1563,6 +1569,7 @@ mThread
 __func__
 [
 =
+this
 keyDer
 =
 aKeyDer
@@ -1684,6 +1691,7 @@ mThread
 __func__
 [
 =
+this
 self
 =
 RefPtr
@@ -1758,6 +1766,7 @@ mThread
 __func__
 [
 =
+this
 self
 =
 RefPtr
@@ -1934,6 +1943,7 @@ mThread
 __func__
 [
 =
+this
 self
 =
 RefPtr
@@ -1998,6 +2008,7 @@ mThread
 __func__
 [
 =
+this
 self
 =
 RefPtr

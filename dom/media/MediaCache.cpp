@@ -9957,6 +9957,7 @@ NotifyDataStarted
 "
 [
 =
+this
 client
 =
 RefPtr
