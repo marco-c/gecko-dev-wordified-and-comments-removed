@@ -490,7 +490,7 @@ sitedata
 -
 total
 -
-size2
+size3
 "
 args
 :
@@ -732,7 +732,7 @@ sitedata
 -
 total
 -
-size2
+size3
 "
 args
 :

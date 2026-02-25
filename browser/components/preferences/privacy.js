@@ -10183,7 +10183,7 @@ sitedata
 -
 total
 -
-size2
+size3
 "
 l10nArgs
 :
