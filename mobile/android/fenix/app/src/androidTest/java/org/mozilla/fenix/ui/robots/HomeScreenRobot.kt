@@ -7167,14 +7167,12 @@ title
 title
 "
 )
-composeTestRule
-.
-onNodeWithText
+itemContainingText
 (
 title
 )
 .
-performClick
+click
 (
 )
 Log
