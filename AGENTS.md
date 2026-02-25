@@ -560,7 +560,7 @@ documentation
 -
 treeherder
 -
-check
+cli
 :
 Pull
 CI
