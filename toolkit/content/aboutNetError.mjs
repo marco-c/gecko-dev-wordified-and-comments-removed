@@ -4514,7 +4514,7 @@ part
 tag
 part
 .
-l10nId
+dataL10nId
 part
 .
 href
@@ -4528,10 +4528,10 @@ part
 tag
 part
 .
-l10nId
+dataL10nId
 part
 .
-l10nArgs
+dataL10nArgs
 ]
 ;
 }

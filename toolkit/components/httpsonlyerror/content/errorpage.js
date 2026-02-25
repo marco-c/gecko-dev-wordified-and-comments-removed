@@ -391,6 +391,10 @@ RPMTryPingSecureWWWLink
 )
 ;
 }
+resetClickjackingTimeout
+(
+)
+;
 }
 function
 activateSuggestionBox
