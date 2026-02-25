@@ -14732,6 +14732,8 @@ tableIndex
 ]
 .
 elemType
+(
+)
 .
 isFuncHierarchy
 (
@@ -15067,6 +15069,8 @@ tableIndex
 ]
 .
 elemType
+(
+)
 .
 isFuncHierarchy
 (
@@ -16714,6 +16718,8 @@ dstMemOrTableIndex
 ]
 .
 elemType
+(
+)
 ;
 ValType
 srcElemType
@@ -16727,6 +16733,8 @@ srcMemOrTableIndex
 ]
 .
 elemType
+(
+)
 ;
 if
 (
@@ -17496,6 +17504,8 @@ dstMemOrTableIndex
 ]
 .
 elemType
+(
+)
 )
 )
 {
@@ -17720,6 +17730,8 @@ popWithType
 table
 .
 elemType
+(
+)
 val
 )
 )
@@ -18007,6 +18019,8 @@ infalliblePush
 table
 .
 elemType
+(
+)
 )
 ;
 return
@@ -18149,6 +18163,8 @@ popWithType
 table
 .
 elemType
+(
+)
 initValue
 )
 )
@@ -18288,6 +18304,8 @@ popWithType
 table
 .
 elemType
+(
+)
 value
 )
 )

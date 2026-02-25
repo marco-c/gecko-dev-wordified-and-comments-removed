@@ -4349,16 +4349,6 @@ b2
 2
 )
 ;
-console
-.
-log
-(
-"
-flag
-"
-flag
-)
-;
 body
 .
 push

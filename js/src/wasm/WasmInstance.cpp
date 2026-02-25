@@ -15326,6 +15326,8 @@ if
 td
 .
 elemType
+(
+)
 .
 isNullable
 (

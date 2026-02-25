@@ -33772,6 +33772,8 @@ tableIndex
 ]
 .
 elemType
+(
+)
 .
 tableRepr
 (
@@ -34018,6 +34020,8 @@ tableIndex
 ]
 .
 elemType
+(
+)
 .
 tableRepr
 (

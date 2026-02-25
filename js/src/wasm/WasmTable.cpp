@@ -160,6 +160,8 @@ elemType_
 desc
 .
 elemType
+(
+)
 )
 isAsmJS_
 (
@@ -272,6 +274,8 @@ elemType_
 desc
 .
 elemType
+(
+)
 )
 isAsmJS_
 (
@@ -365,6 +369,8 @@ switch
 desc
 .
 elemType
+(
+)
 .
 tableRepr
 (

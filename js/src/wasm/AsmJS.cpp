@@ -7816,6 +7816,8 @@ globals
 .
 emplaceBack
 (
+GlobalType
+(
 type
 .
 canonicalToValType
@@ -7823,6 +7825,7 @@ canonicalToValType
 )
 !
 isConst
+)
 index
 ModuleKind
 :
@@ -8085,9 +8088,12 @@ globals
 .
 emplaceBack
 (
+GlobalType
+(
 valType
 !
 isConst
+)
 index
 ModuleKind
 :
@@ -11031,12 +11037,15 @@ tables
 .
 emplaceBack
 (
+TableType
+(
 limits
 RefType
 :
 :
 func
 (
+)
 )
 Nothing
 (
