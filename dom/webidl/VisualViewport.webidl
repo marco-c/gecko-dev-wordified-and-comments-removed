@@ -175,9 +175,5 @@ attribute
 EventHandler
 onscroll
 ;
-attribute
-EventHandler
-onscrollend
-;
 }
 ;
