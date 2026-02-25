@@ -4887,10 +4887,10 @@ screen_capturer_x11
 .
 cc
 index
-f10dcabc7e
+fc66a8e8b6
 .
 .
-3a60fa935f
+77529fbc1a
 100644
 -
 -
@@ -5047,10 +5047,10 @@ window_capturer_x11
 .
 cc
 index
-9505205b76
+fca67dfaec
 .
 .
-9e5a4dc337
+b4a1de562c
 100644
 -
 -

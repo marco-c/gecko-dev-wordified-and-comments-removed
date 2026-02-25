@@ -2775,9 +2775,6 @@ LS_INFO
 <
 <
 "
-video
-capture
-:
 ScreenCapturerX11
 :
 :
@@ -2825,9 +2822,6 @@ LS_INFO
 <
 <
 "
-video
-capture
-:
 ScreenCapturerX11
 :
 :

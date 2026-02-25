@@ -142,9 +142,6 @@ LS_INFO
 <
 <
 "
-video
-capture
-:
 DesktopCapturer
 :
 :
