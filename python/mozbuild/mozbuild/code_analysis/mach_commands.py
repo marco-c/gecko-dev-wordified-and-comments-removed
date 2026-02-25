@@ -2066,21 +2066,6 @@ units
 return
 0
     
-source
-=
-[
-re
-.
-escape
-(
-f
-)
-for
-f
-in
-source
-]
-    
 cwd
 =
 command_context
@@ -3089,6 +3074,10 @@ common_args
         
 +
 [
+re
+.
+escape
+(
 os
 .
 path
@@ -3097,19 +3086,6 @@ normpath
 (
 s
 )
-.
-replace
-(
-"
-\
-\
-"
-"
-\
-\
-\
-\
-"
 )
 for
 s
