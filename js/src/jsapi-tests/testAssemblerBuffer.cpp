@@ -128,12 +128,6 @@ jit
 :
 AssemblerBuffer
 <
-5
-*
-sizeof
-(
-uint32_t
-)
 uint32_t
 >
 ;
@@ -525,7 +519,7 @@ good1
 =
 ab
 .
-putBytesLarge
+putBytes
 (
 sizeof
 (
@@ -1383,12 +1377,6 @@ jit
 :
 AssemblerBufferWithConstantPools
 <
-5
-*
-sizeof
-(
-uint32_t
-)
 4
 uint32_t
 TestAssembler

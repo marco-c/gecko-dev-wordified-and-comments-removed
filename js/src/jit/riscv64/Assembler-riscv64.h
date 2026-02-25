@@ -601,13 +601,6 @@ TimesEight
 class
 Assembler
 ;
-static
-constexpr
-int32_t
-SliceSize
-=
-1024
-;
 typedef
 js
 :
@@ -617,7 +610,6 @@ jit
 :
 AssemblerBufferWithConstantPools
 <
-SliceSize
 4
 Instruction
 Assembler
