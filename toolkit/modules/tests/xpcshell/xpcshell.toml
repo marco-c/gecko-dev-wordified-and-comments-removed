@@ -296,13 +296,6 @@ Bug
 ]
 [
 "
-test_DeferredTask_gc
-.
-js
-"
-]
-[
-"
 test_E10SUtils_getRemoteTypeForURIObject
 .
 js
