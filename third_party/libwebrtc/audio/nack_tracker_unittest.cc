@@ -1,11 +1,7 @@
 #
 include
 "
-modules
-/
-audio_coding
-/
-neteq
+audio
 /
 nack_tracker
 .
@@ -1139,12 +1135,6 @@ timestamp_lost_packets
 kTimestampIncrement
 ;
 const
-uint16_t
-first_seq_num
-=
-seq_num
-;
-const
 uint32_t
 first_timestamp
 =
@@ -1237,7 +1227,6 @@ nack
 .
 UpdateLastDecodedPacket
 (
-first_seq_num
 first_timestamp
 )
 ;
@@ -1517,9 +1506,6 @@ nack
 .
 UpdateLastDecodedPacket
 (
-seq_num_offset
-+
-k
 k
 *
 kTimestampIncrement
@@ -1550,9 +1536,6 @@ nack
 .
 UpdateLastDecodedPacket
 (
-seq_num
-+
-seq_num_offset
 seq_num
 *
 kTimestampIncrement

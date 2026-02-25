@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_AUDIO_CODING_NETEQ_NACK_TRACKER_H_
+AUDIO_NACK_TRACKER_H_
 #
 define
-MODULES_AUDIO_CODING_NETEQ_NACK_TRACKER_H_
+AUDIO_NACK_TRACKER_H_
 #
 include
 <
@@ -108,8 +108,6 @@ sample_rate_hz
 void
 UpdateLastDecodedPacket
 (
-uint16_t
-sequence_number
 uint32_t
 timestamp
 )
@@ -346,9 +344,6 @@ timestamp_last_received_rtp_
 ;
 bool
 any_rtp_received_
-;
-uint16_t
-sequence_num_last_decoded_rtp_
 ;
 uint32_t
 timestamp_last_decoded_rtp_
