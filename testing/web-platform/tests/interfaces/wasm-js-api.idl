@@ -643,6 +643,8 @@ options
 any
 getArg
 (
+Tag
+exceptionTag
 [
 EnforceRange
 ]

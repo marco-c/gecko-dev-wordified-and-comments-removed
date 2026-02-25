@@ -184,10 +184,6 @@ CryptoKeyID
 keyId
 )
 ;
-attribute
-EventHandler
-onerror
-;
 }
 ;
 interface

@@ -185,6 +185,7 @@ skipTransition
 [
 SameObject
 ]
+readonly
 attribute
 ViewTransitionTypeSet
 types
