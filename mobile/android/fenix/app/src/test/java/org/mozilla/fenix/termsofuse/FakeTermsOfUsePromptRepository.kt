@@ -98,6 +98,11 @@ false
 TermsOfUsePromptRepository
 {
 override
+var
+isShowingPrompt
+=
+false
+override
 fun
 canShowTermsOfUsePrompt
 (

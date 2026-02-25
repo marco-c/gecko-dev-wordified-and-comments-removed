@@ -401,6 +401,10 @@ ops
 is
 TermsOfUsePromptAction
 .
+OnPromptCreated
+is
+TermsOfUsePromptAction
+.
 OnPromptDismissed
 -
 >
