@@ -158,10 +158,7 @@ crate
 picture_composite_mode
 :
 :
-{
 get_surface_rects
-calculate_uv_rect_kind
-}
 ;
 const
 MAX_BLUR_RADIUS

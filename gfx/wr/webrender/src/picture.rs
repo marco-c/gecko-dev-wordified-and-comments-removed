@@ -322,10 +322,7 @@ crate
 surface
 :
 :
-{
 calculate_screen_uv
-calculate_uv_rect_kind
-}
 ;
 use
 smallvec

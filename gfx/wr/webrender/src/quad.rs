@@ -555,7 +555,6 @@ spatial_tree
 frame_context
 .
 spatial_tree
-interned_clips
 fb_config
 :
 frame_context
@@ -607,11 +606,6 @@ rg_builder
 frame_state
 .
 rg_builder
-clip_store
-:
-frame_state
-.
-clip_store
 }
 )
 )
@@ -819,7 +813,6 @@ spatial_tree
 frame_context
 .
 spatial_tree
-interned_clips
 fb_config
 :
 frame_context
@@ -871,11 +864,6 @@ rg_builder
 frame_state
 .
 rg_builder
-clip_store
-:
-frame_state
-.
-clip_store
 }
 )
 )
@@ -1164,11 +1152,6 @@ rg_builder
 frame_state
 .
 rg_builder
-clip_store
-:
-frame_state
-.
-clip_store
 }
 ;
 let
@@ -1274,6 +1257,9 @@ None
 &
 pattern_ctx
 interned_clips
+frame_state
+.
+clip_store
 &
 mut
 pattern_state
@@ -1504,11 +1490,6 @@ rg_builder
 frame_state
 .
 rg_builder
-clip_store
-:
-frame_state
-.
-clip_store
 }
 )
 )
@@ -1672,11 +1653,6 @@ rg_builder
 frame_state
 .
 rg_builder
-clip_store
-:
-frame_state
-.
-clip_store
 }
 ;
 let
@@ -2205,6 +2181,9 @@ clip_chain
 )
 ctx
 interned_clips
+frame_state
+.
+clip_store
 &
 mut
 state
@@ -2428,6 +2407,10 @@ DataStore
 <
 ClipIntern
 >
+clip_store
+:
+&
+ClipStore
 state
 :
 &
@@ -2689,8 +2672,6 @@ ctx
 .
 spatial_tree
 interned_clips
-state
-.
 clip_store
 resource_cache
 state
@@ -3644,11 +3625,6 @@ rg_builder
 frame_state
 .
 rg_builder
-clip_store
-:
-frame_state
-.
-clip_store
 }
 ;
 let
@@ -3761,7 +3737,7 @@ count
 let
 clip_instance
 =
-state
+frame_state
 .
 clip_store
 .
@@ -4571,7 +4547,7 @@ ctx
 .
 spatial_tree
 interned_clips
-state
+frame_state
 .
 clip_store
 frame_state

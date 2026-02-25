@@ -7609,14 +7609,6 @@ shadow_radius
 info
 .
 clip_mode
-self
-.
-spatial_tree
-.
-is_root_coord_system
-(
-spatial_node_index
-)
 )
 ;
 }
