@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-a1aaea0ea381916dd5cb5427e41e2b5b1929d87b
+3ee459864ebd0f8b14a721992dd5f454b1930a70
 '
 #
 Fetch
@@ -414,7 +414,7 @@ siso_version
 '
 git_revision
 :
-15344993da1a5e600ab5c8df4d3d9b17712a23c0
+03ee208f9c31a303e1ba61f9bc7219158078bd50
 '
 #
 ninja
@@ -678,7 +678,7 @@ chromium
 src
 /
 ios
-a1ab0fd161b5d1a9c420f7c0e8f59127985b957a
+c1322e339a13060f264efd8641784a3dd0f94d15
 '
 '
 condition
@@ -710,7 +710,7 @@ chromium
 src
 /
 testing
-8ae1443925b53cbeb4421a330678ec492db0d60c
+4a53637b821bb933ee1f154d2f2db03f59c4e5ed
 '
 '
 src
@@ -734,7 +734,7 @@ chromium
 src
 /
 third_party
-4d95d01b48d63bc58ca458cd570700d204abce35
+670ff8a011e800f1ee3b400cfb2d9fd2a4004cf9
 '
 '
 src
@@ -4044,7 +4044,7 @@ tools
 depot_tools
 .
 git
-23ad8839bff8e65fff2f1aabd4bc48fef894c4ae
+c527a62fe0c3a0d2edc40a3177c8670c6f296001
 '
 '
 src
@@ -5725,7 +5725,7 @@ chromium
 src
 /
 tools
-23dc07e9ec564db0c6774ad479f83c546a5353de
+89e8c44fe7b1ee844330bda3a7ef1ff1aa67d4da
 '
 '
 src
