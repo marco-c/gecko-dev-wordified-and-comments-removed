@@ -6933,6 +6933,10 @@ mDocumentPiP
 =
 nullptr
 ;
+mCloseWatcherManager
+=
+nullptr
+;
 mPaintWorklet
 =
 nullptr
@@ -8090,6 +8094,10 @@ destroyed
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mWindowGlobalChild
+)
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
+mCloseWatcherManager
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
