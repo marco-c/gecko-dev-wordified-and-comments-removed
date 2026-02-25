@@ -2161,6 +2161,13 @@ panel
 subview
 -
 body
+:
+not
+(
+[
+hidden
+]
+)
 {
 display
 :
