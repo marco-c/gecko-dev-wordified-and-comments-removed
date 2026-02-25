@@ -12829,6 +12829,11 @@ FULL_NUMBER_MIN_THRESHOLD
 -
 5
 ;
+const
+MAX_FLOAT_PRECISION
+=
+15
+;
 let
 locale
 =
@@ -12943,6 +12948,14 @@ decimal
 maximumFractionDigits
 :
 DECIMAL_PRECISION
+maximumSignificantDigits
+:
+MAX_FLOAT_PRECISION
+roundingPriority
+:
+"
+lessPrecision
+"
 numberingSystem
 :
 "
