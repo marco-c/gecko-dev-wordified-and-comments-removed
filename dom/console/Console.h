@@ -1444,7 +1444,7 @@ aLevel
 const
 ;
 uint32_t
-InternalLogLevelToInteger
+ConsoleMethodNameToInteger
 (
 MethodName
 aName
@@ -1452,7 +1452,7 @@ aName
 const
 ;
 LogLevel
-InternalLogLevelToMozLog
+ConsoleMethodNameToMozLog
 (
 MethodName
 aName
