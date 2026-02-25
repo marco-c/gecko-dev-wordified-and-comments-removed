@@ -1427,6 +1427,9 @@ Suspend
 (
 )
 ;
+self
+-
+>
 RunOnActorThread
 (
 FUNC
@@ -1537,6 +1540,9 @@ Resume
 (
 )
 ;
+self
+-
+>
 RunOnActorThread
 (
 FUNC
@@ -1745,6 +1751,9 @@ FlushBufferedData
 (
 )
 ;
+self
+-
+>
 RunOnActorThread
 (
 FUNC
@@ -1777,6 +1786,9 @@ State
 Disconnected
 ;
 }
+self
+-
+>
 RunOnIOThread
 (
 FUNC
@@ -1808,6 +1820,9 @@ FlushBufferedData
 }
 )
 ;
+self
+-
+>
 RunOnMainThread
 (
 FUNC
@@ -2610,6 +2625,9 @@ State
 :
 Disconnected
 ;
+self
+-
+>
 CheckResult
 (
 self
@@ -2708,6 +2726,9 @@ State
 :
 Disconnected
 ;
+self
+-
+>
 CheckResult
 (
 self
@@ -2996,6 +3017,9 @@ State
 Disconnected
 )
 {
+self
+-
+>
 RunOnMainThread
 (
 FUNC
