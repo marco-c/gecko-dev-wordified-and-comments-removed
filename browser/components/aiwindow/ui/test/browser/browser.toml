@@ -249,6 +249,13 @@ js
 ]
 [
 "
+browser_aiwindow_smartbar_interactions
+.
+js
+"
+]
+[
+"
 browser_aiwindow_smartbar_mentions
 .
 js
