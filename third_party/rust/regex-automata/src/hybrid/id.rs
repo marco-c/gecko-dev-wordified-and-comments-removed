@@ -150,10 +150,6 @@ MAX_BIT
 4
 )
 ;
-pub
-(
-crate
-)
 const
 MAX
 :

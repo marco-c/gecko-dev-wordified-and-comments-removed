@@ -341,7 +341,7 @@ sparse
 set
 capacity
 cannot
-exceed
+excced
 {
 :
 ?
@@ -922,8 +922,13 @@ next
 (
 )
 .
-copied
+map
 (
+|
+&
+id
+|
+id
 )
 }
 }
