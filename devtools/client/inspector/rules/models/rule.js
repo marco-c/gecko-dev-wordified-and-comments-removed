@@ -190,7 +190,7 @@ Rule
 constructor
 (
 elementStyle
-options
+appliedStyle
 )
 {
 this
@@ -203,7 +203,7 @@ this
 .
 domRule
 =
-options
+appliedStyle
 .
 rule
 ;
@@ -217,7 +217,7 @@ this
 .
 matchedSelectorIndexes
 =
-options
+appliedStyle
 .
 matchedSelectorIndexes
 |
@@ -229,7 +229,7 @@ this
 .
 isSystem
 =
-options
+appliedStyle
 .
 isSystem
 ;
@@ -237,7 +237,7 @@ this
 .
 isUnmatched
 =
-options
+appliedStyle
 .
 isUnmatched
 |
@@ -248,7 +248,7 @@ this
 .
 darkColorScheme
 =
-options
+appliedStyle
 .
 darkColorScheme
 ;
@@ -256,7 +256,7 @@ this
 .
 inherited
 =
-options
+appliedStyle
 .
 inherited
 |
@@ -267,7 +267,7 @@ this
 .
 pseudoElement
 =
-options
+appliedStyle
 .
 pseudoElement
 |
@@ -279,7 +279,7 @@ this
 .
 keyframes
 =
-options
+appliedStyle
 .
 keyframes
 |
@@ -290,7 +290,7 @@ this
 .
 userAdded
 =
-options
+appliedStyle
 .
 rule
 .
@@ -1069,7 +1069,7 @@ selector
 }
 matches
 (
-options
+appliedStyle
 )
 {
 return
@@ -1079,7 +1079,7 @@ domRule
 =
 =
 =
-options
+appliedStyle
 .
 rule
 ;
@@ -2314,14 +2314,14 @@ textProps
 }
 refresh
 (
-options
+appliedStyle
 )
 {
 this
 .
 matchedSelectorIndexes
 =
-options
+appliedStyle
 .
 matchedSelectorIndexes
 |
@@ -2338,7 +2338,7 @@ darkColorScheme
 !
 =
 =
-options
+appliedStyle
 .
 darkColorScheme
 ;
@@ -2346,7 +2346,7 @@ this
 .
 darkColorScheme
 =
-options
+appliedStyle
 .
 darkColorScheme
 ;
