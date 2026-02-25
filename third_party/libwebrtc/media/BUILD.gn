@@ -5223,6 +5223,14 @@ array_view
 /
 api
 :
+data_channel_interface
+"
+"
+.
+.
+/
+api
+:
 dtls_transport_interface
 "
 "

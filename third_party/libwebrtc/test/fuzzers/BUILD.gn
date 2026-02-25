@@ -3337,7 +3337,7 @@ jsep
 /
 api
 :
-libjingle_peerconnection_api
+make_ref_counted
 "
 "
 .
@@ -3348,7 +3348,7 @@ libjingle_peerconnection_api
 /
 api
 :
-make_ref_counted
+peer_connection_interface
 "
 "
 .
@@ -5062,18 +5062,7 @@ deps
 /
 api
 :
-libjingle_peerconnection_api
-"
-"
-.
-.
-/
-.
-.
-/
-pc
-:
-libjingle_peerconnection
+data_channel_interface
 "
 "
 .

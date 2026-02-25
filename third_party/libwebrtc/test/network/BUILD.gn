@@ -952,6 +952,17 @@ network_emulation_manager_api
 /
 api
 :
+peer_connection_interface
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
 rtc_error_matchers
 "
 "

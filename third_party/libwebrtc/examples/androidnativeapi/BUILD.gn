@@ -324,6 +324,17 @@ media_stream_interface
 /
 api
 :
+peer_connection_interface
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
 rtc_error
 "
 "

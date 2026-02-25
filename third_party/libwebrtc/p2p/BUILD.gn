@@ -2812,6 +2812,14 @@ libjingle_peerconnection_api
 /
 api
 :
+peer_connection_interface
+"
+"
+.
+.
+/
+api
+:
 rtc_error
 "
 "
