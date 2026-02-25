@@ -464,14 +464,6 @@ WEBRTC_EXCLUDE_BUILT_IN_SSL_ROOT_CERTS
 )
 class
 SSLConnectionHandler
-:
-public
-sigslot
-:
-:
-has_slots
-<
->
 {
 public
 :

@@ -392,14 +392,6 @@ Socket
 socket
 )
 ;
-~
-AsyncTCPSocket
-(
-)
-override
-=
-default
-;
 AsyncTCPSocket
 (
 const

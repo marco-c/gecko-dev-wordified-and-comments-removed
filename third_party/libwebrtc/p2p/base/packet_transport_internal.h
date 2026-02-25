@@ -150,14 +150,6 @@ webrtc
 class
 RTC_EXPORT
 PacketTransportInternal
-:
-public
-sigslot
-:
-:
-has_slots
-<
->
 {
 public
 :
@@ -553,11 +545,11 @@ PacketTransportInternal
 (
 )
 ;
+virtual
 ~
 PacketTransportInternal
 (
 )
-override
 ;
 void
 NotifyPacketReceived
