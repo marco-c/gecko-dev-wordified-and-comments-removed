@@ -161,11 +161,6 @@ ReflectParse
 cpp
 "
 "
-ShadowRealm
-.
-cpp
-"
-"
 String
 .
 cpp
@@ -197,11 +192,6 @@ cpp
 "
 "
 WeakSetObject
-.
-cpp
-"
-"
-WrappedFunctionObject
 .
 cpp
 "
