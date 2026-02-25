@@ -2998,15 +2998,6 @@ state
 .
 supportedMenuNotifications
 .
-filterNot
-{
-it
-is
-SupportedMenuNotifications
-.
-Summarize
-}
-.
 any
 {
 it

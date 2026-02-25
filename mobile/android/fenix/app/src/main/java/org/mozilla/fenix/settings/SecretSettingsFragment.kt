@@ -2554,7 +2554,7 @@ settings
 (
 )
 .
-shakeToSummarizeFeatureFlagEnabled
+shakeToSummarizeFeatureEnabled
 onPreferenceChangeListener
 =
 SharedPreferenceUpdater
