@@ -50,6 +50,11 @@ html
 [
 dependencies
 ]
+bytes
+=
+"
+1
+"
 num
 -
 derive
