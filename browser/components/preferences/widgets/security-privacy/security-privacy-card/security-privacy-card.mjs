@@ -975,11 +975,9 @@ skin
 /
 illustrations
 /
-kit
+shield
 -
-looking
--
-left
+alert
 .
 svg
 "
@@ -1026,11 +1024,9 @@ skin
 /
 illustrations
 /
-kit
+shield
 -
-looking
--
-forward
+check
 .
 svg
 "
