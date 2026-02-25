@@ -867,6 +867,12 @@ OwnerDoc
 IsStaticDocument
 (
 )
+|
+|
+!
+IsInComposedDoc
+(
+)
 )
 ;
 return
