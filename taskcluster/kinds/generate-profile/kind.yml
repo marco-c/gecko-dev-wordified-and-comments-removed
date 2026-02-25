@@ -70,6 +70,8 @@ kind
 dependencies
 :
 -
+fetch
+-
 toolchain
 -
 instrumented
@@ -159,6 +161,16 @@ use
 python
 :
 default
+fetches
+:
+fetch
+:
+-
+pgo
+-
+extended
+-
+corpus
 tasks
 :
 linux64
