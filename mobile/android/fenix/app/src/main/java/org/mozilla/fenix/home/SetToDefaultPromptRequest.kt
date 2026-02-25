@@ -131,9 +131,9 @@ mozilla
 .
 components
 .
-feature
+support
 .
-downloads
+utils
 .
 DateTimeProvider
 import
