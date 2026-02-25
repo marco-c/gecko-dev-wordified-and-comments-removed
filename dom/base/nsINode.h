@@ -4306,6 +4306,14 @@ mClosestCommonInclusiveAncestorRanges
 ;
 }
 ;
+void
+*
+AllocateSlots
+(
+size_t
+aSize
+)
+;
 #
 ifdef
 DEBUG
