@@ -258,6 +258,12 @@ nsIFile
 aPrivateStoreDirectory
 )
 ;
+static
+bool
+IsRealTimeModeEnabled
+(
+)
+;
 nsresult
 SwapInNewTablesAndCleanup
 (
