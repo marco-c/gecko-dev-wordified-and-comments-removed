@@ -1280,7 +1280,7 @@ empty
 )
 )
 {
-SignalReadyToSend
+NotifyReadyToSend
 (
 this
 )
@@ -1475,7 +1475,7 @@ sent_packet
 info
 )
 ;
-SignalSentPacket
+NotifySentPacket
 (
 this
 sent_packet
