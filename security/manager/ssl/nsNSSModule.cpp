@@ -376,11 +376,6 @@ nullptr
 )
 IMPL
 (
-PKCS11ModuleDB
-nullptr
-)
-IMPL
-(
 nsNSSCertificateDB
 nullptr
 )

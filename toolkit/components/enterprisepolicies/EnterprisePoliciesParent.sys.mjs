@@ -1662,6 +1662,7 @@ callback
 )
 ;
 }
+async
 _runPoliciesCallbacks
 (
 timing
@@ -1695,6 +1696,7 @@ shift
 ;
 try
 {
+await
 callback
 (
 )

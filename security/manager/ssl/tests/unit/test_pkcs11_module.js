@@ -237,6 +237,7 @@ with
 "
 )
 ;
+await
 checkPKCS11ModuleNotPresent
 (
 "
@@ -289,6 +290,7 @@ pkcs11testmodule
 )
 )
 ;
+await
 loadPKCS11Module
 (
 libraryFile
@@ -330,6 +332,7 @@ it
 let
 testModule
 =
+await
 checkPKCS11ModuleExists
 (
 "
@@ -483,6 +486,7 @@ Ci
 nsIPKCS11ModuleDB
 )
 ;
+await
 pkcs11ModuleDB
 .
 deleteModule
@@ -521,6 +525,7 @@ it
 "
 )
 ;
+await
 checkPKCS11ModuleNotPresent
 (
 "

@@ -14684,6 +14684,7 @@ param
 SecurityDevices
 :
 {
+async
 onProfileAfterChange
 (
 manager
@@ -14765,6 +14766,7 @@ Delete
 {
 try
 {
+await
 pkcs11db
 .
 deleteModule
@@ -14858,6 +14860,7 @@ for
 let
 module
 of
+await
 pkcs11db
 .
 listModules
@@ -14900,6 +14903,7 @@ continue
 }
 try
 {
+await
 pkcs11db
 .
 addModule

@@ -7,6 +7,9 @@ do_get_profile
 (
 )
 ;
+add_task
+(
+async
 function
 run_test
 (
@@ -212,6 +215,7 @@ for
 let
 module
 of
+await
 moduleDB
 .
 listModules
@@ -257,3 +261,5 @@ name
 )
 ;
 }
+)
+;

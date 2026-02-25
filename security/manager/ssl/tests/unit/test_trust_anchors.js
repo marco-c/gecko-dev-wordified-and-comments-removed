@@ -34,6 +34,7 @@ nsIX509CertDB
 ;
 add_setup
 (
+async
 function
 load_nssckbi_testlib
 (
@@ -54,6 +55,7 @@ libraryName
 test_trust_anchors
 "
 ;
+await
 checkPKCS11ModuleNotPresent
 (
 moduleName
@@ -98,16 +100,18 @@ libraryName
 )
 )
 ;
+await
 loadPKCS11Module
 (
 libraryFile
 moduleName
-true
+false
 )
 ;
 let
 testModule
 =
+await
 checkPKCS11ModuleExists
 (
 moduleName

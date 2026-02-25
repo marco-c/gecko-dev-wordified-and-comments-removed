@@ -76,6 +76,13 @@ h
 #
 include
 "
+nsISerialEventTarget
+.
+h
+"
+#
+include
+"
 nsNSSCallbacks
 .
 h
@@ -125,9 +132,6 @@ nsIDOMWindow
 ;
 class
 nsIPrompt
-;
-class
-nsISerialEventTarget
 ;
 class
 nsITimer
@@ -492,6 +496,12 @@ mMutex
 static
 int
 mInstanceCount
+;
+nsCOMPtr
+<
+nsISerialEventTarget
+>
+mNSSTaskQueue
 ;
 }
 ;

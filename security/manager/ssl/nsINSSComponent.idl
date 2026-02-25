@@ -1,6 +1,13 @@
 #
 include
 "
+nsISerialEventTarget
+.
+idl
+"
+#
+include
+"
 nsISupports
 .
 idl
@@ -194,6 +201,11 @@ Promise
 asyncClearSSLExternalAndInternalSessionCache
 (
 )
+;
+readonly
+attribute
+nsISerialEventTarget
+nssTaskQueue
 ;
 }
 ;
