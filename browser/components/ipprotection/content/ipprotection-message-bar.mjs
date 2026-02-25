@@ -693,7 +693,7 @@ render
 )
 {
 let
-messageBarTemplate
+templateFn
 =
 this
 .
@@ -706,13 +706,11 @@ this
 .
 type
 )
-(
-)
 ;
 if
 (
 !
-messageBarTemplate
+templateFn
 )
 {
 return
@@ -722,7 +720,9 @@ null
 return
 html
 {
-messageBarTemplate
+templateFn
+(
+)
 }
 ;
 }
