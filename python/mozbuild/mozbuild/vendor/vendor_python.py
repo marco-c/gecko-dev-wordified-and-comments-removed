@@ -91,6 +91,10 @@ ansicon
 "
 jsonschema
 "
+    
+"
+filelock
+"
 }
 class
 VendorPython
