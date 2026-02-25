@@ -130,6 +130,13 @@ js
 ]
 [
 "
+test_IPProtectionUsage
+.
+js
+"
+]
+[
+"
 test_IPProxyManager
 .
 js
