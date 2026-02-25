@@ -19,6 +19,15 @@ mjs
 "
 generated
 /
+RustUniffiBindingsTestsCollision
+.
+sys
+.
+mjs
+"
+"
+generated
+/
 RustUniffiBindingsTestsExternalTypes
 .
 sys
