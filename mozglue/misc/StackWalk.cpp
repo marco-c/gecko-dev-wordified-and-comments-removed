@@ -3374,9 +3374,9 @@ abi
 __cxa_demangle
 (
 aSymbol
-0
-0
-0
+nullptr
+nullptr
+nullptr
 )
 ;
 if

@@ -209,7 +209,7 @@ GetNullFoo
 )
 {
 return
-0
+nullptr
 ;
 }
 int

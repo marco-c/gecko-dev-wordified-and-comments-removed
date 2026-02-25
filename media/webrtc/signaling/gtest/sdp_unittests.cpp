@@ -10384,7 +10384,7 @@ SDP_ATTR_FMTP
 ;
 ASSERT_EQ
 (
-NULL
+nullptr
 attr_p
 )
 ;
@@ -10430,7 +10430,7 @@ SDP_ATTR_FMTP
 ;
 ASSERT_EQ
 (
-NULL
+nullptr
 attr_p
 )
 ;

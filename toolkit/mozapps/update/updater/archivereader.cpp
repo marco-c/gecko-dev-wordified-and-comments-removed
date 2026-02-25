@@ -967,7 +967,7 @@ xz_buf
 strm
 =
 {
-0
+nullptr
 }
 ;
 enum

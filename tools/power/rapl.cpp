@@ -3037,7 +3037,7 @@ longOptions
 help
 "
 no_argument
-NULL
+nullptr
 '
 h
 '
@@ -3049,7 +3049,7 @@ sample
 interval
 "
 required_argument
-NULL
+nullptr
 '
 i
 '
@@ -3061,15 +3061,15 @@ sample
 count
 "
 required_argument
-NULL
+nullptr
 '
 n
 '
 }
 {
-NULL
+nullptr
 0
-NULL
+nullptr
 0
 }
 }
@@ -3104,7 +3104,7 @@ argc
 argv
 shortOptions
 longOptions
-NULL
+nullptr
 )
 )
 !
@@ -3269,7 +3269,7 @@ default
 :
 CmdLineAbort
 (
-NULL
+nullptr
 )
 ;
 }
@@ -3405,7 +3405,7 @@ sigaction
 SIGALRM
 &
 sa
-NULL
+nullptr
 )
 <
 0
@@ -3436,7 +3436,7 @@ sigaction
 SIGINT
 &
 sa
-NULL
+nullptr
 )
 <
 0
@@ -3497,7 +3497,7 @@ setitimer
 ITIMER_REAL
 &
 timer
-NULL
+nullptr
 )
 <
 0

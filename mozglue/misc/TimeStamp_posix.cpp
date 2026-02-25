@@ -952,7 +952,7 @@ return
 pthread_join
 (
 uptime_pthread
-NULL
+nullptr
 )
 ;
 return

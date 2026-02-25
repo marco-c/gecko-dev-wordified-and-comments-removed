@@ -274,7 +274,7 @@ MemoryRange
 :
 data_
 (
-NULL
+nullptr
 )
 length_
 (
@@ -319,7 +319,7 @@ Reset
 {
 data_
 =
-NULL
+nullptr
 ;
 length_
 =
@@ -415,7 +415,7 @@ data_
 sub_offset
 )
 :
-NULL
+nullptr
 ;
 }
 template
@@ -822,7 +822,7 @@ data
 =
 mmap
 (
-NULL
+nullptr
 file_len
 PROT_READ
 MAP_PRIVATE
@@ -900,7 +900,7 @@ content_
 .
 Set
 (
-NULL
+nullptr
 0
 )
 ;
@@ -1281,7 +1281,7 @@ nsection
 )
 {
 return
-NULL
+nullptr
 ;
 }
 int
@@ -1300,7 +1300,7 @@ name_len
 0
 )
 return
-NULL
+nullptr
 ;
 for
 (
@@ -1373,7 +1373,7 @@ i
 }
 }
 return
-NULL
+nullptr
 ;
 }
 struct
@@ -1923,7 +1923,7 @@ if
 section
 !
 =
-NULL
+nullptr
 &
 &
 section
@@ -2280,7 +2280,7 @@ false
 *
 section_start
 =
-NULL
+nullptr
 ;
 *
 section_size
@@ -2347,7 +2347,7 @@ section_size
 section_start
 !
 =
-NULL
+nullptr
 ;
 }
 else
@@ -2377,7 +2377,7 @@ section_size
 section_start
 !
 =
-NULL
+nullptr
 ;
 }
 return
