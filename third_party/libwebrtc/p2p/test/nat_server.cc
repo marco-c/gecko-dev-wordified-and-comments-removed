@@ -832,7 +832,7 @@ if
 remainder
 )
 {
-SignalReadEvent
+NotifyReadEvent
 (
 this
 )

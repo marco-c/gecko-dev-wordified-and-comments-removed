@@ -583,7 +583,7 @@ CurrentTime
 socket_ptr
 -
 >
-SignalReadEvent
+NotifyReadEvent
 (
 socket_ptr
 )
@@ -707,7 +707,7 @@ Millis
 socket_ptr
 -
 >
-SignalReadEvent
+NotifyReadEvent
 (
 socket_ptr
 )
@@ -967,7 +967,7 @@ CurrentTime
 socket_ptr
 -
 >
-SignalReadEvent
+NotifyReadEvent
 (
 socket_ptr
 )
@@ -975,7 +975,7 @@ socket_ptr
 socket_ptr
 -
 >
-SignalReadEvent
+NotifyReadEvent
 (
 socket_ptr
 )
@@ -983,7 +983,7 @@ socket_ptr
 socket_ptr
 -
 >
-SignalReadEvent
+NotifyReadEvent
 (
 socket_ptr
 )
@@ -1192,7 +1192,7 @@ CurrentTime
 socket_ptr
 -
 >
-SignalReadEvent
+NotifyReadEvent
 (
 socket_ptr
 )
@@ -1308,7 +1308,7 @@ CurrentTime
 socket_ptr
 -
 >
-SignalReadEvent
+NotifyReadEvent
 (
 socket_ptr
 )
