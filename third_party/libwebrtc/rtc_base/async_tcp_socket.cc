@@ -1897,7 +1897,7 @@ Socket
 socket
 )
 {
-SignalNewConnection
+NotifyNewConnection
 (
 this
 new
