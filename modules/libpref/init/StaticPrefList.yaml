@@ -11064,7 +11064,7 @@ type
 bool
 value
 :
-IS_NIGHTLY_BUILD
+false
 mirror
 :
 always
@@ -11089,7 +11089,7 @@ type
 bool
 value
 :
-IS_NIGHTLY_BUILD
+false
 mirror
 :
 always
@@ -11117,7 +11117,7 @@ type
 bool
 value
 :
-IS_NIGHTLY_BUILD
+false
 mirror
 :
 always
@@ -11176,7 +11176,7 @@ type
 RelaxedAtomicUint32
 value
 :
-5
+100
 mirror
 :
 always
