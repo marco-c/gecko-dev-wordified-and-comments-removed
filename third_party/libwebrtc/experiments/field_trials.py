@@ -4552,24 +4552,6 @@ FieldTrial
 '
 WebRTC
 -
-StunInterPacketDelay
-'
-               
-NO_BUG
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 SurfaceCellularTypes
 '
                
@@ -5192,7 +5174,7 @@ str
 \
     
 '
-625f8d689ab8bcfe4118347c6f8c852e3ac372c7
+71d9f133598bcdbc40f515029be48e9ce8619d36
 '
 REGISTERED_FIELD_TRIALS
 :
