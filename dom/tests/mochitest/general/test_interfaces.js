@@ -1745,9 +1745,6 @@ CloseWatcher
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
