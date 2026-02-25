@@ -50,7 +50,7 @@ add_task
 (
 async
 function
-test_getCategoriesFromFieldNames
+test_toOneLineAddress
 (
 )
 {

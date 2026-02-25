@@ -310,13 +310,6 @@ js
 ]
 [
 "
-test_getCategoriesFromFieldNames
-.
-js
-"
-]
-[
-"
 test_getCreditCardLogo
 .
 js
