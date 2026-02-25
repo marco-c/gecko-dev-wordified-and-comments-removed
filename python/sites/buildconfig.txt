@@ -7,9 +7,6 @@ python
 3
 .
 9
-pypi
-:
-mergedeep
 vendored
 :
 third_party
