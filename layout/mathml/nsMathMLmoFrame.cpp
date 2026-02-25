@@ -1898,6 +1898,15 @@ em
 ;
 if
 (
+!
+StaticPrefs
+:
+:
+mathml_adjust_default_lspace_rspace_for_positive_scriptlevel_disabled
+(
+)
+&
+&
 StyleFont
 (
 )
