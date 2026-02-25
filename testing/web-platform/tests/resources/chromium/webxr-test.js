@@ -6436,6 +6436,15 @@ this
 _getDefaultViews
 (
 )
+maxRenderLayers
+:
+(
+16
+-
+1
+)
+/
+2
 }
 enviromentBlendMode
 :
