@@ -5254,6 +5254,7 @@ return
 }
 if
 (
+!
 this
 .
 sovEnabled
