@@ -314,6 +314,11 @@ sort
 by
 -
 heading
+-
+menucaption
+=
+.
+label
 =
 Sort
 by
