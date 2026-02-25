@@ -105,7 +105,7 @@ uses
 actions
 /
 checkout
-v4
+v6
 -
 uses
 :
@@ -255,7 +255,7 @@ actions
 upload
 -
 artifact
-v4
+v6
 if
 :
 matrix
@@ -353,14 +353,14 @@ rust
 beta
 1
 .
-65
+82
 .
 0
 1
 .
-56
+68
 .
-1
+0
 ]
 os
 :
@@ -403,7 +403,7 @@ uses
 actions
 /
 checkout
-v4
+v6
 -
 uses
 :
@@ -653,9 +653,9 @@ rust
 '
 1
 .
-56
+68
 .
-1
+0
 '
 -
 run
@@ -698,9 +698,9 @@ rust
 '
 1
 .
-56
+68
 .
-1
+0
 '
 -
 name
@@ -776,7 +776,7 @@ uses
 actions
 /
 checkout
-v4
+v6
 -
 uses
 :
@@ -929,7 +929,7 @@ uses
 actions
 /
 checkout
-v4
+v6
 -
 uses
 :
@@ -1019,7 +1019,7 @@ uses
 actions
 /
 checkout
-v4
+v6
 -
 uses
 :
@@ -1105,7 +1105,7 @@ uses
 actions
 /
 checkout
-v4
+v6
 -
 uses
 :
@@ -1158,7 +1158,7 @@ uses
 actions
 /
 checkout
-v4
+v6
 -
 uses
 :
@@ -1218,7 +1218,7 @@ uses
 actions
 /
 checkout
-v4
+v6
 -
 uses
 :
