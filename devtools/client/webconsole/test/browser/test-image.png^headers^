@@ -5,3 +5,12 @@ Cookie
 name
 =
 value
+;
+SameSite
+=
+None
+;
+Secure
+;
+Partitioned
+;
