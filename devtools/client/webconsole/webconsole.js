@@ -198,6 +198,8 @@ Darwin
 ;
 class
 WebConsole
+extends
+EventEmitter
 {
 constructor
 (
@@ -210,6 +212,10 @@ isBrowserConsole
 false
 )
 {
+super
+(
+)
+;
 this
 .
 toolbox
@@ -339,13 +345,6 @@ this
 _destroyer
 =
 null
-;
-EventEmitter
-.
-decorate
-(
-this
-)
 ;
 }
 recordEvent

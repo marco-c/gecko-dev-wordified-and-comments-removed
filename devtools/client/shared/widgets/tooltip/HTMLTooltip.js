@@ -1004,6 +1004,8 @@ height
 ;
 class
 HTMLTooltip
+extends
+EventEmitter
 {
 constructor
 (
@@ -1040,11 +1042,8 @@ false
 }
 )
 {
-EventEmitter
-.
-decorate
+super
 (
-this
 )
 ;
 this

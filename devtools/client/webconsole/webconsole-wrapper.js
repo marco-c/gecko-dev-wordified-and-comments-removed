@@ -473,6 +473,8 @@ null
 ;
 class
 WebConsoleWrapper
+extends
+EventEmitter
 {
 constructor
 (
@@ -482,11 +484,8 @@ toolbox
 document
 )
 {
-EventEmitter
-.
-decorate
+super
 (
-this
 )
 ;
 this

@@ -80,6 +80,8 @@ MAX_SUGGESTIONS
 ;
 class
 InspectorSearch
+extends
+EventEmitter
 {
 constructor
 (
@@ -90,6 +92,10 @@ prevBtn
 nextBtn
 )
 {
+super
+(
+)
+;
 this
 .
 inspector
@@ -274,13 +280,6 @@ SelectorAutocompleter
 (
 inspector
 input
-)
-;
-EventEmitter
-.
-decorate
-(
-this
 )
 ;
 }

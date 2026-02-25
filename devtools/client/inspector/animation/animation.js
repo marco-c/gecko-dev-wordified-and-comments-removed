@@ -228,6 +228,8 @@ js
 ;
 class
 AnimationInspector
+extends
+EventEmitter
 {
 constructor
 (
@@ -235,6 +237,10 @@ inspector
 win
 )
 {
+super
+(
+)
+;
 this
 .
 inspector
@@ -634,13 +640,6 @@ this
 onSidebarSelectionChanged
 .
 bind
-(
-this
-)
-;
-EventEmitter
-.
-decorate
 (
 this
 )

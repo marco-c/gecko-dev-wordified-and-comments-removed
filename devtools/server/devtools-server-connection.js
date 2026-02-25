@@ -105,6 +105,8 @@ true
 ;
 class
 DevToolsServerConnection
+extends
+EventEmitter
 {
 constructor
 (
@@ -113,6 +115,10 @@ transport
 socketListener
 )
 {
+super
+(
+)
+;
 this
 .
 _prefix
@@ -186,13 +192,6 @@ _forwardingPrefixes
 new
 Map
 (
-)
-;
-EventEmitter
-.
-decorate
-(
-this
 )
 ;
 }

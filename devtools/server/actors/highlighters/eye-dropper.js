@@ -244,6 +244,8 @@ CLOSE_DELAY
 ;
 class
 EyeDropper
+extends
+EventEmitter
 {
 #
 pageEventListenersAbortController
@@ -256,11 +258,8 @@ constructor
 highlighterEnv
 )
 {
-EventEmitter
-.
-decorate
+super
 (
-this
 )
 ;
 this

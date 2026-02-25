@@ -341,6 +341,8 @@ _msg
 }
 class
 ResponsiveUI
+extends
+EventEmitter
 {
 constructor
 (
@@ -349,6 +351,10 @@ window
 tab
 )
 {
+super
+(
+)
+;
 this
 .
 manager
@@ -485,13 +491,6 @@ this
 dynamicToolbar
 =
 null
-;
-EventEmitter
-.
-decorate
-(
-this
-)
 ;
 }
 get

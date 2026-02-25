@@ -389,6 +389,8 @@ alwaysOnTop
 ;
 class
 DevTools
+extends
+EventEmitter
 {
 constructor
 (
@@ -448,6 +450,10 @@ global
 )
 ;
 }
+super
+(
+)
+;
 this
 .
 _tools
@@ -482,13 +488,6 @@ _creatingToolboxes
 new
 Map
 (
-)
-;
-EventEmitter
-.
-decorate
-(
-this
 )
 ;
 this

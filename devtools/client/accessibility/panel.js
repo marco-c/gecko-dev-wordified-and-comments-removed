@@ -129,6 +129,8 @@ PropertiesUpdated
 ;
 class
 AccessibilityPanel
+extends
+EventEmitter
 {
 #
 toolbox
@@ -155,6 +157,10 @@ toolbox
 commands
 )
 {
+super
+(
+)
+;
 this
 .
 panelWin
@@ -249,13 +255,6 @@ this
 onLifecycleEvent
 .
 bind
-(
-this
-)
-;
-EventEmitter
-.
-decorate
 (
 this
 )

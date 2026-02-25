@@ -140,6 +140,8 @@ root
 ;
 class
 ArrowScrollBox
+extends
+EventEmitter
 {
 constructor
 (
@@ -147,6 +149,10 @@ win
 container
 )
 {
+super
+(
+)
+;
 this
 .
 win
@@ -166,13 +172,6 @@ this
 container
 =
 container
-;
-EventEmitter
-.
-decorate
-(
-this
-)
 ;
 this
 .
