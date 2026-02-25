@@ -363,7 +363,7 @@ SCHEMA_VERSION
 )
 {
 return
-1
+2
 ;
 }
 /
