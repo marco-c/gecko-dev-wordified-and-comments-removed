@@ -5422,6 +5422,7 @@ self
 .
 native
 =
+f
 "
 mozilla
 :
@@ -5429,13 +5430,12 @@ mozilla
 dom
 :
 :
-%
-s
-"
-%
+{
 self
 .
 name
+}
+"
         
 self
 .
@@ -7863,23 +7863,22 @@ self
 .
 name
 =
+f
 "
-%
-s_
-%
-s
-"
-%
-(
+{
 self
 .
 iface
 .
 name
+}
+_
+{
 self
 .
 basename
-)
+}
+"
         
 self
 .
