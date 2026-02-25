@@ -2034,6 +2034,9 @@ end
 0
 ;
 }
+:
+is
+(
 .
 devtools
 -
@@ -2043,8 +2046,6 @@ inactive
 -
 css
 .
-link
-.
 devtools
 -
 tooltip
@@ -2052,6 +2053,7 @@ tooltip
 css
 -
 compatibility
+)
 .
 link
 {
@@ -2071,6 +2073,13 @@ color
 cursor
 :
 pointer
+;
+text
+-
+decoration
+:
+1px
+underline
 ;
 }
 /
