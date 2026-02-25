@@ -1190,17 +1190,6 @@ plain
 "
 :
 [
-"
--
--
-chunk
--
-by
--
-dir
-=
-4
-"
 ]
         
 "
@@ -1254,17 +1243,6 @@ chrome
 "
 -
 -
-chunk
--
-by
--
-dir
-=
-4
-"
-"
--
--
 disable
 -
 e10s
@@ -1318,15 +1296,6 @@ chrome
 flavor
 =
 browser
-"
-"
--
--
-chunk
--
-by
--
-runtime
 "
 ]
         
@@ -1498,16 +1467,6 @@ browser
 subsuite
 =
 devtools
-"
-            
-"
--
--
-chunk
--
-by
--
-runtime
 "
         
 ]
