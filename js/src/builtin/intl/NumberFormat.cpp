@@ -227,6 +227,17 @@ builtin
 /
 intl
 /
+NumberFormatOptions
+.
+h
+"
+#
+include
+"
+builtin
+/
+intl
+/
 ParameterNegotiation
 .
 h

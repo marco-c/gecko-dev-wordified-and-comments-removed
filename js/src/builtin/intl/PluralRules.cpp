@@ -67,7 +67,7 @@ builtin
 /
 intl
 /
-NumberFormat
+NumberFormatOptions
 .
 h
 "
