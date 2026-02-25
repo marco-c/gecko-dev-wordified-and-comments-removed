@@ -247,6 +247,13 @@ MessageReader
 aReader
 )
 ;
+bool
+IsKnownForChildID
+(
+GeckoChildID
+aChildID
+)
+;
 void
 AddKeepAlive
 (
