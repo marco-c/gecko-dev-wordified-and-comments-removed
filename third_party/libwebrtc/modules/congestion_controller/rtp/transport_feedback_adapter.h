@@ -193,6 +193,16 @@ is_retransmission
 =
 false
 ;
+bool
+sent_with_ect1
+=
+false
+;
+bool
+previously_reported_lost
+=
+false
+;
 }
 ;
 class
