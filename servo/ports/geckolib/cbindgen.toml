@@ -551,7 +551,7 @@ AlignmentBaseline
 AnchorName
 "
 "
-ScopedName
+AnchorScope
 "
 "
 AnimationName
@@ -6225,7 +6225,7 @@ _empty
 "
 "
 "
-TimelineIdent
+TimelineName
 "
 =
 "
@@ -6233,7 +6233,7 @@ TimelineIdent
 "
 public
 :
-StyleTimelineIdent
+StyleTimelineName
 (
 )
 :
