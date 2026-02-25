@@ -188,6 +188,11 @@ UrlClassifierFeatureFingerprintingProtection
 cpp
 "
 "
+UrlClassifierFeatureGlobalCache
+.
+cpp
+"
+"
 UrlClassifierFeatureHarmfulAddonProtection
 .
 cpp
