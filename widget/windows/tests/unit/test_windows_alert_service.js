@@ -853,14 +853,12 @@ else
 s
 +
 =
-invalid
-key
+skipNotificationServer
 &
 #
 xA
 ;
-invalid
-value
+true
 ;
 }
 if
