@@ -914,15 +914,13 @@ defined
 WEBRTC_DUMMY_FILE_DEVICES
 )
 audio_device_
-.
-reset
-(
+=
 FileAudioDeviceFactory
 :
 :
 CreateFileAudioDevice
 (
-)
+env
 )
 ;
 if
