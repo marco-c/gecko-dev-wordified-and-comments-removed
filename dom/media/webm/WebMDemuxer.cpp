@@ -2874,6 +2874,14 @@ MAX_RATE
 params
 .
 channels
+=
+=
+0
+|
+|
+params
+.
+channels
 >
 AudioConfig
 :
