@@ -10528,11 +10528,12 @@ get_filename_in_manifest
 (
 manifest
 .
-split
+rsplit
 (
 "
 :
 "
+1
 )
 [
 -
@@ -10864,11 +10865,12 @@ str
 =
 path
 .
-split
+rsplit
 (
 "
 :
 "
+1
 )
 [
 -
