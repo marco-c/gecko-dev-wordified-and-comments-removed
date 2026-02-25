@@ -231,12 +231,6 @@ androidx
 compose
 .
 material3
-implementation
-libs
-.
-androidx
-.
-material3
 debugImplementation
 libs
 .
