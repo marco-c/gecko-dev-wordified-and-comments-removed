@@ -869,11 +869,11 @@ partial
 interface
 HTMLElement
 {
-readonly
-attribute
 Element
 ?
 scrollParent
+(
+)
 ;
 readonly
 attribute
