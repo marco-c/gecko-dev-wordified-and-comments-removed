@@ -751,7 +751,7 @@ is
 fast
 because
 it
-avoid
+avoids
 a
 mutex
 lock
@@ -1266,7 +1266,6 @@ introducing
 breaking
 changes
 all
-of
 the
 time
 things

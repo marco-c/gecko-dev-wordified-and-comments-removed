@@ -197,9 +197,9 @@ test
 name
 :
 {
+name
 }
 "
-name
 )
 )
 }

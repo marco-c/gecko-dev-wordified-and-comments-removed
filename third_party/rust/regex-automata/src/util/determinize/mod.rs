@@ -185,10 +185,6 @@ state
 look_have
 (
 )
-.
-clone
-(
-)
 ;
 match
 unit
