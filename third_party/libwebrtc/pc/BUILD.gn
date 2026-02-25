@@ -14775,16 +14775,6 @@ sent_packet
 .
 .
 /
-rtc_base
-/
-third_party
-/
-sigslot
-"
-"
-.
-.
-/
 system_wrappers
 :
 metrics

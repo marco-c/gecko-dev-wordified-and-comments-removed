@@ -4195,11 +4195,6 @@ rtc_task_queue_unittests
 "
 rtc_base
 :
-sigslot_trampoline_unittest
-"
-"
-rtc_base
-:
 sigslot_unittest
 "
 "
