@@ -6650,10 +6650,10 @@ BUILD
 .
 gn
 index
-693cbd680d
+cdebf6358c
 .
 .
-ff61ddd696
+b6ae38db72
 100644
 -
 -
@@ -6778,10 +6778,10 @@ protobuf_utils
 )
 {
 -
-1948
+1944
 8
 +
-1948
+1944
 8
 if
 (

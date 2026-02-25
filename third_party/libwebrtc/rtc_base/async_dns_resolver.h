@@ -267,6 +267,8 @@ AnyInvocable
 void
 (
 )
+&
+&
 >
 callback_
 ;
