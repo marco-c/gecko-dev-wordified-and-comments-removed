@@ -3107,6 +3107,9 @@ thread_
 >
 PostTask
 (
+SafeTask
+(
+signaling_thread_safety_
 [
 this
 ]
@@ -3152,6 +3155,7 @@ NotifyFirstPacketReceivedAfterReceptiveChange
 ;
 }
 }
+)
 )
 ;
 }
