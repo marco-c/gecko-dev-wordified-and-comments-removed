@@ -3,8 +3,6 @@ argparse
 import
 hashlib
 import
-json
-import
 logging
 import
 re
@@ -17,6 +15,10 @@ urlparse
 urlunparse
 import
 requests
+from
+mozfile
+import
+json
 def
 fetch_url_for_cdms
 (

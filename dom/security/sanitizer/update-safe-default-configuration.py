@@ -1,11 +1,13 @@
-import
-json
 from
 urllib
 .
 request
 import
 urlretrieve
+from
+mozfile
+import
+json
 REVISION
 =
 "
