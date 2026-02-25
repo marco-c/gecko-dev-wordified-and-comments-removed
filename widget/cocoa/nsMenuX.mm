@@ -843,9 +843,6 @@ return
 }
 if
 (
-mMenuGroupOwner
-&
-&
 mContent
 )
 {
@@ -2938,6 +2935,10 @@ true
 )
 ;
 }
+status
+=
+nsEventStatus_eIgnore
+;
 WidgetMouseEvent
 popupHidden
 (
@@ -3841,6 +3842,7 @@ nsMenuX
 :
 CreateMenuWithGeckoString
 (
+const
 nsString
 &
 aMenuTitle
@@ -4962,6 +4964,11 @@ SetRebuild
 true
 )
 ;
+if
+(
+mMenuGroupOwner
+)
+{
 mMenuGroupOwner
 -
 >
@@ -4970,6 +4977,7 @@ UnregisterForContentChanges
 aChild
 )
 ;
+}
 if
 (
 !
