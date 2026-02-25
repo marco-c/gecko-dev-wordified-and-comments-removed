@@ -4215,6 +4215,14 @@ time_delta
 /
 rtc_base
 :
+callback_list
+"
+"
+.
+.
+/
+rtc_base
+:
 checks
 "
 "

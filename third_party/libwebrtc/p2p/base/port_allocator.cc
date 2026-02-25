@@ -1418,7 +1418,7 @@ candidate_filter_
 =
 filter
 ;
-SignalCandidateFilterChanged
+NotifyCandidateFilterChanged
 (
 prev_filter
 filter
