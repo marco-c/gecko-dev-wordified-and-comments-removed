@@ -7019,6 +7019,15 @@ timezoneWeb
 "
 timezoneOffsetWeb
 "
+"
+sdpCodecList
+"
+"
+webauthnCapabilities
+"
+"
+storageQuota
+"
 ]
 }
 ;
