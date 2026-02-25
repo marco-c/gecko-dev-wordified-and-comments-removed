@@ -211,6 +211,17 @@ action
 "
 ;
 const
+wchar_t
+kSkipNotificationKey
+[
+]
+=
+L
+"
+skipNotificationServer
+"
+;
+const
 DWORD
 kNotificationServerTimeoutMs
 =
