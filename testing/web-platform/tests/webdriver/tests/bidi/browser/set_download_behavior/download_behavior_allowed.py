@@ -153,3 +153,15 @@ startswith
 (
 temp_dir
 )
+    
+await
+bidi_session
+.
+browser
+.
+set_download_behavior
+(
+download_behavior
+=
+None
+)
