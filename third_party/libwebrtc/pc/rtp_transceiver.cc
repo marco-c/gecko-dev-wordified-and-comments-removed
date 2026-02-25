@@ -1921,6 +1921,9 @@ BlockingCall
 (
 [
 &
+flag
+=
+signaling_thread_safety_
 ]
 (
 )
@@ -1958,7 +1961,7 @@ thread
 thread_
 flag
 =
-signaling_thread_safety_
+flag
 this
 ]
 (
@@ -2007,7 +2010,7 @@ thread
 thread_
 flag
 =
-signaling_thread_safety_
+flag
 this
 ]
 (
@@ -2052,6 +2055,9 @@ SetPacketReceivedCallback_n
 (
 [
 this
+flag
+=
+flag
 ]
 (
 )
@@ -2070,6 +2076,7 @@ network_thread
 ;
 OnPacketReceived
 (
+flag
 )
 ;
 }
@@ -3079,6 +3086,11 @@ RtpTransceiver
 :
 OnPacketReceived
 (
+scoped_refptr
+<
+PendingTaskSafetyFlag
+>
+safety
 )
 {
 if
@@ -3109,7 +3121,7 @@ PostTask
 (
 SafeTask
 (
-signaling_thread_safety_
+safety
 [
 this
 ]

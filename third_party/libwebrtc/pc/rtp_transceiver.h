@@ -19,11 +19,6 @@ atomic
 #
 include
 <
-functional
->
-#
-include
-<
 memory
 >
 #
@@ -1105,6 +1100,11 @@ OnFirstPacketReceived
 void
 OnPacketReceived
 (
+scoped_refptr
+<
+PendingTaskSafetyFlag
+>
+safety
 )
 RTC_RUN_ON
 (
@@ -1191,6 +1191,10 @@ scoped_refptr
 PendingTaskSafetyFlag
 >
 signaling_thread_safety_
+RTC_GUARDED_BY
+(
+thread_
+)
 ;
 std
 :
