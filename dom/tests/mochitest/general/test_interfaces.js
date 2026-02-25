@@ -1738,9 +1738,6 @@ true
 nightly
 :
 true
-android
-:
-false
 }
 {
 name
