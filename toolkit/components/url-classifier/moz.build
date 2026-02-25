@@ -182,6 +182,11 @@ ProtocolParser
 cpp
 "
 "
+RealTimeRequestSimulator
+.
+cpp
+"
+"
 RiceDeltaDecoder
 .
 cpp
@@ -311,6 +316,11 @@ h
 "
 "
 nsUrlClassifierPrefixSet
+.
+h
+"
+"
+RealTimeRequestSimulator
 .
 h
 "
