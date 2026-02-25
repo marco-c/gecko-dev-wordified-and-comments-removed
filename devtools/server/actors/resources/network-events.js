@@ -1211,6 +1211,14 @@ updateResource
 .
 proxyStatusText
 ;
+resourceUpdates
+.
+isRedirect
+=
+updateResource
+.
+isRedirect
+;
 if
 (
 resourceUpdates

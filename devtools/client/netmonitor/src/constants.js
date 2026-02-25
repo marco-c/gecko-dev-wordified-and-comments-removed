@@ -797,6 +797,9 @@ isThirdPartyTrackingResource
 isResolvedByTRR
 "
 "
+isRedirect
+"
+"
 referrerPolicy
 "
 "

@@ -222,6 +222,9 @@ type
 :
 "
 html
+(
+redirect
+)
 "
 fullMimeType
 :
@@ -388,6 +391,9 @@ type
 :
 "
 html
+(
+redirect
+)
 "
 fullMimeType
 :
