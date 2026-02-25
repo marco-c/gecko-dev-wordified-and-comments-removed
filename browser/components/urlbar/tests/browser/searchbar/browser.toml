@@ -74,6 +74,13 @@ js
 ]
 [
 "
+browser_searchbar_addEngine
+.
+js
+"
+]
+[
+"
 browser_searchbar_customizing_nobreakout
 .
 js
