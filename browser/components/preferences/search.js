@@ -5939,6 +5939,7 @@ aEngine
 .
 originalEngine
 aNewIndex
+true
 )
 ;
 }
@@ -6330,6 +6331,7 @@ moveEngine
 (
 engine
 i
+true
 )
 ;
 added
