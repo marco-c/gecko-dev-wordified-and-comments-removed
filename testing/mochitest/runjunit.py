@@ -4690,21 +4690,19 @@ commandline
 .
 setup_logging
 (
-            
 "
 runjunit
 "
 options
 {
 "
-tbpl
+raw
 "
 :
 sys
 .
 stdout
 }
-        
 )
     
 runner
