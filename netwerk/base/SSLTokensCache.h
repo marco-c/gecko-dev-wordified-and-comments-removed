@@ -235,7 +235,7 @@ aTokenLen
 CommonSocketControl
 *
 aSocketControl
-PRUint32
+PRTime
 aExpirationTime
 )
 ;
@@ -414,7 +414,7 @@ Reset
 nsCString
 mKey
 ;
-PRUint32
+PRTime
 mExpirationTime
 =
 0
