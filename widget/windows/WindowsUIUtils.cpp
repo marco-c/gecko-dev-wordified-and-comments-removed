@@ -2538,6 +2538,11 @@ GetNativeData
 NS_NATIVE_WINDOW
 )
 ;
+NS_ENSURE_TRUE_VOID
+(
+winPtr
+)
+;
 ComPtr
 <
 IUIViewSettingsInterop
