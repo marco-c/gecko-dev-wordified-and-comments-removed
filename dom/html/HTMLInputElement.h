@@ -4182,10 +4182,6 @@ MOZ_CAN_RUN_SCRIPT
 void
 FreeData
 (
-bool
-aFreeInputState
-=
-true
 )
 ;
 TextControlState
