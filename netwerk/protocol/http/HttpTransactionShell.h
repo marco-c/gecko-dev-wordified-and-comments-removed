@@ -740,6 +740,13 @@ TimeStamp
 )
 ;
 }
+virtual
+void
+SetIsTRRTransaction
+(
+)
+{
+}
 }
 ;
 #
