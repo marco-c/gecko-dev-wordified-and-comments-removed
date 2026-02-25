@@ -323,7 +323,6 @@ passwordToUse
 false
 testBackupDirPath
 recoveredProfilePath
-true
 )
 err
 =
