@@ -78,6 +78,13 @@ py
 ]
 [
 "
+test_transforms_code_coverage
+.
+py
+"
+]
+[
+"
 test_transforms_job
 .
 py
