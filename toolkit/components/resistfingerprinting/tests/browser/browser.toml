@@ -19,6 +19,11 @@ empty
 html
 "
 "
+iframe_orientation
+.
+html
+"
+"
 font
 -
 fingerprinter
@@ -298,6 +303,13 @@ c3
 [
 "
 browser_fpp_remote_settings_jexl
+.
+js
+"
+]
+[
+"
+browser_iframe_orientation
 .
 js
 "

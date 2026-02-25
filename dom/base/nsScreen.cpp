@@ -1088,12 +1088,7 @@ size
 bc
 -
 >
-Top
-(
-)
--
->
-GetTopInnerSizeForRFP
+TopInnerSizeSpoofedForRFP
 (
 )
 ;

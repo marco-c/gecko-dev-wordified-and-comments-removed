@@ -34518,7 +34518,7 @@ size
 mBrowsingContext
 -
 >
-GetTopInnerSizeForRFP
+TopInnerSizeSpoofedForRFP
 (
 )
 ;
