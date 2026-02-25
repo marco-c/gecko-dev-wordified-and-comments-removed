@@ -3165,7 +3165,6 @@ fmt_row
 [
                 
 val
-                
 .
 replace
 (

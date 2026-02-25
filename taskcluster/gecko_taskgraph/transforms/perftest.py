@@ -2468,7 +2468,6 @@ if
 config
 .
 params
-                
 .
 get
 (
