@@ -742,6 +742,16 @@ aiBrowser
 .
 contentDocument
 ;
+if
+(
+contentDoc
+&
+&
+aiBrowser
+.
+contentWindow
+)
+{
 contentDoc
 .
 dispatchEvent
@@ -764,6 +774,7 @@ conversation
 )
 )
 ;
+}
 }
 }
 /
