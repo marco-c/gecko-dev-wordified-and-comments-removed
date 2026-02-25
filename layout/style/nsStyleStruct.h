@@ -7862,7 +7862,7 @@ mAnchorName
 mozilla
 :
 :
-StyleAnchorScope
+StyleScopedName
 mAnchorScope
 ;
 mozilla
