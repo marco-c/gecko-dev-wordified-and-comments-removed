@@ -1726,9 +1726,8 @@ const
 ContentInfo
 &
 content_info
-IceTransportInternal
-*
-ice
+bool
+rtcp
 )
 ;
 scoped_refptr
