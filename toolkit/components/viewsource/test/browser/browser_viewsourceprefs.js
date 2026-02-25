@@ -425,6 +425,8 @@ closeContextMenu
 let
 prefReady
 =
+TestUtils
+.
 waitForPrefChange
 (
 "
@@ -518,6 +520,8 @@ closeContextMenu
 ;
 prefReady
 =
+TestUtils
+.
 waitForPrefChange
 (
 "
@@ -607,6 +611,8 @@ closeContextMenu
 ;
 prefReady
 =
+TestUtils
+.
 waitForPrefChange
 (
 "
@@ -690,6 +696,8 @@ closeContextMenu
 ;
 prefReady
 =
+TestUtils
+.
 waitForPrefChange
 (
 "
