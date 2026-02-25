@@ -378,6 +378,11 @@ packet_overhead
 =
 0
 ;
+bool
+forward_ecn
+=
+true
+;
 }
 ;
 class
