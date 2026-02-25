@@ -12082,7 +12082,6 @@ NonTSPseudoClass
 Muted
 =
 >
-{
 self
 .
 state
@@ -12097,13 +12096,13 @@ state_flag
 (
 )
 )
-}
 NonTSPseudoClass
 :
 :
 Paused
 =
 >
+{
 self
 .
 is_html_media_element
@@ -12124,12 +12123,14 @@ ElementState
 :
 PAUSED
 )
+}
 NonTSPseudoClass
 :
 :
 Playing
 =
 >
+{
 self
 .
 is_html_media_element
@@ -12151,6 +12152,7 @@ ElementState
 :
 PAUSED
 )
+}
 NonTSPseudoClass
 :
 :
