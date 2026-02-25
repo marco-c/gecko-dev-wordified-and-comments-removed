@@ -128,6 +128,13 @@ mFunctions
 aFunctions
 )
 {
+mFunctions
+-
+>
+Init
+(
+)
+;
 }
 nsWindowsSystemProxySettings
 :
