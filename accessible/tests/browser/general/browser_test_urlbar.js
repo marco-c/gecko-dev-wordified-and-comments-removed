@@ -180,7 +180,7 @@ getAccessibleFor
 resultsView
 )
 ;
-todo_is
+is
 (
 accessible
 .
