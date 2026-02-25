@@ -326,6 +326,13 @@ js
 ]
 [
 "
+browser_smartwindow_footer
+.
+js
+"
+]
+[
+"
 browser_smartwindow_history_commands
 .
 js
