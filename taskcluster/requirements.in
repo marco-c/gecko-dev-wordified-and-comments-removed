@@ -17,9 +17,9 @@ taskgraph
 =
 4
 .
-1
-.
 0
+.
+2
 requests
 -
 unixsocket
@@ -36,9 +36,9 @@ image
 =
 19
 .
-2
+0
 .
-1
+0
 rtoml
 =
 =
