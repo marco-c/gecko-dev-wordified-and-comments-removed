@@ -2182,6 +2182,15 @@ MatchKind
 aMatchKind
 )
 ;
+static
+void
+UnregisterCallbacksForBranch
+(
+nsPrefBranch
+*
+aBranch
+)
+;
 template
 <
 typename
