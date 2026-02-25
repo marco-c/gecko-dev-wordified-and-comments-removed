@@ -2373,6 +2373,7 @@ ToResolvedValue
 ToShmem
 Serialize
 Deserialize
+ToTyped
 )
 ]
 #
@@ -2573,6 +2574,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -2589,6 +2591,13 @@ derive
 Serialize
 Deserialize
 )
+)
+]
+#
+[
+typed_value
+(
+derive_fields
 )
 ]
 pub
@@ -2895,6 +2904,13 @@ SpecifiedValueInfo
 ToCss
 ToShmem
 ToTyped
+)
+]
+#
+[
+typed_value
+(
+derive_fields
 )
 ]
 pub
