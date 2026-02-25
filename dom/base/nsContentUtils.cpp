@@ -51108,7 +51108,9 @@ mFlags
 .
 mIsSynthesizedForTests
 =
-true
+aOptions
+.
+mIsDOMEventSynthesized
 ;
 event
 .

@@ -4043,6 +4043,11 @@ mozInputSource
 "
 pen
 "
+isDOMEventSynthesized
+:
+aEvent
+.
+isSynthesized
 }
 ]
 ;

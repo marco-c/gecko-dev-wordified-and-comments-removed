@@ -189,6 +189,18 @@ function
 (
 )
 {
+const
+kAllowToCoalesceTouchMovesOption
+=
+{
+isAsyncEnabled
+:
+true
+isDOMEventSynthesized
+:
+false
+}
+;
 var
 element
 =
@@ -321,6 +333,8 @@ offsetY
 y
 }
 ]
+0
+kAllowToCoalesceTouchMovesOption
 )
 ;
 while
@@ -351,6 +365,8 @@ offsetY
 y
 }
 ]
+0
+kAllowToCoalesceTouchMovesOption
 )
 ;
 +
@@ -399,6 +415,8 @@ offsetY
 endYForFirstTouch
 }
 ]
+0
+kAllowToCoalesceTouchMovesOption
 )
 ;
 while
@@ -440,6 +458,8 @@ offsetY
 y
 }
 ]
+0
+kAllowToCoalesceTouchMovesOption
 )
 ;
 +
@@ -478,6 +498,8 @@ offsetY
 endYForSecondTouch
 }
 ]
+0
+kAllowToCoalesceTouchMovesOption
 )
 ;
 }
