@@ -136,6 +136,17 @@ aMallocSizeOf
 )
 const
 ;
+HRTFDatabaseLoader
+*
+DatabaseLoader
+(
+)
+const
+{
+return
+m_databaseLoader
+;
+}
 private
 :
 int
@@ -148,6 +159,7 @@ double
 azimuthBlend
 )
 ;
+const
 RefPtr
 <
 HRTFDatabaseLoader
