@@ -81,7 +81,13 @@ FieldTrialParameter
 <
 double
 >
-l4s_avg_g
+l4s_avg_g_up
+;
+FieldTrialParameter
+<
+double
+>
+l4s_avg_g_down
 ;
 FieldTrialParameter
 <
