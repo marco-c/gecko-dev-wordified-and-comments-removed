@@ -1211,7 +1211,7 @@ arbitrary_precision
 )
 ]
 {
-zmij
+ryu
 :
 :
 Buffer
@@ -1874,7 +1874,7 @@ arbitrary_precision
 )
 ]
 {
-zmij
+ryu
 :
 :
 Buffer
@@ -2062,7 +2062,7 @@ formatter
 .
 write_str
 (
-zmij
+ryu
 :
 :
 Buffer
@@ -3509,7 +3509,7 @@ as_f64
 )
 {
 if
-zmij
+ryu
 :
 :
 Buffer
@@ -4431,7 +4431,7 @@ arbitrary_precision
 )
 ]
 {
-zmij
+ryu
 :
 :
 Buffer

@@ -401,7 +401,6 @@ cache
 capacity
 (
 {
-given
 }
 )
 is
@@ -412,10 +411,11 @@ minimum
 required
 (
 {
-minimum
 }
 )
 "
+given
+minimum
 )
 }
 BuildErrorKind
@@ -459,9 +459,9 @@ for
 DFAs
 :
 {
-msg
 }
 "
+msg
 )
 }
 }
