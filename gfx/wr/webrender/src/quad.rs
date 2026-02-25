@@ -1534,7 +1534,7 @@ tile
 edge_flags
 prim_instance_index
 &
-cache_key
+None
 prim_spatial_node_index
 clip_chain
 device_pixel_scale
