@@ -580,12 +580,6 @@ htmlContent
 HTML_CONTENT
 )
 ;
-if
-(
-!
-isNavigationCacheEnabled
-)
-{
 const
 jsContent
 =
@@ -601,7 +595,6 @@ jsContent
 JS_CONTENT
 )
 ;
-}
 const
 iframeContent
 =
@@ -617,12 +610,6 @@ iframeContent
 IFRAME_CONTENT
 )
 ;
-if
-(
-!
-isNavigationCacheEnabled
-)
-{
 const
 iframeJsContent
 =
@@ -638,7 +625,6 @@ iframeJsContent
 IFRAME_JS_CONTENT
 )
 ;
-}
 await
 reloadSelectedTab
 (
@@ -920,12 +906,6 @@ htmlContent2
 HTML_CONTENT
 )
 ;
-if
-(
-!
-isNavigationCacheEnabled
-)
-{
 const
 jsContent2
 =
@@ -941,7 +921,6 @@ jsContent2
 JS_CONTENT
 )
 ;
-}
 const
 iframeContent2
 =
@@ -957,12 +936,6 @@ iframeContent2
 IFRAME_CONTENT
 )
 ;
-if
-(
-!
-isNavigationCacheEnabled
-)
-{
 const
 iframeJsContent2
 =
@@ -978,7 +951,6 @@ iframeJsContent2
 IFRAME_JS_CONTENT
 )
 ;
-}
 info
 (
 "
