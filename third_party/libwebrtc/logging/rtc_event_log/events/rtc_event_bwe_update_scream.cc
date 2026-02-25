@@ -123,8 +123,9 @@ avg_queue_delay_ms_
 (
 avg_queue_delay
 .
-ms
+ms_or
 (
+0
 )
 )
 l4s_marked_permille_
