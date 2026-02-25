@@ -866,10 +866,6 @@ slots
 -
 >
 mContainingShadow
-.
-get
-(
-)
 :
 nullptr
 ;
@@ -1684,8 +1680,6 @@ aMallocSizeOf
 )
 const
 ;
-RefPtr
-<
 mozilla
 :
 :
@@ -1693,8 +1687,10 @@ dom
 :
 :
 ShadowRoot
->
+*
 mContainingShadow
+=
+nullptr
 ;
 RefPtr
 <
