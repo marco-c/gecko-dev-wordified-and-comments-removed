@@ -105,6 +105,13 @@ js
 ]
 [
 "
+browser_aichat_open_link
+.
+js
+"
+]
+[
+"
 browser_aiwindow_account_auth
 .
 js
