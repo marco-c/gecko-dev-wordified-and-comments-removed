@@ -505,6 +505,7 @@ webrtc
 {
 class
 JsepTransportController
+final
 :
 public
 PayloadTypeSuggester
@@ -704,11 +705,11 @@ Config
 config
 )
 ;
-virtual
 ~
 JsepTransportController
 (
 )
+override
 ;
 JsepTransportController
 (
