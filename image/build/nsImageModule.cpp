@@ -105,6 +105,9 @@ mMimeType
 ;
 }
 ;
+#
+ifdef
+MOZ_JXL
 static
 void
 UpdateDocumentViewerRegistration
@@ -230,6 +233,8 @@ false
 ;
 }
 }
+#
+endif
 static
 bool
 sInitialized
@@ -263,6 +268,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+MOZ_JXL
 static
 ImageEnablementCookie
 kJXLCookie
@@ -300,6 +308,8 @@ enabled
 kJXLCookie
 )
 ;
+#
+endif
 mozilla
 :
 :
