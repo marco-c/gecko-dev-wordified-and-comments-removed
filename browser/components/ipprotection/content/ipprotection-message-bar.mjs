@@ -332,7 +332,7 @@ this
 ;
 this
 .
-handleClickSetingsLink
+handleClickSettingsLink
 =
 this
 .
