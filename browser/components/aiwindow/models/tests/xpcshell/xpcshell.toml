@@ -66,6 +66,13 @@ js
 ]
 [
 "
+test_CitationParser
+.
+js
+"
+]
+[
+"
 test_ConversationSuggestions
 .
 js
