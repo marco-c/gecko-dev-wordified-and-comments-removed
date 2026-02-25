@@ -52,6 +52,13 @@ js
 ]
 [
 "
+browser_realtime_simulation
+.
+js
+"
+]
+[
+"
 browser_v5_completion
 .
 js
