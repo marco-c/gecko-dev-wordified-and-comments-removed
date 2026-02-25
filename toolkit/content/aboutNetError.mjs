@@ -8882,7 +8882,6 @@ registry
 for
 legacy
 path
-await
 initializeRegistry
 (
 )
