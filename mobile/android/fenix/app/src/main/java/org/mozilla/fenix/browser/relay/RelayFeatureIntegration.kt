@@ -389,16 +389,6 @@ is
 generated
 .
 *
-param
-description
-The
-description
-of
-the
-email
-mask
-.
-*
 *
 return
 the
@@ -422,9 +412,6 @@ getOrCreateNewMask
 generatedFor
 :
 String
-description
-:
-String
 )
 :
 EmailMask
@@ -435,6 +422,5 @@ relayFeature
 getOrCreateNewMask
 (
 generatedFor
-description
 )
 }
