@@ -589,6 +589,9 @@ Option
 <
 DeviceRect
 >
+offset
+:
+LayoutVector2D
 ctx
 :
 &
@@ -638,6 +641,8 @@ end_point
 let
 offset
 =
+offset
++
 self
 .
 common
