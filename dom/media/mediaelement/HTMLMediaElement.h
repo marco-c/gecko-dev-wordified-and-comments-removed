@@ -3637,6 +3637,9 @@ CanBeCaptured
 (
 StreamCaptureType
 aCaptureType
+ErrorResult
+&
+aRv
 )
 ;
 using
