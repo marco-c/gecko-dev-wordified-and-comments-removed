@@ -77,6 +77,10 @@ to
 -
 private
 "
+    
+"
+ShadowRealm
+"
 ]
 )
 FEATURE_CHECK_NEEDED
@@ -271,20 +275,6 @@ regexp
 SHELL_OPTIONS
 =
 {
-    
-"
-ShadowRealm
-"
-:
-"
--
--
-enable
--
-shadow
--
-realms
-"
     
 "
 symbols
