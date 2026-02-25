@@ -411,12 +411,6 @@ bin
 :
 MOZ_FETCHES_DIR
 /
-upx
-/
-bin
-:
-MOZ_FETCHES_DIR
-/
 fxc2
 /
 bin
