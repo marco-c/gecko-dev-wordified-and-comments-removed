@@ -10554,9 +10554,9 @@ frameloader
 "
 )
 ;
-mDocShell
-=
-nullptr
+Destroy
+(
+)
 ;
 return
 NS_ERROR_FAILURE
@@ -10920,6 +10920,10 @@ a
 frameloader
 !
 "
+)
+;
+Destroy
+(
 )
 ;
 return
