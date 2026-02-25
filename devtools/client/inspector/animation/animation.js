@@ -1256,11 +1256,6 @@ setCurrentTimes
 animations
 currentTime
 true
-{
-relativeToCreatedTime
-:
-true
-}
 )
 ;
 }
