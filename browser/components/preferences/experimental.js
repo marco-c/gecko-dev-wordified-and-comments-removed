@@ -170,13 +170,6 @@ _removeObservers
 )
 )
 ;
-await
-this
-.
-_queueRender
-(
-)
-;
 Services
 .
 obs
@@ -194,6 +187,13 @@ this
 _observerAdded
 =
 true
+;
+await
+this
+.
+_queueRender
+(
+)
 ;
 }
 _queueRender
