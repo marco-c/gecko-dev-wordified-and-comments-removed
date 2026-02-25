@@ -502,6 +502,16 @@ testGet3PCBExceptions
 (
 )
 ;
+void
+testCloseCookieDB
+(
+)
+;
+void
+testOpenCookieDB
+(
+)
+;
 int64_t
 maybeCapExpiry
 (
