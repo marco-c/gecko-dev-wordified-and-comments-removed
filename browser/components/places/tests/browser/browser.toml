@@ -1219,6 +1219,13 @@ js
 ]
 [
 "
+browser_toolbar_drop_indicator_empty
+.
+js
+"
+]
+[
+"
 browser_toolbar_drop_multiple_flavors
 .
 js
