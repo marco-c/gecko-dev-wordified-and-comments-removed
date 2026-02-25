@@ -1714,6 +1714,16 @@ if
 moved
 )
 {
+Glean
+.
+ipprotection
+.
+removedFromToolbar
+.
+record
+(
+)
+;
 lazy
 .
 IPPProxyManager
