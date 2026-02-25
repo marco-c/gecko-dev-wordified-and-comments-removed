@@ -70,17 +70,6 @@ Ci
 nsIPKCS11ModuleDB
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-PathUtils
-"
-]
-)
-;
 var
 {
 DefaultMap

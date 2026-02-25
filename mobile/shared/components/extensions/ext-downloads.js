@@ -46,17 +46,6 @@ mjs
 }
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-PathUtils
-"
-]
-)
-;
 var
 {
 ignoreEvent

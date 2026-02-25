@@ -55,17 +55,6 @@ mjs
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-PathUtils
-"
-]
-)
-;
 this
 .
 test
