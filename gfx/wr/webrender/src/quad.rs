@@ -1393,6 +1393,14 @@ frame_context
 .
 spatial_tree
 )
+.
+intersection_unchecked
+(
+&
+clip_chain
+.
+local_clip_rect
+)
 ;
 let
 stride
@@ -2805,6 +2813,12 @@ round
 (
 )
 device_clip_rect
+)
+.
+intersection_unchecked
+(
+&
+device_prim_rect
 )
 ;
 let
