@@ -1152,6 +1152,15 @@ Tools
 ChatsHistory
 "
 :
+FirefoxViewHandler
+.
+openTab
+(
+"
+chats
+"
+)
+;
 break
 ;
 case

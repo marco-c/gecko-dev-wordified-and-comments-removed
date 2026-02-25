@@ -287,6 +287,13 @@ js
 ]
 [
 "
+browser_smartwindow_history_commands
+.
+js
+"
+]
+[
+"
 browser_smartwindow_init
 .
 js
