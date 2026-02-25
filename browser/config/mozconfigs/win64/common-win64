@@ -72,12 +72,8 @@ MOZ_FETCHES_DIR
 }
 /
 upx
--
-3
-.
-95
--
-win64
+/
+bin
 /
 upx
 .
