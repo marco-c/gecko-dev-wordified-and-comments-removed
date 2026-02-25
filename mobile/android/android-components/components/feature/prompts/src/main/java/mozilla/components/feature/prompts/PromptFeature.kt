@@ -3816,6 +3816,15 @@ activePromptRequest
 as
 SelectLoginPrompt
 )
+emailMaskPromptViewListener
+?
+.
+dismissCurrentEmailMaskPrompt
+(
+activePromptRequest
+as
+SelectLoginPrompt
+)
 }
 is
 SaveLoginPrompt
