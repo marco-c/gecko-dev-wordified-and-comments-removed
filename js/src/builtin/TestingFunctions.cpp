@@ -23176,7 +23176,7 @@ cx
 obj
 propId
 val
-0
+JSPROP_PERMANENT
 )
 ;
 }
@@ -23288,7 +23288,7 @@ cx
 obj
 propId
 val
-0
+JSPROP_PERMANENT
 )
 )
 {
