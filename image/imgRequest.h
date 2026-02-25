@@ -853,12 +853,6 @@ nsIChannel
 >
 mNewRedirectChannel
 ;
-mozilla
-:
-:
-CORSMode
-mCORSMode
-;
 nsCOMPtr
 <
 nsIReferrerInfo
@@ -872,6 +866,12 @@ uint32_t
 mBoostCategoriesRequested
 =
 0
+;
+mozilla
+:
+:
+CORSMode
+mCORSMode
 ;
 bool
 mImageAvailable
