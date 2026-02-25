@@ -734,7 +734,7 @@ start_count_
 return
 ;
 }
-SignalNetworksChanged
+NotifyNetworksChanged
 (
 )
 ;

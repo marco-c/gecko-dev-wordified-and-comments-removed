@@ -515,7 +515,7 @@ safety_flag_
 this
 ]
 {
-SignalNetworksChanged
+NotifyNetworksChanged
 (
 )
 ;
@@ -839,7 +839,7 @@ changed
 sent_first_update_
 )
 {
-SignalNetworksChanged
+NotifyNetworksChanged
 (
 )
 ;
