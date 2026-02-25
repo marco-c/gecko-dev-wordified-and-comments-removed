@@ -593,11 +593,6 @@ ICUObject
 \
 _
 (
-IntlOptions
-)
-\
-_
-(
 FinalizationRegistryRecordVector
 )
 \
