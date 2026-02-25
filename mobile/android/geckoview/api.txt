@@ -796,15 +796,6 @@ mozilla
 .
 geckoview
 .
-HandlerThread
-;
-import
-org
-.
-mozilla
-.
-geckoview
-.
 Image
 ;
 import
@@ -1564,7 +1555,7 @@ Autocomplete
 AddressStructure
 {
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -6171,7 +6162,7 @@ interface
 ExperimentDelegate
 {
 method
-HandlerThread
+AnyThread
 NonNull
 default
 public
@@ -6186,7 +6177,7 @@ String
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 default
 public
@@ -6203,7 +6194,7 @@ String
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 default
 public
@@ -6218,7 +6209,7 @@ String
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 default
 public
@@ -6689,7 +6680,7 @@ GeckoPreferenceController
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -6704,7 +6695,7 @@ String
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -6724,7 +6715,7 @@ String
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -6750,7 +6741,7 @@ String
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -6768,7 +6759,7 @@ int
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -6786,7 +6777,7 @@ int
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -6804,7 +6795,7 @@ int
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -6955,7 +6946,7 @@ Observer
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -6970,7 +6961,7 @@ String
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -7031,7 +7022,7 @@ Observer
 Delegate
 {
 method
-HandlerThread
+AnyThread
 default
 public
 void
@@ -10264,7 +10255,7 @@ close
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -10276,7 +10267,7 @@ containsFormData
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -10655,7 +10646,7 @@ getTranslationsSessionDelegate
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -10667,7 +10658,7 @@ getUserAgent
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -10733,7 +10724,7 @@ int
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -10753,7 +10744,7 @@ isOpen
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -10864,7 +10855,7 @@ SessionState
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -10876,7 +10867,7 @@ saveAsPdf
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -18746,39 +18737,6 @@ GeckoWebExecutor
 FetchFlags
 {
 }
-Documented
-Retention
-(
-value
-=
-RetentionPolicy
-.
-CLASS
-)
-Target
-(
-value
-=
-{
-ElementType
-.
-METHOD
-ElementType
-.
-CONSTRUCTOR
-ElementType
-.
-TYPE
-ElementType
-.
-PARAMETER
-}
-)
-public
-interface
-HandlerThread
-{
-}
 AnyThread
 public
 class
@@ -19505,7 +19463,7 @@ GeckoSession
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -20560,7 +20518,7 @@ StorageController
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -20573,7 +20531,7 @@ long
 )
 ;
 method
-HandlerThread
+AnyThread
 public
 void
 clearDataForSessionContext
@@ -20583,7 +20541,7 @@ String
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -20598,7 +20556,7 @@ long
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -20613,7 +20571,7 @@ long
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -20647,7 +20605,7 @@ boolean
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -20668,7 +20626,7 @@ String
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -20690,7 +20648,7 @@ boolean
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -20714,7 +20672,7 @@ boolean
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -20729,7 +20687,7 @@ boolean
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -20744,7 +20702,7 @@ int
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -20986,7 +20944,7 @@ RuntimeTranslation
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -21003,7 +20961,7 @@ String
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -21022,7 +20980,7 @@ TranslationPair
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -21037,7 +20995,7 @@ String
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -21054,7 +21012,7 @@ getLanguageSettings
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -21070,7 +21028,7 @@ getNeverTranslateSiteList
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -21083,7 +21041,7 @@ isTranslationsEngineSupported
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -21103,7 +21061,7 @@ listModelDownloadStates
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -21120,7 +21078,7 @@ listSupportedLanguages
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -21139,7 +21097,7 @@ ModelManagementOptions
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -21155,7 +21113,7 @@ preferredLanguages
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -21172,7 +21130,7 @@ String
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 static
@@ -21583,7 +21541,7 @@ getHandler
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -21595,7 +21553,7 @@ getNeverTranslateSiteSetting
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -21607,7 +21565,7 @@ restoreOriginalPage
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -21621,7 +21579,7 @@ Boolean
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -21643,7 +21601,7 @@ TranslationOptions
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -24663,7 +24621,7 @@ class
 WebExtensionController
 {
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -24701,7 +24659,7 @@ int
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -24724,7 +24682,7 @@ disableExtensionProcessSpawning
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -24747,7 +24705,7 @@ enableExtensionProcessSpawning
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -24774,7 +24732,7 @@ getPromptDelegate
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -24790,7 +24748,7 @@ String
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -24804,7 +24762,7 @@ String
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -24818,7 +24776,7 @@ String
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -24833,7 +24791,7 @@ list
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -24871,7 +24829,7 @@ AddonManagerDelegate
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -24933,7 +24891,7 @@ boolean
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
@@ -24947,7 +24905,7 @@ WebExtension
 )
 ;
 method
-HandlerThread
+AnyThread
 NonNull
 public
 GeckoResult
