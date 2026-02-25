@@ -480,9 +480,11 @@ false
 ;
 }
 return
-SendPacket
+RtpTransport
+:
+:
+SendRtpPacket
 (
-false
 packet
 updated_options
 flags
@@ -627,9 +629,11 @@ false
 ;
 }
 return
-SendPacket
+RtpTransport
+:
+:
+SendRtcpPacket
 (
-true
 packet
 options
 flags
