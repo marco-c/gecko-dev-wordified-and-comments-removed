@@ -1590,6 +1590,12 @@ false
 precise_linear_gradients
 :
 false
+precise_radial_gradients
+:
+false
+precise_conic_gradients
+:
+false
 }
 }
 }
