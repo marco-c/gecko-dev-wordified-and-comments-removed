@@ -23646,6 +23646,15 @@ MDefinition
 Opcode
 :
 :
+Add
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 DebugEnterGCUnsafeRegion
 :
 case
