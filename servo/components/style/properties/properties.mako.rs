@@ -350,6 +350,7 @@ VariableDeclaration
 CustomDeclaration
 WideKeywordDeclaration
 NonCustomPropertyIterator
+TransitionPropertyIterator
 }
 ;
 use
@@ -10876,18 +10877,12 @@ self
 )
 -
 >
-animated_properties
-:
-:
 TransitionPropertyIterator
 <
 '
 a
 >
 {
-animated_properties
-:
-:
 TransitionPropertyIterator
 :
 :
