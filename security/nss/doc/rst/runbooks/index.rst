@@ -26,6 +26,9 @@ glob
 :
 hidden
 :
+fuzzing
+.
+rst
 releasing
 .
 rst

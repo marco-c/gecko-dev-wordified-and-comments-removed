@@ -24522,7 +24522,7 @@ NULL
 )
 {
 return
-CKR_SESSION_HANDLE_INVALID
+PR_FALSE
 ;
 }
 key1obj
@@ -24686,7 +24686,7 @@ key2obj
 {
 sftk_FreeObject
 (
-key1obj
+key2obj
 )
 ;
 }
@@ -26485,7 +26485,7 @@ isKEM
 sftk_isTrue
 (
 privateKey
-CKA_ENCAPSULATE
+CKA_DECAPSULATE
 )
 ;
 if
@@ -26516,7 +26516,7 @@ key2
 CK_INVALID_HANDLE
 ;
 CK_KEY_TYPE
-genType
+genClass
 =
 CKO_SECRET_KEY
 ;
@@ -26524,7 +26524,7 @@ CK_ATTRIBUTE
 template
 =
 {
-CKA_KEY_TYPE
+CKA_CLASS
 NULL
 0
 }
@@ -26534,7 +26534,7 @@ template
 pValue
 =
 &
-genType
+genClass
 ;
 template
 .
@@ -26542,7 +26542,7 @@ ulValueLen
 =
 sizeof
 (
-genType
+genClass
 )
 ;
 crv
@@ -26677,7 +26677,7 @@ key2
 {
 crv
 =
-CKR_DEVICE_ERROR
+CKR_GENERAL_ERROR
 ;
 goto
 kem_done
@@ -26729,7 +26729,7 @@ CKR_OK
 )
 {
 return
-CKR_DEVICE_ERROR
+crv
 ;
 }
 }
