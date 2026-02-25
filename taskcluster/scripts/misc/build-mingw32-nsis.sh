@@ -206,7 +206,7 @@ zlib
 .
 3
 .
-1
+2
 make
 -
 f
@@ -562,7 +562,7 @@ zlib
 .
 3
 .
-1
+2
 \
 SKIPUTILS
 =
