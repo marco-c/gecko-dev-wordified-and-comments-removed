@@ -1008,6 +1008,17 @@ arg1
 ;
 #
 else
+#
+ifdef
+JS_USE_LINK_REGISTER
+masm
+.
+pushReturnAddress
+(
+)
+;
+#
+endif
 masm
 .
 push
