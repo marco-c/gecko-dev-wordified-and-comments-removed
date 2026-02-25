@@ -278,6 +278,17 @@ uint32_t
 acks
 )
 ;
+void
+ReportDtlsPacket
+(
+ArrayView
+<
+const
+uint8_t
+>
+data
+)
+;
 int
 GetCountOfReceivedData
 (
