@@ -4486,7 +4486,7 @@ sScreenDepth
 {
 sScreenDepth
 =
-16
+24
 ;
 final
 Context
@@ -4530,12 +4530,6 @@ bitsPerPixel
 >
 =
 24
-&
-&
-isHighMemoryDevice
-(
-applicationContext
-)
 )
 {
 sScreenDepth
