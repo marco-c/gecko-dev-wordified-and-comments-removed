@@ -11489,9 +11489,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-PRCONNECT_BLOCKING_TIME_CONNECTIVITY_CHANGE
 prconnect_blocking_time_link_change
 :
 type
@@ -11987,9 +11984,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-PRCONNECT_FAIL_BLOCKING_TIME_CONNECTIVITY_CHANGE
 prconnect_fail_blocking_time_link_change
 :
 type
@@ -12483,9 +12477,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-PRCONNECTCONTINUE_BLOCKING_TIME_CONNECTIVITY_CHANGE
 prconnectcontinue_blocking_time_link_change
 :
 type
@@ -12975,9 +12966,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-PRCLOSE_TCP_BLOCKING_TIME_CONNECTIVITY_CHANGE
 prclose_tcp_blocking_time_link_change
 :
 type
@@ -13467,9 +13455,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-PRCLOSE_UDP_BLOCKING_TIME_CONNECTIVITY_CHANGE
 prclose_udp_blocking_time_link_change
 :
 type
@@ -14813,9 +14798,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-IPV4_AND_IPV6_ADDRESS_CONNECTIVITY
 rel_preload_miss_ratio
 :
 type
