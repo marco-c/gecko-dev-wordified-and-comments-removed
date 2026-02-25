@@ -12016,7 +12016,7 @@ ExecuteSimpleSQLAsync
 PRAGMA
 optimize
 (
-0x02
+0x12
 )
 "
 _ns
