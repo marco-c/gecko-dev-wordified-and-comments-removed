@@ -2583,6 +2583,15 @@ selected
 tab
 .
 multiselected
+&
+&
+!
+tab
+.
+splitview
+?
+.
+hasActiveTab
 )
 {
 return
