@@ -484,6 +484,14 @@ IsTelemetryEnabledAndNotSleepPhase
 (
 )
 ;
+nsresult
+AttachNeckoIOLayer
+(
+PRFileDesc
+*
+aFd
+)
+;
 PRIntervalTime
 MaxTimeForPrClosePref
 (
