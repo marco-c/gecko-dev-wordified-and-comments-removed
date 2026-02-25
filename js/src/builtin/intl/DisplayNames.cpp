@@ -1101,7 +1101,7 @@ std
 :
 :
 string_view
-StyleToString
+DisplayNamesStyleToString
 (
 DisplayNamesOptions
 :
@@ -1191,7 +1191,7 @@ std
 :
 :
 string_view
-TypeToString
+DisplayNamesTypeToString
 (
 DisplayNamesOptions
 :
@@ -1838,7 +1838,7 @@ styles
 =
 MapOptions
 <
-StyleToString
+DisplayNamesStyleToString
 >
 (
 DisplayNamesOptions
@@ -1908,7 +1908,7 @@ styles
 =
 MapOptions
 <
-StyleToString
+DisplayNamesStyleToString
 >
 (
 DisplayNamesOptions
@@ -2008,7 +2008,7 @@ types
 =
 MapOptions
 <
-TypeToString
+DisplayNamesTypeToString
 >
 (
 DisplayNamesOptions
@@ -2118,7 +2118,7 @@ types
 =
 MapOptions
 <
-TypeToString
+DisplayNamesTypeToString
 >
 (
 DisplayNamesOptions
@@ -3360,7 +3360,7 @@ option
 auto
 sv
 =
-TypeToString
+DisplayNamesTypeToString
 (
 type
 )
@@ -5188,7 +5188,7 @@ CanGC
 >
 (
 cx
-StyleToString
+DisplayNamesStyleToString
 (
 dnOptions
 .
@@ -5245,7 +5245,7 @@ CanGC
 >
 (
 cx
-TypeToString
+DisplayNamesTypeToString
 (
 dnOptions
 .

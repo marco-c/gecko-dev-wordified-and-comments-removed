@@ -834,7 +834,7 @@ std
 :
 :
 string_view
-TypeToString
+ListFormatTypeToString
 (
 ListFormatOptions
 :
@@ -915,7 +915,7 @@ std
 :
 :
 string_view
-StyleToString
+ListFormatStyleToString
 (
 ListFormatOptions
 :
@@ -1228,7 +1228,7 @@ types
 =
 MapOptions
 <
-TypeToString
+ListFormatTypeToString
 >
 (
 ListFormatOptions
@@ -1295,7 +1295,7 @@ styles
 =
 MapOptions
 <
-StyleToString
+ListFormatStyleToString
 >
 (
 ListFormatOptions
@@ -3399,7 +3399,7 @@ CanGC
 >
 (
 cx
-TypeToString
+ListFormatTypeToString
 (
 lfOptions
 .
@@ -3456,7 +3456,7 @@ CanGC
 >
 (
 cx
-StyleToString
+ListFormatStyleToString
 (
 lfOptions
 .

@@ -818,7 +818,7 @@ std
 :
 :
 string_view
-StyleToString
+RelativeTimeStyleToString
 (
 RelativeTimeFormatOptions
 :
@@ -1247,7 +1247,7 @@ styles
 =
 MapOptions
 <
-StyleToString
+RelativeTimeStyleToString
 >
 (
 RelativeTimeFormatOptions
@@ -3216,7 +3216,7 @@ CanGC
 >
 (
 cx
-StyleToString
+RelativeTimeStyleToString
 (
 rtfOptions
 .
