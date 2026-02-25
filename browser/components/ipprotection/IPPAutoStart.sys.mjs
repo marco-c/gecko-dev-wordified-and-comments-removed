@@ -747,6 +747,7 @@ if
 (
 this
 .
+#
 autoStartAndAtStartup
 )
 {
