@@ -11,11 +11,6 @@ memory
 >
 #
 include
-<
-optional
->
-#
-include
 "
 api
 /
@@ -92,14 +87,6 @@ OnEncodedFrame
 (
 EncodeResults
 results
-std
-:
-:
-optional
-<
-EncodeResults
->
-baseline_results
 )
 override
 ;

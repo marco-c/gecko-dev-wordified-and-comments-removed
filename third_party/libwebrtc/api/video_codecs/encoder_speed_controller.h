@@ -186,14 +186,6 @@ OnEncodedFrame
 (
 EncodeResults
 results
-std
-:
-:
-optional
-<
-EncodeResults
->
-baseline_results
 )
 =
 0
