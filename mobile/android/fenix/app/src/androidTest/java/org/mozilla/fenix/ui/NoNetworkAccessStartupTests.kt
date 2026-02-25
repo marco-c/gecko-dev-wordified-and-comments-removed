@@ -689,6 +689,9 @@ clickSettingsButton
 }
 .
 openTurnOnSyncMenu
+(
+composeTestRule
+)
 {
 tapOnUseEmailToSignIn
 (

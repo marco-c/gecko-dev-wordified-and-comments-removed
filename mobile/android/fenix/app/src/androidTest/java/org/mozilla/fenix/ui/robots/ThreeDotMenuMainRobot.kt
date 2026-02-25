@@ -5752,7 +5752,7 @@ clickSignInToSyncButton
 (
 interact
 :
-SyncSignInRobot
+SettingsSignInToSyncRobot
 .
 (
 )
@@ -5761,7 +5761,7 @@ SyncSignInRobot
 Unit
 )
 :
-SyncSignInRobot
+SettingsSignInToSyncRobot
 .
 Transition
 {
@@ -5825,7 +5825,7 @@ menu
 button
 "
 )
-SyncSignInRobot
+SettingsSignInToSyncRobot
 (
 )
 .
@@ -5833,7 +5833,7 @@ interact
 (
 )
 return
-SyncSignInRobot
+SettingsSignInToSyncRobot
 .
 Transition
 (

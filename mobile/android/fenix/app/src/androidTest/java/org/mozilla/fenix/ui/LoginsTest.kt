@@ -787,6 +787,9 @@ openLoginsAndPasswordSubMenu
 }
 .
 openSyncLogins
+(
+composeTestRule
+)
 {
 verifyReadyToScanOption
 (

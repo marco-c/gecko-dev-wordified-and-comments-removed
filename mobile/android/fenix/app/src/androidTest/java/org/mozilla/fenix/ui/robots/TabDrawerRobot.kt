@@ -3945,7 +3945,7 @@ clickSignInToSyncButton
 (
 interact
 :
-SyncSignInRobot
+SettingsSignInToSyncRobot
 .
 (
 )
@@ -3954,7 +3954,7 @@ SyncSignInRobot
 Unit
 )
 :
-SyncSignInRobot
+SettingsSignInToSyncRobot
 .
 Transition
 {
@@ -4028,7 +4028,7 @@ new
 window
 "
 )
-SyncSignInRobot
+SettingsSignInToSyncRobot
 (
 )
 .
@@ -4036,7 +4036,7 @@ interact
 (
 )
 return
-SyncSignInRobot
+SettingsSignInToSyncRobot
 .
 Transition
 (

@@ -7515,7 +7515,7 @@ clickSignInOnboardingButton
 (
 interact
 :
-SyncSignInRobot
+SettingsSignInToSyncRobot
 .
 (
 )
@@ -7524,7 +7524,7 @@ SyncSignInRobot
 Unit
 )
 :
-SyncSignInRobot
+SettingsSignInToSyncRobot
 .
 Transition
 {
@@ -7585,7 +7585,7 @@ onboarding
 button
 "
 )
-SyncSignInRobot
+SettingsSignInToSyncRobot
 (
 )
 .
@@ -7593,7 +7593,7 @@ interact
 (
 )
 return
-SyncSignInRobot
+SettingsSignInToSyncRobot
 .
 Transition
 (

@@ -805,6 +805,9 @@ openLoginsAndPasswordSubMenu
 }
 .
 openSyncLogins
+(
+composeTestRule
+)
 {
 /
 /

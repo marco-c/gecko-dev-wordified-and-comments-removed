@@ -6366,9 +6366,12 @@ Transition
 fun
 openTurnOnSyncMenu
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
-SettingsTurnOnSyncRobot
+SettingsSignInToSyncRobot
 .
 (
 )
@@ -6377,7 +6380,7 @@ SettingsTurnOnSyncRobot
 Unit
 )
 :
-SettingsTurnOnSyncRobot
+SettingsSignInToSyncRobot
 .
 Transition
 {
@@ -6441,7 +6444,7 @@ data
 button
 "
 )
-SettingsTurnOnSyncRobot
+SettingsSignInToSyncRobot
 (
 )
 .
@@ -6449,10 +6452,11 @@ interact
 (
 )
 return
-SettingsTurnOnSyncRobot
+SettingsSignInToSyncRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun

@@ -1385,9 +1385,12 @@ composeTestRule
 fun
 openSyncLogins
 (
+composeTestRule
+:
+ComposeTestRule
 interact
 :
-SettingsTurnOnSyncRobot
+SettingsSignInToSyncRobot
 .
 (
 )
@@ -1396,7 +1399,7 @@ SettingsTurnOnSyncRobot
 Unit
 )
 :
-SettingsTurnOnSyncRobot
+SettingsSignInToSyncRobot
 .
 Transition
 {
@@ -1451,7 +1454,7 @@ devices
 button
 "
 )
-SettingsTurnOnSyncRobot
+SettingsSignInToSyncRobot
 (
 )
 .
@@ -1459,10 +1462,11 @@ interact
 (
 )
 return
-SettingsTurnOnSyncRobot
+SettingsSignInToSyncRobot
 .
 Transition
 (
+composeTestRule
 )
 }
 fun
