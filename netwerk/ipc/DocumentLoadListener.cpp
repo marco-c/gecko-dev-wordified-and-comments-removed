@@ -4940,6 +4940,9 @@ NS_ERROR_ABORT
 NS_ERROR_ABORT
 )
 ;
+self
+-
+>
 mParentChannelListener
 =
 nullptr
@@ -4950,6 +4953,9 @@ else
 nsresult
 rv
 =
+self
+-
+>
 mChannel
 -
 >
@@ -4975,6 +4981,9 @@ rv
 rv
 )
 ;
+self
+-
+>
 mParentChannelListener
 =
 nullptr
