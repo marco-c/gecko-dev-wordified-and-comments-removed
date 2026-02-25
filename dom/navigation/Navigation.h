@@ -254,6 +254,12 @@ return
 mFinishedPromise
 ;
 }
+bool
+IsHandled
+(
+)
+const
+;
 RefPtr
 <
 Navigation
