@@ -2640,7 +2640,9 @@ load
 html
 asserts
 (
-2
+1
+-
+1
 )
 load
 675246
@@ -2650,7 +2652,7 @@ load
 xhtml
 #
 Bug
-675713
+457400
 asserts
 -
 if
