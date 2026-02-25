@@ -7195,6 +7195,17 @@ id
 "
 tabSwitch
 "
+context
+:
+{
+currentTabsOpen
+:
+gBrowser
+.
+visibleTabs
+.
+length
+}
 }
 )
 ;
