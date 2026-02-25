@@ -24,7 +24,7 @@ str
 }
 ;
 use
-serde_core
+serde
 :
 :
 {
@@ -383,11 +383,11 @@ bitflags
 [
 derive
 (
-serde_lib
+serde_derive
 :
 :
 Serialize
-serde_lib
+serde_derive
 :
 :
 Deserialize
@@ -400,11 +400,6 @@ Eq
 [
 serde
 (
-crate
-=
-"
-serde_lib
-"
 transparent
 )
 ]

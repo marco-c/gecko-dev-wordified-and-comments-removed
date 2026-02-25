@@ -951,9 +951,9 @@ memory
 usage
 :
 {
-mem
 }
 "
+mem
 )
 ;
 }
