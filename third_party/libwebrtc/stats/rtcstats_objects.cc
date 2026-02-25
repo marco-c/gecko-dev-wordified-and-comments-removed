@@ -2177,6 +2177,14 @@ roundTripTimeMeasurements
 &
 round_trip_time_measurements
 )
+AttributeInit
+(
+"
+packetsWithBleachedEct1Marking
+"
+&
+packets_with_bleached_ect1_marking
+)
 )
 RTCRemoteInboundRtpStreamStats
 :
