@@ -87,15 +87,11 @@ mozilla
 .
 components
 .
-compose
-.
-browser
+concept
 .
 awesomebar
 .
-internal
-.
-optimizedsuggestions
+AwesomeBar
 .
 ChangePercent
 internal

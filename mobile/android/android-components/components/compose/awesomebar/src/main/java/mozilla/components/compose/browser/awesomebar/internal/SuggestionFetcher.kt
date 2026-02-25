@@ -341,7 +341,7 @@ List
 <
 AwesomeBar
 .
-Suggestion
+SuggestionItem
 >
 >
 >
@@ -836,7 +836,7 @@ List
 <
 AwesomeBar
 .
-Suggestion
+SuggestionItem
 >
 profilerStartTime
 :
