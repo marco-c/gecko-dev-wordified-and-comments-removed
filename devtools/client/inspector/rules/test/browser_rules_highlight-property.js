@@ -89,6 +89,17 @@ function
 )
 {
 await
+pushPref
+(
+"
+ui
+.
+prefersReducedMotion
+"
+1
+)
+;
+await
 addTab
 (
 "
@@ -214,6 +225,7 @@ highlighted
 let
 isHighlighted
 =
+await
 view
 .
 highlightProperty
@@ -330,6 +342,7 @@ highlighted
 ;
 isHighlighted
 =
+await
 view
 .
 highlightProperty
@@ -444,6 +457,7 @@ highlighted
 ;
 isHighlighted
 =
+await
 view
 .
 highlightProperty

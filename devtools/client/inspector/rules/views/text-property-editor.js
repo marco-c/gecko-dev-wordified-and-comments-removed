@@ -1470,6 +1470,7 @@ addEventListener
 "
 click
 "
+async
 event
 =
 >
@@ -1546,6 +1547,7 @@ rule
 .
 pseudoElement
 ;
+await
 this
 .
 ruleView

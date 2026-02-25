@@ -1200,7 +1200,6 @@ hasHigherPriority
 =
 this
 .
-#
 hasHigherPriorityThanEarlierProp
 (
 computedProp
@@ -1212,7 +1211,6 @@ startingStyleHasHigherPriority
 =
 this
 .
-#
 hasHigherPriorityThanEarlierProp
 (
 computedProp
@@ -1936,7 +1934,6 @@ updateUnusedCssVariables
 ;
 }
 }
-#
 hasHigherPriorityThanEarlierProp
 (
 computedProp

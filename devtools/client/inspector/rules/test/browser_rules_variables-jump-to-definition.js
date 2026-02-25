@@ -373,6 +373,17 @@ await
 pushPref
 (
 "
+ui
+.
+prefersReducedMotion
+"
+1
+)
+;
+await
+pushPref
+(
+"
 devtools
 .
 inspector
