@@ -391,9 +391,9 @@ attribute
 await
 editAttributeAndTab
 (
+'
 "
->
-"
+'
 inspector
 )
 ;
