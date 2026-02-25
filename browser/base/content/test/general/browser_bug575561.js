@@ -170,7 +170,7 @@ href
 "
 about
 :
-logo
+blank
 "
 ;
 doc
@@ -319,7 +319,18 @@ BrowserTestUtils
 browserLoaded
 (
 browser
+{
+wantLoad
+:
+(
+)
+=
+>
+true
+includeSubFrames
+:
 testSubFrame
+}
 )
 ;
 }

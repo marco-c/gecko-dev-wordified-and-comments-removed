@@ -823,6 +823,17 @@ test_bug993423
 html
 "
 ]
+support
+-
+files
+=
+[
+"
+image
+.
+png
+"
+]
 [
 "
 test_bug1005806

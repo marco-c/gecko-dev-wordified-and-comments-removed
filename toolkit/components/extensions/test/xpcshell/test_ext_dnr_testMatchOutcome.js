@@ -1085,7 +1085,7 @@ config
 "
 about
 :
-logo
+mozilla
 "
 "
 chrome
