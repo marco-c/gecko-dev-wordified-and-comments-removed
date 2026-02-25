@@ -3,8 +3,10 @@ use
 strict
 "
 ;
-function
+class
 MenuItem
+{
+constructor
 (
 {
 accelerator
@@ -143,6 +145,7 @@ visible
 =
 visible
 ;
+}
 }
 module
 .
