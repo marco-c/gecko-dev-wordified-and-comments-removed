@@ -28,7 +28,7 @@ const
 int
 minor_version
 =
-23
+24
 ;
 const
 int
@@ -61,7 +61,7 @@ short_version
 "
 1
 .
-23
+24
 .
 0
 "
@@ -74,7 +74,7 @@ full_version
 "
 1
 .
-23
+24
 .
 0
 "
@@ -86,13 +86,13 @@ build_date
 =
 "
 Thu
-Sep
-25
-07
+Nov
+20
+09
 :
-47
+38
 :
-31
+52
 PM
 UTC
 2025

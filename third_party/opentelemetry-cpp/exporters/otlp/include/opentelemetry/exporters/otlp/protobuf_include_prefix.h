@@ -128,6 +128,14 @@ warning
 (
 disable
 :
+4702
+)
+#
+pragma
+warning
+(
+disable
+:
 4946
 )
 #
