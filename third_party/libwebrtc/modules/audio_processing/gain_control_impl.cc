@@ -1892,13 +1892,6 @@ int
 sample_rate_hz
 )
 {
-data_dumper_
--
->
-InitiateNewSetOfRecordings
-(
-)
-;
 RTC_DCHECK
 (
 sample_rate_hz
