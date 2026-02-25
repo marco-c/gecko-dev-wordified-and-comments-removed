@@ -141,7 +141,7 @@ DefaultFenixSettingsIndexer
 .
 Companion
 .
-preferenceFileInformationList
+defaultPreferenceFileInformationList
 private
 val
 Context
@@ -232,7 +232,7 @@ protoItem
 val
 prefInfo
 =
-preferenceFileInformationList
+defaultPreferenceFileInformationList
 .
 find
 {

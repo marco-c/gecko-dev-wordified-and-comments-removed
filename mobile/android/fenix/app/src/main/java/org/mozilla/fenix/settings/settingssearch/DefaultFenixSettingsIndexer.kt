@@ -185,6 +185,16 @@ val
 context
 :
 Context
+private
+val
+preferenceFileInformationList
+:
+List
+<
+PreferenceFileInformation
+>
+=
+defaultPreferenceFileInformationList
 )
 :
 SettingsIndexer
@@ -1815,7 +1825,7 @@ s
 *
 /
 val
-preferenceFileInformationList
+defaultPreferenceFileInformationList
 =
 listOf
 (
