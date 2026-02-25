@@ -116,6 +116,13 @@ h
 #
 include
 "
+nsIDocShell
+.
+h
+"
+#
+include
+"
 nsIExpatSink
 .
 h
