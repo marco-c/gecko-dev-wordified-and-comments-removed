@@ -5560,6 +5560,15 @@ value
 enabled
 :
 true
+-
+channel
+:
+nightly
+value
+:
+enabled
+:
+true
 native
 -
 share
