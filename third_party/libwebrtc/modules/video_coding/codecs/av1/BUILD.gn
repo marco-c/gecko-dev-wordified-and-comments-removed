@@ -1906,6 +1906,17 @@ svc
 :
 scalable_video_controller
 "
+"
+.
+.
+/
+.
+.
+/
+svc
+:
+svc_rate_allocator
+"
 ]
 }
 }
