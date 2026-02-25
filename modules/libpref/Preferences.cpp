@@ -24798,6 +24798,12 @@ defined
 (
 MOZ_WIDGET_GTK
 )
+&
+&
+defined
+(
+MOZ_SYSTEM_PREFERENCES
+)
 nsCOMPtr
 <
 nsIFile
