@@ -159,6 +159,14 @@ NotifyFirstPacketReceived
 ;
 virtual
 void
+NotifyFirstPacketReceivedAfterReceptiveChange
+(
+)
+=
+0
+;
+virtual
+void
 set_stream_ids
 (
 std

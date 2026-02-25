@@ -140,6 +140,15 @@ media_type
 =
 0
 ;
+virtual
+void
+OnFirstPacketReceivedAfterReceptiveChange
+(
+MediaType
+media_type
+)
+{
+}
 protected
 :
 virtual

@@ -420,6 +420,17 @@ override
 MOCK_METHOD
 (
 void
+NotifyFirstPacketReceivedAfterReceptiveChange
+(
+)
+(
+override
+)
+)
+;
+MOCK_METHOD
+(
+void
 set_stream_ids
 (
 std

@@ -53,6 +53,17 @@ media_type
 )
 override
 ;
+void
+OnFirstPacketReceivedAfterReceptiveChange
+(
+webrtc
+:
+:
+MediaType
+media_type
+)
+override
+;
 private
 :
 __weak
