@@ -441,6 +441,16 @@ auto
 }
 &
 [
+hidden
+]
+{
+display
+:
+none
+;
+}
+&
+[
 open
 ]
 >
