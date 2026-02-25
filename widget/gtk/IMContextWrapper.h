@@ -1714,6 +1714,16 @@ aFollowingEvent
 )
 ;
 bool
+DispatchKeyEventsForCommittedCharacter
+(
+WidgetKeyboardEvent
+&
+aKeyEvent
+bool
+aDispatchKeyUp
+)
+;
+bool
 DispatchCompositionStart
 (
 GtkIMContext
