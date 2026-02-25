@@ -611,16 +611,6 @@ NS_IsMainThread
 )
 )
 ;
-if
-(
-StaticPrefs
-:
-:
-dom_arena_allocator_enabled_AtStartup
-(
-)
-)
-{
 mArena
 =
 new
@@ -637,7 +627,6 @@ aKey
 mKey
 )
 ;
-}
 }
 DocGroup
 :
