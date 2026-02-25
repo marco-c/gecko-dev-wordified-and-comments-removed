@@ -5054,16 +5054,10 @@ name
 .
 map
 (
-|
-n
-|
 Arc
 :
 :
 from
-(
-n
-)
 )
 ;
 self
