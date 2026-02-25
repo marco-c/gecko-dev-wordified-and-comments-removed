@@ -976,9 +976,11 @@ launchArg
 =
 u
 "
-skipNotificationServer
+invalid
+key
 \
-ntrue
+ninvalid
+value
 "
 _ns
 ;
