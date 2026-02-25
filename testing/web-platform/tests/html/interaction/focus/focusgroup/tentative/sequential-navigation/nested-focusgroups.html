@@ -376,6 +376,9 @@ t
 =
 >
 {
+await
+focusAndWait
+(
 document
 .
 getElementById
@@ -384,9 +387,6 @@ getElementById
 before1
 "
 )
-.
-focus
-(
 )
 ;
 await
@@ -523,6 +523,9 @@ t
 =
 >
 {
+await
+focusAndWait
+(
 document
 .
 getElementById
@@ -531,13 +534,10 @@ getElementById
 after1
 "
 )
-.
-focus
-(
 )
 ;
 await
-sendTabBackward
+navigateFocusBackward
 (
 )
 ;
@@ -568,7 +568,7 @@ focusgroup
 )
 ;
 await
-sendTabBackward
+navigateFocusBackward
 (
 )
 ;
@@ -599,7 +599,7 @@ element
 )
 ;
 await
-sendTabBackward
+navigateFocusBackward
 (
 )
 ;
@@ -628,7 +628,7 @@ focusgroup
 )
 ;
 await
-sendTabBackward
+navigateFocusBackward
 (
 )
 ;
