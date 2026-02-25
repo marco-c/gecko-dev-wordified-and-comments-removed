@@ -1578,6 +1578,14 @@ testharness
 -
 -
 -
+test
+-
+type
+=
+crashtest
+-
+-
+-
 default
 -
 exclude
