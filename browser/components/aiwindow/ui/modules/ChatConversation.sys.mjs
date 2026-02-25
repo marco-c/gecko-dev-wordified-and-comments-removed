@@ -116,7 +116,6 @@ mjs
 ;
 import
 {
-makeGuid
 getRoleLabel
 }
 from
@@ -323,7 +322,9 @@ const
 {
 id
 =
-makeGuid
+crypto
+.
+randomUUID
 (
 )
 title
