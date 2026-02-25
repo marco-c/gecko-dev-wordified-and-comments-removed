@@ -269,13 +269,6 @@ gets
 echoed
 .
 "
-telemetryOptions
-:
-{
-attach
-:
-true
-}
 }
 )
 ;
@@ -603,11 +596,6 @@ engine_run
 event
 "
 )
-;
-await
-res
-.
-telemetryPromise
 ;
 const
 value
