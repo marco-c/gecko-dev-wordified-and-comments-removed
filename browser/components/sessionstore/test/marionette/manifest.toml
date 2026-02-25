@@ -311,6 +311,13 @@ py
 ]
 [
 "
+test_tabnotes_canonicalurl_restore
+.
+py
+"
+]
+[
+"
 test_taskbartab_restore
 .
 py
