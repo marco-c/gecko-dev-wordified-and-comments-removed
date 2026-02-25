@@ -291,7 +291,7 @@ called
 ;
 }
 [
-=
+this
 ]
 (
 ResponseRejectReason
@@ -347,7 +347,7 @@ mActor
 SendPing
 (
 [
-=
+this
 ]
 (
 bool
