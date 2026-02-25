@@ -2069,7 +2069,7 @@ const
 SVGElement
 *
 aSVGElement
-uint8_t
+uint16_t
 aUnitType
 )
 const
@@ -2100,7 +2100,7 @@ const
 SVGElement
 *
 aSVGElement
-uint8_t
+uint16_t
 aUnitType
 )
 const
@@ -2131,7 +2131,7 @@ const
 SVGViewportElement
 *
 aCtx
-uint8_t
+uint16_t
 aUnitType
 )
 const
@@ -2162,7 +2162,7 @@ GetPixelsPerUnitWithZoom
 nsIFrame
 *
 aFrame
-uint8_t
+uint16_t
 aUnitType
 )
 const
@@ -2256,7 +2256,7 @@ const
 UserSpaceMetrics
 &
 aMetrics
-uint8_t
+uint16_t
 aUnitType
 )
 const

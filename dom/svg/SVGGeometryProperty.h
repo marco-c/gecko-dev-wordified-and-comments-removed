@@ -1458,7 +1458,7 @@ SVGGEOMETRYPROPERTY_EVAL_ALL
 nsCSSUnit
 SpecifiedUnitTypeToCSSUnit
 (
-uint8_t
+uint16_t
 aSpecifiedUnit
 )
 ;

@@ -1909,10 +1909,7 @@ internalItem
 SetValueAndUnit
 (
 aValue
-uint8_t
-(
 aUnit
-)
 )
 ;
 return

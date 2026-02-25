@@ -253,7 +253,7 @@ SetBaseValue
 (
 float
 aValue
-uint8_t
+uint16_t
 aUnit
 SVGElement
 *
@@ -280,7 +280,7 @@ SetAnimValue
 (
 float
 aValue
-uint8_t
+uint16_t
 aUnit
 SVGElement
 *
@@ -297,7 +297,7 @@ SVGElement
 aSVGElement
 )
 ;
-uint8_t
+uint16_t
 GetBaseValueUnit
 (
 )
@@ -307,7 +307,7 @@ return
 mBaseValUnit
 ;
 }
-uint8_t
+uint16_t
 GetAnimValueUnit
 (
 )
@@ -417,7 +417,7 @@ static
 float
 GetDegreesPerUnit
 (
-uint8_t
+uint16_t
 aUnit
 )
 ;
