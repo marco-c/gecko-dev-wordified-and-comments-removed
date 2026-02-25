@@ -597,7 +597,7 @@ std
 :
 unique_ptr
 <
-FakeIceTransport
+FakeIceTransportInternal
 >
 internal
 )
@@ -615,7 +615,7 @@ nullptr
 return
 make_ref_counted
 <
-FakeIceTransportWrapper
+FakeIceTransport
 >
 (
 std
@@ -771,7 +771,7 @@ std
 :
 make_unique
 <
-FakeIceTransport
+FakeIceTransportInternal
 >
 (
 kTransportName
@@ -815,7 +815,7 @@ std
 :
 unique_ptr
 <
-FakeIceTransport
+FakeIceTransportInternal
 >
 rtcp_ice_internal
 ;
@@ -841,7 +841,7 @@ std
 :
 make_unique
 <
-FakeIceTransport
+FakeIceTransportInternal
 >
 (
 kTransportName
@@ -1259,7 +1259,7 @@ fake_ice_transport
 =
 static_cast
 <
-FakeIceTransport
+FakeIceTransportInternal
 *
 >
 (
@@ -1325,7 +1325,7 @@ fake_ice_transport
 =
 static_cast
 <
-FakeIceTransport
+FakeIceTransportInternal
 *
 >
 (
@@ -1420,7 +1420,7 @@ fake_ice_transport
 =
 static_cast
 <
-FakeIceTransport
+FakeIceTransportInternal
 *
 >
 (
@@ -1486,7 +1486,7 @@ fake_ice_transport
 =
 static_cast
 <
-FakeIceTransport
+FakeIceTransportInternal
 *
 >
 (
@@ -5377,7 +5377,7 @@ fake_ice_transport
 =
 static_cast
 <
-FakeIceTransport
+FakeIceTransportInternal
 *
 >
 (
@@ -6765,7 +6765,7 @@ fake_ice_transport
 =
 static_cast
 <
-FakeIceTransport
+FakeIceTransportInternal
 *
 >
 (
@@ -6876,7 +6876,7 @@ fake_ice_transport
 =
 static_cast
 <
-FakeIceTransport
+FakeIceTransportInternal
 *
 >
 (

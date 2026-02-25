@@ -357,7 +357,7 @@ namespace
 webrtc
 {
 class
-FakeIceTransport
+FakeIceTransportInternal
 :
 public
 IceTransportInternal
@@ -365,7 +365,7 @@ IceTransportInternal
 public
 :
 explicit
-FakeIceTransport
+FakeIceTransportInternal
 (
 absl
 :
@@ -425,7 +425,7 @@ network_thread_
 ;
 }
 ~
-FakeIceTransport
+FakeIceTransportInternal
 (
 )
 override
@@ -526,7 +526,7 @@ receiving
 void
 SetDestination
 (
-FakeIceTransport
+FakeIceTransportInternal
 *
 dest
 bool
@@ -623,7 +623,7 @@ false
 void
 SetDestinationNotWritable
 (
-FakeIceTransport
+FakeIceTransportInternal
 *
 dest
 )
@@ -3258,7 +3258,7 @@ const
 int
 component_
 ;
-FakeIceTransport
+FakeIceTransportInternal
 *
 dest_
 RTC_GUARDED_BY
@@ -3557,7 +3557,7 @@ false
 }
 ;
 class
-FakeIceTransportWrapper
+FakeIceTransport
 :
 public
 IceTransportInterface
@@ -3565,14 +3565,14 @@ IceTransportInterface
 public
 :
 explicit
-FakeIceTransportWrapper
+FakeIceTransport
 (
 std
 :
 :
 unique_ptr
 <
-FakeIceTransport
+IceTransportInternal
 >
 internal
 )
@@ -3611,7 +3611,7 @@ std
 :
 unique_ptr
 <
-FakeIceTransport
+IceTransportInternal
 >
 internal_
 ;

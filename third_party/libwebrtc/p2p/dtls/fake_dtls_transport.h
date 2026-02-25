@@ -258,7 +258,7 @@ public
 explicit
 FakeDtlsTransport
 (
-FakeIceTransport
+FakeIceTransportInternal
 *
 ice_transport
 )
@@ -362,7 +362,7 @@ std
 :
 unique_ptr
 <
-FakeIceTransport
+FakeIceTransportInternal
 >
 ice
 )
@@ -493,7 +493,7 @@ std
 :
 make_unique
 <
-FakeIceTransport
+FakeIceTransportInternal
 >
 (
 name
@@ -525,7 +525,7 @@ std
 :
 make_unique
 <
-FakeIceTransport
+FakeIceTransportInternal
 >
 (
 name
@@ -572,7 +572,7 @@ this
 )
 ;
 }
-FakeIceTransport
+FakeIceTransportInternal
 *
 fake_ice_transport
 (
@@ -838,7 +838,7 @@ SetDestination
 (
 static_cast
 <
-FakeIceTransport
+FakeIceTransportInternal
 *
 >
 (
@@ -1648,7 +1648,7 @@ network_route
 )
 ;
 }
-FakeIceTransport
+FakeIceTransportInternal
 *
 ice_transport_
 ;
@@ -1657,7 +1657,7 @@ std
 :
 unique_ptr
 <
-FakeIceTransport
+FakeIceTransportInternal
 >
 owned_ice_transport_
 ;

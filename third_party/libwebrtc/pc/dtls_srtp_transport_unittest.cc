@@ -1282,7 +1282,7 @@ fake_ice_transport
 =
 static_cast
 <
-FakeIceTransport
+FakeIceTransportInternal
 *
 >
 (
@@ -1416,7 +1416,7 @@ fake_ice_transport
 =
 static_cast
 <
-FakeIceTransport
+FakeIceTransportInternal
 *
 >
 (

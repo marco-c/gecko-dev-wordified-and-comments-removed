@@ -574,7 +574,7 @@ std
 :
 make_unique
 <
-FakeIceTransport
+FakeIceTransportInternal
 >
 (
 transport_name1
@@ -597,7 +597,7 @@ std
 :
 make_unique
 <
-FakeIceTransport
+FakeIceTransportInternal
 >
 (
 transport_name2
@@ -844,11 +844,11 @@ DatagramConnectionInternal
 >
 conn2_
 ;
-FakeIceTransport
+FakeIceTransportInternal
 *
 ice1_
 ;
-FakeIceTransport
+FakeIceTransportInternal
 *
 ice2_
 ;
