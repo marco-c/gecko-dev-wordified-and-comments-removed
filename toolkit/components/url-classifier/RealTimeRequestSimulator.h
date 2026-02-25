@@ -71,6 +71,8 @@ private
 RealTimeRequestSimulator
 (
 )
+=
+default
 ;
 ~
 RealTimeRequestSimulator
