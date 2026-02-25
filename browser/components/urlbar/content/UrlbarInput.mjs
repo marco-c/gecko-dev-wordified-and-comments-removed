@@ -1161,7 +1161,7 @@ false
 "
 >
 <
-menucaption
+label
 class
 =
 "
@@ -2633,8 +2633,6 @@ searchmode
 popup
 -
 description
--
-menucaption
 "
 :
 "
@@ -2647,8 +2645,6 @@ popup
 sticky
 -
 description
--
-menucaption
 "
 )
 ;

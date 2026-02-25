@@ -7377,11 +7377,6 @@ searchmode
 popup
 -
 description
--
-menucaption
-=
-.
-label
 =
 This
 time
@@ -7420,11 +7415,6 @@ popup
 sticky
 -
 description
--
-menucaption
-=
-.
-label
 =
 Search
 with
