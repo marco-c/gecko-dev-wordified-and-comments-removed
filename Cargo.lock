@@ -25427,6 +25427,9 @@ dependencies
 =
 [
 "
+malloc_size_of
+"
+"
 nserror
 "
 "

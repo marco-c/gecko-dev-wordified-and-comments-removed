@@ -7,6 +7,13 @@ mozURL_h_
 #
 include
 "
+nsIMemoryReporter
+.
+h
+"
+#
+include
+"
 mozilla
 /
 net
@@ -33,6 +40,10 @@ Result
 .
 h
 "
+MOZ_DEFINE_MALLOC_SIZE_OF
+(
+MozURLMallocSizeOf
+)
 namespace
 mozilla
 {
@@ -379,6 +390,7 @@ return
 mozurl_sizeof
 (
 this
+MozURLMallocSizeOf
 )
 ;
 }
