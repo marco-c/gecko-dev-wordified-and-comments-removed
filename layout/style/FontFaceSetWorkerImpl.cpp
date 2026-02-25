@@ -1790,11 +1790,15 @@ mMutex
 ;
 return
 mWorkerRef
+?
+mWorkerRef
 -
 >
 Private
 (
 )
+:
+nullptr
 ;
 }
 TimeStamp
