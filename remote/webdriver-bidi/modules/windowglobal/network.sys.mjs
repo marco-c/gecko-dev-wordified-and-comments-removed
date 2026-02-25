@@ -542,6 +542,11 @@ false
 isCachedResource
 :
 true
+memoryCacheKey
+:
+data
+.
+memoryCacheKey
 }
 )
 ;
