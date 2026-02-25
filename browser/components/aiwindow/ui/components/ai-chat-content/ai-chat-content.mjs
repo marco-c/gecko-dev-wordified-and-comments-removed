@@ -1611,13 +1611,6 @@ requestUpdate
 (
 )
 ;
-this
-.
-#
-scrollToBottom
-(
-)
-;
 }
 #
 scrollToBottom

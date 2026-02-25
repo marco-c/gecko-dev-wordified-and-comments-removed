@@ -3915,6 +3915,7 @@ const
 {
 value
 action
+contextMentions
 }
 =
 event
@@ -4003,6 +4004,7 @@ this
 submitFollowUp
 (
 value
+contextMentions
 )
 ;
 }
@@ -4011,6 +4013,7 @@ value
 submitFollowUp
 (
 text
+contextMentions
 )
 {
 const
@@ -4049,6 +4052,7 @@ this
 #
 createUserRoleOpts
 (
+contextMentions
 )
 )
 ;
@@ -4158,6 +4162,16 @@ settings
 .
 *
 *
+param
+{
+ContextWebsite
+[
+]
+}
+[
+contextMentions
+]
+*
 returns
 {
 UserRoleOpts
@@ -4174,6 +4188,7 @@ private
 #
 createUserRoleOpts
 (
+contextMentions
 )
 {
 return
@@ -4215,6 +4230,7 @@ lazy
 MEMORIES_FLAG_SOURCE
 .
 CONVERSATION
+contextMentions
 }
 )
 ;

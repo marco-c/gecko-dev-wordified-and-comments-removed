@@ -1179,6 +1179,8 @@ memoriesEnabled
 ;
 memoriesFlagSource
 ;
+contextMentions
+;
 /
 *
 *
@@ -1204,6 +1206,9 @@ memoriesEnabled
 =
 null
 memoriesFlagSource
+=
+null
+contextMentions
 =
 null
 }
@@ -1235,6 +1240,12 @@ this
 memoriesFlagSource
 =
 memoriesFlagSource
+;
+this
+.
+contextMentions
+=
+contextMentions
 ;
 }
 }
