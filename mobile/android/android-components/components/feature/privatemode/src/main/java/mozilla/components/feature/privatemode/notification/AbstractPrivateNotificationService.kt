@@ -704,9 +704,7 @@ channelId
 )
 withContext
 (
-Dispatchers
-.
-Main
+mainDispatcher
 )
 {
 notificationsDelegate
@@ -821,9 +819,7 @@ refreshNotification
 }
 withContext
 (
-Dispatchers
-.
-Main
+mainDispatcher
 )
 {
 startForeground

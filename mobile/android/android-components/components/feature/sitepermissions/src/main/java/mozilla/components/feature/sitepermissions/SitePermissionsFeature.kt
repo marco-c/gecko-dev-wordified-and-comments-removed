@@ -1271,6 +1271,15 @@ CoroutineDispatcher
 Dispatchers
 .
 Main
+private
+val
+ioDispatcher
+:
+CoroutineDispatcher
+=
+Dispatchers
+.
+IO
 )
 :
 LifecycleAwareFeature
@@ -1378,9 +1387,7 @@ coroutineScopeInitializer
 {
 CoroutineScope
 (
-Dispatchers
-.
-IO
+ioDispatcher
 )
 }
 private

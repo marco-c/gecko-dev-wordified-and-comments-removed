@@ -1608,6 +1608,13 @@ it
 fun
 setHighlightStatus
 (
+mainDispatcher
+:
+CoroutineDispatcher
+=
+Dispatchers
+.
+Main
 )
 {
 if
@@ -1620,6 +1627,7 @@ null
 {
 observeAndDebounceSetHighlightStatusRequests
 (
+mainDispatcher
 )
 highlightStatusTrigger
 .
@@ -1733,6 +1741,9 @@ private
 fun
 observeAndDebounceSetHighlightStatusRequests
 (
+mainDispatcher
+:
+CoroutineDispatcher
 )
 {
 if
@@ -1792,9 +1803,7 @@ highlights
 >
 withContext
 (
-Dispatchers
-.
-Main
+mainDispatcher
 )
 {
 setHighlight

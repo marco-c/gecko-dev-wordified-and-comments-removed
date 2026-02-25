@@ -311,6 +311,15 @@ var
 initialManifest
 :
 WebAppManifest
+private
+val
+mainScope
+:
+CoroutineScope
+=
+MainScope
+(
+)
 )
 :
 LifecycleAwareFeature
@@ -414,9 +423,7 @@ start
 {
 scope
 =
-MainScope
-(
-)
+mainScope
 .
 also
 {
