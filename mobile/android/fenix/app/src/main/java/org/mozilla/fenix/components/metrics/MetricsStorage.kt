@@ -113,9 +113,9 @@ mozilla
 .
 components
 .
-support
+feature
 .
-utils
+downloads
 .
 DateTimeProvider
 import
@@ -123,9 +123,9 @@ mozilla
 .
 components
 .
-support
+feature
 .
-utils
+downloads
 .
 DefaultDateTimeProvider
 import

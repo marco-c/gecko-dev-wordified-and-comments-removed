@@ -61,9 +61,9 @@ mozilla
 .
 components
 .
-support
+feature
 .
-utils
+downloads
 import
 java
 .
