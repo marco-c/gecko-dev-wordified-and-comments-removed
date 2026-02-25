@@ -678,13 +678,6 @@ js
 ]
 [
 "
-browser_storage_delete_all_button
-.
-js
-"
-]
-[
-"
 browser_storage_delete_tree
 .
 js
