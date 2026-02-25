@@ -2963,6 +2963,22 @@ exposureSet
 0
     
 def
+isExposedInShadowRealms
+(
+self
+)
+:
+        
+return
+"
+ShadowRealmGlobalScope
+"
+in
+self
+.
+exposureSet
+    
+def
 getWorkerExposureSet
 (
 self
