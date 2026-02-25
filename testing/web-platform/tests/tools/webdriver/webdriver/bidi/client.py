@@ -736,6 +736,17 @@ self
         
 self
 .
+user_agent_client_hints
+=
+modules
+.
+UserAgentClientHints
+(
+self
+)
+        
+self
+.
 web_extension
 =
 modules

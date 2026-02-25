@@ -72,7 +72,7 @@ InvalidArgumentException
 await
 bidi_session
 .
-emulation
+user_agent_client_hints
 .
 set_client_hints_override
 (
@@ -108,7 +108,7 @@ InvalidArgumentException
 await
 bidi_session
 .
-emulation
+user_agent_client_hints
 .
 set_client_hints_override
 (
@@ -161,7 +161,7 @@ InvalidArgumentException
 await
 bidi_session
 .
-emulation
+user_agent_client_hints
 .
 set_client_hints_override
 (
@@ -198,7 +198,7 @@ NoSuchFrameException
 await
 bidi_session
 .
-emulation
+user_agent_client_hints
 .
 set_client_hints_override
 (
@@ -326,7 +326,7 @@ InvalidArgumentException
 await
 bidi_session
 .
-emulation
+user_agent_client_hints
 .
 set_client_hints_override
 (
@@ -389,7 +389,7 @@ InvalidArgumentException
 await
 bidi_session
 .
-emulation
+user_agent_client_hints
 .
 set_client_hints_override
 (
@@ -425,7 +425,7 @@ InvalidArgumentException
 await
 bidi_session
 .
-emulation
+user_agent_client_hints
 .
 set_client_hints_override
 (
@@ -479,7 +479,7 @@ InvalidArgumentException
 await
 bidi_session
 .
-emulation
+user_agent_client_hints
 .
 set_client_hints_override
 (
@@ -535,7 +535,7 @@ NoSuchUserContextException
 await
 bidi_session
 .
-emulation
+user_agent_client_hints
 .
 set_client_hints_override
 (
@@ -574,7 +574,7 @@ InvalidArgumentException
 await
 bidi_session
 .
-emulation
+user_agent_client_hints
 .
 set_client_hints_override
 (
@@ -626,7 +626,7 @@ InvalidArgumentException
 await
 bidi_session
 .
-emulation
+user_agent_client_hints
 .
 set_client_hints_override
 (
@@ -691,7 +691,7 @@ InvalidArgumentException
 await
 bidi_session
 .
-emulation
+user_agent_client_hints
 .
 set_client_hints_override
 (

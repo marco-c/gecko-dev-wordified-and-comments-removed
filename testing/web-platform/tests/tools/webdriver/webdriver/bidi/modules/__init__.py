@@ -50,6 +50,11 @@ import
 Storage
 from
 .
+user_agent_client_hints
+import
+UserAgentClientHints
+from
+.
 web_extension
 import
 WebExtension
