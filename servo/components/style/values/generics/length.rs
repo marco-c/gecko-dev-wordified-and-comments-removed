@@ -1668,6 +1668,13 @@ allow
 missing_docs
 )
 ]
+#
+[
+typed_value
+(
+derive_fields
+)
+]
 pub
 enum
 GenericLengthPercentageOrNormal
