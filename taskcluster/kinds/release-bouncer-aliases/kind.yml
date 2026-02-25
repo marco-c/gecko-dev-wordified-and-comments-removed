@@ -378,8 +378,6 @@ ssl
 :
 langpack
 release
-.
-*
 :
 firefox
 -
@@ -668,8 +666,6 @@ stub
 -
 installer
 release
-.
-*
 :
 partner
 -

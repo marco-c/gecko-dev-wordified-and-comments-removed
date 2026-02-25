@@ -179,9 +179,6 @@ releases
 :
 [
 release
-release
--
-rc
 beta
 esr140
 ]

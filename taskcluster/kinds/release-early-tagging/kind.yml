@@ -204,15 +204,6 @@ staging
 firefox
 -
 release
-release
--
-rc
-:
-staging
--
-firefox
--
-release
 esr115
 :
 staging

@@ -421,8 +421,6 @@ beta
 :
 beta
 release
-.
-*
 :
 official
 esr
@@ -481,8 +479,6 @@ beta
 :
 MozillaFirefoxBeta
 release
-.
-*
 :
 MozillaFirefox
 esr
@@ -509,8 +505,6 @@ beta
 :
 FirefoxBeta
 release
-.
-*
 :
 Firefox
 esr

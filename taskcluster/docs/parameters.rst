@@ -1336,11 +1336,6 @@ esr128
 "
 esr140
 "
-"
-release
--
-rc
-"
 or
 "
 release

@@ -179,9 +179,6 @@ types
 :
 [
 release
-release
--
-rc
 ]
 products
 :
@@ -328,9 +325,6 @@ types
 :
 [
 beta
-release
--
-rc
 ]
 products
 :

@@ -2071,23 +2071,6 @@ RELEASE_TYPE
 "
 ]
     
-if
-release_type
-=
-=
-"
-release
--
-rc
-"
-:
-        
-release_type
-=
-"
-release
-"
-    
 return
 BOUNCER_PRODUCT_TEMPLATE
 .

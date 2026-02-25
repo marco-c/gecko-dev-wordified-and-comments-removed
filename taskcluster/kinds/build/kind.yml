@@ -238,8 +238,6 @@ beta
 :
 beta
 release
-.
-*
 :
 release
 #
@@ -383,8 +381,6 @@ default
 :
 beta
 release
-.
-*
 :
 release
 esr
@@ -504,8 +500,6 @@ mozilla
 -
 beta
 release
-.
-*
 :
 firefox
 -
@@ -597,8 +591,6 @@ mozilla
 -
 release
 release
-.
-*
 :
 firefox
 -

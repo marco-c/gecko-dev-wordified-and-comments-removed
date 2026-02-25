@@ -300,11 +300,6 @@ cdntest
 "
 ]
 release
-(
--
-rc
-)
-?
 :
 [
 "
@@ -389,11 +384,6 @@ localtest
 "
 ]
 release
-(
--
-rc
-)
-?
 :
 [
 "
@@ -458,11 +448,6 @@ cdntest
 "
 ]
 release
-(
--
-rc
-)
-?
 :
 [
 "
