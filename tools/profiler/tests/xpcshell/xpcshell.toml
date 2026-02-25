@@ -1139,3 +1139,10 @@ test_shared_library
 js
 "
 ]
+[
+"
+test_source_table
+.
+js
+"
+]
