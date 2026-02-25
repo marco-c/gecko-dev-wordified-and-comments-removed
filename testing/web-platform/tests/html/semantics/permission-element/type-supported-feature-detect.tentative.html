@@ -14,7 +14,7 @@ utf
 <
 title
 >
-Permission
+Usermedia
 Element
 :
 Feature
@@ -70,9 +70,9 @@ test
 assert_not_equals
 (
 typeof
-HTMLPermissionElement
+HTMLUserMediaElement
 undefined
-HTMLPermissionElement
+HTMLUserMediaElement
 should
 not
 be
@@ -84,7 +84,7 @@ undefined
 assert_equals
 (
 typeof
-HTMLPermissionElement
+HTMLUserMediaElement
 .
 isTypeSupported
 "
@@ -105,7 +105,7 @@ function
 }
 "
 Test
-HTMLPermissionElement
+HTMLUserMediaElement
 and
 isTypeSupported
 existence
@@ -113,9 +113,6 @@ existence
 )
 ;
 [
-"
-geolocation
-"
 "
 camera
 "
@@ -159,7 +156,7 @@ test
 {
 assert_true
 (
-HTMLPermissionElement
+HTMLUserMediaElement
 .
 isTypeSupported
 (
@@ -169,7 +166,7 @@ type
 ;
 }
 Test
-HTMLPermissionElement
+HTMLUserMediaElement
 should
 support
 type
@@ -220,7 +217,7 @@ test
 {
 assert_false
 (
-HTMLPermissionElement
+HTMLUserMediaElement
 .
 isTypeSupported
 (
@@ -230,7 +227,7 @@ type
 ;
 }
 Test
-HTMLPermissionElement
+HTMLUserMediaElement
 should
 not
 support

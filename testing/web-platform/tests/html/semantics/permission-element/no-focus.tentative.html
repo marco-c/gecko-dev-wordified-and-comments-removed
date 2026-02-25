@@ -147,7 +147,7 @@ body
 -
 -
 The
-permission
+usermedia
 element
 should
 not
@@ -160,7 +160,7 @@ script
 -
 >
 <
-permission
+usermedia
 tabindex
 =
 "
@@ -169,17 +169,17 @@ tabindex
 id
 =
 "
-valid_permission_element
+valid_usermedia_element
 "
 type
 =
 "
-geolocation
+camera
 "
 >
 <
 /
-permission
+usermedia
 >
 <
 span
@@ -221,7 +221,7 @@ width
 -
 >
 <
-permission
+usermedia
 style
 =
 "
@@ -243,7 +243,7 @@ tabindex
 id
 =
 "
-invalid_permission_element
+invalid_usermedia_element
 "
 type
 =
@@ -253,7 +253,7 @@ invalid
 >
 <
 /
-permission
+usermedia
 >
 <
 script
@@ -266,7 +266,7 @@ async
 =
 >
 {
-invalid_permission_element
+invalid_usermedia_element
 .
 focus
 (
@@ -277,10 +277,10 @@ assert_equals
 document
 .
 activeElement
-invalid_permission_element
+invalid_usermedia_element
 "
 Invalid
-permission
+usermedia
 element
 should
 be
@@ -294,7 +294,7 @@ focus
 (
 )
 ;
-valid_permission_element
+valid_usermedia_element
 .
 focus
 (
@@ -307,7 +307,7 @@ document
 activeElement
 focusable_span
 "
-Permission
+Usermedia
 element
 should
 not
@@ -339,7 +339,7 @@ activation
 =
 >
 {
-valid_permission_element
+valid_usermedia_element
 .
 focus
 (
@@ -353,7 +353,7 @@ assert_equals
 document
 .
 activeElement
-valid_permission_element
+valid_usermedia_element
 "
 Focus
 is
@@ -386,7 +386,7 @@ pointerMove
 {
 origin
 :
-valid_permission_element
+valid_usermedia_element
 }
 )
 .
@@ -410,7 +410,7 @@ assert_equals
 document
 .
 activeElement
-valid_permission_element
+valid_usermedia_element
 "
 Users
 can
@@ -443,7 +443,7 @@ focused
 ;
 }
 "
-Permission
+Usermedia
 element
 is
 not

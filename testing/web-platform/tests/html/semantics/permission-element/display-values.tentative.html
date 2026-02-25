@@ -23,7 +23,7 @@ utf
 <
 title
 >
-Permission
+Usermedia
 Element
 :
 display
@@ -118,7 +118,7 @@ body
 script
 >
 function
-createPermissionElementWithStyle
+createUsermediaElementWithStyle
 (
 displayValue
 type
@@ -132,7 +132,7 @@ document
 createElement
 (
 "
-permission
+usermedia
 "
 )
 ;
@@ -356,7 +356,7 @@ style_invalid
 ]
 ;
 const
-permissionTypes
+usermediaTypes
 =
 [
 "
@@ -368,9 +368,6 @@ microphone
 "
 camera
 microphone
-"
-"
-geolocation
 "
 ]
 ;
@@ -388,11 +385,11 @@ testCase
 .
 push
 (
-permissionTypes
+usermediaTypes
 [
 index
 %
-permissionTypes
+usermediaTypes
 .
 length
 ]
@@ -429,7 +426,7 @@ type
 const
 element
 =
-createPermissionElementWithStyle
+createUsermediaElementWithStyle
 (
 displayValue
 type
@@ -458,7 +455,7 @@ are
 expected
 when
 the
-permission
+usermedia
 element
 was
 just
@@ -552,7 +549,7 @@ done
 ;
 }
 "
-Permission
+Usermedia
 element
 display
 style
