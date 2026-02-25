@@ -4307,13 +4307,9 @@ cleanup
 .
 append
 (
-lambda
-:
 temp_file_path
 .
 unlink
-(
-)
 )
             
 download_html
@@ -4359,13 +4355,9 @@ cleanup
 .
 append
 (
-lambda
-:
 download_html
 .
 unlink
-(
-)
 )
             
 cmd
