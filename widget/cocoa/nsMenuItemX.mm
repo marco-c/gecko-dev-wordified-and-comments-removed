@@ -456,6 +456,14 @@ mContent
 ;
 if
 (
+mType
+!
+=
+eSeparatorMenuItemType
+)
+{
+if
+(
 mContent
 -
 >
@@ -536,6 +544,7 @@ RegisterForCommand
 this
 )
 ;
+}
 if
 (
 mIsVisible
@@ -657,8 +666,6 @@ bool
 aIsChecked
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
-;
 mContent
 -
 >
@@ -682,8 +689,6 @@ SetChecked
 ;
 return
 NS_OK
-;
-NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 EMenuItemType
@@ -1420,6 +1425,7 @@ badge
 =
 [
 [
+[
 NSMenuItemBadge
 alloc
 ]
@@ -1432,6 +1438,8 @@ GetTruncatedCocoaLabel
 (
 badgeValue
 )
+]
+autorelease
 ]
 ;
 }
@@ -2398,6 +2406,10 @@ mImageElement
 =
 nullptr
 ;
+SetupIcon
+(
+)
+;
 }
 if
 (
@@ -2437,6 +2449,11 @@ nsIContent
 aChild
 )
 {
+MOZ_RELEASE_ASSERT
+(
+mMenuGroupOwner
+)
+;
 MOZ_RELEASE_ASSERT
 (
 mMenuParent
