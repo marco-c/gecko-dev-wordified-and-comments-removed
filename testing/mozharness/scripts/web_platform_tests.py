@@ -2820,9 +2820,7 @@ fonts
 "
 ]
         
-for
-test_type
-in
+if
 test_types
 :
             
@@ -2836,12 +2834,14 @@ append
 test
 -
 type
-=
-%
-s
 "
-%
-test_type
+)
+            
+cmd
+.
+extend
+(
+test_types
 )
         
 if
