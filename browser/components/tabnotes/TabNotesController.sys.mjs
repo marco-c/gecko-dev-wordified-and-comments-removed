@@ -686,6 +686,7 @@ enabled
 "
 )
 ;
+return
 this
 .
 #
@@ -725,8 +726,6 @@ win
 )
 ;
 }
-else
-{
 lazy
 .
 logConsole
@@ -743,7 +742,13 @@ disabled
 "
 )
 ;
-}
+return
+Promise
+.
+resolve
+(
+)
+;
 }
 /
 *
@@ -1179,6 +1184,7 @@ browserQuitApplicationGranted
 (
 )
 {
+return
 this
 .
 #
