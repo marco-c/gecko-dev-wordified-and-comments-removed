@@ -6948,6 +6948,13 @@ p2p_test_utils
 testonly
 =
 true
+visibility
+=
+[
+"
+*
+"
+]
 sources
 =
 [
