@@ -848,6 +848,12 @@ SortedByReceiveTime
 )
 const
 ;
+bool
+HasPacketWithEcnCe
+(
+)
+const
+;
 }
 ;
 struct

@@ -57,6 +57,11 @@ webrtc
 struct
 GoogCcFactoryConfig
 {
+bool
+rfc_8888_feedback_negotiated
+=
+false
+;
 std
 :
 :

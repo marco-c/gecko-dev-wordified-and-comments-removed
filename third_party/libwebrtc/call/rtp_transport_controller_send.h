@@ -1344,10 +1344,6 @@ const
 bool
 reset_bwe_on_adapter_id_change_
 ;
-const
-bool
-prefer_bwe_using_scream_
-;
 FieldTrialParameter
 <
 DataRate
