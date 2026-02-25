@@ -7260,9 +7260,7 @@ searchSource
 =
 =
 "
-urlbar
--
-handoff
+urlbar_handoff
 "
 )
 {
@@ -9334,9 +9332,7 @@ searchSource
 =
 =
 "
-urlbar
--
-persisted
+urlbar_persisted
 "
 )
 {

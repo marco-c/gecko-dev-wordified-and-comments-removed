@@ -551,9 +551,7 @@ Example
 source
 :
 "
-urlbar
--
-persisted
+urlbar_persisted
 "
 count
 :
@@ -701,9 +699,7 @@ Example
 source
 :
 "
-urlbar
--
-persisted
+urlbar_persisted
 "
 count
 :
@@ -856,9 +852,7 @@ Example
 source
 :
 "
-urlbar
--
-persisted
+urlbar_persisted
 "
 count
 :
