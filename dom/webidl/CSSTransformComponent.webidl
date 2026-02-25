@@ -195,6 +195,9 @@ interface
 CSSTransformComponent
 {
 stringifier
+UTF8String
+(
+)
 ;
 attribute
 boolean

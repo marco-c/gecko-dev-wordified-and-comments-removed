@@ -37757,6 +37757,21 @@ Types
 .
 domstring
 ]
+                    
+or
+overload
+.
+returnType
+=
+=
+BuiltinTypes
+[
+IDLBuiltinType
+.
+Types
+.
+utf8string
+]
                 
 )
     
@@ -49683,11 +49698,23 @@ p
 )
             
 if
+(
+                
 not
 returnType
 .
 isDOMString
 (
+)
+                
+and
+not
+returnType
+.
+isUTF8String
+(
+)
+            
 )
 :
                 
@@ -49699,7 +49726,11 @@ WebIDLError
 stringifier
 must
 have
-DOMString
+{
+DOM
+UTF8
+}
+String
 return
 type
 "

@@ -224,7 +224,7 @@ aRv
 void
 Stringify
 (
-nsAString
+nsACString
 &
 aRetVal
 )

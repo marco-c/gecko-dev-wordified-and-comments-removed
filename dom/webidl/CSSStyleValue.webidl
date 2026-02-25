@@ -182,6 +182,9 @@ interface
 CSSStyleValue
 {
 stringifier
+UTF8String
+(
+)
 ;
 [
 Exposed
