@@ -76,7 +76,13 @@ DateTimeFormat
 "
 en
 "
+{
+calendar
+.
+.
+.
 opts
+}
 )
 ;
 let
@@ -102,7 +108,7 @@ assertEq
 (
 parts
 .
-findIndex
+some
 (
 p
 =
@@ -117,9 +123,6 @@ type
 era
 "
 )
->
-=
-0
 Object
 .
 hasOwn
