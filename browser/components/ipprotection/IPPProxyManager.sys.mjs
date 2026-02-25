@@ -1029,7 +1029,7 @@ null
 #
 activatedAt
 =
-false
+0
 ;
 #
 rotationTimer
