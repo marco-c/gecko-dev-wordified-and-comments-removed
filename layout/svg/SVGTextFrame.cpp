@@ -1197,7 +1197,7 @@ case
 StyleDominantBaseline
 :
 :
-TextBeforeEdge
+TextTop
 :
 return
 convertIfVerticalRL
@@ -1290,7 +1290,7 @@ case
 StyleDominantBaseline
 :
 :
-TextAfterEdge
+TextBottom
 :
 case
 StyleDominantBaseline
@@ -5451,7 +5451,7 @@ AppendElement
 mRootFrame
 -
 >
-StyleSVG
+StyleVisibility
 (
 )
 -
@@ -5907,7 +5907,7 @@ baseline
 aNextFrame
 -
 >
-StyleSVG
+StyleVisibility
 (
 )
 -

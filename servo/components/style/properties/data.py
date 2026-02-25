@@ -3278,6 +3278,10 @@ Display
 "
                 
 "
+DominantBaseline
+"
+                
+"
 FillRule
 "
                 

@@ -11714,6 +11714,15 @@ const
 mozilla
 :
 :
+StyleDominantBaseline
+DominantBaseline
+(
+)
+const
+;
+mozilla
+:
+:
 StyleAlignmentBaseline
 AlignmentBaseline
 (
