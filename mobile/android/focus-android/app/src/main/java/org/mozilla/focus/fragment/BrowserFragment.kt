@@ -5455,6 +5455,13 @@ internal
 fun
 edit
 (
+tabId
+:
+String
+=
+tab
+.
+id
 )
 {
 requireComponents
@@ -5467,9 +5474,7 @@ AppAction
 .
 EditAction
 (
-tab
-.
-id
+tabId
 )
 )
 }

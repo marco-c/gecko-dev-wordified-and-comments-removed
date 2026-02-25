@@ -613,6 +613,11 @@ openTabsTray
 {
 verifyTabsOrder
 (
+"
+Add
+new
+tab
+"
 tab1
 .
 title
@@ -746,6 +751,11 @@ openTabsTray
 {
 verifyTabsOrder
 (
+"
+Add
+new
+tab
+"
 tab1
 .
 title
@@ -771,6 +781,11 @@ openTabsTray
 {
 verifyTabsOrder
 (
+"
+Add
+new
+tab
+"
 tab3
 .
 title
@@ -793,6 +808,11 @@ openTabsTray
 {
 verifyTabsOrder
 (
+"
+Add
+new
+tab
+"
 tab2
 .
 title

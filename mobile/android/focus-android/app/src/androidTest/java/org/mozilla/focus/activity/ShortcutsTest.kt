@@ -527,6 +527,11 @@ openTabsTray
 {
 verifyTabsOrder
 (
+"
+Add
+new
+tab
+"
 tab1
 .
 title
