@@ -834,7 +834,6 @@ substs
 MOZ_AUTOMATION
 &
 &
-!
 System
 .
 getenv
@@ -843,7 +842,7 @@ getenv
 MOZ_BUILD_CONFIG_LINT
 "
 )
-=
+!
 =
 "
 1
