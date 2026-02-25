@@ -2470,6 +2470,9 @@ FakeNimbusFeatures
 (
 [
 "
+adsBackend
+"
+"
 glean
 "
 "
