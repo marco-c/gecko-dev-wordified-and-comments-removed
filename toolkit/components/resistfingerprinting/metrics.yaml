@@ -11950,10 +11950,7 @@ timezone_offset_web
 :
 type
 :
-quantity
-unit
-:
-minutes
+string
 description
 :
 >
