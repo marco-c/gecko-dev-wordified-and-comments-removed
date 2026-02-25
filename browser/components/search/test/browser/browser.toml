@@ -316,6 +316,16 @@ contentSearchBadImage
 xml
 "
 "
+contentSearchSuggestions
+.
+sjs
+"
+"
+contentSearchSuggestions
+.
+xml
+"
+"
 testEngine_chromeicon
 .
 xml
