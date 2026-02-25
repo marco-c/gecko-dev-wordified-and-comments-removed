@@ -13299,6 +13299,10 @@ UNSUPPORTED
 -
 TYPE
 :
+web
+-
+based
+-
 payment
 -
 handler
@@ -13322,6 +13326,10 @@ UNSUPPORTED
 -
 TYPE
 :
+web
+-
+based
+-
 payment
 -
 handler
@@ -13345,6 +13353,10 @@ UNSUPPORTED
 -
 TYPE
 :
+web
+-
+based
+-
 payment
 -
 handler
@@ -13368,6 +13380,10 @@ UNSUPPORTED
 -
 TYPE
 :
+web
+-
+based
+-
 payment
 -
 handler
@@ -13391,6 +13407,10 @@ UNSUPPORTED
 -
 TYPE
 :
+web
+-
+based
+-
 payment
 -
 handler

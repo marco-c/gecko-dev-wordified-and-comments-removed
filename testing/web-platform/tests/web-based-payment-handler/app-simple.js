@@ -221,6 +221,10 @@ expectedMethodNameSuffix
 =
 '
 /
+web
+-
+based
+-
 payment
 -
 handler
