@@ -129,8 +129,11 @@ CrashReporterHost
 (
 GeckoProcessType
 aProcessType
-GeckoChildID
-aChildID
+base
+:
+:
+ProcessId
+aPid
 const
 CrashReporter
 :
@@ -144,9 +147,9 @@ mProcessType
 (
 aProcessType
 )
-mChildID
+mPid
 (
-aChildID
+aPid
 )
 mThreadId
 (
@@ -254,7 +257,7 @@ CrashReporter
 :
 RegisterChildAuxvInfo
 (
-mChildID
+mPid
 auxvInfo
 )
 ;
@@ -293,7 +296,7 @@ CrashReporter
 :
 UnregisterChildAuxvInfo
 (
-mChildID
+mPid
 )
 ;
 #
@@ -376,7 +379,7 @@ CrashReporter
 :
 TakeMinidumpForChild
 (
-mChildID
+mPid
 getter_AddRefs
 (
 crashDump

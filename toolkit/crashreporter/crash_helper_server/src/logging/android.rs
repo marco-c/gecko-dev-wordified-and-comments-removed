@@ -30,7 +30,7 @@ log
 LevelFilter
 :
 :
-Warn
+Trace
 )
 .
 with_tag

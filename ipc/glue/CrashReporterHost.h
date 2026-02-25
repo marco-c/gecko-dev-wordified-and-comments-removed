@@ -90,8 +90,11 @@ CrashReporterHost
 (
 GeckoProcessType
 aProcessType
-GeckoChildID
-aChildID
+base
+:
+:
+ProcessId
+aPid
 const
 CrashReporter
 :
@@ -442,8 +445,11 @@ private
 GeckoProcessType
 mProcessType
 ;
-GeckoChildID
-mChildID
+base
+:
+:
+ProcessId
+mPid
 ;
 CrashReporter
 :

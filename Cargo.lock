@@ -6862,9 +6862,6 @@ dependencies
 =
 [
 "
-bytes
-"
-"
 getrandom
 0
 .
