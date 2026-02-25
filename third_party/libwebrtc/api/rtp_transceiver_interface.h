@@ -289,6 +289,13 @@ new_direction
 )
 ;
 virtual
+bool
+receptive
+(
+)
+const
+;
+virtual
 std
 :
 :
