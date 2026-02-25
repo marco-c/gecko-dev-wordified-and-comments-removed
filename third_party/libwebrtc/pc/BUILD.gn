@@ -7751,6 +7751,10 @@ legacy_stats_collector
 "
 "
 :
+media_session
+"
+"
+:
 peer_connection_internal
 "
 "
