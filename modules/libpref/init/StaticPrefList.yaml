@@ -27576,7 +27576,7 @@ delivering
 maxFailures
 type
 :
-uint32_t
+RelaxedAtomicUint32
 value
 :
 3
