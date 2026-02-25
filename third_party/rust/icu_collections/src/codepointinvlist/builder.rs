@@ -67,6 +67,8 @@ ZeroVec
 derive
 (
 Default
+Clone
+Debug
 )
 ]
 pub

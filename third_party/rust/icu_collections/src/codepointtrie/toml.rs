@@ -87,6 +87,7 @@ serde
 :
 :
 Deserialize
+Debug
 )
 ]
 pub
@@ -283,6 +284,13 @@ clippy
 :
 :
 exhaustive_enums
+)
+]
+#
+[
+derive
+(
+Debug
 )
 ]
 pub

@@ -2062,6 +2062,11 @@ wasm
 "
 xsum
 "
+"
+builtin
+/
+normalizer_glue
+"
 ]
 if
 CONFIG

@@ -53,6 +53,14 @@ missing_docs
 )
 ]
 #
+!
+[
+allow
+(
+non_local_definitions
+)
+]
+#
 [
 cfg
 (
