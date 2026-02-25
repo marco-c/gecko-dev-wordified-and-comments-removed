@@ -1380,7 +1380,7 @@ browser
 .
 ipProtection
 .
-panelOpenCount
+everOpenedPanel
 "
 )
 ;

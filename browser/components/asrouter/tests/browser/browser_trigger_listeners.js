@@ -5041,7 +5041,7 @@ browser
 .
 ipProtection
 .
-panelOpenCount
+everOpenedPanel
 "
 )
 ;

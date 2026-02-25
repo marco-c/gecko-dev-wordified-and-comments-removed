@@ -26359,9 +26359,9 @@ browser
 .
 ipProtection
 .
-panelOpenCount
+everOpenedPanel
 "
-0
+false
 )
 ;
 pref
