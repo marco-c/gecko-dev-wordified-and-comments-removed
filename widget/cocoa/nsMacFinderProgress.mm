@@ -142,16 +142,10 @@ NSDictionary
 userInfo
 =
 {
-"
 NSProgressFileOperationKindKey
-"
 :
-"
 NSProgressFileOperationKindDownloading
-"
-"
 NSProgressFileURLKey
-"
 :
 pathUrl
 }
