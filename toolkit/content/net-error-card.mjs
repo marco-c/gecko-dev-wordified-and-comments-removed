@@ -1930,7 +1930,7 @@ id
 {
 ic
 .
-id
+dataL10nId
 }
 data
 -
@@ -1941,7 +1941,7 @@ args
 {
 ic
 .
-args
+dataL10nArgs
 ?
 JSON
 .
@@ -1949,7 +1949,7 @@ stringify
 (
 ic
 .
-args
+dataL10nArgs
 )
 :
 null
@@ -1969,8 +1969,8 @@ p
 }
 const
 {
-id
-args
+dataL10nId
+dataL10nArgs
 }
 =
 config
@@ -2025,7 +2025,7 @@ l10n
 id
 =
 {
-id
+dataL10nId
 }
 >
 <
@@ -2104,7 +2104,7 @@ l10n
 id
 =
 {
-id
+dataL10nId
 }
 data
 -
@@ -2113,13 +2113,13 @@ l10n
 args
 =
 {
-args
+dataL10nArgs
 ?
 JSON
 .
 stringify
 (
-args
+dataL10nArgs
 )
 :
 null
