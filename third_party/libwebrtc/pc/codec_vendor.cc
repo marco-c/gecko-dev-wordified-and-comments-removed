@@ -5254,6 +5254,7 @@ CodecVendor
 :
 ModifyVideoCodecs
 (
+const
 std
 :
 :
@@ -5268,6 +5269,7 @@ Codec
 Codec
 >
 >
+&
 changes
 )
 {
@@ -5326,6 +5328,12 @@ change
 first
 )
 {
+codec
+=
+change
+.
+second
+;
 changed
 =
 true

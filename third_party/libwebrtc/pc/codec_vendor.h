@@ -206,6 +206,7 @@ pt_suggester
 void
 ModifyVideoCodecs
 (
+const
 std
 :
 :
@@ -220,6 +221,7 @@ Codec
 Codec
 >
 >
+&
 changes
 )
 ;
