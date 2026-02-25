@@ -151,10 +151,6 @@ integrity
 implementation
 libs
 .
-integrity
-implementation
-libs
-.
 kotlinx
 .
 coroutines
@@ -162,6 +158,12 @@ coroutines
 play
 .
 services
+implementation
+libs
+.
+play
+.
+integrity
 testImplementation
 project
 (
