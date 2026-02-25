@@ -1449,17 +1449,6 @@ upgrade_display_content
 =
 false
 "
-"
-javascript
-.
-options
-.
-experimental
-.
-shadow_realms
-=
-true
-"
 ]
 [
 "
