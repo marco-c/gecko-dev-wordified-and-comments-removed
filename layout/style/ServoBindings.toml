@@ -8409,7 +8409,7 @@ AnchorName
 gecko
 =
 "
-StyleScopedName
+StyleAnchorScope
 "
 servo
 =
@@ -8426,7 +8426,7 @@ computed
 position
 :
 :
-ScopedName
+AnchorScope
 "
 }
 {

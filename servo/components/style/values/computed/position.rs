@@ -112,6 +112,7 @@ position
 :
 {
 AnchorName
+AnchorScope
 DashedIdentAndOrTryTactic
 GridAutoFlow
 GridTemplateAreas
@@ -126,7 +127,6 @@ PositionTryFallbacksTryTactic
 PositionTryFallbacksTryTacticKeyword
 PositionTryOrder
 PositionVisibility
-ScopedName
 }
 ;
 use
