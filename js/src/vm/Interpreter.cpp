@@ -28799,7 +28799,7 @@ true
 }
 static
 bool
-OptimizeArrayIteration
+OptimizeGetIteratorForArray
 (
 JSObject
 *
@@ -29025,7 +29025,7 @@ toObject
 ;
 if
 (
-OptimizeArrayIteration
+OptimizeGetIteratorForArray
 (
 obj
 cx
@@ -29113,7 +29113,7 @@ false
 ;
 }
 return
-OptimizeArrayIteration
+OptimizeGetIteratorForArray
 (
 &
 arg
