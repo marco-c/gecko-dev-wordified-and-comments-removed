@@ -6381,6 +6381,12 @@ useBackgroundThreads
 ;
 MainThreadData
 <
+bool
+>
+preparedForSweepInThisSlice
+;
+MainThreadData
+<
 size_t
 >
 markSliceCount
