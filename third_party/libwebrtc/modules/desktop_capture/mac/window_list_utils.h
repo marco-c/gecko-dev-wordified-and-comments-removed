@@ -212,6 +212,7 @@ window
 )
 ;
 int
+RTC_EXPORT
 GetWindowOwnerPid
 (
 CGWindowID
