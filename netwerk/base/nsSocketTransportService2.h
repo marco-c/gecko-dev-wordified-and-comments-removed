@@ -879,6 +879,12 @@ LinkedRunnableEvent
 >
 mPendingSocketQueue
 ;
+AutoCleanLinkedList
+<
+LinkedRunnableEvent
+>
+mPriorityEventQueue
+;
 nsresult
 UpdatePrefs
 (
