@@ -25,6 +25,9 @@ checks
 .
 h
 "
+namespace
+webrtc
+{
 std
 :
 :
@@ -263,4 +266,5 @@ int64_t
 nanoseconds
 )
 ;
+}
 }

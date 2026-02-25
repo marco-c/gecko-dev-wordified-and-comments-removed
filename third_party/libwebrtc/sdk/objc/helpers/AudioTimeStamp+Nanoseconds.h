@@ -12,6 +12,9 @@ include
 <
 optional
 >
+namespace
+webrtc
+{
 std
 :
 :
@@ -27,3 +30,4 @@ AudioTimeStamp
 timeStamp
 )
 ;
+}
