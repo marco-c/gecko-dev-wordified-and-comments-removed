@@ -901,6 +901,12 @@ mButtons
 =
 0
 ;
+Maybe
+<
+uint64_t
+>
+mCallbackId
+;
 void
 AssignTouchEventData
 (

@@ -3068,6 +3068,7 @@ aEvent
 aWindow
 =
 window
+aCallback
 )
 {
 let
@@ -3333,6 +3334,7 @@ offsetX
 offsetY
 aEvent
 aWindow
+aCallback
 )
 ;
 }
@@ -3348,6 +3350,7 @@ aEvent
 aWindow
 =
 window
+aCallback
 )
 {
 let
@@ -4080,6 +4083,7 @@ type
 .
 .
 args
+aCallback
 )
 ;
 }
@@ -4113,6 +4117,7 @@ touchend
 .
 .
 args
+aCallback
 )
 ;
 return
@@ -4124,12 +4129,8 @@ synthesizeTouchAtCenter
 (
 aTarget
 aEvent
-=
-{
-}
 aWindow
-=
-window
+aCallback
 )
 {
 var
@@ -4141,6 +4142,7 @@ getBoundingClientRect
 (
 )
 ;
+return
 synthesizeTouchAtPoint
 (
 rect
@@ -4163,6 +4165,7 @@ height
 2
 aEvent
 aWindow
+aCallback
 )
 ;
 }

@@ -9398,6 +9398,16 @@ mMessage
 )
 )
 ;
+AutoSynthesizedEventResponder
+<
+WidgetTouchEvent
+>
+responder
+(
+this
+aEvent
+)
+;
 if
 (
 StaticPrefs
