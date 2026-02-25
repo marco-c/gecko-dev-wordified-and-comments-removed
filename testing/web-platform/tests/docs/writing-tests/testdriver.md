@@ -2496,3 +2496,17 @@ bidi
 emulation
 .
 set_screen_orientation_override
+.
+.
+js
+:
+autofunction
+:
+:
+test_driver
+.
+bidi
+.
+emulation
+.
+set_touch_override
