@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-4c03bb2e048c2f785dc71f8628bcfcdfc19998ed
+f6f104619201010b75bd41d84695d817edfe1718
 '
 #
 Fetch
@@ -243,9 +243,9 @@ version
 :
 30
 .
-20251117
+20251118
 .
-7
+5
 .
 1
 '
@@ -678,7 +678,7 @@ chromium
 src
 /
 ios
-6249677aebdbc09dc86575079ca4c5b7f0f57e12
+8e673e10b19de4777dbd942d69549b95463daaf9
 '
 '
 condition
@@ -710,7 +710,7 @@ chromium
 src
 /
 testing
-c3a671568b4a58aa5785c64c38b417a265c39e7c
+be7981d59c4a9cb7d495ced864c28f26ed3fe2da
 '
 '
 src
@@ -734,7 +734,7 @@ chromium
 src
 /
 third_party
-449dc8fa8e39eceafaa96e79134166bf6d36fd09
+1c3a0c21a550a812b4bda95776f58ebcfdd05fda
 '
 '
 src
@@ -2984,7 +2984,7 @@ project
 libc
 .
 git
-74b25173cba70124bff5da97cc339d90c516c5f6
+bb256f487c34423654a89c152cd4967ca10840d1
 '
 '
 src
@@ -3815,7 +3815,7 @@ com
 boringssl
 .
 git
-61ca3f2493360393f534d9775b0e80fb39fd2153
+a1b6110c3aae7654cd88128186ea826cc27535be
 '
 '
 src
@@ -4044,7 +4044,7 @@ tools
 depot_tools
 .
 git
-b8f203014fd4a509eed94dfca84934136f5d26e5
+5ba2fb94f5ceb4383f528e70183d4c8286c1c171
 '
 '
 src
@@ -4145,7 +4145,7 @@ grpc
 grpc
 .
 git
-9e24347586829ddb2ae21fefd8410c34bc51aacc
+8adedd8f2f8fa08b430a539f7fcacc9bbe73cde6
 '
 }
 #
@@ -4804,7 +4804,7 @@ version
 '
 :
 '
-wTCaoWB9dhXrnZpcJmh2I8zl7TXhv5R7Ds2Z5n7Bq0wC
+eDgQH6vcE7X7iRSrBGsa31HsvsrdPJgHFHcbL68QXvIC
 '
 }
 ]
@@ -4856,9 +4856,7 @@ version
 '
 :
 '
-chp__Zw61CfK2ZPIjPpMWFiyLRdOhsrG2f4I
--
-NA23hYC
+dzSoO7s4xA33tSKgOGuseaOQRuvYg3_3mtA0H89f4_wC
 '
 }
 ]
@@ -5182,7 +5180,7 @@ git
 '
 +
 '
-60767b0bac8bea553a5cb85a5a79a0a36ee52547
+aeb21f4c54d24106bb316d637679f312afcef726
 '
 '
 src
@@ -5549,7 +5547,11 @@ version
 '
 :
 '
-OKVTi4dPaKvVi24MuJStaEkEnzRBbt7CZeM9v8qnrfYC
+a4fVqbIycCDqs1714SLRqxEdz6P
+-
+sH
+-
+z1QT_eeeF0PcC
 '
 }
 ]
@@ -5725,7 +5727,7 @@ chromium
 src
 /
 tools
-1f7d9d7670ef10560717f8590bd3f1d3a953954a
+73e8b7ade6fb13c9ea3f6d6e090b1de4c225e408
 '
 '
 src
@@ -5976,9 +5978,9 @@ version
 '
 :
 '
-auGY
+xFZBRBJvCExrX
 -
-KH9MEKUjUxntL1i6Av5VNvqlYqssZV0fRecq44C
+o8kv2T3lKXvbkSNSRlA2YnJt6QBkoC
 '
 }
 ]
@@ -6706,9 +6708,9 @@ version
 '
 :
 '
-DYquWb
+X8PonOFVhYxXiOji
 -
-UkDffsXody0t6Qaj8tyyAz9GGY4L8KXZxC60C
+gZIHiPTHEdiEiCHpAxDuWhj_esC
 '
 }
 ]
