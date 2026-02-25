@@ -6225,7 +6225,7 @@ _empty
 "
 "
 "
-TimelineName
+TimelineIdent
 "
 =
 "
@@ -6233,7 +6233,7 @@ TimelineName
 "
 public
 :
-StyleTimelineName
+StyleTimelineIdent
 (
 )
 :
