@@ -72,6 +72,9 @@ CONFIGURABLE_STYLES
 =
 [
 "
+background
+"
+"
 color
 "
 "
@@ -127,6 +130,9 @@ whiteSpace
 "
 "
 width
+"
+"
+height
 "
 "
 borderBlockStart
