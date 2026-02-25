@@ -1952,6 +1952,13 @@ js
 ]
 [
 "
+browser_ext_pageAction_color_scheme_svg
+.
+js
+"
+]
+[
+"
 browser_ext_pageAction_context
 .
 js
