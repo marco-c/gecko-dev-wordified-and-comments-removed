@@ -356,6 +356,11 @@ static
 methods
 "
 "
+instance
+-
+variables
+"
+"
 lifecycle
 "
 "

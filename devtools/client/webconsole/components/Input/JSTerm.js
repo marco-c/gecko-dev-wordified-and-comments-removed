@@ -659,6 +659,11 @@ bool
 }
 ;
 }
+#
+abortController
+=
+null
+;
 constructor
 (
 props
@@ -2734,11 +2739,6 @@ editorMode
 )
 ;
 }
-#
-abortController
-=
-null
-;
 imperativeUpdate
 (
 nextProps
