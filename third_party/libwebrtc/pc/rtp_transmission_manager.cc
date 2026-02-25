@@ -367,10 +367,10 @@ observer
 LegacyStatsCollectorInterface
 *
 legacy_stats
-std
+absl
 :
 :
-function
+AnyInvocable
 <
 void
 (
@@ -409,7 +409,13 @@ legacy_stats
 )
 on_negotiation_needed_
 (
+std
+:
+:
+move
+(
 on_negotiation_needed
+)
 )
 weak_ptr_factory_
 (
