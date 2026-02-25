@@ -6592,6 +6592,10 @@ src
 third_party
 /
 pipewire
+-
+1
+.
+4
 /
 linux
 -
@@ -6615,6 +6619,10 @@ chromium
 third_party
 /
 pipewire
+-
+1
+.
+4
 /
 linux
 -
@@ -6625,9 +6633,9 @@ version
 '
 :
 '
-BaVKmAmwpjdS6O0pnjSaMNSKhO1nmk5mRnyPVAJ2
+xAD2XsckE3TvjGoQxWHeV7wkJ_L
 -
-HEC
+XVDOUJhqK91yIYgC
 '
 }
 {
@@ -6640,11 +6648,7 @@ chromium
 /
 third_party
 /
-pipewire
--
-media
--
-session
+wireplumber
 /
 linux
 -
@@ -6655,7 +6659,7 @@ version
 '
 :
 '
-Y6wUeITvAA0QD1vt8_a7eQdzbp0gkI1B02qfZUMJdowC
+yfe349C2e6pWCcu7DaSPJHNWdwDbNP9FfSQoV9j6A5UC
 '
 }
 ]

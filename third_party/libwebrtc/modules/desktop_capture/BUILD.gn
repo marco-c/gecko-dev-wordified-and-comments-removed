@@ -834,6 +834,10 @@ data
 third_party
 /
 pipewire
+-
+1
+.
+4
 "
 ]
 public_configs

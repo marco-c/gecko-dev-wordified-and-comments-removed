@@ -42,6 +42,13 @@ n
 "
 leak
 :
+pw_context_load_module
+\
+n
+"
+"
+leak
+:
 webrtc
 :
 :
