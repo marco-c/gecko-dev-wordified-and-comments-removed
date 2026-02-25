@@ -49,6 +49,11 @@ case
 menu_preferences
 "
 :
+case
+"
+menu_settings
+"
+:
 openPreferences
 (
 undefined
