@@ -2852,7 +2852,7 @@ path
 relpath
 (
 test
-TEST_DIR
+TOP_SRC_DIR
 )
 :
                 
