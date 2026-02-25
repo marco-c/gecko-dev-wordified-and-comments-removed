@@ -6367,9 +6367,15 @@ memoriesEnabled
 withMemories
 ?
 ?
-userMsg
+this
 .
-memoriesEnabled
+#
+memoriesToggled
+?
+?
+this
+.
+memoriesPref
 }
 )
 ;
