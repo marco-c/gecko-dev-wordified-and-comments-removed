@@ -2141,7 +2141,7 @@ FLAGS_ssrc
 timestamp_rate_hz
 )
 ;
-RTC_DCHECK_EQ
+RTC_CHECK_EQ
 (
 acm
 -
