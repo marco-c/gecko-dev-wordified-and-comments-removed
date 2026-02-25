@@ -1461,6 +1461,7 @@ try
 let
 isLinked
 =
+await
 lazy
 .
 IPProtectionService
