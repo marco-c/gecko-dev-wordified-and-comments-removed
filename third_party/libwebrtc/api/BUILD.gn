@@ -9360,6 +9360,13 @@ video
 /
 corruption_detection
 :
+corruption_detection_unittests
+"
+"
+video
+/
+corruption_detection
+:
 frame_instrumentation_data_reader_unittest
 "
 "

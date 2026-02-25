@@ -1,11 +1,11 @@
 #
 include
 "
-modules
+api
 /
-video_coding
+video
 /
-utility
+corruption_detection
 /
 corruption_detection_settings_generator
 .
