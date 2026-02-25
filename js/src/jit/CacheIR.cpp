@@ -31677,7 +31677,7 @@ RealmFuses
 FuseIndex
 :
 :
-OptimizeGetIteratorFuse
+OptimizeGetIteratorBytecodeFuse
 )
 ;
 writer
@@ -86893,7 +86893,7 @@ RealmFuses
 FuseIndex
 :
 :
-OptimizeGetIteratorFuse
+OptimizeGetIteratorBytecodeFuse
 )
 ;
 writer
