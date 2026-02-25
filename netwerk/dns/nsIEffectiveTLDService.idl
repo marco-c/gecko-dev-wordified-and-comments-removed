@@ -10,8 +10,6 @@ nsIURI
 ;
 [
 scriptable
-rust_sync
-builtinclass
 uuid
 (
 68067eb5
