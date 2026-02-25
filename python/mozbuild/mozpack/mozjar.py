@@ -164,12 +164,8 @@ can
 be
 one
 of
-'
 uint32
-'
-'
 uint16
-'
 or
 one
 of
@@ -200,9 +196,9 @@ in
 that
 field
 .
-    
 For
 example
+:
     
 .
 .
@@ -3189,7 +3185,8 @@ form
 of
         
 JarFileReaders
-.
+:
+:
             
 for
 file

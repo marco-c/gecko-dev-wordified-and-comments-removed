@@ -51,10 +51,9 @@ to
 do
 that
 .
-    
 Why
 :
-        
+    
 -
 Some
 files
@@ -65,7 +64,7 @@ into
 UNIFIED_SOURCES
 vs
 SOURCES
-        
+    
 -
 Some
 files
@@ -82,7 +81,7 @@ per
 -
 OS
 conditionals
-        
+    
 -
 Some
 files
@@ -156,6 +155,7 @@ place
 .
 Initial
 Algorithm
+:
     
 Given
 a
@@ -464,8 +464,6 @@ block
 we
 found
 .
-          
--
 Changing
 this
 to
@@ -477,7 +475,7 @@ event
 of
 a
 tie
-            
+          
 yielded
 17
 additional
@@ -524,8 +522,7 @@ other
 blocks
 are
 longer
-          
--
+.
 Changing
 this
 (
@@ -539,9 +536,9 @@ containing
 more
 files
 yielded
+          
 49
 additional
-            
 correct
 assignments
 (
@@ -1814,12 +1811,11 @@ of
     
 the
 code
-.
-    
 e
 .
 g
 .
+:
       
 -
 "
