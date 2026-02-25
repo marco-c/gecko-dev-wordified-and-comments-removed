@@ -1588,6 +1588,13 @@ js
 ]
 [
 "
+browser_toolbox_server_error
+.
+js
+"
+]
+[
+"
 browser_toolbox_show_toolbox_tool_ready
 .
 js
