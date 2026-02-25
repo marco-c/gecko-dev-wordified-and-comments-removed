@@ -914,7 +914,7 @@ isoDate
 {
 MOZ_ASSERT
 (
-ISODateWithinLimits
+IsValidISODate
 (
 isoDate
 )
@@ -1023,7 +1023,7 @@ isoDate
 {
 MOZ_ASSERT
 (
-ISODateWithinLimits
+IsValidISODate
 (
 isoDate
 )
@@ -1268,7 +1268,7 @@ date
 {
 MOZ_ASSERT
 (
-ISODateWithinLimits
+IsValidISODate
 (
 date
 )
@@ -1307,7 +1307,7 @@ dateTime
 {
 MOZ_ASSERT
 (
-ISODateTimeWithinLimits
+IsValidISODateTime
 (
 dateTime
 )
@@ -1370,7 +1370,7 @@ isoDate
 {
 MOZ_ASSERT
 (
-ISODateWithinLimits
+IsValidISODate
 (
 isoDate
 )

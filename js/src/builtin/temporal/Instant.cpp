@@ -1865,7 +1865,7 @@ isoDateTime
 {
 MOZ_ASSERT
 (
-ISODateTimeWithinLimits
+IsValidISODateTime
 (
 isoDateTime
 )
