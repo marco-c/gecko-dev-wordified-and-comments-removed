@@ -1019,7 +1019,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_web_extension_default_icon
+mozac_ic_android_robot_fill_24
 isCompleted
 =
 false
@@ -1056,7 +1056,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_web_extension_default_icon
+mozac_ic_extension_fill_24
 isCompleted
 =
 false
@@ -1093,7 +1093,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_web_extension_default_icon
+mozac_ic_android_robot_fill_24
 isCompleted
 =
 true
@@ -1173,7 +1173,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_web_extension_default_icon
+mozac_ic_android_robot_fill_24
 isCompleted
 =
 false
@@ -1204,7 +1204,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_web_extension_default_icon
+mozac_ic_android_robot_fill_24
 isCompleted
 =
 false
@@ -1255,7 +1255,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_web_extension_default_icon
+mozac_ic_android_robot_fill_24
 isCompleted
 =
 false
@@ -1286,7 +1286,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_web_extension_default_icon
+mozac_ic_extension_fill_24
 isCompleted
 =
 false

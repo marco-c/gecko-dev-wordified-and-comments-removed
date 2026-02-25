@@ -1200,7 +1200,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_extension_24
+mozac_ic_extension_fill_24
 )
 )
 }
