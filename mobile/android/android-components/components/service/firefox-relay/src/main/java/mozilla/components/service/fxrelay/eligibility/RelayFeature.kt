@@ -271,7 +271,7 @@ FETCH_TIMEOUT_MS
 :
 Long
 =
-300_000L
+10_000L
 /
 *
 *
