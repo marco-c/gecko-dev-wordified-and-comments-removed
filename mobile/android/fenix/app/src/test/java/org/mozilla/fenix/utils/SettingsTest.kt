@@ -5535,6 +5535,11 @@ key
 {
 settings
 .
+shouldShowToolbarCustomization
+=
+false
+settings
+.
 toolbarSimpleShortcutKey
 =
 ShortcutType
@@ -5627,6 +5632,11 @@ key
 (
 )
 {
+settings
+.
+shouldShowToolbarCustomization
+=
+false
 settings
 .
 toolbarExpandedShortcutKey
