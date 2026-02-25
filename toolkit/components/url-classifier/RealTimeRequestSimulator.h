@@ -61,6 +61,11 @@ bool
 aIsPrivate
 )
 ;
+void
+CleanCache
+(
+)
+;
 private
 :
 RealTimeRequestSimulator
