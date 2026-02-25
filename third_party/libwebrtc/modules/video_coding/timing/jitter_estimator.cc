@@ -1211,9 +1211,13 @@ var_noise_ms2_
 )
 ;
 frame_delay
-.
-Clamp
+=
+std
+:
+:
+clamp
 (
+frame_delay
 -
 max_time_deviation
 max_time_deviation

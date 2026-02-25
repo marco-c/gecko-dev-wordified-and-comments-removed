@@ -3383,11 +3383,13 @@ retransmission_rate_limiter_
 >
 SetWindowSize
 (
-rtt
--
->
-Clamped
+std
+:
+:
+clamp
 (
+*
+rtt
 kMinRetransmissionWindow
 kMaxRetransmissionWindow
 )

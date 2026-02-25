@@ -1176,10 +1176,12 @@ local_time
 TimeDelta
 actual_delay
 =
-current_delay_
-.
-Clamped
+std
+:
+:
+clamp
 (
+current_delay_
 min_playout_delay_
 max_playout_delay_
 )
