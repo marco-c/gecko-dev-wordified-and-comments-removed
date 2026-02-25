@@ -1410,6 +1410,11 @@ mIsKeySnooped
 bool
 mSetInputPurposeAndInputHints
 ;
+bool
+mPendingSetSurrounding
+=
+false
+;
 static
 IMContextWrapper
 *
