@@ -400,10 +400,6 @@ in_buffer_
 (
 kBufferSize
 )
-destroyed_trampoline_
-(
-this
-)
 {
 int_socket_
 -
