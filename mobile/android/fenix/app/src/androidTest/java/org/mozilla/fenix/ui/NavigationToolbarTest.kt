@@ -4940,6 +4940,9 @@ openCustomizeSubMenu
 clickShowTabBarToggle
 (
 )
+scrollToTheScrollToHideToolbarOption
+(
+)
 selectExpandedToolbarLayout
 (
 )
@@ -5049,6 +5052,9 @@ clickSettingsButton
 openCustomizeSubMenu
 {
 clickShowTabBarToggle
+(
+)
+scrollToTheScrollToHideToolbarOption
 (
 )
 selectExpandedToolbarLayout
@@ -5216,6 +5222,9 @@ openCustomizeSubMenu
 clickShowTabBarToggle
 (
 )
+scrollToTheScrollToHideToolbarOption
+(
+)
 selectExpandedToolbarLayout
 (
 )
@@ -5338,6 +5347,9 @@ clickSettingsButton
 openCustomizeSubMenu
 {
 clickShowTabBarToggle
+(
+)
+scrollToTheScrollToHideToolbarOption
 (
 )
 selectExpandedToolbarLayout
