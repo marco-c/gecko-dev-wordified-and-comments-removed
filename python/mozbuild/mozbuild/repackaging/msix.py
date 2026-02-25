@@ -2660,13 +2660,7 @@ displayname
         
 displayname
 =
-f
-"
-Mozilla
-{
 first
-}
-"
         
 if
 channel
