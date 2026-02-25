@@ -192,6 +192,24 @@ FieldTrial
 '
 WebRTC
 -
+Agc2SpeechLevelEstimatorExperimental
+'
+               
+457791164
+               
+date
+(
+2026
+11
+5
+)
+)
+    
+FieldTrial
+(
+'
+WebRTC
+-
 ApmEnforce48kHzProcessingRate
 '
                

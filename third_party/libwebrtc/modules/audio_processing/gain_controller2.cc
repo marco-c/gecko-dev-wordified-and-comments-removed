@@ -655,6 +655,11 @@ SpeechLevelEstimator
 :
 Create
 (
+env
+.
+field_trials
+(
+)
 &
 data_dumper_
 config

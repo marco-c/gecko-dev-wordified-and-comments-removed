@@ -20,6 +20,15 @@ audio_processing
 .
 h
 "
+#
+include
+"
+api
+/
+field_trials_view
+.
+h
+"
 namespace
 webrtc
 {
@@ -86,6 +95,10 @@ SpeechLevelEstimator
 >
 Create
 (
+const
+FieldTrialsView
+&
+field_trials
 ApmDataDumper
 *
 apm_data_dumper
