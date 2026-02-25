@@ -43,6 +43,11 @@ RenderCompositorEGL
 h
 "
 "
+RenderCompositorLayerNative
+.
+h
+"
+"
 RenderCompositorLayersSWGL
 .
 h
@@ -144,6 +149,11 @@ cpp
 "
 "
 RenderCompositorEGL
+.
+cpp
+"
+"
+RenderCompositorLayerNative
 .
 cpp
 "
@@ -457,11 +467,6 @@ webrender
 =
 [
 "
-RenderCompositorLayerNative
-.
-h
-"
-"
 RenderCompositorNative
 .
 h
@@ -471,11 +476,6 @@ SOURCES
 +
 =
 [
-"
-RenderCompositorLayerNative
-.
-cpp
-"
 "
 RenderCompositorNative
 .
