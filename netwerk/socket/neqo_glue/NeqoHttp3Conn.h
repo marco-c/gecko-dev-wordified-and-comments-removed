@@ -598,7 +598,7 @@ aError
 )
 ;
 }
-void
+nsresult
 SetResumptionToken
 (
 nsTArray
@@ -609,6 +609,7 @@ uint8_t
 aToken
 )
 {
+return
 neqo_http3conn_set_resumption_token
 (
 this
