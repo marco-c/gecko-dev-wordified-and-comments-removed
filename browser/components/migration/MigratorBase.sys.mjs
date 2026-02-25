@@ -314,6 +314,7 @@ a
 migrator
 :
 *
+*
 1
 .
 Import
@@ -367,6 +368,7 @@ profiles
 override
 the
 sourceProfiles
+.
 *
 Here
 we
@@ -672,6 +674,8 @@ following
 keys
 :
 *
+*
+-
 id
 -
 a
@@ -682,6 +686,7 @@ for
 the
 profile
 *
+-
 name
 -
 a
@@ -830,6 +835,7 @@ resource
 should
 provide
 :
+*
 *
 -
 a
@@ -1407,6 +1413,7 @@ in
 two
 ways
 :
+*
 *
 -
 they

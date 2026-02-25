@@ -717,11 +717,9 @@ filter
 .
 Example
 :
-"
 *
 .
 csv
-"
 *
 /
 /
