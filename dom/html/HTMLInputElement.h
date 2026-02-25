@@ -3804,6 +3804,12 @@ TextControlElement
 :
 IsSingleLineTextControl
 ;
+ShadowRoot
+*
+CreateShadowTreeFromLayoutIfNeeded
+(
+)
+;
 protected
 :
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
