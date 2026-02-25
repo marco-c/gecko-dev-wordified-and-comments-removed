@@ -1794,11 +1794,6 @@ NS_NewXMLProcessingInstruction
 aParent
 -
 >
-OwnerDoc
-(
-)
--
->
 NodeInfoManager
 (
 )

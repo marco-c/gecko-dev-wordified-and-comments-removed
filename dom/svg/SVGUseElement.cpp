@@ -2170,11 +2170,6 @@ nodeInfoManager
 =
 isCrossDocument
 ?
-OwnerDoc
-(
-)
--
->
 NodeInfoManager
 (
 )
