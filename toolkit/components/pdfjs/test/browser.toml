@@ -470,6 +470,13 @@ sjs
 ]
 [
 "
+browser_pdfjs_rfp_exemption
+.
+js
+"
+]
+[
+"
 browser_pdfjs_saveas
 .
 js
