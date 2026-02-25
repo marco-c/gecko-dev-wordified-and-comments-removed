@@ -2212,6 +2212,12 @@ url
 waitForPageToLoad
 (
 )
+verifyPageContent
+(
+genericWebPage
+.
+content
+)
 }
 navigationToolbar
 (
@@ -2227,6 +2233,9 @@ trackingPage
 url
 )
 {
+waitForPageToLoad
+(
+)
 verifyTrackingProtectionWebContent
 (
 "
@@ -2248,6 +2257,13 @@ verifyTrackingProtectionWebContent
 "
 analytics
 not
+blocked
+"
+)
+verifyTrackingProtectionWebContent
+(
+"
+Cryptomining
 blocked
 "
 )
