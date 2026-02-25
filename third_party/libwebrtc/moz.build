@@ -4945,6 +4945,16 @@ libwebrtc
 /
 rtc_base
 /
+callback_list_with_locks_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+rtc_base
+/
 checks_gn
 "
 "
