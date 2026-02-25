@@ -1,18 +1,5 @@
 #
 include
-"
-modules
-/
-audio_processing
-/
-agc2
-/
-speech_level_estimator
-.
-h
-"
-#
-include
 <
 memory
 >
@@ -37,6 +24,19 @@ audio_processing
 agc2
 /
 agc2_common
+.
+h
+"
+#
+include
+"
+modules
+/
+audio_processing
+/
+agc2
+/
+speech_level_estimator_impl
 .
 h
 "
@@ -124,7 +124,7 @@ float
 rms_dbfs
 float
 speech_probability
-SpeechLevelEstimator
+SpeechLevelEstimatorImpl
 &
 level_estimator
 )
@@ -202,7 +202,7 @@ std
 :
 make_unique
 <
-SpeechLevelEstimator
+SpeechLevelEstimatorImpl
 >
 (
 &
@@ -218,7 +218,7 @@ initial_speech_level_dbfs
 estimator
 -
 >
-level_dbfs
+GetLevelDbfs
 (
 )
 )
@@ -292,7 +292,7 @@ std
 :
 unique_ptr
 <
-SpeechLevelEstimator
+SpeechLevelEstimatorImpl
 >
 estimator
 ;
@@ -344,7 +344,7 @@ level_estimator
 estimator
 -
 >
-level_dbfs
+GetLevelDbfs
 (
 )
 ;
@@ -368,7 +368,7 @@ level_estimator
 estimator
 -
 >
-level_dbfs
+GetLevelDbfs
 (
 )
 estimated_level_dbfs
@@ -412,7 +412,7 @@ level_estimator
 estimator
 -
 >
-is_confident
+IsConfident
 (
 )
 )
@@ -450,7 +450,7 @@ level_estimator
 estimator
 -
 >
-is_confident
+IsConfident
 (
 )
 )
@@ -490,7 +490,7 @@ level_estimator
 estimator
 -
 >
-level_dbfs
+GetLevelDbfs
 (
 )
 ;
@@ -514,7 +514,7 @@ level_estimator
 estimator
 -
 >
-level_dbfs
+GetLevelDbfs
 (
 )
 estimated_level_dbfs
@@ -553,7 +553,7 @@ level_estimator
 estimator
 -
 >
-level_dbfs
+GetLevelDbfs
 (
 )
 level_estimator
@@ -595,7 +595,7 @@ level_estimator
 estimator
 -
 >
-level_dbfs
+GetLevelDbfs
 (
 )
 level_estimator
@@ -610,7 +610,7 @@ level_estimator
 estimator
 -
 >
-is_confident
+IsConfident
 (
 )
 )
@@ -650,7 +650,7 @@ level_estimator
 estimator
 -
 >
-level_dbfs
+GetLevelDbfs
 (
 )
 level_estimator
@@ -713,7 +713,7 @@ level_estimator
 estimator
 -
 >
-level_dbfs
+GetLevelDbfs
 (
 )
 ;
@@ -771,7 +771,7 @@ level_estimator
 estimator
 -
 >
-level_dbfs
+GetLevelDbfs
 (
 )
 )
@@ -798,7 +798,7 @@ level_estimator
 estimator
 -
 >
-level_dbfs
+GetLevelDbfs
 (
 )
 )
@@ -827,7 +827,7 @@ level_estimator
 estimator
 -
 >
-level_dbfs
+GetLevelDbfs
 (
 )
 ;
@@ -879,7 +879,7 @@ level_estimator
 estimator
 -
 >
-level_dbfs
+GetLevelDbfs
 (
 )
 )
