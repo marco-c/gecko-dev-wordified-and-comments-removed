@@ -3813,7 +3813,7 @@ Builder
 WebRTC
 Chromium
 FYI
-Win10
+Win
 Tester
 "
 #
