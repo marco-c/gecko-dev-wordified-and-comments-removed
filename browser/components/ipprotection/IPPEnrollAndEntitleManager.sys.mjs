@@ -955,7 +955,7 @@ return
 {
 isEnrolledAndEntitled
 :
-false
+null
 error
 :
 entitlementError
@@ -1461,7 +1461,6 @@ try
 let
 isLinked
 =
-await
 lazy
 .
 IPProtectionService

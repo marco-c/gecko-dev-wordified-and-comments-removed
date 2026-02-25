@@ -332,7 +332,7 @@ this
 ;
 this
 .
-handleClickSettingsLink
+handleClickSetingsLink
 =
 this
 .
@@ -693,7 +693,7 @@ render
 )
 {
 let
-templateFn
+messageBarTemplate
 =
 this
 .
@@ -706,11 +706,13 @@ this
 .
 type
 )
+(
+)
 ;
 if
 (
 !
-templateFn
+messageBarTemplate
 )
 {
 return
@@ -720,9 +722,7 @@ null
 return
 html
 {
-templateFn
-(
-)
+messageBarTemplate
 }
 ;
 }

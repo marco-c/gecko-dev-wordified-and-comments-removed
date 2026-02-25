@@ -2779,15 +2779,6 @@ this
 panel
 )
 {
-const
-doc
-=
-this
-.
-panel
-.
-ownerDocument
-;
 this
 .
 panel
@@ -2801,7 +2792,11 @@ this
 #
 removePanelListeners
 (
-doc
+this
+.
+panel
+.
+ownerDocument
 )
 ;
 this
@@ -3655,7 +3650,7 @@ IPPProxyManager
 .
 usageInfo
 .
-reset
+resets
 }
 ;
 }

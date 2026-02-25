@@ -1029,7 +1029,7 @@ null
 #
 activatedAt
 =
-0
+false
 ;
 #
 rotationTimer
@@ -2241,6 +2241,7 @@ this
 #
 pass
 =
+=
 null
 ;
 this
@@ -2672,11 +2673,6 @@ Stopped
 const
 sessionLength
 =
-this
-.
-#
-activatedAt
-?
 ChromeUtils
 .
 now
@@ -2687,8 +2683,6 @@ this
 .
 #
 activatedAt
-:
-0
 ;
 Glean
 .
