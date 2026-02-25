@@ -840,6 +840,9 @@ return
 false
 ;
 }
+#
+ifdef
+MOZ_BACKGROUNDTASKS
 static
 bool
 HasFlag
@@ -894,6 +897,8 @@ return
 false
 ;
 }
+#
+endif
 constinit
 Bootstrap
 :
