@@ -493,7 +493,7 @@ false
 ;
 AttachAndSetUAShadowRoot
 (
-NotifyUAWidgetSetup
+NotifyUAWidget
 :
 :
 No

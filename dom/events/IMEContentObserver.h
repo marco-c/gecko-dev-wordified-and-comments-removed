@@ -555,15 +555,6 @@ CancelEditAction
 (
 )
 ;
-void
-OnTextControlValueChangedWhileNotObservable
-(
-const
-nsAString
-&
-aNewValue
-)
-;
 dom
 :
 :

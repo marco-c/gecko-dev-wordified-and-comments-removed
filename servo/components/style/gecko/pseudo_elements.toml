@@ -554,6 +554,9 @@ enabled_in
 "
 chrome
 "
+is_element_backed
+=
+true
 [
 -
 moz
@@ -572,6 +575,9 @@ enabled_in
 "
 chrome
 "
+is_element_backed
+=
+true
 [
 -
 moz
@@ -590,6 +596,9 @@ enabled_in
 "
 chrome
 "
+is_element_backed
+=
+true
 [
 -
 moz
@@ -608,6 +617,9 @@ enabled_in
 "
 chrome
 "
+is_element_backed
+=
+true
 #
 The
 selected
@@ -738,6 +750,9 @@ placeholder
 supports_user_action_state
 =
 true
+is_element_backed
+=
+true
 [
 -
 moz
@@ -785,6 +800,9 @@ enabled_in
 "
 ua
 "
+is_element_backed
+=
+true
 #
 The
 element
@@ -809,6 +827,9 @@ enabled_in
 "
 ua
 "
+is_element_backed
+=
+true
 #
 The
 Reveal
@@ -833,6 +854,9 @@ enabled_in
 "
 ua
 "
+is_element_backed
+=
+true
 #
 The
 button

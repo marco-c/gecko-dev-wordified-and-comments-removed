@@ -302,8 +302,12 @@ IsInComposedDoc
 )
 )
 {
-NotifyUAWidgetTeardown
+TeardownUAShadowRoot
 (
+NotifyUAWidget
+:
+:
+Yes
 UnattachShadowRoot
 :
 :

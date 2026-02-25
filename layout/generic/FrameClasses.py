@@ -765,19 +765,6 @@ BLOCK
 Frame
 (
 "
-nsNumberControlFrame
-"
-"
-TextInput
-"
-REPLACED
-|
-LEAF
-)
-    
-Frame
-(
-"
 nsPageBreakFrame
 "
 "
@@ -954,19 +941,6 @@ nsScrollbarFrame
 Scrollbar
 "
 COMMON
-)
-    
-Frame
-(
-"
-nsSearchControlFrame
-"
-"
-TextInput
-"
-REPLACED
-|
-LEAF
 )
     
 Frame
@@ -1472,8 +1446,6 @@ nsTextControlFrame
 TextInput
 "
 REPLACED
-|
-LEAF
 )
     
 Frame

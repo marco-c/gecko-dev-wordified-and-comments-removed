@@ -6177,7 +6177,7 @@ AttachAndSetUAShadowRoot
 Element
 :
 :
-NotifyUAWidgetSetup
+NotifyUAWidget
 :
 :
 Yes

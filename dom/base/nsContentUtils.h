@@ -6207,7 +6207,7 @@ static
 void
 RemoveNewlines
 (
-nsString
+nsAString
 &
 aString
 )
@@ -6216,7 +6216,7 @@ static
 void
 PlatformToDOMLineBreaks
 (
-nsString
+nsAString
 &
 aString
 )
@@ -6230,7 +6230,7 @@ static
 bool
 PlatformToDOMLineBreaks
 (
-nsString
+nsAString
 &
 aString
 const
@@ -6876,17 +6876,6 @@ aOutStartOffset
 uint32_t
 &
 aOutEndOffset
-)
-;
-static
-int32_t
-GetAdjustedOffsetInTextControl
-(
-nsIFrame
-*
-aOffsetFrame
-int32_t
-aOffset
 )
 ;
 static

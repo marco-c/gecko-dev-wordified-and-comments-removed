@@ -634,7 +634,7 @@ SetupShadowTree
 {
 AttachAndSetUAShadowRoot
 (
-NotifyUAWidgetSetup
+NotifyUAWidget
 :
 :
 No
