@@ -828,6 +828,11 @@ string
 >
 decoder_output_base_path
 ;
+int
+num_cores
+=
+1
+;
 }
 ;
 struct
@@ -859,6 +864,11 @@ std
 string
 >
 encoder_output_base_path
+;
+int
+num_cores
+=
+1
 ;
 }
 ;

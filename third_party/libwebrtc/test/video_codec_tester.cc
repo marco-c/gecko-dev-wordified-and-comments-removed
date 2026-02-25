@@ -5914,6 +5914,10 @@ decoder_factory_
 (
 decoder_factory
 )
+decoder_settings_
+(
+decoder_settings
+)
 analyzer_
 (
 analyzer
@@ -6088,7 +6092,9 @@ ds
 .
 set_number_of_cores
 (
-1
+decoder_settings_
+.
+num_cores
 )
 ;
 ds
@@ -6520,6 +6526,10 @@ VideoDecoderFactory
 *
 decoder_factory_
 ;
+const
+DecoderSettings
+decoder_settings_
+;
 std
 :
 :
@@ -6649,6 +6659,10 @@ env
 encoder_factory_
 (
 encoder_factory
+)
+encoder_settings_
+(
+encoder_settings
 )
 analyzer_
 (
@@ -8205,7 +8219,9 @@ Capabilities
 (
 false
 )
-1
+encoder_settings_
+.
+num_cores
 1440
 )
 ;
@@ -8789,6 +8805,10 @@ VideoEncoderFactory
 *
 const
 encoder_factory_
+;
+const
+EncoderSettings
+encoder_settings_
 ;
 std
 :
