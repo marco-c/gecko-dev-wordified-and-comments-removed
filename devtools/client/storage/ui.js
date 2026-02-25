@@ -3291,14 +3291,14 @@ this
 .
 table
 .
-_editableFieldsEngine
+editableFieldsEngine
 )
 {
 this
 .
 table
 .
-_editableFieldsEngine
+editableFieldsEngine
 .
 destroy
 (
