@@ -33,6 +33,9 @@ namespace
 webrtc
 {
 class
+Block
+;
+class
 NeuralResidualEchoEstimator
 {
 public
@@ -48,12 +51,10 @@ virtual
 void
 Estimate
 (
-ArrayView
-<
 const
-float
->
-x
+Block
+&
+render
 ArrayView
 <
 const

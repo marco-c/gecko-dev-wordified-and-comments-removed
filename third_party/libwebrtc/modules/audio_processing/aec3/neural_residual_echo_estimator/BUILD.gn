@@ -237,6 +237,12 @@ neural_residual_echo_estimator_proto
 .
 .
 :
+aec3_block
+"
+"
+.
+.
+:
 aec3_common
 "
 "
@@ -501,6 +507,12 @@ neural_residual_echo_estimator_impl
 "
 :
 neural_residual_echo_estimator_proto
+"
+"
+.
+.
+:
+aec3_block
 "
 "
 .
