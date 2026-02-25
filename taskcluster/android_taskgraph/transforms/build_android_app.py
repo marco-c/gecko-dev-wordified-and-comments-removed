@@ -722,16 +722,6 @@ net
 sentry_token
 "
 )
-                    
-(
-"
-0
-"
-"
-.
-gps_integrity_token
-"
-)
                 
 )
             
@@ -788,16 +778,6 @@ nimbus_url
 "
 .
 nimbus
-"
-)
-        
-(
-"
-gps_integrity_token
-"
-"
-.
-gps_integrity_token
 "
 )
     
