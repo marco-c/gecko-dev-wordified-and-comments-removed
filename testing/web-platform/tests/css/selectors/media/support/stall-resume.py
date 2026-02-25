@@ -179,10 +179,7 @@ end_headers
         
 first_size
 =
-file_size
-/
-/
-30
+4096
         
 response
 .
