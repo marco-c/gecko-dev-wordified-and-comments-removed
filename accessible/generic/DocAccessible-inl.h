@@ -373,6 +373,16 @@ down
 "
 )
 ;
+MOZ_ASSERT
+(
+aTextNode
+-
+>
+IsText
+(
+)
+)
+;
 if
 (
 mNotificationController
