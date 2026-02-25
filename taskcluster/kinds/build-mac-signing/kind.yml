@@ -170,6 +170,12 @@ macosx64
 aarch64
 /
 debug
+-
+macosx64
+-
+aarch64
+/
+opt
 tasks
 :
 build
