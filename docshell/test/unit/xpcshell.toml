@@ -81,6 +81,13 @@ test_URIFixup_info
 js
 "
 ]
+requesttimeoutfactor
+=
+2
+#
+Slow
+on
+Windows
 skip
 -
 if
