@@ -4154,11 +4154,6 @@ activity
 )
 if
 (
-isEdgeToEdgeBackgroundEnabled
-(
-)
-&
-&
 homepageEdgeToEdgeFeature
 .
 get
