@@ -1317,6 +1317,13 @@ visibility
 visible
 "
 ;
+this
+.
+#
+setInitialFocus
+(
+)
+;
 }
 /
 *
@@ -2278,13 +2285,6 @@ scheduleCallback
 :
 false
 }
-)
-;
-this
-.
-#
-setInitialFocus
-(
 )
 ;
 }
