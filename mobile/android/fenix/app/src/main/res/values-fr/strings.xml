@@ -29979,7 +29979,7 @@ name
 change_file_extension_title
 "
 >
-Changer
+Modifier
 le
 type
 de
@@ -30002,9 +30002,12 @@ name
 change_file_extension_description
 "
 >
-Cela
+Il
+se
 peut
-ouvrir
+que
+cela
+ouvre
 le
 fichier
 dans
@@ -30013,7 +30016,7 @@ autre
 application
 et
 pr
-senter
+sente
 un
 risque
 pour
@@ -30046,9 +30049,8 @@ change_file_extension_confirm_button
 "
 >
 Oui
-modifiez
--
 le
+modifier
 <
 /
 string
