@@ -457,6 +457,8 @@ param
 lambda
 t
 :
+(
+                
 t
 .
 kind
@@ -465,7 +467,6 @@ kind
 "
 build
 "
-            
 and
 "
 shippable
@@ -479,6 +480,8 @@ attributes
 build_platform
 "
 ]
+            
+)
             
 id
 =

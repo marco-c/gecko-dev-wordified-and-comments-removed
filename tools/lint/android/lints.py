@@ -3162,6 +3162,7 @@ join
 dir
                     
 issue
+                    
 .
 get
 (
@@ -3340,6 +3341,7 @@ lineno
 "
 :
 issue
+                    
 .
 get
 (
@@ -3388,6 +3390,7 @@ column
 "
 :
 issue
+                    
 .
 get
 (

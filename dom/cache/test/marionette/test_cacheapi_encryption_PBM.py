@@ -566,6 +566,8 @@ ensureInvariantHolds
 lambda
 _
 :
+(
+                
 self
 .
 findDirObj
@@ -580,10 +582,12 @@ morgue
 "
 False
 )
-            
+                
 is
 not
 None
+            
+)
         
 )
         
@@ -660,6 +664,8 @@ ensureInvariantHolds
 lambda
 _
 :
+(
+                
 self
 .
 findDirObj
@@ -671,10 +677,11 @@ final
 "
 True
 )
-            
 is
 not
 None
+            
+)
         
 )
         
@@ -749,11 +756,13 @@ ensureInvariantHolds
 lambda
 _
 :
+(
+                
 self
 .
 findDirObj
 (
-                
+                    
 self
 .
 getCacheAPIStoragePath
@@ -763,12 +772,14 @@ self
 .
 cacheDBJournalFileName
 True
-            
+                
 )
-            
+                
 is
 not
 None
+            
+)
         
 )
         
@@ -799,11 +810,13 @@ ensureInvariantHolds
 lambda
 _
 :
+(
+                
 self
 .
 findDirObj
 (
-                
+                    
 self
 .
 getCacheAPIStoragePath
@@ -813,12 +826,14 @@ self
 .
 cacheDBFileName
 True
-            
+                
 )
-            
+                
 is
 not
 None
+            
+)
         
 )
         

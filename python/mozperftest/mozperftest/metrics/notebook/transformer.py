@@ -1129,13 +1129,15 @@ module
 lambda
 c
 :
+(
+            
 inspect
 .
 isclass
 (
 c
 )
-        
+            
 and
 hasattr
 (
@@ -1144,7 +1146,7 @@ c
 transform
 "
 )
-        
+            
 and
 hasattr
 (
@@ -1153,7 +1155,7 @@ c
 merge
 "
 )
-        
+            
 and
 callable
 (
@@ -1161,13 +1163,15 @@ c
 .
 transform
 )
-        
+            
 and
 callable
 (
 c
 .
 merge
+)
+        
 )
     
 )
