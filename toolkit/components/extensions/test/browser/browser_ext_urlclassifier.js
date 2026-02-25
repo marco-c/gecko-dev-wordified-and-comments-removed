@@ -160,7 +160,7 @@ urlclassifier
 .
 features
 .
-harmfuladdonV2
+harmfuladdon
 .
 blocklistHosts
 "

@@ -1671,7 +1671,7 @@ urlclassifier
 .
 features
 .
-harmfuladdonV2
+harmfuladdon
 .
 blocklistTables
 "
@@ -1680,7 +1680,7 @@ urlclassifier
 .
 features
 .
-harmfuladdonV2
+harmfuladdon
 .
 entitylistTables
 "

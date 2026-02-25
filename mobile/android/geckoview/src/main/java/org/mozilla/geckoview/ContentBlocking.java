@@ -2447,7 +2447,7 @@ urlclassifier
 .
 features
 .
-harmfuladdonV2
+harmfuladdon
 .
 blocklistTables
 "
@@ -6676,7 +6676,9 @@ String
 HARMFULADDON
 =
 "
-harmfuladdon
+harmful
+-
+addon
 -
 block
 -
