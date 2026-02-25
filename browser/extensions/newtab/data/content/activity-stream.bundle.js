@@ -9456,7 +9456,8 @@ optimize
 true
 alt_text
 :
-null
+"
+"
 windowObj
 :
 window
