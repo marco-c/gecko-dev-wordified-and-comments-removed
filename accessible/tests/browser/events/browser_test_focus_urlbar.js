@@ -193,7 +193,7 @@ accessible
 role
 =
 =
-ROLE_COMBOBOX_OPTION
+ROLE_OPTION
 ;
 }
 function
@@ -324,7 +324,7 @@ parent
 role
 =
 =
-ROLE_COMBOBOX_LIST
+ROLE_LISTBOX
 )
 ;
 }
@@ -555,7 +555,7 @@ accessible
 role
 =
 =
-ROLE_ENTRY
+ROLE_EDITCOMBOBOX
 )
 ;
 gURLBar
@@ -2232,7 +2232,7 @@ accessible
 role
 =
 =
-ROLE_ENTRY
+ROLE_EDITCOMBOBOX
 )
 ;
 gURLBar
