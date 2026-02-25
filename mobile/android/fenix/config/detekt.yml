@@ -5020,3 +5020,8 @@ MozillaUseLazyMonitored
 active
 :
 true
+NoSystemCurrentTimeMillis
+:
+active
+:
+true
