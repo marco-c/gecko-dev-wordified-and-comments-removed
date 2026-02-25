@@ -821,6 +821,9 @@ getOrCreateNewMask
 generatedFor
 :
 String
+description
+:
+String
 )
 :
 EmailMask
@@ -835,6 +838,7 @@ fxRelay
 createEmailMask
 (
 generatedFor
+description
 )
 store
 .
