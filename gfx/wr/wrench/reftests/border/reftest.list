@@ -51,6 +51,11 @@ platform
 linux
 mac
 )
+fuzzy
+(
+255
+110
+)
 =
 =
 border
