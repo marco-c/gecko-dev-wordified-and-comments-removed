@@ -7,6 +7,11 @@ Array
 .
 h
 "
+#
+include
+<
+cstdint
+>
 void
 TestInitialValueByConstructor
 (

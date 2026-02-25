@@ -24,6 +24,11 @@ vector
 #
 include
 <
+cstdint
+>
+#
+include
+<
 iostream
 >
 #
