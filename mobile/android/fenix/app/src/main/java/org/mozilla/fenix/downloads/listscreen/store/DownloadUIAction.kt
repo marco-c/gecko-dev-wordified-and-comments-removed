@@ -462,9 +462,14 @@ class
 ShareFileClicked
 (
 val
-filePath
+directoryPath
 :
 String
+val
+fileName
+:
+String
+?
 val
 contentType
 :

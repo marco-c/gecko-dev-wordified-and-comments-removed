@@ -141,6 +141,11 @@ image
 /
 png
 "
+directoryPath
+=
+"
+downloads
+"
 status
 =
 FileItem

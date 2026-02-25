@@ -129,7 +129,7 @@ EngineDownloadDelegate
 context
 :
 Context
-downloadLocationGetter
+downloadLocation
 :
 (
 )
@@ -150,7 +150,7 @@ context
 context
 downloadLocation
 =
-downloadLocationGetter
+downloadLocation
 )
 /
 *

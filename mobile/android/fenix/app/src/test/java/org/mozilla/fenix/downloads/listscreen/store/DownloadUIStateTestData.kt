@@ -130,6 +130,13 @@ mozilla
 .
 org
 "
+directoryPath
+:
+String
+=
+"
+downloads
+"
 contentType
 :
 String
@@ -180,6 +187,9 @@ description
 displayedShortUrl
 =
 displayedShortUrl
+directoryPath
+=
+directoryPath
 contentType
 =
 contentType

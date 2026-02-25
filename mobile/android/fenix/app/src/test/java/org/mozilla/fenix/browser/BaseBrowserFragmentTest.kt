@@ -1165,11 +1165,6 @@ sessionId
 "
 1
 "
-destinationDirectory
-=
-"
-/
-"
 directoryPath
 =
 "
@@ -1278,11 +1273,6 @@ sessionId
 =
 "
 1
-"
-destinationDirectory
-=
-"
-/
 "
 directoryPath
 =
@@ -1393,11 +1383,6 @@ sessionId
 =
 "
 2
-"
-destinationDirectory
-=
-"
-/
 "
 directoryPath
 =

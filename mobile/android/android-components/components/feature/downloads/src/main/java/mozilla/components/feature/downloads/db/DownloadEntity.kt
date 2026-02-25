@@ -213,11 +213,11 @@ ColumnInfo
 name
 =
 "
-destination_directory
+directory_path
 "
 )
 var
-destinationDirectory
+directoryPath
 :
 String
 ColumnInfo
@@ -271,9 +271,9 @@ status
 userAgent
 =
 null
-destinationDirectory
+directoryPath
 =
-destinationDirectory
+directoryPath
 referrerUrl
 =
 null
@@ -389,9 +389,9 @@ contentLength
 status
 =
 status
-destinationDirectory
+directoryPath
 =
-destinationDirectory
+directoryPath
 createdAt
 =
 createdTime

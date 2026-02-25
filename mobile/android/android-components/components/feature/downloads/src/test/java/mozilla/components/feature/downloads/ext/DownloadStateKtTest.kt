@@ -236,8 +236,10 @@ fakeUtils
 guessFileName
 (
 null
+"
+downloads
+"
 url
-contentType
 )
 }
 val

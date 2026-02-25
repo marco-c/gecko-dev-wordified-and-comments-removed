@@ -1597,13 +1597,6 @@ directoryPath
 "
 downloads
 "
-destinationDirectory
-=
-"
-Environment
-.
-DIRECTORY_MUSIC
-"
 private
 =
 true
@@ -1724,13 +1717,6 @@ directoryPath
 =
 "
 downloads
-"
-destinationDirectory
-=
-"
-Environment
-.
-DIRECTORY_MUSIC
 "
 private
 =

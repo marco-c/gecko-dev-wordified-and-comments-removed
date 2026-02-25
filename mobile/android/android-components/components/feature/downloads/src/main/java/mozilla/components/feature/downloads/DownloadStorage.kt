@@ -596,12 +596,12 @@ status
 &
 first
 .
-destinationDirectory
+directoryPath
 =
 =
 second
 .
-destinationDirectory
+directoryPath
 &
 &
 first

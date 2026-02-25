@@ -447,10 +447,14 @@ DownloadUIAction
 .
 ShareFileClicked
 (
-filePath
+directoryPath
 =
 "
 path
+"
+fileName
+=
+"
 "
 contentType
 =

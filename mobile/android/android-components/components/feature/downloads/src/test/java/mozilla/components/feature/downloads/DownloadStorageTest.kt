@@ -174,11 +174,6 @@ DownloadState
 Status
 .
 DOWNLOADING
-destinationDirectory
-=
-Environment
-.
-DIRECTORY_MUSIC
 )
 assertTrue
 (
@@ -296,11 +291,11 @@ download
 .
 copy
 (
-destinationDirectory
+directoryPath
 =
-Environment
-.
-DIRECTORY_DOWNLOADS
+"
+directoryPath
+"
 )
 )
 )
