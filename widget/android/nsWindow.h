@@ -520,7 +520,14 @@ LayoutDeviceIntPoint
 *
 aPoint
 =
-0
+nullptr
+)
+;
+void
+PerformHapticFeedback
+(
+int32_t
+aEffect
 )
 ;
 void

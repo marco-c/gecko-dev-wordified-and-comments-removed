@@ -697,6 +697,13 @@ Param
 aStream
 )
 ;
+void
+PerformHapticFeedback
+(
+int32_t
+aEffect
+)
+;
 }
 ;
 }

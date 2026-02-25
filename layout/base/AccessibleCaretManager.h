@@ -102,6 +102,13 @@ h
 #
 include
 "
+nsIHapticFeedback
+.
+h
+"
+#
+include
+"
 nsISelectionListener
 .
 h
@@ -451,6 +458,11 @@ UpdateShouldDisableApz
 void
 ProvideHapticFeedback
 (
+nsIHapticFeedback
+:
+:
+HapticFeedbackType
+aEffect
 )
 ;
 nsIFrame

@@ -29,7 +29,10 @@ nsHapticFeedback
 :
 PerformSimpleAction
 (
-int32_t
+nsIHapticFeedback
+:
+:
+HapticFeedbackType
 aType
 )
 {
@@ -38,7 +41,13 @@ hal
 :
 PerformHapticFeedback
 (
+static_cast
+<
+int32_t
+>
+(
 aType
+)
 )
 ;
 return
