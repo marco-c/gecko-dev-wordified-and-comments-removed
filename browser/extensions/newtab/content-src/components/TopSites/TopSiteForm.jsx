@@ -1641,15 +1641,6 @@ grey
 -
 title
 "
-id
-=
-"
-topsites
--
-form
--
-title
-"
 data
 -
 l10n
