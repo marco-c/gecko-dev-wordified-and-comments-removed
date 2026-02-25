@@ -914,6 +914,12 @@ upx
 tier
 :
 1
+fetches
+:
+fetch
+:
+-
+upx
 run
 :
 script
