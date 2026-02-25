@@ -26,37 +26,33 @@ derive_method_tmpl
 \
 Method
 {
+{
     
 name
 :
 "
-%
-(
+{
 name
-)
-s
+}
 "
     
 params
 :
 &
 [
-%
-(
+{
 params
-)
-s
+}
 ]
     
 ret
 :
 "
-%
-(
+{
 ret
-)
-s
+}
 "
+}
 }
 "
 "
@@ -114,13 +110,12 @@ getter
     
 return
 derive_method_tmpl
-%
-{
+.
+format
+(
         
-"
 name
-"
-:
+=
 rust
 .
 attributeNativeName
@@ -129,10 +124,8 @@ m
 getter
 )
         
-"
 params
-"
-:
+=
 "
 "
 .
@@ -141,10 +134,8 @@ join
 params
 )
         
-"
 ret
-"
-:
+=
 "
 :
 :
@@ -154,7 +145,7 @@ nserror
 nsresult
 "
     
-}
+)
 def
 methodAsMethodStruct
 (
@@ -206,13 +197,12 @@ m
     
 return
 derive_method_tmpl
-%
-{
+.
+format
+(
         
-"
 name
-"
-:
+=
 rust
 .
 methodNativeName
@@ -220,10 +210,8 @@ methodNativeName
 m
 )
         
-"
 params
-"
-:
+=
 "
 "
 .
@@ -232,10 +220,8 @@ join
 params
 )
         
-"
 ret
-"
-:
+=
 rust
 .
 methodReturnType
@@ -243,7 +229,7 @@ methodReturnType
 m
 )
     
-}
+)
 derive_iface_tmpl
 =
 "
@@ -252,40 +238,34 @@ derive_iface_tmpl
 \
 Interface
 {
+{
     
 name
 :
 "
-%
-(
+{
 name
-)
-s
+}
 "
     
 base
 :
-%
-(
+{
 base
-)
-s
+}
     
 sync
 :
-%
-(
+{
 sync
-)
-s
+}
     
 methods
 :
-%
-(
+{
 methods
-)
-s
+}
+}
 }
 "
 "
@@ -512,28 +492,22 @@ write
 (
             
 derive_iface_tmpl
-            
-%
-{
+.
+format
+(
                 
-"
 name
-"
-:
+=
 iface
 .
 name
                 
-"
 base
-"
-:
+=
 base
                 
-"
 sync
-"
-:
+=
 "
 true
 "
@@ -548,10 +522,8 @@ else
 false
 "
                 
-"
 methods
-"
-:
+=
 f
 "
 Ok
@@ -567,7 +539,7 @@ methods
 )
 "
             
-}
+)
         
 )
     
@@ -585,36 +557,28 @@ write
 (
             
 derive_iface_tmpl
-            
-%
-{
+.
+format
+(
                 
-"
 name
-"
-:
+=
 iface
 .
 name
                 
-"
 base
-"
-:
+=
 base
                 
-"
 sync
-"
-:
+=
 "
 false
 "
                 
-"
 methods
-"
-:
+=
 f
 '
 Err
@@ -627,7 +591,7 @@ reason
 )
 '
             
-}
+)
         
 )
 header
@@ -651,11 +615,9 @@ GENERATED
 FROM
 SRCDIR
 /
-%
-(
+{
 relpath
-)
-s
+}
 /
 /
 "
@@ -684,14 +646,13 @@ fd
 write
 (
 header
-%
-{
-"
+.
+format
+(
 relpath
-"
-:
+=
 relpath
-}
+)
 )
     
 fd
