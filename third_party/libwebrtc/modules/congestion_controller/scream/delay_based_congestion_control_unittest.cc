@@ -663,9 +663,6 @@ ref_window
 1
 .
 0
-1
-.
-0
 )
 ref_window
 )
@@ -814,9 +811,6 @@ delay_controller
 UpdateReferenceWindow
 (
 ref_window
-1
-.
-0
 1
 .
 0
@@ -993,9 +987,6 @@ delay_controller
 UpdateReferenceWindow
 (
 ref_window
-1
-.
-0
 1
 .
 0

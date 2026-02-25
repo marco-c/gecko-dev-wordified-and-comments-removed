@@ -1549,7 +1549,7 @@ DataRate
 :
 KilobitsPerSec
 (
-2200
+1900
 )
 .
 max_bwe
