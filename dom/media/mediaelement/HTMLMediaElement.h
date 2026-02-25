@@ -915,6 +915,14 @@ SeekCompleted
 final
 ;
 void
+UpdatePlayedRangesBeforeSeek
+(
+double
+aRangeEndTime
+)
+final
+;
+void
 SeekAborted
 (
 )
