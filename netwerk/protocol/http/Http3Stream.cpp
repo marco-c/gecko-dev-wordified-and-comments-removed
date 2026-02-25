@@ -296,6 +296,10 @@ mSession
 =
 nullptr
 ;
+mClosed
+=
+true
+;
 }
 bool
 Http3Stream
