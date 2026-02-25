@@ -46,6 +46,12 @@ messages
 MessageError
 ;
 pub
+type
+GeckoChildId
+=
+i32
+;
+pub
 use
 crate
 :

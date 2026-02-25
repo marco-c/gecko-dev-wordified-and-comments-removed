@@ -167,10 +167,6 @@ ProcessHandle
 ;
 typedef
 DWORD
-ProcessId
-;
-typedef
-DWORD
 ThreadId
 ;
 typedef
@@ -194,10 +190,6 @@ task_t
 ProcessHandle
 ;
 typedef
-pid_t
-ProcessId
-;
-typedef
 mach_port_t
 ThreadId
 ;
@@ -217,10 +209,6 @@ else
 typedef
 int
 ProcessHandle
-;
-typedef
-pid_t
-ProcessId
 ;
 typedef
 int
@@ -909,8 +897,8 @@ aSubmitReport
 bool
 TakeMinidumpForChild
 (
-ProcessId
-childPid
+GeckoChildID
+aChildID
 nsIFile
 *
 *
@@ -928,8 +916,8 @@ nodiscard
 bool
 FinalizeOrphanedMinidump
 (
-ProcessId
-aChildPid
+GeckoChildID
+aChildID
 GeckoProcessType
 aType
 nsString
