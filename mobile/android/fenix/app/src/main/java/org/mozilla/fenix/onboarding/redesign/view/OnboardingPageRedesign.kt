@@ -357,7 +357,7 @@ base
 .
 button
 .
-TextButton
+OutlinedButton
 import
 org
 .
@@ -514,7 +514,7 @@ secondaryButton
 Action
 )
 {
-TextButton
+OutlinedButton
 (
 modifier
 =
