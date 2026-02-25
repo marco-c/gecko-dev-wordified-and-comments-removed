@@ -76,7 +76,7 @@ already_AddRefed
 <
 NativeMenu
 >
-CreateNativeContextMenu
+CreateNativePopupMenu
 (
 dom
 :
@@ -84,6 +84,18 @@ dom
 Element
 *
 aPopup
+)
+;
+static
+bool
+ShouldUseNativeAnchoredMenus
+(
+)
+;
+static
+bool
+ShouldUseNativeAnchoredMenulists
+(
 )
 ;
 static

@@ -115,6 +115,13 @@ h
 #
 include
 "
+nsComputedDOMStyle
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
