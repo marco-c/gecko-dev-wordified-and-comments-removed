@@ -155,6 +155,17 @@ include
 "
 api
 /
+task_queue
+/
+task_queue_base
+.
+h
+"
+#
+include
+"
+api
+/
 video_codecs
 /
 video_encoder_factory
@@ -1068,7 +1079,7 @@ const
 Environment
 env_
 ;
-Thread
+TaskQueueBase
 *
 const
 signaling_thread_

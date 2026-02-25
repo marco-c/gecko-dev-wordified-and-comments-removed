@@ -51,9 +51,11 @@ h
 #
 include
 "
-rtc_base
+api
 /
-stream
+task_queue
+/
+task_queue_base
 .
 h
 "
@@ -62,7 +64,7 @@ include
 "
 rtc_base
 /
-thread
+stream
 .
 h
 "
@@ -98,7 +100,7 @@ FifoBuffer
 (
 size_t
 length
-Thread
+TaskQueueBase
 *
 owner
 )
@@ -379,7 +381,7 @@ RTC_GUARDED_BY
 callback_sequence_
 )
 ;
-Thread
+TaskQueueBase
 *
 const
 owner_

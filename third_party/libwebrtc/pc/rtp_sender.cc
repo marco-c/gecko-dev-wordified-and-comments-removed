@@ -194,6 +194,17 @@ include
 "
 api
 /
+task_queue
+/
+task_queue_base
+.
+h
+"
+#
+include
+"
+api
+/
 video_codecs
 /
 video_encoder_factory
@@ -597,7 +608,7 @@ public
 :
 SignalingThreadCallback
 (
-Thread
+TaskQueueBase
 *
 signaling_thread
 SetParametersCallback
@@ -768,8 +779,9 @@ callback_
 nullptr
 ;
 }
-Thread
+TaskQueueBase
 *
+const
 signaling_thread_
 ;
 SetParametersCallback
