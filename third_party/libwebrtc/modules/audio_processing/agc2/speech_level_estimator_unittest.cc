@@ -123,8 +123,6 @@ num_iterations
 float
 rms_dbfs
 float
-peak_dbfs
-float
 speech_probability
 SpeechLevelEstimator
 &
@@ -152,7 +150,6 @@ level_estimator
 Update
 (
 rms_dbfs
-peak_dbfs
 speech_probability
 )
 ;
@@ -331,9 +328,6 @@ kNumFramesToConfidence
 level_estimator
 .
 level_rms_dbfs
-level_estimator
-.
-level_peak_dbfs
 kMaxSpeechProbability
 *
 level_estimator
@@ -360,9 +354,6 @@ RunOnConstantLevel
 level_estimator
 .
 level_rms_dbfs
-level_estimator
-.
-level_peak_dbfs
 kMaxSpeechProbability
 *
 level_estimator
@@ -407,9 +398,6 @@ kNumFramesToConfidence
 level_estimator
 .
 level_rms_dbfs
-level_estimator
-.
-level_peak_dbfs
 kMaxSpeechProbability
 *
 level_estimator
@@ -448,9 +436,6 @@ kNumFramesToConfidence
 level_estimator
 .
 level_rms_dbfs
-level_estimator
-.
-level_peak_dbfs
 kMaxSpeechProbability
 *
 level_estimator
@@ -489,9 +474,6 @@ kNumFramesToConfidence
 level_estimator
 .
 level_rms_dbfs
-level_estimator
-.
-level_peak_dbfs
 kMaxSpeechProbability
 *
 level_estimator
@@ -515,9 +497,6 @@ level_dbfs
 RunOnConstantLevel
 (
 kNumFramesToConfidence
-0
-.
-0f
 0
 .
 0f
@@ -560,9 +539,6 @@ kNumFramesToConfidence
 level_estimator
 .
 level_rms_dbfs
-level_estimator
-.
-level_peak_dbfs
 kMaxSpeechProbability
 *
 level_estimator
@@ -605,13 +581,6 @@ kNumFramesToConfidence
 level_estimator
 .
 initial_speech_level_dbfs
-level_estimator
-.
-initial_speech_level_dbfs
-+
-6
-.
-0f
 kMaxSpeechProbability
 *
 level_estimator
@@ -667,9 +636,6 @@ kConvergenceTimeAfterConfidenceNumFrames
 level_estimator
 .
 level_rms_dbfs
-level_estimator
-.
-level_peak_dbfs
 kMaxSpeechProbability
 *
 level_estimator
@@ -794,9 +760,6 @@ Update
 level_estimator
 .
 level_rms_dbfs
-level_estimator
-.
-level_peak_dbfs
 kMaxSpeechProbability
 )
 ;
@@ -824,9 +787,6 @@ Update
 level_estimator
 .
 level_rms_dbfs
-level_estimator
-.
-level_peak_dbfs
 kLowSpeechProbability
 )
 ;
@@ -907,9 +867,6 @@ Update
 level_estimator
 .
 level_rms_dbfs
-level_estimator
-.
-level_peak_dbfs
 kMaxSpeechProbability
 )
 ;

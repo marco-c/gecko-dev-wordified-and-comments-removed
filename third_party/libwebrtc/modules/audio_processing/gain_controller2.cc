@@ -1054,9 +1054,6 @@ Update
 audio_levels
 .
 rms_dbfs
-audio_levels
-.
-peak_dbfs
 speech_probability
 )
 ;
