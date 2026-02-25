@@ -11,9 +11,9 @@ os
 import
 sys
 from
-multiprocessing
+concurrent
 import
-Pool
+futures
 import
 mozpack
 .
@@ -51,6 +51,22 @@ util
 import
 FileAvoidWrite
 cpu_count
+USE_THREADS
+=
+hasattr
+(
+sys
+"
+_is_gil_enabled
+"
+)
+and
+not
+sys
+.
+_is_gil_enabled
+(
+)
 DEFAULT_PROCESS_COUNT
 =
 4
@@ -80,11 +96,13 @@ generation
 load
 across
 several
+threads
+or
 processes
 avoiding
+    
 redundant
 state
-    
 copies
 .
     
@@ -133,7 +151,7 @@ GeneratorState
 )
             
 class
-SeqPool
+SeqExecutor
 :
                 
 def
@@ -146,32 +164,36 @@ args
 :
                     
 return
-list
-(
 map
 (
 *
 args
 )
-)
             
 self
 .
-pool
+executor
 =
-SeqPool
+SeqExecutor
 (
 )
         
-else
+elif
+USE_THREADS
 :
             
 self
 .
-pool
+executor
 =
-Pool
+futures
+.
+ThreadPoolExecutor
 (
+                
+max_workers
+=
+processes
                 
 initializer
 =
@@ -184,10 +206,36 @@ initargs
 (
 GeneratorState
 )
+            
+)
+        
+else
+:
+            
+self
+.
+executor
+=
+futures
+.
+ProcessPoolExecutor
+(
                 
-processes
+max_workers
 =
 processes
+                
+initializer
+=
+WebIDLPool
+.
+_init
+                
+initargs
+=
+(
+GeneratorState
+)
             
 )
     
@@ -200,9 +248,11 @@ filenames
 :
         
 return
+list
+(
 self
 .
-pool
+executor
 .
 map
 (
@@ -210,6 +260,7 @@ WebIDLPool
 .
 _run
 filenames
+)
 )
     
 staticmethod
