@@ -309,7 +309,7 @@ format
 SurfaceFormat
 :
 :
-A8R8G8B8
+OS_RGBA
 &
 &
 format
@@ -318,7 +318,7 @@ format
 SurfaceFormat
 :
 :
-X8R8G8B8
+OS_RGBX
 )
 {
 return
