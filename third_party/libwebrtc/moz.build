@@ -5613,16 +5613,6 @@ libwebrtc
 /
 rtc_base
 /
-sigslot_trampoline_gn
-"
-"
-/
-third_party
-/
-libwebrtc
-/
-rtc_base
-/
 socket_address_gn
 "
 "
