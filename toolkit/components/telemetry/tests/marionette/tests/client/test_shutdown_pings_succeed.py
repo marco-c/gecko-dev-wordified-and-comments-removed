@@ -208,9 +208,19 @@ self
 wait_for_pings
 (
             
+lambda
+:
 self
 .
-restart_browser
+quit_browser
+(
+)
+and
+self
+.
+start_browser
+(
+)
             
 lambda
 p
