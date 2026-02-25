@@ -2528,6 +2528,15 @@ key
 {
 RenderTaskCacheKey
 {
+origin
+:
+clipped_surface_rect
+.
+min
+.
+to_i32
+(
+)
 size
 :
 task_size
