@@ -3622,6 +3622,12 @@ rfc_8888_feedback_negotiated_
 sending_packets_as_ect1_
 )
 ;
+pacer_
+.
+SetIncludeOverhead
+(
+)
+;
 }
 std
 :
