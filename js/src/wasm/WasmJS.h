@@ -1119,6 +1119,15 @@ exportsObj
 )
 const
 ;
+WasmFunctionScope
+*
+getExistingFunctionScope
+(
+uint32_t
+funcIndex
+)
+const
+;
 [
 [
 nodiscard
