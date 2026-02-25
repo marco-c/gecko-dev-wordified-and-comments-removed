@@ -19,6 +19,7 @@ messages
 self
 }
 BreakpadString
+GeckoChildId
 IPCClientChannel
 IPCConnector
 ProcessHandle
@@ -443,9 +444,9 @@ register_auxv_info
 &
 mut
 self
-pid
+id
 :
-Pid
+GeckoChildId
 auxv_info
 :
 DirectAuxvDumpInfo
@@ -469,7 +470,7 @@ RegisterAuxvInfo
 :
 new
 (
-pid
+id
 auxv_info
 )
 ;
@@ -514,9 +515,9 @@ unregister_auxv_info
 &
 mut
 self
-pid
+id
 :
-Pid
+GeckoChildId
 )
 -
 >
@@ -537,7 +538,7 @@ UnregisterAuxvInfo
 :
 new
 (
-pid
+id
 )
 ;
 self
@@ -562,9 +563,9 @@ transfer_crash_report
 &
 mut
 self
-pid
+id
 :
-Pid
+GeckoChildId
 )
 -
 >
@@ -584,7 +585,7 @@ TransferMinidump
 :
 new
 (
-pid
+id
 )
 ;
 self
@@ -632,9 +633,9 @@ bail
 "
 Minidump
 for
-pid
+id
 {
-pid
+id
 :
 }
 was
@@ -1087,9 +1088,9 @@ client
 *
 mut
 CrashHelperClient
-pid
+id
 :
-Pid
+GeckoChildId
 )
 -
 >
@@ -1121,7 +1122,7 @@ client
 .
 transfer_crash_report
 (
-pid
+id
 )
 {
 Box
@@ -1482,9 +1483,9 @@ client
 *
 mut
 CrashHelperClient
-pid
+id
 :
-Pid
+GeckoChildId
 auxv_info_ptr
 :
 *
@@ -1562,7 +1563,7 @@ client
 .
 register_auxv_info
 (
-pid
+id
 auxv_info
 )
 .
@@ -1607,9 +1608,9 @@ client
 *
 mut
 CrashHelperClient
-pid
+id
 :
-Pid
+GeckoChildId
 )
 -
 >
@@ -1632,7 +1633,7 @@ client
 .
 unregister_auxv_info
 (
-pid
+id
 )
 .
 is_ok
@@ -1686,6 +1687,9 @@ crash_helper_rendezvous
 raw_connector
 :
 RawIPCConnector
+id
+:
+GeckoChildId
 )
 {
 let
@@ -1784,6 +1788,7 @@ id
 )
 as
 Pid
+id
 )
 ;
 if

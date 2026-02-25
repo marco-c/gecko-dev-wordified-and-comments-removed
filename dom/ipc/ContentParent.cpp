@@ -22402,7 +22402,7 @@ CrashReporter
 :
 FinalizeOrphanedMinidump
 (
-OtherPid
+OtherChildID
 (
 )
 GeckoProcessType_Content
@@ -22894,7 +22894,7 @@ CrashReporterHost
 >
 (
 GeckoProcessType_Content
-OtherPid
+OtherChildID
 (
 )
 aInitArgs
