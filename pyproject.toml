@@ -569,15 +569,6 @@ py
 "
 testing
 /
-runtimes
-/
-writeruntimes
-.
-py
-"
-"
-testing
-/
 tools
 /
 iceserver
