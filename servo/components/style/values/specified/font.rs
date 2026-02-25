@@ -11,6 +11,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 parser
 :
 :
@@ -201,6 +210,7 @@ cssparser
 :
 :
 {
+match_ignore_ascii_case
 Parser
 Token
 }
@@ -2043,6 +2053,13 @@ ToShmem
 ToTyped
 )
 ]
+#
+[
+typed_value
+(
+derive_fields
+)
+]
 pub
 enum
 FontStretch
@@ -2080,6 +2097,7 @@ PartialEq
 SpecifiedValueInfo
 ToCss
 ToShmem
+ToTyped
 )
 ]
 #
