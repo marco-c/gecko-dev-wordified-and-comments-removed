@@ -22,6 +22,17 @@ vector
 #
 include
 "
+absl
+/
+base
+/
+nullability
+.
+h
+"
+#
+include
+"
 api
 /
 field_trials_view
@@ -128,6 +139,7 @@ CodecVendor
 const
 MediaEngineInterface
 *
+absl_nullable
 media_engine
 bool
 rtx_enabled
@@ -137,8 +149,6 @@ FieldTrialsView
 trials
 )
 ;
-public
-:
 RTCErrorOr
 <
 std
