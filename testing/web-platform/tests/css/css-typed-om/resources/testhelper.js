@@ -241,6 +241,7 @@ assert_style_value_equals
 (
 a
 b
+epsilon
 )
 {
 if
@@ -345,6 +346,10 @@ value
 b
 .
 value
+epsilon
+?
+epsilon
+:
 1e
 -
 5
