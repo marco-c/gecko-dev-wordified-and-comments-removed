@@ -483,8 +483,10 @@ void
 PacketRouter
 :
 :
-ConfigureForRfc8888Feedback
+ConfigureForRtcpFeedback
 (
+bool
+set_transport_seq
 bool
 send_rtp_packets_as_ect1
 )
@@ -495,9 +497,9 @@ RTC_DCHECK_RUN_ON
 thread_checker_
 )
 ;
-use_cc_feedback_according_to_rfc8888_
+set_transport_seq_
 =
-true
+set_transport_seq
 ;
 send_rtp_packets_as_ect1_
 =
@@ -1096,7 +1098,7 @@ return
 }
 if
 (
-use_cc_feedback_according_to_rfc8888_
+set_transport_seq_
 |
 |
 packet

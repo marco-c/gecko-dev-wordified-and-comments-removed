@@ -235,8 +235,10 @@ callback
 )
 ;
 void
-ConfigureForRfc8888Feedback
+ConfigureForRtcpFeedback
 (
+bool
+set_transport_seq
 bool
 send_rtp_packets_as_ect1
 )
@@ -558,7 +560,7 @@ thread_checker_
 )
 ;
 bool
-use_cc_feedback_according_to_rfc8888_
+set_transport_seq_
 RTC_GUARDED_BY
 (
 thread_checker_

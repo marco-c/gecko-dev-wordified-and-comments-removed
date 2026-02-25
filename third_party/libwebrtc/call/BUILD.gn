@@ -4991,6 +4991,14 @@ frame_transformer_interface
 /
 api
 :
+rtp_parameters
+"
+"
+.
+.
+/
+api
+:
 scoped_refptr
 "
 "

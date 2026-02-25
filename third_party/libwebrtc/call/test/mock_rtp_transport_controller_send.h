@@ -63,6 +63,15 @@ include
 "
 api
 /
+rtp_parameters
+.
+h
+"
+#
+include
+"
+api
+/
 scoped_refptr
 .
 h
@@ -655,8 +664,9 @@ override
 MOCK_METHOD
 (
 void
-EnableCongestionControlFeedbackAccordingToRfc8888
+SetPreferredRtcpCcAckType
 (
+RtcpFeedbackType
 )
 (
 override

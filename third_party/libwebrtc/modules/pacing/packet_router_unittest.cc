@@ -2480,7 +2480,7 @@ rtp_1
 TEST_F
 (
 PacketRouterTest
-AllocateTransportSequenceNumberWithoutExtensionIfRfc8888Enabled
+AllocateTransportSequenceNumberWithoutExtensionIfConfigured
 )
 {
 const
@@ -2569,8 +2569,9 @@ false
 ;
 packet_router
 .
-ConfigureForRfc8888Feedback
+ConfigureForRtcpFeedback
 (
+true
 false
 )
 ;
@@ -2708,8 +2709,9 @@ false
 ;
 packet_router
 .
-ConfigureForRfc8888Feedback
+ConfigureForRtcpFeedback
 (
+true
 true
 )
 ;
@@ -2786,8 +2788,9 @@ PacedPacketInfo
 ;
 packet_router
 .
-ConfigureForRfc8888Feedback
+ConfigureForRtcpFeedback
 (
+true
 false
 )
 ;
