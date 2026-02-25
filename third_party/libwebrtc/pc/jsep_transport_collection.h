@@ -398,11 +398,6 @@ state_change_callback
 void
 RegisterTransport
 (
-absl
-:
-:
-string_view
-transport_name
 std
 :
 :

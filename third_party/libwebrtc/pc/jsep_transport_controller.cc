@@ -6786,11 +6786,6 @@ make_unique
 JsepTransport
 >
 (
-content_info
-.
-mid
-(
-)
 certificate_
 std
 :
@@ -6946,11 +6941,6 @@ transports_
 .
 RegisterTransport
 (
-content_info
-.
-mid
-(
-)
 std
 :
 :
