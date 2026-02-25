@@ -1567,9 +1567,9 @@ test
 name
 :
 {
+name
 }
 "
-name
 )
 )
 }

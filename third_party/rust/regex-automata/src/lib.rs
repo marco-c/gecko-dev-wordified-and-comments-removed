@@ -158,10 +158,10 @@ missing_debug_implementations
 [
 cfg_attr
 (
-docsrs
+docsrs_regex
 feature
 (
-doc_auto_cfg
+doc_cfg
 )
 )
 ]

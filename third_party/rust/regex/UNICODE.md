@@ -1743,9 +1743,7 @@ word
 boundaries
 is
 currently
-sub
--
-optimal
+suboptimal
 on
 non
 -
@@ -1792,6 +1790,7 @@ full
 support
 for
 case
+-
 insensitive
 matching
 in
@@ -1850,6 +1849,7 @@ point
 This
 makes
 case
+-
 insensitive
 matching
 of
@@ -1865,6 +1865,7 @@ implement
 .
 When
 case
+-
 insensitive
 mode
 is
@@ -2119,7 +2120,7 @@ is
 impossible
 to
 match
-surrogode
+surrogate
 code
 points
 .
