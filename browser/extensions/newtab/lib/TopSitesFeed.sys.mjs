@@ -9079,9 +9079,9 @@ width
 Also
 :
 force
-JPEG
+WebP
 quality
-60
+75
 no
 upscaling
 no
@@ -9167,12 +9167,12 @@ filters
 :
 format
 (
-jpeg
+webp
 )
 :
 quality
 (
-60
+75
 )
 :
 no_upscale

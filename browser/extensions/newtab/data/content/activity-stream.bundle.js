@@ -8761,12 +8761,12 @@ filters
 :
 format
 (
-jpeg
+webp
 )
 :
 quality
 (
-60
+75
 )
 :
 no_upscale
