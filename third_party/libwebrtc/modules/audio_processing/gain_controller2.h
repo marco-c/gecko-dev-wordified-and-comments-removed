@@ -267,14 +267,6 @@ audio_buffer
 void
 Process
 (
-std
-:
-:
-optional
-<
-float
->
-speech_probability
 bool
 input_volume_changed
 AudioBuffer
