@@ -1517,7 +1517,7 @@ page
 -
 learn
 -
-more
+more2
 =
 <
 a
@@ -1528,7 +1528,7 @@ l10n
 name
 =
 '
-firefox_support
+firefox_support_harmful_addons
 '
 >
 Learn
@@ -1543,9 +1543,10 @@ short
 name
 }
 s
-Phishing
-and
-Malware
+Harmful
+Add
+-
+On
 Protection
 <
 /
