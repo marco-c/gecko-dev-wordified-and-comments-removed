@@ -6943,10 +6943,6 @@ macromagic
 "
 "
 :
-sigslot_trampoline
-"
-"
-:
 socket
 "
 "
@@ -6984,11 +6980,6 @@ no_unique_address
 system
 :
 rtc_export
-"
-"
-third_party
-/
-sigslot
 "
 "
 /
