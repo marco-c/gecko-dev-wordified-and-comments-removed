@@ -7668,9 +7668,6 @@ isEdgeToEdgeBackgroundEnabled
 )
 :
 Boolean
-{
-val
-settings
 =
 requireContext
 (
@@ -7679,13 +7676,6 @@ requireContext
 settings
 (
 )
-return
-settings
-.
-enableHomepageEdgeToEdgeBackgroundFeature
-&
-&
-settings
 .
 currentWallpaperName
 =
@@ -7693,7 +7683,6 @@ currentWallpaperName
 Wallpaper
 .
 EDGE_TO_EDGE
-}
 private
 fun
 applyWallpaper
