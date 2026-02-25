@@ -894,6 +894,8 @@ GetProfilerScriptSources
 JSRuntime
 *
 rt
+bool
+gatherSourceText
 )
 ;
 JS_PUBLIC_API

@@ -631,6 +631,8 @@ js
 ProfilerJSSources
 getProfilerScriptSources
 (
+bool
+gatherSourceText
 )
 ;
 size_t
