@@ -6,6 +6,10 @@ pub
 mod
 box_shadow
 ;
+pub
+mod
+repeat
+;
 use
 api
 :
@@ -155,9 +159,12 @@ ColorOrTexture
 Gradient
 =
 1
-Mask
+Repeat
 =
 2
+Mask
+=
+3
 }
 pub
 const
@@ -165,7 +172,7 @@ NUM_PATTERNS
 :
 u32
 =
-3
+4
 ;
 impl
 PatternKind
