@@ -497,13 +497,6 @@ opt
 ]
 [
 "
-browser_defaultbrowser_alwayscheck
-.
-js
-"
-]
-[
-"
 browser_dns_over_https_exceptions_subdialog
 .
 js
