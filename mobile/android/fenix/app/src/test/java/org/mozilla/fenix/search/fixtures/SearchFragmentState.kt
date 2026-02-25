@@ -205,6 +205,9 @@ false
 showNonSponsoredSuggestions
 =
 false
+showStocksSuggestions
+=
+false
 showTrendingSearches
 =
 false
