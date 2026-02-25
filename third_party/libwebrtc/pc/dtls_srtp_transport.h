@@ -114,6 +114,17 @@ FieldTrialsView
 field_trials
 )
 ;
+DtlsSrtpTransport
+*
+AsDtlsSrtpTransport
+(
+)
+override
+{
+return
+this
+;
+}
 void
 SetDtlsTransports
 (

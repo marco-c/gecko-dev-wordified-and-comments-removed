@@ -211,6 +211,9 @@ class
 CopyOnWriteBuffer
 ;
 class
+DtlsSrtpTransport
+;
+class
 RtpTransport
 :
 public
@@ -254,6 +257,17 @@ rtcp_mux_enabled_
 rtcp_mux_enabled
 )
 {
+}
+virtual
+DtlsSrtpTransport
+*
+AsDtlsSrtpTransport
+(
+)
+{
+return
+nullptr
+;
 }
 bool
 rtcp_mux_enabled
