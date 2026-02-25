@@ -7028,6 +7028,13 @@ if
 (
 !
 shadowRoot
+|
+|
+shadowRoot
+.
+isUAWidget
+(
+)
 )
 {
 throw
