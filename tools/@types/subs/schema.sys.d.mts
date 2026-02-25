@@ -1432,15 +1432,6 @@ string
 ;
 }
 ;
-DisableRemoteImprovements
-:
-{
-type
-:
-string
-;
-}
-;
 DisableSafeMode
 :
 {

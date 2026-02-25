@@ -1144,7 +1144,9 @@ MozSearch
 source
 :
 "
-urlbar_searchmode
+urlbar
+-
+searchmode
 "
 count
 :
@@ -1577,7 +1579,9 @@ name
 source
 :
 "
-urlbar_searchmode
+urlbar
+-
+searchmode
 "
 count
 :
