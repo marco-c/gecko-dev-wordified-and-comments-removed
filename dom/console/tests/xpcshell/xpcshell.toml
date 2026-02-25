@@ -56,6 +56,13 @@ shouldlogtest_5
 ]
 [
 "
+test_consoleMethod_levels
+.
+js
+"
+]
+[
+"
 test_failing_console_listener
 .
 js
