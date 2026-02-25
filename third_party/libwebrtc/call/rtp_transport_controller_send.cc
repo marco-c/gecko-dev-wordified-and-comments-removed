@@ -3910,11 +3910,10 @@ packet_info
 ecn
 )
 {
-using
-enum
-EcnMarking
-;
 case
+EcnMarking
+:
+:
 kEct1
 :
 +
@@ -3927,6 +3926,9 @@ num_packets_received_with_ect1
 break
 ;
 case
+EcnMarking
+:
+:
 kCe
 :
 +
@@ -3939,6 +3941,9 @@ num_packets_received_with_ce
 break
 ;
 case
+EcnMarking
+:
+:
 kNotEct
 :
 if
@@ -3959,6 +3964,9 @@ num_packets_with_bleached_ect1_marking
 break
 ;
 case
+EcnMarking
+:
+:
 kEct0
 :
 break
