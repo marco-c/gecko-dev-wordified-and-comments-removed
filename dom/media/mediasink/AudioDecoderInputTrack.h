@@ -917,6 +917,15 @@ mSPSCQueue
 40
 }
 ;
+std
+:
+:
+thread
+:
+:
+id
+mProducerThreadId
+;
 AudioSegment
 mBufferedData
 ;
