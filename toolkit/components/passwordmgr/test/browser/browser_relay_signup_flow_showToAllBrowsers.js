@@ -1676,9 +1676,8 @@ D
 "
 )
 ;
-notificationPopup
-.
-activateItem
+await
+clickButtonAndWaitForPopupToClose
 (
 buttonToClick
 )
