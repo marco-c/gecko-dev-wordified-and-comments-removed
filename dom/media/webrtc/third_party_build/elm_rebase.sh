@@ -3631,7 +3631,7 @@ echo
 Checking
 for
 new
-mercurial
+Mozilla
 changes
 in
 third_party
@@ -3641,7 +3641,7 @@ libwebrtc
 FIXUP_INSTRUCTIONS
 =
 "
-Mercurial
+Mozilla
 changes
 in
 third_party
@@ -3691,8 +3691,6 @@ py
 MOZ_OLD_CENTRAL
 COMMIT_RANGE_SEPARATOR
 MOZ_NEW_CENTRAL
-\
-\
 EXTRACT_COMMIT_RANGE
 mv
 mailbox
@@ -3870,7 +3868,7 @@ Done
 checking
 for
 new
-mercurial
+Mozilla
 changes
 in
 third_party
