@@ -2444,6 +2444,20 @@ self
 .
 terminal_handler
 )
+            
+for
+logger
+in
+self
+.
+structured_loggers
+:
+                
+logger
+.
+propagate
+=
+False
     
 def
 disable_unstructured
@@ -2492,6 +2506,20 @@ self
 .
 terminal_handler
 )
+            
+for
+logger
+in
+self
+.
+structured_loggers
+:
+                
+logger
+.
+propagate
+=
+True
     
 def
 register_structured_logger
