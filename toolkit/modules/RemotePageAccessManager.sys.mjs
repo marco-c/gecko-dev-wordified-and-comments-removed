@@ -405,6 +405,13 @@ privacy
 -
 v1
 "
+"
+browser
+.
+ipProtection
+.
+userEnabled
+"
 ]
 RPMGetIntPref
 :
@@ -781,6 +788,13 @@ felt
 privacy
 -
 v1
+"
+"
+browser
+.
+ipProtection
+.
+userEnabled
 "
 ]
 RPMGetHostForDisplay
