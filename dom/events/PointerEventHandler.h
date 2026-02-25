@@ -1337,6 +1337,9 @@ static
 void
 PostHandlePointerEventsPreventDefault
 (
+PresShell
+*
+aPresShell
 WidgetPointerEvent
 *
 aPointerEvent
