@@ -173,11 +173,6 @@ macOS
 )
     
 )
-and
-major_version
-<
-=
-10
 :
         
 args

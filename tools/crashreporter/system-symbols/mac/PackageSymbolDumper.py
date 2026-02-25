@@ -472,15 +472,26 @@ check_call
         
 [
 "
-unzip
+7zz
 "
 "
 -
-d
+bd
 "
-out_path
+"
+x
+"
 zip_path
+f
+"
+-
+o
+{
+out_path
+}
+"
 ]
+        
 stdout
 =
 subprocess
@@ -2569,6 +2580,10 @@ subpackage
 +
 subpackage
 )
+                    
+successful
+=
+False
             
 for
 payload
