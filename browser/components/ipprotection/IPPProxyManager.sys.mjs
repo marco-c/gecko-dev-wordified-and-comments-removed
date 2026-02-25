@@ -2670,6 +2670,11 @@ Stopped
 const
 sessionLength
 =
+this
+.
+#
+activatedAt
+?
 ChromeUtils
 .
 now
@@ -2680,6 +2685,8 @@ this
 .
 #
 activatedAt
+:
+0
 ;
 Glean
 .
