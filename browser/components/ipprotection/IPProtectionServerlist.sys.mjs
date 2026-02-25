@@ -1130,6 +1130,16 @@ servers
 length
 )
 ;
+if
+(
+!
+city
+)
+{
+return
+null
+;
+}
 return
 {
 city
