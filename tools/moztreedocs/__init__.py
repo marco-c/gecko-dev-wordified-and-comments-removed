@@ -953,7 +953,7 @@ as
 fh
 :
             
-tree_config
+config
 =
 yaml
 .
@@ -961,11 +961,28 @@ safe_load
 (
 fh
 )
+            
+tree_config
+=
+config
 [
 "
 categories
 "
 ]
+            
+exclude_patterns
+=
+config
+.
+get
+(
+"
+exclude_patterns
+"
+[
+]
+)
         
 m
 .
@@ -1080,6 +1097,21 @@ dest
 rel_source
 )
 )
+                    
+if
+any
+(
+pattern
+in
+source_path
+for
+pattern
+in
+exclude_patterns
+)
+:
+                        
+continue
                     
 m
 .
