@@ -4254,24 +4254,6 @@ platform
 ]
 :
             
-task
-.
-setdefault
-(
-"
-attributes
-"
-{
-}
-)
-[
-"
-ccov
-"
-]
-=
-True
-            
 if
 "
 fuzzing

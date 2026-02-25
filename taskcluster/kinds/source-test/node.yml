@@ -346,11 +346,6 @@ unit
 tests
 code
 coverage
-attributes
-:
-ccov
-:
-true
 treeherder
 :
 symbol
@@ -874,11 +869,6 @@ unit
 tests
 code
 coverage
-attributes
-:
-ccov
-:
-true
 treeherder
 :
 symbol
