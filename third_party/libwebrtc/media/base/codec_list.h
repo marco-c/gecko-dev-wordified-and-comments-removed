@@ -186,6 +186,15 @@ codecs
 )
 ;
 }
+bool
+PushIfNotPresent
+(
+const
+Codec
+&
+codec
+)
+;
 iterator
 begin
 (
