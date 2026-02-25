@@ -2288,9 +2288,6 @@ top
 value
 :
 1em
-inactiveCSS
-:
-true
 }
 {
 name
