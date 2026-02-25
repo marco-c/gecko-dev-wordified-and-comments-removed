@@ -47,7 +47,6 @@ api
 :
 {
 FramePublishId
-PrimitiveKeyKind
 RenderReasons
 }
 ;
@@ -96,6 +95,18 @@ box_shadow
 :
 :
 BoxShadow
+;
+use
+crate
+:
+:
+prim_store
+:
+:
+rectangle
+:
+:
+RectanglePrim
 ;
 #
 [

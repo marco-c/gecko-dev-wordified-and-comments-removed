@@ -1830,7 +1830,7 @@ clip
 ClipIntern
 prim
 :
-PrimitiveKeyKind
+RectanglePrim
 normal_border
 :
 NormalBorderPrim
