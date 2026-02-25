@@ -49,7 +49,7 @@ h
 #
 include
 "
-PLDHashTable
+nsTHashSet
 .
 h
 "
@@ -267,7 +267,13 @@ nsIRequest
 >
 mDefaultLoadRequest
 ;
-PLDHashTable
+nsTHashSet
+<
+RefPtr
+<
+nsIRequest
+>
+>
 mRequests
 ;
 nsWeakPtr
