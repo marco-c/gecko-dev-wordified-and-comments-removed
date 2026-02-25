@@ -892,25 +892,6 @@ staging
 "
     
 if
-params
-[
-"
-level
-"
-]
-!
-=
-"
-3
-"
-:
-        
-return
-"
-staging
-"
-    
-if
 branches
 :
 =
