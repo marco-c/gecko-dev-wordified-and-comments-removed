@@ -1,4 +1,8 @@
 from
+textwrap
+import
+dedent
+from
 mach
 .
 decorators
@@ -277,6 +281,8 @@ runprefs
 string
 "
                     
+dedent
+(
 "
 "
 "
@@ -327,9 +333,6 @@ strings
 "
 "
 "
-.
-strip
-(
 )
                 
 )
