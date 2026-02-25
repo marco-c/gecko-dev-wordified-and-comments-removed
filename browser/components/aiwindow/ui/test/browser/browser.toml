@@ -186,6 +186,13 @@ js
 ]
 [
 "
+browser_aiwindow_smartbar_focus
+.
+js
+"
+]
+[
+"
 browser_aiwindow_smartbar_mentions
 .
 js
