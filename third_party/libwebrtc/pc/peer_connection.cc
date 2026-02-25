@@ -4559,6 +4559,9 @@ new
 JsepTransportController
 (
 env_
+signaling_thread
+(
+)
 network_thread
 (
 )
