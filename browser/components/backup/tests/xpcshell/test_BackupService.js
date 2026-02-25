@@ -1524,7 +1524,6 @@ null
 false
 fakeProfilePath
 recoveredProfilePath
-true
 )
 ;
 Assert
@@ -1638,11 +1637,6 @@ extra
 restore_id
 :
 restoreID
-replace
-:
-"
-true
-"
 }
 "
 Restore

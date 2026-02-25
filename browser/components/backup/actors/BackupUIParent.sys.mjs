@@ -1601,7 +1601,7 @@ backupPassword
 true
 /
 *
-shouldLaunchOrQuit
+shouldLaunch
 *
 /
 )
