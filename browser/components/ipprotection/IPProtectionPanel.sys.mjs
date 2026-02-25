@@ -3655,7 +3655,7 @@ IPPProxyManager
 .
 usageInfo
 .
-resets
+reset
 }
 ;
 }
