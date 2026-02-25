@@ -43,11 +43,6 @@ test_delivering
 html
 "
 ]
-scheme
-=
-"
-https
-"
 support
 -
 files
@@ -62,6 +57,11 @@ sjs
 iframe_delivering
 .
 html
+"
+"
+worker_delivering
+.
+js
 "
 ]
 skip

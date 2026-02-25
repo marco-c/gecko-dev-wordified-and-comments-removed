@@ -215,12 +215,6 @@ mEndpointURL
 =
 endpoint_url
 ;
-data
-.
-mGlobalKey
-=
-0
-;
 JSONStringWriteFunc
 <
 nsCString
