@@ -33,13 +33,6 @@ h
 #
 include
 "
-nsStaticNameTable
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

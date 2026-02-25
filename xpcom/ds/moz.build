@@ -307,11 +307,6 @@ nsStaticAtomUtils
 h
 "
 "
-nsStaticNameTable
-.
-h
-"
-"
 nsStringEnumerator
 .
 h
@@ -540,11 +535,6 @@ cpp
 "
 "
 nsSimpleEnumerator
-.
-cpp
-"
-"
-nsStaticNameTable
 .
 cpp
 "
