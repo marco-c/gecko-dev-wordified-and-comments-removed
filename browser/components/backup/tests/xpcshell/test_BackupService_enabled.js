@@ -1707,6 +1707,7 @@ PathUtils
 .
 profileDir
 recoveryDir
+true
 )
 /
 .
@@ -1781,6 +1782,7 @@ PathUtils
 .
 profileDir
 recoveryDir
+true
 )
 ;
 Assert
