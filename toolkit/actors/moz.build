@@ -439,6 +439,13 @@ sys
 mjs
 "
 "
+TLSCertificateBindingChild
+.
+sys
+.
+mjs
+"
+"
 UAWidgetsChild
 .
 sys
