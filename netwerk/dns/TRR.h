@@ -98,6 +98,8 @@ public
 nsITimerCallback
 public
 nsIStreamListener
+public
+nsIRunnablePriority
 {
 public
 :
@@ -105,6 +107,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSIRUNNABLEPRIORITY
 static
 const
 unsigned
