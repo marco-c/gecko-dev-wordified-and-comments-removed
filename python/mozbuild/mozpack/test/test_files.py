@@ -1634,10 +1634,17 @@ self
         
 AbsoluteSymlinkFile
 (
+os
+.
+path
+.
+abspath
+(
 "
 /
 foo
 "
+)
 )
         
 with
