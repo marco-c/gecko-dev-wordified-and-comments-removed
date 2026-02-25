@@ -387,6 +387,16 @@ MOZ_UNANNOTATED
 uint32_t
 mTlsFlags
 ;
+#
+ifdef
+DEBUG
+bool
+mRegisteredPrefObservers
+=
+false
+;
+#
+endif
 }
 ;
 namespace
