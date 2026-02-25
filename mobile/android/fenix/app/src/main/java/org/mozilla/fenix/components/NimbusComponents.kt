@@ -284,6 +284,13 @@ NimbusApi
 by
 lazyMonitored
 {
+org
+.
+mozilla
+.
+geckoview
+.
+ExperimentalGeckoViewApi
 createNimbus
 (
 context
