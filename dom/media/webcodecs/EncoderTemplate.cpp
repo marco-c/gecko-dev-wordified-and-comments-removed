@@ -4256,13 +4256,13 @@ WebCodecsConfigurationChangeList
 >
 configDiff
 =
-config
+mActiveConfig
 -
 >
 Diff
 (
 *
-mActiveConfig
+config
 )
 ;
 if
