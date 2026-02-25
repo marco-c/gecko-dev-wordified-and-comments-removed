@@ -2770,11 +2770,12 @@ needed
 "
 )
 ;
+await
 Services
 .
 logins
 .
-recordPasswordUse
+recordPasswordUseAsync
 (
 selectedLogin
 this
@@ -4472,11 +4473,12 @@ needed
 "
 )
 ;
+await
 Services
 .
 logins
 .
-recordPasswordUse
+recordPasswordUseAsync
 (
 selectedLogin
 this
@@ -5271,7 +5273,7 @@ don
 '
 t
 call
-recordPasswordUse
+recordPasswordUseAsync
 so
 we
 won

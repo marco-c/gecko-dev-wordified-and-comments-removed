@@ -5423,17 +5423,19 @@ dismissedPrompt
 }
 )
 {
+async
 function
 recordLoginUse
 (
 login
 )
 {
+await
 Services
 .
 logins
 .
-recordPasswordUse
+recordPasswordUseAsync
 (
 login
 browser
@@ -5703,6 +5705,7 @@ change
 "
 )
 ;
+await
 recordLoginUse
 (
 loginsForGuid
@@ -5866,6 +5869,7 @@ formLogin
 password
 )
 {
+await
 recordLoginUse
 (
 existingLogin
@@ -6179,6 +6183,7 @@ possibleValues
 }
 else
 {
+await
 recordLoginUse
 (
 existingLogin

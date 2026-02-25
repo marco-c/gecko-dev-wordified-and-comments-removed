@@ -2580,11 +2580,12 @@ guid
 .
 )
 ;
+await
 Services
 .
 logins
 .
-recordPasswordUse
+recordPasswordUseAsync
 (
 loginToUpdate
 PrivateBrowsingUtils
