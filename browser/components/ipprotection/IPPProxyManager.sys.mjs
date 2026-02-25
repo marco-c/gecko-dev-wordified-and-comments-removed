@@ -1401,13 +1401,10 @@ return
 this
 .
 #
-state
-=
-=
-=
-IPPProxyStates
+connection
+?
 .
-ACTIVE
+active
 ;
 }
 get
