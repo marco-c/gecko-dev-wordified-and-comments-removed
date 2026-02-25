@@ -738,6 +738,12 @@ RecvUncapturedError
 RawId
 aDeviceId
 const
+dom
+:
+:
+GPUErrorFilter
+aType
+const
 nsACString
 &
 aMessage

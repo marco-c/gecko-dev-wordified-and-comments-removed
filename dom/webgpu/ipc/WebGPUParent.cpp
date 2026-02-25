@@ -3022,6 +3022,7 @@ if
 SendUncapturedError
 (
 aDeviceId
+aType
 aMessage
 )
 )
