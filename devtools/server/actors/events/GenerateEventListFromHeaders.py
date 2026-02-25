@@ -72,11 +72,13 @@ inc
 "
 "
 import
-json
-import
 re
 import
 sys
+from
+mozfile
+import
+json
 def
 main
 (

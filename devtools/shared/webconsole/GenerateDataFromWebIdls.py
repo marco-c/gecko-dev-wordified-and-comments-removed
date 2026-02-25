@@ -121,11 +121,13 @@ path
 remove
 system
 import
-json
-import
 WebIDL
 import
 buildconfig
+from
+mozfile
+import
+json
 PURE_INTERFACE_ALLOWLIST
 =
 set
