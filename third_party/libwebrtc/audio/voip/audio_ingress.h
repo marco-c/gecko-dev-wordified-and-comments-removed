@@ -451,6 +451,13 @@ PreferredSampleRate
 const
 override
 {
+MutexLock
+lock
+(
+&
+neteq_mutex_
+)
+;
 std
 :
 :
@@ -536,6 +543,10 @@ RtpRtcpInterface
 const
 rtp_rtcp_
 ;
+mutable
+Mutex
+neteq_mutex_
+;
 const
 std
 :
@@ -545,6 +556,10 @@ unique_ptr
 NetEq
 >
 neteq_
+RTC_GUARDED_BY
+(
+neteq_mutex_
+)
 ;
 voe
 :
@@ -588,10 +603,6 @@ acm2
 :
 ResamplerHelper
 resampler_helper_
-RTC_GUARDED_BY
-(
-lock_
-)
 ;
 }
 ;
