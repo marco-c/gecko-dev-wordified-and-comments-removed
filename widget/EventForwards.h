@@ -103,9 +103,10 @@ eYes
 eNo
 }
 ;
-typedef
-uint16_t
+using
 EventMessageType
+=
+uint16_t
 ;
 enum
 EventMessage
@@ -203,9 +204,10 @@ EventMessage
 aMessage
 )
 ;
-typedef
-uint8_t
+using
 EventClassIDType
+=
+uint8_t
 ;
 enum
 EventClassID
@@ -255,6 +257,7 @@ NS_EVENT_CLASS
 #
 undef
 NS_ROOT_EVENT_CLASS
+eEventClassID_MaxValue
 }
 ;
 const
