@@ -11,7 +11,7 @@ boundary
 "
 ;
 const
-JSON
+JSON_DATA
 =
 Content
 -
@@ -135,7 +135,7 @@ response
 write
 (
 {
-JSON
+JSON_DATA
 }
 \
 n
