@@ -699,6 +699,7 @@ let
 {
 backupFile
 backupPassword
+restoreType
 }
 =
 event
@@ -719,6 +720,7 @@ RestoreFromBackupFile
 {
 backupFile
 backupPassword
+restoreType
 }
 )
 ;
@@ -971,6 +973,9 @@ sendAsyncMessage
 "
 EditBackupLocation
 "
+event
+.
+detail
 )
 ;
 }
