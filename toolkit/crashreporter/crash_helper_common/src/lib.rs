@@ -126,7 +126,10 @@ crate
 platform
 :
 :
+{
+PlatformError
 ProcessHandle
+}
 ;
 #
 [
