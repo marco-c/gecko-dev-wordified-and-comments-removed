@@ -1033,6 +1033,9 @@ prototype
 :
 {
 }
+freezeBuiltins
+:
+false
 freshCompartment
 :
 options

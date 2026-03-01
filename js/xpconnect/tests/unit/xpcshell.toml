@@ -1430,6 +1430,13 @@ js
 ]
 [
 "
+test_sandbox_builtins
+.
+js
+"
+]
+[
+"
 test_sandbox_csp
 .
 js
