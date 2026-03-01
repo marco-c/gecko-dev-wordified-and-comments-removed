@@ -501,11 +501,7 @@ icon
 startsWith
 (
 "
-moz
--
-remote
--
-image
+data
 :
 "
 )

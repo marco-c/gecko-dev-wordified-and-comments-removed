@@ -5059,9 +5059,6 @@ result
 )
 ;
 }
-this
-.
-controller
 )
 ;
 if
