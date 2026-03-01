@@ -4630,7 +4630,7 @@ verka
 "
 ;
 const
-kTeststr_no_Latn
+kTeststr_nb_Latn
 =
 "
 a
@@ -8573,12 +8573,12 @@ kTeststr_ne_Deva
 ]
 [
 "
-no
+nb
 "
 "
 NORWEGIAN
 "
-kTeststr_no_Latn
+kTeststr_nb_Latn
 ]
 [
 "
