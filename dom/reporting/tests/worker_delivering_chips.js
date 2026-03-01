@@ -1,0 +1,12 @@
+new
+TestingDeprecatedInterface
+(
+)
+;
+postMessage
+(
+"
+done
+"
+)
+;
