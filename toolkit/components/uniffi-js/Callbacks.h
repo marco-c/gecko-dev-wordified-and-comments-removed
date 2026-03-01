@@ -117,6 +117,13 @@ uint64_t
 aHandle
 )
 ;
+void
+CallbackHandleFree
+(
+uint64_t
+aHandle
+)
+;
 class
 AsyncCallbackMethodHandlerBase
 {
