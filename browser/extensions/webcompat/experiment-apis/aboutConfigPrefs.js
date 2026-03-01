@@ -43,15 +43,6 @@ available
 enabled
 "
 "
-media
-.
-webspeech
-.
-recognition
-.
-enable
-"
-"
 timer
 .
 auto_increase_timer_resolution
