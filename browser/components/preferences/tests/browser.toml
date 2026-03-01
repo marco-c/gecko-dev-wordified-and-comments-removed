@@ -209,6 +209,13 @@ js
 ]
 [
 "
+browser_backup_warning_banner
+.
+js
+"
+]
+[
+"
 browser_browser_languages_subdialog
 .
 js
