@@ -34,6 +34,9 @@ big
 .
 png
 "
+TWO_MB
+=
+2_000_000
 async
 def
 test_data_type_response_big_file
@@ -44,8 +47,23 @@ bidi_session
 url
     
 setup_collected_data
+    
+use_pref
 )
 :
+    
+await
+use_pref
+(
+"
+remote
+.
+network
+.
+maxTotalDataSize
+"
+TWO_MB
+)
     
 [
 request
@@ -64,7 +82,7 @@ PAGE_BIG_IMAGE
 )
 max_encoded_data_size
 =
-2000000
+TWO_MB
     
 )
     
