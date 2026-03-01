@@ -461,14 +461,7 @@ false
 ;
 }
 return
-mInputElement
--
->
-GetValueAsDecimal
-(
-)
-.
-isNaN
+IsValueEmpty
 (
 )
 ;
