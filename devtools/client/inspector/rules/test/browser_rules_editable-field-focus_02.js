@@ -150,7 +150,7 @@ options
 let
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 2
@@ -193,7 +193,7 @@ selector
 ;
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -309,7 +309,7 @@ name
 }
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -349,7 +349,7 @@ selector
 ;
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 0

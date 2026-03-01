@@ -749,7 +749,7 @@ expectedSelectors
 const
 ruleSelectors
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 ruleIndex

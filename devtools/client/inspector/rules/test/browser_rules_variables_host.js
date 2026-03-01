@@ -343,7 +343,7 @@ inspector
 let
 selector
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -397,7 +397,7 @@ matched
 ;
 selector
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 2
@@ -555,10 +555,10 @@ inspector
 let
 selector
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
-4
+3
 )
 .
 selectorText
@@ -609,10 +609,10 @@ matched
 ;
 selector
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
-5
+4
 )
 .
 selectorText
@@ -1053,7 +1053,7 @@ inspector
 let
 selector
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -1111,7 +1111,7 @@ host
 ;
 selector
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 2
@@ -1306,10 +1306,10 @@ inspector
 let
 selector
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
-4
+3
 )
 .
 selectorText
@@ -1366,10 +1366,10 @@ element
 ;
 selector
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
-5
+4
 )
 .
 selectorText

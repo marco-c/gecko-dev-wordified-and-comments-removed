@@ -274,7 +274,7 @@ view
 ;
 is
 (
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 0
@@ -299,7 +299,7 @@ element
 const
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1

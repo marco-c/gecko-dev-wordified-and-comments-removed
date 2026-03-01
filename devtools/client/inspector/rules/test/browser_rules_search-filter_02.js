@@ -96,7 +96,7 @@ visible
 ;
 is
 (
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 0
@@ -121,11 +121,10 @@ element
 const
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
-2
-0
+1
 )
 ;
 is

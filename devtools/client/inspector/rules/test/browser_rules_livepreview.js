@@ -211,7 +211,7 @@ selector
 const
 rule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 ruleView
 1

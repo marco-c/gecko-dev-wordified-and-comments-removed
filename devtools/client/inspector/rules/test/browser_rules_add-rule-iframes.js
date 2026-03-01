@@ -253,7 +253,7 @@ value
 const
 idRuleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 index

@@ -99,7 +99,7 @@ inspector
 let
 elementRuleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -379,7 +379,7 @@ focus
 ;
 elementRuleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1

@@ -140,7 +140,7 @@ view
 let
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -196,7 +196,7 @@ onRuleViewChanged
 ;
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -325,7 +325,7 @@ overridden
 ;
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 2

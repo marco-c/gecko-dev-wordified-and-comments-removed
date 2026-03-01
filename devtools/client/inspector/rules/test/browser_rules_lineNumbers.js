@@ -51,10 +51,10 @@ inspector
 const
 bodyRuleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
-3
+2
 )
 ;
 const

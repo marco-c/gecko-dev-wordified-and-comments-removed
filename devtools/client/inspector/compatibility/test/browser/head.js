@@ -1190,7 +1190,7 @@ view
 const
 rule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 ruleView
 ruleIndex

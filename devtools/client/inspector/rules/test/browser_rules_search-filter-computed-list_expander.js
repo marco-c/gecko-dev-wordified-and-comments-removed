@@ -145,7 +145,7 @@ view
 const
 rule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -221,7 +221,7 @@ view
 ;
 is
 (
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 0
@@ -632,7 +632,7 @@ higlighted
 const
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1

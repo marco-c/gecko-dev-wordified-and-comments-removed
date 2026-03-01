@@ -170,7 +170,7 @@ fields
 const
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -313,7 +313,7 @@ exists
 ;
 ok
 (
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -498,7 +498,7 @@ selector
 const
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -620,7 +620,7 @@ onRuleViewChanged
 ;
 is
 (
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1

@@ -114,7 +114,7 @@ inspector
 const
 elementRuleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 0

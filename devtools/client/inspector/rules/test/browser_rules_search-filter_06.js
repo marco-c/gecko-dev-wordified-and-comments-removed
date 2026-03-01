@@ -105,7 +105,7 @@ view
 ;
 is
 (
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 0

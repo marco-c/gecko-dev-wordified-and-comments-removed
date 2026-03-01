@@ -641,7 +641,7 @@ field
 const
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 0
@@ -720,7 +720,7 @@ inspector
 const
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1

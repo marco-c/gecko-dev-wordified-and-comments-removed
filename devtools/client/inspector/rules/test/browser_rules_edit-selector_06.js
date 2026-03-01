@@ -124,7 +124,7 @@ view
 let
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -179,7 +179,7 @@ onRuleViewChanged
 ;
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -322,7 +322,7 @@ view
 let
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 2
@@ -377,7 +377,7 @@ onRuleViewChanged
 ;
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 2

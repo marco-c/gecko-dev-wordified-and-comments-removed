@@ -136,7 +136,7 @@ view
 const
 rule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 2

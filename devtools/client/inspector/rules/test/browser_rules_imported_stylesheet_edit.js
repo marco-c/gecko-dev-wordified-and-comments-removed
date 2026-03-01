@@ -202,14 +202,11 @@ waitFor
 )
 =
 >
+getRuleViewRuleEditorAt
+(
 view
-.
-element
-.
-children
-[
 1
-]
+)
 )
 ;
 info

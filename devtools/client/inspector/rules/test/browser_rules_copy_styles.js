@@ -60,7 +60,7 @@ inspector
 const
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -582,7 +582,7 @@ variables
 "
 node
 :
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 2
@@ -1945,7 +1945,7 @@ index
 const
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1

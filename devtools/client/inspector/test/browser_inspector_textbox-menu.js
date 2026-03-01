@@ -322,7 +322,7 @@ view
 const
 cssRuleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 ruleView
 1

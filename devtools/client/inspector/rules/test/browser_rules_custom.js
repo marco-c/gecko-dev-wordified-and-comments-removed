@@ -83,7 +83,7 @@ inspector
 const
 idRule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -147,7 +147,7 @@ overridden
 const
 classRule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 2
@@ -320,7 +320,7 @@ inspector
 const
 idRule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -358,7 +358,7 @@ overridden
 const
 classRule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 2
@@ -415,7 +415,7 @@ inspector
 const
 idRule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -443,7 +443,7 @@ idRuleProp
 const
 classRule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 2

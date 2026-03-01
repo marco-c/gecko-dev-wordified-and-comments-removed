@@ -1211,7 +1211,7 @@ copy
 const
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 0
