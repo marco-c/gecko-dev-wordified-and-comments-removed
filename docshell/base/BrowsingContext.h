@@ -2683,6 +2683,13 @@ GetWindow
 nullptr
 ;
 }
+nsGlobalWindowInner
+*
+GetOpenedDocumentPiPWindow
+(
+)
+const
+;
 uint64_t
 GetRequestContextId
 (

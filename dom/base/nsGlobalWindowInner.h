@@ -3501,6 +3501,7 @@ DocumentPictureInPicture
 GetExtantDocumentPictureInPicture
 (
 )
+const
 override
 {
 return
