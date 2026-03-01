@@ -438,14 +438,6 @@ mac
 &
 opt
 "
-"
-os
-=
-=
-'
-win
-'
-"
 ]
 reason
 =
@@ -456,9 +448,7 @@ is
 only
 enabled
 on
-non
--
-Windows
+desktop
 debug
 builds
 and
