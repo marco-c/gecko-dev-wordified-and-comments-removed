@@ -267,13 +267,12 @@ AppConstants
 .
 MOZ_APP_VERSION
 "
-148
+151
 .
 0a1
 "
 )
->
-=
+<
 0
 )
 {
@@ -2723,7 +2722,7 @@ backward
 compat
 {
 version
-148
+151
 }
 /
 /
