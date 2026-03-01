@@ -945,6 +945,13 @@ js
 ]
 [
 "
+test_ext_contentscript_structured_clone
+.
+js
+"
+]
+[
+"
 test_ext_contentscript_teardown
 .
 js
