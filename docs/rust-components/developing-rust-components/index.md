@@ -346,7 +346,6 @@ is
 usually
 similar
 to
-a
 JavaScript
 /
 Kotlin
@@ -434,6 +433,7 @@ example
 component
 uniffi
 logging
+observability
 threading
 other
 -
