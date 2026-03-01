@@ -12854,7 +12854,7 @@ weather
 display
 "
 "
-simple
+detailed
 "
 )
 ;
