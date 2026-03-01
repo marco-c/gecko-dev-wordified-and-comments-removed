@@ -2802,7 +2802,7 @@ conditions
 value
 :
 "
-simple
+detailed
 "
 }
 ]
