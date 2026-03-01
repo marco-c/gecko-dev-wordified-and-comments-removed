@@ -5198,6 +5198,14 @@ mRefPoint
 ;
 aCoalescedEvent
 .
+mLastRefPoint
+=
+aSourceEvent
+.
+mLastRefPoint
+;
+aCoalescedEvent
+.
 mModifiers
 =
 aSourceEvent
