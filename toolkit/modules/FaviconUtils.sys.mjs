@@ -278,9 +278,11 @@ param
 {
 number
 }
+[
 options
 .
 contentParentId
+]
 Which
 process
 to
@@ -502,6 +504,7 @@ FaviconUtils
 =
 {
 SVG_DATA_URI_PREFIX
+TRUSTED_FAVICON_SCHEMES
 getMozRemoteImageURL
 }
 ;
