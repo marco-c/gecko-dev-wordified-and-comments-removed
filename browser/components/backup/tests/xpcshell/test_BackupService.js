@@ -326,17 +326,6 @@ client
 id
 "
 ;
-const
-PROFILE_NAME
-=
-"
-test
--
-profile
--
-name
-"
-;
 add_setup
 (
 function
@@ -4721,9 +4710,6 @@ TELEMETRY_ENABLED
 legacyClientID
 :
 LEGACY_CLIENT_ID
-profileName
-:
-PROFILE_NAME
 }
 encConfig
 :
@@ -4830,9 +4816,6 @@ TELEMETRY_ENABLED
 legacyClientID
 :
 LEGACY_CLIENT_ID
-profileName
-:
-PROFILE_NAME
 }
 "
 State
@@ -5011,9 +4994,6 @@ TELEMETRY_ENABLED
 legacyClientID
 :
 LEGACY_CLIENT_ID
-profileName
-:
-PROFILE_NAME
 }
 encConfig
 :
@@ -5093,9 +5073,6 @@ TELEMETRY_ENABLED
 legacyClientID
 :
 LEGACY_CLIENT_ID
-profileName
-:
-PROFILE_NAME
 }
 "
 Initial

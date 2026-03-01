@@ -800,15 +800,6 @@ shell
 .
 checkDefaultBrowser
 "
-"
-browser
-.
-backup
-.
-enabled_on
-.
-profiles
-"
 DAU_GROUPID_PREF_NAME
 "
 datareporting

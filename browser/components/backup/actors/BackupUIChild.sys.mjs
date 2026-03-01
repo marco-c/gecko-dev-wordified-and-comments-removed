@@ -699,7 +699,6 @@ let
 {
 backupFile
 backupPassword
-restoreType
 }
 =
 event
@@ -720,7 +719,6 @@ RestoreFromBackupFile
 {
 backupFile
 backupPassword
-restoreType
 }
 )
 ;
