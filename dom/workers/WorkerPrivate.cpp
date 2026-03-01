@@ -19292,6 +19292,9 @@ RFPTarget
 :
 NavigatorUserAgent
 )
+CookieJarSettings
+(
+)
 )
 ;
 }
