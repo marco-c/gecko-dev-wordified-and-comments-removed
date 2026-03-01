@@ -16,14 +16,14 @@ initialHomeRegion
 =
 Region
 .
-_home
+home
 ;
 const
 initialCurrentRegion
 =
 Region
 .
-_current
+current
 ;
 const
 region

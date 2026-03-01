@@ -19,12 +19,12 @@ home
 :
 Region
 .
-_home
+home
 current
 :
 Region
 .
-_current
+current
 }
 ;
 Region

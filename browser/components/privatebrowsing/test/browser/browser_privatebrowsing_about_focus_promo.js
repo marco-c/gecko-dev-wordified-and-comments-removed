@@ -56,14 +56,14 @@ initialHomeRegion
 =
 Region
 .
-_home
+home
 ;
 const
 intialCurrentRegion
 =
 Region
 .
-_current
+current
 ;
 const
 initialLocale
