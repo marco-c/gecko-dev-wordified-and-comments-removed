@@ -924,6 +924,12 @@ genericPage
 url
 )
 {
+verifyPageContent
+(
+genericPage
+.
+content
+)
 }
 navigationToolbar
 (
@@ -946,6 +952,12 @@ verifyPageContent
 "
 Tracker
 Blocking
+"
+)
+verifyPageContent
+(
+"
+BLOCKED
 "
 )
 }
