@@ -1764,7 +1764,7 @@ android_sysroot
 android_toolchain
 )
 def
-extra_toolchain_flags
+android_toolchain_flags
 (
 android_sysroot
 toolchain_dir
@@ -1813,12 +1813,12 @@ return
 flags
 depends
 (
-extra_toolchain_flags
+android_toolchain_flags
 )
 def
 android_flags
 (
-extra_toolchain_flags
+android_toolchain_flags
 )
 :
 wead_symbols_defines
@@ -1848,7 +1848,7 @@ namespace
 (
 cflags
 =
-extra_toolchain_flags
+android_toolchain_flags
 +
 [
 "
@@ -1864,7 +1864,7 @@ enums
 weak_symbols_flags
 cxxflags
 =
-extra_toolchain_flags
+android_toolchain_flags
 +
 [
 "
@@ -1880,10 +1880,10 @@ enums
 weak_symbols_flags
 ldflags
 =
-extra_toolchain_flags
+android_toolchain_flags
 asflags
 =
-extra_toolchain_flags
+android_toolchain_flags
 +
 [
 "
@@ -2104,7 +2104,7 @@ android_system_headers
 )
 depends
 (
-extra_toolchain_flags
+android_toolchain_flags
 )
 def
 bindgen_cflags_android
