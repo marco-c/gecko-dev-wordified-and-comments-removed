@@ -573,6 +573,12 @@ View
 Unit
 =
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 (
 activity
 as

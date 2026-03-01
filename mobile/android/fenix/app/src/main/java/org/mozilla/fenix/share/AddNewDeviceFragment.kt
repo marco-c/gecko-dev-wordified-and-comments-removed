@@ -254,6 +254,12 @@ learnButton
 .
 setOnClickListener
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 (
 activity
 as

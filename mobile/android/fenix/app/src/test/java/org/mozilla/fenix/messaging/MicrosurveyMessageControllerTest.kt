@@ -520,6 +520,12 @@ homepage
 )
 verify
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 homeActivity
 .
 openToBrowserAndLoad
@@ -588,6 +594,12 @@ id
 }
 verify
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 homeActivity
 .
 openToBrowserAndLoad

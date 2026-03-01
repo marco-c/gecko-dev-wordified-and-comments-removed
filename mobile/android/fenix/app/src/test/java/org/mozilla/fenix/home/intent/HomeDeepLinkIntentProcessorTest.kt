@@ -1351,6 +1351,12 @@ settings
 )
 verify
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 activity
 .
 openToBrowserAndLoad

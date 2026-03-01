@@ -642,6 +642,12 @@ learnMorePreference
 .
 setOnPreferenceClickListener
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 (
 activity
 as
@@ -2190,6 +2196,12 @@ openSumoArticle
 (
 )
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 (
 activity
 as

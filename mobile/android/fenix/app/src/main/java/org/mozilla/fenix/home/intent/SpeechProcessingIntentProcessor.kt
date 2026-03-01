@@ -394,6 +394,12 @@ nimbus
 events
 )
 }
+Suppress
+(
+"
+DEPRECATION
+"
+)
 activity
 .
 openToBrowserAndLoad

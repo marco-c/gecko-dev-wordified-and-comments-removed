@@ -385,6 +385,12 @@ OnPrivacyNoticeTapped
 id
 )
 )
+Suppress
+(
+"
+DEPRECATION
+"
+)
 homeActivity
 .
 openToBrowserAndLoad

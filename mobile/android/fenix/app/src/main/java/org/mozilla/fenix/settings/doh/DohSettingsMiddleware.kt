@@ -287,6 +287,12 @@ LearnMoreClicked
 -
 >
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 getHomeActivity
 (
 )

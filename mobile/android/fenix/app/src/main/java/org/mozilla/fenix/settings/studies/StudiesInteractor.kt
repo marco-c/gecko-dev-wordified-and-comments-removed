@@ -180,6 +180,12 @@ url
 String
 )
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 homeActivity
 .
 openToBrowserAndLoad

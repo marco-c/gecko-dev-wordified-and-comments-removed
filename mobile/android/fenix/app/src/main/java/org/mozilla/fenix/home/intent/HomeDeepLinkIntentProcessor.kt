@@ -887,6 +887,12 @@ url
 )
 return
 }
+Suppress
+(
+"
+DEPRECATION
+"
+)
 activity
 .
 openToBrowserAndLoad

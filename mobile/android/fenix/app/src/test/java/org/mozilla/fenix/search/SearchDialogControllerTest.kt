@@ -1691,6 +1691,12 @@ exactly
 0
 )
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 activity
 .
 openToBrowserAndLoad

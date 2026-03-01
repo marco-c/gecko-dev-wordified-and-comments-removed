@@ -612,6 +612,12 @@ view
 .
 setOnClickListener
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 (
 activity
 as

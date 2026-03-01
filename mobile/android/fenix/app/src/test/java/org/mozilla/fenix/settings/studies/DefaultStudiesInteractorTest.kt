@@ -228,6 +228,12 @@ url
 )
 verify
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 activity
 .
 openToBrowserAndLoad

@@ -515,6 +515,12 @@ testGetValue
 )
 verify
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 activity
 .
 openToBrowserAndLoad
