@@ -10643,10 +10643,9 @@ String
 clickPageObject
 (
 composeTestRule
-itemWithTextAndIndex
+itemWithText
 (
 itemText
-0
 )
 )
 waitForAppWindowToBeUpdated
@@ -10767,9 +10766,7 @@ menu
 button
 "
 )
-composeTestRule
-.
-onNodeWithContentDescription
+itemWithDescription
 (
 getStringResource
 (
@@ -10781,7 +10778,7 @@ content_description_menu
 )
 )
 .
-performClick
+click
 (
 )
 Log

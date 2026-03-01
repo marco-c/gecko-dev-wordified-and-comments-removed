@@ -221,7 +221,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
@@ -254,7 +253,6 @@ querySelector
 "
 #
 smartblock
-tr
 [
 data
 -
@@ -766,7 +764,6 @@ rcsId
 await
 testToggling
 (
-tr
 [
 data
 -
@@ -792,7 +789,6 @@ label
 -
 disable
 ]
-tr
 [
 data
 -
@@ -828,7 +824,6 @@ intervention
 await
 testToggling
 (
-tr
 [
 data
 -
@@ -854,7 +849,6 @@ label
 -
 disable
 ]
-tr
 [
 data
 -
