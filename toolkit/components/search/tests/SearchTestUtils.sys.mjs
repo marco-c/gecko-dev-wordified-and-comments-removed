@@ -560,6 +560,13 @@ idleServiceCID
 null
 ;
 }
+this
+.
+#
+testScope
+=
+null
+;
 }
 )
 ;
