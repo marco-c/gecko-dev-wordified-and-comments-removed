@@ -68,6 +68,7 @@ from
 threading
 import
 Event
+Lock
 Thread
 Timer
 current_thread
@@ -1462,6 +1463,20 @@ self
 done
 =
 False
+        
+self
+.
+timer
+=
+None
+        
+self
+.
+lock
+=
+Lock
+(
+)
     
 def
 run
@@ -2654,6 +2669,32 @@ proc
         
 self
 .
+lock
+.
+acquire
+(
+)
+        
+if
+self
+.
+timer
+is
+None
+:
+            
+self
+.
+lock
+.
+release
+(
+)
+            
+return
+        
+self
+.
 done
 =
 True
@@ -2898,6 +2939,14 @@ test_object
 path
 "
 ]
+)
+        
+self
+.
+lock
+.
+release
+(
 )
     
 def
@@ -6394,10 +6443,6 @@ self
 .
 timeout_factor
         
-testTimer
-=
-None
-        
 if
 not
 self
@@ -6415,7 +6460,9 @@ self
 jsDebuggerInfo
 :
             
-testTimer
+self
+.
+timer
 =
 Timer
 (
@@ -6430,7 +6477,9 @@ proc
 )
 )
             
-testTimer
+self
+.
+timer
 .
 start
 (
@@ -6615,13 +6664,39 @@ True
                 
 return
             
+self
+.
+lock
+.
+acquire
+(
+)
+            
 if
-testTimer
+self
+.
+timer
 :
                 
-testTimer
+self
+.
+timer
 .
 cancel
+(
+)
+                
+self
+.
+timer
+=
+None
+            
+self
+.
+lock
+.
+release
 (
 )
             
