@@ -5897,6 +5897,13 @@ uint64_t
 aEpoch
 )
 ;
+void
+ActivenessChanged
+(
+bool
+aIsActive
+)
+;
 bool
 CanSet
 (
