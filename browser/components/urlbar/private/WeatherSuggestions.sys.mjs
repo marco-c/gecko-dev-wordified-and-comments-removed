@@ -2644,7 +2644,7 @@ merinoSuggestion
 await
 merino
 .
-fetchWeatherReport
+fetchWeather
 (
 {
 source
