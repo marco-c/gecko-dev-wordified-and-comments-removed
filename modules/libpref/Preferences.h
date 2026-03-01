@@ -1948,6 +1948,12 @@ aSizes
 )
 ;
 static
+uint32_t
+GetCallbackCount
+(
+)
+;
+static
 void
 HandleDirty
 (
