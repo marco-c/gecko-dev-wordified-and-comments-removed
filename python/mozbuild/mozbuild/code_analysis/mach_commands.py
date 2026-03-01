@@ -3,6 +3,8 @@ concurrent
 .
 futures
 import
+functools
+import
 json
 import
 logging
@@ -80,7 +82,6 @@ mozbuild
 util
 import
 cpu_count
-memoize
 def
 run_one_clang_format_batch
 (
@@ -1685,50 +1686,24 @@ check
 command_context
     
 source
-=
-None
     
 jobs
-=
-2
     
 strip
-=
-1
     
 verbose
-=
-False
     
 checks
-=
-"
--
-*
-"
     
 fix
-=
-False
     
 header_filter
-=
-"
-"
     
 output
-=
-None
     
 format
-=
-"
-text
-"
     
 outgoing
-=
-False
 )
 :
     
@@ -2016,7 +1991,7 @@ log
             
 logging
 .
-INFO
+WARNING
             
 "
 static
@@ -2449,7 +2424,9 @@ f
     
 return
 commands_list
-memoize
+functools
+.
+cache
 def
 get_clang_tidy_config
 (
@@ -5656,20 +5633,26 @@ list
 checks
 "
         
+f
 "
 -
 checks
 =
-%
-s
-"
-%
+{
+'
+'
+.
+join
+(
 get_clang_tidy_config
 (
 command_context
 )
 .
 checks
+)
+}
+"
     
 ]
     
@@ -7613,8 +7596,7 @@ line
 "
 )
     
-rc
-=
+return
 command_context
 .
 _run_make
@@ -7628,37 +7610,12 @@ topobjdir
         
 target
 =
+(
 "
 pre
 -
 export
 "
-        
-line_handler
-=
-None
-        
-silent
-=
-not
-verbose
-    
-)
-    
-if
-rc
-!
-=
-0
-:
-        
-return
-rc
-    
-for
-target
-in
-(
 "
 export
 "
@@ -7668,52 +7625,29 @@ pre
 compile
 "
 )
-:
         
-rc
-=
-command_context
-.
-_run_make
-(
-            
-directory
-=
-command_context
-.
-topobjdir
-            
-target
-=
-target
-            
 line_handler
 =
 None
-            
+        
+print_directory
+=
+verbose
+        
+log
+=
+verbose
+        
 silent
 =
 not
 verbose
-            
+        
 num_jobs
 =
 jobs
-        
-)
-        
-if
-rc
-!
-=
-0
-:
-            
-return
-rc
     
-return
-0
+)
 def
 _set_clang_tools_paths
 (
