@@ -1461,6 +1461,7 @@ const
 {
 id
 label
+icon
 }
 =
 e
@@ -1559,6 +1560,9 @@ url
 :
 id
 label
+iconSrc
+:
+icon
 }
 )
 ;
