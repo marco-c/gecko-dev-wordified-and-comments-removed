@@ -3891,10 +3891,6 @@ policy
 sanitizeOnShutdown
 "
 "
-selectable
-profiles
-"
-"
 os
 version
 "
@@ -3987,10 +3983,6 @@ policy
 "
 "
 sanitizeOnShutdown
-"
-"
-selectable
-profiles
 "
 .
 bugs
