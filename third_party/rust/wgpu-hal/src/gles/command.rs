@@ -4543,7 +4543,6 @@ dirty_samplers
 let
 group_info
 =
-&
 layout
 .
 group_infos
@@ -4552,6 +4551,14 @@ index
 as
 usize
 ]
+.
+as_ref
+(
+)
+.
+unwrap
+(
+)
 ;
 for
 (

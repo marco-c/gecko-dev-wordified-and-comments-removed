@@ -464,7 +464,7 @@ wgpu
 ?
 rev
 =
-7705c84485c21b45e1b37494cbf9d06456272373
+e114d2f0a7c094fcb0600a6df80e992878e4ff64
 "
 ]
 git
@@ -487,7 +487,7 @@ wgpu
 rev
 =
 "
-7705c84485c21b45e1b37494cbf9d06456272373
+e114d2f0a7c094fcb0600a6df80e992878e4ff64
 "
 replace
 -
@@ -842,7 +842,7 @@ audioipc
 ?
 rev
 =
-c8d3f03cb5f889e4cab18cc1360ad0daa074f17a
+0339c4732ceadbc5f54898b77498c33fff0f3f90
 "
 ]
 git
@@ -863,7 +863,7 @@ audioipc
 rev
 =
 "
-c8d3f03cb5f889e4cab18cc1360ad0daa074f17a
+0339c4732ceadbc5f54898b77498c33fff0f3f90
 "
 replace
 -

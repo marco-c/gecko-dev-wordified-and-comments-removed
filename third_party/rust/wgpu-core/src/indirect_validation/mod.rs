@@ -180,6 +180,12 @@ wgt
 :
 :
 Features
+instance_flags
+:
+wgt
+:
+:
+InstanceFlags
 backend
 :
 wgt
@@ -205,6 +211,7 @@ Dispatch
 new
 (
 device
+instance_flags
 required_limits
 )
 {
@@ -265,6 +272,7 @@ new
 (
 device
 required_features
+instance_flags
 backend
 )
 {
@@ -474,6 +482,9 @@ device
 limits
 buffer_size
 buffer
+device
+.
+instance_flags
 )
 ?
 ;
@@ -501,6 +512,9 @@ limits
 )
 buffer_size
 buffer
+device
+.
+instance_flags
 )
 ?
 ;

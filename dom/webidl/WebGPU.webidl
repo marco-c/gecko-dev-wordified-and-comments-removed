@@ -3159,6 +3159,7 @@ required
 sequence
 <
 GPUBindGroupLayout
+?
 >
 bindGroupLayouts
 ;
@@ -4048,15 +4049,9 @@ format
 ;
 boolean
 depthWriteEnabled
-=
-false
 ;
 GPUCompareFunction
 depthCompare
-=
-"
-always
-"
 ;
 GPUStencilFaceState
 stencilFront

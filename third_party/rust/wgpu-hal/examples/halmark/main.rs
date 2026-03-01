@@ -1567,10 +1567,16 @@ bind_group_layouts
 :
 &
 [
+Some
+(
 &
 global_group_layout
+)
+Some
+(
 &
 local_group_layout
+)
 ]
 immediate_size
 :

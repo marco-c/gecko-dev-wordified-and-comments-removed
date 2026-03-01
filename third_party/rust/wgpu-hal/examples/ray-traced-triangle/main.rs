@@ -2364,8 +2364,11 @@ bind_group_layouts
 :
 &
 [
+Some
+(
 &
 bgl
+)
 ]
 immediate_size
 :

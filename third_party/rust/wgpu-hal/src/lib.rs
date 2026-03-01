@@ -7826,10 +7826,13 @@ bind_group_layouts
 '
 a
 [
+Option
+<
 &
 '
 a
 B
+>
 ]
 pub
 immediate_size

@@ -1937,8 +1937,16 @@ bgl
 |
 bgl
 .
+map
+(
+|
+bgl
+|
+bgl
+.
 expect_downcast_ref
 (
+)
 )
 )
 .

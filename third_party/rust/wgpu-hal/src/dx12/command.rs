@@ -6646,7 +6646,6 @@ DynamicOffset
 let
 info
 =
-&
 layout
 .
 bind_group_infos
@@ -6655,6 +6654,14 @@ index
 as
 usize
 ]
+.
+as_ref
+(
+)
+.
+unwrap
+(
+)
 ;
 let
 mut
