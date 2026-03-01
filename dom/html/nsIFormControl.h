@@ -934,6 +934,15 @@ FormControlType
 :
 :
 Output
+|
+|
+type
+=
+=
+FormControlType
+:
+:
+FormAssociatedCustomElement
 ;
 }
 #
