@@ -44,8 +44,6 @@ mozpack
 path
 as
 mozpath
-import
-yaml
 from
 mach
 .
@@ -2176,6 +2174,10 @@ jobs
 fix
 =
 fix
+                
+verbose
+=
+verbose
             
 )
             
@@ -2847,6 +2849,10 @@ sources
 jobs
     
 fix
+    
+verbose
+=
+True
 )
 :
     
@@ -2982,20 +2988,20 @@ common_args
 +
 =
 [
+f
 "
 -
 config
 =
-%
-s
-"
-%
-yaml
+{
+json
 .
-dump
+dumps
 (
 cfg
 )
+}
+"
 ]
     
 if
@@ -3009,6 +3015,21 @@ common_args
 "
 -
 fix
+"
+]
+    
+if
+not
+verbose
+:
+        
+common_args
++
+=
+[
+"
+-
+quiet
 "
 ]
     
