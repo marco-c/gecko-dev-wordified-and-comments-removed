@@ -40,6 +40,7 @@ public
 #
 ifdef
 DEBUG
+constexpr
 StaticMutex
 (
 )

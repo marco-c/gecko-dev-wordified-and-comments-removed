@@ -355,7 +355,7 @@ MOZ_GUARDED_BY
 sLaunchMutex
 )
 ;
-MOZ_RUNINIT
+MOZ_RELEASE_CONSTINIT
 static
 StaticDataMutex
 <

@@ -1730,7 +1730,7 @@ FFmpegLibWrapper
 *
 mLib
 ;
-MOZ_RUNINIT
+MOZ_RELEASE_CONSTINIT
 static
 inline
 StaticDataMutex
