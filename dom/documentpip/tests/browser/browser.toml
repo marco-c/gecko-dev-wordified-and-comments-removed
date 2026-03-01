@@ -77,6 +77,13 @@ outer
 size
 [
 "
+browser_pip_throttling
+.
+js
+"
+]
+[
+"
 browser_pip_ui
 .
 js
