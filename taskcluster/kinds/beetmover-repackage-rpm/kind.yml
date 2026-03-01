@@ -108,6 +108,8 @@ repackage
 -
 rpm
 -
+signing
+-
 shippable
 -
 l10n
@@ -229,7 +231,6 @@ releases
 :
 -
 nightly
-#
 -
 beta
 #
