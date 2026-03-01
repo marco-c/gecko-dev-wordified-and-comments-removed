@@ -124,6 +124,13 @@ collector
 js
 "
 "
+ShutdownLeakPathFinder
+.
+sys
+.
+mjs
+"
+"
 ShutdownLeaksCollector
 .
 sys
