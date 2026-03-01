@@ -1273,6 +1273,11 @@ chip
 )
 .
 chip
+[
+data
+-
+removable
+]
 :
 hover
 .
@@ -1300,6 +1305,11 @@ chip
 )
 .
 chip
+[
+data
+-
+removable
+]
 :
 hover
 .
