@@ -10570,6 +10570,10 @@ attr
 :
 &
 LocalName
+namespace
+:
+&
+Namespace
 )
 -
 >
@@ -10600,6 +10604,11 @@ Gecko_LookupAttrValue
 self
 .
 0
+namespace
+.
+as_ptr
+(
+)
 attr
 .
 0

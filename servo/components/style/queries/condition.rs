@@ -2414,6 +2414,15 @@ SpecifiedValue
 parse
 (
 input
+Some
+(
+&
+context
+.
+namespaces
+.
+prefixes
+)
 &
 context
 .
@@ -2651,6 +2660,7 @@ compute
 mut
 parser
 registration
+None
 &
 value
 .

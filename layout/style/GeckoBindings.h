@@ -969,6 +969,9 @@ dom
 Element
 *
 aElement
+nsAtom
+&
+aNamespace
 const
 nsAtom
 &
