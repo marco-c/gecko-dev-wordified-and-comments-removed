@@ -675,6 +675,15 @@ IPPProxyManager
 start
 "
 )
+.
+resolves
+(
+{
+started
+:
+true
+}
+)
 ;
 let
 button
