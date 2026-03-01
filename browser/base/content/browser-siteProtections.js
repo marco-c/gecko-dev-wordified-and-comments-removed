@@ -11047,6 +11047,14 @@ this
 milestonePref
 )
 ;
+NimbusFeatures
+.
+privacySecurityMessaging
+.
+recordExposureEvent
+(
+)
+;
 }
 else
 {
