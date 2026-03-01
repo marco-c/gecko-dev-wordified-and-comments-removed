@@ -5874,8 +5874,13 @@ mMemoryTelemetry
 MemoryTelemetry
 :
 :
-Get
+Create
 (
+)
+;
+MOZ_ASSERT
+(
+mMemoryTelemetry
 )
 ;
 return

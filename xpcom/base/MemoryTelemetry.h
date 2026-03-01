@@ -99,6 +99,15 @@ RefPtr
 <
 MemoryTelemetry
 >
+Create
+(
+)
+;
+static
+RefPtr
+<
+MemoryTelemetry
+>
 Get
 (
 )
