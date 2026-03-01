@@ -226,6 +226,13 @@ mNeverTaint
 copy
 -
 >
+mCookieJarSettings
+=
+mCookieJarSettings
+;
+copy
+-
+>
 SetUnsafeRequest
 (
 )
