@@ -431,6 +431,11 @@ controller
 details
 .
 element
+details
+.
+element
+.
+ownerGlobal
 )
 ;
 }
