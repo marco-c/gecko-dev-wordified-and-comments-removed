@@ -420,6 +420,13 @@ html
 ]
 [
 "
+test_select_ctrl_a
+.
+html
+"
+]
+[
+"
 test_select_collapsed_page_keys
 .
 html
