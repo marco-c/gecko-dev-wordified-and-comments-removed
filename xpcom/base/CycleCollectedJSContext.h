@@ -603,9 +603,6 @@ JSObject
 *
 GetExecutionGlobalFromJSMicroTask
 (
-JSContext
-*
-aCx
 )
 const
 {
