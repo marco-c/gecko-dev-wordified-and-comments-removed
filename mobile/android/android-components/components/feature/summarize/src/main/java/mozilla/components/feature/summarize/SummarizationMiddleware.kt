@@ -404,6 +404,11 @@ dispatch
 LlmAction
 .
 SummarizationRequested
+(
+llmProvider
+.
+info
+)
 )
 llmProvider
 .

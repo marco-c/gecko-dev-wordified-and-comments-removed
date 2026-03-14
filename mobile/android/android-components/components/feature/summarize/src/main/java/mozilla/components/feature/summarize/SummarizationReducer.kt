@@ -183,6 +183,11 @@ SummarizationState
 .
 Summarizing
 (
+info
+=
+action
+.
+info
 )
 is
 LlmAction
@@ -217,6 +222,11 @@ SummarizationState
 .
 Settings
 (
+info
+=
+state
+.
+info
 summarizedText
 =
 state
@@ -247,6 +257,11 @@ SummarizationState
 .
 Summarized
 (
+info
+=
+state
+.
+info
 text
 =
 state
@@ -322,6 +337,9 @@ SummarizationState
 .
 Summarized
 (
+info
+=
+info
 response
 .
 reason
@@ -339,8 +357,9 @@ SummarizationState
 .
 Summarized
 (
-text
+info
 =
+info
 parts
 .
 joinToString
