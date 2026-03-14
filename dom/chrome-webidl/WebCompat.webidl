@@ -117,11 +117,6 @@ version
 ;
 }
 ;
-dictionary
-ZComponents
-{
-}
-;
 [
 GenerateInit
 ]
@@ -133,9 +128,6 @@ CKEDITOR
 ;
 CkEditorVersion
 JEDITOR
-;
-ZComponents
-ZComponents
 ;
 }
 ;
