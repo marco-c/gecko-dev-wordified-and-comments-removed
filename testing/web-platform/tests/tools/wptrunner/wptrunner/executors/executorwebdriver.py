@@ -290,7 +290,10 @@ timeouts
 .
 script
 =
+int
+(
 timeout
+)
     
 def
 create_window
