@@ -3153,6 +3153,15 @@ ToYearMonthDay
 t
 )
 ;
+int32_t
+timeWithinDay
+=
+PositiveModulo
+(
+t
+msPerDay
+)
+;
 int
 equivalentYear
 =
@@ -3177,10 +3186,7 @@ equivalentDate
 MakeDate
 (
 equivalentDay
-TimeWithinDay
-(
-t
-)
+timeWithinDay
 )
 ;
 MOZ_ALWAYS_TRUE
