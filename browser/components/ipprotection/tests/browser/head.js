@@ -761,6 +761,9 @@ closePanel
 win
 =
 window
+resetState
+=
+true
 )
 {
 let
@@ -773,6 +776,11 @@ getPanel
 win
 )
 ;
+if
+(
+resetState
+)
+{
 panel
 .
 setState
@@ -780,6 +788,7 @@ setState
 defaultState
 )
 ;
+}
 let
 panelHiddenPromise
 =
