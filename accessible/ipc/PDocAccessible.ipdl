@@ -314,12 +314,6 @@ EndOffset
 ;
 [
 ManualDealloc
-ChildImpl
-=
-virtual
-ParentImpl
-=
-virtual
 ]
 protocol
 PDocAccessible

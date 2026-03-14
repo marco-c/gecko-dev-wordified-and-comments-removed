@@ -245,7 +245,6 @@ return
 mBrowsingContext
 ;
 }
-virtual
 mozilla
 :
 :
@@ -264,7 +263,6 @@ uint32_t
 &
 aType
 )
-override
 ;
 mozilla
 :
@@ -288,7 +286,6 @@ bool
 &
 aEnabled
 )
-final
 ;
 mozilla
 :
@@ -332,9 +329,7 @@ bool
 &
 aSuppressEvent
 )
-final
 ;
-virtual
 mozilla
 :
 :
@@ -352,9 +347,7 @@ MutationEventData
 &
 aData
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -365,9 +358,7 @@ IPCResult
 RecvRequestAckMutationEvents
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -386,9 +377,7 @@ LayoutDeviceIntRect
 &
 aCaretRect
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -411,9 +400,7 @@ uint32_t
 &
 aType
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -448,9 +435,7 @@ uint32_t
 &
 aMaxScrollY
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -478,9 +463,7 @@ CacheData
 &
 aData
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -505,9 +488,7 @@ uint64_t
 &
 aUnselectedIDs
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -525,9 +506,7 @@ uint64_t
 &
 aIDs
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -550,9 +529,7 @@ uint16_t
 &
 aPriority
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -574,7 +551,6 @@ TextRangeData
 &
 aSelection
 )
-override
 ;
 mozilla
 :
@@ -597,9 +573,7 @@ uint8_t
 &
 aRoleMapEntryIndex
 )
-final
 ;
-virtual
 mozilla
 :
 :
@@ -620,7 +594,6 @@ uint64_t
 &
 aID
 )
-override
 ;
 void
 Unbind
@@ -685,7 +658,6 @@ nullptr
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -696,7 +668,6 @@ IPCResult
 RecvShutdown
 (
 )
-override
 ;
 void
 Destroy
