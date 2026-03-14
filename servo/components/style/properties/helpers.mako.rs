@@ -602,6 +602,11 @@ endif
 CSSWideKeyword
 :
 :
+RevertRule
+|
+CSSWideKeyword
+:
+:
 RevertLayer
 |
 CSSWideKeyword
@@ -618,10 +623,7 @@ debug_crash
 "
 Found
 revert
-/
-revert
--
-layer
+*
 not
 dealt
 with
