@@ -639,9 +639,10 @@ nsACString
 aResult
 )
 ;
-CopyableTArray
+CopyableAutoTArray
 <
 nsEntry
+16
 >
 mHeaders
 ;
