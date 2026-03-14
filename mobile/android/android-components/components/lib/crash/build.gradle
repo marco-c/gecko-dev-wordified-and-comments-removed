@@ -533,6 +533,14 @@ forUnitTests
 testImplementation
 libs
 .
+okhttp
+testImplementation
+libs
+.
+okio
+testImplementation
+libs
+.
 robolectric
 androidTestImplementation
 project

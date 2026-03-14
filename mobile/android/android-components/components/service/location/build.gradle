@@ -194,6 +194,10 @@ mockwebserver
 testImplementation
 libs
 .
+okhttp
+testImplementation
+libs
+.
 robolectric
 }
 apply

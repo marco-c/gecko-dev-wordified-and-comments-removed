@@ -143,6 +143,10 @@ implementation
 libs
 .
 mockwebserver
+implementation
+libs
+.
+okhttp
 }
 apply
 from

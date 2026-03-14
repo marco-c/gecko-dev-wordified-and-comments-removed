@@ -171,10 +171,6 @@ test
 testImplementation
 libs
 .
-mockwebserver
-testImplementation
-libs
-.
 robolectric
 }
 apply

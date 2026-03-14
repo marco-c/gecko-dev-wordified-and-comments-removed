@@ -148,6 +148,10 @@ concept
 fetch
 '
 )
+api
+libs
+.
+mockwebserver
 implementation
 libs
 .
@@ -161,7 +165,11 @@ coroutines
 implementation
 libs
 .
-mockwebserver
+okhttp
+implementation
+libs
+.
+okio
 }
 apply
 from

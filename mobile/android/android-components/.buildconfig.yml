@@ -4166,14 +4166,6 @@ components
 :
 lib
 -
-fetch
--
-okhttp
--
-components
-:
-lib
--
 publicsuffixlist
 -
 components
