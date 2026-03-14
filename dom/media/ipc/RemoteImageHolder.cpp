@@ -825,6 +825,12 @@ if
 NS_WARN_IF
 (
 descriptorSize
+=
+=
+0
+|
+|
+descriptorSize
 >
 bufferSize
 )
