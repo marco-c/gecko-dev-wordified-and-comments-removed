@@ -1287,7 +1287,7 @@ g
 .
 browser
 .
-toggleAttribute
+setAttribute
 (
 "
 remote
@@ -1295,6 +1295,14 @@ remote
 g
 .
 browserIsRemote
+?
+"
+true
+"
+:
+"
+false
+"
 )
 ;
 /

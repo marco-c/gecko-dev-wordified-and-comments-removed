@@ -1429,7 +1429,7 @@ browserTabsRemoteAutostart
 ;
 browser
 .
-toggleAttribute
+setAttribute
 (
 "
 remote
