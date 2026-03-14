@@ -425,9 +425,6 @@ return
 !
 !
 mHandlingState
-|
-|
-mValueTransferInProgress
 ;
 }
 MOZ_CAN_RUN_SCRIPT
@@ -475,12 +472,6 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 PrepareEditor
 (
-const
-nsAString
-*
-aValue
-=
-nullptr
 )
 ;
 void
@@ -1475,11 +1466,6 @@ mEverInited
 ;
 bool
 mEditorInitialized
-:
-1
-;
-bool
-mValueTransferInProgress
 :
 1
 ;
