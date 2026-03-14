@@ -212,6 +212,8 @@ VideoCaptureFactory
 :
 CreateDeviceInfo
 (
+int32_t
+aId
 mozilla
 :
 :
@@ -457,6 +459,7 @@ DesktopCaptureImpl
 :
 CreateDeviceInfo
 (
+aId
 aType
 )
 ;
@@ -473,7 +476,7 @@ VideoCaptureFactory
 CreateVideoCapture
 (
 int32_t
-aCaptureId
+aModuleId
 const
 char
 *
@@ -666,7 +669,7 @@ DesktopCaptureImpl
 :
 Create
 (
-aCaptureId
+aModuleId
 aUniqueId
 aType
 )

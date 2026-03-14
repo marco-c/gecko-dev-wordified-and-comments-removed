@@ -310,6 +310,8 @@ DeviceInfo
 >
 CreateDesktopDeviceInfo
 (
+int32_t
+aId
 std
 :
 :
@@ -334,6 +336,8 @@ DeviceInfo
 >
 CreateTabDeviceInfo
 (
+int32_t
+aId
 std
 :
 :

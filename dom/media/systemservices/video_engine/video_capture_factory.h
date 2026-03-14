@@ -112,6 +112,8 @@ DeviceInfo
 >
 CreateDeviceInfo
 (
+int32_t
+aId
 mozilla
 :
 :
@@ -152,7 +154,7 @@ CreateVideoCaptureResult
 CreateVideoCapture
 (
 int32_t
-aCaptureId
+aModuleId
 const
 char
 *
