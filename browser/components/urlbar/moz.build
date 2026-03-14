@@ -748,6 +748,15 @@ tests
 /
 browser
 /
+browserDisableAPZ
+.
+toml
+"
+"
+tests
+/
+browser
+/
 browserSidebarRevamp
 .
 toml
