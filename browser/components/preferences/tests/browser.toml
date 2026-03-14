@@ -889,6 +889,13 @@ js
 ]
 [
 "
+browser_homepage_custom_homepage_add_multiple_urls
+.
+js
+"
+]
+[
+"
 browser_homepage_custom_homepage_add_urls
 .
 js
@@ -904,6 +911,13 @@ js
 [
 "
 browser_homepage_custom_homepage_current_pages
+.
+js
+"
+]
+[
+"
+browser_homepage_custom_homepage_empty_state
 .
 js
 "
