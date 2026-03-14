@@ -1484,7 +1484,7 @@ can
 use
 the
 helper
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -1523,7 +1523,7 @@ search
 ?
 q
 =
-ContentTask
+SpecialPowers
 .
 spawn
 %
