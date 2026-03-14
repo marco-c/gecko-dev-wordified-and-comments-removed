@@ -61,10 +61,12 @@ properties_and_values
 :
 :
 {
-registry
+rule
 :
 :
-PropertyRegistrationData
+Descriptors
+as
+PropertyDescriptors
 syntax
 :
 :
@@ -74,6 +76,8 @@ data_type
 :
 DependentDataTypes
 Descriptor
+as
+SyntaxDescriptor
 }
 value
 :
@@ -1435,7 +1439,7 @@ VariableValue
 registration
 :
 &
-PropertyRegistrationData
+PropertyDescriptors
 computed_context
 :
 &
@@ -1453,8 +1457,6 @@ ComputedRegisteredValue
 {
 if
 registration
-.
-syntax
 .
 is_universal
 (
@@ -1706,7 +1708,7 @@ self
 registration
 :
 &
-PropertyRegistrationData
+PropertyDescriptors
 name
 :
 &
@@ -1742,7 +1744,7 @@ self
 registration
 :
 &
-PropertyRegistrationData
+PropertyDescriptors
 name
 :
 &
@@ -1796,7 +1798,7 @@ self
 registration
 :
 &
-PropertyRegistrationData
+PropertyDescriptors
 )
 -
 >
@@ -1835,7 +1837,7 @@ self
 registration
 :
 &
-PropertyRegistrationData
+PropertyDescriptors
 name
 :
 &
@@ -2593,7 +2595,7 @@ None
 RawString
 Type
 (
-Descriptor
+SyntaxDescriptor
 )
 Unit
 (
@@ -5166,7 +5168,7 @@ input
 .
 parse_nested_block
 (
-Descriptor
+SyntaxDescriptor
 :
 :
 from_css_parser
@@ -5373,7 +5375,7 @@ find_non_custom_references
 registration
 :
 &
-PropertyRegistrationData
+PropertyDescriptors
 value
 :
 &
@@ -5396,10 +5398,20 @@ NonCustomReferences
 >
 {
 let
-dependent_types
+syntax
 =
 registration
 .
+syntax
+.
+as_ref
+(
+)
+?
+;
+let
+dependent_types
+=
 syntax
 .
 dependent_types
@@ -5424,8 +5436,6 @@ LENGTH
 include_universal
 &
 &
-registration
-.
 syntax
 .
 is_universal
@@ -6448,6 +6458,11 @@ registration
 .
 syntax
 .
+as_ref
+(
+)
+?
+.
 dependent_types
 (
 )
@@ -6785,8 +6800,6 @@ value
 if
 !
 registration
-.
-syntax
 .
 is_universal
 (
@@ -7757,8 +7770,6 @@ if
 !
 registration
 .
-syntax
-.
 is_universal
 (
 )
@@ -7769,6 +7780,14 @@ debug_assert
 registration
 .
 syntax
+.
+as_ref
+(
+)
+.
+unwrap
+(
+)
 .
 dependent_types
 (
@@ -7891,8 +7910,6 @@ contains_computed_custom_property
 =
 !
 registration
-.
-syntax
 .
 is_universal
 (
@@ -9000,8 +9017,6 @@ if
 !
 registration
 .
-syntax
-.
 is_universal
 (
 )
@@ -9177,8 +9192,6 @@ has_references
 &
 &
 registration
-.
-syntax
 .
 is_universal
 (
@@ -9678,7 +9691,7 @@ UrlExtraData
 registration
 :
 &
-PropertyRegistrationData
+PropertyDescriptors
 computed_context
 :
 &
@@ -9698,8 +9711,6 @@ ComputedRegisteredValue
 {
 if
 registration
-.
-syntax
 .
 is_universal
 (
@@ -9815,7 +9826,7 @@ UrlExtraData
 registration
 :
 &
-PropertyRegistrationData
+PropertyDescriptors
 computed_context
 :
 &
@@ -9838,8 +9849,6 @@ debug_assert
 (
 !
 registration
-.
-syntax
 .
 is_universal
 (
@@ -9901,7 +9910,7 @@ Name
 registration
 :
 &
-PropertyRegistrationData
+PropertyDescriptors
 custom_properties
 :
 &

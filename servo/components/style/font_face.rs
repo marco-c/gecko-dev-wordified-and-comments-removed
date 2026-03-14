@@ -208,6 +208,7 @@ derive
 Clone
 Debug
 Eq
+MallocSizeOf
 PartialEq
 ToCss
 ToShmem
@@ -240,6 +241,7 @@ derive
 Clone
 Debug
 Eq
+MallocSizeOf
 PartialEq
 ToCss
 ToShmem
@@ -431,6 +433,7 @@ Clone
 Copy
 Debug
 Eq
+MallocSizeOf
 Parse
 PartialEq
 ToCss
@@ -503,6 +506,7 @@ Clone
 Copy
 Debug
 Eq
+MallocSizeOf
 PartialEq
 ToShmem
 )
@@ -1451,6 +1455,7 @@ derive
 Clone
 Debug
 Eq
+MallocSizeOf
 PartialEq
 ToCss
 ToShmem
@@ -1522,6 +1527,7 @@ derive
 Clone
 Debug
 Eq
+MallocSizeOf
 PartialEq
 ToShmem
 )
@@ -1943,6 +1949,7 @@ derive
 (
 Clone
 Debug
+MallocSizeOf
 PartialEq
 ToShmem
 )
@@ -2089,6 +2096,7 @@ derive
 (
 Clone
 Debug
+MallocSizeOf
 PartialEq
 ToShmem
 )
@@ -2253,6 +2261,7 @@ derive
 (
 Clone
 Debug
+MallocSizeOf
 PartialEq
 ToShmem
 )

@@ -115,6 +115,12 @@ counter_style_descriptors
 .
 toml
 "
+              
+"
+property_descriptors
+.
+toml
+"
           
 ]
         

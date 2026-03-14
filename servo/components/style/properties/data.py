@@ -4517,6 +4517,9 @@ type
 gecko_pref
 =
 None
+ignore_malloc_size_of
+=
+None
 )
 :
         
@@ -4537,6 +4540,12 @@ self
 gecko_pref
 =
 gecko_pref
+        
+self
+.
+ignore_malloc_size_of
+=
+ignore_malloc_size_of
         
 self
 .
@@ -5736,6 +5745,21 @@ _load_descriptors
 (
 "
 counter_style_descriptors
+.
+toml
+"
+)
+        
+self
+.
+property_descriptors
+=
+self
+.
+_load_descriptors
+(
+"
+property_descriptors
 .
 toml
 "
