@@ -4754,10 +4754,7 @@ if
 e
 )
 {
-#
-ifndef
-FUZZING_SNAPSHOT
-MOZ_DIAGNOSTIC_CRASH
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Binding
@@ -4768,8 +4765,6 @@ proxy
 "
 )
 ;
-#
-endif
 return
 IPC_FAIL
 (
@@ -4847,10 +4842,7 @@ IsDoc
 )
 )
 {
-#
-ifndef
-FUZZING_SNAPSHOT
-MOZ_DIAGNOSTIC_CRASH
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Binding
@@ -4867,8 +4859,6 @@ OuterDoc
 "
 )
 ;
-#
-endif
 return
 IPC_FAIL
 (
