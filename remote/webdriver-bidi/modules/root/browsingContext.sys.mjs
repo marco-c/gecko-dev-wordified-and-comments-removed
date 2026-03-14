@@ -14586,14 +14586,6 @@ targetWidth
 currentWidth
 )
 {
-if
-(
-!
-navigable
-.
-isActive
-)
-{
 /
 /
 Force
@@ -14629,7 +14621,6 @@ aIncludeInactive
 true
 )
 ;
-}
 /
 /
 Wait
