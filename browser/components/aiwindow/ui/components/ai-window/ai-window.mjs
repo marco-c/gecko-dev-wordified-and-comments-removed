@@ -7019,7 +7019,15 @@ this
 dispatchMessageToActor
 (
 actor
+{
+.
+.
+.
 message
+isPreviousMessage
+:
+true
+}
 )
 ;
 }
