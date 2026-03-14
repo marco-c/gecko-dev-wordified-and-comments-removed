@@ -4699,6 +4699,8 @@ nsLoadFlags
 aLoadFlags
 FetchPriority
 aFetchPriority
+bool
+aIsLinkPreload
 )
 {
 if
@@ -4745,12 +4747,17 @@ aFetchPriority
 }
 if
 (
+aIsLinkPreload
+&
+&
+(
 aLoadFlags
 &
 nsIRequest
 :
 :
 LOAD_BACKGROUND
+)
 )
 {
 +
@@ -4832,6 +4839,8 @@ uint64_t
 aEarlyHintPreloaderId
 FetchPriority
 aFetchPriority
+bool
+aIsLinkPreload
 )
 {
 MOZ_ASSERT
@@ -5205,6 +5214,7 @@ AdjustPriorityForImages
 aResult
 aLoadFlags
 aFetchPriority
+aIsLinkPreload
 )
 ;
 nsCOMPtr
@@ -9367,6 +9377,7 @@ aLoadingDocument
 mRespectPrivacy
 aEarlyHintPreloaderId
 aFetchPriority
+aLinkPreload
 )
 ;
 if
@@ -9737,6 +9748,7 @@ aLoadingDocument
 mRespectPrivacy
 aEarlyHintPreloaderId
 aFetchPriority
+false
 )
 ;
 if
@@ -12392,6 +12404,7 @@ aContext
 mRespectPrivacy
 aEarlyHintPreloaderId
 aFetchPriority
+aLinkPreload
 )
 ;
 if
