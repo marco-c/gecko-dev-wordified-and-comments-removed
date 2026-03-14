@@ -1089,9 +1089,17 @@ search
 box
 .
 Add
+clear
 and
 refresh
 storage
+-
+-
+-
+-
+-
+-
+-
 -
 -
 -
@@ -1128,6 +1136,10 @@ a
 new
 storage
 entry
+delete
+all
+existing
+entries
 or
 refresh
 the
@@ -1159,7 +1171,7 @@ Cache
 image
 :
 :
-storage_detail_add_refresh
+storage_detail_add_clear_refresh
 .
 png
 :
