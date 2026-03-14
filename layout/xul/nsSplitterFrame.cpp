@@ -2934,7 +2934,7 @@ if
 element
 -
 >
-GetXULBoolAttr
+GetBoolAttr
 (
 nsGkAtoms
 :

@@ -2406,6 +2406,16 @@ customtitlebar
 Atom
 (
 "
+escapecontentshell
+"
+"
+escapecontentshell
+"
+)
+    
+Atom
+(
+"
 exposeToUntrustedContent
 "
 "
@@ -5874,16 +5884,6 @@ includes
 "
 "
 includes
-"
-)
-    
-Atom
-(
-"
-incontentshell
-"
-"
-incontentshell
 "
 )
     

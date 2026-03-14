@@ -160,7 +160,7 @@ aValue
 )
 const
 {
-GetXULAttr
+GetAttr
 (
 nsGkAtoms
 :
@@ -182,7 +182,7 @@ ErrorResult
 rv
 )
 {
-SetXULAttr
+SetAttr
 (
 nsGkAtoms
 :
@@ -218,7 +218,7 @@ aValue
 )
 const
 {
-GetXULAttr
+GetAttr
 (
 nsGkAtoms
 :
@@ -240,7 +240,7 @@ ErrorResult
 rv
 )
 {
-SetXULAttr
+SetAttr
 (
 nsGkAtoms
 :

@@ -8292,7 +8292,7 @@ PopupElement
 (
 )
 .
-GetXULBoolAttr
+GetBoolAttr
 (
 nsGkAtoms
 :

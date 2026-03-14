@@ -3670,9 +3670,9 @@ panel
 setAttribute
 (
 "
-incontentshell
+escapecontentshell
 "
-false
+true
 )
 ;
 panel
