@@ -883,7 +883,12 @@ mapobj
 )
 ;
 size_t
-sizeOfData
+sizeOfBufferData
+(
+)
+;
+size_t
+sizeOfMallocData
 (
 mozilla
 :
@@ -1903,7 +1908,12 @@ setobj
 )
 ;
 size_t
-sizeOfData
+sizeOfBufferData
+(
+)
+;
+size_t
+sizeOfMallocData
 (
 mozilla
 :

@@ -705,11 +705,6 @@ BigInt
 :
 sizeOfExcludingThis
 (
-mozilla
-:
-:
-MallocSizeOf
-mallocSizeOf
 )
 const
 {
@@ -738,11 +733,6 @@ BigInt
 :
 sizeOfExcludingThisInNursery
 (
-mozilla
-:
-:
-MallocSizeOf
-mallocSizeOf
 )
 const
 {
@@ -21465,7 +21455,6 @@ bi
 .
 sizeOfExcludingThisInNursery
 (
-mallocSizeOf
 )
 ;
 }
@@ -21478,7 +21467,6 @@ bi
 .
 sizeOfExcludingThis
 (
-mallocSizeOf
 )
 ;
 }

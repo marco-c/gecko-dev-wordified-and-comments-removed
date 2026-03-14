@@ -6815,11 +6815,6 @@ gcx
 size_t
 sizeOfExcludingThis
 (
-mozilla
-:
-:
-MallocSizeOf
-mallocSizeOf
 )
 ;
 inline

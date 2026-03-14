@@ -2431,7 +2431,7 @@ thingSize
 ;
 realmStats
 .
-scriptsMallocHeapData
+scriptsGCBuffers
 +
 =
 base
@@ -2439,10 +2439,6 @@ base
 >
 sizeOfExcludingThis
 (
-rtStats
--
->
-mallocSizeOf_
 )
 ;
 if
@@ -2833,7 +2829,7 @@ size
 zStats
 -
 >
-bigIntsMallocHeap
+bigIntsGCBuffers
 +
 =
 bi
@@ -2841,10 +2837,6 @@ bi
 >
 sizeOfExcludingThis
 (
-rtStats
--
->
-mallocSizeOf_
 )
 ;
 break
@@ -3196,7 +3188,7 @@ thingSize
 zStats
 -
 >
-scopesMallocHeap
+scopesGCBuffers
 +
 =
 scope
