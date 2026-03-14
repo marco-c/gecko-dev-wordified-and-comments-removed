@@ -4235,6 +4235,11 @@ config
 prevState
 .
 config
+sectionPersonalization
+:
+prevState
+.
+sectionPersonalization
 }
 ;
 case
