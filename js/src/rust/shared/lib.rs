@@ -12,11 +12,15 @@ mozglue_static
 ;
 extern
 crate
-unicode_bidi_ffi
+normalizer_glue
 ;
 extern
 crate
-normalizer_glue
+properties_glue
+;
+extern
+crate
+unicode_bidi_ffi
 ;
 #
 [

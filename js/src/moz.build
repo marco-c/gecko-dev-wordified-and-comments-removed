@@ -2067,6 +2067,11 @@ builtin
 /
 normalizer_glue
 "
+"
+irregexp
+/
+properties_glue
+"
 ]
 if
 CONFIG

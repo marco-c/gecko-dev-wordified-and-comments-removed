@@ -143,6 +143,12 @@ regexp
 destructor
 .
 patch
+-
+patches
+/
+icu4x
+.
+patch
 update
 -
 actions
