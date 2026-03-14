@@ -71,7 +71,14 @@ swatch
 -
 size
 :
-24px
+var
+(
+-
+-
+dimension
+-
+24
+)
 ;
 display
 :
