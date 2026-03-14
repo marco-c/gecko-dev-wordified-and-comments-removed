@@ -2890,6 +2890,11 @@ CSSCounterStyleRule
 webidl
 "
 "
+CSSFontFaceDescriptors
+.
+webidl
+"
+"
 CSSPageDescriptors
 .
 webidl
