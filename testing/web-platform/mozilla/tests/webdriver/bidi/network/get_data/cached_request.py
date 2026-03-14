@@ -29,6 +29,13 @@ webdriver
 bidi
 import
 error
+pytestmark
+=
+pytest
+.
+mark
+.
+asyncio
 pytest
 .
 mark
@@ -45,11 +52,6 @@ True
 False
 ]
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_cached_stylesheet

@@ -33,6 +33,8 @@ get_cached_url
     
 get_next_event_for_url
 )
+pytestmark
+=
 pytest
 .
 mark
@@ -290,11 +292,6 @@ data_url
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_cached_resources

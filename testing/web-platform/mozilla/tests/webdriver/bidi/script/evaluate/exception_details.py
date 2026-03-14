@@ -11,6 +11,8 @@ script
 import
 ContextTarget
 ScriptEvaluateResultException
+pytestmark
+=
 pytest
 .
 mark
@@ -95,11 +97,6 @@ true
     
 ]
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_evaluate_without_to_string_interface
