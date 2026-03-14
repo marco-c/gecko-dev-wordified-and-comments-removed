@@ -8659,6 +8659,10 @@ None
 append_env
 =
 None
+        
+allow_subdirectory_build
+=
+False
     
 )
 :
@@ -8731,6 +8735,8 @@ keep_going
 mach_context
             
 append_env
+            
+allow_subdirectory_build
         
 )
         
@@ -8808,6 +8814,10 @@ None
 append_env
 =
 None
+        
+allow_subdirectory_build
+=
+False
     
 )
 :
@@ -9921,6 +9931,72 @@ relpath
 )
                         
 )
+                        
+if
+make_dir
+is
+not
+None
+and
+not
+allow_subdirectory_build
+:
+                            
+self
+.
+log
+(
+                                
+logging
+.
+WARNING
+                                
+"
+build
+"
+                                
+{
+"
+target
+"
+:
+target
+}
+                                
+"
+Build
+argument
+'
+{
+target
+}
+'
+is
+a
+subdirectory
+and
+was
+ignored
+.
+"
+                                
+"
+Use
+-
+-
+allow
+-
+subdirectory
+-
+build
+to
+override
+.
+"
+                            
+)
+                            
+continue
                     
 if
 make_dir

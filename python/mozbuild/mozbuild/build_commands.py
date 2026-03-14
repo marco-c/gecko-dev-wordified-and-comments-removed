@@ -791,6 +791,48 @@ warnings
 .
 "
 )
+CommandArgument
+(
+    
+"
+-
+-
+allow
+-
+subdirectory
+-
+build
+"
+    
+default
+=
+False
+    
+action
+=
+"
+store_true
+"
+    
+help
+=
+"
+Allow
+building
+subdirectories
+(
+not
+recommended
+can
+result
+in
+bad
+tree
+state
+)
+.
+"
+)
 def
 build
 (
@@ -834,6 +876,10 @@ idle
 show_all_warnings
 =
 None
+    
+allow_subdirectory_build
+=
+False
 )
 :
     
@@ -1702,6 +1748,10 @@ _mach_context
 append_env
 =
 append_env
+                
+allow_subdirectory_build
+=
+allow_subdirectory_build
             
 )
             
@@ -1972,6 +2022,10 @@ _mach_context
 append_env
 =
 append_env
+            
+allow_subdirectory_build
+=
+allow_subdirectory_build
         
 )
     
