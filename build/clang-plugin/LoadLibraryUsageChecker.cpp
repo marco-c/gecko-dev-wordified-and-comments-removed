@@ -128,11 +128,6 @@ funcCall
 "
 )
 ;
-if
-(
-FuncCall
-)
-{
 diag
 (
 FuncCall
@@ -176,5 +171,4 @@ getName
 (
 )
 ;
-}
 }
