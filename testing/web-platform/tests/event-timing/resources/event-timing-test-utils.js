@@ -2904,7 +2904,7 @@ target
 "
 pointerup
 "
-10
+duration
 )
 textSelectionInTarget
 (
