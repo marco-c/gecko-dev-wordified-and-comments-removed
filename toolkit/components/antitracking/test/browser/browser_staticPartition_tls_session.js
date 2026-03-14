@@ -192,7 +192,7 @@ waitForLoad
 url
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (

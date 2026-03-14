@@ -158,14 +158,15 @@ blank
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
-null
+[
+]
 (
 )
 =

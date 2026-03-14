@@ -3359,8 +3359,6 @@ spawn
 (
 browser
 [
-[
-]
 ]
 async
 function

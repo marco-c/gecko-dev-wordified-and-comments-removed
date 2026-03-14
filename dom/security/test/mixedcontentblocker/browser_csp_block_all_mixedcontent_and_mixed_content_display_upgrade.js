@@ -205,7 +205,7 @@ let
 loadedElements
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (

@@ -50,11 +50,12 @@ task
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 (
 {
 task
@@ -67,6 +68,7 @@ toString
 (
 )
 ;
+]
 scriptStr
 =
 >

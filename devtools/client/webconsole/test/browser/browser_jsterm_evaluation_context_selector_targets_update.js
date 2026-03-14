@@ -287,7 +287,7 @@ iframe
 "
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -575,7 +575,7 @@ document
 "
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -783,7 +783,7 @@ document
 "
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -921,7 +921,7 @@ changed
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -1180,7 +1180,7 @@ changed
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (

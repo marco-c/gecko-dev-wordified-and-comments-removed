@@ -271,14 +271,16 @@ iconUrl
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
+[
 iconUrl
+]
 href
 =
 >

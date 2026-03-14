@@ -464,14 +464,16 @@ tabUrl
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
+[
 iframes
+]
 async
 function
 (

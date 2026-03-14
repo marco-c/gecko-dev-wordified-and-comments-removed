@@ -621,7 +621,7 @@ const
 textContent
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (

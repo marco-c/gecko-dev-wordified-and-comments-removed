@@ -901,12 +901,14 @@ formDefaults
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 formDefaults
+]
 async
 function
 (

@@ -88,7 +88,7 @@ browser
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -210,7 +210,7 @@ await
 pageShownPromise
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (

@@ -62,12 +62,13 @@ let
 titles
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 (
 )
 =

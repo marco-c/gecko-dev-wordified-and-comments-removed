@@ -402,12 +402,14 @@ url
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 url
+]
 href
 =
 >

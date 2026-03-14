@@ -127,13 +127,14 @@ fetchCount
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
+[
 http
 :
 /
@@ -145,6 +146,7 @@ port
 }
 /
 count
+]
 async
 function
 (

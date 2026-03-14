@@ -328,7 +328,7 @@ found
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (

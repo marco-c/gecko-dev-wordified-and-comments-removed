@@ -510,14 +510,16 @@ message
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
+[
 message
+]
 function
 (
 _message

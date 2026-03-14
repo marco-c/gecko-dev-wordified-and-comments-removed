@@ -495,15 +495,11 @@ SpecialPowers
 spawn
 (
 browser
-[
 args
-]
 (
-[
 selectors
 addrUrl
 ccUrl
-]
 )
 =
 >

@@ -26,7 +26,7 @@ uri
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (

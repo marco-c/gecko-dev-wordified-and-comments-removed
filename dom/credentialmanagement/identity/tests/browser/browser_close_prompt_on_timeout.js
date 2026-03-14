@@ -185,14 +185,15 @@ popupshown
 let
 request
 =
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
-null
+[
+]
 requestCredential
 )
 ;

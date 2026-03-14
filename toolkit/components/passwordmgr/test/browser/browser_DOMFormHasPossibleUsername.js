@@ -865,8 +865,7 @@ spawn
 tab
 .
 linkedBrowser
-[
-]
+null
 async
 (
 )

@@ -223,7 +223,7 @@ let
 imageLoaded
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (

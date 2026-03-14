@@ -341,7 +341,7 @@ TEST_URL
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -350,7 +350,8 @@ win
 gBrowser
 .
 selectedBrowser
-null
+[
+]
 async
 (
 )

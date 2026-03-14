@@ -269,14 +269,16 @@ link
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
+[
 TEST_URI2
+]
 url
 =
 >

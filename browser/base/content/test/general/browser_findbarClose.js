@@ -105,14 +105,15 @@ open
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 newTab
 .
 linkedBrowser
-null
+[
+]
 async
 function
 (

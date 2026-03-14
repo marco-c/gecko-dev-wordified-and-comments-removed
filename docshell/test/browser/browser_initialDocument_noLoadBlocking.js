@@ -207,7 +207,7 @@ url
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (

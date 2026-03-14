@@ -3275,9 +3275,7 @@ ContentTask
 spawn
 (
 browser
-[
 passwordInputSelector
-]
 async
 function
 waitForInput
@@ -3992,9 +3990,7 @@ ContentTask
 spawn
 (
 browser
-[
 selector
-]
 function
 (
 sel

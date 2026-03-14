@@ -26,13 +26,13 @@ let
 result
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-{
-}
+[
+]
 async
 function
 (

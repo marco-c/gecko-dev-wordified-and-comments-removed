@@ -656,7 +656,7 @@ expected
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (

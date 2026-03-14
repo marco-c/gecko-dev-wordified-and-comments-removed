@@ -121,7 +121,7 @@ true
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -256,7 +256,7 @@ tab2
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (

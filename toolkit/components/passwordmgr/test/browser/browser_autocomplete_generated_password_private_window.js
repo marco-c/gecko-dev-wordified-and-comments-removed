@@ -249,7 +249,7 @@ ownerGlobal
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (

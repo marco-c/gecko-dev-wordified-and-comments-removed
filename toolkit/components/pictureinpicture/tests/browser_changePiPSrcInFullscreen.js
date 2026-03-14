@@ -45,14 +45,16 @@ src
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 src
 }
+]
 async
 (
 {

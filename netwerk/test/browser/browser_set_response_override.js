@@ -263,7 +263,7 @@ browser
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -707,7 +707,7 @@ browser
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -1013,7 +1013,7 @@ browser
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (

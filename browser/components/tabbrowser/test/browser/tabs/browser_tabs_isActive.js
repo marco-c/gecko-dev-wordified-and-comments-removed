@@ -91,14 +91,15 @@ aTab
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 aTab
 .
 linkedBrowser
-null
+[
+]
 (
 )
 =
