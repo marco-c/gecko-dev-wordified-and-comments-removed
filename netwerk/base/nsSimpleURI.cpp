@@ -1947,9 +1947,7 @@ NS_EscapeURLSpan
 Ref
 (
 )
-esc_OnlyNonASCII
-|
-esc_Spaces
+esc_Ref
 escapedRef
 )
 )
@@ -2100,9 +2098,7 @@ rv
 NS_EscapeURL
 (
 aRef
-esc_OnlyNonASCII
-|
-esc_Spaces
+esc_Ref
 ref
 fallible
 )
