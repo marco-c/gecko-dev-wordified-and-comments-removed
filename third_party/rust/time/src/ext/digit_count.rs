@@ -48,6 +48,10 @@ DigitCount
 for
 t
 {
+#
+[
+inline
+]
 fn
 num_digits
 (

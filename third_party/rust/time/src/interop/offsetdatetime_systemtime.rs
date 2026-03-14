@@ -47,6 +47,10 @@ Output
 =
 Duration
 ;
+#
+[
+inline
+]
 fn
 sub
 (
@@ -86,6 +90,10 @@ Output
 =
 Duration
 ;
+#
+[
+inline
+]
 fn
 sub
 (
@@ -120,6 +128,10 @@ SystemTime
 for
 OffsetDateTime
 {
+#
+[
+inline
+]
 fn
 eq
 (
@@ -156,6 +168,10 @@ OffsetDateTime
 for
 SystemTime
 {
+#
+[
+inline
+]
 fn
 eq
 (
@@ -192,6 +208,10 @@ SystemTime
 for
 OffsetDateTime
 {
+#
+[
+inline
+]
 fn
 partial_cmp
 (
@@ -233,6 +253,10 @@ OffsetDateTime
 for
 SystemTime
 {
+#
+[
+inline
+]
 fn
 partial_cmp
 (
@@ -273,6 +297,10 @@ SystemTime
 for
 OffsetDateTime
 {
+#
+[
+inline
+]
 fn
 from
 (
@@ -334,6 +362,10 @@ OffsetDateTime
 for
 SystemTime
 {
+#
+[
+inline
+]
 fn
 from
 (

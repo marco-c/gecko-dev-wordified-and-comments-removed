@@ -7,6 +7,10 @@ parsing
 :
 ParsedItem
 ;
+#
+[
+inline
+]
 pub
 (
 crate

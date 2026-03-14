@@ -19,6 +19,10 @@ rs
 mod
 imp
 ;
+#
+[
+inline
+]
 pub
 (
 crate
@@ -39,6 +43,10 @@ refresh_tz_unchecked
 )
 }
 }
+#
+[
+inline
+]
 pub
 (
 crate

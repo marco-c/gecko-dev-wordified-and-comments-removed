@@ -694,7 +694,7 @@ let
 mut
 depth
 :
-u8
+u32
 =
 0
 ;
@@ -743,8 +743,8 @@ version
 =
 1
 )
-{
-if
+&
+&
 let
 Some
 (
@@ -778,7 +778,6 @@ location
 )
 )
 ;
-}
 }
 Some
 (

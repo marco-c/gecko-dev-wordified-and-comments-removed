@@ -52,9 +52,9 @@ proc_macro
 :
 :
 {
-token_stream
 Span
 TokenTree
+token_stream
 }
 ;
 use

@@ -140,14 +140,6 @@ quote_append
 !
 {
 ts
-:
-:
-time
-:
-:
-format_description
-:
-:
 Component
 :
 :

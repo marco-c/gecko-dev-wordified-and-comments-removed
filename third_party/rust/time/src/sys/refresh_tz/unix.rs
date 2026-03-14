@@ -28,6 +28,11 @@ b
 "
 netbsd
 "
+|
+b
+"
+macos
+"
 =
 >
 true
@@ -37,6 +42,10 @@ _
 false
 }
 ;
+#
+[
+inline
+]
 pub
 (
 super
@@ -47,6 +56,7 @@ refresh_tz_unchecked
 (
 )
 {
+unsafe
 extern
 "
 C
@@ -82,6 +92,10 @@ tzset
 }
 ;
 }
+#
+[
+inline
+]
 pub
 (
 super

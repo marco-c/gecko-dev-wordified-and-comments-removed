@@ -1,12 +1,4 @@
 #
-!
-[
-allow
-(
-dead_code
-)
-]
-#
 [
 inline
 (
