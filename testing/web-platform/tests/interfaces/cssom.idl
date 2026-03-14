@@ -326,6 +326,7 @@ dictionary
 CSSStyleSheetInit
 {
 DOMString
+?
 baseURL
 =
 null
