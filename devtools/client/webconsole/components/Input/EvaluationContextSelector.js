@@ -619,9 +619,7 @@ devtools
 /
 content
 /
-shared
-/
-components
+debugger
 /
 images
 /
@@ -678,9 +676,7 @@ devtools
 /
 content
 /
-shared
-/
-components
+debugger
 /
 images
 /
@@ -713,9 +709,7 @@ devtools
 /
 content
 /
-shared
-/
-components
+debugger
 /
 images
 /
@@ -748,11 +742,11 @@ devtools
 /
 content
 /
-shared
-/
-components
+debugger
 /
 images
+/
+sources
 /
 extension
 .
