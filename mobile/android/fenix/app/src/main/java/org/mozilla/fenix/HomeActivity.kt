@@ -2046,7 +2046,7 @@ components
 .
 core
 .
-summarizeFeatureDiscoverySettings
+summarizeFeatureSettings
 browserStore
 =
 components

@@ -209,7 +209,7 @@ summarization
 .
 onboarding
 .
-SummarizeFeatureDiscoverySettings
+SummarizationFeatureDiscoveryConfiguration
 import
 org
 .
@@ -266,7 +266,7 @@ private
 val
 featureDiscoverySettings
 :
-SummarizeFeatureDiscoverySettings
+SummarizationFeatureDiscoveryConfiguration
 browserStore
 :
 BrowserStore
