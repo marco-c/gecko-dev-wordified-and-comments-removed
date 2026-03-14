@@ -20366,7 +20366,13 @@ BSize
 wm
 )
 =
+std
+:
+:
+move
+(
 containBSize
+)
 ;
 }
 if
@@ -20390,7 +20396,13 @@ ISize
 wm
 )
 =
+std
+:
+:
+move
+(
 containISize
+)
 ;
 }
 return

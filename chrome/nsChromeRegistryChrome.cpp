@@ -2590,7 +2590,13 @@ entry
 >
 baseURI
 =
+std
+:
+:
+move
+(
 resolved
+)
 ;
 entry
 -

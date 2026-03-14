@@ -682,7 +682,13 @@ mSelCon
 {
 mSelCon
 =
+std
+:
+:
+move
+(
 selCon
+)
 ;
 }
 RefPtr

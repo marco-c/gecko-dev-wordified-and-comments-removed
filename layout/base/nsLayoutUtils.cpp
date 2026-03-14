@@ -37849,7 +37849,13 @@ mDrawInfo
 .
 mImgContainer
 =
+std
+:
+:
+move
+(
 imgContainer
+)
 ;
 result
 .

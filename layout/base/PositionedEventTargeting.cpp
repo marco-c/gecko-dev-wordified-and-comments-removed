@@ -2382,7 +2382,13 @@ Area
 *
 aExposedRegion
 =
+std
+:
+:
+move
+(
 tmp
+)
 ;
 }
 }

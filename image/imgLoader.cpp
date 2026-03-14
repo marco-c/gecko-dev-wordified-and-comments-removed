@@ -15654,7 +15654,13 @@ rv
 {
 mDestListener
 =
+std
+:
+:
+move
+(
 fromListener
+)
 ;
 }
 }

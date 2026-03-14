@@ -2909,7 +2909,13 @@ foundUs
 {
 appWindow
 =
+std
+:
+:
+move
+(
 nextAppWindow
+)
 ;
 break
 ;

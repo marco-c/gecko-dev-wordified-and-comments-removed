@@ -2375,7 +2375,13 @@ event
 .
 mExitFrom
 =
+std
+:
+:
+move
+(
 exitFrom
+)
 ;
 event
 .

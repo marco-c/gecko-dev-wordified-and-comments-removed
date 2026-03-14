@@ -411,7 +411,13 @@ rv
 ;
 mStreamListener
 =
+std
+:
+:
+move
+(
 listener
+)
 ;
 parser
 -
