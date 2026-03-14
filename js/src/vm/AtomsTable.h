@@ -749,7 +749,7 @@ SweepIterator
 AtomSet
 :
 :
-Enum
+ModIterator
 ;
 AtomsTable
 (
