@@ -381,7 +381,7 @@ feature
 -
 policy
 /
-payment
+feature
 -
 disabled
 -
@@ -401,7 +401,7 @@ feature
 -
 policy
 /
-payment
+feature
 -
 disabled
 -
@@ -475,7 +475,7 @@ feature
 -
 policy
 /
-payment
+feature
 -
 allowed
 -
@@ -541,7 +541,7 @@ feature
 -
 policy
 /
-payment
+feature
 -
 allowed
 -
