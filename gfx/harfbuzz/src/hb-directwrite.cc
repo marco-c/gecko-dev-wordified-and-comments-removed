@@ -1523,9 +1523,6 @@ data
 directwrite
 ;
 }
-#
-ifndef
-HB_DISABLE_DEPRECATED
 IDWriteFont
 *
 hb_directwrite_font_get_dw_font
@@ -1539,7 +1536,5 @@ return
 nullptr
 ;
 }
-#
-endif
 #
 endif

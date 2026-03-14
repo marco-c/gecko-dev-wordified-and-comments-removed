@@ -1355,6 +1355,8 @@ start
 t
 ;
 }
+else
+{
 if
 (
 start
@@ -1362,7 +1364,7 @@ start
 buffer
 -
 >
-merge_out_grapheme_clusters
+merge_out_clusters
 (
 start
 -
@@ -1370,6 +1372,7 @@ start
 end
 )
 ;
+}
 }
 buffer
 -

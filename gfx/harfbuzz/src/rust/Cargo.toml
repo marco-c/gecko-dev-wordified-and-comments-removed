@@ -161,11 +161,6 @@ inherits
 "
 dev
 "
-panic
-=
-"
-abort
-"
 overflow
 -
 checks

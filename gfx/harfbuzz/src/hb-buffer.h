@@ -682,7 +682,7 @@ level
 1u
 <
 <
-HB_BUFFER_CLUSTER_LEVEL_MONOTONE_CHARACTERS
+HB_BUFFER_CLUSTER_LEVEL_MONOTONE_CHARCATERS
 )
 |
 \
@@ -1424,15 +1424,6 @@ void
 user_data
 hb_destroy_func_t
 destroy
-)
-;
-HB_EXTERN
-void
-hb_buffer_changed
-(
-hb_buffer_t
-*
-buffer
 )
 ;
 HB_END_DECLS

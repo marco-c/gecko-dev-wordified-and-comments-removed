@@ -947,7 +947,7 @@ codepoint
 buffer
 -
 >
-merge_grapheme_clusters
+merge_clusters
 (
 i
 -
