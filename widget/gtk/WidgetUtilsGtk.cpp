@@ -2070,6 +2070,16 @@ gdk_wayland_window_get_wl_surface
 gdkWindow
 )
 ;
+if
+(
+!
+surface
+)
+{
+return
+nullptr
+;
+}
 RefPtr
 <
 FocusRequestPromise
