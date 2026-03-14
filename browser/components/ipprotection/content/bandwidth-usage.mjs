@@ -836,7 +836,7 @@ page
 {
 LINKS
 .
-SUPPORT_URL
+SUPPORT_SLUG
 }
 >
 <
