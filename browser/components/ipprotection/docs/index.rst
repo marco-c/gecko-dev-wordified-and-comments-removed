@@ -98,5 +98,6 @@ toctree
 :
 :
 Components
+Constants
 Preferences
 StateMachine
