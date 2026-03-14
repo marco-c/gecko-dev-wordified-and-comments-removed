@@ -17,7 +17,10 @@ api
 units
 :
 :
+{
 LayoutVector2D
+LayoutPoint
+}
 ;
 use
 api
@@ -394,6 +397,10 @@ fb_config
 '
 a
 FrameBuilderConfig
+pub
+prim_origin
+:
+LayoutPoint
 }
 pub
 struct
