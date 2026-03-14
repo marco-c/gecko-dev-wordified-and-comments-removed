@@ -1363,7 +1363,7 @@ AccessibleData
 aAccData
 )
 ;
-void
+bool
 AttachChild
 (
 RemoteAccessible
