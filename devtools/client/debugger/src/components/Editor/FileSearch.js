@@ -378,9 +378,6 @@ this
 context
 .
 shortcuts
-locale
-:
-L10N
 }
 )
 ;
