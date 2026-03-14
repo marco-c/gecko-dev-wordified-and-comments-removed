@@ -583,7 +583,7 @@ Mac
 )
 )
 {
-is
+isfuzzy
 (
 popupRect
 .
@@ -613,6 +613,7 @@ height
 2
 .
 0
+1
 "
 select
 popup
@@ -656,7 +657,7 @@ popupRect
 .
 top
 ;
-is
+isfuzzy
 (
 popupRect
 .
@@ -682,6 +683,7 @@ y
 2
 .
 0
+1
 "
 select
 popup
