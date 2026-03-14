@@ -9,6 +9,13 @@ mozilla
 .
 com
 >
+VOLUME
+/
+builds
+/
+worker
+/
+checkouts
 ADD
 setup
 .
@@ -36,6 +43,13 @@ runme
 sh
 /
 COPY
+-
+-
+chown
+=
+worker
+:
+worker
 scripts
 /
 *
