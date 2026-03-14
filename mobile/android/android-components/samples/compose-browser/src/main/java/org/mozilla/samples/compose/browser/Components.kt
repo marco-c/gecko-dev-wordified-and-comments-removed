@@ -460,7 +460,6 @@ FxSuggestStorage
 (
 context
 remoteSettingsService
-null
 )
 }
 val
