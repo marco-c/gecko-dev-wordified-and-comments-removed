@@ -2228,7 +2228,7 @@ into
 )
 PORT
 )
-http_version
+protocol
 :
 ConnectionAttemptHttpVersions
 :

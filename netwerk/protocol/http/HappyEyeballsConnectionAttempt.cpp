@@ -375,7 +375,7 @@ altsvc
 ;
 altsvc
 .
-http_version
+protocol
 =
 happy_eyeballs
 :
@@ -1044,7 +1044,7 @@ event
 .
 attempt_connection
 .
-http_version
+protocol
 )
 event
 .
@@ -1175,7 +1175,7 @@ event
 .
 attempt_connection
 .
-http_version
+protocol
 =
 =
 happy_eyeballs
@@ -5405,7 +5405,7 @@ protocol
 {
 svcInfo
 .
-alpn_http_versions
+alpn_protocols
 .
 AppendElement
 (
