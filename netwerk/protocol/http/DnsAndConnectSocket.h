@@ -189,10 +189,8 @@ epoch
 override
 ;
 void
-CloseTransports
+OnTimeout
 (
-nsresult
-error
 )
 override
 ;

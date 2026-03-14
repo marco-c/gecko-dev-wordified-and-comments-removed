@@ -262,10 +262,8 @@ epoch
 override
 ;
 void
-CloseTransports
+OnTimeout
 (
-nsresult
-error
 )
 override
 ;
@@ -591,6 +589,9 @@ mDomainLookupStart
 ;
 TimeStamp
 mDomainLookupEnd
+;
+TimeStamp
+mFirstConnectionStart
 ;
 }
 ;

@@ -821,9 +821,8 @@ delta
 sock
 -
 >
-CloseTransports
+OnTimeout
 (
-NS_ERROR_NET_TIMEOUT
 )
 ;
 }
