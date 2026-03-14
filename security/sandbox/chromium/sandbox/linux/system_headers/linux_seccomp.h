@@ -7,6 +7,13 @@ SANDBOX_LINUX_SYSTEM_HEADERS_LINUX_SECCOMP_H_
 #
 include
 <
+signal
+.
+h
+>
+#
+include
+<
 stdint
 .
 h
