@@ -16488,6 +16488,11 @@ dependencies
 =
 [
 "
+gecko
+-
+profiler
+"
+"
 happy
 -
 eyeballs
@@ -16503,6 +16508,9 @@ nserror
 "
 "
 nsstring
+"
+"
+serde
 "
 "
 thin
