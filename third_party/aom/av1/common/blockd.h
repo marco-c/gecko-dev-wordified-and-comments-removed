@@ -1857,6 +1857,10 @@ tmp_obmc_bufs
 2
 ]
 ;
+uint8_t
+*
+tmp_upsample_pred
+;
 }
 MACROBLOCKD
 ;

@@ -128,11 +128,11 @@ DEFAULT_QM_LAST_ALLINTRA
 10
 #
 define
-QM_FIRST_IQ
+QM_FIRST_IQ_SSIMULACRA2
 2
 #
 define
-QM_LAST_IQ
+QM_LAST_IQ_SSIMULACRA2
 10
 #
 define
@@ -363,7 +363,7 @@ last
 static
 inline
 int
-aom_get_qmlevel_luma_iq
+aom_get_qmlevel_luma_ssimulacra2
 (
 int
 qindex
@@ -411,7 +411,7 @@ if
 qindex
 <
 =
-100
+90
 )
 {
 qm_level
@@ -439,7 +439,7 @@ if
 qindex
 <
 =
-140
+130
 )
 {
 qm_level
@@ -453,7 +453,7 @@ if
 qindex
 <
 =
-160
+140
 )
 {
 qm_level
@@ -467,7 +467,7 @@ if
 qindex
 <
 =
-200
+160
 )
 {
 qm_level
@@ -481,7 +481,7 @@ if
 qindex
 <
 =
-220
+200
 )
 {
 qm_level
@@ -508,7 +508,7 @@ last
 static
 inline
 int
-aom_get_qmlevel_444_chroma_iq
+aom_get_qmlevel_444_chroma
 (
 int
 qindex

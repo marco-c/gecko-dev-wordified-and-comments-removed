@@ -1,6 +1,13 @@
 #
 include
 <
+inttypes
+.
+h
+>
+#
+include
+<
 math
 .
 h

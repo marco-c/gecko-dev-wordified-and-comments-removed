@@ -218,6 +218,7 @@ exclude_list
 twopass_encoder
 simple_decoder
 lightfield_test
+low_complexity_test
 "
 fi
 #

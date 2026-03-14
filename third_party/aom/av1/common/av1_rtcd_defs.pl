@@ -1041,6 +1041,7 @@ qw
 av1_filter_intra_predictor
 sse4_1
 neon
+neon_i8mm
 /
 ;
 #
@@ -7688,6 +7689,7 @@ avx2
 neon
 neon_dotprod
 neon_i8mm
+rvv
 /
 ;
 specialize
@@ -7697,6 +7699,7 @@ av1_dist_wtd_convolve_2d_copy
 sse2
 avx2
 neon
+rvv
 /
 ;
 specialize
@@ -7708,6 +7711,7 @@ avx2
 neon
 neon_dotprod
 neon_i8mm
+rvv
 /
 ;
 specialize
@@ -7717,6 +7721,9 @@ av1_dist_wtd_convolve_y
 sse2
 avx2
 neon
+neon_dotprod
+neon_i8mm
+rvv
 /
 ;
 if
@@ -7741,6 +7748,7 @@ sse4_1
 avx2
 neon
 sve2
+rvv
 /
 ;
 specialize
@@ -7751,6 +7759,7 @@ sse4_1
 avx2
 neon
 sve2
+rvv
 /
 ;
 specialize
@@ -7761,6 +7770,7 @@ sse4_1
 avx2
 neon
 sve2
+rvv
 /
 ;
 specialize
@@ -7770,6 +7780,7 @@ av1_highbd_dist_wtd_convolve_2d_copy
 sse4_1
 avx2
 neon
+rvv
 /
 ;
 specialize

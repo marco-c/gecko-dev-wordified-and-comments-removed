@@ -8,13 +8,6 @@ h
 #
 include
 <
-inttypes
-.
-h
->
-#
-include
-<
 limits
 .
 h
@@ -46,6 +39,11 @@ include
 string
 .
 h
+>
+#
+include
+<
+cinttypes
 >
 #
 include

@@ -9468,7 +9468,7 @@ sinpi_arr
 bit
 )
 ;
-int32_t
+int64_t
 s0
 s1
 s2
@@ -9478,7 +9478,7 @@ s5
 s6
 s7
 ;
-int32_t
+int64_t
 x0
 =
 input
@@ -9486,7 +9486,7 @@ input
 0
 ]
 ;
-int32_t
+int64_t
 x1
 =
 input
@@ -9494,7 +9494,7 @@ input
 1
 ]
 ;
-int32_t
+int64_t
 x2
 =
 input
@@ -9502,7 +9502,7 @@ input
 2
 ]
 ;
-int32_t
+int64_t
 x3
 =
 input
@@ -9570,7 +9570,7 @@ sinpi
 ;
 s0
 =
-range_check_value
+range_check_value64
 (
 sinpi
 [
@@ -9588,7 +9588,7 @@ bit
 ;
 s1
 =
-range_check_value
+range_check_value64
 (
 sinpi
 [
@@ -9606,7 +9606,7 @@ bit
 ;
 s2
 =
-range_check_value
+range_check_value64
 (
 sinpi
 [
@@ -9624,7 +9624,7 @@ bit
 ;
 s3
 =
-range_check_value
+range_check_value64
 (
 sinpi
 [
@@ -9642,7 +9642,7 @@ bit
 ;
 s4
 =
-range_check_value
+range_check_value64
 (
 sinpi
 [
@@ -9660,7 +9660,7 @@ bit
 ;
 s5
 =
-range_check_value
+range_check_value64
 (
 sinpi
 [
@@ -9678,7 +9678,7 @@ bit
 ;
 s6
 =
-range_check_value
+range_check_value64
 (
 sinpi
 [
@@ -9696,7 +9696,7 @@ bit
 ;
 s7
 =
-range_check_value
+range_check_value64
 (
 (
 x0
@@ -9713,7 +9713,7 @@ stage_range
 ;
 s0
 =
-range_check_value
+range_check_value64
 (
 s0
 +
@@ -9728,7 +9728,7 @@ bit
 ;
 s1
 =
-range_check_value
+range_check_value64
 (
 s1
 -
@@ -9743,7 +9743,7 @@ bit
 ;
 s3
 =
-range_check_value
+range_check_value64
 (
 s2
 stage_range
@@ -9756,7 +9756,7 @@ bit
 ;
 s2
 =
-range_check_value
+range_check_value64
 (
 sinpi
 [
@@ -9774,7 +9774,7 @@ bit
 ;
 s0
 =
-range_check_value
+range_check_value64
 (
 s0
 +
@@ -9789,7 +9789,7 @@ bit
 ;
 s1
 =
-range_check_value
+range_check_value64
 (
 s1
 -
@@ -9804,7 +9804,7 @@ bit
 ;
 x0
 =
-range_check_value
+range_check_value64
 (
 s0
 +
@@ -9819,7 +9819,7 @@ bit
 ;
 x1
 =
-range_check_value
+range_check_value64
 (
 s1
 +
@@ -9834,7 +9834,7 @@ bit
 ;
 x2
 =
-range_check_value
+range_check_value64
 (
 s2
 stage_range
@@ -9847,7 +9847,7 @@ bit
 ;
 x3
 =
-range_check_value
+range_check_value64
 (
 s0
 +
@@ -9862,7 +9862,7 @@ bit
 ;
 x3
 =
-range_check_value
+range_check_value64
 (
 x3
 -

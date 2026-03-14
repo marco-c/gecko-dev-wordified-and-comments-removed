@@ -2465,6 +2465,7 @@ filter
 0
 ]
 |
+|
 filter
 [
 7
@@ -2482,6 +2483,7 @@ filter
 1
 ]
 |
+|
 filter
 [
 6
@@ -2492,15 +2494,13 @@ return
 6
 ;
 }
-#
-if
-CONFIG_SVT_AV1
 if
 (
 filter
 [
 2
 ]
+|
 |
 filter
 [
@@ -2515,13 +2515,6 @@ return
 return
 2
 ;
-#
-else
-return
-4
-;
-#
-endif
 }
 #
 ifdef

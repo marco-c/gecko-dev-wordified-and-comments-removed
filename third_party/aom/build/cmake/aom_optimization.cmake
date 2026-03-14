@@ -1730,7 +1730,7 @@ COMMAND
 CMAKE_ASM_NASM_COMPILER
 }
 -
-hf
+hO
 OUTPUT_VARIABLE
 nasm_helptext
 )
@@ -1764,6 +1764,17 @@ supported
 )
 endif
 (
+)
+execute_process
+(
+COMMAND
+{
+CMAKE_ASM_NASM_COMPILER
+}
+-
+hf
+OUTPUT_VARIABLE
+nasm_helptext
 )
 if
 (

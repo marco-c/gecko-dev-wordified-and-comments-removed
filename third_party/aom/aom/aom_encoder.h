@@ -458,6 +458,15 @@ AOM_EFLAG_CALCULATE_PSNR
 <
 1
 )
+#
+define
+AOM_EFLAG_FREEZE_INTERNAL_STATE
+(
+1
+<
+<
+2
+)
 typedef
 struct
 aom_codec_enc_cfg

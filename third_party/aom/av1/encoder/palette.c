@@ -1487,9 +1487,6 @@ PICK_MODE_CONTEXT
 ctx
 uint8_t
 *
-blk_skip
-uint8_t
-*
 tx_type_map
 int
 *
@@ -2030,34 +2027,6 @@ best_mbmi
 *
 mbmi
 ;
-memcpy
-(
-blk_skip
-x
--
->
-txfm_search_info
-.
-blk_skip
-sizeof
-(
-x
--
->
-txfm_search_info
-.
-blk_skip
-[
-0
-]
-)
-*
-ctx
--
->
-num_4x4_blk
-)
-;
 av1_copy_array
 (
 tx_type_map
@@ -2235,9 +2204,6 @@ PICK_MODE_CONTEXT
 ctx
 uint8_t
 *
-best_blk_skip
-uint8_t
-*
 tx_type_map
 int
 discount_color_cost
@@ -2343,7 +2309,6 @@ distortion
 skippable
 beat_best_rd
 ctx
-best_blk_skip
 tx_type_map
 &
 beat_best_palette_rd
@@ -2481,9 +2446,6 @@ beat_best_rd
 PICK_MODE_CONTEXT
 *
 ctx
-uint8_t
-*
-best_blk_skip
 uint8_t
 *
 tx_type_map
@@ -2640,7 +2602,6 @@ distortion
 skippable
 beat_best_rd
 ctx
-best_blk_skip
 tx_type_map
 &
 beat_best_palette_rd
@@ -3440,9 +3401,6 @@ PICK_MODE_CONTEXT
 ctx
 uint8_t
 *
-best_blk_skip
-uint8_t
-*
 tx_type_map
 )
 {
@@ -4078,7 +4036,6 @@ distortion
 skippable
 beat_best_rd
 ctx
-best_blk_skip
 tx_type_map
 discount_color_cost
 )
@@ -4136,7 +4093,6 @@ distortion
 skippable
 beat_best_rd
 ctx
-best_blk_skip
 tx_type_map
 discount_color_cost
 )
@@ -4175,7 +4131,6 @@ distortion
 skippable
 beat_best_rd
 ctx
-best_blk_skip
 tx_type_map
 color_map
 rows
@@ -4238,7 +4193,6 @@ distortion
 skippable
 beat_best_rd
 ctx
-best_blk_skip
 tx_type_map
 color_map
 rows
@@ -4297,7 +4251,6 @@ distortion
 skippable
 beat_best_rd
 ctx
-best_blk_skip
 tx_type_map
 discount_color_cost
 )
@@ -4336,7 +4289,6 @@ distortion
 skippable
 beat_best_rd
 ctx
-best_blk_skip
 tx_type_map
 discount_color_cost
 )
@@ -4394,7 +4346,6 @@ distortion
 skippable
 beat_best_rd
 ctx
-best_blk_skip
 tx_type_map
 NULL
 NULL
@@ -4437,7 +4388,6 @@ distortion
 skippable
 beat_best_rd
 ctx
-best_blk_skip
 tx_type_map
 color_map
 rows
@@ -4481,7 +4431,6 @@ distortion
 skippable
 beat_best_rd
 ctx
-best_blk_skip
 tx_type_map
 color_map
 rows

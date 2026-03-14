@@ -115,9 +115,9 @@ kPsnrFluctuation
 ]
 =
 {
-2
+8
 .
-5
+0
 0
 .
 3

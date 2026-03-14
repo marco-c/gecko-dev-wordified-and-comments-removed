@@ -2955,8 +2955,12 @@ if
 is_stat_consumption_stage
 &
 &
-!
+(
 use_fixed_qp_offsets
+=
+=
+0
+)
 &
 &
 (

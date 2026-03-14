@@ -57,6 +57,9 @@ struct
 AV1_COMP
 *
 cpi
+const
+int
+is_final_pass
 )
 ;
 int

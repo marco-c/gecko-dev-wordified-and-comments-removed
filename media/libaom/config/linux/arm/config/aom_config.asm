@@ -4,7 +4,7 @@ Copyright
 (
 c
 )
-2025
+2026
 Alliance
 for
 Open
@@ -420,6 +420,10 @@ HAVE_NEON_DOTPROD
 .
 equ
 HAVE_NEON_I8MM
+0
+.
+equ
+HAVE_PTHREAD_SETNAME_NP
 0
 .
 equ

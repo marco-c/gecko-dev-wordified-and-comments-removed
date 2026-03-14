@@ -12932,7 +12932,6 @@ qw
 aom_variance4x4
 sse2
 neon
-neon_dotprod
 /
 ;
 specialize
@@ -12941,6 +12940,7 @@ qw
 aom_sub_pixel_variance128x128
 avx2
 neon
+neon_dotprod
 ssse3
 /
 ;
@@ -12950,6 +12950,7 @@ qw
 aom_sub_pixel_variance128x64
 avx2
 neon
+neon_dotprod
 ssse3
 /
 ;
@@ -12959,6 +12960,7 @@ qw
 aom_sub_pixel_variance64x128
 avx2
 neon
+neon_dotprod
 ssse3
 /
 ;
@@ -12968,6 +12970,7 @@ qw
 aom_sub_pixel_variance64x64
 avx2
 neon
+neon_dotprod
 ssse3
 /
 ;
@@ -12977,6 +12980,7 @@ qw
 aom_sub_pixel_variance64x32
 avx2
 neon
+neon_dotprod
 ssse3
 /
 ;
@@ -12986,6 +12990,7 @@ qw
 aom_sub_pixel_variance32x64
 avx2
 neon
+neon_dotprod
 ssse3
 /
 ;
@@ -12995,6 +13000,7 @@ qw
 aom_sub_pixel_variance32x32
 avx2
 neon
+neon_dotprod
 ssse3
 /
 ;
@@ -13004,6 +13010,7 @@ qw
 aom_sub_pixel_variance32x16
 avx2
 neon
+neon_dotprod
 ssse3
 /
 ;
@@ -13013,6 +13020,7 @@ qw
 aom_sub_pixel_variance16x32
 avx2
 neon
+neon_dotprod
 ssse3
 /
 ;
@@ -13022,6 +13030,7 @@ qw
 aom_sub_pixel_variance16x16
 avx2
 neon
+neon_dotprod
 ssse3
 /
 ;
@@ -13031,6 +13040,7 @@ qw
 aom_sub_pixel_variance16x8
 avx2
 neon
+neon_dotprod
 ssse3
 /
 ;
@@ -13039,6 +13049,7 @@ qw
 /
 aom_sub_pixel_variance8x16
 neon
+neon_dotprod
 ssse3
 /
 ;
@@ -13047,6 +13058,7 @@ qw
 /
 aom_sub_pixel_variance8x8
 neon
+neon_dotprod
 ssse3
 /
 ;
@@ -13055,6 +13067,7 @@ qw
 /
 aom_sub_pixel_variance8x4
 neon
+neon_dotprod
 ssse3
 /
 ;
@@ -13063,6 +13076,7 @@ qw
 /
 aom_sub_pixel_variance4x8
 neon
+neon_dotprod
 ssse3
 /
 ;
@@ -13287,6 +13301,7 @@ qw
 /
 aom_sub_pixel_variance4x16
 neon
+neon_dotprod
 ssse3
 /
 ;
@@ -13295,6 +13310,7 @@ qw
 /
 aom_sub_pixel_variance16x4
 neon
+neon_dotprod
 avx2
 ssse3
 /
@@ -13304,6 +13320,7 @@ qw
 /
 aom_sub_pixel_variance8x32
 neon
+neon_dotprod
 ssse3
 /
 ;
@@ -13312,6 +13329,7 @@ qw
 /
 aom_sub_pixel_variance32x8
 neon
+neon_dotprod
 ssse3
 /
 ;
@@ -13320,6 +13338,7 @@ qw
 /
 aom_sub_pixel_variance16x64
 neon
+neon_dotprod
 avx2
 ssse3
 /
@@ -13329,6 +13348,7 @@ qw
 /
 aom_sub_pixel_variance64x16
 neon
+neon_dotprod
 ssse3
 /
 ;

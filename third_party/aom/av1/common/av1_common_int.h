@@ -548,6 +548,12 @@ MAX_MODE_LF_DELTAS
 FRAME_CONTEXT
 frame_context
 ;
+int
+filter_level
+[
+2
+]
+;
 }
 RefCntBuffer
 ;
@@ -1149,6 +1155,9 @@ CommonQuantParams
 {
 int
 base_qindex
+;
+int
+sharpness
 ;
 int
 y_dc_delta_q

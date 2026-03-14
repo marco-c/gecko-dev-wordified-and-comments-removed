@@ -6260,6 +6260,13 @@ ep
 )
 ;
 }
+if
+(
+enable_sgr_ep_pruning
+<
+2
+)
+{
 int
 bestep_ref
 =
@@ -6398,6 +6405,7 @@ bestep
 ep
 )
 ;
+}
 }
 }
 SgrprojInfo

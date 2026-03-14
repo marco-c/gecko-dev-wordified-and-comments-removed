@@ -304,6 +304,16 @@ SDR_Health_rtd0_720p
 .
 y4m
 "
+"
+SDR_Dance_ldsn_1080p
+.
+y4m
+"
+"
+SDR_Sports_6mug_608p_30fps_90f
+.
+yuv
+"
 )
 if
 (
@@ -8248,7 +8258,7 @@ ivf
 .
 res
 .
-4
+5
 "
 "
 invalid

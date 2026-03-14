@@ -144,6 +144,9 @@ double
 sr_coded_error
 ;
 double
+lt_coded_error
+;
+double
 pcnt_inter
 ;
 double
@@ -508,6 +511,12 @@ MAX_STATIC_GF_GROUP_LENGTH
 bool
 is_sframe_due
 ;
+int
+use_ext_ref_frame_map
+[
+MAX_STATIC_GF_GROUP_LENGTH
+]
+;
 }
 GF_GROUP
 ;
@@ -659,6 +668,9 @@ coded_error
 ;
 int64_t
 sr_coded_error
+;
+int64_t
+lt_coded_error
 ;
 int
 mv_count

@@ -196,7 +196,7 @@ fuzz
 10389
 .
 ivf
-f4ce175af1d871ed1603c8936f6b78e968f93c85
+ddd9f38cd81a88e53ef71879adbaa40bac02e634
 *
 invalid
 -
@@ -210,7 +210,7 @@ ivf
 .
 res
 .
-4
+5
 11df8e9a068669c678097d460b63609d3da73828
 *
 invalid
@@ -8547,3 +8547,13 @@ y4m
 SDR_Health_rtd0_720p
 .
 y4m
+514c8334a883f1b156433c3e56f42a0330231ace
+*
+SDR_Dance_ldsn_1080p
+.
+y4m
+e4c7ad520f69dc09227eb999540ff518964d30f6
+*
+SDR_Sports_6mug_608p_30fps_90f
+.
+yuv

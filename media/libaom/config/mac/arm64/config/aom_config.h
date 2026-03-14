@@ -310,6 +310,10 @@ HAVE_NEON_I8MM
 1
 #
 define
+HAVE_PTHREAD_SETNAME_NP
+0
+#
+define
 HAVE_RVV
 0
 #

@@ -689,6 +689,8 @@ int
 skip_cdef
 int
 is_screen_content
+bool
+avoid_uv_cdef
 )
 ;
 #

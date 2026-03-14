@@ -1292,7 +1292,7 @@ quant_params
 base_qindex
 <
 =
-120
+112
 )
 {
 max_lf_sharpness
@@ -2615,18 +2615,6 @@ pyramid_level
 int
 filter_threshold
 ;
-if
-(
-pyramid_level
->
-=
-5
-)
-filter_threshold
-=
-32
-;
-else
 if
 (
 pyramid_level

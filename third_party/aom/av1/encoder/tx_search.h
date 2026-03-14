@@ -333,8 +333,6 @@ TX_SIZE
 tx_size
 FAST_TX_SEARCH_MODE
 ftxs_mode
-int
-skip_trellis
 )
 ;
 int

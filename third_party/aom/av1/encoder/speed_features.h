@@ -1600,7 +1600,7 @@ int
 disable_second_mv
 ;
 int
-skip_fullpel_search_using_startmv
+skip_fullpel_search_using_startmv_refmv
 ;
 WARP_SEARCH_METHOD
 warp_search_method
@@ -1769,6 +1769,9 @@ skip_arf_compound
 ;
 int
 bias_warp_mode_rd_scale_pct
+;
+float
+bias_obmc_mode_rd_scale_pct
 ;
 }
 INTER_MODE_SPEED_FEATURES
@@ -1992,6 +1995,9 @@ skip_loop_filter_using_filt_error
 CDEF_PICK_METHOD
 cdef_pick_method
 ;
+bool
+zero_low_cdef_strengths
+;
 int
 dual_sgr_penalty_level
 ;
@@ -2118,7 +2124,7 @@ int
 rc_adjust_keyframe
 ;
 int
-rc_compute_spatial_var_sc
+rc_compute_spatial_var_sc_kf
 ;
 int
 prefer_large_partition_blocks

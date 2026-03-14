@@ -1264,6 +1264,14 @@ mode_
 =
 =
 kRealTime
+&
+&
+cfg_
+.
+g_lag_in_frames
+=
+=
+0
 )
 {
 encoder
