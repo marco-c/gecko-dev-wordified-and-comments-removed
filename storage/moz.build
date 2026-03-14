@@ -313,6 +313,11 @@ ReadOnlyNoLockVFS
 cpp
 "
 "
+SQLCollations
+.
+cpp
+"
+"
 StorageBaseStatementInternal
 .
 cpp

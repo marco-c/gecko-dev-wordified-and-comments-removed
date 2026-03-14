@@ -1793,7 +1793,6 @@ collect
 )
 }
 pub
-const
 fn
 all
 (

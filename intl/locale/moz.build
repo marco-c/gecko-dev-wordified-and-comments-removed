@@ -146,11 +146,6 @@ intl
 =
 [
 "
-AppCollator
-.
-h
-"
-"
 AppDateTimeFormat
 .
 h
@@ -185,11 +180,6 @@ UNIFIED_SOURCES
 +
 =
 [
-"
-AppCollator
-.
-cpp
-"
 "
 AppDateTimeFormat
 .

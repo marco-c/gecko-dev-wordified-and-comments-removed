@@ -139,7 +139,7 @@ constexpr
 size_t
 EstimatedMemoryUse
 =
-80
+1128
 ;
 bool
 isLocaleResolved

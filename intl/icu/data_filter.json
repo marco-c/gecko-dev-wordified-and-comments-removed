@@ -56,12 +56,14 @@ coll_tree
 :
 {
 "
-filterType
+excludelist
 "
 :
+[
 "
-exclude
+en_US_POSIX
 "
+]
 }
 "
 confusables

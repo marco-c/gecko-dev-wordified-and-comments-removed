@@ -127,7 +127,7 @@ nsresult
 init
 (
 const
-nsACString
+nsString
 &
 aLanguage
 )

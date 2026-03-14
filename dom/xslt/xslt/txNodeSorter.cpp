@@ -326,10 +326,7 @@ text
 )
 )
 {
-nsAutoCStringN
-<
-6
->
+nsAutoString
 lang
 ;
 if
@@ -337,12 +334,6 @@ if
 aLangExpr
 )
 {
-nsAutoStringN
-<
-6
->
-utf16lang
-;
 rv
 =
 aLangExpr
@@ -351,7 +342,7 @@ aLangExpr
 evaluateToString
 (
 aContext
-utf16lang
+lang
 )
 ;
 NS_ENSURE_SUCCESS
@@ -391,9 +382,7 @@ JSLocale
 )
 )
 {
-lang
-.
-Assign
+CopyUTF8toUTF16
 (
 nsRFPService
 :
@@ -401,6 +390,7 @@ nsRFPService
 GetSpoofedJSLocale
 (
 )
+lang
 )
 ;
 }
