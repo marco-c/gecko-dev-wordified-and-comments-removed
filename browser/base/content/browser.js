@@ -9461,6 +9461,17 @@ updateImportCommandEnabledState
 (
 )
 ;
+if
+(
+typeof
+gBrowser
+!
+=
+"
+undefined
+"
+)
+{
 this
 .
 updateTabCloseCountState
@@ -9486,6 +9497,7 @@ updateShareURLMenuItem
 gBrowser
 .
 selectedBrowser
+null
 document
 .
 getElementById
@@ -9496,6 +9508,7 @@ menu_savePage
 )
 )
 ;
+}
 }
 PrintUtils
 .
