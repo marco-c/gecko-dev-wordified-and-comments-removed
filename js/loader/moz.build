@@ -32,6 +32,11 @@ ModuleLoadRequest
 h
 "
 "
+ResolvedModuleSet
+.
+h
+"
+"
 ResolveResult
 .
 h
@@ -48,6 +53,11 @@ h
 "
 "
 ScriptLoadRequest
+.
+h
+"
+"
+ScriptLoadRequestList
 .
 h
 "
@@ -83,6 +93,11 @@ cpp
 "
 "
 ScriptLoadRequest
+.
+cpp
+"
+"
+ScriptLoadRequestList
 .
 cpp
 "
