@@ -343,7 +343,7 @@ fxrelay
 .
 eligibility
 .
-Eligible
+DefaultFxaAccountManagerDelegate
 import
 mozilla
 .
@@ -355,7 +355,7 @@ fxrelay
 .
 eligibility
 .
-FxaAccountManagerDelegateDefault
+Eligible
 import
 mozilla
 .
@@ -612,7 +612,7 @@ RelayFeature
 (
 accountManager
 =
-FxaAccountManagerDelegateDefault
+DefaultFxaAccountManagerDelegate
 (
 accountManager
 )
