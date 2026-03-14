@@ -9772,6 +9772,11 @@ addTabSplitView
 currentTab
 linkTab
 ]
+{
+insertBefore
+:
+currentTab
+}
 )
 ;
 win
