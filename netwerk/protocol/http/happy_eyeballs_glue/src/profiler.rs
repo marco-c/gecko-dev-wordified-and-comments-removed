@@ -1363,7 +1363,7 @@ format
 "
 endpoint
 .
-protocol
+http_version
 )
 has_ech
 :
