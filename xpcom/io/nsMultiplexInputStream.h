@@ -276,7 +276,13 @@ rv
 ;
 mBufferedStream
 =
+std
+:
+:
+move
+(
 bufferedStream
+)
 ;
 }
 mAsyncStream
