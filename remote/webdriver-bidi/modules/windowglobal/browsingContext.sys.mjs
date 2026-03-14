@@ -3380,8 +3380,6 @@ messageHandler
 window
 .
 document
-.
-documentElement
 )
 ;
 }
