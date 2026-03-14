@@ -6768,6 +6768,16 @@ EditorDOMPoint
 aPointToInsert
 )
 ;
+enum
+class
+PreservePreformattedLineBreak
+:
+bool
+{
+No
+Yes
+}
+;
 [
 [
 nodiscard
@@ -6781,6 +6791,10 @@ const
 EditorDOMPoint
 &
 aNextOrAfterModifiedPoint
+PreservePreformattedLineBreak
+aPreservePreformattedLineBreak
+PaddingForEmptyBlock
+aPaddingForEmptyBlock
 const
 Element
 &

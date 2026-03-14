@@ -4936,6 +4936,14 @@ mHTMLEditor
 EnsureNoFollowingUnnecessaryLineBreak
 (
 afterLastInsertedContent
+PreservePreformattedLineBreak
+:
+:
+Yes
+PaddingForEmptyBlock
+:
+:
+Significant
 mEditingHost
 )
 ;
