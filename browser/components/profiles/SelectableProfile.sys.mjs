@@ -2963,7 +2963,6 @@ saveUpdatesToDB
 (
 )
 {
-return
 SelectableProfileService
 .
 updateProfile
