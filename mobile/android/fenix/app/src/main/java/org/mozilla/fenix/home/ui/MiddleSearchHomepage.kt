@@ -1019,6 +1019,9 @@ true
 showCollections
 =
 true
+showPrivacyReport
+=
+true
 headerState
 =
 HeaderState

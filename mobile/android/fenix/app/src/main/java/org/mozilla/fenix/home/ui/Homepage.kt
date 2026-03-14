@@ -1275,6 +1275,11 @@ onTopSitesItemBound
 onTopSitesItemBound
 )
 }
+if
+(
+showPrivacyReport
+)
+{
 TrackersBlockedCard
 (
 trackersBlockedCount
@@ -1293,6 +1298,7 @@ top
 dp
 )
 )
+}
 MaybeAddSetupChecklist
 (
 setupChecklistState
@@ -2544,6 +2550,9 @@ true
 showCollections
 =
 true
+showPrivacyReport
+=
+true
 headerState
 =
 HeaderState
@@ -2729,6 +2738,9 @@ showPocketStories
 =
 true
 showCollections
+=
+true
+showPrivacyReport
 =
 true
 headerState
@@ -2918,6 +2930,9 @@ true
 showCollections
 =
 true
+showPrivacyReport
+=
+true
 headerState
 =
 HeaderState
@@ -3105,6 +3120,11 @@ true
 showCollections
 =
 false
+showPrivacyReport
+=
+true
+headerState
+=
 HeaderState
 (
 showHeader
