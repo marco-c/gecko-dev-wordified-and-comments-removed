@@ -2379,6 +2379,20 @@ DUCONFIG_NO_MF2
 +
 "
 -
+DUCONFIG_NO_NORMALIZATION
+=
+1
+"
+            
++
+"
+-
+DUCONFIG_NO_COLLATION
+"
+            
++
+"
+-
 DU_CHARSET_IS_UTF8
 "
         

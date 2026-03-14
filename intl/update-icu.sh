@@ -744,6 +744,14 @@ root
 .
 diff
 \
+skip
+-
+norm
+-
+coll
+.
+diff
+\
 ;
 do
 echo
