@@ -105,6 +105,8 @@ ExpD
 LogD
 PowD
 ATan2D
+AddSubI128
+MulI64Wide
 ArrayMemMove
 ArrayRefsMove
 HandleDebugTrap
@@ -401,6 +403,16 @@ extern
 const
 SymbolicAddressSignature
 SASigATan2D
+;
+extern
+const
+SymbolicAddressSignature
+SASigAddSubI128
+;
+extern
+const
+SymbolicAddressSignature
+SASigMulI64Wide
 ;
 extern
 const

@@ -1394,6 +1394,16 @@ args
 [
 General
 Int32
+]
+-
+ret
+:
+Void
+args
+:
+[
+General
+Int32
 General
 Int32
 Int32
