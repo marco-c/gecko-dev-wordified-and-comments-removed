@@ -6031,6 +6031,8 @@ ScriptLoadRequest
 %
 p
 )
+because
+inline
 %
 s
 .
@@ -6208,6 +6210,11 @@ ScriptLoadRequest
 %
 p
 )
+because
+cache
+is
+not
+found
 %
 s
 .
@@ -6499,6 +6506,10 @@ ScriptLoadRequest
 %
 p
 )
+because
+content
+policy
+violation
 %
 s
 .
