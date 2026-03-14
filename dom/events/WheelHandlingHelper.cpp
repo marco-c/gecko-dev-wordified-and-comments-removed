@@ -799,16 +799,6 @@ sScrollTargetFrame
 =
 aScrollTargetFrame
 ;
-if
-(
-StaticPrefs
-:
-:
-dom_event_wheel_event_groups_enabled
-(
-)
-)
-{
 WTXN_LOG
 (
 "
@@ -859,7 +849,6 @@ mFlags
 .
 mHandledByAPZ
 ;
-}
 sScrollSeriesCounter
 =
 0
