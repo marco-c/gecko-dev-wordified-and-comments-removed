@@ -2229,9 +2229,13 @@ aAllocator
 )
 ;
 static
+Result
+<
 already_AddRefed
 <
 VideoData
+>
+MediaResult
 >
 CreateAndCopyData
 (
@@ -2955,6 +2959,7 @@ uint8_t
 >
 (
 )
+const
 {
 return
 Span
