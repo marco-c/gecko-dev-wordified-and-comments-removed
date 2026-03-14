@@ -96,11 +96,6 @@ PContent
 parent
 :
 async
-prompt
-(
-)
-;
-async
 Destroy
 (
 )
