@@ -615,6 +615,16 @@ isPreload
 endif
 extern
 JS_PUBLIC_API
+void
+ResetPreloadedModule
+(
+JSObject
+*
+module
+)
+;
+extern
+JS_PUBLIC_API
 bool
 ModuleLink
 (

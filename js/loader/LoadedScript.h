@@ -2953,6 +2953,11 @@ mHadImportMap
 ;
 }
 void
+ResetPreload
+(
+)
+;
+void
 Shutdown
 (
 )
