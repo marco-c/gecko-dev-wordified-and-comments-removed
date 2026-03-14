@@ -3249,7 +3249,7 @@ selectedBrowser
 ;
 node
 .
-contextBrowserToShare
+browserToShare
 =
 Cu
 .
@@ -3257,12 +3257,6 @@ getWeakReference
 (
 browser
 )
-;
-node
-.
-browsersToShare
-=
-null
 ;
 lazy
 .
@@ -3311,7 +3305,7 @@ selectedBrowser
 ;
 node
 .
-contextBrowserToShare
+browserToShare
 =
 Cu
 .
@@ -3319,12 +3313,6 @@ getWeakReference
 (
 browser
 )
-;
-node
-.
-browsersToShare
-=
-null
 ;
 if
 (
