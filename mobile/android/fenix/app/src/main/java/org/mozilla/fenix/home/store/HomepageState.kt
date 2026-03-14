@@ -1675,6 +1675,11 @@ showPrivacyReport
 =
 settings
 .
+showPrivacyReportSectionToggle
+&
+&
+settings
+.
 showPrivacyReportFeature
 headerState
 =

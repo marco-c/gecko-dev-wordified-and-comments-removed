@@ -522,6 +522,11 @@ pref_key_privacy_report
 .
 apply
 {
+isVisible
+=
+fenixSettings
+.
+showPrivacyReportSectionToggle
 isChecked
 =
 fenixSettings
