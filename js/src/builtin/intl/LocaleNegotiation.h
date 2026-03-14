@@ -175,7 +175,7 @@ result
 ;
 ArrayObject
 *
-LocalesListToArray
+CanonicalizeLocaleList
 (
 JSContext
 *
@@ -185,7 +185,10 @@ JS
 :
 Handle
 <
-LocalesList
+JS
+:
+:
+Value
 >
 locales
 )

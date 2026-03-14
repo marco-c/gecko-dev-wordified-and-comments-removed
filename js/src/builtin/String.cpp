@@ -5649,15 +5649,9 @@ emptyString
 )
 ;
 }
-Rooted
-<
 JSLinearString
 *
->
 requestedLocale
-(
-cx
-)
 ;
 if
 (
