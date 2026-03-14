@@ -147,6 +147,9 @@ aIsPrivate
 FullHashResponseMap
 mSimulatedCache
 ;
+FullHashResponseMap
+mNegativeCache
+;
 static
 StaticRefPtr
 <
