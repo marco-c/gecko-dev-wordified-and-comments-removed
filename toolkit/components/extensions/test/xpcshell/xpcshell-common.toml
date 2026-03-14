@@ -2081,6 +2081,13 @@ js
 ]
 [
 "
+test_ext_import_attributes
+.
+js
+"
+]
+[
+"
 test_ext_incognito
 .
 js
