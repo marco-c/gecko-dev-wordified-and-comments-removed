@@ -152,12 +152,6 @@ UrgentStartQueueLength
 )
 )
 ;
-MOZ_ASSERT
-(
-!
-mDoNotDestroy
-)
-;
 }
 ConnectionEntry
 :
@@ -197,10 +191,6 @@ mPreferIPv6
 false
 )
 mUsedForConnection
-(
-false
-)
-mDoNotDestroy
 (
 false
 )
