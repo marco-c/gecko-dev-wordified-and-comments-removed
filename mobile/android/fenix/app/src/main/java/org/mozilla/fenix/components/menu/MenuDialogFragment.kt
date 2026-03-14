@@ -2225,7 +2225,7 @@ components
 .
 core
 .
-summarizeFeatureDiscoverySettings
+summarizeFeatureSettings
 bookmarksStorage
 =
 components

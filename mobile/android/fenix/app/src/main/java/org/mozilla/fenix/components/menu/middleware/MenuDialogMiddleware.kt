@@ -465,7 +465,7 @@ summarization
 .
 onboarding
 .
-SummarizeDiscoveryEvent
+SummarizationFeatureDiscoveryConfiguration
 import
 org
 .
@@ -477,7 +477,7 @@ summarization
 .
 onboarding
 .
-SummarizeFeatureDiscoverySettings
+SummarizeDiscoveryEvent
 import
 org
 .
@@ -601,7 +601,7 @@ An
 instance
 of
 [
-SummarizeFeatureDiscoverySettings
+SummarizationFeatureDiscoveryConfiguration
 ]
 to
 manage
@@ -895,7 +895,7 @@ private
 val
 summarizeMenuSettings
 :
-SummarizeFeatureDiscoverySettings
+SummarizationFeatureDiscoveryConfiguration
 private
 val
 bookmarksStorage
