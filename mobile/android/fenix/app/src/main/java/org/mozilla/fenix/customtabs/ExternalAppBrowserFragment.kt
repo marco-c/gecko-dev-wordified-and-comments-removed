@@ -471,6 +471,18 @@ ExternalAppBrowserFragmentArgs
 >
 (
 )
+override
+val
+isSandboxCustomTab
+:
+Boolean
+get
+(
+)
+=
+args
+.
+isSandboxCustomTab
 private
 val
 customTabsIntegration
@@ -634,8 +646,6 @@ content
 private
 isSandboxCustomTab
 =
-args
-.
 isSandboxCustomTab
 )
 owner
