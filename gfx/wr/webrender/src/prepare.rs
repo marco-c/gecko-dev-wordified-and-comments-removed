@@ -1898,10 +1898,6 @@ min
 to_vector
 (
 )
--
-run
-.
-reference_frame_relative_offset
 ;
 let
 surface

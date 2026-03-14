@@ -3986,9 +3986,6 @@ info
 stacking_context
 .
 flags
-info
-.
-ref_frame_offset
 )
 ;
 let
@@ -6303,9 +6300,6 @@ glyphs
 info
 .
 glyph_options
-info
-.
-ref_frame_offset
 )
 ;
 }
@@ -8724,9 +8718,6 @@ RasterSpace
 flags
 :
 StackingContextFlags
-subregion_offset
-:
-LayoutVector2D
 )
 -
 >
@@ -8816,12 +8807,6 @@ spatial_node_index
 clip_chain_id
 requested_raster_space
 flags
-LayoutVector2D
-:
-:
-zero
-(
-)
 )
 ;
 info
@@ -9624,7 +9609,6 @@ flags
 raster_space
 :
 new_space
-subregion_offset
 }
 )
 ;
@@ -10382,10 +10366,6 @@ has_valid_filters
 let
 spatial_node_context_offset
 =
-stacking_context
-.
-subregion_offset
-+
 self
 .
 current_external_scroll_offset
@@ -13554,9 +13534,6 @@ Option
 <
 GlyphOptions
 >
-ref_frame_offset
-:
-LayoutVector2D
 )
 {
 let
@@ -13568,8 +13545,6 @@ current_external_scroll_offset
 (
 spatial_node_index
 )
-+
-ref_frame_offset
 ;
 let
 text_run
@@ -13821,9 +13796,6 @@ shadow
 :
 false
 requested_raster_space
-reference_frame_offset
-:
-ref_frame_offset
 }
 }
 ;
@@ -17652,9 +17624,6 @@ StackingContextFlags
 raster_space
 :
 RasterSpace
-subregion_offset
-:
-LayoutVector2D
 }
 impl
 FlattenedStackingContext
