@@ -52,6 +52,14 @@ sites
 *
 *
 '
+-
+'
+taskcluster
+/
+requirements
+.
+in
+'
 type
 :
 external
