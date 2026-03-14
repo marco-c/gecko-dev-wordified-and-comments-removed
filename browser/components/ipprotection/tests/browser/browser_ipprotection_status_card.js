@@ -1770,6 +1770,8 @@ percent
 remainingRounded
 :
 12
+.
+1
 gbCount
 :
 2

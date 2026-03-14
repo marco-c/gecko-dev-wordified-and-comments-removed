@@ -93,6 +93,13 @@ js
 ]
 [
 "
+browser_ipprotection_bandwidth_precision
+.
+js
+"
+]
+[
+"
 browser_ipprotection_confirmation_hints_site_exclusion
 .
 js
