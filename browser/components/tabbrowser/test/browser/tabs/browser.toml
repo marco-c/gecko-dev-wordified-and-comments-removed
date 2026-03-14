@@ -3951,6 +3951,13 @@ Bug
 ]
 [
 "
+browser_tab_note_preview
+.
+js
+"
+]
+[
+"
 browser_tab_splitview
 .
 js
