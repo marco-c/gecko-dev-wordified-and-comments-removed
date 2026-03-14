@@ -60,6 +60,7 @@ import
 {
 CATEGORIES_LIST
 INTENTS_LIST
+MAX_MEMORY_SUMMARY_LENGTH
 }
 from
 "
@@ -195,6 +196,9 @@ string
 null
 "
 ]
+maxLength
+:
+MAX_MEMORY_SUMMARY_LENGTH
 }
 score
 :
