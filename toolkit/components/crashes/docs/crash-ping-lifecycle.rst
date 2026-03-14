@@ -1065,7 +1065,7 @@ expect
 data
 to
 be
-availalbe
+available
 for
 the
 prior

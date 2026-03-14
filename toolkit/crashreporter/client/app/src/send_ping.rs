@@ -175,9 +175,6 @@ reason
 to_str
 (
 )
-legacy_telemetry
-:
-None
 }
 .
 send
