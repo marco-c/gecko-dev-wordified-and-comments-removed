@@ -12795,9 +12795,9 @@ aNavigationAPIState
 dom
 :
 :
-NavigationTracker
+NavigationAPIMethodTracker
 *
-aNavigationTracker
+aNavigationAPIMethodTracker
 )
 {
 MOZ_LOG_FMT
@@ -13077,9 +13077,9 @@ aNavigationAPIState
 loadState
 -
 >
-SetNavigationTracker
+SetNavigationAPIMethodTracker
 (
-aNavigationTracker
+aNavigationAPIMethodTracker
 )
 ;
 rv
