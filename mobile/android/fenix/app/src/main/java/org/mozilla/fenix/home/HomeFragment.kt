@@ -7862,7 +7862,7 @@ if
 isActive
 )
 return
-run
+launch
 with
 (
 binding
@@ -7940,6 +7940,12 @@ observeWallpaperUpdates
 {
 if
 (
+!
+shouldEnableWallpaper
+(
+)
+|
+|
 wallpaperUpdatesJob
 ?
 .
