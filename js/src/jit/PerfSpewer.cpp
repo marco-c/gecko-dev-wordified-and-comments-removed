@@ -7011,6 +7011,7 @@ desc
 {
 DisablePerfSpewer
 (
+lock
 )
 ;
 return
@@ -7111,6 +7112,7 @@ desc
 {
 DisablePerfSpewer
 (
+lock
 )
 ;
 return
