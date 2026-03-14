@@ -281,7 +281,7 @@ tokenLength
 await
 session
 .
-measureInputUsage
+measureContextUsage
 (
 options
 .
@@ -299,7 +299,7 @@ assert_greater_than_equal
 tokenLength
 session
 .
-inputUsage
+contextUsage
 )
 ;
 assert_regexp_match
@@ -345,7 +345,7 @@ initialPrompt
 counts
 towards
 session
-inputUsage
+contextUsage
 '
 )
 ;
@@ -384,9 +384,9 @@ session
 .
 addEventListener
 (
-"
-quotaoverflow
-"
+'
+contextoverflow
+'
 resolve
 )
 ;
@@ -409,7 +409,7 @@ usage
 await
 session
 .
-measureInputUsage
+measureContextUsage
 (
 kLongPrompt
 )
@@ -418,7 +418,7 @@ assert_greater_than
 (
 session
 .
-inputQuota
+contextWindow
 usage
 )
 ;
@@ -434,7 +434,7 @@ assert_greater_than
 (
 session
 .
-inputUsage
+contextUsage
 0
 )
 ;
@@ -443,11 +443,11 @@ repeatCount
 =
 session
 .
-inputQuota
+contextWindow
 /
 session
 .
-inputUsage
+contextUsage
 ;
 const
 promptString
@@ -478,7 +478,7 @@ promptString
 }
 '
 The
-quotaoverflow
+contextoverflow
 event
 is
 fired
@@ -487,7 +487,8 @@ overall
 usage
 exceeds
 the
-quota
+context
+window
 '
 )
 ;
@@ -520,7 +521,7 @@ repeat
 (
 session
 .
-inputQuota
+contextWindow
 )
 ;
 const
@@ -529,7 +530,7 @@ requested
 await
 session
 .
-measureInputUsage
+measureContextUsage
 (
 promptString
 )
@@ -547,7 +548,7 @@ promptString
 requested
 session
 .
-inputQuota
+contextWindow
 )
 ;
 }
@@ -559,7 +560,8 @@ input
 exceeding
 the
 total
-quota
+context
+window
 rejects
 '
 )

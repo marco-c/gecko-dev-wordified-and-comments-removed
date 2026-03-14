@@ -85,7 +85,7 @@ assert_equals
 typeof
 session
 .
-measureInputUsage
+measureContextUsage
 '
 function
 '
@@ -118,7 +118,7 @@ assert_equals
 typeof
 session
 .
-inputUsage
+contextUsage
 '
 number
 '
@@ -129,7 +129,7 @@ assert_equals
 typeof
 session
 .
-inputQuota
+contextWindow
 '
 number
 '
@@ -162,7 +162,7 @@ assert_equals
 typeof
 session
 .
-onquotaoverflow
+oncontextoverflow
 '
 object
 '
