@@ -229,9 +229,12 @@ aFont
 .
 descent
 =
+int
+(
 em
 /
 2
+)
     
 aFont
 .
@@ -245,9 +248,12 @@ aFont
 .
 os2_winascent
 =
+int
+(
 em
 /
 2
+)
     
 aFont
 .
@@ -257,9 +263,12 @@ aFont
 .
 hhea_descent
 =
+int
+(
 em
 /
 2
+)
     
 aFont
 .
@@ -269,9 +278,12 @@ aFont
 .
 os2_windescent
 =
+int
+(
 em
 /
 2
+)
     
 aFont
 .
@@ -1213,9 +1225,12 @@ i
 1
 )
 *
+int
+(
 em
 /
 10
+)
     
 g
 =
@@ -1363,9 +1378,12 @@ width
 =
 2
 *
+int
+(
 em
 /
 10
+)
 s
 =
 em
@@ -2125,6 +2143,47 @@ gsub_n
 "
 urtriangle
 "
+)
+saveMathFont
+(
+f
+)
+f
+=
+newMathFont
+(
+"
+no
+-
+rtlm
+-
+mirror
+"
+)
+createLLTriangleGlyph
+(
+f
+0x2231
+)
+createLLTriangleGlyph
+(
+f
+0x2232
+)
+createLLTriangleGlyph
+(
+f
+0x2233
+)
+createLLTriangleGlyph
+(
+f
+0x2A11
+)
+createLLTriangleGlyph
+(
+f
+0x2A17
 )
 saveMathFont
 (
