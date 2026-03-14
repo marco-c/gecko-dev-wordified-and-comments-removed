@@ -3910,6 +3910,8 @@ updates
 internal
 class
 AddonUpdaterWorker
+JvmOverloads
+constructor
 (
 context
 :
