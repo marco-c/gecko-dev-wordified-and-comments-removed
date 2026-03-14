@@ -2789,6 +2789,13 @@ standalone
 ]
 [
 "
+test_dragstart_form_associated_custom_element
+.
+html
+"
+]
+[
+"
 test_error_events
 .
 html
