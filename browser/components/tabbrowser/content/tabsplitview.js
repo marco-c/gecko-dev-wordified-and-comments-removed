@@ -841,15 +841,6 @@ true
 #
 deactivate
 (
-skipHidePanels
-=
-false
-)
-{
-if
-(
-!
-skipHidePanels
 )
 {
 gBrowser
@@ -882,7 +873,6 @@ this
 )
 )
 ;
-}
 updateUrlbarButton
 .
 arm
@@ -1689,7 +1679,6 @@ this
 #
 deactivate
 (
-true
 )
 ;
 }
