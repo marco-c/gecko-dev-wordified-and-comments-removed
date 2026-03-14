@@ -1194,7 +1194,7 @@ break
 buffer
 -
 >
-merge_out_clusters
+merge_out_grapheme_clusters
 (
 start
 end
@@ -1605,7 +1605,7 @@ TJMO
 buffer
 -
 >
-merge_out_clusters
+merge_out_grapheme_clusters
 (
 start
 end

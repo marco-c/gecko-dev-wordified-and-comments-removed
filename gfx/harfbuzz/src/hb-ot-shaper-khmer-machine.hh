@@ -89,7 +89,7 @@ khmer_non_khmer_cluster
 ;
 #
 line
-49
+52
 "
 hb
 -
@@ -165,7 +165,7 @@ khmer_syllable_machine_ex_ZWNJ
 5u
 #
 line
-65
+70
 "
 hb
 -
@@ -1813,7 +1813,7 @@ info
 ;
 #
 line
-287
+298
 "
 hb
 -
@@ -1882,7 +1882,7 @@ syllable_serial
 ;
 #
 line
-299
+314
 "
 hb
 -
@@ -1953,7 +1953,7 @@ break
 ;
 #
 line
-311
+328
 "
 hb
 -
@@ -2516,7 +2516,7 @@ break
 ;
 #
 line
-368
+398
 "
 hb
 -
@@ -2560,7 +2560,7 @@ break
 ;
 #
 line
-375
+407
 "
 hb
 -
