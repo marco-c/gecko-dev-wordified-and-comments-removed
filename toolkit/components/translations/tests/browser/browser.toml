@@ -356,6 +356,13 @@ js
 ]
 [
 "
+browser_about_translations_resize_sections_with_messages
+.
+js
+"
+]
+[
+"
 browser_about_translations_source_clear_button_functionality
 .
 js
@@ -385,6 +392,13 @@ js
 [
 "
 browser_about_translations_telemetry_open
+.
+js
+"
+]
+[
+"
+browser_about_translations_translate_error
 .
 js
 "
