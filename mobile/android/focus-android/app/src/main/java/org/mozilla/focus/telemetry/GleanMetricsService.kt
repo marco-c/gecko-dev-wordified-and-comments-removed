@@ -979,6 +979,11 @@ else
 {
 REMOTE_STAGE_ENDPOINT_URL
 }
+crashReporter
+=
+components
+.
+crashReporter
 )
 .
 updateProviderList
