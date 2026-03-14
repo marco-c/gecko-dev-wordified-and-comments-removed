@@ -109,16 +109,6 @@ middleware
 .
 CaptureActionsMiddleware
 import
-mozilla
-.
-components
-.
-support
-.
-test
-.
-mock
-import
 org
 .
 junit
@@ -2037,7 +2027,7 @@ deviceDisplayName
 "
 deviceType
 =
-mock
+mockk
 (
 )
 title
@@ -2072,7 +2062,7 @@ deviceDisplayName
 "
 deviceType
 =
-mock
+mockk
 (
 )
 title
@@ -2332,7 +2322,7 @@ deviceDisplayName
 "
 deviceType
 =
-mock
+mockk
 (
 )
 title
@@ -2475,7 +2465,7 @@ device1
 "
 deviceType
 =
-mock
+mockk
 (
 )
 title
@@ -2500,7 +2490,7 @@ deviceDisplayName
 "
 deviceType
 =
-mock
+mockk
 (
 )
 title
@@ -2525,7 +2515,7 @@ deviceDisplayName
 "
 deviceType
 =
-mock
+mockk
 (
 )
 title

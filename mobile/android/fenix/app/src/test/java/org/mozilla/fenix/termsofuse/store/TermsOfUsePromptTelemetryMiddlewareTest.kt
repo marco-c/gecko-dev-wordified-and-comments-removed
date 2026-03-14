@@ -9,6 +9,12 @@ termsofuse
 .
 store
 import
+io
+.
+mockk
+.
+mockk
+import
 mozilla
 .
 components
@@ -64,14 +70,6 @@ junit
 runner
 .
 RunWith
-import
-org
-.
-mockito
-.
-Mockito
-.
-mock
 import
 org
 .
@@ -770,7 +768,7 @@ TermsOfUsePromptTelemetryMiddleware
 (
 store
 =
-mock
+mockk
 (
 )
 next

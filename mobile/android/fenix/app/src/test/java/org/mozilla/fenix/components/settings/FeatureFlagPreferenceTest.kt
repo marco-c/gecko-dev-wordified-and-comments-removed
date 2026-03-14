@@ -91,6 +91,12 @@ runners
 .
 AndroidJUnit4
 import
+io
+.
+mockk
+.
+spyk
+import
 mozilla
 .
 components
@@ -158,14 +164,6 @@ junit
 runner
 .
 RunWith
-import
-org
-.
-mockito
-.
-Mockito
-.
-spy
 RunWith
 (
 AndroidJUnit4
@@ -258,7 +256,7 @@ apply
 val
 holder
 =
-spy
+spyk
 (
 FeatureFlagHolder
 (

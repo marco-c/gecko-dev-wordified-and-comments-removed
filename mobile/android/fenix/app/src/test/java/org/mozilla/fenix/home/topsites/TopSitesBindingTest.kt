@@ -169,16 +169,6 @@ presenter
 .
 DefaultTopSitesPresenter
 import
-mozilla
-.
-components
-.
-support
-.
-test
-.
-mock
-import
 org
 .
 junit
@@ -270,7 +260,7 @@ Google
 "
 icon
 =
-mock
+mockk
 (
 )
 type
@@ -295,7 +285,7 @@ DuckDuckGo
 "
 icon
 =
-mock
+mockk
 (
 )
 type
@@ -316,7 +306,7 @@ name
 AMAZON_SEARCH_ENGINE_NAME
 icon
 =
-mock
+mockk
 (
 )
 type
