@@ -107,6 +107,9 @@ interface
 nsISHEntry
 ;
 interface
+nsIScopedPrefs
+;
+interface
 nsIPrintSettings
 ;
 interface
@@ -2861,6 +2864,12 @@ attribute
 nsISHEntry
 ?
 mostRecentLoadingSessionHistoryEntry
+;
+readonly
+attribute
+nsIScopedPrefs
+?
+scopedPrefs
 ;
 /
 *
