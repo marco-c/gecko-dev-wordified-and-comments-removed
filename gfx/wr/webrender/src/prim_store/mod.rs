@@ -3989,6 +3989,9 @@ ImageInstanceIndex
 compositor_surface_kind
 :
 CompositorSurfaceKind
+use_legacy_path
+:
+bool
 }
 LinearGradient
 {
