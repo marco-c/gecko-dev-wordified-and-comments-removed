@@ -3530,6 +3530,7 @@ data
 )
 ;
 }
+constexpr
 iterator
 begin
 (
@@ -3549,6 +3550,7 @@ SpanKnownBounds
 }
 ;
 }
+constexpr
 iterator
 end
 (
@@ -3570,6 +3572,7 @@ SpanKnownBounds
 }
 ;
 }
+constexpr
 const_iterator
 cbegin
 (
@@ -3589,6 +3592,7 @@ SpanKnownBounds
 }
 ;
 }
+constexpr
 const_iterator
 cend
 (
@@ -3610,6 +3614,7 @@ SpanKnownBounds
 }
 ;
 }
+constexpr
 reverse_iterator
 rbegin
 (
@@ -3625,6 +3630,7 @@ end
 }
 ;
 }
+constexpr
 reverse_iterator
 rend
 (
@@ -3640,6 +3646,7 @@ begin
 }
 ;
 }
+constexpr
 const_reverse_iterator
 crbegin
 (
@@ -3655,6 +3662,7 @@ cend
 }
 ;
 }
+constexpr
 const_reverse_iterator
 crend
 (
@@ -3819,6 +3827,7 @@ template
 typename
 Item
 >
+constexpr
 index_type
 IndexOf
 (
