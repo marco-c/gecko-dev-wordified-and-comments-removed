@@ -245,6 +245,16 @@ settings
 .
 requirePreference
 import
+org
+.
+mozilla
+.
+fenix
+.
+settings
+.
+scrollToPreferenceWithHighlight
+import
 com
 .
 google
@@ -373,7 +383,7 @@ preferenceToScrollTo
 .
 let
 {
-scrollToPreference
+scrollToPreferenceWithHighlight
 (
 it
 )

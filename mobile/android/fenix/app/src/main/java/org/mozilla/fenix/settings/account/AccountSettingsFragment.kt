@@ -543,6 +543,16 @@ fenix
 .
 settings
 .
+scrollToPreferenceWithHighlight
+import
+org
+.
+mozilla
+.
+fenix
+.
+settings
+.
 showCustomEditTextPreferenceDialog
 SuppressWarnings
 (
@@ -734,7 +744,7 @@ preferenceToScrollTo
 .
 let
 {
-scrollToPreference
+scrollToPreferenceWithHighlight
 (
 it
 )

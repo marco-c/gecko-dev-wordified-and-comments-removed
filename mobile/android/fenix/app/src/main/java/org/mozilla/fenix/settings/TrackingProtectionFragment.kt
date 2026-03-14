@@ -801,7 +801,7 @@ preferenceToScrollTo
 .
 let
 {
-scrollToPreference
+scrollToPreferenceWithHighlight
 (
 it
 )
