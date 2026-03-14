@@ -103,6 +103,15 @@ RefPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ScopedPrefs
+.
+h
+"
 mozilla
 :
 :
