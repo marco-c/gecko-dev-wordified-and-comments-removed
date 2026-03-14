@@ -960,6 +960,17 @@ const
 {
 if
 (
+IsModifierKeyEvent
+(
+)
+)
+{
+return
+false
+;
+}
+if
+(
 mFlags
 .
 mIsShortcutKey
