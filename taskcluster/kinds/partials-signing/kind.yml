@@ -84,6 +84,12 @@ gecko_taskgraph
 .
 transforms
 .
+zucchini_partial_rollout
+-
+gecko_taskgraph
+.
+transforms
+.
 mar_signing
 -
 gecko_taskgraph
@@ -97,6 +103,10 @@ dependencies
 :
 -
 partials
+-
+partials
+-
+zucchini
 task
 -
 defaults

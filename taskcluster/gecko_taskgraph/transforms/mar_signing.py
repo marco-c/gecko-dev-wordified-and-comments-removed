@@ -155,9 +155,11 @@ TransformSequence
 def
 generate_partials_artifacts
 (
+    
 job
 release_history
 platform
+upstream_kind
 locale
 =
 None
@@ -225,9 +227,12 @@ task
 reference
 "
 :
+f
 "
 <
-partials
+{
+upstream_kind
+}
 >
 "
 }
@@ -627,6 +632,7 @@ generate_partials_artifacts
 (
                 
 dep_job
+                
 config
 .
 params
@@ -635,7 +641,13 @@ params
 release_history
 "
 ]
+                
 build_platform
+                
+dep_job
+.
+kind
+                
 locale
             
 )
