@@ -293,6 +293,9 @@ Changed
 reset_only
 :
 bool
+_custom_properties_changed
+:
+bool
 }
 }
 #
@@ -3277,6 +3280,7 @@ StyleChange
 Changed
 {
 reset_only
+_custom_properties_changed
 }
 =
 >
