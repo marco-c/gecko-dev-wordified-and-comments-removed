@@ -368,11 +368,6 @@ controller
 =
 DefaultTopSiteController
 (
-appStore
-=
-requireComponents
-.
-appStore
 activityRef
 =
 WeakReference

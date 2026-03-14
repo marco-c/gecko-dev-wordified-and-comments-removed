@@ -155,6 +155,18 @@ mozilla
 .
 fenix
 .
+browser
+.
+browsingmode
+.
+BrowsingModeManager
+import
+org
+.
+mozilla
+.
+fenix
+.
 components
 .
 appstate
@@ -396,6 +408,9 @@ AppState
 browserState
 :
 BrowserState
+browsingModeManager
+:
+BrowsingModeManager
 )
 :
 CollectionsState
@@ -441,7 +456,7 @@ tabCount
 =
 if
 (
-appState
+browsingModeManager
 .
 mode
 .
