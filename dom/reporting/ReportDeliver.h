@@ -144,6 +144,9 @@ mFailures
 uintptr_t
 mGlobalKey
 ;
+uint64_t
+mAssociatedBrowsingContext
+;
 }
 ;
 static
@@ -168,6 +171,8 @@ aURL
 ReportBody
 *
 aBody
+uint64_t
+aAssociatedBrowsingContextId
 )
 ;
 static

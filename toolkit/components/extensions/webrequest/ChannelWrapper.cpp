@@ -2391,7 +2391,7 @@ LoadInfo
 loadInfo
 -
 >
-GetWorkerAssociatedBrowsingContext
+GetAssociatedBrowsingContext
 (
 getter_AddRefs
 (
@@ -3613,7 +3613,7 @@ bc
 aLoadInfo
 -
 >
-GetWorkerAssociatedBrowsingContext
+GetAssociatedBrowsingContext
 (
 )
 ;
@@ -3696,7 +3696,7 @@ frameID
 aLoadInfo
 -
 >
-GetWorkerAssociatedBrowsingContextID
+GetAssociatedBrowsingContextID
 (
 )
 ;
@@ -3789,7 +3789,7 @@ bc
 loadInfo
 -
 >
-GetWorkerAssociatedBrowsingContext
+GetAssociatedBrowsingContext
 (
 )
 ;

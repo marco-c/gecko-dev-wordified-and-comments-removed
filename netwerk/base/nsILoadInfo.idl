@@ -1684,7 +1684,7 @@ attribute
 unsigned
 long
 long
-workerAssociatedBrowsingContextID
+associatedBrowsingContextID
 ;
 [
 infallible
@@ -1692,7 +1692,7 @@ infallible
 readonly
 attribute
 BrowsingContext
-workerAssociatedBrowsingContext
+associatedBrowsingContext
 ;
 [
 infallible

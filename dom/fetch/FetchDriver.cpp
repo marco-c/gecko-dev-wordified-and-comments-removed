@@ -2977,7 +2977,7 @@ rv
 loadInfo
 -
 >
-SetWorkerAssociatedBrowsingContextID
+SetAssociatedBrowsingContextID
 (
 mAssociatedBrowsingContextID
 )

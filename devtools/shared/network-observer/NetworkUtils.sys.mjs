@@ -1121,7 +1121,7 @@ channel
 .
 loadInfo
 .
-workerAssociatedBrowsingContextID
+associatedBrowsingContextID
 )
 {
 return
@@ -1129,7 +1129,7 @@ channel
 .
 loadInfo
 .
-workerAssociatedBrowsingContextID
+associatedBrowsingContextID
 ;
 }
 /

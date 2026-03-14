@@ -4697,7 +4697,7 @@ bc
 loadInfo
 -
 >
-GetWorkerAssociatedBrowsingContext
+GetAssociatedBrowsingContext
 (
 )
 ;

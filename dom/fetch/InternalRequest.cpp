@@ -370,6 +370,13 @@ mEmbedderPolicy
 =
 mEmbedderPolicy
 ;
+copy
+-
+>
+mAssociatedBrowsingContextID
+=
+mAssociatedBrowsingContextID
+;
 return
 copy
 ;
@@ -681,6 +688,12 @@ mReferrerPolicy
 aOther
 .
 mReferrerPolicy
+)
+mAssociatedBrowsingContextID
+(
+aOther
+.
+mAssociatedBrowsingContextID
 )
 mEnvironmentReferrerPolicy
 (
