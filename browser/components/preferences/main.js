@@ -30986,9 +30986,6 @@ readBackgroundUpdatePref
 )
 ;
 }
-else
-{
-}
 await
 _disableTimeOverPromise
 ;
