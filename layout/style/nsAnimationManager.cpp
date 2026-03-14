@@ -648,9 +648,6 @@ aNewComposite
 dom
 :
 :
-Animation
-:
-:
 AnimationRange
 &
 &
@@ -1697,9 +1694,6 @@ auto
 range
 =
 dom
-:
-:
-Animation
 :
 :
 AnimationRange
