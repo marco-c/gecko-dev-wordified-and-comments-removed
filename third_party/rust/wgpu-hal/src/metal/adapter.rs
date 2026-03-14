@@ -6103,8 +6103,6 @@ min
 as
 u64
 )
-as
-u32
 max_storage_buffer_binding_size
 :
 self
@@ -6118,8 +6116,6 @@ min
 as
 u64
 )
-as
-u32
 &
 !
 (
@@ -6127,6 +6123,8 @@ wgt
 :
 :
 STORAGE_BINDING_SIZE_ALIGNMENT
+as
+u64
 -
 1
 )

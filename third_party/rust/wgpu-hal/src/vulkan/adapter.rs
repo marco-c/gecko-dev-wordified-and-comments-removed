@@ -7156,6 +7156,10 @@ auxil
 :
 MAX_I32_BINDING_SIZE
 )
+.
+into
+(
+)
 max_storage_buffer_binding_size
 :
 limits
@@ -7171,6 +7175,10 @@ auxil
 :
 :
 MAX_I32_BINDING_SIZE
+)
+.
+into
+(
 )
 max_vertex_buffers
 :

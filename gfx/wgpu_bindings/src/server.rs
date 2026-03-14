@@ -259,15 +259,6 @@ BufferAddress
 30u64
 ;
 const
-MAX_BUFFER_SIZE_U32
-:
-u32
-=
-MAX_BUFFER_SIZE
-as
-u32
-;
-const
 MAX_TEXTURE_EXTENT
 :
 u32
@@ -481,7 +472,7 @@ max_uniform_buffer_binding_size
 .
 min
 (
-MAX_BUFFER_SIZE_U32
+MAX_BUFFER_SIZE
 )
 max_storage_buffer_binding_size
 :
@@ -491,7 +482,7 @@ max_storage_buffer_binding_size
 .
 min
 (
-MAX_BUFFER_SIZE_U32
+MAX_BUFFER_SIZE
 )
 max_non_sampler_bindings
 :
@@ -4849,10 +4840,6 @@ global
 texture_view_drop
 (
 id
-)
-.
-unwrap
-(
 )
 ;
 }
@@ -15296,10 +15283,6 @@ global
 texture_view_drop
 (
 id
-)
-.
-unwrap
-(
 )
 Message
 :

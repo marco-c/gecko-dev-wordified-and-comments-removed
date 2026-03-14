@@ -647,6 +647,7 @@ SurfaceStatus
 Good
 Suboptimal
 Timeout
+Occluded
 Outdated
 Lost
 Unknown

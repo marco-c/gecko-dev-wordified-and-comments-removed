@@ -128,10 +128,7 @@ DynFence
 >
 Result
 <
-Option
-<
 DynAcquiredSurfaceTexture
->
 SurfaceError
 >
 ;
@@ -266,10 +263,7 @@ DynFence
 >
 Result
 <
-Option
-<
 DynAcquiredSurfaceTexture
->
 SurfaceError
 >
 {
@@ -294,14 +288,6 @@ timeout
 fence
 )
 }
-.
-map
-(
-|
-acquired
-|
-{
-acquired
 .
 map
 (
@@ -334,8 +320,6 @@ DynAcquiredSurfaceTexture
 texture
 suboptimal
 }
-}
-)
 }
 )
 }

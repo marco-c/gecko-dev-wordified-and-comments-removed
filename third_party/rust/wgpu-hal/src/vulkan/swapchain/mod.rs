@@ -229,8 +229,6 @@ Fence
 >
 Result
 <
-Option
-<
 crate
 :
 :
@@ -243,7 +241,6 @@ api
 :
 :
 Vulkan
->
 >
 crate
 :

@@ -2614,8 +2614,6 @@ Fence
 >
 Result
 <
-Option
-<
 crate
 :
 :
@@ -2625,7 +2623,6 @@ super
 :
 :
 Api
->
 >
 crate
 :
@@ -2747,8 +2744,6 @@ depth
 ;
 Ok
 (
-Some
-(
 crate
 :
 :
@@ -2759,7 +2754,6 @@ suboptimal
 :
 false
 }
-)
 )
 }
 unsafe

@@ -1957,8 +1957,6 @@ Fence
 >
 Result
 <
-Option
-<
 crate
 :
 :
@@ -1971,7 +1969,6 @@ api
 :
 :
 Vulkan
->
 >
 crate
 :
@@ -2186,9 +2183,15 @@ Result
 TIMEOUT
 =
 >
-Ok
+Err
 (
-None
+crate
+:
+:
+SurfaceError
+:
+:
+Timeout
 )
 vk
 :
@@ -2486,8 +2489,6 @@ present_semaphore_arc
 ;
 Ok
 (
-Some
-(
 crate
 :
 :
@@ -2496,7 +2497,6 @@ AcquiredSurfaceTexture
 texture
 suboptimal
 }
-)
 )
 }
 unsafe

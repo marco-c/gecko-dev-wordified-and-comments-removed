@@ -1501,8 +1501,6 @@ limits
 )
 .
 max_storage_buffer_binding_size
-as
-u64
 {
 return
 Err

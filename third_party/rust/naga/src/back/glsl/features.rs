@@ -811,7 +811,13 @@ check_feature
 !
 (
 DYNAMIC_ARRAY_SIZE
-430
+400
+/
+*
+with
+extension
+*
+/
 310
 )
 ;
