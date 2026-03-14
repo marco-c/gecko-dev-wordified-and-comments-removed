@@ -200,6 +200,10 @@ CKEditor4CompatHack
 )
 DEPRECATED_OPERATION
 (
+GWTRichTextAreaCompatHack
+)
+DEPRECATED_OPERATION
+(
 MozorientationDeprecated
 )
 DEPRECATED_OPERATION

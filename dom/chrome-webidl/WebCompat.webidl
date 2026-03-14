@@ -117,6 +117,13 @@ version
 ;
 }
 ;
+callback
+GwtPotentialElementShim
+=
+undefined
+(
+)
+;
 [
 GenerateInit
 ]
@@ -128,6 +135,9 @@ CKEDITOR
 ;
 CkEditorVersion
 JEDITOR
+;
+GwtPotentialElementShim
+GwtPotentialElementShim
 ;
 }
 ;
