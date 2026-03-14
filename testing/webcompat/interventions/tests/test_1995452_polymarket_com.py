@@ -15,19 +15,21 @@ sports
 /
 live
 "
-CONTAINER_CSS
+SCROLLBARS_CSS
 =
 "
-#
-scoreboard
+.
+scrollbar
 -
-scroll
+none
+.
+scrollbar
 -
-container
+hide
 "
 async
 def
-is_scrollbar_visible
+are_scrollbars_visible
 (
 client
 )
@@ -41,15 +43,6 @@ navigate
 URL
 )
     
-container
-=
-client
-.
-await_css
-(
-CONTAINER_CSS
-)
-    
 return
 client
 .
@@ -61,15 +54,30 @@ execute_script
 "
       
 const
-container
+shouldHaveNoBars
 =
+document
+.
+querySelectorAll
+(
 arguments
 [
 0
 ]
+)
 ;
       
-return
+for
+(
+const
+container
+of
+shouldHaveNoBars
+)
+{
+          
+if
+(
 Math
 .
 round
@@ -80,20 +88,33 @@ getBoundingClientRect
 (
 )
 .
-height
+width
 )
 !
 =
 container
 .
-clientHeight
+clientWidth
+)
+{
+              
+return
+true
+;
+          
+}
+      
+}
+      
+return
+false
 ;
     
 "
 "
 "
         
-container
+SCROLLBARS_CSS
     
 )
 pytest
@@ -132,7 +153,7 @@ client
 assert
 not
 await
-is_scrollbar_visible
+are_scrollbars_visible
 (
 client
 )
@@ -171,7 +192,7 @@ client
     
 assert
 await
-is_scrollbar_visible
+are_scrollbars_visible
 (
 client
 )

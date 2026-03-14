@@ -7227,6 +7227,9 @@ self
 url
 =
 None
+timeout
+=
+15
 )
 :
         
@@ -7255,17 +7258,27 @@ make_preload_script
 "
 "
                     
-window
-.
-__popups
+const
+win
 =
-[
-]
-;
-                    
 window
 .
 wrappedJSObject
+;
+                    
+win
+.
+__popups
+=
+new
+win
+.
+Array
+(
+)
+;
+                    
+win
 .
 open
 =
@@ -7275,7 +7288,7 @@ url
 )
 {
                         
-window
+win
 .
 __popups
 .
@@ -7310,6 +7323,7 @@ run
 "
 (
 url
+timeout
 )
 =
 >
@@ -7320,6 +7334,12 @@ done
 =
 >
 {
+                    
+let
+attempts
+=
+timeout
+;
                     
 const
 to
@@ -7332,6 +7352,16 @@ setInterval
 >
 {
                         
+const
+{
+__popups
+}
+=
+window
+.
+wrappedJSObject
+;
+                        
 if
 (
 url
@@ -7341,8 +7371,6 @@ url
 undefined
 &
 &
-window
-.
 __popups
 .
 length
@@ -7358,12 +7386,7 @@ to
 return
 done
 (
-window
-.
-__popups
-[
-0
-]
+true
 )
 ;
                         
@@ -7372,8 +7395,6 @@ __popups
 const
 found
 =
-window
-.
 __popups
 .
 find
@@ -7408,7 +7429,30 @@ to
                             
 done
 (
-found
+true
+)
+;
+                        
+}
+                        
+if
+(
+!
+-
+-
+attempts
+)
+{
+                            
+clearInterval
+(
+to
+)
+;
+                            
+done
+(
+false
 )
 ;
                         
@@ -7427,6 +7471,8 @@ found
 "
             
 url
+            
+timeout
             
 await_promise
 =
@@ -11168,6 +11214,33 @@ coords
 coords
 )
         
+for
+_
+in
+range
+(
+5
+)
+:
+            
+try
+:
+                
+old_x
+=
+float
+(
+get_zoom_x
+(
+)
+)
+                
+break
+            
+except
+TypeError
+:
+                
 await
 self
 .
@@ -11176,15 +11249,6 @@ stall
 0
 .
 5
-)
-        
-old_x
-=
-float
-(
-get_zoom_x
-(
-)
 )
         
 for
