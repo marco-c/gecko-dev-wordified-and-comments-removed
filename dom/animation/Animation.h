@@ -1639,6 +1639,11 @@ PlaybackRateInternal
 ;
 }
 void
+UpdateNormalizedTimingForTimelineDataChange
+(
+)
+;
+void
 SetHiddenByContentVisibility
 (
 bool
