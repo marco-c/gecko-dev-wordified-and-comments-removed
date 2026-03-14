@@ -1467,7 +1467,7 @@ summarization
 .
 onboarding
 .
-FenixSummarizationFeatureConfiguration
+FenixSummarizeFeatureDiscoverySettings
 import
 org
 .
@@ -1479,7 +1479,7 @@ summarization
 .
 onboarding
 .
-SummarizationFeatureDiscoveryConfiguration
+SummarizeFeatureDiscoverySettings
 import
 org
 .
@@ -4253,7 +4253,7 @@ Fenix
 implementation
 of
 [
-SummarizationFeatureDiscoveryConfiguration
+SummarizeFeatureDiscoverySettings
 ]
 *
 backed
@@ -4272,13 +4272,13 @@ Settings
 *
 /
 val
-summarizeFeatureSettings
+summarizeFeatureDiscoverySettings
 :
-FenixSummarizationFeatureConfiguration
+SummarizeFeatureDiscoverySettings
 by
 lazyMonitored
 {
-FenixSummarizationFeatureConfiguration
+FenixSummarizeFeatureDiscoverySettings
 (
 settings
 =

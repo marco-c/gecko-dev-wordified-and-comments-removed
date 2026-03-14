@@ -593,7 +593,7 @@ settings
 .
 summarize
 .
-FakeSummarizationFeatureConfiguration
+FakeSummarizeFeatureDiscoverySettings
 import
 org
 .
@@ -733,7 +733,7 @@ private
 val
 summarizeFeatureSettings
 =
-FakeSummarizationFeatureConfiguration
+FakeSummarizeFeatureDiscoverySettings
 (
 )
 private

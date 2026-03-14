@@ -152,7 +152,7 @@ AndroidJUnit4
 class
 )
 class
-FenixSummarizationFeatureConfigurationTest
+FenixSummarizeFeatureDiscoverySettingsTest
 {
 private
 lateinit
@@ -165,7 +165,7 @@ lateinit
 var
 discoverySettings
 :
-FenixSummarizationFeatureConfiguration
+FenixSummarizeFeatureDiscoverySettings
 Before
 fun
 setUp
@@ -192,7 +192,7 @@ false
 )
 discoverySettings
 =
-FenixSummarizationFeatureConfiguration
+FenixSummarizeFeatureDiscoverySettings
 (
 settings
 =
