@@ -821,10 +821,13 @@ ImageDataSerializer
 :
 ComputeYCbCrBufferSize
 (
+aDisplay
 aYSize
 aYStride
 aCbCrSize
 aCbCrStride
+aColorDepth
+aSubsampling
 )
 ;
 if
