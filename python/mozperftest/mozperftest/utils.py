@@ -1279,6 +1279,9 @@ INFO
 name
 kwargs
 msg
+or
+"
+"
 )
     
 def
@@ -1309,6 +1312,9 @@ INFO
 name
 kwargs
 msg
+or
+"
+"
 )
 def
 install_package
@@ -2986,17 +2992,17 @@ else
 raise
 ValueError
 (
+f
 "
 invalid
 truth
 value
-%
-r
-"
-%
-(
+{
 val
-)
+!
+r
+}
+"
 )
 contextlib
 .
@@ -4025,7 +4031,7 @@ com
 "
 functools
 .
-lru_cache
+cache
 def
 get_tc_secret
 (
