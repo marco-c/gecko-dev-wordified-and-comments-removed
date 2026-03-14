@@ -641,6 +641,10 @@ EditorDOMPointType
 aPointToInsert
 InsertTextTo
 aInsertTextTo
+const
+Element
+&
+aEditingHost
 )
 {
 return
@@ -660,6 +664,7 @@ InsertTextFor
 :
 :
 NormalText
+aEditingHost
 )
 ;
 }
@@ -690,6 +695,10 @@ EditorDOMRange
 aCompositionStringRange
 InsertTextFor
 aPurpose
+const
+Element
+&
+aEditingHost
 )
 {
 MOZ_ASSERT
@@ -717,6 +726,7 @@ InsertTextTo
 :
 ExistingTextNodeIfAvailable
 aPurpose
+aEditingHost
 )
 ;
 }
@@ -961,6 +971,10 @@ InsertTextTo
 aInsertTextTo
 InsertTextFor
 aPurpose
+const
+Element
+&
+aEditingHost
 )
 ;
 }
