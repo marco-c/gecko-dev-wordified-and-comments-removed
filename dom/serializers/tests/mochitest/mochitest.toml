@@ -592,6 +592,13 @@ html
 ]
 [
 "
+test_htmlcopyencoder_range_end
+.
+html
+"
+]
+[
+"
 test_htmlcopyencoder_table
 .
 html
