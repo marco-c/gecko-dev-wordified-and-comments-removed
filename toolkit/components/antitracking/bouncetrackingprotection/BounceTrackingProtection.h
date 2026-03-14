@@ -14,6 +14,13 @@ h
 #
 include
 "
+BounceTrackingRecord
+.
+h
+"
+#
+include
+"
 BounceTrackingStorageObserver
 .
 h
@@ -510,6 +517,9 @@ const
 OriginAttributes
 &
 aOriginAttributes
+BounceTrackingRecord
+*
+aChainRecord
 ClearDataMozPromise
 *
 *

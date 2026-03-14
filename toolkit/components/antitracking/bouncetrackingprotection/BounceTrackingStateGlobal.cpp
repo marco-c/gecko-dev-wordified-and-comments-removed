@@ -775,6 +775,8 @@ iter
 Data
 (
 )
+.
+mBounceTime
 >
 =
 aFrom
@@ -793,6 +795,8 @@ iter
 Data
 (
 )
+.
+mBounceTime
 <
 =
 aTo
@@ -1064,6 +1068,9 @@ PRTime
 aTime
 bool
 aSkipStorage
+BounceTrackingRecord
+*
+aRecord
 )
 {
 NS_ENSURE_TRUE
@@ -1101,7 +1108,11 @@ mBounceTrackers
 InsertOrUpdate
 (
 aSiteHost
+BounceTrackerCandidate
+{
 aTime
+aRecord
+}
 )
 ;
 if
