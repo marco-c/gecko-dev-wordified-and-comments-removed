@@ -217,13 +217,6 @@ nsILoginManager
 logins
 "
 "
-nsIModelContextService
-"
-:
-"
-modelContext
-"
-"
 nsINetUtil
 "
 :
