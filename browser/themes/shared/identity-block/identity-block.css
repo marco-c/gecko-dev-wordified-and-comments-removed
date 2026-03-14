@@ -2787,6 +2787,12 @@ svg
 &
 .
 inactive
+:
+not
+(
+.
+insecure
+)
 {
 list
 -
