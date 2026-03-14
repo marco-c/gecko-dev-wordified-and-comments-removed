@@ -1974,18 +1974,18 @@ log
 .
 info
 (
+f
 "
 psutil
 found
 pid
-%
-s
-dead
-"
-%
+{
 p
 .
 pid
+}
+dead
+"
 )
             
 for
@@ -1998,20 +1998,20 @@ log
 .
 info
 (
+f
 "
 failed
 to
 kill
 pid
-%
-d
-after
-30s
-"
-%
+{
 p
 .
 pid
+}
+after
+30s
+"
 )
         
 except
@@ -2024,6 +2024,7 @@ log
 .
 info
 (
+f
 "
 Error
 :
@@ -2031,20 +2032,17 @@ Failed
 to
 kill
 process
-%
-d
-:
-%
-s
-"
-%
-(
+{
 pid
+}
+:
+{
 str
 (
 e
 )
-)
+}
+"
 )
     
 else
@@ -2080,25 +2078,23 @@ log
 .
 info
 (
+f
 "
 Failed
 to
 kill
 process
-%
-d
-:
-%
-s
-"
-%
-(
+{
 pid
+}
+:
+{
 str
 (
 e
 )
-)
+}
+"
 )
 if
 mozinfo
@@ -2513,66 +2509,46 @@ self
 .
 shutdownURL
 =
+f
 "
 http
 :
 /
 /
-%
-(
-server
-)
-s
+{
+shutdownServer
+}
 :
-%
-(
-port
-)
-s
+{
+self
+.
+httpPort
+}
 /
 server
 /
 shutdown
 "
-%
-{
-            
-"
-server
-"
-:
-shutdownServer
-            
-"
-port
-"
-:
-self
-.
-httpPort
-        
-}
         
 self
 .
 debugURL
 =
+f
 "
 http
 :
 /
 /
-%
-(
-server
-)
-s
+{
+shutdownServer
+}
 :
-%
-(
-port
-)
-s
+{
+self
+.
+httpPort
+}
 /
 server
 /
@@ -2580,24 +2556,6 @@ debug
 ?
 2
 "
-%
-{
-            
-"
-server
-"
-:
-shutdownServer
-            
-"
-port
-"
-:
-self
-.
-httpPort
-        
-}
         
 self
 .
@@ -2922,6 +2880,46 @@ self
 _xrePath
 )
         
+profilePath
+=
+self
+.
+_profileDir
+.
+replace
+(
+"
+\
+\
+"
+"
+\
+\
+\
+\
+"
+)
+        
+httpdPath
+=
+self
+.
+_httpdPath
+.
+replace
+(
+"
+\
+\
+"
+"
+\
+\
+\
+\
+"
+)
+        
 args
 =
 [
@@ -2940,155 +2938,68 @@ _xrePath
 e
 "
             
+f
 "
 const
 _PROFILE_PATH
 =
 '
-%
-(
-profile
-)
-s
-'
-;
-const
-_SERVER_PORT
-=
-'
-%
-(
-port
-)
-s
+{
+profilePath
+}
 '
 ;
 "
             
+f
+"
+const
+_SERVER_PORT
+=
+'
+{
+self
+.
+httpPort
+}
+'
+;
+"
+            
+f
 "
 const
 _SERVER_ADDR
 =
 '
-%
-(
-server
-)
-s
+{
+self
+.
+webServer
+}
 '
-;
-const
-_TEST_PREFIX
-=
-%
-(
-testPrefix
-)
-s
 ;
 "
             
+f
+"
+const
+_TEST_PREFIX
+=
+{
+self
+.
+testPrefix
+}
+;
+"
+            
+f
 "
 const
 _DISPLAY_RESULTS
 =
-%
-(
-displayResults
-)
-s
-;
-"
-            
-"
-const
-_HTTPD_PATH
-=
-'
-%
-(
-httpdPath
-)
-s
-'
-;
-"
-            
-%
 {
-                
-"
-httpdPath
-"
-:
-self
-.
-_httpdPath
-.
-replace
-(
-"
-\
-\
-"
-"
-\
-\
-\
-\
-"
-)
-                
-"
-profile
-"
-:
-self
-.
-_profileDir
-.
-replace
-(
-"
-\
-\
-"
-"
-\
-\
-\
-\
-"
-)
-                
-"
-port
-"
-:
-self
-.
-httpPort
-                
-"
-server
-"
-:
-self
-.
-webServer
-                
-"
-testPrefix
-"
-:
-self
-.
-testPrefix
-                
-"
-displayResults
-"
-:
 str
 (
 self
@@ -3099,8 +3010,22 @@ _keep_open
 lower
 (
 )
-            
 }
+;
+"
+            
+f
+"
+const
+_HTTPD_PATH
+=
+'
+{
+httpdPath
+}
+'
+;
+"
             
 "
 -
@@ -3188,20 +3113,20 @@ MOZ_UPLOAD_DIR
 "
 ]
                 
+f
 "
 mochitest
 -
 server
 -
-%
-d
-.
-txt
-"
-%
+{
 MochitestServer
 .
 instance_count
+}
+.
+txt
+"
             
 )
             
@@ -3286,23 +3211,21 @@ _log
 .
 info
 (
+f
 "
-%
-s
-:
-launching
-%
-s
-"
-%
-(
+{
 self
 .
 __class__
 .
 __name__
+}
+:
+launching
+{
 command
-)
+}
+"
 )
         
 pid
@@ -3319,6 +3242,7 @@ _log
 .
 info
 (
+f
 "
 runtests
 .
@@ -3327,11 +3251,10 @@ py
 Server
 pid
 :
-%
-d
-"
-%
+{
 pid
+}
+"
 )
         
 if
@@ -3428,20 +3351,20 @@ _log
 .
 info
 (
+f
 "
 exception
 when
 enabling
 debugging
 :
-%
-s
-"
-%
+{
 str
 (
 e
 )
+}
+"
 )
                     
 time
@@ -3629,6 +3552,7 @@ _log
 .
 info
 (
+f
 "
 Failed
 to
@@ -3636,13 +3560,12 @@ stop
 web
 server
 on
-%
-s
-"
-%
+{
 self
 .
 shutdownURL
+}
+"
 )
             
 traceback
@@ -3967,6 +3890,7 @@ _log
 .
 info
 (
+f
 "
 runtests
 .
@@ -3976,11 +3900,10 @@ Websocket
 server
 pid
 :
-%
-d
-"
-%
+{
 pid
+}
+"
 )
     
 def
@@ -4229,37 +4152,34 @@ config
 write
 (
                     
+f
 "
 listen
 :
-%
-s
-:
-%
-s
-:
-%
-s
-:
-%
-s
-\
-n
-"
-                    
-%
-(
+{
 loc
 .
 host
+}
+:
+{
 loc
 .
 port
+}
+:
+{
 self
 .
 sslPort
+}
+:
+{
 customcert
-)
+}
+\
+n
+"
                 
 )
             
@@ -4294,37 +4214,34 @@ config
 write
 (
                     
+f
 "
 clientauth
 :
-%
-s
-:
-%
-s
-:
-%
-s
-:
-%
-s
-\
-n
-"
-                    
-%
-(
+{
 loc
 .
 host
+}
+:
+{
 loc
 .
 port
+}
+:
+{
 self
 .
 sslPort
+}
+:
+{
 clientauth
-)
+}
+\
+n
+"
                 
 )
             
@@ -4359,37 +4276,34 @@ config
 write
 (
                     
+f
 "
 redirhost
 :
-%
-s
-:
-%
-s
-:
-%
-s
-:
-%
-s
-\
-n
-"
-                    
-%
-(
+{
 loc
 .
 host
+}
+:
+{
 loc
 .
 port
+}
+:
+{
 self
 .
 sslPort
+}
+:
+{
 redirhost
-)
+}
+\
+n
+"
                 
 )
             
@@ -4433,36 +4347,32 @@ config
 .
 write
 (
-                    
+f
 "
-%
-s
-:
-%
-s
-:
-%
-s
-:
-%
-s
-\
-n
-"
-%
-(
+{
 option
+}
+:
+{
 loc
 .
 host
+}
+:
+{
 loc
 .
 port
+}
+:
+{
 self
 .
 sslPort
-)
-                
+}
+\
+n
+"
 )
     
 def
@@ -4541,24 +4451,25 @@ config
 .
 write
 (
+f
 "
 certdbdir
 :
-%
-s
-\
-n
-"
-%
+{
 self
 .
 certPath
+}
+\
+n
+"
 )
             
 config
 .
 write
 (
+f
 "
 forward
 :
@@ -4570,15 +4481,14 @@ forward
 .
 1
 :
-%
-s
-\
-n
-"
-%
+{
 self
 .
 httpPort
+}
+\
+n
+"
 )
             
 wsserver
@@ -4620,24 +4530,22 @@ config
 .
 write
 (
+f
 "
 websocketserver
 :
-%
-s
-:
-%
-s
-\
-n
-"
-%
-(
+{
 wsserver
+}
+:
+{
 self
 .
 webSocketPort
-)
+}
+\
+n
+"
 )
             
 listen_address
@@ -4662,26 +4570,24 @@ config
 .
 write
 (
+f
 "
 listen
 :
-%
-s
+{
+listen_address
+}
 :
-%
-s
+{
+self
+.
+sslPort
+}
 :
 pgoserver
 \
 n
 "
-%
-(
-listen_address
-self
-.
-sslPort
-)
 )
             
 for
@@ -4790,6 +4696,7 @@ log
 error
 (
                 
+f
 "
 INFO
 |
@@ -4802,11 +4709,10 @@ to
 find
 ssltunnel
 at
-%
-s
-"
-%
+{
 ssltunnel
+}
+"
             
 )
             
@@ -4869,6 +4775,7 @@ log
 .
 info
 (
+f
 "
 runtests
 .
@@ -4878,15 +4785,14 @@ SSL
 tunnel
 pid
 :
-%
-d
-"
-%
+{
 self
 .
 process
 .
 pid
+}
+"
 )
     
 def
@@ -5620,14 +5526,14 @@ buffers
 v4l2sink
 "
         
+f
 "
 device
 =
-%
-s
-"
-%
+{
 device
+}
+"
     
 ]
 )
@@ -6730,16 +6636,16 @@ urlOpts
 .
 append
 (
+f
 "
 timeout
 =
-%
-d
-"
-%
+{
 options
 .
 timeout
+}
+"
 )
             
 if
@@ -6754,16 +6660,16 @@ urlOpts
 .
 append
 (
+f
 "
 maxTimeouts
 =
-%
-d
-"
-%
+{
 options
 .
 maxTimeouts
+}
+"
 )
             
 if
@@ -6871,16 +6777,16 @@ urlOpts
 .
 append
 (
+f
 "
 startAt
 =
-%
-s
-"
-%
+{
 options
 .
 startAt
+}
+"
 )
             
 if
@@ -6895,16 +6801,16 @@ urlOpts
 .
 append
 (
+f
 "
 endAt
 =
-%
-s
-"
-%
+{
 options
 .
 endAt
+}
+"
 )
             
 if
@@ -6990,16 +6896,16 @@ urlOpts
 .
 append
 (
+f
 "
 repeat
 =
-%
-d
-"
-%
+{
 options
 .
 repeat
+}
+"
 )
             
 if
@@ -7056,20 +6962,8 @@ test_paths
 )
 :
                 
-self
-.
-urlOpts
-.
-append
-(
-                    
-"
 testname
 =
-%
-s
-"
-%
 "
 /
 "
@@ -7089,6 +6983,20 @@ test_paths
 ]
 )
                 
+self
+.
+urlOpts
+.
+append
+(
+f
+"
+testname
+=
+{
+testname
+}
+"
 )
             
 if
@@ -7103,16 +7011,16 @@ urlOpts
 .
 append
 (
+f
 "
 manifestFile
 =
-%
-s
-"
-%
+{
 options
 .
 manifestFile
+}
+"
 )
             
 if
@@ -7128,13 +7036,11 @@ urlOpts
 append
 (
                     
+f
 "
 failureFile
 =
-%
-s
-"
-%
+{
 self
 .
 getFullPath
@@ -7143,6 +7049,8 @@ options
 .
 failureFile
 )
+}
+"
                 
 )
             
@@ -7197,20 +7105,19 @@ urlOpts
 append
 (
                     
+f
 "
 dumpOutputDirectory
 =
-%
-s
-"
-                    
-%
+{
 encodeURIComponent
 (
 options
 .
 dumpOutputDirectory
 )
+}
+"
                 
 )
             
@@ -7287,16 +7194,16 @@ urlOpts
 .
 append
 (
+f
 "
 jscovDirPrefix
 =
-%
-s
-"
-%
+{
 options
 .
 jscov_dir_prefix
+}
+"
 )
             
 if
@@ -8612,11 +8519,8 @@ f
 .
 write
 (
-"
-%
-s
-"
-%
+str
+(
 self
 .
 server
@@ -8624,6 +8528,7 @@ server
 _process
 .
 pid
+)
 )
     
 def
@@ -8721,6 +8626,7 @@ log
 info
 (
             
+f
 "
 runtests
 .
@@ -8732,16 +8638,14 @@ process
 bridge
 pid
 :
-%
-d
-"
-            
-%
+{
 self
 .
 websocketProcessBridge
 .
 pid
+}
+"
         
 )
         
@@ -9241,17 +9145,15 @@ log
 .
 info
 (
+f
 "
 Use
 MOZ_NODE_PATH
 at
-%
-s
-"
-%
-(
+{
 nodeBin
-)
+}
+"
 )
         
 if
@@ -9280,18 +9182,16 @@ log
 .
 info
 (
+f
 "
 Use
 build
 node
 at
-%
-s
-"
-%
-(
+{
 nodeBin
-)
+}
+"
 )
         
 return
@@ -9782,18 +9682,18 @@ log
 .
 info
 (
+f
 "
 use
 http3
 server
 :
-%
-d
-"
-%
+{
 options
 .
 useHttp3Server
+}
+"
 )
         
 self
@@ -10407,6 +10307,7 @@ log
 .
 warning
 (
+f
 "
 runtests
 .
@@ -10415,13 +10316,12 @@ py
 Failed
 to
 copy
-%
-s
+{
+abspath
+}
 to
 profile
 "
-%
-abspath
 )
     
 def
@@ -10541,19 +10441,19 @@ manifestFile
 write
 (
                 
+f
 "
 content
 mochitests
-%
-s
+{
+chrometestDir
+}
 contentaccessible
 =
 yes
 \
 n
 "
-%
-chrometestDir
             
 )
             
@@ -10562,13 +10462,15 @@ manifestFile
 write
 (
                 
+f
 "
 content
 mochitests
 -
 any
-%
-s
+{
+chrometestDir
+}
 contentaccessible
 =
 yes
@@ -10578,9 +10480,6 @@ yes
 \
 n
 "
-                
-%
-chrometestDir
             
 )
             
@@ -10589,13 +10488,15 @@ manifestFile
 write
 (
                 
+f
 "
 content
 mochitests
 -
 content
-%
-s
+{
+chrometestDir
+}
 contentaccessible
 =
 yes
@@ -10605,9 +10506,6 @@ yes
 \
 n
 "
-                
-%
-chrometestDir
             
 )
             
@@ -10625,6 +10523,7 @@ manifestFile
 write
 (
                     
+f
 "
 resource
 testing
@@ -10635,15 +10534,14 @@ file
 /
 /
 /
-%
-s
-\
-n
-"
-%
+{
 options
 .
 testingModulesDir
+}
+\
+n
+"
                 
 )
         
@@ -12095,37 +11993,34 @@ log
 warning
 (
                     
+f
 "
 Warning
 :
-%
-s
+{
+test
+[
+'
+name
+'
+]
+}
 from
 manifest
-%
-s
+{
+test
+[
+'
+manifest
+'
+]
+}
 is
 not
 a
 valid
 test
 "
-                    
-%
-(
-test
-[
-"
-name
-"
-]
-test
-[
-"
-manifest
-"
-]
-)
                 
 )
                 
@@ -13095,19 +12990,19 @@ log
 .
 info
 (
+f
 "
 Dumping
 active_tests
 to
-%
-s
-file
-.
-"
-%
+{
 options
 .
 dump_tests
+}
+file
+.
+"
 )
             
 sys
@@ -13473,19 +13368,17 @@ log
 .
 warning
 (
-                    
+f
 "
 TestManifest
 masterPath
-%
-s
+{
+masterPath
+}
 does
 not
 exist
 "
-%
-masterPath
-                
 )
         
 return
@@ -14525,18 +14418,18 @@ log
 .
 info
 (
+f
 "
 Checking
 for
-%
-s
+{
+pname
+}
 processes
 .
 .
 .
 "
-%
-pname
 )
         
 if
@@ -14611,13 +14504,13 @@ log
 .
 info
 (
+f
 "
 killing
-%
-s
-"
-%
+{
 procd
+}
+"
 )
                             
 killPid
@@ -14639,11 +14532,13 @@ log
 .
 info
 (
+f
 "
 NOT
 killing
-%
-s
+{
+procd
+}
 (
 not
 an
@@ -14651,8 +14546,6 @@ orphan
 ?
 )
 "
-%
-procd
 )
                 
 except
@@ -14667,7 +14560,7 @@ log
 .
 info
 (
-                        
+f
 "
 Warning
 :
@@ -14675,21 +14568,17 @@ Unable
 to
 kill
 process
-%
-s
-:
-%
-s
-"
-%
-(
+{
 pname
+}
+:
+{
 str
 (
 e
 )
-)
-                    
+}
+"
 )
                     
 continue
@@ -14822,21 +14711,19 @@ log
 .
 info
 (
+f
 "
 killing
-%
-s
+{
+pname
+}
 (
 pid
-%
-d
+{
+pid
+}
 )
 "
-%
-(
-pname
-pid
-)
 )
                             
 killPid
@@ -14857,15 +14744,18 @@ log
 info
 (
                                 
+f
 "
 NOT
 killing
-%
-s
+{
+pname
+}
 (
 pid
-%
-d
+{
+pid
+}
 )
 (
 not
@@ -14874,12 +14764,6 @@ orphan
 ?
 )
 "
-                                
-%
-(
-pname
-pid
-)
                             
 )
             
@@ -15702,6 +15586,7 @@ log
 .
 info
 (
+f
 "
 use
 doh
@@ -15709,13 +15594,12 @@ server
 at
 port
 :
-%
-d
-"
-%
+{
 options
 .
 dohServerPort
+}
+"
 )
             
 self
@@ -15724,6 +15608,7 @@ log
 .
 info
 (
+f
 "
 use
 http3
@@ -15731,13 +15616,12 @@ server
 at
 port
 :
-%
-d
-"
-%
+{
 options
 .
 http3ServerPort
+}
+"
 )
         
 elif
@@ -15789,6 +15673,7 @@ log
 .
 info
 (
+f
 "
 use
 doh
@@ -15796,13 +15681,12 @@ server
 at
 port
 :
-%
-d
-"
-%
+{
 options
 .
 dohServerPort
+}
+"
 )
             
 self
@@ -15811,6 +15695,7 @@ log
 .
 info
 (
+f
 "
 use
 http2
@@ -15818,13 +15703,12 @@ server
 at
 port
 :
-%
-d
-"
-%
+{
 options
 .
 http2ServerPort
+}
+"
 )
         
 return
@@ -16000,22 +15884,20 @@ interpolation
 server
 "
 :
+f
 "
-%
-s
-:
-%
-s
-"
-%
-(
+{
 options
 .
 webServer
+}
+:
+{
 options
 .
 httpPort
-)
+}
+"
         
 }
         
@@ -16125,6 +16007,7 @@ log
 .
 info
 (
+f
 "
 Created
 a
@@ -16133,11 +16016,10 @@ conditioned
 profile
 copy
 :
-%
-s
-"
-%
+{
 condprof_copy
+}
+"
 )
         
 return
@@ -16670,6 +16552,7 @@ key4
 db
 "
                     
+f
 "
 during
 setup
@@ -16677,11 +16560,10 @@ of
 conditioned
 profile
 :
-%
-s
-"
-%
+{
 e
+}
+"
                 
 )
         
@@ -17555,13 +17437,17 @@ log
 warning
 (
                     
+f
 "
 cleaning
 up
 pidfile
 '
-%
-s
+{
+options
+.
+pidFile
+}
 '
 was
 unsuccessful
@@ -17570,11 +17456,6 @@ the
 test
 harness
 "
-                    
-%
-options
-.
-pidFile
                 
 )
         
@@ -17849,15 +17730,15 @@ log
 .
 info
 (
+f
 "
 Killing
 process
 :
-%
-s
-"
-%
+{
 processPID
+}
+"
 )
         
 if
@@ -18107,6 +17988,7 @@ log
 .
 warning
 (
+f
 "
 Failed
 to
@@ -18114,11 +17996,10 @@ lookup
 children
 of
 pid
-%
-d
-"
-%
+{
 parent_pid
+}
+"
 )
         
 rv
@@ -18252,6 +18133,7 @@ log
 .
 info
 (
+f
 "
 Automation
 Error
@@ -18261,11 +18143,10 @@ log
 not
 found
 :
-%
-s
-"
-%
+{
 processLog
+}
+"
 )
             
 return
@@ -18277,6 +18158,7 @@ log
 .
 info
 (
+f
 "
 zombiecheck
 |
@@ -18284,11 +18166,10 @@ Reading
 PID
 log
 :
-%
-s
-"
-%
+{
 processLog
+}
+"
 )
         
 processList
@@ -18317,6 +18198,7 @@ log
 info
 (
                 
+f
 "
 zombiecheck
 |
@@ -18327,11 +18209,10 @@ process
 with
 PID
 :
-%
-d
-"
-%
+{
 processPID
+}
+"
             
 )
             
@@ -18366,16 +18247,16 @@ child
 process
 "
                     
+f
 "
-%
-d
+{
+processPID
+}
 still
 alive
 after
 shutdown
 "
-%
-processPID
                 
 )
                 
@@ -18460,17 +18341,12 @@ name
                         
 firefoxes
 =
+f
 "
-%
-s
-%
-s
-\
-n
-"
-%
-(
+{
 firefoxes
+}
+{
 proc
 .
 as_dict
@@ -18479,7 +18355,10 @@ attrs
 =
 attrs
 )
-)
+}
+\
+n
+"
                 
 except
 Exception
@@ -18818,17 +18697,17 @@ Valgrind
 "
                 
 +
+f
 "
 Using
 timeout
 of
-%
-d
+{
+timeout
+}
 seconds
 .
 "
-%
-timeout
             
 )
         
@@ -19348,6 +19227,7 @@ log
 .
 info
 (
+f
 "
 runtests
 .
@@ -19356,28 +19236,27 @@ py
 Application
 pid
 :
-%
-d
-"
-%
+{
 proc
 .
 pid
+}
+"
 )
                 
 gecko_id
 =
+f
 "
 GECKO
 (
-%
-d
-)
-"
-%
+{
 proc
 .
 pid
+}
+)
+"
                 
 self
 .
@@ -19489,6 +19368,7 @@ log
 error
 (
                                 
+f
 "
 TEST
 -
@@ -19502,12 +19382,10 @@ setup
 missing
 extension
 at
-%
-s
-"
-                                
-%
+{
 addon_path
+}
+"
                             
 )
                             
@@ -19790,17 +19668,17 @@ dump_buffered
                 
 msg
 =
+f
 "
 application
 terminated
 with
 exit
 code
-%
-s
-"
-%
+{
 status
+}
+"
                 
 if
 crashAsPass
@@ -19998,6 +19876,7 @@ log
 info
 (
                 
+f
 "
 runtests
 .
@@ -20007,11 +19886,7 @@ Application
 ran
 for
 :
-%
-s
-"
-                
-%
+{
 str
 (
 datetime
@@ -20022,6 +19897,8 @@ now
 -
 startTime
 )
+}
+"
             
 )
             
@@ -20230,17 +20107,17 @@ lastTestSeen
 message
 "
 :
+f
 "
 application
 terminated
 with
 exit
 code
-%
-s
-"
-%
+{
 status
+}
+"
                 
 }
                 
@@ -22911,35 +22788,37 @@ steps
 [
                 
 (
+f
 "
 1
 .
 Run
 each
 test
-%
-d
+{
+VERIFY_REPEAT
+}
 times
 in
 one
 browser
 .
 "
-%
-VERIFY_REPEAT
 step1
 )
                 
 (
                     
+f
 "
 2
 .
 Run
 each
 test
-%
-d
+{
+VERIFY_REPEAT_SINGLE_BROWSER
+}
 times
 in
 a
@@ -22949,9 +22828,6 @@ each
 time
 .
 "
-                    
-%
-VERIFY_REPEAT_SINGLE_BROWSER
                     
 step2
                 
@@ -22959,14 +22835,16 @@ step2
                 
 (
                     
+f
 "
 3
 .
 Run
 each
 test
-%
-d
+{
+VERIFY_REPEAT
+}
 times
 in
 one
@@ -22977,23 +22855,22 @@ mode
 .
 "
                     
-%
-VERIFY_REPEAT
-                    
 step3
                 
 )
                 
 (
                     
+f
 "
 4
 .
 Run
 each
 test
-%
-d
+{
+VERIFY_REPEAT_SINGLE_BROWSER
+}
 times
 in
 a
@@ -23001,16 +22878,11 @@ new
 browser
 each
 time
-"
-                    
-"
 in
 chaos
 mode
 .
 "
-%
-VERIFY_REPEAT_SINGLE_BROWSER
                     
 step4
                 
@@ -23159,6 +23031,7 @@ log
 .
 info
 (
+f
 '
 :
 :
@@ -23168,15 +23041,14 @@ test
 verification
 step
 "
-%
-s
+{
+descr
+}
 "
 .
 .
 .
 '
-%
-descr
 )
             
 self
@@ -23351,24 +23223,22 @@ log
 .
 info
 (
+f
 "
 :
 :
 :
-%
-s
-:
-%
-s
-"
-%
-(
+{
 descr
+}
+:
+{
 stepResults
 [
 descr
 ]
-)
+}
+"
 )
         
 self
@@ -23390,17 +23260,17 @@ log
 .
 info
 (
+f
 "
 :
 :
 :
 Test
 verification
-%
-s
-"
-%
+{
 finalResult
+}
+"
 )
         
 self
@@ -24748,60 +24618,60 @@ Summary
             
 print
 (
+f
 "
 \
 tPassed
 :
-%
-s
-"
-%
+{
 self
 .
 countpass
+}
+"
 )
             
 print
 (
+f
 "
 \
 tFailed
 :
-%
-s
-"
-%
+{
 self
 .
 countfail
+}
+"
 )
             
 print
 (
+f
 "
 \
 tTodo
 :
-%
-s
-"
-%
+{
 self
 .
 counttodo
+}
+"
 )
             
 print
 (
+f
 "
 \
 tMode
 :
-%
-s
-"
-%
+{
 e10s_mode
+}
+"
 )
             
 print
@@ -24838,64 +24708,64 @@ Shutdown
             
 print
 (
+f
 "
 1
 INFO
 Passed
 :
-%
-s
-"
-%
+{
 self
 .
 countpass
+}
+"
 )
             
 print
 (
+f
 "
 2
 INFO
 Failed
 :
-%
-s
-"
-%
+{
 self
 .
 countfail
+}
+"
 )
             
 print
 (
+f
 "
 3
 INFO
 Todo
 :
-%
-s
-"
-%
+{
 self
 .
 counttodo
+}
+"
 )
             
 print
 (
+f
 "
 4
 INFO
 Mode
 :
-%
-s
-"
-%
+{
 e10s_mode
+}
+"
 )
             
 print
@@ -25095,17 +24965,17 @@ profiler_logger
 .
 info
 (
+f
 "
 Profile
 saved
 locally
 to
 :
-%
-s
-"
-%
+{
 profile_path
+}
+"
 )
             
 if
@@ -26746,24 +26616,20 @@ lastTestSeen
 message
 "
 :
+f
 "
 application
 timed
 out
 after
-%
-d
+{
+timeout
+}
 seconds
 with
 no
 output
 "
-            
-%
-int
-(
-timeout
-)
         
 }
         
@@ -26933,20 +26799,20 @@ profiler_logger
 info
 (
                 
+f
 "
 Sending
 SIGUSR1
 to
 pid
-%
-d
+{
+browser_pid
+}
 start
 the
 profiler
 .
 "
-%
-browser_pid
             
 )
             
@@ -26989,20 +26855,20 @@ profiler_logger
 info
 (
                 
+f
 "
 Sending
 SIGUSR2
 to
 pid
-%
-d
+{
+browser_pid
+}
 stop
 the
 profiler
 .
 "
-%
-browser_pid
             
 )
             
@@ -27057,22 +26923,22 @@ profiler_logger
 info
 (
                     
+f
 "
 Symbolicating
 profile
 in
-%
-s
-"
-%
+{
 os
 .
 environ
 [
-"
+'
 MOZ_UPLOAD_DIR
-"
+'
 ]
+}
+"
                 
 )
                 
@@ -27108,33 +26974,33 @@ profiler_logger
 .
 info
 (
+f
 "
 Looking
 inside
 symbols
 dir
 :
-%
-s
+{
+symbolsPath
+}
 )
 "
-%
-symbolsPath
 )
                 
 profiler_logger
 .
 info
 (
+f
 "
 Symbolicating
 profile
 :
-%
-s
-"
-%
+{
 profile_path
+}
+"
 )
                 
 symbolicate_profile_json
@@ -27191,16 +27057,16 @@ log
 .
 info
 (
+f
 "
 Found
 child
 pids
 :
-%
-s
-"
-%
+{
 child_pids
+}
+"
 )
         
 if
@@ -27231,6 +27097,7 @@ log
 .
 info
 (
+f
 "
 Failed
 to
@@ -27238,11 +27105,10 @@ get
 proc
 for
 pid
-%
-d
-"
-%
+{
 browser_pid
+}
+"
 )
                 
 browser_proc
@@ -27338,18 +27204,18 @@ log
 .
 info
 (
+f
 "
 psutil
 found
 pid
-%
-s
-dead
-"
-%
+{
 p
 .
 pid
+}
+dead
+"
 )
             
 for
@@ -27364,20 +27230,20 @@ log
 .
 warning
 (
+f
 "
 failed
 to
 kill
 pid
-%
-d
-after
-30s
-"
-%
+{
 p
 .
 pid
+}
+after
+30s
+"
 )
             
 self
@@ -27420,18 +27286,18 @@ log
 .
 info
 (
+f
 "
 psutil
 found
 pid
-%
-s
-dead
-"
-%
+{
 p
 .
 pid
+}
+dead
+"
 )
             
 for
@@ -27446,20 +27312,20 @@ log
 .
 warning
 (
+f
 "
 failed
 to
 kill
 pid
-%
-d
-after
-30s
-"
-%
+{
 p
 .
 pid
+}
+after
+30s
+"
 )
         
 else
