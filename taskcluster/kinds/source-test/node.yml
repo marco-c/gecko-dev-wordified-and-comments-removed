@@ -603,12 +603,6 @@ fluctuating
 #
 coverage
 on
-coverage
-.
-moz
-.
-tools
-/
 searchfox
 depending
 on
@@ -1165,12 +1159,6 @@ fluctuating
 #
 coverage
 on
-coverage
-.
-moz
-.
-tools
-/
 searchfox
 depending
 on
