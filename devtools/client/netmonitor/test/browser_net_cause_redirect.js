@@ -709,7 +709,7 @@ L10N
 getStr
 (
 "
-responseEmptyText
+responseRedirectEmptyText
 "
 )
 "
