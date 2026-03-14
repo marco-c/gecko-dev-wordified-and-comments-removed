@@ -250,8 +250,10 @@ aResult
 )
 ;
 static
+already_AddRefed
+<
 nsProxyInfo
-*
+>
 DeserializeProxyInfo
 (
 const

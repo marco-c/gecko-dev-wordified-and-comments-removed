@@ -184,8 +184,10 @@ this
 )
 )
 ;
+RefPtr
+<
 nsProxyInfo
-*
+>
 pi
 =
 aProxyInfo

@@ -2840,8 +2840,10 @@ HttpConnectionInfoCloneArgs
 aInfoArgs
 )
 {
+RefPtr
+<
 nsProxyInfo
-*
+>
 pi
 =
 nsProxyInfo
