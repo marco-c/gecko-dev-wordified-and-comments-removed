@@ -2079,6 +2079,8 @@ exclude
 =
 '
 .
+/
+.
 hg
 *
 '
@@ -2089,6 +2091,8 @@ exclude
 =
 '
 .
+/
+.
 git
 '
 \
@@ -2097,6 +2101,8 @@ git
 exclude
 =
 '
+.
+/
 .
 gitattributes
 '
@@ -2107,6 +2113,8 @@ exclude
 =
 '
 .
+/
+.
 gitkeep
 '
 \
@@ -2115,6 +2123,8 @@ gitkeep
 exclude
 =
 '
+.
+/
 .
 gitmodules
 '
@@ -2142,6 +2152,8 @@ cvs
 exclude
 =
 '
+.
+/
 .
 mozconfig
 *
