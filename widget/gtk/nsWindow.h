@@ -985,13 +985,6 @@ GetDefaultScaleInternal
 )
 override
 ;
-uint32_t
-GetMaxTouchPoints
-(
-)
-const
-override
-;
 mozilla
 :
 :
