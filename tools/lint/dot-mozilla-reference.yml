@@ -186,6 +186,16 @@ OriginAttributes
 .
 cpp
 -
+toolkit
+/
+components
+/
+resistfingerprinting
+/
+nsRFPService
+.
+cpp
+-
 docshell
 /
 base
