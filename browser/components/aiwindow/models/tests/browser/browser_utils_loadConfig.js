@@ -5,7 +5,6 @@ strict
 ;
 const
 {
-openAIEngine
 MODEL_FEATURES
 }
 =
