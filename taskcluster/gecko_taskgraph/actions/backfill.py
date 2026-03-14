@@ -1127,6 +1127,20 @@ test_manifests
         
 )
         
+original_label
+=
+input
+.
+get
+(
+"
+original_label
+"
+task
+.
+label
+)
+        
 task
 .
 task
@@ -1141,9 +1155,7 @@ name
 "
 ]
 =
-task
-.
-label
+original_label
         
 th_info
 =
@@ -1161,6 +1173,23 @@ treeherder
 "
 ]
         
+symbol
+=
+input
+.
+get
+(
+"
+symbol
+"
+th_info
+[
+"
+symbol
+"
+]
+)
+        
 th_info
 [
 "
@@ -1172,12 +1201,7 @@ add_backfill_suffix
 (
             
 SYMBOL_REGEX
-th_info
-[
-"
 symbol
-"
-]
 f
 "
 -
@@ -2036,6 +2060,10 @@ test
         
 return
     
+original_label
+=
+label
+    
 if
 label
 not
@@ -2063,6 +2091,15 @@ label
 ]
 =
 label
+    
+input
+[
+"
+original_label
+"
+]
+=
+original_label
     
 to_run
 =
