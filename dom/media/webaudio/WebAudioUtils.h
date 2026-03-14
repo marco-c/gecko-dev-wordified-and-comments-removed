@@ -105,7 +105,7 @@ const
 uint32_t
 MinSampleRate
 =
-3000
+8000
 ;
 const
 uint32_t
