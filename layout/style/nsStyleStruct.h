@@ -7916,12 +7916,6 @@ mAnchorScope
 mozilla
 :
 :
-StyleScopedName
-mTimelineScope
-;
-mozilla
-:
-:
 Maybe
 <
 mozilla
@@ -10197,6 +10191,12 @@ mozilla
 :
 StyleViewTransitionClass
 mViewTransitionClass
+;
+mozilla
+:
+:
+StyleScopedName
+mTimelineScope
 ;
 }
 ;
