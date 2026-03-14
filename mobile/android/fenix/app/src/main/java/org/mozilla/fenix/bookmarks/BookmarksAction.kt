@@ -147,12 +147,6 @@ Folder
 )
 :
 BookmarksAction
-internal
-data
-object
-ViewDisposed
-:
-BookmarksAction
 /
 *
 *
@@ -1108,13 +1102,6 @@ SnackbarAction
 :
 BookmarksAction
 {
-data
-object
-Undo
-:
-SnackbarAction
-(
-)
 data
 object
 Dismissed
