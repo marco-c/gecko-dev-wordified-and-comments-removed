@@ -64,6 +64,13 @@ py
 ]
 [
 "
+test_push
+.
+py
+"
+]
+[
+"
 test_push_to_try
 .
 py
