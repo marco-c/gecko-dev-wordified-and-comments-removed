@@ -315,6 +315,14 @@ dispatch
 (
 ViewAppeared
 )
+testScheduler
+.
+advanceTimeBy
+(
+15
+.
+seconds
+)
 store
 .
 dispatch
@@ -344,6 +352,9 @@ Inert
 true
 )
 ShakeConsentRequired
+Summarizing
+(
+)
 Summarizing
 (
 listOf
@@ -785,6 +796,9 @@ true
 )
 Summarizing
 (
+)
+Summarizing
+(
 listOf
 (
 "
@@ -1052,6 +1066,9 @@ SummarizationState
 Inert
 (
 true
+)
+Summarizing
+(
 )
 SummarizationState
 .
