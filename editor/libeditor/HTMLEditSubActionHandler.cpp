@@ -3815,10 +3815,17 @@ HTML
 HTMLEditUtils
 :
 :
-IsInvisibleBRElement
+IsBRElementFollowedByBlockBoundary
+(
+static_cast
+<
+HTMLBRElement
+&
+>
 (
 *
 previousBRElement
+)
 )
 )
 {
@@ -5361,6 +5368,8 @@ insertEmptyTextResult
 EndOfInsertedTextRef
 (
 )
+*
+editingHost
 )
 ;
 if
@@ -5732,6 +5741,8 @@ unwrappedReplaceTextResult
 EndOfInsertedTextRef
 (
 )
+*
+editingHost
 )
 ;
 if
@@ -7287,6 +7298,8 @@ rv
 EnsureNoFollowingUnnecessaryLineBreak
 (
 currentPoint
+*
+editingHost
 )
 ;
 if
@@ -13575,6 +13588,7 @@ rv
 EnsureNoFollowingUnnecessaryLineBreak
 (
 newCaretPosition
+aEditingHost
 )
 ;
 if
@@ -47352,7 +47366,7 @@ if
 HTMLEditUtils
 :
 :
-IsInvisibleBRElement
+IsBRElementFollowedByBlockBoundary
 (
 *
 previousEditableContent

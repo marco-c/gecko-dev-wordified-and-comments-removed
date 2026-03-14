@@ -6010,7 +6010,7 @@ aBRElement
 HTMLEditUtils
 :
 :
-IsInvisibleBRElement
+IsBRElementFollowedByBlockBoundary
 (
 *
 aBRElement
@@ -6514,7 +6514,7 @@ if
 (
 nextVisibleThing
 .
-ReachedInvisibleBRElement
+ReachedBRElementFollowedByBlockBoundary
 (
 )
 )

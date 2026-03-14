@@ -208,6 +208,11 @@ EditorEventListener
 cpp
 "
 "
+EditorLineBreak
+.
+cpp
+"
+"
 EditorUtils
 .
 cpp

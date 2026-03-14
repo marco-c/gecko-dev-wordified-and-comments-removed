@@ -99,6 +99,10 @@ int32_t
 ;
 enum
 class
+PaddingForEmptyBlock
+;
+enum
+class
 ParagraphSeparator
 ;
 enum

@@ -6777,6 +6777,10 @@ const
 EditorDOMPoint
 &
 aNextOrAfterModifiedPoint
+const
+Element
+&
+aEditingHost
 )
 ;
 [

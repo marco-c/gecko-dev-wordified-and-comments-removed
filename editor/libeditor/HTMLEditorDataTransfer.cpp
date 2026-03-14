@@ -3155,7 +3155,7 @@ if
 (
 prevVisibleThing
 .
-ReachedInvisibleBRElement
+ReachedBRElementFollowedByBlockBoundary
 (
 )
 )
@@ -4936,6 +4936,7 @@ mHTMLEditor
 EnsureNoFollowingUnnecessaryLineBreak
 (
 afterLastInsertedContent
+mEditingHost
 )
 ;
 if

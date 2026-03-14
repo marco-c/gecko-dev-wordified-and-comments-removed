@@ -4468,6 +4468,10 @@ aCaretPoint
 nsRange
 &
 aRangeToDelete
+const
+Element
+&
+aEditingHost
 )
 const
 ;
