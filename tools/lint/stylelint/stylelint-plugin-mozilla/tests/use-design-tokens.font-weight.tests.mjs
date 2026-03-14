@@ -399,11 +399,11 @@ var
 (
 -
 -
-heading
--
 font
 -
 weight
+-
+heading
 )
 ;
 }
