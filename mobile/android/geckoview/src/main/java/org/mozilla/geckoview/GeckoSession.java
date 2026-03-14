@@ -24664,7 +24664,9 @@ else
 if
 (
 "
-localhost
+loopback
+-
+network
 "
 .
 equals
@@ -24826,7 +24828,9 @@ PERMISSION_LOCAL_DEVICE_ACCESS
 :
 return
 "
-localhost
+loopback
+-
+network
 "
 ;
 case

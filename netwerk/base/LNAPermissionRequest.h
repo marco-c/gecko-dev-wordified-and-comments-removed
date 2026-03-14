@@ -34,10 +34,12 @@ net
 static
 constexpr
 nsLiteralCString
-LOCAL_HOST_PERMISSION_KEY
+LOOPBACK_NETWORK_PERMISSION_KEY
 =
 "
-localhost
+loopback
+-
+network
 "
 _ns
 ;

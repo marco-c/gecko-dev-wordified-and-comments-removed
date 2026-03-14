@@ -10235,7 +10235,7 @@ addSetting
 id
 :
 "
-localHostSettingsButton
+loopbackNetworkSettingsButton
 "
 onUserClick
 :
@@ -10245,7 +10245,7 @@ onUserClick
 >
 gPrivacyPane
 .
-showLocalHostExceptions
+showLoopbackNetworkExceptions
 (
 )
 deps
@@ -22533,7 +22533,7 @@ params
 )
 ;
 }
-showLocalHostExceptions
+showLoopbackNetworkExceptions
 (
 )
 {
@@ -22544,7 +22544,9 @@ params
 permissionType
 :
 "
-localhost
+loopback
+-
+network
 "
 }
 ;
