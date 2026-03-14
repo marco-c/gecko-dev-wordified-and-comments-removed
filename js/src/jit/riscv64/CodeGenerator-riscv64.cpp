@@ -1022,7 +1022,7 @@ emitWasmLoad
 (
 T
 *
-lir
+ins
 )
 {
 const
@@ -1030,7 +1030,7 @@ MWasmLoad
 *
 mir
 =
-lir
+ins
 -
 >
 mir
@@ -1058,7 +1058,7 @@ memoryBase
 =
 ToRegister
 (
-lir
+ins
 -
 >
 memoryBase
@@ -1071,7 +1071,7 @@ ptr
 =
 ToRegister
 (
-lir
+ins
 -
 >
 ptr
@@ -1084,7 +1084,7 @@ ptrScratch
 =
 ToTempRegisterOrInvalid
 (
-lir
+ins
 -
 >
 temp0
@@ -1155,7 +1155,7 @@ ptr
 ptrScratch
 ToAnyRegister
 (
-lir
+ins
 -
 >
 output
@@ -1178,7 +1178,7 @@ emitWasmStore
 (
 T
 *
-lir
+ins
 )
 {
 const
@@ -1186,7 +1186,7 @@ MWasmStore
 *
 mir
 =
-lir
+ins
 -
 >
 mir
@@ -1214,7 +1214,7 @@ memoryBase
 =
 ToRegister
 (
-lir
+ins
 -
 >
 memoryBase
@@ -1227,7 +1227,7 @@ ptr
 =
 ToRegister
 (
-lir
+ins
 -
 >
 ptr
@@ -1240,7 +1240,7 @@ ptrScratch
 =
 ToTempRegisterOrInvalid
 (
-lir
+ins
 -
 >
 temp0
@@ -1308,7 +1308,7 @@ access
 )
 ToAnyRegister
 (
-lir
+ins
 -
 >
 value
@@ -1889,7 +1889,7 @@ visitBox
 (
 LBox
 *
-box
+ins
 )
 {
 const
@@ -1897,7 +1897,7 @@ LAllocation
 *
 in
 =
-box
+ins
 -
 >
 payload
@@ -1909,7 +1909,7 @@ result
 =
 ToOutValue
 (
-box
+ins
 )
 ;
 masm
@@ -1918,7 +1918,7 @@ moveValue
 (
 TypedOrValueRegister
 (
-box
+ins
 -
 >
 type
@@ -1941,14 +1941,14 @@ visitUnbox
 (
 LUnbox
 *
-unbox
+ins
 )
 {
 MUnbox
 *
 mir
 =
-unbox
+ins
 -
 >
 mir
@@ -1960,7 +1960,7 @@ result
 =
 ToRegister
 (
-unbox
+ins
 -
 >
 output
@@ -1983,7 +1983,7 @@ value
 =
 ToValue
 (
-unbox
+ins
 -
 >
 input
@@ -2131,7 +2131,7 @@ bailoutFrom
 (
 &
 bail
-unbox
+ins
 -
 >
 snapshot
@@ -2146,7 +2146,7 @@ LAllocation
 *
 input
 =
-unbox
+ins
 -
 >
 getOperand
@@ -2588,7 +2588,7 @@ visitDivI64
 (
 LDivI64
 *
-lir
+ins
 )
 {
 Register
@@ -2596,7 +2596,7 @@ lhs
 =
 ToRegister
 (
-lir
+ins
 -
 >
 lhs
@@ -2609,7 +2609,7 @@ rhs
 =
 ToRegister
 (
-lir
+ins
 -
 >
 rhs
@@ -2622,7 +2622,7 @@ output
 =
 ToRegister
 (
-lir
+ins
 -
 >
 output
@@ -2634,7 +2634,7 @@ MDiv
 *
 div
 =
-lir
+ins
 -
 >
 mir
@@ -2644,7 +2644,7 @@ mir
 TrapIfDivideByZero
 (
 masm
-lir
+ins
 rhs
 )
 ;
@@ -2742,7 +2742,7 @@ visitModI64
 (
 LModI64
 *
-lir
+ins
 )
 {
 Register
@@ -2750,7 +2750,7 @@ lhs
 =
 ToRegister
 (
-lir
+ins
 -
 >
 lhs
@@ -2763,7 +2763,7 @@ rhs
 =
 ToRegister
 (
-lir
+ins
 -
 >
 rhs
@@ -2776,7 +2776,7 @@ output
 =
 ToRegister
 (
-lir
+ins
 -
 >
 output
@@ -2787,7 +2787,7 @@ output
 TrapIfDivideByZero
 (
 masm
-lir
+ins
 rhs
 )
 ;
@@ -2809,7 +2809,7 @@ visitUDivI64
 (
 LUDivI64
 *
-lir
+ins
 )
 {
 Register
@@ -2817,7 +2817,7 @@ lhs
 =
 ToRegister
 (
-lir
+ins
 -
 >
 lhs
@@ -2830,7 +2830,7 @@ rhs
 =
 ToRegister
 (
-lir
+ins
 -
 >
 rhs
@@ -2843,7 +2843,7 @@ output
 =
 ToRegister
 (
-lir
+ins
 -
 >
 output
@@ -2854,7 +2854,7 @@ output
 TrapIfDivideByZero
 (
 masm
-lir
+ins
 rhs
 )
 ;
@@ -2876,7 +2876,7 @@ visitUModI64
 (
 LUModI64
 *
-lir
+ins
 )
 {
 Register
@@ -2884,7 +2884,7 @@ lhs
 =
 ToRegister
 (
-lir
+ins
 -
 >
 lhs
@@ -2897,7 +2897,7 @@ rhs
 =
 ToRegister
 (
-lir
+ins
 -
 >
 rhs
@@ -2910,7 +2910,7 @@ output
 =
 ToRegister
 (
-lir
+ins
 -
 >
 output
@@ -2921,7 +2921,7 @@ output
 TrapIfDivideByZero
 (
 masm
-lir
+ins
 rhs
 )
 ;
@@ -2943,7 +2943,7 @@ visitWasmLoadI64
 (
 LWasmLoadI64
 *
-lir
+ins
 )
 {
 const
@@ -2951,7 +2951,7 @@ MWasmLoad
 *
 mir
 =
-lir
+ins
 -
 >
 mir
@@ -2963,7 +2963,7 @@ memoryBase
 =
 ToRegister
 (
-lir
+ins
 -
 >
 memoryBase
@@ -2976,7 +2976,7 @@ ptrScratch
 =
 ToTempRegisterOrInvalid
 (
-lir
+ins
 -
 >
 temp0
@@ -2989,7 +2989,7 @@ ptrReg
 =
 ToRegister
 (
-lir
+ins
 -
 >
 ptr
@@ -3042,7 +3042,7 @@ ptrReg
 ptrScratch
 ToOutRegister64
 (
-lir
+ins
 )
 )
 ;
@@ -3055,7 +3055,7 @@ visitWasmStoreI64
 (
 LWasmStoreI64
 *
-lir
+ins
 )
 {
 const
@@ -3063,7 +3063,7 @@ MWasmStore
 *
 mir
 =
-lir
+ins
 -
 >
 mir
@@ -3075,7 +3075,7 @@ memoryBase
 =
 ToRegister
 (
-lir
+ins
 -
 >
 memoryBase
@@ -3088,7 +3088,7 @@ ptrScratch
 =
 ToTempRegisterOrInvalid
 (
-lir
+ins
 -
 >
 temp0
@@ -3101,7 +3101,7 @@ ptrReg
 =
 ToRegister
 (
-lir
+ins
 -
 >
 ptr
@@ -3151,7 +3151,7 @@ access
 )
 ToRegister64
 (
-lir
+ins
 -
 >
 value
@@ -3172,12 +3172,12 @@ visitWasmSelectI64
 (
 LWasmSelectI64
 *
-lir
+ins
 )
 {
 MOZ_ASSERT
 (
-lir
+ins
 -
 >
 mir
@@ -3201,7 +3201,7 @@ cond
 =
 ToRegister
 (
-lir
+ins
 -
 >
 condExpr
@@ -3212,7 +3212,7 @@ condExpr
 LInt64Allocation
 falseExpr
 =
-lir
+ins
 -
 >
 falseExpr
@@ -3224,14 +3224,14 @@ out
 =
 ToOutRegister64
 (
-lir
+ins
 )
 ;
 MOZ_ASSERT
 (
 ToRegister64
 (
-lir
+ins
 -
 >
 trueExpr
@@ -3338,7 +3338,7 @@ visitExtendInt32ToInt64
 (
 LExtendInt32ToInt64
 *
-lir
+ins
 )
 {
 const
@@ -3346,7 +3346,7 @@ LAllocation
 *
 input
 =
-lir
+ins
 -
 >
 input
@@ -3358,7 +3358,7 @@ output
 =
 ToRegister
 (
-lir
+ins
 -
 >
 output
@@ -3368,7 +3368,7 @@ output
 ;
 if
 (
-lir
+ins
 -
 >
 mir
@@ -3419,13 +3419,13 @@ visitWrapInt64ToInt32
 (
 LWrapInt64ToInt32
 *
-lir
+ins
 )
 {
 LInt64Allocation
 input
 =
-lir
+ins
 -
 >
 input
@@ -3437,7 +3437,7 @@ output
 =
 ToRegister
 (
-lir
+ins
 -
 >
 output
@@ -3447,7 +3447,7 @@ output
 ;
 if
 (
-lir
+ins
 -
 >
 mir
@@ -3521,7 +3521,7 @@ visitSignExtendInt64
 (
 LSignExtendInt64
 *
-lir
+ins
 )
 {
 Register64
@@ -3529,7 +3529,7 @@ input
 =
 ToRegister64
 (
-lir
+ins
 -
 >
 input
@@ -3542,12 +3542,12 @@ output
 =
 ToOutRegister64
 (
-lir
+ins
 )
 ;
 switch
 (
-lir
+ins
 -
 >
 mir
@@ -3648,7 +3648,7 @@ visitWasmExtendU32Index
 (
 LWasmExtendU32Index
 *
-lir
+ins
 )
 {
 Register
@@ -3656,7 +3656,7 @@ input
 =
 ToRegister
 (
-lir
+ins
 -
 >
 input
@@ -3669,7 +3669,7 @@ output
 =
 ToRegister
 (
-lir
+ins
 -
 >
 output
@@ -3705,7 +3705,7 @@ visitWasmWrapU32Index
 (
 LWasmWrapU32Index
 *
-lir
+ins
 )
 {
 Register
@@ -3713,7 +3713,7 @@ input
 =
 ToRegister
 (
-lir
+ins
 -
 >
 input
@@ -3726,7 +3726,7 @@ output
 =
 ToRegister
 (
-lir
+ins
 -
 >
 output
@@ -3762,7 +3762,7 @@ visitWasmTruncateToInt64
 (
 LWasmTruncateToInt64
 *
-lir
+ins
 )
 {
 FloatRegister
@@ -3770,7 +3770,7 @@ input
 =
 ToFloatRegister
 (
-lir
+ins
 -
 >
 input
@@ -3783,14 +3783,14 @@ output
 =
 ToOutRegister64
 (
-lir
+ins
 )
 ;
 MWasmTruncateToInt64
 *
 mir
 =
-lir
+ins
 -
 >
 mir
@@ -4034,7 +4034,7 @@ visitInt64ToFloatingPoint
 (
 LInt64ToFloatingPoint
 *
-lir
+ins
 )
 {
 Register64
@@ -4042,7 +4042,7 @@ input
 =
 ToRegister64
 (
-lir
+ins
 -
 >
 input
@@ -4055,7 +4055,7 @@ output
 =
 ToFloatRegister
 (
-lir
+ins
 -
 >
 output
@@ -4066,7 +4066,7 @@ output
 MIRType
 outputType
 =
-lir
+ins
 -
 >
 mir
@@ -4111,7 +4111,7 @@ Double
 {
 if
 (
-lir
+ins
 -
 >
 mir
@@ -4155,7 +4155,7 @@ else
 {
 if
 (
-lir
+ins
 -
 >
 mir
@@ -4682,7 +4682,7 @@ visitAddI64
 (
 LAddI64
 *
-lir
+ins
 )
 {
 Register
@@ -4690,7 +4690,7 @@ lhs
 =
 ToRegister64
 (
-lir
+ins
 -
 >
 lhs
@@ -4703,7 +4703,7 @@ reg
 LInt64Allocation
 rhs
 =
-lir
+ins
 -
 >
 rhs
@@ -4715,7 +4715,7 @@ dest
 =
 ToOutRegister64
 (
-lir
+ins
 )
 .
 reg
@@ -5066,7 +5066,7 @@ visitSubI64
 (
 LSubI64
 *
-lir
+ins
 )
 {
 Register
@@ -5074,7 +5074,7 @@ lhs
 =
 ToRegister64
 (
-lir
+ins
 -
 >
 lhs
@@ -5087,7 +5087,7 @@ reg
 LInt64Allocation
 rhs
 =
-lir
+ins
 -
 >
 rhs
@@ -5099,7 +5099,7 @@ dest
 =
 ToOutRegister64
 (
-lir
+ins
 )
 .
 reg
@@ -6295,7 +6295,7 @@ visitMulI64
 (
 LMulI64
 *
-lir
+ins
 )
 {
 Register
@@ -6303,7 +6303,7 @@ lhs
 =
 ToRegister64
 (
-lir
+ins
 -
 >
 lhs
@@ -6316,7 +6316,7 @@ reg
 LInt64Allocation
 rhs
 =
-lir
+ins
 -
 >
 rhs
@@ -6328,7 +6328,7 @@ dest
 =
 ToOutRegister64
 (
-lir
+ins
 )
 .
 reg
@@ -8101,7 +8101,7 @@ visitBitOpI64
 (
 LBitOpI64
 *
-lir
+ins
 )
 {
 Register
@@ -8109,7 +8109,7 @@ lhs
 =
 ToRegister64
 (
-lir
+ins
 -
 >
 lhs
@@ -8122,7 +8122,7 @@ reg
 LInt64Allocation
 rhs
 =
-lir
+ins
 -
 >
 rhs
@@ -8134,14 +8134,14 @@ dest
 =
 ToOutRegister64
 (
-lir
+ins
 )
 .
 reg
 ;
 switch
 (
-lir
+ins
 -
 >
 bitop
@@ -8929,7 +8929,7 @@ visitShiftI64
 (
 LShiftI64
 *
-lir
+ins
 )
 {
 Register
@@ -8937,7 +8937,7 @@ lhs
 =
 ToRegister64
 (
-lir
+ins
 -
 >
 lhs
@@ -8952,7 +8952,7 @@ LAllocation
 *
 rhs
 =
-lir
+ins
 -
 >
 rhs
@@ -8964,7 +8964,7 @@ dest
 =
 ToOutRegister64
 (
-lir
+ins
 )
 .
 reg
@@ -9006,7 +9006,7 @@ shift
 {
 switch
 (
-lir
+ins
 -
 >
 bitop
@@ -9109,7 +9109,7 @@ rhs
 ;
 switch
 (
-lir
+ins
 -
 >
 bitop
@@ -9438,7 +9438,7 @@ visitMathD
 (
 LMathD
 *
-math
+ins
 )
 {
 FloatRegister
@@ -9446,7 +9446,7 @@ src1
 =
 ToFloatRegister
 (
-math
+ins
 -
 >
 lhs
@@ -9459,7 +9459,7 @@ src2
 =
 ToFloatRegister
 (
-math
+ins
 -
 >
 rhs
@@ -9472,7 +9472,7 @@ output
 =
 ToFloatRegister
 (
-math
+ins
 -
 >
 output
@@ -9482,7 +9482,7 @@ output
 ;
 switch
 (
-math
+ins
 -
 >
 jsop
@@ -9578,7 +9578,7 @@ visitMathF
 (
 LMathF
 *
-math
+ins
 )
 {
 FloatRegister
@@ -9586,7 +9586,7 @@ src1
 =
 ToFloatRegister
 (
-math
+ins
 -
 >
 lhs
@@ -9599,7 +9599,7 @@ src2
 =
 ToFloatRegister
 (
-math
+ins
 -
 >
 rhs
@@ -9612,7 +9612,7 @@ output
 =
 ToFloatRegister
 (
-math
+ins
 -
 >
 output
@@ -9622,7 +9622,7 @@ output
 ;
 switch
 (
-math
+ins
 -
 >
 jsop
@@ -9794,14 +9794,14 @@ visitWasmBuiltinTruncateDToInt32
 (
 LWasmBuiltinTruncateDToInt32
 *
-lir
+ins
 )
 {
 emitTruncateDouble
 (
 ToFloatRegister
 (
-lir
+ins
 -
 >
 input
@@ -9810,14 +9810,14 @@ input
 )
 ToRegister
 (
-lir
+ins
 -
 >
 output
 (
 )
 )
-lir
+ins
 -
 >
 mir
@@ -9834,12 +9834,12 @@ visitWasmBuiltinTruncateFToInt32
 (
 LWasmBuiltinTruncateFToInt32
 *
-lir
+ins
 )
 {
 MOZ_ASSERT
 (
-lir
+ins
 -
 >
 instance
@@ -9865,7 +9865,7 @@ truncateFloat32ModUint32
 (
 ToFloatRegister
 (
-lir
+ins
 -
 >
 input
@@ -9874,7 +9874,7 @@ input
 )
 ToRegister
 (
-lir
+ins
 -
 >
 output
@@ -9892,7 +9892,7 @@ visitWasmTruncateToInt32
 (
 LWasmTruncateToInt32
 *
-lir
+ins
 )
 {
 auto
@@ -9900,7 +9900,7 @@ input
 =
 ToFloatRegister
 (
-lir
+ins
 -
 >
 input
@@ -9913,7 +9913,7 @@ output
 =
 ToRegister
 (
-lir
+ins
 -
 >
 output
@@ -9925,7 +9925,7 @@ MWasmTruncateToInt32
 *
 mir
 =
-lir
+ins
 -
 >
 mir
@@ -10146,7 +10146,7 @@ visitTestDAndBranch
 (
 LTestDAndBranch
 *
-test
+ins
 )
 {
 FloatRegister
@@ -10154,7 +10154,7 @@ input
 =
 ToFloatRegister
 (
-test
+ins
 -
 >
 input
@@ -10172,7 +10172,7 @@ MBasicBlock
 *
 ifTrue
 =
-test
+ins
 -
 >
 ifTrue
@@ -10183,7 +10183,7 @@ MBasicBlock
 *
 ifFalse
 =
-test
+ins
 -
 >
 ifFalse
@@ -10255,7 +10255,7 @@ visitTestFAndBranch
 (
 LTestFAndBranch
 *
-test
+ins
 )
 {
 FloatRegister
@@ -10263,7 +10263,7 @@ input
 =
 ToFloatRegister
 (
-test
+ins
 -
 >
 input
@@ -10281,7 +10281,7 @@ MBasicBlock
 *
 ifTrue
 =
-test
+ins
 -
 >
 ifTrue
@@ -10292,7 +10292,7 @@ MBasicBlock
 *
 ifFalse
 =
-test
+ins
 -
 >
 ifFalse
@@ -10364,7 +10364,7 @@ visitCompareD
 (
 LCompareD
 *
-comp
+ins
 )
 {
 FloatRegister
@@ -10372,7 +10372,7 @@ lhs
 =
 ToFloatRegister
 (
-comp
+ins
 -
 >
 left
@@ -10385,7 +10385,7 @@ rhs
 =
 ToFloatRegister
 (
-comp
+ins
 -
 >
 right
@@ -10398,7 +10398,7 @@ dest
 =
 ToRegister
 (
-comp
+ins
 -
 >
 output
@@ -10414,7 +10414,7 @@ cond
 =
 JSOpToDoubleCondition
 (
-comp
+ins
 -
 >
 mir
@@ -10446,7 +10446,7 @@ visitCompareF
 (
 LCompareF
 *
-comp
+ins
 )
 {
 FloatRegister
@@ -10454,7 +10454,7 @@ lhs
 =
 ToFloatRegister
 (
-comp
+ins
 -
 >
 left
@@ -10467,7 +10467,7 @@ rhs
 =
 ToFloatRegister
 (
-comp
+ins
 -
 >
 right
@@ -10480,7 +10480,7 @@ dest
 =
 ToRegister
 (
-comp
+ins
 -
 >
 output
@@ -10496,7 +10496,7 @@ cond
 =
 JSOpToDoubleCondition
 (
-comp
+ins
 -
 >
 mir
@@ -10528,7 +10528,7 @@ visitCompareDAndBranch
 (
 LCompareDAndBranch
 *
-comp
+ins
 )
 {
 FloatRegister
@@ -10536,7 +10536,7 @@ lhs
 =
 ToFloatRegister
 (
-comp
+ins
 -
 >
 left
@@ -10549,7 +10549,7 @@ rhs
 =
 ToFloatRegister
 (
-comp
+ins
 -
 >
 right
@@ -10565,7 +10565,7 @@ cond
 =
 JSOpToDoubleCondition
 (
-comp
+ins
 -
 >
 cmpMir
@@ -10582,7 +10582,7 @@ MBasicBlock
 *
 ifTrue
 =
-comp
+ins
 -
 >
 ifTrue
@@ -10593,7 +10593,7 @@ MBasicBlock
 *
 ifFalse
 =
-comp
+ins
 -
 >
 ifFalse
@@ -10655,7 +10655,7 @@ visitCompareFAndBranch
 (
 LCompareFAndBranch
 *
-comp
+ins
 )
 {
 FloatRegister
@@ -10663,7 +10663,7 @@ lhs
 =
 ToFloatRegister
 (
-comp
+ins
 -
 >
 left
@@ -10676,7 +10676,7 @@ rhs
 =
 ToFloatRegister
 (
-comp
+ins
 -
 >
 right
@@ -10692,7 +10692,7 @@ cond
 =
 JSOpToDoubleCondition
 (
-comp
+ins
 -
 >
 cmpMir
@@ -10709,7 +10709,7 @@ MBasicBlock
 *
 ifTrue
 =
-comp
+ins
 -
 >
 ifTrue
@@ -10720,7 +10720,7 @@ MBasicBlock
 *
 ifFalse
 =
-comp
+ins
 -
 >
 ifFalse
@@ -10782,7 +10782,7 @@ visitWasmUint32ToDouble
 (
 LWasmUint32ToDouble
 *
-lir
+ins
 )
 {
 masm
@@ -10791,7 +10791,7 @@ convertUInt32ToDouble
 (
 ToRegister
 (
-lir
+ins
 -
 >
 input
@@ -10800,7 +10800,7 @@ input
 )
 ToFloatRegister
 (
-lir
+ins
 -
 >
 output
@@ -10818,7 +10818,7 @@ visitWasmUint32ToFloat32
 (
 LWasmUint32ToFloat32
 *
-lir
+ins
 )
 {
 masm
@@ -10827,7 +10827,7 @@ convertUInt32ToFloat32
 (
 ToRegister
 (
-lir
+ins
 -
 >
 input
@@ -10836,7 +10836,7 @@ input
 )
 ToFloatRegister
 (
-lir
+ins
 -
 >
 output
@@ -10988,12 +10988,12 @@ visitWasmLoad
 (
 LWasmLoad
 *
-lir
+ins
 )
 {
 emitWasmLoad
 (
-lir
+ins
 )
 ;
 }
@@ -11005,12 +11005,12 @@ visitWasmStore
 (
 LWasmStore
 *
-lir
+ins
 )
 {
 emitWasmStore
 (
-lir
+ins
 )
 ;
 }
@@ -14334,14 +14334,14 @@ visitWasmAddOffset
 (
 LWasmAddOffset
 *
-lir
+ins
 )
 {
 MWasmAddOffset
 *
 mir
 =
-lir
+ins
 -
 >
 mir
@@ -14353,7 +14353,7 @@ base
 =
 ToRegister
 (
-lir
+ins
 -
 >
 base
@@ -14366,7 +14366,7 @@ out
 =
 ToRegister
 (
-lir
+ins
 -
 >
 output
@@ -14436,14 +14436,14 @@ visitWasmAddOffset64
 (
 LWasmAddOffset64
 *
-lir
+ins
 )
 {
 MWasmAddOffset
 *
 mir
 =
-lir
+ins
 -
 >
 mir
@@ -14455,7 +14455,7 @@ base
 =
 ToRegister64
 (
-lir
+ins
 -
 >
 base
@@ -14468,7 +14468,7 @@ out
 =
 ToOutRegister64
 (
-lir
+ins
 )
 ;
 Label
@@ -14537,13 +14537,13 @@ visitAtomicTypedArrayElementBinop
 (
 LAtomicTypedArrayElementBinop
 *
-lir
+ins
 )
 {
 MOZ_ASSERT
 (
 !
-lir
+ins
 -
 >
 mir
@@ -14561,7 +14561,7 @@ output
 =
 ToAnyRegister
 (
-lir
+ins
 -
 >
 output
@@ -14574,7 +14574,7 @@ elements
 =
 ToRegister
 (
-lir
+ins
 -
 >
 elements
@@ -14587,7 +14587,7 @@ outTemp
 =
 ToTempRegisterOrInvalid
 (
-lir
+ins
 -
 >
 temp0
@@ -14600,7 +14600,7 @@ valueTemp
 =
 ToTempRegisterOrInvalid
 (
-lir
+ins
 -
 >
 temp1
@@ -14613,7 +14613,7 @@ offsetTemp
 =
 ToTempRegisterOrInvalid
 (
-lir
+ins
 -
 >
 temp2
@@ -14626,7 +14626,7 @@ maskTemp
 =
 ToTempRegisterOrInvalid
 (
-lir
+ins
 -
 >
 temp3
@@ -14639,7 +14639,7 @@ value
 =
 ToRegister
 (
-lir
+ins
 -
 >
 value
@@ -14653,7 +14653,7 @@ Scalar
 Type
 arrayType
 =
-lir
+ins
 -
 >
 mir
@@ -14671,7 +14671,7 @@ mem
 ToAddressOrBaseIndex
 (
 elements
-lir
+ins
 -
 >
 index
@@ -14705,7 +14705,7 @@ Synchronization
 Full
 (
 )
-lir
+ins
 -
 >
 mir
@@ -14737,12 +14737,12 @@ visitAtomicTypedArrayElementBinopForEffect
 (
 LAtomicTypedArrayElementBinopForEffect
 *
-lir
+ins
 )
 {
 MOZ_ASSERT
 (
-lir
+ins
 -
 >
 mir
@@ -14760,7 +14760,7 @@ elements
 =
 ToRegister
 (
-lir
+ins
 -
 >
 elements
@@ -14773,7 +14773,7 @@ valueTemp
 =
 ToTempRegisterOrInvalid
 (
-lir
+ins
 -
 >
 temp0
@@ -14786,7 +14786,7 @@ offsetTemp
 =
 ToTempRegisterOrInvalid
 (
-lir
+ins
 -
 >
 temp1
@@ -14799,7 +14799,7 @@ maskTemp
 =
 ToTempRegisterOrInvalid
 (
-lir
+ins
 -
 >
 temp2
@@ -14812,7 +14812,7 @@ value
 =
 ToRegister
 (
-lir
+ins
 -
 >
 value
@@ -14826,7 +14826,7 @@ Scalar
 Type
 arrayType
 =
-lir
+ins
 -
 >
 mir
@@ -14844,7 +14844,7 @@ mem
 ToAddressOrBaseIndex
 (
 elements
-lir
+ins
 -
 >
 index
@@ -14878,7 +14878,7 @@ Synchronization
 Full
 (
 )
-lir
+ins
 -
 >
 mir
@@ -14908,7 +14908,7 @@ visitCompareExchangeTypedArrayElement
 (
 LCompareExchangeTypedArrayElement
 *
-lir
+ins
 )
 {
 Register
@@ -14916,7 +14916,7 @@ elements
 =
 ToRegister
 (
-lir
+ins
 -
 >
 elements
@@ -14929,7 +14929,7 @@ output
 =
 ToAnyRegister
 (
-lir
+ins
 -
 >
 output
@@ -14942,7 +14942,7 @@ outTemp
 =
 ToTempRegisterOrInvalid
 (
-lir
+ins
 -
 >
 temp0
@@ -14955,7 +14955,7 @@ oldval
 =
 ToRegister
 (
-lir
+ins
 -
 >
 oldval
@@ -14968,7 +14968,7 @@ newval
 =
 ToRegister
 (
-lir
+ins
 -
 >
 newval
@@ -14981,7 +14981,7 @@ valueTemp
 =
 ToTempRegisterOrInvalid
 (
-lir
+ins
 -
 >
 temp1
@@ -14994,7 +14994,7 @@ offsetTemp
 =
 ToTempRegisterOrInvalid
 (
-lir
+ins
 -
 >
 temp2
@@ -15007,7 +15007,7 @@ maskTemp
 =
 ToTempRegisterOrInvalid
 (
-lir
+ins
 -
 >
 temp3
@@ -15021,7 +15021,7 @@ Scalar
 Type
 arrayType
 =
-lir
+ins
 -
 >
 mir
@@ -15039,7 +15039,7 @@ dest
 ToAddressOrBaseIndex
 (
 elements
-lir
+ins
 -
 >
 index
@@ -15095,7 +15095,7 @@ visitAtomicExchangeTypedArrayElement
 (
 LAtomicExchangeTypedArrayElement
 *
-lir
+ins
 )
 {
 Register
@@ -15103,7 +15103,7 @@ elements
 =
 ToRegister
 (
-lir
+ins
 -
 >
 elements
@@ -15116,7 +15116,7 @@ output
 =
 ToAnyRegister
 (
-lir
+ins
 -
 >
 output
@@ -15129,7 +15129,7 @@ outTemp
 =
 ToTempRegisterOrInvalid
 (
-lir
+ins
 -
 >
 temp0
@@ -15142,7 +15142,7 @@ value
 =
 ToRegister
 (
-lir
+ins
 -
 >
 value
@@ -15155,7 +15155,7 @@ valueTemp
 =
 ToTempRegisterOrInvalid
 (
-lir
+ins
 -
 >
 temp1
@@ -15168,7 +15168,7 @@ offsetTemp
 =
 ToTempRegisterOrInvalid
 (
-lir
+ins
 -
 >
 temp2
@@ -15181,7 +15181,7 @@ maskTemp
 =
 ToTempRegisterOrInvalid
 (
-lir
+ins
 -
 >
 temp3
@@ -15195,7 +15195,7 @@ Scalar
 Type
 arrayType
 =
-lir
+ins
 -
 >
 mir
@@ -15213,7 +15213,7 @@ dest
 ToAddressOrBaseIndex
 (
 elements
-lir
+ins
 -
 >
 index
@@ -15268,7 +15268,7 @@ visitCompareExchangeTypedArrayElement64
 (
 LCompareExchangeTypedArrayElement64
 *
-lir
+ins
 )
 {
 Register
@@ -15276,7 +15276,7 @@ elements
 =
 ToRegister
 (
-lir
+ins
 -
 >
 elements
@@ -15289,7 +15289,7 @@ oldval
 =
 ToRegister64
 (
-lir
+ins
 -
 >
 oldval
@@ -15302,7 +15302,7 @@ newval
 =
 ToRegister64
 (
-lir
+ins
 -
 >
 newval
@@ -15315,7 +15315,7 @@ out
 =
 ToOutRegister64
 (
-lir
+ins
 )
 ;
 Scalar
@@ -15324,7 +15324,7 @@ Scalar
 Type
 arrayType
 =
-lir
+ins
 -
 >
 mir
@@ -15342,7 +15342,7 @@ dest
 ToAddressOrBaseIndex
 (
 elements
-lir
+ins
 -
 >
 index
@@ -15393,7 +15393,7 @@ visitAtomicExchangeTypedArrayElement64
 (
 LAtomicExchangeTypedArrayElement64
 *
-lir
+ins
 )
 {
 Register
@@ -15401,7 +15401,7 @@ elements
 =
 ToRegister
 (
-lir
+ins
 -
 >
 elements
@@ -15414,7 +15414,7 @@ value
 =
 ToRegister64
 (
-lir
+ins
 -
 >
 value
@@ -15427,7 +15427,7 @@ out
 =
 ToOutRegister64
 (
-lir
+ins
 )
 ;
 Scalar
@@ -15436,7 +15436,7 @@ Scalar
 Type
 arrayType
 =
-lir
+ins
 -
 >
 mir
@@ -15454,7 +15454,7 @@ dest
 ToAddressOrBaseIndex
 (
 elements
-lir
+ins
 -
 >
 index
@@ -15504,12 +15504,12 @@ visitAtomicTypedArrayElementBinop64
 (
 LAtomicTypedArrayElementBinop64
 *
-lir
+ins
 )
 {
 MOZ_ASSERT
 (
-lir
+ins
 -
 >
 mir
@@ -15527,7 +15527,7 @@ elements
 =
 ToRegister
 (
-lir
+ins
 -
 >
 elements
@@ -15540,7 +15540,7 @@ value
 =
 ToRegister64
 (
-lir
+ins
 -
 >
 value
@@ -15553,7 +15553,7 @@ temp
 =
 ToRegister64
 (
-lir
+ins
 -
 >
 temp0
@@ -15566,7 +15566,7 @@ out
 =
 ToOutRegister64
 (
-lir
+ins
 )
 ;
 Scalar
@@ -15575,7 +15575,7 @@ Scalar
 Type
 arrayType
 =
-lir
+ins
 -
 >
 mir
@@ -15590,7 +15590,7 @@ arrayType
 AtomicOp
 atomicOp
 =
-lir
+ins
 -
 >
 mir
@@ -15608,7 +15608,7 @@ dest
 ToAddressOrBaseIndex
 (
 elements
-lir
+ins
 -
 >
 index
@@ -15660,13 +15660,13 @@ visitAtomicTypedArrayElementBinopForEffect64
 (
 LAtomicTypedArrayElementBinopForEffect64
 *
-lir
+ins
 )
 {
 MOZ_ASSERT
 (
 !
-lir
+ins
 -
 >
 mir
@@ -15684,7 +15684,7 @@ elements
 =
 ToRegister
 (
-lir
+ins
 -
 >
 elements
@@ -15697,7 +15697,7 @@ value
 =
 ToRegister64
 (
-lir
+ins
 -
 >
 value
@@ -15710,7 +15710,7 @@ temp
 =
 ToRegister64
 (
-lir
+ins
 -
 >
 temp0
@@ -15724,7 +15724,7 @@ Scalar
 Type
 arrayType
 =
-lir
+ins
 -
 >
 mir
@@ -15739,7 +15739,7 @@ arrayType
 AtomicOp
 atomicOp
 =
-lir
+ins
 -
 >
 mir
@@ -15757,7 +15757,7 @@ dest
 ToAddressOrBaseIndex
 (
 elements
-lir
+ins
 -
 >
 index
@@ -15808,7 +15808,7 @@ visitAtomicLoad64
 (
 LAtomicLoad64
 *
-lir
+ins
 )
 {
 Register
@@ -15816,7 +15816,7 @@ elements
 =
 ToRegister
 (
-lir
+ins
 -
 >
 elements
@@ -15829,7 +15829,7 @@ out
 =
 ToOutRegister64
 (
-lir
+ins
 )
 ;
 Scalar
@@ -15838,7 +15838,7 @@ Scalar
 Type
 storageType
 =
-lir
+ins
 -
 >
 mir
@@ -15856,7 +15856,7 @@ source
 ToAddressOrBaseIndex
 (
 elements
-lir
+ins
 -
 >
 index
@@ -15923,7 +15923,7 @@ visitAtomicStore64
 (
 LAtomicStore64
 *
-lir
+ins
 )
 {
 Register
@@ -15931,7 +15931,7 @@ elements
 =
 ToRegister
 (
-lir
+ins
 -
 >
 elements
@@ -15944,7 +15944,7 @@ value
 =
 ToRegister64
 (
-lir
+ins
 -
 >
 value
@@ -15958,7 +15958,7 @@ Scalar
 Type
 writeType
 =
-lir
+ins
 -
 >
 mir
@@ -15976,7 +15976,7 @@ dest
 ToAddressOrBaseIndex
 (
 elements
-lir
+ins
 -
 >
 index
@@ -16043,7 +16043,7 @@ visitWasmCompareExchangeI64
 (
 LWasmCompareExchangeI64
 *
-lir
+ins
 )
 {
 Register
@@ -16051,7 +16051,7 @@ memoryBase
 =
 ToRegister
 (
-lir
+ins
 -
 >
 memoryBase
@@ -16064,7 +16064,7 @@ ptr
 =
 ToRegister
 (
-lir
+ins
 -
 >
 ptr
@@ -16077,7 +16077,7 @@ oldValue
 =
 ToRegister64
 (
-lir
+ins
 -
 >
 oldValue
@@ -16090,7 +16090,7 @@ newValue
 =
 ToRegister64
 (
-lir
+ins
 -
 >
 newValue
@@ -16103,13 +16103,13 @@ output
 =
 ToOutRegister64
 (
-lir
+ins
 )
 ;
 uint32_t
 offset
 =
-lir
+ins
 -
 >
 mir
@@ -16138,7 +16138,7 @@ masm
 .
 wasmCompareExchange64
 (
-lir
+ins
 -
 >
 mir
@@ -16164,7 +16164,7 @@ visitWasmAtomicExchangeI64
 (
 LWasmAtomicExchangeI64
 *
-lir
+ins
 )
 {
 Register
@@ -16172,7 +16172,7 @@ memoryBase
 =
 ToRegister
 (
-lir
+ins
 -
 >
 memoryBase
@@ -16185,7 +16185,7 @@ ptr
 =
 ToRegister
 (
-lir
+ins
 -
 >
 ptr
@@ -16198,7 +16198,7 @@ value
 =
 ToRegister64
 (
-lir
+ins
 -
 >
 value
@@ -16211,13 +16211,13 @@ output
 =
 ToOutRegister64
 (
-lir
+ins
 )
 ;
 uint32_t
 offset
 =
-lir
+ins
 -
 >
 mir
@@ -16246,7 +16246,7 @@ masm
 .
 wasmAtomicExchange64
 (
-lir
+ins
 -
 >
 mir
@@ -16271,7 +16271,7 @@ visitWasmAtomicBinopI64
 (
 LWasmAtomicBinopI64
 *
-lir
+ins
 )
 {
 Register
@@ -16279,7 +16279,7 @@ memoryBase
 =
 ToRegister
 (
-lir
+ins
 -
 >
 memoryBase
@@ -16292,7 +16292,7 @@ ptr
 =
 ToRegister
 (
-lir
+ins
 -
 >
 ptr
@@ -16305,7 +16305,7 @@ value
 =
 ToRegister64
 (
-lir
+ins
 -
 >
 value
@@ -16318,7 +16318,7 @@ output
 =
 ToOutRegister64
 (
-lir
+ins
 )
 ;
 Register64
@@ -16326,7 +16326,7 @@ temp
 =
 ToRegister64
 (
-lir
+ins
 -
 >
 temp0
@@ -16337,7 +16337,7 @@ temp0
 uint32_t
 offset
 =
-lir
+ins
 -
 >
 mir
@@ -16366,7 +16366,7 @@ masm
 .
 wasmAtomicFetchOp64
 (
-lir
+ins
 -
 >
 mir
@@ -16377,7 +16377,7 @@ mir
 access
 (
 )
-lir
+ins
 -
 >
 mir
