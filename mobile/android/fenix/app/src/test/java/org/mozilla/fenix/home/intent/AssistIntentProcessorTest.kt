@@ -259,8 +259,9 @@ val
 result
 =
 StartSearchIntentProcessor
-(
-)
+{
+true
+}
 .
 process
 (
