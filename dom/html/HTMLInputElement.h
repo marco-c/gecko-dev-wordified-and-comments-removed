@@ -4027,9 +4027,13 @@ void
 SetCheckedInternal
 (
 bool
-aValue
+aChecked
 bool
 aNotify
+bool
+aUpdateRadioGroup
+=
+true
 )
 ;
 void

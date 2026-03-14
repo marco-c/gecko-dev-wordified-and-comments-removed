@@ -14836,6 +14836,7 @@ SetCheckedInternal
 (
 false
 true
+false
 )
 ;
 return
@@ -15329,6 +15330,8 @@ bool
 aChecked
 bool
 aNotify
+bool
+aUpdateRadioGroup
 )
 {
 mChecked
@@ -15376,6 +15379,9 @@ FormControlType
 :
 :
 InputRadio
+&
+&
+aUpdateRadioGroup
 )
 {
 UpdateRadioGroupState
