@@ -316,6 +316,15 @@ case
 eCSSProperty_font_stretch
 :
 case
+eCSSProperty_flex_grow
+:
+case
+eCSSProperty_flex_shrink
+:
+case
+eCSSProperty_stroke_miterlimit
+:
+case
 eCSSProperty_column_width
 :
 case
