@@ -3017,6 +3017,10 @@ in
 {
             
 "
+BorderSideWidth
+"
+            
+"
 BorderSpacing
 "
             
