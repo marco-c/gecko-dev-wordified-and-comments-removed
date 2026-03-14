@@ -1350,22 +1350,6 @@ windows11
 /
 asan
 "
-        
-"
-win64
--
-aarch64
-/
-opt
-"
-:
-"
-windows11
--
-aarch64
-/
-opt
-"
     
 }
     
@@ -1832,6 +1816,12 @@ time
 "
         
 "
+chunks
+"
+        
+"
+default
+-
 chunks
 "
         
@@ -7953,7 +7943,7 @@ try_task_config
 }
 )
     
-gecko_profile
+gecko_profile_from_try
 =
 try_task_config
 .
@@ -7967,7 +7957,7 @@ profile
 False
 )
     
-env
+startup_profile
 =
 try_task_config
 .
@@ -7979,10 +7969,6 @@ env
 {
 }
 )
-    
-startup_profile
-=
-env
 .
 get
 (
@@ -8001,6 +7987,57 @@ task
 in
 tasks
 :
+        
+extra_options
+=
+task
+.
+get
+(
+"
+mozharness
+"
+{
+}
+)
+.
+get
+(
+"
+extra
+-
+options
+"
+[
+]
+)
+        
+has_gecko_profile_option
+=
+any
+(
+            
+"
+-
+-
+gecko
+-
+profile
+"
+in
+option
+for
+option
+in
+extra_options
+        
+)
+        
+gecko_profile
+=
+gecko_profile_from_try
+or
+has_gecko_profile_option
         
 if
 (
