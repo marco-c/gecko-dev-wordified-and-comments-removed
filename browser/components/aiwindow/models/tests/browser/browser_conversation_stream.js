@@ -210,7 +210,6 @@ AIWindow
 toggleAIWindow
 (
 window
-true
 )
 ;
 registerCleanupFunction
@@ -224,7 +223,6 @@ AIWindow
 toggleAIWindow
 (
 window
-false
 )
 )
 ;
