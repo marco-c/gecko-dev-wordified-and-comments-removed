@@ -385,6 +385,10 @@ nsIWebTransportHash
 >
 >
 mServerCertHashes
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 bool
 mDedicatedConnection
