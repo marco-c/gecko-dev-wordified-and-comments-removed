@@ -28,11 +28,6 @@ nsIGIOService
 idl
 "
 "
-nsIHapticFeedback
-.
-idl
-"
-"
 nsIPlatformInfo
 .
 idl

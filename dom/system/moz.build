@@ -342,11 +342,6 @@ nsDeviceSensors
 cpp
 "
 "
-nsHapticFeedback
-.
-cpp
-"
-"
 nsOSPermissionRequestBase
 .
 cpp

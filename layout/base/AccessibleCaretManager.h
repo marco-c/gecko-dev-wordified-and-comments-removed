@@ -102,13 +102,6 @@ h
 #
 include
 "
-nsIHapticFeedback
-.
-h
-"
-#
-include
-"
 nsISelectionListener
 .
 h
@@ -458,11 +451,11 @@ UpdateShouldDisableApz
 void
 ProvideHapticFeedback
 (
-nsIHapticFeedback
+mozilla
 :
 :
 HapticFeedbackType
-aEffect
+aType
 )
 ;
 nsIFrame

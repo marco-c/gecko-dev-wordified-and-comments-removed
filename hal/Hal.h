@@ -515,13 +515,6 @@ GetHeterogeneousCpuInfo
 (
 )
 ;
-void
-PerformHapticFeedback
-(
-int32_t
-aType
-)
-;
 }
 }
 #
