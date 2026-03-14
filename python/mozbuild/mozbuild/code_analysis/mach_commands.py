@@ -1858,16 +1858,17 @@ read
 )
 )
     
-total
-=
-0
-    
 import
 re
     
 chunk_size
 =
 50
+    
+sources
+=
+[
+]
     
 for
 offset
@@ -1886,13 +1887,7 @@ chunk_size
 source_chunks
 =
 [
-            
-re
-.
-escape
-(
 f
-)
 for
 f
 in
@@ -1904,11 +1899,6 @@ offset
 +
 chunk_size
 ]
-.
-copy
-(
-)
-        
 ]
         
 name_re
@@ -1957,18 +1947,24 @@ file
 )
 :
                 
-total
-=
-total
-+
-1
+sources
+.
+append
+(
+f
+[
+"
+file
+"
+]
+)
     
 source
 =
 _generate_path_list
 (
 command_context
-source
+sources
 verbose
 =
 verbose
@@ -1976,7 +1972,7 @@ verbose
     
 if
 not
-total
+sources
 or
 not
 source
@@ -2065,7 +2061,10 @@ command_context
 .
 checks_with_data
         
-total
+len
+(
+sources
+)
     
 )
     
