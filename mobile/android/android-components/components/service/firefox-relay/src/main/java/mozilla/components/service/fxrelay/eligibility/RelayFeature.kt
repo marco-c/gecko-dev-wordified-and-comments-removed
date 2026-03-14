@@ -629,7 +629,7 @@ existingClient
 =
 accountManager
 .
-connectedAccount
+authenticatedAccount
 (
 )
 ?
