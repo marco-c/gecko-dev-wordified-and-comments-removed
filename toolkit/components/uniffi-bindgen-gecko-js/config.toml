@@ -1377,7 +1377,7 @@ record_breach_alert_dismissal
 "
 =
 "
-Sync
+AsyncWrapped
 "
 "
 LoginStore
@@ -1386,7 +1386,7 @@ record_breach_alert_dismissal_time
 "
 =
 "
-Sync
+AsyncWrapped
 "
 "
 LoginStore
@@ -1422,7 +1422,7 @@ reset_all_breaches
 "
 =
 "
-Sync
+AsyncWrapped
 "
 "
 LoginStore

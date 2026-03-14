@@ -618,6 +618,14 @@ timesUsed
 ;
 clone
 .
+timeLastBreachAlertDismissed
+=
+this
+.
+timeLastBreachAlertDismissed
+;
+clone
+.
 syncCounter
 =
 this
@@ -675,6 +683,9 @@ timePasswordChanged
 :
 null
 timesUsed
+:
+null
+timeLastBreachAlertDismissed
 :
 null
 }
