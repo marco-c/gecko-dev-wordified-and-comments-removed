@@ -2062,6 +2062,13 @@ method
 "
 HEAD
 "
+cache
+:
+"
+no
+-
+cache
+"
 signal
 :
 abortSignal
