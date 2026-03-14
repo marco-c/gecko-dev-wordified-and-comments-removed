@@ -26,15 +26,6 @@ enabled
 =
 true
 "
-"
-extensions
-.
-formautofill
-.
-skipProgrammaticCheckForTests
-=
-true
-"
 ]
 support
 -
