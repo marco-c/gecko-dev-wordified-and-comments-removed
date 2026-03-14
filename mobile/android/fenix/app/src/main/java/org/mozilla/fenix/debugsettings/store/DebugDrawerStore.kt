@@ -207,6 +207,9 @@ DrawerStatus
 .
 Closed
 )
+DebugDrawerAction
+.
+ViewAppeared
 is
 DebugDrawerAction
 .

@@ -512,6 +512,9 @@ DrawerOpened
 DebugDrawerAction
 .
 DrawerClosed
+DebugDrawerAction
+.
+ViewAppeared
 -
 >
 Unit
