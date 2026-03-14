@@ -456,9 +456,7 @@ request
 }
 case
 "
-loopback
--
-network
+localhost
 "
 :
 {
@@ -468,7 +466,7 @@ lazy
 .
 PermissionUI
 .
-LoopbackNetworkPermissionPrompt
+LocalHostPermissionPrompt
 (
 request
 )

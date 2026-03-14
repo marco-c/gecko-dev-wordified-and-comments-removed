@@ -343,9 +343,7 @@ true
 "
 network
 .
-loopback
--
-network
+localhost
 .
 prompt
 .
@@ -369,9 +367,7 @@ true
 "
 network
 .
-loopback
--
-network
+localhost
 .
 prompt
 .
@@ -1282,9 +1278,7 @@ page_with_trackers
 html
 "
 "
-loopback
--
-network
+localhost
 "
 Services
 .
@@ -1395,9 +1389,7 @@ page_with_trackers
 html
 "
 "
-loopback
--
-network
+localhost
 "
 )
 ;
@@ -1418,9 +1410,7 @@ const
 TEST_PERMISSION_1
 =
 "
-loopback
--
-network
+localhost
 "
 ;
 await

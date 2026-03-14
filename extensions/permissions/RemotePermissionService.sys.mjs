@@ -235,11 +235,7 @@ nsIHttpsOnlyModePermission
 .
 HTTPSFIRST_LOAD_INSECURE_ALLOW
 ]
-"
-loopback
--
-network
-"
+localhost
 :
 [
 "

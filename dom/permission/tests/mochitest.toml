@@ -64,15 +64,6 @@ resistFingerprinting
 =
 false
 "
-"
-network
-.
-lna
-.
-blocking
-=
-true
-"
 ]
 [
 "

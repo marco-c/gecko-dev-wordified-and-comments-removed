@@ -1047,9 +1047,7 @@ PopupNotifications
 getNotification
 (
 "
-loopback
--
-network
+localhost
 "
 portalTab
 .

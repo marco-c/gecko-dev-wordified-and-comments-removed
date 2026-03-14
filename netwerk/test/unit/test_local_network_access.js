@@ -684,9 +684,7 @@ setBoolPref
 "
 network
 .
-loopback
--
-network
+localhost
 .
 prompt
 .
@@ -971,9 +969,7 @@ clearUserPref
 "
 network
 .
-loopback
--
-network
+localhost
 .
 prompt
 .
@@ -1573,9 +1569,7 @@ setBoolPref
 "
 network
 .
-loopback
--
-network
+localhost
 .
 prompt
 .
@@ -2956,9 +2950,7 @@ setBoolPref
 "
 network
 .
-loopback
--
-network
+localhost
 .
 prompt
 .
@@ -3353,9 +3345,7 @@ setBoolPref
 "
 network
 .
-loopback
--
-network
+localhost
 .
 prompt
 .
@@ -3754,9 +3744,7 @@ setBoolPref
 "
 network
 .
-loopback
--
-network
+localhost
 .
 prompt
 .

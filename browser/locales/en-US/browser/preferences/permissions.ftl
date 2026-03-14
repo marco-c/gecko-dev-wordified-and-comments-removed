@@ -1464,8 +1464,8 @@ features
 Site
 Permissions
 -
-Loopback
-network
+Local
+host
 permissions
 -
 site

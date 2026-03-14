@@ -19056,7 +19056,7 @@ desc
 id
 :
 "
-loopbackNetworkSettingsButton
+localHostSettingsButton
 "
 control
 :
