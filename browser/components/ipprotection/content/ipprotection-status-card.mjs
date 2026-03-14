@@ -803,6 +803,11 @@ disabled
 {
 buttonDisabled
 }
+closemenu
+=
+"
+none
+"
 >
 <
 /
