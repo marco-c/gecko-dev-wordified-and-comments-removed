@@ -1866,6 +1866,13 @@ html
 ]
 [
 "
+test_composition_modified_as_multiple_text_nodes
+.
+html
+"
+]
+[
+"
 test_composition_with_highlight_in_texteditor
 .
 html
