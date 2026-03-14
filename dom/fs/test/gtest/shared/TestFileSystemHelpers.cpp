@@ -427,13 +427,7 @@ testObject2
 ;
 testObject2
 =
-std
-:
-:
-move
-(
 testObject1
-)
 ;
 }
 }

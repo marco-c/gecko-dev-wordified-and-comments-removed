@@ -7647,13 +7647,7 @@ mMutex
 ;
 mInfo
 =
-std
-:
-:
-move
-(
 info
-)
 ;
 }
 }

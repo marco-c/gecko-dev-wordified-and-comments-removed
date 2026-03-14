@@ -1591,13 +1591,7 @@ addonPrincipal
 {
 triggeringPrincipal
 =
-std
-:
-:
-move
-(
 addonPrincipal
-)
 ;
 }
 return

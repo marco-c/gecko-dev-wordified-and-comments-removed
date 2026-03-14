@@ -298,13 +298,7 @@ aInteractionId
 {
 mInteractionId
 =
-std
-:
-:
-move
-(
 aInteractionId
-)
 ;
 }
 void

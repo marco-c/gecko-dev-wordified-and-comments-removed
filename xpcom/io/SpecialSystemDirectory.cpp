@@ -2106,13 +2106,7 @@ exists
 {
 file
 =
-std
-:
-:
-move
-(
 home
-)
 ;
 }
 }

@@ -1390,13 +1390,7 @@ allTracesLogger
 ;
 logger
 =
-std
-:
-:
-move
-(
 allTracesLogger
-)
 ;
 }
 nsCOMPtr
@@ -1526,13 +1520,7 @@ allTracesLogger
 ;
 logger
 =
-std
-:
-:
-move
-(
 allTracesLogger
-)
 ;
 }
 logger

@@ -4204,13 +4204,7 @@ size
 {
 mHeader
 =
-std
-:
-:
-move
-(
 prevHeader
-)
 ;
 return
 size

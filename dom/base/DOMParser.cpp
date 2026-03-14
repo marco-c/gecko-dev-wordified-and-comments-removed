@@ -966,13 +966,7 @@ nullptr
 }
 stream
 =
-std
-:
-:
-move
-(
 bufferedStream
-)
 ;
 }
 nsCOMPtr

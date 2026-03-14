@@ -4207,13 +4207,7 @@ NS_ERROR_CONTENT_BLOCKED
 {
 mClipboardDataSnapshot
 =
-std
-:
-:
-move
-(
 clipboardDataSnapshot
-)
 ;
 }
 return
@@ -4271,13 +4265,7 @@ format
 }
 mClipboardDataSnapshot
 =
-std
-:
-:
-move
-(
 clipboardDataSnapshot
-)
 ;
 }
 void

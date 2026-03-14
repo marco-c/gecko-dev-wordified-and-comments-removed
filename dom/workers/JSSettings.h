@@ -216,13 +216,7 @@ index
 .
 value
 =
-std
-:
-:
-move
-(
 aValue
-)
 ;
 return
 true

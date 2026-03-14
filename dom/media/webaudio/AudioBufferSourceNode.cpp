@@ -624,13 +624,7 @@ override
 {
 mBuffer
 =
-std
-:
-:
-move
-(
 aBuffer
-)
 ;
 }
 bool

@@ -6102,13 +6102,7 @@ rv
 }
 referrer
 =
-std
-:
-:
-move
-(
 userSpoofReferrer
-)
 ;
 }
 nsCOMPtr
@@ -6127,13 +6121,7 @@ referrer
 ;
 referrer
 =
-std
-:
-:
-move
-(
 exposableURI
-)
 ;
 if
 (

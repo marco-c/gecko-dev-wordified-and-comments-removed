@@ -749,13 +749,7 @@ data
 >
 mInputStream
 =
-std
-:
-:
-move
-(
 replacementStream
-)
 ;
 }
 if

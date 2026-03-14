@@ -50765,13 +50765,7 @@ mouseOrPointerEvent
 .
 mExitFrom
 =
-std
-:
-:
-move
-(
 exitFrom
-)
 ;
 mouseOrPointerEvent
 .
