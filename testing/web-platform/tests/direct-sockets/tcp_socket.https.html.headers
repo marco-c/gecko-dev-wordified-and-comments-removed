@@ -24,6 +24,15 @@ Permissions
 -
 Policy
 :
+cross
+-
+origin
+-
+isolated
+=
+(
+self
+)
 direct
 -
 sockets
