@@ -2863,13 +2863,6 @@ DestroyChildWindows
 (
 )
 ;
-GtkWidget
-*
-GetToplevelWidget
-(
-)
-const
-;
 nsWindow
 *
 GetContainerWindow
@@ -3857,12 +3850,6 @@ aPopupAnchor
 GdkPoint
 *
 aOffset
-)
-;
-nsWindow
-*
-GetTopmostWindow
-(
 )
 ;
 bool
