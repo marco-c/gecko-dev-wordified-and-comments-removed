@@ -2257,7 +2257,7 @@ computed
 AnimationRangeEnd
 :
 :
-default
+normal
 (
 )
 "
@@ -2361,7 +2361,7 @@ computed
 AnimationRangeStart
 :
 :
-default
+normal
 (
 )
 "
