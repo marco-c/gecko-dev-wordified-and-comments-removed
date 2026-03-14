@@ -557,6 +557,12 @@ mDone
 =
 false
 ;
+TimeStamp
+mDomainLookupStart
+;
+TimeStamp
+mDomainLookupEnd
+;
 }
 ;
 }
