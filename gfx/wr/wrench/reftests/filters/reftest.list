@@ -1692,11 +1692,6 @@ filter
 overlap
 .
 png
-fuzzy
-(
-1
-100
-)
 platform
 (
 linux
