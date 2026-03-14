@@ -470,7 +470,6 @@ build_profile
 (
 )
         
-if
 self
 .
 startServers
@@ -484,30 +483,6 @@ None
 public
 =
 True
-)
-is
-False
-:
-            
-raise
-RuntimeError
-(
-                
-"
-Failed
-to
-start
-servers
-:
-a
-required
-port
-is
-already
-in
-use
-"
-            
 )
         
 self
