@@ -133,13 +133,15 @@ aType
 .
 Equals
 (
-LOCAL_HOST_PERMISSION_KEY
+LOOPBACK_NETWORK_PERMISSION_KEY
 )
 ?
 "
 network
 .
-localhost
+loopback
+-
+network
 "
 _ns
 :
@@ -451,7 +453,7 @@ mType
 .
 Equals
 (
-LOCAL_HOST_PERMISSION_KEY
+LOOPBACK_NETWORK_PERMISSION_KEY
 )
 )
 {

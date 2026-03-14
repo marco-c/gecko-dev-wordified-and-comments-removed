@@ -6495,7 +6495,7 @@ content
 *
 /
 class
-LocalHostPermissionPrompt
+LoopbackNetworkPermissionPrompt
 extends
 LNAPermissionPromptBase
 {
@@ -6506,7 +6506,9 @@ type
 {
 return
 "
-localhost
+loopback
+-
+network
 "
 ;
 }
@@ -6517,7 +6519,9 @@ permissionKey
 {
 return
 "
-localhost
+loopback
+-
+network
 "
 ;
 }
@@ -6681,7 +6685,9 @@ notificationID
 {
 return
 "
-localhost
+loopback
+-
+network
 "
 ;
 }
@@ -6692,7 +6698,9 @@ anchorID
 {
 return
 "
-localhost
+loopback
+-
+network
 -
 notification
 -
@@ -9964,7 +9972,7 @@ DesktopNotificationPermissionPrompt
 PersistentStoragePermissionPrompt
 MIDIPermissionPrompt
 StorageAccessPermissionPrompt
-LocalHostPermissionPrompt
+LoopbackNetworkPermissionPrompt
 LocalNetworkPermissionPrompt
 getSiteCategory
 }
