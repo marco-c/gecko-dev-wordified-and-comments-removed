@@ -190,10 +190,6 @@ async
 =
 >
 {
-setupProfile
-(
-)
-;
 testProfilePath
 =
 await
