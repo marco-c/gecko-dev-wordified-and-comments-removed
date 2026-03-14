@@ -1,15 +1,3 @@
-if
-(
-typeof
-Intl
-=
-=
-=
-"
-object
-"
-)
-{
 const
 localeSep
 =
@@ -188,7 +176,6 @@ pass
 "
 )
 ;
-}
 if
 (
 typeof

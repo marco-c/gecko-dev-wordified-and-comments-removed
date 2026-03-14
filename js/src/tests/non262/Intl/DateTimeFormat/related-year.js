@@ -1565,6 +1565,8 @@ calendar
 :
 "
 islamic
+-
+umalqura
 "
 locales
 :

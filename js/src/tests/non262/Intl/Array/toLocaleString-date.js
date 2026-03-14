@@ -1,15 +1,3 @@
-if
-(
-typeof
-Intl
-=
-=
-=
-"
-object
-"
-)
-{
 const
 localeSep
 =
@@ -418,7 +406,6 @@ options
 expected
 )
 ;
-}
 }
 }
 if
