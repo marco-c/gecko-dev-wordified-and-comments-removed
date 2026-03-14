@@ -645,6 +645,10 @@ private
 :
 friend
 class
+ConnectionAttemptPool
+;
+friend
+class
 DnsAndConnectSocket
 ;
 friend
@@ -971,7 +975,7 @@ pendingTransInfo
 ;
 nsClassHashtable
 <
-nsCStringHashKey
+nsUint32HashKey
 nsTArray
 <
 nsWeakPtr
@@ -1001,9 +1005,7 @@ FindCoalescableConnectionByHashKey
 ConnectionEntry
 *
 ent
-const
-nsCString
-&
+HashNumber
 key
 bool
 justKidding
