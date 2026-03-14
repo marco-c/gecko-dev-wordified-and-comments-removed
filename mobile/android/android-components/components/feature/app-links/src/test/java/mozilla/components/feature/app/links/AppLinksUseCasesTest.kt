@@ -1964,7 +1964,9 @@ true
 }
 installedBrowsers
 =
+{
 browsers
+}
 )
 val
 redirect
@@ -2074,7 +2076,9 @@ true
 }
 installedBrowsers
 =
+{
 browsers
+}
 )
 val
 redirect
