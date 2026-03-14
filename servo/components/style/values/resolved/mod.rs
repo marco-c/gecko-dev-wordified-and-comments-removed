@@ -13,7 +13,7 @@ use
 crate
 :
 :
-media_queries
+device
 :
 :
 Device

@@ -301,7 +301,7 @@ crate
 servo
 :
 :
-media_queries
+media_features
 :
 :
 MEDIA_FEATURES

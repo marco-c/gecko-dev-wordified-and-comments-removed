@@ -20,6 +20,15 @@ use
 crate
 :
 :
+device
+:
+:
+Device
+;
+use
+crate
+:
+:
 error_reporting
 :
 :
@@ -35,10 +44,7 @@ crate
 media_queries
 :
 :
-{
-Device
 MediaList
-}
 ;
 use
 crate
