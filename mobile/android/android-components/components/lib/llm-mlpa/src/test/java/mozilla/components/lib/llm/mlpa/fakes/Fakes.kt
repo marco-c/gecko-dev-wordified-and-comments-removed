@@ -499,7 +499,6 @@ chatService
 AuthenticationService
 by
 authService
-data
 class
 FakeClient
 (
@@ -537,6 +536,13 @@ Client
 (
 )
 {
+var
+lastRequest
+:
+Request
+?
+=
+null
 override
 fun
 fetch
@@ -548,6 +554,9 @@ Request
 :
 Response
 {
+lastRequest
+=
+request
 return
 Response
 (
