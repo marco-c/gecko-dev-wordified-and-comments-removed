@@ -2623,7 +2623,7 @@ how
 many
 addons
 were
-receieved
+received
 each
 day
 .
