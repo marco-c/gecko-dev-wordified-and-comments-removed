@@ -127,6 +127,16 @@ xul
 GYP_DIRS
 [
 '
+nICEr
+'
+]
+.
+no_unified
+=
+True
+GYP_DIRS
+[
+'
 nrappkit
 '
 ]
