@@ -752,6 +752,8 @@ typedValue
 AsKeyword
 (
 )
+.
+_0
 )
 ;
 break

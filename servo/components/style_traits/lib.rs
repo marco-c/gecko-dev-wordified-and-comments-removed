@@ -259,6 +259,7 @@ CommaWithSpace
 CssString
 CssStringWriter
 CssWriter
+KeywordValue
 MathSum
 NumericValue
 OneOrMoreSeparated
