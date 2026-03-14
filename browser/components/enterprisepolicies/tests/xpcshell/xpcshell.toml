@@ -269,6 +269,13 @@ js
 ]
 [
 "
+test_sitepolicies
+.
+js
+"
+]
+[
+"
 test_sorted_alphabetically
 .
 js

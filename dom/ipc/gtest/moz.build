@@ -30,3 +30,14 @@ xul
 -
 gtest
 "
+LOCAL_INCLUDES
++
+=
+[
+"
+/
+xpcom
+/
+components
+"
+]

@@ -79,6 +79,13 @@ sys
 .
 mjs
 "
+"
+SitePolicyUtils
+.
+sys
+.
+mjs
+"
 ]
 XPCOM_MANIFESTS
 +

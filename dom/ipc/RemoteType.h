@@ -106,6 +106,15 @@ webServiceWorker
 _ns
 #
 define
+DISABLE_JIT_REMOTE_TYPE_SUFFIX
+"
+disableJit
+=
+1
+"
+_ns
+#
+define
 NOT_REMOTE_TYPE
 VoidCString
 (
