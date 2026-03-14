@@ -1280,6 +1280,9 @@ UniquePtr
 ImportMap
 >
 aImportMap
+ScriptLoadRequest
+*
+aRequest
 )
 ;
 bool
