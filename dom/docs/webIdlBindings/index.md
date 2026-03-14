@@ -10441,6 +10441,7 @@ BindingTemplate
 =
 (
 name
+type
 value
 )
 ]
@@ -10510,13 +10511,14 @@ name
 name
 .
 The
+argument
+type
+:
+:
 value
 will
 be
 passed
-as
-an
-argument
 when
 calling
 the

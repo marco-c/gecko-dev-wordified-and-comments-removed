@@ -67752,6 +67752,7 @@ self
 descriptor
 attr
 template
+templateType
 additionalArg
 )
 :
@@ -67767,6 +67768,12 @@ self
 template
 =
 template
+        
+self
+.
+templateType
+=
+templateType
         
 self
 .
@@ -67885,16 +67892,12 @@ self
 )
 :
         
-if
+additionalArg
+=
 self
 .
 additionalArg
-is
-None
-:
-            
-additionalArg
-=
+or
 self
 .
 attr
@@ -67902,15 +67905,6 @@ attr
 identifier
 .
 name
-        
-else
-:
-            
-additionalArg
-=
-self
-.
-additionalArg
         
 return
 fill
@@ -67934,6 +67928,11 @@ cx
 obj
 void_self
 args
+{
+ty
+}
+:
+:
 {
 additionalArg
 }
@@ -67970,6 +67969,12 @@ self
 template
 .
 getter
+            
+ty
+=
+self
+.
+templateType
             
 additionalArg
 =
@@ -69458,6 +69463,7 @@ self
 descriptor
 attr
 template
+templateType
 additionalArg
 )
 :
@@ -69473,6 +69479,12 @@ self
 template
 =
 template
+        
+self
+.
+templateType
+=
+templateType
         
 self
 .
@@ -69575,23 +69587,12 @@ self
 )
 :
         
-additionalArgs
+additionalArg
 =
-[
-]
-        
-if
 self
 .
 additionalArg
-is
-None
-:
-            
-additionalArgs
-.
-append
-(
+or
 self
 .
 attr
@@ -69599,19 +69600,6 @@ attr
 identifier
 .
 name
-)
-        
-else
-:
-            
-additionalArgs
-.
-append
-(
-self
-.
-additionalArg
-)
         
 return
 fill
@@ -69636,7 +69624,12 @@ obj
 void_self
 args
 {
-additionalArgs
+ty
+}
+:
+:
+{
+additionalArg
 }
 )
 ;
@@ -69672,15 +69665,15 @@ template
 .
 setter
             
-additionalArgs
+ty
 =
-"
-"
+self
 .
-join
-(
-additionalArgs
-)
+templateType
+            
+additionalArg
+=
+additionalArg
         
 )
 class
@@ -101925,7 +101918,7 @@ template
 0
 ]
                         
-additionalArg
+templateType
 =
 template
 [
@@ -101933,6 +101926,16 @@ template
 ]
 [
 1
+]
+                        
+additionalArg
+=
+template
+[
+0
+]
+[
+2
 ]
                         
 if
@@ -102049,6 +102052,7 @@ CGSpecializedTemplatedGetter
 descriptor
 m
 template
+templateType
 additionalArg
                         
 )
@@ -102167,17 +102171,6 @@ not
 None
 :
                             
-if
-isinstance
-(
-template
-[
-0
-]
-list
-)
-:
-                                
 templateName
 =
 template
@@ -102187,8 +102180,8 @@ template
 [
 0
 ]
-                                
-additionalArg
+                            
+templateType
 =
 template
 [
@@ -102198,19 +102191,15 @@ template
 1
 ]
                             
-else
-:
-                                
-templateName
+additionalArg
 =
 template
 [
 0
 ]
-                                
-additionalArg
-=
-None
+[
+2
+]
                             
 template
 =
@@ -102229,6 +102218,7 @@ CGSpecializedTemplatedSetter
 descriptor
 m
 template
+templateType
 additionalArg
                             
 )
