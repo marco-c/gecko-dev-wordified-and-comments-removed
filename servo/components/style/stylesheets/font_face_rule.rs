@@ -14,7 +14,5 @@ crate
 font_face
 :
 :
-FontFaceRuleData
-as
 FontFaceRule
 ;

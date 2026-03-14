@@ -84,8 +84,8 @@ final
 void
 GetPropertyValue
 (
-nsCSSFontDesc
-aFontDescID
+FontFaceDescriptorId
+aDescID
 nsACString
 &
 aResult

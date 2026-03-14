@@ -560,13 +560,7 @@ LookAndFeel_FloatID
 nsCSSUnit
 "
 "
-nsCSSFontDesc
-"
-"
 NonCustomCSSPropertyId
-"
-"
-nsCSSCounterDesc
 "
 "
 nsresult
@@ -1483,12 +1477,6 @@ nscolor
 "
 "
 nsChangeHint
-"
-"
-nsCSSCounterDesc
-"
-"
-nsCSSFontDesc
 "
 "
 nsCSSKTableEntry

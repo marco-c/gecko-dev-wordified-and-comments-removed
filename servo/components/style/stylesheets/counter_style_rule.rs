@@ -14,7 +14,5 @@ crate
 counter_style
 :
 :
-CounterStyleRuleData
-as
 CounterStyleRule
 ;

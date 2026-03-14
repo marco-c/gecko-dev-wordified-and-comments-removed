@@ -23,7 +23,6 @@ rs
 from
 data
 import
-to_idl_name
 SYSTEM_FONT_LONGHANDS
 to_camel_case
 from

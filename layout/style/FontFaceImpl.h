@@ -62,9 +62,6 @@ gfxFontFaceBufferSource
 namespace
 mozilla
 {
-struct
-CSSFontFaceDescriptors
-;
 class
 PostTraversalTask
 ;
@@ -915,7 +912,7 @@ UpdateOwnerPromise
 bool
 SetDescriptor
 (
-nsCSSFontDesc
+FontFaceDescriptorId
 aFontDesc
 const
 nsACString
@@ -941,7 +938,7 @@ aStatus
 void
 GetDesc
 (
-nsCSSFontDesc
+FontFaceDescriptorId
 aDescID
 nsACString
 &

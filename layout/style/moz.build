@@ -330,16 +330,6 @@ nsComputedDOMStyle
 h
 "
 "
-nsCSSCounterDescList
-.
-inc
-"
-"
-nsCSSFontDescList
-.
-inc
-"
-"
 nsCSSPropertyIDSet
 .
 h
