@@ -6246,7 +6246,7 @@ Yes
 nsContentUtils
 :
 :
-GetFlattenedTreeAncestorsAndOffsets
+GetFlattenedTreeAncestorsAndOffsetsForSelection
 (
 startContainer
 startOffset
@@ -6257,7 +6257,7 @@ inclusiveAncestorsOffsetsOfStart
 nsContentUtils
 :
 :
-GetFlattenedTreeAncestorsAndOffsets
+GetFlattenedTreeAncestorsAndOffsetsForSelection
 (
 endContainer
 endOffset
@@ -7271,7 +7271,7 @@ AllowCrossShadowBoundary
 TreeKind
 :
 :
-Flat
+FlatForSelection
 :
 TreeKind
 :
@@ -7363,7 +7363,7 @@ mTreeKind
 TreeKind
 :
 :
-Flat
+FlatForSelection
 ?
 mContainer
 -
@@ -8532,7 +8532,7 @@ GetTreeKind
 TreeKind
 :
 :
-Flat
+FlatForSelection
 &
 &
 ref
@@ -8622,7 +8622,7 @@ GetTreeKind
 TreeKind
 :
 :
-Flat
+FlatForSelection
 &
 &
 ref
@@ -10821,7 +10821,7 @@ GetTreeKind
 TreeKind
 :
 :
-Flat
+FlatForSelection
 )
 {
 if
@@ -10931,7 +10931,7 @@ GetTreeKind
 TreeKind
 :
 :
-Flat
+FlatForSelection
 ?
 containerContent
 -
@@ -11092,7 +11092,7 @@ GetTreeKind
 TreeKind
 :
 :
-Flat
+FlatForSelection
 )
 {
 if
@@ -11267,7 +11267,7 @@ aKind
 TreeKind
 :
 :
-Flat
+FlatForSelection
 )
 {
 if
@@ -11439,7 +11439,7 @@ GetTreeKind
 TreeKind
 :
 :
-Flat
+FlatForSelection
 )
 {
 FlattenedChildIteratorForSelection
@@ -11697,7 +11697,7 @@ GetTreeKind
 TreeKind
 :
 :
-Flat
+FlatForSelection
 )
 {
 FlattenedChildIteratorForSelection

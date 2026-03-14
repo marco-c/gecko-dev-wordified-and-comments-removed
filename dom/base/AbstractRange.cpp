@@ -2066,7 +2066,7 @@ ComparePoints
 TreeKind
 :
 :
-Flat
+FlatForSelection
 >
 (
 aStartBoundary
