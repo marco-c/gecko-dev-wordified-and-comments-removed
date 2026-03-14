@@ -30,6 +30,15 @@ enabled
 =
 true
 "
+"
+network
+.
+lna
+.
+blocking
+=
+true
+"
 ]
 support
 -
