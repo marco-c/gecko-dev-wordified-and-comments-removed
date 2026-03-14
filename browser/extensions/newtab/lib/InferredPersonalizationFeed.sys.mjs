@@ -1631,6 +1631,16 @@ interests
 inferredInterests
 ;
 const
+debugOverrideCoarseValueDictionary
+=
+await
+this
+.
+_getDebugOverrides
+(
+)
+;
+const
 inferredInterests
 =
 model
@@ -1658,6 +1668,7 @@ NewTabUtils
 getUtcOffset
 (
 )
+debugOverrideCoarseValueDictionary
 }
 )
 ;
