@@ -2053,6 +2053,11 @@ shouldShowTabAutoCloseBanner
 shouldShowLockPbmBanner
 =
 shouldShowLockPbmBanner
+shouldShowAddToTabGroupButton
+=
+tabsTrayState
+.
+tabGroupsEnabled
 scrollBehavior
 =
 topAppBarScrollBehavior
@@ -2100,6 +2105,10 @@ TabsTrayAction
 .
 ExitSelectMode
 )
+}
+onAddToTabGroup
+=
+{
 }
 )
 }
@@ -3520,6 +3529,12 @@ Boolean
 false
 val
 showInactiveTabsAutoCloseDialog
+:
+Boolean
+=
+false
+val
+shouldShowAddToTabGroupButton
 :
 Boolean
 =

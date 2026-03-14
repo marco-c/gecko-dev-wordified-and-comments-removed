@@ -1439,6 +1439,17 @@ requireComponents
 settings
 .
 tabSearchEnabled
+tabGroupsEnabled
+=
+requireContext
+(
+)
+.
+settings
+(
+)
+.
+tabGroupsEnabled
 )
 middlewares
 =
