@@ -159,6 +159,13 @@ js
 ]
 [
 "
+browser_aiFeatures_telemetry
+.
+js
+"
+]
+[
+"
 browser_aiFeatures_visibility
 .
 js
