@@ -1167,7 +1167,13 @@ aRegion
 {
 mRegion
 =
+std
+:
+:
+move
+(
 aRegion
+)
 ;
 }
 template

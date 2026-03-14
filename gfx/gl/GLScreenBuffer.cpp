@@ -550,7 +550,13 @@ mBackBuffer
 ;
 mBackBuffer
 =
+std
+:
+:
+move
+(
 back
+)
 ;
 if
 (
