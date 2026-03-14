@@ -201,6 +201,9 @@ bidi
 -
 ffi
 "
+optional
+=
+true
 }
 normalizer_glue
 =
@@ -235,6 +238,9 @@ irregexp
 /
 properties_glue
 "
+optional
+=
+true
 }
 collator_glue
 =
@@ -279,6 +285,16 @@ icu4x
 [
 '
 icu_capi
+'
+'
+unicode
+-
+bidi
+-
+ffi
+'
+'
+properties_glue
 '
 '
 collator_glue

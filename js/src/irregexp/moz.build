@@ -279,13 +279,6 @@ UnicodeShim
 .
 cpp
 "
-"
-util
-/
-ZoneShimFFI
-.
-cpp
-"
 ]
 SOURCES
 +
@@ -353,6 +346,13 @@ special
 case
 .
 cc
+"
+"
+util
+/
+ZoneShimFFI
+.
+cpp
 "
 ]
 if
