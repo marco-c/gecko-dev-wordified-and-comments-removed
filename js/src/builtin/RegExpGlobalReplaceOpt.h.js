@@ -28,7 +28,7 @@ fullUnicode
 (
 flags
 &
-REGEXP_UNICODE_FLAG
+REGEXP_ANY_UNICODE_MASK
 )
 ;
 var
