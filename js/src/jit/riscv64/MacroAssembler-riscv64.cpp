@@ -20141,7 +20141,7 @@ offset
 >
 20
 ;
-instr_at_put
+putInstrAt
 (
 call
 SetAuipcOffset
@@ -20156,7 +20156,7 @@ InstructionBits
 )
 )
 ;
-instr_at_put
+putInstrAt
 (
 BufferOffset
 (
@@ -26005,7 +26005,7 @@ offset
 if
 (
 !
-is_near
+isNear
 (
 L
 bits
@@ -39165,7 +39165,7 @@ bound
 &
 &
 !
-is_near
+isNear
 (
 L
 )
