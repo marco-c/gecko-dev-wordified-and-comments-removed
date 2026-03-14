@@ -1948,9 +1948,13 @@ ippActivator
 .
 showMessage
 (
+{
+l10nId
+:
 breakage
 .
-message
+l10nId
+}
 tab
 .
 id
