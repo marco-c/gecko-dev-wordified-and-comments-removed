@@ -3510,13 +3510,10 @@ aSubject
 .
 browser
 .
-setAttribute
+removeAttribute
 (
 "
 remote
-"
-"
-false
 "
 )
 ;
