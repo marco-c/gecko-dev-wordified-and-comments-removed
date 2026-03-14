@@ -504,6 +504,15 @@ zygote
     
 return
 process
+.
+replace
+(
+"
+_disable_art_image_
+"
+"
+"
+)
 def
 get_category_for_process
 (
