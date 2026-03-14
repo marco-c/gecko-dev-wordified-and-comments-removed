@@ -150,8 +150,6 @@ with
 -
 commandfor
 .
-tentative
-.
 html
 -
 button
@@ -163,7 +161,5 @@ submits
 with
 -
 commandfor
-.
-tentative
 .
 html
