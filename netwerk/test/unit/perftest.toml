@@ -8,3 +8,10 @@ test_http3_perf
 js
 "
 ]
+[
+"
+test_trr_bench
+.
+js
+"
+]
