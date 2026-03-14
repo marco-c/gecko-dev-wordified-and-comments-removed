@@ -476,15 +476,11 @@ taskbar
 )
 ;
 let
-{
 relativePath
-}
 =
-await
-generateShortcutInfo
-(
 aTaskbarTab
-)
+.
+shortcutRelativePath
 ;
 try
 {
