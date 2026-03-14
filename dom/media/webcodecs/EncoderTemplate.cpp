@@ -3269,7 +3269,7 @@ pop
 }
 mPendingFlushPromises
 .
-ForEach
+Clear
 (
 [
 &
@@ -3324,12 +3324,6 @@ aResult
 )
 ;
 }
-)
-;
-mPendingFlushPromises
-.
-Clear
-(
 )
 ;
 }
