@@ -4360,8 +4360,6 @@ newtab
 -
 widget
 -
-lists
--
 menu
 -
 hide

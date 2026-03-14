@@ -3660,8 +3660,6 @@ newtab
 -
 widget
 -
-timer
--
 menu
 -
 hide

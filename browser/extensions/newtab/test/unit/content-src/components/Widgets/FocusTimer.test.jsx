@@ -4273,8 +4273,6 @@ newtab
 -
 widget
 -
-timer
--
 menu
 -
 hide
@@ -4724,8 +4722,6 @@ id
 newtab
 -
 widget
--
-timer
 -
 menu
 -

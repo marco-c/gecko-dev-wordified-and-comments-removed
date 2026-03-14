@@ -3429,15 +3429,11 @@ id
 "
 newtab
 -
-weather
+widget
 -
 menu
 -
 hide
--
-weather
--
-v2
 "
 onClick
 =
