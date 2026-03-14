@@ -495,7 +495,7 @@ initializedWithShake
 !
 settings
 .
-getHasConsentedToShake
+hasConsentedToShake
 (
 )
 private

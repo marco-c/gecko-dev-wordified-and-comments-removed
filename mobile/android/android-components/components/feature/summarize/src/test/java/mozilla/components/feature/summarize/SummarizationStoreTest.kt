@@ -462,7 +462,7 @@ assertTrue
 (
 settings
 .
-getHasConsentedToShake
+hasConsentedToShake
 (
 )
 )
@@ -628,7 +628,7 @@ assertFalse
 (
 settings
 .
-getHasConsentedToShake
+hasConsentedToShake
 (
 )
 )

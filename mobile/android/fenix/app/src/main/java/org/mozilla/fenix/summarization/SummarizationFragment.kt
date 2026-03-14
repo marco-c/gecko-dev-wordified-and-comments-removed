@@ -390,8 +390,11 @@ settings
 =
 SummarizationSettings
 .
-inMemory
+sharedPrefs
 (
+requireContext
+(
+)
 )
 pageContentExtractor
 =
