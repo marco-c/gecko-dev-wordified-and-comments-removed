@@ -357,6 +357,13 @@ js
 ]
 [
 "
+browser_smartwindow_conversation_state
+.
+js
+"
+]
+[
+"
 browser_smartwindow_disclaimer
 .
 js
