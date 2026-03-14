@@ -18,7 +18,7 @@ defaultdict
 from
 functools
 import
-lru_cache
+cache
 import
 mozpack
 .
@@ -556,6 +556,13 @@ tests
 "
 :
 None
+"
+subsuite
+"
+:
+"
+integration
+"
 }
         
 "
@@ -632,6 +639,13 @@ tests
 "
 :
 None
+"
+subsuite
+"
+:
+"
+unittest
+"
 }
         
 "
@@ -4333,26 +4347,10 @@ update
     
 "
 marionette
--
-integration
 "
 :
 "
 marionette
--
-integration
-"
-    
-"
-marionette
--
-unittest
-"
-:
-"
-marionette
--
-unittest
 "
     
 "
@@ -4598,6 +4596,36 @@ mochitest
 chrome
 -
 gpu
+"
+    
+(
+"
+marionette
+"
+"
+integration
+"
+)
+:
+"
+marionette
+-
+integration
+"
+    
+(
+"
+marionette
+"
+"
+unittest
+"
+)
+:
+"
+marionette
+-
+unittest
 "
     
 (
@@ -6564,12 +6592,7 @@ self
 .
 _test_dirs
     
-lru_cache
-(
-maxsize
-=
-1024
-)
+cache
     
 def
 _get_metadata_paths
