@@ -8,6 +8,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 iterator
 >
 #
@@ -2341,7 +2346,10 @@ nullptr
 ;
 static_assert
 (
-AllOf
+std
+:
+:
+all_of
 (
 std
 :
