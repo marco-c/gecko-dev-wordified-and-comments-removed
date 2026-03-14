@@ -269,7 +269,7 @@ HStringReference
 (
 L
 "
-wifiControl
+location
 "
 )
 .
