@@ -291,6 +291,10 @@ mTookLongInPreviousRuns
 (
 false
 )
+mIsEverHitFromMemoryCache
+(
+false
+)
 mFetchOptions
 (
 aFetchOptions
@@ -369,6 +373,12 @@ mTookLongInPreviousRuns
 aOther
 .
 mTookLongInPreviousRuns
+)
+mIsEverHitFromMemoryCache
+(
+aOther
+.
+mIsEverHitFromMemoryCache
 )
 mFetchOptions
 (
