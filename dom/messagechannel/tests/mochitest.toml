@@ -64,6 +64,11 @@ event_leak_utils
 .
 js
 "
+"
+worker_messageChannel_atomics_wait
+.
+js
+"
 ]
 [
 "
@@ -192,6 +197,13 @@ standalone
 [
 "
 test_messageChannel
+.
+html
+"
+]
+[
+"
+test_messageChannel_atomics_wait
 .
 html
 "
