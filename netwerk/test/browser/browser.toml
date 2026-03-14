@@ -1427,6 +1427,13 @@ js
 ]
 [
 "
+browser_test_lna_insecure_context
+.
+js
+"
+]
+[
+"
 browser_test_local_network_access_basic
 .
 js
