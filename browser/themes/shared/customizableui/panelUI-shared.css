@@ -2162,11 +2162,15 @@ subview
 -
 body
 :
+where
+(
+:
 not
 (
 [
 hidden
 ]
+)
 )
 {
 display
