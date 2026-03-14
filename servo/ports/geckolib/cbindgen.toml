@@ -7362,7 +7362,10 @@ return
 this
 ;
 }
-StyleUnsupportedValue
+StyleStrong
+<
+StyleLockedDeclarationBlock
+>
 ExtractUnsupported
 (
 )
