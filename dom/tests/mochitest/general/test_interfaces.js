@@ -1327,16 +1327,6 @@ true
 name
 :
 "
-CSSFontFaceDescriptors
-"
-insecureContext
-:
-true
-}
-{
-name
-:
-"
 CSSFontFaceRule
 "
 insecureContext
