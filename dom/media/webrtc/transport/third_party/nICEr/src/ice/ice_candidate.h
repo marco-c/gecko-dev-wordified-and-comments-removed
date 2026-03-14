@@ -172,6 +172,9 @@ relayed
 }
 u
 ;
+int
+error_code
+;
 NR_async_cb
 done_cb
 ;

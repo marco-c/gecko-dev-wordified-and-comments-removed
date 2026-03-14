@@ -208,6 +208,9 @@ void
 *
 refresh_timer_handle
 ;
+int
+last_error_code
+;
 UINT2
 cnt_401s
 ;

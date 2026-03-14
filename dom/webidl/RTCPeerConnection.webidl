@@ -863,6 +863,10 @@ onicecandidate
 ;
 attribute
 EventHandler
+onicecandidateerror
+;
+attribute
+EventHandler
 onsignalingstatechange
 ;
 attribute

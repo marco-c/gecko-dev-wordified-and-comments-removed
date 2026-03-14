@@ -6391,6 +6391,16 @@ true
 name
 :
 "
+RTCPeerConnectionIceErrorEvent
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 RTCPeerConnectionIceEvent
 "
 insecureContext

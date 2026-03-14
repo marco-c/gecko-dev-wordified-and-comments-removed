@@ -7160,6 +7160,11 @@ RTCDTMFToneChangeEvent
 webidl
 "
 "
+RTCPeerConnectionIceErrorEvent
+.
+webidl
+"
+"
 RTCPeerConnectionIceEvent
 .
 webidl
