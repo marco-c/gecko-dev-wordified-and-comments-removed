@@ -288,8 +288,6 @@ color
 -
 mix
 (
-in
-lab
 currentColor
 50
 %
@@ -347,6 +345,10 @@ select
 button
 {
 color
+:
+inherit
+;
+font
 :
 inherit
 ;
@@ -586,8 +588,6 @@ color
 -
 mix
 (
-in
-srgb
 currentColor
 50
 %
@@ -612,8 +612,6 @@ color
 -
 mix
 (
-in
-lab
 currentColor
 10
 %
@@ -638,8 +636,6 @@ color
 -
 mix
 (
-in
-lab
 currentColor
 20
 %
