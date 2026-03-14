@@ -794,7 +794,8 @@ NS_OK
 ;
 while
 (
-true
+!
+mDone
 )
 {
 happy_eyeballs
@@ -1378,6 +1379,9 @@ NS_OK
 ;
 }
 }
+return
+NS_OK
+;
 }
 Result
 <
