@@ -170,6 +170,13 @@ js
 ]
 [
 "
+test_AboutNewTabResourceMapping_emergencyFallback
+.
+js
+"
+]
+[
+"
 test_disableNewTabAsAddon_pref
 .
 js
