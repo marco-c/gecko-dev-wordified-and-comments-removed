@@ -2131,7 +2131,7 @@ promiseFullScreenPaint
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (

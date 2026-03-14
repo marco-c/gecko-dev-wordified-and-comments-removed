@@ -827,15 +827,14 @@ true
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 loadingTab
 .
 linkedBrowser
-[
-]
+null
 async
 (
 )

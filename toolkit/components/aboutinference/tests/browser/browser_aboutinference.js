@@ -378,7 +378,9 @@ checkInnerHTML
 =
 >
 {
-info
+console
+.
+log
 (
 Checking
 innerHTML
@@ -404,7 +406,9 @@ substring
 )
 )
 {
-info
+console
+.
+log
 (
 Substring
 "
@@ -430,8 +434,6 @@ resolve
 }
 else
 {
-content
-.
 setTimeout
 (
 checkInnerHTML

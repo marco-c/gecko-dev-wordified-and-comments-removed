@@ -496,9 +496,9 @@ err
 is
 (
 err
-.
-message
 "
+Error
+:
 The
 JSON
 Viewer
