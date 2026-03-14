@@ -8523,6 +8523,8 @@ servo
 derive
 (
 Deserialize
+Eq
+Hash
 Serialize
 )
 )
