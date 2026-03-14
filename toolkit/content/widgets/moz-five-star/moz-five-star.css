@@ -113,9 +113,14 @@ star
 -
 spacing
 :
-0
-.
-3ch
+var
+(
+-
+-
+space
+-
+xxsmall
+)
 ;
 display
 :
@@ -243,8 +248,6 @@ padding
 -
 inline
 :
-calc
-(
 var
 (
 -
@@ -254,9 +257,6 @@ rating
 star
 -
 spacing
-)
-/
-2
 )
 ;
 fill
