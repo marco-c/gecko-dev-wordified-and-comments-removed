@@ -311,10 +311,6 @@ uint64_t
 &
 aOffset
 const
-uint32_t
-&
-aCount
-const
 TimeStamp
 &
 aOnDataAvailableStartTime
@@ -612,10 +608,6 @@ const
 uint64_t
 &
 aOffset
-const
-uint32_t
-&
-aCount
 const
 TimeStamp
 &
