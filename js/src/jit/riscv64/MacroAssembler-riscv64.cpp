@@ -20003,6 +20003,9 @@ uint32_t
 )
 )
 ;
+#
+ifdef
+JS_DISASM_RISCV64
 disassembleInstr
 (
 auipc_
@@ -20013,6 +20016,8 @@ InstructionBits
 )
 )
 ;
+#
+endif
 DEBUG_PRINTF
 (
 "
@@ -20038,6 +20043,9 @@ uint32_t
 )
 )
 ;
+#
+ifdef
+JS_DISASM_RISCV64
 disassembleInstr
 (
 jalr_
@@ -20048,6 +20056,8 @@ InstructionBits
 )
 )
 ;
+#
+endif
 DEBUG_PRINTF
 (
 "

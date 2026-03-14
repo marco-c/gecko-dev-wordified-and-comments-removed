@@ -716,6 +716,9 @@ getOffset
 )
 )
 ;
+#
+ifdef
+JS_DISASM_RISCV64
 disassembleInstr
 (
 dest
@@ -727,6 +730,8 @@ InstructionBits
 JitSpew_Codegen
 )
 ;
+#
+endif
 }
 void
 Assembler
@@ -2815,6 +2820,9 @@ oom
 enoughLabelCache_
 ;
 }
+#
+ifdef
+JS_DISASM_RISCV64
 int
 Assembler
 :
@@ -2920,6 +2928,8 @@ return
 size
 ;
 }
+#
+endif
 uint64_t
 Assembler
 :
@@ -3721,8 +3731,9 @@ return
 imm
 ;
 }
-else
-{
+#
+ifdef
+JS_DISASM_RISCV64
 FLAG_riscv_debug
 =
 true
@@ -3807,11 +3818,12 @@ InstructionBits
 )
 )
 ;
+#
+endif
 MOZ_CRASH
 (
 )
 ;
-}
 }
 else
 {
@@ -3823,6 +3835,9 @@ n
 "
 )
 ;
+#
+ifdef
+JS_DISASM_RISCV64
 Instruction
 *
 instrf1
@@ -3985,6 +4000,8 @@ InstructionBits
 )
 )
 ;
+#
+endif
 MOZ_ASSERT
 (
 IsAddi
@@ -4558,6 +4575,9 @@ value
 20
 )
 ;
+#
+ifdef
+JS_DISASM_RISCV64
 disassembleInstr
 (
 instr0
@@ -4638,6 +4658,8 @@ InstructionBits
 )
 )
 ;
+#
+endif
 MOZ_ASSERT
 (
 ExtractLoad64Value
@@ -4652,6 +4674,9 @@ value
 }
 else
 {
+#
+ifdef
+JS_DISASM_RISCV64
 Instruction
 *
 instr0
@@ -4798,6 +4823,8 @@ InstructionBits
 )
 )
 ;
+#
+endif
 MOZ_ASSERT
 (
 IsAddi
@@ -5676,6 +5703,9 @@ kInstrSize
 =
 ori_a6
 ;
+#
+ifdef
+JS_DISASM_RISCV64
 disassembleInstr
 (
 (
@@ -5788,6 +5818,8 @@ InstructionBits
 )
 )
 ;
+#
+endif
 MOZ_ASSERT
 (
 ExtractLoad64Value
@@ -6574,6 +6606,9 @@ getOffset
 )
 )
 ;
+#
+ifdef
+JS_DISASM_RISCV64
 disassembleInstr
 (
 instruction
@@ -6584,6 +6619,8 @@ InstructionBits
 )
 )
 ;
+#
+endif
 Instr
 instr
 =
@@ -10570,6 +10607,9 @@ getOffset
 )
 )
 ;
+#
+ifdef
+JS_DISASM_RISCV64
 disassembleInstr
 (
 branchInst
@@ -10581,6 +10621,8 @@ InstructionBits
 JitSpew_Codegen
 )
 ;
+#
+endif
 DEBUG_PRINTF
 (
 "
@@ -10893,6 +10935,9 @@ InstructionBits
 )
 ;
 }
+#
+ifdef
+JS_DISASM_RISCV64
 DEBUG_PRINTF
 (
 "
@@ -10914,6 +10959,8 @@ InstructionBits
 )
 )
 ;
+#
+endif
 }
 }
 }
