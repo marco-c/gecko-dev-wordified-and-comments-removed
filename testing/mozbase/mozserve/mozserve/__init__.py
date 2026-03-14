@@ -33,6 +33,7 @@ import
 DoHServer
 Http2Server
 Http3Server
+MozHttp2Server
 __all__
 =
 [
@@ -44,5 +45,8 @@ Http2Server
 "
 "
 DoHServer
+"
+"
+MozHttp2Server
 "
 ]
