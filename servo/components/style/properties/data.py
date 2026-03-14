@@ -1971,10 +1971,6 @@ initial_value
 =
 None
         
-initial_specified_value
-=
-None
-        
 parse_method
 =
 '
@@ -2153,12 +2149,6 @@ self
 initial_value
 =
 initial_value
-        
-self
-.
-initial_specified_value
-=
-initial_specified_value
         
 self
 .
