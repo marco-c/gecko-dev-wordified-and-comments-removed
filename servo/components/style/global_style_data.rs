@@ -813,10 +813,11 @@ stylo_threads_pref
 >
 i32
 {
-style_config
+static_prefs
 :
 :
-get_i32
+pref
+!
 (
 "
 layout

@@ -195,10 +195,11 @@ grid_enabled
 >
 bool
 {
-style_config
+static_prefs
 :
 :
-get_bool
+pref
+!
 (
 "
 layout
