@@ -1201,11 +1201,6 @@ ResolveComplete
 )
 override
 ;
-uint32_t
-mUnusableCount
-=
-0
-;
 nsTArray
 <
 nsCString
