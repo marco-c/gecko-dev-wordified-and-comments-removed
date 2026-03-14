@@ -646,10 +646,6 @@ binary_http
 ;
 extern
 crate
-happy_eyeballs_glue
-;
-extern
-crate
 mls_gk
 ;
 extern

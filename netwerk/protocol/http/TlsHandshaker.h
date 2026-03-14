@@ -272,10 +272,6 @@ mTlsHandshakeComplitionPending
 =
 false
 ;
-mNPNComplete
-=
-true
-;
 mOwner
 =
 nullptr

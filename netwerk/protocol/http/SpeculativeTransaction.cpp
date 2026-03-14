@@ -66,7 +66,7 @@ function
 <
 void
 (
-nsresult
+bool
 )
 >
 &
@@ -539,16 +539,12 @@ mCloseCallback
 mCloseCallback
 (
 mTriedToWrite
-|
-|
-NS_FAILED
+&
+&
+NS_SUCCEEDED
 (
 aReason
 )
-?
-aReason
-:
-NS_ERROR_FAILURE
 )
 ;
 mCloseCallback
@@ -572,7 +568,7 @@ mCloseCallback
 {
 mCloseCallback
 (
-NS_OK
+true
 )
 ;
 mCloseCallback
