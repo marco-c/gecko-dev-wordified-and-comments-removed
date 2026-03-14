@@ -1,4 +1,7 @@
 #
+ifdef
+MOZ_GECKO_PROFILER
+#
 include
 "
 ProfileBuffer
@@ -377,3 +380,5 @@ times
 )
 ;
 }
+#
+endif

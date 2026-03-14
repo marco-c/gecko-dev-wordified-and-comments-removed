@@ -70,6 +70,13 @@ if
 !
 defined
 (
+MOZ_GECKO_PROFILER
+)
+|
+|
+!
+defined
+(
 MOZ_COLLECTING_RUNNABLE_TELEMETRY
 )
 #

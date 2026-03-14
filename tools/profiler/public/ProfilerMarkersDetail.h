@@ -34,6 +34,9 @@ ProfilerMarkersPrerequisites
 h
 "
 #
+ifdef
+MOZ_GECKO_PROFILER
+#
 include
 "
 mozilla
@@ -51,5 +54,7 @@ profiler_get_core_buffer
 (
 )
 ;
+#
+endif
 #
 endif

@@ -406,6 +406,10 @@ if
 =
 [
 "
+!
+gecko_profiler
+"
+"
 tsan
 "
 ]

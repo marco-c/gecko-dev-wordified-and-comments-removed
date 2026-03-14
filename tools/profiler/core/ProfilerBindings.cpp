@@ -119,6 +119,9 @@ ProfilingCategoryPair
 aCategoryPair
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 new
 (
 aAutoLabel
@@ -147,6 +150,8 @@ LABEL_DETERMINED_BY_CATEGORY_PAIR
 )
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_destruct_label
@@ -159,6 +164,9 @@ AutoProfilerLabel
 aAutoLabel
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 aAutoLabel
 -
 >
@@ -167,6 +175,8 @@ AutoProfilerLabel
 (
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_construct_timestamp_now
@@ -360,6 +370,9 @@ TimeStamp
 aTime
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 static_assert
 (
 std
@@ -403,6 +416,8 @@ Phase
 Instant
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_construct_marker_timing_instant_now
@@ -415,6 +430,9 @@ MarkerTiming
 aMarkerTiming
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 static_assert
 (
 std
@@ -465,6 +483,8 @@ Phase
 Instant
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_construct_marker_timing_interval
@@ -491,6 +511,9 @@ TimeStamp
 aEndTime
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 static_assert
 (
 std
@@ -530,6 +553,8 @@ Phase
 Interval
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_construct_marker_timing_interval_until_now_from
@@ -549,6 +574,9 @@ TimeStamp
 aStartTime
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 static_assert
 (
 std
@@ -595,6 +623,8 @@ Phase
 Interval
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_construct_marker_timing_interval_start
@@ -614,6 +644,9 @@ TimeStamp
 aTime
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 static_assert
 (
 std
@@ -657,6 +690,8 @@ Phase
 IntervalStart
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_construct_marker_timing_interval_end
@@ -676,6 +711,9 @@ TimeStamp
 aTime
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 static_assert
 (
 std
@@ -719,6 +757,8 @@ Phase
 IntervalEnd
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_destruct_marker_timing
@@ -731,6 +771,9 @@ MarkerTiming
 aMarkerTiming
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 aMarkerTiming
 -
 >
@@ -739,6 +782,8 @@ MarkerTiming
 (
 )
 ;
+#
+endif
 }
 mozilla
 :
@@ -761,6 +806,9 @@ size_t
 aLength
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 return
 new
 mozilla
@@ -772,6 +820,13 @@ aLocations
 aLength
 )
 ;
+#
+else
+return
+nullptr
+;
+#
+endif
 }
 mozilla
 :
@@ -782,6 +837,9 @@ gecko_profiler_construct_marker_schema_with_special_front_end_location
 (
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 return
 new
 mozilla
@@ -800,6 +858,13 @@ SpecialFrontendLocation
 }
 )
 ;
+#
+else
+return
+nullptr
+;
+#
+endif
 }
 void
 gecko_profiler_destruct_marker_schema
@@ -812,9 +877,14 @@ MarkerSchema
 aMarkerSchema
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 delete
 aMarkerSchema
 ;
+#
+endif
 }
 void
 gecko_profiler_marker_schema_set_chart_label
@@ -833,6 +903,9 @@ size_t
 aLabelLength
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 aSchema
 -
 >
@@ -848,6 +921,8 @@ aLabelLength
 )
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_marker_schema_set_tooltip_label
@@ -866,6 +941,9 @@ size_t
 aLabelLength
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 aSchema
 -
 >
@@ -881,6 +959,8 @@ aLabelLength
 )
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_marker_schema_set_table_label
@@ -899,6 +979,9 @@ size_t
 aLabelLength
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 aSchema
 -
 >
@@ -914,6 +997,8 @@ aLabelLength
 )
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_marker_schema_set_all_labels
@@ -932,6 +1017,9 @@ size_t
 aLabelLength
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 aSchema
 -
 >
@@ -947,6 +1035,8 @@ aLabelLength
 )
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_marker_schema_set_stack_based
@@ -959,6 +1049,9 @@ MarkerSchema
 aSchema
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 aSchema
 -
 >
@@ -966,6 +1059,8 @@ SetIsStackBased
 (
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_marker_schema_add_key_format
@@ -992,6 +1087,9 @@ Format
 aFormat
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 aSchema
 -
 >
@@ -1008,6 +1106,8 @@ aKeyLength
 aFormat
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_marker_schema_add_key_label_format
@@ -1040,6 +1140,9 @@ Format
 aFormat
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 aSchema
 -
 >
@@ -1064,6 +1167,8 @@ aLabelLength
 aFormat
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_marker_schema_add_key_format_with_flags
@@ -1098,6 +1203,9 @@ PayloadFlags
 aPayloadFlags
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 aSchema
 -
 >
@@ -1115,6 +1223,8 @@ aFormat
 aPayloadFlags
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_marker_schema_add_key_label_format_with_flags
@@ -1155,6 +1265,9 @@ PayloadFlags
 aPayloadFlags
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 aSchema
 -
 >
@@ -1180,6 +1293,8 @@ aFormat
 aPayloadFlags
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_marker_schema_add_static_label_value
@@ -1204,6 +1319,9 @@ size_t
 aValueLength
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 aSchema
 -
 >
@@ -1227,6 +1345,8 @@ aValueLength
 )
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_marker_schema_stream
@@ -1257,6 +1377,9 @@ void
 aStreamedNamesSet
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 auto
 *
 streamedNames
@@ -1329,6 +1452,8 @@ aNameLength
 )
 ;
 }
+#
+endif
 }
 void
 gecko_profiler_json_writer_int_property
@@ -1352,6 +1477,9 @@ int64_t
 aValue
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 aWriter
 -
 >
@@ -1368,6 +1496,8 @@ aNameLength
 aValue
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_json_writer_float_property
@@ -1391,6 +1521,9 @@ double
 aValue
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 aWriter
 -
 >
@@ -1407,6 +1540,8 @@ aNameLength
 aValue
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_json_writer_bool_property
@@ -1430,6 +1565,9 @@ bool
 aValue
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 aWriter
 -
 >
@@ -1446,6 +1584,8 @@ aNameLength
 aValue
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_json_writer_string_property
@@ -1473,6 +1613,9 @@ size_t
 aValueLength
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 aWriter
 -
 >
@@ -1496,6 +1639,8 @@ aValueLength
 )
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_json_writer_unique_string_property
@@ -1523,6 +1668,9 @@ size_t
 aValueLength
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 aWriter
 -
 >
@@ -1546,6 +1694,8 @@ aValueLength
 )
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_json_writer_null_property
@@ -1567,6 +1717,9 @@ size_t
 aNameLength
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 aWriter
 -
 >
@@ -1582,6 +1735,8 @@ aNameLength
 )
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_add_marker_untyped
@@ -1613,6 +1768,9 @@ StackCaptureOptions
 aStackCaptureOptions
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 profiler_add_marker
 (
 mozilla
@@ -1656,6 +1814,8 @@ aStackCaptureOptions
 )
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_add_marker_text
@@ -1693,6 +1853,9 @@ size_t
 aTextLength
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 profiler_add_marker
 (
 mozilla
@@ -1753,6 +1916,8 @@ aTextLength
 )
 )
 ;
+#
+endif
 }
 void
 gecko_profiler_add_marker
@@ -1792,6 +1957,9 @@ size_t
 aPayloadSize
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 mozilla
 :
 :
@@ -2061,4 +2229,6 @@ Rust
 payload
 )
 ;
+#
+endif
 }

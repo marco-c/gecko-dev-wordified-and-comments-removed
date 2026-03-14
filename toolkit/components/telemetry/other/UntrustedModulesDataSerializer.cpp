@@ -779,6 +779,12 @@ false
 ;
 }
 }
+#
+if
+defined
+(
+MOZ_GECKO_PROFILER
+)
 if
 (
 aModule
@@ -871,6 +877,8 @@ false
 }
 }
 }
+#
+endif
 if
 (
 aModule

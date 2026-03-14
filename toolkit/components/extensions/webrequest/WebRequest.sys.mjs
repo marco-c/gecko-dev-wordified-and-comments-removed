@@ -6430,6 +6430,7 @@ if
 Services
 .
 profiler
+?
 .
 IsActive
 (

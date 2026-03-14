@@ -760,6 +760,12 @@ RegisterThreadWithProfiler
 (
 )
 {
+#
+if
+defined
+(
+MOZ_GECKO_PROFILER
+)
 const
 char
 *
@@ -804,6 +810,8 @@ stackTop
 )
 )
 ;
+#
+endif
 }
 }
 ;
