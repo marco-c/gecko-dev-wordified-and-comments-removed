@@ -408,7 +408,7 @@ var
 (
 -
 -
-outline
+border
 -
 color
 -
