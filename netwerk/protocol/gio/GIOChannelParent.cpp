@@ -1186,7 +1186,6 @@ SendOnDataAvailable
 channelStatus
 data
 aOffset
-aCount
 )
 )
 {

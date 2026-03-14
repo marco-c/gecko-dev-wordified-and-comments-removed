@@ -83,8 +83,6 @@ nsresult
 transportStatus
 uint64_t
 offset
-uint32_t
-count
 nsCString
 data
 bool

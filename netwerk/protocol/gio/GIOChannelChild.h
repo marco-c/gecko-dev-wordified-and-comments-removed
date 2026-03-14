@@ -247,10 +247,6 @@ const
 uint64_t
 &
 aOffset
-const
-uint32_t
-&
-aCount
 )
 override
 ;
@@ -338,10 +334,6 @@ const
 uint64_t
 &
 aOffset
-const
-uint32_t
-&
-aCount
 )
 ;
 void

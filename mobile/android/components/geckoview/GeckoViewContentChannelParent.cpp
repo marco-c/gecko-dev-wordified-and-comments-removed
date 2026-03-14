@@ -501,7 +501,6 @@ SendOnDataAvailable
 channelStatus
 data
 aOffset
-aCount
 )
 ;
 return

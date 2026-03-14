@@ -589,10 +589,6 @@ const
 uint64_t
 &
 offset
-const
-uint32_t
-&
-count
 )
 {
 if
@@ -642,11 +638,6 @@ Span
 (
 data
 )
-.
-To
-(
-count
-)
 NS_ASSIGNMENT_DEPEND
 )
 ;
@@ -676,7 +667,11 @@ OnDataAvailable
 this
 stringStream
 offset
-count
+data
+.
+Length
+(
+)
 )
 ;
 return
