@@ -184,10 +184,8 @@ mach_msg_recv
 mach_msg_send
 AsRawPort
 MachMessageWrapper
-MachPortRight
 ReceiveRight
 SendRight
-SendRightRef
 }
 ;
 pub
