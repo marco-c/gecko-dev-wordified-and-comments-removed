@@ -772,9 +772,11 @@ waitForPrefChange
 LOCATION_PREF
 )
 ;
-EventUtils
+menuList
 .
-synthesizeMouseAtCenter
+menupopup
+.
+activateItem
 (
 win
 .
@@ -786,9 +788,6 @@ getElementById
 editBMPanel_bmRootItem
 "
 )
-{
-}
-win
 )
 ;
 await
@@ -1031,9 +1030,11 @@ win
 await
 promisePopup
 ;
-EventUtils
+menuList
 .
-synthesizeMouseAtCenter
+menupopup
+.
+activateItem
 (
 win
 .
@@ -1045,9 +1046,6 @@ getElementById
 editBMPanel_toolbarFolderItem
 "
 )
-{
-}
-win
 )
 ;
 await
