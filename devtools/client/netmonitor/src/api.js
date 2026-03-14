@@ -193,6 +193,9 @@ NetMonitorAPI
 extends
 EventEmitter
 {
+#
+requestFinishedListeners
+;
 constructor
 (
 )
@@ -212,7 +215,8 @@ Connector
 ;
 this
 .
-_requestFinishedListeners
+#
+requestFinishedListeners
 =
 new
 Set
@@ -455,7 +459,8 @@ if
 !
 this
 .
-_requestFinishedListeners
+#
+requestFinishedListeners
 .
 size
 )
@@ -591,7 +596,8 @@ pageref
 ;
 this
 .
-_requestFinishedListeners
+#
+requestFinishedListeners
 .
 forEach
 (
@@ -639,7 +645,8 @@ listener
 {
 this
 .
-_requestFinishedListeners
+#
+requestFinishedListeners
 .
 add
 (
@@ -654,7 +661,8 @@ listener
 {
 this
 .
-_requestFinishedListeners
+#
+requestFinishedListeners
 .
 delete
 (
@@ -669,7 +677,8 @@ hasRequestFinishedListeners
 return
 this
 .
-_requestFinishedListeners
+#
+requestFinishedListeners
 .
 size
 >
