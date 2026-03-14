@@ -1836,6 +1836,13 @@ defined
 (
 _M_X64
 )
+&
+&
+!
+defined
+(
+__clang__
+)
 supports_sse3
 (
 )
