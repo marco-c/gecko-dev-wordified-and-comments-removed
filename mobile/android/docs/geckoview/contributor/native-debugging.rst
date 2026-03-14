@@ -1459,7 +1459,7 @@ mozilla
 .
 geckoview_example
 :
-gpu
+gpu_disable_art_image_
 Attaching
 a
 Java
@@ -1614,10 +1614,11 @@ Gecko
 content
 child
 processes
-are
-suffixed
+have
+names
+like
 :
-tab
+tab_disable_art_image_0
 at
 this
 time
