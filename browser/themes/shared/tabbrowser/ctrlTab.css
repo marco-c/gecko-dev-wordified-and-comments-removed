@@ -127,6 +127,12 @@ shadow
 :
 none
 ;
+background
+-
+color
+:
+transparent
+;
 media
 not
 (
