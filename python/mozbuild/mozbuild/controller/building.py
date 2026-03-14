@@ -6083,6 +6083,10 @@ monitor
 .
 num_files_processed
         
+if
+total
+:
+            
 percent
 =
 "
@@ -6104,6 +6108,18 @@ processed
 /
 total
 )
+        
+else
+:
+            
+percent
+=
+"
+(
+100
+%
+)
+"
         
 parts
 =
