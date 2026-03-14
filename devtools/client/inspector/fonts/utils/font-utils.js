@@ -345,7 +345,7 @@ number
 return
 Math
 .
-round
+floor
 (
 number
 *
