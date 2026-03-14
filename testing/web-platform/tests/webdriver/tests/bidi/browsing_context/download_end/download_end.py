@@ -796,12 +796,24 @@ complete
 await
 subscribe_events
 (
+        
 events
 =
 [
 DOWNLOAD_END
 NAVIGATION_STARTED
 ]
+contexts
+=
+[
+new_tab
+[
+"
+context
+"
+]
+]
+    
 )
     
 on_navigation_started
