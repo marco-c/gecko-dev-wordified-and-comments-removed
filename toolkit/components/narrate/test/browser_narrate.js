@@ -178,7 +178,7 @@ up
 let
 prefChanged
 =
-NarrateTestUtils
+TestUtils
 .
 waitForPrefChange
 (
@@ -541,7 +541,7 @@ paragraphstart
 ;
 prefChanged
 =
-NarrateTestUtils
+TestUtils
 .
 waitForPrefChange
 (

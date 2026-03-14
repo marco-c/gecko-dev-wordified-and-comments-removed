@@ -62,7 +62,7 @@ document
 let
 prefChanged
 =
-NarrateTestUtils
+TestUtils
 .
 waitForPrefChange
 (
