@@ -1313,12 +1313,6 @@ JSLinearString
 *
 >
 locale
-Handle
-<
-JSLinearString
-*
->
-defaultLocale
 MutableHandle
 <
 JSLinearString
@@ -1335,12 +1329,14 @@ JS_TRY_VAR_OR_RETURN_FALSE
 (
 cx
 res
+:
+:
 BestAvailableLocale
 (
 cx
 availableLocales
 locale
-defaultLocale
+nullptr
 )
 )
 ;
@@ -1666,6 +1662,8 @@ JS_TRY_VAR_OR_RETURN_FALSE
 (
 cx
 availableLocale
+:
+:
 BestAvailableLocale
 (
 cx
@@ -2328,6 +2326,8 @@ JS_TRY_VAR_OR_RETURN_FALSE
 (
 cx
 availableLocale
+:
+:
 BestAvailableLocale
 (
 cx
@@ -4565,7 +4565,6 @@ AvailableLocaleKind
 :
 Collator
 locale
-nullptr
 &
 actualLocale
 )
@@ -6366,6 +6365,8 @@ JS_TRY_VAR_OR_RETURN_NULL
 (
 cx
 supportedCollator
+:
+:
 BestAvailableLocale
 (
 cx
@@ -6392,6 +6393,8 @@ JS_TRY_VAR_OR_RETURN_NULL
 (
 cx
 supportedDateTimeFormat
+:
+:
 BestAvailableLocale
 (
 cx
@@ -6452,6 +6455,8 @@ JS_TRY_VAR_OR_RETURN_NULL
 (
 cx
 supported
+:
+:
 BestAvailableLocale
 (
 cx

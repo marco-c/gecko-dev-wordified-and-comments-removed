@@ -210,15 +210,6 @@ locale
 JS
 :
 :
-Handle
-<
-JSLinearString
-*
->
-defaultLocale
-JS
-:
-:
 MutableHandle
 <
 JSLinearString
