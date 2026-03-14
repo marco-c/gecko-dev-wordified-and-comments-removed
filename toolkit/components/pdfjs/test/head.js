@@ -667,6 +667,16 @@ browser
 selector
 )
 {
+info
+(
+Click
+on
+:
+{
+selector
+}
+)
+;
 await
 waitForSelector
 (

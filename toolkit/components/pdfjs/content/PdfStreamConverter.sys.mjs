@@ -3630,6 +3630,9 @@ false
 hasSelectedText
 :
 false
+hasSelectedPages
+:
+false
 }
 ;
 const
