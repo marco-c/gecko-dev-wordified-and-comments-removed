@@ -412,13 +412,6 @@ snackbar
 SnackbarState
 .
 TranslationInProgress
-RunWith
-(
-AndroidJUnit4
-:
-:
-class
-)
 class
 TranslationsBindingTest
 {

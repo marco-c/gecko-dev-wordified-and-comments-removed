@@ -105,12 +105,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 StandardTestDispatcher
@@ -180,13 +174,6 @@ compose
 snackbar
 .
 SnackbarFactory
-OptIn
-(
-ExperimentalCoroutinesApi
-:
-:
-class
-)
 class
 StandardSnackbarErrorBindingTest
 {

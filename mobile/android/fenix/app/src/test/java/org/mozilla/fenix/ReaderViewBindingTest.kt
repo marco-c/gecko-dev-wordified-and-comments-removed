@@ -192,13 +192,6 @@ appstate
 readerview
 .
 ReaderViewState
-RunWith
-(
-AndroidJUnit4
-:
-:
-class
-)
 class
 ReaderViewBindingTest
 {

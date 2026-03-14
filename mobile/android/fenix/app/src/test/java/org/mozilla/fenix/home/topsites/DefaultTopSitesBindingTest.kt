@@ -244,13 +244,6 @@ java
 io
 .
 ByteArrayInputStream
-RunWith
-(
-AndroidJUnit4
-:
-:
-class
-)
 class
 DefaultTopSitesBindingTest
 {
