@@ -497,7 +497,7 @@ exec
 ;
 FT_LOCAL
 (
-FT_Error
+void
 )
 TT_Load_Context
 (

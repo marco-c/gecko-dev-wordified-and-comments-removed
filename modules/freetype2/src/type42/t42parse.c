@@ -158,7 +158,7 @@ Weight
 weight
 0
 )
-T1_FIELD_NUM
+T1_FIELD_FIXED
 (
 "
 ItalicAngle

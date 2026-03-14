@@ -205,6 +205,9 @@ FT_Byte
 *
 gsub
 ;
+FT_UShort
+gsub_lookup_count
+;
 FT_UInt32
 *
 gsub_lookups_single_alternate

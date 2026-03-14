@@ -86,7 +86,7 @@ FT_String
 *
 weight
 ;
-FT_Long
+FT_Fixed
 italic_angle
 ;
 FT_Bool

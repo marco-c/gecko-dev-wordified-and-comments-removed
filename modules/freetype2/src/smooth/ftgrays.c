@@ -7474,6 +7474,7 @@ n
 x
 =
 (
+unsigned
 short
 )
 x
@@ -7599,6 +7600,7 @@ n
 x
 =
 (
+unsigned
 short
 )
 cell

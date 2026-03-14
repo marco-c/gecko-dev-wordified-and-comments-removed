@@ -313,10 +313,10 @@ is_fixed_pitch
 FT_Fixed
 italic_angle
 ;
-FT_Fixed
+FT_Short
 underline_position
 ;
-FT_Fixed
+FT_UShort
 underline_thickness
 ;
 FT_Int

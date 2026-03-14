@@ -1393,7 +1393,7 @@ OTV_LIMIT_CHECK
 (
 FeatureCount
 *
-2
+6
 )
 ;
 otvalid

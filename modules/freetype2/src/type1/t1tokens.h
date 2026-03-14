@@ -52,7 +52,7 @@ Weight
 weight
 T1_FIELD_DICT_FONTDICT
 )
-T1_FIELD_NUM
+T1_FIELD_FIXED
 (
 "
 ItalicAngle

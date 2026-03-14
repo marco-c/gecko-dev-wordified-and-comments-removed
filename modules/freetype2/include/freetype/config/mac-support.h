@@ -5,6 +5,9 @@ FREETYPE_CONFIG_MAC_SUPPORT_H_
 define
 FREETYPE_CONFIG_MAC_SUPPORT_H_
 #
+ifdef
+FT_MACINTOSH
+#
 if
 defined
 (
@@ -61,6 +64,8 @@ MAC_OS_X_VERSION_10_4
 #
 undef
 FT_MACINTOSH
+#
+endif
 #
 endif
 #

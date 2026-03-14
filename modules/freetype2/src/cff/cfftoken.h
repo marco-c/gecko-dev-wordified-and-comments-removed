@@ -76,7 +76,7 @@ italic_angle
 ItalicAngle
 "
 )
-CFF_FIELD_FIXED
+CFF_FIELD_NUM
 (
 0x103
 underline_position
@@ -84,7 +84,7 @@ underline_position
 UnderlinePosition
 "
 )
-CFF_FIELD_FIXED
+CFF_FIELD_NUM
 (
 0x104
 underline_thickness

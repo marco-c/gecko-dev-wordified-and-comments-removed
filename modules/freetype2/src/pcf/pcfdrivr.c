@@ -1464,6 +1464,15 @@ charmap
 NULL
 )
 ;
+if
+(
+error
+)
+PCF_Face_Done
+(
+face
+)
+;
 }
 }
 Exit
@@ -2261,10 +2270,6 @@ error
 ft_glyphslot_alloc_bitmap
 (
 slot
-(
-FT_ULong
-)
-bytes
 )
 ;
 if

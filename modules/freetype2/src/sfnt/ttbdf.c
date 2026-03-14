@@ -279,16 +279,13 @@ num_strikes
 |
 |
 strings
-+
-1
 >
+=
 length
 )
-{
 goto
 BadTable
 ;
-}
 bdf
 -
 >
