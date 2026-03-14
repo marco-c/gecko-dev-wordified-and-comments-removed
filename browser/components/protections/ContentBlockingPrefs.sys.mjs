@@ -3059,7 +3059,7 @@ updateCBCategory
 (
 preserveAllowListSettings
 =
-false
+true
 )
 {
 if
@@ -3469,9 +3469,6 @@ pref
 }
 setPrefExpectationsAndUpdate
 (
-preserveAllowListSettings
-=
-false
 )
 {
 this
@@ -3484,7 +3481,6 @@ this
 .
 updateCBCategory
 (
-preserveAllowListSettings
 )
 ;
 }
@@ -3660,6 +3656,7 @@ this
 .
 updateCBCategory
 (
+false
 )
 ;
 }
@@ -3698,17 +3695,6 @@ this
 PREF_LNA_ETP_ENABLED
 )
 {
-/
-/
-updates
-tagging
-of
-LNA
-restrictions
-with
-ETP
-strict
-mode
 this
 .
 setPrefExpectationsAndUpdate
@@ -3725,7 +3711,6 @@ this
 .
 setPrefExpectationsAndUpdate
 (
-true
 )
 ;
 this
