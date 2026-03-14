@@ -930,6 +930,16 @@ AllocateExtraData
 (
 )
 ;
+MediaResult
+AllocateH264ExtraData
+(
+)
+;
+MediaResult
+AllocateHEVCExtraData
+(
+)
+;
 #
 endif
 MediaResult
