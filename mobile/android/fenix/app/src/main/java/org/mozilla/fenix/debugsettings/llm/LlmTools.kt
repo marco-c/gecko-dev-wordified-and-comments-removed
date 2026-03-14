@@ -265,6 +265,8 @@ fenix
 .
 components
 .
+llm
+.
 Llm
 as
 LlmComponent

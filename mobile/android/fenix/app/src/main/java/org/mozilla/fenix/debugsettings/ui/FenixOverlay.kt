@@ -295,6 +295,8 @@ fenix
 .
 components
 .
+llm
+.
 Llm
 import
 org
@@ -1388,6 +1390,9 @@ Llm
 FakeClient
 (
 )
+{
+null
+}
 FakeIntegrityClient
 (
 )

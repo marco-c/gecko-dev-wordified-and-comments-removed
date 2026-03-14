@@ -572,9 +572,14 @@ MutableHeaders
 authorization
 "
 to
+"
+Bearer
+{
 authorizationToken
 .
 value
+}
+"
 "
 content
 -
