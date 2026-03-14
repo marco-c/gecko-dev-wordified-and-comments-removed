@@ -290,6 +290,12 @@ aIntegrity
 {
 }
 static
+bool
+IsMultipleImportMapsSupported
+(
+)
+;
+static
 mozilla
 :
 :
