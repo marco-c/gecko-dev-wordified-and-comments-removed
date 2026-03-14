@@ -942,6 +942,14 @@ let
 resultTitle
 =
 historyTitle
+|
+|
+UrlbarUtils
+.
+prepareUrlForDisplay
+(
+url
+)
 ;
 if
 (
