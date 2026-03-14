@@ -108,6 +108,8 @@ SourceBuffer
 enum
 class
 DecoderType
+:
+uint8_t
 ;
 enum
 class

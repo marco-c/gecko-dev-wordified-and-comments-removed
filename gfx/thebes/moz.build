@@ -1232,6 +1232,14 @@ src
 "
 "
 /
+image
+/
+encoders
+/
+jpeg
+"
+"
+/
 third_party
 /
 xsimd
