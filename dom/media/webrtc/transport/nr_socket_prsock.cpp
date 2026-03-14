@@ -2088,7 +2088,7 @@ _status
 char
 addr_string
 [
-64
+256
 ]
 ;
 if
