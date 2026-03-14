@@ -186,6 +186,7 @@ clip
 ClipIntern
 ClipItemKey
 ClipItemKeyKind
+ClipItemEntry
 ClipStore
 }
 ;
@@ -8321,9 +8322,6 @@ flags
 self
 .
 spatial_tree
-self
-.
-interners
 &
 self
 .
@@ -8366,7 +8364,7 @@ clip_items
 :
 Vec
 <
-ClipItemKey
+ClipItemEntry
 >
 prim
 :
@@ -8451,7 +8449,7 @@ clip_items
 :
 Vec
 <
-ClipItemKey
+ClipItemEntry
 >
 prim
 :
@@ -11145,7 +11143,6 @@ image_mask
 snapped_mask_rect
 polygon_handle
 )
-spatial_node_index
 }
 ;
 let
@@ -11181,6 +11178,7 @@ define_image_mask_clip
 (
 new_node_id
 handle
+spatial_node_index
 )
 ;
 }
@@ -11241,7 +11239,6 @@ ClipMode
 :
 Clip
 )
-spatial_node_index
 }
 ;
 let
@@ -11277,6 +11274,7 @@ define_rect_clip
 (
 new_node_id
 handle
+spatial_node_index
 )
 ;
 }
@@ -11342,7 +11340,6 @@ clip
 .
 mode
 )
-spatial_node_index
 }
 ;
 let
@@ -11378,6 +11375,7 @@ define_rounded_rect_clip
 (
 new_node_id
 handle
+spatial_node_index
 )
 ;
 }
@@ -14622,9 +14620,6 @@ flags
 self
 .
 spatial_tree
-self
-.
-interners
 &
 self
 .

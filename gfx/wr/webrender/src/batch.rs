@@ -13340,9 +13340,7 @@ gpu
 .
 get_id
 (
-clip_node
-.
-item
+clip_instance
 .
 spatial_node_index
 ctx
@@ -13655,9 +13653,7 @@ add_tiled_clip_mask
 (
 actual_rect
 rect
-clip_node
-.
-item
+clip_instance
 .
 spatial_node_index
 ctx

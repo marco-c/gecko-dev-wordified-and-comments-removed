@@ -3173,10 +3173,6 @@ clip_chain
 frame_state
 .
 clip_store
-&
-data_stores
-.
-clip
 )
 }
 else
@@ -4128,10 +4124,6 @@ clip_chain
 frame_state
 .
 clip_store
-&
-data_stores
-.
-clip
 )
 }
 else
@@ -6501,10 +6493,6 @@ visibility_spatial_node_index
 frame_context
 .
 spatial_tree
-&
-data_stores
-.
-clip
 )
 ;
 let
