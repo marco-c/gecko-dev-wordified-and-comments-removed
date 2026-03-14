@@ -1068,7 +1068,7 @@ weatherEnabled
 |
 null
 }
-ontoggle
+onToggle
 =
 {
 this
@@ -1164,7 +1164,7 @@ listsEnabled
 |
 null
 }
-ontoggle
+onToggle
 =
 {
 this
@@ -1264,7 +1264,7 @@ timerEnabled
 |
 null
 }
-ontoggle
+onToggle
 =
 {
 this
@@ -1417,7 +1417,7 @@ weatherEnabled
 |
 null
 }
-ontoggle
+onToggle
 =
 {
 this
@@ -1497,7 +1497,7 @@ topSitesEnabled
 |
 null
 }
-ontoggle
+onToggle
 =
 {
 this
@@ -1856,7 +1856,7 @@ pocketEnabled
 |
 null
 }
-ontoggle
+onToggle
 =
 {
 this
