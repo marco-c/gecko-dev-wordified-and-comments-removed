@@ -5280,7 +5280,7 @@ budget
 )
 ;
 IncrementalProgress
-performSweepActions
+sweepPhase
 (
 JS
 :
