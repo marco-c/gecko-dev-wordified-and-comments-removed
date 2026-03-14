@@ -1287,6 +1287,7 @@ mimeType
 :
 mimeType
 ?
+mimeType
 .
 replace
 (
@@ -1298,6 +1299,12 @@ replace
 "
 "
 )
+:
+"
+text
+/
+plain
+"
 targetSearchResult
 url
 }

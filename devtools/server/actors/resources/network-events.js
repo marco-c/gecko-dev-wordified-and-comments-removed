@@ -1431,6 +1431,16 @@ updateType
 =
 NETWORK_EVENT_TYPES
 .
+REQUEST_POSTDATA
+|
+|
+updateResource
+.
+updateType
+=
+=
+NETWORK_EVENT_TYPES
+.
 RESPONSE_START
 |
 |
