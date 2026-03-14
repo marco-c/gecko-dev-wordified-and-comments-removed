@@ -40,6 +40,15 @@ module
 "
 esnext
 "
+"
+rootDir
+"
+:
+"
+.
+/
+src
+"
 /
 /
 Use

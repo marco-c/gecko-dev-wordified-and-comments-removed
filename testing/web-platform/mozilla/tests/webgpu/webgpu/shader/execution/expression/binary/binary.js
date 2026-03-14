@@ -155,3 +155,9 @@ op
 )
 ;
 }
+export
+const
+kAbstractFloatMatrixBinaryOpBatchSize
+=
+1
+;

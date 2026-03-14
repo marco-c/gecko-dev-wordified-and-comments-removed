@@ -1191,6 +1191,8 @@ color
 type
 :
 '
+unfilterable
+-
 float
 '
 copySrc
@@ -1260,6 +1262,8 @@ color
 type
 :
 '
+unfilterable
+-
 float
 '
 copySrc
@@ -1509,6 +1513,8 @@ color
 type
 :
 '
+unfilterable
+-
 float
 '
 copySrc
@@ -1578,6 +1584,8 @@ color
 type
 :
 '
+unfilterable
+-
 float
 '
 copySrc
@@ -1827,6 +1835,8 @@ color
 type
 :
 '
+unfilterable
+-
 float
 '
 copySrc
@@ -1896,6 +1906,8 @@ color
 type
 :
 '
+unfilterable
+-
 float
 '
 copySrc
@@ -10223,14 +10235,14 @@ unfilterable
 float
 '
 :
-assert
+if
 (
 is32Float
 (
 format
 )
 )
-;
+{
 return
 hasFeature
 (
@@ -10242,6 +10254,13 @@ filterable
 '
 )
 ;
+}
+else
+{
+return
+false
+;
+}
 default
 :
 return
