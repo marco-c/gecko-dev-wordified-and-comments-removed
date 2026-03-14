@@ -825,6 +825,15 @@ aDomain
 )
 ;
 async
+SetSiteIntegrityProtected
+(
+nsIURI
+aSourceURI
+uint64_t
+aMaxAge
+)
+;
+async
 Destroy
 (
 )
