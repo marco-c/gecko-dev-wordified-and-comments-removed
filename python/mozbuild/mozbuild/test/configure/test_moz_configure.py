@@ -1,4 +1,8 @@
 from
+functools
+import
+cached_property
+from
 mozunit
 import
 main
@@ -13,7 +17,6 @@ mozbuild
 util
 import
 ReadOnlyNamespace
-memoized_property
 def
 sandbox_class
 (
@@ -28,7 +31,7 @@ ConfigureTestSandbox
 )
 :
         
-memoized_property
+cached_property
         
 def
 _wrapped_sys
@@ -812,39 +815,6 @@ pc
 windows
 -
 gnu
-"
-        
-)
-        
-self
-.
-assertEqual
-(
-            
-self
-.
-get_target
-(
-[
-"
--
--
-host
-=
-x86_64
--
-pc
--
-mingw32
-"
-]
-)
-"
-x86_64
--
-pc
--
-mingw32
 "
         
 )

@@ -1414,10 +1414,14 @@ windows_abi
 {
 host
 :
-host_windows_abi
+host
+.
+abi
 target
 :
-target_windows_abi
+target
+.
+abi
 }
 [
 host_or_target
