@@ -196,6 +196,8 @@ pilot
 ALLOWED_PATHS
 :
 |
+gradle
+/
 mobile
 /
 android
