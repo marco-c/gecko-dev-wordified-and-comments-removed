@@ -430,11 +430,6 @@ TestAudioInputProcessing
 cpp
 "
 "
-TestCamerasParent
-.
-cpp
-"
-"
 TestRTCStatsTimestampMaker
 .
 cpp
