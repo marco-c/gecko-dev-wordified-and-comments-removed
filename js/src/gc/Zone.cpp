@@ -1218,6 +1218,17 @@ isEmpty
 ;
 MOZ_ASSERT
 (
+gcMarkedUserWeakMaps
+(
+)
+.
+isEmpty
+(
+)
+)
+;
+MOZ_ASSERT
+(
 objectsWithWeakPointers
 .
 ref
