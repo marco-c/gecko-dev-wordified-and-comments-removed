@@ -276,10 +276,6 @@ sphinx_copybutton
 "
     
 "
-sphinx_markdown_tables
-"
-    
-"
 sphinx_design
 "
     
