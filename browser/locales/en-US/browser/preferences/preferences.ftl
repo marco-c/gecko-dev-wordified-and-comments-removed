@@ -17066,7 +17066,6 @@ provider
 and
 fallback
 behavior
-.
 preferences
 -
 doh
@@ -17107,7 +17106,6 @@ DNS
 isn
 t
 available
-.
 preferences
 -
 doh
