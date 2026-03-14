@@ -635,6 +635,11 @@ nsAttrValue
 aNewValue
 )
 ;
+void
+UpdateTextEditorShadowTree
+(
+)
+;
 virtual
 ~
 TextControlElement

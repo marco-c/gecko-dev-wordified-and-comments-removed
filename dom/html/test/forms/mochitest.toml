@@ -675,6 +675,13 @@ html
 ]
 [
 "
+test_input_type_change_key_event
+.
+html
+"
+]
+[
+"
 test_input_types_pref
 .
 html
