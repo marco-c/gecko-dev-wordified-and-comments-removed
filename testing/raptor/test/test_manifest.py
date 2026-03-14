@@ -1071,7 +1071,7 @@ chrome
 test
 =
 "
-speedometer
+speedometer2
 "
 browser_cycles
 =
@@ -1110,7 +1110,7 @@ name
 =
 =
 "
-speedometer
+speedometer2
 "
 patch
 (
@@ -2957,7 +2957,7 @@ refbrow
 test
 =
 "
-speedometer
+speedometer2
 "
 browser_cycles
 =
@@ -2996,7 +2996,7 @@ name
 =
 =
 "
-speedometer
+speedometer2
 "
 patch
 (
@@ -3030,7 +3030,7 @@ fenix
 test
 =
 "
-speedometer
+speedometer2
 "
 browser_cycles
 =
@@ -3069,7 +3069,7 @@ name
 =
 =
 "
-speedometer
+speedometer2
 "
 def
 test_add_test_url_params_with_single_extra_param

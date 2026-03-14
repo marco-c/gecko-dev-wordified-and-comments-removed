@@ -2813,7 +2813,7 @@ test_platform
             
 and
 "
-speedometer
+speedometer2
 -
 "
 not

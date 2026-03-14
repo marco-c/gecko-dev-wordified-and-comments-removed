@@ -21220,7 +21220,7 @@ htmlsuite
 dropdown
 :
 :
-speedometer
+speedometer2
 :
 class
 -
@@ -21230,7 +21230,7 @@ anchor
 -
 id
 -
-speedometer
+speedometer2
 -
 b
 *
@@ -21251,7 +21251,7 @@ mach
 raptor
 -
 t
-speedometer
+speedometer2
 *
 *
 Owner
@@ -21573,7 +21573,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -21596,7 +21596,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -21621,7 +21621,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -21640,7 +21640,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -21661,7 +21661,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -21680,7 +21680,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -21763,7 +21763,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -21782,7 +21782,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -21803,7 +21803,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -21822,7 +21822,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -21907,7 +21907,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -21930,7 +21930,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -21955,7 +21955,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -21974,7 +21974,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -21995,7 +21995,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -22014,7 +22014,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -22099,7 +22099,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -22122,7 +22122,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -22147,7 +22147,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -22166,7 +22166,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -22187,7 +22187,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -22206,7 +22206,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -22289,7 +22289,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -22364,7 +22364,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -22437,7 +22437,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -22512,7 +22512,7 @@ benchmark
 -
 chrome
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -22531,7 +22531,7 @@ custom
 -
 car
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -22548,7 +22548,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -22623,7 +22623,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -22696,7 +22696,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -22769,7 +22769,7 @@ benchmark
 -
 chrome
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -22788,7 +22788,7 @@ custom
 -
 car
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -22805,7 +22805,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -22876,7 +22876,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -22949,7 +22949,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -23022,7 +23022,7 @@ benchmark
 -
 chrome
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -23041,7 +23041,7 @@ custom
 -
 car
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -23058,7 +23058,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -23075,7 +23075,7 @@ benchmark
 -
 safari
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -23146,7 +23146,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -23219,7 +23219,7 @@ benchmark
 -
 chrome
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -23238,7 +23238,7 @@ custom
 -
 car
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -23255,7 +23255,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -23272,7 +23272,7 @@ benchmark
 -
 safari
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -23347,7 +23347,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -23422,7 +23422,7 @@ benchmark
 -
 chrome
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -23441,7 +23441,7 @@ custom
 -
 car
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -23458,7 +23458,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -23531,7 +23531,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -23861,7 +23861,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -23884,7 +23884,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -23909,7 +23909,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -23928,7 +23928,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -23949,7 +23949,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -23968,7 +23968,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -24051,7 +24051,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -24070,7 +24070,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -24091,7 +24091,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -24110,7 +24110,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -24195,7 +24195,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -24218,7 +24218,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -24243,7 +24243,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -24262,7 +24262,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -24283,7 +24283,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -24302,7 +24302,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -24387,7 +24387,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -24410,7 +24410,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -24435,7 +24435,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -24454,7 +24454,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -24475,7 +24475,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -24494,7 +24494,7 @@ browsertime
 -
 benchmark
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -24577,7 +24577,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -24652,7 +24652,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -24725,7 +24725,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -24800,7 +24800,7 @@ benchmark
 -
 chrome
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -24819,7 +24819,7 @@ custom
 -
 car
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -24836,7 +24836,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -24911,7 +24911,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -24984,7 +24984,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -25057,7 +25057,7 @@ benchmark
 -
 chrome
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -25076,7 +25076,7 @@ custom
 -
 car
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -25093,7 +25093,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -25164,7 +25164,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -25237,7 +25237,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -25310,7 +25310,7 @@ benchmark
 -
 chrome
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -25329,7 +25329,7 @@ custom
 -
 car
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -25346,7 +25346,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -25363,7 +25363,7 @@ benchmark
 -
 safari
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -25434,7 +25434,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -25507,7 +25507,7 @@ benchmark
 -
 chrome
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -25526,7 +25526,7 @@ custom
 -
 car
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -25543,7 +25543,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -25560,7 +25560,7 @@ benchmark
 -
 safari
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -25635,7 +25635,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -25710,7 +25710,7 @@ benchmark
 -
 chrome
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -25729,7 +25729,7 @@ custom
 -
 car
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -25746,7 +25746,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -
@@ -25819,7 +25819,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 *
 *
 -

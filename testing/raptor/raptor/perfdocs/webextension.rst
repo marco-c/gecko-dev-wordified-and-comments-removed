@@ -3611,9 +3611,7 @@ raptor
 -
 -
 test
-raptor
--
-speedometer
+speedometer3
 -
 -
 app
@@ -3926,9 +3924,7 @@ example
 to
 run
 the
-raptor
--
-speedometer
+speedometer3
 benchmark
 on
 Google
@@ -3944,9 +3940,7 @@ raptor
 -
 -
 test
-raptor
--
-speedometer
+speedometer3
 -
 -
 app
@@ -4169,9 +4163,7 @@ raptor
 -
 -
 test
-raptor
--
-speedometer
+speedometer3
 -
 -
 page

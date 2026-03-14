@@ -4324,6 +4324,17 @@ return
 False
         
 if
+"
+speedometer2
+"
+in
+try_name
+:
+            
+return
+False
+        
+if
 accept_raptor_desktop_build
 (
 platform
@@ -4678,6 +4689,17 @@ False
         
 if
 "
+speedometer2
+"
+in
+try_name
+:
+            
+return
+False
+        
+if
+"
 live
 "
 in
@@ -4855,7 +4877,7 @@ platform
                     
 if
 "
-speedometer
+speedometer3
 "
 in
 try_name
@@ -5197,7 +5219,7 @@ False
                 
 if
 "
-speedometer
+speedometer3
 "
 in
 try_name
@@ -5361,6 +5383,17 @@ raptor_try_name
             
 if
 "
+speedometer2
+"
+in
+try_name
+:
+                
+return
+False
+            
+if
+"
 geckoview
 "
 in
@@ -5383,7 +5416,7 @@ in
 platform
 and
 "
-speedometer
+speedometer3
 "
 not
 in
@@ -5631,7 +5664,7 @@ try_name
                 
 and
 "
-speedometer
+speedometer3
 "
 in
 try_name
@@ -5687,7 +5720,7 @@ try_name
                 
 and
 "
-speedometer
+speedometer3
 "
 in
 try_name
@@ -8551,6 +8584,17 @@ False
         
 if
 "
+speedometer2
+"
+in
+try_name
+:
+            
+return
+False
+        
+if
+"
 awsy
 "
 in
@@ -8991,6 +9035,17 @@ False
 if
 not
 platform
+:
+            
+return
+False
+        
+if
+"
+speedometer2
+"
+in
+try_name
 :
             
 return

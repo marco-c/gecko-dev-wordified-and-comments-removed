@@ -195,7 +195,7 @@ opt
 -
 browsertime
 -
-speedometer
+speedometer2
 -
 mobile
 -
@@ -229,7 +229,7 @@ options
 -
 test
 =
-speedometer
+speedometer2
 "
 ]
 ]

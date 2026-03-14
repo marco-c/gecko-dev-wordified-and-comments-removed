@@ -10747,13 +10747,13 @@ Benchmarks
 *
 *
 :
-speedometer
+speedometer2
 <
 raptor
 .
 html
 #
-speedometer
+speedometer2
 -
 b
 >

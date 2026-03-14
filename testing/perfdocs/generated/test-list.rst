@@ -270,7 +270,8 @@ for
 html
 suite
 )
-speedometer
+speedometer2
+=
 =
 =
 =
