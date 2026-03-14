@@ -14066,11 +14066,15 @@ or
 target
 .
 os
-=
-=
+in
+(
+"
+WINNT
+"
 "
 OSX
 "
+)
 option
 (
 "
