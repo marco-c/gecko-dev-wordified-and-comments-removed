@@ -3381,9 +3381,9 @@ nullptr
 GeneratorWeakMap
 :
 :
-Enum
+ModIterator
 *
-maybeGeneratorFramesEnum
+maybeGeneratorFramesIter
 =
 nullptr
 )
