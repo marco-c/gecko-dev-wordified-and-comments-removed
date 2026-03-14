@@ -336,11 +336,11 @@ None
 port
 :
 None
-protocol
+http_version
 :
 a
 .
-protocol
+http_version
 .
 into
 (
@@ -1672,12 +1672,12 @@ new
 )
 ;
 for
-protocol
+http_version
 in
 &
 svc_info
 .
-alpn_protocols
+alpn_http_versions
 {
 alpn_set
 .
@@ -1685,7 +1685,7 @@ insert
 (
 (
 *
-protocol
+http_version
 )
 .
 into
@@ -2022,7 +2022,7 @@ priority
 target_name
 :
 target
-alpn_protocols
+alpn_http_versions
 :
 alpn_set
 ech_config
@@ -2468,11 +2468,11 @@ id
 into
 (
 )
-protocol
+http_version
 :
 endpoint
 .
-protocol
+http_version
 .
 into
 (
@@ -2609,7 +2609,7 @@ struct
 AltSvc
 {
 pub
-protocol
+http_version
 :
 HttpVersion
 }
@@ -3130,7 +3130,7 @@ target_name
 :
 nsCString
 pub
-alpn_protocols
+alpn_http_versions
 :
 ThinVec
 <
@@ -3306,7 +3306,7 @@ AttemptConnection
 id
 :
 u64
-protocol
+http_version
 :
 ConnectionAttemptHttpVersions
 addr
