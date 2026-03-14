@@ -4912,7 +4912,7 @@ budget
 )
 ;
 void
-markIncomingSymbolEdgesFromUncollectedZones
+markIncomingGraySymbolEdgesFromUncollectedZones
 (
 )
 ;
