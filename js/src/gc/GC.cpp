@@ -12683,11 +12683,6 @@ const
 TimeStamp
 &
 currentTime
-JS
-:
-:
-GCReason
-reason
 bool
 canAllocateMoreCode
 bool
@@ -12788,7 +12783,7 @@ true
 }
 if
 (
-reason
+sliceReason
 =
 =
 JS
@@ -13415,11 +13410,6 @@ GCRuntime
 :
 startCollection
 (
-JS
-:
-:
-GCReason
-reason
 )
 {
 checkGCStateNotInUse
@@ -13436,7 +13426,7 @@ isShutdownGC
 )
 |
 |
-reason
+sliceReason
 =
 =
 JS
@@ -13450,7 +13440,7 @@ XPCONNECT_SHUTDOWN
 ;
 initialReason
 =
-reason
+sliceReason
 ;
 isCompacting
 =
@@ -13732,11 +13722,6 @@ GCRuntime
 :
 prepareZonesForCollection
 (
-JS
-:
-:
-GCReason
-reason
 bool
 *
 isFullOut
@@ -13871,7 +13856,7 @@ shouldCollect
 ShouldCollectZone
 (
 zone
-reason
+sliceReason
 )
 ;
 if
@@ -14653,11 +14638,6 @@ GCRuntime
 :
 beginPreparePhase
 (
-JS
-:
-:
-GCReason
-reason
 AutoGCSession
 &
 session
@@ -14686,7 +14666,6 @@ if
 !
 prepareZonesForCollection
 (
-reason
 &
 isFull
 .
@@ -14735,7 +14714,7 @@ isShutdownGC
 )
 &
 &
-reason
+sliceReason
 !
 =
 JS
@@ -15019,11 +14998,6 @@ GCRuntime
 :
 endPreparePhase
 (
-JS
-:
-:
-GCReason
-reason
 )
 {
 MOZ_ASSERT
@@ -15265,7 +15239,6 @@ shouldPreserveJITCode
 (
 r
 currentTime
-reason
 canAllocateMoreCode
 isActiveCompartment
 )
@@ -15337,7 +15310,7 @@ purgeRuntime
 }
 collectNurseryFromMajorGC
 (
-reason
+sliceReason
 )
 ;
 initialMinorGCNumber
@@ -17776,11 +17749,6 @@ GCRuntime
 :
 finishCollection
 (
-JS
-:
-:
-GCReason
-reason
 )
 {
 assertBackgroundSweepingFinished
@@ -17867,7 +17835,7 @@ if
 (
 IsEmergencyGC
 (
-reason
+sliceReason
 )
 )
 {
@@ -20886,7 +20854,6 @@ NotActive
 :
 startCollection
 (
-reason
 )
 ;
 incrementalState
@@ -20901,7 +20868,6 @@ if
 !
 beginPreparePhase
 (
-reason
 session
 )
 )
@@ -21018,7 +20984,6 @@ MarkRoots
 :
 endPreparePhase
 (
-reason
 )
 ;
 {
@@ -21105,7 +21070,6 @@ isUnlimited
 {
 prepareForSweepSlice
 (
-reason
 )
 ;
 }
@@ -21213,7 +21177,6 @@ false
 ;
 beginSweepPhase
 (
-reason
 session
 )
 ;
@@ -21242,7 +21205,6 @@ Sweep
 {
 prepareForSweepSlice
 (
-reason
 )
 ;
 }
@@ -21590,7 +21552,6 @@ if
 (
 compactPhase
 (
-reason
 budget
 session
 )
@@ -21667,7 +21628,6 @@ Finish
 :
 finishCollection
 (
-reason
 )
 ;
 incrementalState

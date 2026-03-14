@@ -4400,11 +4400,6 @@ GCRuntime
 :
 groupZonesForSweeping
 (
-JS
-:
-:
-GCReason
-reason
 )
 {
 #
@@ -9631,11 +9626,6 @@ GCRuntime
 :
 beginSweepPhase
 (
-JS
-:
-:
-GCReason
-reason
 AutoGCSession
 &
 session
@@ -9710,7 +9700,6 @@ dropStringWrappers
 ;
 groupZonesForSweeping
 (
-reason
 )
 ;
 markSliceCount
@@ -13116,11 +13105,6 @@ GCRuntime
 :
 prepareForSweepSlice
 (
-JS
-:
-:
-GCReason
-reason
 )
 {
 if
@@ -13136,7 +13120,7 @@ mayHavePointersToDeadCells
 {
 collectNurseryFromMajorGC
 (
-reason
+sliceReason
 )
 ;
 }
