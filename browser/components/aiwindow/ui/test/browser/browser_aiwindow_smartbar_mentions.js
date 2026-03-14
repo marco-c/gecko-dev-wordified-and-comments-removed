@@ -3419,16 +3419,6 @@ browser
 )
 ;
 await
-BrowserTestUtils
-.
-browserLoaded
-(
-browser
-false
-AIWINDOW_URL
-)
-;
-await
 SpecialPowers
 .
 spawn
