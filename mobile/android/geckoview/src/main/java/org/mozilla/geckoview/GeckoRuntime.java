@@ -3147,6 +3147,12 @@ preload
 (
 GeckoProcessType
 .
+GPU
+GeckoProcessType
+.
+CONTENT
+GeckoProcessType
+.
 CONTENT
 )
 ;
