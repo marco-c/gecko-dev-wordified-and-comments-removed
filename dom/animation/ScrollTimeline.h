@@ -695,6 +695,11 @@ StyleScrollAxis
 aAxis
 )
 ;
+void
+TimelineDataDidChange
+(
+)
+;
 struct
 ComputedTimelineData
 {
