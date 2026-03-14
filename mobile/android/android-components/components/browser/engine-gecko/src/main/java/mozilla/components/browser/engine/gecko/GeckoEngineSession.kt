@@ -9096,11 +9096,6 @@ if
 shouldOpen
 )
 {
-runtime
-.
-warmUp
-(
-)
 geckoSession
 .
 open
