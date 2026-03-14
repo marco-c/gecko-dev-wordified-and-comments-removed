@@ -296,4 +296,10 @@ libs
 androidx
 .
 preferences
+implementation
+libs
+.
+google
+.
+material
 }
