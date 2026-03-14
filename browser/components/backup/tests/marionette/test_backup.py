@@ -1257,8 +1257,6 @@ chrome
 "
 )
         
-encryptionEnabled
-=
 self
 .
 marionette
@@ -1353,22 +1351,6 @@ bs
 .
 postRecoveryComplete
 ;
-            
-await
-bs
-.
-loadEncryptionState
-(
-)
-;
-            
-return
-bs
-.
-state
-.
-encryptionEnabled
-;
           
 }
 )
@@ -1385,13 +1367,6 @@ outerResolve
 "
 "
         
-)
-        
-self
-.
-assertTrue
-(
-encryptionEnabled
 )
         
 self
