@@ -1037,6 +1037,13 @@ js
 ]
 [
 "
+browser_layout_getFlexbox
+.
+js
+"
+]
+[
+"
 browser_layout_getGrids
 .
 js
