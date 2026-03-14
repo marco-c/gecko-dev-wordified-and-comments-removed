@@ -2559,7 +2559,13 @@ nullptr
 ;
 mChannel
 =
+std
+:
+:
+move
+(
 channel
+)
 ;
 if
 (
