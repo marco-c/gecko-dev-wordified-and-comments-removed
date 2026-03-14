@@ -3632,6 +3632,15 @@ state
 -
 changed
 "
+isTogglingToAIWindow
+?
+"
+smart
+"
+:
+"
+classic
+"
 )
 ;
 if
