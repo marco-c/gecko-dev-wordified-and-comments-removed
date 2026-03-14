@@ -622,6 +622,7 @@ Sticky
 ImagePipeline
 APZ
 ViewTransition
+SCOrigin
 }
 ;
 inline
