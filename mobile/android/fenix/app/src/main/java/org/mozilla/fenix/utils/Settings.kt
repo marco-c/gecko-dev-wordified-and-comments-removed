@@ -13743,7 +13743,7 @@ Config
 .
 channel
 .
-isDebug
+isNightlyOrDebug
 )
 /
 *
