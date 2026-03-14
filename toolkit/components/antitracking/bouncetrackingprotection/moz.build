@@ -36,6 +36,11 @@ nsIBounceTrackingProtection
 idl
 "
 "
+nsIBounceTrackingRecord
+.
+idl
+"
+"
 nsIBTPRemoteExceptionList
 .
 idl
