@@ -215,6 +215,10 @@ function
 (
 )
 {
+setupProfile
+(
+)
+;
 Services
 .
 prefs

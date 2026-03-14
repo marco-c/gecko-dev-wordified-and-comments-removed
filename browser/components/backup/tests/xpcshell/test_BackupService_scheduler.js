@@ -133,6 +133,10 @@ useridleservice
 idleService
 )
 ;
+setupProfile
+(
+)
+;
 Services
 .
 prefs
