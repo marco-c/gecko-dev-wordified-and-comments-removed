@@ -624,6 +624,22 @@ mozilla_central_tasks
 }
     
 "
+firefox
+"
+:
+{
+        
+"
+target_tasks_method
+"
+:
+"
+firefox_pull_request_tasks
+"
+    
+}
+    
+"
 staging
 -
 firefox
