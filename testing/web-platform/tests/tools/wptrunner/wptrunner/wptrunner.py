@@ -3243,6 +3243,13 @@ enable_webtransport_h3
 "
 ]
                                  
+kwargs
+[
+"
+enable_dns
+"
+]
+                                 
 mojojs_path
                                  
 inject_script
