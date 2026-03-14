@@ -736,7 +736,7 @@ metrics
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata
 LayersUpdateFlags
@@ -798,7 +798,7 @@ childMetrics
 childApzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 childMetadata
 LayersUpdateFlags
@@ -1387,7 +1387,7 @@ GetGeneration
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata
 LayersUpdateFlags
@@ -1560,7 +1560,7 @@ scrollUpdates
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata
 LayersUpdateFlags
@@ -1846,7 +1846,7 @@ GetGeneration
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 mainThreadMetadata
 LayersUpdateFlags
@@ -2077,7 +2077,7 @@ GetGeneration
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata2
 LayersUpdateFlags
@@ -2274,7 +2274,7 @@ GetGeneration
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata3
 LayersUpdateFlags
@@ -2542,7 +2542,7 @@ CSSRect
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata
 LayersUpdateFlags
@@ -2824,7 +2824,7 @@ CSSRect
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata
 LayersUpdateFlags
@@ -3044,7 +3044,7 @@ GetGeneration
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata
 LayersUpdateFlags
@@ -3164,7 +3164,7 @@ GetGeneration
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata
 LayersUpdateFlags
@@ -3513,7 +3513,7 @@ GetGeneration
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata
 LayersUpdateFlags
@@ -3878,7 +3878,7 @@ GetGeneration
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata
 LayersUpdateFlags
@@ -5106,7 +5106,7 @@ CSSRect
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata2
 LayersUpdateFlags
@@ -5374,7 +5374,7 @@ ParentLayerRect
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata2
 LayersUpdateFlags
@@ -5985,7 +5985,7 @@ GetGeneration
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata
 LayersUpdateFlags

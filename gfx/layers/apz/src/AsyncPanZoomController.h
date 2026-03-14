@@ -849,7 +849,7 @@ mThisLayerTreeUpdated
 }
 ;
 void
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 const
 ScrollMetadata

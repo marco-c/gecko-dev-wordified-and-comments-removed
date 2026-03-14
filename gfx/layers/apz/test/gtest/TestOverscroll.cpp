@@ -4336,7 +4336,7 @@ eVertical
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata
 LayersUpdateFlags
@@ -9488,7 +9488,7 @@ scrollableRect
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata
 LayersUpdateFlags
@@ -9637,7 +9637,7 @@ scrollableRect
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata
 LayersUpdateFlags
@@ -13497,7 +13497,7 @@ GetGeneration
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata
 LayersUpdateFlags
@@ -13615,7 +13615,7 @@ height
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata
 LayersUpdateFlags
@@ -13784,7 +13784,7 @@ GetGeneration
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata
 LayersUpdateFlags
@@ -14046,7 +14046,7 @@ height
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata
 LayersUpdateFlags
@@ -14203,7 +14203,7 @@ GetGeneration
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata
 LayersUpdateFlags

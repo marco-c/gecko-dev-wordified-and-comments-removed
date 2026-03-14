@@ -23892,7 +23892,7 @@ void
 AsyncPanZoomController
 :
 :
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 const
 ScrollMetadata
@@ -23951,7 +23951,7 @@ APZC_LOGV
 "
 %
 p
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 short
 -
 circuit
@@ -24058,7 +24058,7 @@ aLayerMetrics
 p
 got
 a
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 with
 mIsFirstPaint
 =
