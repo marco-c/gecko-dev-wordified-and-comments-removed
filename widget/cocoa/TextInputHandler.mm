@@ -14030,7 +14030,7 @@ bool
 IMEInputHandler
 :
 :
-sCachedIsForRTLLangage
+sCachedIsForRTLLanguage
 =
 false
 ;
@@ -14630,7 +14630,7 @@ newTIS
 }
 if
 (
-sCachedIsForRTLLangage
+sCachedIsForRTLLanguage
 !
 =
 tis
@@ -14647,7 +14647,7 @@ SendBidiKeyboardInfoToContent
 (
 )
 ;
-sCachedIsForRTLLangage
+sCachedIsForRTLLanguage
 =
 tis
 .
@@ -15389,13 +15389,12 @@ GetIMENotificationRequests
 )
 {
 return
-IMENotificationRequests
-(
-IMENotificationRequests
+{
+IMENotificationRequest
 :
 :
-NOTIFY_TEXT_CHANGE
-)
+TextChange
+}
 ;
 }
 NS_IMETHODIMP_
@@ -18530,7 +18529,7 @@ InsertTextAsCommittingComposition
 "
 destroyed
 by
-commiting
+committing
 composition
 for
 setting
@@ -19129,7 +19128,7 @@ SetMarkedText
 "
 destroyed
 by
-commiting
+committing
 composition
 for
 setting

@@ -1404,6 +1404,16 @@ mozilla
 widget
 :
 :
+IMENotificationRequest
+IMENotificationRequest
+;
+typedef
+mozilla
+:
+:
+widget
+:
+:
 IMENotificationRequests
 IMENotificationRequests
 ;

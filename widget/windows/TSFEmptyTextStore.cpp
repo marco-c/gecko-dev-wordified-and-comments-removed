@@ -2850,9 +2850,8 @@ GetIMENotificationRequests
 const
 {
 return
-IMENotificationRequests
-(
-)
+{
+}
 ;
 }
 }
