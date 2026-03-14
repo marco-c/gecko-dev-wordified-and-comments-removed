@@ -38,9 +38,6 @@ DIRS
 "
 bouncetrackingprotection
 "
-"
-scopedprefs
-"
 ]
 XPIDL_SOURCES
 +
