@@ -3308,6 +3308,10 @@ const
 EditorDOMPoint
 &
 aPointToInsert
+const
+Element
+&
+aEditingHost
 )
 ;
 [
@@ -6897,6 +6901,10 @@ N
 >
 &
 aStylesToSet
+const
+Element
+&
+aEditingHost
 )
 ;
 [
