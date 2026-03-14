@@ -4102,6 +4102,13 @@ js
 ]
 [
 "
+browser_tab_splitview_tab_order
+.
+js
+"
+]
+[
+"
 browser_tab_splitview_telemetry
 .
 js
