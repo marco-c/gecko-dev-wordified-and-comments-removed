@@ -645,7 +645,7 @@ ok
 !
 sidebar
 .
-collapsed
+hidden
 "
 AI
 Sidebar
@@ -710,7 +710,7 @@ ok
 (
 sidebar
 .
-collapsed
+hidden
 "
 AI
 Sidebar
@@ -915,7 +915,7 @@ ok
 (
 sidebar
 .
-collapsed
+hidden
 "
 AI
 Sidebar
