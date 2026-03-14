@@ -1094,7 +1094,7 @@ asyncAncestorASR
 item
 -
 >
-GetActiveScrolledRoot
+GetNearestScrollASR
 (
 )
 ;
