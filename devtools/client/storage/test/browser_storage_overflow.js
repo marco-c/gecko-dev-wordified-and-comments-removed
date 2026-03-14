@@ -18,7 +18,7 @@ function
 await
 openTabAndSetupStorage
 (
-MAIN_DOMAIN_SECURED
+MAIN_URL_SECURED
 +
 "
 storage
@@ -162,17 +162,7 @@ selectTreeItem
 "
 localStorage
 "
-"
-https
-:
-/
-/
-test1
-.
-example
-.
-org
-"
+MAIN_ORIGIN_SECURED
 ]
 )
 ;

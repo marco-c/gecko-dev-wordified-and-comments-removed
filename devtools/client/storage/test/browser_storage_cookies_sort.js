@@ -13,7 +13,7 @@ function
 const
 TEST_URL
 =
-MAIN_DOMAIN
+MAIN_URL
 +
 "
 storage

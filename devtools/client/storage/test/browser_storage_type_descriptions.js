@@ -301,7 +301,7 @@ function
 await
 openTabAndSetupStorage
 (
-MAIN_DOMAIN
+MAIN_URL
 +
 "
 storage

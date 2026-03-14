@@ -128,11 +128,7 @@ URL_IFRAME
 =
 buildURLWithContent
 (
-"
-example
-.
-org
-"
+MAIN_DOMAIN
 <
 h1
 >

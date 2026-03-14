@@ -18,7 +18,7 @@ function
 await
 openTabAndSetupStorage
 (
-MAIN_DOMAIN_SECURED
+MAIN_URL_SECURED
 +
 "
 storage
@@ -90,17 +90,7 @@ selectTreeItem
 "
 indexedDB
 "
-"
-https
-:
-/
-/
-test1
-.
-example
-.
-org
-"
+MAIN_ORIGIN_SECURED
 "
 database
 (
