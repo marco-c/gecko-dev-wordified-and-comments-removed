@@ -1303,10 +1303,9 @@ DeviceInfo
 {
 public
 :
+explicit
 DesktopCaptureDeviceInfo
 (
-int32_t
-aId
 std
 :
 :
@@ -1443,9 +1442,6 @@ override
 ;
 protected
 :
-int32_t
-mId
-;
 std
 :
 :
@@ -1489,8 +1485,6 @@ Source
 :
 DesktopCaptureDeviceInfo
 (
-int32_t
-aId
 std
 :
 :
@@ -1506,10 +1500,6 @@ Source
 aSourceInfo
 )
 :
-mId
-(
-aId
-)
 mDeviceInfo
 (
 std
@@ -2166,8 +2156,6 @@ DeviceInfo
 >
 CreateDesktopDeviceInfo
 (
-int32_t
-aId
 std
 :
 :
@@ -2189,7 +2177,6 @@ make_shared
 DesktopDeviceInfo
 >
 (
-aId
 std
 :
 :
@@ -2212,8 +2199,6 @@ DeviceInfo
 >
 CreateTabDeviceInfo
 (
-int32_t
-aId
 std
 :
 :
@@ -2235,7 +2220,6 @@ make_shared
 TabDeviceInfo
 >
 (
-aId
 std
 :
 :

@@ -189,15 +189,6 @@ h
 #
 include
 "
-rtc_base
-/
-trace_event
-.
-h
-"
-#
-include
-"
 tab_capturer
 .
 h
@@ -296,9 +287,8 @@ DesktopCaptureImpl
 :
 Create
 (
-const
 int32_t
-aModuleId
+aCaptureId
 const
 char
 *
@@ -318,7 +308,7 @@ RefCountedObject
 DesktopCaptureImpl
 >
 (
-aModuleId
+aCaptureId
 aUniqueId
 aType
 )
@@ -622,9 +612,6 @@ DesktopCaptureImpl
 CreateDeviceInfo
 (
 const
-int32_t
-aId
-const
 CaptureDeviceType
 aType
 )
@@ -685,7 +672,6 @@ endif
 return
 CreateDesktopDeviceInfo
 (
-aId
 CreateScreenCaptureInfo
 (
 options
@@ -707,7 +693,6 @@ Window
 return
 CreateDesktopDeviceInfo
 (
-aId
 CreateWindowCaptureInfo
 (
 CreateDesktopCaptureOptions
@@ -731,7 +716,6 @@ Browser
 return
 CreateTabDeviceInfo
 (
-aId
 CreateTabCaptureInfo
 (
 )
@@ -1281,9 +1265,8 @@ DesktopCaptureImpl
 :
 DesktopCaptureImpl
 (
-const
 int32_t
-aId
+aCaptureId
 const
 char
 *
@@ -1293,10 +1276,6 @@ CaptureDeviceType
 aType
 )
 :
-mModuleId
-(
-aId
-)
 mTrackingId
 (
 mozilla
@@ -1364,7 +1343,7 @@ InvalidEngine
 (
 )
 )
-aId
+aCaptureId
 )
 )
 mDeviceUniqueId
