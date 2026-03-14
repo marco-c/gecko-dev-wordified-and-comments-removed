@@ -1527,6 +1527,13 @@ secondTab
 firstTab
 ]
 ;
+if
+(
+this
+.
+hasActiveTab
+)
+{
 gBrowser
 .
 showSplitViewPanels
@@ -1543,6 +1550,7 @@ arm
 (
 )
 ;
+}
 if
 (
 trigger
