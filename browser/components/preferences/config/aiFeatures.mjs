@@ -6297,6 +6297,11 @@ controlAttrs
 headinglevel
 :
 2
+badge
+:
+"
+new
+"
 }
 items
 :
