@@ -345,6 +345,11 @@ wl_display
 aDisplay
 )
 ;
+void
+Init
+(
+)
+;
 static
 uint32_t
 GetLastEventSerial
@@ -893,6 +898,11 @@ WaitForAsyncRoundtrips
 (
 )
 ;
+void
+RefreshScreens
+(
+)
+;
 struct
 MonitorConfig
 {
@@ -920,6 +930,11 @@ int
 pixelHeight
 =
 0
+;
+bool
+pendingChanges
+=
+true
 ;
 explicit
 MonitorConfig
