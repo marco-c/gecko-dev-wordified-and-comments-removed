@@ -96,7 +96,6 @@ class
 FrameChildListID
 {
 Principal
-ColGroup
 Absolute
 PushedAbsolute
 Overflow

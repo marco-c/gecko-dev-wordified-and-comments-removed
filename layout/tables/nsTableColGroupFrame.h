@@ -57,6 +57,7 @@ NS_DECL_FRAMEARENA_HELPERS
 (
 nsTableColGroupFrame
 )
+NS_DECL_QUERYFRAME
 friend
 nsTableColGroupFrame
 *
@@ -183,6 +184,13 @@ parent
 )
 ;
 }
+nsTableColGroupFrame
+*
+GetSyntheticColGroup
+(
+)
+const
+;
 void
 BuildDisplayList
 (
@@ -403,7 +411,10 @@ ResetColIndices
 (
 nsIFrame
 *
-aFirstColGroup
+aFirstFrame
+nsTableColGroupFrame
+*
+aSyntheticColGroup
 int32_t
 aFirstColIndex
 nsIFrame
