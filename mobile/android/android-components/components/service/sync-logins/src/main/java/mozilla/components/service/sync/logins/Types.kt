@@ -173,6 +173,9 @@ timeLastUsed
 timePasswordChanged
 =
 timePasswordChanged
+timeLastBreachAlertDismissed
+=
+timeLastBreachAlertDismissed
 )
 /
 *
@@ -300,4 +303,7 @@ username
 password
 =
 password
+timeLastBreachAlertDismissed
+=
+timeLastBreachAlertDismissed
 )
