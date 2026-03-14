@@ -633,8 +633,14 @@ result
 *
 /
 data
-object
+class
 SummarizationFailed
+(
+val
+throwable
+:
+Throwable
+)
 :
 SummarizationError
 (
