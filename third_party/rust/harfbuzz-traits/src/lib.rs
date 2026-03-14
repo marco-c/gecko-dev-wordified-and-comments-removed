@@ -1,0 +1,15 @@
+#
+!
+[
+no_std
+]
+mod
+unicode_funcs_traits
+;
+pub
+use
+unicode_funcs_traits
+:
+:
+*
+;

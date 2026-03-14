@@ -232,3 +232,10 @@ v2
 with
 LLVM
 Exceptions
+This
+file
+is
+part
+of
+ICU4X
+.

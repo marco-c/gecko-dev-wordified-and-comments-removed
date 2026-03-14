@@ -154,6 +154,10 @@ gkrust_utils
 ;
 extern
 crate
+harfbuzz_glue
+;
+extern
+crate
 http_sfv
 ;
 extern
