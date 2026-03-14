@@ -1721,6 +1721,7 @@ def
 test_redirect
 (
 bidi_session
+configuration
 wait_for_event
 url
 fetch
@@ -1798,6 +1799,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 2
 )
@@ -1926,6 +1928,7 @@ test_redirect_http_equiv
 (
     
 bidi_session
+configuration
 top_context
 wait_for_event
 url
@@ -2001,6 +2004,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 2
 )

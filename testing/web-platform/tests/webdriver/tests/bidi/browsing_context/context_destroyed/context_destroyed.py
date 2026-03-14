@@ -46,6 +46,7 @@ def
 test_unsubscribe
 (
 bidi_session
+configuration
 new_tab
 )
 :
@@ -139,6 +140,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 timeout
@@ -333,6 +335,7 @@ def
 test_navigate
 (
 bidi_session
+configuration
 subscribe_events
 new_tab
 inline
@@ -438,6 +441,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 timeout
@@ -1556,6 +1560,7 @@ def
 test_subscribe_to_one_context
 (
 bidi_session
+configuration
 subscribe_events
 new_tab
 )
@@ -1660,6 +1665,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 timeout
@@ -1690,6 +1696,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 )

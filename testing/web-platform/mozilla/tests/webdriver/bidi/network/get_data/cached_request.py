@@ -57,6 +57,8 @@ test_cached_stylesheet
     
 bidi_session
     
+configuration
+    
 url
     
 inline
@@ -201,12 +203,19 @@ complete
 await
 wait_for_bidi_events
 (
+        
 bidi_session
+        
+configuration
+        
 events
+        
 2
+        
 timeout
 =
 2
+    
 )
     
 collector
@@ -260,12 +269,19 @@ complete
 await
 wait_for_bidi_events
 (
+        
 bidi_session
+        
+configuration
+        
 events
+        
 4
+        
 timeout
 =
 2
+    
 )
     
 cached_events

@@ -1786,6 +1786,7 @@ def
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 count
 timeout
@@ -1832,6 +1833,17 @@ s
 )
 "
     
+final_timeout
+=
+timeout
+*
+configuration
+[
+"
+timeout_multiplier
+"
+]
+    
 wait
 =
 AsyncPoll
@@ -1839,7 +1851,7 @@ AsyncPoll
 bidi_session
 timeout
 =
-timeout
+final_timeout
 )
     
 await
