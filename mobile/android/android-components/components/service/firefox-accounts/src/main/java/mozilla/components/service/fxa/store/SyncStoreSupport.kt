@@ -796,7 +796,6 @@ getProfile
 .
 toAccount
 (
-account
 )
 ?
 :
@@ -1087,9 +1086,6 @@ Profile
 .
 toAccount
 (
-oAuthAccount
-:
-OAuthAccount
 )
 :
 Account
@@ -1108,18 +1104,4 @@ avatar
 displayName
 =
 displayName
-currentDeviceId
-=
-oAuthAccount
-.
-getCurrentDeviceId
-(
-)
-sessionToken
-=
-oAuthAccount
-.
-getSessionToken
-(
-)
 )

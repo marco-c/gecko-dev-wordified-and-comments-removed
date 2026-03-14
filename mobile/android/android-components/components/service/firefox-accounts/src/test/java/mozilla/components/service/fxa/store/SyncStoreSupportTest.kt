@@ -810,12 +810,6 @@ avatar
 profile
 .
 displayName
-"
-id
-"
-"
-token
-"
 )
 assertEquals
 (
@@ -1185,8 +1179,6 @@ UpdateAccount
 (
 Account
 (
-null
-null
 null
 null
 null

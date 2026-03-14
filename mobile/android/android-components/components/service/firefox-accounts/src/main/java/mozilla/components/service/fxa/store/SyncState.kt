@@ -418,14 +418,4 @@ displayName
 :
 String
 ?
-val
-currentDeviceId
-:
-String
-?
-val
-sessionToken
-:
-String
-?
 )

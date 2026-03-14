@@ -286,12 +286,6 @@ displayName
 "
 TempName
 "
-currentDeviceId
-=
-null
-sessionToken
-=
-null
 )
 val
 telemetryMiddleware
