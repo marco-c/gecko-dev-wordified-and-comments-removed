@@ -20,6 +20,10 @@ async
 =
 >
 {
+setupProfile
+(
+)
+;
 gMatchingRegex
 =
 new

@@ -1105,6 +1105,10 @@ add_setup
 =
 >
 {
+setupProfile
+(
+)
+;
 CookieXPCShellUtils
 .
 createServer

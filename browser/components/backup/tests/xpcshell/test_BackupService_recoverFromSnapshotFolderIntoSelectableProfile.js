@@ -90,6 +90,10 @@ test_different_appName
 (
 )
 {
+setupProfile
+(
+)
+;
 let
 testRecoveryPath
 =
