@@ -366,7 +366,7 @@ of
 values
 (
 see
-ablove
+above
 )
 *
 param
@@ -823,7 +823,7 @@ ago
 intervals
 in
 reverse
-chonological
+chronological
 order
 .
 *
@@ -845,7 +845,7 @@ is
 then
 the
 first
-inteval
+interval
 is
 0
 -
@@ -1364,7 +1364,7 @@ hot
 encoded
 vector
 with
-randomizaiton
+randomization
 .
 *
 Accurate
