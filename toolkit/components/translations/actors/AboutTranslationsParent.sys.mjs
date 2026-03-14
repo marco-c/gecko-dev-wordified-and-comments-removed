@@ -879,10 +879,7 @@ telemetryFunctionName
 )
 ;
 }
-aboutTranslationsTelemetry
-[
-telemetryFunctionName
-]
+telemetryFunction
 (
 telemetryData
 )
