@@ -15849,6 +15849,10 @@ if
 LoadOnStartRequestCalled
 (
 )
+&
+&
+!
+mStaleRevalidation
 )
 {
 MaybeInitializeCookieProcessingGuard
