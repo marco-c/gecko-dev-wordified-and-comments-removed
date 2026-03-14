@@ -28,17 +28,6 @@ test
 /
 mochitest
 -
-intl
--
-api
-.
-toml
-"
-"
-test
-/
-mochitest
--
 private
 .
 toml

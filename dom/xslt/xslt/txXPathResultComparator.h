@@ -127,9 +127,11 @@ nsresult
 init
 (
 const
-nsString
+nsACString
 &
 aLanguage
+bool
+aResistFingerPrinting
 )
 ;
 int
