@@ -6326,6 +6326,15 @@ GCReason
 >
 initialReason
 ;
+MainThreadData
+<
+JS
+:
+:
+GCReason
+>
+sliceReason
+;
 MainThreadOrGCTaskData
 <
 State
