@@ -214,6 +214,9 @@ CallerWillNotifyHistoryIndexAndLengthChanges
 class
 nsITimer
 ;
+class
+nsIScopedPrefs
+;
 namespace
 mozilla
 {
@@ -1757,6 +1760,14 @@ GetBounceTrackingState
 (
 )
 ;
+already_AddRefed
+<
+nsIScopedPrefs
+>
+GetScopedPrefs
+(
+)
+;
 bool
 CanOpenModalPicker
 (
@@ -2385,6 +2396,12 @@ RefPtr
 BrowsingContextWebProgress
 >
 mWebProgress
+;
+nsCOMPtr
+<
+nsIScopedPrefs
+>
+mScopedPrefs
 ;
 nsCOMPtr
 <
