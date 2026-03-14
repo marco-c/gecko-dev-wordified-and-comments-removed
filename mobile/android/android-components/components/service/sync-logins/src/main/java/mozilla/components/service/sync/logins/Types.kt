@@ -173,9 +173,6 @@ timeLastUsed
 timePasswordChanged
 =
 timePasswordChanged
-timeOfLastBreach
-=
-timeOfLastBreach
 timeLastBreachAlertDismissed
 =
 timeLastBreachAlertDismissed
@@ -306,9 +303,6 @@ username
 password
 =
 password
-timeOfLastBreach
-=
-timeOfLastBreach
 timeLastBreachAlertDismissed
 =
 timeLastBreachAlertDismissed
