@@ -518,11 +518,6 @@ UserInteraction
 webidl
 "
 "
-WAICTManifest
-.
-webidl
-"
-"
 WebCompat
 .
 webidl

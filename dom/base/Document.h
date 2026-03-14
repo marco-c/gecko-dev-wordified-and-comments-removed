@@ -4786,14 +4786,6 @@ aChannel
 )
 ;
 nsresult
-InitIntegrityPolicyWAICT
-(
-nsIChannel
-*
-aChannel
-)
-;
-nsresult
 InitCOEP
 (
 nsIChannel
