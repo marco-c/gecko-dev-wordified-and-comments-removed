@@ -145,7 +145,7 @@ aTriggeringPrincipal
 ;
 inline
 bool
-IsCompatible
+IsCompatibleExcludingNonce
 (
 ScriptFetchOptions
 *

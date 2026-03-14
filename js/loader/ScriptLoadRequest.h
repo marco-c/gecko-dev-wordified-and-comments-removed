@@ -602,6 +602,9 @@ CacheEntryFound
 LoadedScript
 *
 aLoadedScript
+ScriptFetchOptions
+*
+aFetchOptions
 )
 ;
 void
@@ -639,6 +642,9 @@ SetCacheEntry
 LoadedScript
 *
 aLoadedScript
+ScriptFetchOptions
+*
+aFetchOptions
 )
 ;
 public
