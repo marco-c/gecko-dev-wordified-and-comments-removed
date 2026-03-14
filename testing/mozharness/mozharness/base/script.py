@@ -67,6 +67,8 @@ sys
 import
 tarfile
 import
+tempfile
+import
 threading
 import
 time
@@ -12800,32 +12802,6 @@ command
 )
 )
         
-tmp_stdout
-=
-None
-        
-tmp_stderr
-=
-None
-        
-tmp_stdout_filename
-=
-"
-%
-s_stdout
-"
-%
-tmpfile_base_path
-        
-tmp_stderr_filename
-=
-"
-%
-s_stderr
-"
-%
-tmpfile_base_path
-        
 if
 success_codes
 is
@@ -12841,14 +12817,27 @@ success_codes
 try
 :
             
-tmp_stdout
-=
-open
-(
+tmp_stdout_fd
 tmp_stdout_filename
+=
+tempfile
+.
+mkstemp
+(
+                
+suffix
+=
 "
-w
+_stdout
 "
+prefix
+=
+tmpfile_base_path
++
+"
+_
+"
+            
 )
         
 except
@@ -12877,14 +12866,12 @@ Can
 '
 t
 open
-%
-s
+stdout
+tmpfile
 for
 writing
 !
 "
-%
-tmp_stdout_filename
 +
 self
 .
@@ -12904,19 +12891,39 @@ None
 try
 :
             
-tmp_stderr
-=
-open
-(
+tmp_stderr_fd
 tmp_stderr_filename
+=
+tempfile
+.
+mkstemp
+(
+                
+suffix
+=
 "
-w
+_stderr
 "
+prefix
+=
+tmpfile_base_path
++
+"
+_
+"
+            
 )
         
 except
 OSError
 :
+            
+os
+.
+close
+(
+tmp_stdout_fd
+)
             
 level
 =
@@ -12940,14 +12947,12 @@ Can
 '
 t
 open
-%
-s
+stderr
+tmpfile
 for
 writing
 !
 "
-%
-tmp_stderr_filename
 +
 self
 .
@@ -12995,7 +13000,7 @@ shell
             
 stdout
 =
-tmp_stdout
+tmp_stdout_fd
             
 cwd
 =
@@ -13003,7 +13008,7 @@ cwd
             
 stderr
 =
-tmp_stderr
+tmp_stderr_fd
             
 env
 =
@@ -13048,17 +13053,30 @@ wait
 (
 )
         
-tmp_stdout
+for
+fd
+in
+(
+tmp_stdout_fd
+tmp_stderr_fd
+)
+:
+            
+try
+:
+                
+os
 .
 close
 (
+fd
 )
-        
-tmp_stderr
-.
-close
-(
-)
+            
+except
+OSError
+:
+                
+pass
         
 return_level
 =
