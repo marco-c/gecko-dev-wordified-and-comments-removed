@@ -551,6 +551,8 @@ config
 baseUrl
 }
 /
+v1
+/
 chat
 /
 completions
