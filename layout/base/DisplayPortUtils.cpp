@@ -214,14 +214,6 @@ layers
 :
 ScrollableLayerGuid
 ;
-using
-NonZeroScrollRangeOnly
-=
-ScrollContainerFrame
-:
-:
-NonZeroScrollRangeOnly
-;
 typedef
 ScrollableLayerGuid
 :
@@ -4047,10 +4039,6 @@ aScrollContainerFrame
 >
 WantAsyncScroll
 (
-NonZeroScrollRangeOnly
-:
-:
-Yes
 )
 )
 {
@@ -4111,11 +4099,6 @@ CalculateAndSetDisplayPortMargins
 (
 aScrollContainerFrame
 aRepaintMode
-)
-;
-SetZeroMarginDisplayPortOnAsyncScrollableAncestors
-(
-aScrollContainerFrame
 )
 ;
 #
