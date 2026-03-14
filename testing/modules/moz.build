@@ -52,13 +52,6 @@ sys
 mjs
 "
 "
-CoverageUtils
-.
-sys
-.
-mjs
-"
-"
 FileTestUtils
 .
 sys
