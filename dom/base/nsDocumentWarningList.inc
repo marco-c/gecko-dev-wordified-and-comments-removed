@@ -22,3 +22,7 @@ DOCUMENT_WARNING
 (
 DocumentSetDomainIgnored
 )
+DOCUMENT_WARNING
+(
+ScreenFingerprintingProtection
+)
