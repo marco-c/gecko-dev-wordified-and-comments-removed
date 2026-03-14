@@ -5651,7 +5651,7 @@ item
 WASM_VERIFY_SERIALIZATION_FOR_SIZE
 (
 FeatureArgs
-32
+40
 )
 ;
 #
@@ -5771,7 +5771,7 @@ wasm
 :
 :
 CompileArgs
-72
+80
 )
 ;
 MOZ_TRY
