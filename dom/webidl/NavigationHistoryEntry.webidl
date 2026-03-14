@@ -175,6 +175,7 @@ sameDocument
 ;
 [
 Throws
+UseCounter
 ]
 any
 getState

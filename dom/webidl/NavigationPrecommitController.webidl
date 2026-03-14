@@ -137,6 +137,7 @@ NavigationPrecommitController
 {
 [
 Throws
+UseCounter
 ]
 undefined
 redirect
@@ -153,6 +154,7 @@ options
 ;
 [
 Throws
+UseCounter
 ]
 undefined
 addHandler

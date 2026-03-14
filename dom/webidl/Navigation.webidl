@@ -144,6 +144,9 @@ Navigation
 :
 EventTarget
 {
+[
+UseCounter
+]
 sequence
 <
 NavigationHistoryEntry
@@ -160,6 +163,7 @@ currentEntry
 ;
 [
 Throws
+UseCounter
 ]
 undefined
 updateCurrentEntry
@@ -190,6 +194,9 @@ attribute
 boolean
 canGoForward
 ;
+[
+UseCounter
+]
 NavigationResult
 navigate
 (
@@ -203,6 +210,9 @@ options
 }
 )
 ;
+[
+UseCounter
+]
 NavigationResult
 reload
 (
@@ -214,6 +224,9 @@ options
 }
 )
 ;
+[
+UseCounter
+]
 NavigationResult
 traverseTo
 (
@@ -227,6 +240,9 @@ options
 }
 )
 ;
+[
+UseCounter
+]
 NavigationResult
 back
 (
@@ -238,6 +254,9 @@ options
 }
 )
 ;
+[
+UseCounter
+]
 NavigationResult
 forward
 (
