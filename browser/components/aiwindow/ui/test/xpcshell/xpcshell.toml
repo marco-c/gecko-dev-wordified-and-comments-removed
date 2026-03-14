@@ -63,14 +63,14 @@ js
 ]
 [
 "
-theme_aiwindow
+test_ui_modules_AIWindow_placesEvents
 .
 js
 "
 ]
 [
 "
-test_ui_modules_AIWindow_placesEvents
+theme_aiwindow
 .
 js
 "

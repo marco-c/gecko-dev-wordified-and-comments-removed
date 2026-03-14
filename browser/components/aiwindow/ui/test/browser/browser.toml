@@ -308,6 +308,13 @@ js
 ]
 [
 "
+browser_aiwindow_url_security
+.
+js
+"
+]
+[
+"
 browser_aiwindow_urlbar_chat
 .
 js
