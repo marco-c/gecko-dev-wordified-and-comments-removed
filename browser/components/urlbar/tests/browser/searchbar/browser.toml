@@ -158,6 +158,13 @@ js
 ]
 [
 "
+browser_searchbar_telemetry
+.
+js
+"
+]
+[
+"
 browser_searchbar_widths
 .
 js
