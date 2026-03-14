@@ -5350,6 +5350,15 @@ return
 }
 }
 }
+if
+(
+hasUserGesture
+)
+{
+pageLoadingUrl
+=
+url
+}
 currentUrl
 =
 url
