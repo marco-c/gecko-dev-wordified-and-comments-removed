@@ -8911,7 +8911,6 @@ Maybe
 .
 h
 "
-MOZ_RUNINIT
 static
 Maybe
 <
@@ -9314,6 +9313,8 @@ CacheDomain
 All
 ;
 }
+else
+{
 gCacheDomains
 =
 :
@@ -9323,6 +9324,7 @@ GetCacheDomainsForKnownClients
 aCacheDomains
 )
 ;
+}
 static
 const
 char16_t
