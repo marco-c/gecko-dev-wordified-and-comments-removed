@@ -116,7 +116,7 @@ Shutdown
 {
 NS_ASSERT_OWNINGTHREAD
 (
-ClientSource
+ClientHandle
 )
 ;
 if
@@ -815,7 +815,7 @@ OnDetach
 {
 NS_ASSERT_OWNINGTHREAD
 (
-ClientSource
+ClientHandle
 )
 ;
 if
