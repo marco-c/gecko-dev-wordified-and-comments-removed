@@ -426,6 +426,13 @@ js
 ]
 [
 "
+browser_about_translations_telemetry_swap_button
+.
+js
+"
+]
+[
+"
 browser_about_translations_telemetry_translation_request
 .
 js

@@ -3933,6 +3933,13 @@ onSwapLanguagesButton
 =
 >
 {
+AT_telemetry
+(
+"
+onSwapButton
+"
+)
+;
 this
 .
 #
