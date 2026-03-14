@@ -2078,7 +2078,7 @@ mCodecContext
 >
 qmin
 =
-static_cast
+AssertedCast
 <
 int
 >
@@ -2096,7 +2096,7 @@ mCodecContext
 >
 qmax
 =
-static_cast
+AssertedCast
 <
 int
 >
@@ -2256,7 +2256,7 @@ num
 .
 den
 =
-static_cast
+AssertedCast
 <
 int
 >
@@ -2281,7 +2281,7 @@ AVRational
 .
 num
 =
-static_cast
+AssertedCast
 <
 int
 >
@@ -2323,7 +2323,7 @@ mConfig
 .
 mKeyframeInterval
 ?
-static_cast
+AssertedCast
 <
 int
 >
@@ -2740,7 +2740,7 @@ cpu
 -
 used
 "
-static_cast
+AssertedCast
 <
 int
 >
@@ -3983,7 +3983,7 @@ num
 .
 den
 =
-static_cast
+AssertedCast
 <
 int
 >
@@ -5001,7 +5001,7 @@ aPacket
 -
 >
 data
-static_cast
+AssertedCast
 <
 size_t
 >
@@ -5236,7 +5236,7 @@ mCodecContext
 -
 >
 extradata
-static_cast
+AssertedCast
 <
 size_t
 >
