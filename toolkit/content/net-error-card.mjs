@@ -82,6 +82,7 @@ getSubjectAltNames
 getFailedCertificatesAsPEMString
 handleNSSFailure
 recordSecurityUITelemetry
+getFilePath
 gOffline
 retryThis
 VPN_ACTIVE
@@ -1835,6 +1836,11 @@ domainMismatchNames
 offline
 :
 gOffline
+filePath
+:
+getFilePath
+(
+)
 }
 )
 ;
