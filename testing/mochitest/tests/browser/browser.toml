@@ -763,6 +763,13 @@ js
 ]
 [
 "
+browser_nodeserver_simple
+.
+js
+"
+]
+[
+"
 browser_parameters
 .
 js
