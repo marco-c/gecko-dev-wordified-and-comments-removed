@@ -489,7 +489,13 @@ InvokeCallback
 }
 mHTTPSRecord
 =
+std
+:
+:
+move
+(
 record
+)
 ;
 if
 (
@@ -573,7 +579,13 @@ InvokeCallback
 }
 mAddrRecord
 =
+std
+:
+:
+move
+(
 addrRecord
+)
 ;
 if
 (

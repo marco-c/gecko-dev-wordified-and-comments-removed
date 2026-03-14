@@ -12223,7 +12223,13 @@ NS_ERROR_INVALID_ARG
 }
 mOriginAttributes
 =
+std
+:
+:
+move
+(
 attrs
+)
 ;
 return
 NS_OK

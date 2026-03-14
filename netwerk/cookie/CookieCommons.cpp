@@ -4096,7 +4096,13 @@ IsEmpty
 {
 cookiePartitionedPrincipal
 =
+std
+:
+:
+move
+(
 partitionedPrincipal
+)
 ;
 }
 }

@@ -5284,7 +5284,13 @@ mOpeningFile
 {
 mDoomAfterOpenListener
 =
+std
+:
+:
+move
+(
 listener
+)
 ;
 }
 return
