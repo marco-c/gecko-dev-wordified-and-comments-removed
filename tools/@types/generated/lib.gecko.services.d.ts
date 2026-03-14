@@ -123,6 +123,10 @@ mm
 :
 ChromeMessageBroadcaster
 ;
+modelContext
+:
+nsIModelContextService
+;
 obs
 :
 nsIObserverService
