@@ -3962,7 +3962,6 @@ get
 .
 GetExecutionGlobalFromJSMicroTask
 (
-aCx
 )
 )
 ;
@@ -4411,9 +4410,6 @@ static
 bool
 IsSuppressed
 (
-JSContext
-*
-aCx
 JS
 :
 :
@@ -4449,7 +4445,6 @@ get
 .
 GetExecutionGlobalFromJSMicroTask
 (
-aCx
 )
 ;
 if
@@ -4764,7 +4759,6 @@ mSuppressedMicroTaskList
 &
 IsSuppressed
 (
-cx
 job
 )
 )
