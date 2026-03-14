@@ -1991,7 +1991,6 @@ def
 test_redirect
 (
 bidi_session
-configuration
 url
 fetch
 setup_network_test
@@ -2068,7 +2067,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 2
 )

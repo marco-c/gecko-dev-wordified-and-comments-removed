@@ -426,8 +426,6 @@ test_iframe_load
     
 bidi_session
     
-configuration
-    
 new_tab
     
 setup_network_test
@@ -511,7 +509,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 1
 timeout
@@ -865,8 +862,6 @@ test_request_method
     
 bidi_session
     
-configuration
-    
 new_tab
     
 wait_for_event
@@ -940,7 +935,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 expected_events
 timeout

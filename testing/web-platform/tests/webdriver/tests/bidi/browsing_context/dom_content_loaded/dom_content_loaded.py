@@ -52,7 +52,6 @@ def
 test_unsubscribe
 (
 bidi_session
-configuration
 inline
 top_context
 )
@@ -175,7 +174,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 1
 timeout
@@ -447,7 +445,6 @@ test_iframe
 (
     
 bidi_session
-configuration
 subscribe_events
 new_tab
 test_page
@@ -542,7 +539,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 2
 )
@@ -772,7 +768,6 @@ def
 test_new_context_not_emitted
 (
 bidi_session
-configuration
 subscribe_events
       
 wait_for_event
@@ -849,7 +844,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 1
 timeout

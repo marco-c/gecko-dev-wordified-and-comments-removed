@@ -45,7 +45,6 @@ def
 test_unsubscribe
 (
 bidi_session
-configuration
 inline
 top_context
 wait_for_event
@@ -211,7 +210,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 1
 timeout

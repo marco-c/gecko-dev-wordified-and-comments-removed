@@ -65,7 +65,6 @@ test_window_open
 (
     
 bidi_session
-configuration
 subscribe_events
 top_context
 inline
@@ -186,7 +185,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 1
 equal_check
@@ -277,7 +275,6 @@ test_event_order
 (
     
 bidi_session
-configuration
 subscribe_events
 new_tab
 inline
@@ -418,7 +415,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 2
 equal_check
