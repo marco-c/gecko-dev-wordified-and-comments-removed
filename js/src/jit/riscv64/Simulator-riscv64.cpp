@@ -399,6 +399,9 @@ UNSUPPORTED
 (
 )
 \
+do
+{
+\
 std
 :
 :
@@ -443,10 +446,10 @@ InstructionBits
 \
 <
 <
-std
-:
-:
-endl
+'
+\
+n
+'
 ;
 \
 printf
@@ -465,6 +468,12 @@ MOZ_CRASH
 (
 )
 ;
+\
+}
+while
+(
+0
+)
 static
 char
 *
