@@ -10561,12 +10561,6 @@ rec
 )
 )
 {
-MutexAutoLock
-lock
-(
-mLock
-)
-;
 if
 (
 !
@@ -10787,12 +10781,6 @@ nullptr
 while
 (
 true
-)
-;
-MutexAutoLock
-lock
-(
-mLock
 )
 ;
 mActiveTaskCount

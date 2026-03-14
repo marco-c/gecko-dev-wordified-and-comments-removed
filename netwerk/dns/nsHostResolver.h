@@ -1370,10 +1370,6 @@ Atomic
 bool
 >
 mShutdown
-MOZ_GUARDED_BY
-(
-mLock
-)
 {
 true
 }
@@ -1386,10 +1382,6 @@ Atomic
 uint32_t
 >
 mNumIdleTasks
-MOZ_GUARDED_BY
-(
-mLock
-)
 {
 0
 }
@@ -1402,10 +1394,6 @@ Atomic
 uint32_t
 >
 mActiveTaskCount
-MOZ_GUARDED_BY
-(
-mLock
-)
 {
 0
 }
@@ -1418,10 +1406,6 @@ Atomic
 uint32_t
 >
 mActiveAnyThreadCount
-MOZ_GUARDED_BY
-(
-mLock
-)
 {
 0
 }
