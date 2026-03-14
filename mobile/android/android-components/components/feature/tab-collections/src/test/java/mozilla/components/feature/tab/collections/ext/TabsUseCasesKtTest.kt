@@ -329,15 +329,6 @@ var
 filesDir
 :
 File
-get
-:
-Rule
-val
-coroutinesTestRule
-=
-MainCoroutineRule
-(
-)
 Before
 fun
 setup
