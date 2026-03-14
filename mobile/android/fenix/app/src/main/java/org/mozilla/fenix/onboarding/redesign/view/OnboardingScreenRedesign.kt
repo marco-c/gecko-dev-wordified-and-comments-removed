@@ -2402,7 +2402,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceVariant
+onSurfaceVariant
 leaveTrail
 =
 true
