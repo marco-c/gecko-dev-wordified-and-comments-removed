@@ -5213,9 +5213,6 @@ OnDispatchedEvent
 (
 )
 {
-#
-ifndef
-XP_WIN
 if
 (
 OnSocketThread
@@ -5243,7 +5240,8 @@ NS_OK
 ;
 }
 #
-else
+ifdef
+XP_WIN
 if
 (
 gIOService
@@ -9199,6 +9197,7 @@ mPollableEvent
 >
 Signal
 (
+true
 )
 ;
 }

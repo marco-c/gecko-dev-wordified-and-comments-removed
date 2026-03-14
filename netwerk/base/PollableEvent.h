@@ -48,6 +48,10 @@ PollableEvent
 bool
 Signal
 (
+bool
+aForce
+=
+false
 )
 ;
 bool
