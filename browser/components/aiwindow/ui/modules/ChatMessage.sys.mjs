@@ -1019,9 +1019,16 @@ case
 existing_memory
 "
 :
+(
 this
 .
-memoriesApplied
+_pendingMemoryIds
+?
+?
+=
+[
+]
+)
 .
 push
 (
