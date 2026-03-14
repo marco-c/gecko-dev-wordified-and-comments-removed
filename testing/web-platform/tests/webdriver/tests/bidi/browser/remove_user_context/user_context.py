@@ -118,6 +118,7 @@ test_remove_context_closes_contexts
 (
     
 bidi_session
+configuration
 subscribe_events
 create_user_context
 type_hint
@@ -279,6 +280,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 2
 )
@@ -334,6 +336,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 4
 )
@@ -405,6 +408,8 @@ test_remove_context_skips_beforeunload_prompt
 (
     
 bidi_session
+    
+configuration
     
 subscribe_events
     
@@ -529,6 +534,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 timeout

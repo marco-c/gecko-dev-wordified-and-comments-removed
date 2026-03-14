@@ -47,6 +47,7 @@ def
 test_not_unsubscribed
 (
 bidi_session
+configuration
 )
 :
     
@@ -136,6 +137,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 timeout
@@ -777,6 +779,7 @@ def
 test_navigate_creates_iframes
 (
 bidi_session
+configuration
 subscribe_events
 top_context
 test_page_multiple_frames
@@ -853,6 +856,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 2
 )
@@ -1032,6 +1036,7 @@ def
 test_navigate_creates_nested_iframes
 (
 bidi_session
+configuration
 subscribe_events
 top_context
 test_page_nested_frames
@@ -1108,6 +1113,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 2
 )
@@ -1316,6 +1322,7 @@ test_subscribe_to_one_context
 (
     
 bidi_session
+configuration
 subscribe_events
 top_context
 test_page_same_origin_frame
@@ -1402,6 +1409,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 timeout
@@ -1442,6 +1450,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 )

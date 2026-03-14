@@ -170,6 +170,7 @@ def
 test_create_context
 (
 bidi_session
+configuration
 subscribe_events
 type_hint
 )
@@ -235,6 +236,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 equal_check
@@ -903,6 +905,7 @@ test_subscribe_to_one_context
 (
     
 bidi_session
+configuration
 subscribe_events
 new_tab
 inline
@@ -1053,6 +1056,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 timeout
@@ -1363,6 +1367,8 @@ test_dedicated_worker
     
 bidi_session
     
+configuration
+    
 subscribe_events
     
 top_context
@@ -1512,6 +1518,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 )
@@ -1612,6 +1619,8 @@ test_shared_worker
 (
     
 bidi_session
+    
+configuration
     
 subscribe_events
     
@@ -1769,6 +1778,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 )
@@ -1827,6 +1837,8 @@ test_service_worker
 (
     
 bidi_session
+    
+configuration
     
 subscribe_events
     
@@ -1998,6 +2010,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 )
@@ -2253,6 +2266,8 @@ test_dedicated_worker_subscribe_to_one_context
     
 bidi_session
     
+configuration
+    
 subscribe_events
     
 new_tab
@@ -2492,6 +2507,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 )
@@ -2681,6 +2697,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 timeout
@@ -2699,6 +2716,8 @@ test_dedicated_worker_subscribe_to_user_context
 (
     
 bidi_session
+    
+configuration
     
 subscribe_events
     
@@ -2921,6 +2940,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 )
@@ -3126,6 +3146,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 timeout

@@ -500,6 +500,8 @@ test_user_context
     
 bidi_session
     
+configuration
+    
 create_user_context
     
 subscribe_events
@@ -736,6 +738,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 3
 )
