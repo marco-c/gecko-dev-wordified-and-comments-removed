@@ -983,6 +983,16 @@ DEFAULT
 "
 \
 "
+block_until_ms
+INTEGER
+"
+\
+"
+block_pages_until_ms
+INTEGER
+"
+\
+"
 UNIQUE
 (
 prefix
