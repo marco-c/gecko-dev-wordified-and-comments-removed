@@ -8694,6 +8694,12 @@ endif
 if
 (
 !
+IPCDoc
+(
+)
+&
+&
+!
 IsRoot
 (
 )
