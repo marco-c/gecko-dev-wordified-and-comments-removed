@@ -531,6 +531,14 @@ moxMaxValue
 ;
 -
 (
+NSString
+*
+_Nullable
+)
+moxARIABrailleRoleDescription
+;
+-
+(
 NSNumber
 *
 _Nullable

@@ -638,6 +638,13 @@ moxARIARelevant
 NSString
 *
 )
+moxARIABrailleRoleDescription
+;
+-
+(
+NSString
+*
+)
 moxPlaceholderValue
 ;
 -
