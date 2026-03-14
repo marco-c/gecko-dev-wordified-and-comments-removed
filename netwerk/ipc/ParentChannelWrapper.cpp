@@ -107,6 +107,15 @@ GetOrCreate
 (
 )
 ;
+if
+(
+!
+registrar
+)
+{
+return
+;
+}
 nsCOMPtr
 <
 nsIChannel
