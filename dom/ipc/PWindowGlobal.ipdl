@@ -888,6 +888,11 @@ RecordUserActivationForBTP
 )
 ;
 async
+RecordUserInteractionForPermissions
+(
+)
+;
+async
 PDigitalCredential
 (
 )

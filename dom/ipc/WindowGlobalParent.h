@@ -1686,6 +1686,17 @@ RecvRecordUserActivationForBTP
 (
 )
 ;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvRecordUserInteractionForPermissions
+(
+)
+;
 already_AddRefed
 <
 dom
