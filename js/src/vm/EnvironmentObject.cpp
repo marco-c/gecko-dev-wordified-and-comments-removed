@@ -20954,7 +20954,13 @@ else
 {
 shadowedExistingProp
 =
+std
+:
+:
+move
+(
 prop
+)
 ;
 }
 }
