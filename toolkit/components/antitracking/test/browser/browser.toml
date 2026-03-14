@@ -1027,13 +1027,6 @@ js
 ]
 [
 "
-browser_scopedTrackingProtection
-.
-js
-"
-]
-[
-"
 browser_script
 .
 js
