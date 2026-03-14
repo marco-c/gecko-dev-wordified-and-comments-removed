@@ -103,6 +103,12 @@ test_time_divisor
         
 self
 .
+test_time_divisor_group
+=
+None
+        
+self
+.
 line_count
 =
 0
@@ -899,6 +905,12 @@ self
 test_time_divisor
 =
 threads
+                
+self
+.
+test_time_divisor_group
+=
+group
     
 def
 group_end
@@ -959,11 +971,11 @@ time
         
 elif
 group
-not
-in
+=
+=
 self
 .
-manifest_groups
+test_time_divisor_group
 :
             
 self
@@ -971,6 +983,12 @@ self
 test_time_divisor
 =
 1
+            
+self
+.
+test_time_divisor_group
+=
+None
     
 def
 test_start
