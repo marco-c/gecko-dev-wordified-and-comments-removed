@@ -94,11 +94,6 @@ runnable_utils
 .
 h
 "
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -204,7 +199,6 @@ ice_candidate
 .
 h
 "
-}
 #
 include
 "

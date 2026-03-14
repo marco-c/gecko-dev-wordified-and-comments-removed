@@ -3,11 +3,6 @@ include
 <
 iostream
 >
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -22,7 +17,6 @@ async_timer
 .
 h
 "
-}
 #
 include
 "

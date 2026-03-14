@@ -5,11 +5,6 @@ logging
 .
 h
 "
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -24,7 +19,6 @@ nr_api
 .
 h
 "
-}
 #
 include
 "

@@ -70,11 +70,6 @@ runnable_utils
 .
 h
 "
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -103,7 +98,6 @@ r_log
 .
 h
 "
-}
 namespace
 mozilla
 {

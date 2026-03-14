@@ -5,11 +5,6 @@ rlogconnector
 .
 h
 "
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -24,7 +19,6 @@ r_log
 .
 h
 "
-}
 #
 define
 GTEST_HAS_RTTI

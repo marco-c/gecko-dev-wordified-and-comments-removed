@@ -40,11 +40,6 @@ h
 #
 define
 USE_TURN
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -101,7 +96,6 @@ turn_client_ctx
 .
 h
 "
-}
 #
 include
 "

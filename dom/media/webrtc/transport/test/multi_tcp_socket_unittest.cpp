@@ -31,11 +31,6 @@ runnable_utils
 .
 h
 "
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -64,7 +59,6 @@ nr_socket_multi_tcp
 .
 h
 "
-}
 #
 include
 "

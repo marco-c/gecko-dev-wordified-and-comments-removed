@@ -3,11 +3,6 @@ include
 <
 cstddef
 >
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -22,7 +17,6 @@ async_wait
 .
 h
 "
-}
 #
 include
 <

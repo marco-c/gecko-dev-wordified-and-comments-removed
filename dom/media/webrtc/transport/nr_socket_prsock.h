@@ -127,11 +127,6 @@ prio
 .
 h
 "
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -146,7 +141,6 @@ transport_addr
 .
 h
 "
-}
 typedef
 struct
 nr_socket_vtbl_

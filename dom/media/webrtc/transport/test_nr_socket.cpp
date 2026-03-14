@@ -1,8 +1,3 @@
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -45,7 +40,6 @@ transport_addr
 .
 h
 "
-}
 #
 include
 "

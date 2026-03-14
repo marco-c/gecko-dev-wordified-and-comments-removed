@@ -86,11 +86,6 @@ ssl
 .
 h
 "
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -133,7 +128,6 @@ r_time
 .
 h
 "
-}
 #
 include
 "

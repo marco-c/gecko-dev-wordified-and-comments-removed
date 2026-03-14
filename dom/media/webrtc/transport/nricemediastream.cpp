@@ -29,11 +29,6 @@ nsThreadUtils
 .
 h
 "
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -76,7 +71,6 @@ ice_handler
 .
 h
 "
-}
 #
 include
 "

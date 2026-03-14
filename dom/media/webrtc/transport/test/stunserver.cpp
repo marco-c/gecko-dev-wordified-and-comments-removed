@@ -29,11 +29,6 @@ undef
 UNIMPLEMENTED
 #
 endif
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -104,7 +99,6 @@ addrs
 .
 h
 "
-}
 #
 include
 <
