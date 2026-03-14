@@ -371,7 +371,7 @@ function
 methodNotFullyActive
 (
 button
-method
+methodName
 .
 .
 .
@@ -560,7 +560,7 @@ promise_rejects_dom
 (
 t
 "
-AbortError
+InvalidStateError
 "
 promise
 "
@@ -569,7 +569,7 @@ document
 so
 must
 throw
-AbortError
+InvalidStateError
 "
 )
 ;
@@ -806,8 +806,9 @@ AbortError
 "
 promise
 "
-Inactive
-document
+Document
+became
+inactive
 so
 must
 throw
