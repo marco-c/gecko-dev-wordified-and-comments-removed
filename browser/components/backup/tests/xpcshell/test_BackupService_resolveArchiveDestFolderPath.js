@@ -27,10 +27,6 @@ async
 =
 >
 {
-setupProfile
-(
-)
-;
 gTestRoot
 =
 await
