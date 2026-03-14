@@ -2228,8 +2228,14 @@ int
 (
 threads
 1
+AssertedCast
+<
+int
+>
+(
 GetNumberOfProcessors
 (
+)
 )
 -
 1
