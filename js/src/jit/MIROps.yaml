@@ -3946,7 +3946,7 @@ result_type
 Int32
 congruent_to
 :
-if_operands_equal
+custom
 alias_set
 :
 none
