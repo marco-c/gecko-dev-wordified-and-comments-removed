@@ -4653,7 +4653,7 @@ IsDisplayContents
 return
 ;
 }
-FlattenedChildIterator
+FlattenedChildIteratorForSelection
 childIter
 (
 content

@@ -2537,7 +2537,7 @@ IsContent
 {
 TreeIterator
 <
-FlattenedChildIterator
+FlattenedChildIteratorForSelection
 >
 iter
 (
@@ -10949,7 +10949,7 @@ dom_shadowdom_selection_across_boundary_enabled
 ;
 TreeIterator
 <
-FlattenedChildIterator
+FlattenedChildIteratorForSelection
 >
 iter
 (

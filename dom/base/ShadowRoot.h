@@ -1074,6 +1074,17 @@ NODE_HAS_BEEN_IN_UA_WIDGET
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
+bool
+IsContentShadowRoot
+(
+)
+const
+;
 bool
 IsAvailableToElementInternals
 (
