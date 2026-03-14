@@ -2586,6 +2586,7 @@ aFunc
 )
 ;
 }
+constexpr
 T
 *
 ptr
@@ -2601,6 +2602,7 @@ ptr
 )
 const
 ;
+constexpr
 T
 *
 ptrOr
@@ -2662,6 +2664,7 @@ template
 typename
 F
 >
+constexpr
 T
 *
 ptrOrFrom
@@ -2696,6 +2699,7 @@ template
 typename
 F
 >
+constexpr
 const
 T
 *
@@ -5324,6 +5328,7 @@ template
 typename
 T
 >
+constexpr
 T
 *
 Maybe
