@@ -458,6 +458,15 @@ NS_HTTP_TLS_TUNNEL
 )
 #
 define
+NS_HTTP_USE_HAPPY_EYEBALLS
+(
+1
+<
+<
+30
+)
+#
+define
 NS_HTTP_TRR_FLAGS_FROM_MODE
 (
 x
