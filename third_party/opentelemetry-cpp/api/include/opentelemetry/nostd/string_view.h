@@ -710,10 +710,16 @@ found
 {
 res
 =
+static_cast
+<
+size_type
+>
+(
 found
 -
 data
 (
+)
 )
 ;
 }
