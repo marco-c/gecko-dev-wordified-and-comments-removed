@@ -90,9 +90,9 @@ either
 *
 hopefully
 in
-services
+third_party
 /
-app
+application
 -
 services
 /
