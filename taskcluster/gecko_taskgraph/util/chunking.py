@@ -12,6 +12,8 @@ chunking
 "
 "
 import
+functools
+import
 logging
 import
 os
@@ -35,12 +37,6 @@ filters
 import
 chunk_by_runtime
 tags
-from
-mozbuild
-.
-util
-import
-memoize
 from
 mozinfo
 .
@@ -1031,7 +1027,9 @@ True
     
 return
 info
-memoize
+functools
+.
+cache
 def
 _load_manifest_runtimes_data
 (
@@ -1076,7 +1074,9 @@ runtimes
 json
 "
 )
-memoize
+functools
+.
+cache
 def
 get_runtimes
 (
@@ -1837,19 +1837,6 @@ chunk
 "
 "
     
-if
-"
-web
--
-platform
--
-tests
-"
-not
-in
-suite
-:
-        
 all_runtimes
 =
 get_runtimes
@@ -1857,32 +1844,32 @@ get_runtimes
 platform
 suite
 )
-        
+    
 runtimes
 =
 {
 }
-        
+    
 for
 manifest
 in
 manifests
 :
-            
+        
 total_runtime
 =
 0
-            
+        
 found
 =
 False
-            
+        
 if
 manifest
 in
 all_runtimes
 :
-                
+            
 total_runtime
 +
 =
@@ -1890,11 +1877,11 @@ all_runtimes
 [
 manifest
 ]
-                
+            
 found
 =
 True
-            
+        
 if
 manifest
 .
@@ -1906,7 +1893,7 @@ toml
 "
 )
 :
-                
+            
 manifest_prefix
 =
 manifest
@@ -1914,7 +1901,7 @@ manifest
 "
 :
 "
-                
+            
 for
 runtime_key
 runtime_value
@@ -1925,7 +1912,7 @@ items
 (
 )
 :
-                    
+                
 if
 runtime_key
 .
@@ -1934,27 +1921,27 @@ startswith
 manifest_prefix
 )
 :
-                        
+                    
 total_runtime
 +
 =
 runtime_value
-                        
+                    
 found
 =
 True
-            
+        
 if
 found
 :
-                
+            
 runtimes
 [
 manifest
 ]
 =
 total_runtime
-        
+    
 manifests_without_data
 =
 [
@@ -1969,7 +1956,7 @@ not
 in
 runtimes
 ]
-        
+    
 if
 manifests_without_data
 and
@@ -1980,7 +1967,7 @@ runtimes
 >
 0
 :
-            
+        
 missing_list
 =
 "
@@ -1994,7 +1981,7 @@ manifests_without_data
 5
 ]
 )
-            
+        
 if
 len
 (
@@ -2003,7 +1990,7 @@ manifests_without_data
 >
 5
 :
-                
+            
 missing_list
 +
 =
@@ -2023,12 +2010,12 @@ manifests_without_data
 }
 more
 "
-            
+        
 logger
 .
 warning
 (
-                
+            
 f
 "
 chunk_manifests
@@ -2064,9 +2051,9 @@ manifests
 missing_list
 }
 "
-            
-)
         
+)
+    
 zero_runtime_manifests
 =
 sorted
@@ -2088,7 +2075,7 @@ m
 =
 0
 )
-        
+    
 nonzero_manifests
 =
 [
@@ -2109,7 +2096,7 @@ m
 =
 0
 ]
-        
+    
 cbr
 =
 chunk_by_runtime
@@ -2118,7 +2105,7 @@ None
 chunks
 runtimes
 )
-        
+    
 chunked
 =
 [
@@ -2134,7 +2121,7 @@ get_chunked_manifests
 nonzero_manifests
 )
 ]
-        
+    
 for
 i
 m
@@ -2144,7 +2131,7 @@ enumerate
 zero_runtime_manifests
 )
 :
-            
+        
 chunked
 [
 i
@@ -2156,38 +2143,9 @@ append
 (
 m
 )
-        
+    
 return
 chunked
-    
-sorted_manifests
-=
-sorted
-(
-manifests
-)
-    
-chunked_manifests
-=
-[
-sorted_manifests
-[
-c
-:
-:
-chunks
-]
-for
-c
-in
-range
-(
-chunks
-)
-]
-    
-return
-chunked_manifests
 class
 BaseManifestLoader
 (
@@ -2414,7 +2372,9 @@ TestResolver
 "
 "
     
-memoize
+functools
+.
+cache
     
 def
 get_tests
@@ -2478,7 +2438,9 @@ undefined
         
 )
     
-memoize
+functools
+.
+cache
     
 def
 get_manifests
@@ -3005,7 +2967,9 @@ timedout
 =
 False
     
-memoize
+functools
+.
+cache
     
 def
 get_manifests
