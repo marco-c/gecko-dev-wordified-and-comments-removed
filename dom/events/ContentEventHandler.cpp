@@ -806,12 +806,6 @@ nsContentUtils
 :
 :
 ComparePoints
-<
-TreeKind
-:
-:
-ShadowIncludingDOM
->
 (
 mStart
 mEnd
@@ -7883,12 +7877,6 @@ nsContentUtils
 :
 :
 ComparePoints
-<
-TreeKind
-:
-:
-ShadowIncludingDOM
->
 (
 anchorRef
 focusRef

@@ -132,13 +132,6 @@ h
 #
 include
 "
-nsIContentInlines
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h

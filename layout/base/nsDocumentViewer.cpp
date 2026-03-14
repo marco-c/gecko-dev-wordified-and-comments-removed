@@ -185,13 +185,6 @@ h
 #
 include
 "
-nsIContentInlines
-.
-h
-"
-#
-include
-"
 nsIDocumentViewer
 .
 h

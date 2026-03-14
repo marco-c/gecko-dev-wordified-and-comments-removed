@@ -39541,12 +39541,6 @@ nsContentUtils
 :
 :
 ComparePoints
-<
-TreeKind
-:
-:
-ShadowIncludingDOM
->
 (
 startPoint
 .
@@ -39601,12 +39595,6 @@ nsContentUtils
 :
 :
 ComparePoints
-<
-TreeKind
-:
-:
-ShadowIncludingDOM
->
 (
 newRange
 .
