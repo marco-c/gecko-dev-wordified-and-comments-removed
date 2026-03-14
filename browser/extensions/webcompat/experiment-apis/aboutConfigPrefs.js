@@ -45,13 +45,6 @@ enabled
 "
 media
 .
-captureStream
-.
-enabled
-"
-"
-media
-.
 webspeech
 .
 recognition

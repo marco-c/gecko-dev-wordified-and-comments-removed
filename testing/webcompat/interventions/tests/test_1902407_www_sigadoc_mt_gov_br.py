@@ -29,8 +29,13 @@ username
 UNSUPPORTED_TEXT
 =
 "
+Recomendamos
+o
+navegador
 Google
 Chrome
+para
+acesso
 "
 UNSUPPORTED_CSS
 =

@@ -105,9 +105,6 @@ MAP_CSS
 is_displayed
 =
 True
-timeout
-=
-30
 )
     
 aside

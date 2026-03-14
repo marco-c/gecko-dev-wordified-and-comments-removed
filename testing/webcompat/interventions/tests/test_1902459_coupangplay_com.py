@@ -28,10 +28,6 @@ login
 UNSUPPORTED_TEXT
 =
 "
-Firefox
-is
-not
-supported
 "
 VPN_TEXT
 =
