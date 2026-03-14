@@ -726,7 +726,7 @@ getAIWindowElement
 ;
 aiWindow
 .
-submitFollowUp
+submitChatMessage
 (
 data
 .
