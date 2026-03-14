@@ -22,7 +22,7 @@ Tasks
 The
 apilint
 plugin
-provies
+provides
 the
 following
 tasks
