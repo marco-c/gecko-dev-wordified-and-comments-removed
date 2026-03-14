@@ -448,7 +448,6 @@ DeliverFrameRunnable
 ;
 class
 CamerasParent
-final
 :
 public
 PCamerasParent
@@ -819,6 +818,7 @@ size_t
 aSize
 )
 ;
+virtual
 int
 DeliverFrameOverIPC
 (
@@ -859,7 +859,7 @@ CamerasParent
 (
 )
 ;
-private
+protected
 :
 virtual
 ~
@@ -867,6 +867,8 @@ CamerasParent
 (
 )
 ;
+private
+:
 struct
 GetOrCreateCapturerResult
 {
