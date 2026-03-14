@@ -22962,6 +22962,15 @@ IsInContentNode
 )
 )
 ;
+MOZ_ASSERT
+(
+aNextOrAfterModifiedPoint
+.
+IsSetAndValid
+(
+)
+)
+;
 if
 (
 IsPlaintextMailComposer
