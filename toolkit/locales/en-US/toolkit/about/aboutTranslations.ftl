@@ -144,6 +144,8 @@ unsupported
 info
 -
 message
+-
+2
 =
 .
 heading
@@ -155,7 +157,6 @@ available
 on
 this
 device
-.
 .
 message
 =
@@ -311,6 +312,8 @@ load
 error
 -
 message
+-
+2
 =
 .
 heading
@@ -319,7 +322,6 @@ Couldn
 t
 load
 languages
-.
 .
 message
 =
