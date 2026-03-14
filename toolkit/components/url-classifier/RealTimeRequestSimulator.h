@@ -66,6 +66,11 @@ CleanCache
 (
 )
 ;
+void
+ExpireCache
+(
+)
+;
 static
 const
 nsCString
