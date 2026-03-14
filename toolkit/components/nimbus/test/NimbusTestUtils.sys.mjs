@@ -1172,11 +1172,6 @@ null
 }
 }
 ;
-let
-_testSuite
-=
-null
-;
 export
 const
 NimbusTestUtils
@@ -1187,9 +1182,12 @@ init
 testCase
 )
 {
-_testSuite
+const
+assert
 =
 testCase
+.
+Assert
 ;
 Object
 .
@@ -1209,9 +1207,7 @@ get
 )
 =
 >
-_testSuite
-.
-Assert
+assert
 }
 )
 ;
