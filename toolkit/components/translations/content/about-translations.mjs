@@ -4477,6 +4477,13 @@ error
 return
 ;
 }
+AT_telemetry
+(
+"
+onCopyButton
+"
+)
+;
 this
 .
 #
