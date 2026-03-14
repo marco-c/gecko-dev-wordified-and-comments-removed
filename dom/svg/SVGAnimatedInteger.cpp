@@ -572,7 +572,13 @@ val
 ;
 aValue
 =
+std
+:
+:
+move
+(
 smilVal
+)
 ;
 return
 NS_OK

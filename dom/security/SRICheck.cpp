@@ -1144,7 +1144,13 @@ rv
 ;
 mCryptoHash
 =
+std
+:
+:
+move
+(
 cryptoHash
+)
 ;
 return
 NS_OK

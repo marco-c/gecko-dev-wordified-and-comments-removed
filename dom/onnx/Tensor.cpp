@@ -420,7 +420,13 @@ GetAsSupports
 ;
 mGlobal
 =
+std
+:
+:
+move
+(
 global
+)
 ;
 mData
 .
@@ -514,7 +520,13 @@ GetAsSupports
 ;
 mGlobal
 =
+std
+:
+:
+move
+(
 global
+)
 ;
 mData
 =

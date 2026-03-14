@@ -994,7 +994,13 @@ return
 }
 mOwningAudioFocusContextId
 =
+std
+:
+:
+move
+(
 aContextId
+)
 ;
 }
 bool

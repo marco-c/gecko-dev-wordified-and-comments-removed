@@ -2195,7 +2195,13 @@ rv
 ;
 fileStream
 =
+std
+:
+:
+move
+(
 bufferedStream
+)
 ;
 }
 AddDataChunk

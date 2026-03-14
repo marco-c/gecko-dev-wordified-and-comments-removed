@@ -2040,7 +2040,13 @@ rv
 }
 mSocket
 =
+std
+:
+:
+move
+(
 sock
+)
 ;
 nsCOMPtr
 <

@@ -3464,7 +3464,13 @@ Failed
 {
 mPendingPlaybackRate
 =
+std
+:
+:
+move
+(
 originalPendingPlaybackRate
+)
 ;
 }
 }
