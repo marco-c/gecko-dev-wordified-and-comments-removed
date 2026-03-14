@@ -567,8 +567,6 @@ turn_index
 )
 memoriesEnabled
 :
-!
-!
 row
 .
 getResultByName
@@ -612,18 +610,6 @@ getResultByName
 web_search_queries
 "
 )
-)
-pageHistoryDeleted
-:
-!
-!
-row
-.
-getResultByName
-(
-"
-page_history_deleted
-"
 )
 }
 )

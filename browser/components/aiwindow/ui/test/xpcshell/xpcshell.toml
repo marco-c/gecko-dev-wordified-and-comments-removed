@@ -68,10 +68,3 @@ theme_aiwindow
 js
 "
 ]
-[
-"
-test_ui_modules_AIWindow_placesEvents
-.
-js
-"
-]
