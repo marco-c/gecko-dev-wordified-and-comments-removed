@@ -54,7 +54,7 @@ function
 <
 void
 (
-bool
+nsresult
 )
 >
 &
@@ -252,7 +252,7 @@ function
 <
 void
 (
-bool
+nsresult
 )
 >
 mCloseCallback
@@ -290,7 +290,7 @@ function
 <
 void
 (
-bool
+nsresult
 )
 >
 &

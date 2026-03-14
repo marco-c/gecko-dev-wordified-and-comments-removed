@@ -1073,6 +1073,16 @@ mIsInTunnel
 true
 ;
 }
+void
+SetDontExclude
+(
+)
+{
+mDontExclude
+=
+true
+;
+}
 private
 :
 ~
