@@ -13846,9 +13846,6 @@ dl
 .
 push_stacking_context
 (
-bounds
-.
-min
 *
 self
 .

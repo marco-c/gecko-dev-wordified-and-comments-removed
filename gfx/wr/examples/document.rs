@@ -495,11 +495,6 @@ builder
 .
 push_simple_stacking_context
 (
-doc
-.
-content_rect
-.
-min
 space_and_clip
 .
 spatial_id

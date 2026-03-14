@@ -520,9 +520,6 @@ builder
 .
 push_simple_stacking_context
 (
-bounds
-.
-min
 space_and_clip
 .
 spatial_id

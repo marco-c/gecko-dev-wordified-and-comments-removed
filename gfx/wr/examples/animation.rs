@@ -268,12 +268,6 @@ builder
 .
 push_simple_stacking_context_with_filters
 (
-LayoutPoint
-:
-:
-zero
-(
-)
 spatial_id
 PrimitiveFlags
 :

@@ -3436,10 +3436,6 @@ struct
 PushStackingContextDisplayItem
 {
 pub
-origin
-:
-LayoutPoint
-pub
 spatial_id
 :
 SpatialId

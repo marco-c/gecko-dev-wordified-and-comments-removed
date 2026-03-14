@@ -207,9 +207,6 @@ builder
 .
 push_simple_stacking_context
 (
-content_bounds
-.
-min
 spatial_id
 PrimitiveFlags
 :
