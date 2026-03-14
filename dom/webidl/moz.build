@@ -6544,6 +6544,11 @@ RTCEncodedVideoFrame
 webidl
 "
 "
+RTCError
+.
+webidl
+"
+"
 RTCIceCandidate
 .
 webidl
@@ -7161,6 +7166,11 @@ webidl
 "
 "
 RTCDTMFToneChangeEvent
+.
+webidl
+"
+"
+RTCErrorEvent
 .
 webidl
 "
