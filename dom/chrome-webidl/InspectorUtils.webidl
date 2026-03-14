@@ -347,6 +347,14 @@ UTF8String
 property
 )
 ;
+sequence
+<
+DOMString
+>
+getCSSWideKeywords
+(
+)
+;
 UTF8String
 rgbToColorName
 (
