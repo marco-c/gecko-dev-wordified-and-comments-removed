@@ -1223,7 +1223,7 @@ aDisabled
 )
 ;
 virtual
-void
+bool
 FillLookupTable
 (
 ptrdiff_t
@@ -1300,7 +1300,7 @@ override
 ;
 protected
 :
-void
+bool
 FillLookupTable
 (
 ptrdiff_t
@@ -1315,7 +1315,7 @@ override
 ;
 private
 :
-void
+bool
 FillLookupTableImpl
 (
 const
@@ -1422,7 +1422,7 @@ override
 ;
 protected
 :
-void
+bool
 FillLookupTable
 (
 ptrdiff_t
@@ -1437,7 +1437,7 @@ override
 ;
 private
 :
-void
+bool
 FillLookupTableImpl
 (
 const
@@ -1544,7 +1544,7 @@ override
 ;
 protected
 :
-void
+bool
 FillLookupTable
 (
 ptrdiff_t
@@ -1559,7 +1559,7 @@ override
 ;
 private
 :
-void
+bool
 FillLookupTableImpl
 (
 Float
@@ -1648,7 +1648,7 @@ override
 ;
 protected
 :
-void
+bool
 FillLookupTable
 (
 ptrdiff_t
@@ -1663,7 +1663,7 @@ override
 ;
 private
 :
-void
+bool
 FillLookupTableImpl
 (
 Float
@@ -1928,6 +1928,12 @@ aKernelUnitLengthX
 CoordType
 aKernelUnitLengthY
 )
+;
+MarginDouble
+GetInflateSourceMargin
+(
+)
+const
 ;
 IntRect
 InflatedSourceRect
