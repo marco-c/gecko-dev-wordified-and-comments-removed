@@ -5612,6 +5612,15 @@ public
 static
 final
 int
+COOKIES_PARTITIONED_TRACKER
+=
+2
+;
+field
+public
+static
+final
+int
 LOADED_CRYPTOMINING_CONTENT
 =
 2097152
