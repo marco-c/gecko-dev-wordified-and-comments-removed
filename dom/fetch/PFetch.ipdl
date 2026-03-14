@@ -184,6 +184,8 @@ OnCSPViolationEvent
 (
 nsString
 aJSON
+nsString
+aReportGroupName
 )
 ;
 async

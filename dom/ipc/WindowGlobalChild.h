@@ -700,6 +700,10 @@ const
 nsString
 &
 aViolationEventJSON
+const
+nsString
+&
+aReportGroupName
 )
 ;
 mozilla

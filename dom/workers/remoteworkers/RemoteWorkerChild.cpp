@@ -634,6 +634,10 @@ const
 nsAString
 &
 aJSON
+const
+nsAString
+&
+aReportGroupName
 )
 override
 {
@@ -643,6 +647,7 @@ mActor
 CSPViolationPropagationOnMainThread
 (
 aJSON
+aReportGroupName
 )
 ;
 return
@@ -3170,6 +3175,10 @@ const
 nsAString
 &
 aJSON
+const
+nsAString
+&
+aReportGroupName
 )
 {
 AssertIsOnMainThread

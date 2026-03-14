@@ -391,6 +391,10 @@ dom
 SecurityPolicyViolationEventInit
 &
 aViolationEventInit
+const
+nsAString
+&
+aReportGroupName
 )
 ;
 nsresult
@@ -503,6 +507,14 @@ ContentSecurityPolicy
 &
 aPolicies
 )
+;
+nsString
+GetReportGroupFor
+(
+uint64_t
+aPolicyIndex
+)
+const
 ;
 static
 nsCSPContext

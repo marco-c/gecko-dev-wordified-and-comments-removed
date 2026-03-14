@@ -205,6 +205,10 @@ const
 nsAString
 &
 aJSon
+const
+nsAString
+&
+aReportGroupName
 )
 ;
 mozilla
