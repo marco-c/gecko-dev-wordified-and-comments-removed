@@ -27940,7 +27940,7 @@ assignment
 false
 pub
 enum
-PropertyTypedValueResult
+PropertyTypedValue
 {
 None
 Unsupported
@@ -27977,7 +27977,7 @@ result
 :
 *
 mut
-PropertyTypedValueResult
+PropertyTypedValue
 )
 -
 >
@@ -28027,7 +28027,7 @@ Err
 )
 =
 >
-PropertyTypedValueResult
+PropertyTypedValue
 :
 :
 None
@@ -28045,7 +28045,7 @@ global_style_data
 *
 GLOBAL_STYLE_DATA
 ;
-PropertyTypedValueResult
+PropertyTypedValue
 :
 :
 Unsupported
@@ -28083,7 +28083,7 @@ typed_value
 )
 =
 >
-PropertyTypedValueResult
+PropertyTypedValue
 :
 :
 Typed
@@ -44386,7 +44386,7 @@ result
 :
 *
 mut
-PropertyTypedValueResult
+PropertyTypedValue
 )
 -
 >
@@ -44559,7 +44559,7 @@ Normal
 }
 }
 ;
-PropertyTypedValueResult
+PropertyTypedValue
 :
 :
 Unsupported
@@ -44590,7 +44590,7 @@ typed_value
 )
 =
 >
-PropertyTypedValueResult
+PropertyTypedValue
 :
 :
 Typed

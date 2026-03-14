@@ -97,7 +97,7 @@ class
 ErrorResult
 ;
 struct
-StylePropertyTypedValueResult
+StylePropertyTypedValue
 ;
 namespace
 dom
@@ -347,7 +347,7 @@ Rule
 )
 {
 }
-StylePropertyTypedValueResult
+StylePropertyTypedValue
 Get
 (
 const
