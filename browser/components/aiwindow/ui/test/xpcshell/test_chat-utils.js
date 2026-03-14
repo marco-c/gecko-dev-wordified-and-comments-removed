@@ -646,6 +646,9 @@ queries
 "
 }
 '
+page_history_deleted
+:
+false
 }
 )
 ;
