@@ -3407,6 +3407,8 @@ RT
 >
 &
 aBoundary
+RangeBoundaryFor
+aFor
 int32_t
 (
 *
@@ -3420,6 +3422,8 @@ PT
 RT
 >
 &
+RangeBoundaryFor
+aFor
 const
 AbstractRange
 &
