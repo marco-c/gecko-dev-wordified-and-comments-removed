@@ -1598,6 +1598,11 @@ fxRelayFactory
 {
 fakeFxRelay
 }
+extractHostUrl
+=
+{
+it
+}
 )
 private
 fun
@@ -2028,10 +2033,10 @@ suspend
 fun
 createEmailMask
 (
-generatedFor
+generatedForHostUrl
 :
 String
-description
+descriptionHostUrl
 :
 String
 )
