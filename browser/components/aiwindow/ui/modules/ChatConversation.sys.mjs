@@ -1530,9 +1530,8 @@ realTimeContext
 )
 {
 userContext
-[
+.
 realTimeContext
-]
 =
 realTimeContext
 ;
@@ -1563,9 +1562,8 @@ memoriesContext
 )
 {
 userContext
-[
+.
 memoriesContext
-]
 =
 memoriesContext
 ;
