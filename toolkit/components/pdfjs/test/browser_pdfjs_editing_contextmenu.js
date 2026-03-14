@@ -1803,7 +1803,7 @@ waitForContentEvent
 (
 browser
 "
-annotationeditorstateschanged
+editingstateschanged
 "
 false
 null
@@ -2048,7 +2048,7 @@ waitForContentEvent
 (
 browser
 "
-annotationeditorstateschanged
+editingstateschanged
 "
 false
 null
