@@ -1854,9 +1854,8 @@ observer
 notification
 and
 uri
-nonce
-*
 and
+*
 hintCharset
 parameters
 should
@@ -1981,8 +1980,6 @@ UTF8String
 key
 UTF8String
 uri
-UTF8String
-nonce
 UTF8String
 hintCharset
 )
@@ -7900,6 +7897,9 @@ long
 O_WRONLY
 ;
 long
+O_CLOEXEC
+;
+long
 POLLIN
 ;
 long
@@ -7922,6 +7922,9 @@ ifdef
 XP_LINUX
 long
 PR_CAPBSET_READ
+;
+long
+O_PATH
 ;
 #
 endif

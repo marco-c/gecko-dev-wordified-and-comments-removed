@@ -231,15 +231,6 @@ other
 mCORSMode
 &
 &
-mNonce
-=
-=
-other
--
->
-mNonce
-&
-&
 mFetchPriority
 =
 =

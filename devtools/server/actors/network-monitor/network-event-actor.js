@@ -1479,9 +1479,6 @@ _resource
 url
 data
 .
-nonce
-data
-.
 charset
 )
 ;
@@ -1698,10 +1695,6 @@ memoryCacheKey
 )
 {
 let
-nonce
-=
-"
-"
 charset
 =
 "
@@ -1716,18 +1709,6 @@ Ci
 nsIHttpChannel
 )
 {
-nonce
-=
-channel
-.
-loadInfo
-.
-cspNonce
-|
-|
-"
-"
-;
 charset
 =
 channel
@@ -1747,7 +1728,6 @@ _memoryCacheData
 key
 :
 memoryCacheKey
-nonce
 charset
 }
 ;

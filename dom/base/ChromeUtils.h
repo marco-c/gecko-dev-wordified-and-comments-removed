@@ -1091,10 +1091,6 @@ aURI
 const
 nsACString
 &
-aNonce
-const
-nsACString
-&
 aHintCharset
 JS
 :
