@@ -309,6 +309,13 @@ Store
 S
 A
 >
+mainDispatcher
+:
+CoroutineDispatcher
+=
+Dispatchers
+.
+Main
 block
 :
 (
@@ -353,6 +360,9 @@ view
 .
 toScope
 (
+mainDispatcher
+=
+mainDispatcher
 )
 val
 channel
