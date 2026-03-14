@@ -783,15 +783,6 @@ include_h2
 =
 h2_enabled
                                         
-include_webtransport_h3
-=
-kwargs
-[
-"
-enable_webtransport_h3
-"
-]
-                                        
 skip_timeout
 =
 kwargs
