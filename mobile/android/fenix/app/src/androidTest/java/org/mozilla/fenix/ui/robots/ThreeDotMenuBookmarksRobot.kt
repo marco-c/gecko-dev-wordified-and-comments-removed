@@ -517,7 +517,7 @@ composeTestRule
 )
 }
 fun
-clickCopy
+clickMove
 (
 interact
 :
@@ -540,7 +540,7 @@ i
 (
 TAG
 "
-clickCopy
+clickMove
 :
 Trying
 to
@@ -548,7 +548,7 @@ click
 the
 \
 "
-Copy
+Move
 \
 "
 button
@@ -556,7 +556,7 @@ button
 )
 composeTestRule
 .
-copyButton
+moveButton
 (
 )
 .
@@ -569,13 +569,13 @@ i
 (
 TAG
 "
-clickCopy
+clickMove
 :
 Clicked
 the
 \
 "
-Copy
+Move
 \
 "
 button
@@ -882,7 +882,7 @@ private
 fun
 ComposeTestRule
 .
-copyButton
+moveButton
 (
 )
 =
@@ -894,7 +894,7 @@ R
 .
 string
 .
-bookmark_menu_copy_button
+bookmark_menu_move_button
 )
 )
 private
