@@ -8,6 +8,8 @@ if
 !
 HTMLMediaElement
 .
+prototype
+.
 captureStream
 )
 {
