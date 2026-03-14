@@ -3245,6 +3245,7 @@ function
 reloadBrowser
 (
 tab
+reloadFlags
 )
 {
 if
