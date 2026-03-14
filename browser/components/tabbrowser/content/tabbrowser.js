@@ -3237,7 +3237,6 @@ unchangedRemoteness
 reloadBrowser
 (
 tab
-reloadFlags
 )
 ;
 }
