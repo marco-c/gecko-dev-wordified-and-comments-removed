@@ -67,8 +67,6 @@ Window
 ]
 interface
 CSSPseudoElement
-:
-EventTarget
 {
 readonly
 attribute
@@ -88,6 +86,11 @@ or
 CSSPseudoElement
 )
 parent
+;
+readonly
+attribute
+CSSOMString
+selectorText
 ;
 CSSPseudoElement
 ?
