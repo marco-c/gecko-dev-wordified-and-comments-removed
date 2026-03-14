@@ -21420,11 +21420,6 @@ GetShadowRoot
 )
 )
 ;
-MOZ_ASSERT
-(
-mDoneCreating
-)
-;
 auto
 uaWidget
 =
