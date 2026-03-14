@@ -17,6 +17,8 @@ from
 import
 get_device_pixel_ratio
 get_viewport_dimensions
+pytestmark
+=
 pytest
 .
 mark
@@ -218,11 +220,6 @@ pytest
 .
 mark
 .
-asyncio
-pytest
-.
-mark
-.
 parametrize
 (
 "
@@ -418,11 +415,6 @@ value
 :
 device_pixel_ratio
 }
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_reset_device_pixel_ratio
@@ -556,11 +548,6 @@ new_tab
 =
 =
 original_dpr
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark

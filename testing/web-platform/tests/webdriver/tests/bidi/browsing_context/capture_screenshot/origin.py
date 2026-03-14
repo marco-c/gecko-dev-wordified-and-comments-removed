@@ -21,6 +21,8 @@ bidi
 error
 as
 error
+pytestmark
+=
 pytest
 .
 mark
@@ -184,11 +186,6 @@ viewport_screenshot
 =
 =
 viewport_dimensions
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark
@@ -371,11 +368,6 @@ screenshot_a
 =
 =
 screenshot_b
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_capture_huge_document_origin

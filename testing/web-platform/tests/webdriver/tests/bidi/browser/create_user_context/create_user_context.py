@@ -11,6 +11,8 @@ from
 import
 get_local_storage
 set_local_storage
+pytestmark
+=
 pytest
 .
 mark
@@ -40,11 +42,6 @@ get_user_context_ids
 (
 bidi_session
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_unique_id
@@ -114,11 +111,6 @@ first_context
 !
 =
 other_context
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_storage_isolation

@@ -10,6 +10,8 @@ modules
 script
 import
 ContextTarget
+pytestmark
+=
 pytest
 .
 mark
@@ -249,11 +251,6 @@ value
 :
 2
 }
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_remove_properties_set_by_preload_script

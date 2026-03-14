@@ -7,6 +7,13 @@ from
 import
 any_string
 recursive_compare
+pytestmark
+=
+pytest
+.
+mark
+.
+asyncio
 pytest
 .
 mark
@@ -1757,11 +1764,6 @@ accessibility_role_name_multiple
 "
 ]
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_find_by_locator_limit_return_count
@@ -1922,11 +1924,6 @@ nodes
 "
 ]
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_several_context_nodes

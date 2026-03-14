@@ -26,6 +26,8 @@ import
 any_stack_trace
 PRIMITIVE_VALUES
 REMOTE_VALUES
+pytestmark
+=
 pytest
 .
 mark
@@ -45,11 +47,6 @@ PRIMITIVE_VALUES
 +
 REMOTE_VALUES
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_exception_details
@@ -178,11 +175,6 @@ value
 result
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_invalid_function
@@ -314,11 +306,6 @@ value
 result
     
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark

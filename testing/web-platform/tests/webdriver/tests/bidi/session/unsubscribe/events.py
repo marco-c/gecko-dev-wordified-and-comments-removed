@@ -12,6 +12,8 @@ tests
 bidi
 import
 wait_for_bidi_events
+pytestmark
+=
 pytest
 .
 mark
@@ -169,11 +171,6 @@ remove_listener_domContentLoaded
 remove_listener_load
 (
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_subscribe_to_module_unsubscribe_from_one_event

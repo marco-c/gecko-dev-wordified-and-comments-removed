@@ -16,6 +16,8 @@ modules
 script
 import
 ContextTarget
+pytestmark
+=
 pytest
 .
 mark
@@ -165,11 +167,6 @@ promise
             
 result
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark

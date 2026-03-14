@@ -5,6 +5,8 @@ from
 import
 assert_console_entry
 assert_javascript_entry
+pytestmark
+=
 pytest
 .
 mark
@@ -415,11 +417,6 @@ complete
 "
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_javascript_entry_sync_callstack

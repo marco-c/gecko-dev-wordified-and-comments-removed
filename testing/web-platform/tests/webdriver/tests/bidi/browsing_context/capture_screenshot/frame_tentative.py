@@ -31,6 +31,8 @@ from
 .
 import
 get_physical_viewport_dimensions
+pytestmark
+=
 pytest
 .
 mark
@@ -232,11 +234,6 @@ cross_origin
 "
 ]
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_context_origin

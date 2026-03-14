@@ -5,6 +5,8 @@ from
 .
 import
 assert_extension_id
+pytestmark
+=
 pytest
 .
 mark
@@ -58,11 +60,6 @@ assert_extension_id
 web_extension
 extension_data
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_install_from_path
@@ -111,11 +108,6 @@ assert_extension_id
 web_extension
 extension_data
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_install_from_archive_path

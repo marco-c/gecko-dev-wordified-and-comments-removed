@@ -17,6 +17,8 @@ from
 .
 import
 CSP_EXPRESSIONS
+pytestmark
+=
 pytest
 .
 mark

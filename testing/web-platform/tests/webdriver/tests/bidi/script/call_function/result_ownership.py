@@ -17,6 +17,8 @@ from
 .
 import
 assert_handle
+pytestmark
+=
 pytest
 .
 mark
@@ -143,11 +145,6 @@ pytest
 .
 mark
 .
-asyncio
-pytest
-.
-mark
-.
 parametrize
 (
 "
@@ -263,11 +260,6 @@ exception
 ]
 should_contain_handle
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark
@@ -390,11 +382,6 @@ exception
 ]
 should_contain_handle
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark

@@ -38,6 +38,8 @@ RESPONSE_COMPLETED_EVENT
     
 PAGE_INVALID_URL
 )
+pytestmark
+=
 pytest
 .
 mark
@@ -262,11 +264,6 @@ events
 remove_listener
 (
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_aborted_request
@@ -414,11 +411,6 @@ context
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_iframe_load
@@ -600,11 +592,6 @@ context
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_navigation_id
@@ -853,11 +840,6 @@ True
     
 ]
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_request_method
@@ -1023,11 +1005,6 @@ PAGE_INVALID_URL
 }
         
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_request_timing_info
@@ -1188,11 +1165,6 @@ redirectCount
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_redirect_fetch
@@ -1406,11 +1378,6 @@ request
 ]
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_redirect_navigation

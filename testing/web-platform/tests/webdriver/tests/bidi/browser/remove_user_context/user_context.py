@@ -27,6 +27,8 @@ browsingContext
 .
 userPromptOpened
 "
+pytestmark
+=
 pytest
 .
 mark
@@ -107,11 +109,6 @@ window
 "
 ]
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_remove_context_closes_contexts
@@ -397,11 +394,6 @@ window
 "
 ]
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_remove_context_skips_beforeunload_prompt

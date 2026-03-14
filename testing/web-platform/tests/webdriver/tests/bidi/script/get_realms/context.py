@@ -16,6 +16,8 @@ from
 .
 import
 recursive_compare
+pytestmark
+=
 pytest
 .
 mark

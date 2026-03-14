@@ -16,6 +16,8 @@ from
 .
 import
 recursive_compare
+pytestmark
+=
 pytest
 .
 mark
@@ -169,11 +171,6 @@ value
 result
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_different_target_realm

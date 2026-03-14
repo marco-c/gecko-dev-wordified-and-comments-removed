@@ -17,6 +17,13 @@ from
 import
 any_string
 recursive_compare
+pytestmark
+=
+pytest
+.
+mark
+.
+asyncio
 pytest
 .
 mark
@@ -37,11 +44,6 @@ closed
 "
 ]
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_locate_nodes_serialization_options

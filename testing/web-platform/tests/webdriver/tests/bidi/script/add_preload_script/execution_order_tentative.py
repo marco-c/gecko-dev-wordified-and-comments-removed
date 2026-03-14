@@ -26,6 +26,8 @@ browsingContext
 .
 load
 "
+pytestmark
+=
 pytest
 .
 mark

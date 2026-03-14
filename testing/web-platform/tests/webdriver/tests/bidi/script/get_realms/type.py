@@ -16,6 +16,13 @@ from
 .
 import
 recursive_compare
+pytestmark
+=
+pytest
+.
+mark
+.
+asyncio
 PAGE_ABOUT_BLANK
 =
 "
@@ -23,11 +30,6 @@ about
 :
 blank
 "
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark

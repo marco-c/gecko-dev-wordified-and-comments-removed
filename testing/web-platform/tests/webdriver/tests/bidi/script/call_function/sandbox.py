@@ -25,6 +25,8 @@ from
 .
 import
 any_stack_trace
+pytestmark
+=
 pytest
 .
 mark
@@ -300,11 +302,6 @@ type
 undefined
 "
 }
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_sandbox_with_empty_name
@@ -481,11 +478,6 @@ value
 bar
 "
 }
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_switch_sandboxes
@@ -710,11 +702,6 @@ value
 :
 2
 }
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_sandbox_with_side_effects
@@ -906,11 +893,6 @@ result_in_sandbox_2
 =
 =
 expected_value
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_sandbox_returns_same_node
@@ -1039,11 +1021,6 @@ node_sandbox
 =
 =
 node
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_arguments
@@ -1192,11 +1169,6 @@ recursive_compare
 argument
 result
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_arguments_uses_same_node_in_sandbox
@@ -1344,11 +1316,6 @@ value
 body
 "
 }
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark
@@ -1515,11 +1482,6 @@ value
 result
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_target_realm

@@ -22,6 +22,8 @@ from
 import
 any_string
 int_interval
+pytestmark
+=
 pytest
 .
 mark
@@ -213,11 +215,6 @@ context
 "
 ]
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark
@@ -414,11 +411,6 @@ method
 log_method
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_timestamp
@@ -574,11 +566,6 @@ time_start
 time_end
 )
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_method_timeEnd
@@ -686,11 +673,6 @@ method
 timeEnd
 "
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_method_clear
@@ -795,11 +777,6 @@ method
 log
 "
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_new_context_with_new_window
@@ -947,11 +924,6 @@ context
 "
 ]
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_new_context_with_refresh
@@ -1117,11 +1089,6 @@ context
 ]
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_different_contexts

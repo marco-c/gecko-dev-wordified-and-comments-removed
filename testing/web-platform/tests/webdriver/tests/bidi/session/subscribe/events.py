@@ -1,5 +1,7 @@
 import
 pytest
+pytestmark
+=
 pytest
 .
 mark
@@ -143,11 +145,6 @@ remove_listener_domContentLoaded
 remove_listener_load
 (
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_subscribe_to_one_event_and_then_to_module
@@ -367,11 +364,6 @@ remove_listener_domContentLoaded
 remove_listener_load
 (
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_subscribe_to_module_and_then_to_one_event_again

@@ -21,6 +21,8 @@ from
 .
 import
 PRIMITIVE_VALUES
+pytestmark
+=
 pytest
 .
 mark
@@ -96,11 +98,6 @@ value
 }
 result
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark
@@ -278,11 +275,6 @@ recursive_compare
 argument
 result
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark

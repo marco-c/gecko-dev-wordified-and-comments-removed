@@ -18,11 +18,6 @@ pytest
 mark
 .
 asyncio
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_set_permission
@@ -249,11 +244,6 @@ geolocation
 "
 prompt
 "
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_set_permission_new_context
@@ -625,11 +615,6 @@ geolocation
 "
 prompt
 "
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_set_permission_iframe

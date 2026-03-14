@@ -8,6 +8,13 @@ from
 import
 assert_before_request_sent_event
 BEFORE_REQUEST_SENT_EVENT
+pytestmark
+=
+pytest
+.
+mark
+.
+asyncio
 pytest
 .
 fixture
@@ -106,11 +113,6 @@ upper
     
 return
 substitute_host
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark
@@ -909,11 +911,6 @@ pytest
 .
 mark
 .
-asyncio
-pytest
-.
-mark
-.
 parametrize
 (
     
@@ -1375,11 +1372,6 @@ isBlocked
 False
 }
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark
@@ -1950,11 +1942,6 @@ intercept
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark

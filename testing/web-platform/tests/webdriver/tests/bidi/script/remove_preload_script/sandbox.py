@@ -10,6 +10,8 @@ modules
 script
 import
 ContextTarget
+pytestmark
+=
 pytest
 .
 mark

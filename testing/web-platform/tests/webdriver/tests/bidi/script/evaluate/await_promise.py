@@ -25,6 +25,8 @@ from
 import
 any_stack_trace
 PRIMITIVE_VALUES
+pytestmark
+=
 pytest
 .
 mark
@@ -126,11 +128,6 @@ value
 SOME_DELAYED_RESULT
 "
 }
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_await_promise_rejected
@@ -263,11 +260,6 @@ value
 result
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_await_promise_resolved
@@ -338,11 +330,6 @@ value
 SOME_RESOLVED_RESULT
 "
 }
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_await_resolve_array
@@ -508,11 +495,6 @@ serialized
 ]
     
 }
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_await_resolve_date
@@ -598,11 +580,6 @@ value
 "
     
 }
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_await_resolve_map
@@ -850,11 +827,6 @@ expected
 "
 PRIMITIVE_VALUES
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_await_resolve_primitive
@@ -914,11 +886,6 @@ result
 =
 =
 expected
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_await_resolve_regexp
@@ -1009,11 +976,6 @@ i
 }
     
 }
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_await_resolve_set
@@ -1245,11 +1207,6 @@ serialized
 ]
     
 }
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_no_await_promise_rejected
@@ -1313,11 +1270,6 @@ promise
 }
 result
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_no_await_promise_resolved

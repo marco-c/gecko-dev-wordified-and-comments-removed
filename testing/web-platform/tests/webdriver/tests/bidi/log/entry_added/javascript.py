@@ -11,6 +11,8 @@ from
 .
 import
 int_interval
+pytestmark
+=
 pytest
 .
 mark

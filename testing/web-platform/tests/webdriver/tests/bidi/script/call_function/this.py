@@ -17,6 +17,8 @@ from
 import
 any_string
 recursive_compare
+pytestmark
+=
 pytest
 .
 mark
@@ -137,11 +139,6 @@ value
 42
     
 }
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_default_this
@@ -205,11 +202,6 @@ window
 }
 result
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark
@@ -562,11 +554,6 @@ complete
 "
     
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark

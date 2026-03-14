@@ -35,11 +35,6 @@ cross_origin
 "
 ]
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_data_persists_after_navigation
@@ -304,11 +299,6 @@ data
 value
 "
 ]
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_data_persists_after_closing

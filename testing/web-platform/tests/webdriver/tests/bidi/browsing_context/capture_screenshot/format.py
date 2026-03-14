@@ -10,6 +10,8 @@ modules
 browsing_context
 import
 FormatOptions
+pytestmark
+=
 pytest
 .
 mark
@@ -145,11 +147,6 @@ png_screenshot
 !
 =
 jpeg_screenshot
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_format_quality

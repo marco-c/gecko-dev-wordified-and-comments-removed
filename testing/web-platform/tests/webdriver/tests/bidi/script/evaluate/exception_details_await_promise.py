@@ -26,6 +26,8 @@ import
 any_stack_trace
 PRIMITIVE_VALUES
 REMOTE_VALUES
+pytestmark
+=
 pytest
 .
 mark

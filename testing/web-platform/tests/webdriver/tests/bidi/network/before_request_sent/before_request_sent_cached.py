@@ -30,6 +30,8 @@ STYLESHEET_GREY_BACKGROUND
     
 STYLESHEET_RED_COLOR
 )
+pytestmark
+=
 pytest
 .
 mark
@@ -222,11 +224,6 @@ expected_request
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_page_with_cached_link_stylesheet
@@ -564,11 +561,6 @@ expected_request
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_page_with_cached_import_stylesheet
@@ -905,11 +897,6 @@ expected_request
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_page_with_cached_duplicated_stylesheets
@@ -1528,11 +1515,6 @@ expected_request
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_page_with_cached_script_javascript
@@ -2102,11 +2084,6 @@ expected_request
 }
         
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_page_with_cached_javascript_module
@@ -2659,11 +2636,6 @@ expected_request
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_page_with_cached_image

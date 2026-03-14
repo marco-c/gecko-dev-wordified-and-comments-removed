@@ -22,6 +22,8 @@ from
 .
 import
 REMOTE_VALUES
+pytestmark
+=
 pytest
 .
 mark
@@ -96,11 +98,6 @@ recursive_compare
 expected
 result
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark
@@ -203,11 +200,6 @@ context
 }
 result
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark
@@ -427,11 +419,6 @@ pytest
 .
 mark
 .
-asyncio
-pytest
-.
-mark
-.
 parametrize
 (
 "
@@ -639,11 +626,6 @@ context
 }
 result
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark

@@ -15,6 +15,8 @@ from
 .
 import
 PRIMITIVE_VALUES
+pytestmark
+=
 pytest
 .
 mark

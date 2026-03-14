@@ -5,6 +5,8 @@ from
 .
 import
 get_user_context_ids
+pytestmark
+=
 pytest
 .
 mark
@@ -40,11 +42,6 @@ default
 "
 in
 user_context_ids
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_create_remove_contexts

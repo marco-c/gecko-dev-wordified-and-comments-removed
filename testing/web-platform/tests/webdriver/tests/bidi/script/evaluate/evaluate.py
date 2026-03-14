@@ -17,6 +17,8 @@ from
 .
 import
 recursive_compare
+pytestmark
+=
 pytest
 .
 mark
@@ -86,11 +88,6 @@ value
 :
 3
 }
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_interact_with_dom
@@ -176,11 +173,6 @@ about
 blank
 "
 }
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_target_realm
@@ -323,11 +315,6 @@ value
 result
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_different_target_realm

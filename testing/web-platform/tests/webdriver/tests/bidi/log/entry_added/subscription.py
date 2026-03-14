@@ -7,6 +7,8 @@ from
 import
 assert_base_entry
 create_log
+pytestmark
+=
 pytest
 .
 mark
@@ -185,11 +187,6 @@ events
 remove_listener
 (
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark

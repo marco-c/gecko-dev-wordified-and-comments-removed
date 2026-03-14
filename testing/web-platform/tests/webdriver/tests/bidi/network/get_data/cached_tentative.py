@@ -36,6 +36,13 @@ get_cached_url
     
 get_next_event_for_url
 )
+pytestmark
+=
+pytest
+.
+mark
+.
+asyncio
 pytest_asyncio
 .
 fixture
@@ -241,11 +248,6 @@ data
     
 return
 _setup_cached_resource_test
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_cached_image
@@ -357,11 +359,6 @@ data
 value
 "
 ]
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_cached_javascript
@@ -476,11 +473,6 @@ value
 ]
 str
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_cached_stylesheet

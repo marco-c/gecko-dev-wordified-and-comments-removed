@@ -10,6 +10,8 @@ modules
 script
 import
 ContextTarget
+pytestmark
+=
 pytest
 .
 mark
@@ -324,11 +326,6 @@ pytest
 .
 mark
 .
-asyncio
-pytest
-.
-mark
-.
 parametrize
 (
 "
@@ -566,11 +563,6 @@ type
 undefined
 "
 }
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_identical_contexts

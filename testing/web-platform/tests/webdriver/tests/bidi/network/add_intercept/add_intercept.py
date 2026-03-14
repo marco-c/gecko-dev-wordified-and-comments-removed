@@ -36,6 +36,8 @@ RESPONSE_COMPLETED_EVENT
     
 RESPONSE_STARTED_EVENT
 )
+pytestmark
+=
 pytest
 .
 mark
@@ -170,11 +172,6 @@ url
 PAGE_OTHER_TEXT
 )
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_return_value
@@ -216,11 +213,6 @@ hex
 =
 intercept
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_two_intercepts

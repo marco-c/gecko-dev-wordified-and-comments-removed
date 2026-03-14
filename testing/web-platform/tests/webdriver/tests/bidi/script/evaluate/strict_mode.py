@@ -22,6 +22,8 @@ from
 .
 import
 specific_error_response
+pytestmark
+=
 pytest
 .
 mark

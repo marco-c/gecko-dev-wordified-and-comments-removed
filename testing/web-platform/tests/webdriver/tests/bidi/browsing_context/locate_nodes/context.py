@@ -15,6 +15,8 @@ from
 import
 any_string
 recursive_compare
+pytestmark
+=
 pytest
 .
 mark
@@ -121,11 +123,6 @@ div
 }
         
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_locate_in_different_contexts
@@ -420,11 +417,6 @@ cross_origin
 "
 ]
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_locate_in_iframe

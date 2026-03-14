@@ -26,6 +26,8 @@ import
 any_stack_trace
 PRIMITIVE_VALUES
 REMOTE_VALUES
+pytestmark
+=
 pytest
 .
 mark
@@ -162,11 +164,6 @@ value
 result
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_invalid_script
@@ -298,11 +295,6 @@ value
 result
     
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark

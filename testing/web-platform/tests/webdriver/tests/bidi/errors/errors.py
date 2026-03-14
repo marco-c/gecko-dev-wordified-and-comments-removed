@@ -8,6 +8,8 @@ bidi
 error
 import
 UnknownCommandException
+pytestmark
+=
 pytest
 .
 mark

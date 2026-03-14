@@ -26,6 +26,8 @@ from
 import
 any_string
 recursive_compare
+pytestmark
+=
 pytest
 .
 mark
@@ -997,11 +999,6 @@ pytest
 .
 mark
 .
-asyncio
-pytest
-.
-mark
-.
 parametrize
 (
     
@@ -1361,11 +1358,6 @@ pytest
 .
 mark
 .
-asyncio
-pytest
-.
-mark
-.
 parametrize
 (
     
@@ -1719,11 +1711,6 @@ value
 :
 expected_node_type
 }
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_remote_reference_node_cdata
@@ -1911,11 +1898,6 @@ value
 :
 4
 }
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_remote_reference_sharedId_precedence_over_handle
@@ -2076,11 +2058,6 @@ context
 )
         
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark

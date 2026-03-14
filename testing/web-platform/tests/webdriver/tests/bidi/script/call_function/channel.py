@@ -23,6 +23,8 @@ from
 import
 any_string
 recursive_compare
+pytestmark
+=
 pytest
 .
 mark
@@ -537,11 +539,6 @@ context
 event_data
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_channel_with_multiple_arguments
@@ -737,11 +734,6 @@ context
 event_data
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_two_channels
@@ -1084,11 +1076,6 @@ events
 remove_listener
 (
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_channel_and_nonchannel_arguments
