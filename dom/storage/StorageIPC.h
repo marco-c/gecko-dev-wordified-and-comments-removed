@@ -799,7 +799,7 @@ const
 {
 NS_ASSERT_OWNINGTHREAD
 (
-LocalStorageCacheChild
+SessionStorageObserverChild
 )
 ;
 }
@@ -912,7 +912,7 @@ const
 {
 NS_ASSERT_OWNINGTHREAD
 (
-SesionStoragManagerChild
+SessionStorageCacheChild
 )
 ;
 }
@@ -1001,7 +1001,7 @@ const
 {
 NS_ASSERT_OWNINGTHREAD
 (
-SesionStoragManagerChild
+SessionStorageManagerChild
 )
 ;
 }
