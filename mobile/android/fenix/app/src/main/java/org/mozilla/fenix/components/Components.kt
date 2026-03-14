@@ -2302,6 +2302,9 @@ context
 remoteSettingsService
 .
 value
+analytics
+.
+crashReporter
 )
 }
 val

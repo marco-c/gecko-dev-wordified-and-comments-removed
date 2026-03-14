@@ -3119,6 +3119,9 @@ else
 >
 REMOTE_PROD_ENDPOINT_URL
 }
+crashReporter
+=
+crashReporter
 )
 .
 updateProviderList
