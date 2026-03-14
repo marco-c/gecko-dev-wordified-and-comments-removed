@@ -1189,6 +1189,14 @@ uint64_t
 >
 mOnScreenAccessibles
 ;
+#
+ifdef
+MOZ_WIDGET_COCOA
+LayoutDeviceIntRect
+mFocusedAccBounds
+;
+#
+endif
 static
 DocAccessibleParent
 *
