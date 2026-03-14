@@ -208,11 +208,11 @@ var
 (
 -
 -
+card
+-
 border
 -
 color
--
-card
 )
 ;
 color
