@@ -278,11 +278,7 @@ tab
 entrypoint
 :
 "
-desktop
--
-fx
--
-vpn
+vpn_integration_panel
 "
 autoClose
 :
@@ -293,7 +289,7 @@ extraParams
 service
 :
 "
-sync
+vpn
 "
 entrypoint_experiment
 :

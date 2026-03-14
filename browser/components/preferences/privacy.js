@@ -5099,6 +5099,13 @@ topChromeWindow
 .
 enroll
 (
+{
+entrypoint
+:
+"
+vpn_integration_settings
+"
+}
 )
 ;
 }
