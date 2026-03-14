@@ -4453,7 +4453,7 @@ const
 KeyboardRegions
 aRegion
 const
-KeyNameIndexType
+KeyNameIndex
 aKeyIdx
 const
 nsAString

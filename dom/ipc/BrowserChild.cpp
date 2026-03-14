@@ -12529,6 +12529,12 @@ mNoRemoteProcessDispatch
 =
 false
 ;
+localEvent
+.
+PreventNativeKeyBindings
+(
+)
+;
 SendReplyKeyEvent
 (
 localEvent

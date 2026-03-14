@@ -14619,6 +14619,16 @@ aEvent
 .
 mModifiers
 )
+|
+|
+NS_WARN_IF
+(
+aEvent
+.
+HasEditCommands
+(
+)
+)
 )
 {
 return
