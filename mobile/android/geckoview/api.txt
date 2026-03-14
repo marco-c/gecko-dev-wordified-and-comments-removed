@@ -8097,6 +8097,14 @@ shutdown
 (
 )
 ;
+method
+UiThread
+public
+void
+warmUp
+(
+)
+;
 field
 public
 static
