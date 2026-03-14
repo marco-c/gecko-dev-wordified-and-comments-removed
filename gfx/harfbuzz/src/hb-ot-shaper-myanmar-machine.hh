@@ -107,7 +107,7 @@ myanmar_non_myanmar_cluster
 ;
 #
 line
-51
+54
 "
 hb
 -
@@ -223,7 +223,7 @@ myanmar_syllable_machine_ex_ZWNJ
 5u
 #
 line
-77
+82
 "
 hb
 -
@@ -3845,7 +3845,7 @@ info
 ;
 #
 line
-542
+553
 "
 hb
 -
@@ -3914,7 +3914,7 @@ syllable_serial
 ;
 #
 line
-554
+569
 "
 hb
 -
@@ -3985,7 +3985,7 @@ break
 ;
 #
 line
-566
+583
 "
 hb
 -
@@ -4553,7 +4553,7 @@ break
 ;
 #
 line
-623
+653
 "
 hb
 -
@@ -4597,7 +4597,7 @@ break
 ;
 #
 line
-630
+662
 "
 hb
 -

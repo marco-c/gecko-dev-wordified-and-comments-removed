@@ -1427,6 +1427,8 @@ env
 env
 .
 argStack
+.
+arrayZ
 [
 start
 +

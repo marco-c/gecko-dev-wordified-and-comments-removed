@@ -210,6 +210,8 @@ txt
 "
 "
 import
+os
+import
 packTab
 import
 sys
@@ -2806,16 +2808,6 @@ UIPC
 =
 Top
 		
-if
-U
-=
-=
-0x113CF
-:
-UIPC
-=
-Bottom
-		
 assert
 (
 UIPC
@@ -3056,12 +3048,19 @@ txt
 .
 format
 (
+os
+.
+path
+.
+basename
+(
 sys
 .
 argv
 [
 0
 ]
+)
 )
 )
 print

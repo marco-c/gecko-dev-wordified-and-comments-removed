@@ -505,6 +505,8 @@ false
 ;
 hb_buffer_t
 buffer
+{
+}
 ;
 buffer
 .
