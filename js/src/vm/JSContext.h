@@ -809,6 +809,14 @@ popDebugFront
 (
 )
 ;
+JS
+:
+:
+GenericMicroTask
+peekFront
+(
+)
+;
 bool
 empty
 (
