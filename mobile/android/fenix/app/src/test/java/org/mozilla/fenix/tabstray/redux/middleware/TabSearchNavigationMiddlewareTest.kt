@@ -188,7 +188,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (

@@ -117,18 +117,6 @@ mozilla
 .
 components
 .
-browser
-.
-state
-.
-state
-.
-createTab
-import
-mozilla
-.
-components
-.
 support
 .
 test
@@ -255,7 +243,7 @@ tabstray
 .
 data
 .
-TabsTrayItem
+createTab
 import
 org
 .
@@ -602,12 +590,6 @@ size
 3
 )
 {
-TabsTrayItem
-.
-Tab
-(
-tabData
-=
 createTab
 (
 id
@@ -627,7 +609,6 @@ mozilla
 .
 org
 "
-)
 )
 }
 val
@@ -870,7 +851,7 @@ Mode
 Normal
 tabState
 =
-fakeTabSessionState
+fakeTab
 (
 isPrivate
 =
@@ -943,7 +924,7 @@ Select
 (
 setOf
 (
-fakeTabSessionState
+fakeTab
 (
 isPrivate
 =
@@ -953,7 +934,7 @@ false
 )
 tabState
 =
-fakeTabSessionState
+fakeTab
 (
 isPrivate
 =
@@ -1027,7 +1008,7 @@ Mode
 Normal
 tabState
 =
-fakeTabSessionState
+fakeTab
 (
 isPrivate
 =
@@ -1101,7 +1082,7 @@ Mode
 Normal
 tabState
 =
-fakeTabSessionState
+fakeTab
 (
 isPrivate
 =
@@ -1175,7 +1156,7 @@ Mode
 Normal
 tabState
 =
-fakeTabSessionState
+fakeTab
 (
 isPrivate
 =
@@ -1249,7 +1230,7 @@ Mode
 Normal
 tabState
 =
-fakeTabSessionState
+fakeTab
 (
 isPrivate
 =
@@ -1323,7 +1304,7 @@ Mode
 Normal
 tabState
 =
-fakeTabSessionState
+fakeTab
 (
 isPrivate
 =
@@ -1397,7 +1378,7 @@ Mode
 Normal
 tabState
 =
-fakeTabSessionState
+fakeTab
 (
 isPrivate
 =
@@ -1408,18 +1389,12 @@ true
 }
 private
 fun
-fakeTabSessionState
+fakeTab
 (
 isPrivate
 :
 Boolean
 )
-=
-TabsTrayItem
-.
-Tab
-(
-tabData
 =
 createTab
 (
@@ -1435,7 +1410,6 @@ org
 private
 =
 isPrivate
-)
 )
 private
 fun

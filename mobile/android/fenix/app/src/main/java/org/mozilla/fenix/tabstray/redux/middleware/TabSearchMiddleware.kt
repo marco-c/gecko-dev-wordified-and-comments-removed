@@ -412,8 +412,6 @@ sortedByDescending
 {
 it
 .
-tabData
-.
 lastAccess
 }
 .

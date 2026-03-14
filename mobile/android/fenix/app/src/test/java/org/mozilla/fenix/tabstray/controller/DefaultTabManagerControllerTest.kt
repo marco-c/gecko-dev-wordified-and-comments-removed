@@ -243,18 +243,6 @@ state
 .
 state
 .
-ContentState
-import
-mozilla
-.
-components
-.
-browser
-.
-state
-.
-state
-.
 TabSessionState
 import
 mozilla
@@ -3438,7 +3426,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 privateTab
 )
@@ -3446,7 +3434,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (
@@ -3587,7 +3575,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 normalTab
 )
@@ -3595,7 +3583,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 normalTab
 )
@@ -3734,7 +3722,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 privateTab
 )
@@ -3889,7 +3877,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 privateTab
 )
@@ -3982,7 +3970,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (
@@ -4612,7 +4600,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (
@@ -4639,7 +4627,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (
@@ -4783,7 +4771,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (
@@ -4810,7 +4798,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (
@@ -5001,7 +4989,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (
@@ -5028,7 +5016,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (
@@ -5177,7 +5165,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (
@@ -5204,7 +5192,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (
@@ -5341,7 +5329,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 currentTabData
 )
@@ -5352,7 +5340,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 secondTabData
 )
@@ -5528,7 +5516,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 currentTabData
 )
@@ -5539,7 +5527,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 secondTabData
 )
@@ -5780,7 +5768,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (
@@ -6183,7 +6171,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (
@@ -6282,7 +6270,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (
@@ -6553,7 +6541,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 tabData
 )
@@ -6753,7 +6741,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 tabData
 )
@@ -6947,7 +6935,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 tabData
 )
@@ -7154,7 +7142,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 normalTabData
 )
@@ -7190,7 +7178,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 privateTabData
 )
@@ -7398,7 +7386,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 currentTabData
 )
@@ -7565,7 +7553,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 currentTabData
 )
@@ -7680,7 +7668,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 normalTabClickedData
 )
@@ -7713,7 +7701,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 alreadySelectedTabData
 )
@@ -7792,7 +7780,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (
@@ -7892,7 +7880,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (
@@ -8055,7 +8043,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (
@@ -8224,7 +8212,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (
@@ -8437,7 +8425,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (
@@ -8637,7 +8625,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (
@@ -8658,7 +8646,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (
@@ -8874,7 +8862,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (
@@ -8895,7 +8883,7 @@ TabsTrayItem
 .
 Tab
 (
-tabData
+tab
 =
 createTab
 (

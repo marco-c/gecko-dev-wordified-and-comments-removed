@@ -125,6 +125,14 @@ coroutines
 .
 test
 .
+runCurrent
+import
+kotlinx
+.
+coroutines
+.
+test
+.
 runTest
 import
 kotlinx
@@ -692,7 +700,7 @@ scope
 backgroundScope
 mainScope
 =
-this
+backgroundScope
 )
 )
 )
@@ -709,7 +717,7 @@ selectedTabId
 expectedTabId
 )
 )
-yield
+runCurrent
 (
 )
 advanceUntilIdle
@@ -827,7 +835,7 @@ scope
 backgroundScope
 mainScope
 =
-this
+backgroundScope
 )
 )
 )
@@ -853,7 +861,7 @@ tabs
 expectedTab
 )
 )
-yield
+runCurrent
 (
 )
 advanceUntilIdle
@@ -979,7 +987,7 @@ scope
 backgroundScope
 mainScope
 =
-this
+backgroundScope
 )
 )
 )
@@ -1005,7 +1013,7 @@ tabs
 expectedTab
 )
 )
-yield
+runCurrent
 (
 )
 advanceUntilIdle
@@ -1128,7 +1136,7 @@ scope
 backgroundScope
 mainScope
 =
-this
+backgroundScope
 )
 )
 )
@@ -1154,7 +1162,7 @@ tabs
 expectedTab
 )
 )
-yield
+runCurrent
 (
 )
 advanceUntilIdle
