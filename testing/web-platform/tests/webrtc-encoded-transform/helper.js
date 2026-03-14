@@ -72,15 +72,6 @@ self
 postMessage
 (
 value
-{
-transfer
-:
-[
-value
-.
-data
-]
-}
 )
 ;
 }
