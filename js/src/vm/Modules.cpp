@@ -4938,7 +4938,7 @@ Unlinked
 if
 (
 !
-CyclicModuleResolveExport
+ModuleResolveExportWithResolveSet
 (
 cx
 importedModule
