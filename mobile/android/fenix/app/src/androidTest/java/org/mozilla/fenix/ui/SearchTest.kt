@@ -866,6 +866,12 @@ Google
 )
 verifySearchBarPlaceholder
 (
+"
+Search
+or
+enter
+address
+"
 )
 }
 .
@@ -1068,6 +1074,12 @@ composeTestRule
 {
 verifySearchBarPlaceholder
 (
+"
+Search
+or
+enter
+address
+"
 )
 }
 }
