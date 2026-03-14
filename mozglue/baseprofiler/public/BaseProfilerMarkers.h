@@ -52,9 +52,6 @@ mozilla
 :
 baseprofiler
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 MFBT_API
 bool
 profiler_capture_backtrace_into
@@ -212,8 +209,6 @@ NoPayload
 )
 ;
 }
-#
-endif
 template
 <
 typename
@@ -250,15 +245,6 @@ PayloadArguments
 aPayloadArguments
 )
 {
-#
-ifndef
-MOZ_GECKO_PROFILER
-return
-{
-}
-;
-#
-else
 ProfileChunkedBuffer
 &
 coreBuffer
@@ -318,8 +304,6 @@ aPayloadArguments
 .
 )
 ;
-#
-endif
 }
 inline
 ProfileBufferBlockIndex
@@ -1381,9 +1365,6 @@ mText
 ;
 }
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 extern
 template
 MFBT_API
@@ -1463,8 +1444,6 @@ string
 &
 )
 ;
-#
-endif
 }
 #
 define

@@ -5,9 +5,6 @@ mozilla_ThreadStackHelper_h
 define
 mozilla_ThreadStackHelper_h
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 js
@@ -326,7 +323,5 @@ mThreadId
 }
 ;
 }
-#
-endif
 #
 endif

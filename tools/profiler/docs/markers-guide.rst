@@ -1358,13 +1358,6 @@ adding
 the
 appropriate
 namespaces
-and
-a
-surrounding
-#
-ifdef
-MOZ_GECKO_PROFILER
-guard
 .
 1
 .

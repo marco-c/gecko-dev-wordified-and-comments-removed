@@ -1,8 +1,9 @@
 if
+not
 CONFIG
 [
 "
-MOZ_GECKO_PROFILER
+JS_STANDALONE
 "
 ]
 :

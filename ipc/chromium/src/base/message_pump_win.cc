@@ -1872,9 +1872,6 @@ Wait
 IDLE
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 mozilla
 :
 :
@@ -1902,8 +1899,6 @@ emplace
 )
 ;
 }
-#
-endif
 success
 =
 GetQueuedCompletionStatus
