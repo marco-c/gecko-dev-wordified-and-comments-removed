@@ -9053,7 +9053,7 @@ writer
 .
 megamorphicLoadSlotByValueResult
 (
-objId
+targetObjId
 getElemKeyValueId
 (
 )
