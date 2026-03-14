@@ -40,6 +40,15 @@ update
 the
 parent
 process
+"
+extensions
+.
+formautofill
+.
+skipProgrammaticCheckForTests
+=
+true
+"
 ]
 support
 -

@@ -48,6 +48,15 @@ enabled
 =
 true
 "
+"
+extensions
+.
+formautofill
+.
+skipProgrammaticCheckForTests
+=
+true
+"
 ]
 skip
 -
