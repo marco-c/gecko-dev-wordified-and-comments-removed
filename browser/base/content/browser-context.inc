@@ -3572,7 +3572,9 @@ context
 -
 pdfjs
 -
-selectall
+select
+-
+all
 "
 data
 -
@@ -3602,7 +3604,9 @@ sep
 -
 pdfjs
 -
-selectall
+select
+-
+all
 "
 /
 >
