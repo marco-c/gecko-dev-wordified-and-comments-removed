@@ -7,6 +7,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 AbstractRange
 .
@@ -4691,7 +4696,10 @@ const
 bool
 isInvalid
 =
-AnyOf
+std
+:
+:
+any_of
 (
 aExactWordLengths
 .

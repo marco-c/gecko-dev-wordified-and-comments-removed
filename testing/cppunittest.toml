@@ -8,11 +8,6 @@ ShowSSEConfig
 ]
 [
 "
-TestAlgorithm
-"
-]
-[
-"
 TestArm64Disassembler
 "
 ]

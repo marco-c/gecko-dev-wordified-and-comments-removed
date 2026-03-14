@@ -11,6 +11,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 ContentAnalysis
 .
@@ -3799,10 +3804,10 @@ dom_navigation_api_strict_enabled
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
-mozilla
+std
 :
 :
-AnyOf
+any_of
 (
 loadingInfo
 -
@@ -3849,10 +3854,10 @@ else
 {
 MOZ_ASSERT
 (
-mozilla
+std
 :
 :
-AnyOf
+any_of
 (
 loadingInfo
 -

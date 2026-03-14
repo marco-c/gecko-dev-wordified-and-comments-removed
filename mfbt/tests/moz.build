@@ -18,9 +18,6 @@ CppUnitTests
 (
 [
 "
-TestAlgorithm
-"
-"
 TestArray
 "
 "

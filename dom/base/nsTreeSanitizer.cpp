@@ -27,15 +27,6 @@ include
 "
 mozilla
 /
-Algorithm
-.
-h
-"
-#
-include
-"
-mozilla
-/
 DeclarationBlock
 .
 h
@@ -2373,7 +2364,10 @@ aURLAttributeSVG
 )
 {
 return
-AnyOf
+std
+:
+:
+any_of
 (
 std
 :
