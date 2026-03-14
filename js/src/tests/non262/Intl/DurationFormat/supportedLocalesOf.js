@@ -467,7 +467,7 @@ supported
 =
 Intl
 .
-PluralRules
+DurationFormat
 .
 supportedLocalesOf
 (
