@@ -343,6 +343,13 @@ app
 include
 '
 :
+app
+:
+longfox
+'
+include
+'
+:
 mozilla
 -
 detekt

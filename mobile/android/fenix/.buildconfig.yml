@@ -5,6 +5,10 @@ app
 upstream_dependencies
 :
 -
+app
+:
+longfox
+-
 components
 :
 browser
@@ -638,6 +642,12 @@ components
 ui
 -
 icons
+-
+components
+:
+ui
+-
+richtext
 -
 components
 :
