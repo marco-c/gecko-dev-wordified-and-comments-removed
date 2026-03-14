@@ -374,7 +374,11 @@ mut
 writer
 common
 .
-prim_size
+prim_rect
+.
+size
+(
+)
 )
 ;
 self
@@ -585,7 +589,11 @@ create_border_segments
 (
 common
 .
-prim_size
+prim_rect
+.
+size
+(
+)
 &
 border
 &
@@ -1049,7 +1057,11 @@ writer
 &
 common
 .
-prim_size
+prim_rect
+.
+size
+(
+)
 )
 ;
 self
@@ -1335,7 +1347,11 @@ create_brush_segments
 (
 common
 .
-prim_size
+prim_rect
+.
+size
+(
+)
 )
 ;
 ImageBorderTemplate
@@ -1554,7 +1570,7 @@ NormalBorderTemplate
 >
 (
 )
-208
+216
 "
 NormalBorderTemplate
 size
@@ -1576,7 +1592,7 @@ NormalBorderKey
 >
 (
 )
-96
+104
 "
 NormalBorderKey
 size
@@ -1620,7 +1636,7 @@ ImageBorderTemplate
 >
 (
 )
-96
+104
 "
 ImageBorderTemplate
 size
@@ -1642,7 +1658,7 @@ ImageBorderKey
 >
 (
 )
-80
+88
 "
 ImageBorderKey
 size
