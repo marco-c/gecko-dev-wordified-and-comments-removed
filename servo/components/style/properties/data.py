@@ -3021,6 +3021,14 @@ BorderSpacing
 "
             
 "
+BoxShadow
+"
+            
+"
+Filter
+"
+            
+"
 FontSize
 "
             
@@ -3057,6 +3065,10 @@ MaxSize
 "
             
 "
+Margin
+"
+            
+"
 NonNegativeLength
 "
             
@@ -3074,6 +3086,10 @@ NonNegativeLengthOrNumberRect
             
 "
 NonNegativeLengthPercentage
+"
+            
+"
+NonNegativeLengthPercentageOrAuto
 "
             
 "
