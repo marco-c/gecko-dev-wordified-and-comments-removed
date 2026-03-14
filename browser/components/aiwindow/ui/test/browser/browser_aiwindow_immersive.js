@@ -328,7 +328,7 @@ false
 }
 )
 ;
-let
+const
 win
 =
 await
@@ -521,10 +521,6 @@ popPrefEnv
 (
 )
 ;
-win
-=
-null
-;
 }
 )
 ;
@@ -607,7 +603,7 @@ false
 }
 )
 ;
-let
+const
 win
 =
 await
@@ -808,10 +804,6 @@ SpecialPowers
 popPrefEnv
 (
 )
-;
-win
-=
-null
 ;
 }
 )
