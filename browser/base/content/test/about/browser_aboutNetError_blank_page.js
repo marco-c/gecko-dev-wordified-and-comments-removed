@@ -344,7 +344,7 @@ titleEl
 =
 card
 .
-netErrorTitleText
+errorTitle
 ;
 }
 else

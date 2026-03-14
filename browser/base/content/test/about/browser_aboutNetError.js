@@ -1153,7 +1153,7 @@ titleEl
 =
 netErrorCard
 .
-certErrorBodyTitle
+errorTitle
 ;
 const
 actualDataL10nID
@@ -1194,7 +1194,7 @@ errorCodeEl
 =
 netErrorCard
 .
-netErrorIntro
+errorIntro
 .
 children
 [
@@ -1472,12 +1472,7 @@ errorNotice
 =
 netErrorCard
 .
-netErrorIntro
-?
-?
-netErrorCard
-.
-certErrorIntro
+errorIntro
 ;
 ok
 (
@@ -1513,11 +1508,6 @@ link
 netErrorCard
 .
 learnMoreLink
-?
-?
-netErrorCard
-.
-netErrorLearnMoreLink
 ;
 return
 (
@@ -1795,11 +1785,6 @@ learnMoreLink
 netErrorCard
 .
 learnMoreLink
-?
-?
-netErrorCard
-.
-netErrorLearnMoreLink
 ;
 return
 learnMoreLink

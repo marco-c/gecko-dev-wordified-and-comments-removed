@@ -490,7 +490,7 @@ equal
 (
 netErrorCard
 .
-certErrorIntro
+errorIntro
 .
 dataset
 .

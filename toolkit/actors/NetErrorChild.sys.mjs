@@ -1026,7 +1026,7 @@ learnMoreLink
 =
 netErrorCard
 .
-netErrorLearnMoreLink
+learnMoreLink
 ;
 if
 (

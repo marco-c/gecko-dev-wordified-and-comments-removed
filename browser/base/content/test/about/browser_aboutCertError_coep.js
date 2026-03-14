@@ -436,7 +436,7 @@ strictEqual
 (
 netErrorCard
 .
-netErrorTitleText
+errorTitle
 .
 dataset
 .
@@ -477,12 +477,12 @@ return
 (
 netErrorCard
 .
-netErrorLearnMoreLink
+learnMoreLink
 &
 &
 netErrorCard
 .
-netErrorLearnMoreLink
+learnMoreLink
 .
 textContent
 !
@@ -493,7 +493,7 @@ textContent
 &
 netErrorCard
 .
-netErrorLearnMoreLink
+learnMoreLink
 .
 tagName
 .
@@ -528,7 +528,7 @@ strictEqual
 (
 netErrorCard
 .
-netErrorLearnMoreLink
+learnMoreLink
 .
 dataset
 .
