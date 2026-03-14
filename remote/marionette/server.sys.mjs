@@ -1876,11 +1876,11 @@ resp
 .
 sendConditionally
 (
-resp
+r
 =
 >
 !
-resp
+r
 .
 sent
 )
@@ -2315,7 +2315,6 @@ if
 Services
 .
 profiler
-?
 .
 IsActive
 (

@@ -231,17 +231,6 @@ extern
 crate
 processtools
 ;
-#
-[
-cfg
-(
-feature
-=
-"
-gecko_profiler
-"
-)
-]
 extern
 crate
 profiler_helper

@@ -658,9 +658,6 @@ jsInitFailureReason
 )
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 JS
 :
 :
@@ -670,8 +667,6 @@ profiler_register_thread
 profiler_unregister_thread
 )
 ;
-#
-endif
 }
 void
 nsXPConnect

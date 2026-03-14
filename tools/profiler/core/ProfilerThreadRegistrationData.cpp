@@ -466,9 +466,6 @@ char
 aMarkerText
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 AUTO_PROFILER_STATS
 (
 js_marker
@@ -512,8 +509,6 @@ aMarkerText
 )
 )
 ;
-#
-endif
 }
 static
 void
@@ -539,9 +534,6 @@ char
 aMarkerText
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 AUTO_PROFILER_STATS
 (
 js_interval
@@ -593,8 +585,6 @@ aMarkerText
 )
 )
 ;
-#
-endif
 }
 static
 void
@@ -613,9 +603,6 @@ uint64_t
 aFlowId
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 !
@@ -671,8 +658,6 @@ aFlowId
 )
 )
 ;
-#
-endif
 }
 static
 void
@@ -691,9 +676,6 @@ uint64_t
 aFlowId
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 !
@@ -749,8 +731,6 @@ aFlowId
 )
 )
 ;
-#
-endif
 }
 static
 void

@@ -3694,9 +3694,6 @@ int32_t
 n
 ;
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 TimeStamp
 startTime
 =
@@ -3720,8 +3717,6 @@ profiler_thread_sleep
 )
 ;
 }
-#
-endif
 n
 =
 PR_Poll
@@ -3731,9 +3726,6 @@ pollCount
 pollTimeout
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 pollTimeout
@@ -3835,8 +3827,6 @@ pollTimeout
 )
 ;
 }
-#
-endif
 }
 SOCKET_LOG
 (
@@ -6717,9 +6707,6 @@ PR_IntervalNow
 (
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 TimeStamp
 startTime
 ;
@@ -6745,8 +6732,6 @@ Now
 )
 ;
 }
-#
-endif
 if
 (
 n
@@ -7075,9 +7060,6 @@ TryRepairPollableEvent
 }
 }
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiling
@@ -7242,8 +7224,6 @@ LongTaskMarker
 ;
 }
 }
-#
-endif
 return
 NS_OK
 ;

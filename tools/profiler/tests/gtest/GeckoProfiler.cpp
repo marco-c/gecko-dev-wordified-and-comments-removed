@@ -165,9 +165,6 @@ h
 #
 endif
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 GeckoProfiler
@@ -341,8 +338,6 @@ include
 <
 set
 >
-#
-endif
 using
 namespace
 mozilla
@@ -821,9 +816,6 @@ name
 TimeStamp
 baseRegistrationTime
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 baseRegistrationTime
 =
 baseprofiler
@@ -836,8 +828,6 @@ GetThreadRegistrationTime
 (
 )
 ;
-#
-endif
 if
 (
 baseRegistrationTime
@@ -1587,7 +1577,6 @@ IsMainThread
 ;
 #
 if
-(
 defined
 (
 _MSC_VER
@@ -1597,13 +1586,6 @@ _MSC_VER
 defined
 (
 __MINGW32__
-)
-)
-&
-&
-defined
-(
-MOZ_GECKO_PROFILER
 )
 HANDLE
 threadHandle
@@ -1660,12 +1642,6 @@ defined
 (
 __APPLE__
 )
-&
-&
-defined
-(
-MOZ_GECKO_PROFILER
-)
 thread_basic_info_data_t
 threadBasicInfo
 ;
@@ -1703,7 +1679,6 @@ basicCount
 ;
 #
 elif
-(
 defined
 (
 __linux__
@@ -1719,14 +1694,6 @@ __ANDROID__
 defined
 (
 __FreeBSD__
-)
-)
-&
-&
-\
-defined
-(
-MOZ_GECKO_PROFILER
 )
 Maybe
 <
@@ -6567,9 +6534,6 @@ otherThreadReads
 )
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 void
 JSONWhitespaceCheck
 (
@@ -6828,7 +6792,6 @@ isNull
 (
 )
 )
-\
 <
 <
 #
@@ -7061,7 +7024,6 @@ isNull
 (
 )
 )
-\
 <
 <
 #
@@ -7187,7 +7149,6 @@ isNull
 (
 )
 )
-\
 <
 <
 #
@@ -7327,7 +7288,6 @@ isNull
 (
 )
 )
-\
 <
 <
 #
@@ -7612,7 +7572,6 @@ isNull
 (
 )
 )
-\
 <
 <
 #
@@ -29889,13 +29848,13 @@ GP_OS_darwin
 )
 |
 |
-\
 defined
 (
 GP_OS_linux
 )
 |
 |
+\
 defined
 (
 GP_OS_android
@@ -30348,13 +30307,13 @@ GP_OS_darwin
 )
 |
 |
-\
 defined
 (
 GP_OS_linux
 )
 |
 |
+\
 defined
 (
 GP_OS_android
@@ -32924,5 +32883,3 @@ profiler_get_profile
 )
 ;
 }
-#
-endif

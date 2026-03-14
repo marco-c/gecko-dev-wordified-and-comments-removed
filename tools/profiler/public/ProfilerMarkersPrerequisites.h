@@ -22,9 +22,6 @@ ProfilerThreadState
 .
 h
 "
-#
-ifdef
-MOZ_GECKO_PROFILER
 namespace
 geckoprofiler
 :
@@ -48,7 +45,5 @@ markers
 NoPayload
 ;
 }
-#
-endif
 #
 endif

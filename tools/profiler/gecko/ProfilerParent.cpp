@@ -6,9 +6,6 @@ ProfilerParent
 h
 "
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 nsProfiler
@@ -22,8 +19,6 @@ platform
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -185,9 +180,6 @@ PProfilerChild
 >
 child
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 Endpoint
 <
 PProfilerParent
@@ -277,15 +269,10 @@ Init
 (
 )
 ;
-#
-endif
 return
 child
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 class
 ProfilerParentTracker
 ;
@@ -3359,8 +3346,6 @@ SendStop
 )
 ;
 }
-#
-endif
 ProfilerParent
 :
 :
@@ -3381,9 +3366,6 @@ NS_IsMainThread
 )
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 ProfilerParentTracker
 :
 :
@@ -3392,12 +3374,7 @@ StopTracking
 this
 )
 ;
-#
-endif
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 nsTArray
 <
 ProfilerParent
@@ -4682,6 +4659,4 @@ mDestroyed
 true
 ;
 }
-#
-endif
 }
