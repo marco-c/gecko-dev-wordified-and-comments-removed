@@ -95,6 +95,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h

@@ -133,6 +133,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsIFormControl
 .
 h

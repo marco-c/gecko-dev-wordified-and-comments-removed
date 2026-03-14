@@ -119,6 +119,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
@@ -807,7 +814,7 @@ anchorScope
 -
 >
 const
-StyleAnchorScope
+StyleScopedName
 *
 {
 const
