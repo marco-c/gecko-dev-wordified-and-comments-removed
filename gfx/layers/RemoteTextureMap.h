@@ -1058,7 +1058,9 @@ gfx
 :
 IntSize
 &
-aSize
+aDestSize
+size_t
+aDestStride
 )
 ;
 UniquePtr
@@ -1333,7 +1335,9 @@ gfx
 :
 IntSize
 &
-aSize
+aDestSize
+size_t
+aDestStride
 )
 ;
 void
