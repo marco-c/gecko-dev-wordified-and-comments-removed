@@ -6106,6 +6106,13 @@ hidden
 return
 ;
 }
+this
+.
+#
+clearTranslationRequestTelemetryThrottle
+(
+)
+;
 targetSection
 .
 classList
