@@ -2667,8 +2667,6 @@ InstructionBits
 kRvcOpcodeMask
 ;
 }
-else
-{
 return
 InstructionBits
 (
@@ -2676,7 +2674,6 @@ InstructionBits
 &
 kBaseOpcodeMask
 ;
-}
 }
 Type
 InstructionType
@@ -3747,8 +3744,6 @@ kPredOrderShift
 )
 ;
 }
-else
-{
 return
 this
 -
@@ -3763,7 +3758,6 @@ kMemOrderBits
 kSuccOrderShift
 )
 ;
-}
 }
 inline
 int
@@ -5258,10 +5252,12 @@ kBaseOpcodeMask
 =
 STORE_FP
 )
+{
 return
 -
 1
 ;
+}
 switch
 (
 this

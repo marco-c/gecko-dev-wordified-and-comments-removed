@@ -1731,8 +1731,6 @@ get_pc
 )
 ;
 }
-else
-{
 return
 sim_
 -
@@ -1742,7 +1740,6 @@ getRegister
 regnum
 )
 ;
-}
 }
 int64_t
 RiscvDebugger
@@ -1777,8 +1774,6 @@ get_pc
 )
 ;
 }
-else
-{
 return
 sim_
 -
@@ -1788,7 +1783,6 @@ getFpuRegister
 regnum
 )
 ;
-}
 }
 float
 RiscvDebugger
@@ -1823,8 +1817,6 @@ get_pc
 )
 ;
 }
-else
-{
 return
 sim_
 -
@@ -1834,7 +1826,6 @@ getFpuRegisterFloat
 regnum
 )
 ;
-}
 }
 double
 RiscvDebugger
@@ -1869,8 +1860,6 @@ get_pc
 )
 ;
 }
-else
-{
 return
 sim_
 -
@@ -1880,7 +1869,6 @@ getFpuRegisterDouble
 regnum
 )
 ;
-}
 }
 #
 ifdef
@@ -1987,7 +1975,6 @@ return
 true
 ;
 }
-else
 if
 (
 fpuregnum
@@ -2011,7 +1998,6 @@ return
 true
 ;
 }
-else
 if
 (
 strncmp
@@ -2051,8 +2037,6 @@ value
 1
 ;
 }
-else
-{
 return
 sscanf
 (
@@ -2074,7 +2058,6 @@ value
 =
 1
 ;
-}
 }
 #
 define
@@ -2604,6 +2587,7 @@ i
 =
 2
 )
+{
 printf
 (
 "
@@ -2650,6 +2634,7 @@ i
 )
 )
 ;
+}
 #
 undef
 FPU_REG_INFO
@@ -2894,8 +2879,6 @@ nullptr
 break
 ;
 }
-else
-{
 char
 *
 last_input
@@ -5755,7 +5738,6 @@ n
 cmd
 )
 ;
-}
 }
 }
 #
@@ -12111,7 +12093,6 @@ n
 return
 ;
 }
-else
 if
 (
 code
@@ -15574,8 +15555,6 @@ return
 max_i
 ;
 }
-else
-{
 MOZ_ASSERT
 (
 original
@@ -15599,7 +15578,6 @@ infinity
 return
 min_i
 ;
-}
 }
 F_TYPE
 rounded
@@ -15671,8 +15649,6 @@ return
 max_i
 ;
 }
-else
-{
 MOZ_ASSERT
 (
 rounded
@@ -15696,7 +15672,6 @@ infinity
 return
 min_i
 ;
-}
 }
 float
 max_i_plus_1
@@ -18470,14 +18445,11 @@ quiet_NaN
 )
 ;
 }
-else
-{
 return
 frs1
 +
 frs2
 ;
-}
 }
 ;
 set_frd
@@ -18543,14 +18515,11 @@ quiet_NaN
 )
 ;
 }
-else
-{
 return
 frs1
 -
 frs2
 ;
-}
 }
 ;
 set_frd
@@ -18616,14 +18585,11 @@ quiet_NaN
 )
 ;
 }
-else
-{
 return
 frs1
 *
 frs2
 ;
-}
 }
 ;
 set_frd
@@ -18689,7 +18655,6 @@ quiet_NaN
 )
 ;
 }
-else
 if
 (
 frs2
@@ -18756,14 +18721,11 @@ infinity
 )
 ;
 }
-else
-{
 return
 frs1
 /
 frs2
 ;
-}
 }
 ;
 set_frd
@@ -18838,8 +18800,6 @@ quiet_NaN
 )
 ;
 }
-else
-{
 return
 std
 :
@@ -18849,7 +18809,6 @@ sqrt
 frs
 )
 ;
-}
 }
 ;
 set_frd
@@ -19559,14 +19518,11 @@ quiet_NaN
 )
 ;
 }
-else
-{
 return
 drs1
 +
 drs2
 ;
-}
 }
 ;
 set_drd
@@ -19632,14 +19588,11 @@ quiet_NaN
 )
 ;
 }
-else
-{
 return
 drs1
 -
 drs2
 ;
-}
 }
 ;
 set_drd
@@ -19705,14 +19658,11 @@ quiet_NaN
 )
 ;
 }
-else
-{
 return
 drs1
 *
 drs2
 ;
-}
 }
 ;
 set_drd
@@ -19778,7 +19728,6 @@ quiet_NaN
 )
 ;
 }
-else
 if
 (
 drs2
@@ -19845,14 +19794,11 @@ infinity
 )
 ;
 }
-else
-{
 return
 drs1
 /
 drs2
 ;
-}
 }
 ;
 set_drd
@@ -19927,8 +19873,6 @@ quiet_NaN
 )
 ;
 }
-else
-{
 return
 std
 :
@@ -19938,7 +19882,6 @@ sqrt
 drs
 )
 ;
-}
 }
 ;
 set_drd
@@ -20793,8 +20736,6 @@ quiet_NaN
 )
 ;
 }
-else
-{
 return
 std
 :
@@ -20806,7 +20747,6 @@ frs2
 frs3
 )
 ;
-}
 }
 ;
 set_frd
@@ -20883,8 +20823,6 @@ quiet_NaN
 )
 ;
 }
-else
-{
 return
 std
 :
@@ -20897,7 +20835,6 @@ frs2
 frs3
 )
 ;
-}
 }
 ;
 set_frd
@@ -20974,8 +20911,6 @@ quiet_NaN
 )
 ;
 }
-else
-{
 return
 -
 std
@@ -20989,7 +20924,6 @@ frs2
 frs3
 )
 ;
-}
 }
 ;
 set_frd
@@ -21066,8 +21000,6 @@ quiet_NaN
 )
 ;
 }
-else
-{
 return
 -
 std
@@ -21080,7 +21012,6 @@ frs2
 frs3
 )
 ;
-}
 }
 ;
 set_frd
@@ -21157,8 +21088,6 @@ quiet_NaN
 )
 ;
 }
-else
-{
 return
 std
 :
@@ -21170,7 +21099,6 @@ drs2
 drs3
 )
 ;
-}
 }
 ;
 set_drd
@@ -21247,8 +21175,6 @@ quiet_NaN
 )
 ;
 }
-else
-{
 return
 std
 :
@@ -21261,7 +21187,6 @@ drs2
 drs3
 )
 ;
-}
 }
 ;
 set_drd
@@ -21338,8 +21263,6 @@ quiet_NaN
 )
 ;
 }
-else
-{
 return
 -
 std
@@ -21353,7 +21276,6 @@ drs2
 drs3
 )
 ;
-}
 }
 ;
 set_drd
@@ -21430,8 +21352,6 @@ quiet_NaN
 )
 ;
 }
-else
-{
 return
 -
 std
@@ -21444,7 +21364,6 @@ drs2
 drs3
 )
 ;
-}
 }
 ;
 set_drd
@@ -25513,9 +25432,12 @@ RvcRdValue
 =
 0
 )
+{
 break
 ;
+}
 else
+{
 set_rvc_rd
 (
 sext_xlen
@@ -25530,6 +25452,7 @@ rvc_imm6
 )
 )
 ;
+}
 break
 ;
 #

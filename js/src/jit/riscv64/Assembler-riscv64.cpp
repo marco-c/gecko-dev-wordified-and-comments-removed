@@ -986,15 +986,12 @@ is_get_temp_reg
 )
 ;
 }
-else
-{
 return
 RecursiveLiCount
 (
 imm
 )
 ;
-}
 }
 void
 Assembler
@@ -1084,8 +1081,6 @@ low_12
 return
 ;
 }
-else
-{
 UseScratchRegisterScope
 temps
 (
@@ -1669,7 +1664,6 @@ shift_val
 ;
 }
 }
-}
 int
 Assembler
 :
@@ -1753,8 +1747,6 @@ return
 count
 ;
 }
-else
-{
 int64_t
 up_32
 =
@@ -2154,7 +2146,6 @@ count
 ;
 break
 ;
-}
 }
 }
 return

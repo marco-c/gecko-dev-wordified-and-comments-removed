@@ -11943,6 +11943,7 @@ TimesOne
 ;
 }
 else
+{
 masm
 .
 storeDouble
@@ -11959,6 +11960,7 @@ TimesOne
 )
 )
 ;
+}
 }
 else
 {
