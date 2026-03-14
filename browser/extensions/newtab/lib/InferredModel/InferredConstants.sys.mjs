@@ -265,7 +265,7 @@ parenting
 features
 :
 {
-parenting
+t_parenting
 :
 1
 }
@@ -296,7 +296,7 @@ arts
 features
 :
 {
-arts
+t_arts
 :
 1
 }
@@ -327,7 +327,7 @@ health
 features
 :
 {
-arts
+t_health
 :
 1
 }
@@ -358,7 +358,7 @@ sports
 features
 :
 {
-sports
+t_sports
 :
 1
 }
@@ -389,7 +389,7 @@ society
 features
 :
 {
-society
+t_society
 :
 1
 }
@@ -420,7 +420,7 @@ education
 features
 :
 {
-education
+t_education
 :
 1
 }
@@ -451,7 +451,7 @@ government
 features
 :
 {
-government
+t_government
 :
 1
 }
