@@ -440,6 +440,13 @@ js
 ]
 [
 "
+browser_about_translations_telemetry_unsupported_language_message
+.
+js
+"
+]
+[
+"
 browser_about_translations_translate_error
 .
 js
