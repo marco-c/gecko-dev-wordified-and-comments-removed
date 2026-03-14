@@ -151,7 +151,11 @@ object
 inspector
 .
 lessen
-*
+:
+not
+(
+button
+)
 .
 tree
 .
@@ -429,7 +433,9 @@ devtools
 /
 content
 /
-debugger
+shared
+/
+components
 /
 images
 /
