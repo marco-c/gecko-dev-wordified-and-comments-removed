@@ -309,7 +309,7 @@ x86_64
 #
 define
 SPOOFED_MAX_TOUCH_POINTS
-0
+5
 #
 endif
 #

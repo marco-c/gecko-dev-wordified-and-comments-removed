@@ -84,6 +84,14 @@ navigatorObj
 .
 hardwareConcurrency
 ;
+result
+.
+maxTouchPoints
+=
+navigatorObj
+.
+maxTouchPoints
+;
 port
 .
 postMessage
