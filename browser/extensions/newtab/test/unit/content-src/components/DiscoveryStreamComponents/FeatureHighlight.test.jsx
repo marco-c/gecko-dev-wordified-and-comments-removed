@@ -158,7 +158,10 @@ feature
 highlight
 -
 modal
-p
+.
+content
+-
+wrapper
 "
 )
 .
@@ -182,7 +185,10 @@ feature
 highlight
 -
 modal
-p
+.
+content
+-
+wrapper
 "
 )
 .

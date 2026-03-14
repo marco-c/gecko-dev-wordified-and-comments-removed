@@ -920,6 +920,8 @@ browser
 addContentHelpers
 )
 ;
+try
+{
 await
 BrowserTestUtils
 .
@@ -950,6 +952,7 @@ getElementById
 root
 "
 )
+?
 .
 children
 .
@@ -964,8 +967,6 @@ content
 "
 )
 ;
-try
-{
 let
 contentArg
 =
