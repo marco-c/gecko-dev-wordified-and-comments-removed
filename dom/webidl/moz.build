@@ -4128,11 +4128,6 @@ Highlight
 webidl
 "
 "
-HighlightRegistry
-.
-webidl
-"
-"
 History
 .
 webidl
