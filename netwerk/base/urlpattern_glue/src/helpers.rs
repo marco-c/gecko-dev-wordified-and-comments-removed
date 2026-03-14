@@ -273,10 +273,7 @@ parse_constructor_string
 :
 :
 <
-regex
-:
-:
-Regex
+SpiderMonkeyRegexp
 >
 (
 &
