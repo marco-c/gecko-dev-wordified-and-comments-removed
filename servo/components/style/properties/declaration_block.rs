@@ -2689,7 +2689,7 @@ importance
 }
 pub
 fn
-property_value_to_typed
+property_value_to_typed_value
 (
 &
 self
@@ -2791,7 +2791,7 @@ Ok
 (
 value
 .
-to_typed
+to_typed_value
 (
 )
 )

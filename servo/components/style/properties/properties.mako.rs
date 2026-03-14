@@ -1743,7 +1743,7 @@ endfor
 }
 pub
 fn
-to_typed
+to_typed_value
 (
 &
 self
@@ -1827,7 +1827,7 @@ vs
 {
 value
 .
-to_typed
+to_typed_value
 (
 )
 }
@@ -10531,7 +10531,7 @@ debug_unreachable
 ;
 value
 .
-to_typed
+to_typed_value
 (
 )
 }
