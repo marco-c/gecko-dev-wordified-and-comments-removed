@@ -8299,7 +8299,7 @@ UniFFIScaffolding
 .
 callSync
 (
-72
+69
 /
 /
 uniffi_remote_settings_fn_constructor_remotesettings_new
@@ -8391,7 +8391,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-73
+70
 /
 /
 uniffi_remote_settings_fn_method_remotesettings_download_attachment_to_path
@@ -8474,7 +8474,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-74
+71
 /
 /
 uniffi_remote_settings_fn_method_remotesettings_get_records
@@ -8570,7 +8570,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-75
+72
 /
 /
 uniffi_remote_settings_fn_method_remotesettings_get_records_since
@@ -10192,7 +10192,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-76
+73
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_collection_name
@@ -10347,7 +10347,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-77
+74
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_get_attachment
@@ -10623,7 +10623,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-78
+75
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_get_records
@@ -10743,7 +10743,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-79
+76
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_get_records_map
@@ -10806,7 +10806,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-80
+77
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_shutdown
@@ -10850,7 +10850,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-81
+78
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_sync
@@ -11895,7 +11895,7 @@ UniFFIScaffolding
 .
 callSync
 (
-82
+79
 /
 /
 uniffi_remote_settings_fn_constructor_remotesettingsservice_new
@@ -11950,7 +11950,7 @@ UniFFIScaffolding
 .
 callSync
 (
-83
+80
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsservice_client_url
@@ -12050,7 +12050,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-84
+81
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsservice_make_client
@@ -12140,7 +12140,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-85
+82
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsservice_sync
@@ -12269,7 +12269,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-86
+83
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsservice_update_config
