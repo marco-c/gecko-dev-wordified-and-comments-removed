@@ -150,7 +150,7 @@ StartupCache
 gStartupCache
 -
 >
-mWrittenOnce
+mRegularWriteDone
 ;
 }
 return
