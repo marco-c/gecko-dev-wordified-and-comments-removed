@@ -335,6 +335,10 @@ is_dir
                 
 jj_repo
 =
+jj_repo
+.
+parent
+/
 Path
 (
 jj_repo
