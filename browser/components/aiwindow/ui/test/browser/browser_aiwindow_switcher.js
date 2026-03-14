@@ -3285,6 +3285,12 @@ example
 .
 com
 |
+www
+.
+example
+.
+com
+|
 https
 :
 /
