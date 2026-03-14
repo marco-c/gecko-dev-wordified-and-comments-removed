@@ -834,13 +834,6 @@ kill
 -
 safari
 \
--
--
-max
--
-restarts
-100
-\
 {
 {
 inputs
