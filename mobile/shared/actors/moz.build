@@ -198,13 +198,6 @@ sys
 mjs
 "
 "
-GeckoViewPushParent
-.
-sys
-.
-mjs
-"
-"
 GeckoViewSettingsChild
 .
 sys
