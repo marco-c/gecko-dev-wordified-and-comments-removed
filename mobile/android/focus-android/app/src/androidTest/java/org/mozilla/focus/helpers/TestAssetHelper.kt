@@ -79,9 +79,7 @@ net
 .
 toUri
 import
-okhttp3
-.
-mockwebserver
+mockwebserver3
 .
 MockWebServer
 /

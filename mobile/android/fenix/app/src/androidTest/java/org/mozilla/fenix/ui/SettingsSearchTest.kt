@@ -95,9 +95,7 @@ filters
 .
 SdkSuppress
 import
-okhttp3
-.
-mockwebserver
+mockwebserver3
 .
 MockWebServer
 import
@@ -477,7 +475,7 @@ tearDown
 )
 searchMockServer
 .
-shutdown
+close
 (
 )
 }

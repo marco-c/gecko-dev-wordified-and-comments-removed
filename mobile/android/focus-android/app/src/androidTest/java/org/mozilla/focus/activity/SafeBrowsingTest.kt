@@ -65,9 +65,7 @@ focus
 .
 activity
 import
-okhttp3
-.
-mockwebserver
+mockwebserver3
 .
 MockWebServer
 import
@@ -374,7 +372,7 @@ tearDown
 {
 webServer
 .
-shutdown
+close
 (
 )
 featureSettingsHelper

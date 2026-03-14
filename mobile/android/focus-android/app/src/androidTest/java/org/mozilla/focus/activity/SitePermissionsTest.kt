@@ -107,6 +107,10 @@ coroutines
 .
 runBlocking
 import
+mockwebserver3
+.
+MockWebServer
+import
 mozilla
 .
 components
@@ -118,12 +122,6 @@ ktx
 util
 .
 PromptAbuserDetector
-import
-okhttp3
-.
-mockwebserver
-.
-MockWebServer
 import
 org
 .
@@ -515,7 +513,7 @@ tearDown
 {
 webServer
 .
-shutdown
+close
 (
 )
 featureSettingsHelper

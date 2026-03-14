@@ -93,6 +93,10 @@ coroutines
 .
 runBlocking
 import
+mockwebserver3
+.
+MockWebServer
+import
 mozilla
 .
 appservices
@@ -214,12 +218,6 @@ tab
 collections
 .
 TabCollectionStorage
-import
-okhttp3
-.
-mockwebserver
-.
-MockWebServer
 import
 org
 .

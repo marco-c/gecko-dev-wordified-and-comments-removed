@@ -125,6 +125,10 @@ filters
 .
 SdkSuppress
 import
+mockwebserver3
+.
+MockWebServer
+import
 mozilla
 .
 components
@@ -134,12 +138,6 @@ feature
 sitepermissions
 .
 SitePermissionsRules
-import
-okhttp3
-.
-mockwebserver
-.
-MockWebServer
 import
 org
 .
@@ -812,7 +810,7 @@ tearDown
 )
 searchMockServer
 .
-shutdown
+close
 (
 )
 }

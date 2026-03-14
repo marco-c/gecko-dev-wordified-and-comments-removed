@@ -95,6 +95,10 @@ coroutines
 .
 runBlocking
 import
+mockwebserver3
+.
+MockWebServer
+import
 mozilla
 .
 components
@@ -106,12 +110,6 @@ state
 store
 .
 BrowserStore
-import
-okhttp3
-.
-mockwebserver
-.
-MockWebServer
 import
 org
 .
@@ -830,7 +828,7 @@ mockWebServer
 )
 mockWebServer
 .
-shutdown
+close
 (
 )
 mockWebServer

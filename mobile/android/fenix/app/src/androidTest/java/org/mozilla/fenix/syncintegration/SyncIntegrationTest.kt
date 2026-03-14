@@ -179,9 +179,7 @@ uiautomator
 .
 Until
 import
-okhttp3
-.
-mockwebserver
+mockwebserver3
 .
 MockWebServer
 import
@@ -394,7 +392,7 @@ tearDown
 {
 mockWebServer
 .
-shutdown
+close
 (
 )
 }

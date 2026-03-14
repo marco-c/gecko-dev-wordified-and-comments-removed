@@ -77,9 +77,7 @@ junit4
 .
 AndroidJUnit4ClassRunner
 import
-okhttp3
-.
-mockwebserver
+mockwebserver3
 .
 MockWebServer
 import
@@ -294,7 +292,7 @@ try
 {
 webServer
 .
-shutdown
+close
 (
 )
 }

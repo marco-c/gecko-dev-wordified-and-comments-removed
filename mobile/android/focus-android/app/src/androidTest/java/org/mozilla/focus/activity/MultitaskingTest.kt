@@ -87,6 +87,10 @@ app
 .
 InstrumentationRegistry
 import
+mockwebserver3
+.
+MockWebServer
+import
 mozilla
 .
 components
@@ -98,12 +102,6 @@ state
 selector
 .
 privateTabs
-import
-okhttp3
-.
-mockwebserver
-.
-MockWebServer
 import
 org
 .
@@ -463,7 +461,7 @@ tearDown
 {
 webServer
 .
-shutdown
+close
 (
 )
 featureSettingsHelper

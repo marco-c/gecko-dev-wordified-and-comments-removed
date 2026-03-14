@@ -77,6 +77,10 @@ junit4
 .
 AndroidJUnit4ClassRunner
 import
+mockwebserver3
+.
+MockWebServer
+import
 mozilla
 .
 components
@@ -88,12 +92,6 @@ engine
 utils
 .
 EngineReleaseChannel
-import
-okhttp3
-.
-mockwebserver
-.
-MockWebServer
 import
 org
 .
@@ -379,7 +377,7 @@ resetAllFeatureFlags
 )
 webServer
 .
-shutdown
+close
 (
 )
 }
