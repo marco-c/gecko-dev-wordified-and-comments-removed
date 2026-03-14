@@ -217,11 +217,6 @@ Length
 )
 ;
 }
-bool
-HasAliveIdleConnection
-(
-)
-;
 void
 InsertIntoIdleConnections
 (
