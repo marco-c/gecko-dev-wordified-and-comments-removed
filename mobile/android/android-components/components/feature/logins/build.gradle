@@ -356,6 +356,10 @@ androidx
 test
 .
 runner
+androidTestRuntimeOnly
+libs
+.
+okhttp
 }
 apply
 from

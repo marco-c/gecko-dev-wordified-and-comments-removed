@@ -514,6 +514,10 @@ kotlinx
 coroutines
 .
 test
+androidTestRuntimeOnly
+libs
+.
+okhttp
 }
 apply
 from

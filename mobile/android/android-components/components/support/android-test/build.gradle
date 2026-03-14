@@ -105,6 +105,10 @@ test
 }
 dependencies
 {
+api
+libs
+.
+mockwebserver
 implementation
 libs
 .
@@ -142,11 +146,11 @@ instrumentation
 implementation
 libs
 .
-mockwebserver
+okhttp
 implementation
 libs
 .
-okhttp
+okio
 }
 apply
 from
