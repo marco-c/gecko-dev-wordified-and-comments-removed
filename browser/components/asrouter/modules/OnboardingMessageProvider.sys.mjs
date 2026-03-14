@@ -821,6 +821,11 @@ flow
 "
 row
 "
+telemetryId
+:
+"
+primary_button
+"
 action
 :
 {
@@ -936,6 +941,11 @@ flow
 :
 "
 row
+"
+telemetryId
+:
+"
+secondary_button
 "
 action
 :
