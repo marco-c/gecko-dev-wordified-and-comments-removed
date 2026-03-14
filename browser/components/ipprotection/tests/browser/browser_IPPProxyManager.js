@@ -784,6 +784,12 @@ openPanel
 (
 )
 ;
+IPPProxyManager
+.
+refreshUsage
+(
+)
+;
 await
 waitForProxyState
 (
@@ -951,6 +957,12 @@ content
 =
 await
 openPanel
+(
+)
+;
+IPPProxyManager
+.
+refreshUsage
 (
 )
 ;

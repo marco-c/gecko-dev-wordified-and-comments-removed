@@ -3194,7 +3194,7 @@ token
 /
 /
 Rotate
-10
+2
 Minutes
 from
 the
@@ -3212,7 +3212,7 @@ from
 {
 minutes
 :
-10
+2
 }
 )
 ;
