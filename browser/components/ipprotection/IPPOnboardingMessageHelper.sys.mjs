@@ -488,6 +488,15 @@ topic
 data
 )
 {
+if
+(
+!
+subject
+)
+{
+return
+;
+}
 let
 permission
 =
