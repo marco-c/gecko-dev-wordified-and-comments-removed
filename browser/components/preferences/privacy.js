@@ -2600,9 +2600,8 @@ emitChange
 const
 now
 =
+new
 Date
-.
-now
 (
 )
 ;
@@ -2613,6 +2612,10 @@ new
 Date
 (
 now
+.
+getTime
+(
+)
 -
 30
 *
@@ -2635,8 +2638,8 @@ TrackingDBService
 .
 getEventsByDateRange
 (
-now
 aMonthAgo
+now
 )
 ;
 const
