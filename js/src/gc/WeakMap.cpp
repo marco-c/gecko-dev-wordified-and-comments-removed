@@ -126,7 +126,7 @@ gcSystemWeakMaps
 (
 )
 .
-insertFront
+pushFront
 (
 this
 )
@@ -141,7 +141,7 @@ gcUserWeakMaps
 (
 )
 .
-insertFront
+pushFront
 (
 this
 )
@@ -1135,13 +1135,12 @@ clearAndCompact
 )
 ;
 }
-m
+list
 -
 >
-removeFrom
+remove
 (
-*
-list
+m
 )
 ;
 }

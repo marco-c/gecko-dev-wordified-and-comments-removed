@@ -16,9 +16,9 @@ h
 #
 include
 "
-mozilla
+ds
 /
-LinkedList
+SlimLinkedList
 .
 h
 "
@@ -314,10 +314,7 @@ class
 WeakMapBase
 :
 public
-mozilla
-:
-:
-LinkedListElement
+SlimLinkedListElement
 <
 WeakMapBase
 >
