@@ -615,6 +615,17 @@ ShouldBypassCache
 )
 const
 ;
+#
+ifdef
+NIGHTLY_BUILD
+bool
+WAICTHandlesScripts
+(
+)
+const
+;
+#
+endif
 template
 <
 typename
