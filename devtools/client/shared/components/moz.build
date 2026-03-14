@@ -39,6 +39,11 @@ AppErrorBoundary
 js
 "
 "
+FileSearchBar
+.
+js
+"
+"
 Frame
 .
 js
