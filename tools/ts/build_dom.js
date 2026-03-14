@@ -92,6 +92,16 @@ CSSStyleProperties
 .
 webidl
 "
+"
+CSSFontFaceDescriptors
+.
+webidl
+"
+"
+CSSCounterStyleRule
+.
+webidl
+"
 ]
 ;
 const
