@@ -719,6 +719,13 @@ move
 (
 deps
 )
+gfx
+:
+:
+CrossProcessPaintFlags
+:
+:
+ForPrinting
 )
 -
 >
