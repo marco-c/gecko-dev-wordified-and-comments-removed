@@ -6511,7 +6511,7 @@ aCSP
 auto
 ctx
 =
-WorkerCSPContext
+OffThreadCSPContext
 :
 :
 CreateFromCSP
@@ -6822,7 +6822,7 @@ csp
 auto
 ctx
 =
-WorkerCSPContext
+OffThreadCSPContext
 :
 :
 CreateFromCSP

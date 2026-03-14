@@ -2721,7 +2721,7 @@ true
 }
 if
 (
-WorkerCSPContext
+OffThreadCSPContext
 *
 ctx
 =
@@ -2756,7 +2756,7 @@ else
 {
 if
 (
-WorkerCSPContext
+OffThreadCSPContext
 *
 ctx
 =

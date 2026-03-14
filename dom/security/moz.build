@@ -136,6 +136,11 @@ nsMixedContentBlocker
 h
 "
 "
+OffThreadCSPContext
+.
+h
+"
+"
 PolicyContainer
 .
 h
@@ -287,6 +292,11 @@ cpp
 "
 "
 nsMixedContentBlocker
+.
+cpp
+"
+"
+OffThreadCSPContext
 .
 cpp
 "

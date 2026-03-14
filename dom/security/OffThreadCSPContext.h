@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_workers_WorkerCSPContext_h_
+mozilla_dom_OffThreadCSPContext_h_
 #
 define
-mozilla_dom_workers_WorkerCSPContext_h_
+mozilla_dom_OffThreadCSPContext_h_
 #
 include
 "
@@ -61,13 +61,13 @@ mozilla
 dom
 {
 class
-WorkerCSPContext
+OffThreadCSPContext
 final
 {
 public
 :
 explicit
-WorkerCSPContext
+OffThreadCSPContext
 (
 mozilla
 :
@@ -92,7 +92,7 @@ Result
 <
 UniquePtr
 <
-WorkerCSPContext
+OffThreadCSPContext
 >
 nsresult
 >
