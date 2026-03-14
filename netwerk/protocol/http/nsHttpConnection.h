@@ -289,6 +289,11 @@ mKeepAlive
 )
 ;
 }
+bool
+CanReuseLikely
+(
+)
+;
 uint32_t
 TimeToLive
 (
