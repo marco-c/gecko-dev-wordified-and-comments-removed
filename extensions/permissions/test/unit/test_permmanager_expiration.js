@@ -108,6 +108,8 @@ pm
 .
 EXPIRE_TIME
 now
+-
+10
 )
 ;
 pm
@@ -129,6 +131,8 @@ pm
 .
 EXPIRE_SESSION
 now
+-
+10
 )
 ;
 pm
