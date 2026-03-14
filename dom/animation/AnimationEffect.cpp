@@ -1966,6 +1966,12 @@ GetTimeline
 >
 TimelineDuration
 (
+mAnimation
+-
+>
+GetTimelineRange
+(
+)
 )
 .
 Value
