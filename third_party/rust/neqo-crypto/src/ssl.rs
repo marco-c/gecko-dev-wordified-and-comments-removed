@@ -73,8 +73,8 @@ err
 :
 :
 {
-secstatus_to_res
 Res
+secstatus_to_res
 }
 }
 ;

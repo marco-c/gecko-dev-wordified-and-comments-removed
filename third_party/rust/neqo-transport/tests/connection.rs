@@ -34,10 +34,10 @@ neqo_transport
 CloseReason
 ConnectionParameters
 Error
+MIN_INITIAL_PACKET_SIZE
 State
 StreamType
 Version
-MIN_INITIAL_PACKET_SIZE
 }
 ;
 use
@@ -45,6 +45,8 @@ test_fixture
 :
 :
 {
+CountingConnectionIdGenerator
+DEFAULT_ALPN
 default_client
 default_server
 header_protection
@@ -59,8 +61,6 @@ new_client
 new_server
 now
 split_datagram
-CountingConnectionIdGenerator
-DEFAULT_ALPN
 }
 ;
 #

@@ -12,10 +12,10 @@ neqo_common
 :
 :
 {
-qdebug
 Buffer
 Decoder
 Encoder
+qdebug
 }
 ;
 use
@@ -727,8 +727,8 @@ settings_type
 )
 =
 t
-{
-if
+&
+&
 H3_RESERVED_SETTINGS
 .
 contains
@@ -746,7 +746,6 @@ Error
 HttpSettings
 )
 ;
-}
 }
 match
 (

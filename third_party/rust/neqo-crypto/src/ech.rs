@@ -41,12 +41,12 @@ err
 :
 :
 {
+Error
+Res
 ssl
 :
 :
 SSL_ERROR_ECH_RETRY_WITH_ECH
-Error
-Res
 }
 experimental_api
 null_safe_slice

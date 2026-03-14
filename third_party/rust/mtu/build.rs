@@ -63,11 +63,11 @@ mozbuild
 :
 :
 {
+TOPOBJDIR
 config
 :
 :
 BINDGEN_SYSTEM_FLAGS
-TOPOBJDIR
 }
 ;
 let

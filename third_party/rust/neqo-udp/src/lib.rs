@@ -67,8 +67,8 @@ log
 :
 :
 {
-log_enabled
 Level
+log_enabled
 }
 ;
 use
@@ -76,11 +76,11 @@ neqo_common
 :
 :
 {
+Datagram
+Tos
 datagram
 qdebug
 qtrace
-Datagram
-Tos
 }
 ;
 use

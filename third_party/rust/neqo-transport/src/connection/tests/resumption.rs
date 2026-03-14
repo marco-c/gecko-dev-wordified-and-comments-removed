@@ -61,6 +61,7 @@ super
 :
 :
 {
+AT_LEAST_PTO
 connect
 connect_with_rtt
 default_client
@@ -70,7 +71,6 @@ get_tokens
 new_client
 resumed_server
 send_something
-AT_LEAST_PTO
 }
 ;
 use
@@ -78,6 +78,12 @@ crate
 :
 :
 {
+ConnectionParameters
+DEFAULT_INITIAL_RTT
+Error
+MIN_INITIAL_PACKET_SIZE
+State
+Version
 addr_valid
 :
 :
@@ -89,12 +95,6 @@ frame
 :
 :
 FrameType
-ConnectionParameters
-Error
-State
-Version
-DEFAULT_INITIAL_RTT
-MIN_INITIAL_PACKET_SIZE
 }
 ;
 #

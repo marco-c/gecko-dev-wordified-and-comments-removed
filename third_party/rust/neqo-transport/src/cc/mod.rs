@@ -39,6 +39,7 @@ crate
 :
 :
 {
+Pmtud
 recovery
 :
 :
@@ -51,7 +52,6 @@ stats
 :
 :
 CongestionControlStats
-Pmtud
 }
 ;
 mod
@@ -62,13 +62,6 @@ cubic
 ;
 mod
 new_reno
-;
-pub
-use
-classic_cc
-:
-:
-ClassicCongestionControl
 ;
 #
 [
@@ -83,6 +76,13 @@ classic_cc
 :
 :
 CWND_INITIAL_PKTS
+;
+pub
+use
+classic_cc
+:
+:
+ClassicCongestionControl
 ;
 pub
 use

@@ -10017,6 +10017,12 @@ as_slice
 (
 )
 None
+Instant
+:
+:
+now
+(
+)
 )
 .
 unwrap

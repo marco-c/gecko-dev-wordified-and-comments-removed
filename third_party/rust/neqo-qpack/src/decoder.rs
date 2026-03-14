@@ -16,9 +16,9 @@ neqo_common
 :
 :
 {
-qdebug
 Encoder
 Header
+qdebug
 }
 ;
 use
@@ -35,6 +35,9 @@ crate
 :
 :
 {
+Error
+Res
+Settings
 decoder_instructions
 :
 :
@@ -69,9 +72,6 @@ table
 :
 :
 HeaderTable
-Error
-Res
-Settings
 }
 ;
 pub

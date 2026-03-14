@@ -22,6 +22,8 @@ neqo_common
 :
 :
 {
+Bytes
+Header
 event
 :
 :
@@ -29,8 +31,6 @@ Provider
 as
 EventProvider
 qtrace
-Bytes
-Header
 }
 ;
 use
@@ -54,6 +54,14 @@ crate
 :
 :
 {
+CloseType
+Error
+Http3StreamInfo
+HttpRecvStreamEvents
+PushId
+RecvStreamEvents
+Res
+SendStreamEvents
 connection
 :
 :
@@ -73,14 +81,6 @@ settings
 :
 :
 HSettingType
-CloseType
-Error
-Http3StreamInfo
-HttpRecvStreamEvents
-PushId
-RecvStreamEvents
-Res
-SendStreamEvents
 }
 ;
 #

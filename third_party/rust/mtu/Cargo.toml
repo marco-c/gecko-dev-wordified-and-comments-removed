@@ -100,7 +100,7 @@ package
 edition
 =
 "
-2021
+2024
 "
 rust
 -
@@ -109,7 +109,7 @@ version
 "
 1
 .
-87
+90
 .
 0
 "
@@ -706,6 +706,11 @@ rc_buffer
 warn
 "
 rc_mutex
+=
+"
+warn
+"
+redundant_test_prefix
 =
 "
 warn

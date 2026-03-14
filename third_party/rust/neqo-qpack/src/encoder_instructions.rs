@@ -28,6 +28,7 @@ crate
 :
 :
 {
+Res
 prefix
 :
 :
@@ -52,7 +53,6 @@ LiteralReader
 ReadByte
 Reader
 }
-Res
 }
 ;
 #
@@ -1677,6 +1677,7 @@ crate
 :
 :
 {
+Error
 reader
 :
 :
@@ -1684,7 +1685,6 @@ test_receiver
 :
 :
 TestReceiver
-Error
 }
 ;
 fn

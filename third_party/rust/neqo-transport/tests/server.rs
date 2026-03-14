@@ -42,11 +42,11 @@ neqo_common
 :
 :
 {
-qtrace
 Datagram
 Decoder
 Encoder
 Role
+qtrace
 }
 ;
 use
@@ -54,7 +54,6 @@ neqo_crypto
 :
 :
 {
-generate_ech_keys
 AeadTrait
 as
 _
@@ -62,6 +61,7 @@ AllowZeroRtt
 AuthenticationStatus
 ZeroRttCheckResult
 ZeroRttChecker
+generate_ech_keys
 }
 ;
 use
@@ -69,6 +69,15 @@ neqo_transport
 :
 :
 {
+CloseReason
+Connection
+ConnectionParameters
+Error
+MIN_INITIAL_PACKET_SIZE
+Output
+State
+StreamType
+Version
 server
 :
 :
@@ -78,15 +87,6 @@ Server
 ValidateAddress
 }
 version
-CloseReason
-Connection
-ConnectionParameters
-Error
-Output
-State
-StreamType
-Version
-MIN_INITIAL_PACKET_SIZE
 }
 ;
 use
@@ -94,6 +94,7 @@ test_fixture
 :
 :
 {
+CountingConnectionIdGenerator
 assertions
 datagram
 default_client
@@ -108,7 +109,6 @@ initial_aead_and_hp
 new_client
 now
 split_datagram
-CountingConnectionIdGenerator
 }
 ;
 pub

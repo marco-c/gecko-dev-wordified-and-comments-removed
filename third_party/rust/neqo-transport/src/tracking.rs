@@ -51,8 +51,8 @@ log
 :
 :
 {
-log_enabled
 Level
+log_enabled
 }
 ;
 use
@@ -60,12 +60,12 @@ neqo_common
 :
 :
 {
-qdebug
-qtrace
-qwarn
 Buffer
 Ecn
 MAX_VARINT
+qdebug
+qtrace
+qwarn
 }
 ;
 use
@@ -94,6 +94,9 @@ crate
 :
 :
 {
+Error
+Res
+Stats
 ecn
 frame
 :
@@ -115,9 +118,6 @@ stats
 :
 :
 FrameStats
-Error
-Res
-Stats
 }
 ;
 #
@@ -2874,8 +2874,8 @@ Handshake
 is_none
 (
 )
-{
-if
+&
+&
 let
 Some
 (
@@ -2900,7 +2900,6 @@ ack_time
 (
 )
 ;
-}
 }
 self
 .
@@ -3177,9 +3176,9 @@ super
 AckTracker
 Duration
 Instant
+MAX_TRACKED_RANGES
 PacketNumberSpace
 RecvdPackets
-MAX_TRACKED_RANGES
 }
 ;
 use
@@ -3187,6 +3186,7 @@ crate
 :
 :
 {
+Stats
 frame
 :
 :
@@ -3202,7 +3202,6 @@ stats
 :
 :
 FrameStats
-Stats
 }
 ;
 const

@@ -41,6 +41,10 @@ crate
 :
 :
 {
+AppError
+CloseReason
+ERROR_APPLICATION_CLOSE
+Error
 stateless_reset
 :
 :
@@ -57,10 +61,6 @@ TransportParameterId
 :
 StatelessResetToken
 }
-AppError
-CloseReason
-Error
-ERROR_APPLICATION_CLOSE
 }
 ;
 fn

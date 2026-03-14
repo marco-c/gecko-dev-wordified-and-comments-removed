@@ -3,8 +3,8 @@ neqo_common
 :
 :
 {
-qdebug
 Datagram
+qdebug
 }
 ;
 use
@@ -46,6 +46,7 @@ Output
 State
 StreamType
 }
+AT_LEAST_PTO
 connect
 connect_force_idle
 default_client
@@ -53,7 +54,6 @@ default_server
 maybe_authenticate
 send_and_receive
 send_something
-AT_LEAST_PTO
 }
 ;
 use
@@ -61,6 +61,7 @@ crate
 :
 :
 {
+MIN_INITIAL_PACKET_SIZE
 crypto
 :
 :
@@ -69,7 +70,6 @@ OVERWRITE_INVOCATIONS
 UPDATE_WRITE_KEYS_AT
 }
 packet
-MIN_INITIAL_PACKET_SIZE
 }
 ;
 fn

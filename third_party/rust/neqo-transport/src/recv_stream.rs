@@ -41,9 +41,9 @@ neqo_common
 :
 :
 {
-qtrace
 Buffer
 Role
+qtrace
 }
 ;
 use
@@ -63,6 +63,9 @@ crate
 :
 :
 {
+AppError
+Error
+Res
 events
 :
 :
@@ -95,9 +98,6 @@ stream_id
 :
 :
 StreamId
-AppError
-Error
-Res
 }
 ;
 #
@@ -4412,9 +4412,6 @@ err
 .
 .
 }
-=
->
-{
 if
 *
 frame_needed
@@ -4445,6 +4442,8 @@ as_u64
 err
 ]
 )
+=
+>
 {
 tokens
 .
@@ -4484,7 +4483,6 @@ frame_needed
 =
 false
 ;
-}
 }
 _
 =
@@ -4890,8 +4888,8 @@ neqo_common
 :
 :
 {
-qtrace
 Encoder
+qtrace
 }
 ;
 use
@@ -4905,6 +4903,10 @@ crate
 :
 :
 {
+ConnectionEvents
+Error
+INITIAL_LOCAL_MAX_STREAM_DATA
+StreamId
 fc
 :
 :
@@ -4922,10 +4924,6 @@ stats
 :
 :
 FrameStats
-ConnectionEvents
-Error
-StreamId
-INITIAL_LOCAL_MAX_STREAM_DATA
 }
 ;
 const

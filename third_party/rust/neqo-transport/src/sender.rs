@@ -27,6 +27,8 @@ crate
 :
 :
 {
+ConnectionParameters
+Stats
 cc
 :
 :
@@ -57,8 +59,6 @@ stats
 :
 :
 CongestionControlStats
-ConnectionParameters
-Stats
 }
 ;
 pub

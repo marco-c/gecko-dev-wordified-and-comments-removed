@@ -38,12 +38,12 @@ IpHelper
 :
 :
 {
-if_indextoname
 FreeMibTable
 GetBestInterfaceEx
 GetIpInterfaceTable
 MIB_IPINTERFACE_ROW
 MIB_IPINTERFACE_TABLE
+if_indextoname
 }
 Ndis
 :
@@ -59,10 +59,10 @@ WinSock
 {
 AF_INET
 AF_INET6
-IN6_ADDR
-IN6_ADDR_0
 IN_ADDR
 IN_ADDR_0
+IN6_ADDR
+IN6_ADDR_0
 SOCKADDR
 SOCKADDR_IN
 SOCKADDR_IN6

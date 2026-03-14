@@ -40,6 +40,7 @@ sim
 :
 :
 {
+Simulator
 connection
 :
 :
@@ -56,7 +57,6 @@ network
 Mtu
 TailDrop
 }
-Simulator
 }
 }
 ;

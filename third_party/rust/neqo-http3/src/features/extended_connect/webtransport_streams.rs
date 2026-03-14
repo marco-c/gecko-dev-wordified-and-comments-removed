@@ -28,10 +28,10 @@ neqo_transport
 :
 :
 {
-recv_stream
-send_stream
 Connection
 StreamId
+recv_stream
+send_stream
 }
 ;
 use

@@ -15,9 +15,9 @@ neqo_common
 :
 :
 {
+Datagram
 qdebug
 qinfo
-Datagram
 }
 ;
 use

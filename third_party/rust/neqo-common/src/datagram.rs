@@ -33,9 +33,9 @@ crate
 :
 :
 {
-hex_with_len
 Bytes
 Tos
+hex_with_len
 }
 ;
 #
@@ -1429,8 +1429,8 @@ test_fixture
 :
 :
 {
-datagram
 DEFAULT_ADDR
+datagram
 }
 ;
 use
@@ -1438,10 +1438,10 @@ crate
 :
 :
 {
-datagram
 Datagram
 Ecn
 Tos
+datagram
 }
 ;
 #

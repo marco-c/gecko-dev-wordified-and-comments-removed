@@ -267,6 +267,11 @@ connection
 :
 :
 {
+Connection
+Output
+OutputBatch
+State
+ZeroRttState
 params
 :
 :
@@ -276,11 +281,6 @@ INITIAL_LOCAL_MAX_DATA
 INITIAL_LOCAL_MAX_STREAM_DATA
 MAX_LOCAL_MAX_STREAM_DATA
 }
-Connection
-Output
-OutputBatch
-State
-ZeroRttState
 }
 events
 :

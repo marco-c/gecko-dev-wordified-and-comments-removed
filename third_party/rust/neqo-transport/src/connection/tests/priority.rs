@@ -18,13 +18,13 @@ neqo_common
 :
 :
 {
+Datagram
 event
 :
 :
 Provider
 as
 _
-Datagram
 }
 ;
 use
@@ -58,6 +58,9 @@ crate
 :
 :
 {
+ConnectionEvent
+StreamId
+StreamType
 addr_valid
 :
 :
@@ -72,9 +75,6 @@ send_stream
 RetransmissionPriority
 TransmissionPriority
 }
-ConnectionEvent
-StreamId
-StreamType
 }
 ;
 const

@@ -29,10 +29,10 @@ neqo_common
 :
 :
 {
-qtrace
-qwarn
 Buffer
 Role
+qtrace
+qwarn
 }
 ;
 use
@@ -40,6 +40,9 @@ crate
 :
 :
 {
+ConnectionEvents
+Error
+Res
 fc
 :
 :
@@ -104,9 +107,6 @@ InitialMaxStreamsUni
 }
 TransportParametersHandler
 }
-ConnectionEvents
-Error
-Res
 }
 ;
 pub

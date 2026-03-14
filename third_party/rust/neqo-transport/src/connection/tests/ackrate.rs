@@ -12,8 +12,8 @@ test_fixture
 :
 :
 {
-assertions
 DEFAULT_ADDR_V4
+assertions
 }
 ;
 use
@@ -25,6 +25,7 @@ super
 :
 :
 ConnectionParameters
+DEFAULT_RTT
 ack_bytes
 connect_rtt_idle
 default_client
@@ -35,7 +36,6 @@ induce_persistent_congestion
 new_client
 new_server
 send_something
-DEFAULT_RTT
 }
 ;
 use

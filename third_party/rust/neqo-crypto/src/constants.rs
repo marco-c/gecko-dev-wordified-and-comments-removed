@@ -15,8 +15,8 @@ crate
 :
 :
 {
-ssl
 Error
+ssl
 }
 ;
 pub

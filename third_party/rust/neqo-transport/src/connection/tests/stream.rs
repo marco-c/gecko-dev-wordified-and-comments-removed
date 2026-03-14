@@ -46,6 +46,7 @@ super
 :
 :
 State
+DEFAULT_STREAM_DATA
 assert_error
 connect
 connect_force_idle
@@ -56,7 +57,6 @@ new_client
 new_server
 send_something
 send_with_extra
-DEFAULT_STREAM_DATA
 }
 ;
 use
@@ -64,6 +64,12 @@ crate
 :
 :
 {
+CloseReason
+Connection
+ConnectionParameters
+Error
+StreamId
+StreamType
 connection
 :
 :
@@ -104,12 +110,6 @@ TransportParameterId
 :
 *
 }
-CloseReason
-Connection
-ConnectionParameters
-Error
-StreamId
-StreamType
 }
 ;
 #

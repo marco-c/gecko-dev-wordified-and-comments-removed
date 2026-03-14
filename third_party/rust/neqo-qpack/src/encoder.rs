@@ -30,6 +30,7 @@ neqo_common
 :
 :
 {
+Header
 qdebug
 qerror
 qlog
@@ -37,7 +38,6 @@ qlog
 :
 Qlog
 qtrace
-Header
 }
 ;
 use
@@ -70,6 +70,9 @@ crate
 :
 :
 {
+Error
+Res
+Settings
 decoder_instructions
 :
 :
@@ -98,13 +101,10 @@ table
 :
 :
 {
+ADDITIONAL_TABLE_ENTRY_SIZE
 HeaderTable
 LookupResult
-ADDITIONAL_TABLE_ENTRY_SIZE
 }
-Error
-Res
-Settings
 }
 ;
 pub
@@ -2389,8 +2389,8 @@ iter
 max
 (
 )
-{
-if
+&
+&
 *
 max_ref
 >
@@ -2423,7 +2423,6 @@ blocked_stream_cnt
 =
 1
 ;
-}
 }
 }
 if
@@ -2780,13 +2779,13 @@ test_fixture
 :
 :
 {
+CountingConnectionIdGenerator
+DEFAULT_ALPN
 default_client
 default_server
 handshake
 new_server
 now
-CountingConnectionIdGenerator
-DEFAULT_ALPN
 }
 ;
 use

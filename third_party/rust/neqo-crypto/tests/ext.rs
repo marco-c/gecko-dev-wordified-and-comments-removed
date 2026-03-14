@@ -24,6 +24,11 @@ neqo_crypto
 :
 :
 {
+AuthenticationStatus
+Client
+Error
+HandshakeState
+Server
 constants
 :
 :
@@ -41,11 +46,6 @@ ExtensionHandlerResult
 ExtensionWriterResult
 }
 generate_ech_keys
-AuthenticationStatus
-Client
-Error
-HandshakeState
-Server
 }
 ;
 use

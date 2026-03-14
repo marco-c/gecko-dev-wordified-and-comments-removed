@@ -53,9 +53,9 @@ err
 :
 :
 {
-secstatus_to_res
 Error
 Res
+secstatus_to_res
 }
 null_safe_slice
 }
@@ -1101,6 +1101,8 @@ mut
 PK11Context
 )
 {
+unsafe
+{
 PK11_DestroyContext
 (
 ctxt
@@ -1113,6 +1115,7 @@ true
 )
 )
 ;
+}
 }
 scoped_ptr
 !
@@ -1133,6 +1136,8 @@ mut
 SECItem
 )
 {
+unsafe
+{
 SECITEM_FreeItem
 (
 item
@@ -1145,6 +1150,7 @@ true
 )
 )
 ;
+}
 }
 scoped_ptr
 !
@@ -1359,6 +1365,8 @@ mut
 SECItemArray
 )
 {
+unsafe
+{
 SECITEM_FreeArray
 (
 array
@@ -1371,6 +1379,7 @@ true
 )
 )
 ;
+}
 }
 scoped_ptr
 !
@@ -2208,9 +2217,9 @@ crate
 :
 :
 {
-random
 PrivateKey
 PublicKey
+random
 }
 ;
 #

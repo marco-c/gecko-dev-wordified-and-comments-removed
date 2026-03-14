@@ -26,9 +26,9 @@ neqo_common
 :
 :
 {
+Ecn
 qdebug
 qinfo
-Ecn
 }
 ;
 use
@@ -36,12 +36,12 @@ crate
 :
 :
 {
+Stats
 packet
 recovery
 :
 :
 sent
-Stats
 }
 ;
 pub

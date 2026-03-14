@@ -350,6 +350,8 @@ T
 let
 rc
 =
+unsafe
+{
 arg
 .
 cast
@@ -368,6 +370,7 @@ as_mut
 unwrap
 (
 )
+}
 ;
 f
 (
@@ -470,6 +473,8 @@ false
 let
 d
 =
+unsafe
+{
 std
 :
 :
@@ -483,7 +488,10 @@ max_len
 as
 usize
 )
+}
 ;
+unsafe
+{
 Self
 :
 :
@@ -547,6 +555,7 @@ Skip
 }
 )
 }
+}
 unsafe
 extern
 "
@@ -592,12 +601,17 @@ SECStatus
 let
 d
 =
+unsafe
+{
 null_safe_slice
 (
 data
 len
 )
+}
 ;
+unsafe
+{
 Self
 :
 :
@@ -684,6 +698,7 @@ SECFailure
 }
 )
 }
+}
 pub
 unsafe
 fn
@@ -714,6 +729,8 @@ Res
 <
 Self
 >
+{
+unsafe
 {
 let
 mut
@@ -780,6 +797,7 @@ Ok
 (
 tracker
 )
+}
 }
 }
 impl
