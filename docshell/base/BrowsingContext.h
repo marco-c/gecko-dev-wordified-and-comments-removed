@@ -348,7 +348,7 @@ class
 StructuredCloneHolder
 ;
 struct
-NavigationTracker
+NavigationAPIMethodTracker
 ;
 class
 WindowContext
@@ -2800,9 +2800,9 @@ nullptr
 dom
 :
 :
-NavigationTracker
+NavigationAPIMethodTracker
 *
-aNavigationTracker
+aNavigationAPIMethodTracker
 =
 nullptr
 )
