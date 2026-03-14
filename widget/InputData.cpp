@@ -1441,6 +1441,12 @@ mButtonType
 (
 NONE
 )
+mClickCount
+(
+aMouseEvent
+.
+mClickCount
+)
 mInputSource
 (
 aMouseEvent
@@ -2021,11 +2027,6 @@ msg
 =
 eVoidEvent
 ;
-uint32_t
-clickCount
-=
-0
-;
 Maybe
 <
 WidgetMouseEvent
@@ -2056,10 +2057,6 @@ msg
 =
 eMouseUp
 ;
-clickCount
-=
-1
-;
 break
 ;
 case
@@ -2068,10 +2065,6 @@ MOUSE_DOWN
 msg
 =
 eMouseDown
-;
-clickCount
-=
-1
 ;
 break
 ;
@@ -2357,7 +2350,7 @@ event
 .
 mClickCount
 =
-clickCount
+mClickCount
 ;
 event
 .
