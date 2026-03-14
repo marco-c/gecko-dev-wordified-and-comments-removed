@@ -1096,7 +1096,7 @@ gTypingInteractionKeyPresses
 =
 0
 ;
-MOZ_RUNINIT
+constinit
 static
 dom
 :
