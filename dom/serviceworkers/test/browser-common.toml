@@ -253,6 +253,13 @@ js
 ]
 [
 "
+browser_pbm_cleanup
+.
+js
+"
+]
+[
+"
 browser_remote_type_process_swap
 .
 js

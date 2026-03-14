@@ -2136,6 +2136,12 @@ removeRegistrationsByOriginAttributes
 in
 AString
 aOriginAttributes
+[
+optional
+]
+in
+nsIServiceWorkerUnregisterCallback
+aCallback
 )
 ;
 /
