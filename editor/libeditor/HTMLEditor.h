@@ -3856,7 +3856,7 @@ aPreserveWhiteSpaceStyle
 ;
 enum
 class
-RemoveIfCommentNode
+RemoveIfInvisibleNode
 {
 No
 Yes
@@ -3884,8 +3884,8 @@ EditorDOMPoint
 aPointToInsert
 PreserveWhiteSpaceStyle
 aPreserveWhiteSpaceStyle
-RemoveIfCommentNode
-aRemoveIfCommentNode
+RemoveIfInvisibleNode
+aRemoveIfInvisibleNode
 )
 ;
 Result
@@ -3928,8 +3928,8 @@ EditorDOMPoint
 aPointToInsert
 PreserveWhiteSpaceStyle
 aPreserveWhiteSpaceStyle
-RemoveIfCommentNode
-aRemoveIfCommentNode
+RemoveIfInvisibleNode
+aRemoveIfInvisibleNode
 )
 ;
 Result

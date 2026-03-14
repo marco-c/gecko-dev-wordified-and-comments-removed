@@ -2893,6 +2893,10 @@ const
 EditorDOMRangeType
 &
 aRangeToDelete
+const
+Element
+&
+aEditingHost
 )
 const
 ;
