@@ -1005,10 +1005,8 @@ None
 finally
 :
         
-os
-.
-remove
-(
+record_file
+=
 os
 .
 path
@@ -1025,6 +1023,23 @@ record
 zip
 "
 )
+        
+if
+os
+.
+path
+.
+exists
+(
+record_file
+)
+:
+            
+os
+.
+remove
+(
+record_file
 )
 def
 test_run_playback
