@@ -988,6 +988,8 @@ profile
 page
 -
 title
+-
+2
 =
 Delete
 {
