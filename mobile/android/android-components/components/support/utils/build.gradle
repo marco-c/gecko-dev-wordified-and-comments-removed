@@ -309,6 +309,10 @@ compose
 runtime
 .
 saveable
+testFixturesImplementation
+libs
+.
+robolectric
 }
 apply
 from
