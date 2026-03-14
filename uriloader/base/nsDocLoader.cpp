@@ -2890,16 +2890,7 @@ doc
 doc
 -
 >
-InitialAboutBlankLoadCompleting
-(
-)
-&
-&
-!
-doc
--
->
-IsExpectingEndLoad
+ShouldForceInitialSyncLoad
 (
 )
 ;

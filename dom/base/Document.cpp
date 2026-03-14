@@ -59114,6 +59114,12 @@ mOnloadBlockCount
 !
 =
 0
+&
+&
+!
+ShouldForceInitialSyncLoad
+(
+)
 )
 {
 return
@@ -59370,6 +59376,12 @@ mOnloadBlockCount
 !
 =
 0
+&
+&
+!
+ShouldForceInitialSyncLoad
+(
+)
 )
 {
 return
