@@ -1545,7 +1545,7 @@ this
 #
 profileService
 .
-asyncFlush
+asyncFlushCurrentProfile
 (
 )
 ;
@@ -1563,7 +1563,7 @@ this
 #
 profileService
 .
-asyncFlushCurrentProfile
+asyncFlush
 (
 )
 ;
