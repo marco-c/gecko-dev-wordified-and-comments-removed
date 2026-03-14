@@ -840,6 +840,13 @@ Bug
 ]
 [
 "
+test_ext_contentscript_create_document
+.
+js
+"
+]
+[
+"
 test_ext_contentscript_create_iframe
 .
 js
