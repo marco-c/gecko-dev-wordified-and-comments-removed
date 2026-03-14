@@ -493,14 +493,12 @@ Q
 &
 Browsers
 .
-all
+isDefaultBrowser
 (
 requireContext
 (
 )
 )
-.
-isDefaultBrowser
 )
 {
 onboardingInteractor
