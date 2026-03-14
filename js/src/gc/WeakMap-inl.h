@@ -1126,9 +1126,8 @@ ifdef
 DEBUG
 MOZ_ASSERT
 (
-IsMarked
+isMarked
 (
-mapColor
 )
 )
 ;
@@ -2043,11 +2042,8 @@ marker
 {
 MOZ_ASSERT
 (
-IsMarked
+isMarked
 (
-mapColor
-(
-)
 )
 )
 ;
