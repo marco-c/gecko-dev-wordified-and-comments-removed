@@ -1241,7 +1241,7 @@ add_task
 (
 async
 function
-resultMenu_notRelevant
+resultMenu_dismiss
 (
 )
 {
@@ -1249,7 +1249,7 @@ await
 doDismissTest
 (
 "
-not_relevant
+dismiss
 "
 false
 )

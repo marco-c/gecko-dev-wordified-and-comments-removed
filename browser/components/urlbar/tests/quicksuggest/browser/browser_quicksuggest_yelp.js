@@ -1499,7 +1499,7 @@ add_task
 (
 async
 function
-resultMenu_not_relevant
+resultMenu_dismiss
 (
 )
 {
@@ -1510,7 +1510,7 @@ doDismiss
 menu
 :
 "
-not_relevant
+dismiss
 "
 assert
 :

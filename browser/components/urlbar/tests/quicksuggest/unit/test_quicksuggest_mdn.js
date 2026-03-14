@@ -1033,7 +1033,7 @@ add_task
 (
 async
 function
-notRelevant
+dismiss
 (
 )
 {
@@ -1060,7 +1060,7 @@ attachment
 command
 :
 "
-not_relevant
+dismiss
 "
 feature
 :
