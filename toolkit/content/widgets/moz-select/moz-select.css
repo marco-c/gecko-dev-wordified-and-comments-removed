@@ -610,6 +610,7 @@ select
 min
 -
 width
+none
 )
 ;
 max
@@ -625,6 +626,7 @@ select
 max
 -
 width
+none
 )
 ;
 -
