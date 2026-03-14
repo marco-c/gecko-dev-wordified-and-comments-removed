@@ -250,15 +250,6 @@ nodes
 [
 CEReactions
 Throws
-Pref
-=
-"
-dom
-.
-movebefore
-.
-enabled
-"
 ]
 undefined
 moveBefore
