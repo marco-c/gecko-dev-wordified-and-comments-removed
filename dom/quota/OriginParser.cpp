@@ -173,7 +173,13 @@ originNoSuffix
 *
 aAttrs
 =
+std
+:
+:
+move
+(
 originAttributes
+)
 ;
 return
 parser

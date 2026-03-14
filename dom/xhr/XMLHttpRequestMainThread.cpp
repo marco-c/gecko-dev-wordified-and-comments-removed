@@ -7555,7 +7555,13 @@ method
 ;
 mRequestURL
 =
+std
+:
+:
+move
+(
 parsedURL
+)
 ;
 mFlagSynchronous
 =

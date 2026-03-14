@@ -1938,7 +1938,13 @@ false
 }
 aResult
 =
+std
+:
+:
+move
+(
 result
+)
 ;
 return
 true

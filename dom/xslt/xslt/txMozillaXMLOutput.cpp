@@ -1589,7 +1589,13 @@ nullptr
 }
 mCurrentNode
 =
+std
+:
+:
+move
+(
 parent
+)
 ;
 mTableState
 =

@@ -354,7 +354,13 @@ GetTestOriginMetadata
 ;
 aDatabaseUsage
 =
+std
+:
+:
+move
+(
 databaseUsage
+)
 ;
 }
 void
@@ -871,7 +877,13 @@ GetUsage
 ;
 aDatabaseUsage
 =
+std
+:
+:
+move
+(
 databaseUsage
+)
 ;
 }
 void
