@@ -3901,6 +3901,13 @@ focus
 (
 )
 ;
+AT_telemetry
+(
+"
+onClearSourceTextButton
+"
+)
+;
 }
 ;
 /
