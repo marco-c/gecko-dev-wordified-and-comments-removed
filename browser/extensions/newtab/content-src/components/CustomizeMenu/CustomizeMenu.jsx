@@ -374,6 +374,13 @@ icon
 -
 button
 "
+aria
+-
+haspopup
+=
+"
+dialog
+"
 onClick
 =
 {
