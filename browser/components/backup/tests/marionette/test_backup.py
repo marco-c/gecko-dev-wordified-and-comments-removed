@@ -519,15 +519,6 @@ outerResolve
 arguments
 ;
           
-(
-async
-(
-)
-=
->
-{
-            
-await
 bs
 .
 setParentDirPath
@@ -535,6 +526,14 @@ setParentDirPath
 archiveDestPath
 )
 ;
+          
+(
+async
+(
+)
+=
+>
+{
             
 await
 bs
@@ -1926,15 +1925,6 @@ outerResolve
 arguments
 ;
           
-(
-async
-(
-)
-=
->
-{
-            
-await
 bs
 .
 setParentDirPath
@@ -1942,6 +1932,14 @@ setParentDirPath
 archiveDestPath
 )
 ;
+          
+(
+async
+(
+)
+=
+>
+{
             
 bs
 .

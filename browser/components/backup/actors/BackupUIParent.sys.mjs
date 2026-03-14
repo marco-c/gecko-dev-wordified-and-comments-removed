@@ -1016,7 +1016,6 @@ if
 parentDirPath
 )
 {
-await
 this
 .
 #
