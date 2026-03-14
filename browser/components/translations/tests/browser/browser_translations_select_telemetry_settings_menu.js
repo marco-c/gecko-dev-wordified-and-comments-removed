@@ -113,13 +113,6 @@ to_language
 "
 en
 "
-top_preferred_language
-:
-"
-en
--
-US
-"
 text_source
 :
 "
@@ -186,13 +179,6 @@ to_language
 :
 "
 en
-"
-top_preferred_language
-:
-"
-en
--
-US
 "
 request_target
 :
