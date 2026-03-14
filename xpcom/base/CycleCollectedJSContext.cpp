@@ -3830,7 +3830,7 @@ Maybe
 AutoProfilerTerminatingFlowMarkerFlowOnly
 >
 &
-terminatingMarker
+aTerminatingMarker
 )
 {
 if
@@ -3869,7 +3869,7 @@ flowId
 )
 )
 {
-terminatingMarker
+aTerminatingMarker
 .
 emplace
 (
@@ -3918,7 +3918,7 @@ MutableHandle
 JSObject
 *
 >
-callbackGlobal
+aCallbackGlobal
 JS
 :
 :
@@ -3927,7 +3927,7 @@ MutableHandle
 JSObject
 *
 >
-hostDefinedData
+aHostDefinedData
 JS
 :
 :
@@ -3936,10 +3936,10 @@ MutableHandle
 JSObject
 *
 >
-allocStack
+aAllocStack
 )
 {
-callbackGlobal
+aCallbackGlobal
 .
 set
 (
@@ -3957,7 +3957,7 @@ GetExecutionGlobalFromJSMicroTask
 if
 (
 !
-callbackGlobal
+aCallbackGlobal
 )
 {
 return
@@ -3975,7 +3975,7 @@ get
 .
 MaybeGetHostDefinedDataFromJSMicroTask
 (
-hostDefinedData
+aHostDefinedData
 )
 )
 {
@@ -3994,7 +3994,7 @@ get
 .
 MaybeGetAllocationSiteFromJSMicroTask
 (
-allocStack
+aAllocStack
 )
 ;
 return
@@ -5027,12 +5027,12 @@ Handle
 <
 MustConsumeMicroTask
 >
-task
+aTask
 )
 {
 if
 (
-task
+aTask
 .
 get
 (
@@ -5047,7 +5047,7 @@ JSObject
 *
 jsGlobal
 =
-task
+aTask
 .
 get
 (
@@ -5095,7 +5095,7 @@ MicroTaskRunnable
 *
 runnable
 =
-task
+aTask
 .
 get
 (
