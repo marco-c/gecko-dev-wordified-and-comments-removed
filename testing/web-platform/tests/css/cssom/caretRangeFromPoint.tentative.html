@@ -841,6 +841,8 @@ width
 /
 shadow
 .
+shadowRoot
+.
 textContent
 .
 length
@@ -928,7 +930,9 @@ assert_equals
 range
 .
 startOffset
-characterIndex
+point
+.
+offset
 )
 ;
 assert_equals
@@ -936,7 +940,9 @@ assert_equals
 range
 .
 endOffset
-characterIndex
+point
+.
+offset
 )
 ;
 assert_true
