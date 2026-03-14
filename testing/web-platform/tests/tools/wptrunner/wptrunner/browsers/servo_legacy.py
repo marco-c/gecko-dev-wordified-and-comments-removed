@@ -621,12 +621,12 @@ logger
 binary
 =
 "
-servo
+servoshell
 "
 webdriver_binary
 =
 "
-servo
+servoshell
 "
                  
 binary_args
