@@ -207,6 +207,15 @@ cx
 )
 ;
 JS_PUBLIC_API
+GenericMicroTask
+PeekNextMicroTask
+(
+JSContext
+*
+cx
+)
+;
+JS_PUBLIC_API
 bool
 HasAnyMicroTasks
 (
