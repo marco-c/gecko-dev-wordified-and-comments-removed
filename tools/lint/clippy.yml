@@ -160,6 +160,13 @@ wr
 /
 wr_malloc_size_of
 /
+-
+image
+/
+rust
+/
+jxl
+/
 #
 -
 intl
