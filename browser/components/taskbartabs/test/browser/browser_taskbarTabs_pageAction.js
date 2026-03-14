@@ -1134,10 +1134,12 @@ closeWindow
 firstWin
 )
 ;
-secondWin
+await
+SimpleTest
 .
-focus
+promiseFocus
 (
+secondWin
 )
 ;
 await
