@@ -279,6 +279,11 @@ override
 bool
 Claim
 (
+nsHttpTransaction
+*
+newTransaction
+=
+nullptr
 )
 override
 ;

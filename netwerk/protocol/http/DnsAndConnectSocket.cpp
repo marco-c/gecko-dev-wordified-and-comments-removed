@@ -4340,6 +4340,9 @@ DnsAndConnectSocket
 :
 Claim
 (
+nsHttpTransaction
+*
+newTransaction
 )
 {
 if
