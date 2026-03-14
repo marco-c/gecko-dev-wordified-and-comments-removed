@@ -302,6 +302,8 @@ Result
 success
 (
 AuthorizationToken
+.
+Integrity
 (
 "
 my
@@ -365,6 +367,8 @@ AuthenticationService
 Response
 (
 AuthorizationToken
+.
+Integrity
 (
 "
 my

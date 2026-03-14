@@ -312,6 +312,8 @@ Result
 success
 (
 AuthorizationToken
+.
+Fxa
 (
 it
 )

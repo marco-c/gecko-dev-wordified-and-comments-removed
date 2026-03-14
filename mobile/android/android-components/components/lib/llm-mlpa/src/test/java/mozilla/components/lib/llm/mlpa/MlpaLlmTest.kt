@@ -283,6 +283,8 @@ request
 authorizationToken
 =
 AuthorizationToken
+.
+Integrity
 (
 "
 my
@@ -345,6 +347,8 @@ assertEquals
 (
 expectedToken
 AuthorizationToken
+.
+Integrity
 (
 "
 my
@@ -395,6 +399,8 @@ failureChatService
 authorizationToken
 =
 AuthorizationToken
+.
+Integrity
 (
 "
 my
