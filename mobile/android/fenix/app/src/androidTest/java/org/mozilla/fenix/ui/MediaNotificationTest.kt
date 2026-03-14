@@ -602,11 +602,6 @@ audioTestPage
 url
 )
 {
-mDevice
-.
-waitForIdle
-(
-)
 clickPageObject
 (
 composeTestRule
