@@ -233,7 +233,7 @@ crypto
 /
 nr_crypto
 .
-c
+cpp
 "
 "
 .
@@ -257,7 +257,7 @@ ice
 /
 ice_candidate
 .
-c
+cpp
 "
 "
 .
@@ -279,7 +279,7 @@ ice
 /
 ice_candidate_pair
 .
-c
+cpp
 "
 "
 .
@@ -312,7 +312,7 @@ ice
 /
 ice_component
 .
-c
+cpp
 "
 "
 .
@@ -334,7 +334,7 @@ ice
 /
 ice_ctx
 .
-c
+cpp
 "
 "
 .
@@ -367,7 +367,7 @@ ice
 /
 ice_media_stream
 .
-c
+cpp
 "
 "
 .
@@ -389,7 +389,7 @@ ice
 /
 ice_parser
 .
-c
+cpp
 "
 "
 .
@@ -400,7 +400,7 @@ ice
 /
 ice_peer_ctx
 .
-c
+cpp
 "
 "
 .
@@ -433,7 +433,7 @@ ice
 /
 ice_socket
 .
-c
+cpp
 "
 "
 .
@@ -457,7 +457,7 @@ net
 /
 nr_resolver
 .
-c
+cpp
 "
 "
 .
@@ -479,7 +479,7 @@ net
 /
 nr_socket
 .
-c
+cpp
 "
 "
 .
@@ -512,7 +512,7 @@ net
 /
 nr_socket_multi_tcp
 .
-c
+cpp
 "
 "
 .
@@ -534,7 +534,7 @@ net
 /
 transport_addr
 .
-c
+cpp
 "
 "
 .
@@ -556,7 +556,7 @@ net
 /
 local_addr
 .
-c
+cpp
 "
 "
 .
@@ -578,7 +578,7 @@ net
 /
 nr_interface_prioritizer
 .
-c
+cpp
 "
 "
 .
@@ -602,7 +602,7 @@ stun
 /
 addrs
 .
-c
+cpp
 "
 "
 .
@@ -626,7 +626,7 @@ addrs
 -
 bsd
 .
-c
+cpp
 "
 "
 .
@@ -652,7 +652,7 @@ addrs
 -
 netlink
 .
-c
+cpp
 "
 "
 .
@@ -678,7 +678,7 @@ addrs
 -
 win32
 .
-c
+cpp
 "
 "
 .
@@ -702,7 +702,7 @@ stun
 /
 nr_socket_turn
 .
-c
+cpp
 "
 "
 .
@@ -724,7 +724,7 @@ stun
 /
 nr_socket_buffered_stun
 .
-c
+cpp
 "
 "
 .
@@ -757,7 +757,7 @@ stun
 /
 stun_build
 .
-c
+cpp
 "
 "
 .
@@ -779,7 +779,7 @@ stun
 /
 stun_client_ctx
 .
-c
+cpp
 "
 "
 .
@@ -801,7 +801,7 @@ stun
 /
 stun_codec
 .
-c
+cpp
 "
 "
 .
@@ -823,7 +823,7 @@ stun
 /
 stun_hint
 .
-c
+cpp
 "
 "
 .
@@ -845,7 +845,7 @@ stun
 /
 stun_msg
 .
-c
+cpp
 "
 "
 .
@@ -867,7 +867,7 @@ stun
 /
 stun_proc
 .
-c
+cpp
 "
 "
 .
@@ -900,7 +900,7 @@ stun
 /
 stun_server_ctx
 .
-c
+cpp
 "
 "
 .
@@ -922,7 +922,7 @@ stun
 /
 stun_util
 .
-c
+cpp
 "
 "
 .
@@ -944,7 +944,7 @@ stun
 /
 turn_client_ctx
 .
-c
+cpp
 "
 "
 .
@@ -968,7 +968,7 @@ util
 /
 ice_util
 .
-c
+cpp
 "
 "
 .
@@ -1463,20 +1463,6 @@ Wall
 Wno
 -
 parentheses
-'
-'
--
-Wno
--
-strict
--
-prototypes
-'
-'
--
-Wmissing
--
-prototypes
 '
 '
 -

@@ -181,7 +181,7 @@ libekr
 /
 r_assoc
 .
-c
+cpp
 '
 '
 .
@@ -220,7 +220,7 @@ libekr
 /
 r_crc32
 .
-c
+cpp
 '
 '
 .
@@ -246,7 +246,7 @@ libekr
 /
 r_data
 .
-c
+cpp
 '
 '
 .
@@ -285,7 +285,7 @@ libekr
 /
 r_errors
 .
-c
+cpp
 '
 '
 .
@@ -337,7 +337,7 @@ libekr
 /
 r_memory
 .
-c
+cpp
 '
 '
 .
@@ -363,7 +363,7 @@ libekr
 /
 r_time
 .
-c
+cpp
 '
 '
 .
@@ -402,7 +402,7 @@ util
 /
 byteorder
 .
-c
+cpp
 '
 '
 .
@@ -424,7 +424,7 @@ util
 /
 hex
 .
-c
+cpp
 '
 '
 .
@@ -446,7 +446,7 @@ util
 /
 p_buf
 .
-c
+cpp
 '
 '
 .
@@ -468,7 +468,7 @@ util
 /
 util
 .
-c
+cpp
 '
 '
 .
@@ -516,7 +516,7 @@ log
 /
 r_log
 .
-c
+cpp
 '
 '
 .
@@ -540,7 +540,7 @@ registry
 /
 registry
 .
-c
+cpp
 '
 '
 .
@@ -573,7 +573,7 @@ registry
 /
 registry_local
 .
-c
+cpp
 '
 '
 .
@@ -584,7 +584,7 @@ registry
 /
 registrycb
 .
-c
+cpp
 '
 ]
 '
@@ -1023,20 +1023,6 @@ Wall
 Wno
 -
 parentheses
-'
-'
--
-Wno
--
-strict
--
-prototypes
-'
-'
--
-Wmissing
--
-prototypes
 '
 '
 -
