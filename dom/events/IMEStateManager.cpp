@@ -492,6 +492,7 @@ sIsActive
 =
 false
 ;
+constinit
 Maybe
 <
 IMEStateManager
