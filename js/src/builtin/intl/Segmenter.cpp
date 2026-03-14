@@ -2712,7 +2712,7 @@ cx
 AvailableLocaleKind
 :
 :
-ListFormat
+Segmenter
 requestedLocales
 localeOptions
 relevantExtensionKeys
