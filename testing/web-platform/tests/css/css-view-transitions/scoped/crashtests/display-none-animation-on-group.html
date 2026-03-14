@@ -269,6 +269,13 @@ async
 =
 >
 {
+if
+(
+target
+.
+startViewTransition
+)
+{
 const
 vt
 =
@@ -300,6 +307,7 @@ vt
 .
 finished
 ;
+}
 document
 .
 documentElement
