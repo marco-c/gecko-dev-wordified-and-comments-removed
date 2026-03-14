@@ -1358,6 +1358,13 @@ Bug
 ]
 [
 "
+test_hashchange_popstate_event_order
+.
+html
+"
+]
+[
+"
 test_load_history_entry
 .
 html
