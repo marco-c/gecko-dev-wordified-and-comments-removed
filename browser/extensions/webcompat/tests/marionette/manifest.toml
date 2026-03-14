@@ -6,6 +6,11 @@ subsuite
 "
 integration
 "
+tags
+=
+"
+os_integration
+"
 run
 -
 if

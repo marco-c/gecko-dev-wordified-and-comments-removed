@@ -28,6 +28,16 @@ browser
 '
 "
 ]
+subsuite
+=
+"
+integration
+"
+tags
+=
+"
+os_integration
+"
 [
 "
 test_accessiblecaret_cursor_mode

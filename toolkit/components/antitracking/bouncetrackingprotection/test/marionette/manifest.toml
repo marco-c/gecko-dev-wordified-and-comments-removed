@@ -23,6 +23,16 @@ enableTestMode
 true
 "
 ]
+subsuite
+=
+"
+integration
+"
+tags
+=
+"
+os_integration
+"
 [
 "
 test_bouncetracking_storage_persistence

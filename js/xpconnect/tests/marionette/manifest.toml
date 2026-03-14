@@ -1,6 +1,16 @@
 [
 DEFAULT
 ]
+subsuite
+=
+"
+integration
+"
+tags
+=
+"
+os_integration
+"
 [
 "
 test_preloader_cache_bypass

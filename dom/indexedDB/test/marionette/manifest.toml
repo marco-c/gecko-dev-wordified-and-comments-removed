@@ -1,6 +1,11 @@
 [
 DEFAULT
 ]
+subsuite
+=
+"
+integration
+"
 tags
 =
 "
@@ -9,6 +14,7 @@ inc
 origin
 -
 init
+os_integration
 "
 [
 "
