@@ -1454,6 +1454,13 @@ js
 ]
 [
 "
+browser_rules_element_specific_pseudo_classes
+.
+js
+"
+]
+[
+"
 browser_rules_refresh
 -
 no
