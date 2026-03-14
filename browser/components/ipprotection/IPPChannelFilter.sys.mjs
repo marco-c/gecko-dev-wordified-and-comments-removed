@@ -1439,8 +1439,10 @@ apply
 param
 {
 nsIProxyInfo
+|
+null
 }
-_defaultProxyInfo
+defaultProxyInfo
 The
 proxy
 (
@@ -1477,7 +1479,7 @@ proxyFilter
 applyFilter
 (
 channel
-_defaultProxyInfo
+defaultProxyInfo
 proxyFilter
 )
 {
@@ -1511,7 +1513,7 @@ proxyFilter
 .
 onProxyFilterResult
 (
-null
+defaultProxyInfo
 )
 ;
 return
