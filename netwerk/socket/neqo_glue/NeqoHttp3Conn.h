@@ -72,6 +72,8 @@ uint32_t
 aProviderFlags
 uint32_t
 aIdleTimeout
+uint32_t
+aFastPto
 NeqoHttp3Conn
 *
 *
@@ -99,6 +101,7 @@ aWebTransport
 aQlogDir
 aProviderFlags
 aIdleTimeout
+aFastPto
 (
 const
 mozilla
@@ -155,6 +158,8 @@ uint32_t
 aProviderFlags
 uint32_t
 aIdleTimeout
+uint32_t
+aFastPto
 int64_t
 socket
 bool
@@ -186,6 +191,7 @@ aWebTransport
 aQlogDir
 aProviderFlags
 aIdleTimeout
+aFastPto
 socket
 aPMTUDEnabled
 (
