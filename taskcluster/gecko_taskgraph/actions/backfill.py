@@ -2054,6 +2054,15 @@ full_task_graph
 .
 tasks
 )
+        
+input
+[
+"
+label
+"
+]
+=
+label
     
 to_run
 =
