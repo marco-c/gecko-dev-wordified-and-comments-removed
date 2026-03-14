@@ -112,11 +112,6 @@ search
 json
 "
 "
-sync_ping_schema
-.
-json
-"
-"
 systemaddon
 -
 search
