@@ -4339,6 +4339,13 @@ onTranslationErrorRetry
 =
 >
 {
+AT_telemetry
+(
+"
+onTryAgainButton
+"
+)
+;
 this
 .
 #
