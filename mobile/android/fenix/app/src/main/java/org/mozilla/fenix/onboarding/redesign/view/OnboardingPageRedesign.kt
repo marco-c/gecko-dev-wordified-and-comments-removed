@@ -491,7 +491,7 @@ isSmallDevice
 )
 LaunchedEffect
 (
-pageState
+Unit
 )
 {
 pageState
