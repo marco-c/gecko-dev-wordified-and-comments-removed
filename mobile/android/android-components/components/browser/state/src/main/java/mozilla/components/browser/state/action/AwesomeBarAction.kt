@@ -167,7 +167,7 @@ suggestion
 :
 AwesomeBar
 .
-Suggestion
+SuggestionItem
 )
 :
 AwesomeBarAction

@@ -173,7 +173,7 @@ clickedSuggestion
 :
 AwesomeBar
 .
-Suggestion
+SuggestionItem
 ?
 =
 null

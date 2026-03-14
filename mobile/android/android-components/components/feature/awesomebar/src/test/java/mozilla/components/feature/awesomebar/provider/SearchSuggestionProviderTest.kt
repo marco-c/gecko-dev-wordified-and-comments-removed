@@ -899,9 +899,13 @@ it
 score
 !
 =
+(
 Int
 .
 MAX_VALUE
+-
+1
+)
 }
 )
 CollectionProcessor

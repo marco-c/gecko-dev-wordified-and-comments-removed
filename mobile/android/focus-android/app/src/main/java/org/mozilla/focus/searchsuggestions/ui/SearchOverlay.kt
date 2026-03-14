@@ -489,6 +489,15 @@ onSuggestionClicked
 suggestion
 -
 >
+if
+(
+suggestion
+is
+AwesomeBar
+.
+Suggestion
+)
+{
 viewModel
 .
 selectSearchSuggestion
@@ -500,6 +509,7 @@ title
 !
 defaultSearchEngineName
 )
+}
 }
 onAutoComplete
 =
@@ -555,7 +565,7 @@ onSuggestionClicked
 (
 AwesomeBar
 .
-Suggestion
+SuggestionItem
 )
 -
 >

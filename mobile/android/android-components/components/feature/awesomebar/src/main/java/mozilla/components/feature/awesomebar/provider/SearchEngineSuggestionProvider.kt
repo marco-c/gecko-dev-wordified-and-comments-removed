@@ -491,6 +491,8 @@ it
 score
 =
 MAX_VALUE
+-
+1
 )
 }
 }

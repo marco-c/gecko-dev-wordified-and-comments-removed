@@ -1715,6 +1715,8 @@ score
 Int
 .
 MAX_VALUE
+-
+1
 icon
 =
 icon

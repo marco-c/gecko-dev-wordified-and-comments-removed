@@ -158,6 +158,16 @@ concept
 awesomebar
 .
 AwesomeBar
+import
+mozilla
+.
+components
+.
+concept
+.
+awesomebar
+.
+AwesomeBar
 .
 GroupedSuggestion
 import
@@ -2573,7 +2583,9 @@ SuggestionClicked
 val
 suggestion
 :
-Suggestion
+AwesomeBar
+.
+SuggestionItem
 )
 :
 SearchFragmentAction

@@ -1075,7 +1075,7 @@ onSuggestionClicked
 (
 AwesomeBar
 .
-Suggestion
+SuggestionItem
 )
 -
 >
