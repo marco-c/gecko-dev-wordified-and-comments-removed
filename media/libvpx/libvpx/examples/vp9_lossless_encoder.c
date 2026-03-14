@@ -625,10 +625,8 @@ if
 (
 res
 )
-die_codec
+die
 (
-&
-codec
 "
 Failed
 to
@@ -636,8 +634,14 @@ get
 default
 codec
 config
-.
+:
+%
+s
 "
+vpx_codec_err_to_string
+(
+res
+)
 )
 ;
 cfg

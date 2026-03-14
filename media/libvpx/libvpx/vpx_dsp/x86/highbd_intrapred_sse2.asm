@@ -1551,7 +1551,7 @@ movq
 dstq
 ]
 m2
-movhpd
+movhps
 [
 dstq
 +
@@ -1605,7 +1605,7 @@ movq
 dstq
 ]
 m2
-movhpd
+movhps
 [
 dstq
 +

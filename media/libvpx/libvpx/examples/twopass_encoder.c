@@ -930,9 +930,6 @@ int
 w
 h
 ;
-vpx_codec_ctx_t
-codec
-;
 vpx_codec_enc_cfg_t
 cfg
 ;
@@ -1228,10 +1225,8 @@ if
 (
 res
 )
-die_codec
+die
 (
-&
-codec
 "
 Failed
 to
@@ -1239,8 +1234,14 @@ get
 default
 codec
 config
-.
+:
+%
+s
 "
+vpx_codec_err_to_string
+(
+res
+)
 )
 ;
 cfg

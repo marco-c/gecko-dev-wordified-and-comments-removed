@@ -87,6 +87,10 @@ HAVE_MIPS64
 0
 .
 equ
+HAVE_X86_ASM
+0
+.
+equ
 HAVE_MMX
 0
 .

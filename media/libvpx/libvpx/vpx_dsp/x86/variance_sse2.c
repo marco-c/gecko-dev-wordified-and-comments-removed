@@ -2659,6 +2659,9 @@ sse
 ;
 }
 #
+if
+HAVE_X86_ASM
+#
 define
 DECL
 (
@@ -3918,3 +3921,5 @@ FNS
 #
 undef
 FN
+#
+endif

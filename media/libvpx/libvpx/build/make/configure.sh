@@ -8138,6 +8138,8 @@ fi
 x86
 *
 )
+soft_enable
+x86_asm
 case
 {
 tgt_os

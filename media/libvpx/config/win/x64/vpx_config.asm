@@ -68,6 +68,10 @@ HAVE_MIPS64
 0
 %
 define
+HAVE_X86_ASM
+1
+%
+define
 HAVE_MMX
 1
 %

@@ -1450,6 +1450,9 @@ h
 ;
 }
 }
+#
+if
+HAVE_X86_ASM
 static
 const
 uint8_t
@@ -9479,3 +9482,5 @@ avx2
 #
 undef
 HIGHBD_FUNC
+#
+endif

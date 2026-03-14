@@ -1397,11 +1397,16 @@ get
 )
 )
 ;
+#
+if
+CONFIG_VP9_DECODER
 EXPECT_EQ
 (
 received_show_frame_count_
 kShowFrameCount
 )
 ;
+#
+endif
 }
 }

@@ -1324,6 +1324,13 @@ vp9_highbd_temporal_filter_sve2
 .
 c
 endif
+ifeq
+(
+(
+HAVE_X86_ASM
+)
+yes
+)
 VP9_CX_SRCS
 -
 (
@@ -1352,6 +1359,7 @@ x86
 vp9_error_sse2
 .
 asm
+endif
 VP9_CX_SRCS
 -
 (

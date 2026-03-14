@@ -3532,6 +3532,9 @@ vpx_satd_sse2
 )
 )
 ;
+#
+if
+HAVE_X86_ASM
 INSTANTIATE_TEST_SUITE_P
 (
 SSE2
@@ -3570,6 +3573,8 @@ vp9_block_error_fp_sse2
 )
 )
 ;
+#
+endif
 #
 endif
 #

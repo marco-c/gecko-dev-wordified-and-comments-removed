@@ -5203,6 +5203,9 @@ if
 HAVE_SSE2
 &
 &
+HAVE_X86_ASM
+&
+&
 !
 CONFIG_EMULATE_HARDWARE
 static

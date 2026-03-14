@@ -8968,6 +8968,9 @@ endif
 #
 if
 HAVE_SSE2
+&
+&
+HAVE_X86_ASM
 const
 SadMxNParam
 sse2_tests

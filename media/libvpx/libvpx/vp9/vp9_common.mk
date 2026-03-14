@@ -819,6 +819,13 @@ msa
 vp9_mfqe_msa
 .
 c
+ifeq
+(
+(
+HAVE_X86_ASM
+)
+yes
+)
 VP9_COMMON_SRCS
 -
 (
@@ -833,6 +840,7 @@ x86
 vp9_mfqe_sse2
 .
 asm
+endif
 endif
 ifneq
 (

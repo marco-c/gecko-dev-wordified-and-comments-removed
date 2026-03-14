@@ -1040,6 +1040,14 @@ make_tuple
 #
 if
 HAVE_SSE2
+&
+&
+(
+CONFIG_VP9_HIGHBITDEPTH
+|
+|
+HAVE_X86_ASM
+)
 const
 BlockErrorParam
 sse2_block_error_tests
@@ -1076,6 +1084,9 @@ VPX_BITS_8
 )
 #
 endif
+#
+if
+HAVE_X86_ASM
 make_tuple
 (
 &
@@ -1090,6 +1101,8 @@ vp9_block_error_c
 >
 VPX_BITS_8
 )
+#
+endif
 }
 ;
 INSTANTIATE_TEST_SUITE_P
