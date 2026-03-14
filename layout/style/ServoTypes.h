@@ -191,12 +191,6 @@ ViewTimelines
 <
 <
 6
-TimelineScopes
-=
-1
-<
-<
-7
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
