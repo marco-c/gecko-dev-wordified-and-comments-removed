@@ -96,15 +96,8 @@ test_no_browsing_context
 (
 session
 closed_frame
-doc
 )
 :
-    
-session
-.
-url
-=
-doc
     
 response
 =
@@ -113,10 +106,14 @@ get_current_url
 session
 )
     
-assert_success
+assert_error
 (
 response
-doc
+"
+no
+such
+window
+"
 )
 def
 test_get_current_url_matches_location
