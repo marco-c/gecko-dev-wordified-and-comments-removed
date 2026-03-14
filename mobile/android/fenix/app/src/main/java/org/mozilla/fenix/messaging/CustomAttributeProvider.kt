@@ -117,7 +117,7 @@ support
 .
 utils
 .
-BrowsersCache
+Browsers
 import
 org
 .
@@ -673,14 +673,12 @@ mapOf
 is_default_browser
 "
 to
-BrowsersCache
+Browsers
 .
-all
+isDefaultBrowser
 (
 context
 )
-.
-isDefaultBrowser
 "
 date_string
 "
