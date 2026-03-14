@@ -2222,15 +2222,8 @@ AssistIntentProcessor
 (
 )
 StartSearchIntentProcessor
-{
-components
-.
-fenixOnboarding
-.
-userHasBeenOnboarded
 (
 )
-}
 OpenBrowserIntentProcessor
 (
 this
