@@ -3441,7 +3441,7 @@ merino
 .
 timeoutMs
 "
-200
+500
 )
 ;
 pref
