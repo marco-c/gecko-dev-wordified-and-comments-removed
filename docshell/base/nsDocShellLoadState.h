@@ -765,6 +765,14 @@ nsISHEntry
 aSHEntry
 )
 ;
+void
+SetPreviousEntryForActivation
+(
+nsISHEntry
+*
+aSHEntry
+)
+;
 const
 mozilla
 :

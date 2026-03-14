@@ -32,6 +32,9 @@ NavigationHistoryBehavior
 uint8_t
 ;
 class
+SessionHistoryInfo
+;
+class
 NavigationUtils
 {
 public

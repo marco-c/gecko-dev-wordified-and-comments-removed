@@ -6853,7 +6853,7 @@ GetBrowsingContext
 mActiveBrowsingContextInContent
 -
 >
-GetIsInBFCache
+IsEnteringBFCache
 (
 )
 )
