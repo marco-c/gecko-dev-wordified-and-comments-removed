@@ -335,6 +335,12 @@ websites
 {
 websites
 }
+.
+removable
+=
+{
+true
+}
 >
 <
 /
