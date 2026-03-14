@@ -325,7 +325,7 @@ stub
 (
 ShellService
 "
-createWindowsIcon
+writeShortcutIcon
 "
 )
 .

@@ -905,7 +905,7 @@ lazy
 .
 ShellService
 .
-createWindowsIcon
+writeShortcutIcon
 (
 iconFile
 aIcon
@@ -1688,8 +1688,15 @@ id
 +
 "
 .
-ico
 "
++
+lazy
+.
+ShellService
+.
+shortcutIconType
+.
+extension
 )
 ;
 return
