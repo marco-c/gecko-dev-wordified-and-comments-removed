@@ -3,6 +3,13 @@ DEFAULT
 ]
 [
 "
+browser_permmgr_interaction_tracker
+.
+js
+"
+]
+[
+"
 browser_permmgr_sync
 .
 js
