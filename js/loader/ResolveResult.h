@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-NotNull
+UniquePtr
 .
 h
 "
@@ -26,6 +26,13 @@ h
 include
 "
 nsIURI
+.
+h
+"
+#
+include
+"
+ResolvedModuleSet
 .
 h
 "
@@ -160,12 +167,9 @@ Result
 mozilla
 :
 :
-NotNull
+UniquePtr
 <
-nsCOMPtr
-<
-nsIURI
->
+SpecifierResolutionRecord
 >
 ResolveError
 >
