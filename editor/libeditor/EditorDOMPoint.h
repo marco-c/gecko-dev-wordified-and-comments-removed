@@ -7418,6 +7418,12 @@ nsContentUtils
 :
 :
 ComparePoints
+<
+TreeKind
+:
+:
+ShadowIncludingDOM
+>
 (
 ToRawRangeBoundary
 (
@@ -7499,6 +7505,12 @@ nsContentUtils
 :
 :
 ComparePoints
+<
+TreeKind
+:
+:
+ShadowIncludingDOM
+>
 (
 ToRawRangeBoundary
 (

@@ -911,6 +911,12 @@ nsContentUtils
 :
 :
 ComparePoints
+<
+TreeKind
+:
+:
+ShadowIncludingDOM
+>
 (
 aStartBoundary
 compPoint
@@ -940,6 +946,12 @@ nsContentUtils
 :
 :
 ComparePoints
+<
+TreeKind
+:
+:
+ShadowIncludingDOM
+>
 (
 aEndBoundary
 compPoint

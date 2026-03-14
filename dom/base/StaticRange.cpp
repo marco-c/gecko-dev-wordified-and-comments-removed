@@ -632,6 +632,12 @@ nsContentUtils
 :
 :
 ComparePoints
+<
+TreeKind
+:
+:
+ShadowIncludingDOM
+>
 (
 mStart
 mEnd
