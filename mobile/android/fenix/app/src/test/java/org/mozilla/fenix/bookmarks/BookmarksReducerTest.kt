@@ -4644,9 +4644,9 @@ edit
 bookmark
 screen
 THEN
-it
-is
-filtered
+newlines
+are
+replaced
 (
 )
 {
