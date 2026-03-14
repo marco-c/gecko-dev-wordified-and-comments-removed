@@ -3697,6 +3697,7 @@ AsyncReadbackBufferNLRS
 mGL
 aSize
 bufferHandle
+true
 )
 ;
 }
