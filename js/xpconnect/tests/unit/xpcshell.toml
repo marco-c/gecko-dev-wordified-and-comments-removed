@@ -463,6 +463,11 @@ lazy_shared_in_worker
 .
 js
 "
+"
+error_twice
+.
+mjs
+"
 ]
 [
 "
