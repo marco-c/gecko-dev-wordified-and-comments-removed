@@ -557,6 +557,9 @@ defaultSearchEngineId
 defaultEngine
 .
 id
+searchEnvironmentId
+=
+null
 )
 }
 override

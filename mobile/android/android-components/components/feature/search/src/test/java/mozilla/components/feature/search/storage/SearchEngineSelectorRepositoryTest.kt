@@ -584,6 +584,9 @@ defaultSearchEngineId
 =
 "
 "
+searchEnvironmentId
+=
+null
 )
 val
 expectedConfig
@@ -778,6 +781,9 @@ defaultSearchEngineId
 =
 "
 "
+searchEnvironmentId
+=
+null
 )
 val
 expectedConfig

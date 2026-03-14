@@ -438,6 +438,9 @@ listOf
 google
 "
 )
+searchEnginesConfigurationId
+=
+1
 )
 )
 assertTrue
@@ -551,6 +554,9 @@ listOf
 google
 "
 )
+searchEnginesConfigurationId
+=
+12
 )
 )
 assertTrue
