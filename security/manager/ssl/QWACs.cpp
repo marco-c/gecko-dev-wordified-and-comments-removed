@@ -763,6 +763,12 @@ true
 ;
 }
 }
+policyInformationContents
+.
+SkipToEnd
+(
+)
+;
 return
 Success
 ;
