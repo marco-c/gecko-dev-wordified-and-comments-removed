@@ -500,7 +500,7 @@ bool
 RuntimeTest
 :
 :
-init
+initContext
 (
 JSContext
 *
@@ -3715,7 +3715,7 @@ return
 test
 -
 >
-init
+initContext
 (
 maybeReusedContext
 )
