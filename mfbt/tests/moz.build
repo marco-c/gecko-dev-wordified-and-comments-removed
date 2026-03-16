@@ -54,9 +54,6 @@ TestCheckedInt
 TestCompactPair
 "
 "
-TestCountZeroes
-"
-"
 TestDefineEnum
 "
 "
