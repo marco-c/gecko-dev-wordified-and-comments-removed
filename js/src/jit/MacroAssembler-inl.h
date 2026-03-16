@@ -33,6 +33,11 @@ h
 "
 #
 include
+<
+bit
+>
+#
+include
 "
 gc
 /
@@ -6030,10 +6035,10 @@ lowestBit
 1
 <
 <
-mozilla
+std
 :
 :
-CountTrailingZeroes32
+countr_zero
 (
 off
 )

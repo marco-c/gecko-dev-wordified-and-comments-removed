@@ -919,10 +919,10 @@ x
 )
 {
 return
-mozilla
+std
 :
 :
-CountTrailingZeroes32
+countr_zero
 (
 x
 )
