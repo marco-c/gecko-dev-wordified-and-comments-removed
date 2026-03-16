@@ -22,6 +22,11 @@ h
 "
 #
 include
+<
+bit
+>
+#
+include
 "
 jit
 /
@@ -1011,10 +1016,10 @@ rhs
 0
 &
 &
-mozilla
+std
 :
 :
-IsPowerOfTwo
+has_single_bit
 (
 mozilla
 :

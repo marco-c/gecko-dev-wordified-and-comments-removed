@@ -35,6 +35,11 @@ h
 "
 #
 include
+<
+bit
+>
+#
+include
 "
 jit
 /
@@ -6603,10 +6608,10 @@ endif
 MOZ_ASSERT
 (
 !
-mozilla
+std
 :
 :
-IsPowerOfTwo
+has_single_bit
 (
 d
 )
@@ -7834,10 +7839,10 @@ endif
 MOZ_ASSERT
 (
 !
-mozilla
+std
 :
 :
-IsPowerOfTwo
+has_single_bit
 (
 mozilla
 :
