@@ -34796,6 +34796,12 @@ if
 this
 .
 focusedViaMousedown
+&
+&
+!
+this
+.
+_permanentlySuppressStartQuery
 )
 {
 this
