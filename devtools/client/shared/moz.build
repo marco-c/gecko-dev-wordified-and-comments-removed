@@ -61,6 +61,13 @@ fluent
 l10n
 "
 "
+inplace
+-
+editor
+-
+utils
+"
+"
 redux
 "
 "
