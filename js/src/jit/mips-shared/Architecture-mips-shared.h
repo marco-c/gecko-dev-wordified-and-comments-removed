@@ -1310,10 +1310,10 @@ bits
 return
 63
 -
-mozilla
+std
 :
 :
-CountLeadingZeroes64
+countl_zero
 (
 x
 )
