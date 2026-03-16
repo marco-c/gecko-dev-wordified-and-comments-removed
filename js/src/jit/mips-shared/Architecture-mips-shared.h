@@ -901,10 +901,10 @@ bits
 )
 ;
 return
-mozilla
+std
 :
 :
-CountPopulation32
+popcount
 (
 x
 )

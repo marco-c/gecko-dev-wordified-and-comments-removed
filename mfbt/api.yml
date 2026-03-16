@@ -993,8 +993,6 @@ CountLeadingZeroes32
 -
 CountTrailingZeroes32
 -
-CountPopulation32
--
 CountLeadingZeroes64
 -
 CountTrailingZeroes64

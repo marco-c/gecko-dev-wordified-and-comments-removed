@@ -30,6 +30,11 @@ algorithm
 #
 include
 <
+bit
+>
+#
+include
+<
 limits
 .
 h
@@ -697,10 +702,10 @@ bits
 )
 ;
 return
-mozilla
+std
 :
 :
-CountPopulation32
+popcount
 (
 x
 )
@@ -2713,10 +2718,10 @@ bits
 )
 ;
 return
-mozilla
+std
 :
 :
-CountPopulation32
+popcount
 (
 x
 )

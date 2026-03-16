@@ -112,11 +112,6 @@ TestCompactPair
 ]
 [
 "
-TestCountPopulation
-"
-]
-[
-"
 TestCountZeroes
 "
 ]
