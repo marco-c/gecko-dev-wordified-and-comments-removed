@@ -6032,7 +6032,9 @@ r
 dudalen
 hon
 mewn
-eiliadau
+dim
+o
+dro
 .
 <
 /
@@ -41743,11 +41745,11 @@ zero
 >
 %
 d
-Traciwr
+Traciwyr
 wedi
 \
 '
-i
+u
 rwystro
 <
 /
@@ -41763,11 +41765,11 @@ two
 >
 %
 d
-Traciwr
+Draciwr
 wedi
 \
 '
-i
+u
 rwystro
 <
 /
@@ -41787,7 +41789,7 @@ Traciwr
 wedi
 \
 '
-i
+u
 rwystro
 <
 /
@@ -41807,7 +41809,7 @@ Traciwr
 wedi
 \
 '
-i
+u
 rwystro
 <
 /
@@ -41827,7 +41829,7 @@ Traciwr
 wedi
 \
 '
-i
+u
 rwystro
 <
 /
@@ -41866,9 +41868,7 @@ name
 trackers_blocked_empty
 "
 >
-Rydych
-chi
-wedi
+Wedi
 \
 '
 ch
