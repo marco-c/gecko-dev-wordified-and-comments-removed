@@ -40098,9 +40098,11 @@ MIRType
 Int32
 )
 {
-int32_t
+uint32_t
 n
 =
+uint32_t
+(
 num
 (
 )
@@ -40114,6 +40116,7 @@ toConstant
 toInt32
 (
 )
+)
 ;
 return
 MConstant
@@ -40122,10 +40125,10 @@ MConstant
 NewInt32
 (
 alloc
-mozilla
+std
 :
 :
-CountPopulation32
+popcount
 (
 n
 )

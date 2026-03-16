@@ -20,6 +20,11 @@ algorithm
 >
 #
 include
+<
+bit
+>
+#
+include
 "
 jit
 /
@@ -250,10 +255,10 @@ bits
 )
 ;
 return
-mozilla
+std
 :
 :
-CountPopulation32
+popcount
 (
 x
 )
@@ -1763,10 +1768,10 @@ FloatRegisters
 AllPhysMask
 ;
 return
-mozilla
+std
 :
 :
-CountPopulation32
+popcount
 (
 x
 )

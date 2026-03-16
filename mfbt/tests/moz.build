@@ -54,9 +54,6 @@ TestCheckedInt
 TestCompactPair
 "
 "
-TestCountPopulation
-"
-"
 TestCountZeroes
 "
 "
