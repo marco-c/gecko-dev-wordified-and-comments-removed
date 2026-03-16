@@ -196,13 +196,6 @@ js
 ]
 [
 "
-browser_aiwindow_followup_tokens
-.
-js
-"
-]
-[
-"
 browser_aiwindow_immersive
 .
 js
@@ -218,6 +211,13 @@ js
 [
 "
 browser_aiwindow_memories
+.
+js
+"
+]
+[
+"
+browser_aiwindow_memory_tokens
 .
 js
 "
