@@ -80,6 +80,17 @@ size_t
 aBytesRead
 )
 {
+if
+(
+aOffset
+<
+0
+)
+{
+return
+NS_ERROR_DOM_MEDIA_RANGE_ERR
+;
+}
 uint32_t
 sum
 =
