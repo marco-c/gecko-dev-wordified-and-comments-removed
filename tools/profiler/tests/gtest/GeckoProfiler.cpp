@@ -9542,7 +9542,7 @@ profiler_start
 (
 PowerOfTwo32
 (
-999999
+999999u
 )
 3
 features
@@ -9598,7 +9598,7 @@ int
 (
 PowerOfTwo32
 (
-999999
+999999u
 )
 .
 Value
@@ -9670,7 +9670,7 @@ profiler_start
 (
 PowerOfTwo32
 (
-999999
+999999u
 )
 3
 features
@@ -9723,7 +9723,7 @@ int
 (
 PowerOfTwo32
 (
-999999
+999999u
 )
 .
 Value
@@ -9788,7 +9788,7 @@ profiler_start
 (
 PowerOfTwo32
 (
-88888
+88888u
 )
 10
 availableFeatures
@@ -9842,7 +9842,7 @@ ActiveParamsCheck
 (
 PowerOfTwo32
 (
-88888
+88888u
 )
 .
 Value
@@ -9891,7 +9891,7 @@ profiler_start
 (
 PowerOfTwo32
 (
-0
+0u
 )
 0
 features
