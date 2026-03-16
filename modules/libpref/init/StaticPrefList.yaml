@@ -48680,7 +48680,7 @@ layer
 compositor
 type
 :
-RelaxedAtomicBool
+bool
 #
 if
 defined
@@ -48699,7 +48699,7 @@ false
 endif
 mirror
 :
-always
+once
 #
 ifdef
 XP_WIN

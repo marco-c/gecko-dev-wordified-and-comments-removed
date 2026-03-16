@@ -1465,7 +1465,7 @@ if
 StaticPrefs
 :
 :
-gfx_webrender_layer_compositor
+gfx_webrender_layer_compositor_AtStartup
 (
 )
 )
@@ -1580,7 +1580,7 @@ if
 StaticPrefs
 :
 :
-gfx_webrender_layer_compositor
+gfx_webrender_layer_compositor_AtStartup
 (
 )
 )
