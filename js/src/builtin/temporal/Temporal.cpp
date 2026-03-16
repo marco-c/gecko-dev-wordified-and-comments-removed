@@ -2996,10 +2996,10 @@ extraBitsCount
 =
 32
 -
-mozilla
+std
 :
 :
-CountLeadingZeroes32
+countl_zero
 (
 ignoredBits
 )
