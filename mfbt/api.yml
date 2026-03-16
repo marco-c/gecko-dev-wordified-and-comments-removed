@@ -1005,8 +1005,6 @@ RotateLeft
 -
 RotateRight
 -
-IsPowerOfTwo
--
 GCD
 Maybe
 .
