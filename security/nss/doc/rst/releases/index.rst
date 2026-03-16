@@ -71,9 +71,6 @@ rst
 nss_3_113
 .
 rst
-nss_3_112_3
-.
-rst
 nss_3_112_2
 .
 rst

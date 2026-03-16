@@ -15,7 +15,7 @@ h
 #
 include
 "
-prlock
+nssilckt
 .
 h
 "
@@ -200,7 +200,7 @@ void
 *
 functionList
 ;
-PRLock
+PZLock
 *
 refLock
 ;
@@ -313,7 +313,7 @@ PK11SlotListElement
 *
 tail
 ;
-PRLock
+PZLock
 *
 lock
 ;

@@ -72,7 +72,7 @@ NSSArena
 *
 arena
 ;
-PRLock
+PZLock
 *
 lock
 ;
@@ -206,7 +206,7 @@ lastTokenPingTime
 nssSlotLastPingState
 lastTokenPingState
 ;
-PRLock
+PZLock
 *
 lock
 ;
@@ -218,7 +218,7 @@ PK11SlotInfo
 *
 pk11slot
 ;
-PRLock
+PZLock
 *
 isPresentLock
 ;
@@ -235,7 +235,7 @@ isPresentThread
 struct
 nssSessionStr
 {
-PRLock
+PZLock
 *
 lock
 ;

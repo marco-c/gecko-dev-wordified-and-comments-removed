@@ -115,11 +115,11 @@ refCount
 ;
 union
 {
-PRLock
+PZLock
 *
 lock
 ;
-PRMonitor
+PZMonitor
 *
 mlock
 ;

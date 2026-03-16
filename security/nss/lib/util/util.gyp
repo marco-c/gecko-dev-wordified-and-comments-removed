@@ -139,6 +139,11 @@ nsshash
 c
 '
 '
+nssilock
+.
+c
+'
+'
 nssrwlk
 .
 c

@@ -7,7 +7,7 @@ __det_rng_h_
 SECStatus
 prng_ResetForFuzzing
 (
-PRLock
+PZLock
 *
 rng_lock
 )
@@ -15,7 +15,7 @@ rng_lock
 SECStatus
 prng_GenerateDeterministicRandomBytes
 (
-PRLock
+PZLock
 *
 rng_lock
 void

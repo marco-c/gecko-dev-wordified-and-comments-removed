@@ -12,6 +12,13 @@ nspr
 h
 "
 #
+include
+"
+nssilock
+.
+h
+"
+#
 define
 DUMMY
 #

@@ -22,6 +22,13 @@ h
 #
 include
 "
+nssilckt
+.
+h
+"
+#
+include
+"
 secmodt
 .
 h
@@ -121,7 +128,7 @@ flags
 CK_SESSION_HANDLE
 session
 ;
-PRLock
+PZLock
 *
 sessionLock
 ;
@@ -135,7 +142,7 @@ defaultFlags
 PRInt32
 refCount
 ;
-PRLock
+PZLock
 *
 freeListLock
 ;
@@ -257,7 +264,7 @@ NSSToken
 *
 nssToken
 ;
-PRLock
+PZLock
 *
 nssTokenLock
 ;
@@ -360,7 +367,7 @@ slot
 CK_SESSION_HANDLE
 session
 ;
-PRLock
+PZLock
 *
 sessionLock
 ;

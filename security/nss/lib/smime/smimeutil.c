@@ -880,7 +880,7 @@ smime_algorithm_list
 NULL
 ;
 static
-PRLock
+PZLock
 *
 algorithm_list_lock
 =
@@ -1183,9 +1183,6 @@ SECOidTag
 if
 (
 new_space
-=
-=
-NULL
 )
 {
 return
@@ -1530,7 +1527,7 @@ if
 algorithm_list_lock
 )
 {
-PR_Lock
+PZ_Lock
 (
 algorithm_list_lock
 )
@@ -1556,7 +1553,7 @@ if
 algorithm_list_lock
 )
 {
-PR_Unlock
+PZ_Unlock
 (
 algorithm_list_lock
 )
@@ -1582,7 +1579,7 @@ if
 algorithm_list_lock
 )
 {
-PR_DestroyLock
+PZ_DestroyLock
 (
 algorithm_list_lock
 )
@@ -1688,8 +1685,9 @@ PR_FAILURE
 }
 algorithm_list_lock
 =
-PR_NewLock
+PZ_NewLock
 (
+nssILockCache
 )
 ;
 if
@@ -1927,7 +1925,7 @@ tagCount
 ;
 if
 (
-legacy_prefs
+lengths
 =
 =
 NULL

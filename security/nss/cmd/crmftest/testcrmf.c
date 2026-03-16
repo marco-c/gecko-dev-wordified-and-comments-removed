@@ -583,11 +583,6 @@ PR_FALSE
 pwdata
 )
 ;
-PORT_Free
-(
-rsaParams
-)
-;
 }
 else
 {

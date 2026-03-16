@@ -39,7 +39,7 @@ DB
 *
 permCertDB
 ;
-PRMonitor
+PZMonitor
 *
 dbMon
 ;

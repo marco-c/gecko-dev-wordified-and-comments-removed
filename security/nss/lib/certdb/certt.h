@@ -56,6 +56,13 @@ h
 #
 include
 "
+nssilock
+.
+h
+"
+#
+include
+"
 prio
 .
 h
@@ -2035,7 +2042,7 @@ refCount
 int
 len
 ;
-PRLock
+PZLock
 *
 lock
 ;

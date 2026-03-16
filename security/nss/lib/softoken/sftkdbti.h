@@ -39,7 +39,7 @@ SECItem
 *
 updatePasswordKey
 ;
-PRLock
+PZLock
 *
 passwordLock
 ;

@@ -80,7 +80,7 @@ nssCertificateStore
 *
 store
 ;
-PRLock
+PZLock
 *
 lock
 ;

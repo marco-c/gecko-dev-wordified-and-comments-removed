@@ -322,9 +322,6 @@ unsigned
 char
 *
 mHash
-unsigned
-int
-mHashLen
 HASH_HashType
 hashAlg
 HASH_HashType

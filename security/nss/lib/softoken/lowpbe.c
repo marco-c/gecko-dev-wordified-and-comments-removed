@@ -2954,7 +2954,7 @@ KDF2_CACHE_COUNT
 static
 struct
 {
-PRLock
+PZLock
 *
 lock
 ;
@@ -3007,8 +3007,9 @@ PBECache
 .
 lock
 =
-PR_NewLock
+PZ_NewLock
 (
+nssIPBECacheLock
 )
 ;
 }
@@ -3202,7 +3203,7 @@ SECItem
 pwItem
 )
 {
-PR_Lock
+PZ_Lock
 (
 PBECache
 .
@@ -3269,7 +3270,7 @@ next
 0
 ;
 }
-PR_Unlock
+PZ_Unlock
 (
 PBECache
 .
@@ -3297,7 +3298,7 @@ PRBool
 faulty3DES
 )
 {
-PR_Lock
+PZ_Lock
 (
 PBECache
 .
@@ -3346,7 +3347,7 @@ pbe_param
 >
 ivLen
 ;
-PR_Unlock
+PZ_Unlock
 (
 PBECache
 .
@@ -3477,7 +3478,7 @@ NULL
 int
 i
 ;
-PR_Lock
+PZ_Lock
 (
 PBECache
 .
@@ -3538,7 +3539,7 @@ break
 ;
 }
 }
-PR_Unlock
+PZ_Unlock
 (
 PBECache
 .
@@ -3584,7 +3585,7 @@ cacheKDF1
 .
 common
 ;
-PR_Lock
+PZ_Lock
 (
 PBECache
 .
@@ -3635,7 +3636,7 @@ hash
 )
 ;
 }
-PR_Unlock
+PZ_Unlock
 (
 PBECache
 .
@@ -3662,7 +3663,7 @@ PBECache
 lock
 )
 {
-PR_DestroyLock
+PZ_DestroyLock
 (
 PBECache
 .

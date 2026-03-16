@@ -2552,7 +2552,7 @@ return
 }
 SKIP_AFTER_FORK
 (
-PR_Lock
+PZ_Lock
 (
 keydb
 -
@@ -2626,7 +2626,7 @@ len
 ;
 SKIP_AFTER_FORK
 (
-PR_Unlock
+PZ_Unlock
 (
 keydb
 -
@@ -2743,7 +2743,7 @@ return
 NULL
 ;
 }
-PR_Lock
+PZ_Lock
 (
 handle
 -
@@ -2770,7 +2770,7 @@ updatePasswordKey
 )
 ;
 }
-PR_Unlock
+PZ_Unlock
 (
 handle
 -
@@ -2819,7 +2819,7 @@ SFTK_CERTDB_TYPE
 return
 ;
 }
-PR_Lock
+PZ_Lock
 (
 handle
 -
@@ -2850,7 +2850,7 @@ updatePasswordKey
 NULL
 ;
 }
-PR_Unlock
+PZ_Unlock
 (
 handle
 -
@@ -3808,7 +3808,7 @@ SFTK_PW_CHECK_LEN
 0
 )
 {
-PR_Lock
+PZ_Lock
 (
 keydb
 -
@@ -3834,7 +3834,7 @@ SECITEM_DupItem
 key
 )
 ;
-PR_Unlock
+PZ_Unlock
 (
 keydb
 -
@@ -3918,7 +3918,7 @@ else
 }
 else
 {
-PR_Unlock
+PZ_Unlock
 (
 keydb
 -
@@ -4022,7 +4022,7 @@ keydb
 SECStatus
 rv
 ;
-PR_Lock
+PZ_Lock
 (
 keydb
 -
@@ -4043,7 +4043,7 @@ SECSuccess
 :
 SECFailure
 ;
-PR_Unlock
+PZ_Unlock
 (
 keydb
 -

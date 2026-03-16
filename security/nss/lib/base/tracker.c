@@ -67,14 +67,15 @@ tracker
 >
 lock
 =
-PR_NewLock
+PZ_NewLock
 (
+nssILockOther
 )
 ;
 if
 (
 (
-PRLock
+PZLock
 *
 )
 NULL
@@ -128,7 +129,7 @@ tracker
 table
 )
 {
-PR_DestroyLock
+PZ_DestroyLock
 (
 tracker
 -
@@ -142,7 +143,7 @@ tracker
 lock
 =
 (
-PRLock
+PZLock
 *
 )
 NULL
@@ -234,7 +235,7 @@ nssPointerTracker
 tracker
 )
 {
-PRLock
+PZLock
 *
 lock
 ;
@@ -262,7 +263,7 @@ PR_FAILURE
 if
 (
 (
-PRLock
+PZLock
 *
 )
 NULL
@@ -290,7 +291,7 @@ tracker
 >
 lock
 ;
-PR_Lock
+PZ_Lock
 (
 lock
 )
@@ -310,7 +311,7 @@ tracker
 table
 )
 {
-PR_Unlock
+PZ_Unlock
 (
 lock
 )
@@ -351,7 +352,7 @@ if
 count
 )
 {
-PR_Unlock
+PZ_Unlock
 (
 lock
 )
@@ -388,7 +389,7 @@ tracker
 lock
 =
 (
-PRLock
+PZLock
 *
 )
 NULL
@@ -404,12 +405,12 @@ PLHashTable
 )
 NULL
 ;
-PR_Unlock
+PZ_Unlock
 (
 lock
 )
 ;
-PR_DestroyLock
+PZ_DestroyLock
 (
 lock
 )
@@ -463,7 +464,7 @@ PR_FAILURE
 if
 (
 (
-PRLock
+PZLock
 *
 )
 NULL
@@ -484,7 +485,7 @@ return
 PR_FAILURE
 ;
 }
-PR_Lock
+PZ_Lock
 (
 tracker
 -
@@ -507,7 +508,7 @@ tracker
 table
 )
 {
-PR_Unlock
+PZ_Unlock
 (
 tracker
 -
@@ -547,7 +548,7 @@ NULL
 check
 )
 {
-PR_Unlock
+PZ_Unlock
 (
 tracker
 -
@@ -580,7 +581,7 @@ void
 pointer
 )
 ;
-PR_Unlock
+PZ_Unlock
 (
 tracker
 -
@@ -653,7 +654,7 @@ PR_FAILURE
 if
 (
 (
-PRLock
+PZLock
 *
 )
 NULL
@@ -674,7 +675,7 @@ return
 PR_FAILURE
 ;
 }
-PR_Lock
+PZ_Lock
 (
 tracker
 -
@@ -697,7 +698,7 @@ tracker
 table
 )
 {
-PR_Unlock
+PZ_Unlock
 (
 tracker
 -
@@ -725,7 +726,7 @@ table
 pointer
 )
 ;
-PR_Unlock
+PZ_Unlock
 (
 tracker
 -
@@ -793,7 +794,7 @@ PR_FAILURE
 if
 (
 (
-PRLock
+PZLock
 *
 )
 NULL
@@ -814,7 +815,7 @@ return
 PR_FAILURE
 ;
 }
-PR_Lock
+PZ_Lock
 (
 tracker
 -
@@ -837,7 +838,7 @@ tracker
 table
 )
 {
-PR_Unlock
+PZ_Unlock
 (
 tracker
 -
@@ -865,7 +866,7 @@ table
 pointer
 )
 ;
-PR_Unlock
+PZ_Unlock
 (
 tracker
 -

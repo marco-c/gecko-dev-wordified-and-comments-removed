@@ -870,16 +870,9 @@ status
 =
 SECSuccess
 )
-{
-ssl_Release1stHandshakeLock
-(
-ss
-)
-;
 goto
 loser
 ;
-}
 ssl_GetSSL3HandshakeLock
 (
 ss

@@ -288,6 +288,10 @@ nssrwlk
 .
 c
 \
+nssilock
+.
+c
+\
 oidstring
 .
 c

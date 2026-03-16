@@ -15,6 +15,13 @@ h
 #
 include
 "
+nssilock
+.
+h
+"
+#
+include
+"
 secmodi
 .
 h
@@ -120,7 +127,7 @@ isThreadSafe
 )
 )
 {
-PR_Lock
+PZ_Lock
 (
 cx
 -
@@ -170,7 +177,7 @@ isThreadSafe
 )
 )
 {
-PR_Unlock
+PZ_Unlock
 (
 cx
 -
@@ -283,7 +290,7 @@ context
 >
 sessionLock
 )
-PR_DestroyLock
+PZ_DestroyLock
 (
 context
 -
@@ -1929,8 +1936,9 @@ context
 >
 sessionLock
 =
-PR_NewLock
+PZ_NewLock
 (
+nssILockPK11cxt
 )
 ;
 if

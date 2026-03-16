@@ -50,6 +50,13 @@ h
 #
 include
 "
+nssilock
+.
+h
+"
+#
+include
+"
 sslencode
 .
 h
@@ -89,7 +96,7 @@ cache
 NULL
 ;
 static
-PRLock
+PZLock
 *
 cacheLock
 =
@@ -104,7 +111,7 @@ lock_cache
 #
 define
 UNLOCK_CACHE
-PR_Unlock
+PZ_Unlock
 (
 cacheLock
 )
@@ -117,8 +124,9 @@ void
 {
 cacheLock
 =
-PR_NewLock
+PZ_NewLock
 (
+nssILockCache
 )
 ;
 return
@@ -141,7 +149,7 @@ if
 cacheLock
 )
 {
-PR_DestroyLock
+PZ_DestroyLock
 (
 cacheLock
 )
@@ -512,7 +520,7 @@ ssl_InitSessionCacheLocks
 PR_TRUE
 )
 ;
-PR_Lock
+PZ_Lock
 (
 cacheLock
 )

@@ -4122,7 +4122,7 @@ intel
 -
 gcm
 .
-s
+S
 EXTRA_SRCS
 +
 =
