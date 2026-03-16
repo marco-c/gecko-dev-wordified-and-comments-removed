@@ -7129,6 +7129,11 @@ info
 .
 gradient
 .
+start_offset
+info
+.
+gradient
+.
 end_offset
 info
 .
