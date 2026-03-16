@@ -72,6 +72,7 @@ rule_tree
 :
 {
 CascadeLevel
+CascadeOrigin
 RuleTree
 StrongRuleNode
 StyleSource
@@ -466,7 +467,13 @@ clone
 CascadeLevel
 :
 :
-UserNormal
+new
+(
+CascadeOrigin
+:
+:
+User
+)
 )
 )
 _
@@ -598,7 +605,13 @@ Normal
 CascadeLevel
 :
 :
-UserNormal
+new
+(
+CascadeOrigin
+:
+:
+User
+)
 )
 )
 ;

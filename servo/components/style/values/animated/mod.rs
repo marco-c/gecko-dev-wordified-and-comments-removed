@@ -2128,6 +2128,12 @@ i32
 trivial_to_animated_value
 !
 (
+u8
+)
+;
+trivial_to_animated_value
+!
+(
 u32
 )
 ;
