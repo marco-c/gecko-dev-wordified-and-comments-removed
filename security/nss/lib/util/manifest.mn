@@ -84,6 +84,10 @@ kyber
 .
 h
 \
+ml_dsat
+.
+h
+\
 nssb64
 .
 h
@@ -281,10 +285,6 @@ nsshash
 c
 \
 nssrwlk
-.
-c
-\
-nssilock
 .
 c
 \

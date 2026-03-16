@@ -2576,12 +2576,10 @@ rwlock
 SECStatus
 __nss_InitLock
 (
-PZLock
+PRLock
 *
 *
 ppLock
-nssILockType
-ltype
 )
 {
 PORT_SetError

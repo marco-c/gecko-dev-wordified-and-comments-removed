@@ -15,13 +15,6 @@ h
 #
 include
 "
-nssilock
-.
-h
-"
-#
-include
-"
 secmodi
 .
 h
@@ -3180,7 +3173,7 @@ SECMODModule
 module
 )
 {
-PZ_Lock
+PR_Lock
 (
 module
 -
@@ -3205,7 +3198,7 @@ refCount
 +
 +
 ;
-PZ_Unlock
+PR_Unlock
 (
 module
 -
@@ -3236,7 +3229,7 @@ slotCount
 int
 i
 ;
-PZ_Lock
+PR_Lock
 (
 module
 -
@@ -3277,7 +3270,7 @@ refCount
 )
 )
 ;
-PZ_Unlock
+PR_Unlock
 (
 module
 -
@@ -3437,7 +3430,7 @@ refCount
 0
 )
 ;
-PZ_Lock
+PR_Lock
 (
 module
 -
@@ -3478,7 +3471,7 @@ slotCount
 )
 )
 ;
-PZ_Unlock
+PR_Unlock
 (
 module
 -
@@ -3521,7 +3514,7 @@ module
 )
 ;
 }
-PZ_DestroyLock
+PR_DestroyLock
 (
 module
 -
@@ -3726,7 +3719,7 @@ return
 SECFailure
 ;
 }
-PZ_Lock
+PR_Lock
 (
 mod
 -
@@ -3785,7 +3778,7 @@ mod
 slotCount
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 mod
 -
@@ -3879,7 +3872,7 @@ freeRef
 =
 PR_FALSE
 ;
-PZ_Unlock
+PR_Unlock
 (
 mod
 -
@@ -4093,7 +4086,7 @@ if
 freeRef
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 mod
 -
@@ -4218,7 +4211,7 @@ return
 NULL
 ;
 }
-PZ_Lock
+PR_Lock
 (
 mod
 -
@@ -4245,7 +4238,7 @@ evControlMask
 ~
 SECMOD_END_WAIT
 ;
-PZ_Unlock
+PR_Unlock
 (
 mod
 -
@@ -4280,7 +4273,7 @@ evControlMask
 SECMOD_WAIT_SIMULATED_EVENT
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 mod
 -
@@ -4406,7 +4399,7 @@ SECMOD_ReleaseReadLock
 moduleLock
 )
 ;
-PZ_Lock
+PR_Lock
 (
 mod
 -
@@ -4423,7 +4416,7 @@ evControlMask
 ~
 SECMOD_END_WAIT
 ;
-PZ_Unlock
+PR_Unlock
 (
 mod
 -
@@ -4465,7 +4458,7 @@ error
 =
 SEC_ERROR_NO_SLOT_SELECTED
 ;
-PZ_Lock
+PR_Lock
 (
 mod
 -
@@ -4483,7 +4476,7 @@ flags
 CKF_DONT_BLOCK
 )
 {
-PZ_Lock
+PR_Lock
 (
 mod
 -
@@ -4499,7 +4492,7 @@ PR_Sleep
 latency
 )
 ;
-PZ_Lock
+PR_Lock
 (
 mod
 -
@@ -4517,7 +4510,7 @@ evControlMask
 ~
 SECMOD_END_WAIT
 ;
-PZ_Unlock
+PR_Unlock
 (
 mod
 -
@@ -4602,7 +4595,7 @@ latency
 )
 ;
 }
-PZ_Lock
+PR_Lock
 (
 mod
 -
@@ -4632,7 +4625,7 @@ evControlMask
 =
 SECMOD_WAIT_PKCS11_EVENT
 ;
-PZ_Unlock
+PR_Unlock
 (
 mod
 -
@@ -4656,7 +4649,7 @@ id
 NULL
 )
 ;
-PZ_Lock
+PR_Lock
 (
 mod
 -
@@ -4687,7 +4680,7 @@ goto
 end_wait
 ;
 }
-PZ_Unlock
+PR_Unlock
 (
 mod
 -
@@ -4839,7 +4832,7 @@ evControlMask
 ~
 SECMOD_END_WAIT
 ;
-PZ_Unlock
+PR_Unlock
 (
 mod
 -
@@ -4876,7 +4869,7 @@ SECSuccess
 CK_RV
 crv
 ;
-PZ_Lock
+PR_Lock
 (
 mod
 -
@@ -5001,7 +4994,7 @@ SECMOD_WAIT_SIMULATED_EVENT
 }
 loser
 :
-PZ_Unlock
+PR_Unlock
 (
 mod
 -

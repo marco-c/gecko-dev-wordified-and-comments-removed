@@ -134,7 +134,7 @@ nssPointerTrackerStr
 PRCallOnceType
 once
 ;
-PZLock
+PRLock
 *
 lock
 ;

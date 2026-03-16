@@ -86,7 +86,7 @@ NSSArena
 arenaOpt
 CK_SESSION_HANDLE
 session
-PZLock
+PRLock
 *
 lock
 PRBool
@@ -401,9 +401,8 @@ base
 .
 lock
 =
-PZ_NewLock
+PR_NewLock
 (
-nssILockOther
 )
 ;
 rvSlot
@@ -488,9 +487,8 @@ rvSlot
 >
 isPresentLock
 =
-PZ_NewLock
+PR_NewLock
 (
-nssiLockOther
 )
 ;
 rvSlot
@@ -616,9 +614,8 @@ base
 .
 lock
 =
-PZ_NewLock
+PR_NewLock
 (
-nssILockOther
 )
 ;
 if
@@ -833,7 +830,7 @@ rvToken
 ;
 loser
 :
-PZ_DestroyLock
+PR_DestroyLock
 (
 rvToken
 -

@@ -3407,6 +3407,11 @@ rv
 SECSuccess
 )
 {
+ssl_ReleaseXmitBufLock
+(
+ss
+)
+;
 return
 rv
 ;
@@ -3417,6 +3422,11 @@ ssl3_FlushHandshake
 (
 ss
 0
+)
+;
+ssl_ReleaseXmitBufLock
+(
+ss
 )
 ;
 if
@@ -3431,11 +3441,6 @@ return
 SECFailure
 ;
 }
-ssl_ReleaseXmitBufLock
-(
-ss
-)
-;
 PORT_Assert
 (
 ss

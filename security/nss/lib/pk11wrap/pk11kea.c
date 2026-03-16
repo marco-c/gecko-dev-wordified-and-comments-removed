@@ -22,13 +22,6 @@ h
 #
 include
 "
-nssilock
-.
-h
-"
-#
-include
-"
 secmodi
 .
 h
@@ -381,11 +374,11 @@ else
 {
 privKey
 =
-PK11_MakePrivKey
+pk11_MakePrivKey
 (
 slot
 nullKey
-PR_TRUE
+PR_FALSE
 privKeyHandle
 symKey
 -

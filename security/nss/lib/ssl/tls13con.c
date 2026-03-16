@@ -5031,7 +5031,7 @@ ecGroup
 =
 ssl_LookupNamedGroup
 (
-ssl_grp_ec_secp256r1
+ssl_grp_ec_secp384r1
 )
 ;
 break
@@ -25039,6 +25039,9 @@ SSL_ERROR_RX_MALFORMED_ENCRYPTED_EXTENSIONS
 illegal_parameter
 )
 ;
+return
+SECFailure
+;
 }
 ss
 -
@@ -27891,7 +27894,7 @@ ssl_hs_finished
 SSL_ERROR_RX_MALFORMED_FINISHED
 :
 SSL_ERROR_RX_MALFORMED_CLIENT_HELLO
-illegal_parameter
+decode_error
 )
 ;
 return

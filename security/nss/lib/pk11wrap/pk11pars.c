@@ -329,9 +329,8 @@ newMod
 >
 refLock
 =
-PZ_NewLock
+PR_NewLock
 (
-nssILockRefLock
 )
 ;
 if

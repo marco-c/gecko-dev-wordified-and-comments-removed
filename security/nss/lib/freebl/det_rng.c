@@ -22,7 +22,7 @@ h
 #
 include
 "
-nssilock
+prlock
 .
 h
 "
@@ -66,7 +66,7 @@ globalNumCalls
 0
 ;
 static
-PZLock
+PRLock
 *
 rng_lock
 =
@@ -90,9 +90,8 @@ void
 {
 rng_lock
 =
-PZ_NewLock
+PR_NewLock
 (
-nssILockOther
 )
 ;
 if
@@ -110,7 +109,7 @@ return
 PR_FAILURE
 ;
 }
-PZ_Lock
+PR_Lock
 (
 rng_lock
 )
@@ -122,7 +121,7 @@ globalBytes
 GLOBAL_BYTES_SIZE
 )
 ;
-PZ_Unlock
+PR_Unlock
 (
 rng_lock
 )
@@ -194,7 +193,7 @@ return
 SECFailure
 ;
 }
-PZ_Lock
+PR_Lock
 (
 rng_lock
 )
@@ -231,7 +230,7 @@ GLOBAL_BYTES_SIZE
 )
 ;
 }
-PZ_Unlock
+PR_Unlock
 (
 rng_lock
 )
@@ -297,7 +296,7 @@ return
 SECFailure
 ;
 }
-PZ_Lock
+PR_Lock
 (
 rng_lock
 )
@@ -342,7 +341,7 @@ PORT_SetError
 SEC_ERROR_NO_MEMORY
 )
 ;
-PZ_Unlock
+PR_Unlock
 (
 rng_lock
 )
@@ -397,7 +396,7 @@ cx
 PR_TRUE
 )
 ;
-PZ_Unlock
+PR_Unlock
 (
 rng_lock
 )
@@ -417,7 +416,7 @@ if
 rng_lock
 )
 {
-PZ_DestroyLock
+PR_DestroyLock
 (
 rng_lock
 )

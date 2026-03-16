@@ -8,13 +8,6 @@ h
 #
 include
 "
-nssilock
-.
-h
-"
-#
-include
-"
 pk11pub
 .
 h
@@ -81,7 +74,7 @@ SSLAntiReplayContextStr
 PRInt32
 refCount
 ;
-PZMonitor
+PRMonitor
 *
 lock
 ;
@@ -149,7 +142,7 @@ ctx
 lock
 )
 {
-PZ_DestroyMonitor
+PR_DestroyMonitor
 (
 ctx
 -
@@ -459,9 +452,8 @@ ctx
 >
 lock
 =
-PZ_NewMonitor
+PR_NewMonitor
 (
-nssILockSSL
 )
 ;
 if
@@ -1036,7 +1028,7 @@ return
 PR_TRUE
 ;
 }
-PZ_EnterMonitor
+PR_EnterMonitor
 (
 ctx
 -
@@ -1181,7 +1173,7 @@ ok
 )
 ;
 }
-PZ_ExitMonitor
+PR_ExitMonitor
 (
 ctx
 -
