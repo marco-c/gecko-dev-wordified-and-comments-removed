@@ -54,6 +54,12 @@ TestCheckedInt
 TestCompactPair
 "
 "
+TestCountPopulation
+"
+"
+TestCountZeroes
+"
+"
 TestDefineEnum
 "
 "

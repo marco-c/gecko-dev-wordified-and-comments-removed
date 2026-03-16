@@ -7,11 +7,6 @@ mozilla_HashTable_h
 #
 include
 <
-bit
->
-#
-include
-<
 utility
 >
 #
@@ -7497,10 +7492,7 @@ ReportFailure
 {
 MOZ_ASSERT
 (
-std
-:
-:
-has_single_bit
+IsPowerOfTwo
 (
 newCapacity
 )

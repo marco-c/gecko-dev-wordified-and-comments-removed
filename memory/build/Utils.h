@@ -35,15 +35,6 @@ CheckedInt
 .
 h
 "
-#
-include
-"
-mozilla
-/
-MathAlgorithms
-.
-h
-"
 constexpr
 size_t
 LOG2

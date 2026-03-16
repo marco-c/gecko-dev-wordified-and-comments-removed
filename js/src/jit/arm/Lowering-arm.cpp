@@ -1185,10 +1185,7 @@ mozilla
 :
 FloorLog2
 (
-uint64_t
-(
 constant
-)
 )
 ;
 if
@@ -1901,10 +1898,7 @@ shift
 =
 FloorLog2
 (
-uint32_t
-(
 rhs
-)
 )
 ;
 if
@@ -2281,10 +2275,7 @@ shift
 =
 FloorLog2
 (
-uint32_t
-(
 rhs
-)
 )
 ;
 if

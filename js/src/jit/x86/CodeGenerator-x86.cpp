@@ -22,11 +22,6 @@ h
 "
 #
 include
-<
-bit
->
-#
-include
 "
 builtin
 /
@@ -5725,10 +5720,7 @@ mozilla
 :
 FloorLog2
 (
-uint64_t
-(
 constant
-)
 )
 ;
 if
@@ -8899,10 +8891,10 @@ constant
 0
 &
 &
-std
+mozilla
 :
 :
-has_single_bit
+IsPowerOfTwo
 (
 uintptr_t
 (
@@ -8919,10 +8911,7 @@ mozilla
 :
 FloorLog2
 (
-uintptr_t
-(
 constant
-)
 )
 ;
 masm

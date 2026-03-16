@@ -112,6 +112,16 @@ TestCompactPair
 ]
 [
 "
+TestCountPopulation
+"
+]
+[
+"
+TestCountZeroes
+"
+]
+[
+"
 TestCrossProcessWin
 "
 ]

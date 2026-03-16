@@ -99,11 +99,6 @@ h
 #
 include
 <
-bit
->
-#
-include
-<
 math
 .
 h
@@ -2951,10 +2946,7 @@ timerDurationDivider
 ;
 static_assert
 (
-std
-:
-:
-has_single_bit
+IsPowerOfTwo
 (
 static_cast
 <

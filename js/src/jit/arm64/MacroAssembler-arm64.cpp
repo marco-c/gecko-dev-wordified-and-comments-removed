@@ -31,11 +31,6 @@ h
 "
 #
 include
-<
-bit
->
-#
-include
 "
 jit
 /
@@ -4919,10 +4914,10 @@ false
 unsigned
 logAccessSize
 =
-std
+mozilla
 :
 :
-countr_zero
+CountTrailingZeroes32
 (
 accessByteSize
 )
@@ -5484,10 +5479,10 @@ address
 unsigned
 logAccessSize
 =
-std
+mozilla
 :
 :
-countr_zero
+CountTrailingZeroes32
 (
 access
 .

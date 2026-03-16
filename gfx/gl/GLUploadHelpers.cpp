@@ -7,11 +7,6 @@ h
 "
 #
 include
-<
-bit
->
-#
-include
 "
 GLContext
 .
@@ -1456,10 +1451,7 @@ pixelsize
 |
 |
 !
-std
-:
-:
-has_single_bit
+IsPowerOfTwo
 (
 (
 uint32_t
@@ -1469,10 +1461,7 @@ width
 |
 |
 !
-std
-:
-:
-has_single_bit
+IsPowerOfTwo
 (
 (
 uint32_t

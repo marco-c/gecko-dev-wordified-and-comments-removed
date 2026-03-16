@@ -66,11 +66,6 @@ algorithm
 #
 include
 <
-bit
->
-#
-include
-<
 cstdint
 >
 #
@@ -1447,10 +1442,7 @@ min
 ;
 static_assert
 (
-std
-:
-:
-has_single_bit
+IsPowerOfTwo
 (
 Abs
 (

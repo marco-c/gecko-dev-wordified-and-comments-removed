@@ -1,10 +1,5 @@
 #
 include
-<
-bit
->
-#
-include
 "
 GLContext
 .
@@ -1209,10 +1204,7 @@ byteSize
 ;
 MOZ_ASSERT
 (
-std
-:
-:
-has_single_bit
+IsPowerOfTwo
 (
 bytesPerType
 )

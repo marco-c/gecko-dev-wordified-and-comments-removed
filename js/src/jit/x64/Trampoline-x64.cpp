@@ -114,6 +114,12 @@ js
 :
 jit
 ;
+using
+mozilla
+:
+:
+IsPowerOfTwo
+;
 struct
 EnterJITStackEntry
 {
