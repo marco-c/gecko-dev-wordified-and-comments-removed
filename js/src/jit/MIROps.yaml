@@ -3024,7 +3024,7 @@ result_type
 Value
 congruent_to
 :
-custom
+if_operands_and_arguments_equal
 alias_set
 :
 custom
@@ -3383,7 +3383,7 @@ guard
 true
 congruent_to
 :
-custom
+if_operands_and_arguments_equal
 #
 The
 flags
@@ -3983,7 +3983,7 @@ result_type
 Int32
 congruent_to
 :
-custom
+if_operands_and_arguments_equal
 alias_set
 :
 none
@@ -4783,7 +4783,7 @@ movable
 true
 congruent_to
 :
-custom
+if_operands_and_arguments_equal
 alias_set
 :
 none
@@ -8377,7 +8377,7 @@ movable
 true
 congruent_to
 :
-custom
+if_operands_and_arguments_equal
 alias_set
 :
 custom
@@ -8416,7 +8416,7 @@ movable
 true
 congruent_to
 :
-custom
+if_operands_and_arguments_equal
 alias_set
 :
 custom
@@ -8446,7 +8446,7 @@ movable
 true
 congruent_to
 :
-custom
+if_operands_and_arguments_equal
 alias_set
 :
 custom
@@ -8768,7 +8768,7 @@ alias_set
 custom
 congruent_to
 :
-custom
+if_operands_and_arguments_equal
 generate_lir
 :
 true
@@ -9071,7 +9071,7 @@ possibly_calls
 true
 congruent_to
 :
-custom
+if_operands_and_arguments_equal
 alias_set
 :
 custom
@@ -9292,7 +9292,7 @@ guard
 true
 congruent_to
 :
-custom
+if_operands_and_arguments_equal
 alias_set
 :
 custom
@@ -9322,7 +9322,7 @@ Shape
 *
 congruent_to
 :
-custom
+if_operands_and_arguments_equal
 result_type
 :
 Boolean
@@ -9614,7 +9614,7 @@ value_hash
 custom
 congruent_to
 :
-custom
+if_operands_and_arguments_equal
 alias_set
 :
 none
@@ -9765,7 +9765,7 @@ movable
 true
 congruent_to
 :
-custom
+if_operands_and_arguments_equal
 alias_set
 :
 custom
@@ -9900,7 +9900,7 @@ movable
 true
 congruent_to
 :
-custom
+if_operands_and_arguments_equal
 folds_to
 :
 custom
@@ -10951,7 +10951,7 @@ movable
 true
 congruent_to
 :
-custom
+if_operands_and_arguments_equal
 alias_set
 :
 custom
@@ -12806,7 +12806,7 @@ movable
 true
 congruent_to
 :
-custom
+if_operands_and_arguments_equal
 #
 Can
 '
@@ -12919,7 +12919,7 @@ possibly_calls
 true
 congruent_to
 :
-custom
+if_operands_and_arguments_equal
 alias_set
 :
 custom
@@ -15161,7 +15161,7 @@ movable
 true
 congruent_to
 :
-custom
+if_operands_and_arguments_equal
 alias_set
 :
 none
@@ -15252,7 +15252,7 @@ movable
 true
 congruent_to
 :
-custom
+if_operands_and_arguments_equal
 alias_set
 :
 none
@@ -15454,7 +15454,7 @@ alias_set
 none
 congruent_to
 :
-custom
+if_operands_and_arguments_equal
 -
 name
 :
