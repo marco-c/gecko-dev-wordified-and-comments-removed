@@ -3980,10 +3980,6 @@ virtual
 bool
 run
 (
-JS
-:
-:
-HandleObject
 )
 override
 {
