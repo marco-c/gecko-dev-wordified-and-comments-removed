@@ -725,11 +725,7 @@ code
 :
 bash
 mach
-clang
--
 format
--
-p
 path
 /
 to
