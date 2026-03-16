@@ -14514,7 +14514,10 @@ GetKernelPageSize
 ;
 MOZ_ASSERT
 (
-IsPowerOfTwo
+std
+:
+:
+has_single_bit
 (
 page_size
 )
