@@ -14879,17 +14879,6 @@ events
 /
 test
 /
-browser_keyboard_event_init_key_event_enabled_in_contentscript
-.
-js
-"
-"
-dom
-/
-events
-/
-test
-/
 browser_mouse_enterleave_switch_tab
 .
 js
