@@ -19,6 +19,11 @@ h
 #
 include
 <
+bit
+>
+#
+include
+<
 limits
 >
 using
@@ -167,10 +172,10 @@ maxLog
 &
 &
 !
-mozilla
+std
 :
 :
-IsPowerOfTwo
+has_single_bit
 (
 d
 )
