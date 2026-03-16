@@ -34,6 +34,11 @@ h
 #
 include
 <
+bit
+>
+#
+include
+<
 climits
 >
 #
@@ -949,7 +954,10 @@ kBitsPerWord
 count
 +
 =
-CountPopulation64
+std
+:
+:
+popcount
 (
 word
 )

@@ -34,6 +34,11 @@ h
 #
 include
 <
+bit
+>
+#
+include
+<
 cstdint
 >
 #
@@ -734,7 +739,10 @@ kMaxBits
 )
 {
 return
-CountPopulation64
+std
+:
+:
+popcount
 (
 mBitField
 )
