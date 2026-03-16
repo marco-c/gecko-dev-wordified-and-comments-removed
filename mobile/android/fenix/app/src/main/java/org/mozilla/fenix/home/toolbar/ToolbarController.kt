@@ -141,16 +141,6 @@ mozilla
 .
 fenix
 .
-browser
-.
-BrowserAnimator
-import
-org
-.
-mozilla
-.
-fenix
-.
 components
 .
 AppStore
@@ -560,7 +550,7 @@ currentDestination
 .
 id
 directions
-BrowserAnimator
+ToolbarNavOptionsHelper
 .
 getToolbarNavOptions
 (

@@ -290,6 +290,13 @@ swipeRefresh
 "
 android
 :
+background
+=
+"
+null
+"
+android
+:
 layout_width
 =
 "
@@ -349,7 +356,7 @@ android
 visibility
 =
 "
-gone
+visible
 "
 /
 >

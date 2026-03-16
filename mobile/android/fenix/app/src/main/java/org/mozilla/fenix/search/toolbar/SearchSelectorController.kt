@@ -101,9 +101,9 @@ mozilla
 .
 fenix
 .
-browser
+ext
 .
-BrowserAnimator
+nav
 import
 org
 .
@@ -111,9 +111,11 @@ mozilla
 .
 fenix
 .
-ext
+home
 .
-nav
+toolbar
+.
+ToolbarNavOptionsHelper
 /
 *
 *
@@ -266,7 +268,7 @@ id
 .
 homeFragment
 directions
-BrowserAnimator
+ToolbarNavOptionsHelper
 .
 getToolbarNavOptions
 (
