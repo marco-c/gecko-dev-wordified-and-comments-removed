@@ -1,6 +1,15 @@
 #
 include
 "
+js
+/
+Conversions
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests
