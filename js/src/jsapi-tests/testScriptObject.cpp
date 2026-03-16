@@ -49,7 +49,10 @@ struct
 ScriptObjectFixture
 :
 public
-JSAPIRuntimeTest
+jsapitest
+:
+:
+RuntimeTest
 {
 static
 const

@@ -47,7 +47,10 @@ struct
 LooseEqualityFixture
 :
 public
-JSAPIRuntimeTest
+jsapitest
+:
+:
+RuntimeTest
 {
 virtual
 ~

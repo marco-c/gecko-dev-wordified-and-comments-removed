@@ -1258,7 +1258,10 @@ class
 ConversionFixture
 :
 public
-JSAPIRuntimeTest
+jsapitest
+:
+:
+RuntimeTest
 {
 public
 :
@@ -1645,7 +1648,10 @@ class
 OperatorFixture
 :
 public
-JSAPIRuntimeTest
+jsapitest
+:
+:
+RuntimeTest
 {
 public
 :

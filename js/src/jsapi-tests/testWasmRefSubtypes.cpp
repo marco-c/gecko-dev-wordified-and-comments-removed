@@ -1967,7 +1967,10 @@ expected
 return
 fail
 (
-JSAPITestString
+jsapitest
+:
+:
+String
 (
 "
 bad
@@ -4197,7 +4200,10 @@ expected
 return
 fail
 (
-JSAPITestString
+jsapitest
+:
+:
+String
 (
 "
 bad
