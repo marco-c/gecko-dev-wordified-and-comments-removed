@@ -505,13 +505,10 @@ overflow
 )
 ;
 return
-size_t
-(
-1
-)
-<
-<
-CeilingLog2
+std
+:
+:
+bit_ceil
 (
 aValue
 )
