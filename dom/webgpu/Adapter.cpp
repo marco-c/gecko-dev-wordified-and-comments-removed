@@ -12,6 +12,11 @@ algorithm
 >
 #
 include
+<
+bit
+>
+#
+include
 "
 Device
 .
@@ -3222,7 +3227,10 @@ _ns
 if
 (
 !
-IsPowerOfTwo
+std
+:
+:
+has_single_bit
 (
 requestedValue
 )
