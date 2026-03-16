@@ -9,6 +9,11 @@ h
 "
 #
 include
+<
+bit
+>
+#
+include
 "
 jit
 /
@@ -366,10 +371,10 @@ ShiftAmount
 =
 12
 +
-mozilla
+std
 :
 :
-CountTrailingZeroes64
+countr_zero
 (
 (
 uint64_t
@@ -591,10 +596,10 @@ ShiftAmount
 =
 12
 +
-mozilla
+std
 :
 :
-CountTrailingZeroes64
+countr_zero
 (
 (
 uint64_t
