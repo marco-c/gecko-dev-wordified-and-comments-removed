@@ -5123,6 +5123,11 @@ entrypoint
 "
 vpn_integration_settings
 "
+utm_source
+:
+"
+settings
+"
 }
 )
 ;
