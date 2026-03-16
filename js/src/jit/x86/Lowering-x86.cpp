@@ -1289,7 +1289,10 @@ mozilla
 :
 FloorLog2
 (
+uint64_t
+(
 constant
+)
 )
 ;
 if

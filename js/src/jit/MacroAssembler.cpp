@@ -11354,7 +11354,10 @@ mozilla
 :
 FloorLog2
 (
+uint32_t
+(
 base
+)
 )
 ;
 rshift32
