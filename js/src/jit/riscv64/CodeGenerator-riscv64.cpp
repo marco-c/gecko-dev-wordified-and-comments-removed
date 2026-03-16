@@ -5415,7 +5415,10 @@ mozilla
 :
 FloorLog2
 (
+uint32_t
+(
 constant
+)
 )
 ;
 if
@@ -5931,9 +5934,12 @@ mozilla
 :
 FloorLog2
 (
+uint64_t
+(
 rhs
 +
 1
+)
 )
 ;
 UseScratchRegisterScope
@@ -6021,9 +6027,12 @@ mozilla
 :
 FloorLog2
 (
+uint64_t
+(
 rhs
 -
 1
+)
 )
 ;
 UseScratchRegisterScope
@@ -6092,7 +6101,10 @@ mozilla
 :
 FloorLog2
 (
+uint64_t
+(
 rhs
+)
 )
 ;
 if

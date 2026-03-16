@@ -5353,7 +5353,10 @@ shift
 =
 FloorLog2
 (
+uint32_t
+(
 constant
+)
 )
 ;
 if

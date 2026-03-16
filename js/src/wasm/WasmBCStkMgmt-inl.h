@@ -6249,8 +6249,11 @@ mozilla
 :
 FloorLog2
 (
+uint32_t
+(
 *
 c
+)
 )
 ;
 stk_
@@ -6355,8 +6358,11 @@ mozilla
 :
 FloorLog2
 (
+uint64_t
+(
 *
 c
+)
 )
 ;
 stk_
