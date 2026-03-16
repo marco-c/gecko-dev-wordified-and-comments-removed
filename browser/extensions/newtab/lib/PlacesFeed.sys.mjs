@@ -580,7 +580,7 @@ https
 )
 )
 {
-return
+continue
 ;
 }
 this
