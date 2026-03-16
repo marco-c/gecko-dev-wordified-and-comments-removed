@@ -25,6 +25,11 @@ h
 #
 include
 <
+bit
+>
+#
+include
+<
 stddef
 .
 h
@@ -607,10 +612,10 @@ currentWord_
 auto
 numZeroes
 =
-mozilla
+std
 :
 :
-CountTrailingZeroes32
+countr_zero
 (
 currentWord_
 )

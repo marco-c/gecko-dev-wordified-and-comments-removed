@@ -14,6 +14,11 @@ h
 "
 #
 include
+<
+bit
+>
+#
+include
 "
 nsIEffectiveTLDService
 .
@@ -1229,10 +1234,10 @@ b
 uint32_t
 exponent
 =
-mozilla
+std
 :
 :
-CountTrailingZeroes32
+countr_zero
 (
 singleSetBit_Text
 )

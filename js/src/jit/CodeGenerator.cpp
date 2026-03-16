@@ -15546,10 +15546,10 @@ constexpr
 uint32_t
 fromShift
 =
-mozilla
+std
 :
 :
-CountTrailingZeroes32
+countr_zero
 (
 FromBitMask
 )
@@ -15558,10 +15558,10 @@ constexpr
 uint32_t
 toShift
 =
-mozilla
+std
 :
 :
-CountTrailingZeroes32
+countr_zero
 (
 ToBitMask
 )

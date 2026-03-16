@@ -136,6 +136,11 @@ h
 #
 include
 <
+bit
+>
+#
+include
+<
 charconv
 >
 #
@@ -6208,10 +6213,10 @@ const
 unsigned
 bitsPerChar
 =
-mozilla
+std
 :
 :
-CountTrailingZeroes32
+countr_zero
 (
 radix
 )
