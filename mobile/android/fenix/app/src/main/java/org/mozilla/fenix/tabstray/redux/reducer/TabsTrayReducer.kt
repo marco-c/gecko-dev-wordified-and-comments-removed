@@ -728,6 +728,13 @@ action
 tabStorageUpdate
 .
 privateTabs
+tabGroups
+=
+action
+.
+tabStorageUpdate
+.
+tabGroups
 )
 is
 TabGroupAction

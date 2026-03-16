@@ -1382,6 +1382,7 @@ onSearchResultClicked
 =
 onSearchResultClicked
 )
+is
 TabsTrayItem
 .
 TabGroup
