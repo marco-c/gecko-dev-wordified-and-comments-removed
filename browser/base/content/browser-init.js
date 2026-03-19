@@ -70,9 +70,6 @@ Promise
 withResolvers
 (
 )
-_reducedProtectionPrefObserver
-:
-null
 _translationsEnabledStateObserver
 :
 {
@@ -2701,12 +2698,6 @@ ctrlTab
 .
 prefName
 ctrlTab
-)
-;
-ReducedProtectionNotification
-.
-observePref
-(
 )
 ;
 DownloadsButton
