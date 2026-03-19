@@ -402,6 +402,17 @@ return
 mProxy
 ;
 }
+nsIPrincipal
+*
+GetPrincipal
+(
+)
+const
+{
+return
+mPrincipal
+;
+}
 already_AddRefed
 <
 DetailedPromise

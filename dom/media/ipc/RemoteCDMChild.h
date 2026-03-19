@@ -588,6 +588,10 @@ InitInternal
 (
 PromiseId
 aPromiseId
+const
+nsCString
+&
+aOriginID
 )
 ;
 void

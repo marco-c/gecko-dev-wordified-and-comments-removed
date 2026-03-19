@@ -126,13 +126,16 @@ final
 {
 public
 :
-explicit
 MediaDrmProxySupport
 (
 const
 nsAString
 &
 aKeySystem
+const
+nsACString
+&
+aOriginID
 )
 ;
 ~
