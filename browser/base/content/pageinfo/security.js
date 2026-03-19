@@ -1947,6 +1947,7 @@ value
 ;
 }
 }
+async
 function
 realmHasPasswords
 (
@@ -1954,11 +1955,13 @@ uri
 )
 {
 return
+(
+await
 Services
 .
 logins
 .
-countLogins
+countLoginsAsync
 (
 uri
 .
@@ -1967,6 +1970,7 @@ prePath
 "
 "
 "
+)
 )
 >
 0

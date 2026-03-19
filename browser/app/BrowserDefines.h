@@ -6,11 +6,6 @@ define
 mozilla_BrowserDefines_h
 #
 include
-<
-cstddef
->
-#
-include
 "
 mozilla
 /

@@ -1138,6 +1138,7 @@ AIWindow
 launchWindow
 (
 gBrowser
+?
 .
 selectedBrowser
 true
