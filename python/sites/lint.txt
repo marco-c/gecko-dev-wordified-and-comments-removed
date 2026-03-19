@@ -47,7 +47,7 @@ codespell
 .
 4
 .
-0
+2
 pypi
 :
 dataclasses
