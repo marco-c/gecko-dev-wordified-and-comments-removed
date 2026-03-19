@@ -216,8 +216,8 @@ length
 :
 :
 {
-FontBaseSize
 EqualsPercentage
+FontBaseSize
 LineHeightBase
 }
 ;

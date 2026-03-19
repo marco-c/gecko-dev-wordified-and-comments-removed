@@ -262,7 +262,10 @@ selectors
 context
 :
 :
+{
+IncludeStartingStyle
 SelectorCaches
+}
 ;
 #
 [
@@ -929,6 +932,10 @@ pub
 flags
 :
 ComputedValueFlags
+pub
+include_starting_style
+:
+IncludeStartingStyle
 }
 impl
 CascadeInputs
@@ -987,6 +994,12 @@ flags
 for_cascade_inputs
 (
 )
+include_starting_style
+:
+IncludeStartingStyle
+:
+:
+No
 }
 }
 }

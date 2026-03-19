@@ -196,7 +196,6 @@ matching
 :
 {
 matches_selector_kleene
-IncludeStartingStyle
 MatchingContext
 MatchingForInvalidation
 MatchingMode
@@ -506,10 +505,6 @@ VisitedHandlingMode
 :
 :
 AllLinksVisitedAndUnvisited
-IncludeStartingStyle
-:
-:
-No
 shared_context
 .
 quirks_mode
