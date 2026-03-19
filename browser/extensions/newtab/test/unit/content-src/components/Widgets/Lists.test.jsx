@@ -5026,7 +5026,9 @@ localWrapper
 .
 find
 (
+"
 Provider
+"
 )
 .
 prop

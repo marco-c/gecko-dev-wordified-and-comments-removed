@@ -4878,7 +4878,7 @@ allizomEnabled
 |
 null
 }
-ontoggle
+onToggle
 =
 {
 this
@@ -5809,7 +5809,7 @@ sectionsEnabled
 |
 null
 }
-ontoggle
+onToggle
 =
 {
 this
@@ -5892,7 +5892,7 @@ leaderboardPressed
 |
 null
 }
-ontoggle
+onToggle
 =
 {
 this
@@ -5939,7 +5939,7 @@ billboardPressed
 |
 null
 }
-ontoggle
+onToggle
 =
 {
 this
@@ -5986,7 +5986,7 @@ mediumRectangleEnabledPressed
 |
 null
 }
-ontoggle
+onToggle
 =
 {
 this
