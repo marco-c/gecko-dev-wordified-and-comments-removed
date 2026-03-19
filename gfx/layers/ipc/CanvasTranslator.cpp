@@ -2490,7 +2490,7 @@ GetFormat
 (
 )
 ;
-int32_t
+auto
 dstStride
 =
 ImageDataSerializer
@@ -2521,6 +2521,13 @@ format
 ;
 if
 (
+dstStride
+.
+isNothing
+(
+)
+|
+|
 requiredSize
 .
 isNothing
@@ -2614,6 +2621,10 @@ ReadDataInto
 (
 dst
 dstStride
+.
+value
+(
+)
 )
 )
 {
@@ -2700,6 +2711,10 @@ GetStride
 format
 dst
 dstStride
+.
+value
+(
+)
 format
 dstSize
 )

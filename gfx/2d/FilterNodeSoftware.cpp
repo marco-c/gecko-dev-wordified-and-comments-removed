@@ -4679,6 +4679,11 @@ map
 mStride
 1
 )
+.
+valueOr
+(
+0
+)
 |
 |
 reinterpret_cast
