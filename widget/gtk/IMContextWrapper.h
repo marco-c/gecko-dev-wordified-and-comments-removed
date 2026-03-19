@@ -224,6 +224,7 @@ bool
 IsEditable
 (
 )
+const
 {
 return
 mInputContext
