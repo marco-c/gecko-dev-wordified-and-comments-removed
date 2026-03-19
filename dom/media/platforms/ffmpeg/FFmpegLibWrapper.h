@@ -722,6 +722,17 @@ size
 )
 ;
 void
+*
+(
+*
+av_mallocz
+)
+(
+size_t
+size
+)
+;
+void
 (
 *
 av_freep

@@ -388,7 +388,7 @@ uint8_t
 mLib
 -
 >
-av_malloc
+av_mallocz
 (
 mExtraData
 -
