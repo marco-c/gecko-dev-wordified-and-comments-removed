@@ -213,6 +213,9 @@ namespace
 wr
 {
 class
+WebRenderAPI
+;
+class
 WebRenderPipelineInfo
 ;
 struct
@@ -2353,6 +2356,15 @@ RefPtr
 WebRenderBridgeParent
 >
 mWrBridge
+;
+RefPtr
+<
+wr
+:
+:
+WebRenderAPI
+>
+mWebRenderAPI
 ;
 ContentCompositorBridgeParent
 *
