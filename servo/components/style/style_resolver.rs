@@ -1310,13 +1310,10 @@ is_some_and
 p
 |
 !
-PseudoElementTrait
-:
-:
+p
+.
 is_element_backed
 (
-&
-p
 )
 )
 {
