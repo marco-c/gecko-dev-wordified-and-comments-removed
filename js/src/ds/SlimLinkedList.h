@@ -1666,6 +1666,10 @@ i
 return
 ;
 }
+i
++
++
+;
 }
 MOZ_CRASH
 (
