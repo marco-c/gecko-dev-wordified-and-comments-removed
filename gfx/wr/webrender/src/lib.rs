@@ -749,6 +749,7 @@ PictureCacheDebugInfo
 DirtyTileDebugInfo
 TileDebugInfo
 SliceDebugInfo
+CompositorClipDebugInfo
 }
 ;
 pub
