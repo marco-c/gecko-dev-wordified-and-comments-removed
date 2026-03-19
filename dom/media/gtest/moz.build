@@ -352,6 +352,11 @@ TestTimeUnit
 cpp
 "
 "
+TestUnboundedMPSCQueue
+.
+cpp
+"
+"
 TestVideoFrameContainer
 .
 cpp
