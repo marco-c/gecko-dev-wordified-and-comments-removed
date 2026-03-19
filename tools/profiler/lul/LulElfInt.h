@@ -13,13 +13,6 @@ h
 >
 #
 include
-<
-stdlib
-.
-h
->
-#
-include
 "
 mozilla
 /
