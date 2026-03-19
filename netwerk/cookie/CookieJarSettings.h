@@ -321,8 +321,6 @@ SetPartitionKey
 nsIURI
 *
 aURI
-bool
-aForeignByAncestorContext
 )
 ;
 void

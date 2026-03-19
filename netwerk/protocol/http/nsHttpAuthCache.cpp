@@ -19,13 +19,6 @@ algorithm
 >
 #
 include
-<
-stdlib
-.
-h
->
-#
-include
 "
 nsString
 .

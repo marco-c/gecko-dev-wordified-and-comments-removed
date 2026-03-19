@@ -14,13 +14,6 @@ vector
 #
 include
 <
-stdarg
-.
-h
->
-#
-include
-<
 windef
 .
 h

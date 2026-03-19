@@ -1089,7 +1089,6 @@ aIsPrivate
 SetPartitionKey
 (
 aURI
-false
 )
 ;
 return
@@ -2518,8 +2517,6 @@ SetPartitionKey
 nsIURI
 *
 aURI
-bool
-aForeignByAncestorContext
 )
 {
 MOZ_ASSERT
@@ -2535,7 +2532,7 @@ attrs
 SetPartitionKey
 (
 aURI
-aForeignByAncestorContext
+false
 )
 ;
 mPartitionKey

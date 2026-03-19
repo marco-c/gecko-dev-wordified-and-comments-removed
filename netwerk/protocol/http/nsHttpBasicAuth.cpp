@@ -15,13 +15,6 @@ h
 #
 include
 "
-plstr
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h
