@@ -705,6 +705,13 @@ js
 ]
 [
 "
+browser_spotlight_default_messages
+.
+js
+"
+]
+[
+"
 browser_trigger_listeners
 .
 js
