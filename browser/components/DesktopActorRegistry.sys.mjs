@@ -1474,6 +1474,13 @@ about
 aichatcontent
 "
 ]
+remoteTypes
+:
+[
+"
+privilegedabout
+"
+]
 enablePreference
 :
 "
