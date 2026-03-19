@@ -149,7 +149,7 @@ fixed
 =
 3
 def
-test_lint_fix_withotu_warning
+test_lint_fix_without_warning
 (
 lint
 create_temp_file
