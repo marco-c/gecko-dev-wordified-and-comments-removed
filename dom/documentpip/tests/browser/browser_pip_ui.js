@@ -740,6 +740,13 @@ context
 -
 viewsource
 "
+"
+context
+-
+ask
+-
+chat
+"
 ]
 ;
 await
