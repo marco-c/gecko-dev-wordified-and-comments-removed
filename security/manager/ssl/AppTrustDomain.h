@@ -237,16 +237,6 @@ pkix
 Input
 *
 aiaExtension
-const
-mozilla
-:
-:
-pkix
-:
-:
-Input
-*
-sctExtension
 )
 override
 ;
