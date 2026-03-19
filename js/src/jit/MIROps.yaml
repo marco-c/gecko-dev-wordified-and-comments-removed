@@ -3072,6 +3072,9 @@ none
 guard
 :
 true
+generate_lir
+:
+true
 #
 Caller
 -
@@ -4014,6 +4017,9 @@ if_operands_and_arguments_equal
 folds_to
 :
 custom
+generate_lir
+:
+true
 -
 name
 :
@@ -4049,6 +4055,9 @@ if_operands_and_arguments_equal
 folds_to
 :
 custom
+generate_lir
+:
+true
 -
 name
 :
@@ -4364,6 +4373,9 @@ if_operands_equal
 compute_range
 :
 custom
+generate_lir
+:
+true
 #
 Converts
 an
@@ -4396,6 +4408,9 @@ true
 congruent_to
 :
 if_operands_equal
+generate_lir
+:
+true
 -
 name
 :
@@ -4520,6 +4535,9 @@ if_operands_equal
 folds_to
 :
 custom
+generate_lir
+:
+true
 #
 Takes
 an
@@ -4566,6 +4584,12 @@ true
 congruent_to
 :
 if_operands_and_arguments_equal
+generate_lir
+:
+true
+lir_temps64
+:
+1
 #
 Takes
 an
@@ -4607,6 +4631,9 @@ true
 congruent_to
 :
 if_operands_and_arguments_equal
+generate_lir
+:
+true
 #
 Takes
 a
@@ -4643,6 +4670,9 @@ true
 congruent_to
 :
 if_operands_and_arguments_equal
+generate_lir
+:
+true
 -
 name
 :
@@ -6595,6 +6625,12 @@ alias_set
 store
 :
 ExceptionState
+possibly_calls
+:
+true
+generate_lir
+:
+true
 #
 In
 the
@@ -12171,6 +12207,9 @@ Element
 congruent_to
 :
 if_operands_equal
+generate_lir
+:
+true
 -
 name
 :
