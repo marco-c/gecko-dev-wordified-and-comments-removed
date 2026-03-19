@@ -4062,6 +4062,12 @@ Maybe
 <
 CodeNameIndex
 >
+mCurrentBeingDispatchedKeyDownCode
+;
+Maybe
+<
+CodeNameIndex
+>
 mPreviousConsumedKeyDownCode
 ;
 uint32_t
