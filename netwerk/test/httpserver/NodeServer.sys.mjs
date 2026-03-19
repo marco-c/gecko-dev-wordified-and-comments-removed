@@ -675,6 +675,7 @@ return
 ;
 }
 }
+export
 class
 BaseNodeServer
 {
