@@ -2,6 +2,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 parser
 :
 :
@@ -18,6 +27,7 @@ PartialEq
 SpecifiedValueInfo
 ToCss
 ToShmem
+ToTyped
 Serialize
 Deserialize
 )

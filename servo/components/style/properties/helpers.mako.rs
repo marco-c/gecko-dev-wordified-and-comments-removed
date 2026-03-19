@@ -2821,6 +2821,13 @@ comma
 ]
 %
 endif
+#
+[
+typed_value
+(
+derive_fields
+)
+]
 pub
 struct
 SpecifiedValue
