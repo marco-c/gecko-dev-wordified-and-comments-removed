@@ -173,6 +173,16 @@ SummarizationState
 Finished
 .
 LearnMoreAboutShakeConsent
+OnDeviceSummarizationShakeConsentAction
+.
+LearnMoreClicked
+-
+>
+SummarizationState
+.
+Finished
+.
+LearnMoreAboutShakeConsent
 is
 LlmAction
 .

@@ -896,6 +896,16 @@ firefox
 android
 "
 )
+PAGE_SUMMARIZATION
+(
+"
+summarize
+-
+pages
+-
+ios
+"
+)
 }
 enum
 class

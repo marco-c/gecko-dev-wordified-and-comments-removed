@@ -243,7 +243,7 @@ feature
 .
 summarize
 .
-R
+OnDeviceSummarizationShakeConsentAction
 import
 mozilla
 .
@@ -253,9 +253,7 @@ feature
 .
 summarize
 .
-SummarizationAction
-.
-OnDeviceSummarizationShakeConsentAction
+R
 /
 *
 *
@@ -312,7 +310,7 @@ dispatchAction
 (
 OnDeviceSummarizationShakeConsentAction
 .
-AllowClicked
+LearnMoreClicked
 )
 }
 onClickAllow
