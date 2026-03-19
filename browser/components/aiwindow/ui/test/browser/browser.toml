@@ -294,6 +294,13 @@ js
 ]
 [
 "
+browser_aiwindow_theme
+.
+js
+"
+]
+[
+"
 browser_aiwindow_token_parsing
 .
 js
