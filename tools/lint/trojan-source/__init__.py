@@ -109,6 +109,7 @@ filename
 message
 "
 :
+f
 "
 Could
 not
@@ -124,12 +125,10 @@ an
 encoding
 error
 :
-%
-s
-"
-                
-%
+{
 e
+}
+"
                 
 "
 level
@@ -308,15 +307,15 @@ line
 message
 "
 :
+f
 "
 disallowed
 characters
 :
-%
-s
-"
-%
+{
 subset
+}
+"
                     
 "
 level

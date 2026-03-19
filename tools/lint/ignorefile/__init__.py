@@ -226,14 +226,14 @@ f
 :
         
 for
-line
+raw_line
 in
 f
 :
             
 line
 =
-line
+raw_line
 .
 rstrip
 (

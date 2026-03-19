@@ -79,9 +79,15 @@ d
 )
 "
 )
-project_root
+_state
 =
+{
+"
+project_root
+"
+:
 None
+}
 def
 eslint_maybe_setup
 (
@@ -685,12 +691,15 @@ path
             
 print
 (
+f
 "
-%
-s
+{
+name
+}
 v
-%
-s
+{
+version_range
+}
 needs
 to
 be
@@ -698,11 +707,6 @@ installed
 locally
 .
 "
-%
-(
-name
-version_range
-)
 )
             
 has_issues
@@ -825,19 +829,20 @@ version_range
 print
 (
 "
-%
-s
+{
+}
 v
-%
-s
+{
+}
 should
 be
 v
-%
-s
+{
+}
 .
 "
-%
+.
+format
 (
 name
 data
@@ -937,6 +942,7 @@ version_match
 raise
 RuntimeError
 (
+f
 "
 mach
 eslint
@@ -946,11 +952,10 @@ t
 understand
 module
 version
-%
-s
-"
-%
+{
 version
+}
+"
 )
     
 version
@@ -1005,20 +1010,18 @@ range_max
 =
 Version
 (
+f
 "
-%
-d
-.
-0
-.
-0
-"
-%
-(
+{
 range_major
 +
 1
-)
+}
+.
+0
+.
+0
+"
 )
         
 return
@@ -1090,14 +1093,16 @@ to
 "
 "
     
-global
-project_root
-    
 if
 root
 :
         
+_state
+[
+"
 project_root
+"
+]
 =
 root
         
@@ -1164,7 +1169,12 @@ if
 file_found
 :
         
+_state
+[
+"
 project_root
+"
+]
 =
 os
 .
@@ -1211,7 +1221,12 @@ determined
     
 if
 not
+_state
+[
+"
 project_root
+"
+]
 :
         
 set_project_root
@@ -1219,7 +1234,12 @@ set_project_root
 )
     
 return
+_state
+[
+"
 project_root
+"
+]
 def
 get_eslint_module_path
 (

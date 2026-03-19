@@ -366,6 +366,7 @@ config
                     
 message
 =
+f
 "
 Lint
 process
@@ -373,13 +374,12 @@ exited
 with
 return
 code
-%
-s
-"
-%
+{
 proc
 .
 returncode
+}
+"
                 
 )
             
