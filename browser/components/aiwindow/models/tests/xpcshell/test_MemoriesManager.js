@@ -1164,6 +1164,9 @@ MemoriesManager
 .
 getMemoriesByID
 (
+new
+Set
+(
 [
 firstMemoryToRetrieve
 .
@@ -1172,6 +1175,7 @@ secontMemoryToRetreive
 .
 id
 ]
+)
 )
 ;
 const

@@ -2501,13 +2501,13 @@ option
 *
 param
 {
-Array
+Set
 <
 string
 >
 }
 memoryIds
-List
+Set
 of
 memory
 IDs

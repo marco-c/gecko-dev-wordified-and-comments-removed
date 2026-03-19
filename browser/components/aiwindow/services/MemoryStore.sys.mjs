@@ -1905,7 +1905,7 @@ memories
 *
 param
 {
-Array
+Set
 <
 string
 >
@@ -1915,12 +1915,14 @@ options
 .
 memoryIds
 =
-[
-]
+new
+Set
+(
+)
 ]
 *
 Optional
-list
+set
 of
 memory
 IDs
@@ -1929,7 +1931,7 @@ will
 return
 all
 if
-list
+set
 is
 empty
 *
@@ -1963,8 +1965,10 @@ includeSoftDeleted
 false
 memoryIds
 =
-[
-]
+new
+Set
+(
+)
 }
 =
 {
@@ -2011,7 +2015,7 @@ if
 (
 memoryIds
 .
-length
+size
 )
 {
 res
@@ -2025,7 +2029,7 @@ i
 >
 memoryIds
 .
-includes
+has
 (
 i
 .
