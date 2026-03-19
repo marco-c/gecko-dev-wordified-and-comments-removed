@@ -1713,7 +1713,9 @@ trayStore
 .
 state
 .
-syncing
+sync
+.
+isSyncing
 }
 returns
 false
@@ -1774,7 +1776,9 @@ trayStore
 .
 state
 .
-syncing
+sync
+.
+isSyncing
 }
 returns
 true

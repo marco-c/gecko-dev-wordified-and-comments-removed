@@ -2050,7 +2050,9 @@ tabsTrayStore
 .
 state
 .
-syncing
+sync
+.
+isSyncing
 )
 {
 tabsTrayStore
