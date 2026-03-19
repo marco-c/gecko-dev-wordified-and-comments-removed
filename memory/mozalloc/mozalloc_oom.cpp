@@ -17,15 +17,6 @@ mozalloc_oom
 h
 "
 #
-include
-"
-mozilla
-/
-Assertions
-.
-h
-"
-#
 define
 OOM_MSG_LEADER
 "

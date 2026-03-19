@@ -110,15 +110,6 @@ include
 "
 mozilla
 /
-Assertions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 CheckedInt
 .
 h

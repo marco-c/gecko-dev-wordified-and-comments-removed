@@ -13,13 +13,6 @@ mozjemalloc
 h
 "
 #
-include
-<
-stdlib
-.
-h
->
-#
 ifndef
 HAVE_MEMALIGN
 MOZ_MEMORY_API
