@@ -6,9 +6,7 @@ strict
 promise_test
 (
 async
-(
 t
-)
 =
 >
 {
@@ -38,7 +36,7 @@ promise_rejects_dom
 (
 t
 '
-NotAllowedError
+NotSupportedError
 '
 Classifier
 .
