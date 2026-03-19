@@ -155,6 +155,8 @@ domains
 :
 [
 "
+store
+.
 steampowered
 .
 com
@@ -1664,7 +1666,6 @@ distance
 visit_count
 frecency
 last_visit_date
-preview_image_url
 FROM
 moz_places
 WHERE
@@ -1981,3 +1982,18 @@ return
 out
 ;
 }
+export
+const
+SearchBrowsingHistoryDomainBoost
+=
+Object
+.
+freeze
+(
+{
+matchDomains
+searchByDomains
+mergeDedupe
+}
+)
+;
