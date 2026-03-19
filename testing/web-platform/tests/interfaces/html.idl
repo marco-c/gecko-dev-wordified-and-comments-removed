@@ -14166,7 +14166,7 @@ optional
 (
 DOMString
 or
-WorkerOptions
+SharedWorkerOptions
 )
 options
 =
@@ -14184,6 +14184,18 @@ port
 SharedWorker
 includes
 AbstractWorker
+;
+dictionary
+SharedWorkerOptions
+:
+WorkerOptions
+{
+boolean
+extendedLifetime
+=
+false
+;
+}
 ;
 interface
 mixin

@@ -255,10 +255,9 @@ none
 "
 }
 ;
+partial
 dictionary
 SharedWorkerOptions
-:
-WorkerOptions
 {
 SameSiteCookiesType
 sameSiteCookies
