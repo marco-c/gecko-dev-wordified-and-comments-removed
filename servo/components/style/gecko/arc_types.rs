@@ -81,7 +81,6 @@ stylesheets
 :
 :
 {
-AppearanceBaseRule
 ContainerRule
 CssRules
 CustomMediaRule
@@ -494,14 +493,6 @@ impl_simple_arc_ffi
 StartingStyleRule
 Servo_StartingStyleRule_AddRef
 Servo_StartingStyleRule_Release
-)
-;
-impl_simple_arc_ffi
-!
-(
-AppearanceBaseRule
-Servo_AppearanceBaseRule_AddRef
-Servo_AppearanceBaseRule_Release
 )
 ;
 impl_simple_arc_ffi
