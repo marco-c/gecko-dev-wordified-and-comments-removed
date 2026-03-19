@@ -442,7 +442,7 @@ static_assert
 (
 size_t
 (
-SimdOp
+GcOp
 :
 :
 Limit
@@ -464,7 +464,7 @@ op
 <
 size_t
 (
-SimdOp
+GcOp
 :
 :
 Limit
