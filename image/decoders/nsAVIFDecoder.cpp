@@ -1716,7 +1716,7 @@ trackID
 false
 AssertedCast
 <
-int32_t
+uint32_t
 >
 (
 timescale
