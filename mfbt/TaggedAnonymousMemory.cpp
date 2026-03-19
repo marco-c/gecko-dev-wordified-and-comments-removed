@@ -55,6 +55,13 @@ h
 >
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 mozilla
 /

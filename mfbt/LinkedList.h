@@ -747,6 +747,7 @@ Normal
 Sentinel
 }
 ;
+constexpr
 explicit
 LinkedListElement
 (
@@ -1540,6 +1541,7 @@ mCurrent
 ;
 public
 :
+constexpr
 LinkedList
 (
 )

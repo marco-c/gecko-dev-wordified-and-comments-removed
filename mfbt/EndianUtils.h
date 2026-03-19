@@ -43,13 +43,6 @@ defined
 _MSC_VER
 )
 #
-include
-<
-stdlib
-.
-h
->
-#
 pragma
 intrinsic
 (

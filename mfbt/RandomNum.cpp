@@ -104,13 +104,6 @@ defined
 __wasi__
 )
 #
-include
-<
-stdlib
-.
-h
->
-#
 define
 USE_ARC4RANDOM
 #

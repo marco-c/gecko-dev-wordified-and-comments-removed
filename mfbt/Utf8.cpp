@@ -45,13 +45,6 @@ stddef
 .
 h
 >
-#
-include
-<
-stdint
-.
-h
->
 MFBT_API
 bool
 mozilla
