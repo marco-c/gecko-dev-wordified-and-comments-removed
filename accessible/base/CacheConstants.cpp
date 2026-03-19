@@ -272,11 +272,8 @@ cacheDomains
 )
 )
 ;
-return
-true
-;
 #
-endif
+else
 accService
 -
 >
@@ -285,6 +282,8 @@ SetCacheDomains
 cacheDomains
 )
 ;
+#
+endif
 return
 true
 ;
