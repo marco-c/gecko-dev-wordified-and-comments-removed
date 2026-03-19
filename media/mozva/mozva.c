@@ -35,13 +35,6 @@ pthread
 h
 >
 #
-include
-<
-stdlib
-.
-h
->
-#
 define
 GET_FUNC
 (
