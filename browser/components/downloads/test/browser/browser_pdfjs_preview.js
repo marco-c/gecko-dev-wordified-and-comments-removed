@@ -2734,6 +2734,17 @@ itemChildren
 0
 ]
 ;
+await
+itemTarget
+.
+_shell
+.
+download
+.
+refresh
+(
+)
+;
 contextMenu
 =
 uiWindow
@@ -2989,7 +3000,7 @@ await
 downloadsLoaded
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
