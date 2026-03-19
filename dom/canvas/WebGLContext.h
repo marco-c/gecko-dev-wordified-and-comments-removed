@@ -7,13 +7,6 @@ WEBGLCONTEXT_H_
 #
 include
 <
-stdarg
-.
-h
->
-#
-include
-<
 bitset
 >
 #

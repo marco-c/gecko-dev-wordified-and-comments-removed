@@ -6,11 +6,6 @@ define
 mozilla_dom_quota_QuotaManagerService_h
 #
 include
-<
-cstdint
->
-#
-include
 "
 ErrorList
 .

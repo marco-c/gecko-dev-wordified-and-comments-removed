@@ -85,6 +85,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+LifecycleCallbackArgs
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-UTF
--
-8
--
-*
--
 import
 WebIDL
 def

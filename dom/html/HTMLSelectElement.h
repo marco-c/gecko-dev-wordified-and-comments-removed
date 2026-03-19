@@ -1383,6 +1383,10 @@ const
 void
 SelectedContentTextMightHaveChanged
 (
+bool
+aNotify
+=
+true
 )
 ;
 protected

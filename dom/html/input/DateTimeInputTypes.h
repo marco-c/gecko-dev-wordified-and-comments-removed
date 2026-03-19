@@ -224,6 +224,7 @@ ConvertStringToNumber
 const
 nsAString
 &
+Localized
 )
 const
 override
@@ -305,6 +306,7 @@ ConvertStringToNumber
 const
 nsAString
 &
+Localized
 )
 const
 override
@@ -437,6 +439,7 @@ ConvertStringToNumber
 const
 nsAString
 &
+Localized
 )
 const
 override
@@ -517,6 +520,7 @@ ConvertStringToNumber
 const
 nsAString
 &
+Localized
 )
 const
 override
@@ -597,6 +601,7 @@ ConvertStringToNumber
 const
 nsAString
 &
+Localized
 )
 const
 override

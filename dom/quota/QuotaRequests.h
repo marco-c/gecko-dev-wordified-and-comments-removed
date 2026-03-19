@@ -6,11 +6,6 @@ define
 mozilla_dom_quota_UsageRequest_h
 #
 include
-<
-cstdint
->
-#
-include
 "
 ErrorList
 .

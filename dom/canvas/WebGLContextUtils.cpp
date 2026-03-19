@@ -7,13 +7,6 @@ h
 "
 #
 include
-<
-stdarg
-.
-h
->
-#
-include
 "
 GLContext
 .

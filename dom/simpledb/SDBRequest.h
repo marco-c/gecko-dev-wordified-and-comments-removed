@@ -6,11 +6,6 @@ define
 mozilla_dom_simpledb_SDBRequest_h
 #
 include
-<
-cstdint
->
-#
-include
 "
 ErrorList
 .

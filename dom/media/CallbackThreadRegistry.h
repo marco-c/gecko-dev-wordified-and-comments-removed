@@ -30,11 +30,6 @@ h
 #
 include
 <
-cstdint
->
-#
-include
-<
 thread
 >
 namespace

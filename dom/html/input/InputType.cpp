@@ -1663,6 +1663,7 @@ const
 nsAString
 &
 aValue
+Localized
 )
 const
 -

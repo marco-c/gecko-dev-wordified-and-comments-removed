@@ -9,11 +9,6 @@ h
 "
 #
 include
-<
-cstdlib
->
-#
-include
 "
 mozilla
 /

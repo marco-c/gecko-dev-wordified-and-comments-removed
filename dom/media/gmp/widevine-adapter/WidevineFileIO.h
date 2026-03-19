@@ -7,13 +7,6 @@ WidevineFileIO_h_
 #
 include
 <
-stddef
-.
-h
->
-#
-include
-<
 string
 >
 #

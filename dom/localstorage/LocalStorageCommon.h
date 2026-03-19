@@ -6,11 +6,6 @@ define
 mozilla_dom_localstorage_LocalStorageCommon_h
 #
 include
-<
-cstdint
->
-#
-include
 "
 ErrorList
 .

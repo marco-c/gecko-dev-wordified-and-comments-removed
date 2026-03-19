@@ -46,7 +46,7 @@ Results
 >
 sdpPtr
 ;
-MOZ_RUNINIT
+constinit
 static
 SipccSdpParser
 mParser

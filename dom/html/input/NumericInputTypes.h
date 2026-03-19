@@ -83,6 +83,7 @@ const
 nsAString
 &
 aValue
+Localized
 )
 const
 override
@@ -187,6 +188,7 @@ ConvertStringToNumber
 const
 nsAString
 &
+Localized
 )
 const
 override

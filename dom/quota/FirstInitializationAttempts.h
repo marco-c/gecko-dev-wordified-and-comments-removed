@@ -7,11 +7,6 @@ DOM_QUOTA_FIRSTINITIALIZATIONATTEMPTS_H_
 #
 include
 <
-cstdint
->
-#
-include
-<
 utility
 >
 #

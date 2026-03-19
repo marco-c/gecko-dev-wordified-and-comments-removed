@@ -52,17 +52,6 @@ include
 "
 mozilla
 /
-ipc
-/
-IPDLParamTraits
-.
-h
-"
-#
-include
-"
-mozilla
-/
 layers
 /
 LayersSurfaces

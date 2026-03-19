@@ -14,13 +14,6 @@ h
 >
 #
 include
-<
-stdarg
-.
-h
->
-#
-include
 "
 GMPLog
 .

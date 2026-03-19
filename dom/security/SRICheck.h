@@ -167,6 +167,16 @@ return
 mComplete
 ;
 }
+bool
+IsInvalid
+(
+)
+const
+{
+return
+mInvalidMetadata
+;
+}
 uint32_t
 DataSummaryLength
 (

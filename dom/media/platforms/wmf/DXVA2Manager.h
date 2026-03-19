@@ -276,6 +276,11 @@ gfx
 :
 ColorDepth
 aColorDepth
+gfx
+:
+:
+TransferFunction
+aTransferFunction
 uint32_t
 aWidth
 uint32_t
@@ -310,6 +315,11 @@ gfx
 :
 ColorDepth
 aColorDepth
+gfx
+:
+:
+TransferFunction
+aTransferFunction
 uint32_t
 aWidth
 uint32_t

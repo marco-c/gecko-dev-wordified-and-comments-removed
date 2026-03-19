@@ -6,11 +6,6 @@ define
 mozilla_dom_simpledb_ActorsChild_h
 #
 include
-<
-cstdint
->
-#
-include
 "
 ErrorList
 .

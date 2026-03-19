@@ -402,6 +402,8 @@ char
 uint32_t
 pid_t
 *
+bool
+*
 )
 {
 RTC_DCHECK_RUN_ON

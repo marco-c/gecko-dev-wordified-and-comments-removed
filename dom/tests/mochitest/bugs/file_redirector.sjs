@@ -1,16 +1,5 @@
 /
 *
-vim
-:
-set
-ft
-=
-javascript
-:
-*
-/
-/
-*
 Any
 copyright
 is

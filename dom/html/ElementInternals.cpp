@@ -100,6 +100,17 @@ mozilla
 /
 dom
 /
+LifecycleCallbackArgs
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MutationObservers
 .
 h

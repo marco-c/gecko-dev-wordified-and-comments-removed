@@ -6,11 +6,6 @@ define
 DOM_SERVICEWORKERS_SERVICEWORKERSHUTDOWNSTATE_H_
 #
 include
-<
-cstdint
->
-#
-include
 "
 ipc
 /

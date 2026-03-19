@@ -7,6 +7,11 @@ DOM_FS_PARENT_FILESYSTEMMANAGER_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 functional
 >
 enum

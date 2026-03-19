@@ -188,15 +188,8 @@ FragmentOrElement
 aNodeInfoManager
 -
 >
-GetNodeInfo
+GetDocumentFragmentNodeInfo
 (
-nsGkAtoms
-:
-:
-documentFragmentNodeName
-nullptr
-kNameSpaceID_None
-DOCUMENT_FRAGMENT_NODE
 )
 )
 mHost

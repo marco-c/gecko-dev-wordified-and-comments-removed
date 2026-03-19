@@ -61,7 +61,7 @@ mozilla
 :
 dom
 {
-MOZ_RUNINIT
+constinit
 static
 LinkedList
 <

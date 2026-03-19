@@ -726,6 +726,7 @@ SetMediaTypes
 (
 inputType
 outputType
+MFAudioFormat_Float
 )
 ;
 NS_ENSURE_TRUE
@@ -1074,6 +1075,7 @@ mDecoder
 >
 FindDecoderOutputType
 (
+MFAudioFormat_Float
 )
 ;
 NS_ENSURE_TRUE

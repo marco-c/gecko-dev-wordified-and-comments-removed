@@ -24,17 +24,6 @@ File
 .
 h
 "
-#
-include
-"
-mozilla
-/
-ipc
-/
-IPDLParamTraits
-.
-h
-"
 namespace
 mozilla
 :

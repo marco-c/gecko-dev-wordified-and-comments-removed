@@ -821,6 +821,7 @@ const
 nsAString
 &
 aValue
+Localized
 )
 const
 -
@@ -1110,6 +1111,7 @@ const
 nsAString
 &
 aValue
+Localized
 )
 const
 -
@@ -1709,6 +1711,7 @@ const
 nsAString
 &
 aValue
+Localized
 )
 const
 -
@@ -2127,6 +2130,7 @@ const
 nsAString
 &
 aValue
+Localized
 )
 const
 -
@@ -2410,6 +2414,7 @@ const
 nsAString
 &
 aValue
+Localized
 )
 const
 -

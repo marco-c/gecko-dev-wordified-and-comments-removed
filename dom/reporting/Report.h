@@ -150,6 +150,14 @@ return
 mGlobal
 ;
 }
+const
+nsString
+&
+Type
+(
+)
+const
+;
 void
 GetType
 (
@@ -188,11 +196,9 @@ nsIGlobalObject
 >
 mGlobal
 ;
-const
 nsString
 mType
 ;
-const
 nsString
 mURL
 ;
