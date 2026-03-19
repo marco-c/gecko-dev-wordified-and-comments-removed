@@ -299,11 +299,6 @@ GetExternalImageKey
 (
 )
 ;
-int32_t
-GetRGBStride
-(
-)
-;
 bool
 NeedsDeferredDeletion
 (

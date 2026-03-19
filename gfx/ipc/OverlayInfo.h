@@ -80,6 +80,14 @@ OverlaySupportType
 :
 None
 ;
+OverlaySupportType
+mRgba16fOverlay
+=
+OverlaySupportType
+:
+:
+None
+;
 bool
 mSupportsVpSuperResolution
 =
@@ -87,6 +95,11 @@ false
 ;
 bool
 mSupportsVpAutoHDR
+=
+false
+;
+bool
+mSupportsHDR
 =
 false
 ;

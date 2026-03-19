@@ -11,11 +11,6 @@ utility
 >
 #
 include
-<
-cstdint
->
-#
-include
 "
 Axis
 .

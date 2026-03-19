@@ -279,6 +279,11 @@ ID3D11VideoProcessorEnumerator
 >
 mVideoProcessorEnumerator
 ;
+bool
+mContentIsHDR
+=
+false
+;
 }
 ;
 }

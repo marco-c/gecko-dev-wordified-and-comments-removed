@@ -170,7 +170,7 @@ mozilla
 :
 widget
 ;
-MOZ_RUNINIT
+constinit
 WGLLibrary
 sWGLLib
 ;
@@ -516,13 +516,10 @@ X
 #
 define
 END_OF_SYMBOLS
-\
 {
-\
 nullptr
 {
 }
-\
 }
 {
 const
