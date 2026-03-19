@@ -1135,10 +1135,7 @@ the
 :
 ref
 :
-Setting
-up
-a
-MOZCONFIG
+mozconfig
 documentation
 and
 include
