@@ -41,8 +41,9 @@ virtual
 LogModulePrefWatcher
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

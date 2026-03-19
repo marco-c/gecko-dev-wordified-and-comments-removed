@@ -16,8 +16,9 @@ nsSecurityConsoleMessage
 nsSecurityConsoleMessage
 (
 )
-{
-}
+=
+default
+;
 nsSecurityConsoleMessage
 :
 :
@@ -25,8 +26,9 @@ nsSecurityConsoleMessage
 nsSecurityConsoleMessage
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsSecurityConsoleMessage
 :

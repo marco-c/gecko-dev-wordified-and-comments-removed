@@ -42,13 +42,6 @@ h
 >
 #
 include
-<
-stdarg
-.
-h
->
-#
-include
 "
 mozilla
 /

@@ -61,8 +61,9 @@ virtual
 MainThreadIdlePeriod
 (
 )
-{
-}
+=
+default
+;
 TimeStamp
 mLastIdleDeadline
 ;

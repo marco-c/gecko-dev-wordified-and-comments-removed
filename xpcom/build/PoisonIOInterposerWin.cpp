@@ -334,7 +334,7 @@ nsString
 32
 >
 ;
-MOZ_RUNINIT
+constinit
 static
 mozilla
 :
