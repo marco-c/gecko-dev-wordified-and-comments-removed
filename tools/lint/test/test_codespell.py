@@ -80,7 +80,7 @@ create_temp_file
 (
 contents
 "
-ignore
+test_fix_temp
 .
 rst
 "
