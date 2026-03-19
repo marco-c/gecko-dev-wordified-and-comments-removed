@@ -10665,7 +10665,9 @@ congruent_to
 if_operands_equal
 alias_set
 :
-custom
+load
+:
+DynamicSlot
 generate_lir
 :
 true
