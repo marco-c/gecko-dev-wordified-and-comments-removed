@@ -517,7 +517,10 @@ self
 .
 configure_allocator
 (
-Allocator
+crate
+:
+:
+allocate
 :
 :
 RUST
@@ -549,7 +552,10 @@ self
 .
 configure_allocator
 (
-Allocator
+crate
+:
+:
+allocate
 :
 :
 C
@@ -1070,7 +1076,8 @@ if
 self
 .
 text
->
+!
+=
 0
 {
 1
@@ -1086,7 +1093,8 @@ if
 self
 .
 hcrc
->
+!
+=
 0
 {
 2
