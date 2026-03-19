@@ -309,14 +309,6 @@ SymbolPolicy
 "
     
 "
-NoTypePolicy
-"
-:
-"
-NoTypePolicy
-"
-    
-"
 Slots
 "
 :
@@ -345,19 +337,19 @@ NoTypePolicy
 Data
 "
     
-type_num
-=
-0
-    
 mixed_type_policies
 =
 [
 ]
     
 for
+type_num
 mir_type
 in
+enumerate
+(
 types
+)
 :
         
 policy
@@ -369,20 +361,13 @@ mir_type
         
 if
 policy
-=
+!
 =
 "
 NoTypePolicy
 "
 :
             
-type_num
-+
-=
-1
-            
-continue
-        
 mixed_type_policies
 .
 append
@@ -399,11 +384,6 @@ type_num
 >
 "
 )
-        
-type_num
-+
-=
-1
     
 if
 len
@@ -1025,14 +1005,14 @@ if
 operands
 :
         
-current_oper_num
-=
-0
-        
 for
+current_oper_num
 oper_name
 in
+enumerate
+(
 operands
+)
 :
             
 oper
@@ -1087,11 +1067,6 @@ oper_name
 )
 "
 )
-            
-current_oper_num
-+
-=
-1
         
 type_policy
 =
