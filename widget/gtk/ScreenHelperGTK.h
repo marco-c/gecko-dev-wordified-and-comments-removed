@@ -130,6 +130,9 @@ return
 gLastSerial
 ;
 }
+#
+ifdef
+MOZ_WAYLAND
 static
 void
 ScreensPrefChanged
@@ -143,6 +146,8 @@ void
 aDataIgnored
 )
 ;
+#
+endif
 private
 :
 static

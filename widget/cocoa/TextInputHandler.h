@@ -3207,7 +3207,7 @@ sFocusedIMEHandler
 ;
 static
 bool
-sCachedIsForRTLLangage
+sCachedIsForRTLLanguage
 ;
 }
 ;

@@ -28,6 +28,17 @@ Services
 .
 h
 "
+#
+include
+"
+mozilla
+/
+java
+/
+GeckoAppShellWrappers
+.
+h
+"
 namespace
 mozilla
 {

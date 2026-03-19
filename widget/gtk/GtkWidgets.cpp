@@ -2048,7 +2048,7 @@ CreateSubStyleWithClass
 Type
 :
 :
-ScrollbarThumb
+Scrollbar
 GTK_STYLE_CLASS_SLIDER
 )
 ;
@@ -2436,16 +2436,6 @@ DrawingParams
 aParams
 )
 {
-if
-(
-GdkIsWaylandDisplay
-(
-)
-)
-{
-return
-;
-}
 GtkStyleContext
 *
 decorationStyle
@@ -2522,11 +2512,6 @@ DrawingParams
 aParams
 )
 {
-cairo_new_path
-(
-cr
-)
-;
 switch
 (
 aParams

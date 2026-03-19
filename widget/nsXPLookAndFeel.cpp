@@ -524,7 +524,7 @@ sIntStore
 StaticRWLock
 sFontStoreLock
 ;
-MOZ_RUNINIT
+constinit
 static
 EnumeratedArray
 <

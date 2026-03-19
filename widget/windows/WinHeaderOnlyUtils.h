@@ -52,13 +52,6 @@ ParseURL
 #
 include
 <
-stdlib
-.
-h
->
-#
-include
-<
 tuple
 >
 #

@@ -19,13 +19,6 @@ nsNetUtil
 .
 h
 "
-#
-include
-<
-stdlib
-.
-h
->
 static
 constexpr
 gchar

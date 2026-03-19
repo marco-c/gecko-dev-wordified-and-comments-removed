@@ -357,7 +357,7 @@ Promise
 Res
 >
 ;
-MOZ_RUNINIT
+constinit
 UniquePtr
 <
 char16_t

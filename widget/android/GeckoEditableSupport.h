@@ -7,6 +7,13 @@ mozilla_widget_GeckoEditableSupport_h
 #
 include
 "
+GeckoViewSupport
+.
+h
+"
+#
+include
+"
 nsAppShell
 .
 h

@@ -109,13 +109,6 @@ stdint
 h
 >
 #
-include
-<
-stdarg
-.
-h
->
-#
 if
 defined
 (

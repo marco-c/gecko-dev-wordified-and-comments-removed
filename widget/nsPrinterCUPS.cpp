@@ -71,13 +71,6 @@ nsPrintSettingsImpl
 .
 h
 "
-#
-include
-"
-plstr
-.
-h
-"
 using
 namespace
 mozilla
