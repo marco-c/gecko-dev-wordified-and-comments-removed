@@ -297,9 +297,15 @@ try
 again
 -
 button
+-
+2
 =
 Try
 Again
+.
+accesskey
+=
+T
 neterror
 -
 add

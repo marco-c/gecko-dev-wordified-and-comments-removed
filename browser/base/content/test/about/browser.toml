@@ -95,6 +95,13 @@ Bug
 ]
 [
 "
+browser_aboutCertError_accesskey
+.
+js
+"
+]
+[
+"
 browser_aboutCertError_cca_telemetry
 .
 js
