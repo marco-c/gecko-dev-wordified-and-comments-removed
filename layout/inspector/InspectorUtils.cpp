@@ -3242,6 +3242,12 @@ StyleCssRuleType
 :
 NestedDeclarations
 :
+case
+StyleCssRuleType
+:
+:
+AppearanceBase
+:
 break
 ;
 }
