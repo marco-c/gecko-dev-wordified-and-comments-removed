@@ -125,7 +125,7 @@ impl
 .
 annotations
 .
-MockK
+RelaxedMockK
 import
 io
 .
@@ -504,12 +504,7 @@ class
 class
 HomeToolbarViewTest
 {
-MockK
-(
-relaxed
-=
-true
-)
+RelaxedMockK
 private
 lateinit
 var

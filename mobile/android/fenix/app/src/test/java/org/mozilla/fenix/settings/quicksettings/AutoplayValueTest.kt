@@ -87,7 +87,7 @@ impl
 .
 annotations
 .
-MockK
+RelaxedMockK
 import
 io
 .
@@ -236,12 +236,7 @@ class
 class
 AutoplayValueTest
 {
-MockK
-(
-relaxed
-=
-true
-)
+RelaxedMockK
 private
 lateinit
 var

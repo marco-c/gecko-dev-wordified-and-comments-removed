@@ -103,7 +103,7 @@ impl
 .
 annotations
 .
-MockK
+RelaxedMockK
 import
 io
 .
@@ -209,12 +209,7 @@ activityCallbacks
 StartupActivityLog
 .
 StartupLogActivityLifecycleCallbacks
-MockK
-(
-relaxed
-=
-true
-)
+RelaxedMockK
 private
 lateinit
 var

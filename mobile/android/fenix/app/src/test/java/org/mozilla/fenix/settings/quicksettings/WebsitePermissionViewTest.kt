@@ -115,7 +115,7 @@ impl
 .
 annotations
 .
-MockK
+RelaxedMockK
 import
 io
 .
@@ -254,12 +254,7 @@ class
 class
 WebsitePermissionViewTest
 {
-MockK
-(
-relaxed
-=
-true
-)
+RelaxedMockK
 private
 lateinit
 var

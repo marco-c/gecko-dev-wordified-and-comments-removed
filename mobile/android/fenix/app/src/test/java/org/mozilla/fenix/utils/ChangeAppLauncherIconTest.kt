@@ -127,7 +127,7 @@ impl
 .
 annotations
 .
-MockK
+RelaxedMockK
 import
 io
 .
@@ -236,12 +236,7 @@ class
 class
 ChangeAppLauncherIconTest
 {
-MockK
-(
-relaxed
-=
-true
-)
+RelaxedMockK
 private
 lateinit
 var

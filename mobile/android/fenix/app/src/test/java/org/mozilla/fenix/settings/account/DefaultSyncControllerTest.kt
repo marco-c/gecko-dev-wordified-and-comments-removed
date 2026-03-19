@@ -99,7 +99,7 @@ impl
 .
 annotations
 .
-MockK
+RelaxedMockK
 import
 io
 .
@@ -147,12 +147,7 @@ var
 syncController
 :
 DefaultSyncController
-MockK
-(
-relaxed
-=
-true
-)
+RelaxedMockK
 private
 lateinit
 var

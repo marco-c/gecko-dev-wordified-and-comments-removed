@@ -103,7 +103,7 @@ impl
 .
 annotations
 .
-MockK
+RelaxedMockK
 import
 io
 .
@@ -302,12 +302,7 @@ var
 interactor
 :
 CookieBannerDetailsInteractor
-MockK
-(
-relaxed
-=
-true
-)
+RelaxedMockK
 private
 lateinit
 var
