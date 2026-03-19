@@ -204,6 +204,10 @@ GWTRichTextAreaCompatHack
 )
 DEPRECATED_OPERATION
 (
+OldZECompatHack
+)
+DEPRECATED_OPERATION
+(
 MozorientationDeprecated
 )
 DEPRECATED_OPERATION

@@ -83,7 +83,7 @@ version
 }
 ;
 dictionary
-ZComponents
+ZE_Init
 {
 }
 ;
@@ -99,8 +99,8 @@ CKEDITOR
 CkEditorVersion
 JEDITOR
 ;
-ZComponents
-ZComponents
+ZE_Init
+ZE_Init
 ;
 }
 ;
