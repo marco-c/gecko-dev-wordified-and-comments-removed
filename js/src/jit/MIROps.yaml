@@ -5325,9 +5325,9 @@ base
 Int32
 arguments
 :
-lowerCase
+stringCase
 :
-bool
+StringCase
 result_type
 :
 String
