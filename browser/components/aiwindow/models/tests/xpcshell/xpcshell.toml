@@ -150,6 +150,13 @@ js
 ]
 [
 "
+test_SecurityProperties
+.
+js
+"
+]
+[
+"
 test_SensitiveInfoDetector
 .
 js
@@ -179,6 +186,13 @@ js
 [
 "
 test_Tools_GetPageContent
+.
+js
+"
+]
+[
+"
+test_Tools_GetUserMemories
 .
 js
 "
