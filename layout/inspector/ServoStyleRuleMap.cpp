@@ -455,6 +455,12 @@ case
 StyleCssRuleType
 :
 :
+AppearanceBase
+:
+case
+StyleCssRuleType
+:
+:
 PositionTry
 :
 {
@@ -837,6 +843,12 @@ StyleCssRuleType
 :
 :
 StartingStyle
+:
+case
+StyleCssRuleType
+:
+:
+AppearanceBase
 :
 {
 auto
