@@ -42595,7 +42595,7 @@ duplicatedParam
 )
 {
 return
-null
+errorResult
 (
 )
 ;
@@ -42667,7 +42667,7 @@ initializers
 )
 {
 return
-null
+errorResult
 (
 )
 ;
@@ -42695,7 +42695,7 @@ canSkipLazyClosedOverBindings
 )
 {
 return
-null
+errorResult
 (
 )
 ;
@@ -42714,7 +42714,7 @@ canSkipLazyClosedOverBindings
 )
 {
 return
-null
+errorResult
 (
 )
 ;
@@ -51021,7 +51021,7 @@ dot_instanceExtraInitializers_
 )
 {
 return
-null
+errorResult
 (
 )
 ;
