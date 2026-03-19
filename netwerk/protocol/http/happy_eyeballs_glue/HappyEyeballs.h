@@ -81,7 +81,7 @@ return
 happy_eyeballs
 :
 :
-create
+happy_eyeballs_create
 (
 (
 const
@@ -106,7 +106,7 @@ AddRef
 happy_eyeballs
 :
 :
-addref
+happy_eyeballs_addref
 (
 this
 )
@@ -120,7 +120,7 @@ Release
 happy_eyeballs
 :
 :
-release
+happy_eyeballs_release
 (
 this
 )

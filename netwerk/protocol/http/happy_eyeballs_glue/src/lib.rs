@@ -180,7 +180,7 @@ extern
 C
 "
 fn
-create
+happy_eyeballs_create
 (
 result
 :
@@ -492,7 +492,7 @@ NS_ERROR_UNEXPECTED
 ;
 unsafe
 {
-addref
+happy_eyeballs_addref
 (
 raw_ptr
 as
@@ -519,7 +519,7 @@ extern
 C
 "
 fn
-process_dns_response_a
+happy_eyeballs_process_dns_response_a
 (
 he
 :
@@ -630,7 +630,7 @@ extern
 C
 "
 fn
-process_dns_response_aaaa
+happy_eyeballs_process_dns_response_aaaa
 (
 he
 :
@@ -741,7 +741,7 @@ extern
 C
 "
 fn
-process_dns_response_https
+happy_eyeballs_process_dns_response_https
 (
 he
 :
@@ -852,7 +852,7 @@ extern
 C
 "
 fn
-process_connection_result
+happy_eyeballs_process_connection_result
 (
 he
 :
@@ -923,7 +923,7 @@ extern
 C
 "
 fn
-process_output
+happy_eyeballs_process_output
 (
 he
 :
@@ -3337,7 +3337,7 @@ extern
 C
 "
 fn
-release
+happy_eyeballs_release
 (
 happy_eyeballs
 :
@@ -3431,7 +3431,7 @@ extern
 C
 "
 fn
-addref
+happy_eyeballs_addref
 (
 happy_eyeballs
 :
@@ -3497,7 +3497,7 @@ addref
 self
 )
 {
-addref
+happy_eyeballs_addref
 (
 self
 )
@@ -3511,7 +3511,7 @@ release
 self
 )
 {
-release
+happy_eyeballs_release
 (
 self
 )
