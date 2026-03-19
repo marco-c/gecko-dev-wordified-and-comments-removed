@@ -138,6 +138,8 @@ Type
 "
 "
 text
+/
+plain
 "
 false
 )
@@ -199,6 +201,8 @@ Type
 "
 "
 text
+/
+plain
 "
 false
 )
