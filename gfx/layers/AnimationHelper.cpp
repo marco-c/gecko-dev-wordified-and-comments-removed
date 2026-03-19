@@ -186,6 +186,13 @@ nsDisplayList
 .
 h
 "
+#
+include
+"
+nsStyleTransformMatrix
+.
+h
+"
 namespace
 mozilla
 :

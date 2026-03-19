@@ -750,6 +750,13 @@ h
 #
 include
 "
+nsStyleTransformMatrix
+.
+h
+"
+#
+include
+"
 nsTableWrapperFrame
 .
 h

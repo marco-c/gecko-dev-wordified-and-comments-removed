@@ -19,6 +19,17 @@ mozilla
 /
 dom
 /
+Animation
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DocumentInlines
 .
 h

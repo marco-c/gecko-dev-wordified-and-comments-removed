@@ -9,15 +9,6 @@ include
 "
 mozilla
 /
-ServoStyleConsts
-.
-h
-"
-#
-include
-"
-mozilla
-/
 a11y
 /
 AccGroupInfo

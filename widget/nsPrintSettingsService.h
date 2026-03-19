@@ -7,13 +7,6 @@ nsPrintSettingsService_h
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 nsIPrintSettings
 .
 h
@@ -29,13 +22,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-nsFont
 .
 h
 "

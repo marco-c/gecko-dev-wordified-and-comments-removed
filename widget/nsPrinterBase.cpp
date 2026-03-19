@@ -20,6 +20,13 @@ utility
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 nsPaper
 .
 h

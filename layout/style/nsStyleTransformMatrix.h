@@ -31,13 +31,6 @@ Matrix
 .
 h
 "
-#
-include
-"
-nsSize
-.
-h
-"
 class
 nsIFrame
 ;

@@ -150,13 +150,6 @@ apply
 *
 /
 [
-HeaderFile
-=
-"
-nsAnimationManager
-.
-h
-"
 Exposed
 =
 Window

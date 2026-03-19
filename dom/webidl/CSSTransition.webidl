@@ -150,13 +150,6 @@ apply
 *
 /
 [
-HeaderFile
-=
-"
-nsTransitionManager
-.
-h
-"
 Exposed
 =
 Window

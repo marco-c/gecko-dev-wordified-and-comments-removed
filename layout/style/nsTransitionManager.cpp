@@ -89,6 +89,17 @@ mozilla
 /
 dom
 /
+CSSTransition
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Document
 .
 h

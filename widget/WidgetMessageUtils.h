@@ -74,13 +74,6 @@ nsIWidget
 .
 h
 "
-#
-include
-"
-nsStyleConsts
-.
-h
-"
 namespace
 IPC
 {
