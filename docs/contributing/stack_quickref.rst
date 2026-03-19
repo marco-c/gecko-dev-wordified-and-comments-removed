@@ -739,9 +739,9 @@ remote
 update
 git
 rebase
-mozilla
+origin
 /
-central
+main
 Reorganizing
 the
 stack
