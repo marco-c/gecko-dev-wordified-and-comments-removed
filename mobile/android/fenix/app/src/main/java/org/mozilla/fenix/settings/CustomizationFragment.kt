@@ -133,7 +133,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 import
 org
 .
@@ -1115,7 +1115,7 @@ tabStripSwitch
 =
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1331,7 +1331,7 @@ Boolean
 {
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1365,7 +1365,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1394,7 +1394,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1426,7 +1426,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R

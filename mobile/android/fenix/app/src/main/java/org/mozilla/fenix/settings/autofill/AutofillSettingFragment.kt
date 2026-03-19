@@ -183,7 +183,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 import
 com
 .
@@ -918,7 +918,7 @@ updateSaveAndAutofillCardsSwitch
 {
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -975,7 +975,7 @@ updateSaveAndAutofillAddressesSwitch
 {
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1294,7 +1294,7 @@ return
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R

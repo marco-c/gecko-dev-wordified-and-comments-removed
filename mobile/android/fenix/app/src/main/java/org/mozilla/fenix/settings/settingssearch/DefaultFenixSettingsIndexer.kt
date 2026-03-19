@@ -1677,7 +1677,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 "
 private
 const
@@ -1685,7 +1685,7 @@ val
 SWITCH_PREFERENCE_PLAIN_TAG
 =
 "
-SwitchPreference
+SwitchPreferenceCompat
 "
 private
 const

@@ -111,9 +111,9 @@ android
 .
 material
 .
-switchmaterial
+materialswitch
 .
-SwitchMaterial
+MaterialSwitch
 import
 io
 .
@@ -893,7 +893,7 @@ enableSwitch
 =
 mockk
 <
-SwitchMaterial
+MaterialSwitch
 >
 (
 relaxed
@@ -905,7 +905,7 @@ privateBrowsingSwitch
 =
 mockk
 <
-SwitchMaterial
+MaterialSwitch
 >
 (
 relaxed
@@ -1007,7 +1007,7 @@ enableSwitch
 =
 mockk
 <
-SwitchMaterial
+MaterialSwitch
 >
 (
 relaxed
@@ -1019,7 +1019,7 @@ privateBrowsingSwitch
 =
 mockk
 <
-SwitchMaterial
+MaterialSwitch
 >
 (
 relaxed
@@ -1146,7 +1146,7 @@ enableSwitch
 =
 mockk
 <
-SwitchMaterial
+MaterialSwitch
 >
 (
 relaxed
@@ -1158,7 +1158,7 @@ privateBrowsingSwitch
 =
 mockk
 <
-SwitchMaterial
+MaterialSwitch
 >
 (
 relaxed
@@ -1268,7 +1268,7 @@ enableSwitch
 =
 mockk
 <
-SwitchMaterial
+MaterialSwitch
 >
 (
 relaxed
@@ -1280,7 +1280,7 @@ privateBrowsingSwitch
 =
 mockk
 <
-SwitchMaterial
+MaterialSwitch
 >
 (
 relaxed
@@ -1995,7 +1995,7 @@ privateBrowsingSwitch
 =
 mockk
 <
-SwitchMaterial
+MaterialSwitch
 >
 (
 relaxed

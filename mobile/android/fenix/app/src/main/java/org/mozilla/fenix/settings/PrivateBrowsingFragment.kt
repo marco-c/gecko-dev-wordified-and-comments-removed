@@ -125,7 +125,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 import
 org
 .
@@ -484,7 +484,7 @@ true
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -513,7 +513,7 @@ openLinksInAPrivateTab
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -685,7 +685,7 @@ privateBrowsingLockedFeatureEnabled
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -933,7 +933,7 @@ state
 manually
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -999,7 +999,7 @@ manually
 preference
 as
 ?
-SwitchPreference
+SwitchPreferenceCompat
 )
 ?
 .
@@ -1055,7 +1055,7 @@ Boolean
 {
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R

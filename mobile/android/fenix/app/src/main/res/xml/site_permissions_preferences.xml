@@ -170,7 +170,7 @@ preferences_category_content
 "
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 android
 :
 icon

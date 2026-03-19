@@ -87,7 +87,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 import
 org
 .
@@ -272,7 +272,7 @@ false
 )
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -402,7 +402,7 @@ Unit
 {
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 preference
@@ -507,7 +507,7 @@ Boolean
 {
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 preference

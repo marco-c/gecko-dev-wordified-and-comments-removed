@@ -146,7 +146,7 @@ preferences_add_private_browsing_shortcut
 /
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 android
 :
 defaultValue
@@ -175,7 +175,7 @@ preferences_open_links_in_a_private_tab
 /
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 android
 :
 defaultValue
@@ -242,7 +242,7 @@ false
 /
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 android
 :
 defaultValue

@@ -3159,7 +3159,7 @@ R
 .
 id
 .
-switch_widget
+switchWidget
 )
 )
 private

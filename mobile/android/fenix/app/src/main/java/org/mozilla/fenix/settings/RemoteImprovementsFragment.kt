@@ -87,7 +87,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 import
 org
 .
@@ -175,7 +175,7 @@ rootKey
 )
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R

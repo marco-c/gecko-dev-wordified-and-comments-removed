@@ -91,7 +91,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 import
 io
 .
@@ -1004,7 +1004,7 @@ autofillSettingFragment
 .
 findPreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 autofillSettingFragment
@@ -1244,7 +1244,7 @@ autofillSettingFragment
 .
 findPreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 autofillSettingFragment
@@ -1317,7 +1317,7 @@ autofillSettingFragment
 .
 findPreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 autofillSettingFragment
@@ -1391,7 +1391,7 @@ autofillSettingFragment
 .
 findPreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 autofillSettingFragment

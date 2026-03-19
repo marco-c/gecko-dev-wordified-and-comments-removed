@@ -274,9 +274,9 @@ android
 .
 material
 .
-switchmaterial
+materialswitch
 .
-SwitchMaterial
+MaterialSwitch
 android
 :
 id
@@ -403,9 +403,9 @@ android
 .
 material
 .
-switchmaterial
+materialswitch
 .
-SwitchMaterial
+MaterialSwitch
 android
 :
 id

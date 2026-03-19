@@ -87,7 +87,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 import
 org
 .
@@ -118,7 +118,7 @@ Note
 *
 The
 [
-SwitchPreference
+SwitchPreferenceCompat
 ]
 layout
 internal

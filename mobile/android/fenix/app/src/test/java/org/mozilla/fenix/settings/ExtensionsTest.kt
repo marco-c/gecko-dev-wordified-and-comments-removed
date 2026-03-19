@@ -93,7 +93,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 import
 io
 .
@@ -464,7 +464,7 @@ switchPreference
 =
 mockk
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 )
@@ -474,7 +474,7 @@ fragment
 .
 findPreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 "
@@ -491,7 +491,7 @@ fragment
 .
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -520,7 +520,7 @@ fragment
 .
 findPreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 "
@@ -543,7 +543,7 @@ fragment
 .
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R

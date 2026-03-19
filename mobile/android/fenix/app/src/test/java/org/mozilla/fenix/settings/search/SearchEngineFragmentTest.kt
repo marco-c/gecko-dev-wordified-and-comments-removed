@@ -83,7 +83,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 import
 io
 .
@@ -400,7 +400,7 @@ voiceSearchPreference
 =
 spyk
 (
-SwitchPreference
+SwitchPreferenceCompat
 (
 testContext
 )

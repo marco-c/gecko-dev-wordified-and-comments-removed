@@ -1138,7 +1138,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 android
 :
 defaultValue

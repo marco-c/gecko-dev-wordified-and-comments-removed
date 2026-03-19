@@ -97,9 +97,9 @@ android
 .
 material
 .
-switchmaterial
+materialswitch
 .
-SwitchMaterial
+MaterialSwitch
 import
 mozilla
 .
@@ -144,7 +144,7 @@ private
 var
 switchView
 :
-SwitchMaterial
+MaterialSwitch
 ?
 =
 null
@@ -186,7 +186,7 @@ id
 switch_widget
 )
 as
-SwitchMaterial
+MaterialSwitch
 updateSwitch
 (
 )

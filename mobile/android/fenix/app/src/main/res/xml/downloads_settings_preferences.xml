@@ -257,7 +257,7 @@ false
 /
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 android
 :
 defaultValue
@@ -293,7 +293,7 @@ false
 /
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 android
 :
 defaultValue

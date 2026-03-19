@@ -445,7 +445,7 @@ ViewMatchers
 withResourceName
 (
 "
-switch_widget
+switchWidget
 "
 )
 )
@@ -2345,7 +2345,7 @@ ViewMatchers
 withResourceName
 (
 "
-switch_widget
+switchWidget
 "
 )
 )

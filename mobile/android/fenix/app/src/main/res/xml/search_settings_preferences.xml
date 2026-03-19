@@ -226,7 +226,7 @@ preferences_manage_search_shortcuts_summary
 /
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 app
 :
 iconSpaceReserved
@@ -294,7 +294,7 @@ preference_category_no_icon_style
 "
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 app
 :
 iconSpaceReserved
@@ -438,7 +438,7 @@ false
 /
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 app
 :
 iconSpaceReserved
@@ -513,7 +513,7 @@ preference_category_no_icon_style
 "
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 app
 :
 iconSpaceReserved
@@ -549,7 +549,7 @@ preferences_search_browsing_history
 /
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 app
 :
 iconSpaceReserved
@@ -585,7 +585,7 @@ preferences_search_bookmarks
 /
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 app
 :
 iconSpaceReserved
@@ -621,7 +621,7 @@ preferences_search_synced_tabs
 /
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 app
 :
 iconSpaceReserved
@@ -713,7 +713,7 @@ false
 /
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 app
 :
 iconSpaceReserved
@@ -819,7 +819,7 @@ preference_category_no_icon_style
 "
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 app
 :
 iconSpaceReserved
@@ -855,7 +855,7 @@ preferences_show_clipboard_suggestions
 /
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 app
 :
 iconSpaceReserved
@@ -891,7 +891,7 @@ preferences_show_voice_search
 /
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 app
 :
 iconSpaceReserved

@@ -155,7 +155,7 @@ preferences_passwords_save_logins_2
 /
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 android
 :
 defaultValue

@@ -205,7 +205,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 import
 androidx
 .
@@ -4547,7 +4547,7 @@ with
 (
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R

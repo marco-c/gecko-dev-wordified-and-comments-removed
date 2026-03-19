@@ -147,7 +147,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 import
 com
 .
@@ -720,7 +720,7 @@ onPreferenceClickListener
 exceptionsClickListener
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R

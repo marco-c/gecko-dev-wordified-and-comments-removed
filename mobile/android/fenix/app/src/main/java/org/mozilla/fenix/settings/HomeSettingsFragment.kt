@@ -127,7 +127,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 import
 org
 .
@@ -454,7 +454,7 @@ setupPreferences
 {
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -510,7 +510,7 @@ contile
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -543,7 +543,7 @@ privacy_report
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -576,7 +576,7 @@ jump_back_in
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -609,7 +609,7 @@ bookmarks
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -768,7 +768,7 @@ true
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R

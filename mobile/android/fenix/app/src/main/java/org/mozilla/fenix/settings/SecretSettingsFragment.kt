@@ -141,7 +141,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 import
 kotlinx
 .
@@ -441,7 +441,7 @@ rootKey
 )
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -516,7 +516,7 @@ newValue
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -548,7 +548,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -603,7 +603,7 @@ shouldUseComposableToolbar
 newOption
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -671,7 +671,7 @@ false
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -744,7 +744,7 @@ false
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -807,7 +807,7 @@ false
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -886,7 +886,7 @@ true
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -951,7 +951,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1060,7 +1060,7 @@ false
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1149,7 +1149,7 @@ isDebug
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1244,7 +1244,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1280,7 +1280,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1316,7 +1316,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1388,7 +1388,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1420,7 +1420,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1456,7 +1456,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1485,7 +1485,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1514,7 +1514,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1543,7 +1543,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1579,7 +1579,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1615,7 +1615,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1644,7 +1644,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1723,7 +1723,7 @@ newValue
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1802,7 +1802,7 @@ newValue
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1881,7 +1881,7 @@ newValue
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1917,7 +1917,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -2035,7 +2035,7 @@ true
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -2071,7 +2071,7 @@ launch
 {
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -2121,7 +2121,7 @@ true
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -2245,7 +2245,7 @@ getRemoteSettingsServerString
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -2338,7 +2338,7 @@ newValue
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -2370,7 +2370,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -2406,7 +2406,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -2438,7 +2438,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -2470,7 +2470,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -2502,7 +2502,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -2545,7 +2545,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -2588,7 +2588,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -2631,7 +2631,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -2667,7 +2667,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -2717,7 +2717,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -2746,7 +2746,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -2778,7 +2778,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -2810,7 +2810,7 @@ SharedPreferenceUpdater
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R

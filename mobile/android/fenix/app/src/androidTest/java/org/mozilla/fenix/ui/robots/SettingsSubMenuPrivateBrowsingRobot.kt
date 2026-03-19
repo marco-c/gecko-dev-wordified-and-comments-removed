@@ -639,7 +639,7 @@ android
 :
 id
 /
-switch_widget
+switchWidget
 "
 isChecked
 =

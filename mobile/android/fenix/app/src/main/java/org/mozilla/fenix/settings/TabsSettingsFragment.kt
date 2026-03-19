@@ -101,7 +101,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 import
 mozilla
 .
@@ -240,7 +240,7 @@ lateinit
 var
 inactiveTabs
 :
-SwitchPreference
+SwitchPreferenceCompat
 private
 val
 args
@@ -500,7 +500,7 @@ inactiveTabs
 =
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R

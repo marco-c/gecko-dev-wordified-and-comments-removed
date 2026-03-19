@@ -129,7 +129,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 import
 mozilla
 .
@@ -334,7 +334,7 @@ rootKey
 )
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -358,7 +358,7 @@ enableFxSuggest
 }
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -511,7 +511,7 @@ showVoiceSearchPreference
 =
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -545,7 +545,7 @@ searchSuggestionsPreference
 =
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -572,7 +572,7 @@ searchWidgetPreference
 =
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -649,7 +649,7 @@ recentSearchSuggestionsPreference
 =
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -676,7 +676,7 @@ autocompleteURLsPreference
 =
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -739,7 +739,7 @@ showHistorySuggestions
 =
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -766,7 +766,7 @@ showBookmarkSuggestions
 =
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -793,7 +793,7 @@ showSyncedTabsSuggestions
 =
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -820,7 +820,7 @@ showClipboardSuggestions
 =
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -847,7 +847,7 @@ showSponsoredSuggestionsPreference
 =
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -892,7 +892,7 @@ showNonSponsoredSuggestionsPreference
 =
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -1416,7 +1416,7 @@ param
 showVoiceSearchPreference
 The
 [
-SwitchPreference
+SwitchPreferenceCompat
 ]
 for
 the
@@ -1436,7 +1436,7 @@ initialiseVoiceSearchPreference
 (
 showVoiceSearchPreference
 :
-SwitchPreference
+SwitchPreferenceCompat
 )
 {
 showVoiceSearchPreference

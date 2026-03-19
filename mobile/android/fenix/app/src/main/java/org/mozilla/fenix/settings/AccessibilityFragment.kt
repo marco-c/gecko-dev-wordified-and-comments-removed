@@ -95,7 +95,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 import
 org
 .
@@ -236,7 +236,7 @@ forceZoomPreference
 =
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R
@@ -392,7 +392,7 @@ useAutoSizePreference
 =
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R

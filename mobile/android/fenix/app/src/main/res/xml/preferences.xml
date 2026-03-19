@@ -1457,7 +1457,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 android
 :
 key
@@ -1532,7 +1532,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 android
 :
 key
@@ -1572,7 +1572,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 android
 :
 defaultValue

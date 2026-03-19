@@ -492,7 +492,7 @@ false
 "
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 android
 :
 defaultValue

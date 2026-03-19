@@ -128,7 +128,7 @@ auto
 "
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 android
 :
 key
@@ -157,7 +157,7 @@ false
 /
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 android
 :
 key
@@ -186,7 +186,7 @@ false
 /
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 android
 :
 key

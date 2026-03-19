@@ -131,7 +131,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 import
 mozilla
 .
@@ -462,7 +462,7 @@ rootKey
 )
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R

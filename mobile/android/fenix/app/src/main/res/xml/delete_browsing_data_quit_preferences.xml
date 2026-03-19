@@ -128,7 +128,7 @@ auto
 "
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 android
 :
 defaultValue

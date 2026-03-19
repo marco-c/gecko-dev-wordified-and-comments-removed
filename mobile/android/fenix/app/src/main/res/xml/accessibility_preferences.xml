@@ -124,7 +124,7 @@ auto
 "
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 android
 :
 defaultValue
@@ -183,7 +183,7 @@ pref_key_accessibility_font_scale
 /
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 android
 :
 defaultValue

@@ -95,7 +95,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 import
 org
 .
@@ -264,7 +264,7 @@ deleteOnQuitPref
 =
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R

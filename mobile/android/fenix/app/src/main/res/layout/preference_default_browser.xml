@@ -87,9 +87,9 @@ android
 .
 material
 .
-switchmaterial
+materialswitch
 .
-SwitchMaterial
+MaterialSwitch
 xmlns
 :
 android

@@ -83,7 +83,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 import
 org
 .
@@ -100,7 +100,7 @@ settings
 *
 Custom
 [
-SwitchPreference
+SwitchPreferenceCompat
 ]
 that
 automatically
@@ -139,7 +139,7 @@ AttributeSet
 null
 )
 :
-SwitchPreference
+SwitchPreferenceCompat
 (
 context
 attrs

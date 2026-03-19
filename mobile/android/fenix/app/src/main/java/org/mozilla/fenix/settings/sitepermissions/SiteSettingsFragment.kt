@@ -111,7 +111,7 @@ androidx
 .
 preference
 .
-SwitchPreference
+SwitchPreferenceCompat
 import
 com
 .
@@ -410,7 +410,7 @@ bindDesktopMode
 {
 requirePreference
 <
-SwitchPreference
+SwitchPreferenceCompat
 >
 (
 R

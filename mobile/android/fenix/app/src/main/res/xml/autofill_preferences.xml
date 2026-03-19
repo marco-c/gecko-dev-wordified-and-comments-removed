@@ -149,7 +149,7 @@ preferences_addresses
 "
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 android
 :
 defaultValue
@@ -286,7 +286,7 @@ preferences_credit_cards_2
 "
 >
 <
-SwitchPreference
+SwitchPreferenceCompat
 android
 :
 defaultValue
