@@ -9588,7 +9588,7 @@ nurseryBigIntsDisabled
 =
 true
 ;
-zonesWhereStringsDisabled
+zonesWhereBigIntsDisabled
 +
 +
 ;
