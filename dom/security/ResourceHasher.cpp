@@ -7,11 +7,6 @@ h
 "
 #
 include
-<
-cinttypes
->
-#
-include
 "
 WAICTUtils
 .
