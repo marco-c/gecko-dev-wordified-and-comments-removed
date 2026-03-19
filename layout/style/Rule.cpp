@@ -479,15 +479,6 @@ type
 StyleCssRuleType
 :
 :
-AppearanceBase
-|
-|
-type
-=
-=
-StyleCssRuleType
-:
-:
 Page
 )
 ;
