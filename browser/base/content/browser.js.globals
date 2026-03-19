@@ -81,6 +81,9 @@ gStoragePressureObserver
 PopupAndRedirectBlockerObserver
 "
 "
+ReducedProtectionNotification
+"
+"
 gKeywordURIFixup
 "
 "
