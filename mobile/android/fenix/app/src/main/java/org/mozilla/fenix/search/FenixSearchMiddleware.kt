@@ -1311,10 +1311,15 @@ BrowserEditToolbarAction
 .
 SearchQueryUpdated
 (
+query
+=
 BrowserToolbarQuery
 (
 it
 )
+isQueryPrefilled
+=
+true
 )
 )
 }

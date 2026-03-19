@@ -3090,6 +3090,7 @@ BrowserToolbarQuery
 (
 searchTerms
 )
+true
 )
 )
 appStore
@@ -3279,6 +3280,7 @@ orEmpty
 (
 )
 )
+true
 )
 )
 appStore

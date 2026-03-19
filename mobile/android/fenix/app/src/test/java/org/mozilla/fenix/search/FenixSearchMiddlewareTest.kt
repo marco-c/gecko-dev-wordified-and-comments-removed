@@ -3948,12 +3948,17 @@ BrowserEditToolbarAction
 .
 SearchQueryUpdated
 (
+query
+=
 BrowserToolbarQuery
 (
 "
 test
 "
 )
+isQueryPrefilled
+=
+true
 )
 )
 }

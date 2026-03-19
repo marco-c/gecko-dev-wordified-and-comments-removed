@@ -3478,6 +3478,8 @@ dispatch
 (
 SearchQueryUpdated
 (
+query
+=
 BrowserToolbarQuery
 (
 it
@@ -3486,6 +3488,9 @@ qrScannerState
 .
 lastScanData
 )
+isQueryPrefilled
+=
+true
 )
 )
 components
