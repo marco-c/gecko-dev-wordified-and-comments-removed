@@ -175,6 +175,15 @@ enableHighlight
 "
 true
 ]
+[
+"
+pdfjs
+.
+imagesRightClickMinSize
+"
+-
+1
+]
 ]
 }
 )
