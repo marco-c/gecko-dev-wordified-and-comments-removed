@@ -1021,16 +1021,34 @@ short
 )
             
 (
+                
 str
 (
 tool
 )
+                
 "
-debug
+log
 "
+                
+"
+-
+n0
+"
+                
+"
+-
+T
+"
+                
+'
 "
 snapshot
+:
+prepare_try_push
 "
+'
+            
 )
             
 (
@@ -1175,6 +1193,17 @@ log
 -
 n0
 "
+"
+-
+T
+"
+'
+"
+snapshot
+:
+prepare_try_push
+"
+'
 )
             
 (

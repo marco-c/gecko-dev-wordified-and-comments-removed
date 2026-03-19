@@ -528,6 +528,7 @@ def
 _snapshot
 (
 self
+reason
 )
 :
         
@@ -623,6 +624,20 @@ log
 -
 n0
 "
+"
+-
+T
+"
+f
+'
+"
+snapshot
+:
+{
+reason
+}
+"
+'
 )
     
 def
@@ -3572,13 +3587,10 @@ run
         
 self
 .
-_run
+_snapshot
 (
 "
-debug
-"
-"
-snapshot
+prepare_try_push
 "
 )
         
@@ -3704,6 +3716,9 @@ self
 .
 _snapshot
 (
+"
+prepare_try_push
+"
 )
             
 self
