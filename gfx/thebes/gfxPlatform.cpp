@@ -19784,7 +19784,7 @@ VpAutoHDR
 s
 "
 "
-HDR
+HwOverlayHDR
 =
 %
 s
