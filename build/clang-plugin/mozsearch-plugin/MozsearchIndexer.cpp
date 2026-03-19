@@ -9946,9 +9946,6 @@ Symbol
 MaybeType
 TokenContext
 Flags
-PeekRange
-NestingRange
-ArgRanges
 )
 ;
 }
