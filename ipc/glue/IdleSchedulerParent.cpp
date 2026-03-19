@@ -132,7 +132,7 @@ IdleSchedulerParent
 :
 sInUseChildCounters
 ;
-MOZ_RUNINIT
+constinit
 LinkedList
 <
 IdleSchedulerParent

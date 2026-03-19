@@ -45,6 +45,7 @@ typename
 .
 Args
 >
+constexpr
 MOZ_IMPLICIT
 IPDLStructMemberWrapper
 (

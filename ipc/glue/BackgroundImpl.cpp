@@ -2754,7 +2754,7 @@ sShutdownHasStarted
 =
 false
 ;
-MOZ_RUNINIT
+MOZ_GLOBINIT
 ChildImpl
 :
 :
