@@ -9868,10 +9868,13 @@ cpp
 #
 else
 #
-error
+include
 "
-bad
 platform
+-
+noop
+.
+cpp
 "
 #
 endif

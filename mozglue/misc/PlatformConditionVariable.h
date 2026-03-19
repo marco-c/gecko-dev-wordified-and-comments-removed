@@ -6,13 +6,6 @@ define
 mozilla_ConditionVariable_h
 #
 include
-<
-stdint
-.
-h
->
-#
-include
 "
 mozilla
 /

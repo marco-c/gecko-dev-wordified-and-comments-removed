@@ -7,11 +7,6 @@ h
 "
 #
 include
-<
-cstdint
->
-#
-include
 "
 mozilla
 /

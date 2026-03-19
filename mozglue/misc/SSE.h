@@ -14,6 +14,11 @@ Types
 h
 "
 #
+include
+<
+cstdint
+>
+#
 if
 defined
 (

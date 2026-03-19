@@ -22,6 +22,11 @@ Types
 .
 h
 "
+#
+include
+<
+cstdint
+>
 enum
 GeckoProcessType
 {

@@ -13,6 +13,11 @@ Types
 .
 h
 "
+#
+include
+<
+cstdint
+>
 namespace
 mozilla
 {
