@@ -9,14 +9,6 @@ perl
 -
 w
 #
--
-*
--
-Perl
--
-*
--
-#
 #
 afblue
 .
