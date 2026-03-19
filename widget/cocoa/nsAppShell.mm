@@ -1603,6 +1603,16 @@ XRE_GetProcessType
 )
 !
 =
+GeckoProcessType_Content
+)
+&
+&
+(
+XRE_GetProcessType
+(
+)
+!
+=
 GeckoProcessType_RDD
 )
 &
