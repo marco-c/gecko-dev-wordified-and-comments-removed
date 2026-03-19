@@ -74,7 +74,9 @@ MAP_MEDIAERR
 name
 msg
 )
+\
 {
+\
 Name
 :
 :
@@ -82,6 +84,7 @@ name
 #
 name
 msg
+\
 }
 static
 struct
