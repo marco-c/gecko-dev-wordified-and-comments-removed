@@ -54,6 +54,10 @@ slow
 mod
 stored
 ;
+#
+[
+macro_export
+]
 macro_rules
 !
 flush_block
@@ -113,13 +117,6 @@ NeedMore
 }
 ;
 }
-pub
-(
-crate
-)
-use
-flush_block
-;
 pub
 fn
 run
@@ -300,7 +297,7 @@ func
 }
 }
 pub
-static
+const
 CONFIGURATION_TABLE
 :
 [

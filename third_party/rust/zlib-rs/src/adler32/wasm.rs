@@ -863,7 +863,7 @@ u32
 =
 unsafe
 {
-core
+std
 :
 :
 mem
