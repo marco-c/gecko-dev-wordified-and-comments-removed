@@ -89,6 +89,12 @@ io
 .
 mockk
 .
+coJustRun
+import
+io
+.
+mockk
+.
 coVerify
 import
 io
@@ -481,7 +487,7 @@ setUp
 (
 )
 {
-coEvery
+coJustRun
 {
 tabsUseCases
 .
@@ -498,8 +504,6 @@ any
 true
 )
 }
-returns
-Unit
 }
 Test
 fun

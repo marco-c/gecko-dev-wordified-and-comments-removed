@@ -87,6 +87,12 @@ io
 .
 mockk
 .
+Runs
+import
+io
+.
+mockk
+.
 every
 import
 io
@@ -98,6 +104,12 @@ impl
 annotations
 .
 MockK
+import
+io
+.
+mockk
+.
+just
 import
 io
 .
@@ -324,8 +336,8 @@ onIntentReceived
 intent
 )
 }
-returns
-Unit
+just
+Runs
 spyProvider
 .
 attachOnActivityOnCreate

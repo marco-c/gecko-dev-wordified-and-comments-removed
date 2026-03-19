@@ -87,6 +87,12 @@ io
 .
 mockk
 .
+coJustRun
+import
+io
+.
+mockk
+.
 coVerify
 import
 io
@@ -17580,7 +17586,7 @@ success
 (
 true
 )
-coEvery
+coJustRun
 {
 lastSavedFolderCache
 .
@@ -17589,8 +17595,6 @@ setGuid
 null
 )
 }
-returns
-Unit
 coEvery
 {
 navController

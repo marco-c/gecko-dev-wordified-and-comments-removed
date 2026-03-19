@@ -1207,8 +1207,8 @@ any
 )
 )
 }
-returns
-Unit
+just
+Runs
 controller
 .
 sitePermissions
@@ -1301,8 +1301,8 @@ any
 )
 )
 }
-returns
-Unit
+just
+Runs
 every
 {
 controller
@@ -1314,8 +1314,8 @@ any
 )
 )
 }
-returns
-Unit
+just
+Runs
 every
 {
 autoplayValue

@@ -707,8 +707,8 @@ any
 )
 )
 }
-returns
-Unit
+just
+Runs
 activity
 .
 browsingModeManager
@@ -803,8 +803,8 @@ any
 )
 )
 }
-returns
-Unit
+just
+Runs
 activity
 .
 browsingModeManager

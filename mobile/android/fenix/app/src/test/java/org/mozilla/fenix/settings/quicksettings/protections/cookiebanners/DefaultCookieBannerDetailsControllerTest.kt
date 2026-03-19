@@ -119,6 +119,12 @@ io
 .
 mockk
 .
+coJustRun
+import
+io
+.
+mockk
+.
 coVerifyOrder
 import
 io
@@ -1027,7 +1033,7 @@ returns
 mockk
 (
 )
-coEvery
+coJustRun
 {
 controller
 .
@@ -1038,8 +1044,6 @@ any
 )
 )
 }
-just
-Runs
 controller
 .
 handleTogglePressed

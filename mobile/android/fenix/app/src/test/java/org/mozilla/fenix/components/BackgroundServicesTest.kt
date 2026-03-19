@@ -407,8 +407,8 @@ any
 )
 )
 }
-returns
-Unit
+just
+Runs
 observer
 =
 TelemetryAccountObserver
