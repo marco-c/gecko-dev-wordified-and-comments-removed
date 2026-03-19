@@ -7046,6 +7046,12 @@ item
 cx
 )
 ;
+RootedId
+id
+(
+cx
+)
+;
 for
 (
 ;
@@ -7088,12 +7094,6 @@ return
 false
 ;
 }
-RootedId
-id
-(
-cx
-)
-;
 if
 (
 item
