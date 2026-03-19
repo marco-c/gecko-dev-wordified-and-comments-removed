@@ -45,6 +45,13 @@ sys
 mjs
 "
 "
+GeckoViewAIFeatures
+.
+sys
+.
+mjs
+"
+"
 GeckoViewAutocomplete
 .
 sys
