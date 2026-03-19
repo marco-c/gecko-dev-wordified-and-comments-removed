@@ -482,10 +482,6 @@ mValidating
 (
 false
 )
-mHadListener
-(
-false
-)
 {
 LOG_FUNC
 (
@@ -657,10 +653,6 @@ if
 mListener
 )
 {
-mHadListener
-=
-true
-;
 mListenerIsStrongRef
 =
 true

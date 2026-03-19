@@ -887,11 +887,6 @@ mValidating
 :
 1
 ;
-bool
-mHadListener
-:
-1
-;
 }
 ;
 inline
