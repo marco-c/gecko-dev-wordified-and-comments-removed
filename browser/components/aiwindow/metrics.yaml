@@ -379,10 +379,10 @@ to
 request
 history
 :
-home
-urlbar
-or
+fullpage
 sidebar
+or
+urlbar
 chat_id
 :
 *

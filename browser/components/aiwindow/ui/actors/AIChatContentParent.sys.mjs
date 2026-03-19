@@ -1412,11 +1412,12 @@ getAIWindowElement
 ;
 aiWindow
 .
-submitChatMessage
+onQuickPromptClicked
 (
 data
 .
 text
+false
 )
 ;
 }
