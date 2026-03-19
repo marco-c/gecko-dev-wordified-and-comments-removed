@@ -272,7 +272,7 @@ bool
 false
 }
 fn
-parses_as_element_backed
+is_element_backed
 (
 &
 self
@@ -10017,7 +10017,6 @@ SlotAssignment
 >
 {
 continue
-;
 }
 }
 ;
@@ -10301,7 +10300,6 @@ SlotAssignment
 >
 {
 continue
-;
 }
 }
 ;
@@ -17214,7 +17212,7 @@ p
 if
 p
 .
-parses_as_element_backed
+is_element_backed
 (
 )
 {
@@ -19959,7 +19957,7 @@ After
 )
 }
 fn
-parses_as_element_backed
+is_element_backed
 (
 &
 self
