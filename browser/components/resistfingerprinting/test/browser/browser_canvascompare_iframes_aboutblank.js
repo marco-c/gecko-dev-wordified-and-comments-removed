@@ -326,6 +326,14 @@ set
 "
 privacy
 .
+baselineFingerprintingProtection
+"
+false
+]
+[
+"
+privacy
+.
 fingerprintingProtection
 .
 overrides

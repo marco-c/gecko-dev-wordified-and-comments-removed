@@ -213,6 +213,14 @@ set
 "
 privacy
 .
+baselineFingerprintingProtection
+"
+false
+]
+[
+"
+privacy
+.
 fingerprintingProtection
 "
 false
