@@ -1813,7 +1813,6 @@ win
 ;
 const
 {
-started
 error
 }
 =
@@ -1830,8 +1829,16 @@ inPrivateBrowsing
 ;
 if
 (
+error
+&
+&
+error
 !
-started
+=
+=
+ERRORS
+.
+CANCELED
 )
 {
 const

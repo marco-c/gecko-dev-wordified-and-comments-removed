@@ -2511,6 +2511,9 @@ activationAbortController
 .
 abort
 (
+ERRORS
+.
+CANCELED
 )
 ;
 await
