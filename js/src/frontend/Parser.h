@@ -2717,7 +2717,6 @@ ErrorKind
 {
 Expression
 Destructuring
-DestructuringWarning
 }
 ;
 enum
@@ -2760,9 +2759,6 @@ exprError_
 ;
 Error
 destructuringError_
-;
-Error
-destructuringWarning_
 ;
 Error
 &
@@ -2842,17 +2838,6 @@ hasPendingDestructuringError
 ;
 void
 setPendingDestructuringErrorAt
-(
-const
-TokenPos
-&
-pos
-unsigned
-errorNumber
-)
-;
-void
-setPendingDestructuringWarningAt
 (
 const
 TokenPos
