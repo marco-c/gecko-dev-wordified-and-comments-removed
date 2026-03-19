@@ -108,7 +108,10 @@ RGBDescriptor
 aDescriptor
 )
 ;
+Maybe
+<
 uint32_t
+>
 ComputeRGBBufferSize
 (
 gfx
@@ -123,7 +126,10 @@ SurfaceFormat
 aFormat
 )
 ;
+Maybe
+<
 uint32_t
+>
 ComputeYCbCrBufferSize
 (
 const
@@ -164,7 +170,10 @@ ChromaSubsampling
 aSubsampling
 )
 ;
+Maybe
+<
 uint32_t
+>
 ComputeYCbCrBufferSize
 (
 const
@@ -209,13 +218,6 @@ gfx
 :
 ChromaSubsampling
 aSubsampling
-)
-;
-uint32_t
-ComputeYCbCrBufferSize
-(
-uint32_t
-aBufferSize
 )
 ;
 void
