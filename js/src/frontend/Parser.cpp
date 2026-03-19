@@ -43361,6 +43361,9 @@ propNamePos
 }
 else
 {
+if
+(
+!
 notePositionalFormalParameter
 (
 funNode
@@ -43377,7 +43380,14 @@ value
 false
 nullptr
 )
+)
+{
+return
+errorResult
+(
+)
 ;
+}
 Node
 initializerExpr
 =
