@@ -62,11 +62,6 @@ h
 include
 <
 limits
->
-#
-include
-<
-limits
 .
 h
 >
@@ -89,6 +84,11 @@ if
 MOZ_HAS_JSRUST
 (
 )
+#
+include
+<
+limits
+>
 extern
 "
 C
