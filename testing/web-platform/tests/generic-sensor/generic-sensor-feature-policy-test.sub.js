@@ -112,13 +112,13 @@ same_origin_src
 =
 "
 /
-feature
+permissions
 -
 policy
 /
 resources
 /
-feature
+permissions
 -
 policy
 -
@@ -167,7 +167,7 @@ base_src
 =
 "
 /
-feature
+permissions
 -
 policy
 /

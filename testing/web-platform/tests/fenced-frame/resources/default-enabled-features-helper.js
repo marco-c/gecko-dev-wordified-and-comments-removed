@@ -148,7 +148,7 @@ assert_true
 (
 document
 .
-featurePolicy
+permissionsPolicy
 .
 allowsFeature
 (
@@ -195,7 +195,7 @@ assert_true
 (
 document
 .
-featurePolicy
+permissionsPolicy
 .
 allowsFeature
 (
@@ -229,7 +229,7 @@ assert_true
 (
 document
 .
-featurePolicy
+permissionsPolicy
 .
 allowsFeature
 (
@@ -266,7 +266,7 @@ assert_true
 (
 document
 .
-featurePolicy
+permissionsPolicy
 .
 allowsFeature
 (
@@ -301,7 +301,7 @@ assert_false
 (
 document
 .
-featurePolicy
+permissionsPolicy
 .
 allowsFeature
 (

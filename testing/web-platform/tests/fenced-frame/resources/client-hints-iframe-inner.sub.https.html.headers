@@ -18,7 +18,7 @@ ch
 viewport
 -
 width
-Feature
+Permissions
 -
 Policy
 :
@@ -27,6 +27,7 @@ ch
 viewport
 -
 width
+=
 *
 Access
 -
