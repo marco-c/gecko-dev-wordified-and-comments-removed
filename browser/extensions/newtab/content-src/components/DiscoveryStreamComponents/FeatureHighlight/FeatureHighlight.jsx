@@ -511,7 +511,7 @@ icon
 div
 >
 <
-p
+div
 className
 =
 "
@@ -525,7 +525,7 @@ message
 }
 <
 /
-p
+div
 >
 <
 moz
