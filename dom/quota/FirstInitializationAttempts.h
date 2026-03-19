@@ -7,6 +7,11 @@ DOM_QUOTA_FIRSTINITIALIZATIONATTEMPTS_H_
 #
 include
 <
+type_traits
+>
+#
+include
+<
 utility
 >
 #
