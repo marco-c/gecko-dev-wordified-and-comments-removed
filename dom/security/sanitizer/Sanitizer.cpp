@@ -6605,10 +6605,6 @@ animate
 nsGkAtoms
 :
 :
-animateMotion
-nsGkAtoms
-:
-:
 animateTransform
 nsGkAtoms
 :
