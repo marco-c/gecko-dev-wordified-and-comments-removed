@@ -250,10 +250,16 @@ false
 *
 aOutput
 =
+std
+:
+:
+move
+(
 next
 -
 >
 data
+)
 ;
 mTail
 .
