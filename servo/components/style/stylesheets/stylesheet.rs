@@ -1680,6 +1680,15 @@ StartingStyle
 .
 .
 )
+|
+CssRule
+:
+:
+AppearanceBase
+(
+.
+.
+)
 =
 >
 false

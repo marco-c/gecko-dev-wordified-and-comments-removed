@@ -12081,7 +12081,7 @@ StyleDisplay
 )
 -
 >
-HasAppearance
+HasNativeAppearance
 (
 )
 )
