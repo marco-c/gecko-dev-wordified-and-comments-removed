@@ -10,7 +10,7 @@ body
 title
 >
 AbsoluteOrientationSensor
-Feature
+Permissions
 Policy
 Test
 :
@@ -61,13 +61,15 @@ src
 =
 "
 /
-feature
+permissions
 -
 policy
 /
 resources
 /
-featurepolicy
+permissions
+-
+policy
 .
 js
 "
@@ -113,7 +115,7 @@ use
 strict
 "
 ;
-run_fp_tests_enabled_by_attribute
+run_permissions_policy_tests_enabled_by_attribute
 (
 '
 AbsoluteOrientationSensor
