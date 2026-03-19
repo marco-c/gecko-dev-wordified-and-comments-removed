@@ -3745,8 +3745,9 @@ DEFINED_ON
 (
 x64
 arm64
-riscv64
+mips64
 loong64
+riscv64
 )
 ;
 inline
@@ -9603,6 +9604,7 @@ x64
 arm64
 riscv64
 loong64
+mips64
 )
 ;
 inline
@@ -9645,6 +9647,7 @@ DEFINED_ON
 arm64
 riscv64
 loong64
+mips64
 )
 ;
 inline
