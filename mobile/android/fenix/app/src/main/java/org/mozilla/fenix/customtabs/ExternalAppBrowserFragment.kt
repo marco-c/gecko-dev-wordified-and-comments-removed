@@ -869,6 +869,11 @@ customTabSessionId
 manifest
 =
 manifest
+scope
+=
+viewLifecycleOwner
+.
+lifecycleScope
 )
 {
 toolbarVisible

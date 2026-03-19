@@ -97,6 +97,12 @@ view
 .
 isVisible
 import
+androidx
+.
+lifecycle
+.
+lifecycleScope
+import
 mozilla
 .
 components
@@ -432,6 +438,11 @@ components
 customTabsStore
 sessionId
 manifest
+scope
+=
+viewLifecycleOwner
+.
+lifecycleScope
 )
 {
 toolbarVisible
