@@ -6567,7 +6567,7 @@ i
 (
 TAG
 "
-TestSetup
+TestSetupRule
 :
 Successfully
 allowed
@@ -6627,7 +6627,7 @@ i
 (
 TAG
 "
-TestSetup
+TestSetupRule
 :
 Successfully
 prevented
