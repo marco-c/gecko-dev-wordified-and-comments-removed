@@ -314,7 +314,7 @@ inflate
 :
 :
 {
-uncompress_slice
+decompress_slice
 InflateConfig
 }
 ;
@@ -1016,7 +1016,7 @@ output_slice
 error
 )
 =
-uncompress_slice
+decompress_slice
 (
 output
 &

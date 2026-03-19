@@ -7,6 +7,12 @@ unsafe_code
 )
 ]
 use
+super
+:
+:
+flush_block
+;
+use
 crate
 :
 :
@@ -19,7 +25,6 @@ fill_window
 BlockState
 DeflateStream
 }
-flush_block
 DeflateFlush
 }
 ;

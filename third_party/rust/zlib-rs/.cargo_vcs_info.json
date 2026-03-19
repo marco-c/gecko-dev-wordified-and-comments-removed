@@ -17,10 +17,8 @@ path_in_vcs
 "
 :
 "
-libz
+zlib
 -
 rs
--
-sys
 "
 }
