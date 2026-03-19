@@ -788,11 +788,6 @@ CSS
 h
 "
 "
-CSSAppearanceBaseRule
-.
-h
-"
-"
 CSSContainerRule
 .
 h
@@ -1058,11 +1053,6 @@ cpp
 "
 "
 CSS
-.
-cpp
-"
-"
-CSSAppearanceBaseRule
 .
 cpp
 "

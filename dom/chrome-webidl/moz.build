@@ -338,11 +338,6 @@ ConsoleInstance
 webidl
 "
 "
-CSSAppearanceBaseRule
-.
-webidl
-"
-"
 CSSCustomPropertyRegisteredEvent
 .
 webidl

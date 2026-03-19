@@ -152,7 +152,6 @@ rule_tree
 {
 CascadeLevel
 CascadeOrigin
-RuleCascadeFlags
 }
 ;
 use
@@ -1175,12 +1174,12 @@ flags
 for_cascade_inputs
 (
 )
-included_cascade_flags
+include_starting_style
 :
-RuleCascadeFlags
+Default
 :
 :
-empty
+default
 (
 )
 }
