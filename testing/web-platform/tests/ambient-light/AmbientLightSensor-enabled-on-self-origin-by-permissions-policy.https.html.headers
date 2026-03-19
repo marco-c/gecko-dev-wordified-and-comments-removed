@@ -1,4 +1,4 @@
-Feature
+Permissions
 -
 Policy
 :
@@ -7,4 +7,7 @@ ambient
 light
 -
 sensor
-*
+=
+(
+self
+)
