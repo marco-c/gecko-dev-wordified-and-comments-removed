@@ -1,16 +1,5 @@
 /
 /
--
-*
--
-mode
-:
-js2
--
-*
--
-/
-/
 Line
 numbers
 in
@@ -53,7 +42,7 @@ map
 /
 /
 line
-8
+7
 return
 function
 g
@@ -73,7 +62,7 @@ stolen
 /
 /
 line
-10
+9
 }
 ;
 }
@@ -99,7 +88,7 @@ y
 /
 /
 line
-15
+14
 if
 (
 y

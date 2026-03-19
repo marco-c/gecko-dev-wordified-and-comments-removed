@@ -280,7 +280,7 @@ on_not_equal
 ;
 virtual
 void
-CheckGreedyLoop
+CheckFixedLengthLoop
 (
 Label
 *

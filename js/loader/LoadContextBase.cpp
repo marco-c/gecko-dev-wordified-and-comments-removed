@@ -109,6 +109,16 @@ kind
 )
 {
 }
+LoadContextBase
+:
+:
+~
+LoadContextBase
+(
+)
+=
+default
+;
 void
 LoadContextBase
 :

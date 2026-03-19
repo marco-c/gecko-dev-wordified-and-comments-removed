@@ -7,11 +7,7 @@ js_loader_BaseLoadContext_h
 #
 include
 "
-js
-/
-loader
-/
-ScriptLoadRequest
+nsCycleCollectionParticipant
 .
 h
 "
@@ -85,8 +81,6 @@ virtual
 LoadContextBase
 (
 )
-=
-default
 ;
 public
 :

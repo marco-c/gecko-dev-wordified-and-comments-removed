@@ -560,7 +560,7 @@ front
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 empty
@@ -580,7 +580,7 @@ popFront
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 empty

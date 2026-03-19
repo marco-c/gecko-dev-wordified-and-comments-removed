@@ -30,6 +30,15 @@ include
 "
 vm
 /
+ConstantCompareOperand
+.
+h
+"
+#
+include
+"
+vm
+/
 Opcodes
 .
 h

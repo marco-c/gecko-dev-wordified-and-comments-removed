@@ -52,8 +52,6 @@ Scalar
 Type
 type
 int32_t
-offsetAdjustment
-int32_t
 *
 offset
 )
@@ -79,11 +77,6 @@ byteSize
 (
 type
 )
-;
-val
-+
-=
-offsetAdjustment
 ;
 if
 (

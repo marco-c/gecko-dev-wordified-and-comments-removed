@@ -1301,7 +1301,7 @@ void
 SMRegExpMacroAssembler
 :
 :
-CheckGreedyLoop
+CheckFixedLengthLoop
 (
 Label
 *

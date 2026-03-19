@@ -136,6 +136,15 @@ include
 "
 jit
 /
+StubFolding
+.
+h
+"
+#
+include
+"
+jit
+/
 VMFunctions
 .
 h
