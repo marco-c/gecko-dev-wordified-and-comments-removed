@@ -42,9 +42,6 @@ windows
 h
 >
 #
-ifndef
-__MINGW32__
-#
 include
 <
 roapi
@@ -61,11 +58,11 @@ h
 #
 include
 <
-Windows
+windows
 .
-System
+system
 .
-UserProfile
+userprofile
 .
 h
 >
@@ -112,8 +109,6 @@ System
 :
 UserProfile
 ;
-#
-endif
 using
 namespace
 mozilla
@@ -152,9 +147,6 @@ IsEmpty
 )
 )
 ;
-#
-ifndef
-__MINGW32__
 ComPtr
 <
 IGlobalizationPreferencesStatics
@@ -388,8 +380,6 @@ loc
 }
 }
 }
-#
-endif
 if
 (
 aLocaleList
