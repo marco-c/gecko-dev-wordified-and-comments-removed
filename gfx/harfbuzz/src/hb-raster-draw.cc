@@ -336,7 +336,7 @@ draw
 if
 (
 !
-hb_object_destroy
+hb_object_should_destroy
 (
 draw
 )
@@ -349,6 +349,11 @@ draw
 -
 >
 recycled_image
+)
+;
+hb_object_actually_destroy
+(
+draw
 )
 ;
 hb_free

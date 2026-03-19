@@ -4761,6 +4761,9 @@ foreground
 return
 true
 ;
+#
+ifndef
+HB_NO_SVG
 if
 (
 font
@@ -4785,6 +4788,8 @@ paint_data
 return
 true
 ;
+#
+endif
 #
 ifndef
 HB_NO_OT_FONT_BITMAP

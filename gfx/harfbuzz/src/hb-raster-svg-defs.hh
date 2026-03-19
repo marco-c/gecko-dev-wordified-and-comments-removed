@@ -276,11 +276,13 @@ char
 >
 owned_id_strings
 ;
+HB_INTERNAL
 ~
 hb_svg_defs_t
 (
 )
 ;
+HB_INTERNAL
 bool
 add_id_mapping
 (
@@ -297,6 +299,7 @@ unsigned
 idx
 )
 ;
+HB_INTERNAL
 bool
 add_gradient
 (
@@ -308,6 +311,7 @@ hb_svg_gradient_t
 grad
 )
 ;
+HB_INTERNAL
 const
 hb_svg_gradient_t
 *
@@ -318,6 +322,7 @@ id
 )
 const
 ;
+HB_INTERNAL
 bool
 add_clip_path
 (
@@ -329,6 +334,7 @@ hb_svg_clip_path_def_t
 clip
 )
 ;
+HB_INTERNAL
 const
 hb_svg_clip_path_def_t
 *

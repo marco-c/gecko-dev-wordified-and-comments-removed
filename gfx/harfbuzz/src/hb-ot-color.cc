@@ -70,6 +70,9 @@ sbix
 hh
 "
 #
+ifndef
+HB_NO_SVG
+#
 include
 "
 OT
@@ -82,6 +85,8 @@ svg
 .
 hh
 "
+#
+endif
 hb_bool_t
 hb_ot_color_has_palettes
 (
@@ -365,6 +370,9 @@ layers
 )
 ;
 }
+#
+ifndef
+HB_NO_SVG
 hb_bool_t
 hb_ot_color_has_svg
 (
@@ -523,6 +531,8 @@ glyph
 )
 ;
 }
+#
+endif
 hb_bool_t
 hb_ot_color_has_png
 (

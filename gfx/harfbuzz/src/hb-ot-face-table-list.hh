@@ -348,11 +348,16 @@ HB_OT_ACCELERATOR
 OT
 sbix
 )
+#
+ifndef
+HB_NO_SVG
 HB_OT_ACCELERATOR
 (
 OT
 SVG
 )
+#
+endif
 #
 endif
 #

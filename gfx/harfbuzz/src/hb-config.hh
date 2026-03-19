@@ -50,6 +50,9 @@ define
 HB_MINI
 #
 define
+HB_NO_SVG
+#
+define
 HB_OPTIMIZE_SIZE
 #
 define

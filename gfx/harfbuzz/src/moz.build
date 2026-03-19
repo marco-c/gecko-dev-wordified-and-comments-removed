@@ -1184,6 +1184,13 @@ vector
 .
 cc
 '
+'
+hb
+-
+zlib
+.
+cc
+'
 ]
 SOURCES
 =
