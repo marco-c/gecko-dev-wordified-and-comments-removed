@@ -7169,12 +7169,15 @@ _0
 CASCADE_ORDER_SHIFT
 ;
 return
+int8_t
+(
 neg
 ?
 -
 abs
 :
 abs
+)
 ;
 }
 "
