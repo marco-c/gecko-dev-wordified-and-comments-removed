@@ -628,7 +628,7 @@ aCBReflowInput
 .
 mFlags
 .
-mIsInColumnMeasuringReflow
+mIsInFragmentainerMeasuringReflow
 ?
 nullptr
 :
@@ -663,7 +663,7 @@ aCBReflowInput
 .
 mFlags
 .
-mIsInColumnMeasuringReflow
+mIsInFragmentainerMeasuringReflow
 ?
 nullptr
 :
@@ -3013,7 +3013,7 @@ aReflowInput
 .
 mFlags
 .
-mIsInColumnMeasuringReflow
+mIsInFragmentainerMeasuringReflow
 )
 {
 NS_WARNING_ASSERTION
@@ -3826,7 +3826,7 @@ aReflowInput
 .
 mFlags
 .
-mIsInColumnMeasuringReflow
+mIsInFragmentainerMeasuringReflow
 )
 {
 kidFrame

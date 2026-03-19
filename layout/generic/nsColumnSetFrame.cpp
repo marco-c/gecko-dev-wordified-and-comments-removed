@@ -3151,7 +3151,7 @@ kidReflowInput
 .
 mFlags
 .
-mIsInColumnMeasuringReflow
+mIsInFragmentainerMeasuringReflow
 =
 aConfig
 .
@@ -5455,7 +5455,7 @@ aReflowInput
 .
 mFlags
 .
-mIsInColumnMeasuringReflow
+mIsInFragmentainerMeasuringReflow
 ;
 }
 if

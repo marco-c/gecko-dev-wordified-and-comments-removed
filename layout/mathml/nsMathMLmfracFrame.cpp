@@ -966,6 +966,15 @@ rightSpace
 ;
 if
 (
+!
+StaticPrefs
+:
+:
+mathml_lspace_rspace_for_child_spacing_during_mrow_layout_enabled
+(
+)
+&
+&
 outermostEmbellished
 )
 {

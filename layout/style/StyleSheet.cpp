@@ -1891,6 +1891,12 @@ aCopy
 .
 mIntegrity
 )
+mOriginClean
+(
+aCopy
+.
+mOriginClean
+)
 mSourceMapURL
 (
 aCopy

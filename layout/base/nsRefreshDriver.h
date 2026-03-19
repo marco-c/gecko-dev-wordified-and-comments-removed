@@ -1209,12 +1209,6 @@ PerformPendingViewTransitionOperations
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
-void
-DetermineProximityToViewportAndNotifyResizeObservers
-(
-)
-;
 void
 MaybeIncreaseMeasuredTicksSinceLoading
 (

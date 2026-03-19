@@ -699,6 +699,10 @@ nscoord
 aOffsetX
 nscoord
 aBaseline
+bool
+aAddOperatorSpacing
+=
+true
 )
 ;
 void

@@ -287,6 +287,15 @@ nsIFrame
 aFrame
 )
 ;
+nscoord
+FixInterFrameSpacing
+(
+ReflowOutput
+&
+aDesiredSize
+)
+final
+;
 }
 ;
 #

@@ -1490,7 +1490,7 @@ mIsInLastColumnBalancingReflow
 1
 ;
 bool
-mIsInColumnMeasuringReflow
+mIsInFragmentainerMeasuringReflow
 :
 1
 ;
