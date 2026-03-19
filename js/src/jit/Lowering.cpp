@@ -2327,7 +2327,7 @@ useRegisterAtStart
 ins
 -
 >
-getCallObject
+callObject
 (
 )
 )

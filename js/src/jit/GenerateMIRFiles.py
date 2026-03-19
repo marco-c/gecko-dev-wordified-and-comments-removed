@@ -839,6 +839,11 @@ JSScript
 LexicalScope
 *
 "
+    
+"
+ArgumentsObject
+*
+"
 ]
 special_storage_types
 =
