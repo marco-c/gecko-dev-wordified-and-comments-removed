@@ -2405,7 +2405,7 @@ colorScheme
 onSurfaceVariant
 leaveTrail
 =
-true
+false
 )
 }
 }
