@@ -9232,6 +9232,8 @@ bool
 aShadowRootIsSerializable
 bool
 aShadowRootDelegatesFocus
+bool
+aShadowRootCustomElementRegistry
 nsHtml5String
 aShadowRootReferenceTarget
 )
@@ -9340,6 +9342,7 @@ mode
 aShadowRootIsClonable
 aShadowRootIsSerializable
 aShadowRootDelegatesFocus
+aShadowRootCustomElementRegistry
 shadowRootReferenceTarget
 )
 ;
@@ -9448,6 +9451,7 @@ mode
 aShadowRootIsClonable
 aShadowRootIsSerializable
 aShadowRootDelegatesFocus
+aShadowRootCustomElementRegistry
 shadowRootReferenceTarget
 )
 ;

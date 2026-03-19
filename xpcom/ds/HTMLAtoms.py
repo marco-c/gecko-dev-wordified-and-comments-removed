@@ -247,6 +247,16 @@ stddeviation
 Atom
 (
 "
+shadowrootcustomelementregistry
+"
+"
+shadowrootcustomelementregistry
+"
+)
+    
+Atom
+(
+"
 shadowrootdelegatesfocus
 "
 "

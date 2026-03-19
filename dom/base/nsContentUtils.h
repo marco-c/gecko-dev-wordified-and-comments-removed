@@ -9164,6 +9164,8 @@ bool
 aIsSerializable
 bool
 aDelegatesFocus
+bool
+aCustomElementRegistry
 const
 nsAString
 &
