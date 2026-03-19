@@ -60115,6 +60115,12 @@ case
 LayoutFrameType
 :
 :
+HTMLVideo
+:
+case
+LayoutFrameType
+:
+:
 TableCell
 :
 return
