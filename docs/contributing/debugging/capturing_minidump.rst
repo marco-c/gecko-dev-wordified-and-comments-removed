@@ -1881,7 +1881,7 @@ Crash
 Reporter
 window
 is
-opend
+opened
 a
 process
 that

@@ -737,7 +737,7 @@ should
 be
 a
 map
-containign
+containing
 key
 /
 values
