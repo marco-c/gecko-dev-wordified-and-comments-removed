@@ -1119,6 +1119,11 @@ viewport
 edge
 .
 png
+fuzzy
+(
+2
+50000
+)
 platform
 (
 linux
