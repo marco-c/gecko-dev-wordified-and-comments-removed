@@ -11647,7 +11647,7 @@ operands
 :
 def
 :
-Object
+Value
 result_type
 :
 Boolean
@@ -15672,7 +15672,7 @@ operands
 :
 instance
 :
-WasmAnyRef
+Pointer
 suspender
 :
 WasmAnyRef
@@ -15702,7 +15702,7 @@ operands
 :
 instance
 :
-WasmAnyRef
+Pointer
 suspender
 :
 WasmAnyRef
@@ -15729,7 +15729,7 @@ operands
 :
 instance
 :
-WasmAnyRef
+Pointer
 suspender
 :
 WasmAnyRef
