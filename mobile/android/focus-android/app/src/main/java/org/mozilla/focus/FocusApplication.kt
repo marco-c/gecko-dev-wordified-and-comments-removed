@@ -1794,6 +1794,9 @@ true
 override
 val
 workManagerConfiguration
+get
+(
+)
 =
 Builder
 (

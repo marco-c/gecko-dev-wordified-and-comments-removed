@@ -7983,6 +7983,9 @@ config
 override
 val
 workManagerConfiguration
+get
+(
+)
 =
 Builder
 (
