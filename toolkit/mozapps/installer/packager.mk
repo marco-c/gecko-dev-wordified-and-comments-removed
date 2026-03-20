@@ -876,6 +876,10 @@ analyzer
 config
 -
 o
+(
+topsrcdir
+)
+/
 rust
 -
 analyzer
@@ -926,6 +930,10 @@ scip
 config
 -
 path
+(
+topsrcdir
+)
+/
 rust
 -
 analyzer

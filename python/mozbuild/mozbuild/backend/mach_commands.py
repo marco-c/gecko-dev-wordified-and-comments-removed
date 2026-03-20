@@ -1427,15 +1427,19 @@ else
 cargo_check_command
 =
 [
+os
+.
+path
+.
+join
+(
+command_context
+.
+topsrcdir
 "
-.
-.
-/
-.
-.
-/
 mach
 "
+)
 ]
     
 elif
