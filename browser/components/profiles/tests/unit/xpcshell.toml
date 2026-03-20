@@ -234,13 +234,6 @@ js
 ]
 [
 "
-test_reset_profile_supported
-.
-js
-"
-]
-[
-"
 test_selectable_profile_launch
 .
 js

@@ -1268,7 +1268,6 @@ anything
 "
 )
 ;
-await
 makeProfileResettable
 (
 )

@@ -82,7 +82,6 @@ false
 }
 )
 ;
-await
 makeProfileResettable
 (
 )

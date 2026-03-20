@@ -731,7 +731,7 @@ migrators
 =
 migrator
 .
-getResourcesInternal
+_getResourcesInternal
 (
 srcDir
 targetDir
