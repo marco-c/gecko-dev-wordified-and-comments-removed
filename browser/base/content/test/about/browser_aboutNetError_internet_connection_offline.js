@@ -424,13 +424,7 @@ await
 checkErrorForInvalidUriLoad_feltPrivacyToTrue
 (
 "
-fp
--
-neterror
--
-offline
--
-body
+netOffline
 -
 title
 "
