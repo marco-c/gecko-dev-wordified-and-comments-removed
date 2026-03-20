@@ -463,7 +463,6 @@ e
 g
 .
 MainCoroutineRule
-MainLooperTestRule
 or
 a
 custom
