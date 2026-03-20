@@ -4474,7 +4474,7 @@ HasAlpha
 )
 &
 &
-alphaLength
+alphaData
 !
 =
 0
