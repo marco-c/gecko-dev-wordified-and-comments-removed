@@ -4753,6 +4753,9 @@ MemoryStore
 hardDeleteMemory
 (
 memoryId
+"
+settings
+"
 )
 ;
 }
@@ -4992,6 +4995,9 @@ hardDeleteMemory
 memory
 .
 id
+"
+settings
+"
 )
 ;
 }
