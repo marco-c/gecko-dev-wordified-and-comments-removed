@@ -290,6 +290,16 @@ pref
 "
 pdfjs
 .
+enableNewBadge
+"
+true
+)
+;
+pref
+(
+"
+pdfjs
+.
 enableOptimizedPartialRendering
 "
 false

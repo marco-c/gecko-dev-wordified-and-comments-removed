@@ -4581,6 +4581,15 @@ idx
 )
 ;
 }
+shouldSkip
+(
+idx
+)
+{
+return
+false
+;
+}
 goTo
 (
 idx
@@ -4666,7 +4675,6 @@ Stats
 =
 (
 function
-Stats
 (
 )
 {
