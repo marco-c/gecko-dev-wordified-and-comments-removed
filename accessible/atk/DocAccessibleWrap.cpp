@@ -76,9 +76,8 @@ DocAccessibleWrap
 DocAccessibleWrap
 (
 )
-=
-default
-;
+{
+}
 bool
 DocAccessibleWrap
 :

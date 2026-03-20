@@ -167,9 +167,8 @@ nsChromeTreeOwner
 nsChromeTreeOwner
 (
 )
-=
-default
-;
+{
+}
 NS_IMPL_ADDREF
 (
 nsChromeTreeOwner

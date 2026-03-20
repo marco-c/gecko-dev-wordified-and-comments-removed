@@ -100,9 +100,13 @@ ICU4XChineseCalendar
 &
 other
 )
-=
-default
-;
+:
+ICU4XChineseBasedCalendar
+(
+other
+)
+{
+}
 ICU4XChineseCalendar
 :
 :

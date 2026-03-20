@@ -93,9 +93,8 @@ RegisteredThread
 RegisteredThread
 (
 )
-=
-default
-;
+{
+}
 size_t
 RegisteredThread
 :

@@ -211,9 +211,8 @@ BrowserBridgeChild
 BrowserBridgeChild
 (
 )
-=
-default
-;
+{
+}
 already_AddRefed
 <
 BrowserBridgeHost

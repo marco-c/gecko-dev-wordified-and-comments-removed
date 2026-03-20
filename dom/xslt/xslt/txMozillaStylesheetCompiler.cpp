@@ -1588,12 +1588,6 @@ ReferrerPolicy
 aReferrerPolicy
 )
 ;
-txCompileObserver
-(
-)
-=
-delete
-;
 private
 :
 RefPtr
@@ -1607,6 +1601,10 @@ nsCOMPtr
 Document
 >
 mLoaderDocument
+;
+txCompileObserver
+(
+)
 ;
 ~
 txCompileObserver

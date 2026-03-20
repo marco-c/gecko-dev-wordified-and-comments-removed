@@ -109,9 +109,8 @@ FocusManager
 FocusManager
 (
 )
-=
-default
-;
+{
+}
 FocusManager
 :
 :
@@ -119,9 +118,8 @@ FocusManager
 FocusManager
 (
 )
-=
-default
-;
+{
+}
 LocalAccessible
 *
 FocusManager

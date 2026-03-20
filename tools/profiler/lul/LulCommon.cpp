@@ -86,9 +86,8 @@ Module
 Module
 (
 )
-=
-default
-;
+{
+}
 class
 UniqueString
 {

@@ -129,9 +129,8 @@ WindowSurfaceX11Image
 WindowSurfaceX11Image
 (
 )
-=
-default
-;
+{
+}
 already_AddRefed
 <
 gfx

@@ -828,9 +828,8 @@ ExternalHelperAppParent
 ExternalHelperAppParent
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHODIMP
 ExternalHelperAppParent
 :

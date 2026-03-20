@@ -467,9 +467,8 @@ ScreenshotGrabberImpl
 ScreenshotGrabberImpl
 (
 )
-=
-default
-;
+{
+}
 RefPtr
 <
 RenderSource

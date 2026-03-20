@@ -119,9 +119,8 @@ nsJARProtocolHandler
 nsJARProtocolHandler
 (
 )
-=
-default
-;
+{
+}
 nsresult
 nsJARProtocolHandler
 :

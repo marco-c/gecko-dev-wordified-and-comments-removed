@@ -1098,9 +1098,8 @@ NS_DECL_ISUPPORTS
 PeerConnectionCtxObserver
 (
 )
-=
-default
-;
+{
+}
 void
 Init
 (

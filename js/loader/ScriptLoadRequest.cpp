@@ -386,9 +386,8 @@ ScriptLoadRequest
 ScriptLoadRequest
 (
 )
-=
-default
-;
+{
+}
 void
 ScriptLoadRequest
 :

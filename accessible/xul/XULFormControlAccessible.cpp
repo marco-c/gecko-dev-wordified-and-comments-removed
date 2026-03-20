@@ -189,9 +189,8 @@ XULButtonAccessible
 XULButtonAccessible
 (
 )
-=
-default
-;
+{
+}
 bool
 XULButtonAccessible
 :

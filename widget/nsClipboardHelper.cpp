@@ -93,9 +93,8 @@ nsClipboardHelper
 nsClipboardHelper
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHODIMP
 nsClipboardHelper
 :

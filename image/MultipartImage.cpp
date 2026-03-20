@@ -506,9 +506,8 @@ virtual
 NextPartObserver
 (
 )
-=
-default
-;
+{
+}
 void
 FinishObserving
 (

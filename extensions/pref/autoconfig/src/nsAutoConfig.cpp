@@ -205,9 +205,8 @@ nsAutoConfig
 nsAutoConfig
 (
 )
-=
-default
-;
+{
+}
 nsresult
 nsAutoConfig
 :
@@ -285,9 +284,8 @@ nsAutoConfig
 nsAutoConfig
 (
 )
-=
-default
-;
+{
+}
 void
 nsAutoConfig
 :

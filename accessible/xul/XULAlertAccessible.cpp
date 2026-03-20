@@ -71,9 +71,8 @@ XULAlertAccessible
 XULAlertAccessible
 (
 )
-=
-default
-;
+{
+}
 role
 XULAlertAccessible
 :

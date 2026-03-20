@@ -2387,9 +2387,8 @@ virtual
 RenderSourceLMC
 (
 )
-=
-default
-;
+{
+}
 RefPtr
 <
 CompositingRenderTarget
@@ -2591,9 +2590,8 @@ virtual
 DownscaleTargetLMC
 (
 )
-=
-default
-;
+{
+}
 RefPtr
 <
 RenderSourceLMC
@@ -2720,9 +2718,8 @@ virtual
 AsyncReadbackBufferLMC
 (
 )
-=
-default
-;
+{
+}
 RefPtr
 <
 mozilla

@@ -1223,9 +1223,8 @@ public
 MDefinitionRemapper
 (
 )
-=
-default
-;
+{
+}
 [
 [
 nodiscard

@@ -54,9 +54,8 @@ WebMWriter
 WebMWriter
 (
 )
-=
-default
-;
+{
+}
 nsresult
 WebMWriter
 :

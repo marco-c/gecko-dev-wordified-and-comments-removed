@@ -269,9 +269,8 @@ virtual
 FetchDecodedImageHelper
 (
 )
-=
-default
-;
+{
+}
 void
 RequestDecode
 (

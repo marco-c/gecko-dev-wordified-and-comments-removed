@@ -1922,9 +1922,8 @@ XULListitemAccessible
 XULListitemAccessible
 (
 )
-=
-default
-;
+{
+}
 LocalAccessible
 *
 XULListitemAccessible

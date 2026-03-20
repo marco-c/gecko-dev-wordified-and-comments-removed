@@ -433,9 +433,8 @@ CachedSurface
 CachedSurface
 (
 )
-=
-default
-;
+{
+}
 public
 :
 MOZ_DECLARE_REFCOUNTED_TYPENAME
@@ -1034,9 +1033,8 @@ ImageSurfaceCache
 ImageSurfaceCache
 (
 )
-=
-default
-;
+{
+}
 public
 :
 explicit
@@ -7298,9 +7296,8 @@ virtual
 MemoryPressureObserver
 (
 )
-=
-default
-;
+{
+}
 }
 ;
 nsTArray

@@ -44,9 +44,8 @@ TextureSourceProvider
 TextureSourceProvider
 (
 )
-=
-default
-;
+{
+}
 void
 TextureSourceProvider
 :

@@ -2410,9 +2410,8 @@ LSprinter
 LSprinter
 (
 )
-=
-default
-;
+{
+}
 void
 LSprinter
 :

@@ -2097,9 +2097,8 @@ nsIEditorSpellCheckCallback
 InitEditorSpellCheckCallback
 (
 )
-=
-default
-;
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
@@ -2269,9 +2268,8 @@ mozInlineSpellChecker
 mozInlineSpellChecker
 (
 )
-=
-default
-;
+{
+}
 EditorSpellCheck
 *
 mozInlineSpellChecker
@@ -8097,9 +8095,8 @@ private
 UpdateCurrentDictionaryCallback
 (
 )
-=
-default
-;
+{
+}
 RefPtr
 <
 mozInlineSpellChecker

@@ -599,9 +599,8 @@ RemoteWorkerDebuggerChild
 RemoteWorkerDebuggerChild
 (
 )
-=
-default
-;
+{
+}
 mozilla
 :
 :

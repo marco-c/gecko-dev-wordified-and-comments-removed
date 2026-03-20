@@ -1036,9 +1036,8 @@ RuleSet
 RuleSet
 (
 )
-=
-default
-;
+{
+}
 SecMap
 :
 :

@@ -2675,14 +2675,14 @@ Paint
 )
 ;
 }
+private
+:
 MixModeBlender
 (
 )
 =
 delete
 ;
-private
-:
 IntRect
 ComputeClipExtsInDeviceSpace
 (

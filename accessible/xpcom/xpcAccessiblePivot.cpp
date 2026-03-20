@@ -58,9 +58,8 @@ aRule
 xpcPivotRule
 (
 )
-=
-default
-;
+{
+}
 virtual
 uint16_t
 Match
@@ -116,9 +115,8 @@ xpcAccessiblePivot
 xpcAccessiblePivot
 (
 )
-=
-default
-;
+{
+}
 NS_IMPL_CYCLE_COLLECTION
 (
 xpcAccessiblePivot

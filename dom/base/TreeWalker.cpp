@@ -99,9 +99,8 @@ TreeWalker
 TreeWalker
 (
 )
-=
-default
-;
+{
+}
 NS_IMPL_CYCLE_COLLECTION
 (
 TreeWalker

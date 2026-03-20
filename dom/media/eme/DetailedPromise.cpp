@@ -76,9 +76,8 @@ DetailedPromise
 DetailedPromise
 (
 )
-=
-default
-;
+{
+}
 void
 DetailedPromise
 :

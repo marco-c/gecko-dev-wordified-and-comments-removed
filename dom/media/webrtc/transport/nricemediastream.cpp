@@ -710,9 +710,8 @@ NrIceMediaStream
 NrIceMediaStream
 (
 )
-=
-default
-;
+{
+}
 nsresult
 NrIceMediaStream
 :

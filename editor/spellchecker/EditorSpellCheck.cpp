@@ -778,9 +778,8 @@ private
 DictionaryFetcher
 (
 )
-=
-default
-;
+{
+}
 RefPtr
 <
 EditorSpellCheck

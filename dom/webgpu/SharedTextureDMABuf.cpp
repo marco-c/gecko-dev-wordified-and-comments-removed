@@ -568,9 +568,8 @@ SharedTextureDMABuf
 SharedTextureDMABuf
 (
 )
-=
-default
-;
+{
+}
 void
 SharedTextureDMABuf
 :

@@ -46,9 +46,8 @@ nsIconProtocolHandler
 nsIconProtocolHandler
 (
 )
-=
-default
-;
+{
+}
 nsIconProtocolHandler
 :
 :
@@ -56,9 +55,8 @@ nsIconProtocolHandler
 nsIconProtocolHandler
 (
 )
-=
-default
-;
+{
+}
 NS_IMPL_ISUPPORTS
 (
 nsIconProtocolHandler

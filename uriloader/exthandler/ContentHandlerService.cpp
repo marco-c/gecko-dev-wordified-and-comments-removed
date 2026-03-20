@@ -105,9 +105,8 @@ ContentHandlerService
 ContentHandlerService
 (
 )
-=
-default
-;
+{
+}
 already_AddRefed
 <
 nsIHandlerService
@@ -886,9 +885,8 @@ ContentHandlerService
 ContentHandlerService
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHODIMP
 ContentHandlerService
 :

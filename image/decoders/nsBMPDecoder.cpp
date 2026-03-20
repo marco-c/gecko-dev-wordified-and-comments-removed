@@ -665,9 +665,8 @@ nsBMPDecoder
 nsBMPDecoder
 (
 )
-=
-default
-;
+{
+}
 int32_t
 nsBMPDecoder
 :

@@ -1237,9 +1237,8 @@ imgTools
 imgTools
 (
 )
-=
-default
-;
+{
+}
 imgTools
 :
 :
@@ -1247,9 +1246,8 @@ imgTools
 imgTools
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHODIMP
 imgTools
 :

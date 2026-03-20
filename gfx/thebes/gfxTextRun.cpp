@@ -10615,9 +10615,8 @@ virtual
 DeferredClearResolvedFonts
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHOD
 Run
 (
@@ -22002,9 +22001,8 @@ virtual
 DeferredNotifyMissingFonts
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHOD
 Run
 (

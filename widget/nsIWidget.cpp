@@ -843,9 +843,8 @@ WidgetShutdownObserver
 WidgetShutdownObserver
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHODIMP
 WidgetShutdownObserver
 :
@@ -1169,9 +1168,8 @@ LocalesChangedObserver
 LocalesChangedObserver
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHODIMP
 LocalesChangedObserver
 :

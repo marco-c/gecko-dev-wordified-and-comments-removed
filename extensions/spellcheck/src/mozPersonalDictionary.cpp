@@ -661,9 +661,8 @@ mozPersonalDictionary
 mozPersonalDictionary
 (
 )
-=
-default
-;
+{
+}
 nsresult
 mozPersonalDictionary
 :

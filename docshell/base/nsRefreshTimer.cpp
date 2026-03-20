@@ -95,9 +95,8 @@ nsRefreshTimer
 nsRefreshTimer
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHODIMP
 nsRefreshTimer
 :

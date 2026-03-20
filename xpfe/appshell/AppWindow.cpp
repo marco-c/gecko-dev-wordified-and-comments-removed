@@ -13632,9 +13632,8 @@ private
 AppWindowTimerCallback
 (
 )
-=
-default
-;
+{
+}
 RefPtr
 <
 AppWindow

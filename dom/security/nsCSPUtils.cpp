@@ -2778,9 +2778,8 @@ nsCSPBaseSrc
 nsCSPBaseSrc
 (
 )
-=
-default
-;
+{
+}
 nsCSPBaseSrc
 :
 :
