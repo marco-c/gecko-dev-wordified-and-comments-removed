@@ -2893,6 +2893,11 @@ label
 aMenuLabel
 )
 ;
+if
+(
+aTooltipText
+)
+{
 element
 .
 setAttribute
@@ -2915,6 +2920,7 @@ description
 aTooltipText
 )
 ;
+}
 if
 (
 aClosedTab
