@@ -2569,8 +2569,6 @@ void
 FirePageHideNotificationInternal
 (
 bool
-aIsUnload
-bool
 aSkipCheckingDynEntries
 )
 ;
@@ -3793,11 +3791,6 @@ mIsBeingDestroyed
 ;
 bool
 mIsExecutingOnLoadHandler
-:
-1
-;
-bool
-mSavingOldViewer
 :
 1
 ;
