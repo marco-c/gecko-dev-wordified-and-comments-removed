@@ -84,6 +84,11 @@ container
 ;
 ok
 (
+!
+titleContainer
+|
+|
+(
 titleContainer
 &
 &
@@ -98,6 +103,7 @@ visibility
 "
 hidden
 "
+)
 "
 Top
 sites
