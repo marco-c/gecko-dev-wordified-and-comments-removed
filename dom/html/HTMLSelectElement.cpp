@@ -761,7 +761,7 @@ SetPseudoElementType
 PseudoStyleType
 :
 :
-MozSelectPickerIcon
+PickerIcon
 )
 ;
 {
