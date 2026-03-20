@@ -1363,15 +1363,6 @@ url
 offset
 )
 {
-if
-(
-Services
-.
-appinfo
-.
-sessionHistoryInParent
-)
-{
 let
 browsingContext
 =
@@ -1436,7 +1427,6 @@ url
 url
 )
 ;
-}
 }
 return
 false

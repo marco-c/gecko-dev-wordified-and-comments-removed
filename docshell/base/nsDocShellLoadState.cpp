@@ -5328,14 +5328,6 @@ AssertProcessCouldTriggerLoadIfSystem
 {
 if
 (
-mozilla
-:
-:
-SessionHistoryInParent
-(
-)
-&
-&
 TriggeringPrincipal
 (
 )

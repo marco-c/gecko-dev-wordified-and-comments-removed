@@ -719,15 +719,6 @@ nsIWebBrowserPersistWriteCompletion
 aCompletion
 )
 ;
-[
-notxpcom
-nostdcall
-]
-SHEntryRef
-GetHistory
-(
-)
-;
 }
 ;
 /

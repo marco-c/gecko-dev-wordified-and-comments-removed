@@ -1215,11 +1215,6 @@ JSObject
 )
 {
 return
-SessionHistoryInParent
-(
-)
-&
-&
 StaticPrefs
 :
 :

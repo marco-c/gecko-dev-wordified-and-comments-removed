@@ -9345,14 +9345,6 @@ GetScriptTrackingFlags
 if
 (
 aIsWindowOpen
-&
-&
-mozilla
-:
-:
-SessionHistoryInParent
-(
-)
 )
 {
 loadState

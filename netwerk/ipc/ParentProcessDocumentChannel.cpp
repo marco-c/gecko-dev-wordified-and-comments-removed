@@ -429,14 +429,6 @@ IsDocumentLoad
 )
 &
 &
-mozilla
-:
-:
-SessionHistoryInParent
-(
-)
-&
-&
 GetDocShell
 (
 )

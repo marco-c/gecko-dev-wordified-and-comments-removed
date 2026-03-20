@@ -411,13 +411,6 @@ isBfcacheInParentEnabled
 >
 Services
 .
-appinfo
-.
-sessionHistoryInParent
-&
-&
-Services
-.
 prefs
 .
 getBoolPref

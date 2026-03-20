@@ -3847,14 +3847,6 @@ IsCurrentGlobal
 {
 if
 (
-mozilla
-:
-:
-SessionHistoryInParent
-(
-)
-&
-&
 BrowsingContext
 (
 )
