@@ -3826,6 +3826,13 @@ debug
 ]
 [
 "
+text_ext_webRequest_js_cache
+.
+js
+"
+]
+[
+"
 test_ext_webRequest_mergecsp
 .
 js
