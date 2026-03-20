@@ -183,6 +183,11 @@ isPlaying
 ;
 readonly
 attribute
+boolean
+isAnyMediaBeingControlled
+;
+readonly
+attribute
 MediaSessionPlaybackState
 playbackState
 ;
