@@ -133,7 +133,7 @@ test_pointer_down_closes_browsing_context
     
 session
 configuration
-http_new_tab
+new_tab_classic
 inline
 touch_chain
 )

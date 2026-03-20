@@ -1338,7 +1338,7 @@ pytest
 .
 fixture
 def
-http_new_tab
+new_tab_classic
 (
 session
 )
@@ -1589,7 +1589,7 @@ pytest
 .
 fixture
 def
-load_pdf_http
+load_pdf_classic
 (
 current_session
 test_page_with_pdf_js
@@ -1615,7 +1615,7 @@ js
 "
     
 def
-load_pdf_http
+load_pdf_classic
 (
 encoded_pdf_data
 )
@@ -1631,12 +1631,12 @@ encoded_pdf_data
 )
     
 return
-load_pdf_http
+load_pdf_classic
 pytest
 .
 fixture
 def
-render_pdf_to_png_http
+render_pdf_to_png_classic
 (
 current_session
 url
@@ -1657,14 +1657,12 @@ png
 "
     
 def
-render_pdf_to_png_http
+render_pdf_to_png_classic
 (
-        
 encoded_pdf_data
 page
 =
 1
-    
 )
 :
         
@@ -1764,12 +1762,12 @@ image_string_without_data_type
 )
     
 return
-render_pdf_to_png_http
+render_pdf_to_png_classic
 pytest
 .
 fixture
 def
-compare_png_http
+compare_png_classic
 (
 current_session
 url
@@ -1777,7 +1775,7 @@ url
 :
     
 def
-compare_png_http
+compare_png_classic
 (
 img1
 img2
@@ -2004,7 +2002,7 @@ maxDifference
 )
     
 return
-compare_png_http
+compare_png_classic
 pytest
 .
 fixture

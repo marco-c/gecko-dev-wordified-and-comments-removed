@@ -56,7 +56,7 @@ test_release_mouse_sequence_resets_dblclick_state
 (
     
 session
-http_new_tab
+new_tab_classic
 test_actions_page
 mouse_chain
 release_actions

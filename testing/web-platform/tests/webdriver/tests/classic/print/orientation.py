@@ -91,7 +91,7 @@ session
     
 inline
     
-render_pdf_to_png_http
+render_pdf_to_png_classic
     
 orientation_value
     
@@ -142,7 +142,7 @@ print_value
     
 png
 =
-render_pdf_to_png_http
+render_pdf_to_png_classic
 (
 print_value
 )

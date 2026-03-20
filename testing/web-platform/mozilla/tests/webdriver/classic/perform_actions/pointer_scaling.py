@@ -64,7 +64,7 @@ test_position_with_different_scaling
 (
     
 session
-http_new_tab
+new_tab_classic
 inline
 set_full_zoom
 use_pref

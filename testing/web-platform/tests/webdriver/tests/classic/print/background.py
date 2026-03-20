@@ -112,9 +112,9 @@ session
     
 inline
     
-compare_png_http
+compare_png_classic
     
-render_pdf_to_png_http
+render_pdf_to_png_classic
     
 print_with_background
     
@@ -214,18 +214,15 @@ print_value
     
 png
 =
-render_pdf_to_png_http
+render_pdf_to_png_classic
 (
-        
 print_value
-    
 )
     
 comparison
 =
-compare_png_http
+compare_png_classic
 (
-        
 png
 base64
 .
@@ -233,7 +230,6 @@ b64decode
 (
 expected_image
 )
-    
 )
     
 assert
