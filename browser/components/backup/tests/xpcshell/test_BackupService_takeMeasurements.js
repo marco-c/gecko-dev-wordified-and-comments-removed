@@ -824,6 +824,7 @@ BackupService
 (
 )
 ;
+await
 bs
 .
 setParentDirPath
@@ -926,6 +927,7 @@ clearScalars
 (
 )
 ;
+await
 bs
 .
 setParentDirPath

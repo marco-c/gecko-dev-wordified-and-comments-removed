@@ -47,6 +47,7 @@ mjs
 ;
 add_task
 (
+async
 function
 test_empty
 (
@@ -60,14 +61,11 @@ BackupService
 (
 )
 ;
+await
 Assert
 .
-throws
+rejects
 (
-(
-)
-=
->
 bs
 .
 setParentDirPath
@@ -89,6 +87,7 @@ rejected
 ;
 add_task
 (
+async
 function
 test_typical
 (
@@ -124,6 +123,7 @@ path
 name
 )
 ;
+await
 bs
 .
 setParentDirPath
@@ -177,6 +177,7 @@ used
 ;
 add_task
 (
+async
 function
 test_already_decorated
 (
@@ -216,6 +217,7 @@ Firefox
 "
 )
 ;
+await
 bs
 .
 setParentDirPath
