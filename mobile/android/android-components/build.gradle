@@ -915,15 +915,6 @@ lint
 '
 )
 }
-kotlin
-{
-jvmToolchain
-(
-config
-.
-jvmTargetCompatibility
-)
-}
 android
 {
 /
