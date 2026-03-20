@@ -462,6 +462,13 @@ js
 ]
 [
 "
+browser_smartwindow_switcher_telemetry
+.
+js
+"
+]
+[
+"
 browser_smartwindow_tab_move
 .
 js
