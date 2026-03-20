@@ -5199,6 +5199,9 @@ check_prog
 "
 (
 "
+7zz
+"
+"
 7z
 "
 "
@@ -5208,6 +5211,11 @@ check_prog
 allow_missing
 =
 True
+bootstrap
+=
+"
+7zz
+"
 when
 =
 target_is_windows

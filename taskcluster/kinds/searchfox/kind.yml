@@ -1318,6 +1318,10 @@ toolchain
 -
 linux64
 -
+7zz
+-
+linux64
+-
 cbindgen
 -
 linux64
@@ -1516,6 +1520,10 @@ fetches
 :
 toolchain
 :
+-
+linux64
+-
+7zz
 -
 linux64
 -
