@@ -96,6 +96,10 @@ securityState
 :
 "
 secure
+-
+custom
+-
+root
 "
 }
 {

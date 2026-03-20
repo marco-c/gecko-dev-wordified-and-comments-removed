@@ -81,6 +81,9 @@ Xc
 ;
 }
 }
+isBuiltCertChainRootBuiltInRoot
+:
+true
 }
 ;
 const
