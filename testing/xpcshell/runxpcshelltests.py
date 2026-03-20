@@ -11254,25 +11254,10 @@ self
 .
 mozInfo
 [
-            
 "
 fission
 "
-        
 ]
-or
-not
-prefs
-.
-get
-(
-"
-fission
-.
-disableSessionHistoryInParent
-"
-False
-)
         
 self
 .

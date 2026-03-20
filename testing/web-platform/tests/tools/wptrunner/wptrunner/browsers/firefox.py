@@ -1769,7 +1769,6 @@ disable_fission
 sessionHistoryInParent
 "
 :
-(
 not
 kwargs
 .
@@ -1778,18 +1777,6 @@ get
 "
 disable_fission
 "
-)
-or
-                                     
-not
-bool_pref
-(
-"
-fission
-.
-disableSessionHistoryInParent
-"
-)
 )
           
 "
