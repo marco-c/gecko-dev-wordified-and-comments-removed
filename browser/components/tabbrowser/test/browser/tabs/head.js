@@ -1596,10 +1596,12 @@ destWindow
 origWindow
 )
 {
-origWindow
+await
+SimpleTest
 .
-focus
+promiseFocus
 (
+origWindow
 )
 ;
 origWindow
