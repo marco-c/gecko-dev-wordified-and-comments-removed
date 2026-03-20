@@ -2921,10 +2921,6 @@ toolchain
 -
 linux64
 -
-7zz
--
-linux64
--
 clang
 -
 linux64
@@ -3128,10 +3124,6 @@ toolchain
 -
 linux64
 -
-7zz
--
-linux64
--
 clang
 -
 linux64
@@ -3331,10 +3323,6 @@ fetches
 :
 toolchain
 :
--
-linux64
--
-7zz
 -
 linux64
 -
@@ -3546,10 +3534,6 @@ fetches
 :
 toolchain
 :
--
-linux64
--
-7zz
 -
 linux64
 -

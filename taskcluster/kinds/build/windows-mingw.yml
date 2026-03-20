@@ -253,10 +253,6 @@ rust
 -
 linux64
 -
-7zz
--
-linux64
--
 upx
 -
 linux64
@@ -453,10 +449,6 @@ toolchain
 mingw32
 -
 rust
--
-linux64
--
-7zz
 -
 linux64
 -
@@ -657,10 +649,6 @@ rust
 -
 linux64
 -
-7zz
--
-linux64
--
 upx
 -
 linux64
@@ -857,10 +845,6 @@ toolchain
 mingw32
 -
 rust
--
-linux64
--
-7zz
 -
 linux64
 -

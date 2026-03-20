@@ -101,6 +101,7 @@ install
 recommends
 -
 y
+7zip
 jq
 python3
 -

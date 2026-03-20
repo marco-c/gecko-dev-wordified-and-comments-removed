@@ -211,6 +211,10 @@ libxml2
 \
 make
 \
+p7zip
+-
+full
+\
 perl
 \
 procps
