@@ -8623,9 +8623,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-SPDY_PARALLEL_STREAMS
 request_per_conn
 :
 type
@@ -8755,9 +8752,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-SPDY_REQUEST_PER_CONN_3
 server_initiated_streams
 :
 type
@@ -8848,9 +8842,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-SPDY_SERVER_INITIATED_STREAMS
 kbread_per_conn
 :
 type
@@ -8932,9 +8923,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-SPDY_KBREAD_PER_CONN2
 settings_max_streams
 :
 type
@@ -9025,9 +9013,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-SPDY_SETTINGS_MAX_STREAMS
 goaway_local
 :
 type
@@ -9127,9 +9112,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-SPDY_GOAWAY_LOCAL
 goaway_peer
 :
 type
@@ -9229,9 +9211,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-SPDY_GOAWAY_PEER
 continued_headers
 :
 type
@@ -9788,9 +9767,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-HTTP_REQUEST_PER_CONN
 kbread_per_conn2
 :
 type
@@ -9872,9 +9848,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-HTTP_KBREAD_PER_CONN2
 transaction_is_ssl
 :
 type
@@ -10946,11 +10919,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-h
-#
-HTTP_CONNECTION_ENTRY_CACHE_HIT_1
 content_encoding
 :
 type
@@ -11160,9 +11128,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-HTTP_CONNECTION_CLOSE_REASON
 transaction_restart_reason
 :
 type
@@ -11261,9 +11226,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-HTTP_TRANSACTION_RESTART_REASON
 transaction_ech_retry_with_ech_count
 :
 type
@@ -11775,9 +11737,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-TRANSACTION_WAIT_TIME_HTTP
 transaction_wait_time_spdy
 :
 type
@@ -11864,9 +11823,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-TRANSACTION_WAIT_TIME_SPDY
 transaction_wait_time_http3
 :
 type
@@ -11955,9 +11911,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-TRANSACTION_WAIT_TIME_HTTP3
 transaction_wait_time_http2_sup_http3
 :
 type
@@ -12056,9 +12009,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-TRANSACTION_WAIT_TIME_HTTP2_SUP_HTTP3
 tls_early_data_negotiated
 :
 type
@@ -12528,11 +12478,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-h
-#
-HTTP2_FAIL_BEFORE_SETTINGS
 cache_lm_inconsistent
 :
 type
@@ -12929,9 +12874,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-DNS_HTTPSSVC_CONNECTION_FAILED_REASON
 script_block_incorrect_mime
 :
 type
@@ -13357,11 +13299,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-h
-#
-ECHCONFIG_SUCCESS_RATE
 cache_disposition
 :
 type
@@ -14366,9 +14303,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-HTTP3_CONNECTION_CLOSE_CODE_3
 timer_delayed
 :
 type
@@ -14458,9 +14392,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-HTTP3_TIMER_DELAYED
 request_per_conn
 :
 type
@@ -14554,9 +14485,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-HTTP3_REQUEST_PER_CONN
 blocked_by_stream_limit_per_conn
 :
 type
@@ -14662,9 +14590,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-HTTP3_BLOCKED_BY_STREAM_LIMIT_PER_CONN
 trans_blocked_by_stream_limit_per_conn
 :
 type
@@ -14769,9 +14694,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-HTTP3_TRANS_BLOCKED_BY_STREAM_LIMIT_PER_CONN
 trans_sending_blocked_by_flow_control_per_conn
 :
 type
@@ -14876,9 +14798,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-HTTP3_TRANS_SENDING_BLOCKED_BY_FLOW_CONTROL_PER_CONN
 sending_blocked_by_flow_control_per_trans
 :
 type
