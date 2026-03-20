@@ -11766,8 +11766,6 @@ newDocShell
 ResumeRedirectedLoad
 (
 mPendingSwitchId
--
-1
 )
 ;
 if

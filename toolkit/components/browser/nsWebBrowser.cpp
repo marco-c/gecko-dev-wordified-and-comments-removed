@@ -2133,8 +2133,6 @@ ResumeRedirectedLoad
 (
 uint64_t
 aIdentifier
-int32_t
-aHistoryIndex
 )
 {
 NS_ENSURE_STATE
@@ -2149,7 +2147,6 @@ mDocShell
 ResumeRedirectedLoad
 (
 aIdentifier
-aHistoryIndex
 )
 ;
 }

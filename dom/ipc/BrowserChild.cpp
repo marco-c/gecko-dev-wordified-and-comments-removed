@@ -4520,8 +4520,6 @@ WebNavigation
 ResumeRedirectedLoad
 (
 aPendingSwitchID
--
-1
 )
 ;
 if
