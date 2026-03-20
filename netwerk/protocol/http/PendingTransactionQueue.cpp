@@ -1607,7 +1607,9 @@ Clear
 ;
 for
 (
+const
 auto
+&
 trans
 :
 toClose
