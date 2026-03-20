@@ -15,7 +15,9 @@ tests
 .
 support
 .
-fixtures_bidi
+bidi
+.
+fixtures
 "
     
 "
@@ -23,6 +25,8 @@ tests
 .
 support
 .
-fixtures_http
+classic
+.
+fixtures
 "
 )

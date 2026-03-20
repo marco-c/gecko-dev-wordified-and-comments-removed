@@ -73,6 +73,8 @@ tests
 .
 support
 .
+bidi
+.
 fixtures
 "
     
@@ -81,7 +83,9 @@ tests
 .
 support
 .
-fixtures_bidi
+classic
+.
+fixtures
 "
     
 "
@@ -89,7 +93,7 @@ tests
 .
 support
 .
-fixtures_http
+fixtures
 "
     
 "

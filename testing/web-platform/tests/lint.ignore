@@ -11857,7 +11857,9 @@ tests
 /
 support
 /
-fixtures_bidi
+bidi
+/
+fixtures
 .
 py
 DUPLICATE
