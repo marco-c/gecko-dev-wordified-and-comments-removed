@@ -38553,6 +38553,10 @@ playing
 _ns
 )
 ;
+StartMediaControlKeyListenerIfNeeded
+(
+)
+;
 }
 already_AddRefed
 <
