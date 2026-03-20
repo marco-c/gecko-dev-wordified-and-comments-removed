@@ -353,7 +353,7 @@ length
 =
 =
 =
-4
+5
 )
 ;
 ok
@@ -373,6 +373,7 @@ root
 contentObjectProp
 deepProp
 prototypeProp
+globalProp
 ]
 =
 [
@@ -470,6 +471,20 @@ prototype
 )
 )
 ;
+ok
+(
+globalProp
+.
+textContent
+.
+includes
+(
+<
+global
+>
+)
+)
+;
 deepProp
 .
 querySelector
@@ -507,7 +522,7 @@ length
 =
 =
 =
-7
+9
 )
 ;
 ok

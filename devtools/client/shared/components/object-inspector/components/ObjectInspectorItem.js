@@ -173,6 +173,7 @@ nodeIsBlock
 nodeIsDefaultProperties
 nodeIsFunction
 nodeIsGetter
+nodeIsGlobal
 nodeIsMapEntry
 nodeIsMissingArguments
 nodeIsOptimizedOut
@@ -853,6 +854,12 @@ item
 |
 |
 nodeIsSetter
+(
+item
+)
+|
+|
+nodeIsGlobal
 (
 item
 )

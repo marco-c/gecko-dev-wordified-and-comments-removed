@@ -104,6 +104,7 @@ nodeExpand
 (
 node
 actor
+options
 )
 {
 return
@@ -138,6 +139,7 @@ nodeLoadProperties
 (
 node
 actor
+options
 )
 )
 ;
@@ -170,6 +172,7 @@ nodeLoadProperties
 (
 node
 actor
+options
 )
 {
 return
@@ -225,6 +228,8 @@ loadItemProperties
 node
 client
 loadedProperties
+null
+options
 )
 ;
 if
