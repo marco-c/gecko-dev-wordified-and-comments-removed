@@ -5413,7 +5413,7 @@ blocklisted
 \
 n
 "
-PromiseFlatCString
+nsCString
 (
 aHost
 )
@@ -5967,7 +5967,7 @@ s
 \
 n
 "
-PromiseFlatCString
+nsCString
 (
 aHost
 )

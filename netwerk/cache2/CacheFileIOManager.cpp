@@ -22627,7 +22627,9 @@ now
 ;
 leafName
 .
-AppendPrintf
+Append
+(
+nsPrintfCString
 (
 "
 %
@@ -22668,6 +22670,7 @@ tm_min
 now
 .
 tm_sec
+)
 )
 ;
 leafName

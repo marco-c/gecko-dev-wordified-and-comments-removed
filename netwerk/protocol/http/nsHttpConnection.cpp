@@ -2033,9 +2033,7 @@ else
 {
 for
 (
-const
 auto
-&
 trans
 :
 list

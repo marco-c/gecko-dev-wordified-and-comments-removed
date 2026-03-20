@@ -1997,9 +1997,7 @@ clear
 ;
 for
 (
-const
 auto
-&
 channel
 :
 temp
