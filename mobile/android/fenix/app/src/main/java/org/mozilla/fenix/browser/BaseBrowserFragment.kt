@@ -7749,6 +7749,15 @@ NimbusGeckoPrefHandler
 browserPrefObserverIntegration
 =
 integration
+NimbusGeckoPrefHandler
+.
+engine
+=
+requireComponents
+.
+core
+.
+engine
 integration
 .
 register
