@@ -6020,6 +6020,13 @@ context
 requireContext
 (
 )
+engineSession
+=
+tab
+.
+engineState
+.
+engineSession
 tabTitle
 =
 tab
