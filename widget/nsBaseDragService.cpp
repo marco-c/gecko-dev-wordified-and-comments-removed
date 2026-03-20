@@ -1551,7 +1551,7 @@ IsInAutomation
 dragService
 -
 >
-IsMockService
+GetIsMockService
 (
 )
 "
