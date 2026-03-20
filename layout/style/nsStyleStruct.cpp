@@ -17884,11 +17884,15 @@ nsChangeHint_NeutralChange
 if
 (
 mViewTransitionClass
+.
+value
 !
 =
 aNewData
 .
 mViewTransitionClass
+.
+value
 )
 {
 hint
