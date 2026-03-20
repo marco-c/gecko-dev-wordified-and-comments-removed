@@ -2523,7 +2523,7 @@ isSignedIn
 true
 isEnrolledAndEntitled
 :
-true
+false
 }
 )
 ;
@@ -2553,6 +2553,17 @@ fog
 .
 testFlushAllChildren
 (
+)
+;
+let
+panelShownPromise
+=
+waitForPanelEvent
+(
+document
+"
+popupshown
+"
 )
 ;
 document
@@ -2635,6 +2646,9 @@ name
 get_started
 "
 )
+;
+await
+panelShownPromise
 ;
 await
 closePanel
