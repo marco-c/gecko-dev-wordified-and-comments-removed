@@ -6958,7 +6958,7 @@ INDEX_TIME_DENOM_OFFSET
 if
 (
 timeDenom
-=
+<
 =
 0
 )
@@ -6980,9 +6980,11 @@ stream
 %
 u
 has
-0
 "
 "
+non
+-
+positive
 timestamp
 denominator
 .
