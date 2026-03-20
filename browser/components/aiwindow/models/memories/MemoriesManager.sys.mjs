@@ -113,7 +113,6 @@ MODEL_FEATURES
 openAIEngine
 renderPrompt
 SERVICE_TYPES
-PURPOSES
 }
 from
 "
@@ -626,9 +625,6 @@ generation
 SERVICE_TYPES
 .
 MEMORIES
-PURPOSES
-.
-MEMORY_GENERATION
 )
 ;
 return
@@ -803,19 +799,6 @@ usage
 SERVICE_TYPES
 .
 MEMORIES
-PURPOSES
-.
-MEMORY_GENERATION
-/
-/
-no
-dedicated
-purpose
-for
-classification
-not
-currently
-used
 )
 ;
 return

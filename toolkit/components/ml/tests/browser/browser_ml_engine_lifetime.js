@@ -2655,9 +2655,6 @@ null
 serviceType
 :
 null
-purpose
-:
-null
 }
 }
 }

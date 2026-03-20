@@ -2137,7 +2137,6 @@ baseURL
 apiKey
 modelId
 serviceType
-purpose
 extraHeaders
 engineId
 }
@@ -2217,14 +2216,6 @@ serviceType
 |
 "
 ai
-"
-purpose
-:
-purpose
-|
-|
-"
-chat
 "
 "
 x
