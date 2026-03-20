@@ -710,6 +710,11 @@ SetType
 x
 )
 {
+MOZ_ASSERT
+(
+x
+)
+;
 return
 std
 :
@@ -728,6 +733,11 @@ SetType
 x
 )
 {
+MOZ_ASSERT
+(
+x
+)
+;
 return
 std
 :
@@ -2780,6 +2790,11 @@ SetType
 x
 )
 {
+MOZ_ASSERT
+(
+x
+)
+;
 return
 std
 :
@@ -2798,6 +2813,11 @@ SetType
 x
 )
 {
+MOZ_ASSERT
+(
+x
+)
+;
 return
 std
 :
