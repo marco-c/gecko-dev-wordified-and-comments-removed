@@ -106,10 +106,6 @@ opam
 \
 patch
 \
-p7zip
--
-full
-\
 procps
 \
 python3

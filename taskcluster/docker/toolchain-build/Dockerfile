@@ -157,10 +157,6 @@ openssh
 -
 client
 \
-p7zip
--
-full
-\
 pkg
 -
 config
