@@ -45,6 +45,12 @@ undef
 GP_PLAT_arm64_windows
 #
 undef
+GP_PLAT_amd64_freebsd
+#
+undef
+GP_PLAT_arm64_freebsd
+#
+undef
 GP_PLAT_unknown
 #
 undef
@@ -76,6 +82,9 @@ GP_OS_darwin
 #
 undef
 GP_OS_windows
+#
+undef
+GP_OS_freebsd
 #
 undef
 GP_OS_unknown
