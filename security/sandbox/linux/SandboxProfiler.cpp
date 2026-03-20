@@ -47,6 +47,15 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h

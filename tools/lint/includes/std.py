@@ -1478,7 +1478,19 @@ underlying_type
 "
         
 "
-result_ofinvoke_result
+result_of
+"
+        
+"
+result_of_t
+"
+        
+"
+invoke_result
+"
+        
+"
+invoke_result_t
 "
         
 "

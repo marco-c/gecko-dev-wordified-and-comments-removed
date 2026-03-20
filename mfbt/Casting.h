@@ -16,7 +16,7 @@ h
 #
 include
 <
-cinttypes
+cstdint
 >
 #
 include
