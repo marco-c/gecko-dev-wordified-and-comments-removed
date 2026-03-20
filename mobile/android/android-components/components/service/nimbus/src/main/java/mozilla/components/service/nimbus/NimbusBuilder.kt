@@ -297,6 +297,9 @@ createDelegate
 recordedContext
 =
 recordedContext
+geckoPrefHandler
+=
+geckoPrefHandler
 )
 .
 apply

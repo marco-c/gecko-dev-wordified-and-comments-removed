@@ -1649,6 +1649,8 @@ isLargeScreenSize
 }
 val
 nimbus
+:
+NimbusComponents
 by
 lazyMonitored
 {
@@ -1657,6 +1659,14 @@ NimbusComponents
 context
 =
 context
+engine
+=
+lazyMonitored
+{
+core
+.
+engine
+}
 remoteSettingsService
 =
 remoteSettingsService
