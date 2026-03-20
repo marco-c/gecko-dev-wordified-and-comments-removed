@@ -2233,6 +2233,8 @@ fenix
 .
 experiments
 .
+prefhandling
+.
 NimbusGeckoPrefHandler
 import
 org

@@ -991,7 +991,7 @@ fenix
 .
 experiments
 .
-NimbusGeckoPrefHandler
+maybeFetchExperiments
 import
 org
 .
@@ -1001,7 +1001,9 @@ fenix
 .
 experiments
 .
-maybeFetchExperiments
+prefhandling
+.
+NimbusGeckoPrefHandler
 import
 org
 .
