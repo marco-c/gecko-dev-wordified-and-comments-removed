@@ -6320,6 +6320,17 @@ markSliceCount
 ;
 #
 ifdef
+JS_GC_CONCURRENT_MARKING
+MainThreadData
+<
+size_t
+>
+concurrentMarkingFinishedCount
+;
+#
+endif
+#
+ifdef
 DEBUG
 MainThreadData
 <
