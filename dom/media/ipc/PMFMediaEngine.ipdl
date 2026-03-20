@@ -303,16 +303,6 @@ error
 )
 ;
 async
-NotifyHardwareReset
-(
-)
-;
-async
-NotifyWaitingForKey
-(
-)
-;
-async
 UpdateCurrentTime
 (
 double
