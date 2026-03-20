@@ -2074,6 +2074,9 @@ buf
 ;
 string
 s
+=
+"
+"
 ;
 switch
 (
