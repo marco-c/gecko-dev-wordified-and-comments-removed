@@ -167,6 +167,16 @@ getElementById
 (
 aFocus
 )
+?
+?
+aWindow
+.
+document
+.
+querySelector
+(
+aFocus
+)
 ;
 friendlyExpected
 =

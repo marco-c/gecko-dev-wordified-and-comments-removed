@@ -5942,7 +5942,7 @@ widget
 .
 new
 "
-false
+true
 ]
 [
 "
