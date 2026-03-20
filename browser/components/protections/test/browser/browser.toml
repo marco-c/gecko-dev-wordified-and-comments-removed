@@ -51,6 +51,13 @@ js
 ]
 [
 "
+browser_privacy_metrics_card
+.
+js
+"
+]
+[
+"
 browser_protections_lockwise
 .
 js

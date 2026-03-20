@@ -1337,6 +1337,17 @@ contentblocking
 .
 report
 .
+privacy_metrics
+.
+enabled
+"
+"
+browser
+.
+contentblocking
+.
+report
+.
 proxy
 .
 enabled
