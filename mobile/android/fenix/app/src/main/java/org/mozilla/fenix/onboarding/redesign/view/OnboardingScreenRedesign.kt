@@ -2307,6 +2307,11 @@ shouldShowElevation
 layout
 .
 isSmall
+isSmallDevice
+=
+layout
+.
+isSmall
 )
 OnboardingPageForType
 (
@@ -2333,11 +2338,6 @@ onMarketingOptInToggle
 onMarketingDataContinueClick
 =
 onMarketingDataContinueClick
-isSmallDevice
-=
-layout
-.
-isSmall
 )
 }
 Spacer
@@ -2539,9 +2539,6 @@ Boolean
 -
 >
 Unit
-isSmallDevice
-:
-Boolean
 )
 {
 when
@@ -2574,7 +2571,6 @@ NOTIFICATION_PERMISSION
 OnboardingPageRedesign
 (
 state
-isSmallDevice
 )
 OnboardingPageUiData
 .
@@ -2606,9 +2602,6 @@ store
 pageState
 =
 state
-isSmallDevice
-=
-isSmallDevice
 onToolbarSelectionClicked
 =
 {
@@ -2663,9 +2656,6 @@ MarketingDataOnboardingPageRedesign
 state
 =
 state
-isSmallDevice
-=
-isSmallDevice
 onMarketingDataLearnMoreClick
 =
 onMarketingDataLearnMoreClick
@@ -2687,9 +2677,6 @@ TermsOfServiceOnboardingPageRedesign
 (
 state
 termsOfServiceEventHandler
-isSmallDevice
-=
-isSmallDevice
 )
 /
 /

@@ -557,19 +557,6 @@ this
 page
 .
 *
-param
-isSmallDevice
-Whether
-to
-apply
-layout
-optimizations
-for
-constrained
-screen
-heights
-.
-*
 /
 Composable
 fun
@@ -581,9 +568,6 @@ OnboardingPageState
 eventHandler
 :
 OnboardingTermsOfServiceEventHandler
-isSmallDevice
-:
-Boolean
 )
 {
 Card
@@ -641,6 +625,8 @@ vertical
 =
 if
 (
+pageState
+.
 isSmallDevice
 )
 0
@@ -667,6 +653,8 @@ rememberScrollState
 if
 (
 !
+pageState
+.
 isSmallDevice
 )
 {
@@ -826,6 +814,8 @@ CenterEnd
 )
 enabled
 =
+pageState
+.
 isSmallDevice
 )
 }
@@ -1546,9 +1536,6 @@ object
 OnboardingTermsOfServiceEventHandler
 {
 }
-isSmallDevice
-=
-false
 )
 }
 }

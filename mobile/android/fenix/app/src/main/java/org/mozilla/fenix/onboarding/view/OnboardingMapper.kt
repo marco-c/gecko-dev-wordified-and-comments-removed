@@ -1199,6 +1199,11 @@ OnboardingPageUiData
 shouldShowElevation
 :
 Boolean
+isSmallDevice
+:
+Boolean
+=
+false
 onMakeFirefoxDefaultClick
 :
 (
@@ -1327,6 +1332,9 @@ onMakeFirefoxDefaultSkipClick
 shouldShowElevation
 =
 shouldShowElevation
+isSmallDevice
+=
+isSmallDevice
 )
 OnboardingPageUiData
 .
@@ -1349,6 +1357,9 @@ onAddFirefoxWidgetSkipClick
 shouldShowElevation
 =
 shouldShowElevation
+isSmallDevice
+=
+isSmallDevice
 )
 OnboardingPageUiData
 .
@@ -1371,6 +1382,9 @@ onSignInSkipClick
 shouldShowElevation
 =
 shouldShowElevation
+isSmallDevice
+=
+isSmallDevice
 )
 OnboardingPageUiData
 .
@@ -1393,6 +1407,9 @@ onNotificationPermissionSkipClick
 shouldShowElevation
 =
 shouldShowElevation
+isSmallDevice
+=
+isSmallDevice
 )
 OnboardingPageUiData
 .
@@ -1426,6 +1443,9 @@ placement
 shouldShowElevation
 =
 shouldShowElevation
+isSmallDevice
+=
+isSmallDevice
 )
 OnboardingPageUiData
 .
@@ -1459,6 +1479,9 @@ selection
 shouldShowElevation
 =
 shouldShowElevation
+isSmallDevice
+=
+isSmallDevice
 )
 OnboardingPageUiData
 .
@@ -1493,6 +1516,9 @@ service
 shouldShowElevation
 =
 shouldShowElevation
+isSmallDevice
+=
+isSmallDevice
 )
 OnboardingPageUiData
 .
@@ -1526,6 +1552,9 @@ data
 shouldShowElevation
 =
 shouldShowElevation
+isSmallDevice
+=
+isSmallDevice
 )
 }
 private
@@ -1536,6 +1565,9 @@ onboardingPageUiData
 :
 OnboardingPageUiData
 shouldShowElevation
+:
+Boolean
+isSmallDevice
 :
 Boolean
 onPositiveButtonClick
@@ -1625,4 +1657,7 @@ marketingData
 shouldShowElevation
 =
 shouldShowElevation
+isSmallDevice
+=
+isSmallDevice
 )
