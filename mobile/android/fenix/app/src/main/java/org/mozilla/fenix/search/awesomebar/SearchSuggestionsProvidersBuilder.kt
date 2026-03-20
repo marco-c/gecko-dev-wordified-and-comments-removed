@@ -1448,6 +1448,9 @@ add
 (
 SportsOnlineSuggestionProvider
 (
+searchUseCase
+=
+searchUseCase
 dataSource
 =
 MockedSportsSuggestionDataSource
