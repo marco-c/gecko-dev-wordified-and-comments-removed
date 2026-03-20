@@ -2588,7 +2588,6 @@ mDocumentViewer
 >
 Close
 (
-nullptr
 )
 ;
 mDocumentViewer
@@ -32391,7 +32390,6 @@ viewer
 >
 Close
 (
-nullptr
 )
 ;
 aNewViewer
@@ -32476,7 +32474,6 @@ viewer
 >
 Close
 (
-nullptr
 )
 ;
 viewer

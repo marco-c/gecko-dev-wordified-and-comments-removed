@@ -823,8 +823,6 @@ viewer
 >
 Open
 (
-nullptr
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1744,7 +1742,6 @@ mViewer
 >
 Close
 (
-nullptr
 )
 ;
 mViewer
