@@ -1678,6 +1678,9 @@ content
 memoriesApplied
 webSearchQueries
 followUpSuggestions
+=
+[
+]
 }
 =
 event

@@ -804,7 +804,8 @@ webSearchQueries
 ]
 followUpSuggestions
 =
-null
+[
+]
 params
 =
 null
