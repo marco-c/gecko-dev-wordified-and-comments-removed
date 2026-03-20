@@ -96,10 +96,6 @@ securityState
 :
 "
 secure
--
-custom
--
-root
 "
 }
 {
