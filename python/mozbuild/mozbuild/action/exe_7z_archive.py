@@ -203,7 +203,7 @@ BuildEnvironmentNotFoundException
 sevenz
 =
 "
-7z
+7zz
 "
         
 subprocess
