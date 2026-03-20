@@ -195,7 +195,7 @@ helpers
 .
 MatcherHelper
 .
-itemWithResIdAndText
+itemContainingText
 import
 org
 .
@@ -1304,15 +1304,8 @@ file
 clickPageObject
 (
 composeTestRule
-itemWithResIdAndText
+itemContainingText
 (
-"
-android
-:
-id
-/
-button2
-"
 "
 Cancel
 "
