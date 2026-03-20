@@ -14511,10 +14511,6 @@ StringValue
 (
 cx
 str
-.
-c_str
-(
-)
 rv
 )
 )
