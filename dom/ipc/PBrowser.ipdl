@@ -6419,6 +6419,16 @@ StringHashSet
 aAllowedFilePaths
 )
 ;
+#
+ifdef
+ACCESSIBILITY
+async
+RequestDocAccessibleForPrint
+(
+)
+;
+#
+endif
 parent
 :
 /
