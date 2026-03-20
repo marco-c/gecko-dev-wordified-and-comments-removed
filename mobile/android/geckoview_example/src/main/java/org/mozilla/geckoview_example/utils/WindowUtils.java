@@ -107,6 +107,9 @@ setupPersistentInsets
 (
 Window
 window
+final
+boolean
+isBrowser
 )
 {
 if
@@ -241,6 +244,17 @@ top
 persistentInsets
 .
 right
+isBrowser
+&
+&
+EdgeToEdgeUtils
+.
+isEdgeToEdgeEnabled
+(
+)
+?
+0
+:
 persistentInsets
 .
 bottom
