@@ -1813,16 +1813,6 @@ yaml
 "
     
 "
-modules
-/
-libpref
-/
-pings
-.
-yaml
-"
-    
-"
 netwerk
 /
 pings
