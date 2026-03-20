@@ -165,9 +165,6 @@ SHEntrySharedParentState
 }
 }
 class
-nsSHEntryShared
-;
-class
 nsDocShellLoadState
 ;
 struct

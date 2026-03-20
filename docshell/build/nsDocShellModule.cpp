@@ -23,13 +23,6 @@ h
 #
 include
 "
-nsSHEntryShared
-.
-h
-"
-#
-include
-"
 nsSHistory
 .
 h
