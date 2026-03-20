@@ -3,6 +3,8 @@ tests
 .
 support
 .
+classic
+.
 asserts
 import
 assert_element_has_focus

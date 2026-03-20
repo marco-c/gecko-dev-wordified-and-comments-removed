@@ -9,6 +9,8 @@ tests
 .
 support
 .
+classic
+.
 asserts
 import
 assert_error
@@ -17,6 +19,8 @@ from
 tests
 .
 support
+.
+classic
 .
 helpers
 import

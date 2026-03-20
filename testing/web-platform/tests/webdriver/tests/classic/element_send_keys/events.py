@@ -5,6 +5,8 @@ tests
 .
 support
 .
+classic
+.
 asserts
 import
 (

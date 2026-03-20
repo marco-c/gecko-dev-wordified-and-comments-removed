@@ -9,6 +9,8 @@ tests
 .
 support
 .
+classic
+.
 asserts
 import
 assert_error

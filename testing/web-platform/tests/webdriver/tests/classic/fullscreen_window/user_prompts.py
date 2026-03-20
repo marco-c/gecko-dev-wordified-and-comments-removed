@@ -5,6 +5,8 @@ tests
 .
 support
 .
+classic
+.
 asserts
 import
 assert_dialog_handled
@@ -14,6 +16,8 @@ from
 tests
 .
 support
+.
+classic
 .
 helpers
 import

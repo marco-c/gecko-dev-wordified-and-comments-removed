@@ -15,6 +15,8 @@ tests
 .
 support
 .
+classic
+.
 asserts
 import
 assert_success
@@ -22,6 +24,8 @@ from
 tests
 .
 support
+.
+classic
 .
 helpers
 import
