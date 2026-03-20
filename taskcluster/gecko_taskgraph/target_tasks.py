@@ -11556,6 +11556,26 @@ timings
 -
 periodic
 "
+        
+"
+source
+-
+test
+-
+file
+-
+metadata
+-
+test
+-
+info
+-
+worker
+-
+data
+-
+periodic
+"
     
 ]
 register_target_task
