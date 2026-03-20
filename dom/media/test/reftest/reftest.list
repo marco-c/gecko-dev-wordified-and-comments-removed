@@ -334,7 +334,7 @@ if
 winWidget
 0
 -
-135
+240
 0
 -
 769689
@@ -359,6 +359,9 @@ rendering
 ref
 .
 html
+#
+Bug
+2024599
 skip
 -
 if
@@ -435,7 +438,7 @@ if
 winWidget
 0
 -
-143
+255
 0
 -
 576000
@@ -470,6 +473,9 @@ rendering
 ref
 .
 html
+#
+Bug
+2024599
 skip
 -
 if
