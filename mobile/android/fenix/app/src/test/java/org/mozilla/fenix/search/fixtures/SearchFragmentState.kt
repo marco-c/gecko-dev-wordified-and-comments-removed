@@ -208,6 +208,9 @@ false
 showStocksSuggestions
 =
 false
+showSportsSuggestions
+=
+false
 showTrendingSearches
 =
 false

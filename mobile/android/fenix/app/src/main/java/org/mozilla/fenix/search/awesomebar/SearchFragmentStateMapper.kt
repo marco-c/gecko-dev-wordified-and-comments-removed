@@ -165,6 +165,9 @@ showNonSponsoredSuggestions
 showStocksSuggestions
 =
 showStocksSuggestions
+showSportsSuggestions
+=
+showSportsSuggestions
 showTrendingSearches
 =
 showTrendingSearches
