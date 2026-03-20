@@ -821,6 +821,12 @@ clearCache
 false
 )
 ;
+ChromeUtils
+.
+clearResourceCache
+(
+)
+;
 }
 var
 promiseConsoleOutput
