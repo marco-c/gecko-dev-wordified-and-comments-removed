@@ -4080,15 +4080,6 @@ scheme
 "
 )
 ;
-if
-(
-Services
-.
-appinfo
-.
-sessionHistoryInParent
-)
-{
 let
 shistory
 =
@@ -4156,7 +4147,6 @@ html
 "
 )
 ;
-}
 await
 SpecialPowers
 .

@@ -52,15 +52,6 @@ testDebuggerPauseStateOnNavigation
 (
 )
 ;
-if
-(
-Services
-.
-appinfo
-.
-sessionHistoryInParent
-)
-{
 info
 (
 "
@@ -93,7 +84,6 @@ testDebuggerPauseStateOnNavigation
 (
 )
 ;
-}
 }
 )
 ;

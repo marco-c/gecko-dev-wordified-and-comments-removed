@@ -347,11 +347,6 @@ fissionAutostart
 origRuntime
 .
 fissionAutostart
-sessionHistoryInParent
-:
-origRuntime
-.
-sessionHistoryInParent
 browserTabsRemoteAutostart
 :
 origRuntime

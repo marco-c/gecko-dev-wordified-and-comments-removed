@@ -94,15 +94,6 @@ testTopLevelNavigationsOnDocumentWithIframe
 false
 )
 ;
-if
-(
-Services
-.
-appinfo
-.
-sessionHistoryInParent
-)
-{
 info
 (
 "
@@ -146,7 +137,6 @@ testTopLevelNavigationsOnDocumentWithIframe
 true
 )
 ;
-}
 }
 )
 ;

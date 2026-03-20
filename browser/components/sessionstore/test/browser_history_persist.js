@@ -125,6 +125,7 @@ tab
 .
 linkedBrowser
 ;
+{
 let
 sessionHistory
 =
@@ -165,6 +166,7 @@ entry
 "
 )
 ;
+}
 info
 (
 "
@@ -184,6 +186,16 @@ promiseTabState
 tab
 state
 )
+;
+{
+let
+sessionHistory
+=
+browser
+.
+browsingContext
+.
+sessionHistory
 ;
 is
 (
@@ -227,6 +239,7 @@ URL
 "
 )
 ;
+}
 BrowserTestUtils
 .
 startLoadingURIString
@@ -256,6 +269,8 @@ robots
 }
 )
 ;
+{
+let
 sessionHistory
 =
 browser
@@ -306,6 +321,7 @@ URL
 "
 )
 ;
+}
 BrowserTestUtils
 .
 removeTab
@@ -427,6 +443,7 @@ tab
 .
 linkedBrowser
 ;
+{
 let
 sessionHistory
 =
@@ -467,6 +484,7 @@ entry
 "
 )
 ;
+}
 info
 (
 "
@@ -486,6 +504,16 @@ promiseTabState
 tab
 state
 )
+;
+{
+let
+sessionHistory
+=
+browser
+.
+browsingContext
+.
+sessionHistory
 ;
 is
 (
@@ -529,6 +557,7 @@ URL
 "
 )
 ;
+}
 BrowserTestUtils
 .
 startLoadingURIString
@@ -553,6 +582,8 @@ robots
 "
 )
 ;
+{
+let
 sessionHistory
 =
 browser
@@ -628,6 +659,7 @@ URL
 "
 )
 ;
+}
 BrowserTestUtils
 .
 removeTab

@@ -18,16 +18,6 @@ SpecialPowers
 .
 Services
 .
-appinfo
-.
-sessionHistoryInParent
-|
-|
-!
-SpecialPowers
-.
-Services
-.
 prefs
 .
 getBoolPref
