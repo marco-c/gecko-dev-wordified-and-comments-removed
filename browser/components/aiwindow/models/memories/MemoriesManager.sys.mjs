@@ -3256,6 +3256,21 @@ hard
 -
 delete
 *
+param
+{
+boolean
+}
+trigger
+What
+was
+the
+trigger
+(
+assistant
+settings
+other
+)
+*
 returns
 {
 Promise
@@ -3280,6 +3295,7 @@ async
 hardDeleteMemoryById
 (
 memoryId
+trigger
 )
 {
 return
@@ -3289,6 +3305,7 @@ MemoryStore
 hardDeleteMemory
 (
 memoryId
+trigger
 )
 ;
 }
