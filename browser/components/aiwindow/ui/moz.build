@@ -260,15 +260,6 @@ sys
 .
 mjs
 "
-"
-modules
-/
-SmartWindowTelemetry
-.
-sys
-.
-mjs
-"
 ]
 TESTING_JS_MODULES
 +
