@@ -191,6 +191,7 @@ mjs
 import
 {
 truncateUntrustedMetadata
+isNewPageUrl
 }
 from
 "
@@ -1742,6 +1743,13 @@ label
 if
 (
 isAllowedTabUrl
+(
+url
+)
+&
+&
+!
+isNewPageUrl
 (
 url
 )
