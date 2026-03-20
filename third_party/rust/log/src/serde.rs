@@ -6,12 +6,12 @@ cfg
 feature
 =
 "
-serde
+serde_core
 "
 )
 ]
 use
-serde
+serde_core
 :
 :
 de
@@ -29,7 +29,7 @@ Visitor
 }
 ;
 use
-serde
+serde_core
 :
 :
 ser

@@ -233,7 +233,7 @@ supported
 rustc
 1
 .
-60
+61
 .
 0
 +
