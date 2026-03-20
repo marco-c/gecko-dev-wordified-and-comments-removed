@@ -642,7 +642,7 @@ The
 area
 of
 the
-navigastion
+navigation
 toolbar
 after
 the
@@ -668,7 +668,7 @@ about
 preferences
 the
 different
-cagtegories
+categories
 are
 used
 :
