@@ -5637,6 +5637,9 @@ subgroup_uniformity
 '
 swizzle_assignment
 '
+'
+linear_indexing
+'
 ]
 as
 const
