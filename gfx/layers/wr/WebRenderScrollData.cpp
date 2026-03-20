@@ -1693,6 +1693,9 @@ currentChild
 >
 mDescendantCount
 ;
+if
+(
+!
 currentChild
 -
 >
@@ -1702,7 +1705,12 @@ aParent
 aVisitCounts
 currentChildIndex
 )
+)
+{
+return
+false
 ;
+}
 currentChildIndex
 +
 =
