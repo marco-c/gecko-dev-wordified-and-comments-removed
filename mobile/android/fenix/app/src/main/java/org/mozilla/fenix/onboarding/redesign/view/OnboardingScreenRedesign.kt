@@ -2606,6 +2606,9 @@ store
 pageState
 =
 state
+isSmallDevice
+=
+isSmallDevice
 onToolbarSelectionClicked
 =
 {
@@ -2660,6 +2663,9 @@ MarketingDataOnboardingPageRedesign
 state
 =
 state
+isSmallDevice
+=
+isSmallDevice
 onMarketingDataLearnMoreClick
 =
 onMarketingDataLearnMoreClick
