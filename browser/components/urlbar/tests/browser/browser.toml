@@ -3456,6 +3456,13 @@ html
 ]
 [
 "
+browser_trust_panel_cert_exception
+.
+js
+"
+]
+[
+"
 browser_trust_panel_pages
 .
 js
