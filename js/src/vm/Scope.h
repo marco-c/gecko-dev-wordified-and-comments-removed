@@ -1675,6 +1675,7 @@ SharedShape
 >
 environmentShape_
 ;
+const
 GCPtr
 <
 Scope
