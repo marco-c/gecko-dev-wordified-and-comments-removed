@@ -170,9 +170,9 @@ firefox
 -
 view
 .
-view
+button
 -
-count
+clicks
 "
 "
 extensions
