@@ -175,6 +175,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -293,6 +303,7 @@ HomeSettingsFragment
 PreferenceFragmentCompat
 (
 )
+SystemInsetsPaddedFragment
 {
 private
 val

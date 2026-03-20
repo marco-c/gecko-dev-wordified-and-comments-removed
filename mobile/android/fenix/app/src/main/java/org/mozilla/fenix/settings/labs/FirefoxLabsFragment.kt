@@ -149,6 +149,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 hideToolbar
@@ -248,6 +258,7 @@ FirefoxLabsFragment
 Fragment
 (
 )
+SystemInsetsPaddedFragment
 {
 override
 fun

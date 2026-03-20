@@ -283,6 +283,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -339,6 +349,7 @@ DownloadFragment
 Fragment
 (
 )
+SystemInsetsPaddedFragment
 {
 override
 fun

@@ -269,6 +269,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 registerForActivityResult
@@ -313,6 +323,10 @@ fenix
 .
 tabstray
 .
+redux
+.
+state
+.
 Page
 import
 org
@@ -349,6 +363,7 @@ Fragment
 (
 )
 UserInteractionHandler
+SystemInsetsPaddedFragment
 {
 private
 lateinit

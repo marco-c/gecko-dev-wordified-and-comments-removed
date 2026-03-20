@@ -213,6 +213,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 openToBrowser
@@ -266,6 +276,7 @@ layout
 fragment_add_on_details
 )
 AddonDetailsInteractor
+SystemInsetsPaddedFragment
 {
 private
 val

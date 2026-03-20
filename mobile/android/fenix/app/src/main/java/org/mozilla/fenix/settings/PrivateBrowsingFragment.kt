@@ -189,6 +189,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 registerForActivityResult
@@ -272,6 +282,7 @@ PrivateBrowsingFragment
 PreferenceFragmentCompat
 (
 )
+SystemInsetsPaddedFragment
 {
 private
 lateinit

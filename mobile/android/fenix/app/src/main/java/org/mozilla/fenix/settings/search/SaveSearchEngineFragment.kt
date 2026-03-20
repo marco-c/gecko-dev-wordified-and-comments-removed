@@ -207,6 +207,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 requireComponents
@@ -270,6 +280,7 @@ layout
 .
 fragment_save_search_engine
 )
+SystemInsetsPaddedFragment
 {
 private
 val

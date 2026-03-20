@@ -183,6 +183,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 requireComponents
@@ -295,6 +305,7 @@ StoriesFragment
 Fragment
 (
 )
+SystemInsetsPaddedFragment
 {
 private
 lateinit

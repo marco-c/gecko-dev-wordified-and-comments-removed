@@ -171,6 +171,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -257,6 +267,7 @@ layout
 fragment_not_yet_supported_addons
 )
 UnsupportedAddonsAdapterDelegate
+SystemInsetsPaddedFragment
 {
 private
 val

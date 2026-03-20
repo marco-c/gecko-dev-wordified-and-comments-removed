@@ -167,6 +167,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -240,6 +250,7 @@ layout
 .
 fragment_search_shortcuts
 )
+SystemInsetsPaddedFragment
 {
 private
 var

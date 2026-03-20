@@ -241,6 +241,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 bookmarkStorage
@@ -344,6 +354,7 @@ layout
 .
 fragment_edit_bookmark
 )
+SystemInsetsPaddedFragment
 {
 private
 val

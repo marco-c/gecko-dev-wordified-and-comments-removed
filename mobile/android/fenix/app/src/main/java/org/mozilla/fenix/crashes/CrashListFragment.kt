@@ -107,6 +107,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -130,6 +140,7 @@ CrashListFragment
 AbstractCrashListFragment
 (
 )
+SystemInsetsPaddedFragment
 {
 override
 val

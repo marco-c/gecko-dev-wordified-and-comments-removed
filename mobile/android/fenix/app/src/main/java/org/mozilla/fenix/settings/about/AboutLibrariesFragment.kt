@@ -165,6 +165,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 showToolbar
@@ -334,6 +344,7 @@ layout
 .
 fragment_about_libraries
 )
+SystemInsetsPaddedFragment
 {
 override
 fun

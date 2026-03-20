@@ -147,6 +147,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 settings
@@ -192,6 +202,7 @@ TabsSettingsFragment
 PreferenceFragmentCompat
 (
 )
+SystemInsetsPaddedFragment
 {
 private
 lateinit

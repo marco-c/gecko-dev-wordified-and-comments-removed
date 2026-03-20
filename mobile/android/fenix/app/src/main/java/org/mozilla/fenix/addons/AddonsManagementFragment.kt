@@ -263,6 +263,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -374,6 +384,7 @@ layout
 .
 fragment_add_ons_management
 )
+SystemInsetsPaddedFragment
 {
 private
 var

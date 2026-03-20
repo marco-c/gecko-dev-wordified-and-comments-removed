@@ -105,6 +105,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 settings
 .
 settingssearch
@@ -238,6 +248,7 @@ SecretSettingsSearchFragment
 SettingsSearchFragment
 (
 )
+SystemInsetsPaddedFragment
 {
 override
 fun

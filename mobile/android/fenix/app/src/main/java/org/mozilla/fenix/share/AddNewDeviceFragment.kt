@@ -147,6 +147,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 showToolbar
@@ -195,6 +205,7 @@ layout
 .
 fragment_add_new_device
 )
+SystemInsetsPaddedFragment
 {
 override
 fun

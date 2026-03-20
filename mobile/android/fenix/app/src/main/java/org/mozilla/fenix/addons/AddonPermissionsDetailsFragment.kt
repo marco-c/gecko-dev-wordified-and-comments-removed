@@ -193,6 +193,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -336,6 +346,7 @@ AddonPermissionsDetailsFragment
 Fragment
 (
 )
+SystemInsetsPaddedFragment
 {
 private
 val

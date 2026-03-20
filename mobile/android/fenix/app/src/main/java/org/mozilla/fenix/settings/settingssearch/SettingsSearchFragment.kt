@@ -195,6 +195,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -244,6 +254,7 @@ SettingsSearchFragment
 Fragment
 (
 )
+SystemInsetsPaddedFragment
 {
 protected
 lateinit

@@ -173,6 +173,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 settings
@@ -243,6 +253,7 @@ DownloadsSettingsFragment
 PreferenceFragmentCompat
 (
 )
+SystemInsetsPaddedFragment
 {
 private
 val

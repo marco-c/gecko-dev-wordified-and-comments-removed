@@ -139,6 +139,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 openToBrowser
@@ -245,6 +255,7 @@ EmailMasksSettingsFragment
 Fragment
 (
 )
+SystemInsetsPaddedFragment
 {
 override
 fun

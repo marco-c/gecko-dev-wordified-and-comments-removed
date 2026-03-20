@@ -113,6 +113,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 settings
@@ -146,6 +156,7 @@ LinkSharingFragment
 PreferenceFragmentCompat
 (
 )
+SystemInsetsPaddedFragment
 {
 override
 fun

@@ -169,6 +169,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -345,6 +355,7 @@ Fragment
 (
 )
 UserInteractionHandler
+SystemInsetsPaddedFragment
 {
 private
 val

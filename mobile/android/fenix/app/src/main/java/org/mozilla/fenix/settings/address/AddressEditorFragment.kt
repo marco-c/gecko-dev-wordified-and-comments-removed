@@ -179,6 +179,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 hideToolbar
@@ -329,6 +339,7 @@ AddressEditorFragment
 SecureFragment
 (
 )
+SystemInsetsPaddedFragment
 {
 private
 val

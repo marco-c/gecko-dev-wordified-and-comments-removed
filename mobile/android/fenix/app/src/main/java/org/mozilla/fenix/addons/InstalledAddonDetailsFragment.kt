@@ -299,6 +299,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -368,6 +378,7 @@ InstalledAddonDetailsFragment
 Fragment
 (
 )
+SystemInsetsPaddedFragment
 {
 VisibleForTesting
 (

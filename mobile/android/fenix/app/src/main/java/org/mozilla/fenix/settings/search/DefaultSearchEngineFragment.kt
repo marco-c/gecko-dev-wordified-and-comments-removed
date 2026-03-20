@@ -129,6 +129,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 getPreferenceKey
@@ -168,6 +178,7 @@ DefaultSearchEngineFragment
 PreferenceFragmentCompat
 (
 )
+SystemInsetsPaddedFragment
 {
 override
 fun

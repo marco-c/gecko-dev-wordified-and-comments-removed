@@ -103,6 +103,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 settings
@@ -135,6 +145,7 @@ SearchOptimizationFragment
 PreferenceFragmentCompat
 (
 )
+SystemInsetsPaddedFragment
 {
 override
 fun

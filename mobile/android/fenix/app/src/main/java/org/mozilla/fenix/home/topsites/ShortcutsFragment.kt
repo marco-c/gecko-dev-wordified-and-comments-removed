@@ -195,6 +195,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 requireComponents
@@ -321,6 +331,7 @@ ShortcutsFragment
 Fragment
 (
 )
+SystemInsetsPaddedFragment
 {
 private
 val

@@ -191,6 +191,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -225,6 +235,7 @@ HttpsOnlyFragment
 Fragment
 (
 )
+SystemInsetsPaddedFragment
 {
 override
 fun

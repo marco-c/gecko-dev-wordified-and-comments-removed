@@ -159,6 +159,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 openToBrowser
@@ -214,6 +224,7 @@ TrackingProtectionExceptionsFragment
 Fragment
 (
 )
+SystemInsetsPaddedFragment
 {
 private
 lateinit

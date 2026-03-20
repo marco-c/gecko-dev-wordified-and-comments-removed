@@ -345,6 +345,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -559,6 +569,7 @@ Metadata
 )
 UserInteractionHandler
 MenuProvider
+SystemInsetsPaddedFragment
 {
 private
 lateinit

@@ -201,6 +201,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -302,6 +312,7 @@ TrackingProtectionFragment
 PreferenceFragmentCompat
 (
 )
+SystemInsetsPaddedFragment
 {
 private
 val

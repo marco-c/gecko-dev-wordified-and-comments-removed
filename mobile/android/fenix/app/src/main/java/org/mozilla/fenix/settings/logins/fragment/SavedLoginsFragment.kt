@@ -175,6 +175,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -346,6 +356,7 @@ SavedLoginsFragment
 SecureFragment
 (
 )
+SystemInsetsPaddedFragment
 {
 override
 fun

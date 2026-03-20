@@ -177,6 +177,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -312,6 +322,7 @@ CreditCardsManagementFragment
 SecureFragment
 (
 )
+SystemInsetsPaddedFragment
 {
 private
 lateinit

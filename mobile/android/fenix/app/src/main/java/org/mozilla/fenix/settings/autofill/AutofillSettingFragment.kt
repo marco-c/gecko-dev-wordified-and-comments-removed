@@ -367,6 +367,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -619,6 +629,7 @@ AutofillSettingFragment
 BiometricPromptPreferenceFragment
 (
 )
+SystemInsetsPaddedFragment
 {
 private
 lateinit

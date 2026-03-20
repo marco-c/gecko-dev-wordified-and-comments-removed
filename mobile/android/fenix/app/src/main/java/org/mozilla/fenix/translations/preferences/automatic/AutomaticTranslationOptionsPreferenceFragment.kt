@@ -153,6 +153,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 requireComponents
@@ -196,6 +206,7 @@ AutomaticTranslationOptionsPreferenceFragment
 Fragment
 (
 )
+SystemInsetsPaddedFragment
 {
 private
 val

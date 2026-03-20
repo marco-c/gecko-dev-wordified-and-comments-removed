@@ -129,6 +129,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 requireComponents
@@ -161,6 +171,7 @@ StudiesFragment
 Fragment
 (
 )
+SystemInsetsPaddedFragment
 {
 private
 var

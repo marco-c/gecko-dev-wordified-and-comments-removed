@@ -121,6 +121,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -175,6 +185,7 @@ DataChoicesFragment
 Fragment
 (
 )
+SystemInsetsPaddedFragment
 {
 override
 fun

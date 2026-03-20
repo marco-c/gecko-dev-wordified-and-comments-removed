@@ -77,6 +77,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 home
 .
 HomeFragment
@@ -163,3 +173,4 @@ StartupFragment
 Fragment
 (
 )
+SystemInsetsPaddedFragment
