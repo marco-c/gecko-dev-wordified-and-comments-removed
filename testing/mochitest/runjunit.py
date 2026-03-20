@@ -190,6 +190,12 @@ None
         
 self
 .
+mozHttp2Server
+=
+None
+        
+self
+.
 dohServer
 =
 None
