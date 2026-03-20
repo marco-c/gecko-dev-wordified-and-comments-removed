@@ -104,6 +104,16 @@ js
 ]
 [
 "
+browser_ReducedProtectionNotification
+.
+js
+"
+]
+https_first_disabled
+=
+true
+[
+"
 browser_SitePermissions
 .
 js
