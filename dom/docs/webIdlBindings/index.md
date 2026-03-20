@@ -13909,9 +13909,9 @@ searchfox
 .
 org
 /
-mozilla
+firefox
 -
-central
+main
 /
 source
 /
@@ -13921,7 +13921,7 @@ base
 /
 nsDeprecatedOperationList
 .
-h
+inc
 )
 .
 Each
