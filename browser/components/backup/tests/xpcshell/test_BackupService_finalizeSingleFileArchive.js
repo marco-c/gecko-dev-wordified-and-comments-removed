@@ -45,7 +45,8 @@ _
 [
 0
 -
-9_
+9
+.
 -
 ]
 +
@@ -307,7 +308,9 @@ profileName
 }
 _20200101
 -
-0000
+000000
+.
+000
 .
 html
 )
@@ -391,7 +394,9 @@ join
 gTestDestPath
 FirefoxBackup_SomeOtherProfile_20200101
 -
-0000
+000000
+.
+000
 .
 html
 )
