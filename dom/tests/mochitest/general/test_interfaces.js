@@ -5634,9 +5634,6 @@ NavigateEvent
 insecureContext
 :
 true
-sessionHistoryInParent
-:
-true
 }
 {
 name
@@ -5645,9 +5642,6 @@ name
 Navigation
 "
 insecureContext
-:
-true
-sessionHistoryInParent
 :
 true
 }
@@ -5660,9 +5654,6 @@ NavigationActivation
 insecureContext
 :
 true
-sessionHistoryInParent
-:
-true
 }
 {
 name
@@ -5671,9 +5662,6 @@ name
 NavigationCurrentEntryChangeEvent
 "
 insecureContext
-:
-true
-sessionHistoryInParent
 :
 true
 }
@@ -5686,9 +5674,6 @@ NavigationDestination
 insecureContext
 :
 true
-sessionHistoryInParent
-:
-true
 }
 {
 name
@@ -5699,9 +5684,6 @@ NavigationHistoryEntry
 insecureContext
 :
 true
-sessionHistoryInParent
-:
-true
 }
 {
 name
@@ -5710,9 +5692,6 @@ name
 NavigationPrecommitController
 "
 insecureContext
-:
-true
-sessionHistoryInParent
 :
 true
 }
@@ -5726,9 +5705,6 @@ name
 NavigationTransition
 "
 insecureContext
-:
-true
-sessionHistoryInParent
 :
 true
 }
@@ -9447,9 +9423,6 @@ name
 navigation
 "
 insecureContext
-:
-true
-sessionHistoryInParent
 :
 true
 }

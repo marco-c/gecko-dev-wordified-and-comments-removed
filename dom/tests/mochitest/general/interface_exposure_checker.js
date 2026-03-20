@@ -15,7 +15,6 @@ isAarch64
 isInsecureContext
 isFennec
 isCrossOriginIsolated
-isSessionHistoryInParent
 }
 )
 {
@@ -183,16 +182,6 @@ crossOriginIsolated
 =
 !
 isCrossOriginIsolated
-|
-|
-entry
-.
-sessionHistoryInParent
-=
-=
-=
-!
-isSessionHistoryInParent
 |
 |
 entry
@@ -941,11 +930,6 @@ isCrossOriginIsolated
 window
 .
 crossOriginIsolated
-isSessionHistoryInParent
-:
-appinfo
-.
-sessionHistoryInParent
 }
 ;
 }
