@@ -51,10 +51,6 @@ progressive_mode
 :
 JxlProgressiveMode
 pub
-enable_output
-:
-bool
-pub
 cms
 :
 Option
@@ -78,6 +74,10 @@ high_precision
 bool
 pub
 premultiply_output
+:
+bool
+pub
+scan_frames_only
 :
 bool
 }
@@ -117,9 +117,6 @@ JxlProgressiveMode
 :
 :
 Pass
-enable_output
-:
-true
 cms
 :
 None
@@ -130,6 +127,9 @@ high_precision
 :
 false
 premultiply_output
+:
+false
+scan_frames_only
 :
 false
 }

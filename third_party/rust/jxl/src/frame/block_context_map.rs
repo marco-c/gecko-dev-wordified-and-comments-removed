@@ -58,6 +58,14 @@ usize
 ;
 pub
 const
+ZERO_DENSITY_CONTEXT_LIMIT
+:
+usize
+=
+474
+;
+pub
+const
 COEFF_FREQ_CONTEXT
 :
 [
@@ -213,6 +221,9 @@ usize
 #
 [
 inline
+(
+always
+)
 ]
 pub
 fn

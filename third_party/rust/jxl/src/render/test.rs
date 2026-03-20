@@ -718,7 +718,6 @@ len
 image_size
 downsampling_shift
 LOG_GROUP_SIZE
-1
 chunk_size
 )
 .
@@ -726,7 +725,6 @@ add_stage_internal
 (
 stage
 )
-?
 ;
 let
 jxl_data_type
@@ -865,7 +863,6 @@ Grayscale
 jxl_data_type
 false
 )
-?
 ;
 }
 let
@@ -1088,7 +1085,7 @@ set_buffer_for_group
 (
 c
 g
-1
+true
 extract_group_rect
 (
 &

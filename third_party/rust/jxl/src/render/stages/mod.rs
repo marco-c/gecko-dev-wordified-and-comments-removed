@@ -40,6 +40,7 @@ spot
 mod
 to_linear
 ;
+pub
 mod
 upsample
 ;

@@ -55,7 +55,7 @@ too_many_arguments
 ]
 pub
 (
-super
+crate
 )
 fn
 save_lowmem

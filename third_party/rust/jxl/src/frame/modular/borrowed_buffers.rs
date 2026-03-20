@@ -67,9 +67,6 @@ usize
 grid
 :
 usize
-skip_empty
-:
-bool
 f
 :
 impl
@@ -193,10 +190,6 @@ bit_depth
 ;
 }
 if
-skip_empty
-&
-&
-(
 b
 .
 size
@@ -205,8 +198,8 @@ size
 =
 =
 0
-|
-|
+&
+&
 b
 .
 size
@@ -215,7 +208,6 @@ size
 =
 =
 0
-)
 {
 continue
 ;
