@@ -1043,6 +1043,11 @@ name
 val
 isEdgeToEdgeBackgroundEnabled
 =
+settings
+.
+enableHomepageEdgeToEdgeBackgroundFeature
+&
+&
 currentWallpaperName
 .
 value

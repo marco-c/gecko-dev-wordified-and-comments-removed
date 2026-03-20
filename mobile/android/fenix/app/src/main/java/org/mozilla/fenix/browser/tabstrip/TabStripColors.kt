@@ -415,6 +415,11 @@ isEdgeToEdgeBackgroundEnabled
 =
 settings
 .
+enableHomepageEdgeToEdgeBackgroundFeature
+&
+&
+settings
+.
 currentWallpaperName
 =
 =

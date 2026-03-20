@@ -2579,6 +2579,15 @@ value
 enabled
 :
 true
+-
+channel
+:
+beta
+value
+:
+enabled
+:
+true
 remote
 -
 tab
