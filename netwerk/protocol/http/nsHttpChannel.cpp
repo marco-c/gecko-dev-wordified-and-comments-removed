@@ -36752,6 +36752,15 @@ nsIStreamListener
 aListener
 )
 {
+RefPtr
+<
+nsHttpChannel
+>
+self
+(
+this
+)
+;
 AUTO_PROFILER_FLOW_MARKER
 (
 "
