@@ -111,8 +111,9 @@ nsTraversal
 nsTraversal
 (
 )
-{
-}
+=
+default
+;
 int16_t
 nsTraversal
 :

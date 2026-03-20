@@ -350,8 +350,9 @@ nsExtProtocolChannel
 nsExtProtocolChannel
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsExtProtocolChannel
 :
@@ -1868,8 +1869,9 @@ nsExternalProtocolHandler
 nsExternalProtocolHandler
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ADDREF
 (
 nsExternalProtocolHandler

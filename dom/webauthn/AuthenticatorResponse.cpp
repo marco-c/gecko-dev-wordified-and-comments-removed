@@ -104,8 +104,9 @@ AuthenticatorResponse
 AuthenticatorResponse
 (
 )
-{
-}
+=
+default
+;
 nsISupports
 *
 AuthenticatorResponse

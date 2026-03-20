@@ -183,8 +183,9 @@ MaybeCloseWindowHelper
 MaybeCloseWindowHelper
 (
 )
-{
-}
+=
+default
+;
 void
 MaybeCloseWindowHelper
 :
@@ -508,8 +509,9 @@ nsDSURIContentListener
 nsDSURIContentListener
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ADDREF
 (
 nsDSURIContentListener

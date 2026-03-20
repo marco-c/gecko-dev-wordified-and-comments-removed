@@ -374,6 +374,7 @@ AutoTimer
 AutoTimer
 (
 )
-{
-}
+=
+default
+;
 }

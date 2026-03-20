@@ -122,8 +122,9 @@ nsJARURI
 nsJARURI
 (
 )
-{
-}
+=
+default
+;
 nsJARURI
 :
 :
@@ -131,8 +132,9 @@ nsJARURI
 nsJARURI
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ADDREF
 (
 nsJARURI

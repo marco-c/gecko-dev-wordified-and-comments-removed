@@ -391,8 +391,9 @@ nsAppShellService
 nsAppShellService
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsAppShellService
@@ -1205,8 +1206,9 @@ virtual
 BrowserDestroyer
 (
 )
-{
-}
+=
+default
+;
 private
 :
 nsCOMPtr

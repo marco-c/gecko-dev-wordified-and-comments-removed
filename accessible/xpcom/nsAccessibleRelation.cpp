@@ -111,8 +111,9 @@ nsAccessibleRelation
 nsAccessibleRelation
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsAccessibleRelation

@@ -187,8 +187,9 @@ XULTreeGridAccessible
 XULTreeGridAccessible
 (
 )
-{
-}
+=
+default
+;
 uint32_t
 XULTreeGridAccessible
 :
@@ -1202,8 +1203,9 @@ XULTreeGridRowAccessible
 XULTreeGridRowAccessible
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 XULTreeGridRowAccessible
@@ -1958,8 +1960,9 @@ XULTreeGridCellAccessible
 XULTreeGridCellAccessible
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 XULTreeGridCellAccessible

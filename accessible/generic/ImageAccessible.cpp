@@ -245,8 +245,9 @@ ImageAccessible
 ImageAccessible
 (
 )
-{
-}
+=
+default
+;
 void
 ImageAccessible
 :

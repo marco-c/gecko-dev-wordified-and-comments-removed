@@ -3419,14 +3419,14 @@ aPattern
 )
 {
 }
-private
-:
 OriginAttrsPatternMatchSQLFunction
 (
 )
 =
 delete
 ;
+private
+:
 ~
 OriginAttrsPatternMatchSQLFunction
 (

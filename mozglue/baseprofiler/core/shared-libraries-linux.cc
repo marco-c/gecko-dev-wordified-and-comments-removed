@@ -592,8 +592,9 @@ public
 MemoryMappedFile
 (
 )
-{
-}
+=
+default
+;
 MemoryMappedFile
 (
 const
@@ -1016,8 +1017,9 @@ path
 FileID
 (
 )
-{
-}
+=
+default
+;
 bool
 ElfFileIdentifier
 (

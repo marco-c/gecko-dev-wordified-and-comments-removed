@@ -2824,8 +2824,6 @@ return
 mFD
 ;
 }
-private
-:
 PlatformWriter
 (
 const
@@ -2848,6 +2846,8 @@ PlatformWriter
 =
 delete
 ;
+private
+:
 void
 WriteChar
 (

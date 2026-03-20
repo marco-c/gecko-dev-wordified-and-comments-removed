@@ -7205,8 +7205,9 @@ nsHTMLFramesetBorderFrame
 nsHTMLFramesetBorderFrame
 (
 )
-{
-}
+=
+default
+;
 NS_QUERYFRAME_HEAD
 (
 nsHTMLFramesetBorderFrame
@@ -8304,8 +8305,9 @@ nsHTMLFramesetBlankFrame
 nsHTMLFramesetBlankFrame
 (
 )
-{
-}
+=
+default
+;
 void
 nsHTMLFramesetBlankFrame
 :

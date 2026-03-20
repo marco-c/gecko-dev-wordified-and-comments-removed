@@ -107,8 +107,9 @@ TransportLayerIce
 TransportLayerIce
 (
 )
-{
-}
+=
+default
+;
 void
 TransportLayerIce
 :

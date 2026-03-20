@@ -1184,7 +1184,7 @@ gWorkingDirPath
 MAXPATHLEN
 ]
 ;
-MOZ_RUNINIT
+constinit
 static
 ArchiveReader
 gArchiveReader
@@ -1271,7 +1271,7 @@ kCallbackIndex
 =
 8
 ;
-MOZ_RUNINIT
+constinit
 static
 MARChannelStringTable
 gMARStrings
@@ -7428,8 +7428,9 @@ virtual
 PatchFileDecoder
 (
 )
-{
-}
+=
+default
+;
 virtual
 unsigned
 int
@@ -7521,8 +7522,9 @@ BSPatchFileDecoder
 (
 )
 override
-{
-}
+=
+default
+;
 unsigned
 int
 ComputeCrc32

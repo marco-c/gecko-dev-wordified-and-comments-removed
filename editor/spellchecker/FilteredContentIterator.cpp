@@ -179,8 +179,9 @@ FilteredContentIterator
 FilteredContentIterator
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_CYCLE_COLLECTION
 (
 FilteredContentIterator

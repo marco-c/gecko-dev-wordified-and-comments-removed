@@ -4119,8 +4119,9 @@ ChromeTooltipListener
 ChromeTooltipListener
 (
 )
-{
-}
+=
+default
+;
 nsITooltipTextProvider
 *
 ChromeTooltipListener

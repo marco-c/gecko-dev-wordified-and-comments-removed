@@ -2662,8 +2662,6 @@ newData
 )
 ;
 }
-private
-:
 JSStructuredCloneWriter
 (
 )
@@ -2679,6 +2677,8 @@ JSStructuredCloneWriter
 =
 delete
 ;
+private
+:
 JSContext
 *
 context

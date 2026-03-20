@@ -466,8 +466,9 @@ AccTextSelChangeEvent
 AccTextSelChangeEvent
 (
 )
-{
-}
+=
+default
+;
 bool
 AccTextSelChangeEvent
 :

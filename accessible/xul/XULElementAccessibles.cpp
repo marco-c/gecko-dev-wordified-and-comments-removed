@@ -676,8 +676,9 @@ XULLinkAccessible
 XULLinkAccessible
 (
 )
-{
-}
+=
+default
+;
 void
 XULLinkAccessible
 :

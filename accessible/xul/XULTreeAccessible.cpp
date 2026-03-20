@@ -295,8 +295,9 @@ XULTreeAccessible
 XULTreeAccessible
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 XULTreeAccessible
@@ -2783,8 +2784,9 @@ XULTreeItemAccessibleBase
 XULTreeItemAccessibleBase
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 XULTreeItemAccessibleBase
@@ -4375,8 +4377,9 @@ XULTreeItemAccessible
 XULTreeItemAccessible
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 XULTreeItemAccessible

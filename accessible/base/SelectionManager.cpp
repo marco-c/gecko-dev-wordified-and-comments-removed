@@ -195,8 +195,9 @@ private
 SelData
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 SelectionManager

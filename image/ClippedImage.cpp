@@ -595,8 +595,9 @@ ClippedImage
 ClippedImage
 (
 )
-{
-}
+=
+default
+;
 bool
 ClippedImage
 :

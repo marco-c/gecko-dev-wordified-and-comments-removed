@@ -189,7 +189,7 @@ ThreadMain
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 PlatformThreadId

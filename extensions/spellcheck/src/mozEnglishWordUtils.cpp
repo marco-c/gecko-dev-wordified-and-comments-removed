@@ -67,8 +67,9 @@ mozEnglishWordUtils
 mozEnglishWordUtils
 (
 )
-{
-}
+=
+default
+;
 bool
 mozEnglishWordUtils
 :

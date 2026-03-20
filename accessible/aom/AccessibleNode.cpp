@@ -260,8 +260,9 @@ AccessibleNode
 AccessibleNode
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 AccessibleNode

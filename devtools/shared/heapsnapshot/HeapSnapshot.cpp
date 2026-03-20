@@ -6545,8 +6545,9 @@ StreamWriter
 (
 )
 override
-{
-}
+=
+default
+;
 bool
 writeMetadata
 (
@@ -7753,8 +7754,9 @@ constexpr
 DeleteHeapSnapshotTempFileHelperChild
 (
 )
-{
-}
+=
+default
+;
 void
 operator
 (
