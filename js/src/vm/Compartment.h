@@ -2432,7 +2432,6 @@ ptr
 :
 value
 (
-*
 ptr
 -
 >
@@ -2440,7 +2439,7 @@ value
 (
 )
 .
-unsafeGet
+unbarrieredGet
 (
 )
 )
@@ -2460,7 +2459,6 @@ e
 :
 value
 (
-*
 e
 .
 get
@@ -2471,7 +2469,7 @@ value
 (
 )
 .
-unsafeGet
+unbarrieredGet
 (
 )
 )

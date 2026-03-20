@@ -5030,7 +5030,6 @@ p
 ;
 MOZ_ASSERT
 (
-*
 p
 -
 >
@@ -5038,7 +5037,7 @@ value
 (
 )
 .
-unsafeGet
+unbarrieredGet
 (
 )
 =

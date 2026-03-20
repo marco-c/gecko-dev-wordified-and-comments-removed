@@ -2985,7 +2985,6 @@ origTarget
 ;
 MOZ_ASSERT
 (
-*
 p
 -
 >
@@ -2993,7 +2992,7 @@ value
 (
 )
 .
-unsafeGet
+unbarrieredGet
 (
 )
 =
@@ -3519,7 +3518,6 @@ JSObject
 *
 wrapper
 =
-*
 iter
 .
 get
@@ -3530,7 +3528,7 @@ value
 (
 )
 .
-unsafeGet
+unbarrieredGet
 (
 )
 ;
