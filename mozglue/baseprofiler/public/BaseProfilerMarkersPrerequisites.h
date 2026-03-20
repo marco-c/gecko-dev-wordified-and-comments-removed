@@ -58,15 +58,6 @@ include
 "
 mozilla
 /
-BaseProfilerState
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TimeStamp
 .
 h
