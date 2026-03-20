@@ -27298,6 +27298,9 @@ element
 element
 .
 splitview
+?
+.
+shouldMoveAllTabsAtOnce
 )
 {
 tabs
