@@ -2319,7 +2319,7 @@ aHost
 %
 s
 "
-PromiseFlatCString
+nsCString
 (
 aHost
 )
