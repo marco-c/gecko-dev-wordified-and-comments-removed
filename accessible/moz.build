@@ -324,6 +324,17 @@ tests
 /
 browser
 /
+pdfOutput
+/
+browser
+.
+toml
+"
+"
+tests
+/
+browser
+/
 performance
 /
 perftest
