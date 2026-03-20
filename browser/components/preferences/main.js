@@ -19916,7 +19916,7 @@ popups
 -
 exceptions
 -
-button3
+button4
 "
 control
 :
@@ -19958,6 +19958,17 @@ exceptions
 popup
 -
 desc2
+permissions
+-
+block
+-
+popups
+-
+exceptions
+-
+button4
+.
+searchkeywords
 "
 }
 }
