@@ -543,11 +543,6 @@ fb_config
 frame_context
 .
 fb_config
-prim_origin
-:
-local_rect
-.
-min
 }
 ;
 let
@@ -763,11 +758,6 @@ fb_config
 frame_context
 .
 fb_config
-prim_origin
-:
-local_rect
-.
-min
 }
 ;
 let
@@ -1487,11 +1477,6 @@ fb_config
 frame_context
 .
 fb_config
-prim_origin
-:
-local_rect
-.
-min
 }
 ;
 let
