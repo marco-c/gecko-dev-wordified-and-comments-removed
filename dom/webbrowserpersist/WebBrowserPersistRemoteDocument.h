@@ -68,9 +68,12 @@ mActor
 Attrs
 mAttrs
 ;
-nsCOMPtr
+RefPtr
 <
-nsISHEntry
+dom
+:
+:
+SessionHistoryEntry
 >
 mSHEntry
 ;
