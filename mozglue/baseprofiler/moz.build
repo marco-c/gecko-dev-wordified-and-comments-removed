@@ -222,7 +222,7 @@ Keep
 in
 sync
 with
-PlatformMacros
+ProfilerPlatformMacros
 .
 h
 if
@@ -819,6 +819,13 @@ h
 public
 /
 ProfilerBufferSize
+.
+h
+"
+"
+public
+/
+ProfilerPlatformMacros
 .
 h
 "

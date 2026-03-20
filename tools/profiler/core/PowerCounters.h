@@ -7,7 +7,9 @@ TOOLS_POWERCOUNTERS_H_
 #
 include
 "
-PlatformMacros
+mozilla
+/
+ProfilerPlatformMacros
 .
 h
 "

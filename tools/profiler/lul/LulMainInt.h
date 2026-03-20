@@ -7,7 +7,9 @@ LulMainInt_h
 #
 include
 "
-PlatformMacros
+mozilla
+/
+ProfilerPlatformMacros
 .
 h
 "

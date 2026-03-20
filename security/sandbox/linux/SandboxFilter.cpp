@@ -206,7 +206,9 @@ utility
 #
 include
 "
-PlatformMacros
+mozilla
+/
+ProfilerPlatformMacros
 .
 h
 "
