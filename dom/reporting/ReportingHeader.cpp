@@ -1180,13 +1180,10 @@ return
 }
 if
 (
-NS_WARN_IF
-(
 !
 IsSecureURI
 (
 uri
-)
 )
 )
 {
