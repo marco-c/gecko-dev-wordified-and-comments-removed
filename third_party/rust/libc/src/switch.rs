@@ -1,3 +1,12 @@
+use
+crate
+:
+:
+prelude
+:
+:
+*
+;
 pub
 type
 intmax_t

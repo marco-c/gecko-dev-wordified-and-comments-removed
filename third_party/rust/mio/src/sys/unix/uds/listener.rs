@@ -115,6 +115,15 @@ path_offset
 unix_addr
 }
 ;
+use
+crate
+:
+:
+sys
+:
+:
+LISTEN_BACKLOG_SIZE
+;
 pub
 (
 crate
@@ -222,7 +231,7 @@ syscall
 listen
 (
 fd
-1024
+LISTEN_BACKLOG_SIZE
 )
 )
 ?

@@ -67,7 +67,7 @@ c_int
 =
 PT_FIRSTMACH
 +
-3
+5
 ;
 pub
 const
@@ -77,7 +77,7 @@ c_int
 =
 PT_FIRSTMACH
 +
-4
+6
 ;
 pub
 const
@@ -489,7 +489,7 @@ c_int
 ;
 pub
 const
-_REG_TIPDR
+_REG_TPIDR
 :
 c_int
 =
@@ -513,7 +513,7 @@ _REG_R11
 ;
 pub
 const
-_REG_LR
+_REG_SP
 :
 c_int
 =
@@ -521,7 +521,7 @@ _REG_R13
 ;
 pub
 const
-_REG_SP
+_REG_LR
 :
 c_int
 =

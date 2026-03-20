@@ -601,7 +601,7 @@ verify
 -
 build
 .
-sh
+py
 ]
 (
 https
@@ -628,7 +628,7 @@ verify
 -
 build
 .
-sh
+py
 )
 for
 the

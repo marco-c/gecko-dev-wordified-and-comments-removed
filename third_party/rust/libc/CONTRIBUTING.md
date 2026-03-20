@@ -945,7 +945,7 @@ ci
 /
 style
 .
-sh
+py
 ]
 (
 https
@@ -970,7 +970,7 @@ ci
 /
 style
 .
-sh
+py
 )
 #
 #

@@ -536,6 +536,14 @@ size_t
 =
 32
 ;
+pub
+const
+SOMAXCONN
+:
+c_int
+=
+128
+;
 extern
 "
 C

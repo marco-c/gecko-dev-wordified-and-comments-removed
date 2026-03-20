@@ -106,7 +106,10 @@ cs
 u32
 rsvd1
 :
+Padding
+<
 u32
+>
 pub
 rflags
 :
@@ -121,7 +124,10 @@ ss
 u32
 rsvd2
 :
+Padding
+<
 u32
+>
 }
 #
 [
@@ -260,11 +266,14 @@ u8
 ]
 reserved2
 :
+Padding
+<
 [
 u8
 ;
 224
 ]
+>
 }
 pub
 struct

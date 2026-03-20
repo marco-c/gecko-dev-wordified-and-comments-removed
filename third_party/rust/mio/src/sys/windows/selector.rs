@@ -3816,7 +3816,7 @@ otherwise
 /
 /
 SIO_BASE_HANDLE
-would
+wouldn
 '
 t
 have

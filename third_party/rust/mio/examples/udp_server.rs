@@ -377,11 +377,11 @@ unexpected
 token
 :
 {
+event
 :
 ?
 }
 "
-event
 )
 ;
 }

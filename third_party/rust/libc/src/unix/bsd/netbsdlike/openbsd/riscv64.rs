@@ -22,7 +22,10 @@ sigcontext
 {
 __sc_unused
 :
+Padding
+<
 c_int
+>
 pub
 sc_mask
 :

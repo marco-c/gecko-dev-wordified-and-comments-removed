@@ -185,7 +185,7 @@ net
 TcpListener
 _
 :
-u32
+i32
 )
 -
 >

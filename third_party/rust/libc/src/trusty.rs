@@ -115,6 +115,13 @@ iov_len
 :
 size_t
 }
+#
+[
+derive
+(
+Default
+)
+]
 pub
 struct
 timespec

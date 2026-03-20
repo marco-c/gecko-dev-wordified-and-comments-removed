@@ -131,7 +131,7 @@ cfg
 unix
 )
 ]
-cfg_any_os_ext
+cfg_os_ext
 !
 {
 use

@@ -121,14 +121,16 @@ crate
 :
 :
 sa_family_t
-pub
 __ss_padding
 :
+Padding
+<
 [
 u8
 ;
 26
 ]
+>
 }
 }
 pub

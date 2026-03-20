@@ -417,9 +417,9 @@ connection
 from
 :
 {
+address
 }
 "
-address
 )
 ;
 let
@@ -924,11 +924,11 @@ UTF
 data
 :
 {
+received_data
 :
 ?
 }
 "
-received_data
 )
 ;
 }

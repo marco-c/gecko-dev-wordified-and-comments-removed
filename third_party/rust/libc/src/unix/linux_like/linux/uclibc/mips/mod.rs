@@ -1178,6 +1178,14 @@ c_int
 ;
 pub
 const
+SIGEMT
+:
+c_int
+=
+7
+;
+pub
+const
 SIGCHLD
 :
 c_int
