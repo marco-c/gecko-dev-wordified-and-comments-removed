@@ -13,12 +13,6 @@ script
 import
 ContextTarget
 from
-tests
-.
-bidi
-import
-wait_for_bidi_events
-from
 .
 .
 import
@@ -1683,8 +1677,8 @@ def
 test_redirect
 (
 bidi_session
-configuration
 wait_for_event
+wait_for_bidi_events
 url
 fetch
 setup_network_test
@@ -1760,8 +1754,6 @@ GET
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 2
 )
@@ -1885,9 +1877,9 @@ test_redirect_http_equiv
 (
     
 bidi_session
-configuration
 top_context
 wait_for_event
+wait_for_bidi_events
 url
 setup_network_test
 )
@@ -1960,8 +1952,6 @@ complete
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 2
 )

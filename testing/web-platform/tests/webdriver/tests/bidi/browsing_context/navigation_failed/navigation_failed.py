@@ -9,12 +9,6 @@ error
 import
 TimeoutException
 from
-tests
-.
-bidi
-import
-wait_for_bidi_events
-from
 .
 .
 import
@@ -59,9 +53,9 @@ def
 test_unsubscribe
 (
 bidi_session
-configuration
 inline
 new_tab
+wait_for_bidi_events
 iframe
 )
 :
@@ -215,8 +209,6 @@ TimeoutException
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout
@@ -1177,8 +1169,6 @@ test_with_new_navigation
     
 bidi_session
     
-configuration
-    
 subscribe_events
     
 inline
@@ -1188,6 +1178,8 @@ url
 new_tab
     
 wait_for_event
+    
+wait_for_bidi_events
     
 wait_for_future_safe
 )
@@ -1354,8 +1346,6 @@ none
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout
@@ -1419,8 +1409,6 @@ test_with_new_navigation_inside_page
     
 bidi_session
     
-configuration
-    
 subscribe_events
     
 inline
@@ -1428,6 +1416,8 @@ inline
 new_tab
     
 wait_for_event
+    
+wait_for_bidi_events
     
 wait_for_future_safe
 )
@@ -1651,8 +1641,6 @@ none
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout
@@ -1734,13 +1722,13 @@ test_close_context
     
 bidi_session
     
-configuration
-    
 subscribe_events
     
 url
     
 wait_for_event
+    
+wait_for_bidi_events
     
 wait_for_future_safe
     
@@ -1897,8 +1885,6 @@ context
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout
@@ -1962,8 +1948,6 @@ test_close_iframe
     
 bidi_session
     
-configuration
-    
 subscribe_events
     
 inline
@@ -1973,6 +1957,8 @@ url
 new_tab
     
 wait_for_event
+    
+wait_for_bidi_events
     
 wait_for_future_safe
     
@@ -2200,8 +2186,6 @@ none
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout

@@ -3,12 +3,6 @@ pytest
 import
 random
 from
-tests
-.
-bidi
-import
-wait_for_bidi_events
-from
 .
 .
 import
@@ -301,9 +295,9 @@ test_cached_redirect
     
 bidi_session
     
-configuration
-    
 url
+    
+wait_for_bidi_events
     
 fetch
     
@@ -393,8 +387,6 @@ cached_url
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 2
 timeout
@@ -540,8 +532,6 @@ cached_url
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 4
 timeout
@@ -895,9 +885,9 @@ test_page_with_cached_link_stylesheet
     
 bidi_session
     
-configuration
-    
 url
+    
+wait_for_bidi_events
     
 inline
     
@@ -1037,8 +1027,6 @@ complete
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 2
 timeout
@@ -1177,8 +1165,6 @@ complete
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 4
 timeout
@@ -1306,9 +1292,9 @@ test_page_with_cached_import_stylesheet
     
 bidi_session
     
-configuration
-    
 url
+    
+wait_for_bidi_events
     
 inline
     
@@ -1447,8 +1433,6 @@ complete
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 2
 timeout
@@ -1587,8 +1571,6 @@ complete
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 4
 timeout
@@ -1716,9 +1698,9 @@ test_page_with_cached_duplicated_stylesheets
     
 bidi_session
     
-configuration
-    
 url
+    
+wait_for_bidi_events
     
 inline
     
@@ -1959,8 +1941,6 @@ complete
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 3
 timeout
@@ -2153,8 +2133,6 @@ complete
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 6
 timeout
@@ -2335,9 +2313,9 @@ test_page_with_cached_script_javascript
     
 bidi_session
     
-configuration
-    
 url
+    
+wait_for_bidi_events
     
 inline
     
@@ -2470,8 +2448,6 @@ complete
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 2
 timeout
@@ -2610,8 +2586,6 @@ complete
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 4
 timeout
@@ -2835,8 +2809,6 @@ complete
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 6
 timeout
@@ -3184,9 +3156,9 @@ test_page_with_cached_javascript_module
     
 bidi_session
     
-configuration
-    
 url
+    
+wait_for_bidi_events
     
 inline
     
@@ -3322,8 +3294,6 @@ complete
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 2
 timeout
@@ -3462,8 +3432,6 @@ complete
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 4
 timeout
@@ -3661,8 +3629,6 @@ complete
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 6
 timeout
@@ -3790,9 +3756,9 @@ test_page_with_cached_image
     
 bidi_session
     
-configuration
-    
 url
+    
+wait_for_bidi_events
     
 inline
     
@@ -3914,8 +3880,6 @@ complete
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 2
 timeout
@@ -4054,8 +4018,6 @@ complete
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 4
 timeout

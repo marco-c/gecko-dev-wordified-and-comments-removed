@@ -11,12 +11,6 @@ script
 import
 ContextTarget
 from
-tests
-.
-bidi
-import
-wait_for_bidi_events
-from
 .
 .
 .
@@ -1119,9 +1113,9 @@ test_two_channels
     
 bidi_session
     
-configuration
-    
 subscribe_events
+    
+wait_for_bidi_events
     
 add_preload_script
 )
@@ -1284,8 +1278,6 @@ tab
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 2
 timeout

@@ -17,12 +17,6 @@ error
 import
 TimeoutException
 from
-tests
-.
-bidi
-import
-wait_for_bidi_events
-from
 .
 .
 import
@@ -46,8 +40,8 @@ def
 test_unsubscribe
 (
 bidi_session
-configuration
 new_tab
+wait_for_bidi_events
 )
 :
     
@@ -139,8 +133,6 @@ TimeoutException
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout
@@ -335,8 +327,8 @@ def
 test_navigate
 (
 bidi_session
-configuration
 subscribe_events
+wait_for_bidi_events
 new_tab
 inline
 domain
@@ -440,8 +432,6 @@ TimeoutException
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout
@@ -1560,8 +1550,8 @@ def
 test_subscribe_to_one_context
 (
 bidi_session
-configuration
 subscribe_events
+wait_for_bidi_events
 new_tab
 )
 :
@@ -1664,8 +1654,6 @@ TimeoutException
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout
@@ -1695,8 +1683,6 @@ context
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 )

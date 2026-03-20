@@ -3,12 +3,6 @@ asyncio
 import
 pytest
 from
-tests
-.
-bidi
-import
-wait_for_bidi_events
-from
 .
 .
 import
@@ -40,8 +34,8 @@ def
 test_cors_preflight_request
 (
 bidi_session
-configuration
 url
+wait_for_bidi_events
 fetch
 setup_network_test
 )
@@ -224,8 +218,6 @@ type
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 6
 timeout
@@ -1991,8 +1983,8 @@ test_event_order_with_redirect
 (
     
 bidi_session
-configuration
 top_context
+wait_for_bidi_events
 subscribe_events
 url
 fetch
@@ -2167,8 +2159,6 @@ GET
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 response_completed_events
 2
 timeout

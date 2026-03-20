@@ -21,12 +21,6 @@ error
 import
 TimeoutException
 from
-tests
-.
-bidi
-import
-wait_for_bidi_events
-from
 .
 .
 .
@@ -70,8 +64,8 @@ def
 expect_download_end
 (
 bidi_session
-configuration
 subscribe_events
+wait_for_bidi_events
 )
 :
     
@@ -140,8 +134,6 @@ _expect_download_end
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 download_end_events
 expected_events
 timeout
@@ -157,9 +149,9 @@ def
 test_unsubscribe
 (
 bidi_session
-configuration
 inline
 new_tab
+wait_for_bidi_events
 expect_download_end
 )
 :
@@ -381,8 +373,6 @@ TimeoutException
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout
@@ -402,8 +392,6 @@ test_download_attribute
     
 bidi_session
     
-configuration
-    
 subscribe_events
     
 new_tab
@@ -411,6 +399,8 @@ new_tab
 inline
     
 wait_for_event
+    
+wait_for_bidi_events
     
 wait_for_future_safe
     
@@ -680,8 +670,6 @@ await
 wait_for_bidi_events
 (
             
-bidi_session
-configuration
 navigation_started_events
 1
 timeout

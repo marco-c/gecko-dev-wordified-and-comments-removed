@@ -13,12 +13,6 @@ script
 import
 ContextTarget
 from
-tests
-.
-bidi
-import
-wait_for_bidi_events
-from
 .
 .
 import
@@ -418,11 +412,11 @@ test_iframe_load
     
 bidi_session
     
-configuration
-    
 new_tab
     
 setup_network_test
+    
+wait_for_bidi_events
     
 inline
 )
@@ -502,8 +496,6 @@ iframe
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout
@@ -601,9 +593,9 @@ bidi_session
     
 new_tab
     
-wait_for_event
-    
 url
+    
+wait_for_event
     
 fetch
     
@@ -847,11 +839,11 @@ test_request_method
     
 bidi_session
     
-configuration
-    
 new_tab
     
 wait_for_event
+    
+wait_for_bidi_events
     
 wait_for_future_safe
     
@@ -921,8 +913,6 @@ else
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 expected_events
 timeout

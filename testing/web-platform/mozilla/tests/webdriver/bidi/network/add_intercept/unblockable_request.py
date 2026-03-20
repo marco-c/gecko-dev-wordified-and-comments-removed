@@ -4,12 +4,6 @@ from
 tests
 .
 bidi
-import
-wait_for_bidi_events
-from
-tests
-.
-bidi
 .
 network
 import
@@ -299,8 +293,6 @@ test_cached_resources
     
 bidi_session
     
-configuration
-    
 add_intercept
     
 top_context
@@ -312,6 +304,8 @@ inline
 setup_network_test
     
 wait_for_event
+    
+wait_for_bidi_events
     
 wait_for_future_safe
     
@@ -473,10 +467,6 @@ await
 wait_for_bidi_events
 (
         
-bidi_session
-        
-configuration
-        
 network_events
 [
 RESPONSE_COMPLETED_EVENT
@@ -581,10 +571,6 @@ complete
 await
 wait_for_bidi_events
 (
-        
-bidi_session
-        
-configuration
         
 network_events
 [

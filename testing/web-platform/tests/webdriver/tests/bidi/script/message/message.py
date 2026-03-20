@@ -16,12 +16,6 @@ webdriver
 error
 import
 TimeoutException
-from
-tests
-.
-bidi
-import
-wait_for_bidi_events
 pytestmark
 =
 pytest
@@ -373,9 +367,9 @@ test_subscribe_to_one_context
 (
     
 bidi_session
-configuration
 subscribe_events
 top_context
+wait_for_bidi_events
 new_tab
 )
 :
@@ -518,8 +512,6 @@ TimeoutException
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout

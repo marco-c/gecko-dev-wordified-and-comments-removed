@@ -11,12 +11,6 @@ error
 as
 error
 from
-tests
-.
-bidi
-import
-wait_for_bidi_events
-from
 .
 .
 import
@@ -51,8 +45,8 @@ def
 setup_cached_resource_test
 (
 bidi_session
-configuration
 top_context
+wait_for_bidi_events
 setup_network_test
 add_data_collector
 )
@@ -122,8 +116,6 @@ complete
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 2
 timeout
@@ -182,8 +174,6 @@ complete
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 4
 timeout

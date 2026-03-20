@@ -10,12 +10,6 @@ modules
 script
 import
 ContextTarget
-from
-tests
-.
-bidi
-import
-wait_for_bidi_events
 pytestmark
 =
 pytest
@@ -65,9 +59,9 @@ test_window_open
 (
     
 bidi_session
-configuration
 subscribe_events
 top_context
+wait_for_bidi_events
 inline
 window_url
 )
@@ -185,8 +179,6 @@ context
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 equal_check
@@ -277,8 +269,8 @@ test_event_order
 (
     
 bidi_session
-configuration
 subscribe_events
+wait_for_bidi_events
 new_tab
 inline
 window_url
@@ -417,8 +409,6 @@ context
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 2
 equal_check

@@ -19,12 +19,6 @@ error
 import
 TimeoutException
 from
-tests
-.
-bidi
-import
-wait_for_bidi_events
-from
 .
 .
 import
@@ -627,7 +621,7 @@ test_with_wrong_credentials
 (
 setup_blocked_request
 bidi_session
-configuration
+wait_for_bidi_events
 )
 :
     
@@ -732,8 +726,6 @@ wrong_credentials
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout
@@ -766,8 +758,6 @@ wrong_credentials
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 2
 timeout
@@ -787,8 +777,6 @@ TimeoutException
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 3
 timeout

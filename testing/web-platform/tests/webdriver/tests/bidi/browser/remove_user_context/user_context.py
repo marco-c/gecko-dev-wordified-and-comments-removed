@@ -10,12 +10,6 @@ from
 tests
 .
 bidi
-import
-wait_for_bidi_events
-from
-tests
-.
-bidi
 .
 browser
 import
@@ -115,8 +109,8 @@ test_remove_context_closes_contexts
 (
     
 bidi_session
-configuration
 subscribe_events
+wait_for_bidi_events
 create_user_context
 type_hint
 )
@@ -276,8 +270,6 @@ user_context_1
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 2
 )
@@ -332,8 +324,6 @@ user_context_2
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 4
 )
@@ -401,9 +391,9 @@ test_remove_context_skips_beforeunload_prompt
     
 bidi_session
     
-configuration
-    
 subscribe_events
+    
+wait_for_bidi_events
     
 create_user_context
     
@@ -525,8 +515,6 @@ TimeoutException
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout

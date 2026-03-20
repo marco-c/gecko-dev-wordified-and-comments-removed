@@ -17,12 +17,6 @@ error
 import
 TimeoutException
 from
-tests
-.
-bidi
-import
-wait_for_bidi_events
-from
 .
 import
 assert_file_dialog_opened_event
@@ -45,11 +39,11 @@ def
 test_unsubscribe
 (
 bidi_session
-configuration
 inline
 top_context
 wait_for_event
         
+wait_for_bidi_events
 wait_for_future_safe
 )
 :
@@ -210,8 +204,6 @@ TimeoutException
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout
