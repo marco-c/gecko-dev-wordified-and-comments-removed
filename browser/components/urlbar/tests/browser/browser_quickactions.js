@@ -1268,6 +1268,7 @@ anything
 "
 )
 ;
+await
 makeProfileResettable
 (
 )
