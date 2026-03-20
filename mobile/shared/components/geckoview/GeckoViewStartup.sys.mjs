@@ -897,15 +897,6 @@ addJSProcessActors
 JSPROCESSACTORS
 )
 ;
-if
-(
-Services
-.
-appinfo
-.
-sessionHistoryInParent
-)
-{
 GeckoViewUtils
 .
 addLazyGetter
@@ -957,7 +948,6 @@ discarded
 }
 )
 ;
-}
 GeckoViewUtils
 .
 addLazyGetter

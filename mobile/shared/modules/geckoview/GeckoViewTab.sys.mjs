@@ -1243,15 +1243,6 @@ FlushSessionState
 {
 if
 (
-Services
-.
-appinfo
-.
-sessionHistoryInParent
-)
-{
-if
-(
 this
 .
 browser
@@ -1274,7 +1265,6 @@ requestTabStateFlush
 (
 )
 ;
-}
 }
 break
 ;

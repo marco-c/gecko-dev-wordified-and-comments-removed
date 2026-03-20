@@ -83,11 +83,6 @@ content
 geckoview
 .
 js
-content
-/
-SessionStateAggregator
-.
-js
 %
 content
 branding
