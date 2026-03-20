@@ -83,7 +83,6 @@ spatial_tree
 {
 SpatialNodeIndex
 SpatialTree
-get_external_scroll_offset
 }
 ;
 use
@@ -303,9 +302,6 @@ LayoutToWorldFastTransform
 world_viewport_transform
 :
 LayoutToWorldFastTransform
-external_scroll_offset
-:
-LayoutVector2D
 }
 #
 [
@@ -1285,13 +1281,6 @@ index
 .
 into_fast_transform
 (
-)
-external_scroll_offset
-:
-get_external_scroll_offset
-(
-spatial_tree
-index
 )
 }
 )
