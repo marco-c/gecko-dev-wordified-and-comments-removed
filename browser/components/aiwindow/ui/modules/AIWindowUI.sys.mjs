@@ -1367,6 +1367,8 @@ smartwindow
 ask
 -
 button
+-
+inner
 "
 )
 ;

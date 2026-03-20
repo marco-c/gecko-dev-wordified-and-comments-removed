@@ -218,6 +218,8 @@ smartwindow
 ask
 -
 button
+-
+inner
 "
 )
 ;
@@ -385,6 +387,8 @@ smartwindow
 ask
 -
 button
+-
+inner
 "
 )
 ;
@@ -407,10 +411,12 @@ Assert
 .
 ok
 (
-!
-askButton
+BrowserTestUtils
 .
-hidden
+isVisible
+(
+askButton
+)
 "
 Ask
 button
@@ -1030,6 +1036,8 @@ smartwindow
 ask
 -
 button
+-
+inner
 "
 )
 ;
