@@ -1601,26 +1601,6 @@ graph_config
 )
 :
     
-return
-_add_try_task_duplicates
-(
-        
-taskgraph
-label_to_taskid
-parameters
-graph_config
-    
-)
-def
-_add_try_task_duplicates
-(
-taskgraph
-label_to_taskid
-parameters
-graph_config
-)
-:
-    
 try_config
 =
 parameters
