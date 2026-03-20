@@ -332,6 +332,15 @@ uint64_t
 result
 )
 {
+RefPtr
+<
+nsSyncStreamListener
+>
+self
+(
+this
+)
+;
 if
 (
 NS_FAILED
