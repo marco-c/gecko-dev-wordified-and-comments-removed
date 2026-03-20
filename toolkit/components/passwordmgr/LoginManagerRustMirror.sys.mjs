@@ -2935,13 +2935,12 @@ numberOfLoginsMigrated
 ;
 try
 {
-await
 this
 .
 #
 rustStorage
 .
-removeAllLoginsAsync
+removeAllLogins
 (
 )
 ;
