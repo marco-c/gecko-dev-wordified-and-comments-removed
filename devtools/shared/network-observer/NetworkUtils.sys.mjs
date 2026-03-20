@@ -3587,6 +3587,7 @@ closed
 browsingContext
 =
 topFrame
+?
 .
 browsingContext
 ;
