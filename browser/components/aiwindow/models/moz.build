@@ -96,6 +96,15 @@ browser
 .
 toml
 "
+"
+tests
+/
+browser_eval
+/
+eval
+.
+toml
+"
 ]
 MOZ_SRC_FILES
 +

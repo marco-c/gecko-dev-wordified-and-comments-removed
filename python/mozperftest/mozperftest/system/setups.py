@@ -221,6 +221,8 @@ try
 :
             
 if
+(
+                
 "
 mac
 "
@@ -233,6 +235,23 @@ system
 .
 lower
 (
+)
+                
+or
+"
+darwin
+"
+in
+platform
+.
+system
+(
+)
+.
+lower
+(
+)
+            
 )
 :
                 
@@ -574,17 +593,17 @@ logger
 info
 (
                         
+f
 "
 Successfully
 acquired
 browser
 version
 :
-%
-s
-"
-%
+{
 version
+}
+"
                     
 )
         
@@ -601,6 +620,7 @@ logger
 warning
 (
                 
+f
 "
 Failed
 to
@@ -612,22 +632,18 @@ through
 fallback
 method
 :
-%
-s
--
-%
-s
-"
-                
-%
-(
+{
 e
 .
 __class__
 .
 __name__
+}
+-
+{
 e
-)
+}
+"
             
 )
             
@@ -698,14 +714,14 @@ device
 .
 shell_output
 (
+f
 "
 dumpsys
 package
-%
-s
-"
-%
+{
 binary
+}
+"
 )
         
 version_matcher
