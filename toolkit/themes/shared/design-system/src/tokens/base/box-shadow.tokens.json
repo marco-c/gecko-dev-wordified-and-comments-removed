@@ -1,10 +1,5 @@
 {
 "
-shadow
-"
-:
-{
-"
 level
 -
 1
@@ -21,7 +16,7 @@ value
 1px
 {
 box
-.
+-
 shadow
 .
 color
@@ -37,7 +32,7 @@ layer
 2px
 {
 box
-.
+-
 shadow
 .
 color
@@ -71,7 +66,7 @@ value
 75px
 {
 box
-.
+-
 shadow
 .
 color
@@ -87,7 +82,7 @@ layer
 6px
 {
 box
-.
+-
 shadow
 .
 color
@@ -121,7 +116,7 @@ value
 5px
 {
 box
-.
+-
 shadow
 .
 color
@@ -137,7 +132,7 @@ layer
 12px
 {
 box
-.
+-
 shadow
 .
 color
@@ -169,7 +164,7 @@ value
 2px
 {
 box
-.
+-
 shadow
 .
 color
@@ -185,7 +180,7 @@ layer
 16px
 {
 box
-.
+-
 shadow
 .
 color
@@ -388,7 +383,6 @@ rgba
 4
 )
 "
-}
 }
 }
 }
