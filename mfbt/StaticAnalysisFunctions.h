@@ -5,9 +5,6 @@ mozilla_StaticAnalysisFunctions_h
 define
 mozilla_StaticAnalysisFunctions_h
 #
-ifdef
-MOZ_CLANG_PLUGIN
-#
 ifndef
 __cplusplus
 #
@@ -42,6 +39,9 @@ MOZ_CONSTEXPR
 constexpr
 #
 endif
+#
+ifdef
+MOZ_CLANG_PLUGIN
 #
 ifdef
 __cplusplus

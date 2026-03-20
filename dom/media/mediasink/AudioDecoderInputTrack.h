@@ -6,11 +6,6 @@ define
 AudioDecoderInputTrack_h
 #
 include
-<
-thread
->
-#
-include
 "
 AudioSegment
 .

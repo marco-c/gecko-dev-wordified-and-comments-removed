@@ -7,11 +7,6 @@ SystemTimeConverter_h
 #
 include
 <
-cinttypes
->
-#
-include
-<
 limits
 >
 #

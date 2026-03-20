@@ -104,13 +104,6 @@ h
 #
 include
 <
-signal
-.
-h
->
-#
-include
-<
 sys
 /
 stat
