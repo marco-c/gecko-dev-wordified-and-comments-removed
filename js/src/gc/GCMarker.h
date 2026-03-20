@@ -2015,6 +2015,12 @@ JS
 :
 GCCellPtr
 cell
+JS
+:
+:
+SliceBudget
+&
+budget
 )
 ;
 #
@@ -2115,6 +2121,12 @@ const
 JSClass
 *
 clasp
+JS
+:
+:
+SliceBudget
+&
+budget
 )
 ;
 template
