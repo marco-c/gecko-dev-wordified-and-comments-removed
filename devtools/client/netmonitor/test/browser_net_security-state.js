@@ -54,6 +54,10 @@ security
 state
 -
 secure
+-
+custom
+-
+root
 "
 "
 nocert
