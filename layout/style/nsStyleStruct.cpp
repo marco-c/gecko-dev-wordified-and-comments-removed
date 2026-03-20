@@ -17408,7 +17408,7 @@ Fixed
 )
 mViewTransitionName
 (
-StyleViewTransitionName
+StyleViewTransitionNameKeyword
 :
 :
 None
@@ -17841,11 +17841,15 @@ nsChangeHint_SchedulePaint
 if
 (
 mViewTransitionName
+.
+value
 !
 =
 aNewData
 .
 mViewTransitionName
+.
+value
 )
 {
 if
