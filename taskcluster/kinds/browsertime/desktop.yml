@@ -7181,10 +7181,6 @@ dns
 -
 native
 -
-dns
--
-usatdy
--
 trr
 -
 cira
@@ -7204,10 +7200,6 @@ multi
 trr
 -
 next
--
-trr
--
-usatdy
 -
 trr
 -

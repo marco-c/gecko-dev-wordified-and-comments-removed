@@ -3261,10 +3261,6 @@ dns
 -
 native
 -
-dns
--
-usatdy
--
 trr
 -
 cloudf
@@ -3276,10 +3272,6 @@ multi
 trr
 -
 next
--
-trr
--
-usatdy
 -
 trr
 -
