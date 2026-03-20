@@ -441,12 +441,6 @@ AUTHOR
 -
 -
 silent
-2
->
-/
-dev
-/
-null
 ;
 then
 echo
