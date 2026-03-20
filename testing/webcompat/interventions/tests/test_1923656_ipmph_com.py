@@ -110,7 +110,7 @@ await_css
 IFRAME_CSS
 timeout
 =
-30
+45
 )
 )
     
@@ -137,7 +137,7 @@ is_displayed
 True
 timeout
 =
-30
+45
 )
     
 assert
@@ -195,7 +195,7 @@ is_displayed
 True
 timeout
 =
-30
+45
 )
     
 except

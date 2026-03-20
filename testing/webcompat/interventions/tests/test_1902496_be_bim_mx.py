@@ -96,7 +96,6 @@ pytest
 .
 skip
 (
-            
 "
 Region
 -
@@ -110,13 +109,9 @@ a
 VPN
 set
 to
-Canada
-or
-the
-USA
+Mexico
 .
 "
-        
 )
 pytest
 .

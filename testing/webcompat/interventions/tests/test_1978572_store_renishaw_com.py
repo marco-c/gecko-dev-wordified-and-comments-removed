@@ -135,6 +135,13 @@ is_displayed
 True
 )
     
+client
+.
+scroll_into_view
+(
+slider
+)
+    
 await
 asyncio
 .

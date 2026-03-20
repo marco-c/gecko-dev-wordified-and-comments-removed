@@ -40,10 +40,8 @@ deneyi
 CAPTCHA_TEXT
 =
 "
-Verifying
-you
-are
-human
+Performing
+security
 "
 IMAGE_CSS
 =

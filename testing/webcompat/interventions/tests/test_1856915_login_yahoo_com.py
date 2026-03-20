@@ -100,6 +100,12 @@ client
 await_css
 (
 USERNAME_CSS
+is_displayed
+=
+True
+timeout
+=
+20
 )
 .
 send_keys
@@ -114,6 +120,9 @@ client
 await_css
 (
 SIGNIN_CSS
+is_displayed
+=
+True
 )
 .
 click

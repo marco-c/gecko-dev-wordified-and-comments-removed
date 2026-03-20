@@ -24,12 +24,11 @@ game
 -
 container
 "
-UNSUPPORTED_CSS
+UNSUPPORTED_TEXT
 =
 "
-body
-#
-browser
+Google
+Chrome
 "
 pytest
 .
@@ -79,9 +78,9 @@ assert
 not
 client
 .
-find_css
+find_text
 (
-UNSUPPORTED_CSS
+UNSUPPORTED_TEXT
 )
 pytest
 .
@@ -122,9 +121,9 @@ URL
 assert
 client
 .
-await_css
+await_text
 (
-UNSUPPORTED_CSS
+UNSUPPORTED_TEXT
 )
     
 assert

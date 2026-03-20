@@ -147,7 +147,7 @@ button
 class
 ^
 =
-SearchMaskFilterTags_mobile_filter
+SearchMaskFilterTags_mobileFilter
 ]
 "
 MAKE_FILTER_CSS

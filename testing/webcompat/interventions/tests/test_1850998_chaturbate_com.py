@@ -22,8 +22,11 @@ FIRST_ROOM_CSS
 =
 "
 a
-.
-room_thumbnail_container
+[
+data
+-
+room
+]
 [
 href
 ]
