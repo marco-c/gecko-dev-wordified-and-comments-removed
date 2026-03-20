@@ -24065,10 +24065,7 @@ MOZ_ENABLE_INC_ORIGIN_INIT
 sessionHistoryInParent
 "
 :
-not
-options
-.
-disable_fission
+True
             
 "
 socketprocess_e10s

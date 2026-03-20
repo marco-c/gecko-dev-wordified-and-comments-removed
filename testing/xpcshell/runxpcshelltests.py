@@ -11250,14 +11250,7 @@ sessionHistoryInParent
 "
 ]
 =
-self
-.
-mozInfo
-[
-"
-fission
-"
-]
+True
         
 self
 .

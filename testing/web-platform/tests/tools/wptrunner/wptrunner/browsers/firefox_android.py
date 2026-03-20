@@ -1153,13 +1153,6 @@ default_prefs
         
 return
 {
-"
-fission
-.
-disableSessionHistoryInParent
-"
-:
-False
 }
     
 def

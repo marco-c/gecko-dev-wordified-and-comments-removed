@@ -1769,15 +1769,7 @@ disable_fission
 sessionHistoryInParent
 "
 :
-not
-kwargs
-.
-get
-(
-"
-disable_fission
-"
-)
+True
           
 "
 swgl
