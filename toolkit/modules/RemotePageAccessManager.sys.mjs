@@ -1251,6 +1251,9 @@ FetchVPNSubStatus
 "
 FetchShowVPNCard
 "
+"
+FetchPrivacyMetrics
+"
 ]
 RPMAddMessageListener
 :
