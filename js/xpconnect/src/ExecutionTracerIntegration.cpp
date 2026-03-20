@@ -450,9 +450,6 @@ href
 if
 (
 location
-&
-&
-location
 -
 >
 GetHref
