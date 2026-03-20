@@ -1461,7 +1461,9 @@ message_seq
 :
 conversation
 .
-messageCount
+messages
+.
+length
 length
 :
 result
