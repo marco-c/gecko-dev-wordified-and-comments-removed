@@ -104,8 +104,6 @@ const
 nsString
 &
 aDocumentTitle
-uint64_t
-aBrowsingContextId
 const
 int32_t
 &

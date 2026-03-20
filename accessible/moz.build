@@ -177,9 +177,6 @@ interfaces
 ipc
 "
 "
-pdf
-"
-"
 xpcom
 "
 "
@@ -314,17 +311,6 @@ tests
 browser
 /
 name_and_description
-/
-browser
-.
-toml
-"
-"
-tests
-/
-browser
-/
-pdfOutput
 /
 browser
 .

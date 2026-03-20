@@ -5762,17 +5762,6 @@ aPoint
 {
 }
 virtual
-void
-AccessibleId
-(
-uint64_t
-aBrowsingContextId
-uint64_t
-aAccId
-)
-{
-}
-virtual
 already_AddRefed
 <
 SourceSurface
