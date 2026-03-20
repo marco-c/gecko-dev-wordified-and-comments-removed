@@ -825,6 +825,13 @@ tabStorageUpdate
 .
 privateTabs
 )
+tabGroups
+=
+action
+.
+tabStorageUpdate
+.
+tabGroups
 )
 else
 -
