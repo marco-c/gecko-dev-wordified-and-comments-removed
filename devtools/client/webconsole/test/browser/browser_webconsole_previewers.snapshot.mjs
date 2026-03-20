@@ -1632,6 +1632,17 @@ hidden
 /
 /
 new
+Document
+(
+)
+"
+Document
+{
+}
+"
+/
+/
+new
 Error
 (
 "
