@@ -7,6 +7,12 @@ unsafe_code
 )
 ]
 use
+super
+:
+:
+flush_block
+;
+use
 crate
 :
 :
@@ -26,7 +32,6 @@ MIN_LOOKAHEAD
 STD_MAX_MATCH
 STD_MIN_MATCH
 }
-flush_block
 DeflateFlush
 }
 ;

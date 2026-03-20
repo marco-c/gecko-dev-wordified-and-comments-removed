@@ -144,6 +144,8 @@ wmask
 state
 .
 w_mask
+(
+)
 ;
 let
 window
@@ -1173,6 +1175,7 @@ match_offset
 if
 len
 >
+=
 lookahead
 {
 return

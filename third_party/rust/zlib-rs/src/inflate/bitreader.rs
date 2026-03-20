@@ -636,6 +636,7 @@ always
 )
 ]
 pub
+unsafe
 fn
 refill
 (
@@ -706,7 +707,7 @@ increment
 =
 (
 63
--
+^
 self
 .
 bits_used
