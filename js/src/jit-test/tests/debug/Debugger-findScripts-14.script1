@@ -8,10 +8,6 @@ x
 =
 1
 ;
-/
-/
-line
-4
 return
 function
 g
@@ -23,10 +19,6 @@ y
 =
 2
 ;
-/
-/
-line
-6
 return
 function
 h
@@ -38,10 +30,6 @@ z
 =
 3
 ;
-/
-/
-line
-8
 return
 x
 +
