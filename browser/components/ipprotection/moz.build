@@ -186,6 +186,13 @@ sys
 .
 mjs
 "
+"
+IPPUsageHelper
+.
+sys
+.
+mjs
+"
 ]
 BROWSER_CHROME_MANIFESTS
 +
