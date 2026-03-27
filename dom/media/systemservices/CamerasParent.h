@@ -932,11 +932,11 @@ CamerasParent
 private
 :
 struct
-GetOrCreateCapturerResult
+GetOrCreateAggregatorResult
 {
 AggregateCapturer
 *
-mCapturer
+mAggregator
 {
 }
 ;
@@ -947,8 +947,8 @@ mStreamId
 ;
 }
 ;
-GetOrCreateCapturerResult
-GetOrCreateCapturer
+GetOrCreateAggregatorResult
+GetOrCreateAggregator
 (
 CaptureEngine
 aEngine
@@ -972,7 +972,7 @@ aCapabilities
 ;
 AggregateCapturer
 *
-GetCapturer
+GetAggregator
 (
 CaptureEngine
 aEngine
@@ -1100,7 +1100,7 @@ AggregateCapturer
 >
 >
 >
-mCapturers
+mAggregators
 ;
 const
 RefPtr
