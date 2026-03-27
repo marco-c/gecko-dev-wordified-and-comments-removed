@@ -1446,13 +1446,6 @@ js
 ]
 [
 "
-browser_engine_used_on_search_mode
-.
-js
-"
-]
-[
-"
 browser_enter
 .
 js
@@ -2587,6 +2580,13 @@ js
 [
 "
 browser_searchMode_oneOffButton
+.
+js
+"
+]
+[
+"
+browser_searchMode_perplexity
 .
 js
 "
