@@ -15830,6 +15830,11 @@ openTrustedLinkIn
 (
 url
 where
+{
+inBackground
+:
+true
+}
 )
 ;
 }
