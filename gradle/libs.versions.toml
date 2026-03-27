@@ -51,7 +51,7 @@ kotlin
 .
 3
 .
-10
+20
 "
 serialization
 =
@@ -673,9 +673,9 @@ kotlinc
 "
 0
 .
-8
+9
 .
-2
+0
 "
 tomlj
 =
