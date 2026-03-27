@@ -1570,9 +1570,10 @@ CreateDefaultExportSyntheticModule
 JSContext
 *
 cx
-const
+Handle
+<
 Value
-&
+>
 defaultExport
 )
 {
