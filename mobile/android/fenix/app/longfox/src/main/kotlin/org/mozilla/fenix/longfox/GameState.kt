@@ -401,6 +401,15 @@ Int
 12
 )
 {
+companion
+object
+{
+const
+val
+CELL_SIZE_DP
+=
+20f
+}
 val
 numCellsWide
 =
@@ -686,6 +695,11 @@ newHead
 =
 =
 food
+|
+|
+food
+in
+fox
 val
 isGameOver
 =
