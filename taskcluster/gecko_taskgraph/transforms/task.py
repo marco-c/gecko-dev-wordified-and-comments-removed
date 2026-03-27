@@ -181,7 +181,7 @@ optimize
 .
 schema
 import
-OptimizationSchema
+LegacyOptimizationSchema
 from
 gecko_taskgraph
 .
@@ -1001,7 +1001,7 @@ optimization
 "
 )
 :
-OptimizationSchema
+LegacyOptimizationSchema
     
 "
 worker
