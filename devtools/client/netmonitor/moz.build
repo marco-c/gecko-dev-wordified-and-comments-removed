@@ -95,7 +95,7 @@ BROWSER_CHROME_MANIFESTS
 "
 test
 /
-browser
+browser_al
 .
 toml
 "
@@ -103,6 +103,13 @@ toml
 test
 /
 browser_http3
+.
+toml
+"
+"
+test
+/
+browser_mz
 .
 toml
 "

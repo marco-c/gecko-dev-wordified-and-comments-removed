@@ -112,7 +112,7 @@ test
 /
 mochitest
 /
-browser_aj
+browser_af
 .
 toml
 "
@@ -121,7 +121,16 @@ test
 /
 mochitest
 /
-browser_kz
+browser_gp
+.
+toml
+"
+"
+test
+/
+mochitest
+/
+browser_qz
 .
 toml
 "
