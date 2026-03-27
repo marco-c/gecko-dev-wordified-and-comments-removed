@@ -45,6 +45,12 @@ representedView
 ;
 -
 (
+BOOL
+)
+hasMozAccessible
+;
+-
+(
 id
 )
 accessibilityHitTest

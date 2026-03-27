@@ -1628,7 +1628,7 @@ a11y
 :
 LocalAccessible
 >
-GetDocumentAccessible
+GetWindowAccessible
 (
 )
 ;
