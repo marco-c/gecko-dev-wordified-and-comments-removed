@@ -263,9 +263,6 @@ dev
 null
 dmg
 extract
-.
-.
-/
 "
 pkg_file
 "
@@ -569,9 +566,6 @@ WINNT_
 )
 7z
 x
-.
-.
-/
 "
 pkg_file
 "
@@ -738,9 +732,6 @@ gz
 then
 tar
 xfz
-.
-.
-/
 "
 pkg_file
 "
@@ -766,9 +757,6 @@ bz2
 then
 tar
 xfj
-.
-.
-/
 "
 pkg_file
 "
@@ -794,9 +782,6 @@ xz
 then
 tar
 xfJ
-.
-.
-/
 "
 pkg_file
 "

@@ -1401,6 +1401,8 @@ updater_platform
 "
 updater
 "
+MY_DIR
+/
 updater_package_filename
 "
 "
@@ -1827,6 +1829,10 @@ platform
 }
 "
 "
+{
+MY_DIR
+}
+/
 downloads
 /
 {
@@ -1834,6 +1840,10 @@ source_file
 }
 "
 "
+{
+MY_DIR
+}
+/
 downloads
 /
 {
