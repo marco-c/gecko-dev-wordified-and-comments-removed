@@ -82,6 +82,9 @@ dom
 class
 GlobalObject
 ;
+class
+IDBTransaction
+;
 namespace
 indexedDB
 {
@@ -200,6 +203,11 @@ aKeyRange
 ErrorResult
 &
 aRv
+IDBTransaction
+*
+aTransaction
+=
+nullptr
 )
 ;
 [
