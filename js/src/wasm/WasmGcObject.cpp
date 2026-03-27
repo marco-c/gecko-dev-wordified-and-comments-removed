@@ -2566,6 +2566,15 @@ addressOfOOLPointer
 (
 )
 ;
+if
+(
+MOZ_LIKELY
+(
+*
+addressOfOOLPtr
+)
+)
+{
 TraceBufferEdge
 (
 trc
@@ -2624,6 +2633,7 @@ field
 "
 )
 ;
+}
 }
 }
 }
