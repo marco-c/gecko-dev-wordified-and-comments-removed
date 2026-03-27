@@ -2174,6 +2174,15 @@ settings
 .
 isTelemetryEnabled
 }
+disableCustomPrompt
+=
+{
+settings
+.
+customReviewPromptUiEnabled
+=
+false
+}
 createJexlHelper
 =
 nimbus
