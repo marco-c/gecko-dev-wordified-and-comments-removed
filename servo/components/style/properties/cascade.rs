@@ -5307,6 +5307,11 @@ ComputedValueFlags
 :
 :
 USES_VIEWPORT_UNITS
+|
+ComputedValueFlags
+:
+:
+DEPENDS_ON_CONTAINER_STYLE_QUERY
 ;
 context
 .
