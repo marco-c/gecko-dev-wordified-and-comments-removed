@@ -358,14 +358,6 @@ uint8_t
 aRoleMapEntryIndex
 )
 ;
-void
-PlatformFocusedAccLocationChanged
-(
-Accessible
-*
-aFocusedAcc
-)
-;
 #
 endif
 uint64_t
