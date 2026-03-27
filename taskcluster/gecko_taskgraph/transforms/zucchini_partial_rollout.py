@@ -26,12 +26,6 @@ LEGACY_PARTIALS_PROJECTS
 "
 mozilla
 -
-beta
-"
-    
-"
-mozilla
--
 release
 "
     
