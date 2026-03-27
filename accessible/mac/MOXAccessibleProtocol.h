@@ -539,6 +539,14 @@ moxARIABrailleRoleDescription
 ;
 -
 (
+NSString
+*
+_Nullable
+)
+moxARIABrailleLabel
+;
+-
+(
 NSNumber
 *
 _Nullable

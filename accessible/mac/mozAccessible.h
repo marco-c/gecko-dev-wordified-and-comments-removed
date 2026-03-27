@@ -642,6 +642,13 @@ moxARIABrailleRoleDescription
 NSString
 *
 )
+moxARIABrailleLabel
+;
+-
+(
+NSString
+*
+)
 moxPlaceholderValue
 ;
 -

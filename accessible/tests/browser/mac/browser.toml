@@ -179,7 +179,7 @@ https_first_disabled
 true
 [
 "
-browser_aria_brailleRoleDescription
+browser_braille
 .
 js
 "
