@@ -212,6 +212,16 @@ Less
 macro_name
 !
 (
+max_binding_array_acceleration_structure_elements_per_shader_stage
+Ordering
+:
+:
+Less
+)
+;
+macro_name
+!
+(
 max_uniform_buffer_binding_size
 Ordering
 :
@@ -714,6 +724,10 @@ max_binding_array_elements_per_shader_stage
 :
 u32
 pub
+max_binding_array_acceleration_structure_elements_per_shader_stage
+:
+u32
+pub
 max_binding_array_sampler_elements_per_shader_stage
 :
 u32
@@ -938,6 +952,9 @@ max_uniform_buffers_per_shader_stage
 :
 12
 max_binding_array_elements_per_shader_stage
+:
+0
+max_binding_array_acceleration_structure_elements_per_shader_stage
 :
 0
 max_binding_array_sampler_elements_per_shader_stage

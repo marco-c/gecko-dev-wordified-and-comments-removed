@@ -7080,6 +7080,11 @@ ty
 init
 :
 initializer
+memory_decorations
+:
+v
+.
+memory_decorations
 }
 span
 )

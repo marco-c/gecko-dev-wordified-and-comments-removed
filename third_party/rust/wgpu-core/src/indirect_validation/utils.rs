@@ -121,7 +121,7 @@ scratch
 .
 0
 .
-clear
+make_empty
 (
 )
 ;

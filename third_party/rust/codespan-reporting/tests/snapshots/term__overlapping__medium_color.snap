@@ -221,7 +221,7 @@ safely
 {
 fg
 :
-Blue
+Cyan
 }
 =
 {
@@ -277,7 +277,7 @@ Rc
 {
 fg
 :
-Blue
+Cyan
 }
 =
 {
@@ -300,7 +300,7 @@ Port
 {
 fg
 :
-Blue
+Cyan
 }
 =
 {
@@ -322,7 +322,7 @@ Foo
 {
 fg
 :
-Blue
+Cyan
 }
 =
 {
@@ -381,7 +381,7 @@ errors
 {
 fg
 :
-Blue
+Cyan
 }
 =
 {
@@ -400,7 +400,7 @@ E0666
 {
 fg
 :
-Blue
+Cyan
 }
 =
 {

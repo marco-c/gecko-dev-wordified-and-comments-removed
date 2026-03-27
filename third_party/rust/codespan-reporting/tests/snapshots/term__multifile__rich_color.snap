@@ -47,7 +47,7 @@ NATRAL
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -64,7 +64,7 @@ fun
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -72,7 +72,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 7
 {
@@ -81,7 +81,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -106,7 +106,7 @@ Nat
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -138,7 +138,7 @@ builtin
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -146,7 +146,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 =
 {
@@ -186,7 +186,7 @@ n
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -203,7 +203,7 @@ fun
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -211,7 +211,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 17
 {
@@ -220,7 +220,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -242,7 +242,7 @@ zero
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -270,7 +270,7 @@ parameter
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -278,7 +278,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 =
 {
@@ -321,7 +321,7 @@ _
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -336,7 +336,7 @@ fun
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -344,7 +344,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 4
 {
@@ -353,7 +353,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -376,7 +376,7 @@ hello
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -411,7 +411,7 @@ String
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -419,7 +419,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -436,7 +436,7 @@ fun
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -444,7 +444,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 11
 {
@@ -453,7 +453,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -468,7 +468,7 @@ Nat
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -476,7 +476,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 -
 -
@@ -505,7 +505,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 based
 on
@@ -521,7 +521,7 @@ _
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -529,7 +529,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 =
 {

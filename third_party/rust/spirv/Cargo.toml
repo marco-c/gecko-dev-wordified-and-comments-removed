@@ -112,7 +112,7 @@ version
 "
 0
 .
-3
+4
 .
 0
 +
@@ -122,7 +122,7 @@ sdk
 .
 4
 .
-309
+341
 .
 0
 "
@@ -277,8 +277,10 @@ rs
 "
 [
 dependencies
-]
+.
 bitflags
+]
+version
 =
 "
 2

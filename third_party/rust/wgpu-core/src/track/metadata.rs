@@ -157,8 +157,9 @@ self
 .
 owned
 .
-clear
+fill
 (
+false
 )
 ;
 }

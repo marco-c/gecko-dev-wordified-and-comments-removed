@@ -370,14 +370,7 @@ pub
 struct
 Instance
 {
-#
-[
-allow
-(
-dead_code
-)
-]
-name
+_name
 :
 String
 instance_per_backend
@@ -461,7 +454,7 @@ this
 =
 Self
 {
-name
+_name
 :
 name
 .
@@ -974,6 +967,8 @@ Self
 {
 Self
 {
+_name
+:
 name
 instance_per_backend
 :

@@ -3044,13 +3044,6 @@ RenderBundleErrorInner
 >
 {
 let
-end_offset
-=
-offset
-+
-size_bytes
-;
-let
 pipeline_state
 =
 state
@@ -3069,7 +3062,7 @@ layout
 validate_immediates_ranges
 (
 offset
-end_offset
+size_bytes
 )
 ?
 ;

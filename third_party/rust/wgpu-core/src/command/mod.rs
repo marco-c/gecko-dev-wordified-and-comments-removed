@@ -3596,6 +3596,12 @@ Tracker
 :
 new
 (
+device
+.
+ordered_buffer_usages
+device
+.
+ordered_texture_usages
 )
 buffer_memory_init_actions
 :

@@ -57,7 +57,7 @@ time
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -72,7 +72,7 @@ rs
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -80,7 +80,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 3
 {
@@ -89,7 +89,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -120,7 +120,7 @@ unwrap
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -128,7 +128,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 -
 {
@@ -137,7 +137,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 -
 -
@@ -171,7 +171,7 @@ here
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -179,7 +179,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -187,7 +187,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -195,7 +195,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -203,7 +203,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -211,7 +211,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 first
 mutable
@@ -224,7 +224,7 @@ here
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -232,7 +232,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 first
 borrow
@@ -267,7 +267,7 @@ error
 {
 fg
 :
-Blue
+Cyan
 }
 =
 {

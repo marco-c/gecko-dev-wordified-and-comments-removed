@@ -51,7 +51,7 @@ types
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -66,7 +66,7 @@ fun
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -74,7 +74,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 3
 {
@@ -83,7 +83,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -95,7 +95,7 @@ String
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -103,7 +103,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 -
 -
@@ -117,7 +117,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 expected
 type
@@ -130,7 +130,7 @@ here
 {
 fg
 :
-Blue
+Cyan
 }
 4
 {
@@ -139,7 +139,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -162,7 +162,7 @@ of
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -170,7 +170,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -178,7 +178,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 '
 {
@@ -187,7 +187,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 5
 {
@@ -196,7 +196,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -204,7 +204,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -219,7 +219,7 @@ FizzBuzz
 {
 fg
 :
-Blue
+Cyan
 }
 6
 {
@@ -228,7 +228,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -236,7 +236,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -251,7 +251,7 @@ Fizz
 {
 fg
 :
-Blue
+Cyan
 }
 7
 {
@@ -260,7 +260,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -268,7 +268,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -283,7 +283,7 @@ Buzz
 {
 fg
 :
-Blue
+Cyan
 }
 8
 {
@@ -292,7 +292,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -300,7 +300,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -321,7 +321,7 @@ num
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -329,7 +329,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -360,7 +360,7 @@ Nat
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -368,7 +368,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -376,7 +376,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 '
 case
@@ -390,7 +390,7 @@ types
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -398,7 +398,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 =
 {
@@ -437,7 +437,7 @@ types
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -452,7 +452,7 @@ fun
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -460,7 +460,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 10
 {
@@ -469,7 +469,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -481,7 +481,7 @@ String
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -489,7 +489,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 -
 -
@@ -503,7 +503,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 expected
 type
@@ -516,7 +516,7 @@ here
 {
 fg
 :
-Blue
+Cyan
 }
 11
 {
@@ -525,7 +525,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -536,7 +536,7 @@ num
 {
 fg
 :
-Blue
+Cyan
 }
 12
 {
@@ -545,7 +545,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -553,7 +553,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -573,7 +573,7 @@ of
 {
 fg
 :
-Blue
+Cyan
 }
 13
 {
@@ -582,7 +582,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -590,7 +590,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -605,7 +605,7 @@ FizzBuzz
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -613,7 +613,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -621,7 +621,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 -
 -
@@ -639,7 +639,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 this
 is
@@ -655,7 +655,7 @@ String
 {
 fg
 :
-Blue
+Cyan
 }
 14
 {
@@ -664,7 +664,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -672,7 +672,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -687,7 +687,7 @@ Fizz
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -695,7 +695,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -703,7 +703,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 -
 -
@@ -717,7 +717,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 this
 is
@@ -733,7 +733,7 @@ String
 {
 fg
 :
-Blue
+Cyan
 }
 15
 {
@@ -742,7 +742,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -750,7 +750,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -765,7 +765,7 @@ Buzz
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -773,7 +773,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -781,7 +781,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 -
 -
@@ -795,7 +795,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 this
 is
@@ -811,7 +811,7 @@ String
 {
 fg
 :
-Blue
+Cyan
 }
 16
 {
@@ -820,7 +820,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -828,7 +828,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -849,7 +849,7 @@ num
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -857,7 +857,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -888,7 +888,7 @@ Nat
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -896,7 +896,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -904,7 +904,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 '
 case
@@ -918,7 +918,7 @@ types
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -926,7 +926,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 =
 {

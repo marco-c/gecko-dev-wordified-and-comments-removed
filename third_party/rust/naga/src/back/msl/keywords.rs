@@ -1002,6 +1002,9 @@ M_SQRT1_2
 "
 DefaultConstructible
 "
+"
+__local_invocation_id
+"
 super
 :
 :

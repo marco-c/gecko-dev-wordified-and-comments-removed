@@ -51,7 +51,7 @@ types
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -70,7 +70,7 @@ rs
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -78,7 +78,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 1
 {
@@ -87,7 +87,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -95,7 +95,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -115,7 +115,7 @@ last_line_index
 {
 fg
 :
-Blue
+Cyan
 }
 2
 {
@@ -124,7 +124,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -132,7 +132,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -161,7 +161,7 @@ to_usize
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -169,7 +169,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -177,7 +177,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 -
 -
@@ -230,7 +230,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 this
 is
@@ -250,7 +250,7 @@ LineIndexOutOfBoundsError
 {
 fg
 :
-Blue
+Cyan
 }
 3
 {
@@ -259,7 +259,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -267,7 +267,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -293,7 +293,7 @@ end
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -301,7 +301,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -309,7 +309,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 -
 -
@@ -345,7 +345,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 this
 is
@@ -365,7 +365,7 @@ LineIndexOutOfBoundsError
 {
 fg
 :
-Blue
+Cyan
 }
 4
 {
@@ -374,7 +374,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -382,7 +382,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -406,7 +406,7 @@ LineIndexOutOfBoundsError
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -430,7 +430,7 @@ Red
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -447,7 +447,7 @@ Red
 {
 fg
 :
-Blue
+Cyan
 }
 5
 {
@@ -456,7 +456,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -472,7 +472,7 @@ Red
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -491,7 +491,7 @@ line_index
 {
 fg
 :
-Blue
+Cyan
 }
 6
 {
@@ -500,7 +500,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -516,7 +516,7 @@ Red
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -539,7 +539,7 @@ last_line_index
 {
 fg
 :
-Blue
+Cyan
 }
 7
 {
@@ -548,7 +548,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -564,7 +564,7 @@ Red
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -581,7 +581,7 @@ Red
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -605,7 +605,7 @@ Red
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -628,7 +628,7 @@ LineIndexOutOfBoundsError
 {
 fg
 :
-Blue
+Cyan
 }
 8
 {
@@ -637,7 +637,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -645,7 +645,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -654,7 +654,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -662,7 +662,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -670,7 +670,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 '
 match
@@ -684,7 +684,7 @@ types
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -692,7 +692,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 =
 {

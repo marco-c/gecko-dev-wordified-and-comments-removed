@@ -45,7 +45,7 @@ token
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -58,7 +58,7 @@ same_range
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -66,7 +66,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 1
 {
@@ -75,7 +75,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -96,7 +96,7 @@ Red
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -113,7 +113,7 @@ Red
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -129,7 +129,7 @@ Red
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -149,7 +149,7 @@ Unexpected
 {
 fg
 :
-Blue
+Cyan
 }
 {
 /
@@ -157,7 +157,7 @@ Blue
 {
 fg
 :
-Blue
+Cyan
 }
 Expected
 '
