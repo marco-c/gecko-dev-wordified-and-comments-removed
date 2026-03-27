@@ -559,6 +559,8 @@ ini
 "
 ;
 ;
+win
+|
 win32
 |
 WINNT_

@@ -364,6 +364,8 @@ fi
 case
 update_platform
 in
+mac
+|
 Darwin_ppc
 -
 gcc
@@ -419,6 +421,8 @@ app
 "
 ;
 ;
+win
+|
 WINNT
 *
 )
@@ -429,6 +433,8 @@ bin
 "
 ;
 ;
+linux
+|
 Linux_x86
 -
 gcc
