@@ -428,11 +428,6 @@ skipOnboarding
 Boolean
 =
 false
-isHomepageHeaderEnabled
-:
-Boolean
-=
-true
 isPocketEnabled
 :
 Boolean
@@ -575,11 +570,6 @@ launchActivity
 skipOnboarding
 )
 {
-this
-.
-isHomepageHeaderEnabled
-=
-isHomepageHeaderEnabled
 this
 .
 isPocketEnabled
@@ -972,9 +962,6 @@ launchActivity
 skipOnboarding
 =
 skipOnboarding
-isHomepageHeaderEnabled
-=
-true
 isPWAsPromptEnabled
 =
 false
@@ -1353,11 +1340,6 @@ launchActivity
 skipOnboarding
 )
 {
-this
-.
-isHomepageHeaderEnabled
-=
-isHomepageHeaderEnabled
 this
 .
 isPocketEnabled
@@ -1784,11 +1766,6 @@ updateCachedSettings
 (
 )
 {
-isHomepageHeaderEnabled
-=
-settings
-.
-showHomepageHeader
 isPocketEnabled
 =
 settings

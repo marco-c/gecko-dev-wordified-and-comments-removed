@@ -1029,9 +1029,6 @@ headerState
 =
 HeaderState
 (
-showHeader
-=
-false
 wordmarkTextColor
 =
 null
