@@ -5562,6 +5562,12 @@ do_AddRef
 (
 mOffscreenDisplay
 )
+FragmentOrElement
+:
+:
+GetLang
+(
+)
 )
 ;
 if
