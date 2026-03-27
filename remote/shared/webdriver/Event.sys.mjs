@@ -1072,6 +1072,16 @@ twist
 opts
 .
 twist
+altitudeAngle
+:
+opts
+.
+altitudeAngle
+azimuthAngle
+:
+opts
+.
+azimuthAngle
 modifiers
 }
 )
