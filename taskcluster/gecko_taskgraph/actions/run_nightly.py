@@ -527,7 +527,8 @@ default
 def
 run_nightly_builds_action
 (
-parameters
+    
+push_parameters
 graph_config
 input
 task_group_id
@@ -663,7 +664,7 @@ previous_graph_ids
 [
 find_decision_task
 (
-parameters
+push_parameters
 graph_config
 )
 ]
@@ -684,6 +685,20 @@ parameters
 yml
 "
 )
+    
+parameters
+[
+"
+head_rev
+"
+]
+=
+push_parameters
+[
+"
+head_rev
+"
+]
     
 combined_full_task_graph
 =
