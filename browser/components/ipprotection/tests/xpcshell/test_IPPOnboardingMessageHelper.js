@@ -145,6 +145,12 @@ IPProtectionStates
 READY
 )
 ;
+IPPOnboardingMessage
+.
+init
+(
+)
+;
 IPProtectionService
 .
 init

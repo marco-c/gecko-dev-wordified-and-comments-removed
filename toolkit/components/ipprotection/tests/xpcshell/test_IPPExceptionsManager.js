@@ -20,7 +20,7 @@ src
 /
 /
 /
-browser
+toolkit
 /
 components
 /

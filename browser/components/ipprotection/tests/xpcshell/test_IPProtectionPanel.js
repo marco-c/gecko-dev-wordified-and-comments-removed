@@ -51,7 +51,7 @@ src
 /
 /
 /
-browser
+toolkit
 /
 components
 /

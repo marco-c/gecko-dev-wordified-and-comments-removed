@@ -90,6 +90,9 @@ urls
 search
 /
 index
+ipprotection
+/
+index
 components
 /
 normandy

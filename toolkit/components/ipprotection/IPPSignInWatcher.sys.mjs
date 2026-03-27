@@ -78,7 +78,7 @@ src
 /
 /
 /
-browser
+toolkit
 /
 components
 /

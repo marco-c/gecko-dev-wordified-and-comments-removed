@@ -78,7 +78,7 @@ src
 /
 /
 /
-browser
+toolkit
 /
 components
 /
@@ -100,7 +100,7 @@ src
 /
 /
 /
-browser
+toolkit
 /
 components
 /
@@ -122,7 +122,7 @@ src
 /
 /
 /
-browser
+toolkit
 /
 components
 /
@@ -144,7 +144,7 @@ src
 /
 /
 /
-browser
+toolkit
 /
 components
 /
