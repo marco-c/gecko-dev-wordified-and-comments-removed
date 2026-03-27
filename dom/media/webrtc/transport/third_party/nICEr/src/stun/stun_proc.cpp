@@ -590,6 +590,7 @@ unknown_attributes
 .
 num_attributes
 >
+=
 NR_STUN_MAX_UNKNOWN_ATTRIBUTES
 )
 break
