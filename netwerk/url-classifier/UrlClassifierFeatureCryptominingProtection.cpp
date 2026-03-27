@@ -37,7 +37,7 @@ include
 "
 mozilla
 /
-StaticPrefs_privacy
+ScopedPrefs
 .
 h
 "
@@ -363,11 +363,16 @@ aChannel
 if
 (
 !
-StaticPrefs
+ScopedPrefs
 :
 :
-privacy_trackingprotection_cryptomining_enabled
+BoolPrefScoped
 (
+ScopedPrefs
+:
+:
+PRIVACY_TRACKINGPROTECTION_CRYPTOMINING_ENABLED
+aChannel
 )
 )
 {
