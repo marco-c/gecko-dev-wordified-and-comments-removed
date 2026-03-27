@@ -2,5 +2,5 @@
 define
 DAV1D_VERSION
 "
-afd13d8906d92d6ca1e7ecd7bdf41b72e5af5500
+d69235dd804b24c04ed05639cffcc912cd6cfd75
 "
