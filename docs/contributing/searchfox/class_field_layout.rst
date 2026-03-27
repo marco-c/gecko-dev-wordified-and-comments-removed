@@ -237,7 +237,7 @@ classes
 :
 width
 :
-448px
+484px
 Class
 layout
 of
