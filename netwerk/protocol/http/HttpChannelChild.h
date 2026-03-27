@@ -1740,7 +1740,7 @@ mRecvOnStartRequestSentCalled
 1
 ;
 uint8_t
-mSuspendedByWaitingForPermissionCookie
+mSuspendedByWaitingForCookies
 :
 1
 ;
