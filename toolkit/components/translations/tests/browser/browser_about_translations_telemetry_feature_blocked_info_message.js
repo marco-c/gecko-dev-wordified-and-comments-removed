@@ -250,7 +250,7 @@ async
 await
 aboutTranslationsTestUtils
 .
-clickUnblockFeatureButton
+invokeUnblockFeatureButton
 (
 )
 ;

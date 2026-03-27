@@ -122,7 +122,7 @@ async
 await
 aboutTranslationsTestUtils
 .
-clickClearButton
+invokeClearButton
 (
 )
 ;
@@ -202,7 +202,7 @@ async
 await
 aboutTranslationsTestUtils
 .
-clickClearButton
+invokeClearButton
 (
 )
 ;

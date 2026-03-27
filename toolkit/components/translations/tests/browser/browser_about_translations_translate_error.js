@@ -228,7 +228,7 @@ async
 await
 aboutTranslationsTestUtils
 .
-clickTranslationErrorButton
+invokeTranslationErrorButton
 (
 )
 ;
@@ -327,7 +327,7 @@ async
 await
 aboutTranslationsTestUtils
 .
-clickTranslationErrorButton
+invokeTranslationErrorButton
 (
 )
 ;

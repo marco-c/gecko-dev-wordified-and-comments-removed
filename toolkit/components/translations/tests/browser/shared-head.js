@@ -18774,7 +18774,7 @@ error
 }
 }
 async
-clickSwapLanguagesButton
+invokeSwapLanguagesButton
 (
 )
 {
@@ -18834,7 +18834,7 @@ error
 }
 }
 async
-clickCopyButton
+invokeCopyButton
 (
 )
 {
@@ -18894,7 +18894,7 @@ error
 }
 }
 async
-clickTranslationErrorButton
+invokeTranslationErrorButton
 (
 )
 {
@@ -18954,7 +18954,7 @@ error
 }
 }
 async
-clickLanguageLoadErrorButton
+invokeLanguageLoadErrorButton
 (
 )
 {
@@ -19014,7 +19014,7 @@ error
 }
 }
 async
-clickUnblockFeatureButton
+invokeUnblockFeatureButton
 (
 )
 {
@@ -23258,7 +23258,7 @@ tabIndex
 }
 }
 async
-clickClearButton
+invokeClearButton
 (
 )
 {

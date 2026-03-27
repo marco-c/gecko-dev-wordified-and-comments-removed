@@ -742,7 +742,7 @@ async
 await
 aboutTranslationsTestUtils
 .
-clickClearButton
+invokeClearButton
 (
 )
 ;
@@ -2053,7 +2053,7 @@ async
 await
 aboutTranslationsTestUtils
 .
-clickTranslationErrorButton
+invokeTranslationErrorButton
 (
 )
 ;
@@ -2238,7 +2238,7 @@ async
 await
 aboutTranslationsTestUtils
 .
-clickTranslationErrorButton
+invokeTranslationErrorButton
 (
 )
 ;
