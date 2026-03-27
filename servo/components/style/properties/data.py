@@ -5777,6 +5777,21 @@ property_descriptors
 toml
 "
 )
+        
+self
+.
+view_transition_descriptors
+=
+self
+.
+_load_descriptors
+(
+"
+view_transition_descriptors
+.
+toml
+"
+)
     
 def
 declare_all_shorthand

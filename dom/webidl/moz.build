@@ -3723,6 +3723,11 @@ CSSVariableReferenceValue
 webidl
 "
 "
+CSSViewTransitionRule
+.
+webidl
+"
+"
 CustomElementRegistry
 .
 webidl

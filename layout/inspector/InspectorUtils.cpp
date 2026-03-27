@@ -3248,6 +3248,12 @@ StyleCssRuleType
 :
 AppearanceBase
 :
+case
+StyleCssRuleType
+:
+:
+ViewTransition
+:
 break
 ;
 }

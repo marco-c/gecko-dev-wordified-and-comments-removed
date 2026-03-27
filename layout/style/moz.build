@@ -918,6 +918,11 @@ CSSValue
 h
 "
 "
+CSSViewTransitionRule
+.
+h
+"
+"
 FontFace
 .
 h
@@ -1183,6 +1188,11 @@ cpp
 "
 "
 CSSSupportsRule
+.
+cpp
+"
+"
+CSSViewTransitionRule
 .
 cpp
 "

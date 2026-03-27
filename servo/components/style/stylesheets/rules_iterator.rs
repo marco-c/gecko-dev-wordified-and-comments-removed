@@ -466,6 +466,14 @@ PositionTry
 (
 _
 )
+|
+CssRule
+:
+:
+ViewTransition
+(
+_
+)
 =
 >
 None

@@ -3077,6 +3077,15 @@ PositionTry
 >
 {
 }
+ViewTransition
+(
+.
+.
+)
+=
+>
+{
+}
 CustomMedia
 (
 .

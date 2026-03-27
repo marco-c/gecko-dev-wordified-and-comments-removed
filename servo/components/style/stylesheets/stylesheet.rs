@@ -1801,6 +1801,15 @@ CounterStyle
 .
 .
 )
+|
+CssRule
+:
+:
+ViewTransition
+(
+.
+.
+)
 =
 >
 !

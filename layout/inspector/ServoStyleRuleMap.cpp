@@ -545,6 +545,12 @@ StyleCssRuleType
 :
 FontPaletteValues
 :
+case
+StyleCssRuleType
+:
+:
+ViewTransition
+:
 break
 ;
 }
@@ -994,6 +1000,12 @@ StyleCssRuleType
 :
 :
 FontPaletteValues
+:
+case
+StyleCssRuleType
+:
+:
+ViewTransition
 :
 break
 ;
