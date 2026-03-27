@@ -1138,7 +1138,7 @@ tabGroup
 title
 tabs
 =
-hashSetOf
+mutableListOf
 (
 )
 closed

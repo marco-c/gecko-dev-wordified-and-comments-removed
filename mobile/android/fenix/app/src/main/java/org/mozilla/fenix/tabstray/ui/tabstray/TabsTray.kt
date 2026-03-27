@@ -1987,6 +1987,10 @@ ExitSelectMode
 onAddToTabGroup
 =
 {
+/
+/
+Bug
+2017777
 }
 )
 }

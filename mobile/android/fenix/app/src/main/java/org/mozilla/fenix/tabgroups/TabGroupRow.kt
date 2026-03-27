@@ -859,7 +859,7 @@ TabGroupTheme
 default
 tabs
 =
-hashSetOf
+mutableListOf
 (
 tab
 tab2

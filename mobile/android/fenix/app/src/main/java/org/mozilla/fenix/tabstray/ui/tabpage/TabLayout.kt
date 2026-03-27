@@ -2109,8 +2109,7 @@ TabsTrayItemClickHandler
 (
 onClick
 =
-{
-}
+onItemClick
 )
 thumbnailSizePx
 =
@@ -3761,7 +3760,7 @@ TabGroupTheme
 Pink
 tabs
 =
-hashSetOf
+mutableListOf
 (
 createTab
 (

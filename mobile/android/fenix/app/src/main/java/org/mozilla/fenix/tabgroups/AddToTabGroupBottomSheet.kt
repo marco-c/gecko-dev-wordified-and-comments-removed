@@ -1298,7 +1298,7 @@ TabGroupTheme
 default
 tabs
 =
-hashSetOf
+mutableListOf
 (
 tab1
 )
@@ -1325,7 +1325,7 @@ TabGroupTheme
 default
 tabs
 =
-hashSetOf
+mutableListOf
 (
 tab1
 tab2
@@ -1353,7 +1353,7 @@ TabGroupTheme
 default
 tabs
 =
-hashSetOf
+mutableListOf
 (
 tab1
 tab2

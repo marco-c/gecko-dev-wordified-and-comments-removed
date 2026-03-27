@@ -1542,7 +1542,7 @@ aspectRatio
 *
 *
 A
-TabGroup
+ExpandedTabGroup
 has
 anywhere
 from
@@ -1730,7 +1730,7 @@ TabGroupTheme
 default
 tabs
 =
-hashSetOf
+mutableListOf
 (
 )
 closed
@@ -2334,7 +2334,7 @@ TabGroupTheme
 default
 tabs
 =
-hashSetOf
+mutableListOf
 (
 )
 closed

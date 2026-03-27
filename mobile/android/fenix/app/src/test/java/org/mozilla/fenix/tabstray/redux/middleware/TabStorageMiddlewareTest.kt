@@ -882,7 +882,7 @@ theme
 )
 tabs
 =
-hashSetOf
+mutableListOf
 (
 expectedDisplayTab
 )
@@ -903,6 +903,16 @@ tabGroups
 listOf
 (
 expectedTabGroup
+)
+config
+=
+TabsTrayState
+.
+TabsTrayConfig
+(
+tabGroupsEnabled
+=
+false
 )
 )
 val

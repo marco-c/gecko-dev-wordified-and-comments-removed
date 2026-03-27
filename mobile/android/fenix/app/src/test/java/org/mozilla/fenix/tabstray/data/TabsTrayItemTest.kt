@@ -165,7 +165,7 @@ TabGroupTheme
 Yellow
 tabs
 =
-hashSetOf
+mutableListOf
 (
 )
 )
@@ -220,7 +220,7 @@ TabGroupTheme
 Yellow
 tabs
 =
-hashSetOf
+mutableListOf
 (
 createTab
 (
@@ -286,7 +286,7 @@ TabGroupTheme
 Yellow
 tabs
 =
-hashSetOf
+mutableListOf
 (
 createTab
 (
@@ -364,7 +364,7 @@ TabGroupTheme
 Yellow
 tabs
 =
-hashSetOf
+mutableListOf
 (
 createTab
 (
@@ -454,7 +454,7 @@ TabGroupTheme
 Yellow
 tabs
 =
-hashSetOf
+mutableListOf
 (
 createTab
 (
@@ -556,7 +556,7 @@ TabGroupTheme
 Yellow
 tabs
 =
-List
+MutableList
 (
 100
 )
@@ -574,10 +574,6 @@ org
 "
 )
 }
-.
-toHashSet
-(
-)
 )
 val
 thumbnails
@@ -631,7 +627,7 @@ TabGroupTheme
 Yellow
 tabs
 =
-List
+MutableList
 (
 100
 )
@@ -649,10 +645,6 @@ org
 "
 )
 }
-.
-toHashSet
-(
-)
 )
 val
 thumbnails
@@ -732,7 +724,7 @@ TabGroupTheme
 Yellow
 tabs
 =
-hashSetOf
+mutableListOf
 (
 tab
 )

@@ -175,7 +175,10 @@ The
 list
 of
 normal
-tabs
+[
+TabsTrayItem
+]
+s
 that
 do
 not

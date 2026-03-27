@@ -637,7 +637,7 @@ TabGroupTheme
 Yellow
 tabs
 =
-hashSetOf
+mutableListOf
 (
 createTab
 (
