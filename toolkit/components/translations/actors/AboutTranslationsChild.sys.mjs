@@ -880,7 +880,7 @@ AT_log
 AT_logError
 "
 "
-AT_getAppLocale
+AT_getAppLocaleAsBCP47
 "
 "
 AT_getSupportedLanguages
@@ -1070,7 +1070,7 @@ Locale
 }
 *
 /
-AT_getAppLocale
+AT_getAppLocaleAsBCP47
 (
 )
 {
