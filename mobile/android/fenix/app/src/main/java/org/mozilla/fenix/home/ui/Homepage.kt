@@ -1333,6 +1333,9 @@ topSites
 topSiteColors
 =
 topSiteColors
+showHeader
+=
+showTopSitesHeader
 interactor
 =
 interactor
@@ -1771,6 +1774,11 @@ TopSiteColors
 colors
 (
 )
+showHeader
+:
+Boolean
+=
+true
 interactor
 :
 TopSiteInteractor
@@ -1781,6 +1789,11 @@ onTopSitesItemBound
 -
 >
 Unit
+)
+{
+if
+(
+showHeader
 )
 {
 HomeSectionHeader
@@ -1833,6 +1846,7 @@ height
 dp
 )
 )
+}
 TopSites
 (
 topSites
@@ -2691,6 +2705,9 @@ false
 bottomPadding
 =
 68
+showTopSitesHeader
+=
+true
 )
 interactor
 =
@@ -2883,6 +2900,9 @@ false
 bottomPadding
 =
 68
+showTopSitesHeader
+=
+true
 )
 interactor
 =
@@ -3075,6 +3095,9 @@ false
 bottomPadding
 =
 68
+showTopSitesHeader
+=
+true
 )
 interactor
 =
@@ -3267,6 +3290,9 @@ false
 bottomPadding
 =
 68
+showTopSitesHeader
+=
+true
 )
 interactor
 =

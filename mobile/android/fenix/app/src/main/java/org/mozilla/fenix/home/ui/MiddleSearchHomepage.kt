@@ -1094,6 +1094,9 @@ false
 bottomPadding
 =
 68
+showTopSitesHeader
+=
+true
 )
 interactor
 =
