@@ -1402,7 +1402,7 @@ TranslationsParent
 .
 AIFeature
 .
-disable
+block
 (
 )
 ;

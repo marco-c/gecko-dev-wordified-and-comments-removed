@@ -5357,6 +5357,17 @@ isManagedByPolicy
 )
 {
 return
+(
+Services
+.
+prefs
+.
+prefIsLocked
+(
+PREF_AI_CONTROL_SMARTWINDOW
+)
+|
+|
 Services
 .
 prefs
@@ -5364,6 +5375,7 @@ prefs
 prefIsLocked
 (
 PREF_SMARTWINDOW_ENABLED
+)
 )
 ;
 }
@@ -5392,7 +5404,7 @@ void
 *
 /
 async
-reset
+makeAvailable
 (
 )
 {
@@ -5484,7 +5496,7 @@ void
 *
 /
 async
-disable
+block
 (
 )
 {

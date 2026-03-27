@@ -775,11 +775,15 @@ visible
 deps
 =
 >
+{
+return
 deps
 .
 aiControlDefaultToggle
 .
 value
+;
+}
 }
 )
 ;
@@ -899,7 +903,7 @@ blocked
 .
 OnDeviceModelManager
 .
-disable
+block
 (
 feature
 )
@@ -938,7 +942,7 @@ enabled
 .
 OnDeviceModelManager
 .
-reset
+makeAvailable
 (
 feature
 )
@@ -2430,7 +2434,7 @@ available
 {
 OnDeviceModelManager
 .
-reset
+makeAvailable
 (
 feature
 )
@@ -2468,7 +2472,7 @@ blocked
 {
 OnDeviceModelManager
 .
-disable
+block
 (
 feature
 )
@@ -2991,7 +2995,7 @@ blocked
 {
 OnDeviceModelManager
 .
-disable
+block
 (
 this
 .
@@ -3014,7 +3018,7 @@ available
 {
 OnDeviceModelManager
 .
-reset
+makeAvailable
 (
 this
 .

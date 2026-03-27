@@ -486,7 +486,7 @@ resolves
 await
 PdfJsGuessAltTextFeature
 .
-disable
+block
 (
 )
 ;
