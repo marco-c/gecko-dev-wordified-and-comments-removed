@@ -549,6 +549,12 @@ EndianUtils
 .
 h
 :
+macros
+:
+-
+MOZ_LITTLE_ENDIAN
+-
+MOZ_BIG_ENDIAN
 functions
 :
 -
