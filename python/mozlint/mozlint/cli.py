@@ -2805,17 +2805,18 @@ fpath
             
 suffix
 =
-os
+"
+"
 .
-path
-.
-splitext
+join
+(
+Path
 (
 fpath
 )
-[
-1
-]
+.
+suffixes
+)
         
 )
         
