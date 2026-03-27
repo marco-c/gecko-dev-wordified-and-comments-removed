@@ -378,6 +378,13 @@ js
 ]
 [
 "
+test_storage_ext_percentile
+.
+js
+"
+]
+[
+"
 test_storage_ext_vec
 .
 js
