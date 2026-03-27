@@ -570,6 +570,11 @@ WasmBCE
 cpp
 "
 "
+WasmRefTypeAnalysis
+.
+cpp
+"
+"
 XrayJitInfo
 .
 cpp

@@ -478,6 +478,15 @@ h
 #
 include
 "
+jit
+/
+WasmRefTypeAnalysis
+.
+h
+"
+#
+include
+"
 js
 /
 Printf
