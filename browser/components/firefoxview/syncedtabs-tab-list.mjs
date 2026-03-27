@@ -455,7 +455,7 @@ hasPopup
 >
 <
 /
-syncedtabs
+fxview
 -
 tab
 -
