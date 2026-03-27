@@ -5615,9 +5615,6 @@ com
 expires
 :
 never
-disabled
-:
-true
 send_in_pings
 :
 *
