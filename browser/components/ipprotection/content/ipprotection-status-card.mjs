@@ -952,6 +952,11 @@ excluded
 -
 site
 "
+buttonType
+:
+"
+primary
+"
 iconSrc
 :
 "
@@ -1023,6 +1028,11 @@ turn
 vpn
 -
 off
+"
+buttonType
+:
+"
+primary
 "
 iconSrc
 :
