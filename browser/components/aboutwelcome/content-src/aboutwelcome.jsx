@@ -570,6 +570,13 @@ props
 .
 aria_role
 }
+requireAction
+=
+{
+props
+.
+requireAction
+}
 gateInitialPaint
 =
 {
