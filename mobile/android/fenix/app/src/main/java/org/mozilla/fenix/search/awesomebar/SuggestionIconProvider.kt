@@ -937,11 +937,11 @@ AppCompatResources
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
-ic_history
+mozac_ic_history_24
 )
 ?
 .
