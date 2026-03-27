@@ -4336,6 +4336,12 @@ oxcf
 tune_cfg
 .
 tuning
+cpi
+-
+>
+oxcf
+.
+mode
 )
 ;
 av1_set_segdata

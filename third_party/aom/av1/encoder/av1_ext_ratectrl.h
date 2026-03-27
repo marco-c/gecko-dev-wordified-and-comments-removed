@@ -52,6 +52,9 @@ ready
 int
 ext_rdmult
 ;
+int
+use_delta_q
+;
 aom_rc_model_t
 model
 ;

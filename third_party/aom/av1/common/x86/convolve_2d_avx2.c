@@ -463,7 +463,7 @@ CONVOLVE_SR_VER_FILTER_8TAP_W4
 }
 static
 void
-convolve_2d_sr_general_avx2
+convolve_2d_sr_avx2
 (
 const
 uint8_t
@@ -1424,7 +1424,7 @@ conv_params
 }
 else
 {
-convolve_2d_sr_general_avx2
+convolve_2d_sr_avx2
 (
 src
 src_stride

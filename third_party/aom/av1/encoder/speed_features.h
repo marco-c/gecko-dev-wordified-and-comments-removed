@@ -1773,6 +1773,9 @@ bias_warp_mode_rd_scale_pct
 float
 bias_obmc_mode_rd_scale_pct
 ;
+bool
+skip_comp_eval_using_top_comp_avg_est_rd
+;
 }
 INTER_MODE_SPEED_FEATURES
 ;

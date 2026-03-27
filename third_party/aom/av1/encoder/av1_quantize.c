@@ -6600,6 +6600,12 @@ oxcf
 tune_cfg
 .
 tuning
+cpi
+-
+>
+oxcf
+.
+mode
 )
 ;
 const
@@ -7021,10 +7027,6 @@ q
 {
 if
 (
-is_allintra
-&
-&
-(
 tuning
 =
 =
@@ -7035,7 +7037,6 @@ tuning
 =
 =
 AOM_TUNE_SSIMULACRA2
-)
 )
 {
 int
@@ -7398,11 +7399,6 @@ int
 ;
 if
 (
-is_allintra
-)
-{
-if
-(
 tuning
 =
 =
@@ -7475,6 +7471,10 @@ aom_get_qmlevel_allintra
 }
 }
 else
+if
+(
+is_allintra
+)
 {
 get_luma_qmlevel
 =
@@ -7484,7 +7484,6 @@ get_chroma_qmlevel
 =
 aom_get_qmlevel_allintra
 ;
-}
 }
 else
 {

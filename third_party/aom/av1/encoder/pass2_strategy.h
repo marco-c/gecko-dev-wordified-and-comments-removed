@@ -181,6 +181,9 @@ int
 num_fpstats_required
 int
 project_gfu_boost
+const
+bool
+scale_max_boost
 )
 ;
 void

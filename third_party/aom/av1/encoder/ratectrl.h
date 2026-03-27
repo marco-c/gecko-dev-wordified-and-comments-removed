@@ -522,9 +522,6 @@ gfu_boost
 int
 gfu_boost_average
 ;
-bool
-accumulate_stats_stage
-;
 int
 gf_intervals
 [

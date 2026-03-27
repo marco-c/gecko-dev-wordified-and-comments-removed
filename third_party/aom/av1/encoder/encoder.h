@@ -581,17 +581,6 @@ aom_rational64_t
 ;
 enum
 {
-GOOD
-REALTIME
-ALLINTRA
-}
-UENUM1BYTE
-(
-MODE
-)
-;
-enum
-{
 FRAMEFLAGS_KEY
 =
 1
@@ -5291,6 +5280,9 @@ intrabc_used
 ;
 int
 prune_ref_frame_mask
+;
+int
+keep_single_ref_frame_mask
 ;
 AV1LrStruct
 lr_ctxt

@@ -473,6 +473,9 @@ unsigned
 int
 pyramid_level
 ;
+int
+base_qindex
+;
 MV_REF
 *
 mvs

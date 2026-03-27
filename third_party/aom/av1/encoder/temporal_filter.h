@@ -42,11 +42,11 @@ ThreadData
 #
 define
 BH
-32
+64
 #
 define
 BW
-32
+64
 #
 define
 TF_BLOCK_SIZE
@@ -55,6 +55,10 @@ BLOCK_64X64
 define
 TF_WINDOW_LENGTH
 5
+#
+define
+NUM_16X16
+16
 static
 const
 double
@@ -393,6 +397,10 @@ int
 q_index
 aom_bit_depth_t
 bit_depth
+int
+enable_overlay
+int
+is_second_arf
 )
 ;
 static
