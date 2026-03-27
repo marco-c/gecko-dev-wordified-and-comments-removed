@@ -1175,10 +1175,10 @@ nsIScriptError
 warningFlag
 category
 doc
-nsContentUtils
+PropertiesFile
 :
 :
-eNECKO_PROPERTIES
+NECKO_PROPERTIES
 message
 params
 )

@@ -5192,10 +5192,10 @@ mWindow
 GetDoc
 (
 )
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 RegisterProtocolHandlerPrivateBrowsingWarning
 "
@@ -10796,10 +10796,10 @@ Media
 "
 _ns
 doc
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 MediaEMEInsecureContextDeprecatedWarning
 "

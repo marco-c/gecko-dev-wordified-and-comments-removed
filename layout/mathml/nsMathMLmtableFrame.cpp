@@ -719,10 +719,10 @@ content
 OwnerDoc
 (
 )
-nsContentUtils
+PropertiesFile
 :
 :
-eMATHML_PROPERTIES
+MATHML_PROPERTIES
 "
 AttributeParsingError
 "

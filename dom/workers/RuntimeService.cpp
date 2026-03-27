@@ -5861,10 +5861,10 @@ warningFlag
 DOM
 "
 _ns
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 HittingMaxWorkersPerDomain2
 "

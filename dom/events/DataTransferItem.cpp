@@ -2111,10 +2111,10 @@ nsContentUtils
 :
 GetLocalizedString
 (
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 aFileNameKey
 fileName
 )

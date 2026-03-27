@@ -3766,7 +3766,7 @@ return
 row
 -
 >
-RemoveFromParent
+Remove
 (
 )
 ;

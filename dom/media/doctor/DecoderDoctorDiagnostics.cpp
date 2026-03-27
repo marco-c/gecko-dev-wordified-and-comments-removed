@@ -2204,10 +2204,10 @@ Media
 "
 _ns
 aDocument
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 aConsoleStringId
 aParams
 )

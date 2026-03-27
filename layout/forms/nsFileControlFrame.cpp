@@ -558,10 +558,10 @@ nsContentUtils
 :
 GetMaybeLocalizedString
 (
-nsContentUtils
+PropertiesFile
 :
 :
-eFORMS_PROPERTIES
+FORMS_PROPERTIES
 labelKey
 aDoc
 buttonTxt

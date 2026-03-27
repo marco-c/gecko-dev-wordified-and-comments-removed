@@ -400,10 +400,10 @@ nsContentUtils
 :
 GetLocalizedString
 (
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 aKey
 result
 )

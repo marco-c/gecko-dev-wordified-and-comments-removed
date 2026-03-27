@@ -2930,9 +2930,6 @@ const
 nsCString
 &
 aCategory
-nsContentUtils
-:
-:
 PropertiesFile
 aFile
 const
@@ -3041,9 +3038,6 @@ const
 nsCString
 &
 aCategory
-nsContentUtils
-:
-:
 PropertiesFile
 aFile
 const
@@ -3179,9 +3173,6 @@ nsCString
 mCategory
 ;
 const
-nsContentUtils
-:
-:
 PropertiesFile
 mFile
 ;
@@ -26619,9 +26610,6 @@ const
 nsCString
 &
 aCategory
-nsContentUtils
-:
-:
 PropertiesFile
 aFile
 const

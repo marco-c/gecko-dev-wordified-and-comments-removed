@@ -334,10 +334,10 @@ nsContentUtils
 :
 GetLocalizedString
 (
-nsContentUtils
+PropertiesFile
 :
 :
-eBRAND_PROPERTIES
+BRAND_PROPERTIES
 "
 brandFullName
 "

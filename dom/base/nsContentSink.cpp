@@ -3176,10 +3176,10 @@ Layout
 "
 _ns
 mDocument
-nsContentUtils
+PropertiesFile
 :
 :
-eLAYOUT_PROPERTIES
+LAYOUT_PROPERTIES
 "
 ForcedLayoutStart
 "

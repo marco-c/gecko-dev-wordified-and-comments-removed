@@ -16234,10 +16234,10 @@ _ns
 OwnerDoc
 (
 )
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 RemovedFullscreenElement
 "

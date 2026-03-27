@@ -3210,10 +3210,10 @@ _ns
 OwnerDoc
 (
 )
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 SelectOptionsLengthAssignmentWarning
 "
@@ -7011,10 +7011,10 @@ nsContentUtils
 :
 GetMaybeLocalizedString
 (
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 FormValidationSelectMissing
 "

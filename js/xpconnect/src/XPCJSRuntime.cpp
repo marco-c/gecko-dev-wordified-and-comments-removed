@@ -148,6 +148,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+NodeBinding
+.
+h
+"
+#
+include
+"
 nsIRunnable
 .
 h

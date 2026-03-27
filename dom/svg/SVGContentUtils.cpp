@@ -2067,10 +2067,10 @@ SVG
 "
 _ns
 doc
-nsContentUtils
+PropertiesFile
 :
 :
-eSVG_PROPERTIES
+SVG_PROPERTIES
 aWarning
 aParams
 )

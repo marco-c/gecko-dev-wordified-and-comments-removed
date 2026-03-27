@@ -757,10 +757,10 @@ nsIScriptError
 :
 warningFlag
 ANTITRACKING_CONSOLE_CATEGORY
-nsContentUtils
+PropertiesFile
 :
 :
-eNECKO_PROPERTIES
+NECKO_PROPERTIES
 uri
 0
 0

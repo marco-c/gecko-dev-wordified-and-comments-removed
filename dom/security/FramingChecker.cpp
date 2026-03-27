@@ -283,10 +283,10 @@ Frame
 Options
 "
 _ns
-nsContentUtils
+PropertiesFile
 :
 :
-eSECURITY_PROPERTIES
+SECURITY_PROPERTIES
 spec
 0
 0

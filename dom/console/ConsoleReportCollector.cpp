@@ -97,9 +97,6 @@ const
 nsACString
 &
 aCategory
-nsContentUtils
-:
-:
 PropertiesFile
 aPropertiesFile
 const
@@ -914,9 +911,12 @@ mErrorFlags
 report
 .
 mCategory
+uint32_t
+(
 report
 .
 mPropertiesFile
+)
 report
 .
 mSourceFileURI

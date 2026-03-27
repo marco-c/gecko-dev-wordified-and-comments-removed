@@ -82,10 +82,10 @@ nsContentUtils
 :
 GetMaybeLocalizedString
 (
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 FormValidationCheckboxMissing
 "
@@ -116,10 +116,10 @@ nsContentUtils
 :
 GetMaybeLocalizedString
 (
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 FormValidationRadioMissing
 "

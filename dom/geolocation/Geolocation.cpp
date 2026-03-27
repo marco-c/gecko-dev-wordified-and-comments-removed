@@ -1395,10 +1395,10 @@ nsContentUtils
 :
 GetLocalizedString
 (
-nsContentUtils
+PropertiesFile
 :
 :
-eBRAND_PROPERTIES
+BRAND_PROPERTIES
 "
 brandShortName
 "
@@ -5715,10 +5715,10 @@ DOM
 "
 _ns
 doc
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 GeolocationInsecureRequestIsForbidden
 "

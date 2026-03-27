@@ -263,10 +263,10 @@ Audio
 "
 _ns
 document
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 MediaStreamAudioSourceNodeDifferentRate
 "
@@ -765,10 +765,10 @@ Audio
 "
 _ns
 doc
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 CrossOriginErrorString
 (
 )

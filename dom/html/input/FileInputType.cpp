@@ -85,10 +85,10 @@ nsContentUtils
 :
 GetMaybeLocalizedString
 (
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 FormValidationFileMissing
 "

@@ -28514,10 +28514,10 @@ _ns
 GetExtantDocument
 (
 )
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 UnknownProtocolNavigationPrevented
 "
@@ -43089,10 +43089,10 @@ nsContentUtils
 :
 GetLocalizedString
 (
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 ExternalProtocolFrameBlockedNoUserActivation
 "

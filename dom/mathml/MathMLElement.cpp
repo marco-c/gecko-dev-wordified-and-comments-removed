@@ -233,10 +233,10 @@ MathML
 "
 _ns
 aDocument
-nsContentUtils
+PropertiesFile
 :
 :
-eMATHML_PROPERTIES
+MATHML_PROPERTIES
 "
 LengthParsingError
 "
@@ -291,10 +291,10 @@ MathML
 _ns
 &
 aDocument
-nsContentUtils
+PropertiesFile
 :
 :
-eMATHML_PROPERTIES
+MATHML_PROPERTIES
 "
 AttributeParsingErrorNoTag
 "

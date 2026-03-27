@@ -454,10 +454,10 @@ HTML_PARSER__DOCTYPE
 "
 _ns
 mDocument
-nsContentUtils
+PropertiesFile
 :
 :
-eHTMLPARSER_PROPERTIES
+HTMLPARSER_PROPERTIES
 errMsgId
 )
 ;

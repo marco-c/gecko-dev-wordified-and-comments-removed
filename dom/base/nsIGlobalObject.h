@@ -76,13 +76,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsHashKeys
 .
 h
@@ -155,6 +148,12 @@ nsIURI
 ;
 class
 nsPIDOMWindowInner
+;
+enum
+class
+PropertiesFile
+:
+uint8_t
 ;
 namespace
 mozilla
@@ -1298,9 +1297,6 @@ const
 nsCString
 &
 aCategory
-nsContentUtils
-:
-:
 PropertiesFile
 aFile
 const

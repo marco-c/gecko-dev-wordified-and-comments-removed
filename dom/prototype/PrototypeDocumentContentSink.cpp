@@ -2963,10 +2963,10 @@ Document
 "
 _ns
 nullptr
-nsContentUtils
+PropertiesFile
 :
 :
-eXUL_PROPERTIES
+XUL_PROPERTIES
 "
 PINotInProlog2
 "

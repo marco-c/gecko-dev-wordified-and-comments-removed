@@ -1733,10 +1733,10 @@ DOM
 "
 _ns
 mDocument
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 UnusedLinkPreloadPending
 "

@@ -389,10 +389,10 @@ DOM
 "
 _ns
 aRequestorDoc
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 NotificationsInsecureRequestIsForbidden
 "
@@ -521,10 +521,10 @@ DOM
 "
 _ns
 aRequestorDoc
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 NotificationsCrossOriginIframeRequestIsForbidden
 "

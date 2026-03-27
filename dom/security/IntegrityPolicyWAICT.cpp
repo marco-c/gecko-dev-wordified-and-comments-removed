@@ -2329,10 +2329,10 @@ elem
 .
 mCategory
 doc
-nsContentUtils
+PropertiesFile
 :
 :
-eSECURITY_PROPERTIES
+SECURITY_PROPERTIES
 elem
 .
 mMessageName
@@ -2459,10 +2459,10 @@ ReportToConsole
 aErrorFlags
 aCategory
 doc
-nsContentUtils
+PropertiesFile
 :
 :
-eSECURITY_PROPERTIES
+SECURITY_PROPERTIES
 aMessageName
 aParams
 )

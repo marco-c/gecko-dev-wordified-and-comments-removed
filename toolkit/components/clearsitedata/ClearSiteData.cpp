@@ -1616,10 +1616,10 @@ Site
 Data
 "
 _ns
-nsContentUtils
+PropertiesFile
 :
 :
-eSECURITY_PROPERTIES
+SECURITY_PROPERTIES
 uri
 0
 0

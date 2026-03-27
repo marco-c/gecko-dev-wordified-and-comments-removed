@@ -2973,10 +2973,10 @@ Animation
 "
 _ns
 aDoc
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 InvalidKeyframePropertyValue
 "

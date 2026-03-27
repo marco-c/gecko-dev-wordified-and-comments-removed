@@ -714,10 +714,10 @@ _ns
 OwnerDoc
 (
 )
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 ScriptSourceInvalidUri
 "
@@ -770,10 +770,10 @@ _ns
 OwnerDoc
 (
 )
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 ScriptSourceEmpty
 "

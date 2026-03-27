@@ -59,9 +59,6 @@ const
 nsACString
 &
 aCategory
-nsContentUtils
-:
-:
 PropertiesFile
 aPropertiesFile
 const
@@ -201,9 +198,6 @@ const
 nsACString
 &
 aCategory
-nsContentUtils
-:
-:
 PropertiesFile
 aPropertiesFile
 const
@@ -274,9 +268,6 @@ nsCString
 mCategory
 ;
 const
-nsContentUtils
-:
-:
 PropertiesFile
 mPropertiesFile
 ;

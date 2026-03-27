@@ -765,10 +765,10 @@ DOM
 "
 _ns
 aDocument
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 PreviousInterceptCallOptionOverriddenWarning
 "

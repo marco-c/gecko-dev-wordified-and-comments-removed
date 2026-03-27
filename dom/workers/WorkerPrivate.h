@@ -377,13 +377,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsIChannel
 .
 h
@@ -1572,9 +1565,6 @@ const
 nsCString
 &
 aCategory
-nsContentUtils
-:
-:
 PropertiesFile
 aFile
 const

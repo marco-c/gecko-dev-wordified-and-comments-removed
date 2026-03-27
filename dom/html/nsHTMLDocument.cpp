@@ -3096,10 +3096,10 @@ DOM
 "
 _ns
 this
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 DocumentShadowingBlockedWarning
 "

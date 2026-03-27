@@ -1554,10 +1554,10 @@ nsContentUtils
 FormatLocalizedString
 (
 message
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 ServiceWorkerScopePathMismatch
 "

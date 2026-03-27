@@ -494,10 +494,10 @@ Worker
 Interception
 "
 _ns
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 aScriptSpec
 aLineNumber
 aColumnNumber

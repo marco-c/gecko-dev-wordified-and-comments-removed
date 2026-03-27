@@ -5402,9 +5402,6 @@ const
 nsCString
 &
 aCategory
-nsContentUtils
-:
-:
 PropertiesFile
 aFile
 const

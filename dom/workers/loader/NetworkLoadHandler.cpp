@@ -400,10 +400,10 @@ DOM
 "
 _ns
 parentDoc
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 WorkerScriptTooLargeError
 "
@@ -1090,10 +1090,10 @@ DOM
 "
 _ns
 parentDoc
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 EmptyWorkerSourceWarning
 "
