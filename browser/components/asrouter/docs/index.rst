@@ -734,6 +734,9 @@ browsing
 multi
 -
 message
+menu
+-
+message
 Detailed
 Docs
 -
