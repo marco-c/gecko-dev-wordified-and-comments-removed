@@ -72,6 +72,12 @@ import
 BuildEnvironmentNotFoundException
 MozbuildObject
 from
+mozbuild
+.
+util
+import
+set_taskcluster_root_url
+from
 .
 tasks
 import
@@ -1978,6 +1984,10 @@ util
 import
 taskcluster
         
+set_taskcluster_root_url
+(
+)
+        
 branch
 =
 "
@@ -2242,6 +2252,10 @@ taskgraph
 util
 import
 taskcluster
+        
+set_taskcluster_root_url
+(
+)
         
 if
 use_existing_tasks
