@@ -220,6 +220,11 @@ nsILimitedAccessFeature
 idl
 "
 "
+nsISecondaryTile
+.
+idl
+"
+"
 nsIWindowsShellService
 .
 idl

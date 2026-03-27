@@ -34,6 +34,17 @@ void
 result
 )
 ;
+nsresult
+shell_windows_new_secondary_tile_service
+(
+REFNSIID
+iid
+void
+*
+*
+result
+)
+;
 }
 ;
 #

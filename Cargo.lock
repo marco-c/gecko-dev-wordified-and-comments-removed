@@ -36726,6 +36726,9 @@ base64
 log
 "
 "
+moz_task
+"
+"
 nserror
 "
 "
@@ -36733,6 +36736,11 @@ nsstring
 "
 "
 sha2
+"
+"
+thin
+-
+vec
 "
 "
 windows
