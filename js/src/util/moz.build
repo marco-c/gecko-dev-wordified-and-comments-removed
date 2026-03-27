@@ -76,6 +76,11 @@ CompleteFile
 cpp
 "
 "
+DefaultLocale
+.
+cpp
+"
+"
 DumpFunctions
 .
 cpp
