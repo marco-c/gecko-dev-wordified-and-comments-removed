@@ -3303,6 +3303,15 @@ string
 preferences_debug_settings_reset_defaults
 )
 .
+setMessage
+(
+R
+.
+string
+.
+preferences_debug_settings_reset_defaults_message
+)
+.
 setPositiveButton
 (
 R
