@@ -4623,10 +4623,7 @@ aElement
 GetBaseURI
 (
 )
-StyleSanitizationKind
-:
-:
-Standard
+aSanitizationKind
 )
 ;
 RemoveAllAttributesFromDescendants
