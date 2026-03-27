@@ -30087,9 +30087,6 @@ rtl_operator_mirroring
 var
 =
 mathvariant_styling_fallback
-shf
-=
-math_shift
 acc
 =
 operator_dictionary_accent

@@ -71,7 +71,6 @@ MathMLPresentationFlag
 :
 uint8_t
 {
-Compressed
 StretchAllChildrenVertically
 StretchAllChildrenHorizontally
 SpaceLike
