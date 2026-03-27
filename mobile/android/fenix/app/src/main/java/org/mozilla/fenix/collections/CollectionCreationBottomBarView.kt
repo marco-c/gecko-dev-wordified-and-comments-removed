@@ -282,11 +282,11 @@ context
 .
 getDrawableWithTint
 (
-R
+iconsR
 .
 drawable
 .
-ic_close
+mozac_ic_cross_24
 ContextCompat
 .
 getColor
