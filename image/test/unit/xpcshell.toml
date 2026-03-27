@@ -233,6 +233,13 @@ js
 ]
 [
 "
+test_encoder_png_hdr
+.
+js
+"
+]
+[
+"
 test_imgtools
 .
 js
