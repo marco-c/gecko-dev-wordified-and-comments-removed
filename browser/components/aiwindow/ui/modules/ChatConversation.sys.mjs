@@ -2140,6 +2140,7 @@ prompt
 *
 param
 {
+?
 URL
 }
 pageUrl
@@ -3003,10 +3004,12 @@ typedef
 {
 *
 (
-depsOverride
-?
+contextMentions
 :
-object
+Array
+<
+ContextWebsite
+>
 )
 =
 >
@@ -3123,6 +3126,7 @@ realTimeInfoMapping
 await
 getRealTimeMapping
 (
+contextMentions
 )
 ;
 if
