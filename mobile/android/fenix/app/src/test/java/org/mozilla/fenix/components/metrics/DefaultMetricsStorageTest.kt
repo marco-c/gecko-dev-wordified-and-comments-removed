@@ -932,10 +932,10 @@ been
 used
 for
 3
+non
+-
+consecutive
 days
-but
-not
-consecutively
 WHEN
 checked
 for
@@ -946,7 +946,6 @@ THEN
 event
 will
 be
-not
 sent
 (
 )
@@ -1026,7 +1025,7 @@ GrowthData
 .
 ConversionEvent4
 )
-assertFalse
+assertTrue
 (
 result
 )
