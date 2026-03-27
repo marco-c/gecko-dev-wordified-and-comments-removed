@@ -379,7 +379,7 @@ MediaControlKey
 :
 :
 Seekto
-SeekDetails
+MediaControlActionParams
 (
 changePosEvent
 .

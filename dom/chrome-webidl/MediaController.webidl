@@ -109,6 +109,15 @@ seekto
 "
 stop
 "
+"
+mute
+"
+"
+unmute
+"
+"
+setvolume
+"
 }
 ;
 /
