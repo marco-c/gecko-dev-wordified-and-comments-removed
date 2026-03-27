@@ -288,6 +288,8 @@ OwningUTF8StringOrResourceId
 >
 &
 aResourceIds
+bool
+aIsSync
 const
 Optional
 <
@@ -420,7 +422,7 @@ localization_new_with_locales
 (
 &
 ffiResourceIds
-false
+aIsSync
 aRegistry
 .
 Value
@@ -454,7 +456,7 @@ localization_new_with_locales
 (
 &
 ffiResourceIds
-false
+aIsSync
 nullptr
 locales
 .
@@ -496,7 +498,7 @@ new
 DOMLocalization
 (
 global
-false
+aIsSync
 raw
 )
 )
