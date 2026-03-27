@@ -1441,7 +1441,14 @@ name
 extra
 )
             
-else
+elif
+not
+getattr
+(
+command_namespace
+name
+None
+)
 :
                 
 setattr
