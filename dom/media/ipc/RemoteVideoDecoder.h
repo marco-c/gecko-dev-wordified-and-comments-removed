@@ -54,11 +54,13 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 KnowsCompositorVideo
 override
 )
+RefPtr
+<
 layers
 :
 :
 TextureForwarder
-*
+>
 GetTextureForwarder
 (
 )

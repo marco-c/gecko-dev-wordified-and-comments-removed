@@ -171,11 +171,13 @@ using
 namespace
 gfx
 ;
+RefPtr
+<
 layers
 :
 :
 TextureForwarder
-*
+>
 KnowsCompositorVideo
 :
 :
@@ -184,7 +186,6 @@ GetTextureForwarder
 )
 {
 auto
-*
 vbc
 =
 VideoBridgeChild
@@ -228,6 +229,10 @@ return
 GetTextureForwarder
 (
 )
+.
+get
+(
+)
 ;
 }
 already_AddRefed
@@ -248,8 +253,7 @@ TextureFactoryIdentifier
 aIdentifier
 )
 {
-VideoBridgeChild
-*
+auto
 child
 =
 VideoBridgeChild

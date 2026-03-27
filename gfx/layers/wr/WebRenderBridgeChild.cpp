@@ -1902,8 +1902,10 @@ Manager
 )
 ;
 }
+RefPtr
+<
 TextureForwarder
-*
+>
 WebRenderBridgeChild
 :
 :

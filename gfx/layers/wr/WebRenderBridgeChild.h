@@ -425,8 +425,10 @@ return
 mPipelineId
 ;
 }
+RefPtr
+<
 TextureForwarder
-*
+>
 GetTextureForwarder
 (
 )

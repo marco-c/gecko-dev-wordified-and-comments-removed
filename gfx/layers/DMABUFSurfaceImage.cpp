@@ -453,6 +453,10 @@ aKnowsCompositor
 GetTextureForwarder
 (
 )
+.
+get
+(
+)
 )
 ;
 }

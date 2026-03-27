@@ -904,6 +904,10 @@ aAllocator
 GetTextureForwarder
 (
 )
+.
+get
+(
+)
 :
 nullptr
 descriptor

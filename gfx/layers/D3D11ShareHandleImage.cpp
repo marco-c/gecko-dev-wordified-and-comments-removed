@@ -855,6 +855,10 @@ aAllocator
 GetTextureForwarder
 (
 )
+.
+get
+(
+)
 )
 ;
 }

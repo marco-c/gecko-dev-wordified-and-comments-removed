@@ -300,8 +300,10 @@ VideoBridgeChild
 =
 default
 ;
+RefPtr
+<
 VideoBridgeChild
-*
+>
 VideoBridgeChild
 :
 :

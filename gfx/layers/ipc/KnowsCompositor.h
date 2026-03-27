@@ -900,8 +900,10 @@ Unimplemented
 ;
 }
 virtual
+RefPtr
+<
 TextureForwarder
-*
+>
 GetTextureForwarder
 (
 )
@@ -979,8 +981,10 @@ TextureFactoryIdentifier
 aIdentifier
 )
 ;
+RefPtr
+<
 TextureForwarder
-*
+>
 GetTextureForwarder
 (
 )
