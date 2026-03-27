@@ -15630,15 +15630,6 @@ n
 )
 )
 ;
-RefPtr
-<
-DocumentLoadListener
->
-kungFuDeathGrip
-(
-this
-)
-;
 mEarlyHintsService
 .
 EarlyHint
