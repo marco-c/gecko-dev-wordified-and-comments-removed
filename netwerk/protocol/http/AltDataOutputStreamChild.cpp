@@ -227,6 +227,15 @@ reference
 "
 )
 ;
+if
+(
+!
+mIPCOpen
+)
+{
+return
+;
+}
 mIPCOpen
 =
 false
