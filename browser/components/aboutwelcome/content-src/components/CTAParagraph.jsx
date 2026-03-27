@@ -211,7 +211,7 @@ wrapper
 "
 >
 <
-div
+img
 className
 =
 "
@@ -221,6 +221,17 @@ paragraph
 -
 icon
 "
+src
+=
+{
+content
+?
+.
+icon
+?
+.
+iconURL
+}
 style
 =
 {
@@ -238,7 +249,7 @@ CONFIGURABLE_STYLES
 >
 <
 /
-div
+img
 >
 <
 /

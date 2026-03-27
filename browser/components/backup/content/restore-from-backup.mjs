@@ -2121,6 +2121,14 @@ restore
 controls
 "
 >
+{
+this
+.
+aboutWelcomeEmbedded
+?
+null
+:
+html
 <
 div
 >
@@ -2190,6 +2198,7 @@ a
 /
 div
 >
+}
 <
 fieldset
 id
