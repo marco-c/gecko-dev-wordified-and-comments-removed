@@ -26,7 +26,7 @@ reader
 stdadapter
 structuredlog
 class
-TestHandler
+Handler
 :
     
 def
@@ -125,7 +125,7 @@ self
 .
 handler
 =
-TestHandler
+Handler
 (
 )
         
@@ -5346,7 +5346,7 @@ self
         
 handler
 =
-TestHandler
+Handler
 (
 )
         
@@ -8584,7 +8584,7 @@ handlers
 .
 BufferHandler
 (
-TestHandler
+Handler
 (
 )
 message_limit

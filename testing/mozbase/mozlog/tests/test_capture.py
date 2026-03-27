@@ -10,7 +10,7 @@ structuredlog
 from
 test_structured
 import
-TestHandler
+Handler
 class
 TestCaptureIO
 (
@@ -57,7 +57,7 @@ self
 .
 handler
 =
-TestHandler
+Handler
 (
 )
         
