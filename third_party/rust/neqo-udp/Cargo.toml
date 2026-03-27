@@ -125,7 +125,7 @@ version
 "
 0
 .
-23
+24
 .
 1
 "
@@ -390,16 +390,12 @@ version
 "
 0
 .
-5
-.
-13
+6
 "
 features
 =
 [
 "
-direct
--
 log
 "
 ]

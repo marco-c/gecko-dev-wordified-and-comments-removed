@@ -40,6 +40,11 @@ target_os
 "
 visionos
 "
+target_os
+=
+"
+watchos
+"
 )
 }
 bsd

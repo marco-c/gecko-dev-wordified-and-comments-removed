@@ -387,6 +387,9 @@ None
 dst_ip
 :
 None
+interface_index
+:
+None
 }
 ;
 Ok

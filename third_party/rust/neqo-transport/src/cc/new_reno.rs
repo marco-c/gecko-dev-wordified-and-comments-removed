@@ -23,6 +23,7 @@ use
 crate
 :
 :
+{
 cc
 :
 :
@@ -32,6 +33,11 @@ classic_cc
 :
 :
 WindowAdjustment
+}
+stats
+:
+:
+CongestionControlStats
 }
 ;
 #
@@ -141,6 +147,11 @@ usize
 _congestion_event
 :
 CongestionEvent
+_cc_stats
+:
+&
+mut
+CongestionControlStats
 )
 -
 >
@@ -182,6 +193,11 @@ restore_undo_state
 &
 mut
 self
+_cc_stats
+:
+&
+mut
+CongestionControlStats
 )
 {
 }

@@ -249,8 +249,9 @@ cc
 :
 :
 {
-CongestionControlAlgorithm
+CongestionControl
 CongestionEvent
+SlowStart
 }
 cid
 :
@@ -320,7 +321,10 @@ Token
 stats
 :
 :
+{
+SlowStartExitReason
 Stats
+}
 stream_id
 :
 :
