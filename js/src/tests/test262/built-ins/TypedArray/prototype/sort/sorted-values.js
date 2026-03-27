@@ -3,6 +3,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -13,12 +14,15 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 4
 3
 2
 1
 ]
+)
 )
 .
 sort
@@ -48,12 +52,15 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 3
 4
 1
 2
 ]
+)
 )
 .
 sort
@@ -83,6 +90,8 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 3
 4
@@ -92,6 +101,7 @@ TA
 1
 2
 ]
+)
 )
 .
 sort
@@ -127,6 +137,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -135,6 +146,8 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 1
 0
@@ -142,6 +155,7 @@ TA
 0
 2
 ]
+)
 )
 .
 sort
@@ -175,6 +189,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -183,6 +198,8 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 1
 0
@@ -190,6 +207,7 @@ TA
 0
 2
 ]
+)
 )
 .
 sort
@@ -222,6 +240,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -229,6 +248,8 @@ sample
 =
 new
 TA
+(
+makeCtorArg
 (
 [
 -
@@ -243,6 +264,7 @@ TA
 1
 0
 ]
+)
 )
 .
 sort
@@ -292,6 +314,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -301,6 +324,8 @@ sample
 =
 new
 TA
+(
+makeCtorArg
 (
 [
 0
@@ -312,6 +337,7 @@ TA
 5
 1
 ]
+)
 )
 .
 sort
@@ -345,6 +371,8 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 0
 .
@@ -365,6 +393,7 @@ TA
 5
 1
 ]
+)
 )
 .
 sort
@@ -410,6 +439,8 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 3
 4
@@ -419,6 +450,7 @@ Infinity
 1
 2
 ]
+)
 )
 .
 sort

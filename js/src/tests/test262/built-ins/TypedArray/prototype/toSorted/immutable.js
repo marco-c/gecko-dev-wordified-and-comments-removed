@@ -1,6 +1,9 @@
 testWithTypedArrayConstructors
 (
+(
 TA
+makeCtorArg
+)
 =
 >
 {
@@ -10,11 +13,14 @@ ta
 new
 TA
 (
+makeCtorArg
+(
 [
 3
 1
 2
 ]
+)
 )
 ;
 ta

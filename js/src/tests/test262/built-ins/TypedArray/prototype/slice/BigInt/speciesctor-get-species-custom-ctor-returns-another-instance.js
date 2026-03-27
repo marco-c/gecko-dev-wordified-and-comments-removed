@@ -3,6 +3,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -11,9 +12,12 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 40n
 ]
+)
 )
 ;
 var

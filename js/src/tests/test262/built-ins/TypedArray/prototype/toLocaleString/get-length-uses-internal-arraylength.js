@@ -42,7 +42,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
-N
+makeCtorArg
 )
 {
 var
@@ -51,10 +51,13 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 42
 43
 ]
+)
 )
 ;
 Object
@@ -101,6 +104,12 @@ properties
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

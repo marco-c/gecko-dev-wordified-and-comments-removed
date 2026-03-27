@@ -25,9 +25,7 @@ b
 ;
 testWithTypedArrayConstructors
 (
-(
 TA
-)
 =
 >
 {
@@ -243,6 +241,12 @@ presorted
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

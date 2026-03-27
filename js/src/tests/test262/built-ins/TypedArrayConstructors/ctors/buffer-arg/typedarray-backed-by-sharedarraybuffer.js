@@ -24,6 +24,7 @@ testWithTypedArrayConstructors
 function
 (
 View1
+makeCtorArg
 )
 {
 var
@@ -40,6 +41,7 @@ testWithTypedArrayConstructors
 function
 (
 View2
+makeCtorArg
 )
 {
 var

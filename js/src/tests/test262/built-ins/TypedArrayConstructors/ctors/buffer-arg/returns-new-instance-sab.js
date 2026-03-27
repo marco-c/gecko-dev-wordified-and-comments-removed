@@ -141,6 +141,12 @@ prototype
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

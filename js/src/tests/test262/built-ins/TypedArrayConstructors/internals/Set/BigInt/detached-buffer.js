@@ -284,6 +284,12 @@ Test262Error
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

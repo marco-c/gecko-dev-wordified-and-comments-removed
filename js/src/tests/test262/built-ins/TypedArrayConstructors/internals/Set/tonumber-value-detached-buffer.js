@@ -62,6 +62,12 @@ undefined
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

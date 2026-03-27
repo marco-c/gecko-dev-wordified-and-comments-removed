@@ -49,6 +49,12 @@ prototype
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

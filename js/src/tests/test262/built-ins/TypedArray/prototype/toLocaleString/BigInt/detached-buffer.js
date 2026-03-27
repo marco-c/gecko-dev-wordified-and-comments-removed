@@ -40,6 +40,12 @@ toLocaleString
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

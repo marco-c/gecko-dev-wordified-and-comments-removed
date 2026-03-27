@@ -3,6 +3,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 let
@@ -11,6 +12,8 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 42
 44
@@ -18,6 +21,7 @@ TA
 43
 45
 ]
+)
 )
 ;
 let

@@ -30,7 +30,10 @@ function
 ;
 testWithTypedArrayConstructors
 (
+(
 TA
+makeCtorArg
+)
 =
 >
 {
@@ -40,6 +43,8 @@ a
 new
 TA
 (
+makeCtorArg
+(
 [
 0
 1
@@ -47,6 +52,7 @@ TA
 4
 6
 ]
+)
 )
 ;
 let

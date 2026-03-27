@@ -3,6 +3,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -11,6 +12,8 @@ typedArray
 new
 TA
 (
+makeCtorArg
+(
 [
 '
 '
@@ -18,6 +21,7 @@ TA
 1
 '
 ]
+)
 )
 ;
 assert
@@ -54,11 +58,14 @@ function
 new
 TA
 (
+makeCtorArg
+(
 [
 "
 1n
 "
 ]
+)
 )
 ;
 }
@@ -86,11 +93,14 @@ function
 new
 TA
 (
+makeCtorArg
+(
 [
 "
 Infinity
 "
 ]
+)
 )
 ;
 }
@@ -122,6 +132,8 @@ function
 new
 TA
 (
+makeCtorArg
+(
 [
 "
 1
@@ -129,6 +141,7 @@ TA
 1
 "
 ]
+)
 )
 ;
 }
@@ -165,11 +178,14 @@ function
 new
 TA
 (
+makeCtorArg
+(
 [
 "
 1e7
 "
 ]
+)
 )
 ;
 }

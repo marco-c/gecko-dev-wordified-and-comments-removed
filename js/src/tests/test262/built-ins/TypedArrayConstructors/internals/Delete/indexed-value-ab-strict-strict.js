@@ -8,6 +8,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 let
@@ -72,7 +73,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 2
+)
 )
 ;
 assert

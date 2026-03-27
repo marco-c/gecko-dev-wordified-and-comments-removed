@@ -70,6 +70,12 @@ undefined
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

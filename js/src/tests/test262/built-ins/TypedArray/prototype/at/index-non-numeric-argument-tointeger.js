@@ -30,7 +30,10 @@ function
 ;
 testWithTypedArrayConstructors
 (
+(
 TA
+makeCtorArg
+)
 =
 >
 {
@@ -70,12 +73,15 @@ a
 new
 TA
 (
+makeCtorArg
+(
 [
 0
 1
 2
 3
 ]
+)
 )
 ;
 assert

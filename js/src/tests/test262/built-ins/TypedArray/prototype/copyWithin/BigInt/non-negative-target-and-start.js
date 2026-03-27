@@ -3,6 +3,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 assert
@@ -12,6 +13,8 @@ compareArray
 new
 TA
 (
+makeCtorArg
+(
 [
 1n
 2n
@@ -20,6 +23,7 @@ TA
 5n
 6n
 ]
+)
 )
 .
 copyWithin
@@ -45,6 +49,8 @@ compareArray
 new
 TA
 (
+makeCtorArg
+(
 [
 1n
 2n
@@ -53,6 +59,7 @@ TA
 5n
 6n
 ]
+)
 )
 .
 copyWithin
@@ -78,6 +85,8 @@ compareArray
 new
 TA
 (
+makeCtorArg
+(
 [
 1n
 2n
@@ -86,6 +95,7 @@ TA
 5n
 6n
 ]
+)
 )
 .
 copyWithin
@@ -111,6 +121,8 @@ compareArray
 new
 TA
 (
+makeCtorArg
+(
 [
 0n
 1n
@@ -119,6 +131,7 @@ TA
 4n
 5n
 ]
+)
 )
 .
 copyWithin

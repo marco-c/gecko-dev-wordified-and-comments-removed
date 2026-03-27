@@ -24,7 +24,10 @@ Symbol
 ;
 testWithTypedArrayConstructors
 (
+(
 TA
+makeCtorArg
+)
 =
 >
 {
@@ -34,9 +37,12 @@ ta
 new
 TA
 (
+makeCtorArg
+(
 [
 1
 ]
+)
 )
 ;
 for

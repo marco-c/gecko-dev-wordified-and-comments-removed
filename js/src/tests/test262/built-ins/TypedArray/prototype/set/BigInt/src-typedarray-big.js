@@ -14,6 +14,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 BTA1
+makeCtorArg
 )
 {
 srcTypedArray
@@ -21,9 +22,12 @@ srcTypedArray
 new
 BTA1
 (
+makeCtorArg
+(
 [
 testValue
 ]
+)
 )
 ;
 testWithBigIntTypedArrayConstructors
@@ -31,6 +35,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 BTA2
+makeCtorArg
 )
 {
 targetTypedArray

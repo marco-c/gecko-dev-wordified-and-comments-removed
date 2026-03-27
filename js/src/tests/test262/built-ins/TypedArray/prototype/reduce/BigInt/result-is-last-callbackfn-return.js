@@ -3,6 +3,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -18,11 +19,14 @@ result
 new
 TA
 (
+makeCtorArg
+(
 [
 1n
 2n
 3n
 ]
+)
 )
 .
 reduce
@@ -72,11 +76,14 @@ result
 new
 TA
 (
+makeCtorArg
+(
 [
 1n
 2n
 3n
 ]
+)
 )
 .
 reduce

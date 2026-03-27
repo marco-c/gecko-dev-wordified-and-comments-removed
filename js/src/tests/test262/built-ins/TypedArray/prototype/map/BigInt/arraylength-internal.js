@@ -3,6 +3,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -11,7 +12,10 @@ sample1
 new
 TA
 (
+makeCtorArg
+(
 42
+)
 )
 ;
 var
@@ -74,7 +78,10 @@ sample2
 new
 TA
 (
+makeCtorArg
+(
 4
+)
 )
 ;
 Object
@@ -142,6 +149,12 @@ descriptor
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

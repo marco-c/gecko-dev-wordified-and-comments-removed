@@ -86,6 +86,12 @@ thisArg
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

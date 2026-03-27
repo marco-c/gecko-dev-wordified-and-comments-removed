@@ -3,6 +3,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -32,11 +33,14 @@ ta2
 new
 TA
 (
+makeCtorArg
+(
 [
 0n
 1n
 2n
 ]
+)
 )
 ;
 assert

@@ -87,6 +87,12 @@ obj2
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

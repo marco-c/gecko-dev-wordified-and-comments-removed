@@ -55,6 +55,12 @@ mapfn
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

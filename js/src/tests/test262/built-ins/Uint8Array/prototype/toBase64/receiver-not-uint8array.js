@@ -52,6 +52,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 if
@@ -70,7 +71,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 2
+)
 )
 ;
 assert
@@ -98,6 +102,12 @@ options
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 assert
@@ -123,6 +133,12 @@ options
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 assert
@@ -140,6 +156,12 @@ options
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

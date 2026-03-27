@@ -3,6 +3,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 assert
@@ -17,9 +18,12 @@ function
 new
 TA
 (
+makeCtorArg
+(
 [
 undefined
 ]
+)
 )
 ;
 }

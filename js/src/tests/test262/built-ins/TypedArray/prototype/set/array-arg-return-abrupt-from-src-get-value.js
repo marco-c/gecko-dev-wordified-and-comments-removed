@@ -3,6 +3,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -60,12 +61,15 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 1
 2
 3
 4
 ]
+)
 )
 ;
 assert
@@ -109,6 +113,12 @@ exception
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

@@ -12,6 +12,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 View1
+makeCtorArg
 )
 {
 var
@@ -28,6 +29,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 View2
+makeCtorArg
 )
 {
 var

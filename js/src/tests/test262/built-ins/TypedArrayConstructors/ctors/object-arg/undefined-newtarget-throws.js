@@ -3,6 +3,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 assert
@@ -33,9 +34,12 @@ function
 )
 {
 TA
+(
+makeCtorArg
 (
 [
 ]
+)
 )
 ;
 }

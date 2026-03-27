@@ -419,6 +419,12 @@ RangeError
 ;
 }
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

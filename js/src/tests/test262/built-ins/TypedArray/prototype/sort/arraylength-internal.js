@@ -42,6 +42,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -50,11 +51,14 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 42
 42
 42
 ]
+)
 )
 ;
 getCalls
@@ -126,6 +130,12 @@ length
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

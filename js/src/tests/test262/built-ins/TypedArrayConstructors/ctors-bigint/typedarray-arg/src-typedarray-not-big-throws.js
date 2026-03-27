@@ -6,6 +6,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 notBigTypedArray
@@ -13,7 +14,10 @@ notBigTypedArray
 new
 TA
 (
+makeCtorArg
+(
 16
+)
 )
 ;
 testWithBigIntTypedArrayConstructors
@@ -21,6 +25,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 BTA
+makeCtorArg
 )
 {
 assert

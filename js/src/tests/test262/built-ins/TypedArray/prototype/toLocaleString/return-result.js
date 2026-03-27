@@ -26,7 +26,6 @@ testWithTypedArrayConstructors
 function
 (
 TA
-N
 )
 {
 var
@@ -97,6 +96,12 @@ expected
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

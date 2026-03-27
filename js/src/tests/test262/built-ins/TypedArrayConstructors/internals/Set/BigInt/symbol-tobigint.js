@@ -9,6 +9,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -17,7 +18,10 @@ typedArray
 new
 TA
 (
+makeCtorArg
+(
 1
+)
 )
 assert
 .

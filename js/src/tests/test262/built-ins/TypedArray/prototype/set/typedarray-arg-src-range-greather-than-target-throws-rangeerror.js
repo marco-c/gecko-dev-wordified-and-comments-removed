@@ -3,6 +3,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -14,7 +15,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 2
+)
 )
 ;
 src
@@ -22,7 +26,10 @@ src
 new
 TA
 (
+makeCtorArg
+(
 2
+)
 )
 ;
 assert
@@ -57,7 +64,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 1
+)
 )
 ;
 src
@@ -65,7 +75,10 @@ src
 new
 TA
 (
+makeCtorArg
+(
 2
+)
 )
 ;
 assert
@@ -100,7 +113,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 1
+)
 )
 ;
 src
@@ -108,7 +124,10 @@ src
 new
 TA
 (
+makeCtorArg
+(
 0
+)
 )
 ;
 assert
@@ -143,7 +162,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 2
+)
 )
 ;
 src
@@ -151,7 +173,10 @@ src
 new
 TA
 (
+makeCtorArg
+(
 2
+)
 )
 ;
 assert

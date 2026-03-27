@@ -191,6 +191,12 @@ typedArray
 ;
 }
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

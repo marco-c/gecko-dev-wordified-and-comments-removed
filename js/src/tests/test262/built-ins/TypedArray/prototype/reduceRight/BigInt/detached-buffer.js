@@ -56,6 +56,12 @@ callbackfn
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

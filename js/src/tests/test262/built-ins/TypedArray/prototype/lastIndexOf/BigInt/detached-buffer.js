@@ -41,6 +41,12 @@ lastIndexOf
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

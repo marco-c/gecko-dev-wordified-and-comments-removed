@@ -43,6 +43,12 @@ buffer
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

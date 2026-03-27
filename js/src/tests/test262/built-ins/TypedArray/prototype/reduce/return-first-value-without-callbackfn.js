@@ -3,6 +3,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -16,9 +17,12 @@ result
 new
 TA
 (
+makeCtorArg
+(
 [
 42
 ]
+)
 )
 .
 reduce

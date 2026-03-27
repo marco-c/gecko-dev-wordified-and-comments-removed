@@ -82,7 +82,6 @@ testWithTypedArrayConstructors
 function
 (
 TA
-N
 )
 {
 var
@@ -132,6 +131,12 @@ item
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

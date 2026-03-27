@@ -22,7 +22,10 @@ get
 ;
 testWithTypedArrayConstructors
 (
+(
 TA
+makeCtorArg
+)
 =
 >
 {
@@ -32,7 +35,10 @@ typedArray
 new
 TA
 (
+makeCtorArg
+(
 5
+)
 )
 ;
 var

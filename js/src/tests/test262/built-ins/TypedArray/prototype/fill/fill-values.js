@@ -3,6 +3,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 assert
@@ -38,11 +39,14 @@ compareArray
 new
 TA
 (
+makeCtorArg
+(
 [
 0
 0
 0
 ]
+)
 )
 .
 fill

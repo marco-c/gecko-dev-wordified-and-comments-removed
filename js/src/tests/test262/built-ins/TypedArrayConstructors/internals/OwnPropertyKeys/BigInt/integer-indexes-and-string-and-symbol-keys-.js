@@ -40,6 +40,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -48,11 +49,14 @@ sample1
 new
 TA
 (
+makeCtorArg
+(
 [
 42n
 42n
 42n
 ]
+)
 )
 ;
 sample1
@@ -127,7 +131,10 @@ sample2
 new
 TA
 (
+makeCtorArg
+(
 4
+)
 )
 .
 subarray

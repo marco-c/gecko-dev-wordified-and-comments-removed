@@ -60,6 +60,12 @@ byteOffset
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

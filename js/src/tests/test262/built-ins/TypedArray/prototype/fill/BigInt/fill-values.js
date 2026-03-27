@@ -3,6 +3,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 assert
@@ -38,11 +39,14 @@ compareArray
 new
 TA
 (
+makeCtorArg
+(
 [
 0n
 0n
 0n
 ]
+)
 )
 .
 fill

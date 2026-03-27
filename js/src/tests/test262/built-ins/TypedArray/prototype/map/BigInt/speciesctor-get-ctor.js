@@ -3,6 +3,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -11,12 +12,15 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 40n
 41n
 42n
 43n
 ]
+)
 )
 ;
 var
@@ -134,6 +138,12 @@ check
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

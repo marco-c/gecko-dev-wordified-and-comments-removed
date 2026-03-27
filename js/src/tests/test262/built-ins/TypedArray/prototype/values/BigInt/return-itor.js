@@ -3,6 +3,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -11,11 +12,14 @@ typedArray
 new
 TA
 (
+makeCtorArg
+(
 [
 0n
 42n
 64n
 ]
+)
 )
 ;
 var

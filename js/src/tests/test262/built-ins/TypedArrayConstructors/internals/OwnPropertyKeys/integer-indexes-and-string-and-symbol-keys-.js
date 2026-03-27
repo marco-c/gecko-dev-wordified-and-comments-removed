@@ -40,6 +40,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -48,11 +49,14 @@ sample1
 new
 TA
 (
+makeCtorArg
+(
 [
 42
 42
 42
 ]
+)
 )
 ;
 sample1
@@ -127,7 +131,10 @@ sample2
 new
 TA
 (
+makeCtorArg
+(
 4
+)
 )
 .
 subarray

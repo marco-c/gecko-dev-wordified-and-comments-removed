@@ -217,6 +217,12 @@ regexp
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

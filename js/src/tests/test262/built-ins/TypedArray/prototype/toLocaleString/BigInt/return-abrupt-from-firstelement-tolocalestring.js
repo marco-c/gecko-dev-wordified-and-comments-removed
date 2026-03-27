@@ -28,6 +28,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 calls
@@ -40,10 +41,13 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 42n
 0n
 ]
+)
 )
 ;
 assert

@@ -3,6 +3,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 assert
@@ -12,12 +13,15 @@ compareArray
 new
 TA
 (
+makeCtorArg
+(
 [
 0
 1
 2
 3
 ]
+)
 )
 .
 copyWithin
@@ -65,6 +69,8 @@ compareArray
 new
 TA
 (
+makeCtorArg
+(
 [
 1
 2
@@ -72,6 +78,7 @@ TA
 4
 5
 ]
+)
 )
 .
 copyWithin
@@ -122,6 +129,8 @@ compareArray
 new
 TA
 (
+makeCtorArg
+(
 [
 0
 1
@@ -129,6 +138,7 @@ TA
 3
 4
 ]
+)
 )
 .
 copyWithin
@@ -179,6 +189,8 @@ compareArray
 new
 TA
 (
+makeCtorArg
+(
 [
 1
 2
@@ -186,6 +198,7 @@ TA
 4
 5
 ]
+)
 )
 .
 copyWithin

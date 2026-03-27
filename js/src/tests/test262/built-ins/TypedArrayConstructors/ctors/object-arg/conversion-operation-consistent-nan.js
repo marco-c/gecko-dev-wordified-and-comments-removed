@@ -1,3 +1,5 @@
+testWithTypedArrayConstructors
+(
 function
 body
 (
@@ -54,9 +56,6 @@ secondBytes
 )
 ;
 }
-testWithTypedArrayConstructors
-(
-body
 floatArrayConstructors
 )
 ;

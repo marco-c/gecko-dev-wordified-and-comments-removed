@@ -46,7 +46,6 @@ testWithTypedArrayConstructors
 function
 (
 TA
-N
 )
 {
 calls
@@ -96,6 +95,12 @@ element
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

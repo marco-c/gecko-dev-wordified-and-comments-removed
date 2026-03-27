@@ -78,6 +78,12 @@ typedArray
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

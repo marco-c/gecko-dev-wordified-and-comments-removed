@@ -3,6 +3,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -13,12 +14,15 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 4n
 3n
 2n
 1n
 ]
+)
 )
 .
 sort
@@ -48,12 +52,15 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 3n
 4n
 1n
 2n
 ]
+)
 )
 .
 sort
@@ -83,6 +90,8 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 3n
 4n
@@ -92,6 +101,7 @@ TA
 1n
 2n
 ]
+)
 )
 .
 sort
