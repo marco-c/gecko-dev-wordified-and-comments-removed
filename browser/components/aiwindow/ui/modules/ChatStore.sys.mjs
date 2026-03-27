@@ -889,6 +889,14 @@ active_branch_tip_message_id
 conversation
 .
 activeBranchTipMessageId
+security_properties
+:
+toJSONOrNull
+(
+conversation
+.
+securityProperties
+)
 }
 )
 ;
