@@ -5,6 +5,13 @@ SRTP_RTP_H
 define
 SRTP_RTP_H
 #
+include
+"
+srtp_priv
+.
+h
+"
+#
 ifdef
 HAVE_NETINET_IN_H
 #
@@ -29,13 +36,6 @@ h
 >
 #
 endif
-#
-include
-"
-srtp_priv
-.
-h
-"
 #
 ifdef
 __cplusplus
