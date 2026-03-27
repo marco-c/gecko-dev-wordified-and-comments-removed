@@ -22,7 +22,7 @@ testDriverName
 '
 gyroscope
 '
-featurePolicyNames
+permissionsPolicyNames
 :
 [
 '

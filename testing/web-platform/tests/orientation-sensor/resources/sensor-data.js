@@ -24,7 +24,7 @@ absolute
 -
 orientation
 '
-featurePolicyNames
+permissionsPolicyNames
 :
 [
 '
@@ -60,7 +60,7 @@ relative
 -
 orientation
 '
-featurePolicyNames
+permissionsPolicyNames
 :
 [
 '

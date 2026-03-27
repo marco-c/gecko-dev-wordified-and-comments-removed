@@ -25,7 +25,7 @@ const
 sensorName
 permissionName
 testDriverName
-featurePolicyNames
+permissionsPolicyNames
 }
 =
 sensorData
@@ -941,7 +941,7 @@ iframe
 .
 allow
 =
-featurePolicyNames
+permissionsPolicyNames
 .
 join
 (
@@ -1185,7 +1185,7 @@ iframe
 disallowed
 to
 use
-feature
+permissions
 policy
 .
 )
@@ -1213,7 +1213,7 @@ iframe
 .
 allow
 =
-featurePolicyNames
+permissionsPolicyNames
 .
 join
 (
@@ -1440,7 +1440,7 @@ iframe
 allowed
 to
 use
-feature
+permissions
 policy
 .
 )

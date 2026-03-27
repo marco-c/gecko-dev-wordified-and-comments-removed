@@ -22,7 +22,7 @@ testDriverName
 '
 magnetometer
 '
-featurePolicyNames
+permissionsPolicyNames
 :
 [
 '
@@ -50,7 +50,7 @@ testDriverName
 '
 magnetometer
 '
-featurePolicyNames
+permissionsPolicyNames
 :
 [
 '

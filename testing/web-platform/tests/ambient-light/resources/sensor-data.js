@@ -28,7 +28,7 @@ ambient
 -
 light
 '
-featurePolicyNames
+permissionsPolicyNames
 :
 [
 '

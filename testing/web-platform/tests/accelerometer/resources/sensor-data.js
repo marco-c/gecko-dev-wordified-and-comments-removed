@@ -22,7 +22,7 @@ testDriverName
 '
 accelerometer
 '
-featurePolicyNames
+permissionsPolicyNames
 :
 [
 '
@@ -50,7 +50,7 @@ testDriverName
 '
 gravity
 '
-featurePolicyNames
+permissionsPolicyNames
 :
 [
 '
@@ -80,7 +80,7 @@ linear
 -
 acceleration
 '
-featurePolicyNames
+permissionsPolicyNames
 :
 [
 '
