@@ -191,6 +191,11 @@ DocAccessibleTypes
 .
 ipdlh
 "
+]
+PREPROCESSED_IPDL_SOURCES
++
+=
+[
 "
 PDocAccessible
 .
