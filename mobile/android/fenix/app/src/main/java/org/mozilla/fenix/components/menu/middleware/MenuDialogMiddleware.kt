@@ -1518,6 +1518,13 @@ checkSummarizationEligibility
 :
 Boolean
 =
+withContext
+(
+Dispatchers
+.
+Default
+)
+{
 this
 checkSummarizationEligibility
 ?
@@ -1548,6 +1555,7 @@ false
 ?
 :
 false
+}
 private
 suspend
 fun
