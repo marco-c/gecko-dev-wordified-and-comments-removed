@@ -227,6 +227,15 @@ TT_MAC_ID_ARMENIAN
 define
 TT_MAC_ID_MALDIVIAN
 25
+/
+*
+TrueType
+version
+1
+.
+66
+*
+/
 #
 define
 TT_MAC_ID_SIMPLIFIED_CHINESE

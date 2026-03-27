@@ -113,7 +113,7 @@ C
 )
 2018
 -
-2025
+2026
 by
 *
 /
@@ -298,7 +298,7 @@ define
 FT_VERSION
 2
 14
-2
+3
 0
 #
 define
@@ -308,7 +308,7 @@ FT_VERSION_STR
 .
 14
 .
-2
+3
 "
 VS_VERSION_INFO
 VERSIONINFO
