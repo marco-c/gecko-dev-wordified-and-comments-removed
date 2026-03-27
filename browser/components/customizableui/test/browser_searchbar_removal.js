@@ -111,7 +111,7 @@ bar
 ;
 SearchWidgetTracker
 .
-_updateSearchBarVisibilityBasedOnUsage
+_removeWidgetIfUnused
 (
 )
 ;
