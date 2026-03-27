@@ -4559,6 +4559,15 @@ html
 *
 #
 categories
+:
+not
+(
+moz
+-
+page
+-
+nav
+)
 {
 box
 -
