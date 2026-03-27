@@ -505,6 +505,11 @@ TrialInlining
 cpp
 "
 "
+TypeAnalysis
+.
+cpp
+"
+"
 TypePolicy
 .
 cpp

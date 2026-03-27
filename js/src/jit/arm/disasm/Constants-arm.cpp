@@ -14,6 +14,13 @@ arm
 h
 "
 #
+include
+<
+string
+.
+h
+>
+#
 ifdef
 JS_DISASM_ARM
 namespace
