@@ -792,6 +792,15 @@ bufSize
 )
 const
 ;
+bool
+ToString
+(
+nsACString
+&
+aOutput
+)
+const
+;
 nsCString
 ToString
 (
