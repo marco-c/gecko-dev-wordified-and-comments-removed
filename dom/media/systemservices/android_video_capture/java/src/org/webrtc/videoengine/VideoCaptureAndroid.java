@@ -446,6 +446,10 @@ capturer
 e
 )
 ;
+cameraVideoCapturer
+=
+null
+;
 }
 }
 private
