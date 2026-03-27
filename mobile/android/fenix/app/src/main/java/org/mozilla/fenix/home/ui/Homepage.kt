@@ -1200,6 +1200,11 @@ Normal
 {
 ExperimentalHomepageHeader
 (
+wordmarkTextColor
+=
+headerState
+.
+wordmarkTextColor
 onPrivateModeTapped
 =
 {
