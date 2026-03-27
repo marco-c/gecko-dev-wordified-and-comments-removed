@@ -2074,9 +2074,6 @@ buf
 ;
 string
 s
-=
-"
-"
 ;
 switch
 (
