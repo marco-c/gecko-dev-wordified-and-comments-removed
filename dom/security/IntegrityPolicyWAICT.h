@@ -89,6 +89,9 @@ nsWeakReference
 h
 "
 class
+WAICTHeaderParsingTest
+;
+class
 nsIPrincipal
 ;
 class
@@ -400,6 +403,12 @@ bool
 mManifestValid
 =
 false
+;
+friend
+class
+:
+:
+WAICTHeaderParsingTest
 ;
 }
 ;

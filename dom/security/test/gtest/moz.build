@@ -88,6 +88,11 @@ TestSmartCrashTrimmer
 cpp
 "
 "
+TestWAICTHeaderParsing
+.
+cpp
+"
+"
 TestWAICTManifestValidation
 .
 cpp
