@@ -21,7 +21,7 @@ algorithm
 "
 KMAC128
 "
-length
+outputLength
 :
 256
 keyBuffer
@@ -136,7 +136,7 @@ algorithm
 "
 KMAC128
 "
-length
+outputLength
 :
 256
 keyBuffer
@@ -280,7 +280,7 @@ algorithm
 "
 KMAC128
 "
-length
+outputLength
 :
 256
 keyBuffer
@@ -437,7 +437,7 @@ algorithm
 "
 KMAC256
 "
-length
+outputLength
 :
 512
 keyBuffer
@@ -614,7 +614,7 @@ algorithm
 "
 KMAC256
 "
-length
+outputLength
 :
 512
 keyBuffer
@@ -775,7 +775,7 @@ algorithm
 "
 KMAC256
 "
-length
+outputLength
 :
 512
 keyBuffer
