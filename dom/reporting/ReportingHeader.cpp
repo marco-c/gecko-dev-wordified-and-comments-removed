@@ -1886,6 +1886,11 @@ if
 ok
 )
 {
+JS_ClearPendingException
+(
+cx
+)
+;
 LogToConsoleInvalidJSON
 (
 aChannel
@@ -1914,6 +1919,11 @@ jsonValue
 )
 )
 {
+JS_ClearPendingException
+(
+cx
+)
+;
 LogToConsoleInvalidJSON
 (
 aChannel
