@@ -185,8 +185,6 @@ it
 property
 edited
 Whether
-or
-not
 the
 user
 has
@@ -292,7 +290,6 @@ name
 .
 Otherwise
 display
-the
 the
 defaultName
 .
