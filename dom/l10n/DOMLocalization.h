@@ -163,8 +163,6 @@ OwningUTF8StringOrResourceId
 >
 &
 aResourceIds
-bool
-aIsSync
 const
 dom
 :
