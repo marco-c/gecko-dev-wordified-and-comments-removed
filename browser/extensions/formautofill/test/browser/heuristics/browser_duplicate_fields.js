@@ -4753,6 +4753,9 @@ expectedResult
 :
 [
 {
+invalid
+:
+true
 default
 :
 {
