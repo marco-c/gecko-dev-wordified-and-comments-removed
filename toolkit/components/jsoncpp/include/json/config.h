@@ -539,7 +539,7 @@ std
 :
 conditional
 <
-JSONCPP_USING_SECURE_MEMORY
+JSONCPP_USE_SECURE_MEMORY
 SecureAllocator
 <
 T
