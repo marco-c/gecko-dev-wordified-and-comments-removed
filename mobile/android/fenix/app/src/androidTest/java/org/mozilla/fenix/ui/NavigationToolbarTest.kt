@@ -4784,6 +4784,7 @@ cases
 view
 /
 3135067
+SmokeTest
 Test
 fun
 verifyTheNewTabButtonTest
