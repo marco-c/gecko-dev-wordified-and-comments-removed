@@ -235,7 +235,11 @@ content
 await
 openPanel
 (
-null
+{
+unauthenticated
+:
+false
+}
 newWindow
 )
 ;
@@ -421,7 +425,11 @@ content
 await
 openPanel
 (
-null
+{
+unauthenticated
+:
+false
+}
 privateWindow
 )
 ;
