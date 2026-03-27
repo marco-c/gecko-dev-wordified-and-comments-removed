@@ -448,6 +448,13 @@ js
 ]
 [
 "
+browser_smartwindow_recentchats
+.
+js
+"
+]
+[
+"
 browser_smartwindow_run_search
 .
 js
@@ -491,13 +498,6 @@ js
 [
 "
 browser_smartwindow_telemetry
-.
-js
-"
-]
-[
-"
-browser_smartwindow_recentchats
 .
 js
 "
