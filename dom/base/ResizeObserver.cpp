@@ -193,11 +193,7 @@ padding
 NS_ASSERTION
 (
 !
-aFrame
-.
-PresContext
-(
-)
+f
 -
 >
 UseOverlayScrollbars
