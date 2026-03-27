@@ -4108,13 +4108,6 @@ js
 ]
 [
 "
-test_dns_stress
-.
-js
-"
-]
-[
-"
 test_domain_eviction
 .
 js
