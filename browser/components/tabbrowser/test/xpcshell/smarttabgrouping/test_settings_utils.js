@@ -737,7 +737,7 @@ resolves
 await
 SmartTabGroupingManager
 .
-makeAvailable
+reset
 (
 )
 ;
@@ -1147,7 +1147,7 @@ resolves
 await
 SmartTabGroupingManager
 .
-block
+disable
 (
 )
 ;

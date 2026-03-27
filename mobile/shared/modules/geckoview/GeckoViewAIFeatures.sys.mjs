@@ -324,7 +324,7 @@ enable
 :
 feature
 .
-block
+disable
 (
 )
 )
@@ -420,7 +420,7 @@ return
 }
 feature
 .
-makeAvailable
+reset
 (
 )
 .
@@ -444,13 +444,12 @@ onError
 (
 Could
 not
-make
+reset
 {
 aData
 .
 featureId
 }
-available
 error
 :
 {
