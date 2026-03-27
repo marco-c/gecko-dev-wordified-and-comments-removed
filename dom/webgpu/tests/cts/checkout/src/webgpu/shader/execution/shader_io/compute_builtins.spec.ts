@@ -2112,6 +2112,10 @@ kLocalIndexOffset
 )
 |
 |
+(
+linear_indexing
+&
+&
 expectEqual
 (
 '
@@ -2125,8 +2129,13 @@ globalOffset
 kGlobalIndexOffset
 ]
 )
+)
 |
 |
+(
+linear_indexing
+&
+&
 expectEqual
 (
 '
@@ -2139,6 +2148,7 @@ globalOffset
 +
 kGroupIndexOffset
 ]
+)
 )
 ;
 if

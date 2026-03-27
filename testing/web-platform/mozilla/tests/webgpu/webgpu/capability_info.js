@@ -4675,5 +4675,8 @@ swizzle_assignment
 '
 linear_indexing
 '
+'
+texture_formats_tier1
+'
 ]
 ;
