@@ -850,15 +850,6 @@ the
 crash
 ping
 documentation
-:
-:
-ref
-:
-remote
--
-process
--
-types
 .
 Stack
 Traces
