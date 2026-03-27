@@ -6904,6 +6904,7 @@ mBuffer
 &
 mFramePtr
 <
+=
 mBuffer
 +
 mBufferSize
@@ -7176,7 +7177,7 @@ frameIndex
 }
 :
 :
-memcpy
+memmove
 (
 mBuffer
 +
