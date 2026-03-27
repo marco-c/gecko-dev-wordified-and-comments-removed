@@ -9829,11 +9829,6 @@ OverflowAreas
 aOverflowAreas
 nsSize
 aNewSize
-nsSize
-*
-aOldSize
-=
-nullptr
 const
 nsStyleDisplay
 *
@@ -9878,7 +9873,6 @@ Height
 (
 )
 )
-nullptr
 aStyleDisplay
 )
 ;
