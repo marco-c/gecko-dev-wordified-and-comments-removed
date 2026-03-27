@@ -894,16 +894,10 @@ Clear
 }
 if
 (
-RefPtr
-<
-nsSpeechTask
->
-task
-=
 mCurrentTask
 )
 {
-task
+mCurrentTask
 -
 >
 Cancel
