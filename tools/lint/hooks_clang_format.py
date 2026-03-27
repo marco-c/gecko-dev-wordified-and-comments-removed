@@ -223,8 +223,6 @@ arguments
 =
 [
 "
-clang
--
 format
 "
 "
