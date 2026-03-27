@@ -294,6 +294,3 @@ index
 internals
 /
 index
-obsolete
-/
-index
