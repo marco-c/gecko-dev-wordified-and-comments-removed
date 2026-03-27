@@ -162,11 +162,9 @@ licenses
 -
 plugin
 :
-0
-.
-10
-.
-4
+<
+version
+>
 "
 }
 }
@@ -239,9 +237,9 @@ LibrariesListFragment
 {
 override
 val
-resources
+licenseData
 =
-LicenseResources
+LicenseData
 (
 licenses
 =
@@ -250,7 +248,7 @@ R
 raw
 .
 third_party_licenses
-licenseMetadata
+metadata
 =
 R
 .

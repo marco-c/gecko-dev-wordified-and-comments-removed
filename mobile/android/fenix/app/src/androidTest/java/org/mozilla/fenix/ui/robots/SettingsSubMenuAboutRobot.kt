@@ -2780,6 +2780,14 @@ onView
 (
 withId
 (
+mozilla
+.
+components
+.
+support
+.
+license
+.
 R
 .
 id
