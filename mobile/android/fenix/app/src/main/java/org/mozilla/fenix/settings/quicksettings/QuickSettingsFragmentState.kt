@@ -572,11 +572,11 @@ R
 string
 .
 quick_settings_sheet_secure_connection_2
-R
+iconsR
 .
 drawable
 .
-ic_lock
+mozac_ic_lock_24
 )
 INSECURE
 (
