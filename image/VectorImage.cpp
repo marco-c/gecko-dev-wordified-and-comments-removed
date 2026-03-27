@@ -6628,6 +6628,15 @@ ReportDocumentUseCounters
 (
 )
 ;
+RefPtr
+<
+VectorImage
+>
+kungFuDeathGrip
+(
+this
+)
+;
 if
 (
 mProgressTracker
