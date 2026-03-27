@@ -318,6 +318,11 @@ fAlt
 SkString
 fLang
 ;
+bool
+fExposeAlt
+=
+true
+;
 }
 ;
 struct
