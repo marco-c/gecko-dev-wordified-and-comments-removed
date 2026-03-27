@@ -10723,6 +10723,13 @@ chunk
 metadata
 .
 toolCalls
+usage
+:
+chunk
+.
+metadata
+.
+usage
 }
 ;
 /

@@ -783,6 +783,11 @@ fullResponseText
 "
 "
 ;
+let
+usage
+=
+null
+;
 for
 await
 (
@@ -792,6 +797,13 @@ of
 stream
 )
 {
+usage
+=
+chunk
+?
+.
+usage
+;
 if
 (
 chunk
@@ -958,6 +970,7 @@ return
 {
 pendingToolCalls
 fullResponseText
+usage
 }
 ;
 }
