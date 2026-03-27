@@ -1438,6 +1438,11 @@ AddStorageAccessHeadersToRequest
 (
 )
 ;
+bool
+DispatchRelease
+(
+)
+;
 public
 :
 bool
@@ -2801,11 +2806,6 @@ RefPtr
 DictionaryCacheEntry
 >
 mDictSaving
-;
-void
-ReleaseMainThreadOnlyReferences
-(
-)
 ;
 void
 ReEvaluateReferrerAfterTrackingStatusIsKnown
