@@ -225,7 +225,7 @@ from
 "
 .
 /
-ChatConstants
+AIWindowConstants
 .
 sys
 .
@@ -244,7 +244,7 @@ from
 "
 .
 /
-ChatConstants
+AIWindowConstants
 .
 sys
 .

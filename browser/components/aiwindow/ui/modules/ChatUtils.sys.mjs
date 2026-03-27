@@ -101,7 +101,7 @@ from
 "
 .
 /
-ChatConstants
+AIWindowConstants
 .
 sys
 .

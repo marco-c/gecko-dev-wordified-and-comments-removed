@@ -455,6 +455,13 @@ js
 ]
 [
 "
+browser_smartwindow_request_response_telemetry
+.
+js
+"
+]
+[
+"
 browser_smartwindow_run_search
 .
 js

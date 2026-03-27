@@ -139,7 +139,7 @@ from
 "
 .
 /
-ChatConstants
+AIWindowConstants
 .
 sys
 .
