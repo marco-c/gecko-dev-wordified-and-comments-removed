@@ -1272,6 +1272,13 @@ mInDocResponsiveContent
 =
 false
 ;
+bool
+mObservingResize
+:
+1
+=
+false
+;
 private
 :
 bool
