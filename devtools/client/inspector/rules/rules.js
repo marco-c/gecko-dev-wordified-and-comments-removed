@@ -1765,7 +1765,7 @@ childHasDragged
 =
 false
 ;
-viewedElement
+selectedNodeFront
 =
 null
 ;
@@ -1930,7 +1930,7 @@ if
 !
 this
 .
-viewedElement
+selectedNodeFront
 |
 |
 this
@@ -1945,7 +1945,7 @@ tagName
 =
 this
 .
-viewedElement
+selectedNodeFront
 .
 tagName
 )
@@ -1960,7 +1960,7 @@ namespaceURI
 =
 this
 .
-viewedElement
+selectedNodeFront
 .
 namespaceURI
 |
@@ -1987,7 +1987,7 @@ createElementNS
 namespaceURI
 this
 .
-viewedElement
+selectedNodeFront
 .
 tagName
 )
@@ -3550,10 +3550,10 @@ addNewRule
 (
 this
 .
-viewedElement
+selectedNodeFront
 this
 .
-viewedElement
+selectedNodeFront
 .
 pseudoClassLocks
 )
@@ -3566,7 +3566,7 @@ canAddNewRuleForSelectedNode
 return
 this
 .
-viewedElement
+selectedNodeFront
 &
 &
 this
@@ -3752,7 +3752,7 @@ if
 (
 this
 .
-viewedElement
+selectedNodeFront
 &
 &
 refreshOnPrefs
@@ -3769,7 +3769,7 @@ selectElement
 (
 this
 .
-viewedElement
+selectedNodeFront
 true
 )
 ;
@@ -4270,7 +4270,7 @@ true
 ;
 this
 .
-viewedElement
+selectedNodeFront
 =
 null
 ;
@@ -4709,7 +4709,7 @@ newPageStyle
 =
 this
 .
-viewedElement
+selectedNodeFront
 ?
 .
 inspectorFront
@@ -4792,17 +4792,17 @@ async
 selectElement
 (
 element
-allowRefresh
+forceRefresh
 =
 false
 )
 {
 const
-refresh
+sameElementSelected
 =
 this
 .
-viewedElement
+selectedNodeFront
 =
 =
 =
@@ -4810,11 +4810,11 @@ element
 ;
 if
 (
-refresh
+sameElementSelected
 &
 &
 !
-allowRefresh
+forceRefresh
 )
 {
 return
@@ -4870,7 +4870,7 @@ null
 }
 this
 .
-viewedElement
+selectedNodeFront
 =
 element
 ;
@@ -5031,7 +5031,7 @@ return
 if
 (
 !
-refresh
+sameElementSelected
 )
 {
 this
@@ -5398,7 +5398,7 @@ if
 !
 this
 .
-viewedElement
+selectedNodeFront
 )
 {
 return
@@ -5411,7 +5411,7 @@ tagName
 =
 this
 .
-viewedElement
+selectedNodeFront
 .
 tagName
 ?
@@ -5475,7 +5475,7 @@ if
 !
 this
 .
-viewedElement
+selectedNodeFront
 |
 |
 !
@@ -5531,7 +5531,7 @@ pseudoClassLocks
 =
 this
 .
-viewedElement
+selectedNodeFront
 .
 pseudoClassLocks
 ;
@@ -5792,7 +5792,7 @@ if
 (
 this
 .
-viewedElement
+selectedNodeFront
 &
 &
 emptyNotice
@@ -5811,7 +5811,7 @@ if
 !
 this
 .
-viewedElement
+selectedNodeFront
 &
 &
 !
@@ -11549,7 +11549,7 @@ this
 .
 view
 .
-viewedElement
+selectedNodeFront
 )
 {
 this
