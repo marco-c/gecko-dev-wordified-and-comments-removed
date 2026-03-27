@@ -1073,8 +1073,7 @@ element
 "
 )
 ;
-auto
-*
+RefPtr
 rootElement
 =
 SVGSVGElement
