@@ -709,6 +709,8 @@ syncedTabsEmptyState
 querySelector
 (
 "
+moz
+-
 button
 "
 )
