@@ -660,6 +660,9 @@ ensureLoaded
 let
 results
 =
+new
+Set
+(
 this
 .
 #
@@ -669,11 +672,6 @@ get
 (
 input
 )
-?
-?
-new
-Set
-(
 )
 ;
 if
