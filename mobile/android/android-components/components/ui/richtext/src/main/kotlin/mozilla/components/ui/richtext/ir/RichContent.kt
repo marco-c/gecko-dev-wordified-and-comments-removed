@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+file
+:
+Suppress
+(
+"
+UndocumentedPublicClass
+"
+)
 package
 mozilla
 .
@@ -120,7 +128,6 @@ format
 *
 /
 Immutable
-internal
 data
 class
 RichDocument
@@ -143,7 +150,6 @@ content
 *
 /
 Stable
-internal
 sealed
 interface
 InlineContent
@@ -224,7 +230,6 @@ InlineContent
 }
 JvmInline
 Stable
-internal
 value
 class
 HeadingLevel
@@ -326,7 +331,6 @@ BlockContent
 *
 /
 Stable
-internal
 sealed
 interface
 BlockContent

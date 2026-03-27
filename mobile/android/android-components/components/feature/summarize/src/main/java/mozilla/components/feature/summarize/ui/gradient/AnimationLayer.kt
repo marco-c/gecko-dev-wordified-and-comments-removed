@@ -691,6 +691,11 @@ Modifier
 .
 summaryLoadingGradient
 (
+alpha
+:
+Float
+=
+1f
 )
 :
 Modifier
@@ -808,6 +813,7 @@ drawBehind
 {
 drawBackgroundWash
 (
+alpha
 )
 for
 (
@@ -861,6 +867,8 @@ alpha
 BlobDefaults
 .
 ALPHA
+*
+alpha
 )
 density
 =
@@ -1090,6 +1098,11 @@ DrawScope
 .
 drawBackgroundWash
 (
+alpha
+:
+Float
+=
+1f
 )
 {
 val
@@ -1138,6 +1151,8 @@ alpha
 GradientDefaults
 .
 ALPHA
+*
+alpha
 )
 GradientDefaults
 .
@@ -1154,6 +1169,8 @@ alpha
 GradientDefaults
 .
 ALPHA
+*
+alpha
 )
 GradientDefaults
 .
@@ -1170,6 +1187,8 @@ alpha
 GradientDefaults
 .
 ALPHA
+*
+alpha
 )
 )
 start
