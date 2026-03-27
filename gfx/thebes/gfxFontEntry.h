@@ -1681,6 +1681,7 @@ mFace
 ;
 }
 ;
+virtual
 AutoHBFace
 GetHBFace
 (
