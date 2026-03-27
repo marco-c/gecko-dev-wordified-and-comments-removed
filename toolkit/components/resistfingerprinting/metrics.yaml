@@ -30081,9 +30081,6 @@ scale_stretchy_operators
 spc
 =
 mathspace_names
-rtl
-=
-rtl_operator_mirroring
 var
 =
 mathvariant_styling_fallback
