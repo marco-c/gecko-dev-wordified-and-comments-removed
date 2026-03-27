@@ -480,7 +480,7 @@ JSTracer
 *
 trc
 const
-WriteBarriered
+BarrieredBase
 <
 T
 >
@@ -732,7 +732,7 @@ JSTracer
 *
 trc
 const
-WriteBarriered
+BarrieredBase
 <
 T
 >
@@ -744,6 +744,17 @@ char
 name
 )
 {
+T
+thing
+=
+*
+thingp
+-
+>
+unbarrieredAddress
+(
+)
+;
 if
 (
 InternalBarrierMethods
@@ -754,12 +765,7 @@ T
 :
 isMarkable
 (
-thingp
--
->
-get
-(
-)
+thing
 )
 )
 {
@@ -1826,7 +1832,7 @@ JSObject
 *
 src
 const
-WriteBarriered
+BarrieredBase
 <
 T
 >
@@ -1945,7 +1951,7 @@ Zone
 *
 weakMapZone
 const
-WriteBarriered
+BarrieredBase
 <
 T
 >

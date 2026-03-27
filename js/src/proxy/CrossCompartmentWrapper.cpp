@@ -3098,6 +3098,9 @@ FinalizationRecordObject
 AutoDisableProxyCheck
 adpc
 ;
+AutoTouchingGrayThings
+atgt
+;
 gc
 :
 :
