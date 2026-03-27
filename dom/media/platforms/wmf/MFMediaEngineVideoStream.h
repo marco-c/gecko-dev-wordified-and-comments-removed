@@ -371,6 +371,16 @@ mIsEncrypted
 =
 false
 ;
+bool
+mHasClearLead
+=
+false
+;
+bool
+mSwitchedClearToEncrypted
+=
+false
+;
 }
 ;
 }
