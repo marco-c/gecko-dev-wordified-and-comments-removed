@@ -796,11 +796,11 @@ string
 setup_checklist_task_explore_extensions
 icon
 =
-R
+iconsR
 .
 drawable
 .
-ic_addons_extensions
+mozac_ic_extension_24
 isCompleted
 =
 isCompleted
