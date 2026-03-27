@@ -146,6 +146,12 @@ defined
 (
 GP_OS_windows
 )
+&
+&
+defined
+(
+_MSC_VER
+)
 #
 define
 POWER_HELP
