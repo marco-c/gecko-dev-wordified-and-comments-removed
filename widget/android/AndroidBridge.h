@@ -307,9 +307,6 @@ Object
 GlobalRef
 mMessageQueue
 ;
-jfieldID
-mMessageQueueMessages
-;
 jmethodID
 mMessageQueueNext
 ;

@@ -791,6 +791,9 @@ KeyEvent
 MediaCodec
 "
 "
+MessageQueue
+"
+"
 MotionEvent
 "
 "

@@ -1,0 +1,13 @@
+[
+android
+.
+os
+.
+MessageQueue
+=
+skip
+:
+true
+]
+isIdle
+=
