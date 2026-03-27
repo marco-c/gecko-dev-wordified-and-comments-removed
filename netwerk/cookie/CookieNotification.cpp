@@ -250,6 +250,15 @@ aOperationID
 aOperationID
 =
 mOperationID
+?
+mOperationID
+-
+>
+Clone
+(
+)
+:
+nullptr
 ;
 return
 NS_OK
