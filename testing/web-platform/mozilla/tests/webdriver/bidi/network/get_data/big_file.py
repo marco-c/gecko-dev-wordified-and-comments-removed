@@ -22,13 +22,9 @@ _mozilla
 /
 webdriver
 /
-bidi
-/
-network
-/
-get_data
-/
 support
+/
+assets
 /
 big
 .
