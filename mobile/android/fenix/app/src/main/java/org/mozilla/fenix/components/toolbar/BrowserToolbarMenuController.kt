@@ -1307,6 +1307,16 @@ content
 .
 url
 )
+redirect
+.
+appIntent
+?
+.
+flags
+=
+Intent
+.
+FLAG_ACTIVITY_NEW_TASK
 appLinksUseCases
 .
 openAppLink
