@@ -3,8 +3,6 @@ json
 import
 time
 import
-mozunit
-import
 pytest
 pytest
 .
@@ -3901,6 +3899,9 @@ __name__
 __main__
 "
 :
+    
+import
+mozunit
     
 mozunit
 .

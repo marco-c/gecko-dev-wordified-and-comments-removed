@@ -5,8 +5,6 @@ io
 import
 StringIO
 import
-mozunit
-import
 pytest
 from
 mozterm
@@ -494,6 +492,9 @@ __name__
 __main__
 "
 :
+    
+import
+mozunit
     
 mozunit
 .

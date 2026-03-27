@@ -18,8 +18,6 @@ mozlog
 unstructured
 as
 mozlog
-import
-mozunit
 class
 ListHandler
 (
@@ -2181,6 +2179,9 @@ __name__
 __main__
 "
 :
+    
+import
+mozunit
     
 mozunit
 .

@@ -2,8 +2,6 @@ import
 sys
 import
 unittest
-import
-mozunit
 from
 mozlog
 import
@@ -266,6 +264,9 @@ __name__
 __main__
 "
 :
+    
+import
+mozunit
     
 mozunit
 .
