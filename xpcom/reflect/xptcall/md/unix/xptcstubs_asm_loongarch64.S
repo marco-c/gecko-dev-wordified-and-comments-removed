@@ -96,7 +96,7 @@ NFPREGS
 -
 16
 .
-cfi_def_cfa_offset
+cfi_adjust_cfa_offset
 8
 *
 (
@@ -264,7 +264,7 @@ NFPREGS
 +
 16
 .
-cfi_def_cfa_offset
+cfi_adjust_cfa_offset
 -
 8
 *

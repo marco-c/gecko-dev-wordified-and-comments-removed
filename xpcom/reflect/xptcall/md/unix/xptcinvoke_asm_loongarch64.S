@@ -101,7 +101,7 @@ sp
 -
 32
 .
-cfi_def_cfa_offset
+cfi_adjust_cfa_offset
 32
 st
 .
@@ -413,7 +413,7 @@ sp
 sp
 32
 .
-cfi_def_cfa_offset
+cfi_adjust_cfa_offset
 -
 32
 jirl
