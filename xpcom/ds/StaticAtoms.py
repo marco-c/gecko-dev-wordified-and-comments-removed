@@ -26522,17 +26522,6 @@ highlight
 Atom
 (
 "
-PseudoStyle_Picker
-"
-"
-:
-picker
-"
-)
-    
-Atom
-(
-"
 PseudoStyle_Selection
 "
 "
