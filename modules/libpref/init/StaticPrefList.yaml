@@ -80226,17 +80226,9 @@ enabled
 type
 :
 RelaxedAtomicBool
-#
-if
-defined
-(
-MOZ_AV1
-)
 value
 :
 true
-#
-endif
 mirror
 :
 always

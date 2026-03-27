@@ -6,17 +6,12 @@ jni
 h
 >
 #
-ifdef
-MOZ_AV1
-#
 include
 "
 AOMDecoder
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1628,9 +1623,6 @@ return
 support
 ;
 }
-#
-ifdef
-MOZ_AV1
 if
 (
 AOMDecoder
@@ -1681,8 +1673,6 @@ DecodeSupportSet
 }
 ;
 }
-#
-endif
 const
 TrackInfo
 &

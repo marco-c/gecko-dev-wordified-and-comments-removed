@@ -257,14 +257,6 @@ endif
 if
 defined
 (
-MOZ_AV1
-)
-&
-&
-\
-(
-defined
-(
 FFVPX_VERSION
 )
 |
@@ -273,7 +265,6 @@ LIBAVCODEC_VERSION_MAJOR
 >
 =
 59
-)
 #
 define
 FFMPEG_AV1_DECODE

@@ -1181,9 +1181,6 @@ MediaCodec
 testPairs
 =
 {
-#
-ifdef
-MOZ_AV1
 {
 "
 video
@@ -1196,8 +1193,6 @@ MediaCodec
 :
 AV1
 }
-#
-endif
 {
 "
 video

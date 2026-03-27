@@ -548,9 +548,6 @@ SetCanDecrypt
 EME_CODEC_VP9
 )
 ;
-#
-ifdef
-MOZ_AV1
 config
 -
 >
@@ -561,8 +558,6 @@ SetCanDecrypt
 EME_CODEC_AV1
 )
 ;
-#
-endif
 config
 -
 >
@@ -603,9 +598,6 @@ SetCanDecrypt
 EME_CODEC_VP9
 )
 ;
-#
-ifdef
-MOZ_AV1
 config
 -
 >
@@ -616,8 +608,6 @@ SetCanDecrypt
 EME_CODEC_AV1
 )
 ;
-#
-endif
 if
 (
 StaticPrefs
@@ -909,9 +899,6 @@ config
 >
 mMP4
 }
-#
-ifdef
-MOZ_AV1
 {
 nsCString
 (
@@ -931,8 +918,6 @@ config
 >
 mMP4
 }
-#
-endif
 {
 nsCString
 (
@@ -1028,9 +1013,6 @@ config
 >
 mWebM
 }
-#
-ifdef
-MOZ_AV1
 {
 nsCString
 (
@@ -1050,8 +1032,6 @@ config
 >
 mWebM
 }
-#
-endif
 {
 nsCString
 (
@@ -1273,9 +1253,6 @@ SetCanDecryptAndDecode
 EME_CODEC_VP9
 )
 ;
-#
-ifdef
-MOZ_AV1
 config
 -
 >
@@ -1286,8 +1263,6 @@ SetCanDecryptAndDecode
 EME_CODEC_AV1
 )
 ;
-#
-endif
 config
 -
 >
@@ -1328,9 +1303,6 @@ SetCanDecryptAndDecode
 EME_CODEC_VP9
 )
 ;
-#
-ifdef
-MOZ_AV1
 config
 -
 >
@@ -1341,8 +1313,6 @@ SetCanDecryptAndDecode
 EME_CODEC_AV1
 )
 ;
-#
-endif
 #
 endif
 }

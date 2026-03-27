@@ -41,17 +41,12 @@ stdint
 h
 >
 #
-ifdef
-MOZ_AV1
-#
 include
 "
 AOMDecoder
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -329,9 +324,6 @@ WMFStreamType
 VP9
 ;
 }
-#
-ifdef
-MOZ_AV1
 if
 (
 AOMDecoder
@@ -350,8 +342,6 @@ WMFStreamType
 AV1
 ;
 }
-#
-endif
 if
 (
 MP4Decoder
@@ -1749,9 +1739,6 @@ return
 MFVideoFormat_VP90
 ;
 }
-#
-ifdef
-MOZ_AV1
 if
 (
 AOMDecoder
@@ -1767,8 +1754,6 @@ return
 MFVideoFormat_AV1
 ;
 }
-#
-endif
 if
 (
 MP4Decoder

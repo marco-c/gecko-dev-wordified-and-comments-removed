@@ -6,17 +6,12 @@ PDMFactory
 h
 "
 #
-ifdef
-MOZ_AV1
-#
 include
 "
 AOMDecoder
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -2404,9 +2399,6 @@ mMimeType
 )
 |
 |
-#
-ifdef
-MOZ_AV1
 AOMDecoder
 :
 :
@@ -2418,8 +2410,6 @@ mMimeType
 )
 |
 |
-#
-endif
 VPXDecoder
 :
 :
@@ -4811,9 +4801,6 @@ aSupported
 )
 ;
 }
-#
-ifdef
-MOZ_AV1
 if
 (
 AOMDecoder
@@ -4839,8 +4826,6 @@ aSupported
 )
 ;
 }
-#
-endif
 if
 (
 MP4Decoder

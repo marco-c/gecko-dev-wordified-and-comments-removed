@@ -344,14 +344,6 @@ DIRS
 ffmpeg
 "
 ]
-if
-CONFIG
-[
-"
-MOZ_AV1
-"
-]
-:
 EXPORTS
 +
 =

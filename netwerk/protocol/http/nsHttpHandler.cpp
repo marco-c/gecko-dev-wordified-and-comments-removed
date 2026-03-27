@@ -1282,9 +1282,6 @@ ImageAcceptHeader
 nsCString
 mimeTypes
 ;
-#
-ifdef
-MOZ_AV1
 mimeTypes
 .
 Append
@@ -1296,8 +1293,6 @@ avif
 "
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_JXL
@@ -1420,9 +1415,6 @@ network_http_accept_include_images
 )
 )
 {
-#
-ifdef
-MOZ_AV1
 mimeTypes
 .
 Append
@@ -1434,8 +1426,6 @@ avif
 "
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_JXL

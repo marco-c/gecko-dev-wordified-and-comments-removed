@@ -2862,9 +2862,6 @@ VP9
 aSupported
 )
 ;
-#
-ifdef
-MOZ_AV1
 case
 CodecType
 :
@@ -2887,8 +2884,6 @@ AV1
 aSupported
 )
 ;
-#
-endif
 default
 :
 break

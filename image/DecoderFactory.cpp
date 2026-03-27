@@ -113,17 +113,12 @@ nsWebPDecoder
 h
 "
 #
-ifdef
-MOZ_AV1
-#
 include
 "
 nsAVIFDecoder
 .
 h
 "
-#
-endif
 #
 ifdef
 MOZ_JXL
@@ -450,9 +445,6 @@ DecoderType
 WEBP
 ;
 }
-#
-ifdef
-MOZ_AV1
 else
 if
 (
@@ -472,8 +464,6 @@ DecoderType
 AVIF
 ;
 }
-#
-endif
 #
 ifdef
 MOZ_JXL
@@ -692,9 +682,6 @@ aImage
 ;
 break
 ;
-#
-ifdef
-MOZ_AV1
 case
 DecoderType
 :
@@ -711,8 +698,6 @@ aImage
 ;
 break
 ;
-#
-endif
 #
 ifdef
 MOZ_JXL

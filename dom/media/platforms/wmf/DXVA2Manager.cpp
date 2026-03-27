@@ -1,15 +1,10 @@
 #
-ifdef
-MOZ_AV1
-#
 include
 "
-AOMDecoder
+DXVA2Manager
 .
 h
 "
-#
-endif
 #
 include
 <
@@ -20,7 +15,7 @@ h
 #
 include
 "
-DXVA2Manager
+AOMDecoder
 .
 h
 "

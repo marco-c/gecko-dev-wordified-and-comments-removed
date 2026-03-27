@@ -6,17 +6,12 @@ MatroskaDecoder
 h
 "
 #
-ifdef
-MOZ_AV1
-#
 include
 "
 AOMDecoder
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -537,9 +532,6 @@ trackInfo
 continue
 ;
 }
-#
-ifdef
-MOZ_AV1
 if
 (
 StaticPrefs
@@ -600,8 +592,6 @@ trackInfo
 continue
 ;
 }
-#
-endif
 aError
 =
 MediaResult
@@ -902,9 +892,6 @@ aContainerType
 )
 )
 ;
-#
-ifdef
-MOZ_AV1
 if
 (
 StaticPrefs
@@ -932,8 +919,6 @@ aContainerType
 )
 ;
 }
-#
-endif
 }
 RefPtr
 <

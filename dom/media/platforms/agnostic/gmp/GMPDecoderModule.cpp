@@ -6,17 +6,12 @@ GMPDecoderModule
 h
 "
 #
-ifdef
-MOZ_AV1
-#
 include
 "
 AOMDecoder
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -252,9 +247,6 @@ mMimeType
 )
 &
 &
-#
-ifdef
-MOZ_AV1
 !
 AOMDecoder
 :
@@ -269,8 +261,6 @@ mMimeType
 )
 &
 &
-#
-endif
 !
 VPXDecoder
 :
@@ -386,9 +376,6 @@ h264
 _ns
 )
 ;
-#
-ifdef
-MOZ_AV1
 }
 else
 if
@@ -412,8 +399,6 @@ av1
 _ns
 )
 ;
-#
-endif
 }
 else
 if

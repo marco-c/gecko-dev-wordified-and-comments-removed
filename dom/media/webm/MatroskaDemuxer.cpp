@@ -6,17 +6,12 @@ MatroskaDemuxer
 h
 "
 #
-ifdef
-MOZ_AV1
-#
 include
 "
 AOMDecoder
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1526,9 +1521,6 @@ Codec
 VP9
 )
 ;
-#
-ifdef
-MOZ_AV1
 case
 NESTEGG_CODEC_AV1
 :
@@ -1542,8 +1534,6 @@ IsKeyframe
 aSample
 )
 ;
-#
-endif
 default
 :
 MOZ_ASSERT_UNREACHABLE
