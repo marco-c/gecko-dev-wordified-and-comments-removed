@@ -255,6 +255,11 @@ isAllowed
 feature
 .
 isAllowed
+isBlocked
+:
+feature
+.
+isBlocked
 }
 ;
 }

@@ -1106,6 +1106,12 @@ field
 public
 final
 boolean
+isBlocked
+;
+field
+public
+final
+boolean
 isEnabled
 ;
 }
