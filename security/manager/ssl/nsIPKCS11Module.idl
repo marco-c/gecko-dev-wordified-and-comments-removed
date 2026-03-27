@@ -67,9 +67,6 @@ idl
 interface
 nsIPKCS11Slot
 ;
-interface
-nsISimpleEnumerator
-;
 [
 scriptable
 uuid
@@ -109,10 +106,13 @@ libName
 [
 must_use
 ]
-nsISimpleEnumerator
-listSlots
-(
-)
+readonly
+attribute
+Array
+<
+nsIPKCS11Slot
+>
+slots
 ;
 }
 ;

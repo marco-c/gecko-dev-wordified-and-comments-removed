@@ -1165,6 +1165,10 @@ PPKCS11ModuleChild
 &
 &
 aEndpoint
+nsCString
+&
+&
+aProfilePath
 )
 {
 auto
@@ -1199,6 +1203,13 @@ std
 move
 (
 aEndpoint
+)
+std
+:
+:
+move
+(
+aProfilePath
 )
 )
 )
