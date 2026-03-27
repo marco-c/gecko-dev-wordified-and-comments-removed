@@ -1131,11 +1131,44 @@ as
 e
 :
                             
+self
+.
+debug
+(
+f
+"
+Exception
+from
+killpg
+(
+{
+pid
+}
+{
+sig
+}
+)
+:
+{
+e
+}
+"
+)
+                            
 if
 retries
 <
-1
+3
 and
+(
+                                
+isinstance
+(
+e
+PermissionError
+)
+                                
+or
 getattr
 (
 e
@@ -1149,7 +1182,18 @@ None
 errno
 .
 EPERM
+                            
+)
 :
+                                
+time
+.
+sleep
+(
+self
+.
+TIMEOUT_BEFORE_SIGKILL
+)
                                 
 try
 :
@@ -1160,7 +1204,9 @@ waitpid
 (
 -
 pid
-0
+os
+.
+WNOHANG
 )
                                 
 except
@@ -1179,6 +1225,16 @@ retries
 )
                             
 if
+not
+(
+                                
+isinstance
+(
+e
+ProcessLookupError
+)
+                                
+or
 getattr
 (
 e
@@ -1187,11 +1243,13 @@ errno
 "
 None
 )
-!
+=
 =
 errno
 .
 ESRCH
+                            
+)
 :
                                 
 print
