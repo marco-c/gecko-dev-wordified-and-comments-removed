@@ -612,13 +612,15 @@ Value
 options
 )
 ;
-JSLinearString
-*
+bool
 ComputeDefaultLocale
 (
 JSContext
 *
 cx
+LanguageId
+*
+result
 )
 ;
 }
