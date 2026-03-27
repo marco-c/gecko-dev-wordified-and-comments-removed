@@ -141,11 +141,16 @@ GetParentService
 (
 )
 ;
-MOZ_RELEASE_ASSERT
+if
 (
+!
 service
 )
+{
+return
+nullptr
 ;
+}
 nsCString
 name
 =

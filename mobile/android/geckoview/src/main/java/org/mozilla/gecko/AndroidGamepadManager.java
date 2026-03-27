@@ -1943,6 +1943,17 @@ getName
 )
 )
 ;
+if
+(
+gamepadId
+=
+=
+null
+)
+{
+return
+;
+}
 ThreadUtils
 .
 runOnUiThread
