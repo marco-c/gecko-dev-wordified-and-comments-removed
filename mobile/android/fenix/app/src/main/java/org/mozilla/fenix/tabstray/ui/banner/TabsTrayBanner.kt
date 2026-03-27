@@ -3066,11 +3066,11 @@ tab_manager_multiselect_menu_item_add_to_collection
 )
 drawableRes
 =
-R
+iconsR
 .
 drawable
 .
-ic_tab_collection
+mozac_ic_collection_24
 testTag
 =
 TabsTrayTestTag

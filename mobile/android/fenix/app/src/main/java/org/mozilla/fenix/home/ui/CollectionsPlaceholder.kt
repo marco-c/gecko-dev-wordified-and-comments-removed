@@ -593,11 +593,11 @@ icon
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
-ic_tab_collection
+mozac_ic_collection_24
 )
 onClick
 =
