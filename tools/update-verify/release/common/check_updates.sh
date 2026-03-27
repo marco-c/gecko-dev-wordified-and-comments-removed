@@ -762,7 +762,7 @@ cd_dir
 "
 |
 |
-(
+{
 echo
 "
 TEST
@@ -783,8 +783,9 @@ cd_dir
 &
 &
 return
-1
-)
+2
+;
+}
 set
 -
 x
@@ -988,7 +989,7 @@ source
 platform_dirname
 "
 return
-1
+3
 fi
 #
 Print
@@ -1043,7 +1044,7 @@ successful
 update_status
 "
 return
-1
+4
 fi
 #
 TODO
@@ -1591,7 +1592,7 @@ after
 update
 "
 return
-4
+5
 fi
 #
 This
@@ -1654,7 +1655,7 @@ after
 update
 "
 return
-5
+6
 fi
 fi
 #
@@ -1741,7 +1742,7 @@ after
 update
 "
 return
-1
+7
 elif
 [
 diffErr
@@ -1766,7 +1767,7 @@ diff
 diffErr
 "
 return
-3
+8
 fi
 }
 #
