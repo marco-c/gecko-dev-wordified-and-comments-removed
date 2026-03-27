@@ -225,9 +225,9 @@ bool
 IsScrollbarWidthThin
 (
 const
-ComputedStyle
-&
-aStyle
+nsIFrame
+*
+aFrame
 )
 ;
 CSSIntCoord

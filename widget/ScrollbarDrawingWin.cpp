@@ -299,8 +299,7 @@ ScrollbarDrawing
 :
 IsScrollbarWidthThin
 (
-*
-style
+aFrame
 )
 )
 {
