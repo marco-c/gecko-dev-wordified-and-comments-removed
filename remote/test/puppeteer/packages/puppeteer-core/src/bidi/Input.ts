@@ -3434,6 +3434,13 @@ pressure
 0
 .
 5
+altitudeAngle
+:
+Math
+.
+PI
+/
+2
 }
 ;
 const
