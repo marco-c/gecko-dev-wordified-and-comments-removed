@@ -432,13 +432,6 @@ button
 }
 )
 ;
-await
-helper
-.
-startPrint
-(
-)
-;
 const
 data
 =
