@@ -9748,6 +9748,15 @@ platform
 "
 )
         
+old_path
+=
+sys
+.
+path
+[
+:
+]
+        
 sys
 .
 path
@@ -9819,6 +9828,12 @@ logger
 logger
         
 )
+        
+sys
+.
+path
+=
+old_path
         
 if
 not
