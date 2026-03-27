@@ -1022,6 +1022,9 @@ true
 showPrivacyReport
 =
 true
+trackersBlockedCount
+=
+754
 headerState
 =
 HeaderState

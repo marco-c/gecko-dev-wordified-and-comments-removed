@@ -1284,7 +1284,7 @@ TrackersBlockedCard
 (
 trackersBlockedCount
 =
-0
+trackersBlockedCount
 modifier
 =
 Modifier
@@ -2553,6 +2553,9 @@ true
 showPrivacyReport
 =
 true
+trackersBlockedCount
+=
+754
 headerState
 =
 HeaderState
@@ -2743,6 +2746,9 @@ true
 showPrivacyReport
 =
 true
+trackersBlockedCount
+=
+754
 headerState
 =
 HeaderState
@@ -2933,6 +2939,9 @@ true
 showPrivacyReport
 =
 true
+trackersBlockedCount
+=
+754
 headerState
 =
 HeaderState
@@ -3123,6 +3132,9 @@ false
 showPrivacyReport
 =
 true
+trackersBlockedCount
+=
+754
 headerState
 =
 HeaderState
