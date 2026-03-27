@@ -3542,7 +3542,7 @@ Event
 .
 GrowthData
 .
-SerpAdClicked
+ConversionEvent5
 )
 }
 Component
@@ -3596,7 +3596,7 @@ Event
 .
 GrowthData
 .
-UserActivated
+ConversionEvent7
 (
 fromSearch
 =

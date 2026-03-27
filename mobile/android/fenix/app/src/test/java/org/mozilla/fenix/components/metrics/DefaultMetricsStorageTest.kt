@@ -485,7 +485,7 @@ Event
 .
 GrowthData
 .
-SetAsDefault
+ConversionEvent1
 )
 assertFalse
 (
@@ -546,7 +546,7 @@ Event
 .
 GrowthData
 .
-SetAsDefault
+ConversionEvent1
 )
 assertFalse
 (
@@ -605,7 +605,7 @@ Event
 .
 GrowthData
 .
-SetAsDefault
+ConversionEvent1
 )
 assertTrue
 (
@@ -664,7 +664,7 @@ Event
 .
 GrowthData
 .
-SetAsDefault
+ConversionEvent1
 )
 assertFalse
 (
@@ -722,7 +722,7 @@ Event
 .
 GrowthData
 .
-SetAsDefault
+ConversionEvent1
 )
 assertTrue
 (
@@ -822,7 +822,7 @@ Event
 .
 GrowthData
 .
-FirstWeekSeriesActivity
+ConversionEvent4
 )
 assertFalse
 (
@@ -915,7 +915,7 @@ Event
 .
 GrowthData
 .
-FirstWeekSeriesActivity
+ConversionEvent4
 )
 assertTrue
 (
@@ -1024,7 +1024,7 @@ Event
 .
 GrowthData
 .
-FirstWeekSeriesActivity
+ConversionEvent4
 )
 assertFalse
 (
@@ -1135,7 +1135,7 @@ Event
 .
 GrowthData
 .
-FirstWeekSeriesActivity
+ConversionEvent4
 )
 assertFalse
 (
@@ -1225,7 +1225,7 @@ Event
 .
 GrowthData
 .
-FirstWeekSeriesActivity
+ConversionEvent4
 )
 assertFalse
 (
@@ -1326,7 +1326,7 @@ Event
 .
 GrowthData
 .
-FirstWeekSeriesActivity
+ConversionEvent4
 )
 assertTrue
 (
@@ -1405,7 +1405,7 @@ Event
 .
 GrowthData
 .
-FirstWeekSeriesActivity
+ConversionEvent4
 )
 assertTrue
 (
@@ -1486,7 +1486,7 @@ Event
 .
 GrowthData
 .
-FirstWeekSeriesActivity
+ConversionEvent4
 )
 assertTrue
 (
@@ -1580,7 +1580,7 @@ Event
 .
 GrowthData
 .
-FirstWeekSeriesActivity
+ConversionEvent4
 )
 assertFalse
 (
@@ -1638,7 +1638,7 @@ Event
 .
 GrowthData
 .
-SerpAdClicked
+ConversionEvent5
 )
 assertFalse
 (
@@ -1693,7 +1693,7 @@ Event
 .
 GrowthData
 .
-SerpAdClicked
+ConversionEvent5
 )
 assertTrue
 (
@@ -1761,7 +1761,7 @@ Event
 .
 GrowthData
 .
-UsageThreshold
+ConversionEvent6
 )
 assertFalse
 (
@@ -1827,7 +1827,7 @@ Event
 .
 GrowthData
 .
-UsageThreshold
+ConversionEvent6
 )
 assertTrue
 (
@@ -2296,7 +2296,7 @@ Event
 .
 GrowthData
 .
-FirstAppOpenForDay
+ConversionEvent2
 )
 assertFalse
 (
@@ -2380,7 +2380,7 @@ Event
 .
 GrowthData
 .
-FirstAppOpenForDay
+ConversionEvent2
 )
 assertTrue
 (
@@ -2444,7 +2444,7 @@ Event
 .
 GrowthData
 .
-FirstAppOpenForDay
+ConversionEvent2
 )
 assertTrue
 (
@@ -2514,7 +2514,7 @@ Event
 .
 GrowthData
 .
-FirstUriLoadForDay
+ConversionEvent3
 )
 assertFalse
 (
@@ -2598,7 +2598,7 @@ Event
 .
 GrowthData
 .
-FirstUriLoadForDay
+ConversionEvent3
 )
 assertTrue
 (
@@ -2661,7 +2661,7 @@ Event
 .
 GrowthData
 .
-FirstUriLoadForDay
+ConversionEvent3
 )
 assertTrue
 (
@@ -2752,7 +2752,7 @@ Event
 .
 GrowthData
 .
-UserActivated
+ConversionEvent7
 (
 fromSearch
 =
@@ -2843,7 +2843,7 @@ Event
 .
 GrowthData
 .
-UserActivated
+ConversionEvent7
 (
 fromSearch
 =
@@ -2933,7 +2933,7 @@ Event
 .
 GrowthData
 .
-UserActivated
+ConversionEvent7
 (
 fromSearch
 =
@@ -3027,7 +3027,7 @@ Event
 .
 GrowthData
 .
-UserActivated
+ConversionEvent7
 (
 fromSearch
 =
@@ -3145,7 +3145,7 @@ Event
 .
 GrowthData
 .
-UserActivated
+ConversionEvent7
 (
 fromSearch
 =
@@ -3267,7 +3267,7 @@ Event
 .
 GrowthData
 .
-UserActivated
+ConversionEvent7
 (
 fromSearch
 =
@@ -3366,7 +3366,7 @@ Event
 .
 GrowthData
 .
-UserActivated
+ConversionEvent7
 (
 fromSearch
 =
@@ -3466,7 +3466,7 @@ Event
 .
 GrowthData
 .
-UserActivated
+ConversionEvent7
 (
 fromSearch
 =

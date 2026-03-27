@@ -234,7 +234,7 @@ Event
 .
 GrowthData
 .
-UserActivated
+ConversionEvent7
 (
 fromSearch
 =
