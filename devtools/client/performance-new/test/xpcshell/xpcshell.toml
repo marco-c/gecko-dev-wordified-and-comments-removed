@@ -43,6 +43,13 @@ js
 ]
 [
 "
+test_format_file_size
+.
+js
+"
+]
+[
+"
 test_remove_common_path_prefix
 .
 js
