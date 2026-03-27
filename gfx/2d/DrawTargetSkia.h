@@ -973,6 +973,12 @@ aSurface
 )
 ;
 static
+void
+UpdateSurfaceProps
+(
+)
+;
+static
 size_t
 GetMaxSurfaceSize
 (
