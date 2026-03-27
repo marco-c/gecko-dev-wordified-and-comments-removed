@@ -409,13 +409,6 @@ hello
 )
 )
 ;
-AIWindowUI
-.
-closeSidebar
-(
-win
-)
-;
 await
 lazy
 .
