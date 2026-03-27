@@ -757,12 +757,6 @@ if
 (
 !
 ret
-|
-|
-zero
-!
-=
-0
 )
 {
 return
