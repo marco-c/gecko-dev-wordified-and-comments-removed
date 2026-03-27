@@ -2819,11 +2819,11 @@ painterResource
 (
 id
 =
-R
+iconsR
 .
 drawable
 .
-ic_bookmark_outline
+mozac_ic_bookmark_24
 )
 contentDescription
 =
