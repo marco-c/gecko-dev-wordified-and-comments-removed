@@ -651,6 +651,10 @@ happy_eyeballs_glue
 ;
 extern
 crate
+lockstore_ffi
+;
+extern
+crate
 mls_gk
 ;
 extern
