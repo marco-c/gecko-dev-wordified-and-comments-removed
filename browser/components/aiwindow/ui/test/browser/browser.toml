@@ -273,13 +273,6 @@ js
 ]
 [
 "
-browser_aiwindow_smartbar_telemetry
-.
-js
-"
-]
-[
-"
 browser_aiwindow_smartbar_ask
 .
 js

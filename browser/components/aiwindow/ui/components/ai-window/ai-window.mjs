@@ -5218,11 +5218,6 @@ chat_id
 this
 .
 conversationId
-location
-:
-this
-.
-mode
 }
 )
 ;
