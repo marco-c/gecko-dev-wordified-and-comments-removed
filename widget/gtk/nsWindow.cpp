@@ -3130,6 +3130,12 @@ auto
 clientSize
 =
 gUseStableRounding
+&
+&
+!
+IsWaylandPopup
+(
+)
 ?
 GetClientSize
 (
