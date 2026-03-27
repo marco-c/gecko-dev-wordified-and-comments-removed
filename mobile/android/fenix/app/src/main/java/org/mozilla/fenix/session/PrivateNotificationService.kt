@@ -342,7 +342,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_private_mode_24
+mozac_ic_private_mode_fill_24
 )
 val
 contentTitle
