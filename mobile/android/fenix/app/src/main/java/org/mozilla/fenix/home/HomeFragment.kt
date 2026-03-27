@@ -2871,6 +2871,11 @@ showStories
 settings
 .
 showPocketRecommendationsFeature
+|
+|
+settings
+.
+privateModeAndStoriesEntryPointEnabled
 val
 showSponsoredStories
 =

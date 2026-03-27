@@ -389,9 +389,16 @@ get
 (
 )
 =
+(
 settings
 .
 showPocketRecommendationsFeature
+|
+|
+settings
+.
+privateModeAndStoriesEntryPointEnabled
+)
 override
 val
 showPocketSponsoredStories
