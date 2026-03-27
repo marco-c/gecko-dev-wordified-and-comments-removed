@@ -157,11 +157,6 @@ mozHTMLAccessible
 mm
 "
 "
-mozRootAccessible
-.
-mm
-"
-"
 mozSelectableElements
 .
 mm
@@ -178,11 +173,6 @@ mm
 "
 "
 Platform
-.
-mm
-"
-"
-RootAccessibleWrap
 .
 mm
 "

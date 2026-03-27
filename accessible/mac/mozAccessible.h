@@ -34,9 +34,6 @@ MOXAccessibleBase
 .
 h
 "
-class
-mozRootAccessible
-;
 namespace
 mozilla
 {
