@@ -163,6 +163,11 @@ folder
 "
 tests
 :
+DNS
+Benchmark
+:
+"
+"
 http3
 raw
 :
