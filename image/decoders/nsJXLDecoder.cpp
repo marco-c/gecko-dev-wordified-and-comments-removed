@@ -31,6 +31,13 @@ h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 RasterImage
 .
 h
@@ -175,6 +182,12 @@ IsMetadataDecode
 (
 )
 premultiply
+gfxPlatform
+:
+:
+GetRenderingIntent
+(
+)
 )
 )
 ;
