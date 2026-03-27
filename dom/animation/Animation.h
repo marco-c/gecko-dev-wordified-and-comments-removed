@@ -1891,6 +1891,13 @@ aScheduledEventTime
 )
 ;
 void
+MaybeResolvePromiseWithThis
+(
+Promise
+*
+)
+;
+void
 CancelPendingTasks
 (
 )
