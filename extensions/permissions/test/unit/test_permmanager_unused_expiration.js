@@ -3402,7 +3402,7 @@ add_task
 (
 async
 function
-test_interaction_not_tracked_when_disabled
+test_interaction_tracked_even_when_disabled
 (
 )
 {
@@ -3541,14 +3541,14 @@ example
 com
 "
 )
-0
+1
 "
 Should
-not
 have
-a
+an
 interaction
 record
+even
 when
 feature
 is
