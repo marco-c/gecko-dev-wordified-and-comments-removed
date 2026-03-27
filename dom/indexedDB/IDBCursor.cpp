@@ -1689,7 +1689,6 @@ SetFromJSVal
 (
 aCx
 aKey
-mTransaction
 )
 ;
 if
@@ -2317,7 +2316,6 @@ SetFromJSVal
 (
 aCx
 aKey
-mTransaction
 )
 ;
 if
@@ -2441,7 +2439,6 @@ SetFromJSVal
 (
 aCx
 aPrimaryKey
-mTransaction
 )
 ;
 if
@@ -3356,7 +3353,6 @@ valueWrapper
 Clone
 (
 aCx
-mTransaction
 )
 )
 {
