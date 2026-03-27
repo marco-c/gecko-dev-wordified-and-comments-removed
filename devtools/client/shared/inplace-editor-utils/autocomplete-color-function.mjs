@@ -58,7 +58,7 @@ MPL
 /
 const
 {
-COLOR_SPACES
+RECTANGULAR_COLOR_SPACES
 }
 =
 ChromeUtils
@@ -369,7 +369,7 @@ isLastTokenComplete
 {
 list
 =
-COLOR_SPACES
+RECTANGULAR_COLOR_SPACES
 .
 concat
 (
@@ -548,7 +548,7 @@ Array
 .
 from
 (
-COLOR_SPACES
+RECTANGULAR_COLOR_SPACES
 )
 ;
 }

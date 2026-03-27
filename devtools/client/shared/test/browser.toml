@@ -1173,6 +1173,15 @@ js
 "
 browser_inplace
 -
+editor_autocomplete_gradient_functions
+.
+js
+"
+]
+[
+"
+browser_inplace
+-
 editor_autocomplete_offset
 .
 js
