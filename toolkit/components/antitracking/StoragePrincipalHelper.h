@@ -6,11 +6,6 @@ define
 mozilla_StoragePrincipalHelper_h
 #
 include
-<
-cstdint
->
-#
-include
 "
 ErrorList
 .

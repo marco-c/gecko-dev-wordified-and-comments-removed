@@ -768,7 +768,7 @@ aUserActionId
 ;
 }
 ;
-MOZ_RUNINIT
+MOZ_GLIBCXX_CONSTINIT
 nsString
 ContentAnalysisTest
 :

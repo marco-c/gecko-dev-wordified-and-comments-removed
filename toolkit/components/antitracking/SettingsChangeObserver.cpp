@@ -57,7 +57,7 @@ mozilla
 ;
 namespace
 {
-MOZ_RUNINIT
+constinit
 UniquePtr
 <
 nsTArray

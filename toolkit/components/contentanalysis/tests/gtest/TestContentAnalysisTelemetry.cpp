@@ -418,7 +418,7 @@ sAgentInfo
 ;
 }
 ;
-MOZ_RUNINIT
+MOZ_GLIBCXX_CONSTINIT
 nsString
 ContentAnalysisTelemetryTest
 :
