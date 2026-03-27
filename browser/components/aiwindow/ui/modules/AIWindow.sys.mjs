@@ -5357,7 +5357,7 @@ prefs
 .
 prefIsLocked
 (
-PREF_SMARTWINDOW_ENABLED
+PREF_AI_CONTROL_SMARTWINDOW
 )
 ;
 }
@@ -5386,7 +5386,7 @@ void
 *
 /
 async
-reset
+makeAvailable
 (
 )
 {
@@ -5478,7 +5478,7 @@ void
 *
 /
 async
-disable
+block
 (
 )
 {
