@@ -133,6 +133,13 @@ Bug
 ]
 [
 "
+browser_page_metadata
+.
+js
+"
+]
+[
+"
 browser_viewport_extractor
 .
 js
