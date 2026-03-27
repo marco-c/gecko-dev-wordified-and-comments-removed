@@ -819,6 +819,10 @@ default
 .
 suggestion
 *
+default
+.
+digital_assistant
+*
 shortcut
 .
 action

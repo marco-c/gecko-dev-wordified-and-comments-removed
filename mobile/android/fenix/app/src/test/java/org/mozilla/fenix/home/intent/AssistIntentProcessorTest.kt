@@ -367,7 +367,7 @@ MetricsUtils
 .
 Source
 .
-NONE
+DIGITAL_ASSISTANT
 )
 options
 )
@@ -454,13 +454,16 @@ null
 focusOnAddressBar
 =
 true
+startVoiceSearch
+=
+true
 searchAccessPoint
 =
 MetricsUtils
 .
 Source
 .
-NONE
+DIGITAL_ASSISTANT
 )
 null
 )
