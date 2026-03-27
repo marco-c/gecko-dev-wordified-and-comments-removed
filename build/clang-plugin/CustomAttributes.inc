@@ -92,6 +92,10 @@ moz_non_autoable
 )
 ATTR
 (
+moz_non_terminated_string
+)
+ATTR
+(
 moz_non_memmovable
 )
 ATTR

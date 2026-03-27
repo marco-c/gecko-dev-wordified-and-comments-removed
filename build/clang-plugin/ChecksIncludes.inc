@@ -132,6 +132,13 @@ h
 #
 include
 "
+NonTerminatedStringChecker
+.
+h
+"
+#
+include
+"
 NoAutoTypeChecker
 .
 h

@@ -207,6 +207,11 @@ NonParamInsideFunctionDeclChecker
 cpp
 "
 "
+NonTerminatedStringChecker
+.
+cpp
+"
+"
 NonTrivialTypeInFfiChecker
 .
 cpp

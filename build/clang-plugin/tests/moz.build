@@ -235,6 +235,11 @@ TestNonTemporaryClass
 cpp
 "
 "
+TestNonTerminatedString
+.
+cpp
+"
+"
 TestNonTrivialTypeInFfi
 .
 cpp
