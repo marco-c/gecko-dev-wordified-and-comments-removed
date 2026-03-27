@@ -56676,7 +56676,7 @@ if
 scrollContainer
 -
 >
-GetScrollRange
+GetScrollRangeForUserInputEvents
 (
 )
 .
