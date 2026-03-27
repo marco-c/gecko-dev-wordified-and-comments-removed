@@ -2674,6 +2674,10 @@ const
 double
 &
 aScale
+const
+double
+&
+aDesktopToDeviceScale
 )
 ;
 mozilla

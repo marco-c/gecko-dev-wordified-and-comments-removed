@@ -5607,6 +5607,8 @@ int32_t
 rounding
 double
 scale
+double
+desktopToDeviceScale
 )
 ;
 /

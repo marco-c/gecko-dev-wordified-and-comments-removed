@@ -3904,6 +3904,9 @@ mRounding
 CSSToLayoutDeviceScale
 mDefaultScale
 ;
+DesktopToLayoutDeviceScale
+mDesktopToDeviceScale
+;
 bool
 mUpdatedDimensions
 ;
