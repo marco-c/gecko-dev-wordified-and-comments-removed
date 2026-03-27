@@ -111,15 +111,6 @@ papayawhip
 }
 div
 :
-visited
-{
-color
-:
-orange
-;
-}
-div
-:
 focus
 -
 visible
