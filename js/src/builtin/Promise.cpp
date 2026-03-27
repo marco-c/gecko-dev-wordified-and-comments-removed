@@ -29802,7 +29802,7 @@ isModuleFrame
 )
 {
 return
-true
+false
 ;
 }
 MOZ_ASSERT
