@@ -4975,7 +4975,6 @@ return
 isRoot
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 mozilla
 :
 :
@@ -4986,15 +4985,6 @@ Element
 *
 GetAnonymousRootElementOfTextEditor
 (
-mozilla
-:
-:
-TextEditor
-*
-*
-aTextEditor
-=
-nullptr
 )
 ;
 enum
@@ -5018,7 +5008,6 @@ dom
 :
 AllowRangeCrossShadowBoundary
 ;
-MOZ_CAN_RUN_SCRIPT
 nsIContent
 *
 GetSelectionRootContent
