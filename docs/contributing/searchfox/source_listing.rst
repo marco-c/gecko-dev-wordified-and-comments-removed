@@ -455,7 +455,7 @@ header
 :
 width
 :
-535px
+659px
 For
 nesting
 structures
@@ -477,6 +477,14 @@ header
 for
 the
 nesting
+.
+The
+breadcrumbs
+also
+becomes
+a
+sticky
+header
 .
 For
 variable
