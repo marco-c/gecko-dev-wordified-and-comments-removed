@@ -482,6 +482,11 @@ BrowserUtils
 formatURIForDisplay
 (
 uri
+{
+showWWW
+:
+true
+}
 )
 ;
 }
