@@ -2347,7 +2347,7 @@ const
 realTimeContext
 =
 await
-this
+ChatConversation
 .
 getRealTimeInfo
 (
@@ -3087,6 +3087,7 @@ or
 null
 *
 /
+static
 async
 getRealTimeInfo
 (
