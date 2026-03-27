@@ -1360,6 +1360,12 @@ Cancel
 ;
 if
 (
+nsCOMPtr
+<
+nsISpeechTaskCallback
+>
+callback
+=
 mCallback
 )
 {
@@ -1369,7 +1375,7 @@ nsresult
 >
 rv
 =
-mCallback
+callback
 -
 >
 OnCancel
