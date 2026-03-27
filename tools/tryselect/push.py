@@ -1367,25 +1367,24 @@ as
 head
 :
                     
-ref
-=
-vcs
-.
-branch
-or
-head
-                    
 vcs
 .
 push
 (
+                        
 MACH_TRY_REMOTE
 ref
 =
-ref
+head
+dest_branch
+=
+vcs
+.
+branch
 force
 =
 True
+                    
 )
         
 else

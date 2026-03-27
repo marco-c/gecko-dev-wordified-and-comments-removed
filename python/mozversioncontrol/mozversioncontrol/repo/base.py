@@ -1841,6 +1841,15 @@ str
 =
 None
         
+dest_branch
+:
+Optional
+[
+str
+]
+=
+None
+        
 force
 :
 bool
@@ -1895,6 +1904,21 @@ branch
 ref
 is
 used
+.
+        
+dest_branch
+specifies
+the
+destination
+branch
+name
+.
+If
+None
+pushes
+ref
+to
+ref
 .
         
 force

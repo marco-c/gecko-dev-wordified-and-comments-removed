@@ -2359,6 +2359,15 @@ str
 =
 None
         
+dest_branch
+:
+Optional
+[
+str
+]
+=
+None
+        
 force
 :
 bool
@@ -2385,6 +2394,26 @@ ref
 without
 specifying
 remote
+"
+)
+        
+if
+dest_branch
+and
+not
+ref
+:
+            
+raise
+ValueError
+(
+"
+Cannot
+specify
+dest_branch
+without
+specifying
+ref
 "
 )
         
@@ -2556,6 +2585,23 @@ extend
 r
 "
 ref
+]
+)
+        
+if
+dest_branch
+:
+            
+args
+.
+extend
+(
+[
+"
+-
+b
+"
+dest_branch
 ]
 )
         

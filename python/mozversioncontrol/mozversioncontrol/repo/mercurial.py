@@ -1962,6 +1962,15 @@ str
 =
 None
         
+dest_branch
+:
+Optional
+[
+str
+]
+=
+None
+        
 force
 :
 bool
