@@ -1393,10 +1393,10 @@ initialState
 =
 SummarizeSettingsState
 (
-isFeatureEnabled
+summarizePagesEnabled
 =
 true
-isGestureEnabled
+shakeToSummarizeEnabled
 =
 true
 )

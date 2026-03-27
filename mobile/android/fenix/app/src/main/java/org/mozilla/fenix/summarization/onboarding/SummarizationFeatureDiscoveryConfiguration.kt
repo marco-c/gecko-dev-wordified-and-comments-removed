@@ -73,14 +73,6 @@ coroutines
 .
 flow
 .
-Flow
-import
-kotlinx
-.
-coroutines
-.
-flow
-.
 StateFlow
 /
 *
@@ -273,7 +265,7 @@ UI
 val
 toolbarMenuButtonHighlight
 :
-Flow
+StateFlow
 <
 Boolean
 >
