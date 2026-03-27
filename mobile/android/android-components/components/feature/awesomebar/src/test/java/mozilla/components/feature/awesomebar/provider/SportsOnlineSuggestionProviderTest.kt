@@ -1863,7 +1863,7 @@ assertEquals
 (
 SportSuggestionStatus
 .
-FinalOverTime
+Final
 provider
 .
 parseStatus
@@ -1881,7 +1881,7 @@ Test
 fun
 parseStatus
 returns
-FinalShootOut
+Final
 for
 Final
 -
@@ -1894,7 +1894,7 @@ assertEquals
 (
 SportSuggestionStatus
 .
-FinalShootOut
+Final
 provider
 .
 parseStatus

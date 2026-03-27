@@ -156,7 +156,7 @@ status
 =
 SportSuggestionStatus
 .
-FinalOverTime
+Final
 statusType
 =
 SportSuggestionStatusType
