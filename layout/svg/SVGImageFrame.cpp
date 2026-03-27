@@ -4070,7 +4070,7 @@ const
 Matrix
 &
 aToBBoxUserspace
-uint32_t
+SVGBBoxFlags
 aFlags
 )
 {
@@ -4090,13 +4090,14 @@ return
 }
 if
 (
-(
 aFlags
-&
-SVGUtils
+.
+contains
+(
+SVGBBoxFlag
 :
 :
-eForGetClientRects
+ForGetClientRects
 )
 &
 &

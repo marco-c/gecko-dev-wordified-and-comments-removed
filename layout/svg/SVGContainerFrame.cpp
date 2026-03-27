@@ -1877,7 +1877,7 @@ const
 Matrix
 &
 aToBBoxUserspace
-uint32_t
+SVGBBoxFlags
 aFlags
 )
 {

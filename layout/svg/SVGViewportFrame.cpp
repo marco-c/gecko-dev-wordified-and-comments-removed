@@ -595,7 +595,7 @@ const
 Matrix
 &
 aToBBoxUserspace
-uint32_t
+SVGBBoxFlags
 aFlags
 )
 {
@@ -605,11 +605,14 @@ bbox
 if
 (
 aFlags
-&
-SVGUtils
+.
+contains
+(
+SVGBBoxFlag
 :
 :
-eForGetClientRects
+ForGetClientRects
+)
 )
 {
 float
