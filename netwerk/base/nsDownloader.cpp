@@ -432,6 +432,15 @@ uint32_t
 count
 )
 {
+RefPtr
+<
+nsDownloader
+>
+self
+(
+this
+)
+;
 uint32_t
 n
 ;
