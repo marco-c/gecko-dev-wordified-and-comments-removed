@@ -746,12 +746,8 @@ aListener
 )
 ;
 bool
-NotifyGpuObservers
+FlushActiveCheckerboardReports
 (
-const
-char
-*
-aTopic
 )
 ;
 void

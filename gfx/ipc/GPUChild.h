@@ -375,12 +375,8 @@ ipc
 :
 :
 IPCResult
-RecvNotifyUiObservers
+RecvFlushActiveCheckerboardReportsDone
 (
-const
-nsCString
-&
-aTopic
 )
 ;
 mozilla
