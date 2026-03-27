@@ -191,6 +191,13 @@ js
 ]
 [
 "
+browser_test_gtk_telemetry
+.
+js
+"
+]
+[
+"
 browser_test_ime_state_after_body_removed_and_reconnected_in_designMode
 .
 js
