@@ -2010,6 +2010,12 @@ started
 {
 this
 .
+cancelChannelFilter
+(
+)
+;
+this
+.
 updateState
 (
 )
@@ -3091,11 +3097,7 @@ else
 {
 this
 .
-#
-connection
-?
-.
-stop
+cancelChannelFilter
 (
 )
 ;
