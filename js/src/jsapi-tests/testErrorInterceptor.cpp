@@ -29,7 +29,7 @@ h
 "
 namespace
 {
-MOZ_RUNINIT
+constinit
 static
 JS
 :

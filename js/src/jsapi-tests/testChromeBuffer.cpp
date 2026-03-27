@@ -117,7 +117,7 @@ JS
 DefaultGlobalClassOps
 }
 ;
-MOZ_RUNINIT
+constinit
 static
 JS
 :
@@ -125,7 +125,7 @@ JS
 PersistentRootedObject
 trusted_glob
 ;
-MOZ_RUNINIT
+constinit
 static
 JS
 :

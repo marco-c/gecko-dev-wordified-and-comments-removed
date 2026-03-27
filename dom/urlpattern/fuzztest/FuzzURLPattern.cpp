@@ -104,7 +104,7 @@ mozilla
 dom
 ;
 static
-MOZ_RUNINIT
+constinit
 JS
 :
 :

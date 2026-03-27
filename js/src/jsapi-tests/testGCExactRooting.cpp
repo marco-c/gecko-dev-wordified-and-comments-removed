@@ -1417,7 +1417,7 @@ END_TEST
 (
 testGCRootedStaticStructInternalStackStorageAugmented
 )
-MOZ_RUNINIT
+constinit
 static
 JS
 :
@@ -1459,7 +1459,6 @@ END_TEST
 (
 testGCPersistentRootedOutlivesRuntime
 )
-MOZ_RUNINIT
 static
 JS
 :

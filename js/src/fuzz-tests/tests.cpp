@@ -104,7 +104,7 @@ using
 namespace
 mozilla
 ;
-MOZ_RUNINIT
+constinit
 JS
 :
 :

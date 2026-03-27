@@ -113,7 +113,7 @@ dom
 :
 ipc
 ;
-MOZ_RUNINIT
+constinit
 JS
 :
 :
