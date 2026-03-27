@@ -3183,10 +3183,6 @@ unsignedLongLong
 ;
 VERIFY_CONSTRUCTION_FROM_INTEGER_TYPE
 (
-char
-)
-VERIFY_CONSTRUCTION_FROM_INTEGER_TYPE
-(
 signedChar
 )
 VERIFY_CONSTRUCTION_FROM_INTEGER_TYPE
@@ -3442,13 +3438,6 @@ int64_t
 test
 <
 uint64_t
->
-(
-)
-;
-test
-<
-char
 >
 (
 )
