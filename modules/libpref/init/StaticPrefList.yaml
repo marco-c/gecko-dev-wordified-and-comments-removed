@@ -52303,10 +52303,16 @@ in
 bytes
 of
 the
-decoded
+compressed
+size
+of
 images
 we
 cache
+that
+#
+are
+unused
 .
 -
 name
@@ -52321,7 +52327,7 @@ type
 int32_t
 value
 :
-5
+20
 *
 1024
 *

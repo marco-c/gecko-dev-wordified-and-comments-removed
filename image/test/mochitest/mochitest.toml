@@ -1085,6 +1085,13 @@ html
 ]
 [
 "
+test_cache_eviction
+.
+html
+"
+]
+[
+"
 test_canvas_frame_animation
 .
 html

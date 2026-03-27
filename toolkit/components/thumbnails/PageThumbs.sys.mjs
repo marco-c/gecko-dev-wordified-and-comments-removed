@@ -4080,7 +4080,7 @@ cache
 .
 size
 (
-5MB
+20MB
 by
 default
 )

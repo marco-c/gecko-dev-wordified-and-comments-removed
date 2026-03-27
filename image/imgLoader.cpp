@@ -8913,6 +8913,10 @@ aEntry
 )
 ;
 }
+CheckCacheLimits
+(
+)
+;
 return
 true
 ;
