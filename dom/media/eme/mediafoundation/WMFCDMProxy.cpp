@@ -584,6 +584,10 @@ const
 bool
 )
 {
+RETURN_IF_SHUTDOWN
+(
+)
+;
 MOZ_ASSERT
 (
 mCDM
@@ -627,6 +631,10 @@ nsresult
 rv
 )
 {
+RETURN_IF_SHUTDOWN
+(
+)
+;
 RejectPromiseWithStateError
 (
 aPromiseId
@@ -1921,6 +1929,12 @@ nullptr
 mIsShutdown
 =
 true
+;
+mKeys
+.
+Clear
+(
+)
 ;
 }
 void
