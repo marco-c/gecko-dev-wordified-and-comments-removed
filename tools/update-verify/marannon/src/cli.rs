@@ -52,7 +52,7 @@ partial_mar
 :
 Option
 <
-String
+PathBuf
 >
 }
 impl
@@ -189,10 +189,12 @@ map
 |
 s
 |
-s
-.
-to_string
+PathBuf
+:
+:
+from
 (
+s
 )
 )
 }
@@ -221,7 +223,7 @@ String
 pub
 to_installer
 :
-String
+PathBuf
 pub
 complete_mar
 :
