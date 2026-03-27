@@ -1969,11 +1969,7 @@ example
 .
 com
 "
-{
-memoriesEnabled
-:
-true
-}
+0
 )
 ;
 conversation

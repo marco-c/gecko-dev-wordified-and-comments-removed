@@ -739,7 +739,6 @@ MAX_HISTORY_RESULTS
 =
 15
 ;
-export
 const
 GET_OPEN_TABS
 =
@@ -747,7 +746,6 @@ GET_OPEN_TABS
 get_open_tabs
 "
 ;
-export
 const
 SEARCH_BROWSING_HISTORY
 =
@@ -755,7 +753,6 @@ SEARCH_BROWSING_HISTORY
 search_browsing_history
 "
 ;
-export
 const
 GET_PAGE_CONTENT
 =
@@ -763,7 +760,6 @@ GET_PAGE_CONTENT
 get_page_content
 "
 ;
-export
 const
 RUN_SEARCH
 =
@@ -771,7 +767,6 @@ RUN_SEARCH
 run_search
 "
 ;
-export
 const
 GET_USER_MEMORIES
 =
