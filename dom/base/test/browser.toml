@@ -793,6 +793,13 @@ html
 ]
 [
 "
+browser_newtab_session_history
+.
+js
+"
+]
+[
+"
 browser_object_attachment
 .
 js
