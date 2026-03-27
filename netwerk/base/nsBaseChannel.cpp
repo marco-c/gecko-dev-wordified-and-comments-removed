@@ -216,8 +216,10 @@ Resume
 }
 private
 :
+nsCOMPtr
+<
 nsIRequest
-*
+>
 mRequest
 ;
 }
