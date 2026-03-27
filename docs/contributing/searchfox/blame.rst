@@ -80,7 +80,7 @@ popup
 :
 width
 :
-683px
+688px
 .
 .
 _searchfox
