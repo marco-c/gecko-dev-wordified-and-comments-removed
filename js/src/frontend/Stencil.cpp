@@ -14585,9 +14585,8 @@ omt_eager_baseline_dispatch
 )
 ;
 }
-if
+MOZ_ALWAYS_TRUE
 (
-!
 queue
 .
 enqueue
@@ -14595,11 +14594,7 @@ enqueue
 script
 )
 )
-{
-return
-false
 ;
-}
 TRACE_FOR_TEST_DOM
 (
 cx
