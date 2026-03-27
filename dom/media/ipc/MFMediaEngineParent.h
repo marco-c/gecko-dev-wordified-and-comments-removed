@@ -359,6 +359,14 @@ aResult
 0
 )
 ;
+static
+bool
+IsHardwareResetHRESULT
+(
+HRESULT
+aResult
+)
+;
 void
 DestroyEngineIfExists
 (
@@ -551,6 +559,11 @@ mPlaybackRate
 1
 .
 0
+;
+bool
+mHardwareResetInProgress
+=
+false
 ;
 StatisticData
 mCurrentPlaybackStatisticData
