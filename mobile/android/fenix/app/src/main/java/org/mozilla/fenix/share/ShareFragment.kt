@@ -772,7 +772,7 @@ content
 private
 ?
 :
-true
+false
 shareInteractor
 =
 ShareInteractor
