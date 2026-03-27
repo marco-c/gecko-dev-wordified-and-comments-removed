@@ -828,6 +828,17 @@ extrafile
 path
 )
 ;
+Assert
+.
+ok
+(
+"
+CrashID
+"
+in
+extra
+)
+;
 if
 (
 callback
