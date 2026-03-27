@@ -368,6 +368,11 @@ hostname
 l10nArgValues
 .
 hostname
+path
+:
+l10nArgValues
+.
+filePath
 date
 :
 Date

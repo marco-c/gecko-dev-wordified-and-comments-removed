@@ -395,6 +395,13 @@ sjs
 ]
 [
 "
+browser_aboutNetError_fileNotFound
+.
+js
+"
+]
+[
+"
 browser_aboutNetError_httpAuthDisabled
 .
 js
