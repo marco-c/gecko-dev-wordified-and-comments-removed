@@ -118,11 +118,6 @@ TestFrameAnimator
 cpp
 "
 "
-TestHDRPNGEncoder
-.
-cpp
-"
-"
 TestLoader
 .
 cpp
