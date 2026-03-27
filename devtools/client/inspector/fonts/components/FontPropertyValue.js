@@ -101,13 +101,9 @@ resource
 /
 devtools
 /
-client
+shared
 /
 inspector
-/
-fonts
-/
-utils
 /
 font
 -
