@@ -1542,7 +1542,7 @@ if
 (
 this
 .
-_hasActiveChatInBrowser
+hasActiveChatInBrowser
 (
 browser
 )
@@ -1564,7 +1564,7 @@ triggeringPrincipal
 }
 }
 }
-_hasActiveChatInBrowser
+hasActiveChatInBrowser
 (
 browser
 )
@@ -1573,6 +1573,7 @@ const
 aiWindowElement
 =
 browser
+?
 .
 contentDocument
 ?
