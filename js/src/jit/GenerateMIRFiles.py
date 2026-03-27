@@ -315,6 +315,14 @@ Slots
 "
 NoTypePolicy
 "
+    
+"
+any
+"
+:
+"
+NoTypePolicy
+"
 }
 def
 decide_type_policy
@@ -1405,13 +1413,11 @@ oper_name
 ]
             
 if
-no_type_policy
-and
 mir_type
 =
 =
 "
-Value
+any
 "
 :
                 

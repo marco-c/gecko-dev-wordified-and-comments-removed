@@ -2524,11 +2524,15 @@ None
     
 if
 mir_type
-=
-=
+in
+(
 "
 Value
 "
+"
+any
+"
+)
 :
         
 return
