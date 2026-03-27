@@ -71,8 +71,9 @@ TextLeafAccessible
 TextLeafAccessible
 (
 )
-{
-}
+=
+default
+;
 role
 TextLeafAccessible
 :

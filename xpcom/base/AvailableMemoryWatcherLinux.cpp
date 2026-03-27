@@ -793,8 +793,9 @@ nsAvailableMemoryWatcher
 nsAvailableMemoryWatcher
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsAvailableMemoryWatcher
 :

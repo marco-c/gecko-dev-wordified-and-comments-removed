@@ -464,8 +464,9 @@ LangTextAttr
 LangTextAttr
 (
 )
-{
-}
+=
+default
+;
 void
 TextAttrsMgr
 :

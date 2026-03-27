@@ -1292,8 +1292,9 @@ nsLocalFile
 nsLocalFile
 (
 )
-{
-}
+=
+default
+;
 nsLocalFile
 :
 :

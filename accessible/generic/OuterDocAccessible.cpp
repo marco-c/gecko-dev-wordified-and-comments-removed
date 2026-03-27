@@ -214,8 +214,9 @@ OuterDocAccessible
 OuterDocAccessible
 (
 )
-{
-}
+=
+default
+;
 void
 OuterDocAccessible
 :

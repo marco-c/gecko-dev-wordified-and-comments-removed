@@ -163,8 +163,9 @@ Http2Stream
 Http2Stream
 (
 )
-{
-}
+=
+default
+;
 void
 Http2Stream
 :

@@ -479,8 +479,9 @@ ImageBufferImpl
 (
 )
 override
-{
-}
+=
+default
+;
 already_AddRefed
 <
 SourceBuffer

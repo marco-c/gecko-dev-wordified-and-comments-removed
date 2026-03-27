@@ -91,8 +91,9 @@ ExtensionsParent
 ExtensionsParent
 (
 )
-{
-}
+=
+default
+;
 ExtensionsParent
 :
 :
@@ -100,8 +101,9 @@ ExtensionsParent
 ExtensionsParent
 (
 )
-{
-}
+=
+default
+;
 extIWebNavigation
 *
 ExtensionsParent

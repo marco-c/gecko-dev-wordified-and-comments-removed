@@ -9215,8 +9215,9 @@ RInstructionResults
 RInstructionResults
 (
 )
-{
-}
+=
+default
+;
 bool
 RInstructionResults
 :

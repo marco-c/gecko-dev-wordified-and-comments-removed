@@ -1257,6 +1257,8 @@ StructuredCloneData
 nsSameProcessAsyncMessageBase
 (
 )
+=
+default
 ;
 nsresult
 Init
@@ -1313,6 +1315,8 @@ ifdef
 DEBUG
 bool
 mCalledInit
+=
+false
 ;
 #
 endif

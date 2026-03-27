@@ -558,8 +558,9 @@ ServiceWorkerRegistrationDescriptor
 ServiceWorkerRegistrationDescriptor
 (
 )
-{
-}
+=
+default
+;
 bool
 ServiceWorkerRegistrationDescriptor
 :

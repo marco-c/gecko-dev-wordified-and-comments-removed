@@ -356,8 +356,9 @@ nsOSHelperAppService
 nsOSHelperAppService
 (
 )
-{
-}
+=
+default
+;
 nsresult
 nsOSHelperAppService
 :

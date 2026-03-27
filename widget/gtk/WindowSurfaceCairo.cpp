@@ -95,8 +95,9 @@ WindowSurfaceCairo
 WindowSurfaceCairo
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 gfx

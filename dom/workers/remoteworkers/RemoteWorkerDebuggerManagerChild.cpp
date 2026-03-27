@@ -24,8 +24,9 @@ RemoteWorkerDebuggerManagerChild
 RemoteWorkerDebuggerManagerChild
 (
 )
-{
-}
+=
+default
+;
 RemoteWorkerDebuggerManagerChild
 :
 :
@@ -33,6 +34,7 @@ RemoteWorkerDebuggerManagerChild
 RemoteWorkerDebuggerManagerChild
 (
 )
-{
-}
+=
+default
+;
 }

@@ -1096,8 +1096,6 @@ aGlyph
 )
 override
 ;
-private
-:
 void
 *
 operator
@@ -1120,6 +1118,8 @@ size_t
 =
 delete
 ;
+private
+:
 struct
 UnicodeConstructionComparator
 {

@@ -92,8 +92,9 @@ nsIconDecoder
 nsIconDecoder
 (
 )
-{
-}
+=
+default
+;
 LexerResult
 nsIconDecoder
 :

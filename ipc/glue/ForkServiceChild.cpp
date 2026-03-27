@@ -1542,8 +1542,9 @@ ForkServerLauncher
 ForkServerLauncher
 (
 )
-{
-}
+=
+default
+;
 ForkServerLauncher
 :
 :
@@ -1551,8 +1552,9 @@ ForkServerLauncher
 ForkServerLauncher
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 ForkServerLauncher

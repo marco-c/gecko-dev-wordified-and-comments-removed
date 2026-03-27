@@ -69,8 +69,9 @@ virtual
 MemoryCounter
 (
 )
-{
-}
+=
+default
+;
 CountSample
 Sample
 (
