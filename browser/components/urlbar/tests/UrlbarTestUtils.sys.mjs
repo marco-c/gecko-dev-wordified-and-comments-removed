@@ -8344,8 +8344,6 @@ eslint
 -
 disable
 -
-this
--
 line
 microsoft
 /
