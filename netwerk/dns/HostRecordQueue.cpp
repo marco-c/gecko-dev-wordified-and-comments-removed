@@ -43,6 +43,10 @@ nsIDNSService
 :
 DNSFlags
 aFlags
+const
+MutexAutoLock
+&
+aProofOfLock
 )
 {
 if
@@ -219,6 +223,10 @@ nsHostRecord
 >
 &
 aDB
+const
+MutexAutoLock
+&
+aProofOfLock
 )
 {
 if
@@ -571,6 +579,10 @@ MoveToEvictionQueueTail
 nsHostRecord
 *
 aRec
+const
+MutexAutoLock
+&
+aProofOfLock
 )
 {
 bool
@@ -616,6 +628,10 @@ MaybeRenewHostRecord
 nsHostRecord
 *
 aRec
+const
+MutexAutoLock
+&
+aProofOfLock
 )
 {
 if
@@ -785,6 +801,10 @@ nsHostRecord
 >
 &
 aDB
+const
+MutexAutoLock
+&
+aProofOfLock
 )
 {
 mEvictionQSize
@@ -854,6 +874,10 @@ MaybeRemoveFromQ
 nsHostRecord
 *
 aRec
+const
+MutexAutoLock
+&
+aProofOfLock
 )
 {
 if
@@ -954,6 +978,10 @@ nsIDNSService
 :
 DNSFlags
 aFlags
+const
+MutexAutoLock
+&
+aProofOfLock
 )
 {
 if
@@ -1017,6 +1045,7 @@ InsertRecord
 (
 aRec
 aFlags
+aProofOfLock
 )
 ;
 }
@@ -1031,6 +1060,10 @@ Dequeue
 (
 bool
 aHighQOnly
+const
+MutexAutoLock
+&
+aProofOfLock
 )
 {
 RefPtr
@@ -1144,6 +1177,10 @@ nsHostRecord
 >
 &
 aCallback
+const
+MutexAutoLock
+&
+aProofOfLock
 )
 {
 mPendingCount

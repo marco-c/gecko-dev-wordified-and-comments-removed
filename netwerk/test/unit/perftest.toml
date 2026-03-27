@@ -3,13 +3,6 @@ DEFAULT
 ]
 [
 "
-test_dns_stress
-.
-js
-"
-]
-[
-"
 test_http3_perf
 .
 js
