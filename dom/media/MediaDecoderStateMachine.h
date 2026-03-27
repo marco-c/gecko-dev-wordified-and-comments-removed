@@ -624,6 +624,11 @@ aAudible
 )
 ;
 void
+OnPlaybackRateFallback
+(
+)
+;
+void
 SetPlaybackRate
 (
 double
@@ -1221,6 +1226,9 @@ mVideoQueueListener
 ;
 MediaEventListener
 mAudibleListener
+;
+MediaEventListener
+mPlaybackRateFallbackListener
 ;
 MediaEventListener
 mOnMediaNotSeekable
