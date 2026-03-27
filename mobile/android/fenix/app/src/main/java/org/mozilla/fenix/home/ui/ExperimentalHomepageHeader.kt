@@ -658,11 +658,11 @@ painter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
-private_mode_icon
+mozac_ic_private_mode_24
 )
 contentDescription
 =
