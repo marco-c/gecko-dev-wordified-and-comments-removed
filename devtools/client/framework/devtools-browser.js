@@ -1605,7 +1605,7 @@ commands
 of
 gDevTools
 .
-_toolboxesPerCommands
+toolboxesPerCommands
 .
 keys
 (
@@ -1913,7 +1913,7 @@ toolbox
 of
 gDevTools
 .
-_toolboxesPerCommands
+toolboxesPerCommands
 )
 {
 if
@@ -2190,7 +2190,7 @@ toolDefinition
 =
 gDevTools
 .
-_tools
+tools
 .
 get
 (

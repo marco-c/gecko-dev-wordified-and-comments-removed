@@ -106,7 +106,7 @@ definition
 of
 gDevTools
 .
-_tools
+tools
 )
 {
 const
