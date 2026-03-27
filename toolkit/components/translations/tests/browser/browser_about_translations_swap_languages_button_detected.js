@@ -323,6 +323,9 @@ aboutTranslationsTestUtils
 assertTargetTextArea
 (
 {
+languageTag
+:
+null
 showsPlaceholder
 :
 true

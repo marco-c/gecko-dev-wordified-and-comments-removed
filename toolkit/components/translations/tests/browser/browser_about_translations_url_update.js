@@ -772,6 +772,9 @@ aboutTranslationsTestUtils
 assertTargetTextArea
 (
 {
+languageTag
+:
+null
 showsPlaceholder
 :
 true
@@ -877,6 +880,9 @@ aboutTranslationsTestUtils
 assertTargetTextArea
 (
 {
+languageTag
+:
+null
 showsPlaceholder
 :
 true
@@ -889,6 +895,9 @@ aboutTranslationsTestUtils
 assertSourceTextArea
 (
 {
+languageTag
+:
+null
 showsPlaceholder
 :
 true

@@ -187,6 +187,9 @@ aboutTranslationsTestUtils
 assertSourceTextArea
 (
 {
+languageTag
+:
+null
 showsPlaceholder
 :
 true
@@ -255,6 +258,9 @@ aboutTranslationsTestUtils
 assertSourceTextArea
 (
 {
+languageTag
+:
+null
 showsPlaceholder
 :
 true
@@ -324,6 +330,9 @@ aboutTranslationsTestUtils
 assertSourceTextArea
 (
 {
+languageTag
+:
+null
 showsPlaceholder
 :
 true
@@ -391,6 +400,9 @@ aboutTranslationsTestUtils
 assertSourceTextArea
 (
 {
+languageTag
+:
+null
 showsPlaceholder
 :
 true
@@ -488,6 +500,9 @@ aboutTranslationsTestUtils
 assertSourceTextArea
 (
 {
+languageTag
+:
+null
 showsPlaceholder
 :
 true
@@ -557,6 +572,9 @@ aboutTranslationsTestUtils
 assertSourceTextArea
 (
 {
+languageTag
+:
+null
 showsPlaceholder
 :
 true
@@ -626,6 +644,9 @@ aboutTranslationsTestUtils
 assertSourceTextArea
 (
 {
+languageTag
+:
+null
 showsPlaceholder
 :
 true
@@ -693,6 +714,9 @@ aboutTranslationsTestUtils
 assertSourceTextArea
 (
 {
+languageTag
+:
+null
 showsPlaceholder
 :
 true
@@ -856,6 +880,11 @@ aboutTranslationsTestUtils
 assertSourceTextArea
 (
 {
+languageTag
+:
+"
+en
+"
 value
 :
 "
@@ -954,6 +983,11 @@ aboutTranslationsTestUtils
 assertSourceTextArea
 (
 {
+languageTag
+:
+"
+en
+"
 value
 :
 "
@@ -1027,6 +1061,9 @@ aboutTranslationsTestUtils
 assertSourceTextArea
 (
 {
+languageTag
+:
+null
 showsPlaceholder
 :
 true
@@ -1200,6 +1237,11 @@ aboutTranslationsTestUtils
 assertSourceTextArea
 (
 {
+languageTag
+:
+"
+en
+"
 value
 :
 "
@@ -1366,6 +1408,11 @@ aboutTranslationsTestUtils
 assertSourceTextArea
 (
 {
+languageTag
+:
+"
+es
+"
 value
 :
 "
