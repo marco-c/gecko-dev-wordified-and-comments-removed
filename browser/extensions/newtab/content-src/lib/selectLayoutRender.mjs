@@ -1707,6 +1707,10 @@ hasAd
 section
 .
 allowAds
+!
+=
+=
+false
 )
 {
 const
