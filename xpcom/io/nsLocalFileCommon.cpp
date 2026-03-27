@@ -437,6 +437,12 @@ sct
 "
 "
 .
+search
+-
+ms
+"
+"
+.
 settingcontent
 -
 ms
