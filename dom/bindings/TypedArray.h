@@ -2100,6 +2100,10 @@ aProcessor
 }
 template
 <
+bool
+AllowLargeTypedArrays
+=
+false
 typename
 Processor
 >
@@ -2442,6 +2446,9 @@ return
 CallProcessor
 (
 GetCurrentData
+<
+AllowLargeTypedArrays
+>
 (
 )
 std

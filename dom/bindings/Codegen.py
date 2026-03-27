@@ -34818,6 +34818,14 @@ hasAllowShared
 (
 )
     
+isAllowLarge
+=
+type
+.
+hasAllowLarge
+(
+)
+    
 if
 exceptionCode
 is
@@ -40839,16 +40847,21 @@ define
                 
 )
             
+if
+not
+isAllowLarge
+:
+                
 template
 +
 =
 fill
 (
-                
+                    
 "
 "
 "
-                
+                    
 if
 (
 {
@@ -40865,26 +40878,26 @@ Obj
 )
 )
 {
-                  
+                      
 *
 {
 badType
 }
-                
+                    
 }
-                
+                    
 "
 "
 "
-                
+                    
 isLargeMethod
 =
 isLargeMethod
-                
+                    
 objRef
 =
 objRef
-                
+                    
 badType
 =
 onFailureIsLarge
@@ -40894,7 +40907,7 @@ onFailureIsLarge
 define
 (
 )
-            
+                
 )
             
 template
