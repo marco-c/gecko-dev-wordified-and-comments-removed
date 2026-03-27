@@ -3352,10 +3352,7 @@ data_handle
 uid
 (
 )
-prim_spatial_node_index
-frame_context
-.
-spatial_tree
+quad_transform
 &
 prim_instance
 .
@@ -4367,10 +4364,7 @@ data_handle
 uid
 (
 )
-prim_spatial_node_index
-frame_context
-.
-spatial_tree
+quad_transform
 &
 prim_instance
 .
