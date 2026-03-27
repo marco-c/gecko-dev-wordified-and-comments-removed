@@ -231,6 +231,13 @@ js
 ]
 [
 "
+browser_aiwindow_memories_toggle_prefs
+.
+js
+"
+]
+[
+"
 browser_aiwindow_new_chat_button
 .
 js
