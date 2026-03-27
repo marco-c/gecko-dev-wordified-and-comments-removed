@@ -2978,9 +2978,6 @@ isValid
 )
 )
 {
-self
--
->
 mError
 =
 MediaResult
@@ -3060,9 +3057,6 @@ image
 "
 )
 ;
-self
--
->
 mCallback
 -
 >
@@ -3073,9 +3067,6 @@ image
 mCodecSpecific
 )
 ;
-self
--
->
 mBitrateAdjuster
 .
 Update
@@ -3107,6 +3098,15 @@ MediaResult
 aError
 )
 {
+MutexAutoLock
+lock
+(
+self
+-
+>
+mCallbackMutex
+)
+;
 self
 -
 >

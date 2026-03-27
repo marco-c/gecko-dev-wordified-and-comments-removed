@@ -299,7 +299,6 @@ mEncoder
 ;
 Mutex
 mCallbackMutex
-MOZ_UNANNOTATED
 ;
 webrtc
 :
@@ -307,11 +306,19 @@ webrtc
 EncodedImageCallback
 *
 mCallback
+MOZ_GUARDED_BY
+(
+mCallbackMutex
+)
 =
 nullptr
 ;
 MediaResult
 mError
+MOZ_GUARDED_BY
+(
+mCallbackMutex
+)
 =
 NS_OK
 ;
