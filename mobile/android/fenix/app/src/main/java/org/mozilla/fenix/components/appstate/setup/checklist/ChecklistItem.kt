@@ -1097,11 +1097,11 @@ string
 setup_checklist_task_search_widget_2
 icon
 =
-R
+iconsR
 .
 drawable
 .
-ic_search
+mozac_ic_search_24
 isCompleted
 =
 hasCompletedSetupStepInstallSearchWidget

@@ -873,11 +873,11 @@ AppCompatResources
 getDrawable
 (
 context
-R
+iconsR
 .
 drawable
 .
-ic_search
+mozac_ic_search_24
 )
 ?
 .
