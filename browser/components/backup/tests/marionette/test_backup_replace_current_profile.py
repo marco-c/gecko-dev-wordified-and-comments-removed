@@ -1214,6 +1214,20 @@ book
 custom_theme
 =
 {
+            
+"
+themeId
+"
+:
+"
+default
+-
+theme
+mozilla
+.
+org
+"
+            
 "
 themeBg
 "
@@ -1222,6 +1236,7 @@ themeBg
 #
 ff5500
 "
+            
 "
 themeFg
 "
@@ -1230,6 +1245,7 @@ themeFg
 #
 ffffff
 "
+        
 }
         
 self
