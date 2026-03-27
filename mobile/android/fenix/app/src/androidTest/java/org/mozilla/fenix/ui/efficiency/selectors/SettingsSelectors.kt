@@ -207,7 +207,7 @@ strategy
 =
 SelectorStrategy
 .
-UIAUTOMATOR2_BY_TEXT
+UIAUTOMATOR_WITH_TEXT
 value
 =
 "
@@ -238,7 +238,7 @@ strategy
 =
 SelectorStrategy
 .
-UIAUTOMATOR2_BY_TEXT
+UIAUTOMATOR_WITH_TEXT
 value
 =
 "
@@ -456,7 +456,7 @@ strategy
 =
 SelectorStrategy
 .
-UIAUTOMATOR2_BY_TEXT
+UIAUTOMATOR_WITH_TEXT
 value
 =
 "
@@ -489,7 +489,7 @@ strategy
 =
 SelectorStrategy
 .
-UIAUTOMATOR2_BY_TEXT
+UIAUTOMATOR_WITH_TEXT
 value
 =
 "
@@ -528,7 +528,7 @@ strategy
 =
 SelectorStrategy
 .
-UIAUTOMATOR2_BY_TEXT
+UIAUTOMATOR_WITH_TEXT
 value
 =
 "
@@ -563,7 +563,7 @@ strategy
 =
 SelectorStrategy
 .
-UIAUTOMATOR2_BY_TEXT
+UIAUTOMATOR_WITH_TEXT
 value
 =
 "
@@ -598,7 +598,7 @@ strategy
 =
 SelectorStrategy
 .
-UIAUTOMATOR2_BY_TEXT
+UIAUTOMATOR_WITH_TEXT
 value
 =
 getStringResource
@@ -672,7 +672,7 @@ strategy
 =
 SelectorStrategy
 .
-UIAUTOMATOR2_BY_TEXT
+UIAUTOMATOR_WITH_TEXT
 value
 =
 "
@@ -709,7 +709,7 @@ strategy
 =
 SelectorStrategy
 .
-UIAUTOMATOR2_BY_TEXT
+UIAUTOMATOR_WITH_TEXT
 value
 =
 "
@@ -742,7 +742,7 @@ strategy
 =
 SelectorStrategy
 .
-UIAUTOMATOR2_BY_TEXT
+UIAUTOMATOR_WITH_TEXT
 value
 =
 "
@@ -807,7 +807,7 @@ strategy
 =
 SelectorStrategy
 .
-UIAUTOMATOR2_BY_TEXT
+UIAUTOMATOR_WITH_TEXT
 value
 =
 "
@@ -874,7 +874,7 @@ strategy
 =
 SelectorStrategy
 .
-UIAUTOMATOR2_BY_TEXT
+UIAUTOMATOR_WITH_TEXT
 value
 =
 "
@@ -907,7 +907,7 @@ strategy
 =
 SelectorStrategy
 .
-UIAUTOMATOR2_BY_TEXT
+UIAUTOMATOR_WITH_TEXT
 value
 =
 "
