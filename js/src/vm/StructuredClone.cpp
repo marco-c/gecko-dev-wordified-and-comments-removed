@@ -7764,6 +7764,15 @@ WasmMemoryObject
 )
 )
 ;
+JSAutoRealm
+ar
+(
+context
+(
+)
+memoryObj
+)
+;
 if
 (
 !
