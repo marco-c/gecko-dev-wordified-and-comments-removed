@@ -769,6 +769,13 @@ focusable
 ]
 [
 "
+browser_opentabs_tab_favicons
+.
+js
+"
+]
+[
+"
 browser_opentabs_tab_indicators
 .
 js
