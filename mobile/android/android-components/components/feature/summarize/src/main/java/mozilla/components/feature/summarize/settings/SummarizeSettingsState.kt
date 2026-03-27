@@ -90,7 +90,7 @@ screen
 *
 *
 property
-summarizePagesEnabled
+isFeatureEnabled
 Whether
 page
 summarization
@@ -99,7 +99,7 @@ enabled
 .
 *
 property
-shakeToSummarizeEnabled
+isGestureEnabled
 Whether
 the
 shake
@@ -118,13 +118,17 @@ class
 SummarizeSettingsState
 (
 val
-summarizePagesEnabled
+isFeatureEnabled
 :
 Boolean
+=
+false
 val
-shakeToSummarizeEnabled
+isGestureEnabled
 :
 Boolean
+=
+false
 )
 :
 State
