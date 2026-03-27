@@ -66,6 +66,11 @@ head
 js
 "
 "
+head_smart_window
+.
+js
+"
+"
 privacypane_tests_perwindow
 .
 js
@@ -160,6 +165,13 @@ js
 [
 "
 browser_aiFeatures_smart_window_model_settings
+.
+js
+"
+]
+[
+"
+browser_aiFeatures_smart_window_telemetry
 .
 js
 "
