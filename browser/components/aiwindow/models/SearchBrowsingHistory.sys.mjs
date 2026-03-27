@@ -60,7 +60,7 @@ MPL
 /
 import
 {
-truncateUntrustedMetadata
+sanitizeUntrustedContent
 }
 from
 "
@@ -599,7 +599,7 @@ return
 {
 title
 :
-truncateUntrustedMetadata
+sanitizeUntrustedContent
 (
 title
 |

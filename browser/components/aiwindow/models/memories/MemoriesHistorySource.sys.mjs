@@ -148,7 +148,7 @@ mjs
 ;
 import
 {
-truncateUntrustedMetadata
+sanitizeUntrustedContent
 }
 from
 "
@@ -1596,9 +1596,10 @@ domain
 host
 title
 :
-truncateUntrustedMetadata
+sanitizeUntrustedContent
 (
 title
+true
 )
 visitDateMicros
 frequencyPct

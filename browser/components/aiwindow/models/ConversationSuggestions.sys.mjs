@@ -161,7 +161,7 @@ mjs
 ;
 import
 {
-truncateUntrustedMetadata
+sanitizeUntrustedContent
 }
 from
 "
@@ -1312,7 +1312,7 @@ formatJson
 {
 title
 :
-truncateUntrustedMetadata
+sanitizeUntrustedContent
 (
 contextTabs
 [
@@ -1392,7 +1392,7 @@ t
 {
 title
 :
-truncateUntrustedMetadata
+sanitizeUntrustedContent
 (
 t
 .
@@ -1851,7 +1851,7 @@ formatJson
 {
 title
 :
-truncateUntrustedMetadata
+sanitizeUntrustedContent
 (
 currentTab
 .

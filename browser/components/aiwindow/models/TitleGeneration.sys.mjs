@@ -92,7 +92,7 @@ mjs
 ;
 import
 {
-truncateUntrustedMetadata
+sanitizeUntrustedContent
 }
 from
 "
@@ -389,7 +389,7 @@ tabInfo
 .
 title
 =
-truncateUntrustedMetadata
+sanitizeUntrustedContent
 (
 tabInfo
 .
