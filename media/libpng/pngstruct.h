@@ -280,7 +280,7 @@ i
 define
 png_file_add_chunk
 (
-pnt_ptr
+png_ptr
 i
 )
 \

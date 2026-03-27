@@ -6,8 +6,8 @@ pngpriv
 h
 "
 typedef
-png_libpng_version_1_6_55
-Your_png_h_is_not_version_1_6_55
+png_libpng_version_1_6_56
+Your_png_h_is_not_version_1_6_56
 ;
 #
 define
@@ -3051,7 +3051,7 @@ version
 .
 6
 .
-55
+56
 "
 PNG_STRING_NEWLINE
 \
