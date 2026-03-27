@@ -82,6 +82,11 @@ subset
 ttf
 "
 "
+FloatPrecisionTest
+.
+ttf
+"
+"
 head
 .
 js
