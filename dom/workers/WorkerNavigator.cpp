@@ -354,12 +354,10 @@ MOZ_ASSERT
 rts
 )
 ;
-const
 RuntimeService
 :
 :
 NavigatorProperties
-&
 properties
 =
 rts
