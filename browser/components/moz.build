@@ -373,6 +373,9 @@ DIRS
 =
 [
 "
+defaultwindowslaunchonlogin
+"
+"
 installerprefs
 "
 ]
