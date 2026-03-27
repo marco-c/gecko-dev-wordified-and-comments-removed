@@ -870,12 +870,6 @@ if
 node
 .
 getBoxQuads
-|
-|
-!
-node
-.
-getBoxQuads
 (
 {
 relativeTo

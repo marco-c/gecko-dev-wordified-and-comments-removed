@@ -132,17 +132,6 @@ l10n
 js
 "
 "
-open
--
-request
--
-in
--
-tab
-.
-js
-"
-"
 powershell
 .
 js
