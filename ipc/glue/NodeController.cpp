@@ -1896,6 +1896,12 @@ DropPeer
 ;
 #
 endif
+MessageChannel
+:
+:
+ErrorNotifyBatcher
+autoBatchNotify
+;
 Invite
 invite
 ;
@@ -5469,6 +5475,12 @@ gNodeController
 gNodeController
 =
 nullptr
+;
+MessageChannel
+:
+:
+ErrorNotifyBatcher
+autoBatchNotify
 ;
 nsTArray
 <
