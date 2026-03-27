@@ -767,11 +767,11 @@ iconView
 .
 setImageResource
 (
-R
+iconsR
 .
 drawable
 .
-ic_multiple_tabs
+mozac_ic_tab_tray_24
 )
 }
 if
