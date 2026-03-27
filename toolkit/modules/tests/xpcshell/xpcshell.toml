@@ -1029,13 +1029,6 @@ os_integration
 "
 [
 "
-test_readCertPrefs
-.
-js
-"
-]
-[
-"
 test_servicerequest_xhr
 .
 js
