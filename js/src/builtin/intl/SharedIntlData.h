@@ -100,6 +100,15 @@ h
 #
 include
 "
+util
+/
+LanguageId
+.
+h
+"
+#
+include
+"
 vm
 /
 StringType
@@ -696,8 +705,7 @@ private
 using
 Locale
 =
-JSAtom
-*
+LanguageId
 ;
 struct
 LocaleHasher
@@ -764,7 +772,7 @@ lookup
 using
 LocaleSet
 =
-GCHashSet
+HashSet
 <
 Locale
 LocaleHasher
