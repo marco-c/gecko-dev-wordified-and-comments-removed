@@ -292,6 +292,7 @@ ms
 [
 inline
 ]
+pub
 fn
 unitless_value
 (
