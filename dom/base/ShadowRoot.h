@@ -647,6 +647,7 @@ Bind
 (
 )
 ;
+static
 void
 InvalidateStyleAndLayoutOnSubtree
 (
