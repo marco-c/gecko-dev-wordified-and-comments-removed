@@ -119,6 +119,11 @@ OnHardwareContextReset
 )
 ;
 void
+ResetTrustedInput
+(
+)
+;
+void
 Shutdown
 (
 )
