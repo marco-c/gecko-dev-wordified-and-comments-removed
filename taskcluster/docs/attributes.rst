@@ -3202,7 +3202,11 @@ list
 of
 values
 .
-openh264_rev
+openh264_version
+=
+=
+=
+=
 =
 =
 =
@@ -3225,7 +3229,7 @@ used
 to
 signify
 the
-revision
+version
 (
 and
 thus
