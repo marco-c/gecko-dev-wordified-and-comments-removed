@@ -321,6 +321,7 @@ getElementById
 root
 "
 )
+?
 .
 children
 .

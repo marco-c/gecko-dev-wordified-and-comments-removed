@@ -1644,6 +1644,7 @@ getElementById
 root
 "
 )
+?
 .
 children
 .
