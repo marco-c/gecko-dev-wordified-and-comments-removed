@@ -99,6 +99,15 @@ include
 "
 gc
 /
+LightLock
+.
+h
+"
+#
+include
+"
+gc
+/
 Memory
 .
 h
@@ -5810,6 +5819,9 @@ JS
 GCContext
 >
 mainThreadContext
+;
+LightLockRuntime
+lightLockRuntime
 ;
 private
 :

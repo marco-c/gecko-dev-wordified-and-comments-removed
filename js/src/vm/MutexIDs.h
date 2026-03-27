@@ -266,6 +266,12 @@ GeckoProfilerScriptSources
 500
 )
 \
+_
+(
+GCLightLock
+500
+)
+\
 \
 _
 (
