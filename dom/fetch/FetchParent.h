@@ -472,6 +472,15 @@ mActorDestroyed
 false
 }
 ;
+Atomic
+<
+bool
+>
+mReceivedFetchOp
+{
+false
+}
+;
 nsCOMPtr
 <
 nsISerialEventTarget
