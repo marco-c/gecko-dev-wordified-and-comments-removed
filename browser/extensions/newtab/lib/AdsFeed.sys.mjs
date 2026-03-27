@@ -3097,6 +3097,11 @@ at
 .
 DISCOVERY_STREAM_CONFIG_CHANGE
 :
+case
+at
+.
+DISCOVERY_STREAM_DEV_REFRESH_CACHE
+:
 /
 /
 Event
@@ -3104,7 +3109,7 @@ emitted
 from
 ASDevTools
 "
-Reset
+Refresh
 Cache
 "
 button
