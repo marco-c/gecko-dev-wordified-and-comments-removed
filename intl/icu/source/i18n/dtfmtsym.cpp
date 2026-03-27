@@ -8133,10 +8133,10 @@ URES_STRING
 {
 if
 (
-i
+stringMap
 =
 =
-0
+nullptr
 )
 {
 stringMap
@@ -8595,9 +8595,9 @@ return
 if
 (
 aliasType
+!
 =
-=
-SAME_CALENDAR
+NONE
 )
 {
 LocalPointer
