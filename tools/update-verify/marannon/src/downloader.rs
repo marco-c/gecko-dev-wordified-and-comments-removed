@@ -26,6 +26,12 @@ path
 Path
 ;
 use
+log
+:
+:
+info
+;
+use
 ureq
 ;
 pub
@@ -114,7 +120,7 @@ Error
 >
 >
 {
-println
+info
 !
 (
 "
