@@ -504,7 +504,7 @@ equal
 args
 .
 length
-1
+2
 )
 ;
 assert
@@ -571,6 +571,16 @@ brandings
 .
 ftl
 "
+]
+)
+;
+assert
+.
+isFalse
+(
+args
+[
+1
 ]
 )
 ;
@@ -673,7 +683,7 @@ equal
 args
 .
 length
-1
+2
 )
 ;
 assert
