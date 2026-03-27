@@ -342,7 +342,6 @@ hb_face_t
 CreateHBFace
 (
 )
-const
 ;
 void
 AppendToFaceList
@@ -422,6 +421,16 @@ FontTableCache
 *
 >
 mFontTableCache
+;
+mozilla
+:
+:
+Atomic
+<
+hb_face_t
+*
+>
+mHBFace
 ;
 mozilla
 :
