@@ -564,11 +564,8 @@ aResult
 {
 aResult
 .
-Assign
+Truncate
 (
-"
-"
-_ns
 )
 ;
 return

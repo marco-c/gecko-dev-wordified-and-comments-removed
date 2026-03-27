@@ -24689,16 +24689,9 @@ mPostID
 {
 mCacheIdExtension
 .
-Append
+AppendInt
 (
-nsPrintfCString
-(
-"
-%
-d
-"
 mPostID
-)
 )
 ;
 }
