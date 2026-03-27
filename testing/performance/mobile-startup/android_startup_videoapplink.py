@@ -268,9 +268,6 @@ expected_startup_screenshots
 ERROR_THRESHOLD
 =
 8
-ITERATIONS
-=
-5
 MAX_STARTUP_TIME
 =
 25000
@@ -2681,6 +2678,10 @@ get_profiler_combinations
 (
 )
     
+iterations
+=
+10
+    
 if
 not
 profiler_combinations
@@ -2750,6 +2751,10 @@ str
 (
 output_path
 )
+            
+iterations
+=
+5
         
 else
 :
@@ -2780,7 +2785,7 @@ iteration
 in
 range
 (
-ITERATIONS
+iterations
 )
 :
             
