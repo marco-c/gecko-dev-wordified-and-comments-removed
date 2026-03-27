@@ -1170,6 +1170,8 @@ ThemedValueProvider
 InfoType
 >
 (
+baseValues
+=
 enumValues
 <
 InfoType
@@ -1180,6 +1182,17 @@ InfoType
 asSequence
 (
 )
+getDisplayName
+=
+{
+_
+infoType
+-
+>
+infoType
+.
+name
+}
 )
 Composable
 private
