@@ -1555,7 +1555,7 @@ As
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 this
 -
@@ -1592,7 +1592,7 @@ As
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 this
 -
