@@ -1185,7 +1185,7 @@ R
 .
 string
 .
-tab_group_name_label
+create_tab_group_name_label
 )
 style
 =
