@@ -518,6 +518,12 @@ MFContentProtectionManager
 >
 mContentProtectionManager
 ;
+Maybe
+<
+uint64_t
+>
+mProxyId
+;
 #
 endif
 MediaEventListener
