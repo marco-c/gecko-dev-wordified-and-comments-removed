@@ -8556,11 +8556,11 @@ beforeIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
-ic_folder_icon
+mozac_ic_folder_24
 )
 onClick
 =
@@ -8974,11 +8974,11 @@ beforeIconPainter
 =
 painterResource
 (
-R
+iconsR
 .
 drawable
 .
-ic_folder_icon
+mozac_ic_folder_24
 )
 onClick
 =
