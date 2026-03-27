@@ -14913,9 +14913,12 @@ Message
 :
 :
 QueueOnSubmittedWorkDone
-(
+{
+device_id
+:
+_
 queue_id
-)
+}
 =
 >
 {

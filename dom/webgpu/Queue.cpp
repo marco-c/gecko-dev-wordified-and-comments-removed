@@ -784,6 +784,12 @@ wgpu_client_on_submitted_work_done
 GetClient
 (
 )
+mParent
+-
+>
+GetId
+(
+)
 GetId
 (
 )
