@@ -408,10 +408,6 @@ the
 pLabel
 argument
 .
-.
-.
-_return_value
-:
 Return
 value
 <
@@ -520,10 +516,6 @@ the
 key
 database
 .
-.
-.
-_application_usage
-:
 Application
 usage
 <
@@ -696,10 +688,6 @@ of
 those
 keys
 .
-.
-.
-_see_also
-:
 See
 also
 <

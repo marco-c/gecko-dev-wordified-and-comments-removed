@@ -239,10 +239,6 @@ NSS_3_15_2_RTM
 /
 src
 /
-.
-.
-_security_advisories
-:
 Security
 Advisories
 <
@@ -435,10 +431,6 @@ __
 -
 -
 -
-.
-.
-_new_functionality
-:
 New
 Functionality
 <
@@ -547,10 +539,6 @@ rubric
 :
 New
 Functions
-:
-name
-:
-new_functions
 PK11_CipherFinal
 has
 been
@@ -570,10 +558,6 @@ rubric
 :
 New
 Types
-:
-name
-:
-new_types
 No
 new
 types
@@ -591,10 +575,6 @@ PKCS
 #
 11
 Mechanisms
-:
-name
-:
-new_pkcs_11_mechanisms
 No
 new
 PKCS

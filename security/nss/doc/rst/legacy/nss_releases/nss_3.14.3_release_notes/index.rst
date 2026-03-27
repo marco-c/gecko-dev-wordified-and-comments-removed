@@ -328,10 +328,6 @@ __
 -
 -
 -
-.
-.
-_new_functionality
-:
 New
 Functionality
 <
@@ -446,10 +442,6 @@ rubric
 :
 New
 Functions
-:
-name
-:
-new_functions
 -
 *
 in
@@ -508,10 +500,6 @@ rubric
 :
 New
 Types
-:
-name
-:
-new_types
 -
 *
 CK_NSS_MAC_CONSTANT_TIME_PARAMS
@@ -539,10 +527,6 @@ PKCS
 #
 11
 Mechanisms
-:
-name
-:
-new_pkcs_11_mechanisms
 -
 *
 CKM_NSS_HMAC_CONSTANT_TIME

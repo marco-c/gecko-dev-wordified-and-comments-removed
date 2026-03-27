@@ -560,10 +560,6 @@ User
 role
 )
 .
-.
-.
-_return_value
-:
 Return
 value
 <
@@ -711,10 +707,6 @@ the
 CK_TOKEN_INFO
 structure
 .
-.
-.
-_see_also
-:
 See
 also
 <

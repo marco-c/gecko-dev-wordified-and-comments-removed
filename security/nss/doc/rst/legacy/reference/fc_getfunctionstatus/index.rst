@@ -201,10 +201,6 @@ simply
 returns
 CKR_FUNCTION_NOT_PARALLEL
 .
-.
-.
-_return_value
-:
 Return
 value
 <
@@ -284,15 +280,6 @@ __
 ~
 ~
 ~
-.
-.
-container
-:
-:
-.
-.
-_see_also
-:
 See
 also
 <

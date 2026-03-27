@@ -350,10 +350,6 @@ rubric
 New
 Types
 :
-:
-name
-:
-new_types
 -
 in
 certt

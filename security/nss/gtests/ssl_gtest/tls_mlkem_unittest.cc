@@ -2072,7 +2072,9 @@ modify_mlkem
 :
 mlkem_component
 [
-0
+mlkem_component_len
+-
+1
 ]
 ^
 =
@@ -2157,8 +2159,6 @@ i
 +
 1
 ]
-&
-0xf0
 >
 >
 4

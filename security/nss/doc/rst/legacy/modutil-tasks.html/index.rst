@@ -27,10 +27,6 @@ html
 =
 =
 =
-.
-.
-_nss_security_tools_modutil_tasks
-:
 NSS
 Security
 Tools
@@ -149,10 +145,6 @@ tech
 crypto
 >
 __
-.
-.
-_task_list
-:
 Task
 List
 <

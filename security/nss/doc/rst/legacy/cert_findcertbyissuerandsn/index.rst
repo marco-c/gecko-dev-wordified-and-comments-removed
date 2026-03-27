@@ -797,10 +797,6 @@ SEC_ERROR_UNKNOWN_ISSUER
 )
 ;
 }
-.
-.
-_see_also
-:
 See
 Also
 <

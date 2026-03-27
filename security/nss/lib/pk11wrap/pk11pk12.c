@@ -3484,7 +3484,7 @@ NULL
 *
 privk
 =
-PK11_MakePrivKey
+pk11_MakePrivKey
 (
 slot
 lpk

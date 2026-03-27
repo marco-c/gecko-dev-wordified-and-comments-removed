@@ -358,10 +358,6 @@ in
 the
 future
 .
-.
-.
-_sample_code
-:
 Sample
 Code
 <

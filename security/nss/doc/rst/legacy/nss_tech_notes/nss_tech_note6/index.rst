@@ -86,11 +86,6 @@ __
 -
 .
 .
-container
-:
-:
-.
-.
 _nss_technical_note_6
 :
 NSS

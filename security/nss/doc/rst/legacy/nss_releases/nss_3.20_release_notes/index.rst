@@ -287,10 +287,6 @@ __
 -
 -
 -
-.
-.
-_new_functionality
-:
 New
 Functionality
 <
@@ -367,10 +363,6 @@ rubric
 :
 New
 Functions
-:
-name
-:
-new_functions
 -
 *
 in
@@ -439,10 +431,6 @@ rubric
 :
 New
 Types
-:
-name
-:
-new_types
 -
 *
 in
@@ -480,10 +468,6 @@ rubric
 :
 New
 Macros
-:
-name
-:
-new_macros
 -
 *
 in

@@ -108,11 +108,6 @@ __
 -
 -
 -
-.
-.
-container
-:
-:
 Introduction
 <
 #
@@ -403,10 +398,6 @@ SSL3
 TLS
 Renegotiation
 Vulnerability
-:
-name
-:
-ssl3_tls_renegotiation_vulnerability
 See
 CVE
 -
@@ -1287,10 +1278,6 @@ ref
 :
 mozilla_projects_nss_reference_nss_environment_variables
 .
-.
-.
-_platform_information
-:
 Platform
 Information
 <
@@ -1458,10 +1445,6 @@ green
 threads
 )
 .
-.
-.
-_known_bugs_and_issues
-:
 Known
 Bugs
 and

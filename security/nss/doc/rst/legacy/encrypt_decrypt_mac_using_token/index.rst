@@ -43,11 +43,6 @@ token
 =
 =
 =
-.
-.
-_nss_sample_code_3_encryptiondecryption_and_mac_using_token_object
-.
-:
 NSS
 sample
 code

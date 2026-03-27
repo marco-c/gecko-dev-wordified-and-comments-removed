@@ -114,11 +114,6 @@ __
 -
 .
 .
-container
-:
-:
-.
-.
 _nss_technical_note_7
 :
 NSS
@@ -299,10 +294,6 @@ contribution
 is
 welcome
 .
-.
-.
-_data_types
-:
 Data
 Types
 <
@@ -1712,10 +1703,6 @@ v2
 .
 1
 .
-.
-.
-_sample_code
-:
 Sample
 Code
 <

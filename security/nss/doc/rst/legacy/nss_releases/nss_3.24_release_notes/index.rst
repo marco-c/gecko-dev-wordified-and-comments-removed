@@ -325,10 +325,6 @@ of
 temporary
 arenas
 .
-.
-.
-_new_functionality
-:
 New
 functionality
 <
@@ -891,10 +887,6 @@ rubric
 :
 New
 functions
-:
-name
-:
-new_functions
 -
 *
 In
@@ -970,10 +962,6 @@ rubric
 :
 New
 types
-:
-name
-:
-new_types
 -
 *
 In
@@ -1071,10 +1059,6 @@ rubric
 :
 New
 macros
-:
-name
-:
-new_macros
 -
 *
 In

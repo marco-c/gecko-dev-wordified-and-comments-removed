@@ -62,11 +62,6 @@ __
 -
 -
 -
-.
-.
-container
-:
-:
 Summary
 <
 #
@@ -309,10 +304,6 @@ rubric
 :
 Restricting
 Ciphers
-:
-name
-:
-restricting_ciphers
 By
 default
 sslstrength
@@ -516,12 +507,6 @@ rubric
 :
 :
 Step
--
-up
-:
-name
-:
-step
 -
 up
 Step

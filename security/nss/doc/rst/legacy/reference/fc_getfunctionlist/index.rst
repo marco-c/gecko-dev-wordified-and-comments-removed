@@ -261,10 +261,6 @@ User
 role
 )
 .
-.
-.
-_return_value
-:
 Return
 value
 <
@@ -396,10 +392,6 @@ pFunctionList
 C_XXX
 *
 /
-.
-.
-_see_also
-:
 See
 also
 <

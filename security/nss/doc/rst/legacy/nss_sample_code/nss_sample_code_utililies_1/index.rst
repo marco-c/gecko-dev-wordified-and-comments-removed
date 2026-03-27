@@ -177,10 +177,6 @@ as
 ascii
 or
 hexadecimal
-.
-.
-_sample_code
-:
 Sample
 Code
 <

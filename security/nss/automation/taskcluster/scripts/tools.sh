@@ -101,6 +101,15 @@ PATH
 PATH
 }
 :
+{
+HOME
+}
+/
+.
+local
+/
+bin
+:
 /
 home
 /

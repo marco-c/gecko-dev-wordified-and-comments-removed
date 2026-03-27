@@ -221,16 +221,6 @@ up
 its
 resources
 .
-\
-<
-/
-en
--
-US
-/
-PR_Init
->
-__
 -
 PR_Cleanup
 <

@@ -260,10 +260,6 @@ NSS_3_17_1_RTM
 /
 src
 /
-.
-.
-_security_advisories
-:
 Security
 Advisories
 <
@@ -559,10 +555,6 @@ future
 NSS
 releases
 .
-.
-.
-_new_functionality
-:
 New
 Functionality
 <
@@ -672,10 +664,6 @@ rubric
 :
 New
 Macros
-:
-name
-:
-new_macros
 -
 *
 in

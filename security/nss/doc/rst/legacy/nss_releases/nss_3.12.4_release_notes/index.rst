@@ -87,10 +87,6 @@ rubric
 :
 :
 Introduction
-:
-name
-:
-Introduction
 Network
 Security
 Services
@@ -172,10 +168,6 @@ rubric
 :
 Distribution
 Information
-:
-name
-:
-Distribution_Information
 This
 release
 is
@@ -1023,10 +1015,6 @@ rubric
 :
 Bugs
 Fixed
-:
-name
-:
-Bugs_Fixed
 The
 following
 bugs
@@ -4060,10 +4048,6 @@ rubric
 :
 :
 Documentation
-:
-name
-:
-Documentation
 For
 a
 list
@@ -4108,10 +4092,6 @@ mozilla_projects_nss_reference_building_and_installing_nss_build_instructions
 .
 rubric
 :
-:
-Compatibility
-:
-name
 :
 Compatibility
 NSS
@@ -4204,10 +4184,6 @@ libraries
 .
 rubric
 :
-:
-Feedback
-:
-name
 :
 Feedback
 Bugs

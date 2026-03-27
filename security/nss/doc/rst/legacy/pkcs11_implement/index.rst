@@ -325,12 +325,6 @@ the
 standard
 specification
 .
-.
-.
-_general
--
-purpose_functions
-:
 General
 -
 Purpose

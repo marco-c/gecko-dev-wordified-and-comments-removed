@@ -116,7 +116,7 @@ slot
 pk11slot
 )
 ;
-PZ_DestroyLock
+PR_DestroyLock
 (
 slot
 -
@@ -126,7 +126,7 @@ base
 lock
 )
 ;
-PZ_DestroyCondVar
+PR_DestroyCondVar
 (
 slot
 -
@@ -134,7 +134,7 @@ slot
 isPresentCondition
 )
 ;
-PZ_DestroyLock
+PR_DestroyLock
 (
 slot
 -
@@ -175,7 +175,7 @@ slot
 lock
 )
 {
-PZ_Lock
+PR_Lock
 (
 slot
 -
@@ -201,7 +201,7 @@ slot
 lock
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 slot
 -
@@ -282,7 +282,7 @@ NSSSlot
 slot
 )
 {
-PZ_Lock
+PR_Lock
 (
 slot
 -
@@ -297,7 +297,7 @@ lastTokenPingState
 =
 nssSlotLastPingState_Reset
 ;
-PZ_Unlock
+PR_Unlock
 (
 slot
 -
@@ -459,7 +459,7 @@ pk11slot
 )
 ;
 }
-PZ_Lock
+PR_Lock
 (
 slot
 -
@@ -483,7 +483,7 @@ slot
 >
 ckFlags
 ;
-PZ_Unlock
+PR_Unlock
 (
 slot
 -
@@ -504,7 +504,7 @@ CKF_TOKEN_PRESENT
 )
 ;
 }
-PZ_Unlock
+PR_Unlock
 (
 slot
 -
@@ -529,7 +529,7 @@ return
 PR_FALSE
 ;
 }
-PZ_Lock
+PR_Lock
 (
 slot
 -
@@ -571,7 +571,7 @@ slot
 >
 ckFlags
 ;
-PZ_Unlock
+PR_Unlock
 (
 slot
 -
@@ -608,7 +608,7 @@ PR_GetCurrentThread
 (
 )
 ;
-PZ_Unlock
+PR_Unlock
 (
 slot
 -
@@ -1063,7 +1063,7 @@ nssToken
 )
 ;
 }
-PZ_Lock
+PR_Lock
 (
 slot
 -
@@ -1114,7 +1114,7 @@ slot
 isPresentCondition
 )
 ;
-PZ_Unlock
+PR_Unlock
 (
 slot
 -
@@ -1198,7 +1198,7 @@ s
 >
 lock
 )
-PZ_Lock
+PR_Lock
 (
 s
 -
@@ -1227,7 +1227,7 @@ s
 lock
 )
 ?
-PZ_Unlock
+PR_Unlock
 (
 s
 -

@@ -261,10 +261,6 @@ NSS_3_15_4_RTM
 /
 src
 /
-.
-.
-_security_advisories
-:
 Security
 Advisories
 <
@@ -459,10 +455,6 @@ __
 -
 -
 -
-.
-.
-_new_functionality
-:
 New
 Functionality
 <
@@ -619,10 +611,6 @@ long
 output
 lines
 .
-.
-.
-_new_functions
-:
 New
 Functions
 <
@@ -681,10 +669,6 @@ SSL_PeerCertificateChain
 SSL_RecommendedCanFalseStart
 -
 SSL_SetCanFalseStartCallback
-.
-.
-_new_types
-:
 New
 Types
 <
@@ -751,10 +735,6 @@ always
 use
 POST
 .
-.
-.
-_new_pkcs_11_mechanisms
-:
 New
 PKCS
 #

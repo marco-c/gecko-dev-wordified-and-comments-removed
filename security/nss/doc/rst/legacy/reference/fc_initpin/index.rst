@@ -348,10 +348,6 @@ has
 been
 reset
 .
-.
-.
-_return_value
-:
 Return
 value
 <
@@ -491,10 +487,6 @@ is
 already
 initialized
 .
-.
-.
-_see_also
-:
 See
 also
 <

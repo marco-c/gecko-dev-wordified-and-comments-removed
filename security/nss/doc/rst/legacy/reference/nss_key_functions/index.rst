@@ -114,10 +114,6 @@ rubric
 :
 :
 SECKEY_GetDefaultKeyDB
-:
-name
-:
-seckey_getdefaultkeydb
 Returns
 a
 handle
@@ -201,10 +197,6 @@ rubric
 :
 :
 SECKEY_DestroyPrivateKey
-:
-name
-:
-seckey_destroyprivatekey
 Destroys
 a
 private

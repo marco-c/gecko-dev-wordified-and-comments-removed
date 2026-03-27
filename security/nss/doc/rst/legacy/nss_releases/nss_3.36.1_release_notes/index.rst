@@ -233,12 +233,6 @@ NSS_3_36_1_RTM
 /
 src
 /
-.
-.
-_new_in_nss_3
-.
-xx
-:
 New
 in
 NSS
@@ -290,10 +284,6 @@ __
 -
 -
 -
-.
-.
-_new_functionality
-:
 New
 Functionality
 <

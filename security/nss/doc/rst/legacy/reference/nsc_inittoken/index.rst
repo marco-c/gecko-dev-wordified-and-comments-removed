@@ -351,10 +351,6 @@ the
 pLabel
 argument
 .
-.
-.
-_return_value
-:
 Return
 value
 <
@@ -532,15 +528,6 @@ __
 ~
 ~
 ~
-.
-.
-container
-:
-:
-.
-.
-_application_usage
-:
 Application
 usage
 <
@@ -717,10 +704,6 @@ of
 those
 keys
 .
-.
-.
-_see_also
-:
 See
 also
 <

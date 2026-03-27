@@ -11,13 +11,6 @@ utilrename
 .
 h
 "
-#
-include
-"
-nssilock
-.
-h
-"
 typedef
 struct
 nssRWLockStr

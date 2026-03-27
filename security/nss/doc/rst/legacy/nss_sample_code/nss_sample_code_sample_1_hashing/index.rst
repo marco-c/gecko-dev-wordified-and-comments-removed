@@ -170,10 +170,6 @@ NSS
 message
 APIs
 .
-.
-.
-_sample_code_1
-:
 Sample
 Code
 1

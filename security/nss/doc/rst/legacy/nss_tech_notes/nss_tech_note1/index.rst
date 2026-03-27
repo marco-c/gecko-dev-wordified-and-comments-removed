@@ -1,7 +1,3 @@
-.
-.
-_mozilla_projects_nss_nss_tech_notes_nss_tech_note1
-:
 nss
 tech
 note1
@@ -143,11 +139,6 @@ __
 -
 -
 -
-.
-.
-container
-:
-:
 .
 .
 _nss_technical_note_1

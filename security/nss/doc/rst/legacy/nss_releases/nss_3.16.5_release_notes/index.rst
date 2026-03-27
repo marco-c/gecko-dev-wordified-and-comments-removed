@@ -261,10 +261,6 @@ NSS_3_16_5_RTM
 /
 src
 /
-.
-.
-_security_advisories
-:
 Security
 Advisories
 <
@@ -484,10 +480,6 @@ __
 -
 -
 -
-.
-.
-_new_functionality
-:
 New
 Functionality
 <

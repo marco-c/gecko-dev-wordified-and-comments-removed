@@ -596,10 +596,6 @@ keys
 and
 certificates
 .
-.
-.
-_see_also
-:
 See
 also
 <

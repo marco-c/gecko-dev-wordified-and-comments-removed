@@ -411,10 +411,6 @@ for
 more
 information
 .
-.
-.
-_certificate_authority_changes
-:
 Certificate
 Authority
 Changes

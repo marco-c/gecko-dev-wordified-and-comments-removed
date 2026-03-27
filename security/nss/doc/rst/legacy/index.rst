@@ -1,3 +1,6 @@
+:
+orphan
+:
 .
 .
 _mozilla_projects_nss_legacy_index
@@ -39,11 +42,6 @@ glob
 :
 hidden
 :
-getting_started_with_nss
-/
-index
-.
-rst
 introduction_to_network_security_services
 /
 index
@@ -250,16 +248,11 @@ want
 to
 read
 the
-documents
+document
 :
 ref
 :
 mozilla_projects_nss_an_overview_of_nss_internals
-and
-:
-ref
-:
-mozilla_projects_nss_getting_started_with_nss
 .
 .
 .
@@ -396,10 +389,6 @@ rubric
 :
 Getting
 Started
-:
-name
-:
-Getting_Started
 :
 ref
 :

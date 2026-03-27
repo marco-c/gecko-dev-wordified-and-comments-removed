@@ -596,10 +596,6 @@ __
 for
 details
 .
-.
-.
-_certificate_authority_changes
-:
 Certificate
 Authority
 Changes

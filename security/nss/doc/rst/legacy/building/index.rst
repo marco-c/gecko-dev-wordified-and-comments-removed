@@ -105,10 +105,6 @@ attempting
 to
 build
 .
-.
-.
-_build_environment
-:
 Build
 environment
 <
@@ -384,10 +380,6 @@ other
 Windows
 applications
 .
-.
-.
-_get_the_source
-:
 Get
 the
 source
@@ -580,10 +572,6 @@ NSPR
 and
 NSS
 .
-.
-.
-_build_with_make
-:
 Build
 with
 make
@@ -820,10 +808,6 @@ an
 AddressSanitizer
 build
 .
-.
-.
-_unit_testing
-:
 Unit
 testing
 <
@@ -912,10 +896,6 @@ tests
 all
 .
 sh
-.
-.
-_unit_test_configuration
-:
 Unit
 test
 configuration
@@ -1116,10 +1096,6 @@ a
 bit
 build
 .
-.
-.
-_test_results
-:
 Test
 results
 <

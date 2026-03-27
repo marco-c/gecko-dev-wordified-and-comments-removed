@@ -356,10 +356,6 @@ to
 .
 29
 .
-.
-.
-_certificate_authority_changes
-:
 Certificate
 Authority
 Changes

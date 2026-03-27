@@ -157,10 +157,6 @@ txt
 __
 messages
 .
-.
-.
-_syntax_2
-:
 <
 #
 syntax_2
@@ -261,10 +257,6 @@ command
 without
 options
 .
-.
-.
-_options_and_arguments
-:
 Options
 and
 Arguments
@@ -2585,6 +2577,9 @@ recipients
 email
 addresses
 )
+|
+|
+|
 |
 |
 r

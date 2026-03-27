@@ -1137,7 +1137,6 @@ goto
 loser
 ;
 }
-static
 const
 PRUint8
 kCtxStrPadding
@@ -1212,7 +1211,6 @@ kCtxStrPadding
 0x20
 }
 ;
-static
 const
 PRUint8
 kCtxStr
@@ -1252,17 +1250,8 @@ tls_SignOrVerifyUpdate
 (
 ctx
 kCtxStr
-strlen
-(
-(
-const
-char
-*
-)
+sizeof
 kCtxStr
-+
-1
-)
 )
 ;
 if

@@ -361,10 +361,6 @@ rubric
 :
 New
 Functions
-:
-name
-:
-new_functions
 -
 *
 in

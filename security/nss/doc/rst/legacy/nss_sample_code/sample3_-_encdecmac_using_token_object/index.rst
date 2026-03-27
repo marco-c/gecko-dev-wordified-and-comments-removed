@@ -127,11 +127,6 @@ __
 -
 -
 -
-.
-.
-container
-:
-:
 Example
 :
 <
@@ -162,11 +157,6 @@ __
 ~
 ~
 ~
-.
-.
-container
-:
-:
 .
 .
 _nss_sample_code_3_hashing

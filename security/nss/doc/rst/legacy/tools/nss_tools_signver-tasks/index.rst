@@ -154,10 +154,6 @@ tech
 crypto
 >
 __
-.
-.
-_task_list
-:
 Task
 List
 <

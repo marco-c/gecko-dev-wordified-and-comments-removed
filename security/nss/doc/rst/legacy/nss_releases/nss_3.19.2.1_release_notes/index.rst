@@ -305,10 +305,6 @@ v4
 /
 src
 /
-.
-.
-_security_advisories
-:
 Security
 Advisories
 <
@@ -715,10 +711,6 @@ __
 -
 -
 -
-.
-.
-_new_functionality
-:
 New
 Functionality
 <

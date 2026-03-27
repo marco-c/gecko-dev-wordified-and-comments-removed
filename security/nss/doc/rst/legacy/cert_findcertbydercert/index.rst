@@ -693,10 +693,6 @@ the
 certificate
 instance
 .
-.
-.
-_see_also
-:
 See
 Also
 <

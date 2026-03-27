@@ -28,12 +28,6 @@ operation
 =
 =
 =
-.
-.
-_general
--
-purpose_functions
-:
 General
 -
 purpose

@@ -306,10 +306,6 @@ __
 -
 -
 -
-.
-.
-_new_functionality
-:
 New
 Functionality
 <
@@ -524,10 +520,6 @@ rubric
 :
 New
 Functions
-:
-name
-:
-new_functions
 None
 .
 .
@@ -537,10 +529,6 @@ rubric
 :
 New
 Types
-:
-name
-:
-new_types
 -
 *
 in
@@ -700,10 +688,6 @@ PKCS
 #
 11
 Mechanisms
-:
-name
-:
-new_pkcs_11_mechanisms
 None
 .
 .

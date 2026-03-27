@@ -381,10 +381,6 @@ NSS
 .
 1
 .
-.
-.
-_new_functionality
-:
 New
 Functionality
 <
@@ -487,10 +483,6 @@ TLS
 version
 fallback
 .
-.
-.
-_new_macros
-:
 New
 Macros
 <

@@ -170,11 +170,6 @@ __
 -
 .
 .
-container
-:
-:
-.
-.
 _nss_technical_note_8
 :
 NSS

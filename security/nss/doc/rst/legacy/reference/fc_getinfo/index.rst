@@ -351,10 +351,6 @@ User
 role
 )
 .
-.
-.
-_return_value
-:
 Return
 value
 <
@@ -704,10 +700,6 @@ n
 "
 )
 ;
-.
-.
-_see_also
-:
 See
 also
 <

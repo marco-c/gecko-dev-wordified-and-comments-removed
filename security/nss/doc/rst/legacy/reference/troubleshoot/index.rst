@@ -199,10 +199,6 @@ crypto
 >
 __
 .
-.
-.
-_building_nss
-:
 Building
 NSS
 <

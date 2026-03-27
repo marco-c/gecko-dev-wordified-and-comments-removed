@@ -248,6 +248,12 @@ is
 -
 python3
 \
+pipx
+\
+python3
+-
+pip
+\
 python3
 -
 requests
@@ -342,6 +348,12 @@ dpkg
 -
 reconfigure
 locales
+RUN
+pipx
+install
+diff
+-
+cover
 RUN
 userdel
 ubuntu

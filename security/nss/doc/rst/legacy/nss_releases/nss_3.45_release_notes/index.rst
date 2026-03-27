@@ -334,10 +334,6 @@ __
 -
 -
 -
-.
-.
-_new_functionality
-:
 New
 Functionality
 <
@@ -399,10 +395,6 @@ rubric
 :
 New
 Functions
-:
-name
-:
-new_functions
 -
 in
 *
@@ -1073,10 +1065,6 @@ in
 the
 meantime
 .
-.
-.
-_certificate_authority_changes
-:
 Certificate
 Authority
 Changes

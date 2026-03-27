@@ -77,10 +77,6 @@ rubric
 :
 GENERAL
 QUESTIONS
-:
-name
-:
-general_questions
 .
 .
 rubric

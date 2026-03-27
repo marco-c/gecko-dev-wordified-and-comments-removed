@@ -54,7 +54,7 @@ lockType
 case
 nssPKIMonitor
 :
-PZ_EnterMonitor
+PR_EnterMonitor
 (
 object
 -
@@ -69,7 +69,7 @@ break
 case
 nssPKILock
 :
-PZ_Lock
+PR_Lock
 (
 object
 -
@@ -110,7 +110,7 @@ lockType
 case
 nssPKIMonitor
 :
-PZ_ExitMonitor
+PR_ExitMonitor
 (
 object
 -
@@ -125,7 +125,7 @@ break
 case
 nssPKILock
 :
-PZ_Unlock
+PR_Unlock
 (
 object
 -
@@ -179,9 +179,8 @@ sync
 .
 mlock
 =
-PZ_NewMonitor
+PR_NewMonitor
 (
-nssILockSSL
 )
 ;
 return
@@ -208,9 +207,8 @@ sync
 .
 lock
 =
-PZ_NewLock
+PR_NewLock
 (
-nssILockSSL
 )
 ;
 return
@@ -259,7 +257,7 @@ lockType
 case
 nssPKIMonitor
 :
-PZ_DestroyMonitor
+PR_DestroyMonitor
 (
 object
 -
@@ -283,7 +281,7 @@ break
 case
 nssPKILock
 :
-PZ_DestroyLock
+PR_DestroyLock
 (
 object
 -

@@ -219,10 +219,6 @@ in
 such
 files
 .
-.
-.
-_availability_2
-:
 <
 #
 availability_2
@@ -576,10 +572,6 @@ without
 any
 options
 .
-.
-.
-_options_and_arguments
-:
 Options
 and
 Arguments
@@ -3658,10 +3650,6 @@ the
 error
 message
 .
-.
-.
-_error_codes
-:
 <
 #
 error_codes

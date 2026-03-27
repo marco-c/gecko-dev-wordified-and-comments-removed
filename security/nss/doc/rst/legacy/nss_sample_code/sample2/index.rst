@@ -17,12 +17,6 @@ container
 :
 .
 .
-container
-:
-:
-summary
-.
-.
 code
 :
 :

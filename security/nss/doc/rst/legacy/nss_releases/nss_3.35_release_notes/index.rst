@@ -285,10 +285,6 @@ __
 -
 -
 -
-.
-.
-_new_functionality
-:
 New
 Functionality
 <
@@ -387,10 +383,6 @@ rubric
 :
 New
 Types
-:
-name
-:
-new_types
 -
 *
 in

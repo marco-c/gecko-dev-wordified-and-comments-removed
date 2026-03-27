@@ -34,7 +34,7 @@ NSSArena
 *
 arena
 ;
-PZLock
+PRLock
 *
 lock
 ;
@@ -59,7 +59,7 @@ i_alloced_arena
 struct
 nssListIteratorStr
 {
-PZLock
+PRLock
 *
 lock
 ;
@@ -90,7 +90,7 @@ list
 lock
 )
 \
-PZ_Lock
+PR_Lock
 (
 (
 list
@@ -116,7 +116,7 @@ list
 lock
 )
 \
-PZ_Unlock
+PR_Unlock
 (
 (
 list
@@ -363,9 +363,8 @@ list
 >
 lock
 =
-PZ_NewLock
+PR_NewLock
 (
-nssILockOther
 )
 ;
 if
@@ -476,7 +475,7 @@ lock
 (
 void
 )
-PZ_DestroyLock
+PR_DestroyLock
 (
 list
 -
@@ -1521,9 +1520,8 @@ rvIterator
 >
 lock
 =
-PZ_NewLock
+PR_NewLock
 (
-nssILockOther
 )
 ;
 if
@@ -1578,7 +1576,7 @@ lock
 (
 void
 )
-PZ_DestroyLock
+PR_DestroyLock
 (
 iter
 -
@@ -1816,7 +1814,7 @@ iter
 lock
 )
 ?
-PZ_Unlock
+PR_Unlock
 (
 iter
 -

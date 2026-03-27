@@ -384,10 +384,6 @@ Mozilla
 client
 applications
 .
-.
-.
-_instructions_for_specifying_an_ocsp_proxy
-:
 Specifying
 an
 OCSP

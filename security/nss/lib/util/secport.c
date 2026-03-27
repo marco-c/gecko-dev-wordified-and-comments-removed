@@ -43,7 +43,7 @@ h
 #
 include
 "
-nssilock
+prlock
 .
 h
 "
@@ -866,9 +866,8 @@ pool
 >
 lock
 =
-PZ_NewLock
+PR_NewLock
 (
-nssILockArena
 )
 ;
 if
@@ -1012,7 +1011,7 @@ pool
 magic
 )
 {
-PZ_Lock
+PR_Lock
 (
 pool
 -
@@ -1042,7 +1041,7 @@ PR_GetCurrentThread
 )
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 pool
 -
@@ -1073,7 +1072,7 @@ arena
 size
 )
 ;
-PZ_Unlock
+PR_Unlock
 (
 pool
 -
@@ -1264,7 +1263,7 @@ pool
 >
 lock
 ;
-PZ_Lock
+PR_Lock
 (
 lock
 )
@@ -1323,12 +1322,12 @@ if
 lock
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 lock
 )
 ;
-PZ_DestroyLock
+PR_DestroyLock
 (
 lock
 )
@@ -1443,7 +1442,7 @@ pool
 magic
 )
 {
-PZ_Lock
+PR_Lock
 (
 pool
 -
@@ -1463,7 +1462,7 @@ oldsize
 )
 )
 ;
-PZ_Unlock
+PR_Unlock
 (
 pool
 -
@@ -1527,7 +1526,7 @@ pool
 magic
 )
 {
-PZ_Lock
+PR_Lock
 (
 pool
 -
@@ -1583,7 +1582,7 @@ pool
 marking_thread
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 pool
 -
@@ -1628,7 +1627,7 @@ if
 tm
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 pool
 -
@@ -1706,7 +1705,7 @@ arena
 ;
 #
 endif
-PZ_Unlock
+PR_Unlock
 (
 pool
 -
@@ -2056,7 +2055,7 @@ pool
 magic
 )
 {
-PZ_Lock
+PR_Lock
 (
 pool
 -
@@ -2086,7 +2085,7 @@ pool
 marking_thread
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 pool
 -
@@ -2154,7 +2153,7 @@ if
 pw
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 pool
 -
@@ -2246,7 +2245,7 @@ mark
 ;
 #
 endif
-PZ_Unlock
+PR_Unlock
 (
 pool
 -
@@ -2355,7 +2354,7 @@ threadmark_mark
 *
 pw
 ;
-PZ_Lock
+PR_Lock
 (
 pool
 -
@@ -2376,7 +2375,7 @@ pool
 marking_thread
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 pool
 -
@@ -2459,7 +2458,7 @@ NULL
 pw
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 pool
 -
@@ -2510,7 +2509,7 @@ PRThread
 NULL
 ;
 }
-PZ_Unlock
+PR_Unlock
 (
 pool
 -

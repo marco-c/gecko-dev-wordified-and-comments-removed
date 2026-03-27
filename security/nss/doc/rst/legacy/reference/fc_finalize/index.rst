@@ -224,10 +224,6 @@ must
 be
 NULL
 .
-.
-.
-_return_value
-:
 Return
 value
 <
@@ -401,10 +397,6 @@ C_Finalize
 NULL
 )
 ;
-.
-.
-_see_also
-:
 See
 also
 <

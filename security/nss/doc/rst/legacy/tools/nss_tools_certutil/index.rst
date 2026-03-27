@@ -452,10 +452,6 @@ the
 H
 option
 .
-.
-.
-_options_and_arguments
-:
 Options
 and
 Arguments
@@ -10263,11 +10259,6 @@ __
 -
 -
 -
-.
-.
-container
-:
-:
 .
 .
 _creating_a_new_certificate_database

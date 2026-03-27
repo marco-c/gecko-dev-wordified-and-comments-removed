@@ -11,10 +11,6 @@ FAQ
 =
 =
 =
-.
-.
-_general_questions
-:
 General
 Questions
 <

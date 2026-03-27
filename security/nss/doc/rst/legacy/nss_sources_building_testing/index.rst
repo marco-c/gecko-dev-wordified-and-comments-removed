@@ -753,10 +753,6 @@ will
 remain
 stable
 .
-.
-.
-_building_nss
-:
 Building
 NSS
 <

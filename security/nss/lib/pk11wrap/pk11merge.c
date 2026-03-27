@@ -1223,7 +1223,7 @@ done
 }
 sourceKey
 =
-PK11_MakePrivKey
+pk11_MakePrivKey
 (
 sourceSlot
 nullKey

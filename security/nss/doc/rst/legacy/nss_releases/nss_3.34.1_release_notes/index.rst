@@ -539,12 +539,6 @@ to
 .
 20
 .
-.
-.
-_new_in_nss_3
-.
-34
-:
 New
 in
 NSS
@@ -596,10 +590,6 @@ __
 -
 -
 -
-.
-.
-_new_functionality
-:
 New
 Functionality
 <
@@ -663,10 +653,6 @@ rubric
 :
 New
 Functions
-:
-name
-:
-new_functions
 .
 .
 _bugs_fixed_in_nss_3

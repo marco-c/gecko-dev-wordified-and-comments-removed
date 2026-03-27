@@ -723,10 +723,6 @@ Java
 SunPKCS11
 provider
 .
-.
-.
-_return_value
-:
 Return
 value
 <
@@ -864,10 +860,6 @@ NSS_INIT_NOROOTINIT
 NSS_INIT_OPTIMIZESPACE
 )
 ;
-.
-.
-_see_also
-:
 See
 also
 <
