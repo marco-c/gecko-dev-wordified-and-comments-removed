@@ -16958,6 +16958,27 @@ routes
 ]
 )
             
+tier
+=
+task
+.
+get
+(
+"
+treeherder
+"
+{
+}
+)
+.
+get
+(
+"
+tier
+"
+3
+)
+            
 if
 "
 checks
@@ -16965,6 +16986,11 @@ checks
 not
 in
 routes
+and
+tier
+=
+=
+1
 :
                 
 routes
