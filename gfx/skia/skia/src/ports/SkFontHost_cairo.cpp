@@ -1670,16 +1670,6 @@ kNone
 #
 ifndef
 SK_GAMMA_APPLY_TO_A8
-if
-(
-!
-isLCD
-(
-*
-rec
-)
-)
-{
 rec
 -
 >
@@ -1687,7 +1677,6 @@ ignorePreBlend
 (
 )
 ;
-}
 #
 endif
 }

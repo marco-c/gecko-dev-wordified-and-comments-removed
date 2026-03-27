@@ -1507,12 +1507,6 @@ lcd_filter
 a
 .
 hinting
-a
-.
-gamma
-a
-.
-enhanced_contrast
 )
 ;
 #
