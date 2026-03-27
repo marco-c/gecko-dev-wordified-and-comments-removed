@@ -3034,11 +3034,11 @@ tab_manager_multiselect_menu_item_share
 )
 drawableRes
 =
-R
+iconsR
 .
 drawable
 .
-ic_share
+mozac_ic_share_android_24
 testTag
 =
 TabsTrayTestTag

@@ -527,11 +527,13 @@ theme
 .
 FirefoxTheme
 import
-org
-.
 mozilla
 .
-fenix
+components
+.
+ui
+.
+icons
 .
 R
 as
@@ -1177,7 +1179,7 @@ iconsR
 .
 drawable
 .
-ic_share
+mozac_ic_share_android_24
 )
 contentDescription
 =
