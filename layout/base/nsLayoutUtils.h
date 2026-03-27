@@ -7432,6 +7432,16 @@ aScrollbarPart
 ;
 static
 bool
+UseOverlayScrollbars
+(
+const
+nsIFrame
+*
+aScrollbarPart
+)
+;
+static
+bool
 FrameRectIsScrolledOutOfViewInCrossProcess
 (
 const
