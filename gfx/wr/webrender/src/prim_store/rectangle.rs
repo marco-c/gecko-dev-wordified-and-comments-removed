@@ -343,9 +343,6 @@ SegmentInstanceIndex
 :
 INVALID
 color_binding_index
-use_legacy_path
-:
-false
 }
 }
 }

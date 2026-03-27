@@ -2528,9 +2528,6 @@ CompositorSurfaceKind
 :
 :
 Blit
-use_legacy_path
-:
-true
 }
 }
 }

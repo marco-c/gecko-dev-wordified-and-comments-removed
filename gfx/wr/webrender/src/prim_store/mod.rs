@@ -3966,9 +3966,6 @@ SegmentInstanceIndex
 color_binding_index
 :
 ColorBindingIndex
-use_legacy_path
-:
-bool
 }
 YuvImage
 {
@@ -3993,9 +3990,6 @@ ImageInstanceIndex
 compositor_surface_kind
 :
 CompositorSurfaceKind
-use_legacy_path
-:
-bool
 }
 LinearGradient
 {
@@ -4005,9 +3999,6 @@ LinearGradientDataHandle
 visible_tiles_range
 :
 GradientTileRange
-use_legacy_path
-:
-bool
 }
 CachedLinearGradient
 {
@@ -4026,9 +4017,6 @@ RadialGradientDataHandle
 visible_tiles_range
 :
 GradientTileRange
-use_legacy_path
-:
-bool
 }
 ConicGradient
 {
@@ -4038,9 +4026,6 @@ ConicGradientDataHandle
 visible_tiles_range
 :
 GradientTileRange
-use_legacy_path
-:
-bool
 }
 BackdropCapture
 {
