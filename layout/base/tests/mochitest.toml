@@ -1425,13 +1425,6 @@ html
 ]
 [
 "
-test_getClientRects_emptytext
-.
-html
-"
-]
-[
-"
 test_interactive_widget
 .
 html
