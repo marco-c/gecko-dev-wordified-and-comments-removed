@@ -20,6 +20,9 @@ PRemoteCDMChild
 class
 PRemoteCDMParent
 ;
+class
+RemoteCDMProxy
+;
 enum
 class
 RemoteMediaIn
@@ -52,6 +55,15 @@ return
 nullptr
 ;
 }
+virtual
+RemoteCDMProxy
+*
+AsRemoteCDMProxy
+(
+)
+=
+0
+;
 virtual
 RemoteMediaIn
 GetLocation

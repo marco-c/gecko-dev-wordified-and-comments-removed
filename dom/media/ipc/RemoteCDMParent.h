@@ -217,6 +217,17 @@ return
 this
 ;
 }
+RemoteCDMProxy
+*
+AsRemoteCDMProxy
+(
+)
+final
+{
+return
+nullptr
+;
+}
 RemoteMediaIn
 GetLocation
 (

@@ -87,13 +87,13 @@ class
 PMFMediaEngineChild
 ;
 class
-RemoteCDMChild
+RemoteCDMProxy
 ;
 class
 RemoteDecoderChild
 ;
 class
-RemoteMediaDataEncoderChild
+RemoteMediaDataEncoder
 ;
 enum
 class
@@ -247,7 +247,7 @@ aLocation
 static
 RefPtr
 <
-RemoteCDMChild
+RemoteCDMProxy
 >
 CreateCDM
 (
@@ -294,7 +294,7 @@ InitializeEncoder
 (
 RefPtr
 <
-RemoteMediaDataEncoderChild
+RemoteMediaDataEncoder
 >
 &
 &

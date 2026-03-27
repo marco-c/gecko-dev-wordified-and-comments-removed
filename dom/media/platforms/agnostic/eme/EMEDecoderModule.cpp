@@ -105,7 +105,7 @@ include
 "
 mozilla
 /
-RemoteCDMChild
+RemoteCDMProxy
 .
 h
 "
@@ -2339,7 +2339,7 @@ PRemoteCDMActor
 mProxy
 -
 >
-AsRemoteCDMChild
+AsRemoteCDMProxy
 (
 )
 )

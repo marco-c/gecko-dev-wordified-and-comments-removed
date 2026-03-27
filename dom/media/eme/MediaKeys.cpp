@@ -243,7 +243,7 @@ include
 "
 mozilla
 /
-RemoteCDMChild
+RemoteCDMProxy
 .
 h
 "

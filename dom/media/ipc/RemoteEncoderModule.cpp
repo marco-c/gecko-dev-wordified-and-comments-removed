@@ -15,7 +15,7 @@ h
 #
 include
 "
-RemoteMediaDataEncoderChild
+RemoteMediaDataEncoder
 .
 h
 "
@@ -312,7 +312,7 @@ encoder
 =
 MakeRefPtr
 <
-RemoteMediaDataEncoderChild
+RemoteMediaDataEncoder
 >
 (
 std
@@ -453,7 +453,7 @@ encoder
 =
 MakeRefPtr
 <
-RemoteMediaDataEncoderChild
+RemoteMediaDataEncoder
 >
 (
 std

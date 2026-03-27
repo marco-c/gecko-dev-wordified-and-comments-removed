@@ -84,7 +84,7 @@ class
 ChromiumCDMProxy
 ;
 class
-RemoteCDMChild
+RemoteCDMProxy
 ;
 #
 ifdef
@@ -813,9 +813,9 @@ nullptr
 #
 endif
 virtual
-RemoteCDMChild
+RemoteCDMProxy
 *
-AsRemoteCDMChild
+AsRemoteCDMProxy
 (
 )
 {
