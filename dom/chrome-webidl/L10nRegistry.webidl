@@ -1051,17 +1051,6 @@ UTF8String
 aName
 )
 ;
-[
-Throws
-]
-L10nFileSource
-?
-getSource
-(
-UTF8String
-aName
-)
-;
 sequence
 <
 UTF8String
