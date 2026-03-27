@@ -949,7 +949,7 @@ testGetValue
 )
 eventStore
 .
-assertSingleEventEquals
+assertRecorded
 (
 "
 bookmark_added
@@ -1067,9 +1067,7 @@ testGetValue
 )
 eventStore
 .
-assertEventsEqual
-(
-listOf
+assertRecorded
 (
 "
 bookmark_added
@@ -1077,7 +1075,6 @@ bookmark_added
 "
 bookmark_added
 "
-)
 )
 }
 Test

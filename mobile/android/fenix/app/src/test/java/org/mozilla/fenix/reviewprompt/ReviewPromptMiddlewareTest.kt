@@ -1048,7 +1048,7 @@ ReviewPromptShown
 )
 eventStore
 .
-assertSingleEventEquals
+assertRecorded
 (
 "
 review_prompt_shown
