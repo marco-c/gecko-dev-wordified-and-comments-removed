@@ -1543,6 +1543,15 @@ aStart
 true
 )
 ;
+const
+firstVisibleIndex
+=
+listbox
+.
+getIndexOfFirstVisibleRow
+(
+)
+;
 yield
 sendWheelAndWait
 (
@@ -1568,7 +1577,7 @@ listbox
 getIndexOfFirstVisibleRow
 (
 )
-aStart
+firstVisibleIndex
 "
 testRichListbox
 (
