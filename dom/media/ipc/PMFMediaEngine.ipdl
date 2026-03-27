@@ -303,6 +303,11 @@ error
 )
 ;
 async
+NotifyHardwareReset
+(
+)
+;
+async
 UpdateCurrentTime
 (
 double
