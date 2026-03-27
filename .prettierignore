@@ -8528,13 +8528,6 @@ test_bug335816
 html
 js
 /
-src
-/
-README
-.
-html
-js
-/
 xpconnect
 /
 tests
