@@ -476,6 +476,13 @@ js
 ]
 [
 "
+browser_smartwindow_sanitize
+.
+js
+"
+]
+[
+"
 browser_smartwindow_shortcut
 .
 js
