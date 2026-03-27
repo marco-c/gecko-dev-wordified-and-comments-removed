@@ -6267,10 +6267,11 @@ otherTabInSplit
 )
 )
 {
-splitview
+gBrowser
 .
 unsplitTabs
 (
+splitview
 )
 ;
 splitview
