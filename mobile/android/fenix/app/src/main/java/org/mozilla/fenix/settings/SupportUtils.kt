@@ -751,6 +751,16 @@ android
 translation
 "
 )
+AI_CONTROLS
+(
+"
+firefox
+-
+ai
+-
+controls
+"
+)
 MANAGE_OPTIONAL_EXTENSION_PERMISSIONS
 (
 "
