@@ -1787,6 +1787,17 @@ vendor
 /
 target
 /
+/
+tools
+/
+update
+-
+verify
+/
+marannon
+/
+target
+/
 #
 Ignore
 mozharness
