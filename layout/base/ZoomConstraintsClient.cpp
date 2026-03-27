@@ -467,7 +467,7 @@ RemoveObserver
 this
 BEFORE_FIRST_PAINT
 .
-Data
+get
 (
 )
 )
@@ -480,7 +480,7 @@ RemoveObserver
 this
 COMPOSITOR_REINITIALIZED
 .
-Data
+get
 (
 )
 )
@@ -718,7 +718,7 @@ AddObserver
 this
 BEFORE_FIRST_PAINT
 .
-Data
+get
 (
 )
 false
@@ -732,7 +732,7 @@ AddObserver
 this
 COMPOSITOR_REINITIALIZED
 .
-Data
+get
 (
 )
 false
