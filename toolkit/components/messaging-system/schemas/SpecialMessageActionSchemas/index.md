@@ -2246,7 +2246,7 @@ entry
 "
 :
 "
-other
+messagingSystem
 "
 "
 isPreview

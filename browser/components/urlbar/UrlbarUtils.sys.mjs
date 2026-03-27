@@ -1742,7 +1742,7 @@ update
 telemetry
 documentation
 and
-Scalars
+metrics
 .
 yaml
 .
@@ -1760,6 +1760,9 @@ handoff
 "
 "
 keywordoffer
+"
+"
+messagingSystem
 "
 "
 oneoff

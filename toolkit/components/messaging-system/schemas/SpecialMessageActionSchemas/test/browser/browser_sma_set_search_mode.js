@@ -84,7 +84,7 @@ false
 entry
 :
 "
-other
+messagingSystem
 "
 }
 ;
