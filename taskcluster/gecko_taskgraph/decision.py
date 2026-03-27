@@ -2526,13 +2526,19 @@ options
 tasks_for
 "
 ]
-=
-=
+in
+(
 "
 hg
 -
 push
 "
+"
+github
+-
+push
+"
+)
 :
         
 set_try_config
