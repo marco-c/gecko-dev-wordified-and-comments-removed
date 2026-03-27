@@ -657,9 +657,8 @@ nullptr
 ;
 #
 else
-result
-.
-mDesktopImpl
+RefPtr
+desktopImpl
 =
 webrtc
 :
@@ -676,6 +675,12 @@ aType
 ;
 result
 .
+mDesktopImpl
+=
+desktopImpl
+;
+result
+.
 mCapturer
 =
 webrtc
@@ -689,9 +694,7 @@ webrtc
 VideoCaptureModule
 >
 (
-result
-.
-mDesktopImpl
+desktopImpl
 )
 ;
 #

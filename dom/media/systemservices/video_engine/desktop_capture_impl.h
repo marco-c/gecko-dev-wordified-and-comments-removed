@@ -122,6 +122,17 @@ h
 #
 include
 "
+mozilla
+/
+media
+/
+DesktopCaptureInterface
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -152,6 +163,11 @@ VideoCaptureEncodeInterface
 class
 DesktopCaptureImpl
 :
+public
+mozilla
+:
+:
+DesktopCaptureInterface
 public
 DesktopCapturer
 :
@@ -337,6 +353,7 @@ void
 CaptureEndedEvent
 (
 )
+override
 ;
 const
 int32_t
