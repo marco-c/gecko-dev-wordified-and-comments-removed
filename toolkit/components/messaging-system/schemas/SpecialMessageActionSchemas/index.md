@@ -2361,3 +2361,17 @@ args
 (
 none
 )
+#
+#
+#
+RESTART_APP
+Restart
+the
+application
+.
+-
+args
+:
+(
+none
+)

@@ -335,6 +335,13 @@ crashreporter
 ]
 [
 "
+browser_UpdatePolicyEnforcer
+.
+js
+"
+]
+[
+"
 browser_UsageTelemetry
 .
 js
