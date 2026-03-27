@@ -1209,12 +1209,12 @@ mDecodedFrames
 =
 0
 ;
-float
+double
 mAverageFrameDecodeTime
 =
 0
 ;
-float
+double
 mAverageFrameDuration
 =
 0
