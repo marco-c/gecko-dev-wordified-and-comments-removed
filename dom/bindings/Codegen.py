@@ -12457,7 +12457,7 @@ isUndefined
                     
 JSObject
 *
-obj
+proxyObj
 =
 &
 val
@@ -12472,7 +12472,7 @@ js
 :
 SetProxyReservedSlot
 (
-obj
+proxyObj
 OBSERVABLE_ARRAY_DOM_INTERFACE_SLOT
 JS
 :
