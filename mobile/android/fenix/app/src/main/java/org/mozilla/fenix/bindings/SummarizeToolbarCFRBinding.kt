@@ -880,11 +880,6 @@ check
 session
 )
 .
-map
-{
-true
-}
-.
 getOrNull
 (
 )
