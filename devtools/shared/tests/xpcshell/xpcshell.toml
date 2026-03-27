@@ -427,3 +427,10 @@ test_stack
 js
 "
 ]
+[
+"
+test_toFixed
+.
+js
+"
+]
