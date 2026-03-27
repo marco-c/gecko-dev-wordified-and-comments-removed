@@ -483,7 +483,7 @@ ColumnHeaderItems
 )
 ;
 }
-addUiaTask
+addAccessibleTask
 (
 SNIPPET
 async
@@ -684,7 +684,7 @@ Grid
 }
 )
 ;
-addUiaTask
+addAccessibleTask
 (
 SNIPPET
 async
@@ -808,7 +808,7 @@ GridItem
 }
 )
 ;
-addUiaTask
+addAccessibleTask
 (
 SNIPPET
 async
@@ -950,17 +950,9 @@ Table
 )
 ;
 }
-{
-uiaEnabled
-:
-true
-uiaDisabled
-:
-false
-}
 )
 ;
-addUiaTask
+addAccessibleTask
 (
 SNIPPET
 async

@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-addUiaTask
+addAccessibleTask
 (
 <
 button

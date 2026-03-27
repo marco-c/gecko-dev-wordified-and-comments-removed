@@ -56,7 +56,7 @@ ToggleState_Indeterminate
 =
 2
 ;
-addUiaTask
+addAccessibleTask
 (
 <
 button
@@ -189,11 +189,6 @@ button
 "
 )
 ;
-if
-(
-gIsUiaEnabled
-)
-{
 await
 setUpWaitForUiaEvent
 (
@@ -205,7 +200,6 @@ button
 "
 )
 ;
-}
 await
 runPython
 (
@@ -229,11 +223,6 @@ focus
 "
 )
 ;
-if
-(
-gIsUiaEnabled
-)
-{
 await
 waitForUiaEvent
 (
@@ -250,7 +239,6 @@ event
 "
 )
 ;
-}
 await
 testPatternAbsent
 (
@@ -262,11 +250,6 @@ Invoke
 "
 )
 ;
-if
-(
-gIsUiaEnabled
-)
-{
 await
 testPatternAbsent
 (
@@ -290,10 +273,9 @@ Invoke
 )
 ;
 }
-}
 )
 ;
-addUiaTask
+addAccessibleTask
 (
 <
 input
@@ -598,11 +580,6 @@ ToggleState_On
 "
 )
 ;
-if
-(
-gIsUiaEnabled
-)
-{
 info
 (
 "
@@ -737,7 +714,6 @@ ToggleState_Indeterminate
 "
 )
 ;
-}
 await
 assignPyVarToUiaWithId
 (
@@ -796,11 +772,6 @@ ToggleState_Off
 "
 )
 ;
-if
-(
-gIsUiaEnabled
-)
-{
 info
 (
 "
@@ -868,7 +839,6 @@ ToggleState_Off
 "
 )
 ;
-}
 await
 testPatternAbsent
 (
@@ -894,7 +864,7 @@ Toggle
 }
 )
 ;
-addUiaTask
+addAccessibleTask
 (
 <
 details
@@ -1076,11 +1046,6 @@ ExpandCollapseState_Collapsed
 "
 )
 ;
-if
-(
-gIsUiaEnabled
-)
-{
 info
 (
 "
@@ -1267,7 +1232,6 @@ failed
 "
 )
 ;
-}
 await
 assignPyVarToUiaWithId
 (
@@ -1309,11 +1273,6 @@ pattern
 "
 )
 ;
-if
-(
-gIsUiaEnabled
-)
-{
 is
 (
 await
@@ -1398,7 +1357,6 @@ ExpandCollapseState_Expanded
 "
 )
 ;
-}
 await
 testPatternAbsent
 (
@@ -1413,7 +1371,7 @@ ExpandCollapse
 }
 )
 ;
-addUiaTask
+addAccessibleTask
 (
 <
 hr
@@ -1568,7 +1526,7 @@ STATE_OFFSCREEN
 }
 )
 ;
-addUiaTask
+addAccessibleTask
 (
 <
 input
@@ -2097,11 +2055,6 @@ Value
 "
 )
 ;
-if
-(
-gIsUiaEnabled
-)
-{
 info
 (
 "
@@ -2130,7 +2083,6 @@ failed
 "
 )
 ;
-}
 await
 assignPyVarToUiaWithId
 (
@@ -2648,7 +2600,7 @@ Value
 }
 )
 ;
-addUiaTask
+addAccessibleTask
 (
 async
 function
@@ -2920,11 +2872,6 @@ correct
 Maximum
 )
 ;
-if
-(
-gIsUiaEnabled
-)
-{
 is
 (
 await
@@ -2962,8 +2909,7 @@ LargeChange
 )
 ;
 }
-}
-addUiaTask
+addAccessibleTask
 (
 <
 input

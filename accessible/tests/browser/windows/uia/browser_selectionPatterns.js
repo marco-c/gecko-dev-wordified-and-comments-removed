@@ -690,11 +690,6 @@ correct
 CanSelectMultiple
 )
 ;
-if
-(
-gIsUiaEnabled
-)
-{
 is
 (
 !
@@ -717,7 +712,6 @@ correct
 IsSelectionRequired
 )
 ;
-}
 }
 async
 function
@@ -844,7 +838,7 @@ SelectionContainer
 ;
 }
 }
-addUiaTask
+addAccessibleTask
 (
 SNIPPET
 async
@@ -1093,11 +1087,6 @@ false
 false
 )
 ;
-if
-(
-gIsUiaEnabled
-)
-{
 await
 testSelectionProps
 (
@@ -1116,7 +1105,6 @@ true
 false
 )
 ;
-}
 await
 testPatternAbsent
 (
@@ -1153,7 +1141,7 @@ Selection
 }
 )
 ;
-addUiaTask
+addAccessibleTask
 (
 SNIPPET
 async
@@ -1470,11 +1458,6 @@ tablist
 "
 )
 ;
-if
-(
-gIsUiaEnabled
-)
-{
 info
 (
 "
@@ -1610,12 +1593,6 @@ tablist
 "
 )
 ;
-}
-if
-(
-gIsUiaEnabled
-)
-{
 await
 testSelectionItemProps
 (
@@ -1640,7 +1617,6 @@ grid
 "
 )
 ;
-}
 await
 testSelectionItemProps
 (
@@ -1661,11 +1637,6 @@ false
 null
 )
 ;
-if
-(
-gIsUiaEnabled
-)
-{
 info
 (
 "
@@ -1759,7 +1730,6 @@ r2
 "
 )
 ;
-}
 await
 testPatternAbsent
 (
@@ -1771,11 +1741,6 @@ SelectionItem
 "
 )
 ;
-if
-(
-gIsUiaEnabled
-)
-{
 await
 testSelectionItemProps
 (
@@ -1796,7 +1761,6 @@ true
 null
 )
 ;
-}
 await
 testPatternAbsent
 (

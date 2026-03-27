@@ -64,7 +64,7 @@ element
 ;
 }
 }
-addUiaTask
+addAccessibleTask
 (
 <
 p
@@ -438,15 +438,6 @@ table
 true
 )
 ;
-if
-(
-!
-gIsUiaEnabled
-)
-{
-return
-;
-}
 await
 definePyVar
 (

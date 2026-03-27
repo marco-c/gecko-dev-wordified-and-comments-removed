@@ -18,7 +18,7 @@ NotificationProcessing_All
 =
 2
 ;
-addUiaTask
+addAccessibleTask
 (
 <
 button
@@ -459,14 +459,6 @@ correct
 "
 )
 ;
-}
-{
-uiaEnabled
-:
-true
-uiaDisabled
-:
-false
 }
 )
 ;
