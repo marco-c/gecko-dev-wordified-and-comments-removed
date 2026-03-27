@@ -1,49 +1,21 @@
 import
 os
 import
-sys
-from
-os
-.
-path
-import
-dirname
-join
-import
 pytest
-sys
-.
-path
-.
-insert
-(
-0
-join
-(
-dirname
-(
-__file__
-)
-"
-.
-.
-"
-"
-.
-.
-"
-)
-)
 from
 .
 .
+products
 import
-browsers
+get_all_products
 _products
 =
-browsers
-.
-product_list
+set
+(
+get_all_products
+(
+)
+)
 _active_products
 =
 set
@@ -61,6 +33,8 @@ environ
     
 current_tox_env_split
 =
+set
+(
 os
 .
 environ
@@ -75,6 +49,7 @@ split
 "
 -
 "
+)
 )
     
 tox_env_extra_browsers
@@ -105,10 +80,7 @@ servo_legacy
     
 _active_products
 =
-set
-(
 _products
-)
 &
 set
 (
@@ -141,10 +113,7 @@ else
     
 _active_products
 =
-set
-(
 _products
-)
 class
 all_products
 :
