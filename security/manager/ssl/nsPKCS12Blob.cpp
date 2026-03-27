@@ -19,15 +19,6 @@ include
 "
 mozilla
 /
-EndianUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Logging
 .
 h
