@@ -1584,12 +1584,6 @@ defined
 (
 GP_OS_windows
 )
-&
-&
-defined
-(
-MOZ_GECKO_PROFILER
-)
 HANDLE
 threadHandle
 =
@@ -1644,12 +1638,6 @@ elif
 defined
 (
 GP_OS_darwin
-)
-&
-&
-defined
-(
-MOZ_GECKO_PROFILER
 )
 thread_basic_info_data_t
 threadBasicInfo
