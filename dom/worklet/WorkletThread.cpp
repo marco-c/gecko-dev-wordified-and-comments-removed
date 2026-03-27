@@ -8,6 +8,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 XPCSelfHostedShmem
 .
 h
@@ -2040,6 +2047,11 @@ rv
 return
 ;
 }
+PROFILER_SET_JS_CONTEXT
+(
+context
+)
+;
 JS
 :
 :
@@ -2386,6 +2398,10 @@ GetAsWorkletJSContext
 MOZ_ASSERT
 (
 workletjscx
+)
+;
+PROFILER_CLEAR_JS_CONTEXT
+(
 )
 ;
 delete
