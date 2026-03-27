@@ -130,7 +130,7 @@ SidebarStateProps
 *
 property
 {
-boolean
+string
 }
 command
 *
