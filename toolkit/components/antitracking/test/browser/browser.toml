@@ -961,6 +961,13 @@ js
 ]
 [
 "
+browser_partitionkey_mediasourceurl
+.
+js
+"
+]
+[
+"
 browser_permissionInNormalWindows
 .
 js
