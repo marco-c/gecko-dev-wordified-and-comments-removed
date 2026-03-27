@@ -104,14 +104,6 @@ default
 default
 virtualization
 :
-by
--
-test
--
-platform
-:
-default
-:
 virtual
 allow
 -
