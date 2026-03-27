@@ -30,6 +30,13 @@ mozilla
 :
 dom
 {
+static
+const
+size_t
+kWebAuthnMaxAllowedCredentials
+=
+20
+;
 class
 WindowGlobalParent
 ;

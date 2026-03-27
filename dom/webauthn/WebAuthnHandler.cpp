@@ -2059,12 +2059,6 @@ mRegisterHolder
 )
 ;
 }
-const
-size_t
-MAX_ALLOWED_CREDENTIALS
-=
-20
-;
 void
 WebAuthnHandler
 :
@@ -2287,7 +2281,7 @@ Length
 (
 )
 >
-MAX_ALLOWED_CREDENTIALS
+kWebAuthnMaxAllowedCredentials
 )
 {
 aPromise
