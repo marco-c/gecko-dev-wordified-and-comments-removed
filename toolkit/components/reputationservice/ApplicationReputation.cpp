@@ -1149,12 +1149,6 @@ scptd
 "
 "
 .
-search
--
-ms
-"
-"
-.
 seplugin
 "
 "
