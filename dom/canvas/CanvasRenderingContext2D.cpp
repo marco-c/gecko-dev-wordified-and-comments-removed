@@ -26388,13 +26388,6 @@ NeedToCalculateBounds
 ;
 if
 (
-!
-IsTargetValid
-(
-)
-|
-|
-(
 presShell
 &
 &
@@ -26403,7 +26396,6 @@ presShell
 >
 IsDestroying
 (
-)
 )
 )
 {
