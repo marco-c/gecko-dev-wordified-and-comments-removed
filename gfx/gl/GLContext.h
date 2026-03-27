@@ -15531,9 +15531,12 @@ s
 \
 n
 "
+PromiseFlatCString
+(
 str
+)
 .
-BeginReading
+get
 (
 )
 wasMarked

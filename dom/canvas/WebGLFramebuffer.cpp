@@ -839,7 +839,7 @@ fnWriteErrorInfo
 (
 info
 .
-BeginReading
+get
 (
 )
 )
@@ -1438,7 +1438,7 @@ s
 "
 attachmentName
 .
-BeginReading
+get
 (
 )
 )
@@ -1461,7 +1461,7 @@ s
 "
 attachmentName
 .
-BeginReading
+get
 (
 )
 )
@@ -5310,7 +5310,7 @@ get
 )
 statusInfo
 .
-BeginReading
+get
 (
 )
 )

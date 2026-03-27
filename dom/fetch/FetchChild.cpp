@@ -1738,7 +1738,7 @@ NS_ConvertUTF16toUTF8
 aJSON
 )
 .
-BeginReading
+get
 (
 )
 )

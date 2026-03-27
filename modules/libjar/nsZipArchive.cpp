@@ -2278,9 +2278,12 @@ zipLog
 Write
 (
 mURI
+PromiseFlatCString
+(
 aEntryName
+)
 .
-BeginReading
+get
 (
 )
 )

@@ -1370,7 +1370,7 @@ wchar_t
 )
 aPaperId
 .
-BeginReading
+get
 (
 )
 )
@@ -2283,7 +2283,7 @@ mPaperInfo
 .
 mId
 .
-BeginReading
+get
 (
 )
 )

@@ -2227,7 +2227,7 @@ message
 (
 )
 .
-BeginReading
+get
 (
 )
 )
@@ -2391,9 +2391,12 @@ consoleService
 >
 LogStringMessage
 (
+PromiseFlatString
+(
 aMessage
+)
 .
-BeginReading
+get
 (
 )
 )

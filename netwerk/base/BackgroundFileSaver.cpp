@@ -2631,6 +2631,13 @@ NS_OK
 #
 ifdef
 XP_WIN
+const
+nsString
+flatFilePath
+(
+filePath
+)
+;
 WINTRUST_FILE_INFO
 fileToCheck
 =
@@ -2651,9 +2658,9 @@ fileToCheck
 .
 pcwszFilePath
 =
-filePath
+flatFilePath
 .
-Data
+get
 (
 )
 ;

@@ -176,7 +176,7 @@ OriginalString
 (
 )
 .
-Data
+get
 (
 )
 __func__
@@ -226,7 +226,7 @@ OriginalString
 (
 )
 .
-Data
+get
 (
 )
 __func__
@@ -278,7 +278,7 @@ OriginalString
 (
 )
 .
-Data
+get
 (
 )
 __func__

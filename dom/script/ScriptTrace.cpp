@@ -277,7 +277,7 @@ ScriptLoaderTest
 "
 mData
 .
-BeginReading
+get
 (
 )
 )

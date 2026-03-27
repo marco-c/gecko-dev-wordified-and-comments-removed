@@ -310,7 +310,14 @@ ntlm_auth
 %
 s
 "
-s
+PromiseFlatCString
+(
+aString
+)
+.
+get
+(
+)
 )
 )
 ;

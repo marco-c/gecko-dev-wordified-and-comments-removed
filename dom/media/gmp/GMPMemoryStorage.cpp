@@ -93,9 +93,12 @@ gmpName
 %
 s
 "
+PromiseFlatCString
+(
 aNodeId
+)
 .
-BeginReading
+get
 (
 )
 NS_ConvertUTF16toUTF8

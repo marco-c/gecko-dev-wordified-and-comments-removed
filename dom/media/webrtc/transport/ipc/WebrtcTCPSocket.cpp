@@ -1720,7 +1720,7 @@ PR_StringToNetAddr
 (
 mLocalAddress
 .
-BeginReading
+get
 (
 )
 &

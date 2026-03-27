@@ -1162,7 +1162,7 @@ ErrorInfo
 LOCAL_GL_INVALID_ENUM
 info
 .
-BeginReading
+get
 (
 )
 }

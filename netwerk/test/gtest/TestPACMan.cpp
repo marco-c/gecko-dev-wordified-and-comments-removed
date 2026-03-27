@@ -805,7 +805,7 @@ mPACMan
 >
 mPACURISpec
 .
-Data
+get
 (
 )
 )
@@ -880,7 +880,7 @@ ASSERT_STREQ
 TEST_WPAD_DHCP_OPTION
 spec
 .
-Data
+get
 (
 )
 )
@@ -968,7 +968,7 @@ ASSERT_STREQ
 TEST_WPAD_DHCP_OPTION
 WPADOptionResult
 .
-Data
+get
 (
 )
 )
@@ -989,11 +989,6 @@ SetOptionResult
 (
 "
 "
-_ns
-.
-Data
-(
-)
 )
 ;
 mPACMan
@@ -1033,7 +1028,7 @@ ASSERT_STREQ
 "
 WPADOptionResult
 .
-Data
+get
 (
 )
 )
@@ -1098,7 +1093,7 @@ ASSERT_STREQ
 TEST_WPAD_DHCP_OPTION
 WPADOptionResult
 .
-Data
+get
 (
 )
 )
@@ -1166,7 +1161,7 @@ ASSERT_STREQ
 TEST_WPAD_DHCP_OPTION
 WPADOptionResult
 .
-Data
+get
 (
 )
 )

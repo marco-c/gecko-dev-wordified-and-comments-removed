@@ -67,9 +67,12 @@ from
 "
 <
 <
+PromiseFlatCString
+(
 aURL
+)
 .
-BeginReading
+get
 (
 )
 <
@@ -111,9 +114,12 @@ from
 "
 <
 <
+PromiseFlatCString
+(
 aURL
+)
 .
-BeginReading
+get
 (
 )
 <

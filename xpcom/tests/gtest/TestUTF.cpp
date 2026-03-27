@@ -969,12 +969,12 @@ EXPECT_STREQ
 (
 dest
 .
-BeginReading
+get
 (
 )
 expected
 .
-BeginReading
+get
 (
 )
 )

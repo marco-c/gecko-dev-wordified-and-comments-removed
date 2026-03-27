@@ -179,7 +179,7 @@ EqualsIgnoreCase
 (
 aPattern
 .
-BeginReading
+get
 (
 )
 +

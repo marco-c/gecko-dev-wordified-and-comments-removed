@@ -1239,7 +1239,7 @@ gfxCriticalNote
 <
 error
 .
-BeginReading
+get
 (
 )
 ;

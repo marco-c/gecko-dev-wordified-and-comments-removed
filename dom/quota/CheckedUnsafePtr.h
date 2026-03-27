@@ -944,12 +944,15 @@ mFunctionName
 get
 (
 )
+PromiseFlatCString
+(
 GetSourceFileRelativePath
 (
 mSourceFile
 )
+)
 .
-BeginReading
+get
 (
 )
 mLineNo

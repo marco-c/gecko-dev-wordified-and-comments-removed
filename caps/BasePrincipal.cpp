@@ -1797,9 +1797,12 @@ parse
 %
 s
 "
+PromiseFlatCString
+(
 aJSON
+)
 .
-BeginReading
+get
 (
 )
 )

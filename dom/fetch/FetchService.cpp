@@ -1363,12 +1363,12 @@ s
 this
 requestURL
 .
-BeginReading
+get
 (
 )
 principalSpec
 .
-BeginReading
+get
 (
 )
 )

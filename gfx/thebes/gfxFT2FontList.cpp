@@ -1290,7 +1290,7 @@ UnscaledFontFreeType
 (
 mFilename
 .
-BeginReading
+get
 (
 )
 mFTFontIndex

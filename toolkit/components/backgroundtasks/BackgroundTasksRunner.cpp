@@ -161,6 +161,12 @@ base
 LaunchOptions
 options
 ;
+nsPromiseFlatCString
+flatTaskName
+(
+aTaskName
+)
+;
 #
 ifdef
 XP_WIN
@@ -181,7 +187,7 @@ argv
 {
 exePath
 .
-Data
+get
 (
 )
 "
@@ -189,9 +195,9 @@ Data
 -
 backgroundtask
 "
-aTaskName
+flatTaskName
 .
-Data
+get
 (
 )
 }
@@ -292,7 +298,7 @@ argv
 {
 exePath
 .
-Data
+get
 (
 )
 "
@@ -300,9 +306,9 @@ Data
 -
 backgroundtask
 "
-aTaskName
+flatTaskName
 .
-Data
+get
 (
 )
 }

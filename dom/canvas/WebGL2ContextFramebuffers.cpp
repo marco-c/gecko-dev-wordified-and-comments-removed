@@ -1124,7 +1124,7 @@ s
 "
 enumName
 .
-BeginReading
+get
 (
 )
 )

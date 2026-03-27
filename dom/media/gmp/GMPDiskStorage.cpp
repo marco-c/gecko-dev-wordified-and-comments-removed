@@ -393,7 +393,7 @@ s
 "
 mNodeId
 .
-BeginReading
+get
 (
 )
 NS_ConvertUTF16toUTF8

@@ -345,7 +345,7 @@ n
 this
 mComputedHash
 .
-BeginReading
+get
 (
 )
 )

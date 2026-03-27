@@ -669,9 +669,12 @@ rejects
 "
 supports
 "
+PromiseFlatCString
+(
 aMimeType
+)
 .
-BeginReading
+get
 (
 )
 )
@@ -1570,7 +1573,7 @@ s
 "
 failureReason
 .
-BeginReading
+get
 (
 )
 )

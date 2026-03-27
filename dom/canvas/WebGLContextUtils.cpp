@@ -1699,10 +1699,16 @@ val
 )
 ;
 return
+std
+:
+:
+string
+(
 hex
 .
-BeginReading
+View
 (
+)
 )
 ;
 }
@@ -1741,7 +1747,7 @@ ErrorInvalidEnumInfo
 (
 info
 .
-BeginReading
+get
 (
 )
 val
@@ -1824,7 +1830,7 @@ s
 info
 name
 .
-BeginReading
+get
 (
 )
 hint

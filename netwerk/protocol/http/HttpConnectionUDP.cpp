@@ -2860,7 +2860,7 @@ LogHeaders
 (
 result
 .
-BeginReading
+get
 (
 )
 )

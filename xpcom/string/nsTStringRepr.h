@@ -542,6 +542,7 @@ BeginReading
 )
 const
 MOZ_LIFETIME_BOUND
+MOZ_NON_TERMINATED_STRING
 {
 return
 mData
@@ -645,6 +646,7 @@ aIter
 )
 const
 MOZ_LIFETIME_BOUND
+MOZ_NON_TERMINATED_STRING
 {
 return
 aIter
@@ -730,6 +732,7 @@ Data
 )
 const
 MOZ_LIFETIME_BOUND
+MOZ_NON_TERMINATED_STRING
 {
 return
 mData

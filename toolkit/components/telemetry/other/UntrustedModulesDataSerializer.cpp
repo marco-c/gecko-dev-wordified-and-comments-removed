@@ -817,7 +817,7 @@ GetInfoFromPath
 (
 path
 .
-Data
+get
 (
 )
 )

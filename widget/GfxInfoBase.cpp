@@ -6637,9 +6637,12 @@ LF
 "
 <
 <
+PromiseFlatCString
+(
 failure
+)
 .
-BeginReading
+get
 (
 )
 ;

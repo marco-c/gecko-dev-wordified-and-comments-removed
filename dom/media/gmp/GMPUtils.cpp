@@ -2005,9 +2005,12 @@ GMPErr
 x
 )
 "
+PromiseFlatCString
+(
 aMessage
+)
 .
-Data
+get
 (
 )
 aErr

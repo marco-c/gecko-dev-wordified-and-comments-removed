@@ -872,7 +872,7 @@ ErrorInfo
 LOCAL_GL_INVALID_VALUE
 info
 .
-BeginReading
+get
 (
 )
 }
@@ -929,7 +929,7 @@ ErrorInfo
 LOCAL_GL_INVALID_VALUE
 info
 .
-BeginReading
+get
 (
 )
 }

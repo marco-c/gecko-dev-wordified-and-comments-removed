@@ -136,9 +136,12 @@ TERMINATED
 ;
 EXPECT_STREQ
 (
+PromiseFlatCString
+(
 aStr
+)
 .
-BeginReading
+get
 (
 )
 aValue
@@ -170,9 +173,12 @@ uint32_t
 ;
 EXPECT_STREQ
 (
+PromiseFlatCString
+(
 aStr
+)
 .
-BeginReading
+get
 (
 )
 "

@@ -135,7 +135,7 @@ Equals
 (
 aString
 .
-BeginReading
+Data
 (
 )
 aString

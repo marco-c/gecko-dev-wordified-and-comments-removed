@@ -4652,9 +4652,12 @@ PRIu64
 \
 n
 "
+PromiseFlatCString
+(
 aOwner
+)
 .
-BeginReading
+get
 (
 )
 NS_ConvertUTF16toUTF8

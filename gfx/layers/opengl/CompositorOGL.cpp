@@ -7850,7 +7850,7 @@ aObj
 )
 uri
 .
-BeginReading
+get
 (
 )
 )

@@ -7096,7 +7096,7 @@ input
 (
 core_cpus
 .
-Data
+get
 (
 )
 )
@@ -7145,7 +7145,7 @@ open
 (
 core_cpus
 .
-Data
+get
 (
 )
 )

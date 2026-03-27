@@ -3306,7 +3306,7 @@ resolvedPath
 (
 trimmedPath
 .
-Data
+getW
 (
 )
 )

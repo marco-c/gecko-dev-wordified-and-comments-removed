@@ -1596,7 +1596,7 @@ wchar_t
 )
 mPaperId
 .
-BeginReading
+get
 (
 )
 )

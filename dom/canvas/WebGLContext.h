@@ -1548,7 +1548,7 @@ string
 (
 text
 .
-BeginReading
+View
 (
 )
 )
@@ -2004,7 +2004,7 @@ GenerateError
 LOCAL_GL_OUT_OF_MEMORY
 newFmt
 .
-BeginReading
+get
 (
 )
 args

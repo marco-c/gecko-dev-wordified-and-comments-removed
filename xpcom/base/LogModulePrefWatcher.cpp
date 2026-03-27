@@ -374,7 +374,7 @@ SetLogFile
 (
 prefValue
 .
-BeginReading
+get
 (
 )
 )

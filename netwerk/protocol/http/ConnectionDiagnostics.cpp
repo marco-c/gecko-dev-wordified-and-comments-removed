@@ -356,7 +356,7 @@ NS_ConvertUTF8toUTF16
 mLogData
 )
 .
-Data
+get
 (
 )
 )

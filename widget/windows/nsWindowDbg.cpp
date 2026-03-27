@@ -2227,7 +2227,7 @@ IsEmpty
 ?
 msgText
 .
-Data
+get
 (
 )
 :
@@ -2275,7 +2275,7 @@ logMessageData
 =
 logMessage
 .
-Data
+get
 (
 )
 ;

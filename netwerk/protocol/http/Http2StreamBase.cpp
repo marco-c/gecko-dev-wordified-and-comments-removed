@@ -3794,7 +3794,7 @@ code
 this
 statusString
 .
-BeginReading
+get
 (
 )
 )
@@ -3906,9 +3906,12 @@ n
 %
 s
 "
+PromiseFlatCString
+(
 aHeadersOut
+)
 .
-BeginReading
+get
 (
 )
 )

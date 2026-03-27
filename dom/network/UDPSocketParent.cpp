@@ -307,9 +307,12 @@ code
 u
 .
 "
+PromiseFlatCString
+(
 aFilter
+)
 .
-BeginReading
+get
 (
 )
 static_cast
@@ -349,9 +352,12 @@ name
 s
 .
 "
+PromiseFlatCString
+(
 aFilter
+)
 .
-BeginReading
+get
 (
 )
 )
@@ -765,7 +771,7 @@ PR_StringToNetAddr
 (
 aHost
 .
-BeginReading
+get
 (
 )
 &
@@ -1607,7 +1613,7 @@ PR_StringToNetAddr
 (
 aHost
 .
-BeginReading
+get
 (
 )
 &

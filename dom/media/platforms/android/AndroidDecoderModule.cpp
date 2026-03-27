@@ -643,9 +643,12 @@ type
 %
 s
 "
+PromiseFlatCString
+(
 aMimeType
+)
 .
-Data
+get
 (
 )
 )
@@ -745,9 +748,12 @@ for
 %
 s
 "
+PromiseFlatCString
+(
 aMimeType
+)
 .
-Data
+get
 (
 )
 )
@@ -1296,7 +1302,7 @@ s
 "
 s
 .
-Data
+get
 (
 )
 )
@@ -1342,7 +1348,7 @@ s
 "
 s
 .
-Data
+get
 (
 )
 )
@@ -1439,7 +1445,7 @@ s
 "
 s
 .
-Data
+get
 (
 )
 )
@@ -1485,7 +1491,7 @@ codec
 "
 s
 .
-Data
+get
 (
 )
 )
@@ -1975,7 +1981,7 @@ config
 .
 mMimeType
 .
-Data
+get
 (
 )
 config

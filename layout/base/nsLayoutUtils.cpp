@@ -14725,7 +14725,7 @@ fopen
 (
 string
 .
-BeginReading
+get
 (
 )
 "

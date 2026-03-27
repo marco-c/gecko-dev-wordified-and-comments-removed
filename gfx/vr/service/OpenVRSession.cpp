@@ -350,7 +350,7 @@ ifstream
 (
 mFileName
 .
-BeginReading
+get
 (
 )
 )
@@ -393,7 +393,7 @@ const
 return
 mFileName
 .
-BeginReading
+get
 (
 )
 ;
@@ -425,7 +425,7 @@ remove
 (
 mFileName
 .
-BeginReading
+get
 (
 )
 )
@@ -622,7 +622,7 @@ ifstream
 (
 aPath
 .
-BeginReading
+get
 (
 )
 )
@@ -1542,7 +1542,7 @@ viveBindingFile
 (
 viveManifest
 .
-BeginReading
+get
 (
 )
 )
@@ -1639,7 +1639,7 @@ WMRBindingFile
 (
 WMRManifest
 .
-BeginReading
+get
 (
 )
 )
@@ -1732,7 +1732,7 @@ knucklesBindingFile
 (
 knucklesManifest
 .
-BeginReading
+get
 (
 )
 )
@@ -1823,7 +1823,7 @@ cosmosBindingFile
 (
 cosmosManifest
 .
-BeginReading
+get
 (
 )
 )
@@ -1976,7 +1976,7 @@ SetFileName
 (
 viveBindingPath
 .
-BeginReading
+get
 (
 )
 )
@@ -2104,7 +2104,7 @@ SetFileName
 (
 knucklesBindingPath
 .
-BeginReading
+get
 (
 )
 )
@@ -2232,7 +2232,7 @@ SetFileName
 (
 cosmosBindingPath
 .
-BeginReading
+get
 (
 )
 )
@@ -2366,7 +2366,7 @@ SetFileName
 (
 WMRBindingPath
 .
-BeginReading
+get
 (
 )
 )
@@ -3409,7 +3409,7 @@ actionfile
 (
 controllerAction
 .
-BeginReading
+get
 (
 )
 )
@@ -3462,7 +3462,7 @@ SetActionManifestPath
 (
 controllerAction
 .
-BeginReading
+get
 (
 )
 )
@@ -3616,7 +3616,7 @@ SetFileName
 (
 controllerAction
 .
-BeginReading
+get
 (
 )
 )
@@ -5799,7 +5799,7 @@ aAction
 .
 name
 .
-BeginReading
+get
 (
 )
 &

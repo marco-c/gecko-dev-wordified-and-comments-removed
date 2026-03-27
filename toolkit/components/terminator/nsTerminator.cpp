@@ -804,7 +804,7 @@ strdup
 (
 msg
 .
-BeginReading
+get
 (
 )
 )

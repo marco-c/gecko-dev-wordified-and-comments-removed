@@ -278,7 +278,7 @@ d
 this
 mNodeId
 .
-BeginReading
+get
 (
 )
 persistent

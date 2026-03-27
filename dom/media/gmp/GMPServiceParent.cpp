@@ -9072,9 +9072,12 @@ s
 "
 __CLASS__
 __FUNCTION__
+PromiseFlatCString
+(
 aSite
+)
 .
-Data
+get
 (
 )
 )
@@ -9192,9 +9195,12 @@ s
 "
 __CLASS__
 __FUNCTION__
+PromiseFlatCString
+(
 aBaseDomain
+)
 .
-Data
+get
 (
 )
 )
