@@ -914,6 +914,16 @@ focusRef
 {
 interests
 .
+filter
+(
+interest
+=
+>
+interest
+.
+followable
+)
+.
 map
 (
 (

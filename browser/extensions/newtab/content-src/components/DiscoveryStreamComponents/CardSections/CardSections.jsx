@@ -1457,6 +1457,7 @@ const
 sectionKey
 title
 subtitle
+followable
 }
 =
 section
@@ -2799,6 +2800,9 @@ follow
 }
 >
 {
+followable
+&
+&
 !
 anySectionsFollowed
 &
@@ -2872,6 +2876,9 @@ MessageWrapper
 )
 }
 {
+followable
+&
+&
 !
 anySectionsFollowed
 &
@@ -2939,6 +2946,11 @@ MessageWrapper
 >
 )
 }
+{
+followable
+&
+&
+(
 <
 moz
 -
@@ -3064,6 +3076,8 @@ moz
 -
 button
 >
+)
+}
 <
 /
 div

@@ -1702,6 +1702,11 @@ if
 tile
 .
 hasAd
+&
+&
+section
+.
+allowAds
 )
 {
 const

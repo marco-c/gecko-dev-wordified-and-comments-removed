@@ -1788,6 +1788,9 @@ title
 "
 title
 "
+followable
+:
+true
 layout
 }
 {
@@ -1834,6 +1837,9 @@ title
 "
 title
 "
+followable
+:
+true
 layout
 }
 ]
@@ -2281,6 +2287,9 @@ title
 "
 title
 "
+followable
+:
+true
 layout
 }
 {
@@ -2327,6 +2336,9 @@ title
 "
 title
 "
+followable
+:
+true
 layout
 }
 ]
