@@ -129,10 +129,6 @@ mElements
 (
 nullptr
 )
-mFirstLegend
-(
-nullptr
-)
 mInvalidElementsCount
 (
 0
@@ -209,6 +205,7 @@ HTMLFieldSetElement
 nsGenericHTMLFormControlElement
 mValidity
 mElements
+mFirstLegend
 )
 NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
@@ -483,6 +480,14 @@ firstLegendHasChanged
 =
 false
 ;
+RefPtr
+<
+nsIContent
+>
+oldFirstLegend
+=
+mFirstLegend
+;
 if
 (
 aChild
@@ -609,6 +614,10 @@ Failed
 )
 )
 {
+mFirstLegend
+=
+oldFirstLegend
+;
 return
 ;
 }

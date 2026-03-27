@@ -435,8 +435,10 @@ nsGenericHTMLFormElement
 >
 mDependentElements
 ;
+RefPtr
+<
 nsIContent
-*
+>
 mFirstLegend
 ;
 int32_t
