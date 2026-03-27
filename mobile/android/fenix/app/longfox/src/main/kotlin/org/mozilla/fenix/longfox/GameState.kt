@@ -676,7 +676,7 @@ newHead
 in
 fox
 .
-drop
+dropLast
 (
 1
 )
