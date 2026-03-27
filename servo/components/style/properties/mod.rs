@@ -103,7 +103,7 @@ custom_properties
 :
 {
 self
-ComputedCustomProperties
+ComputedSubstitutionFunctions
 }
 ;
 use
@@ -7412,10 +7412,10 @@ self
 longhand_id
 :
 LonghandId
-custom_properties
+substitution_functions
 :
 &
-ComputedCustomProperties
+ComputedSubstitutionFunctions
 stylist
 :
 &
@@ -7569,7 +7569,7 @@ substitute
 self
 .
 variable_value
-custom_properties
+substitution_functions
 stylist
 computed_context
 attribute_tracker
