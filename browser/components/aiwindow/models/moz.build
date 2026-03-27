@@ -146,6 +146,13 @@ sys
 mjs
 "
 "
+PromptOptimizer
+.
+sys
+.
+mjs
+"
+"
 SearchBrowsingHistory
 .
 sys
