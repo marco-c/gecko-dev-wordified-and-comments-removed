@@ -1699,14 +1699,16 @@ log_server
 .
 server_address
         
-sock
-=
+with
 socket
 .
 socket
 (
 )
-        
+as
+sock
+:
+            
 sock
 .
 connect
@@ -1716,7 +1718,7 @@ host
 port
 )
 )
-        
+            
 sock
 .
 sendall
@@ -1731,7 +1733,7 @@ encode
 (
 )
 )
-        
+            
 time
 .
 sleep
@@ -1740,7 +1742,7 @@ sleep
 .
 01
 )
-        
+            
 sock
 .
 sendall
@@ -1756,7 +1758,7 @@ encode
 (
 )
 )
-        
+            
 time
 .
 sleep
@@ -1765,7 +1767,7 @@ sleep
 .
 01
 )
-        
+            
 sock
 .
 sendall
@@ -1781,7 +1783,7 @@ encode
 (
 )
 )
-        
+            
 time
 .
 sleep
@@ -1790,7 +1792,7 @@ sleep
 .
 01
 )
-        
+            
 sock
 .
 sendall
@@ -1806,7 +1808,7 @@ encode
 (
 )
 )
-        
+            
 time
 .
 sleep
@@ -1815,7 +1817,7 @@ sleep
 .
 01
 )
-        
+            
 sock
 .
 sendall
@@ -1830,7 +1832,7 @@ encode
 (
 )
 )
-        
+            
 server_thread
 .
 join
