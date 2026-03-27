@@ -9584,15 +9584,11 @@ mozilla
 :
 :
 StyleScrollbarWidth
-ComputedScrollbarWidth
+ScrollbarWidth
 (
 )
 const
-{
-return
-mScrollbarWidth
 ;
-}
 const
 mozilla
 :
