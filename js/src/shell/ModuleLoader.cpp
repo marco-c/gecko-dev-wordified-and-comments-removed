@@ -2747,9 +2747,9 @@ nullptr
 }
 auto
 *
-bytesArray
+typedArray
 =
-FileAsTypedArray
+FileAsImmutableTypedArray
 (
 cx
 resolvedPath
@@ -2758,7 +2758,7 @@ resolvedPath
 if
 (
 !
-bytesArray
+typedArray
 )
 {
 return
@@ -2781,7 +2781,7 @@ cx
 ObjectValue
 (
 *
-bytesArray
+typedArray
 )
 )
 ;
