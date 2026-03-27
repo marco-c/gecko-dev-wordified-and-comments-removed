@@ -82,6 +82,7 @@ false
 }
 )
 ;
+await
 makeProfileResettable
 (
 )

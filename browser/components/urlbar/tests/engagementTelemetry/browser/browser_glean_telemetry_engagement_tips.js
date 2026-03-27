@@ -46,6 +46,7 @@ function
 (
 )
 {
+await
 makeProfileResettable
 (
 )
