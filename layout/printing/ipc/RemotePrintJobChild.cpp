@@ -67,6 +67,8 @@ const
 nsString
 &
 aDocumentTitle
+uint64_t
+aBrowsingContextId
 const
 int32_t
 &
@@ -83,6 +85,7 @@ void
 SendInitializePrint
 (
 aDocumentTitle
+aBrowsingContextId
 aStartPage
 aEndPage
 )

@@ -150,6 +150,10 @@ nsAString
 &
 aDocumentTitle
 const
+uint64_t
+&
+aBrowsingContextId
+const
 int32_t
 &
 aStartPage
@@ -182,6 +186,7 @@ rv
 InitializePrintDevice
 (
 aDocumentTitle
+aBrowsingContextId
 aStartPage
 aEndPage
 )
@@ -306,6 +311,10 @@ const
 nsAString
 &
 aDocumentTitle
+const
+uint64_t
+&
+aBrowsingContextId
 const
 int32_t
 &
@@ -452,6 +461,7 @@ BeginDocument
 (
 aDocumentTitle
 fileName
+aBrowsingContextId
 aStartPage
 aEndPage
 )
