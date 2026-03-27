@@ -5980,16 +5980,6 @@ infinity
 Atom
 (
 "
-inherit
-"
-"
-inherit
-"
-)
-    
-Atom
-(
-"
 inherits
 "
 "

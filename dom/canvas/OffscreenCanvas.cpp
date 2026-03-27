@@ -256,9 +256,6 @@ OffscreenCanvasCloneData
 OffscreenCanvasDisplayHelper
 *
 aDisplay
-nsAtom
-*
-aLang
 uint32_t
 aWidth
 uint32_t
@@ -280,10 +277,6 @@ aExpandedReader
 mDisplay
 (
 aDisplay
-)
-mLang
-(
-aLang
 )
 mWidth
 (
@@ -391,9 +384,6 @@ already_AddRefed
 OffscreenCanvasDisplayHelper
 >
 aDisplay
-nsAtom
-*
-aLang
 )
 :
 DOMEventTargetHelper
@@ -415,10 +405,6 @@ aCompositorBackend
 mDisplay
 (
 aDisplay
-)
-mLang
-(
-aLang
 )
 mFontVisibility
 (
@@ -1995,7 +1981,6 @@ OffscreenCanvasCloneData
 >
 (
 mDisplay
-mLang
 mWidth
 mHeight
 mCompositorBackendType
@@ -3244,10 +3229,6 @@ mDisplay
 forget
 (
 )
-aData
--
->
-mLang
 )
 ;
 if

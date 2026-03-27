@@ -2274,17 +2274,6 @@ CanvasTextDrawingStyles
 /
 /
 text
-attribute
-DOMString
-lang
-;
-/
-/
-default
-:
-"
-inherit
-"
 [
 SetterThrows
 ]
