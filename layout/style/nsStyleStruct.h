@@ -85,6 +85,15 @@ include
 "
 mozilla
 /
+StaticPrefs_layout
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WindowButtonType
 .
 h

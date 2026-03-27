@@ -37,6 +37,15 @@ include
 "
 mozilla
 /
+ServoStyleSet
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_layout
 .
 h

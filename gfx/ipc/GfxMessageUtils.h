@@ -46,13 +46,6 @@ h
 #
 include
 "
-gfxFontUtils
-.
-h
-"
-#
-include
-"
 gfxFallback
 .
 h
@@ -68,6 +61,13 @@ h
 include
 "
 gfxRect
+.
+h
+"
+#
+include
+"
+gfxSparseBitSet
 .
 h
 "

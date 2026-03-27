@@ -1377,7 +1377,7 @@ using
 gfxSparseBitSet
 from
 "
-gfxFontUtils
+gfxSparseBitSet
 .
 h
 "
@@ -1386,7 +1386,7 @@ using
 FontVisibility
 from
 "
-gfxFontEntry
+gfxTypes
 .
 h
 "

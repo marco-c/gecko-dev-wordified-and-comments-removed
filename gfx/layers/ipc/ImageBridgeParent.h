@@ -266,13 +266,11 @@ override
 void
 SendAsyncMessage
 (
-const
-nsTArray
+Span
 <
+const
 AsyncParentMessageData
 >
-&
-aMessage
 )
 override
 ;

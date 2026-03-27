@@ -6030,7 +6030,9 @@ nsPresContext
 aPresContext
 )
 ;
-typedef
+using
+UsedFontFaceList
+=
 nsTArray
 <
 mozilla
@@ -6047,9 +6049,10 @@ dom
 InspectorFontFace
 >
 >
-UsedFontFaceList
 ;
-typedef
+using
+UsedFontFaceTable
+=
 nsTHashMap
 <
 nsPtrHashKey
@@ -6065,7 +6068,6 @@ dom
 InspectorFontFace
 *
 >
-UsedFontFaceTable
 ;
 static
 nsresult

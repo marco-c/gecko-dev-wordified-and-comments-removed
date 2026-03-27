@@ -40,6 +40,15 @@ h
 #
 include
 "
+mozilla
+/
+ServoStyleSet
+.
+h
+"
+#
+include
+"
 nsFontMetrics
 .
 h

@@ -302,7 +302,7 @@ write
 #
 include
 "
-gfxFontUtils
+gfxSparseBitSet
 .
 h
 "

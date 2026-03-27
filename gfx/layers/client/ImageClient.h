@@ -76,6 +76,13 @@ h
 #
 include
 "
+ImageContainer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 layers

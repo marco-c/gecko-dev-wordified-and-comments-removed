@@ -102,6 +102,15 @@ include
 "
 mozilla
 /
+ServoStyleSet
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StyleSheet
 .
 h

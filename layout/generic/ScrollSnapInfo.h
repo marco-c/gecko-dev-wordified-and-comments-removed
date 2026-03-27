@@ -54,6 +54,15 @@ include
 "
 mozilla
 /
+StaticPrefs_layout
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 LayersTypes

@@ -108,6 +108,15 @@ include
 "
 mozilla
 /
+ServoStyleSet
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_dom
 .
 h

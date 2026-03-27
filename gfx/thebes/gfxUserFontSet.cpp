@@ -109,6 +109,15 @@ include
 "
 mozilla
 /
+ServoStyleSet
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 WorkerCommon

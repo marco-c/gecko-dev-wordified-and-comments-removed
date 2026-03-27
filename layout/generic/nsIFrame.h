@@ -219,6 +219,17 @@ include
 "
 mozilla
 /
+dom
+/
+RustTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D

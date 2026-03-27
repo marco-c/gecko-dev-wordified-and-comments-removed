@@ -237,13 +237,6 @@ ServoStyleConstsForwards
 .
 h
 "
-"
-mozilla
-/
-ServoStyleSet
-.
-h
-"
 ]
 after_includes
 =
