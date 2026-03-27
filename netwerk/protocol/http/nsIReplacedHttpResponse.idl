@@ -120,6 +120,7 @@ parameter
 /
 [
 scriptable
+builtinclass
 uuid
 (
 067cb318
