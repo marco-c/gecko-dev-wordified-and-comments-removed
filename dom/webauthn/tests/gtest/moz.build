@@ -58,6 +58,16 @@ UNIFIED_SOURCES
 =
 [
 "
+TestWebAuthnExtensionRpId
+.
+cpp
+"
+"
+TestWebAuthnRpId
+.
+cpp
+"
+"
 TestWebAuthnSerialization
 .
 cpp

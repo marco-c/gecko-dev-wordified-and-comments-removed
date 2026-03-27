@@ -2659,6 +2659,13 @@ bug
 ]
 [
 "
+test_ext_webauthn
+.
+html
+"
+]
+[
+"
 test_ext_webnavigation
 .
 html

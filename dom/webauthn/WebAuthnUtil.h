@@ -109,6 +109,17 @@ aRpId
 )
 ;
 nsresult
+GetWebAuthnClientDataOrigin
+(
+nsIPrincipal
+*
+aPrincipal
+nsACString
+&
+aOrigin
+)
+;
+nsresult
 HashCString
 (
 const
