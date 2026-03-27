@@ -92,7 +92,7 @@ TEST_DATA
 =
 [
 {
-node
+selector
 :
 "
 #
@@ -121,7 +121,7 @@ testid1
 "
 }
 {
-node
+selector
 :
 "
 #
@@ -150,7 +150,7 @@ testclass1
 "
 }
 {
-node
+selector
 :
 "
 #
@@ -179,7 +179,7 @@ testclass2
 "
 }
 {
-node
+selector
 :
 "
 #
@@ -284,7 +284,7 @@ data
 {
 const
 {
-node
+selector
 value
 commitKey
 modifiers
@@ -299,7 +299,7 @@ info
 Updating
 "
 +
-node
+selector
 +
 "
 to
@@ -337,7 +337,7 @@ element
 await
 selectNode
 (
-node
+selector
 inspector
 )
 ;
@@ -348,6 +348,16 @@ getRuleViewRuleEditorAt
 (
 view
 1
+)
+;
+is
+(
+idRuleEditor
+.
+selectorText
+.
+textContent
+selector
 )
 ;
 info

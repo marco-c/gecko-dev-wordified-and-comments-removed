@@ -252,7 +252,6 @@ element
 "
 )
 ;
-await
 checkModifiedElement
 (
 view
