@@ -14873,6 +14873,11 @@ event
 {
 result
 element
+location
+:
+this
+.
+sapLocation
 searchString
 :
 this
