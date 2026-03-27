@@ -50,6 +50,13 @@ view
 MotionEvent
 ;
 import
+androidx
+.
+annotation
+.
+UiThread
+;
+import
 java
 .
 util
@@ -785,6 +792,7 @@ context
 )
 ;
 }
+UiThread
 static
 void
 doStart
@@ -858,6 +866,7 @@ context
 )
 ;
 }
+UiThread
 static
 void
 doStop
@@ -901,6 +910,7 @@ false
 ;
 }
 }
+UiThread
 static
 void
 handleGamepadAdded
@@ -1190,6 +1200,7 @@ value
 ;
 }
 }
+UiThread
 public
 static
 boolean
@@ -1533,6 +1544,7 @@ return
 true
 ;
 }
+UiThread
 public
 static
 boolean
