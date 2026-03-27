@@ -1004,6 +1004,7 @@ window
 object
 *
 /
+async
 setDefaultPDFHandler
 (
 window
@@ -1012,6 +1013,7 @@ onlyIfKnownBrowser
 false
 )
 {
+await
 window
 .
 getShellService
@@ -5059,6 +5061,7 @@ case
 SET_DEFAULT_PDF_HANDLER
 "
 :
+await
 this
 .
 setDefaultPDFHandler
