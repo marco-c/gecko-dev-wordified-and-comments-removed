@@ -577,6 +577,7 @@ message
 %
 r
 "
+%
 self
 .
 logging_queue
