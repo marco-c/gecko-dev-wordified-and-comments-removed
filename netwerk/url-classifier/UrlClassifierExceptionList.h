@@ -89,15 +89,6 @@ nsIUrlClassifierExceptionListEntry
 >
 >
 ;
-using
-SiteToEntries
-=
-nsTHashMap
-<
-nsCStringHashKey
-ExceptionEntryArray
->
-;
 static
 bool
 ExceptionListMatchesLoad
@@ -133,7 +124,7 @@ mFeature
 nsTHashMap
 <
 nsCStringHashKey
-SiteToEntries
+ExceptionEntryArray
 >
 mExceptions
 ;
