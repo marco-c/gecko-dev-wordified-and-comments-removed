@@ -709,6 +709,11 @@ InputVolumeController
 (
 num_channels
 input_volume_controller_config
+env
+.
+field_trials
+(
+)
 )
 ;
 input_volume_controller_
