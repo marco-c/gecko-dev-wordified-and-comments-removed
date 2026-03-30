@@ -1003,6 +1003,10 @@ RTC_DCHECK_RUN_ON
 signaling_thread_
 )
 ;
+RTC_DCHECK_DISALLOW_THREAD_BLOCKING_CALLS
+(
+)
+;
 FailPendingRequests
 (
 kFailedDueToSessionShutdown
