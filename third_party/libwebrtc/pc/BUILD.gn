@@ -7515,6 +7515,10 @@ dtls_transport
 "
 "
 :
+jsep_transport_collection
+"
+"
+:
 jsep_transport_controller
 "
 "
@@ -7812,6 +7816,14 @@ video_codec_constants
 call
 :
 payload_type
+"
+"
+.
+.
+/
+call
+:
+payload_type_picker
 "
 "
 .
