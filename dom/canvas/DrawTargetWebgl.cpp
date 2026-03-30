@@ -6929,7 +6929,7 @@ aFormat
 *
 aSize
 .
-height
+width
 pboStride
 .
 value
