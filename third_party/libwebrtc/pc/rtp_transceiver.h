@@ -732,6 +732,8 @@ void
 >
 GetDeleteChannelWorkerTask
 (
+bool
+stop_senders
 )
 ;
 scoped_refptr
