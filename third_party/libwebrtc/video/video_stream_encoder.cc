@@ -8162,10 +8162,9 @@ env_
 encoder_config_
 .
 codec_type
-send_codec_
-.
-GetScalabilityMode
+GetScalabilityModeFromVideoCodec
 (
+send_codec_
 )
 )
 ;

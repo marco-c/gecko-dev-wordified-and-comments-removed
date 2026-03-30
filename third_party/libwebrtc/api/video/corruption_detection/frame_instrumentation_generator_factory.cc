@@ -106,7 +106,12 @@ make_unique
 FrameInstrumentationGeneratorImpl
 >
 (
+nullptr
 video_codec_type
+std
+:
+:
+nullopt
 )
 ;
 }
@@ -147,7 +152,10 @@ make_unique
 FrameInstrumentationGeneratorImpl
 >
 (
+&
+environment
 video_codec_type
+scalability_mode
 )
 ;
 }
