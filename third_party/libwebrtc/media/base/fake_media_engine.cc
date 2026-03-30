@@ -81,17 +81,6 @@ include
 "
 api
 /
-audio_codecs
-/
-audio_codec_pair_id
-.
-h
-"
-#
-include
-"
-api
-/
 audio_options
 .
 h
@@ -3274,7 +3263,6 @@ options
 const
 CryptoOptions
 &
-AudioCodecPairId
 )
 {
 std
@@ -3335,7 +3323,6 @@ options
 const
 CryptoOptions
 &
-AudioCodecPairId
 )
 {
 std

@@ -121,17 +121,6 @@ api
 /
 audio_codecs
 /
-audio_codec_pair_id
-.
-h
-"
-#
-include
-"
-api
-/
-audio_codecs
-/
 audio_decoder_factory
 .
 h
@@ -664,8 +653,6 @@ const
 CryptoOptions
 &
 crypto_options
-AudioCodecPairId
-codec_pair_id
 )
 override
 ;
@@ -697,8 +684,6 @@ const
 CryptoOptions
 &
 crypto_options
-AudioCodecPairId
-codec_pair_id
 )
 override
 ;
@@ -1028,8 +1013,6 @@ crypto_options
 Call
 *
 call
-AudioCodecPairId
-codec_pair_id
 )
 ;
 WebRtcVoiceSendChannel
@@ -1687,10 +1670,6 @@ worker_thread_
 )
 ;
 const
-AudioCodecPairId
-codec_pair_id_
-;
-const
 CryptoOptions
 crypto_options_
 ;
@@ -1765,8 +1744,6 @@ crypto_options
 Call
 *
 call
-AudioCodecPairId
-codec_pair_id
 )
 ;
 WebRtcVoiceReceiveChannel
@@ -2467,10 +2444,6 @@ RTC_GUARDED_BY
 (
 worker_thread_
 )
-;
-const
-AudioCodecPairId
-codec_pair_id_
 ;
 const
 CryptoOptions

@@ -4757,8 +4757,6 @@ const
 CryptoOptions
 &
 crypto_options
-AudioCodecPairId
-codec_pair_id
 )
 override
 ;
@@ -4790,8 +4788,6 @@ const
 CryptoOptions
 &
 crypto_options
-AudioCodecPairId
-codec_pair_id
 )
 override
 ;
