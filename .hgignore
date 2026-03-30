@@ -2842,3 +2842,13 @@ settings
 local
 .
 json
+#
+Ignore
+Claude
+Code
+worktrees
+.
+claude
+/
+worktrees
+/

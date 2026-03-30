@@ -2651,6 +2651,16 @@ local
 json
 #
 Ignore
+Claude
+Code
+worktrees
+.
+claude
+/
+worktrees
+/
+#
+Ignore
 .
 json
 .
