@@ -179,7 +179,7 @@ FrameTransformerInterface
 frame_transformer
 TaskQueueBase
 *
-encoder_queue
+send_queue
 )
 ;
 void
@@ -307,7 +307,7 @@ frame_transformer_
 TaskQueueBase
 *
 const
-encoder_queue_
+send_queue_
 ;
 bool
 short_circuit_
