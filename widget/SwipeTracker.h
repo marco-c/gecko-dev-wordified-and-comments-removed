@@ -100,6 +100,15 @@ Destroy
 (
 )
 ;
+void
+StartTracking
+(
+const
+PanGestureInput
+&
+aSwipeStartEvent
+)
+;
 nsEventStatus
 ProcessEvent
 (
