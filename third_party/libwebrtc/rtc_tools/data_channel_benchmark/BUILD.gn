@@ -331,17 +331,6 @@ jsep
 /
 api
 :
-libjingle_peerconnection_api
-"
-"
-.
-.
-/
-.
-.
-/
-api
-:
 peer_connection_interface
 "
 "

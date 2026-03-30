@@ -296,17 +296,6 @@ jsep
 /
 api
 :
-libjingle_peerconnection_api
-"
-"
-.
-.
-/
-.
-.
-/
-api
-:
 make_ref_counted
 "
 "

@@ -3241,11 +3241,6 @@ enable_media
 "
 api
 :
-libjingle_peerconnection_api
-"
-"
-api
-:
 rtc_error
 "
 "
