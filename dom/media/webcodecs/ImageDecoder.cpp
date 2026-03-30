@@ -5450,6 +5450,15 @@ MediaResult
 aResult
 )
 {
+RefPtr
+<
+ImageDecoder
+>
+kungFuDeathGrip
+(
+this
+)
+;
 MOZ_LOG
 (
 gWebCodecsLog
