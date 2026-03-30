@@ -1485,10 +1485,6 @@ frames_scaled_
 if
 (
 previous_width_
-&
-&
-(
-previous_width_
 !
 =
 *
@@ -1500,7 +1496,6 @@ previous_height_
 =
 *
 out_height
-)
 )
 {
 +
