@@ -646,6 +646,11 @@ first_packet_sent_
 =
 false
 ;
+bool
+first_transport_feedback_received_
+=
+false
+;
 std
 :
 :
@@ -694,7 +699,13 @@ PlusInfinity
 (
 )
 ;
+std
+:
+:
+optional
+<
 double
+>
 pacing_factor_
 ;
 TimeDelta
