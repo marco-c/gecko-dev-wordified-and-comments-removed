@@ -1622,11 +1622,7 @@ html
 #
 #
 #
-sigslot
-SIGSLOT
-IS
-DEPRECATED
-.
+Callbacks
 Prefer
 webrtc
 :
