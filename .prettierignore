@@ -2179,15 +2179,6 @@ file_urlbar_edit_dos
 html
 browser
 /
-extensions
-/
-webcompat
-/
-run
-.
-js
-browser
-/
 tools
 /
 mozscreenshots
