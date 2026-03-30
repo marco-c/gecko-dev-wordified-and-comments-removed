@@ -491,6 +491,17 @@ aSuccess
 {
 if
 (
+self
+-
+>
+mIsShutdown
+)
+{
+return
+;
+}
+if
+(
 !
 aSuccess
 )
