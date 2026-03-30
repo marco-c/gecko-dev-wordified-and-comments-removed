@@ -210,11 +210,6 @@ nsITLSSocketControl
 idl
 "
 "
-nsITokenPasswordDialogs
-.
-idl
-"
-"
 nsITransportSecurityInfo
 .
 idl
