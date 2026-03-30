@@ -311,15 +311,7 @@ This
 section
 contains
 the
-:
-doc
-:
-.
-.
-/
-collection
-/
-scalars
+Scalars
 that
 are
 valid

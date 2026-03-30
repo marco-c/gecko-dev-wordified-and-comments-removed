@@ -285,9 +285,6 @@ index
 concepts
 /
 index
-collection
-/
-index
 data
 /
 index
