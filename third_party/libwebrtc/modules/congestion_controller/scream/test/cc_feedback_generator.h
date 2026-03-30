@@ -349,16 +349,6 @@ MinusInfinity
 (
 )
 ;
-TimeDelta
-smoothed_rtt_
-=
-TimeDelta
-:
-:
-PlusInfinity
-(
-)
-;
 Timestamp
 last_send_budget_update
 =

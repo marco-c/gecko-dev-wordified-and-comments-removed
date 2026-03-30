@@ -274,6 +274,13 @@ GetMin
 ;
 }
 void
+UpdateSmoothedRtt
+(
+TimeDelta
+rtt_sample
+)
+;
+void
 UpdateQueueDelayAverage
 (
 TimeDelta
