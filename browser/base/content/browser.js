@@ -7369,6 +7369,9 @@ readFromClipboard
 {
 var
 url
+=
+"
+"
 ;
 try
 {
