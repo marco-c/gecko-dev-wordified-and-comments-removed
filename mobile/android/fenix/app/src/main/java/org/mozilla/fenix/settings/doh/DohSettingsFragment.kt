@@ -171,6 +171,16 @@ mozilla
 .
 fenix
 .
+e2e
+.
+SystemInsetsPaddedFragment
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -225,6 +235,7 @@ DohSettingsFragment
 Fragment
 (
 )
+SystemInsetsPaddedFragment
 {
 private
 var
