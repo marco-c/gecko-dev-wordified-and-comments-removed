@@ -9032,9 +9032,7 @@ mainContextFromOwnThread
 StoreBuffer
 sb
 (
-runtime
-(
-)
+gc
 )
 ;
 {
