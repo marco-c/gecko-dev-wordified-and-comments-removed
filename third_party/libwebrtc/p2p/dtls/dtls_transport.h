@@ -534,6 +534,13 @@ DtlsTransportInternal
 {
 public
 :
+static
+constexpr
+int
+kDefaultHandshakeEstimateRttMs
+=
+200
+;
 using
 SslStreamFactory
 =
@@ -1176,6 +1183,11 @@ error
 ;
 void
 ConfigureHandshakeTimeout
+(
+)
+;
+void
+UpdateHandshakeTimeout
 (
 )
 ;

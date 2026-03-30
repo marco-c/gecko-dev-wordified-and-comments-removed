@@ -476,6 +476,15 @@ timeout_ms
 ;
 virtual
 void
+UpdateRetransmissionTimeout
+(
+int
+timeout_ms
+)
+{
+}
+virtual
+void
 SetMTU
 (
 int
