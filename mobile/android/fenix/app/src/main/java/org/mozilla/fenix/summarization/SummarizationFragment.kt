@@ -505,7 +505,11 @@ continuation
 .
 resumeWithException
 (
-error
+PageContentExtractor
+.
+Exception
+(
+)
 )
 }
 )
@@ -572,7 +576,11 @@ continuation
 .
 resumeWithException
 (
-error
+PageMetadataExtractor
+.
+Exception
+(
+)
 )
 }
 )

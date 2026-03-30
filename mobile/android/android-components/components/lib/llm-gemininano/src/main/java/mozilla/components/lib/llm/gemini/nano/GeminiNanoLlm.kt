@@ -450,7 +450,14 @@ Response
 .
 Failure
 (
+Llm
+.
+Exception
+.
+unknown
+(
 message
+)
 )
 )
 }

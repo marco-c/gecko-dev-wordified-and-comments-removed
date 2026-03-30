@@ -366,6 +366,7 @@ when
 state
 )
 {
+is
 State
 .
 Unavailable
@@ -505,11 +506,16 @@ There
 was
 a
 problem
+.
+Error
+code
 :
 {
 response
 .
-reason
+exception
+.
+errorCode
 }
 "
 }
