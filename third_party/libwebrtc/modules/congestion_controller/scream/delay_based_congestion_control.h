@@ -250,6 +250,12 @@ return
 last_smoothed_rtt_
 ;
 }
+double
+l4s_alpha_v
+(
+)
+const
+;
 private
 :
 TimeDelta
