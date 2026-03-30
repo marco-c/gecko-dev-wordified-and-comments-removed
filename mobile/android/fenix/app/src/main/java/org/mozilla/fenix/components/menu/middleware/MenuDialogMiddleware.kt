@@ -123,12 +123,6 @@ coroutines
 .
 launch
 import
-kotlinx
-.
-coroutines
-.
-withContext
-import
 mozilla
 .
 appservices
@@ -1518,13 +1512,6 @@ checkSummarizationEligibility
 :
 Boolean
 =
-withContext
-(
-Dispatchers
-.
-Default
-)
-{
 this
 checkSummarizationEligibility
 ?
@@ -1555,7 +1542,6 @@ false
 ?
 :
 false
-}
 private
 suspend
 fun
