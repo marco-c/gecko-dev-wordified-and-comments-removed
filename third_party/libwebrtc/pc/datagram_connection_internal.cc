@@ -831,6 +831,7 @@ ice_transport
 >
 SubscribeCandidateGathered
 (
+this
 std
 :
 :
@@ -912,6 +913,7 @@ transport_channel_
 >
 SubscribeIceTransportStateChanged
 (
+this
 [
 this
 ]
@@ -953,6 +955,7 @@ internal_transport_
 >
 SubscribeDtlsHandshakeError
 (
+this
 [
 this
 ]

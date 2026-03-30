@@ -1864,6 +1864,7 @@ session
 >
 SubscribePortReady
 (
+this
 [
 this
 ]
@@ -1890,6 +1891,7 @@ session
 >
 SubscribePortsPruned
 (
+this
 [
 this
 ]
@@ -1924,6 +1926,7 @@ session
 >
 SubscribeCandidatesReady
 (
+this
 [
 this
 ]
@@ -1957,6 +1960,7 @@ session
 >
 SubscribeCandidatesRemoved
 (
+this
 [
 this
 ]
@@ -1990,6 +1994,7 @@ session
 >
 SubscribeCandidatesAllocationDone
 (
+this
 [
 this
 ]

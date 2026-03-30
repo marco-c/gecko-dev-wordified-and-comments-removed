@@ -1902,6 +1902,7 @@ port_
 >
 SubscribePortComplete
 (
+this
 [
 this
 ]
@@ -1924,6 +1925,7 @@ port_
 >
 SubscribeUnknownAddress
 (
+this
 [
 this
 ]
@@ -1969,6 +1971,7 @@ port_
 >
 SubscribePortDestroyed
 (
+this
 [
 this
 ]
@@ -2111,6 +2114,7 @@ conn_
 >
 SubscribeStateChange
 (
+this
 [
 this
 ]
@@ -2156,6 +2160,7 @@ conn_
 >
 SubscribeReadyToSend
 (
+this
 [
 this
 ]
@@ -6093,6 +6098,7 @@ port
 >
 SubscribePortDestroyed
 (
+this
 [
 this
 ]
@@ -28169,6 +28175,7 @@ conn
 >
 SubscribeStateChange
 (
+this
 [
 this
 ]

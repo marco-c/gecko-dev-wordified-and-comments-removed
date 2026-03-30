@@ -2997,6 +2997,7 @@ allocator_session
 >
 SubscribeIceRegathering
 (
+this
 [
 this
 ]
@@ -3033,6 +3034,7 @@ allocator_session
 >
 SubscribeIceRegathering
 (
+this
 [
 this
 ]
@@ -3184,6 +3186,7 @@ channel
 >
 SubscribeCandidateGathered
 (
+this
 [
 this
 ]
@@ -3266,6 +3269,7 @@ channel
 >
 SubscribeRoleConflict
 (
+this
 [
 this
 ]
@@ -6657,6 +6661,7 @@ conn
 >
 SubscribeNominated
 (
+this
 [
 this
 ]
@@ -21953,6 +21958,7 @@ ch
 >
 SubscribeIceTransportStateChanged
 (
+this
 [
 this
 ]
@@ -45532,6 +45538,7 @@ allocator_session
 >
 SubscribeIceRegathering
 (
+this
 [
 this
 ]

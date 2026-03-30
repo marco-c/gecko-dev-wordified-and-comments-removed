@@ -2374,6 +2374,7 @@ client_
 >
 SubscribeConnectEvent
 (
+this
 [
 this
 ]

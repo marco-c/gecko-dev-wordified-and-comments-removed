@@ -700,6 +700,11 @@ socket
 )
 ;
 }
+[
+[
+deprecated
+]
+]
 void
 SubscribeConnect
 (

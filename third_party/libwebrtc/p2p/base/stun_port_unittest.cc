@@ -1562,6 +1562,7 @@ stun_port_
 >
 SubscribePortComplete
 (
+this
 [
 this
 ]
@@ -1584,6 +1585,7 @@ stun_port_
 >
 SubscribePortError
 (
+this
 [
 this
 ]
@@ -1606,6 +1608,7 @@ stun_port_
 >
 SubscribeCandidateError
 (
+this
 [
 this
 ]
@@ -1841,6 +1844,7 @@ stun_port_
 >
 SubscribePortComplete
 (
+this
 [
 this
 ]
@@ -1863,6 +1867,7 @@ stun_port_
 >
 SubscribePortError
 (
+this
 [
 this
 ]

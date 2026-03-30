@@ -406,6 +406,7 @@ int_socket_
 >
 SubscribeConnectRequest
 (
+this
 [
 this
 ]
@@ -479,6 +480,7 @@ int_socket_
 >
 SubscribeCloseEvent
 (
+this
 [
 this
 ]
@@ -504,6 +506,7 @@ ext_socket_
 >
 SubscribeConnectEvent
 (
+this
 [
 this
 ]
@@ -572,6 +575,7 @@ ext_socket_
 >
 SubscribeCloseEvent
 (
+this
 [
 this
 ]

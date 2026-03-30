@@ -1392,6 +1392,7 @@ session
 >
 SubscribePortReady
 (
+this
 [
 this
 ]
@@ -1418,6 +1419,7 @@ session
 >
 SubscribePortsPruned
 (
+this
 [
 this
 ]
@@ -1452,6 +1454,7 @@ session
 >
 SubscribeCandidatesReady
 (
+this
 [
 this
 ]
@@ -1485,6 +1488,7 @@ session
 >
 SubscribeCandidateError
 (
+this
 [
 this
 ]
@@ -1512,6 +1516,7 @@ session
 >
 SubscribeCandidatesRemoved
 (
+this
 [
 this
 ]
@@ -1545,6 +1550,7 @@ session
 >
 SubscribeCandidatesAllocationDone
 (
+this
 [
 this
 ]
@@ -1689,6 +1695,7 @@ connection
 >
 SubscribeReadyToSend
 (
+this
 [
 this
 ]
@@ -1711,6 +1718,7 @@ connection
 >
 SubscribeStateChange
 (
+this
 [
 this
 ]
@@ -1756,6 +1764,7 @@ connection
 >
 SubscribeNominated
 (
+this
 [
 this
 ]
@@ -5051,6 +5060,7 @@ port
 >
 SubscribeUnknownAddress
 (
+this
 [
 this
 ]
@@ -5096,6 +5106,7 @@ port
 >
 SubscribeSentPacket
 (
+this
 [
 this
 ]
@@ -5119,6 +5130,7 @@ port
 >
 SubscribePortDestroyed
 (
+this
 [
 this
 ]

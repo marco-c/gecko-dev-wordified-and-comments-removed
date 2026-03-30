@@ -385,6 +385,7 @@ ssl_adapter_
 >
 SubscribeCloseEvent
 (
+this
 [
 this
 ]

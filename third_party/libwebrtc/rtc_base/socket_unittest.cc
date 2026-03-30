@@ -4266,6 +4266,8 @@ client
 >
 SubscribeCloseEvent
 (
+&
+closer
 [
 &
 closer

@@ -300,6 +300,7 @@ control_socket_
 >
 SubscribeCloseEvent
 (
+this
 [
 this
 ]
@@ -328,6 +329,7 @@ hanging_get_
 >
 SubscribeCloseEvent
 (
+this
 [
 this
 ]
@@ -356,6 +358,7 @@ control_socket_
 >
 SubscribeConnectEvent
 (
+this
 [
 this
 ]
@@ -381,6 +384,7 @@ hanging_get_
 >
 SubscribeConnectEvent
 (
+this
 [
 this
 ]

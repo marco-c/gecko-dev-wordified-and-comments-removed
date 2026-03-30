@@ -512,6 +512,7 @@ from_pc_wrapper
 >
 SubscribeOnIceCandidateReady
 (
+this
 [
 to_pc
 =

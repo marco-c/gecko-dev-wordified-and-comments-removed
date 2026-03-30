@@ -844,6 +844,11 @@ tag
 )
 ;
 }
+[
+[
+deprecated
+]
+]
 void
 SubscribeConnectEvent
 (
@@ -943,6 +948,11 @@ tag
 )
 ;
 }
+[
+[
+deprecated
+]
+]
 void
 SubscribeCloseEvent
 (

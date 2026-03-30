@@ -1830,6 +1830,11 @@ local_pc_wrapper
 >
 SubscribeOnIceCandidateReady
 (
+remote_pc_wrapper
+.
+get
+(
+)
 [
 remote_pc
 =
@@ -1876,6 +1881,11 @@ remote_pc_wrapper
 >
 SubscribeOnIceCandidateReady
 (
+local_pc_wrapper
+.
+get
+(
+)
 [
 local_pc
 =

@@ -89,6 +89,7 @@ socket_
 >
 SubscribeConnectEvent
 (
+this
 [
 this
 ]
@@ -157,6 +158,7 @@ socket_
 >
 SubscribeCloseEvent
 (
+this
 [
 this
 ]
