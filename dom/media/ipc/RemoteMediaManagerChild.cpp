@@ -390,7 +390,7 @@ MOZ_GUARDED_BY
 sLaunchMutex
 )
 ;
-MOZ_RELEASE_CONSTINIT
+constinit
 static
 StaticDataMutex
 <

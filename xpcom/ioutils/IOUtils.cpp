@@ -1606,7 +1606,7 @@ get
 ;
 }
 }
-MOZ_RELEASE_CONSTINIT
+constinit
 IOUtils
 :
 :
