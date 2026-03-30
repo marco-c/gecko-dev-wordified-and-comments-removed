@@ -3736,13 +3736,7 @@ signaling_thread
 )
 )
 ;
-std
-:
-:
-unique_ptr
-<
 RTCStatsCollector
->
 stats_collector_
 RTC_GUARDED_BY
 (
