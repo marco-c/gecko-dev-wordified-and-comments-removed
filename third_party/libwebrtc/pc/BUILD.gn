@@ -16010,6 +16010,11 @@ sdp_offer_answer_unittest
 cc
 "
 "
+sdp_payload_type_suggester_unittest
+.
+cc
+"
+"
 simulcast_sdp_serializer_unittest
 .
 cc
@@ -16206,6 +16211,10 @@ sctp_utils
 "
 :
 sdp_munging_detector
+"
+"
+:
+sdp_payload_type_suggester
 "
 "
 :
@@ -17032,6 +17041,14 @@ video_encoder_factory_template_open_h264_adapter
 call
 :
 call_interfaces
+"
+"
+.
+.
+/
+call
+:
+payload_type
 "
 "
 .
