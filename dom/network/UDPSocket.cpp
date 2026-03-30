@@ -766,6 +766,15 @@ Closed
 return
 ;
 }
+RefPtr
+<
+UDPSocket
+>
+kungFuDeathGrip
+(
+this
+)
+;
 if
 (
 mOpened
