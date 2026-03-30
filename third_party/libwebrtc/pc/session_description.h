@@ -269,9 +269,6 @@ MediaContentDescription
 default
 ;
 virtual
-webrtc
-:
-:
 MediaType
 type
 (
@@ -1387,6 +1384,7 @@ MediaContentDescription
 ;
 class
 AudioContentDescription
+final
 :
 public
 RtpMediaContentDescription
@@ -1423,9 +1421,6 @@ protocol
 )
 ;
 }
-webrtc
-:
-:
 MediaType
 type
 (
@@ -1434,9 +1429,6 @@ const
 override
 {
 return
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1490,6 +1482,7 @@ this
 ;
 class
 VideoContentDescription
+final
 :
 public
 RtpMediaContentDescription
@@ -1526,9 +1519,6 @@ protocol
 )
 ;
 }
-webrtc
-:
-:
 MediaType
 type
 (
@@ -1537,9 +1527,6 @@ const
 override
 {
 return
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1593,6 +1580,7 @@ this
 ;
 class
 SctpDataContentDescription
+final
 :
 public
 MediaContentDescription
@@ -1642,9 +1630,6 @@ sctp_init_
 )
 {
 }
-webrtc
-:
-:
 MediaType
 type
 (
@@ -1653,9 +1638,6 @@ const
 override
 {
 return
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1896,6 +1878,7 @@ sctp_init_
 ;
 class
 UnsupportedContentDescription
+final
 :
 public
 MediaContentDescription
@@ -1918,9 +1901,6 @@ media_type
 )
 {
 }
-webrtc
-:
-:
 MediaType
 type
 (
@@ -1929,9 +1909,6 @@ const
 override
 {
 return
-webrtc
-:
-:
 MediaType
 :
 :
@@ -2007,6 +1984,7 @@ this
 )
 ;
 }
+const
 std
 :
 :
@@ -2027,6 +2005,7 @@ kOther
 class
 RTC_EXPORT
 ContentInfo
+final
 {
 public
 :
