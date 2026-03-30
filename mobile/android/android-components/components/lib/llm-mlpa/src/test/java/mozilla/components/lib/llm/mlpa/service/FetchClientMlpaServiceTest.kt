@@ -217,14 +217,6 @@ junit
 .
 Assert
 .
-assertThrows
-import
-org
-.
-junit
-.
-Assert
-.
 assertTrue
 import
 org
@@ -794,7 +786,7 @@ Request
 .
 ModelID
 .
-mistral
+mozSummarization
 messages
 =
 listOf
@@ -1007,7 +999,7 @@ Request
 .
 ModelID
 .
-mistral
+mozSummarization
 messages
 =
 listOf
@@ -1172,7 +1164,7 @@ Request
 .
 ModelID
 .
-mistral
+mozSummarization
 messages
 =
 listOf
@@ -1377,7 +1369,7 @@ Request
 .
 ModelID
 .
-mistral
+mozSummarization
 messages
 =
 listOf
@@ -1749,7 +1741,7 @@ Request
 .
 ModelID
 .
-mistral
+mozSummarization
 messages
 =
 listOf

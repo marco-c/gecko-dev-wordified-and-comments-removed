@@ -1651,7 +1651,7 @@ AI
 *
 /
 val
-mistral
+mozSummarization
 :
 ModelID
 get
@@ -1661,13 +1661,9 @@ get
 ModelID
 (
 "
-vertex_ai
-/
-mistral
+moz
 -
-small
--
-2503
+summarization
 "
 )
 }

@@ -350,7 +350,7 @@ model
 =
 ModelID
 .
-mistral
+mozSummarization
 messages
 =
 listOf
