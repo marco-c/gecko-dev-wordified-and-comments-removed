@@ -149,7 +149,7 @@ tab
 label
 =
 New
-tab
+Tab
 appmenuitem
 -
 new
@@ -160,7 +160,7 @@ window
 label
 =
 New
-window
+Window
 appmenuitem
 -
 new
@@ -173,8 +173,8 @@ window
 label
 =
 New
-private
-window
+Private
+Window
 appmenuitem
 -
 history
@@ -212,7 +212,7 @@ label
 =
 Extensions
 and
-themes
+Themes
 appmenuitem
 -
 extensions
@@ -242,7 +242,7 @@ label
 =
 Find
 in
-page
+Page
 appmenuitem
 -
 translate
@@ -251,7 +251,7 @@ translate
 label
 =
 Translate
-page
+Page
 appmenuitem
 -
 zoom
@@ -270,7 +270,7 @@ tools
 label
 =
 More
-tools
+Tools
 appmenuitem
 -
 help
@@ -396,7 +396,7 @@ enlarge
 label
 =
 Zoom
-in
+In
 appmenuitem
 -
 zoom
@@ -407,7 +407,7 @@ reduce
 label
 =
 Zoom
-out
+Out
 appmenuitem
 -
 fullscreen
@@ -416,7 +416,7 @@ fullscreen
 label
 =
 Full
-screen
+Screen
 #
 #
 Firefox
@@ -891,8 +891,8 @@ page
 label
 =
 Save
-page
-as
+Page
+As
 appmenuitem
 -
 fxa
@@ -2177,8 +2177,8 @@ site
 label
 =
 Report
-broken
-site
+Broken
+Site
 #
 #
 Panel
