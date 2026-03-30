@@ -806,3 +806,13 @@ mesa
 threading
 "
 )
+GFXINFO_FEATURE
+(
+WEBGL
+"
+WEBGL
+"
+"
+webgl
+"
+)
