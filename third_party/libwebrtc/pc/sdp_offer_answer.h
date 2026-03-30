@@ -1033,11 +1033,6 @@ void
 worker_tasks
 )
 ;
-void
-DestroyMediaChannels
-(
-)
-;
 scoped_refptr
 <
 StreamCollectionInterface
