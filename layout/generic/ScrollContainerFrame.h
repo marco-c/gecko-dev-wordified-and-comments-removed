@@ -3726,6 +3726,12 @@ uint32_t
 >
 mIsFirstScrollableFrameSequenceNumber
 ;
+RefPtr
+<
+ComputedStyle
+>
+mWebKitScrollbarStyle
+;
 InScrollingGesture
 mInScrollingGesture
 :
