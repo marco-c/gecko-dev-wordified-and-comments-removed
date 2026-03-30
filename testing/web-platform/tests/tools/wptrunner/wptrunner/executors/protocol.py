@@ -5514,6 +5514,9 @@ item
 initial_window
 :
                     
+try
+:
+                        
 self
 .
 parent
@@ -5524,6 +5527,29 @@ set_window
 (
 item
 )
+                    
+except
+Exception
+as
+e
+:
+                        
+if
+e
+.
+__class__
+.
+__name__
+=
+=
+"
+NoSuchWindowException
+"
+:
+                            
+continue
+                        
+raise
                 
 first
 =
