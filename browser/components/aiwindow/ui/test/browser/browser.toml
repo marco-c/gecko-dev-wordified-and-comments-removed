@@ -311,7 +311,14 @@ js
 ]
 [
 "
-browser_aiwindow_smartbar_mentions
+browser_aiwindow_smartbar_context_chips
+.
+js
+"
+]
+[
+"
+browser_aiwindow_smartbar_inline_mentions
 .
 js
 "
