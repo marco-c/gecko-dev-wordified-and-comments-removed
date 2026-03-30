@@ -34,6 +34,7 @@ mozilla
 {
 class
 WidevineFileIO
+final
 :
 public
 cdm
@@ -59,10 +60,6 @@ aClient
 mClient
 (
 aClient
-)
-mRecord
-(
-nullptr
 )
 {
 }
@@ -134,6 +131,11 @@ override
 ;
 private
 :
+void
+DestroyRecord
+(
+)
+;
 cdm
 :
 :
@@ -144,6 +146,8 @@ mClient
 GMPRecord
 *
 mRecord
+=
+nullptr
 ;
 std
 :
