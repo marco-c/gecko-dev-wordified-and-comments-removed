@@ -544,15 +544,7 @@ allowRelazificationForTesting
 (
 false
 )
-destroyCompartmentCallback
-(
-nullptr
-)
 sizeOfIncludingThisCompartmentCallback
-(
-nullptr
-)
-destroyRealmCallback
 (
 nullptr
 )
