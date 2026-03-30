@@ -667,7 +667,7 @@ string_view
 transport_lookup
 )
 ;
-void
+RTCError
 SetChannel
 (
 std

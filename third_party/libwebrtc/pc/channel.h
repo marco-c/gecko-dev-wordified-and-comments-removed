@@ -1306,6 +1306,9 @@ private
 bool
 ConnectToRtpTransport_n
 (
+RtpTransportInternal
+*
+rtp_transport
 )
 RTC_RUN_ON
 (
