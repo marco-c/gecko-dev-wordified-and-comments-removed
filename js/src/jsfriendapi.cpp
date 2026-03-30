@@ -2331,9 +2331,12 @@ runtimeFromMainThread
 )
 -
 >
-lastAnimationTime
-=
+gc
+.
+setLastAnimationTime
+(
 timeNow
+)
 ;
 }
 JS_PUBLIC_API
