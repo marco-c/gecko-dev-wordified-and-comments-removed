@@ -264,13 +264,11 @@ third_party
 /
 libwebrtc
 /
-api
-/
 video
 /
 corruption_detection
 /
-frame_instrumentation_generator
+frame_instrumentation_generator_impl
 .
 cc
 "
@@ -1497,6 +1495,6 @@ True
 Library
 (
 "
-frame_instrumentation_generator_gn
+frame_instrumentation_generator_impl_gn
 "
 )
