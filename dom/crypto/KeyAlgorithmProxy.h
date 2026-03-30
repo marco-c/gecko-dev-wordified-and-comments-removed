@@ -120,7 +120,7 @@ mModulusLength
 CryptoBuffer
 mPublicExponent
 ;
-bool
+void
 ToKeyAlgorithm
 (
 JSContext
@@ -165,7 +165,6 @@ Failed
 )
 {
 return
-false
 ;
 }
 aRsa
@@ -198,9 +197,6 @@ Init
 (
 exponent
 )
-;
-return
-true
 ;
 }
 }
