@@ -7724,14 +7724,6 @@ rtp_test_utils
 /
 test
 :
-test_main
-"
-"
-.
-.
-/
-test
-:
 test_support
 "
 "

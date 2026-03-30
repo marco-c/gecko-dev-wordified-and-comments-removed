@@ -514,14 +514,6 @@ deps
 read_auth_file
 "
 "
-.
-.
-/
-test
-:
-test_main
-"
-"
 /
 /
 test

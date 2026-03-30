@@ -1339,17 +1339,6 @@ frame_utils
 /
 test
 :
-test_main
-"
-"
-.
-.
-/
-.
-.
-/
-test
-:
 test_support
 "
 "

@@ -114,17 +114,6 @@ deps
 =
 [
 "
-.
-.
-/
-.
-.
-/
-test
-:
-test_main
-"
-"
 common
 :
 dcsctp_common_unittests

@@ -4271,10 +4271,6 @@ run_loop
 "
 "
 :
-test_main
-"
-"
-:
 test_support
 "
 "
