@@ -273,6 +273,11 @@ ScreenCastPortal
 (
 type
 this
+options
+.
+prefer_cursor_embedded
+(
+)
 )
 )
 {

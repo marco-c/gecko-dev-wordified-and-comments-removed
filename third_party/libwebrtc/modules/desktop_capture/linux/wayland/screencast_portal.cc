@@ -279,6 +279,8 @@ type
 PortalNotifier
 *
 notifier
+bool
+prefer_cursor_embedded
 )
 :
 ScreenCastPortal
@@ -288,6 +290,7 @@ notifier
 OnProxyRequested
 OnSourcesRequestResponseSignal
 this
+prefer_cursor_embedded
 )
 {
 }
