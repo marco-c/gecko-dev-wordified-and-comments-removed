@@ -271,6 +271,15 @@ include
 "
 pc
 /
+channel_interface
+.
+h
+"
+#
+include
+"
+pc
+/
 codec_vendor
 .
 h
