@@ -789,7 +789,7 @@ crate
 BuiltIn
 :
 :
-ClipDistance
+ClipDistances
 "
 front_facing
 "
@@ -1299,7 +1299,7 @@ crate
 BuiltIn
 :
 :
-ClipDistance
+ClipDistances
 =
 >
 {

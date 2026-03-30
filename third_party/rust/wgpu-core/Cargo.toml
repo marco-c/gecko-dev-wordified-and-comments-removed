@@ -121,7 +121,7 @@ core
 version
 =
 "
-28
+29
 .
 0
 .
@@ -916,7 +916,7 @@ naga
 version
 =
 "
-28
+29
 .
 0
 .
@@ -1117,7 +1117,7 @@ hal
 version
 =
 "
-28
+29
 .
 0
 .
@@ -1145,7 +1145,7 @@ bridge
 version
 =
 "
-28
+29
 .
 0
 .
@@ -1173,7 +1173,7 @@ types
 version
 =
 "
-28
+29
 .
 0
 .
@@ -1248,7 +1248,7 @@ wasm
 version
 =
 "
-28
+29
 .
 0
 .
@@ -1311,7 +1311,7 @@ android
 version
 =
 "
-28
+29
 .
 0
 .
@@ -1393,7 +1393,7 @@ emscripten
 version
 =
 "
-28
+29
 .
 0
 .
@@ -1438,7 +1438,7 @@ apple
 version
 =
 "
-28
+29
 .
 0
 .

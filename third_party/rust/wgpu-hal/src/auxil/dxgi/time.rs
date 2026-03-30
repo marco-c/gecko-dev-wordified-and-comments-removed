@@ -4,6 +4,14 @@
 allow
 (
 dead_code
+reason
+=
+"
+IPresentationManager
+is
+unused
+currently
+"
 )
 ]
 use

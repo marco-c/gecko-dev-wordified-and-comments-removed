@@ -65,6 +65,17 @@ ValidationCanary
 allow
 (
 dead_code
+reason
+=
+"
+in
+some
+configurations
+this
+function
+is
+dead
+"
 )
 ]
 pub

@@ -17526,7 +17526,7 @@ BaseVertex
 Bi
 :
 :
-ClipDistance
+ClipDistances
 =
 >
 {
@@ -17535,7 +17535,7 @@ self
 require_any
 (
 "
-clip_distance
+clip_distances
 built
 -
 in

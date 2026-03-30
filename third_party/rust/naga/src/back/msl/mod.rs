@@ -3233,7 +3233,7 @@ base_vertex
 Bi
 :
 :
-ClipDistance
+ClipDistances
 =
 >
 "
@@ -4308,7 +4308,7 @@ STORAGE_BUFFER_BINDING_ARRAY
 Caps
 :
 :
-CLIP_DISTANCE
+CLIP_DISTANCES
 |
 Caps
 :

@@ -895,11 +895,11 @@ wgt
 :
 :
 NoopBackendOptions
-{
-enable
 :
-false
-}
+:
+default
+(
+)
 }
 memory_budget_thresholds
 :
@@ -14721,6 +14721,9 @@ force_fallback_adapter
 compatible_surface
 :
 None
+apply_limit_buckets
+:
+false
 }
 ;
 if
@@ -14821,6 +14824,9 @@ device_pci_bus_id
 _
 subgroup_min_size
 subgroup_max_size
+limit_bucket
+:
+_
 }
 =
 global

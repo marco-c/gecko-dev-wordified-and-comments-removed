@@ -479,7 +479,7 @@ bool
 ViewIndex
 BaseInstance
 BaseVertex
-ClipDistance
+ClipDistances
 CullDistance
 InstanceIndex
 PointSize

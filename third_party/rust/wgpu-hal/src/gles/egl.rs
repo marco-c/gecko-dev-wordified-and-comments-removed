@@ -4766,6 +4766,17 @@ clippy
 :
 :
 unnecessary_literal_unwrap
+reason
+=
+"
+this
+is
+only
+a
+literal
+on
+Emscripten
+"
 )
 ]
 let

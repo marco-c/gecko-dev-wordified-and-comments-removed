@@ -923,7 +923,7 @@ gl_ClipDistance
 BuiltIn
 :
 :
-ClipDistance
+ClipDistances
 "
 gl_CullDistance
 "

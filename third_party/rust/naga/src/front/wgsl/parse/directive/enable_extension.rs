@@ -1238,7 +1238,7 @@ ClipDistances
 C
 :
 :
-CLIP_DISTANCE
+CLIP_DISTANCES
 Self
 :
 :

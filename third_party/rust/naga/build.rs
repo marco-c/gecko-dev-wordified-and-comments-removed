@@ -132,13 +132,6 @@ test
 feature
 =
 "
-wgsl
--
-in
-"
-feature
-=
-"
 stderr
 "
 feature

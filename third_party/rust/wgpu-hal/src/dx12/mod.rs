@@ -3695,6 +3695,12 @@ wgt
 :
 HalCounters
 >
+limits
+:
+wgt
+:
+:
+Limits
 }
 impl
 Drop
