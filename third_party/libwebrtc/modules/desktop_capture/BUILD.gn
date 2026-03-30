@@ -1283,6 +1283,17 @@ desktop_capture_mock
 .
 .
 /
+api
+:
+make_ref_counted
+"
+"
+.
+.
+/
+.
+.
+/
 system_wrappers
 :
 metrics
