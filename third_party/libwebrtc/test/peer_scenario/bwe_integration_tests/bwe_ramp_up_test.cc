@@ -1241,14 +1241,6 @@ KilobitsPerSec
 )
 ;
 }
-constexpr
-double
-kScreamMaxBweMultiplier
-=
-1
-.
-6
-;
 struct
 InitialProbeTestParams
 {
@@ -1388,7 +1380,7 @@ DataRate
 :
 KilobitsPerSec
 (
-1900
+1500
 )
 .
 max_bwe
@@ -1399,8 +1391,6 @@ DataRate
 KilobitsPerSec
 (
 3000
-*
-kScreamMaxBweMultiplier
 )
 }
 {
@@ -1443,8 +1433,6 @@ DataRate
 KilobitsPerSec
 (
 500
-*
-kScreamMaxBweMultiplier
 )
 }
 }

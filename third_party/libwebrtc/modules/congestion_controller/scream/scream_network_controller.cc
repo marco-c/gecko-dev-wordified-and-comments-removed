@@ -571,6 +571,16 @@ SentPacket
 msg
 )
 {
+scream_
+-
+>
+OnPacketSent
+(
+msg
+.
+data_in_flight
+)
+;
 if
 (
 msg
