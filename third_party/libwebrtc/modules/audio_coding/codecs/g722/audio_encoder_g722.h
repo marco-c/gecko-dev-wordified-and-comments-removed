@@ -31,6 +31,11 @@ utility
 >
 #
 include
+<
+vector
+>
+#
+include
 "
 api
 /
@@ -303,7 +308,13 @@ EncoderState
 >
 encoders_
 ;
-Buffer
+std
+:
+:
+vector
+<
+uint8_t
+>
 interleave_buffer_
 ;
 }
