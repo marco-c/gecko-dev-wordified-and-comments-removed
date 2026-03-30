@@ -159,6 +159,14 @@ food
 =
 =
 null
+|
+|
+state
+.
+food
+=
+=
+null
 )
 return
 drawImage

@@ -91,6 +91,11 @@ val
 context
 :
 Context
+private
+val
+soundOn
+:
+Boolean
 )
 {
 private
@@ -112,6 +117,12 @@ soundResId
 Int
 )
 {
+if
+(
+!
+soundOn
+)
+return
 MediaPlayer
 .
 create
