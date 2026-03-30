@@ -30,11 +30,6 @@ memory
 #
 include
 <
-optional
->
-#
-include
-<
 vector
 >
 #
@@ -498,10 +493,6 @@ false
 0
 false
 audio_decoder_factory_
-std
-:
-:
-nullopt
 nullptr
 crypto_options
 nullptr

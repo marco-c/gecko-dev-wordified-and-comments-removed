@@ -11,11 +11,6 @@ cstdint
 >
 #
 include
-<
-optional
->
-#
-include
 "
 api
 /
@@ -105,10 +100,6 @@ CreateEnvironment
 (
 )
 nullptr
-std
-:
-:
-nullopt
 )
 {
 }

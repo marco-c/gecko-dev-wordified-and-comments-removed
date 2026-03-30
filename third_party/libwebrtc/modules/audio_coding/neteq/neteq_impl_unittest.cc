@@ -2318,10 +2318,6 @@ pcmu
 8000
 1
 )
-std
-:
-:
-nullopt
 mock_decoder_factory
 .
 get
@@ -9280,10 +9276,6 @@ pcmu
 8000
 1
 )
-std
-:
-:
-nullopt
 mock_decoder_factory
 .
 get

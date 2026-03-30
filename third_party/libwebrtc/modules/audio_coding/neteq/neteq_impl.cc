@@ -782,9 +782,6 @@ move
 (
 decoder_factory
 )
-config
-.
-codec_pair_id
 )
 )
 dtmf_buffer

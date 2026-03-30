@@ -29,11 +29,6 @@ cstring
 #
 include
 <
-optional
->
-#
-include
-<
 utility
 >
 #
@@ -1368,10 +1363,6 @@ MockAudioDecoderFactory
 >
 (
 )
-std
-:
-:
-nullopt
 )
 ;
 decoder_database
@@ -1564,10 +1555,6 @@ MockAudioDecoderFactory
 >
 (
 )
-std
-:
-:
-nullopt
 )
 ;
 decoder_database

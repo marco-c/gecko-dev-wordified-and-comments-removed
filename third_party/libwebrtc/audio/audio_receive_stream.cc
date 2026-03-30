@@ -688,9 +688,6 @@ enable_non_sender_rtt
 config
 .
 decoder_factory
-config
-.
-codec_pair_id
 std
 :
 :
