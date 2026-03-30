@@ -11185,6 +11185,14 @@ IceSwitchReason
 CONNECT_STATE_CHANGE
 )
 ;
+ice_controller_
+-
+>
+OnConnectionUpdated
+(
+connection
+)
+;
 }
 void
 P2PTransportChannel

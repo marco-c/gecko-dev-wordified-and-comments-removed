@@ -579,6 +579,11 @@ dcsctp
 dcsctp_unittests
 "
 "
+p2p
+:
+dtls_ice_integration_bench
+"
+"
 pc
 :
 peerconnection_unittests
