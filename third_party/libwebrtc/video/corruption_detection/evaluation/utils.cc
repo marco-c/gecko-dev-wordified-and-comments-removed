@@ -14,11 +14,6 @@ h
 #
 include
 <
-cstddef
->
-#
-include
-<
 cstdint
 >
 #
@@ -147,7 +142,7 @@ constexpr
 int
 kHeaderBytesToRead
 =
-30
+40
 ;
 }
 TempY4mFileCreator
@@ -586,10 +581,10 @@ H
 u
 F
 %
-i
+u
 :
 %
-i
+u
 "
 &
 width
