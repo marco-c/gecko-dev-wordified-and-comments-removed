@@ -6388,6 +6388,8 @@ float
 >
 >
 E2
+bool
+dominant_nearend
 ArrayView
 <
 std

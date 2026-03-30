@@ -90,12 +90,15 @@ ModelOutputEnum
 kEchoMask
 =
 0
-kModelState
+kUnboundedEchoMask
 =
 1
-kNumOutputs
+kModelState
 =
 2
+kNumOutputs
+=
+3
 }
 ;
 virtual

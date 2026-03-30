@@ -412,6 +412,8 @@ kFftLengthBy2Plus1
 >
 >
 E2
+bool
+dominant_nearend
 ArrayView
 <
 std
@@ -495,6 +497,10 @@ ModelRunner
 >
 model_runner_
 ;
+const
+bool
+use_unbounded_mask_
+;
 std
 :
 :
@@ -513,6 +519,16 @@ float
 kFftLengthBy2Plus1
 >
 output_mask_
+;
+std
+:
+:
+array
+<
+float
+kFftLengthBy2Plus1
+>
+output_mask_unbounded_
 ;
 std
 :

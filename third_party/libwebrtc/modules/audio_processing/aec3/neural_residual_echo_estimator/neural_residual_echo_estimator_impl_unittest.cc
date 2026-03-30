@@ -577,6 +577,12 @@ ModelOutputEnum
 :
 kEchoMask
 :
+case
+ModelOutputEnum
+:
+:
+kUnboundedEchoMask
+:
 return
 ArrayView
 <
@@ -1255,6 +1261,7 @@ e
 S2
 Y2
 E2
+false
 R2
 R2_unbounded
 )
@@ -1982,6 +1989,7 @@ e
 S2
 Y2
 E2
+false
 R2
 R2_unbounded
 )
@@ -2598,6 +2606,7 @@ e
 S2
 Y2
 E2
+false
 R2
 R2_unbounded
 )
