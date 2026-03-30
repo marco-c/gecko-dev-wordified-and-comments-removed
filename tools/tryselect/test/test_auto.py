@@ -1,7 +1,3 @@
-from
-unittest
-import
-mock
 import
 mozunit
 import
@@ -237,6 +233,7 @@ def
 test_returns_zero_with_job_id
 (
 run_mach
+mock_push_to_lando_try
 )
 :
     
@@ -254,36 +251,13 @@ even
 when
 push_to_lando_try
 returns
-a
-job_id
+job
+data
 .
 "
 "
 "
     
-with
-mock
-.
-patch
-(
-"
-tryselect
-.
-push
-.
-push_to_lando_try
-"
-)
-as
-mock_push
-:
-        
-mock_push
-.
-return_value
-=
-42
-        
 assert
 run_mach
 (

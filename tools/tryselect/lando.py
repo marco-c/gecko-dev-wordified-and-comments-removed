@@ -3068,4 +3068,18 @@ success_msg
 )
     
 return
+{
+        
+"
+lando_instance
+"
+:
+lando_config_section
+        
+"
+lando_job_id
+"
+:
 job_id
+    
+}
