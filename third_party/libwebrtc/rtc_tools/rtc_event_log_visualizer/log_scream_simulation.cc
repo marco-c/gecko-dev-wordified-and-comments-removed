@@ -213,6 +213,13 @@ config
 rate_window
 )
 {
+scream_
+.
+emplace
+(
+env_
+)
+;
 }
 void
 LogScreamSimulation
