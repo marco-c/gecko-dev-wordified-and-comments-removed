@@ -602,9 +602,8 @@ scrollable
 content
 {
 overflow
--
-y
 :
+hidden
 auto
 ;
 height

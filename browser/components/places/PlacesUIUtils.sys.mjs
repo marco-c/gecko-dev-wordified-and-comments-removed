@@ -6471,7 +6471,7 @@ if
 (
 aFetchInfo
 .
-itemType
+type
 =
 =
 lazy
@@ -6559,7 +6559,7 @@ if
 (
 aFetchInfo
 .
-itemType
+type
 =
 =
 lazy

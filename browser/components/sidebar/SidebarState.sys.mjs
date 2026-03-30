@@ -582,6 +582,11 @@ launcherEverVisible
 =
 false
 ;
+bookmarksExpandedFolders
+=
+[
+]
+;
 /
 *
 *
@@ -1207,7 +1212,7 @@ with
 .
 *
 /
-loadInitialState
+loadCurrentState
 (
 props
 )
@@ -1776,6 +1781,11 @@ panelWidth
 this
 .
 panelWidth
+bookmarksExpandedFolders
+:
+this
+.
+bookmarksExpandedFolders
 launcherWidth
 :
 convertToInt
