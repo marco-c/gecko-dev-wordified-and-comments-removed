@@ -1582,7 +1582,7 @@ ui
 dispatchTo
 =
 "
-gecko
+proxy
 "
 )
 public
@@ -2071,7 +2071,7 @@ ui
 dispatchTo
 =
 "
-gecko
+proxy
 "
 )
 public
@@ -2121,7 +2121,7 @@ ui
 dispatchTo
 =
 "
-gecko
+proxy
 "
 )
 public

@@ -4386,6 +4386,11 @@ inst
 )
 )
 ;
+MOZ_ASSERT
+(
+impl
+)
+;
 MOZ_CATCH_JNI_EXCEPTION
 (
 inst
@@ -4489,6 +4494,11 @@ Get
 (
 inst
 )
+)
+;
+MOZ_ASSERT
+(
+impl
 )
 ;
 MOZ_CATCH_JNI_EXCEPTION
