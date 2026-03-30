@@ -1306,6 +1306,14 @@ data
 )
 =
 >
+{
+if
+(
+this
+.
+wrapper
+)
+{
 this
 .
 wrapper
@@ -1317,6 +1325,9 @@ id
 data
 }
 )
+;
+}
+}
 }
 owner
 :

@@ -2622,8 +2622,16 @@ mimeType
 response
 .
 content
+?
 .
 mimeType
+|
+|
+"
+text
+/
+plain
+"
 responseContent
 :
 response
