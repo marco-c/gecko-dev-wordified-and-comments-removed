@@ -1181,6 +1181,13 @@ rtc_event_bwe_update_scream
 "
 )
 {
+visibility
+=
+[
+"
+*
+"
+]
 sources
 =
 [
