@@ -138189,6 +138189,11 @@ getObservableArrayBackingObject
 (
 descriptor
 attr
+objName
+=
+"
+obj
+"
 errorReturn
 =
 "
@@ -138280,7 +138285,9 @@ if
 GetObservableArrayBackingObject
 (
 cx
-obj
+{
+objName
+}
 {
 slot
 }
@@ -138331,6 +138338,18 @@ self
 "
 "
         
+objName
+=
+objName
+        
+slot
+=
+memberReservedSlot
+(
+attr
+descriptor
+)
+        
 namespace
 =
 toBindingNamespace
@@ -138343,14 +138362,6 @@ identifier
 .
 name
 )
-)
-        
-slot
-=
-memberReservedSlot
-(
-attr
-descriptor
 )
         
 errorReturn
@@ -139992,6 +140003,11 @@ getObservableArrayBackingObject
 (
 descriptor
 attr
+objName
+=
+"
+unwrappedObj
+"
 )
         
 setElement
@@ -140134,10 +140150,58 @@ false
                 
 }
                 
+JS
+:
+:
+Rooted
+<
+JSObject
+*
+>
+unwrappedObj
+(
+cx
+js
+:
+:
+UncheckedUnwrap
+(
+obj
+/
+*
+stopAtWindowProxy
+=
+*
+/
+false
+)
+)
+;
+                
+MOZ_ASSERT
+(
+IsDOMObject
+(
+unwrappedObj
+)
+)
+;
+                
+{
+                  
+JSAutoRealm
+ar
+(
+cx
+unwrappedObj
+)
+;
+                  
+*
 {
 getBackingObject
 }
-                
+                  
 const
 ObservableArrayProxyHandler
 *
@@ -140148,7 +140212,7 @@ GetObservableArrayProxyHandler
 backingObj
 )
 ;
-                
+                  
 if
 (
 !
@@ -140163,13 +140227,13 @@ backingObj
 )
 )
 {
-                  
+                    
 return
 false
 ;
-                
+                  
 }
-                
+                  
 JS
 :
 :
@@ -140185,7 +140249,7 @@ val
 cx
 )
 ;
-                
+                  
 for
 (
 size_t
@@ -140206,10 +140270,12 @@ i
 +
 )
 {
-                  
+                    
 *
 {
 conversion
+}
+                  
 }
                 
 }
@@ -140440,6 +140506,8 @@ descriptor
                         
 attr
                         
+errorReturn
+=
 dedent
 (
                             
