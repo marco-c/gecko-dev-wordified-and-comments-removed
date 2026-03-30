@@ -5010,12 +5010,10 @@ rtp_header_extensions
 bool
 IsMandatoryHeaderExtension
 (
-const
-std
+absl
 :
 :
-string
-&
+string_view
 uri
 )
 {

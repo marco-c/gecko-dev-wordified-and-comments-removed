@@ -29,6 +29,11 @@ string
 #
 include
 <
+utility
+>
+#
+include
+<
 vector
 >
 #
@@ -763,7 +768,13 @@ mid
 {
 mid_
 =
+std
+:
+:
+move
+(
 mid
+)
 ;
 }
 void

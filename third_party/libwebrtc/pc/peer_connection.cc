@@ -6477,9 +6477,6 @@ null
 )
 ;
 }
-webrtc
-:
-:
 MediaType
 media_type
 ;
@@ -6501,9 +6498,6 @@ kAudioKind
 {
 media_type
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -6529,9 +6523,6 @@ kVideoKind
 {
 media_type
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -6579,9 +6570,6 @@ PeerConnection
 :
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 media_type
 )
@@ -6608,9 +6596,6 @@ PeerConnection
 :
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 media_type
 const
@@ -6675,9 +6660,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -6687,9 +6669,6 @@ AUDIO
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -6736,9 +6715,6 @@ PeerConnection
 :
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 media_type
 scoped_refptr
@@ -6790,9 +6766,6 @@ RTC_DCHECK
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -6802,9 +6775,6 @@ AUDIO
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -6834,16 +6804,10 @@ MediaStreamTrackInterface
 :
 kAudioKind
 ?
-webrtc
-:
-:
 MediaType
 :
 :
 AUDIO
-:
-webrtc
-:
 :
 MediaType
 :
@@ -7052,9 +7016,6 @@ max_simulcast_streams
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -7296,9 +7257,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -7413,9 +7371,6 @@ Adding
 "
 <
 <
-webrtc
-:
-:
 MediaTypeToString
 (
 media_type
@@ -15907,9 +15862,6 @@ contents
 )
 )
 {
-webrtc
-:
-:
 MediaType
 media_type
 =
@@ -15929,9 +15881,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -15950,9 +15899,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -15971,9 +15917,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -16781,9 +16724,6 @@ std
 :
 set
 <
-webrtc
-:
-:
 MediaType
 >
 >
@@ -16890,9 +16830,6 @@ transport_name
 .
 insert
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -16928,9 +16865,6 @@ std
 :
 set
 <
-webrtc
-:
-:
 MediaType
 >
 media_types
@@ -17257,9 +17191,6 @@ std
 :
 set
 <
-webrtc
-:
-:
 MediaType
 >
 &
@@ -17335,9 +17266,6 @@ kTlsNullWithNullNull
 {
 for
 (
-webrtc
-:
-:
 MediaType
 media_type
 :
@@ -17350,9 +17278,6 @@ media_type
 )
 {
 case
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17376,9 +17301,6 @@ kSslCipherSuiteMaxValue
 break
 ;
 case
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17402,9 +17324,6 @@ kSslCipherSuiteMaxValue
 break
 ;
 case
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17460,9 +17379,6 @@ kSslSignatureAlgorithmUnknown
 {
 for
 (
-webrtc
-:
-:
 MediaType
 media_type
 :
@@ -17475,9 +17391,6 @@ media_type
 )
 {
 case
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17501,9 +17414,6 @@ kSslSignatureAlgorithmMaxValue
 break
 ;
 case
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17527,9 +17437,6 @@ kSslSignatureAlgorithmMaxValue
 break
 ;
 case
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17767,9 +17674,6 @@ AnyInvocable
 <
 void
 (
-webrtc
-:
-:
 PeerConnectionObserver
 *
 )
@@ -17816,9 +17720,6 @@ AnyInvocable
 <
 void
 (
-webrtc
-:
-:
 PeerConnectionObserver
 *
 )
