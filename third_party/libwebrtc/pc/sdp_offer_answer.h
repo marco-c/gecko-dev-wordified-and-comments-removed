@@ -3003,6 +3003,9 @@ false
 SdpPayloadTypeSuggester
 pt_suggester_
 ;
+int
+max_sctp_streams_
+;
 WeakPtrFactory
 <
 SdpOfferAnswerHandler

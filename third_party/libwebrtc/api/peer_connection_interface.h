@@ -1902,6 +1902,11 @@ always_negotiate_data_channels
 =
 false
 ;
+int
+max_sctp_streams
+=
+kMaxSctpStreams
+;
 }
 ;
 struct

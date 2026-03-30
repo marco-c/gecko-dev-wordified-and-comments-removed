@@ -5062,6 +5062,14 @@ MaxSendQueueSize
 ;
 dcsctp_options
 .
+announced_maximum_outgoing_streams
+=
+options
+.
+max_sctp_streams
+;
+dcsctp_options
+.
 max_send_buffer_size
 =
 std
