@@ -327,6 +327,17 @@ OnConnected
 MOCK_METHOD
 (
 void
+OnTransportConnected
+(
+)
+(
+override
+)
+)
+;
+MOCK_METHOD
+(
+void
 OnDataReceived
 (
 int

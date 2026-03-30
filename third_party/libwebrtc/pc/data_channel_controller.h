@@ -352,6 +352,12 @@ bytes
 override
 ;
 void
+OnTransportConnected
+(
+)
+override
+;
+void
 OnDataReceived
 (
 int

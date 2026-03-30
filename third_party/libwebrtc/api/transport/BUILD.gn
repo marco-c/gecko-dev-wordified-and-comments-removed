@@ -434,6 +434,17 @@ rtc_base
 :
 copy_on_write_buffer
 "
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
+ssl_adapter
+"
 ]
 }
 rtc_library
