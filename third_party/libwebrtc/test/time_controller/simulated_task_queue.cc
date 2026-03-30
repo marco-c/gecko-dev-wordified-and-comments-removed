@@ -105,7 +105,7 @@ test
 /
 time_controller
 /
-simulated_time_controller
+simulated_time_controller_impl
 .
 h
 "
