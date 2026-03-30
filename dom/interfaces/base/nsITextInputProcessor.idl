@@ -2767,6 +2767,9 @@ chance
 .
 *
 /
+[
+can_run_script
+]
 boolean
 beginInputTransaction
 (
@@ -2834,6 +2837,7 @@ automatically
 *
 /
 [
+can_run_script
 optional_argc
 ]
 boolean

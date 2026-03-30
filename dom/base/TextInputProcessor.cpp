@@ -1456,8 +1456,10 @@ IsCallerChrome
 )
 )
 ;
+nsCOMPtr
+<
 nsITextInputProcessorCallback
-*
+>
 callback
 =
 aOptionalArgc
@@ -1772,7 +1774,13 @@ if
 mDispatcher
 )
 {
+OwningNonNull
+dispatcher
+=
+*
 mDispatcher
+;
+dispatcher
 -
 >
 EndInputTransaction
