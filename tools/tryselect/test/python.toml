@@ -43,6 +43,13 @@ py
 ]
 [
 "
+test_lando_api
+.
+py
+"
+]
+[
+"
 test_perf
 .
 py
