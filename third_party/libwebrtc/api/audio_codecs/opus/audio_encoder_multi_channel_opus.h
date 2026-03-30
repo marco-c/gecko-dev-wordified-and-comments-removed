@@ -148,9 +148,7 @@ AudioEncoder
 >
 MakeAudioEncoder
 (
-const
 Config
-&
 config
 int
 payload_type

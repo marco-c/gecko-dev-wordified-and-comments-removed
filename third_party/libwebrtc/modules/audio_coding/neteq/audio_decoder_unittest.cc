@@ -2262,7 +2262,13 @@ MakeAudioEncoder
 CreateEnvironment
 (
 )
+std
+:
+:
+move
+(
 config
+)
 {
 .
 payload_type

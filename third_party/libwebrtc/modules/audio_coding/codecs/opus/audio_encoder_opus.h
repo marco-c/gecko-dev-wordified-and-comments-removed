@@ -259,9 +259,7 @@ const
 Environment
 &
 env
-const
 AudioEncoderOpusConfig
-&
 config
 int
 payload_type
@@ -285,9 +283,7 @@ const
 Environment
 &
 env
-const
 AudioEncoderOpusConfig
-&
 config
 int
 payload_type
@@ -620,9 +616,7 @@ const
 Environment
 &
 env
-const
 AudioEncoderOpusConfig
-&
 config
 int
 payload_type
@@ -702,10 +696,13 @@ const
 bool
 RecreateEncoderInstance
 (
-const
 AudioEncoderOpusConfig
-&
 config
+)
+;
+bool
+RecreateEncoderInstance
+(
 )
 ;
 void

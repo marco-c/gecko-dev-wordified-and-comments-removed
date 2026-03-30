@@ -22,6 +22,11 @@ optional
 #
 include
 <
+utility
+>
+#
+include
+<
 vector
 >
 #
@@ -187,9 +192,7 @@ AudioDecoder
 >
 MakeAudioDecoder
 (
-const
 Config
-&
 config
 std
 :
@@ -212,7 +215,13 @@ T
 :
 MakeAudioDecoder
 (
+std
+:
+:
+move
+(
 config
+)
 codec_pair_id
 )
 ;

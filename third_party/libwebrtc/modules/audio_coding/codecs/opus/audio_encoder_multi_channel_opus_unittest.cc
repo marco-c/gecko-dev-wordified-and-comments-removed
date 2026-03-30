@@ -24,6 +24,11 @@ optional
 #
 include
 <
+utility
+>
+#
+include
+<
 vector
 >
 #
@@ -726,7 +731,6 @@ num_streams
 }
 )
 ;
-const
 std
 :
 :
@@ -810,8 +814,14 @@ AudioEncoderMultiChannelOpus
 :
 MakeAudioEncoder
 (
+std
+:
+:
+move
+(
 *
 encoder_config
+)
 kOpusPayloadType
 )
 ;
@@ -865,7 +875,6 @@ spec
 specs
 )
 {
-const
 std
 :
 :
@@ -912,8 +921,14 @@ AudioEncoderMultiChannelOpus
 :
 MakeAudioEncoder
 (
+std
+:
+:
+move
+(
 *
 encoder_config
+)
 kOpusPayloadType
 )
 ;

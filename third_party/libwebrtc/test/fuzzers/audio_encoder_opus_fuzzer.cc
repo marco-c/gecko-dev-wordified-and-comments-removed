@@ -126,7 +126,13 @@ MakeAudioEncoder
 (
 *
 env
+std
+:
+:
+move
+(
 config
+)
 {
 .
 payload_type
