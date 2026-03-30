@@ -452,6 +452,13 @@ js
 ]
 [
 "
+browser_sidebar_splitter_keyboard
+.
+js
+"
+]
+[
+"
 browser_syncedtabs_sidebar
 .
 js
