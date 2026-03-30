@@ -76,6 +76,18 @@ h
 "
 ;
 using
+cdm
+:
+:
+KeyStatus
+from
+"
+GMPSanitizedExports
+.
+h
+"
+;
+using
 GMPBufferType
 from
 "
@@ -496,7 +508,7 @@ uint8_t
 ]
 mKeyId
 ;
-uint32_t
+KeyStatus
 mStatus
 ;
 uint32_t
