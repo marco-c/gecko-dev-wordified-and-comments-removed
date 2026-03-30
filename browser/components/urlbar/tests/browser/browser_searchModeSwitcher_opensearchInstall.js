@@ -125,7 +125,6 @@ querySelector
 menuitem
 [
 label
-*
 =
 engine1
 ]
@@ -141,16 +140,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_ArrowUp
-"
-)
-;
-EventUtils
-.
-synthesizeKey
-(
-"
-KEY_ArrowUp
+KEY_ArrowDown
 "
 )
 ;
@@ -182,7 +172,6 @@ querySelector
 menuitem
 [
 label
-*
 =
 engine1
 ]
