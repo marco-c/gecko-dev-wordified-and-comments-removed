@@ -342,10 +342,10 @@ mTypes
 i
 ]
 =
-(
-uint8_t
-)
-SVG_FECOMPONENTTRANSFER_TYPE_IDENTITY
+SVGFEComponentTransferType
+:
+:
+Identity
 ;
 }
 }
