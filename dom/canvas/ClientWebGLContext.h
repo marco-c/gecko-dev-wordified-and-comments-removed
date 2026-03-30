@@ -2600,7 +2600,7 @@ Float32ListU
 dom
 :
 :
-MaybeSharedFloat32ArrayOrUnrestrictedFloatSequence
+AllowLargeMaybeSharedFloat32ArrayOrUnrestrictedFloatSequence
 ;
 using
 Int32ListU
@@ -2608,7 +2608,7 @@ Int32ListU
 dom
 :
 :
-MaybeSharedInt32ArrayOrLongSequence
+AllowLargeMaybeSharedInt32ArrayOrLongSequence
 ;
 using
 Uint32ListU
@@ -2616,7 +2616,7 @@ Uint32ListU
 dom
 :
 :
-MaybeSharedUint32ArrayOrUnsignedLongSequence
+AllowLargeMaybeSharedUint32ArrayOrUnsignedLongSequence
 ;
 template
 <
@@ -2719,6 +2719,9 @@ GetAsFloat32Array
 )
 .
 ProcessData
+<
+true
+>
 (
 std
 :
@@ -2790,6 +2793,9 @@ GetAsInt32Array
 )
 .
 ProcessData
+<
+true
+>
 (
 std
 :
@@ -2861,6 +2867,9 @@ GetAsUint32Array
 )
 .
 ProcessData
+<
+true
+>
 (
 std
 :

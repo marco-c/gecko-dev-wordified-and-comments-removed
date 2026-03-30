@@ -663,6 +663,7 @@ typedef
 (
 [
 AllowShared
+AllowLarge
 ]
 Float32Array
 or
@@ -677,6 +678,7 @@ typedef
 (
 [
 AllowShared
+AllowLarge
 ]
 Int32Array
 or
@@ -4200,6 +4202,7 @@ GLenum
 target
 [
 AllowShared
+AllowLarge
 ]
 ArrayBuffer
 ?
@@ -4215,6 +4218,7 @@ GLenum
 target
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 data
@@ -4264,6 +4268,7 @@ GLint
 border
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 data
@@ -4295,6 +4300,7 @@ GLenum
 format
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 data
@@ -4328,6 +4334,7 @@ GLenum
 type
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 ?
@@ -4382,6 +4389,7 @@ GLenum
 type
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 ?
@@ -4608,6 +4616,7 @@ GLenum
 type
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 ?
