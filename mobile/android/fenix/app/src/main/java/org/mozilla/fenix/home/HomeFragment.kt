@@ -7370,6 +7370,13 @@ components
 settings
 .
 canShowCfr
+&
+&
+components
+.
+settings
+.
+cfrPopupsEnabled
 shouldShowCFR
 =
 components

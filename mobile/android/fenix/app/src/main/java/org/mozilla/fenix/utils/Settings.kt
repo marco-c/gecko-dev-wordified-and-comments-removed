@@ -8551,6 +8551,10 @@ if
 (
 !
 canShowCfr
+|
+|
+!
+inAppMessagesEnabled
 )
 return
 false
@@ -8709,6 +8713,9 @@ canShowCfr
 &
 &
 shouldShowOpenInAppBanner
+&
+&
+inAppMessagesEnabled
 var
 shouldShowAutoCloseTabsBanner
 by

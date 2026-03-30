@@ -2626,6 +2626,11 @@ if
 settings
 .
 shouldShowMenuCFR
+&
+&
+settings
+.
+cfrPopupsEnabled
 )
 {
 MenuCFRState
@@ -2635,6 +2640,11 @@ showCFR
 settings
 .
 shouldShowMenuCFR
+&
+&
+settings
+.
+cfrPopupsEnabled
 titleRes
 =
 R

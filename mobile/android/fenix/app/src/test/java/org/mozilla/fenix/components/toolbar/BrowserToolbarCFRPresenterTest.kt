@@ -423,6 +423,12 @@ shouldUseCookieBannerPrivateMode
 }
 returns
 true
+every
+{
+cfrPopupsEnabled
+}
+returns
+true
 }
 val
 presenter
@@ -662,6 +668,12 @@ isTabStripEnabled
 }
 returns
 false
+every
+{
+cfrPopupsEnabled
+}
+returns
+true
 }
 val
 presenter

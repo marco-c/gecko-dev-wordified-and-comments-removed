@@ -773,6 +773,11 @@ shouldShowTabSwipeCFR
 settings
 .
 hasShownTabSwipeCFR
+&
+&
+settings
+.
+cfrPopupsEnabled
 )
 {
 scope
@@ -918,6 +923,11 @@ isPrivate
 settings
 .
 shouldShowCookieBannersCFR
+&
+&
+settings
+.
+cfrPopupsEnabled
 &
 &
 settings
