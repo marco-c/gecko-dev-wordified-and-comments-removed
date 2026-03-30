@@ -2836,6 +2836,13 @@ first_packet_in_frame
 if
 (
 video_structure_frame_id_
+.
+has_value
+(
+)
+&
+&
+video_structure_frame_id_
 >
 frame_id
 )
