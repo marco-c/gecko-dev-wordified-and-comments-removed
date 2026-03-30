@@ -109,15 +109,6 @@ h
 #
 include
 "
-call
-/
-payload_type_picker
-.
-h
-"
-#
-include
-"
 media
 /
 base
@@ -997,7 +988,6 @@ OnRtcpMuxActive
 )
 ;
 }
-payload_type_picker_
 )
 ;
 signal_rtcp_mux_active_received_
@@ -1189,9 +1179,6 @@ field_trials_
 CreateTestFieldTrials
 (
 )
-;
-PayloadTypePicker
-payload_type_picker_
 ;
 }
 ;

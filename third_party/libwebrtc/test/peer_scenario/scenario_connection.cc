@@ -161,15 +161,6 @@ include
 "
 call
 /
-payload_type_picker
-.
-h
-"
-#
-include
-"
-call
-/
 rtp_demuxer
 .
 h
@@ -669,9 +660,6 @@ RTC_GUARDED_BY
 network_thread_
 )
 ;
-PayloadTypePicker
-payload_type_picker_
-;
 std
 :
 :
@@ -931,7 +919,6 @@ get
 )
 nullptr
 nullptr
-payload_type_picker_
 CreateJsepConfig
 (
 )

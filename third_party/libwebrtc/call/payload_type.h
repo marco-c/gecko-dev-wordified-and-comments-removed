@@ -239,17 +239,6 @@ codec
 =
 0
 ;
-virtual
-const
-PayloadTypePicker
-&
-PayloadTypePickerForTesting
-(
-)
-const
-=
-0
-;
 }
 ;
 }
