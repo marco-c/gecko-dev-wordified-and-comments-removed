@@ -188,6 +188,11 @@ uint8_t
 ;
 enum
 OwnedAttributeType
+:
+std
+:
+:
+uint8_t
 {
 kTypeBool
 kTypeInt

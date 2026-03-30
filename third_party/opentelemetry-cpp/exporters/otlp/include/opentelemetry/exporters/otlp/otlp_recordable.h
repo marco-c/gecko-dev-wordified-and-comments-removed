@@ -268,6 +268,7 @@ std
 uint32_t
 max_attributes
 =
+(
 std
 :
 :
@@ -281,6 +282,7 @@ uint32_t
 :
 :
 max
+)
 (
 )
 std
@@ -289,6 +291,7 @@ std
 uint32_t
 max_events
 =
+(
 std
 :
 :
@@ -302,6 +305,7 @@ uint32_t
 :
 :
 max
+)
 (
 )
 std
@@ -310,6 +314,7 @@ std
 uint32_t
 max_links
 =
+(
 std
 :
 :
@@ -323,6 +328,7 @@ uint32_t
 :
 :
 max
+)
 (
 )
 std
@@ -331,6 +337,7 @@ std
 uint32_t
 max_attributes_per_event
 =
+(
 std
 :
 :
@@ -344,6 +351,7 @@ uint32_t
 :
 :
 max
+)
 (
 )
 std
@@ -352,6 +360,7 @@ std
 uint32_t
 max_attributes_per_link
 =
+(
 std
 :
 :
@@ -365,6 +374,7 @@ uint32_t
 :
 :
 max
+)
 (
 )
 )

@@ -101,6 +101,7 @@ sdk
 namespace
 common
 {
+static
 bool
 GetRawEnvironmentVariable
 (

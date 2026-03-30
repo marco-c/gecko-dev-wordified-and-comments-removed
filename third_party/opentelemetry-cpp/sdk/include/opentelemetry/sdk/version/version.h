@@ -7,7 +7,7 @@ OPENTELEMETRY_SDK_VERSION
 "
 1
 .
-25
+26
 .
 0
 "

@@ -3,6 +3,11 @@ pragma
 once
 #
 include
+<
+cstdint
+>
+#
+include
 "
 opentelemetry
 /
@@ -20,6 +25,11 @@ common
 enum
 class
 ExportResult
+:
+std
+:
+:
+uint8_t
 {
 kSuccess
 =
