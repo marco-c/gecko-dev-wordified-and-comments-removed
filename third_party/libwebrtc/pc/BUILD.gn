@@ -12978,6 +12978,16 @@ task_queue
 /
 api
 /
+task_queue
+:
+pending_task_safety_flag
+"
+"
+.
+.
+/
+api
+/
 video_codecs
 :
 video_codecs_api

@@ -5122,7 +5122,7 @@ media_channel_impl
 .
 cc
 index
-2cb3560682
+d8f3b41988
 .
 .
 01fcd82dc8
@@ -5161,9 +5161,6 @@ namespace
 webrtc
 {
 -
-webrtc
-:
-:
 RTCError
 InvokeSetParametersCallback
 (
