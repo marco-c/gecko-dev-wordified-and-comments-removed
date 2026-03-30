@@ -208,6 +208,7 @@ new
 RefCountedBuffer
 (
 size
+size
 )
 :
 nullptr
@@ -393,6 +394,7 @@ buffer_
 new
 RefCountedBuffer
 (
+size
 size
 )
 ;

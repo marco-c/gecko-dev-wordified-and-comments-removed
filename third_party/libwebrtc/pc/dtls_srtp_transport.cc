@@ -1241,11 +1241,16 @@ return
 false
 ;
 }
+auto
+dtls_buffer
+=
 ZeroOnFreeBuffer
 <
 uint8_t
 >
-dtls_buffer
+:
+:
+CreateUninitializedWithSize
 (
 key_len
 *

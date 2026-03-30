@@ -851,6 +851,11 @@ packets
 ;
 Buffer
 buf
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 fb
 .

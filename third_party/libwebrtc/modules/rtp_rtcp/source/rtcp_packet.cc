@@ -78,6 +78,11 @@ const
 {
 Buffer
 packet
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 BlockLength
 (

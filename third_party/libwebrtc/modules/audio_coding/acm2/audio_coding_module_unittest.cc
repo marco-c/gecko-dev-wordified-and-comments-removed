@@ -3174,6 +3174,11 @@ checksum_string
 ;
 Buffer
 checksum_result
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 payload_checksum_
 -

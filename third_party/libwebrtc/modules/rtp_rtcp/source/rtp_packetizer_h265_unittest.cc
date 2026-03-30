@@ -266,6 +266,11 @@ size
 ;
 Buffer
 buffer
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 size
 )
@@ -377,6 +382,11 @@ kStartCodeSize
 ;
 Buffer
 frame
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 absl
 :
@@ -540,6 +550,11 @@ size
 }
 Buffer
 frame
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 frame_size
 )

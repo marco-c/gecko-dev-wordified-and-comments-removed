@@ -90,7 +90,13 @@ size
 :
 buffer_
 (
+Buffer
+:
+:
+CreateUninitializedWithSize
+(
 size
+)
 )
 {
 }

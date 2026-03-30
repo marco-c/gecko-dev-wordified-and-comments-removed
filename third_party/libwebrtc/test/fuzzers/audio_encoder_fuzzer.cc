@@ -156,6 +156,14 @@ BufferT
 int16_t
 >
 input_aligned
+=
+BufferT
+<
+int16_t
+>
+:
+:
+CreateUninitializedWithSize
 (
 block_size_samples
 )

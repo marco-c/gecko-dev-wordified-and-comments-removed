@@ -884,6 +884,11 @@ addr
 }
 Buffer
 buf
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 size
 +
@@ -1765,6 +1770,11 @@ SendConnectRequest
 {
 Buffer
 buf
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 kNATEncodedIPv6AddressSize
 )

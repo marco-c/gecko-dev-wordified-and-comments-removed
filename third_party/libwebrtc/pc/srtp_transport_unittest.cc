@@ -732,6 +732,11 @@ crypto_suite
 ;
 Buffer
 rtp_packet_buffer
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 packet_size
 )
@@ -1056,6 +1061,11 @@ crypto_suite
 ;
 Buffer
 rtcp_packet_buffer
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 packet_size
 )
@@ -1523,6 +1533,11 @@ crypto_suite
 ;
 Buffer
 rtp_packet_buffer
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 packet_size
 )
@@ -2501,6 +2516,11 @@ kSrtpAeadAes128Gcm
 ;
 Buffer
 rtp_packet_buffer
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 packet_size
 )

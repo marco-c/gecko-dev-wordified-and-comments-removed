@@ -1405,6 +1405,11 @@ return
 }
 Buffer
 real_buf
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 packet
 .

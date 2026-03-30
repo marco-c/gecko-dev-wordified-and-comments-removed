@@ -511,6 +511,11 @@ num_bytes
 {
 Buffer
 payload
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 num_bytes
 )

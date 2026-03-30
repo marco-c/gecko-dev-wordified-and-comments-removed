@@ -177,9 +177,15 @@ num_channels_
 )
 interleave_buffer_
 (
+Buffer
+:
+:
+CreateUninitializedWithSize
+(
 2
 *
 num_channels_
+)
 )
 {
 RTC_CHECK

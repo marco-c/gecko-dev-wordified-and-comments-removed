@@ -107,11 +107,17 @@ DIGEST_MD5
 )
 checksum_result_
 (
+Buffer
+:
+:
+CreateUninitializedWithSize
+(
 checksum_
 -
 >
 Size
 (
+)
 )
 )
 finished_

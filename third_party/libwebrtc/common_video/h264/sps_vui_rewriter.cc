@@ -726,6 +726,11 @@ sps_state
 ;
 Buffer
 out_buffer
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 buffer
 .

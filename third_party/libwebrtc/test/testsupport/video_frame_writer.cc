@@ -265,6 +265,11 @@ height
 ;
 Buffer
 buffer
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 length
 )
@@ -312,6 +317,11 @@ height
 ;
 Buffer
 buffer
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 length
 )

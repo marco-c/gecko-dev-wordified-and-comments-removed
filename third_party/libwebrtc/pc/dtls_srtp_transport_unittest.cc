@@ -721,6 +721,11 @@ kRtpAuthTagLen
 ;
 Buffer
 rtp_packet_buffer
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 packet_size
 )
@@ -939,6 +944,11 @@ kRtpAuthTagLen
 ;
 Buffer
 rtcp_packet_buffer
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 packet_size
 )
@@ -1158,6 +1168,11 @@ kRtpAuthTagLen
 ;
 Buffer
 rtp_packet_buffer
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 packet_size
 )
