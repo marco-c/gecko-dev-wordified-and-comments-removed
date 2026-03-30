@@ -401,13 +401,13 @@ finished
 "
 #
 define
-DOC_ELEM_INSERTED_TOPIC
+START_LOADING_UNTRUSTED_TOPIC
 "
-document
+start
 -
-element
+loading
 -
-inserted
+untrusted
 "
 #
 define
@@ -2587,7 +2587,7 @@ mContentStartupFinishedTopic
 .
 AssignLiteral
 (
-DOC_ELEM_INSERTED_TOPIC
+START_LOADING_UNTRUSTED_TOPIC
 )
 ;
 }
