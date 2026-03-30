@@ -688,12 +688,6 @@ const
 {
 if
 (
-!
-UseHeuristicFullscreenPowerPointWindows
-(
-)
-|
-|
 window_list
 .
 empty

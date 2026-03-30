@@ -480,8 +480,6 @@ id
 void
 SetUpFullScreenDetectorForTest
 (
-bool
-use_heuristic
 DesktopCapturer
 :
 :
