@@ -435,15 +435,9 @@ worker_thread_
 get
 (
 )
-std
-:
-:
-string
-(
 "
 receiver
 "
-)
 std
 :
 :

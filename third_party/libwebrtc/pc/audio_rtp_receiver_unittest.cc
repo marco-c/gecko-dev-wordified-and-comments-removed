@@ -241,7 +241,6 @@ string
 >
 (
 )
-false
 )
 )
 {
@@ -588,7 +587,6 @@ string
 >
 (
 )
-true
 &
 receive_channel
 )
