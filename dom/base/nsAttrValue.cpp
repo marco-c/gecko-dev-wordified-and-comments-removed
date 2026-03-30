@@ -6614,6 +6614,10 @@ NS_ADDREF
 cont
 )
 ;
+ResetIfSet
+(
+)
+;
 SetPtrValueAndType
 (
 cont
@@ -9543,6 +9547,10 @@ aString
 NS_ADDREF
 (
 cont
+)
+;
+ResetIfSet
+(
 )
 ;
 SetPtrValueAndType
