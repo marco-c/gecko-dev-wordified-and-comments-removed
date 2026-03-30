@@ -570,6 +570,11 @@ track
 const
 override
 {
+RTC_DCHECK_RUN_ON
+(
+signaling_thread_
+)
+;
 return
 track_
 ;
@@ -669,6 +674,11 @@ ssrc
 const
 override
 {
+RTC_DCHECK_RUN_ON
+(
+signaling_thread_
+)
+;
 return
 ssrc_
 ;
