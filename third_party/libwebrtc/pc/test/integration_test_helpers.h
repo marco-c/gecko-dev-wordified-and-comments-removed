@@ -1920,7 +1920,7 @@ config
 ;
 config
 .
-timestamp_offset_ms
+timestamp_offset
 =
 env_
 .
@@ -1928,7 +1928,7 @@ clock
 (
 )
 .
-TimeInMilliseconds
+CurrentTime
 (
 )
 ;
@@ -1983,7 +1983,7 @@ rotation
 ;
 config
 .
-timestamp_offset_ms
+timestamp_offset
 =
 env_
 .
@@ -1991,7 +1991,7 @@ clock
 (
 )
 .
-TimeInMilliseconds
+CurrentTime
 (
 )
 ;
@@ -4467,9 +4467,15 @@ config
 {
 config
 .
-frame_interval_ms
+frame_interval
 =
+TimeDelta
+:
+:
+Millis
+(
 100
+)
 ;
 video_track_sources_
 .
