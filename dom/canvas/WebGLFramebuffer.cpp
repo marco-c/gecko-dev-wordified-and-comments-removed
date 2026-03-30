@@ -5260,12 +5260,6 @@ move
 info
 )
 ;
-info
-.
-fb
-=
-nullptr
-;
 return
 LOCAL_GL_FRAMEBUFFER_COMPLETE
 ;
