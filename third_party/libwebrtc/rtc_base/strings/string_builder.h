@@ -373,8 +373,9 @@ public
 StringBuilder
 (
 )
-{
-}
+=
+default
+;
 explicit
 StringBuilder
 (
@@ -398,7 +399,7 @@ StringBuilder
 &
 )
 =
-delete
+default
 ;
 StringBuilder
 &
@@ -410,7 +411,7 @@ StringBuilder
 &
 )
 =
-delete
+default
 ;
 StringBuilder
 &
