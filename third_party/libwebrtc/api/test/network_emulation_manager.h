@@ -1049,6 +1049,14 @@ const
 BuiltInNetworkBehaviorConfig
 &
 config
+int
+alice_interface_count
+=
+1
+int
+bob_interface_count
+=
+1
 )
 ;
 }
