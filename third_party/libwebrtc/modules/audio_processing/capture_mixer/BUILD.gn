@@ -128,6 +128,11 @@ h
 "
 channel_content_remixer
 .
+cc
+"
+"
+channel_content_remixer
+.
 h
 "
 "
@@ -223,6 +228,11 @@ sources
 [
 "
 audio_content_analyzer_unittest
+.
+cc
+"
+"
+channel_content_remixer_unittest
 .
 cc
 "
