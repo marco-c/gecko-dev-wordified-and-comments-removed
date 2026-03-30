@@ -98,10 +98,7 @@ ResolvePromiseWithKeyStatus
 (
 uint32_t
 aPromiseId
-cdm
-:
-:
-KeyStatus
+uint32_t
 aKeyStatus
 )
 =
@@ -146,10 +143,7 @@ const
 nsACString
 &
 aSessionId
-cdm
-:
-:
-MessageType
+uint32_t
 aMessageType
 nsTArray
 <
