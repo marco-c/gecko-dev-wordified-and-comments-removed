@@ -742,12 +742,26 @@ check_config
 =
 get_check_config
 (
+                
 warning
 [
 "
 flag
 "
 ]
+.
+removesuffix
+(
+"
+-
+warnings
+-
+as
+-
+errors
+"
+)
+            
 )
             
 if
