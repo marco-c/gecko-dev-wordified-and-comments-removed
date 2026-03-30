@@ -4783,6 +4783,14 @@ ProcessPriority
 aPriority
 )
 ;
+void
+MaybeSendStartLoadingUntrusted
+(
+nsIURI
+*
+aURI
+)
+;
 RefPtr
 <
 ConsoleListener
@@ -4831,6 +4839,11 @@ mIsForBrowser
 ;
 bool
 mIsAlive
+;
+bool
+mHasStartedLoadingUntrusted
+=
+false
 ;
 nsCString
 mRemoteType
