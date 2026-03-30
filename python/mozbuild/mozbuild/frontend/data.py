@@ -7320,6 +7320,22 @@ AndroidManifest
 xml
 "
 )
+                
+or
+mozpath
+.
+match
+(
+f
+"
+*
+*
+/
+webcompat_addon_run
+.
+js
+"
+)
             
 ]
         

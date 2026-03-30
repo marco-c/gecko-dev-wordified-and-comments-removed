@@ -10,13 +10,9 @@ shims
 const
 AVAILABLE_INTERVENTIONS
 =
-#
-include
-data
-/
-interventions
-.
-json
+{
+}
+;
 try
 {
 interventions
