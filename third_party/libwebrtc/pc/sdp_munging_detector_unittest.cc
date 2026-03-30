@@ -5601,7 +5601,10 @@ SizeIs
 )
 )
 ;
-auto
+std
+:
+:
+string
 name
 =
 contents

@@ -7890,10 +7890,10 @@ bandwidth
 (
 )
 ;
-std
+absl
 :
 :
-string
+string_view
 bandwidth_type
 =
 media_desc

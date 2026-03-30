@@ -24589,9 +24589,12 @@ offer
 rtc_options
 )
 ;
-auto
+std
+:
+:
+string
 mid
-=
+(
 GetFirstAudioContent
 (
 offer
@@ -24605,6 +24608,7 @@ description
 >
 mid
 (
+)
 )
 ;
 auto

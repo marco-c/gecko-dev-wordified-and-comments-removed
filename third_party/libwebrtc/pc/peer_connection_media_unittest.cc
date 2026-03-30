@@ -6465,7 +6465,10 @@ BUNDLE
 "
 )
 ;
-auto
+std
+:
+:
+string
 content_name
 =
 GetFirstVideoContent
@@ -6605,7 +6608,10 @@ SessionDescription
 desc
 )
 {
-auto
+std
+:
+:
+string
 audio_mid
 =
 GetFirstAudioContent
