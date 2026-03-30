@@ -84,11 +84,11 @@ MockAecDump
 (
 )
 ;
-virtual
 ~
 MockAecDump
 (
 )
+override
 ;
 MOCK_METHOD
 (

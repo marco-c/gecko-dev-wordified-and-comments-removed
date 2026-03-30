@@ -952,6 +952,9 @@ sources
 push_back
 (
 {
+.
+id
+=
 source_id_
 }
 )

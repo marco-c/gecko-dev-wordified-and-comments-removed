@@ -1074,6 +1074,9 @@ it
 event_groups
 [
 {
+.
+type
+=
 (
 *
 it
@@ -1083,6 +1086,9 @@ it
 GetType
 (
 )
+.
+secondary_group_key
+=
 (
 *
 it

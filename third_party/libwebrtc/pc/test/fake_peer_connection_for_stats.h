@@ -1520,6 +1520,7 @@ config
 FakePeerConnectionForStats
 (
 )
+override
 {
 for
 (
@@ -3101,6 +3102,7 @@ PayloadTypePicker
 payload_type_picker
 (
 )
+override
 {
 return
 payload_type_picker_

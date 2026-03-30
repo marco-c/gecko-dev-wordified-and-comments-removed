@@ -380,7 +380,13 @@ specs
 push_back
 (
 {
+.
+format
+=
 fmt
+.
+info
+=
 info
 }
 )

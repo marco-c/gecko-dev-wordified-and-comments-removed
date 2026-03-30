@@ -303,6 +303,7 @@ worker_thread
 VideoTrack
 (
 )
+override
 ;
 private
 :

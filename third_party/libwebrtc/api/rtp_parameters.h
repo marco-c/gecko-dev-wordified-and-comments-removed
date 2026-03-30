@@ -754,11 +754,11 @@ RtpCodecCapability
 (
 )
 ;
-virtual
 ~
 RtpCodecCapability
 (
 )
+override
 ;
 std
 :
@@ -2633,11 +2633,11 @@ RtpCodecParameters
 &
 )
 ;
-virtual
 ~
 RtpCodecParameters
 (
 )
+override
 ;
 int
 payload_type

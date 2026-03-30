@@ -297,6 +297,7 @@ ActiveIceControllerFactoryArgs
 &
 args
 )
+override
 {
 RecordActiveIceControllerCreated
 (

@@ -41,11 +41,11 @@ FakeVideoStreamInputStateProvider
 (
 )
 ;
-virtual
 ~
 FakeVideoStreamInputStateProvider
 (
 )
+override
 ;
 void
 SetInputState

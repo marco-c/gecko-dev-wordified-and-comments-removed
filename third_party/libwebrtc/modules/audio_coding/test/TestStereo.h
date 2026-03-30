@@ -130,6 +130,7 @@ TestPackStereo
 TestPackStereo
 (
 )
+override
 ;
 void
 RegisterReceiverNetEq

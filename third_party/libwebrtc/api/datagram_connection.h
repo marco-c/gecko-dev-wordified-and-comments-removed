@@ -16,6 +16,11 @@ cstdint
 >
 #
 include
+<
+string_view
+>
+#
+include
 "
 absl
 /
@@ -238,11 +243,11 @@ OnWritableChange
 ;
 }
 ;
-virtual
 ~
 DatagramConnection
 (
 )
+override
 =
 default
 ;

@@ -84,6 +84,7 @@ VideoSinkWants
 FakeVideoTrackRenderer
 (
 )
+override
 {
 video_track_
 -

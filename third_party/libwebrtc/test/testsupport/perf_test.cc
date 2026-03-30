@@ -509,6 +509,9 @@ plottable_counters_
 push_back
 (
 {
+.
+graph_name
+=
 std
 :
 :
@@ -516,6 +519,9 @@ string
 (
 graph_name
 )
+.
+trace_name
+=
 std
 :
 :
@@ -523,7 +529,13 @@ string
 (
 trace_name
 )
+.
 counter
+=
+counter
+.
+units
+=
 std
 :
 :

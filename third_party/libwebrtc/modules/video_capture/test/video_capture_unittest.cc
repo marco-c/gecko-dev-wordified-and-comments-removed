@@ -210,7 +210,6 @@ testing
 :
 Ge
 ;
-static
 const
 int
 kTimeOut

@@ -351,6 +351,7 @@ config
 size_t
 max_data_payload_length
 )
+override
 {
 MockedConfigureEncoder
 (
@@ -368,6 +369,7 @@ size_t
 max_data_payload_length
 SetParametersCallback
 )
+override
 {
 MockedConfigureEncoder
 (

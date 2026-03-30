@@ -111,11 +111,11 @@ streams
 )
 ;
 }
-virtual
 size_t
 count
 (
 )
+override
 {
 return
 media_streams_
@@ -125,7 +125,6 @@ size
 )
 ;
 }
-virtual
 MediaStreamInterface
 *
 at
@@ -133,6 +132,7 @@ at
 size_t
 index
 )
+override
 {
 return
 media_streams_
@@ -147,7 +147,6 @@ get
 )
 ;
 }
-virtual
 MediaStreamInterface
 *
 find
@@ -160,6 +159,7 @@ string
 &
 id
 )
+override
 {
 for
 (
@@ -226,7 +226,6 @@ return
 NULL
 ;
 }
-virtual
 MediaStreamTrackInterface
 *
 FindAudioTrack
@@ -239,6 +238,7 @@ string
 &
 id
 )
+override
 {
 for
 (
@@ -293,7 +293,6 @@ return
 NULL
 ;
 }
-virtual
 MediaStreamTrackInterface
 *
 FindVideoTrack
@@ -306,6 +305,7 @@ string
 &
 id
 )
+override
 {
 for
 (

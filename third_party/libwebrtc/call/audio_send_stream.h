@@ -665,11 +665,11 @@ frame_transformer
 ;
 }
 ;
-virtual
 ~
 AudioSendStream
 (
 )
+override
 =
 default
 ;

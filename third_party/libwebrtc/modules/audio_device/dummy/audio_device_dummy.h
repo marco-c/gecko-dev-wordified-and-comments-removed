@@ -69,11 +69,11 @@ AudioDeviceDummy
 )
 {
 }
-virtual
 ~
 AudioDeviceDummy
 (
 )
+override
 {
 }
 int32_t

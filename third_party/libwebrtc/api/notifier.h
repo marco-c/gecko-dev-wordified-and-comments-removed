@@ -78,7 +78,6 @@ Notifier
 =
 default
 ;
-virtual
 void
 RegisterObserver
 (
@@ -86,6 +85,7 @@ ObserverInterface
 *
 observer
 )
+override
 {
 RTC_DCHECK_RUN_ON
 (
@@ -109,7 +109,6 @@ observer
 )
 ;
 }
-virtual
 void
 UnregisterObserver
 (
@@ -117,6 +116,7 @@ ObserverInterface
 *
 observer
 )
+override
 {
 RTC_DCHECK_RUN_ON
 (

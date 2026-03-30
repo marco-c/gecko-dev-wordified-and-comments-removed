@@ -363,11 +363,11 @@ VoiceEngineInterface
 =
 default
 ;
-virtual
 ~
 VoiceEngineInterface
 (
 )
+override
 =
 default
 ;
@@ -645,11 +645,11 @@ VideoEngineInterface
 =
 default
 ;
-virtual
 ~
 VideoEngineInterface
 (
 )
+override
 =
 default
 ;

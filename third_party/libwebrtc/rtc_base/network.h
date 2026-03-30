@@ -333,17 +333,6 @@ string_view
 network_name
 )
 ;
-RTC_EXPORT
-AdapterType
-GetAdapterTypeFromName
-(
-absl
-:
-:
-string_view
-network_name
-)
-;
 class
 DefaultLocalAddressProvider
 {
@@ -2104,6 +2093,7 @@ nullptr
 BasicNetworkManager
 (
 )
+override
 ;
 void
 StartUpdating

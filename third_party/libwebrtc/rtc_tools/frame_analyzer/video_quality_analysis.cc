@@ -602,7 +602,13 @@ clusters
 push_back
 (
 {
+.
 index
+=
+index
+.
+number_of_repeated_frames
+=
 1
 }
 )

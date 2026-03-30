@@ -396,6 +396,9 @@ specs
 push_back
 (
 {
+.
+format
+=
 std
 :
 :
@@ -403,6 +406,9 @@ move
 (
 opus_format
 )
+.
+info
+=
 opus_info
 }
 )

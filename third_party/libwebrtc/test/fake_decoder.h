@@ -94,11 +94,11 @@ TaskQueueFactory
 task_queue_factory
 )
 ;
-virtual
 ~
 FakeDecoder
 (
 )
+override
 {
 }
 bool
@@ -206,11 +206,11 @@ FakeDecoder
 {
 public
 :
-virtual
 ~
 FakeH264Decoder
 (
 )
+override
 {
 }
 int32_t

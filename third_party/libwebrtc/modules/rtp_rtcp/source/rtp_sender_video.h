@@ -524,11 +524,11 @@ Config
 config
 )
 ;
-virtual
 ~
 RTPSenderVideo
 (
 )
+override
 ;
 bool
 SendVideo

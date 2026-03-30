@@ -255,6 +255,7 @@ step_size
 FrequencyDomainFeatureExtractor
 (
 )
+override
 ;
 bool
 ReadyForInference

@@ -381,11 +381,11 @@ UniqueRandomIdGenerator
 ssrc_generator
 )
 ;
-virtual
 ~
 BaseChannel
 (
 )
+override
 ;
 TaskQueueBase
 *
@@ -1696,6 +1696,7 @@ ssrc_generator
 VoiceChannel
 (
 )
+override
 ;
 VideoChannel
 *
@@ -1954,6 +1955,7 @@ ssrc_generator
 VideoChannel
 (
 )
+override
 ;
 VideoChannel
 *

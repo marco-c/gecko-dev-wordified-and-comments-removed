@@ -56,11 +56,11 @@ AudioDeviceBuffer
 :
 AudioDeviceBuffer
 ;
-virtual
 ~
 MockAudioDeviceBuffer
 (
 )
+override
 {
 }
 MOCK_METHOD

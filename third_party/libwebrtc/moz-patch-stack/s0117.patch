@@ -568,10 +568,10 @@ video_capture_impl
 .
 h
 index
-da85692fc4
+3e77b262c7
 .
 .
-afcca41386
+f42fc4296a
 100644
 -
 -
@@ -610,7 +610,6 @@ VideoCaptureImpl
 public
 VideoCaptureModule
 {
-virtual
 void
 RegisterCaptureDataCallback
 (

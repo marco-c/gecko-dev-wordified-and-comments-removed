@@ -250,11 +250,11 @@ allow_zero_hertz
 false
 )
 ;
-virtual
 ~
 FrameGeneratorCapturer
 (
 )
+override
 ;
 void
 Start

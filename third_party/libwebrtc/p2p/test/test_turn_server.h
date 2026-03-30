@@ -256,7 +256,6 @@ begin
 )
 {
 }
-virtual
 bool
 ShouldRedirect
 (
@@ -267,6 +266,7 @@ SocketAddress
 *
 out
 )
+override
 {
 if
 (
@@ -436,6 +436,7 @@ this
 TestTurnServer
 (
 )
+override
 {
 RTC_DCHECK
 (
@@ -892,7 +893,6 @@ NULL
 }
 private
 :
-virtual
 bool
 GetKey
 (
@@ -913,6 +913,7 @@ string
 *
 key
 )
+override
 {
 RTC_DCHECK
 (

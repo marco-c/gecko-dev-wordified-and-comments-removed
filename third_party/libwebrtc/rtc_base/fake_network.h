@@ -356,8 +356,17 @@ ifaces_
 push_back
 (
 {
+.
+socket_address
+=
 address
+.
+adapter_type
+=
 type
+.
+underlying_vpn_adapter_type
+=
 underlying_vpn_adapter_type
 }
 )

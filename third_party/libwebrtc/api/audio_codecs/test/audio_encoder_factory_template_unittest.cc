@@ -639,9 +639,15 @@ specs
 push_back
 (
 {
+.
+format
+=
 AudioFormat
 (
 )
+.
+info
+=
 CodecInfo
 (
 )

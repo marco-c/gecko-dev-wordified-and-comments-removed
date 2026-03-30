@@ -692,7 +692,13 @@ cache_
 push_front
 (
 {
+.
 index
+=
+index
+.
+frame
+=
 frame
 }
 )

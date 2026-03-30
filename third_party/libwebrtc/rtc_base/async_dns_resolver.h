@@ -240,6 +240,7 @@ AsyncDnsResolver
 AsyncDnsResolver
 (
 )
+override
 ;
 void
 Start

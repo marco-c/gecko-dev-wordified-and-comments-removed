@@ -248,6 +248,7 @@ config
 NetworkEmulationManagerImpl
 (
 )
+override
 ;
 EmulatedNetworkNode
 *

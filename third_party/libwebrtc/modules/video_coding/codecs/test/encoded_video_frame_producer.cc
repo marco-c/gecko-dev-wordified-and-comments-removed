@@ -191,7 +191,13 @@ output_frames_
 push_back
 (
 {
+.
 encoded_image
+=
+encoded_image
+.
+codec_specific_info
+=
 *
 codec_specific_info
 }

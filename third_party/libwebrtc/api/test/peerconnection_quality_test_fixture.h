@@ -110,11 +110,11 @@ StatsObserverInterface
 {
 public
 :
-virtual
 ~
 QualityMetricsReporter
 (
 )
+override
 =
 default
 ;

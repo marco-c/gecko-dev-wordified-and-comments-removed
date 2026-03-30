@@ -291,6 +291,7 @@ is_screencast
 FrameGeneratorCapturerVideoTrackSource
 (
 )
+override
 =
 default
 ;

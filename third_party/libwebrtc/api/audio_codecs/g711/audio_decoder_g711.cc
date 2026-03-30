@@ -297,11 +297,17 @@ specs
 push_back
 (
 {
+.
+format
+=
 {
 type
 8000
 1
 }
+.
+info
+=
 {
 8000
 1

@@ -200,7 +200,6 @@ testing
 :
 Return
 ;
-static
 const
 TimeDelta
 kTimeout
@@ -213,7 +212,6 @@ Millis
 5000
 )
 ;
-static
 Socket
 *
 CreateSocket

@@ -1069,7 +1069,6 @@ out_username
 )
 ;
 }
-static
 void
 SendPingAndReceiveResponse
 (

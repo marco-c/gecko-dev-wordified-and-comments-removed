@@ -6994,8 +6994,17 @@ test_variants
 push_back
 (
 {
+.
 screenshare
+=
+screenshare
+.
 alr
+=
+alr
+.
+min_padding_bitrate_bps
+=
 min_padding
 }
 )

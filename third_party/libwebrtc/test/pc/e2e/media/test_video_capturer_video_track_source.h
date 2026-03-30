@@ -224,6 +224,7 @@ delete
 TestVideoCapturerVideoTrackSource
 (
 )
+override
 =
 default
 ;
@@ -320,6 +321,7 @@ SetEnableAdaptation
 bool
 enable_adaptation
 )
+override
 {
 video_capturer_
 -

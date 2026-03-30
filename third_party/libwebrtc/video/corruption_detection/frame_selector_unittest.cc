@@ -214,7 +214,13 @@ Timespan
 kLowOverheadSpan
 =
 {
+.
+lower_bound
+=
 kLowOverheadLowerBound
+.
+upper_bound
+=
 kLowOverheadUpperBound
 }
 ;
@@ -226,7 +232,13 @@ Timespan
 kHighOverheadSpan
 =
 {
+.
+lower_bound
+=
 kHighOverheadLowerBound
+.
+upper_bound
+=
 kHighOverheadUpperBound
 }
 ;

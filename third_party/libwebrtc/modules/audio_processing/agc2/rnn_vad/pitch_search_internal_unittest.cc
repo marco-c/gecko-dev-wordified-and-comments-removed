@@ -691,6 +691,9 @@ v
 push_back
 (
 {
+.
+pitch_candidates
+=
 {
 .
 best
@@ -701,6 +704,9 @@ second_best
 =
 2
 }
+.
+cpu_features
+=
 cpu_features
 }
 )
@@ -710,6 +716,9 @@ v
 push_back
 (
 {
+.
+pitch_candidates
+=
 {
 .
 best
@@ -720,6 +729,9 @@ second_best
 =
 284
 }
+.
+cpu_features
+=
 cpu_features
 }
 )
@@ -729,6 +741,9 @@ v
 push_back
 (
 {
+.
+pitch_candidates
+=
 {
 .
 best
@@ -739,6 +754,9 @@ second_best
 =
 284
 }
+.
+cpu_features
+=
 cpu_features
 }
 )
@@ -748,6 +766,9 @@ v
 push_back
 (
 {
+.
+pitch_candidates
+=
 {
 .
 best
@@ -762,6 +783,9 @@ kInitialNumLags24kHz
 -
 1
 }
+.
+cpu_features
+=
 cpu_features
 }
 )
@@ -990,7 +1014,13 @@ v
 push_back
 (
 {
+.
+initial_pitch_period
+=
 kTestPitchPeriodsLow
+.
+last_pitch
+=
 {
 .
 period
@@ -1001,6 +1031,9 @@ strength
 =
 last_pitch_strength
 }
+.
+expected_pitch
+=
 {
 .
 period
@@ -1014,6 +1047,9 @@ strength
 .
 0188608f
 }
+.
+cpu_features
+=
 cpu_features
 }
 )
@@ -1023,7 +1059,13 @@ v
 push_back
 (
 {
+.
+initial_pitch_period
+=
 kTestPitchPeriodsHigh
+.
+last_pitch
+=
 {
 .
 period
@@ -1034,6 +1076,9 @@ strength
 =
 last_pitch_strength
 }
+.
+expected_pitch
+=
 {
 .
 period
@@ -1047,6 +1092,9 @@ strength
 .
 0904344f
 }
+.
+cpu_features
+=
 cpu_features
 }
 )

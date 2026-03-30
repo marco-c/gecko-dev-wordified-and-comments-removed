@@ -168,11 +168,11 @@ IceControllerFactoryArgs
 wrapped_factory_args
 )
 ;
-virtual
 ~
 WrappingActiveIceController
 (
 )
+override
 ;
 void
 SetIceConfig

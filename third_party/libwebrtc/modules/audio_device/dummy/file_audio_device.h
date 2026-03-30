@@ -145,11 +145,11 @@ string_view
 outputFilename
 )
 ;
-virtual
 ~
 FileAudioDevice
 (
 )
+override
 ;
 int32_t
 ActiveAudioLayer

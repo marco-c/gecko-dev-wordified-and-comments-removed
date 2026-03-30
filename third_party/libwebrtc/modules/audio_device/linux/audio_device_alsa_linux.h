@@ -191,11 +191,11 @@ AudioDeviceLinuxALSA
 (
 )
 ;
-virtual
 ~
 AudioDeviceLinuxALSA
 (
 )
+override
 ;
 int32_t
 ActiveAudioLayer

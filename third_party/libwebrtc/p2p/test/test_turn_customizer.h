@@ -70,11 +70,11 @@ TestTurnCustomizer
 )
 {
 }
-virtual
 ~
 TestTurnCustomizer
 (
 )
+override
 {
 }
 enum

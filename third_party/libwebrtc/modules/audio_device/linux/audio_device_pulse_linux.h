@@ -267,11 +267,11 @@ AudioDeviceLinuxPulse
 (
 )
 ;
-virtual
 ~
 AudioDeviceLinuxPulse
 (
 )
+override
 ;
 int32_t
 ActiveAudioLayer

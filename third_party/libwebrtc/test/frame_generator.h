@@ -356,6 +356,7 @@ frame_repeat_count
 YuvFileGenerator
 (
 )
+override
 ;
 VideoFrameData
 NextFrame
@@ -510,6 +511,7 @@ frame_repeat_count
 NV12FileGenerator
 (
 )
+override
 ;
 VideoFrameData
 NextFrame

@@ -147,6 +147,7 @@ kInt16
 WavWriter
 (
 )
+override
 {
 Close
 (
@@ -285,6 +286,7 @@ file
 WavReader
 (
 )
+override
 {
 Close
 (

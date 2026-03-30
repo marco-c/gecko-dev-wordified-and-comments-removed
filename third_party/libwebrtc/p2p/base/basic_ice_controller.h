@@ -207,11 +207,11 @@ IceControllerFactoryArgs
 args
 )
 ;
-virtual
 ~
 BasicIceController
 (
 )
+override
 ;
 void
 SetIceConfig

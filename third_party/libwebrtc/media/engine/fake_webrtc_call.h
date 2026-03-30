@@ -1296,6 +1296,7 @@ Stats
 &
 stats
 )
+override
 ;
 void
 SetCsrcs
@@ -1379,6 +1380,7 @@ string
 &
 rids
 )
+override
 ;
 const
 std
@@ -1719,6 +1721,7 @@ UpdateRtxSsrc
 uint32_t
 ssrc
 )
+override
 {
 config_
 .
@@ -1925,6 +1928,7 @@ int
 >
 associated_payload_types
 )
+override
 {
 config_
 .
@@ -2439,6 +2443,7 @@ int
 FeedbackAccordingToRfc8888Count
 (
 )
+override
 {
 return
 0
@@ -2454,6 +2459,7 @@ int
 FeedbackAccordingToTransportCcCount
 (
 )
+override
 {
 return
 0

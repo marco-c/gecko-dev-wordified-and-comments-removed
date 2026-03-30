@@ -1782,7 +1782,6 @@ rtp_count
 )
 ;
 }
-static
 const
 unsigned
 char
@@ -1805,7 +1804,6 @@ kRtpData
 0
 }
 ;
-static
 const
 int
 kRtpLen

@@ -72,11 +72,11 @@ size_t
 height
 )
 ;
-virtual
 ~
 VideoRenderer
 (
 )
+override
 {
 }
 protected

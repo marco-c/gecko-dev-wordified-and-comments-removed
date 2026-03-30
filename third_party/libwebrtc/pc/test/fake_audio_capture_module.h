@@ -807,11 +807,11 @@ FakeAudioCaptureModule
 (
 )
 ;
-virtual
 ~
 FakeAudioCaptureModule
 (
 )
+override
 ;
 private
 :

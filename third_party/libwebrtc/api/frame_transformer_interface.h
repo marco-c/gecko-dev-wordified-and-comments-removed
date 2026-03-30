@@ -419,11 +419,11 @@ Passkey
 passkey
 )
 ;
-virtual
 ~
 TransformableVideoFrameInterface
 (
 )
+override
 =
 default
 ;
@@ -497,11 +497,11 @@ Passkey
 passkey
 )
 ;
-virtual
 ~
 TransformableAudioFrameInterface
 (
 )
+override
 =
 default
 ;

@@ -270,9 +270,15 @@ constexpr
 EventParameters
 event_params_
 {
+.
+name
+=
 "
 EndLog
 "
+.
+id
+=
 RtcEventEndLog
 :
 :

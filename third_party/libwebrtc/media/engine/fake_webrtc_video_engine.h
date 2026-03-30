@@ -226,6 +226,7 @@ factory
 FakeWebRtcVideoDecoder
 (
 )
+override
 ;
 bool
 Configure
@@ -417,6 +418,7 @@ factory
 FakeWebRtcVideoEncoder
 (
 )
+override
 ;
 void
 SetFecControllerOverride
