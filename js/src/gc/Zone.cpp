@@ -1062,7 +1062,7 @@ this
 )
 objectFuses
 (
-rt
+this
 )
 {
 MOZ_ASSERT
