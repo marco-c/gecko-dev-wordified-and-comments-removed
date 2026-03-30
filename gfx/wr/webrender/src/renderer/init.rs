@@ -821,6 +821,10 @@ pub
 precise_linear_gradients
 :
 bool
+pub
+use_quad_box_shadow
+:
+bool
 }
 impl
 WebRenderOptions
@@ -1053,6 +1057,9 @@ enable_debugger
 :
 true
 precise_linear_gradients
+:
+false
+use_quad_box_shadow
 :
 false
 }
@@ -2212,6 +2219,11 @@ precise_linear_gradients
 options
 .
 precise_linear_gradients
+use_quad_box_shadow
+:
+options
+.
+use_quad_box_shadow
 }
 ;
 info

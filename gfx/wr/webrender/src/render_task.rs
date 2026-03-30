@@ -3187,8 +3187,10 @@ blur_radius_dp
 cache_key
 .
 blur_radius_dp
-as
-f32
+.
+to_f32_px
+(
+)
 ;
 let
 device_pixel_scale
