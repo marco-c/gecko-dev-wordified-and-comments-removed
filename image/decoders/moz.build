@@ -184,11 +184,6 @@ EXIF
 cpp
 "
 "
-iccjpeg
-.
-c
-"
-"
 nsAVIFDecoder
 .
 cpp
