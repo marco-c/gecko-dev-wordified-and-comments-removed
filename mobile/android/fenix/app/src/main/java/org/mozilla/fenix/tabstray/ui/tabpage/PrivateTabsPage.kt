@@ -739,7 +739,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_private_mode_72
+mozac_ic_private_mode_fill_72
 )
 contentDescription
 =

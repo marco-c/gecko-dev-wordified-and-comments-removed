@@ -1019,7 +1019,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_mask_email_24
+mozac_ic_email_mask_24
 )
 contentDescription
 =
