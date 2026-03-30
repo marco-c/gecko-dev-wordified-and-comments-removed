@@ -652,6 +652,9 @@ MCSInfo
 *
 GetInstance
 (
+const
+StaticMutexAutoLock
+&
 )
 ;
 static
