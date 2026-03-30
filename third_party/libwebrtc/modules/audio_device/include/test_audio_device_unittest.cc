@@ -1225,7 +1225,7 @@ int16_t
 >
 :
 :
-CreateUninitializedWithSize
+CreateWithCapacity
 (
 kExpectedSamples
 .
@@ -1509,7 +1509,7 @@ int16_t
 >
 :
 :
-CreateUninitializedWithSize
+CreateWithCapacity
 (
 expected_samples
 .
@@ -1530,7 +1530,7 @@ int16_t
 >
 :
 :
-CreateUninitializedWithSize
+CreateWithCapacity
 (
 expected_samples
 .
@@ -2363,7 +2363,7 @@ int16_t
 >
 :
 :
-CreateUninitializedWithSize
+CreateWithCapacity
 (
 kExpectedSamples
 .

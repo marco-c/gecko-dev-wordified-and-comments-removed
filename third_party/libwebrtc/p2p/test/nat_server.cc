@@ -1409,7 +1409,7 @@ real_buf
 Buffer
 :
 :
-CreateUninitializedWithSize
+CreateWithCapacity
 (
 packet
 .

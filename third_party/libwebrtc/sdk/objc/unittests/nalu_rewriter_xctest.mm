@@ -1417,7 +1417,7 @@ webrtc
 Buffer
 :
 :
-CreateUninitializedWithSize
+CreateWithCapacity
 (
 std
 :
