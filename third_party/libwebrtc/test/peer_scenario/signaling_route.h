@@ -55,6 +55,8 @@ public
 :
 SignalingRoute
 (
+bool
+send_sdp_via_network
 PeerScenarioClient
 *
 caller
@@ -262,6 +264,7 @@ reverse
 return
 SignalingRoute
 (
+send_sdp_via_network_
 callee_
 caller_
 ret_route_
@@ -271,6 +274,12 @@ send_route_
 }
 private
 :
+const
+bool
+send_sdp_via_network_
+=
+true
+;
 PeerScenarioClient
 *
 const
