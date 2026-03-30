@@ -313,6 +313,11 @@ TestStateWatching
 cpp
 "
 "
+TestStaticBackgroundTaskQueue
+.
+cpp
+"
+"
 TestStopGapEventTarget
 .
 cpp

@@ -360,6 +360,11 @@ StateWatching
 h
 "
 "
+StaticBackgroundTaskQueue
+.
+h
+"
+"
 StaticString
 .
 h
@@ -546,6 +551,11 @@ cpp
 "
 "
 SharedThreadPool
+.
+cpp
+"
+"
+StaticBackgroundTaskQueue
 .
 cpp
 "
