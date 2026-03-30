@@ -134,6 +134,9 @@ actors
 "
 security
 "
+"
+tests
+"
 ]
 if
 CONFIG

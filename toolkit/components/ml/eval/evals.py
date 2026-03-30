@@ -1765,11 +1765,6 @@ false
 "
 "
     
-requirements
-=
-[
-]
-    
 def
 run
 (
