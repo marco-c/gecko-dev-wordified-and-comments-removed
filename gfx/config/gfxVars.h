@@ -105,13 +105,6 @@ true
 \
 _
 (
-AllowWebGL
-bool
-true
-)
-\
-_
-(
 AllowWebgl2
 bool
 true

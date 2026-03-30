@@ -7021,12 +7021,6 @@ case
 nsIGfxInfo
 :
 :
-FEATURE_WEBGL
-:
-case
-nsIGfxInfo
-:
-:
 FEATURE_ALLOW_WEBGL_OUT_OF_PROCESS
 :
 case
