@@ -490,7 +490,7 @@ float
 kBlockSize
 >
 >
-all_frames
+all_channels
 ModelInputEnum
 input_type
 )
@@ -540,7 +540,7 @@ summed_block
 =
 AverageAllChannels
 (
-all_frames
+all_channels
 )
 ;
 input_buffer
@@ -1217,7 +1217,7 @@ float
 kBlockSize
 >
 >
-all_frames
+all_channels
 ModelInputEnum
 input_type
 )
@@ -1265,7 +1265,7 @@ input_buffer
 .
 resize
 (
-all_frames
+all_channels
 .
 size
 (
@@ -1281,7 +1281,7 @@ ch
 ;
 ch
 <
-all_frames
+all_channels
 .
 size
 (
@@ -1302,7 +1302,7 @@ kBlockSize
 &
 frame_in
 =
-all_frames
+all_channels
 [
 ch
 ]
@@ -1503,10 +1503,16 @@ pffft_states_channels
 [
 ch
 ]
+static_cast
+<
+int
+>
+(
 input_buffer
 .
 size
 (
+)
 )
 model_input
 )
