@@ -683,8 +683,9 @@ SetMaximumBufferPackets
 size_t
 max_packets
 )
-{
-}
+=
+0
+;
 virtual
 void
 SetFastAccelerate
@@ -692,8 +693,9 @@ SetFastAccelerate
 bool
 enable
 )
-{
-}
+=
+0
+;
 virtual
 void
 RemoveAllPayloadTypes
