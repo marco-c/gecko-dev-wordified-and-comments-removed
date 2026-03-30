@@ -792,8 +792,6 @@ header_offset
 while
 (
 it
--
--
 !
 =
 redundant_encodings_
@@ -803,6 +801,10 @@ begin
 )
 )
 {
+-
+-
+it
+;
 encoded
 -
 >
