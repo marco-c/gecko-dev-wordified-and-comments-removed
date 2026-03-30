@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-ca41a5301d28ba581c85c4647128e37437c84fb6
+ba561af27a64f02784cebe2973539012048643e7
 '
 #
 Fetch
@@ -558,7 +558,7 @@ chromium
 src
 /
 build
-0e66ce51fb6d1f0bd04425315f4a437b38d04236
+53a06ffe2bf8eba279aff8157aa2b0ab9dbca59e
 '
 '
 src
@@ -678,7 +678,7 @@ chromium
 src
 /
 ios
-f305f2007f5e75a3e06f815ffd56360107304003
+b269ceb606ee4f0a4c7b4f1ab28d1a1a277b8369
 '
 '
 condition
@@ -710,7 +710,7 @@ chromium
 src
 /
 testing
-255888536d5b9c2bf4f9b1b29e0fb032abe409ef
+1c8703690cb5b295c9d94ae9791d623c8d3d3b50
 '
 '
 src
@@ -734,7 +734,7 @@ chromium
 src
 /
 third_party
-ab35a0a64a23cdeb06d9ff729c237f234139001d
+795e2b12d2f92e28c8111338db507341756ddfa1
 '
 '
 src
@@ -775,7 +775,7 @@ version
 '
 git_revision
 :
-aac7c279c65fac36b116b0ebcf77e88581b60071
+5550ba0f4053c3cbb0bff3d60ded9d867b6fa371
 '
 }
 ]
@@ -833,7 +833,7 @@ version
 '
 git_revision
 :
-aac7c279c65fac36b116b0ebcf77e88581b60071
+5550ba0f4053c3cbb0bff3d60ded9d867b6fa371
 '
 }
 ]
@@ -887,7 +887,7 @@ version
 '
 git_revision
 :
-aac7c279c65fac36b116b0ebcf77e88581b60071
+5550ba0f4053c3cbb0bff3d60ded9d867b6fa371
 '
 }
 ]
@@ -3811,7 +3811,7 @@ com
 boringssl
 .
 git
-3a3675025ff4231ab13c791a4582ea1a3880ecee
+3e13772fded7a6beb35e75b6b84f5244f7865b7e
 '
 '
 src
@@ -4141,7 +4141,7 @@ grpc
 grpc
 .
 git
-580a28f890386749798fa12b1d96b0527d952c22
+518f4a5ef03d85ce1a4d03d18594c6910f5fce1d
 '
 }
 #
@@ -4229,7 +4229,7 @@ third_party
 freetype2
 .
 git
-5f524d04b4f81a0e6d0d86add447f564047d6d09
+b91f75bd02db43b06d634591eb286d3eb0ce3b65
 '
 '
 src
@@ -4953,7 +4953,7 @@ google
 fuzztest
 .
 git
-6e4dee441d2b9dc5a55c1286e096756475c38520
+f0a421a9d75b08c53a4a6ca59681a20f77e5bb07
 '
 '
 src
@@ -5182,7 +5182,7 @@ git
 '
 +
 '
-508389227d63906c82ddfa8f029ce0b7917282b8
+698c3b289159cf14ac110e21d5ed424c8a9f35b4
 '
 '
 src
@@ -5729,7 +5729,7 @@ chromium
 src
 /
 tools
-01bcdf0a5fc2ef7f019db2071b84d912a058312d
+e1bc52d5835294fd049f01702f142a52d52667e0
 '
 '
 src
@@ -5922,7 +5922,7 @@ version
 '
 :
 '
-ookmsmGZCNtihsqrVnxyQJlFh8IgOPIFrbRuFX7dVOAC
+2hm_jTGISpPfr_hMskZSPGvJonjuL2FeHGOKOek7d6AC
 '
 }
 ]
