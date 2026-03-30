@@ -749,9 +749,9 @@ bool
 GetPropertyTypedValue
 (
 const
-nsACString
+CSSPropertyId
 &
-aProperty
+aPropId
 StylePropertyTypedValue
 &
 aValue
@@ -763,7 +763,7 @@ Servo_DeclarationBlock_GetPropertyTypedValue
 (
 mRaw
 &
-aProperty
+aPropId
 &
 aValue
 )

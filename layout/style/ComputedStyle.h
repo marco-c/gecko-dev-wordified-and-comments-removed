@@ -119,6 +119,9 @@ ComputedStyle
 namespace
 mozilla
 {
+struct
+CSSPropertyId
+;
 enum
 class
 StylePointerEvents
@@ -194,9 +197,9 @@ bool
 GetPropertyTypedValue
 (
 const
-nsACString
+CSSPropertyId
 &
-aProperty
+aId
 StylePropertyTypedValue
 &
 aOut
@@ -204,11 +207,11 @@ aOut
 const
 {
 return
-Servo_GetComputedTypedValue
+Servo_ComputedValues_GetPropertyTypedValue
 (
 this
 &
-aProperty
+aId
 &
 aOut
 )
