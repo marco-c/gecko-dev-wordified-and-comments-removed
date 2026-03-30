@@ -538,7 +538,7 @@ if
 !
 IsScrollbarWidthThin
 (
-aStyle
+aFrame
 )
 )
 {
@@ -1494,7 +1494,7 @@ Overlay
 &
 IsScrollbarWidthThin
 (
-aStyle
+aFrame
 )
 )
 ;
