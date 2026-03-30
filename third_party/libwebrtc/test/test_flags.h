@@ -25,15 +25,6 @@ declare
 .
 h
 "
-#
-include
-"
-test
-/
-test_flags_tmp
-.
-h
-"
 ABSL_DECLARE_FLAG
 (
 std
