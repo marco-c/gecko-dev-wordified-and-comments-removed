@@ -1159,6 +1159,10 @@ worker_thread_
 ;
 uint32_t
 ssrc_
+RTC_GUARDED_BY
+(
+signaling_thread_
+)
 =
 0
 ;
