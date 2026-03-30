@@ -862,11 +862,11 @@ public
 struct
 Result
 {
+RefPtr
+<
 Value
-*
+>
 mCompleteValue
-=
-nullptr
 ;
 RefPtr
 <
