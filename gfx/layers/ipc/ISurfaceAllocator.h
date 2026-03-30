@@ -532,6 +532,8 @@ const
 UntrustedShmemSection
 &
 aUntrusted
+size_t
+aMinSize
 )
 ;
 bool
