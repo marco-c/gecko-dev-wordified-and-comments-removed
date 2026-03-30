@@ -151,6 +151,7 @@ querySelector
 menuitem
 [
 label
+*
 =
 newEngine
 ]
