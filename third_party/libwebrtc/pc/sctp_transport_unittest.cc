@@ -242,7 +242,7 @@ ElementsAre
 namespace
 {
 class
-FakeCricketSctpTransport
+FakeSctpTransportInternal
 :
 public
 SctpTransportInternal
@@ -250,7 +250,7 @@ SctpTransportInternal
 public
 :
 explicit
-FakeCricketSctpTransport
+FakeSctpTransportInternal
 (
 DtlsTransportInternal
 *
@@ -818,7 +818,7 @@ transport
 )
 ;
 auto
-cricket_sctp_transport
+sctp_transport_internal
 =
 absl
 :
@@ -826,7 +826,7 @@ absl
 WrapUnique
 (
 new
-FakeCricketSctpTransport
+FakeSctpTransportInternal
 (
 internal_transport_
 .
@@ -848,7 +848,7 @@ std
 :
 move
 (
-cricket_sctp_transport
+sctp_transport_internal
 )
 dtls_transport_
 )
@@ -859,7 +859,7 @@ CompleteSctpHandshake
 (
 )
 {
-CricketSctpTransport
+MySctpTransportInternal
 (
 )
 -
@@ -869,7 +869,7 @@ set_max_outbound_streams
 kTestMaxSctpStreams
 )
 ;
-CricketSctpTransport
+MySctpTransportInternal
 (
 )
 -
@@ -881,7 +881,7 @@ kTestMaxSctpStreams
 1
 )
 ;
-CricketSctpTransport
+MySctpTransportInternal
 (
 )
 -
@@ -891,16 +891,16 @@ SendSignalAssociationChangeCommunicationUp
 )
 ;
 }
-FakeCricketSctpTransport
+FakeSctpTransportInternal
 *
-CricketSctpTransport
+MySctpTransportInternal
 (
 )
 {
 return
 static_cast
 <
-FakeCricketSctpTransport
+FakeSctpTransportInternal
 *
 >
 (
@@ -999,7 +999,7 @@ unique_ptr
 <
 SctpTransportInternal
 >
-fake_cricket_sctp_transport
+fake_sctp_transport_internal
 =
 absl
 :
@@ -1007,7 +1007,7 @@ absl
 WrapUnique
 (
 new
-FakeCricketSctpTransport
+FakeSctpTransportInternal
 (
 internal_transport
 .
@@ -1033,7 +1033,7 @@ std
 :
 move
 (
-fake_cricket_sctp_transport
+fake_sctp_transport_internal
 )
 dtls_transport
 )
