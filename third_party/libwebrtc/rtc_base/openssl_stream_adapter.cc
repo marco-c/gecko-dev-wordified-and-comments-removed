@@ -966,8 +966,6 @@ error
 }
 #
 endif
-}
-static
 int
 stream_write
 (
@@ -982,7 +980,6 @@ int
 num
 )
 ;
-static
 int
 stream_read
 (
@@ -996,7 +993,6 @@ int
 size
 )
 ;
-static
 int
 stream_puts
 (
@@ -1009,7 +1005,6 @@ char
 str
 )
 ;
-static
 long
 stream_ctrl
 (
@@ -1025,7 +1020,6 @@ void
 arg2
 )
 ;
-static
 int
 stream_new
 (
@@ -1034,7 +1028,6 @@ BIO
 h
 )
 ;
-static
 int
 stream_free
 (
@@ -1043,7 +1036,6 @@ BIO
 data
 )
 ;
-static
 BIO_METHOD
 *
 BIO_stream_method
@@ -1117,7 +1109,6 @@ return
 method
 ;
 }
-static
 BIO
 *
 BIO_new_stream
@@ -1160,7 +1151,6 @@ return
 ret
 ;
 }
-static
 int
 stream_new
 (
@@ -1191,7 +1181,6 @@ return
 1
 ;
 }
-static
 int
 stream_free
 (
@@ -1216,7 +1205,6 @@ return
 1
 ;
 }
-static
 int
 stream_read
 (
@@ -1330,7 +1318,6 @@ return
 1
 ;
 }
-static
 int
 stream_write
 (
@@ -1446,7 +1433,6 @@ return
 1
 ;
 }
-static
 int
 stream_puts
 (
@@ -1477,7 +1463,6 @@ str
 )
 ;
 }
-static
 long
 stream_ctrl
 (
@@ -1632,6 +1617,7 @@ default
 return
 0
 ;
+}
 }
 }
 OpenSSLStreamAdapter
