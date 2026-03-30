@@ -802,6 +802,12 @@ aReflowInput
 aStatus
 )
 ;
+aStatus
+.
+Reset
+(
+)
+;
 if
 (
 cropped
@@ -892,12 +898,6 @@ DidReflow
 aPresContext
 &
 aReflowInput
-)
-;
-aStatus
-.
-Reset
-(
 )
 ;
 MarkSubtreeDirty
