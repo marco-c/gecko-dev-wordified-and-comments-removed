@@ -609,7 +609,7 @@ emitOptimizedSuggestionCardDisplayedFact
 (
 cardType
 :
-String
+SuggestionCardType
 )
 {
 emitAwesomebarFact
@@ -623,6 +623,8 @@ Items
 .
 OPTIMIZED_SUGGESTION_CARD_DISPLAYED
 cardType
+.
+value
 )
 }
 internal
@@ -631,7 +633,7 @@ emitOptimizedSuggestionCardClickedFact
 (
 cardType
 :
-String
+SuggestionCardType
 )
 {
 emitAwesomebarFact
@@ -645,5 +647,7 @@ Items
 .
 OPTIMIZED_SUGGESTION_CARD_CLICKED
 cardType
+.
+value
 )
 }
