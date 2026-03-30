@@ -599,7 +599,7 @@ zone
 gcx
 -
 >
-runtime
+gcRuntime
 (
 )
 SkipAtoms

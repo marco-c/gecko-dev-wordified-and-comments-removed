@@ -1084,16 +1084,12 @@ GCRuntime
 *
 gc
 =
-&
 gcx
 -
 >
-runtimeFromAnyThread
+gcRuntimeFromAnyThread
 (
 )
--
->
-gc
 ;
 auto
 updateMarkCount
@@ -1707,7 +1703,7 @@ lock
 gcx
 -
 >
-runtimeFromAnyThread
+gcRuntimeFromAnyThread
 (
 )
 )
