@@ -33267,7 +33267,7 @@ bundle_groups_by_mid
 .
 find
 (
-channel
+content
 -
 >
 mid
