@@ -537,12 +537,7 @@ CC_TYPE
 clang
 '
 :
-COMPILE_FLAGS
-[
-"
-WARNINGS_CXXFLAGS
-"
-]
+CXXFLAGS
 +
 =
 [

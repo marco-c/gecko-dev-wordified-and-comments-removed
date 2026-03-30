@@ -161,12 +161,7 @@ ct
 signature_cache
 "
 ]
-COMPILE_FLAGS
-[
-"
-WARNINGS_CXXFLAGS
-"
-]
+CXXFLAGS
 +
 =
 [

@@ -216,16 +216,6 @@ missing
 -
 braces
 "
-]
-COMPILE_FLAGS
-[
-"
-WARNINGS_CXXFLAGS
-"
-]
-+
-=
-[
 "
 -
 Wunused

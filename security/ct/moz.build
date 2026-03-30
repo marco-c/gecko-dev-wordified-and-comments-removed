@@ -196,12 +196,7 @@ NDEBUG
 ]
 =
 True
-COMPILE_FLAGS
-[
-"
-WARNINGS_CXXFLAGS
-"
-]
+CXXFLAGS
 +
 =
 [

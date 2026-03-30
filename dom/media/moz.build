@@ -2228,12 +2228,7 @@ error
 attributes
 "
 ]
-COMPILE_FLAGS
-[
-"
-WARNINGS_CXXFLAGS
-"
-]
+CXXFLAGS
 +
 =
 [

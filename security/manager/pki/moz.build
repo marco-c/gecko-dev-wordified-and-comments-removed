@@ -136,12 +136,7 @@ gcc
 "
 )
 :
-COMPILE_FLAGS
-[
-"
-WARNINGS_CXXFLAGS
-"
-]
+CXXFLAGS
 +
 =
 [
