@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-07d18163badd29f3204102a105ca1143c0bdec7a
+cdc78b6d7c58c1dd4b8df830fc4412d2ed740074
 '
 #
 Fetch
@@ -414,7 +414,7 @@ siso_version
 '
 git_revision
 :
-41351d34a647bb3f390000f021786db0a6ad2430
+49dcca5d2be985d8ac6d512e59ee59e315264fb8
 '
 #
 ninja
@@ -558,7 +558,7 @@ chromium
 src
 /
 build
-e9bd49146e7e69608f4075150925da029d1881cf
+2971fed89bb80708a105ef942e18ad2e1acee3eb
 '
 '
 src
@@ -582,7 +582,7 @@ chromium
 src
 /
 buildtools
-eca5f0685c48ed59ff06077cb18cee00934249dd
+5ee2a7a7f1e0329808b98bc664d28e228136cda5
 '
 #
 Gradle
@@ -678,7 +678,7 @@ chromium
 src
 /
 ios
-c2b16a06e2dd75500df3e9cc1c448b49d0ee4e81
+91c886265f90438c1e9ac5d3038fb76bc010f4f7
 '
 '
 condition
@@ -734,7 +734,7 @@ chromium
 src
 /
 third_party
-45aad18a51fc4119af359da97048c34a4d33aba3
+6df177bba77caaf75142a7252a084b115bb08035
 '
 '
 src
@@ -2863,7 +2863,7 @@ compiler
 rt
 .
 git
-cbcf6df2aa0969757c22a3f2b0a46ea8c1f34a2a
+a9fde25409cf59d3a55c43fd56f234c0abfb176a
 '
 '
 src
@@ -3811,7 +3811,7 @@ com
 boringssl
 .
 git
-098d5baf008ffa6321e2c4a358f5475fcf1fe938
+7f448d35a3d7ab4e7a39f84fe20c50f89b3031fb
 '
 '
 src
@@ -4040,7 +4040,7 @@ tools
 depot_tools
 .
 git
-360ca0918027da3637562b93334db9bd68a51f0c
+ac1b095b090e103e66c726cc737bd48993252fc3
 '
 '
 src
@@ -5729,7 +5729,7 @@ chromium
 src
 /
 tools
-9a1338dbd5d8f5ef58d6974ef77801c08885bccf
+a92fb5a751bc3b9e50b160159bf0cfd0eae6f468
 '
 '
 src
