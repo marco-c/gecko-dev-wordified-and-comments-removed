@@ -2212,8 +2212,9 @@ type
 "
 <
 <
-m
-.
+message
+-
+>
 type
 (
 )
