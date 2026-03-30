@@ -661,16 +661,6 @@ libwebrtc
 /
 api
 /
-libjingle_peerconnection_api_gn
-"
-"
-/
-third_party
-/
-libwebrtc
-/
-api
-/
 location_gn
 "
 "
