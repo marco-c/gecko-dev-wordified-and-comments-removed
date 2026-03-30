@@ -2140,6 +2140,7 @@ prompt
 *
 param
 {
+?
 URL
 }
 pageUrl
@@ -2389,7 +2390,7 @@ const
 realTimeContext
 =
 await
-this
+ChatConversation
 .
 getRealTimeInfo
 (
@@ -3020,10 +3021,12 @@ typedef
 {
 *
 (
-depsOverride
-?
+contextMentions
 :
-object
+Array
+<
+ContextWebsite
+>
 )
 =
 >
@@ -3129,6 +3132,7 @@ or
 null
 *
 /
+static
 async
 getRealTimeInfo
 (
@@ -3151,6 +3155,7 @@ realTimeInfoMapping
 await
 getRealTimeMapping
 (
+contextMentions
 )
 ;
 if
