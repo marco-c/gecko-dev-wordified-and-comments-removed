@@ -4042,9 +4042,6 @@ WeakCacheBase
 *
 cache
 :
-rt
--
->
 weakCaches
 (
 )
