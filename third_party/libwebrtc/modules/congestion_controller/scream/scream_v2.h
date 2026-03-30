@@ -167,7 +167,14 @@ target_rate
 const
 {
 return
+std
+:
+:
+min
+(
+max_target_bitrate_
 target_rate_
+)
 ;
 }
 DataRate
