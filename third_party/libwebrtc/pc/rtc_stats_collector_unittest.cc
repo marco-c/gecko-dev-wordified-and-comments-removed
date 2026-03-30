@@ -1443,10 +1443,10 @@ RTCStatsCollectorCallback
 {
 public
 :
-MOCK_METHOD1
+MOCK_METHOD
 (
-OnStatsDelivered
 void
+OnStatsDelivered
 (
 const
 scoped_refptr
@@ -1455,6 +1455,9 @@ const
 RTCStatsReport
 >
 &
+)
+(
+override
 )
 )
 ;
