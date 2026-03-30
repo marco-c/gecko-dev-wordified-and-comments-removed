@@ -470,8 +470,14 @@ max
 -
 width
 :
-100
+75
 %
+;
+overflow
+-
+wrap
+:
+anywhere
 ;
 padding
 -
