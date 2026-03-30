@@ -163,6 +163,7 @@ down
 "
 )
 ;
+await
 SpecialPowers
 .
 spawn
