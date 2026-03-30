@@ -420,15 +420,6 @@ the
 sctp
 library
 .
-It
-communicates
-state
-changes
-and
-events
-using
-sigslot
-.
 See
 header
 files
