@@ -865,11 +865,6 @@ has_ever_been_used_to_send_
 ;
 }
 void
-SetPeerConnectionClosed
-(
-)
-;
-void
 StopTransceiverProcedure
 (
 )
@@ -1266,11 +1261,6 @@ RTC_GUARDED_BY
 (
 thread_
 )
-=
-false
-;
-bool
-is_pc_closed_
 =
 false
 ;
