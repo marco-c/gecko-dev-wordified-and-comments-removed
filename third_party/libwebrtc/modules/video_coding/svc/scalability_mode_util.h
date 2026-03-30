@@ -181,6 +181,15 @@ int
 max_spatial_layers
 )
 ;
+ScalabilityMode
+GetScalabilityModeFromVideoCodec
+(
+const
+VideoCodec
+&
+codec
+)
+;
 }
 #
 endif
