@@ -291,7 +291,7 @@ payload
 )
 override
 ;
-void
+RTCError
 AddSctpDataStream
 (
 StreamId

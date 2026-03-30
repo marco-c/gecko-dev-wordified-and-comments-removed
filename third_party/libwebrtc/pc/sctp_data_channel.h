@@ -233,7 +233,7 @@ payload
 0
 ;
 virtual
-void
+RTCError
 AddSctpDataStream
 (
 StreamId
