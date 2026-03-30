@@ -1193,7 +1193,8 @@ extra
 .
 error
 "
-1
+Budget
+exceeded
 "
 "
 model_response
@@ -1201,7 +1202,11 @@ model_response
 error
 code
 is
-captured
+1
+which
+is
+budget
+exceeded
 "
 )
 ;
