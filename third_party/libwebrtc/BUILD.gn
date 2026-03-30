@@ -4675,11 +4675,6 @@ rtc_base
 :
 rtc_base_nonparallel_tests
 "
-"
-test
-:
-test_main
-"
 ]
 if
 (

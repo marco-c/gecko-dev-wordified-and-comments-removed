@@ -2177,14 +2177,6 @@ rtc_expect_death
 /
 test
 :
-test_main
-"
-"
-.
-.
-/
-test
-:
 test_support
 "
 "

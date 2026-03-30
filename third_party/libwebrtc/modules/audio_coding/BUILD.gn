@@ -7450,17 +7450,6 @@ fileutils
 /
 test
 :
-test_main
-"
-"
-.
-.
-/
-.
-.
-/
-test
-:
 test_support
 "
 ]

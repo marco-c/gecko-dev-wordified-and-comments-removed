@@ -378,14 +378,6 @@ rtc_json
 /
 test
 :
-test_main
-"
-"
-.
-.
-/
-test
-:
 test_support
 "
 ]
