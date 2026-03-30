@@ -621,7 +621,9 @@ trainhop
 "
 expiration
 :
-None
+"
+never
+"
 merge
 :
 worker
@@ -920,7 +922,9 @@ trainhop
 "
 expiration
 :
-None
+"
+never
+"
 merge
 :
 worker
