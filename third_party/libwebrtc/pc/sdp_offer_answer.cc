@@ -28780,8 +28780,10 @@ preferred_rtcp_cc_ack_type
 has_value
 (
 )
-&
-&
+)
+{
+if
+(
 preferred_rtcp_cc_ack_type
 =
 =
@@ -28860,6 +28862,7 @@ default
 .
 "
 ;
+}
 }
 }
 }
