@@ -995,6 +995,15 @@ aGlobal
 ;
 static
 void
+EnsureScriptPreloaderCacheIsSent
+(
+GlobalObject
+&
+aGlobal
+)
+;
+static
+void
 ClearMessagingLayerSecurityStateByPrincipal
 (
 GlobalObject
