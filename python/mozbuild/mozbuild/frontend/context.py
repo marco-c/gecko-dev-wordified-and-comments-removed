@@ -104,7 +104,15 @@ util
 import
 (
     
+CCompilerFlag
+    
+CxxCompilerFlag
+    
 HierarchicalStringList
+    
+HostCCompilerFlag
+    
+HostCxxCompilerFlag
     
 ImmutableStrictOrderingOnAppendList
     
@@ -4395,6 +4403,8 @@ get
 "
 WARNINGS_CFLAGS
 "
+[
+]
 )
                 
 (
@@ -4422,6 +4432,8 @@ get
 "
 WARNINGS_CXXFLAGS
 "
+[
+]
 )
                 
 (
@@ -16223,7 +16235,10 @@ CFLAGS
 :
 (
         
-List
+TypedList
+(
+CCompilerFlag
+)
         
 list
         
@@ -16299,7 +16314,10 @@ CXXFLAGS
 :
 (
         
-List
+TypedList
+(
+CxxCompilerFlag
+)
         
 list
         
@@ -16970,7 +16988,10 @@ HOST_CFLAGS
 :
 (
         
-List
+TypedList
+(
+HostCCompilerFlag
+)
         
 list
         
@@ -17047,7 +17068,10 @@ HOST_CXXFLAGS
 :
 (
         
-List
+TypedList
+(
+HostCxxCompilerFlag
+)
         
 list
         

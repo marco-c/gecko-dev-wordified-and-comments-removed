@@ -45,7 +45,12 @@ gcc
 "
 )
 :
-CXXFLAGS
+COMPILE_FLAGS
+[
+"
+WARNINGS_CXXFLAGS
+"
+]
 +
 =
 [
