@@ -2289,3 +2289,16 @@ settings
 Boshqa
 sozlamalarni
 boshqarish
+#
+#
+New
+Tab
+Wallpapers
+newtab
+-
+wallpaper
+-
+title
+=
+Fon
+rasmlari
