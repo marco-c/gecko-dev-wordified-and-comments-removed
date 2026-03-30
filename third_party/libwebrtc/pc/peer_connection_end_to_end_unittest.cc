@@ -2121,7 +2121,6 @@ optional
 <
 AudioCodecPairId
 >
-codec_pair_id
 )
 {
 auto
@@ -2134,7 +2133,6 @@ Create
 (
 env
 format
-codec_pair_id
 )
 ;
 return
@@ -2387,19 +2385,6 @@ Config
 config
 int
 payload_type
-std
-:
-:
-optional
-<
-AudioCodecPairId
->
-codec_pair_id
-=
-std
-:
-:
-nullopt
 )
 {
 return
@@ -2410,7 +2395,6 @@ MakeAudioEncoder
 (
 config
 payload_type
-codec_pair_id
 )
 ;
 }
