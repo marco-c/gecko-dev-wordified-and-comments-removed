@@ -494,10 +494,7 @@ move
 (
 data
 )
-std
-:
-:
-move
+bool
 (
 aSuppressShowEvent
 )
