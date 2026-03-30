@@ -7192,6 +7192,10 @@ data_channel_controller
 "
 "
 :
+dtls_transport
+"
+"
+:
 jsep_transport_collection
 "
 "
