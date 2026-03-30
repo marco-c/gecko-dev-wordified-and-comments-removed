@@ -2741,6 +2741,11 @@ capture_levels_adjuster
 capture_levels_adjuster_unittests
 "
 "
+capture_mixer
+:
+capture_mixer_unittests
+"
+"
 test
 /
 conversational_speech
