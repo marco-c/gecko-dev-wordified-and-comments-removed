@@ -711,7 +711,11 @@ aContext
 >
 isStripSpaceAllowed
 (
-aNode
+eContext
+.
+getContextNode
+(
+)
 filterWS
 )
 ;
@@ -724,7 +728,11 @@ rv
 txXPathTreeWalker
 walker
 (
-aNode
+eContext
+.
+getContextNode
+(
+)
 )
 ;
 if
