@@ -1492,6 +1492,9 @@ secondDownloadedFile
 }
 .
 clickDownload
+(
+composeTestRule
+)
 {
 verifyDownloadCompleteSnackbar
 (
@@ -2416,11 +2419,15 @@ composeTestRule
 {
 verifyDownloadPrompt
 (
+composeTestRule
 downloadFile
 )
 }
 .
 clickDownload
+(
+composeTestRule
+)
 {
 verifyDownloadCompleteSnackbar
 (
@@ -2693,6 +2700,9 @@ secondDownloadedFile
 }
 .
 clickDownload
+(
+composeTestRule
+)
 {
 verifyDownloadCompleteSnackbar
 (

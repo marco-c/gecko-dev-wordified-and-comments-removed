@@ -2415,6 +2415,7 @@ clickSaveAsPDFButton
 {
 verifyDownloadPrompt
 (
+composeTestRule
 testPage
 .
 title
@@ -2427,6 +2428,9 @@ pdf
 }
 .
 clickDownload
+(
+composeTestRule
+)
 {
 clickSnackbarButton
 (

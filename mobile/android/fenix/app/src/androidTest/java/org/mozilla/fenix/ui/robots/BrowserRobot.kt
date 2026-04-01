@@ -11832,6 +11832,7 @@ parentPanel
 "
 )
 )
+break
 }
 catch
 (
