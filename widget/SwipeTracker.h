@@ -233,7 +233,7 @@ UnregisterFromRefreshDriver
 (
 )
 ;
-bool
+void
 SendSwipeEvent
 (
 EventMessage
@@ -248,8 +248,7 @@ TimeStamp
 aTimeStamp
 )
 ;
-nsIWidget
-&
+nsWeakPtr
 mWidget
 ;
 RefPtr
