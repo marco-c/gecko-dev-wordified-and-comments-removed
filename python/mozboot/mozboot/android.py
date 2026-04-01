@@ -3968,6 +3968,9 @@ sdkmanager_tool
 list
 "
 ]
+env
+=
+env
 )
     
 suggest_platform_tools_path
