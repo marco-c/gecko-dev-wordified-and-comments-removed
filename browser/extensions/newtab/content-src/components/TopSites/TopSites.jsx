@@ -1139,6 +1139,17 @@ innerClassName
 "
 modal
 "
+headerId
+=
+"
+top
+-
+site
+-
+form
+-
+title
+"
 >
 <
 TopSiteForm
