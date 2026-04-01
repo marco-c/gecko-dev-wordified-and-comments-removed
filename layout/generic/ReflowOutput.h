@@ -334,6 +334,15 @@ aOther
 )
 ;
 void
+UnionWithAbsoluteOverflowAreas
+(
+const
+OverflowAreas
+&
+aOther
+)
+;
+void
 UnionAllWith
 (
 const
