@@ -159,13 +159,6 @@ const
 message
 =
 {
-type
-:
-"
-GeckoView
-:
-OnLoadRequest
-"
 uri
 :
 aUri
@@ -207,6 +200,11 @@ aEventDispatcher
 .
 sendRequestForResult
 (
+"
+GeckoView
+:
+OnLoadRequest
+"
 message
 )
 ;

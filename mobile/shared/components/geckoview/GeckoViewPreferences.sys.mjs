@@ -1004,9 +1004,6 @@ instance
 .
 sendRequest
 (
-{
-type
-:
 "
 GeckoView
 :
@@ -1014,6 +1011,7 @@ GeckoPreferences
 :
 Change
 "
+{
 data
 :
 this
