@@ -57,6 +57,13 @@ sys
 mjs
 "
 "
+IPPAuthProvider
+.
+sys
+.
+mjs
+"
+"
 IPPAutoRestore
 .
 sys

@@ -1606,7 +1606,6 @@ lazy
 IPProtectionService
 .
 authProvider
-?
 .
 getToken
 (
@@ -2005,7 +2004,6 @@ lazy
 IPProtectionService
 .
 authProvider
-?
 .
 getToken
 (
@@ -2200,7 +2198,6 @@ lazy
 IPProtectionService
 .
 authProvider
-?
 .
 getToken
 (

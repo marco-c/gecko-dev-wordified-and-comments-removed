@@ -2153,7 +2153,6 @@ lazy
 IPProtectionService
 .
 authProvider
-?
 .
 aboutToStart
 (
