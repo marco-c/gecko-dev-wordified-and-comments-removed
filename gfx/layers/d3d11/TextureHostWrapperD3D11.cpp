@@ -1484,16 +1484,6 @@ TextureFlags
 SOFTWARE_DECODED_VIDEO
 ;
 auto
-transferFunction
-=
-bufferTexture
--
->
-GetTransferFunction
-(
-)
-;
-auto
 colorSpace
 =
 ToColorSpace2
@@ -1521,7 +1511,6 @@ outputFormat
 size
 colorSpace
 colorRange
-transferFunction
 false
 Nothing
 (

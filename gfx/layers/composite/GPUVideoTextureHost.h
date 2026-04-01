@@ -125,16 +125,6 @@ GetColorRange
 const
 override
 ;
-gfx
-:
-:
-TransferFunction
-GetTransferFunction
-(
-)
-const
-override
-;
 bool
 NeedsYFlip
 (

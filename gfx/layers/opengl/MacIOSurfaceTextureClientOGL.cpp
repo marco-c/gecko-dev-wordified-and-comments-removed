@@ -243,12 +243,6 @@ mSurface
 GetYUVColorSpace
 (
 )
-mSurface
--
->
-GetTransferFunction
-(
-)
 std
 :
 :
@@ -305,12 +299,6 @@ mSurface
 -
 >
 GetYUVColorSpace
-(
-)
-mSurface
--
->
-GetTransferFunction
 (
 )
 std

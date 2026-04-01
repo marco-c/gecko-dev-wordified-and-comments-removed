@@ -162,16 +162,6 @@ GetYUVColorSpace
 const
 override
 ;
-gfx
-:
-:
-TransferFunction
-GetTransferFunction
-(
-)
-const
-override
-;
 bool
 MapPlane
 (

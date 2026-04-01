@@ -197,12 +197,6 @@ const
 gfx
 :
 :
-TransferFunction
-aTransferFunction
-const
-gfx
-:
-:
 IntSize
 aSize
 bool
@@ -254,10 +248,6 @@ aColorSpace
 mColorRange
 (
 aColorRange
-)
-mTransferFunction
-(
-aTransferFunction
 )
 mSize
 (
@@ -3017,12 +3007,6 @@ const
 gfx
 :
 :
-TransferFunction
-aTransferFunction
-const
-gfx
-:
-:
 IntSize
 aSizeY
 const
@@ -3077,10 +3061,6 @@ aColorDepth
 mColorRange
 (
 aColorRange
-)
-mTransferFunction
-(
-aTransferFunction
 )
 mSizeY
 (

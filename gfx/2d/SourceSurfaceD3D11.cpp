@@ -39,12 +39,6 @@ gfx
 ColorRange
 aColorRange
 const
-gfx
-:
-:
-TransferFunction
-aTransferFunction
-const
 Maybe
 <
 layers
@@ -153,7 +147,6 @@ aTexture
 aArrayIndex
 aColorSpace
 aColorRange
-aTransferFunction
 aFencesHolderId
 )
 ;
@@ -188,12 +181,6 @@ gfx
 ColorRange
 aColorRange
 const
-gfx
-:
-:
-TransferFunction
-aTransferFunction
-const
 Maybe
 <
 layers
@@ -227,10 +214,6 @@ aColorSpace
 mColorRange
 (
 aColorRange
-)
-mTransferFunction
-(
-aTransferFunction
 )
 mFencesHolderId
 (
@@ -286,7 +269,6 @@ mTexture
 mArrayIndex
 mColorSpace
 mColorRange
-mTransferFunction
 )
 ;
 return
