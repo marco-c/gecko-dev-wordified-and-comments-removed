@@ -80,6 +80,15 @@ XSLTParameterValue
 Exposed
 =
 Window
+Pref
+=
+"
+dom
+.
+xslt
+.
+enabled
+"
 ]
 interface
 XSLTProcessor

@@ -3524,6 +3524,15 @@ aWasXSLT
 bool
 wasXSLT
 =
+StaticPrefs
+:
+:
+dom_xslt_enabled
+(
+)
+&
+&
+(
 aType
 .
 LowerCaseEqualsLiteral
@@ -3553,6 +3562,7 @@ aType
 LowerCaseEqualsLiteral
 (
 APPLICATION_XML
+)
 )
 ;
 if
