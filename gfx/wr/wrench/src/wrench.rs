@@ -1543,9 +1543,6 @@ true
 precise_linear_gradients
 :
 true
-use_quad_box_shadow
-:
-true
 .
 .
 Default
