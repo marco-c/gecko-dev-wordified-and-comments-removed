@@ -401,6 +401,13 @@ WEBP_MSC_AVX2
 &
 \
 (
+!
+defined
+(
+HAVE_CONFIG_H
+)
+|
+|
 defined
 (
 WEBP_HAVE_AVX2
