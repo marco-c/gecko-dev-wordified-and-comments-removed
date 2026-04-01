@@ -63,9 +63,7 @@ txIMatchContext
 *
 mInner
 ;
-const
 txXPathNode
-&
 mContextNode
 ;
 RefPtr
