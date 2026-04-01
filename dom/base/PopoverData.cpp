@@ -342,8 +342,6 @@ nsWeakPtr
 aSource
 PopoverVisibilityState
 aOldState
-PopoverVisibilityState
-aNewState
 )
 :
 Runnable
@@ -375,10 +373,6 @@ aSource
 mOldState
 (
 aOldState
-)
-mNewState
-(
-aNewState
 )
 {
 }
@@ -446,6 +440,7 @@ htmlElement
 RunPopoverToggleEventTask
 (
 this
+mOldState
 source
 )
 ;
