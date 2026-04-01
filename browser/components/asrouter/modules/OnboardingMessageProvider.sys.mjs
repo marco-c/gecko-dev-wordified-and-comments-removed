@@ -16156,9 +16156,6 @@ paddingInline
 16px
 "
 }
-should_focus_button
-:
-true
 action
 :
 {
