@@ -276,6 +276,12 @@ lock
 {
 if
 (
+isQueued
+(
+lock
+)
+|
+|
 wasStarted
 (
 lock
