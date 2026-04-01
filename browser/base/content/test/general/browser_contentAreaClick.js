@@ -1425,11 +1425,6 @@ p
 >
 <
 math
-id
-=
-"
-mathlink
-"
 xmlns
 =
 "
@@ -1448,6 +1443,14 @@ org
 Math
 /
 MathML
+"
+>
+<
+a
+id
+=
+"
+mathlink
 "
 href
 =
@@ -1472,6 +1475,10 @@ XLink
 <
 /
 mtext
+>
+<
+/
+a
 >
 <
 /
