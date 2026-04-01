@@ -109,8 +109,6 @@ samples
 :
 Flow
 <
-Accelerometer
-.
 Sample
 >
 /
@@ -119,7 +117,6 @@ Sample
 *
 A
 simple
-data
 type
 containing
 acceleration
@@ -131,10 +128,9 @@ time
 .
 *
 /
-data
-class
+interface
 Sample
-(
+{
 val
 xAccel
 :
@@ -151,5 +147,5 @@ val
 timestampNs
 :
 Long
-)
+}
 }
