@@ -3013,6 +3013,11 @@ false
 }
 if
 (
+IsCanceled
+(
+)
+|
+|
 AppShutdown
 :
 :
@@ -3416,6 +3421,11 @@ false
 }
 if
 (
+IsCanceled
+(
+)
+|
+|
 AppShutdown
 :
 :
@@ -5875,6 +5885,11 @@ false
 }
 if
 (
+IsCanceled
+(
+)
+|
+|
 AppShutdown
 :
 :
@@ -6278,6 +6293,11 @@ false
 }
 if
 (
+IsCanceled
+(
+)
+|
+|
 AppShutdown
 :
 :

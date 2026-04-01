@@ -160,15 +160,6 @@ MOZ_DIAGNOSTIC_ASSERT
 mManager
 )
 ;
-mContext
--
->
-AddActivity
-(
-*
-this
-)
-;
 }
 Manager
 &
@@ -353,6 +344,15 @@ true
 mCacheId
 =
 aCacheId
+;
+mContext
+-
+>
+AddActivity
+(
+*
+this
+)
 ;
 mManager
 -
@@ -1064,7 +1064,6 @@ ReleaseCacheId
 mCacheId
 )
 ;
-}
 mContext
 -
 >
@@ -1074,5 +1073,6 @@ RemoveActivity
 this
 )
 ;
+}
 }
 }
