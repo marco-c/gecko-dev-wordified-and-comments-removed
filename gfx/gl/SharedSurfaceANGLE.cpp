@@ -1384,6 +1384,9 @@ ColorRange
 :
 :
 FULL
+mDesc
+.
+transferFunction
 !
 !
 mKeyedMutex

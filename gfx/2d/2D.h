@@ -8341,6 +8341,11 @@ gfx
 :
 ColorRange
 aColorRange
+gfx
+:
+:
+TransferFunction
+aTransferFunction
 )
 ;
 static
@@ -8400,6 +8405,11 @@ gfx
 :
 ColorRange
 aColorRange
+gfx
+:
+:
+TransferFunction
+aTransferFunction
 )
 ;
 private
@@ -8465,6 +8475,11 @@ gfx
 :
 ColorRange
 aColorRange
+gfx
+:
+:
+TransferFunction
+aTransferFunction
 )
 ;
 protected

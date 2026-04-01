@@ -179,6 +179,16 @@ GetColorRange
 const
 override
 ;
+gfx
+:
+:
+TransferFunction
+GetTransferFunction
+(
+)
+const
+override
+;
 void
 CreateRenderTexture
 (

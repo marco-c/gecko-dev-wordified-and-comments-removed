@@ -1915,6 +1915,9 @@ ColorRange
 :
 :
 FULL
+mDesc
+.
+transferFunction
 true
 Nothing
 (

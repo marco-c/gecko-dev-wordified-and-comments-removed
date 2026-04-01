@@ -78,6 +78,12 @@ gfx
 ColorRange
 aColorRange
 const
+gfx
+:
+:
+TransferFunction
+aTransferFunction
+const
 Maybe
 <
 layers
@@ -114,6 +120,12 @@ gfx
 :
 ColorRange
 aColorRange
+const
+gfx
+:
+:
+TransferFunction
+aTransferFunction
 const
 Maybe
 <
@@ -218,6 +230,10 @@ mColorSpace
 const
 ColorRange
 mColorRange
+;
+const
+TransferFunction
+mTransferFunction
 ;
 const
 Maybe

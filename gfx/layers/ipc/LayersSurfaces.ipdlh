@@ -630,6 +630,9 @@ colorSpace
 ColorRange
 colorRange
 ;
+TransferFunction
+transferFunction
+;
 bool
 hasKeyedMutex
 ;
@@ -675,6 +678,9 @@ yUVColorSpace
 ColorRange
 colorRange
 ;
+TransferFunction
+transferFunction
+;
 CompositeProcessFencesHolderId
 fencesHolderId
 ;
@@ -694,6 +700,9 @@ isOpaque
 ;
 YUVColorSpace
 yUVColorSpace
+;
+TransferFunction
+transferFunction
 ;
 nullable
 GpuFence
@@ -972,6 +981,12 @@ size
 SurfaceFormat
 format
 ;
+ColorSpace2
+colorSpace
+;
+TransferFunction
+transferFunction
+;
 }
 ;
 [
@@ -1015,6 +1030,9 @@ yUVColorSpace
 ;
 ColorRange
 colorRange
+;
+TransferFunction
+transferFunction
 ;
 ChromaSubsampling
 chromaSubsampling

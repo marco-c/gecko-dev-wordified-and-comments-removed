@@ -467,6 +467,12 @@ mSurface
 GetYUVColorSpace
 (
 )
+mSurface
+-
+>
+GetTransferFunction
+(
+)
 std
 :
 :

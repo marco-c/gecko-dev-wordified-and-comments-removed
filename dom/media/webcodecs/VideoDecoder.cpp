@@ -4251,7 +4251,7 @@ isSome
 )
 {
 auto
-primaries
+transferFunction
 =
 ToTransferFunction
 (
@@ -4288,7 +4288,7 @@ value
 )
 !
 =
-primaries
+transferFunction
 )
 {
 LOG

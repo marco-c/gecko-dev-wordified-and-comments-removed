@@ -138,6 +138,11 @@ gfx
 :
 YUVColorSpace
 aColorSpace
+gfx
+:
+:
+TransferFunction
+aTransferFunction
 )
 :
 mIOSurfaceRef
@@ -157,6 +162,10 @@ aHasAlpha
 mColorSpace
 (
 aColorSpace
+)
+mTransferFunction
+(
+aTransferFunction
 )
 {
 IncrementUseCount
@@ -1417,6 +1426,7 @@ surfaceRef
 )
 false
 aColorSpace
+aTransferFunction
 )
 ;
 return
@@ -1658,6 +1668,7 @@ surfaceRef
 )
 false
 aColorSpace
+aTransferFunction
 )
 ;
 return
@@ -1686,6 +1697,11 @@ gfx
 :
 YUVColorSpace
 aColorSpace
+gfx
+:
+:
+TransferFunction
+aTransferFunction
 )
 {
 CFTypeRefPtr
@@ -1736,6 +1752,7 @@ surfaceRef
 )
 aHasAlpha
 aColorSpace
+aTransferFunction
 )
 ;
 return

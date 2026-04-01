@@ -5572,6 +5572,11 @@ gfx
 :
 ColorRange
 aColorRange
+gfx
+:
+:
+TransferFunction
+aTransferFunction
 )
 {
 D3D11_TEXTURE2D_DESC
@@ -5648,6 +5653,7 @@ aSrcTexture
 aArrayIndex
 aColorSpace
 aColorRange
+aTransferFunction
 )
 )
 {
@@ -5856,6 +5862,11 @@ gfx
 :
 ColorRange
 aColorRange
+gfx
+:
+:
+TransferFunction
+aTransferFunction
 )
 {
 MOZ_ASSERT
@@ -6140,6 +6151,7 @@ info
 (
 aColorSpace
 aColorRange
+aTransferFunction
 aArrayIndex
 aSrcTexture
 )
@@ -6179,6 +6191,7 @@ newSrcTexture
 0
 aColorSpace
 aColorRange
+aTransferFunction
 )
 ;
 }
@@ -6206,6 +6219,11 @@ gfx
 :
 ColorRange
 aColorRange
+gfx
+:
+:
+TransferFunction
+aTransferFunction
 )
 {
 D3D11_TEXTURE2D_DESC
@@ -6268,6 +6286,7 @@ aSrcTexture
 aArrayIndex
 aColorSpace
 aColorRange
+aTransferFunction
 )
 ;
 }

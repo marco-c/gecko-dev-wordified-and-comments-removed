@@ -422,6 +422,13 @@ ColorRange
 :
 :
 LIMITED
+gfx
+:
+:
+TransferFunction
+:
+:
+BT709
 clientData
 .
 mChromaSubsampling

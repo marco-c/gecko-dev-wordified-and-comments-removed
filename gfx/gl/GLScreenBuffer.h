@@ -300,6 +300,10 @@ gfx
 :
 :
 ColorSpace2
+gfx
+:
+:
+TransferFunction
 )
 ;
 void
