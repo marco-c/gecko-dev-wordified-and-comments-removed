@@ -216,7 +216,7 @@ EditTabGroup
 /
 data
 object
-CreateTabGroup
+EditTabGroup
 :
 TabManagerNavDestination
 /

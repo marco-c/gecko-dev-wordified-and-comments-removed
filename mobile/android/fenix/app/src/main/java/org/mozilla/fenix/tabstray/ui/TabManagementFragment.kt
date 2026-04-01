@@ -2631,7 +2631,7 @@ entry
 <
 TabManagerNavDestination
 .
-CreateTabGroup
+EditTabGroup
 >
 (
 metadata
