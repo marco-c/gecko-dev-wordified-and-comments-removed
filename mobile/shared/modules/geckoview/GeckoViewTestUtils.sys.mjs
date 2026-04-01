@@ -257,6 +257,9 @@ instance
 .
 sendRequestForResult
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -264,7 +267,6 @@ Test
 :
 NewTab
 "
-{
 url
 }
 )

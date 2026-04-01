@@ -831,12 +831,14 @@ eventDispatcher
 .
 sendRequest
 (
+{
+type
+:
 "
 GeckoView
 :
 HangReport
 "
-{
 hangId
 :
 this

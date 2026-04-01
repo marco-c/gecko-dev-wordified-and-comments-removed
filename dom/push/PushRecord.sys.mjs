@@ -943,12 +943,14 @@ instance
 .
 sendRequestForResult
 (
+{
+type
+:
 "
 History
 :
 GetPrePathLastVisitedTimeMilliseconds
 "
-{
 prePath
 :
 this

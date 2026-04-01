@@ -153,12 +153,8 @@ instance
 .
 sendRequestForResult
 (
-type
 {
-.
-.
-.
-data
+type
 extensionId
 :
 this
@@ -166,6 +162,10 @@ this
 extension
 .
 id
+.
+.
+.
+data
 }
 )
 ;
