@@ -39,13 +39,6 @@ openRuleView
 )
 ;
 await
-simpleCustomOverride
-(
-inspector
-view
-)
-;
-await
 importantCustomOverride
 (
 inspector
@@ -54,6 +47,13 @@ view
 ;
 await
 disableCustomOverride
+(
+inspector
+view
+)
+;
+await
+simpleCustomOverride
 (
 inspector
 view
