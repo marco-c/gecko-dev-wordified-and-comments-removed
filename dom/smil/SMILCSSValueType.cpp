@@ -2338,7 +2338,7 @@ computedStyle
 nsComputedDOMStyle
 :
 :
-GetComputedStyle
+GetComputedStyleNoFlush
 (
 aTargetElement
 )
