@@ -201,15 +201,7 @@ MaxTimeMagnitude
 if
 (
 !
-std
-:
-:
-isfinite
 (
-time
-)
-|
-|
 mozilla
 :
 :
@@ -217,8 +209,10 @@ Abs
 (
 time
 )
->
+<
+=
 MaxTimeMagnitude
+)
 )
 {
 return
