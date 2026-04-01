@@ -14445,6 +14445,12 @@ if
 colorControlFrame
 )
 {
+AutoWeakFrame
+weakFrame
+(
+colorControlFrame
+)
+;
 colorControlFrame
 -
 >
@@ -14455,6 +14461,15 @@ UpdateColor
 #
 ifdef
 ACCESSIBILITY
+if
+(
+weakFrame
+.
+IsAlive
+(
+)
+)
+{
 if
 (
 nsAccessibilityService
@@ -14480,6 +14495,7 @@ PresShell
 this
 )
 ;
+}
 }
 #
 endif
