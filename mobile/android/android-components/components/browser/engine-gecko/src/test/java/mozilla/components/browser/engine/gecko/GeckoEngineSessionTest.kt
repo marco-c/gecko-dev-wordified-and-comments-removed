@@ -13799,11 +13799,6 @@ typeStr
 srcUri
 /
 /
-textContent
-=
-null
-/
-/
 linkText
 =
 null
