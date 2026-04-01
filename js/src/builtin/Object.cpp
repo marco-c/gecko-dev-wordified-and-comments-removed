@@ -9825,7 +9825,7 @@ optimized
 =
 true
 ;
-int32_t
+size_t
 num_properties
 =
 0
@@ -10121,6 +10121,14 @@ num_properties
 ;
 }
 }
+MOZ_RELEASE_ASSERT
+(
+num_properties
+<
+=
+INT32_MAX
+)
+;
 rval
 =
 num_properties
