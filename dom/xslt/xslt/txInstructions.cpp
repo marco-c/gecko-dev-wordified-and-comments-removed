@@ -267,9 +267,9 @@ txExecutionState
 :
 :
 TemplateRule
-*
 rule
 =
+*
 aEs
 .
 getCurrentTemplateRule
@@ -280,8 +280,7 @@ if
 (
 !
 rule
--
->
+.
 mFrame
 )
 {
@@ -294,8 +293,7 @@ aEs
 pushParamMap
 (
 rule
--
->
+.
 mParams
 )
 ;
@@ -312,12 +310,10 @@ txExpandedName
 mode
 (
 rule
--
->
+.
 mModeNsId
 rule
--
->
+.
 mModeLocalName
 )
 ;
@@ -349,8 +345,7 @@ mode
 &
 aEs
 rule
--
->
+.
 mFrame
 &
 templ
@@ -371,8 +366,7 @@ pushTemplateRule
 frame
 mode
 rule
--
->
+.
 mParams
 )
 ;
