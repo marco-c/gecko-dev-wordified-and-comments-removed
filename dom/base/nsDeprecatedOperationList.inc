@@ -164,6 +164,10 @@ MathML_DeprecatedMunderNonExplicitAccentunder
 )
 DEPRECATED_OPERATION
 (
+MathML_DeprecatedHrefLinkOnNonAnchorElement
+)
+DEPRECATED_OPERATION
+(
 FormSubmissionUntrustedEvent
 )
 DEPRECATED_OPERATION
