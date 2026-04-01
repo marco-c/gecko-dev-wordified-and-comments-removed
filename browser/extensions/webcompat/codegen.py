@@ -382,15 +382,10 @@ interventions_dir
             
 )
         
-interventions
+input_files
 =
-{
-}
-        
-for
-name
-json_fd
-in
+list
+(
 FileFinder
 (
 interventions_dir
@@ -404,6 +399,18 @@ find
 json
 "
 )
+)
+        
+interventions
+=
+{
+}
+        
+for
+name
+json_fd
+in
+input_files
 :
             
 bug_number
@@ -540,6 +547,24 @@ output_fd
 write
 (
 subbed
+)
+        
+return
+set
+(
+[
+mozpath
+.
+abspath
+(
+name
+)
+for
+name
+_
+in
+input_files
+]
 )
 def
 main
