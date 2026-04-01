@@ -132,6 +132,11 @@ ConsoleInstance
 h
 "
 "
+ConsoleReportIPCUtils
+.
+h
+"
+"
 ConsoleUtils
 .
 h
