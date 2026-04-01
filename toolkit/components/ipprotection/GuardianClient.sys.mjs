@@ -127,7 +127,7 @@ defineESModuleGetters
 (
 lazy
 {
-IPPEnrollAndEntitleManager
+IPProtectionService
 :
 "
 moz
@@ -143,7 +143,7 @@ components
 /
 ipprotection
 /
-IPPEnrollAndEntitleManager
+IPProtectionService
 .
 sys
 .
@@ -1603,7 +1603,10 @@ tokenHandle
 await
 lazy
 .
-IPPEnrollAndEntitleManager
+IPProtectionService
+.
+authProvider
+?
 .
 getToken
 (
@@ -1999,7 +2002,10 @@ tokenHandle
 await
 lazy
 .
-IPPEnrollAndEntitleManager
+IPProtectionService
+.
+authProvider
+?
 .
 getToken
 (
@@ -2191,7 +2197,10 @@ tokenHandle
 await
 lazy
 .
-IPPEnrollAndEntitleManager
+IPProtectionService
+.
+authProvider
+?
 .
 getToken
 (
