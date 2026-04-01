@@ -5638,7 +5638,9 @@ loadGroup
 &
 &
 !
-mCheckingSessionHistory
+GetIsAttemptingToNavigate
+(
+)
 )
 {
 RefPtr
