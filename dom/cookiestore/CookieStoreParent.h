@@ -395,6 +395,9 @@ RecvClose
 void
 GetRequestOnMainThread
 (
+ThreadsafeContentParentHandle
+*
+aParent
 const
 RefPtr
 <
