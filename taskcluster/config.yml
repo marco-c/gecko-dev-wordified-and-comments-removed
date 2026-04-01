@@ -2817,6 +2817,17 @@ errorpages
 '
 browser
 -
+favicons
+'
+:
+'
+browser
+-
+favicons
+'
+'
+browser
+-
 icons
 '
 :
