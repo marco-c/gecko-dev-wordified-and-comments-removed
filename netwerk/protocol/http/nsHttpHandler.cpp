@@ -179,6 +179,15 @@ include
 "
 mozilla
 /
+EndianUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Printf
 .
 h
@@ -9058,7 +9067,8 @@ false
 nsAutoCString
 acceptDictionaryEncodings
 ;
-rv
+nsresult
+rvDic
 =
 Preferences
 :
@@ -9082,7 +9092,7 @@ if
 (
 NS_SUCCEEDED
 (
-rv
+rvDic
 )
 &
 &

@@ -87,6 +87,9 @@ nsICookieTransactionCallback
 class
 nsIEffectiveTLDService
 ;
+class
+nsIURI
+;
 namespace
 mozilla
 {
@@ -479,6 +482,12 @@ nsIEffectiveTLDService
 >
 mTLDService
 ;
+nsCOMPtr
+<
+nsIURI
+>
+mPlaceholderURI
+;
 struct
 CookieDomainTuple
 {
@@ -504,6 +513,12 @@ nsTArray
 CookieDomainTuple
 >
 mReadArray
+;
+nsTArray
+<
+CookieDomainTuple
+>
+mCleanupArray
 ;
 Monitor
 mMonitor
