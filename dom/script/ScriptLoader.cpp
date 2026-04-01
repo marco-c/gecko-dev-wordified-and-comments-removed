@@ -1182,9 +1182,6 @@ dom_script_loader_external_scripts_speculative_omt_parse_enabled
 (
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 !
@@ -1241,8 +1238,6 @@ this
 )
 ;
 }
-#
-endif
 mShutdownObserver
 =
 new
