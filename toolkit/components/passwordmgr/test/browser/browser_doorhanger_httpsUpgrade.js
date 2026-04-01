@@ -780,11 +780,12 @@ increased
 "
 )
 ;
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;

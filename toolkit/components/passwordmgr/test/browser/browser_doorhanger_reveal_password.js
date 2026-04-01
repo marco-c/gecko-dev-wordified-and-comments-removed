@@ -136,11 +136,12 @@ revealed
 }
 )
 ;
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;

@@ -1578,6 +1578,7 @@ uuid
 and
 updated
 timestamps
+async
 #
 addLogin
 (
@@ -2138,9 +2139,10 @@ numSavedPasswords
 .
 set
 (
+await
 this
 .
-countLogins
+countLoginsAsync
 (
 "
 "
@@ -2298,6 +2300,7 @@ guid
 const
 resultLogin
 =
+await
 this
 .
 #
