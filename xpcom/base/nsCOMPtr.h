@@ -304,6 +304,7 @@ aAlreadyAddRefedPtr
 }
 class
 MOZ_STACK_CLASS
+MOZ_NULL_AFTER_MOVE
 nsCOMPtr_helper
 {
 public
