@@ -12288,7 +12288,7 @@ vp
 ;
 auto
 *
-compare
+format
 =
 &
 args
@@ -12307,7 +12307,7 @@ JSFunction
 auto
 nfValue
 =
-compare
+format
 -
 >
 getExtendedSlot
