@@ -2190,6 +2190,7 @@ ProcessTouchData
 (
 mHandle
 report
+report_len
 )
 ;
 }

@@ -385,9 +385,12 @@ ProcessTouchData
 (
 GamepadHandle
 aHandle
-void
+const
+uint8_t
 *
 aInput
+size_t
+aInputLen
 )
 {
 }
