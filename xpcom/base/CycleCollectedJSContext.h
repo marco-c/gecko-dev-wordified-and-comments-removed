@@ -1256,6 +1256,12 @@ CycleCollectedJSContext
 *
 mContext
 ;
+CleanupRunnable
+*
+mPendingRunnable
+=
+nullptr
+;
 using
 CallbackVector
 =
