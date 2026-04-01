@@ -1219,14 +1219,6 @@ mozilla
 dom
 :
 :
-PopoverVisibilityState
-aOldState
-mozilla
-:
-:
-dom
-:
-:
 Element
 *
 aSource

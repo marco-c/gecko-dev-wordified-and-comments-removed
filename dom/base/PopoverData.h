@@ -94,6 +94,8 @@ nsWeakPtr
 aSource
 PopoverVisibilityState
 aOldState
+PopoverVisibilityState
+aNewState
 )
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
@@ -113,6 +115,16 @@ return
 mOldState
 ;
 }
+PopoverVisibilityState
+GetNewState
+(
+)
+const
+{
+return
+mNewState
+;
+}
 Element
 *
 GetSource
@@ -130,6 +142,9 @@ mSource
 ;
 PopoverVisibilityState
 mOldState
+;
+PopoverVisibilityState
+mNewState
 ;
 }
 ;
