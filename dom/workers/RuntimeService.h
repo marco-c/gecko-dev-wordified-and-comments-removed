@@ -322,6 +322,12 @@ mShuttingDown
 bool
 mNavigatorPropertiesLoaded
 ;
+bool
+mCleanedUp
+{
+false
+}
+;
 public
 :
 NS_DECL_ISUPPORTS

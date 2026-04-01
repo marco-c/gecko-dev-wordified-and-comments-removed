@@ -8131,6 +8131,18 @@ AssertIsOnMainThread
 ;
 if
 (
+mCleanedUp
+)
+{
+return
+;
+}
+mCleanedUp
+=
+true
+;
+if
+(
 !
 mShuttingDown
 )
@@ -8636,7 +8648,6 @@ mObserved
 false
 ;
 }
-}
 nsLayoutStatics
 :
 :
@@ -8644,6 +8655,7 @@ Release
 (
 )
 ;
+}
 }
 void
 RuntimeService
