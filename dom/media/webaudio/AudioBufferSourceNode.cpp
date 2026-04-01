@@ -751,6 +751,15 @@ SPEEX_RESAMPLER_QUALITY_MIN
 nullptr
 )
 ;
+if
+(
+!
+mResampler
+)
+{
+return
+;
+}
 }
 else
 {
