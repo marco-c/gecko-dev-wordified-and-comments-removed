@@ -28449,6 +28449,12 @@ mirror
 :
 always
 #
+if
+defined
+(
+NIGHTLY_BUILD
+)
+#
 For
 testing
 purposes
@@ -28473,7 +28479,7 @@ type
 bool
 value
 :
-IS_NIGHTLY_BUILD
+false
 mirror
 :
 always
@@ -28519,6 +28525,8 @@ true
 mirror
 :
 always
+#
+endif
 -
 name
 :
