@@ -11127,6 +11127,13 @@ attribute_tainted
 }
 }
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 SubstitutionResult
