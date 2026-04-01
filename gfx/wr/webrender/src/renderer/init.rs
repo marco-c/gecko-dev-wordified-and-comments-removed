@@ -1061,7 +1061,7 @@ precise_linear_gradients
 false
 use_quad_box_shadow
 :
-false
+true
 }
 }
 }
