@@ -347,7 +347,7 @@ moz
 -
 badge
 -
-beta
+beta2
 "
 ;
 }
@@ -369,7 +369,7 @@ moz
 -
 badge
 -
-new
+new2
 "
 ;
 }

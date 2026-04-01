@@ -7018,6 +7018,8 @@ Theme
 text
 /
 color
+/
+deemphasized
 }
 "
 "
@@ -7030,6 +7032,8 @@ Theme
 text
 /
 color
+/
+deemphasized
 }
 "
 "

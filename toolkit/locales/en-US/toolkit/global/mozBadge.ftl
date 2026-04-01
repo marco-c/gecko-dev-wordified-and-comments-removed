@@ -90,13 +90,13 @@ moz
 -
 badge
 -
-beta
+beta2
 =
-Beta
+BETA
 moz
 -
 badge
 -
-new
+new2
 =
-New
+NEW
