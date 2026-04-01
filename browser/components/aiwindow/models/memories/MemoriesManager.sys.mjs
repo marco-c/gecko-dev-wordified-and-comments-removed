@@ -2912,7 +2912,13 @@ MemoryStore
 .
 addMemory
 (
+{
+.
+.
+.
 memoryPartial
+source
+}
 )
 ;
 persistedMemories
