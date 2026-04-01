@@ -55325,11 +55325,9 @@ resource
 /
 devtools
 /
-client
+shared
 /
 webconsole
-/
-utils
 /
 l10n
 .
@@ -55340,11 +55338,9 @@ js
 "
 devtools
 /
-client
+shared
 /
 webconsole
-/
-utils
 /
 l10n
 .

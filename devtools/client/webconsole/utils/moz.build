@@ -75,11 +75,6 @@ generator
 js
 "
 "
-l10n
-.
-js
-"
-"
 messages
 .
 js
