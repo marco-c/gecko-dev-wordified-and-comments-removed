@@ -930,6 +930,16 @@ lastUsed
 ;
 if
 (
+queryContext
+.
+sapName
+!
+=
+"
+searchbar
+"
+&
+&
 results
 .
 length
