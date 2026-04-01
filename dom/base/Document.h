@@ -16320,8 +16320,10 @@ DecrementIgnoreOpensDuringUnloadCounter
 }
 private
 :
+RefPtr
+<
 Document
-*
+>
 mDoc
 ;
 }
