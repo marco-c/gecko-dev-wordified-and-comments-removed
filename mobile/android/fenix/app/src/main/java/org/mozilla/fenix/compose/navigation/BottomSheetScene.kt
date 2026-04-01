@@ -115,6 +115,14 @@ compose
 .
 ui
 .
+Alignment
+import
+androidx
+.
+compose
+.
+ui
+.
 Modifier
 import
 androidx
@@ -368,6 +376,8 @@ properties
 modalBottomSheetProperties
 dragHandle
 =
+null
+)
 {
 BottomSheetHandle
 (
@@ -381,6 +391,13 @@ modifier
 =
 Modifier
 .
+align
+(
+Alignment
+.
+CenterHorizontally
+)
+.
 padding
 (
 all
@@ -390,9 +407,6 @@ all
 dp
 )
 )
-}
-)
-{
 entry
 .
 Content
