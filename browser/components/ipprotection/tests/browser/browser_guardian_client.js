@@ -483,7 +483,7 @@ result
 await
 client
 .
-enroll
+enrollWithFxa
 (
 experimentType
 )
