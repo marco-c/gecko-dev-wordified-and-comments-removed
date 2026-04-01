@@ -224,6 +224,11 @@ mTicketCounter
 =
 0
 ;
+bool
+mShutdown
+=
+false
+;
 private
 :
 const

@@ -260,6 +260,11 @@ uint64_t
 >
 mMediaEngineId
 ;
+bool
+mShutdown
+=
+false
+;
 private
 :
 void
