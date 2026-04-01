@@ -285,10 +285,6 @@ mKey
 *
 aKey
 )
-mIndexed
-(
-false
-)
 {
 }
 txIndexedKeyHashEntry
@@ -310,6 +306,12 @@ mIndexed
 entry
 .
 mIndexed
+)
+mIsBeingIndexed
+(
+entry
+.
+mIsBeingIndexed
 )
 {
 }
@@ -354,6 +356,13 @@ mKey
 ;
 bool
 mIndexed
+=
+false
+;
+bool
+mIsBeingIndexed
+=
+false
 ;
 }
 ;
