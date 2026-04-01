@@ -3022,10 +3022,6 @@ WebRenderBridgeChild
 :
 StartCaptureSequence
 (
-const
-nsCString
-&
-aPath
 uint32_t
 aFlags
 )
@@ -3035,7 +3031,6 @@ this
 >
 SendStartCaptureSequence
 (
-aPath
 aFlags
 )
 ;

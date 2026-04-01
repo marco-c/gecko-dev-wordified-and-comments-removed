@@ -1564,10 +1564,6 @@ Capture
 void
 StartCaptureSequence
 (
-const
-nsACString
-&
-aPath
 uint32_t
 aFlags
 )

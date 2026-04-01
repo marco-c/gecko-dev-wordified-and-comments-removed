@@ -673,8 +673,6 @@ documentation
 async
 StartCaptureSequence
 (
-nsCString
-aPath
 uint32_t
 aFlags
 )
