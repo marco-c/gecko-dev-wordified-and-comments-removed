@@ -56,8 +56,10 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 MediaSystemResourceService
 )
 static
+already_AddRefed
+<
 MediaSystemResourceService
-*
+>
 Get
 (
 )
