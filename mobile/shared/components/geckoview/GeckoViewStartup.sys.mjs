@@ -1322,7 +1322,7 @@ GeckoView
 :
 AIFeature
 :
-Reset
+MakeAvailable
 "
 ]
 }

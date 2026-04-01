@@ -843,7 +843,7 @@ onErrorCalled
 Test
 fun
 WHEN
-resetFeature
+makeFeatureAvailable
 is
 called
 successfully
@@ -895,7 +895,7 @@ when
 (
 aiFeaturesAccessor
 .
-resetFeature
+makeFeatureAvailable
 (
 any
 (
@@ -923,7 +923,7 @@ engine
 .
 aiFeatures
 .
-resetFeature
+makeFeatureAvailable
 (
 featureId
 =
@@ -942,7 +942,7 @@ verify
 aiFeaturesAccessor
 )
 .
-resetFeature
+makeFeatureAvailable
 (
 featureId
 =
@@ -968,7 +968,7 @@ onErrorCalled
 Test
 fun
 WHEN
-resetFeature
+makeFeatureAvailable
 is
 called
 AND
@@ -1021,7 +1021,7 @@ when
 (
 aiFeaturesAccessor
 .
-resetFeature
+makeFeatureAvailable
 (
 any
 (
@@ -1045,7 +1045,7 @@ invoke
 (
 AIFeaturesError
 .
-CouldNotResetError
+CouldNotMakeAvailableError
 (
 null
 )
@@ -1055,7 +1055,7 @@ engine
 .
 aiFeatures
 .
-resetFeature
+makeFeatureAvailable
 (
 featureId
 =
@@ -1074,7 +1074,7 @@ verify
 aiFeaturesAccessor
 )
 .
-resetFeature
+makeFeatureAvailable
 (
 featureId
 =

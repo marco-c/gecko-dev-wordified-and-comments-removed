@@ -708,14 +708,14 @@ See
 [
 AIFeaturesRuntime
 .
-resetFeature
+makeFeatureAvailable
 ]
 .
 *
 /
 override
 fun
-resetFeature
+makeFeatureAvailable
 (
 featureId
 :
@@ -743,7 +743,7 @@ AIFeaturesController
 .
 RuntimeAIFeatures
 .
-resetFeature
+makeFeatureAvailable
 (
 featureId
 )

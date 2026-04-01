@@ -385,7 +385,7 @@ GeckoView
 :
 AIFeature
 :
-Reset
+MakeAvailable
 "
 :
 {

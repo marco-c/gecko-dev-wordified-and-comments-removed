@@ -198,7 +198,7 @@ UNSUPPORTED_ERROR
 *
 Enables
 or
-disables
+blocks
 the
 specified
 AI
@@ -233,7 +233,7 @@ the
 feature
 false
 to
-disable
+block
 it
 .
 *
@@ -301,15 +301,18 @@ UNSUPPORTED_ERROR
 *
 *
 *
-Resets
+Makes
 the
 given
 AI
 feature
+available
+(
+resets
 to
-its
 default
 state
+)
 .
 *
 *
@@ -321,8 +324,6 @@ of
 the
 AI
 feature
-to
-reset
 .
 *
 May
@@ -340,7 +341,7 @@ Callback
 invoked
 on
 successful
-reset
+call
 .
 *
 param
@@ -355,7 +356,7 @@ occurred
 *
 /
 fun
-resetFeature
+makeFeatureAvailable
 (
 featureId
 :

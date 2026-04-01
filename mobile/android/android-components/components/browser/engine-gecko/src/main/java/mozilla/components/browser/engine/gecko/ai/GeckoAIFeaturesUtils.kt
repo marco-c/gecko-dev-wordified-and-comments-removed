@@ -105,7 +105,7 @@ AIFeaturesController
 .
 AIFeaturesException
 .
-ERROR_COULD_NOT_PARSE
+ERROR_COULD_NOT_MAKE_AVAILABLE
 import
 org
 .
@@ -117,7 +117,7 @@ AIFeaturesController
 .
 AIFeaturesException
 .
-ERROR_COULD_NOT_RESET
+ERROR_COULD_NOT_PARSE
 import
 org
 .
@@ -279,12 +279,12 @@ CouldNotSetError
 (
 this
 )
-ERROR_COULD_NOT_RESET
+ERROR_COULD_NOT_MAKE_AVAILABLE
 -
 >
 AIFeaturesError
 .
-CouldNotResetError
+CouldNotMakeAvailableError
 (
 this
 )
