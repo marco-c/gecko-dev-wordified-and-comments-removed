@@ -4187,7 +4187,6 @@ mut
 self
 .
 qlog
-&
 [
 qlog
 :
