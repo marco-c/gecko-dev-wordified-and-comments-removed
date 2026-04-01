@@ -399,6 +399,9 @@ bits
 #
 [
 inline
+(
+always
+)
 ]
 pub
 fn

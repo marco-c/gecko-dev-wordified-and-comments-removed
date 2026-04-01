@@ -3237,6 +3237,13 @@ Ok
 patches_dict
 )
 }
+#
+[
+inline
+(
+always
+)
+]
 pub
 fn
 set_patches_for_row
@@ -3477,6 +3484,13 @@ sort
 )
 ;
 }
+#
+[
+inline
+(
+always
+)
+]
 pub
 fn
 add_one_row

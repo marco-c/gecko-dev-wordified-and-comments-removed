@@ -26,7 +26,7 @@ version
 .
 4
 .
-0
+1
 "
 readme
 =
@@ -130,11 +130,12 @@ jxl_transforms
 version
 =
 "
+=
 0
 .
 4
 .
-0
+1
 "
 }
 thiserror
@@ -219,7 +220,7 @@ version
 .
 4
 .
-0
+1
 "
 }
 jxl_simd
@@ -241,7 +242,7 @@ version
 .
 4
 .
-0
+1
 "
 }
 [
@@ -326,7 +327,7 @@ version
 .
 4
 .
-0
+1
 "
 features
 =

@@ -1,3 +1,10 @@
+#
+[
+inline
+(
+always
+)
+]
 pub
 fn
 mirror

@@ -10,6 +10,9 @@ SimdDescriptor
 #
 [
 inline
+(
+always
+)
 ]
 pub
 fn

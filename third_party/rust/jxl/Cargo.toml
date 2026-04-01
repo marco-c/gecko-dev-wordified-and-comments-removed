@@ -114,7 +114,7 @@ version
 .
 4
 .
-0
+1
 "
 authors
 =
@@ -350,7 +350,7 @@ version
 .
 4
 .
-0
+1
 "
 [
 dependencies
@@ -365,7 +365,7 @@ version
 .
 4
 .
-0
+1
 "
 [
 dependencies
@@ -375,11 +375,12 @@ jxl_transforms
 version
 =
 "
+=
 0
 .
 4
 .
-0
+1
 "
 [
 dependencies
@@ -471,7 +472,7 @@ version
 .
 4
 .
-0
+1
 "
 features
 =
