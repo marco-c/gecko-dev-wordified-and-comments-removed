@@ -912,6 +912,11 @@ enabled
 true
 }
 fxAccountToken
+chatId
+:
+conversation
+.
+id
 tool_choice
 :
 "

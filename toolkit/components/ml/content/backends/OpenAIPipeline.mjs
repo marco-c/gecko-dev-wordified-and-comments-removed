@@ -2208,6 +2208,13 @@ fxAccountToken
 null
 ;
 const
+chatId
+=
+request
+.
+chatId
+;
+const
 client
 =
 new
@@ -2282,6 +2289,13 @@ id
 "
 :
 engineId
+"
+chat
+-
+id
+"
+:
+chatId
 }
 }
 )
