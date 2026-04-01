@@ -28449,12 +28449,6 @@ mirror
 :
 always
 #
-if
-defined
-(
-NIGHTLY_BUILD
-)
-#
 For
 testing
 purposes
@@ -28525,8 +28519,6 @@ true
 mirror
 :
 always
-#
-endif
 -
 name
 :
