@@ -2935,6 +2935,20 @@ itertools
 import
 chain
         
+command_context
+.
+_virtualenv_name
+=
+"
+taskgraph
+"
+        
+command_context
+.
+activate_virtualenv
+(
+)
+        
 from
 gecko_taskgraph
 .
