@@ -228,10 +228,13 @@ JS
 :
 TimeClip
 (
+int64_t
+(
 mDate
 .
 Value
 (
+)
 )
 )
 )

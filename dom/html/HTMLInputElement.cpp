@@ -9699,7 +9699,10 @@ JS
 :
 TimeClip
 (
+int64_t
+(
 millisecond
+)
 )
 )
 ;
