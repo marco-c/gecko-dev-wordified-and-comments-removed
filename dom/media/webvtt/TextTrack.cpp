@@ -436,6 +436,14 @@ TextTrackMode
 aValue
 )
 {
+RefPtr
+<
+TextTrack
+>
+kungFuDeathGrip
+=
+this
+;
 if
 (
 mMode
