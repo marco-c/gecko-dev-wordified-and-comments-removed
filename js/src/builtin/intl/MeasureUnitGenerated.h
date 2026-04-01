@@ -1,11 +1,11 @@
 #
 ifndef
-intl_components_MeasureUnitGenerated_h
+builtin_intl_MeasureUnitGenerated_h
 #
 define
-intl_components_MeasureUnitGenerated_h
+builtin_intl_MeasureUnitGenerated_h
 namespace
-mozilla
+js
 :
 :
 intl
