@@ -2836,6 +2836,7 @@ username
 added_username
 "
 ;
+await
 LoginManagerPrompter
 .
 _updateLogin
