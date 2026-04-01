@@ -1342,8 +1342,10 @@ control
 }
 #
 endif
+RefPtr
+<
 Document
-*
+>
 doc
 =
 GetComposedDoc
