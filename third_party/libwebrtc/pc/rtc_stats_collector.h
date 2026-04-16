@@ -406,6 +406,10 @@ has_receivers
 =
 false
 ;
+const
+bool
+has_channel
+;
 }
 ;
 class
