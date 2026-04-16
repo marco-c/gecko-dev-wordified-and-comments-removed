@@ -381,6 +381,10 @@ bits
 .
 h
 *
+absl
+/
+crc
+*
 Single
 argument
 absl
