@@ -3682,6 +3682,17 @@ success
 )
 ;
 }
+MOZ_ASSERT
+(
+!
+zone
+-
+>
+hasPendingWrapperPreservations
+(
+)
+)
+;
 }
 void
 JSRuntime
