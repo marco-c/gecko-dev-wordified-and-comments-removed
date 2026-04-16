@@ -172,11 +172,11 @@ pdfjsVersion
 .
 7
 .
-97
+145
 *
 pdfjsBuild
 =
-a67b95211
+652700dac
 *
 /
 /
@@ -635,12 +635,6 @@ prop
 *
 *
 /
-var
-__webpack_exports__
-=
-{
-}
-;
 ;
 /
 /
@@ -80149,7 +80143,7 @@ viewerVersion
 .
 7
 .
-97
+145
 "
 ;
 if
