@@ -305,6 +305,7 @@ test
 -
 platform
 :
+macosx
 .
 *
 -
