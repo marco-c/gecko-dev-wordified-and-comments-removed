@@ -834,7 +834,7 @@ sequence_checker_
 ;
 RTC_LOG
 (
-LS_WARNING
+LS_VERBOSE
 )
 <
 <
