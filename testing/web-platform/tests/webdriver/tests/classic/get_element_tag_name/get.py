@@ -631,6 +631,6 @@ assert_success
 (
 result
 "
-input
+INPUT
 "
 )
