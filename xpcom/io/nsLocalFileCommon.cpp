@@ -190,6 +190,10 @@ com
 "
 "
 .
+command
+"
+"
+.
 cpl
 "
 "

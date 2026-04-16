@@ -752,10 +752,6 @@ class
 "
 "
 .
-command
-"
-"
-.
 configprofile
 "
 "
