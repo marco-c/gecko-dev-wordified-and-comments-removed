@@ -3481,7 +3481,7 @@ context
 if
 context
 .
-for_smil_animation
+for_animation
 {
 value
 }
