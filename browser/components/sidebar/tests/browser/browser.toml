@@ -96,6 +96,13 @@ Bug
 ]
 [
 "
+browser_delete_sidebar_history
+.
+js
+"
+]
+[
+"
 browser_domfullscreen_sidebar
 .
 js
