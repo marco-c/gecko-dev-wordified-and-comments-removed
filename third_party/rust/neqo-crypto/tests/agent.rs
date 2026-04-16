@@ -2362,7 +2362,7 @@ assert_eq
 (
 expected
 .
-as_ref
+as_deref
 (
 )
 client
@@ -2385,7 +2385,7 @@ assert_eq
 (
 expected
 .
-as_ref
+as_deref
 (
 )
 server
@@ -2654,7 +2654,7 @@ assert_eq
 (
 expected
 .
-as_ref
+as_deref
 (
 )
 client
@@ -2677,7 +2677,7 @@ assert_eq
 (
 expected
 .
-as_ref
+as_deref
 (
 )
 server
@@ -2840,7 +2840,7 @@ assert_eq
 (
 expected
 .
-as_ref
+as_deref
 (
 )
 client
@@ -2863,7 +2863,7 @@ assert_eq
 (
 expected
 .
-as_ref
+as_deref
 (
 )
 server

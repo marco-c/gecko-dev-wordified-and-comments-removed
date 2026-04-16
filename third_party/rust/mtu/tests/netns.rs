@@ -10,25 +10,6 @@ linux
 "
 )
 ]
-#
-!
-[
-expect
-(
-clippy
-:
-:
-unwrap_used
-reason
-=
-"
-OK
-in
-tests
-.
-"
-)
-]
 use
 std
 :
@@ -54,6 +35,8 @@ fd
 :
 :
 AsRawFd
+as
+_
 process
 :
 :
@@ -345,6 +328,9 @@ extend
 args
 )
 ;
+let
+o
+=
 Command
 :
 :
@@ -392,12 +378,8 @@ success
 (
 )
 )
-.
-and_then
-(
-|
-o
-|
+?
+;
 String
 :
 :
@@ -410,7 +392,6 @@ stdout
 .
 ok
 (
-)
 )
 }
 macro_rules
@@ -1187,7 +1168,7 @@ ns
 )
 ;
 let
-vi1
+inside1
 =
 unique_name
 (
@@ -1197,7 +1178,7 @@ v1i
 )
 ;
 let
-vo1
+outside1
 =
 unique_name
 (
@@ -1207,7 +1188,7 @@ v1o
 )
 ;
 let
-vi2
+inside2
 =
 unique_name
 (
@@ -1217,7 +1198,7 @@ v2i
 )
 ;
 let
-vo2
+outside2
 =
 unique_name
 (
@@ -1248,9 +1229,9 @@ VethPair
 new
 (
 &
-vi1
+inside1
 &
-vo1
+outside1
 )
 ?
 ;
@@ -1263,9 +1244,9 @@ VethPair
 new
 (
 &
-vi2
+inside2
 &
-vo2
+outside2
 )
 ?
 ;
@@ -1280,7 +1261,7 @@ link
 set
 "
 &
-vi1
+inside1
 "
 netns
 "
@@ -1300,7 +1281,7 @@ link
 set
 "
 &
-vi2
+inside2
 "
 netns
 "
@@ -1326,7 +1307,7 @@ ip1_in
 dev
 "
 &
-vi1
+inside1
 ]
 )
 ;
@@ -1343,7 +1324,7 @@ link
 set
 "
 &
-vi1
+inside1
 "
 mtu
 "
@@ -1369,7 +1350,7 @@ link
 set
 "
 &
-vi1
+inside1
 "
 up
 "
@@ -1393,7 +1374,7 @@ ip2_in
 dev
 "
 &
-vi2
+inside2
 ]
 )
 ;
@@ -1410,7 +1391,7 @@ link
 set
 "
 &
-vi2
+inside2
 "
 mtu
 "
@@ -1436,7 +1417,7 @@ link
 set
 "
 &
-vi2
+inside2
 "
 up
 "
@@ -1479,7 +1460,7 @@ ip1_out
 dev
 "
 &
-vo1
+outside1
 ]
 )
 ;
@@ -1494,7 +1475,7 @@ link
 set
 "
 &
-vo1
+outside1
 "
 up
 "
@@ -1516,7 +1497,7 @@ ip2_out
 dev
 "
 &
-vo2
+outside2
 ]
 )
 ;
@@ -1531,7 +1512,7 @@ link
 set
 "
 &
-vo2
+outside2
 "
 up
 "
@@ -1667,13 +1648,25 @@ as_ref
 (
 )
 .
-expect
+ok_or_else
+(
+|
+|
+io
+:
+:
+Error
+:
+:
+other
 (
 "
 namespace
-exists
+missing
 "
 )
+)
+?
 .
 run
 (
@@ -2269,7 +2262,7 @@ ns
 )
 ;
 let
-vi_main
+main_inside
 =
 unique_name
 (
@@ -2279,7 +2272,7 @@ vmi
 )
 ;
 let
-vo_main
+main_outside
 =
 unique_name
 (
@@ -2289,7 +2282,7 @@ vmo
 )
 ;
 let
-vi_vpn
+vpn_inside
 =
 unique_name
 (
@@ -2299,7 +2292,7 @@ vvi
 )
 ;
 let
-vo_vpn
+vpn_outside
 =
 unique_name
 (
@@ -2333,9 +2326,9 @@ VethPair
 new
 (
 &
-vi_main
+main_inside
 &
-vo_main
+main_outside
 )
 .
 unwrap
@@ -2351,9 +2344,9 @@ VethPair
 new
 (
 &
-vi_vpn
+vpn_inside
 &
-vo_vpn
+vpn_outside
 )
 .
 unwrap
@@ -2371,7 +2364,7 @@ link
 set
 "
 &
-vi_main
+main_inside
 "
 netns
 "
@@ -2391,7 +2384,7 @@ link
 set
 "
 &
-vi_vpn
+vpn_inside
 "
 netns
 "
@@ -2427,7 +2420,7 @@ add
 dev
 "
 &
-vi_main
+main_inside
 ]
 )
 ;
@@ -2444,7 +2437,7 @@ link
 set
 "
 &
-vi_main
+main_inside
 "
 mtu
 "
@@ -2467,7 +2460,7 @@ link
 set
 "
 &
-vi_main
+main_inside
 "
 up
 "
@@ -2501,7 +2494,7 @@ add
 dev
 "
 &
-vi_vpn
+vpn_inside
 ]
 )
 ;
@@ -2518,7 +2511,7 @@ link
 set
 "
 &
-vi_vpn
+vpn_inside
 "
 mtu
 "
@@ -2541,7 +2534,7 @@ link
 set
 "
 &
-vi_vpn
+vpn_inside
 "
 up
 "
@@ -2594,7 +2587,7 @@ add
 dev
 "
 &
-vo_main
+main_outside
 ]
 )
 ;
@@ -2609,7 +2602,7 @@ link
 set
 "
 &
-vo_main
+main_outside
 "
 mtu
 "
@@ -2630,7 +2623,7 @@ link
 set
 "
 &
-vo_main
+main_outside
 "
 up
 "
@@ -2662,7 +2655,7 @@ add
 dev
 "
 &
-vo_vpn
+vpn_outside
 ]
 )
 ;
@@ -2677,7 +2670,7 @@ link
 set
 "
 &
-vo_vpn
+vpn_outside
 "
 mtu
 "
@@ -2698,7 +2691,7 @@ link
 set
 "
 &
-vo_vpn
+vpn_outside
 "
 up
 "
@@ -2744,7 +2737,7 @@ via
 dev
 "
 &
-vi_main
+main_inside
 ]
 )
 ;
@@ -2787,7 +2780,7 @@ via
 dev
 "
 &
-vi_vpn
+vpn_inside
 "
 table
 "

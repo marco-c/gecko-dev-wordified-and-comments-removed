@@ -362,13 +362,7 @@ expansion
 )
 )
 .
-unwrap_or_else
-(
-|
-_
-|
-panic
-!
+expect
 (
 "
 Unable
@@ -377,6 +371,5 @@ access
 Retry
 AEAD
 "
-)
 )
 }
