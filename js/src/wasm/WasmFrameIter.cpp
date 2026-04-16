@@ -11663,6 +11663,12 @@ SymbolicAddress
 :
 PrintText
 :
+case
+SymbolicAddress
+:
+:
+Printf
+:
 #
 endif
 case
