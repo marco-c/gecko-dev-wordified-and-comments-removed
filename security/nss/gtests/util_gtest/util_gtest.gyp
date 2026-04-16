@@ -139,6 +139,11 @@ util_secasn1d_unittest
 cc
 '
 '
+util_secasn1e_unittest
+.
+cc
+'
+'
 util_select_unittest
 .
 cc

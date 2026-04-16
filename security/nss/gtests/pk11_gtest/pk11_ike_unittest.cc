@@ -6,13 +6,6 @@ memory
 #
 include
 "
-blapi
-.
-h
-"
-#
-include
-"
 gtest
 /
 gtest
