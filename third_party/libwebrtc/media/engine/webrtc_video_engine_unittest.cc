@@ -22063,6 +22063,10 @@ kVideoRotation_270
 ;
 RtpPacketReceived
 received_packet
+(
+&
+extension_map
+)
 ;
 ASSERT_TRUE
 (
