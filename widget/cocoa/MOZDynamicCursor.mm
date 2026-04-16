@@ -40,13 +40,6 @@ nsIFile
 .
 h
 "
-#
-include
-<
-math
-.
-h
->
 static
 MOZDynamicCursor
 *
@@ -60,7 +53,7 @@ sCurrentCursorScaleFactor
 .
 0f
 ;
-MOZ_RUNINIT
+constinit
 static
 nsIWidget
 :

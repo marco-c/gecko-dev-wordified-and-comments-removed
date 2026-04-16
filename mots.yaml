@@ -118,15 +118,15 @@ updated_at
 '
 2026
 -
-03
+04
 -
-20T09
+02T17
 :
-34
+59
 :
-11
+02
 .
-282579
+014303
 +
 00
 :
@@ -1532,6 +1532,8 @@ Fr
 d
 ric
 Wang
+N
+lar
 nick
 :
 fred
@@ -10629,7 +10631,7 @@ widget
 /
 cocoa
 /
-OSXNotificationCenter
+MacOSNotificationCenter
 *
 meta
 :
@@ -11511,7 +11513,7 @@ Core
 :
 Sandboxing
 (
-OSX
+macOS
 )
 '
 description
@@ -11519,7 +11521,7 @@ description
 Sandboxing
 for
 the
-OSX
+macOS
 platform
 includes
 :
@@ -20608,7 +20610,7 @@ hashes
 :
 config
 :
-8a84000338470da76a72781426a74b0e160c8a2e
+f068c5e2b2faa1f61fb51d2ea1f43a1e32806561
 export
 :
-d1955b830228b17ffcf1ed35b2798978aeb77381
+f1a8e33331930c7e04b6ca9c85c4df74c9ecc5f2

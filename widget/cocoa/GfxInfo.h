@@ -364,7 +364,7 @@ OperatingSystemVersion
 override
 {
 return
-mOSXVersion
+mMacOSVersion
 ;
 }
 protected
@@ -506,10 +506,10 @@ kMaxGPUs
 ]
 ;
 GfxVersionEx
-mOSXVersionEx
+mMacOSVersionEx
 ;
 uint32_t
-mOSXVersion
+mMacOSVersion
 ;
 }
 ;

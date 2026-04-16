@@ -3640,7 +3640,7 @@ aSystemOS
 OperatingSystem
 :
 :
-OSX
+MacOS
 )
 ;
 if
@@ -3730,7 +3730,7 @@ aBlockedOS
 OperatingSystem
 :
 :
-OSX
+MacOS
 )
 {
 return

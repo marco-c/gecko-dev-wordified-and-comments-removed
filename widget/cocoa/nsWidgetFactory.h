@@ -15,7 +15,7 @@ namespace
 mozilla
 {
 class
-OSXNotificationCenter
+MacOSNotificationCenter
 ;
 }
 namespace

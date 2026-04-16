@@ -1,9 +1,9 @@
 #
 ifndef
-OSXNotificationCenter_h
+MacOSNotificationCenter_h
 #
 define
-OSXNotificationCenter_h
+MacOSNotificationCenter_h
 #
 import
 <
@@ -43,10 +43,10 @@ namespace
 mozilla
 {
 class
-OSXNotificationInfo
+MacOSNotificationInfo
 ;
 class
-OSXNotificationCenter
+MacOSNotificationCenter
 :
 public
 nsIAlertsService
@@ -58,7 +58,7 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIALERTSSERVICE
 NS_DECL_NSIALERTSDONOTDISTURB
-OSXNotificationCenter
+MacOSNotificationCenter
 (
 )
 ;
@@ -92,7 +92,7 @@ protected
 :
 virtual
 ~
-OSXNotificationCenter
+MacOSNotificationCenter
 (
 )
 ;
@@ -106,7 +106,7 @@ nsTArray
 <
 RefPtr
 <
-OSXNotificationInfo
+MacOSNotificationInfo
 >
 >
 mActiveAlerts
