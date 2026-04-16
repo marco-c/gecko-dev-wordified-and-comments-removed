@@ -139,6 +139,13 @@ sys
 mjs
 "
 "
+PreferencesNavMap
+.
+sys
+.
+mjs
+"
+"
 PromptOptimizer
 .
 sys
@@ -161,6 +168,13 @@ mjs
 "
 "
 SecurityProperties
+.
+sys
+.
+mjs
+"
+"
+SmartWindowNavigationInfo
 .
 sys
 .
