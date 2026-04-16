@@ -275,6 +275,8 @@ security_properties_jsonb
 BLOB
 seen_urls_jsonb
 BLOB
+memories_toggled
+BOOLEAN
 )
 WITHOUT
 ROWID
@@ -485,6 +487,7 @@ status
 active_branch_tip_message_id
 security_properties_jsonb
 seen_urls_jsonb
+memories_toggled
 )
 VALUES
 (
@@ -519,6 +522,8 @@ jsonb
 :
 seen_urls
 )
+:
+memories_toggled
 )
 ON
 CONFLICT
@@ -558,6 +563,10 @@ jsonb
 :
 seen_urls
 )
+memories_toggled
+=
+:
+memories_toggled
 ;
 ;
 export
@@ -743,6 +752,7 @@ seen_urls_jsonb
 )
 AS
 seen_urls
+memories_toggled
 FROM
 conversation
 WHERE
@@ -783,6 +793,7 @@ seen_urls_jsonb
 )
 AS
 seen_urls
+memories_toggled
 FROM
 conversation
 WHERE
@@ -856,6 +867,9 @@ seen_urls_jsonb
 )
 AS
 seen_urls
+c
+.
+memories_toggled
 FROM
 conversation
 c
@@ -1376,6 +1390,9 @@ seen_urls_jsonb
 )
 AS
 seen_urls
+c
+.
+memories_toggled
 FROM
 conversation
 c
@@ -1457,6 +1474,9 @@ seen_urls_jsonb
 )
 AS
 seen_urls
+c
+.
+memories_toggled
 FROM
 conversation
 c
@@ -1545,6 +1565,9 @@ seen_urls_jsonb
 )
 AS
 seen_urls
+c
+.
+memories_toggled
 json_extract
 (
 m

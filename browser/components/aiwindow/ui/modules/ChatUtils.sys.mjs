@@ -456,6 +456,16 @@ seenUrlsArray
 :
 [
 ]
+memoriesToggled
+:
+row
+.
+getResultByName
+(
+"
+memories_toggled
+"
+)
 }
 )
 ;
