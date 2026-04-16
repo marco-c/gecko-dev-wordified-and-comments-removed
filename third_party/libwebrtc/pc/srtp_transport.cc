@@ -32,15 +32,6 @@ include
 "
 api
 /
-array_view
-.
-h
-"
-#
-include
-"
-api
-/
 field_trials_view
 .
 h
