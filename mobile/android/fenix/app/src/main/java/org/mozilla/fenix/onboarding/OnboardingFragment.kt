@@ -259,6 +259,16 @@ utils
 .
 Browsers
 import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+BuildManufacturerChecker
+import
 org
 .
 mozilla
@@ -2700,6 +2710,9 @@ not
 (
 )
 jexlConditions
+BuildManufacturerChecker
+(
+)
 )
 {
 condition
