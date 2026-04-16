@@ -4827,6 +4827,11 @@ file_wrapper
 system_wrappers
 "
 "
+fuzzers
+:
+fuzz_data_helper_unittest
+"
+"
 jitter
 :
 jitter_unittests

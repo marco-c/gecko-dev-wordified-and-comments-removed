@@ -195,7 +195,6 @@ fuzz_data
 .
 CopyTo
 (
-&
 input
 [
 0
