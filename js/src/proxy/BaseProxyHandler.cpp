@@ -1996,7 +1996,6 @@ proxy
 )
 ;
 }
-JS_PUBLIC_API
 void
 js
 :

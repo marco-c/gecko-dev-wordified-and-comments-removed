@@ -95,6 +95,17 @@ include
 "
 js
 /
+friend
+/
+Wrapper
+.
+h
+"
+#
+include
+"
+js
+/
 Object
 .
 h

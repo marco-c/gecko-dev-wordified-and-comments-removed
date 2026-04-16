@@ -2222,7 +2222,6 @@ singleton
 0u
 )
 ;
-JS_PUBLIC_API
 void
 js
 :
