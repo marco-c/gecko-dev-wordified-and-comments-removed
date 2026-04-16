@@ -4010,16 +4010,6 @@ if
 shadowRoot
 )
 {
-MOZ_ASSERT
-(
-StaticPrefs
-:
-:
-dom_shadowdom_selection_across_boundary_enabled
-(
-)
-)
-;
 SerializeToStringRecursive
 (
 shadowRoot

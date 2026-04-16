@@ -369,17 +369,6 @@ empty
 (
 )
 ;
-[
-Pref
-=
-"
-dom
-.
-shadowdom
-.
-selection_across_boundary_enabled
-"
-]
 sequence
 <
 StaticRange
