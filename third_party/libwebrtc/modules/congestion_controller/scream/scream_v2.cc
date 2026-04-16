@@ -767,7 +767,7 @@ if
 (
 delay_based_congestion_control_
 .
-ShouldReduceReferenceWindow
+IsQueueDelayDetected
 (
 )
 )
