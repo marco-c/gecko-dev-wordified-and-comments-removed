@@ -2705,7 +2705,7 @@ containerQuery
 containerQueryData
 .
 containerQuery
-matched
+hasContainer
 :
 true
 }
@@ -2765,7 +2765,7 @@ const
 {
 containerName
 containerQuery
-matched
+hasContainer
 }
 =
 containerQueryData
@@ -2798,7 +2798,7 @@ tooltip
 +
 (
 !
-matched
+hasContainer
 ?
 "
 unmatched
@@ -2834,7 +2834,7 @@ containerName
 }
 if
 (
-matched
+hasContainer
 )
 {
 const

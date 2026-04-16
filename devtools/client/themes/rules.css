@@ -5399,12 +5399,6 @@ container
 -
 condition
 :
-not
-(
-.
-unmatched
-)
-:
 is
 (
 :
@@ -5796,6 +5790,10 @@ legible
 /
 :
 hover
+.
+tooltip
+-
+anchor
 )
 {
 text

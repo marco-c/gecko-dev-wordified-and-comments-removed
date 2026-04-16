@@ -561,12 +561,6 @@ closest
 container
 -
 condition
-:
-not
-(
-.
-unmatched
-)
 "
 )
 )
