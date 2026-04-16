@@ -264,7 +264,6 @@ occur
 *
 /
 export
-default
 class
 MozPageHeader
 extends

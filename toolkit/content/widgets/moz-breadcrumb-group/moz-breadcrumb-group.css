@@ -211,10 +211,6 @@ flex
 ;
 width
 :
-auto
-;
-height
-:
 var
 (
 -
@@ -225,6 +221,12 @@ icon
 -
 size
 )
+;
+aspect
+-
+ratio
+:
+1
 ;
 -
 moz
