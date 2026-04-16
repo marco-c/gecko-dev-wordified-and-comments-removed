@@ -242,6 +242,13 @@ listOf
 (
 Destinations
 .
+ICONS
+to
+"
+Icons
+"
+Destinations
+.
 BANNER
 to
 "

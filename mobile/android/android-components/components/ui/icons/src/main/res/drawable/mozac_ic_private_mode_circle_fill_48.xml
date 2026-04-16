@@ -135,7 +135,8 @@ android
 fillColor
 =
 "
-?
+color
+/
 mozac_ic_private_mode_circle_fill_background_color
 "
 android
@@ -171,7 +172,8 @@ android
 fillColor
 =
 "
-?
+color
+/
 mozac_ic_private_mode_circle_fill_icon_color
 "
 android
