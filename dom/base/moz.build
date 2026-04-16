@@ -616,6 +616,11 @@ nsWrapperCacheInlines
 h
 "
 "
+SharedLcpMarkerState
+.
+h
+"
+"
 XPathGenerator
 .
 h
