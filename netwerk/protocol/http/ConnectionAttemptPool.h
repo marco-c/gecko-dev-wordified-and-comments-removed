@@ -115,6 +115,10 @@ abandon
 void
 CloseAllConnectionAttempts
 (
+bool
+aReenqueueTransaction
+=
+false
 )
 ;
 uint32_t
