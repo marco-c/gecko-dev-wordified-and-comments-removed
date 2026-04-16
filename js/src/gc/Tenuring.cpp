@@ -4497,7 +4497,15 @@ base
 MOZ_ASSERT
 (
 offset
++
+this
+-
+>
+length
+(
+)
 <
+=
 promotedBase
 -
 >
