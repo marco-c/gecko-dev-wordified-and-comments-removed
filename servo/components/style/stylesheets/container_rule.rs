@@ -1431,9 +1431,6 @@ None
 }
 }
 pub
-(
-crate
-)
 fn
 matches
 <

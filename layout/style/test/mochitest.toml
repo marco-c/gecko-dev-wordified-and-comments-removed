@@ -2895,6 +2895,13 @@ html
 ]
 [
 "
+test_query_condition_matches_element
+.
+html
+"
+]
+[
+"
 test_query_container_for
 .
 html
