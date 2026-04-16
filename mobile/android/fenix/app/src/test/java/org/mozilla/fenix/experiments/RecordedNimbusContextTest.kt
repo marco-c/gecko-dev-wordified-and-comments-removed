@@ -565,6 +565,13 @@ tou_points
 "
 3
 )
+put
+(
+"
+user_disabled_ai
+"
+true
+)
 }
 contextAsJson
 )
@@ -839,6 +846,13 @@ put
 tou_points
 "
 3
+)
+put
+(
+"
+user_disabled_ai
+"
+true
 )
 }
 recordedValue
