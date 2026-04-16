@@ -7,13 +7,6 @@ mozilla_RubyUtils_h_
 #
 include
 "
-nsGkAtoms
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h

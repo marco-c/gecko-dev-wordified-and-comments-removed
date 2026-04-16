@@ -16,13 +16,6 @@ nsContentCreatorFunctions
 .
 h
 "
-#
-include
-"
-nsGkAtoms
-.
-h
-"
 using
 namespace
 mozilla

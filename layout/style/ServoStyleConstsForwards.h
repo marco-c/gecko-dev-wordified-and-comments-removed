@@ -144,13 +144,6 @@ h
 #
 include
 "
-nsGkAtoms
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h
@@ -175,6 +168,9 @@ nsCSSPropertyIDSet
 ;
 class
 nsPresContext
+;
+class
+nsStaticAtom
 ;
 class
 nsSimpleContentList

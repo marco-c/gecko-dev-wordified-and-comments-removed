@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsGkAtoms
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h
