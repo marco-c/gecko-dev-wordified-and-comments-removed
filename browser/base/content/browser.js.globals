@@ -710,4 +710,7 @@ ProfilesDatastoreService
 "
 gTrustPanelHandler
 "
+"
+ContentSharingUtils
+"
 ]
