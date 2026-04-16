@@ -2764,17 +2764,6 @@ nsRect
 &
 )
 ;
-virtual
-bool
-ShouldPropagateComputedBSizeToScrolledContent
-(
-)
-const
-{
-return
-true
-;
-}
 PhysicalAxes
 GetOverflowAxes
 (
