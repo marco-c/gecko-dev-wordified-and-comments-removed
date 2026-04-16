@@ -1500,6 +1500,16 @@ us
 1
 )
 ;
+decodedImage
+.
+set_content_type
+(
+frame_info
+-
+>
+content_type
+)
+;
 receive_callback_
 -
 >
