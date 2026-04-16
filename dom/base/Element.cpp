@@ -24767,6 +24767,9 @@ FullscreenRequest
 Create
 (
 this
+aOptions
+.
+mKeyboardLock
 aCallerType
 aRv
 )

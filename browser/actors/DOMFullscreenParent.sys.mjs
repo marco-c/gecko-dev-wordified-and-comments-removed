@@ -958,6 +958,16 @@ windowUtils
 remoteFrameFullscreenChanged
 (
 browser
+aMessage
+.
+data
+.
+fullscreenKeyboardLock
+=
+=
+"
+browser
+"
 )
 ;
 break

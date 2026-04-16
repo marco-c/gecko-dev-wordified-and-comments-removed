@@ -764,6 +764,11 @@ DOMFullscreen
 Request
 "
 {
+fullscreenKeyboardLock
+:
+aEvent
+.
+detail
 }
 )
 ;
