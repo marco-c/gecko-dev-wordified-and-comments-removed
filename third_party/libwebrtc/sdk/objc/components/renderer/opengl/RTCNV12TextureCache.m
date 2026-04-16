@@ -426,6 +426,12 @@ void
 )
 releaseTextures
 {
+CVOpenGLESTextureCacheFlush
+(
+_textureCache
+0
+)
+;
 if
 (
 _uvTextureRef
