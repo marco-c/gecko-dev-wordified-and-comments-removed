@@ -86,13 +86,6 @@ h
 #
 include
 "
-nsGkAtoms
-.
-h
-"
-#
-include
-"
 nsNodeInfoManager
 .
 h

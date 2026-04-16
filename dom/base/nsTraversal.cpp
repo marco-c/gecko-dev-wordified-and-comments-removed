@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsGkAtoms
-.
-h
-"
-#
-include
-"
 nsINode
 .
 h

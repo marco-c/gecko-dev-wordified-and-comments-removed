@@ -37,13 +37,6 @@ h
 #
 include
 "
-nsGkAtoms
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h

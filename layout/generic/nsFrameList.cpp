@@ -51,13 +51,6 @@ h
 #
 include
 "
-nsGkAtoms
-.
-h
-"
-#
-include
-"
 nsILineIterator
 .
 h
