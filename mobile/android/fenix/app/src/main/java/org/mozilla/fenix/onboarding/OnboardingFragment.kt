@@ -2421,6 +2421,15 @@ requireContext
 settings
 (
 )
+settings
+.
+onboardingCompletedTimestamp
+=
+System
+.
+currentTimeMillis
+(
+)
 /
 /
 Telemetry
