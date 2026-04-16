@@ -39764,6 +39764,8 @@ constructor
 .
 https
 .
+sub
+.
 any
 .
 js
@@ -39840,6 +39842,8 @@ crash
 .
 https
 .
+sub
+.
 window
 .
 js
@@ -39893,6 +39897,8 @@ webtransport
 idlharness
 .
 https
+.
+sub
 .
 any
 .
