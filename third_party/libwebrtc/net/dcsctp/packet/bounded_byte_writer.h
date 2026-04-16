@@ -402,7 +402,7 @@ SubSize
 (
 data_
 .
-subview
+subspan
 (
 FixedSize
 +

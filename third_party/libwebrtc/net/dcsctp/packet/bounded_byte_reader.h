@@ -389,7 +389,7 @@ sub_span
 =
 data_
 .
-subview
+subspan
 (
 FixedSize
 +
@@ -439,15 +439,8 @@ const
 return
 data_
 .
-subview
+subspan
 (
-FixedSize
-data_
-.
-size
-(
-)
--
 FixedSize
 )
 ;

@@ -789,7 +789,7 @@ span
 =
 payload
 .
-subview
+subspan
 (
 (
 tsns
@@ -1102,7 +1102,7 @@ span
 =
 payload
 .
-subview
+subspan
 (
 (
 tsns
@@ -1213,7 +1213,7 @@ kStreamID
 kPPID
 payload
 .
-subview
+subspan
 (
 0
 4
@@ -1225,7 +1225,7 @@ kStreamID
 kPPID
 payload
 .
-subview
+subspan
 (
 4
 4
@@ -1237,7 +1237,7 @@ kStreamID
 kPPID
 payload
 .
-subview
+subspan
 (
 8
 4
@@ -1249,7 +1249,7 @@ kStreamID
 kPPID
 payload
 .
-subview
+subspan
 (
 12
 4
@@ -3288,7 +3288,7 @@ span
 =
 payload
 .
-subview
+subspan
 (
 *
 fsns

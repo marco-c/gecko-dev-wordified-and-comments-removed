@@ -608,7 +608,7 @@ kHeaderSize
 (
 data
 .
-subview
+subspan
 (
 0
 length

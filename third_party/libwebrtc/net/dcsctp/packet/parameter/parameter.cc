@@ -233,7 +233,7 @@ emplace_back
 type
 span
 .
-subview
+subspan
 (
 0
 length
@@ -266,7 +266,7 @@ span
 =
 span
 .
-subview
+subspan
 (
 length_with_padding
 )
@@ -435,7 +435,7 @@ span
 =
 span
 .
-subview
+subspan
 (
 length_with_padding
 )
