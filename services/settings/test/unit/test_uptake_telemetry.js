@@ -40,11 +40,9 @@ resource
 /
 services
 -
-common
+settings
 /
-uptake
--
-telemetry
+UptakeTelemetry
 .
 sys
 .

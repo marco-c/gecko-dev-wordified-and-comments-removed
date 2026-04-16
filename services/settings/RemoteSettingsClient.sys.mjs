@@ -286,11 +286,9 @@ resource
 /
 services
 -
-common
+settings
 /
-uptake
--
-telemetry
+UptakeTelemetry
 .
 sys
 .
@@ -315,13 +313,6 @@ mjs
 "
 }
 )
-;
-const
-TELEMETRY_COMPONENT
-=
-"
-Remotesettings
-"
 ;
 ChromeUtils
 .
@@ -1332,7 +1323,6 @@ UptakeTelemetry
 .
 report
 (
-TELEMETRY_COMPONENT
 lazy
 .
 UptakeTelemetry
@@ -1468,7 +1458,6 @@ UptakeTelemetry
 .
 report
 (
-TELEMETRY_COMPONENT
 status
 {
 source
@@ -4931,7 +4920,6 @@ UptakeTelemetry
 .
 report
 (
-TELEMETRY_COMPONENT
 lazy
 .
 UptakeTelemetry
@@ -6704,7 +6692,6 @@ UptakeTelemetry
 .
 report
 (
-TELEMETRY_COMPONENT
 reportStatus
 reportArgs
 )
