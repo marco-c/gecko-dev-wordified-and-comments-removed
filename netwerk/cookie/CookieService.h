@@ -489,6 +489,12 @@ CookieStorage
 >
 mPrivateStorage
 ;
+RefPtr
+<
+CookieStorage
+>
+mDummyStorage
+;
 private
 :
 nsresult
@@ -543,6 +549,12 @@ nsICookieValidation
 *
 *
 aValidation
+)
+;
+CookieStorage
+*
+MaybeCreateDummyStorage
+(
 )
 ;
 }
