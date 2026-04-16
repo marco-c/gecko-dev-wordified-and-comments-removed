@@ -217,12 +217,11 @@ XRE_IsContentProcess
 )
 )
 ;
-RemoteSpellcheckEngineChild
-:
-:
-Send__delete__
-(
 mEngine
+-
+>
+Destroy
+(
 )
 ;
 MOZ_ASSERT
