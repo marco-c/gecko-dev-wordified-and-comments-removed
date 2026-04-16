@@ -187,6 +187,7 @@ EventHandler
 ondisconnect
 ;
 [
+UseCounter
 Throws
 ]
 Promise
@@ -201,6 +202,7 @@ getPorts
 )
 ;
 [
+UseCounter
 Exposed
 =
 Window

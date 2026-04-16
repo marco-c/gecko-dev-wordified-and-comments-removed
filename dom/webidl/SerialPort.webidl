@@ -298,6 +298,7 @@ getInfo
 )
 ;
 [
+UseCounter
 Throws
 ]
 Promise
