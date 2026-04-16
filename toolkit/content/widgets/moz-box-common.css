@@ -1308,6 +1308,17 @@ box
 padding
 )
 ;
+gap
+:
+var
+(
+-
+-
+space
+-
+small
+)
+;
 text
 -
 align
