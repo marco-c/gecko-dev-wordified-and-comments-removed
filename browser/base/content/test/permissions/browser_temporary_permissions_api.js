@@ -801,7 +801,7 @@ perms
 .
 ALLOW_ACTION
 browserId
-2000
+500
 )
 ;
 await
