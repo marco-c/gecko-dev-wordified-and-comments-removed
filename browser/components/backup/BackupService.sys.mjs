@@ -28026,6 +28026,7 @@ disableEncryption
 )
 ;
 }
+await
 this
 .
 deleteLastBackup
