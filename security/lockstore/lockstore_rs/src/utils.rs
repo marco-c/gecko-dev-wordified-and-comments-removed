@@ -8,9 +8,6 @@ use
 kvstore
 :
 :
-skv
-:
-:
 Value
 ;
 pub
