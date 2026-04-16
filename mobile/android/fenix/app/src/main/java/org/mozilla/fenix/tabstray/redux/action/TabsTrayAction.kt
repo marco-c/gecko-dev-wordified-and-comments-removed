@@ -307,10 +307,10 @@ set
 /
 data
 class
-AddSelectTab
+AddSelectTabItem
 (
 val
-tab
+item
 :
 TabsTrayItem
 )
@@ -334,10 +334,10 @@ set
 /
 data
 class
-RemoveSelectTab
+RemoveSelectTabItem
 (
 val
-tab
+item
 :
 TabsTrayItem
 )

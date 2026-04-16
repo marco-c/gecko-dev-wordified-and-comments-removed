@@ -540,7 +540,7 @@ dispatch
 (
 TabsTrayAction
 .
-AddSelectTab
+AddSelectTabItem
 (
 mockk
 (

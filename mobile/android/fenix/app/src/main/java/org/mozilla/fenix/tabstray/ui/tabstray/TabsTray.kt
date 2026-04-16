@@ -1789,7 +1789,7 @@ topAppBarScrollBehavior
 =
 TopAppBarDefaults
 .
-enterAlwaysScrollBehavior
+pinnedScrollBehavior
 (
 )
 val
@@ -2758,7 +2758,7 @@ dispatch
 (
 TabsTrayAction
 .
-RemoveSelectTab
+RemoveSelectTabItem
 (
 tab
 )
@@ -2772,7 +2772,7 @@ dispatch
 (
 TabsTrayAction
 .
-AddSelectTab
+AddSelectTabItem
 (
 tab
 )
@@ -2793,7 +2793,7 @@ dispatch
 (
 TabsTrayAction
 .
-AddSelectTab
+AddSelectTabItem
 (
 tab
 )

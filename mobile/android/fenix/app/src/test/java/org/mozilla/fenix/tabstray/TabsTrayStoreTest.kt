@@ -239,7 +239,7 @@ dispatch
 (
 TabsTrayAction
 .
-AddSelectTab
+AddSelectTabItem
 (
 TabsTrayItem
 .
@@ -400,7 +400,7 @@ dispatch
 (
 TabsTrayAction
 .
-AddSelectTab
+AddSelectTabItem
 (
 TabsTrayItem
 .
@@ -500,7 +500,7 @@ dispatch
 (
 TabsTrayAction
 .
-AddSelectTab
+AddSelectTabItem
 (
 tabForRemoval
 )
@@ -511,7 +511,7 @@ dispatch
 (
 TabsTrayAction
 .
-AddSelectTab
+AddSelectTabItem
 (
 TabsTrayItem
 .
@@ -554,7 +554,7 @@ dispatch
 (
 TabsTrayAction
 .
-RemoveSelectTab
+RemoveSelectTabItem
 (
 tabForRemoval
 )

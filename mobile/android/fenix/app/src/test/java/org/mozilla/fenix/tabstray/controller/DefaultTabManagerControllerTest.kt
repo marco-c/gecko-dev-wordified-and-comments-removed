@@ -4838,7 +4838,7 @@ dispatch
 (
 TabsTrayAction
 .
-AddSelectTab
+AddSelectTabItem
 (
 tab1
 )
@@ -4849,7 +4849,7 @@ dispatch
 (
 TabsTrayAction
 .
-AddSelectTab
+AddSelectTabItem
 (
 tab2
 )
@@ -4870,7 +4870,7 @@ assertLastAction
 (
 TabsTrayAction
 .
-RemoveSelectTab
+RemoveSelectTabItem
 :
 :
 class
@@ -4881,7 +4881,7 @@ assertEquals
 tab1
 it
 .
-tab
+item
 )
 }
 controller
@@ -4900,7 +4900,7 @@ assertLastAction
 (
 TabsTrayAction
 .
-RemoveSelectTab
+RemoveSelectTabItem
 :
 :
 class
@@ -4911,7 +4911,7 @@ assertEquals
 tab2
 it
 .
-tab
+item
 )
 }
 }
@@ -5050,7 +5050,7 @@ dispatch
 (
 TabsTrayAction
 .
-AddSelectTab
+AddSelectTabItem
 (
 tab1
 )
@@ -5071,7 +5071,7 @@ assertLastAction
 (
 TabsTrayAction
 .
-AddSelectTab
+AddSelectTabItem
 :
 :
 class
@@ -5082,7 +5082,7 @@ assertEquals
 tab2
 it
 .
-tab
+item
 )
 }
 }
@@ -5226,7 +5226,7 @@ dispatch
 (
 TabsTrayAction
 .
-AddSelectTab
+AddSelectTabItem
 (
 normalTab
 )
@@ -5244,7 +5244,7 @@ assertLastAction
 (
 TabsTrayAction
 .
-AddSelectTab
+AddSelectTabItem
 :
 :
 class
@@ -5255,7 +5255,7 @@ assertEquals
 normalTab
 it
 .
-tab
+item
 )
 }
 }
@@ -7628,7 +7628,7 @@ dispatch
 (
 TabsTrayAction
 .
-AddSelectTab
+AddSelectTabItem
 (
 currentTab
 )
