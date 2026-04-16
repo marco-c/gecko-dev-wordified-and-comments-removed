@@ -118,8 +118,9 @@ android
 fillColor
 =
 "
-#
-000
+color
+/
+mozac_ui_icons_fill
 "
 android
 :
@@ -402,8 +403,9 @@ android
 fillColor
 =
 "
-#
-000
+color
+/
+mozac_ui_icons_fill
 "
 android
 :
