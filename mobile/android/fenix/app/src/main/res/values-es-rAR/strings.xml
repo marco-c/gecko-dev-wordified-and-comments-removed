@@ -17587,7 +17587,7 @@ name
 preferences_downloads_delete_from_device
 "
 >
-Eliminar
+Borrar
 del
 dispositivo
 <
@@ -17605,11 +17605,12 @@ preferences_downloads_delete_from_device_description
 El
 archivo
 se
-elimin
-de
-su
+borr
+del
 dispositivo
 y
+se
+elimin
 del
 historial
 de
@@ -17626,7 +17627,7 @@ name
 preferences_downloads_remove_from_download_history
 "
 >
-Eliminar
+Borrar
 del
 historial
 de
@@ -17673,7 +17674,7 @@ preferences_downloads_ask_when_to_delete_files
 >
 Preguntar
 cuando
-elimine
+borre
 archivos
 <
 /
@@ -30491,7 +30492,7 @@ name
 download_delete_dialog_from_device
 "
 >
-Eliminar
+Borrar
 del
 dispositivo
 <
@@ -32015,6 +32016,8 @@ download_rename_and_change_location_dialog_title
 Descargar
 archivo
 ?
+\
+n
 (
 %
 s
@@ -38898,8 +38901,7 @@ enlace
 con
 personas
 cercanas
-p
-dales
+pediles
 que
 escaneen
 el
