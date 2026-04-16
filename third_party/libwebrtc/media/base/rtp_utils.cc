@@ -337,6 +337,15 @@ size
 tag_length
 )
 ;
+RTC_DCHECK_LE
+(
+tag_length
+sizeof
+(
+kFakeAuthTag
+)
+)
+;
 RTC_DCHECK_EQ
 (
 0
