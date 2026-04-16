@@ -6,6 +6,18 @@ define
 KYBER_UTIL_H
 #
 define
+MLKEM512_PUBLIC_KEY_BYTES
+800U
+#
+define
+MLKEM512_PRIVATE_KEY_BYTES
+1632U
+#
+define
+MLKEM512_CIPHERTEXT_BYTES
+768U
+#
+define
 KYBER768_PUBLIC_KEY_BYTES
 1184U
 #
@@ -62,6 +74,7 @@ params_ml_kem768
 params_ml_kem768_test_mode
 params_ml_kem1024
 params_ml_kem1024_test_mode
+params_ml_kem512
 }
 KyberParams
 ;

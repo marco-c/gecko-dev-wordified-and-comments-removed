@@ -532,7 +532,7 @@ keySchedule
 1
 ]
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i

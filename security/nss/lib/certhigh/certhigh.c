@@ -3955,6 +3955,8 @@ nssUsage
 ;
 int
 i
+=
+0
 len
 ;
 NSSTrustDomain
@@ -4139,10 +4141,6 @@ certs
 goto
 loser
 ;
-i
-=
-0
-;
 stanCert
 =
 stanChain
@@ -4235,11 +4233,6 @@ derCert
 SECSuccess
 )
 {
-CERT_DestroyCertificate
-(
-cCert
-)
-;
 goto
 loser
 ;
@@ -4325,10 +4318,6 @@ chain
 ;
 loser
 :
-i
-=
-0
-;
 stanCert
 =
 stanChain

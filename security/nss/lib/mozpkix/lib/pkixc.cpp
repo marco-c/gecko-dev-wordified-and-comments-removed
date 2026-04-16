@@ -770,6 +770,11 @@ certificates
 certificateLengths
 |
 |
+numCertificates
+<
+1
+|
+|
 !
 rootSHA256Digest
 )

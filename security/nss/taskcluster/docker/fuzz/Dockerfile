@@ -168,6 +168,10 @@ clang
 \
 clang
 -
+tidy
+\
+clang
+-
 tools
 \
 cmake
