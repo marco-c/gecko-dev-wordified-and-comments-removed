@@ -24747,10 +24747,6 @@ Element
 :
 RequestFullscreen
 (
-const
-RequestFullscreenOptions
-&
-aOptions
 CallerType
 aCallerType
 ErrorResult
@@ -24767,9 +24763,6 @@ FullscreenRequest
 Create
 (
 this
-aOptions
-.
-mKeyboardLock
 aCallerType
 aRv
 )

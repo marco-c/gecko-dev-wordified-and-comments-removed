@@ -7948,9 +7948,6 @@ mHasSeenAnchorPos
 TimeStamp
 mLastConsumedEscapeKeyUpForFullscreen
 ;
-TimeStamp
-mFirstUnmatchedEscapeKeyDownForFullscreen
-;
 friend
 dom
 :
