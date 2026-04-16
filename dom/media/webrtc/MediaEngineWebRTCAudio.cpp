@@ -1184,16 +1184,6 @@ aPrefs
 .
 mAecOn
 ;
-config
-.
-echo_canceller
-.
-mobile_mode
-=
-aPrefs
-.
-mUseAecMobile
-;
 if
 (
 (

@@ -114,10 +114,6 @@ mAecOn
 (
 false
 )
-mUseAecMobile
-(
-false
-)
 mAgcOn
 (
 false
@@ -183,9 +179,6 @@ mUsePlatformProcessing
 ;
 bool
 mAecOn
-;
-bool
-mUseAecMobile
 ;
 bool
 mAgcOn
