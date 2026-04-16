@@ -129,16 +129,6 @@ GetSingleton
 (
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-|
-|
-sSingleton
-)
-;
 if
 (
 !
