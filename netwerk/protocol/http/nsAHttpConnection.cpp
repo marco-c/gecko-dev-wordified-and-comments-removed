@@ -91,9 +91,8 @@ mRefCnt
 =
 1
 ;
-DeleteSelfOnSocketThread
-(
-)
+delete
+this
 ;
 return
 0
