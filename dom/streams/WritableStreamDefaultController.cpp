@@ -1,7 +1,11 @@
 #
 include
 "
-WritableStreamDefaultControllerAbstract
+mozilla
+/
+dom
+/
+WritableStreamDefaultController
 .
 h
 "
