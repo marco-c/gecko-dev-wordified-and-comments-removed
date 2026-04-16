@@ -2062,6 +2062,9 @@ swipingActive
 swipingActive
 )
 {
+interactionState
+-
+>
 val
 selectionState
 =
@@ -2119,6 +2122,9 @@ onTabClose
 onClick
 =
 onItemClick
+interactionState
+=
+interactionState
 )
 }
 is
@@ -2144,6 +2150,9 @@ onClick
 =
 onItemClick
 )
+interactionState
+=
+interactionState
 )
 }
 }
