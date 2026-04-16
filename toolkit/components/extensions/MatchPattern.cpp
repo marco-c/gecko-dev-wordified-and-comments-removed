@@ -540,10 +540,6 @@ nsGkAtoms
 :
 :
 moz_icon
-nsGkAtoms
-:
-:
-moz_gio
 )
 ;
 DEFINE_STATIC_ATOM_SET
