@@ -323,7 +323,7 @@ last_feedback_sent_time_
 Timestamp
 :
 :
-Zero
+MinusInfinity
 (
 )
 ;
