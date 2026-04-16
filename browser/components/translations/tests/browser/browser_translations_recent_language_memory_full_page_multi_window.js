@@ -16,6 +16,12 @@ window1
 =
 window
 ;
+await
+focusWindow
+(
+window1
+)
+;
 const
 {
 runInPage
@@ -40,9 +46,7 @@ const
 window2
 =
 await
-BrowserTestUtils
-.
-openNewBrowserWindow
+openNewFocusedBrowserWindow
 (
 )
 ;

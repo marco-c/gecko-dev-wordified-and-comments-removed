@@ -16,6 +16,12 @@ window1
 =
 window
 ;
+await
+focusWindow
+(
+window1
+)
+;
 const
 testPage
 =
@@ -153,6 +159,12 @@ SwapDocShells
 ;
 await
 swapDocShellPromise
+;
+await
+focusWindow
+(
+window2
+)
 ;
 await
 FullPageTranslationsTestUtils
