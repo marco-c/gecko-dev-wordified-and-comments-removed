@@ -233,6 +233,10 @@ pairs_
 =
 nullptr
 ;
+pairCount_
+=
+0
+;
 }
 public
 :

@@ -1358,6 +1358,10 @@ ReportOutOfMemory
 cx
 )
 ;
+clear
+(
+)
+;
 return
 false
 ;
