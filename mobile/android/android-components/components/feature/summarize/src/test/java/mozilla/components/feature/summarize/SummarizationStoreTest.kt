@@ -1203,9 +1203,6 @@ Prompt
 content
 defaultInstructions
 (
-"
-en
-"
 )
 )
 llm
@@ -2115,9 +2112,6 @@ Prompt
 content
 defaultInstructions
 (
-"
-en
-"
 )
 )
 llm
