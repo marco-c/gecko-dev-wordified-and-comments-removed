@@ -4059,16 +4059,13 @@ self
 .
 group_metadata
 =
-{
-}
+None
     
 def
 start
 (
 self
 group_metadata
-=
-None
 lsan_disabled
 =
 False
@@ -4102,17 +4099,6 @@ handler
 "
 "
 "
-        
-if
-group_metadata
-is
-None
-:
-            
-group_metadata
-=
-{
-}
         
 self
 .
@@ -4154,15 +4140,7 @@ scope
 =
 group_metadata
 .
-get
-(
-"
 scope
-"
-"
-/
-"
-)
                                                   
 allowed
 =
@@ -4332,12 +4310,7 @@ self
 .
 group_metadata
 .
-get
-(
-"
 scope
-"
-)
                     
 allowed
 =
@@ -6307,8 +6280,6 @@ start
 (
 self
 group_metadata
-=
-None
 *
 *
 kwargs
