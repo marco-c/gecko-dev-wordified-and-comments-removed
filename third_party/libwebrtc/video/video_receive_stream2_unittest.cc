@@ -793,12 +793,6 @@ kRemoteSsrc
 =
 1111
 ;
-constexpr
-uint32_t
-kLocalSsrc
-=
-2222
-;
 class
 FakeVideoRenderer
 :
@@ -1529,14 +1523,6 @@ rtp
 remote_ssrc
 =
 kRemoteSsrc
-;
-config_
-.
-rtp
-.
-local_ssrc
-=
-kLocalSsrc
 ;
 config_
 .

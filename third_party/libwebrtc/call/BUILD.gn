@@ -2421,6 +2421,14 @@ congestion_controller
 /
 modules
 /
+pacing
+"
+"
+.
+.
+/
+modules
+/
 rtp_rtcp
 "
 "

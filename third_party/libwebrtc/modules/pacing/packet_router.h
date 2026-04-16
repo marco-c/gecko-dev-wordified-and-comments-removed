@@ -413,6 +413,17 @@ RtcpPacket
 packets
 )
 ;
+std
+:
+:
+optional
+<
+uint32_t
+>
+SsrcOfFirstSender
+(
+)
+;
 private
 :
 void

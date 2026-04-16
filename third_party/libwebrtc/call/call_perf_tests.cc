@@ -1291,12 +1291,6 @@ kAudioSendSsrc
 =
 1234
 ;
-const
-uint32_t
-kAudioRecvSsrc
-=
-5678
-;
 BuiltInNetworkBehaviorConfig
 audio_net_config
 ;
@@ -2197,14 +2191,6 @@ rtp
 remote_ssrc
 =
 kAudioSendSsrc
-;
-audio_recv_config
-.
-rtp
-.
-local_ssrc
-=
-kAudioRecvSsrc
 ;
 audio_recv_config
 .

@@ -358,12 +358,6 @@ rtcp_send_transport
 ;
 config
 .
-local_ssrc
-=
-18374743
-;
-config
-.
 rtcp_mode
 =
 RtcpMode
@@ -491,6 +485,7 @@ log_
 config_
 &
 recovered_packet_receiver_
+nullptr
 &
 rtt_stats_
 )

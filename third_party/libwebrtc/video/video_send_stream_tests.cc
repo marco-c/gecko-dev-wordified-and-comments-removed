@@ -6126,8 +6126,12 @@ kRtcpIntervalMs
 ;
 config
 .
-local_media_ssrc
+recv_ssrc_callback
 =
+[
+]
+{
+return
 test
 :
 :
@@ -6135,6 +6139,8 @@ VideoTestConstants
 :
 :
 kReceiverLocalVideoSsrc
+;
+}
 ;
 config
 .
@@ -7080,8 +7086,12 @@ kRtcpIntervalMs
 ;
 config
 .
-local_media_ssrc
+recv_ssrc_callback
 =
+[
+]
+{
+return
 test
 :
 :
@@ -7092,6 +7102,8 @@ kVideoSendSsrcs
 [
 0
 ]
+;
+}
 ;
 config
 .

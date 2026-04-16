@@ -1782,14 +1782,6 @@ config
 .
 rtp
 .
-local_ssrc
-=
-2222
-;
-config
-.
-rtp
-.
 red_payload_type
 =
 kRedPayloadType

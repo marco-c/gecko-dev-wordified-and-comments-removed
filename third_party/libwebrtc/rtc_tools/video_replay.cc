@@ -1401,12 +1401,6 @@ webrtc
 {
 namespace
 {
-const
-uint32_t
-kReceiverLocalSsrc
-=
-0x123456
-;
 class
 NullRenderer
 :
@@ -2684,14 +2678,6 @@ GetFlag
 (
 FLAGS_ssrc
 )
-;
-receive_config
-.
-rtp
-.
-local_ssrc
-=
-kReceiverLocalSsrc
 ;
 receive_config
 .

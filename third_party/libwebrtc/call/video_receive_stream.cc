@@ -1263,17 +1263,6 @@ ss
 <
 <
 "
-local_ssrc
-:
-"
-<
-<
-local_ssrc
-;
-ss
-<
-<
-"
 rtcp_mode
 :
 "

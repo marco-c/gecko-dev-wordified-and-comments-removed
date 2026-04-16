@@ -150,14 +150,6 @@ vp8_config
 .
 rtp
 .
-local_ssrc
-=
-7731
-;
-vp8_config
-.
-rtp
-.
 remote_ssrc
 =
 1337

@@ -142,11 +142,6 @@ remote_ssrc
 =
 0
 ;
-uint32_t
-local_ssrc
-=
-0
-;
 std
 :
 :
