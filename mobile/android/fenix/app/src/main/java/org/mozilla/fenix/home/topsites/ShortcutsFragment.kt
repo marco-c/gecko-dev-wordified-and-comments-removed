@@ -601,6 +601,13 @@ ShortcutsState
 topSites
 =
 topSites
+showAddShortcut
+=
+components
+.
+settings
+.
+enableAddShortcutsImprovement
 )
 interactor
 =

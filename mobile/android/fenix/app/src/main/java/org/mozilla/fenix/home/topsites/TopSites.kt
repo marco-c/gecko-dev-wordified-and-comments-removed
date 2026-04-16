@@ -725,13 +725,13 @@ TOP_SITES_ROW_WIDTH
 TOP_SITES_PER_ROW
 *
 TOP_SITES_ITEM_SIZE
-private
+internal
 const
 val
 TOP_SITES_FAVICON_CARD_SIZE
 =
 60
-private
+internal
 const
 val
 TOP_SITES_FAVICON_SIZE
