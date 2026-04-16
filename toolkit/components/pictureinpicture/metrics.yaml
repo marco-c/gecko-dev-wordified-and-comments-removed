@@ -203,9 +203,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-PictureinpictureSettings_Enable_Settings
 enable_autotrigger_settings
 :
 type
@@ -301,9 +298,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-PictureinpictureSettings_EnableAutotrigger_Settings
 disable_player
 :
 type
@@ -405,9 +399,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-PictureinpictureSettings_Disable_Player
 disable_settings
 :
 type
@@ -484,9 +475,6 @@ pictureinpicture_settings_disable_emails
 expires
 :
 never
-telemetry_mirror
-:
-PictureinpictureSettings_Disable_Settings
 pictureinpicture
 :
 create_player
@@ -741,9 +729,6 @@ WebVTT
 type
 :
 boolean
-telemetry_mirror
-:
-Pictureinpicture_Create_Player
 resize_player
 :
 type
@@ -915,9 +900,6 @@ to
 type
 :
 quantity
-telemetry_mirror
-:
-Pictureinpicture_Resize_Player
 saw_toggle_toggle
 :
 type
@@ -1009,9 +991,6 @@ before
 type
 :
 boolean
-telemetry_mirror
-:
-Pictureinpicture_SawToggle_Toggle
 opened_method_toggle
 :
 type
@@ -1203,9 +1182,6 @@ toggle
 type
 :
 boolean
-telemetry_mirror
-:
-Pictureinpicture_OpenedMethod_Toggle
 opened_method_context_menu
 :
 type
@@ -1263,9 +1239,6 @@ extra_keys
 :
 *
 pictureinpicture_opened_method_extra
-telemetry_mirror
-:
-Pictureinpicture_OpenedMethod_Contextmenu
 opened_method_url_bar
 :
 type
@@ -1323,9 +1296,6 @@ extra_keys
 :
 *
 pictureinpicture_opened_method_extra
-telemetry_mirror
-:
-Pictureinpicture_OpenedMethod_Urlbar
 opened_method_shortcut
 :
 type
@@ -1383,9 +1353,6 @@ extra_keys
 :
 *
 pictureinpicture_opened_method_extra
-telemetry_mirror
-:
-Pictureinpicture_OpenedMethod_Shortcut
 opened_method_auto_pip
 :
 type
@@ -1443,9 +1410,6 @@ extra_keys
 :
 *
 pictureinpicture_opened_method_extra
-telemetry_mirror
-:
-Pictureinpicture_OpenedMethod_Autopip
 closed_method_close_button
 :
 type
@@ -1554,9 +1518,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-Pictureinpicture_ClosedMethod_Closebutton
 closed_method_unpip
 :
 type
@@ -1610,9 +1571,6 @@ pictureinpicture_closed_method_emails
 expires
 :
 never
-telemetry_mirror
-:
-Pictureinpicture_ClosedMethod_Unpip
 closed_method_pagehide
 :
 type
@@ -1666,9 +1624,6 @@ pictureinpicture_closed_method_emails
 expires
 :
 never
-telemetry_mirror
-:
-Pictureinpicture_ClosedMethod_Pagehide
 closed_method_foregrounded
 :
 type
@@ -1722,9 +1677,6 @@ pictureinpicture_closed_method_emails
 expires
 :
 never
-telemetry_mirror
-:
-Pictureinpicture_ClosedMethod_Foregrounded
 closed_method_fullscreen
 :
 type
@@ -1778,9 +1730,6 @@ pictureinpicture_closed_method_emails
 expires
 :
 never
-telemetry_mirror
-:
-Pictureinpicture_ClosedMethod_Fullscreen
 closed_method_setup_failure
 :
 type
@@ -1834,9 +1783,6 @@ pictureinpicture_closed_method_emails
 expires
 :
 never
-telemetry_mirror
-:
-Pictureinpicture_ClosedMethod_Setupfailure
 closed_method_close_player_shortcut
 :
 type
@@ -1890,9 +1836,6 @@ pictureinpicture_closed_method_emails
 expires
 :
 never
-telemetry_mirror
-:
-Pictureinpicture_ClosedMethod_Closeplayershortcut
 closed_method_context_menu
 :
 type
@@ -1946,9 +1889,6 @@ pictureinpicture_closed_method_emails
 expires
 :
 never
-telemetry_mirror
-:
-Pictureinpicture_ClosedMethod_Contextmenu
 closed_method_video_el_remove
 :
 type
@@ -2002,9 +1942,6 @@ pictureinpicture_closed_method_emails
 expires
 :
 never
-telemetry_mirror
-:
-Pictureinpicture_ClosedMethod_Videoelremove
 closed_method_video_el_emptied
 :
 type
@@ -2058,9 +1995,6 @@ pictureinpicture_closed_method_emails
 expires
 :
 never
-telemetry_mirror
-:
-Pictureinpicture_ClosedMethod_Videoelemptied
 closed_method_url_bar
 :
 type
@@ -2114,9 +2048,6 @@ pictureinpicture_closed_method_emails
 expires
 :
 never
-telemetry_mirror
-:
-Pictureinpicture_ClosedMethod_Urlbar
 closed_method_shortcut
 :
 type
@@ -2170,9 +2101,6 @@ pictureinpicture_closed_method_emails
 expires
 :
 never
-telemetry_mirror
-:
-Pictureinpicture_ClosedMethod_Shortcut
 closed_method_browser_crash
 :
 type
@@ -2226,9 +2154,6 @@ pictureinpicture_closed_method_emails
 expires
 :
 never
-telemetry_mirror
-:
-Pictureinpicture_ClosedMethod_Browsercrash
 subtitles_shown_subtitles
 :
 type
@@ -2322,9 +2247,6 @@ false
 type
 :
 boolean
-telemetry_mirror
-:
-Pictureinpicture_SubtitlesShown_Subtitles
 fullscreen_player
 :
 type
@@ -2440,9 +2362,6 @@ fullscreen
 type
 :
 boolean
-telemetry_mirror
-:
-Pictureinpicture_Fullscreen_Player
 disrespect_disable_url_bar
 :
 type
@@ -2521,9 +2440,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-Pictureinpicture_DisrespectDisable_Urlbar
 most_concurrent_players
 :
 type
@@ -2647,9 +2563,6 @@ in
 -
 Picture
 players
-telemetry_mirror
-:
-PICTUREINPICTURE_MOST_CONCURRENT_PLAYERS
 toggle_enabled
 :
 type
@@ -2718,9 +2631,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-PICTUREINPICTURE_TOGGLE_ENABLED
 window_open_duration
 :
 type
@@ -2887,9 +2797,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-FX_PICTURE_IN_PICTURE_WINDOW_OPEN_DURATION
 background_tab_playing_duration
 :
 type
@@ -2989,9 +2896,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-FX_PICTURE_IN_PICTURE_BACKGROUND_TAB_PLAYING_DURATION
 foreground_tab_playing_duration
 :
 type
@@ -3091,6 +2995,3 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-FX_PICTURE_IN_PICTURE_FOREGROUND_TAB_PLAYING_DURATION
