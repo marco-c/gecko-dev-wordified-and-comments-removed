@@ -488,6 +488,15 @@ query
 }
 return
 results
+.
+length
+?
+results
+[
+0
+]
+:
+null
 ;
 }
 /

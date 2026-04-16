@@ -1041,6 +1041,8 @@ Promise
 withResolvers
 (
 )
+SYNC_WIPE_CLIENT
+SYNC_WIPE_REMOTE
 ACTIONS
 :
 [
@@ -2332,8 +2334,9 @@ Logger
 .
 AssertTrue
 (
-await
 !
+(
+await
 lazy
 .
 BrowserTabs
@@ -2349,6 +2352,7 @@ title
 tab
 .
 profile
+)
 )
 "
 tab
