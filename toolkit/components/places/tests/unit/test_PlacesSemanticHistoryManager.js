@@ -2143,7 +2143,7 @@ createPlacesSemanticHistoryManager
 {
 deferredTaskInterval
 :
-2000
+100
 }
 )
 ;
@@ -2439,7 +2439,7 @@ createPlacesSemanticHistoryManager
 {
 deferredTaskInterval
 :
-2000
+100
 }
 )
 ;
@@ -2721,7 +2721,7 @@ changeThresholdCount
 1
 deferredTaskInterval
 :
-2000
+100
 }
 )
 ;
@@ -3234,7 +3234,7 @@ changeThresholdCount
 1
 deferredTaskInterval
 :
-2000
+100
 }
 )
 ;

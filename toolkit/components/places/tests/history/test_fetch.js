@@ -497,6 +497,7 @@ Assert
 .
 ok
 (
+await
 page_in_database
 (
 TEST_URI
@@ -846,6 +847,7 @@ Assert
 .
 ok
 (
+await
 page_in_database
 (
 TEST_URI

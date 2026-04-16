@@ -150,6 +150,7 @@ Assert
 .
 equal
 (
+await
 visits_in_database
 (
 "
@@ -172,6 +173,7 @@ Assert
 .
 equal
 (
+await
 visits_in_database
 (
 "
@@ -195,6 +197,8 @@ Assert
 ok
 (
 !
+(
+await
 page_in_database
 (
 "
@@ -209,6 +213,7 @@ mozilla
 org
 /
 "
+)
 )
 )
 ;
@@ -352,6 +357,7 @@ Assert
 .
 equal
 (
+await
 visits_in_database
 (
 "
@@ -374,6 +380,7 @@ Assert
 .
 equal
 (
+await
 visits_in_database
 (
 "
@@ -397,6 +404,8 @@ Assert
 ok
 (
 !
+(
+await
 page_in_database
 (
 "
@@ -411,6 +420,7 @@ mozilla
 org
 /
 "
+)
 )
 )
 ;
@@ -495,6 +505,7 @@ Assert
 .
 equal
 (
+await
 visits_in_database
 (
 "
@@ -518,6 +529,8 @@ Assert
 ok
 (
 !
+(
+await
 page_in_database
 (
 "
@@ -532,6 +545,7 @@ mozilla
 org
 /
 "
+)
 )
 )
 ;
@@ -673,6 +687,7 @@ Assert
 .
 equal
 (
+await
 visits_in_database
 (
 longurl
@@ -684,6 +699,7 @@ Assert
 .
 equal
 (
+await
 visits_in_database
 (
 longurl2
@@ -696,6 +712,8 @@ Assert
 ok
 (
 !
+(
+await
 page_in_database
 (
 "
@@ -710,6 +728,7 @@ mozilla
 org
 /
 "
+)
 )
 )
 ;
@@ -825,6 +844,7 @@ Assert
 .
 equal
 (
+await
 visits_in_database
 (
 "
@@ -849,6 +869,7 @@ Assert
 .
 equal
 (
+await
 visits_in_database
 (
 "
@@ -872,6 +893,8 @@ Assert
 ok
 (
 !
+(
+await
 page_in_database
 (
 "
@@ -886,6 +909,7 @@ mozilla
 org
 /
 "
+)
 )
 )
 ;
@@ -1058,6 +1082,7 @@ Assert
 .
 greater
 (
+await
 visits_in_database
 (
 visit
@@ -1086,6 +1111,7 @@ Assert
 .
 equal
 (
+await
 visits_in_database
 (
 visit
@@ -1331,6 +1357,7 @@ Assert
 .
 equal
 (
+await
 visits_in_database
 (
 "
@@ -1353,6 +1380,7 @@ Assert
 .
 equal
 (
+await
 visits_in_database
 (
 "
@@ -1377,6 +1405,7 @@ Assert
 .
 equal
 (
+await
 visits_in_database
 (
 longurl
@@ -1389,6 +1418,8 @@ Assert
 ok
 (
 !
+(
+await
 page_in_database
 (
 "
@@ -1405,12 +1436,15 @@ org
 "
 )
 )
+)
 ;
 Assert
 .
 ok
 (
 !
+(
+await
 page_in_database
 (
 "
@@ -1427,12 +1461,15 @@ org
 "
 )
 )
+)
 ;
 Assert
 .
 ok
 (
 !
+(
+await
 page_in_database
 (
 "
@@ -1447,6 +1484,7 @@ mozilla
 org
 /
 "
+)
 )
 )
 ;
@@ -2528,6 +2566,7 @@ Assert
 .
 ok
 (
+await
 page_in_database
 (
 entry
