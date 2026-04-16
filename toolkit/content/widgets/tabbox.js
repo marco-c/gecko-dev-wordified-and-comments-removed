@@ -2089,9 +2089,8 @@ width
 if
 (
 storedWidth
-!
-=
-currentWidth
+>
+maxWidth
 )
 {
 controlledPanel
