@@ -526,7 +526,7 @@ onError
 (
 Could
 not
-set
+get
 site
 setting
 :
@@ -631,9 +631,6 @@ eventDispatcher
 .
 sendRequest
 (
-{
-type
-:
 "
 GeckoView
 :
@@ -641,7 +638,6 @@ Translations
 :
 Offer
 "
-}
 )
 ;
 break
@@ -688,9 +684,6 @@ eventDispatcher
 .
 sendRequest
 (
-{
-type
-:
 "
 GeckoView
 :
@@ -698,6 +691,7 @@ Translations
 :
 StateChange
 "
+{
 data
 }
 )

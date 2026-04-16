@@ -486,9 +486,6 @@ eventDispatcher
 .
 sendRequest
 (
-{
-type
-:
 "
 GeckoView
 :
@@ -498,7 +495,6 @@ Playback
 :
 None
 "
-}
 )
 ;
 break
@@ -802,9 +798,6 @@ eventDispatcher
 .
 sendRequest
 (
-{
-type
-:
 "
 GeckoView
 :
@@ -812,7 +805,6 @@ MediaSession
 :
 Activated
 "
-}
 )
 ;
 }
@@ -829,9 +821,6 @@ eventDispatcher
 .
 sendRequest
 (
-{
-type
-:
 "
 GeckoView
 :
@@ -839,7 +828,6 @@ MediaSession
 :
 Deactivated
 "
-}
 )
 ;
 }
@@ -857,9 +845,6 @@ eventDispatcher
 .
 sendRequest
 (
-{
-type
-:
 "
 GeckoView
 :
@@ -867,6 +852,7 @@ MediaSession
 :
 PositionState
 "
+{
 state
 :
 {
@@ -962,9 +948,6 @@ eventDispatcher
 .
 sendRequest
 (
-{
-type
-:
 "
 GeckoView
 :
@@ -972,6 +955,7 @@ MediaSession
 :
 Features
 "
+{
 features
 }
 )
@@ -1027,9 +1011,6 @@ eventDispatcher
 .
 sendRequest
 (
-{
-type
-:
 "
 GeckoView
 :
@@ -1037,6 +1018,7 @@ MediaSession
 :
 Metadata
 "
+{
 metadata
 }
 )
@@ -1161,9 +1143,7 @@ eventDispatcher
 .
 sendRequest
 (
-{
 type
-}
 )
 ;
 }

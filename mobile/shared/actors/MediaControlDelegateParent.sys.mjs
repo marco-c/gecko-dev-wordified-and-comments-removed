@@ -114,13 +114,6 @@ eventDispatcher
 .
 sendRequestForResult
 (
-{
-.
-.
-.
-data
-type
-:
 "
 GeckoView
 :
@@ -128,7 +121,7 @@ MediaSession
 :
 Fullscreen
 "
-}
+data
 )
 ;
 }

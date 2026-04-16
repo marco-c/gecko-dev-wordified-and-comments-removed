@@ -177,14 +177,12 @@ eventDispatcher
 .
 sendRequest
 (
-{
-type
-:
 "
 GeckoView
 :
 DotPrintRequest
 "
+{
 canonicalBrowsingContextId
 :
 this

@@ -564,13 +564,6 @@ const
 message
 =
 {
-type
-:
-"
-GeckoView
-:
-ContentBlockingEvent
-"
 uri
 category
 :
@@ -585,6 +578,11 @@ eventDispatcher
 .
 sendRequest
 (
+"
+GeckoView
+:
+ContentBlockingEvent
+"
 message
 )
 ;

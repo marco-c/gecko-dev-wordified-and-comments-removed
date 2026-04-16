@@ -1767,9 +1767,6 @@ instance
 .
 sendRequestForResult
 (
-{
-type
-:
 "
 GeckoView
 :
@@ -1779,6 +1776,7 @@ Fetch
 :
 Login
 "
+{
 domain
 :
 aDomain
@@ -1862,9 +1860,6 @@ instance
 .
 sendRequestForResult
 (
-{
-type
-:
 "
 GeckoView
 :
@@ -1874,7 +1869,6 @@ Fetch
 :
 CreditCard
 "
-}
 )
 ;
 }
@@ -1962,9 +1956,6 @@ instance
 .
 sendRequestForResult
 (
-{
-type
-:
 "
 GeckoView
 :
@@ -1974,7 +1965,6 @@ Fetch
 :
 Address
 "
-}
 )
 ;
 }
@@ -2042,9 +2032,6 @@ instance
 .
 sendRequest
 (
-{
-type
-:
 "
 GeckoView
 :
@@ -2054,6 +2041,7 @@ Save
 :
 CreditCard
 "
+{
 creditCard
 :
 aCreditCard
@@ -2123,9 +2111,6 @@ instance
 .
 sendRequest
 (
-{
-type
-:
 "
 GeckoView
 :
@@ -2135,6 +2120,7 @@ Save
 :
 Address
 "
+{
 address
 :
 aAddress
@@ -2212,9 +2198,6 @@ instance
 .
 sendRequest
 (
-{
-type
-:
 "
 GeckoView
 :
@@ -2224,6 +2207,7 @@ Save
 :
 Login
 "
+{
 login
 :
 aLogin
@@ -2304,9 +2288,6 @@ instance
 .
 sendRequest
 (
-{
-type
-:
 "
 GeckoView
 :
@@ -2316,6 +2297,7 @@ Used
 :
 Login
 "
+{
 usedFields
 :
 UsedField

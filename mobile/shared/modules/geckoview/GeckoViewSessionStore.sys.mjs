@@ -922,14 +922,12 @@ WindowEventDispatcher
 .
 sendRequest
 (
-{
-type
-:
 "
 GeckoView
 :
 StateUpdated
 "
+{
 data
 :
 data
