@@ -2059,6 +2059,8 @@ message_seq
 )
 tabs_available
 :
+String
+(
 panelList
 .
 groups
@@ -2079,6 +2081,7 @@ items
 .
 length
 0
+)
 )
 tabs_preselected
 :
