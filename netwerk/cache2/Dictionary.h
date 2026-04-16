@@ -497,11 +497,6 @@ FinishHash
 (
 )
 ;
-void
-FinishHashOnMainThread
-(
-)
-;
 uint8_t
 *
 DictionaryData
@@ -806,9 +801,6 @@ mBlocked
 {
 false
 }
-;
-nsCString
-mStoredContentEncoding
 ;
 }
 ;
