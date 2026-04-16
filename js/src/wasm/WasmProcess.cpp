@@ -626,7 +626,7 @@ initialize
 StaticTypeDefs
 :
 :
-jsTag
+jsExceptionTag
 )
 )
 {
@@ -642,7 +642,7 @@ WrappedJSValueTagType_ValueOffset
 type
 -
 >
-argOffsets
+exceptionArgOffsets
 (
 )
 [
