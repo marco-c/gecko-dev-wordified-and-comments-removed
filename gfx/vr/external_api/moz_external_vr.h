@@ -809,6 +809,9 @@ VRControllerType
 :
 PicoNeo2
 :
+return
+true
+;
 case
 gfx
 :
@@ -818,8 +821,7 @@ VRControllerType
 :
 _end
 :
-return
-true
+break
 ;
 }
 return
