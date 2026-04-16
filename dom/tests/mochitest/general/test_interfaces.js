@@ -2181,9 +2181,6 @@ DocumentPictureInPicture
 insecureContext
 :
 false
-nightly
-:
-true
 android
 :
 false
@@ -2197,9 +2194,6 @@ DocumentPictureInPictureEvent
 insecureContext
 :
 false
-nightly
-:
-true
 android
 :
 false
