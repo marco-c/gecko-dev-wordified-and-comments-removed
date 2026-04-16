@@ -15,13 +15,6 @@ py
 ]
 [
 "
-test_branding_urls
-.
-py
-"
-]
-[
-"
 test_buglist_creator
 .
 py
