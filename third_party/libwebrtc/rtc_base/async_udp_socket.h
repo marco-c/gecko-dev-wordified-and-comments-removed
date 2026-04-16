@@ -296,6 +296,14 @@ override
 private
 :
 void
+OnConnectEvent
+(
+Socket
+*
+socket
+)
+;
+void
 OnReadEvent
 (
 Socket

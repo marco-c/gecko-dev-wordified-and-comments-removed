@@ -210,6 +210,10 @@ SSLCertificateVerifier
 ssl_cert_verifier
 =
 nullptr
+bool
+dtls
+=
+false
 )
 ;
 ~

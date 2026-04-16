@@ -69,6 +69,8 @@ Create
 Socket
 *
 socket
+bool
+dtls
 )
 {
 return
@@ -76,6 +78,9 @@ new
 OpenSSLAdapter
 (
 socket
+nullptr
+nullptr
+dtls
 )
 ;
 }

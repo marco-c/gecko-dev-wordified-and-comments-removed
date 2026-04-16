@@ -371,6 +371,10 @@ Create
 Socket
 *
 socket
+bool
+dtls
+=
+false
 )
 ;
 private

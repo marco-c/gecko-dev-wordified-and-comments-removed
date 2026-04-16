@@ -1046,6 +1046,8 @@ ssl_session_cache
 SSLCertificateVerifier
 *
 ssl_cert_verifier
+bool
+dtls
 )
 :
 SSLAdapter
@@ -1086,6 +1088,10 @@ nullptr
 )
 ssl_mode_
 (
+dtls
+?
+SSL_MODE_DTLS
+:
 SSL_MODE_TLS
 )
 ignore_bad_cert_

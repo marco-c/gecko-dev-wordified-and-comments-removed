@@ -55,6 +55,7 @@ PacketInfoProtocolType
 {
 kUnknown
 kUdp
+kDtls
 kTcp
 kSsltcp
 kTls
