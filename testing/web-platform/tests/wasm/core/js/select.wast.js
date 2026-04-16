@@ -18442,11 +18442,7 @@ wast
 :
 280
 "
-"
-ref
-.
 null
-"
 )
 ;
 assert_trap

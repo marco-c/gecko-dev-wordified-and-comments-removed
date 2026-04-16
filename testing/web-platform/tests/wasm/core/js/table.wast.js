@@ -2745,11 +2745,7 @@ wast
 :
 112
 "
-"
-ref
-.
 null
-"
 )
 ;
 assert_return
