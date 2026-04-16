@@ -7038,6 +7038,16 @@ rtc_base
 /
 experiments
 :
+quality_scaling_experiment
+"
+"
+.
+.
+/
+rtc_base
+/
+experiments
+:
 rate_control_settings
 "
 "
