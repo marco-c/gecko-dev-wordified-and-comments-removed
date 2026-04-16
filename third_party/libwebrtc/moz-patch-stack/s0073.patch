@@ -152,10 +152,10 @@ shared_screencast_stream
 .
 cc
 index
-f0c87d98ea
+fc10571388
 .
 .
-6b2158ff5b
+d5ed0c6be9
 100644
 -
 -
@@ -283,10 +283,10 @@ kBytesPerPixel
 4
 ;
 -
-332
+330
 7
 +
-339
+337
 7
 void
 SharedScreenCastStreamPrivate
