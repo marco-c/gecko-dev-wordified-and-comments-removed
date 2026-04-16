@@ -4121,6 +4121,13 @@ Bug
 ]
 [
 "
+browser_tabs_space_consistent
+.
+js
+"
+]
+[
+"
 browser_tab_splitview
 .
 js
