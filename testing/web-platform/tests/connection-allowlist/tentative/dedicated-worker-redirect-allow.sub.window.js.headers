@@ -1,0 +1,13 @@
+Connection
+-
+Allowlist
+:
+(
+response
+-
+origin
+)
+;
+redirects
+=
+allow
