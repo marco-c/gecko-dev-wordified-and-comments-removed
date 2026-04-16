@@ -121,6 +121,8 @@ Element
 element
 )
 pseudo
+.
+mType
 )
 ;
 return
@@ -205,6 +207,8 @@ Element
 element
 )
 pseudo
+.
+mType
 )
 ;
 return
@@ -600,10 +604,6 @@ mSource
 |
 !
 mSource
-.
-Source
-(
-)
 .
 mElement
 -
