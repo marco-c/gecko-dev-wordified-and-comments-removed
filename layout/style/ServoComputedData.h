@@ -26,6 +26,12 @@ h
 namespace
 mozilla
 {
+enum
+class
+PseudoStyleType
+:
+uint8_t
+;
 struct
 ServoWritingMode
 {
@@ -233,6 +239,12 @@ mozilla
 :
 ServoWritingMode
 writing_mode
+;
+mozilla
+:
+:
+PseudoStyleType
+pseudo_type
 ;
 mozilla
 :
