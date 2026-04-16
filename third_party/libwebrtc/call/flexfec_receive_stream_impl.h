@@ -244,6 +244,10 @@ get
 }
 private
 :
+const
+Environment
+env_
+;
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 packet_sequence_checker_

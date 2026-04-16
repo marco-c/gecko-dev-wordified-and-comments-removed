@@ -740,6 +740,7 @@ kTestRtxSsrc
 )
 rtx_stream_
 (
+env_
 &
 media_stream_
 rtx_associated_payload_types_

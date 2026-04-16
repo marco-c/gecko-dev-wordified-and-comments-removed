@@ -649,6 +649,14 @@ rtc_event_audio
 /
 logging
 :
+rtc_event_rtp_rtcp
+"
+"
+.
+.
+/
+logging
+:
 rtc_stream_config
 "
 "
