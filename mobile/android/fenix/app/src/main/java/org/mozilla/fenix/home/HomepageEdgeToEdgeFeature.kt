@@ -1058,17 +1058,6 @@ get
 isEditMode
 (
 )
-&
-&
-editState
-.
-query
-.
-current
-.
-isNotEmpty
-(
-)
 /
 *
 *
