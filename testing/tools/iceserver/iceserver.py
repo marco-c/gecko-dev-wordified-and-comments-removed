@@ -6039,15 +6039,6 @@ stun
 :
 hostname
 "
-"
-stun
-:
-hostname
-?
-transport
-=
-tcp
-"
 ]
 }
 \
