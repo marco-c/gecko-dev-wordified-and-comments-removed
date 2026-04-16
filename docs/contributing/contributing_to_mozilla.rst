@@ -257,7 +257,6 @@ join
 us
 in
 the
-the
 Introduction
 room
 on
