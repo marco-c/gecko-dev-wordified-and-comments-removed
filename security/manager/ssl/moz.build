@@ -660,11 +660,6 @@ PKCS11Slot
 cpp
 "
 "
-PSMRunnable
-.
-cpp
-"
-"
 PublicKeyPinningService
 .
 cpp
