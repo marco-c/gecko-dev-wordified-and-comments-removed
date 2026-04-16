@@ -1704,13 +1704,11 @@ platform
 macos
 )
 {
-margin
+z
 -
-inline
--
-end
+index
 :
-2px
+1
 ;
 }
 }
