@@ -17,6 +17,11 @@ permissions
 html
 "
 "
+permission_worker
+.
+js
+"
+"
 temporary_permissions_subframe
 .
 html
@@ -341,6 +346,13 @@ Bug
 [
 "
 browser_temporary_permissions_tabs
+.
+js
+"
+]
+[
+"
+browser_temporary_permissions_worker
 .
 js
 "
