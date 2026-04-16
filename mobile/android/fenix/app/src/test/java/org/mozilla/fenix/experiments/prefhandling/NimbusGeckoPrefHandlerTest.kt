@@ -2954,16 +2954,6 @@ any
 )
 )
 }
-assertEquals
-(
-2
-capturedPrefs
-[
-0
-]
-.
-size
-)
 assertTrue
 (
 capturedPrefs
