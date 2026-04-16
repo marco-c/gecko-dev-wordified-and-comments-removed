@@ -447,7 +447,7 @@ width
 %
 ;
 }
-h3
+h2
 {
 margin
 -
@@ -764,9 +764,9 @@ weather
 wrapper
 &
 .
-small
+is
 -
-widget
+small
 .
 forecast
 -
@@ -2632,9 +2632,15 @@ Weather
 Forecast
 widget
 .
-small
+weather
+-
+forecast
 -
 widget
+.
+is
+-
+small
 {
 height
 :

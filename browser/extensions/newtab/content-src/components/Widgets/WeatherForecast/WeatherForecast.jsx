@@ -2520,9 +2520,9 @@ maximized
 isSmallSize
 ?
 "
-small
+is
 -
-widget
+small
 "
 :
 "
