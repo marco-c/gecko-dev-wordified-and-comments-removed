@@ -13568,9 +13568,12 @@ deltaSets
 )
 )
 +
+uint64_t
+(
 uint16_t
 (
 itemCount
+)
 )
 *
 deltaSetSize
