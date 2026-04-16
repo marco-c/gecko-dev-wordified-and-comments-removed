@@ -102,6 +102,15 @@ compile_commands
 \
 .
 json
+(
+^
+|
+/
+)
+ccache
+\
+.
+conf
 #
 emacs
 backup
@@ -2852,3 +2861,5 @@ claude
 /
 worktrees
 /
+.
+worktreeinclude
