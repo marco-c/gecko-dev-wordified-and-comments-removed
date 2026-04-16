@@ -7,11 +7,6 @@ h
 "
 #
 include
-<
-cmath
->
-#
-include
 "
 prsystem
 .

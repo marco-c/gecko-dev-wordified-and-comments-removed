@@ -1297,6 +1297,16 @@ CheckEventListeners
 (
 )
 ;
+void
+ActivityErrorFallbackCheck
+(
+)
+;
+void
+FireErrorEvent
+(
+)
+;
 class
 ChannelWrapperStub
 final
@@ -1414,6 +1424,9 @@ bool
 mResponseStarted
 =
 false
+;
+nsString
+mActivityError
 ;
 nsInterfaceHashtable
 <

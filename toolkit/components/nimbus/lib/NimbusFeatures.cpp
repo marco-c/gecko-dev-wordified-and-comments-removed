@@ -77,7 +77,7 @@ h
 namespace
 mozilla
 {
-MOZ_RUNINIT
+constinit
 static
 nsTHashSet
 <

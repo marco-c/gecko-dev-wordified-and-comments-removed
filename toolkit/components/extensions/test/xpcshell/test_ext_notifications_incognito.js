@@ -49,9 +49,7 @@ null
 "
 alertfinished
 "
-alert
-.
-cookie
+null
 )
 ;
 }
@@ -427,7 +425,7 @@ equal
 (
 notification
 .
-cookie
+name
 "
 notifid
 "
