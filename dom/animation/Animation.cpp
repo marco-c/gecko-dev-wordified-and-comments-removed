@@ -4545,6 +4545,15 @@ mPendingReadyTime
 IsNull
 (
 )
+|
+|
+!
+mTimeline
+-
+>
+IsMonotonicallyIncreasing
+(
+)
 ?
 mTimeline
 -
