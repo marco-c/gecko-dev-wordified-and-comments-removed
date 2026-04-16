@@ -816,7 +816,7 @@ weight
 )
 if
 (
-showPocketStories
+showPocketStoriesCarousel
 )
 {
 PocketSection
@@ -1013,7 +1013,7 @@ false
 showRecentlyVisited
 =
 true
-showPocketStories
+showPocketStoriesCarousel
 =
 true
 showCollections

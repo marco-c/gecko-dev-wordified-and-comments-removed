@@ -1600,10 +1600,6 @@ POCKET
 =
 =
 true
-&
-&
-!
-privateModeAndStoriesEntryPointEnabled
 }
 )
 /
