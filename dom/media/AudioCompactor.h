@@ -213,8 +213,6 @@ frames
 "
 )
 ;
-MOZ_RELEASE_ASSERT
-(
 buffer
 .
 SetLength
@@ -225,7 +223,6 @@ framesCopied
 )
 *
 aChannels
-)
 )
 ;
 auto

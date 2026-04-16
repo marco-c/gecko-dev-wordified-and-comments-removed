@@ -552,11 +552,6 @@ aIndex
 ]
 ;
 }
-[
-[
-nodiscard
-]
-]
 bool
 SetLength
 (
