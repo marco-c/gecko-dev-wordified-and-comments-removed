@@ -4857,7 +4857,7 @@ for
 size_t
 size
 =
-16
+8
 ;
 size
 <
@@ -4866,7 +4866,7 @@ size
 size
 +
 =
-16
+8
 )
 {
 TestBaseAlloc
