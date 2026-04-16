@@ -1943,7 +1943,7 @@ caller
 .
 subview
 (
-8
+9
 )
 Each
 (
@@ -1954,7 +1954,7 @@ DataRate
 :
 KilobitsPerSec
 (
-1500
+1200
 )
 DataRate
 :
