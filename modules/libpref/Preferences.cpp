@@ -23878,16 +23878,7 @@ pref
 GetValue
 (
 aKind
-std
-:
-:
-forward
-<
-T
->
-(
 aResult
-)
 )
 ;
 if
