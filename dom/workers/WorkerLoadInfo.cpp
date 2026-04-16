@@ -482,6 +482,10 @@ mUsingStorageAccess
 (
 false
 )
+mSerialAllowed
+(
+true
+)
 mServiceWorkersTestingInWindow
 (
 false
