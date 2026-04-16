@@ -116,9 +116,7 @@ extra
 .
 StackTraces
 .
-crash_info
-.
-type
+crash_type
 .
 startsWith
 (
