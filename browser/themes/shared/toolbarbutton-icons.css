@@ -3691,12 +3691,9 @@ svg
 )
 ;
 &
-.
-sidebar
--
-is
--
-open
+[
+checked
+]
 {
 list
 -
