@@ -12,6 +12,16 @@ include
 [
 .
 ]
+exclude
+:
+-
+testing
+/
+web
+-
+platform
+/
+tests
 extensions
 :
 -
