@@ -308,6 +308,13 @@ js
 ]
 [
 "
+browser_confirmation_hint
+.
+js
+"
+]
+[
+"
 browser_custom_actions
 .
 js

@@ -269,6 +269,13 @@ priority
 ;
 -
 (
+NSString
+*
+)
+composeAnnouncementMessageFromSubtree
+;
+-
+(
 id
 )
 childAt
