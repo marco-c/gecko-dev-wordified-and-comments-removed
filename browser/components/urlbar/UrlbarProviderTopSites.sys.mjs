@@ -1250,6 +1250,11 @@ sendAttributionRequest
 link
 .
 sendAttributionRequest
+lastVisitDate
+:
+link
+.
+lastVisitDate
 }
 ;
 if
@@ -1425,6 +1430,11 @@ isSponsored
 site
 .
 isSponsored
+lastVisit
+:
+site
+.
+lastVisitDate
 }
 ;
 /
