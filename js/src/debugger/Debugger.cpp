@@ -6674,7 +6674,6 @@ frameobj
 >
 isOnStack
 (
-cx
 )
 &
 &
@@ -14616,7 +14615,6 @@ frameObj
 .
 isOnStack
 (
-cx
 )
 )
 {
@@ -34768,7 +34766,6 @@ frameObj
 >
 isOnStack
 (
-cx
 )
 )
 {

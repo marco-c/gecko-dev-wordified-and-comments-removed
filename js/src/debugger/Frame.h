@@ -496,7 +496,6 @@ ARGUMENTS_SLOT
 ONSTEP_HANDLER_SLOT
 ONPOP_HANDLER_SLOT
 GENERATOR_INFO_SLOT
-WASM_CONT_FRAME_PTR_SLOT
 RESERVED_SLOTS
 }
 ;
@@ -782,9 +781,6 @@ static
 DebuggerFrameType
 getType
 (
-JSContext
-*
-cx
 Handle
 <
 DebuggerFrame
@@ -891,9 +887,6 @@ thisv
 bool
 isOnStack
 (
-JSContext
-*
-cx
 )
 const
 ;

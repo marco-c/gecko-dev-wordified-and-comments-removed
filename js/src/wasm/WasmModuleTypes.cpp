@@ -884,7 +884,7 @@ argTypes
 if
 (
 !
-exceptionArgOffsets_
+argOffsets_
 .
 resize
 (
@@ -957,7 +957,7 @@ return
 false
 ;
 }
-exceptionArgOffsets_
+argOffsets_
 [
 i
 ]
@@ -1019,7 +1019,7 @@ mallocSizeOf
 const
 {
 return
-exceptionArgOffsets_
+argOffsets_
 .
 sizeOfExcludingThis
 (
