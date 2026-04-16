@@ -41,6 +41,13 @@ js
 ]
 [
 "
+browser_BrowsingContextUtils
+.
+js
+"
+]
+[
+"
 browser_NavigableManager
 .
 js

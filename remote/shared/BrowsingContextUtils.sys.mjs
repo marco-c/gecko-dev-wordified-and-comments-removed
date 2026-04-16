@@ -496,6 +496,7 @@ principal
 isAddonOrExpandedAddonPrincipal
 ;
 }
+export
 function
 isParentProcess
 (
@@ -516,6 +517,7 @@ return
 browsingContext
 .
 currentWindowGlobal
+?
 .
 osPid
 =

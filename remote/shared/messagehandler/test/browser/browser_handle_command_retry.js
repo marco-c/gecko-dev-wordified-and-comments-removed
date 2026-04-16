@@ -23,10 +23,6 @@ content
 /
 shared
 /
-messagehandler
-/
-transports
-/
 BrowsingContextUtils
 .
 sys

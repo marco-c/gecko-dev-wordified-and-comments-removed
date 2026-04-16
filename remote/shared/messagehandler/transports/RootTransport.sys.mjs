@@ -123,10 +123,6 @@ content
 /
 shared
 /
-messagehandler
-/
-transports
-/
 BrowsingContextUtils
 .
 sys
@@ -145,10 +141,6 @@ remote
 content
 /
 shared
-/
-messagehandler
-/
-transports
 /
 BrowsingContextUtils
 .
@@ -235,10 +227,6 @@ remote
 content
 /
 shared
-/
-messagehandler
-/
-transports
 /
 BrowsingContextUtils
 .
