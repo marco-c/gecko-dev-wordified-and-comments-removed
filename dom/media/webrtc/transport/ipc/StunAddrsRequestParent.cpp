@@ -849,6 +849,14 @@ StunAddrsRequestParent
 :
 mSharedMDNSService
 ;
+NS_IMPL_ADDREF
+(
+StunAddrsRequestParent
+)
+NS_IMPL_RELEASE
+(
+StunAddrsRequestParent
+)
 StunAddrsRequestParent
 :
 :
