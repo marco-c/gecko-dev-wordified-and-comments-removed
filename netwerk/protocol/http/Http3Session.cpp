@@ -657,6 +657,12 @@ OriginPort
 (
 )
 aProviderFlags
+aConnInfo
+-
+>
+GetOriginAttributes
+(
+)
 this
 )
 ;
@@ -985,7 +991,6 @@ gHttpHandler
 Http3QlogDir
 (
 )
-aProviderFlags
 idleTimeout
 fastPto
 getter_AddRefs
@@ -1055,7 +1060,6 @@ gHttpHandler
 Http3QlogDir
 (
 )
-aProviderFlags
 idleTimeout
 fastPto
 socket
@@ -6811,9 +6815,8 @@ break
 }
 data
 .
-TruncateLength
+ClearAndRetainStorage
 (
-0
 )
 ;
 rv

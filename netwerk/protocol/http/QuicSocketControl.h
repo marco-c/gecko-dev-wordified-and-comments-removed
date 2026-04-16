@@ -85,6 +85,13 @@ int32_t
 aPort
 uint32_t
 aProviderFlags
+const
+mozilla
+:
+:
+OriginAttributes
+&
+aOriginAttributes
 Http3Session
 *
 aHttp3Session
