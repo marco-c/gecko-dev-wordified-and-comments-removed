@@ -3314,6 +3314,13 @@ components
 core
 .
 passwordsStorage
+tabGroupRepository
+=
+components
+.
+core
+.
+tabGroupRepository
 )
 }
 }

@@ -227,6 +227,11 @@ DebugDrawerAction
 .
 NavigateTo
 .
+TabGroupDebugTools
+DebugDrawerAction
+.
+NavigateTo
+.
 Logins
 DebugDrawerAction
 .
