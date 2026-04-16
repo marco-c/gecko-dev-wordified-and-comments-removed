@@ -2270,10 +2270,7 @@ CommandEndPoint
 =
 StyleCommandEndPoint
 <
-StyleShapePosition
-<
-StyleCSSFloat
->
+StyleSVGPathPosition
 StyleCSSFloat
 >
 ;
