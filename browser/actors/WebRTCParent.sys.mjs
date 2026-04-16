@@ -4836,8 +4836,6 @@ doc
 querySelector
 (
 "
-moz
--
 button
 .
 popup
