@@ -647,6 +647,14 @@ if
 (
 !
 mBlockingLoad
+&
+&
+mDOMLocalization
+-
+>
+IsDocumentL10n
+(
+)
 )
 {
 Document

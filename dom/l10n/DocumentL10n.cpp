@@ -329,6 +329,10 @@ GetCurrentContentSink
 )
 )
 ;
+mIsDocumentL10n
+=
+true
+;
 }
 DocumentL10n
 :
