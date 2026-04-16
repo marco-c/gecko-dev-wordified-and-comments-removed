@@ -709,6 +709,8 @@ notificationPopup
 querySelector
 (
 "
+moz
+-
 button
 .
 popup
@@ -1021,6 +1023,8 @@ notificationPopup
 querySelector
 (
 "
+moz
+-
 button
 .
 popup
@@ -1980,6 +1984,8 @@ notificationPopup
 querySelector
 (
 "
+moz
+-
 button
 .
 popup
