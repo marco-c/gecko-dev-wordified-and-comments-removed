@@ -117,8 +117,8 @@ GetImportMetaProperties
 JSContext
 *
 cx
-HandleValue
-privateValue
+HandleObject
+moduleRecord
 HandleObject
 metaObject
 )
@@ -235,8 +235,11 @@ populateImportMeta
 JSContext
 *
 cx
-HandleValue
-privateValue
+JS
+:
+:
+HandleObject
+moduleRecord
 HandleObject
 metaObject
 )
