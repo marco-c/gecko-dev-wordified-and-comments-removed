@@ -4623,10 +4623,7 @@ aElement
 GetBaseURI
 (
 )
-StyleSanitizationKind
-:
-:
-Standard
+aSanitizationKind
 )
 ;
 RemoveAllAttributesFromDescendants
@@ -5344,7 +5341,7 @@ aElement
 >
 UnsetAttr
 (
-kNameSpaceID_None
+attrNs
 attrLocal
 false
 )
