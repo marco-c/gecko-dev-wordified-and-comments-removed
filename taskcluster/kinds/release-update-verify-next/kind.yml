@@ -231,11 +231,7 @@ builds
 /
 worker
 /
-tools
-/
-release
-/
-updates
+workspace
 /
 diff
 -

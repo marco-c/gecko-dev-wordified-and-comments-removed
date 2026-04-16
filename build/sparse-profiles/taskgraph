@@ -776,6 +776,12 @@ the
 marannon
 toolchain
 task
++
+update
+-
+verify
+docker
+image
 path
 :
 tools
@@ -783,8 +789,6 @@ tools
 update
 -
 verify
-/
-marannon
 /
 #
 for

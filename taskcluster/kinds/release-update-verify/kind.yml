@@ -214,9 +214,7 @@ builds
 /
 worker
 /
-checkouts
-/
-gecko
+workspace
 /
 diff
 -
