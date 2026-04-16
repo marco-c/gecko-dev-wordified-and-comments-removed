@@ -1941,7 +1941,7 @@ mSendState
 SEND_DONE
 ;
 }
-void
+nsresult
 Http2WebTransportStream
 :
 :
@@ -1957,6 +1957,7 @@ mReliableSize
 )
 {
 return
+NS_OK
 ;
 }
 LOG
@@ -2037,6 +2038,9 @@ mRecvState
 RECV_DONE
 ;
 }
+return
+NS_OK
+;
 }
 void
 Http2WebTransportStream

@@ -2677,6 +2677,10 @@ GetWebTransportResetStreamCapsule
 (
 )
 ;
+if
+(
+NS_FAILED
+(
 stream
 -
 >
@@ -2686,7 +2690,13 @@ reset
 .
 mReliableSize
 )
+)
+)
+{
+return
+false
 ;
+}
 uint8_t
 wtError
 =
@@ -2793,6 +2803,11 @@ PRIu64
 this
 aError
 )
+)
+;
+Close
+(
+NS_ERROR_NET_RESET
 )
 ;
 }
