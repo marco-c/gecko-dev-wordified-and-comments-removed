@@ -849,9 +849,13 @@ PlayoutAudioDeviceInfo
 {
 int
 id
+=
+0
 ;
 int
 max_volume
+=
+0
 ;
 }
 ;
