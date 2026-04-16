@@ -101,7 +101,7 @@ gni
 rtc_library
 (
 "
-stereo_remixer
+capture_mixer
 "
 )
 {
@@ -277,7 +277,7 @@ deps
 [
 "
 :
-stereo_remixer
+capture_mixer
 "
 "
 .

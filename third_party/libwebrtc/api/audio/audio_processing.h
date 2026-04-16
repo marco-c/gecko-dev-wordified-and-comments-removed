@@ -198,6 +198,7 @@ DownmixMethod
 {
 kAverageChannels
 kUseFirstChannel
+kAdaptive
 }
 ;
 int
@@ -217,6 +218,14 @@ false
 ;
 DownmixMethod
 capture_downmix_method
+=
+DownmixMethod
+:
+:
+kAverageChannels
+;
+DownmixMethod
+capture_downmix_method_stereo_aec
 =
 DownmixMethod
 :

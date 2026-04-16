@@ -427,6 +427,9 @@ rtc_base
 :
 gtest_prod
 "
+"
+capture_mixer
+"
 ]
 }
 rtc_library
