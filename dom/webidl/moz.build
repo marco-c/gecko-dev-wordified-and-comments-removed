@@ -5433,6 +5433,16 @@ Selection
 webidl
 "
 "
+Serial
+.
+webidl
+"
+"
+SerialPort
+.
+webidl
+"
+"
 ServiceWorker
 .
 webidl
