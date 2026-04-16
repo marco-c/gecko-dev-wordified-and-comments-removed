@@ -5016,14 +5016,6 @@ if
 (
 !
 cell
-|
-|
-cell
--
->
-isMarkedBlack
-(
-)
 )
 {
 return
