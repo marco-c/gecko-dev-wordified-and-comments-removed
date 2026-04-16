@@ -1641,6 +1641,24 @@ realm
 owners
 "
 ]
+list
+)
+                
+for
+owner
+in
+realm
+[
+"
+owners
+"
+]
+:
+                    
+assert
+isinstance
+(
+owner
 str
 )
             
