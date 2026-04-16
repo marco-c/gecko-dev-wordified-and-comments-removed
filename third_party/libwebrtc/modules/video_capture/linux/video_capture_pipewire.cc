@@ -1424,6 +1424,14 @@ return
 0
 ;
 }
+RTC_NO_SANITIZE
+(
+"
+cfi
+-
+icall
+"
+)
 int32_t
 VideoCaptureModulePipeWire
 :
