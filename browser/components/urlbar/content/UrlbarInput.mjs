@@ -34260,6 +34260,8 @@ event
 target
 .
 closest
+?
+.
 (
 "
 tab
