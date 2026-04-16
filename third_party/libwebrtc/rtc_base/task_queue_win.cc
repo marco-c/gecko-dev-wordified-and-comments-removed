@@ -288,7 +288,7 @@ TaskQueueFactory
 Priority
 :
 :
-HIGH
+kHigh
 :
 return
 ThreadPriority
@@ -303,7 +303,7 @@ TaskQueueFactory
 Priority
 :
 :
-LOW
+kLow
 :
 return
 ThreadPriority
@@ -318,7 +318,7 @@ TaskQueueFactory
 Priority
 :
 :
-NORMAL
+kNormal
 :
 return
 ThreadPriority

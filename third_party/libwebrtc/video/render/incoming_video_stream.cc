@@ -181,7 +181,7 @@ TaskQueueFactory
 Priority
 :
 :
-HIGH
+kHigh
 )
 )
 {

@@ -182,7 +182,7 @@ TaskQueueFactory
 Priority
 :
 :
-HIGH
+kHigh
 )
 ;
 uint32_t

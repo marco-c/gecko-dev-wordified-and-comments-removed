@@ -1835,7 +1835,7 @@ TaskQueueFactory
 Priority
 :
 :
-NORMAL
+kNormal
 )
 )
 ;

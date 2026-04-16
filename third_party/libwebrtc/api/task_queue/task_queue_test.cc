@@ -261,7 +261,7 @@ TaskQueueFactory
 Priority
 :
 :
-NORMAL
+kNormal
 )
 {
 return
@@ -727,7 +727,7 @@ TaskQueueFactory
 Priority
 :
 :
-HIGH
+kHigh
 )
 ;
 int64_t

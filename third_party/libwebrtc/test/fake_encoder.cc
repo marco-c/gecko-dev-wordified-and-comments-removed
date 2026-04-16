@@ -2400,7 +2400,7 @@ TaskQueueFactory
 Priority
 :
 :
-NORMAL
+kNormal
 )
 ;
 queue2_
@@ -2423,7 +2423,7 @@ TaskQueueFactory
 Priority
 :
 :
-NORMAL
+kNormal
 )
 ;
 return

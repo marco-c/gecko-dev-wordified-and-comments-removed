@@ -326,7 +326,7 @@ TaskQueueFactory
 Priority
 :
 :
-NORMAL
+kNormal
 )
 ;
 SimulatedClock

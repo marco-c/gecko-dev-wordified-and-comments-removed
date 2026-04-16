@@ -263,7 +263,7 @@ TaskQueueFactory
 Priority
 :
 :
-NORMAL
+kNormal
 )
 ;
 TaskQueueForTest

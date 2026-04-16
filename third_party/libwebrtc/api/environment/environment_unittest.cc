@@ -525,7 +525,7 @@ TaskQueueFactory
 Priority
 :
 :
-NORMAL
+kNormal
 )
 NotNull
 (

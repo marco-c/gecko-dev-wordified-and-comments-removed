@@ -947,7 +947,7 @@ TaskQueueFactory
 Priority
 :
 :
-NORMAL
+kNormal
 )
 ;
 ExecutionOrderKeeper
