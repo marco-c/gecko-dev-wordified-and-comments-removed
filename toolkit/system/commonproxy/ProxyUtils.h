@@ -51,6 +51,11 @@ nsACString
 aOverride
 )
 ;
+bool
+HasProxyEnvVars
+(
+)
+;
 }
 }
 }
