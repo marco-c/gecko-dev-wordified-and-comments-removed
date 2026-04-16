@@ -682,6 +682,11 @@ group
 moz
 -
 button
+type
+=
+"
+ghost
+"
 onClick
 =
 {
@@ -718,7 +723,7 @@ button
 type
 =
 "
-primary
+destructive
 "
 onClick
 =

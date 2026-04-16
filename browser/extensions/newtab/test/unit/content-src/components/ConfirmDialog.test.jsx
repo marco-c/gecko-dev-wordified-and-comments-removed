@@ -632,7 +632,7 @@ button
 type
 =
 '
-primary
+destructive
 '
 ]
 "
@@ -959,7 +959,6 @@ filterWhere
 n
 =
 >
-!
 n
 .
 prop
@@ -968,6 +967,12 @@ prop
 type
 "
 )
+=
+=
+=
+"
+ghost
+"
 )
 ;
 assert
@@ -1075,7 +1080,6 @@ filterWhere
 n
 =
 >
-!
 n
 .
 prop
@@ -1084,6 +1088,12 @@ prop
 type
 "
 )
+=
+=
+=
+"
+ghost
+"
 )
 ;
 assert
@@ -1268,7 +1278,7 @@ button
 type
 =
 '
-primary
+destructive
 '
 ]
 "
@@ -1447,7 +1457,7 @@ button
 type
 =
 '
-primary
+destructive
 '
 ]
 "

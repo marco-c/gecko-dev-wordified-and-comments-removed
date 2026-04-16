@@ -258,6 +258,7 @@ const
 {
 action
 impression
+toast
 id
 type
 userEvent
@@ -363,6 +364,17 @@ dispatch
 action
 )
 ;
+if
+(
+toast
+)
+{
+dispatch
+(
+toast
+)
+;
+}
 if
 (
 eventName
