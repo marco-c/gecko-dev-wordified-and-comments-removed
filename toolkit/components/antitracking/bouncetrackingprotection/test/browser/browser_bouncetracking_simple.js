@@ -66,16 +66,6 @@ privacy
 .
 bounceTrackingProtection
 .
-requireStatefulBounces
-"
-false
-]
-[
-"
-privacy
-.
-bounceTrackingProtection
-.
 bounceTrackingGracePeriodSec
 "
 0

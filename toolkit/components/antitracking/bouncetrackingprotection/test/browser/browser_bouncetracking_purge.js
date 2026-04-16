@@ -75,16 +75,6 @@ bounceTrackingGracePeriodSec
 "
 BOUNCE_TRACKING_GRACE_PERIOD_SEC
 ]
-[
-"
-privacy
-.
-bounceTrackingProtection
-.
-requireStatefulBounces
-"
-false
-]
 ]
 }
 )
