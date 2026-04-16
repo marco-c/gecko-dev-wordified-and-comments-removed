@@ -307,7 +307,6 @@ WidgetSelectionEvent
 aEvent
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 Init
 (
@@ -344,7 +343,6 @@ DisconnectFromEventStateManager
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 bool
 MaybeReinitialize
 (
@@ -665,7 +663,6 @@ GetState
 )
 const
 ;
-MOZ_CAN_RUN_SCRIPT
 bool
 InitWithEditor
 (
