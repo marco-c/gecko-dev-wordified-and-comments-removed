@@ -83,6 +83,7 @@ mLength
 =
 0
 ;
+const
 nsString
 mMessage
 ;
@@ -135,11 +136,7 @@ aMessage
 {
 aMessage
 .
-AsAString
-(
-)
-.
-Assign
+SetKnownLiveString
 (
 mMessage
 )

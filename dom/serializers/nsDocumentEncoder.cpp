@@ -6741,7 +6741,7 @@ outputBuffer
 =
 output
 .
-GetStringBuffer
+GetOwnedStringBuffer
 (
 )
 )

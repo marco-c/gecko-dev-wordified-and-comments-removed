@@ -1642,13 +1642,7 @@ static
 void
 GetInnerTextNoFlush
 (
-mozilla
-:
-:
-dom
-:
-:
-DOMString
+nsAString
 &
 aValue
 mozilla
