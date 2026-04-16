@@ -518,12 +518,16 @@ override
 void
 NotifyFirstPacketReceived
 (
+uint32_t
+ssrc
 )
 override
 ;
 void
 NotifyFirstPacketReceivedAfterReceptiveChange
 (
+uint32_t
+ssrc
 )
 override
 ;

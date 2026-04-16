@@ -101,6 +101,9 @@ class
 Call
 ;
 class
+RtpPacketReceived
+;
+class
 VideoBitrateAllocatorFactory
 ;
 class
@@ -245,7 +248,7 @@ enable
 ;
 virtual
 void
-SetFirstPacketReceivedCallback
+SetFirstPacketReceivedCallback_n
 (
 absl
 :
@@ -254,6 +257,9 @@ AnyInvocable
 <
 void
 (
+const
+RtpPacketReceived
+&
 )
 &
 &
@@ -265,7 +271,7 @@ callback
 ;
 virtual
 void
-SetFirstPacketSentCallback
+SetFirstPacketSentCallback_n
 (
 absl
 :
@@ -294,6 +300,9 @@ AnyInvocable
 <
 void
 (
+const
+RtpPacketReceived
+&
 )
 >
 callback

@@ -2051,6 +2051,8 @@ AudioRtpReceiver
 :
 NotifyFirstPacketReceived
 (
+uint32_t
+ssrc
 )
 {
 RTC_DCHECK_RUN_ON
@@ -2086,6 +2088,8 @@ AudioRtpReceiver
 :
 NotifyFirstPacketReceivedAfterReceptiveChange
 (
+uint32_t
+ssrc
 )
 {
 RTC_DCHECK_RUN_ON

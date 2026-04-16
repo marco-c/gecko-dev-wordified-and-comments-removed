@@ -442,6 +442,7 @@ MOCK_METHOD
 void
 NotifyFirstPacketReceived
 (
+uint32_t
 )
 (
 override
@@ -453,6 +454,7 @@ MOCK_METHOD
 void
 NotifyFirstPacketReceivedAfterReceptiveChange
 (
+uint32_t
 )
 (
 override

@@ -194,6 +194,8 @@ virtual
 void
 NotifyFirstPacketReceived
 (
+uint32_t
+ssrc
 )
 =
 0
@@ -202,6 +204,8 @@ virtual
 void
 NotifyFirstPacketReceivedAfterReceptiveChange
 (
+uint32_t
+ssrc
 )
 =
 0

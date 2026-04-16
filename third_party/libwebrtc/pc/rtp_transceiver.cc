@@ -3299,7 +3299,7 @@ transport_name
 channel
 -
 >
-SetFirstPacketReceivedCallback
+SetFirstPacketReceivedCallback_n
 (
 [
 thread
@@ -3311,6 +3311,10 @@ flag
 this
 ]
 (
+const
+RtpPacketReceived
+&
+packet
 )
 mutable
 {
@@ -3330,12 +3334,20 @@ flag
 )
 [
 this
+ssrc
+=
+packet
+.
+Ssrc
+(
+)
 ]
 (
 )
 {
 OnFirstPacketReceived
 (
+ssrc
 )
 ;
 }
@@ -3348,7 +3360,7 @@ OnFirstPacketReceived
 channel
 -
 >
-SetFirstPacketSentCallback
+SetFirstPacketSentCallback_n
 (
 [
 thread
@@ -3406,6 +3418,10 @@ flag
 flag
 ]
 (
+const
+RtpPacketReceived
+&
+packet
 )
 {
 RTC_DCHECK_RUN_ON
@@ -3422,6 +3438,11 @@ network_thread
 ;
 OnPacketReceived
 (
+packet
+.
+Ssrc
+(
+)
 flag
 )
 ;
@@ -3556,7 +3577,7 @@ SetNotAlive
 channel
 -
 >
-SetFirstPacketReceivedCallback
+SetFirstPacketReceivedCallback_n
 (
 nullptr
 )
@@ -3564,7 +3585,7 @@ nullptr
 channel
 -
 >
-SetFirstPacketSentCallback
+SetFirstPacketSentCallback_n
 (
 nullptr
 )
@@ -4791,6 +4812,8 @@ RtpTransceiver
 :
 OnFirstPacketReceived
 (
+uint32_t
+ssrc
 )
 {
 for
@@ -4813,6 +4836,7 @@ internal
 >
 NotifyFirstPacketReceived
 (
+ssrc
 )
 ;
 }
@@ -4823,6 +4847,8 @@ RtpTransceiver
 :
 OnPacketReceived
 (
+uint32_t
+ssrc
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -4861,6 +4887,7 @@ SafeTask
 safety
 [
 this
+ssrc
 ]
 (
 )
@@ -4909,6 +4936,7 @@ internal
 >
 NotifyFirstPacketReceivedAfterReceptiveChange
 (
+ssrc
 )
 ;
 }
