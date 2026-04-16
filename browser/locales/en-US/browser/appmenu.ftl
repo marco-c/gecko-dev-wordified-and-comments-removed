@@ -185,6 +185,17 @@ label
 History
 appmenuitem
 -
+tab
+-
+groups
+=
+.
+label
+=
+Tab
+groups
+appmenuitem
+-
 downloads
 =
 .

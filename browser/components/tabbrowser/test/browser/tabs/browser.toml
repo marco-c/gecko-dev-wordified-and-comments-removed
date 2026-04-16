@@ -3733,6 +3733,13 @@ tabs
 "
 [
 "
+browser_tab_groups_list
+.
+js
+"
+]
+[
+"
 browser_tab_groups_tabContextMenu
 .
 js
