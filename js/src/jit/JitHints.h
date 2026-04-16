@@ -126,7 +126,7 @@ key
 ;
 }
 void
-initThreshold
+setThreshold
 (
 uint32_t
 threshold
