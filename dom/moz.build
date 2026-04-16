@@ -335,6 +335,9 @@ webauthn
 webidl
 "
 "
+webserial
+"
+"
 webshare
 "
 "
