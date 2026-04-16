@@ -665,10 +665,7 @@ mobile
 -
 enable
 -
-sync
-=
-.
-label
+sync2
 =
 Enable
 sync
@@ -686,10 +683,7 @@ mobile
 -
 connect
 -
-phone
-=
-.
-label
+phone2
 =
 Connect
 your
@@ -704,10 +698,7 @@ mobile
 -
 device
 -
-missing
-=
-.
-label
+missing2
 =
 Don
 t
