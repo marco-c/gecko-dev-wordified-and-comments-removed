@@ -309,6 +309,8 @@ feature
 .
 fxsuggest
 .
+datasource
+.
 MockedFlightsSuggestionDataSource
 import
 mozilla
@@ -319,6 +321,8 @@ feature
 .
 fxsuggest
 .
+datasource
+.
 MockedSportsSuggestionDataSource
 import
 mozilla
@@ -328,6 +332,8 @@ components
 feature
 .
 fxsuggest
+.
+datasource
 .
 MockedStocksSuggestionDataSource
 import

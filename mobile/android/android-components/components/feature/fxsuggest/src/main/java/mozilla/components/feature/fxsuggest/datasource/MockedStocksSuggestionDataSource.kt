@@ -64,6 +64,8 @@ components
 feature
 .
 fxsuggest
+.
+datasource
 import
 mozilla
 .
@@ -82,6 +84,14 @@ Mock
 implementation
 of
 [
+mozilla
+.
+components
+.
+concept
+.
+awesomebar
+.
 AwesomeBar
 .
 StocksSuggestionDataSource
