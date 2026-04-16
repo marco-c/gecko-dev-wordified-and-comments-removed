@@ -5898,12 +5898,6 @@ cc
 -
 rtc_base
 /
-virtual_socket_unittest
-.
-cc
--
-rtc_base
-/
 win32
 .
 cc
