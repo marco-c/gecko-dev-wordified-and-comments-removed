@@ -32,15 +32,6 @@ stdarg
 .
 h
 >
-#
-include
-"
-fmt
-/
-format
-.
-h
-"
 MOZ_BEGIN_EXTERN_C
 MFBT_DATA
 const

@@ -6,15 +6,6 @@ define
 EditorLineBreak_h
 #
 include
-<
-fmt
-/
-format
-.
-h
->
-#
-include
 "
 EditorDOMPoint
 .
