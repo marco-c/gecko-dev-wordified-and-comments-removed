@@ -109,17 +109,6 @@ uint32_t
 aId
 )
 ;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
-RecvRemoveResourceManager
-(
-)
-;
 private
 :
 void

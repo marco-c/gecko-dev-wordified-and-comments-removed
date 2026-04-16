@@ -116,6 +116,10 @@ OnIpcClosed
 (
 )
 ;
+mManager
+=
+nullptr
+;
 }
 mDestroyed
 =
@@ -138,8 +142,9 @@ mDestroyed
 return
 ;
 }
-SendRemoveResourceManager
+Send__delete__
 (
+this
 )
 ;
 }
