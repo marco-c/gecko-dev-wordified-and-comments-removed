@@ -1108,14 +1108,12 @@ eventDispatcher
 .
 sendRequest
 (
-{
-type
-:
 "
 GeckoView
 :
 SavePdf
 "
+{
 url
 :
 blobUrl
