@@ -365,6 +365,13 @@ Zero
 (
 )
 kMaxDataRate
+DataRate
+:
+:
+KilobitsPerSec
+(
+300
+)
 )
 ;
 DataRate
@@ -527,6 +534,13 @@ Zero
 (
 )
 kMaxDataRate
+DataRate
+:
+:
+KilobitsPerSec
+(
+300
+)
 )
 ;
 DataRate

@@ -303,8 +303,14 @@ ScreamV2
 >
 scream_
 ;
-TargetRateConstraints
-target_rate_constraints_
+DataRate
+min_target_rate_
+;
+DataRate
+max_target_rate_
+;
+DataRate
+starting_rate_
 ;
 std
 :
