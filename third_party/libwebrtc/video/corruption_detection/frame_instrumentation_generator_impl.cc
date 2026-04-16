@@ -501,6 +501,8 @@ make_unique
 FrameSelector
 >
 (
+*
+environment
 scalability_mode
 .
 value_or
