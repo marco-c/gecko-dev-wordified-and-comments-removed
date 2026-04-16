@@ -4808,16 +4808,6 @@ innerText
 =
 name
 ;
-summary
-.
-dataset
-.
-capturesFocus
-=
-"
-true
-"
-;
 details
 .
 appendChild

@@ -11764,6 +11764,14 @@ toggle
 "
 |
 |
+localName
+=
+=
+"
+summary
+"
+|
+|
 node
 .
 classList
