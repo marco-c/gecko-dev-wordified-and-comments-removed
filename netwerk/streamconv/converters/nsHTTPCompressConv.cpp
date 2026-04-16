@@ -5553,8 +5553,8 @@ gz_magic
 ]
 =
 {
-GZIP_MAGIC_0
-GZIP_MAGIC_1
+0x1f
+0x8b
 }
 ;
 uint32_t
