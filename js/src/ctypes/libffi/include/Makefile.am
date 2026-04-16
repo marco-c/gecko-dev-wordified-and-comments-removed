@@ -25,6 +25,9 @@ h
 ffi_cfi
 .
 h
+tramp
+.
+h
 EXTRA_DIST
 =
 ffi

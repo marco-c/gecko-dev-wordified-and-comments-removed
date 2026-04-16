@@ -85,6 +85,9 @@ define
 FFI_TARGET_HAS_COMPLEX_TYPE
 #
 define
+FFI_TARGET_HAS_INT128
+#
+define
 FFI_CLOSURES
 1
 #

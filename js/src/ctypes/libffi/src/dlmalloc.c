@@ -511,6 +511,15 @@ size_t
 #
 endif
 #
+undef
+M_TRIM_THRESHOLD
+#
+undef
+M_GRANULARITY
+#
+undef
+M_MMAP_THRESHOLD
+#
 define
 M_TRIM_THRESHOLD
 (
@@ -5778,7 +5787,7 @@ I
 )
 I
 =
-ffs
+__builtin_ffs
 (
 X
 )
@@ -12384,6 +12393,11 @@ nfences
 =
 0
 ;
+(
+void
+)
+nfences
+;
 init_top
 (
 m
@@ -17979,6 +17993,7 @@ endif
 void
 dlmalloc_stats
 (
+void
 )
 {
 internal_malloc_stats

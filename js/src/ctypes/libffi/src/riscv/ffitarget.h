@@ -124,4 +124,7 @@ riscv_unused
 define
 FFI_TARGET_SPECIFIC_VARIADIC
 #
+define
+FFI_TARGET_HAS_INT128
+#
 endif

@@ -41,6 +41,26 @@ FFI_EXEC_TRAMPOLINE_TABLE
 "
         
 "
+FFI_VERSION_NUMBER
+"
+:
+"
+30502
+"
+        
+"
+FFI_VERSION_STRING
+"
+:
+"
+3
+.
+5
+.
+2
+"
+        
+"
 HAVE_LONG_DOUBLE
 "
 :
@@ -134,7 +154,7 @@ main
 *
 sys
 .
-agv
+argv
 [
 1
 :

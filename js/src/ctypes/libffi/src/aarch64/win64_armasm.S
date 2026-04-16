@@ -297,7 +297,7 @@ ffi_go_closure_SYSV
 #
 endif
 TEXTAREA
-ALLIGN
+ALIGN
 =
 8
 /

@@ -173,6 +173,11 @@ cfi_escape
 cfi_escape
 __VA_ARGS__
 #
+define
+cfi_window_save
+.
+cfi_window_save
+#
 else
 #
 define
@@ -281,6 +286,9 @@ cfi_escape
 .
 .
 )
+#
+define
+cfi_window_save
 #
 endif
 #

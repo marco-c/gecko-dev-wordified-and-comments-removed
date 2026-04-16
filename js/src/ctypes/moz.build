@@ -169,6 +169,14 @@ FFI_TARGET_DIR
 "
 ]
 ]
+DEFINES
+[
+"
+FFI_STATIC_BUILD
+"
+]
+=
+True
 if
 CONFIG
 [
