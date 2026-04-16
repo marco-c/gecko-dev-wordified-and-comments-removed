@@ -169,10 +169,6 @@ AsyncOpen
 nullable
 nsIURI
 aURI
-nsCString
-aOrigin
-OriginAttributes
-aOriginAttributes
 uint64_t
 aInnerWindowID
 nsCString
