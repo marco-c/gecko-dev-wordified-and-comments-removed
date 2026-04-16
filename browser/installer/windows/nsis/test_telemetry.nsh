@@ -25,11 +25,6 @@ zero
 .
 0
 /
-!
-include
-telemetry
-.
-nsh
 Function
 TelemetryTests
 {
