@@ -5882,10 +5882,6 @@ aHost
 const
 bool
 &
-aFromHttp
-const
-bool
-&
 aIsThirdParty
 nsTArray
 <
@@ -5972,7 +5968,6 @@ aBaseDomain
 )
 aOriginAttributes
 aHost
-aFromHttp
 aIsThirdParty
 aCookies
 browsingContext

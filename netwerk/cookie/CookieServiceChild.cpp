@@ -2729,7 +2729,6 @@ SendSetCookies
 aBaseDomain
 aOriginAttributes
 aDocumentURI
-false
 aThirdParty
 cookiesToSend
 )
@@ -2745,7 +2744,6 @@ SendSetCookies
 aBaseDomain
 aOriginAttributes
 aDocumentURI
-false
 aThirdParty
 cookiesToSend
 )

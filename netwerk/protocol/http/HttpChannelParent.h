@@ -922,10 +922,6 @@ aHost
 const
 bool
 &
-aFromHttp
-const
-bool
-&
 aIsThirdParty
 nsTArray
 <
