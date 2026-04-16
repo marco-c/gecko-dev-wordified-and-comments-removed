@@ -1406,6 +1406,13 @@ http3
 ]
 [
 "
+test_group_scroll_position_update
+.
+html
+"
+]
+[
+"
 test_group_scroll_snap
 .
 html
