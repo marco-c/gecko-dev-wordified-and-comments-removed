@@ -2546,6 +2546,15 @@ toggle
 /
 div
 >
+<
+hr
+role
+=
+"
+separator
+"
+/
+>
 ;
 }
 footerTemplate
