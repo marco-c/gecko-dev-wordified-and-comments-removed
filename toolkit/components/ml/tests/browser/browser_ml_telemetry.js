@@ -761,6 +761,13 @@ memory_bytes
 "
 )
 ;
+checkNumber
+(
+"
+system_memory_mb
+"
+)
+;
 Assert
 .
 equal
@@ -4203,6 +4210,13 @@ checkNumber
 (
 "
 memory_bytes
+"
+)
+;
+checkNumber
+(
+"
+system_memory_mb
 "
 )
 ;
