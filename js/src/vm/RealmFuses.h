@@ -1285,9 +1285,6 @@ FuseIndex
 index
 )
 ;
-#
-ifdef
-DEBUG
 static
 bool
 isInvalidatingFuse
@@ -1372,8 +1369,6 @@ Found
 )
 ;
 }
-#
-endif
 }
 ;
 }
