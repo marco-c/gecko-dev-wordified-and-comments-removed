@@ -1055,7 +1055,7 @@ server
 >
 username
 =
-r_strdup
+strdup
 (
 username_
 .
@@ -1110,7 +1110,7 @@ if
 r
 )
 {
-RFREE
+free
 (
 server
 -
@@ -2571,7 +2571,7 @@ error_code
 "
 )
 ;
-RFREE
+free
 (
 url
 )
@@ -5262,7 +5262,7 @@ i
 )
 )
 ;
-RFREE
+free
 (
 attrs
 [
@@ -5271,7 +5271,7 @@ i
 )
 ;
 }
-RFREE
+free
 (
 attrs
 )
@@ -6022,7 +6022,7 @@ candidate
 >
 mdns_addr
 =
-r_strdup
+strdup
 (
 mdns_address
 -

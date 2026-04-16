@@ -500,7 +500,7 @@ sc1
 entry
 )
 ;
-RFREE
+free
 (
 sc1
 )
@@ -1160,7 +1160,7 @@ if
 (
 _status
 )
-RFREE
+free
 (
 sock
 )
@@ -1252,13 +1252,13 @@ s1
 entry
 )
 ;
-RFREE
+free
 (
 s1
 )
 ;
 }
-RFREE
+free
 (
 isock
 )

@@ -425,7 +425,7 @@ ABORT
 r
 )
 ;
-RFREE
+free
 (
 addr
 )
@@ -446,7 +446,7 @@ _status
 ;
 abort
 :
-RFREE
+free
 (
 addr
 )
@@ -455,7 +455,7 @@ if
 (
 _status
 )
-RFREE
+free
 (
 servers
 )
@@ -490,7 +490,7 @@ ctx
 stun_servers_cfg
 )
 {
-RFREE
+free
 (
 ctx
 -
@@ -617,7 +617,7 @@ i
 +
 )
 {
-RFREE
+free
 (
 ctx
 -
@@ -645,7 +645,7 @@ password
 )
 ;
 }
-RFREE
+free
 (
 ctx
 -
@@ -756,7 +756,7 @@ ctx
 local_addrs
 )
 {
-RFREE
+free
 (
 ctx
 -
@@ -1319,7 +1319,7 @@ data
 0
 ;
 }
-RFREE
+free
 (
 addr
 )
@@ -1340,14 +1340,14 @@ _status
 ;
 abort
 :
-RFREE
+free
 (
 data
 .
 data
 )
 ;
-RFREE
+free
 (
 addr
 )
@@ -1356,7 +1356,7 @@ if
 (
 _status
 )
-RFREE
+free
 (
 servers
 )
@@ -1457,7 +1457,7 @@ ctx
 >
 label
 =
-r_strdup
+strdup
 (
 label
 )
@@ -2177,7 +2177,7 @@ s1
 )
 ;
 }
-RFREE
+free
 (
 ctx
 -
@@ -2192,7 +2192,7 @@ gather_handler
 =
 0
 ;
-RFREE
+free
 (
 ctx
 -
@@ -2200,7 +2200,7 @@ ctx
 stun_servers_cfg
 )
 ;
-RFREE
+free
 (
 ctx
 -
@@ -2208,7 +2208,7 @@ ctx
 local_addrs
 )
 ;
-RFREE
+free
 (
 ctx
 -
@@ -2234,7 +2234,7 @@ i
 +
 )
 {
-RFREE
+free
 (
 ctx
 -
@@ -2262,7 +2262,7 @@ password
 )
 ;
 }
-RFREE
+free
 (
 ctx
 -
@@ -2294,7 +2294,7 @@ f1
 entry
 )
 ;
-RFREE
+free
 (
 f1
 )
@@ -2328,7 +2328,7 @@ nr_ice_stun_id_
 entry
 )
 ;
-RFREE
+free
 (
 id1
 )
@@ -2361,7 +2361,7 @@ ctx
 socket_factory
 )
 ;
-RFREE
+free
 (
 ctx
 )
@@ -4327,7 +4327,7 @@ ctx
 target_for_default_local_address_lookup
 )
 {
-RFREE
+free
 (
 ctx
 -
@@ -4381,7 +4381,7 @@ target_for_default_local_address_lookup
 )
 )
 {
-RFREE
+free
 (
 ctx
 -

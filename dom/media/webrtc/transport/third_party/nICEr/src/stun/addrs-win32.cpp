@@ -238,7 +238,7 @@ AdapterAddresses
 (
 PIP_ADAPTER_ADDRESSES
 )
-RMALLOC
+malloc
 (
 buflen
 )
@@ -315,7 +315,7 @@ d
 r
 )
 ;
-RFREE
+free
 (
 AdapterAddresses
 )
@@ -764,7 +764,7 @@ _status
 ;
 abort
 :
-RFREE
+free
 (
 AdapterAddresses
 )

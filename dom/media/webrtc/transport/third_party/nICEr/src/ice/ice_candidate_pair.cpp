@@ -658,7 +658,7 @@ ice_binding_request
 .
 username
 =
-r_strdup
+strdup
 (
 rcand
 -
@@ -862,7 +862,7 @@ retransmit_ct
 )
 ;
 }
-RFREE
+free
 (
 pair
 -
@@ -870,7 +870,7 @@ pair
 as_string
 )
 ;
-RFREE
+free
 (
 pair
 -
@@ -901,7 +901,7 @@ pair
 stun_client
 )
 {
-RFREE
+free
 (
 pair
 -
@@ -916,7 +916,7 @@ ice_binding_request
 username
 )
 ;
-RFREE
+free
 (
 pair
 -
@@ -967,7 +967,7 @@ pair
 restart_nominated_cb_timer
 )
 ;
-RFREE
+free
 (
 pair
 )

@@ -187,7 +187,7 @@ ctx
 >
 label
 =
-r_strdup
+strdup
 (
 label
 )
@@ -4930,7 +4930,7 @@ nr_stun_client_ctx
 )
 cb_arg
 ;
-RFREE
+free
 (
 ctx
 -
@@ -4938,7 +4938,7 @@ ctx
 nonce
 )
 ;
-RFREE
+free
 (
 ctx
 -
@@ -4946,7 +4946,7 @@ ctx
 realm
 )
 ;
-RFREE
+free
 (
 ctx
 -
@@ -4954,7 +4954,7 @@ ctx
 label
 )
 ;
-RFREE
+free
 (
 ctx
 )

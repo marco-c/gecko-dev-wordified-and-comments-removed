@@ -136,7 +136,7 @@ ctx
 >
 label
 =
-r_strdup
+strdup
 (
 label
 )
@@ -238,7 +238,7 @@ ctx
 default_client
 )
 ;
-RFREE
+free
 (
 ctx
 -
@@ -246,7 +246,7 @@ ctx
 label
 )
 ;
-RFREE
+free
 (
 ctx
 )
@@ -321,7 +321,7 @@ clnt
 >
 label
 =
-r_strdup
+strdup
 (
 client_label
 )
@@ -341,7 +341,7 @@ clnt
 >
 username
 =
-r_strdup
+strdup
 (
 user
 )
@@ -2024,7 +2024,7 @@ clnt
 return
 0
 ;
-RFREE
+free
 (
 clnt
 -
@@ -2032,7 +2032,7 @@ clnt
 label
 )
 ;
-RFREE
+free
 (
 clnt
 -
@@ -2049,7 +2049,7 @@ clnt
 password
 )
 ;
-RFREE
+free
 (
 clnt
 )

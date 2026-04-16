@@ -338,7 +338,7 @@ i
 ]
 )
 ;
-RFREE
+free
 (
 assoc
 -
@@ -346,7 +346,7 @@ assoc
 chains
 )
 ;
-RFREE
+free
 (
 *
 assocp
@@ -403,7 +403,7 @@ chain
 data
 )
 ;
-RFREE
+free
 (
 chain
 -
@@ -411,7 +411,7 @@ chain
 key
 )
 ;
-RFREE
+free
 (
 chain
 )
@@ -737,7 +737,7 @@ key
 char
 *
 )
-RMALLOC
+malloc
 (
 len
 )
@@ -893,7 +893,7 @@ _status
 new_bucket
 )
 {
-RFREE
+free
 (
 new_bucket
 -
@@ -901,7 +901,7 @@ new_bucket
 key
 )
 ;
-RFREE
+free
 (
 new_bucket
 )
@@ -1386,7 +1386,7 @@ num_elements
 -
 -
 ;
-RFREE
+free
 (
 iter
 -
@@ -1397,7 +1397,7 @@ prev
 key
 )
 ;
-RFREE
+free
 (
 iter
 -

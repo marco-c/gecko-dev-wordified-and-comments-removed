@@ -945,7 +945,7 @@ cand
 >
 label
 =
-r_strdup
+strdup
 (
 label
 )
@@ -1253,7 +1253,7 @@ cand
 >
 label
 =
-r_strdup
+strdup
 (
 label
 )
@@ -1394,7 +1394,7 @@ cand
 >
 foundation
 =
-r_strdup
+strdup
 (
 cand
 -
@@ -2144,7 +2144,7 @@ default
 break
 ;
 }
-RFREE
+free
 (
 cand
 -
@@ -2152,7 +2152,7 @@ cand
 mdns_addr
 )
 ;
-RFREE
+free
 (
 cand
 -
@@ -2160,7 +2160,7 @@ cand
 foundation
 )
 ;
-RFREE
+free
 (
 cand
 -
@@ -2168,7 +2168,7 @@ cand
 label
 )
 ;
-RFREE
+free
 (
 cand
 )
@@ -2419,7 +2419,7 @@ cand
 >
 foundation
 =
-r_strdup
+strdup
 (
 fnd
 )
@@ -2563,7 +2563,7 @@ cand
 >
 foundation
 =
-r_strdup
+strdup
 (
 fnd
 )
@@ -6027,7 +6027,7 @@ addr
 as_string
 )
 ;
-RFREE
+free
 (
 cand
 -

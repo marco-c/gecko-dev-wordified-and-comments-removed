@@ -187,7 +187,7 @@ pctx
 >
 label
 =
-r_strdup
+strdup
 (
 label
 )
@@ -959,7 +959,7 @@ cand
 >
 mdns_addr
 =
-r_strdup
+strdup
 (
 mdns_addr
 )
@@ -2446,7 +2446,7 @@ pctx
 connected_cb_timer
 )
 ;
-RFREE
+free
 (
 pctx
 -
@@ -2539,7 +2539,7 @@ trickle_grace_period_timer
 0
 ;
 }
-RFREE
+free
 (
 pctx
 )

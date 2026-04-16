@@ -467,7 +467,7 @@ if
 (
 free_node
 )
-RFREE
+free
 (
 node
 )
@@ -858,7 +858,7 @@ _status
 ;
 abort
 :
-RFREE
+free
 (
 children
 )
@@ -923,7 +923,7 @@ tmp
 UCHAR
 *
 )
-RMALLOC
+malloc
 (
 length
 )
@@ -991,7 +991,7 @@ if
 (
 tmp
 )
-RFREE
+free
 (
 tmp
 )
@@ -1055,7 +1055,7 @@ tmp
 char
 *
 )
-RMALLOC
+malloc
 (
 length
 +
@@ -1119,7 +1119,7 @@ if
 (
 tmp
 )
-RFREE
+free
 (
 tmp
 )

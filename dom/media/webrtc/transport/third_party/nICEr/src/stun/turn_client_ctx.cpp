@@ -441,7 +441,7 @@ nr_transport_addr_listnode
 listnode
 )
 {
-RFREE
+free
 (
 *
 listnode
@@ -788,7 +788,7 @@ ctx
 stun
 )
 ;
-RFREE
+free
 (
 ctx
 -
@@ -796,7 +796,7 @@ ctx
 realm
 )
 ;
-RFREE
+free
 (
 ctx
 -
@@ -847,7 +847,7 @@ listnode
 )
 ;
 }
-RFREE
+free
 (
 ctx
 )
@@ -874,7 +874,7 @@ nonce
 int
 _status
 ;
-RFREE
+free
 (
 ctx
 -
@@ -882,7 +882,7 @@ ctx
 realm
 )
 ;
-RFREE
+free
 (
 ctx
 -
@@ -910,7 +910,7 @@ ctx
 >
 realm
 =
-r_strdup
+strdup
 (
 realm
 )
@@ -948,7 +948,7 @@ ctx
 >
 nonce
 =
-r_strdup
+strdup
 (
 nonce
 )
@@ -966,7 +966,7 @@ ABORT
 R_NO_MEMORY
 )
 ;
-RFREE
+free
 (
 ctx
 -
@@ -985,7 +985,7 @@ stun
 >
 realm
 =
-r_strdup
+strdup
 (
 ctx
 -
@@ -2304,7 +2304,7 @@ realm
 )
 )
 {
-RFREE
+free
 (
 ctx
 -
@@ -2323,7 +2323,7 @@ tctx
 >
 realm
 =
-r_strdup
+strdup
 (
 ctx
 -
@@ -2393,7 +2393,7 @@ nonce
 )
 )
 {
-RFREE
+free
 (
 ctx
 -
@@ -2412,7 +2412,7 @@ tctx
 >
 nonce
 =
-r_strdup
+strdup
 (
 ctx
 -
@@ -3002,7 +3002,7 @@ ctx
 >
 label
 =
-r_strdup
+strdup
 (
 label
 )
@@ -3025,7 +3025,7 @@ ctx
 >
 username
 =
-r_strdup
+strdup
 (
 username
 )
@@ -3249,7 +3249,7 @@ nr_turn_client_deallocate
 ctx
 )
 ;
-RFREE
+free
 (
 ctx
 -
@@ -3269,7 +3269,7 @@ nr_turn_client_cancel
 ctx
 )
 ;
-RFREE
+free
 (
 ctx
 -
@@ -3293,7 +3293,7 @@ ctx
 password
 )
 ;
-RFREE
+free
 (
 ctx
 -
@@ -3308,7 +3308,7 @@ nonce
 =
 0
 ;
-RFREE
+free
 (
 ctx
 -
@@ -3409,7 +3409,7 @@ perm
 )
 ;
 }
-RFREE
+free
 (
 ctx
 )
@@ -6468,7 +6468,7 @@ permp
 =
 0
 ;
-RFREE
+free
 (
 perm
 )

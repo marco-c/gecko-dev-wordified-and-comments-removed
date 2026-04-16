@@ -777,7 +777,7 @@ tmp
 nr_local_addr
 *
 )
-RMALLOC
+malloc
 (
 *
 count
@@ -931,7 +931,7 @@ _status
 ;
 abort
 :
-RFREE
+free
 (
 tmp
 )

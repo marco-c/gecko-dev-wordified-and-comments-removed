@@ -626,7 +626,7 @@ buffer
 UCHAR
 *
 )
-RMALLOC
+malloc
 (
 sock
 -
@@ -798,7 +798,7 @@ objp
 =
 0
 ;
-RFREE
+free
 (
 sock
 -
@@ -870,7 +870,7 @@ sock
 inner
 )
 ;
-RFREE
+free
 (
 sock
 )
@@ -1013,7 +1013,7 @@ frame
 nr_frame_header
 *
 )
-RMALLOC
+malloc
 (
 len
 +
@@ -1100,7 +1100,7 @@ _status
 ;
 abort
 :
-RFREE
+free
 (
 frame
 )

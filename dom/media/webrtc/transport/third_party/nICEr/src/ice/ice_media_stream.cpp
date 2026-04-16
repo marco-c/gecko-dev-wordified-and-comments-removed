@@ -157,7 +157,7 @@ stream
 >
 label
 =
-r_strdup
+strdup
 (
 label
 )
@@ -177,7 +177,7 @@ stream
 >
 ufrag
 =
-r_strdup
+strdup
 (
 ufrag
 )
@@ -197,7 +197,7 @@ stream
 >
 pwd
 =
-r_strdup
+strdup
 (
 pwd
 )
@@ -502,7 +502,7 @@ dst
 >
 username
 =
-r_strdup
+strdup
 (
 src
 -
@@ -712,7 +712,7 @@ p1
 )
 ;
 }
-RFREE
+free
 (
 stream
 -
@@ -720,7 +720,7 @@ stream
 label
 )
 ;
-RFREE
+free
 (
 stream
 -
@@ -728,7 +728,7 @@ stream
 ufrag
 )
 ;
-RFREE
+free
 (
 stream
 -
@@ -736,7 +736,7 @@ stream
 pwd
 )
 ;
-RFREE
+free
 (
 stream
 -
@@ -744,7 +744,7 @@ stream
 r2l_user
 )
 ;
-RFREE
+free
 (
 stream
 -
@@ -770,7 +770,7 @@ stream
 l2r_pass
 )
 ;
-RFREE
+free
 (
 stream
 -
@@ -797,7 +797,7 @@ i
 +
 )
 {
-RFREE
+free
 (
 stream
 -
@@ -825,7 +825,7 @@ password
 )
 ;
 }
-RFREE
+free
 (
 stream
 -
@@ -848,7 +848,7 @@ stream
 timer
 )
 ;
-RFREE
+free
 (
 stream
 )
@@ -1219,7 +1219,7 @@ index
 char
 *
 )
-RMALLOC
+malloc
 (
 NR_ICE_MAX_ATTRIBUTE_SIZE
 )
@@ -1368,7 +1368,7 @@ tmp
 char
 *
 )
-RMALLOC
+malloc
 (
 100
 )
@@ -1416,7 +1416,7 @@ tmp
 char
 *
 )
-RMALLOC
+malloc
 (
 100
 )
@@ -1495,7 +1495,7 @@ index
 +
 )
 {
-RFREE
+free
 (
 attrs
 [
@@ -1504,7 +1504,7 @@ index
 )
 ;
 }
-RFREE
+free
 (
 attrs
 )
@@ -1877,7 +1877,7 @@ _status
 ;
 abort
 :
-RFREE
+free
 (
 user
 )
@@ -5439,7 +5439,7 @@ if
 *
 urlp
 =
-r_strdup
+strdup
 (
 buf
 )

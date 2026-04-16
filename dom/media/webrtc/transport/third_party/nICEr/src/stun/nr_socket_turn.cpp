@@ -337,7 +337,7 @@ magic_cookie
 nr_socket_turn_magic_cookie
 )
 ;
-RFREE
+free
 (
 sturn
 )
