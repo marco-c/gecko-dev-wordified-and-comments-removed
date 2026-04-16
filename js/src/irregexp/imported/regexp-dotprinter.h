@@ -5,9 +5,6 @@ V8_REGEXP_REGEXP_DOTPRINTER_H_
 define
 V8_REGEXP_REGEXP_DOTPRINTER_H_
 #
-ifdef
-V8_ENABLE_REGEXP_DIAGNOSTICS
-#
 include
 "
 irregexp
@@ -22,11 +19,8 @@ v8
 namespace
 internal
 {
-namespace
-regexp
-{
 class
-Node
+RegExpNode
 ;
 class
 DotPrinter
@@ -45,7 +39,7 @@ const
 char
 *
 label
-Node
+RegExpNode
 *
 node
 )
@@ -54,8 +48,5 @@ node
 ;
 }
 }
-}
-#
-endif
 #
 endif

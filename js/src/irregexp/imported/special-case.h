@@ -49,11 +49,8 @@ v8
 namespace
 internal
 {
-namespace
-regexp
-{
 class
-CaseFolding
+RegExpCaseFolding
 final
 :
 public
@@ -168,7 +165,6 @@ cu
 }
 }
 ;
-}
 }
 }
 #

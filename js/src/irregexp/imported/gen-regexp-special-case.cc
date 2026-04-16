@@ -37,9 +37,6 @@ v8
 namespace
 internal
 {
-namespace
-regexp
-{
 static
 const
 base
@@ -361,7 +358,7 @@ icu
 :
 UnicodeSet
 &
-CaseFolding
+RegExpCaseFolding
 :
 :
 "
@@ -568,7 +565,7 @@ USET_CASE_INSENSITIVE
 UChar32
 canonical
 =
-CaseFolding
+RegExpCaseFolding
 :
 :
 Canonicalize
@@ -647,7 +644,7 @@ continue
 UChar32
 other_canonical
 =
-CaseFolding
+RegExpCaseFolding
 :
 :
 Canonicalize
@@ -757,7 +754,7 @@ c
 UChar32
 canonical
 =
-CaseFolding
+RegExpCaseFolding
 :
 :
 Canonicalize
@@ -837,7 +834,7 @@ c2
 CHECK_EQ
 (
 canonical
-CaseFolding
+RegExpCaseFolding
 :
 :
 Canonicalize
@@ -1183,15 +1180,6 @@ internal
 {
 \
 n
-"
-<
-<
-"
-namespace
-regexp
-{
-\
-n
 \
 n
 "
@@ -1205,17 +1193,6 @@ out
 <
 <
 "
-\
-n
-"
-<
-<
-"
-}
-/
-/
-namespace
-regexp
 \
 n
 "
@@ -1253,7 +1230,6 @@ V8_INTL_SUPPORT
 n
 "
 ;
-}
 }
 }
 }
@@ -1317,9 +1293,6 @@ v8
 :
 :
 internal
-:
-:
-regexp
 :
 :
 WriteHeader
