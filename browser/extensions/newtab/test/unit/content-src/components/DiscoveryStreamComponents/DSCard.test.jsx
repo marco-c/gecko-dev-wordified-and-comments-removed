@@ -194,9 +194,13 @@ DEFAULT_PROPS
 url
 :
 "
-about
+https
 :
-robots
+/
+/
+example
+.
+com
 "
 title
 :
