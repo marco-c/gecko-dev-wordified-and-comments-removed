@@ -80,7 +80,7 @@ kNetworkCostVpn
 1
 ;
 constexpr
-uint16_t
+int16_t
 kNetworkCostSlice
 =
 -
