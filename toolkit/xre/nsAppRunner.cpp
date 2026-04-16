@@ -12415,7 +12415,7 @@ sb
 ;
 NS_ENSURE_TRUE_LOG
 (
-sbs
+sb
 NS_ERROR_FAILURE
 )
 ;
