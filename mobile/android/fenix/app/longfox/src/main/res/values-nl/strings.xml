@@ -105,7 +105,7 @@ name
 score
 "
 >
-Pisteet
+Score
 :
 %
 1
@@ -167,8 +167,9 @@ name
 likes_cookies
 "
 >
-tykk
-kekseist
+houdt
+van
+cookies
 <
 /
 string
@@ -181,8 +182,10 @@ name
 tap_to_play
 "
 >
-napauta
-pelataksesi
+tik
+om
+te
+spelen
 !
 <
 /
@@ -225,8 +228,7 @@ name
 hiscore
 "
 >
-PARHAAT
-PISTEET
+HISCORE
 :
 %
 1
@@ -243,9 +245,8 @@ name
 sound_on
 "
 >
-ni
-p
-ll
+geluid
+aan
 <
 /
 string
@@ -258,10 +259,8 @@ name
 sound_off
 "
 >
-ni
-pois
-p
-lt
+geluid
+uit
 <
 /
 string
@@ -283,7 +282,7 @@ name
 back
 "
 >
-takaisin
+terug
 <
 /
 string
