@@ -170,14 +170,10 @@ bool
 >
 requests_alr_probing
 ;
-std
-:
-:
-optional
-<
 bool
->
 enable_repeated_initial_probing
+=
+false
 ;
 std
 :
