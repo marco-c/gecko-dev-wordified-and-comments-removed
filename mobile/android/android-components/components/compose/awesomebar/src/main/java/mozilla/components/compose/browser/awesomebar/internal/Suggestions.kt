@@ -942,6 +942,11 @@ sport
 suggestion
 .
 sport
+sportCategory
+=
+suggestion
+.
+sportCategory
 status
 =
 suggestion

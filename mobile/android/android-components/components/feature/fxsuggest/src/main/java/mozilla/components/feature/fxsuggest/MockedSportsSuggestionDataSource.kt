@@ -458,6 +458,11 @@ sport
 "
 NBA
 "
+sportCategory
+=
+"
+basketball
+"
 date
 =
 date
@@ -583,6 +588,11 @@ sport
 "
 NFL
 "
+sportCategory
+=
+"
+football
+"
 date
 =
 date
@@ -706,6 +716,11 @@ sport
 "
 MLB
 "
+sportCategory
+=
+"
+baseball
+"
 date
 =
 date
@@ -826,6 +841,11 @@ sport
 =
 "
 NHL
+"
+sportCategory
+=
+"
+hockey
 "
 date
 =
