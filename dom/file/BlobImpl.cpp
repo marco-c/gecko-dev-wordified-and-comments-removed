@@ -486,7 +486,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS
+NS_IMPL_QUERY_INTERFACE
 (
 BlobImpl
 BlobImpl
