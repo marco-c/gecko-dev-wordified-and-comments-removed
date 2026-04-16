@@ -329,7 +329,7 @@ remaining_payload_
 =
 remaining_payload_
 .
-subview
+subspan
 (
 next_packet_payload_len
 )

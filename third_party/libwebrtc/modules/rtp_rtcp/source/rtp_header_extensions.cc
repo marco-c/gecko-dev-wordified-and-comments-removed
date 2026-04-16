@@ -2729,7 +2729,7 @@ ParseHdrMetadata
 (
 data
 .
-subview
+subspan
 (
 offset
 )
@@ -2907,7 +2907,7 @@ WriteHdrMetadata
 (
 data
 .
-subview
+subspan
 (
 offset
 )

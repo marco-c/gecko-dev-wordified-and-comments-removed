@@ -371,7 +371,7 @@ vp8_payload
 =
 rtp_payload
 .
-subview
+subspan
 (
 payload_offset
 )

@@ -668,7 +668,7 @@ nalu_data
 =
 nal_unit
 .
-subview
+subspan
 (
 H264
 :
@@ -960,7 +960,7 @@ AppendData
 (
 payload_data
 .
-subview
+subspan
 (
 end_offset
 )
@@ -1626,7 +1626,7 @@ uint8_t
 rtp_payload
 )
 .
-subview
+subspan
 (
 2
 *

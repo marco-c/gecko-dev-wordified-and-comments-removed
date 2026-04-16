@@ -215,7 +215,7 @@ push_back
 (
 payload
 .
-subview
+subspan
 (
 nalu
 .
@@ -717,7 +717,7 @@ PacketUnit
 (
 fragment
 .
-subview
+subspan
 (
 offset
 packet_length

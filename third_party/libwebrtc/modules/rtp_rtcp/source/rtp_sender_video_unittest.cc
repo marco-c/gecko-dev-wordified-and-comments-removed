@@ -9173,7 +9173,7 @@ EXPECT_THAT
 (
 sent_payload
 .
-subview
+subspan
 (
 1
 )
@@ -9283,7 +9283,7 @@ EXPECT_THAT
 (
 sent_payload
 .
-subview
+subspan
 (
 1
 )

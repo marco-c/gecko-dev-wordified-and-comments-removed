@@ -883,7 +883,7 @@ write_report_for_ssrc
 (
 remaining
 .
-subview
+subspan
 (
 0
 number_of_packets_for_ssrc
@@ -894,7 +894,7 @@ remaining
 =
 remaining
 .
-subview
+subspan
 (
 number_of_packets_for_ssrc
 )
