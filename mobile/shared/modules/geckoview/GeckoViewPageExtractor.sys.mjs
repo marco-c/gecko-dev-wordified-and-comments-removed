@@ -178,6 +178,11 @@ PageExtractor
 .
 getText
 (
+aData
+?
+?
+{
+}
 )
 .
 then
