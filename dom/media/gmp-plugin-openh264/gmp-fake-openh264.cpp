@@ -2189,6 +2189,13 @@ Reset
 )
 override
 {
+callback_
+-
+>
+ResetComplete
+(
+)
+;
 }
 void
 Drain
@@ -2196,6 +2203,13 @@ Drain
 )
 override
 {
+callback_
+-
+>
+DrainComplete
+(
+)
+;
 }
 void
 DecodingComplete

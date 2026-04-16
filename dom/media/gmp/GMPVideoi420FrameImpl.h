@@ -148,11 +148,6 @@ GMPVideoi420FrameImpl
 (
 )
 ;
-void
-DoneWithAPI
-(
-)
-;
 static
 bool
 CheckFrameData
@@ -552,11 +547,6 @@ int32_t
 aNewSize
 )
 ;
-void
-DestroyBuffer
-(
-)
-;
 public
 :
 const
@@ -565,8 +555,10 @@ mReportPolicy
 ;
 protected
 :
+RefPtr
+<
 GMPVideoHostImpl
-*
+>
 mHost
 ;
 nsTArray

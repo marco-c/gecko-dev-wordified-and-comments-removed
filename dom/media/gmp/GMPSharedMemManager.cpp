@@ -327,6 +327,12 @@ aMem
 IsWritable
 (
 )
+|
+|
+!
+MgrCanSend
+(
+)
 )
 {
 return

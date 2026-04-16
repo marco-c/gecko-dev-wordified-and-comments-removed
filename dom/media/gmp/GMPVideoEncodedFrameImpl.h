@@ -144,11 +144,6 @@ GMPVideoEncodedFrameImpl
 (
 )
 ;
-void
-DoneWithAPI
-(
-)
-;
 static
 bool
 CheckFrameData
@@ -419,8 +414,10 @@ mTemporalLayerId
 bool
 mCompleteFrame
 ;
+RefPtr
+<
 GMPVideoHostImpl
-*
+>
 mHost
 ;
 nsTArray
