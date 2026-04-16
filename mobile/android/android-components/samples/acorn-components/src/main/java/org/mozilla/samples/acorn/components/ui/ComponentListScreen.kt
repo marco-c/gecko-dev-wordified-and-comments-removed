@@ -326,6 +326,13 @@ typography
 headline5
 )
 }
+actions
+=
+{
+ThemeToggleButton
+(
+)
+}
 )
 }
 )

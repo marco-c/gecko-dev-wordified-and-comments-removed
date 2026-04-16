@@ -381,6 +381,13 @@ null
 )
 }
 }
+actions
+=
+{
+ThemeToggleButton
+(
+)
+}
 )
 }
 )

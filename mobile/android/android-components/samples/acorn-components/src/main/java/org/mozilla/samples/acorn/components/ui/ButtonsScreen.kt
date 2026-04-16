@@ -421,6 +421,13 @@ null
 )
 }
 }
+actions
+=
+{
+ThemeToggleButton
+(
+)
+}
 )
 }
 )

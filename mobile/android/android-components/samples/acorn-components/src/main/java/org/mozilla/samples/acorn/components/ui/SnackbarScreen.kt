@@ -454,6 +454,13 @@ null
 )
 }
 }
+actions
+=
+{
+ThemeToggleButton
+(
+)
+}
 )
 }
 snackbarHost

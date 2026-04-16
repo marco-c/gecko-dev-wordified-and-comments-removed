@@ -77,12 +77,6 @@ androidx
 .
 activity
 .
-ComponentActivity
-import
-androidx
-.
-activity
-.
 compose
 .
 setContent
@@ -92,6 +86,14 @@ androidx
 activity
 .
 enableEdgeToEdge
+import
+androidx
+.
+appcompat
+.
+app
+.
+AppCompatActivity
 import
 androidx
 .
@@ -201,7 +203,7 @@ components
 class
 AcornComponentsActivity
 :
-ComponentActivity
+AppCompatActivity
 (
 )
 {
