@@ -357,6 +357,11 @@ TAB_HOVER_PREVIEW_PANEL
 "
 hover_menu
 "
+TAB_NOTE_PREVIEW_PANEL
+:
+"
+note_preview
+"
 }
 )
 ;
