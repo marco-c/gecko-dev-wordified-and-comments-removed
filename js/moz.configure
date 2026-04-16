@@ -1144,7 +1144,9 @@ imports
 "
 default
 =
-False
+milestone
+.
+is_nightly
 help
 =
 "
