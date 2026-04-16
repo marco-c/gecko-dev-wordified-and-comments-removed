@@ -367,8 +367,10 @@ BeginReading
 ;
 if
 (
-!
 start
+=
+=
+kNotFound
 )
 {
 MOZ_CRASH_UNSAFE
