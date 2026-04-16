@@ -15151,7 +15151,7 @@ return
 ;
 }
 const
-ScrollAxis
+AxisScrollParams
 axis
 (
 WhereToScroll

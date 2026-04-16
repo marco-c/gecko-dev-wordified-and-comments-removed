@@ -395,14 +395,14 @@ ParamTraits
 mozilla
 :
 :
-ScrollAxis
+AxisScrollParams
 >
 {
 typedef
 mozilla
 :
 :
-ScrollAxis
+AxisScrollParams
 paramType
 ;
 static

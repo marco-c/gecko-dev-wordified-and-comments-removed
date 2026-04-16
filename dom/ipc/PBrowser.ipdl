@@ -1201,7 +1201,7 @@ using
 mozilla
 :
 :
-ScrollAxis
+AxisScrollParams
 from
 "
 mozilla
@@ -4164,9 +4164,9 @@ ScrollRectIntoView
 (
 nsRect
 aRect
-ScrollAxis
+AxisScrollParams
 aVertical
-ScrollAxis
+AxisScrollParams
 aHorizontal
 ScrollFlags
 aScrollFlags

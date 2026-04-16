@@ -1616,7 +1616,7 @@ presShell
 ScrollContentIntoView
 (
 content
-ScrollAxis
+AxisScrollParams
 (
 WhereToScroll
 :
@@ -1627,7 +1627,7 @@ WhenToScroll
 :
 IfNotVisible
 )
-ScrollAxis
+AxisScrollParams
 (
 WhereToScroll
 :

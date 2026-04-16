@@ -88,7 +88,7 @@ Selection
 namespace
 dom
 struct
-ScrollAxis
+AxisScrollParams
 ;
 enum
 class
@@ -2157,14 +2157,14 @@ const
 mozilla
 :
 :
-ScrollAxis
+AxisScrollParams
 &
 aVertical
 const
 mozilla
 :
 :
-ScrollAxis
+AxisScrollParams
 &
 aHorizontal
 mozilla

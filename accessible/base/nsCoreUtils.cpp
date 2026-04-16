@@ -1360,7 +1360,7 @@ uint32_t
 aScrollType
 )
 {
-ScrollAxis
+AxisScrollParams
 vertical
 horizontal
 ;
@@ -1395,9 +1395,9 @@ aFrame
 nsRange
 *
 aRange
-ScrollAxis
+AxisScrollParams
 aVertical
-ScrollAxis
+AxisScrollParams
 aHorizontal
 )
 {
@@ -1657,10 +1657,10 @@ ConvertScrollTypeToPercents
 (
 uint32_t
 aScrollType
-ScrollAxis
+AxisScrollParams
 *
 aVertical
-ScrollAxis
+AxisScrollParams
 *
 aHorizontal
 )
@@ -1928,7 +1928,7 @@ IfNotFullyVisible
 *
 aVertical
 =
-ScrollAxis
+AxisScrollParams
 (
 whereY
 whenY
@@ -1937,7 +1937,7 @@ whenY
 *
 aHorizontal
 =
-ScrollAxis
+AxisScrollParams
 (
 whereX
 whenX
@@ -3000,7 +3000,7 @@ uint32_t
 aScrollType
 )
 {
-ScrollAxis
+AxisScrollParams
 vertical
 horizontal
 ;

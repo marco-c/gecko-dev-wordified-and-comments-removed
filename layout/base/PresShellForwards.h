@@ -237,11 +237,11 @@ IfNotFullyVisible
 }
 ;
 struct
-ScrollAxis
+AxisScrollParams
 final
 {
 explicit
-ScrollAxis
+AxisScrollParams
 (
 WhereToScroll
 aWhere

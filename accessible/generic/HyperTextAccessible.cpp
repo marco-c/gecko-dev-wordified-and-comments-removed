@@ -3791,7 +3791,7 @@ ScrollSubstringTo
 (
 frame
 domRange
-ScrollAxis
+AxisScrollParams
 (
 WhereToScroll
 (
@@ -3802,7 +3802,7 @@ WhenToScroll
 :
 Always
 )
-ScrollAxis
+AxisScrollParams
 (
 WhereToScroll
 (
