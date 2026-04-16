@@ -685,6 +685,9 @@ shared
 .
 nsh
 !
+define
+TELEMETRY_FULL_INSTALLER
+!
 include
 telemetry
 .
@@ -6797,6 +6800,11 @@ If
 {
 Errors
 }
+GetFunctionAddress
+0
+PrepareFullInstallPing
+Push
+0
 Call
 SendTelemetryPing
 {

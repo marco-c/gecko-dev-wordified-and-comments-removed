@@ -254,6 +254,12 @@ nsi
 \
 nsis
 /
+test_telemetry
+.
+nsh
+\
+nsis
+/
 get_installation_type
 .
 nsh
