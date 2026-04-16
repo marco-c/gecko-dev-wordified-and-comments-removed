@@ -478,7 +478,7 @@ optional
 <
 TimeDelta
 >
-RenderedExcessMargin
+RenderExcessMargin
 (
 )
 const
@@ -520,7 +520,7 @@ optional
 <
 TimeDelta
 >
-RenderedDeficitMargin
+RenderDeficitMargin
 (
 )
 const
