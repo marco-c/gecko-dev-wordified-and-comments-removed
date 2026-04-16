@@ -3029,14 +3029,6 @@ nsIURI
 uri
 )
 ;
-uint32_t
-NS_SecurityHashURI
-(
-nsIURI
-*
-aURI
-)
-;
 bool
 NS_SecurityCompareURIs
 (

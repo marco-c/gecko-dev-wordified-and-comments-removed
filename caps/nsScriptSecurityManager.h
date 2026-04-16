@@ -187,15 +187,6 @@ aTargetURI
 )
 ;
 static
-uint32_t
-SecurityHashURI
-(
-nsIURI
-*
-aURI
-)
-;
-static
 bool
 IsHttpOrHttpsAndCrossOrigin
 (
