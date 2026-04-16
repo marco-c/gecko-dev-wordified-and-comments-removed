@@ -66,7 +66,8 @@ works
 FunctionEnd
 !
 macro
-PrepareTestTelemetryPing
+MakeTelemetryPing
+Callback
 Push
 "
 ~
@@ -77,7 +78,9 @@ sentinel
 "
 GetFunctionAddress
 0
-FakePingInfo
+{
+Callback
+}
 Push
 0
 Call
@@ -312,7 +315,8 @@ Push
 0
 !
 insertmacro
-PrepareTestTelemetryPing
+MakeTelemetryPing
+FakePingInfo
 nsJSON
 :
 :
@@ -510,7 +514,8 @@ SetSilent
 silent
 !
 insertmacro
-PrepareTestTelemetryPing
+MakeTelemetryPing
+FakePingInfo
 {
 AssertTelemetryData
 }
@@ -527,7 +532,8 @@ SetSilent
 normal
 !
 insertmacro
-PrepareTestTelemetryPing
+MakeTelemetryPing
+FakePingInfo
 {
 AssertTelemetryData
 }
