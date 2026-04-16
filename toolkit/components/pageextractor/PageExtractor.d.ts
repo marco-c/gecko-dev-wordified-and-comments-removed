@@ -128,10 +128,6 @@ language
 :
 string
 ;
-isReaderable
-:
-boolean
-;
 }
 ;
 export

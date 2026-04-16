@@ -178,11 +178,6 @@ PageExtractor
 .
 getText
 (
-aData
-?
-?
-{
-}
 )
 .
 then
@@ -303,11 +298,6 @@ language
 result
 .
 language
-isReaderable
-:
-result
-.
-isReaderable
 }
 )
 ;

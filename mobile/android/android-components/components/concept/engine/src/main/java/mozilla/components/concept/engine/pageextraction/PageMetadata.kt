@@ -118,18 +118,6 @@ if
 not
 declared
 *
-property
-isReaderable
-Whether
-the
-page
-is
-likely
-readable
-by
-reader
-mode
-*
 /
 data
 class
@@ -150,8 +138,4 @@ val
 language
 :
 String
-val
-isReaderable
-:
-Boolean
 )
