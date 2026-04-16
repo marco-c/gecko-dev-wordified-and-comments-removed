@@ -376,6 +376,16 @@ MOZ_COUNT_DTOR
 RenderTextureHost
 )
 ;
+if
+(
+mDestroyedCallback
+)
+{
+mDestroyedCallback
+(
+)
+;
+}
 }
 wr
 :
