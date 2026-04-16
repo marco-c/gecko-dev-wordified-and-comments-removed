@@ -250,6 +250,13 @@ js
 ]
 [
 "
+browser_about_translations_app_menu
+.
+js
+"
+]
+[
+"
 browser_about_translations_copy_button_enabled_states
 .
 js

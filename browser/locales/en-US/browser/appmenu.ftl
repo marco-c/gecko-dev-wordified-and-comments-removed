@@ -2143,6 +2143,14 @@ Customize
 toolbar
 appmenu
 -
+abouttranslations
+=
+.
+label
+=
+Translate
+appmenu
+-
 developer
 -
 tools

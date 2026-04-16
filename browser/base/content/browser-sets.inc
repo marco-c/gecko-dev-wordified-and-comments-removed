@@ -502,6 +502,15 @@ cmd_translate
 /
 >
 <
+command
+id
+=
+"
+cmd_openAboutTranslations
+"
+/
+>
+<
 !
 -
 -
