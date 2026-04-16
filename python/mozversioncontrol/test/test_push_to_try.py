@@ -557,8 +557,7 @@ try
 "
 "
 -
--
-message
+m
 "
 commit_message
 )
@@ -573,8 +572,7 @@ revert
 "
 "
 -
--
-all
+a
 "
 )
         
@@ -746,8 +744,7 @@ ref
                 
 "
 -
--
-message
+m
 "
                 
 "
@@ -786,8 +783,7 @@ ref
                 
 "
 -
--
-message
+m
 "
                 
 "
@@ -1003,10 +999,7 @@ log
                 
 "
 -
--
-limit
-=
-1
+n1
 "
                 
 "
@@ -1019,8 +1012,7 @@ graph
                 
 "
 -
--
-template
+T
 "
                 
 "
@@ -1061,8 +1053,7 @@ graph
                 
 "
 -
--
-revision
+r
 "
                 
 "
@@ -1083,8 +1074,7 @@ exact
                 
 "
 -
--
-template
+T
 "
                 
 "
@@ -1126,16 +1116,12 @@ log
                 
 "
 -
--
-limit
-=
-0
+n0
 "
                 
 "
 -
--
-template
+T
 "
                 
 '
@@ -1171,10 +1157,7 @@ log
                 
 "
 -
--
-limit
-=
-1
+n1
 "
                 
 "
@@ -1187,8 +1170,7 @@ graph
                 
 "
 -
--
-template
+T
 "
                 
 "
@@ -1221,8 +1203,7 @@ new
                 
 "
 -
--
-message
+m
 "
                 
 "
@@ -1306,36 +1287,26 @@ file
 )
             
 (
-                
 str
 (
 tool
 )
-                
 "
 -
 -
 quiet
 "
-                
 "
 log
 "
-                
 "
 -
--
-limit
-=
-0
+n0
 "
-                
 "
 -
--
-template
+T
 "
-                
 '
 "
 snapshot
@@ -1343,7 +1314,6 @@ snapshot
 prepare_try_push
 "
 '
-            
 )
             
 (
@@ -1432,16 +1402,12 @@ graph
                 
 "
 -
--
-limit
-=
-1
+n1
 "
                 
 "
 -
--
-revision
+r
 "
                 
 "
@@ -1449,8 +1415,7 @@ revision
                 
 "
 -
--
-template
+T
 "
                 
 "
