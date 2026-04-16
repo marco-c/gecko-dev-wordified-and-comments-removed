@@ -378,7 +378,7 @@ R
 .
 string
 .
-mozac_feature_addons_failed_to_query_extensions
+mozac_feature_addon_failed_to_load_extension
 Toast
 .
 LENGTH_SHORT
