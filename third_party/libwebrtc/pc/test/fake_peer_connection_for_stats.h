@@ -557,6 +557,17 @@ include
 "
 rtc_base
 /
+system
+/
+plan_b_only
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 thread
 .
 h
@@ -1619,6 +1630,7 @@ return
 remote_streams_
 ;
 }
+PLAN_B_ONLY
 scoped_refptr
 <
 RtpSenderInterface
@@ -1672,6 +1684,7 @@ return
 sender_proxy
 ;
 }
+PLAN_B_ONLY
 void
 RemoveSender
 (
@@ -1708,6 +1721,7 @@ get
 )
 ;
 }
+PLAN_B_ONLY
 scoped_refptr
 <
 RtpReceiverInterface
@@ -1762,6 +1776,7 @@ return
 receiver_proxy
 ;
 }
+PLAN_B_ONLY
 void
 RemoveReceiver
 (
@@ -1798,6 +1813,7 @@ get
 )
 ;
 }
+PLAN_B_ONLY
 std
 :
 :
@@ -2055,6 +2071,7 @@ voice_media_receive_channel_ptr
 )
 ;
 }
+PLAN_B_ONLY
 std
 :
 :
@@ -2570,6 +2587,7 @@ chain
 )
 ;
 }
+PLAN_B_ONLY
 scoped_refptr
 <
 StreamCollectionInterface
@@ -2583,6 +2601,7 @@ return
 local_streams_
 ;
 }
+PLAN_B_ONLY
 scoped_refptr
 <
 StreamCollectionInterface

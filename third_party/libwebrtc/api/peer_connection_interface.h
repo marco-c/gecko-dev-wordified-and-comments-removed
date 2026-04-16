@@ -680,6 +680,17 @@ rtc_base
 /
 system
 /
+plan_b_only
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+system
+/
 rtc_export
 .
 h
@@ -2025,6 +2036,7 @@ kStatsOutputLevelStandard
 kStatsOutputLevelDebug
 }
 ;
+PLAN_B_ONLY
 virtual
 scoped_refptr
 <
@@ -2036,6 +2048,7 @@ local_streams
 =
 0
 ;
+PLAN_B_ONLY
 virtual
 scoped_refptr
 <
@@ -2047,6 +2060,7 @@ remote_streams
 =
 0
 ;
+PLAN_B_ONLY
 virtual
 bool
 AddStream
@@ -2058,6 +2072,7 @@ stream
 =
 0
 ;
+PLAN_B_ONLY
 virtual
 void
 RemoveStream
@@ -2241,6 +2256,7 @@ init
 =
 0
 ;
+PLAN_B_ONLY
 virtual
 scoped_refptr
 <

@@ -242,6 +242,17 @@ include
 "
 rtc_base
 /
+system
+/
+plan_b_only
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 thread
 .
 h
@@ -508,6 +519,7 @@ state_
 new_state
 ;
 }
+PLAN_B_ONLY
 MediaStreamInterface
 *
 RemoteStream
@@ -531,6 +543,7 @@ label
 )
 ;
 }
+PLAN_B_ONLY
 StreamCollectionInterface
 *
 remote_streams
@@ -546,6 +559,7 @@ get
 )
 ;
 }
+PLAN_B_ONLY
 void
 OnAddStream
 (
@@ -570,6 +584,7 @@ stream
 )
 ;
 }
+PLAN_B_ONLY
 void
 OnRemoveStream
 (
@@ -1044,6 +1059,7 @@ return
 found_tracks
 ;
 }
+PLAN_B_ONLY
 std
 :
 :
@@ -1069,6 +1085,7 @@ return
 "
 ;
 }
+PLAN_B_ONLY
 std
 :
 :

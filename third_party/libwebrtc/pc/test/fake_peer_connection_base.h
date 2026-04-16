@@ -498,6 +498,17 @@ include
 "
 rtc_base
 /
+system
+/
+plan_b_only
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 thread
 .
 h
@@ -525,6 +536,7 @@ CreateEnvironment
 )
 {
 }
+PLAN_B_ONLY
 scoped_refptr
 <
 StreamCollectionInterface
@@ -538,6 +550,7 @@ return
 nullptr
 ;
 }
+PLAN_B_ONLY
 scoped_refptr
 <
 StreamCollectionInterface
@@ -551,6 +564,7 @@ return
 nullptr
 ;
 }
+PLAN_B_ONLY
 bool
 AddStream
 (
@@ -564,6 +578,7 @@ return
 false
 ;
 }
+PLAN_B_ONLY
 void
 RemoveStream
 (
@@ -825,6 +840,7 @@ implemented
 )
 ;
 }
+PLAN_B_ONLY
 scoped_refptr
 <
 RtpSenderInterface
