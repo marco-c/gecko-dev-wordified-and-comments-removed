@@ -647,6 +647,10 @@ onDeleteTabGroup
 onMove
 =
 onMove
+editTabGroupClick
+=
+{
+}
 )
 }
 }
