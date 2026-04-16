@@ -161,6 +161,14 @@ const
 =
 0
 ;
+virtual
+void
+Reset
+(
+)
+=
+0
+;
 }
 ;
 }
