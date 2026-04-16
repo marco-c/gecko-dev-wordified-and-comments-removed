@@ -76,6 +76,7 @@ GetCommandLineW
 )
 w
 .
+r
 {
 Result
 }
@@ -258,6 +259,10 @@ UseExistingInstallPathIfNoInstallDirArg
 Path
 Push
 0
+Push
+{
+Path
+}
 {
 GetInstallDirectoryPathArg
 }
@@ -300,13 +305,8 @@ If
 =
 "
 "
-StrCpy
+Exch
 INSTDIR
-"
-{
-Path
-}
-"
 {
 EndIf
 }
@@ -316,6 +316,8 @@ EndIf
 {
 EndIf
 }
+Pop
+0
 Pop
 0
 !
