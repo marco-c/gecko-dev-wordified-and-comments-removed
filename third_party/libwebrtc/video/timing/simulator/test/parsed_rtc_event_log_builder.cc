@@ -26,6 +26,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -500,6 +505,8 @@ LogVideoRecvConfig
 (
 uint32_t
 ssrc
+uint32_t
+rtx_ssrc
 )
 {
 auto
@@ -524,6 +531,13 @@ config
 remote_ssrc
 =
 ssrc
+;
+config
+-
+>
+rtx_ssrc
+=
+rtx_ssrc
 ;
 Log
 (
@@ -554,6 +568,14 @@ LogRtpPacketIncoming
 (
 uint32_t
 ssrc
+std
+:
+:
+optional
+<
+uint16_t
+>
+rtx_original_sequence_number
 )
 {
 RtpPacketReceived
@@ -580,6 +602,7 @@ RtcEventRtpPacketIncoming
 >
 (
 rtp_packet
+rtx_original_sequence_number
 )
 )
 ;
