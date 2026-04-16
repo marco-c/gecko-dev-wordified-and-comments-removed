@@ -858,6 +858,16 @@ RtpTimestamp
 ;
 }
 void
+OnFrameDropped
+(
+uint32_t
+int
+bool
+)
+override
+{
+}
+void
 GetLastEncodedFrameInfo
 (
 int

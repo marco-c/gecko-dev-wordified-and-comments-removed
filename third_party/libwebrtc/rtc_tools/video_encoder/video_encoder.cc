@@ -2118,6 +2118,16 @@ OK
 )
 ;
 }
+void
+OnFrameDropped
+(
+uint32_t
+int
+bool
+)
+override
+{
+}
 VideoCodec
 video_codec_setting_
 ;

@@ -538,6 +538,16 @@ callback_count_
 )
 ;
 }
+void
+OnFrameDropped
+(
+uint32_t
+int
+bool
+)
+override
+{
+}
 int
 callback_count_
 =

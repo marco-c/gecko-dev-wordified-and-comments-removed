@@ -6076,6 +6076,16 @@ OK
 )
 ;
 }
+void
+OnFrameDropped
+(
+uint32_t
+int
+bool
+)
+override
+{
+}
 private
 :
 std

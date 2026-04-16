@@ -288,6 +288,16 @@ codec_specific_info
 )
 override
 ;
+void
+OnFrameDropped
+(
+uint32_t
+int
+bool
+)
+override
+{
+}
 private
 :
 VideoCodecUnitTest
