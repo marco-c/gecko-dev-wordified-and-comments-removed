@@ -22820,7 +22820,7 @@ tagOffsets
 =
 tagType
 .
-argOffsets
+exceptionArgOffsets
 (
 )
 ;
@@ -22829,7 +22829,7 @@ tagParams
 =
 tagType
 .
-resultType
+argResultType
 (
 )
 ;
@@ -23783,7 +23783,7 @@ offsets
 tagType
 -
 >
-argOffsets
+exceptionArgOffsets
 (
 )
 ;
@@ -25104,7 +25104,7 @@ tagDesc
 type
 -
 >
-resultType
+argResultType
 (
 )
 ;
@@ -25118,7 +25118,7 @@ tagDesc
 type
 -
 >
-argOffsets
+exceptionArgOffsets
 (
 )
 ;
