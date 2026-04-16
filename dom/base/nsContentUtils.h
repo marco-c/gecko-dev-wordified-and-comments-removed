@@ -8841,6 +8841,16 @@ aFrom
 )
 ;
 static
+Document
+*
+TryGetDocumentFromWindowGlobal
+(
+nsISupports
+*
+aFrom
+)
+;
+static
 uint32_t
 InnerOrOuterWindowCreated
 (
