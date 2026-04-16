@@ -559,6 +559,15 @@ stageProvider
 ContinuousOnboardingStageProvider
 private
 val
+navigateToSyncSignIn
+:
+(
+)
+-
+>
+Unit
+private
+val
 dateTimeProvider
 :
 DateTimeProvider
@@ -1104,6 +1113,9 @@ nova_onboarding_sync_button
 onClick
 =
 {
+navigateToSyncSignIn
+(
+)
 telemetryRecorder
 .
 onSyncSignInClick
