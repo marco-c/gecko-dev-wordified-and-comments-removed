@@ -1317,7 +1317,10 @@ regexpStack_
 =
 js_new
 <
-RegExpStack
+regexp
+:
+:
+Stack
 >
 (
 )
@@ -1402,7 +1405,10 @@ mozilla
 :
 MallocSizeOf
 mallocSizeOf
-RegExpStack
+regexp
+:
+:
+Stack
 *
 regexpStack
 )
@@ -2034,6 +2040,9 @@ char16_t
 str
 )
 ;
+namespace
+regexp
+{
 static_assert
 (
 JSRegExp
@@ -2055,7 +2064,7 @@ kMaxRegisterCount
 )
 ;
 uint64_t
-RegExpUtils
+Utils
 :
 :
 AdvanceStringIndex
@@ -2198,6 +2207,7 @@ index
 1
 ;
 }
+}
 Handle
 <
 String
@@ -2210,7 +2220,10 @@ StringFromFlags
 Isolate
 *
 isolate
-RegExpFlags
+regexp
+:
+:
+Flags
 flags
 )
 {

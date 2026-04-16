@@ -119,6 +119,9 @@ v8
 namespace
 internal
 {
+namespace
+regexp
+{
 using
 js
 :
@@ -468,7 +471,7 @@ stack_limit_slack_slot_count
 )
 {
 return
-RegExpStack
+Stack
 :
 :
 kStackLimitSlackSlotCount
@@ -5355,7 +5358,7 @@ Handle
 RegExpData
 >
 data
-RegExpFlags
+Flags
 flags
 )
 {
@@ -7035,7 +7038,7 @@ bool
 *
 )
 (
-RegExpStack
+Stack
 *
 regexp_stack
 )
@@ -7291,7 +7294,7 @@ ifdef
 JS_HAS_INTL_API
 c1
 =
-RegExpCaseFolding
+CaseFolding
 :
 :
 Canonicalize
@@ -7301,7 +7304,7 @@ c1
 ;
 c2
 =
-RegExpCaseFolding
+CaseFolding
 :
 :
 Canonicalize
@@ -7494,7 +7497,7 @@ SMRegExpMacroAssembler
 :
 GrowBacktrackStack
 (
-RegExpStack
+Stack
 *
 regexp_stack
 )
@@ -7575,6 +7578,7 @@ true
 ;
 #
 endif
+}
 }
 }
 }
