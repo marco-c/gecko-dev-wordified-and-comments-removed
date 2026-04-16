@@ -68,11 +68,6 @@ use
 crate
 :
 :
-{
-fs
-:
-:
-WidePathBuf
 skv
 :
 :
@@ -103,7 +98,6 @@ schema
 {
 Schema
 SchemaError
-}
 }
 }
 ;
@@ -1211,7 +1205,7 @@ canonicalizing
 (
 path
 :
-WidePathBuf
+PathBuf
 )
 -
 >
@@ -1225,6 +1219,10 @@ Ok
 (
 if
 path
+.
+as_os_str
+(
+)
 =
 =
 StorePath
