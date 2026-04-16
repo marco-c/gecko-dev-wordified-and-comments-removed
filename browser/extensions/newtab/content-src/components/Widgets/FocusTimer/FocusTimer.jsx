@@ -5036,6 +5036,11 @@ contentEditable
 "
 true
 "
+suppressContentEditableWarning
+=
+{
+true
+}
 ref
 =
 {
@@ -5114,6 +5119,11 @@ contentEditable
 "
 true
 "
+suppressContentEditableWarning
+=
+{
+true
+}
 ref
 =
 {
