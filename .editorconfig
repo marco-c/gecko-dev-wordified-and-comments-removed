@@ -168,7 +168,10 @@ max_line_length
 [
 *
 .
+{
 kt
+kts
+}
 ]
 indent_style
 =
