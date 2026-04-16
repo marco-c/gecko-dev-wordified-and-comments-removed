@@ -77,7 +77,7 @@ DataSize
 :
 Bytes
 (
-3000
+1000
 )
 )
 l4s_avg_g_up
@@ -392,6 +392,19 @@ FeedbackHoldTimeAvgG
 .
 0
 )
+allow_large_pacing_bursts_after_congestion_time
+(
+"
+AllowLargePacingBurstsAfterCongestionTime
+"
+TimeDelta
+:
+:
+Seconds
+(
+15
+)
+)
 {
 ParseFieldTrial
 (
@@ -454,6 +467,8 @@ allow_padding_after_last_congestion_time
 pacing_factor
 &
 feedback_hold_time_avg_g
+&
+allow_large_pacing_bursts_after_congestion_time
 }
 trials
 .

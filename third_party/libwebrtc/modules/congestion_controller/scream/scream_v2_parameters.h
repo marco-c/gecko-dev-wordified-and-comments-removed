@@ -245,6 +245,12 @@ double
 >
 feedback_hold_time_avg_g
 ;
+FieldTrialParameter
+<
+TimeDelta
+>
+allow_large_pacing_bursts_after_congestion_time
+;
 }
 ;
 }
