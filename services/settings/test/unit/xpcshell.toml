@@ -273,3 +273,10 @@ test_shutdown_handling
 js
 "
 ]
+[
+"
+test_uptake_telemetry
+.
+js
+"
+]

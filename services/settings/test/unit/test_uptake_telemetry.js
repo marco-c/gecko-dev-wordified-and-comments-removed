@@ -40,11 +40,9 @@ resource
 /
 services
 -
-common
+settings
 /
-uptake
--
-telemetry
+UptakeTelemetry
 .
 sys
 .
@@ -57,13 +55,6 @@ COMPONENT
 =
 "
 remotesettings
-"
-;
-const
-GLEAN_COMPONENT
-=
-"
-Remotesettings
 "
 ;
 add_task
@@ -99,7 +90,6 @@ UptakeTelemetry
 .
 report
 (
-GLEAN_COMPONENT
 "
 unknown
 -
@@ -164,7 +154,6 @@ UptakeTelemetry
 .
 report
 (
-GLEAN_COMPONENT
 status
 {
 source
@@ -272,7 +261,6 @@ UptakeTelemetry
 .
 report
 (
-GLEAN_COMPONENT
 status
 {
 source
