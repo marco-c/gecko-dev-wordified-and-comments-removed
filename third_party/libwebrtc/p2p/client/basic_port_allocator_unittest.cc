@@ -1067,14 +1067,14 @@ webrtc
 STUN_TOTAL_TIMEOUT
 ;
 namespace
+webrtc
+{
+namespace
 {
 void
 CheckStunKeepaliveIntervalOfAllReadyPorts
 (
 const
-webrtc
-:
-:
 PortAllocatorSession
 *
 allocator_session
@@ -1141,9 +1141,6 @@ GetProtocol
 )
 =
 =
-webrtc
-:
-:
 PROTO_UDP
 )
 )
@@ -1153,9 +1150,6 @@ EXPECT_EQ
 static_cast
 <
 const
-webrtc
-:
-:
 UDPPort
 *
 >
@@ -1167,9 +1161,6 @@ port
 stun_keepalive_delay
 (
 )
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -1183,9 +1174,6 @@ expected
 }
 }
 }
-namespace
-webrtc
-{
 class
 BasicPortAllocatorTestBase
 :

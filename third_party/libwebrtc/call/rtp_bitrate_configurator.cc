@@ -49,6 +49,9 @@ checks
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 int
 MinPositive
@@ -95,9 +98,6 @@ b
 ;
 }
 }
-namespace
-webrtc
-{
 RtpBitrateConfigurator
 :
 :

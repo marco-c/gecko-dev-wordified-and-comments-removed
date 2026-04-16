@@ -30,6 +30,9 @@ checks
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 void
 AddFrames
@@ -446,9 +449,6 @@ a
 ;
 }
 }
-namespace
-webrtc
-{
 Blocker
 :
 :

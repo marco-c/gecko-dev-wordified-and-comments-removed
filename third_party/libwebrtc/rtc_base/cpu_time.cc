@@ -176,6 +176,9 @@ h
 >
 #
 endif
+namespace
+webrtc
+{
 #
 if
 defined
@@ -193,9 +196,6 @@ kNanosecsPerFiletime
 }
 #
 endif
-namespace
-webrtc
-{
 int64_t
 GetProcessCpuTimeNanos
 (

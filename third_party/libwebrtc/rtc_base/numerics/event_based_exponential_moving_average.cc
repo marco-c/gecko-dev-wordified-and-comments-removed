@@ -39,6 +39,9 @@ checks
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 constexpr
 double
@@ -49,9 +52,6 @@ ninetyfive_percent_confidence
 96
 ;
 }
-namespace
-webrtc
-{
 EventBasedExponentialMovingAverage
 :
 :

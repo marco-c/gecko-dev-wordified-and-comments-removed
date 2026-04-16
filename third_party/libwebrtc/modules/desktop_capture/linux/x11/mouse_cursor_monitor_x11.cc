@@ -173,6 +173,9 @@ logging
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 Window
 GetTopLevelWindow
@@ -290,9 +293,6 @@ window
 ;
 }
 }
-namespace
-webrtc
-{
 MouseCursorMonitorX11
 :
 :

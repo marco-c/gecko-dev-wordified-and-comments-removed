@@ -73,6 +73,9 @@ checks
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 uint8_t
 HighestByte
@@ -171,9 +174,6 @@ target_bit_offset
 ;
 }
 }
-namespace
-webrtc
-{
 BitBufferWriter
 :
 :

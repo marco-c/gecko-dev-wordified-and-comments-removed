@@ -389,6 +389,9 @@ while
 0
 )
 namespace
+webrtc
+{
+namespace
 {
 constexpr
 int
@@ -409,9 +412,6 @@ kMaxRefIdxActive
 15
 ;
 }
-namespace
-webrtc
-{
 std
 :
 :

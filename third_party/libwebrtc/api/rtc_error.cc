@@ -40,6 +40,9 @@ string_builder
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 absl
 :
@@ -95,9 +98,6 @@ static_cast
 int
 >
 (
-webrtc
-:
-:
 RTCErrorType
 :
 :
@@ -175,9 +175,6 @@ static_cast
 int
 >
 (
-webrtc
-:
-:
 RTCErrorDetailType
 :
 :
@@ -214,9 +211,6 @@ values
 )
 ;
 }
-namespace
-webrtc
-{
 RTCError
 RTCError
 :

@@ -78,6 +78,9 @@ defined
 WINUWP
 )
 namespace
+webrtc
+{
+namespace
 {
 typedef
 BOOL
@@ -696,6 +699,7 @@ wow64access_
 ;
 }
 ;
+}
 }
 #
 endif

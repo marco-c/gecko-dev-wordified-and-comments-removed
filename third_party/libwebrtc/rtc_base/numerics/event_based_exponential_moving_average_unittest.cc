@@ -34,6 +34,9 @@ gtest
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 constexpr
 int
@@ -50,9 +53,6 @@ kError
 1
 ;
 }
-namespace
-webrtc
-{
 TEST
 (
 EventBasedExponentialMovingAverageTest

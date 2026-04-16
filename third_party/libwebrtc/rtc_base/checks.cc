@@ -119,6 +119,9 @@ checks
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 #
 if
@@ -251,9 +254,6 @@ args
 ;
 }
 }
-namespace
-webrtc
-{
 namespace
 webrtc_checks_impl
 {

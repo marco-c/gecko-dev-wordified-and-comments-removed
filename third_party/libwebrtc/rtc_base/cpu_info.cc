@@ -216,9 +216,12 @@ h
 #
 endif
 namespace
+webrtc
+{
+namespace
 {
 uint32_t
-DetectNumberOfCores
+DetectNumberOfCoresHelper
 (
 )
 {
@@ -736,9 +739,6 @@ endif
 endif
 }
 namespace
-webrtc
-{
-namespace
 cpu_info
 {
 uint32_t
@@ -751,9 +751,7 @@ const
 uint32_t
 logical_cpus
 =
-:
-:
-DetectNumberOfCores
+DetectNumberOfCoresHelper
 (
 )
 ;

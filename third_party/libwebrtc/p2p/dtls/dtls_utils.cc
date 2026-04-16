@@ -77,6 +77,9 @@ crc32
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 const
 uint8_t
@@ -91,9 +94,6 @@ kDtlsHandshakeRecord
 22
 ;
 }
-namespace
-webrtc
-{
 bool
 IsDtlsPacket
 (

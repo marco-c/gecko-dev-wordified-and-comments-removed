@@ -109,6 +109,12 @@ time_utils
 h
 "
 namespace
+webrtc
+{
+namespace
+test
+{
+namespace
 {
 constexpr
 size_t
@@ -499,12 +505,6 @@ true
 ;
 }
 }
-namespace
-webrtc
-{
-namespace
-test
-{
 class
 RtpFileReaderImpl
 :

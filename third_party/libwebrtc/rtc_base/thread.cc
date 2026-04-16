@@ -365,6 +365,9 @@ pool
 ;
 }
 namespace
+webrtc
+{
+namespace
 {
 class
 ScopedAutoReleasePool
@@ -403,6 +406,7 @@ pool_
 ;
 }
 ;
+}
 }
 #
 endif

@@ -44,6 +44,9 @@ safe_minmax
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 constexpr
 int
@@ -58,9 +61,6 @@ kMaximumDelayMs
 10000
 ;
 }
-namespace
-webrtc
-{
 void
 JitterBufferDelay
 :

@@ -552,6 +552,9 @@ wait_until
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 constexpr
 char
@@ -623,9 +626,6 @@ class
 MockSetStreamsObserver
 :
 public
-webrtc
-:
-:
 RtpSenderBase
 :
 :
@@ -647,9 +647,6 @@ override
 }
 ;
 }
-namespace
-webrtc
-{
 using
 :
 :

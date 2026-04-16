@@ -179,6 +179,12 @@ fake_encoder
 h
 "
 namespace
+webrtc
+{
+namespace
+test
+{
+namespace
 {
 void
 WriteFakeVp8
@@ -264,12 +270,6 @@ width
 }
 }
 }
-namespace
-webrtc
-{
-namespace
-test
-{
 FakeVp8Encoder
 :
 :

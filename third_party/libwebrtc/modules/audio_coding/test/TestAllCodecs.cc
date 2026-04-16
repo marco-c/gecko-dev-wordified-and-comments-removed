@@ -262,6 +262,9 @@ while
 0
 )
 namespace
+webrtc
+{
+namespace
 {
 const
 size_t
@@ -281,9 +284,6 @@ max
 )
 ;
 }
-namespace
-webrtc
-{
 TestPack
 :
 :

@@ -37,6 +37,9 @@ mutex
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 constexpr
 size_t
@@ -45,9 +48,6 @@ kDtmfOutbandMax
 20
 ;
 }
-namespace
-webrtc
-{
 DtmfQueue
 :
 :

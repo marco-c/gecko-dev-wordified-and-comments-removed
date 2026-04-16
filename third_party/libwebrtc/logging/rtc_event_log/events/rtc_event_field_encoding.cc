@@ -133,6 +133,9 @@ checks
 .
 h
 "
+namespace
+webrtc
+{
 using
 webrtc_event_logging
 :
@@ -274,9 +277,6 @@ output
 ;
 }
 }
-namespace
-webrtc
-{
 std
 :
 :

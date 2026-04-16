@@ -78,6 +78,9 @@ checks
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 enum
 ProtectionMode
@@ -412,9 +415,6 @@ shift_right_curr_byte
 }
 }
 }
-namespace
-webrtc
-{
 namespace
 internal
 {

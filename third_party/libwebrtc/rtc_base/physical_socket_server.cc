@@ -620,6 +620,9 @@ endif
 #
 endif
 namespace
+webrtc
+{
+namespace
 {
 constexpr
 uint8_t
@@ -633,9 +636,6 @@ defined
 (
 WEBRTC_POSIX
 )
-webrtc
-:
-:
 EcnMarking
 EcnFromDs
 (
@@ -678,9 +678,6 @@ ECN_ECT1
 )
 {
 return
-webrtc
-:
-:
 EcnMarking
 :
 :
@@ -696,9 +693,6 @@ ECN_ECT0
 )
 {
 return
-webrtc
-:
-:
 EcnMarking
 :
 :
@@ -714,9 +708,6 @@ ECN_CE
 )
 {
 return
-webrtc
-:
-:
 EcnMarking
 :
 :
@@ -724,9 +715,6 @@ kCe
 ;
 }
 return
-webrtc
-:
-:
 EcnMarking
 :
 :
@@ -785,9 +773,6 @@ value_
 }
 ;
 }
-namespace
-webrtc
-{
 PhysicalSocket
 :
 :

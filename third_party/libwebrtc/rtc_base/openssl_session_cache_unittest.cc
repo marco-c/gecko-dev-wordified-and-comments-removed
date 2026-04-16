@@ -40,6 +40,9 @@ gtest
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 SSL_CTX
 *
@@ -130,9 +133,6 @@ SSL_SESSION_new
 endif
 }
 }
-namespace
-webrtc
-{
 TEST
 (
 OpenSSLSessionCache

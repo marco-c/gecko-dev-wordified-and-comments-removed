@@ -35,6 +35,9 @@ hstring
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 FARPROC
 LoadComBaseFunction
@@ -124,9 +127,6 @@ function
 ;
 }
 }
-namespace
-webrtc
-{
 bool
 ResolveCoreWinRTDelayload
 (

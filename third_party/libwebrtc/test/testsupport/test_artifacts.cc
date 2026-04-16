@@ -67,6 +67,12 @@ file_utils
 h
 "
 namespace
+webrtc
+{
+namespace
+test
+{
+namespace
 {
 const
 std
@@ -86,12 +92,6 @@ std
 string
 path
 =
-webrtc
-:
-:
-test
-:
-:
 OutputPathWithRandomDirectory
 (
 )
@@ -101,6 +101,8 @@ path
 ;
 }
 }
+}
+}
 ABSL_FLAG
 (
 std
@@ -108,6 +110,12 @@ std
 :
 string
 test_artifacts_dir
+webrtc
+:
+:
+test
+:
+:
 DefaultArtifactPath
 (
 )

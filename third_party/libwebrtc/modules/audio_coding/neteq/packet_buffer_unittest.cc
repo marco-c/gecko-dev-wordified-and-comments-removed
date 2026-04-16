@@ -147,6 +147,9 @@ gtest
 .
 h
 "
+namespace
+webrtc
+{
 using
 :
 :
@@ -193,9 +196,6 @@ class
 MockEncodedAudioFrame
 :
 public
-webrtc
-:
-:
 AudioDecoder
 :
 :
@@ -238,9 +238,6 @@ DecodeResult
 >
 Decode
 (
-webrtc
-:
-:
 ArrayView
 <
 int16_t
@@ -292,9 +289,6 @@ int
 frame_size
 )
 ;
-webrtc
-:
-:
 Packet
 NextPacket
 (
@@ -305,9 +299,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 AudioDecoder
 :
 :
@@ -387,9 +378,6 @@ frame_size_
 frame_size
 ;
 }
-webrtc
-:
-:
 Packet
 PacketGenerator
 :
@@ -403,9 +391,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 AudioDecoder
 :
 :
@@ -414,9 +399,6 @@ EncodedAudioFrame
 audio_frame
 )
 {
-webrtc
-:
-:
 Packet
 packet
 ;
@@ -493,9 +475,6 @@ extract_order
 }
 ;
 }
-namespace
-webrtc
-{
 TEST
 (
 PacketBuffer

@@ -17,6 +17,9 @@ include
 cstdint
 >
 namespace
+webrtc
+{
+namespace
 {
 #
 define
@@ -1549,9 +1552,6 @@ kMaskRandom12_11
 \
 kMaskRandom12_12
 }
-namespace
-webrtc
-{
 namespace
 fec_private_tables
 {

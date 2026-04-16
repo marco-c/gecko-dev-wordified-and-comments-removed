@@ -17,6 +17,9 @@ libloaderapi
 h
 >
 namespace
+webrtc
+{
+namespace
 {
 FARPROC
 LoadD3D11Function
@@ -106,9 +109,6 @@ function
 ;
 }
 }
-namespace
-webrtc
-{
 bool
 ResolveCoreWinRTDirect3DDelayload
 (
