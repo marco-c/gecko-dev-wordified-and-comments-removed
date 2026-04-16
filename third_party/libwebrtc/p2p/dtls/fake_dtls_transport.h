@@ -327,7 +327,13 @@ dtls_fingerprint_
 (
 "
 "
-nullptr
+ArrayView
+<
+const
+uint8_t
+>
+(
+)
 )
 {
 RTC_DCHECK
