@@ -2432,7 +2432,7 @@ colorSpace
 :
 CGColorSpaceCreateWithName
 (
-kCGColorSpaceGenericRGB
+kCGColorSpaceSRGB
 )
 ;
 *
