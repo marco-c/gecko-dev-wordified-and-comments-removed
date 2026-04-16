@@ -226,17 +226,6 @@ text
 color
 )
 ;
-padding
-:
-var
-(
--
--
-space
--
-large
-)
-;
 border
 -
 radius

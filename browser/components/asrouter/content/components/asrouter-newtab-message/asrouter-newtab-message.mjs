@@ -1052,7 +1052,11 @@ nothing
 return
 html
 <
-div
+moz
+-
+button
+-
+group
 class
 =
 "
@@ -1081,7 +1085,11 @@ secondaryButton
 }
 <
 /
-div
+moz
+-
+button
+-
+group
 >
 ;
 }
