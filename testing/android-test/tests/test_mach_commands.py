@@ -1015,17 +1015,27 @@ gradle_args
 p
 "
                 
+os
+.
+path
+.
+join
+(
 "
 mobile
-/
+"
+"
 android
-/
+"
+"
 focus
 -
 android
-/
+"
+"
 app
 "
+)
                 
 "
 testFocusDebugUnitTest
@@ -1160,22 +1170,36 @@ gradle_args
 )
             
 [
+                
 "
 -
 p
 "
+                
+os
+.
+path
+.
+join
+(
 "
 mobile
-/
+"
+"
 android
-/
+"
+"
 fenix
-/
+"
+"
 app
 "
+)
+                
 "
 testDebugUnitTest
 "
+            
 ]
         
 )
@@ -1323,15 +1347,25 @@ gradle_args
 p
 "
                 
+os
+.
+path
+.
+join
+(
 "
 mobile
-/
+"
+"
 android
-/
+"
+"
 fenix
-/
+"
+"
 app
 "
+)
                 
 "
 connectedDebugAndroidTest
@@ -1472,20 +1506,33 @@ gradle_args
 )
             
 [
+                
 "
 -
 p
 "
+                
+os
+.
+path
+.
+join
+(
 "
 mobile
-/
+"
+"
 android
-/
+"
+"
 geckoview
 "
+)
+                
 "
 testReleaseUnitTest
 "
+            
 ]
         
 )
@@ -1606,13 +1653,22 @@ gradle_args
 p
 "
                 
+os
+.
+path
+.
+join
+(
 "
 mobile
-/
+"
+"
 android
-/
+"
+"
 geckoview
 "
+)
                 
 "
 testDebugUnitTest
@@ -1924,15 +1980,24 @@ gradle_args
 p
 "
                 
+os
+.
+path
+.
+join
+(
 "
 mobile
-/
+"
+"
 android
-/
+"
+"
 android
 -
 components
 "
+)
                 
 "
 :
