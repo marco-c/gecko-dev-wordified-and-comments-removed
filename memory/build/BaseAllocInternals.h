@@ -531,6 +531,11 @@ base_alloc_size_t
 aSizeRequest
 )
 ;
+size_t
+CommitAll
+(
+)
+;
 DeCommitResult
 Decommit
 (

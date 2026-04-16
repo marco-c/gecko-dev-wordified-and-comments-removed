@@ -456,6 +456,17 @@ MOZ_REQUIRES
 mMutex
 )
 ;
+bool
+merge_decommitted_cells
+(
+base_alloc_size_t
+aSize
+)
+MOZ_REQUIRES
+(
+mMutex
+)
+;
 void
 MaybeTrim
 (
