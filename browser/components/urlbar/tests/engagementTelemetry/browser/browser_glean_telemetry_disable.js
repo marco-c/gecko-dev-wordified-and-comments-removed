@@ -774,11 +774,6 @@ n_words
 "
 1
 "
-window_mode
-:
-"
-classic
-"
 }
 ]
 )
@@ -980,11 +975,6 @@ n_words
 :
 "
 1
-"
-window_mode
-:
-"
-classic
 "
 }
 ]
