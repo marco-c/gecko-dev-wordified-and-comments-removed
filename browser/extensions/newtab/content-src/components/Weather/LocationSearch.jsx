@@ -103,6 +103,7 @@ LocationSearch
 (
 {
 outerClassName
+onLocationSelected
 }
 )
 {
@@ -270,11 +271,18 @@ false
 )
 )
 ;
+onLocationSelected
+?
+.
+(
+)
+;
 }
 }
 [
 selectedLocation
 dispatch
+onLocationSelected
 ]
 )
 ;
