@@ -855,7 +855,7 @@ img
 slot
 =
 "
-icon
+image
 "
 ]
 '
