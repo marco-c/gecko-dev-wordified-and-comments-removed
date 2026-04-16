@@ -393,9 +393,9 @@ void
 Set
 (
 const
-nsACString
+CSSPropertyId
 &
-aProperty
+aPropertyId
 const
 nsACString
 &
