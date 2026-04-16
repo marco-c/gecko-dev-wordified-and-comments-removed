@@ -302,6 +302,13 @@ sys
 .
 mjs
 "
+"
+NimbusGeckoViewQATelemetry
+.
+sys
+.
+mjs
+"
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
