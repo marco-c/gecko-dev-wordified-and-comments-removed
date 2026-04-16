@@ -7777,7 +7777,7 @@ UnknownF
 unknown
 )
 {
-uint16_t
+uint32_t
 raw
 =
 flags
@@ -7788,7 +7788,7 @@ toRaw
 ;
 for
 (
-uint16_t
+uint32_t
 i
 =
 1

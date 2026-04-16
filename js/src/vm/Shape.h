@@ -530,6 +530,14 @@ MASK
 0
 )
 ;
+MOZ_ASSERT
+(
+!
+isShapeSetForAdd
+(
+)
+)
+;
 bits
 =
 uintptr_t
