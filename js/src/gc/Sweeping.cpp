@@ -7749,6 +7749,13 @@ trc
 rt
 )
 ;
+trc
+.
+setAllowSweepingSymbolsEarly
+(
+true
+)
+;
 {
 gcstats
 :
