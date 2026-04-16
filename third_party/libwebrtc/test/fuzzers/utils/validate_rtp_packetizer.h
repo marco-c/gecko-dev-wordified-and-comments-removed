@@ -37,9 +37,6 @@ RtpPacketizer
 PayloadSizeLimits
 ReadPayloadSizeLimits
 (
-test
-:
-:
 FuzzDataHelper
 &
 fuzz_input
