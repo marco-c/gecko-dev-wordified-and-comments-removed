@@ -4557,6 +4557,7 @@ MAKE
 )
 :
 )
+touch
 (
 foreach
 dep
