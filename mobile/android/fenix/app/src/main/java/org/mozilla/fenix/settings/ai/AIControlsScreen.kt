@@ -914,6 +914,11 @@ description
 .
 descriptionRes
 )
+maxDescriptionLines
+=
+Int
+.
+MAX_VALUE
 showSwitchAfter
 =
 true
