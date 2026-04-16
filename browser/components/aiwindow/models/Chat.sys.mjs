@@ -2166,8 +2166,6 @@ getPageContent
 toolParams
 allAllowedUrls
 conversation
-.
-securityProperties
 )
 ;
 Glean
@@ -2245,8 +2243,6 @@ runSearch
 toolParams
 browsingContext
 conversation
-.
-securityProperties
 )
 ;
 const
@@ -2322,8 +2318,6 @@ toolFns
 getOpenTabs
 (
 conversation
-.
-securityProperties
 )
 ;
 break
@@ -2340,8 +2334,6 @@ searchBrowsingHistory
 (
 toolParams
 conversation
-.
-securityProperties
 )
 ;
 break
@@ -2357,8 +2349,6 @@ toolFns
 getUserMemories
 (
 conversation
-.
-securityProperties
 )
 ;
 break
@@ -2824,8 +2814,6 @@ toolFns
 getOpenTabs
 (
 conversation
-.
-securityProperties
 )
 ;
 for
