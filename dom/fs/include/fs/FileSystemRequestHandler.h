@@ -278,8 +278,10 @@ FileSystemManager
 >
 &
 aManager
+RefPtr
+<
 FileSystemHandle
-*
+>
 aHandle
 FileSystemEntryMetadata
 *
@@ -309,8 +311,10 @@ FileSystemManager
 >
 &
 aManager
+RefPtr
+<
 FileSystemHandle
-*
+>
 aHandle
 FileSystemEntryMetadata
 *
