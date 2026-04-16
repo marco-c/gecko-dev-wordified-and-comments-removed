@@ -813,7 +813,6 @@ mAsyncWaitAlgorithms
 ;
 class
 InputToReadableStreamAlgorithms
-final
 :
 public
 UnderlyingSourceAlgorithmsWrapper
@@ -873,7 +872,7 @@ MaybeGetInputStreamIfUnread
 )
 override
 ;
-private
+protected
 :
 ~
 InputToReadableStreamAlgorithms
