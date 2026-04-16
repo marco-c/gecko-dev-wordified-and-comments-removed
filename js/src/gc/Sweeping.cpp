@@ -4191,6 +4191,14 @@ false
 }
 if
 (
+atomsZone
+-
+>
+wasGCStarted
+(
+)
+&
+&
 gcFinalizationRegistriesMayHaveSymbolRegistrations_
 &
 &
