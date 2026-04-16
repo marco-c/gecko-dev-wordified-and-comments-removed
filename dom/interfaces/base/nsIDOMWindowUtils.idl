@@ -8494,6 +8494,12 @@ remoteFrameFullscreenChanged
 in
 Element
 aFrameElement
+[
+optional
+]
+in
+boolean
+aFullscreenKeyboardLockEnabled
 )
 ;
 /

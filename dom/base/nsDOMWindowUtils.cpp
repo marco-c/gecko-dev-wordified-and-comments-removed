@@ -17832,6 +17832,8 @@ RemoteFrameFullscreenChanged
 Element
 *
 aFrameElement
+bool
+aFullscreenKeyboardLockEnabled
 )
 {
 nsCOMPtr
@@ -17855,6 +17857,7 @@ doc
 RemoteFrameFullscreenChanged
 (
 aFrameElement
+aFullscreenKeyboardLockEnabled
 )
 ;
 return
