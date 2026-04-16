@@ -729,10 +729,6 @@ var
 firstStart
 =
 true
-val
-useComposableToolbar
-=
-true
 benchmarkRule
 .
 measureRepeatedDefault
@@ -764,7 +760,6 @@ firstStart
 {
 prepareTabsTray
 (
-useComposableToolbar
 animationsEnabled
 )
 firstStart
@@ -778,7 +773,6 @@ device
 .
 openTabsTray
 (
-useComposableToolbar
 )
 device
 .
@@ -806,7 +800,6 @@ device
 .
 openTabsTray
 (
-useComposableToolbar
 )
 device
 .
@@ -838,9 +831,6 @@ MacrobenchmarkScope
 .
 prepareTabsTray
 (
-useComposableToolbar
-:
-Boolean
 animationsEnabled
 :
 Boolean
@@ -863,7 +853,7 @@ FENIX_HOME_DEEP_LINK
 putExtra
 (
 EXTRA_COMPOSABLE_TOOLBAR
-useComposableToolbar
+true
 )
 .
 putExtra
@@ -893,7 +883,6 @@ device
 .
 enterSearchMode
 (
-useComposableToolbar
 )
 device
 .
@@ -909,13 +898,11 @@ HtmlAsset
 .
 SIMPLE
 )
-useComposableToolbar
 )
 device
 .
 openTabsTray
 (
-useComposableToolbar
 )
 device
 .
@@ -936,7 +923,6 @@ HtmlAsset
 .
 LONG
 )
-useComposableToolbar
 )
 }
 }
