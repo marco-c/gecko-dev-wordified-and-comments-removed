@@ -172,8 +172,7 @@ true
 )
 ;
 }
-unsigned
-int
+size_t
 get_size
 (
 unsigned
@@ -602,8 +601,7 @@ true
 )
 ;
 }
-unsigned
-int
+size_t
 get_size
 (
 )

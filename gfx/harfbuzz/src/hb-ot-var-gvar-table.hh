@@ -2491,8 +2491,7 @@ it
 +
 +
 ;
-unsigned
-int
+size_t
 subset_data_size
 =
 0

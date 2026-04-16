@@ -1593,8 +1593,7 @@ tableTag
 =
 HB_OT_TAG_name
 ;
-unsigned
-int
+size_t
 get_size
 (
 )

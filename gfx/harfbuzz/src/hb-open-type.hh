@@ -772,7 +772,7 @@ DEFINE_SIZE_STATIC
 struct
 HBUINT32VAR
 {
-unsigned
+size_t
 get_size
 (
 )
@@ -831,7 +831,7 @@ return
 ;
 }
 static
-unsigned
+size_t
 get_size
 (
 uint32_t
@@ -3233,8 +3233,7 @@ i
 ;
 }
 static
-unsigned
-int
+size_t
 get_size
 (
 unsigned
@@ -4506,8 +4505,7 @@ i
 ]
 ;
 }
-unsigned
-int
+size_t
 get_size
 (
 )
@@ -5886,8 +5884,7 @@ i
 ]
 ;
 }
-unsigned
-int
+size_t
 get_size
 (
 )
@@ -6559,8 +6556,7 @@ i
 ]
 ;
 }
-unsigned
-int
+size_t
 get_size
 (
 )
@@ -7709,8 +7705,7 @@ last_is_terminator
 )
 ;
 }
-unsigned
-int
+size_t
 get_size
 (
 )
@@ -9175,8 +9170,7 @@ offset0
 )
 ;
 }
-unsigned
-int
+size_t
 get_size
 (
 )
@@ -12599,7 +12593,7 @@ alignment
 struct
 Align
 {
-unsigned
+size_t
 get_size
 (
 const

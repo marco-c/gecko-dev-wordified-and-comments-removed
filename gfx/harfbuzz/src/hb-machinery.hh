@@ -511,8 +511,7 @@ size
 )
 )
 \
-unsigned
-int
+size_t
 get_size
 (
 )
@@ -759,8 +758,7 @@ size
 array
 )
 \
-unsigned
-int
+size_t
 get_size
 (
 )

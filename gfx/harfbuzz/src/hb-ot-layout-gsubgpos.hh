@@ -8826,6 +8826,7 @@ c
 >
 font
 "
+start
 recursing
 to
 lookup
@@ -8851,9 +8852,9 @@ idx
 )
 ;
 }
-if
-(
-!
+bool
+ret
+=
 c
 -
 >
@@ -8866,8 +8867,6 @@ i
 .
 lookupListIndex
 )
-)
-continue
 ;
 if
 (
@@ -8915,7 +8914,8 @@ c
 >
 font
 "
-recursed
+end
+recursing
 to
 lookup
 %
@@ -8933,6 +8933,13 @@ lookupListIndex
 )
 ;
 }
+if
+(
+!
+ret
+)
+continue
+;
 unsigned
 int
 new_len
@@ -24575,8 +24582,7 @@ Types
 size
 )
 ;
-unsigned
-int
+size_t
 get_size
 (
 )
@@ -25095,8 +25101,7 @@ true
 struct
 GSUBGPOS
 {
-unsigned
-int
+size_t
 get_size
 (
 )

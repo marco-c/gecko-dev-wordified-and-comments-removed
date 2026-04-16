@@ -92,8 +92,7 @@ endif
 ;
 public
 :
-unsigned
-int
+size_t
 get_size
 (
 )

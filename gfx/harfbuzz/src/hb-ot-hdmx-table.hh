@@ -40,8 +40,7 @@ struct
 DeviceRecord
 {
 static
-unsigned
-int
+size_t
 get_size
 (
 unsigned
@@ -243,8 +242,7 @@ tableTag
 =
 HB_OT_TAG_hdmx
 ;
-unsigned
-int
+size_t
 get_size
 (
 )

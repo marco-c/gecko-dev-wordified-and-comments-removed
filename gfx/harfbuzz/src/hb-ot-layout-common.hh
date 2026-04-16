@@ -2369,7 +2369,7 @@ characters
 len
 ;
 }
-unsigned
+size_t
 get_size
 (
 )
@@ -6014,8 +6014,7 @@ i
 ]
 ;
 }
-unsigned
-int
+size_t
 get_size
 (
 )
@@ -12963,12 +12962,6 @@ start
 end
 >
 0
-&
-&
-peak
-!
-=
-0
 )
 )
 return
@@ -14698,8 +14691,7 @@ in_error
 )
 ;
 }
-unsigned
-int
+size_t
 get_size
 (
 )
@@ -15063,8 +15055,7 @@ longWords
 )
 ;
 }
-unsigned
-int
+size_t
 get_size
 (
 )
@@ -17253,8 +17244,7 @@ regionIndices
 struct
 MultiVarData
 {
-unsigned
-int
+size_t
 get_size
 (
 )
@@ -19191,7 +19181,7 @@ friend
 struct
 DeltaSetIndexMap
 ;
-unsigned
+size_t
 get_size
 (
 )
@@ -25479,8 +25469,7 @@ y_scale
 }
 public
 :
-unsigned
-int
+size_t
 get_size
 (
 )

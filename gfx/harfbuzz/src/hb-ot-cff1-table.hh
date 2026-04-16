@@ -1178,8 +1178,7 @@ true
 )
 ;
 }
-unsigned
-int
+size_t
 get_size
 (
 )
@@ -1356,9 +1355,8 @@ const
 {
 codes
 .
-resize
+clear
 (
-0
 )
 ;
 if
@@ -1831,8 +1829,7 @@ return
 ;
 }
 static
-unsigned
-int
+size_t
 get_size
 (
 unsigned
@@ -2456,8 +2453,7 @@ return
 0
 ;
 }
-unsigned
-int
+size_t
 get_size
 (
 unsigned
@@ -2534,8 +2530,7 @@ num_ranges
 ;
 }
 static
-unsigned
-int
+size_t
 get_size_for_ranges
 (
 unsigned
@@ -3106,8 +3101,7 @@ true
 )
 ;
 }
-unsigned
-int
+size_t
 get_size
 (
 unsigned
