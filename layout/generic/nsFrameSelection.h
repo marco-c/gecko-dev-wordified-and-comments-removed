@@ -971,6 +971,16 @@ bool
 aState
 )
 ;
+void
+RestoreDragState
+(
+)
+{
+mDragState
+=
+true
+;
+}
 [
 [
 nodiscard
