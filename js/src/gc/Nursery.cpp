@@ -4731,6 +4731,12 @@ nullptr
 }
 if
 (
+IsInsideNursery
+(
+owner
+)
+&
+&
 !
 registerMallocedBuffer
 (
