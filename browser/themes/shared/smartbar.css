@@ -2038,6 +2038,10 @@ position
 :
 relative
 ;
+display
+:
+flex
+;
 }
 .
 smartbar

@@ -1474,10 +1474,14 @@ container
 "
 )
 ;
-container
+EventUtils
 .
-click
+synthesizeMouseAtCenter
 (
+container
+{
+}
+win
 )
 ;
 await
