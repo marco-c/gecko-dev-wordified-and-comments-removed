@@ -1262,7 +1262,7 @@ deprecated
 .
 deprecate_plan_b
 =
-false
+true
 #
 Determines
 whether
