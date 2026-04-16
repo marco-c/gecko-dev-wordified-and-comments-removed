@@ -116,6 +116,17 @@ simulcast_description
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+plan_b_only
+.
+h
+"
 namespace
 webrtc
 {
@@ -203,6 +214,7 @@ stopped
 )
 {
 }
+PLAN_B_ONLY
 void
 AddAudioSender
 (
@@ -228,6 +240,7 @@ string
 stream_ids
 )
 ;
+PLAN_B_ONLY
 void
 AddVideoSender
 (
@@ -325,6 +338,7 @@ codecs_to_include
 ;
 private
 :
+PLAN_B_ONLY
 void
 AddSenderInternal
 (

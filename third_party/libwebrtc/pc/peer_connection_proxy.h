@@ -270,9 +270,7 @@ PeerConnection
 PROXY_PRIMARY_THREAD_DESTRUCTOR
 (
 )
-RTC_ALLOW_PLAN_B_DEPRECATION_BEGIN
-(
-)
+PLAN_B_ONLY
 PROXY_METHOD0
 (
 scoped_refptr
@@ -281,6 +279,7 @@ StreamCollectionInterface
 >
 local_streams
 )
+PLAN_B_ONLY
 PROXY_METHOD0
 (
 scoped_refptr
@@ -289,6 +288,7 @@ StreamCollectionInterface
 >
 remote_streams
 )
+PLAN_B_ONLY
 PROXY_METHOD1
 (
 bool
@@ -296,15 +296,13 @@ AddStream
 MediaStreamInterface
 *
 )
+PLAN_B_ONLY
 PROXY_METHOD1
 (
 void
 RemoveStream
 MediaStreamInterface
 *
-)
-RTC_ALLOW_PLAN_B_DEPRECATION_END
-(
 )
 PROXY_METHOD2
 (
@@ -444,9 +442,7 @@ const
 RtpTransceiverInit
 &
 )
-RTC_ALLOW_PLAN_B_DEPRECATION_BEGIN
-(
-)
+PLAN_B_ONLY
 PROXY_METHOD2
 (
 scoped_refptr
@@ -466,9 +462,6 @@ std
 :
 string
 &
-)
-RTC_ALLOW_PLAN_B_DEPRECATION_END
-(
 )
 PROXY_CONSTMETHOD0
 (

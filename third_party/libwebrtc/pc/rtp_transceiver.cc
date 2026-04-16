@@ -501,6 +501,17 @@ include
 "
 rtc_base
 /
+system
+/
+plan_b_only
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 thread
 .
 h
@@ -4020,6 +4031,7 @@ media_engine_ref_
 nullptr
 ;
 }
+PLAN_B_ONLY
 void
 RtpTransceiver
 :
@@ -4108,6 +4120,7 @@ sender
 )
 ;
 }
+PLAN_B_ONLY
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -4276,6 +4289,7 @@ back
 )
 ;
 }
+PLAN_B_ONLY
 bool
 RtpTransceiver
 :
@@ -4360,6 +4374,7 @@ return
 true
 ;
 }
+PLAN_B_ONLY
 void
 RtpTransceiver
 :
@@ -4432,6 +4447,7 @@ receiver
 )
 ;
 }
+PLAN_B_ONLY
 bool
 RtpTransceiver
 :

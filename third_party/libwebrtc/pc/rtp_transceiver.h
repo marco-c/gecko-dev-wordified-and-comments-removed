@@ -378,6 +378,17 @@ include
 "
 rtc_base
 /
+system
+/
+plan_b_only
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 thread_annotations
 .
 h
@@ -736,6 +747,7 @@ bool
 stop_senders
 )
 ;
+PLAN_B_ONLY
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -780,6 +792,7 @@ RtpEncodingParameters
 send_encodings
 )
 ;
+PLAN_B_ONLY
 void
 AddSenderPlanB
 (
@@ -793,6 +806,7 @@ RtpSenderInternal
 sender
 )
 ;
+PLAN_B_ONLY
 bool
 RemoveSenderPlanB
 (
@@ -823,6 +837,7 @@ return
 senders_
 ;
 }
+PLAN_B_ONLY
 void
 AddReceiverPlanB
 (
@@ -836,6 +851,7 @@ RtpReceiverInternal
 receiver
 )
 ;
+PLAN_B_ONLY
 bool
 RemoveReceiverPlanB
 (

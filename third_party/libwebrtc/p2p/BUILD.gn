@@ -2778,6 +2778,16 @@ rtc_base
 /
 system
 :
+plan_b_only
+"
+"
+.
+.
+/
+rtc_base
+/
+system
+:
 rtc_export
 "
 ]
