@@ -1080,7 +1080,7 @@ if
 (
 event
 .
-keyCode
+code
 =
 =
 =
@@ -1091,7 +1091,7 @@ Home
 |
 event
 .
-keyCode
+code
 =
 =
 =
