@@ -874,10 +874,8 @@ pid
 =
 0
 ;
-int
-spawn_succeeded
+err
 =
-(
 posix_spawnp
 (
 &
@@ -897,10 +895,6 @@ get
 (
 )
 )
-=
-=
-0
-)
 ;
 bool
 process_handle_valid
@@ -911,8 +905,10 @@ pid
 ;
 if
 (
+err
 !
-spawn_succeeded
+=
+0
 |
 |
 !
@@ -939,7 +935,7 @@ LaunchError
 "
 posix_spawnp
 "
-spawn_succeeded
+err
 )
 )
 ;
