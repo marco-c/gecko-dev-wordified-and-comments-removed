@@ -1744,6 +1744,11 @@ navigation
 .
 if
 (
+!
+parsed
+|
+|
+(
 parsed
 .
 protocol
@@ -1766,6 +1771,7 @@ protocol
 https
 :
 "
+)
 )
 {
 anchor
