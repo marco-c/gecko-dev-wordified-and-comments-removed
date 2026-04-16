@@ -1370,6 +1370,8 @@ length
 '
 )
 ;
+RTC_CHECK_EQ
+(
 fread
 (
 &
@@ -1380,6 +1382,8 @@ content
 1
 length
 file
+)
+length
 )
 ;
 fclose
