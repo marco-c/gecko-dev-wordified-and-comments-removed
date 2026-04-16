@@ -1015,7 +1015,6 @@ CamelName
 {
 \
 enum
-class
 Operand
 {
 UNPAREN
@@ -1023,11 +1022,6 @@ UNPAREN
 OpNames
 )
 }
-;
-\
-using
-enum
-Operand
 ;
 \
 static
@@ -2030,14 +2024,6 @@ OpTypes
 public
 AllStatic
 {
-\
-public
-:
-\
-using
-enum
-Operand
-;
 \
 }
 ;
