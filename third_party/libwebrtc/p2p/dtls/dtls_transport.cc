@@ -2524,7 +2524,7 @@ packet
 {
 dtls_stun_piggyback_controller_
 .
-DecryptedPacketReceived
+ApplicationPacketReceived
 (
 packet
 )

@@ -208,7 +208,7 @@ is_dtls13
 )
 ;
 void
-DecryptedPacketReceived
+ApplicationPacketReceived
 (
 const
 ReceivedIpPacket
