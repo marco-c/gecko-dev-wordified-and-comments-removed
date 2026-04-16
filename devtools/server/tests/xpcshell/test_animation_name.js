@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-AnimationPlayerActor
+AnimationActor
 }
 =
 require
@@ -403,7 +403,7 @@ const
 actor
 =
 new
-AnimationPlayerActor
+AnimationActor
 (
 {
 }

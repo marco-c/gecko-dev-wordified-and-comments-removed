@@ -6,7 +6,7 @@ strict
 const
 {
 ANIMATION_TYPES
-AnimationPlayerActor
+AnimationActor
 }
 =
 require
@@ -261,7 +261,7 @@ const
 actor
 =
 new
-AnimationPlayerActor
+AnimationActor
 (
 {
 }

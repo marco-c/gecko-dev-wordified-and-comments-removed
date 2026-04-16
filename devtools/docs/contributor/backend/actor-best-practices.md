@@ -244,7 +244,7 @@ onNavigate
 ;
 this
 .
-stopAnimationPlayerUpdates
+stopAnimationsUpdates
 (
 )
 ;

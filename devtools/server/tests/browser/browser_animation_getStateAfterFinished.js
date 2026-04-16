@@ -109,7 +109,8 @@ Get
 the
 list
 of
-players
+animation
+fronts
 by
 the
 time
@@ -130,7 +131,7 @@ ended
 )
 ;
 let
-players
+animationFronts
 =
 await
 animations
@@ -142,7 +143,7 @@ node
 ;
 if
 (
-players
+animationFronts
 .
 length
 =
@@ -195,7 +196,7 @@ again
 "
 )
 ;
-players
+animationFronts
 =
 await
 animations
@@ -208,7 +209,7 @@ node
 }
 is
 (
-players
+animationFronts
 .
 length
 2
@@ -224,7 +225,7 @@ node
 ;
 is
 (
-players
+animationFronts
 [
 0
 ]
@@ -247,7 +248,7 @@ correct
 ;
 is
 (
-players
+animationFronts
 [
 0
 ]
@@ -270,7 +271,7 @@ correct
 ;
 is
 (
-players
+animationFronts
 [
 0
 ]
@@ -293,7 +294,7 @@ correct
 ;
 is
 (
-players
+animationFronts
 [
 1
 ]
@@ -316,7 +317,7 @@ correct
 ;
 is
 (
-players
+animationFronts
 [
 1
 ]
@@ -339,7 +340,7 @@ correct
 ;
 is
 (
-players
+animationFronts
 [
 1
 ]

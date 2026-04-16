@@ -86,7 +86,7 @@ assertNumberOfAnimationActors
 AnimationActor
 have
 1
-AnimationPlayerActors
+AnimationActors
 "
 )
 ;
@@ -94,7 +94,7 @@ info
 (
 "
 Testing
-AnimationPlayerActors
+AnimationActors
 release
 "
 )
@@ -134,7 +134,7 @@ does
 not
 have
 any
-AnimationPlayerActors
+AnimationActors
 anymore
 "
 )
@@ -184,7 +184,7 @@ AnimationActor
 has
 now
 2
-AnimationPlayerActors
+AnimationActors
 "
 )
 ;
@@ -216,7 +216,7 @@ AnimationActor
 has
 only
 one
-AnimationPlayerActors
+AnimationActors
 "
 )
 ;
@@ -224,7 +224,7 @@ info
 (
 "
 Testing
-AnimationPlayerActors
+AnimationActors
 release
 again
 "
@@ -248,7 +248,7 @@ does
 not
 have
 any
-AnimationPlayerActors
+AnimationActors
 anymore
 "
 )
