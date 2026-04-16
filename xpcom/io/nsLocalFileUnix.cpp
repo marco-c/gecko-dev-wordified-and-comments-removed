@@ -6833,7 +6833,7 @@ return
 GetCreationTimeImpl
 (
 aCreationTime
-false
+true
 )
 ;
 }
@@ -6852,7 +6852,7 @@ return
 GetCreationTimeImpl
 (
 aCreationTimeOfLink
-true
+false
 )
 ;
 }
