@@ -2688,6 +2688,8 @@ D
 aDest
 uint32_t
 aSourceChannelCount
+uint32_t
+aSourceFramesPerChannel
 const
 AudioSampleFormat
 aSourceFormat
@@ -2798,20 +2800,6 @@ mFormat
 )
 )
 {
-DebugOnly
-<
-size_t
->
-sourceFrameCount
-=
-aSource
-.
-Length
-(
-)
-/
-aSourceChannelCount
-;
 MOZ_ASSERT
 (
 aDest
@@ -3061,17 +3049,6 @@ mFormat
 )
 )
 {
-size_t
-framePerPlane
-=
-aSource
-.
-Length
-(
-)
-/
-aSourceChannelCount
-;
 size_t
 offset
 =
@@ -3079,7 +3056,7 @@ aCopyToSpec
 .
 mPlaneIndex
 *
-framePerPlane
+aSourceFramesPerChannel
 ;
 MOZ_ASSERT
 (
@@ -3539,6 +3516,8 @@ DataSpanType
 aDest
 uint32_t
 aSourceChannelCount
+uint32_t
+aSourceFramesPerChannel
 const
 AudioSampleFormat
 aSourceFormat
@@ -3579,6 +3558,7 @@ CopySamples
 src
 dst
 aSourceChannelCount
+aSourceFramesPerChannel
 aSourceFormat
 aCopyToSpec
 )
@@ -3606,6 +3586,8 @@ aDest
 const
 uint32_t
 aSourceChannelCount
+uint32_t
+aSourceFramesPerChannel
 const
 AudioSampleFormat
 aSourceFormat
@@ -3640,6 +3622,7 @@ CopySamples
 source
 dest
 aSourceChannelCount
+aSourceFramesPerChannel
 aSourceFormat
 aCopyToSpec
 )
@@ -4003,6 +3986,7 @@ Data
 )
 aData
 mNumberOfChannels
+mNumberOfFrames
 mAudioSampleFormat
 .
 value
@@ -4584,6 +4568,7 @@ DoCopy
 data
 storage
 mNumberOfChannels
+mNumberOfFrames
 mAudioSampleFormat
 .
 value
