@@ -366,6 +366,12 @@ val
 preferences
 =
 testPreferences
+Suppress
+(
+"
+DEPRECATION
+"
+)
 var
 property
 by
