@@ -348,7 +348,6 @@ RefPtr
 <
 AbortFollower
 >
-&
 follower
 :
 mFollowers
@@ -465,6 +464,13 @@ aSignal
 -
 >
 UnlinkFollowers
+(
+)
+;
+aSignal
+-
+>
+DetachWeakPtr
 (
 )
 ;
