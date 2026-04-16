@@ -515,13 +515,6 @@ this
 props
 .
 scheduled_corpus_item_id
-firstVisibleTimestamp
-:
-this
-.
-props
-.
-firstVisibleTimestamp
 recommended_at
 :
 this

@@ -546,11 +546,6 @@ topic
 site
 .
 topic
-firstVisibleTimestamp
-:
-site
-.
-firstVisibleTimestamp
 tile_id
 :
 site

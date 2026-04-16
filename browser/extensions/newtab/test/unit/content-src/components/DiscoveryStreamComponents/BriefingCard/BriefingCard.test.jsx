@@ -356,15 +356,6 @@ topic2
 isFollowed
 :
 true
-firstVisibleTimestamp
-:
-Date
-.
-now
-(
-)
--
-5000
 }
 ;
 function

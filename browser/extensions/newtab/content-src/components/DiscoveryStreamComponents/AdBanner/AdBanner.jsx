@@ -226,9 +226,6 @@ param
 dispatch
 *
 param
-firstVisibleTimestamp
-*
-param
 row
 *
 param
@@ -253,7 +250,6 @@ AdBanner
 {
 spoc
 dispatch
-firstVisibleTimestamp
 row
 type
 prefs
@@ -537,12 +533,6 @@ click
 {
 }
 )
-fetchTimestamp
-:
-spoc
-.
-fetchTimestamp
-firstVisibleTimestamp
 format
 :
 spoc
@@ -936,11 +926,6 @@ dispatch
 =
 {
 dispatch
-}
-firstVisibleTimestamp
-=
-{
-firstVisibleTimestamp
 }
 /
 >

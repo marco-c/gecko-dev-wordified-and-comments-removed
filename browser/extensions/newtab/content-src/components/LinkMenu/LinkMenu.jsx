@@ -414,8 +414,6 @@ const
 card_type
 corpus_item_id
 event_source
-fetchTimestamp
-firstVisibleTimestamp
 format
 is_section_followed
 received_rank
@@ -439,8 +437,6 @@ value
 card_type
 corpus_item_id
 event_source
-fetchTimestamp
-firstVisibleTimestamp
 format
 received_rank
 recommendation_id

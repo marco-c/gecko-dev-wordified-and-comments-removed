@@ -734,11 +734,6 @@ block_key
 spoc
 .
 block_key
-fetchTimestamp
-:
-spoc
-.
-fetchTimestamp
 flight_id
 :
 spoc

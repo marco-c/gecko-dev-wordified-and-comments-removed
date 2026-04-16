@@ -2425,9 +2425,6 @@ CONTEXT_MENU
 topic
 :
 undefined
-firstVisibleTimestamp
-:
-undefined
 tile_id
 :
 undefined

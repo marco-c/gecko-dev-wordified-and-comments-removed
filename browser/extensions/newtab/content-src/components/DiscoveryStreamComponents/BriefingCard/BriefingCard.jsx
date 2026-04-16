@@ -201,7 +201,6 @@ headlines
 lastUpdated
 selectedTopics
 isFollowed
-firstVisibleTimestamp
 }
 )
 =
@@ -576,12 +575,6 @@ tile_id
 headline
 .
 id
-fetchTimestamp
-:
-headline
-.
-fetchTimestamp
-firstVisibleTimestamp
 corpus_item_id
 :
 headline
@@ -1123,11 +1116,6 @@ recommendation_id
 headline
 .
 recommendation_id
-fetchTimestamp
-:
-headline
-.
-fetchTimestamp
 corpus_item_id
 :
 headline
@@ -1219,11 +1207,6 @@ source
 "
 DAILY_BRIEFING
 "
-firstVisibleTimestamp
-=
-{
-firstVisibleTimestamp
-}
 /
 >
 <

@@ -700,11 +700,6 @@ recommendation_id
 link
 .
 recommendation_id
-fetchTimestamp
-:
-link
-.
-fetchTimestamp
 corpus_item_id
 :
 link
@@ -813,11 +808,6 @@ sectionLayoutName
 }
 )
 )
-firstVisibleTimestamp
-:
-props
-.
-firstVisibleTimestamp
 }
 ;
 props

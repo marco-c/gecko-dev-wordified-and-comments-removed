@@ -1010,7 +1010,6 @@ sectionPosition
 section
 dispatch
 type
-firstVisibleTimestamp
 ctaButtonVariant
 ctaButtonSponsors
 anySectionsFollowed
@@ -2278,11 +2277,6 @@ isFollowed
 {
 following
 }
-firstVisibleTimestamp
-=
-{
-firstVisibleTimestamp
-}
 /
 >
 )
@@ -2676,13 +2670,6 @@ rec
 .
 shim
 }
-fetchTimestamp
-=
-{
-rec
-.
-fetchTimestamp
-}
 type
 =
 {
@@ -2755,11 +2742,6 @@ recommendation_id
 rec
 .
 recommendation_id
-}
-firstVisibleTimestamp
-=
-{
-firstVisibleTimestamp
 }
 corpus_item_id
 =
@@ -3559,7 +3541,6 @@ data
 feed
 dispatch
 type
-firstVisibleTimestamp
 ctaButtonVariant
 ctaButtonSponsors
 placeholder
@@ -3969,11 +3950,6 @@ type
 {
 type
 }
-firstVisibleTimestamp
-=
-{
-firstVisibleTimestamp
-}
 ctaButtonVariant
 =
 {
@@ -4235,11 +4211,6 @@ type
 =
 {
 type
-}
-firstVisibleTimestamp
-=
-{
-firstVisibleTimestamp
 }
 row
 =
