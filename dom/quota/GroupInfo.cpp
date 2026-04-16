@@ -135,6 +135,12 @@ entry
 "
 )
 ;
+const
+auto
+&
+back
+=
+*
 mOriginInfos
 .
 AppendElement
@@ -151,7 +157,7 @@ aOriginInfo
 uint64_t
 usage
 =
-aOriginInfo
+back
 -
 >
 LockedUsage
@@ -161,7 +167,7 @@ LockedUsage
 if
 (
 !
-aOriginInfo
+back
 -
 >
 LockedPersisted
