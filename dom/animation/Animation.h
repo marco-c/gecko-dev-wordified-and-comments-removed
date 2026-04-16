@@ -2165,11 +2165,6 @@ mFinishNotificationTask
 nsString
 mId
 ;
-bool
-mResetCurrentTimeOnResume
-=
-false
-;
 RTPCallerType
 mRTPCallerType
 ;
