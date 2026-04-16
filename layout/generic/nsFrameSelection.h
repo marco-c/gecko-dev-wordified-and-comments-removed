@@ -1444,16 +1444,6 @@ bool
 aExtend
 )
 ;
-MOZ_CAN_RUN_SCRIPT
-nsresult
-ParagraphMove
-(
-bool
-aForward
-bool
-aExtend
-)
-;
 template
 <
 typename
