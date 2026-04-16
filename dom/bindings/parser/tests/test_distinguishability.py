@@ -671,6 +671,17 @@ unrelatedTypes
             
 )
             
+not_
+=
+"
+"
+if
+distinguishable
+else
+"
+not
+"
+            
 harness
 .
 check
@@ -685,33 +696,24 @@ type2
                 
 distinguishable
                 
+f
 "
 Type
-%
-s
+{
+type1
+}
 should
-%
-sbe
+{
+not_
+}
+be
 distinguishable
 from
 type
-%
-s
-"
-                
-%
-(
-type1
-"
-"
-if
-distinguishable
-else
-"
-not
-"
+{
 type2
-)
+}
+"
             
 )
             
@@ -729,33 +731,24 @@ type1
                 
 distinguishable
                 
+f
 "
 Type
-%
-s
+{
+type2
+}
 should
-%
-sbe
+{
+not_
+}
+be
 distinguishable
 from
 type
-%
-s
-"
-                
-%
-(
-type2
-"
-"
-if
-distinguishable
-else
-"
-not
-"
+{
 type1
-)
+}
+"
             
 )
     
@@ -2570,6 +2563,7 @@ idlTemplate
 enum
 Enum
 {
+{
 "
 a
 "
@@ -2577,10 +2571,12 @@ a
 b
 "
 }
+}
 ;
           
 enum
 Enum2
+{
 {
 "
 c
@@ -2589,6 +2585,7 @@ c
 d
 "
 }
+}
 ;
           
 interface
@@ -2596,18 +2593,24 @@ Interface
 :
 AncestorInterface
 {
+{
+}
 }
 ;
           
 interface
 AncestorInterface
 {
+{
+}
 }
 ;
           
 interface
 UnrelatedInterface
 {
+{
+}
 }
 ;
           
@@ -2615,6 +2618,8 @@ callback
 interface
 CallbackInterface
 {
+{
+}
 }
 ;
           
@@ -2622,6 +2627,8 @@ callback
 interface
 CallbackInterface2
 {
+{
+}
 }
 ;
           
@@ -2682,29 +2689,36 @@ values
 dictionary
 Dict
 {
+{
 required
 long
 member
 ;
+}
 }
 ;
           
 dictionary
 Dict2
 {
+{
 required
 long
 member
 ;
+}
 }
 ;
           
 interface
 TestInterface
 {
-%
-s
+{
+{
+0
+}
           
+}
 }
 ;
         
@@ -2724,16 +2738,19 @@ undefineds
             
 methods
 =
+f
 "
 "
 "
                 
 (
-%
-s
+{
+type1
+}
 or
-%
-s
+{
+type2
+}
 )
 myMethod
 (
@@ -2742,14 +2759,6 @@ myMethod
 "
 "
 "
-%
-(
-                
-type1
-                
-type2
-            
-)
         
 else
 :
@@ -2763,8 +2772,8 @@ methodTemplate
 undefined
 myMethod
 (
-%
-s
+{
+}
 arg
 )
 ;
@@ -2774,23 +2783,28 @@ arg
             
 methods
 =
-(
 methodTemplate
-%
+.
+format
+(
 type1
 )
 +
-(
 methodTemplate
-%
+.
+format
+(
 type2
 )
         
 idl
 =
 idlTemplate
-%
+.
+format
+(
 methods
+)
         
 parser
 =
@@ -2846,31 +2860,28 @@ ok
 not
 threw
                 
+f
 "
 Should
 not
 throw
 for
 '
-%
-s
+{
+type1
+}
 '
 and
 '
-%
-s
+{
+type2
+}
 '
 because
 they
 are
 distinguishable
 "
-                
-%
-(
-type1
-type2
-)
             
 )
         
@@ -2884,18 +2895,21 @@ ok
                 
 threw
                 
+f
 "
 Should
 throw
 for
 '
-%
-s
+{
+type1
+}
 '
 and
 '
-%
-s
+{
+type2
+}
 '
 because
 they
@@ -2903,12 +2917,6 @@ are
 not
 distinguishable
 "
-                
-%
-(
-type1
-type2
-)
             
 )
     
