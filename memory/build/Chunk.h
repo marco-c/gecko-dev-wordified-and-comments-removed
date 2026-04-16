@@ -413,5 +413,15 @@ ShouldCommit
 should_commit
 )
 ;
+void
+pages_unmap
+(
+void
+*
+aAddr
+size_t
+aSize
+)
+;
 #
 endif

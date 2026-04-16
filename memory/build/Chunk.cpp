@@ -794,7 +794,6 @@ PAGE_NOACCESS
 ;
 }
 }
-static
 void
 pages_unmap
 (
@@ -842,7 +841,6 @@ n
 }
 #
 else
-static
 void
 pages_unmap
 (
