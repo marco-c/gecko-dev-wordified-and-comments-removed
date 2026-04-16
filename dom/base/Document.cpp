@@ -63996,6 +63996,10 @@ if
 (
 !
 aTargetURL
+|
+|
+!
+aTargetURL
 -
 >
 SchemeIs
