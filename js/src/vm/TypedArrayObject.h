@@ -1423,6 +1423,11 @@ dataPointer
 size_t
 *
 byteLength
+bool
+*
+isShared
+=
+nullptr
 )
 ;
 inline

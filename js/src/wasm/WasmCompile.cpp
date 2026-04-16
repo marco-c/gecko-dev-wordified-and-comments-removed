@@ -5154,7 +5154,13 @@ finishModule
 (
 BytecodeBufferOrSource
 (
+std
+:
+:
+move
+(
 bytecodeBuffer
+)
 )
 *
 moduleMeta
