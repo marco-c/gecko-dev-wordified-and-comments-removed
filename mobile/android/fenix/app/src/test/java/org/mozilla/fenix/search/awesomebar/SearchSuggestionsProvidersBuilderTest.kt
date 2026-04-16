@@ -1928,9 +1928,6 @@ state
 =
 getSearchProviderState
 (
-showSearchShortcuts
-=
-false
 showHistorySuggestionsForCurrentEngine
 =
 false
@@ -2070,9 +2067,6 @@ state
 =
 getSearchProviderState
 (
-showSearchShortcuts
-=
-false
 showHistorySuggestionsForCurrentEngine
 =
 false
@@ -2213,9 +2207,6 @@ state
 =
 getSearchProviderState
 (
-showSearchShortcuts
-=
-false
 showHistorySuggestionsForCurrentEngine
 =
 false
@@ -2360,9 +2351,6 @@ state
 =
 getSearchProviderState
 (
-showSearchShortcuts
-=
-false
 showHistorySuggestionsForCurrentEngine
 =
 false
@@ -2509,9 +2497,6 @@ state
 =
 getSearchProviderState
 (
-showSearchShortcuts
-=
-false
 showAllHistorySuggestions
 =
 false
@@ -2662,9 +2647,6 @@ state
 =
 getSearchProviderState
 (
-showSearchShortcuts
-=
-false
 showAllHistorySuggestions
 =
 false
@@ -2813,9 +2795,6 @@ state
 =
 getSearchProviderState
 (
-showSearchShortcuts
-=
-false
 showSearchTermHistory
 =
 false
@@ -2963,9 +2942,6 @@ state
 =
 getSearchProviderState
 (
-showSearchShortcuts
-=
-false
 showSearchTermHistory
 =
 false
@@ -3110,9 +3086,6 @@ state
 =
 getSearchProviderState
 (
-showSearchShortcuts
-=
-false
 showSearchTermHistory
 =
 false
@@ -3246,9 +3219,6 @@ state
 =
 getSearchProviderState
 (
-showSearchShortcuts
-=
-false
 showSearchTermHistory
 =
 false
@@ -3386,9 +3356,6 @@ state
 =
 getSearchProviderState
 (
-showSearchShortcuts
-=
-false
 showSearchTermHistory
 =
 false
@@ -3537,9 +3504,6 @@ state
 =
 getSearchProviderState
 (
-showSearchShortcuts
-=
-false
 showSearchTermHistory
 =
 false
@@ -6609,9 +6573,6 @@ state
 getSearchProviderState
 (
 showHistorySuggestionsForCurrentEngine
-=
-false
-showSearchShortcuts
 =
 false
 showAllHistorySuggestions
@@ -9886,11 +9847,6 @@ private
 fun
 getSearchProviderState
 (
-showSearchShortcuts
-:
-Boolean
-=
-true
 showSearchTermHistory
 :
 Boolean
@@ -9987,9 +9943,6 @@ true
 =
 SearchProviderState
 (
-showSearchShortcuts
-=
-showSearchShortcuts
 showSearchTermHistory
 =
 showSearchTermHistory

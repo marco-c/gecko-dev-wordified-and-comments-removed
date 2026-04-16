@@ -160,15 +160,6 @@ false
 showSearchSuggestionsHint
 =
 false
-showSearchShortcuts
-=
-false
-areShortcutsAvailable
-=
-false
-showSearchShortcutsSetting
-=
-false
 showClipboardSuggestions
 =
 false

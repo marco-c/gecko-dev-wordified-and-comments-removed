@@ -123,9 +123,6 @@ toSearchProviderState
 =
 SearchProviderState
 (
-showSearchShortcuts
-=
-showSearchShortcuts
 showSearchTermHistory
 =
 showSearchTermHistory

@@ -1061,9 +1061,6 @@ query
 state
 .
 clipboardHasUrl
-state
-.
-showSearchShortcuts
 )
 {
 derivedStateOf
@@ -1085,12 +1082,6 @@ isEmpty
 state
 .
 clipboardHasUrl
-&
-&
-!
-state
-.
-showSearchShortcuts
 }
 }
 val
@@ -1752,6 +1743,11 @@ browserStore
 scope
 =
 lifecycleScope
+appStore
+=
+components
+.
+appStore
 )
 FenixSearchMiddleware
 (

@@ -2553,16 +2553,6 @@ built
 *
 *
 property
-showSearchShortcuts
-Whether
-to
-show
-the
-search
-shortcuts
-.
-*
-property
 showSearchTermHistory
 Whether
 to
@@ -2774,10 +2764,6 @@ data
 class
 SearchProviderState
 (
-val
-showSearchShortcuts
-:
-Boolean
 val
 showSearchTermHistory
 :

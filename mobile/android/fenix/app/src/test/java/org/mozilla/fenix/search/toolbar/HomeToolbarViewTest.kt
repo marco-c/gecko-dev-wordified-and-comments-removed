@@ -604,9 +604,6 @@ true
 showSearchTermHistory
 =
 true
-areShortcutsAvailable
-=
-true
 showHistorySuggestionsForCurrentEngine
 =
 true

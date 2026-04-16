@@ -3609,7 +3609,6 @@ map
 state
 -
 >
-(
 state
 .
 url
@@ -3627,12 +3626,6 @@ query
 isNotBlank
 (
 )
-)
-|
-|
-state
-.
-showSearchShortcuts
 }
 .
 distinctUntilChanged
@@ -3708,12 +3701,6 @@ isEmpty
 state
 .
 clipboardHasUrl
-&
-&
-!
-state
-.
-showSearchShortcuts
 Pair
 (
 shouldShowView
@@ -4968,12 +4955,6 @@ showHint
 state
 .
 showSearchSuggestionsHint
-&
-&
-!
-state
-.
-showSearchShortcuts
 &
 &
 state
