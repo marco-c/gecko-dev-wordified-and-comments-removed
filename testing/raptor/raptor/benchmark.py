@@ -1342,6 +1342,7 @@ default_branch
 (
                     
 subprocess
+                    
 .
 check_output
 (
@@ -1409,6 +1410,7 @@ remote_default_branch
 (
                     
 subprocess
+                    
 .
 check_output
 (
@@ -1903,6 +1905,7 @@ url
 (
                 
 subprocess
+                
 .
 check_output
 (

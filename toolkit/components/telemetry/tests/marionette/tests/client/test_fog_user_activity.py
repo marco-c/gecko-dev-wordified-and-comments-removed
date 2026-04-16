@@ -259,11 +259,13 @@ restart_browser
 lambda
 ping
 :
+(
+                
 is_startup_baseline_ping
 (
 ping
 )
-            
+                
 or
 ping
 [
@@ -283,6 +285,8 @@ usage
 -
 reporting
 "
+            
+)
             
 2
             

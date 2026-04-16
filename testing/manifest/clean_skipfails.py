@@ -361,6 +361,7 @@ path
 .
 join
 (
+            
 self
 .
 topsrcdir
@@ -372,17 +373,19 @@ normpath
 (
 filename
 .
-split
+rsplit
 (
 "
 :
 "
+1
 )
 [
 -
 1
 ]
 )
+        
 )
     
 def

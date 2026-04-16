@@ -3494,6 +3494,7 @@ return
 os
 .
 path
+        
 .
 normpath
 (

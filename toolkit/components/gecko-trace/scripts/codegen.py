@@ -1,4 +1,6 @@
 import
+functools
+import
 hashlib
 from
 os
@@ -17,12 +19,6 @@ buildconfig
 import
 config
 topsrcdir
-from
-mozbuild
-.
-util
-import
-memoize
 from
 schema_parser
 import
@@ -43,7 +39,9 @@ THIS_DIR
 "
 templates
 "
-memoize
+functools
+.
+cache
 def
 get_deps
 (
@@ -168,6 +166,7 @@ False
 input_hash
 =
 hashlib
+            
 .
 sha256
 (
@@ -351,7 +350,9 @@ else
 {
 }
 )
-memoize
+functools
+.
+cache
 def
 load_schema_index
 (
@@ -419,7 +420,9 @@ gecko_trace_files
 "
 ]
 ]
-memoize
+functools
+.
+cache
 def
 _jinja2_env
 (
