@@ -464,6 +464,17 @@ include
 "
 rtc_base
 /
+system
+/
+plan_b_only
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 thread
 .
 h
@@ -980,6 +991,7 @@ uint32_t
 event_id
 )
 ;
+PLAN_B_ONLY
 bool
 AddStream
 (
@@ -988,6 +1000,7 @@ MediaStreamInterface
 local_stream
 )
 ;
+PLAN_B_ONLY
 void
 RemoveStream
 (
@@ -1078,6 +1091,7 @@ void
 worker_tasks
 )
 ;
+PLAN_B_ONLY
 scoped_refptr
 <
 StreamCollectionInterface
@@ -1086,6 +1100,7 @@ local_streams
 (
 )
 ;
+PLAN_B_ONLY
 scoped_refptr
 <
 StreamCollectionInterface
@@ -1380,6 +1395,7 @@ SdpType
 sdp_type
 )
 ;
+PLAN_B_ONLY
 void
 PlanBUpdateSendersAndReceivers
 (
@@ -1521,6 +1537,7 @@ IsUnifiedPlan
 )
 const
 ;
+PLAN_B_ONLY
 void
 OnAudioTrackAdded
 (
@@ -1538,6 +1555,7 @@ signaling_thread
 )
 )
 ;
+PLAN_B_ONLY
 void
 OnAudioTrackRemoved
 (
@@ -1555,6 +1573,7 @@ signaling_thread
 )
 )
 ;
+PLAN_B_ONLY
 void
 OnVideoTrackAdded
 (
@@ -1572,6 +1591,7 @@ signaling_thread
 )
 )
 ;
+PLAN_B_ONLY
 void
 OnVideoTrackRemoved
 (
@@ -1876,6 +1896,7 @@ MediaSessionOptions
 session_options
 )
 ;
+PLAN_B_ONLY
 void
 GetOptionsForPlanBOffer
 (
@@ -1933,6 +1954,7 @@ MediaSessionOptions
 session_options
 )
 ;
+PLAN_B_ONLY
 void
 GetOptionsForPlanBAnswer
 (
@@ -2159,6 +2181,7 @@ MediaStreamInterface
 removed_streams
 )
 ;
+PLAN_B_ONLY
 void
 RemoveSenders
 (
@@ -2169,6 +2192,7 @@ MediaType
 media_type
 )
 ;
+PLAN_B_ONLY
 void
 UpdateLocalSendersPlanB
 (
@@ -2189,6 +2213,7 @@ MediaType
 media_type
 )
 ;
+PLAN_B_ONLY
 void
 UpdateRemoteSendersListPlanB
 (
@@ -2323,6 +2348,7 @@ signaling_thread
 )
 )
 ;
+PLAN_B_ONLY
 RTCError
 CreateChannels
 (
