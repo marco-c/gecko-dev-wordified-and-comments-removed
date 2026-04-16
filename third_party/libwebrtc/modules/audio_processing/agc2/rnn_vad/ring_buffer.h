@@ -250,7 +250,13 @@ offset
 N
 ;
 return
-{
+ArrayView
+<
+const
+T
+S
+>
+(
 buffer_
 .
 data
@@ -261,7 +267,7 @@ S
 *
 offset
 S
-}
+)
 ;
 }
 private

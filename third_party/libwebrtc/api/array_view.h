@@ -482,6 +482,16 @@ template
 typename
 U
 >
+explicit
+(
+Size
+!
+=
+array_view_internal
+:
+:
+kArrayViewVarSize
+)
 ArrayView
 (
 U
