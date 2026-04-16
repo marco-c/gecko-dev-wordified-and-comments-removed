@@ -2047,8 +2047,6 @@ local_ssrc
 {
 config_
 .
-rtp
-.
 local_ssrc
 =
 local_ssrc
@@ -2116,8 +2114,6 @@ const
 {
 return
 config_
-.
-rtp
 .
 remote_ssrc
 ;

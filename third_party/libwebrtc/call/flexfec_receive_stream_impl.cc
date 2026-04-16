@@ -206,8 +206,6 @@ remote_ssrc
 "
 <
 <
-rtp
-.
 remote_ssrc
 ;
 ss
@@ -219,8 +217,6 @@ local_ssrc
 "
 <
 <
-rtp
-.
 local_ssrc
 ;
 ss
@@ -321,8 +317,6 @@ false
 ;
 if
 (
-rtp
-.
 remote_ssrc
 =
 =
@@ -431,8 +425,6 @@ payload_type
 if
 (
 config
-.
-rtp
 .
 remote_ssrc
 =
@@ -592,8 +584,6 @@ FlexfecReceiver
 clock
 config
 .
-rtp
-.
 remote_ssrc
 config
 .
@@ -633,8 +623,6 @@ env
 remote_ssrc_
 (
 config
-.
-rtp
 .
 remote_ssrc
 )
@@ -712,8 +700,6 @@ rtt_stats
 local_media_ssrc
 =
 config
-.
-rtp
 .
 local_ssrc
 }

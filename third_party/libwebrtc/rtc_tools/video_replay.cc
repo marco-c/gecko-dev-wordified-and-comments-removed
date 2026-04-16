@@ -2750,8 +2750,6 @@ FLAGS_ssrc
 ;
 flexfec_config
 .
-rtp
-.
 remote_ssrc
 =
 absl

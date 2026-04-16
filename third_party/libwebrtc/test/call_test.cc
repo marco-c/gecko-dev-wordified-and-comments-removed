@@ -3325,8 +3325,6 @@ payload_type
 ;
 config
 .
-rtp
-.
 remote_ssrc
 =
 send_config
@@ -3350,8 +3348,6 @@ flexfec
 protected_media_ssrcs
 ;
 config
-.
-rtp
 .
 local_ssrc
 =

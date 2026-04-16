@@ -1615,8 +1615,6 @@ receive_configs
 0
 ]
 .
-rtp
-.
 remote_ssrc
 =
 test
@@ -1651,8 +1649,6 @@ receive_configs
 [
 0
 ]
-.
-rtp
 .
 local_ssrc
 =

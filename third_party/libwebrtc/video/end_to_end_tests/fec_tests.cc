@@ -2119,8 +2119,6 @@ receive_configs
 0
 ]
 .
-rtp
-.
 local_ssrc
 =
 kFlexfecLocalSsrc

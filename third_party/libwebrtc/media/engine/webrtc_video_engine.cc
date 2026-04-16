@@ -516,15 +516,6 @@ include
 "
 call
 /
-receive_stream
-.
-h
-"
-#
-include
-"
-call
-/
 rtp_config
 .
 h
@@ -18441,8 +18432,6 @@ ssrc
 flexfec_config
 -
 >
-rtp
-.
 remote_ssrc
 )
 )
@@ -18459,8 +18448,6 @@ ssrc
 flexfec_config
 -
 >
-rtp
-.
 local_ssrc
 =
 config
@@ -22851,8 +22838,6 @@ fec_stats
 GetStatistician
 (
 flexfec_config_
-.
-rtp
 .
 remote_ssrc
 )
