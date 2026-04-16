@@ -518,6 +518,9 @@ nullptr
 )
 {
 }
+ABSL_DEPRECATE_AND_INLINE
+(
+)
 ArrayView
 (
 std

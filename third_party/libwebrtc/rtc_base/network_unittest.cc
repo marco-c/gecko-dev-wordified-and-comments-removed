@@ -12126,7 +12126,8 @@ NetworkManagerBase
 :
 IsVpnMacAddress
 (
-nullptr
+{
+}
 )
 )
 ;

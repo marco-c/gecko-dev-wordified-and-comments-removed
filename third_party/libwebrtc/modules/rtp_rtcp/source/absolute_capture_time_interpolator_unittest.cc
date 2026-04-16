@@ -144,7 +144,8 @@ AbsoluteCaptureTimeInterpolator
 GetSource
 (
 kSsrc
-nullptr
+{
+}
 )
 kSsrc
 )

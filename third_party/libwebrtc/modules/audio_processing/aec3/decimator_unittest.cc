@@ -647,7 +647,8 @@ decimator
 Decimate
 (
 x
-nullptr
+{
+}
 )
 "
 "

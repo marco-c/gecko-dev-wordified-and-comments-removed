@@ -491,7 +491,8 @@ Aec3Optimization
 :
 :
 kNone
-nullptr
+{
+}
 )
 "
 "
