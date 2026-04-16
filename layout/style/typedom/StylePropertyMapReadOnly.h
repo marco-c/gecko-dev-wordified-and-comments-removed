@@ -100,7 +100,10 @@ class
 ErrorResult
 ;
 struct
-StylePropertyTypedValue
+StylePropertyTypedValueList
+;
+struct
+URLExtraData
 ;
 namespace
 dom
@@ -350,8 +353,8 @@ Rule
 )
 {
 }
-StylePropertyTypedValue
-Get
+StylePropertyTypedValueList
+GetAll
 (
 const
 CSSPropertyId
@@ -360,6 +363,13 @@ aPropertyId
 ErrorResult
 &
 aRv
+)
+const
+;
+URLExtraData
+*
+GetURLExtraData
+(
 )
 const
 ;
