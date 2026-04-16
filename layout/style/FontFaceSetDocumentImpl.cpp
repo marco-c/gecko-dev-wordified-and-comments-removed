@@ -2238,11 +2238,6 @@ Cancel
 (
 )
 ;
-RemoveLoader
-(
-loader
-)
-;
 }
 }
 f

@@ -5702,11 +5702,6 @@ Cancel
 (
 )
 ;
-RemoveLoader
-(
-loader
-)
-;
 }
 else
 {
