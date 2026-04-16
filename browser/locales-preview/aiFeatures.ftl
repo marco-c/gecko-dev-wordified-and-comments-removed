@@ -655,8 +655,6 @@ label
 Learn
 from
 browsing
-and
-searches
 in
 Classic
 and
