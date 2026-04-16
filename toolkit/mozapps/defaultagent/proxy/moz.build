@@ -160,6 +160,9 @@ shlwapi
 "
 taskschd
 "
+"
+user32
+"
 ]
 DEFINES
 [
