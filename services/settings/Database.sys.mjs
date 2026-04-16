@@ -3928,11 +3928,6 @@ gShutdownStarted
 =
 true
 ;
-const
-NS_ERROR_DOM_INDEXEDDB_NOT_ALLOWED_ERR
-=
-0x80660006
-;
 /
 /
 Duplicate
@@ -4063,6 +4058,8 @@ ex
 result
 !
 =
+Cr
+.
 NS_ERROR_DOM_INDEXEDDB_NOT_ALLOWED_ERR
 )
 {

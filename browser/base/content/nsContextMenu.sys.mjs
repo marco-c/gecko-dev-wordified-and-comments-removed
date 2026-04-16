@@ -11595,19 +11595,6 @@ isContentWindowPrivate
 {
 /
 /
-canonical
-def
-in
-nsURILoader
-.
-h
-const
-NS_ERROR_SAVE_LINK_AS_TIMEOUT
-=
-0x805d0020
-;
-/
-/
 an
 object
 to
@@ -11721,6 +11708,8 @@ aRequest
 status
 =
 =
+Cr
+.
 NS_ERROR_SAVE_LINK_AS_TIMEOUT
 )
 {
@@ -12071,6 +12060,8 @@ if
 aStatusCode
 =
 =
+Cr
+.
 NS_ERROR_SAVE_LINK_AS_TIMEOUT
 )
 {
@@ -12278,6 +12269,8 @@ channel
 .
 cancel
 (
+Cr
+.
 NS_ERROR_SAVE_LINK_AS_TIMEOUT
 )
 ;
@@ -12365,6 +12358,8 @@ channel
 .
 cancel
 (
+Cr
+.
 NS_ERROR_SAVE_LINK_AS_TIMEOUT
 )
 ;
