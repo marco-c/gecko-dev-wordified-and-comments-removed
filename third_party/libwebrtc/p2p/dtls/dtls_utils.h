@@ -144,7 +144,7 @@ uint8_t
 packet
 )
 ;
-void
+size_t
 Prune
 (
 const

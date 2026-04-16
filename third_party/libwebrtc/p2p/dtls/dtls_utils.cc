@@ -12,6 +12,11 @@ h
 #
 include
 <
+cstddef
+>
+#
+include
+<
 cstdint
 >
 #
@@ -424,7 +429,7 @@ size
 )
 ;
 }
-void
+size_t
 PacketStash
 :
 :
@@ -452,6 +457,7 @@ empty
 )
 {
 return
+0
 ;
 }
 uint32_t
@@ -553,6 +559,9 @@ size
 1
 ;
 }
+return
+removed
+;
 }
 void
 PacketStash
