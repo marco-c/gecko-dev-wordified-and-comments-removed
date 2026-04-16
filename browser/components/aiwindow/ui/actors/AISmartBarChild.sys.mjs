@@ -129,6 +129,11 @@ action
 "
 chat
 "
+location
+:
+"
+urlbar
+"
 }
 bubbles
 :
