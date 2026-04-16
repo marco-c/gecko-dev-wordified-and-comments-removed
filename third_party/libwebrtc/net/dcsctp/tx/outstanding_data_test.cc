@@ -1171,7 +1171,7 @@ buf_
 unacked_payload_bytes
 (
 )
-0u
+1u
 )
 ;
 EXPECT_EQ
@@ -1181,7 +1181,7 @@ buf_
 unacked_items
 (
 )
-0u
+1u
 )
 ;
 EXPECT_FALSE
