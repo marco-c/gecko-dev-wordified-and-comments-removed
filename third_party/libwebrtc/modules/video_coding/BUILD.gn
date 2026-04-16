@@ -8760,6 +8760,17 @@ frame_generator_api
 /
 api
 :
+make_ref_counted
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
 mock_video_codec_factory
 "
 "
