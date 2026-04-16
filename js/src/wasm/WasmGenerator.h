@@ -1111,14 +1111,6 @@ requestTierUpStubCodeOffset_
 uint32_t
 updateCallRefMetricsStubCodeOffset_
 ;
-#
-ifdef
-ENABLE_WASM_JSPI
-uint32_t
-contBaseFrameOffset_
-;
-#
-endif
 CallFarJumpVector
 callFarJumps_
 ;

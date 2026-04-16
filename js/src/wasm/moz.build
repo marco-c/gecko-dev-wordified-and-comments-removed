@@ -299,11 +299,6 @@ WasmSignalHandlers
 cpp
 "
 "
-WasmStacks
-.
-cpp
-"
-"
 WasmStaticTypeDefs
 .
 cpp
