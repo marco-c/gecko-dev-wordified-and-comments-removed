@@ -10408,6 +10408,14 @@ near_matcher
 /
 test
 :
+run_loop
+"
+"
+.
+.
+/
+test
+:
 test_support
 "
 "
