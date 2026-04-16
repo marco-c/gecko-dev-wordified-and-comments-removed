@@ -767,11 +767,6 @@ mFirstBaseline
 =
 NS_INTRINSIC_ISIZE_UNKNOWN
 ;
-bool
-mIsProcessing
-=
-false
-;
 }
 ;
 #
