@@ -2022,6 +2022,9 @@ defined
 (
 WEBRTC_WIN
 )
+#
+if
+RTC_DLOG_IS_ON
 OutputDebugStringA
 (
 msg_str
@@ -2031,6 +2034,8 @@ c_str
 )
 )
 ;
+#
+endif
 if
 (
 log_to_stderr
