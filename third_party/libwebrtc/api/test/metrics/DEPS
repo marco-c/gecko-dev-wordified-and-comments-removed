@@ -4,6 +4,7 @@ specific_include_rules
 "
 metrics_logger_and_exporter
 \
+\
 .
 h
 "
@@ -32,6 +33,7 @@ h
 ]
 "
 metrics_logger
+\
 \
 .
 h
@@ -70,6 +72,7 @@ h
 "
 metrics_accumulator
 \
+\
 .
 h
 "
@@ -96,6 +99,8 @@ h
 ]
 "
 chrome_perf_dashboard_metrics_exporter_test
+\
+\
 .
 cc
 "

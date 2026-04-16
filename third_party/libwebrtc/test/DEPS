@@ -164,6 +164,7 @@ specific_include_rules
 "
 gmock
 \
+\
 .
 h
 "
@@ -182,6 +183,7 @@ gmock
 ]
 "
 gtest
+\
 \
 .
 h
@@ -203,6 +205,7 @@ gtest
 .
 *
 congestion_controller_feedback_fuzzer
+\
 \
 .
 cc
@@ -249,6 +252,7 @@ h
 *
 mdns_parser_fuzzer
 \
+\
 .
 cc
 "
@@ -269,6 +273,7 @@ h
 .
 *
 stun_parser_fuzzer
+\
 \
 .
 cc
@@ -291,6 +296,7 @@ h
 *
 stun_validator_fuzzer
 \
+\
 .
 cc
 "
@@ -312,6 +318,7 @@ h
 *
 test_main_lib
 \
+\
 .
 cc
 "
@@ -328,6 +335,7 @@ perfetto
 .
 *
 test_main
+\
 \
 .
 cc
@@ -360,6 +368,7 @@ h
 *
 test_peer
 \
+\
 .
 (
 h
@@ -383,6 +392,7 @@ p2p
 *
 test_peer_factory
 \
+\
 .
 (
 h
@@ -405,6 +415,7 @@ p2p
 .
 *
 network_emulation_pc_unittest
+\
 \
 .
 cc
@@ -445,6 +456,7 @@ h
 *
 peer_connection_quality_test
 \
+\
 .
 (
 h
@@ -463,6 +475,7 @@ pc
 .
 *
 sdp_changer
+\
 \
 .
 (
@@ -486,6 +499,8 @@ p2p
 .
 *
 test_video_capturer_video_track_source
+\
+\
 .
 h
 "
@@ -499,6 +514,7 @@ pc
 "
 benchmark_main
 \
+\
 .
 cc
 "
@@ -511,6 +527,7 @@ benchmark
 ]
 "
 emulated_turn_server
+\
 \
 .
 (
@@ -544,6 +561,7 @@ h
 ]
 "
 wait_until
+\
 \
 .
 cc

@@ -32,6 +32,7 @@ specific_include_rules
 "
 checks
 \
+\
 .
 h
 "
@@ -50,6 +51,7 @@ h
 ]
 "
 string_builder
+\
 \
 .
 h
@@ -70,6 +72,7 @@ h
 "
 protobuf_utils
 \
+\
 .
 h
 "
@@ -84,6 +87,7 @@ protobuf
 ]
 "
 gunit
+\
 \
 .
 h
@@ -106,6 +110,7 @@ h
 "
 trace_categories
 \
+\
 .
 h
 "
@@ -121,6 +126,7 @@ perfetto
 "
 event_tracer
 \
+\
 .
 cc
 "
@@ -135,6 +141,8 @@ perfetto
 ]
 "
 logging
+\
+\
 .
 h
 "
@@ -154,6 +162,7 @@ h
 "
 trace_event
 \
+\
 .
 h
 "
@@ -168,6 +177,8 @@ perfetto
 ]
 "
 openssl_adapter
+\
+\
 .
 cc
 "
@@ -180,6 +191,8 @@ openssl
 ]
 "
 openssl_stream_adapter
+\
+\
 .
 cc
 "
@@ -192,6 +205,8 @@ openssl
 ]
 "
 openssl_stream_adapter
+\
+\
 .
 h
 "
@@ -204,6 +219,7 @@ openssl
 ]
 "
 openssl_session_cache
+\
 \
 .
 h
@@ -218,6 +234,7 @@ openssl
 "
 base64_benchmark
 \
+\
 .
 cc
 "
@@ -230,6 +247,7 @@ benchmark
 ]
 "
 base64_rust
+\
 \
 .
 cc

@@ -3,6 +3,8 @@ specific_include_rules
 {
 "
 encoded_frame
+\
+\
 .
 h
 "
@@ -56,6 +58,7 @@ h
 "
 encoded_image
 \
+\
 .
 h
 "
@@ -81,6 +84,7 @@ h
 "
 i010_buffer
 \
+\
 .
 h
 "
@@ -99,6 +103,7 @@ h
 ]
 "
 i210_buffer
+\
 \
 .
 h
@@ -119,6 +124,7 @@ h
 "
 i410_buffer
 \
+\
 .
 h
 "
@@ -137,6 +143,7 @@ h
 ]
 "
 i420_buffer
+\
 \
 .
 h
@@ -157,6 +164,7 @@ h
 "
 i422_buffer
 \
+\
 .
 h
 "
@@ -175,6 +183,7 @@ h
 ]
 "
 i444_buffer
+\
 \
 .
 h
@@ -195,6 +204,7 @@ h
 "
 nv12_buffer
 \
+\
 .
 h
 "
@@ -214,6 +224,7 @@ h
 "
 recordable_encoded_frame
 \
+\
 .
 h
 "
@@ -231,6 +242,7 @@ h
 "
 video_frame
 \
+\
 .
 h
 "
@@ -239,6 +251,7 @@ h
 ]
 "
 video_frame_buffer
+\
 \
 .
 h
@@ -256,6 +269,7 @@ h
 ]
 "
 video_frame_metadata
+\
 \
 .
 h
@@ -313,6 +327,8 @@ h
 ]
 "
 video_stream_decoder_create
+\
+\
 .
 cc
 "
@@ -329,6 +345,8 @@ h
 ]
 "
 video_stream_encoder_create
+\
+\
 .
 cc
 "
@@ -345,6 +363,8 @@ h
 ]
 "
 rtp_video_frame_assembler
+\
+\
 .
 h
 "
@@ -365,6 +385,8 @@ h
 ]
 "
 frame_buffer
+\
+\
 .
 h
 "
@@ -385,6 +407,7 @@ h
 ]
 "
 video_frame_matchers
+\
 \
 .
 h

@@ -99,6 +99,8 @@ specific_include_rules
 {
 "
 audio_send_stream
+\
+\
 .
 cc
 "
@@ -121,6 +123,8 @@ h
 ]
 "
 audio_transport_impl
+\
+\
 .
 h
 "

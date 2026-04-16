@@ -4,6 +4,7 @@ specific_include_rules
 "
 custom_neteq_factory
 \
+\
 .
 h
 "
@@ -22,6 +23,7 @@ h
 ]
 "
 default_neteq_factory
+\
 \
 .
 h
@@ -42,6 +44,7 @@ h
 "
 neteq_controller
 \
+\
 .
 h
 "
@@ -60,6 +63,7 @@ h
 ]
 "
 neteq_factory
+\
 \
 .
 h

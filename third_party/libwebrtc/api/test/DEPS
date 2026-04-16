@@ -43,6 +43,7 @@ h
 "
 dummy_peer_connection
 \
+\
 .
 h
 "
@@ -59,6 +60,7 @@ h
 ]
 "
 neteq_factory_with_codecs
+\
 \
 .
 h
@@ -78,6 +80,7 @@ h
 ]
 "
 network_emulation_manager
+\
 \
 .
 h
@@ -112,6 +115,7 @@ h
 "
 peer_network_dependencies
 \
+\
 .
 h
 "
@@ -144,6 +148,7 @@ h
 ]
 "
 peerconnection_quality_test_fixture
+\
 \
 .
 h
@@ -218,6 +223,7 @@ h
 "
 time_controller
 \
+\
 .
 h
 "
@@ -255,6 +261,7 @@ h
 "
 create_frame_generator
 \
+\
 .
 h
 "
@@ -274,6 +281,7 @@ h
 "
 mock_async_dns_resolver
 \
+\
 .
 h
 "
@@ -291,6 +299,7 @@ h
 "
 mock_local_network_access_permission
 \
+\
 .
 h
 "
@@ -307,6 +316,7 @@ h
 ]
 "
 mock_packet_socket_factory
+\
 \
 .
 h
@@ -333,6 +343,7 @@ h
 "
 mock_peerconnectioninterface
 \
+\
 .
 h
 "
@@ -349,6 +360,7 @@ h
 ]
 "
 mock_peer_connection_factory_interface
+\
 \
 .
 h
@@ -377,6 +389,7 @@ h
 "
 mock_peerconnectioninterface
 \
+\
 .
 h
 "
@@ -393,6 +406,7 @@ h
 ]
 "
 videocodec_test_fixture
+\
 \
 .
 h
@@ -418,6 +432,7 @@ h
 ]
 "
 rtc_error_matchers
+\
 \
 .
 h

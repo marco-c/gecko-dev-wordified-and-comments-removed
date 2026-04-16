@@ -93,6 +93,8 @@ specific_include_rules
 {
 "
 rtc_stats_collector_unittest
+\
+\
 .
 cc
 "

@@ -210,6 +210,7 @@ headers
 .
 *
 \
+\
 .
 h
 "
@@ -256,6 +257,7 @@ h
 ]
 "
 array_view
+\
 \
 .
 h
@@ -312,6 +314,7 @@ id
 "
 audio_encoder_opus
 \
+\
 .
 h
 "
@@ -335,6 +338,7 @@ h
 "
 async_resolver_factory
 \
+\
 .
 h
 "
@@ -352,6 +356,7 @@ h
 "
 async_dns_resolver
 \
+\
 .
 h
 "
@@ -368,6 +373,7 @@ h
 ]
 "
 audio_device_defines
+\
 \
 .
 h
@@ -388,6 +394,7 @@ h
 "
 audio_format
 \
+\
 .
 h
 "
@@ -406,6 +413,7 @@ h
 ]
 "
 candidate
+\
 \
 .
 h
@@ -432,6 +440,7 @@ h
 "
 create_peerconnection_factory
 \
+\
 .
 h
 "
@@ -448,6 +457,7 @@ h
 ]
 "
 data_channel_interface
+\
 \
 .
 h
@@ -466,6 +476,7 @@ h
 "
 data_channel_transport_interface
 \
+\
 .
 h
 "
@@ -482,6 +493,7 @@ h
 ]
 "
 datagram_connection
+\
 \
 .
 h
@@ -502,6 +514,7 @@ h
 "
 mock_datagram_connection
 \
+\
 .
 h
 "
@@ -520,6 +533,7 @@ h
 ]
 "
 datagram_connection_factory
+\
 \
 .
 h
@@ -548,6 +562,7 @@ h
 "
 dtls_transport_interface
 \
+\
 .
 h
 "
@@ -564,6 +579,7 @@ h
 ]
 "
 fec_controller
+\
 \
 .
 h
@@ -583,6 +599,7 @@ h
 ]
 "
 ice_server_parsing
+\
 \
 .
 h
@@ -610,6 +627,7 @@ h
 ]
 "
 jsep
+\
 \
 .
 h
@@ -658,6 +676,7 @@ h
 "
 local_network_access_permission
 \
+\
 .
 h
 "
@@ -674,6 +693,7 @@ h
 ]
 "
 packet_socket_factory
+\
 \
 .
 h
@@ -708,6 +728,7 @@ h
 "
 payload_type
 \
+\
 .
 h
 "
@@ -735,6 +756,7 @@ h
 "
 turn_customizer
 \
+\
 .
 h
 "
@@ -753,6 +775,7 @@ h
 ]
 "
 peer_connection_interface
+\
 \
 .
 h
@@ -903,6 +926,7 @@ h
 "
 proxy
 \
+\
 .
 h
 "
@@ -941,6 +965,7 @@ h
 "
 ref_counted_base
 \
+\
 .
 h
 "
@@ -957,6 +982,7 @@ h
 ]
 "
 rtc_error
+\
 \
 .
 h
@@ -1004,6 +1030,8 @@ h
 ]
 "
 rtc_event_log_output_file
+\
+\
 .
 h
 "
@@ -1030,6 +1058,7 @@ h
 "
 legacy_stats_types
 \
+\
 .
 h
 "
@@ -1055,6 +1084,7 @@ h
 "
 audio_decoder
 \
+\
 .
 h
 "
@@ -1072,6 +1102,7 @@ h
 "
 audio_encoder
 \
+\
 .
 h
 "
@@ -1088,6 +1119,7 @@ h
 ]
 "
 make_ref_counted
+\
 \
 .
 h
@@ -1108,6 +1140,7 @@ mock
 .
 *
 \
+\
 .
 h
 "
@@ -1124,6 +1157,7 @@ h
 ]
 "
 mock_peerconnectioninterface
+\
 \
 .
 h
@@ -1142,6 +1176,7 @@ h
 "
 mock_video_track
 \
+\
 .
 h
 "
@@ -1158,6 +1193,7 @@ h
 ]
 "
 notifier
+\
 \
 .
 h
@@ -1186,6 +1222,7 @@ h
 "
 priority
 \
+\
 .
 h
 "
@@ -1202,6 +1239,7 @@ h
 ]
 "
 sctp_transport_interface
+\
 \
 .
 h
@@ -1221,6 +1259,7 @@ h
 ]
 "
 simulated_network
+\
 \
 .
 h
@@ -1247,6 +1286,7 @@ h
 "
 time_controller
 \
+\
 .
 h
 "
@@ -1263,6 +1303,7 @@ h
 ]
 "
 videocodec_test_fixture
+\
 \
 .
 h
@@ -1285,6 +1326,7 @@ h
 "
 rtp_parameters
 \
+\
 .
 h
 "
@@ -1303,6 +1345,7 @@ h
 ]
 "
 sequence_checker
+\
 \
 .
 h
@@ -1333,6 +1376,7 @@ video_encoder_factory_template
 .
 *
 \
+\
 .
 h
 "
@@ -1347,6 +1391,7 @@ video_coding
 ]
 "
 video_encoder_factory_interface
+\
 \
 .
 h
@@ -1363,6 +1408,7 @@ numerics
 "
 video_encoder_interface
 \
+\
 .
 h
 "
@@ -1377,6 +1423,7 @@ numerics
 ]
 "
 simple_encoder_wrapper
+\
 \
 .
 h
@@ -1397,6 +1444,7 @@ video_decoder_factory_template
 .
 *
 \
+\
 .
 h
 "
@@ -1411,6 +1459,7 @@ video_coding
 ]
 "
 field_trials
+\
 \
 .
 h
@@ -1430,6 +1479,8 @@ h
 ]
 "
 video_track_source_proxy_factory
+\
+\
 .
 h
 "
@@ -1446,6 +1497,7 @@ h
 ]
 "
 field_trials_registry
+\
 \
 .
 h
@@ -1465,6 +1517,7 @@ h
 ]
 "
 ice_transport_factory
+\
 \
 .
 h
@@ -1551,6 +1604,7 @@ them
 "
 .
 *
+\
 \
 .
 cc
