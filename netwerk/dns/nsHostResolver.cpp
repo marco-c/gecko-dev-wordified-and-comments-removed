@@ -4444,7 +4444,7 @@ aCallback
 mozilla
 :
 :
-AutoReadLock
+AutoWriteLock
 dbLock
 (
 mDBLock
