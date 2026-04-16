@@ -208,7 +208,7 @@ VideoFrameType
 VCMFrameBuffer
 :
 :
-FrameType
+frame_type
 (
 )
 const
@@ -1361,12 +1361,13 @@ size
 bytes_removed
 )
 ;
-_frameType
-=
+set_frame_type
+(
 _sessionInfo
 .
 FrameType
 (
+)
 )
 ;
 _missingFrame

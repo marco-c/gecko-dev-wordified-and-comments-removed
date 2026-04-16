@@ -635,7 +635,7 @@ if
 frame
 -
 >
-FrameType
+frame_type
 (
 )
 =
@@ -1024,7 +1024,7 @@ if
 frame
 -
 >
-FrameType
+frame_type
 (
 )
 =
@@ -1143,7 +1143,7 @@ if
 frame
 -
 >
-FrameType
+frame_type
 (
 )
 =

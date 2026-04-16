@@ -476,8 +476,8 @@ Create
 ;
 encoded_image
 .
-_frameType
-=
+set_frame_type
+(
 key_frame
 ?
 VideoFrameType
@@ -489,6 +489,7 @@ VideoFrameType
 :
 :
 kVideoFrameDelta
+)
 ;
 std
 :

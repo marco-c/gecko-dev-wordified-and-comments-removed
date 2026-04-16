@@ -424,9 +424,10 @@ encoded_image
 ;
 encoded_image
 .
-_frameType
-=
+set_frame_type
+(
 frame_type
+)
 ;
 encoded_image
 .

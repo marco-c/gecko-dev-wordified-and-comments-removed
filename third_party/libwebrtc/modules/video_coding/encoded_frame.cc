@@ -248,12 +248,13 @@ _payloadType
 =
 0
 ;
-_frameType
-=
+set_frame_type
+(
 VideoFrameType
 :
 :
 kVideoFrameDelta
+)
 ;
 _encodedWidth
 =

@@ -139,7 +139,7 @@ InterLayerPredMode
 kOff
 ;
 bool
-is_base_layer_key_frame
+is_base_layer_key_frame_
 =
 false
 ;

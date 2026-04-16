@@ -2728,7 +2728,7 @@ refresh_frame
 ;
 image
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :
@@ -3179,12 +3179,13 @@ kOriginalSps
 ;
 image
 .
-_frameType
-=
+set_frame_type
+(
 VideoFrameType
 :
 :
 kVideoFrameKey
+)
 ;
 CodecSpecificInfo
 codec_specific_info

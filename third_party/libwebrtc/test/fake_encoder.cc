@@ -937,8 +937,8 @@ rtp_timestamp
 ;
 encoded
 .
-_frameType
-=
+set_frame_type
+(
 frame_info
 .
 keyframe
@@ -952,6 +952,7 @@ VideoFrameType
 :
 :
 kVideoFrameDelta
+)
 ;
 encoded
 .

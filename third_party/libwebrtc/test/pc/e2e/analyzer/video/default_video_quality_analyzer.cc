@@ -2706,7 +2706,9 @@ now
 time_between_encoded_frames
 encoded_image
 .
-_frameType
+frame_type
+(
+)
 DataSize
 :
 :
@@ -3056,7 +3058,9 @@ Now
 )
 input_image
 .
-_frameType
+frame_type
+(
+)
 DataSize
 :
 :

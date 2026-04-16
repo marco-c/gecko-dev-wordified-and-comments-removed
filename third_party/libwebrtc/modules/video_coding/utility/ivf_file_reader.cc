@@ -1172,12 +1172,13 @@ is_first_frame
 {
 image
 .
-_frameType
-=
+set_frame_type
+(
 VideoFrameType
 :
 :
 kVideoFrameKey
+)
 ;
 }
 return

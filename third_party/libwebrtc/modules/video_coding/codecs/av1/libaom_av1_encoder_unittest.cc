@@ -1086,7 +1086,9 @@ encoded_frames
 .
 encoded_image
 .
-_frameType
+frame_type
+(
+)
 Eq
 (
 VideoFrameType
@@ -1105,7 +1107,9 @@ encoded_frames
 .
 encoded_image
 .
-_frameType
+frame_type
+(
+)
 Eq
 (
 VideoFrameType
@@ -1260,7 +1264,9 @@ encoded_frames
 .
 encoded_image
 .
-_frameType
+frame_type
+(
+)
 Eq
 (
 VideoFrameType
@@ -1279,7 +1285,9 @@ encoded_frames
 .
 encoded_image
 .
-_frameType
+frame_type
+(
+)
 Eq
 (
 VideoFrameType
@@ -2928,7 +2936,9 @@ encoded_frames
 .
 encoded_image
 .
-_frameType
+frame_type
+(
+)
 Eq
 (
 VideoFrameType
@@ -2947,7 +2957,9 @@ encoded_frames
 .
 encoded_image
 .
-_frameType
+frame_type
+(
+)
 Eq
 (
 VideoFrameType

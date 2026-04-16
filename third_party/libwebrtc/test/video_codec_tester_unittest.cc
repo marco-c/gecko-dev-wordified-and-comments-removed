@@ -1034,7 +1034,7 @@ height
 ;
 encoded_frame
 .
-SetFrameType
+set_frame_type
 (
 frame
 .

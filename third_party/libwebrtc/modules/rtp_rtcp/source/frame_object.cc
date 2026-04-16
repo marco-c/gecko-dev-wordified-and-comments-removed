@@ -282,11 +282,12 @@ ntp_time_ms_
 =
 ntp_time_ms
 ;
-_frameType
-=
+set_frame_type
+(
 rtp_video_header_
 .
 frame_type
+)
 ;
 SetPlayoutDelay
 (

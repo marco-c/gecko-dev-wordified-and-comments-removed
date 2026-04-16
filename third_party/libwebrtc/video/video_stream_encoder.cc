@@ -14641,13 +14641,9 @@ keyframe
 =
 encoded_image
 .
-_frameType
-=
-=
-VideoFrameType
-:
-:
-kVideoFrameKey
+IsKey
+(
+)
 ;
 if
 (
