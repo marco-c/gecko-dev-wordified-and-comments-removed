@@ -486,6 +486,8 @@ bugs
 with
 Blocks
 Depends
+Regressed
+By
 Regressions
 or
 See
