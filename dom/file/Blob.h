@@ -123,8 +123,10 @@ BlobPart
 OwningArrayBufferViewOrArrayBufferOrBlobOrUTF8String
 ;
 static
+already_AddRefed
+<
 Blob
-*
+>
 Create
 (
 nsIGlobalObject
