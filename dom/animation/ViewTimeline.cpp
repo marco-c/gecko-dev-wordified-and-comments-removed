@@ -1152,7 +1152,12 @@ Scroll
 return
 {
 0
-0
+mCachedCurrentTime
+-
+>
+mScrollData
+.
+mMaxScrollOffset
 }
 ;
 }
