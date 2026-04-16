@@ -1,5 +1,10 @@
 #
 include
+<
+ostream
+>
+#
+include
 "
 gtest
 /

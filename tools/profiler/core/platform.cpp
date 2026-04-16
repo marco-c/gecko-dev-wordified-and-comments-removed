@@ -701,6 +701,11 @@ fstream
 #
 include
 <
+ostream
+>
+#
+include
+<
 set
 >
 #

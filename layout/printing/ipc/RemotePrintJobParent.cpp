@@ -7,6 +7,11 @@ h
 "
 #
 include
+<
+fstream
+>
+#
+include
 "
 PrintTranslator
 .

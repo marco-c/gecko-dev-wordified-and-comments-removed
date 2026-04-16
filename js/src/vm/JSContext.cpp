@@ -74,6 +74,11 @@ log
 h
 >
 #
+include
+<
+fstream
+>
+#
 endif
 #
 ifdef

@@ -32,6 +32,11 @@ h
 >
 #
 include
+<
+sstream
+>
+#
+include
 "
 base
 /
