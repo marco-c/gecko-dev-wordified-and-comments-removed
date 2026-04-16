@@ -258,7 +258,7 @@ MOZ_FETCHES_DIR
 /
 MacOSX26
 .
-2
+4
 .
 sdk
 -
