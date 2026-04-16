@@ -725,6 +725,15 @@ Ninja
 use_siso
 =
 true
+clang_unsafe_buffers_paths
+=
+"
+/
+/
+unsafe_buffers_paths
+.
+txt
+"
 #
 WebRTC
 must
