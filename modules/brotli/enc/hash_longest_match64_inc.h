@@ -974,6 +974,8 @@ max_length
 <
 =
 ring_buffer_mask
++
+1
 )
 ;
 for

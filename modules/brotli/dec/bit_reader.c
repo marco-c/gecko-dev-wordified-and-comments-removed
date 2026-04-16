@@ -90,7 +90,6 @@ BrotliInitBitReader
 (
 BrotliBitReader
 *
-const
 br
 )
 {
@@ -114,7 +113,6 @@ BrotliWarmupBitReader
 (
 BrotliBitReader
 *
-const
 br
 )
 {
@@ -221,7 +219,6 @@ BrotliSafeReadBits32Slow
 (
 BrotliBitReader
 *
-const
 br
 brotli_reg_t
 n_bits
