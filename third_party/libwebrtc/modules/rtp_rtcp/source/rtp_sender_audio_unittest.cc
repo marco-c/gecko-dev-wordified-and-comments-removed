@@ -416,6 +416,11 @@ fake_clock_
 )
 rtp_module_
 (
+ModuleRtpRtcpImpl2
+:
+:
+CreateSendModule
+(
 env_
 {
 .
@@ -433,6 +438,7 @@ local_media_ssrc
 kSsrc
 }
 )
+)
 rtp_sender_audio_
 (
 std
@@ -446,7 +452,8 @@ RTPSenderAudio
 &
 fake_clock_
 rtp_module_
-.
+-
+>
 RtpSender
 (
 )
@@ -454,7 +461,8 @@ RtpSender
 )
 {
 rtp_module_
-.
+-
+>
 SetSequenceNumber
 (
 kSeqNum
@@ -474,7 +482,14 @@ env_
 LoopbackTransportTest
 transport_
 ;
+const
+std
+:
+:
+unique_ptr
+<
 ModuleRtpRtcpImpl2
+>
 rtp_module_
 ;
 std
@@ -595,7 +610,8 @@ kAudioLevel
 0x5a
 ;
 rtp_module_
-.
+-
+>
 RegisterRtpHeaderExtension
 (
 AudioLevelExtension
@@ -857,7 +873,8 @@ SendAudioWithAbsoluteCaptureTimeWithCaptureClockOffset
 )
 {
 rtp_module_
-.
+-
+>
 RegisterRtpHeaderExtension
 (
 AbsoluteCaptureTimeExtension

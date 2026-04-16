@@ -401,13 +401,10 @@ local_media_ssrc
 ;
 rtp_rtcp_
 =
-std
-:
-:
-make_unique
-<
 ModuleRtpRtcpImpl2
->
+:
+:
+CreateSendModule
 (
 env_
 rtp_config

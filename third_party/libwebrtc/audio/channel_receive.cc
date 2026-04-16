@@ -3126,13 +3126,10 @@ frame_transformer
 ;
 rtp_rtcp_
 =
-std
-:
-:
-make_unique
-<
 ModuleRtpRtcpImpl2
->
+:
+:
+CreateReceiveModule
 (
 env_
 configuration

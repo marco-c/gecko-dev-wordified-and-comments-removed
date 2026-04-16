@@ -1428,13 +1428,10 @@ remb_sender_local_ssrc_
 ;
 rtp_rtcp_
 =
-std
-:
-:
-make_unique
-<
 ModuleRtpRtcpImpl2
->
+:
+:
+CreateReceiveModule
 (
 env_
 config

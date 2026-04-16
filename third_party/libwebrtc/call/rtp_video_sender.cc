@@ -1887,13 +1887,10 @@ enabled
 auto
 rtp_rtcp
 =
-std
-:
-:
-make_unique
-<
 ModuleRtpRtcpImpl2
->
+:
+:
+CreateSendModule
 (
 env
 configuration

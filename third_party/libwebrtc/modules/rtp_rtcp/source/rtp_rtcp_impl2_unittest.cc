@@ -1619,13 +1619,10 @@ fec_generator_
 ;
 impl_
 =
-std
-:
-:
-make_unique
-<
 ModuleRtpRtcpImpl2
->
+:
+:
+CreateSendModule
 (
 env_
 config
