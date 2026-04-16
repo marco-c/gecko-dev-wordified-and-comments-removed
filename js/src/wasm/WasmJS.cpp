@@ -875,12 +875,6 @@ builtinModule
 ImportMatchesBuiltinModule
 (
 import
-.
-module
-.
-utf8Bytes
-(
-)
 builtinModules
 )
 ;
