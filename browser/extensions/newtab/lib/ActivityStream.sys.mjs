@@ -4235,7 +4235,7 @@ personalization
 "
 value
 :
-false
+true
 }
 ]
 [
