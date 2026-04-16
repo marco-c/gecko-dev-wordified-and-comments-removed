@@ -49,16 +49,6 @@ quality
 size_t
 delay
 ;
-size_t
-blocks_since_last_change
-=
-0
-;
-size_t
-blocks_since_last_update
-=
-0
-;
 }
 ;
 }
