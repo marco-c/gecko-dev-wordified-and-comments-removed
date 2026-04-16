@@ -257,15 +257,6 @@ window
 )
 ;
 const
-allowedUrls
-=
-new
-Set
-(
-url_list
-)
-;
-const
 conversation
 =
 new
@@ -313,7 +304,6 @@ getPageContent
 {
 url_list
 }
-allowedUrls
 conversation
 )
 ;
