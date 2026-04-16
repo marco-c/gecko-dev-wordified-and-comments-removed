@@ -82,10 +82,6 @@ virtual
 void
 Abandon
 (
-bool
-aReenqueueTransaction
-=
-false
 )
 =
 0

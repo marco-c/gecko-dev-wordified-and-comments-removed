@@ -365,8 +365,6 @@ ConnectionEntry
 :
 CloseAllConnectionAttempts
 (
-bool
-aReenqueueTransaction
 )
 {
 mConnectionAttemptPool
@@ -374,7 +372,6 @@ mConnectionAttemptPool
 >
 CloseAllConnectionAttempts
 (
-aReenqueueTransaction
 )
 ;
 }
@@ -3155,7 +3152,6 @@ GetFallbackConnection
 {
 CloseAllConnectionAttempts
 (
-true
 )
 ;
 }

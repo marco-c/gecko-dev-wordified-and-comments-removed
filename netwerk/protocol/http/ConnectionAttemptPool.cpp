@@ -534,8 +534,6 @@ ConnectionAttemptPool
 :
 CloseAllConnectionAttempts
 (
-bool
-aReenqueueTransaction
 )
 {
 for
@@ -553,7 +551,6 @@ sock
 >
 Abandon
 (
-aReenqueueTransaction
 )
 ;
 gHttpHandler
