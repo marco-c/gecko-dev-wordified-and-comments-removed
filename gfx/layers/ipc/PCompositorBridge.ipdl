@@ -1415,8 +1415,6 @@ LayersBackend
 aBackend
 TextureFlags
 aTextureFlags
-LayersId
-id
 uint64_t
 aSerial
 MaybeExternalImageId

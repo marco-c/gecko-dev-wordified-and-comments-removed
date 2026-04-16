@@ -832,10 +832,6 @@ TextureFlags
 &
 aTextureFlags
 const
-LayersId
-&
-id
-const
 uint64_t
 &
 aSerial
@@ -2076,10 +2072,6 @@ const
 TextureFlags
 &
 aFlags
-const
-LayersId
-&
-aId
 const
 uint64_t
 &
