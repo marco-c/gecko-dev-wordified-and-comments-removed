@@ -5708,6 +5708,10 @@ settings
 .
 speed
 )
+std
+:
+:
+nullopt
 )
 ;
 RTC_DCHECK_GT
