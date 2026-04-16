@@ -2013,7 +2013,7 @@ aPref
 }
 RefPtr
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 GeckoMediaPluginServiceParent
 :
@@ -2034,7 +2034,7 @@ mLoadPluginsFromDiskComplete
 )
 {
 return
-GenericPromise
+GenericNonExclusivePromise
 :
 :
 CreateAndResolve
@@ -2266,7 +2266,7 @@ holder
 ]
 (
 const
-GenericPromise
+GenericNonExclusivePromise
 :
 :
 ResolveOrRejectValue
@@ -2466,7 +2466,7 @@ this
 ;
 RefPtr
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 p
 =

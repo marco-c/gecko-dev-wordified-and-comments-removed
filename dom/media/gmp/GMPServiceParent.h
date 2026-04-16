@@ -277,7 +277,7 @@ NS_DECL_MOZIGECKOMEDIAPLUGINCHROMESERVICE
 NS_DECL_NSIOBSERVER
 RefPtr
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 EnsureInitialized
 (
@@ -968,7 +968,7 @@ mInitPromiseMonitor
 ;
 MozMonitoredPromiseHolder
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 mInitPromise
 ;
