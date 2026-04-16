@@ -105,7 +105,6 @@ name
 score
 "
 >
-Puan
 :
 %
 1
@@ -167,8 +166,7 @@ name
 likes_cookies
 "
 >
-erezleri
-seviyor
+cookie
 <
 /
 string
@@ -181,10 +179,6 @@ name
 tap_to_play
 "
 >
-oynamak
-i
-in
-dokunun
 !
 <
 /
@@ -227,7 +221,6 @@ name
 hiscore
 "
 >
-REKOR
 :
 %
 1
@@ -244,9 +237,6 @@ name
 sound_on
 "
 >
-ses
-a
-k
 <
 /
 string
@@ -259,8 +249,6 @@ name
 sound_off
 "
 >
-ses
-kapal
 <
 /
 string
@@ -282,7 +270,6 @@ name
 back
 "
 >
-geri
 <
 /
 string
