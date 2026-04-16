@@ -1618,13 +1618,10 @@ else
 {
 element
 .
-setAttribute
+removeAttribute
 (
 "
 hidden
-"
-"
-false
 "
 )
 ;
