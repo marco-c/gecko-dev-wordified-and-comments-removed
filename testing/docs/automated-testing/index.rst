@@ -3405,8 +3405,9 @@ mochitests
 on
 Linux
 Desktop
-and
 macOS
+or
+Windows
 will
 trigger
 a
@@ -3414,9 +3415,6 @@ recording
 of
 the
 desktop
-with
-GNOME
-Screencast
 .
 This
 works
