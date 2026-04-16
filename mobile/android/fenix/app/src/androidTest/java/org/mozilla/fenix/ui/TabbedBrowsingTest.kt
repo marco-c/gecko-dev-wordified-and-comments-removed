@@ -1245,6 +1245,10 @@ verifyPrivateBrowsingButtonIsSelected
 (
 false
 )
+verifyTabGroupsButtonIsSelected
+(
+false
+)
 verifySyncedTabsButtonIsSelected
 (
 false
@@ -1321,6 +1325,10 @@ false
 verifyPrivateBrowsingButtonIsSelected
 (
 true
+)
+verifyTabGroupsButtonIsSelected
+(
+false
 )
 verifySyncedTabsButtonIsSelected
 (
@@ -1412,6 +1420,12 @@ verifyNormalBrowsingButtonIsSelected
 (
 )
 verifyPrivateBrowsingButtonIsSelected
+(
+isSelected
+=
+false
+)
+verifyTabGroupsButtonIsSelected
 (
 isSelected
 =
@@ -1556,6 +1570,10 @@ false
 verifyPrivateBrowsingButtonIsSelected
 (
 true
+)
+verifyTabGroupsButtonIsSelected
+(
+false
 )
 verifySyncedTabsButtonIsSelected
 (
