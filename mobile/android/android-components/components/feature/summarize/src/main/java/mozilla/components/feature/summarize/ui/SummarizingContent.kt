@@ -764,7 +764,11 @@ dp
 )
 tint
 =
-contentColor
+MaterialTheme
+.
+colorScheme
+.
+onPrimary
 )
 Text
 (
