@@ -3430,14 +3430,9 @@ popup
 querySelector
 (
 "
-menuitem
-:
-not
-(
-[
-disabled
-]
-)
+panel
+-
+item
 "
 )
 .

@@ -117,6 +117,8 @@ searchmode
 switcher
 "
 )
+.
+buttonEl
 ;
 let
 inputField
