@@ -817,11 +817,6 @@ mLargestContentfulPaintSize
 TextFrameUnions
 mTextFrameUnions
 ;
-uintptr_t
-mLCPCallbackKey
-=
-0
-;
 }
 ;
 inline
