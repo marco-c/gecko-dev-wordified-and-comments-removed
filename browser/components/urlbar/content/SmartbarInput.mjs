@@ -1670,6 +1670,10 @@ searchmode
 -
 popup
 -
+one
+-
+off
+-
 description
 -
 menucaption

@@ -7414,6 +7414,10 @@ searchmode
 -
 popup
 -
+one
+-
+off
+-
 description
 -
 menucaption
@@ -7455,9 +7459,7 @@ searchmode
 -
 popup
 -
-sticky
--
-description
+header
 -
 menucaption
 =
