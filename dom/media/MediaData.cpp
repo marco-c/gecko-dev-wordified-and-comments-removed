@@ -1075,6 +1075,9 @@ PopFront
 mDataOffset
 )
 ;
+(
+void
+)
 mAudioData
 .
 SetLength
