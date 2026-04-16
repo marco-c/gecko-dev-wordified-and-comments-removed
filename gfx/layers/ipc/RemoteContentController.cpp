@@ -386,11 +386,13 @@ NS_IsMainThread
 )
 )
 ;
+RefPtr
+<
 dom
 :
 :
 BrowserParent
-*
+>
 tab
 =
 dom

@@ -932,11 +932,13 @@ aDoubleTapToZoomMetrics
 return
 ;
 }
+RefPtr
+<
 dom
 :
 :
 BrowserParent
-*
+>
 tab
 =
 dom

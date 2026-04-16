@@ -11931,6 +11931,15 @@ FLAG_NOSCROLL
 }
 }
 }
+if
+(
+mIsDestroyed
+)
+{
+return
+false
+;
+}
 }
 return
 Manager
