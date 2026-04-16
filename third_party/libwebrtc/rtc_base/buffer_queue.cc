@@ -337,8 +337,13 @@ packet
 new
 Buffer
 (
-bytes
+Buffer
+:
+:
+CreateWithCapacity
+(
 default_size_
+)
 )
 ;
 }

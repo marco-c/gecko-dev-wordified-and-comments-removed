@@ -344,8 +344,13 @@ speech_encoder
 )
 primary_encoded_
 (
-0
+Buffer
+:
+:
+CreateWithCapacity
+(
 kAudioMaxRtpPacketLen
+)
 )
 max_packet_length_
 (

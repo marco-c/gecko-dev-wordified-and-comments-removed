@@ -1123,8 +1123,12 @@ buffer
 ;
 Buffer
 output_buffer
+=
+Buffer
+:
+:
+CreateWithCapacity
 (
-0
 buffer
 .
 size

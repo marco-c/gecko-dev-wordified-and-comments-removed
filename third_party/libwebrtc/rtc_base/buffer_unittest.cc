@@ -252,10 +252,10 @@ CreateUninitializedWithSize
 TestBuf
 (
 Buffer
+:
+:
+CreateWithCapacity
 (
-0
-+
-0
 10
 )
 0

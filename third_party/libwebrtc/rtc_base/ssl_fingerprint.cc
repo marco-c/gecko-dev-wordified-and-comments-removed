@@ -220,8 +220,12 @@ cert
 {
 Buffer
 digest
+=
+Buffer
+:
+:
+CreateWithCapacity
 (
-0
 MessageDigest
 :
 :
