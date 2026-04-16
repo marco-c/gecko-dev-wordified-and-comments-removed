@@ -252,6 +252,13 @@ on
 condprof
 [
 "
+test_ssl_tokens_cache
+.
+js
+"
+]
+[
+"
 test_storage_permission
 .
 js
