@@ -491,7 +491,12 @@ RefPtr
 <
 CookieStorage
 >
-mDummyStorage
+mRetiredStorage
+;
+void
+RetirePersistentStorageForShutdown
+(
+)
 ;
 private
 :
@@ -547,12 +552,6 @@ nsICookieValidation
 *
 *
 aValidation
-)
-;
-CookieStorage
-*
-MaybeCreateDummyStorage
-(
 )
 ;
 }
