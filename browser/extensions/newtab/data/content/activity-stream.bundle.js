@@ -87709,6 +87709,9 @@ url
 }
 let
 sectionsList
+=
+[
+]
 ;
 if
 (
@@ -87721,10 +87724,16 @@ sections
 [
 sectionsFeedName
 ]
+?
 .
 data
+?
 .
 sections
+?
+?
+[
+]
 ;
 }
 const
