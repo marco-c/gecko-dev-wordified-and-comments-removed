@@ -11,6 +11,11 @@ include
 memory
 >
 #
+include
+<
+span
+>
+#
 import
 "
 components
@@ -2456,10 +2461,10 @@ record_fine_audio_buffer_
 >
 DeliverRecordedData
 (
-webrtc
+std
 :
 :
-ArrayView
+span
 <
 const
 int16_t
@@ -2802,10 +2807,10 @@ playout_fine_audio_buffer_
 >
 GetPlayoutData
 (
-webrtc
+std
 :
 :
-ArrayView
+span
 <
 int16_t
 >
