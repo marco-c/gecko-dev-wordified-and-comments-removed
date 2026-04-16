@@ -515,10 +515,16 @@ i
 <
 4
             
+f
 "
 Interface
-%
-s
+{
+iface
+.
+identifier
+.
+name
+}
 should
 be
 a
@@ -526,12 +532,5 @@ single
 operation
 interface
 "
-            
-%
-iface
-.
-identifier
-.
-name
         
 )

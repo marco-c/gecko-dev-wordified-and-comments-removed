@@ -55,22 +55,20 @@ results
             
 numProductions
             
+f
 "
-%
-s
+{
+prefix
+}
 -
 Should
 have
 production
 count
-%
-d
-"
-%
-(
-prefix
+{
 numProductions
-)
+}
+"
         
 )
         
@@ -90,19 +88,17 @@ WebIDL
 IDLInterface
 )
             
+f
 "
-%
-s
+{
+prefix
+}
 -
 Should
 be
 an
 IDLInterface
 "
-%
-(
-prefix
-)
         
 )
         
@@ -132,6 +128,13 @@ identifier
 .
 name
             
+member_type
+=
+type
+(
+m
+)
+            
 if
 m
 .
@@ -151,37 +154,29 @@ harness
 ok
 (
 True
+f
 "
-%
-s
+{
+prefix
+}
 -
-%
-s
+{
+name
+}
 -
 Should
 be
 a
-%
-s
+{
+member_type
+}
 "
-%
-(
-prefix
-name
-type
-(
-m
-)
-)
 )
             
 elif
 (
 name
-type
-(
-m
-)
+member_type
 )
 in
 expectedMembers
@@ -192,28 +187,23 @@ harness
 ok
 (
 True
+f
 "
-%
-s
+{
+prefix
+}
 -
-%
-s
+{
+name
+}
 -
 Should
 be
 a
-%
-s
+{
+member_type
+}
 "
-%
-(
-prefix
-name
-type
-(
-m
-)
-)
 )
                 
 expectedMembers
@@ -222,10 +212,7 @@ remove
 (
 (
 name
-type
-(
-m
-)
+member_type
 )
 )
             
@@ -239,29 +226,24 @@ ok
                     
 False
                     
+f
 "
-%
-s
+{
+prefix
+}
 -
-%
-s
+{
+name
+}
 -
 Unknown
 symbol
 of
 type
-%
-s
+{
+member_type
+}
 "
-%
-(
-prefix
-name
-type
-(
-m
-)
-)
                 
 )
         
@@ -298,22 +280,14 @@ ok
                 
 False
                 
+f
 "
 Expected
 member
 not
 found
 :
-%
-s
-of
-type
-%
-s
-"
-                
-%
-(
+{
 expectedMembers
 [
 0
@@ -321,6 +295,10 @@ expectedMembers
 [
 0
 ]
+}
+of
+type
+{
 expectedMembers
 [
 0
@@ -328,7 +306,8 @@ expectedMembers
 [
 1
 ]
-)
+}
+"
             
 )
         
@@ -422,8 +401,8 @@ ok
 False
                 
 prefix
-                
 +
+f
 "
 -
 Interface
@@ -435,11 +414,10 @@ a
 WebIDLError
 exception
 :
-%
-s
-"
-%
+{
 e
+}
+"
             
 )
     
@@ -2918,22 +2896,21 @@ methodPasses
 shouldPass
 (
                 
+f
 "
 Conflicting
 method
 :
-%
-s
-and
-%
-s
-"
-%
-(
+{
 likeMember
+}
+and
+{
 conflictName
-)
+}
+"
                 
+f
 "
 "
 "
@@ -2941,9 +2918,11 @@ conflictName
 interface
 Foo1
 {
+{
                        
-%
-s
+{
+likeMember
+}
 ;
                        
 [
@@ -2951,8 +2930,9 @@ Throws
 ]
                        
 undefined
-%
-s
+{
+conflictName
+}
 (
 long
 test1
@@ -2964,17 +2944,12 @@ test3
 ;
                        
 }
+}
 ;
                        
 "
 "
 "
-                
-%
-(
-likeMember
-conflictName
-)
                 
 expectedMembers
             
@@ -2986,22 +2961,21 @@ else
 shouldFail
 (
                 
+f
 "
 Conflicting
 method
 :
-%
-s
-and
-%
-s
-"
-%
-(
+{
 likeMember
+}
+and
+{
 conflictName
-)
+}
+"
                 
+f
 "
 "
 "
@@ -3009,9 +2983,11 @@ conflictName
 interface
 Foo1
 {
+{
                        
-%
-s
+{
+likeMember
+}
 ;
                        
 [
@@ -3019,8 +2995,9 @@ Throws
 ]
                        
 undefined
-%
-s
+{
+conflictName
+}
 (
 long
 test1
@@ -3032,40 +3009,34 @@ test3
 ;
                        
 }
+}
 ;
                        
 "
 "
 "
-                
-%
-(
-likeMember
-conflictName
-)
             
 )
         
 shouldFail
 (
             
+f
 "
 Conflicting
 inherited
 method
 :
-%
-s
-and
-%
-s
-"
-%
-(
+{
 likeMember
+}
+and
+{
 conflictName
-)
+}
+"
             
+f
 "
 "
 "
@@ -3073,10 +3044,12 @@ conflictName
 interface
 Foo1
 {
+{
                    
 undefined
-%
-s
+{
+conflictName
+}
 (
 long
 test1
@@ -3087,6 +3060,7 @@ test3
 )
 ;
                    
+}
 }
 ;
                    
@@ -3095,23 +3069,20 @@ Foo2
 :
 Foo1
 {
+{
                    
-%
-s
+{
+likeMember
+}
 ;
                    
+}
 }
 ;
                    
 "
 "
 "
-            
-%
-(
-conflictName
-likeMember
-)
         
 )
         
@@ -3127,23 +3098,22 @@ IDLAttribute
 shouldFail
 (
                 
+f
 "
 Conflicting
 static
 method
 :
-%
-s
-and
-%
-s
-"
-%
-(
+{
 likeMember
+}
+and
+{
 conflictName
-)
+}
+"
                 
+f
 "
 "
 "
@@ -3151,15 +3121,18 @@ conflictName
 interface
 Foo1
 {
+{
                        
-%
-s
+{
+likeMember
+}
 ;
                        
 static
 undefined
-%
-s
+{
+conflictName
+}
 (
 long
 test1
@@ -3171,17 +3144,12 @@ test3
 ;
                        
 }
+}
 ;
                        
 "
 "
 "
-                
-%
-(
-likeMember
-conflictName
-)
             
 )
         
@@ -3191,23 +3159,22 @@ else
 shouldPass
 (
                 
+f
 "
 Conflicting
 static
 method
 :
-%
-s
-and
-%
-s
-"
-%
-(
+{
 likeMember
+}
+and
+{
 conflictName
-)
+}
+"
                 
+f
 "
 "
 "
@@ -3215,15 +3182,18 @@ conflictName
 interface
 Foo1
 {
+{
                        
-%
-s
+{
+likeMember
+}
 ;
                        
 static
 undefined
-%
-s
+{
+conflictName
+}
 (
 long
 test1
@@ -3235,17 +3205,12 @@ test3
 ;
                        
 }
+}
 ;
                        
 "
 "
 "
-                
-%
-(
-likeMember
-conflictName
-)
                 
 expectedMembers
                 
@@ -3258,22 +3223,21 @@ numProductions
 shouldFail
 (
             
+f
 "
 Conflicting
 attribute
 :
-%
-s
-and
-%
-s
-"
-%
-(
+{
 likeMember
+}
+and
+{
 conflictName
-)
+}
+"
             
+f
 "
 "
 "
@@ -3281,50 +3245,47 @@ conflictName
 interface
 Foo1
 {
+{
                    
-%
-s
+{
+likeMember
+}
                    
 attribute
 double
-%
-s
+{
+conflictName
+}
 ;
                    
+}
 }
 ;
                    
 "
 "
 "
-            
-%
-(
-likeMember
-conflictName
-)
         
 )
         
 shouldFail
 (
             
+f
 "
 Conflicting
 const
 :
-%
-s
-and
-%
-s
-"
-%
-(
+{
 likeMember
+}
+and
+{
 conflictName
-)
+}
+"
             
+f
 "
 "
 "
@@ -3332,54 +3293,51 @@ conflictName
 interface
 Foo1
 {
+{
                    
-%
-s
+{
+likeMember
+}
 ;
                    
 const
 double
-%
-s
+{
+conflictName
+}
 =
 0
 ;
                    
 }
+}
 ;
                    
 "
 "
 "
-            
-%
-(
-likeMember
-conflictName
-)
         
 )
         
 shouldFail
 (
             
+f
 "
 Conflicting
 static
 attribute
 :
-%
-s
-and
-%
-s
-"
-%
-(
+{
 likeMember
+}
+and
+{
 conflictName
-)
+}
+"
             
+f
 "
 "
 "
@@ -3387,30 +3345,28 @@ conflictName
 interface
 Foo1
 {
+{
                    
-%
-s
+{
+likeMember
+}
 ;
                    
 static
 attribute
 long
-%
-s
+{
+conflictName
+}
 ;
                    
+}
 }
 ;
                    
 "
 "
 "
-            
-%
-(
-likeMember
-conflictName
-)
         
 )
     
@@ -4628,20 +4584,20 @@ m
 isMethod
 (
 )
+f
 "
-%
-s
-should
-be
-a
-method
-"
-%
+{
 m
 .
 identifier
 .
 name
+}
+should
+be
+a
+method
+"
 )
             
 harness
@@ -4653,20 +4609,20 @@ m
 .
 maxArgCount
 4
+f
 "
-%
-s
-should
-have
-4
-arguments
-"
-%
+{
 m
 .
 identifier
 .
 name
+}
+should
+have
+4
+arguments
+"
             
 )
             
@@ -4682,9 +4638,15 @@ isMaplikeOrSetlikeOrIterableMethod
 (
 )
                 
+f
 "
-%
-s
+{
+m
+.
+identifier
+.
+name
+}
 should
 not
 be
@@ -4694,12 +4656,6 @@ maplike
 setlike
 function
 "
-%
-m
-.
-identifier
-.
-name
             
 )
     

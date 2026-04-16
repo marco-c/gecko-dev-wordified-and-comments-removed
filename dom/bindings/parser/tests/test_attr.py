@@ -1123,6 +1123,13 @@ name
 "
 )
     
+test_data_count
+=
+len
+(
+testData
+)
+    
 harness
 .
 check
@@ -1134,21 +1141,15 @@ iface
 .
 members
 )
-len
-(
-testData
-)
+test_data_count
+f
 "
 Expect
-%
-s
+{
+test_data_count
+}
 members
 "
-%
-len
-(
-testData
-)
     
 )
     
@@ -1295,21 +1296,15 @@ iface
 .
 members
 )
-len
-(
-testData
-)
+test_data_count
+f
 "
 Expect
-%
-s
+{
+test_data_count
+}
 members
 "
-%
-len
-(
-testData
-)
     
 )
     

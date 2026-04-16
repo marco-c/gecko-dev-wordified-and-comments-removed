@@ -779,67 +779,73 @@ JsonTypes
 doTest
 (
             
+f
 "
 interface
 Test
 {
-%
-s
+{
+{
+type
+}
 toJSON
 (
 )
 ;
 }
+}
 ;
 "
-%
-type
             
 False
             
+f
 "
-%
-s
+{
+type
+}
 should
 be
 a
 JSON
 type
 "
-%
-type
         
 )
         
 doTest
 (
             
+f
 "
 interface
 Test
 {
+{
 sequence
 <
-%
-s
+{
+type
+}
 >
 toJSON
 (
 )
 ;
 }
+}
 ;
 "
-%
-type
             
 False
             
+f
 "
 sequence
 <
-%
-s
+{
+type
+}
 >
 should
 be
@@ -847,26 +853,29 @@ a
 JSON
 type
 "
-%
-type
         
 )
         
 doTest
 (
             
+f
 "
 dictionary
 Foo
 {
-%
-s
+{
+{
+type
+}
 foo
 ;
+}
 }
 ;
 interface
 Test
+{
 {
 Foo
 toJSON
@@ -874,13 +883,13 @@ toJSON
 )
 ;
 }
+}
 ;
 "
-%
-type
             
 False
             
+f
 "
 dictionary
 containing
@@ -888,8 +897,9 @@ only
 JSON
 type
 (
-%
-s
+{
+type
+}
 )
 should
 be
@@ -897,22 +907,24 @@ a
 JSON
 type
 "
-%
-type
         
 )
         
 doTest
 (
             
+f
 "
 dictionary
 Foo
 {
-%
-s
+{
+{
+type
+}
 foo
 ;
+}
 }
 ;
 dictionary
@@ -920,6 +932,8 @@ Bar
 :
 Foo
 {
+{
+}
 }
 ;
 "
@@ -936,8 +950,6 @@ toJSON
 }
 ;
 "
-%
-type
             
 False
             
@@ -961,13 +973,16 @@ type
 doTest
 (
             
+f
 "
 dictionary
 Foo
 {
+{
 any
 foo
 ;
+}
 }
 ;
 dictionary
@@ -975,10 +990,13 @@ Bar
 :
 Foo
 {
-%
-s
+{
+{
+type
+}
 bar
 ;
+}
 }
 ;
 "
@@ -995,8 +1013,6 @@ toJSON
 }
 ;
 "
-%
-type
             
 True
             
@@ -1022,34 +1038,38 @@ type
 doTest
 (
             
+f
 "
 interface
 Test
+{
 {
 record
 <
 DOMString
-%
-s
+{
+type
+}
 >
 toJSON
 (
 )
 ;
 }
+}
 ;
 "
-%
-type
             
 False
             
+f
 "
 record
 <
 DOMString
-%
-s
+{
+type
+}
 >
 should
 be
@@ -1057,42 +1077,44 @@ a
 JSON
 type
 "
-%
-type
         
 )
         
 doTest
 (
             
+f
 "
 interface
 Test
+{
 {
 record
 <
 ByteString
-%
-s
+{
+type
+}
 >
 toJSON
 (
 )
 ;
 }
+}
 ;
 "
-%
-type
             
 False
             
+f
 "
 record
 <
 ByteString
-%
-s
+{
+type
+}
 >
 should
 be
@@ -1100,42 +1122,44 @@ a
 JSON
 type
 "
-%
-type
         
 )
         
 doTest
 (
             
+f
 "
 interface
 Test
 {
+{
 record
 <
 UTF8String
-%
-s
+{
+type
+}
 >
 toJSON
 (
 )
 ;
 }
+}
 ;
 "
-%
-type
             
 False
             
+f
 "
 record
 <
 UTF8String
-%
-s
+{
+type
+}
 >
 should
 be
@@ -1143,42 +1167,44 @@ a
 JSON
 type
 "
-%
-type
         
 )
         
 doTest
 (
             
+f
 "
 interface
 Test
 {
+{
 record
 <
 USVString
-%
-s
+{
+type
+}
 >
 toJSON
 (
 )
 ;
 }
+}
 ;
 "
-%
-type
             
 False
             
+f
 "
 record
 <
 USVString
-%
-s
+{
+type
+}
 >
 should
 be
@@ -1186,8 +1212,6 @@ a
 JSON
 type
 "
-%
-type
         
 )
         
@@ -1224,32 +1248,33 @@ toJSON
 ;
 "
             
+f
 "
 interface
 Test
 {
+{
 (
-%
-s
+{
+otherUnionType
+}
 or
-%
-s
+{
+type
+}
 )
 toJSON
 (
 )
 ;
 }
+}
 ;
 "
-%
-(
-otherUnionType
-type
-)
             
 False
             
+f
 "
 union
 containing
@@ -1257,11 +1282,13 @@ only
 JSON
 types
 (
-%
-s
+{
+otherUnionType
+}
 or
-%
-s
+{
+type
+}
 )
 should
 be
@@ -1269,43 +1296,41 @@ a
 JSON
 type
 "
-            
-%
-(
-otherUnionType
-type
-)
         
 )
         
 doTest
 (
             
+f
 "
 interface
 test
 {
-%
-s
+{
+{
+type
+}
 ?
 toJSON
 (
 )
 ;
 }
+}
 ;
 "
-%
-type
             
 False
             
+f
 "
 Nullable
 type
 (
-%
-s
+{
+type
+}
 )
 should
 be
@@ -1313,26 +1338,28 @@ a
 JSON
 type
 "
-%
-type
         
 )
         
 doTest
 (
             
+f
 "
 interface
 Foo
 :
 InterfaceWithoutToJSON
 {
-%
-s
+{
+{
+type
+}
 toJSON
 (
 )
 ;
+}
 }
 ;
 "
@@ -1349,8 +1376,6 @@ toJSON
 }
 ;
 "
-%
-type
             
 False
             
@@ -1415,27 +1440,31 @@ nonJsonTypes
 doTest
 (
             
+f
 "
 interface
 Test
 {
-%
-s
+{
+{
+type
+}
 toJSON
 (
 )
 ;
 }
+}
 ;
 "
-%
-type
             
 True
             
+f
 "
-%
-s
+{
+type
+}
 should
 not
 be
@@ -1443,40 +1472,42 @@ a
 JSON
 type
 "
-%
-type
         
 )
         
 doTest
 (
             
+f
 "
 interface
 Test
 {
+{
 sequence
 <
-%
-s
+{
+type
+}
 >
 toJSON
 (
 )
 ;
 }
+}
 ;
 "
-%
-type
             
 True
             
+f
 "
 sequence
 <
-%
-s
+{
+type
+}
 >
 should
 not
@@ -1485,26 +1516,29 @@ a
 JSON
 type
 "
-%
-type
         
 )
         
 doTest
 (
             
+f
 "
 dictionary
 Foo
 {
-%
-s
+{
+{
+type
+}
 foo
 ;
+}
 }
 ;
 interface
 Test
+{
 {
 Foo
 toJSON
@@ -1512,13 +1546,13 @@ toJSON
 )
 ;
 }
+}
 ;
 "
-%
-type
             
 True
             
+f
 "
 Dictionary
 containing
@@ -1528,8 +1562,9 @@ non
 JSON
 type
 (
-%
-s
+{
+type
+}
 )
 should
 not
@@ -1538,23 +1573,24 @@ a
 JSON
 type
 "
-            
-%
-type
         
 )
         
 doTest
 (
             
+f
 "
 dictionary
 Foo
 {
-%
-s
+{
+{
+type
+}
 foo
 ;
+}
 }
 ;
 dictionary
@@ -1562,6 +1598,8 @@ Bar
 :
 Foo
 {
+{
+}
 }
 ;
 "
@@ -1578,8 +1616,6 @@ toJSON
 }
 ;
 "
-%
-type
             
 True
             
@@ -1606,34 +1642,38 @@ type
 doTest
 (
             
+f
 "
 interface
 Test
 {
+{
 record
 <
 DOMString
-%
-s
+{
+type
+}
 >
 toJSON
 (
 )
 ;
 }
+}
 ;
 "
-%
-type
             
 True
             
+f
 "
 record
 <
 DOMString
-%
-s
+{
+type
+}
 >
 should
 not
@@ -1642,42 +1682,44 @@ a
 JSON
 type
 "
-%
-type
         
 )
         
 doTest
 (
             
+f
 "
 interface
 Test
 {
+{
 record
 <
 ByteString
-%
-s
+{
+type
+}
 >
 toJSON
 (
 )
 ;
 }
+}
 ;
 "
-%
-type
             
 True
             
+f
 "
 record
 <
 ByteString
-%
-s
+{
+type
+}
 >
 should
 not
@@ -1686,42 +1728,44 @@ a
 JSON
 type
 "
-%
-type
         
 )
         
 doTest
 (
             
+f
 "
 interface
 Test
 {
+{
 record
 <
 USVString
-%
-s
+{
+type
+}
 >
 toJSON
 (
 )
 ;
 }
+}
 ;
 "
-%
-type
             
 True
             
+f
 "
 record
 <
 USVString
-%
-s
+{
+type
+}
 >
 should
 not
@@ -1730,8 +1774,6 @@ a
 JSON
 type
 "
-%
-type
         
 )
         
@@ -1760,28 +1802,31 @@ toJSON
 ;
 "
                 
+f
 "
 interface
 Test
 {
+{
 (
 Foo
 or
-%
-s
+{
+type
+}
 )
 toJSON
 (
 )
 ;
 }
+}
 ;
 "
-%
-type
                 
 True
                 
+f
 "
 union
 containing
@@ -1791,8 +1836,9 @@ non
 JSON
 type
 (
-%
-s
+{
+type
+}
 )
 should
 not
@@ -1801,40 +1847,41 @@ a
 JSON
 type
 "
-                
-%
-type
             
 )
             
 doTest
 (
                 
+f
 "
 interface
 test
 {
-%
-s
+{
+{
+type
+}
 ?
 toJSON
 (
 )
 ;
 }
+}
 ;
 "
-%
-type
                 
 True
                 
+f
 "
 Nullable
 type
 (
-%
-s
+{
+type
+}
 )
 should
 not
@@ -1843,8 +1890,6 @@ a
 JSON
 type
 "
-%
-type
             
 )
     

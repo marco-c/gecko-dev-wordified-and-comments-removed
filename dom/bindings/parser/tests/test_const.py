@@ -657,6 +657,13 @@ name
 "
 )
     
+expected_count
+=
+len
+(
+expected
+)
+    
 harness
 .
 check
@@ -668,21 +675,15 @@ iface
 .
 members
 )
-len
-(
-expected
-)
+expected_count
+f
 "
 Expect
-%
-s
+{
+expected_count
+}
 members
 "
-%
-len
-(
-expected
-)
     
 )
     

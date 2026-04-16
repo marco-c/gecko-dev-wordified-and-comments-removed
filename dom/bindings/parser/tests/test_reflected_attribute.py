@@ -73,12 +73,14 @@ innerType
 parseWithNode
 (
             
+f
 "
 "
 "
             
 interface
 ReflectedAttribute
+{
 {
                
 [
@@ -89,22 +91,21 @@ ReflectedHTMLAttributeReturningFrozenArray
 attribute
 sequence
 <
-%
-s
+{
+innerType
+}
 >
 ?
 reflectedHTMLAttribute
 ;
             
 }
+}
 ;
             
 "
 "
 "
-            
-%
-innerType
         
 )
         

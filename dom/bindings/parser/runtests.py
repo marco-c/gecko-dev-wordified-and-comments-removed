@@ -92,16 +92,16 @@ printed_intro
             
 print
 (
+f
 "
 Finished
 test
-%
-s
-"
-%
+{
 self
 .
 test
+}
+"
 )
     
 def
@@ -120,16 +120,16 @@ printed_intro
             
 print
 (
+f
 "
 Starting
 test
-%
-s
-"
-%
+{
 self
 .
 test
+}
+"
 )
             
 self
@@ -161,16 +161,16 @@ verbose
             
 print
 (
+f
 "
 TEST
 -
 PASS
 |
-%
-s
-"
-%
+{
 msg
+}
+"
 )
     
 def
@@ -198,6 +198,7 @@ msg
         
 print
 (
+f
 "
 TEST
 -
@@ -205,11 +206,10 @@ UNEXPECTED
 -
 FAIL
 |
-%
-s
-"
-%
+{
 msg
+}
+"
 )
     
 def
@@ -275,20 +275,18 @@ test_fail
 (
 msg
 +
+f
 "
 |
 Got
-%
-s
-expected
-%
-s
-"
-%
-(
+{
 a
+}
+expected
+{
 b
-)
+}
+"
 )
     
 def
@@ -342,16 +340,16 @@ self
 ok
 (
 threw
+f
 "
 Should
 have
 thrown
 :
-%
-s
-"
-%
+{
 msg
+}
+"
 )
 def
 run_tests
@@ -512,22 +510,20 @@ harness
 .
 test_fail
 (
+f
 "
 Unhandled
 exception
 in
 test
-%
-s
-:
-%
-s
-"
-%
-(
+{
 testpath
+}
+:
+{
 ex
-)
+}
+"
 )
             
 traceback
@@ -591,25 +587,18 @@ summary
         
 print
 (
+f
 "
 Successful
 :
-%
-d
-"
-%
+{
 all_passed
+}
+"
 )
         
-print
-(
-"
-Unexpected
-:
-%
-d
-"
-%
+failed_count
+=
 sum
 (
 len
@@ -622,6 +611,17 @@ failures
 in
 failed_tests
 )
+        
+print
+(
+f
+"
+Unexpected
+:
+{
+failed_count
+}
+"
 )
         
 for
@@ -633,13 +633,13 @@ failed_tests
             
 print
 (
+f
 "
-%
-s
+{
+test
+}
 :
 "
-%
-test
 )
             
 for
@@ -650,6 +650,7 @@ failures
                 
 print
 (
+f
 "
 TEST
 -
@@ -657,11 +658,10 @@ UNEXPECTED
 -
 FAIL
 |
-%
-s
-"
-%
+{
 failure
+}
+"
 )
     
 return

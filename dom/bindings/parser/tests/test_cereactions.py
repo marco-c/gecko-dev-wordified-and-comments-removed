@@ -236,6 +236,7 @@ ok
             
 False
             
+f
 "
 Shouldn
 '
@@ -251,12 +252,10 @@ on
 writable
 attribute
 .
-%
-s
-"
-            
-%
+{
 e
+}
+"
         
 )
         
@@ -331,6 +330,7 @@ ok
             
 False
             
+f
 "
 Shouldn
 '
@@ -346,12 +346,10 @@ on
 regular
 operations
 .
-%
-s
-"
-            
-%
+{
 e
+}
+"
         
 )
         
