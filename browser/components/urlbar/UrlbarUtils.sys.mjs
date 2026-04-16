@@ -2355,7 +2355,7 @@ urlbar
 -
 searchmode
 -
-bookmarks2
+bookmarks
 "
 }
 {
@@ -2409,7 +2409,7 @@ urlbar
 -
 searchmode
 -
-tabs2
+tabs
 "
 }
 {
@@ -2463,7 +2463,7 @@ urlbar
 -
 searchmode
 -
-history2
+history
 "
 }
 {
@@ -2517,7 +2517,7 @@ urlbar
 -
 searchmode
 -
-actions2
+actions
 "
 }
 ]
