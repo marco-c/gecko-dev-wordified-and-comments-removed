@@ -10058,6 +10058,9 @@ caller
 >
 NewGetStats
 (
+run_loop
+(
+)
 )
 ;
 ASSERT_TRUE
@@ -10272,6 +10275,9 @@ callee
 >
 NewGetStats
 (
+run_loop
+(
+)
 )
 ;
 ASSERT_TRUE
@@ -10531,6 +10537,9 @@ callee
 >
 NewGetStats
 (
+run_loop
+(
+)
 )
 ;
 ASSERT_NE
@@ -10801,6 +10810,9 @@ callee
 >
 NewGetStats
 (
+run_loop
+(
+)
 )
 ;
 ASSERT_NE
@@ -16507,6 +16519,9 @@ caller
 >
 NewGetStats
 (
+run_loop
+(
+)
 )
 ;
 ASSERT_TRUE
@@ -16560,6 +16575,9 @@ caller
 >
 NewGetStats
 (
+run_loop
+(
+)
 )
 ;
 ASSERT_TRUE
@@ -16693,6 +16711,9 @@ caller
 >
 NewGetStats
 (
+run_loop
+(
+)
 )
 ;
 ASSERT_TRUE
@@ -16843,6 +16864,9 @@ caller
 >
 NewGetStats
 (
+run_loop
+(
+)
 )
 ;
 ASSERT_TRUE
