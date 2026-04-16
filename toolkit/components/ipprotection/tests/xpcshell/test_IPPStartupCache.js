@@ -1490,6 +1490,13 @@ cacheDisabled
 false
 )
 ;
+await
+IPProtectionService
+.
+init
+(
+)
+;
 using
 cacheHandle
 =
@@ -1826,6 +1833,12 @@ ipProtection
 .
 stateCache
 "
+)
+;
+IPProtectionService
+.
+uninit
+(
 )
 ;
 }
