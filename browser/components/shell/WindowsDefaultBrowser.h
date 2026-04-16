@@ -83,6 +83,17 @@ LaunchModernSettingsDialogDefaultApps
 (
 )
 ;
+void
+FocusElement
+(
+HWND
+aWindow
+const
+UIElement
+&
+aElement
+)
+;
 [
 [
 nodiscard
