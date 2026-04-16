@@ -4018,6 +4018,7 @@ MakeAndAddRef
 ReferrerInfo
 >
 (
+nullptr
 )
 ;
 RefreshRemoteWorkerData
