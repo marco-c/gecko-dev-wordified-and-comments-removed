@@ -1111,6 +1111,8 @@ mitmdump
 ]
         
 if
+(
+            
 self
 .
 config
@@ -1119,8 +1121,15 @@ config
 playback_version
 "
 ]
-=
-=
+in
+(
+"
+11
+.
+0
+.
+0
+"
 "
 12
 .
@@ -1128,6 +1137,8 @@ playback_version
 .
 1
 "
+)
+            
 and
 sys
 .
@@ -1137,6 +1148,8 @@ platform
 "
 darwin
 "
+        
+)
 :
             
 mitmdump_path_tail
@@ -2462,6 +2475,13 @@ in
 1
 .
 1
+"
+"
+11
+.
+0
+.
+0
 "
 "
 12
