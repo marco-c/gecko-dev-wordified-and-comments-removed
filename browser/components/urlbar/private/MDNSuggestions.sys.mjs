@@ -472,7 +472,7 @@ OTHER_NETWORK
 isBestMatch
 :
 true
-isNovaSuggestion
+isBottomUrlSuggestion
 :
 true
 payload

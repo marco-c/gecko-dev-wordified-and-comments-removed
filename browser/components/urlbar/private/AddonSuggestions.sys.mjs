@@ -558,7 +558,7 @@ SEARCH
 isBestMatch
 :
 true
-isNovaSuggestion
+isBottomUrlSuggestion
 :
 true
 suggestedIndex

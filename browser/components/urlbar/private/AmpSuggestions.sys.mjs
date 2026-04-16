@@ -1018,7 +1018,7 @@ UrlbarUtils
 RESULT_SOURCE
 .
 SEARCH
-isNovaSuggestion
+isBottomUrlSuggestion
 :
 true
 isBestMatch

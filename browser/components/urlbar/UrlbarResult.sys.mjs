@@ -487,7 +487,7 @@ boolean
 [
 params
 .
-isNovaSuggestion
+isBottomUrlSuggestion
 ]
 *
 param
@@ -641,7 +641,7 @@ false
 isBestMatch
 =
 false
-isNovaSuggestion
+isBottomUrlSuggestion
 =
 false
 isRichSuggestion
@@ -950,9 +950,9 @@ isBestMatch
 this
 .
 #
-isNovaSuggestion
+isBottomUrlSuggestion
 =
-isNovaSuggestion
+isBottomUrlSuggestion
 ;
 this
 .
@@ -1209,7 +1209,7 @@ isBestMatch
 ;
 }
 get
-isNovaSuggestion
+isBottomUrlSuggestion
 (
 )
 {
@@ -1217,7 +1217,7 @@ return
 this
 .
 #
-isNovaSuggestion
+isBottomUrlSuggestion
 ;
 }
 get
@@ -3006,7 +3006,7 @@ hideRowLabel
 isBestMatch
 ;
 #
-isNovaSuggestion
+isBottomUrlSuggestion
 ;
 #
 isRichSuggestion
