@@ -2131,7 +2131,7 @@ private
 void
 AllocateRecyclableData
 (
-size_t
+uint32_t
 aLength
 )
 ;
@@ -2152,7 +2152,7 @@ uint8_t
 >
 m8bpcPlanes
 ;
-size_t
+uint32_t
 mAllocatedLength
 ;
 }
