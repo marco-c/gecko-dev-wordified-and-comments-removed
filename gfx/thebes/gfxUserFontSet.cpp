@@ -2980,7 +2980,10 @@ PostTraversalTask
 :
 LoadFontEntry
 (
+do_AddRef
+(
 this
+)
 )
 )
 ;

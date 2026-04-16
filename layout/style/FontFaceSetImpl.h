@@ -644,6 +644,11 @@ DispatchCheckLoadingFinishedAfterDelay
 (
 )
 ;
+void
+DispatchLoadingEventAndReplaceReadyPromise
+(
+)
+;
 protected
 :
 ~
@@ -688,7 +693,12 @@ void
 OnLoadingStarted
 (
 )
+{
+DispatchLoadingEventAndReplaceReadyPromise
+(
+)
 ;
+}
 void
 OnLoadingFinished
 (
