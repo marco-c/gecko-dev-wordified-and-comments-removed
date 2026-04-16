@@ -223,7 +223,9 @@ focusOnAddressBar
 true
 startVoiceSearch
 =
-true
+settings
+.
+shouldShowVoiceSearch
 )
 )
 }
