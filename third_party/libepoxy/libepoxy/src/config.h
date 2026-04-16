@@ -29,7 +29,7 @@ default
 )
 extern
 #
-undef
+define
 HAVE_KHRPLATFORM_H
 #
 define
@@ -51,7 +51,13 @@ usr
 /
 local
 /
-lib64
+lib
+/
+x86_64
+-
+linux
+-
+gnu
 "
 #
 define
