@@ -14482,7 +14482,7 @@ Config
 .
 channel
 .
-isDebug
+isNightlyOrDebug
 )
 /
 *
