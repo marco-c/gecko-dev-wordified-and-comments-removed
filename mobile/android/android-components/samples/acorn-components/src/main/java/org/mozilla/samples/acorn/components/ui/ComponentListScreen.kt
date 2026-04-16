@@ -242,6 +242,13 @@ listOf
 (
 Destinations
 .
+BANNER
+to
+"
+Banner
+"
+Destinations
+.
 BUTTONS
 to
 "
