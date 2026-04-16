@@ -668,7 +668,7 @@ MaterialTheme
 .
 colorScheme
 .
-onSurfaceVariant
+tertiary
 )
 modifier
 =
