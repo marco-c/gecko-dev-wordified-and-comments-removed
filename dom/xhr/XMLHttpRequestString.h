@@ -341,7 +341,7 @@ const
 {
 return
 !
-mLength
+mBuffer
 ;
 }
 [
@@ -398,8 +398,6 @@ Set
 XMLHttpRequestStringBuffer
 *
 aBuffer
-uint32_t
-aLength
 )
 ;
 void
@@ -414,9 +412,6 @@ RefPtr
 XMLHttpRequestStringBuffer
 >
 mBuffer
-;
-uint32_t
-mLength
 ;
 bool
 mVoid
