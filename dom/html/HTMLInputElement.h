@@ -4950,6 +4950,11 @@ mUserChangedSinceFocus
 :
 1
 ;
+bool
+mIsUserInteracting
+:
+1
+;
 private
 :
 Maybe
