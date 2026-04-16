@@ -18,6 +18,7 @@ import
 Any
 ClassVar
 Dict
+MutableMapping
 Optional
 Set
 Type
@@ -1780,24 +1781,19 @@ update_metadata
 (
 self
 metadata
-=
-None
+:
+MutableMapping
+[
+str
+Any
+]
 )
-:
-        
-if
-metadata
-is
+-
+>
 None
 :
-            
-metadata
-=
-{
-}
         
-return
-metadata
+pass
     
 classmethod
     
@@ -3902,7 +3898,16 @@ update_metadata
 (
 self
 metadata
+:
+MutableMapping
+[
+str
+Any
+]
 )
+-
+>
+None
 :
         
 if
@@ -3966,9 +3971,6 @@ update_metadata
 (
 metadata
 )
-        
-return
-metadata
     
 def
 get_viewport_size
