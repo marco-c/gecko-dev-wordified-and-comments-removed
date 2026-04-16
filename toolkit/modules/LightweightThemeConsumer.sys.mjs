@@ -412,7 +412,7 @@ b
 "
 -
 -
-arrowpanel
+panel
 -
 background
 "
@@ -428,7 +428,7 @@ popup
 "
 -
 -
-arrowpanel
+panel
 -
 color
 "
@@ -444,7 +444,7 @@ popup_text
 "
 -
 -
-arrowpanel
+panel
 -
 border
 -

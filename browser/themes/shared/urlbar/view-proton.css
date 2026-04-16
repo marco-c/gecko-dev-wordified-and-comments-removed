@@ -16529,16 +16529,7 @@ border
 -
 color
 :
-var
-(
--
--
-arrowpanel
--
-border
--
-color
-)
+inherit
 ;
 }
 #

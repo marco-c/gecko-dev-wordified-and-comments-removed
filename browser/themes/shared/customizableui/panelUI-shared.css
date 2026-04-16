@@ -533,7 +533,7 @@ touchmode
 {
 -
 -
-arrowpanel
+panel
 -
 header
 -
@@ -665,7 +665,7 @@ header
 /
 -
 -
-arrowpanel
+panel
 -
 header
 -
@@ -679,7 +679,7 @@ padding
 ;
 -
 -
-arrowpanel
+panel
 -
 header
 -
@@ -702,7 +702,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 header
 -
@@ -757,7 +757,7 @@ separator
 /
 -
 -
-arrowpanel
+panel
 -
 header
 -
@@ -771,7 +771,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 header
 -
@@ -1509,7 +1509,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 background
 )
@@ -1859,7 +1859,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 background
 )
@@ -2499,7 +2499,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 header
 -
@@ -2638,7 +2638,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -2695,29 +2695,7 @@ panel
 -
 background
 :
-var
-(
--
--
-arrowpanel
--
-background
-)
-;
--
--
-panel
--
-color
-:
-var
-(
--
--
-arrowpanel
--
-color
-)
+inherit
 ;
 -
 -
@@ -2727,16 +2705,7 @@ border
 -
 color
 :
-var
-(
--
--
-arrowpanel
--
-border
--
-color
-)
+inherit
 ;
 -
 -
@@ -2746,16 +2715,15 @@ border
 -
 radius
 :
-var
-(
+inherit
+;
 -
 -
-arrowpanel
+panel
 -
-border
--
-radius
-)
+color
+:
+inherit
 ;
 -
 -
@@ -2784,16 +2752,7 @@ shadow
 -
 margin
 :
-var
-(
--
--
-arrowpanel
--
-shadow
--
-margin
-)
+inherit
 ;
 -
 -
@@ -2807,7 +2766,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -2826,7 +2785,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -2843,7 +2802,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -3309,7 +3268,7 @@ hint
 {
 -
 -
-arrowpanel
+panel
 -
 background
 :
@@ -3318,7 +3277,7 @@ background
 ;
 -
 -
-arrowpanel
+panel
 -
 border
 -
@@ -3329,7 +3288,7 @@ color
 ;
 -
 -
-arrowpanel
+panel
 -
 color
 :
@@ -3338,7 +3297,7 @@ fff
 ;
 -
 -
-arrowpanel
+panel
 -
 padding
 :
@@ -3904,7 +3863,7 @@ panel
 {
 -
 -
-arrowpanel
+panel
 -
 padding
 :
@@ -7164,7 +7123,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 color
 )
@@ -8751,7 +8710,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -8770,7 +8729,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -8785,7 +8744,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -9473,7 +9432,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -10154,7 +10113,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -11569,7 +11528,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -13117,7 +13076,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -13174,7 +13133,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 header
 -
@@ -13246,7 +13205,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 header
 -
@@ -13299,7 +13258,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 header
 -
@@ -13316,7 +13275,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 header
 -
@@ -13379,7 +13338,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 header
 -
@@ -13492,7 +13451,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 header
 -
@@ -13583,7 +13542,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 header
 -
@@ -15142,7 +15101,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 border
 -
@@ -15423,7 +15382,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -15457,7 +15416,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -15488,7 +15447,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -15602,7 +15561,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -15768,7 +15727,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -15793,7 +15752,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -15837,7 +15796,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -15849,7 +15808,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -16593,7 +16552,7 @@ header
 {
 -
 -
-arrowpanel
+panel
 -
 header
 -
@@ -16815,7 +16774,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 header
 -

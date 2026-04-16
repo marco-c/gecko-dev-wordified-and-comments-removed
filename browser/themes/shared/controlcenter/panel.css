@@ -271,7 +271,7 @@ popup
 {
 -
 -
-popup
+panel
 -
 width
 :
@@ -315,7 +315,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -362,7 +362,7 @@ toast
 {
 -
 -
-popup
+panel
 -
 width
 :
@@ -1293,7 +1293,7 @@ var
 (
 -
 -
-popup
+panel
 -
 width
 )
@@ -1306,7 +1306,7 @@ var
 (
 -
 -
-popup
+panel
 -
 width
 )
@@ -1726,7 +1726,7 @@ var
 (
 -
 -
-popup
+panel
 -
 width
 )
@@ -1737,7 +1737,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -1853,7 +1853,7 @@ var
 (
 -
 -
-popup
+panel
 -
 width
 )
@@ -1862,7 +1862,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -1877,7 +1877,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 header
 -
@@ -1950,7 +1950,7 @@ var
 (
 -
 -
-popup
+panel
 -
 width
 )
@@ -1959,7 +1959,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -1974,7 +1974,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 header
 -
@@ -2283,7 +2283,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -2300,7 +2300,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -2366,7 +2366,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -2421,7 +2421,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -2434,7 +2434,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -3906,7 +3906,7 @@ var
 (
 -
 -
-popup
+panel
 -
 width
 )
@@ -5104,7 +5104,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -5117,7 +5117,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -5809,7 +5809,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -5822,7 +5822,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -6668,7 +6668,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -6725,7 +6725,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -6742,7 +6742,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -6777,7 +6777,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -7621,7 +7621,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -
@@ -7634,7 +7634,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 menuitem
 -

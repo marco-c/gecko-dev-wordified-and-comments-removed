@@ -1140,16 +1140,7 @@ border
 -
 radius
 :
-var
-(
--
--
-arrowpanel
--
-border
--
-radius
-)
+inherit
 ;
 }
 }
