@@ -45635,6 +45635,9 @@ dependencies
 libc
 "
 "
+moz_task
+"
+"
 nserror
 "
 "

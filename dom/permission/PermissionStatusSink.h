@@ -197,6 +197,13 @@ PermissionChangedOnMainThread
 (
 )
 ;
+void
+SystemPermissionChangedOnMainThread
+(
+PermissionState
+aState
+)
+;
 PermissionName
 Name
 (
