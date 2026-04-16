@@ -352,12 +352,14 @@ keyboard
 let
 unifiedSearchButton
 =
-gURLBar
+document
 .
 querySelector
 (
 "
-.
+#
+urlbar
+-
 searchmode
 -
 switcher

@@ -111,15 +111,9 @@ popup
 querySelector
 (
 "
-panel
--
-item
+menuitem
 [
-data
--
-engine
--
-id
+label
 =
 engine1
 ]

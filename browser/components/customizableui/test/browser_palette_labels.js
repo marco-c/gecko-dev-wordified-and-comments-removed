@@ -176,7 +176,6 @@ querySelectorAll
 toolbarbutton
 -
 icon
-img
 "
 )
 )
