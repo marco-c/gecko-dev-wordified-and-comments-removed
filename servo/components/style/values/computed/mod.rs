@@ -794,16 +794,6 @@ use
 self
 :
 :
-param
-:
-:
-LinkParameters
-;
-pub
-use
-self
-:
-:
 percentage
 :
 :
@@ -1328,10 +1318,6 @@ outline
 pub
 mod
 page
-;
-pub
-mod
-param
 ;
 pub
 mod

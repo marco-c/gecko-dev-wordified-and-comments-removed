@@ -574,11 +574,6 @@ line
 break
 "
 "
-link
--
-parameters
-"
-"
 list
 -
 style
