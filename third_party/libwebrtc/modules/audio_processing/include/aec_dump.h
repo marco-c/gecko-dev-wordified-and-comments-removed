@@ -211,6 +211,15 @@ experiments_description
 "
 "
 ;
+std
+:
+:
+string
+api_config_string
+=
+"
+"
+;
 }
 ;
 class
