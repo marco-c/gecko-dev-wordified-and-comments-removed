@@ -15406,7 +15406,7 @@ false
 }
 Rooted
 <
-ArrayBufferObjectMaybeShared
+SharedArrayBufferObject
 *
 >
 sab
@@ -15423,6 +15423,16 @@ as
 <
 SharedArrayBufferObject
 >
+(
+)
+)
+;
+MOZ_RELEASE_ASSERT
+(
+sab
+-
+>
+isWasm
 (
 )
 )
