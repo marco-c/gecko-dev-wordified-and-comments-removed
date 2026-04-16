@@ -1033,7 +1033,7 @@ transport_stats_by_name
 )
 ;
 void
-PrepareTransceiverStatsInfosAndCallStats_s_w_n
+PrepareTransceiverStatsInfosAndCallStats_s_w
 (
 )
 ;
