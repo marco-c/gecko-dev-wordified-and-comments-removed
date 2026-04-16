@@ -4599,6 +4599,14 @@ stringutils
 /
 rtc_base
 :
+text2pcap
+"
+"
+.
+.
+/
+rtc_base
+:
 timeutils
 "
 "
