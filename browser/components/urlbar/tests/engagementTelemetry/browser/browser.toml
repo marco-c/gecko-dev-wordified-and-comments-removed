@@ -225,6 +225,13 @@ js
 ]
 [
 "
+browser_glean_telemetry_abandonment_window
+.
+js
+"
+]
+[
+"
 browser_glean_telemetry_bounce
 .
 js
@@ -438,6 +445,13 @@ js
 [
 "
 browser_glean_telemetry_engagement_type
+.
+js
+"
+]
+[
+"
+browser_glean_telemetry_engagement_window
 .
 js
 "
