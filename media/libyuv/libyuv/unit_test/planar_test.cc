@@ -18839,6 +18839,13 @@ defined
 (
 __arm__
 )
+&
+&
+!
+defined
+(
+__SOFTFP__
+)
 static
 void
 EnableFlushDenormalToZero
