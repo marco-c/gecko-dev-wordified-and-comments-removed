@@ -96,14 +96,6 @@ signing_android_app
 :
 transforms
 -
-android_taskgraph
-.
-transforms
-.
-notify
-:
-transforms
--
 gecko_taskgraph
 .
 transforms
