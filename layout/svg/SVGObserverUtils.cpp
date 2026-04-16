@@ -7531,6 +7531,11 @@ paintedFrame
 GetParent
 (
 )
+-
+>
+FirstContinuation
+(
+)
 ;
 nsIFrame
 *
@@ -7540,6 +7545,11 @@ paintedFrame
 -
 >
 GetParent
+(
+)
+-
+>
+FirstContinuation
 (
 )
 ;
