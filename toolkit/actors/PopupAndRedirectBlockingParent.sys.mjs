@@ -764,6 +764,11 @@ popupWindowURISpec
 popup
 .
 popupWindowURISpec
+reportIndex
+:
+popup
+.
+reportIndex
 }
 )
 ;
@@ -905,7 +910,7 @@ unblockPopup
 (
 aBrowsingContext
 aInnerWindowId
-aPopupIndex
+aReportIndex
 )
 {
 const
@@ -949,9 +954,9 @@ sendAsyncMessage
 UnblockPopup
 "
 {
-index
+reportIndex
 :
-aPopupIndex
+aReportIndex
 }
 )
 ;
@@ -1034,11 +1039,11 @@ getBlockedPopups
 for
 (
 let
-idx
+i
 =
 0
 ;
-idx
+i
 <
 popups
 .
@@ -1046,7 +1051,7 @@ length
 ;
 +
 +
-idx
+i
 )
 {
 const
@@ -1054,7 +1059,7 @@ popup
 =
 popups
 [
-idx
+i
 ]
 ;
 this
@@ -1067,7 +1072,9 @@ browsingContext
 popup
 .
 innerWindowId
-idx
+popup
+.
+reportIndex
 )
 ;
 }
