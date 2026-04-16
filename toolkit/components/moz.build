@@ -309,6 +309,9 @@ protobuf
 qrcode
 "
 "
+reader
+"
+"
 remotebrowserutils
 "
 "
@@ -426,9 +429,6 @@ narrate
 "
 "
 pictureinpicture
-"
-"
-reader
 "
 "
 uniffi
