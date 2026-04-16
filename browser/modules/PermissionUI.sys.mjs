@@ -10222,13 +10222,6 @@ allow
 accesskey
 "
 )
-action
-:
-Ci
-.
-nsIPermissionManager
-.
-ALLOW
 callback
 :
 (
@@ -10353,13 +10346,6 @@ block
 accesskey
 "
 )
-action
-:
-Ci
-.
-nsIPermissionManager
-.
-DENY_ACTION
 callback
 :
 (
