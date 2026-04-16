@@ -73044,9 +73044,11 @@ this
 0
 ;
 }
-static
 Document
 *
+Document
+:
+:
 GetFullscreenLeaf
 (
 Document
@@ -73129,9 +73131,11 @@ return
 leaf
 ;
 }
-static
 Document
 *
+Document
+:
+:
 GetFullscreenLeaf
 (
 Document
