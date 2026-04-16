@@ -15,13 +15,6 @@ include
 type_traits
 >
 #
-include
-<
-limits
-.
-h
->
-#
 ifdef
 XP_WIN
 #
