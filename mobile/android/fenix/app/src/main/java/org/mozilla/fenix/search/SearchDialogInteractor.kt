@@ -151,6 +151,8 @@ implementations
 for
 the
 AwesomeBarView
+and
+HomeToolbarView
 .
 *
 /
