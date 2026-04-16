@@ -1553,7 +1553,6 @@ isWebExtension
 shouldShowEmptyState
 &
 &
-(
 <
 ul
 className
@@ -1563,15 +1562,6 @@ section
 -
 list
 "
-style
-=
-{
-{
-padding
-:
-0
-}
-}
 >
 {
 cards
@@ -1580,7 +1570,6 @@ cards
 /
 ul
 >
-)
 }
 {
 shouldShowEmptyState
