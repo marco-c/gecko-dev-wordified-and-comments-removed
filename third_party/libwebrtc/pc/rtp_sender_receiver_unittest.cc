@@ -1262,6 +1262,17 @@ MockSetStreamsObserver
 (
 )
 ;
+worker_thread_
+-
+>
+BlockingCall
+(
+[
+&
+]
+(
+)
+{
 audio_rtp_sender_
 =
 AudioRtpSender
@@ -1272,6 +1283,7 @@ Create
 CreateEnvironment
 (
 )
+signaling_thread_
 worker_thread_
 .
 get
@@ -1294,6 +1306,9 @@ voice_media_send_channel_
 get
 (
 )
+)
+;
+}
 )
 ;
 ASSERT_TRUE
@@ -1353,6 +1368,17 @@ CreateAudioRtpSenderWithNoTrack
 (
 )
 {
+worker_thread_
+-
+>
+BlockingCall
+(
+[
+&
+]
+(
+)
+{
 audio_rtp_sender_
 =
 AudioRtpSender
@@ -1363,6 +1389,7 @@ Create
 CreateEnvironment
 (
 )
+signaling_thread_
 worker_thread_
 .
 get
@@ -1377,6 +1404,9 @@ voice_media_send_channel_
 get
 (
 )
+)
+;
+}
 )
 ;
 }
@@ -1643,6 +1673,17 @@ MockSetStreamsObserver
 (
 )
 ;
+worker_thread_
+-
+>
+BlockingCall
+(
+[
+&
+]
+(
+)
+{
 video_rtp_sender_
 =
 VideoRtpSender
@@ -1653,6 +1694,7 @@ Create
 CreateEnvironment
 (
 )
+signaling_thread_
 worker_thread_
 .
 get
@@ -1672,6 +1714,9 @@ get
 video_media_send_channel
 (
 )
+)
+;
+}
 )
 ;
 ASSERT_TRUE
@@ -1732,6 +1777,17 @@ CreateVideoRtpSenderWithNoTrack
 (
 )
 {
+worker_thread_
+-
+>
+BlockingCall
+(
+[
+&
+]
+(
+)
+{
 video_rtp_sender_
 =
 VideoRtpSender
@@ -1742,6 +1798,7 @@ Create
 CreateEnvironment
 (
 )
+signaling_thread_
 worker_thread_
 .
 get
@@ -1753,6 +1810,9 @@ nullptr
 video_media_send_channel
 (
 )
+)
+;
+}
 )
 ;
 }
@@ -2889,6 +2949,7 @@ Create
 CreateEnvironment
 (
 )
+signaling_thread_
 worker_thread_
 .
 get
@@ -3297,6 +3358,18 @@ test
 :
 RunLoop
 run_loop_
+;
+Thread
+*
+const
+signaling_thread_
+=
+Thread
+:
+:
+Current
+(
+)
 ;
 const
 std
@@ -4799,6 +4872,7 @@ Create
 CreateEnvironment
 (
 )
+signaling_thread_
 worker_thread_
 .
 get
@@ -4917,6 +4991,7 @@ Create
 CreateEnvironment
 (
 )
+signaling_thread_
 worker_thread_
 .
 get
@@ -5141,6 +5216,7 @@ Create
 CreateEnvironment
 (
 )
+signaling_thread_
 worker_thread_
 .
 get
@@ -5388,6 +5464,7 @@ Create
 CreateEnvironment
 (
 )
+signaling_thread_
 worker_thread_
 .
 get
@@ -6420,6 +6497,7 @@ Create
 CreateEnvironment
 (
 )
+signaling_thread_
 worker_thread_
 .
 get
@@ -6537,6 +6615,7 @@ Create
 CreateEnvironment
 (
 )
+signaling_thread_
 worker_thread_
 .
 get
@@ -6743,6 +6822,7 @@ Create
 CreateEnvironment
 (
 )
+signaling_thread_
 worker_thread_
 .
 get
@@ -7075,6 +7155,7 @@ Create
 CreateEnvironment
 (
 )
+signaling_thread_
 worker_thread_
 .
 get
@@ -7513,6 +7594,7 @@ Create
 (
 env
 thread
+thread
 video_track
 -
 >
@@ -7710,6 +7792,7 @@ Create
 CreateEnvironment
 (
 )
+signaling_thread_
 worker_thread_
 .
 get
@@ -10129,6 +10212,7 @@ Create
 CreateEnvironment
 (
 )
+signaling_thread_
 worker_thread_
 .
 get
@@ -11239,6 +11323,7 @@ Create
 CreateEnvironment
 (
 )
+signaling_thread_
 worker_thread_
 .
 get

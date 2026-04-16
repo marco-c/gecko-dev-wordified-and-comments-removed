@@ -7846,6 +7846,9 @@ AudioRtpSender
 Create
 (
 env_
+signaling_thread
+(
+)
 worker_thread
 (
 )
@@ -7926,6 +7929,9 @@ VideoRtpSender
 Create
 (
 env_
+signaling_thread
+(
+)
 worker_thread
 (
 )

@@ -11076,7 +11076,7 @@ on_rtp_send_parameters_changed_callback_
 Send
 (
 ssrc
-parameters
+reduced_params
 )
 ;
 }
