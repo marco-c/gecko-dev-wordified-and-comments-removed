@@ -105,8 +105,8 @@ name
 score
 "
 >
-Pontua
-o
+Puntuaci
+n
 :
 %
 1
@@ -155,7 +155,7 @@ name
 longfox
 "
 >
-Longfox
+LONGFOX
 <
 /
 string
@@ -168,9 +168,10 @@ name
 likes_cookies
 "
 >
-gosta
-de
-cookies
+le
+encantan
+las
+galletas
 <
 /
 string
@@ -183,9 +184,9 @@ name
 tap_to_play
 "
 >
-toque
+Toca
 para
-jogar
+jugar
 !
 <
 /
@@ -228,7 +229,8 @@ name
 hiscore
 "
 >
-PMAX
+R
+CORD
 :
 %
 1
@@ -245,8 +247,8 @@ name
 sound_on
 "
 >
-som
-ligado
+sonido
+activado
 <
 /
 string
@@ -259,8 +261,8 @@ name
 sound_off
 "
 >
-som
-desligado
+sonido
+desactivado
 <
 /
 string
@@ -282,7 +284,8 @@ name
 back
 "
 >
-voltar
+atr
+s
 <
 /
 string
