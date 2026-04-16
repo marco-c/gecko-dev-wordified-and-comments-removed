@@ -41569,13 +41569,6 @@ webrtc_nonparallel_tests
 }
 "
 Mac64
-Builder
-"
-:
-{
-}
-"
-Mac64
 Debug
 "
 :
