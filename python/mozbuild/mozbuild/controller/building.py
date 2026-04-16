@@ -1441,6 +1441,13 @@ with
 open
 (
 timings_path
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 fh
@@ -12966,6 +12973,9 @@ mozconfig
 path
 "
 ]
+"
+rb
+"
 )
 as
 ifh

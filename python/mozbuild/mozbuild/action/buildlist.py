@@ -134,6 +134,13 @@ with
 open
 (
 listFile
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 f
@@ -179,6 +186,13 @@ open
 listFile
 "
 w
+"
+encoding
+=
+"
+utf
+-
+8
 "
 newline
 =

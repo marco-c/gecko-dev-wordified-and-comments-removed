@@ -1,4 +1,6 @@
 import
+functools
+import
 json
 import
 os
@@ -44,8 +46,6 @@ import
 FileAvoidWrite
     
 ReadOnlyDict
-    
-memoized_property
     
 system_encoding
 )
@@ -231,6 +231,13 @@ with
 open
 (
 path
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 fh
@@ -1308,7 +1315,9 @@ MOZ_ARTIFACT_BUILDS
 False
 )
     
-memoized_property
+functools
+.
+cached_property
     
 def
 acdefines
@@ -1531,6 +1540,13 @@ open
 self
 .
 _config_track
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 fh

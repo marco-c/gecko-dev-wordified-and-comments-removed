@@ -175,8 +175,6 @@ HierarchicalStringList
 ReadOnlyDefaultDict
     
 cpu_count
-    
-memoize
 )
 from
 .
@@ -1701,7 +1699,9 @@ func
 self
 )
     
-memoize
+functools
+.
+cache
     
 def
 _create_subcontext
@@ -1754,7 +1754,9 @@ kwargs
 return
 fn
     
-memoize
+functools
+.
+cache
     
 def
 _create_function
@@ -1893,7 +1895,9 @@ args
 return
 function
     
-memoize
+functools
+.
+cache
     
 def
 _create_template_wrapper
@@ -7642,6 +7646,13 @@ with
 open
 (
 full
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 fh
@@ -9138,7 +9149,9 @@ result
 {
 }
         
-memoize
+functools
+.
+cache
         
 def
 exists
