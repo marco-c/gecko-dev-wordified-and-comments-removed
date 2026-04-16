@@ -2962,6 +2962,14 @@ add
 (
 linux_perf_platform_restrictions
 .
+restrict_tests_to_2404
+)
+transforms
+.
+add
+(
+linux_perf_platform_restrictions
+.
 restrict_failing_tests_to_1804
 )
 transforms
