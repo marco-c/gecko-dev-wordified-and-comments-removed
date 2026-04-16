@@ -17,6 +17,17 @@ cstdint
 #
 include
 "
+absl
+/
+base
+/
+nullability
+.
+h
+"
+#
+include
+"
 api
 /
 units
@@ -290,6 +301,7 @@ time_fraction
 static
 Clock
 *
+absl_nonnull
 GetRealTimeClockRaw
 (
 )

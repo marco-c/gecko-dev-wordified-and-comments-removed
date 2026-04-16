@@ -22,6 +22,17 @@ cstdint
 #
 include
 "
+absl
+/
+base
+/
+nullability
+.
+h
+"
+#
+include
+"
 api
 /
 units
@@ -240,6 +251,7 @@ us
 ;
 Clock
 *
+absl_nonnull
 Clock
 :
 :

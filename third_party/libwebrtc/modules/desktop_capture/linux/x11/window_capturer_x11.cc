@@ -63,6 +63,9 @@ composite
 h
 >
 #
+undef
+CurrentTime
+#
 include
 <
 cstring
@@ -88,6 +91,17 @@ include
 api
 /
 scoped_refptr
+.
+h
+"
+#
+include
+"
+media
+/
+base
+/
+video_common
 .
 h
 "

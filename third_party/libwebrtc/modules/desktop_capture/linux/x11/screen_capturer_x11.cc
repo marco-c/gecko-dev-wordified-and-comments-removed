@@ -87,6 +87,9 @@ randr
 h
 >
 #
+undef
+CurrentTime
+#
 include
 <
 dlfcn
@@ -97,11 +100,6 @@ h
 include
 <
 cstdint
->
-#
-include
-<
-cstring
 >
 #
 include
