@@ -6543,7 +6543,7 @@ App
 .
 locale
 }
-placeholder
+spocsLoading
 =
 {
 this
@@ -7308,7 +7308,7 @@ App
 .
 locale
 }
-placeholder
+spocsLoading
 =
 {
 this

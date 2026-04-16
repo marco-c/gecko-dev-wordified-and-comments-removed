@@ -1276,14 +1276,14 @@ properties
 .
 ctaButtonVariant
 }
-placeholder
+spocsLoading
 =
 {
 this
 .
 props
 .
-placeholder
+spocsLoading
 }
 /
 >
@@ -1436,7 +1436,7 @@ this
 .
 props
 .
-placeholder
+spocsLoading
 }
 /
 >
