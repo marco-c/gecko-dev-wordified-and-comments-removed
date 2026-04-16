@@ -79,6 +79,16 @@ include
 optional
 >
 #
+ifdef
+JS_JITSPEW
+#
+include
+<
+queue
+>
+#
+endif
+#
 include
 "
 irregexp
