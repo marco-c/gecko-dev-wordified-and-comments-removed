@@ -146,6 +146,10 @@ control_utils
 .
 nsh
 \
+install_dir_helpers
+.
+nsh
+\
 postupdate_helper
 .
 nsh

@@ -182,6 +182,12 @@ nsi
 \
 nsis
 /
+install_dir_helpers
+.
+nsh
+\
+nsis
+/
 installer_helpers
 .
 nsh

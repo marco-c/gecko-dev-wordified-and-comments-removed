@@ -10907,7 +10907,7 @@ StrCpy
 HadOldInstall
 true
 {
-UseExistingInstallPathIfNoParam
+UseExistingInstallPathIfNoInstallDirArg
 }
 0
 {
