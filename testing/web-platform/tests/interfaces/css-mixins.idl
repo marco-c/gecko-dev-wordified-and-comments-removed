@@ -103,7 +103,6 @@ CSSOMString
 type
 ;
 CSSOMString
-?
 defaultValue
 ;
 }
