@@ -2120,6 +2120,14 @@ field_trials
 /
 api
 :
+field_trials_view
+"
+"
+.
+.
+/
+api
+:
 function_view
 "
 "
