@@ -4203,6 +4203,16 @@ closeSidebar
 win
 )
 ;
+Glean
+.
+smartWindow
+.
+classicSwitch
+.
+record
+(
+)
+;
 }
 }
 }
