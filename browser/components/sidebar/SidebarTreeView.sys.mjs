@@ -1000,6 +1000,17 @@ if
 this
 .
 multiSelect
+&
+&
+!
+event
+.
+getModifierState
+(
+"
+Accel
+"
+)
 )
 {
 this
