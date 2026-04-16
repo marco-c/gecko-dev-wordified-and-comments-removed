@@ -2336,6 +2336,11 @@ const
 =
 0
 ;
+[
+[
+deprecated
+]
+]
 virtual
 bool
 GetStats

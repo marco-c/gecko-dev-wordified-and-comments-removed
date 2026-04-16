@@ -1172,6 +1172,11 @@ config
 )
 override
 ;
+[
+[
+deprecated
+]
+]
 bool
 GetStats
 (
