@@ -1133,13 +1133,8 @@ result
 )
 ;
 }
+static
 bool
-js
-:
-:
-intl
-:
-:
 BestAvailableLocale
 (
 JSContext
