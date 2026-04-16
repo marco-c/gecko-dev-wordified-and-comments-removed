@@ -997,17 +997,6 @@ enabled
 <
 <
 "
-mobile_mode
-:
-"
-<
-<
-echo_canceller
-.
-mobile_mode
-<
-<
-"
 enforce_high_pass_filtering
 :
 "

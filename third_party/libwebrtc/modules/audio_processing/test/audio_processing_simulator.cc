@@ -2831,14 +2831,6 @@ enabled
 =
 true
 ;
-apm_config
-.
-echo_canceller
-.
-mobile_mode
-=
-use_aecm
-;
 }
 apm_config
 .
