@@ -354,6 +354,11 @@ tfdt
 mp4
 "
 "
+test_case_aac_encoder_delay_tfdt
+.
+mp4
+"
+"
 test_case_bad_co64_offset
 .
 mp4
