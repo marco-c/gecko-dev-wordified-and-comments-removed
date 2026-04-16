@@ -1029,10 +1029,6 @@ LABEL_MAX_CAPACITY
 {
 }
 ;
-chunk_allocator_t
-*
-mChunkAllocator
-;
 private
 :
 RedBlackTree

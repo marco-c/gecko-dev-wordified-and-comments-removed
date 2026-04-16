@@ -731,7 +731,7 @@ addr
 size
 )
 ;
-base_chunk_dealloc
+chunk_dealloc
 (
 reinterpret_cast
 <
@@ -2059,10 +2059,13 @@ void
 *
 base_pages
 =
-base_chunk_alloc
+:
+:
+chunk_alloc
 (
 csize
 kChunkSize
+true
 )
 ;
 if
