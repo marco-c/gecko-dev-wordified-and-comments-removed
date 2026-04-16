@@ -600,15 +600,7 @@ relaxed
 =
 true
 )
-onSearchEngineShortcutSelected
-=
-{
-}
 onSearchEngineSuggestionSelected
-=
-{
-}
-onSearchEngineSettingsClicked
 =
 {
 }
