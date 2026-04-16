@@ -170,11 +170,6 @@ BounceTrackingStateGlobal
 h
 "
 "
-BounceTrackingStorageObserver
-.
-h
-"
-"
 ClearDataCallback
 .
 h
@@ -221,11 +216,6 @@ cpp
 "
 "
 BounceTrackingStateGlobal
-.
-cpp
-"
-"
-BounceTrackingStorageObserver
 .
 cpp
 "

@@ -21,13 +21,6 @@ h
 #
 include
 "
-BounceTrackingStorageObserver
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Logging
@@ -395,12 +388,6 @@ nsCOMPtr
 nsITimer
 >
 mBounceTrackingPurgeTimer
-;
-RefPtr
-<
-BounceTrackingStorageObserver
->
-mStorageObserver
 ;
 RefPtr
 <

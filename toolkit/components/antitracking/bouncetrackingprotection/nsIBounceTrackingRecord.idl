@@ -129,13 +129,5 @@ ACString
 >
 bounceHosts
 ;
-readonly
-attribute
-Array
-<
-ACString
->
-storageAccessHosts
-;
 }
 ;
