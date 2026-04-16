@@ -320,6 +320,13 @@ network
 -
 error
 "
+CATASTROPHIC
+:
+"
+catastrophic
+-
+error
+"
 TIMEOUT
 :
 "
