@@ -475,11 +475,6 @@ href
 {
 this
 .
-changePasswordURL
-|
-|
-this
-.
 hostname
 }
 rel
@@ -968,11 +963,6 @@ displayHostname
 href
 =
 {
-this
-.
-changePasswordURL
-|
-|
 this
 .
 hostname
