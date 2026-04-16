@@ -267,6 +267,16 @@ shadowrootdelegatesfocus
 Atom
 (
 "
+shadowrootslotassignment
+"
+"
+shadowrootslotassignment
+"
+)
+    
+Atom
+(
+"
 basefrequency
 "
 "
