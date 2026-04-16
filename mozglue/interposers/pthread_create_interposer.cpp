@@ -127,6 +127,9 @@ MAP_ANONYMOUS
 if
 (
 alt_stack_mem
+!
+=
+MAP_FAILED
 )
 {
 stack_t
