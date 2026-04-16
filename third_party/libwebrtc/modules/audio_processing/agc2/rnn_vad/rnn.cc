@@ -423,6 +423,10 @@ hidden_
 ComputeOutput
 (
 input_
+.
+output
+(
+)
 )
 ;
 output_
@@ -430,6 +434,10 @@ output_
 ComputeOutput
 (
 hidden_
+.
+output
+(
+)
 )
 ;
 RTC_DCHECK_EQ

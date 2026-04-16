@@ -454,6 +454,10 @@ ExpectNearAbsolute
 (
 kFullyConnectedExpectedOutput
 fc
+.
+output
+(
+)
 1e
 -
 5f
