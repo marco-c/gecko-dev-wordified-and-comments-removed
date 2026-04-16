@@ -3613,10 +3613,10 @@ appTasks
 ]
 .
 taskInfo
+?
 .
 topActivity
-!
-!
+?
 .
 className
 =
