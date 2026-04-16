@@ -104,6 +104,7 @@ IPCResult
 RecvClose
 (
 )
+override
 ;
 mozilla
 :
@@ -115,16 +116,7 @@ IPCResult
 RecvRequestDelete
 (
 )
-;
-void
-AddIPDLReference
-(
-)
-;
-void
-ReleaseIPDLReference
-(
-)
+override
 ;
 void
 OnConnect
@@ -167,9 +159,6 @@ RefPtr
 TCPServerSocket
 >
 mServerSocket
-;
-bool
-mIPCOpen
 ;
 }
 ;

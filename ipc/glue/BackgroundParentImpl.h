@@ -1037,8 +1037,10 @@ aPrincipalInfo
 )
 override
 ;
+already_AddRefed
+<
 PUDPSocketParent
-*
+>
 AllocPUDPSocketParent
 (
 const
@@ -1077,14 +1079,6 @@ const
 nsACString
 &
 aFilter
-)
-override
-;
-bool
-DeallocPUDPSocketParent
-(
-PUDPSocketParent
-*
 )
 override
 ;
