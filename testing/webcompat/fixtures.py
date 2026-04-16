@@ -993,6 +993,21 @@ cookieBehavior
         
 prefs
 [
+"
+layout
+.
+css
+.
+getBoxQuads
+.
+enabled
+"
+]
+=
+True
+        
+prefs
+[
 NOTIFICATIONS_PERMISSIONS_PREF
 ]
 =
