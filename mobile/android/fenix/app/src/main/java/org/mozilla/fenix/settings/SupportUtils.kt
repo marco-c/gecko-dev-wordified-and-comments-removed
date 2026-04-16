@@ -913,7 +913,7 @@ summarize
 -
 pages
 -
-ios
+android
 "
 )
 }
