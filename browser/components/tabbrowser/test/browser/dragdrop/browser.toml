@@ -35,6 +35,13 @@ js
 ]
 [
 "
+browser_drop_link_splitview_unselected
+.
+js
+"
+]
+[
+"
 browser_move_unpinned_not_overflowing
 .
 js
