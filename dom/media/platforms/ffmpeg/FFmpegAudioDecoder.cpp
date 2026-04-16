@@ -958,7 +958,7 @@ AudioDataValue
 aFrame
 -
 >
-data
+extended_data
 )
 ;
 for
@@ -1139,7 +1139,7 @@ int16_t
 aFrame
 -
 >
-data
+extended_data
 )
 ;
 for
@@ -1326,7 +1326,7 @@ int32_t
 aFrame
 -
 >
-data
+extended_data
 )
 ;
 for
@@ -1513,7 +1513,7 @@ uint8_t
 aFrame
 -
 >
-data
+extended_data
 )
 ;
 for
