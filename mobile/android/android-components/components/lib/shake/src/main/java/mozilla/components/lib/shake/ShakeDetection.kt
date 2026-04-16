@@ -307,12 +307,12 @@ sensitivity
 :
 ShakeSensitivity
 =
-Medium
+Low
 detectionWindowNs
 :
 Long
 =
-350_000_000L
+500_000_000L
 cooldownPeriodNs
 :
 Long
@@ -322,7 +322,7 @@ minHits
 :
 Int
 =
-2
+3
 )
 :
 Flow
