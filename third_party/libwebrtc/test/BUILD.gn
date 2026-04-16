@@ -3013,6 +3013,14 @@ deps
 /
 api
 :
+array_view
+"
+"
+.
+.
+/
+api
+:
 scoped_refptr
 "
 "

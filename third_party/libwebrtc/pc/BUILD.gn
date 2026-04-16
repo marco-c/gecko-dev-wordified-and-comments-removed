@@ -907,6 +907,14 @@ srtp_transport
 /
 api
 :
+array_view
+"
+"
+.
+.
+/
+api
+:
 dtls_transport_interface
 "
 "
