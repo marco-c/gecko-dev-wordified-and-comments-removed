@@ -2038,11 +2038,6 @@ suggest
 *
 *
 *
-returns
-{
-object
-}
-*
 Possible
 values
 of
