@@ -28,7 +28,7 @@ properties
 {
 ComputedValues
 LonghandId
-PropertyId
+NonCustomPropertyId
 }
 ;
 use
@@ -171,7 +171,7 @@ a
 pub
 for_property
 :
-PropertyId
+NonCustomPropertyId
 pub
 current_longhand
 :
