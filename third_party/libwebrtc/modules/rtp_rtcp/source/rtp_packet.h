@@ -27,6 +27,11 @@ optional
 #
 include
 <
+span
+>
+#
+include
+<
 string
 >
 #
@@ -100,6 +105,13 @@ using
 ExtensionManager
 =
 RtpHeaderExtensionMap
+;
+static
+constexpr
+size_t
+kMaxCsrcs
+=
+15
 ;
 RtpPacket
 (
@@ -506,7 +518,10 @@ type
 void
 SetCsrcs
 (
-ArrayView
+std
+:
+:
+span
 <
 const
 uint32_t
