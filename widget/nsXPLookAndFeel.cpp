@@ -5776,12 +5776,6 @@ defaults
 {
 }
 ;
-defaults
-.
-systemFont
-=
-true
-;
 candidate
 .
 size

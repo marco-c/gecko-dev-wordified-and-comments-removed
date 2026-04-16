@@ -6946,12 +6946,6 @@ break
 }
 aFontStyle
 .
-systemFont
-=
-true
-;
-aFontStyle
-.
 size
 *
 =
