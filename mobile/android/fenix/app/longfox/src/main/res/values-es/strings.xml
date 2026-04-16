@@ -105,6 +105,9 @@ name
 score
 "
 >
+Puntuaci
+n
+:
 %
 1
 d
@@ -165,7 +168,10 @@ name
 likes_cookies
 "
 >
-Cookie
+le
+encantan
+las
+galletas
 <
 /
 string
@@ -178,6 +184,10 @@ name
 tap_to_play
 "
 >
+toca
+para
+jugar
+!
 <
 /
 string
@@ -219,6 +229,9 @@ name
 hiscore
 "
 >
+R
+CORD
+:
 %
 1
 d
@@ -234,6 +247,8 @@ name
 sound_on
 "
 >
+sonido
+activado
 <
 /
 string
@@ -246,6 +261,8 @@ name
 sound_off
 "
 >
+sonido
+desactivado
 <
 /
 string
@@ -267,6 +284,8 @@ name
 back
 "
 >
+atr
+s
 <
 /
 string
