@@ -4212,6 +4212,17 @@ return
 NS_ERROR_CORRUPTED_CONTENT
 ;
 }
+if
+(
+mByteRangeStart
+>
+mByteRangeEnd
+)
+{
+return
+NS_ERROR_CORRUPTED_CONTENT
+;
+}
 mIsByteRangeRequest
 =
 true
