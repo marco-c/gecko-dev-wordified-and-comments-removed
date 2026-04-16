@@ -516,6 +516,7 @@ originalTarget
 ;
 this
 .
+#
 clearSelection
 (
 )
@@ -1713,6 +1714,7 @@ return
 }
 this
 .
+#
 clearSelection
 (
 )
@@ -2163,6 +2165,7 @@ endRowIndex
 {
 this
 .
+#
 clearSelection
 (
 )
@@ -2435,6 +2438,7 @@ return
 items
 ;
 }
+#
 clearSelection
 (
 )
@@ -2471,6 +2475,7 @@ resetSelection
 {
 this
 .
+#
 clearSelection
 (
 )
