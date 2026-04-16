@@ -2823,6 +2823,17 @@ containerQuery
 condition
 .
 query
+matched
+:
+rawRule
+.
+queryConditionMatchesElement
+(
+this
+.
+currentlySelectedElement
+i
+)
 hasContainer
 :
 !
