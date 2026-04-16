@@ -62,7 +62,7 @@ nsILoadInfo
 HTTPSUpgradeTelemetryType
 :
 :
-UPGRADE_EXCEPTION
+SKIP_HTTPS_UPGRADE
 >
 {
 }
