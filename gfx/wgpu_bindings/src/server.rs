@@ -731,6 +731,7 @@ let
 mut
 instance_flags
 =
+(
 wgt
 :
 :
@@ -739,6 +740,15 @@ InstanceFlags
 :
 from_build_config
 (
+)
+|
+wgt
+:
+:
+InstanceFlags
+:
+:
+AUTOMATIC_TIMESTAMP_NORMALIZATION
 )
 .
 with_env
