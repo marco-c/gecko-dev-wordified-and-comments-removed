@@ -178,6 +178,13 @@ home
 "
 const
 val
+ACTION_LENS_CLICKED
+=
+"
+lens
+"
+const
+val
 ACTION_MENU_CLICKED
 =
 "
