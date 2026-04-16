@@ -356,7 +356,7 @@ info
 "
 Getting
 the
-AnimationPlayerFront
+AnimationFront
 for
 the
 test
