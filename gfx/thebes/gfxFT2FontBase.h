@@ -726,9 +726,7 @@ mHeight
 ;
 }
 ;
-const
 GlyphMetrics
-&
 GetCachedGlyphMetrics
 (
 uint16_t

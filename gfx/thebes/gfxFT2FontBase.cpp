@@ -3861,12 +3861,10 @@ return
 true
 ;
 }
-const
 gfxFT2FontBase
 :
 :
 GlyphMetrics
-&
 gfxFT2FontBase
 :
 :
@@ -4022,7 +4020,6 @@ bounds
 ;
 const
 GlyphMetrics
-&
 metrics
 =
 GetCachedGlyphMetrics
