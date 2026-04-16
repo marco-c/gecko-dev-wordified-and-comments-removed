@@ -105,7 +105,7 @@ name
 score
 "
 >
-Qabxii
+Scor
 :
 %
 1
@@ -167,8 +167,11 @@ name
 likes_cookies
 "
 >
-kukiiwwan
-jaallachuu
+i
+plac
+cookie
+-
+urile
 <
 /
 string
@@ -181,8 +184,10 @@ name
 tap_to_play
 "
 >
-taphachuuf
-tuqi
+atinge
+ca
+s
+joci
 !
 <
 /
@@ -225,7 +230,7 @@ name
 hiscore
 "
 >
-HAAYISKOOR
+RECORD
 :
 %
 1
@@ -242,8 +247,8 @@ name
 sound_on
 "
 >
-sagalee
-banaa
+sunet
+activat
 <
 /
 string
@@ -256,8 +261,8 @@ name
 sound_off
 "
 >
-sagalee
-cufaa
+sunet
+dezactivat
 <
 /
 string
@@ -279,7 +284,7 @@ name
 back
 "
 >
-duubatti
+napoi
 <
 /
 string
