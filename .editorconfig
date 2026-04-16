@@ -268,3 +268,14 @@ GNUmakefile
 indent_style
 =
 tab
+[
+*
+.
+{
+diff
+patch
+}
+]
+trim_trailing_whitespace
+=
+false
