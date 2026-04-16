@@ -26438,3 +26438,17 @@ enabled
 false
 )
 ;
+pref
+(
+"
+browser
+.
+contentsharing
+.
+newBadge
+.
+enabled
+"
+true
+)
+;
