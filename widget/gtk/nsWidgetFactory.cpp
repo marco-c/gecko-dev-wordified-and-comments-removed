@@ -145,6 +145,13 @@ h
 #
 include
 "
+DMABufDevice
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -284,6 +291,13 @@ nsWidgetGtk2ModuleDtor
 (
 )
 {
+DMABufDeviceLock
+:
+:
+Shutdown
+(
+)
+;
 WidgetUtils
 :
 :
