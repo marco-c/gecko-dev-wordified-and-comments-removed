@@ -4970,9 +4970,7 @@ label
 )
 {
 const
-{
-text
-}
+extraction
 =
 await
 pageExtractor
@@ -4997,7 +4995,7 @@ true
 if
 (
 !
-text
+extraction
 )
 {
 return
@@ -5012,6 +5010,13 @@ label
 .
 ;
 }
+const
+{
+text
+}
+=
+extraction
+;
 /
 /
 If
