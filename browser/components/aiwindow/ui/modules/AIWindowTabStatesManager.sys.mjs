@@ -261,7 +261,6 @@ sidebar
 .
 openByDefault
 "
-false
 )
 ;
 const
