@@ -68,6 +68,8 @@ kLow
 1
 kNormal
 kHigh
+kVideo
+kAudio
 kRealtime
 }
 ;

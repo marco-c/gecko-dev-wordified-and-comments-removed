@@ -47,6 +47,8 @@ kNormal
 =
 0
 kHigh
+kVideo
+kAudio
 kLow
 NORMAL
 =
