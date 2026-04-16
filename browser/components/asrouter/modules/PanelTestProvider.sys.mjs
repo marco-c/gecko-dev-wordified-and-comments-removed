@@ -12830,11 +12830,6 @@ dismiss
 true
 }
 }
-position
-:
-"
-ABOVE_TOPSITES
-"
 }
 frequency
 :
