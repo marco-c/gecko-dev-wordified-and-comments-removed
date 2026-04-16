@@ -8670,10 +8670,9 @@ errGDIInterop
 )
 )
 ;
-delete
 mSharedFontList
 .
-exchange
+reset
 (
 nullptr
 )
@@ -8726,10 +8725,9 @@ errSystemFontCollection
 )
 )
 ;
-delete
 mSharedFontList
 .
-exchange
+reset
 (
 nullptr
 )
