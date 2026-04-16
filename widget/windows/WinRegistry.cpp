@@ -1834,14 +1834,10 @@ if
 mWaitObject
 )
 {
-UnregisterWait
+UnregisterWaitEx
 (
 mWaitObject
-)
-;
-CloseHandle
-(
-mWaitObject
+INVALID_HANDLE_VALUE
 )
 ;
 }
