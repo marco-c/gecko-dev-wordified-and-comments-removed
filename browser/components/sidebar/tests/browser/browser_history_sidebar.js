@@ -4248,9 +4248,7 @@ dialogWin
 )
 ;
 await
-SidebarTestUtils
-.
-showPanel
+toggleSidebarPanel
 (
 window
 "

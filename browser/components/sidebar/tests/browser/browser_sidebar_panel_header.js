@@ -59,9 +59,7 @@ sidebar
 updateComplete
 ;
 await
-SidebarTestUtils
-.
-showPanel
+toggleSidebarPanel
 (
 win
 "
