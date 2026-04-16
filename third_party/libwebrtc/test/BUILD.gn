@@ -5961,6 +5961,14 @@ transport_api
 /
 api
 /
+environment
+"
+"
+.
+.
+/
+api
+/
 task_queue
 "
 "
@@ -6070,6 +6078,12 @@ rtc_base
 task_utils
 :
 repeating_task
+"
+"
+.
+.
+/
+system_wrappers
 "
 ]
 public_deps

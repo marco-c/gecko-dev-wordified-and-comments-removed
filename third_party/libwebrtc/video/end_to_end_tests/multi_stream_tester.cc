@@ -601,6 +601,7 @@ sender_transport
 =
 CreateSendTransport
 (
+env
 task_queue
 .
 get
@@ -617,6 +618,7 @@ receiver_transport
 =
 CreateReceiveTransport
 (
+env
 task_queue
 .
 get
@@ -1170,6 +1172,10 @@ MultiStreamTester
 :
 CreateSendTransport
 (
+const
+Environment
+&
+env
 TaskQueueBase
 *
 task_queue
@@ -1202,6 +1208,7 @@ test
 DirectTransport
 >
 (
+env
 task_queue
 std
 :
@@ -1211,10 +1218,10 @@ make_unique
 FakeNetworkPipe
 >
 (
-Clock
-:
-:
-GetRealTimeClock
+&
+env
+.
+clock
 (
 )
 std
@@ -1252,6 +1259,10 @@ MultiStreamTester
 :
 CreateReceiveTransport
 (
+const
+Environment
+&
+env
 TaskQueueBase
 *
 task_queue
@@ -1284,6 +1295,7 @@ test
 DirectTransport
 >
 (
+env
 task_queue
 std
 :
@@ -1293,10 +1305,10 @@ make_unique
 FakeNetworkPipe
 >
 (
-Clock
-:
-:
-GetRealTimeClock
+&
+env
+.
+clock
 (
 )
 std
