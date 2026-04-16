@@ -197,6 +197,8 @@ NotifyMaybeReleased
 gfxCharacterMap
 *
 aCmap
+uint32_t
+aHash
 )
 {
 gfxPlatformFontList
@@ -210,6 +212,7 @@ PlatformFontList
 MaybeRemoveCmap
 (
 aCmap
+aHash
 )
 ;
 }

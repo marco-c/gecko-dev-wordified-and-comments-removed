@@ -376,6 +376,11 @@ isShared
 =
 mShared
 ;
+uint32_t
+hash
+=
+mHash
+;
 nsrefcnt
 count
 =
@@ -415,6 +420,7 @@ count
 NotifyMaybeReleased
 (
 this
+hash
 )
 ;
 }
@@ -540,6 +546,8 @@ NotifyMaybeReleased
 gfxCharacterMap
 *
 aCmap
+uint32_t
+aHash
 )
 ;
 void
