@@ -1,7 +1,3 @@
-from
-dataclasses
-import
-dataclass
 import
 random
 import
@@ -25,8 +21,6 @@ import
 Any
 Mapping
 Optional
-Tuple
-Union
 from
 mozlog
 import
@@ -37,7 +31,6 @@ from
 import
 mpcontext
 testloader
-wpttest
 Stop
 =
 object
@@ -1829,37 +1822,36 @@ test_queue
 self
 .
 current_group
-:
-Optional
-[
+=
 testloader
 .
 TestGroup
-]
-=
+(
 None
+None
+None
+None
+)
     
 def
-next_group
+group
 (
 self
 )
 -
 >
-Optional
-[
 testloader
 .
 TestGroup
-]
 :
         
 if
+not
 self
 .
 current_group
-is
-None
+.
+group
 or
 len
 (
@@ -1867,7 +1859,7 @@ self
 .
 current_group
 .
-test_queue
+group
 )
 =
 =
@@ -1889,14 +1881,6 @@ get
 (
 )
                 
-assert
-self
-.
-current_group
-is
-not
-None
-                
 self
 .
 logger
@@ -1915,8 +1899,9 @@ subsuite
 self
 .
 current_group
-.
-subsuite
+[
+1
+]
 !
 r
 }
@@ -1930,8 +1915,9 @@ test_type
 self
 .
 current_group
-.
-test_type
+[
+2
+]
 }
 "
 )
@@ -1941,122 +1927,178 @@ Empty
 :
                 
 return
+testloader
+.
+TestGroup
+(
 None
+None
+None
+None
+)
         
 return
 self
 .
 current_group
-dataclass
 class
-BeforeInitState
+_RunnerManagerState
 :
     
-pass
-dataclass
-class
-InitializingState
-:
+before_init
+=
+namedtuple
+(
+"
+before_init
+"
+[
+]
+)
     
-test_group
-:
-testloader
-.
-TestGroup
-    
+initializing
+=
+namedtuple
+(
+"
+initializing
+"
+                              
+[
+"
+subsuite
+"
+"
+test_type
+"
+"
 test
-:
-wpttest
-.
-Test
-    
+"
+"
+test_group
+"
+                               
+"
+group_metadata
+"
+"
 failure_count
-:
-int
-dataclass
-class
-RunningState
-:
+"
+]
+)
     
-test_group
-:
-testloader
-.
-TestGroup
-    
+running
+=
+namedtuple
+(
+"
+running
+"
+[
+"
+subsuite
+"
+"
+test_type
+"
+"
 test
-:
-wpttest
-.
-Test
-dataclass
-class
-RestartingState
-:
-    
+"
+"
 test_group
-:
-testloader
-.
-TestGroup
+"
+"
+group_metadata
+"
+]
+)
     
+restarting
+=
+namedtuple
+(
+"
+restarting
+"
+[
+"
+subsuite
+"
+"
+test_type
+"
+"
 test
-:
-wpttest
-.
-Test
-    
+"
+"
+test_group
+"
+                                           
+"
+group_metadata
+"
+"
 force_stop
-:
-bool
-dataclass
-class
-SwitchingExecutorState
-:
+"
+]
+)
     
-test_group
-:
-testloader
-.
-TestGroup
-    
+switching_executor
+=
+namedtuple
+(
+"
+switching_executor
+"
+                                    
+[
+"
+subsuite
+"
+"
+test_type
+"
+"
 test
-:
-wpttest
-.
-Test
-dataclass
-class
-ErrorState
-:
+"
+"
+test_group
+"
+"
+group_metadata
+"
+]
+)
     
-pass
-dataclass
-class
-StopState
-:
+error
+=
+namedtuple
+(
+"
+error
+"
+[
+]
+)
     
+stop
+=
+namedtuple
+(
+"
+stop
+"
+[
+"
 force_stop
-:
-bool
+"
+]
+)
 RunnerManagerState
 =
-Union
-[
-BeforeInitState
-                           
-InitializingState
-                           
-RunningState
-                           
-RestartingState
-                           
-SwitchingExecutorState
-                           
-ErrorState
-                           
-StopState
-]
+_RunnerManagerState
+(
+)
 class
 TestRunnerManager
 (
@@ -2438,14 +2480,6 @@ browser
 =
 None
         
-self
-.
-state
-=
-BeforeInitState
-(
-)
-        
 super
 (
 )
@@ -2619,25 +2653,33 @@ dispatch
 =
 {
             
-BeforeInitState
+RunnerManagerState
+.
+before_init
 :
 self
 .
 start_init
             
-InitializingState
+RunnerManagerState
+.
+initializing
 :
 self
 .
 init
             
-RunningState
+RunnerManagerState
+.
+running
 :
 self
 .
 run_test
             
-RestartingState
+RunnerManagerState
+.
+restarting
 :
 self
 .
@@ -2645,20 +2687,26 @@ restart_runner
         
 }
         
-end_states
-=
-(
-StopState
-ErrorState
-)
-        
-assert
-isinstance
-(
 self
 .
 state
-BeforeInitState
+=
+RunnerManagerState
+.
+before_init
+(
+)
+        
+end_states
+=
+(
+RunnerManagerState
+.
+stop
+                      
+RunnerManagerState
+.
+error
 )
         
 try
@@ -2922,7 +2970,10 @@ skipped_tests
 [
 ]
             
-current_group
+test_group
+subsuite
+_
+_
 =
 self
 .
@@ -2931,18 +2982,14 @@ test_source
 current_group
             
 while
-current_group
-.
-test_queue
+test_group
 is
 not
 None
 and
 len
 (
-current_group
-.
-test_queue
+test_group
 )
 >
 0
@@ -2950,9 +2997,7 @@ test_queue
                 
 test
 =
-current_group
-.
-test_queue
+test_group
 .
 popleft
 (
@@ -2985,8 +3030,6 @@ the
 queue
 :
 {
-current_group
-.
 subsuite
 !
 r
@@ -3045,8 +3088,6 @@ the
 queue
 :
 {
-current_group
-.
 subsuite
 !
 r
@@ -3071,7 +3112,9 @@ isinstance
 self
 .
 state
-StopState
+RunnerManagerState
+.
+stop
 )
 or
                           
@@ -3162,12 +3205,16 @@ dispatch
 =
 {
             
-BeforeInitState
+RunnerManagerState
+.
+before_init
 :
 {
 }
             
-InitializingState
+RunnerManagerState
+.
+initializing
 :
             
 {
@@ -3190,7 +3237,9 @@ init_failed
             
 }
             
-RunningState
+RunnerManagerState
+.
+running
 :
             
 {
@@ -3213,7 +3262,9 @@ wait_finished
             
 }
             
-SwitchingExecutorState
+RunnerManagerState
+.
+switching_executor
 :
             
 {
@@ -3236,17 +3287,23 @@ switch_executor_failed
             
 }
             
-RestartingState
+RunnerManagerState
+.
+restarting
 :
 {
 }
             
-ErrorState
+RunnerManagerState
+.
+error
 :
 {
 }
             
-StopState
+RunnerManagerState
+.
+stop
 :
 {
 }
@@ -3327,20 +3384,40 @@ poll
 )
             
 return
-RestartingState
+RunnerManagerState
+.
+restarting
 (
 self
 .
 state
 .
-test_group
-                                   
+subsuite
+                                                 
+self
+.
+state
+.
+test_type
+                                                 
 self
 .
 state
 .
 test
-                                   
+                                                 
+self
+.
+state
+.
+test_group
+                                                 
+self
+.
+state
+.
+group_metadata
+                                                 
 False
 )
         
@@ -3391,7 +3468,9 @@ exited
 )
                 
 return
-StopState
+RunnerManagerState
+.
+stop
 (
 False
 )
@@ -3403,7 +3482,9 @@ isinstance
 self
 .
 state
-RunningState
+RunnerManagerState
+.
+running
 )
 and
                 
@@ -3473,7 +3554,9 @@ complete
 )
                     
 return
-ErrorState
+RunnerManagerState
+.
+error
 (
 )
                 
@@ -3496,20 +3579,34 @@ restarting
 )
                 
 return
-RestartingState
+RunnerManagerState
+.
+restarting
 (
 self
 .
 state
 .
-test_group
-                                       
+test_type
+                                                     
 self
 .
 state
 .
 test
-                                       
+                                                     
+self
+.
+state
+.
+test_group
+                                                     
+self
+.
+state
+.
+group_metadata
+                                                     
 False
 )
         
@@ -3628,30 +3725,17 @@ self
 )
 :
         
-next_test
+subsuite
+test_type
+test
+test_group
+group_metadata
 =
 self
 .
 get_next_test
 (
 )
-        
-if
-next_test
-is
-None
-:
-            
-return
-StopState
-(
-True
-)
-        
-test_group
-test
-=
-next_test
         
 self
 .
@@ -3669,24 +3753,33 @@ init
 ]
 )
         
-self
+if
+test
+is
+None
+:
+            
+return
+RunnerManagerState
 .
-logger
-.
-group_start
+stop
 (
-name
-=
-test_group
-.
-name
+True
 )
         
+else
+:
+            
 return
-InitializingState
+RunnerManagerState
+.
+initializing
 (
-test_group
+subsuite
+test_type
 test
+test_group
+group_metadata
 0
 )
     
@@ -3703,7 +3796,9 @@ isinstance
 self
 .
 state
-InitializingState
+RunnerManagerState
+.
+initializing
 )
         
 if
@@ -3732,7 +3827,9 @@ exceeded
 )
             
 return
-ErrorState
+RunnerManagerState
+.
+error
 (
 )
         
@@ -3818,14 +3915,10 @@ self
 .
 state
 .
-test_group
-.
 subsuite
 self
 .
 state
-.
-test_group
 .
 test_type
 )
@@ -3876,14 +3969,10 @@ self
 .
 state
 .
-test_group
-.
 subsuite
 self
 .
 state
-.
-test_group
 .
 test_type
 )
@@ -3953,14 +4042,10 @@ self
 .
 state
 .
-test_group
-.
 subsuite
 self
 .
 state
-.
-test_group
 .
 test_type
 )
@@ -3998,9 +4083,7 @@ self
 .
 state
 .
-test_group
-.
-metadata
+group_metadata
 )
         
 if
@@ -4034,7 +4117,9 @@ isinstance
 self
 .
 state
-InitializingState
+RunnerManagerState
+.
+initializing
 )
         
 assert
@@ -4076,14 +4161,10 @@ self
 .
 state
 .
-test_group
-.
 subsuite
 self
 .
 state
-.
-test_group
 .
 test_type
 )
@@ -4212,9 +4293,7 @@ self
 .
 state
 .
-test_group
-.
-metadata
+group_metadata
         
 executor_kwargs
 [
@@ -4269,7 +4348,9 @@ isinstance
 self
 .
 state
-InitializingState
+RunnerManagerState
+.
+initializing
 )
         
 self
@@ -4281,19 +4362,39 @@ after_init
 )
         
 return
-RunningState
+RunnerManagerState
+.
+running
 (
 self
 .
 state
 .
-test_group
-                            
+subsuite
+                                          
+self
+.
+state
+.
+test_type
+                                          
 self
 .
 state
 .
 test
+                                          
+self
+.
+state
+.
+test_group
+                                          
+self
+.
+state
+.
+group_metadata
 )
     
 def
@@ -4309,7 +4410,9 @@ isinstance
 self
 .
 state
-InitializingState
+RunnerManagerState
+.
+initializing
 )
         
 self
@@ -4339,20 +4442,40 @@ True
 )
         
 return
-InitializingState
+RunnerManagerState
+.
+initializing
 (
 self
 .
 state
 .
-test_group
-                                 
+subsuite
+                                               
+self
+.
+state
+.
+test_type
+                                               
 self
 .
 state
 .
 test
-                                 
+                                               
+self
+.
+state
+.
+test_group
+                                               
+self
+.
+state
+.
+group_metadata
+                                               
 self
 .
 state
@@ -4367,41 +4490,13 @@ get_next_test
 (
 self
 )
--
->
-Optional
-[
-Tuple
-[
-testloader
-.
-TestGroup
-wpttest
-.
-Test
-]
-]
 :
         
 test
-:
-Optional
-[
-wpttest
-.
-Test
-]
 =
 None
         
 test_group
-:
-Optional
-[
-testloader
-.
-TestGroup
-]
 =
 None
         
@@ -4419,8 +4514,6 @@ or
 len
 (
 test_group
-.
-test_queue
 )
 =
 =
@@ -4428,12 +4521,15 @@ test_queue
 :
                 
 test_group
+subsuite
+test_type
+group_metadata
 =
 self
 .
 test_source
 .
-next_group
+group
 (
 )
                 
@@ -4458,12 +4554,14 @@ tests
                     
 return
 None
+None
+None
+None
+None
             
 test
 =
 test_group
-.
-test_queue
 .
 popleft
 (
@@ -4475,15 +4573,12 @@ run_count
 =
 0
         
-assert
-test_group
-is
-not
-None
-        
 return
-test_group
+subsuite
+test_type
 test
+test_group
+group_metadata
     
 def
 run_test
@@ -4498,7 +4593,9 @@ isinstance
 self
 .
 state
-RunningState
+RunnerManagerState
+.
+running
 )
         
 assert
@@ -4543,20 +4640,40 @@ environment
 )
             
 return
-RestartingState
+RunnerManagerState
+.
+restarting
 (
 self
 .
 state
 .
-test_group
-                                   
+subsuite
+                                                 
+self
+.
+state
+.
+test_type
+                                                 
 self
 .
 state
 .
 test
-                                   
+                                                 
+self
+.
+state
+.
+test_group
+                                                 
+self
+.
+state
+.
+group_metadata
+                                                 
 False
 )
         
@@ -4613,8 +4730,6 @@ subsuite
 self
 .
 state
-.
-test_group
 .
 subsuite
 )
@@ -4899,7 +5014,9 @@ isinstance
 self
 .
 state
-RunningState
+RunnerManagerState
+.
+running
 )
 )
 or
@@ -5202,8 +5319,6 @@ self
 .
 state
 .
-test_group
-.
 subsuite
 )
         
@@ -5400,8 +5515,6 @@ self
 .
 state
 .
-test_group
-.
 subsuite
 test
 .
@@ -5426,8 +5539,6 @@ unexpected_fail_tests
 self
 .
 state
-.
-test_group
 .
 subsuite
 test
@@ -5590,8 +5701,6 @@ subsuite
 self
 .
 state
-.
-test_group
 .
 subsuite
 )
@@ -5772,7 +5881,9 @@ isinstance
 self
 .
 state
-RunningState
+RunnerManagerState
+.
+running
 )
         
 self
@@ -5817,23 +5928,45 @@ isinstance
 self
 .
 state
-SwitchingExecutorState
+RunnerManagerState
+.
+switching_executor
 )
         
 return
-RunningState
+RunnerManagerState
+.
+running
 (
 self
 .
 state
 .
-test_group
-                            
+subsuite
+                                          
+self
+.
+state
+.
+test_type
+                                          
 self
 .
 state
 .
 test
+                                          
+self
+.
+state
+.
+test_group
+                                          
+self
+.
+state
+.
+group_metadata
 )
     
 def
@@ -5849,24 +5982,46 @@ isinstance
 self
 .
 state
-SwitchingExecutorState
+RunnerManagerState
+.
+switching_executor
 )
         
 return
-RestartingState
+RunnerManagerState
+.
+restarting
 (
 self
 .
 state
 .
-test_group
-                               
+subsuite
+                                             
+self
+.
+state
+.
+test_type
+                                             
 self
 .
 state
 .
 test
-                               
+                                             
+self
+.
+state
+.
+test_group
+                                             
+self
+.
+state
+.
+group_metadata
+                                             
 False
 )
     
@@ -5891,7 +6046,9 @@ isinstance
 self
 .
 state
-RunningState
+RunnerManagerState
+.
+running
 )
         
 if
@@ -5908,7 +6065,11 @@ self
 rerun
 :
             
-next_test
+subsuite
+test_type
+test
+test_group
+group_metadata
 =
 self
 .
@@ -5917,91 +6078,26 @@ get_next_test
 )
             
 if
-next_test
+test
 is
 None
 :
                 
-self
-.
-logger
-.
-group_end
-(
-name
-=
-self
-.
-state
-.
-test_group
-.
-name
-)
-                
 return
-StopState
+RunnerManagerState
+.
+stop
 (
 force_stop
 )
             
-test_group
-test
-=
-next_test
-            
 if
-test_group
-is
-not
-self
-.
-state
-.
-test_group
-:
-                
-self
-.
-logger
-.
-group_end
-(
-name
-=
-self
-.
-state
-.
-test_group
-.
-name
-)
-                
-self
-.
-logger
-.
-group_start
-(
-name
-=
-test_group
-.
-name
-)
-            
-if
-test_group
-.
 subsuite
 !
 =
 self
 .
 state
-.
-test_group
 .
 subsuite
 :
@@ -6021,8 +6117,6 @@ new
 subsuite
 :
 {
-test_group
-.
 subsuite
 !
 r
@@ -6070,16 +6164,12 @@ restart
 True
             
 elif
-test_group
-.
 test_type
 !
 =
 self
 .
 state
-.
-test_group
 .
 test_type
 :
@@ -6093,14 +6183,10 @@ browser
 .
 restart_on_test_type_change
 (
-test_group
-.
 test_type
 self
 .
 state
-.
-test_group
 .
 test_type
 )
@@ -6122,8 +6208,6 @@ test
 type
 :
 {
-test_group
-.
 test_type
 }
 "
@@ -6156,15 +6240,11 @@ self
 .
 state
 .
-test_group
-.
 test_type
 }
 =
 >
 {
-test_group
-.
 test_type
 }
 "
@@ -6176,11 +6256,7 @@ self
 .
 test_implementations
 [
-test_group
-.
 subsuite
-test_group
-.
 test_type
 ]
                     
@@ -6208,15 +6284,37 @@ executor_implementation
 )
                     
 return
-SwitchingExecutorState
+RunnerManagerState
+.
+switching_executor
 (
-test_group
+                        
+subsuite
+test_type
 test
+test_group
+group_metadata
 )
         
 else
 :
             
+subsuite
+=
+self
+.
+state
+.
+subsuite
+            
+test_type
+=
+self
+.
+state
+.
+test_type
+            
 test_group
 =
 self
@@ -6225,23 +6323,29 @@ state
 .
 test_group
             
-test
+group_metadata
 =
 self
 .
 state
 .
-test
+group_metadata
         
 if
 restart
 :
             
 return
-RestartingState
+RunnerManagerState
+.
+restarting
 (
-test_group
+                
+subsuite
+test_type
 test
+test_group
+group_metadata
 force_stop
 )
         
@@ -6249,10 +6353,16 @@ else
 :
             
 return
-RunningState
+RunnerManagerState
+.
+running
 (
-test_group
+                
+subsuite
+test_type
 test
+test_group
+group_metadata
 )
     
 def
@@ -6280,7 +6390,9 @@ isinstance
 self
 .
 state
-RestartingState
+RunnerManagerState
+.
+restarting
 )
         
 self
@@ -6297,8 +6409,27 @@ force_stop
 )
         
 return
-InitializingState
+RunnerManagerState
+.
+initializing
 (
+            
+self
+.
+state
+.
+subsuite
+self
+.
+state
+.
+test_type
+self
+.
+state
+.
+test
+            
 self
 .
 state
@@ -6308,7 +6439,7 @@ self
 .
 state
 .
-test
+group_metadata
 0
 )
     

@@ -8424,8 +8424,6 @@ executor
 .
 group_metadata
 .
-extra
-.
 get
 (
 "

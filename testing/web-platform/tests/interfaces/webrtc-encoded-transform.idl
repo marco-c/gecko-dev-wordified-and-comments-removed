@@ -58,7 +58,7 @@ transform
 )
 typedef
 (
-RTCSFrameSenderTransform
+SFrameSenderTransform
 or
 RTCRtpScriptTransform
 )
@@ -66,7 +66,7 @@ RTCRtpSenderTransform
 ;
 typedef
 (
-RTCSFrameReceiverTransform
+SFrameReceiverTransform
 or
 RTCRtpScriptTransform
 )
@@ -224,7 +224,7 @@ Exposed
 Window
 ]
 interface
-RTCSFrameSenderTransform
+SFrameSenderTransform
 {
 constructor
 (
@@ -238,7 +238,7 @@ options
 ;
 }
 ;
-RTCSFrameSenderTransform
+SFrameSenderTransform
 includes
 SFrameEncrypterManager
 ;
@@ -248,7 +248,7 @@ Exposed
 Window
 ]
 interface
-RTCSFrameReceiverTransform
+SFrameReceiverTransform
 :
 EventTarget
 {
@@ -264,7 +264,7 @@ options
 ;
 }
 ;
-RTCSFrameReceiverTransform
+SFrameReceiverTransform
 includes
 SFrameDecrypterManager
 ;

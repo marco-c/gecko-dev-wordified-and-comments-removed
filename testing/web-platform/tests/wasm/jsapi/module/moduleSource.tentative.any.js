@@ -208,8 +208,13 @@ Module
 "
 )
 ;
-assert_equals
+assert_throws_js
 (
+TypeError
+(
+)
+=
+>
 toStringTag
 .
 call
@@ -217,7 +222,6 @@ call
 {
 }
 )
-undefined
 )
 ;
 }

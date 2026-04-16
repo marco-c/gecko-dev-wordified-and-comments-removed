@@ -850,7 +850,11 @@ wast
 :
 55
 "
+"
+ref
+.
 null
+"
 )
 ;
 assert_return
