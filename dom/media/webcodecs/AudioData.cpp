@@ -2766,6 +2766,8 @@ data
 aCopyToSpec
 .
 mFrameOffset
+*
+aSourceChannelCount
 aDest
 .
 data
