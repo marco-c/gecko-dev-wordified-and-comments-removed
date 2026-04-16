@@ -989,17 +989,6 @@ getErrorConfig
 id
 )
 ;
-if
-(
-!
-baseConfig
-)
-{
-return
-{
-}
-;
-}
 const
 introContentHandler
 =
@@ -1017,6 +1006,8 @@ resolveManyL10nArgs
 resolveL10nArgs
 ;
 return
+baseConfig
+?
 {
 .
 .
@@ -1058,6 +1049,9 @@ baseConfig
 advanced
 l10nArgValues
 )
+}
+:
+{
 }
 ;
 }

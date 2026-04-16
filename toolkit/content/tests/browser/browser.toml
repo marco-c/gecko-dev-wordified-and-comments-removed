@@ -1008,13 +1008,6 @@ js
 ]
 [
 "
-browser_felt_privacy_fallback
-.
-js
-"
-]
-[
-"
 browser_findbar
 .
 js
