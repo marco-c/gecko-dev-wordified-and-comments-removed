@@ -5857,6 +5857,18 @@ True
             
 return
         
+self
+.
+log
+.
+test_start
+(
+name
+group
+=
+group
+)
+        
 expect_pass
 =
 self
@@ -6510,18 +6522,6 @@ None
         
 try
 :
-            
-self
-.
-log
-.
-test_start
-(
-name
-group
-=
-group
-)
             
 if
 self
