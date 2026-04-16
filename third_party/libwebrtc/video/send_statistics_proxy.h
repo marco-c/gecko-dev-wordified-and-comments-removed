@@ -930,6 +930,12 @@ vp9
 SampleCounter
 h264
 ;
+SampleCounter
+av1
+;
+SampleCounter
+h265
+;
 }
 ;
 struct
