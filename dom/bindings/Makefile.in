@@ -243,16 +243,6 @@ include
 codegen
 .
 pp
-WEBIDL_CCACHE
-=
-ifdef
-MOZ_USING_BUILDCACHE
-WEBIDL_CCACHE
-=
-(
-CCACHE
-)
-endif
 webidl
 .
 stub
@@ -269,9 +259,6 @@ relativesrcdir
 )
 (
 srcdir
-)
-(
-WEBIDL_CCACHE
 )
 )
 (
