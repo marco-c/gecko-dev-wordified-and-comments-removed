@@ -841,6 +841,16 @@ milliseconds
 0
 )
 {
+if
+(
+abortSignal
+.
+aborted
+)
+{
+return
+;
+}
 const
 msUntilTrigger
 =
