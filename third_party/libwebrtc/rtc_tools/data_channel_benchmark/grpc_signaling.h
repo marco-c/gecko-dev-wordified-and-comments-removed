@@ -123,6 +123,14 @@ default
 ;
 virtual
 bool
+Connect
+(
+)
+=
+0
+;
+virtual
+bool
 Start
 (
 )
