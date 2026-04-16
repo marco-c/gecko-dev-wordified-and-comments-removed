@@ -613,11 +613,9 @@ entry_point
 "
 generate_run_js
 "
-flags
+inputs
 =
 [
-TOPSRCDIR
-+
 "
 /
 browser
@@ -630,8 +628,6 @@ run
 .
 js
 "
-TOPSRCDIR
-+
 "
 /
 browser
