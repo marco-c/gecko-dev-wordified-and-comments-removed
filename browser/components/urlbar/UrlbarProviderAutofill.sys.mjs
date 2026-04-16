@@ -5268,7 +5268,7 @@ block_until_ms
 :
 nowMs
 OR
-strip_prefix_and_userinfo
+fixup_url
 (
 h
 .
@@ -5309,7 +5309,7 @@ block_pages_until_ms
 :
 nowMs
 OR
-strip_prefix_and_userinfo
+fixup_url
 (
 h
 .
