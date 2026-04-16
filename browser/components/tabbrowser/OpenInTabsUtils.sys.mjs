@@ -170,7 +170,7 @@ warnOnOpen
 "
 ;
 const
-MAX_OPNE_PREF
+MAX_OPEN_PREF
 =
 "
 browser
@@ -207,7 +207,7 @@ prefs
 .
 getIntPref
 (
-MAX_OPNE_PREF
+MAX_OPEN_PREF
 )
 )
 {
