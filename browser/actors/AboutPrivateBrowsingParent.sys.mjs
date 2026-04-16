@@ -694,6 +694,8 @@ forceSuppressFocusBorder
 ;
 urlBar
 .
+inputField
+.
 removeEventListener
 (
 "
@@ -703,6 +705,8 @@ onKeydown
 )
 ;
 urlBar
+.
+inputField
 .
 removeEventListener
 (
@@ -714,6 +718,8 @@ onDone
 ;
 urlBar
 .
+inputField
+.
 removeEventListener
 (
 "
@@ -724,6 +730,8 @@ onDone
 ;
 urlBar
 .
+inputField
+.
 removeEventListener
 (
 "
@@ -733,6 +741,8 @@ checkFirstChange
 )
 ;
 urlBar
+.
+inputField
 .
 removeEventListener
 (
@@ -746,6 +756,8 @@ checkFirstChange
 ;
 urlBar
 .
+inputField
+.
 addEventListener
 (
 "
@@ -755,6 +767,8 @@ onKeydown
 )
 ;
 urlBar
+.
+inputField
 .
 addEventListener
 (
@@ -766,6 +780,8 @@ onDone
 ;
 urlBar
 .
+inputField
+.
 addEventListener
 (
 "
@@ -776,6 +792,8 @@ onDone
 ;
 urlBar
 .
+inputField
+.
 addEventListener
 (
 "
@@ -785,6 +803,8 @@ checkFirstChange
 )
 ;
 urlBar
+.
+inputField
 .
 addEventListener
 (
