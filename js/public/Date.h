@@ -471,16 +471,6 @@ GetReduceMicrosecondTimePrecisionCallback
 )
 ;
 JS_PUBLIC_API
-void
-SetTimeResolutionUsec
-(
-uint32_t
-resolution
-bool
-jitter
-)
-;
-JS_PUBLIC_API
 bool
 IsISOStyleDate
 (

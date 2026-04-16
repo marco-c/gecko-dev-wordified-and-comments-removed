@@ -380,13 +380,6 @@ function
 )
 {
 }
-setTimeResolution
-:
-function
-(
-)
-{
-}
 options
 :
 function
