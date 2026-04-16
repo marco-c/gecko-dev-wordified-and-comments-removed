@@ -1148,8 +1148,16 @@ TimeStamp
 aTime
 )
 {
-return
+RefPtr
+<
+Image
+>
+inner
+=
 mInnerImage
+;
+return
+inner
 -
 >
 RequestRefresh
