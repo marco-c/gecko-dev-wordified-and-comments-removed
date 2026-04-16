@@ -9090,6 +9090,9 @@ row_info
 >
 rowbytes
 =
+(
+size_t
+)
 row_width
 *
 row_info
@@ -9776,6 +9779,9 @@ row_info
 >
 rowbytes
 =
+(
+size_t
+)
 row_info
 -
 >
@@ -9893,6 +9899,9 @@ row_info
 >
 rowbytes
 =
+(
+size_t
+)
 row_info
 -
 >
@@ -11046,6 +11055,9 @@ row_info
 >
 rowbytes
 =
+(
+size_t
+)
 row_width
 *
 2
@@ -11131,6 +11143,9 @@ row_info
 >
 rowbytes
 =
+(
+size_t
+)
 row_width
 *
 2
@@ -11287,6 +11302,9 @@ row_info
 >
 rowbytes
 =
+(
+size_t
+)
 row_width
 *
 4
@@ -11399,6 +11417,9 @@ row_info
 >
 rowbytes
 =
+(
+size_t
+)
 row_width
 *
 4
@@ -11560,6 +11581,9 @@ row_info
 >
 rowbytes
 =
+(
+size_t
+)
 row_width
 *
 4
@@ -11675,6 +11699,9 @@ row_info
 >
 rowbytes
 =
+(
+size_t
+)
 row_width
 *
 4
@@ -11887,6 +11914,9 @@ row_info
 >
 rowbytes
 =
+(
+size_t
+)
 row_width
 *
 8
@@ -12055,6 +12085,9 @@ row_info
 >
 rowbytes
 =
+(
+size_t
+)
 row_width
 *
 8
@@ -21080,6 +21113,9 @@ row_info
 >
 rowbytes
 =
+(
+size_t
+)
 row_width
 *
 4
@@ -21119,11 +21155,9 @@ row
 (
 size_t
 )
-(
 row_width
 *
 3
-)
 -
 1
 ;
@@ -21230,6 +21264,9 @@ row_info
 >
 rowbytes
 =
+(
+size_t
+)
 row_width
 *
 3
