@@ -464,7 +464,7 @@ panel
 -
 list
 .
-js
+mjs
 "
 )
 ;

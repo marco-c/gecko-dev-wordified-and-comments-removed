@@ -459,7 +459,7 @@ panel
 -
 list
 .
-js
+mjs
 ]
 (
 https
@@ -490,7 +490,7 @@ panel
 -
 list
 .
-js
+mjs
 )
 .
 You
@@ -690,7 +690,12 @@ panel
 -
 list
 .
-js
+mjs
+"
+type
+=
+"
+module
 "
 >
 <

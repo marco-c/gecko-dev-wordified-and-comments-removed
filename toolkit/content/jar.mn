@@ -2981,7 +2981,7 @@ panel
 -
 list
 .
-js
+mjs
 (
 widgets
 /
@@ -2993,7 +2993,7 @@ panel
 -
 list
 .
-js
+mjs
 )
 content
 /

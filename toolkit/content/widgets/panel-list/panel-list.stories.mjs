@@ -64,7 +64,7 @@ panel
 -
 list
 .
-js
+mjs
 "
 ;
 import

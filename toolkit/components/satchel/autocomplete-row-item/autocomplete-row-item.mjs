@@ -133,7 +133,7 @@ panel
 -
 list
 .
-js
+mjs
 "
 ;
 class

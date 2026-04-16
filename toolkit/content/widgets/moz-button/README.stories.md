@@ -1691,7 +1691,7 @@ panel
 -
 list
 .
-js
+mjs
 )
 component
 which

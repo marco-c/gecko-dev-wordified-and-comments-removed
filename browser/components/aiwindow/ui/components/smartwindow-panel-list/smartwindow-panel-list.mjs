@@ -135,7 +135,7 @@ panel
 -
 list
 .
-js
+mjs
 "
 ;
 /
