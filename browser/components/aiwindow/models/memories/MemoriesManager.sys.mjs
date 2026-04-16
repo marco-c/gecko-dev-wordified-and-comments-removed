@@ -3257,7 +3257,7 @@ delete
 *
 param
 {
-boolean
+string
 }
 trigger
 What

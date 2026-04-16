@@ -4312,6 +4312,9 @@ generateConversationStartersSidebar
 contextTabs
 2
 memoriesEnabled
+this
+.
+conversationId
 )
 .
 catch
@@ -7136,6 +7139,9 @@ description
 "
 }
 assistantResponse
+this
+.
+conversationId
 )
 ;
 const
@@ -7715,6 +7721,9 @@ CHAT
 lazy
 .
 DEFAULT_ENGINE_ID
+this
+.
+conversationId
 )
 ;
 if

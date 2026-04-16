@@ -1777,7 +1777,7 @@ id
 *
 param
 {
-boolean
+string
 }
 trigger
 *
