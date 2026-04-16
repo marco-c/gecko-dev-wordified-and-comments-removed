@@ -121,8 +121,6 @@ Element
 element
 )
 pseudo
-.
-mType
 )
 ;
 return
@@ -207,8 +205,6 @@ Element
 element
 )
 pseudo
-.
-mType
 )
 ;
 return
