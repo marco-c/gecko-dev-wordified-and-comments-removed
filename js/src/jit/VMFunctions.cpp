@@ -7560,7 +7560,7 @@ return
 true
 ;
 }
-bool
+void
 InitBaselineFrameForOsr
 (
 BaselineFrame
@@ -7573,7 +7573,6 @@ uint32_t
 numStackValues
 )
 {
-return
 frame
 -
 >

@@ -676,7 +676,7 @@ nullptr
 ;
 }
 }
-bool
+void
 BaselineFrame
 :
 :
@@ -973,9 +973,6 @@ isDebuggee
 )
 )
 {
-if
-(
-!
 DebugAPI
 :
 :
@@ -985,18 +982,10 @@ cx
 fp
 this
 )
-)
-{
-return
-false
 ;
-}
 setIsDebuggee
 (
 )
 ;
 }
-return
-true
-;
 }

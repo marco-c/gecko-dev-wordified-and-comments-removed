@@ -1938,12 +1938,7 @@ Scope
 scope
 )
 ;
-[
-[
-nodiscard
-]
-]
-bool
+void
 InitBaselineFrameForOsr
 (
 BaselineFrame

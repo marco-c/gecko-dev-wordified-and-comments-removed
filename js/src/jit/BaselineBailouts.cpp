@@ -8596,7 +8596,6 @@ setIsDebuggee
 (
 )
 ;
-return
 DebugAPI
 :
 :

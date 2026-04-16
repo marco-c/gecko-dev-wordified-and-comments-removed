@@ -4123,13 +4123,8 @@ firstBreakpoint
 )
 const
 ;
-[
-[
-nodiscard
-]
-]
 static
-bool
+void
 replaceFrameGuts
 (
 JSContext
