@@ -201,6 +201,12 @@ in
 tree
 "
 ]
+tsan
+-
+annotations
+=
+[
+]
 vpio
 -
 forcelist
