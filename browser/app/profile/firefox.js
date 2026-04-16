@@ -26374,3 +26374,15 @@ locked
 ;
 #
 endif
+pref
+(
+"
+browser
+.
+contentsharing
+.
+enabled
+"
+false
+)
+;
