@@ -11245,6 +11245,8 @@ active
 =
 false
 ;
+EXPECT_TRUE
+(
 video_rtp_sender_
 -
 >
@@ -11253,6 +11255,11 @@ SetParametersInternal
 new_parameters
 nullptr
 true
+)
+.
+ok
+(
+)
 )
 ;
 new_parameters
@@ -11266,6 +11273,8 @@ active
 =
 true
 ;
+EXPECT_TRUE
+(
 video_rtp_sender_
 -
 >
@@ -11274,6 +11283,11 @@ SetParametersInternal
 new_parameters
 nullptr
 true
+)
+.
+ok
+(
+)
 )
 ;
 parameters

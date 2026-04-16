@@ -547,6 +547,7 @@ RtpParameters
 rtp_parameters
 ArrayView
 <
+const
 Codec
 >
 send_codecs
@@ -918,6 +919,7 @@ RtpParameters
 rtp_parameters
 ArrayView
 <
+const
 Codec
 >
 send_codecs
@@ -1733,6 +1735,7 @@ RtpParameters
 rtp_parameters
 ArrayView
 <
+const
 Codec
 >
 send_codecs
