@@ -1152,12 +1152,6 @@ set
 true
 )
 ;
-redirector
-.
-resumeNewTabLoads
-(
-)
-;
 }
 catch
 (
