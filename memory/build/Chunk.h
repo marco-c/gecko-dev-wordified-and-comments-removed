@@ -364,8 +364,6 @@ void
 aChunk
 size_t
 aSize
-ChunkType
-aType
 )
 ;
 #

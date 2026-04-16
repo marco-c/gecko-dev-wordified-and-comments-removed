@@ -5470,7 +5470,6 @@ void
 )
 chunk
 kChunkSize
-ARENA_CHUNK
 )
 ;
 }
@@ -5672,7 +5671,6 @@ void
 )
 chunk_to_release
 kChunkSize
-ARENA_CHUNK
 )
 ;
 }
@@ -11660,7 +11658,6 @@ void
 )
 chunk_dealloc_delay
 kChunkSize
-ARENA_CHUNK
 )
 ;
 }
@@ -13151,7 +13148,6 @@ arena_chunk_dealloc
 (
 mSpare
 kChunkSize
-ARENA_CHUNK
 )
 ;
 }
@@ -14405,7 +14401,6 @@ node
 >
 mAddr
 mapped
-HUGE_CHUNK
 )
 ;
 delete
