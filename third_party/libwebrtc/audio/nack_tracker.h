@@ -141,8 +141,14 @@ uint16_t
 >
 GetNackList
 (
-int64_t
-round_trip_time_ms
+std
+:
+:
+optional
+<
+TimeDelta
+>
+round_trip_time
 )
 ;
 void
