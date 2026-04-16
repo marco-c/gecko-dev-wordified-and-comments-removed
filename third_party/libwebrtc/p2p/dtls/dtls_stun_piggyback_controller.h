@@ -151,9 +151,12 @@ AnyInvocable
 <
 void
 (
+bool
 )
+&
+&
 >
-complete_callback
+piggyback_complete_callback
 )
 ;
 ~
@@ -401,11 +404,12 @@ AnyInvocable
 <
 void
 (
+bool
 )
 &
 &
 >
-complete_callback_
+piggyback_complete_callback_
 RTC_GUARDED_BY
 (
 sequence_checker_
@@ -432,6 +436,8 @@ data_recv_count_
 void
 CallCompleteCallback
 (
+bool
+success
 )
 ;
 RTC_NO_UNIQUE_ADDRESS

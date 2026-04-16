@@ -660,10 +660,13 @@ data
 this
 ]
 (
+bool
+success
 )
 {
 ClientCompleteCallback
 (
+success
 )
 ;
 }
@@ -692,10 +695,13 @@ data
 this
 ]
 (
+bool
+success
 )
 {
 ServerCompleteCallback
 (
+success
 )
 ;
 }
@@ -1261,6 +1267,7 @@ MOCK_METHOD
 void
 ClientCompleteCallback
 (
+bool
 )
 )
 ;
@@ -1269,6 +1276,7 @@ MOCK_METHOD
 void
 ServerCompleteCallback
 (
+bool
 )
 )
 ;
@@ -1405,6 +1413,9 @@ EXPECT_CALL
 *
 this
 ClientCompleteCallback
+(
+true
+)
 )
 ;
 SendServerToClientEmbedded
@@ -1418,6 +1429,9 @@ EXPECT_CALL
 *
 this
 ServerCompleteCallback
+(
+true
+)
 )
 ;
 SendClientToServerEmbedded
@@ -1893,6 +1907,9 @@ EXPECT_CALL
 *
 this
 ServerCompleteCallback
+(
+true
+)
 )
 ;
 SendClientToServerEmbedded
@@ -1932,6 +1949,9 @@ EXPECT_CALL
 *
 this
 ClientCompleteCallback
+(
+true
+)
 )
 ;
 SendServerToClientEmbedded
@@ -2184,6 +2204,9 @@ EXPECT_CALL
 *
 this
 ServerCompleteCallback
+(
+true
+)
 )
 ;
 SendClientToServerEmbedded
@@ -2197,6 +2220,9 @@ EXPECT_CALL
 *
 this
 ClientCompleteCallback
+(
+true
+)
 )
 ;
 SendServerToClientEmbedded
@@ -2319,6 +2345,9 @@ EXPECT_CALL
 *
 this
 ClientCompleteCallback
+(
+true
+)
 )
 ;
 SendServerToClientEmbedded
@@ -2332,6 +2361,9 @@ EXPECT_CALL
 *
 this
 ServerCompleteCallback
+(
+true
+)
 )
 ;
 SendClientToServerEmbedded
