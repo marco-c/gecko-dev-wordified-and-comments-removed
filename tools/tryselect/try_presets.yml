@@ -1921,6 +1921,8 @@ browser
 -
 chrome
 !
+standalone
+!
 spi
 !
 asan
@@ -1942,6 +1944,8 @@ linux
 mochitest
 -
 chrome
+!
+standalone
 !
 spi
 !
@@ -3400,6 +3404,8 @@ query
 browser
 -
 chrome
+!
+standalone
 !
 tsan
 !
