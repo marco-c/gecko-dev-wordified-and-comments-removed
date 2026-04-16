@@ -72,11 +72,6 @@ fuzz
 -
 coverage
 "
-"
-clang
--
-tidy
-"
 )
 :
             

@@ -187,11 +187,9 @@ unsigned
 int
 tmp
 ;
-unsigned
 int
 fullblocks
 ;
-unsigned
 int
 written
 ;

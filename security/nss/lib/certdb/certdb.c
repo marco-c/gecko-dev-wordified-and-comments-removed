@@ -4857,9 +4857,6 @@ break
 case
 dhKey
 :
-case
-kyberKey
-:
 requiredUsage
 |
 =

@@ -1201,8 +1201,6 @@ inOff
 -
 2
 outOff
--
-8
 "
 {
 PROFTOOL
@@ -1229,8 +1227,6 @@ inOff
 -
 2
 outOff
--
-8
 if
 [
 ?

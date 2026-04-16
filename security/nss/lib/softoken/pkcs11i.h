@@ -4004,8 +4004,6 @@ op
 SFTKObject
 *
 source
-CK_ULONG
-targetKeySize
 )
 ;
 void
