@@ -4642,11 +4642,7 @@ isWriteOnly
 {
 UpdateFilter
 (
-true
-)
-;
-EnsureTarget
-(
+false
 )
 ;
 }
