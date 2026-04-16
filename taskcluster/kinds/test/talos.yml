@@ -5194,13 +5194,6 @@ default
 [
 trunk
 ]
-max
--
-run
--
-time
-:
-2100
 mozharness
 :
 extra
