@@ -149,10 +149,6 @@ PDigitalCredential
 ;
 include
 protocol
-PSerialManager
-;
-include
-protocol
 PWebAuthnTransaction
 ;
 include
@@ -579,9 +575,6 @@ PInProcess
 ;
 manages
 PDigitalCredential
-;
-manages
-PSerialManager
 ;
 manages
 PWebAuthnTransaction
@@ -1633,11 +1626,6 @@ RecordUserInteractionForPermissions
 ;
 async
 PDigitalCredential
-(
-)
-;
-async
-PSerialManager
 (
 )
 ;
