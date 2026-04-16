@@ -21,11 +21,6 @@ numeric
 #
 include
 <
-ostream
->
-#
-include
-<
 string
 >
 #
