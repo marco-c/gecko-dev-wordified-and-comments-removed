@@ -1842,9 +1842,6 @@ ERROR
 val
 =
 (
-uint8_t
-)
-(
 GET_BYTE
 )
 ;
@@ -1898,9 +1895,6 @@ unsigned
 int
 tmp
 =
-(
-uint8_t
-)
 (
 GET_BYTE
 )
@@ -1967,9 +1961,6 @@ ERROR
 val
 =
 (
-uint16_t
-)
-(
 GET_16BIT
 )
 ;
@@ -1995,9 +1986,6 @@ hi
 \
 val
 =
-(
-uint16_t
-)
 (
 GET_16BIT
 )

@@ -745,9 +745,6 @@ m
 #
 elif
 ARCH_X86
-&
-&
-HAVE_X86ASM
 ff_init_lls_x86
 (
 m

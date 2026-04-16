@@ -99,7 +99,7 @@ x86_reg
 ;
 #
 define
-FF_REG_SP
+FF_REG_sp
 "
 rsp
 "
@@ -190,7 +190,7 @@ x86_reg
 ;
 #
 define
-FF_REG_SP
+FF_REG_sp
 "
 esp
 "

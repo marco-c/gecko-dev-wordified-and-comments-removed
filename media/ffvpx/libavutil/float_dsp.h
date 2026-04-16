@@ -262,7 +262,7 @@ len
 AVFloatDSPContext
 ;
 float
-ff_scalarproduct_float_c
+avpriv_scalarproduct_float_c
 (
 const
 float

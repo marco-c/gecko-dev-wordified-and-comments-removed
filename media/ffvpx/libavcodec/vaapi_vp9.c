@@ -67,11 +67,6 @@ AVCodecContext
 avctx
 av_unused
 const
-AVBufferRef
-*
-buffer_ref
-av_unused
-const
 uint8_t
 *
 buffer

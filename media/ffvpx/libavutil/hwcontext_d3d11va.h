@@ -64,12 +64,6 @@ void
 *
 lock_ctx
 ;
-UINT
-BindFlags
-;
-UINT
-MiscFlags
-;
 }
 AVD3D11VADeviceContext
 ;

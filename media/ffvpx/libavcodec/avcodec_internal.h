@@ -56,8 +56,6 @@ struct
 AVFrame
 *
 frame
-unsigned
-flags
 )
 ;
 int
@@ -194,8 +192,6 @@ avctx
 AVFrame
 *
 frame
-unsigned
-flags
 )
 ;
 int

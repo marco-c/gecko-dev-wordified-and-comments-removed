@@ -4401,6 +4401,9 @@ avctx
 frame
 )
 ;
+unsigned
+i
+;
 #
 if
 CONFIG_D3D12VA
@@ -4496,7 +4499,6 @@ if
 CONFIG_DXVA2
 for
 (
-unsigned
 i
 =
 0

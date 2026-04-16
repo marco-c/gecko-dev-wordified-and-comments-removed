@@ -3,15 +3,6 @@ include
 "
 libavutil
 /
-attributes
-.
-h
-"
-#
-include
-"
-libavutil
-/
 mem
 .
 h
@@ -870,7 +861,6 @@ version
 LIBAVUTIL_VERSION_INT
 }
 ;
-av_cold
 const
 AVClass
 *
@@ -884,7 +874,6 @@ return
 avdct_class
 ;
 }
-av_cold
 AVDCT
 *
 avcodec_dct_alloc
@@ -929,7 +918,6 @@ return
 dsp
 ;
 }
-av_cold
 int
 avcodec_dct_init
 (
@@ -1081,10 +1069,7 @@ ff_pixblockdsp_init
 (
 &
 pdsp
-dsp
--
->
-bits_per_sample
+avctx
 )
 ;
 COPY

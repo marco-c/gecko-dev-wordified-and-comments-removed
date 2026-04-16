@@ -3898,7 +3898,6 @@ endmacro
 %
 define
 has_epilogue
-(
 regs_used
 >
 7
@@ -3917,7 +3916,6 @@ xmm_regs_used
 6
 +
 high_mm_regs
-)
 %
 macro
 RET
@@ -4152,7 +4150,6 @@ endmacro
 %
 define
 has_epilogue
-(
 regs_used
 >
 9
@@ -4164,7 +4161,6 @@ stack_size
 |
 |
 vzeroupper_required
-)
 %
 macro
 RET
@@ -4480,7 +4476,6 @@ endmacro
 %
 define
 has_epilogue
-(
 regs_used
 >
 3
@@ -4492,7 +4487,6 @@ stack_size
 |
 |
 vzeroupper_required
-)
 %
 macro
 RET

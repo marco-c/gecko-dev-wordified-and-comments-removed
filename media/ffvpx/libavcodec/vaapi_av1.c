@@ -262,7 +262,6 @@ bit_depth
 ;
 }
 static
-av_cold
 int
 vaapi_av1_decode_init
 (
@@ -382,7 +381,6 @@ avctx
 ;
 }
 static
-av_cold
 int
 vaapi_av1_decode_uninit
 (
@@ -470,11 +468,6 @@ vaapi_av1_start_frame
 AVCodecContext
 *
 avctx
-av_unused
-const
-AVBufferRef
-*
-buffer_ref
 av_unused
 const
 uint8_t

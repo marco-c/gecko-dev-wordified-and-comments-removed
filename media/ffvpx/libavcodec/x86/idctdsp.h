@@ -27,7 +27,6 @@ int16_t
 block
 uint8_t
 *
-restrict
 pixels
 ptrdiff_t
 line_size
@@ -42,7 +41,6 @@ int16_t
 block
 uint8_t
 *
-restrict
 pixels
 ptrdiff_t
 line_size
@@ -57,7 +55,6 @@ int16_t
 block
 uint8_t
 *
-restrict
 pixels
 ptrdiff_t
 line_size

@@ -108,15 +108,6 @@ AV_CODEC_PROP_FIELDS
 )
 #
 define
-AV_CODEC_PROP_ENHANCEMENT
-(
-1
-<
-<
-5
-)
-#
-define
 AV_CODEC_PROP_BITMAP_SUB
 (
 1

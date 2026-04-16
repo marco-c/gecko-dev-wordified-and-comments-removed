@@ -63,7 +63,7 @@ avg_pixels_tab
 op_pixels_func
 put_no_rnd_pixels_tab
 [
-3
+4
 ]
 [
 4
@@ -90,6 +90,16 @@ flags
 ;
 void
 ff_hpeldsp_init_aarch64
+(
+HpelDSPContext
+*
+c
+int
+flags
+)
+;
+void
+ff_hpeldsp_init_alpha
 (
 HpelDSPContext
 *

@@ -80,6 +80,14 @@ c
 )
 ;
 void
+ff_blockdsp_init_alpha
+(
+BlockDSPContext
+*
+c
+)
+;
+void
 ff_blockdsp_init_arm
 (
 BlockDSPContext
