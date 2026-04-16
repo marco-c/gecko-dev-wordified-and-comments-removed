@@ -6592,8 +6592,14 @@ ReadU32
 CheckedInt64
 decodeTime
 =
+static_cast
+<
+int64_t
+>
+(
 *
 aDecodeTime
+)
 ;
 if
 (
