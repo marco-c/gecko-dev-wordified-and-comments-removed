@@ -155,9 +155,9 @@ https
 /
 www
 .
-mozilla
+firefox
 .
-org
+com
 /
 %
 LOCALE
@@ -207,9 +207,9 @@ https
 /
 www
 .
-mozilla
+firefox
 .
-org
+com
 /
 %
 LOCALE
@@ -261,9 +261,9 @@ https
 /
 www
 .
-mozilla
+firefox
 .
-org
+com
 /
 %
 LOCALE

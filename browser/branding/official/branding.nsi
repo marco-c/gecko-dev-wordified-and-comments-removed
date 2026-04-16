@@ -163,9 +163,9 @@ https
 /
 www
 .
-mozilla
+firefox
 .
-org
+com
 /
 firefox
 /
