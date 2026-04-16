@@ -1747,15 +1747,17 @@ sceneStrategy
 =
 remember
 {
+listOf
+(
 DialogSceneStrategy
 <
 TabManagerNavDestination
 >
 (
 )
-then
 BottomSheetSceneStrategy
 (
+)
 )
 }
 val
@@ -2019,7 +2021,7 @@ predictivePopTransitionSpec
 defaultPredictivePopTransitionSpec
 (
 )
-sceneStrategy
+sceneStrategies
 =
 sceneStrategy
 entryProvider
