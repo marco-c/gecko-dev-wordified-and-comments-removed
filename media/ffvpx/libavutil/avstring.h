@@ -736,6 +736,11 @@ format
 .
 .
 )
+av_scanf_format
+(
+2
+3
+)
 ;
 #
 endif

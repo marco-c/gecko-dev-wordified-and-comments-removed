@@ -546,6 +546,11 @@ cbs_av1
 c
 '
 '
+cbs_vp9
+.
+c
+'
+'
 golomb
 .
 c

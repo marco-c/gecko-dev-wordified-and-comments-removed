@@ -1802,7 +1802,6 @@ channel
 *
 chname
 ;
-int
 ret
 =
 av_opt_get_key_value
@@ -2232,7 +2231,6 @@ if
 endptr
 )
 {
-int
 ret
 =
 av_channel_layout_from_string
@@ -5827,7 +5825,7 @@ channel_layout
 nb_channels
 ;
 int
-order
+amb_order
 =
 av_channel_layout_ambisonic_order
 (
@@ -5836,7 +5834,7 @@ channel_layout
 ;
 if
 (
-order
+amb_order
 <
 0
 )
@@ -5852,13 +5850,13 @@ masked_description
 (
 channel_layout
 (
-order
+amb_order
 +
 1
 )
 *
 (
-order
+amb_order
 +
 1
 )

@@ -46,6 +46,13 @@ defined
 (
 __ARM_ARCH_7A__
 )
+&
+&
+!
+defined
+(
+__ANDROID__
+)
 #
 define
 AV_READ_TIME

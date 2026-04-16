@@ -28,15 +28,6 @@ fourcc
 }
 PixelFormatTag
 ;
-const
-struct
-PixelFormatTag
-*
-avpriv_get_raw_pix_fmt_tags
-(
-void
-)
-;
 enum
 PixelFormatTagLists
 {

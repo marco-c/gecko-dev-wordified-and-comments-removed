@@ -73,8 +73,12 @@ videodsp
 h
 "
 #
-if
-HAVE_X86ASM
+include
+"
+videodsp
+.
+h
+"
 typedef
 void
 emu_edge_vfix_func
@@ -866,10 +870,8 @@ block_h
 }
 }
 }
-static
-av_noinline
 void
-emulated_edge_mc_sse2
+ff_emulated_edge_mc_sse2
 (
 uint8_t
 *
@@ -973,8 +975,6 @@ ff_emu_edge_hvar_avx2
 }
 #
 endif
-#
-endif
 void
 ff_prefetch_mmxext
 (
@@ -999,9 +999,6 @@ int
 bpc
 )
 {
-#
-if
-HAVE_X86ASM
 int
 cpu_flags
 =
@@ -1044,7 +1041,7 @@ ctx
 >
 emulated_edge_mc
 =
-emulated_edge_mc_sse2
+ff_emulated_edge_mc_sse2
 ;
 }
 #
@@ -1072,8 +1069,6 @@ emulated_edge_mc
 emulated_edge_mc_avx2
 ;
 }
-#
-endif
 #
 endif
 }

@@ -76,6 +76,10 @@ AVCodecContext
 *
 avctx
 const
+AVBufferRef
+*
+buf_ref
+const
 uint8_t
 *
 buf

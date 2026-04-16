@@ -488,6 +488,9 @@ AV_TIME_BASE
 }
 ;
 }
+#
+if
+FF_API_ASSERT_FPU
 void
 av_assert0_fpu
 (
@@ -548,3 +551,5 @@ state
 #
 endif
 }
+#
+endif

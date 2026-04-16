@@ -242,7 +242,7 @@ avctx
 codec
 &
 &
-av_codec_is_decoder
+ff_codec_is_decoder
 (
 avctx
 -

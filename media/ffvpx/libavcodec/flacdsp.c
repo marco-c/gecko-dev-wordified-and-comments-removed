@@ -514,11 +514,17 @@ decoded
 j
 ]
 =
+(
+uint64_t
+)
 residual
 [
 i
 ]
 +
+(
+uint64_t
+)
 (
 sum
 >
@@ -880,6 +886,9 @@ channels
 #
 elif
 ARCH_X86
+&
+&
+HAVE_X86ASM
 ff_flacdsp_init_x86
 (
 c

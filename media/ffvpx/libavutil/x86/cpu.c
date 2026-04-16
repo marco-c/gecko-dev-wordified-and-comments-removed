@@ -620,6 +620,17 @@ if
 (
 ecx
 &
+0x2
+)
+rval
+|
+=
+AV_CPU_FLAG_CLMUL
+;
+if
+(
+ecx
+&
 0x00000200
 )
 rval
@@ -1199,7 +1210,7 @@ family
 &
 model
 <
-70
+143
 )
 rval
 |

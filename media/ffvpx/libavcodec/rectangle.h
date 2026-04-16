@@ -102,7 +102,7 @@ av_assert2
 (
 (
 (
-long
+uintptr_t
 )
 vp
 )
