@@ -168,6 +168,9 @@ showStocksSuggestions
 showSportsSuggestions
 =
 showSportsSuggestions
+showFlightsSuggestions
+=
+showFlightsSuggestions
 showTrendingSearches
 =
 showTrendingSearches

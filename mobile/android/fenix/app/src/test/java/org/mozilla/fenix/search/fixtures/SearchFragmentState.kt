@@ -211,6 +211,9 @@ false
 showSportsSuggestions
 =
 false
+showFlightsSuggestions
+=
+false
 showTrendingSearches
 =
 false
