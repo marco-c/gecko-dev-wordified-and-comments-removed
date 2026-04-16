@@ -967,6 +967,9 @@ doBlur
 testUtils
 =
 UrlbarTestUtils
+win
+=
+window
 )
 {
 await
@@ -974,7 +977,7 @@ testUtils
 .
 promisePopupClose
 (
-window
+win
 (
 )
 =
@@ -984,7 +987,7 @@ testUtils
 .
 getUrlbar
 (
-window
+win
 )
 .
 blur
@@ -1149,6 +1152,9 @@ modifier
 =
 {
 }
+win
+=
+window
 )
 {
 const
@@ -1158,6 +1164,8 @@ BrowserTestUtils
 .
 browserLoaded
 (
+win
+.
 gBrowser
 .
 selectedBrowser
@@ -1171,6 +1179,7 @@ synthesizeKey
 KEY_Enter
 "
 modifier
+win
 )
 ;
 await
@@ -2274,6 +2283,9 @@ input
 testUtils
 =
 UrlbarTestUtils
+win
+=
+window
 )
 {
 await
@@ -2281,7 +2293,7 @@ testUtils
 .
 promisePopupOpen
 (
-window
+win
 async
 (
 )
@@ -2293,7 +2305,7 @@ testUtils
 .
 inputIntoURLBar
 (
-window
+win
 input
 )
 ;
@@ -2305,7 +2317,7 @@ testUtils
 .
 promiseSearchComplete
 (
-window
+win
 )
 ;
 }
