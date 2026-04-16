@@ -491,10 +491,8 @@ div
 -
 radiogroup
 :
-no
-default
-axis
-no
+both
+axes
 wrap
 -
 -
@@ -550,9 +548,9 @@ div
 -
 listbox
 :
-no
-default
+block
 axis
+only
 no
 wrap
 -
@@ -1524,7 +1522,6 @@ radiogroup
 :
 both
 axes
-no
 wrap
 -
 -
@@ -1642,7 +1639,7 @@ activeElement
 .
 id
 '
-rg3
+rg1
 '
 )
 ;
@@ -1650,9 +1647,7 @@ rg3
 "
 radiogroup
 :
-does
-not
-wrap
+wraps
 "
 )
 ;
@@ -1663,8 +1658,9 @@ wrap
 -
 listbox
 :
-both
-axes
+block
+axis
+only
 no
 wrap
 -
@@ -1699,7 +1695,7 @@ activeElement
 .
 id
 '
-lb2
+lb1
 '
 )
 ;
@@ -1708,7 +1704,12 @@ lb2
 listbox
 :
 ArrowRight
-navigates
+blocked
+(
+block
+-
+only
+)
 "
 )
 ;
@@ -1751,6 +1752,9 @@ listbox
 :
 ArrowDown
 navigates
+(
+block
+)
 "
 )
 ;
@@ -1772,7 +1776,7 @@ getElementById
 lb3
 '
 )
-kArrowRight
+kArrowDown
 )
 ;
 assert_equals
