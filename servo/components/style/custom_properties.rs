@@ -5710,6 +5710,7 @@ servo
 let
 local_name
 =
+&
 LocalName
 :
 :
@@ -11127,6 +11128,13 @@ attribute_tainted
 }
 }
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 SubstitutionResult
@@ -12150,6 +12158,15 @@ attribute_data
 .
 kind
 {
+if
+computed_context
+.
+in_container_query
+{
+attr
+}
+else
+{
 substitution_functions
 .
 get_attr
@@ -12174,6 +12191,7 @@ to_variable_value
 ?
 .
 css
+}
 }
 else
 {

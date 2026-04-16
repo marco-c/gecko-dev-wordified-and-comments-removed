@@ -149,6 +149,17 @@ NeedsSelectorFlags
 VisitedHandlingMode
 }
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 use
 selectors
 :
@@ -1574,6 +1585,7 @@ self
 element
 )
 pseudo
+&
 inputs
 &
 self
@@ -1633,6 +1645,8 @@ guards
 &
 values
 pseudo
+&
+inputs
 &
 conditions
 )
