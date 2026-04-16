@@ -36,9 +36,6 @@ hasName
 ParamTraits
 "
 )
-isDefinition
-(
-)
 unless
 (
 anyOf
