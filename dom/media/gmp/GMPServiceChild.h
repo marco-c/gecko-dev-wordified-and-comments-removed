@@ -238,6 +238,10 @@ InitializePlugins
 nsISerialEventTarget
 *
 )
+MOZ_REQUIRES
+(
+mMutex
+)
 override
 {
 }
