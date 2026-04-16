@@ -325,6 +325,11 @@ SOURCES
 =
 [
 "
+ApplicationData
+.
+cpp
+"
+"
 nsBrowserApp
 .
 cpp

@@ -137,6 +137,11 @@ SmallArrayLRUCache
 h
 "
 "
+StaticXREAppData
+.
+h
+"
+"
 XREAppData
 .
 h

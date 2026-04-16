@@ -539,7 +539,7 @@ include
 "
 mozilla
 /
-XREAppData
+StaticXREAppData
 .
 h
 "
