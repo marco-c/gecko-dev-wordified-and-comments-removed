@@ -28,6 +28,11 @@ false
 }
 )
 ;
+await
+initUpdateService
+(
+)
+;
 let
 {
 startup
