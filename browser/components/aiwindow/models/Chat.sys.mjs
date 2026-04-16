@@ -2403,9 +2403,16 @@ toolRoleOpts
 }
 catch
 (
-e
+error
 )
 {
+console
+.
+error
+(
+error
+)
+;
 result
 =
 {
@@ -2418,7 +2425,7 @@ failed
 {
 String
 (
-e
+error
 )
 }
 }
