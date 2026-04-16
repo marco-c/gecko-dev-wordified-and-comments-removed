@@ -146,12 +146,6 @@ return
 mBrowsingContext
 ;
 }
-nsILoadContext
-*
-GetLoadContext
-(
-)
-;
 void
 NavigateByKey
 (

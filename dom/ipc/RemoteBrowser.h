@@ -168,16 +168,6 @@ const
 0
 ;
 virtual
-nsILoadContext
-*
-GetLoadContext
-(
-)
-const
-=
-0
-;
-virtual
 bool
 CanRecv
 (

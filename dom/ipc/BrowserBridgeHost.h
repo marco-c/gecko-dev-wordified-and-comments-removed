@@ -118,14 +118,6 @@ GetBrowsingContext
 const
 override
 ;
-nsILoadContext
-*
-GetLoadContext
-(
-)
-const
-override
-;
 bool
 CanRecv
 (
