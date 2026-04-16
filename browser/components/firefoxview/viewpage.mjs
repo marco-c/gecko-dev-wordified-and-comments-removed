@@ -639,6 +639,7 @@ recordContextMenuTelemetry
 (
 menuAction
 event
+tabType
 )
 {
 Glean
@@ -655,6 +656,9 @@ menu_action
 menuAction
 data_type
 :
+tabType
+?
+?
 event
 .
 target
