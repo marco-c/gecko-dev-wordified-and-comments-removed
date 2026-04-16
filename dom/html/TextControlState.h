@@ -474,11 +474,6 @@ PrepareEditor
 (
 )
 ;
-void
-InitializeKeyboardEventListeners
-(
-)
-;
 MOZ_CAN_RUN_SCRIPT
 void
 UpdateEditorOnTypeChange
@@ -1366,6 +1361,11 @@ UnlinkInternal
 (
 )
 ;
+void
+EnsureTextInputListener
+(
+)
+;
 MOZ_CAN_RUN_SCRIPT
 void
 DestroyEditor
@@ -1438,7 +1438,7 @@ RefPtr
 <
 TextInputListener
 >
-mTextListener
+mTextInputListener
 ;
 UniquePtr
 <
