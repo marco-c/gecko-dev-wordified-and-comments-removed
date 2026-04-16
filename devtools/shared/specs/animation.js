@@ -50,7 +50,7 @@ animationplayer
 )
 ;
 const
-animationPlayerSpec
+animationSpec
 =
 generateActorSpec
 (
@@ -149,9 +149,9 @@ json
 ;
 exports
 .
-animationPlayerSpec
+animationSpec
 =
-animationPlayerSpec
+animationSpec
 ;
 const
 animationsSpec
