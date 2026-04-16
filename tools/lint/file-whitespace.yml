@@ -540,14 +540,6 @@ crashtests
 -
 intl
 /
-lwbrk
-/
-rulebrk
-.
-c
--
-intl
-/
 uconv
 /
 crashtests
@@ -1252,6 +1244,12 @@ md
 -
 .
 mn
+-
+.
+nsh
+-
+.
+nsi
 -
 .
 properties

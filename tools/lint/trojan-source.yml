@@ -23,14 +23,6 @@ include
 exclude
 :
 -
-intl
-/
-lwbrk
-/
-rulebrk
-.
-c
--
 testing
 /
 web
@@ -331,6 +323,9 @@ perform_actions
 key_tentative
 .
 py
+include_third_party
+:
+true
 extensions
 :
 -
