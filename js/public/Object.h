@@ -479,6 +479,17 @@ nsISupportsValue
 )
 ;
 }
+extern
+JS_PUBLIC_API
+bool
+NativeObjectHasOwnProperties
+(
+const
+JSObject
+*
+obj
+)
+;
 }
 namespace
 mozilla
