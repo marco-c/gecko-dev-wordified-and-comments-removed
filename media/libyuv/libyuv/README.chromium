@@ -19,10 +19,7 @@ libyuv
 /
 Version
 :
-1922
-Revision
-:
-DEPS
+1917
 License
 :
 BSD
@@ -41,10 +38,6 @@ Security
 Critical
 :
 yes
-Update
-Mechanism
-:
-Manual
 Description
 :
 libyuv

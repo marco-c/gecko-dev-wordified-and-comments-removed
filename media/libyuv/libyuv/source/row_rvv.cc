@@ -20,6 +20,13 @@ defined
 (
 __riscv_vector
 )
+&
+&
+\
+defined
+(
+__clang__
+)
 #
 include
 <
