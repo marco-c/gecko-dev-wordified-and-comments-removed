@@ -317,24 +317,22 @@ platform
                     
 locale
                     
+f
 "
-%
-s
+{
+productName
+}
 -
-%
-s
+{
+version
+}
 .
 tar
 .
-%
-s
-"
-%
-(
-productName
-version
+{
 compression
-)
+}
+"
                 
 ]
             
@@ -366,26 +364,23 @@ strip
 /
 "
 )
-                
 for
 p
 in
 [
 platform
 locale
+f
 "
-%
-s
-%
-s
+{
+brandName
+}
+{
+version
+}
 .
 dmg
 "
-%
-(
-brandName
-version
-)
 ]
             
 ]
@@ -429,20 +424,18 @@ platform
                     
 locale
                     
+f
 "
-%
-s
+{
+brandName
+}
 Setup
-%
-s
+{
+version
+}
 .
 exe
 "
-%
-(
-brandName
-version
-)
                 
 ]
             
@@ -453,10 +446,13 @@ else
 :
             
 raise
+ValueError
+(
 "
 Unsupported
 platform
 "
+)
     
 elif
 platform
@@ -471,15 +467,19 @@ android
         
 filename
 =
+f
 "
-%
-s
+{
+productName
+}
 -
-%
-s
+{
+version
+}
 .
-%
-s
+{
+locale
+}
 .
 android
 -
@@ -487,12 +487,6 @@ arm
 .
 apk
 "
-%
-(
-productName
-version
-locale
-)
         
 return
 "
@@ -525,7 +519,10 @@ else
 :
         
 raise
+ValueError
+(
 "
 Unsupported
 platform
 "
+)
