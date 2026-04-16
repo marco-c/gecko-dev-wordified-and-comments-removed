@@ -344,6 +344,13 @@ GetRenderDevice
 (
 )
 ;
+bool
+SetPreferredRenderDevice
+(
+dev_t
+device_id
+)
+;
 private
 :
 bool
@@ -380,6 +387,11 @@ unique_ptr
 EglDrmDevice
 >
 default_platform_device_
+;
+dev_t
+preferred_render_device_id_
+=
+DEVICE_ID_INVALID
 ;
 }
 ;
