@@ -255,7 +255,7 @@ algorithms
 =
 MakeRefPtr
 <
-WritableStreamToOutput
+WritableStreamToOutputAlgorithms
 >
 (
 stream
