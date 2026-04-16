@@ -8038,6 +8038,7 @@ dataSurface
 premultAlpha
 mimeType
 encoderOptions
+randomizationKey
 out_stream
 )
 ;

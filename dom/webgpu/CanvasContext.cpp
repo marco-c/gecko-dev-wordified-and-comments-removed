@@ -1923,6 +1923,7 @@ dataSurface
 true
 aMimeType
 aEncoderOptions
+aRandomizationKey
 aStream
 )
 ;
