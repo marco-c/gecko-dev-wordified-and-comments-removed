@@ -1500,6 +1500,17 @@ debugViewTag
 :
 "
 "
+pingTypes
+=
+listOf
+(
+"
+metrics
+"
+"
+crash
+"
+)
 )
 class
 FakeGleanDebugToolsStorage
