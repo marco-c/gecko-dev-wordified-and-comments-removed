@@ -523,8 +523,10 @@ MOZ_ASSERT
 owner
 )
 ;
+RefPtr
+<
 Document
-*
+>
 doc
 =
 owner
