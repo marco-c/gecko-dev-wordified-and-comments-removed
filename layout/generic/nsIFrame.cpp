@@ -7204,9 +7204,12 @@ NS_FRAME_IS_NONDISPLAY
 )
 &
 &
-!
-GetPrevInFlow
+nsLayoutUtils
+:
+:
+IsFirstContinuationOrIBSplitSibling
 (
+this
 )
 )
 {
