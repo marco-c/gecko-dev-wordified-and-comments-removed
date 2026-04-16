@@ -579,7 +579,7 @@ slot
 name
 =
 "
-image
+icon
 "
 >
 <

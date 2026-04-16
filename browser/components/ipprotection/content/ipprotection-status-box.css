@@ -143,7 +143,7 @@ slotted
 slot
 =
 "
-image
+icon
 "
 ]
 )
@@ -198,7 +198,7 @@ slotted
 slot
 =
 "
-image
+icon
 "
 ]
 )
@@ -260,7 +260,7 @@ slotted
 slot
 =
 "
-image
+icon
 "
 ]
 )
@@ -315,7 +315,7 @@ slotted
 slot
 =
 "
-image
+icon
 "
 ]
 )
@@ -370,7 +370,7 @@ slotted
 slot
 =
 "
-image
+icon
 "
 ]
 )
@@ -744,7 +744,7 @@ slotted
 slot
 =
 "
-image
+icon
 "
 ]
 )
@@ -757,9 +757,9 @@ var
 -
 size
 -
-image
+item
 -
-small
+xlarge
 )
 ;
 width
@@ -770,9 +770,9 @@ var
 -
 size
 -
-image
+item
 -
-small
+xlarge
 )
 ;
 }
