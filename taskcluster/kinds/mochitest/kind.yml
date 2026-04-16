@@ -3956,7 +3956,7 @@ asan
 .
 *
 :
-1800
+2400
 .
 *
 -
@@ -3973,9 +3973,15 @@ ccov
 *
 :
 2400
+.
+*
+/
+debug
+:
+2400
 default
 :
-1500
+1800
 mozharness
 :
 mochitest
