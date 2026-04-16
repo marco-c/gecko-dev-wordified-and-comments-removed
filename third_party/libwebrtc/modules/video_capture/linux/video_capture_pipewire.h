@@ -320,8 +320,11 @@ spa_hook
 stream_listener_
 RTC_GUARDED_BY
 (
-capture_checker_
+api_checker_
 )
+=
+{
+}
 ;
 }
 ;

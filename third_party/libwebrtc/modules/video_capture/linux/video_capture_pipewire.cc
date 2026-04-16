@@ -1458,6 +1458,12 @@ if
 stream_
 )
 {
+spa_hook_remove
+(
+&
+stream_listener_
+)
+;
 pw_stream_destroy
 (
 stream_
