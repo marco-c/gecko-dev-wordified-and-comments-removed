@@ -1936,6 +1936,12 @@ disabled
 nextOption
 .
 hidden
+&
+&
+!
+nextOption
+.
+separator
 )
 {
 this
