@@ -905,6 +905,10 @@ mType
 GetUnfilteredURLList
 (
 )
+.
+Clone
+(
+)
 GetUnfilteredStatus
 (
 )

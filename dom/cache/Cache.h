@@ -127,9 +127,8 @@ RequireOK
 bool
 IsValidPutRequestURL
 (
-const
-nsACString
-&
+nsIURI
+*
 aUrl
 ErrorResult
 &

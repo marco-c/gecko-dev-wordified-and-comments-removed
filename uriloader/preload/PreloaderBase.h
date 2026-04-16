@@ -325,8 +325,11 @@ return
 mFlags
 ;
 }
-nsCString
-Spec
+already_AddRefed
+<
+nsIURI
+>
+URINoFragment
 (
 )
 const
