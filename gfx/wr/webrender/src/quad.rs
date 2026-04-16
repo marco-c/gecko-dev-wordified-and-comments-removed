@@ -4292,6 +4292,10 @@ radius
 .
 top_left
 )
+.
+abs
+(
+)
 ;
 let
 r_tr
@@ -4304,6 +4308,10 @@ map_size
 radius
 .
 top_right
+)
+.
+abs
+(
 )
 ;
 let
@@ -4318,6 +4326,10 @@ radius
 .
 bottom_right
 )
+.
+abs
+(
+)
 ;
 let
 r_bl
@@ -4330,6 +4342,10 @@ map_size
 radius
 .
 bottom_left
+)
+.
+abs
+(
 )
 ;
 let
