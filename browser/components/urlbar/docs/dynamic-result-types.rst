@@ -1479,8 +1479,7 @@ central
 then
 add
 styling
-urlbar
--
+to
 dynamic
 -
 results
@@ -1490,9 +1489,7 @@ _
 .
 .
 .
-_urlbar
--
-dynamic
+_dynamic
 -
 results
 .
@@ -1519,7 +1516,7 @@ themes
 shared
 /
 urlbar
--
+/
 dynamic
 -
 results
