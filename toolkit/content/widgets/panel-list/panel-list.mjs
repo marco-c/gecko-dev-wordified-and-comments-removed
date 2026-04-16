@@ -56,12 +56,7 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
-{
+export
 class
 PanelList
 extends
@@ -4577,6 +4572,7 @@ list
 PanelList
 )
 ;
+export
 class
 PanelItem
 extends
@@ -6262,4 +6258,3 @@ item
 PanelItem
 )
 ;
-}
