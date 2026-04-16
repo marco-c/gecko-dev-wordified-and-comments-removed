@@ -4619,7 +4619,6 @@ asMasm
 esp
 eax
 ebx
-ecx
 )
 ;
 }
