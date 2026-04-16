@@ -474,6 +474,17 @@ directory
 .
 policy
 -
+DefaultSerialGuardSetting
+=
+Control
+use
+of
+the
+Serial
+API
+.
+policy
+-
 DisableAppUpdate
 =
 Prevent
