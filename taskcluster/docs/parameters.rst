@@ -595,15 +595,6 @@ the
 decision
 task
 .
-pull_request_number
-The
-GitHub
-pull
-request
-number
-if
-any
-.
 Tree
 Information
 -
