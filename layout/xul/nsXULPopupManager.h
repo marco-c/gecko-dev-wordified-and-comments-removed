@@ -160,9 +160,6 @@ nsPIDOMWindowOuter
 class
 nsRefreshDriver
 ;
-class
-PopupQueue
-;
 namespace
 mozilla
 {
@@ -2141,7 +2138,7 @@ HidePopupOptions
 )
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-bool
+void
 BeginShowingPopup
 (
 const
@@ -2336,11 +2333,6 @@ aPopup
 )
 const
 ;
-void
-DismissQueueableShownPopups
-(
-)
-;
 nsCOMPtr
 <
 mozilla
@@ -2431,12 +2423,6 @@ Element
 nsPopupState
 >
 mNativeMenuSubmenuStates
-;
-RefPtr
-<
-PopupQueue
->
-mPopupQueue
 ;
 }
 ;
