@@ -2828,7 +2828,7 @@ adoptSplitView
 (
 tabOrSplitView
 {
-elementIndex
+tabIndex
 :
 gBrowser
 .
