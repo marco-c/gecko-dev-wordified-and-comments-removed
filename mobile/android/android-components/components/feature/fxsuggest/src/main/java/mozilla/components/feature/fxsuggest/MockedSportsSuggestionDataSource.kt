@@ -149,7 +149,7 @@ latency
 *
 If
 realistic
-behaviour
+behavior
 (
 e
 .
