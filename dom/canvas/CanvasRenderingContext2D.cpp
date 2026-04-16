@@ -31211,12 +31211,11 @@ IsRecording
 &
 !
 (
-!
 NeedToApplyFilter
 (
 )
-&
-&
+|
+|
 NeedToDrawShadow
 (
 )
