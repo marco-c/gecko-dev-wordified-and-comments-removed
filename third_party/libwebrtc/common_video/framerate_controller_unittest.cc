@@ -87,9 +87,7 @@ kNumNanosecsPerMicrosec
 int64_t
 next_timestamp_us_
 =
-TimeMicros
-(
-)
+6543210
 ;
 FramerateController
 controller_
