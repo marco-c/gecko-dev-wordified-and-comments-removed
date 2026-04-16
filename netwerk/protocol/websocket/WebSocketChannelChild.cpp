@@ -2706,6 +2706,8 @@ if
 SendAsyncOpen
 (
 uri
+aOrigin
+aOriginAttributes
 aInnerWindowID
 mProtocol
 mEncrypted

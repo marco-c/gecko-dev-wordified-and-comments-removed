@@ -132,6 +132,14 @@ nsIURI
 *
 aURI
 const
+nsCString
+&
+aOrigin
+const
+OriginAttributes
+&
+aOriginAttributes
+const
 uint64_t
 &
 aInnerWindowID
