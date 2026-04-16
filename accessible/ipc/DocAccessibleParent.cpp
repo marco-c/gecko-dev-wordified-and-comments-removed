@@ -5705,6 +5705,14 @@ IsTable
 )
 )
 {
+acc
+-
+>
+SetParent
+(
+nullptr
+)
+;
 CachedTableAccessible
 :
 :
