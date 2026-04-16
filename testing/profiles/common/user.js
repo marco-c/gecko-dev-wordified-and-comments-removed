@@ -147,9 +147,7 @@ stream
 .
 feeds
 .
-system
-.
-topstories
+discoverystreamfeed
 "
 false
 )
