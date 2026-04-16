@@ -269,7 +269,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 -
 shippable
 /
@@ -295,7 +295,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 /
 opt
 *
@@ -478,7 +478,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 -
 shippable
 /
@@ -504,7 +504,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 /
 opt
 *
@@ -631,7 +631,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 -
 shippable
 /
@@ -643,7 +643,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 /
 opt
 .
@@ -777,7 +777,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 -
 shippable
 /
@@ -795,7 +795,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 /
 opt
 *

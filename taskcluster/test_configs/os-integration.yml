@@ -200,7 +200,7 @@ windows11
 -
 32
 -
-24h2
+25h2
 /
 opt
 -
@@ -208,7 +208,7 @@ windows11
 -
 32
 -
-24h2
+25h2
 /
 debug
 -
@@ -216,7 +216,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 /
 opt
 -
@@ -224,7 +224,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 /
 debug
 unittest_suite
@@ -403,7 +403,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 /
 opt
 -
@@ -411,7 +411,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 /
 debug
 unittest_suite
@@ -470,7 +470,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 -
 asan
 /
@@ -536,6 +536,14 @@ linux1804
 shippable
 -
 qr
+/
+opt
+-
+linux2404
+-
+64
+-
+shippable
 /
 opt
 -

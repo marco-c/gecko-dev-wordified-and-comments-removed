@@ -4,6 +4,12 @@ from
 itertools
 import
 combinations
+from
+unittest
+.
+mock
+import
+patch
 import
 pytest
 from
@@ -320,7 +326,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 -
 shippable
 /
@@ -336,7 +342,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 -
 shippable
 /
@@ -352,7 +358,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 -
 shippable
 /
@@ -368,7 +374,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 -
 shippable
 /
@@ -636,23 +642,36 @@ runtimes
     
 }
     
-chunking
+with
+patch
 .
-_load_manifest_runtimes_data
-[
+object
 (
-)
-]
+chunking
+"
+_load_manifest_runtimes_data
+"
+return_value
 =
 mock_data
-    
+)
+:
+        
+chunking
+.
+get_runtimes
+.
+cache_clear
+(
+)
+        
 yield
     
 chunking
 .
-_load_manifest_runtimes_data
+get_runtimes
 .
-clear
+cache_clear
 (
 )
 pytest
@@ -2158,7 +2177,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 -
 shippable
 /
@@ -2175,7 +2194,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 -
 shippable
 /
@@ -2192,7 +2211,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 -
 shippable
 /
@@ -2213,7 +2232,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 -
 shippable
 /
@@ -2337,7 +2356,7 @@ chunking
 .
 get_runtimes
 .
-clear
+cache_clear
 (
 )
     
