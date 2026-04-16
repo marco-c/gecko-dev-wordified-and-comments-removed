@@ -209,12 +209,12 @@ maximum_internal_processing_rate
 bool
 multi_channel_render
 =
-false
+true
 ;
 bool
 multi_channel_capture
 =
-false
+true
 ;
 DownmixMethod
 capture_downmix_method
