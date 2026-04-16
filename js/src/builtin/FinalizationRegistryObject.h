@@ -25,15 +25,6 @@ h
 #
 include
 "
-gc
-/
-WeakMap
-.
-h
-"
-#
-include
-"
 js
 /
 GCVector
@@ -364,6 +355,9 @@ traceWeak
 JSTracer
 *
 trc
+bool
+*
+hasSymbolRegistrations
 )
 ;
 static
