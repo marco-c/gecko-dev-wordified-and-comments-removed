@@ -18,5 +18,8 @@ includeParams
 "
 excludeParams
 "
+"
+filter_expression
+"
 ]
 }
