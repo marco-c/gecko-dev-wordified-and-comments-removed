@@ -45,15 +45,6 @@ include
 "
 api
 /
-array_view
-.
-h
-"
-#
-include
-"
-api
-/
 audio_options
 .
 h

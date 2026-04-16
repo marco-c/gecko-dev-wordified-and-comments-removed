@@ -541,17 +541,6 @@ simulated_network
 /
 api
 :
-array_view
-"
-"
-.
-.
-/
-.
-.
-/
-api
-:
 create_frame_generator
 "
 "

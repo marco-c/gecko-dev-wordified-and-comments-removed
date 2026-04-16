@@ -208,17 +208,6 @@ test_support
 /
 api
 :
-array_view
-"
-"
-.
-.
-/
-.
-.
-/
-api
-:
 audio_options_api
 "
 "

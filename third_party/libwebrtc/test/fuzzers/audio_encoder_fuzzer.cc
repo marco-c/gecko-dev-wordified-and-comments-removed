@@ -29,15 +29,6 @@ include
 "
 api
 /
-array_view
-.
-h
-"
-#
-include
-"
-api
-/
 audio_codecs
 /
 audio_encoder
