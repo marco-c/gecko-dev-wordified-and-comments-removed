@@ -253,7 +253,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_translate_24
+mozac_ic_lightning_24
 )
 }
 }
