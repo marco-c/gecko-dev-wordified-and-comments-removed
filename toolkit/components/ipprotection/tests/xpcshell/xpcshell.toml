@@ -81,6 +81,13 @@ js
 ]
 [
 "
+test_IPPSessionPrefManager
+.
+js
+"
+]
+[
+"
 test_IPPStartupCache
 .
 js

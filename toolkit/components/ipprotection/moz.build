@@ -141,6 +141,13 @@ sys
 mjs
 "
 "
+IPPSessionPrefManager
+.
+sys
+.
+mjs
+"
+"
 IPPStartupCache
 .
 sys
