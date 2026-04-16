@@ -497,13 +497,6 @@ video_coding_unittests
 "
 video_coding
 /
-deprecated
-:
-deprecated_unittests
-"
-"
-video_coding
-/
 timing
 :
 timing_unittests
