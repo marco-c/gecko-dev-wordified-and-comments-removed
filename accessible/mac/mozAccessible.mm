@@ -3284,6 +3284,17 @@ if
 parent
 isRoot
 ]
+&
+&
+[
+parent
+respondsToSelector
+:
+selector
+(
+disableChild
+)
+]
 )
 {
 return
