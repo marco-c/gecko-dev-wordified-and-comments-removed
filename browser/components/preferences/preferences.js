@@ -1527,9 +1527,6 @@ groupIds
 :
 [
 "
-assistantDefaultGroup
-"
-"
 assistantModelGroup
 "
 "
