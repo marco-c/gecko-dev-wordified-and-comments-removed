@@ -187,7 +187,7 @@ ModuleObject
 module
 )
 ;
-void
+bool
 AsyncModuleExecutionRejected
 (
 JSContext
