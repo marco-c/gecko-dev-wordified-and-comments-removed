@@ -91,13 +91,6 @@ js
 ]
 [
 "
-browser_canvas_randomization_offscreen_transfer
-.
-js
-"
-]
-[
-"
 browser_canvas_randomization_permission
 .
 js

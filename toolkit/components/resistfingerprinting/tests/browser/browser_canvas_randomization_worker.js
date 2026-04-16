@@ -903,15 +903,11 @@ enabled
 "
 +
 CanvasRandomization
--
-EfficientCanvasRandomization
 "
 :
 "
 -
 CanvasRandomization
--
-EfficientCanvasRandomization
 "
 ;
 await
