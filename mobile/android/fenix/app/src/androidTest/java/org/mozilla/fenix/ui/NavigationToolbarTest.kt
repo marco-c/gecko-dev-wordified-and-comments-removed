@@ -5008,7 +5008,7 @@ openCustomizeSubMenu
 clickShowTabBarToggle
 (
 )
-scrollToTheScrollToHideToolbarOption
+scrollToExpandedToolbarOption
 (
 )
 selectExpandedToolbarLayout
@@ -5122,7 +5122,7 @@ openCustomizeSubMenu
 clickShowTabBarToggle
 (
 )
-scrollToTheScrollToHideToolbarOption
+scrollToExpandedToolbarOption
 (
 )
 selectExpandedToolbarLayout
@@ -5290,7 +5290,7 @@ openCustomizeSubMenu
 clickShowTabBarToggle
 (
 )
-scrollToTheScrollToHideToolbarOption
+scrollToExpandedToolbarOption
 (
 )
 selectExpandedToolbarLayout
@@ -5417,7 +5417,7 @@ openCustomizeSubMenu
 clickShowTabBarToggle
 (
 )
-scrollToTheScrollToHideToolbarOption
+scrollToExpandedToolbarOption
 (
 )
 selectExpandedToolbarLayout
@@ -5515,7 +5515,7 @@ openCustomizeSubMenu
 clickShowTabBarToggle
 (
 )
-scrollToTheScrollToHideToolbarOption
+scrollToExpandedToolbarOption
 (
 )
 selectExpandedToolbarLayout
@@ -5656,7 +5656,7 @@ openCustomizeSubMenu
 clickShowTabBarToggle
 (
 )
-scrollToTheScrollToHideToolbarOption
+scrollToExpandedToolbarOption
 (
 )
 selectExpandedToolbarLayout
