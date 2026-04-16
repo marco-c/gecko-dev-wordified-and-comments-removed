@@ -264,6 +264,12 @@ if
 "
 verify
 "
+"
+standalone
+"
+#
+Bug
+2026600
 ]
 [
 "
