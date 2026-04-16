@@ -1151,10 +1151,6 @@ get
 (
 name
 )
-.
-toString
-(
-)
 )
 }
 }
