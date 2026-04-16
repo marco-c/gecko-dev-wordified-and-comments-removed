@@ -2844,14 +2844,8 @@ false
 int64_t
 timestamp
 =
-static_cast
-<
-double
->
-(
 PRMJ_Now
 (
-)
 )
 /
 PRMJ_USEC_PER_SEC
