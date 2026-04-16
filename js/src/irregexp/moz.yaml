@@ -167,6 +167,16 @@ set
 include
 .
 patch
+-
+patches
+/
+disable
+-
+bytecode
+-
+analysis
+.
+patch
 update
 -
 actions

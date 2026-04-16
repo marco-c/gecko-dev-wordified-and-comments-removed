@@ -446,7 +446,7 @@ template
 size_t
 N
 >
-consteval
+constexpr
 std
 :
 :
@@ -655,7 +655,7 @@ BytecodeOperandType
 .
 operand_types
 >
-consteval
+constexpr
 auto
 CalculateAlignedOffsets
 (
@@ -1163,7 +1163,7 @@ Traits
 kSize
 ;
 static
-consteval
+constexpr
 int
 Index
 (
@@ -1182,7 +1182,7 @@ op
 ;
 }
 static
-consteval
+constexpr
 int
 Size
 (
@@ -1204,7 +1204,7 @@ op
 ;
 }
 static
-consteval
+constexpr
 int
 Offset
 (
@@ -1226,7 +1226,7 @@ op
 ;
 }
 static
-consteval
+constexpr
 BytecodeOperandType
 Type
 (
@@ -1273,7 +1273,7 @@ op
 ;
 }
 static
-consteval
+constexpr
 auto
 GetOperandsTuple
 (
