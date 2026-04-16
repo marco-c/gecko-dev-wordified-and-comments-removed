@@ -1351,11 +1351,7 @@ fetchWithHistory
 .
 callsFake
 (
-(
-{
 conversation
-}
-)
 =
 >
 {
