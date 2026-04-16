@@ -817,6 +817,7 @@ sender_id
 )
 const
 ;
+PLAN_B_ONLY
 scoped_refptr
 <
 RtpReceiverProxyWithInternal

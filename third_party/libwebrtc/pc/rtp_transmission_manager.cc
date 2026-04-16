@@ -2296,6 +2296,9 @@ stopped
 )
 continue
 ;
+RTC_ALLOW_PLAN_B_DEPRECATION_BEGIN
+(
+)
 auto
 senders
 =
@@ -2311,6 +2314,9 @@ senders
 (
 )
 ;
+RTC_ALLOW_PLAN_B_DEPRECATION_END
+(
+)
 all_senders
 .
 insert
@@ -2415,6 +2421,9 @@ stopped
 )
 continue
 ;
+RTC_ALLOW_PLAN_B_DEPRECATION_BEGIN
+(
+)
 auto
 receivers
 =
@@ -2430,6 +2439,9 @@ receivers
 (
 )
 ;
+RTC_ALLOW_PLAN_B_DEPRECATION_END
+(
+)
 all_receivers
 .
 insert
@@ -4234,6 +4246,9 @@ List
 )
 )
 {
+RTC_ALLOW_PLAN_B_DEPRECATION_BEGIN
+(
+)
 for
 (
 auto
@@ -4270,6 +4285,9 @@ sender
 ;
 }
 }
+RTC_ALLOW_PLAN_B_DEPRECATION_END
+(
+)
 }
 return
 nullptr
@@ -4316,6 +4334,10 @@ List
 )
 )
 {
+RTC_ALLOW_PLAN_B_DEPRECATION_BEGIN
+(
+)
+;
 for
 (
 auto
@@ -4352,11 +4374,16 @@ sender
 ;
 }
 }
+RTC_ALLOW_PLAN_B_DEPRECATION_END
+(
+)
+;
 }
 return
 nullptr
 ;
 }
+PLAN_B_ONLY
 scoped_refptr
 <
 RtpReceiverProxyWithInternal

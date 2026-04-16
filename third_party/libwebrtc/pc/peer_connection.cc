@@ -8593,6 +8593,9 @@ List
 )
 )
 {
+RTC_ALLOW_PLAN_B_DEPRECATION_BEGIN
+(
+)
 for
 (
 const
@@ -8634,6 +8637,9 @@ break
 ;
 }
 }
+RTC_ALLOW_PLAN_B_DEPRECATION_END
+(
+)
 if
 (
 internal_sender
@@ -8731,6 +8737,9 @@ List
 )
 )
 {
+RTC_ALLOW_PLAN_B_DEPRECATION_BEGIN
+(
+)
 for
 (
 const
@@ -8772,6 +8781,9 @@ break
 ;
 }
 }
+RTC_ALLOW_PLAN_B_DEPRECATION_END
+(
+)
 if
 (
 internal_receiver
