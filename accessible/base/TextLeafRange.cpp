@@ -2734,8 +2734,10 @@ std
 :
 pair
 <
+RefPtr
+<
 nsIContent
-*
+>
 uint32_t
 >
 TextLeafPoint

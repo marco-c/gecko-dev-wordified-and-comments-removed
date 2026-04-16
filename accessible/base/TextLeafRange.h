@@ -418,8 +418,10 @@ std
 :
 pair
 <
+RefPtr
+<
 nsIContent
-*
+>
 uint32_t
 >
 ToDOMPoint
