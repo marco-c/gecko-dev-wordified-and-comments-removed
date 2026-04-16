@@ -2631,6 +2631,14 @@ hidden
 =
 true
 ;
+this
+.
+#
+updateTabbrowser
+(
+false
+)
+;
 return
 ;
 }
