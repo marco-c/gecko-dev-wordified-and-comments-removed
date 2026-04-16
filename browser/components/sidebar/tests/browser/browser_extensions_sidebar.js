@@ -519,6 +519,14 @@ await
 promiseClosed
 ;
 await
+SidebarTestUtils
+.
+ensureLauncherVisible
+(
+window
+)
+;
+await
 extension
 .
 unload
@@ -1299,7 +1307,9 @@ sidebar
 )
 ;
 await
-toggleSidebarPanel
+SidebarTestUtils
+.
+showPanel
 (
 window
 "
@@ -1823,7 +1833,9 @@ sidebar
 )
 ;
 await
-toggleSidebarPanel
+SidebarTestUtils
+.
+showPanel
 (
 window
 "

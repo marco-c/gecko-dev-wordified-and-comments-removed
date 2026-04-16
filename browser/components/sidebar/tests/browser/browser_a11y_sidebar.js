@@ -1298,7 +1298,7 @@ tooltips
 await
 SidebarController
 .
-initializeUIState
+updateUIState
 (
 {
 launcherExpanded
@@ -1458,7 +1458,7 @@ viewGenaiChatSidebar
 await
 SidebarController
 .
-initializeUIState
+updateUIState
 (
 {
 launcherExpanded
@@ -1650,8 +1650,11 @@ true
 )
 ;
 await
+SidebarTestUtils
+.
 waitForTabstripOrientation
 (
+window
 "
 vertical
 "

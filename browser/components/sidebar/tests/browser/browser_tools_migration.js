@@ -95,8 +95,11 @@ enabled
 )
 ;
 await
-ensureSidebarLauncherIsVisible
+SidebarTestUtils
+.
+ensureLauncherVisible
 (
+window
 )
 ;
 }
@@ -350,7 +353,9 @@ launcher
 )
 ;
 await
-toggleSidebarPanel
+SidebarTestUtils
+.
+showPanel
 (
 window
 "

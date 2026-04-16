@@ -29,8 +29,11 @@ true
 )
 ;
 await
+SidebarTestUtils
+.
 waitForTabstripOrientation
 (
+window
 "
 vertical
 "
@@ -144,7 +147,7 @@ launcherExpanded
 await
 SidebarController
 .
-initializeUIState
+updateUIState
 (
 {
 launcherExpanded
@@ -601,7 +604,7 @@ tab
 await
 SidebarController
 .
-initializeUIState
+updateUIState
 (
 {
 launcherExpanded
