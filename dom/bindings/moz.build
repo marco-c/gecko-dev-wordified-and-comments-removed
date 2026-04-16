@@ -213,11 +213,6 @@ Exceptions
 h
 "
 "
-FakeString
-.
-h
-"
-"
 IterableIterator
 .
 h

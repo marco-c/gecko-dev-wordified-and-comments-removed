@@ -41846,13 +41846,7 @@ holderType
 CGGeneric
 (
 "
-binding_detail
-:
-:
-FakeString
-<
-char
->
+nsAutoCString
 "
 )
             
@@ -41873,13 +41867,7 @@ holderType
 CGGeneric
 (
 "
-binding_detail
-:
-:
-FakeString
-<
-char16_t
->
+nsAutoString
 "
 )
             
@@ -41928,13 +41916,7 @@ isUTF8String
 declType
 =
 "
-binding_detail
-:
-:
-FakeString
-<
-char
->
+nsAutoCString
 "
             
 else
@@ -41943,13 +41925,7 @@ else
 declType
 =
 "
-binding_detail
-:
-:
-FakeString
-<
-char16_t
->
+nsAutoString
 "
             
 holderType
@@ -88276,10 +88252,7 @@ decls
 +
 =
 "
-FakeString
-<
-char16_t
->
+nsAutoString
 %
 s
 ;
@@ -114567,26 +114540,6 @@ mozilla
 dom
 /
 UnionMember
-.
-h
-"
-]
-=
-len
-(
-unionStructs
-)
->
-0
-        
-bindingDeclareHeaders
-[
-"
-mozilla
-/
-dom
-/
-FakeString
 .
 h
 "

@@ -514,8 +514,8 @@ enough
 to
 fit
 in
-a
-FakeString
+an
+nsAutoString
 inline
 buffer
 )

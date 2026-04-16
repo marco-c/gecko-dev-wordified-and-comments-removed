@@ -2059,14 +2059,11 @@ request
 SetAsUTF8String
 (
 )
-.
-ShareOrDependUpon
-(
+=
 loadContext
 -
 >
 mFullURL
-)
 ;
 AutoJSAPI
 jsapi
