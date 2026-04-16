@@ -1200,6 +1200,15 @@ XZ_STREAM_END
 {
 ret
 =
+(
+xz_rv
+=
+=
+XZ_MEM_ERROR
+)
+?
+ARCHIVE_READER_MEM_ERROR
+:
 UNEXPECTED_XZ_ERROR
 ;
 break
