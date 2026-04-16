@@ -6787,12 +6787,6 @@ popCopy
 )
 )
 ;
-parseRecordStack
-.
-popBack
-(
-)
-;
 Rooted
 <
 JS
