@@ -2069,7 +2069,7 @@ digital_gain
 =
 manager
 .
-GetDigitalComressionGain
+GetDigitalCompressionGain
 (
 )
 ;
@@ -2171,7 +2171,7 @@ new_digital_gain
 =
 manager
 .
-GetDigitalComressionGain
+GetDigitalCompressionGain
 (
 )
 ;
@@ -5870,7 +5870,7 @@ helper
 .
 manager
 .
-GetDigitalComressionGain
+GetDigitalCompressionGain
 (
 )
 ;

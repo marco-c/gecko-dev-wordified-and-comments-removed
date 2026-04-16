@@ -287,7 +287,7 @@ optional
 <
 int
 >
-GetDigitalComressionGain
+GetDigitalCompressionGain
 (
 )
 ;
