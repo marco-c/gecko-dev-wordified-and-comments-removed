@@ -260,10 +260,13 @@ chunks
 BaseAlloc
 .
 h
-and
 BaseAlloc
 .
 cpp
+and
+BaseAllocInternals
+.
+h
 The
 base
 allocator
