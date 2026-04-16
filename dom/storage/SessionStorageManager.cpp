@@ -2872,13 +2872,7 @@ nsCString
 (
 aOriginScope
 )
-static_cast
-<
-uint32_t
->
-(
 aMode
-)
 )
 ;
 }
