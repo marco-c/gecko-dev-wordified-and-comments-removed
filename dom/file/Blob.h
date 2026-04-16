@@ -176,15 +176,6 @@ nsAString
 aContentType
 )
 ;
-already_AddRefed
-<
-Blob
->
-Clone
-(
-)
-const
-;
 BlobImpl
 *
 Impl
