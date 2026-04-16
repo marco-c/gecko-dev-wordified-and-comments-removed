@@ -3430,7 +3430,7 @@ DataRate
 :
 KilobitsPerSec
 (
-1500
+1300
 )
 DataRate
 :
