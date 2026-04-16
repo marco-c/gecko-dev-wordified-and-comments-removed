@@ -3057,6 +3057,13 @@ NR_reg_init
 (
 )
 ;
+(
+void
+)
+nr_stun_startup
+(
+)
+;
 nr_crypto_vtbl
 =
 &
