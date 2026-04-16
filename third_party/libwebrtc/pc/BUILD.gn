@@ -11029,6 +11029,14 @@ rtc_media_config
 .
 .
 /
+media
+:
+stream_params
+"
+"
+.
+.
+/
 rtc_base
 :
 checks
