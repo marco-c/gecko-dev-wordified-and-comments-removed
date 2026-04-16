@@ -298,6 +298,15 @@ components
 analytics
 .
 metrics
+crashReporter
+=
+context
+.
+components
+.
+analytics
+.
+crashReporter
 navController
 =
 view
