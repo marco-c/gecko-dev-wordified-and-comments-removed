@@ -80,13 +80,12 @@ StylePropertyMapReadOnly
 {
 public
 :
+explicit
 StylePropertyMap
 (
-Element
+nsStyledElement
 *
 aElement
-bool
-aComputed
 )
 ;
 explicit
