@@ -4733,11 +4733,10 @@ chunk
 arena_chunk_t
 *
 )
-chunk_alloc
+arena_chunk_alloc
 (
 kChunkSize
 kChunkSize
-false
 )
 ;
 if
@@ -5463,7 +5462,7 @@ if
 chunk_is_dying
 )
 {
-chunk_dealloc
+arena_chunk_dealloc
 (
 (
 void
@@ -5665,7 +5664,7 @@ if
 chunk_to_release
 )
 {
-chunk_dealloc
+arena_chunk_dealloc
 (
 (
 void
@@ -11653,7 +11652,7 @@ if
 chunk_dealloc_delay
 )
 {
-chunk_dealloc
+arena_chunk_dealloc
 (
 (
 void
@@ -13148,7 +13147,7 @@ if
 mSpare
 )
 {
-chunk_dealloc
+arena_chunk_dealloc
 (
 mSpare
 kChunkSize
@@ -13746,11 +13745,10 @@ nullptr
 }
 ret
 =
-chunk_alloc
+arena_chunk_alloc
 (
 csize
 aAlignment
-false
 )
 ;
 if
@@ -14400,7 +14398,7 @@ huge_operations
 +
 ;
 }
-chunk_dealloc
+arena_chunk_dealloc
 (
 node
 -
