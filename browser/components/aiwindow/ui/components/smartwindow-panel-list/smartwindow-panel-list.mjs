@@ -833,11 +833,6 @@ if
 (
 this
 .
-sidebarMode
-&
-&
-this
-.
 #
 panelList
 ?
