@@ -662,7 +662,7 @@ alpha
 =
 0
 .
-5f
+8f
 )
 0
 .
@@ -690,7 +690,7 @@ alpha
 =
 0
 .
-5f
+8f
 )
 )
 start
@@ -819,7 +819,7 @@ alpha
 =
 0
 .
-5f
+8f
 )
 fontSize
 =
