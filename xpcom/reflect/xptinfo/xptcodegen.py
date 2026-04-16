@@ -12,6 +12,9 @@ from
 perfecthash
 import
 PerfectHash
+PHFSIZE
+=
+512
 def
 indented
 (
@@ -684,6 +687,7 @@ iid_phf
 PerfectHash
 (
 interfaces
+PHFSIZE
 key
 =
 lambda
@@ -726,6 +730,7 @@ name_phf
 PerfectHash
 (
 interfaces
+PHFSIZE
 key
 =
 lambda

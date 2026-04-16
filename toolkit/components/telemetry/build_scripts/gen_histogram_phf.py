@@ -1,11 +1,3 @@
-import
-sys
-import
-buildconfig
-from
-mozparsers
-import
-parse_histograms
 from
 mozparsers
 .
@@ -16,6 +8,17 @@ from
 perfecthash
 import
 PerfectHash
+PHFSIZE
+=
+1024
+import
+sys
+import
+buildconfig
+from
+mozparsers
+import
+parse_histograms
 banner
 =
 "
@@ -267,6 +270,7 @@ name_phf
 PerfectHash
 (
 histograms
+PHFSIZE
 )
     
 output
