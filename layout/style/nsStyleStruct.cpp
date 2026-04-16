@@ -17754,7 +17754,7 @@ mFieldSizing
 hint
 |
 =
-nsChangeHint_NeutralChange
+nsChangeHint_ReflowChangesSizeOrPosition
 ;
 }
 if
