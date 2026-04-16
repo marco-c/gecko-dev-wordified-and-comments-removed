@@ -6,11 +6,6 @@ define
 mozilla_ContentData_h
 #
 include
-<
-sstream
->
-#
-include
 "
 mozilla
 /

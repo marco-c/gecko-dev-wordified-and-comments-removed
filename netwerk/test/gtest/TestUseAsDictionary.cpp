@@ -1,10 +1,5 @@
 #
 include
-<
-ostream
->
-#
-include
 "
 gtest
 /

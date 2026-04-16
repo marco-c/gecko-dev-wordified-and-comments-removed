@@ -28,6 +28,16 @@ Attributes
 .
 h
 "
+#
+ifdef
+AFLFUZZ
+#
+include
+<
+fstream
+>
+#
+endif
 namespace
 mozilla
 {

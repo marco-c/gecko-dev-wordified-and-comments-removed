@@ -5,11 +5,6 @@ cstdint
 >
 #
 include
-<
-ostream
->
-#
-include
 "
 gtest
 /

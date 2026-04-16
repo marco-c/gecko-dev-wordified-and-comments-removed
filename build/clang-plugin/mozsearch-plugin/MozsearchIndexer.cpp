@@ -257,11 +257,6 @@ memory
 #
 include
 <
-sstream
->
-#
-include
-<
 stack
 >
 #
