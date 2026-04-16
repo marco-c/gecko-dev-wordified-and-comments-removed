@@ -606,11 +606,10 @@ partial_report
 )
 ;
 void
-ProducePartialResultsOnNetworkThreadImpl
+ProcessResultsFromNetworkThread
 (
 Timestamp
 timestamp
-const
 std
 :
 :
@@ -622,9 +621,7 @@ std
 string
 TransportStats
 >
-&
 transport_stats_by_name
-const
 std
 :
 :
@@ -636,9 +633,7 @@ std
 string
 CertificateStatsPair
 >
-&
 transport_cert_stats
-const
 std
 :
 :
@@ -646,16 +641,12 @@ vector
 <
 RtpTransceiverStatsInfo
 >
-&
 transceiver_stats_infos
-const
 Call
 :
 :
 Stats
-&
 call_stats
-const
 std
 :
 :
@@ -666,7 +657,6 @@ AudioDeviceModule
 :
 Stats
 >
-&
 audio_device_stats
 RTCStatsReport
 *
@@ -904,7 +894,7 @@ report
 )
 ;
 void
-ProduceCertificateStats_n
+ProduceCertificateStats_s
 (
 Timestamp
 timestamp
@@ -950,7 +940,7 @@ report
 const
 ;
 void
-ProduceIceCandidateAndPairStats_n
+ProduceIceCandidateAndPairStats_s
 (
 Timestamp
 timestamp
@@ -1038,7 +1028,7 @@ report
 const
 ;
 void
-ProduceRTPStreamStats_n
+ProduceRTPStreamStats_s
 (
 Timestamp
 timestamp
@@ -1079,7 +1069,7 @@ report
 const
 ;
 void
-ProduceAudioRTPStreamStats_n
+ProduceAudioRTPStreamStats_s
 (
 Timestamp
 timestamp
@@ -1114,7 +1104,7 @@ report
 const
 ;
 void
-ProduceVideoRTPStreamStats_n
+ProduceVideoRTPStreamStats_s
 (
 Timestamp
 timestamp
@@ -1136,7 +1126,7 @@ report
 const
 ;
 void
-ProduceTransportStats_n
+ProduceTransportStats_s
 (
 Timestamp
 timestamp
