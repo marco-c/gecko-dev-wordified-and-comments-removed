@@ -41,5 +41,12 @@ rv
 )
 ;
 }
+nsCString
+format_as
+(
+nsresult
+rv
+)
+;
 #
 endif
