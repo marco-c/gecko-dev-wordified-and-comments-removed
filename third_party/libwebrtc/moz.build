@@ -785,6 +785,16 @@ libwebrtc
 /
 api
 /
+payload_type_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+api
+/
 priority_gn
 "
 "
