@@ -1406,6 +1406,7 @@ static
 JSProtoKey
 getProtoKey
 (
+const
 JSObject
 *
 holder
@@ -1441,6 +1442,7 @@ static
 bool
 isPrototype
 (
+const
 JSObject
 *
 holder
@@ -1465,6 +1467,7 @@ static
 JSProtoKey
 constructorFor
 (
+const
 JSObject
 *
 holder

@@ -733,6 +733,7 @@ nsXPTInterfaceInfo
 *
 GetInterfaceInfo
 (
+const
 JSObject
 *
 obj

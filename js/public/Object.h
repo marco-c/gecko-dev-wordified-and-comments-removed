@@ -203,6 +203,7 @@ Value
 &
 GetReservedSlot
 (
+const
 JSObject
 *
 obj

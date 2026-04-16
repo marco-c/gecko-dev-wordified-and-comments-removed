@@ -981,6 +981,7 @@ Library
 :
 IsLibrary
 (
+const
 JSObject
 *
 obj
