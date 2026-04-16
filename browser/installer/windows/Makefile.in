@@ -242,6 +242,12 @@ nsh
 \
 nsis
 /
+telemetry
+.
+nsh
+\
+nsis
+/
 test_stub
 .
 nsi
