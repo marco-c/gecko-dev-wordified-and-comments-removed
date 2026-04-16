@@ -1397,6 +1397,11 @@ icon
 "
 delete
 "
+ariaHasPopup
+:
+"
+dialog
+"
 action
 :
 {
@@ -1956,6 +1961,11 @@ icon
 "
 edit
 "
+ariaHasPopup
+:
+"
+dialog
+"
 action
 :
 {
@@ -2071,6 +2081,11 @@ icon
 :
 "
 delete
+"
+ariaHasPopup
+:
+"
+dialog
 "
 action
 :
