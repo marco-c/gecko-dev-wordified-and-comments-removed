@@ -1832,10 +1832,10 @@ WebGLContext
 const
 webgl
 const
-uint32_t
+size_t
 rowLength
 const
-uint32_t
+size_t
 rowCount
 WebGLTexelFormat
 srcFormat
@@ -2364,7 +2364,10 @@ const
 auto
 dstTotalBytes
 =
-CheckedUint32
+CheckedInt
+<
+size_t
+>
 (
 rowCount
 )
