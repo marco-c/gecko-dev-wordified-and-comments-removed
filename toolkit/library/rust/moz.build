@@ -165,6 +165,14 @@ RUST_TESTS
 dom_fragmentdirectives
 "
 ]
+RUST_TESTS
++
+=
+[
+"
+ssl_tokens_cache
+"
+]
 if
 not
 CONFIG
