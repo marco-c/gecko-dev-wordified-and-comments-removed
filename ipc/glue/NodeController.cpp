@@ -4677,6 +4677,12 @@ if
 aRealName
 =
 =
+kBrokerNodeName
+|
+|
+aRealName
+=
+=
 mojo
 :
 :
