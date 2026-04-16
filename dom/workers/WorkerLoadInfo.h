@@ -480,9 +480,6 @@ bool
 mUsingStorageAccess
 ;
 bool
-mSerialAllowed
-;
-bool
 mServiceWorkersTestingInWindow
 ;
 bool
