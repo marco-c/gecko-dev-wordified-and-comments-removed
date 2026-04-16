@@ -553,6 +553,12 @@ OnSetStreams
 ;
 }
 ;
+~
+RtpSenderBase
+(
+)
+override
+;
 void
 SetMediaChannel
 (

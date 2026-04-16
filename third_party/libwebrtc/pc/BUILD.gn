@@ -16919,6 +16919,14 @@ rtc_event_log_factory
 api
 /
 task_queue
+"
+"
+.
+.
+/
+api
+/
+task_queue
 :
 pending_task_safety_flag
 "
