@@ -66,8 +66,10 @@ aCx
 WorkerPrivate
 *
 aWorkerPrivate
+RefPtr
+<
 DOMEventTargetHelper
-*
+>
 aTarget
 bool
 aIsMainThread
@@ -128,8 +130,10 @@ aCx
 WorkerPrivate
 *
 aWorkerPrivate
+RefPtr
+<
 DOMEventTargetHelper
-*
+>
 aTarget
 bool
 aIsMainThread

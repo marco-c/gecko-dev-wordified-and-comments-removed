@@ -161,8 +161,10 @@ WorkerPrivate
 aWorkerPrivate
 bool
 aFireAtScope
+RefPtr
+<
 DOMEventTargetHelper
-*
+>
 aTarget
 UniquePtr
 <
