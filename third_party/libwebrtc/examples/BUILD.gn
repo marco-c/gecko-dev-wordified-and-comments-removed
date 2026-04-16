@@ -4523,7 +4523,7 @@ framework_objc
 /
 test
 :
-test_support
+test_support_objc
 "
 ]
 ldflags
