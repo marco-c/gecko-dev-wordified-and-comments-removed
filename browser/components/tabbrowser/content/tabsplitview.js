@@ -809,9 +809,6 @@ panels
 #
 activate
 (
-skipShowPanels
-=
-false
 )
 {
 updateUrlbarButton
@@ -820,12 +817,6 @@ arm
 (
 )
 ;
-if
-(
-!
-skipShowPanels
-)
-{
 gBrowser
 .
 showSplitViewPanels
@@ -836,7 +827,6 @@ this
 tabs
 )
 ;
-}
 this
 .
 container
@@ -1284,9 +1274,6 @@ if
 this
 .
 hasActiveTab
-|
-|
-isSessionRestore
 )
 {
 this
