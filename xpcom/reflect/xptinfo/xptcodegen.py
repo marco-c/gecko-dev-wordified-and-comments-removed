@@ -1,4 +1,6 @@
 import
+functools
+import
 json
 from
 collections
@@ -7,18 +9,9 @@ OrderedDict
 import
 buildconfig
 from
-mozbuild
-.
-util
-import
-memoize
-from
 perfecthash
 import
 PerfectHash
-PHFSIZE
-=
-512
 def
 indented
 (
@@ -410,7 +403,9 @@ iid
 )
 )
 )
-memoize
+functools
+.
+cache
 def
 iid_bytes
 (
@@ -689,7 +684,6 @@ iid_phf
 PerfectHash
 (
 interfaces
-PHFSIZE
 key
 =
 lambda
@@ -732,7 +726,6 @@ name_phf
 PerfectHash
 (
 interfaces
-PHFSIZE
 key
 =
 lambda

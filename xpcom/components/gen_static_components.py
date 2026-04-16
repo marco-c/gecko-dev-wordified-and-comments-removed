@@ -29,12 +29,6 @@ PerfectHash
 NO_CONTRACT_ID
 =
 0xFFFFFFFF
-PHF_SIZE
-=
-512
-TINY_PHF_SIZE
-=
-16
 ENDIAN
 =
 (
@@ -5042,7 +5036,6 @@ cid_phf
 PerfectHash
 (
 modules
-PHF_SIZE
 key
 =
 lambda
@@ -5059,9 +5052,7 @@ contract_phf
 =
 PerfectHash
 (
-        
 contracts
-PHF_SIZE
 key
 =
 lambda
@@ -5074,7 +5065,6 @@ contract
 encode
 (
 )
-    
 )
     
 js_services_phf
@@ -5090,7 +5080,6 @@ values
 (
 )
 )
-PHF_SIZE
 key
 =
 lambda
@@ -5119,8 +5108,6 @@ values
 (
 )
 )
-        
-TINY_PHF_SIZE
         
 key
 =
