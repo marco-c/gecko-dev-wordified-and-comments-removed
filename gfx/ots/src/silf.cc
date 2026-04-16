@@ -365,6 +365,8 @@ std
 unique_ptr
 <
 uint8_t
+[
+]
 >
 decompressed
 (

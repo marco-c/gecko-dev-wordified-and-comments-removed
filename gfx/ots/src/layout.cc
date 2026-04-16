@@ -1297,6 +1297,7 @@ if
 (
 start_glyph
 >
+=
 num_glyphs
 )
 {
@@ -1935,6 +1936,7 @@ if
 (
 glyph
 >
+=
 num_glyphs
 )
 {
@@ -2580,6 +2582,7 @@ if
 (
 glyph_id
 >
+=
 num_glyphs
 )
 {
@@ -4631,6 +4634,7 @@ if
 (
 glyph_id
 >
+=
 num_glyphs
 )
 {
@@ -4784,6 +4788,7 @@ if
 (
 glyph_id
 >
+=
 num_glyphs
 )
 {
@@ -4903,6 +4908,7 @@ if
 (
 glyph_id
 >
+=
 num_glyphs
 )
 {

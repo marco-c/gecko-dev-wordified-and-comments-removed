@@ -1303,6 +1303,10 @@ vector
 int16_t
 >
 startTuple
+;
+startTuple
+.
+reserve
 (
 axisCount
 )
@@ -1410,6 +1414,10 @@ vector
 int16_t
 >
 endTuple
+;
+endTuple
+.
+reserve
 (
 axisCount
 )
