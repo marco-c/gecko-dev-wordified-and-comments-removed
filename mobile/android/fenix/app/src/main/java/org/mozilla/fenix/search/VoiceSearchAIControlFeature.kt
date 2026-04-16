@@ -351,11 +351,7 @@ AIFeatureMetadata
 FeatureId
 (
 "
-ai
-.
-voice
-.
-search
+voiceSearch
 "
 )
 override

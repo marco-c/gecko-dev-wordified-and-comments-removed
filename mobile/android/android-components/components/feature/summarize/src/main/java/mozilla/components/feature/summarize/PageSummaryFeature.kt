@@ -222,11 +222,7 @@ AIFeatureMetadata
 FeatureId
 (
 "
-ai
-.
-summarize
-.
-page
+pageSummaries
 "
 )
 override

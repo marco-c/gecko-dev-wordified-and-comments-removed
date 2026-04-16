@@ -617,6 +617,7 @@ onFeatureNavLinkClick
 :
 (
 AIFeatureMetadataDestination
+String
 )
 -
 >
@@ -826,6 +827,7 @@ onFeatureNavLinkClick
 :
 (
 AIFeatureMetadataDestination
+String
 )
 -
 >
@@ -956,6 +958,11 @@ onClick
 onFeatureNavLinkClick
 (
 it
+feature
+.
+id
+.
+value
 )
 }
 )
@@ -1792,6 +1799,10 @@ onToggle
 onFeatureNavLinkClick
 =
 {
+_
+_
+-
+>
 }
 onBannerLearnMoreClick
 =
