@@ -1713,7 +1713,7 @@ aName
 lowerCaseName
 )
 ;
-MOZ_ASSERT
+if
 (
 mStripOnShareGlobal
 .
@@ -1721,7 +1721,7 @@ isSome
 (
 )
 )
-;
+{
 const
 dom
 :
@@ -1736,15 +1736,6 @@ ref
 (
 )
 ;
-if
-(
-mStripOnShareGlobal
-.
-isSome
-(
-)
-)
-{
 for
 (
 const

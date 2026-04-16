@@ -17,6 +17,11 @@ TestURLQueryStringStripper
 .
 cpp
 "
+"
+TestURLStripOnShare
+.
+cpp
+"
 ]
 LOCAL_INCLUDES
 +
