@@ -282,6 +282,10 @@ TransferableAttachmentArrays
 )
 ;
 }
+MaybeClearTransferredState
+(
+)
+;
 }
 bool
 StructuredCloneData

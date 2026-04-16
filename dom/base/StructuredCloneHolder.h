@@ -1463,6 +1463,11 @@ bool
 aSameProcessScopeRequired
 )
 ;
+void
+MaybeClearTransferredState
+(
+)
+;
 already_AddRefed
 <
 MessagePort
