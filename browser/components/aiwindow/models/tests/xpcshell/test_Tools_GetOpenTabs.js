@@ -491,7 +491,6 @@ tabs
 await
 getOpenTabs
 (
-15
 new
 SecurityProperties
 (
@@ -885,7 +884,6 @@ tabs
 await
 getOpenTabs
 (
-15
 new
 SecurityProperties
 (
@@ -1166,7 +1164,6 @@ defaultResult
 await
 getOpenTabs
 (
-15
 new
 SecurityProperties
 (
@@ -1404,7 +1401,6 @@ tabs
 await
 getOpenTabs
 (
-15
 new
 SecurityProperties
 (
@@ -1554,7 +1550,6 @@ SecurityProperties
 await
 getOpenTabs
 (
-15
 secProps
 )
 ;
@@ -1635,7 +1630,6 @@ tabs
 await
 getOpenTabs
 (
-15
 secProps
 )
 ;
@@ -1780,7 +1774,6 @@ tabs
 await
 getOpenTabs
 (
-15
 new
 SecurityProperties
 (

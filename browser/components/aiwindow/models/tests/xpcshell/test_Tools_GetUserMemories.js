@@ -87,8 +87,6 @@ SecurityProperties
 await
 getUserMemories
 (
-{
-}
 securityProperties
 )
 ;
@@ -170,8 +168,6 @@ result
 await
 getUserMemories
 (
-{
-}
 securityProperties
 )
 ;
