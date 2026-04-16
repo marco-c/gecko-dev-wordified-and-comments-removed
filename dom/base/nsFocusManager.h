@@ -1623,8 +1623,6 @@ aForDocumentNavigation
 bool
 aNavigateByKey
 bool
-aSkipPopover
-bool
 aReachedToEndForDocumentNavigation
 nsIContent
 *
