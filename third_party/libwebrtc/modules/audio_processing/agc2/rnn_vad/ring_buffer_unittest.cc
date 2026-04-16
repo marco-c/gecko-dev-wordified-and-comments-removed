@@ -490,7 +490,15 @@ j
 EXPECT_NE
 (
 view_i
+.
+data
+(
+)
 view_j
+.
+data
+(
+)
 )
 ;
 }
