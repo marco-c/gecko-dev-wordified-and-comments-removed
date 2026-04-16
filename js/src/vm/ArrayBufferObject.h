@@ -3085,6 +3085,11 @@ size_t
 newByteLength
 )
 ;
+void
+notifyViewsAfterResize
+(
+)
+;
 static
 ResizableArrayBufferObject
 *
