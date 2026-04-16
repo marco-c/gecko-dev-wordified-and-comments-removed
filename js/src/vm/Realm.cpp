@@ -4180,6 +4180,7 @@ realm
 )
 ;
 auto
+&
 rng
 =
 cx
