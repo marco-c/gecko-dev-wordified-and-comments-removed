@@ -96,7 +96,6 @@ a
 ]
 output_dir
 =
-(
 OBJDIR_FILES
 .
 _tests
@@ -118,7 +117,6 @@ test
 browser
 .
 addons
-)
 for
 addon
 in
