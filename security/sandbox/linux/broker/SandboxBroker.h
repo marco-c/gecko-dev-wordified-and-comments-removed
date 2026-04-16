@@ -468,7 +468,7 @@ override
 void
 AuditPermissive
 (
-Operation
+int
 aOp
 int
 aFlags
@@ -485,7 +485,7 @@ aPath
 void
 AuditDenial
 (
-Operation
+int
 aOp
 int
 aFlags
