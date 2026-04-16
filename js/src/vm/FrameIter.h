@@ -863,6 +863,8 @@ FrameIter
 &
 iter
 )
+=
+delete
 ;
 MOZ_IMPLICIT
 FrameIter
