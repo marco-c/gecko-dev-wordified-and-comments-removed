@@ -7165,3 +7165,17 @@ badge
 content
 =
 NEW
+pdfjs
+-
+views
+-
+manager
+-
+waiting
+-
+for
+-
+file
+=
+Uploading
+file
