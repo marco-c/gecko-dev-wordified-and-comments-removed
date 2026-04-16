@@ -22,6 +22,15 @@ include
 <
 memory
 >
+#
+include
+"
+irregexp
+/
+RegExpShim
+.
+h
+"
 namespace
 v8
 {
