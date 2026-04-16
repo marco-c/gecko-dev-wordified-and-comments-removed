@@ -6776,8 +6776,10 @@ FocusMode
 kExtendSelection
 :
 {
+nsCOMPtr
+<
 nsINode
-*
+>
 inclusiveTableCellAncestor
 =
 GetClosestInclusiveTableCellAncestor
