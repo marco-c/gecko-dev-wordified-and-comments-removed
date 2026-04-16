@@ -2391,11 +2391,11 @@ task
 )
 )
 ;
-}
 WakeUpSocketServer
 (
 )
 ;
+}
 }
 void
 Thread
@@ -2514,11 +2514,11 @@ RTC_DCHECK_NE
 delayed_next_num_
 )
 ;
-}
 WakeUpSocketServer
 (
 )
 ;
+}
 }
 int
 Thread
