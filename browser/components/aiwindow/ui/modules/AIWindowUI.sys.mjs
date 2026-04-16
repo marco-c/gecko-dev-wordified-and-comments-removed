@@ -1419,6 +1419,11 @@ selectedTab
 isOpen
 :
 false
+source
+:
+"
+toggle
+"
 }
 }
 )
@@ -2090,6 +2095,11 @@ sidebarAiWindow
 loadStarterPrompts
 (
 true
+win
+.
+gBrowser
+.
+selectedTab
 )
 ;
 }
