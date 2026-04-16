@@ -1929,9 +1929,11 @@ events
 }
 |
 {
+        
 "
 health
 "
+    
 }
     
 if
@@ -1946,6 +1948,7 @@ event
 and
 any
 (
+        
 [
 ping
 in
@@ -1957,6 +1960,7 @@ metric
 .
 send_in_pings
 ]
+    
 )
 :
         
@@ -4400,18 +4404,24 @@ parser_config
 )
                 
 if
+(
+                    
 check_unused_lints
+                    
 and
 check_name
 in
 metric
 .
 no_lint
+                    
 and
 not
 len
 (
 new_nits
+)
+                
 )
 :
                     

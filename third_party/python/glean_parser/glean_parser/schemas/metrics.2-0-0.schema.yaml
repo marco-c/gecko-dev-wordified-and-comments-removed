@@ -1324,6 +1324,8 @@ later
 changes
 to
 it
+including
+renewals
 .
 Prior
 to
@@ -1374,7 +1376,7 @@ Required
 A
 list
 of
-URIs
+URLs
 to
 any
 data
@@ -1384,6 +1386,17 @@ relevant
 to
 the
 metric
+.
+This
+should
+also
+include
+links
+to
+data
+reviews
+for
+renewals
 .
 type
 :

@@ -12,9 +12,9 @@ glean
 parser
 Version
 :
-18
+19
 .
-2
+0
 .
 0
 Summary
@@ -342,10 +342,8 @@ code
 for
 various
 integrations
-linting
 and
-coverage
-testing
+linting
 .
 #
 #
