@@ -717,12 +717,14 @@ instance
 .
 sendRequest
 (
+{
+type
+:
 "
 GeckoView
 :
 ChildCrashReport
 "
-{
 minidumpPath
 extrasPath
 success

@@ -445,6 +445,9 @@ instance
 .
 sendRequestForResult
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -452,7 +455,6 @@ WebExtension
 :
 OpenOptionsPage
 "
-{
 extensionId
 }
 )
@@ -808,6 +810,9 @@ instance
 .
 sendRequestForResult
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -815,7 +820,6 @@ WebExtension
 :
 NewTab
 "
-{
 extensionId
 createProperties
 newSessionId
@@ -1032,6 +1036,9 @@ WindowEventDispatcher
 .
 sendRequestForResult
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -1039,7 +1046,6 @@ WebExtension
 :
 CloseTab
 "
-{
 extensionId
 }
 )
@@ -1081,6 +1087,9 @@ WindowEventDispatcher
 .
 sendRequestForResult
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -1088,7 +1097,6 @@ WebExtension
 :
 UpdateTab
 "
-{
 extensionId
 updateProperties
 }

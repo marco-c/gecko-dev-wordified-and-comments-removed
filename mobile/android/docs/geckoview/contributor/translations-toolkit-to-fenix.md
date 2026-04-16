@@ -7572,6 +7572,9 @@ eventDispatcher
 .
 sendRequest
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -7579,6 +7582,7 @@ Translations
 :
 Offer
 "
+}
 )
 ;
 break

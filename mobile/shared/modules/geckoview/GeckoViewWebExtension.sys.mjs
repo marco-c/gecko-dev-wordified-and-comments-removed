@@ -869,7 +869,6 @@ WindowEventDispatcher
 sendRequest
 (
 aTabId
-aType
 aData
 )
 {
@@ -883,7 +882,6 @@ aTabId
 .
 sendRequest
 (
-aType
 {
 .
 .
@@ -1006,6 +1004,9 @@ dispatcher
 .
 sendRequest
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -1013,7 +1014,6 @@ WebExtension
 :
 Disconnect
 "
-{
 sender
 :
 this
@@ -1040,6 +1040,9 @@ dispatcher
 .
 sendRequest
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -1047,7 +1050,6 @@ WebExtension
 :
 PortMessage
 "
-{
 data
 :
 holder
@@ -1409,8 +1411,8 @@ envType
 }
 _sendMessage
 (
-type
 {
+type
 portId
 data
 }
@@ -1420,6 +1422,7 @@ const
 message
 =
 {
+type
 sender
 :
 this
@@ -1448,7 +1451,6 @@ dispatcher
 .
 sendRequestForResult
 (
-type
 message
 )
 ;
@@ -1463,6 +1465,9 @@ this
 .
 _sendMessage
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -1470,7 +1475,6 @@ WebExtension
 :
 Message
 "
-{
 data
 :
 data
@@ -1504,6 +1508,9 @@ this
 .
 _sendMessage
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -1511,7 +1518,6 @@ WebExtension
 :
 Connect
 "
-{
 data
 :
 {
@@ -3059,6 +3065,9 @@ instance
 .
 sendRequestForResult
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -3066,7 +3075,6 @@ WebExtension
 :
 InstallPrompt
 "
-{
 extension
 permissions
 :
@@ -3214,6 +3222,9 @@ instance
 .
 sendRequestForResult
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -3221,7 +3232,6 @@ WebExtension
 :
 OptionalPrompt
 "
-{
 extensionId
 :
 aExtensionId
@@ -3262,6 +3272,9 @@ instance
 .
 sendRequestForResult
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -3269,7 +3282,6 @@ WebExtension
 :
 UpdatePrompt
 "
-{
 extension
 :
 await
@@ -3552,6 +3564,9 @@ instance
 .
 sendRequest
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -3559,7 +3574,6 @@ WebExtension
 :
 OnInstallationFailed
 "
-{
 extension
 addonId
 :
@@ -3966,6 +3980,9 @@ instance
 .
 sendRequest
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -3973,7 +3990,6 @@ WebExtension
 :
 OnOptionalPermissionsChanged
 "
-{
 extension
 }
 )
@@ -4133,6 +4149,9 @@ instance
 .
 sendRequest
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -4140,7 +4159,6 @@ WebExtension
 :
 OnReady
 "
-{
 extension
 }
 )
@@ -4183,6 +4201,9 @@ instance
 .
 sendRequest
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -4190,7 +4211,6 @@ WebExtension
 :
 OnDisabling
 "
-{
 extension
 }
 )
@@ -4233,6 +4253,9 @@ instance
 .
 sendRequest
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -4240,7 +4263,6 @@ WebExtension
 :
 OnDisabled
 "
-{
 extension
 }
 )
@@ -4283,6 +4305,9 @@ instance
 .
 sendRequest
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -4290,7 +4315,6 @@ WebExtension
 :
 OnEnabling
 "
-{
 extension
 }
 )
@@ -4333,6 +4357,9 @@ instance
 .
 sendRequest
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -4340,7 +4367,6 @@ WebExtension
 :
 OnEnabled
 "
-{
 extension
 }
 )
@@ -4383,6 +4409,9 @@ instance
 .
 sendRequest
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -4390,7 +4419,6 @@ WebExtension
 :
 OnUninstalling
 "
-{
 extension
 }
 )
@@ -4433,6 +4461,9 @@ instance
 .
 sendRequest
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -4440,7 +4471,6 @@ WebExtension
 :
 OnUninstalled
 "
-{
 extension
 }
 )
@@ -4483,6 +4513,9 @@ instance
 .
 sendRequest
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -4490,7 +4523,6 @@ WebExtension
 :
 OnInstalling
 "
-{
 extension
 }
 )
@@ -4533,6 +4565,9 @@ instance
 .
 sendRequest
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -4540,7 +4575,6 @@ WebExtension
 :
 OnInstalled
 "
-{
 extension
 }
 )
@@ -4786,6 +4820,9 @@ instance
 .
 sendRequest
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -4793,6 +4830,7 @@ WebExtension
 :
 OnDisabledProcessSpawning
 "
+}
 )
 ;
 }
@@ -5069,6 +5107,9 @@ instance
 .
 sendRequest
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -5076,6 +5117,7 @@ WebExtension
 :
 DebuggerListUpdated
 "
+}
 )
 ;
 break
@@ -5099,6 +5141,9 @@ instance
 .
 sendRequest
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -5106,6 +5151,7 @@ WebExtension
 :
 DebuggerListUpdated
 "
+}
 )
 ;
 break
