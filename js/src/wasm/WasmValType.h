@@ -2044,6 +2044,13 @@ isExnHierarchy
 )
 const
 ;
+inline
+bool
+isInhabitable
+(
+)
+const
+;
 static
 bool
 isSubTypeOf
