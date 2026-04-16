@@ -481,12 +481,6 @@ maxSize_
 =
 0
 ;
-ArenaCellSet
-*
-sweepHead_
-=
-nullptr
-;
 const
 Cell
 *
@@ -3214,7 +3208,7 @@ value
 )
 ;
 }
-bool
+void
 trace
 (
 TenuringTracer

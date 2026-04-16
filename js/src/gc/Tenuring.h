@@ -424,7 +424,7 @@ template
 typename
 T
 >
-bool
+void
 traceBufferedCells
 (
 Arena
