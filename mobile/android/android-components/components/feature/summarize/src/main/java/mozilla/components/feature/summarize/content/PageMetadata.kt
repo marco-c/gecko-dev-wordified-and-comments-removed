@@ -201,6 +201,12 @@ String
 "
 en
 "
+val
+isReaderable
+:
+Boolean
+=
+false
 )
 private
 val

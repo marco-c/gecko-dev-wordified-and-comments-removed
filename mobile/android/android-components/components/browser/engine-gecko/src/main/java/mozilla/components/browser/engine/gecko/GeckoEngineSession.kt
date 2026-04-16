@@ -5124,6 +5124,11 @@ language
 metadata
 .
 language
+isReaderable
+=
+metadata
+.
+isReaderable
 )
 )
 GeckoResult
