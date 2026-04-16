@@ -2208,6 +2208,11 @@ formatting
 :
 {
 indentation
+commentPosition
+:
+"
+above
+"
 }
 componentName
 }
