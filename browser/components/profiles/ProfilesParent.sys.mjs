@@ -859,6 +859,17 @@ record
 (
 )
 ;
+await
+lazy
+.
+BackupService
+.
+init
+(
+)
+.
+postRecoveryComplete
+;
 let
 isDark
 =
