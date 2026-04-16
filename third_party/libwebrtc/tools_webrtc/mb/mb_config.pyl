@@ -2308,6 +2308,9 @@ no_ios_code_signing
 '
 xctest
 '
+'
+rtc_objc_test_prefix
+'
 ]
 '
 libfuzzer_asan_release_bot_x64
