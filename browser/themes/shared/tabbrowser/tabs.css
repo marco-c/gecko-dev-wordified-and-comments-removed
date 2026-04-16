@@ -12828,12 +12828,6 @@ tabbrowser
 -
 tab
 {
-min
--
-width
-:
-0
-;
 overflow
 :
 visible
@@ -12847,12 +12841,6 @@ width
 :
 100
 %
-;
-max
--
-width
-:
-none
 ;
 margin
 -
