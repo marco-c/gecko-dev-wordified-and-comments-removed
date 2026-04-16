@@ -346,6 +346,10 @@ struct
 timeval
 timer_set
 ;
+void
+*
+destroy_timer_handle
+;
 NR_async_cb
 finished_cb
 ;
