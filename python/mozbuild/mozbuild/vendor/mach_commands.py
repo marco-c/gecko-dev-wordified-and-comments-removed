@@ -971,12 +971,8 @@ new_files_only
     
 )
     
-sys
-.
-exit
-(
+return
 0
-)
 def
 check_modified_files
 (
