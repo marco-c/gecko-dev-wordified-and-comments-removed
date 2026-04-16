@@ -89,15 +89,6 @@ aVersion
 JS_STRUCTURED_CLONE_VERSION
 )
 ;
-bool
-SupportsTransferring
-(
-)
-{
-return
-mSupportsTransferring
-;
-}
 void
 WriteIPCParams
 (

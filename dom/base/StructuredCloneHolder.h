@@ -867,6 +867,16 @@ HasClonedDOMObjects
 (
 )
 ;
+bool
+SupportsTransferring
+(
+)
+const
+{
+return
+mSupportsTransferring
+;
+}
 GeckoChildID
 GetOriginChildID
 (
@@ -1496,7 +1506,6 @@ std
 tie
 (
 mBlobImplArray
-mInputStreamArray
 )
 ;
 }
@@ -1539,6 +1548,7 @@ std
 tie
 (
 mPortIdentifiers
+mInputStreamArray
 )
 ;
 }
