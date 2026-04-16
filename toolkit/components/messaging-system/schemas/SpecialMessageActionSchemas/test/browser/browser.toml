@@ -96,6 +96,13 @@ js
 ]
 [
 "
+browser_sma_create_group_from_current_tab
+.
+js
+"
+]
+[
+"
 browser_sma_create_new_profile
 .
 js
