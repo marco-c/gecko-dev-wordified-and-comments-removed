@@ -491,6 +491,11 @@ MozMallocSizeOf
 "
 :
 true
+"
+chunk_allocator_s
+"
+:
+true
 }
 ;
 var
