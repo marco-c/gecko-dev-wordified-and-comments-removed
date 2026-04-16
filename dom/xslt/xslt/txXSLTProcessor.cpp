@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 txExecutionState
 .
 h

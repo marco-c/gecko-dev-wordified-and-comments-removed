@@ -213,6 +213,13 @@ h
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 nsIBaseWindow
 .
 h

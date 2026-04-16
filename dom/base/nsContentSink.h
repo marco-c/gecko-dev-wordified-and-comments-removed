@@ -48,6 +48,13 @@ h
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 nsICSSLoaderObserver
 .
 h

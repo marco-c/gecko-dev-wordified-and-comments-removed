@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 nsIEventListenerService
 .
 h

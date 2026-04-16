@@ -119,6 +119,13 @@ h
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h

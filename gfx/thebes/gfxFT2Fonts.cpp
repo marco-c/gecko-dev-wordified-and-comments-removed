@@ -103,6 +103,13 @@ h
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

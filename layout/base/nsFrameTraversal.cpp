@@ -60,6 +60,13 @@ h
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 nsPlaceholderFrame
 .
 h

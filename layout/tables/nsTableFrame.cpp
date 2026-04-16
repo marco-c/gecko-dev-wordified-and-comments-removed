@@ -229,6 +229,13 @@ h
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 nsHTMLParts
 .
 h

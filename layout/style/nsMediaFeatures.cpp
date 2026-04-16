@@ -143,6 +143,13 @@ h
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 nsGlobalWindowOuter
 .
 h
