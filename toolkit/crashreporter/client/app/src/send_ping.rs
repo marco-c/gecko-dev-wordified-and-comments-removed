@@ -142,6 +142,9 @@ into
 locale
 :
 None
+upload_enabled
+:
+true
 }
 .
 init
