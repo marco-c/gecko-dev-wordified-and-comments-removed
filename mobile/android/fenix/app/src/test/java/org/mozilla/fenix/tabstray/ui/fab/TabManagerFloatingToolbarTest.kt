@@ -500,9 +500,6 @@ initialState
 isSignedIn
 =
 true
-expanded
-=
-false
 pbmLocked
 =
 false
@@ -649,9 +646,6 @@ initialState
 isSignedIn
 =
 true
-expanded
-=
-false
 pbmLocked
 =
 false
@@ -798,9 +792,6 @@ initialState
 isSignedIn
 =
 true
-expanded
-=
-false
 pbmLocked
 =
 false
