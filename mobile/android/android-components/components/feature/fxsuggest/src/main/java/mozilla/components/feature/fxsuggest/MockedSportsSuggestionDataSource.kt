@@ -517,6 +517,9 @@ BEC0C2
 score
 =
 103
+iconUrl
+=
+null
 )
 awayTeam
 =
@@ -556,6 +559,9 @@ FFFFFF
 score
 =
 107
+iconUrl
+=
+null
 )
 )
 private
@@ -646,6 +652,9 @@ FFFFFF
 score
 =
 12
+iconUrl
+=
+null
 )
 awayTeam
 =
@@ -687,6 +696,9 @@ FFFFFF
 score
 =
 14
+iconUrl
+=
+null
 )
 )
 private
@@ -772,6 +784,9 @@ E3D4AD
 score
 =
 null
+iconUrl
+=
+null
 )
 awayTeam
 =
@@ -809,6 +824,9 @@ C4CED3
 "
 )
 score
+=
+null
+iconUrl
 =
 null
 )
@@ -899,6 +917,9 @@ listOf
 score
 =
 0
+iconUrl
+=
+null
 )
 awayTeam
 =
@@ -932,6 +953,9 @@ FFFFFF
 score
 =
 1
+iconUrl
+=
+null
 )
 )
 }

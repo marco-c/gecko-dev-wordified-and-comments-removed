@@ -2162,6 +2162,9 @@ listOf
 score
 =
 3
+iconUrl
+=
+null
 )
 val
 result
@@ -2233,6 +2236,9 @@ listOf
 score
 =
 3
+iconUrl
+=
+null
 )
 assertNull
 (
@@ -2720,6 +2726,9 @@ DDC9A3
 score
 =
 3
+iconUrl
+=
+null
 )
 private
 val
@@ -2762,4 +2771,7 @@ A6192E
 score
 =
 4
+iconUrl
+=
+null
 )

@@ -1356,6 +1356,11 @@ score
 :
 Int
 ?
+val
+iconUrl
+:
+String
+?
 )
 }
 /
