@@ -10247,6 +10247,12 @@ mozilla
 StyleScopedName
 mTimelineScope
 ;
+mozilla
+:
+:
+StyleLinkParameters
+mLinkParameters
+;
 }
 ;
 struct
