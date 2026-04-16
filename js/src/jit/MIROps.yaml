@@ -6422,7 +6422,7 @@ operands
 :
 def
 :
-Value
+ValueOrObject
 arguments
 :
 globalThis
