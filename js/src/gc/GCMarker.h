@@ -862,11 +862,6 @@ allowDistribute
 size_t
 sizeOfExcludingThis
 (
-mozilla
-:
-:
-MallocSizeOf
-mallocSizeOf
 )
 const
 ;
