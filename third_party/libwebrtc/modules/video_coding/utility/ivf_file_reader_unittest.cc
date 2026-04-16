@@ -421,13 +421,7 @@ IvfFileWriter
 :
 Wrap
 (
-FileWrapper
-:
-:
-OpenWriteOnly
-(
 file_name_
-)
 0
 )
 ;

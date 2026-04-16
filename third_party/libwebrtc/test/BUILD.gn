@@ -9217,16 +9217,6 @@ mutex
 .
 .
 /
-rtc_base
-/
-system
-:
-file_wrapper
-"
-"
-.
-.
-/
 system_wrappers
 "
 "
