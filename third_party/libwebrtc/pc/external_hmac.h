@@ -54,6 +54,9 @@ srtp
 .
 h
 "
+namespace
+webrtc
+{
 #
 define
 EXTERNAL_HMAC_SHA1
@@ -159,5 +162,6 @@ external_crypto_init
 (
 )
 ;
+}
 #
 endif

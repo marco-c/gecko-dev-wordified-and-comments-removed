@@ -1170,6 +1170,14 @@ deps
 .
 .
 /
+api
+:
+array_view
+"
+"
+.
+.
+/
 rtc_base
 :
 logging
