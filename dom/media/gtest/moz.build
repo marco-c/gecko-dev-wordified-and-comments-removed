@@ -312,11 +312,6 @@ TestIntervalSet
 cpp
 "
 "
-TestMediaCapabilities
-.
-cpp
-"
-"
 TestMediaCodecsSupport
 .
 cpp
@@ -825,14 +820,6 @@ dom
 media
 /
 gmp
-"
-"
-/
-dom
-/
-media
-/
-mediacapabilities
 "
 "
 /
