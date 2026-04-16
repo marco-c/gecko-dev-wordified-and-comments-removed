@@ -8556,7 +8556,7 @@ RTC_DCHECK
 callback
 )
 ;
-RTC_LOG_THREAD_BLOCK_COUNT
+RTC_DCHECK_DISALLOW_THREAD_BLOCKING_CALLS
 (
 )
 ;
@@ -8650,11 +8650,6 @@ internal_sender
 callback
 )
 ;
-RTC_DCHECK_BLOCK_COUNT_NO_MORE_THAN
-(
-2
-)
-;
 }
 void
 PeerConnection
@@ -8699,7 +8694,7 @@ RTC_DCHECK
 callback
 )
 ;
-RTC_LOG_THREAD_BLOCK_COUNT
+RTC_DCHECK_DISALLOW_THREAD_BLOCKING_CALLS
 (
 )
 ;
@@ -8791,11 +8786,6 @@ GetStatsReport
 (
 internal_receiver
 callback
-)
-;
-RTC_DCHECK_BLOCK_COUNT_NO_MORE_THAN
-(
-2
 )
 ;
 }
