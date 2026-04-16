@@ -260,6 +260,11 @@ setupEventListeners
 ;
 if
 (
+AppConstants
+.
+MOZ_UPDATER
+&
+&
 Services
 .
 sysinfo
