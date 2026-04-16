@@ -72,7 +72,7 @@ export
 const
 CURRENT_SCHEMA_VERSION
 =
-5
+6
 ;
 /
 *
@@ -185,6 +185,10 @@ modelName
 "
 gemini
 -
+2
+.
+5
+-
 flash
 -
 lite
@@ -206,6 +210,10 @@ Qwen3
 235B
 -
 A22B
+-
+Instruct
+-
+2507
 "
 ownerName
 :
