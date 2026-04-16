@@ -4491,11 +4491,6 @@ aContentStyle
 nsContainerFrame
 *
 aParentFrame
-mozilla
-:
-:
-PseudoStyleType
-aScrolledPseudo
 bool
 aIsRoot
 nsContainerFrame
