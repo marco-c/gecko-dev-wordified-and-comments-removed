@@ -201,6 +201,14 @@ fun
 isClassConstructor
 (
 )
+|
+|
+fun
+-
+>
+isTrampolineNative
+(
+)
 )
 {
 return
