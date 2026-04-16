@@ -315,9 +315,10 @@ TabGroupColors
 (
 primary
 =
-PhotonColors
-.
-Yellow70A77
+Color
+(
+0xFFC15727
+)
 onPrimary
 =
 PhotonColors
@@ -420,9 +421,10 @@ TabGroupColors
 (
 primary
 =
-PhotonColors
-.
-Green70
+Color
+(
+0xFF008383
+)
 onPrimary
 =
 PhotonColors
