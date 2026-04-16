@@ -928,9 +928,9 @@ NS_INLINE_DECL_STATIC_IID
 ADDRHOSTRECORD_IID
 )
 NS_DECL_ISUPPORTS_INHERITED
+mutable
 Mutex
 addr_info_lock
-MOZ_UNANNOTATED
 {
 "
 AddrHostRecord
@@ -941,6 +941,10 @@ addr_info_lock
 ;
 int
 addr_info_gencnt
+MOZ_GUARDED_BY
+(
+addr_info_lock
+)
 =
 0
 ;
@@ -955,6 +959,10 @@ net
 AddrInfo
 >
 addr_info
+MOZ_GUARDED_BY
+(
+addr_info_lock
+)
 ;
 mozilla
 :
@@ -1206,6 +1214,10 @@ nsTArray
 nsCString
 >
 mUnusableItems
+MOZ_GUARDED_BY
+(
+addr_info_lock
+)
 ;
 }
 ;
