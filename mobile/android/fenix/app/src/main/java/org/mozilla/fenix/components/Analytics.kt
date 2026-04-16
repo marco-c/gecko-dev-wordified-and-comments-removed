@@ -928,6 +928,15 @@ MOZ_APP_VERSION
 appBuildId
 =
 MOZ_APP_BUILDID
+isUploadEnabled
+=
+context
+.
+settings
+(
+)
+.
+isTelemetryEnabled
 )
 )
 shouldPrompt
