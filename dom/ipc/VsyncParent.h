@@ -40,9 +40,13 @@ nsCOMPtr
 .
 h
 "
-class
+#
+include
+"
 nsIThread
-;
+.
+h
+"
 namespace
 mozilla
 :
@@ -62,9 +66,10 @@ friend
 class
 PVsyncParent
 ;
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING_WITH_DELETE_ON_EVENT_TARGET
 (
 VsyncParent
+mInitialThread
 override
 )
 public
