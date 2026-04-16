@@ -1571,7 +1571,9 @@ body
 .
 contentEditable
 =
-false
+"
+inherit
+"
 ;
 }
 )
