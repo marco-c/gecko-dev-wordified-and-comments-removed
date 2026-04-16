@@ -1485,7 +1485,7 @@ ParseSps
 (
 slice
 .
-subview
+subspan
 (
 H264
 :
@@ -1538,7 +1538,7 @@ ParsePps
 (
 slice
 .
-subview
+subspan
 (
 H264
 :
@@ -1716,7 +1716,7 @@ ParseSlice
 (
 bitstream
 .
-subview
+subspan
 (
 index
 .

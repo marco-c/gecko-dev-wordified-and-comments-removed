@@ -2059,7 +2059,7 @@ uint8_t
 sps
 )
 .
-subview
+subspan
 (
 kNaluHeaderOffset
 )
@@ -2091,7 +2091,7 @@ uint8_t
 pps
 )
 .
-subview
+subspan
 (
 kNaluHeaderOffset
 )

@@ -3253,7 +3253,7 @@ ParseVps
 (
 slice
 .
-subview
+subspan
 (
 H265
 :
@@ -3350,7 +3350,7 @@ ParseSps
 (
 slice
 .
-subview
+subspan
 (
 H265
 :
@@ -3454,7 +3454,7 @@ ParseRbsp
 (
 slice
 .
-subview
+subspan
 (
 H265
 :
@@ -3523,7 +3523,7 @@ ParsePps
 (
 slice
 .
-subview
+subspan
 (
 H265
 :
@@ -3931,7 +3931,7 @@ ParseSlice
 (
 bitstream
 .
-subview
+subspan
 (
 index
 .

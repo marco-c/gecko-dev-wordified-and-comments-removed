@@ -1162,7 +1162,7 @@ start_code
 =
 buffer
 .
-subview
+subspan
 (
 nalu_index
 .
@@ -1185,7 +1185,7 @@ nalu
 =
 buffer
 .
-subview
+subspan
 (
 nalu_index
 .
@@ -1262,7 +1262,7 @@ ParseAndRewriteSps
 (
 nalu
 .
-subview
+subspan
 (
 H264
 :

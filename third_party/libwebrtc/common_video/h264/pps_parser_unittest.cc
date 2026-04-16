@@ -1151,7 +1151,7 @@ ParseSliceHeader
 (
 chunk
 .
-subview
+subspan
 (
 index
 .

@@ -673,7 +673,7 @@ nalu
 (
 bitstream
 .
-subview
+subspan
 (
 1
 )
@@ -941,7 +941,7 @@ nalu
 (
 bitstream
 .
-subview
+subspan
 (
 1
 )
@@ -1309,7 +1309,7 @@ uint8_t
 sps
 )
 .
-subview
+subspan
 (
 kNaluHeaderOffset
 )
@@ -1341,7 +1341,7 @@ uint8_t
 pps
 )
 .
-subview
+subspan
 (
 kNaluHeaderOffset
 )
