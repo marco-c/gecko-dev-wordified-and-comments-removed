@@ -49,6 +49,7 @@ ContentDecryptionModule_11
 {
 private
 :
+const
 RefPtr
 <
 ClearKeySessionManager
