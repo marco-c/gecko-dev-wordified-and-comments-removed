@@ -23,6 +23,11 @@ edition
 [
 dependencies
 ]
+anyhow
+=
+"
+1
+"
 clap
 =
 {
