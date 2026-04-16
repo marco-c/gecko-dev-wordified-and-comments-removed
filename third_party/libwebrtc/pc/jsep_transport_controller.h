@@ -546,11 +546,6 @@ disable_encryption
 =
 false
 ;
-bool
-enable_external_auth
-=
-false
-;
 IceTransportFactory
 *
 ice_transport_factory
