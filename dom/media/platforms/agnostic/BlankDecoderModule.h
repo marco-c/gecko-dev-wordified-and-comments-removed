@@ -18,6 +18,13 @@ h
 #
 include
 "
+ImageContainer
+.
+h
+"
+#
+include
+"
 PlatformDecoderModule
 .
 h
@@ -25,13 +32,6 @@ h
 namespace
 mozilla
 {
-namespace
-layers
-{
-class
-ImageContainer
-;
-}
 class
 MediaData
 ;

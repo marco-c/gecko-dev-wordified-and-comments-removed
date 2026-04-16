@@ -31,6 +31,11 @@ files
 =
 [
 "
+mediacapabilities_drm_utils
+.
+js
+"
+"
 tearsofsteel_1frame_encrypted
 .
 mp4
@@ -64,3 +69,15 @@ test_eme_wideinve_l1_installation
 html
 "
 ]
+[
+"
+test_mediacapabilities_drm_hardware_encryption
+.
+html
+"
+]
+scheme
+=
+"
+https
+"
