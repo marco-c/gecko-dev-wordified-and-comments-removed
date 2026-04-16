@@ -17869,7 +17869,7 @@ str
 return
 NewInlineString
 <
-CanGC
+allowGC
 >
 (
 cx
