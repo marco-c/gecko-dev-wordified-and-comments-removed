@@ -4117,6 +4117,15 @@ async
 >
 {
 }
+deleteMultiple
+:
+async
+(
+)
+=
+>
+{
+}
 prune
 :
 async
