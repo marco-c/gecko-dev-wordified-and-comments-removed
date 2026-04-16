@@ -1050,6 +1050,10 @@ Unit
 is
 SummarizationState
 .
+LearnMoreAboutShakeConsent
+is
+SummarizationState
+.
 ShakeConsentRequired
 -
 >

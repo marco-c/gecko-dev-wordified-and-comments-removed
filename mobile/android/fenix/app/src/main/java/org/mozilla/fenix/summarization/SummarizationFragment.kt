@@ -1065,16 +1065,11 @@ state
 {
 SummarizationState
 .
-Finished
-.
 LearnMoreAboutShakeConsent
 -
 >
 {
 openLearnMoreLink
-(
-)
-dismiss
 (
 )
 }
