@@ -1447,12 +1447,6 @@ return
 mainContext_
 ;
 }
-js
-:
-:
-Fprinter
-parserWatcherFile
-;
 inline
 JSContext
 *
@@ -3219,14 +3213,6 @@ randomHashCodeGenerator_
 ;
 public
 :
-mozilla
-:
-:
-HashCodeScrambler
-randomHashCodeScrambler
-(
-)
-;
 mozilla
 :
 :
