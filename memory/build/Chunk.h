@@ -16,6 +16,13 @@ h
 #
 include
 "
+mozjemalloc_types
+.
+h
+"
+#
+include
+"
 RadixTree
 .
 h
@@ -350,6 +357,9 @@ void
 *
 arena_chunk_alloc
 (
+chunk_allocator_t
+*
+aChunkAllocator
 size_t
 aSize
 size_t
@@ -359,6 +369,9 @@ aAlignment
 void
 arena_chunk_dealloc
 (
+chunk_allocator_t
+*
+aChunkAllocator
 void
 *
 aChunk
@@ -411,6 +424,10 @@ kChunkSize
 )
 >
 gChunkRTree
+;
+extern
+chunk_allocator_t
+gSystemChunkAllocator
 ;
 enum
 ShouldCommit
