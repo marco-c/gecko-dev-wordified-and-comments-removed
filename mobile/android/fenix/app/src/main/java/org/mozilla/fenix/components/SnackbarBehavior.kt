@@ -371,14 +371,6 @@ R
 .
 id
 .
-toolbarLayout
-)
-add
-(
-R
-.
-id
-.
 toolbar
 )
 add
