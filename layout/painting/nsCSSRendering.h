@@ -1765,13 +1765,7 @@ aFlags
 ;
 static
 void
-BeginFrameTreesLocked
-(
-)
-;
-static
-void
-EndFrameTreesLocked
+PresShellChanged
 (
 )
 ;
