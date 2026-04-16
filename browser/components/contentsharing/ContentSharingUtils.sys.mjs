@@ -616,12 +616,6 @@ this
 openShareUrlInNewTab
 (
 share
-tabs
-[
-0
-]
-.
-ownerGlobal
 )
 ;
 }
@@ -774,7 +768,7 @@ linkedBrowser
 .
 currentURI
 .
-displaySpec
+spec
 title
 :
 t
@@ -802,9 +796,6 @@ this
 openShareUrlInNewTab
 (
 share
-tabGroup
-.
-ownerGlobal
 )
 ;
 }
