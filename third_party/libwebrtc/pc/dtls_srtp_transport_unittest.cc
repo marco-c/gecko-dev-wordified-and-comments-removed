@@ -773,10 +773,6 @@ subspan
 (
 2
 )
-.
-data
-(
-)
 +
 +
 sequence_number_
@@ -1225,10 +1221,6 @@ rtp_packet_buffer
 subspan
 (
 2
-)
-.
-data
-(
 )
 +
 +
