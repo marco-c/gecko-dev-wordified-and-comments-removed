@@ -253,6 +253,13 @@ mTrackingId
 )
 )
 ;
+{
+MutexAutoLock
+lock
+(
+mGmpPluginMutex
+)
+;
 mCreatedGmpPluginEvent
 .
 Forward
@@ -279,6 +286,7 @@ ReleasePluginEvent
 )
 )
 ;
+}
 decoder
 .
 reset
@@ -896,6 +904,13 @@ mPCHandle
 )
 )
 ;
+{
+MutexAutoLock
+lock
+(
+mGmpPluginMutex
+)
+;
 mCreatedGmpPluginEvent
 .
 Forward
@@ -922,6 +937,7 @@ ReleasePluginEvent
 )
 )
 ;
+}
 encoder
 .
 reset
