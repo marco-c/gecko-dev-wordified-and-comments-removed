@@ -261,6 +261,13 @@ UpdateCachedCurrentTime
 (
 )
 ;
+timeline
+-
+>
+AutoAlignStartTime
+(
+)
+;
 }
 }
 }

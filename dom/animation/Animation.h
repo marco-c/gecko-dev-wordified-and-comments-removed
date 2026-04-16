@@ -1667,6 +1667,11 @@ PostUpdate
 (
 )
 ;
+void
+AutoAlignStartTime
+(
+)
+;
 protected
 :
 void
@@ -2197,6 +2202,11 @@ mIdOnCompositor
 ;
 bool
 mIsPartialPrerendered
+=
+false
+;
+bool
+mAutoAlignStartTime
 =
 false
 ;
