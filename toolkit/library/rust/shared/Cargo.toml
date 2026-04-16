@@ -557,7 +557,7 @@ audioipc
 rev
 =
 "
-c484fc0404e5e010802da6554077c0ca063d2ccf
+b52c33425baf619b6c1278c5b4c7ffa3e92b9b1e
 "
 optional
 =
@@ -586,7 +586,7 @@ audioipc
 rev
 =
 "
-c484fc0404e5e010802da6554077c0ca063d2ccf
+b52c33425baf619b6c1278c5b4c7ffa3e92b9b1e
 "
 optional
 =
@@ -1006,11 +1006,11 @@ ffi
 chardetng_c
 =
 "
+1
+.
 0
 .
-1
-.
-1
+0
 "
 audio_thread_priority
 =
