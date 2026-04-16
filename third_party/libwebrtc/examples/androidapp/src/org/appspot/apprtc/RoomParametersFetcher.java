@@ -1522,6 +1522,12 @@ return
 ret
 ;
 }
+SuppressWarnings
+(
+"
+ScannerUseDelimiter
+"
+)
 private
 static
 String

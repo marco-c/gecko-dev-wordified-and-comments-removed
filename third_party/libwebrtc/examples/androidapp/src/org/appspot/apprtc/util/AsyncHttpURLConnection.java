@@ -588,6 +588,12 @@ getMessage
 ;
 }
 }
+SuppressWarnings
+(
+"
+ScannerUseDelimiter
+"
+)
 private
 static
 String
