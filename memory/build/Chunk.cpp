@@ -2696,8 +2696,6 @@ void
 aChunk
 size_t
 aSize
-ChunkType
-aType
 )
 {
 MOZ_ASSERT
@@ -2747,7 +2745,7 @@ base_chunk_dealloc
 (
 aChunk
 aSize
-aType
+ARENA_CHUNK
 )
 ;
 }
