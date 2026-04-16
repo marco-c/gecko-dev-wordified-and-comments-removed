@@ -292,6 +292,18 @@ concept
 awesomebar
 .
 AwesomeBar
+import
+mozilla
+.
+components
+.
+concept
+.
+awesomebar
+.
+optimizedsuggestions
+.
+SportSuggestionState
 Suppress
 (
 "
@@ -937,6 +949,10 @@ group
 suggestion
 )
 }
+state
+=
+SportSuggestionState
+(
 sport
 =
 suggestion
@@ -972,6 +988,7 @@ awayTeam
 suggestion
 .
 awayTeam
+)
 )
 }
 is
