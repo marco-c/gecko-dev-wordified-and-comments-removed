@@ -5408,6 +5408,11 @@ if
 mShutdown
 )
 {
+SetParent
+(
+nullptr
+)
+;
 return
 ;
 }
