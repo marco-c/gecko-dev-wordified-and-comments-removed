@@ -266,7 +266,10 @@ handled
 showCustomEditTextPreferenceDialog
 (
 preference
-)
+=
+preference
+onSuccess
+=
 {
 hasChanges
 =
@@ -275,6 +278,7 @@ updateMenu
 (
 )
 }
+)
 if
 (
 !

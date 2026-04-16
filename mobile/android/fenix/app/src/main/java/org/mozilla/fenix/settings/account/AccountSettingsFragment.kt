@@ -1119,6 +1119,17 @@ handled
 showCustomEditTextPreferenceDialog
 (
 preference
+=
+preference
+errorMessage
+=
+{
+R
+.
+string
+.
+empty_device_name_error
+}
 )
 if
 (
