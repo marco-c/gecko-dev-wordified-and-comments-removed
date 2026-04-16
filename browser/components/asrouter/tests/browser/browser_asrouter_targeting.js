@@ -3608,7 +3608,7 @@ expected
 =
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isContentWindowPrivate
 (
 win
 )
@@ -3652,7 +3652,7 @@ equal
 to
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isContentWindowPrivate
 (
 )
 "
@@ -3746,7 +3746,7 @@ expected
 =
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isContentWindowPrivate
 (
 privateWin
 )
@@ -3790,7 +3790,7 @@ equal
 to
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isContentWindowPrivate
 (
 )
 "
