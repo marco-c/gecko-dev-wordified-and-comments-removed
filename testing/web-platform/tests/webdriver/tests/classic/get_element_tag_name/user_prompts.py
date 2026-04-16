@@ -136,7 +136,7 @@ assert_success
 (
 response
 "
-input
+INPUT
 "
 )
         

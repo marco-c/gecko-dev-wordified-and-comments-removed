@@ -2932,10 +2932,6 @@ return
 elem
 .
 tagName
-.
-toLowerCase
-(
-)
 ;
 }
 /
