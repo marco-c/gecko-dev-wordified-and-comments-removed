@@ -7554,6 +7554,17 @@ panelitem
 =
 Search
 Settings
+urlbar
+-
+searchmode
+-
+popup
+-
+settings
+-
+panelitem
+=
+Settings
 #
 Label
 shown
