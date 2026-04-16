@@ -28058,6 +28058,16 @@ const
 std
 :
 :
+vector
+<
+TransceiverReferences
+>
+&
+transceiver_references
+const
+std
+:
+:
 optional
 <
 AudioDeviceModule
