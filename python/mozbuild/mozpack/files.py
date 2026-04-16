@@ -3,6 +3,8 @@ bisect
 import
 errno
 import
+functools
+import
 inspect
 import
 json
@@ -59,12 +61,6 @@ makeutil
 from
 mozbuild
 .
-nodeutil
-import
-package_setup
-from
-mozbuild
-.
 preprocessor
 import
 Preprocessor
@@ -75,7 +71,6 @@ util
 import
 FileAvoidWrite
 ensure_unicode
-memoize
 from
 mozpack
 .
@@ -2184,12 +2179,24 @@ dest
 )
             
 if
+mozpath
+.
+strip_extended_length_prefix
+(
+                
 link
+            
+)
 =
 =
+mozpath
+.
+strip_extended_length_prefix
+(
 self
 .
 path
+)
 :
                 
 return
@@ -4828,6 +4835,13 @@ exists
 (
 )
 :
+                
+from
+mozbuild
+.
+nodeutil
+import
+package_setup
                 
 package_setup
 (
@@ -8215,7 +8229,9 @@ sorted
 files
 )
     
-memoize
+functools
+.
+cache
     
 def
 _match

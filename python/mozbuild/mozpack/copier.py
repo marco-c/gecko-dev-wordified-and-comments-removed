@@ -191,10 +191,7 @@ add
 normed
 )
                         
-symlink_targets
-[
-normed
-]
+target
 =
 os
 .
@@ -203,6 +200,20 @@ readlink
 entry
 .
 path
+)
+                        
+symlink_targets
+[
+normed
+]
+=
+mozpath
+.
+strip_extended_length_prefix
+(
+                            
+target
+                        
 )
                     
 elif
@@ -2996,15 +3007,25 @@ destfile
 )
                 
 if
+(
+                    
 link_target
 is
 not
 None
+                    
 and
 link_target
 =
 =
+mozpath
+.
+strip_extended_length_prefix
+(
 src_path
+)
+                
+)
 :
                     
 dest_files
@@ -3163,15 +3184,26 @@ destfile
 )
                     
 if
+(
+                        
 link_target
 is
 not
 None
+                        
 and
 link_target
+                        
 =
 =
+mozpath
+.
+strip_extended_length_prefix
+(
 src_path
+)
+                    
+)
 :
                         
 dest_files
