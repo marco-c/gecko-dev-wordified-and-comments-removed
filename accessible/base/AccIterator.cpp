@@ -133,7 +133,6 @@ AccIterator
 :
 AccIterator
 (
-const
 LocalAccessible
 *
 aAccessible
@@ -310,7 +309,6 @@ IteratorState
 :
 IteratorState
 (
-const
 LocalAccessible
 *
 aParent

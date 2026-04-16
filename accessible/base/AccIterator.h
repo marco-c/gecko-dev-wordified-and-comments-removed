@@ -133,7 +133,6 @@ public
 :
 AccIterator
 (
-const
 LocalAccessible
 *
 aRoot
@@ -187,7 +186,6 @@ IteratorState
 explicit
 IteratorState
 (
-const
 LocalAccessible
 *
 aParent
@@ -198,9 +196,10 @@ mParentState
 nullptr
 )
 ;
-const
+RefPtr
+<
 LocalAccessible
-*
+>
 mParent
 ;
 int32_t
