@@ -88,7 +88,7 @@ cache
 )
     
 import
-time
+uuid
     
 response
 .
@@ -96,12 +96,12 @@ content
 =
 f
 "
-Timestamp
+Token
 :
 {
-time
+uuid
 .
-time
+uuid4
 (
 )
 }
