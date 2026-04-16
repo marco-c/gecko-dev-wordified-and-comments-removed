@@ -104,6 +104,11 @@ pytest
 .
 mark
 .
+enable_webkit_scrollbar
+pytest
+.
+mark
+.
 skip_platforms
 (
 "
@@ -140,6 +145,11 @@ top_bar_has_extra_scrollbar
 (
 client
 )
+pytest
+.
+mark
+.
+disable_webkit_scrollbar
 pytest
 .
 mark
