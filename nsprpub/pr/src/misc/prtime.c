@@ -140,7 +140,7 @@ A
 )
 static
 const
-int
+PRInt16
 lastDayOfMonth
 [
 2
@@ -1958,6 +1958,9 @@ time
 >
 tm_yday
 =
+(
+PRInt16
+)
 time
 -
 >
@@ -8530,6 +8533,9 @@ result
 >
 tm_year
 =
+(
+PRInt16
+)
 year
 ;
 }
@@ -8546,6 +8552,9 @@ result
 >
 tm_wday
 =
+(
+PRInt8
+)
 (
 (
 (

@@ -1,17 +1,4 @@
 #
--
-*
--
-tab
--
-width
-:
-4
-;
--
-*
--
-#
 Configure
 paths
 for
