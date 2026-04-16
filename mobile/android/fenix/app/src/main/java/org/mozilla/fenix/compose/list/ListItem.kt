@@ -2426,6 +2426,9 @@ IconListItemBeforeIcon
 (
 isHighlighted
 =
+enabled
+&
+&
 isBeforeIconHighlighted
 painter
 =
