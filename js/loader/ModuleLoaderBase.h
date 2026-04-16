@@ -2044,7 +2044,7 @@ ImportMetaSlots
 :
 uint32_t
 {
-ModulePrivateSlot
+ModuleRecordSlot
 =
 0
 SlotCount

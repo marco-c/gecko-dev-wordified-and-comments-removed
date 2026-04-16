@@ -212,6 +212,9 @@ GenericAssembler
 :
 spewVA
 (
+unsigned
+long
+currentOffset
 const
 char
 *
@@ -223,7 +226,7 @@ va
 char
 buf
 [
-200
+256
 ]
 ;
 int
@@ -256,10 +259,13 @@ printf
 (
 "
 %
+06lx
+%
 s
 \
 n
 "
+currentOffset
 buf
 )
 ;
@@ -281,8 +287,11 @@ jit
 JitSpew_Codegen
 "
 %
+06lx
+%
 s
 "
+currentOffset
 buf
 )
 ;

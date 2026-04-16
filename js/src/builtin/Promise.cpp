@@ -20007,10 +20007,9 @@ JSObject
 obj
 (
 cx
-NewPlainObjectWithProto
+NewPlainObject
 (
 cx
-nullptr
 )
 )
 ;
@@ -20179,10 +20178,9 @@ JSObject
 obj
 (
 cx
-NewPlainObjectWithProto
+NewPlainObject
 (
 cx
-nullptr
 )
 )
 ;

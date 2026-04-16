@@ -24,11 +24,6 @@ h
 "
 #
 include
-<
-functional
->
-#
-include
 "
 gc
 /

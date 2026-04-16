@@ -7222,7 +7222,7 @@ return
 true
 ;
 }
-MOZ_RUNINIT
+constinit
 WellKnownParserAtoms
 WellKnownParserAtoms
 :

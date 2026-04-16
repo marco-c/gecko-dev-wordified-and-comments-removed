@@ -1267,9 +1267,10 @@ JSObject
 info
 (
 cx
-JS_NewPlainObject
+NewPlainObjectWithProto
 (
 cx
+nullptr
 )
 )
 ;

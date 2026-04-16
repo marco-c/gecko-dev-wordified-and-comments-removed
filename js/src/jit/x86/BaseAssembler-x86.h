@@ -49,6 +49,9 @@ dst
 {
 spew
 (
+currentOffset
+(
+)
 "
 adcl
 %
@@ -121,6 +124,9 @@ addr
 {
 spew
 (
+currentOffset
+(
+)
 "
 adcl
 %
@@ -188,6 +194,9 @@ dst
 {
 spew
 (
+currentOffset
+(
+)
 "
 adcl
 %
@@ -228,6 +237,9 @@ dst
 {
 spew
 (
+currentOffset
+(
+)
 "
 adcl
 "
@@ -275,6 +287,9 @@ dst
 {
 spew
 (
+currentOffset
+(
+)
 "
 adcl
 "
@@ -320,6 +335,9 @@ dst
 {
 spew
 (
+currentOffset
+(
+)
 "
 sbbl
 %
@@ -390,6 +408,9 @@ dst
 {
 spew
 (
+currentOffset
+(
+)
 "
 sbbl
 %
@@ -430,6 +451,9 @@ dst
 {
 spew
 (
+currentOffset
+(
+)
 "
 sbbl
 "
@@ -477,6 +501,9 @@ dst
 {
 spew
 (
+currentOffset
+(
+)
 "
 sbbl
 "
@@ -530,6 +557,9 @@ addr
 {
 spew
 (
+currentOffset
+(
+)
 "
 andl
 0x
@@ -606,6 +636,9 @@ addr
 {
 spew
 (
+currentOffset
+(
+)
 "
 orl
 0x
@@ -682,6 +715,9 @@ addr
 {
 spew
 (
+currentOffset
+(
+)
 "
 subl
 %
@@ -758,6 +794,9 @@ imm
 ;
 spew
 (
+currentOffset
+(
+)
 "
 shldl
 %
@@ -815,6 +854,9 @@ imm
 ;
 spew
 (
+currentOffset
+(
+)
 "
 shrdl
 %
@@ -1019,6 +1061,9 @@ pusha
 {
 spew
 (
+currentOffset
+(
+)
 "
 pusha
 "
@@ -1039,6 +1084,9 @@ popa
 {
 spew
 (
+currentOffset
+(
+)
 "
 popa
 "

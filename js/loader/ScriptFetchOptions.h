@@ -229,15 +229,6 @@ other
 -
 >
 mCORSMode
-&
-&
-mFetchPriority
-=
-=
-other
--
->
-mFetchPriority
 ;
 }
 size_t

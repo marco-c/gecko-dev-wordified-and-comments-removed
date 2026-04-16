@@ -4651,6 +4651,15 @@ empty
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+node
+-
+>
+pn_next
+)
+;
 pn_pos
 .
 end

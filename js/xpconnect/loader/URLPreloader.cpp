@@ -41,6 +41,15 @@ include
 "
 mozilla
 /
+EndianUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 FileUtils
 .
 h

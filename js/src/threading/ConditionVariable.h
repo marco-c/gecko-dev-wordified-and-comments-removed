@@ -25,13 +25,6 @@ h
 #
 include
 <
-stdint
-.
-h
->
-#
-include
-<
 utility
 >
 #

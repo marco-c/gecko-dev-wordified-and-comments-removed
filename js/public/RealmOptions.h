@@ -815,6 +815,11 @@ char
 timeZone
 )
 ;
+void
+copyOverrideStrings
+(
+)
+;
 private
 :
 RefPtr

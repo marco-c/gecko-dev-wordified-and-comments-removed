@@ -45,7 +45,7 @@ expect
 '
 TypeError
 :
-19
+18
 '
 ;
 try

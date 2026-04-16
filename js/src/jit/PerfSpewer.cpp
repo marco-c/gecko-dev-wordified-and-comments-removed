@@ -1247,6 +1247,9 @@ return
 false
 ;
 }
+#
+ifndef
+ANDROID
 constexpr
 size_t
 kJitDumpBufferSize
@@ -1294,6 +1297,8 @@ _IOFBF
 kJitDumpBufferSize
 )
 ;
+#
+endif
 #
 ifdef
 XP_LINUX

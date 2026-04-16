@@ -3717,6 +3717,14 @@ test
 \
 MACRO_
 (
+text
+"
+text
+"
+)
+\
+MACRO_
+(
 then
 "
 then

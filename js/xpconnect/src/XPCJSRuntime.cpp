@@ -4324,6 +4324,14 @@ traceWeak
 trc
 )
 ;
+BrowsingContext
+:
+:
+SweepWindowProxies
+(
+trc
+)
+;
 }
 void
 XPCJSRuntime

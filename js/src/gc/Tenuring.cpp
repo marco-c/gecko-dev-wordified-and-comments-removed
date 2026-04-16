@@ -4194,6 +4194,9 @@ flags
 (
 )
 &
+StringFlags
+:
+:
 PRESERVE_LINEAR_NONATOM_BITS_ON_REPLACE
 ;
 new
@@ -4217,6 +4220,9 @@ flags
 (
 )
 &
+StringFlags
+:
+:
 PRESERVE_LINEAR_NONATOM_BITS_ON_REPLACE
 )
 =

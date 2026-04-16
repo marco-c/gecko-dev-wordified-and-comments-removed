@@ -123,12 +123,13 @@ JavaScript
 JSON
 CSS
 Bytes
+Text
 JavaScriptOrWasm
 =
 JavaScript
 Limit
 =
-Bytes
+Text
 }
 ;
 using

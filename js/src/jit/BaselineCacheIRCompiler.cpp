@@ -2274,7 +2274,7 @@ offsetOfFlags
 )
 Imm32
 (
-JSString
+StringFlags
 :
 :
 ATOM_BIT
@@ -7398,7 +7398,7 @@ offsetOfFlags
 )
 Imm32
 (
-JSString
+StringFlags
 :
 :
 ATOM_BIT

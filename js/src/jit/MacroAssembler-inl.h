@@ -2228,7 +2228,7 @@ Zero
 flags
 Imm32
 (
-JSString
+StringFlags
 :
 :
 LINEAR_BIT
@@ -2271,7 +2271,7 @@ NonZero
 flags
 Imm32
 (
-JSString
+StringFlags
 :
 :
 LINEAR_BIT
@@ -2311,7 +2311,7 @@ offsetOfFlags
 )
 Imm32
 (
-JSString
+StringFlags
 :
 :
 LATIN1_CHARS_BIT
@@ -2351,7 +2351,7 @@ offsetOfFlags
 )
 Imm32
 (
-JSString
+StringFlags
 :
 :
 LATIN1_CHARS_BIT

@@ -3462,6 +3462,13 @@ mallocSizeOf
 this
 )
 +
+moduleRequests
+.
+sizeOfExcludingThis
+(
+mallocSizeOf
+)
++
 requestedModules
 .
 sizeOfExcludingThis

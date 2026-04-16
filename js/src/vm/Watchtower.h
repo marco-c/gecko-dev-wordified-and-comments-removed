@@ -71,6 +71,9 @@ HandleId
 id
 PropertyInfo
 propInfo
+bool
+*
+wasTrackedObjectFuseProp
 )
 ;
 static
@@ -573,8 +576,18 @@ HandleId
 id
 PropertyInfo
 propInfo
+bool
+*
+wasTrackedObjectFuseProp
 )
 {
+MOZ_ASSERT
+(
+!
+*
+wasTrackedObjectFuseProp
+)
+;
 if
 (
 MOZ_LIKELY
@@ -598,6 +611,7 @@ cx
 obj
 id
 propInfo
+wasTrackedObjectFuseProp
 )
 ;
 }

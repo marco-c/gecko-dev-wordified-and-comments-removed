@@ -733,8 +733,6 @@ Scalar
 :
 Type
 type
-int32_t
-offsetAdjustment
 )
 {
 if
@@ -795,7 +793,6 @@ ArrayOffsetFitsInInt32
 (
 val
 type
-offsetAdjustment
 &
 offset
 )

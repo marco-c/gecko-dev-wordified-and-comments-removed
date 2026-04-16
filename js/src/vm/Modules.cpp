@@ -11237,6 +11237,15 @@ m
 {
 MOZ_ASSERT
 (
+!
+cx
+-
+>
+isExceptionPending
+(
+)
+|
+|
 cx
 -
 >

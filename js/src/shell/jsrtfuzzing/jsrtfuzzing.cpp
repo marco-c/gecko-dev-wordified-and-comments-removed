@@ -222,7 +222,7 @@ gCx
 =
 nullptr
 ;
-MOZ_RUNINIT
+MOZ_GLIBCXX_CONSTINIT
 static
 std
 :

@@ -644,7 +644,10 @@ if
 (
 flags
 &
-JSString
+js
+:
+:
+StringFlags
 :
 :
 LINEAR_BIT

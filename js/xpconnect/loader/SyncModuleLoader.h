@@ -415,10 +415,10 @@ JS
 :
 PersistentRooted
 <
-JSScript
+JSObject
 *
 >
-mScript
+mModule
 ;
 }
 ;
