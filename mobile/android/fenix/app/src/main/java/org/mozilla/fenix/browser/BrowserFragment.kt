@@ -177,14 +177,6 @@ kotlinx
 .
 coroutines
 .
-flow
-.
-onStart
-import
-kotlinx
-.
-coroutines
-.
 launch
 import
 kotlinx
@@ -1397,7 +1389,7 @@ detectShakes
 (
 )
 .
-onStart
+collect
 {
 summarizeToolbarCfrBinding
 .
@@ -1409,10 +1401,6 @@ get
 maybeDismissCfr
 (
 )
-}
-.
-collect
-{
 navigateToSummarizationIfEligible
 (
 )
