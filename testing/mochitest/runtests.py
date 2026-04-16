@@ -17148,15 +17148,6 @@ self
 .
 locations
             
-proxy
-=
-self
-.
-proxy
-(
-options
-)
-            
 allowlistpaths
 =
 sandbox_allowlist_paths
@@ -24194,6 +24185,14 @@ False
 )
             
 "
+standalone
+"
+:
+options
+.
+restartBetweenTests
+            
+"
 swgl
 "
 :
@@ -26197,6 +26196,20 @@ False
                 
 return
 1
+            
+self
+.
+profile
+.
+set_proxy
+(
+self
+.
+proxy
+(
+options
+)
+)
             
 if
 self
