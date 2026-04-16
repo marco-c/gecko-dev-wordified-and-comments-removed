@@ -1134,6 +1134,12 @@ date
 -
 picker
 {
+flex
+-
+grow
+:
+1
+;
 /
 *
 Add
@@ -2921,6 +2927,12 @@ flex
 gap
 :
 1em
+;
+justify
+-
+content
+:
+center
 ;
 }
 #
