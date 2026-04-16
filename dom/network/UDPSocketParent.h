@@ -136,6 +136,7 @@ uint32_t
 &
 sendBufferSize
 )
+override
 ;
 mozilla
 :
@@ -151,6 +152,7 @@ UDPAddressInfo
 &
 aAddressInfo
 )
+override
 ;
 void
 DoSendConnectResponse
@@ -218,6 +220,7 @@ UDPSocketAddr
 &
 aAddr
 )
+override
 ;
 mozilla
 :
@@ -229,6 +232,7 @@ IPCResult
 RecvClose
 (
 )
+override
 ;
 mozilla
 :
@@ -240,6 +244,7 @@ IPCResult
 RecvRequestDelete
 (
 )
+override
 ;
 mozilla
 :
@@ -251,14 +256,15 @@ IPCResult
 RecvJoinMulticast
 (
 const
-nsCString
+nsACString
 &
 aMulticastAddress
 const
-nsCString
+nsACString
 &
 aInterface
 )
+override
 ;
 mozilla
 :
@@ -270,14 +276,15 @@ IPCResult
 RecvLeaveMulticast
 (
 const
-nsCString
+nsACString
 &
 aMulticastAddress
 const
-nsCString
+nsACString
 &
 aInterface
 )
+override
 ;
 private
 :

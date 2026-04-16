@@ -6389,13 +6389,6 @@ UDPSocketChild
 (
 )
 ;
-socketChild
--
->
-SetBackgroundSpinsEvents
-(
-)
-;
 ReentrantMonitorAutoEnter
 mon
 (
