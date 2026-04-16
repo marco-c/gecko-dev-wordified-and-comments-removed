@@ -158,9 +158,6 @@ _newEnumerate
 INSTANCE_RESERVED_SLOTS
 =
 1
-GLOBAL_NAMES_PHF_SIZE
-=
-256
 JS_OBJECT_PROTOTYPE_PROPERTIES
 =
 [
@@ -112372,7 +112369,6 @@ phf
 PerfectHash
 (
 entries
-GLOBAL_NAMES_PHF_SIZE
 )
         
 phfCodegen

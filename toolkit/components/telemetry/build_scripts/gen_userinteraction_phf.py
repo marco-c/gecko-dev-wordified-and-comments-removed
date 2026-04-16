@@ -1,3 +1,9 @@
+import
+sys
+from
+mozparsers
+import
+parse_user_interactions
 from
 mozparsers
 .
@@ -8,15 +14,6 @@ from
 perfecthash
 import
 PerfectHash
-PHFSIZE
-=
-1024
-import
-sys
-from
-mozparsers
-import
-parse_user_interactions
 banner
 =
 "
@@ -241,7 +238,6 @@ name_phf
 PerfectHash
 (
 user_interactions
-PHFSIZE
 )
     
 output
