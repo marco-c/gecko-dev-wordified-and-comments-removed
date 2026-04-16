@@ -49741,6 +49741,12 @@ platform
 "
 #
 endif
+aStyle
+.
+systemFont
+=
+true
+;
 }
 void
 nsLayoutUtils
