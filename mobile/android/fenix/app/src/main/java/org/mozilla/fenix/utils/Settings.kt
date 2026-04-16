@@ -9153,6 +9153,9 @@ canShowCfr
 |
 !
 inAppMessagesEnabled
+|
+|
+continuousOnboardingFeatureEnabled
 )
 return
 false

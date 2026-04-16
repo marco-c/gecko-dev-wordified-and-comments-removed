@@ -157,3 +157,7 @@ showWallpaperOnboarding
 &
 &
 inAppMessagesEnabled
+&
+&
+!
+continuousOnboardingFeatureEnabled
