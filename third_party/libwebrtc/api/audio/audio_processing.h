@@ -389,11 +389,6 @@ enabled
 false
 ;
 bool
-mobile_mode
-=
-false
-;
-bool
 export_linear_aec_output
 =
 false
