@@ -388,15 +388,8 @@ bytes
 )
 {
 return
-ArrayView
-<
-const
-uint8_t
->
-(
-nullptr
-0
-)
+{
+}
 ;
 }
 const
