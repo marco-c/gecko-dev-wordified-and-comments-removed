@@ -1367,9 +1367,7 @@ params
 void
 OnPacketReceived
 (
-const
 RtpPacketReceived
-&
 packet
 )
 override
