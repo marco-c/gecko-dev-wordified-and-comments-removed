@@ -641,7 +641,13 @@ data_ptr
 <
 src
 .
-end
+data
+(
+)
++
+src
+.
+size
 (
 )
 ;

@@ -1056,7 +1056,7 @@ add_channel
 (
 channel_view
 .
-begin
+data
 (
 )
 sizeof
@@ -1183,7 +1183,7 @@ add_channel
 (
 channel_view
 .
-begin
+data
 (
 )
 sizeof

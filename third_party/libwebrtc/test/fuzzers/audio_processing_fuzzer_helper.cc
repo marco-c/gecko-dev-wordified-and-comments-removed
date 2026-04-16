@@ -268,7 +268,7 @@ i
 ]
 byte_array
 .
-begin
+data
 (
 )
 read_bytes

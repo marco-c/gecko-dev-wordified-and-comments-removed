@@ -141,7 +141,7 @@ add_input_channel
 (
 channel
 .
-begin
+data
 (
 )
 sizeof
@@ -237,7 +237,7 @@ add_output_channel
 (
 channel
 .
-begin
+data
 (
 )
 sizeof

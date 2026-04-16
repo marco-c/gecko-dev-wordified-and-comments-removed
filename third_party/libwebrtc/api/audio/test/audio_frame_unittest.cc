@@ -430,7 +430,11 @@ kSamplesPerChannel
 kNumChannelsMono
 )
 .
-begin
+data
+(
+)
+.
+data
 (
 )
 ;
