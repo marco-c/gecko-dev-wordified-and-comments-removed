@@ -78,7 +78,7 @@ gecko_taskgraph
 .
 transforms
 .
-mac_notarization
+filter_notarization
 -
 gecko_taskgraph
 .

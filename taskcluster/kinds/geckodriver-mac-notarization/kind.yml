@@ -78,7 +78,7 @@ gecko_taskgraph
 .
 transforms
 .
-mac_notarization
+filter_notarization
 -
 gecko_taskgraph
 .
@@ -90,7 +90,7 @@ gecko_taskgraph
 .
 transforms
 .
-geckodriver_mac_notarization
+mac_notarization
 -
 gecko_taskgraph
 .
@@ -163,6 +163,11 @@ single
 with
 -
 filters
+copy
+-
+attributes
+:
+true
 worker
 -
 type
