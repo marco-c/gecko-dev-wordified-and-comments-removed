@@ -1430,6 +1430,12 @@ rv
 ;
 while
 (
+delim_end
+!
+=
+end
+&
+&
 *
 delim_end
 =
