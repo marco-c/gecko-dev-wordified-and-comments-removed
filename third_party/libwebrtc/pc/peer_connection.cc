@@ -8542,10 +8542,6 @@ RTC_DCHECK
 callback
 )
 ;
-RTC_DCHECK_DISALLOW_THREAD_BLOCKING_CALLS
-(
-)
-;
 scoped_refptr
 <
 RtpSenderInternal
@@ -8684,10 +8680,6 @@ signaling_thread
 RTC_DCHECK
 (
 callback
-)
-;
-RTC_DCHECK_DISALLOW_THREAD_BLOCKING_CALLS
-(
 )
 ;
 scoped_refptr
