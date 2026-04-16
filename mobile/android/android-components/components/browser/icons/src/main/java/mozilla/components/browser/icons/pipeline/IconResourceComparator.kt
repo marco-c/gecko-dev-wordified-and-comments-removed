@@ -465,6 +465,9 @@ An
 icon
 from
 our
+Merino
+Manifest
+or
 "
 tippy
 top
@@ -474,6 +477,17 @@ should
 always
 be
 preferred
+.
+IconRequest
+.
+Resource
+.
+Type
+.
+MERINO_MANIFEST
+-
+>
+30
 IconRequest
 .
 Resource

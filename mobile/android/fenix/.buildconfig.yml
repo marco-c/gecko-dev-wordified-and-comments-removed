@@ -549,6 +549,14 @@ components
 :
 service
 -
+merino
+-
+manifest
+-
+components
+:
+service
+-
 nimbus
 -
 components
