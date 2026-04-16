@@ -18,6 +18,15 @@ stdint
 .
 h
 >
+#
+define
+VP3_LOOP_FILTER_NO_UNALIGNED_SUPPORT
+(
+ARCH_ARM
+|
+|
+ARCH_MIPS
+)
 typedef
 struct
 VP3DSPContext
@@ -218,8 +227,6 @@ ff_vp3dsp_init
 VP3DSPContext
 *
 c
-int
-flags
 )
 ;
 void
@@ -228,8 +235,6 @@ ff_vp3dsp_init_arm
 VP3DSPContext
 *
 c
-int
-flags
 )
 ;
 void
@@ -238,8 +243,6 @@ ff_vp3dsp_init_ppc
 VP3DSPContext
 *
 c
-int
-flags
 )
 ;
 void
@@ -248,8 +251,6 @@ ff_vp3dsp_init_x86
 VP3DSPContext
 *
 c
-int
-flags
 )
 ;
 void
@@ -258,8 +259,6 @@ ff_vp3dsp_init_mips
 VP3DSPContext
 *
 c
-int
-flags
 )
 ;
 void

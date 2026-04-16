@@ -475,8 +475,15 @@ vdsp
 VP3DSPContext
 vp3dsp
 ;
-VP56DSPContext
-vp56dsp
+union
+{
+VP5DSPContext
+vp5dsp
+;
+VP6DSPContext
+vp6dsp
+;
+}
 ;
 uint8_t
 idct_scantable
@@ -753,7 +760,7 @@ ract_vlc
 3
 ]
 [
-6
+4
 ]
 ;
 unsigned
@@ -866,8 +873,8 @@ return
 value
 ;
 }
-static
 av_unused
+static
 int
 vp56_rac_gets_nn
 (

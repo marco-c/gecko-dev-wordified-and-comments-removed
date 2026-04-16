@@ -57,10 +57,6 @@ MAX_MB_BYTES
 )
 #
 define
-MAX_FCODE
-7
-#
-define
 MB_TYPE_INTRA4x4
 (
 1

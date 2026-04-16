@@ -125,6 +125,10 @@ AV_DICT_APPEND
 define
 AV_DICT_MULTIKEY
 64
+#
+define
+AV_DICT_DEDUP
+128
 typedef
 struct
 AVDictionaryEntry

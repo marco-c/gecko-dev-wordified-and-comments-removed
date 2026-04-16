@@ -108,6 +108,7 @@ AV_FRAME_DATA_VIDEO_HINT
 AV_FRAME_DATA_LCEVC
 AV_FRAME_DATA_VIEW_ID
 AV_FRAME_DATA_3D_REFERENCE_DISPLAYS
+AV_FRAME_DATA_EXIF
 }
 ;
 enum
@@ -467,6 +468,10 @@ ch_layout
 ;
 int64_t
 duration
+;
+enum
+AVAlphaMode
+alpha_mode
 ;
 }
 AVFrame

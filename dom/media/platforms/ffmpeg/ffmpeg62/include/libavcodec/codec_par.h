@@ -175,6 +175,10 @@ trailing_padding
 int
 seek_preroll
 ;
+enum
+AVAlphaMode
+alpha_mode
+;
 }
 AVCodecParameters
 ;

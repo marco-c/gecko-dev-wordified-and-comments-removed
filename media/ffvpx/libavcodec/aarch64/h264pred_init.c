@@ -43,6 +43,10 @@ h264pred
 .
 h
 "
+#
+define
+ENABLE_INEFFICIENT_ASM
+0
 void
 ff_pred16x16_vert_neon
 (
@@ -417,6 +421,9 @@ chroma_format_idc
 1
 )
 {
+#
+if
+ENABLE_INEFFICIENT_ASM
 h
 -
 >
@@ -437,6 +444,8 @@ HOR_PRED8x8
 =
 ff_pred8x8_hor_neon
 ;
+#
+endif
 if
 (
 codec_id
@@ -460,6 +469,9 @@ PLANE_PRED8x8
 =
 ff_pred8x8_plane_neon
 ;
+#
+if
+ENABLE_INEFFICIENT_ASM
 h
 -
 >
@@ -470,6 +482,8 @@ DC_128_PRED8x8
 =
 ff_pred8x8_128_dc_neon
 ;
+#
+endif
 if
 (
 codec_id
@@ -490,6 +504,9 @@ codec_id
 AV_CODEC_ID_VP8
 )
 {
+#
+if
+ENABLE_INEFFICIENT_ASM
 h
 -
 >
@@ -520,6 +537,8 @@ TOP_DC_PRED8x8
 =
 ff_pred8x8_top_dc_neon
 ;
+#
+endif
 h
 -
 >
@@ -562,6 +581,9 @@ ff_pred8x8_0l0_dc_neon
 ;
 }
 }
+#
+if
+ENABLE_INEFFICIENT_ASM
 h
 -
 >
@@ -572,6 +594,8 @@ DC_PRED8x8
 =
 ff_pred16x16_dc_neon
 ;
+#
+endif
 h
 -
 >
@@ -592,6 +616,9 @@ HOR_PRED8x8
 =
 ff_pred16x16_hor_neon
 ;
+#
+if
+ENABLE_INEFFICIENT_ASM
 h
 -
 >
@@ -622,6 +649,8 @@ DC_128_PRED8x8
 =
 ff_pred16x16_128_dc_neon
 ;
+#
+endif
 if
 (
 codec_id
@@ -674,6 +703,9 @@ chroma_format_idc
 1
 )
 {
+#
+if
+ENABLE_INEFFICIENT_ASM
 h
 -
 >
@@ -684,6 +716,8 @@ VERT_PRED8x8
 =
 ff_pred8x8_vert_neon_10
 ;
+#
+endif
 h
 -
 >
@@ -717,6 +751,9 @@ PLANE_PRED8x8
 =
 ff_pred8x8_plane_neon_10
 ;
+#
+if
+ENABLE_INEFFICIENT_ASM
 h
 -
 >
@@ -727,6 +764,8 @@ DC_128_PRED8x8
 =
 ff_pred8x8_128_dc_neon_10
 ;
+#
+endif
 if
 (
 codec_id
@@ -747,6 +786,9 @@ codec_id
 AV_CODEC_ID_VP8
 )
 {
+#
+if
+ENABLE_INEFFICIENT_ASM
 h
 -
 >
@@ -767,6 +809,8 @@ LEFT_DC_PRED8x8
 =
 ff_pred8x8_left_dc_neon_10
 ;
+#
+endif
 h
 -
 >

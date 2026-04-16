@@ -390,6 +390,7 @@ name
 #
 u
 (
+const
 GetByteContext
 *
 g
@@ -417,6 +418,7 @@ bytestream2_peek_
 #
 name
 (
+const
 GetByteContext
 *
 g
@@ -689,6 +691,9 @@ buf_size
 {
 av_assert0
 (
+buf
+&
+&
 buf_size
 >
 =
@@ -736,6 +741,9 @@ buf_size
 {
 av_assert0
 (
+buf
+&
+&
 buf_size
 >
 =
@@ -778,6 +786,7 @@ av_always_inline
 int
 bytestream2_get_bytes_left
 (
+const
 GetByteContext
 *
 g
@@ -800,6 +809,7 @@ av_always_inline
 int
 bytestream2_get_bytes_left_p
 (
+const
 PutByteContext
 *
 p
@@ -943,6 +953,7 @@ av_always_inline
 int
 bytestream2_tell
 (
+const
 GetByteContext
 *
 g
@@ -970,6 +981,7 @@ av_always_inline
 int
 bytestream2_tell_p
 (
+const
 PutByteContext
 *
 p
@@ -997,6 +1009,7 @@ av_always_inline
 int
 bytestream2_size
 (
+const
 GetByteContext
 *
 g
@@ -1024,6 +1037,7 @@ av_always_inline
 int
 bytestream2_size_p
 (
+const
 PutByteContext
 *
 p

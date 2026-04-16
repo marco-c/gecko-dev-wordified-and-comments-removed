@@ -838,6 +838,9 @@ fdsp
 #
 elif
 ARCH_X86
+&
+&
+HAVE_X86ASM
 ff_fixed_dsp_init_x86
 (
 fdsp
