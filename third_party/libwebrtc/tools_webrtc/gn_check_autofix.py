@@ -1134,7 +1134,7 @@ new_lines
 "
 "
     
-absolute_deps
+deps_to_keep
 =
 [
 ]
@@ -1145,7 +1145,7 @@ in
 current_deps_lines_content
 :
         
-absolute_deps
+deps_to_keep
 .
 extend
 (
@@ -1164,6 +1164,31 @@ r
 "
 ]
 *
+)
+"
+'
+dep_line
+)
+)
+        
+deps_to_keep
+.
+extend
+(
+re
+.
+findall
+(
+r
+'
+"
+(
+[
+^
+"
+]
+*
+_unittests
 )
 "
 '
@@ -1219,7 +1244,7 @@ n
 for
 dep
 in
-absolute_deps
+deps_to_keep
 :
         
 new_lines
