@@ -3064,11 +3064,9 @@ pref
 "
 browser
 .
-design
--
-tokens
-.
 nova
+.
+enabled
 "
 }
 Then
@@ -3179,11 +3177,9 @@ pref
 "
 browser
 .
-design
--
-tokens
-.
 nova
+.
+enabled
 "
 )
 {

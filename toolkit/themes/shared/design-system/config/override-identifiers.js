@@ -17,11 +17,9 @@ pref
 "
 browser
 .
-design
--
-tokens
-.
 nova
+.
+enabled
 "
 }
 ]

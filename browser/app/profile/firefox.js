@@ -15334,11 +15334,9 @@ pref
 "
 browser
 .
-design
--
-tokens
-.
 nova
+.
+enabled
 "
 false
 )
