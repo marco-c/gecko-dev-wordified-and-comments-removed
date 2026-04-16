@@ -6646,6 +6646,17 @@ ElementHasCustomElementData
 ;
 }
 void
+ClearHasCustomElementData
+(
+)
+{
+ClearBoolFlag
+(
+ElementHasCustomElementData
+)
+;
+}
+void
 SetElementCreatedFromPrototypeAndHasUnmodifiedL10n
 (
 )

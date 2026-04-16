@@ -2287,6 +2287,11 @@ CustomElementData
 aData
 )
 ;
+void
+ClearCustomElementData
+(
+)
+;
 nsTArray
 <
 RefPtr
