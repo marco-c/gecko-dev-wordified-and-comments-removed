@@ -3507,7 +3507,7 @@ if
 (
 aGlyph
 +
-1
+2
 )
 *
 sizeof
@@ -3551,7 +3551,7 @@ aEmptyGlyf
 offset
 =
 =
-uint16_t
+uint32_t
 (
 offsets
 [
@@ -3570,7 +3570,7 @@ if
 (
 aGlyph
 +
-1
+2
 )
 *
 sizeof
