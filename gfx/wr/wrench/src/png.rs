@@ -92,14 +92,6 @@ yaml_frame_reader
 :
 YamlFrameReader
 ;
-#
-[
-derive
-(
-Copy
-Clone
-)
-]
 pub
 enum
 ReadSurface
