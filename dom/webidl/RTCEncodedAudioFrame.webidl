@@ -89,6 +89,9 @@ RTCEncodedFrameMetadata
 short
 sequenceNumber
 ;
+double
+audioLevel
+;
 }
 ;
 dictionary
@@ -177,6 +180,13 @@ unsigned
 long
 timestamp
 ;
+/
+/
+legacy
+name
+of
+metadata
+rtpTimestamp
 attribute
 ArrayBuffer
 data
