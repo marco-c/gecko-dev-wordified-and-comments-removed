@@ -147,6 +147,14 @@ True
 DEFINES
 [
 "
+WEBRTC_DEPRECATE_PLAN_B
+"
+]
+=
+True
+DEFINES
+[
+"
 WEBRTC_ENABLE_AVX2
 "
 ]
