@@ -4005,6 +4005,15 @@ cloneToSaveSpace
 baseKnownLiveYet
 &
 &
+!
+str
+-
+>
+isDependedOn
+(
+)
+&
+&
 JSDependentString
 :
 :
