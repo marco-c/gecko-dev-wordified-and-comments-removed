@@ -3227,6 +3227,7 @@ RefPtr
 {
 this
 }
+tsRef
 promise
 ]
 (
