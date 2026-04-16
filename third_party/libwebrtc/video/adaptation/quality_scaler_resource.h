@@ -87,6 +87,15 @@ video_stream_encoder_resource
 .
 h
 "
+#
+include
+"
+video
+/
+video_stream_encoder_observer
+.
+h
+"
 namespace
 webrtc
 {
@@ -168,7 +177,7 @@ time_sent_in_us
 void
 OnFrameDropped
 (
-EncodedImageCallback
+VideoStreamEncoderObserver
 :
 :
 DropReason

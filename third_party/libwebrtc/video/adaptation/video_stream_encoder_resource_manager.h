@@ -584,7 +584,7 @@ frame_size
 void
 OnFrameDropped
 (
-EncodedImageCallback
+VideoStreamEncoderObserver
 :
 :
 DropReason

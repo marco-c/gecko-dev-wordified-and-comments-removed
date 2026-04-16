@@ -2579,7 +2579,7 @@ VideoStreamEncoderResourceManager
 :
 OnFrameDropped
 (
-EncodedImageCallback
+VideoStreamEncoderObserver
 :
 :
 DropReason
