@@ -445,7 +445,7 @@ assertEq
 ab2
 .
 maxByteLength
-50
+20
 <
 <
 16
@@ -656,6 +656,8 @@ check
 5
 )
 ;
+assertEq
+(
 rab
 .
 grow
@@ -663,6 +665,8 @@ grow
 65536
 *
 30
+)
+undefined
 )
 ;
 assertEq
