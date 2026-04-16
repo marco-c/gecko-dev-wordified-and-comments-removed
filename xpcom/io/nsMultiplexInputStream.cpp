@@ -2305,7 +2305,6 @@ mStartedReadingCurrent
 seek
 !
 =
--
 pos
 ;
 remaining
