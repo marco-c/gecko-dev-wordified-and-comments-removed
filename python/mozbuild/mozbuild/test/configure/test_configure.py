@@ -7,6 +7,10 @@ textwrap
 import
 unittest
 from
+functools
+import
+cached_property
+from
 io
 import
 StringIO
@@ -51,7 +55,6 @@ mozbuild
 util
 import
 ReadOnlyNamespace
-memoized_property
 test_data_path
 =
 mozpath
@@ -3899,7 +3902,7 @@ ConfigureSandbox
 )
 :
             
-memoized_property
+cached_property
             
 def
 _wrapped_foo
@@ -6825,7 +6828,7 @@ at
 %
 s
 :
-7
+5
 '
 conflicts
 "
@@ -6890,7 +6893,7 @@ at
 %
 s
 :
-18
+16
 '
 "
             
@@ -6962,7 +6965,7 @@ at
 %
 s
 :
-29
+27
 '
 "
             

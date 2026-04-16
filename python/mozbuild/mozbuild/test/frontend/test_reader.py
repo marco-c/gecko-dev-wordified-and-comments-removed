@@ -951,7 +951,7 @@ syntax
 error
 on
 line
-5
+4
 "
 str
 (
@@ -1049,7 +1049,7 @@ was
 triggered
 on
 line
-5
+4
 "
 str
 (
@@ -1153,7 +1153,7 @@ was
 triggered
 on
 line
-7
+6
 "
 str
 (
@@ -1257,7 +1257,7 @@ was
 triggered
 on
 line
-5
+4
 "
 str
 (
