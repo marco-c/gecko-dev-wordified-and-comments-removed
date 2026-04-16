@@ -592,15 +592,11 @@ log
 "
 "
 -
--
-limit
-=
-0
+n0
 "
 "
 -
--
-template
+T
 "
 f
 '
@@ -640,7 +636,6 @@ _run_read_only
 "
 log
 "
-            
 "
 -
 -
@@ -648,29 +643,19 @@ no
 -
 graph
 "
-            
 "
 -
--
-limit
-=
-1
+n1
 "
-            
 "
 -
--
-revision
+r
 "
-            
 revset
-            
 "
 -
--
-template
+T
 "
-            
 "
 change_id
 .
@@ -796,7 +781,6 @@ _run_read_only
 "
 log
 "
-            
 "
 -
 -
@@ -804,13 +788,10 @@ no
 -
 graph
 "
-            
 "
 -
--
-revision
+r
 "
-            
 f
 "
 latest
@@ -820,13 +801,10 @@ revset
 }
 )
 "
-            
 "
 -
--
-template
+T
 "
-            
 "
 commit_id
 "
@@ -920,15 +898,10 @@ _run_read_only
 "
 log
 "
-                
 "
 -
--
-limit
-=
-1
+n1
 "
-                
 "
 -
 -
@@ -936,13 +909,10 @@ no
 -
 graph
 "
-                
 "
 -
--
-template
+T
 "
-                
 '
 committer
 .
@@ -1244,8 +1214,7 @@ log
             
 "
 -
--
-revision
+r
 "
             
 rev
@@ -1260,8 +1229,7 @@ graph
             
 "
 -
--
-template
+T
 "
             
 '
@@ -1731,8 +1699,7 @@ diff
 "
 "
 -
--
-revision
+r
 "
 rev
 "
@@ -2261,8 +2228,7 @@ restore
 "
 "
 -
--
-revision
+r
 "
 "
 -
@@ -2303,8 +2269,7 @@ commit
 "
 "
 -
--
-message
+m
 "
 message
 ]
@@ -2646,8 +2611,7 @@ extend
 [
 "
 -
--
-revision
+r
 "
 ref
 ]
@@ -2664,8 +2628,7 @@ extend
 [
 "
 -
--
-bookmark
+b
 "
 dest_branch
 ]
@@ -3092,8 +3055,7 @@ graph
             
 "
 -
--
-revision
+r
 "
             
 f
@@ -3117,8 +3079,7 @@ empty
             
 "
 -
--
-template
+T
 "
             
 '
@@ -3147,9 +3108,7 @@ append
 f
 "
 -
--
-limit
-=
+n
 {
 limit
 }
@@ -3465,10 +3424,7 @@ log
 "
 "
 -
--
-limit
-=
-1
+n1
 "
 "
 -
@@ -3479,8 +3435,7 @@ graph
 "
 "
 -
--
-template
+T
 "
 "
 id
@@ -3693,8 +3648,7 @@ graph
                 
 "
 -
--
-revision
+r
 "
                 
 "
@@ -3715,8 +3669,7 @@ exact
                 
 "
 -
--
-template
+T
 "
                 
 "
@@ -3770,10 +3723,7 @@ log
 "
 "
 -
--
-limit
-=
-1
+n1
 "
 "
 -
@@ -3784,8 +3734,7 @@ graph
 "
 "
 -
--
-template
+T
 "
 "
 id
@@ -3814,8 +3763,7 @@ new
 "
 "
 -
--
-message
+m
 "
 commit_message
 self
@@ -4043,16 +3991,12 @@ graph
             
 "
 -
--
-limit
-=
-1
+n1
 "
             
 "
 -
--
-template
+T
 "
             
 "
