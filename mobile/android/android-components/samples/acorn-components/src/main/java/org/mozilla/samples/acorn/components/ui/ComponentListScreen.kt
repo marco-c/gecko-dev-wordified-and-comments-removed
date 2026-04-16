@@ -249,6 +249,13 @@ Icons
 "
 Destinations
 .
+COLORS
+to
+"
+Colors
+"
+Destinations
+.
 BANNER
 to
 "
