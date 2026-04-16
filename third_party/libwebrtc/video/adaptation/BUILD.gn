@@ -709,17 +709,6 @@ video_stream_encoder_interface
 /
 api
 :
-array_view
-"
-"
-.
-.
-/
-.
-.
-/
-api
-:
 field_trials
 "
 "

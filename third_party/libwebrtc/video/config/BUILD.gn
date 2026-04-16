@@ -142,17 +142,6 @@ encoder_config
 /
 api
 :
-array_view
-"
-"
-.
-.
-/
-.
-.
-/
-api
-:
 field_trials_view
 "
 "
