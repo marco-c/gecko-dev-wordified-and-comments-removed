@@ -637,9 +637,7 @@ data
 lists
 meta
 :
-{
 isStartup
-}
 }
 )
 )
@@ -672,9 +670,7 @@ WIDGETS_LISTS_SET_SELECTED
 data
 meta
 :
-{
 isStartup
-}
 }
 )
 )

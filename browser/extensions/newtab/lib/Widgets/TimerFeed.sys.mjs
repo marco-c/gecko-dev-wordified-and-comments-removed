@@ -548,9 +548,7 @@ WIDGETS_TIMER_SET
 data
 meta
 :
-{
 isStartup
-}
 }
 )
 )
