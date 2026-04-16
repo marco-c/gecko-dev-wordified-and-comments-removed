@@ -13897,6 +13897,13 @@ if
 httpChannel
 )
 {
+mChannel
+-
+>
+Resume
+(
+)
+;
 DisconnectListeners
 (
 status
