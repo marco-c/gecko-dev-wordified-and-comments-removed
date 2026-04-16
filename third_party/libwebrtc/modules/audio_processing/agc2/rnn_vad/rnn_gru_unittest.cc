@@ -265,7 +265,7 @@ ComputeOutput
 (
 input_sequence
 .
-subview
+subspan
 (
 i
 *
@@ -288,7 +288,7 @@ expected_output
 =
 expected_output_sequence
 .
-subview
+subspan
 (
 i
 *
@@ -929,7 +929,7 @@ ComputeOutput
 (
 input_sequence
 .
-subview
+subspan
 (
 i
 *

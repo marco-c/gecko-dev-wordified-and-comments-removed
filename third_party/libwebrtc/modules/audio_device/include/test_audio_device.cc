@@ -655,7 +655,7 @@ size
 read
 data
 .
-subview
+subspan
 (
 read
 )
@@ -1571,7 +1571,7 @@ Read
 (
 read_buffer_view
 .
-subview
+subspan
 (
 read
 )

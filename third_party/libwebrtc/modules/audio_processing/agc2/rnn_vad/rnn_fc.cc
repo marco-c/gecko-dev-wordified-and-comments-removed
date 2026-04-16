@@ -643,7 +643,7 @@ DotProduct
 input
 weights
 .
-subview
+subspan
 (
 o
 *

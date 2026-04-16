@@ -157,7 +157,7 @@ Analyze
 (
 input
 .
-subview
+subspan
 (
 n
 kBlockSizeSamples
@@ -230,7 +230,7 @@ Analyze
 (
 input
 .
-subview
+subspan
 (
 n
 kBlockSizeSamples
