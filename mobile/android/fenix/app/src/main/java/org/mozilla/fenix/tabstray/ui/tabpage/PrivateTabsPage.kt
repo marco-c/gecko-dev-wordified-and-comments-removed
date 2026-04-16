@@ -640,6 +640,10 @@ dragging
 tabs
 .
 }
+onDeleteTabGroup
+=
+{
+}
 onMove
 =
 onMove
