@@ -305,6 +305,10 @@ patch
 input_frame_validation_vp9
 .
 patch
+-
+reset_post_proc_state
+.
+patch
 update
 -
 actions
