@@ -1958,6 +1958,15 @@ js
 "
 browser_net_header
 -
+longstring
+.
+js
+"
+]
+[
+"
+browser_net_header
+-
 ref
 -
 policy
