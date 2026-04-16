@@ -7133,7 +7133,7 @@ if
 (
 state
 .
-hasSyncKeys
+syncEnabled
 )
 {
 cadButtonEl
