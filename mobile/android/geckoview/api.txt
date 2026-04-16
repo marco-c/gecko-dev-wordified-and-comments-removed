@@ -19910,7 +19910,14 @@ String
 int
 NonNull
 String
+boolean
 )
+;
+field
+public
+final
+boolean
+isReaderable
 ;
 field
 NonNull
