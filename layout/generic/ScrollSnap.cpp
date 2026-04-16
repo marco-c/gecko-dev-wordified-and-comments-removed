@@ -2039,6 +2039,14 @@ isCandidateOfSecondBest
 )
 ;
 }
+using
+SnapTarget
+=
+ScrollSnapInfo
+:
+:
+SnapTarget
+;
 static
 void
 ProcessSnapPositions
@@ -2066,7 +2074,7 @@ Destination
 ]
 (
 const
-auto
+SnapTarget
 &
 aTarget
 )
@@ -2689,7 +2697,7 @@ aCurrentPosition
 ]
 (
 const
-auto
+SnapTarget
 &
 aTarget
 )
@@ -3254,7 +3262,7 @@ y
 ]
 (
 const
-auto
+SnapTarget
 &
 aTarget
 )
@@ -3413,7 +3421,7 @@ y
 ]
 (
 const
-auto
+SnapTarget
 &
 aTarget
 )
