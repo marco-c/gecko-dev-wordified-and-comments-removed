@@ -425,10 +425,6 @@ nsISerialEventTarget
 *
 aGMPThread
 )
-MOZ_REQUIRES
-(
-mMutex
-)
 =
 0
 ;
