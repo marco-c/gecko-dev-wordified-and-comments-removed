@@ -557,7 +557,8 @@ try
 "
 "
 -
-m
+-
+message
 "
 commit_message
 )
@@ -744,7 +745,8 @@ ref
                 
 "
 -
-m
+-
+message
 "
                 
 "
@@ -783,7 +785,8 @@ ref
                 
 "
 -
-m
+-
+message
 "
                 
 "
@@ -1208,7 +1211,8 @@ new
                 
 "
 -
-m
+-
+message
 "
                 
 "
