@@ -184,7 +184,6 @@ UnmapPlanes
 =
 0
 ;
-virtual
 bool
 LockSWGLCompositeSurface
 (
