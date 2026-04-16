@@ -1499,6 +1499,9 @@ add
 (
 FlightsOnlineSuggestionProvider
 (
+searchUseCase
+=
+searchUseCase
 dataSource
 =
 MockedFlightsSuggestionDataSource
