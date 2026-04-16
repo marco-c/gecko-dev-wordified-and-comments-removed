@@ -104,6 +104,14 @@ MOZ_EXCLUDES
 mMutex
 )
 ;
+size_t
+usable_size
+(
+void
+*
+aPtr
+)
+;
 void
 free
 (
