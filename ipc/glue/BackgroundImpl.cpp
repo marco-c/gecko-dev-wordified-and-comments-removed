@@ -353,11 +353,6 @@ prthread
 h
 "
 #
-include
-<
-functional
->
-#
 ifdef
 RELEASE_OR_BETA
 #
@@ -1902,6 +1897,10 @@ threadLocalInfo
 mActor
 =
 strongActor
+.
+forget
+(
+)
 ;
 starter
 -
@@ -1968,7 +1967,10 @@ actor
 )
 ;
 return
-strongActor
+threadLocalInfo
+-
+>
+mActor
 ;
 }
 private

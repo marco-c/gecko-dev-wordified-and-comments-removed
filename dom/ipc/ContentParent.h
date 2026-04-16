@@ -1530,8 +1530,10 @@ aIgnoreKeepAlivePref
 false
 )
 ;
+already_AddRefed
+<
 TestShellParent
-*
+>
 CreateTestShell
 (
 )
@@ -1544,8 +1546,10 @@ TestShellParent
 aTestShell
 )
 ;
+already_AddRefed
+<
 TestShellParent
-*
+>
 GetTestShellSingleton
 (
 )

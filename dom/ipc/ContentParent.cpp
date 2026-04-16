@@ -12240,8 +12240,10 @@ mForceKillTimer
 ;
 }
 }
+already_AddRefed
+<
 TestShellParent
-*
+>
 ContentParent
 :
 :
@@ -12275,6 +12277,10 @@ nullptr
 }
 return
 actor
+.
+forget
+(
+)
 ;
 }
 bool
@@ -12298,8 +12304,10 @@ aTestShell
 )
 ;
 }
+already_AddRefed
+<
 TestShellParent
-*
+>
 ContentParent
 :
 :
@@ -12319,6 +12327,8 @@ ManagedPTestShellParent
 )
 ;
 return
+do_AddRef
+(
 static_cast
 <
 TestShellParent
@@ -12326,6 +12336,7 @@ TestShellParent
 >
 (
 p
+)
 )
 ;
 }
