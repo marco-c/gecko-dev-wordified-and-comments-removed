@@ -179,7 +179,7 @@ controller
 CompositorBridgeParent
 :
 :
-CallWithIndirectShadowTree
+CallWithLayerTreeState
 (
 aRootLayerTreeId
 [
@@ -677,7 +677,7 @@ state
 CompositorBridgeParent
 :
 :
-GetIndirectShadowTree
+GetLayerTreeState
 (
 mRootLayerTreeId
 )
@@ -759,7 +759,7 @@ state
 CompositorBridgeParent
 :
 :
-GetIndirectShadowTree
+GetLayerTreeState
 (
 mRootLayerTreeId
 )
@@ -1363,7 +1363,7 @@ state
 CompositorBridgeParent
 :
 :
-GetIndirectShadowTree
+GetLayerTreeState
 (
 mRootLayerTreeId
 )
@@ -1484,7 +1484,7 @@ state
 CompositorBridgeParent
 :
 :
-GetIndirectShadowTree
+GetLayerTreeState
 (
 mRootLayerTreeId
 )

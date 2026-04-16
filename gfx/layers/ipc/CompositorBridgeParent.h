@@ -2386,7 +2386,7 @@ mUiControllerParent
 static
 LayerTreeState
 *
-GetIndirectShadowTree
+GetLayerTreeState
 (
 LayersId
 aId
@@ -2394,7 +2394,7 @@ aId
 ;
 static
 bool
-HasIndirectShadowTree
+HasLayerTreeState
 (
 LayersId
 aId
@@ -2402,7 +2402,7 @@ aId
 ;
 static
 bool
-CallWithIndirectShadowTree
+CallWithLayerTreeState
 (
 LayersId
 aId
@@ -2712,7 +2712,7 @@ private
 static
 LayerTreeState
 *
-GetIndirectShadowTreeInternal
+GetLayerTreeStateInternal
 (
 LayersId
 aId
