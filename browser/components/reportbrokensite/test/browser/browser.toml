@@ -76,6 +76,13 @@ js
 ]
 [
 "
+browser_disabled_by_policy
+.
+js
+"
+]
+[
+"
 browser_error_messages
 .
 js

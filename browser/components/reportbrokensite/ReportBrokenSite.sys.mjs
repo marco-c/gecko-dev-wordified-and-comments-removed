@@ -2994,7 +2994,7 @@ policies
 isAllowed
 (
 "
-DisableFeedbackCommands
+feedbackCommands
 "
 )
 ;
