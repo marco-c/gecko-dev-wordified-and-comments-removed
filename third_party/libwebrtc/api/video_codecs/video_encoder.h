@@ -644,6 +644,9 @@ has_trusted_rate_controller
 bool
 is_hardware_accelerated
 ;
+bool
+enable_cpu_overuse_detection
+;
 absl
 :
 :
