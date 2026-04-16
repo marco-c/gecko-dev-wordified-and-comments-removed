@@ -2670,7 +2670,7 @@ WidgetSelectionEvent
 aEvent
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 bool
 SendHandleTap
 (
