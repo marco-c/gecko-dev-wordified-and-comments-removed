@@ -259,6 +259,13 @@ js
 ]
 [
 "
+browser_history_multiselect
+.
+js
+"
+]
+[
+"
 browser_history_sidebar
 .
 js

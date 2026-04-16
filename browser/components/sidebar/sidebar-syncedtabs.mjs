@@ -1310,7 +1310,7 @@ this
 .
 treeView
 .
-clearSelection
+resetSelection
 (
 )
 ;
