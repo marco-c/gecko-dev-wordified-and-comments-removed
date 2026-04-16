@@ -78,6 +78,7 @@ MOZ_REQUIRES
 gInitLock
 )
 ;
+MFBT_API
 void
 *
 alloc
@@ -90,6 +91,7 @@ MOZ_EXCLUDES
 mMutex
 )
 ;
+MFBT_API
 void
 *
 calloc
@@ -104,6 +106,7 @@ MOZ_EXCLUDES
 mMutex
 )
 ;
+MFBT_API
 size_t
 usable_size
 (
@@ -112,6 +115,7 @@ void
 aPtr
 )
 ;
+MFBT_API
 void
 free
 (
@@ -312,6 +316,7 @@ mMutex
 ;
 }
 ;
+MFBT_API
 extern
 BaseAlloc
 sBaseAlloc
