@@ -12336,6 +12336,10 @@ policy
 .
 "
 "
+devtools
+.
+"
+"
 dom
 .
 "
@@ -12447,6 +12451,10 @@ userContext
 ui
 .
 enabled
+"
+"
+sidebar
+.
 "
 "
 signon
