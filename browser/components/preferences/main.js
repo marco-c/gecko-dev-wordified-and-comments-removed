@@ -36412,7 +36412,7 @@ handlerApp
 null
 ;
 let
-onAppSelected
+onAppPickerClose
 =
 (
 )
@@ -36450,6 +36450,12 @@ chooseAppCallback
 handlerApp
 )
 ;
+handlerItem
+.
+buildActionsMenu
+(
+)
+;
 }
 ;
 gSubDialog
@@ -36472,7 +36478,7 @@ xhtml
 {
 closingCallback
 :
-onAppSelected
+onAppPickerClose
 }
 params
 )
@@ -36620,6 +36626,15 @@ handlerApp
 chooseAppCallback
 (
 handlerApp
+)
+;
+}
+else
+{
+handlerItem
+.
+buildActionsMenu
+(
 )
 ;
 }
