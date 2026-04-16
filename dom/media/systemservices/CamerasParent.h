@@ -1132,6 +1132,9 @@ mPBackgroundEventTarget
 bool
 mDestroyed
 ;
+bool
+mDestroyedCaptureThread
+;
 std
 :
 :
