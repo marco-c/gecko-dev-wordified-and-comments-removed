@@ -1091,9 +1091,10 @@ idx
 )
 const
 {
-RTC_DCHECK_LT
+RTC_HARDENING_ASSERT
 (
 idx
+<
 this
 -
 >
@@ -1102,7 +1103,7 @@ size
 )
 )
 ;
-RTC_DCHECK
+RTC_HARDENING_ASSERT
 (
 this
 -
