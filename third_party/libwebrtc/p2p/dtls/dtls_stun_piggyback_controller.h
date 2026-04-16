@@ -133,6 +133,16 @@ uint8_t
 )
 >
 dtls_data_callback
+absl
+:
+:
+AnyInvocable
+<
+void
+(
+)
+>
+complete_callback
 )
 ;
 ~
@@ -369,7 +379,7 @@ void
 (
 )
 >
-disable_piggybacking_callback_
+complete_callback_
 ;
 std
 :
@@ -388,6 +398,11 @@ int
 data_recv_count_
 =
 0
+;
+void
+CallCompleteCallback
+(
+)
 ;
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker

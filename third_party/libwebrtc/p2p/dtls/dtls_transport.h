@@ -1261,6 +1261,11 @@ state
 )
 ;
 void
+CompleteDtlsInStun
+(
+)
+;
+void
 SetPiggybackDtlsDataCallback
 (
 absl
