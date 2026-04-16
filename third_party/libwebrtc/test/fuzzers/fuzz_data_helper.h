@@ -413,7 +413,7 @@ bytes
 return
 data_
 .
-subview
+subspan
 (
 index_to_return
 bytes

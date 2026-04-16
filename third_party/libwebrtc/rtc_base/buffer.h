@@ -1779,7 +1779,7 @@ get
 capacity_
 )
 .
-subview
+subspan
 (
 size_
 size
@@ -2442,7 +2442,7 @@ data
 capacity_
 )
 .
-subview
+subspan
 (
 size_
 )

@@ -1423,7 +1423,7 @@ FrameReferencesAreValid
 (
 all_frames
 .
-subview
+subspan
 (
 0
 13
@@ -1439,7 +1439,7 @@ FrameReferencesAreValid
 (
 all_frames
 .
-subview
+subspan
 (
 13
 )
