@@ -185,7 +185,7 @@ compose
 .
 runtime
 .
-mutableStateOf
+mutableIntStateOf
 import
 androidx
 .
@@ -861,7 +861,7 @@ visibleCharCount
 by
 remember
 {
-mutableStateOf
+mutableIntStateOf
 (
 0
 )
