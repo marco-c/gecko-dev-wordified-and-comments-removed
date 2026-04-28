@@ -589,6 +589,8 @@ ctx
 drawWindow
 (
 win
+.
+ownerGlobal
 0
 0
 PAGE_WIDTH
@@ -1544,6 +1546,8 @@ return
 this
 .
 win
+.
+ownerGlobal
 .
 close
 (

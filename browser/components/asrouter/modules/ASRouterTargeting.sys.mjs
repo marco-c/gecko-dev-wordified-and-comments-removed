@@ -5197,6 +5197,8 @@ closed
 !
 win
 .
+ownerGlobal
+.
 gBrowser
 )
 {
@@ -5206,6 +5208,8 @@ continue
 if
 (
 win
+.
+ownerGlobal
 .
 gBrowser
 .

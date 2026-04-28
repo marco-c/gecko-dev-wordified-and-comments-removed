@@ -314,6 +314,9 @@ stub
 (
 )
 }
+ownerGlobal
+:
+{
 gBrowser
 :
 {
@@ -322,6 +325,7 @@ selectedBrowser
 "
 browser
 "
+}
 }
 }
 ;
