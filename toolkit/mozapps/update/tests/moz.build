@@ -70,6 +70,14 @@ tests
 /
 data
 "
+TEST_DIRS
++
+=
+[
+"
+gtest
+"
+]
 if
 not
 CONFIG

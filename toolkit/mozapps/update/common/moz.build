@@ -101,6 +101,11 @@ EXPORTS
 =
 [
 "
+EnterprisePoliciesFlagFile
+.
+h
+"
+"
 pathhash
 .
 h
@@ -242,6 +247,11 @@ SOURCES
 +
 =
 [
+"
+EnterprisePoliciesFlagFile
+.
+cpp
+"
 "
 pathhash
 .
