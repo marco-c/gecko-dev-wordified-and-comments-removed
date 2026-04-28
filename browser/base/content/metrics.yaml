@@ -2519,9 +2519,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-FX_TAB_CLICK_MS
 new_window
 :
 type
