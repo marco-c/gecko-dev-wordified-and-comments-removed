@@ -109,3 +109,10 @@ test_timestamp_fixup
 js
 "
 ]
+[
+"
+test_valueless_cookie_migration
+.
+js
+"
+]
