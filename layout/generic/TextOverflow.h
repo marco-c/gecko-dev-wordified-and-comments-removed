@@ -23,6 +23,15 @@ include
 "
 mozilla
 /
+UniquePtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WritingModes
 .
 h
@@ -81,7 +90,7 @@ TextOverflow
 default
 ;
 static
-Maybe
+UniquePtr
 <
 TextOverflow
 >
