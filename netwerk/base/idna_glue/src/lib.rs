@@ -1224,7 +1224,6 @@ new
 .
 process
 (
-&
 src
 if
 allow_any_glyphful_ascii
