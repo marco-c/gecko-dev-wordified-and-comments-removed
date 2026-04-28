@@ -17047,7 +17047,11 @@ wast
 :
 1016
 "
+"
+ref
+.
 null
+"
 )
 ;
 assert_return
@@ -17073,7 +17077,11 @@ wast
 :
 1017
 "
+"
+ref
+.
 null
+"
 )
 ;
 assert_return
@@ -17341,7 +17349,11 @@ wast
 :
 1029
 "
+"
+ref
+.
 null
+"
 )
 ;
 assert_return

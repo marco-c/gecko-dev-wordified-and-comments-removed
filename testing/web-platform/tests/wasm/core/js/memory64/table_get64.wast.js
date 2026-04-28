@@ -497,7 +497,11 @@ wast
 :
 26
 "
+"
+ref
+.
 null
+"
 )
 ;
 assert_return
@@ -556,7 +560,11 @@ wast
 :
 29
 "
+"
+ref
+.
 null
+"
 )
 ;
 assert_return

@@ -619,7 +619,11 @@ wast
 :
 29
 "
+"
+ref
+.
 null
+"
 )
 ;
 assert_return
@@ -737,7 +741,11 @@ wast
 :
 33
 "
+"
+ref
+.
 null
+"
 )
 ;
 assert_return
@@ -765,7 +773,11 @@ wast
 :
 35
 "
+"
+ref
+.
 null
+"
 )
 ;
 assert_return
@@ -879,7 +891,11 @@ wast
 :
 39
 "
+"
+ref
+.
 null
+"
 )
 ;
 assert_trap
