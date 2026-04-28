@@ -2206,6 +2206,12 @@ currentColor
 "
 transparent
 "
+"
+white
+"
+"
+black
+"
 ]
 allowedTokens
 :
@@ -2234,6 +2240,9 @@ color
 aliasTokenTypes
 :
 [
+"
+color
+"
 "
 background
 -
@@ -2998,6 +3007,9 @@ allow
 0
 "
 "
+0px
+"
+"
 1px
 "
 "
@@ -3442,6 +3454,12 @@ currentColor
 "
 transparent
 "
+"
+white
+"
+"
+black
+"
 ]
 allowFunctions
 :
@@ -3470,6 +3488,9 @@ color
 aliasTokenTypes
 :
 [
+"
+color
+"
 "
 background
 -
