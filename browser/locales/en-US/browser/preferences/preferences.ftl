@@ -3152,6 +3152,10 @@ label
 =
 Default
 zoom
+.
+accesskey
+=
+z
 #
 Variables
 :
