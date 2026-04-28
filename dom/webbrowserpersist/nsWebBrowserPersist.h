@@ -886,6 +886,9 @@ mEncodingFlags
 nsString
 mContentType
 ;
+nsCString
+mFilenameRandomSeed
+;
 }
 ;
 #
