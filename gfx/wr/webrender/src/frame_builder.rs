@@ -593,14 +593,6 @@ pub
 enable_dithering
 :
 bool
-pub
-precise_linear_gradients
-:
-bool
-pub
-use_quad_box_shadow
-:
-bool
 }
 #
 [

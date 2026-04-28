@@ -1007,13 +1007,6 @@ surface
 culling_rect
 ;
 let
-device_pixel_scale
-=
-surface
-.
-device_pixel_scale
-;
-let
 mut
 map_local_to_picture
 =
@@ -1401,7 +1394,6 @@ f32
 frame_state
 .
 resource_cache
-device_pixel_scale
 &
 surface_culling_rect
 &
