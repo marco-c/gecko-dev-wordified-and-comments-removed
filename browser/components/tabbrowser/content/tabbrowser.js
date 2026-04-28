@@ -3588,6 +3588,15 @@ of
 unchangedRemoteness
 )
 {
+ReducedProtectionNotification
+.
+markUserReload
+(
+tab
+.
+linkedBrowser
+)
+;
 reloadBrowser
 (
 tab
