@@ -3855,6 +3855,11 @@ addon
 upgrade
 "
 )
+|
+|
+addon
+.
+isApplyBackgroundUpdatesControlledByPolicies
 ;
 if
 (
