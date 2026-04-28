@@ -358,12 +358,15 @@ this
 accessKey
 )
 }
->
+.
+textContent
+=
 {
 this
 .
 label
 }
+>
 <
 /
 label
