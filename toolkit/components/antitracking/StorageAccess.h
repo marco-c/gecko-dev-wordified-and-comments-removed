@@ -74,10 +74,10 @@ ePrivateBrowsing
 1
 eAllow
 =
-3
+2
 eNumValues
 =
-4
+3
 }
 ;
 StorageAccess
