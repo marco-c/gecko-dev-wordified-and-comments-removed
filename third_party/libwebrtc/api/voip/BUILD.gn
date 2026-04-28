@@ -154,12 +154,6 @@ deps
 "
 .
 .
-:
-array_view
-"
-"
-.
-.
 /
 audio_codecs
 :
@@ -358,12 +352,6 @@ deps
 "
 :
 voip_api
-"
-"
-.
-.
-:
-array_view
 "
 "
 .

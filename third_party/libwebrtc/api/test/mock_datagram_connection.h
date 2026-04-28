@@ -17,6 +17,11 @@ cstdint
 #
 include
 <
+span
+>
+#
+include
+<
 type_traits
 >
 #
@@ -38,15 +43,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-api
-/
-array_view
 .
 h
 "
@@ -181,7 +177,10 @@ MOCK_METHOD
 void
 SendPackets
 (
-ArrayView
+std
+:
+:
+span
 <
 PacketSendParameters
 >
@@ -215,7 +214,7 @@ override
 ;
 MOCK_METHOD
 (
-std
+absl
 :
 :
 string_view
@@ -229,7 +228,7 @@ override
 ;
 MOCK_METHOD
 (
-std
+absl
 :
 :
 string_view

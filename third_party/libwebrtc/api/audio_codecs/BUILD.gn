@@ -222,12 +222,6 @@ deps
 .
 .
 :
-array_view
-"
-"
-.
-.
-:
 bitrate_allocation
 "
 "
