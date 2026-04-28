@@ -1556,6 +1556,7 @@ saveTabsSelectedForCollection
 )
 verifySnackBarText
 (
+composeTestRule
 "
 Tab
 saved
