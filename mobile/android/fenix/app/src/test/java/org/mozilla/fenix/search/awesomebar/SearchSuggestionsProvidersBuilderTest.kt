@@ -87,6 +87,14 @@ mockk
 .
 mockk
 import
+kotlinx
+.
+coroutines
+.
+test
+.
+TestScope
+import
 mozilla
 .
 components
@@ -568,6 +576,11 @@ SearchSuggestionsProvidersBuilder
 components
 =
 components
+scope
+=
+TestScope
+(
+)
 browsingModeManager
 =
 browsingModeManager
