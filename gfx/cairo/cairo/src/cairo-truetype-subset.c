@@ -570,7 +570,7 @@ status
 ;
 font
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -676,7 +676,7 @@ font
 >
 glyphs
 =
-calloc
+_cairo_calloc_ab
 (
 font
 -
@@ -722,7 +722,7 @@ font
 >
 parent_to_subset
 =
-calloc
+_cairo_calloc_ab
 (
 font
 -
@@ -1055,7 +1055,7 @@ font
 >
 widths
 =
-calloc
+_cairo_calloc_ab
 (
 font
 -
@@ -5759,12 +5759,8 @@ truetype_subset
 >
 widths
 =
-calloc
+_cairo_calloc_ab
 (
-sizeof
-(
-double
-)
 font
 -
 >
@@ -5772,6 +5768,10 @@ scaled_font_subset
 -
 >
 num_glyphs
+sizeof
+(
+double
+)
 )
 ;
 if

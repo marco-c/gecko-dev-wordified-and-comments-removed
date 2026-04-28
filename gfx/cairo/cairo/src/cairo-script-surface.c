@@ -965,7 +965,7 @@ NULL
 ;
 bb
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -5263,7 +5263,7 @@ return
 ;
 surface
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -10972,7 +10972,7 @@ deferred_finish
 *
 link
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -14237,7 +14237,7 @@ status
 ;
 font_private
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -17786,7 +17786,7 @@ CAIRO_STATUS_NULL_POINTER
 ;
 surface
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -17996,7 +17996,7 @@ ctx
 ;
 ctx
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (

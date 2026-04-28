@@ -675,7 +675,7 @@ TAG_TREE_TYPE_STRUCTURE
 }
 elem
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (

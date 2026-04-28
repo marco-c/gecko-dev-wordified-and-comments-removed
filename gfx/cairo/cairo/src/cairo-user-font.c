@@ -2114,7 +2114,7 @@ TRUE
 ;
 user_scaled_font
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -2657,7 +2657,7 @@ font_face
 ;
 font_face
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (

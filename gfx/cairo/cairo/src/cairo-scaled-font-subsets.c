@@ -367,7 +367,7 @@ sub_font_glyph
 ;
 sub_font_glyph
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -881,7 +881,7 @@ i
 ;
 sub_font
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -3112,7 +3112,7 @@ subsets
 ;
 subsets
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -3748,6 +3748,13 @@ identity
 ;
 _cairo_font_options_init_default
 (
+&
+font_options
+)
+;
+cairo_scaled_font_get_font_options
+(
+scaled_font
 &
 font_options
 )
@@ -5324,7 +5331,7 @@ entry
 *
 entry
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -5455,7 +5462,7 @@ subset
 >
 glyph_names
 =
-calloc
+_cairo_calloc_ab
 (
 subset
 -

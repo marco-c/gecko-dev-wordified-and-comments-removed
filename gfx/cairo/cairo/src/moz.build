@@ -372,6 +372,17 @@ surface
 .
 c
 '
+'
+win32
+/
+cairo
+-
+win32
+-
+system
+.
+c
+'
 ]
 DEFINES
 [

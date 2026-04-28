@@ -3313,7 +3313,7 @@ cairo_svg_source_surface_t
 *
 source_surface_entry
 =
-malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -3932,7 +3932,7 @@ status
 ;
 surface
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -5829,7 +5829,7 @@ cairo_svg_paint_t
 *
 paint_entry
 =
-malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -11176,7 +11176,7 @@ cairo_svg_paint_t
 *
 paint_entry
 =
-malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -20372,7 +20372,7 @@ status
 }
 document
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -21085,7 +21085,7 @@ cairo_svg_paint_t
 *
 paint_entry
 =
-malloc
+_cairo_calloc
 (
 sizeof
 (

@@ -219,7 +219,7 @@ XRenderPictFormat
 *
 cached_xrender_formats
 [
-CAIRO_FORMAT_RGB30
+CAIRO_FORMAT_RGBA128F
 +
 1
 ]

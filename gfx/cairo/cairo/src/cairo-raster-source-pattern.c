@@ -387,9 +387,8 @@ CAIRO_STATUS_INVALID_CONTENT
 ;
 pattern
 =
-calloc
+_cairo_calloc
 (
-1
 sizeof
 (
 *

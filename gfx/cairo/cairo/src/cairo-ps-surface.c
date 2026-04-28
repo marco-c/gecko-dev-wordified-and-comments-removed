@@ -5541,7 +5541,7 @@ break
 }
 page
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -5732,7 +5732,7 @@ surface
 ;
 surface
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -5788,7 +5788,7 @@ surface
 >
 tmpfile
 =
-tmpfile
+_cairo_tmpfile
 (
 )
 ;
@@ -9877,7 +9877,7 @@ stream
 ;
 stream
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -9981,7 +9981,7 @@ stream
 ;
 stream
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -15553,7 +15553,7 @@ MAX_L3_FORM_DATA
 else
 max_size
 =
-MAX_L3_FORM_DATA
+MAX_L2_FORM_DATA
 ;
 if
 (
@@ -15582,8 +15582,6 @@ params
 -
 >
 approx_size
->
-max_size
 ;
 unique_id
 =
@@ -15624,13 +15622,12 @@ unique_id_length
 ;
 source_entry
 =
-calloc
+_cairo_calloc
 (
 sizeof
 (
 cairo_ps_form_t
 )
-1
 )
 ;
 if

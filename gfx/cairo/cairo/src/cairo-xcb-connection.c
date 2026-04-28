@@ -519,7 +519,7 @@ status
 ;
 f
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -886,7 +886,7 @@ f
 ;
 f
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -1186,7 +1186,12 @@ DEPTH_MASK
 d
 )
 (
+(
+uint32_t
+)
+(
 1
+)
 <
 <
 (
@@ -2825,7 +2830,7 @@ unlock
 }
 connection
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -3134,7 +3139,7 @@ connection
 >
 subpixel_orders
 =
-calloc
+_cairo_calloc_ab
 (
 connection
 -

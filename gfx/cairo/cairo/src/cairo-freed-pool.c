@@ -223,6 +223,9 @@ i
 {
 free
 (
+_atomic_fetch
+(
+&
 pool
 -
 >
@@ -231,16 +234,7 @@ pool
 i
 ]
 )
-;
-pool
--
->
-pool
-[
-i
-]
-=
-NULL
+)
 ;
 }
 _cairo_atomic_int_set_relaxed

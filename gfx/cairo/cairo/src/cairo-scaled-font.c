@@ -588,7 +588,7 @@ NULL
 {
 cairo_scaled_font_map
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -1049,7 +1049,7 @@ status
 ;
 placeholder_scaled_font
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -4225,7 +4225,7 @@ NULL
 {
 scaled_font
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -9767,7 +9767,7 @@ CAIRO_STATUS_SUCCESS
 }
 page
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (

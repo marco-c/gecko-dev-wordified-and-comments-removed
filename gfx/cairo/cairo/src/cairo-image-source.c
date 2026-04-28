@@ -4771,7 +4771,7 @@ proxy
 ;
 proxy
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -7019,7 +7019,7 @@ NULL
 }
 cleanup
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -7395,7 +7395,7 @@ __FUNCTION__
 ;
 source
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (

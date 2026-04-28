@@ -391,7 +391,7 @@ CAIRO_STATUS_NO_MEMORY
 ;
 source
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -5188,7 +5188,7 @@ proxy
 ;
 proxy
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (

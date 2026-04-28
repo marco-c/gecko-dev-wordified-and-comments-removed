@@ -151,6 +151,8 @@ num_transformed_glyphs
 cairo_text_cluster_t
 *
 transformed_clusters
+cairo_bool_t
+perform_early_clip
 )
 ;
 static
@@ -965,7 +967,7 @@ NULL
 {
 top
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -7912,6 +7914,7 @@ transformed_glyphs
 &
 num_glyphs
 transformed_clusters
+TRUE
 )
 ;
 }
@@ -7929,6 +7932,7 @@ transformed_glyphs
 &
 num_glyphs
 NULL
+TRUE
 )
 ;
 }
@@ -8292,6 +8296,7 @@ transformed_glyphs
 &
 num_glyphs
 NULL
+FALSE
 )
 ;
 status
@@ -8389,6 +8394,8 @@ num_transformed_glyphs
 cairo_text_cluster_t
 *
 transformed_clusters
+cairo_bool_t
+perform_early_clip
 )
 {
 cairo_rectangle_int_t
@@ -8457,6 +8464,10 @@ TRUE
 ;
 if
 (
+!
+perform_early_clip
+|
+|
 !
 _cairo_gstate_int_clip_extents
 (

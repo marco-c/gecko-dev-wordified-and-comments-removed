@@ -863,7 +863,7 @@ hash_entry
 }
 font_face
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (

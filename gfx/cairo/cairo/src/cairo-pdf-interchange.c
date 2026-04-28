@@ -617,7 +617,7 @@ CAIRO_STATUS_SUCCESS
 ;
 group
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -1679,7 +1679,7 @@ CAIRO_STATUS_SUCCESS
 ;
 node
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -2300,7 +2300,7 @@ annot
 ;
 annot
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -8308,7 +8308,7 @@ ic
 >
 sorted_dests
 =
-calloc
+_cairo_calloc_ab
 (
 ic
 -
@@ -9504,7 +9504,7 @@ status
 ;
 command_entry
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -9621,7 +9621,7 @@ cairo_pdf_content_tag_t
 *
 content
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -9999,9 +9999,8 @@ CAIRO_PAGINATED_MODE_ANALYZE
 {
 dest
 =
-calloc
+_cairo_calloc
 (
-1
 sizeof
 (
 cairo_pdf_named_dest_t
@@ -10644,6 +10643,11 @@ name
 &
 elem
 )
+;
+}
+else
+{
+ASSERT_NOT_REACHED
 ;
 }
 if
@@ -12825,9 +12829,8 @@ ic
 >
 struct_root
 =
-calloc
+_cairo_calloc
 (
-1
 sizeof
 (
 cairo_pdf_struct_tree_node_t
@@ -13195,9 +13198,8 @@ cairo_pdf_outline_entry_t
 ;
 outline_root
 =
-calloc
+_cairo_calloc
 (
-1
 sizeof
 (
 cairo_pdf_outline_entry_t
@@ -13886,7 +13888,7 @@ CAIRO_STATUS_SUCCESS
 ;
 outline
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -15003,9 +15005,18 @@ unlikely
 status
 )
 )
+{
+free
+(
+new_data
+.
+name
+)
+;
 return
 status
 ;
+}
 new_data
 .
 value

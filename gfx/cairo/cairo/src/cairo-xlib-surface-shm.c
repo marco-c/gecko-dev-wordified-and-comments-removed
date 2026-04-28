@@ -2350,7 +2350,7 @@ success
 ;
 pool
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -2818,7 +2818,7 @@ NULL
 ;
 info
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -3538,7 +3538,7 @@ NULL
 ;
 shm
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -6621,7 +6621,7 @@ return
 ;
 shm
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (

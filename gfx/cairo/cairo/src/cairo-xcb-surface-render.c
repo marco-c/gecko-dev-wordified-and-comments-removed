@@ -466,7 +466,7 @@ surface
 ;
 surface
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -21244,7 +21244,7 @@ i
 ;
 priv
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -22080,7 +22080,7 @@ NULL
 {
 to_free
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -22187,7 +22187,7 @@ priv
 ;
 priv
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (

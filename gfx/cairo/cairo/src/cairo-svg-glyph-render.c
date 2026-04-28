@@ -5272,7 +5272,7 @@ status
 ;
 elem
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -9127,6 +9127,10 @@ buf_pos
 )
 {
 n
+=
+0
+;
+val
 =
 0
 ;
@@ -14078,7 +14082,7 @@ gs
 ;
 gs
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -15754,7 +15758,7 @@ cr
 ;
 gs
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -16815,7 +16819,7 @@ cairo_svg_glyph_render_t
 *
 svg_render
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -17302,6 +17306,7 @@ status
 #
 ifdef
 DEBUG_SVG_RENDER
+cairo_public
 cairo_bool_t
 _cairo_debug_svg_render
 (

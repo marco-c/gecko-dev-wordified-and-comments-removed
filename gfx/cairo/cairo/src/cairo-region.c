@@ -430,7 +430,7 @@ region
 ;
 region
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -519,7 +519,7 @@ i
 ;
 region
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -807,7 +807,7 @@ region
 ;
 region
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -951,7 +951,7 @@ region
 ;
 region
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (

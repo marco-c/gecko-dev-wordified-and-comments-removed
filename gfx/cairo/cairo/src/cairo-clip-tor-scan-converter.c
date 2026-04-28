@@ -7327,9 +7327,8 @@ i
 ;
 self
 =
-calloc
+_cairo_calloc
 (
-1
 sizeof
 (
 struct

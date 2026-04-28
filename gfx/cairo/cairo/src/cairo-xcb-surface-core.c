@@ -212,7 +212,7 @@ surface
 ;
 surface
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -375,7 +375,7 @@ surface
 ;
 surface
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (

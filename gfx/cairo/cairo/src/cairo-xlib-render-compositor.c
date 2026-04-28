@@ -5326,7 +5326,7 @@ i
 ;
 priv
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -5788,7 +5788,7 @@ priv
 ;
 priv
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (

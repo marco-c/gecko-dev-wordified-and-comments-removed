@@ -1449,7 +1449,7 @@ status
 ;
 device
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -1582,7 +1582,7 @@ status
 ;
 surface
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -6602,7 +6602,7 @@ cb
 ;
 cb
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (

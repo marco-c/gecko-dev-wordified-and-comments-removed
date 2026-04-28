@@ -23,6 +23,14 @@ h
 #
 if
 CAIRO_HAS_FT_FONT
+#
+ifdef
+FT_COLOR_H
+#
+include
+FT_COLOR_H
+#
+endif
 CAIRO_BEGIN_DECLS
 typedef
 struct

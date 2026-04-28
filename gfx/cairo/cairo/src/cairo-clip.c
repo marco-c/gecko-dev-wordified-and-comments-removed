@@ -157,7 +157,7 @@ NULL
 {
 clip_path
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -345,7 +345,7 @@ NULL
 {
 clip
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -3696,7 +3696,7 @@ _cairo_rectangles_not_representable
 ;
 list
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -3877,7 +3877,7 @@ n_rects
 {
 rectangles
 =
-_cairo_malloc_ab
+_cairo_calloc_ab
 (
 n_rects
 sizeof
@@ -3964,7 +3964,7 @@ DONE
 :
 list
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (

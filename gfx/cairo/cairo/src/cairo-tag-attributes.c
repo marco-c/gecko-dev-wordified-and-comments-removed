@@ -1505,9 +1505,8 @@ fail1
 }
 attrib
 =
-calloc
+_cairo_calloc
 (
-1
 sizeof
 (
 attribute_t

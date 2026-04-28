@@ -647,7 +647,7 @@ bbtree
 *
 bbt
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -2132,7 +2132,7 @@ surface
 ;
 surface
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -3321,7 +3321,7 @@ proxy
 ;
 proxy
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -4088,7 +4088,7 @@ status
 ;
 command
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -4339,7 +4339,7 @@ status
 ;
 command
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -4645,7 +4645,7 @@ status
 ;
 command
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -4998,7 +4998,7 @@ status
 ;
 command
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -5337,7 +5337,7 @@ status
 ;
 command
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -5649,6 +5649,23 @@ cluster_flags
 =
 cluster_flags
 ;
+status
+=
+scaled_font
+-
+>
+status
+;
+if
+(
+unlikely
+(
+status
+)
+)
+goto
+CLEANUP_ARRAYS
+;
 command
 -
 >
@@ -5832,9 +5849,8 @@ TRUE
 ;
 command
 =
-calloc
+_cairo_calloc
 (
-1
 sizeof
 (
 cairo_command_tag_t
@@ -6162,7 +6178,7 @@ status
 ;
 command
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -6313,7 +6329,7 @@ status
 ;
 command
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -6509,7 +6525,7 @@ status
 ;
 command
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -6786,7 +6802,7 @@ status
 ;
 command
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -7012,7 +7028,7 @@ status
 ;
 command
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -7508,9 +7524,8 @@ status
 ;
 command
 =
-calloc
+_cairo_calloc
 (
-1
 sizeof
 (
 *
@@ -7926,7 +7941,7 @@ status
 ;
 surface
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -8279,7 +8294,7 @@ unique_id
 ;
 #
 else
-cairo_atomic_int_t
+int
 old
 id
 ;
@@ -8412,7 +8427,7 @@ abstract_surface
 ;
 region_array
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (

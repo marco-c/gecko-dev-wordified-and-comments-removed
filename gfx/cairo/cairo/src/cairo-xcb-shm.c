@@ -741,7 +741,7 @@ CAIRO_STATUS_NO_MEMORY
 }
 pool
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (

@@ -328,7 +328,7 @@ stream
 ;
 stream
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -446,7 +446,7 @@ _cairo_output_stream_nil_write_error
 ;
 stream
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -2499,7 +2499,7 @@ _cairo_output_stream_nil_write_error
 }
 stream
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 *
@@ -2664,7 +2664,7 @@ _cairo_output_stream_nil_write_error
 }
 stream
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 *
@@ -2826,7 +2826,7 @@ stream
 ;
 stream
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 *
@@ -2955,7 +2955,7 @@ array
 *
 data_out
 =
-_cairo_malloc
+_cairo_calloc
 (
 *
 length_out
@@ -3147,7 +3147,7 @@ stream
 ;
 stream
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 *

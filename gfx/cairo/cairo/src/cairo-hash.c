@@ -173,7 +173,7 @@ hash_table
 ;
 hash_table
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -256,7 +256,7 @@ hash_table
 >
 entries
 =
-calloc
+_cairo_calloc_ab
 (
 *
 hash_table
@@ -686,7 +686,7 @@ tmp
 .
 entries
 =
-calloc
+_cairo_calloc_ab
 (
 new_size
 sizeof

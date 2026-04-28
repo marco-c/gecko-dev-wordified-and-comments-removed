@@ -15,6 +15,6 @@ CAIRO_VERSION_MINOR
 #
 define
 CAIRO_VERSION_MICRO
-0
+4
 #
 endif
