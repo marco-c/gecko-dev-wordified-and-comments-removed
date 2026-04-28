@@ -10,11 +10,6 @@ define
 MediaSystemResourceManager_h_
 #
 include
-<
-queue
->
-#
-include
 "
 MediaSystemResourceTypes
 .
