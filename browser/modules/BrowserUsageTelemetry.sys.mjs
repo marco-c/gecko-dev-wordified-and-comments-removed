@@ -2755,10 +2755,8 @@ SearchSERPTelemetry
 updateTrackingStatus
 (
 browser
-uriSpec
+uri
 webProgress
-.
-loadType
 )
 ;
 }
@@ -2773,8 +2771,6 @@ updateTrackingSinglePageApp
 browser
 uriSpec
 webProgress
-.
-loadType
 flags
 )
 ;

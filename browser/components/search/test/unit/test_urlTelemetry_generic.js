@@ -2874,9 +2874,16 @@ SearchSERPTelemetry
 updateTrackingStatus
 (
 browser
+Services
+.
+io
+.
+newURI
+(
 test
 .
 trackingUrl
+)
 )
 ;
 SearchSERPTelemetry
