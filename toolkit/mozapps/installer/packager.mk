@@ -393,6 +393,13 @@ NON_OMNIJAR_FILES
 )
 )
 )
+prepare
+-
+package
+:
+stage
+-
+package
 ifdef
 RUN_FIND_DUPES
 (
@@ -1396,13 +1403,6 @@ Darwin
 endif
 #
 MOZ_ARTIFACT_BUILDS
-prepare
--
-package
-:
-stage
--
-package
 make
 -
 package
