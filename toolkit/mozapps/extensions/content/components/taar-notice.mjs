@@ -56,15 +56,10 @@ MPL
 .
 *
 /
-/
-*
-globals
-DiscoveryAPI
-*
-/
 import
 {
 AboutAddonsHTMLElement
+DiscoveryAPI
 }
 from
 "
