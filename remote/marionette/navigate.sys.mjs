@@ -1189,7 +1189,6 @@ navigate
 .
 navigateTo
 =
-async
 function
 (
 browsingContext
@@ -1279,7 +1278,6 @@ navigate
 .
 refresh
 =
-async
 function
 (
 browsingContext
