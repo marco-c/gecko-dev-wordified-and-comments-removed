@@ -739,6 +739,13 @@ center
 &
 :
 hover
+:
+not
+(
+[
+selected
+]
+)
 {
 background
 -
