@@ -334,9 +334,15 @@ updated
 ;
 jsterm
 .
+editor
+.
 insertStringAtCursor
 (
 char
+0
+"
+jsterm
+"
 )
 ;
 jsterm
