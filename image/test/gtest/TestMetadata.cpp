@@ -1431,12 +1431,6 @@ CheckMetadata
 GreenFirstFrameAnimatedAVIFTestCase
 (
 )
-BMPWithinICO
-:
-:
-NO
-true
-false
 )
 ;
 }
