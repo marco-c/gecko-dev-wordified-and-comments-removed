@@ -2334,6 +2334,14 @@ Rust
 checks
 '
 '
+tests
+'
+:
+'
+Test
+verification
+'
+'
 android
 '
 :

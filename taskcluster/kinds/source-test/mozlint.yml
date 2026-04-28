@@ -3564,9 +3564,11 @@ treeherder
 :
 symbol
 :
-misc
+tests
 (
-tm
+test
+-
+manifest
 )
 run
 :
@@ -3680,9 +3682,11 @@ treeherder
 :
 symbol
 :
-misc
+tests
 (
-W
+web
+-
+platform
 )
 run
 :
