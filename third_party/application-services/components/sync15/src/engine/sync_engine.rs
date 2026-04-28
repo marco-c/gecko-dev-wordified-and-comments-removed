@@ -30,10 +30,10 @@ crate
 :
 :
 {
-telemetry
 CollectionName
 Guid
 ServerTimestamp
+telemetry
 }
 ;
 use

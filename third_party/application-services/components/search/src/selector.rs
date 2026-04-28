@@ -5655,9 +5655,10 @@ bucket
 main
 "
 "
-signature
+signatures
 "
 :
+[
 {
 "
 x5u
@@ -5674,6 +5675,7 @@ signature
 fake
 "
 }
+]
 }
 "
 timestamp
@@ -6024,9 +6026,10 @@ bucket
 main
 "
 "
-signature
+signatures
 "
 :
+[
 {
 "
 x5u
@@ -6043,6 +6046,7 @@ signature
 fake
 "
 }
+]
 }
 "
 timestamp
@@ -6361,9 +6365,10 @@ bucket
 main
 "
 "
-signature
+signatures
 "
 :
+[
 {
 "
 x5u
@@ -6380,6 +6385,7 @@ signature
 fake
 "
 }
+]
 }
 "
 timestamp
@@ -6483,9 +6489,10 @@ bucket
 main
 "
 "
-signature
+signatures
 "
 :
+[
 {
 "
 x5u
@@ -6502,6 +6509,7 @@ signature
 fake
 "
 }
+]
 }
 "
 timestamp
@@ -7062,9 +7070,10 @@ bucket
 main
 "
 "
-signature
+signatures
 "
 :
+[
 {
 "
 x5u
@@ -7081,6 +7090,7 @@ signature
 fake
 "
 }
+]
 }
 "
 timestamp

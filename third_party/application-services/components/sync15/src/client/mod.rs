@@ -53,8 +53,8 @@ coll_update
 :
 :
 {
-fetch_incoming
 CollectionUpdate
+fetch_incoming
 }
 ;
 pub
@@ -115,9 +115,9 @@ sync_multiple
 :
 :
 {
-sync_multiple
-sync_multiple_with_command_processor
 MemoryCachedState
 SyncRequestInfo
+sync_multiple
+sync_multiple_with_command_processor
 }
 ;

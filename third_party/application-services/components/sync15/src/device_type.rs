@@ -20,6 +20,10 @@ Default
 PartialEq
 Eq
 Hash
+uniffi
+:
+:
+Enum
 )
 ]
 pub

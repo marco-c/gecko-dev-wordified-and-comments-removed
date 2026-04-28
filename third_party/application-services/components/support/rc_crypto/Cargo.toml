@@ -194,15 +194,6 @@ default
 =
 [
 ]
-gecko
-=
-[
-"
-nss
-/
-gecko
-"
-]
 backtrace
 =
 [

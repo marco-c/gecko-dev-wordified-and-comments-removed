@@ -14,6 +14,12 @@ use
 crate
 :
 :
+Guid
+;
+use
+crate
+:
+:
 error
 :
 :
@@ -21,12 +27,6 @@ error
 trace
 warn
 }
-;
-use
-crate
-:
-:
-Guid
 ;
 use
 error_support

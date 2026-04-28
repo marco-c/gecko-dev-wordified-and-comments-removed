@@ -190,6 +190,15 @@ features
 "
 keydb
 "
+"
+allow_empty_passwords
+"
+"
+ignore_form_action_origin_validation_errors
+"
+"
+perform_additional_origin_fixups
+"
 ]
 }
 init_rust_components
