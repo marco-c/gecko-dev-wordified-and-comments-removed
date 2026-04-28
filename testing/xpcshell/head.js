@@ -38,6 +38,11 @@ _Services
 =
 Services
 ;
+let
+_Cc
+=
+Cc
+;
 _register_modules_protocol_handler
 (
 )
@@ -2582,7 +2587,7 @@ json
 let
 path
 =
-Services
+_Services
 .
 env
 .
@@ -2622,7 +2627,7 @@ profile
 }
 =
 await
-Services
+_Services
 .
 profiler
 .
@@ -3032,7 +3037,7 @@ timer
 ;
 if
 (
-Services
+_Services
 .
 profiler
 .
@@ -3042,7 +3047,7 @@ IsActive
 &
 &
 !
-Services
+_Services
 .
 env
 .
@@ -3054,7 +3059,7 @@ MOZ_PROFILER_SHUTDOWN
 )
 &
 &
-Services
+_Services
 .
 env
 .
@@ -3066,7 +3071,7 @@ MOZ_UPLOAD_DIR
 )
 &
 &
-Services
+_Services
 .
 env
 .
@@ -3080,7 +3085,7 @@ MOZ_TEST_TIMEOUT_INTERVAL
 {
 timer
 =
-Cc
+_Cc
 [
 "
 mozilla
@@ -3136,7 +3141,7 @@ _do_upload_profile
 }
 parseInt
 (
-Services
+_Services
 .
 env
 .
@@ -3798,7 +3803,7 @@ _passed
 runningInParent
 &
 &
-Services
+_Services
 .
 env
 .
@@ -3811,7 +3816,7 @@ MOZ_UPLOAD_DIR
 &
 &
 !
-Services
+_Services
 .
 env
 .
@@ -3823,7 +3828,7 @@ MOZ_PROFILER_SHUTDOWN
 )
 &
 &
-Services
+_Services
 .
 profiler
 .
