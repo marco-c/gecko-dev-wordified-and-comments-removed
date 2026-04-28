@@ -1463,10 +1463,6 @@ settings
 .
 headerSize
 ;
-const
-size_t
-poolMaxOffset_
-;
 static
 constexpr
 unsigned
@@ -1586,10 +1582,6 @@ nopFill
 poolEntryCount
 (
 0
-)
-poolMaxOffset_
-(
-poolMaxOffset
 )
 pool_
 (
