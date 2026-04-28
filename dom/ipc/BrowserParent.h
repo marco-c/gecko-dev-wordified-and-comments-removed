@@ -2596,7 +2596,7 @@ SendRealMouseEvent
 (
 WidgetMouseEvent
 &
-aEvent
+aMouseOrPointerEvent
 )
 ;
 void
