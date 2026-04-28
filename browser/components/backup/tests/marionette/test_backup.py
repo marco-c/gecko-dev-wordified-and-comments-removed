@@ -116,6 +116,22 @@ shouldInitializeFeeds
 "
 :
 True
+            
+"
+browser
+.
+newtabpage
+.
+activity
+-
+stream
+.
+newtabWallpapers
+.
+enabled
+"
+:
+False
         
 }
 )
@@ -5635,6 +5651,9 @@ feed
 wallpaperUpload
 (
 wallpaperFile
+"
+light
+"
 )
 ;
             
