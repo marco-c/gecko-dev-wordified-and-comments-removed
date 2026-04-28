@@ -5747,9 +5747,8 @@ cpi
 -
 >
 cdef_search_ctx
-aom_calloc
+aom_malloc
 (
-1
 sizeof
 (
 *
