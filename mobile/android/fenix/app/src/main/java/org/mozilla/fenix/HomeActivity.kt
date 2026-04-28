@@ -1013,7 +1013,7 @@ components
 .
 metrics
 .
-MarketingAttributionService
+InstallReferrerHandlingService
 import
 org
 .
@@ -3047,7 +3047,7 @@ launch
 IO
 )
 {
-MarketingAttributionService
+InstallReferrerHandlingService
 (
 applicationContext
 )
@@ -5369,7 +5369,7 @@ unBindActivity
 (
 this
 )
-MarketingAttributionService
+InstallReferrerHandlingService
 (
 applicationContext
 )

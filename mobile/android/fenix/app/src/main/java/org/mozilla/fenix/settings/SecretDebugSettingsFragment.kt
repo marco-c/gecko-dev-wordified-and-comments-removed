@@ -299,7 +299,7 @@ components
 .
 metrics
 .
-MarketingAttributionService
+InstallReferrerHandlingService
 import
 org
 .
@@ -522,7 +522,7 @@ mutableStateOf
 rawValue
 :
 {
-MarketingAttributionService
+InstallReferrerHandlingService
 .
 response
 }
