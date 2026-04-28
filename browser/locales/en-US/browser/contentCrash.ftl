@@ -219,6 +219,8 @@ crash
 reports
 -
 message
+-
+new
 =
 {
 reportCount
@@ -229,7 +231,8 @@ one
 ]
 You
 have
-an
+a
+recent
 unsent
 crash
 report
@@ -242,6 +245,7 @@ have
 {
 reportCount
 }
+recent
 unsent
 crash
 reports
