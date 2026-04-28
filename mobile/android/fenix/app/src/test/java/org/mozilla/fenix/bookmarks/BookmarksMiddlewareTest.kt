@@ -370,6 +370,16 @@ Unit
 private
 lateinit
 var
+navigateToImportDialog
+:
+(
+)
+-
+>
+Unit
+private
+lateinit
+var
 shareBookmarks
 :
 (
@@ -667,6 +677,10 @@ navigateToSearch
 {
 }
 navigateToSignIntoSync
+=
+{
+}
+navigateToImportDialog
 =
 {
 }
@@ -17955,6 +17969,9 @@ navigateToSearch
 navigateToSignIntoSync
 =
 navigateToSignIntoSync
+navigateToImportDialog
+=
+navigateToImportDialog
 shareBookmarks
 =
 shareBookmarks
