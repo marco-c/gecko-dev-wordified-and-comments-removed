@@ -31,6 +31,13 @@ PairHash
 .
 h
 "
+#
+include
+"
+nsTHashSet
+.
+h
+"
 class
 nsIFrame
 ;
@@ -226,6 +233,12 @@ size_t
 mPendingOopIframes
 =
 0
+;
+nsTHashSet
+<
+uint64_t
+>
+mRequestedBrowserParentIds
 ;
 RefPtr
 <
