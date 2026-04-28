@@ -1042,12 +1042,6 @@ work_dir
 gn
 out
 dir
-where
-the
-compile_commands
-json
-file
-exists
     
 "
 "
@@ -1063,15 +1057,6 @@ compile_commands
 json
 "
     
-if
-not
-compile_commands_path
-.
-is_file
-(
-)
-:
-        
 print
 (
 "
@@ -1084,12 +1069,12 @@ file
 .
 "
 )
-        
+    
 subprocess
 .
 run
 (
-            
+        
 [
 "
 tools
@@ -1108,7 +1093,7 @@ p
 "
 work_dir
 ]
-            
+        
 stdout
 =
 compile_commands_path
@@ -1122,11 +1107,11 @@ w
 +
 "
 )
-            
+        
 check
 =
 True
-        
+    
 )
 def
 _modified_output

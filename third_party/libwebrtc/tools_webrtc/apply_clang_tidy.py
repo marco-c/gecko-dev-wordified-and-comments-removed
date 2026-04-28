@@ -425,12 +425,6 @@ work_dir
 gn
 out
 dir
-where
-the
-compile_commands
-json
-file
-exists
     
 "
 "
