@@ -72,6 +72,17 @@ include
 "
 api
 /
+video
+/
+video_timing
+.
+h
+"
+#
+include
+"
+api
+/
 video_codecs
 /
 video_decoder
@@ -162,6 +173,9 @@ content_type
 ;
 VideoFrameType
 frame_type
+;
+TimingFrameInfo
+timing_frame_info
 ;
 }
 ;

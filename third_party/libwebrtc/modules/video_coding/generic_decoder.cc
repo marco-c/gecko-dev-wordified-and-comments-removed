@@ -1469,14 +1469,6 @@ timing_frame_info
 decode_start_ms
 )
 ;
-timing_
--
->
-SetTimingFrameInfo
-(
-timing_frame_info
-)
-;
 decodedImage
 .
 set_timestamp_us
@@ -1542,6 +1534,10 @@ frame_info
 -
 >
 frame_type
+.
+timing_frame_info
+=
+timing_frame_info
 }
 )
 ;

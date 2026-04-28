@@ -3622,6 +3622,10 @@ VideoContentType
 content_type
 VideoFrameType
 frame_type
+const
+TimingFrameInfo
+&
+timing_frame_info
 )
 {
 TimeDelta
@@ -3803,6 +3807,7 @@ processing_delay
 assembly_time
 content_type
 frame_type
+timing_frame_info
 this
 ]
 (
@@ -3817,6 +3822,11 @@ processing_delay
 assembly_time
 content_type
 frame_type
+)
+;
+OnTimingFrameInfoUpdated
+(
+timing_frame_info
 )
 ;
 }

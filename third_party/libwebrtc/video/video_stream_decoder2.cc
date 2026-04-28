@@ -191,6 +191,9 @@ content_type
 arguments
 .
 frame_type
+arguments
+.
+timing_frame_info
 )
 ;
 incoming_video_stream_
