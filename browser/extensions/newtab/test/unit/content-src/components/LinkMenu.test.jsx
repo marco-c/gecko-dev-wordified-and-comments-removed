@@ -2586,6 +2586,11 @@ forceBlock
 FAKE_SITE
 .
 bookmarkGuid
+original_url
+:
+FAKE_SITE
+.
+original_url
 }
 "
 newtab

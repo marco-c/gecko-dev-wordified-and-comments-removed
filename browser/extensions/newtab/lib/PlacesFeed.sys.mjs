@@ -2555,6 +2555,7 @@ const
 url
 forceBlock
 pocket_id
+original_url
 }
 =
 action
@@ -2569,6 +2570,9 @@ activityStreamLinks
 .
 deleteHistoryEntry
 (
+original_url
+|
+|
 url
 )
 ;
@@ -2586,6 +2590,11 @@ activityStreamLinks
 blockURL
 (
 {
+url
+:
+original_url
+|
+|
 url
 pocket_id
 }
@@ -2655,6 +2664,11 @@ this
 openLink
 (
 action
+action
+.
+data
+.
+where
 )
 ;
 break

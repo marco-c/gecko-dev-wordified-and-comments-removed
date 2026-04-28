@@ -6297,6 +6297,14 @@ searchProvider
 {
 link
 .
+original_url
+=
+link
+.
+url
+;
+link
+.
 url
 =
 searchProvider
