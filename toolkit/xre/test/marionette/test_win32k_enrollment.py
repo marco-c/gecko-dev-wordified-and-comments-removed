@@ -141,6 +141,18 @@ win32k
 -
 disable
 "
+    
+WEBGL
+=
+"
+webgl
+.
+out
+-
+of
+-
+process
+"
 ENV_DISABLE_WIN32K
 =
 "
@@ -1779,6 +1791,18 @@ True
         
 self
 .
+marionette
+.
+set_pref
+(
+Prefs
+.
+WEBGL
+False
+)
+        
+self
+.
 check_win32k_status
 (
             
@@ -1786,7 +1810,7 @@ status
 =
 ContentWin32kLockdownState
 .
-EnabledByUserPref
+MissingRemoteWebGL
             
 sessionStatus
 =
@@ -1827,13 +1851,13 @@ status
 =
 ContentWin32kLockdownState
 .
-EnabledByUserPref
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
-EnabledByUserPref
+MissingRemoteWebGL
             
 experimentStatus
 =
@@ -2762,6 +2786,18 @@ True
         
 self
 .
+marionette
+.
+set_pref
+(
+Prefs
+.
+WEBGL
+False
+)
+        
+self
+.
 check_win32k_status
 (
             
@@ -2769,7 +2805,7 @@ status
 =
 ContentWin32kLockdownState
 .
-EnabledByDefault
+MissingRemoteWebGL
             
 sessionStatus
 =
@@ -2810,13 +2846,13 @@ status
 =
 ContentWin32kLockdownState
 .
-EnabledByDefault
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
-EnabledByDefault
+MissingRemoteWebGL
             
 experimentStatus
 =
@@ -3777,6 +3813,53 @@ status
 ContentWin32kLockdownState
 .
 EnabledByUserPref
+            
+sessionStatus
+=
+ContentWin32kLockdownState
+.
+EnabledByUserPref
+            
+experimentStatus
+=
+ExperimentStatus
+.
+UNENROLLED
+            
+pref
+=
+True
+            
+enrollmentStatusPref
+=
+ExperimentStatus
+.
+UNENROLLED
+        
+)
+        
+self
+.
+marionette
+.
+set_pref
+(
+Prefs
+.
+WEBGL
+False
+)
+        
+self
+.
+check_win32k_status
+(
+            
+status
+=
+ContentWin32kLockdownState
+.
+MissingRemoteWebGL
             
 sessionStatus
 =
@@ -4896,6 +4979,53 @@ ExperimentStatus
 UNENROLLED
         
 )
+        
+self
+.
+marionette
+.
+set_pref
+(
+Prefs
+.
+WEBGL
+False
+)
+        
+self
+.
+check_win32k_status
+(
+            
+status
+=
+ContentWin32kLockdownState
+.
+MissingRemoteWebGL
+            
+sessionStatus
+=
+ContentWin32kLockdownState
+.
+EnabledByDefault
+            
+experimentStatus
+=
+ExperimentStatus
+.
+UNENROLLED
+            
+pref
+=
+True
+            
+enrollmentStatusPref
+=
+ExperimentStatus
+.
+UNENROLLED
+        
+)
     
 def
 test_25
@@ -5774,6 +5904,18 @@ ENROLLED_CONTROL
         
 self
 .
+marionette
+.
+set_pref
+(
+Prefs
+.
+WEBGL
+False
+)
+        
+self
+.
 check_win32k_status
 (
             
@@ -5781,7 +5923,7 @@ status
 =
 ContentWin32kLockdownState
 .
-DisabledByControlGroup
+MissingRemoteWebGL
             
 sessionStatus
 =
@@ -5822,13 +5964,13 @@ status
 =
 ContentWin32kLockdownState
 .
-DisabledByControlGroup
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
-DisabledByControlGroup
+MissingRemoteWebGL
             
 experimentStatus
 =
@@ -6755,6 +6897,18 @@ ENROLLED_CONTROL
         
 self
 .
+marionette
+.
+set_pref
+(
+Prefs
+.
+WEBGL
+False
+)
+        
+self
+.
 check_win32k_status
 (
             
@@ -6762,7 +6916,7 @@ status
 =
 ContentWin32kLockdownState
 .
-DisabledByControlGroup
+MissingRemoteWebGL
             
 sessionStatus
 =
@@ -6803,19 +6957,19 @@ status
 =
 ContentWin32kLockdownState
 .
-DisabledByControlGroup
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
-DisabledByControlGroup
+MissingRemoteWebGL
             
 experimentStatus
 =
 ExperimentStatus
 .
-ENROLLED_CONTROL
+DISQUALIFIED
             
 pref
 =
@@ -6825,7 +6979,7 @@ enrollmentStatusPref
 =
 ExperimentStatus
 .
-ENROLLED_CONTROL
+DISQUALIFIED
         
 )
     
@@ -7786,6 +7940,18 @@ ENROLLED_TREATMENT
         
 self
 .
+marionette
+.
+set_pref
+(
+Prefs
+.
+WEBGL
+False
+)
+        
+self
+.
 check_win32k_status
 (
             
@@ -7793,7 +7959,7 @@ status
 =
 ContentWin32kLockdownState
 .
-EnabledByTreatmentGroup
+MissingRemoteWebGL
             
 sessionStatus
 =
@@ -7834,13 +8000,13 @@ status
 =
 ContentWin32kLockdownState
 .
-EnabledByTreatmentGroup
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
-EnabledByTreatmentGroup
+MissingRemoteWebGL
             
 experimentStatus
 =
@@ -8817,6 +8983,18 @@ ENROLLED_TREATMENT
         
 self
 .
+marionette
+.
+set_pref
+(
+Prefs
+.
+WEBGL
+False
+)
+        
+self
+.
 check_win32k_status
 (
             
@@ -8824,7 +9002,7 @@ status
 =
 ContentWin32kLockdownState
 .
-EnabledByTreatmentGroup
+MissingRemoteWebGL
             
 sessionStatus
 =
@@ -8865,19 +9043,19 @@ status
 =
 ContentWin32kLockdownState
 .
-EnabledByTreatmentGroup
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
-EnabledByTreatmentGroup
+MissingRemoteWebGL
             
 experimentStatus
 =
 ExperimentStatus
 .
-ENROLLED_TREATMENT
+DISQUALIFIED
             
 pref
 =
@@ -8887,7 +9065,7 @@ enrollmentStatusPref
 =
 ExperimentStatus
 .
-ENROLLED_TREATMENT
+DISQUALIFIED
         
 )
     
@@ -9354,6 +9532,18 @@ return
         
 self
 .
+marionette
+.
+set_pref
+(
+Prefs
+.
+WEBGL
+False
+)
+        
+self
+.
 check_win32k_status
 (
             
@@ -9361,13 +9551,54 @@ status
 =
 ContentWin32kLockdownState
 .
-DisabledByDefault
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
 DisabledByDefault
+            
+experimentStatus
+=
+ExperimentStatus
+.
+UNENROLLED
+            
+pref
+=
+False
+            
+enrollmentStatusPref
+=
+ExperimentStatus
+.
+UNENROLLED
+        
+)
+        
+self
+.
+restart
+(
+)
+        
+self
+.
+check_win32k_status
+(
+            
+status
+=
+ContentWin32kLockdownState
+.
+MissingRemoteWebGL
+            
+sessionStatus
+=
+ContentWin32kLockdownState
+.
+MissingRemoteWebGL
             
 experimentStatus
 =
@@ -9405,13 +9636,13 @@ status
 =
 ContentWin32kLockdownState
 .
-DisabledByDefault
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
-DisabledByDefault
+MissingRemoteWebGL
             
 experimentStatus
 =
@@ -9446,13 +9677,13 @@ status
 =
 ContentWin32kLockdownState
 .
-DisabledByDefault
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
-DisabledByDefault
+MissingRemoteWebGL
             
 experimentStatus
 =
@@ -9492,6 +9723,18 @@ return
         
 self
 .
+marionette
+.
+set_pref
+(
+Prefs
+.
+WEBGL
+False
+)
+        
+self
+.
 check_win32k_status
 (
             
@@ -9499,13 +9742,54 @@ status
 =
 ContentWin32kLockdownState
 .
-DisabledByDefault
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
 DisabledByDefault
+            
+experimentStatus
+=
+ExperimentStatus
+.
+UNENROLLED
+            
+pref
+=
+False
+            
+enrollmentStatusPref
+=
+ExperimentStatus
+.
+UNENROLLED
+        
+)
+        
+self
+.
+restart
+(
+)
+        
+self
+.
+check_win32k_status
+(
+            
+status
+=
+ContentWin32kLockdownState
+.
+MissingRemoteWebGL
+            
+sessionStatus
+=
+ContentWin32kLockdownState
+.
+MissingRemoteWebGL
             
 experimentStatus
 =
@@ -9543,13 +9827,13 @@ status
 =
 ContentWin32kLockdownState
 .
-DisabledByDefault
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
-DisabledByDefault
+MissingRemoteWebGL
             
 experimentStatus
 =
@@ -9584,13 +9868,13 @@ status
 =
 ContentWin32kLockdownState
 .
-DisabledByDefault
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
-DisabledByDefault
+MissingRemoteWebGL
             
 experimentStatus
 =
@@ -9630,6 +9914,18 @@ return
         
 self
 .
+marionette
+.
+set_pref
+(
+Prefs
+.
+WEBGL
+False
+)
+        
+self
+.
 check_win32k_status
 (
             
@@ -9637,13 +9933,54 @@ status
 =
 ContentWin32kLockdownState
 .
-DisabledByDefault
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
 DisabledByDefault
+            
+experimentStatus
+=
+ExperimentStatus
+.
+UNENROLLED
+            
+pref
+=
+False
+            
+enrollmentStatusPref
+=
+ExperimentStatus
+.
+UNENROLLED
+        
+)
+        
+self
+.
+restart
+(
+)
+        
+self
+.
+check_win32k_status
+(
+            
+status
+=
+ContentWin32kLockdownState
+.
+MissingRemoteWebGL
+            
+sessionStatus
+=
+ContentWin32kLockdownState
+.
+MissingRemoteWebGL
             
 experimentStatus
 =
@@ -9684,13 +10021,13 @@ status
 =
 ContentWin32kLockdownState
 .
-EnabledByUserPref
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
-EnabledByUserPref
+MissingRemoteWebGL
             
 experimentStatus
 =
@@ -9730,6 +10067,18 @@ return
         
 self
 .
+marionette
+.
+set_pref
+(
+Prefs
+.
+WEBGL
+False
+)
+        
+self
+.
 check_win32k_status
 (
             
@@ -9737,13 +10086,54 @@ status
 =
 ContentWin32kLockdownState
 .
-DisabledByDefault
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
 DisabledByDefault
+            
+experimentStatus
+=
+ExperimentStatus
+.
+UNENROLLED
+            
+pref
+=
+False
+            
+enrollmentStatusPref
+=
+ExperimentStatus
+.
+UNENROLLED
+        
+)
+        
+self
+.
+restart
+(
+)
+        
+self
+.
+check_win32k_status
+(
+            
+status
+=
+ContentWin32kLockdownState
+.
+MissingRemoteWebGL
+            
+sessionStatus
+=
+ContentWin32kLockdownState
+.
+MissingRemoteWebGL
             
 experimentStatus
 =
@@ -9784,13 +10174,13 @@ status
 =
 ContentWin32kLockdownState
 .
-DisabledByUserPref
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
-DisabledByUserPref
+MissingRemoteWebGL
             
 experimentStatus
 =
@@ -9830,6 +10220,18 @@ return
         
 self
 .
+marionette
+.
+set_pref
+(
+Prefs
+.
+WEBGL
+False
+)
+        
+self
+.
 check_win32k_status
 (
             
@@ -9837,13 +10239,54 @@ status
 =
 ContentWin32kLockdownState
 .
-EnabledByDefault
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
 EnabledByDefault
+            
+experimentStatus
+=
+ExperimentStatus
+.
+UNENROLLED
+            
+pref
+=
+True
+            
+enrollmentStatusPref
+=
+ExperimentStatus
+.
+UNENROLLED
+        
+)
+        
+self
+.
+restart
+(
+)
+        
+self
+.
+check_win32k_status
+(
+            
+status
+=
+ContentWin32kLockdownState
+.
+MissingRemoteWebGL
+            
+sessionStatus
+=
+ContentWin32kLockdownState
+.
+MissingRemoteWebGL
             
 experimentStatus
 =
@@ -9881,13 +10324,13 @@ status
 =
 ContentWin32kLockdownState
 .
-EnabledByDefault
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
-EnabledByDefault
+MissingRemoteWebGL
             
 experimentStatus
 =
@@ -9922,19 +10365,19 @@ status
 =
 ContentWin32kLockdownState
 .
-DisabledByControlGroup
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
-DisabledByControlGroup
+MissingRemoteWebGL
             
 experimentStatus
 =
 ExperimentStatus
 .
-ENROLLED_CONTROL
+DISQUALIFIED
             
 pref
 =
@@ -9944,7 +10387,7 @@ enrollmentStatusPref
 =
 ExperimentStatus
 .
-ENROLLED_CONTROL
+DISQUALIFIED
         
 )
     
@@ -9968,6 +10411,18 @@ return
         
 self
 .
+marionette
+.
+set_pref
+(
+Prefs
+.
+WEBGL
+False
+)
+        
+self
+.
 check_win32k_status
 (
             
@@ -9975,13 +10430,54 @@ status
 =
 ContentWin32kLockdownState
 .
-EnabledByDefault
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
 EnabledByDefault
+            
+experimentStatus
+=
+ExperimentStatus
+.
+UNENROLLED
+            
+pref
+=
+True
+            
+enrollmentStatusPref
+=
+ExperimentStatus
+.
+UNENROLLED
+        
+)
+        
+self
+.
+restart
+(
+)
+        
+self
+.
+check_win32k_status
+(
+            
+status
+=
+ContentWin32kLockdownState
+.
+MissingRemoteWebGL
+            
+sessionStatus
+=
+ContentWin32kLockdownState
+.
+MissingRemoteWebGL
             
 experimentStatus
 =
@@ -10019,13 +10515,13 @@ status
 =
 ContentWin32kLockdownState
 .
-EnabledByDefault
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
-EnabledByDefault
+MissingRemoteWebGL
             
 experimentStatus
 =
@@ -10060,19 +10556,19 @@ status
 =
 ContentWin32kLockdownState
 .
-EnabledByTreatmentGroup
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
-EnabledByTreatmentGroup
+MissingRemoteWebGL
             
 experimentStatus
 =
 ExperimentStatus
 .
-ENROLLED_TREATMENT
+DISQUALIFIED
             
 pref
 =
@@ -10082,7 +10578,7 @@ enrollmentStatusPref
 =
 ExperimentStatus
 .
-ENROLLED_TREATMENT
+DISQUALIFIED
         
 )
     
@@ -10106,6 +10602,18 @@ return
         
 self
 .
+marionette
+.
+set_pref
+(
+Prefs
+.
+WEBGL
+False
+)
+        
+self
+.
 check_win32k_status
 (
             
@@ -10113,13 +10621,54 @@ status
 =
 ContentWin32kLockdownState
 .
-EnabledByDefault
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
 EnabledByDefault
+            
+experimentStatus
+=
+ExperimentStatus
+.
+UNENROLLED
+            
+pref
+=
+True
+            
+enrollmentStatusPref
+=
+ExperimentStatus
+.
+UNENROLLED
+        
+)
+        
+self
+.
+restart
+(
+)
+        
+self
+.
+check_win32k_status
+(
+            
+status
+=
+ContentWin32kLockdownState
+.
+MissingRemoteWebGL
+            
+sessionStatus
+=
+ContentWin32kLockdownState
+.
+MissingRemoteWebGL
             
 experimentStatus
 =
@@ -10160,13 +10709,13 @@ status
 =
 ContentWin32kLockdownState
 .
-EnabledByDefault
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
-EnabledByDefault
+MissingRemoteWebGL
             
 experimentStatus
 =
@@ -10206,6 +10755,18 @@ return
         
 self
 .
+marionette
+.
+set_pref
+(
+Prefs
+.
+WEBGL
+False
+)
+        
+self
+.
 check_win32k_status
 (
             
@@ -10213,13 +10774,54 @@ status
 =
 ContentWin32kLockdownState
 .
-EnabledByDefault
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
 EnabledByDefault
+            
+experimentStatus
+=
+ExperimentStatus
+.
+UNENROLLED
+            
+pref
+=
+True
+            
+enrollmentStatusPref
+=
+ExperimentStatus
+.
+UNENROLLED
+        
+)
+        
+self
+.
+restart
+(
+)
+        
+self
+.
+check_win32k_status
+(
+            
+status
+=
+ContentWin32kLockdownState
+.
+MissingRemoteWebGL
+            
+sessionStatus
+=
+ContentWin32kLockdownState
+.
+MissingRemoteWebGL
             
 experimentStatus
 =
@@ -10260,13 +10862,13 @@ status
 =
 ContentWin32kLockdownState
 .
-DisabledByUserPref
+MissingRemoteWebGL
             
 sessionStatus
 =
 ContentWin32kLockdownState
 .
-EnabledByDefault
+MissingRemoteWebGL
             
 experimentStatus
 =

@@ -922,6 +922,15 @@ WebGLChild
 >
 outOfProcess
 ;
+std
+:
+:
+unique_ptr
+<
+HostWebGLContext
+>
+inProcess
+;
 webgl
 :
 :
