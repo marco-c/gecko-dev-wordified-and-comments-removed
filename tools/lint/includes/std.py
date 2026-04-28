@@ -3022,10 +3022,6 @@ remove
 "
         
 "
-rename
-"
-        
-"
 rewind
 "
         
