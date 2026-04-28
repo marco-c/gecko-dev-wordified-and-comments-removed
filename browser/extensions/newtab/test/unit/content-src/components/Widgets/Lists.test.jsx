@@ -5385,6 +5385,11 @@ handleUserInteraction
 {
 handleUserInteraction
 }
+widgetsMayBeMaximized
+=
+{
+true
+}
 /
 >
 <
@@ -5565,6 +5570,11 @@ handleUserInteraction
 =
 {
 handleUserInteraction
+}
+widgetsMayBeMaximized
+=
+{
+true
 }
 /
 >
@@ -5755,6 +5765,11 @@ handleUserInteraction
 =
 {
 handleUserInteraction
+}
+widgetsMayBeMaximized
+=
+{
+true
 }
 /
 >

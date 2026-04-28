@@ -5739,7 +5739,7 @@ handleUserInteraction
 widgetsMayBeMaximized
 =
 {
-false
+true
 }
 /
 >
@@ -6024,7 +6024,7 @@ handleUserInteraction
 widgetsMayBeMaximized
 =
 {
-false
+true
 }
 /
 >
@@ -6227,7 +6227,7 @@ handleUserInteraction
 widgetsMayBeMaximized
 =
 {
-false
+true
 }
 /
 >
