@@ -26580,3 +26580,15 @@ enabled
 true
 )
 ;
+pref
+(
+"
+distribution
+.
+mozillaonline
+.
+ignore
+"
+false
+)
+;
