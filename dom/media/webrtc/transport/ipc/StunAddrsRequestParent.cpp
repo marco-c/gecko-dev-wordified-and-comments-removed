@@ -231,13 +231,9 @@ StunAddrsRequestParent
 StunAddrsRequestParent
 (
 )
-{
-ASSERT_ON_THREAD
-(
-mMainThread
-)
+=
+default
 ;
-}
 mozilla
 :
 :
