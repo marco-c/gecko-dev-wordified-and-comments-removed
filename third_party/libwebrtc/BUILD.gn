@@ -3421,6 +3421,13 @@ builtin_audio_processing_builder
 "
 api
 /
+video
+:
+builtin_video_bitrate_allocator_factory
+"
+"
+api
+/
 environment
 :
 environment_factory
