@@ -1,4 +1,13 @@
 #
+ifndef
+HB_OT_CFF2_TABLE_CC
+#
+define
+HB_OT_CFF2_TABLE_CC
+#
+ifdef
+HB_OT_CFF2_TABLE_CC
+#
 include
 "
 hb
@@ -1284,5 +1293,9 @@ return
 true
 ;
 }
+#
+endif
+#
+endif
 #
 endif

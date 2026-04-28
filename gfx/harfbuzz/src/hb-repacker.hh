@@ -1577,6 +1577,11 @@ round
 =
 0
 ;
+unsigned
+total_iterations
+=
+0
+;
 hb_vector_t
 <
 graph
@@ -1610,6 +1615,11 @@ overflows
 round
 <
 max_rounds
+&
+&
+total_iterations
+<
+HB_REPACKER_MAX_ITERATIONS
 )
 {
 DEBUG_MSG
@@ -1637,6 +1647,10 @@ print_overflows
 sorted_graph
 overflows
 )
+;
+total_iterations
++
++
 ;
 hb_set_t
 priority_bumped_parents

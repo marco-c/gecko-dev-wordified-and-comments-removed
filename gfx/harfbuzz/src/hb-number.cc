@@ -1,4 +1,13 @@
 #
+ifndef
+HB_NUMBER_CC
+#
+define
+HB_NUMBER_CC
+#
+ifdef
+HB_NUMBER_CC
+#
 include
 "
 hb
@@ -348,3 +357,7 @@ end
 pend
 ;
 }
+#
+endif
+#
+endif

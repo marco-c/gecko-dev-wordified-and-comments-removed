@@ -2148,14 +2148,6 @@ pair_pos_prime_id
 false
 )
 ;
-graph
-.
-duplicate
-(
-pair_pos_prime_id
-class_def_2_id
-)
-;
 return
 pair_pos_prime_id
 ;

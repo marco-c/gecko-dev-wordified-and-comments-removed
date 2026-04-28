@@ -2421,14 +2421,6 @@ prime_id
 base_coverage_id
 )
 ;
-graph
-.
-duplicate
-(
-prime_id
-base_coverage_id
-)
-;
 auto
 mark_coverage
 =

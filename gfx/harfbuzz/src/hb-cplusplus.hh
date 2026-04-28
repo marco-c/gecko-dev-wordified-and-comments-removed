@@ -1155,8 +1155,16 @@ nullptr
 #
 endif
 #
-undef
+ifdef
+HB_GPU_H
 HB_DEFINE_VTABLE
+(
+gpu_draw
+nullptr
+)
+;
+#
+endif
 }
 namespace
 std

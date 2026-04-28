@@ -464,9 +464,8 @@ overflows
 overflows
 -
 >
-resize
+clear
 (
-0
 )
 ;
 graph

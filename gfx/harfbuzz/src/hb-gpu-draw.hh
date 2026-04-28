@@ -331,17 +331,6 @@ recycled_blob
 =
 nullptr
 ;
-~
-hb_gpu_draw_t
-(
-)
-{
-hb_blob_destroy
-(
-recycled_blob
-)
-;
-}
 HB_INTERNAL
 void
 acc_move_to

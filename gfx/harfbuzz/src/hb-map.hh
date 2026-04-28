@@ -2176,11 +2176,12 @@ clear
 {
 if
 (
-unlikely
-(
 !
-successful
-)
+population
+&
+&
+!
+occupancy
 )
 return
 ;
