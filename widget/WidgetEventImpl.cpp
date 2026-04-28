@@ -760,6 +760,14 @@ NS_EVENT_CLASS
 #
 undef
 NS_ROOT_EVENT_CLASS
+case
+eEventClassUninitialized
+:
+return
+"
+eEventClassUninitialized
+"
+;
 default
 :
 return
