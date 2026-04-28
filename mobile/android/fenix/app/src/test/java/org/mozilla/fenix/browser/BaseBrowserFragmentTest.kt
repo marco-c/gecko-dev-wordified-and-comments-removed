@@ -331,7 +331,7 @@ components
 .
 toolbar
 .
-BrowserToolbarView
+FenixBrowserToolbarView
 import
 org
 .
@@ -3709,7 +3709,7 @@ browserToolbarView
 =
 mockk
 <
-BrowserToolbarView
+FenixBrowserToolbarView
 >
 (
 relaxed
@@ -3932,7 +3932,7 @@ browserToolbarView
 =
 mockk
 <
-BrowserToolbarView
+FenixBrowserToolbarView
 >
 (
 relaxed
@@ -4085,7 +4085,7 @@ browserToolbarView
 =
 mockk
 <
-BrowserToolbarView
+FenixBrowserToolbarView
 >
 (
 relaxed

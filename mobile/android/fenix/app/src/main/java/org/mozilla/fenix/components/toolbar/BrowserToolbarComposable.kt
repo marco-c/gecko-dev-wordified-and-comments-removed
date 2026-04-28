@@ -463,7 +463,7 @@ framework
 as
 the
 [
-BrowserToolbarView
+FenixBrowserToolbarView
 ]
 *
 *
