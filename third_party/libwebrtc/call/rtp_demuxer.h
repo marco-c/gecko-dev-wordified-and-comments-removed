@@ -596,6 +596,12 @@ sink_by_rsid_
 ;
 flat_set
 <
+uint32_t
+>
+signaled_ssrcs_
+;
+flat_set
+<
 std
 :
 :
