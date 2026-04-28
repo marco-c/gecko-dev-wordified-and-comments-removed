@@ -112,6 +112,13 @@ MATCH_ALL
 {
 while
 (
+aPatternItr
+!
+=
+aPatternEnd
+&
+&
+(
 *
 aPatternItr
 =
@@ -124,6 +131,7 @@ aPatternItr
 =
 =
 MATCH_ONE
+)
 )
 {
 if
@@ -255,6 +263,12 @@ else
 {
 if
 (
+aStringItr
+=
+=
+aStringEnd
+|
+|
 :
 :
 ToUpperCase
