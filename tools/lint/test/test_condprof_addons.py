@@ -22,6 +22,19 @@ condprof
 addons
 "
 def
+_get_linter_module
+(
+)
+:
+    
+return
+importlib
+.
+import_module
+(
+LINTER
+)
+def
 linter_module_mocks
 (
     
@@ -51,7 +64,9 @@ patch
 multiple
 (
         
-LINTER
+_get_linter_module
+(
+)
         
 CUSTOMIZATIONS_PATH
 =
@@ -89,14 +104,11 @@ patch
 multiple
 (
         
-f
-"
-{
-LINTER
-}
+_get_linter_module
+(
+)
 .
 CondprofAddonsLinter
-"
         
 *
 *
@@ -110,19 +122,6 @@ lint
 paths
 )
 :
-    
-condprof_addons
-=
-importlib
-.
-import_module
-(
-"
-condprof
--
-addons
-"
-)
     
 with
 linter_class_mocks
@@ -146,7 +145,9 @@ list
         
 instance
 =
-condprof_addons
+_get_linter_module
+(
+)
 .
 CondprofAddonsLinter
 (
@@ -290,17 +291,6 @@ path
 "
 ]
         
-)
-        
-importlib
-.
-import_module
-(
-"
-condprof
--
-addons
-"
 )
         
 assert
@@ -601,19 +591,6 @@ json
 "
 )
         
-condprof_addons
-=
-importlib
-.
-import_module
-(
-"
-condprof
--
-addons
-"
-)
-        
 def
 assert_linter_error
 (
@@ -654,7 +631,9 @@ call_count
             
 expected_path
 =
-condprof_addons
+_get_linter_module
+(
+)
 .
 BROWSERTIME_FETCHES_PATH
             
@@ -698,9 +677,12 @@ yaml_mock_value
 dict
 (
 )
+            
 expected_msg
 =
-condprof_addons
+_get_linter_module
+(
+)
 .
 ERR_FETCH_TASK_MISSING
         
@@ -724,7 +706,9 @@ addons
             
 expected_msg
 =
-condprof_addons
+_get_linter_module
+(
+)
 .
 ERR_FETCH_TASK_MISSING
         
@@ -754,7 +738,9 @@ fetch
             
 expected_msg
 =
-condprof_addons
+_get_linter_module
+(
+)
 .
 ERR_FETCH_TASK_ADDPREFIX
         
@@ -800,7 +786,9 @@ name
             
 expected_msg
 =
-condprof_addons
+_get_linter_module
+(
+)
 .
 ERR_FETCH_TASK_ADDPREFIX
         
@@ -839,19 +827,6 @@ dir
 )
 :
         
-condprof_addons
-=
-importlib
-.
-import_module
-(
-"
-condprof
--
-addons
-"
-)
-        
 logger_mock
 =
 mock
@@ -877,7 +852,9 @@ yml
         
 linter
 =
-condprof_addons
+_get_linter_module
+(
+)
 .
 CondprofAddonsLinter
 (
@@ -1020,19 +997,6 @@ download_firefox_addons_tar_mock
 )
 :
         
-condprof_addons
-=
-importlib
-.
-import_module
-(
-"
-condprof
--
-addons
-"
-)
-        
 logger_mock
 =
 mock
@@ -1058,7 +1022,9 @@ yml
         
 linter
 =
-condprof_addons
+_get_linter_module
+(
+)
 .
 CondprofAddonsLinter
 (
@@ -1173,19 +1139,6 @@ tempdir
 )
 :
         
-condprof_addons
-=
-importlib
-.
-import_module
-(
-"
-condprof
--
-addons
-"
-)
-        
 logger_mock
 =
 mock
@@ -1244,7 +1197,9 @@ yml
         
 linter
 =
-condprof_addons
+_get_linter_module
+(
+)
 .
 CondprofAddonsLinter
 (
@@ -1281,7 +1236,9 @@ path
             
 =
 =
-condprof_addons
+_get_linter_module
+(
+)
 .
 BROWSERTIME_FETCHES_PATH
         
@@ -1306,7 +1263,9 @@ args
 f
 "
 {
-condprof_addons
+_get_linter_module
+(
+)
 .
 ERR_FETCH_TASK_ARCHIVE
 }
@@ -1372,19 +1331,6 @@ tempdir
     
 )
 :
-        
-condprof_addons
-=
-importlib
-.
-import_module
-(
-"
-condprof
--
-addons
-"
-)
         
 logger_mock
 =
@@ -1467,7 +1413,9 @@ yml
         
 linter
 =
-condprof_addons
+_get_linter_module
+(
+)
 .
 CondprofAddonsLinter
 (
@@ -1504,7 +1452,9 @@ path
             
 =
 =
-condprof_addons
+_get_linter_module
+(
+)
 .
 BROWSERTIME_FETCHES_PATH
         
@@ -1544,7 +1494,9 @@ startswith
 f
 "
 {
-condprof_addons
+_get_linter_module
+(
+)
 .
 ERR_FETCH_TASK_ARCHIVE
 }
@@ -1683,17 +1635,6 @@ mock
 .
 Mock
 (
-)
-        
-importlib
-.
-import_module
-(
-"
-condprof
--
-addons
-"
 )
         
 lint
