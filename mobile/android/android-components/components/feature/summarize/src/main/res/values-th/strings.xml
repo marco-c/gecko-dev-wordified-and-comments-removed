@@ -195,7 +195,6 @@ mozac_summarize_shake_consent_off_device_message
 %
 1
 s
-.
 <
 /
 string
@@ -371,7 +370,6 @@ mozac_summarize_shake_consent_on_device_message
 >
 %
 s
-.
 <
 /
 string
@@ -515,7 +513,6 @@ mozac_summarize_download_nano_consent_message
 >
 %
 s
-.
 <
 /
 string
@@ -645,7 +642,6 @@ name
 mozac_summarize_download_progress_message
 "
 >
-.
 <
 /
 string
@@ -698,11 +694,13 @@ mozac_summarize_download_progress_caption
 1
 .
 2f
+MB
 /
 %
 2
 .
 2f
+MB
 <
 /
 string
@@ -925,7 +923,6 @@ name
 mozac_summarize_info_error_message
 "
 >
-.
 <
 /
 string
@@ -1109,8 +1106,7 @@ name
 mozac_summarize_settings_summarize_pages_cloud
 "
 >
-.
-.
+AI
 <
 /
 string
@@ -1220,7 +1216,6 @@ name
 mozac_summarize_settings_shake_to_summarize_description
 "
 >
-.
 <
 /
 string
@@ -1282,6 +1277,7 @@ name
 mozac_feature_summarize_disclaimer_message
 "
 >
+AI
 <
 /
 string
@@ -1336,7 +1332,6 @@ name
 mozac_ai_controls_page_summary_description
 "
 >
-.
 <
 /
 string
