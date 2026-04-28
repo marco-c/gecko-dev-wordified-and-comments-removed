@@ -77,6 +77,7 @@ panelWin
 .
 document
 ;
+await
 selectPage
 (
 panel
