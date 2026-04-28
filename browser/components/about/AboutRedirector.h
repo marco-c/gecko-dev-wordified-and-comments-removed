@@ -30,8 +30,9 @@ NS_DECL_NSIABOUTMODULE
 AboutRedirector
 (
 )
-{
-}
+=
+default
+;
 static
 nsresult
 Create
@@ -51,8 +52,9 @@ virtual
 AboutRedirector
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

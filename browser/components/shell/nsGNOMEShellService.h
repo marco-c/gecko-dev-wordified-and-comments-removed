@@ -75,8 +75,9 @@ private
 nsGNOMEShellService
 (
 )
-{
-}
+=
+default
+;
 bool
 KeyMatchesAppName
 (
