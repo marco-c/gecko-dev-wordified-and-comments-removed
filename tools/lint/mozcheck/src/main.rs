@@ -18,7 +18,7 @@ mod
 file_whitespace
 ;
 mod
-output
+license
 ;
 mod
 pathutil
