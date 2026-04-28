@@ -5408,6 +5408,17 @@ raptor
 /
 browsertime
 /
+speedometer3_simpleperf
+.
+js
+"
+"
+testing
+/
+raptor
+/
+browsertime
+/
 throttled_pageload
 .
 js
