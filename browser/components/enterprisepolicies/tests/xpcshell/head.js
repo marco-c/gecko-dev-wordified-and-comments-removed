@@ -788,16 +788,9 @@ admin
 ;
 equal
 (
-Services
-.
-policies
-.
-isAddonRequiredByPolicy
-(
 addon
 .
-id
-)
+isInstalledByEnterprisePolicy
 expectInstalledByPolicy
 Addon
 should
