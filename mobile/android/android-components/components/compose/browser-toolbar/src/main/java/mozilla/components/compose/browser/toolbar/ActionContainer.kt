@@ -822,6 +822,11 @@ icon
 action
 .
 icon
+overlayIcon
+=
+action
+.
+overlayIcon
 text
 =
 action
@@ -832,6 +837,11 @@ contentDescription
 action
 .
 contentDescription
+highlighted
+=
+action
+.
+highlighted
 onClick
 =
 action
