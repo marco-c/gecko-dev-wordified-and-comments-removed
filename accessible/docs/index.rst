@@ -134,6 +134,7 @@ toctree
 maxdepth
 :
 1
+GuidelinesForNewContributors
 Architecture
 DocumentAccessibilityLifecycle
 GeckoViewThreadTopography
