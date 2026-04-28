@@ -775,10 +775,13 @@ nullptr
 void
 profiler_received_exit_profile
 (
-const
-nsACString
+mozilla
+:
+:
+ProfileAndAdditionalInformation
 &
-aExitProfile
+&
+aExitProfileAndAdditionalInfo
 )
 ;
 mozilla

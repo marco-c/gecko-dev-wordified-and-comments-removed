@@ -145,11 +145,6 @@ include
 <
 cstdint
 >
-#
-include
-<
-functional
->
 class
 ProfilerCodeAddressService
 ;
@@ -634,7 +629,10 @@ mozilla
 :
 Vector
 <
-nsCString
+mozilla
+:
+:
+ProfileAndAdditionalInformation
 >
 profiler_move_exit_profiles
 (
