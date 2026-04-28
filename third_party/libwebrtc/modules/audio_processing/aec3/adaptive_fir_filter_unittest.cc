@@ -366,9 +366,6 @@ namespace
 webrtc
 {
 namespace
-aec3
-{
-namespace
 {
 std
 :
@@ -1355,7 +1352,7 @@ ch
 }
 }
 }
-ComputeFrequencyResponse
+ComputeFrequencyResponse_C
 (
 num_partitions
 H
@@ -2949,7 +2946,7 @@ ch
 }
 }
 }
-ComputeFrequencyResponse
+ComputeFrequencyResponse_C
 (
 num_partitions
 H
@@ -3252,7 +3249,7 @@ ch
 }
 }
 }
-ComputeFrequencyResponse
+ComputeFrequencyResponse_C
 (
 num_partitions
 H
@@ -5071,7 +5068,6 @@ f
 )
 )
 ;
-}
 }
 }
 }

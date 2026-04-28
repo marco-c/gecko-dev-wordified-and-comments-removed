@@ -59,9 +59,6 @@ ApmDataDumper
 struct
 DownsampledRenderBuffer
 ;
-namespace
-aec3
-{
 #
 if
 defined
@@ -328,7 +325,6 @@ float
 h
 )
 ;
-}
 class
 MatchedFilter
 {

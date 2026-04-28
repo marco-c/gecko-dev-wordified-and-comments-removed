@@ -40,9 +40,6 @@ h
 namespace
 webrtc
 {
-namespace
-aec3
-{
 void
 VectorMath
 :
@@ -495,7 +492,6 @@ x
 j
 ]
 ;
-}
 }
 }
 }

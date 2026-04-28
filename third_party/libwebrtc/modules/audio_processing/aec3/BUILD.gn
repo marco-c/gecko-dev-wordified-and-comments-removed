@@ -447,12 +447,12 @@ matched_filter_lag_aggregator
 h
 "
 "
-moving_average
+moving_average_spectrum
 .
 cc
 "
 "
-moving_average
+moving_average_spectrum
 .
 h
 "
@@ -2265,7 +2265,7 @@ matched_filter_unittest
 cc
 "
 "
-moving_average_unittest
+moving_average_spectrum_unittest
 .
 cc
 "

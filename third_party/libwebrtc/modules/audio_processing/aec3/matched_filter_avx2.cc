@@ -45,9 +45,6 @@ h
 namespace
 webrtc
 {
-namespace
-aec3
-{
 inline
 __m128
 hsum_ab
@@ -1632,7 +1629,6 @@ x_size
 -
 1
 ;
-}
 }
 }
 }

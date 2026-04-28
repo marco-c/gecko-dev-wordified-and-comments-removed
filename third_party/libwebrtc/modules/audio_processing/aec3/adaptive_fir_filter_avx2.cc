@@ -96,9 +96,6 @@ h
 namespace
 webrtc
 {
-namespace
-aec3
-{
 void
 ComputeFrequencyResponse_Avx2
 (
@@ -1617,6 +1614,5 @@ p
 lim2
 )
 ;
-}
 }
 }

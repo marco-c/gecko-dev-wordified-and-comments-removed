@@ -180,9 +180,6 @@ false
 ;
 }
 ;
-namespace
-aec3
-{
 void
 UpdateDbMetric
 (
@@ -229,7 +226,6 @@ float
 value
 )
 ;
-}
 }
 #
 endif

@@ -87,9 +87,6 @@ h
 namespace
 webrtc
 {
-namespace
-aec3
-{
 #
 if
 defined
@@ -148,7 +145,6 @@ FftData
 upper_band_noise
 )
 ;
-}
 class
 ComfortNoiseGenerator
 {

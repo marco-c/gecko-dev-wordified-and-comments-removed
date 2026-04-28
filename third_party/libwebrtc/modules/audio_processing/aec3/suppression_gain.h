@@ -98,7 +98,7 @@ audio_processing
 /
 aec3
 /
-moving_average
+moving_average_spectrum
 .
 h
 "
@@ -754,10 +754,7 @@ std
 :
 vector
 <
-aec3
-:
-:
-MovingAverage
+MovingAverageSpectrum
 >
 nearend_smoothers_
 ;

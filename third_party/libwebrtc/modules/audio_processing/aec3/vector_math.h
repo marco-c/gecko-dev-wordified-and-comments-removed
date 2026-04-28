@@ -90,9 +90,6 @@ endif
 namespace
 webrtc
 {
-namespace
-aec3
-{
 class
 VectorMath
 {
@@ -1341,7 +1338,6 @@ optimization_
 ;
 }
 ;
-}
 }
 #
 endif

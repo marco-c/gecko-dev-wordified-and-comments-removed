@@ -766,9 +766,6 @@ i
 ]
 ;
 }
-aec3
-:
-:
 VectorMath
 (
 optimization_

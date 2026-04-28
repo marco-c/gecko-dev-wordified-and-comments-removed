@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_AUDIO_PROCESSING_AEC3_MOVING_AVERAGE_H_
+MODULES_AUDIO_PROCESSING_AEC3_MOVING_AVERAGE_SPECTRUM_H_
 #
 define
-MODULES_AUDIO_PROCESSING_AEC3_MOVING_AVERAGE_H_
+MODULES_AUDIO_PROCESSING_AEC3_MOVING_AVERAGE_SPECTRUM_H_
 #
 include
 <
@@ -24,15 +24,12 @@ vector
 namespace
 webrtc
 {
-namespace
-aec3
-{
 class
-MovingAverage
+MovingAverageSpectrum
 {
 public
 :
-MovingAverage
+MovingAverageSpectrum
 (
 size_t
 num_elem
@@ -41,7 +38,7 @@ mem_len
 )
 ;
 ~
-MovingAverage
+MovingAverageSpectrum
 (
 )
 ;
@@ -95,7 +92,6 @@ mem_index_
 ;
 }
 ;
-}
 }
 #
 endif

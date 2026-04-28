@@ -377,9 +377,6 @@ alignment_shift_winner
 ;
 }
 }
-namespace
-aec3
-{
 #
 if
 defined
@@ -3979,7 +3976,6 @@ return
 lag_estimate1
 ;
 }
-}
 MatchedFilter
 :
 :
@@ -4541,9 +4537,6 @@ Aec3Optimization
 :
 kSse2
 :
-aec3
-:
-:
 MatchedFilterCore_SSE2
 (
 x_start_index
@@ -4573,9 +4566,6 @@ Aec3Optimization
 :
 :
 kAvx2
-:
-aec3
-:
 :
 MatchedFilterCore_AVX2
 (
@@ -4615,9 +4605,6 @@ Aec3Optimization
 :
 kNeon
 :
-aec3
-:
-:
 MatchedFilterCore_NEON
 (
 x_start_index
@@ -4646,9 +4633,6 @@ break
 endif
 default
 :
-aec3
-:
-:
 MatchedFilterCore
 (
 x_start_index
@@ -4675,9 +4659,6 @@ const
 size_t
 lag_estimate
 =
-aec3
-:
-:
 MaxSquarePeakIndex
 (
 filters_
@@ -5155,9 +5136,6 @@ const
 size_t
 lag_estimate
 =
-aec3
-:
-:
 MaxSquarePeakIndex
 (
 filters_

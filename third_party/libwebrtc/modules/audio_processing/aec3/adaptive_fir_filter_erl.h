@@ -53,9 +53,6 @@ h
 namespace
 webrtc
 {
-namespace
-aec3
-{
 void
 ErlComputer
 (
@@ -192,7 +189,6 @@ erl
 ;
 #
 endif
-}
 void
 ComputeErl
 (

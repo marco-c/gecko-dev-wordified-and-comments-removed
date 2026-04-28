@@ -59,9 +59,6 @@ h
 namespace
 webrtc
 {
-namespace
-aec3
-{
 void
 ErlComputer_AVX2
 (
@@ -193,7 +190,6 @@ H2_j
 kFftLengthBy2
 ]
 ;
-}
 }
 }
 }

@@ -161,9 +161,6 @@ f
 ;
 EXPECT_DEATH
 (
-aec3
-:
-:
 UpdateDbMetric
 (
 value
@@ -285,9 +282,6 @@ begin
 kValue1
 )
 ;
-aec3
-:
-:
 UpdateDbMetric
 (
 value
@@ -361,9 +355,6 @@ statistic
 floor_value
 )
 ;
-aec3
-:
-:
 UpdateDbMetric
 (
 value
@@ -559,9 +550,6 @@ int
 .
 3f
 )
-aec3
-:
-:
 TransformDbMetricForReporting
 (
 true
@@ -598,9 +586,6 @@ Limits
 EXPECT_EQ
 (
 0
-aec3
-:
-:
 TransformDbMetricForReporting
 (
 false
@@ -625,9 +610,6 @@ f
 EXPECT_EQ
 (
 10
-aec3
-:
-:
 TransformDbMetricForReporting
 (
 false
@@ -659,9 +641,6 @@ Negate
 EXPECT_EQ
 (
 10
-aec3
-:
-:
 TransformDbMetricForReporting
 (
 true
@@ -688,9 +667,6 @@ EXPECT_EQ
 (
 -
 10
-aec3
-:
-:
 TransformDbMetricForReporting
 (
 true

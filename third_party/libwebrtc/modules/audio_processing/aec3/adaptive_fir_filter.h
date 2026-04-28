@@ -111,11 +111,8 @@ h
 namespace
 webrtc
 {
-namespace
-aec3
-{
 void
-ComputeFrequencyResponse
+ComputeFrequencyResponse_C
 (
 size_t
 num_partitions
@@ -558,7 +555,6 @@ S
 ;
 #
 endif
-}
 class
 AdaptiveFirFilter
 {

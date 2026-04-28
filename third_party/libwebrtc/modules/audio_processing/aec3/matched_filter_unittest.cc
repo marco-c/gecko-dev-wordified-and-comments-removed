@@ -233,9 +233,6 @@ namespace
 webrtc
 {
 namespace
-aec3
-{
-namespace
 {
 std
 :
@@ -3549,5 +3546,4 @@ false
 ;
 #
 endif
-}
 }

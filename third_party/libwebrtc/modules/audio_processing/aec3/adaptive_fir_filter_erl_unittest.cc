@@ -86,9 +86,6 @@ endif
 namespace
 webrtc
 {
-namespace
-aec3
-{
 #
 if
 defined
@@ -625,5 +622,4 @@ j
 }
 #
 endif
-}
 }
