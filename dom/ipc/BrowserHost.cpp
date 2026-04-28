@@ -231,7 +231,7 @@ bool
 BrowserHost
 :
 :
-CanRecv
+CanSend
 (
 )
 const
@@ -243,7 +243,7 @@ mRoot
 mRoot
 -
 >
-CanRecv
+CanSend
 (
 )
 ;

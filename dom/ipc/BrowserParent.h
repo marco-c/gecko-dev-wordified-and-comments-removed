@@ -3962,7 +3962,7 @@ mActiveSuppressDisplayportCount
 #
 endif
 bool
-mMarkedDestroying
+mHoldingGroupKeepAlive
 :
 1
 ;

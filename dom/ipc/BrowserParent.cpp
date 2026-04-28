@@ -1825,7 +1825,7 @@ mCreatingWindow
 (
 false
 )
-mMarkedDestroying
+mHoldingGroupKeepAlive
 (
 false
 )
@@ -3869,7 +3869,7 @@ nullptr
 endif
 if
 (
-CanRecv
+CanSend
 (
 )
 )
@@ -3886,11 +3886,11 @@ AddKeepAlive
 (
 )
 ;
-}
-mMarkedDestroying
+mHoldingGroupKeepAlive
 =
 true
 ;
+}
 }
 mozilla
 :
@@ -4222,7 +4222,7 @@ false
 }
 if
 (
-mMarkedDestroying
+mHoldingGroupKeepAlive
 )
 {
 mBrowsingContext

@@ -135,7 +135,7 @@ bool
 BrowserBridgeHost
 :
 :
-CanRecv
+CanSend
 (
 )
 const
@@ -147,7 +147,7 @@ mBridge
 mBridge
 -
 >
-CanRecv
+CanSend
 (
 )
 ;

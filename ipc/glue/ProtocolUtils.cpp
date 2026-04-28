@@ -3429,7 +3429,7 @@ NotifyImpendingShutdown
 {
 if
 (
-CanRecv
+CanSend
 (
 )
 )
