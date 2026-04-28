@@ -74442,7 +74442,7 @@ UnusedResources
 "
 >
 EN
-DIRECTO
+VIVO
 <
 /
 string
@@ -74535,7 +74535,7 @@ ignore
 UnusedResources
 "
 >
-32
+16avos
 de
 final
 <
@@ -74763,9 +74763,8 @@ ignore
 UnusedResources
 "
 >
-Final
-de
-bronce
+Tercer
+puesto
 <
 /
 string
@@ -75336,9 +75335,8 @@ UnusedResources
 >
 Ver
 detalles
-de
-la
-coincidencia
+del
+partido
 <
 /
 string
@@ -75375,7 +75373,7 @@ ignore
 UnusedResources
 "
 >
-Coincidencia
+Partido
 anterior
 <
 /
@@ -75416,8 +75414,8 @@ ignore
 UnusedResources
 "
 >
-Coincidencias
-relacionadas
+Partidos
+relacionados
 <
 /
 string
@@ -75764,7 +75762,7 @@ Todav
 a
 quer
 s
-seguirnos
+seguirlo
 ?
 <
 /
@@ -75904,8 +75902,7 @@ ignore
 UnusedResources
 "
 >
-Medio
-tiempo
+Entretiempo
 <
 /
 string
@@ -75946,7 +75943,7 @@ UnusedResources
 "
 >
 Tiempo
-extra
+suplementario
 <
 /
 string
@@ -75985,7 +75982,7 @@ ignore
 UnusedResources
 "
 >
-Penalizaciones
+Penales
 <
 /
 string
