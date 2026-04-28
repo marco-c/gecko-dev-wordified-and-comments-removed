@@ -16772,7 +16772,6 @@ this
 )
 =
 >
-{
 lazy
 .
 navigate
@@ -16782,8 +16781,6 @@ navigateTo
 browsingContext
 validURL
 )
-;
-}
 {
 loadEventExpected
 }
@@ -20335,7 +20332,6 @@ this
 )
 =
 >
-{
 lazy
 .
 navigate
@@ -20344,8 +20340,6 @@ refresh
 (
 browsingContext
 )
-;
-}
 )
 ;
 }
