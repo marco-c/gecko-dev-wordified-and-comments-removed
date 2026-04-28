@@ -286,11 +286,11 @@ clickedGroup
 =
 it
 }
-onDeleteTabGroup
+onDeleteTabGroupClick
 =
 {
 }
-editTabGroupClick
+onEditTabGroupClick
 =
 {
 }
@@ -368,7 +368,7 @@ onTabGroupClick
 =
 {
 }
-onDeleteTabGroup
+onDeleteTabGroupClick
 =
 {
 deleteClicked
@@ -378,7 +378,7 @@ clickedGroup
 =
 it
 }
-editTabGroupClick
+onEditTabGroupClick
 =
 {
 }
@@ -471,11 +471,11 @@ onTabGroupClick
 =
 {
 }
-onDeleteTabGroup
+onDeleteTabGroupClick
 =
 {
 }
-editTabGroupClick
+onEditTabGroupClick
 =
 {
 editClicked

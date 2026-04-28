@@ -652,11 +652,15 @@ dragging
 tabs
 .
 }
-onDeleteTabGroup
+onDeleteTabGroupClick
 =
 {
 }
-editTabGroupClick
+onEditTabGroupClick
+=
+{
+}
+onCloseTabGroupClick
 =
 {
 }
