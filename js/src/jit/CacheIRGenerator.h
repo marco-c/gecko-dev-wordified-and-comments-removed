@@ -4230,6 +4230,11 @@ component
 )
 ;
 AttachDecision
+tryAttachDateNow
+(
+)
+;
+AttachDecision
 tryAttachWeakMapHas
 (
 )

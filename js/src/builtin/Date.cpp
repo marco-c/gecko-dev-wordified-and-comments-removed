@@ -9556,6 +9556,12 @@ if
 reducePrecisionCallback
 )
 {
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 double
 reducedPrecision
 =
@@ -20324,7 +20330,7 @@ date_parse
 1
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 now
@@ -20332,6 +20338,7 @@ now
 date_now
 0
 0
+DateNow
 )
 JS_FS_END
 }
