@@ -252,11 +252,6 @@ CustomStateSet
 h
 "
 "
-EditContext
-.
-h
-"
-"
 ElementInternals
 .
 h
@@ -628,11 +623,6 @@ cpp
 "
 "
 CustomStateSet
-.
-cpp
-"
-"
-EditContext
 .
 cpp
 "
