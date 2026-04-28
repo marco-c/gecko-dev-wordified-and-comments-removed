@@ -920,7 +920,7 @@ backend
 -
 Microsoft
 Windows
-2000
+Vista
 or
 newer
 .
