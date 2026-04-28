@@ -176,6 +176,12 @@ using
 dom
 :
 :
+SequenceRooter
+;
+using
+dom
+:
+:
 UniFFICallbackHandler
 ;
 using
