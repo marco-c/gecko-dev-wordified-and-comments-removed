@@ -7,14 +7,14 @@ CacheIndexIterator_h_
 #
 include
 "
-nsCOMPtr
+nsTArray
 .
 h
 "
 #
 include
 "
-nsTHashSet
+nsCOMPtr
 .
 h
 "
@@ -172,7 +172,7 @@ CacheIndex
 >
 mIndex
 ;
-nsTHashSet
+nsTArray
 <
 RefPtr
 <
