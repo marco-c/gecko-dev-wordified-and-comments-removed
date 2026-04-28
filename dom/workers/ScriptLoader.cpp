@@ -6116,9 +6116,6 @@ IsClassicScript
 aRequest
 -
 >
-mLoadedScript
--
->
 SetBaseURL
 (
 requestBaseURI
