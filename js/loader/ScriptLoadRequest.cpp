@@ -772,6 +772,15 @@ ScriptFetchOptions
 aFetchOptions
 )
 {
+mStencil
+=
+aLoadedScript
+-
+>
+GetStencil
+(
+)
+;
 mFetchInfo
 =
 new
