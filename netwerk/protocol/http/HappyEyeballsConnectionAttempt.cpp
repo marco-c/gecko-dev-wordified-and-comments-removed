@@ -5427,10 +5427,15 @@ connTCP
 {
 if
 (
+!
 mConnInfo
 -
 >
-IsHttp3
+GetRoutedHost
+(
+)
+.
+IsEmpty
 (
 )
 )
