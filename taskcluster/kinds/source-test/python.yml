@@ -1253,6 +1253,10 @@ node
 linux64
 -
 rust
+-
+linux64
+-
+mozcheck
 macosx1470
 -
 64
@@ -1267,6 +1271,10 @@ node
 macosx64
 -
 rust
+-
+macosx64
+-
+mozcheck
 windows11
 -
 64
@@ -1281,6 +1289,10 @@ node
 win64
 -
 rust
+-
+win64
+-
+mozcheck
 clang
 -
 tidy
