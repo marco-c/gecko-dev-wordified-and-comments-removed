@@ -6,6 +6,11 @@ define
 mozilla_dom_XMLHttpRequestMainThread_h
 #
 include
+<
+bitset
+>
+#
+include
 "
 mozilla
 /
