@@ -3896,6 +3896,12 @@ object
 ;
 this
 .
+_policies
+=
+null
+;
+this
+.
 _failed
 =
 true
