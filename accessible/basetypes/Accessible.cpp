@@ -212,7 +212,7 @@ const
 {
 static_assert
 (
-eLastAccType
+kHighestAccType
 <
 =
 (
