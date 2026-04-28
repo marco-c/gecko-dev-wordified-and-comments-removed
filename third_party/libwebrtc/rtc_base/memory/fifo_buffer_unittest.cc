@@ -36,9 +36,9 @@ h
 #
 include
 "
-rtc_base
+test
 /
-thread
+gtest
 .
 h
 "
@@ -47,7 +47,7 @@ include
 "
 test
 /
-gtest
+run_loop
 .
 h
 "
@@ -60,7 +60,10 @@ FifoBufferTest
 TestAll
 )
 {
-AutoThread
+test
+:
+:
+RunLoop
 main_thread
 ;
 const
@@ -1799,7 +1802,10 @@ FifoBufferTest
 FullBufferCheck
 )
 {
-AutoThread
+test
+:
+:
+RunLoop
 main_thread
 ;
 FifoBuffer

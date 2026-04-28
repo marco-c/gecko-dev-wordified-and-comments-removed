@@ -118,6 +118,15 @@ include
 "
 test
 /
+run_loop
+.
+h
+"
+#
+include
+"
+test
+/
 wait_until
 .
 h
@@ -1824,7 +1833,10 @@ OperationsChainTest
 OnChainEmptyCallback
 )
 {
-AutoThread
+test
+:
+:
+RunLoop
 main_thread
 ;
 OperationTrackerProxy
