@@ -71,6 +71,16 @@ TestTouchResampler
 .
 cpp
 "
+"
+TestWidgetMouseEventCtors
+.
+cpp
+"
+"
+TestWidgetTouchEventCtors
+.
+cpp
+"
 ]
 if
 CONFIG
