@@ -181,15 +181,6 @@ enabled
 False
         
 "
-captivedetect
-.
-canonicalURL
-"
-:
-"
-"
-        
-"
 datareporting
 .
 healthreport
@@ -883,6 +874,20 @@ allow_scrolling_more_than_one_page
 "
 :
 True
+        
+"
+network
+.
+captive
+-
+portal
+-
+service
+.
+enabled
+"
+:
+False
         
 "
 network
