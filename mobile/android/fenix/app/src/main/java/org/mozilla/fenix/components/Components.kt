@@ -2435,6 +2435,16 @@ hasSkippedFollowTeam
 settings
 .
 hasSkippedSportsFollowTeam
+isVisible
+=
+settings
+.
+showHomepageSportsWidget
+isFeatureEnabled
+=
+settings
+.
+enableHomepageSportsWidget
 )
 val
 fxSuggest

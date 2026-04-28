@@ -1172,9 +1172,6 @@ true
 trackersBlockedCount
 =
 754
-showSportsWidget
-=
-false
 sportsWidgetState
 =
 SportsWidgetState
