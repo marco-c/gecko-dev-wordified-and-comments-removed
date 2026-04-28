@@ -116,6 +116,15 @@ button
 "
 const
 val
+POCKET_STORIES
+=
+"
+pocket
+.
+stories
+"
+const
+val
 HOMEPAGE_STORY
 =
 "
