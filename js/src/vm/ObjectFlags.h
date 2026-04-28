@@ -137,6 +137,12 @@ HasNonFunctionAccessor
 <
 <
 17
+LegacyFeaturesDisabled
+=
+1
+<
+<
+18
 }
 ;
 using
