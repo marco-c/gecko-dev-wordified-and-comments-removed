@@ -64,11 +64,6 @@ styles
 CompiledModules
 (
 "
-CloseButton
-.
-js
-"
-"
 CommandBarButton
 .
 js
