@@ -1692,6 +1692,11 @@ mHasFatalError
 =
 false
 ;
+bool
+mIsEngineReady
+=
+false
+;
 }
 ;
 class
