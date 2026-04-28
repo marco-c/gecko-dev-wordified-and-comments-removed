@@ -25,8 +25,8 @@ public
 nsOSHelperAppServiceChild
 (
 )
-{
-}
+=
+default
 ;
 virtual
 ~

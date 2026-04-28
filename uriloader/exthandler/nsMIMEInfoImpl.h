@@ -664,8 +664,9 @@ virtual
 nsMIMEInfoImpl
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHOD
 GetHasDefaultHandler
 (

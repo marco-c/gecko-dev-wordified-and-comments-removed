@@ -32,8 +32,9 @@ NS_DECL_NSIDBUSHANDLERAPP
 nsDBusHandlerApp
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 virtual
@@ -41,8 +42,9 @@ virtual
 nsDBusHandlerApp
 (
 )
-{
-}
+=
+default
+;
 nsString
 mName
 ;

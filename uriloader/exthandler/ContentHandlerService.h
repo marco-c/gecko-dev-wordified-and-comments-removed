@@ -146,8 +146,9 @@ virtual
 RemoteHandlerApp
 (
 )
-{
-}
+=
+default
+;
 HandlerApp
 mAppChild
 ;

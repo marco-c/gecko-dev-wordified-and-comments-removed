@@ -369,8 +369,9 @@ private
 nsPrefetchNode
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 nsPrefetchService
