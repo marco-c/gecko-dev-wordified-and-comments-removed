@@ -942,6 +942,7 @@ gen_writer_method
 name
 args
 custom_writer
+inlining_candidate
 )
 :
     
@@ -1168,6 +1169,27 @@ join
 method_args
 )
 )
+    
+if
+inlining_candidate
+:
+        
+code
++
+=
+"
+trialInliningState_
+=
+TrialInliningState
+:
+:
+Candidate
+;
+\
+\
+\
+n
+"
     
 code
 +
@@ -3396,6 +3418,7 @@ gen_clone_method
 (
 name
 args
+inlining_candidate
 )
 :
     
@@ -3663,6 +3686,30 @@ CacheOp
 {
 name
 }
+)
+;
+\
+\
+\
+n
+"
+    
+if
+inlining_candidate
+:
+        
+code
++
+=
+"
+writer
+.
+setTrialInliningState
+(
+TrialInliningState
+:
+:
+Candidate
 )
 ;
 \
@@ -4222,6 +4269,25 @@ custom_writer
 bool
 )
         
+inlining_candidate
+=
+op
+.
+get
+(
+"
+inlining_candidate
+"
+False
+)
+        
+assert
+isinstance
+(
+inlining_candidate
+bool
+)
+        
 if
 args
 :
@@ -4302,12 +4368,15 @@ writer_methods
 .
 append
 (
+            
 gen_writer_method
 (
 name
 args
 custom_writer
+inlining_candidate
 )
+        
 )
         
 reader_methods
@@ -4399,6 +4468,7 @@ gen_clone_method
 (
 name
 args
+inlining_candidate
 )
 )
     
