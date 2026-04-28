@@ -20275,7 +20275,7 @@ id
 )
 {
 return
-AddDataPropertyToPlainObject
+AddDataPropertyToNativeObjectNoHooks
 (
 context
 (

@@ -175,6 +175,10 @@ ObjectFlag
 :
 :
 NeedsProxyGetSetResultValidation
+ObjectFlag
+:
+:
+HasNonWritableOrAccessorPropExclProto
 }
 )
 )

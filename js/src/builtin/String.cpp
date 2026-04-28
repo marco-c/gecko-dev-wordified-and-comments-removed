@@ -21880,6 +21880,10 @@ ObjectFlag
 :
 :
 NeedsProxyGetSetResultValidation
+ObjectFlag
+:
+:
+HasNonWritableOrAccessorPropExclProto
 }
 )
 )

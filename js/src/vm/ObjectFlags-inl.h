@@ -157,16 +157,6 @@ writable
 )
 &
 &
-clasp
-=
-=
-&
-PlainObject
-:
-:
-class_
-&
-&
 !
 id
 .

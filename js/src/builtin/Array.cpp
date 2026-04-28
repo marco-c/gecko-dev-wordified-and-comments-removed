@@ -26584,6 +26584,15 @@ TaggedProto
 proto
 )
 0
+ObjectFlags
+(
+{
+ObjectFlag
+:
+:
+HasNonWritableOrAccessorPropExclProto
+}
+)
 )
 )
 ;

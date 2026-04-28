@@ -1974,6 +1974,12 @@ Handle
 TaggedProto
 >
 proto
+ObjectFlags
+objFlags
+=
+ObjectFlags
+(
+)
 )
 {
 JSObject
@@ -1992,9 +1998,7 @@ T
 :
 class_
 proto
-ObjectFlags
-(
-)
+objFlags
 )
 ;
 return
@@ -2181,6 +2185,12 @@ JSContext
 cx
 HandleObject
 proto
+ObjectFlags
+objFlags
+=
+ObjectFlags
+(
+)
 )
 {
 return
@@ -2198,6 +2208,7 @@ AsTaggedProto
 (
 proto
 )
+objFlags
 )
 ;
 }
@@ -2216,6 +2227,12 @@ JSContext
 cx
 HandleObject
 proto
+ObjectFlags
+objFlags
+=
+ObjectFlags
+(
+)
 )
 {
 return
@@ -2233,6 +2250,7 @@ AsTaggedProto
 (
 proto
 )
+objFlags
 )
 ;
 }

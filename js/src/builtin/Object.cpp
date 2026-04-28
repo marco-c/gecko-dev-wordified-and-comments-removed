@@ -5644,7 +5644,7 @@ nextKey
 if
 (
 !
-AddDataPropertyToPlainObject
+AddDataPropertyToNativeObjectNoHooks
 (
 cx
 toPlain
