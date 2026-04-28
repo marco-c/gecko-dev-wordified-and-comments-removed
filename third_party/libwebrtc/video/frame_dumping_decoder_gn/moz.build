@@ -445,9 +445,6 @@ OS_LIBS
 =
 [
 "
-GLESv2
-"
-"
 log
 "
 ]
