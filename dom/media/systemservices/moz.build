@@ -115,6 +115,13 @@ cpp
 "
 fake_video_capture
 /
+device_info_empty
+.
+cc
+"
+"
+fake_video_capture
+/
 device_info_fake
 .
 cc
