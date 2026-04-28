@@ -408,7 +408,7 @@ wgpu
 ?
 rev
 =
-fd2fa777b259520e090790d9b5ce5296e4ce7bb7
+0b4bdaf9cea213ce614405a834ff049b9dfba103
 "
 ]
 git
@@ -431,7 +431,7 @@ wgpu
 rev
 =
 "
-fd2fa777b259520e090790d9b5ce5296e4ce7bb7
+0b4bdaf9cea213ce614405a834ff049b9dfba103
 "
 replace
 -
@@ -906,7 +906,7 @@ rs
 ?
 rev
 =
-c0b3bce1f1d1cc565a2ccacd9c38e945ef8d033c
+3cf4a1af09a1748d0e184297a17132bdcc608874
 "
 ]
 git
@@ -931,7 +931,7 @@ rs
 rev
 =
 "
-c0b3bce1f1d1cc565a2ccacd9c38e945ef8d033c
+3cf4a1af09a1748d0e184297a17132bdcc608874
 "
 replace
 -
@@ -966,7 +966,7 @@ tag
 =
 v0
 .
-4
+5
 .
 0
 "
@@ -993,7 +993,7 @@ tag
 "
 v0
 .
-4
+5
 .
 0
 "
@@ -1136,7 +1136,7 @@ rust
 ?
 rev
 =
-f2d96807b8becf7485f035b393575fcfc76cec4c
+952f5173fd2c33fcbc5e6d3c9de48f4afc0347fc
 "
 ]
 git
@@ -1159,7 +1159,7 @@ rust
 rev
 =
 "
-f2d96807b8becf7485f035b393575fcfc76cec4c
+952f5173fd2c33fcbc5e6d3c9de48f4afc0347fc
 "
 replace
 -
