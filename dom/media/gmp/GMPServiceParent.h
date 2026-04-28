@@ -443,6 +443,11 @@ GeckoMediaPluginServiceParent
 )
 ;
 void
+ClearTemporaryStorage
+(
+)
+;
+void
 ClearStorage
 (
 )
@@ -1155,6 +1160,11 @@ aResolve
 )
 override
 ;
+void
+BeginShutdown
+(
+)
+;
 private
 :
 ~
@@ -1169,7 +1179,6 @@ GeckoMediaPluginServiceParent
 >
 mService
 ;
-const
 UniquePtr
 <
 media
