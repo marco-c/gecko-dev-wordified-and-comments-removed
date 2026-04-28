@@ -859,6 +859,11 @@ SOURCES
 =
 [
 "
+TestAsyncPlatformPipes
+.
+cpp
+"
+"
 TestCOMArray
 .
 cpp

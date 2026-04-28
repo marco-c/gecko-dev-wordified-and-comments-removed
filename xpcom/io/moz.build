@@ -454,6 +454,11 @@ mozilla
 =
 [
 "
+AsyncPlatformPipes
+.
+h
+"
+"
 Base64
 .
 h
@@ -528,6 +533,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+AsyncPlatformPipes
+.
+cpp
+"
 "
 Base64
 .
