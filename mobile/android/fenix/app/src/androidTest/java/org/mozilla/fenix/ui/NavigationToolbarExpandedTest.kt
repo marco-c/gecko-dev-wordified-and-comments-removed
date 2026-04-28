@@ -449,7 +449,6 @@ composeTestRule
 {
 verifyNavBarPosition
 (
-true
 )
 verifyTheNavigationBarAddBookmarkButton
 (
@@ -565,7 +564,6 @@ composeTestRule
 {
 verifyNavBarPosition
 (
-true
 )
 verifyTheNavigationBarAddBookmarkButton
 (
@@ -2129,7 +2127,6 @@ composeTestRule
 {
 verifyNavBarPosition
 (
-true
 )
 verifyTheNavigationBarAddBookmarkButton
 (
@@ -2290,7 +2287,6 @@ Test_Page_1
 )
 verifyNavBarPosition
 (
-true
 )
 verifyTheNavigationBarAddBookmarkButton
 (
