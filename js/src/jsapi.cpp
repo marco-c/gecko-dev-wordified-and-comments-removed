@@ -3746,7 +3746,7 @@ gc
 GCRuntime
 :
 :
-relocateWeakRefTarget
+relocateFinalizationObserverTarget
 (
 ObjectValue
 (
@@ -3767,8 +3767,8 @@ crash
 (
 "
 JS_TransplantObject
-weak
-ref
+finalization
+observer
 relocation
 "
 )

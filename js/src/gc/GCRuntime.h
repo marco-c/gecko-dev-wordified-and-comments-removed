@@ -4116,7 +4116,7 @@ target
 ;
 static
 bool
-relocateWeakRefTarget
+relocateFinalizationObserverTarget
 (
 const
 Value
