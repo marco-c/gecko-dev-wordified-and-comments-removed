@@ -759,7 +759,7 @@ path
 rejected_words
 :
 :
-run_lint_in_parallel
+check_reject_words
 (
 path
 &
