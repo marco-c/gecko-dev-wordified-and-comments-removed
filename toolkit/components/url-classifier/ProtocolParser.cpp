@@ -7236,6 +7236,7 @@ aDecoded
 [
 0
 ]
+true
 )
 ;
 NS_ENSURE_TRUE
