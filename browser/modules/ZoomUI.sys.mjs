@@ -483,7 +483,7 @@ if
 !
 aSubject
 .
-ownerDocGlobal
+documentGlobal
 )
 {
 return
@@ -646,7 +646,7 @@ browser
 =
 topDoc
 .
-ownerDocGlobal
+documentGlobal
 .
 docShell
 .
@@ -735,7 +735,7 @@ win
 =
 aBrowser
 .
-ownerDocGlobal
+documentGlobal
 ;
 if
 (
@@ -1389,7 +1389,7 @@ updateZoomUI
 (
 aWidgetNode
 .
-ownerDocGlobal
+documentGlobal
 .
 gBrowser
 .

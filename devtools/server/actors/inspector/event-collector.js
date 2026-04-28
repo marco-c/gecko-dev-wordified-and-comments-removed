@@ -763,7 +763,7 @@ push
 (
 node
 .
-ownerDocGlobal
+documentGlobal
 node
 node
 .
@@ -885,7 +885,7 @@ unwrap
 (
 node
 .
-ownerDocGlobal
+documentGlobal
 )
 ;
 if
@@ -1644,7 +1644,7 @@ unwrap
 (
 node
 .
-ownerDocGlobal
+documentGlobal
 )
 ;
 let

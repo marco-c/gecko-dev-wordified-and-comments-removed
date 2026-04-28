@@ -1882,7 +1882,7 @@ default
 "
 use
 -
-ownerGlobal
+documentGlobal
 "
 :
 (
@@ -1896,7 +1896,7 @@ rules
 /
 use
 -
-ownerGlobal
+documentGlobal
 .
 mjs
 "

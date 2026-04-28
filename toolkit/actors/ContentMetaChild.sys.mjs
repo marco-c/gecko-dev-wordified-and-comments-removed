@@ -664,7 +664,7 @@ window
 =
 metaTag
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /

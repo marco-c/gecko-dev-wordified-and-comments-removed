@@ -221,7 +221,7 @@ effect
 .
 target
 .
-ownerGlobal
+documentGlobal
 .
 browsingContext
 .

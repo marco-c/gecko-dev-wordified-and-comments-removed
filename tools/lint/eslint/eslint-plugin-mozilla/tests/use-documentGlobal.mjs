@@ -204,7 +204,7 @@ rules
 /
 use
 -
-ownerGlobal
+documentGlobal
 .
 mjs
 "
@@ -405,7 +405,7 @@ errors
 messageId
 :
 "
-useOwnerGlobal
+useDocumentGlobal
 "
 }
 ]
@@ -419,7 +419,7 @@ run
 "
 use
 -
-ownerGlobal
+documentGlobal
 "
 rule
 {
@@ -431,7 +431,7 @@ aEvent
 .
 target
 .
-ownerGlobal
+documentGlobal
 ;
 "
 "
@@ -439,7 +439,7 @@ this
 .
 DOMPointNode
 .
-ownerGlobal
+documentGlobal
 .
 getSelection
 (
@@ -451,7 +451,7 @@ windowToMessageManager
 (
 node
 .
-ownerGlobal
+documentGlobal
 )
 ;
 "

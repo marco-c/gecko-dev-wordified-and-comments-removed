@@ -4997,7 +4997,7 @@ mozilla
 /
 use
 -
-ownerGlobal
+documentGlobal
 "
 :
 "
@@ -5546,7 +5546,7 @@ mozilla
 /
 use
 -
-ownerGlobal
+documentGlobal
 "
 :
 "

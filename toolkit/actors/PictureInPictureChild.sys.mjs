@@ -9548,7 +9548,7 @@ toggleRect
 =
 toggle
 .
-ownerDocGlobal
+documentGlobal
 .
 windowUtils
 .
@@ -9688,7 +9688,7 @@ fromRect
 (
 child
 .
-ownerDocGlobal
+documentGlobal
 .
 windowUtils
 .
@@ -9909,7 +9909,7 @@ devicePixelRatio
 =
 toggle
 .
-ownerDocGlobal
+documentGlobal
 .
 devicePixelRatio
 ;
@@ -11172,7 +11172,7 @@ getWeakVideo
 (
 )
 .
-ownerDocGlobal
+documentGlobal
 ;
 const
 isReducedMotionEnabled
@@ -11493,7 +11493,7 @@ playerVideoWindow
 =
 playerVideo
 .
-ownerDocGlobal
+documentGlobal
 ;
 /
 /
@@ -14902,7 +14902,7 @@ originatingWindow
 =
 originatingVideo
 .
-ownerDocGlobal
+documentGlobal
 ;
 if
 (
@@ -15182,7 +15182,7 @@ originatingWindow
 =
 originatingVideo
 .
-ownerDocGlobal
+documentGlobal
 ;
 if
 (
@@ -18578,7 +18578,7 @@ originatingWin
 =
 video
 .
-ownerDocGlobal
+documentGlobal
 ;
 let
 originatingDoc

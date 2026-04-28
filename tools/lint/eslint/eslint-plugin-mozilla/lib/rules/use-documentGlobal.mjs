@@ -5,7 +5,7 @@
 file
 Require
 .
-ownerGlobal
+documentGlobal
 instead
 of
 .
@@ -115,7 +115,7 @@ rules
 /
 use
 -
-ownerGlobal
+documentGlobal
 .
 html
 "
@@ -123,12 +123,12 @@ html
 messages
 :
 {
-useOwnerGlobal
+useDocumentGlobal
 :
 "
 use
 .
-ownerGlobal
+documentGlobal
 instead
 of
 .
@@ -237,7 +237,7 @@ node
 messageId
 :
 "
-useOwnerGlobal
+useDocumentGlobal
 "
 }
 )

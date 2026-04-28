@@ -1,6 +1,9 @@
 use
 -
-ownerGlobal
+documentGlobal
+=
+=
+=
 =
 =
 =
@@ -18,7 +21,7 @@ ownerGlobal
 =
 Require
 .
-ownerGlobal
+documentGlobal
 instead
 of
 .
@@ -162,13 +165,13 @@ aEvent
 .
 target
 .
-ownerGlobal
+documentGlobal
 ;
 this
 .
 DOMPointNode
 .
-ownerGlobal
+documentGlobal
 .
 getSelection
 (

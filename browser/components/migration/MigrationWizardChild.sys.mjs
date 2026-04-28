@@ -2263,7 +2263,7 @@ cloneInto
 state
 /
 /
-ownerGlobal
+documentGlobal
 doesn
 '
 t
@@ -2285,7 +2285,7 @@ mozilla
 /
 use
 -
-ownerGlobal
+documentGlobal
 this
 .
 #

@@ -4674,7 +4674,7 @@ do_QueryInterface
 aEmbedder
 -
 >
-GetOwnerDocGlobal
+GetDocumentGlobal
 (
 )
 )

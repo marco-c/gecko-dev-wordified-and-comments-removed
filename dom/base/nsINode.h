@@ -3593,7 +3593,7 @@ override
 ;
 nsIGlobalObject
 *
-GetOwnerDocGlobal
+GetDocumentGlobal
 (
 )
 const
@@ -3614,7 +3614,7 @@ dom
 :
 WindowProxyHolder
 >
-GetOwnerDocGlobalForBindings
+GetDocumentGlobalForBindings
 (
 )
 ;

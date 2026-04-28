@@ -1293,7 +1293,7 @@ aEvent
 .
 target
 .
-ownerGlobal
+documentGlobal
 {
 left
 :

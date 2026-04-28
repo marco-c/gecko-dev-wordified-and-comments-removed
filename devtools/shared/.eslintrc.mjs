@@ -86,7 +86,7 @@ content
 privileged
 windows
 where
-ownerGlobal
+documentGlobal
 doesn
 '
 t
@@ -97,7 +97,7 @@ mozilla
 /
 use
 -
-ownerGlobal
+documentGlobal
 "
 :
 "

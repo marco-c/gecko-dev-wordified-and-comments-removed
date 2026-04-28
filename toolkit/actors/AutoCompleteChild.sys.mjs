@@ -651,7 +651,7 @@ window
 =
 element
 .
-ownerGlobal
+documentGlobal
 ;
 let
 dir
@@ -1178,7 +1178,7 @@ add
 (
 input
 .
-ownerGlobal
+documentGlobal
 .
 windowGlobalChild
 .
@@ -1270,7 +1270,7 @@ add
 (
 input
 .
-ownerGlobal
+documentGlobal
 .
 windowGlobalChild
 .

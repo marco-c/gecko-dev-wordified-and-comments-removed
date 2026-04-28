@@ -1794,7 +1794,7 @@ mozilla
 /
 use
 -
-ownerGlobal
+documentGlobal
 let
 frame
 =
@@ -2102,7 +2102,7 @@ cur
 =
 cur
 .
-ownerGlobal
+documentGlobal
 .
 frameElement
 ;

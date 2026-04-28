@@ -2924,7 +2924,7 @@ win
 =
 el
 .
-ownerGlobal
+documentGlobal
 ;
 let
 unloadEv
@@ -5259,7 +5259,7 @@ mozilla
 /
 use
 -
-ownerGlobal
+documentGlobal
 return
 el
 .

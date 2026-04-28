@@ -378,7 +378,7 @@ parentIframe
 =
 domElement
 .
-ownerGlobal
+documentGlobal
 .
 frameElement
 ;

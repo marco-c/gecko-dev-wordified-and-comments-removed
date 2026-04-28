@@ -97,7 +97,7 @@ based
 /
 /
 Disable
-ownerGlobal
+documentGlobal
 use
 since
 that
@@ -120,7 +120,7 @@ mozilla
 /
 use
 -
-ownerGlobal
+documentGlobal
 *
 /
 import
@@ -1262,7 +1262,7 @@ obs
 new
 subject
 .
-ownerGlobal
+documentGlobal
 .
 MutationObserver
 (
