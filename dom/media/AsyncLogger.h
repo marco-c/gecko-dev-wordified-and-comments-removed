@@ -12,11 +12,6 @@ atomic
 #
 include
 <
-cinttypes
->
-#
-include
-<
 thread
 >
 #

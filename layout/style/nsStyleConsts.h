@@ -6,13 +6,6 @@ define
 nsStyleConsts_h_
 #
 include
-<
-inttypes
-.
-h
->
-#
-include
 "
 X11UndefineNone
 .
