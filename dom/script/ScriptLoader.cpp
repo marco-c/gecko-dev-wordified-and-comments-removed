@@ -17746,6 +17746,13 @@ memorypressure
 "
 )
 ;
+aRequest
+-
+>
+ClearStencil
+(
+)
+;
 return
 ;
 }
