@@ -1572,7 +1572,9 @@ LONG
 *
 >
 (
-moz_xmalloc
+:
+:
+CoTaskMemAlloc
 (
 sizeof
 (
@@ -2661,7 +2663,9 @@ LONG
 *
 >
 (
-moz_xmalloc
+:
+:
+CoTaskMemAlloc
 (
 sizeof
 (
@@ -2806,7 +2810,9 @@ LONG
 *
 >
 (
-moz_xmalloc
+:
+:
+CoTaskMemAlloc
 (
 sizeof
 (
