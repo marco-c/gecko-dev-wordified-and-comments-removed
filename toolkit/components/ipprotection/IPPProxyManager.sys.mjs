@@ -2404,7 +2404,7 @@ lazy
 .
 IPProtectionServerlist
 .
-getDefaultLocation
+getRecommendedLocation
 (
 )
 ;
