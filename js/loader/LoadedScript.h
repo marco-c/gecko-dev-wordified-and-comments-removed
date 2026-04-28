@@ -149,13 +149,6 @@ h
 #
 include
 "
-nsIMemoryReporter
-.
-h
-"
-#
-include
-"
 jsapi
 .
 h
@@ -465,7 +458,7 @@ class
 LoadedScript
 :
 public
-nsIMemoryReporter
+nsISupports
 {
 protected
 :
@@ -523,11 +516,6 @@ LoadedScript
 ;
 public
 :
-void
-RegisterMemoryReport
-(
-)
-;
 size_t
 SizeOfIncludingThis
 (
@@ -542,8 +530,6 @@ const
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-;
-NS_DECL_NSIMEMORYREPORTER
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
