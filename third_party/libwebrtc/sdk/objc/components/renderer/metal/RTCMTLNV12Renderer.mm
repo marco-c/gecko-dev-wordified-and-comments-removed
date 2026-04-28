@@ -351,7 +351,10 @@ out
 )
 ;
 implementation
+RTC_OBJC_TYPE
+(
 RTCMTLNV12Renderer
+)
 {
 CVMetalTextureCacheRef
 _textureCache

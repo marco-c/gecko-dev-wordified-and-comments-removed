@@ -89,7 +89,10 @@ RTCMTLNSVideoView
 {
 id
 <
+RTC_OBJC_TYPE
+(
 RTCMTLRenderer
+)
 >
 _renderer
 ;
@@ -273,7 +276,10 @@ _renderer
 =
 [
 [
+RTC_OBJC_TYPE
+(
 RTCMTLI420Renderer
+)
 alloc
 ]
 init

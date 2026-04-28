@@ -471,7 +471,10 @@ kMaxInflightBuffers
 1
 ;
 implementation
+RTC_OBJC_TYPE
+(
 RTCMTLRenderer
+)
 {
 __kindof
 MTKView

@@ -20,7 +20,13 @@ NS_AVAILABLE
 9_0
 )
 interface
+RTC_OBJC_TYPE
+(
 RTCMTLNV12Renderer
+)
 :
+RTC_OBJC_TYPE
+(
 RTCMTLRenderer
+)
 end

@@ -393,7 +393,10 @@ out
 )
 ;
 implementation
+RTC_OBJC_TYPE
+(
 RTCMTLI420Renderer
+)
 {
 id
 <

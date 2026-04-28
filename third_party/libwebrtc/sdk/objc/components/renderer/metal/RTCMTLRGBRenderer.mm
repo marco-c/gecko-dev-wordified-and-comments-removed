@@ -290,7 +290,10 @@ out
 )
 ;
 implementation
+RTC_OBJC_TYPE
+(
 RTCMTLRGBRenderer
+)
 {
 CVMetalTextureCacheRef
 _textureCache
