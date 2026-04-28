@@ -1865,6 +1865,13 @@ Bug
 ]
 [
 "
+browser_popupNotification_swapBrowserRefused
+.
+js
+"
+]
+[
+"
 browser_reshow_in_background
 .
 js
