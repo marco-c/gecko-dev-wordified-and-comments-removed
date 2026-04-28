@@ -11609,8 +11609,10 @@ urlbar
 tests
 /
 browser
+-
+UrlbarView
 /
-browser_view_resultDisplay
+browser_resultDisplay
 .
 js
 "
@@ -11624,8 +11626,10 @@ urlbar
 tests
 /
 browser
+-
+UrlbarView
 /
-browser_view_resultTypes_display
+browser_resultTypes_display
 .
 js
 "
