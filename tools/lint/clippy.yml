@@ -855,13 +855,6 @@ fuzzing
 rust
 /
 -
-tools
-/
-lint
-/
-mozcheck
-/
--
 widget
 /
 windows

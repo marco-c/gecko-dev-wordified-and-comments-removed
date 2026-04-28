@@ -289,10 +289,6 @@ misc
 .
 yml
 -
-mozcheck
-.
-yml
--
 nasm
 .
 yml
