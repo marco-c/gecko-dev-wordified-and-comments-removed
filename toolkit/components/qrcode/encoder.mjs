@@ -827,7 +827,7 @@ size
 Return
 the
 QR
-module
+dot
 matrix
 without
 generating
@@ -921,13 +921,13 @@ boolean
 ]
 of
 dark
-modules
+dots
 *
-moduleCount
+dotCount
 :
 number
 of
-modules
+dots
 per
 side
 *
@@ -951,7 +951,7 @@ version
 )
 ;
 const
-moduleCount
+dotCount
 =
 encoder
 .
@@ -974,7 +974,7 @@ row
 ;
 row
 <
-moduleCount
+dotCount
 ;
 row
 +
@@ -998,7 +998,7 @@ col
 ;
 col
 <
-moduleCount
+dotCount
 ;
 col
 +
@@ -1026,7 +1026,7 @@ col
 return
 {
 matrix
-moduleCount
+dotCount
 }
 ;
 }
