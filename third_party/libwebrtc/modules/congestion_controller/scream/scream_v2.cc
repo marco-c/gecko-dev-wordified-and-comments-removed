@@ -255,6 +255,11 @@ packet
 IsReceived
 (
 )
+&
+&
+packet
+.
+reported_lost_for_the_first_time
 )
 {
 return

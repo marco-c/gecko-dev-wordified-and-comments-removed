@@ -862,6 +862,12 @@ send_time
 ;
 packet_result
 .
+reported_lost_for_the_first_time
+=
+true
+;
+packet_result
+.
 sent_packet
 .
 size
