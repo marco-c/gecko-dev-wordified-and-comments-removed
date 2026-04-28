@@ -84,7 +84,7 @@ import
 "
 .
 /
-OpenSearchLoader
+OpenSearchParser
 .
 sys
 .
