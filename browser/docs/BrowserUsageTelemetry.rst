@@ -704,6 +704,10 @@ paneContainers
 preferences
 -
 paneAccessibility
+*
+preferences
+-
+paneLanguages
 Widget
 Identifiers
 -

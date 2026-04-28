@@ -88,7 +88,7 @@ location
 hash
 "
 #
-general
+languages
 "
 "
 Hash
@@ -96,7 +96,7 @@ should
 return
 to
 the
-General
+Languages
 pane
 after
 clicking

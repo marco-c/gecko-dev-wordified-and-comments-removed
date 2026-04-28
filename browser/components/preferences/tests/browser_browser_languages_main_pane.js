@@ -240,7 +240,7 @@ addon
 }
 async
 function
-openMainPane
+openPrefs
 (
 )
 {
@@ -248,7 +248,7 @@ await
 openPreferencesViaOpenPreferencesAPI
 (
 "
-paneGeneral
+paneLanguages
 "
 {
 leaveOpen
@@ -932,7 +932,7 @@ let
 doc
 =
 await
-openMainPane
+openPrefs
 (
 )
 ;
@@ -1158,7 +1158,7 @@ let
 doc
 =
 await
-openMainPane
+openPrefs
 (
 )
 ;
@@ -1410,7 +1410,7 @@ let
 doc
 =
 await
-openMainPane
+openPrefs
 (
 )
 ;
@@ -1742,7 +1742,7 @@ let
 doc
 =
 await
-openMainPane
+openPrefs
 (
 )
 ;
@@ -2059,7 +2059,7 @@ let
 doc
 =
 await
-openMainPane
+openPrefs
 (
 )
 ;
@@ -2446,7 +2446,7 @@ let
 doc
 =
 await
-openMainPane
+openPrefs
 (
 )
 ;
@@ -2789,7 +2789,7 @@ let
 doc
 =
 await
-openMainPane
+openPrefs
 (
 )
 ;
@@ -3040,7 +3040,7 @@ let
 doc
 =
 await
-openMainPane
+openPrefs
 (
 )
 ;
@@ -3380,7 +3380,7 @@ let
 doc
 =
 await
-openMainPane
+openPrefs
 (
 )
 ;
@@ -3676,7 +3676,7 @@ let
 doc
 =
 await
-openMainPane
+openPrefs
 (
 )
 ;
@@ -3814,7 +3814,7 @@ let
 doc
 =
 await
-openMainPane
+openPrefs
 (
 )
 ;
@@ -3992,7 +3992,7 @@ let
 doc
 =
 await
-openMainPane
+openPrefs
 (
 )
 ;
@@ -4190,7 +4190,7 @@ let
 doc
 =
 await
-openMainPane
+openPrefs
 (
 )
 ;
@@ -4478,7 +4478,7 @@ let
 doc
 =
 await
-openMainPane
+openPrefs
 (
 )
 ;
@@ -4807,7 +4807,7 @@ let
 doc
 =
 await
-openMainPane
+openPrefs
 (
 )
 ;

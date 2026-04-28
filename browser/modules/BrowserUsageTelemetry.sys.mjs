@@ -1152,6 +1152,9 @@ paneAi
 "
 paneAccessibility
 "
+"
+paneLanguages
+"
 ]
 ;
 const
