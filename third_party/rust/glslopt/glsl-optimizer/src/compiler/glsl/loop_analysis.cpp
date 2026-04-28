@@ -684,7 +684,7 @@ break
 ;
 default
 :
-unreachable
+UNREACHABLE
 (
 "
 Unsupported
@@ -1010,7 +1010,7 @@ break
 ;
 }
 }
-unreachable
+UNREACHABLE
 (
 "
 Unable

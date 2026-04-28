@@ -156,7 +156,7 @@ glsl
 glsl_parser
 .
 yy
-python
+python3
 "
 src
 /
@@ -181,7 +181,7 @@ glsl
 ir_expression_operation
 .
 h
-python
+python3
 "
 src
 /
@@ -206,7 +206,7 @@ glsl
 ir_expression_operation_strings
 .
 h
-python
+python3
 "
 src
 /

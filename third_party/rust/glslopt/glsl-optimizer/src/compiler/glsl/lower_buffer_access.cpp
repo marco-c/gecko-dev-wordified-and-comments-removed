@@ -1106,7 +1106,7 @@ is_struct
 )
 ;
 }
-unreachable
+UNREACHABLE
 (
 "
 invalid
@@ -1125,7 +1125,7 @@ false
 ;
 }
 }
-unreachable
+UNREACHABLE
 (
 "
 invalid

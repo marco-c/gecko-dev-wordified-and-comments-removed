@@ -2628,7 +2628,7 @@ return
 this
 ;
 }
-unreachable
+UNREACHABLE
 (
 "
 Invalid
@@ -4783,7 +4783,7 @@ return
 error_type
 ;
 }
-unreachable
+UNREACHABLE
 (
 "
 switch
@@ -5161,7 +5161,7 @@ return
 error_type
 ;
 }
-unreachable
+UNREACHABLE
 (
 "
 switch
@@ -10242,7 +10242,7 @@ type
 }
 else
 {
-unreachable
+UNREACHABLE
 (
 "
 Invalid
@@ -11985,7 +11985,7 @@ type
 }
 else
 {
-unreachable
+UNREACHABLE
 (
 "
 Invalid
@@ -12464,7 +12464,7 @@ false
 }
 else
 {
-unreachable
+UNREACHABLE
 (
 "
 Unhandled
@@ -12932,7 +12932,7 @@ GLSL_TYPE_FUNCTION
 :
 default
 :
-unreachable
+UNREACHABLE
 (
 "
 invalid
@@ -14906,7 +14906,7 @@ return
 ;
 default
 :
-unreachable
+UNREACHABLE
 (
 "
 Unknown

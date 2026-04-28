@@ -2613,7 +2613,7 @@ break
 ;
 default
 :
-unreachable
+UNREACHABLE
 (
 "
 invalid
@@ -3431,7 +3431,7 @@ break
 }
 default
 :
-unreachable
+UNREACHABLE
 (
 "
 Unsupported

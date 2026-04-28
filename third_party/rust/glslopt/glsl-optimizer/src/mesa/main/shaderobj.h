@@ -401,7 +401,7 @@ MESA_SHADER_COMPUTE
 ;
 default
 :
-unreachable
+UNREACHABLE
 (
 "
 bad
@@ -541,7 +541,7 @@ return
 MESA_SHADER_TESS_EVAL
 ;
 }
-unreachable
+UNREACHABLE
 (
 "
 not
@@ -601,7 +601,7 @@ return
 MESA_SHADER_TESS_EVAL
 ;
 }
-unreachable
+UNREACHABLE
 (
 "
 not
@@ -668,7 +668,7 @@ break
 case
 MESA_SHADER_KERNEL
 :
-unreachable
+UNREACHABLE
 (
 "
 not
@@ -679,7 +679,7 @@ reached
 break
 ;
 }
-unreachable
+UNREACHABLE
 (
 "
 not
@@ -747,7 +747,7 @@ MESA_SHADER_KERNEL
 break
 ;
 }
-unreachable
+UNREACHABLE
 (
 "
 not

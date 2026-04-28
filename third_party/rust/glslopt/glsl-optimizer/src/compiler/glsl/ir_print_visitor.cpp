@@ -2530,7 +2530,7 @@ break
 case
 ir_samples_identical
 :
-unreachable
+UNREACHABLE
 (
 "
 ir_samples_identical
@@ -3601,7 +3601,7 @@ break
 ;
 default
 :
-unreachable
+UNREACHABLE
 (
 "
 Invalid

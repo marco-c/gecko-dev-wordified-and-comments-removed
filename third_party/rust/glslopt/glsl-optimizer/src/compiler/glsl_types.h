@@ -470,7 +470,7 @@ return
 ;
 default
 :
-unreachable
+UNREACHABLE
 (
 "
 unknown

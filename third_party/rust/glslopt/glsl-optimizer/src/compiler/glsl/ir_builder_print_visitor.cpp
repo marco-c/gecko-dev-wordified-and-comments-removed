@@ -829,7 +829,7 @@ break
 ;
 default
 :
-unreachable
+UNREACHABLE
 (
 "
 Invalid
@@ -1023,7 +1023,7 @@ break
 ;
 default
 :
-unreachable
+UNREACHABLE
 (
 "
 Invalid
@@ -2431,7 +2431,7 @@ break
 ;
 default
 :
-unreachable
+UNREACHABLE
 (
 "
 Invalid
