@@ -43,11 +43,8 @@ mStylesReused
 0
 ;
 static
-bool
-sActive
-;
-static
 ServoTraversalStatistics
+*
 sSingleton
 ;
 }
