@@ -2708,6 +2708,15 @@ None
 prewarm_avd
 =
 False
+    
+sdk_path
+:
+Optional
+[
+Path
+]
+=
+None
 )
 :
     
@@ -2795,6 +2804,12 @@ os_name
 os_arch
 )
     
+if
+sdk_path
+is
+None
+:
+        
 sdk_path
 =
 get_sdk_path
