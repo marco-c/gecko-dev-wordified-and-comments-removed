@@ -139,9 +139,9 @@ param
 countryCodes
 Set
 of
-ISO
+country
 codes
-of
+for
 the
 selected
 countries
@@ -278,6 +278,11 @@ String
 >
 )
 {
+settings
+.
+sportsSelectedCountries
+=
+countryCodes
 appStore
 .
 dispatch
