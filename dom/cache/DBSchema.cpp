@@ -2333,15 +2333,6 @@ TYPE_INTERNAL_IMAGE_NOTIFICATION
 =
 =
 64
-&
-&
-nsIContentPolicy
-:
-:
-TYPE_END
-=
-=
-65
 "
 nsContentPolicyType
 values

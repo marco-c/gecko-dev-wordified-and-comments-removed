@@ -688,12 +688,6 @@ case
 nsIContentPolicy
 :
 :
-TYPE_END
-:
-case
-nsIContentPolicy
-:
-:
 TYPE_INVALID
 :
 break

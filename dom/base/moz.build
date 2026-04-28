@@ -310,6 +310,11 @@ nsContentPermissionHelper
 h
 "
 "
+nsContentPolicyType
+.
+h
+"
+"
 nsContentPolicyUtils
 .
 h
@@ -612,6 +617,11 @@ h
 "
 "
 nsWrapperCacheInlines
+.
+h
+"
+"
+SharedLcpMarkerState
 .
 h
 "
