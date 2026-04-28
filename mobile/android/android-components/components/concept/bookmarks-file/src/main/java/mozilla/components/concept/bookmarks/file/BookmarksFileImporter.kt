@@ -66,8 +66,6 @@ concept
 bookmarks
 .
 file
-.
-importer
 import
 android
 .
