@@ -504,14 +504,14 @@ browser_usercharacteristics_linux_distro
 js
 "
 ]
-skip
+run
 -
 if
 =
 [
 "
 os
-!
+=
 =
 '
 linux
