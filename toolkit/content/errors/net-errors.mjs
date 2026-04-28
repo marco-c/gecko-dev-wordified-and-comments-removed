@@ -2760,6 +2760,9 @@ contentEncodingError
 -
 title
 "
+showResponseStatus
+:
+true
 whatCanYouDoL10nId
 :
 "
