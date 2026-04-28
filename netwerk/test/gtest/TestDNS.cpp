@@ -472,6 +472,9 @@ ASSERT_TRUE
 thread
 )
 ;
+bool
+wasCompleted
+;
 {
 MutexAutoLock
 lock
@@ -492,9 +495,13 @@ FromSeconds
 )
 )
 ;
+wasCompleted
+=
+completed
+;
 EXPECT_TRUE
 (
-completed
+wasCompleted
 )
 <
 <
@@ -533,7 +540,7 @@ ResolveHost
 }
 if
 (
-completed
+wasCompleted
 )
 {
 PR_JoinThread
