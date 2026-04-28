@@ -1155,6 +1155,11 @@ NotificationCompat
 PRIORITY_LOW
 )
 .
+setAutoCancel
+(
+true
+)
+.
 setDeleteIntent
 (
 createDismissPendingIntent
