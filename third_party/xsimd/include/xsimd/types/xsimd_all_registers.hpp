@@ -85,7 +85,7 @@ hpp
 #
 include
 "
-xsimd_avx512vnni_avx512vbmi_register
+xsimd_avx512vnni_avx512vbmi2_register
 .
 hpp
 "
@@ -93,6 +93,13 @@ hpp
 include
 "
 xsimd_avx512ifma_register
+.
+hpp
+"
+#
+include
+"
+xsimd_avx512vbmi2_register
 .
 hpp
 "
@@ -184,6 +191,13 @@ hpp
 include
 "
 xsimd_wasm_register
+.
+hpp
+"
+#
+include
+"
+xsimd_vsx_register
 .
 hpp
 "

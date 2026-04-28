@@ -9,7 +9,7 @@ include
 "
 .
 /
-xsimd_generic_arch
+xsimd_common_arch
 .
 hpp
 "
@@ -19,7 +19,7 @@ xsimd
 struct
 avx
 :
-generic
+common
 {
 static
 constexpr

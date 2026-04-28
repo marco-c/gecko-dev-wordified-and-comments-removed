@@ -6,16 +6,6 @@ define
 XSIMD_AVXVNNI_HPP
 #
 include
-<
-array
->
-#
-include
-<
-type_traits
->
-#
-include
 "
 .
 .

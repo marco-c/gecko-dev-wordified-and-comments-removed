@@ -9,7 +9,7 @@ include
 "
 .
 /
-xsimd_generic_arch
+xsimd_common_arch
 .
 hpp
 "
@@ -19,7 +19,7 @@ xsimd
 struct
 avx512f
 :
-generic
+common
 {
 static
 constexpr
@@ -123,11 +123,10 @@ simd_avx512_bool_register
 using
 register_type
 =
-typename
 std
 :
 :
-conditional
+conditional_t
 <
 (
 sizeof
@@ -140,7 +139,7 @@ T
 std
 :
 :
-conditional
+conditional_t
 <
 (
 sizeof
@@ -157,7 +156,7 @@ __mmask32
 std
 :
 :
-conditional
+conditional_t
 <
 (
 sizeof
@@ -172,12 +171,6 @@ __mmask16
 __mmask8
 >
 >
-:
-:
-type
-:
-:
-type
 ;
 register_type
 data

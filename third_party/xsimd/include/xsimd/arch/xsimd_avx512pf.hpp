@@ -6,16 +6,6 @@ define
 XSIMD_AVX512PF_HPP
 #
 include
-<
-array
->
-#
-include
-<
-type_traits
->
-#
-include
 "
 .
 .

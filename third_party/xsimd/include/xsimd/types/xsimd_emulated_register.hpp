@@ -9,7 +9,7 @@ include
 "
 .
 /
-xsimd_generic_arch
+xsimd_common_arch
 .
 hpp
 "
@@ -33,7 +33,7 @@ N
 struct
 emulated
 :
-generic
+common
 {
 static
 constexpr

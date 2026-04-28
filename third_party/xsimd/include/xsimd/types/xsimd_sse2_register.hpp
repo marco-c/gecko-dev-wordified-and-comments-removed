@@ -9,7 +9,7 @@ include
 "
 .
 /
-xsimd_generic_arch
+xsimd_common_arch
 .
 hpp
 "
@@ -47,7 +47,7 @@ xsimd
 struct
 sse2
 :
-generic
+common
 {
 static
 constexpr

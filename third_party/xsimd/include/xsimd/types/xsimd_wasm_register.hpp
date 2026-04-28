@@ -7,7 +7,7 @@ XSIMD_WASM_REGISTER_HPP
 #
 include
 "
-xsimd_generic_arch
+xsimd_common_arch
 .
 hpp
 "
@@ -36,7 +36,7 @@ xsimd
 struct
 wasm
 :
-generic
+common
 {
 static
 constexpr

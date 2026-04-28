@@ -36,6 +36,11 @@ unaligned_mode
 {
 }
 ;
+struct
+stream_mode
+{
+}
+;
 template
 <
 class
