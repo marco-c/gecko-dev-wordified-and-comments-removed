@@ -329,7 +329,7 @@ results
 )
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 args_
 .
@@ -341,7 +341,7 @@ length
 MaxParams
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 results_
 .
@@ -389,7 +389,7 @@ FuncType
 src
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 args_
 .
@@ -398,7 +398,7 @@ empty
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 results_
 .
@@ -1547,7 +1547,7 @@ isDefaultable_
 false
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 fields_
 .
@@ -2427,7 +2427,7 @@ index
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 index
 <
@@ -2619,14 +2619,14 @@ uintptr_t
 )
 this
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 typeDefAddr
 >
 recGroupAddr
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 typeDefAddr
 -
@@ -2784,7 +2784,7 @@ that
 )
 noexcept
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isNone
 (
@@ -2831,7 +2831,7 @@ that
 )
 noexcept
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isNone
 (
@@ -2878,7 +2878,7 @@ that
 )
 noexcept
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isNone
 (
@@ -2928,7 +2928,7 @@ that
 )
 noexcept
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isNone
 (
@@ -3201,7 +3201,7 @@ funcType
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isFuncType
 (
@@ -3218,7 +3218,7 @@ funcType
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isFuncType
 (
@@ -3237,7 +3237,7 @@ structType
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isStructType
 (
@@ -3254,7 +3254,7 @@ structType
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isStructType
 (
@@ -3273,7 +3273,7 @@ arrayType
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isArrayType
 (
@@ -3290,7 +3290,7 @@ arrayType
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isArrayType
 (
@@ -3312,7 +3312,7 @@ contType
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isContType
 (
@@ -3329,7 +3329,7 @@ contType
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isContType
 (
@@ -4081,18 +4081,14 @@ return
 false
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 subSTV
-)
-;
-MOZ_ASSERT
-(
+&
+&
 superSTV
-)
-;
-MOZ_ASSERT
-(
+&
+&
 subSTV
 -
 >
@@ -4102,10 +4098,8 @@ typeDef
 =
 =
 subTypeDef
-)
-;
-MOZ_ASSERT
-(
+&
+&
 superSTV
 -
 >
@@ -5119,7 +5113,7 @@ typeDef
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 typeDef
 >
@@ -5139,7 +5133,7 @@ typeDef
 types_
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 groupTypeIndex
 <
