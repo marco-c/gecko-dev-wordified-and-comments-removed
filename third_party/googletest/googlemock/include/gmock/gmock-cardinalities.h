@@ -52,6 +52,11 @@ namespace
 testing
 {
 class
+[
+[
+nodiscard
+]
+]
 CardinalityInterface
 {
 public
@@ -129,6 +134,11 @@ const
 ;
 class
 GTEST_API_
+[
+[
+nodiscard
+]
+]
 Cardinality
 {
 public

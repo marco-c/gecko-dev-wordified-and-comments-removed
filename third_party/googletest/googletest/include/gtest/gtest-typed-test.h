@@ -13,6 +13,11 @@ typename
 T
 >
 class
+[
+[
+nodiscard
+]
+]
 FooTest
 :
 public
@@ -131,6 +136,11 @@ typename
 T
 >
 class
+[
+[
+nodiscard
+]
+]
 FooTest
 :
 public

@@ -229,6 +229,7 @@ GMOCK_DECLARE_bool_
 name
 )
 \
+GTEST_API_
 ABSL_DECLARE_FLAG
 (
 bool
@@ -244,6 +245,7 @@ GMOCK_DECLARE_int32_
 name
 )
 \
+GTEST_API_
 ABSL_DECLARE_FLAG
 (
 int32_t
@@ -259,6 +261,7 @@ GMOCK_DECLARE_string_
 name
 )
 \
+GTEST_API_
 ABSL_DECLARE_FLAG
 (
 std

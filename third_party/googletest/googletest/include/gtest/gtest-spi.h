@@ -28,6 +28,11 @@ testing
 {
 class
 GTEST_API_
+[
+[
+nodiscard
+]
+]
 ScopedFakeTestPartResultReporter
 :
 public
@@ -123,6 +128,11 @@ internal
 {
 class
 GTEST_API_
+[
+[
+nodiscard
+]
+]
 SingleFailureChecker
 {
 public

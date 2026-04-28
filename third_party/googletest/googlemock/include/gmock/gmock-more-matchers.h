@@ -56,6 +56,11 @@ namespace
 internal
 {
 class
+[
+[
+nodiscard
+]
+]
 IsEmptyMatcher
 {
 public

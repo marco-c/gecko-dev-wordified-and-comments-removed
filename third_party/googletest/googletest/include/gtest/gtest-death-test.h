@@ -120,6 +120,11 @@ matcher
 )
 class
 GTEST_API_
+[
+[
+nodiscard
+]
+]
 ExitedWithCode
 {
 public
@@ -186,6 +191,11 @@ GTEST_OS_FUCHSIA
 )
 class
 GTEST_API_
+[
+[
+nodiscard
+]
+]
 KilledBySignal
 {
 public
@@ -358,6 +368,9 @@ AlwaysFalse
 )
 {
 \
+(
+void
+)
 :
 :
 testing

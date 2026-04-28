@@ -931,7 +931,6 @@ false
 MutexLock
 l
 (
-&
 mutex_
 )
 ;
@@ -1531,7 +1530,6 @@ g_gmock_mutex
 MutexLock
 l
 (
-&
 g_gmock_mutex
 )
 ;
@@ -1573,7 +1571,6 @@ g_gmock_mutex
 MutexLock
 l
 (
-&
 g_gmock_mutex
 )
 ;
@@ -1610,7 +1607,6 @@ mock_obj
 MutexLock
 l
 (
-&
 g_gmock_mutex
 )
 ;
@@ -1680,7 +1676,6 @@ name
 MutexLock
 l
 (
-&
 g_gmock_mutex
 )
 ;
@@ -2209,7 +2204,6 @@ internal
 MutexLock
 l
 (
-&
 internal
 :
 :
@@ -2652,7 +2646,6 @@ internal
 MutexLock
 l
 (
-&
 internal
 :
 :
@@ -2774,7 +2767,6 @@ internal
 MutexLock
 l
 (
-&
 internal
 :
 :
@@ -2825,7 +2817,6 @@ internal
 MutexLock
 l
 (
-&
 internal
 :
 :
@@ -2903,7 +2894,6 @@ internal
 MutexLock
 l
 (
-&
 internal
 :
 :
@@ -2948,7 +2938,6 @@ internal
 MutexLock
 l
 (
-&
 internal
 :
 :
@@ -2986,7 +2975,6 @@ internal
 MutexLock
 l
 (
-&
 internal
 :
 :
@@ -3258,7 +3246,6 @@ internal
 MutexLock
 l
 (
-&
 internal
 :
 :
@@ -3313,7 +3300,6 @@ internal
 MutexLock
 l
 (
-&
 internal
 :
 :

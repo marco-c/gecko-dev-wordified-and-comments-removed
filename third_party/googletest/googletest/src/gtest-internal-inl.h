@@ -775,14 +775,6 @@ GTEST_API_
 bool
 ShouldShard
 (
-const
-char
-*
-total_shards_str
-const
-char
-*
-shard_index_str
 bool
 in_subprocess_for_death_test
 )

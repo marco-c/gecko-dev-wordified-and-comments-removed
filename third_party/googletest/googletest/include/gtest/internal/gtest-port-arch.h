@@ -384,6 +384,16 @@ define
 GTEST_OS_NRF52
 1
 #
+elif
+defined
+(
+__EMSCRIPTEN__
+)
+#
+define
+GTEST_OS_EMSCRIPTEN
+1
+#
 endif
 #
 endif

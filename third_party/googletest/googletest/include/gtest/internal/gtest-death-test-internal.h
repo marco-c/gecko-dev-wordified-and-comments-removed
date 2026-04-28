@@ -217,6 +217,11 @@ GTEST_DISABLE_MSC_WARNINGS_PUSH_
 )
 class
 GTEST_API_
+[
+[
+nodiscard
+]
+]
 DeathTest
 {
 public
@@ -434,6 +439,11 @@ GTEST_DISABLE_MSC_WARNINGS_POP_
 (
 )
 class
+[
+[
+nodiscard
+]
+]
 DeathTestFactory
 {
 public
@@ -481,6 +491,11 @@ test
 }
 ;
 class
+[
+[
+nodiscard
+]
+]
 DefaultDeathTestFactory
 :
 public
@@ -1030,6 +1045,9 @@ AlwaysTrue
 )
 {
 \
+(
+void
+)
 :
 :
 testing
@@ -1056,6 +1074,11 @@ Message
 (
 )
 class
+[
+[
+nodiscard
+]
+]
 InternalRunDeathTestFlag
 {
 public

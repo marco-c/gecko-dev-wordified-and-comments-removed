@@ -577,7 +577,6 @@ return
 MutexLock
 l
 (
-&
 g_log_mutex
 )
 ;
@@ -754,7 +753,10 @@ flush
 }
 GTEST_API_
 WithoutMatchers
-GetWithoutMatchers
+WithoutMatchers
+:
+:
+Get
 (
 )
 {
