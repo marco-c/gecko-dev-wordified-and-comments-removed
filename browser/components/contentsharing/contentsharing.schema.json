@@ -163,7 +163,7 @@ minItems
 maxItems
 "
 :
-100
+30
 "
 items
 "
@@ -393,7 +393,7 @@ minItems
 maxItems
 "
 :
-99
+29
 "
 items
 "
