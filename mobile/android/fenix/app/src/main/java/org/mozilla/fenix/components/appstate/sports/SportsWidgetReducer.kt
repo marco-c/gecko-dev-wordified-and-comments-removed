@@ -178,9 +178,10 @@ hasSkippedFollowTeam
 true
 )
 )
+is
 SportsWidgetAction
 .
-SportsWidgetDismissed
+VisibilityChanged
 -
 >
 state
@@ -197,7 +198,9 @@ copy
 (
 isVisible
 =
-false
+action
+.
+isVisible
 )
 )
 }

@@ -425,7 +425,12 @@ AppAction
 .
 SportsWidgetAction
 .
-SportsWidgetDismissed
+VisibilityChanged
+(
+isVisible
+=
+false
+)
 )
 }
 }
