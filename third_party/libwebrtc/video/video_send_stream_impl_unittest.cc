@@ -1374,6 +1374,7 @@ encoder_config
 suspended_ssrcs
 suspended_payload_states
 nullptr
+nullptr
 std
 :
 :

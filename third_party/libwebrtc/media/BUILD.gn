@@ -6145,6 +6145,16 @@ video_rtp_headers
 /
 api
 /
+video
+:
+video_stream_encoder
+"
+"
+.
+.
+/
+api
+/
 video_codecs
 :
 scalability_mode

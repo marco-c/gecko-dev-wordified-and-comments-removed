@@ -116,6 +116,17 @@ h
 #
 include
 "
+api
+/
+video
+/
+video_stream_encoder_settings
+.
+h
+"
+#
+include
+"
 call
 /
 audio_receive_stream
@@ -333,6 +344,10 @@ Config
 config
 VideoEncoderConfig
 encoder_config
+EncoderSwitchRequestCallback
+encoder_switch_request_callback
+=
+nullptr
 )
 =
 0
@@ -349,6 +364,8 @@ Config
 config
 VideoEncoderConfig
 encoder_config
+EncoderSwitchRequestCallback
+encoder_switch_request_callback
 std
 :
 :
@@ -358,6 +375,8 @@ FecController
 >
 fec_controller
 )
+=
+0
 ;
 virtual
 void

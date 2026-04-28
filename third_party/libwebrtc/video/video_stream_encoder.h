@@ -582,9 +582,7 @@ number_of_cores
 VideoStreamEncoderObserver
 *
 encoder_stats_observer
-const
 VideoStreamEncoderSettings
-&
 settings
 std
 :
@@ -619,6 +617,10 @@ VideoEncoderFactory
 EncoderSelectorInterface
 *
 encoder_selector
+=
+nullptr
+EncoderSwitchRequestCallback
+encoder_switch_request_callback
 =
 nullptr
 )
@@ -1400,6 +1402,9 @@ nullptr
 const
 VideoStreamEncoderSettings
 settings_
+;
+EncoderSwitchRequestCallback
+encoder_switch_request_callback_
 ;
 const
 BitrateAllocationCallbackType
