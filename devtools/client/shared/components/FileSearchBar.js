@@ -328,13 +328,6 @@ PropTypes
 object
 .
 isRequired
-DebuggerImage
-:
-PropTypes
-.
-elementType
-.
-isRequired
 CloseButton
 :
 PropTypes
@@ -1684,7 +1677,6 @@ searchInFileEnabled
 searchKey
 setSearchOptions
 searchOptions
-DebuggerImage
 CloseButton
 }
 =
@@ -1864,7 +1856,6 @@ query
 )
 setSearchOptions
 searchOptions
-DebuggerImage
 CloseButton
 }
 )
