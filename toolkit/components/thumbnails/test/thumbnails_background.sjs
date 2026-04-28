@@ -192,6 +192,8 @@ Set
 Cookie
 "
 "
+color
+=
 red
 "
 false
@@ -208,6 +210,8 @@ document
 cookie
 =
 "
+color
+=
 red
 "
 ;
@@ -235,6 +239,8 @@ Set
 Cookie
 "
 "
+color
+=
 green
 "
 false
@@ -251,6 +257,8 @@ document
 cookie
 =
 "
+color
+=
 green
 "
 ;
@@ -445,6 +453,8 @@ split
 includes
 (
 "
+color
+=
 green
 "
 )

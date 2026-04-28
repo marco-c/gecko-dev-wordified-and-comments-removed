@@ -271,6 +271,8 @@ cookie
 =
 "
 foo
+=
+bar
 ;
 SameSite
 =
@@ -481,6 +483,8 @@ abaSubresourceBody
 cookie
 :
 foo
+=
+bar
 "
 "
 Partitioned

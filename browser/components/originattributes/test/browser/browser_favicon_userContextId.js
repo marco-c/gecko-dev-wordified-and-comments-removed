@@ -725,6 +725,9 @@ cookies
 .
 push
 (
+A
+=
+{
 Math
 .
 random
@@ -734,12 +737,16 @@ random
 toString
 (
 )
+}
 )
 ;
 cookies
 .
 push
 (
+B
+=
+{
 Math
 .
 random
@@ -749,6 +756,7 @@ random
 toString
 (
 )
+}
 )
 ;
 let
