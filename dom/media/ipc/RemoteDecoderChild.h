@@ -281,6 +281,12 @@ AssertOnManagerThread
 )
 const
 ;
+nsresult
+GetCrashedErrorCode
+(
+)
+const
+;
 virtual
 MediaResult
 ProcessOutput
