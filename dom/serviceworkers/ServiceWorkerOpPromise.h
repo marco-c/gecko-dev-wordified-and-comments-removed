@@ -50,14 +50,13 @@ SynthesizeResponseArgs
 std
 :
 :
-tuple
+pair
 <
 SafeRefPtr
 <
 InternalResponse
 >
-FetchEventRespondWithClosure
-FetchEventTimeStamps
+ChildToParentSynthesizeResponseArgs
 >
 ;
 using
