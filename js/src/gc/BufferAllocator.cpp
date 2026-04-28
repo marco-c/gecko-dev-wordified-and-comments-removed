@@ -6650,7 +6650,7 @@ chunk
 )
 ;
 }
-hasMinorSweepDataToMerge
+hasSweepDataToMerge
 =
 true
 ;
@@ -6678,7 +6678,7 @@ minorSweepingFinished
 =
 true
 ;
-hasMinorSweepDataToMerge
+hasSweepDataToMerge
 =
 true
 ;
@@ -7271,7 +7271,7 @@ chunk
 )
 ;
 }
-hasMinorSweepDataToMerge
+hasSweepDataToMerge
 =
 true
 ;
@@ -8208,7 +8208,7 @@ ref
 )
 )
 ;
-hasMinorSweepDataToMerge
+hasSweepDataToMerge
 =
 false
 ;
@@ -9292,7 +9292,7 @@ majorFinishedWhileMinorSweeping
 MOZ_ASSERT
 (
 !
-hasMinorSweepDataToMerge
+hasSweepDataToMerge
 )
 ;
 MOZ_ASSERT
@@ -11202,7 +11202,7 @@ Success
 }
 if
 (
-hasMinorSweepDataToMerge
+hasSweepDataToMerge
 )
 {
 mergeSweptData
@@ -15216,7 +15216,7 @@ hasNurseryOwnedAllocs
 if
 (
 !
-hasMinorSweepDataToMerge
+hasSweepDataToMerge
 )
 {
 #
@@ -15232,7 +15232,7 @@ this
 MOZ_ASSERT_IF
 (
 !
-hasMinorSweepDataToMerge
+hasSweepDataToMerge
 !
 minorSweepingFinished
 )

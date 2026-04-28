@@ -901,7 +901,7 @@ mozilla
 :
 Relaxed
 >
-hasMinorSweepDataToMerge
+hasSweepDataToMerge
 ;
 MainThreadOrGCTaskData
 <
