@@ -55,6 +55,9 @@ enum
 CompressionFormat
 {
 "
+brotli
+"
+"
 deflate
 "
 "

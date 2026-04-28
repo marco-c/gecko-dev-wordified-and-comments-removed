@@ -95,7 +95,10 @@ WebAssembly
 boolean
 validate
 (
-BufferSource
+[
+AllowResizable
+]
+AllowSharedBufferSource
 bytes
 optional
 WebAssemblyCompileOptions
@@ -111,7 +114,10 @@ Module
 >
 compile
 (
-BufferSource
+[
+AllowResizable
+]
+AllowSharedBufferSource
 bytes
 optional
 WebAssemblyCompileOptions
@@ -127,7 +133,10 @@ WebAssemblyInstantiatedSource
 >
 instantiate
 (
-BufferSource
+[
+AllowResizable
+]
+AllowSharedBufferSource
 bytes
 optional
 object
@@ -254,7 +263,10 @@ Module
 {
 constructor
 (
-BufferSource
+[
+AllowResizable
+]
+AllowSharedBufferSource
 bytes
 optional
 WebAssemblyCompileOptions
