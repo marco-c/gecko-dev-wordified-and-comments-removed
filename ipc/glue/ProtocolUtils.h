@@ -1002,6 +1002,11 @@ ActorConnected
 )
 ;
 void
+DoomSubtree
+(
+)
+;
+void
 ActorDisconnected
 (
 ActorDestroyReason
@@ -1131,11 +1136,6 @@ Message
 }
 #
 endif
-void
-DoomSubtree
-(
-)
-;
 IProtocol
 *
 PeekManagedActor
