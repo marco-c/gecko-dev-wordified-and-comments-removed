@@ -233,8 +233,9 @@ virtual
 AsyncStatementParams
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsPIDOMWindowInner

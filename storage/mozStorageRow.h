@@ -73,8 +73,9 @@ private
 Row
 (
 )
-{
-}
+=
+default
+;
 uint32_t
 mNumCols
 ;

@@ -232,8 +232,9 @@ private
 StatementParams
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsPIDOMWindowInner

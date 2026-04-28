@@ -51,8 +51,9 @@ private
 Error
 (
 )
-{
-}
+=
+default
+;
 int
 mResult
 ;
