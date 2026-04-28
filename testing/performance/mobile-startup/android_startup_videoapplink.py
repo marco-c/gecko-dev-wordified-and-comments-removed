@@ -132,7 +132,7 @@ cold_view_nav_end
 :
 0
 .
-001
+003
     
 "
 mobile_restore
@@ -1852,7 +1852,7 @@ self
 height
 )
 -
-100
+150
 0
 :
 int
@@ -2924,7 +2924,7 @@ self
 height
 )
 -
-100
+150
 0
 :
 int
