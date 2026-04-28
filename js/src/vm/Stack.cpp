@@ -3920,12 +3920,6 @@ table
 lookupForSampler
 (
 returnAddr
-cx_
--
->
-runtime
-(
-)
 *
 samplePositionInProfilerBuffer_
 )
