@@ -1610,7 +1610,7 @@ DefaultRemoteSettingsSyncScheduler
 context
 Frequency
 (
-24
+2
 TimeUnit
 .
 HOURS

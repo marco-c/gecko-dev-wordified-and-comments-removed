@@ -266,7 +266,7 @@ frequency
 =
 Frequency
 (
-24
+2
 TimeUnit
 .
 HOURS
@@ -350,7 +350,7 @@ frequency
 =
 Frequency
 (
-24
+2
 TimeUnit
 .
 HOURS
