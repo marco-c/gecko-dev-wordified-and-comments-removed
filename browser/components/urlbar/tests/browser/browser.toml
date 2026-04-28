@@ -2486,6 +2486,13 @@ sjs
 ]
 [
 "
+browser_urlbar_contextmenu
+.
+js
+"
+]
+[
+"
 browser_urlbar_modifiedClick
 .
 js
