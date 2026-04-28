@@ -1021,9 +1021,14 @@ label
 {
 opacity
 :
-0
-.
-7
+var
+(
+-
+-
+opacity
+-
+deemphasized
+)
 ;
 }
 .
