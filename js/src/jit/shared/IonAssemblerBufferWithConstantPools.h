@@ -1314,9 +1314,6 @@ guardSize
 unsigned
 headerSize
 ;
-size_t
-instBufferAlign
-;
 unsigned
 pcBias
 ;
@@ -1472,15 +1469,6 @@ pcBias
 ;
 Pool
 pool_
-;
-static
-constexpr
-size_t
-InstBufferAlign
-=
-settings
-.
-instBufferAlign
 ;
 struct
 PoolInfo
