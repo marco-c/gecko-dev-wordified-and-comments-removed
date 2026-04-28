@@ -7932,7 +7932,6 @@ next_instr_offset
 nextInstrOffset
 (
 2
-0
 )
 ;
 DEBUG_PRINTF
@@ -8383,8 +8382,6 @@ next_instr_offset
 =
 nextInstrOffset
 (
-1
-1
 )
 ;
 DEBUG_PRINTF
