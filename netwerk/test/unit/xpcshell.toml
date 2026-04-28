@@ -4318,6 +4318,13 @@ js
 ]
 [
 "
+test_file_root
+.
+js
+"
+]
+[
+"
 test_filestreams
 .
 js
