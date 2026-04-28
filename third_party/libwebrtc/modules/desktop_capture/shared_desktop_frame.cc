@@ -308,6 +308,15 @@ core
 shared_memory
 (
 )
+(
+*
+core
+)
+-
+>
+texture
+(
+)
 )
 core_
 (
