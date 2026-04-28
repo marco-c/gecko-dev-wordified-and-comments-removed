@@ -4226,6 +4226,13 @@ mg
 .
 initializeCompleteTier
 (
+nullptr
+&
+module
+.
+codeTailMeta
+(
+)
 )
 )
 {
