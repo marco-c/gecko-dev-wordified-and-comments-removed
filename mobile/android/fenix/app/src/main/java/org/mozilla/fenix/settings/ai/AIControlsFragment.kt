@@ -568,7 +568,7 @@ SumoTopic
 AI_CONTROLS
 useMobilePage
 =
-false
+true
 )
 )
 }

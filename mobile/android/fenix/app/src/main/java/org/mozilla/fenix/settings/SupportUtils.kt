@@ -754,7 +754,7 @@ translation
 AI_CONTROLS
 (
 "
-firefox
+android
 -
 ai
 -
