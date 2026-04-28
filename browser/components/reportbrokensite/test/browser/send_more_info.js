@@ -353,7 +353,7 @@ graphics
 {
 devicePixelRatio
 :
-parseInt
+parseFloat
 (
 devicePixelRatio
 )
@@ -1204,11 +1204,16 @@ string
 "
 )
 ;
+const
+{
+screenshot
+}
+=
+receivedData
+;
 if
 (
-details
-.
-consoleLog
+screenshot
 )
 {
 const
@@ -1264,8 +1269,6 @@ image
 .
 src
 =
-receivedData
-.
 screenshot
 ;
 }
