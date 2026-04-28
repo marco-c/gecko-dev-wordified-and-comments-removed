@@ -553,6 +553,7 @@ nsAString
 aPayerPhone
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -631,6 +632,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ConvertPaymentMethodErrors
 (
@@ -661,8 +663,10 @@ private
 bool
 mCompleteCalled
 ;
+RefPtr
+<
 PaymentRequest
-*
+>
 mRequest
 ;
 nsString
