@@ -65,7 +65,7 @@ rules
 {
 /
 /
-documentGlobal
+ownerGlobal
 doesn
 '
 t
@@ -80,7 +80,7 @@ mozilla
 /
 use
 -
-documentGlobal
+ownerGlobal
 "
 :
 "

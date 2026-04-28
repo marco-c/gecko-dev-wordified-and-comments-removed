@@ -2398,7 +2398,7 @@ NS_WARN_IF
 embedderElt
 -
 >
-GetDocumentGlobal
+GetOwnerDocGlobal
 (
 )
 !
@@ -2750,7 +2750,7 @@ NS_WARN_IF
 embedderElt
 -
 >
-GetDocumentGlobal
+GetOwnerDocGlobal
 (
 )
 !

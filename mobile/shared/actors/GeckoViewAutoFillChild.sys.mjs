@@ -655,7 +655,7 @@ aFormLike
 .
 rootElement
 .
-documentGlobal
+ownerGlobal
 ;
 /
 /
@@ -1274,7 +1274,7 @@ window
 =
 aElement
 .
-documentGlobal
+ownerGlobal
 ;
 const
 bounds
@@ -1839,7 +1839,7 @@ rectToScreenRect
 (
 aTarget
 .
-documentGlobal
+ownerGlobal
 bounds
 )
 ;

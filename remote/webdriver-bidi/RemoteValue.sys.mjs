@@ -2730,7 +2730,7 @@ browsingContext
 =
 node
 .
-documentGlobal
+ownerGlobal
 .
 browsingContext
 ;

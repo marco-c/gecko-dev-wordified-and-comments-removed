@@ -254,7 +254,7 @@ aEvent
 .
 target
 .
-documentGlobal
+ownerGlobal
 )
 )
 {

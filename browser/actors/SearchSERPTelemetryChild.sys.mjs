@@ -1137,7 +1137,9 @@ elements
 0
 ]
 .
-ownerDocument
+ownerGlobal
+.
+document
 ;
 let
 callback
@@ -2149,7 +2151,7 @@ innerWindowHeight
 =
 document
 .
-documentGlobal
+ownerGlobal
 .
 innerHeight
 ;
@@ -2158,7 +2160,7 @@ scrollY
 =
 document
 .
-documentGlobal
+ownerGlobal
 .
 scrollY
 ;
@@ -5839,7 +5841,7 @@ elementRect
 =
 element
 .
-documentGlobal
+ownerGlobal
 .
 windowUtils
 .
@@ -6136,7 +6138,7 @@ itemRect
 =
 child
 .
-documentGlobal
+ownerGlobal
 .
 windowUtils
 .

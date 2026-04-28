@@ -6228,7 +6228,7 @@ global
 el
 -
 >
-GetDocumentGlobal
+GetOwnerDocGlobal
 (
 )
 ;

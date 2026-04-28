@@ -286,7 +286,7 @@ aInvalidElements
 {
 /
 /
-Ensure
+Insure
 that
 this
 is
@@ -314,7 +314,11 @@ contentWindow
 =
 element
 .
-documentGlobal
+ownerGlobal
+.
+document
+.
+defaultView
 )
 {
 return
@@ -1027,7 +1031,7 @@ panelData
 ;
 aElement
 .
-documentGlobal
+ownerGlobal
 .
 addEventListener
 (
@@ -1064,7 +1068,7 @@ this
 .
 _element
 .
-documentGlobal
+ownerGlobal
 .
 removeEventListener
 (

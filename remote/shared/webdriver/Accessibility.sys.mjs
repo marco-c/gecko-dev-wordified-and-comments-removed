@@ -939,7 +939,7 @@ windowUtils
 =
 element
 .
-documentGlobal
+ownerGlobal
 .
 windowUtils
 ;
@@ -3023,7 +3023,7 @@ win
 =
 element
 .
-documentGlobal
+ownerGlobal
 ;
 let
 disabledAccessibility

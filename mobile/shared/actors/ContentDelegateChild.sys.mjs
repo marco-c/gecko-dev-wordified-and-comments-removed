@@ -1363,7 +1363,7 @@ aEvent
 .
 originalTarget
 .
-documentGlobal
+ownerGlobal
 =
 =
 this
@@ -1392,7 +1392,7 @@ aEvent
 .
 originalTarget
 .
-documentGlobal
+ownerGlobal
 =
 =
 this

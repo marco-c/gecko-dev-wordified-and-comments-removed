@@ -2555,7 +2555,7 @@ urls
 =
 aElem
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (
@@ -3786,7 +3786,7 @@ aEvent
 .
 composedTarget
 .
-documentGlobal
+ownerGlobal
 .
 updateCommands
 (
@@ -7275,7 +7275,7 @@ context
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (

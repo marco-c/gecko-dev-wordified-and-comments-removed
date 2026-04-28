@@ -230,7 +230,7 @@ content
 =
 node
 .
-documentGlobal
+ownerGlobal
 ;
 /
 /
@@ -515,7 +515,7 @@ content
 =
 aNode
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -654,7 +654,7 @@ global
 =
 node
 .
-documentGlobal
+ownerGlobal
 ;
 /
 /
@@ -2092,7 +2092,7 @@ this
 .
 _scrollable
 .
-documentGlobal
+ownerGlobal
 .
 requestAnimationFrame
 (

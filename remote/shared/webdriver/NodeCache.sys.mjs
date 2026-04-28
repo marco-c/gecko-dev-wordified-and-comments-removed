@@ -445,7 +445,7 @@ some
 nodes
 have
 no
-documentGlobal
+ownerDocGlobal
 and
 as
 such
@@ -463,7 +463,7 @@ browsingContext
 =
 node
 .
-documentGlobal
+ownerDocGlobal
 ?
 .
 browsingContext

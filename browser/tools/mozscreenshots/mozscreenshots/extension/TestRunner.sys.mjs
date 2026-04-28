@@ -2178,7 +2178,7 @@ getBoundingClientRect
 ;
 /
 /
-documentGlobal
+ownerGlobal
 doesn
 '
 t
@@ -2201,7 +2201,7 @@ mozilla
 /
 use
 -
-documentGlobal
+ownerGlobal
 let
 win
 =

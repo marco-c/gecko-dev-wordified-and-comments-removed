@@ -204,7 +204,7 @@ rules
 /
 use
 -
-documentGlobal
+ownerGlobal
 .
 mjs
 "
@@ -419,7 +419,7 @@ run
 "
 use
 -
-documentGlobal
+ownerGlobal
 "
 rule
 {
@@ -431,7 +431,7 @@ aEvent
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 "
 "
@@ -439,7 +439,7 @@ this
 .
 DOMPointNode
 .
-documentGlobal
+ownerGlobal
 .
 getSelection
 (
@@ -451,7 +451,7 @@ windowToMessageManager
 (
 node
 .
-documentGlobal
+ownerGlobal
 )
 ;
 "

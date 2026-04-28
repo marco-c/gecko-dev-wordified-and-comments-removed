@@ -2399,7 +2399,7 @@ null
 }
 /
 /
-documentGlobal
+ownerGlobal
 doesn
 '
 t
@@ -2424,7 +2424,7 @@ mozilla
 /
 use
 -
-documentGlobal
+ownerGlobal
 !
 aParent
 .

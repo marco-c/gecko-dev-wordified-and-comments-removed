@@ -485,7 +485,7 @@ if
 (
 link
 .
-documentGlobal
+ownerGlobal
 !
 =
 this

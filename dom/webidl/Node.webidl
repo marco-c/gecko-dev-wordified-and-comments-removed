@@ -771,14 +771,14 @@ Pure
 BinaryName
 =
 "
-documentGlobalForBindings
+ownerDocGlobalForBindings
 "
 ]
 readonly
 attribute
 WindowProxy
 ?
-documentGlobal
+ownerDocGlobal
 ;
 /
 /

@@ -634,7 +634,7 @@ isContentWindowPrivate
 (
 document
 .
-documentGlobal
+ownerGlobal
 )
 ;
 return
@@ -691,7 +691,7 @@ content
 =
 document
 .
-documentGlobal
+ownerGlobal
 ;
 let
 iterator
@@ -824,7 +824,7 @@ computedStyle
 =
 elem
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (
@@ -863,7 +863,7 @@ content
 =
 document
 .
-documentGlobal
+ownerGlobal
 ;
 let
 addMedia
@@ -1531,7 +1531,7 @@ content
 =
 document
 .
-documentGlobal
+ownerGlobal
 ;
 let
 imageText
@@ -2190,7 +2190,7 @@ content
 =
 node
 .
-documentGlobal
+ownerGlobal
 ;
 /
 /

@@ -58,7 +58,7 @@ MPL
 /
 /
 *
-documentGlobal
+ownerGlobal
 doesn
 '
 t
@@ -79,7 +79,7 @@ mozilla
 /
 use
 -
-documentGlobal
+ownerGlobal
 *
 /
 const

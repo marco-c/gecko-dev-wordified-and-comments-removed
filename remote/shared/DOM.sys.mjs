@@ -1505,7 +1505,7 @@ getVisibleText
 link
 link
 .
-documentGlobal
+ownerDocGlobal
 )
 ;
 return
@@ -1647,7 +1647,7 @@ getVisibleText
 link
 link
 .
-documentGlobal
+ownerDocGlobal
 )
 ;
 return
@@ -2140,7 +2140,7 @@ getVisibleText
 link
 link
 .
-documentGlobal
+ownerDocGlobal
 )
 ;
 if
@@ -2202,7 +2202,7 @@ getVisibleText
 link
 link
 .
-documentGlobal
+ownerDocGlobal
 )
 ;
 if
@@ -4920,7 +4920,7 @@ win
 =
 el
 .
-documentGlobal
+ownerDocGlobal
 ;
 let
 c
@@ -5793,7 +5793,7 @@ win
 =
 el
 .
-documentGlobal
+ownerDocGlobal
 ;
 if
 (
@@ -6581,7 +6581,7 @@ win
 =
 el
 .
-documentGlobal
+ownerDocGlobal
 ;
 const
 rootNode

@@ -10826,7 +10826,7 @@ browsingContext
 embedderElement
 ?
 .
-documentGlobal
+ownerDocGlobal
 |
 |
 browsingContext
@@ -11993,7 +11993,7 @@ win
 browser
 ?
 .
-documentGlobal
+ownerDocGlobal
 ?
 ?
 browsingContext
@@ -12075,7 +12075,7 @@ aEvent
 .
 currentTarget
 .
-documentGlobal
+ownerDocGlobal
 ;
 let
 target
@@ -24991,7 +24991,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerDocGlobal
 ;
 /
 /
@@ -26197,7 +26197,7 @@ aTab
 !
 aTab
 .
-documentGlobal
+ownerDocGlobal
 )
 {
 throw
@@ -26222,7 +26222,7 @@ if
 !
 aTab
 .
-documentGlobal
+ownerDocGlobal
 .
 __SSi
 )
@@ -26437,7 +26437,7 @@ window
 =
 aTab
 .
-documentGlobal
+ownerDocGlobal
 ;
 if
 (
@@ -26738,7 +26738,7 @@ aTab
 !
 aTab
 .
-documentGlobal
+ownerDocGlobal
 )
 {
 throw
@@ -26763,7 +26763,7 @@ if
 !
 aTab
 .
-documentGlobal
+ownerDocGlobal
 .
 __SSi
 )
@@ -27118,7 +27118,7 @@ window
 =
 newTab
 .
-documentGlobal
+ownerDocGlobal
 ;
 /
 /
@@ -31880,7 +31880,7 @@ saveStateDelayed
 (
 aTab
 .
-documentGlobal
+ownerDocGlobal
 )
 ;
 }
@@ -31922,7 +31922,7 @@ saveStateDelayed
 (
 aTab
 .
-documentGlobal
+ownerDocGlobal
 )
 ;
 }
@@ -32601,7 +32601,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerDocGlobal
 ;
 if
 (
@@ -41503,7 +41503,7 @@ window
 =
 tab
 .
-documentGlobal
+ownerDocGlobal
 ;
 let
 tabbrowser
@@ -42941,7 +42941,7 @@ window
 =
 aTab
 .
-documentGlobal
+ownerDocGlobal
 ;
 let
 tabData
@@ -53247,7 +53247,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerDocGlobal
 ;
 let
 tab
@@ -53369,7 +53369,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerDocGlobal
 ;
 let
 tab
@@ -53928,7 +53928,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerDocGlobal
 ;
 let
 tab
@@ -54299,7 +54299,7 @@ isWindowPrivate
 (
 tabGroup
 .
-documentGlobal
+ownerDocGlobal
 )
 )
 {
@@ -54332,7 +54332,7 @@ savedInOpenWindow
 tabGroup
 tabGroup
 .
-documentGlobal
+ownerDocGlobal
 .
 __SSi
 )
@@ -54350,7 +54350,7 @@ tabGroup
 tabs
 tabGroup
 .
-documentGlobal
+ownerDocGlobal
 )
 ;
 tabGroupState
@@ -54453,7 +54453,7 @@ tabs
 0
 ]
 .
-documentGlobal
+ownerDocGlobal
 ;
 if
 (
@@ -54467,7 +54467,7 @@ tab
 >
 tab
 .
-documentGlobal
+ownerDocGlobal
 =
 =
 =
