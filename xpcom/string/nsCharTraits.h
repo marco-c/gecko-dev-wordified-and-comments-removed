@@ -7,6 +7,13 @@ nsCharTraits_h_
 #
 include
 <
+ctype
+.
+h
+>
+#
+include
+<
 stdint
 .
 h
