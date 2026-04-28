@@ -400,7 +400,6 @@ Content
 from
 blocked
 embed
-:
 "
 "
 Explanatory
