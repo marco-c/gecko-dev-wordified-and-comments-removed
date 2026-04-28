@@ -114,6 +114,13 @@ https_first_disabled
 true
 [
 "
+browser_ReducedProtectionNotification_permanentPB
+.
+js
+"
+]
+[
+"
 browser_SitePermissions
 .
 js
