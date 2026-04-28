@@ -7853,6 +7853,8 @@ NULL
 categories
 TEXT
 )
+WITHOUT
+ROWID
 ;
 ;
 await
