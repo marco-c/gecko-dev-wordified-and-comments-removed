@@ -1979,6 +1979,7 @@ mConnection
 transactionInProgress
 (
 lockedScope
+mNativeConnection
 )
 )
 {
