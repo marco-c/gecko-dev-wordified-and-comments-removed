@@ -224,6 +224,9 @@ ISSUE_NO_STATIC_MOCKING
 NoStaticOrObjectMockingDetector
 .
 ISSUE_NO_OBJECT_MOCKING
+NoFunctionTypeMockingDetector
+.
+ISSUE_NO_FUNCTION_TYPE_MOCKING
 NoDispatchersSetMainDetector
 .
 ISSUE_NO_DISPATCHERS_SET_MAIN
