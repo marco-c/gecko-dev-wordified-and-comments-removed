@@ -1287,9 +1287,7 @@ tools
 /
 lint
 /
-file
--
-whitespace
+mozcheck
 /
 *
 *
@@ -1299,8 +1297,11 @@ type
 external
 payload
 :
+mozcheck
+:
+lint
+check
+:
 file
 -
 whitespace
-:
-lint
