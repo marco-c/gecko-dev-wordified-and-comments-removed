@@ -112,11 +112,6 @@ DiagnosticsMatcher
 cpp
 "
 "
-EnumSerializerChecker
-.
-cpp
-"
-"
 ExplicitImplicitChecker
 .
 cpp

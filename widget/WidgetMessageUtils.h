@@ -412,7 +412,6 @@ template
 <
 >
 struct
-MOZ_ENUM_SERIALIZER_ALLOW_SENTINEL_UPPER_BOUND
 ParamTraits
 <
 nsIWidget

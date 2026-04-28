@@ -29,13 +29,6 @@ h
 #
 include
 "
-EnumSerializerChecker
-.
-h
-"
-#
-include
-"
 ExplicitImplicitChecker
 .
 h

@@ -105,11 +105,6 @@ TestDanglingOnTemporary
 cpp
 "
 "
-TestEnumSerializer
-.
-cpp
-"
-"
 TestExplicitOperatorBool
 .
 cpp

@@ -16,14 +16,6 @@ moz_can_run_script_boundary
 )
 ATTR
 (
-moz_enum_serializer_allow_min_mismatch
-)
-ATTR
-(
-moz_enum_serializer_allow_sentinel_upper_bound
-)
-ATTR
-(
 moz_global_var
 )
 ATTR
