@@ -115346,7 +115346,7 @@ h
 True
         
 def
-descriptorDeprecated
+descriptorDeprecatedOrLenientSetter
 (
 desc
 )
@@ -115361,6 +115361,7 @@ interface
 return
 any
 (
+(
                 
 m
 .
@@ -115369,6 +115370,18 @@ getExtendedAttribute
 "
 Deprecated
 "
+)
+                
+or
+m
+.
+getExtendedAttribute
+(
+"
+LegacyLenientSetter
+"
+)
+            
 )
 for
 m
@@ -115380,7 +115393,6 @@ members
 [
 iface
 ]
-            
 )
         
 bindingHeaders
@@ -115399,7 +115411,7 @@ h
 any
 (
             
-descriptorDeprecated
+descriptorDeprecatedOrLenientSetter
 (
 d
 )
