@@ -440,11 +440,6 @@ body
 "
 PR_BODY
 "
--
--
-reviewer
-jcscottiii
-dschuff
 env
 :
 GITHUB_TOKEN
