@@ -81,9 +81,13 @@ https
 :
 /
 /
-svgwg
+w3c
 .
-org
+github
+.
+io
+/
+svgwg
 /
 svg2
 -
