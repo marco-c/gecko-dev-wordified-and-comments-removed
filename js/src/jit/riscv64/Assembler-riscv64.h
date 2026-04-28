@@ -1396,10 +1396,10 @@ nextOffset
 BufferOffset
 nextInstrOffset
 (
-int
-numInstr
-=
-1
+unsigned
+numInsts
+unsigned
+numNewDeadlines
 )
 {
 return
@@ -1407,7 +1407,8 @@ m_buffer
 .
 nextInstrOffset
 (
-numInstr
+numInsts
+numNewDeadlines
 )
 ;
 }

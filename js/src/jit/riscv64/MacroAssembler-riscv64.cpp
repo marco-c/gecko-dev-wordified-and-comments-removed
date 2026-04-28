@@ -12427,6 +12427,7 @@ asMasm
 sp
 a1
 a2
+a3
 )
 ;
 }
@@ -12806,6 +12807,7 @@ farJump
 nextInstrOffset
 (
 5
+0
 )
 .
 getOffset
