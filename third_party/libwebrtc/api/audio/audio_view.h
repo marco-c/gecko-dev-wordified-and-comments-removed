@@ -74,7 +74,7 @@ constexpr
 size_t
 kMaxNumberOfAudioChannels
 =
-24
+16
 ;
 template
 <
