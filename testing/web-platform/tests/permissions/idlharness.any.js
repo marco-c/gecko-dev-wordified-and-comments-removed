@@ -40,7 +40,7 @@ query
 name
 :
 "
-geolocation
+notifications
 "
 }
 )
