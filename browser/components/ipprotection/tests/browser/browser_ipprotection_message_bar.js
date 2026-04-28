@@ -5347,6 +5347,13 @@ window
 "
 )
 ;
+await
+closePanel
+(
+window
+false
+)
+;
 const
 newWin
 =
