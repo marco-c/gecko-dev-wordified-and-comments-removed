@@ -22453,9 +22453,6 @@ func
 FeatureOptions
 options
 ;
-ScriptedCaller
-scriptedCaller
-;
 SharedCompileArgs
 compileArgs
 =
@@ -22465,12 +22462,12 @@ CompileArgs
 buildAndReport
 (
 cx
-std
+ScriptedCaller
 :
 :
-move
+selfHosted
 (
-scriptedCaller
+cx
 )
 options
 )
