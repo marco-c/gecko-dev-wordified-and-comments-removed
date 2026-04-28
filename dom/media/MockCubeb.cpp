@@ -5,6 +5,11 @@ MockCubeb
 .
 h
 "
+#
+include
+<
+thread
+>
 namespace
 mozilla
 {
