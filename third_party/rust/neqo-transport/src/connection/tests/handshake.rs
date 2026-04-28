@@ -6204,6 +6204,11 @@ rev
 (
 )
 .
+skip
+(
+1
+)
+.
 find
 (
 |
@@ -6217,7 +6222,13 @@ v
 v
 !
 =
+Connection
+:
+:
+SCONE_INDICATION
+[
 0
+]
 )
 .
 unwrap
