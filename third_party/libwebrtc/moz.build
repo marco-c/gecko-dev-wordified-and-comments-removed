@@ -6253,6 +6253,16 @@ libwebrtc
 /
 video
 /
+null_video_decoder_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+video
+/
 render
 /
 incoming_video_stream_gn
