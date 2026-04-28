@@ -27,15 +27,6 @@ include
 "
 api
 /
-array_view
-.
-h
-"
-#
-include
-"
-api
-/
 environment
 /
 environment

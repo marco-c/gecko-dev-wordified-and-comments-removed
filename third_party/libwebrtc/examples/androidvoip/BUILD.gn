@@ -378,17 +378,6 @@ generated_jni
 /
 api
 :
-array_view
-"
-"
-.
-.
-/
-.
-.
-/
-api
-:
 sequence_checker
 "
 "
