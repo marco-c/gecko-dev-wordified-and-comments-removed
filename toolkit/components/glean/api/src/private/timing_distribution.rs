@@ -2417,10 +2417,6 @@ TDMPayload
 Sample
 (
 sample
-.
-clone
-(
-)
 )
 )
 )
@@ -3803,10 +3799,6 @@ TDMPayload
 Duration
 (
 duration
-.
-clone
-(
-)
 )
 )
 )
