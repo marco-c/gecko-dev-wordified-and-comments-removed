@@ -307,6 +307,10 @@ test
 *
 gradlew
 *
+mach
+-
+gradle
+*
 run
 -
 commands
