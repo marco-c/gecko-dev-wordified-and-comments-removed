@@ -193,7 +193,7 @@ size
 nameBuf
 )
 ;
-LRESULT
+LONG
 rv
 =
 RegEnumKeyExW
@@ -212,10 +212,10 @@ lastWritten
 ;
 if
 (
-LSTATUS_FAILED
-(
 rv
-)
+!
+=
+ERROR_SUCCESS
 )
 {
 return
@@ -253,7 +253,7 @@ mKey
 )
 ;
 return
-LSTATUS_SUCCEEDED
+SUCCEEDED
 (
 RegDeleteKeyW
 (
@@ -347,7 +347,7 @@ size
 nameBuf
 )
 ;
-LSTATUS
+LONG
 rv
 =
 RegEnumValueW
@@ -365,10 +365,10 @@ nullptr
 ;
 if
 (
-LSTATUS_FAILED
-(
 rv
-)
+!
+=
+ERROR_SUCCESS
 )
 {
 return
@@ -408,7 +408,7 @@ mKey
 DWORD
 result
 ;
-LSTATUS
+LONG
 rv
 =
 RegQueryValueExW
@@ -427,7 +427,7 @@ nullptr
 )
 ;
 return
-LSTATUS_SUCCEEDED
+SUCCEEDED
 (
 rv
 )
@@ -462,7 +462,7 @@ mKey
 )
 ;
 return
-LSTATUS_SUCCEEDED
+SUCCEEDED
 (
 RegDeleteValueW
 (
@@ -513,7 +513,7 @@ sizeof
 DWORD
 )
 ;
-LSTATUS
+HRESULT
 rv
 =
 RegQueryValueExW
@@ -538,7 +538,7 @@ size
 ;
 if
 (
-LSTATUS_FAILED
+FAILED
 (
 rv
 )
@@ -583,7 +583,7 @@ mKey
 )
 ;
 return
-LSTATUS_SUCCEEDED
+SUCCEEDED
 (
 RegSetValueExW
 (
@@ -647,7 +647,7 @@ sizeof
 uint64_t
 )
 ;
-LSTATUS
+HRESULT
 rv
 =
 RegQueryValueExW
@@ -672,7 +672,7 @@ size
 ;
 if
 (
-LSTATUS_FAILED
+FAILED
 (
 rv
 )
@@ -717,7 +717,7 @@ mKey
 )
 ;
 return
-LSTATUS_SUCCEEDED
+SUCCEEDED
 (
 RegSetValueExW
 (
@@ -774,7 +774,7 @@ type
 DWORD
 size
 ;
-LSTATUS
+LONG
 rv
 =
 RegQueryValueExW
@@ -795,7 +795,7 @@ size
 ;
 if
 (
-LSTATUS_FAILED
+FAILED
 (
 rv
 )
@@ -849,7 +849,7 @@ size
 )
 ;
 return
-LSTATUS_SUCCEEDED
+SUCCEEDED
 (
 rv
 )
@@ -940,7 +940,7 @@ mKey
 )
 ;
 return
-LSTATUS_SUCCEEDED
+SUCCEEDED
 (
 RegSetValueExW
 (
@@ -1064,7 +1064,7 @@ type
 DWORD
 size
 ;
-LSTATUS
+LONG
 rv
 =
 RegQueryValueExW
@@ -1085,7 +1085,7 @@ size
 ;
 if
 (
-LSTATUS_FAILED
+FAILED
 (
 rv
 )
@@ -1522,7 +1522,7 @@ LengthBytes
 DWORD
 type
 ;
-LSTATUS
+HRESULT
 rv
 =
 RegQueryValueExW
@@ -1550,7 +1550,7 @@ size
 ;
 if
 (
-LSTATUS_FAILED
+FAILED
 (
 rv
 )
@@ -1794,7 +1794,7 @@ REG_NOTIFY_CHANGE_SECURITY
 |
 REG_NOTIFY_THREAD_AGNOSTIC
 ;
-LSTATUS
+HRESULT
 rv
 =
 RegNotifyChangeKeyValue
@@ -1814,7 +1814,7 @@ return
 !
 NS_WARN_IF
 (
-LSTATUS_FAILED
+FAILED
 (
 rv
 )
