@@ -56,15 +56,10 @@ MPL
 .
 *
 /
-/
-*
-globals
-openAmoInTab
-*
-/
 import
 {
 AboutAddonsHTMLElement
+openAmoInTab
 }
 from
 "
