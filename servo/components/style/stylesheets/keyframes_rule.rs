@@ -2,6 +2,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 error_reporting
 :
 :
@@ -396,7 +405,7 @@ input
 .
 parse_entirely
 (
-KeyframeSelector
+KeyframeSelectors
 :
 :
 parse
@@ -915,7 +924,7 @@ comma
 ]
 pub
 struct
-KeyframeSelector
+KeyframeSelectors
 (
 #
 [
@@ -931,7 +940,7 @@ KeyframePercentage
 )
 ;
 impl
-KeyframeSelector
+KeyframeSelectors
 {
 #
 [
@@ -969,9 +978,9 @@ KeyframePercentage
 )
 -
 >
-KeyframeSelector
+KeyframeSelectors
 {
-KeyframeSelector
+KeyframeSelectors
 (
 percentages
 )
@@ -1022,7 +1031,7 @@ parse
 .
 map
 (
-KeyframeSelector
+KeyframeSelectors
 )
 }
 }
@@ -1041,7 +1050,7 @@ Keyframe
 pub
 selector
 :
-KeyframeSelector
+KeyframeSelectors
 pub
 block
 :
@@ -1243,6 +1252,12 @@ namespaces
 )
 None
 None
+Default
+:
+:
+default
+(
+)
 )
 ;
 let
@@ -2555,7 +2570,7 @@ b
 type
 Prelude
 =
-KeyframeSelector
+KeyframeSelectors
 ;
 type
 QualifiedRule
@@ -2623,7 +2638,7 @@ position
 (
 )
 ;
-KeyframeSelector
+KeyframeSelectors
 :
 :
 parse

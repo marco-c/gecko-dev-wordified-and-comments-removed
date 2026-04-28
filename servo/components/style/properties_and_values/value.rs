@@ -33,9 +33,12 @@ crate
 custom_properties
 :
 :
+{
+AttrTaint
 ComputedValue
 as
 ComputedPropertyValue
+}
 ;
 use
 crate
@@ -996,7 +999,7 @@ skip
 )
 ]
 pub
-attribute_tainted
+attr_tainted
 :
 bool
 }
@@ -1103,11 +1106,11 @@ url_data
 clone
 (
 )
-attribute_tainted
+attr_tainted
 :
 self
 .
-attribute_tainted
+attr_tainted
 }
 )
 }
@@ -1143,7 +1146,7 @@ Self
 {
 v
 url_data
-attribute_tainted
+attr_tainted
 :
 Default
 :
@@ -1169,11 +1172,11 @@ ComputedPropertyValue
 Self
 {
 let
-attribute_tainted
+attr_tainted
 =
 var
 .
-is_tainted_by_attr
+is_attr_tainted
 (
 )
 ;
@@ -1203,7 +1206,7 @@ Self
 {
 v
 url_data
-attribute_tainted
+attr_tainted
 }
 }
 }
@@ -1394,9 +1397,6 @@ serialization_types
 serialization_types
 .
 1
-self
-.
-attribute_tainted
 )
 }
 }
@@ -1534,6 +1534,9 @@ Context
 allow_computationally_dependent
 :
 AllowComputationallyDependent
+attr_taint
+:
+AttrTaint
 )
 -
 >
@@ -1599,6 +1602,7 @@ syntax
 url_data
 namespaces
 allow_computationally_dependent
+attr_taint
 )
 else
 {
@@ -1665,6 +1669,9 @@ Namespace
 allow_computationally_dependent
 :
 AllowComputationallyDependent
+attr_taint
+:
+AttrTaint
 )
 -
 >
@@ -1776,6 +1783,7 @@ mut
 input
 url_data
 allow_computationally_dependent
+attr_taint
 )
 ?
 ;
@@ -2095,6 +2103,9 @@ UrlExtraData
 allow_computationally_dependent
 :
 AllowComputationallyDependent
+attr_taint
+:
+AttrTaint
 )
 -
 >
@@ -2174,6 +2185,7 @@ default
 )
 None
 None
+attr_taint
 )
 ;
 for
@@ -3610,6 +3622,12 @@ AllowComputationallyDependent
 :
 :
 Yes
+Default
+:
+:
+default
+(
+)
 )
 .
 unwrap_or_else

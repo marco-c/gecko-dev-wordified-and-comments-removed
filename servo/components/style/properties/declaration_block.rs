@@ -282,7 +282,7 @@ ParseError
 ParsingMode
 StyleParseErrorKind
 ToCss
-TypedValue
+TypedValueList
 }
 ;
 use
@@ -2698,7 +2698,7 @@ importance
 }
 pub
 fn
-property_value_to_typed_value
+property_value_to_typed_value_list
 (
 &
 self
@@ -2713,7 +2713,7 @@ Result
 <
 Option
 <
-TypedValue
+TypedValueList
 >
 (
 )
@@ -2800,7 +2800,7 @@ Ok
 (
 value
 .
-to_typed_value
+to_typed_value_list
 (
 )
 )
@@ -6141,6 +6141,12 @@ default
 )
 error_reporter
 None
+Default
+:
+:
+default
+(
+)
 )
 ;
 let
@@ -6254,6 +6260,12 @@ default
 )
 error_reporter
 None
+Default
+:
+:
+default
+(
+)
 )
 ;
 let
