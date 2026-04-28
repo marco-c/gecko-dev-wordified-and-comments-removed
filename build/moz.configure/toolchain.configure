@@ -17126,6 +17126,8 @@ out_fd
 for
 blacklist
 in
+sorted
+(
 glob
 (
 os
@@ -17150,6 +17152,7 @@ _blacklist
 .
 txt
 "
+)
 )
 )
 :
