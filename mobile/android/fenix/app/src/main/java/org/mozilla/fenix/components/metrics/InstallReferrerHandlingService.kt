@@ -506,6 +506,16 @@ stop
 (
 )
 {
+handlers
+.
+forEach
+{
+it
+.
+stop
+(
+)
+}
 referrerClient
 ?
 .
