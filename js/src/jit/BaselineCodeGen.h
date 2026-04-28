@@ -1087,6 +1087,8 @@ nodiscard
 bool
 emitIsMagicValue
 (
+JSWhyMagic
+why
 )
 ;
 void
