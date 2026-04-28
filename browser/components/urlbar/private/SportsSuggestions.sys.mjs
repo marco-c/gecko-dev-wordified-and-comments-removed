@@ -498,8 +498,6 @@ name
 :
 sport
 -
-name
--
 {
 index
 }
@@ -669,11 +667,15 @@ index
 attributes
 :
 {
+"
 sport
+-
+category
+"
 :
 item
 .
-sport
+sport_category
 status
 :
 item
@@ -1476,8 +1478,6 @@ dateUpdate
 statusUpdate
 [
 sport
--
-name
 -
 {
 i
