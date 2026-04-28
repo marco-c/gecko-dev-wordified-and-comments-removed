@@ -22797,7 +22797,7 @@ lir
 {
 pushArg
 (
-ImmPtr
+ImmGCPtr
 (
 lir
 -
@@ -54572,7 +54572,7 @@ masm
 .
 movePtr
 (
-ImmPtr
+ImmGCPtr
 (
 shape
 )
