@@ -685,6 +685,13 @@ state
 is
 DownloadUIAction
 .
+RequestDeleteMultiple
+-
+>
+state
+is
+DownloadUIAction
+.
 RequestDelete
 -
 >
