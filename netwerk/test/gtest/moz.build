@@ -98,6 +98,11 @@ TestCookie
 cpp
 "
 "
+TestDNS
+.
+cpp
+"
+"
 TestDNSPacket
 .
 cpp
