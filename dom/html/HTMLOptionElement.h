@@ -562,11 +562,6 @@ mSelectedChanged
 =
 false
 ;
-bool
-mIsInSetDefaultSelected
-=
-false
-;
 }
 ;
 }

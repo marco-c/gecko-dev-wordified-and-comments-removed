@@ -682,7 +682,7 @@ return
 }
 HTMLSelectElement
 *
-selectInt
+select
 =
 GetSelect
 (
@@ -691,7 +691,7 @@ GetSelect
 if
 (
 !
-selectInt
+select
 )
 {
 SetStates
@@ -721,15 +721,6 @@ be
 here
 "
 )
-;
-bool
-inSetDefaultSelected
-=
-mIsInSetDefaultSelected
-;
-mIsInSetDefaultSelected
-=
-true
 ;
 int32_t
 index
@@ -786,7 +777,7 @@ OptionFlag
 Notify
 ;
 }
-selectInt
+select
 -
 >
 SetOptionsSelectedByIndex
@@ -795,10 +786,6 @@ index
 index
 mask
 )
-;
-mIsInSetDefaultSelected
-=
-inSetDefaultSelected
 ;
 mSelectedChanged
 =
