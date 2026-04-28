@@ -16276,11 +16276,6 @@ data_channel_integrationtest
 cc
 "
 "
-data_channel_unittest
-.
-cc
-"
-"
 dtmf_sender_unittest
 .
 cc
@@ -16467,6 +16462,11 @@ cc
 "
 "
 scoped_operations_batcher_unittest
+.
+cc
+"
+"
+sctp_data_channel_unittest
 .
 cc
 "
