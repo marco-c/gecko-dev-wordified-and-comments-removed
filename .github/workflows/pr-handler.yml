@@ -217,6 +217,11 @@ android
 focus
 -
 android
+taskcluster
+/
+config
+.
+yml
 GH_REPO
 :
 {
