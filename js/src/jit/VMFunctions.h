@@ -3175,6 +3175,16 @@ JSString
 str
 )
 ;
+double
+DateLocalTimeToUTC
+(
+JSContext
+*
+cx
+int64_t
+localTime
+)
+;
 JSObject
 *
 NewDateObject

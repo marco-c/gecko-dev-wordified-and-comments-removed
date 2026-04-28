@@ -991,6 +991,17 @@ js
 jit
 :
 :
+DateLocalTimeToUTC
+)
+\
+_
+(
+js
+:
+:
+jit
+:
+:
 DateNow
 )
 \
