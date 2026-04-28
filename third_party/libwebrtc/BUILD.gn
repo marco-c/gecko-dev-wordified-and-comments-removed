@@ -4260,7 +4260,7 @@ deps
 "
 rtc_base
 :
-base64_benchmark_temp
+base64_benchmark
 "
 "
 rtc_base

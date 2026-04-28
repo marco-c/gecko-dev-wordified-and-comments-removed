@@ -8134,7 +8134,7 @@ string_view
 "
 ]
 }
-rtc_executable
+rtc_test
 (
 "
 dtls_ice_integration_bench
@@ -8447,14 +8447,6 @@ threading
 test
 :
 create_test_field_trials
-"
-"
-.
-.
-/
-test
-:
-test_main
 "
 "
 .

@@ -10180,7 +10180,7 @@ rtc_enable_google_benchmarks
 rtc_library
 (
 "
-base64_benchmark_temp
+base64_benchmark
 "
 )
 {
