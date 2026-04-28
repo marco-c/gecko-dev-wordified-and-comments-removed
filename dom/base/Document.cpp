@@ -79447,7 +79447,7 @@ Element
 ;
 if
 (
-GetUnretargetedFullscreenElement
+GetFullscreenElement
 (
 )
 =
@@ -98631,7 +98631,7 @@ Element
 *
 elem
 =
-GetUnretargetedFullscreenElement
+GetFullscreenElement
 (
 )
 ;
@@ -98688,7 +98688,7 @@ Element
 *
 elem
 =
-GetUnretargetedFullscreenElement
+GetFullscreenElement
 (
 )
 ;
@@ -98736,7 +98736,7 @@ Element
 *
 elem
 =
-GetUnretargetedFullscreenElement
+GetFullscreenElement
 (
 )
 ;
