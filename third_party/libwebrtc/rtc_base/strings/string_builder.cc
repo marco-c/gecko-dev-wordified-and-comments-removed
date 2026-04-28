@@ -93,7 +93,7 @@ buffer_
 0
 '
 ;
-RTC_DCHECK
+RTC_CHECK
 (
 IsConsistent
 (
@@ -147,7 +147,7 @@ string_view
 str
 )
 {
-RTC_DCHECK_LT
+RTC_CHECK_LT
 (
 size_
 +
@@ -223,7 +223,7 @@ size_
 0
 '
 ;
-RTC_DCHECK
+RTC_CHECK
 (
 IsConsistent
 (
@@ -537,7 +537,7 @@ size_
 =
 chars_added
 ;
-RTC_DCHECK_EQ
+RTC_CHECK_EQ
 (
 len
 chars_added
@@ -574,7 +574,7 @@ va_end
 args
 )
 ;
-RTC_DCHECK
+RTC_CHECK
 (
 IsConsistent
 (
