@@ -2316,6 +2316,13 @@ js
 ]
 [
 "
+browser_testUrlbarIcons
+.
+js
+"
+]
+[
+"
 browser_text_dont_shift_on_mousedown
 .
 js
