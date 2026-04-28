@@ -313,6 +313,9 @@ author
 fun
 fromPage
 (
+pageTitle
+:
+String
 pageContentExtractor
 :
 PageContentExtractor
@@ -339,6 +342,13 @@ getOrDefault
 PageMetadata
 (
 )
+)
+.
+copy
+(
+pageTitle
+=
+pageTitle
 )
 val
 content

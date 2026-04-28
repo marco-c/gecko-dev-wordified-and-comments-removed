@@ -207,6 +207,13 @@ isReaderable
 Boolean
 =
 false
+val
+pageTitle
+:
+String
+=
+"
+"
 )
 private
 val

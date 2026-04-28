@@ -437,7 +437,6 @@ FakeLlm
 listOf
 (
 "
-#
 This
 is
 the
