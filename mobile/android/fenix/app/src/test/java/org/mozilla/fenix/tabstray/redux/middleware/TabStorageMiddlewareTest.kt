@@ -2240,6 +2240,9 @@ TabsTrayConfig
 tabGroupsEnabled
 =
 false
+tabGroupsDragAndDropEnabled
+=
+false
 )
 )
 val

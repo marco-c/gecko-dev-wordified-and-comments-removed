@@ -581,6 +581,8 @@ onTabSelected
 tab
 :
 TabsTrayItem
+.
+Tab
 source
 :
 String
@@ -724,7 +726,7 @@ Boolean
 {
 controller
 .
-handleTabsMove
+onMove
 (
 tabId
 targetId
@@ -858,6 +860,8 @@ onTabSelected
 tab
 :
 TabsTrayItem
+.
+Tab
 source
 :
 String
