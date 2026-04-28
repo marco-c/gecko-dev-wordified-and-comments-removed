@@ -1554,9 +1554,9 @@ aCx
 )
 ;
 static
-LoadedScript
+ScriptFetchInfo
 *
-GetLoadedScriptOrNull
+GetScriptFetchInfoOrNull
 (
 Handle
 <
@@ -1681,9 +1681,9 @@ aSpecifier
 ResolveResult
 ResolveModuleSpecifier
 (
-LoadedScript
+ScriptFetchInfo
 *
-aScript
+aFetchInfo
 const
 nsAString
 &
@@ -1696,9 +1696,9 @@ HandleResolveFailure
 JSContext
 *
 aCx
-LoadedScript
+ScriptFetchInfo
 *
-aScript
+aFetchInfo
 const
 nsAString
 &
@@ -1802,9 +1802,9 @@ UniquePtr
 SpecifierResolutionRecord
 >
 aRecord
-LoadedScript
+ScriptFetchInfo
 *
-aScript
+aFetchInfo
 =
 nullptr
 Handle
