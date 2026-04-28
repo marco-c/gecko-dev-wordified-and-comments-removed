@@ -7,11 +7,7 @@ mozilla_dom_HTMLTableSectionElement_h
 #
 include
 "
-mozilla
-/
-dom
-/
-ContentList
+nsContentList
 .
 h
 "
@@ -72,7 +68,7 @@ SetHasWeirdParserInsertionMode
 ;
 }
 NS_DECL_ISUPPORTS_INHERITED
-HTMLCollection
+nsIHTMLCollection
 *
 Rows
 (
@@ -307,6 +303,7 @@ aAttribute
 const
 override
 ;
+virtual
 nsresult
 Clone
 (
@@ -336,6 +333,7 @@ HTMLTableSectionElement
 (
 )
 ;
+virtual
 JSObject
 *
 WrapNode
@@ -357,7 +355,7 @@ override
 ;
 RefPtr
 <
-ContentList
+nsContentList
 >
 mRows
 ;

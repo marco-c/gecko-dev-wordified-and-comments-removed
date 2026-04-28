@@ -11,15 +11,15 @@ nsGenericHTMLElement
 .
 h
 "
+class
+nsContentList
+;
 namespace
 mozilla
 :
 :
 dom
 {
-class
-ContentList
-;
 class
 HTMLTableSectionElement
 ;
@@ -84,7 +84,7 @@ SectionRowIndex
 )
 const
 ;
-HTMLCollection
+nsIHTMLCollection
 *
 Cells
 (
@@ -318,6 +318,7 @@ aError
 )
 ;
 }
+virtual
 bool
 ParseAttribute
 (
@@ -339,6 +340,7 @@ aResult
 )
 override
 ;
+virtual
 nsMapRuleToAttributesFunc
 GetAttributeMappingFunction
 (
@@ -360,6 +362,7 @@ aAttribute
 const
 override
 ;
+virtual
 nsresult
 Clone
 (
@@ -389,6 +392,7 @@ HTMLTableRowElement
 (
 )
 ;
+virtual
 JSObject
 *
 WrapNode
@@ -424,7 +428,7 @@ const
 ;
 RefPtr
 <
-ContentList
+nsContentList
 >
 mCells
 ;

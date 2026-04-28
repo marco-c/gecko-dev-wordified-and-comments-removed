@@ -18,15 +18,15 @@ nsGkAtoms
 .
 h
 "
+class
+nsContentList
+;
 namespace
 mozilla
 :
 :
 dom
 {
-class
-ContentList
-;
 class
 HTMLMapElement
 final
@@ -118,7 +118,7 @@ aError
 )
 ;
 }
-HTMLCollection
+nsIHTMLCollection
 *
 Areas
 (
@@ -153,7 +153,7 @@ default
 ;
 RefPtr
 <
-ContentList
+nsContentList
 >
 mAreas
 ;

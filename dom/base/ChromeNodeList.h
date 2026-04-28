@@ -25,11 +25,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-ContentList
+nsContentList
 .
 h
 "
@@ -59,7 +55,7 @@ ChromeNodeList
 final
 :
 public
-SimpleContentList
+nsSimpleContentList
 {
 public
 :
@@ -71,7 +67,7 @@ nsINode
 aOwner
 )
 :
-SimpleContentList
+nsSimpleContentList
 (
 aOwner
 )

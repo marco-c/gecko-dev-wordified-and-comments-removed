@@ -25,11 +25,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-NodeList
+nsINodeList
 .
 h
 "
@@ -50,13 +46,7 @@ class
 nsAttrChildContentList
 :
 public
-mozilla
-:
-:
-dom
-:
-:
-NodeList
+nsINodeList
 {
 public
 :

@@ -549,11 +549,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-ContentList
+nsContentList
 .
 h
 "
@@ -2806,7 +2802,7 @@ NS_OK
 }
 RefPtr
 <
-ContentList
+nsContentList
 >
 headElementList
 =
@@ -3117,7 +3113,7 @@ aCharacterSet
 {
 RefPtr
 <
-ContentList
+nsContentList
 >
 metaElementList
 =
@@ -3179,6 +3175,11 @@ metaElementList
 Item
 (
 i
+)
+-
+>
+AsElement
+(
 )
 ;
 MOZ_ASSERT
@@ -7759,7 +7760,7 @@ NS_ERROR_FAILURE
 }
 RefPtr
 <
-ContentList
+nsContentList
 >
 baseElementList
 =

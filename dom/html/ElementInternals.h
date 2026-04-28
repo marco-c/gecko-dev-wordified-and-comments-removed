@@ -297,6 +297,9 @@ aElements
 \
 }
 class
+nsINodeList
+;
+class
 nsGenericHTMLElement
 ;
 namespace
@@ -316,9 +319,6 @@ HTMLFieldSetElement
 ;
 class
 HTMLFormElement
-;
-class
-NodeList
 ;
 class
 ShadowRoot
@@ -504,7 +504,7 @@ aRv
 ;
 already_AddRefed
 <
-NodeList
+nsINodeList
 >
 GetLabels
 (

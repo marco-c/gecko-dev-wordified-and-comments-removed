@@ -1516,13 +1516,7 @@ nsRect
 nsresult
 "
 "
-mozilla
-:
-:
-dom
-:
-:
-SimpleContentList
+nsSimpleContentList
 "
 "
 nsSize

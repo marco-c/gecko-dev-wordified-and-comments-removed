@@ -36,17 +36,6 @@ mozilla
 /
 dom
 /
-ContentList
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 HTMLTableElement
 .
 h
@@ -66,6 +55,13 @@ h
 include
 "
 nsAttrValueInlines
+.
+h
+"
+#
+include
+"
+nsContentList
 .
 h
 "
@@ -294,7 +290,7 @@ return
 1
 ;
 }
-HTMLCollection
+nsIHTMLCollection
 *
 rows
 =
@@ -336,7 +332,7 @@ if
 rows
 -
 >
-Item
+GetElementAt
 (
 i
 )
@@ -383,9 +379,9 @@ return
 1
 ;
 }
-RefPtr
+nsCOMPtr
 <
-HTMLCollection
+nsIHTMLCollection
 >
 coll
 =
@@ -427,7 +423,7 @@ if
 coll
 -
 >
-Item
+GetElementAt
 (
 i
 )
@@ -480,7 +476,7 @@ th
 )
 ;
 }
-HTMLCollection
+nsIHTMLCollection
 *
 HTMLTableRowElement
 :
@@ -498,7 +494,7 @@ mCells
 mCells
 =
 new
-ContentList
+nsContentList
 (
 this
 IsCell
@@ -550,7 +546,7 @@ return
 nullptr
 ;
 }
-HTMLCollection
+nsIHTMLCollection
 *
 cells
 =
@@ -744,7 +740,7 @@ NS_ERROR_DOM_INDEX_SIZE_ERR
 return
 ;
 }
-HTMLCollection
+nsIHTMLCollection
 *
 cells
 =

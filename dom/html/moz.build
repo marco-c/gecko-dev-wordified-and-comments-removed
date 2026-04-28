@@ -205,6 +205,11 @@ nsIFormControl
 .
 h
 "
+"
+nsIHTMLCollection
+.
+h
+"
 ]
 EXPORTS
 .
