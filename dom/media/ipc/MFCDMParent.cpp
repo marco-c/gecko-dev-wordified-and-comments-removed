@@ -5808,6 +5808,15 @@ gfxVars
 UseWMFHWDWM
 (
 )
+&
+&
+!
+StaticPrefs
+:
+:
+media_eme_wmf_use_mock_cdm_for_external_cdms
+(
+)
 )
 {
 MFCDM_PARENT_SLOG
