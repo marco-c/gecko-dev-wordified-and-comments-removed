@@ -775,7 +775,7 @@ createDataURL
 )
 ;
 const
-moduleCount
+dotCount
 =
 encoder
 .
@@ -798,7 +798,7 @@ cellSize
 const
 size
 =
-moduleCount
+dotCount
 *
 cellSize
 +

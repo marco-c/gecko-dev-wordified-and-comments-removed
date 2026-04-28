@@ -167,10 +167,10 @@ equal
 (
 imgData
 .
-moduleCount
+dotCount
 undefined
 "
-moduleCount
+dotCount
 omitted
 by
 default
