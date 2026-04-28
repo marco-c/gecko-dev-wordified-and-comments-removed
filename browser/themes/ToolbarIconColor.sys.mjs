@@ -400,8 +400,6 @@ window
 event
 .
 target
-.
-ownerGlobal
 ;
 switch
 (

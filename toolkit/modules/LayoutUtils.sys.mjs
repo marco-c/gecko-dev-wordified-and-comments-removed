@@ -185,8 +185,6 @@ rect
 return
 win
 .
-ownerGlobal
-.
 windowUtils
 .
 toScreenRect
@@ -233,8 +231,6 @@ rect
 {
 return
 win
-.
-ownerGlobal
 .
 windowUtils
 .

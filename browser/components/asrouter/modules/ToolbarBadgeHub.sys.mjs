@@ -1580,8 +1580,6 @@ isBrowserPrivate
 (
 win
 .
-ownerGlobal
-.
 gBrowser
 .
 selectedBrowser
