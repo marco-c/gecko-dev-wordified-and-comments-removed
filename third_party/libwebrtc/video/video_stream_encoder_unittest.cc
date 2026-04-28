@@ -6801,7 +6801,7 @@ is_hardware_accelerated_
 ;
 for
 (
-int
+size_t
 i
 =
 0

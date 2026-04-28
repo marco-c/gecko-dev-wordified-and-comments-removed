@@ -191,6 +191,17 @@ checks
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+numerics
+/
+safe_compare
+.
+h
+"
 namespace
 webrtc
 {
@@ -1257,6 +1268,8 @@ num_temporal_layers
 1
 |
 |
+SafeGt
+(
 *
 rtp_parameters
 .
@@ -1266,8 +1279,8 @@ i
 ]
 .
 num_temporal_layers
->
 kMaxTemporalStreams
+)
 )
 {
 return

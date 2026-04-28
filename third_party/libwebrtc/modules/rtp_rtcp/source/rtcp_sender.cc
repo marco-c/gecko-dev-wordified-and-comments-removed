@@ -3254,7 +3254,7 @@ target_bitrate
 ;
 for
 (
-int
+size_t
 sl
 =
 0
@@ -3270,7 +3270,7 @@ sl
 {
 for
 (
-int
+size_t
 tl
 =
 0

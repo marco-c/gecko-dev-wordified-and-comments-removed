@@ -1683,7 +1683,7 @@ new_allocation
 ;
 for
 (
-int
+size_t
 si
 =
 0
@@ -1741,7 +1741,7 @@ else
 {
 for
 (
-int
+size_t
 ti
 =
 0
@@ -2239,7 +2239,7 @@ Zero
 ;
 for
 (
-int
+size_t
 si
 =
 0
