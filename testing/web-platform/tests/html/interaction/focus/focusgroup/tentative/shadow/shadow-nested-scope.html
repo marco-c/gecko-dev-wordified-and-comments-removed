@@ -462,10 +462,10 @@ inner2
 )
 ;
 await
-focusAndKeyPress
+focusAndSendDirectionalInput
 (
 outer1
-kArrowRight
+kRight
 )
 ;
 assert_equals
@@ -509,9 +509,9 @@ inner1
 )
 ;
 await
-sendKey
+sendDirectionalKey
 (
-kArrowRight
+kRight
 )
 ;
 assert_equals
@@ -543,9 +543,9 @@ inner2
 )
 ;
 await
-sendKey
+sendDirectionalKey
 (
-kArrowRight
+kRight
 )
 ;
 assert_equals

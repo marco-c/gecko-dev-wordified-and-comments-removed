@@ -398,10 +398,10 @@ r1c1
 )
 ;
 await
-focusAndKeyPress
+focusAndSendDirectionalInput
 (
 r1c1
-kArrowRight
+kRight
 )
 ;
 assert_equals
@@ -434,9 +434,7 @@ doesn
 '
 t
 allow
-arrow
--
-keys
+directional
 navigation
 "
 )

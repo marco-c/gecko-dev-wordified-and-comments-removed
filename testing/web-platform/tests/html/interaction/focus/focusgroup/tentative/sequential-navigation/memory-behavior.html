@@ -685,10 +685,10 @@ element
 )
 ;
 await
-focusAndKeyPress
+focusAndSendDirectionalInput
 (
 memoryItem2
-kArrowRight
+kRight
 )
 ;
 assert_equals
@@ -698,7 +698,7 @@ document
 activeElement
 memoryItem3
 "
-Arrow
+Directional
 navigation
 should
 move
@@ -885,10 +885,10 @@ element
 )
 ;
 await
-focusAndKeyPress
+focusAndSendDirectionalInput
 (
 noMemoryItem2
-kArrowRight
+kRight
 )
 ;
 assert_equals
@@ -898,7 +898,7 @@ document
 activeElement
 noMemoryItem3
 "
-Arrow
+Directional
 navigation
 should
 move
@@ -1369,10 +1369,10 @@ memoryItem2
 )
 ;
 await
-focusAndKeyPress
+focusAndSendDirectionalInput
 (
 memoryItem2
-kArrowLeft
+kLeft
 )
 ;
 assert_equals
@@ -1382,8 +1382,7 @@ document
 activeElement
 memoryItem1
 "
-Arrow
-left
+Left
 should
 move
 to
@@ -1435,8 +1434,7 @@ item
 is
 updated
 by
-arrow
-key
+directional
 navigation
 "
 )

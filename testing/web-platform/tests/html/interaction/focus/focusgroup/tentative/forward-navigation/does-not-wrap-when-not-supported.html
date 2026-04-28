@@ -295,10 +295,10 @@ item2
 )
 ;
 await
-focusAndKeyPress
+focusAndSendDirectionalInput
 (
 item2
-kArrowDown
+kDown
 )
 ;
 assert_equals
@@ -310,10 +310,10 @@ item2
 )
 ;
 await
-focusAndKeyPress
+focusAndSendDirectionalInput
 (
 item2
-kArrowRight
+kRight
 )
 ;
 assert_equals
@@ -349,9 +349,8 @@ the
 axis
 of
 the
-arrow
-key
-pressed
+directional
+input
 the
 focus
 shouldn

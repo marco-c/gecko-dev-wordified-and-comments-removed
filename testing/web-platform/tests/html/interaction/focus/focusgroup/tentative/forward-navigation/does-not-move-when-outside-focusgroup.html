@@ -314,10 +314,10 @@ out
 )
 ;
 await
-focusAndKeyPress
+focusAndSendDirectionalInput
 (
 out
-kArrowDown
+kDown
 )
 ;
 assert_equals
@@ -329,10 +329,10 @@ out
 )
 ;
 await
-focusAndKeyPress
+focusAndSendDirectionalInput
 (
 out
-kArrowRight
+kRight
 )
 ;
 assert_equals
@@ -357,9 +357,8 @@ outside
 of
 the
 focusgroup
-an
-arrow
-keypress
+directional
+input
 shouldn
 '
 t

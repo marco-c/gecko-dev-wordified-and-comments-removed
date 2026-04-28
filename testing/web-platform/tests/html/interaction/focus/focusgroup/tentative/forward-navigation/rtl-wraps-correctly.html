@@ -48,7 +48,7 @@ RTL
 focusgroup
 with
 wrap
-ArrowLeft
+Left
 at
 the
 last
@@ -59,7 +59,7 @@ to
 the
 first
 and
-ArrowRight
+Right
 at
 the
 first
@@ -253,9 +253,6 @@ src
 .
 .
 /
-.
-.
-/
 resources
 /
 focusgroup
@@ -365,7 +362,7 @@ item3
 ;
 /
 /
-ArrowLeft
+Left
 wraps
 forward
 :
@@ -378,10 +375,10 @@ to
 first
 .
 await
-focusAndKeyPress
+focusAndSendDirectionalInput
 (
 item3
-kArrowLeft
+kLeft
 )
 ;
 assert_equals
@@ -391,7 +388,7 @@ document
 activeElement
 item1
 "
-ArrowLeft
+Left
 from
 last
 item
@@ -406,7 +403,7 @@ RTL
 ;
 }
 "
-ArrowLeft
+Left
 at
 last
 item
@@ -454,7 +451,7 @@ item3
 ;
 /
 /
-ArrowRight
+Right
 wraps
 backward
 :
@@ -467,10 +464,10 @@ to
 last
 .
 await
-focusAndKeyPress
+focusAndSendDirectionalInput
 (
 item1
-kArrowRight
+kRight
 )
 ;
 assert_equals
@@ -480,7 +477,7 @@ document
 activeElement
 item3
 "
-ArrowRight
+Right
 from
 first
 item
@@ -495,7 +492,7 @@ RTL
 ;
 }
 "
-ArrowRight
+Right
 at
 first
 item

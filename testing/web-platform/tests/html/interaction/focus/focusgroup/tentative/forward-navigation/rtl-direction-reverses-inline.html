@@ -23,7 +23,7 @@ focusgroup
 -
 In
 RTL
-ArrowLeft
+Left
 moves
 focus
 forward
@@ -48,7 +48,7 @@ an
 RTL
 focusgroup
 the
-ArrowLeft
+Left
 key
 should
 move
@@ -60,7 +60,7 @@ inline
 end
 )
 and
-ArrowRight
+Right
 should
 move
 focus
@@ -258,9 +258,6 @@ src
 .
 .
 /
-.
-.
-/
 resources
 /
 focusgroup
@@ -373,7 +370,7 @@ item2
 /
 In
 RTL
-ArrowLeft
+Left
 is
 forward
 inline
@@ -385,10 +382,10 @@ end
 )
 .
 await
-focusAndKeyPress
+focusAndSendDirectionalInput
 (
 item1
-kArrowLeft
+kLeft
 )
 ;
 assert_equals
@@ -398,7 +395,7 @@ document
 activeElement
 item2
 "
-ArrowLeft
+Left
 should
 move
 forward
@@ -410,7 +407,7 @@ RTL
 ;
 }
 "
-ArrowLeft
+Left
 moves
 focus
 to
@@ -460,7 +457,7 @@ item2
 /
 In
 RTL
-ArrowRight
+Right
 is
 backward
 inline
@@ -472,10 +469,10 @@ start
 )
 .
 await
-focusAndKeyPress
+focusAndSendDirectionalInput
 (
 item2
-kArrowRight
+kRight
 )
 ;
 assert_equals
@@ -485,7 +482,7 @@ document
 activeElement
 item1
 "
-ArrowRight
+Right
 should
 move
 backward
@@ -497,7 +494,7 @@ RTL
 ;
 }
 "
-ArrowRight
+Right
 moves
 focus
 to
@@ -545,7 +542,7 @@ item2
 ;
 /
 /
-ArrowDown
+Down
 should
 still
 move
@@ -560,10 +557,10 @@ RTL
 )
 .
 await
-focusAndKeyPress
+focusAndSendDirectionalInput
 (
 item1
-kArrowDown
+kDown
 )
 ;
 assert_equals
@@ -573,7 +570,7 @@ document
 activeElement
 item2
 "
-ArrowDown
+Down
 should
 move
 forward
@@ -588,7 +585,7 @@ unchanged
 ;
 }
 "
-ArrowDown
+Down
 moves
 focus
 forward
@@ -638,7 +635,7 @@ item2
 ;
 /
 /
-ArrowUp
+Up
 should
 still
 move
@@ -653,10 +650,10 @@ RTL
 )
 .
 await
-focusAndKeyPress
+focusAndSendDirectionalInput
 (
 item2
-kArrowUp
+kUp
 )
 ;
 assert_equals
@@ -666,7 +663,7 @@ document
 activeElement
 item1
 "
-ArrowUp
+Up
 should
 move
 backward
@@ -681,7 +678,7 @@ unchanged
 ;
 }
 "
-ArrowUp
+Up
 moves
 focus
 backward
