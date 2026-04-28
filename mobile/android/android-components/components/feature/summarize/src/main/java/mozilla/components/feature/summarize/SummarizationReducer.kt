@@ -201,6 +201,16 @@ LearnMoreClicked
 SummarizationState
 .
 LearnMoreAboutShakeConsent
+ErrorAction
+.
+ErrorDismissed
+-
+>
+SummarizationState
+.
+Finished
+.
+ErrorDismissed
 is
 SummarizationRequested
 -
