@@ -17,11 +17,6 @@ partial_content
 sjs
 "
 "
-prefetch_cache
-.
-sjs
-"
-"
 rel_preconnect
 .
 sjs
@@ -979,13 +974,6 @@ pdf
 ^
 headers
 ^
-"
-]
-[
-"
-test_prefetch_cache_no_headers
-.
-html
 "
 ]
 #
