@@ -287,6 +287,8 @@ recordEditDeleteMetrics
 }
 RootOverflowMenuClicked
 RootOverflowMenuDismissed
+ImportAction
+.
 ImportFileClicked
 EditBookmarkAction
 .
@@ -320,6 +322,9 @@ DeleteClicked
 EditFolderAction
 .
 ParentFolderClicked
+ImportAction
+.
+ImportFailed
 is
 SnackbarAction
 is
