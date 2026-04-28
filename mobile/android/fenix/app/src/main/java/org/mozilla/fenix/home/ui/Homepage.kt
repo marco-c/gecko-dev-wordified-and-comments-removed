@@ -1673,6 +1673,12 @@ horizontalMargin
 else
 if
 (
+!
+sportsWidgetState
+.
+hasSkippedFollowTeam
+&
+&
 sportsWidgetState
 .
 countriesSelected
@@ -1693,8 +1699,10 @@ true
 }
 onSkip
 =
-{
-}
+interactor
+:
+:
+onSkippedFollowTeam
 onDismiss
 =
 {

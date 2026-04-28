@@ -4146,6 +4146,11 @@ appStore
 components
 .
 appStore
+settings
+=
+components
+.
+settings
 )
 )
 nullableToolbarView

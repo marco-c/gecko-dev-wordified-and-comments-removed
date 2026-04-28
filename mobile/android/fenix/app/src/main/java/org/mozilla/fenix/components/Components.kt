@@ -2430,6 +2430,11 @@ countriesSelected
 settings
 .
 sportsSelectedCountries
+hasSkippedFollowTeam
+=
+settings
+.
+hasSkippedSportsFollowTeam
 )
 val
 fxSuggest
