@@ -746,6 +746,17 @@ tests
 /
 browser
 -
+telemetry
+/
+browser
+.
+toml
+"
+"
+tests
+/
+browser
+-
 tips
 /
 browser

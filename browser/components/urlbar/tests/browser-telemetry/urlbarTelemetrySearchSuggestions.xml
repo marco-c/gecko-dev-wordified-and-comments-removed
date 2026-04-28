@@ -93,6 +93,8 @@ urlbar
 tests
 /
 browser
+-
+telemetry
 /
 urlbarTelemetrySearchSuggestions
 .

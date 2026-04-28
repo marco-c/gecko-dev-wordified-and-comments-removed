@@ -11549,8 +11549,10 @@ urlbar
 tests
 /
 browser
+-
+telemetry
 /
-browser_urlbar_telemetry_autofill
+browser_autofill
 .
 js
 "
@@ -11564,8 +11566,10 @@ urlbar
 tests
 /
 browser
+-
+telemetry
 /
-browser_urlbar_telemetry_places
+browser_places
 .
 js
 "
@@ -11579,8 +11583,10 @@ urlbar
 tests
 /
 browser
+-
+telemetry
 /
-browser_urlbar_telemetry_remotetab
+browser_remotetab
 .
 js
 "
@@ -11594,8 +11600,10 @@ urlbar
 tests
 /
 browser
+-
+telemetry
 /
-browser_urlbar_telemetry_searchmode
+browser_searchmode
 .
 js
 "
