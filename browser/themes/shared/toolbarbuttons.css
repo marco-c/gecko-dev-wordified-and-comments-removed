@@ -2624,6 +2624,16 @@ outline
 offset
 )
 ;
+overflow
+-
+clip
+-
+margin
+:
+padding
+-
+box
+;
 }
 &
 :
