@@ -68,6 +68,17 @@ codemirror
 import
 *
 as
+codemirrorAutocomplete
+from
+"
+codemirror
+/
+autocomplete
+"
+;
+import
+*
+as
 codemirrorView
 from
 "
@@ -228,6 +239,7 @@ folder
 export
 {
 codemirror
+codemirrorAutocomplete
 codemirrorView
 codemirrorState
 codemirrorSearch
