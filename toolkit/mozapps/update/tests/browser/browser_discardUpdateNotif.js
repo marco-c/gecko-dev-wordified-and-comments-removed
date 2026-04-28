@@ -316,7 +316,7 @@ is
 (
 manualDesktopCheckbox
 .
-checked
+selected
 true
 "
 Manual

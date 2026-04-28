@@ -425,13 +425,6 @@ js
 ]
 [
 "
-browser_updates_managed_by_os
-.
-js
-"
-]
-[
-"
 browser_windows_launch_on_login
 .
 js
