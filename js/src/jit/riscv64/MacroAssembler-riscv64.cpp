@@ -12807,6 +12807,7 @@ farJump
 nextInstrOffset
 (
 5
+0
 )
 .
 getOffset
