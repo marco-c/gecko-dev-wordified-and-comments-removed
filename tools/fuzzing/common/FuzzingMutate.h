@@ -7,7 +7,12 @@ mozilla_fuzzing_FuzzingMutate_h
 #
 include
 <
-random
+cstddef
+>
+#
+include
+<
+cstdint
 >
 namespace
 mozilla
