@@ -88,8 +88,9 @@ virtual
 HTMLListAccessible
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -156,8 +157,9 @@ virtual
 HTMLLIAccessible
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -183,8 +185,9 @@ virtual
 HTMLListBulletAccessible
 (
 )
-{
-}
+=
+default
+;
 virtual
 ENameValueFlag
 DirectName

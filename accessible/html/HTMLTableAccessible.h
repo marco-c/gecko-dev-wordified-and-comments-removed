@@ -166,8 +166,9 @@ virtual
 HTMLTableCellAccessible
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -247,8 +248,9 @@ virtual
 HTMLTableRowAccessible
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -406,8 +408,9 @@ virtual
 HTMLTableAccessible
 (
 )
-{
-}
+=
+default
+;
 virtual
 ENameValueFlag
 NativeName
@@ -515,8 +518,9 @@ virtual
 HTMLCaptionAccessible
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

@@ -40,8 +40,9 @@ virtual
 XULSelectControlAccessible
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Shutdown

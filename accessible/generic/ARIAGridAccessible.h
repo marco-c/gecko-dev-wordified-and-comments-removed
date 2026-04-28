@@ -68,8 +68,9 @@ virtual
 ARIAGridCellAccessible
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

@@ -767,8 +767,9 @@ write
 s
 (
 )
-{
-}
+=
+default
+;
 \
 n
 \

@@ -127,8 +127,9 @@ virtual
 HTMLLinkAccessible
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 AttributeChangesState

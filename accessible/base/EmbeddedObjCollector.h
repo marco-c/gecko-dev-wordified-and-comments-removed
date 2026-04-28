@@ -30,8 +30,9 @@ public
 EmbeddedObjCollector
 (
 )
-{
-}
+=
+default
+;
 int32_t
 GetIndexAt
 (

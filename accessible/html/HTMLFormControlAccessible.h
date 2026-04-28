@@ -438,8 +438,9 @@ virtual
 HTMLTextFieldAccessible
 (
 )
-{
-}
+=
+default
+;
 virtual
 ENameValueFlag
 DirectName
@@ -1137,8 +1138,9 @@ virtual
 HTMLProgressAccessible
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 DOMAttributeChanged
@@ -1279,8 +1281,9 @@ virtual
 HTMLMeterAccessible
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 DOMAttributeChanged
@@ -1469,8 +1472,9 @@ virtual
 HTMLDateTimeAccessible
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

@@ -86,8 +86,9 @@ virtual
 HTMLImageMapAccessible
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class

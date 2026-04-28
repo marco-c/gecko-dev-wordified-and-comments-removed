@@ -186,8 +186,9 @@ virtual
 XULLabelTextLeafAccessible
 (
 )
-{
-}
+=
+default
+;
 virtual
 a11y
 :

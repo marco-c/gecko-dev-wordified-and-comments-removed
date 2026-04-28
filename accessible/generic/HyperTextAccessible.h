@@ -546,8 +546,9 @@ virtual
 HyperTextAccessible
 (
 )
-{
-}
+=
+default
+;
 virtual
 ENameValueFlag
 NativeName

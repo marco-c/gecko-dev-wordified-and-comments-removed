@@ -354,8 +354,9 @@ virtual
 ApplicationAccessible
 (
 )
-{
-}
+=
+default
+;
 virtual
 LocalAccessible
 *

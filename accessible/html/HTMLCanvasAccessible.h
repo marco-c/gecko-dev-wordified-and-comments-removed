@@ -58,8 +58,9 @@ virtual
 HTMLCanvasAccessible
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

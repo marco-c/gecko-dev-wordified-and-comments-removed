@@ -380,8 +380,9 @@ virtual
 XULListboxAccessible
 (
 )
-{
-}
+=
+default
+;
 bool
 IsMulticolumn
 (
