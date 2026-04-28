@@ -3802,6 +3802,8 @@ media
 :
 rtc_media_config
 "
+#
+keep
 "
 .
 .
@@ -3810,6 +3812,8 @@ rtc_base
 :
 checks
 "
+#
+keep
 "
 .
 .
@@ -3818,6 +3822,8 @@ rtc_base
 :
 threading
 "
+#
+keep
 "
 .
 .
@@ -3828,6 +3834,8 @@ system
 :
 rtc_export
 "
+#
+keep
 ]
 }
 }
