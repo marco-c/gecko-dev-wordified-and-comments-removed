@@ -1386,6 +1386,12 @@ Flags
 :
 uint8_t
 {
+LOCK_IN_PROCESS
+=
+1
+<
+<
+0
 }
 ;
 size_t
