@@ -77,6 +77,7 @@ mjs
 import
 {
 getActiveCardSize
+getNovaColumnLayout
 }
 from
 "
@@ -768,6 +769,14 @@ section
 link
 .
 flightId
+getNovaColumnLayout
+(
+this
+.
+impressionRef
+.
+current
+)
 )
 }
 )
