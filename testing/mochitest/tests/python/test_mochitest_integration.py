@@ -71,21 +71,6 @@ get_mozharness_status
 mochitest
 "
 )
-IN_CI
-=
-os
-.
-environ
-.
-get
-(
-"
-MOZ_AUTOMATION
-"
-)
-is
-not
-None
 pytest
 .
 fixture
@@ -520,25 +505,6 @@ extra_opts
 {
 }
     
-lines
-=
-2
-if
-runFailures
-else
-1
-    
-if
-runFailures
-and
-IN_CI
-:
-        
-lines
-*
-=
-2
-    
 results
 =
 {
@@ -576,7 +542,11 @@ WARNING
 lines
 "
 :
-lines
+2
+if
+runFailures
+else
+1
         
 "
 line_status
@@ -687,39 +657,6 @@ test_status
 lines
 )
     
-lines
-=
-[
-        
-l
-for
-l
-in
-lines
-if
-not
-l
-.
-get
-(
-"
-message
-"
-"
-"
-)
-.
-startswith
-(
-"
-changed
-preference
-:
-"
-)
-    
-]
-    
 assert
 len
 (
@@ -804,17 +741,6 @@ extra_opts
 {
 }
     
-lines
-=
-2
-if
-not
-runFailures
-and
-IN_CI
-else
-1
-    
 results
 =
 {
@@ -852,7 +778,7 @@ WARNING
 lines
 "
 :
-lines
+1
         
 "
 line_status
@@ -1053,17 +979,6 @@ extra_opts
 {
 }
     
-lines
-=
-3
-if
-not
-runFailures
-and
-IN_CI
-else
-2
-    
 results
 =
 {
@@ -1101,7 +1016,7 @@ WARNING
 lines
 "
 :
-lines
+2
         
 "
 line_status
@@ -1866,14 +1781,6 @@ extra_opts
 {
 }
     
-lines
-=
-2
-if
-IN_CI
-else
-1
-    
 results
 =
 {
@@ -1900,7 +1807,7 @@ WARNING
 lines
 "
 :
-lines
+1
         
 "
 assertions
@@ -2029,7 +1936,7 @@ assertions
 results
 [
 "
-lines
+assertions
 "
 ]
     
