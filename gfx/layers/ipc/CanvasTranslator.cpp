@@ -4241,7 +4241,7 @@ eventType
 )
 )
 {
-gfxCriticalNote
+gfxCriticalNoteOnce
 <
 <
 "
