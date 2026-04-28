@@ -501,6 +501,15 @@ include
 "
 test
 /
+run_loop
+.
+h
+"
+#
+include
+"
+test
+/
 wait_until
 .
 h
@@ -1594,7 +1603,10 @@ candidate
 VirtualSocketServer
 vss_
 ;
-AutoSocketServerThread
+test
+:
+:
+RunLoop
 main_
 ;
 const

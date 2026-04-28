@@ -86,6 +86,15 @@ gtest
 .
 h
 "
+#
+include
+"
+test
+/
+run_loop
+.
+h
+"
 static
 const
 char
@@ -440,7 +449,10 @@ enabled
 )
 ;
 }
-AutoThread
+test
+:
+:
+RunLoop
 main_thread_
 ;
 scoped_refptr

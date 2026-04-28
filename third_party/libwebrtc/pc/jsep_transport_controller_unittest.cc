@@ -524,6 +524,15 @@ include
 "
 test
 /
+run_loop
+.
+h
+"
+#
+include
+"
+test
+/
 wait_until
 .
 h
@@ -2234,7 +2243,10 @@ CreateTestFieldTrials
 Environment
 env_
 ;
-AutoThread
+test
+:
+:
+RunLoop
 main_thread_
 ;
 IceConnectionState

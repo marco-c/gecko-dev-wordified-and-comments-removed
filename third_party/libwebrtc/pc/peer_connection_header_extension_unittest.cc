@@ -271,6 +271,15 @@ gtest
 .
 h
 "
+#
+include
+"
+test
+/
+run_loop
+.
+h
+"
 namespace
 webrtc
 {
@@ -751,7 +760,10 @@ SocketServer
 >
 socket_server_
 ;
-AutoSocketServerThread
+test
+:
+:
+RunLoop
 main_thread_
 ;
 std

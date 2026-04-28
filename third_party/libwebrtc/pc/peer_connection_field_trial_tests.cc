@@ -217,6 +217,15 @@ gtest
 h
 "
 #
+include
+"
+test
+/
+run_loop
+.
+h
+"
+#
 ifdef
 WEBRTC_ANDROID
 #
@@ -549,7 +558,10 @@ SocketServer
 >
 socket_server_
 ;
-AutoSocketServerThread
+test
+:
+:
+RunLoop
 main_thread_
 ;
 scoped_refptr

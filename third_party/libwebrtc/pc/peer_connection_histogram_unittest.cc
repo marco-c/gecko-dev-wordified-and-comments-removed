@@ -302,6 +302,15 @@ include
 "
 test
 /
+run_loop
+.
+h
+"
+#
+include
+"
+test
+/
 wait_until
 .
 h
@@ -2035,7 +2044,10 @@ next_local_address_
 VirtualSocketServer
 vss_
 ;
-AutoSocketServerThread
+test
+:
+:
+RunLoop
 main_
 ;
 }

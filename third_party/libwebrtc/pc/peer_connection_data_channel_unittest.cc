@@ -212,6 +212,15 @@ fake_sctp_transport
 h
 "
 #
+include
+"
+test
+/
+run_loop
+.
+h
+"
+#
 ifdef
 WEBRTC_ANDROID
 #
@@ -863,7 +872,10 @@ VirtualSocketServer
 >
 vss_
 ;
-AutoSocketServerThread
+test
+:
+:
+RunLoop
 main_
 ;
 const
