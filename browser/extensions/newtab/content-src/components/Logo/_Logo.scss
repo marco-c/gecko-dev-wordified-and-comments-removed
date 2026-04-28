@@ -93,6 +93,14 @@ nova
 enabled
 &
 {
+justify
+-
+content
+:
+flex
+-
+start
+;
 .
 wordmark
 {
@@ -110,7 +118,7 @@ grid
 -
 cols
 (
-6
+8
 )
 {
 width
