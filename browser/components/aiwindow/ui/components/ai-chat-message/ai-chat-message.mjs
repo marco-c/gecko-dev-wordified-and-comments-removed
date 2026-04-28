@@ -1428,6 +1428,16 @@ isSettingsURL
 parsed
 )
 {
+if
+(
+!
+parsed
+)
+{
+return
+false
+;
+}
 return
 (
 parsed
