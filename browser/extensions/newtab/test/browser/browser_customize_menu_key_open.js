@@ -48,6 +48,12 @@ querySelector
 personalize
 -
 button
+.
+open
+-
+customization
+-
+button
 "
 )
 "
@@ -128,6 +134,12 @@ querySelector
 "
 .
 personalize
+-
+button
+.
+open
+-
+customization
 -
 button
 "
