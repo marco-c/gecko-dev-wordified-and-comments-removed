@@ -3,9 +3,9 @@ pygithub
 =
 2
 .
-6
+9
 .
-1
+0
 pyyaml
 =
 =
@@ -49,8 +49,8 @@ requests
 taskcluster
 =
 =
-97
+99
 .
 0
 .
-1
+3
