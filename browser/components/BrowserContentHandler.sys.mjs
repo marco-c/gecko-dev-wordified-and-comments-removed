@@ -6019,9 +6019,7 @@ host
 {
 nimbusWNP
 =
-uri
-.
-spec
+nimbusOverrideUrl
 ;
 }
 else

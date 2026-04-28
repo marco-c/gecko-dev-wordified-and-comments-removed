@@ -24,6 +24,13 @@ html
 ]
 [
 "
+browser_releaseNotesURL
+.
+js
+"
+]
+[
+"
 browser_aboutCertError
 .
 js
@@ -340,6 +347,13 @@ files
 blank_page
 .
 sjs
+"
+]
+[
+"
+browser_aboutNetError_contentEncodingError
+.
+js
 "
 ]
 [
