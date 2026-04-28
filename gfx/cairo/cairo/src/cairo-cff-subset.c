@@ -7807,6 +7807,11 @@ fd
 if
 (
 sub_num
+<
+0
+|
+|
+sub_num
 >
 =
 (
@@ -7903,6 +7908,11 @@ local_sub_bias
 ;
 if
 (
+sub_num
+<
+0
+|
+|
 sub_num
 >
 =
@@ -8082,6 +8092,11 @@ global_sub_bias
 ;
 if
 (
+sub_num
+<
+0
+|
+|
 sub_num
 >
 =
