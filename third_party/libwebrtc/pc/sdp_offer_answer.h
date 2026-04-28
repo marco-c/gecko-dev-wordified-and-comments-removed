@@ -2439,7 +2439,7 @@ mid
 )
 const
 ;
-bool
+void
 UpdatePayloadTypeDemuxingState
 (
 ContentSource

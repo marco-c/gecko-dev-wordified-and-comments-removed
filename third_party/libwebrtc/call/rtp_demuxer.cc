@@ -2204,6 +2204,11 @@ ssrc_sink_it
 second
 ;
 }
+if
+(
+use_payload_type_demuxing_
+)
+{
 return
 ResolveSinkByPayloadType
 (
@@ -2214,6 +2219,10 @@ PayloadType
 )
 ssrc
 )
+;
+}
+return
+nullptr
 ;
 }
 RtpPacketSinkInterface

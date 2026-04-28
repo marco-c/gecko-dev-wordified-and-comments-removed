@@ -664,6 +664,16 @@ sink
 =
 0
 ;
+virtual
+void
+SetActivePayloadTypeDemuxing
+(
+bool
+enabled
+)
+=
+0
+;
 protected
 :
 void
