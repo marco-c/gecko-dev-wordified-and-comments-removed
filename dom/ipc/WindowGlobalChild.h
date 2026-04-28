@@ -678,7 +678,7 @@ nscolor
 &
 aBackgroundColor
 const
-uint32_t
+CrossProcessPaintFlags
 &
 aFlags
 DrawSnapshotResolver

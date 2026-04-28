@@ -2565,9 +2565,6 @@ this
 aRect
 mScale
 aBackgroundColor
-(
-uint32_t
-)
 aFlags
 )
 ;
@@ -2810,9 +2807,6 @@ NS_RGBA
 0
 0
 0
-)
-(
-uint32_t
 )
 self
 -

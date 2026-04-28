@@ -1432,7 +1432,10 @@ float
 aScale
 nscolor
 aBackgroundColor
-uint32_t
+gfx
+:
+:
+CrossProcessPaintFlags
 aFlags
 )
 ;
