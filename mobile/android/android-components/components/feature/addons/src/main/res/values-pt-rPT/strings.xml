@@ -6774,7 +6774,7 @@ name
 mozac_feature_addons_addons
 "
 >
-Extras
+Complementos
 <
 /
 string
@@ -6809,7 +6809,7 @@ mozac_feature_addons_addons_manager
 >
 Gestor
 de
-extras
+complementos
 <
 /
 string
@@ -7448,7 +7448,7 @@ UnusedResources
 >
 Verificador
 de
-extras
+complementos
 suportados
 <
 /
@@ -7499,7 +7499,7 @@ UnusedResources
 "
 >
 Novo
-extra
+complemento
 dispon
 vel
 <
@@ -7553,7 +7553,7 @@ UnusedResources
 "
 >
 Novos
-extras
+complementos
 dispon
 veis
 <
@@ -9016,7 +9016,7 @@ UnusedResources
 "
 >
 Este
-extra
+complemento
 foi
 migrado
 de
