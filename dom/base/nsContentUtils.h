@@ -391,9 +391,6 @@ class
 nsAutoScriptBlockerSuppressNodeRemoved
 ;
 class
-nsContentList
-;
-class
 nsCycleCollectionTraversalCallback
 ;
 class
@@ -659,6 +656,9 @@ BrowsingContextGroup
 ;
 class
 ContentChild
+;
+class
+ContentList
 ;
 class
 ContentFrameMessageManager
@@ -6372,7 +6372,13 @@ aHandling
 static
 already_AddRefed
 <
-nsContentList
+mozilla
+:
+:
+dom
+:
+:
+ContentList
 >
 GetElementsByClassName
 (

@@ -189,7 +189,7 @@ bool
 aFromParser
 )
 :
-nsContentList
+ContentList
 (
 aRoot
 MatchOption

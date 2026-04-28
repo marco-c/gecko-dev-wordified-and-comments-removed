@@ -356,7 +356,7 @@ aType
 )
 const
 ;
-nsIHTMLCollection
+HTMLCollection
 *
 Elements
 (
@@ -424,7 +424,7 @@ aData
 ;
 RefPtr
 <
-nsContentList
+ContentList
 >
 mElements
 ;

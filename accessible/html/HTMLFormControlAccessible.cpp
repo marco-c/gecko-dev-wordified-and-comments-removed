@@ -86,7 +86,11 @@ h
 #
 include
 "
-nsContentList
+mozilla
+/
+dom
+/
+ContentList
 .
 h
 "
@@ -667,7 +671,7 @@ name
 ;
 RefPtr
 <
-nsContentList
+ContentList
 >
 inputElms
 ;

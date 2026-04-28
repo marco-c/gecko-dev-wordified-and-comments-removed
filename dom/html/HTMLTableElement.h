@@ -442,7 +442,7 @@ CreateTFoot
 (
 )
 ;
-nsIHTMLCollection
+HTMLCollection
 *
 TBodies
 (
@@ -456,7 +456,7 @@ CreateTBody
 (
 )
 ;
-nsIHTMLCollection
+HTMLCollection
 *
 Rows
 (
@@ -1089,7 +1089,7 @@ nullptr
 }
 RefPtr
 <
-nsContentList
+ContentList
 >
 mTBodies
 ;

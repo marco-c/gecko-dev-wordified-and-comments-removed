@@ -315,7 +315,7 @@ return
 1
 ;
 }
-nsIHTMLCollection
+HTMLCollection
 *
 cells
 =

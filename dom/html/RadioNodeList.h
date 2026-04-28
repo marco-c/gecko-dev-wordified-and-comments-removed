@@ -25,14 +25,11 @@ h
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
-nsContentList
+mozilla
+/
+dom
+/
+ContentList
 .
 h
 "
@@ -66,7 +63,7 @@ RadioNodeList
 final
 :
 public
-nsSimpleContentList
+SimpleContentList
 {
 public
 :
@@ -78,7 +75,7 @@ HTMLFormElement
 aForm
 )
 :
-nsSimpleContentList
+SimpleContentList
 (
 aForm
 )
