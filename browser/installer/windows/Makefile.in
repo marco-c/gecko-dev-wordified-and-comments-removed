@@ -266,7 +266,7 @@ nsh
 \
 nsis
 /
-get_installation_type
+desktop_launcher_helpers
 .
 nsh
 \
