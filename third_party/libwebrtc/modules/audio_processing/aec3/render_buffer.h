@@ -395,6 +395,7 @@ fft_buffer_
 >
 write
 <
+=
 fft_buffer_
 -
 >
@@ -431,7 +432,7 @@ RTC_DCHECK_LE
 headroom
 )
 ;
-RTC_DCHECK_GE
+RTC_DCHECK_GT
 (
 fft_buffer_
 -
