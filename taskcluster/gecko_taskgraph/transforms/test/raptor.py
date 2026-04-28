@@ -3582,6 +3582,17 @@ label
 :
         
 if
+"
+android
+"
+in
+label
+:
+            
+return
+False
+        
+if
 any
 (
 sp3_test
