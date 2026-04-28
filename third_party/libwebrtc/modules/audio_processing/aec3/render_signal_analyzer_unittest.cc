@@ -56,15 +56,6 @@ include
 "
 api
 /
-array_view
-.
-h
-"
-#
-include
-"
-api
-/
 audio
 /
 echo_canceller3_config

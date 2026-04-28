@@ -35,15 +35,6 @@ h
 #
 include
 "
-api
-/
-array_view
-.
-h
-"
-#
-include
-"
 modules
 /
 audio_processing
