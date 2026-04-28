@@ -2026,6 +2026,15 @@ filePath
 getFilePath
 (
 )
+showOSXPermissionWarning
+:
+!
+gIsCertError
+&
+&
+RPMShowOSXLocalNetworkPermissionWarning
+(
+)
 }
 )
 ;
