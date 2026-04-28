@@ -2939,7 +2939,7 @@ TimeDelta
 :
 Millis
 (
-2800
+2500
 )
 )
 ;
@@ -2963,7 +2963,7 @@ TimeDelta
 :
 Millis
 (
-2900
+2500
 )
 )
 ;
