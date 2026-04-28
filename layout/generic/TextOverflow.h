@@ -674,6 +674,12 @@ uint32_t
 aLineNumber
 )
 ;
+gfxTextRun
+*
+GetEllipsisTextRun
+(
+)
+;
 LogicalRect
 mContentArea
 ;
@@ -855,6 +861,12 @@ mIStart
 ;
 Marker
 mIEnd
+;
+RefPtr
+<
+gfxTextRun
+>
+mEllipsisTextRun
 ;
 }
 ;
