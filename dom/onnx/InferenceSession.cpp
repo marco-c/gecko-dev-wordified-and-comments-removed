@@ -700,7 +700,7 @@ mInterOpNumThreads
 LOGD
 (
 "
-Inter
+Intra
 op
 num
 threads
@@ -715,7 +715,7 @@ mIntraOpNumThreads
 ;
 CALL_API
 (
-SetInterOpNumThreads
+SetIntraOpNumThreads
 aOptions
 .
 mIntraOpNumThreads
@@ -3936,6 +3936,10 @@ ReleaseSession
 mSession
 )
 ;
+mSession
+=
+nullptr
+;
 }
 if
 (
@@ -3949,6 +3953,10 @@ ReleaseSessionOptions
 (
 mOptions
 )
+;
+mOptions
+=
+nullptr
 ;
 }
 }
