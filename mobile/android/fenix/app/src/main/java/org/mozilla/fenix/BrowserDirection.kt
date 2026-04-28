@@ -157,14 +157,6 @@ id
 .
 wallpaperSettingsFragment
 )
-FromSearchDialog
-(
-R
-.
-id
-.
-searchDialogFragment
-)
 FromSettings
 (
 R

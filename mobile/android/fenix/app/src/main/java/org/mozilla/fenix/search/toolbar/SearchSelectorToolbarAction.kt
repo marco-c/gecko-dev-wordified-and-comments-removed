@@ -289,7 +289,7 @@ fenix
 .
 search
 .
-SearchDialogFragmentStore
+SearchFragmentStore
 import
 org
 .
@@ -345,7 +345,7 @@ SearchSelector
 param
 store
 [
-SearchDialogFragmentStore
+SearchFragmentStore
 ]
 containing
 the
@@ -354,7 +354,7 @@ state
 of
 the
 search
-dialog
+UX
 .
 *
 param
@@ -411,7 +411,7 @@ private
 val
 store
 :
-SearchDialogFragmentStore
+SearchFragmentStore
 private
 val
 defaultSearchEngine

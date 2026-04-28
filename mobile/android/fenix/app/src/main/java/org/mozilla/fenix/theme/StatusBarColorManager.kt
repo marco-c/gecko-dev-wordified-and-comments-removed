@@ -132,16 +132,6 @@ fenix
 home
 .
 HomeFragment
-import
-org
-.
-mozilla
-.
-fenix
-.
-search
-.
-SearchDialogFragment
 /
 *
 *
@@ -300,9 +290,4 @@ HomeFragment
 fragment
 is
 BrowserFragment
-|
-|
-fragment
-is
-SearchDialogFragment
 }

@@ -202,6 +202,9 @@ Settings
 =
 mockk
 (
+relaxed
+=
+true
 )
 Test
 fun

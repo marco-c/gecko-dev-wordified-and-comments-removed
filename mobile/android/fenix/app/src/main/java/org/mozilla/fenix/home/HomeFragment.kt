@@ -4007,9 +4007,6 @@ searchSelectorController
 =
 DefaultSearchSelectorController
 (
-activity
-=
-activity
 navController
 =
 findNavController

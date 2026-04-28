@@ -357,16 +357,6 @@ mozilla
 .
 fenix
 .
-search
-.
-SearchDialogFragment
-import
-org
-.
-mozilla
-.
-fenix
-.
 termsofuse
 .
 store
@@ -2207,19 +2197,14 @@ shown
 Only
 show
 if
-the
 search
-dialog
-*
-[
-SearchDialogFragment
-]
 is
 not
-visible
+active
 and
 the
 user
+*
 does
 not
 have
@@ -2230,7 +2215,6 @@ to
 be
 on
 the
-*
 bottom
 and
 the
@@ -2241,6 +2225,7 @@ in
 landscape
 mode
 .
+*
 This
 is
 in
@@ -2251,7 +2236,6 @@ in
 the
 view
 layer
-*
 which
 hides
 the
@@ -2261,6 +2245,7 @@ bar
 when
 the
 users
+*
 scrolls
 down
 .
@@ -2270,7 +2255,6 @@ separate
 from
 the
 middle
-*
 search
 bar
 being
@@ -2279,6 +2263,7 @@ in
 settings
 since
 the
+*
 toolbar
 address
 bar
@@ -2288,7 +2273,6 @@ react
 to
 the
 middle
-*
 search
 bar
 '
