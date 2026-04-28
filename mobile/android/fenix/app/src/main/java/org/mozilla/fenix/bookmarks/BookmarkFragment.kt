@@ -848,6 +848,17 @@ default
 .
 copy
 (
+showBookmarksImport
+=
+requireContext
+(
+)
+.
+settings
+(
+)
+.
+importBookmarksFeatureFlagEnabled
 sortOrder
 =
 BookmarksListSortOrder

@@ -285,6 +285,9 @@ recordEditDeleteMetrics
 (
 )
 }
+RootOverflowMenuClicked
+RootOverflowMenuDismissed
+ImportFileClicked
 EditBookmarkAction
 .
 FolderClicked
