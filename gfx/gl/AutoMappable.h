@@ -7,6 +7,11 @@ MOZILLA_AUTO_MAPPABLE_H
 #
 include
 <
+functional
+>
+#
+include
+<
 tuple
 >
 namespace
