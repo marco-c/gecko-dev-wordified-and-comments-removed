@@ -198,14 +198,8 @@ settings
 Settings
 =
 mockk
-{
-every
-{
-shouldUseComposableToolbar
-}
-returns
-false
-}
+(
+)
 Test
 fun
 do

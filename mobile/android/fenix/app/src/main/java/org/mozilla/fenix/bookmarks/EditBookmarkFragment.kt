@@ -503,13 +503,6 @@ requireComponents
 useCases
 .
 fenixBrowserUseCases
-useNewSearchUX
-=
-settings
-(
-)
-.
-shouldUseComposableToolbar
 openBookmarksInNewTab
 =
 if
@@ -560,10 +553,6 @@ id
 .
 browserFragment
 )
-}
-navigateToSearch
-=
-{
 }
 navigateToSignIntoSync
 =

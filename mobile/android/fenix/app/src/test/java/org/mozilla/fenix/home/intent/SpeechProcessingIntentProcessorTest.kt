@@ -313,14 +313,8 @@ settings
 Settings
 =
 mockk
-{
-every
-{
-shouldUseComposableToolbar
-}
-returns
-false
-}
+(
+)
 private
 val
 searchEngine

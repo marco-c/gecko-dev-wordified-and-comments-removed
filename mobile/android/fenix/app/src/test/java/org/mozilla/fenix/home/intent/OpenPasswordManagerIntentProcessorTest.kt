@@ -221,14 +221,8 @@ settings
 Settings
 =
 mockk
-{
-every
-{
-shouldUseComposableToolbar
-}
-returns
-false
-}
+(
+)
 Before
 fun
 setup
