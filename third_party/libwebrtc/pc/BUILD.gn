@@ -2696,6 +2696,14 @@ field_trials_view
 /
 api
 :
+payload_type
+"
+"
+.
+.
+/
+api
+:
 rtc_error
 "
 "
