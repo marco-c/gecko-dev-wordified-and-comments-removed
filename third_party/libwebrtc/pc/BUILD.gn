@@ -11113,6 +11113,10 @@ rtp_transport_internal
 "
 "
 :
+scoped_operations_batcher
+"
+"
+:
 session_description
 "
 "

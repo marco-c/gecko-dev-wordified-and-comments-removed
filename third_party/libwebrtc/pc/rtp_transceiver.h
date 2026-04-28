@@ -424,6 +424,9 @@ class
 PeerConnectionSdpMethods
 ;
 class
+ScopedOperationsBatcher
+;
+class
 RtpTransceiver
 :
 public
@@ -1396,7 +1399,7 @@ RtpTransportInternal
 rtp_transport
 )
 ;
-RTCError
+void
 SetChannelLocalContent
 (
 const
@@ -1405,9 +1408,12 @@ MediaContentDescription
 content
 SdpType
 type
+ScopedOperationsBatcher
+&
+batcher
 )
 ;
-RTCError
+void
 SetChannelRemoteContent
 (
 const
@@ -1416,6 +1422,9 @@ MediaContentDescription
 content
 SdpType
 type
+ScopedOperationsBatcher
+&
+batcher
 )
 ;
 bool
@@ -1705,7 +1714,7 @@ content
 )
 const
 ;
-RTCError
+void
 SetChannelContent
 (
 absl
@@ -1720,6 +1729,9 @@ RTCError
 &
 >
 set_content
+ScopedOperationsBatcher
+&
+batcher
 )
 ;
 const
