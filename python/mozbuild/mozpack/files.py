@@ -633,6 +633,14 @@ property
 "
 "
     
+supports_stamp
+=
+False
+    
+is_symlink_backed
+=
+False
+    
 staticmethod
     
 def
@@ -2001,6 +2009,14 @@ absolute
 "
 "
     
+supports_stamp
+=
+True
+    
+is_symlink_backed
+=
+True
+    
 def
 __init__
 (
@@ -2749,6 +2765,10 @@ raised
 "
 "
 "
+    
+supports_stamp
+=
+True
     
 def
 __init__

@@ -450,6 +450,13 @@ py
 ]
 [
 "
+test_testing
+.
+py
+"
+]
+[
+"
 test_mozconfig
 .
 py

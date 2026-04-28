@@ -1371,7 +1371,8 @@ build_obj
 )
 :
         
-return
+parser
+=
 parser_remote
 (
 )
@@ -1379,10 +1380,53 @@ parser_remote
 else
 :
         
-return
+parser
+=
 parser_desktop
 (
 )
+    
+parser
+.
+add_argument
+(
+        
+"
+-
+-
+force
+"
+        
+action
+=
+"
+store_true
+"
+        
+default
+=
+False
+        
+help
+=
+"
+Force
+reinstallation
+of
+test
+symlinks
+even
+if
+up
+to
+date
+.
+"
+    
+)
+    
+return
+parser
 Command
 (
     
@@ -1492,6 +1536,18 @@ manifest
 =
 m
     
+force
+=
+params
+.
+pop
+(
+"
+force
+"
+False
+)
+    
 driver
 =
 command_context
@@ -1505,6 +1561,9 @@ driver
 .
 install_tests
 (
+force
+=
+force
 )
     
 command_context
