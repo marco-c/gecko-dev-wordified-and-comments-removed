@@ -1211,6 +1211,13 @@ stdlib
 h
 >
 #
+include
+<
+locale
+.
+h
+>
+#
 ifdef
 XP_UNIX
 #
