@@ -217,6 +217,9 @@ Lakers
 score
 =
 107
+icon
+=
+null
 )
 homeTeam
 =
@@ -230,6 +233,9 @@ Clippers
 score
 =
 103
+icon
+=
+null
 )
 )
 )
@@ -276,6 +282,9 @@ Jackets
 score
 =
 14
+icon
+=
+null
 )
 homeTeam
 =
@@ -290,6 +299,9 @@ Vikings
 score
 =
 12
+icon
+=
+null
 )
 )
 )
@@ -339,6 +351,9 @@ Yankees
 score
 =
 null
+icon
+=
+null
 )
 homeTeam
 =
@@ -350,6 +365,9 @@ name
 Diamondbacks
 "
 score
+=
+null
+icon
 =
 null
 )
@@ -403,6 +421,9 @@ Lightning
 score
 =
 1
+icon
+=
+null
 )
 homeTeam
 =
@@ -416,6 +437,9 @@ Canucks
 score
 =
 0
+icon
+=
+null
 )
 )
 )

@@ -1419,6 +1419,13 @@ add
 (
 SportsOnlineSuggestionProvider
 (
+icons
+=
+components
+.
+core
+.
+icons
 searchUseCase
 =
 searchUseCase

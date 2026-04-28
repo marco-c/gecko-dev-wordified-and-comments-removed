@@ -241,6 +241,6 @@ score
 score
 icon
 =
-null
+icon
 )
 }

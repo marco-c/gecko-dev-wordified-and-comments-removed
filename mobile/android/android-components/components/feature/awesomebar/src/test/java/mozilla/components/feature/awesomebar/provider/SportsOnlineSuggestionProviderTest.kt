@@ -352,6 +352,11 @@ provider
 =
 SportsOnlineSuggestionProvider
 (
+icons
+=
+mock
+(
+)
 searchUseCase
 =
 mock
@@ -550,6 +555,11 @@ localProvider
 =
 SportsOnlineSuggestionProvider
 (
+icons
+=
+mock
+(
+)
 searchUseCase
 =
 searchUseCase
@@ -697,6 +707,11 @@ limitedProvider
 =
 SportsOnlineSuggestionProvider
 (
+icons
+=
+mock
+(
+)
 searchUseCase
 =
 mock
@@ -763,6 +778,11 @@ p
 =
 SportsOnlineSuggestionProvider
 (
+icons
+=
+mock
+(
+)
 searchUseCase
 =
 mock
@@ -862,6 +882,11 @@ cancellableProvider
 =
 SportsOnlineSuggestionProvider
 (
+icons
+=
+mock
+(
+)
 searchUseCase
 =
 mock
@@ -2136,6 +2161,8 @@ and
 score
 (
 )
+=
+runTest
 {
 val
 team
@@ -2212,6 +2239,8 @@ team
 name
 (
 )
+=
+runTest
 {
 val
 team
