@@ -224,6 +224,9 @@ be
 "
 default
 "
+"
+small
+"
 or
 "
 large
