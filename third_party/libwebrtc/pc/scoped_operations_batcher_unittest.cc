@@ -325,7 +325,7 @@ signaling_thread
 TEST
 (
 ScopedOperationsBatcherTest
-YieldsToHighPriorityTasks
+YieldsToOtherTasks
 )
 {
 auto
@@ -401,7 +401,7 @@ push_back
 target_thread
 -
 >
-PostHighPriorityTask
+PostTask
 (
 [
 &

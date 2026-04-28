@@ -318,7 +318,7 @@ target_thread_is_current
 target_thread_
 -
 >
-IsYieldRequested
+HasPendingTasks
 (
 )
 )
