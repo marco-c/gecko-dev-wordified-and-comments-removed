@@ -421,7 +421,10 @@ mobile
 -
 enable
 -
-sync2
+sync
+=
+.
+label
 =
 Enable
 sync
@@ -441,7 +444,10 @@ mobile
 -
 connect
 -
-phone2
+phone
+=
+.
+label
 =
 Connect
 your
@@ -458,7 +464,10 @@ mobile
 -
 device
 -
-missing2
+missing
+=
+.
+label
 =
 Don
 t
