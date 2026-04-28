@@ -362,6 +362,12 @@ BaseCapturerPipeWire
 (
 )
 {
+portal_
+.
+reset
+(
+)
+;
 options_
 .
 screencast_stream
