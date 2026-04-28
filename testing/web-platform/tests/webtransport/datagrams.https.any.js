@@ -538,7 +538,9 @@ wt
 .
 datagrams
 .
-writable
+createWritable
+(
+)
 .
 getWriter
 (
@@ -670,7 +672,9 @@ wt
 .
 datagrams
 .
-writable
+createWritable
+(
+)
 .
 getWriter
 (
@@ -826,7 +830,9 @@ wt
 .
 datagrams
 .
-writable
+createWritable
+(
+)
 .
 getWriter
 (
@@ -983,7 +989,9 @@ wt
 .
 datagrams
 .
-writable
+createWritable
+(
+)
 .
 getWriter
 (
@@ -1127,7 +1135,9 @@ wt
 .
 datagrams
 .
-writable
+createWritable
+(
+)
 .
 getWriter
 (
@@ -1274,7 +1284,9 @@ wt
 .
 datagrams
 .
-writable
+createWritable
+(
+)
 .
 getWriter
 (
@@ -1440,7 +1452,9 @@ wt
 .
 datagrams
 .
-writable
+createWritable
+(
+)
 .
 getWriter
 (
@@ -1681,7 +1695,9 @@ wt
 .
 datagrams
 .
-writable
+createWritable
+(
+)
 .
 getWriter
 (
