@@ -302,7 +302,7 @@ libs
 .
 androidx
 .
-preferences
+preference
 implementation
 libs
 .
