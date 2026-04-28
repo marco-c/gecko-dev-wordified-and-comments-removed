@@ -26444,9 +26444,10 @@ browser
 .
 ipProtection
 .
-egressLocationEnabled
+egressLocation
 "
-false
+"
+"
 )
 ;
 pref
