@@ -79,6 +79,11 @@ BracketArrow
 js
 "
 "
+DebuggerImage
+.
+js
+"
+"
 Dropdown
 .
 js
@@ -105,6 +110,11 @@ js
 "
 "
 ResultList
+.
+js
+"
+"
+SearchInput
 .
 js
 "

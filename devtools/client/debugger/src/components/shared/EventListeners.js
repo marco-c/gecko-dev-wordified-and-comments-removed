@@ -120,13 +120,10 @@ import
 DebuggerImage
 from
 "
-devtools
-/
-client
+.
+.
 /
 shared
-/
-components
 /
 DebuggerImage
 "

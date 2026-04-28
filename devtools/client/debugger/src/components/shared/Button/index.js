@@ -1,4 +1,13 @@
 import
+CloseButton
+from
+"
+.
+/
+CloseButton
+"
+;
+import
 CommandBarButton
 {
 debugBtn
@@ -21,6 +30,7 @@ PaneToggleButton
 ;
 export
 {
+CloseButton
 CommandBarButton
 debugBtn
 PaneToggleButton
