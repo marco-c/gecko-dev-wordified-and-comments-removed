@@ -83,7 +83,7 @@ appservices
 .
 remotesettings
 .
-RemoteSettingsConfig2
+RemoteSettingsConfig
 import
 mozilla
 .
@@ -229,7 +229,7 @@ absolutePath
 RemoteSettingsService
 (
 databasePath
-RemoteSettingsConfig2
+RemoteSettingsConfig
 (
 server
 =
@@ -370,7 +370,7 @@ Data
 class
 representing
 the
-RemoteSettingsConfig2
+RemoteSettingsConfig
 in
 appservices
 .
@@ -420,7 +420,7 @@ RemoteSettingsServerConfig
 ]
 into
 [
-RemoteSettingsConfig2
+RemoteSettingsConfig
 ]
 .
 *
@@ -440,10 +440,10 @@ into
 (
 )
 :
-RemoteSettingsConfig2
+RemoteSettingsConfig
 {
 return
-RemoteSettingsConfig2
+RemoteSettingsConfig
 (
 this
 .
