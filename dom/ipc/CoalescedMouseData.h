@@ -87,7 +87,7 @@ Coalesce
 const
 WidgetMouseEvent
 &
-aEvent
+aMouseOrPointerEvent
 const
 ScrollableLayerGuid
 &
@@ -104,7 +104,7 @@ CanCoalesce
 const
 WidgetMouseEvent
 &
-aEvent
+aMouseMoveEvent
 const
 ScrollableLayerGuid
 &
