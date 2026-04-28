@@ -316,6 +316,9 @@ h
 "
 #
 if
+0
+#
+if
 defined
 (
 HAVE_ARC4RANDOM
@@ -408,6 +411,8 @@ random_rand_s
 .
 h
 "
+#
+endif
 #
 endif
 #
