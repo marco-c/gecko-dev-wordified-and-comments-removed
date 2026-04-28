@@ -3668,6 +3668,10 @@ CryptoOptions
 &
 VideoBitrateAllocatorFactory
 *
+VideoMediaSendChannelInterface
+:
+:
+EncoderSwitchRequestCallback
 )
 {
 std

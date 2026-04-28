@@ -344,9 +344,6 @@ RtpHeaderExtensionCapability
 GetRtpHeaderExtensions
 (
 const
-webrtc
-:
-:
 FieldTrialsView
 *
 field_trials
@@ -714,6 +711,13 @@ crypto_options
 VideoBitrateAllocatorFactory
 *
 video_bitrate_allocator_factory
+VideoMediaSendChannelInterface
+:
+:
+EncoderSwitchRequestCallback
+video_encoder_switch_request_callback
+=
+nullptr
 )
 =
 0
@@ -1155,9 +1159,6 @@ RtpHeaderExtensionQueryInterface
 &
 query_interface
 const
-webrtc
-:
-:
 FieldTrialsView
 *
 field_trials
