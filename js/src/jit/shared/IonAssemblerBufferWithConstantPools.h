@@ -1448,6 +1448,15 @@ guardSize
 static
 constexpr
 unsigned
+VeneerSize
+=
+settings
+.
+guardSize
+;
+static
+constexpr
+unsigned
 HeaderSize
 =
 settings
@@ -1789,7 +1798,7 @@ numNewDeadlines
 const
 {
 return
-GuardSize
+VeneerSize
 *
 (
 branchDeadlines_
@@ -2969,7 +2978,7 @@ this
 >
 putBytes
 (
-GuardSize
+VeneerSize
 *
 InstSize
 nullptr
