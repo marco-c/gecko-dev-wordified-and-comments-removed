@@ -1658,7 +1658,7 @@ col
 }
 TEST
 (
-TestHDRPNGEncoder
+ImageHDRPNGEncoder
 R10G10B10A2RoundTrip
 )
 {
@@ -1742,7 +1742,7 @@ surface
 }
 TEST
 (
-TestHDRPNGEncoder
+ImageHDRPNGEncoder
 U10RoundTrip
 )
 {
@@ -1828,7 +1828,7 @@ surface
 }
 TEST
 (
-TestHDRPNGEncoder
+ImageHDRPNGEncoder
 U12RoundTrip
 )
 {
@@ -1914,7 +1914,7 @@ surface
 }
 TEST
 (
-TestHDRPNGEncoder
+ImageHDRPNGEncoder
 U16RoundTrip
 )
 {
@@ -2000,7 +2000,7 @@ surface
 }
 TEST
 (
-TestHDRPNGEncoder
+ImageHDRPNGEncoder
 F16RoundTrip
 )
 {
