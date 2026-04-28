@@ -15341,6 +15341,11 @@ eInsideAlert
 ;
 if
 (
+IsTableRow
+(
+)
+|
+|
 IsTableCell
 (
 )
@@ -15440,6 +15445,11 @@ UnbindFromParent
 {
 if
 (
+IsTableRow
+(
+)
+|
+|
 IsTable
 (
 )

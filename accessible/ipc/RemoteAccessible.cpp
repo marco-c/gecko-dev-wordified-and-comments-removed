@@ -373,6 +373,11 @@ IsTable
 )
 |
 |
+IsTableRow
+(
+)
+|
+|
 IsTableCell
 (
 )
