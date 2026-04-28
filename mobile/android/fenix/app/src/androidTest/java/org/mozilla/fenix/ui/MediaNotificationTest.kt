@@ -938,6 +938,9 @@ closeTab
 )
 verifySnackBarText
 (
+retryableComposeTestRule
+.
+current
 "
 Private
 tab

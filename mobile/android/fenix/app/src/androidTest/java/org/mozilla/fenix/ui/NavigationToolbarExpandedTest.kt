@@ -1296,6 +1296,7 @@ closeTabFromShortcutsMenu
 {
 verifySnackBarText
 (
+composeTestRule
 "
 Tab
 closed
