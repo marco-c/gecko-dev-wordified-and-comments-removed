@@ -118,6 +118,8 @@ grammar
 '
 auto
 |
+spaces
+|
 none
 '
 .
@@ -209,6 +211,18 @@ overhang
 "
 "
 none
+"
+)
+;
+test_valid_value
+(
+"
+ruby
+-
+overhang
+"
+"
+spaces
 "
 )
 ;
