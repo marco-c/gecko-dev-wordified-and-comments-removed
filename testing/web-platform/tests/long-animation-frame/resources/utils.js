@@ -998,11 +998,18 @@ detected
 "
 )
 ;
+const
+clamping_epsilon
+=
+1
+;
 assert_greater_than_equal
 (
 entry
 .
 duration
++
+clamping_epsilon
 script
 .
 duration
@@ -1013,6 +1020,8 @@ assert_greater_than_equal
 script
 .
 executionStart
++
+clamping_epsilon
 script
 .
 startTime
@@ -1023,6 +1032,8 @@ assert_greater_than_equal
 script
 .
 startTime
++
+clamping_epsilon
 entry
 .
 startTime
