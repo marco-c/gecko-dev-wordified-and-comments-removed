@@ -162,6 +162,13 @@ js
 ]
 [
 "
+test_distribution_observer
+.
+js
+"
+]
+[
+"
 test_profileDataUpgrade_smartwindow
 .
 js
