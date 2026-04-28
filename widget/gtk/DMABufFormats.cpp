@@ -126,6 +126,11 @@ Logging
 .
 h
 "
+#
+include
+<
+mutex
+>
 using
 namespace
 mozilla

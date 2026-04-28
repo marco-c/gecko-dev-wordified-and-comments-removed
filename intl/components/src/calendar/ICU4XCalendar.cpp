@@ -37,11 +37,6 @@ cstring
 #
 include
 <
-mutex
->
-#
-include
-<
 stdint
 .
 h
