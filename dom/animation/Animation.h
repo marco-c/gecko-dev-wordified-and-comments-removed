@@ -522,7 +522,7 @@ mTimeline
 mTimeline
 -
 >
-IsScrollTimeline
+IsViewTimeline
 (
 )
 ?
