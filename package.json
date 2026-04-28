@@ -125,9 +125,11 @@ plugin
 1
 "
 "
-types
+typescript
 /
-gecko
+lib
+-
+dom
 "
 :
 "
