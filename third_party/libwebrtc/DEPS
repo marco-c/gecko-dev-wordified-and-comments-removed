@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-31f6cbd695178167c3430e897e07cba52e316006
+d2fdfe540d234357ea185e14b9721739339ea9a7
 '
 #
 Fetch
@@ -558,7 +558,7 @@ chromium
 src
 /
 build
-7e958c162b6043bbb4b84e9d1418f8ee8f68ba34
+376dfbb70294202ba3f248d459be95c26c766423
 '
 '
 src
@@ -678,7 +678,7 @@ chromium
 src
 /
 ios
-7858fc4146da04e5e0f5583afe3aa04337ef29ba
+88f8168044098901642bae31fb008a955a79ea2c
 '
 '
 condition
@@ -710,7 +710,7 @@ chromium
 src
 /
 testing
-53cc79e2fca64e4075719222582ca77ff1276bc4
+104338fa9d2b5ee90064a595b537b7403c29c74f
 '
 '
 src
@@ -734,7 +734,7 @@ chromium
 src
 /
 third_party
-1ec8287478b97a74971870a689dec6b1c9573f9d
+fad81ef2daf5a05d454f80d2db57981f720471ae
 '
 '
 src
@@ -2863,7 +2863,7 @@ compiler
 rt
 .
 git
-59066a662511e1f9959b07a32c88906d7212b6a7
+84bfdcd752cb00ccc8087aeb584d3c08e9da96ba
 '
 '
 src
@@ -2984,7 +2984,7 @@ project
 libc
 .
 git
-a96728b9a94a732ec71650710949851ddf114845
+9b08b4a339fce4aaa79c30ec303eb8edeb198290
 '
 '
 src
@@ -3817,7 +3817,7 @@ com
 boringssl
 .
 git
-6453bd80a9fe293c0adb8ae67d5d9c233100a7b9
+ba3de4d9b41906eb7e50d69edca140ef3cec053a
 '
 '
 src
@@ -4271,7 +4271,7 @@ harfbuzz
 harfbuzz
 .
 git
-5d4e96ad8d00fc871ffa17707b2ca08fa850e7d6
+6f4c5cec306d31e6822303f5ba248a14293d588e
 '
 '
 src
@@ -5182,7 +5182,7 @@ git
 '
 +
 '
-d2aaedff4b9e6fdb90edfdb57f02d79c87d23a73
+b041e451767026d64f688b3767938c0222652b31
 '
 '
 src
@@ -5725,7 +5725,7 @@ chromium
 src
 /
 tools
-1582fc6219ee1aba33145c937c50a2f2df665f8d
+cab35c1daff5c995890360f759455b6725af5856
 '
 '
 src
@@ -5918,7 +5918,9 @@ version
 '
 :
 '
-wzjBTMka_ZRUOzMrirBfHngiFx_liKeSqVeKtVlO7FwC
+2cwc39P1Nuw60SuLSgzP
+-
+sHbXOgoHhlhS10ck26jV3QC
 '
 }
 ]
@@ -6374,7 +6376,7 @@ git
 '
 +
 '
-67d816626bf264e3b142187768601a200cbe810d
+8cb40fbe19ed5eb65da26078b8667e31e52211e9
 '
 '
 src
@@ -6812,7 +6814,7 @@ git
 '
 +
 '
-811d0bd388ba8f4853c5560b6e16a5af3e8b895a
+4334fa7cbdf8e276db976792cd21d8614910d569
 '
 '
 src
@@ -6964,7 +6966,7 @@ git
 '
 +
 '
-3578883bb3616208b8f9bb6fa03dc1fda0a16a78
+821ab7d3e656e6928d342e289efaf208017d4274
 '
 '
 src
