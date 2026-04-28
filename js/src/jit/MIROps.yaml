@@ -5440,6 +5440,9 @@ String
 movable
 :
 true
+folds_to
+:
+custom
 congruent_to
 :
 if_operands_equal
