@@ -19,13 +19,9 @@ cstdint
 >
 #
 include
-"
-api
-/
-array_view
-.
-h
-"
+<
+span
+>
 #
 include
 "
@@ -128,7 +124,7 @@ i
 TEST
 (
 ZeroMemoryTest
-TestZeroArrayView
+TestZeroSpan
 )
 {
 static
@@ -178,7 +174,10 @@ i
 }
 ExplicitZeroMemory
 (
-ArrayView
+std
+:
+:
+span
 <
 uint8_t
 >

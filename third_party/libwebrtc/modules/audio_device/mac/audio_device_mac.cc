@@ -46,6 +46,11 @@ memory
 #
 include
 <
+span
+>
+#
+include
+<
 vector
 >
 #
@@ -3487,7 +3492,10 @@ GetDeviceName
 (
 kAudioDevicePropertyScopeOutput
 index
-ArrayView
+std
+:
+:
+span
 <
 char
 >
@@ -3581,7 +3589,10 @@ GetDeviceName
 (
 kAudioDevicePropertyScopeInput
 index
-ArrayView
+std
+:
+:
+span
 <
 char
 >
@@ -7294,7 +7305,10 @@ scope
 const
 uint16_t
 index
-ArrayView
+std
+:
+:
+span
 <
 char
 >

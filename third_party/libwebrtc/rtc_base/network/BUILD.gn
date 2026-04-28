@@ -187,17 +187,6 @@ socket_address
 .
 /
 api
-:
-array_view
-"
-"
-.
-.
-/
-.
-.
-/
-api
 /
 transport
 :
