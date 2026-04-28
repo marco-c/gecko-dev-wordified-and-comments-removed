@@ -642,8 +642,6 @@ Endpoint
 PImageBridgeParent
 >
 endpoint
-uint32_t
-aNamespace
 )
 ;
 async
@@ -666,8 +664,6 @@ Endpoint
 PVRManagerParent
 >
 endpoint
-uint32_t
-aNamespace
 )
 ;
 async
@@ -798,8 +794,6 @@ PImageBridgeParent
 endpoint
 ContentParentId
 childId
-uint32_t
-aNamespace
 )
 ;
 async
@@ -812,8 +806,6 @@ PVRManagerParent
 endpoint
 ContentParentId
 childId
-uint32_t
-aNamespace
 )
 ;
 async

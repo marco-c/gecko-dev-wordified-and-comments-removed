@@ -2945,7 +2945,6 @@ ImageBridgeParent
 :
 CreateSameProcess
 (
-aNamespace
 )
 ;
 RefPtr

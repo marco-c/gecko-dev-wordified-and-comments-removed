@@ -2613,8 +2613,6 @@ PImageBridgeParent
 &
 &
 aEndpoint
-uint32_t
-aNamespace
 )
 {
 ImageBridgeParent
@@ -2629,7 +2627,6 @@ move
 (
 aEndpoint
 )
-aNamespace
 )
 ;
 return
@@ -2732,8 +2729,6 @@ PVRManagerParent
 &
 &
 aEndpoint
-uint32_t
-aNamespace
 )
 {
 VRManagerParent
@@ -2748,7 +2743,6 @@ move
 (
 aEndpoint
 )
-aNamespace
 )
 ;
 return
@@ -3539,8 +3533,6 @@ const
 ContentParentId
 &
 aChildId
-uint32_t
-aNamespace
 )
 {
 if
@@ -3559,7 +3551,6 @@ move
 aEndpoint
 )
 aChildId
-aNamespace
 )
 )
 {
@@ -3599,8 +3590,6 @@ const
 ContentParentId
 &
 aChildId
-uint32_t
-aNamespace
 )
 {
 if
@@ -3619,7 +3608,6 @@ move
 aEndpoint
 )
 aChildId
-aNamespace
 )
 )
 {
