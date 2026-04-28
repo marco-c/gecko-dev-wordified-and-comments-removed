@@ -370,6 +370,14 @@ info
 ;
 netErrorCard
 .
+resolvedErrorId
+=
+"
+SEC_ERROR_UNTRUSTED_ISSUER
+"
+;
+netErrorCard
+.
 hideExceptionButton
 =
 netErrorCard

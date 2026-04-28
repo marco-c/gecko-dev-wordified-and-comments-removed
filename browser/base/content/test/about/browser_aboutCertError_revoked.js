@@ -322,6 +322,14 @@ info
 ;
 netErrorCard
 .
+resolvedErrorId
+=
+"
+SEC_ERROR_REVOKED_CERTIFICATE
+"
+;
+netErrorCard
+.
 hostname
 =
 "
