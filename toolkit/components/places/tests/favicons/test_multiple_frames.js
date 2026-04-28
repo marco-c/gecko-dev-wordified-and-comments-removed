@@ -8,7 +8,9 @@ function
 let
 pageURI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -37,7 +39,9 @@ pageURI
 let
 faviconURI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (

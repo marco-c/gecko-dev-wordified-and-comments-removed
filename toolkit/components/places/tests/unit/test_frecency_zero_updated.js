@@ -8,7 +8,9 @@ function
 const
 TEST_URI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (

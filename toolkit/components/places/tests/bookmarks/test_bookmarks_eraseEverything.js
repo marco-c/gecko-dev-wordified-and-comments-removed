@@ -14,7 +14,9 @@ addVisits
 {
 uri
 :
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -40,7 +42,9 @@ addVisits
 {
 uri
 :
-NetUtil
+Services
+.
+io
 .
 newURI
 (

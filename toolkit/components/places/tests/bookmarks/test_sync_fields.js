@@ -546,7 +546,9 @@ testChanges
 let
 testUri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -853,7 +855,9 @@ PlacesUtils
 bookmarks
 .
 unfiledGuid
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -1076,7 +1080,9 @@ folder
 let
 testUri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (

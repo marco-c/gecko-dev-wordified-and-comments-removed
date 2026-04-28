@@ -544,7 +544,9 @@ eraseEverything
 let
 uri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (

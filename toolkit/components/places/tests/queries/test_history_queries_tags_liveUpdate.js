@@ -350,7 +350,9 @@ i
 let
 uri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -528,7 +530,9 @@ i
 let
 uri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -699,7 +703,9 @@ i
 let
 uri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -857,7 +863,9 @@ i
 let
 uri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (

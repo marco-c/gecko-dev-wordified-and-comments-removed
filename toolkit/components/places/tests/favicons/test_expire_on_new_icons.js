@@ -397,7 +397,9 @@ icons
 let
 pageURI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -426,7 +428,9 @@ pageURI
 let
 iconURI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -485,7 +489,9 @@ spec
 let
 rootIconURI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (

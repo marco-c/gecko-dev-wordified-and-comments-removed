@@ -412,7 +412,9 @@ function
 )
 {
 return
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -455,7 +457,9 @@ function
 )
 {
 return
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -573,7 +577,9 @@ aSpec
 )
 {
 return
-NetUtil
+Services
+.
+io
 .
 newURI
 (

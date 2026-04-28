@@ -108,7 +108,9 @@ history
 .
 markPageAsTyped
 (
-NetUtil
+Services
+.
+io
 .
 newURI
 (

@@ -16,7 +16,9 @@ test_addVisitCheckFields
 let
 uri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (

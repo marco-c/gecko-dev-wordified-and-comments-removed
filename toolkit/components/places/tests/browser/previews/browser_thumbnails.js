@@ -1173,7 +1173,9 @@ asyncFetch
 {
 uri
 :
-NetUtil
+Services
+.
+io
 .
 newURI
 (

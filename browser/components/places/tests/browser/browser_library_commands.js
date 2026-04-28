@@ -1,7 +1,9 @@
 const
 TEST_URI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -1332,7 +1334,9 @@ tagging
 .
 tagURI
 (
-NetUtil
+Services
+.
+io
 .
 newURI
 (

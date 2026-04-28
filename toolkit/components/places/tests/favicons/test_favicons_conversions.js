@@ -31,7 +31,9 @@ aVaryOnWindows
 let
 pageURI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -69,7 +71,9 @@ TRANSITION_TYPED
 let
 faviconURI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (

@@ -30,7 +30,9 @@ html
 const
 SJS_URI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (

@@ -41,7 +41,9 @@ place
 {
 uri
 :
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -217,7 +219,9 @@ place
 {
 uri
 :
-NetUtil
+Services
+.
+io
 .
 newURI
 (

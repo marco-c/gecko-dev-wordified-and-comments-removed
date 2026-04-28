@@ -1229,7 +1229,9 @@ test_import_chromefavicon
 const
 PAGE_URI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -1249,7 +1251,9 @@ chromefavicon_page
 const
 CHROME_FAVICON_URI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -1273,7 +1277,9 @@ svg
 const
 CHROME_FAVICON_URI_2
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (

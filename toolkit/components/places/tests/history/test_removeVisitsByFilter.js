@@ -210,7 +210,9 @@ i
 let
 uri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -2500,7 +2502,9 @@ test_orphans
 let
 uri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (

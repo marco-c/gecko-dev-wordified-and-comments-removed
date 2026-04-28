@@ -394,7 +394,11 @@ file
 faviconFile
 uri
 :
-uri
+Services
+.
+io
+.
+newFileURI
 (
 faviconFile
 )
