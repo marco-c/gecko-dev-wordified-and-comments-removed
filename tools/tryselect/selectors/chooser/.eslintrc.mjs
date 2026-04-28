@@ -82,9 +82,6 @@ jquery
 apply
 :
 true
-applyChunks
-:
-true
 tasks
 :
 true

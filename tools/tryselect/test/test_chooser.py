@@ -588,7 +588,7 @@ b
 oninput
 =
 "
-scheduleApplyChunks
+scheduleApplyFilters
 (
 )
 ;
