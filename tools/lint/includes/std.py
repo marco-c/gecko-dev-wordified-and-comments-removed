@@ -3,6 +3,18 @@ api
 {
     
 "
+bitset
+"
+:
+[
+        
+"
+bitset
+"
+    
+]
+    
+"
 deque
 "
 :
