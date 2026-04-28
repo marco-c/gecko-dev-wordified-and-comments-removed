@@ -757,6 +757,16 @@ False
 "
 geo
 .
+prompt
+.
+open_system_prefs
+"
+:
+False
+        
+"
+geo
+.
 provider
 .
 network
