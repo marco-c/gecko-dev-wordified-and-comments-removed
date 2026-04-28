@@ -26867,7 +26867,7 @@ selectedBrowser
 .
 browsingContext
 .
-nonWebControlledBlankURI
+nonWebControlledLoadingURI
 :
 this
 .
@@ -41983,7 +41983,7 @@ selectedBrowser
 .
 browsingContext
 .
-nonWebControlledBlankURI
+nonWebControlledLoadingURI
 )
 ;
 }

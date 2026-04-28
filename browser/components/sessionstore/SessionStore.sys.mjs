@@ -11930,11 +11930,6 @@ web
 -
 controlled
 page
-opened
-in
-_blank
-/
-/
 first
 .
 (
@@ -11945,7 +11940,7 @@ lazy
 .
 SessionHistory
 .
-collectNonWebControlledBlankLoadingSession
+collectNonWebControlledLoadingSession
 (
 browsingContext
 )

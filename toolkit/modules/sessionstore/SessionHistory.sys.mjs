@@ -186,7 +186,7 @@ aFromIdx
 )
 ;
 }
-collectNonWebControlledBlankLoadingSession
+collectNonWebControlledLoadingSession
 (
 browsingContext
 )
@@ -194,7 +194,7 @@ browsingContext
 return
 SessionHistoryInternal
 .
-collectNonWebControlledBlankLoadingSession
+collectNonWebControlledLoadingSession
 (
 browsingContext
 )
@@ -767,7 +767,7 @@ return
 data
 ;
 }
-collectNonWebControlledBlankLoadingSession
+collectNonWebControlledLoadingSession
 (
 browsingContext
 )
@@ -788,7 +788,7 @@ count
 &
 browsingContext
 .
-nonWebControlledBlankURI
+nonWebControlledLoadingURI
 &
 &
 browsingContext

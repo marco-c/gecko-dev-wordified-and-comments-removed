@@ -644,7 +644,7 @@ selectedBrowser
 .
 browsingContext
 .
-nonWebControlledBlankURI
+nonWebControlledLoadingURI
 )
 {
 isSetURIWhileLoading
@@ -712,7 +712,7 @@ selectedBrowser
 .
 browsingContext
 .
-nonWebControlledBlankURI
+nonWebControlledLoadingURI
 expectedSetURICalled
 )
 ;
