@@ -1672,6 +1672,11 @@ mozilla
 TimeStamp
 mCreationTimeStamp
 ;
+bool
+mIsRetrievingConsoleEvent
+=
+false
+;
 friend
 class
 ConsoleCallData
