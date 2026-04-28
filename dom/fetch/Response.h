@@ -415,12 +415,11 @@ using
 FetchBody
 :
 :
-BodyBlobURISpec
+BodyBlobImpl
 ;
-const
-nsACString
-&
-BodyBlobURISpec
+BlobImpl
+*
+BodyBlobImpl
 (
 )
 const
@@ -429,7 +428,7 @@ return
 mInternalResponse
 -
 >
-BodyBlobURISpec
+BodyBlobImpl
 (
 )
 ;

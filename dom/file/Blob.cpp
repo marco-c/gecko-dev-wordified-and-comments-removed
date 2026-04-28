@@ -1718,9 +1718,7 @@ mainThreadEventTarget
 inputStream
 nullptr
 aConsumeType
-VoidCString
-(
-)
+mImpl
 VoidString
 (
 )
