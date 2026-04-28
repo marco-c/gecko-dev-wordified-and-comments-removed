@@ -4033,14 +4033,14 @@ baseURL
 ;
 if
 (
-aReferrerInfo
+aFetchInfo
 &
 &
 !
 aFetchInfo
 -
 >
-IsForEvent
+IsForEventScript
 (
 )
 )
