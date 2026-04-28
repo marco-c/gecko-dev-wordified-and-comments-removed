@@ -132,6 +132,16 @@ int64_t
 localTime
 )
 ;
+int64_t
+UTCToLocalTime
+(
+JSContext
+*
+cx
+int64_t
+utcTime
+)
+;
 bool
 date_valueOf
 (
