@@ -3,6 +3,12 @@ use
 strict
 "
 ;
+waitFor
+.
+overrideIntervalForTestFile
+=
+50
+;
 function
 setupTestServer
 (
@@ -1104,7 +1110,7 @@ payload
 )
 ;
 await
-waitForDOMIfNeeded
+waitForDOM
 (
 document
 "
