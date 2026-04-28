@@ -12990,9 +12990,6 @@ WebRenderOverlayHDR
 &
 &
 contentIsHDR
-&
-&
-monitorIsHDR
 ;
 bool
 useHDRRGB10A2
@@ -14693,7 +14690,7 @@ if
 StaticPrefs
 :
 :
-gfx_color_management_hdr_video
+gfx_color_management_hdr
 (
 )
 )
