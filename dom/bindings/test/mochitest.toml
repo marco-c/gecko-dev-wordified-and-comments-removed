@@ -27,6 +27,11 @@ file_dom_xrays
 html
 "
 "
+file_dummy
+.
+html
+"
+"
 file_proxies_via_xray
 .
 html
