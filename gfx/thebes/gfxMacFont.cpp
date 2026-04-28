@@ -699,9 +699,6 @@ gfxMacFont
 :
 ShapeText
 (
-DrawTarget
-*
-aDrawTarget
 const
 char16_t
 *
@@ -807,7 +804,6 @@ mCoreTextShaper
 >
 ShapeText
 (
-aDrawTarget
 aText
 aOffset
 aLength
@@ -821,7 +817,6 @@ aShapedText
 {
 PostShapingFixup
 (
-aDrawTarget
 aText
 aOffset
 aLength
@@ -892,7 +887,6 @@ gfxFont
 :
 ShapeText
 (
-aDrawTarget
 aText
 aOffset
 aLength

@@ -14,17 +14,6 @@ h
 #
 include
 "
-mozilla
-/
-gfx
-/
-2D
-.
-h
-"
-#
-include
-"
 nsTHashSet
 .
 h
@@ -70,9 +59,6 @@ gfxGraphiteShaper
 bool
 ShapeText
 (
-DrawTarget
-*
-aDrawTarget
 const
 char16_t
 *

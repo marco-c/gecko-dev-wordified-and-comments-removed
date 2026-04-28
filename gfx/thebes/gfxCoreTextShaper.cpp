@@ -33,17 +33,6 @@ mozilla
 /
 gfx
 /
-2D
-.
-h
-"
-#
-include
-"
-mozilla
-/
-gfx
-/
 ScaledFontMac
 .
 h
@@ -414,9 +403,6 @@ gfxCoreTextShaper
 :
 ShapeText
 (
-DrawTarget
-*
-aDrawTarget
 const
 char16_t
 *

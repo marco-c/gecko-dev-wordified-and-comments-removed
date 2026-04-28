@@ -18118,9 +18118,6 @@ gfxFont
 :
 ProcessShapedWordInternal
 (
-DrawTarget
-*
-aDrawTarget
 const
 T
 *
@@ -18297,7 +18294,6 @@ ok
 =
 ShapeText
 (
-aDrawTarget
 aText
 0
 aLength
@@ -18826,9 +18822,6 @@ gfxFont
 :
 ProcessSingleSpaceShapedWord
 (
-DrawTarget
-*
-aDrawTarget
 bool
 aVertical
 int32_t
@@ -18867,7 +18860,6 @@ space
 return
 ProcessShapedWordInternal
 (
-aDrawTarget
 &
 space
 1
@@ -18900,9 +18892,6 @@ gfxFont
 :
 ShapeText
 (
-DrawTarget
-*
-aDrawTarget
 const
 uint8_t
 *
@@ -18965,7 +18954,6 @@ false
 return
 ShapeText
 (
-aDrawTarget
 utf16
 .
 BeginReading
@@ -18987,9 +18975,6 @@ gfxFont
 :
 ShapeText
 (
-DrawTarget
-*
-aDrawTarget
 const
 char16_t
 *
@@ -19084,7 +19069,6 @@ shaper
 >
 ShapeText
 (
-aDrawTarget
 aText
 aOffset
 aLength
@@ -19098,7 +19082,6 @@ aShapedText
 {
 PostShapingFixup
 (
-aDrawTarget
 aText
 aOffset
 aLength
@@ -19129,7 +19112,6 @@ shaper
 >
 ShapeText
 (
-aDrawTarget
 aText
 aOffset
 aLength
@@ -19143,7 +19125,6 @@ aShapedText
 {
 PostShapingFixup
 (
-aDrawTarget
 aText
 aOffset
 aLength
@@ -19283,9 +19264,6 @@ gfxFont
 :
 PostShapingFixup
 (
-DrawTarget
-*
-aDrawTarget
 const
 char16_t
 *
@@ -19394,9 +19372,6 @@ gfxFont
 :
 ShapeFragmentWithoutWordCache
 (
-DrawTarget
-*
-aDrawTarget
 const
 T
 *
@@ -19554,7 +19529,6 @@ ok
 =
 ShapeText
 (
-aDrawTarget
 aText
 aOffset
 fragLen
@@ -19631,9 +19605,6 @@ gfxFont
 :
 ShapeTextWithoutWordCache
 (
-DrawTarget
-*
-aDrawTarget
 const
 T
 *
@@ -19743,7 +19714,6 @@ ok
 =
 ShapeFragmentWithoutWordCache
 (
-aDrawTarget
 aText
 +
 fragStart
@@ -19886,7 +19856,6 @@ ch
 {
 ShapeFragmentWithoutWordCache
 (
-aDrawTarget
 aText
 +
 i
@@ -20367,7 +20336,6 @@ wordCacheSpaceRules
 return
 ShapeTextWithoutWordCache
 (
-aDrawTarget
 aString
 aRunStart
 aRunLength
@@ -20621,7 +20589,6 @@ ok
 =
 ShapeFragmentWithoutWordCache
 (
-aDrawTarget
 aString
 +
 wordStart
@@ -20700,7 +20667,6 @@ processed
 =
 ProcessShapedWordInternal
 (
-aDrawTarget
 aString
 +
 wordStart
@@ -20823,7 +20789,6 @@ processed
 =
 ProcessShapedWordInternal
 (
-aDrawTarget
 &
 boundary
 1
@@ -21072,7 +21037,6 @@ ch
 {
 ShapeFragmentWithoutWordCache
 (
-aDrawTarget
 aString
 +
 i

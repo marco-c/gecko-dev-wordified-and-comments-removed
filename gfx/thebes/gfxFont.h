@@ -2174,9 +2174,6 @@ virtual
 bool
 ShapeText
 (
-DrawTarget
-*
-aDrawTarget
 const
 char16_t
 *
@@ -6690,9 +6687,6 @@ aOrientation
 bool
 ProcessSingleSpaceShapedWord
 (
-DrawTarget
-*
-aDrawTarget
 bool
 aVertical
 int32_t
@@ -7450,9 +7444,6 @@ const
 bool
 ShapeText
 (
-DrawTarget
-*
-aContext
 const
 uint8_t
 *
@@ -7479,9 +7470,6 @@ virtual
 bool
 ShapeText
 (
-DrawTarget
-*
-aContext
 const
 char16_t
 *
@@ -7507,9 +7495,6 @@ aShapedText
 void
 PostShapingFixup
 (
-DrawTarget
-*
-aContext
 const
 char16_t
 *
@@ -7533,9 +7518,6 @@ T
 bool
 ShapeTextWithoutWordCache
 (
-DrawTarget
-*
-aDrawTarget
 const
 T
 *
@@ -7566,9 +7548,6 @@ T
 bool
 ShapeFragmentWithoutWordCache
 (
-DrawTarget
-*
-aDrawTarget
 const
 T
 *
@@ -7607,9 +7586,6 @@ Func
 bool
 ProcessShapedWordInternal
 (
-DrawTarget
-*
-aDrawTarget
 const
 T
 *

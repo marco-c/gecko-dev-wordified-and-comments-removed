@@ -287,9 +287,6 @@ GetData
 bool
 ShapeText
 (
-DrawTarget
-*
-aDrawTarget
 const
 char16_t
 *
