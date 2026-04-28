@@ -1396,6 +1396,12 @@ case
 InlinableNative
 :
 :
+Date
+:
+case
+InlinableNative
+:
+:
 DateGetTime
 :
 case

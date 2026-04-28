@@ -303,6 +303,16 @@ LOCAL_SECONDS_INTO_YEAR_SLOT
 ;
 }
 static
+DateObject
+*
+createTemplateObject
+(
+JSContext
+*
+cx
+)
+;
+static
 constexpr
 size_t
 offsetOfUTCTimeSlot

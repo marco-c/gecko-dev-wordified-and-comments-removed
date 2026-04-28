@@ -3175,6 +3175,17 @@ JSString
 str
 )
 ;
+JSObject
+*
+NewDateObject
+(
+JSContext
+*
+cx
+double
+utcTime
+)
+;
 JSAtom
 *
 AtomizeStringNoGC

@@ -4218,6 +4218,11 @@ tryAttachMapSize
 )
 ;
 AttachDecision
+tryAttachDateConstructor
+(
+)
+;
+AttachDecision
 tryAttachDateGetTime
 (
 )

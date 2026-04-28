@@ -337,6 +337,11 @@ DataViewByteOffset
 \
 _
 (
+Date
+)
+\
+_
+(
 DateGetTime
 )
 \
