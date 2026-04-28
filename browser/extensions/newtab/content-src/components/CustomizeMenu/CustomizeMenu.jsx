@@ -984,15 +984,6 @@ props
 .
 enabledWidgets
 }
-wallpapersSystemEnabled
-=
-{
-this
-.
-props
-.
-wallpapersSystemEnabled
-}
 wallpapersEnabled
 =
 {

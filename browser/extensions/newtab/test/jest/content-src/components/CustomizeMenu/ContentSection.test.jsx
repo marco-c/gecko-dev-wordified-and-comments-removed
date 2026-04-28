@@ -90,9 +90,6 @@ widgetsMayBeMaximized
 :
 false
 }
-wallpapersSystemEnabled
-:
-false
 wallpapersEnabled
 :
 false

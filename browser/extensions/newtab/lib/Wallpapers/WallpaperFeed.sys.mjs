@@ -149,7 +149,7 @@ mjs
 "
 ;
 const
-PREF_SYSTEM_WALLPAPERS_ENABLED
+PREF_WALLPAPERS_ENABLED
 =
 "
 browser
@@ -161,8 +161,6 @@ activity
 stream
 .
 newtabWallpapers
-.
-system
 .
 enabled
 "
@@ -503,7 +501,7 @@ prefs
 .
 getBoolPref
 (
-PREF_SYSTEM_WALLPAPERS_ENABLED
+PREF_WALLPAPERS_ENABLED
 )
 ;
 if
@@ -1745,8 +1743,6 @@ name
 =
 "
 newtabWallpapers
-.
-system
 .
 enabled
 "

@@ -943,7 +943,6 @@ conditional
 Remove
 novaEnabled
 novaEnabled
-wallpapersSystemEnabled
 toggleWidgetsManagementPanel
 showWidgetsManagementPanel
 widgetsEnabled
@@ -1095,7 +1094,12 @@ section
 "
 >
 {
-wallpapersSystemEnabled
+(
+wallpapersEnabled
+|
+|
+novaEnabled
+)
 &
 &
 (
@@ -1186,6 +1190,11 @@ title
 >
 )
 }
+{
+wallpapersEnabled
+&
+&
+(
 <
 WallpaperCategories
 setPref
@@ -1210,6 +1219,8 @@ onSubpanelToggle
 }
 /
 >
+)
+}
 <
 /
 div
