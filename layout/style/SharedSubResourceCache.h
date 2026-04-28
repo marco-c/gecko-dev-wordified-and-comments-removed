@@ -1241,8 +1241,7 @@ return
 NS_OK
 ;
 }
-private
-:
+virtual
 void
 ClearInProcessForMemoryPressure
 (
@@ -1268,8 +1267,6 @@ Nothing
 )
 ;
 }
-protected
-:
 void
 CancelPendingLoadsForLoader
 (
@@ -1322,8 +1319,6 @@ uint32_t
 >
 mLoaderPrincipalRefCnt
 ;
-protected
-:
 inline
 static
 MOZ_GLOBINIT
