@@ -310,9 +310,9 @@ Variables
 :
 #
 #
-modelName
+model
 (
-String
+string
 )
 -
 The
@@ -356,7 +356,7 @@ description
 =
 Model
 {
-modelName
+model
 }
 by
 {
@@ -385,7 +385,7 @@ description
 =
 Model
 {
-modelName
+model
 }
 by
 {
@@ -412,7 +412,7 @@ description
 =
 Model
 {
-modelName
+model
 }
 by
 {
