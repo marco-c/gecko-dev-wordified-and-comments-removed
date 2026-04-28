@@ -721,9 +721,12 @@ int
 &
 aStreamId
 const
+webrtc
+:
+:
 VideoCaptureCapability
 &
-aIpcCaps
+aCapability
 const
 NormalizedConstraints
 &
