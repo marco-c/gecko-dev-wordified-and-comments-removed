@@ -4040,7 +4040,7 @@ aFetchInfo
 aFetchInfo
 -
 >
-IsForEventScript
+IsForEvent
 (
 )
 )
