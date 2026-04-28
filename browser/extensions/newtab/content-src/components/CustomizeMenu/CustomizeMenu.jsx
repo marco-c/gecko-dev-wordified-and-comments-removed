@@ -993,6 +993,15 @@ props
 .
 wallpapersEnabled
 }
+wallpapersUserEnabled
+=
+{
+this
+.
+props
+.
+wallpapersUserEnabled
+}
 activeWallpaper
 =
 {

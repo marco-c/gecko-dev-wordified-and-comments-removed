@@ -920,7 +920,7 @@ mayHaveTimerWidget
 mayHaveListsWidget
 mayHaveWeatherForecast
 openPreferences
-wallpapersEnabled
+wallpapersUserEnabled
 activeWallpaper
 setPref
 mayHaveTopicSections
@@ -943,6 +943,7 @@ conditional
 Remove
 novaEnabled
 novaEnabled
+wallpapersEnabled
 toggleWidgetsManagementPanel
 showWidgetsManagementPanel
 widgetsEnabled
@@ -1094,12 +1095,7 @@ section
 "
 >
 {
-(
 wallpapersEnabled
-|
-|
-novaEnabled
-)
 &
 &
 (
@@ -1134,7 +1130,7 @@ toggle
 pressed
 =
 {
-wallpapersEnabled
+wallpapersUserEnabled
 |
 |
 null
@@ -1159,6 +1155,8 @@ preference
 =
 "
 newtabWallpapers
+.
+user
 .
 enabled
 "
@@ -1190,11 +1188,6 @@ title
 >
 )
 }
-{
-wallpapersEnabled
-&
-&
-(
 <
 WallpaperCategories
 setPref
@@ -1219,8 +1212,6 @@ onSubpanelToggle
 }
 /
 >
-)
-}
 <
 /
 div

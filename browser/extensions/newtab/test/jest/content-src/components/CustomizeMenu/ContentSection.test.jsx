@@ -93,6 +93,9 @@ false
 wallpapersEnabled
 :
 false
+wallpapersUserEnabled
+:
+false
 activeWallpaper
 :
 null
