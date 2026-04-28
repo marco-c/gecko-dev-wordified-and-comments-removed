@@ -51,12 +51,6 @@ use
 api
 :
 :
-crossbeam_channel
-;
-use
-api
-:
-:
 channel
 :
 :
@@ -1607,10 +1601,7 @@ tx
 rx
 )
 =
-crossbeam_channel
-:
-:
-unbounded
+unbounded_channel
 (
 )
 ;
