@@ -355,6 +355,9 @@ case
 eCSSProperty_perspective
 :
 case
+eCSSProperty_tab_size
+:
+case
 eCSSProperty_transition_duration
 :
 case
