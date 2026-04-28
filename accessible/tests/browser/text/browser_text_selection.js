@@ -1389,10 +1389,6 @@ waitForOrderedEvents
 EVENT_FOCUS
 before
 ]
-[
-EVENT_TEXT_SELECTION_CHANGED
-docAcc
-]
 ]
 )
 ;
