@@ -3758,16 +3758,9 @@ distance
 }
 if
 (
-!
 minDistanceCapability
 )
 {
-return
-Nothing
-(
-)
-;
-}
 combinedCap
 =
 Some
@@ -3776,6 +3769,7 @@ Some
 minDistanceCapability
 )
 ;
+}
 }
 return
 combinedCap
