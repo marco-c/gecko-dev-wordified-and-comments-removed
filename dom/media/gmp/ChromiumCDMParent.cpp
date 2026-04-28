@@ -6409,6 +6409,12 @@ b
 .
 mYUVColorSpace
 =
+mVideoInfo
+.
+mColorSpace
+.
+refOr
+(
 DefaultColorSpace
 (
 {
@@ -6423,6 +6429,7 @@ mImageHeight
 (
 )
 }
+)
 )
 ;
 gfx
