@@ -71,13 +71,6 @@ h
 >
 #
 include
-<
-wchar
-.
-h
->
-#
-include
 "
 VsyncSource
 .

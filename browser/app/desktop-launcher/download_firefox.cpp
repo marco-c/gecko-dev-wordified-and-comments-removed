@@ -18,13 +18,6 @@ string
 #
 include
 <
-wchar
-.
-h
->
-#
-include
-<
 windows
 .
 h
