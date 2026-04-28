@@ -124,6 +124,11 @@ MIDIInputMap
 h
 "
 "
+MIDIIPCUtils
+.
+h
+"
+"
 MIDIManagerChild
 .
 h

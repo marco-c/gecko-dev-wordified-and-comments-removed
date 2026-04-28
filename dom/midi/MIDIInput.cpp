@@ -130,16 +130,10 @@ aSysexEnabled
 {
 MOZ_ASSERT
 (
-static_cast
-<
-MIDIPortType
->
-(
 aPortInfo
 .
 type
 (
-)
 )
 =
 =

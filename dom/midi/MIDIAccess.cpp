@@ -907,16 +907,10 @@ id
 MIDIPortType
 type
 =
-static_cast
-<
-MIDIPortType
->
-(
 aInfo
 .
 type
 (
-)
 )
 ;
 RefPtr

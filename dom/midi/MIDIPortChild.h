@@ -92,11 +92,11 @@ IPCResult
 RecvUpdateStatus
 (
 const
-uint32_t
+MIDIPortDeviceState
 &
 aDeviceState
 const
-uint32_t
+MIDIPortConnectionState
 &
 aConnectionState
 )

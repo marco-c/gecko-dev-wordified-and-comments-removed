@@ -88,9 +88,6 @@ aSysexEnabled
 )
 mType
 (
-(
-MIDIPortType
-)
 aPortInfo
 .
 type
