@@ -220,6 +220,15 @@ aResult
 const
 override
 ;
+Maybe
+<
+bool
+>
+HasCtxDependentLength
+(
+)
+const
+;
 static
 bool
 IsLengthChangedViaCSS
