@@ -86036,6 +86036,10 @@ mCachedAncestorOrigins
 new
 DOMStringList
 (
+ToSupports
+(
+this
+)
 )
 ;
 for

@@ -109,6 +109,11 @@ file_bug1303838_with_iframe
 html
 "
 "
+file_bug2034329
+.
+html
+"
+"
 file_messagemanager_unload
 .
 html
@@ -576,6 +581,13 @@ files
 file_bug1703472
 .
 html
+"
+]
+[
+"
+browser_bug2034329
+.
+js
 "
 ]
 [
