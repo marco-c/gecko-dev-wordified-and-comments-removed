@@ -179,14 +179,14 @@ effect
 /
 /
 Bug
-2016878
+1676794
 .
 Drop
 BinaryName
 once
 we
 support
-ViewTimeline
+ScrollTimeline
 interface
 .
 [
