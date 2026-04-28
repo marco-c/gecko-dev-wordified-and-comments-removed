@@ -84,8 +84,9 @@ private
 nsEnvironment
 (
 )
-{
-}
+=
+default
+;
 ~
 nsEnvironment
 (

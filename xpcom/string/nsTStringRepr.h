@@ -535,6 +535,12 @@ T
 >
 LengthStorage
 ;
+nsTStringRepr
+(
+)
+=
+delete
+;
 constexpr
 const_char_iterator
 BeginReading
@@ -1578,12 +1584,6 @@ const
 ;
 protected
 :
-nsTStringRepr
-(
-)
-=
-delete
-;
 constexpr
 nsTStringRepr
 (
