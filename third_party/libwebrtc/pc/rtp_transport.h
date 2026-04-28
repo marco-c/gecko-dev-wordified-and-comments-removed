@@ -820,13 +820,6 @@ RTC_GUARDED_BY
 network_thread_checker_
 )
 ;
-RtpHeaderExtensions
-historical_rtp_header_extensions_
-RTC_GUARDED_BY
-(
-network_thread_checker_
-)
-;
 bool
 processing_ready_to_send_
 =
