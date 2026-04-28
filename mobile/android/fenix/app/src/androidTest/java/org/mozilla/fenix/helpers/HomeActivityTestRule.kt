@@ -566,6 +566,11 @@ isPrivateModeAndStoriesEntryPointEnabled
 Boolean
 =
 false
+shouldUseExpandedToolbar
+:
+Boolean
+=
+false
 )
 :
 this
@@ -681,6 +686,11 @@ this
 isPrivateModeAndStoriesEntryPointEnabled
 =
 isPrivateModeAndStoriesEntryPointEnabled
+this
+.
+shouldUseExpandedToolbar
+=
+shouldUseExpandedToolbar
 }
 /
 *
@@ -1352,6 +1362,11 @@ isPrivateModeAndStoriesEntryPointEnabled
 Boolean
 =
 false
+shouldUseExpandedToolbar
+:
+Boolean
+=
+false
 )
 :
 this
@@ -1472,6 +1487,11 @@ this
 isPrivateModeAndStoriesEntryPointEnabled
 =
 isPrivateModeAndStoriesEntryPointEnabled
+this
+.
+shouldUseExpandedToolbar
+=
+shouldUseExpandedToolbar
 }
 private
 val
