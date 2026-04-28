@@ -875,7 +875,7 @@ kClosed
 )
 ;
 }
-void
+bool
 SctpTransport
 :
 :
@@ -955,7 +955,13 @@ SctpTransportState
 kClosed
 )
 ;
+return
+false
+;
 }
+return
+true
+;
 }
 void
 SctpTransport

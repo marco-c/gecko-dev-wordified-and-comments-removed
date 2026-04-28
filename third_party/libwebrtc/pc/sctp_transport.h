@@ -320,7 +320,7 @@ Clear
 (
 )
 ;
-void
+bool
 Start
 (
 const
