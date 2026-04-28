@@ -959,6 +959,8 @@ int32_t
 info
 .
 num_loops
+-
+1
 )
 )
 ;
@@ -1425,6 +1427,8 @@ int32_t
 basicInfo
 .
 num_loops
+-
+1
 )
 )
 ;
