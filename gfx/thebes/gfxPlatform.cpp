@@ -9793,6 +9793,11 @@ StaticPrefs
 gfx_font_rendering_graphite_enabled
 (
 )
+&
+&
+NS_IsMainThread
+(
+)
 ;
 }
 bool
