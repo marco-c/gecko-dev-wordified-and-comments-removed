@@ -854,6 +854,16 @@ drawable
 /
 mozac_ic_permissions_24
 "
+app
+:
+drawableTint
+=
+"
+?
+attr
+/
+textPrimary
+"
 /
 >
 <
