@@ -2048,8 +2048,6 @@ pinnedTabs
 .
 win
 .
-ownerGlobal
-.
 gBrowser
 .
 tabs
