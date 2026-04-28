@@ -2887,6 +2887,12 @@ Value
 >
 mErrorToRethrow
 ;
+RefPtr
+<
+ScriptFetchInfo
+>
+mFetchInfoForUpdatingPreload
+;
 bool
 mForPreload
 =
@@ -2943,6 +2949,9 @@ aFetchOptions
 nsIURI
 *
 aURI
+ScriptFetchInfo
+*
+aFetchInfo
 )
 ;
 ModuleScript
@@ -2954,6 +2963,9 @@ other
 ScriptFetchOptions
 *
 aFetchOptions
+ScriptFetchInfo
+*
+aFetchInfo
 )
 ;
 template
@@ -3005,6 +3017,9 @@ aScript
 ScriptFetchOptions
 *
 aFetchOptions
+ScriptFetchInfo
+*
+aFetchInfo
 )
 ;
 already_AddRefed
