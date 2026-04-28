@@ -2433,6 +2433,10 @@ move
 to
 another
 window
+;
+copy
+all
+links
 notification_emails
 :
 -
@@ -2472,6 +2476,16 @@ bugzil
 la
 /
 1971241
+-
+https
+:
+/
+/
+bugzil
+.
+la
+/
+2020866
 data_reviews
 :
 -
@@ -2516,6 +2530,8 @@ ungroup
 move_window
 -
 hover_preview
+-
+copy_all_links
 expires
 :
 never
