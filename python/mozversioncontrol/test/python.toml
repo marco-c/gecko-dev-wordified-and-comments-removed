@@ -8,6 +8,13 @@ mozversioncontrol
 "
 [
 "
+test_notes
+.
+py
+"
+]
+[
+"
 test_branch
 .
 py
