@@ -1,10 +1,5 @@
 #
 include
-<
-iostream
->
-#
-include
 "
 AudioGenerator
 .

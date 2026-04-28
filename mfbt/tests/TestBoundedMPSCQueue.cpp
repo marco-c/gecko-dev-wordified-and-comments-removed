@@ -10,11 +10,6 @@ h
 #
 include
 <
-iostream
->
-#
-include
-<
 thread
 >
 #

@@ -23,11 +23,6 @@ h
 "
 #
 include
-<
-iostream
->
-#
-include
 "
 nsDirectoryServiceDefs
 .

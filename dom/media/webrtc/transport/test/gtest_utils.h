@@ -6,11 +6,6 @@ define
 gtest_utils_h_
 #
 include
-<
-iostream
->
-#
-include
 "
 nspr
 .
