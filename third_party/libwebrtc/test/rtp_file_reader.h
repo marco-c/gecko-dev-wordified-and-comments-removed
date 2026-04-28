@@ -44,7 +44,7 @@ const
 size_t
 kMaxPacketBufferSize
 =
-3500
+5100
 ;
 uint8_t
 data
