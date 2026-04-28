@@ -15,6 +15,14 @@ import
 Flask
 render_template
 request
+from
+tryselect
+.
+selectors
+.
+chooser
+import
+ChooserConfig
 SECTIONS
 =
 [
@@ -1018,8 +1026,19 @@ queue
 multiprocessing
 .
 Queue
+config
+=
+None
 )
 :
+    
+config
+=
+config
+or
+ChooserConfig
+(
+)
     
 tasks
 =
@@ -1091,6 +1110,22 @@ sections
 "
 :
 sections
+        
+"
+use_artifact
+"
+:
+config
+.
+use_artifact
+        
+"
+pernosco_active
+"
+:
+config
+.
+pernosco_active
     
 }
     
@@ -1165,6 +1200,10 @@ html
 context
 )
         
+result_use_artifact
+=
+False
+        
 if
 request
 .
@@ -1206,14 +1245,48 @@ extend
 (
 labels
 )
+            
+if
+not
+config
+.
+pernosco_active
+:
+                
+result_use_artifact
+=
+bool
+(
+request
+.
+form
+.
+get
+(
+"
+artifact
+"
+)
+)
         
 queue
 .
 put
 (
+{
+"
+tasks
+"
+:
 app
 .
 tasks
+"
+use_artifact
+"
+:
+result_use_artifact
+}
 )
         
 return
