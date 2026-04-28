@@ -1316,16 +1316,6 @@ False
         
 )
         
-print
-(
-"
-Auth0
-token
-validated
-.
-"
-)
-        
 return
 user_token
     
@@ -1636,12 +1626,6 @@ status_code
                 
 print
 (
-"
-\
-nLogin
-successful
-.
-"
 )
                 
 return
@@ -3187,22 +3171,18 @@ id
 "
 ]
     
-lando_api_status_url
-=
-lando_api
-.
-lando_try_status_api_url
-(
-job_id
-)
-    
-success_msg
-=
-(
+if
+duration
+>
+30
+:
         
+build
+.
+notify
+(
 f
 "
-Lando
 try
 submission
 success
@@ -3214,30 +3194,7 @@ duration
 1f
 }
 s
-:
-{
-lando_api_status_url
-}
 "
-    
-)
-    
-print
-(
-success_msg
-)
-    
-if
-duration
->
-30
-:
-        
-build
-.
-notify
-(
-success_msg
 )
     
 return
@@ -3256,5 +3213,11 @@ lando_job_id
 "
 :
 job_id
+        
+"
+duration
+"
+:
+duration
     
 }
