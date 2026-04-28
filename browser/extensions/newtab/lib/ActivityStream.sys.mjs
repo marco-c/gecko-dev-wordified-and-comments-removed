@@ -3992,7 +3992,7 @@ hidden
 "
 value
 :
-false
+true
 }
 ]
 [
