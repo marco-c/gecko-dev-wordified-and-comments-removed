@@ -3223,10 +3223,12 @@ codec
 id
 =
 =
-Codec
+PayloadType
 :
 :
-kIdNotSet
+NotSet
+(
+)
 )
 {
 RTC_CHECK
@@ -3303,6 +3305,10 @@ codec_payload_type
 codec
 .
 id
+.
+value
+(
+)
 ;
 }
 }

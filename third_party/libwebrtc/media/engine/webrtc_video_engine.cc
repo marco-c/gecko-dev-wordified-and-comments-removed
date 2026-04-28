@@ -10094,6 +10094,10 @@ send_codec
 codec
 .
 id
+.
+value
+(
+)
 send_codec
 (
 )
@@ -10166,6 +10170,10 @@ it
 codec
 .
 id
+.
+value
+(
+)
 it
 .
 codec
@@ -14389,6 +14397,10 @@ codec_settings
 codec
 .
 id
+.
+value
+(
+)
 ;
 }
 bool
@@ -19056,7 +19068,7 @@ video_media_info
 >
 receive_codecs
 .
-insert
+emplace
 (
 std
 :

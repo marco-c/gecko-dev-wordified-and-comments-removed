@@ -1890,6 +1890,10 @@ candidate
 "
 "
 :
+payload_type
+"
+"
+:
 ref_count
 "
 "
