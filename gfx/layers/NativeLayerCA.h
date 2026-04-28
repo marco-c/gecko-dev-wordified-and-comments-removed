@@ -16,11 +16,6 @@ h
 #
 include
 <
-deque
->
-#
-include
-<
 ostream
 >
 #
