@@ -5017,6 +5017,8 @@ void
 (
 aPseudo
 )
+nullptr
+true
 )
 ;
 }
@@ -6469,6 +6471,9 @@ Animation
 >
 &
 aAnimations
+ErrorResult
+&
+aError
 )
 ;
 void
@@ -6487,6 +6492,9 @@ Animation
 >
 &
 aAnimations
+ErrorResult
+&
+aError
 )
 ;
 void
