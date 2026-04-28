@@ -2186,6 +2186,13 @@ android
 ]
 [
 "
+test_ext_management_setEnabled
+.
+js
+"
+]
+[
+"
 test_ext_management_uninstall_self
 .
 js
