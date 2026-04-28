@@ -1,13 +1,6 @@
 #
 include
 <
-stdio
-.
-h
->
-#
-include
-<
 windows
 .
 h
@@ -221,7 +214,7 @@ sIndeterminate
 =
 FALSE
 ;
-MOZ_RUNINIT
+constinit
 static
 StringTable
 sUIStrings
