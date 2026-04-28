@@ -230,6 +230,9 @@ ISSUE_NO_DISPATCHERS_SET_MAIN
 ShowSnackbarDetector
 .
 ISSUE_NO_DIRECT_SHOW_SNACKBAR
+ComposeIconButtonDetector
+.
+ISSUE_ICON_BUTTON_USAGE
 )
 +
 ConstraintLayoutPerfDetector
