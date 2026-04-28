@@ -138,6 +138,11 @@ nsStringFwd
 h
 "
 #
+include
+<
+queue
+>
+#
 define
 SPOOFED_UA_OS_OTHER
 "
