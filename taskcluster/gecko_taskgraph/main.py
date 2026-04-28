@@ -1875,7 +1875,7 @@ branch
 or
 repo
 .
-head_ref
+head_rev
 [
 :
 12
@@ -2372,7 +2372,7 @@ base_ref
 =
 repo
 .
-head_ref
+head_rev
 [
 :
 12

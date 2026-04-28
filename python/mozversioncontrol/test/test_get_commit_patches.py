@@ -248,7 +248,7 @@ append
 (
 vcs
 .
-head_ref
+head_rev
 )
     
 repo
@@ -263,7 +263,7 @@ append
 (
 vcs
 .
-head_ref
+head_rev
 )
     
 patches

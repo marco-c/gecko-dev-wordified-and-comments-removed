@@ -179,7 +179,7 @@ current_revision_ref
 =
 vcs
 .
-head_ref
+head_rev
         
 return
 compare_commit

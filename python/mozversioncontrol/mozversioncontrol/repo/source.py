@@ -106,6 +106,17 @@ self
         
 pass
     
+property
+    
+def
+head_rev
+(
+self
+)
+:
+        
+pass
+    
 def
 is_cinnabar_repo
 (

@@ -254,6 +254,24 @@ self
 return
 self
 .
+branch
+or
+"
+HEAD
+"
+    
+property
+    
+def
+head_rev
+(
+self
+)
+:
+        
+return
+self
+.
 _run
 (
 "
@@ -794,7 +812,7 @@ refs
 return
 self
 .
-head_ref
+head_rev
     
 def
 base_ref_as_hg
@@ -3100,7 +3118,7 @@ current_head
 =
 self
 .
-head_ref
+head_rev
         
 def
 data

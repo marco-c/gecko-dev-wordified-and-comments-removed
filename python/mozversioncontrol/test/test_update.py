@@ -203,7 +203,7 @@ rev0
 =
 vcs
 .
-head_ref
+head_rev
     
 repo
 .
@@ -215,7 +215,7 @@ rev1
 =
 vcs
 .
-head_ref
+head_rev
     
 assert
 rev0
@@ -291,7 +291,7 @@ update
 assert
 vcs
 .
-head_ref
+head_rev
 =
 =
 rev0
@@ -306,7 +306,7 @@ rev1
 assert
 vcs
 .
-head_ref
+head_rev
 =
 =
 rev1
@@ -347,7 +347,7 @@ rev0
 assert
 vcs
 .
-head_ref
+head_rev
 =
 =
 rev1
