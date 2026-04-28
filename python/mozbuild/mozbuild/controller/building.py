@@ -9563,20 +9563,6 @@ using_sccache
             
 mozbuild_metrics
 .
-icecream
-.
-set
-(
-get_substs_flag
-(
-"
-CXX_IS_ICECREAM
-"
-)
-)
-            
-mozbuild_metrics
-.
 project
 .
 set
