@@ -2217,8 +2217,9 @@ metadata
 :
 {
 bucket
-signature
+signatures
 :
+[
 {
 signature
 :
@@ -2229,6 +2230,7 @@ x5u
 "
 "
 }
+]
 }
 timestamp
 :
