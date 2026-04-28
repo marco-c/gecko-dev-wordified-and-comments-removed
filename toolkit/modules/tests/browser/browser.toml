@@ -192,7 +192,7 @@ js
 ]
 [
 "
-browser_toTopLevelWidgetRect
+browser_LayoutUtils
 .
 js
 "
