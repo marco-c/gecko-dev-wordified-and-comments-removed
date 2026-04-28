@@ -356,9 +356,7 @@ tools
 /
 lint
 /
-trojan
--
-source
+mozcheck
 /
 *
 *
@@ -368,8 +366,11 @@ type
 external
 payload
 :
+mozcheck
+:
+lint
+check
+:
 trojan
 -
 source
-:
-lint
