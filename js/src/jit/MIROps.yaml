@@ -15797,6 +15797,9 @@ congruentTo
 alias_set
 :
 none
+folds_to
+:
+custom
 possibly_calls
 :
 true
