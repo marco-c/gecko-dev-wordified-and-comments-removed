@@ -336,9 +336,6 @@ PrimitiveInstanceKind
 BoxShadow
 {
 data_handle
-render_task
-:
-None
 }
 }
 }
