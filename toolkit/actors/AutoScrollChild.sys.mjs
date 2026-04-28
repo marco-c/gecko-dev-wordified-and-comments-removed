@@ -1001,7 +1001,7 @@ computeWindowScrollDirection
 (
 aNode
 .
-ownerGlobal
+documentGlobal
 )
 ;
 if
@@ -1021,7 +1021,7 @@ _scrollable
 =
 aNode
 .
-ownerGlobal
+documentGlobal
 ;
 }
 else
@@ -1029,7 +1029,7 @@ if
 (
 aNode
 .
-ownerGlobal
+documentGlobal
 .
 frameElement
 )
@@ -1078,7 +1078,7 @@ findNearestScrollableElement
 (
 aNode
 .
-ownerGlobal
+documentGlobal
 .
 frameElement
 )
@@ -1149,7 +1149,7 @@ event
 .
 originalTarget
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /
@@ -2088,11 +2088,20 @@ instant
 }
 )
 ;
+(
 this
 .
 _scrollable
 .
 documentGlobal
+|
+|
+this
+.
+_scrollable
+.
+ownerGlobal
+)
 .
 requestAnimationFrame
 (
