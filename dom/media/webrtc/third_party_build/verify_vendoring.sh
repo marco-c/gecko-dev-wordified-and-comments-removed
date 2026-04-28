@@ -358,6 +358,11 @@ git
 log
 -
 -
+no
+-
+merges
+-
+-
 reverse
 -
 -
@@ -413,6 +418,11 @@ CANDIDATE_COMMITS
 =
 hg
 log
+-
+-
+no
+-
+merges
 -
 -
 template
