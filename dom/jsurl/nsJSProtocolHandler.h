@@ -274,10 +274,6 @@ return
 mBaseURI
 ;
 }
-NS_INLINE_DECL_STATIC_IID
-(
-NS_JSURI_CID
-)
 NS_DECL_ISUPPORTS_INHERITED
 virtual
 already_AddRefed

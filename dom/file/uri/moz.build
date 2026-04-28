@@ -88,11 +88,6 @@ BlobURL
 h
 "
 "
-BlobURLChannel
-.
-h
-"
-"
 BlobURLInputStream
 .
 h

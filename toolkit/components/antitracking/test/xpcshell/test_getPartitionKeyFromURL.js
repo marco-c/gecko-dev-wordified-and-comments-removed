@@ -1209,12 +1209,6 @@ equal
 (
 partitionKey
 "
-(
-http
-foo
-.
-com
-)
 "
 "
 The

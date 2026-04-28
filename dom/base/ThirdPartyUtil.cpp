@@ -1887,6 +1887,12 @@ NS_ERROR_INVALID_ARG
 nsresult
 rv
 ;
+nsCOMPtr
+<
+nsIPrincipal
+>
+blobPrincipal
+;
 if
 (
 aHostURI
@@ -1900,12 +1906,6 @@ blob
 )
 )
 {
-nsCOMPtr
-<
-nsIPrincipal
->
-blobPrincipal
-;
 if
 (
 BlobURLProtocolHandler
@@ -1914,9 +1914,6 @@ BlobURLProtocolHandler
 GetBlobURLPrincipal
 (
 aHostURI
-OriginAttributes
-(
-)
 getter_AddRefs
 (
 blobPrincipal
