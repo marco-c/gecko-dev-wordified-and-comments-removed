@@ -539,7 +539,7 @@ ReferrerPolicy
 const
 {
 return
-getLoadedScript
+FetchInfo
 (
 )
 -
