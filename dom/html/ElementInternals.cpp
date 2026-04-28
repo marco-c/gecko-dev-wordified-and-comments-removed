@@ -1592,7 +1592,7 @@ false
 }
 already_AddRefed
 <
-nsINodeList
+NodeList
 >
 ElementInternals
 :

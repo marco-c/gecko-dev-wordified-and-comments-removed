@@ -288,7 +288,11 @@ h
 #
 include
 "
-nsContentList
+mozilla
+/
+dom
+/
+ContentList
 .
 h
 "
@@ -8048,9 +8052,12 @@ false
 ErrorResult
 err
 ;
-nsCOMPtr
+RefPtr
 <
-nsIHTMLCollection
+dom
+:
+:
+HTMLCollection
 >
 toolbarSprings
 =

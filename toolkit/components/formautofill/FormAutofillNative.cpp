@@ -4508,9 +4508,9 @@ return
 false
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIHTMLCollection
+HTMLCollection
 >
 options
 =
@@ -5097,7 +5097,7 @@ TestOptionElementForInteger
 aOptions
 -
 >
-GetElementAt
+Item
 (
 i
 +
@@ -5996,7 +5996,7 @@ OwnerDoc
 endif
 RefPtr
 <
-nsContentList
+ContentList
 >
 labels
 =

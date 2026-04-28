@@ -45,9 +45,6 @@ class
 nsINode
 ;
 class
-nsINodeList
-;
-class
 nsRange
 ;
 namespace
@@ -92,6 +89,9 @@ GlobalObject
 ;
 class
 InspectorFontFace
+;
+class
+NodeList
 ;
 class
 OwningCSSRuleOrInspectorDeclaration
@@ -880,7 +880,7 @@ MOZ_CAN_RUN_SCRIPT
 static
 already_AddRefed
 <
-nsINodeList
+NodeList
 >
 GetOverflowingChildrenOfElement
 (
