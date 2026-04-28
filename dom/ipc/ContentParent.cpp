@@ -20497,6 +20497,16 @@ nsICookieNotification
 "
 )
 ;
+if
+(
+!
+notification
+)
+{
+return
+NS_OK
+;
+}
 nsICookieNotification
 :
 :
@@ -32559,6 +32569,10 @@ TransmitBlobDataIfBlobURL
 nsIURI
 *
 aURI
+const
+OriginAttributes
+&
+aAttrs
 )
 {
 MOZ_ASSERT
@@ -32580,6 +32594,7 @@ BlobURLProtocolHandler
 GetBlobURLPrincipal
 (
 aURI
+aAttrs
 getter_AddRefs
 (
 principal
