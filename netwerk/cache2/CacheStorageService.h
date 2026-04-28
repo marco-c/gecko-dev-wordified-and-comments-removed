@@ -1295,10 +1295,13 @@ override
 ;
 Monitor
 mMon
-MOZ_UNANNOTATED
 ;
 bool
 mSignaled
+MOZ_GUARDED_BY
+(
+mMon
+)
 {
 false
 }

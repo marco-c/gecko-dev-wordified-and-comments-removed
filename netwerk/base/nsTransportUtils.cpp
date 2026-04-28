@@ -135,13 +135,16 @@ mTarget
 ;
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 RefPtr
 <
 nsTransportStatusEvent
 >
 mLastEvent
+MOZ_GUARDED_BY
+(
+mLock
+)
 ;
 }
 ;

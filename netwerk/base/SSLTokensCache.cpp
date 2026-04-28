@@ -3098,6 +3098,10 @@ makeRecord
 ]
 (
 )
+MOZ_REQUIRES
+(
+sLock
+)
 {
 auto
 rec

@@ -7838,10 +7838,12 @@ aListener
 nsresult
 rv
 ;
+MOZ_PUSH_IGNORE_THREAD_SAFETY
 mListener
 =
 aListener
 ;
+MOZ_POP_THREAD_SAFETY
 if
 (
 inet_pton

@@ -276,6 +276,10 @@ nsCOMPtr
 nsIStreamListener
 >
 mListener
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 Atomic
 <
@@ -506,7 +510,6 @@ mozilla
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 {
 "
 nsHTTPCompressConv

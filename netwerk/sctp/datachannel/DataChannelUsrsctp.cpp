@@ -442,6 +442,7 @@ virtual
 DataChannelRegistry
 (
 )
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
@@ -624,6 +625,10 @@ DataChannelConnectionUsrsctp
 *
 aConnection
 )
+MOZ_REQUIRES
+(
+sInstanceMutex
+)
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
@@ -651,6 +656,10 @@ DeregisterImpl
 (
 uintptr_t
 aId
+)
+MOZ_REQUIRES
+(
+sInstanceMutex
 )
 {
 MOZ_DIAGNOSTIC_ASSERT
@@ -686,6 +695,10 @@ Empty
 (
 )
 const
+MOZ_REQUIRES
+(
+sInstanceMutex
+)
 {
 return
 mConnections
@@ -703,6 +716,10 @@ LookupImpl
 (
 uintptr_t
 aId
+)
+MOZ_REQUIRES
+(
+sInstanceMutex
 )
 {
 auto
@@ -1015,6 +1032,10 @@ false
 }
 uintptr_t
 mNextId
+MOZ_GUARDED_BY
+(
+sInstanceMutex
+)
 =
 1
 ;
@@ -1030,6 +1051,10 @@ DataChannelConnectionUsrsctp
 >
 >
 mConnections
+MOZ_GUARDED_BY
+(
+sInstanceMutex
+)
 ;
 UniquePtr
 <
@@ -1043,7 +1068,6 @@ mShutdownBlocker
 static
 StaticMutex
 sInstanceMutex
-MOZ_UNANNOTATED
 ;
 static
 bool

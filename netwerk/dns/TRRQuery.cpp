@@ -283,8 +283,6 @@ trr
 enum
 TrrType
 rectype
-MutexAutoLock
-&
 )
 {
 if
@@ -437,7 +435,6 @@ MarkSendingTRR
 (
 trr
 aRecType
-trrlock
 )
 ;
 aRequestsToSend

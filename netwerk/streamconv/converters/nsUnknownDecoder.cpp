@@ -1144,6 +1144,13 @@ mBufferLen
 =
 0
 ;
+{
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 type
 .
 Assign
@@ -1157,6 +1164,7 @@ Truncate
 (
 )
 ;
+}
 return
 type
 .

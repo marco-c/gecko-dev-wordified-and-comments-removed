@@ -212,6 +212,10 @@ nsCOMPtr
 nsIStreamListener
 >
 mNextListener
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 bool
 SniffForHTML
@@ -352,6 +356,10 @@ mBufferLen
 ;
 nsCString
 mContentType
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 mutable
 mozilla
@@ -359,7 +367,6 @@ mozilla
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 protected
 :
@@ -379,6 +386,10 @@ length
 ;
 nsCString
 mDecodedData
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 }
 ;

@@ -878,7 +878,6 @@ DEBUG_DUMP_URLS_AT_SHUTDOWN
 static
 StaticMutex
 gAllURLsMutex
-MOZ_UNANNOTATED
 ;
 constinit
 static
@@ -887,6 +886,10 @@ LinkedList
 nsStandardURL
 >
 gAllURLs
+MOZ_GUARDED_BY
+(
+gAllURLsMutex
+)
 ;
 #
 endif

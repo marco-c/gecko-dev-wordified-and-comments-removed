@@ -79,15 +79,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Atomics
 .
 h
@@ -381,6 +372,10 @@ nsCOMPtr
 nsIStreamListener
 >
 mOuterListener
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 nsCOMPtr
 <
@@ -450,7 +445,6 @@ mozilla
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 }
 ;

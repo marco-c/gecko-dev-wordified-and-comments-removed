@@ -352,8 +352,10 @@ TRR
 trr
 TrrType
 rectype
-MutexAutoLock
-&
+)
+MOZ_REQUIRES
+(
+mTrrLock
 )
 ;
 void
@@ -400,7 +402,6 @@ mRecord
 ;
 Mutex
 mTrrLock
-MOZ_UNANNOTATED
 ;
 RefPtr
 <
@@ -413,6 +414,10 @@ net
 TRR
 >
 mTrrA
+MOZ_GUARDED_BY
+(
+mTrrLock
+)
 ;
 RefPtr
 <
@@ -425,6 +430,10 @@ net
 TRR
 >
 mTrrAAAA
+MOZ_GUARDED_BY
+(
+mTrrLock
+)
 ;
 RefPtr
 <
@@ -437,6 +446,10 @@ net
 TRR
 >
 mTrrByType
+MOZ_GUARDED_BY
+(
+mTrrLock
+)
 ;
 Atomic
 <

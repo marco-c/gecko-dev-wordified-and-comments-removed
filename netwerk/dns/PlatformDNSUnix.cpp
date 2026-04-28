@@ -116,7 +116,7 @@ mozilla
 :
 StaticMutex
 sMutex
-MOZ_UNANNOTATED
+MOZ_ANNOTATED
 ;
 #
 endif

@@ -89,10 +89,13 @@ default
 ;
 ObserverArray
 mObservers
+MOZ_GUARDED_BY
+(
+mLock
+)
 ;
 Mutex
 mLock
-MOZ_UNANNOTATED
 {
 "
 nsHttpActivityDistributor

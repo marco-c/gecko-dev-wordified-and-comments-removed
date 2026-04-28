@@ -638,7 +638,7 @@ mMainThreadEventTarget
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
+MOZ_ANNOTATED
 ;
 private
 :

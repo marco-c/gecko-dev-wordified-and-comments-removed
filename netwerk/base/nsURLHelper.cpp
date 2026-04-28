@@ -179,7 +179,7 @@ mozilla
 static
 StaticMutex
 gInitLock
-MOZ_UNANNOTATED
+MOZ_ANNOTATED
 ;
 static
 Atomic

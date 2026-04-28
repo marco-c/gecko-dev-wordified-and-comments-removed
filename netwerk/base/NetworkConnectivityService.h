@@ -232,6 +232,10 @@ nsTArray
 NetAddr
 >
 mNAT64Prefixes
+MOZ_GUARDED_BY
+(
+mLock
+)
 {
 ConnectivityState
 :
@@ -293,7 +297,6 @@ false
 ;
 Mutex
 mLock
-MOZ_UNANNOTATED
 {
 "
 nat64prefixes

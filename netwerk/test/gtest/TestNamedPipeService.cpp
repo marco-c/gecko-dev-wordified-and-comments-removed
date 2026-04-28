@@ -180,10 +180,13 @@ private
 :
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 bool
 mSignaled
+MOZ_GUARDED_BY
+(
+mMonitor
+)
 =
 false
 ;

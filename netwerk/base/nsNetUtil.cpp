@@ -7835,7 +7835,7 @@ true
 }
 Monitor
 mMonitor
-MOZ_UNANNOTATED
+MOZ_ANNOTATED
 ;
 nsCOMPtr
 <

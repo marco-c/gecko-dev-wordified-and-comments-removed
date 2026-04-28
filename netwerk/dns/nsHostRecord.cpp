@@ -42,15 +42,6 @@ h
 #
 include
 "
-mozilla
-/
-ThreadSafety
-.
-h
-"
-#
-include
-"
 TRRService
 .
 h
@@ -3078,7 +3069,12 @@ return
 true
 ;
 }
-MOZ_PUSH_IGNORE_THREAD_SAFETY
+MutexAutoLock
+lock
+(
+mResultsLock
+)
+;
 return
 !
 mResults
@@ -3090,7 +3086,6 @@ Nothing
 (
 )
 ;
-MOZ_POP_THREAD_SAFETY
 }
 bool
 TypeHostRecord
