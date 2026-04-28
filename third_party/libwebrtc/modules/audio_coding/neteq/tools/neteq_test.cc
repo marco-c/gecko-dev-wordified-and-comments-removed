@@ -58,15 +58,6 @@ include
 "
 api
 /
-array_view
-.
-h
-"
-#
-include
-"
-api
-/
 audio
 /
 audio_frame
