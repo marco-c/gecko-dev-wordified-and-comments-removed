@@ -368,6 +368,16 @@ TabsTrayItem
 .
 TabGroup
 >
+onTabGroupClick
+:
+(
+TabsTrayItem
+.
+TabGroup
+)
+-
+>
+Unit
 onDeleteTabGroup
 :
 (
@@ -402,6 +412,9 @@ isNotEmpty
 TabGroupList
 (
 groups
+onTabGroupClick
+=
+onTabGroupClick
 onDeleteTabGroup
 =
 onDeleteTabGroup
@@ -857,6 +870,10 @@ TabGroupsPage
 groups
 =
 groups
+onTabGroupClick
+=
+{
+}
 onDeleteTabGroup
 =
 {

@@ -365,7 +365,6 @@ thumbnail
 /
 Group
 Items
-private
 const
 val
 TAB_GROUP_ROOT
