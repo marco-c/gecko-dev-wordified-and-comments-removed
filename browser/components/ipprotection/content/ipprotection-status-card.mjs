@@ -332,6 +332,13 @@ type
 :
 Boolean
 }
+showLocationButtonBadge
+:
+{
+type
+:
+Boolean
+}
 }
 ;
 handleButtonClick
@@ -530,6 +537,12 @@ btn
 content
 "
 >
+{
+this
+.
+showLocationButtonBadge
+?
+html
 <
 moz
 -
@@ -546,6 +559,9 @@ moz
 -
 badge
 >
+:
+null
+}
 <
 span
 data
