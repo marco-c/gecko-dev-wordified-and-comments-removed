@@ -370,6 +370,11 @@ InProcessGtkCompositorWidget
 h
 "
 "
+nsGtkHtmlUtils
+.
+h
+"
+"
 va_drmcommon
 .
 h
@@ -511,6 +516,11 @@ cpp
 "
 "
 nsFilePicker
+.
+cpp
+"
+"
+nsGtkHtmlUtils
 .
 cpp
 "
