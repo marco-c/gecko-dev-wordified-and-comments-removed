@@ -111,7 +111,7 @@ pb_newtab
 2
 toast_notification
 :
-4
+6
 bookmarks_bar_button
 :
 1
