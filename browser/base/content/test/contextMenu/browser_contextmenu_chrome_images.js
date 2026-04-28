@@ -531,9 +531,6 @@ MockFilePicker
 .
 init
 (
-window
-.
-browsingContext
 )
 ;
 await

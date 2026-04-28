@@ -139,9 +139,6 @@ MockFilePicker
 .
 init
 (
-window
-.
-browsingContext
 )
 ;
 TEST_PROFILE_PATH

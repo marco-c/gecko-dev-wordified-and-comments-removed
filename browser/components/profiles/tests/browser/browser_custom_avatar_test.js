@@ -896,9 +896,6 @@ MockFilePicker
 .
 init
 (
-window
-.
-browsingContext
 )
 ;
 MockFilePicker
@@ -2077,9 +2074,6 @@ MockFilePicker
 .
 init
 (
-window
-.
-browsingContext
 )
 ;
 MockFilePicker
@@ -3069,9 +3063,6 @@ MockFilePicker
 .
 init
 (
-window
-.
-browsingContext
 )
 ;
 MockFilePicker
@@ -4313,9 +4304,6 @@ MockFilePicker
 .
 init
 (
-window
-.
-browsingContext
 )
 ;
 MockFilePicker

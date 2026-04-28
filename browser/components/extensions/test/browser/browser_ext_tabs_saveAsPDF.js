@@ -187,9 +187,6 @@ MockFilePicker
 .
 init
 (
-window
-.
-browsingContext
 )
 ;
 if
@@ -716,9 +713,6 @@ MockFilePicker
 .
 init
 (
-window
-.
-browsingContext
 )
 ;
 MockFilePicker

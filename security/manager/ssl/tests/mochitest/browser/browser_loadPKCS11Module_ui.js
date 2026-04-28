@@ -374,9 +374,6 @@ gMockFilePicker
 .
 init
 (
-window
-.
-browsingContext
 )
 ;
 var

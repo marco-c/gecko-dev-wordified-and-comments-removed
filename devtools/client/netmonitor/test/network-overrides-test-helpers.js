@@ -800,11 +800,6 @@ overridePath
 prepareFilePicker
 (
 overrideFileName
-monitor
-.
-toolbox
-.
-topWindow
 )
 ;
 info
@@ -1025,7 +1020,6 @@ function
 prepareFilePicker
 (
 filename
-chromeWindow
 )
 {
 const
@@ -1039,9 +1033,6 @@ MockFilePicker
 .
 init
 (
-chromeWindow
-.
-browsingContext
 )
 ;
 const
