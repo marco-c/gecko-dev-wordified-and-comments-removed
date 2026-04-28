@@ -135,6 +135,13 @@ js
 ]
 [
 "
+browser_UITour_aiControls
+.
+js
+"
+]
+[
+"
 browser_UITour_aiwindow
 .
 js
@@ -236,6 +243,13 @@ true
 #
 Bug
 1026310
+]
+[
+"
+browser_UITour_pinToTaskbar
+.
+js
+"
 ]
 [
 "
