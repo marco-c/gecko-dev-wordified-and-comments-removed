@@ -5505,6 +5505,12 @@ this
 .
 maxRenderCountEstimate
 =
+this
+.
+itemHeightEstimate
+>
+0
+?
 Math
 .
 max
@@ -5525,6 +5531,8 @@ this
 itemHeightEstimate
 )
 )
+:
+0
 ;
 this
 .
@@ -6421,6 +6429,12 @@ this
 .
 maxRenderCountEstimate
 =
+this
+.
+itemHeightEstimate
+>
+0
+?
 Math
 .
 max
@@ -6441,6 +6455,8 @@ this
 itemHeightEstimate
 )
 )
+:
+0
 ;
 }
 firstUpdated
