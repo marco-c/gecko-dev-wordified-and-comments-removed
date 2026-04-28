@@ -1454,12 +1454,6 @@ CheckMetadata
 GreenFirstFrameAnimatedJXLTestCase
 (
 )
-BMPWithinICO
-:
-:
-NO
-false
-true
 )
 ;
 }
