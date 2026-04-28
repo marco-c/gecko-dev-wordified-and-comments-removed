@@ -805,9 +805,6 @@ nullable
 FileHandleWrapper
 semaphoreFd
 ;
-bool
-semaphoreFdIsSyncFd
-;
 }
 ;
 [
