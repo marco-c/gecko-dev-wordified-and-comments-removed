@@ -1985,7 +1985,6 @@ i
 )
 ?
 ;
-return
 Ok
 (
 (
@@ -1999,7 +1998,6 @@ lines
 )
 )
 )
-;
 }
 fn
 distrust_comment
