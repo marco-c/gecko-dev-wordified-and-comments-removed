@@ -5,11 +5,6 @@ GFX_FONT_CONSTANTS_H
 define
 GFX_FONT_CONSTANTS_H
 #
-include
-<
-cstdint
->
-#
 define
 NS_FONT_STYLE_NORMAL
 0

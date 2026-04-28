@@ -4,6 +4,13 @@ mozilla_ServoTraversalStatistics_h
 #
 define
 mozilla_ServoTraversalStatistics_h
+#
+include
+<
+inttypes
+.
+h
+>
 namespace
 mozilla
 {

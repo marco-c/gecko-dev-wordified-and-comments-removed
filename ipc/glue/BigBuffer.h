@@ -13,6 +13,13 @@ h
 >
 #
 include
+<
+inttypes
+.
+h
+>
+#
+include
 "
 nsDebug
 .
