@@ -315,6 +315,10 @@ GetBlobURLPrincipal
 nsIURI
 *
 aURI
+const
+OriginAttributes
+&
+aAttrs
 nsIPrincipal
 *
 *
