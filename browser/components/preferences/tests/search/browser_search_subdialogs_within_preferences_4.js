@@ -56,7 +56,7 @@ been
 installed
 "
 "
-updateApp
+updates
 "
 )
 ;

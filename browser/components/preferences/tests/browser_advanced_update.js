@@ -500,7 +500,7 @@ xhtml
 ;
 showBtn
 .
-doCommand
+click
 (
 )
 ;
