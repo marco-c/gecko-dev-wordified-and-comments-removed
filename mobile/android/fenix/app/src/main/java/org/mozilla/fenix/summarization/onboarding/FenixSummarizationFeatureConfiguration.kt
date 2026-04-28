@@ -174,7 +174,7 @@ SummarizationFeatureDiscoveryConfiguration
 {
 override
 val
-canShowFeature
+isFeatureAvailable
 :
 Boolean
 get
@@ -184,6 +184,16 @@ get
 settings
 .
 shakeToSummarizeFeatureFlagEnabled
+override
+val
+canShowFeature
+:
+Boolean
+get
+(
+)
+=
+isFeatureAvailable
 &
 &
 summarizationSettingsBinding

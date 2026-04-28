@@ -134,6 +134,13 @@ shouldToolbarShowCfr
 Boolean
 =
 false
+override
+var
+isFeatureAvailable
+:
+Boolean
+=
+true
 )
 :
 SummarizationFeatureDiscoveryConfiguration
