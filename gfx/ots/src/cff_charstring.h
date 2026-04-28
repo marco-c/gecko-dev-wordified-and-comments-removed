@@ -384,6 +384,15 @@ kFlex1
 37
 }
 ;
+enum
+HintState
+{
+kHs
+kVs
+kCm
+kHm
+}
+;
 struct
 CharStringContext
 {
@@ -401,6 +410,11 @@ size_t
 num_stems
 =
 0
+;
+HintState
+hint_state
+=
+kHs
 ;
 bool
 cff2
