@@ -686,6 +686,12 @@ profile
 "
         
 "
+native
+-
+profiling
+"
+        
+"
 new
 -
 test
