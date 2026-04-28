@@ -115,6 +115,13 @@ hardwarevideodecoding
 )
 GFXINFO_FEATURE
 (
+HARDWARE_VIDEO_DECODING_VULKAN
+"
+hardwarevideodecodingvulkan
+"
+)
+GFXINFO_FEATURE
+(
 DIRECT3D_11_ANGLE
 "
 direct3d11angle
