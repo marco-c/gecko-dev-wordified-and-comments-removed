@@ -43,6 +43,7 @@ testing
 import
 REFTEST_FLAVORS
 TEST_MANIFESTS
+install_test_files
 from
 mozpack
 .
@@ -5485,6 +5486,28 @@ gen_test_backend
             
 gen_test_backend
 (
+)
+            
+install_test_files
+(
+                
+mozpath
+.
+normpath
+(
+self
+.
+topsrcdir
+)
+                
+self
+.
+topobjdir
+                
+"
+_tests
+"
+            
 )
         
 all_tests
