@@ -788,7 +788,7 @@ aFetchOptions
 aLoadedScript
 -
 >
-BaseURL
+CachedBaseURL
 (
 )
 )
