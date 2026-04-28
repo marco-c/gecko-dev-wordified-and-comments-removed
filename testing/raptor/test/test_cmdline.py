@@ -164,6 +164,10 @@ None
 power_test
 =
 False
+        
+simpleperf
+=
+False
     
 )
     
@@ -325,6 +329,10 @@ None
 power_test
 =
 False
+        
+simpleperf
+=
+False
     
 )
     
@@ -449,6 +457,10 @@ post_startup_delay
 None
         
 power_test
+=
+False
+        
+simpleperf
 =
 False
     
@@ -577,6 +589,10 @@ None
 power_test
 =
 False
+        
+simpleperf
+=
+False
     
 )
     
@@ -699,6 +715,10 @@ None
 power_test
 =
 False
+        
+simpleperf
+=
+False
     
 )
     
@@ -813,6 +833,10 @@ post_startup_delay
 None
         
 power_test
+=
+False
+        
+simpleperf
 =
 False
     
@@ -1344,6 +1368,12 @@ power_test
 "
 :
 True
+                
+"
+simpleperf
+"
+:
+False
             
 }
             
