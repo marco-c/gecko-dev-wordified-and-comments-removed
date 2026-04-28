@@ -587,6 +587,12 @@ Clear
 (
 )
 ;
+mUncaughtRejectionObservers
+.
+Clear
+(
+)
+;
 mFinalizationRegistryCleanup
 .
 Destroy
