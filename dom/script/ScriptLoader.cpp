@@ -5849,11 +5849,6 @@ aRequest
 aRequest
 -
 >
-getLoadedScript
-(
-)
--
->
 ReferrerPolicy
 (
 )
@@ -6694,7 +6689,7 @@ cacheResult
 mCompleteValue
 -
 >
-ReferrerPolicy
+CachedReferrerPolicy
 (
 )
 =
@@ -17051,11 +17046,6 @@ aRequest
 aRequest
 -
 >
-getLoadedScript
-(
-)
--
->
 ReferrerPolicy
 (
 )
@@ -17362,6 +17352,12 @@ ConvertToCachedStencil
 aRequest
 -
 >
+ReferrerPolicy
+(
+)
+aRequest
+-
+>
 BaseURL
 (
 )
@@ -17470,7 +17466,7 @@ key
 (
 this
 aRequest
-loadedScript
+aRequest
 -
 >
 ReferrerPolicy
