@@ -1224,7 +1224,7 @@ PresShell
 aPresShell
 WidgetMouseEvent
 *
-aMouseEvent
+aMouseOrPointerEvent
 nsEventStatus
 *
 aStatus
