@@ -94,6 +94,8 @@ UrlbarProvider
 }
 from
 "
+.
+/
 UrlbarUtils
 .
 sys
@@ -107,6 +109,8 @@ UrlbarMuxer
 }
 from
 "
+.
+/
 UrlbarUtils
 .
 sys
@@ -120,6 +124,8 @@ UrlbarSearchStringTokenData
 }
 from
 "
+.
+/
 UrlbarTokenizer
 .
 sys

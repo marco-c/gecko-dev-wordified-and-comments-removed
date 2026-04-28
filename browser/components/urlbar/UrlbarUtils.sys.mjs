@@ -95,6 +95,8 @@ Query
 }
 from
 "
+.
+/
 UrlbarProvidersManager
 .
 sys
@@ -155,6 +157,8 @@ UrlbarSearchStringTokenData
 }
 from
 "
+.
+/
 UrlbarTokenizer
 .
 sys
