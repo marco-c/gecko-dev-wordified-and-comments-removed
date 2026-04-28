@@ -3251,6 +3251,12 @@ Start
 (
 )
 ;
+mProfilePath
+.
+Truncate
+(
+)
+;
 }
 StorageDBThread
 *
