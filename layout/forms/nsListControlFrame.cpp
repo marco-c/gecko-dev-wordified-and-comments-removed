@@ -2480,8 +2480,10 @@ void
 nsListControlFrame
 :
 :
-OptionsAdded
+AddOption
 (
+int32_t
+aIndex
 )
 {
 mNeedToReset
@@ -2966,6 +2968,8 @@ nsListControlFrame
 OnSetSelectedIndex
 (
 int32_t
+aOldIndex
+int32_t
 aNewIndex
 )
 {
@@ -3010,6 +3014,8 @@ return
 }
 mStartSelectionIndex
 =
+aNewIndex
+;
 mEndSelectionIndex
 =
 aNewIndex
@@ -3023,12 +3029,10 @@ ifdef
 ACCESSIBILITY
 if
 (
-prevOption
+aOldIndex
 !
 =
-GetCurrentOption
-(
-)
+aNewIndex
 )
 {
 FireMenuItemActiveEvent
