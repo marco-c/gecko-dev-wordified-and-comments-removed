@@ -1396,7 +1396,7 @@ RtpTransportInternal
 rtp_transport
 )
 ;
-bool
+RTCError
 SetChannelLocalContent
 (
 const
@@ -1405,15 +1405,9 @@ MediaContentDescription
 content
 SdpType
 type
-std
-:
-:
-string
-&
-error_desc
 )
 ;
-bool
+RTCError
 SetChannelRemoteContent
 (
 const
@@ -1422,12 +1416,6 @@ MediaContentDescription
 content
 SdpType
 type
-std
-:
-:
-string
-&
-error_desc
 )
 ;
 bool
@@ -1717,7 +1705,7 @@ content
 )
 const
 ;
-bool
+RTCError
 SetChannelContent
 (
 absl
@@ -1725,7 +1713,7 @@ absl
 :
 AnyInvocable
 <
-bool
+RTCError
 (
 )
 &

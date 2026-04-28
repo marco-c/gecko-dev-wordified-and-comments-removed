@@ -815,6 +815,14 @@ jsep
 /
 api
 :
+rtc_error
+"
+"
+.
+.
+/
+api
+:
 rtp_parameters
 "
 "

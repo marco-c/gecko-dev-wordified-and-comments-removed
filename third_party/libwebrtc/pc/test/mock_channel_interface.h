@@ -57,6 +57,15 @@ h
 #
 include
 "
+api
+/
+rtc_error
+.
+h
+"
+#
+include
+"
 media
 /
 base
@@ -350,7 +359,7 @@ override
 ;
 MOCK_METHOD
 (
-bool
+RTCError
 SetLocalContent
 (
 const
@@ -360,11 +369,6 @@ webrtc
 MediaContentDescription
 *
 SdpType
-std
-:
-:
-string
-&
 )
 (
 override
@@ -373,7 +377,7 @@ override
 ;
 MOCK_METHOD
 (
-bool
+RTCError
 SetRemoteContent
 (
 const
@@ -383,11 +387,6 @@ webrtc
 MediaContentDescription
 *
 SdpType
-std
-:
-:
-string
-&
 )
 (
 override
