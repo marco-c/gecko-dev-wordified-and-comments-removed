@@ -1216,6 +1216,9 @@ httpsOnly
 networkProxy
 "
 "
+privacyPanel
+"
+"
 browsingProtection
 "
 "

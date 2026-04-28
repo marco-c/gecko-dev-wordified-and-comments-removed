@@ -393,6 +393,13 @@ js
 ]
 [
 "
+browser_privacy_trustPanelBreachAlerts
+.
+js
+"
+]
+[
+"
 browser_setting_group_in_progress
 .
 js
