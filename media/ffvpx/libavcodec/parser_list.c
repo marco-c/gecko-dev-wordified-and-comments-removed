@@ -7,7 +7,7 @@ h
 "
 static
 const
-AVCodecParser
+FFCodecParser
 *
 const
 parser_list
