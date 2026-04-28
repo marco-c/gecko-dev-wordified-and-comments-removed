@@ -131,6 +131,7 @@ context
 Context
 )
 {
+internal
 companion
 object
 {
@@ -342,6 +343,7 @@ state
 .
 *
 /
+internal
 fun
 setStatus
 (
