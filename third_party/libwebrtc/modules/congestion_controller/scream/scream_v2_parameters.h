@@ -225,7 +225,7 @@ FieldTrialParameter
 <
 TimeDelta
 >
-periodic_padding_interval
+time_between_periodic_padding
 ;
 FieldTrialParameter
 <
@@ -238,6 +238,12 @@ FieldTrialParameter
 TimeDelta
 >
 allow_padding_after_last_congestion_time
+;
+FieldTrialParameter
+<
+TimeDelta
+>
+initial_probing_duration
 ;
 FieldTrialParameter
 <
