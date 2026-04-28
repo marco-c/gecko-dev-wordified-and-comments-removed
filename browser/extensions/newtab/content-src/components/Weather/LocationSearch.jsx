@@ -70,6 +70,7 @@ react
 ;
 import
 {
+batch
 useDispatch
 useSelector
 }
@@ -636,6 +637,13 @@ handleUseCurrentLocation
 (
 )
 {
+batch
+(
+(
+)
+=
+>
+{
 dispatch
 (
 ac
@@ -669,6 +677,9 @@ data
 false
 }
 )
+)
+;
+}
 )
 ;
 }
@@ -960,12 +971,7 @@ onClick
 {
 handleUseCurrentLocation
 }
->
-<
 /
-moz
--
-button
 >
 )
 }
