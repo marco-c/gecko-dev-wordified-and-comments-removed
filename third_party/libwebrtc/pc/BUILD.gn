@@ -19161,6 +19161,13 @@ h
 "
 test
 /
+fake_audio_track
+.
+h
+"
+"
+test
+/
 fake_data_channel_controller
 .
 h
@@ -19197,6 +19204,13 @@ h
 test
 /
 fake_rtc_certificate_generator
+.
+h
+"
+"
+test
+/
+fake_video_track
 .
 h
 "
