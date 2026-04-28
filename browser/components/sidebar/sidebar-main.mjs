@@ -3643,6 +3643,14 @@ updateVisibility
 false
 )
 ;
+window
+.
+SidebarController
+.
+updateToolbarButton
+(
+)
+;
 break
 ;
 case
