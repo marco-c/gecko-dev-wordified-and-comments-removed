@@ -256,14 +256,14 @@ overrides
 )
 ;
 await
+waitForSetOverride
+;
+await
 writeTextContentToPath
 (
 OVERRIDDEN_SCRIPT
 path
 )
-;
-await
-waitForSetOverride
 ;
 overrides
 =
