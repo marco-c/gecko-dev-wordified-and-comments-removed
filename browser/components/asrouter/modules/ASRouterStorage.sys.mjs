@@ -419,6 +419,11 @@ async
 _getStore
 (
 storeName
+mode
+=
+"
+readonly
+"
 )
 {
 return
@@ -432,9 +437,7 @@ db
 objectStore
 (
 storeName
-"
-readwrite
-"
+mode
 )
 ;
 }
@@ -557,6 +560,9 @@ this
 _getStore
 (
 storeName
+"
+readwrite
+"
 )
 )
 .
