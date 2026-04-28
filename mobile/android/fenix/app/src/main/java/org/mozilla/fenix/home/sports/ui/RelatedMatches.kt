@@ -731,7 +731,7 @@ R
 .
 string
 .
-sports_widget_match_full_time_suffix
+sports_widget_match_full_time
 )
 else
 -
