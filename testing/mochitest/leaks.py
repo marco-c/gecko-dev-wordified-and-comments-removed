@@ -500,7 +500,7 @@ self
 )
 :
         
-failures
+unattributedFailures
 =
 0
         
@@ -540,7 +540,7 @@ suite
             
 )
             
-failures
+unattributedFailures
 +
 =
 1
@@ -626,7 +626,7 @@ numDocShellDestroyedLogsSeen
             
 )
             
-failures
+unattributedFailures
 +
 =
 1
@@ -757,7 +757,7 @@ numDomWindowDestroyedLogsSeen
             
 )
             
-failures
+unattributedFailures
 +
 =
 1
@@ -808,7 +808,7 @@ numDomWindowDestroyedLogsSeen
             
 )
         
-errors
+leakErrors
 =
 [
 ]
@@ -854,7 +854,7 @@ get
 windowId
 )
                 
-errors
+leakErrors
 .
 append
 (
@@ -902,11 +902,6 @@ timestamp
                 
 }
 )
-                
-failures
-+
-=
-1
             
 if
 test
@@ -982,7 +977,7 @@ get
 docShellId
 )
                 
-errors
+leakErrors
 .
 append
 (
@@ -1022,11 +1017,6 @@ timestamp
                 
 }
 )
-                
-failures
-+
-=
-1
                 
 self
 .
@@ -1218,8 +1208,8 @@ hiddenDocShellsCount
 )
         
 return
-failures
-errors
+unattributedFailures
+leakErrors
     
 def
 _logWindow
