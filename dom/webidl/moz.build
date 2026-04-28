@@ -5520,11 +5520,6 @@ ScrollAreaEvent
 webidl
 "
 "
-ScrollTimeline
-.
-webidl
-"
-"
 Selection
 .
 webidl
