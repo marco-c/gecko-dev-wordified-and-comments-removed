@@ -3232,7 +3232,7 @@ applications
 sync
 RequestNativeKeyBindings
 (
-uint32_t
+NativeKeyBindingsType
 aType
 WidgetKeyboardEvent
 aEvent
