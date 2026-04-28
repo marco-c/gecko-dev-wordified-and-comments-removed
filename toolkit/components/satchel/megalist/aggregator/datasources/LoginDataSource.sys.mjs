@@ -3236,15 +3236,6 @@ true
 browsingContext
 ;
 const
-isOSAuthEnabled
-=
-LoginHelper
-.
-getOSAuthEnabled
-(
-)
-;
-const
 reason
 =
 "
@@ -3263,7 +3254,6 @@ LoginHelper
 requestReauth
 (
 browsingContext
-isOSAuthEnabled
 null
 /
 /

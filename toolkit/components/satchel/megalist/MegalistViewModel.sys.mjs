@@ -1174,17 +1174,6 @@ id
 ]
 ;
 const
-osAuthForPw
-=
-lazy
-.
-LoginHelper
-.
-getOSAuthEnabled
-(
-)
-;
-const
 {
 isAuthorized
 }
@@ -1210,7 +1199,6 @@ true
 )
 .
 gBrowser
-osAuthForPw
 this
 .
 #

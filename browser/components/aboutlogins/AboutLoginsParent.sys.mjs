@@ -1788,7 +1788,6 @@ this
 browsingContext
 .
 embedderElement
-isOSAuthEnabled
 AboutLogins
 .
 _authExpirationTime
@@ -2461,7 +2460,6 @@ this
 browsingContext
 .
 embedderElement
-true
 null
 /
 /
