@@ -152,6 +152,17 @@ mozilla
 dom
 :
 :
+GPUDeviceLostReason
+)
+;
+DEFINE_IPC_SERIALIZER_DOM_ENUM
+(
+mozilla
+:
+:
+dom
+:
+:
 GPUErrorFilter
 )
 ;

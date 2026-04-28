@@ -757,7 +757,11 @@ RecvDeviceLost
 (
 RawId
 aDeviceId
-uint8_t
+const
+dom
+:
+:
+GPUDeviceLostReason
 aReason
 const
 nsACString

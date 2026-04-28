@@ -1005,7 +1005,10 @@ LoseDevice
 const
 RawId
 aDeviceId
-uint8_t
+dom
+:
+:
+GPUDeviceLostReason
 aReason
 const
 nsACString
