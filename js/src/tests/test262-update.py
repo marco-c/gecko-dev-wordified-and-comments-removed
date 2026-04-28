@@ -232,6 +232,21 @@ concat
 "
     
 "
+iterator
+-
+includes
+"
+:
+"
+!
+Iterator
+.
+prototype
+.
+includes
+"
+    
+"
 immutable
 -
 arraybuffer
@@ -374,6 +389,22 @@ enable
 iterator
 -
 sequencing
+"
+    
+"
+iterator
+-
+includes
+"
+:
+"
+-
+-
+enable
+-
+iterator
+-
+includes
 "
     
 "
