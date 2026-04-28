@@ -922,7 +922,7 @@ Label
 label
 )
 ;
-void
+BufferOffset
 bl
 (
 int
@@ -956,7 +956,7 @@ Label
 label
 )
 ;
-void
+BufferOffset
 cbz
 (
 const
@@ -998,7 +998,7 @@ Label
 label
 )
 ;
-void
+BufferOffset
 cbnz
 (
 const
@@ -1226,7 +1226,7 @@ Label
 label
 )
 ;
-void
+BufferOffset
 tbz
 (
 const
@@ -1274,7 +1274,7 @@ Label
 label
 )
 ;
-void
+BufferOffset
 tbnz
 (
 const
@@ -1320,7 +1320,7 @@ Label
 label
 )
 ;
-void
+BufferOffset
 adr
 (
 const
@@ -1362,7 +1362,7 @@ Label
 label
 )
 ;
-void
+BufferOffset
 adrp
 (
 const
