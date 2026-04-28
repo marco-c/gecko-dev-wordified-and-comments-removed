@@ -150,6 +150,11 @@ EnterprisePoliciesFlagFileTests
 cpp
 '
 '
+EnterprisePoliciesTests
+.
+cpp
+'
+'
 TestDirHelpers
 .
 cpp
