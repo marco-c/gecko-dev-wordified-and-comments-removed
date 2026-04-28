@@ -5,13 +5,6 @@ Tracing
 .
 h
 "
-#
-include
-<
-inttypes
-.
-h
->
 using
 namespace
 mozilla
