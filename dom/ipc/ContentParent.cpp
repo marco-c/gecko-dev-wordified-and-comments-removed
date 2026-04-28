@@ -27295,6 +27295,10 @@ const
 TabId
 &
 aTabId
+const
+bool
+&
+aIgnoreAllowSitePermission
 )
 {
 RefPtr
@@ -27393,6 +27397,7 @@ topPrincipal
 aIsHandlingUserInput
 aMaybeUnsafePermissionDelegate
 aTabId
+aIgnoreAllowSitePermission
 )
 ;
 }
@@ -27436,6 +27441,10 @@ const
 TabId
 &
 tabId
+const
+bool
+&
+aIgnoreAllowSitePermission
 )
 {
 nsContentPermissionUtils

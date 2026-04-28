@@ -209,6 +209,9 @@ const
 TabId
 &
 aTabId
+const
+bool
+aIgnoreAllowSitePermission
 )
 ;
 static
@@ -414,6 +417,15 @@ GetIsRequestDelegatedToUnsafeThirdParty
 bool
 *
 aIsRequestDelegatedToUnsafeThirdParty
+)
+override
+;
+NS_IMETHOD
+GetIgnoreAllowSitePermission
+(
+bool
+*
+aIgnoreAllowSitePermission
 )
 override
 ;

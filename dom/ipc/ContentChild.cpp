@@ -18048,6 +18048,10 @@ const
 TabId
 &
 aTabId
+const
+bool
+&
+aIgnoreAllowSitePermission
 )
 {
 MOZ_CRASH
