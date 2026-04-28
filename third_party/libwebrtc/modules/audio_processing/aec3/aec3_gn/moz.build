@@ -816,7 +816,7 @@ audio_processing
 /
 aec3
 /
-moving_average
+moving_average_spectrum
 .
 cc
 "
