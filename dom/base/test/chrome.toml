@@ -265,6 +265,13 @@ html
 ]
 [
 "
+test_sendSelectionSetEvent_after_reframe
+.
+html
+"
+]
+[
+"
 test_sendSelectionSetEvent_with_same_range
 .
 html
