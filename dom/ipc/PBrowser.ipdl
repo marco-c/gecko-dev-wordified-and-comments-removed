@@ -1355,7 +1355,9 @@ from
 "
 mozilla
 /
-NativeKeyBindingsType
+widget
+/
+WidgetMessageUtils
 .
 h
 "
@@ -3232,7 +3234,7 @@ applications
 sync
 RequestNativeKeyBindings
 (
-uint32_t
+NativeKeyBindingsType
 aType
 WidgetKeyboardEvent
 aEvent
