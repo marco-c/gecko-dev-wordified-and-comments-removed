@@ -4066,7 +4066,7 @@ hidden
 "
 value
 :
-true
+false
 }
 ]
 [
