@@ -59,6 +59,13 @@ xpc
 msg
 "
 #
+include
+"
+extra_xpc_msg
+.
+h
+"
+#
 undef
 XPC_MSG_DEF
 {
