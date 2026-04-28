@@ -1534,6 +1534,13 @@ values
 toList
 (
 )
+.
+sortedByDescending
+{
+it
+.
+lastModified
+}
 )
 }
 private
@@ -1891,6 +1898,11 @@ closed
 tabGroup
 .
 closed
+lastModified
+=
+tabGroup
+.
+lastModified
 )
 }
 return
