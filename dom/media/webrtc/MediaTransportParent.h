@@ -271,7 +271,7 @@ uint8_t
 &
 certDer
 const
-int
+SSLKEAType
 &
 authType
 const
