@@ -700,10 +700,10 @@ sdk
 configure
 target_sdk_version
 =
-36
+37
 min_sdk_version
 =
-18
+26
 [
 package
 .
