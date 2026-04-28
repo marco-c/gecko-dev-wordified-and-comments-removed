@@ -459,12 +459,10 @@ req
 status
 Cr
 .
-NS_ERROR_NET_RESET
+NS_ERROR_NET_INTERRUPT
 )
 ;
-Assert
-.
-greater
+equal
 (
 handlerCount
 (
@@ -476,6 +474,8 @@ callback
 "
 )
 countOfMlkem
++
+1
 "
 negotiated
 mlkem768x25519
