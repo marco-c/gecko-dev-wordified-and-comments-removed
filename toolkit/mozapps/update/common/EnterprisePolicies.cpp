@@ -33,7 +33,7 @@ string
 #
 include
 <
-Windows
+windows
 .
 h
 >
