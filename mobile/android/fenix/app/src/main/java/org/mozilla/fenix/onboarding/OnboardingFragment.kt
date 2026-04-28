@@ -2558,7 +2558,7 @@ installationMethod
 =
 InstallationMethod
 .
-ONBOARDING
+RTAMO
 )
 }
 findNavController
