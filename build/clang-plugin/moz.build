@@ -267,6 +267,11 @@ SprintfLiteralChecker
 cpp
 "
 "
+SupportsWeakPtrCycleCollectionChecker
+.
+cpp
+"
+"
 TrivialCtorDtorChecker
 .
 cpp

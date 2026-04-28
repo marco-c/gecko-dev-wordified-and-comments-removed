@@ -258,6 +258,13 @@ h
 #
 include
 "
+SupportsWeakPtrCycleCollectionChecker
+.
+h
+"
+#
+include
+"
 TrivialCtorDtorChecker
 .
 h
