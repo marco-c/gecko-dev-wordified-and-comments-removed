@@ -2415,12 +2415,33 @@ append
 ref
 )
         
+(
+cmd
+_
+env
+)
+=
 self
 .
-_run
+_process_run_args
 (
 *
 args
+)
+        
+subprocess
+.
+check_call
+(
+cmd
+cwd
+=
+self
+.
+path
+env
+=
+env
 )
     
 def
