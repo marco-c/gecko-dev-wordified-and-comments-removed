@@ -1856,10 +1856,6 @@ bottomPadding
 dp
 )
 )
-}
-}
-}
-}
 if
 (
 showSportsCountrySelector
@@ -1869,7 +1865,13 @@ SportsCountrySelectorBottomSheet
 (
 selectedCountryCode
 =
-null
+sportsWidgetState
+.
+countriesSelected
+.
+firstOrNull
+(
+)
 onCountrySelected
 =
 {
@@ -1897,6 +1899,10 @@ showSportsCountrySelector
 false
 }
 )
+}
+}
+}
+}
 }
 }
 if
