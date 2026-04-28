@@ -17,6 +17,15 @@ include
 "
 mozilla
 /
+EndianUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 glean
 /
 UrlClassifierMetrics
