@@ -1867,6 +1867,9 @@ bool
 mIsTopOfPage
 ;
 bool
+mCanBreakAtStart
+;
+bool
 mCanBreakAtEnd
 ;
 bool
