@@ -189,6 +189,8 @@ field
 const
 onChanged
 =
+isExpectedOpenPopup
+?
 view
 .
 once
@@ -198,6 +200,12 @@ ruleview
 -
 changed
 "
+)
+:
+Promise
+.
+resolve
+(
 )
 ;
 const

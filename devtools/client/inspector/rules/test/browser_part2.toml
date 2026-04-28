@@ -1380,6 +1380,13 @@ js
 ]
 [
 "
+browser_rules_popup_override
+.
+js
+"
+]
+[
+"
 browser_rules_preview
 -
 tooltips
