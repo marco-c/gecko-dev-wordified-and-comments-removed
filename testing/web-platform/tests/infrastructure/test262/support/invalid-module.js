@@ -1,0 +1,6 @@
+!
+#
+/
+/
+Invalid
+syntax

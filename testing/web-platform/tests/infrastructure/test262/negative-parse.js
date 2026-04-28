@@ -1,0 +1,10 @@
+DONOTEVALUATE
+(
+)
+;
+!
+#
+/
+/
+Invalid
+syntax

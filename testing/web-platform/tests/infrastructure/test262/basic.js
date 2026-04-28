@@ -1,0 +1,14 @@
+assert
+.
+sameValue
+(
+1
+1
+"
+One
+should
+be
+one
+"
+)
+;

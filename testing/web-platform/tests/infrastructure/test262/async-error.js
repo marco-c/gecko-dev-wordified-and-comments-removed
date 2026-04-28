@@ -1,0 +1,16 @@
+setTimeout
+(
+function
+(
+)
+{
+foo
+.
+bar
+(
+)
+;
+}
+10
+)
+;

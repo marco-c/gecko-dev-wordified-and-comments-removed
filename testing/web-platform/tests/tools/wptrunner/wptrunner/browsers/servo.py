@@ -133,6 +133,14 @@ wdspec
 "
 WdspecExecutor
 "
+        
+"
+test262
+"
+:
+"
+ServoTestharnessExecutor
+"
     
 }
     

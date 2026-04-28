@@ -1,0 +1,14 @@
+"
+use
+strict
+"
+;
+DONOTEVALUATE
+(
+)
+;
+var
+let
+=
+1
+;

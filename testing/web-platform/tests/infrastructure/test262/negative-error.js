@@ -1,0 +1,6 @@
+throw
+new
+RangeError
+(
+)
+;
