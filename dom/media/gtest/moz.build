@@ -177,6 +177,11 @@ MockMediaResource
 cpp
 "
 "
+TestAOMDecoder
+.
+cpp
+"
+"
 TestAudioBuffer
 .
 cpp
