@@ -10309,14 +10309,12 @@ true
 ;
 otherBookmarksPopup
 .
-setAttribute
+toggleAttribute
 (
 "
-native
+nonnative
 "
-"
-false
-"
+true
 )
 ;
 otherBookmarksPopup

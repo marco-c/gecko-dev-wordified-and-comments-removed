@@ -492,11 +492,7 @@ native
 not
 (
 [
-native
-=
-"
-false
-"
+nonnative
 ]
 )
 {
