@@ -3141,6 +3141,11 @@ return
 }
 WidgetPointerEvent
 localEvent
+=
+WidgetPointerEvent
+:
+:
+MakeCopyFromMouseEvent
 (
 *
 aEvent
@@ -5524,7 +5529,13 @@ pointerEvent
 .
 emplace
 (
+WidgetPointerEvent
+:
+:
+MakeCopyFromMouseEvent
+(
 aMouseOrPointerEvent
+)
 )
 ;
 PointerEventHandler
@@ -6320,6 +6331,11 @@ get
 endif
 WidgetPointerEvent
 event
+=
+WidgetPointerEvent
+:
+:
+MakeCopyFromMouseEvent
 (
 *
 mouseEvent

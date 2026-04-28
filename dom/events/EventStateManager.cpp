@@ -25522,6 +25522,11 @@ aEvent
 {
 WidgetPointerEvent
 pointerEvent
+=
+WidgetPointerEvent
+:
+:
+MakeCopyFromMouseEvent
 (
 *
 aEvent
@@ -28945,11 +28950,10 @@ pointerEvent
 .
 emplace
 (
-static_cast
-<
 WidgetPointerEvent
-&
->
+:
+:
+MakeCopyFromMouseEvent
 (
 *
 aMouseOrPointerEvent

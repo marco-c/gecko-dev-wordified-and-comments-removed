@@ -217,7 +217,7 @@ mozilla
 EventClassID
 :
 :
-eEventClassID_MaxValue
+eEventClassUninitialized
 >
 {
 }

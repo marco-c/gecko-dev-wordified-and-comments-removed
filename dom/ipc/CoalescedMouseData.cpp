@@ -389,7 +389,13 @@ mEvents
 .
 AppendElement
 (
+WidgetPointerEvent
+:
+:
+MakeCopyFromMouseEvent
+(
 aMouseOrPointerEvent
+)
 )
 ;
 event
