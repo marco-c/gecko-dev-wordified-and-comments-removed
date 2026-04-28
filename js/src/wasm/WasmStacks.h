@@ -510,7 +510,7 @@ initialResumeTarget_
 {
 }
 ;
-HeapPtr
+GCPtr
 <
 JSFunction
 *
