@@ -2890,6 +2890,16 @@ modules
 /
 audio_processing
 /
+logging
+/
+apm_data_dumper
+.
+h
+-
+modules
+/
+audio_processing
+/
 post_filter
 .
 cc
