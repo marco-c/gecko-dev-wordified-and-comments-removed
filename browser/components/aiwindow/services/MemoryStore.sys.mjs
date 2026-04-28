@@ -1781,6 +1781,14 @@ string
 }
 trigger
 *
+param
+{
+number
+|
+null
+}
+inUse
+*
 returns
 {
 Promise
@@ -1799,6 +1807,9 @@ trigger
 "
 other
 "
+inUse
+=
+null
 )
 {
 await
@@ -1877,6 +1888,9 @@ memories
 .
 length
 trigger
+in_use
+:
+inUse
 }
 )
 ;
