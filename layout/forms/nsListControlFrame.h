@@ -305,10 +305,8 @@ OnContentReset
 )
 ;
 void
-AddOption
+OptionsAdded
 (
-int32_t
-aIndex
 )
 ;
 void
@@ -338,8 +336,6 @@ MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 OnSetSelectedIndex
 (
-int32_t
-aOldIndex
 int32_t
 aNewIndex
 )
