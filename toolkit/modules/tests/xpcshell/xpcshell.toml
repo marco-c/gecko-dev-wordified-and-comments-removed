@@ -837,6 +837,13 @@ android
 ]
 [
 "
+test_ScheduledTask
+.
+js
+"
+]
+[
+"
 test_Services
 .
 js
