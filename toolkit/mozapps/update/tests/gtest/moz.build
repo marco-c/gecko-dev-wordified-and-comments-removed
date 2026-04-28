@@ -194,4 +194,7 @@ OS_LIBS
 '
 shlwapi
 '
+'
+uuid
+'
 ]
