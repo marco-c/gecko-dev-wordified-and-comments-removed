@@ -19,6 +19,11 @@ MOCHITESTS_DIR
 }
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 const
 defaultAttributes
 =
