@@ -415,12 +415,6 @@ production_pinsets
 "
 google_root_pems
 "
-"
-facebook
-"
-"
-ncsccs
-"
 ]
 "
 production_domains
@@ -448,14 +442,6 @@ pinning
 test
 .
 badssl
-.
-com
-"
-/
-/
-SpiderOak
-"
-spideroak
 .
 com
 "
