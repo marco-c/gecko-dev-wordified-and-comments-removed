@@ -1352,11 +1352,11 @@ GetRemoteWorkerController
 (
 )
 ;
-MOZ_ASSERT
+if
 (
 controller
 )
-;
+{
 aResult
 =
 controller
@@ -1370,6 +1370,7 @@ Clone
 (
 )
 ;
+}
 }
 return
 NS_OK
