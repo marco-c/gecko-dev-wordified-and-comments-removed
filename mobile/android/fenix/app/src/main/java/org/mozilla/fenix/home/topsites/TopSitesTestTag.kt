@@ -122,15 +122,6 @@ ADD_SHORTCUT_ROOT
 .
 add_shortcut_title
 "
-const
-val
-TOP_SITES_PAGER_INDICATOR
-=
-"
-TOP_SITES
-.
-pager_indicator
-"
 /
 /
 Contextual
