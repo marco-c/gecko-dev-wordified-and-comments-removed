@@ -1897,6 +1897,16 @@ image
 ;
 }
 }
+if
+(
+StaticPrefs
+:
+:
+dom_webnotifications_actions_enabled
+(
+)
+)
+{
 nsTArray
 <
 RefPtr
@@ -1965,6 +1975,7 @@ SetActions
 actions
 )
 ;
+}
 MOZ_TRY
 (
 alert
