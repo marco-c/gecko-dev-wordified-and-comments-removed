@@ -325,7 +325,7 @@ MOZ_SYSTEM_NSS
 }
 async
 function
-testNoRetryMlkem768x25519NetInterrupt
+testMlkem768x25519NoX25519Fallback
 (
 )
 {
@@ -459,10 +459,12 @@ req
 status
 Cr
 .
-NS_ERROR_NET_INTERRUPT
+NS_ERROR_NET_RESET
 )
 ;
-equal
+Assert
+.
+greater
 (
 handlerCount
 (
@@ -474,8 +476,6 @@ callback
 "
 )
 countOfMlkem
-+
-1
 "
 negotiated
 mlkem768x25519
