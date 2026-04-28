@@ -2353,6 +2353,14 @@ return
 mNodeInfo
 ;
 }
+void
+SetNamespacePrefix
+(
+nsAtom
+*
+aPrefix
+)
+;
 virtual
 void
 NodeInfoChanged
