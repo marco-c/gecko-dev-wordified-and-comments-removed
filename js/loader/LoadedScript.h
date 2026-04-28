@@ -2797,12 +2797,7 @@ RefPtr
 <
 ScriptFetchInfo
 >
-mFetchInfoForUpdatingPreload
-;
-bool
-mForPreload
-=
-false
+mFetchInfoForAccessingPreloadFlag
 ;
 bool
 mHadImportMap
@@ -3030,7 +3025,12 @@ ForPreload
 const
 {
 return
-mForPreload
+mFetchInfoForAccessingPreloadFlag
+-
+>
+IsForModulePreload
+(
+)
 ;
 }
 bool
