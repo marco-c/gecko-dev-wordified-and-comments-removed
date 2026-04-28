@@ -2420,9 +2420,6 @@ BlobURLRegistrationData
 nsCString
 url
 ;
-IPCBlob
-blob
-;
 nsIPrincipal
 principal
 ;
@@ -5189,8 +5186,6 @@ BlobURLRegistration
 (
 nsCString
 aURI
-IPCBlob
-aBlob
 nullable
 nsIPrincipal
 aPrincipal
