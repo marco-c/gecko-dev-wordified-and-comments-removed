@@ -35,6 +35,15 @@ include
 "
 mozilla
 /
+EndianUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IOBuffers
 .
 h
@@ -4070,6 +4079,9 @@ aWriteType
 )
 mutable
 {
+nsAutoLowPriorityIO
+lowPriority
+;
 MutexAutoLock
 lock
 (
