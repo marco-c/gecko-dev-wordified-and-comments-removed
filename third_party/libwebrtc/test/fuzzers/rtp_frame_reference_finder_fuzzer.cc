@@ -807,8 +807,14 @@ first_seq_num
 last_seq_num
 marker_bit
 0
-0
-0
+std
+:
+:
+nullopt
+std
+:
+:
+nullopt
 0
 0
 VideoSendTiming

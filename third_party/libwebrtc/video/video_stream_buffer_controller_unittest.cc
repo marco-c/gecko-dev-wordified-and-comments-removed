@@ -489,10 +489,6 @@ frame
 SetReceivedTime
 (
 kClockStart
-.
-ms
-(
-)
 )
 ;
 }
@@ -503,6 +499,8 @@ frame
 >
 SetReceivedTime
 (
+kClockStart
++
 TimeDelta
 :
 :
@@ -518,16 +516,6 @@ RtpTimestamp
 90000
 .
 0
-)
-.
-ms
-(
-)
-+
-kClockStart
-.
-ms
-(
 )
 )
 ;
