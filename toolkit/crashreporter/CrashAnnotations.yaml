@@ -5873,6 +5873,8 @@ string
 scope
 :
 ping
+-
+only
 glean
 :
 type
