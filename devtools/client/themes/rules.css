@@ -6756,7 +6756,9 @@ propertyvalue
 .
 inspector
 -
-attribute
+attr
+-
+param
 :
 not
 (
@@ -6765,6 +6767,12 @@ inspector
 -
 unmatched
 )
+.
+inspector
+-
+attr
+-
+name
 {
 color
 :
