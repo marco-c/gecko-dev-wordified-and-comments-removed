@@ -1886,7 +1886,7 @@ wt
 datagrams
 .
 incomingMaxAge
-Infinity
+null
 )
 ;
 assert_equals
@@ -1896,7 +1896,7 @@ wt
 datagrams
 .
 outgoingMaxAge
-Infinity
+null
 )
 ;
 wt
@@ -2028,7 +2028,7 @@ wt
 datagrams
 .
 incomingMaxAge
-Infinity
+null
 )
 ;
 wt
@@ -2046,7 +2046,7 @@ wt
 datagrams
 .
 outgoingMaxAge
-Infinity
+null
 )
 ;
 }
