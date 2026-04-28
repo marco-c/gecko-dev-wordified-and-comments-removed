@@ -213,6 +213,15 @@ include
 "
 pc
 /
+rtp_receiver
+.
+h
+"
+#
+include
+"
+pc
+/
 video_rtp_track_source
 .
 h
@@ -334,7 +343,7 @@ VideoMediaReceiveChannelInterface
 media_channel
 )
 :
-worker_thread_
+RtpReceiverBase
 (
 worker_thread
 )
