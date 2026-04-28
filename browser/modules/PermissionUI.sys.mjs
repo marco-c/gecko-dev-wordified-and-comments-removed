@@ -4054,7 +4054,7 @@ eventCallback
 (
 topic
 nextRemovalReason
-isCancel
+withoutUserResponse
 )
 =
 >
@@ -4267,7 +4267,7 @@ postPrompt
 {
 if
 (
-isCancel
+withoutUserResponse
 )
 {
 this

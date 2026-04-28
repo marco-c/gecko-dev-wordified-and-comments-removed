@@ -4516,7 +4516,7 @@ eventCallback
 (
 aTopic
 aNewBrowser
-isCancel
+withoutUserResponse
 )
 {
 if
@@ -4734,7 +4734,7 @@ removed
 notification
 &
 &
-isCancel
+withoutUserResponse
 )
 {
 /
