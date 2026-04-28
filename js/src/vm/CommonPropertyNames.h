@@ -3583,6 +3583,14 @@ stack
 \
 MACRO_
 (
+stackTraceLimit
+"
+stackTraceLimit
+"
+)
+\
+MACRO_
+(
 star_namespace_star_
 "
 *
