@@ -15851,6 +15851,9 @@ Object
 alias_set
 :
 none
+can_recover
+:
+true
 generate_lir
 :
 true
