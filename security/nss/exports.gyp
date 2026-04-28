@@ -196,17 +196,6 @@ lib_ckfw_exports
 '
 lib
 /
-crmf
-/
-exports
-.
-gyp
-:
-lib_crmf_exports
-'
-'
-lib
-/
 cryptohi
 /
 exports

@@ -1298,7 +1298,6 @@ cert
 dbtests
 tools
 sdr
-crmf
 smime
 ssl
 ocsp

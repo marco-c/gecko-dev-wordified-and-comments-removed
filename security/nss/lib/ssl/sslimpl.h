@@ -2099,6 +2099,9 @@ PRBool
 helloRetry
 ;
 PRBool
+dtlsReceivedHVR
+;
+PRBool
 receivedCcs
 ;
 PRBool

@@ -144,8 +144,6 @@ chktest
 \
 crlutil
 \
-crmftest
-\
 dbtest
 \
 derdump

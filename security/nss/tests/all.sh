@@ -309,15 +309,6 @@ tests
 NSS
 SDR
 #
-crmf
-.
-sh
--
-CRMF
-/
-CMMF
-testing
-#
 smime
 .
 sh
@@ -3044,7 +3035,6 @@ cipher
 nossse3
 dbtests
 sdr
-crmf
 smime
 merge
 multinit
@@ -4725,7 +4715,6 @@ dbtests
 tools
 RUN_FIPS
 sdr
-crmf
 smime
 ssl
 ocsp
