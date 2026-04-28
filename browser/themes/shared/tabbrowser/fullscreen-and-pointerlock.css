@@ -242,6 +242,12 @@ message
 -
 box
 ;
+font
+-
+size
+:
+21px
+;
 align
 -
 items
@@ -552,12 +558,6 @@ generic
 -
 text
 {
-font
--
-size
-:
-21px
-;
 margin
 :
 0
