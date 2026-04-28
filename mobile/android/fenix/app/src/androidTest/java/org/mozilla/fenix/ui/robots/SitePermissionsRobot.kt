@@ -373,6 +373,9 @@ openThreeDotMenu
 .
 clickRefreshButton
 {
+waitForPageToLoad
+(
+)
 }
 .
 clickStartMicrophoneButton
@@ -504,6 +507,9 @@ openThreeDotMenu
 .
 clickRefreshButton
 {
+waitForPageToLoad
+(
+)
 }
 .
 clickStartCameraButton
@@ -685,6 +691,9 @@ openThreeDotMenu
 .
 clickRefreshButton
 {
+waitForPageToLoad
+(
+)
 }
 .
 clickGetLocationButton
@@ -890,6 +899,9 @@ openThreeDotMenu
 .
 clickRefreshButton
 {
+waitForPageToLoad
+(
+)
 }
 .
 clickOpenNotificationButton
@@ -1072,6 +1084,9 @@ openThreeDotMenu
 .
 clickRefreshButton
 {
+waitForPageToLoad
+(
+)
 }
 .
 clickRequestPersistentStorageAccessButton
@@ -1207,6 +1222,9 @@ openThreeDotMenu
 .
 clickRefreshButton
 {
+waitForPageToLoad
+(
+)
 }
 .
 clickRequestDRMControlledContentAccessButton
