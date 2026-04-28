@@ -74,6 +74,13 @@ js
 ]
 [
 "
+browser_cookieStore_ip_domain
+.
+js
+"
+]
+[
+"
 browser_cookie_chips
 .
 js
