@@ -30,6 +30,9 @@ h
 class
 nsIInputStream
 ;
+class
+nsICloneableInputStream
+;
 struct
 nsID
 ;
@@ -225,7 +228,7 @@ StreamData
 {
 nsCOMPtr
 <
-nsIInputStream
+nsICloneableInputStream
 >
 mInputStream
 ;
