@@ -1103,9 +1103,9 @@ JS
 loader
 :
 :
-LoadedScript
+ScriptFetchInfo
 *
-GetActiveScript
+GetActiveScriptFetchInfo
 (
 JSContext
 *
