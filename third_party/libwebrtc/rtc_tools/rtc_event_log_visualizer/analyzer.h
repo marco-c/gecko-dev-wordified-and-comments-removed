@@ -700,6 +700,15 @@ plot
 const
 ;
 void
+CreateScreamSimulationDelayGraph
+(
+Plot
+*
+plot
+)
+const
+;
+void
 CreateScreamSimulationBitrateGraph
 (
 Plot
