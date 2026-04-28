@@ -212,7 +212,7 @@ GMPLogLevel
 >
 :
 public
-ContiguousEnumSerializer
+ContiguousEnumSerializerInclusive
 <
 GMPLogLevel
 kGMPLogDefault
