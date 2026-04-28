@@ -49,12 +49,6 @@ isDerivedFrom
 EnumSerializer
 "
 )
-isDerivedFrom
-(
-"
-ParamTraits_IsEnumCase
-"
-)
 hasTemplateArgument
 (
 0
