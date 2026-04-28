@@ -1,0 +1,9 @@
+await
+{
+function
+(
+)
+{
+}
+}
+;

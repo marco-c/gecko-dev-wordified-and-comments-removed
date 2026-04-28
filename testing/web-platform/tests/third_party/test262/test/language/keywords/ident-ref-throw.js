@@ -1,0 +1,8 @@
+DONOTEVALUATE
+(
+)
+;
+throw
+=
+1
+;

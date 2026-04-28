@@ -1,0 +1,11 @@
+DONOTEVALUATE
+(
+)
+;
+var
+privat
+\
+u0065
+=
+123
+;

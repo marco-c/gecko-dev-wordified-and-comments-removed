@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+var
+o
+=
+{
+get
+#
+m
+(
+)
+{
+}
+}
+;

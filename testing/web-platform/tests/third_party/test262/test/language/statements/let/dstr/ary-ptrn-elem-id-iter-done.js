@@ -1,0 +1,17 @@
+let
+[
+_
+x
+]
+=
+[
+]
+;
+assert
+.
+sameValue
+(
+x
+undefined
+)
+;

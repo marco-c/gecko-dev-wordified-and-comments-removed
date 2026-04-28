@@ -1,0 +1,14 @@
+DONOTEVALUATE
+(
+)
+;
+var
+\
+u
+{
+64
+}
+elete
+=
+123
+;

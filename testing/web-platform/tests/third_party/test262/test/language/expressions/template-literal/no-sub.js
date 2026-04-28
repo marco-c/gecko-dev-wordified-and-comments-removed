@@ -1,0 +1,10 @@
+assert
+.
+sameValue
+(
+NoSubstitutionTemplate
+'
+NoSubstitutionTemplate
+'
+)
+;

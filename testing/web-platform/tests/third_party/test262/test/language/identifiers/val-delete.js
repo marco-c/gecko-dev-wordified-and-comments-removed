@@ -1,0 +1,9 @@
+DONOTEVALUATE
+(
+)
+;
+var
+delete
+=
+123
+;

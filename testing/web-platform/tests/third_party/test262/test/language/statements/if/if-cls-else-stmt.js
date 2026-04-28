@@ -1,0 +1,14 @@
+DONOTEVALUATE
+(
+)
+;
+if
+(
+true
+)
+class
+C
+{
+}
+else
+;

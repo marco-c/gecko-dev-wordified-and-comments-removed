@@ -1,0 +1,16 @@
+var
+_implements
+=
+1
+;
+assert
+.
+sameValue
+(
+_implements
+1
+'
+_implements
+'
+)
+;

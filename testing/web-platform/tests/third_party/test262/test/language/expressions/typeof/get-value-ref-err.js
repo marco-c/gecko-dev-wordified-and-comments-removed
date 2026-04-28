@@ -1,0 +1,17 @@
+assert
+.
+throws
+(
+ReferenceError
+function
+(
+)
+{
+typeof
+x
+.
+x
+;
+}
+)
+;

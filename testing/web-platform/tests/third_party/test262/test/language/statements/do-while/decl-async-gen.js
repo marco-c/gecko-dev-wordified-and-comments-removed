@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+do
+async
+function
+*
+g
+(
+)
+{
+}
+while
+(
+false
+)

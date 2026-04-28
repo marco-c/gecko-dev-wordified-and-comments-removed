@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+for
+(
+;
+false
+;
+)
+function
+*
+g
+(
+)
+{
+}

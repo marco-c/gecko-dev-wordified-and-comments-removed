@@ -1,0 +1,13 @@
+assert
+.
+throws
+(
+ReferenceError
+function
+(
+)
+{
+e0
+}
+)
+;

@@ -1,0 +1,13 @@
+DONOTEVALUATE
+(
+)
+;
+do
+class
+C
+{
+}
+while
+(
+false
+)

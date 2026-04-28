@@ -1,0 +1,16 @@
+async
+function
+f
+(
+)
+{
+await
+using
+x
+=
+null
+y
+=
+null
+;
+}

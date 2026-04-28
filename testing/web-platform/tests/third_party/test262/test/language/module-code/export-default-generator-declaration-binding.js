@@ -1,0 +1,16 @@
+export
+default
+function
+*
+G
+(
+)
+{
+}
+G
+.
+foo
+=
+'
+'
+;

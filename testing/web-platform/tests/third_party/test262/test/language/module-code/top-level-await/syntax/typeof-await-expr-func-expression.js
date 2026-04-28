@@ -1,0 +1,8 @@
+typeof
+await
+function
+(
+)
+{
+}
+;

@@ -1,0 +1,13 @@
+var
+x
+=
+2
+;
+assert
+.
+sameValue
+(
+x
+2
+)
+;

@@ -1,0 +1,15 @@
+DONOTEVALUATE
+(
+)
+;
+try
+{
+}
+catch
+(
+"
+22
+"
+)
+{
+}

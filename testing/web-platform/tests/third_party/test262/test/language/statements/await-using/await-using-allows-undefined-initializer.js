@@ -1,0 +1,15 @@
+asyncTest
+(
+async
+function
+(
+)
+{
+using
+x
+=
+undefined
+;
+}
+)
+;

@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+class
+C
+{
+method
+(
+)
+{
+export
+default
+null
+;
+}
+}

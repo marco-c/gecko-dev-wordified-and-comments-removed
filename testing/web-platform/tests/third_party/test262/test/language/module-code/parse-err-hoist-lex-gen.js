@@ -1,0 +1,14 @@
+DONOTEVALUATE
+(
+)
+;
+var
+g
+;
+function
+*
+g
+(
+)
+{
+}

@@ -1,0 +1,9 @@
+DONOTEVALUATE
+(
+)
+;
+var
+case
+=
+123
+;

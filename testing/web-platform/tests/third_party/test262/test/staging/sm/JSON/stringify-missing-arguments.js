@@ -1,0 +1,12 @@
+assert
+.
+sameValue
+(
+JSON
+.
+stringify
+(
+)
+undefined
+)
+;

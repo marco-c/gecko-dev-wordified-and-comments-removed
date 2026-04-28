@@ -1,0 +1,17 @@
+testJSONSyntaxError
+(
+'
+{
+"
+Numbers
+cannot
+have
+leading
+zeroes
+"
+:
+013
+}
+'
+)
+;

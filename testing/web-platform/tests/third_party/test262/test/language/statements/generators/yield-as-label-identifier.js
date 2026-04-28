@@ -1,0 +1,14 @@
+DONOTEVALUATE
+(
+)
+;
+function
+*
+gen
+(
+)
+{
+yield
+:
+;
+}

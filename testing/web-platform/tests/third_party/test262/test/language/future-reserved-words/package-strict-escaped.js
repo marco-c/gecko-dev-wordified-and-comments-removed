@@ -1,0 +1,11 @@
+DONOTEVALUATE
+(
+)
+;
+var
+packag
+\
+u0065
+=
+123
+;

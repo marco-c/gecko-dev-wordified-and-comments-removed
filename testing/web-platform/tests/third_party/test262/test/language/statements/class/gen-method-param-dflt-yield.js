@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+class
+C
+{
+*
+g
+(
+x
+=
+yield
+)
+{
+}
+}

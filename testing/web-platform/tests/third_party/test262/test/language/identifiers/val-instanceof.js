@@ -1,0 +1,9 @@
+DONOTEVALUATE
+(
+)
+;
+var
+instanceof
+=
+123
+;

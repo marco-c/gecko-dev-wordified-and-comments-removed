@@ -1,0 +1,15 @@
+DONOTEVALUATE
+(
+)
+;
+export
+default
+function
+*
+(
+)
+{
+}
+(
+)
+;

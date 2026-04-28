@@ -1,0 +1,8 @@
+function
+foo
+(
+a
+a
+)
+{
+}

@@ -1,0 +1,17 @@
+var
+x
+=
+18
+%
+7
+%
+3
+;
+assert
+.
+sameValue
+(
+x
+1
+)
+;

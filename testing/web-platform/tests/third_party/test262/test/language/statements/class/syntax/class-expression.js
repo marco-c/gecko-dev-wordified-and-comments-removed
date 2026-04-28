@@ -1,0 +1,17 @@
+var
+A
+=
+class
+{
+}
+assert
+.
+sameValue
+(
+typeof
+A
+"
+function
+"
+)
+;

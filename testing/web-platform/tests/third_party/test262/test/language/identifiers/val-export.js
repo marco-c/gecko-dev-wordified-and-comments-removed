@@ -1,0 +1,9 @@
+DONOTEVALUATE
+(
+)
+;
+var
+export
+=
+123
+;

@@ -1,0 +1,13 @@
+DONOTEVALUATE
+(
+)
+;
+class
+C
+{
+static
+'
+constructor
+'
+;
+}

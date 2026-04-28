@@ -1,0 +1,16 @@
+DONOTEVALUATE
+(
+)
+;
+async
+function
+*
+gen
+(
+)
+{
+\
+u0061wait
+:
+;
+}

@@ -1,0 +1,10 @@
+switch
+(
+0
+)
+{
+default
+:
+}
+f
+;

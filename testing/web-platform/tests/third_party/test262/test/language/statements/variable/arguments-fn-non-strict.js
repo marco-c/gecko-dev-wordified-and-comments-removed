@@ -1,0 +1,9 @@
+function
+f
+(
+)
+{
+var
+arguments
+;
+}

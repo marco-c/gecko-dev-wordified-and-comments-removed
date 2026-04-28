@@ -1,0 +1,14 @@
+switch
+(
+true
+)
+{
+case
+true
+:
+let
+x
+=
+1
+;
+}

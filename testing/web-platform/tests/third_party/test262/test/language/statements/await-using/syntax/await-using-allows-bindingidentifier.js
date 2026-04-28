@@ -1,0 +1,16 @@
+asyncTest
+(
+async
+function
+(
+)
+{
+await
+using
+x
+=
+null
+;
+}
+)
+;

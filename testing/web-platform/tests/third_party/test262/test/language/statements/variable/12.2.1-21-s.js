@@ -1,0 +1,15 @@
+var
+s
+=
+eval
+;
+s
+(
+'
+arguments
+=
+42
+;
+'
+)
+;

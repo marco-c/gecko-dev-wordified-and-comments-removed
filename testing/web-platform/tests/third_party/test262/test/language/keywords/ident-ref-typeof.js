@@ -1,0 +1,8 @@
+DONOTEVALUATE
+(
+)
+;
+typeof
+=
+1
+;

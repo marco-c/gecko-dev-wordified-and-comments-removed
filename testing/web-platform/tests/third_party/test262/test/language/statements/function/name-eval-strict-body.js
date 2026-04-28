@@ -1,0 +1,15 @@
+DONOTEVALUATE
+(
+)
+;
+function
+eval
+(
+)
+{
+'
+use
+strict
+'
+;
+}

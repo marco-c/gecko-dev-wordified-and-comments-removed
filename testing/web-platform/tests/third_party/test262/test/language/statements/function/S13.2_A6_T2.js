@@ -1,0 +1,14 @@
+Object
+.
+getOwnPropertyDescriptor
+(
+function
+(
+)
+{
+}
+'
+arguments
+'
+)
+;

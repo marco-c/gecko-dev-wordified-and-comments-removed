@@ -1,0 +1,16 @@
+DONOTEVALUATE
+(
+)
+;
+(
+{
+async
+foo
+(
+a
+a
+)
+{
+}
+}
+)

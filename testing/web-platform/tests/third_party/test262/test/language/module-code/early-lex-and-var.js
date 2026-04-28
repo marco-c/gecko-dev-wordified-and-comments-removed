@@ -1,0 +1,10 @@
+DONOTEVALUATE
+(
+)
+;
+let
+x
+;
+var
+x
+;

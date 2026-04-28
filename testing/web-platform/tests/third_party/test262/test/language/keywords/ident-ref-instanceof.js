@@ -1,0 +1,8 @@
+DONOTEVALUATE
+(
+)
+;
+instanceof
+=
+1
+;

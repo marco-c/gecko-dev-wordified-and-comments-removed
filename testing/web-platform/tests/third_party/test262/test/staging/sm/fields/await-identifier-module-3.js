@@ -1,0 +1,17 @@
+async
+(
+)
+=
+>
+class
+{
+x
+=
+await
+1
+}
+;
+DONOTEVALUATE
+(
+)
+;

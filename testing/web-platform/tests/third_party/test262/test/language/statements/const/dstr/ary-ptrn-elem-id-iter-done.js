@@ -1,0 +1,17 @@
+const
+[
+_
+x
+]
+=
+[
+]
+;
+assert
+.
+sameValue
+(
+x
+undefined
+)
+;

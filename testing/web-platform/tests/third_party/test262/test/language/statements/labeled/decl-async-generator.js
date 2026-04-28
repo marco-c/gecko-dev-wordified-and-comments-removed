@@ -1,0 +1,14 @@
+DONOTEVALUATE
+(
+)
+;
+label
+:
+async
+function
+*
+g
+(
+)
+{
+}

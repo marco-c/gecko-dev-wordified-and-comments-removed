@@ -1,0 +1,16 @@
+DONOTEVALUATE
+(
+)
+;
+(
+{
+*
+method
+(
+yield
+)
+{
+}
+}
+)
+;

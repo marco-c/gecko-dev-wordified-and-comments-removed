@@ -1,0 +1,4 @@
+typeof
+await
+1
+;

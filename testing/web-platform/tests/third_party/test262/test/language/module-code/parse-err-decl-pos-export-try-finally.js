@@ -1,0 +1,14 @@
+DONOTEVALUATE
+(
+)
+;
+try
+{
+}
+finally
+{
+export
+default
+null
+;
+}

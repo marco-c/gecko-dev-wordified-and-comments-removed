@@ -1,0 +1,10 @@
+typeof
+await
+{
+function
+(
+)
+{
+}
+}
+;

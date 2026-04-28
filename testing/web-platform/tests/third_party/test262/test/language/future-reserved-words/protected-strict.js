@@ -1,0 +1,9 @@
+DONOTEVALUATE
+(
+)
+;
+var
+protected
+=
+1
+;

@@ -1,0 +1,16 @@
+Iterator
+.
+prototype
+.
+map
+.
+call
+(
+[
+]
+x
+=
+>
+x
+)
+;

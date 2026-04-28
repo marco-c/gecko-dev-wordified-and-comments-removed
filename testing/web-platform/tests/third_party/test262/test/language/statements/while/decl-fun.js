@@ -1,0 +1,14 @@
+DONOTEVALUATE
+(
+)
+;
+while
+(
+false
+)
+function
+f
+(
+)
+{
+}

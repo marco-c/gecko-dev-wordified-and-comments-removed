@@ -1,0 +1,12 @@
+DONOTEVALUATE
+(
+)
+;
+const
+let
+=
+"
+irrelevant
+initializer
+"
+;

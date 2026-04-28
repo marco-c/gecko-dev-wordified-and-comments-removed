@@ -1,0 +1,9 @@
+DONOTEVALUATE
+(
+)
+;
+var
+switch
+=
+123
+;

@@ -1,0 +1,16 @@
+assert
+.
+sameValue
+(
+0b01_00n
+0b0100n
+)
+;
+assert
+.
+sameValue
+(
+0B01_00n
+0B0100n
+)
+;

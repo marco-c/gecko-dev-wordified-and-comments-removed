@@ -1,0 +1,12 @@
+export
+let
+x
+=
+await
+;
+export
+const
+y
+=
+await
+;

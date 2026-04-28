@@ -1,0 +1,10 @@
+DONOTEVALUATE
+(
+)
+;
+var
+arguments
+arguments
+=
+42
+;

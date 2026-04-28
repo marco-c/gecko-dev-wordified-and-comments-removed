@@ -1,0 +1,16 @@
+DONOTEVALUATE
+(
+)
+;
+try
+{
+}
+catch
+(
+[
+x
+x
+]
+)
+{
+}

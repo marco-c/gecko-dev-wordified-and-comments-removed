@@ -1,0 +1,14 @@
+DONOTEVALUATE
+(
+)
+;
+var
+typeo
+\
+u
+{
+66
+}
+=
+123
+;

@@ -1,0 +1,13 @@
+DONOTEVALUATE
+(
+)
+;
+{
+void
+0
+;
+export
+default
+null
+;
+}

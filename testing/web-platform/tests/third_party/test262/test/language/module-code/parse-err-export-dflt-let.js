@@ -1,0 +1,9 @@
+DONOTEVALUATE
+(
+)
+;
+export
+default
+let
+x
+;

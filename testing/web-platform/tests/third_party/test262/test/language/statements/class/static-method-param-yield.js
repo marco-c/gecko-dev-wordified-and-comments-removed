@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+class
+C
+{
+static
+m
+(
+x
+=
+yield
+)
+{
+}
+}

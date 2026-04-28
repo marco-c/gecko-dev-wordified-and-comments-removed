@@ -1,0 +1,11 @@
+switch
+(
+true
+)
+{
+default
+:
+let
+x
+;
+}

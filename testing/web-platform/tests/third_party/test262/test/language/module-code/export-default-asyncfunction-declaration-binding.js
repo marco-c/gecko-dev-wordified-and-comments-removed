@@ -1,0 +1,16 @@
+export
+default
+async
+function
+A
+(
+)
+{
+}
+A
+.
+foo
+=
+'
+'
+;

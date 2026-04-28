@@ -1,0 +1,8 @@
+DONOTEVALUATE
+(
+)
+;
+class
+static
+{
+}

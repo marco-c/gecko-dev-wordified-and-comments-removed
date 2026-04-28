@@ -1,0 +1,5 @@
+var
+undefined
+=
+1
+;

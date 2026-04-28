@@ -1,0 +1,9 @@
+DONOTEVALUATE
+(
+)
+;
+var
+if
+=
+123
+;

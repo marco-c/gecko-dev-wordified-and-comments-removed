@@ -1,0 +1,13 @@
+function
+yield
+(
+)
+{
+}
+(
+yield
+)
+class
+C
+{
+}

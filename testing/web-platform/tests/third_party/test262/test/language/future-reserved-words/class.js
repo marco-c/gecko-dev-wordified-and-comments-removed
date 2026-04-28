@@ -1,0 +1,9 @@
+DONOTEVALUATE
+(
+)
+;
+var
+class
+=
+1
+;

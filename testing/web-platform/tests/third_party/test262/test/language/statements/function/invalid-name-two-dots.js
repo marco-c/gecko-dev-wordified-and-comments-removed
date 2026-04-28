@@ -1,0 +1,14 @@
+DONOTEVALUATE
+(
+)
+;
+function
+obj
+.
+tt
+.
+ss
+(
+)
+{
+}

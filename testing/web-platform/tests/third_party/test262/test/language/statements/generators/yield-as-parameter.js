@@ -1,0 +1,12 @@
+DONOTEVALUATE
+(
+)
+;
+function
+*
+g
+(
+yield
+)
+{
+}

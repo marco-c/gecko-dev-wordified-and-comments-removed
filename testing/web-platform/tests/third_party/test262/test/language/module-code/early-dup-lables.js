@@ -1,0 +1,12 @@
+DONOTEVALUATE
+(
+)
+;
+label
+:
+{
+label
+:
+0
+;
+}

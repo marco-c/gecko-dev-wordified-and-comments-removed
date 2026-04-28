@@ -1,0 +1,15 @@
+assert
+.
+throws
+(
+TypeError
+(
+)
+=
+>
+new
+Iterator
+(
+)
+)
+;

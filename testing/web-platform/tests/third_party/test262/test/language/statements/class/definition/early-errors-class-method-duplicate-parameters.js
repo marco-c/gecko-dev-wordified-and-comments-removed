@@ -1,0 +1,15 @@
+DONOTEVALUATE
+(
+)
+;
+class
+Foo
+{
+foo
+(
+a
+a
+)
+{
+}
+}

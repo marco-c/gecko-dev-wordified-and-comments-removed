@@ -1,0 +1,15 @@
+assert
+.
+throws
+(
+ReferenceError
+function
+(
+)
+{
+void
+x
+;
+}
+)
+;

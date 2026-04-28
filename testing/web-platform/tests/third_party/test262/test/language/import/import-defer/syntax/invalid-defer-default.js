@@ -1,0 +1,16 @@
+DONOTEVALUATE
+(
+)
+;
+import
+defer
+x
+from
+"
+.
+/
+dep_FIXTURE
+.
+js
+"
+;

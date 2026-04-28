@@ -1,0 +1,15 @@
+DONOTEVALUATE
+(
+)
+;
+async
+function
+asyncFn
+(
+)
+{
+\
+u0061wait
+:
+;
+}

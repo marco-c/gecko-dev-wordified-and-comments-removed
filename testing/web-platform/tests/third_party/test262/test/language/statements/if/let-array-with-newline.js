@@ -1,0 +1,15 @@
+DONOTEVALUATE
+(
+)
+;
+if
+(
+false
+)
+let
+[
+a
+]
+=
+0
+;

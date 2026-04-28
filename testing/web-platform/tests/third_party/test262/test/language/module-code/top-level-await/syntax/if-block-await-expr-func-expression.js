@@ -1,0 +1,13 @@
+if
+(
+true
+)
+{
+await
+function
+(
+)
+{
+}
+;
+}

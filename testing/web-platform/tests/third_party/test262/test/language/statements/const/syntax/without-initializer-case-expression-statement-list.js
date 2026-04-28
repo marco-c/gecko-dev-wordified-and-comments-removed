@@ -1,0 +1,16 @@
+DONOTEVALUATE
+(
+)
+;
+switch
+(
+true
+)
+{
+case
+true
+:
+const
+x
+;
+}

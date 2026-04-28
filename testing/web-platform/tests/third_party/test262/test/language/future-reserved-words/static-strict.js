@@ -1,0 +1,9 @@
+DONOTEVALUATE
+(
+)
+;
+var
+static
+=
+1
+;

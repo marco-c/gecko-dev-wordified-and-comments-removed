@@ -1,0 +1,14 @@
+DONOTEVALUATE
+(
+)
+;
+try
+{
+}
+catch
+(
+)
+{
+finally
+{
+}

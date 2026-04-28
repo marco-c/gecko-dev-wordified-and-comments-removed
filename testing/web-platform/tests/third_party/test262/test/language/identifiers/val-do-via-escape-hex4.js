@@ -1,0 +1,12 @@
+DONOTEVALUATE
+(
+)
+;
+var
+\
+u0064
+\
+u006f
+=
+123
+;

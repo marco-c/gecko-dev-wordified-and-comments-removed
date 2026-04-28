@@ -1,0 +1,9 @@
+DONOTEVALUATE
+(
+)
+;
+var
+typeof
+=
+123
+;

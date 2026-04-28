@@ -1,0 +1,11 @@
+DONOTEVALUATE
+(
+)
+;
+(
+{
+*
+foo
+}
+)
+;

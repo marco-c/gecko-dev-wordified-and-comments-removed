@@ -1,0 +1,11 @@
+DONOTEVALUATE
+(
+)
+;
+label
+:
+const
+x
+=
+null
+;

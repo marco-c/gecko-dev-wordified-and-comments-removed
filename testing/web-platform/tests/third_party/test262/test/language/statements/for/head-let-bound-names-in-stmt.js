@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+for
+(
+let
+x
+;
+false
+;
+)
+{
+var
+x
+;
+}

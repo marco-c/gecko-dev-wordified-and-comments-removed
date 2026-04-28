@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+async
+function
+f
+(
+)
+{
+label
+:
+await
+using
+x
+;
+}

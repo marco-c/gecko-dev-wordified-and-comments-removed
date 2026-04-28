@@ -1,0 +1,16 @@
+DONOTEVALUATE
+(
+)
+;
+for
+(
+{
+yield
+}
+in
+[
+{
+}
+]
+)
+;

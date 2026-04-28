@@ -1,0 +1,11 @@
+if
+(
+await
+function
+(
+)
+{
+}
+)
+{
+}

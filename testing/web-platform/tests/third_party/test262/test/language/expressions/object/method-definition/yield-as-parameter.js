@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+var
+obj
+=
+{
+*
+g
+(
+yield
+)
+{
+}
+}
+;

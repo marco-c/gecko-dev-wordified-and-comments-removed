@@ -1,0 +1,14 @@
+DONOTEVALUATE
+(
+)
+;
+for
+(
+const
+let
+of
+[
+]
+)
+{
+}

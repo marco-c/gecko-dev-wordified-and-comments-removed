@@ -1,0 +1,8 @@
+assert
+.
+sameValue
+(
+this
+undefined
+)
+;

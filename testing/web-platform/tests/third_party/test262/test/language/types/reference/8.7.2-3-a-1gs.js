@@ -1,0 +1,16 @@
+assert
+.
+throws
+(
+ReferenceError
+function
+(
+)
+{
+b
+=
+11
+;
+}
+)
+;

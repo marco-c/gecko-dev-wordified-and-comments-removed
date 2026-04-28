@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+(
+function
+*
+(
+)
+{
+export
+default
+null
+;
+}
+)
+;

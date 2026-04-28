@@ -1,0 +1,13 @@
+switch
+(
+true
+)
+{
+default
+:
+const
+x
+=
+1
+;
+}

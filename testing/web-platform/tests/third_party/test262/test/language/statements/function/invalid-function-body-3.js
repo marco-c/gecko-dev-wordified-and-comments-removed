@@ -1,0 +1,12 @@
+DONOTEVALUATE
+(
+)
+;
+function
+__func
+(
+)
+{
+#
+ABC
+}

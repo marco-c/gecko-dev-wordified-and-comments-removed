@@ -1,0 +1,17 @@
+try
+{
+await
+import
+(
+'
+foo
+'
+)
+;
+}
+catch
+(
+e
+)
+{
+}

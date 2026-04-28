@@ -1,0 +1,10 @@
+DONOTEVALUATE
+(
+)
+;
+class
+st
+\
+u0061tic
+{
+}

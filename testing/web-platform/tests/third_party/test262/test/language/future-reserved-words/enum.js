@@ -1,0 +1,9 @@
+DONOTEVALUATE
+(
+)
+;
+var
+enum
+=
+1
+;

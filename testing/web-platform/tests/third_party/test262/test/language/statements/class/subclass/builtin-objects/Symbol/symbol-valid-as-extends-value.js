@@ -1,0 +1,6 @@
+class
+S
+extends
+Symbol
+{
+}

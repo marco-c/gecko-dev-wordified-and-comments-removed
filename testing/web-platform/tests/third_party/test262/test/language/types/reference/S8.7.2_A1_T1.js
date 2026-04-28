@@ -1,0 +1,10 @@
+DONOTEVALUATE
+(
+)
+;
+'
+litera
+'
+=
+1
+;

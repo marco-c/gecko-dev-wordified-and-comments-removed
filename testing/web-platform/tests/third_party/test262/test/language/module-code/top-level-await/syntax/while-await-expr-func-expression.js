@@ -1,0 +1,13 @@
+while
+(
+await
+function
+(
+)
+{
+}
+)
+{
+break
+;
+}

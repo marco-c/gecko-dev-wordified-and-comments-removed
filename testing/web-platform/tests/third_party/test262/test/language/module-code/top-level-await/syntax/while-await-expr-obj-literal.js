@@ -1,0 +1,15 @@
+while
+(
+await
+{
+function
+(
+)
+{
+}
+}
+)
+{
+break
+;
+}

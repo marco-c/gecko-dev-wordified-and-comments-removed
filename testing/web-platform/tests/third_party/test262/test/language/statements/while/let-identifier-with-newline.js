@@ -1,0 +1,9 @@
+while
+(
+false
+)
+let
+x
+=
+1
+;

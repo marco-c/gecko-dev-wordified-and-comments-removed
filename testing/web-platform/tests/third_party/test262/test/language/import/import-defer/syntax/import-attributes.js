@@ -1,0 +1,17 @@
+import
+defer
+*
+as
+ns
+from
+"
+.
+/
+dep_FIXTURE
+.
+js
+"
+with
+{
+}
+;

@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+try
+{
+export
+default
+null
+;
+}
+catch
+(
+err
+)
+{
+}

@@ -1,0 +1,10 @@
+var
+foo
+=
+1
+;
+export
+default
+await
+foo
+;

@@ -1,0 +1,9 @@
+DONOTEVALUATE
+(
+)
+;
+var
+while
+=
+123
+;

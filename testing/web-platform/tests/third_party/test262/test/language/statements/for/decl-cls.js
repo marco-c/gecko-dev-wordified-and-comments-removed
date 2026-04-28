@@ -1,0 +1,14 @@
+DONOTEVALUATE
+(
+)
+;
+for
+(
+;
+false
+;
+)
+class
+C
+{
+}

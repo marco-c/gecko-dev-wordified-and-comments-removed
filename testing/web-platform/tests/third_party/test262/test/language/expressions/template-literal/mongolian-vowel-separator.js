@@ -1,0 +1,10 @@
+assert
+.
+sameValue
+(
+"
+\
+u180E
+"
+)
+;

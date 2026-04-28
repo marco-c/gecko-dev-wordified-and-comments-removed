@@ -1,0 +1,9 @@
+DONOTEVALUATE
+(
+)
+;
+label
+:
+let
+x
+;

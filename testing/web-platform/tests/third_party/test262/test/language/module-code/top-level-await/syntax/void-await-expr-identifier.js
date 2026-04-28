@@ -1,0 +1,9 @@
+var
+foo
+=
+1
+;
+void
+await
+foo
+;

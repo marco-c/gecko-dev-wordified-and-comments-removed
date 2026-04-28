@@ -1,0 +1,10 @@
+'
+arguments
+'
+in
+function
+(
+)
+{
+}
+;

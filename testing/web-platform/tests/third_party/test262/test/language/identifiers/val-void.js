@@ -1,0 +1,9 @@
+DONOTEVALUATE
+(
+)
+;
+var
+void
+=
+123
+;

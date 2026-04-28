@@ -1,0 +1,9 @@
+var
+foo
+=
+1
+;
+typeof
+await
+foo
+;

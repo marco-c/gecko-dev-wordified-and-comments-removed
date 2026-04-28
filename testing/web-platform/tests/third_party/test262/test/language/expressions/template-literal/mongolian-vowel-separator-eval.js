@@ -1,0 +1,17 @@
+assert
+.
+sameValue
+(
+eval
+(
+"
+\
+u180E
+"
+)
+"
+\
+u180E
+"
+)
+;

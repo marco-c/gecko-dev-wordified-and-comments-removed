@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+class
+C
+{
+async
+method
+(
+)
+{
+await
+:
+;
+}
+}

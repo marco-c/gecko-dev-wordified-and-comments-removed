@@ -1,0 +1,16 @@
+DONOTEVALUATE
+(
+)
+;
+for
+(
+let
+x
+=
+1
+of
+[
+]
+)
+{
+}

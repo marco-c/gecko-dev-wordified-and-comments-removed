@@ -1,0 +1,13 @@
+DONOTEVALUATE
+(
+)
+;
+function
+f
+(
+)
+{
+var
+arguments
+;
+}

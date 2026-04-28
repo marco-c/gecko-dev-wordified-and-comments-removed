@@ -1,0 +1,9 @@
+Function
+(
+'
+var
+eval
+;
+'
+)
+;

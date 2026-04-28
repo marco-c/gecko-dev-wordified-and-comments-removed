@@ -1,0 +1,12 @@
+class
+C
+{
+static
+async
+#
+prototype
+(
+)
+{
+}
+}

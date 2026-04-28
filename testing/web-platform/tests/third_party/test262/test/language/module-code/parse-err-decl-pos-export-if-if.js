@@ -1,0 +1,12 @@
+DONOTEVALUATE
+(
+)
+;
+if
+(
+false
+)
+export
+default
+null
+;

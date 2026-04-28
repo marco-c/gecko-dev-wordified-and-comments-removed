@@ -1,0 +1,9 @@
+while
+(
+await
+this
+)
+{
+break
+;
+}

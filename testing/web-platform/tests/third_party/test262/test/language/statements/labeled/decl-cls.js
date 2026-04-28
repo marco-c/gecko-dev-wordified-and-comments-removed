@@ -1,0 +1,10 @@
+DONOTEVALUATE
+(
+)
+;
+label
+:
+class
+C
+{
+}

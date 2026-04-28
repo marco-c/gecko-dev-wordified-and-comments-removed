@@ -1,0 +1,6 @@
+typeof
+await
+/
+1
+/
+;

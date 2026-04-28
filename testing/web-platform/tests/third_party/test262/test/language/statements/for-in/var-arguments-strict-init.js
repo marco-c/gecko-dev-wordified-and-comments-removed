@@ -1,0 +1,15 @@
+DONOTEVALUATE
+(
+)
+;
+for
+(
+var
+arguments
+=
+42
+in
+null
+)
+{
+}

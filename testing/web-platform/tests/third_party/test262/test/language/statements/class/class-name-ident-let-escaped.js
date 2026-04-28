@@ -1,0 +1,10 @@
+DONOTEVALUATE
+(
+)
+;
+class
+l
+\
+u0065t
+{
+}

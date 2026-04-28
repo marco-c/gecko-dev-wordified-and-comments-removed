@@ -1,0 +1,9 @@
+DONOTEVALUATE
+(
+)
+;
+var
+function
+=
+123
+;

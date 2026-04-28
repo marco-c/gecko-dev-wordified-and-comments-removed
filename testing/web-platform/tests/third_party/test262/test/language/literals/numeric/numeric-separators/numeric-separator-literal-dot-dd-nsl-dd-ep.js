@@ -1,0 +1,10 @@
+assert
+.
+sameValue
+(
+.
+0_1e2
+.
+01e2
+)
+;

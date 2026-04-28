@@ -1,0 +1,10 @@
+DONOTEVALUATE
+(
+)
+;
+class
+C
+{
+#
+constructor
+}
