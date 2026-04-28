@@ -43,6 +43,8 @@ DateObject
 public
 NativeObject
 {
+public
+:
 static
 const
 uint32_t
@@ -50,6 +52,8 @@ UTC_TIME_SLOT
 =
 0
 ;
+private
+:
 static
 const
 uint32_t
