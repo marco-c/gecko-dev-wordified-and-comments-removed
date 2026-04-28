@@ -170,6 +170,11 @@ TestDMABufSurface
 .
 cpp
 "
+"
+TestGtkDragDrop
+.
+cpp
+"
 ]
 FINAL_LIBRARY
 =
