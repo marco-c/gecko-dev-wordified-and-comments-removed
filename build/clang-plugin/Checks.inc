@@ -42,6 +42,15 @@ temporary
 )
 CHECK
 (
+EnumSerializerChecker
+"
+enum
+-
+serializer
+"
+)
+CHECK
+(
 ExplicitImplicitChecker
 "
 implicit

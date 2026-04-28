@@ -36,6 +36,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ContentCache
 .
 h
@@ -5959,6 +5968,7 @@ template
 <
 >
 struct
+MOZ_ENUM_SERIALIZER_ALLOW_MIN_MISMATCH
 ParamTraits
 <
 mozilla
@@ -9511,6 +9521,7 @@ template
 <
 >
 struct
+MOZ_ENUM_SERIALIZER_ALLOW_SENTINEL_UPPER_BOUND
 ParamTraits
 <
 mozilla
@@ -9557,6 +9568,7 @@ template
 <
 >
 struct
+MOZ_ENUM_SERIALIZER_ALLOW_MIN_MISMATCH
 ParamTraits
 <
 mozilla

@@ -60,6 +60,15 @@ IPCMessageUtilsSpecializations
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 IPC
 {
@@ -282,6 +291,7 @@ template
 <
 >
 struct
+MOZ_ENUM_SERIALIZER_ALLOW_SENTINEL_UPPER_BOUND
 ParamTraits
 <
 GMPSliceMode
