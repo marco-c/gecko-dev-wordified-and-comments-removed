@@ -286,8 +286,14 @@ VRManagerChild
 :
 VRManagerChild
 (
+uint32_t
+aNamespace
 )
 :
+mNamespace
+(
+aNamespace
+)
 mRuntimeCapabilities
 (
 VRDisplayCapabilityFlags
@@ -561,6 +567,8 @@ PVRManagerChild
 &
 &
 aEndpoint
+uint32_t
+aNamespace
 )
 {
 MOZ_ASSERT
@@ -579,6 +587,7 @@ child
 new
 VRManagerChild
 (
+aNamespace
 )
 )
 ;
@@ -611,6 +620,8 @@ VRManagerChild
 :
 InitSameProcess
 (
+uint32_t
+aNamespace
 )
 {
 MOZ_ASSERT
@@ -631,6 +642,7 @@ sVRManagerChildSingleton
 new
 VRManagerChild
 (
+aNamespace
 )
 ;
 sVRManagerParentSingleton
@@ -640,6 +652,7 @@ VRManagerParent
 :
 CreateSameProcess
 (
+aNamespace
 )
 ;
 sVRManagerChildSingleton
@@ -674,6 +687,8 @@ PVRManagerChild
 &
 &
 aEndpoint
+uint32_t
+aNamespace
 )
 {
 MOZ_ASSERT
@@ -694,6 +709,7 @@ sVRManagerChildSingleton
 new
 VRManagerChild
 (
+aNamespace
 )
 ;
 if

@@ -200,9 +200,6 @@ InProcessCompositorSession
 class
 UiCompositorControllerChild
 ;
-class
-WebRenderLayerManager
-;
 }
 namespace
 widget
@@ -305,13 +302,6 @@ layers
 :
 IAPZCTreeManager
 IAPZCTreeManager
-;
-typedef
-layers
-:
-:
-WebRenderLayerManager
-WebRenderLayerManager
 ;
 typedef
 layers
@@ -425,9 +415,6 @@ CreateTopLevelCompositor
 nsIWidget
 *
 aWidget
-WebRenderLayerManager
-*
-aLayerManager
 CSSToLayoutDeviceScale
 aScale
 const
@@ -910,6 +897,8 @@ dom
 :
 ContentParentId
 aChildId
+uint32_t
+aNamespace
 mozilla
 :
 :
@@ -940,6 +929,8 @@ dom
 :
 ContentParentId
 aChildId
+uint32_t
+aNamespace
 mozilla
 :
 :
@@ -1246,9 +1237,6 @@ CreateRemoteSession
 nsIWidget
 *
 aWidget
-WebRenderLayerManager
-*
-aLayerManager
 const
 LayersId
 &

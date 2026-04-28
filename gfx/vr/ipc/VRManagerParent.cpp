@@ -129,6 +129,8 @@ dom
 :
 ContentParentId
 aChildId
+uint32_t
+aNamespace
 bool
 aIsContentChild
 )
@@ -136,6 +138,10 @@ aIsContentChild
 mChildId
 (
 aChildId
+)
+mNamespace
+(
+aNamespace
 )
 mHaveEventListener
 (
@@ -402,6 +408,8 @@ dom
 :
 ContentParentId
 aChildId
+uint32_t
+aNamespace
 )
 {
 if
@@ -431,6 +439,7 @@ OtherEndpointProcInfo
 (
 )
 aChildId
+aNamespace
 true
 )
 ;
@@ -551,6 +560,8 @@ VRManagerParent
 :
 CreateSameProcess
 (
+uint32_t
+aNamespace
 )
 {
 RefPtr
@@ -577,6 +588,7 @@ dom
 ContentParentId
 (
 )
+aNamespace
 false
 )
 ;
@@ -634,6 +646,8 @@ PVRManagerParent
 &
 &
 aEndpoint
+uint32_t
+aNamespace
 )
 {
 RefPtr
@@ -656,6 +670,7 @@ dom
 ContentParentId
 (
 )
+aNamespace
 false
 )
 ;
