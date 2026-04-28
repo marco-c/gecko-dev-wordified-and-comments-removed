@@ -204,12 +204,6 @@ scoped_refptr
 .
 /
 call
-"
-"
-.
-.
-/
-call
 :
 call_interfaces
 "
@@ -462,14 +456,6 @@ rtc_base
 system
 :
 rtc_export
-"
-"
-.
-.
-/
-stats
-:
-rtc_stats
 "
 ]
 }
