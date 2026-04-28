@@ -1504,13 +1504,6 @@ js
 ]
 [
 "
-test_sandbox_SharedArrayBuffer
-.
-js
-"
-]
-[
-"
 test_sandbox_atob
 .
 js
