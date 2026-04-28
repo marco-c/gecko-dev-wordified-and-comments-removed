@@ -700,6 +700,10 @@ paneSync
 preferences
 -
 paneContainers
+*
+preferences
+-
+paneAccessibility
 Widget
 Identifiers
 -
