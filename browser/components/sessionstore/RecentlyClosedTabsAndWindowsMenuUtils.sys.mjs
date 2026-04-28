@@ -1136,7 +1136,7 @@ aEvent
 .
 target
 .
-ownerGlobal
+documentGlobal
 ;
 const
 browserWindows
@@ -3158,7 +3158,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 aIndex
 sourceWindowId
 )

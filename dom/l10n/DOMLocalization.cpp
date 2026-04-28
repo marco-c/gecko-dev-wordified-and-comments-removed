@@ -41,6 +41,17 @@ mozilla
 /
 dom
 /
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Element
 .
 h
@@ -626,7 +637,7 @@ global
 =
 aNode
 .
-GetOwnerGlobal
+GetDocumentGlobal
 (
 )
 ;

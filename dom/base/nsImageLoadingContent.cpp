@@ -2095,7 +2095,6 @@ aRequestGeneration
 )
 {
 }
-virtual
 void
 Run
 (
@@ -2121,7 +2120,6 @@ mRequestGeneration
 )
 ;
 }
-virtual
 bool
 Suppressed
 (
@@ -6230,12 +6228,7 @@ global
 el
 -
 >
-OwnerDoc
-(
-)
--
->
-GetOwnerGlobal
+GetDocumentGlobal
 (
 )
 ;

@@ -705,7 +705,7 @@ win
 =
 elt
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (

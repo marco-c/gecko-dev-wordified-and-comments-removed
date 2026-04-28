@@ -434,8 +434,7 @@ actor
 =
 element
 .
-ownerGlobal
-?
+documentGlobal
 .
 windowGlobalChild
 ?
@@ -5553,7 +5552,7 @@ domWin
 =
 formElement
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (

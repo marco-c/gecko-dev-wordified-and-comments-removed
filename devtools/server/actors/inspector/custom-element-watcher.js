@@ -147,7 +147,7 @@ nodeActor
 .
 rawNode
 .
-ownerGlobal
+documentGlobal
 .
 customElements
 ;
@@ -208,6 +208,8 @@ nodeActor
 return
 ;
 }
+try
+{
 const
 win
 =
@@ -215,7 +217,7 @@ nodeActor
 .
 rawNode
 .
-ownerGlobal
+documentGlobal
 ;
 const
 registry
@@ -265,6 +267,13 @@ delete
 nodeActor
 )
 ;
+}
+}
+catch
+(
+ex
+)
+{
 }
 }
 _getMapForRegistry
@@ -498,7 +507,6 @@ nodeActor
 rawNode
 ;
 return
-(
 !
 Cu
 .
@@ -510,16 +518,10 @@ node
 &
 node
 .
-ownerGlobal
-&
-&
-node
-.
 ownerDocument
 ?
 .
 documentElement
-)
 ;
 }
 }

@@ -331,7 +331,7 @@ isContentWindowPrivate
 (
 form
 .
-ownerGlobal
+documentGlobal
 )
 )
 {

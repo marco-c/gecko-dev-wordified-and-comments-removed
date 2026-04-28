@@ -2812,7 +2812,7 @@ chromeWindow
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 await
 this
@@ -3691,7 +3691,7 @@ top
 embedderElement
 ?
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (

@@ -872,7 +872,7 @@ if
 (
 element
 .
-ownerGlobal
+documentGlobal
 .
 browsingContext
 !

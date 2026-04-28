@@ -104,7 +104,7 @@ aEvent
 .
 originalTarget
 .
-ownerGlobal
+documentGlobal
 !
 =
 this

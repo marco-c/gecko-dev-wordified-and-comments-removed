@@ -10826,7 +10826,7 @@ browsingContext
 embedderElement
 ?
 .
-ownerGlobal
+documentGlobal
 |
 |
 browsingContext
@@ -11993,7 +11993,7 @@ win
 browser
 ?
 .
-ownerGlobal
+documentGlobal
 ?
 ?
 browsingContext
@@ -12075,7 +12075,7 @@ aEvent
 .
 currentTarget
 .
-ownerGlobal
+documentGlobal
 ;
 let
 target
@@ -24991,7 +24991,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /
@@ -26197,7 +26197,7 @@ aTab
 !
 aTab
 .
-ownerGlobal
+documentGlobal
 )
 {
 throw
@@ -26222,7 +26222,7 @@ if
 !
 aTab
 .
-ownerGlobal
+documentGlobal
 .
 __SSi
 )
@@ -26437,7 +26437,7 @@ window
 =
 aTab
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -26738,7 +26738,7 @@ aTab
 !
 aTab
 .
-ownerGlobal
+documentGlobal
 )
 {
 throw
@@ -26763,7 +26763,7 @@ if
 !
 aTab
 .
-ownerGlobal
+documentGlobal
 .
 __SSi
 )
@@ -27118,7 +27118,7 @@ window
 =
 newTab
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /
@@ -27141,6 +27141,11 @@ window
 window
 .
 __SSi
+|
+|
+window
+.
+closed
 )
 {
 return
@@ -31875,7 +31880,7 @@ saveStateDelayed
 (
 aTab
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -31917,7 +31922,7 @@ saveStateDelayed
 (
 aTab
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -32596,7 +32601,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -41498,7 +41503,7 @@ window
 =
 tab
 .
-ownerGlobal
+documentGlobal
 ;
 let
 tabbrowser
@@ -42936,7 +42941,7 @@ window
 =
 aTab
 .
-ownerGlobal
+documentGlobal
 ;
 let
 tabData
@@ -43799,7 +43804,7 @@ aWindow
 .
 SidebarController
 .
-initializeUIState
+updateUIState
 (
 aSidebar
 )
@@ -53242,7 +53247,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 tab
@@ -53364,7 +53369,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 tab
@@ -53923,14 +53928,12 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 tab
 =
-browser
-.
-ownerGlobal
+win
 ?
 .
 gBrowser
@@ -54296,7 +54299,7 @@ isWindowPrivate
 (
 tabGroup
 .
-ownerGlobal
+documentGlobal
 )
 )
 {
@@ -54329,7 +54332,7 @@ savedInOpenWindow
 tabGroup
 tabGroup
 .
-ownerGlobal
+documentGlobal
 .
 __SSi
 )
@@ -54347,7 +54350,7 @@ tabGroup
 tabs
 tabGroup
 .
-ownerGlobal
+documentGlobal
 )
 ;
 tabGroupState
@@ -54450,7 +54453,7 @@ tabs
 0
 ]
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -54464,7 +54467,7 @@ tab
 >
 tab
 .
-ownerGlobal
+documentGlobal
 =
 =
 =
@@ -54556,6 +54559,15 @@ _collectSplitViewDataForTabGroup
 (
 tabs
 )
+;
+tabGroupState
+.
+splitViews
+?
+?
+=
+[
+]
 ;
 tabGroupState
 .

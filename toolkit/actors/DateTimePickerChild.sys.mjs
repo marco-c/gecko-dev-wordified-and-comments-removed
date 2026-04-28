@@ -161,7 +161,7 @@ win
 =
 inputElement
 .
-ownerGlobal
+documentGlobal
 ;
 dateTimeBoxElement
 .
@@ -264,7 +264,7 @@ win
 =
 inputElement
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /
@@ -466,7 +466,7 @@ win
 =
 inputElement
 .
-ownerGlobal
+documentGlobal
 ;
 dateTimeBoxElement
 .

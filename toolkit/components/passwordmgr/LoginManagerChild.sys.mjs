@@ -80,7 +80,7 @@ manager
 Disable
 use
 -
-ownerGlobal
+documentGlobal
 since
 LoginForm
 doesn
@@ -98,7 +98,7 @@ mozilla
 /
 use
 -
-ownerGlobal
+documentGlobal
 *
 /
 const
@@ -4583,7 +4583,7 @@ actor
 =
 focusedField
 .
-ownerGlobal
+documentGlobal
 .
 windowGlobalChild
 .
@@ -17398,7 +17398,7 @@ form
 .
 rootElement
 .
-ownerGlobal
+documentGlobal
 .
 windowGlobalChild
 .

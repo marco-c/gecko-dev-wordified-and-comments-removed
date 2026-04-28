@@ -763,7 +763,7 @@ push
 (
 node
 .
-ownerGlobal
+documentGlobal
 node
 node
 .
@@ -885,7 +885,7 @@ unwrap
 (
 node
 .
-ownerGlobal
+documentGlobal
 )
 ;
 if
@@ -898,6 +898,8 @@ return
 null
 ;
 }
+try
+{
 const
 hasJQuery
 =
@@ -921,6 +923,13 @@ global
 .
 jQuery
 ;
+}
+}
+catch
+(
+e
+)
+{
 }
 return
 null
@@ -1635,7 +1644,7 @@ unwrap
 (
 node
 .
-ownerGlobal
+documentGlobal
 )
 ;
 let

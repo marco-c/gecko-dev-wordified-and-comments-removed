@@ -9548,7 +9548,7 @@ toggleRect
 =
 toggle
 .
-ownerGlobal
+documentGlobal
 .
 windowUtils
 .
@@ -9688,7 +9688,7 @@ fromRect
 (
 child
 .
-ownerGlobal
+documentGlobal
 .
 windowUtils
 .
@@ -9909,7 +9909,7 @@ devicePixelRatio
 =
 toggle
 .
-ownerGlobal
+documentGlobal
 .
 devicePixelRatio
 ;
@@ -11172,7 +11172,7 @@ getWeakVideo
 (
 )
 .
-ownerGlobal
+documentGlobal
 ;
 const
 isReducedMotionEnabled
@@ -11493,7 +11493,7 @@ playerVideoWindow
 =
 playerVideo
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /
@@ -14902,7 +14902,7 @@ originatingWindow
 =
 originatingVideo
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -15182,7 +15182,7 @@ originatingWindow
 =
 originatingVideo
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -15290,9 +15290,15 @@ chromeEventHandler
 originatingWindow
 .
 docShell
+?
 .
 chromeEventHandler
 ;
+if
+(
+chromeEventHandler
+)
+{
 chromeEventHandler
 .
 removeEventListener
@@ -15317,6 +15323,7 @@ this
 true
 )
 ;
+}
 }
 }
 /
@@ -18571,7 +18578,7 @@ originatingWin
 =
 video
 .
-ownerGlobal
+documentGlobal
 ;
 let
 originatingDoc
