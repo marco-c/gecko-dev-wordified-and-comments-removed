@@ -2609,14 +2609,14 @@ GCHashSet
 <
 HeapPtr
 <
-ModuleObject
+JSObject
 *
 >
-DefaultHasher
+StableCellHasher
 <
 HeapPtr
 <
-ModuleObject
+JSObject
 *
 >
 >
