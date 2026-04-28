@@ -98,6 +98,13 @@ long
 >
 contributingSources
 ;
+unsigned
+long
+rtpTimestamp
+;
+DOMHighResTimeStamp
+receiveTime
+;
 DOMString
 mimeType
 ;
