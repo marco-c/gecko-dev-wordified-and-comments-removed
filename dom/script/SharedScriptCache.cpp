@@ -1960,7 +1960,7 @@ stencil
 loadedScript
 -
 >
-GetStencil
+GetCachedStencil
 (
 )
 ;
@@ -2184,7 +2184,7 @@ GetScriptSourceLength
 aLoadedScript
 -
 >
-GetStencil
+GetCachedStencil
 (
 )
 )
@@ -2798,7 +2798,7 @@ emplaceBack
 loadedScript
 -
 >
-GetStencil
+GetCachedStencil
 (
 )
 std

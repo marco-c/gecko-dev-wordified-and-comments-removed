@@ -772,13 +772,14 @@ ScriptFetchOptions
 aFetchOptions
 )
 {
-mStencil
-=
+SetStencil
+(
 aLoadedScript
 -
 >
-GetStencil
+GetCachedStencil
 (
+)
 )
 ;
 mFetchInfo
