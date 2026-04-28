@@ -347,6 +347,9 @@ onHide
 -
 >
 Unit
+=
+{
+}
 )
 :
 AutocompletePrompt

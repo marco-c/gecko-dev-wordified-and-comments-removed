@@ -265,7 +265,7 @@ private
 val
 toolbar
 :
-FenixBrowserToolbarView
+BrowserToolbarComposable
 =
 mockk
 (

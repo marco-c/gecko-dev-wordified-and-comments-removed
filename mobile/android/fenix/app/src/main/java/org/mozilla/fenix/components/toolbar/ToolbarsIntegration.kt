@@ -418,7 +418,7 @@ private
 val
 toolbar
 :
-FenixBrowserToolbarView
+BrowserToolbarComposable
 private
 val
 topToolbarHeight

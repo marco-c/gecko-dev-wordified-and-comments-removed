@@ -339,7 +339,7 @@ components
 .
 toolbar
 .
-FenixBrowserToolbarView
+BrowserToolbarComposable
 import
 org
 .
@@ -637,7 +637,7 @@ browserToolbarView
 returns
 mockk
 <
-FenixBrowserToolbarView
+BrowserToolbarComposable
 >
 (
 relaxed
@@ -1129,7 +1129,7 @@ CoroutineDispatcher
 val
 toolbar
 :
-FenixBrowserToolbarView
+BrowserToolbarComposable
 =
 mockk
 (
