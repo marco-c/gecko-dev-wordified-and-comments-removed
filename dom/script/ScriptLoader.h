@@ -2144,6 +2144,11 @@ UpdateDiskCache
 )
 ;
 void
+DispatchStopCollectingDelazifications
+(
+)
+;
+void
 StopCollectingDelazifications
 (
 )
