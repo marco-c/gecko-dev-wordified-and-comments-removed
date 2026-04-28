@@ -715,7 +715,6 @@ closeTab
 )
 verifySnackBarText
 (
-composeTestRule
 "
 Tab
 closed
@@ -1092,7 +1091,6 @@ closeTab
 )
 verifySnackBarText
 (
-composeTestRule
 "
 Private
 tab
