@@ -119,6 +119,9 @@ h
 #
 ifdef
 __cplusplus
+namespace
+mesa
+{
 struct
 float16_t
 {
@@ -195,6 +198,7 @@ FP16_ZERO
 }
 }
 ;
+}
 #
 endif
 #
