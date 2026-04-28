@@ -257,7 +257,7 @@ standalone
 ]
 [
 "
-browser_WallpaperThemeUtils
+browser_WallpaperThemeWorker
 .
 js
 "
