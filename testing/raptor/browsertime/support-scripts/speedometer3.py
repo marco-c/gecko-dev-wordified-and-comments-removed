@@ -482,6 +482,18 @@ lowerIsBetter
 lower_is_better
             
 "
+minBackWindow
+"
+:
+24
+            
+"
+maxBackWindow
+"
+:
+48
+            
+"
 name
 "
 :
@@ -629,6 +641,24 @@ type
 "
 benchmark
 "
+        
+suite
+[
+"
+minBackWindow
+"
+]
+=
+24
+        
+suite
+[
+"
+maxBackWindow
+"
+]
+=
+48
         
 if
 suite
