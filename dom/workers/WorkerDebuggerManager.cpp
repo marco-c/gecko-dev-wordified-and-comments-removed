@@ -1108,8 +1108,10 @@ WorkerDebugger
 >
 debugger
 =
-new
 WorkerDebugger
+:
+:
+Create
 (
 aWorkerPrivate
 )
