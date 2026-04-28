@@ -1164,24 +1164,6 @@ FieldTrial
 '
 WebRTC
 -
-RtcEventLogEncodeDependencyDescriptor
-'
-               
-42225280
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 RtcEventLogEncodeNetEqSetMinimumDelayKillSwitch
 '
                

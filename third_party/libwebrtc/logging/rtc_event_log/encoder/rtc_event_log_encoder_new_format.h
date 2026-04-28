@@ -870,10 +870,6 @@ const
 bool
 encode_neteq_set_minimum_delay_kill_switch_
 ;
-const
-bool
-encode_dependency_descriptor_
-;
 }
 ;
 }
