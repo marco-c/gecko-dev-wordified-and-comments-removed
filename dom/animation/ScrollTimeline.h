@@ -171,7 +171,7 @@ Root
 private
 :
 OwningAnimationTarget
-mTarget
+mSourceOrTarget
 ;
 ScrollerInfo
 (
@@ -190,7 +190,7 @@ mType
 {
 aType
 }
-mTarget
+mSourceOrTarget
 {
 aElement
 aPseudoRequest
@@ -379,7 +379,7 @@ ElementForCycleCollection
 )
 {
 return
-mTarget
+mSourceOrTarget
 .
 mElement
 ;
