@@ -4626,6 +4626,17 @@ isAIWindowActive
 browser
 .
 ownerGlobal
+?
+.
+browsingContext
+?
+.
+topChromeWindow
+?
+?
+browser
+.
+ownerGlobal
 )
 )
 {
