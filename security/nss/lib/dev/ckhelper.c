@@ -387,13 +387,12 @@ ulValueLen
 |
 |
 ulValueLen
-=
+>
 =
 (
 CK_ULONG
 )
--
-1
+PR_UINT32_MAX
 )
 {
 obj_template
