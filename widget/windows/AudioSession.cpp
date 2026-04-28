@@ -1,11 +1,6 @@
 #
 include
 <
-atomic
->
-#
-include
-<
 audiopolicy
 .
 h

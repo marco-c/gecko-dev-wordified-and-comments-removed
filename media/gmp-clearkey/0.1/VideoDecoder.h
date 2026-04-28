@@ -7,11 +7,6 @@ VideoDecoder_h_
 #
 include
 <
-atomic
->
-#
-include
-<
 queue
 >
 #

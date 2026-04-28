@@ -27,11 +27,6 @@ h
 #
 include
 <
-atomic
->
-#
-include
-<
 vector
 >
 #
