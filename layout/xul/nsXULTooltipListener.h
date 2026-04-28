@@ -273,6 +273,9 @@ mCurrentTooltip
 nsWeakPtr
 mPreviousMouseMoveTarget
 ;
+nsWeakPtr
+mTooltipSourceDoc
+;
 nsCOMPtr
 <
 nsITimer
