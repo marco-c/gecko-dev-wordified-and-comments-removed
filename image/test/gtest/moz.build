@@ -860,6 +860,13 @@ large
 webp
 "
 "
+long
+-
+animated
+.
+jxl
+"
+"
 multilayer
 .
 avif
