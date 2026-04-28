@@ -1063,6 +1063,10 @@ if
 (
 !
 formatTable
+|
+|
+!
+formatTable
 -
 >
 IsSet

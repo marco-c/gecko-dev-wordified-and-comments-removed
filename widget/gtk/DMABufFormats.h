@@ -262,8 +262,8 @@ Length
 =
 =
 1
-|
-|
+&
+&
 mModifiers
 [
 0
