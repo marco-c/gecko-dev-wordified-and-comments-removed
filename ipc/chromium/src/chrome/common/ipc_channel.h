@@ -12,11 +12,6 @@ cstdint
 #
 include
 <
-queue
->
-#
-include
-<
 variant
 >
 #
