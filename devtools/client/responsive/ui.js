@@ -330,7 +330,7 @@ enabled
 const
 DYNAMIC_TOOLBAR_MAX_HEIGHT
 =
-40
+50
 ;
 function
 debug
