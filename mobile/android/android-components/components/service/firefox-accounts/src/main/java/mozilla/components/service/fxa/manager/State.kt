@@ -846,6 +846,10 @@ class
 BeginEmailFlow
 (
 val
+service
+:
+String
+val
 entrypoint
 :
 FxAEntryPoint
@@ -870,6 +874,10 @@ pairingUrl
 :
 String
 ?
+val
+service
+:
+String
 val
 entrypoint
 :
