@@ -1562,7 +1562,6 @@ int
 scanno
 ncomps
 ci
-coefi
 thisi
 ;
 int
@@ -1581,6 +1580,7 @@ MAX_COMPONENTS
 ifdef
 C_PROGRESSIVE_SUPPORTED
 int
+coefi
 *
 last_bitpos_ptr
 ;
@@ -3582,9 +3582,9 @@ pass_number
 +
 +
 ;
+FALLTHROUGH
 #
 endif
-FALLTHROUGH
 case
 output_pass
 :

@@ -613,6 +613,9 @@ compptr
 dc_tbl_no
 ]
 ;
+#
+ifdef
+ENTROPY_OPT_SUPPORTED
 entropy
 -
 >
@@ -632,6 +635,8 @@ compptr
 dc_tbl_no
 ]
 ;
+#
+endif
 }
 }
 }

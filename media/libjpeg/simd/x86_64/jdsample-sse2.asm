@@ -31,7 +31,7 @@ C
 2016
 2024
 -
-2025
+2026
 D
 .
 R
@@ -338,10 +338,10 @@ is
 linear
 interpolation
 between
-pixel
+component
 centers
-also
 ;
+also
 known
 as
 a
@@ -357,8 +357,8 @@ good
 compromise
 between
 speed
-and
 ;
+and
 visual
 quality
 .
@@ -367,7 +367,7 @@ centers
 of
 the
 output
-pixels
+components
 are
 1
 /
@@ -377,12 +377,12 @@ and
 /
 4
 of
+;
 the
 way
-;
 between
 input
-pixel
+component
 centers
 .
 ;

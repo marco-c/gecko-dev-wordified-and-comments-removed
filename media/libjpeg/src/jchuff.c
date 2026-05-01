@@ -4424,7 +4424,7 @@ bits
 [
 MAX_CLEN
 +
-1
+2
 ]
 ;
 int
