@@ -4802,9 +4802,15 @@ _gRunningTest
 .
 name
 :
+(
 stack
 .
 name
+?
+?
+"
+"
+)
 ;
 let
 message
@@ -4812,6 +4818,11 @@ message
 if
 (
 name
+&
+&
+stack
+.
+lineNumber
 )
 {
 message
