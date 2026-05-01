@@ -1773,6 +1773,16 @@ my_coef_controller
 )
 )
 ;
+memset
+(
+coef
+0
+sizeof
+(
+my_coef_controller
+)
+)
+;
 cinfo
 -
 >
