@@ -955,13 +955,8 @@ SharedShape
 >
 &
 k
-const
-WeakHeapPtr
-<
 SharedShape
 *
->
-&
 newKey
 )
 {

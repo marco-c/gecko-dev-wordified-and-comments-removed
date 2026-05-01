@@ -2015,9 +2015,8 @@ rekey
 Key
 &
 key
-const
-Key
-&
+SavedFrame
+*
 newKey
 )
 {

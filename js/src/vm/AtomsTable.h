@@ -99,13 +99,8 @@ JSAtom
 >
 &
 k
-const
-WeakHeapPtr
-<
 JSAtom
 *
->
-&
 newKey
 )
 {
