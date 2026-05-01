@@ -74333,13 +74333,6 @@ name
 "
 sports_widget_close_content_description
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 Close
 <
@@ -74454,13 +74447,6 @@ name
 =
 "
 sports_widget_countdown_remaining_content_description
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 Remaining
