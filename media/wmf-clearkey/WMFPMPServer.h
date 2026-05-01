@@ -110,9 +110,12 @@ default
 WMFPMPServer
 (
 )
-=
-default
+{
+Shutdown
+(
+)
 ;
+}
 WMFPMPServer
 (
 const
@@ -152,6 +155,11 @@ Collections
 IPropertySet
 *
 aPropertyPmp
+)
+;
+void
+Shutdown
+(
 )
 ;
 STDMETHODIMP
