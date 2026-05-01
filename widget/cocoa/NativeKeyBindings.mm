@@ -599,7 +599,7 @@ moveToBeginningOfLine
 Command
 :
 :
-BeginLine
+MoveLeft3
 )
 ;
 SEL_TO_COMMAND
@@ -609,7 +609,7 @@ moveToBeginningOfLineAndModifySelection
 Command
 :
 :
-SelectBeginLine
+SelectLeft3
 )
 ;
 SEL_TO_COMMAND
@@ -659,7 +659,7 @@ moveToEndOfLine
 Command
 :
 :
-EndLine
+MoveRight3
 )
 ;
 SEL_TO_COMMAND
@@ -669,7 +669,7 @@ moveToEndOfLineAndModifySelection
 Command
 :
 :
-SelectEndLine
+SelectRight3
 )
 ;
 SEL_TO_COMMAND
@@ -699,7 +699,7 @@ moveToLeftEndOfLine
 Command
 :
 :
-BeginLine
+MoveLeft3
 )
 ;
 SEL_TO_COMMAND
@@ -709,7 +709,7 @@ moveToLeftEndOfLineAndModifySelection
 Command
 :
 :
-SelectBeginLine
+SelectLeft3
 )
 ;
 SEL_TO_COMMAND
@@ -719,7 +719,7 @@ moveToRightEndOfLine
 Command
 :
 :
-EndLine
+MoveRight3
 )
 ;
 SEL_TO_COMMAND
@@ -729,7 +729,7 @@ moveToRightEndOfLineAndModifySelection
 Command
 :
 :
-SelectEndLine
+SelectRight3
 )
 ;
 if
