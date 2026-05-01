@@ -508,8 +508,10 @@ nsACString
 aSearch
 )
 ;
+already_AddRefed
+<
 URLSearchParams
-*
+>
 SearchParams
 (
 )

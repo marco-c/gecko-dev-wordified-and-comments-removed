@@ -800,8 +800,10 @@ return
 uri
 ;
 }
+already_AddRefed
+<
 URLSearchParams
-*
+>
 URL
 :
 :
@@ -814,7 +816,10 @@ CreateSearchParamsIfNeeded
 )
 ;
 return
+do_AddRef
+(
 mSearchParams
+)
 ;
 }
 void
