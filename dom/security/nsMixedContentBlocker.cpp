@@ -2208,6 +2208,12 @@ ExtContentPolicy
 :
 TYPE_JSON
 :
+case
+ExtContentPolicy
+:
+:
+TYPE_TEXT
+:
 break
 ;
 case
