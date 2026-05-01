@@ -2853,15 +2853,7 @@ aLoadState
 )
 ;
 bool
-IsFramebustingAllowed
-(
-BrowsingContext
-*
-aTarget
-)
-;
-bool
-IsFramebustingAllowedInner
+ComputeIsFramebustingAllowed
 (
 )
 ;
