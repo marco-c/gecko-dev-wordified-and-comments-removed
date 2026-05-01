@@ -1799,17 +1799,6 @@ wantUntrusted
 :
 true
 }
-"
-BackupUI
-:
-FindBackupsInWellKnownLocations
-"
-:
-{
-wantUntrusted
-:
-true
-}
 }
 }
 includeChrome
