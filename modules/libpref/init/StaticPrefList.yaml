@@ -57511,7 +57511,7 @@ mirror
 always
 set_spidermonkey_pref
 :
-always
+startup
 #
 Experimental
 support

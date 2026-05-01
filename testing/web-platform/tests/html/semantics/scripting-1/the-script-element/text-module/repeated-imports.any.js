@@ -752,7 +752,7 @@ result_js
 .
 default
 "
-world
+hello
 "
 )
 ;
@@ -787,7 +787,7 @@ result_js_2
 .
 default
 "
-world
+hello
 "
 )
 ;

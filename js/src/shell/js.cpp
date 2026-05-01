@@ -80738,7 +80738,7 @@ JS
 Prefs
 :
 :
-set_experimental_import_text
+setAtStartup_experimental_import_text
 (
 true
 )

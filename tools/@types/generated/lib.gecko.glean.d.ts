@@ -39845,10 +39845,6 @@ STYLESHEET
 "
 |
 "
-TEXT
-"
-|
-"
 UA_FONT
 "
 |

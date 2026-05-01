@@ -1460,16 +1460,6 @@ Ci
 nsIContentPolicy
 .
 TYPE_INTERNAL_JSON_PRELOAD
-|
-|
-type
-=
-=
-Ci
-.
-nsIContentPolicy
-.
-TYPE_INTERNAL_TEXT_PRELOAD
 )
 ;
 }
