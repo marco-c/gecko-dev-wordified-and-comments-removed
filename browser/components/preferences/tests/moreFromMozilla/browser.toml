@@ -34,6 +34,13 @@ js
 ]
 [
 "
+browser_moreFromMozilla_config
+.
+js
+"
+]
+[
+"
 browser_moreFromMozilla_locales
 .
 js
