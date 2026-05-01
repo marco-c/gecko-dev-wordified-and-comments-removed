@@ -2442,6 +2442,13 @@ html
 ]
 [
 "
+test_AppendMultipleInitOpusAudio
+.
+html
+"
+]
+[
+"
 test_MultipleInitSegments
 .
 html
