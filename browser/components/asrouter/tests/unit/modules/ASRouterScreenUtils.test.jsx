@@ -1,12 +1,12 @@
 import
 {
-AWScreenUtils
+ASRouterScreenUtils
 }
 from
 "
 modules
 /
-AWScreenUtils
+ASRouterScreenUtils
 .
 sys
 .
@@ -19,8 +19,6 @@ GlobalOverrider
 }
 from
 "
-asrouter
-/
 tests
 /
 unit
@@ -34,8 +32,6 @@ ASRouter
 }
 from
 "
-asrouter
-/
 modules
 /
 ASRouter
@@ -48,7 +44,7 @@ mjs
 describe
 (
 "
-AWScreenUtils
+ASRouterScreenUtils
 "
 (
 )
@@ -181,7 +177,7 @@ bar
 ]
 ;
 await
-AWScreenUtils
+ASRouterScreenUtils
 .
 removeScreens
 (
@@ -244,7 +240,7 @@ bar
 ]
 ;
 await
-AWScreenUtils
+ASRouterScreenUtils
 .
 removeScreens
 (
@@ -329,7 +325,7 @@ const
 result
 =
 await
-AWScreenUtils
+ASRouterScreenUtils
 .
 evaluateScreenTargeting
 (
@@ -408,7 +404,7 @@ const
 result
 =
 await
-AWScreenUtils
+ASRouterScreenUtils
 .
 evaluateScreenTargeting
 (
@@ -546,7 +542,7 @@ const
 evaluatedStrings
 =
 await
-AWScreenUtils
+ASRouterScreenUtils
 .
 evaluateTargetingAndRemoveScreens
 (
@@ -621,7 +617,7 @@ sandbox
 .
 stub
 (
-AWScreenUtils
+ASRouterScreenUtils
 "
 evaluateScreenTargeting
 "
@@ -656,7 +652,7 @@ const
 evaluatedStrings
 =
 await
-AWScreenUtils
+ASRouterScreenUtils
 .
 evaluateTargetingAndRemoveScreens
 (
@@ -727,7 +723,7 @@ test
 "
 }
 ;
-AWScreenUtils
+ASRouterScreenUtils
 .
 addScreenImpression
 (
@@ -801,7 +797,7 @@ evaluateExpression
 "
 )
 ;
-AWScreenUtils
+ASRouterScreenUtils
 .
 getUnhandledCampaignAction
 (

@@ -121,7 +121,7 @@ sys
 .
 mjs
 "
-AWScreenUtils
+ASRouterScreenUtils
 :
 "
 resource
@@ -131,9 +131,9 @@ resource
 /
 modules
 /
-aboutwelcome
+asrouter
 /
-AWScreenUtils
+ASRouterScreenUtils
 .
 sys
 .
@@ -2299,7 +2299,7 @@ EVALUATE_SCREEN_TARGETING
 return
 lazy
 .
-AWScreenUtils
+ASRouterScreenUtils
 .
 evaluateTargetingAndRemoveScreens
 (
@@ -2316,7 +2316,7 @@ ADD_SCREEN_IMPRESSION
 return
 lazy
 .
-AWScreenUtils
+ASRouterScreenUtils
 .
 addScreenImpression
 (
@@ -2333,7 +2333,7 @@ EVALUATE_ATTRIBUTE_TARGETING
 return
 lazy
 .
-AWScreenUtils
+ASRouterScreenUtils
 .
 evaluateScreenTargeting
 (
@@ -2434,7 +2434,7 @@ false
 return
 lazy
 .
-AWScreenUtils
+ASRouterScreenUtils
 .
 getUnhandledCampaignAction
 (

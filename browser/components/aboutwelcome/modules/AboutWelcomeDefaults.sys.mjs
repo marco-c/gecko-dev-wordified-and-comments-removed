@@ -217,7 +217,7 @@ sys
 .
 mjs
 "
-AWScreenUtils
+ASRouterScreenUtils
 :
 "
 resource
@@ -227,9 +227,9 @@ resource
 /
 modules
 /
-aboutwelcome
+asrouter
 /
-AWScreenUtils
+ASRouterScreenUtils
 .
 sys
 .
@@ -8202,7 +8202,7 @@ shouldRemoveLanguageMismatchScreen
 await
 lazy
 .
-AWScreenUtils
+ASRouterScreenUtils
 .
 removeScreens
 (

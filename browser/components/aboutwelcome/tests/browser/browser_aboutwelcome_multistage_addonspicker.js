@@ -57,7 +57,7 @@ mjs
 ;
 const
 {
-AWScreenUtils
+ASRouterScreenUtils
 }
 =
 ChromeUtils
@@ -72,9 +72,9 @@ resource
 /
 modules
 /
-aboutwelcome
+asrouter
 /
-AWScreenUtils
+ASRouterScreenUtils
 .
 sys
 .
