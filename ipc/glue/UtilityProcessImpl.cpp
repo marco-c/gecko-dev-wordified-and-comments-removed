@@ -642,8 +642,11 @@ nsCString
 *
 parentBuildID
 )
+SandboxingKind
+(
 *
 sandboxingKind
+)
 )
 ;
 }
