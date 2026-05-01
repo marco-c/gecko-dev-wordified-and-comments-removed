@@ -2251,6 +2251,11 @@ visibility_context
 mut
 visibility_state
 .
+prim_instances
+&
+mut
+visibility_state
+.
 composite_state
 &
 mut
