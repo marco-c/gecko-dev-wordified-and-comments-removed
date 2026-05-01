@@ -8345,6 +8345,8 @@ ShadowRootInit
 aInit
 bool
 aNotify
+CustomSlotDispatch
+aCustomSlotDispatch
 )
 {
 nsAutoScriptBlocker
@@ -8460,6 +8462,7 @@ ShadowRootDeclarative
 :
 :
 No
+aCustomSlotDispatch
 nodeInfo
 .
 forget
@@ -8717,6 +8720,8 @@ NotifyUAWidget
 aNotifyUAWidget
 DelegatesFocus
 aDelegatesFocus
+CustomSlotDispatch
+aCustomSlotDispatch
 bool
 aNotify
 )
@@ -8796,6 +8801,7 @@ AttachShadowWithoutNameChecks
 (
 init
 aNotify
+aCustomSlotDispatch
 )
 ;
 shadowRoot
