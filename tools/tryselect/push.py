@@ -1473,6 +1473,18 @@ force_old_lando
             
 )
             
+if
+not
+push_data
+:
+                
+sys
+.
+exit
+(
+1
+)
+            
 lando_instance
 =
 push_data
