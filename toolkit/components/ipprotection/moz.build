@@ -117,6 +117,15 @@ sys
 .
 mjs
 "
+"
+gpi
+/
+IPPGpiAuthProvider
+.
+sys
+.
+mjs
+"
 ]
 MOZ_SRC_FILES
 +
