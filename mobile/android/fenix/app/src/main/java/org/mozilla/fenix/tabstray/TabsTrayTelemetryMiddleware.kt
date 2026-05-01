@@ -384,7 +384,7 @@ action
 is
 TabsTrayAction
 .
-UpdateInactiveTabs
+TabDataUpdateReceived
 -
 >
 {
@@ -408,7 +408,9 @@ HasInactiveTabsExtra
 (
 action
 .
-tabs
+tabStorageUpdate
+.
+inactiveTabs
 .
 size
 )
@@ -421,7 +423,9 @@ set
 (
 action
 .
-tabs
+tabStorageUpdate
+.
+inactiveTabs
 .
 size
 .
