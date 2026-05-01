@@ -539,6 +539,17 @@ ResolvedLocale
 result
 )
 ;
+bool
+DefaultLocale
+(
+JSContext
+*
+cx
+LanguageId
+*
+result
+)
+;
 JSLinearString
 *
 DefaultCalendar
