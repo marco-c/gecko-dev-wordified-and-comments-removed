@@ -75,6 +75,9 @@ connector
 spawner_thread
 :
 None
+pid
+:
+0
 }
 )
 }

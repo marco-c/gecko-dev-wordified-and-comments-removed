@@ -170,6 +170,8 @@ c_int
 =
 1102
 ;
+unsafe
+{
 platform
 :
 :
@@ -177,6 +179,7 @@ daemonize
 (
 )
 ;
+}
 logging
 :
 :

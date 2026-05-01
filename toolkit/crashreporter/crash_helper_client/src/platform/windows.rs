@@ -250,6 +250,9 @@ Some
 (
 spawner_thread
 )
+pid
+:
+0
 }
 )
 }

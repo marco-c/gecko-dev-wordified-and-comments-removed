@@ -2,6 +2,7 @@ pub
 (
 crate
 )
+unsafe
 fn
 daemonize
 (
