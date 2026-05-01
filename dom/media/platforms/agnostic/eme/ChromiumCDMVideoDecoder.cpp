@@ -128,7 +128,10 @@ ChromiumCDMVideoDecoder
 default
 ;
 static
-uint32_t
+cdm
+:
+:
+VideoCodecProfile
 ToCDMH264Profile
 (
 uint8_t
@@ -236,7 +239,10 @@ kUnknownVideoCodecProfile
 ;
 }
 static
-uint32_t
+cdm
+:
+:
+VideoCodecProfile
 ToCDMAV1Profile
 (
 uint8_t
