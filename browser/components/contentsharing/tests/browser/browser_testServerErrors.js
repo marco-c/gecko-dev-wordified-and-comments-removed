@@ -76,7 +76,7 @@ Example
 }
 ;
 let
-shareUrl
+result
 =
 await
 ContentSharingUtils
@@ -90,7 +90,9 @@ Assert
 .
 equal
 (
-shareUrl
+result
+.
+url
 MOCK_SHARE_URL
 "
 Got
@@ -118,7 +120,7 @@ mockResponse
 {
 }
 ;
-shareUrl
+result
 =
 await
 ContentSharingUtils
@@ -132,7 +134,9 @@ Assert
 .
 strictEqual
 (
-shareUrl
+result
+.
+url
 undefined
 "
 The
@@ -267,7 +271,7 @@ url
 MOCK_SHARE_URL
 }
 ;
-shareUrl
+result
 =
 await
 promise
@@ -276,7 +280,9 @@ Assert
 .
 equal
 (
-shareUrl
+result
+.
+url
 MOCK_SHARE_URL
 "
 Got
