@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIStreamLoader
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -53,8 +46,6 @@ nsSound
 public
 nsISound
 public
-nsIStreamLoaderObserver
-public
 nsIObserver
 {
 public
@@ -74,7 +65,6 @@ GetInstance
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISOUND
-NS_DECL_NSISTREAMLOADEROBSERVER
 NS_DECL_NSIOBSERVER
 private
 :
