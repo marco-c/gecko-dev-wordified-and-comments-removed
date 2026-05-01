@@ -2681,6 +2681,13 @@ close
 (
 )
 ;
+BrowserTestUtils
+.
+removeTab
+(
+tab1
+)
+;
 }
 )
 ;
