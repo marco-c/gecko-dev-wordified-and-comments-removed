@@ -2457,6 +2457,11 @@ isFeatureEnabled
 settings
 .
 enableHomepageSportsWidget
+isCountdownWidgetVisible
+=
+settings
+.
+showHomepageCountdownWidget
 )
 val
 fxSuggest
