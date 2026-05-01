@@ -5538,7 +5538,7 @@ allocator
 masm
 )
 ;
-int32_t
+uint32_t
 nargsAndFlags
 =
 int32StubField
@@ -10051,7 +10051,7 @@ masm
 rhsId
 )
 ;
-int32_t
+uint32_t
 nargsAndFlags
 =
 int32StubField
