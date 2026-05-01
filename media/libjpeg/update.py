@@ -89,6 +89,7 @@ c
 JCONFIG_TEMPLATES
 =
 [
+    
 "
 src
 /
@@ -98,6 +99,7 @@ h
 .
 in
 "
+    
 "
 src
 /
@@ -107,6 +109,7 @@ h
 .
 in
 "
+    
 "
 src
 /
@@ -116,6 +119,7 @@ h
 .
 in
 "
+    
 "
 simd
 /
@@ -132,53 +136,64 @@ in
 ]
 KNOWN_NON_MOZ_BUILD_FILES
 =
-{
+(
     
+{
+        
 "
 CMakeLists
 .
 txt
 "
-    
+        
 "
 LICENSE
 .
 md
 "
+        
 "
 README
 .
 md
 "
+        
 "
 README
 .
 ijg
 "
+        
 "
 ChangeLog
 .
 md
 "
-    
+        
 "
 MOZCHANGES
 "
+        
 "
 update
 .
 py
 "
+        
 "
 mozilla
 .
 diff
 "
+    
 }
+    
 |
 UPSTREAM_SOURCES_NOT_BUILT
+    
 |
 C_FILES_INCLUDED_BY_OTHERS
+)
 def
 parse_cmake_var
 (
@@ -1040,6 +1055,7 @@ JPEG_SOURCES
 jpeg_sources
 =
 [
+        
 f
 for
 f
@@ -1055,6 +1071,7 @@ name
 not
 in
 UPSTREAM_SOURCES_NOT_BUILT
+    
 ]
     
 cmake_direct
@@ -1483,9 +1500,11 @@ rel
 capture_output
 =
 True
+            
 text
 =
 True
+            
 cwd
 =
 str
@@ -1515,9 +1534,11 @@ rel
 capture_output
 =
 True
+            
 text
 =
 True
+            
 cwd
 =
 str
@@ -1558,14 +1579,17 @@ run
 (
             
 [
+                
 "
 git
 "
+                
 "
 diff
 -
 tree
 "
+                
 "
 -
 -
@@ -1575,10 +1599,12 @@ commit
 -
 id
 "
+                
 "
 -
 r
 "
+                
 "
 -
 -
@@ -1586,22 +1612,28 @@ name
 -
 only
 "
+                
 "
 HEAD
 "
+                
 "
 -
 -
 "
+                
 rel
+            
 ]
             
 capture_output
 =
 True
+            
 text
 =
 True
+            
 cwd
 =
 str
@@ -1636,9 +1668,11 @@ rel
 capture_output
 =
 True
+            
 text
 =
 True
+            
 cwd
 =
 str
@@ -2631,6 +2665,7 @@ changed
 [
         
 fname
+        
 for
 fname
 in
@@ -2835,6 +2870,8 @@ hg
         
 flags
 =
+(
+            
 [
 "
 -
@@ -2855,11 +2892,11 @@ added
 removed
 "
 ]
+            
 if
 committed
+            
 else
-\
-                
 [
 "
 -
@@ -2882,6 +2919,8 @@ deleted
 unknown
 "
 ]
+        
+)
         
 result
 =
@@ -2908,9 +2947,11 @@ rel_vendor
 capture_output
 =
 True
+            
 text
 =
 True
+            
 cwd
 =
 str
@@ -3008,14 +3049,17 @@ run
 (
                 
 [
+                    
 "
 git
 "
+                    
 "
 diff
 -
 tree
 "
+                    
 "
 -
 -
@@ -3025,10 +3069,12 @@ commit
 -
 id
 "
+                    
 "
 -
 r
 "
+                    
 "
 -
 -
@@ -3036,7 +3082,7 @@ name
 -
 status
 "
-                 
+                    
 "
 -
 -
@@ -3046,22 +3092,28 @@ filter
 =
 AD
 "
+                    
 "
 HEAD
 "
+                    
 "
 -
 -
 "
+                    
 rel_vendor
+                
 ]
                 
 capture_output
 =
 True
+                
 text
 =
 True
+                
 cwd
 =
 str
@@ -3172,9 +3224,11 @@ rel_vendor
 capture_output
 =
 True
+                
 text
 =
 True
+                
 cwd
 =
 str
@@ -3514,9 +3568,11 @@ uncommitted_removed
 =
 _get_uncommitted_changes
 (
+        
 vcs
 root
 rel_vendor
+    
 )
     
 ok
@@ -3625,6 +3681,7 @@ still_in_moz_build
 [
             
 f
+            
 for
 f
 in
@@ -3661,6 +3718,7 @@ False
             
 print
 (
+                
 "
 \
 nUnhandled
@@ -3678,6 +3736,7 @@ commit
 )
 :
 "
+            
 )
             
 for
@@ -3813,6 +3872,7 @@ in
             
 print
 (
+                
 "
 the
 tree
@@ -3835,6 +3895,7 @@ file
 )
 .
 "
+            
 )
             
 print
@@ -3862,6 +3923,7 @@ else
             
 print
 (
+                
 "
 \
 nFile
@@ -3880,6 +3942,7 @@ handled
 )
 :
 "
+            
 )
             
 for
@@ -3943,6 +4006,7 @@ tags
         
 print
 (
+            
 "
 git
 -
@@ -3975,6 +4039,7 @@ OLD_TAG
 .
 NEW_TAG
 "
+        
 )
         
 if
@@ -4021,6 +4086,7 @@ NEW_NAME
             
 print
 (
+                
 "
 (
 The
@@ -4041,6 +4107,7 @@ it
 .
 )
 "
+            
 )
         
 else
