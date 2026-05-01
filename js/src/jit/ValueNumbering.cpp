@@ -901,7 +901,7 @@ if
 (
 BlockHasInterestingDefs
 (
-block
+i
 )
 )
 {
