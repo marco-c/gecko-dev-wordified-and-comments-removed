@@ -2502,6 +2502,16 @@ bs
 .
 findBackupsInWellKnownLocations
 (
+{
+validateFile
+:
+true
+source
+:
+"
+onboarding
+"
+}
 )
 ;
 }
