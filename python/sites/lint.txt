@@ -277,6 +277,13 @@ third_party
 /
 python
 /
+diskarzhan
+vendored
+:
+third_party
+/
+python
+/
 esprima
 vendored
 :
