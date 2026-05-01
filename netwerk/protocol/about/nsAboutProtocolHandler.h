@@ -157,8 +157,9 @@ aBaseURI
 nsNestedAboutURI
 (
 )
-{
-}
+=
+default
+;
 virtual
 ~
 nsNestedAboutURI

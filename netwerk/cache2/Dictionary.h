@@ -831,8 +831,9 @@ NS_DECL_NSISTREAMLISTENER
 DictionaryOriginReader
 (
 )
-{
-}
+=
+default
+;
 void
 Start
 (
@@ -880,8 +881,9 @@ private
 DictionaryOriginReader
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 DictionaryOrigin
@@ -1087,8 +1089,9 @@ virtual
 DictionaryOrigin
 (
 )
-{
-}
+=
+default
+;
 nsCString
 mOrigin
 ;
@@ -1162,8 +1165,9 @@ rv
 DictionaryCache
 (
 )
-{
-}
+=
+default
+;
 friend
 class
 DictionaryOriginReader

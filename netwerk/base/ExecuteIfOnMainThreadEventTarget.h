@@ -29,8 +29,9 @@ public
 ExecuteIfOnMainThreadEventTarget
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIEVENTTARGET
 NS_DECL_NSISERIALEVENTTARGET
