@@ -15629,6 +15629,15 @@ this
 windowMode
 }
 )
+.
+catch
+(
+lazy
+.
+logger
+.
+error
+)
 ;
 this
 .
