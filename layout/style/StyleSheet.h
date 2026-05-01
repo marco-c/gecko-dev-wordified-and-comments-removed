@@ -2226,11 +2226,6 @@ DropMedia
 )
 ;
 void
-UpdateRelevantGlobal
-(
-)
-;
-void
 UnlinkInner
 (
 )
@@ -2257,12 +2252,6 @@ aRule
 StyleSheet
 *
 mParentSheet
-;
-nsCOMPtr
-<
-nsIGlobalObject
->
-mRelevantGlobal
 ;
 RefPtr
 <
