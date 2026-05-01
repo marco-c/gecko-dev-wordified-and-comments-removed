@@ -104,12 +104,3 @@ scheme
 "
 https
 "
-skip
--
-if
-=
-[
-"
-xorigin
-"
-]
