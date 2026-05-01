@@ -700,6 +700,12 @@ checkBrowserUserChoiceHashes
 :
 boolean
 ;
+checkCurrentProcessAUMIDForTesting
+(
+)
+:
+string
+;
 isDefaultHandlerFor
 (
 aFileExtensionOrProtocol
@@ -1313,10 +1319,10 @@ boolean
 ;
 shareUrl
 (
-shareTitle
+urlToShare
 :
 string
-urlToShare
+shareTitle
 :
 string
 )

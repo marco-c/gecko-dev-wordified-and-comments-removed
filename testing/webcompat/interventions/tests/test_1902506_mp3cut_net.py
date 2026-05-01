@@ -56,6 +56,8 @@ url
 "
 AUDIO_FILE_URL
 =
+(
+    
 "
 https
 :
@@ -65,9 +67,9 @@ searchfox
 .
 org
 /
-mozilla
+firefox
 -
-central
+main
 /
 source
 /
@@ -83,6 +85,7 @@ audio
 .
 wav
 "
+)
 TEMPO_MENU_CSS
 =
 "
@@ -198,7 +201,7 @@ _
 in
 range
 (
-5
+10
 )
 :
         

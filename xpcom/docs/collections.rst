@@ -900,9 +900,9 @@ searchfox
 .
 org
 /
-mozilla
+firefox
 -
-central
+main
 /
 source
 /
@@ -1128,9 +1128,9 @@ searchfox
 .
 org
 /
-mozilla
+firefox
 -
-central
+main
 /
 source
 /

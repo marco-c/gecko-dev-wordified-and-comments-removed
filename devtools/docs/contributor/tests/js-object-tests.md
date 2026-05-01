@@ -91,7 +91,7 @@ a
 manifest
 file
 [
-AllJavaScriptTypes
+AllJavascriptTypes
 .
 mjs
 ]
@@ -104,9 +104,9 @@ searchfox
 .
 org
 /
-mozilla
+firefox
 -
-central
+main
 /
 source
 /
@@ -118,7 +118,7 @@ tests
 /
 objects
 /
-AllJavaScriptTypes
+AllJavascriptTypes
 .
 mjs
 )
@@ -152,9 +152,9 @@ searchfox
 .
 org
 /
-mozilla
+firefox
 -
-central
+main
 /
 source
 /
@@ -524,7 +524,7 @@ be
 one
 of
 [
-AllJavaScriptTypes
+AllJavascriptTypes
 .
 mjs
 ]
@@ -537,9 +537,9 @@ searchfox
 .
 org
 /
-mozilla
+firefox
 -
-central
+main
 /
 source
 /
@@ -551,7 +551,7 @@ tests
 /
 objects
 /
-AllJavaScriptTypes
+AllJavascriptTypes
 .
 mjs
 )
@@ -1086,7 +1086,7 @@ the
 current
 folder
 :
-AllJavaScriptTypes
+AllJavascriptTypes
 .
 mjs
 .

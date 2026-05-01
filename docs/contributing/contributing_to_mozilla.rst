@@ -490,9 +490,9 @@ searchfox
 .
 org
 /
-mozilla
+firefox
 -
-central
+main
 /
 source
 /
