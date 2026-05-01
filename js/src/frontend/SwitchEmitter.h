@@ -148,6 +148,14 @@ BytecodeEmitter
 *
 bce_
 ;
+using
+BitArray
+=
+ExternalBitArray
+<
+size_t
+>
+;
 mozilla
 :
 :
