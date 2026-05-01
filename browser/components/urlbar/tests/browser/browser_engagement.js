@@ -721,6 +721,11 @@ element
 =
 element
 ;
+delete
+details
+.
+event
+;
 Assert
 .
 deepEqual

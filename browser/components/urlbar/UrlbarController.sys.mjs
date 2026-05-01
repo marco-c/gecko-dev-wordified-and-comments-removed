@@ -6826,6 +6826,7 @@ internalDetails
 .
 .
 details
+event
 provider
 :
 details
