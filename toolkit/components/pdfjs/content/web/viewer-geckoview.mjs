@@ -172,11 +172,11 @@ pdfjsVersion
 .
 7
 .
-288
+313
 *
 pdfjsBuild
 =
-a1b7d0feb
+34c3ee16f
 *
 /
 /
@@ -53132,7 +53132,7 @@ viewerVersion
 .
 7
 .
-288
+313
 "
 ;
 if
