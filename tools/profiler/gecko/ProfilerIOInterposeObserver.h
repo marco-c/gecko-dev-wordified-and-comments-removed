@@ -66,8 +66,9 @@ virtual
 ProfilerIOInterposeObserver
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }
