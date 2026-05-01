@@ -30,6 +30,16 @@ minSpecVersion
 "
 >
 <
+title
+>
+{
+app_name
+}
+<
+/
+title
+>
+<
 pkg
 -
 ref
