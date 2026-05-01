@@ -143,6 +143,7 @@ string
 .
 *
 /
+suspend
 operator
 fun
 invoke
@@ -159,7 +160,7 @@ Boolean
 =
 false
 )
-{
+=
 storage
 .
 addTopSite
@@ -168,7 +169,6 @@ title
 url
 isDefault
 )
-}
 }
 /
 *
@@ -216,6 +216,7 @@ site
 .
 *
 /
+suspend
 operator
 fun
 invoke
@@ -224,14 +225,13 @@ topSite
 :
 TopSite
 )
-{
+=
 storage
 .
 removeTopSite
 (
 topSite
 )
-}
 }
 /
 *
@@ -301,6 +301,7 @@ site
 .
 *
 /
+suspend
 operator
 fun
 invoke
@@ -315,7 +316,7 @@ url
 :
 String
 )
-{
+=
 storage
 .
 updateTopSite
@@ -324,7 +325,6 @@ topSite
 title
 url
 )
-}
 }
 val
 addPinnedSites

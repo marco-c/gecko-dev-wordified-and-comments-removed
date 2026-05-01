@@ -184,7 +184,6 @@ defaultTopSitesStorage
 DefaultTopSitesStorage
 (
 pinnedSitesStorage
-coroutineContext
 )
 defaultTopSitesStorage
 .
@@ -205,11 +204,6 @@ com
 isDefault
 =
 false
-)
-testScheduler
-.
-advanceUntilIdle
-(
 )
 verify
 (
@@ -261,7 +255,6 @@ defaultTopSitesStorage
 DefaultTopSitesStorage
 (
 pinnedSitesStorage
-coroutineContext
 )
 val
 pinnedSite
@@ -299,11 +292,6 @@ removeTopSite
 (
 pinnedSite
 )
-testScheduler
-.
-advanceUntilIdle
-(
-)
 verify
 (
 pinnedSitesStorage
@@ -340,7 +328,6 @@ defaultTopSitesStorage
 DefaultTopSitesStorage
 (
 pinnedSitesStorage
-coroutineContext
 )
 val
 pinnedSite
@@ -396,11 +383,6 @@ wiki
 Wiki
 "
 )
-testScheduler
-.
-advanceUntilIdle
-(
-)
 verify
 (
 pinnedSitesStorage
@@ -453,7 +435,6 @@ defaultTopSitesStorage
 DefaultTopSitesStorage
 (
 pinnedSitesStorage
-coroutineContext
 )
 val
 pinnedSite1

@@ -79,6 +79,12 @@ io
 .
 mockk
 .
+coVerify
+import
+io
+.
+mockk
+.
 every
 import
 io
@@ -411,7 +417,7 @@ RegionState
 Default
 )
 )
-verify
+coVerify
 (
 exactly
 =
@@ -524,7 +530,7 @@ scheduler
 advanceUntilIdle
 (
 )
-verify
+coVerify
 {
 topSitesStorage
 .
@@ -635,7 +641,7 @@ scheduler
 advanceUntilIdle
 (
 )
-verify
+coVerify
 {
 topSitesStorage
 .
@@ -730,7 +736,7 @@ region
 )
 )
 )
-verify
+coVerify
 (
 exactly
 =
@@ -2026,7 +2032,7 @@ SerializationException
 )
 )
 }
-verify
+coVerify
 (
 exactly
 =
@@ -2166,7 +2172,7 @@ SerializationException
 )
 )
 }
-verify
+coVerify
 (
 exactly
 =

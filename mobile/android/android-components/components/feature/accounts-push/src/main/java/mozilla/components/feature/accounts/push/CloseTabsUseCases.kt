@@ -67,12 +67,6 @@ accounts
 .
 push
 import
-androidx
-.
-annotation
-.
-WorkerThread
-import
 mozilla
 .
 components
@@ -267,7 +261,6 @@ operation
 .
 *
 /
-WorkerThread
 suspend
 fun
 close
@@ -338,7 +331,6 @@ operation
 .
 *
 /
-WorkerThread
 suspend
 fun
 undo

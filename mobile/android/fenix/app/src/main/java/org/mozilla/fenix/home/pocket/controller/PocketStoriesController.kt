@@ -85,12 +85,6 @@ kotlinx
 .
 coroutines
 .
-Dispatchers
-import
-kotlinx
-.
-coroutines
-.
 launch
 import
 mozilla
@@ -899,11 +893,6 @@ toString
 viewLifecycleScope
 .
 launch
-(
-Dispatchers
-.
-IO
-)
 {
 marsUseCases
 .
@@ -1471,11 +1460,6 @@ toString
 viewLifecycleScope
 .
 launch
-(
-Dispatchers
-.
-IO
-)
 {
 marsUseCases
 .

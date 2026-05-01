@@ -178,6 +178,7 @@ application
 .
 *
 /
+suspend
 fun
 addTopSite
 (
@@ -257,6 +258,7 @@ application
 .
 *
 /
+suspend
 fun
 addTopSites
 (
@@ -297,6 +299,7 @@ site
 .
 *
 /
+suspend
 fun
 removeTopSite
 (
@@ -347,6 +350,7 @@ site
 .
 *
 /
+suspend
 fun
 updateTopSite
 (

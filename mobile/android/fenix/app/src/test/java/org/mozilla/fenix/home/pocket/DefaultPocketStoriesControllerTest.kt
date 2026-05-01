@@ -2929,6 +2929,11 @@ Triple
 4
 )
 )
+testScheduler
+.
+advanceUntilIdle
+(
+)
 assertEquals
 (
 1
@@ -3571,6 +3576,7 @@ actionHomeFragmentToStoriesFragment
 )
 }
 }
+Test
 fun
 WHEN
 screen

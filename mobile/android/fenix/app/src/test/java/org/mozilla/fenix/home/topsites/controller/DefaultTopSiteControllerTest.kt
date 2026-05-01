@@ -4523,7 +4523,7 @@ handleSelectTopSite
 topSite
 position
 )
-verify
+coVerify
 {
 marsUseCases
 .
@@ -5156,7 +5156,7 @@ handleTopSiteImpression
 topSite
 position
 )
-verify
+coVerify
 {
 marsUseCases
 .
@@ -5839,7 +5839,7 @@ url
 =
 url
 )
-verify
+coVerify
 {
 topSitesUseCases
 .
@@ -5940,7 +5940,7 @@ url
 =
 url
 )
-verify
+coVerify
 {
 topSitesUseCases
 .

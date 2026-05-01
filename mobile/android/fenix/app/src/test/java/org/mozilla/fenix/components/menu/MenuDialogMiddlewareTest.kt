@@ -3062,7 +3062,7 @@ testScheduler
 advanceUntilIdle
 (
 )
-verify
+coVerify
 {
 addPinnedSiteUseCase
 .
@@ -3269,7 +3269,7 @@ testScheduler
 advanceUntilIdle
 (
 )
-verify
+coVerify
 (
 exactly
 =
@@ -3465,7 +3465,7 @@ testScheduler
 advanceUntilIdle
 (
 )
-verify
+coVerify
 (
 exactly
 =
@@ -3650,7 +3650,7 @@ testScheduler
 advanceUntilIdle
 (
 )
-verify
+coVerify
 {
 removePinnedSiteUseCase
 .
@@ -3903,7 +3903,7 @@ testScheduler
 advanceUntilIdle
 (
 )
-verify
+coVerify
 (
 exactly
 =

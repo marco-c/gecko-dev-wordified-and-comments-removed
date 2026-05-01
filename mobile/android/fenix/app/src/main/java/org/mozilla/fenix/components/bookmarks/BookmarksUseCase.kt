@@ -67,12 +67,6 @@ components
 .
 bookmarks
 import
-androidx
-.
-annotation
-.
-WorkerThread
-import
 mozilla
 .
 appservices
@@ -250,7 +244,6 @@ exists
 .
 *
 /
-WorkerThread
 suspend
 operator
 fun
@@ -499,7 +492,6 @@ count
 .
 *
 /
-WorkerThread
 suspend
 operator
 fun
