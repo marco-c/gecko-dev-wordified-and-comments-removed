@@ -954,8 +954,6 @@ KeyValueDatabase
 KeyValueError
 >
 {
-Ok
-(
 KeyValueDatabase
 :
 :
@@ -967,8 +965,6 @@ result
 result
 .
 1
-)
-?
 )
 }
 }
