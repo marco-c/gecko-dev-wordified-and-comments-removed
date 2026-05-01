@@ -183,8 +183,9 @@ virtual
 AnimationFrameBuffer
 (
 )
-{
-}
+=
+default
+;
 bool
 MayDiscard
 (

@@ -213,8 +213,9 @@ virtual
 ImageWrapper
 (
 )
-{
-}
+=
+default
+;
 Image
 *
 InnerImage

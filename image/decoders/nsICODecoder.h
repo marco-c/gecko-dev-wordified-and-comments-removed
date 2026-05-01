@@ -105,8 +105,9 @@ virtual
 nsICODecoder
 (
 )
-{
-}
+=
+default
+;
 size_t
 FirstResourceOffset
 (

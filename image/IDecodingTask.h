@@ -112,8 +112,9 @@ virtual
 IDecodingTask
 (
 )
-{
-}
+=
+default
+;
 void
 NotifyProgress
 (
@@ -213,8 +214,9 @@ virtual
 MetadataDecodingTask
 (
 )
-{
-}
+=
+default
+;
 Mutex
 mMutex
 MOZ_UNANNOTATED
@@ -300,8 +302,9 @@ virtual
 AnonymousDecodingTask
 (
 )
-{
-}
+=
+default
+;
 NotNull
 <
 RefPtr

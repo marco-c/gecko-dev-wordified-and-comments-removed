@@ -328,8 +328,9 @@ virtual
 FrozenImage
 (
 )
-{
-}
+=
+default
+;
 private
 :
 friend

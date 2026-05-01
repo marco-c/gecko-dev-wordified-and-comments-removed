@@ -221,8 +221,9 @@ virtual
 DynamicImage
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 gfxDrawable
