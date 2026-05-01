@@ -77,7 +77,7 @@ import
 "
 .
 /
-GuardianClient
+GuardianTypes
 .
 sys
 .
@@ -96,7 +96,7 @@ import
 "
 .
 /
-GuardianClient
+GuardianTypes
 .
 sys
 .
@@ -197,7 +197,7 @@ components
 /
 ipprotection
 /
-GuardianClient
+GuardianTypes
 .
 sys
 .
@@ -219,7 +219,7 @@ components
 /
 ipprotection
 /
-GuardianClient
+GuardianTypes
 .
 sys
 .
