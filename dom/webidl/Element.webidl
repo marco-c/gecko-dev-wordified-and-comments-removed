@@ -2003,7 +2003,7 @@ shadowRootInitDict
 BinaryName
 =
 "
-shadowRootByMode
+shadowRootForBindings
 "
 ]
 readonly
@@ -2013,6 +2013,7 @@ ShadowRoot
 shadowRoot
 ;
 [
+NeedsSubjectPrincipal
 Func
 =
 "
@@ -2020,11 +2021,6 @@ Document
 :
 :
 IsCallerChromeOrAddon
-"
-BinaryName
-=
-"
-shadowRoot
 "
 ]
 readonly
@@ -2255,6 +2251,7 @@ Element
 [
 NewObject
 NeedsCallerType
+UseCounter
 ]
 Promise
 <
