@@ -381,10 +381,7 @@ sFontRegistrationThread
 =
 nullptr
 ;
-gfxPlatformMac
-:
-:
-SupplementalFontThread
+void
 gfxPlatformMac
 :
 :
@@ -416,11 +413,6 @@ PR_JOINABLE_THREAD
 )
 ;
 }
-return
-SupplementalFontThread
-(
-)
-;
 }
 void
 gfxPlatformMac
