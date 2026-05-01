@@ -422,6 +422,9 @@ toUri
 )
 )
 {
+verifyTabCrashReporterView
+(
+)
 clickPageObject
 (
 composeTestRule
