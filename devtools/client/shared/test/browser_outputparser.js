@@ -10835,7 +10835,7 @@ color
 mix
 (
 in
-sgrb
+srgb
 var
 (
 -
@@ -10865,7 +10865,7 @@ color
 mix
 (
 in
-sgrb
+srgb
 +
 <
 span
