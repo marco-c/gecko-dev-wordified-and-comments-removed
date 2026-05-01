@@ -82,6 +82,25 @@ BITS_IN_JSAMPLE
 ]
 =
 12
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+media
+/
+libjpeg
+'
+'
+/
+media
+/
+libjpeg
+/
+src
+'
+]
 #
 From
 JPEG12_SOURCES
@@ -99,6 +118,8 @@ SOURCES
 .
 .
 /
+src
+/
 jcapistd
 .
 c
@@ -106,6 +127,8 @@ c
 '
 .
 .
+/
+src
 /
 jccoefct
 .
@@ -115,6 +138,8 @@ c
 .
 .
 /
+src
+/
 jccolor
 .
 c
@@ -122,6 +147,8 @@ c
 '
 .
 .
+/
+src
 /
 jcdctmgr
 .
@@ -131,6 +158,8 @@ c
 .
 .
 /
+src
+/
 jcdiffct
 .
 c
@@ -138,6 +167,8 @@ c
 '
 .
 .
+/
+src
 /
 jclossls
 .
@@ -147,6 +178,8 @@ c
 .
 .
 /
+src
+/
 jcmainct
 .
 c
@@ -154,6 +187,8 @@ c
 '
 .
 .
+/
+src
 /
 jcprepct
 .
@@ -163,6 +198,8 @@ c
 .
 .
 /
+src
+/
 jcsample
 .
 c
@@ -170,6 +207,8 @@ c
 '
 .
 .
+/
+src
 /
 jdapistd
 .
@@ -179,6 +218,8 @@ c
 .
 .
 /
+src
+/
 jdcoefct
 .
 c
@@ -186,6 +227,8 @@ c
 '
 .
 .
+/
+src
 /
 jdcolor
 .
@@ -195,6 +238,8 @@ c
 .
 .
 /
+src
+/
 jddctmgr
 .
 c
@@ -202,6 +247,8 @@ c
 '
 .
 .
+/
+src
 /
 jddiffct
 .
@@ -211,6 +258,8 @@ c
 .
 .
 /
+src
+/
 jdlossls
 .
 c
@@ -218,6 +267,8 @@ c
 '
 .
 .
+/
+src
 /
 jdmainct
 .
@@ -227,6 +278,8 @@ c
 .
 .
 /
+src
+/
 jdmerge
 .
 c
@@ -234,6 +287,8 @@ c
 '
 .
 .
+/
+src
 /
 jdpostct
 .
@@ -243,6 +298,8 @@ c
 .
 .
 /
+src
+/
 jdsample
 .
 c
@@ -250,6 +307,8 @@ c
 '
 .
 .
+/
+src
 /
 jfdctfst
 .
@@ -259,6 +318,8 @@ c
 .
 .
 /
+src
+/
 jfdctint
 .
 c
@@ -266,6 +327,8 @@ c
 '
 .
 .
+/
+src
 /
 jidctflt
 .
@@ -275,6 +338,8 @@ c
 .
 .
 /
+src
+/
 jidctfst
 .
 c
@@ -282,6 +347,8 @@ c
 '
 .
 .
+/
+src
 /
 jidctint
 .
@@ -291,6 +358,8 @@ c
 .
 .
 /
+src
+/
 jidctred
 .
 c
@@ -298,6 +367,8 @@ c
 '
 .
 .
+/
+src
 /
 jquant1
 .
@@ -307,6 +378,8 @@ c
 .
 .
 /
+src
+/
 jquant2
 .
 c
@@ -314,6 +387,8 @@ c
 '
 .
 .
+/
+src
 /
 jutils
 .

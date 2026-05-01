@@ -4,10 +4,14 @@ diff
 git
 a
 /
+src
+/
 jmorecfg
 .
 h
 b
+/
+src
 /
 jmorecfg
 .
@@ -17,6 +21,8 @@ h
 -
 a
 /
+src
+/
 jmorecfg
 .
 h
@@ -24,6 +30,8 @@ h
 +
 +
 b
+/
+src
 /
 jmorecfg
 .

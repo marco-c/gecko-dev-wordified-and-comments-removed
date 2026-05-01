@@ -82,6 +82,25 @@ BITS_IN_JSAMPLE
 ]
 =
 16
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+media
+/
+libjpeg
+'
+'
+/
+media
+/
+libjpeg
+/
+src
+'
+]
 #
 From
 JPEG16_SOURCES
@@ -99,6 +118,8 @@ SOURCES
 .
 .
 /
+src
+/
 jcapistd
 .
 c
@@ -106,6 +127,8 @@ c
 '
 .
 .
+/
+src
 /
 jccolor
 .
@@ -115,6 +138,8 @@ c
 .
 .
 /
+src
+/
 jcdiffct
 .
 c
@@ -122,6 +147,8 @@ c
 '
 .
 .
+/
+src
 /
 jclossls
 .
@@ -131,6 +158,8 @@ c
 .
 .
 /
+src
+/
 jcmainct
 .
 c
@@ -138,6 +167,8 @@ c
 '
 .
 .
+/
+src
 /
 jcprepct
 .
@@ -147,6 +178,8 @@ c
 .
 .
 /
+src
+/
 jcsample
 .
 c
@@ -154,6 +187,8 @@ c
 '
 .
 .
+/
+src
 /
 jdapistd
 .
@@ -163,6 +198,8 @@ c
 .
 .
 /
+src
+/
 jdcolor
 .
 c
@@ -170,6 +207,8 @@ c
 '
 .
 .
+/
+src
 /
 jddiffct
 .
@@ -179,6 +218,8 @@ c
 .
 .
 /
+src
+/
 jdlossls
 .
 c
@@ -186,6 +227,8 @@ c
 '
 .
 .
+/
+src
 /
 jdmainct
 .
@@ -195,6 +238,8 @@ c
 .
 .
 /
+src
+/
 jdpostct
 .
 c
@@ -203,6 +248,8 @@ c
 .
 .
 /
+src
+/
 jdsample
 .
 c
@@ -210,6 +257,8 @@ c
 '
 .
 .
+/
+src
 /
 jutils
 .
