@@ -88,3 +88,13 @@ add_task
 test_inner_connection_fallback
 )
 ;
+add_task
+(
+test_http_connect_only
+)
+;
+add_task
+(
+test_https_connect_only
+)
+;
