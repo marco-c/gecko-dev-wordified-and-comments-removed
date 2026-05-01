@@ -3,7 +3,6 @@ super
 :
 :
 {
-finalize_crash_report
 BreakpadProcessId
 CrashGenerator
 }
@@ -143,6 +142,7 @@ fn
 generate_wer_minidump
 (
 &
+mut
 self
 message
 :
@@ -330,6 +330,8 @@ pid
 handle
 }
 ;
+self
+.
 finalize_crash_report
 (
 process_id
@@ -421,7 +423,7 @@ create_dir_all
 &
 self
 .
-_minidump_path
+minidump_path
 )
 .
 map_err
@@ -474,7 +476,7 @@ from
 (
 self
 .
-_minidump_path
+minidump_path
 .
 clone
 (
