@@ -9,7 +9,7 @@ pub
 crate
 )
 type
-PlatformData
+NativeProcessHandle
 =
 SendRight
 ;

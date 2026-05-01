@@ -57,16 +57,6 @@ sync
 Mutex
 }
 ;
-pub
-(
-crate
-)
-type
-PlatformData
-=
-(
-)
-;
 static
 AUXV_INFO_MAP
 :

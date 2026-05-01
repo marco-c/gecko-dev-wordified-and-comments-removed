@@ -24,6 +24,7 @@ IPCChannel
 IPCConnector
 IPCListener
 Pid
+ProcessHandle
 }
 ;
 use
@@ -275,7 +276,7 @@ IPCListener
 >
 Result
 <
-OwnedHandle
+ProcessHandle
 >
 {
 let
@@ -566,6 +567,8 @@ hThread
 }
 Ok
 (
+ProcessHandle
+(
 unsafe
 {
 OwnedHandle
@@ -580,6 +583,7 @@ as
 RawHandle
 )
 }
+)
 )
 }
 pub
