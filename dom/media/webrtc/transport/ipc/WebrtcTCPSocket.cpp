@@ -1319,6 +1319,14 @@ mProxyType
 "
 https
 "
+|
+|
+mProxyType
+=
+=
+"
+masque
+"
 )
 {
 rv

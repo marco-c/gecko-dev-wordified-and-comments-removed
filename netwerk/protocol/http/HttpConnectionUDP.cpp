@@ -4247,6 +4247,13 @@ DoNotRemoveAltSvc
 aHttpTransaction
 -
 >
+MakeRestartable
+(
+)
+;
+aHttpTransaction
+-
+>
 Close
 (
 NS_ERROR_NET_RESET

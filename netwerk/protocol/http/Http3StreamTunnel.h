@@ -428,6 +428,16 @@ countWritten
 )
 override
 ;
+bool
+Closed
+(
+)
+const
+{
+return
+mClosed
+;
+}
 private
 :
 virtual
