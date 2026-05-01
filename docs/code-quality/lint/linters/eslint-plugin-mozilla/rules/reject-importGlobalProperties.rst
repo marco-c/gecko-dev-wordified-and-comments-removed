@@ -93,6 +93,9 @@ then
 consider
 extending
 the
+:
+searchfox
+:
 list
 of
 globals
@@ -102,14 +105,6 @@ the
 httpd
 server
 <
-https
-:
-/
-/
-searchfox
-.
-org
-/
 mozilla
 -
 central
@@ -117,7 +112,7 @@ central
 rev
 /
 e9b338c2d597067f99e96d5f20769f41f312fa8f
-/
+:
 netwerk
 /
 test
@@ -134,7 +129,6 @@ mjs
 -
 2889
 >
-_
 .
 Options
 -

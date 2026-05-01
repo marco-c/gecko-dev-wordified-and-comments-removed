@@ -3687,16 +3687,11 @@ are
 described
 in
 its
+:
+searchfox
+:
 documentation
 <
-https
-:
-/
-/
-searchfox
-.
-org
-/
 mozilla
 -
 central
@@ -3704,7 +3699,7 @@ central
 rev
 /
 4df8821c1b824db5f40f381f48432f219d99ae36
-/
+:
 mfbt
 /
 AlreadyAddRefed
@@ -3713,7 +3708,6 @@ h
 #
 31
 >
-_
 .
 Prefer
 using

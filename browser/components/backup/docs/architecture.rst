@@ -61,6 +61,9 @@ sys
 mjs
 which
 is
+:
+searchfox
+:
 invoked
 and
 initialized
@@ -72,14 +75,6 @@ idle
 tasks
 list
 <
-https
-:
-/
-/
-searchfox
-.
-org
-/
 mozilla
 -
 central
@@ -87,7 +82,7 @@ central
 rev
 /
 97feebcab27f1a92e70ceacaa77211e9eaba0e6e
-/
+:
 browser
 /
 components
@@ -102,7 +97,6 @@ mjs
 -
 2470
 >
-__
 The
 BackupService
 manages

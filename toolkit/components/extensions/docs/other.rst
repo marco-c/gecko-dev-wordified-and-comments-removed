@@ -1057,14 +1057,9 @@ onChange
 [
 1
 ]
-https
 :
-/
-/
 searchfox
-.
-org
-/
+:
 mozilla
 -
 central
@@ -1072,7 +1067,7 @@ central
 rev
 /
 04d8e7629354bab9e6a285183e763410860c5006
-/
+:
 toolkit
 /
 components
