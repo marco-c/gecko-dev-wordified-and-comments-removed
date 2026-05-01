@@ -4671,6 +4671,7 @@ rust_features_flag
 -
 -
 features
+'
 (
 addsuffix
 (
@@ -4687,6 +4688,7 @@ central
 workspace
 -
 hack
+'
 ifeq
 (
 WASI
@@ -5141,6 +5143,7 @@ rust_test_features_flag
 -
 -
 features
+'
 (
 addsuffix
 (
@@ -5157,6 +5160,7 @@ central
 workspace
 -
 hack
+'
 #
 Don
 '
@@ -5221,6 +5225,7 @@ host_rust_features_flag
 -
 -
 features
+'
 (
 addsuffix
 (
@@ -5237,6 +5242,7 @@ central
 workspace
 -
 hack
+'
 force
 -
 cargo
@@ -5384,6 +5390,7 @@ program_features_flag
 -
 -
 features
+'
 (
 addsuffix
 (
@@ -5400,6 +5407,7 @@ central
 workspace
 -
 hack
+'
 force
 -
 cargo
@@ -5566,6 +5574,7 @@ host_program_features_flag
 -
 -
 features
+'
 (
 addsuffix
 (
@@ -5582,6 +5591,7 @@ central
 workspace
 -
 hack
+'
 force
 -
 cargo

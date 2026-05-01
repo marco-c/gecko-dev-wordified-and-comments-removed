@@ -1301,6 +1301,13 @@ extend
 "
 -
 -
+keep
+-
+going
+"
+"
+-
+-
 message
 -
 format
@@ -1317,6 +1324,20 @@ get_clippy_driver_flags
 config
 )
     
+flags
+=
+[
+"
+-
+W
+"
+"
+warnings
+"
+]
++
+driver_flags
+    
 env
 =
 os
@@ -1327,10 +1348,6 @@ copy
 (
 )
     
-if
-driver_flags
-:
-        
 env
 [
 "
@@ -1343,7 +1360,7 @@ extra_rustflags
 .
 join
 (
-driver_flags
+flags
 )
     
 log
