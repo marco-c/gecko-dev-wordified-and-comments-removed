@@ -3288,6 +3288,11 @@ parentNode
 _placesNode
 )
 ]
+event
+.
+currentTarget
+.
+ownerGlobal
 )
 ;
 }
