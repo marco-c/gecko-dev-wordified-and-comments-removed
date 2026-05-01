@@ -855,6 +855,10 @@ ConnectionEntry
 *
 uint32_t
 caps
+bool
+forInnerConn
+=
+false
 )
 ;
 [
