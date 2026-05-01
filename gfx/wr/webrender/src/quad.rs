@@ -3497,6 +3497,8 @@ unwrap
 ;
 scratch
 .
+frame
+.
 quad_direct_segments
 .
 clear
@@ -3504,6 +3506,8 @@ clear
 )
 ;
 scratch
+.
+frame
 .
 quad_indirect_segments
 .
@@ -3830,6 +3834,8 @@ frame_state
 ;
 scratch
 .
+frame
+.
 quad_indirect_segments
 .
 push
@@ -3855,6 +3861,8 @@ task_id
 else
 {
 scratch
+.
+frame
 .
 quad_direct_segments
 .
@@ -3891,6 +3899,8 @@ if
 !
 scratch
 .
+frame
+.
 quad_direct_segments
 .
 is_empty
@@ -3918,6 +3928,8 @@ targets
 &
 scratch
 .
+frame
+.
 quad_direct_segments
 )
 ;
@@ -3925,6 +3937,8 @@ quad_direct_segments
 if
 !
 scratch
+.
+frame
 .
 quad_indirect_segments
 .
@@ -3944,6 +3958,8 @@ frame_state
 targets
 &
 scratch
+.
+frame
 .
 quad_indirect_segments
 )
@@ -4073,6 +4089,8 @@ is_2d_scale_offset
 ;
 scratch
 .
+retained
+.
 quad_tile_classifier
 .
 reset
@@ -4192,6 +4210,8 @@ None
 {
 scratch
 .
+retained
+.
 quad_tile_classifier
 .
 add_mask_region
@@ -4235,6 +4255,8 @@ clip_rect
 )
 ;
 scratch
+.
+retained
 .
 quad_tile_classifier
 .
@@ -4471,6 +4493,8 @@ r_bl
 ;
 scratch
 .
+retained
+.
 quad_tile_classifier
 .
 add_clip_rect
@@ -4484,6 +4508,8 @@ Clip
 ;
 scratch
 .
+retained
+.
 quad_tile_classifier
 .
 add_mask_region
@@ -4492,6 +4518,8 @@ c_tl
 )
 ;
 scratch
+.
+retained
 .
 quad_tile_classifier
 .
@@ -4502,6 +4530,8 @@ c_tr
 ;
 scratch
 .
+retained
+.
 quad_tile_classifier
 .
 add_mask_region
@@ -4510,6 +4540,8 @@ c_br
 )
 ;
 scratch
+.
+retained
 .
 quad_tile_classifier
 .
@@ -4585,6 +4617,8 @@ inner_rect
 ;
 scratch
 .
+retained
+.
 quad_tile_classifier
 .
 add_clip_rect
@@ -4615,6 +4649,8 @@ clip_rect
 )
 ;
 scratch
+.
+retained
 .
 quad_tile_classifier
 .
@@ -4686,6 +4722,8 @@ pattern
 ;
 scratch
 .
+frame
+.
 quad_direct_segments
 .
 clear
@@ -4693,6 +4731,8 @@ clear
 )
 ;
 scratch
+.
+frame
 .
 quad_indirect_segments
 .
@@ -4704,6 +4744,8 @@ let
 tiles
 =
 scratch
+.
+retained
 .
 quad_tile_classifier
 .
@@ -4776,6 +4818,8 @@ if
 is_direct
 {
 scratch
+.
+frame
 .
 quad_direct_segments
 .
@@ -4874,6 +4918,8 @@ frame_state
 ;
 scratch
 .
+frame
+.
 quad_indirect_segments
 .
 push
@@ -4898,6 +4944,8 @@ task_id
 if
 !
 scratch
+.
+frame
 .
 quad_direct_segments
 .
@@ -4951,6 +4999,8 @@ in
 mut
 scratch
 .
+frame
+.
 quad_direct_segments
 {
 segment
@@ -4986,6 +5036,8 @@ targets
 &
 scratch
 .
+frame
+.
 quad_direct_segments
 )
 ;
@@ -4993,6 +5045,8 @@ quad_direct_segments
 if
 !
 scratch
+.
+frame
 .
 quad_indirect_segments
 .
@@ -5011,6 +5065,8 @@ frame_state
 targets
 &
 scratch
+.
+frame
 .
 quad_indirect_segments
 )

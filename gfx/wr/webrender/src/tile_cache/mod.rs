@@ -10703,6 +10703,8 @@ is_empty
 {
 scratch
 .
+frame
+.
 required_sub_graphs
 .
 insert

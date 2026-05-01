@@ -2085,6 +2085,8 @@ glyph_keys_range
 =
 scratch
 .
+scene
+.
 glyph_keys
 .
 extend
@@ -2150,6 +2152,8 @@ clone
 )
 &
 scratch
+.
+scene
 .
 glyph_keys
 [

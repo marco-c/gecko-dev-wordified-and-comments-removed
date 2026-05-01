@@ -3699,6 +3699,8 @@ scratch
 .
 primitive
 .
+frame
+.
 debug_items
 Vec
 :
