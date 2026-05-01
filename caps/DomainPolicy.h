@@ -93,8 +93,9 @@ virtual
 DomainSet
 (
 )
-{
-}
+=
+default
+;
 nsTHashSet
 <
 nsURIHashKey
