@@ -4523,7 +4523,7 @@ if
 !
 BuildConfig
 .
-MOZILLA_OFFICIAL
+TELEMETRY
 )
 {
 return
