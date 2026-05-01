@@ -53,8 +53,9 @@ private
 nsHttpNegotiateAuth
 (
 )
-{
-}
+=
+default
+;
 bool
 TestBoolPref
 (
