@@ -957,7 +957,8 @@ Architecture
 *
 https
 :
-*
+/
+/
 github
 .
 com
