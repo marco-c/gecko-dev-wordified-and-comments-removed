@@ -626,6 +626,15 @@ nsHttpTransaction
 >
 mQueuedConnectUdpTransaction
 ;
+nsTArray
+<
+RefPtr
+<
+nsHttpTransaction
+>
+>
+mDeferredLnaTransactions
+;
 }
 ;
 }
