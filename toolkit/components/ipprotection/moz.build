@@ -91,7 +91,7 @@ MOZ_SRC_FILES
 =
 [
 "
-android
+fxa
 /
 IPPAndroidAuthProvider
 .
@@ -100,7 +100,7 @@ sys
 mjs
 "
 "
-android
+fxa
 /
 IPPAndroidEnrollAndEntitle
 .
@@ -109,7 +109,7 @@ sys
 mjs
 "
 "
-android
+fxa
 /
 IPPAndroidSignInWatcher
 .

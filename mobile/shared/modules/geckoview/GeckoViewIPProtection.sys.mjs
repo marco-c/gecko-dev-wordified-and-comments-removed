@@ -122,7 +122,7 @@ components
 /
 ipprotection
 /
-android
+fxa
 /
 IPPAndroidAuthProvider
 .

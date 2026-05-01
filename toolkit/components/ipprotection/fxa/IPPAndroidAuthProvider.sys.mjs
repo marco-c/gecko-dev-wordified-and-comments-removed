@@ -131,7 +131,7 @@ components
 /
 ipprotection
 /
-android
+fxa
 /
 IPPAndroidEnrollAndEntitle
 .
@@ -159,7 +159,7 @@ components
 /
 ipprotection
 /
-android
+fxa
 /
 IPPAndroidSignInWatcher
 .
