@@ -10,6 +10,8 @@ include
 .
 .
 /
+src
+/
 jinclude
 .
 h
@@ -22,6 +24,8 @@ include
 /
 .
 .
+/
+src
 /
 jpeglib
 .
@@ -36,6 +40,8 @@ include
 .
 .
 /
+src
+/
 jsimd
 .
 h
@@ -48,6 +54,8 @@ include
 /
 .
 .
+/
+src
 /
 jdct
 .
@@ -62,6 +70,8 @@ include
 .
 .
 /
+src
+/
 jsimddct
 .
 h
@@ -73,6 +83,15 @@ include
 .
 /
 jsimd
+.
+h
+"
+#
+include
+"
+neon
+-
+compat
 .
 h
 "

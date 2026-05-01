@@ -1999,6 +1999,10 @@ pb_centerjsamp
 {
 __16X
 (
+(
+signed
+char
+)
 CENTERJSAMPLE
 )
 }

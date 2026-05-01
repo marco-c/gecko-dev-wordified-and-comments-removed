@@ -20,6 +20,8 @@ include
 .
 .
 /
+src
+/
 jpeglib
 .
 h
@@ -39,6 +41,8 @@ include
 "
 .
 .
+/
+src
 /
 jmorecfg
 .

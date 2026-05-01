@@ -318,6 +318,8 @@ are
 User
 documentation
 :
+doc
+/
 usage
 .
 txt
@@ -331,6 +333,8 @@ rdjpgcom
 and
 wrjpgcom
 .
+doc
+/
 *
 .
 1
@@ -350,6 +354,8 @@ usage
 txt
 )
 .
+doc
+/
 wizard
 .
 txt
@@ -361,6 +367,8 @@ JPEG
 wizards
 only
 .
+doc
+/
 change
 .
 log
@@ -377,6 +385,8 @@ and
 internal
 documentation
 :
+doc
+/
 libjpeg
 .
 txt
@@ -391,6 +401,8 @@ your
 own
 programs
 .
+src
+/
 example
 .
 c
@@ -402,6 +414,8 @@ the
 JPEG
 library
 .
+doc
+/
 structure
 .
 txt
@@ -415,6 +429,8 @@ s
 internal
 structure
 .
+doc
+/
 coderules
 .
 txt

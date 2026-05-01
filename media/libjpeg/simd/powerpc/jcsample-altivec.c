@@ -132,6 +132,9 @@ outrow
 ;
 outrow
 <
+(
+int
+)
 v_samp_factor
 ;
 outrow
@@ -476,6 +479,9 @@ outrow
 ;
 outrow
 <
+(
+int
+)
 v_samp_factor
 ;
 inrow

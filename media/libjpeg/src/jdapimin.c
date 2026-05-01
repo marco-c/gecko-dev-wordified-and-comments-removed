@@ -521,6 +521,9 @@ cid2
 3
 )
 {
+#
+ifdef
+D_LOSSLESS_SUPPORTED
 if
 (
 cinfo
@@ -539,6 +542,8 @@ jpeg_color_space
 JCS_RGB
 ;
 else
+#
+endif
 cinfo
 -
 >
@@ -586,6 +591,9 @@ cid1
 cid2
 )
 ;
+#
+ifdef
+D_LOSSLESS_SUPPORTED
 if
 (
 cinfo
@@ -604,6 +612,8 @@ jpeg_color_space
 JCS_RGB
 ;
 else
+#
+endif
 cinfo
 -
 >

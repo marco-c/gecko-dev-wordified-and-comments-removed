@@ -6,7 +6,7 @@ jsimd_altivec
 h
 "
 #
-if
+ifdef
 __BIG_ENDIAN__
 #
 define
@@ -575,7 +575,7 @@ WORD_BIT
 }
 ;
 #
-if
+ifdef
 __BIG_ENDIAN__
 __vector
 unsigned

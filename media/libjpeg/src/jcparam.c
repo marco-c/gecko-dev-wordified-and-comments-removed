@@ -715,6 +715,16 @@ num_scans
 cinfo
 -
 >
+master
+-
+>
+lossless
+=
+FALSE
+;
+cinfo
+-
+>
 raw_data_in
 =
 FALSE
@@ -903,6 +913,9 @@ JCS_EXT_ABGR
 case
 JCS_EXT_ARGB
 :
+#
+ifdef
+C_LOSSLESS_SUPPORTED
 if
 (
 cinfo
@@ -920,6 +933,8 @@ JCS_RGB
 )
 ;
 else
+#
+endif
 jpeg_set_colorspace
 (
 cinfo
@@ -1796,6 +1811,9 @@ cinfo
 global_state
 )
 ;
+#
+ifdef
+C_LOSSLESS_SUPPORTED
 if
 (
 cinfo
@@ -1823,6 +1841,8 @@ cinfo
 )
 ;
 }
+#
+endif
 if
 (
 ncomps

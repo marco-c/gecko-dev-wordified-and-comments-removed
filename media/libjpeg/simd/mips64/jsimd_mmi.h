@@ -10,6 +10,8 @@ include
 .
 .
 /
+src
+/
 jinclude
 .
 h
@@ -23,6 +25,8 @@ include
 .
 .
 /
+src
+/
 jpeglib
 .
 h
@@ -35,6 +39,8 @@ include
 /
 .
 .
+/
+src
 /
 jdct
 .

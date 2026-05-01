@@ -41,6 +41,13 @@ cinfo
 )
 ;
 else
+if
+(
+cinfo
+-
+>
+is_decompressor
+)
 return
 ;
 memcpy
