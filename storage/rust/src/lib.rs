@@ -1162,8 +1162,6 @@ handle
 BindByIndex
 (
 index
-as
-u32
 variant
 .
 coerce
