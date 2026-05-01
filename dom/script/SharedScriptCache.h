@@ -765,8 +765,9 @@ protected
 ScriptLoadData
 (
 )
-{
-}
+=
+default
+;
 public
 :
 ScriptLoadData

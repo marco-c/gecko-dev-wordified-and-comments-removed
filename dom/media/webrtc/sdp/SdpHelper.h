@@ -89,8 +89,9 @@ errorDest
 SdpHelper
 (
 )
-{
-}
+=
+default
+;
 nsresult
 GetComponent
 (

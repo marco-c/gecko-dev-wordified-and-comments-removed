@@ -83,14 +83,14 @@ static
 nsCString
 WasmAltDataType
 ;
+public
+:
 FetchUtil
 (
 )
 =
 delete
 ;
-public
-:
 static
 nsresult
 GetValidRequestMethod

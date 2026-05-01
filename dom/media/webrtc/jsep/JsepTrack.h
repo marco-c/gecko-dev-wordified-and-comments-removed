@@ -470,8 +470,9 @@ virtual
 JsepTrack
 (
 )
-{
-}
+=
+default
+;
 void
 UpdateStreamIds
 (

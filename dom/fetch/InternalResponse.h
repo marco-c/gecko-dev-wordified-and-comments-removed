@@ -1509,8 +1509,6 @@ InternalResponse
 (
 )
 ;
-private
-:
 explicit
 InternalResponse
 (
@@ -1534,6 +1532,8 @@ InternalResponse
 =
 delete
 ;
+private
+:
 SafeRefPtr
 <
 InternalResponse

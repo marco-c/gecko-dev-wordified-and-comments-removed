@@ -10848,6 +10848,8 @@ T
 class
 SequenceTracer
 {
+public
+:
 explicit
 SequenceTracer
 (
@@ -10870,6 +10872,8 @@ false
 false
 >
 {
+public
+:
 explicit
 SequenceTracer
 (
@@ -10877,8 +10881,6 @@ SequenceTracer
 =
 delete
 ;
-public
-:
 static
 void
 TraceSequence
@@ -10943,6 +10945,8 @@ false
 false
 >
 {
+public
+:
 explicit
 SequenceTracer
 (
@@ -10950,8 +10954,6 @@ SequenceTracer
 =
 delete
 ;
-public
-:
 static
 void
 TraceSequence
@@ -11022,6 +11024,8 @@ false
 false
 >
 {
+public
+:
 explicit
 SequenceTracer
 (
@@ -11029,8 +11033,6 @@ SequenceTracer
 =
 delete
 ;
-public
-:
 static
 void
 TraceSequence
@@ -11093,6 +11095,8 @@ false
 false
 >
 {
+public
+:
 explicit
 SequenceTracer
 (
@@ -11100,8 +11104,6 @@ SequenceTracer
 =
 delete
 ;
-public
-:
 static
 void
 TraceSequence
@@ -11161,6 +11163,8 @@ false
 false
 >
 {
+public
+:
 explicit
 SequenceTracer
 (
@@ -11168,8 +11172,6 @@ SequenceTracer
 =
 delete
 ;
-public
-:
 static
 void
 TraceSequence
@@ -11224,6 +11226,8 @@ true
 false
 >
 {
+public
+:
 explicit
 SequenceTracer
 (
@@ -11231,8 +11235,6 @@ SequenceTracer
 =
 delete
 ;
-public
-:
 static
 void
 TraceSequence
@@ -11287,6 +11289,8 @@ false
 true
 >
 {
+public
+:
 explicit
 SequenceTracer
 (
@@ -11294,8 +11298,6 @@ SequenceTracer
 =
 delete
 ;
-public
-:
 static
 void
 TraceSequence
@@ -11353,6 +11355,8 @@ false
 false
 >
 {
+public
+:
 explicit
 SequenceTracer
 (
@@ -11360,8 +11364,6 @@ SequenceTracer
 =
 delete
 ;
-public
-:
 static
 void
 TraceSequence
@@ -11523,6 +11525,8 @@ false
 false
 >
 {
+public
+:
 explicit
 SequenceTracer
 (
@@ -11530,8 +11534,6 @@ SequenceTracer
 =
 delete
 ;
-public
-:
 static
 void
 TraceSequence

@@ -27,14 +27,14 @@ SVGSVGElement
 class
 SVGFragmentIdentifier
 {
+public
+:
 SVGFragmentIdentifier
 (
 )
 =
 delete
 ;
-public
-:
 static
 bool
 ProcessFragmentIdentifier

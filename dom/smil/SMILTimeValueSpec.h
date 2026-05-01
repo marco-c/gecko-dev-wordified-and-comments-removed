@@ -427,8 +427,9 @@ nsIDOMEventListener
 EventListener
 (
 )
-{
-}
+=
+default
+;
 public
 :
 explicit

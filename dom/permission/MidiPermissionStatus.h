@@ -45,8 +45,9 @@ private
 MidiPermissionStatus
 (
 )
-{
-}
+=
+default
+;
 nsLiteralCString
 GetPermissionType
 (

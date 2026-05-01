@@ -92,8 +92,8 @@ virtual
 RTCStatsIdGenerator
 (
 )
-{
-}
+=
+default
 ;
 nsString
 Id

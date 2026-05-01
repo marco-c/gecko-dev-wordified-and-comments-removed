@@ -62,7 +62,7 @@ class
 BodyUtil
 final
 {
-private
+public
 :
 BodyUtil
 (
@@ -70,8 +70,6 @@ BodyUtil
 =
 delete
 ;
-public
-:
 static
 void
 ConsumeArrayBuffer

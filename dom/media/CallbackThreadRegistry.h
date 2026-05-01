@@ -44,8 +44,9 @@ CallbackThreadRegistry
 CallbackThreadRegistry
 (
 )
-{
-}
+=
+default
+;
 CallbackThreadRegistry
 (
 const

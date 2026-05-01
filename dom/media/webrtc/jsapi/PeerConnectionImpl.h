@@ -3644,8 +3644,9 @@ virtual
 StunAddrsHandler
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 void

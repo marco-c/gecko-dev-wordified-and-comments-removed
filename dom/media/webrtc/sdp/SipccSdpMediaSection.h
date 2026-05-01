@@ -129,8 +129,9 @@ public
 SipccSdpMediaSection
 (
 )
-{
-}
+=
+default
+;
 virtual
 MediaType
 GetMediaType
