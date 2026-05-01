@@ -1,0 +1,10 @@
+pub
+(
+crate
+)
+fn
+daemonize
+(
+)
+{
+}
