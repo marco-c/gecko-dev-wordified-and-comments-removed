@@ -226,7 +226,7 @@ crate
 visibility
 :
 :
-PrimitiveVisibility
+PrimitiveDrawHeader
 ;
 pub
 mod
@@ -4042,9 +4042,9 @@ prim_origin
 :
 LayoutPoint
 pub
-vis
+draw
 :
-PrimitiveVisibility
+PrimitiveDrawHeader
 }
 impl
 PrimitiveInstance
@@ -4070,9 +4070,9 @@ Self
 PrimitiveInstance
 {
 kind
-vis
+draw
 :
-PrimitiveVisibility
+PrimitiveDrawHeader
 :
 :
 new
@@ -4093,7 +4093,7 @@ self
 {
 self
 .
-vis
+draw
 .
 reset
 (
@@ -4111,7 +4111,7 @@ self
 {
 self
 .
-vis
+draw
 .
 reset
 (

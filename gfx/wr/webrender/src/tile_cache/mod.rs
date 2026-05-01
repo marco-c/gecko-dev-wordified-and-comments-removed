@@ -395,7 +395,7 @@ visibility
 {
 FrameVisibilityContext
 FrameVisibilityState
-VisibilityState
+DrawState
 PrimitiveVisibilityFlags
 }
 ;
@@ -8935,7 +8935,7 @@ TransactionProfile
 )
 -
 >
-VisibilityState
+DrawState
 {
 use
 SurfacePromotionFailure
@@ -8972,7 +8972,7 @@ prim_clip_chain
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 ;
@@ -9129,7 +9129,7 @@ None
 >
 {
 return
-VisibilityState
+DrawState
 :
 :
 Culled
@@ -9182,7 +9182,7 @@ p1
 y
 {
 return
-VisibilityState
+DrawState
 :
 :
 Culled
@@ -9845,7 +9845,7 @@ COMPOSITOR_SURFACE_OVERLAYS
 )
 ;
 return
-VisibilityState
+DrawState
 :
 :
 Culled
@@ -10283,7 +10283,7 @@ COMPOSITOR_SURFACE_OVERLAYS
 )
 ;
 return
-VisibilityState
+DrawState
 :
 :
 Culled
@@ -11548,7 +11548,7 @@ prim_clamp_to_tile
 ;
 }
 }
-VisibilityState
+DrawState
 :
 :
 Visible

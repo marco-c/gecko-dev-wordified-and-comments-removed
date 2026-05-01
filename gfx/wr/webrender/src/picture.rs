@@ -3598,7 +3598,7 @@ get_cmd_buffer_targets_for_prim
 &
 child_prim_instance
 .
-vis
+draw
 &
 mut
 cmd_buffer_targets

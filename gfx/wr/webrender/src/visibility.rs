@@ -598,7 +598,7 @@ Serialize
 ]
 pub
 enum
-VisibilityState
+DrawState
 {
 Unset
 Culled
@@ -637,7 +637,7 @@ Serialize
 ]
 pub
 struct
-PrimitiveVisibility
+PrimitiveDrawHeader
 {
 pub
 clip_chain
@@ -646,14 +646,14 @@ ClipChainInstance
 pub
 state
 :
-VisibilityState
+DrawState
 pub
 clip_task_index
 :
 ClipTaskIndex
 }
 impl
-PrimitiveVisibility
+PrimitiveDrawHeader
 {
 pub
 fn
@@ -664,11 +664,11 @@ new
 >
 Self
 {
-PrimitiveVisibility
+PrimitiveDrawHeader
 {
 state
 :
-VisibilityState
+DrawState
 :
 :
 Unset
@@ -701,7 +701,7 @@ self
 .
 state
 =
-VisibilityState
+DrawState
 :
 :
 Culled
@@ -1280,11 +1280,11 @@ prim_instances
 prim_instance_index
 ]
 .
-vis
+draw
 .
 state
 =
-VisibilityState
+DrawState
 :
 :
 PassThrough
@@ -1411,7 +1411,7 @@ true
 ;
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 =
@@ -1458,7 +1458,7 @@ prim_clip_chain
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 ;
@@ -1495,7 +1495,7 @@ pic_coverage_rect
 }
 prim_instance
 .
-vis
+draw
 .
 state
 =
@@ -1572,7 +1572,7 @@ None
 =
 >
 {
-VisibilityState
+DrawState
 :
 :
 Visible

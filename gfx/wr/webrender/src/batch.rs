@@ -353,7 +353,7 @@ visibility
 :
 {
 PrimitiveVisibilityFlags
-VisibilityState
+DrawState
 }
 ;
 use
@@ -3956,7 +3956,7 @@ prim_info
 &
 prim_instance
 .
-vis
+draw
 ;
 let
 bounding_rect
@@ -4212,11 +4212,11 @@ vis_flags
 match
 prim_instance
 .
-vis
+draw
 .
 state
 {
-VisibilityState
+DrawState
 :
 :
 Culled
@@ -4226,12 +4226,12 @@ Culled
 return
 ;
 }
-VisibilityState
+DrawState
 :
 :
 PassThrough
 |
-VisibilityState
+DrawState
 :
 :
 Unset
@@ -4251,7 +4251,7 @@ state
 )
 ;
 }
-VisibilityState
+DrawState
 :
 :
 Visible
@@ -4318,7 +4318,7 @@ prim_info
 &
 prim_instance
 .
-vis
+draw
 ;
 let
 bounding_rect
