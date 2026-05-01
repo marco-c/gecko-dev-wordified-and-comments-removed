@@ -238,7 +238,7 @@ picture
 :
 {
 get_relative_scale_offset
-PicturePrimitive
+PictureInstance
 }
 ;
 use
@@ -8882,7 +8882,7 @@ pictures
 :
 &
 [
-PicturePrimitive
+PictureInstance
 ]
 resource_cache
 :

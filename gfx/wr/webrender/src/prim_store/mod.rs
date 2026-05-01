@@ -168,7 +168,7 @@ crate
 picture
 :
 :
-PicturePrimitive
+PictureInstance
 ;
 use
 crate
@@ -334,7 +334,7 @@ text_run
 :
 {
 TextRunDataHandle
-TextRunPrimitive
+TextRunInstance
 }
 ;
 use
@@ -4417,7 +4417,7 @@ Debug
 ]
 pub
 struct
-SegmentedInstance
+BrushSegmentation
 {
 pub
 gpu_data
@@ -4449,7 +4449,7 @@ storage
 :
 Index
 <
-TextRunPrimitive
+TextRunInstance
 >
 ;
 pub
@@ -4461,7 +4461,7 @@ storage
 :
 Storage
 <
-TextRunPrimitive
+TextRunInstance
 >
 ;
 pub
@@ -4527,7 +4527,7 @@ storage
 :
 Storage
 <
-SegmentedInstance
+BrushSegmentation
 >
 ;
 pub
@@ -4539,7 +4539,7 @@ storage
 :
 Index
 <
-SegmentedInstance
+BrushSegmentation
 >
 ;
 pub
@@ -5962,7 +5962,7 @@ pictures
 :
 Vec
 <
-PicturePrimitive
+PictureInstance
 >
 pub
 text_runs

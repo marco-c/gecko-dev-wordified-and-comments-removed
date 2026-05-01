@@ -321,7 +321,7 @@ picture
 {
 Picture3DContext
 PictureCompositeMode
-PicturePrimitive
+PictureInstance
 }
 ;
 use
@@ -1363,7 +1363,7 @@ alloc
 .
 init
 (
-PicturePrimitive
+PictureInstance
 :
 :
 new_image
@@ -1625,7 +1625,7 @@ alloc
 .
 init
 (
-PicturePrimitive
+PictureInstance
 :
 :
 new_image
@@ -2747,7 +2747,7 @@ pictures
 &
 mut
 [
-PicturePrimitive
+PictureInstance
 ]
 parent_spatial_node_index
 :
@@ -9810,7 +9810,7 @@ alloc
 .
 init
 (
-PicturePrimitive
+PictureInstance
 :
 :
 new_image
@@ -9971,7 +9971,7 @@ alloc
 .
 init
 (
-PicturePrimitive
+PictureInstance
 :
 :
 new_image
@@ -10312,7 +10312,7 @@ alloc
 .
 init
 (
-PicturePrimitive
+PictureInstance
 :
 :
 new_image
@@ -11887,7 +11887,7 @@ alloc
 .
 init
 (
-PicturePrimitive
+PictureInstance
 :
 :
 new_image
@@ -17808,7 +17808,7 @@ alloc
 .
 init
 (
-PicturePrimitive
+PictureInstance
 :
 :
 new_image

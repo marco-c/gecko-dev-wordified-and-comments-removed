@@ -208,7 +208,7 @@ picture
 {
 ClusterFlags
 PictureCompositeMode
-PicturePrimitive
+PictureInstance
 }
 ;
 use
@@ -5219,7 +5219,7 @@ cast_unit
 (
 )
 ;
-PicturePrimitive
+PictureInstance
 :
 :
 add_split_plane
@@ -7609,7 +7609,7 @@ segments
 let
 instance
 =
-SegmentedInstance
+BrushSegmentation
 {
 segments_range
 gpu_data

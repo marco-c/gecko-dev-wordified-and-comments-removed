@@ -180,7 +180,7 @@ crate
 picture
 :
 :
-PicturePrimitive
+PictureInstance
 ;
 use
 crate
@@ -4526,7 +4526,7 @@ pictures
 &
 mut
 [
-PicturePrimitive
+PictureInstance
 ]
 tile_caches
 :

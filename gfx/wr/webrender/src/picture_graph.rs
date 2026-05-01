@@ -33,7 +33,7 @@ picture
 :
 :
 {
-PicturePrimitive
+PictureInstance
 SurfaceIndex
 SurfaceInfo
 }
@@ -209,7 +209,7 @@ pictures
 &
 mut
 [
-PicturePrimitive
+PictureInstance
 ]
 frame_context
 :
@@ -398,7 +398,7 @@ pictures
 &
 mut
 [
-PicturePrimitive
+PictureInstance
 ]
 surfaces
 :
@@ -562,7 +562,7 @@ pictures
 &
 mut
 [
-PicturePrimitive
+PictureInstance
 ]
 surfaces
 :
@@ -705,7 +705,7 @@ pictures
 &
 mut
 [
-PicturePrimitive
+PictureInstance
 ]
 pic_info
 :

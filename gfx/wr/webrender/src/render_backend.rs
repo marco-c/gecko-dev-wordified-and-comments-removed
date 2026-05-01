@@ -361,7 +361,7 @@ crate
 picture
 :
 :
-PicturePrimitive
+PictureInstance
 ;
 use
 crate
@@ -1054,7 +1054,7 @@ pictures
 :
 &
 [
-PicturePrimitive
+PictureInstance
 ]
 surfaces
 :
@@ -1202,7 +1202,7 @@ pictures
 :
 &
 [
-PicturePrimitive
+PictureInstance
 ]
 surfaces
 :

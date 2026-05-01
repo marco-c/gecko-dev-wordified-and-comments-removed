@@ -1999,7 +1999,7 @@ properties
 for
 a
 given
-PicturePrimitive
+PictureInstance
 #
 [
 derive
@@ -2133,7 +2133,7 @@ Serialize
 ]
 pub
 struct
-PicturePrimitive
+PictureInstance
 {
 pub
 prim_list
@@ -2225,7 +2225,7 @@ SnapshotInfo
 >
 }
 impl
-PicturePrimitive
+PictureInstance
 {
 pub
 fn
@@ -2627,7 +2627,7 @@ SnapshotInfo
 >
 Self
 {
-PicturePrimitive
+PictureInstance
 {
 prim_list
 primary_render_task_id
@@ -3535,7 +3535,7 @@ plane_splitter_index
 0
 ]
 ;
-PicturePrimitive
+PictureInstance
 :
 :
 resolve_split_planes

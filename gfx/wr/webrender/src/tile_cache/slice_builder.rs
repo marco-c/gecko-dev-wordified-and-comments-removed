@@ -65,7 +65,7 @@ picture
 {
 PrimitiveList
 PictureCompositeMode
-PicturePrimitive
+PictureInstance
 Picture3DContext
 PictureFlags
 }
@@ -2333,7 +2333,7 @@ alloc
 .
 init
 (
-PicturePrimitive
+PictureInstance
 :
 :
 new_image
