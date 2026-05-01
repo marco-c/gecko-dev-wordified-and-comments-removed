@@ -144,12 +144,14 @@ Shutdown
 ;
 }
 }
-private
-:
 nsLayoutStatics
 (
 )
+=
+delete
 ;
+private
+:
 static
 void
 Shutdown

@@ -108,7 +108,7 @@ aStyle
 )
 {
 }
-private
+public
 :
 CounterStyle
 (
@@ -132,8 +132,6 @@ other
 =
 delete
 ;
-public
-:
 constexpr
 ListStyle
 GetStyle

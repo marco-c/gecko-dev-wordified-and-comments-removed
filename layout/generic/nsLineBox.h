@@ -159,6 +159,8 @@ PresShell
 aPresShell
 )
 ;
+public
+:
 void
 operator
 delete
@@ -172,8 +174,6 @@ sz
 =
 delete
 ;
-public
-:
 friend
 nsLineBox
 *
@@ -4916,8 +4916,6 @@ aLastVisual
 )
 final
 ;
-private
-:
 nsLineIterator
 (
 )
@@ -4934,6 +4932,8 @@ aOther
 =
 delete
 ;
+private
+:
 const
 nsLineBox
 *

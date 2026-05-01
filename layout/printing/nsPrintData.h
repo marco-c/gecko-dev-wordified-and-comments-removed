@@ -113,8 +113,6 @@ mOnStartSent
 bool
 mIsAborted
 ;
-private
-:
 nsPrintData
 (
 )
@@ -134,6 +132,8 @@ aOther
 =
 delete
 ;
+private
+:
 ~
 nsPrintData
 (
