@@ -95,6 +95,14 @@ nsUrlClassifierStreamUpdater
 (
 )
 ;
+nsUrlClassifierStreamUpdater
+(
+nsUrlClassifierStreamUpdater
+&
+)
+=
+delete
+;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIURLCLASSIFIERSTREAMUPDATER
 NS_DECL_NSIURLCLASSIFIERUPDATEOBSERVER
@@ -116,12 +124,6 @@ default
 void
 DownloadDone
 (
-)
-;
-nsUrlClassifierStreamUpdater
-(
-nsUrlClassifierStreamUpdater
-&
 )
 ;
 nsresult

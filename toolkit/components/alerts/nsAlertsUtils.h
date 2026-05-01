@@ -22,7 +22,7 @@ class
 nsAlertsUtils
 final
 {
-private
+public
 :
 nsAlertsUtils
 (
@@ -30,8 +30,6 @@ nsAlertsUtils
 =
 delete
 ;
-public
-:
 static
 bool
 IsActionablePrincipal
