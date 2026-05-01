@@ -155,6 +155,7 @@ false
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C

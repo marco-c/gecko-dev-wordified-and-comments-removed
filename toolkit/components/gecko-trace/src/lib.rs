@@ -79,6 +79,7 @@ default
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C

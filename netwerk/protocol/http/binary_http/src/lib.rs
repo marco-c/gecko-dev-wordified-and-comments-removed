@@ -1977,6 +1977,7 @@ encoded
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C

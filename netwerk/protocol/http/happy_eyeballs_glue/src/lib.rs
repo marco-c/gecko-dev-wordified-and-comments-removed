@@ -204,6 +204,7 @@ Ipv4Only
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -584,6 +585,7 @@ NS_OK
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -695,6 +697,7 @@ addrs
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -806,6 +809,7 @@ addrs
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -917,6 +921,7 @@ service_infos
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -988,6 +993,7 @@ status
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C

@@ -789,6 +789,7 @@ C_WaitForSlotEvent
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C

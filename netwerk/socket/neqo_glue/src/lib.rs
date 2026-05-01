@@ -15314,6 +15314,7 @@ array
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C

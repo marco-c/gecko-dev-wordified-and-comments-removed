@@ -1058,6 +1058,7 @@ false
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -1398,6 +1399,7 @@ false
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
