@@ -918,6 +918,7 @@ mayHaveWeather
 mayHaveWidgets
 mayHaveTimerWidget
 mayHaveListsWidget
+mayHaveSportsWidget
 mayHaveWeatherForecast
 openPreferences
 wallpapersUserEnabled
@@ -2639,6 +2640,11 @@ mayHaveListsWidget
 =
 {
 mayHaveListsWidget
+}
+mayHaveSportsWidget
+=
+{
+mayHaveSportsWidget
 }
 mayHaveWeatherForecast
 =

@@ -212,6 +212,7 @@ getWidgetOrder
 focusTimer
 lists
 weather
+sportsWidget
 "
 )
 )
@@ -227,6 +228,9 @@ lists
 "
 "
 weather
+"
+"
+sportsWidget
 "
 ]
 )
@@ -271,6 +275,9 @@ lists
 "
 "
 focusTimer
+"
+"
+sportsWidget
 "
 ]
 )
@@ -318,6 +325,9 @@ weather
 "
 "
 focusTimer
+"
+"
+sportsWidget
 "
 ]
 )
@@ -427,6 +437,9 @@ lists
 "
 "
 weather
+"
+"
+sportsWidget
 "
 ]
 )
@@ -551,6 +564,9 @@ lists
 "
 focusTimer
 "
+"
+sportsWidget
+"
 ]
 )
 ;
@@ -616,6 +632,9 @@ weather
 "
 "
 lists
+"
+"
+sportsWidget
 "
 ]
 )
@@ -683,6 +702,9 @@ focusTimer
 "
 "
 weather
+"
+"
+sportsWidget
 "
 ]
 )
