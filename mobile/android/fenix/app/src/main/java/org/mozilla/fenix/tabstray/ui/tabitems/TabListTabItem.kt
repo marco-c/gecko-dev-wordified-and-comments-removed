@@ -919,7 +919,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerHigh
+primaryContainer
 }
 else
 {
@@ -1242,9 +1242,13 @@ padding
 (
 end
 =
-16
+FirefoxTheme
 .
-dp
+layout
+.
+space
+.
+dynamic200
 )
 )
 }
