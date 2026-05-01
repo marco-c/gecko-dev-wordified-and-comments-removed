@@ -192,8 +192,9 @@ JitCode
 *
 >
 method_
-=
+{
 nullptr
+}
 ;
 jsbytecode
 *

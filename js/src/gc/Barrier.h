@@ -1201,7 +1201,7 @@ defaultValue
 )
 {
 }
-MOZ_IMPLICIT
+explicit
 BarrieredPtrImpl
 (
 const
@@ -2034,7 +2034,7 @@ create
 )
 {
 }
-MOZ_IMPLICIT
+explicit
 GCStructPtr
 (
 const

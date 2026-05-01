@@ -557,8 +557,9 @@ JitCode
 *
 >
 method_
-=
+{
 nullptr
+}
 ;
 MainThreadData
 <

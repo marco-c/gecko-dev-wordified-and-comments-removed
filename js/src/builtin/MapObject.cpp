@@ -237,10 +237,7 @@ mozilla
 NumberEqualsInt32
 ;
 static
-PreBarriered
-<
 Value
->
 NormalizeDoubleValue
 (
 double
