@@ -104,6 +104,11 @@ Now
 h
 "
 "
+PerfStats
+.
+h
+"
+"
 PlatformConditionVariable
 .
 h
@@ -239,6 +244,11 @@ cpp
 "
 "
 MmapFaultHandler
+.
+cpp
+"
+"
+PerfStats
 .
 cpp
 "
