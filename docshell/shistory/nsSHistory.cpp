@@ -7255,6 +7255,17 @@ true
 }
 }
 }
+if
+(
+!
+canonicalBC
+-
+>
+IsReplaced
+(
+)
+)
+{
 FinishRestore
 (
 canonicalBC
@@ -7264,6 +7275,7 @@ frameLoader
 canSave
 )
 ;
+}
 return
 true
 ;

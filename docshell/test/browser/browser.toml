@@ -637,6 +637,13 @@ js
 ]
 [
 "
+browser_bug2011921
+.
+js
+"
+]
+[
+"
 browser_bfcache_copycommand
 .
 js
