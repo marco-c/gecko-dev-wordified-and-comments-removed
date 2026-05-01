@@ -76,7 +76,7 @@ MSLocalized
 ;
 import
 {
-MultiStageUtils
+AboutWelcomeUtils
 }
 from
 "
@@ -85,7 +85,7 @@ from
 /
 lib
 /
-multistage
+aboutwelcome
 -
 utils
 .
@@ -210,7 +210,7 @@ src
 loading
 =
 {
-MultiStageUtils
+AboutWelcomeUtils
 .
 getLoadingStrategyFor
 (
@@ -316,7 +316,7 @@ src
 loading
 =
 {
-MultiStageUtils
+AboutWelcomeUtils
 .
 getLoadingStrategyFor
 (

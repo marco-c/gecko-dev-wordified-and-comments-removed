@@ -101,7 +101,7 @@ TileList
 ;
 import
 {
-MultiStageUtils
+AboutWelcomeUtils
 }
 from
 "
@@ -110,7 +110,7 @@ from
 /
 lib
 /
-multistage
+aboutwelcome
 -
 utils
 .
@@ -969,7 +969,7 @@ style
 .
 .
 .
-MultiStageUtils
+AboutWelcomeUtils
 .
 getValidStyle
 (
@@ -1152,7 +1152,7 @@ value
 style
 =
 {
-MultiStageUtils
+AboutWelcomeUtils
 .
 getValidStyle
 (

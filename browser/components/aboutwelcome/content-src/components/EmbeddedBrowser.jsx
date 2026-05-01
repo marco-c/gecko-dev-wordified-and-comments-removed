@@ -69,7 +69,7 @@ react
 ;
 import
 {
-MultiStageUtils
+AboutWelcomeUtils
 }
 from
 "
@@ -78,7 +78,7 @@ from
 /
 lib
 /
-multistage
+aboutwelcome
 -
 utils
 .
@@ -441,7 +441,7 @@ style
 const
 validStyles
 =
-MultiStageUtils
+AboutWelcomeUtils
 .
 getValidStyle
 (

@@ -77,7 +77,7 @@ MSLocalized
 ;
 import
 {
-MultiStageUtils
+AboutWelcomeUtils
 }
 from
 "
@@ -86,7 +86,7 @@ from
 /
 lib
 /
-multistage
+aboutwelcome
 -
 utils
 .
@@ -183,7 +183,7 @@ style
 .
 .
 .
-MultiStageUtils
+AboutWelcomeUtils
 .
 getValidStyle
 (
@@ -235,7 +235,7 @@ iconURL
 style
 =
 {
-MultiStageUtils
+AboutWelcomeUtils
 .
 getValidStyle
 (

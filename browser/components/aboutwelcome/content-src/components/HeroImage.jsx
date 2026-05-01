@@ -65,7 +65,7 @@ react
 ;
 import
 {
-MultiStageUtils
+AboutWelcomeUtils
 }
 from
 "
@@ -74,7 +74,7 @@ from
 /
 lib
 /
-multistage
+aboutwelcome
 -
 utils
 .
@@ -141,7 +141,7 @@ url
 loading
 =
 {
-MultiStageUtils
+AboutWelcomeUtils
 .
 getLoadingStrategyFor
 (

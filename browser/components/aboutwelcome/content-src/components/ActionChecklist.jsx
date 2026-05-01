@@ -80,7 +80,7 @@ MSLocalized
 ;
 import
 {
-MultiStageUtils
+AboutWelcomeUtils
 }
 from
 "
@@ -89,7 +89,7 @@ from
 /
 lib
 /
-multistage
+aboutwelcome
 -
 utils
 .
@@ -877,7 +877,7 @@ numberOfCompletedActions
 1
 )
 ;
-MultiStageUtils
+AboutWelcomeUtils
 .
 handleUserAction
 (
@@ -887,7 +887,7 @@ data
 }
 )
 ;
-MultiStageUtils
+AboutWelcomeUtils
 .
 sendActionTelemetry
 (

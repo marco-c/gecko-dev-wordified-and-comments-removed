@@ -81,7 +81,7 @@ MSLocalized
 ;
 import
 {
-MultiStageUtils
+AboutWelcomeUtils
 }
 from
 "
@@ -90,7 +90,7 @@ from
 /
 lib
 /
-multistage
+aboutwelcome
 -
 utils
 .
@@ -656,7 +656,7 @@ string
 "
 )
 {
-MultiStageUtils
+AboutWelcomeUtils
 .
 handleCampaignAction
 (
@@ -806,7 +806,7 @@ _
 screenInitials
 }
 ;
-MultiStageUtils
+AboutWelcomeUtils
 .
 sendImpressionTelemetry
 (
@@ -973,7 +973,7 @@ metricsFlowUri
 setFlowParams
 (
 await
-MultiStageUtils
+AboutWelcomeUtils
 .
 fetchFlowParams
 (
@@ -2465,13 +2465,6 @@ currentScreen
 .
 auto_advance
 }
-advanceOnExperimentLoad
-=
-{
-currentScreen
-.
-advance_on_experiment_load
-}
 messageId
 =
 {
@@ -2559,6 +2552,13 @@ setActiveMultiSelect
 =
 {
 setActiveMultiSelect
+}
+advanceOnExperimentLoad
+=
+{
+currentScreen
+.
+advance_on_experiment_load
 }
 activeSingleSelectSelections
 =
@@ -4048,7 +4048,7 @@ toString
 ;
 }
 return
-MultiStageUtils
+AboutWelcomeUtils
 .
 handleUserAction
 (
@@ -4069,7 +4069,7 @@ props
 }
 )
 {
-MultiStageUtils
+AboutWelcomeUtils
 .
 sendActionTelemetry
 (
@@ -4146,7 +4146,7 @@ event
 name
 )
 {
-MultiStageUtils
+AboutWelcomeUtils
 .
 sendDismissTelemetry
 (
@@ -4230,7 +4230,7 @@ AWWaitForMigrationClose
 (
 )
 ;
-MultiStageUtils
+AboutWelcomeUtils
 .
 sendActionTelemetry
 (
@@ -4400,7 +4400,7 @@ id
 value
 )
 {
-MultiStageUtils
+AboutWelcomeUtils
 .
 handleUserAction
 (
@@ -4817,7 +4817,7 @@ data
 url
 }
 ;
-MultiStageUtils
+AboutWelcomeUtils
 .
 handleUserAction
 (
@@ -4836,7 +4836,7 @@ type
 let
 actionPromise
 =
-MultiStageUtils
+AboutWelcomeUtils
 .
 handleUserAction
 (
@@ -4869,7 +4869,7 @@ FXA_SIGNIN_FLOW
 "
 )
 {
-MultiStageUtils
+AboutWelcomeUtils
 .
 sendActionTelemetry
 (
@@ -5714,7 +5714,7 @@ with
 selected
 checkbox
 ids
-MultiStageUtils
+AboutWelcomeUtils
 .
 sendActionTelemetry
 (
@@ -6089,7 +6089,7 @@ action
 )
 ;
 }
-MultiStageUtils
+AboutWelcomeUtils
 .
 sendActionTelemetry
 (
@@ -6450,15 +6450,6 @@ props
 .
 advanceOnExperimentLoad
 }
-navigate
-=
-{
-this
-.
-props
-.
-navigate
-}
 forceHideStepsIndicator
 =
 {
@@ -6548,6 +6539,15 @@ this
 props
 .
 themeScreenshots
+}
+navigate
+=
+{
+this
+.
+props
+.
+navigate
 }
 isRtamo
 =

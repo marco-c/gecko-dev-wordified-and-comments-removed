@@ -80,7 +80,7 @@ MSLocalized
 ;
 import
 {
-MultiStageUtils
+AboutWelcomeUtils
 }
 from
 "
@@ -89,7 +89,7 @@ from
 /
 lib
 /
-multistage
+aboutwelcome
 -
 utils
 .
@@ -1512,7 +1512,7 @@ onClick
 =
 >
 {
-MultiStageUtils
+AboutWelcomeUtils
 .
 sendActionTelemetry
 (

@@ -136,7 +136,7 @@ href
 ;
 export
 const
-MultiStageUtils
+AboutWelcomeUtils
 =
 {
 handleUserAction
