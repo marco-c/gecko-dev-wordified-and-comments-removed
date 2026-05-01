@@ -222,12 +222,12 @@ DebugDrawerAction
 .
 NavigateTo
 .
-LlmDebugTools
+TabGroupDebugTools
 DebugDrawerAction
 .
 NavigateTo
 .
-TabGroupDebugTools
+TabProcessTools
 DebugDrawerAction
 .
 NavigateTo
