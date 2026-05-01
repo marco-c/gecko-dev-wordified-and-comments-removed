@@ -84,6 +84,11 @@ Perfetto
 .
 h
 "
+"
+PerfStats
+.
+h
+"
 ]
 DEFINES
 [
