@@ -9,8 +9,14 @@ script
 var
 bc
 =
-new
+SpecialPowers
+.
+wrap
+(
 BroadcastChannel
+)
+.
+unpartitionedTestingChannel
 (
 "
 navigate

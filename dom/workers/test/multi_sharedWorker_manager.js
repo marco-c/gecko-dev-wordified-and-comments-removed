@@ -10,8 +10,14 @@ search
 var
 bc
 =
-new
+SpecialPowers
+.
+wrap
+(
 BroadcastChannel
+)
+.
+unpartitionedTestingChannel
 (
 "
 bugSharedWorkerLiftetime
