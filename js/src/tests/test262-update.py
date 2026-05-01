@@ -49,12 +49,6 @@ defer
 "
     
 "
-import
--
-text
-"
-    
-"
 nonextensible
 -
 applies
@@ -247,6 +241,23 @@ includes
 "
     
 "
+Iterator
+.
+prototype
+.
+join
+"
+:
+"
+!
+Iterator
+.
+prototype
+.
+join
+"
+    
+"
 immutable
 -
 arraybuffer
@@ -324,6 +335,12 @@ regexp
 import
 -
 bytes
+"
+    
+"
+import
+-
+text
 "
 ]
 )
@@ -408,6 +425,24 @@ includes
 "
     
 "
+Iterator
+.
+prototype
+.
+join
+"
+:
+"
+-
+-
+enable
+-
+iterator
+-
+join
+"
+    
+"
 Atomics
 .
 waitAsync
@@ -451,6 +486,22 @@ enable
 import
 -
 bytes
+"
+    
+"
+import
+-
+text
+"
+:
+"
+-
+-
+enable
+-
+import
+-
+text
 "
     
 "
