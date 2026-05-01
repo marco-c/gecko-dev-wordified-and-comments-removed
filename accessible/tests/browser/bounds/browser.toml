@@ -167,6 +167,13 @@ bug
 ]
 [
 "
+browser_test_scroll_display_contents
+.
+js
+"
+]
+[
+"
 browser_test_simple_transform
 .
 js
