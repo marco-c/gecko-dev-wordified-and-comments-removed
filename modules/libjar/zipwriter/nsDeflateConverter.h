@@ -129,8 +129,9 @@ private
 nsDeflateConverter
 (
 )
-{
-}
+=
+default
+;
 enum
 WrapMode
 {

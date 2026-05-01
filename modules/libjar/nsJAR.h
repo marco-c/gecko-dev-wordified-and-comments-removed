@@ -342,8 +342,9 @@ virtual
 nsJARItem
 (
 )
-{
-}
+=
+default
+;
 const
 uint32_t
 mSize
