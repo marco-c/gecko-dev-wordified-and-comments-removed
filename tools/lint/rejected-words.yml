@@ -53,6 +53,10 @@ check
 rejected
 -
 words
+check
+-
+config
+:
 regex
 -
 pattern
@@ -3415,6 +3419,10 @@ check
 rejected
 -
 words
+check
+-
+config
+:
 regex
 -
 pattern

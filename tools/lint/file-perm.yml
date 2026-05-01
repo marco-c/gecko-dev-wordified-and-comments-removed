@@ -171,11 +171,6 @@ include
 :
 -
 .
-allow
--
-shebang
-:
-true
 extensions
 :
 -
@@ -215,3 +210,12 @@ check
 file
 -
 perm
+check
+-
+config
+:
+allow
+-
+shebang
+:
+true
