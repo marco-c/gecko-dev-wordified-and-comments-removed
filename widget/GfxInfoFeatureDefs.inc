@@ -115,6 +115,13 @@ hardwarevideodecoding
 )
 GFXINFO_FEATURE
 (
+HARDWARE_VIDEO_DECODING_VULKAN
+"
+hardwarevideodecodingvulkan
+"
+)
+GFXINFO_FEATURE
+(
 DIRECT3D_11_ANGLE
 "
 direct3d11angle
@@ -274,7 +281,7 @@ webrender
 scissored_cache_clears
 "
 )
-GFXINFO_FEATURE
+GFXINFO_FEATURE_RETIRED
 (
 ALLOW_WEBGL_OUT_OF_PROCESS
 "
