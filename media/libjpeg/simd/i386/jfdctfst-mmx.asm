@@ -4,6 +4,9 @@ Fast
 integer
 FDCT
 (
+32
+-
+bit
 MMX
 )
 ;
@@ -28,6 +31,8 @@ C
 )
 2016
 2024
+-
+2025
 D
 .
 R
@@ -100,8 +105,8 @@ accurate
 integer
 implementation
 of
-;
 the
+;
 forward
 DCT
 (
@@ -114,8 +119,8 @@ The
 following
 code
 is
-;
 based
+;
 directly
 on
 the
@@ -128,11 +133,9 @@ jfdctfst
 c
 ;
 see
-the
 jfdctfst
 .
 c
-;
 for
 more
 details
@@ -635,7 +638,6 @@ SEG_TEXT
 BITS
 32
 ;
-;
 Perform
 the
 forward
@@ -659,7 +661,6 @@ DCTELEM
 *
 data
 )
-;
 %
 define
 data
@@ -893,6 +894,7 @@ mm0
 22
 23
 )
+;
 mm2
 =
 (
@@ -910,6 +912,7 @@ mm1
 32
 33
 )
+;
 mm3
 =
 (
@@ -1043,6 +1046,7 @@ mm6
 02
 03
 )
+;
 mm1
 =
 (
@@ -1060,6 +1064,7 @@ mm7
 12
 13
 )
+;
 mm3
 =
 (
@@ -1992,6 +1997,7 @@ mm0
 22
 32
 )
+;
 mm2
 =
 (
@@ -2009,6 +2015,7 @@ mm1
 23
 33
 )
+;
 mm3
 =
 (
@@ -2142,6 +2149,7 @@ mm6
 20
 30
 )
+;
 mm1
 =
 (
@@ -2159,6 +2167,7 @@ mm7
 21
 31
 )
+;
 mm3
 =
 (

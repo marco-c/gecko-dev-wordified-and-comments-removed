@@ -4,6 +4,9 @@ Accurate
 integer
 IDCT
 (
+32
+-
+bit
 MMX
 )
 ;
@@ -29,6 +32,8 @@ C
 2016
 2020
 2024
+-
+2025
 D
 .
 R
@@ -129,12 +134,10 @@ jidctint
 c
 ;
 see
-the
 jidctint
 .
 c
 for
-;
 more
 details
 .
@@ -904,7 +907,6 @@ SEG_TEXT
 BITS
 32
 ;
-;
 Perform
 dequantization
 and
@@ -936,7 +938,6 @@ output_buf
 JDIMENSION
 output_col
 )
-;
 %
 define
 dct_table

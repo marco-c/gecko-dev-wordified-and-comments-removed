@@ -5,6 +5,9 @@ Floating
 point
 FDCT
 (
+32
+-
+bit
 SSE
 )
 ;
@@ -29,6 +32,8 @@ C
 )
 2016
 2024
+-
+2025
 D
 .
 R
@@ -116,8 +121,8 @@ is
 based
 directly
 on
-;
 the
+;
 IJG
 '
 s
@@ -127,7 +132,6 @@ jfdctflt
 c
 ;
 see
-the
 jfdctflt
 .
 c
@@ -508,7 +512,6 @@ SEG_TEXT
 BITS
 32
 ;
-;
 Perform
 the
 forward
@@ -532,7 +535,6 @@ FAST_FLOAT
 *
 data
 )
-;
 %
 define
 data
@@ -766,6 +768,7 @@ xmm0
 22
 23
 )
+;
 xmm2
 =
 (
@@ -783,6 +786,7 @@ xmm1
 32
 33
 )
+;
 xmm3
 =
 (
@@ -916,6 +920,7 @@ xmm6
 02
 03
 )
+;
 xmm1
 =
 (
@@ -933,6 +938,7 @@ xmm7
 12
 13
 )
+;
 xmm3
 =
 (
@@ -1852,6 +1858,7 @@ xmm0
 22
 32
 )
+;
 xmm2
 =
 (
@@ -1869,6 +1876,7 @@ xmm1
 23
 33
 )
+;
 xmm3
 =
 (
@@ -2002,6 +2010,7 @@ xmm6
 20
 30
 )
+;
 xmm1
 =
 (
@@ -2019,6 +2028,7 @@ xmm7
 21
 31
 )
+;
 xmm3
 =
 (

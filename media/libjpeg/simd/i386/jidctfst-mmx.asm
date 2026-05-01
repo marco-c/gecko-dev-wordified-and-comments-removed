@@ -4,6 +4,9 @@ Fast
 integer
 IDCT
 (
+32
+-
+bit
 MMX
 )
 ;
@@ -28,6 +31,8 @@ C
 )
 2016
 2024
+-
+2025
 D
 .
 R
@@ -100,8 +105,8 @@ accurate
 integer
 implementation
 of
-;
 the
+;
 inverse
 DCT
 (
@@ -114,8 +119,8 @@ The
 following
 code
 is
-;
 based
+;
 directly
 on
 the
@@ -128,11 +133,9 @@ jidctfst
 c
 ;
 see
-the
 jidctfst
 .
 c
-;
 for
 more
 details
@@ -711,7 +714,6 @@ SEG_TEXT
 BITS
 32
 ;
-;
 Perform
 dequantization
 and
@@ -743,7 +745,6 @@ output_buf
 JDIMENSION
 output_col
 )
-;
 %
 define
 dct_table

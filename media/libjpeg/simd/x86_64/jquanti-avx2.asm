@@ -35,6 +35,8 @@ C
 2016
 2018
 2024
+-
+2025
 D
 .
 R
@@ -207,7 +209,6 @@ SEG_TEXT
 BITS
 64
 ;
-;
 Load
 data
 into
@@ -236,7 +237,6 @@ DCTELEM
 *
 workspace
 )
-;
 ;
 ;
 r10
@@ -809,8 +809,6 @@ DCTELEM
 *
 workspace
 )
-;
-;
 %
 define
 RECIPROCAL

@@ -4233,6 +4233,8 @@ __mips_isa_rev
 )
 #
 error
+\
+"
 Loongson
 MMI
 can
@@ -4244,6 +4246,8 @@ MIPS
 Release
 6
 +
+\
+"
 #
 endif
 int

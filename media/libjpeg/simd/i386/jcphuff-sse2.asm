@@ -7,6 +7,9 @@ progressive
 Huffman
 encoding
 (
+32
+-
+bit
 SSE2
 )
 ;
@@ -19,6 +22,18 @@ C
 2018
 Matthieu
 Darbois
+;
+Copyright
+(
+C
+)
+2025
+D
+.
+R
+.
+Commander
+.
 ;
 ;
 Based
@@ -1573,7 +1588,6 @@ edx
 %
 endmacro
 ;
-;
 Prepare
 data
 for
@@ -2321,7 +2335,6 @@ VALUES
 %
 undef
 LEN
-;
 ;
 Prepare
 data

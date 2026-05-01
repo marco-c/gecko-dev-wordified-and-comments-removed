@@ -6,6 +6,9 @@ conversion
 and
 quantization
 (
+32
+-
+bit
 AVX2
 )
 ;
@@ -31,6 +34,8 @@ C
 2016
 2018
 2024
+-
+2025
 D
 .
 R
@@ -193,7 +198,6 @@ SEG_TEXT
 BITS
 32
 ;
-;
 Load
 data
 into
@@ -222,8 +226,6 @@ DCTELEM
 *
 workspace
 )
-;
-;
 %
 define
 sample_data
@@ -820,8 +822,6 @@ DCTELEM
 *
 workspace
 )
-;
-;
 %
 define
 RECIPROCAL

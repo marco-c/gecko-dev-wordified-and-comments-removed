@@ -4,6 +4,9 @@ Grayscale
 colorspace
 conversion
 (
+32
+-
+bit
 MMX
 )
 ;

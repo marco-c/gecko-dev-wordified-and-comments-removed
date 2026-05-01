@@ -6,6 +6,9 @@ upsampling
 color
 conversion
 (
+32
+-
+bit
 MMX
 )
 ;

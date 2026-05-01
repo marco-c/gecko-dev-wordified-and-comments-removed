@@ -5,6 +5,9 @@ Floating
 point
 IDCT
 (
+32
+-
+bit
 SSE
 &
 MMX
@@ -31,6 +34,8 @@ C
 )
 2016
 2024
+-
+2025
 D
 .
 R
@@ -118,8 +123,8 @@ is
 based
 directly
 on
-;
 the
+;
 IJG
 '
 s
@@ -129,7 +134,6 @@ jidctflt
 c
 ;
 see
-the
 jidctflt
 .
 c
@@ -527,7 +531,6 @@ SEG_TEXT
 BITS
 32
 ;
-;
 Perform
 dequantization
 and
@@ -559,7 +562,6 @@ output_buf
 JDIMENSION
 output_col
 )
-;
 %
 define
 dct_table

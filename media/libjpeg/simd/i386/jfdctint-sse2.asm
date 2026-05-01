@@ -4,6 +4,9 @@ Accurate
 integer
 FDCT
 (
+32
+-
+bit
 SSE2
 )
 ;
@@ -29,6 +32,8 @@ C
 2016
 2020
 2024
+-
+2025
 D
 .
 R
@@ -129,12 +134,10 @@ jfdctint
 c
 ;
 see
-the
 jfdctint
 .
 c
 for
-;
 more
 details
 .
@@ -909,7 +912,6 @@ SEG_TEXT
 BITS
 32
 ;
-;
 Perform
 the
 forward
@@ -933,7 +935,6 @@ DCTELEM
 *
 data
 )
-;
 %
 define
 data
@@ -1157,6 +1158,7 @@ xmm0
 06
 07
 )
+;
 xmm2
 =
 (
@@ -1182,6 +1184,7 @@ xmm1
 16
 17
 )
+;
 xmm3
 =
 (
@@ -1339,6 +1342,7 @@ xmm6
 52
 60
 )
+;
 xmm1
 =
 (
@@ -1364,6 +1368,7 @@ xmm7
 53
 61
 )
+;
 xmm3
 =
 (
@@ -3387,6 +3392,7 @@ xmm6
 60
 70
 )
+;
 xmm0
 =
 (
@@ -3412,6 +3418,7 @@ xmm2
 61
 71
 )
+;
 xmm5
 =
 (
@@ -3547,6 +3554,7 @@ xmm2
 64
 74
 )
+;
 xmm5
 =
 (
@@ -3572,6 +3580,7 @@ xmm4
 65
 75
 )
+;
 xmm7
 =
 (

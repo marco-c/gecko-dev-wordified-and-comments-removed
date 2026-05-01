@@ -33,6 +33,8 @@ C
 2009
 2016
 2024
+-
+2025
 D
 .
 R
@@ -117,7 +119,6 @@ This
 file
 contains
 inverse
--
 DCT
 routines
 that
@@ -125,9 +126,9 @@ produce
 reduced
 -
 size
-;
 output
 :
+;
 either
 4x4
 or
@@ -139,12 +140,12 @@ an
 DCT
 block
 .
-;
 The
 following
 code
 is
 based
+;
 directly
 on
 the
@@ -156,9 +157,7 @@ jidctred
 .
 c
 ;
-;
 see
-the
 jidctred
 .
 c
@@ -998,7 +997,6 @@ SECTION
 SEG_TEXT
 BITS
 64
-;
 ;
 Perform
 dequantization
@@ -3497,6 +3495,7 @@ xmm0
 *
 17
 )
+;
 xmm1
 =
 (
@@ -3528,6 +3527,7 @@ xmm2
 *
 57
 )
+;
 xmm3
 =
 (

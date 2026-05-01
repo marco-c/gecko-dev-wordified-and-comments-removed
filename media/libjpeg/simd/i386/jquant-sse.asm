@@ -6,6 +6,9 @@ conversion
 and
 quantization
 (
+32
+-
+bit
 SSE
 &
 MMX
@@ -32,6 +35,8 @@ C
 )
 2016
 2024
+-
+2025
 D
 .
 R
@@ -185,7 +190,6 @@ SEG_TEXT
 BITS
 32
 ;
-;
 Load
 data
 into
@@ -214,8 +218,6 @@ FAST_FLOAT
 *
 workspace
 )
-;
-;
 %
 define
 sample_data
@@ -405,7 +407,7 @@ mm7
 mm1
 =
 (
-89ABCDEF
+89abcdef
 )
 punpcklbw
 mm2
@@ -451,9 +453,9 @@ mm3
 *
 9
 *
-A
+a
 *
-B
+b
 )
 punpckhbw
 mm1
@@ -463,13 +465,13 @@ mm1
 =
 (
 *
-C
+c
 *
-D
+d
 *
-E
+e
 *
-F
+f
 )
 punpcklwd
 mm4
@@ -657,11 +659,11 @@ mm3
 *
 *
 *
-A
+a
 *
 *
 *
-B
+b
 )
 punpcklwd
 mm4
@@ -673,11 +675,11 @@ mm4
 *
 *
 *
-C
+c
 *
 *
 *
-D
+d
 )
 punpckhwd
 mm1
@@ -689,11 +691,11 @@ mm1
 *
 *
 *
-E
+e
 *
 *
 *
-F
+f
 )
 psrad
 mm6
@@ -719,7 +721,7 @@ BYTE_BIT
 mm3
 =
 (
-AB
+ab
 )
 cvtpi2ps
 xmm4
@@ -739,7 +741,7 @@ mm3
 xmm5
 =
 (
-AB
+ab
 *
 *
 )
@@ -754,7 +756,7 @@ BYTE_BIT
 mm4
 =
 (
-CD
+cd
 )
 psrad
 mm1
@@ -767,7 +769,7 @@ BYTE_BIT
 mm1
 =
 (
-EF
+ef
 )
 cvtpi2ps
 xmm6
@@ -776,7 +778,7 @@ mm4
 xmm6
 =
 (
-CD
+cd
 *
 *
 )
@@ -787,7 +789,7 @@ mm1
 xmm7
 =
 (
-EF
+ef
 *
 *
 )
@@ -816,7 +818,7 @@ xmm5
 xmm4
 =
 (
-89AB
+89ab
 )
 movlhps
 xmm6
@@ -825,7 +827,7 @@ xmm7
 xmm6
 =
 (
-CDEF
+cdef
 )
 movaps
 XMMWORD
@@ -1030,8 +1032,6 @@ FAST_FLOAT
 *
 workspace
 )
-;
-;
 %
 define
 coef_block

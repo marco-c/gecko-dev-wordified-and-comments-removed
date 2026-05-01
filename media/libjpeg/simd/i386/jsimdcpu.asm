@@ -171,7 +171,6 @@ SEG_TEXT
 BITS
 32
 ;
-;
 Check
 if
 the
@@ -191,7 +190,6 @@ jpeg_simd_cpu_support
 (
 void
 )
-;
 align
 32
 GLOBAL_FUNCTION

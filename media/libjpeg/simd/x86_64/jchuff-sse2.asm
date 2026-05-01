@@ -25,7 +25,7 @@ C
 2021
 2023
 -
-2024
+2025
 D
 .
 R
@@ -275,6 +275,7 @@ S
 ]
 contains
 0
+.
 endstruc
 ;
 -
@@ -647,6 +648,7 @@ x
 4
 )
 +
+\
 (
 jpeg_mask_bits
 -
@@ -748,7 +750,7 @@ wN
 xmmN
 treated
 as
-eight
+8
 signed
 16
 -
@@ -766,7 +768,7 @@ same
 operation
 on
 all
-eight
+8
 signed
 16
 -
@@ -1103,6 +1105,7 @@ xmm0
 code
 =
 0
+;
 ;
 code
 |
@@ -1814,7 +1817,6 @@ return
 %
 endmacro
 ;
-;
 Encode
 a
 single
@@ -2058,8 +2060,9 @@ is
 an
 input
 dependency
+.
 (
-although
+Although
 the
 behavior
 is
@@ -4002,6 +4005,7 @@ temp
 =
 0
 ;
+;
 temp
 |
 =
@@ -4029,6 +4033,7 @@ Z
 put_buffer
 =
 0
+;
 ;
 put_buffer
 |
@@ -5001,6 +5006,7 @@ temp
 =
 0
 ;
+;
 temp
 |
 =
@@ -5380,6 +5386,7 @@ index
 =
 0
 ;
+;
 index
 |
 =
@@ -5543,6 +5550,7 @@ insert
 code
 flush
 buffer
+;
 goto
 .
 BLOOP_COND

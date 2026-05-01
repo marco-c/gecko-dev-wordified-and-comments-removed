@@ -2,6 +2,9 @@
 ;
 Downsampling
 (
+32
+-
+bit
 MMX
 )
 ;
@@ -26,6 +29,8 @@ C
 )
 2016
 2024
+-
+2025
 D
 .
 R
@@ -172,7 +177,6 @@ SEG_TEXT
 BITS
 32
 ;
-;
 Downsample
 pixel
 values
@@ -227,8 +231,6 @@ input_data
 JSAMPARRAY
 output_data
 )
-;
-;
 %
 define
 img_width
@@ -890,8 +892,6 @@ input_data
 JSAMPARRAY
 output_data
 )
-;
-;
 %
 define
 img_width

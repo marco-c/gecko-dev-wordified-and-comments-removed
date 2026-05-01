@@ -34,6 +34,8 @@ C
 2009
 2016
 2024
+-
+2025
 D
 .
 R
@@ -197,7 +199,6 @@ SEG_TEXT
 BITS
 64
 ;
-;
 Load
 data
 into
@@ -226,7 +227,6 @@ DCTELEM
 *
 workspace
 )
-;
 ;
 ;
 r10
@@ -371,7 +371,7 @@ SIZEOF_JSAMPLE
 xmm1
 =
 (
-89ABCDEF
+89abcdef
 )
 mov
 rbxp
@@ -417,7 +417,7 @@ SIZEOF_JSAMPLE
 xmm2
 =
 (
-GHIJKLMN
+ghijklmn
 )
 movq
 xmm3
@@ -433,7 +433,7 @@ SIZEOF_JSAMPLE
 xmm3
 =
 (
-OPQRSTUV
+opqrstuv
 )
 punpcklbw
 xmm0
@@ -451,7 +451,7 @@ xmm6
 xmm1
 =
 (
-89ABCDEF
+89abcdef
 )
 paddw
 xmm0
@@ -466,7 +466,7 @@ xmm6
 xmm2
 =
 (
-GHIJKLMN
+ghijklmn
 )
 punpcklbw
 xmm3
@@ -475,7 +475,7 @@ xmm6
 xmm3
 =
 (
-OPQRSTUV
+opqrstuv
 )
 paddw
 xmm2
@@ -702,8 +702,6 @@ DCTELEM
 *
 workspace
 )
-;
-;
 %
 define
 RECIPROCAL

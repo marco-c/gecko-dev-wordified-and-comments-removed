@@ -5,6 +5,9 @@ Floating
 point
 IDCT
 (
+32
+-
+bit
 SSE
 &
 SSE2
@@ -31,6 +34,8 @@ C
 )
 2016
 2024
+-
+2025
 D
 .
 R
@@ -118,8 +123,8 @@ is
 based
 directly
 on
-;
 the
+;
 IJG
 '
 s
@@ -129,7 +134,6 @@ jidctflt
 c
 ;
 see
-the
 jidctflt
 .
 c
@@ -533,7 +537,6 @@ SEG_TEXT
 BITS
 32
 ;
-;
 Perform
 dequantization
 and
@@ -565,7 +568,6 @@ output_buf
 JDIMENSION
 output_col
 )
-;
 %
 define
 dct_table
@@ -3926,9 +3928,6 @@ xmm2
 paddb
 xmm1
 xmm2
-movdqa
-xmm4
-xmm6
 ;
 transpose
 coefficients
@@ -3936,6 +3935,9 @@ coefficients
 phase
 2
 )
+movdqa
+xmm4
+xmm6
 punpcklwd
 xmm6
 xmm1
@@ -3984,9 +3986,6 @@ xmm4
 36
 37
 )
-movdqa
-xmm7
-xmm6
 ;
 transpose
 coefficients
@@ -3994,6 +3993,9 @@ coefficients
 phase
 3
 )
+movdqa
+xmm7
+xmm6
 punpckldq
 xmm6
 xmm4

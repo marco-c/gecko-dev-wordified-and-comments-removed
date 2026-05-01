@@ -2,6 +2,9 @@
 ;
 Upsampling
 (
+32
+-
+bit
 AVX2
 )
 ;
@@ -35,6 +38,8 @@ C
 )
 2016
 2024
+-
+2025
 D
 .
 R
@@ -296,7 +301,6 @@ SEG_TEXT
 BITS
 32
 ;
-;
 Fancy
 processing
 for
@@ -325,8 +329,8 @@ interpolation
 between
 pixel
 centers
-;
 also
+;
 known
 as
 a
@@ -341,9 +345,9 @@ a
 good
 compromise
 between
-;
 speed
 and
+;
 visual
 quality
 .
@@ -361,10 +365,10 @@ and
 3
 /
 4
-;
 of
 the
 way
+;
 between
 input
 pixel
@@ -392,8 +396,6 @@ JSAMPARRAY
 *
 output_data_ptr
 )
-;
-;
 %
 define
 max_v_samp
@@ -1727,8 +1729,6 @@ JSAMPARRAY
 *
 output_data_ptr
 )
-;
-;
 %
 define
 max_v_samp
@@ -2807,6 +2807,12 @@ Int1H
 30
 31
 )
+;
+temporarily
+save
+the
+intermediate
+data
 vmovdqu
 YMMWORD
 [
@@ -2817,9 +2823,6 @@ edx
 SIZEOF_YMMWORD
 ]
 ymm1
-;
-temporarily
-save
 vmovdqu
 YMMWORD
 [
@@ -2830,10 +2833,6 @@ edx
 SIZEOF_YMMWORD
 ]
 ymm5
-;
-the
-intermediate
-data
 vmovdqu
 YMMWORD
 [
@@ -3749,6 +3748,12 @@ Int1H
 30
 31
 )
+;
+temporarily
+save
+the
+intermediate
+data
 vmovdqu
 YMMWORD
 [
@@ -3759,9 +3764,6 @@ edx
 SIZEOF_YMMWORD
 ]
 ymm1
-;
-temporarily
-save
 vmovdqu
 YMMWORD
 [
@@ -3772,10 +3774,6 @@ edx
 SIZEOF_YMMWORD
 ]
 ymm5
-;
-the
-intermediate
-data
 vmovdqu
 YMMWORD
 [
@@ -5622,8 +5620,6 @@ JSAMPARRAY
 *
 output_data_ptr
 )
-;
-;
 %
 define
 max_v_samp
@@ -6138,8 +6134,6 @@ JSAMPARRAY
 *
 output_data_ptr
 )
-;
-;
 %
 define
 max_v_samp

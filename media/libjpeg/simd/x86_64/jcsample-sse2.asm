@@ -30,6 +30,8 @@ C
 2009
 2016
 2024
+-
+2025
 D
 .
 R
@@ -186,7 +188,6 @@ SEG_TEXT
 BITS
 64
 ;
-;
 Downsample
 pixel
 values
@@ -241,7 +242,6 @@ input_data
 JSAMPARRAY
 output_data
 )
-;
 ;
 ;
 r10d
@@ -799,7 +799,6 @@ input_data
 JSAMPARRAY
 output_data
 )
-;
 ;
 ;
 r10d

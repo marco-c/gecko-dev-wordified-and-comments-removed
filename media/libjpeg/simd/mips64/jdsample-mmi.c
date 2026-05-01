@@ -1536,9 +1536,9 @@ BYTE_BIT
 else
 {
 __m64
-tmp
+mmitmp
 ;
-tmp
+mmitmp
 =
 _mm_load_si64
 (
@@ -1559,10 +1559,10 @@ wk
 _mm_and_si64
 (
 masklast
-tmp
+mmitmp
 )
 ;
-tmp
+mmitmp
 =
 _mm_load_si64
 (
@@ -1583,7 +1583,7 @@ wk
 _mm_and_si64
 (
 masklast
-tmp
+mmitmp
 )
 ;
 }

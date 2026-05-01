@@ -5,6 +5,9 @@ Reduced
 size
 IDCT
 (
+32
+-
+bit
 MMX
 )
 ;
@@ -29,6 +32,8 @@ C
 )
 2016
 2024
+-
+2025
 D
 .
 R
@@ -94,7 +99,6 @@ This
 file
 contains
 inverse
--
 DCT
 routines
 that
@@ -102,9 +106,9 @@ produce
 reduced
 -
 size
-;
 output
 :
+;
 either
 4x4
 or
@@ -116,12 +120,12 @@ an
 DCT
 block
 .
-;
 The
 following
 code
 is
 based
+;
 directly
 on
 the
@@ -133,9 +137,7 @@ jidctred
 .
 c
 ;
-;
 see
-the
 jidctred
 .
 c
@@ -976,7 +978,6 @@ SEG_TEXT
 BITS
 32
 ;
-;
 Perform
 dequantization
 and
@@ -1017,7 +1018,6 @@ output_buf
 JDIMENSION
 output_col
 )
-;
 %
 define
 dct_table
@@ -3697,7 +3697,6 @@ output_buf
 JDIMENSION
 output_col
 )
-;
 %
 define
 dct_table
@@ -4098,6 +4097,7 @@ mm0
 *
 13
 )
+;
 mm1
 =
 (
@@ -4117,6 +4117,7 @@ mm2
 *
 53
 )
+;
 mm3
 =
 (
@@ -4425,6 +4426,7 @@ mm6
 *
 17
 )
+;
 mm1
 =
 (
@@ -4446,6 +4448,7 @@ mm3
 *
 57
 )
+;
 mm5
 =
 (
@@ -4639,6 +4642,7 @@ mm1
 *
 03
 )
+;
 mm5
 =
 (

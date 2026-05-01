@@ -32,6 +32,8 @@ C
 2009
 2016
 2024
+-
+2025
 D
 .
 R
@@ -113,8 +115,8 @@ accurate
 integer
 implementation
 of
-;
 the
+;
 forward
 DCT
 (
@@ -127,8 +129,8 @@ The
 following
 code
 is
-;
 based
+;
 directly
 on
 the
@@ -141,11 +143,9 @@ jfdctfst
 c
 ;
 see
-the
 jfdctfst
 .
 c
-;
 for
 more
 details
@@ -648,7 +648,6 @@ SEG_TEXT
 BITS
 64
 ;
-;
 Perform
 the
 forward
@@ -845,6 +844,7 @@ xmm0
 06
 07
 )
+;
 xmm2
 =
 (
@@ -870,6 +870,7 @@ xmm1
 16
 17
 )
+;
 xmm3
 =
 (
@@ -1027,6 +1028,7 @@ xmm6
 52
 60
 )
+;
 xmm1
 =
 (
@@ -1052,6 +1054,7 @@ xmm7
 53
 61
 )
+;
 xmm3
 =
 (
@@ -2152,6 +2155,7 @@ xmm1
 60
 70
 )
+;
 xmm7
 =
 (
@@ -2177,6 +2181,7 @@ xmm5
 61
 71
 )
+;
 xmm6
 =
 (
@@ -2312,6 +2317,7 @@ xmm5
 64
 74
 )
+;
 xmm6
 =
 (
@@ -2337,6 +2343,7 @@ xmm2
 65
 75
 )
+;
 xmm3
 =
 (

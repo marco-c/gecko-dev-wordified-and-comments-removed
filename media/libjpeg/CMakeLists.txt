@@ -75,7 +75,7 @@ VERSION
 .
 1
 .
-2
+3
 )
 set
 (
@@ -4311,13 +4311,7 @@ endif
 if
 (
 NOT
-MSVC
-OR
-CMAKE_C_COMPILER_ID
-MATCHES
-"
-Clang
-"
+WIN32
 )
 check_c_source_compiles
 (
@@ -5083,11 +5077,6 @@ include_directories
 {
 CMAKE_CURRENT_BINARY_DIR
 }
-{
-CMAKE_CURRENT_SOURCE_DIR
-}
-/
-src
 )
 #
 #

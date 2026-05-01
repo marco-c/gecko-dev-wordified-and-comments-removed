@@ -3,6 +3,9 @@
 Colorspace
 conversion
 (
+32
+-
+bit
 MMX
 )
 ;

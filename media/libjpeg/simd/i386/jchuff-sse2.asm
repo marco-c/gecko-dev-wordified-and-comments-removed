@@ -4,6 +4,9 @@ Huffman
 entropy
 encoding
 (
+32
+-
+bit
 SSE2
 )
 ;
@@ -20,6 +23,8 @@ C
 2017
 2019
 2024
+-
+2025
 D
 .
 R
@@ -260,6 +265,7 @@ S
 ]
 contains
 0
+.
 endstruc
 ;
 -
@@ -642,6 +648,7 @@ x
 8
 )
 +
+\
 (
 jpeg_mask_bits
 -
@@ -775,7 +782,7 @@ wN
 xmmN
 treated
 as
-eight
+8
 signed
 16
 -
@@ -793,7 +800,7 @@ same
 operation
 on
 all
-eight
+8
 signed
 16
 -
@@ -822,7 +829,7 @@ or
 mmN
 treated
 as
-eight
+8
 unsigned
 8
 -
@@ -1243,6 +1250,7 @@ mm_temp
 nbits
 =
 0
+;
 ;
 nbits
 |
@@ -2352,7 +2360,6 @@ endif
 %
 endmacro
 ;
-;
 Encode
 a
 single
@@ -2692,8 +2699,9 @@ is
 an
 input
 dependency
+.
 (
-although
+Although
 the
 behavior
 is
@@ -4327,6 +4335,7 @@ index_temp
 =
 0
 ;
+;
 index_temp
 |
 =
@@ -4354,6 +4363,7 @@ Z
 index
 =
 0
+;
 ;
 index
 |
@@ -6409,6 +6419,7 @@ insert
 code
 flush
 buffer
+;
 init
 size
 goto
@@ -6514,6 +6525,7 @@ the
 previous
 index
 had
+;
 32
 zero
 bits
@@ -6532,6 +6544,7 @@ xmm4
 size
 =
 0
+;
 ;
 size
 |
@@ -6558,6 +6571,7 @@ xmm5
 index
 =
 0
+;
 ;
 index
 |
@@ -7287,6 +7301,7 @@ insert
 code
 flush
 buffer
+;
 init
 size
 goto
