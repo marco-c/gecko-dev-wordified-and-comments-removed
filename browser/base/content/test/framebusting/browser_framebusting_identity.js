@@ -78,7 +78,7 @@ blank
 )
 ;
 await
-triggerFramebusting
+triggerFramebustingIntervention
 (
 tab
 )
@@ -441,7 +441,7 @@ state
 )
 ;
 await
-triggerFramebusting
+triggerFramebustingIntervention
 (
 tab
 )

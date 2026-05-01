@@ -43,10 +43,3 @@ browser_framebusting_notification
 js
 "
 ]
-[
-"
-browser_framebusting_sandbox
-.
-js
-"
-]
