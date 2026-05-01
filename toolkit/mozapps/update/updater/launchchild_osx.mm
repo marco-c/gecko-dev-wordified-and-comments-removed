@@ -515,6 +515,13 @@ arguments
 ;
 [
 config
+setActivates
+:
+NO
+]
+;
+[
+config
 setCreatesNewApplicationInstance
 :
 YES
