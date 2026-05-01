@@ -1186,6 +1186,9 @@ Technologies
 "
 ;
 case
+VENDOR_ID_QUALCOMM_DXGI
+:
+case
 VENDOR_ID_QUALCOMM
 :
 return
