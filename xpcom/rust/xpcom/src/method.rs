@@ -3,8 +3,8 @@ nserror
 :
 :
 {
-nsresult
 NS_ERROR_NULL_POINTER
+nsresult
 }
 ;
 #
@@ -28,6 +28,8 @@ let
 name
 =
 match
+unsafe
+{
 crate
 :
 :
@@ -38,6 +40,7 @@ ensure
 (
 name
 )
+}
 {
 Ok
 (
@@ -149,6 +152,8 @@ val
 =
 >
 {
+unsafe
+{
 val
 .
 forget
@@ -158,6 +163,7 @@ mut
 *
 retval
 )
+}
 ;
 NS_OK
 }
@@ -263,6 +269,8 @@ val
 =
 >
 {
+unsafe
+{
 (
 *
 retval
@@ -273,6 +281,7 @@ assign
 &
 val
 )
+}
 ;
 NS_OK
 }
@@ -378,6 +387,8 @@ val
 =
 >
 {
+unsafe
+{
 (
 *
 retval
@@ -388,6 +399,7 @@ assign
 &
 val
 )
+}
 ;
 NS_OK
 }
@@ -495,10 +507,13 @@ val
 =
 >
 {
+unsafe
+{
 *
 retval
 =
 val
+}
 ;
 NS_OK
 }
