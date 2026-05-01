@@ -1025,6 +1025,11 @@ event
 detail
 .
 backupPassword
+source
+:
+"
+preferences
+"
 }
 }
 )

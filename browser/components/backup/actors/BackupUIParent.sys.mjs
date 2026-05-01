@@ -1621,6 +1621,7 @@ let
 backupFile
 backupPassword
 restoreType
+source
 }
 =
 message
@@ -1659,6 +1660,7 @@ replace
 replaceCurrentProfile
 *
 /
+source
 )
 ;
 }

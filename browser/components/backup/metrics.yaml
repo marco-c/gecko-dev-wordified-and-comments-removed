@@ -5269,3 +5269,13 @@ backup_legacy_client_id
 type
 :
 string
+intermediate_profile_creation_date
+:
+type
+:
+number
+restore_source
+:
+type
+:
+string

@@ -700,6 +700,7 @@ let
 backupFile
 backupPassword
 restoreType
+source
 }
 =
 event
@@ -721,6 +722,7 @@ RestoreFromBackupFile
 backupFile
 backupPassword
 restoreType
+source
 }
 )
 ;
