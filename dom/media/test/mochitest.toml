@@ -383,6 +383,13 @@ headers
 ^
 "
 "
+adts
+-
+cbr
+.
+aac
+"
+"
 allowed
 .
 sjs
@@ -8876,6 +8883,13 @@ mda_gpu
 #
 Bug
 1942396
+]
+[
+"
+test_adts_dataurl_duration
+.
+html
+"
 ]
 [
 "
