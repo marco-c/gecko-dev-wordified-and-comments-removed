@@ -2982,6 +2982,7 @@ async
 function
 test_inner_connection_fallback
 (
+ServerClass
 )
 {
 info
@@ -3027,7 +3028,7 @@ let
 server
 =
 new
-NodeHTTPSServer
+ServerClass
 (
 )
 ;
@@ -3336,6 +3337,13 @@ server
 .
 stop
 (
+)
+;
+pps
+.
+unregisterFilter
+(
+proxyFilter
 )
 ;
 }
@@ -3711,13 +3719,6 @@ testing
 "
 "
 "
-)
-;
-pps
-.
-unregisterFilter
-(
-proxyFilter
 )
 ;
 let
