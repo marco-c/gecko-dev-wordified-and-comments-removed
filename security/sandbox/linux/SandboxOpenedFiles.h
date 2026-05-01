@@ -169,6 +169,13 @@ SandboxOpenedFiles
 =
 default
 ;
+~
+SandboxOpenedFiles
+(
+)
+=
+delete
+;
 template
 <
 typename
@@ -229,13 +236,6 @@ vector
 SandboxOpenedFile
 >
 mFiles
-;
-~
-SandboxOpenedFiles
-(
-)
-=
-delete
 ;
 }
 ;
