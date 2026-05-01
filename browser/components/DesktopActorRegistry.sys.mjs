@@ -1386,17 +1386,6 @@ events
 "
 AIChatContent
 :
-DispatchSearch
-"
-:
-{
-wantUntrusted
-:
-true
-}
-"
-AIChatContent
-:
 DispatchFollowUp
 "
 :
