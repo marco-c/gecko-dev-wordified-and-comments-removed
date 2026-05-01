@@ -127,12 +127,6 @@ enableSplitMerge
 true
 )
 ;
-#
-if
-defined
-(
-EARLY_BETA_OR_EARLIER
-)
 pref
 (
 "
@@ -143,8 +137,6 @@ enableMerge
 true
 )
 ;
-#
-endif
 #
 endif
 #
