@@ -180,13 +180,6 @@ EXTRA_JS_MODULES
 =
 [
 "
-BreachAlertStore
-.
-sys
-.
-mjs
-"
-"
 crypto
 -
 SDR
