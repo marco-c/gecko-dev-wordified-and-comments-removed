@@ -547,16 +547,6 @@ shippable
 /
 opt
 -
-macosx1400
--
-64
--
-shippable
--
-qr
-/
-opt
--
 macosx1470
 -
 64
