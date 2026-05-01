@@ -325,12 +325,6 @@ kVendorID_Qualcomm
 ;
 constexpr
 VendorID
-kVendorID_Qualcomm_DXGI
-=
-0x4D4F4351
-;
-constexpr
-VendorID
 kVendorID_VMWare
 =
 0x15ad
