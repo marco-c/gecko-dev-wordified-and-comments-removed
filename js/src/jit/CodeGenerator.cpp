@@ -35573,12 +35573,12 @@ getCellIndex
 cell
 )
 ;
-size_t
+auto
+[
 word
-;
-uint32_t
 mask
-;
+]
+=
 gc
 :
 :
@@ -35588,10 +35588,6 @@ ArenaCellSet
 getWordIndexAndMask
 (
 index
-&
-word
-&
-mask
 )
 ;
 size_t
