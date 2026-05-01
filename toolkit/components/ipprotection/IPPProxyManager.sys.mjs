@@ -3498,7 +3498,7 @@ lazy
 .
 IPProtectionService
 .
-guardian
+authProvider
 .
 fetchProxyPass
 (
@@ -4310,7 +4310,7 @@ lazy
 .
 IPProtectionService
 .
-guardian
+authProvider
 .
 fetchProxyUsage
 (
