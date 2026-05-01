@@ -5208,11 +5208,10 @@ technical
 send_in_pings
 :
 -
-post
--
-profile
--
-restore
+metrics
+lifetime
+:
+application
 notification_emails
 :
 -
