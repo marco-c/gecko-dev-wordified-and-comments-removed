@@ -82,7 +82,7 @@ prim_store
 :
 :
 {
-PrimitiveInstanceKind
+PrimitiveKind
 PrimitiveStore
 RectKey
 }
@@ -328,9 +328,9 @@ PrimitiveStore
 )
 -
 >
-PrimitiveInstanceKind
+PrimitiveKind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BoxShadow

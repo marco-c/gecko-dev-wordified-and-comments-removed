@@ -175,7 +175,7 @@ PrimKey
 PrimTemplate
 PrimTemplateCommonData
 PrimitiveInstanceIndex
-PrimitiveInstanceKind
+PrimitiveKind
 PrimitiveOpacity
 PrimitiveScratchBuffer
 PrimitiveStore
@@ -2358,7 +2358,7 @@ PrimitiveStore
 )
 -
 >
-PrimitiveInstanceKind
+PrimitiveKind
 {
 let
 image_instance_index
@@ -2410,7 +2410,7 @@ new
 }
 )
 ;
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Image
@@ -3591,9 +3591,9 @@ PrimitiveStore
 )
 -
 >
-PrimitiveInstanceKind
+PrimitiveKind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 YuvImage

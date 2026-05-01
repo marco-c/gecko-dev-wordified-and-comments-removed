@@ -208,7 +208,7 @@ prim_store
 :
 :
 {
-PrimitiveInstanceKind
+PrimitiveKind
 ClipData
 }
 ;
@@ -4473,7 +4473,7 @@ batch
 }
 if
 let
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Picture
@@ -6986,7 +6986,7 @@ prim_instance
 .
 kind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Rectangle
@@ -6996,7 +6996,7 @@ segment_instance_index
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 YuvImage
@@ -7092,7 +7092,7 @@ prim_instance
 .
 kind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 RadialGradient
@@ -7120,7 +7120,7 @@ path
 )
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 ConicGradient
@@ -7148,7 +7148,7 @@ path
 )
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 ImageBorder
@@ -7417,7 +7417,7 @@ prim_instance
 .
 kind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Picture
@@ -7429,7 +7429,7 @@ Picture
 >
 {
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 RadialGradient
@@ -7441,7 +7441,7 @@ RadialGradient
 >
 {
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 ConicGradient
@@ -7453,7 +7453,7 @@ ConicGradient
 >
 {
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 ImageBorder
@@ -7465,7 +7465,7 @@ ImageBorder
 >
 {
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BoxShadow
@@ -7500,7 +7500,7 @@ infra
 )
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 NormalBorder
@@ -7756,7 +7756,7 @@ render_tasks
 )
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 TextRun
@@ -8787,7 +8787,7 @@ is_packed_glyph
 )
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 LineDecoration
@@ -9033,7 +9033,7 @@ specific_resource_address
 )
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Rectangle
@@ -9135,7 +9135,7 @@ render_tasks
 )
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 YuvImage
@@ -9494,7 +9494,7 @@ render_tasks
 )
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Image
@@ -10368,7 +10368,7 @@ as_int
 }
 }
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 LinearGradient
@@ -10396,7 +10396,7 @@ path
 )
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BackdropCapture
@@ -10408,7 +10408,7 @@ BackdropCapture
 >
 {
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BackdropRender

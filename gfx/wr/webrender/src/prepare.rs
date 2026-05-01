@@ -1036,7 +1036,7 @@ false
 ;
 if
 let
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Picture
@@ -1123,7 +1123,7 @@ prim_instance
 .
 kind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Rectangle
@@ -1132,7 +1132,7 @@ Rectangle
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 RadialGradient
@@ -1141,7 +1141,7 @@ RadialGradient
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 ConicGradient
@@ -1150,7 +1150,7 @@ ConicGradient
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 LinearGradient
@@ -1166,7 +1166,7 @@ use_legacy_path
 false
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Image
@@ -1225,7 +1225,7 @@ prim_instance
 .
 kind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Rectangle
@@ -1234,7 +1234,7 @@ Rectangle
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Image
@@ -1243,7 +1243,7 @@ Image
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 RadialGradient
@@ -1252,7 +1252,7 @@ RadialGradient
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 ConicGradient
@@ -1261,7 +1261,7 @@ ConicGradient
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 LinearGradient
@@ -1292,7 +1292,7 @@ data_stores
 ;
 use_legacy_path
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BoxShadow
@@ -1301,7 +1301,7 @@ BoxShadow
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Picture
@@ -1491,7 +1491,7 @@ prim_instance
 .
 kind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BoxShadow
@@ -2473,7 +2473,7 @@ scratch
 return
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 LineDecoration
@@ -2565,7 +2565,7 @@ render_task
 )
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 TextRun
@@ -2853,7 +2853,7 @@ frame_state
 )
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 NormalBorder
@@ -2999,7 +2999,7 @@ scratch_handle
 handle
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 ImageBorder
@@ -3047,7 +3047,7 @@ frame_state
 )
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Rectangle
@@ -3240,7 +3240,7 @@ return
 ;
 }
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 YuvImage
@@ -3346,7 +3346,7 @@ writer
 )
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Image
@@ -3526,7 +3526,7 @@ request
 )
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 LinearGradient
@@ -3830,7 +3830,7 @@ scratch
 return
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 RadialGradient
@@ -3987,7 +3987,7 @@ scratch
 return
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 ConicGradient
@@ -4290,7 +4290,7 @@ scratch
 return
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Picture
@@ -5245,7 +5245,7 @@ plane_split_anchor
 ;
 }
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BackdropCapture
@@ -5326,7 +5326,7 @@ TRANSPARENT
 }
 }
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BackdropRender
@@ -5677,7 +5677,7 @@ instance
 .
 kind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BoxShadow
@@ -5708,7 +5708,7 @@ path
 )
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Picture
@@ -5717,7 +5717,7 @@ Picture
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 TextRun
@@ -5726,7 +5726,7 @@ TextRun
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 LineDecoration
@@ -5735,7 +5735,7 @@ LineDecoration
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BackdropCapture
@@ -5744,7 +5744,7 @@ BackdropCapture
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BackdropRender
@@ -5759,7 +5759,7 @@ return
 None
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Image
@@ -5813,7 +5813,7 @@ segment_instance
 segments_range
 ]
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 YuvImage
@@ -5867,7 +5867,7 @@ segment_instance
 segments_range
 ]
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Rectangle
@@ -5921,7 +5921,7 @@ segment_instance
 segments_range
 ]
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 ImageBorder
@@ -5954,7 +5954,7 @@ as_slice
 (
 )
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 NormalBorder
@@ -5987,7 +5987,7 @@ as_slice
 (
 )
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 LinearGradient
@@ -6031,7 +6031,7 @@ as_slice
 (
 )
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 RadialGradient
@@ -6059,7 +6059,7 @@ path
 )
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 ConicGradient
@@ -7183,7 +7183,7 @@ instance
 .
 kind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Rectangle
@@ -7199,7 +7199,7 @@ segment_instance_index
 {
 segment_instance_index
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 YuvImage
@@ -7235,7 +7235,7 @@ return
 }
 segment_instance_index
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Image
@@ -7326,7 +7326,7 @@ image_instance
 .
 segment_instance_index
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Picture
@@ -7335,7 +7335,7 @@ Picture
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 TextRun
@@ -7344,7 +7344,7 @@ TextRun
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 NormalBorder
@@ -7353,7 +7353,7 @@ NormalBorder
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 ImageBorder
@@ -7362,7 +7362,7 @@ ImageBorder
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 LinearGradient
@@ -7371,7 +7371,7 @@ LinearGradient
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 RadialGradient
@@ -7380,7 +7380,7 @@ RadialGradient
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 ConicGradient
@@ -7389,7 +7389,7 @@ ConicGradient
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 LineDecoration
@@ -7398,7 +7398,7 @@ LineDecoration
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BackdropCapture
@@ -7407,7 +7407,7 @@ BackdropCapture
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BackdropRender
@@ -7421,7 +7421,7 @@ BackdropRender
 return
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BoxShadow

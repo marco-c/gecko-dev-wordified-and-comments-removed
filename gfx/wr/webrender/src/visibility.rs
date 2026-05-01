@@ -141,7 +141,7 @@ prim_store
 {
 ClipTaskIndex
 PictureIndex
-PrimitiveInstanceKind
+PrimitiveKind
 }
 ;
 use
@@ -1128,7 +1128,7 @@ prim_range
 {
 if
 let
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Picture

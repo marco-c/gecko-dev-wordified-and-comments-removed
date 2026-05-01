@@ -259,7 +259,7 @@ prim_store
 :
 {
 PrimitiveInstance
-PrimitiveInstanceKind
+PrimitiveKind
 PrimitiveScratchBuffer
 PictureIndex
 }
@@ -9214,7 +9214,7 @@ matches
 prim_instance
 .
 kind
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Rectangle
@@ -9348,7 +9348,7 @@ prim_instance
 .
 kind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Picture
@@ -9410,7 +9410,7 @@ into
 ;
 }
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Rectangle
@@ -9518,7 +9518,7 @@ into
 ;
 }
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Image
@@ -9948,7 +9948,7 @@ key
 )
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 YuvImage
@@ -10400,7 +10400,7 @@ key
 ;
 }
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 ImageBorder
@@ -10456,7 +10456,7 @@ key
 )
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 LinearGradient
@@ -10527,7 +10527,7 @@ zero
 ;
 }
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 ConicGradient
@@ -10598,7 +10598,7 @@ zero
 ;
 }
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 RadialGradient
@@ -10669,7 +10669,7 @@ zero
 ;
 }
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BackdropCapture
@@ -10681,7 +10681,7 @@ BackdropCapture
 >
 {
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BackdropRender
@@ -10893,7 +10893,7 @@ pic_coverage_rect
 ;
 }
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 LineDecoration
@@ -10902,7 +10902,7 @@ LineDecoration
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 NormalBorder
@@ -10911,7 +10911,7 @@ NormalBorder
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BoxShadow
@@ -10920,7 +10920,7 @@ BoxShadow
 .
 }
 |
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 TextRun

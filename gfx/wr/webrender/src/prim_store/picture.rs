@@ -54,7 +54,7 @@ prim_store
 :
 :
 {
-PrimitiveInstanceKind
+PrimitiveKind
 PrimitiveStore
 InternablePrimitive
 }
@@ -355,7 +355,7 @@ PrimitiveStore
 )
 -
 >
-PrimitiveInstanceKind
+PrimitiveKind
 {
 unreachable
 !

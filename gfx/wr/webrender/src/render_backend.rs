@@ -383,7 +383,7 @@ prim_store
 :
 :
 {
-PrimitiveInstanceKind
+PrimitiveKind
 PrimTemplateCommonData
 }
 ;
@@ -1072,7 +1072,7 @@ prim_instance
 .
 kind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Picture
@@ -1220,7 +1220,7 @@ prim_instance
 .
 kind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Picture
@@ -1356,7 +1356,7 @@ prim_instance
 .
 kind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Picture
@@ -1404,7 +1404,7 @@ prim_instance
 .
 kind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Picture
@@ -1461,7 +1461,7 @@ prim_inst
 .
 kind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Rectangle
@@ -1489,7 +1489,7 @@ prim_data
 .
 common
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Image
@@ -1517,7 +1517,7 @@ prim_data
 .
 common
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 ImageBorder
@@ -1545,7 +1545,7 @@ prim_data
 .
 common
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 LineDecoration
@@ -1573,7 +1573,7 @@ prim_data
 .
 common
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 LinearGradient
@@ -1601,7 +1601,7 @@ prim_data
 .
 common
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 NormalBorder
@@ -1629,7 +1629,7 @@ prim_data
 .
 common
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Picture
@@ -1659,7 +1659,7 @@ data
 )
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 RadialGradient
@@ -1687,7 +1687,7 @@ prim_data
 .
 common
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 ConicGradient
@@ -1715,7 +1715,7 @@ prim_data
 .
 common
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 TextRun
@@ -1743,7 +1743,7 @@ prim_data
 .
 common
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 YuvImage
@@ -1771,7 +1771,7 @@ prim_data
 .
 common
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BackdropCapture
@@ -1799,7 +1799,7 @@ prim_data
 .
 common
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BackdropRender
@@ -1827,7 +1827,7 @@ prim_data
 .
 common
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BoxShadow

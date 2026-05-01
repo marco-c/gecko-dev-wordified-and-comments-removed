@@ -179,7 +179,7 @@ prim_store
 {
 PictureIndex
 PrimitiveInstance
-PrimitiveInstanceKind
+PrimitiveKind
 }
 ;
 use
@@ -1635,7 +1635,7 @@ prim_instance
 .
 kind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Picture
@@ -1657,7 +1657,7 @@ pic_index
 )
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 TextRun
@@ -1675,7 +1675,7 @@ needs_scissor_rect
 true
 ;
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 YuvImage
@@ -1706,7 +1706,7 @@ yuv_image_surface_count
 ;
 }
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Image
