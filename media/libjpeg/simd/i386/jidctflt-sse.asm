@@ -1,10 +1,6 @@
 ;
 ;
-jidctflt
-.
-asm
--
-floating
+Floating
 -
 point
 IDCT

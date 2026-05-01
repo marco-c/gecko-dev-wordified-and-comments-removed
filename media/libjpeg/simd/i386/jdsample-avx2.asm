@@ -1,10 +1,6 @@
 ;
 ;
-jdsample
-.
-asm
--
-upsampling
+Upsampling
 (
 AVX2
 )

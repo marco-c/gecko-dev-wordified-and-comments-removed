@@ -1,10 +1,6 @@
 ;
 ;
-jidctint
-.
-asm
--
-accurate
+Accurate
 integer
 IDCT
 (

@@ -1,10 +1,6 @@
 ;
 ;
-jquantf
-.
-asm
--
-sample
+Sample
 data
 conversion
 and

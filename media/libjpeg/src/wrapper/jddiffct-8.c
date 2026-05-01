@@ -1,0 +1,14 @@
+#
+define
+BITS_IN_JSAMPLE
+8
+#
+include
+"
+.
+.
+/
+jddiffct
+.
+c
+"

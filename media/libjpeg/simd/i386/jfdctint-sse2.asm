@@ -1,10 +1,6 @@
 ;
 ;
-jfdctint
-.
-asm
--
-accurate
+Accurate
 integer
 FDCT
 (

@@ -1,10 +1,6 @@
 ;
 ;
-jidctred
-.
-asm
--
-reduced
+Reduced
 -
 size
 IDCT

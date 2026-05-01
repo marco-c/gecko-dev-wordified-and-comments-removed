@@ -1,10 +1,6 @@
 ;
 ;
-jidctfst
-.
-asm
--
-fast
+Fast
 integer
 IDCT
 (

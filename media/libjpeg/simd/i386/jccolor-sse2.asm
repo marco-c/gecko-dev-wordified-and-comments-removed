@@ -1,10 +1,6 @@
 ;
 ;
-jccolor
-.
-asm
--
-colorspace
+Colorspace
 conversion
 (
 SSE2

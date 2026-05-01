@@ -1821,6 +1821,13 @@ NULL
 ;
 if
 (
+!
+master
+-
+>
+using_merged_upsample
+&
+&
 cinfo
 -
 >
@@ -1864,6 +1871,12 @@ dummy_row
 }
 if
 (
+cinfo
+-
+>
+quantize_colors
+&
+&
 cinfo
 -
 >

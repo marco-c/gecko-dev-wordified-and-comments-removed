@@ -1,10 +1,6 @@
 ;
 ;
-jcsample
-.
-asm
--
-downsampling
+Downsampling
 (
 SSE2
 )

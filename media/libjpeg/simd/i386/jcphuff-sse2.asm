@@ -1,12 +1,6 @@
 ;
 ;
-jcphuff
--
-sse2
-.
-asm
--
-prepare
+Prepare
 data
 for
 progressive

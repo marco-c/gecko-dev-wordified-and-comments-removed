@@ -1,9 +1,5 @@
 ;
 ;
-jsimdcpu
-.
-asm
--
 SIMD
 instruction
 support

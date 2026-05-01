@@ -1,10 +1,6 @@
 ;
 ;
-jcgray
-.
-asm
--
-grayscale
+Grayscale
 colorspace
 conversion
 (

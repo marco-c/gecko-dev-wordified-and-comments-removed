@@ -33,6 +33,12 @@ defined
 (
 _M_ARM64
 )
+|
+|
+defined
+(
+_M_ARM64EC
+)
 #
 if
 !

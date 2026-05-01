@@ -1,10 +1,6 @@
 ;
 ;
-jfdctfst
-.
-asm
--
-fast
+Fast
 integer
 FDCT
 (

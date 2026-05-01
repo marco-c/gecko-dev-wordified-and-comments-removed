@@ -10,6 +10,12 @@ defined
 (
 _M_ARM64
 )
+|
+|
+defined
+(
+_M_ARM64EC
+)
 #
 define
 BIT_BUF_SIZE
@@ -121,6 +127,12 @@ __aarch64__
 defined
 (
 _M_ARM64
+)
+|
+|
+defined
+(
+_M_ARM64EC
 )
 #
 define

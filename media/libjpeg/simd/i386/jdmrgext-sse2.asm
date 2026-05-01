@@ -1,10 +1,6 @@
 ;
 ;
-jdmrgext
-.
-asm
--
-merged
+Merged
 upsampling
 /
 color

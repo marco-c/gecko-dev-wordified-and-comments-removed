@@ -1,11 +1,5 @@
 ;
 ;
-jchuff
--
-sse2
-.
-asm
--
 Huffman
 entropy
 encoding

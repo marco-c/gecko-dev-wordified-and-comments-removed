@@ -1,10 +1,6 @@
 ;
 ;
-jdcolext
-.
-asm
--
-colorspace
+Colorspace
 conversion
 (
 64

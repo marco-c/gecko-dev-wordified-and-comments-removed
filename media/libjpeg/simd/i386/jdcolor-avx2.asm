@@ -1,10 +1,6 @@
 ;
 ;
-jdcolor
-.
-asm
--
-colorspace
+Colorspace
 conversion
 (
 AVX2

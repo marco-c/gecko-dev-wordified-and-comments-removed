@@ -566,6 +566,12 @@ defined
 (
 _M_ARM64
 )
+|
+|
+defined
+(
+_M_ARM64EC
+)
 pixels
 =
 vqtbl1q_u8
@@ -886,6 +892,12 @@ __aarch64__
 defined
 (
 _M_ARM64
+)
+|
+|
+defined
+(
+_M_ARM64EC
 )
 pixels_r0
 =

@@ -1,10 +1,6 @@
 ;
 ;
-jccolext
-.
-asm
--
-colorspace
+Colorspace
 conversion
 (
 MMX
