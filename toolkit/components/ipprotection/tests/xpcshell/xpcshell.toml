@@ -74,6 +74,13 @@ js
 ]
 [
 "
+test_IPPGpiAuthProvider
+.
+js
+"
+]
+[
+"
 test_IPPExceptionsManager
 .
 js
