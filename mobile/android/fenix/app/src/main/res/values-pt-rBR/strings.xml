@@ -4065,7 +4065,7 @@ name
 browser_menu_signed_in_caption
 "
 >
-Gerencie
+Gerenciar
 o
 que
 salvo
@@ -5096,6 +5096,8 @@ string
 !
 -
 -
+Browser
+Toolbar
 Content
 description
 for
@@ -5633,6 +5635,8 @@ string
 !
 -
 -
+Search
+Fragment
 Button
 in
 the
