@@ -31,6 +31,9 @@ VSNPrintf
 char
 *
 aBuf
+std
+:
+:
 size_t
 aSize
 const
@@ -63,6 +66,9 @@ SNPrintf
 char
 *
 aBuf
+std
+:
+:
 size_t
 aSize
 const
@@ -158,6 +164,9 @@ const
 char
 *
 aBuf
+std
+:
+:
 size_t
 aLen
 )

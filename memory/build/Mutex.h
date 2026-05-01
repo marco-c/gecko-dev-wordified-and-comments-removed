@@ -228,8 +228,9 @@ constexpr
 Mutex
 (
 )
-{
-}
+=
+default
+;
 inline
 bool
 Init

@@ -71,8 +71,8 @@ constexpr
 BaseAlloc
 (
 )
-{
-}
+=
+default
 ;
 void
 Init
