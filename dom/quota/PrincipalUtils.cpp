@@ -1203,7 +1203,7 @@ principal
 sop
 -
 >
-GetPrincipal
+GetEffectiveStoragePrincipal
 (
 )
 ;
@@ -1406,7 +1406,7 @@ principal
 sop
 -
 >
-GetPrincipal
+GetEffectiveStoragePrincipal
 (
 )
 ;

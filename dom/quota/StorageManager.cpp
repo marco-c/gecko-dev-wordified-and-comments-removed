@@ -1238,7 +1238,7 @@ principal
 doc
 -
 >
-NodePrincipal
+EffectiveStoragePrincipal
 (
 )
 ;
@@ -2683,7 +2683,7 @@ GetWorkerPrivate
 )
 -
 >
-GetPrincipal
+GetEffectiveStoragePrincipal
 (
 )
 ;
@@ -2807,7 +2807,7 @@ GetWorkerPrivate
 )
 -
 >
-GetPrincipal
+GetEffectiveStoragePrincipal
 (
 )
 ;
