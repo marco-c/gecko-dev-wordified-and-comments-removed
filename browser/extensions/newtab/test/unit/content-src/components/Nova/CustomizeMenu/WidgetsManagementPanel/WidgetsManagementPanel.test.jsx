@@ -1121,7 +1121,7 @@ panel
 find
 (
 "
-h1
+h2
 "
 )
 .
@@ -1937,7 +1937,7 @@ toggle
 prop
 (
 "
-ontoggle
+onToggle
 "
 )
 (
@@ -2067,7 +2067,7 @@ toggle
 prop
 (
 "
-ontoggle
+onToggle
 "
 )
 (
@@ -2213,7 +2213,7 @@ toggle
 prop
 (
 "
-ontoggle
+onToggle
 "
 )
 (
@@ -2347,7 +2347,7 @@ toggle
 prop
 (
 "
-ontoggle
+onToggle
 "
 )
 (
@@ -2501,7 +2501,7 @@ toggle
 prop
 (
 "
-ontoggle
+onToggle
 "
 )
 (
@@ -2635,7 +2635,7 @@ toggle
 prop
 (
 "
-ontoggle
+onToggle
 "
 )
 (
@@ -2789,7 +2789,7 @@ toggle
 prop
 (
 "
-ontoggle
+onToggle
 "
 )
 (
@@ -2954,7 +2954,7 @@ toggle
 prop
 (
 "
-ontoggle
+onToggle
 "
 )
 (
@@ -3148,7 +3148,7 @@ toggle
 prop
 (
 "
-ontoggle
+onToggle
 "
 )
 (
@@ -3339,7 +3339,7 @@ toggle
 prop
 (
 "
-ontoggle
+onToggle
 "
 )
 (
@@ -3523,7 +3523,7 @@ toggle
 prop
 (
 "
-ontoggle
+onToggle
 "
 )
 (
@@ -3708,7 +3708,7 @@ toggle
 prop
 (
 "
-ontoggle
+onToggle
 "
 )
 (
