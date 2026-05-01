@@ -31,7 +31,7 @@ AddonsPicker
 ;
 import
 {
-AboutWelcomeUtils
+MultiStageUtils
 }
 from
 "
@@ -41,7 +41,7 @@ src
 /
 lib
 /
-aboutwelcome
+multistage
 -
 utils
 .
@@ -182,7 +182,7 @@ sandbox
 .
 stub
 (
-AboutWelcomeUtils
+MultiStageUtils
 "
 handleUserAction
 "
@@ -192,7 +192,7 @@ sandbox
 .
 stub
 (
-AboutWelcomeUtils
+MultiStageUtils
 "
 sendActionTelemetry
 "
@@ -873,7 +873,7 @@ assert
 .
 calledOnce
 (
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 )
@@ -882,7 +882,7 @@ assert
 .
 calledWith
 (
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 {

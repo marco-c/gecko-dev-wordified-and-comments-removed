@@ -80,7 +80,7 @@ MSLocalized
 ;
 import
 {
-AboutWelcomeUtils
+MultiStageUtils
 }
 from
 "
@@ -89,7 +89,7 @@ from
 /
 lib
 /
-aboutwelcome
+multistage
 -
 utils
 .
@@ -388,6 +388,8 @@ maxMsDefault
 /
 Ensure
 max
+>
+=
 min
 .
 if
@@ -542,7 +544,7 @@ nimbus_ready
 "
 ;
 }
-AboutWelcomeUtils
+MultiStageUtils
 .
 sendActionTelemetry
 (
@@ -1120,6 +1122,20 @@ autoAdvance
 props
 .
 autoAdvance
+}
+advanceOnExperimentLoad
+=
+{
+props
+.
+advanceOnExperimentLoad
+}
+navigate
+=
+{
+props
+.
+navigate
 }
 isRtamo
 =
@@ -2596,7 +2612,7 @@ darkModeReducedMotionImageURL
 {
 if
 (
-AboutWelcomeUtils
+MultiStageUtils
 .
 getLoadingStrategyFor
 (
@@ -2656,7 +2672,7 @@ darkModeReducedMotionImageURL
 (
 <
 source
-srcset
+srcSet
 =
 {
 darkModeReducedMotionImageURL
@@ -2696,7 +2712,7 @@ darkModeImageURL
 (
 <
 source
-srcset
+srcSet
 =
 {
 darkModeImageURL
@@ -2726,7 +2742,7 @@ reducedMotionImageURL
 (
 <
 source
-srcset
+srcSet
 =
 {
 reducedMotionImageURL
@@ -3978,7 +3994,7 @@ addonIconURL
 loading
 =
 {
-AboutWelcomeUtils
+MultiStageUtils
 .
 getLoadingStrategyFor
 (
@@ -4063,7 +4079,7 @@ main_content_style_narrow
 const
 validInnerStyles
 =
-AboutWelcomeUtils
+MultiStageUtils
 .
 getValidStyle
 (
@@ -4534,7 +4550,7 @@ content
 screen_style
 &
 &
-AboutWelcomeUtils
+MultiStageUtils
 .
 getValidStyle
 (
@@ -4722,7 +4738,7 @@ content
 screen_style
 &
 &
-AboutWelcomeUtils
+MultiStageUtils
 .
 getValidStyle
 (

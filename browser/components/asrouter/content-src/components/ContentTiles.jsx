@@ -190,7 +190,7 @@ ConfirmationChecklist
 ;
 import
 {
-AboutWelcomeUtils
+MultiStageUtils
 }
 from
 "
@@ -199,7 +199,7 @@ from
 /
 lib
 /
-aboutwelcome
+multistage
 -
 utils
 .
@@ -1247,7 +1247,7 @@ id
 }
 _header
 ;
-AboutWelcomeUtils
+MultiStageUtils
 .
 sendActionTelemetry
 (
@@ -1344,7 +1344,7 @@ prev
 prev
 )
 ;
-AboutWelcomeUtils
+MultiStageUtils
 .
 sendActionTelemetry
 (
@@ -1513,7 +1513,7 @@ header
 style
 =
 {
-AboutWelcomeUtils
+MultiStageUtils
 .
 getTileStyle
 (
@@ -1562,7 +1562,7 @@ tileHeaderProps
 style
 =
 {
-AboutWelcomeUtils
+MultiStageUtils
 .
 getValidStyle
 (
@@ -2546,7 +2546,7 @@ container
 style
 =
 {
-AboutWelcomeUtils
+MultiStageUtils
 .
 getValidStyle
 (

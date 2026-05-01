@@ -4,8 +4,6 @@ GlobalOverrider
 }
 from
 "
-asrouter
-/
 tests
 /
 unit
@@ -81,7 +79,7 @@ mjs
 ;
 import
 {
-AboutWelcomeUtils
+MultiStageUtils
 }
 from
 "
@@ -91,7 +89,7 @@ src
 /
 lib
 /
-aboutwelcome
+multistage
 -
 utils
 .
@@ -732,7 +730,7 @@ sinon
 .
 stub
 (
-AboutWelcomeUtils
+MultiStageUtils
 "
 sendActionTelemetry
 "
@@ -995,7 +993,7 @@ sinon
 .
 stub
 (
-AboutWelcomeUtils
+MultiStageUtils
 "
 sendActionTelemetry
 "
@@ -1222,7 +1220,7 @@ sinon
 .
 stub
 (
-AboutWelcomeUtils
+MultiStageUtils
 "
 sendActionTelemetry
 "
@@ -1392,7 +1390,7 @@ sinon
 .
 stub
 (
-AboutWelcomeUtils
+MultiStageUtils
 "
 sendActionTelemetry
 "
@@ -1663,7 +1661,7 @@ sinon
 .
 stub
 (
-AboutWelcomeUtils
+MultiStageUtils
 "
 sendActionTelemetry
 "
@@ -2307,7 +2305,7 @@ sinon
 .
 stub
 (
-AboutWelcomeUtils
+MultiStageUtils
 "
 sendActionTelemetry
 "
@@ -4773,7 +4771,7 @@ sandbox
 .
 stub
 (
-AboutWelcomeUtils
+MultiStageUtils
 "
 handleUserAction
 "
@@ -5015,7 +5013,7 @@ assert
 .
 calledOnce
 (
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 )
@@ -5106,7 +5104,7 @@ assert
 .
 calledOnce
 (
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 )
@@ -5238,7 +5236,7 @@ assert
 .
 calledOnce
 (
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 )
@@ -5313,7 +5311,7 @@ assert
 .
 notCalled
 (
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 )
@@ -5397,7 +5395,7 @@ assert
 .
 notCalled
 (
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 )
@@ -5534,7 +5532,7 @@ assert
 .
 calledOnce
 (
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 )
@@ -5832,7 +5830,7 @@ assert
 .
 notCalled
 (
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 )
@@ -5935,7 +5933,7 @@ sandbox
 .
 stub
 (
-AboutWelcomeUtils
+MultiStageUtils
 "
 handleUserAction
 "
@@ -6146,7 +6144,7 @@ sandbox
 .
 spy
 (
-AboutWelcomeUtils
+MultiStageUtils
 "
 sendDismissTelemetry
 "
@@ -6246,7 +6244,7 @@ assert
 .
 calledWith
 (
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 {
@@ -6416,7 +6414,7 @@ let
 handledAction
 ]
 =
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 .
@@ -6647,7 +6645,7 @@ assert
 .
 calledWith
 (
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 {
@@ -6812,7 +6810,7 @@ assert
 .
 calledWith
 (
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 {
@@ -7088,7 +7086,7 @@ assert
 .
 calledWith
 (
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 {
@@ -7556,7 +7554,7 @@ assert
 .
 calledWith
 (
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 {
@@ -7629,7 +7627,7 @@ b
 }
 )
 ;
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 .
@@ -7722,7 +7720,7 @@ assert
 .
 calledWith
 (
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 {
@@ -7798,7 +7796,7 @@ b
 }
 )
 ;
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 .
@@ -7885,7 +7883,7 @@ assert
 .
 calledWith
 (
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 {
@@ -8005,7 +8003,7 @@ value
 }
 )
 ;
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 .
@@ -8092,7 +8090,7 @@ assert
 .
 calledWith
 (
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 {
@@ -8215,7 +8213,7 @@ value
 }
 )
 ;
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 .
@@ -8251,7 +8249,7 @@ sandbox
 .
 spy
 (
-AboutWelcomeUtils
+MultiStageUtils
 "
 handleCampaignAction
 "
@@ -8264,7 +8262,7 @@ sandbox
 .
 spy
 (
-AboutWelcomeUtils
+MultiStageUtils
 "
 sendActionTelemetry
 "
@@ -8465,7 +8463,7 @@ sandbox
 .
 spy
 (
-AboutWelcomeUtils
+MultiStageUtils
 "
 handleCampaignAction
 "
@@ -8478,7 +8476,7 @@ sandbox
 .
 spy
 (
-AboutWelcomeUtils
+MultiStageUtils
 "
 sendActionTelemetry
 "
@@ -8615,7 +8613,7 @@ sandbox
 .
 spy
 (
-AboutWelcomeUtils
+MultiStageUtils
 "
 handleCampaignAction
 "
@@ -8628,7 +8626,7 @@ sandbox
 .
 spy
 (
-AboutWelcomeUtils
+MultiStageUtils
 "
 sendActionTelemetry
 "
@@ -8939,7 +8937,7 @@ const
 calledArg
 ]
 =
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 .
@@ -9089,7 +9087,7 @@ sandbox
 .
 spy
 (
-AboutWelcomeUtils
+MultiStageUtils
 "
 handleUserAction
 "

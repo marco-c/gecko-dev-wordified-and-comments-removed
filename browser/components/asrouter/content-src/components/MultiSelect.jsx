@@ -83,7 +83,7 @@ MSLocalized
 ;
 import
 {
-AboutWelcomeUtils
+MultiStageUtils
 }
 from
 "
@@ -92,7 +92,7 @@ from
 /
 lib
 /
-aboutwelcome
+multistage
 -
 utils
 .
@@ -538,7 +538,7 @@ useMemo
 )
 =
 >
-AboutWelcomeUtils
+MultiStageUtils
 .
 getTileStyle
 (
@@ -1090,7 +1090,7 @@ item
 style
 =
 {
-AboutWelcomeUtils
+MultiStageUtils
 .
 getValidStyle
 (
@@ -1197,7 +1197,7 @@ id
 style
 =
 {
-AboutWelcomeUtils
+MultiStageUtils
 .
 getValidStyle
 (

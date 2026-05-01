@@ -71,7 +71,7 @@ react
 ;
 import
 {
-AboutWelcomeUtils
+MultiStageUtils
 }
 from
 "
@@ -80,7 +80,7 @@ from
 /
 lib
 /
-aboutwelcome
+multistage
 -
 utils
 .
@@ -200,7 +200,7 @@ about
 :
 welcome
 .
-AboutWelcomeUtils
+MultiStageUtils
 .
 handleUserAction
 (

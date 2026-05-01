@@ -92,7 +92,7 @@ EmbeddedMigrationWizard
 ;
 import
 {
-AboutWelcomeUtils
+MultiStageUtils
 }
 from
 "
@@ -102,7 +102,7 @@ src
 /
 lib
 /
-aboutwelcome
+multistage
 -
 utils
 .
@@ -115,8 +115,6 @@ GlobalOverrider
 }
 from
 "
-asrouter
-/
 tests
 /
 unit
@@ -699,7 +697,7 @@ sandbox
 .
 spy
 (
-AboutWelcomeUtils
+MultiStageUtils
 "
 sendActionTelemetry
 "
@@ -1078,7 +1076,7 @@ sandbox
 .
 spy
 (
-AboutWelcomeUtils
+MultiStageUtils
 "
 sendActionTelemetry
 "
@@ -6429,7 +6427,7 @@ sandbox
 .
 spy
 (
-AboutWelcomeUtils
+MultiStageUtils
 "
 sendActionTelemetry
 "

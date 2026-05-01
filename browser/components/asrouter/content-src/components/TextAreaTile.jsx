@@ -71,7 +71,7 @@ react
 ;
 import
 {
-AboutWelcomeUtils
+MultiStageUtils
 }
 from
 "
@@ -80,7 +80,7 @@ from
 /
 lib
 /
-aboutwelcome
+multistage
 -
 utils
 .
@@ -389,7 +389,7 @@ container
 style
 =
 {
-AboutWelcomeUtils
+MultiStageUtils
 .
 getValidStyle
 (
@@ -432,7 +432,7 @@ invalid
 style
 =
 {
-AboutWelcomeUtils
+MultiStageUtils
 .
 getValidStyle
 (
@@ -518,7 +518,7 @@ placeholder
 style
 =
 {
-AboutWelcomeUtils
+MultiStageUtils
 .
 getValidStyle
 (
