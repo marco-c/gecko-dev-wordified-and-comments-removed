@@ -2953,6 +2953,8 @@ false
 const
 location
 =
+country
+?
 lazy
 .
 IPProtectionServerlist
@@ -2960,6 +2962,14 @@ IPProtectionServerlist
 getLocation
 (
 country
+)
+:
+lazy
+.
+IPProtectionServerlist
+.
+getRecommendedLocation
+(
 )
 ;
 const
