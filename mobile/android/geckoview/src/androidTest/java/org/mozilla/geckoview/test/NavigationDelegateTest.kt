@@ -16329,9 +16329,10 @@ to
 replacedUrl
 "
 url
-equalTo
+endsWith
 (
 "
+/
 replacedUrl
 "
 )
