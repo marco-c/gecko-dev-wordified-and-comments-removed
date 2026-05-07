@@ -53,7 +53,6 @@ gmp
 {
 class
 GMPTimerParent
-final
 :
 public
 PGMPTimerParent
@@ -67,17 +66,12 @@ public
 NS_INLINE_DECL_REFCOUNTING
 (
 GMPTimerParent
-final
 )
 explicit
 GMPTimerParent
 (
-nsCOMPtr
-<
 nsISerialEventTarget
->
-&
-&
+*
 aGMPEventTarget
 )
 ;
