@@ -166,15 +166,6 @@ index
 feature_checklist
 bytecode_checklist
 use_counter
-For
-Debugger
-API
-documentation
-see
-:
-doc
-:
-DevTools
 Debugger
 API
 <
@@ -189,7 +180,6 @@ api
 /
 index
 >
-.
 Components
 of
 SpiderMonkey
