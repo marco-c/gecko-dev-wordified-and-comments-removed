@@ -437,6 +437,13 @@ pushPrefEnv
 ]
 [
 "
+browser_glean_telemetry_engagement_selected_result_action
+.
+js
+"
+]
+[
+"
 browser_glean_telemetry_engagement_tips
 .
 js
