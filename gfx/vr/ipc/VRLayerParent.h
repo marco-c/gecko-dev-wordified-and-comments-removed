@@ -30,6 +30,7 @@ gfx
 {
 class
 VRLayerParent
+final
 :
 public
 PVRLayerParent
@@ -37,6 +38,7 @@ PVRLayerParent
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 VRLayerParent
+final
 )
 public
 :
@@ -113,15 +115,6 @@ mGroup
 protected
 :
 virtual
-void
-ActorDestroy
-(
-ActorDestroyReason
-aWhy
-)
-override
-;
-virtual
 ~
 VRLayerParent
 (
@@ -131,9 +124,6 @@ void
 Destroy
 (
 )
-;
-bool
-mIPCOpen
 ;
 bool
 mDestroyed
