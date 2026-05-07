@@ -332,6 +332,15 @@ reason
 ;
 virtual
 void
+Cancel
+(
+nsresult
+aReason
+)
+{
+}
+virtual
+void
 SetProxyConnectFailed
 (
 )
@@ -577,6 +586,10 @@ virtual
 bool
 Do0RTT
 (
+bool
+aCanSendEarlyData
+=
+true
 )
 {
 return
