@@ -160,11 +160,11 @@ var
 -
 toolbarbutton
 -
-hover
--
 outline
 -
 color
+-
+hover
 )
 ;
 }
@@ -184,11 +184,11 @@ var
 -
 toolbarbutton
 -
-active
--
 outline
 -
 color
+-
+active
 )
 ;
 }

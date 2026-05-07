@@ -137,7 +137,9 @@ light
 -
 toolbar
 -
-bgcolor
+background
+-
+color
 :
 var
 (
@@ -188,7 +190,9 @@ lwtheme
 -
 toolbar
 -
-bgcolor
+background
+-
+color
 :
 var
 (
@@ -206,6 +210,8 @@ alpha
 -
 -
 toolbar
+-
+text
 -
 color
 :
@@ -361,7 +367,9 @@ dark
 -
 toolbox
 -
-bgcolor
+background
+-
+color
 :
 var
 (
@@ -378,7 +386,9 @@ color
 -
 toolbox
 -
-bgcolor
+background
+-
+color
 -
 inactive
 :
@@ -409,7 +419,9 @@ color
 -
 toolbox
 -
-textcolor
+text
+-
+color
 :
 var
 (
@@ -427,7 +439,9 @@ currentColor
 -
 toolbox
 -
-textcolor
+text
+-
+color
 -
 inactive
 :

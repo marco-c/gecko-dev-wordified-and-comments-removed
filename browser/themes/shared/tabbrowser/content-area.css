@@ -372,7 +372,9 @@ var
 -
 toolbar
 -
-bgcolor
+background
+-
+color
 )
 ;
 }
@@ -530,7 +532,9 @@ var
 -
 toolbar
 -
-bgcolor
+background
+-
+color
 )
 ;
 color
@@ -540,6 +544,8 @@ var
 -
 -
 toolbar
+-
+text
 -
 color
 )

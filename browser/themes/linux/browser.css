@@ -2079,7 +2079,9 @@ var
 -
 toolbox
 -
-bgcolor
+background
+-
+color
 )
 ;
 background
@@ -2092,7 +2094,9 @@ var
 -
 toolbox
 -
-textcolor
+text
+-
+color
 )
 ;
 &
@@ -2112,7 +2116,9 @@ var
 -
 toolbox
 -
-bgcolor
+background
+-
+color
 -
 inactive
 )
@@ -2127,7 +2133,9 @@ var
 -
 toolbox
 -
-textcolor
+text
+-
+color
 -
 inactive
 )
@@ -2161,7 +2169,9 @@ var
 -
 toolbox
 -
-textcolor
+text
+-
+color
 )
 50
 %

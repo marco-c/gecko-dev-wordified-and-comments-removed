@@ -243,7 +243,9 @@ var
 -
 toolbar
 -
-bgcolor
+background
+-
+color
 )
 ;
 color
@@ -253,6 +255,8 @@ var
 -
 -
 toolbar
+-
+text
 -
 color
 )

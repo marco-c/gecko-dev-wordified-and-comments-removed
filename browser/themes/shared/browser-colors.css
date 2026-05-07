@@ -149,7 +149,9 @@ customtitlebar
 -
 toolbox
 -
-bgcolor
+background
+-
+color
 :
 ActiveCaption
 ;
@@ -157,7 +159,9 @@ ActiveCaption
 -
 toolbox
 -
-textcolor
+text
+-
+color
 :
 CaptionText
 ;
@@ -165,7 +169,9 @@ CaptionText
 -
 toolbox
 -
-bgcolor
+background
+-
+color
 -
 inactive
 :
@@ -175,7 +181,9 @@ InactiveCaption
 -
 toolbox
 -
-textcolor
+text
+-
+color
 -
 inactive
 :
@@ -969,7 +977,9 @@ customtitlebar
 -
 toolbox
 -
-bgcolor
+background
+-
+color
 -
 inactive
 :

@@ -6241,6 +6241,8 @@ getPropertyValue
 -
 toolbar
 -
+text
+-
 color
 "
 )
@@ -6257,7 +6259,9 @@ getPropertyValue
 -
 toolbar
 -
-bgcolor
+background
+-
+color
 "
 )
 ;

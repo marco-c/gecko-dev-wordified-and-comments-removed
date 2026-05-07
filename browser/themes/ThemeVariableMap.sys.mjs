@@ -340,9 +340,11 @@ toolbar_bottom_separator
 -
 toolbarbutton
 -
-hover
--
 background
+-
+color
+-
+hover
 "
 {
 lwtProperty
@@ -358,9 +360,11 @@ button_background_hover
 -
 toolbarbutton
 -
-active
--
 background
+-
+color
+-
+active
 "
 {
 lwtProperty
