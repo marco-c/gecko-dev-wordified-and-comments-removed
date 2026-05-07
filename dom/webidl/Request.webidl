@@ -747,6 +747,9 @@ sharedworker
 style
 "
 "
+text
+"
+"
 track
 "
 "
