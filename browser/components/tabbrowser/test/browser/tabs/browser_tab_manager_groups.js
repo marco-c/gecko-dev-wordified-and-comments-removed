@@ -195,6 +195,14 @@ win
 window
 )
 {
+await
+BrowserTestUtils
+.
+ensureWindowActivated
+(
+win
+)
+;
 let
 viewShown
 =
