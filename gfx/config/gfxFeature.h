@@ -556,6 +556,17 @@ WebGL
 "
 )
 \
+_
+(
+VIDEO_HDR
+Feature
+"
+HDR
+video
+supported
+"
+)
+\
 /
 *
 Add

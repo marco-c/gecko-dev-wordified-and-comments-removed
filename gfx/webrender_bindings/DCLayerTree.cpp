@@ -14750,10 +14750,10 @@ BT2020
 if
 (
 !
-StaticPrefs
+gfxPlatform
 :
 :
-gfx_color_management_hdr
+UseHDR
 (
 )
 )

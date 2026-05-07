@@ -881,6 +881,12 @@ UseRemoteCanvas
 ;
 static
 bool
+UseHDR
+(
+)
+;
+static
+bool
 IsBackendAccelerated
 (
 const
