@@ -1377,7 +1377,7 @@ undefined
 updateEntitlement
 :
 undefined
-refetchEntitlement
+checkForUpgrade
 :
 undefined
 enrollAndEntitle
@@ -1962,15 +1962,15 @@ resolves
 ;
 stubs
 .
-refetchEntitlement
+checkForUpgrade
 =
 setupSandbox
 .
 stub
 (
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 "
-refetchEntitlement
+checkForUpgrade
 "
 )
 .

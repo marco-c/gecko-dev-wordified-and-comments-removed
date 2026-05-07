@@ -2161,9 +2161,9 @@ true
 )
 ;
 await
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 .
-refetchEntitlement
+checkForUpgrade
 (
 )
 ;

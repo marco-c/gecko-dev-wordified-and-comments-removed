@@ -3042,9 +3042,11 @@ initiatedUpgrade
 {
 lazy
 .
-IPPEnrollAndEntitleManager
+IPProtectionService
 .
-refetchEntitlement
+authProvider
+.
+checkForUpgrade
 (
 )
 ;

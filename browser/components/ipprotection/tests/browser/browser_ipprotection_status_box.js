@@ -130,9 +130,9 @@ makePass
 )
 ;
 await
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 .
-refetchEntitlement
+checkForUpgrade
 (
 )
 ;

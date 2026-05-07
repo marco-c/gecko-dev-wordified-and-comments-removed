@@ -494,7 +494,7 @@ add_task
 (
 async
 function
-test_IPProtectionService_refetchEntitlement_has_vpn_linked
+test_IPProtectionService_checkForUpgrade_has_vpn_linked
 (
 )
 {
@@ -605,9 +605,11 @@ hasUpgraded
 )
 ;
 await
-IPPEnrollAndEntitleManager
+IPProtectionService
 .
-refetchEntitlement
+authProvider
+.
+checkForUpgrade
 (
 )
 ;
@@ -650,7 +652,7 @@ add_task
 (
 async
 function
-test_IPProtectionService_refetchEntitlement_no_vpn_linked
+test_IPProtectionService_checkForUpgrade_no_vpn_linked
 (
 )
 {
@@ -719,9 +721,11 @@ StateChanged
 )
 ;
 await
-IPPEnrollAndEntitleManager
+IPProtectionService
 .
-refetchEntitlement
+authProvider
+.
+checkForUpgrade
 (
 )
 ;
