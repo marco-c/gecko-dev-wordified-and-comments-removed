@@ -586,10 +586,6 @@ virtual
 bool
 Do0RTT
 (
-bool
-aCanSendEarlyData
-=
-true
 )
 {
 return

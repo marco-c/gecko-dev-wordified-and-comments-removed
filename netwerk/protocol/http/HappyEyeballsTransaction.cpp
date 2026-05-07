@@ -1011,8 +1011,6 @@ HappyEyeballsTransaction
 :
 Do0RTT
 (
-bool
-aCanSendEarlyData
 )
 {
 return
@@ -1023,7 +1021,6 @@ mTransaction
 >
 Do0RTT
 (
-aCanSendEarlyData
 )
 :
 false
