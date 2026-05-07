@@ -12426,7 +12426,13 @@ rv
 {
 aRetVal
 =
+std
+:
+:
+move
+(
 utf8String
+)
 ;
 return
 rv

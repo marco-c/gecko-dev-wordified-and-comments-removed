@@ -2990,7 +2990,13 @@ NS_BOGUS_ENTRY_SCHEME
 {
 relativeSpec
 =
+std
+:
+:
+move
+(
 relativeEntrySpec
+)
 ;
 }
 return
