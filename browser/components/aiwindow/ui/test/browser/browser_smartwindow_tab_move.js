@@ -1137,6 +1137,14 @@ content
 )
 ;
 await
+SimpleTest
+.
+promiseFocus
+(
+smartWin
+)
+;
+await
 typeInSmartbar
 (
 reAdoptedTab
