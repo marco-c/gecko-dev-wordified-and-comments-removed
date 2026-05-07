@@ -2789,8 +2789,10 @@ false
 {
 mVsyncObserver
 =
-new
+MakeRefPtr
+<
 RefreshDriverVsyncObserver
+>
 (
 this
 )
@@ -5887,8 +5889,10 @@ sThrottledRateTimer
 {
 sThrottledRateTimer
 =
-new
+MakeRefPtr
+<
 InactiveRefreshDriverTimer
+>
 (
 GetThrottledTimerInterval
 (
@@ -5944,8 +5948,10 @@ GetRegularTimerInterval
 ;
 sRegularRateTimer
 =
-new
+MakeRefPtr
+<
 StartupRefreshDriverTimer
+>
 (
 rate
 )

@@ -2868,8 +2868,10 @@ mSelectionListener
 {
 mSelectionListener
 =
-new
+MakeRefPtr
+<
 nsDocViewerSelectionListener
+>
 (
 this
 )
@@ -7313,8 +7315,10 @@ GetTopLevelWidget
 }
 mDeviceContext
 =
-new
+MakeRefPtr
+<
 nsDeviceContext
+>
 (
 )
 ;
@@ -11453,8 +11457,10 @@ true
 ;
 mDeviceContext
 =
-new
+MakeRefPtr
+<
 nsDeviceContext
+>
 (
 )
 ;
