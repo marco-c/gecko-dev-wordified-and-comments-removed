@@ -567,7 +567,13 @@ IsEmpty
 {
 speechRecognitionService
 =
+std
+:
+:
+move
+(
 prefValue
+)
 ;
 }
 else

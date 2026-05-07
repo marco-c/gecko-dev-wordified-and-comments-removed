@@ -1654,7 +1654,13 @@ exists
 {
 aOutFilename
 =
+std
+:
+:
+move
+(
 hashStr
+)
 ;
 return
 NS_OK

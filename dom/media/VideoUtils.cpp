@@ -4901,6 +4901,14 @@ LogToBrowserConsole
 "
 [
 msg
+=
+std
+:
+:
+move
+(
+msg
+)
 ]
 (
 )

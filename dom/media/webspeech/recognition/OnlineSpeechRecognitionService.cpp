@@ -1580,7 +1580,13 @@ IsEmpty
 {
 speechRecognitionEndpoint
 =
+std
+:
+:
+move
+(
 prefEndpoint
+)
 ;
 }
 else

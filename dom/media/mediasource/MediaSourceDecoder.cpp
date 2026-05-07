@@ -794,7 +794,13 @@ get
 return
 IntervalType
 (
+std
+:
+:
+move
+(
 seekable
+)
 )
 ;
 }

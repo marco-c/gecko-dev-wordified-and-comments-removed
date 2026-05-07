@@ -363,6 +363,14 @@ self
 aPromiseId
 aInitDataType
 initData
+=
+std
+:
+:
+move
+(
+initData
+)
 aSessionType
 ]
 (

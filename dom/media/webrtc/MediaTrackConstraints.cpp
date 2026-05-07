@@ -1547,7 +1547,13 @@ begin
 ;
 mExact
 =
+std
+:
+:
+move
+(
 intersection
+)
 ;
 }
 bool
@@ -1628,7 +1634,13 @@ begin
 ;
 mIdeal
 =
+std
+:
+:
+move
+(
 unioned
+)
 ;
 return
 true

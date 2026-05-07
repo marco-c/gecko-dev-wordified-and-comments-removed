@@ -2661,7 +2661,7 @@ i
 {
 ret
 .
-push_back
+emplace_back
 (
 attrs
 [
@@ -2776,7 +2776,13 @@ candidates
 >
 push_back
 (
+std
+:
+:
+move
+(
 new_cand
+)
 )
 ;
 }

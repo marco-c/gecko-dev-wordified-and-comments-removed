@@ -945,7 +945,13 @@ Some
 H264Setting
 {
 val
+std
+:
+:
+move
+(
 str
+)
 }
 )
 ;
