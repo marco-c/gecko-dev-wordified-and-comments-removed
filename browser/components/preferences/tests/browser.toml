@@ -133,13 +133,6 @@ updater
 ]
 [
 "
-browser_appearance_pane
-.
-js
-"
-]
-[
-"
 browser_backup_visibility
 .
 js

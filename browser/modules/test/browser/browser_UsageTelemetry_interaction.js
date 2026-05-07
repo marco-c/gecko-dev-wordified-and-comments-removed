@@ -74,9 +74,6 @@ preferencesPaneAbout
 "
 preferencesPaneAccessibility
 "
-"
-preferencesPaneAppearance
-"
 ]
 ;
 function
