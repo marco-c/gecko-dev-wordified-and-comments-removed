@@ -898,6 +898,11 @@ mURI
 ;
 ExtContentPolicyType
 mType
+=
+ExtContentPolicyType
+:
+:
+TYPE_INVALID
 ;
 std
 :

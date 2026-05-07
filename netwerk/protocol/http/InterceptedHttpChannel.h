@@ -296,6 +296,8 @@ mStatus
 ;
 bool
 mIsNonSubresourceRequest
+=
+false
 ;
 nsCString
 mKey

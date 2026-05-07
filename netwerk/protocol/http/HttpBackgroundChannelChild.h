@@ -410,6 +410,8 @@ ODA_FROM_SOCKET
 ;
 ODASource
 mFirstODASource
+=
+ODA_PENDING
 ;
 bool
 mOnStopRequestCalled

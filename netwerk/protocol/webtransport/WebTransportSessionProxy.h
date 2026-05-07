@@ -392,6 +392,8 @@ mMutex
 ;
 bool
 mDedicatedConnection
+=
+false
 ;
 nsIWebTransport
 :

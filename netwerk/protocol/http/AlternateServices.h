@@ -512,6 +512,8 @@ mStorage
 ;
 int32_t
 mStorageEpoch
+=
+0
 ;
 void
 Serialize
