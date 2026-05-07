@@ -684,6 +684,14 @@ paneAccessibility
 preferences
 -
 paneLanguages
+*
+preferences
+-
+paneAbout
+*
+preferences
+-
+panePermissionsData
 Widget
 Identifiers
 -
