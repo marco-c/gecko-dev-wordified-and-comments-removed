@@ -799,9 +799,6 @@ openAutofillSubMenu
 composeTestRule
 )
 {
-waitForAppWindowToBeUpdated
-(
-)
 clickAddAddressButton
 (
 )
