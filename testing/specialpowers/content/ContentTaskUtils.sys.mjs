@@ -1294,7 +1294,7 @@ documentGlobal
 ?
 subject
 .
-ownerGlobal
+documentGlobal
 ;
 let
 obs
