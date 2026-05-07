@@ -2387,6 +2387,11 @@ webext
 browsers
 "
 "
+chatbot
+-
+browser
+"
+"
 "
 ]
 }
