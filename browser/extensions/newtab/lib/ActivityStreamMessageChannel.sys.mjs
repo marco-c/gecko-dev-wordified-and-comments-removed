@@ -1725,7 +1725,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -2008,7 +2008,7 @@ w
 b
 ?
 .
-ownerGlobal
+documentGlobal
 ;
 w
 ?
@@ -2054,7 +2054,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 win
 .
@@ -2218,7 +2218,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (

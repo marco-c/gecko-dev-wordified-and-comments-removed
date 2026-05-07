@@ -146,7 +146,7 @@ this
 .
 hostTab
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 ;
@@ -421,7 +421,7 @@ this
 .
 hostTab
 .
-ownerGlobal
+documentGlobal
 )
 ;
 const
@@ -746,7 +746,7 @@ this
 .
 hostTab
 .
-ownerGlobal
+documentGlobal
 )
 ;
 this
@@ -858,7 +858,7 @@ this
 .
 hostTab
 .
-ownerGlobal
+documentGlobal
 ;
 const
 topDoc
@@ -1319,7 +1319,7 @@ this
 hostTab
 ?
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -1356,7 +1356,7 @@ this
 .
 hostTab
 .
-ownerGlobal
+documentGlobal
 .
 gFissionBrowser
 )
@@ -1841,7 +1841,7 @@ this
 .
 frame
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -1884,7 +1884,7 @@ browserWindow
 =
 tab
 .
-ownerGlobal
+documentGlobal
 ;
 browserWindow
 .

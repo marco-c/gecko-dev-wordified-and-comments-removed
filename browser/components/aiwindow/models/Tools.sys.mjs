@@ -2678,7 +2678,7 @@ selected
 {
 tab
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .

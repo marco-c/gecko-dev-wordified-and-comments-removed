@@ -2452,7 +2452,7 @@ style
 =
 aElement
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (

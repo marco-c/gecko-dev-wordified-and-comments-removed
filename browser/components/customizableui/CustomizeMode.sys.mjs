@@ -499,7 +499,7 @@ win
 =
 gTab
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -657,7 +657,7 @@ win
 =
 gTab
 .
-ownerGlobal
+documentGlobal
 ;
 win
 .
@@ -2298,7 +2298,7 @@ win
 =
 gTab
 .
-ownerGlobal
+documentGlobal
 ;
 win
 .
@@ -2826,7 +2826,7 @@ early
 .
 gTab
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -2839,7 +2839,7 @@ return
 }
 gTab
 .
-ownerGlobal
+documentGlobal
 .
 focus
 (
@@ -5453,7 +5453,7 @@ out
 ;
 animationNode
 .
-ownerGlobal
+documentGlobal
 .
 gNavToolbox
 .
@@ -12027,7 +12027,7 @@ if
 (
 aContainer
 .
-ownerGlobal
+documentGlobal
 !
 =
 this
@@ -12220,7 +12220,7 @@ if
 (
 aContainer
 .
-ownerGlobal
+documentGlobal
 !
 =
 this
@@ -20075,7 +20075,7 @@ mozSourceNode
 |
 mozSourceNode
 .
-ownerGlobal
+documentGlobal
 !
 =
 this
@@ -20296,7 +20296,7 @@ window
 =
 aDraggedOverItem
 .
-ownerGlobal
+documentGlobal
 ;
 let
 draggedItem
@@ -23210,7 +23210,7 @@ inPermanentArea
 ;
 doc
 .
-ownerGlobal
+documentGlobal
 .
 MozXULElement
 .

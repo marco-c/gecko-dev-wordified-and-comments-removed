@@ -781,7 +781,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 this
@@ -811,7 +811,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 this
@@ -862,7 +862,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 ;
 const
 {
@@ -875,7 +875,7 @@ docShell
 .
 chromeEventHandler
 .
-ownerGlobal
+documentGlobal
 ;
 switchToTabHavingURI
 (

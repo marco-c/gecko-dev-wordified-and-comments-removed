@@ -275,7 +275,7 @@ devtoolsWindow
 .
 windowRoot
 .
-ownerGlobal
+window
 .
 document
 ;
@@ -401,7 +401,7 @@ elementForHiding
 }
 elementForHiding
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

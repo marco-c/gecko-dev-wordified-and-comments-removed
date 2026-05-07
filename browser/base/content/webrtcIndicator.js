@@ -978,7 +978,7 @@ browserWindow
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 browserRect

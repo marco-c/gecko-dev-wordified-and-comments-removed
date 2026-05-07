@@ -1054,7 +1054,7 @@ CustomEvent
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 return
 browser
@@ -1108,7 +1108,7 @@ CustomEvent
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 return
 browser

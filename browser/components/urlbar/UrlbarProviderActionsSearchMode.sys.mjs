@@ -399,6 +399,13 @@ resultKey
 dynamicType
 :
 DYNAMIC_TYPE_NAME
+inputLength
+:
+queryContext
+.
+trimmedLowerCaseSearchString
+.
+length
 }
 }
 )
@@ -435,7 +442,7 @@ details
 .
 element
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }

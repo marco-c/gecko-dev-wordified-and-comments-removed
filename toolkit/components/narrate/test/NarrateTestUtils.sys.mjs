@@ -251,7 +251,7 @@ win
 =
 element
 .
-ownerGlobal
+documentGlobal
 ;
 let
 style

@@ -148,7 +148,7 @@ this
 .
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 scale

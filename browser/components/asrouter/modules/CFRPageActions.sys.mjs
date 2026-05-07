@@ -4700,6 +4700,10 @@ where
 this
 .
 window
+.
+gBrowser
+.
+selectedBrowser
 )
 ;
 break
@@ -5501,7 +5505,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 const
 pageAction
@@ -6007,7 +6011,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 const
 {
@@ -6233,7 +6237,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (

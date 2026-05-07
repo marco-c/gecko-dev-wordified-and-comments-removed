@@ -1551,6 +1551,7 @@ Created
 {
 const
 {
+note
 telemetrySource
 }
 =
@@ -1575,6 +1576,13 @@ record
 source
 :
 telemetrySource
+note_length
+:
+note
+.
+text
+.
+length
 }
 )
 ;
@@ -1703,6 +1711,7 @@ target
 ;
 const
 {
+note
 telemetrySource
 }
 =
@@ -1727,6 +1736,13 @@ record
 source
 :
 telemetrySource
+note_length
+:
+note
+.
+text
+.
+length
 }
 )
 ;
@@ -3096,7 +3112,7 @@ tab
 =
 aBrowser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .

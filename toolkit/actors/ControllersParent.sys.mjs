@@ -198,7 +198,7 @@ this
 browser
 ?
 .
-ownerGlobal
+documentGlobal
 .
 updateCommands
 (

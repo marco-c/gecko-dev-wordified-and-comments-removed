@@ -104,7 +104,7 @@ test
 (
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -563,7 +563,7 @@ gBrowser
 =
 tab
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 ;
@@ -775,7 +775,7 @@ gBrowser
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 ;

@@ -276,7 +276,7 @@ connectedCallback
 ;
 this
 .
-ownerGlobal
+documentGlobal
 .
 addEventListener
 (
@@ -290,7 +290,7 @@ clearDocument
 ;
 this
 .
-ownerGlobal
+documentGlobal
 .
 addEventListener
 (
@@ -327,7 +327,7 @@ disconnectedCallback
 ;
 this
 .
-ownerGlobal
+documentGlobal
 .
 removeEventListener
 (
@@ -341,7 +341,7 @@ clearDocument
 ;
 this
 .
-ownerGlobal
+documentGlobal
 .
 removeEventListener
 (
@@ -362,7 +362,7 @@ topWindow
 return
 this
 .
-ownerGlobal
+documentGlobal
 .
 top
 ;
@@ -1266,7 +1266,7 @@ clearDocument
 {
 this
 .
-ownerGlobal
+documentGlobal
 .
 document
 .

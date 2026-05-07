@@ -280,7 +280,7 @@ closeWindow
 (
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }

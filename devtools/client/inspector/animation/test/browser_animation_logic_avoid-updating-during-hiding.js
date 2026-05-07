@@ -474,7 +474,7 @@ resolve
 >
 panel
 .
-ownerGlobal
+documentGlobal
 .
 requestAnimationFrame
 (

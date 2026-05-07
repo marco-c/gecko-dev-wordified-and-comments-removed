@@ -505,7 +505,7 @@ SS_NOTIFY_BROWSER_SHUTDOWN_FLUSH
 &
 subject
 .
-ownerGlobal
+documentGlobal
 =
 =
 getWindow

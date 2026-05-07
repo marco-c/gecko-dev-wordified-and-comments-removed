@@ -3131,7 +3131,7 @@ gURLBar
 .
 inputField
 .
-ownerGlobal
+documentGlobal
 .
 requestAnimationFrame
 (

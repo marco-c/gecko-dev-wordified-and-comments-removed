@@ -888,7 +888,7 @@ promiseFocus
 (
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

@@ -163,7 +163,7 @@ PopupNotifications
 .
 panel
 .
-ownerGlobal
+documentGlobal
 getMainChromeWindow
 (
 window

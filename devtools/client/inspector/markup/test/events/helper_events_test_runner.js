@@ -603,7 +603,7 @@ header
 }
 type
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

@@ -256,7 +256,7 @@ clientHeight
 }
 browserContainerEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 isnot

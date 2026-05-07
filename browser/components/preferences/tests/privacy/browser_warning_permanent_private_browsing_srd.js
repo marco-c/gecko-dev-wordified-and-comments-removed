@@ -53,8 +53,6 @@ settings
 -
 redesign
 .
-history2
-.
 enabled
 "
 true
@@ -194,7 +192,7 @@ checkbox
 }
 checkbox
 .
-ownerGlobal
+documentGlobal
 )
 ;
 ok

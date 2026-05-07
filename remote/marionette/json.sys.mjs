@@ -1019,7 +1019,7 @@ accessing
 properties
 like
 "
-ownerGlobal
+documentGlobal
 "
 /
 /

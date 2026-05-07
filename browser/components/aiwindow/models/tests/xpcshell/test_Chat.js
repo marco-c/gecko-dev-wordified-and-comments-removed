@@ -3828,7 +3828,7 @@ const
 mockBrowser
 =
 {
-ownerGlobal
+documentGlobal
 :
 {
 closed

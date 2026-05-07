@@ -279,7 +279,7 @@ GeckoViewPrompter
 (
 aBrowser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 prompt
@@ -475,7 +475,7 @@ GeckoViewPrompter
 (
 aBrowser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 prompt

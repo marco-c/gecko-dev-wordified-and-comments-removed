@@ -184,7 +184,7 @@ this
 .
 document
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }

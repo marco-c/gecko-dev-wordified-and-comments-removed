@@ -42,7 +42,7 @@ SET_DEFAULT_PDF_HANDLER
 "
 }
 {
-ownerGlobal
+documentGlobal
 :
 {
 getShellService
@@ -149,7 +149,7 @@ false
 }
 }
 {
-ownerGlobal
+documentGlobal
 :
 {
 getShellService
@@ -256,7 +256,7 @@ true
 }
 }
 {
-ownerGlobal
+documentGlobal
 :
 {
 getShellService

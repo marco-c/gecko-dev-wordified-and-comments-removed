@@ -995,7 +995,7 @@ authenticate
 "
 tab1
 .
-ownerGlobal
+documentGlobal
 )
 ;
 let

@@ -573,7 +573,7 @@ _browserWin
 return
 this
 .
-ownerGlobal
+documentGlobal
 ?
 .
 browsingContext
@@ -646,7 +646,7 @@ _setupFinder
 ;
 this
 .
-ownerGlobal
+documentGlobal
 .
 addEventListener
 (
@@ -709,7 +709,7 @@ _onUnload
 {
 this
 .
-ownerGlobal
+documentGlobal
 .
 removeEventListener
 (

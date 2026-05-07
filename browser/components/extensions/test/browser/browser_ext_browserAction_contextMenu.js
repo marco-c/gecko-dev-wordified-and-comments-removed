@@ -882,7 +882,7 @@ win
 =
 element
 .
-ownerGlobal
+documentGlobal
 ;
 let
 dwu

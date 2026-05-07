@@ -1689,7 +1689,7 @@ msg
 .
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }

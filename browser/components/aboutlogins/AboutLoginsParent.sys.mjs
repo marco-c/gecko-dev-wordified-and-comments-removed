@@ -1100,7 +1100,7 @@ break
 }
 get
 #
-ownerGlobal
+documentGlobal
 (
 )
 {
@@ -1112,7 +1112,7 @@ browsingContext
 embedderElement
 ?
 .
-ownerGlobal
+documentGlobal
 ;
 }
 async
@@ -1152,7 +1152,7 @@ isPrimaryPasswordSet
 this
 .
 #
-ownerGlobal
+documentGlobal
 .
 openDialog
 (
@@ -1334,7 +1334,7 @@ preselectedLogin
 this
 .
 #
-ownerGlobal
+documentGlobal
 ?
 .
 gBrowser
@@ -1363,7 +1363,7 @@ ref
 this
 .
 #
-ownerGlobal
+documentGlobal
 ?
 .
 gBrowser
@@ -1449,7 +1449,7 @@ syncEnable
 this
 .
 #
-ownerGlobal
+documentGlobal
 .
 gSync
 .
@@ -1479,7 +1479,7 @@ showMigrationWizard
 this
 .
 #
-ownerGlobal
+documentGlobal
 {
 entrypoint
 :
@@ -1575,7 +1575,7 @@ logins
 this
 .
 #
-ownerGlobal
+documentGlobal
 .
 openWebLinkIn
 (
@@ -1599,7 +1599,7 @@ openPreferences
 this
 .
 #
-ownerGlobal
+documentGlobal
 .
 openPreferences
 (
@@ -4096,7 +4096,7 @@ MozXULElement
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 MozXULElement
 ;
@@ -4153,7 +4153,7 @@ gBrowser
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 notificationBox
@@ -4312,7 +4312,7 @@ gBrowser
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 notificationBox

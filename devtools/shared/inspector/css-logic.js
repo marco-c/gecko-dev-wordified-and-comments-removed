@@ -192,6 +192,13 @@ exports
 CSSAtRuleClassNameType
 =
 {
+CSSAppearanceBaseRule
+:
+"
+appearance
+-
+base
+"
 CSSContainerRule
 :
 "
@@ -2267,7 +2274,7 @@ cssEscape
 =
 ele
 .
-ownerGlobal
+documentGlobal
 .
 CSS
 .
@@ -2650,7 +2657,7 @@ nodeGlobal
 =
 ele
 .
-ownerGlobal
+documentGlobal
 .
 Node
 ;
@@ -2903,7 +2910,7 @@ nodeGlobal
 =
 ele
 .
-ownerGlobal
+documentGlobal
 .
 Node
 ;

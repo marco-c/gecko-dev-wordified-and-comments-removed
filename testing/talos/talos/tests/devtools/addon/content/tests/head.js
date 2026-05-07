@@ -475,7 +475,7 @@ observer
 new
 target
 .
-ownerGlobal
+documentGlobal
 .
 MutationObserver
 (

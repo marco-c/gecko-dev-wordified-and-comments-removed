@@ -98,7 +98,7 @@ view
 :
 el
 .
-ownerGlobal
+documentGlobal
 }
 )
 )

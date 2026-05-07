@@ -895,7 +895,7 @@ parentWindow
 =
 parentBrowser
 .
-ownerGlobal
+documentGlobal
 ;
 }
 else
@@ -993,8 +993,6 @@ parentBrowser
 |
 |
 subject
-.
-ownerGlobal
 .
 gBrowser
 ?

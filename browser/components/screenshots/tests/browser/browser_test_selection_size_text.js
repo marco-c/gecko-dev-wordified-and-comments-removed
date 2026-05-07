@@ -32,7 +32,7 @@ dpr
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 devicePixelRatio
 ;
@@ -147,7 +147,7 @@ dpr
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 devicePixelRatio
 ;
@@ -273,7 +273,7 @@ dpr
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 devicePixelRatio
 ;

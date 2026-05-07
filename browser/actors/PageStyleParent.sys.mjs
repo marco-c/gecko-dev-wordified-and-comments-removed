@@ -280,7 +280,7 @@ browser
 |
 browser
 .
-ownerGlobal
+documentGlobal
 .
 closed
 )

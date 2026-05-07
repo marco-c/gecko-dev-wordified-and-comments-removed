@@ -190,7 +190,7 @@ experimentalCategory
 }
 doc
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

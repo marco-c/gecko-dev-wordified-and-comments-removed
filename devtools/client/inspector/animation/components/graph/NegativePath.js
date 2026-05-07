@@ -303,7 +303,7 @@ win
 =
 simulatedElement
 .
-ownerGlobal
+documentGlobal
 ;
 const
 endTime

@@ -506,7 +506,7 @@ tab
 .
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 await
 lazy
@@ -609,7 +609,7 @@ newWindow
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 lazy
 .

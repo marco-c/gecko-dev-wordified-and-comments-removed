@@ -452,7 +452,7 @@ ELEMENT_NODE
 !
 node
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }

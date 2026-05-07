@@ -172,11 +172,11 @@ ignoreSubFrames
 ?
 node
 .
-ownerGlobal
+documentGlobal
 :
 node
 .
-ownerGlobal
+documentGlobal
 .
 top
 ;
@@ -187,7 +187,7 @@ originWindow
 node
 node
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }

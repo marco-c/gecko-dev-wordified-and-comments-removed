@@ -5003,7 +5003,7 @@ windowToFocus
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 }
 if

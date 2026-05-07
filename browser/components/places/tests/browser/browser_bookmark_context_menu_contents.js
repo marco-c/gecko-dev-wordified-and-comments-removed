@@ -1120,7 +1120,7 @@ contextmenu
 }
 toolbarNode
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -3733,7 +3733,7 @@ contextmenu
 }
 right
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -3913,7 +3913,7 @@ contextmenu
 }
 toolbarNode
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }

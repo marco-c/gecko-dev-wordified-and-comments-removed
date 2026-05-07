@@ -200,7 +200,7 @@ if
 browser
 ?
 .
-ownerGlobal
+documentGlobal
 )
 {
 browser
@@ -210,7 +210,7 @@ dispatchEvent
 new
 browser
 .
-ownerGlobal
+documentGlobal
 .
 CustomEvent
 (
@@ -3412,7 +3412,7 @@ dispatchEvent
 new
 browser
 .
-ownerGlobal
+documentGlobal
 .
 CustomEvent
 (

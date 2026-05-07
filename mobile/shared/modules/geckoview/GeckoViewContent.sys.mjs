@@ -1778,7 +1778,7 @@ this
 .
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 const
 requestOrigin

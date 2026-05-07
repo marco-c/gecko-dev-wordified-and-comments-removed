@@ -865,7 +865,7 @@ style
 =
 element
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (

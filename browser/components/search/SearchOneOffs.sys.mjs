@@ -401,7 +401,7 @@ window
 =
 container
 .
-ownerGlobal
+documentGlobal
 ;
 this
 .

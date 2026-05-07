@@ -3714,7 +3714,7 @@ win
 =
 container
 .
-ownerGlobal
+documentGlobal
 ;
 const
 style

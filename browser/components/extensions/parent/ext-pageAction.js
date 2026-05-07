@@ -215,7 +215,7 @@ updateButton
 (
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -301,7 +301,7 @@ panel
 &
 panel
 .
-ownerGlobal
+documentGlobal
 =
 =
 =
@@ -602,7 +602,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 ;
 let
 tab
@@ -734,7 +734,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 {
 button
 :
@@ -1383,7 +1383,7 @@ getDisabled
 (
 trigger
 .
-ownerGlobal
+documentGlobal
 )
 &
 &

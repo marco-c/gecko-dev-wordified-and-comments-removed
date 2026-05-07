@@ -166,7 +166,7 @@ win
 =
 aTarget
 .
-ownerGlobal
+documentGlobal
 ;
 const
 dwu
@@ -256,10 +256,10 @@ null
 null
 aToDrag
 .
-ownerGlobal
+documentGlobal
 aTarget
 .
-ownerGlobal
+documentGlobal
 ev
 )
 ;
@@ -277,7 +277,7 @@ mouseup
 }
 aTarget
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }

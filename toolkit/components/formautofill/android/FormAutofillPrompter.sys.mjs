@@ -284,7 +284,7 @@ GeckoViewPrompter
 (
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 prompt

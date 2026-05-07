@@ -1616,11 +1616,11 @@ this
 .
 document
 .
-ownerGlobal
+documentGlobal
 .
 windowRoot
 .
-ownerGlobal
+window
 .
 windowGlobalChild
 .
@@ -2434,7 +2434,7 @@ navigatedWindow
 .
 windowRoot
 .
-ownerGlobal
+window
 ;
 const
 formHandlerChild

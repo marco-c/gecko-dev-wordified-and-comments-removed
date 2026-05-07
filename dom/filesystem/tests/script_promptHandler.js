@@ -43,7 +43,7 @@ win
 =
 button
 .
-ownerGlobal
+documentGlobal
 ;
 let
 {

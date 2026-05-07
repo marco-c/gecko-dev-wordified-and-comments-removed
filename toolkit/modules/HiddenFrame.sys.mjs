@@ -459,7 +459,7 @@ browser
 .
 document
 .
-ownerGlobal
+documentGlobal
 ;
 }
 /
@@ -751,7 +751,7 @@ browser
 .
 document
 .
-ownerGlobal
+documentGlobal
 ;
 this
 .

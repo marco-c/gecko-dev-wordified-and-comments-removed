@@ -11608,7 +11608,7 @@ mouseover
 }
 tokenEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 EventUtils
@@ -11626,7 +11626,7 @@ mousemove
 }
 tokenEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -11733,7 +11733,7 @@ mouseout
 }
 tokenEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 const
@@ -11771,7 +11771,7 @@ mousemove
 }
 element
 .
-ownerGlobal
+documentGlobal
 )
 ;
 info
@@ -15748,7 +15748,7 @@ outlineTab
 }
 outlineTab
 .
-ownerGlobal
+documentGlobal
 )
 ;
 if

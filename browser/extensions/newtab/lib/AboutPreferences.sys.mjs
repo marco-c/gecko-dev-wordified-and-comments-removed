@@ -856,7 +856,7 @@ _target
 .
 browser
 .
-ownerGlobal
+documentGlobal
 .
 openPreferences
 (
@@ -893,7 +893,7 @@ _target
 .
 browser
 .
-ownerGlobal
+documentGlobal
 .
 BrowserAddonUI
 .

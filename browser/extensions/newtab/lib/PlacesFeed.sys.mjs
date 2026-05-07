@@ -1685,7 +1685,7 @@ _target
 .
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 win
 .
@@ -1890,7 +1890,7 @@ _target
 .
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gURLBar
 .
@@ -2351,7 +2351,7 @@ _target
 .
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 win
 .
@@ -2519,7 +2519,7 @@ _target
 .
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 break

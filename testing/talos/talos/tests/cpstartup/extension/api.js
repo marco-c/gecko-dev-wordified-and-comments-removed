@@ -240,7 +240,7 @@ gBrowser
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 ;
@@ -597,7 +597,7 @@ BROWSER_FLUSH_TOPIC
 ;
 tab
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .

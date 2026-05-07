@@ -2107,7 +2107,7 @@ win
 =
 document
 .
-ownerGlobal
+documentGlobal
 ;
 SimpleTest
 .
@@ -2534,7 +2534,7 @@ el
 }
 el
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -2806,7 +2806,7 @@ clickTarget
 }
 itemElem
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

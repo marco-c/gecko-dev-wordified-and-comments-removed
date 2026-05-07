@@ -1160,7 +1160,7 @@ ready
 await
 gBrowser
 .
-ownerGlobal
+documentGlobal
 .
 promiseDocumentFlushed
 (

@@ -813,7 +813,9 @@ browser
 /
 skin
 /
-sidebars
+sidebar
+-
+collapsed
 .
 svg
 "
@@ -1565,7 +1567,7 @@ TouchBarHelper
 .
 window
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 ;

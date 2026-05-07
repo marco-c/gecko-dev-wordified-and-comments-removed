@@ -697,7 +697,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 PictureInPicture
 .
@@ -848,7 +848,7 @@ if
 (
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -918,7 +918,7 @@ if
 (
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -2090,7 +2090,7 @@ parentWin
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 count
@@ -2383,7 +2383,7 @@ parentWin
 browser
 ?
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -2876,7 +2876,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 ;
 let
 bc
@@ -2987,7 +2987,7 @@ s
 window
 tab
 .
-ownerGlobal
+documentGlobal
 .
 focus
 (
@@ -3616,7 +3616,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -3744,7 +3744,7 @@ setUrlbarPipIconActive
 (
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -3756,7 +3756,7 @@ setUrlbarPipIconInactive
 (
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -3815,7 +3815,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 ;
 let
 browser
@@ -5191,7 +5191,7 @@ parentWin
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 win
@@ -5694,7 +5694,7 @@ setUrlbarPipIconInactive
 browser
 ?
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }

@@ -16019,7 +16019,7 @@ _getDOMWindowUtils
 (
 sourceBrowsingCxt
 .
-ownerGlobal
+documentGlobal
 )
 ;
 let
@@ -16029,7 +16029,7 @@ _getDOMWindowUtils
 (
 targetBrowsingCxt
 .
-ownerGlobal
+documentGlobal
 )
 ;
 try

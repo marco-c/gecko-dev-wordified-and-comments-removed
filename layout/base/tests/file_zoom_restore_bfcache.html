@@ -22,8 +22,14 @@ search
 var
 bc
 =
-new
+SpecialPowers
+.
+wrap
+(
 BroadcastChannel
+)
+.
+unpartitionedTestingChannel
 (
 bcName
 )
@@ -154,7 +160,7 @@ browsingContext
 .
 embedderElement
 .
-ownerGlobal
+documentGlobal
 .
 FullZoom
 ;
@@ -466,7 +472,7 @@ browsingContext
 .
 embedderElement
 .
-ownerGlobal
+documentGlobal
 ;
 }
 )
@@ -597,7 +603,7 @@ browsingContext
 .
 embedderElement
 .
-ownerGlobal
+documentGlobal
 .
 FullZoom
 ;

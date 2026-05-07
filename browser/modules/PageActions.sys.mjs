@@ -2946,7 +2946,7 @@ win
 buttonNode
 ?
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -7803,7 +7803,7 @@ BrowserPageActions
 return
 obj
 .
-ownerGlobal
+documentGlobal
 .
 BrowserPageActions
 ;

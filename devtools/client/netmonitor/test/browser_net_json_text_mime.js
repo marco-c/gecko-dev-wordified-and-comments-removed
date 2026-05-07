@@ -199,7 +199,7 @@ title
 )
 ;
 await
-waitForDOMIfNeeded
+waitForDOM
 (
 requestItem
 "
@@ -475,7 +475,7 @@ VK_SPACE
 }
 rawResponseToggle
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

@@ -1862,7 +1862,7 @@ is
 (
 gBrowser
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (
@@ -1946,7 +1946,7 @@ is
 (
 gBrowser
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (

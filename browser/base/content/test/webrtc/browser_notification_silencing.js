@@ -78,7 +78,7 @@ window
 =
 aBrowser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 alertsService

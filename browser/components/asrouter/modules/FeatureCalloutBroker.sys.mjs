@@ -695,7 +695,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /

@@ -1692,7 +1692,7 @@ win
 .
 gBrowser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 {

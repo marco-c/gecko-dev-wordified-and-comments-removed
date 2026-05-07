@@ -2682,7 +2682,7 @@ command
 {
 aDocument
 .
-ownerGlobal
+documentGlobal
 .
 PanelUI
 .

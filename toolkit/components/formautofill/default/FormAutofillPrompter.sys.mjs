@@ -647,7 +647,7 @@ this
 .
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 }
 /
@@ -1023,7 +1023,7 @@ this
 .
 browser
 .
-ownerGlobal
+documentGlobal
 .
 openPreferences
 (
@@ -1072,7 +1072,7 @@ this
 .
 browser
 .
-ownerGlobal
+documentGlobal
 .
 openWebLinkIn
 (
@@ -6305,7 +6305,9 @@ preferences
 #
 privacy
 -
-form
+payment
+-
+methods
 -
 autofill
 "
@@ -8020,7 +8022,7 @@ doorhanger
 ;
 const
 {
-ownerGlobal
+documentGlobal
 :
 win
 }
@@ -8344,7 +8346,7 @@ doorhanger
 ;
 const
 {
-ownerGlobal
+documentGlobal
 :
 win
 }

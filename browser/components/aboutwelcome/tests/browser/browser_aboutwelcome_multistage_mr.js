@@ -57,7 +57,7 @@ mjs
 ;
 const
 {
-AWScreenUtils
+ASRouterScreenUtils
 }
 =
 ChromeUtils
@@ -72,9 +72,9 @@ resource
 /
 modules
 /
-aboutwelcome
+asrouter
 /
-AWScreenUtils
+ASRouterScreenUtils
 .
 sys
 .
@@ -527,7 +527,7 @@ sandbox
 .
 stub
 (
-AWScreenUtils
+ASRouterScreenUtils
 "
 evaluateScreenTargeting
 "
@@ -2054,7 +2054,7 @@ selector
 }
 wizard
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -3486,7 +3486,7 @@ sandbox
 .
 stub
 (
-AWScreenUtils
+ASRouterScreenUtils
 "
 addScreenImpression
 "
@@ -4700,7 +4700,7 @@ sandbox
 .
 stub
 (
-AWScreenUtils
+ASRouterScreenUtils
 "
 evaluateScreenTargeting
 "
@@ -4879,7 +4879,7 @@ sandbox
 .
 stub
 (
-AWScreenUtils
+ASRouterScreenUtils
 "
 evaluateScreenTargeting
 "
@@ -5071,7 +5071,7 @@ sandbox
 .
 stub
 (
-AWScreenUtils
+ASRouterScreenUtils
 "
 evaluateScreenTargeting
 "
@@ -5390,7 +5390,7 @@ sandbox
 .
 stub
 (
-AWScreenUtils
+ASRouterScreenUtils
 "
 evaluateScreenTargeting
 "
@@ -5707,7 +5707,7 @@ sandbox
 .
 stub
 (
-AWScreenUtils
+ASRouterScreenUtils
 "
 evaluateScreenTargeting
 "
@@ -6022,7 +6022,7 @@ sandbox
 .
 stub
 (
-AWScreenUtils
+ASRouterScreenUtils
 "
 evaluateScreenTargeting
 "

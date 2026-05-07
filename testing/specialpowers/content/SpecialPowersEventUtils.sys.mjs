@@ -187,7 +187,7 @@ false
 }
 element
 .
-ownerGlobal
+documentGlobal
 )
 ;
 EventUtils
@@ -207,7 +207,7 @@ false
 }
 element
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }

@@ -1775,7 +1775,7 @@ tab
 .
 firstTab
 .
-ownerGlobal
+documentGlobal
 .
 window
 .
@@ -1785,7 +1785,7 @@ focus
 ;
 firstTab
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .

@@ -190,7 +190,7 @@ mousemove
 }
 rulesViewTarget
 .
-ownerGlobal
+documentGlobal
 )
 ;
 const
@@ -294,7 +294,7 @@ mousemove
 }
 rulesViewTarget
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -350,7 +350,7 @@ mousemove
 }
 rulesViewTarget
 .
-ownerGlobal
+documentGlobal
 )
 ;
 const
@@ -480,7 +480,7 @@ mousemove
 }
 computedViewTarget
 .
-ownerGlobal
+documentGlobal
 )
 ;
 const

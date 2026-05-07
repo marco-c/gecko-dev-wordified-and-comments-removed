@@ -6734,7 +6734,7 @@ computedStyle
 p
 node
 .
-ownerGlobal
+documentGlobal
 )
 ;
 const
@@ -6917,7 +6917,7 @@ computedStyle
 p
 node
 .
-ownerGlobal
+documentGlobal
 )
 ;
 if
@@ -7368,7 +7368,7 @@ window
 =
 node
 .
-ownerGlobal
+documentGlobal
 )
 {
 return

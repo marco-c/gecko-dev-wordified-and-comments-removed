@@ -551,7 +551,7 @@ ZoomManager
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 zoom
@@ -612,7 +612,7 @@ ZoomManager
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 zoom
@@ -679,7 +679,7 @@ sidebar
 {
 windowRoot
 .
-ownerGlobal
+window
 .
 SidebarController
 .
