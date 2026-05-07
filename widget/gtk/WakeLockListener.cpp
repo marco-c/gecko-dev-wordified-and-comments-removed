@@ -927,7 +927,13 @@ string
 ;
 mNiceTopic
 =
+std
+:
+:
+move
+(
 niceTopic
+)
 ;
 break
 ;

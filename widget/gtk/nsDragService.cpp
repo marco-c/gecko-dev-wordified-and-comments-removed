@@ -10093,7 +10093,13 @@ aSourceURI
 ;
 aFilename
 =
+std
+:
+:
+move
+(
 srcFileName
+)
 ;
 return
 NS_OK
