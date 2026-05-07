@@ -2556,15 +2556,6 @@ CompositorSurfaceKind
 :
 :
 Blit
-scratch_handle
-:
-storage
-:
-:
-Index
-:
-:
-INVALID
 }
 }
 }
