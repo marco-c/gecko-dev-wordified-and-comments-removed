@@ -1358,8 +1358,7 @@ k_slice
 {
 Ok
 (
-(
-)
+true
 )
 =
 >
@@ -1367,6 +1366,16 @@ JxlDecoderStatus
 :
 :
 Ok
+Ok
+(
+false
+)
+=
+>
+JxlDecoderStatus
+:
+:
+NeedMoreData
 Err
 (
 _
