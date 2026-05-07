@@ -6186,6 +6186,9 @@ itemContainingText
 (
 state
 )
+waitingTime
+=
+waitingTimeLong
 )
 break
 }
@@ -7429,6 +7432,9 @@ string
 mozac_feature_applinks_normal_confirm_dialog_message
 )
 )
+waitingTime
+=
+waitingTimeLong
 )
 }
 fun
@@ -13669,7 +13675,7 @@ clickPageObject
 :
 Waiting
 for
-waitingTime
+waitingTimeLong
 ms
 for
 {
@@ -13685,7 +13691,7 @@ item
 .
 waitForExists
 (
-waitingTime
+waitingTimeLong
 )
 Log
 .
@@ -13697,7 +13703,7 @@ clickPageObject
 :
 Waited
 for
-waitingTime
+waitingTimeLong
 ms
 for
 {

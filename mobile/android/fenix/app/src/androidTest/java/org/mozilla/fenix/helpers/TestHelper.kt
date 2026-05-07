@@ -471,6 +471,18 @@ helpers
 .
 TestAssetHelper
 .
+waitingTimeLong
+import
+org
+.
+mozilla
+.
+fenix
+.
+helpers
+.
+TestAssetHelper
+.
 waitingTimeShort
 import
 org
@@ -1438,7 +1450,7 @@ hasText
 (
 expectedText
 )
-waitingTime
+waitingTimeLong
 )
 Log
 .

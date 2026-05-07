@@ -395,6 +395,18 @@ fenix
 .
 helpers
 .
+TestAssetHelper
+.
+waitingTimeLong
+import
+org
+.
+mozilla
+.
+fenix
+.
+helpers
+.
 TestHelper
 .
 mDevice
@@ -1126,7 +1138,7 @@ composeTestRule
 .
 waitUntil
 (
-waitingTime
+waitingTimeLong
 )
 {
 composeTestRule

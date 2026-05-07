@@ -425,7 +425,7 @@ Translate
 to
 "
 )
-waitingTime
+waitingTimeLong
 )
 composeTestRule
 .
