@@ -238,7 +238,7 @@ AndroidJUnit4
 class
 )
 class
-MarketingPageRemovalManagerTest
+MarketingPageRemovalSupportTest
 {
 private
 lateinit
