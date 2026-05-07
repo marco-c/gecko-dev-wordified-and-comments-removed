@@ -1956,6 +1956,25 @@ py
 )
     
 "
+perfdocs
+"
+:
+MachCommandReference
+(
+"
+python
+/
+mozperftest
+/
+mozperftest
+/
+mach_commands
+.
+py
+"
+)
+    
+"
 perftest
 "
 :

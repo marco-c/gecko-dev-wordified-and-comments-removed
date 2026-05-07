@@ -288,6 +288,12 @@ files
 files
 ]
         
+PerfDocLogger
+.
+FAILED
+=
+True
+        
 if
 len
 (
@@ -357,12 +363,6 @@ file
 "
             
 )
-            
-PerfDocLogger
-.
-FAILED
-=
-True
             
 return
         
