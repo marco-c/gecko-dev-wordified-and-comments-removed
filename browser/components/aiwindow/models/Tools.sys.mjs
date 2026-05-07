@@ -4053,7 +4053,15 @@ cleanWhitespace
 true
 removeBoilerplate
 :
-true
+false
+sourceUrl
+:
+browser
+.
+currentURI
+?
+.
+spec
 }
 )
 ;
@@ -4868,6 +4876,7 @@ label
 url
 }
 )
+url
 )
 ;
 }
@@ -5001,6 +5010,7 @@ runExtraction
 pageExtractor
 conversation
 url
+url
 )
 )
 ;
@@ -5051,6 +5061,12 @@ string
 }
 label
 *
+param
+{
+string
+}
+sourceUrl
+*
 returns
 {
 Promise
@@ -5096,6 +5112,7 @@ runExtraction
 pageExtractor
 conversation
 label
+sourceUrl
 )
 {
 const
@@ -5118,6 +5135,7 @@ true
 removeBoilerplate
 :
 true
+sourceUrl
 }
 )
 ;
