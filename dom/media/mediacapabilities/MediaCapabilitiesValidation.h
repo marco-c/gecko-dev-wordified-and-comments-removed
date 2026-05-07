@@ -174,6 +174,15 @@ ValidationError
 aErr
 )
 ;
+bool
+IsMediaTypeWebRTC
+(
+const
+MediaType
+&
+aType
+)
+;
 }
 }
 #
