@@ -855,9 +855,7 @@ options
 )
 ;
 /
-*
-*
-*
+/
 backward
 -
 compat
@@ -865,7 +863,8 @@ compat
 version
 152
 }
-*
+/
+/
 Get
 rid
 of
@@ -879,8 +878,6 @@ it
 to
 release
 .
-*
-/
 let
 originalWindow
 =
@@ -912,9 +909,7 @@ linkedBrowser
 finally
 {
 /
-*
-*
-*
+/
 backward
 -
 compat
@@ -922,7 +917,8 @@ compat
 version
 152
 }
-*
+/
+/
 Get
 rid
 of
@@ -936,8 +932,6 @@ it
 to
 release
 .
-*
-/
 let
 finalWindow
 =
@@ -1300,9 +1294,7 @@ let
 options
 ;
 /
-*
-*
-*
+/
 backward
 -
 compat
@@ -1310,7 +1302,8 @@ compat
 version
 152
 }
-*
+/
+/
 Get
 rid
 of
@@ -1324,8 +1317,6 @@ it
 to
 release
 .
-*
-/
 let
 win
 =
@@ -2327,9 +2318,7 @@ now
 )
 ;
 /
-*
-*
-*
+/
 backward
 -
 compat
@@ -2337,7 +2326,8 @@ compat
 version
 152
 }
-*
+/
+/
 Get
 rid
 of
@@ -2351,8 +2341,6 @@ it
 to
 release
 .
-*
-/
 let
 win
 =
@@ -2945,9 +2933,7 @@ now
 )
 ;
 /
-*
-*
-*
+/
 backward
 -
 compat
@@ -2955,7 +2941,8 @@ compat
 version
 152
 }
-*
+/
+/
 Get
 rid
 of
@@ -2969,8 +2956,6 @@ it
 to
 release
 .
-*
-/
 let
 win
 =
@@ -6220,9 +6205,7 @@ gBrowser
 )
 {
 /
-*
-*
-*
+/
 backward
 -
 compat
@@ -6230,7 +6213,8 @@ compat
 version
 152
 }
-*
+/
+/
 Get
 rid
 of
@@ -6244,8 +6228,6 @@ it
 to
 release
 .
-*
-/
 let
 win
 =
@@ -8490,9 +8472,7 @@ subject
 )
 {
 /
-*
-*
-*
+/
 backward
 -
 compat
@@ -8500,7 +8480,8 @@ compat
 version
 152
 }
-*
+/
+/
 Get
 rid
 of
@@ -8514,8 +8495,6 @@ it
 to
 release
 .
-*
-/
 let
 win
 =
@@ -10568,9 +10547,7 @@ resolve
 >
 {
 /
-*
-*
-*
+/
 backward
 -
 compat
@@ -10578,7 +10555,8 @@ compat
 version
 152
 }
-*
+/
+/
 Get
 rid
 of
@@ -10592,8 +10570,6 @@ it
 to
 release
 .
-*
-/
 let
 win
 =
@@ -12171,9 +12147,7 @@ options
 )
 {
 /
-*
-*
-*
+/
 backward
 -
 compat
@@ -12181,7 +12155,8 @@ compat
 version
 152
 }
-*
+/
+/
 Get
 rid
 of
@@ -12195,8 +12170,6 @@ it
 to
 release
 .
-*
-/
 let
 win
 =
@@ -12466,9 +12439,7 @@ LOAD_FLAGS_BYPASS_CACHE
 else
 {
 /
-*
-*
-*
+/
 backward
 -
 compat
@@ -12476,7 +12447,8 @@ compat
 version
 152
 }
-*
+/
+/
 Get
 rid
 of
@@ -12490,8 +12462,6 @@ it
 to
 release
 .
-*
-/
 let
 win
 =
@@ -14420,9 +14390,7 @@ value
 )
 {
 /
-*
-*
-*
+/
 backward
 -
 compat
@@ -14430,7 +14398,8 @@ compat
 version
 152
 }
-*
+/
+/
 Get
 rid
 of
@@ -14444,8 +14413,6 @@ it
 to
 release
 .
-*
-/
 let
 win
 =
@@ -14626,9 +14593,7 @@ resolve
 ;
 }
 /
-*
-*
-*
+/
 backward
 -
 compat
@@ -14636,7 +14601,8 @@ compat
 version
 152
 }
-*
+/
+/
 Get
 rid
 of
@@ -14650,8 +14616,6 @@ it
 to
 release
 .
-*
-/
 let
 win
 =
@@ -17361,9 +17325,7 @@ beforeLoadFunc
 )
 {
 /
-*
-*
-*
+/
 backward
 -
 compat
@@ -17371,7 +17333,8 @@ compat
 version
 152
 }
-*
+/
+/
 Get
 rid
 of
@@ -17385,8 +17348,6 @@ it
 to
 release
 .
-*
-/
 let
 win
 =
