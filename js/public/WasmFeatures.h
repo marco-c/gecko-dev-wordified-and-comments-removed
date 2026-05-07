@@ -134,7 +134,7 @@ case
 name
 *
 /
-relaxedSimd
+v128Relaxed
 \
 /
 *
@@ -398,7 +398,10 @@ force
 enable
 *
 /
-false
+WasmJSPromiseIntegrationFlag
+(
+cx
+)
 \
 /
 *
