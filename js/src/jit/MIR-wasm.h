@@ -10385,6 +10385,14 @@ AliasSet
 :
 WasmArrayDataPointer
 )
+|
+AliasSet
+(
+AliasSet
+:
+:
+WasmStructOutlineDataPointer
+)
 ;
 return
 AliasSet
