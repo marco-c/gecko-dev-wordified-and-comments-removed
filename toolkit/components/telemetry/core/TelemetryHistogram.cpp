@@ -3790,7 +3790,13 @@ emplaceBack
 (
 HistogramSnapshotInfo
 {
+std
+:
+:
+move
+(
 snapshotData
+)
 id
 }
 )

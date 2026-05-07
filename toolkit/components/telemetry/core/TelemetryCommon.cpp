@@ -493,6 +493,14 @@ LogToBrowserConsole
 [
 aLogLevel
 msg
+=
+std
+:
+:
+move
+(
+msg
+)
 ]
 (
 )

@@ -8558,7 +8558,13 @@ _place
 .
 spec
 =
+std
+:
+:
+move
+(
 spec
+)
 ;
 }
 rv
@@ -8616,7 +8622,13 @@ _place
 .
 title
 =
+std
+:
+:
+move
+(
 title
+)
 ;
 }
 else
