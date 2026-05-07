@@ -5,12 +5,6 @@ nsExceptionHandler
 .
 h
 "
-using
-mozilla
-:
-:
-UniqueFileHandle
-;
 namespace
 CrashReporter
 {
@@ -811,15 +805,6 @@ crashHelperFd
 }
 #
 endif
-CrashPipeType
-GetChildNotificationPipe
-(
-)
-{
-return
-nullptr
-;
-}
 bool
 RegisterChildIPCChannel
 (
@@ -832,6 +817,8 @@ geckoargs
 ChildProcessArgs
 &
 aArgs
+GeckoChildID
+aID
 )
 {
 return
