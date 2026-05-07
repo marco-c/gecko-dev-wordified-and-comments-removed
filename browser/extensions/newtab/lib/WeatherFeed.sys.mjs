@@ -3416,7 +3416,7 @@ name
 {
 allowOhttp
 :
-true
+false
 }
 )
 ;
