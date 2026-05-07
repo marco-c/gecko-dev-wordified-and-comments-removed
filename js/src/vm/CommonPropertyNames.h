@@ -1519,6 +1519,14 @@ GetIterator
 \
 MACRO_
 (
+getNumberingSystems
+"
+getNumberingSystems
+"
+)
+\
+MACRO_
+(
 getOwnPropertyDescriptor
 "
 getOwnPropertyDescriptor
