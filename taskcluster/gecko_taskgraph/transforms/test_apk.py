@@ -75,6 +75,26 @@ extra
 .
 notify
 "
+            
+"
+worker
+.
+env
+.
+GOOGLE_PROJECT
+"
+            
+"
+treeherder
+.
+platform
+"
+            
+"
+run
+.
+secrets
+"
         
 )
 :
