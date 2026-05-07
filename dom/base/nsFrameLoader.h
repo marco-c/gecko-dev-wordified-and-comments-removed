@@ -990,7 +990,7 @@ return
 mNetworkCreated
 ;
 }
-nsIContent
+nsISupports
 *
 GetParentObject
 (
