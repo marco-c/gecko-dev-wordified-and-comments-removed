@@ -137,6 +137,29 @@ use_msgspec
 =
 True
 )
+def
+_by_platform_or_project
+(
+arg
+)
+:
+    
+return
+optionally_keyed_by
+(
+"
+build
+-
+platform
+"
+"
+project
+"
+arg
+use_msgspec
+=
+True
+)
 class
 MozharnessSchema
 (
@@ -392,7 +415,7 @@ str
     
 locales_file
 :
-_by_platform
+_by_platform_or_project
 (
 str
 )
@@ -1191,12 +1214,15 @@ fields
             
 resolve_keyed_by
 (
+                
 item
 =
 job
+                
 field
 =
 field
+                
 item_name
 =
 job
@@ -1205,6 +1231,18 @@ job
 name
 "
 ]
+                
+project
+=
+config
+.
+params
+[
+"
+project
+"
+]
+            
 )
         
 yield
