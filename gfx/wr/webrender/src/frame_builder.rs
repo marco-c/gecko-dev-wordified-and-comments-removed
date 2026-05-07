@@ -2322,6 +2322,13 @@ mut
 visibility_state
 .
 resource_cache
+&
+mut
+visibility_state
+.
+scratch
+.
+primitive
 )
 ;
 visibility_state
