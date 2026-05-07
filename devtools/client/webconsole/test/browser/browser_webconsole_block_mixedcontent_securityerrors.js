@@ -407,7 +407,7 @@ gIdentityHandler
 =
 gBrowser
 .
-ownerGlobal
+documentGlobal
 ;
 ok
 (

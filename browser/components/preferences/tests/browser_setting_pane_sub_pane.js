@@ -52,7 +52,7 @@ win
 =
 doc
 .
-ownerGlobal
+documentGlobal
 ;
 win
 .

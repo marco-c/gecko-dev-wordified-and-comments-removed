@@ -672,7 +672,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 gBrowser

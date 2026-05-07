@@ -475,7 +475,7 @@ flushWindow
 (
 gBrowser
 .
-ownerGlobal
+documentGlobal
 )
 ;
             
@@ -938,7 +938,7 @@ flushWindow
 (
 gBrowser
 .
-ownerGlobal
+documentGlobal
 )
 ;
             

@@ -105,7 +105,7 @@ event
 new
 browser
 .
-ownerGlobal
+documentGlobal
 .
 CustomEvent
 (

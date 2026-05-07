@@ -142,7 +142,7 @@ bc
 =
 element
 .
-ownerGlobal
+documentGlobal
 .
 browsingContext
 ;
@@ -208,7 +208,7 @@ bc
 =
 aField
 .
-ownerGlobal
+documentGlobal
 .
 browsingContext
 ;

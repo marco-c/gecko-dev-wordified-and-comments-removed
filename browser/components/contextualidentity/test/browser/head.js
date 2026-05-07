@@ -46,7 +46,7 @@ contextmenu
 }
 tab
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -276,7 +276,7 @@ tab
 ;
 tab
 .
-ownerGlobal
+documentGlobal
 .
 focus
 (

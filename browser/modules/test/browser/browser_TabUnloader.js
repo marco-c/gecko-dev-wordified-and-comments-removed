@@ -952,7 +952,7 @@ tab0
 ;
 tab0
 .
-ownerGlobal
+documentGlobal
 .
 focus
 (

@@ -289,7 +289,7 @@ win
 =
 doc
 .
-ownerGlobal
+documentGlobal
 ;
 assertPromosExistence
 (

@@ -241,7 +241,7 @@ this
 .
 _browser
 .
-ownerGlobal
+documentGlobal
 .
 docShell
 .

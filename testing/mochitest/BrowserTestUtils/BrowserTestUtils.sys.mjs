@@ -859,7 +859,7 @@ originalWindow
 =
 tab
 .
-ownerGlobal
+documentGlobal
 ;
 let
 result
@@ -884,7 +884,7 @@ finalWindow
 =
 tab
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -1239,7 +1239,7 @@ if
 (
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 &
 &
 tabbrowser
@@ -1248,7 +1248,7 @@ tabbrowser
 =
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 )
@@ -1614,7 +1614,7 @@ innerWindowId
 =
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 .
 windowGlobalChild
 ;
@@ -1780,7 +1780,7 @@ win
 =
 element
 .
-ownerGlobal
+documentGlobal
 ;
 let
 style
@@ -1973,7 +1973,7 @@ win
 =
 element
 .
-ownerGlobal
+documentGlobal
 ;
 let
 style
@@ -2225,7 +2225,7 @@ innerWindowId
 =
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 .
 windowGlobalChild
 ;
@@ -2806,7 +2806,7 @@ innerWindowId
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 windowGlobalChild
 ;
@@ -2915,7 +2915,7 @@ tabbrowser
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 ;
@@ -3413,7 +3413,7 @@ true
 ;
 browser
 .
-ownerGlobal
+documentGlobal
 .
 removeEventListener
 (
@@ -3435,7 +3435,7 @@ true
 ;
 browser
 .
-ownerGlobal
+documentGlobal
 .
 addEventListener
 (
@@ -6048,7 +6048,7 @@ win
 =
 gBrowser
 .
-ownerGlobal
+documentGlobal
 ;
 win
 .
@@ -8284,7 +8284,7 @@ subject
 return
 subject
 .
-ownerGlobal
+documentGlobal
 .
 windowGlobalChild
 .
@@ -10328,7 +10328,7 @@ obs
 new
 target
 .
-ownerGlobal
+documentGlobal
 .
 MutationObserver
 (
@@ -11890,7 +11890,7 @@ options
 {
 tab
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -12148,7 +12148,7 @@ else
 {
 tab
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -13661,7 +13661,7 @@ gBrowser
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 ;
@@ -13909,7 +13909,7 @@ event
 new
 browser
 .
-ownerGlobal
+documentGlobal
 .
 CustomEvent
 (
@@ -14068,7 +14068,7 @@ MutationObserver
 =
 element
 .
-ownerGlobal
+documentGlobal
 .
 MutationObserver
 ;
@@ -14237,7 +14237,7 @@ MutationObserver
 =
 element
 .
-ownerGlobal
+documentGlobal
 .
 MutationObserver
 ;
@@ -15428,7 +15428,7 @@ timer
 =
 element
 .
-ownerGlobal
+documentGlobal
 .
 setTimeout
 (
@@ -15498,7 +15498,7 @@ cleanup
 ;
 element
 .
-ownerGlobal
+documentGlobal
 .
 clearTimeout
 (
@@ -16935,7 +16935,7 @@ window
 =
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 ;
 window
 .

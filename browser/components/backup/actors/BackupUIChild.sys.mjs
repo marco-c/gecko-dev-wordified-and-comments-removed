@@ -556,7 +556,7 @@ win
 =
 widget
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /
@@ -1164,7 +1164,7 @@ isConnected
 !
 widget
 .
-ownerGlobal
+documentGlobal
 )
 {
 continue
@@ -1184,7 +1184,7 @@ data
 state
 widget
 .
-ownerGlobal
+documentGlobal
 )
 ;
 const

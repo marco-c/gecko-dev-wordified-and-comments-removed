@@ -248,7 +248,7 @@ chromeWin
 =
 aBrowser
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (

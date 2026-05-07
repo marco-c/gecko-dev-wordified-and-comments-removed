@@ -1185,7 +1185,7 @@ input
 .
 inputField
 .
-ownerGlobal
+documentGlobal
 ;
 /
 *

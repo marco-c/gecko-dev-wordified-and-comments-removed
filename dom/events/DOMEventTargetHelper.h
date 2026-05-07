@@ -415,13 +415,6 @@ aTypeWithOn
 )
 const
 ;
-nsPIDOMWindowOuter
-*
-GetOwnerGlobalForBindingsInternal
-(
-)
-override
-;
 nsPIDOMWindowInner
 *
 GetWindowIfCurrent

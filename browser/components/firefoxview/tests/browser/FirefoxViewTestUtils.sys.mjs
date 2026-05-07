@@ -1023,7 +1023,7 @@ originalWindow
 =
 tab
 .
-ownerGlobal
+documentGlobal
 ;
 let
 result
@@ -1041,7 +1041,7 @@ finalWindow
 =
 tab
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (

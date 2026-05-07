@@ -875,7 +875,7 @@ win
 =
 tree
 .
-ownerGlobal
+documentGlobal
 ;
 testSortByColAndDir
 (

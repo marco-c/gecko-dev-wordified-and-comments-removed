@@ -361,7 +361,7 @@ open
 await
 selectedBrowser
 .
-ownerGlobal
+documentGlobal
 .
 SpecialPowers
 .
@@ -636,7 +636,7 @@ aBrowser
 await
 aBrowser
 .
-ownerGlobal
+documentGlobal
 .
 SpecialPowers
 .
@@ -688,7 +688,7 @@ aBrowser
 await
 aBrowser
 .
-ownerGlobal
+documentGlobal
 .
 SpecialPowers
 .
@@ -740,7 +740,7 @@ aBrowser
 await
 aBrowser
 .
-ownerGlobal
+documentGlobal
 .
 SpecialPowers
 .
@@ -783,7 +783,7 @@ aBrowser
 await
 aBrowser
 .
-ownerGlobal
+documentGlobal
 .
 SpecialPowers
 .
@@ -826,7 +826,7 @@ aBrowser
 await
 aBrowser
 .
-ownerGlobal
+documentGlobal
 .
 SpecialPowers
 .
@@ -869,7 +869,7 @@ aBrowser
 await
 aBrowser
 .
-ownerGlobal
+documentGlobal
 .
 SpecialPowers
 .

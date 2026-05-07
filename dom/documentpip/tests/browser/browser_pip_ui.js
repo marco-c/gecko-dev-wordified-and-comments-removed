@@ -623,7 +623,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 const
 contextMenu

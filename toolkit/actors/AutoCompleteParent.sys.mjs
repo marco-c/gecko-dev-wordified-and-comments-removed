@@ -1089,7 +1089,7 @@ window
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /
@@ -2880,7 +2880,7 @@ top
 .
 embedderElement
 .
-ownerGlobal
+documentGlobal
 ;
 for
 (

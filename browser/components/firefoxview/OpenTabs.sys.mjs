@@ -2369,7 +2369,7 @@ target
 :
 target
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /

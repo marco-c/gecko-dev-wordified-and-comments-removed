@@ -188,7 +188,7 @@ stub
 sidebarContainer
 :
 {
-ownerGlobal
+documentGlobal
 :
 mockGlobal
 }

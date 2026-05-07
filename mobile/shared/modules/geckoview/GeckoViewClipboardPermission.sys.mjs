@@ -267,7 +267,7 @@ windowUtils
 =
 document
 .
-ownerGlobal
+documentGlobal
 .
 windowUtils
 ;
@@ -323,7 +323,7 @@ this
 ;
 document
 .
-ownerGlobal
+documentGlobal
 .
 WindowEventDispatcher
 .
@@ -479,7 +479,7 @@ aEvent
 .
 target
 .
-ownerGlobal
+documentGlobal
 .
 WindowEventDispatcher
 .

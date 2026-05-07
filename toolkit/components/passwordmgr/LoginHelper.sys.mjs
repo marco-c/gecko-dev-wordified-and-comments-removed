@@ -10572,7 +10572,7 @@ messageText
 captionText
 browser
 .
-ownerGlobal
+documentGlobal
 false
 )
 ;
@@ -11372,7 +11372,7 @@ chromeWindow
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 openerBrowsingContext

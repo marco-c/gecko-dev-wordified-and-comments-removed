@@ -528,7 +528,7 @@ _cleanupFullscreenStateAndResumeChromeUI
 (
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -564,7 +564,7 @@ removeListeners
 (
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -886,7 +886,7 @@ window
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 switch
 (
@@ -1573,7 +1573,7 @@ aEvent
 .
 target
 .
-ownerGlobal
+documentGlobal
 =
 =
 window
@@ -1594,7 +1594,7 @@ aEvent
 .
 target
 .
-ownerGlobal
+documentGlobal
 .
 docShell
 .
@@ -1727,7 +1727,7 @@ requestOrigin
 browsingContext
 browser
 .
-ownerGlobal
+documentGlobal
 .
 document
 .

@@ -2203,7 +2203,7 @@ isSidebarOpen
 (
 newTab
 .
-ownerGlobal
+documentGlobal
 )
 "
 Waiting
@@ -2226,7 +2226,7 @@ isSidebarOpen
 (
 newTab
 .
-ownerGlobal
+documentGlobal
 )
 "
 Sidebar
@@ -2246,7 +2246,7 @@ closeSidebar
 (
 newTab
 .
-ownerGlobal
+documentGlobal
 )
 ;
 BrowserTestUtils

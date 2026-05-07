@@ -1567,7 +1567,7 @@ TouchBarHelper
 .
 window
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 ;

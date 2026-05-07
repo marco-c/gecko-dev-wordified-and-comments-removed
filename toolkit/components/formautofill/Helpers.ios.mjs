@@ -180,7 +180,7 @@ HTMLElement
 .
 prototype
 .
-ownerGlobal
+documentGlobal
 =
 window
 ;

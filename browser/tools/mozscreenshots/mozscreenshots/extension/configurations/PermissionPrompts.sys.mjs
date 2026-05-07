@@ -936,7 +936,7 @@ SpecialPowers
 =
 lastTab
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (

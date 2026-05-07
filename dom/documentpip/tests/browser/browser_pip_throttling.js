@@ -601,7 +601,7 @@ setMinimized
 (
 tab
 .
-ownerGlobal
+documentGlobal
 )
 ;
 ok
@@ -662,7 +662,7 @@ setMinimized
 (
 tab
 .
-ownerGlobal
+documentGlobal
 false
 )
 ;
@@ -724,7 +724,7 @@ setMinimized
 (
 tab
 .
-ownerGlobal
+documentGlobal
 )
 ;
 ok
@@ -814,7 +814,7 @@ setMinimized
 (
 tab
 .
-ownerGlobal
+documentGlobal
 false
 )
 ;
@@ -991,7 +991,7 @@ setMinimized
 (
 tab2win1
 .
-ownerGlobal
+documentGlobal
 )
 ;
 ok
@@ -1049,7 +1049,7 @@ setMinimized
 (
 tab2win1
 .
-ownerGlobal
+documentGlobal
 false
 )
 ;

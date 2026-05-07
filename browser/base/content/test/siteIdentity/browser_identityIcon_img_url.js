@@ -867,7 +867,7 @@ identityIconImageURL
 =
 gBrowser
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (

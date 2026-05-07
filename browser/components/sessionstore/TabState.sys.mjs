@@ -624,7 +624,7 @@ searchMode
 =
 tab
 .
-ownerGlobal
+documentGlobal
 .
 gURLBar
 .
@@ -806,7 +806,7 @@ tabbrowser
 =
 tab
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 ;

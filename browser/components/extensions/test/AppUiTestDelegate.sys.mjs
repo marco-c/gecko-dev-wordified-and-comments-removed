@@ -276,7 +276,7 @@ window
 .
 gBrowser
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /
@@ -815,7 +815,7 @@ if
 (
 browser
 .
-ownerGlobal
+documentGlobal
 .
 document
 .

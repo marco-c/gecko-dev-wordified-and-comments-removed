@@ -5812,7 +5812,7 @@ opacity
 =
 card
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (

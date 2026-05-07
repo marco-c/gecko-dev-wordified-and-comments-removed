@@ -36,7 +36,7 @@ win
 =
 doc
 .
-ownerGlobal
+documentGlobal
 ;
 return
 {

@@ -353,7 +353,7 @@ browser
 .
 document
 .
-ownerGlobal
+documentGlobal
 ;
 export
 var

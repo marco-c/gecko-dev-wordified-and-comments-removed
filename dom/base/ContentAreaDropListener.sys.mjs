@@ -1865,7 +1865,7 @@ aEvent
 .
 originalTarget
 .
-ownerGlobal
+documentGlobal
 .
 browsingContext
 .

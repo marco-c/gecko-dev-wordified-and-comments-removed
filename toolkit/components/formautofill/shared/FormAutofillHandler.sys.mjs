@@ -881,7 +881,7 @@ form
 .
 rootElement
 .
-ownerGlobal
+documentGlobal
 ;
 this
 .
@@ -7190,7 +7190,7 @@ dispatchEvent
 new
 element
 .
-ownerGlobal
+documentGlobal
 .
 Event
 (
@@ -7212,7 +7212,7 @@ dispatchEvent
 new
 element
 .
-ownerGlobal
+documentGlobal
 .
 Event
 (

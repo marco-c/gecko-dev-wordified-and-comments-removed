@@ -1498,7 +1498,7 @@ window
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /
@@ -3575,7 +3575,7 @@ tabBrowser
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 ;
@@ -3853,7 +3853,7 @@ aEvent
 .
 target
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /
@@ -5295,7 +5295,7 @@ targetStyle
 =
 aElement
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (
@@ -5663,7 +5663,7 @@ aTarget
 .
 node
 .
-ownerGlobal
+documentGlobal
 .
 document
 ;
@@ -9197,7 +9197,7 @@ aEvent
 .
 target
 .
-ownerGlobal
+documentGlobal
 ;
 let
 hideHighlightMethod
@@ -11950,7 +11950,7 @@ win
 =
 aPanelEl
 .
-ownerGlobal
+documentGlobal
 ;
 observer
 =

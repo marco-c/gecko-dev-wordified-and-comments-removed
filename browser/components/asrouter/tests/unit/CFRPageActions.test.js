@@ -353,7 +353,7 @@ host
 :
 fakeHost
 }
-ownerGlobal
+documentGlobal
 :
 window
 }
@@ -3255,7 +3255,7 @@ set
 (
 fakeBrowser
 .
-ownerGlobal
+documentGlobal
 pageAction
 )
 ;
@@ -5128,7 +5128,7 @@ set
 (
 fakeBrowser
 .
-ownerGlobal
+documentGlobal
 pageAction
 )
 ;
@@ -5465,7 +5465,7 @@ set
 (
 fakeBrowser
 .
-ownerGlobal
+documentGlobal
 pageAction
 )
 ;
@@ -5887,7 +5887,7 @@ win
 =
 fakeBrowser
 .
-ownerGlobal
+documentGlobal
 ;
 CFRPageActions
 .
@@ -5962,7 +5962,7 @@ win
 =
 fakeBrowser
 .
-ownerGlobal
+documentGlobal
 ;
 CFRPageActions
 .
@@ -6653,7 +6653,7 @@ win
 =
 fakeBrowser
 .
-ownerGlobal
+documentGlobal
 ;
 assert
 .
@@ -7871,7 +7871,7 @@ get
 (
 fakeBrowser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -8201,7 +8201,7 @@ win
 =
 fakeBrowser
 .
-ownerGlobal
+documentGlobal
 ;
 assert
 .

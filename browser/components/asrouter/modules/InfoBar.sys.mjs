@@ -1322,7 +1322,7 @@ gBrowser
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 doc
@@ -1357,7 +1357,7 @@ notificationContainer
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gNotificationBox
 ;
@@ -2524,7 +2524,7 @@ btnDescription
 action
 target
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -4052,7 +4052,7 @@ win
 browser
 ?
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -4372,7 +4372,7 @@ box
 >
 box
 .
-ownerGlobal
+documentGlobal
 !
 =
 =
@@ -4428,7 +4428,7 @@ box
 !
 box
 .
-ownerGlobal
+documentGlobal
 ?
 .
 closed

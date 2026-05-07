@@ -175,7 +175,7 @@ debuggerIcon
 }
 debuggerIcon
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

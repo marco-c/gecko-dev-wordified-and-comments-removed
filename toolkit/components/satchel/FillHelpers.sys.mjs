@@ -321,7 +321,7 @@ container
 }
 anchor
 .
-ownerGlobal
+documentGlobal
 .
 ConfirmationHint
 .

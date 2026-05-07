@@ -5365,7 +5365,7 @@ chromeWin
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (

@@ -2239,7 +2239,7 @@ window
 =
 contentDocument
 .
-ownerGlobal
+documentGlobal
 ;
 this
 .

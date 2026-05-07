@@ -412,7 +412,7 @@ originWindow
 =
 aTab
 .
-ownerGlobal
+documentGlobal
 ;
 Glean
 .

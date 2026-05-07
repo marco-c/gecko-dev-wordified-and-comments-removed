@@ -1189,7 +1189,7 @@ notification
 .
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (

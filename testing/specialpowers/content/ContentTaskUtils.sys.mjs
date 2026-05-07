@@ -1273,7 +1273,7 @@ Get
 rid
 of
 the
-ownerGlobal
+documentGlobal
 fallback
 once
 152
@@ -1294,7 +1294,7 @@ documentGlobal
 ?
 subject
 .
-ownerGlobal
+documentGlobal
 ;
 let
 obs

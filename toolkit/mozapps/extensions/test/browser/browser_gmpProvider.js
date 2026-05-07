@@ -277,7 +277,7 @@ link
 }
 item
 .
-ownerGlobal
+documentGlobal
 )
 ;
 return

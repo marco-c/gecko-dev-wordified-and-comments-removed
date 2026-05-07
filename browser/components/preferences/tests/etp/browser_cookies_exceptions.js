@@ -2586,7 +2586,7 @@ cookieExceptionsButton
 }
 doc
 .
-ownerGlobal
+documentGlobal
 )
 ;
 let

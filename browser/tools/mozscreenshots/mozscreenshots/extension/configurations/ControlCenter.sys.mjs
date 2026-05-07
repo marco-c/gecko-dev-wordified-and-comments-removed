@@ -1196,7 +1196,7 @@ TRACKING_PAGE
 ;
 gBrowser
 .
-ownerGlobal
+documentGlobal
 .
 gProtectionsHandler
 .
@@ -1307,7 +1307,7 @@ gIdentityHandler
 =
 gBrowser
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /
@@ -1481,7 +1481,7 @@ gProtectionsHandler
 =
 gBrowser
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /

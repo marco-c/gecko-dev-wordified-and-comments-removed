@@ -692,7 +692,7 @@ isWindowPrivate
 (
 browser
 .
-ownerGlobal
+documentGlobal
 )
 |
 |

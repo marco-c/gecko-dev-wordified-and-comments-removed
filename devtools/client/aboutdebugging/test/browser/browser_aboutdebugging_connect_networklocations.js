@@ -430,7 +430,7 @@ sendString
 location
 networkLocationInput
 .
-ownerGlobal
+documentGlobal
 )
 ;
 info

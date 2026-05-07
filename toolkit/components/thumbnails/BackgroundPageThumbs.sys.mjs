@@ -2068,7 +2068,7 @@ this
 .
 _thumbBrowser
 .
-ownerGlobal
+documentGlobal
 .
 requestIdleCallback
 (
@@ -4082,7 +4082,7 @@ createCanvas
 (
 aBrowser
 .
-ownerGlobal
+documentGlobal
 1
 1
 )

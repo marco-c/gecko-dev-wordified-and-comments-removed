@@ -3592,13 +3592,6 @@ GetOwnerGlobal
 const
 override
 ;
-nsPIDOMWindowOuter
-*
-GetOwnerGlobalForBindingsInternal
-(
-)
-override
-;
 nsIGlobalObject
 *
 GetDocumentGlobal

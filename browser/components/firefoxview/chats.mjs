@@ -741,7 +741,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 ;
 const
 mostRecentPage
@@ -802,7 +802,7 @@ openSidebar
 (
 targetBrowser
 .
-ownerGlobal
+documentGlobal
 conversation
 )
 ;

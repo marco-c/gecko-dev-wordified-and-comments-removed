@@ -605,7 +605,7 @@ this
 .
 sourceBrowser
 .
-ownerGlobal
+documentGlobal
 .
 document
 .
@@ -824,7 +824,7 @@ initFn
 (
 doc
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -1755,7 +1755,7 @@ this
 .
 sourceBrowser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .

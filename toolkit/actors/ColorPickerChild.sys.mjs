@@ -146,7 +146,7 @@ dispatchEvent
 new
 inputElement
 .
-ownerGlobal
+documentGlobal
 .
 Event
 (

@@ -9045,7 +9045,7 @@ top
 embedderElement
 ?
 .
-ownerGlobal
+documentGlobal
 ;
 }
 this

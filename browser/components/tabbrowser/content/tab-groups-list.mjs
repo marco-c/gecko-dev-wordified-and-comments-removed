@@ -245,7 +245,7 @@ win
 return
 this
 .
-ownerGlobal
+documentGlobal
 ;
 }
 connectedCallback
@@ -408,7 +408,7 @@ select
 ;
 group
 .
-ownerGlobal
+documentGlobal
 .
 focus
 (

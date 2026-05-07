@@ -481,7 +481,7 @@ is
 windowContext
 browser
 .
-ownerGlobal
+documentGlobal
 "
 got
 the
@@ -595,7 +595,7 @@ is
 windowContext
 browser
 .
-ownerGlobal
+documentGlobal
 "
 got
 the
@@ -715,7 +715,7 @@ is
 windowContext
 browser
 .
-ownerGlobal
+documentGlobal
 "
 got
 the
@@ -885,7 +885,7 @@ is
 windowContext
 browser
 .
-ownerGlobal
+documentGlobal
 "
 got
 the
@@ -1023,7 +1023,7 @@ is
 windowContext
 browser
 .
-ownerGlobal
+documentGlobal
 "
 got
 the
@@ -1147,7 +1147,7 @@ is
 windowContext
 browser
 .
-ownerGlobal
+documentGlobal
 "
 got
 the

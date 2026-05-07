@@ -12413,7 +12413,7 @@ unitChangeEvent
 new
 swatch
 .
-ownerGlobal
+documentGlobal
 .
 CustomEvent
 (
@@ -12500,7 +12500,7 @@ unitChangeEvent
 new
 swatch
 .
-ownerGlobal
+documentGlobal
 .
 CustomEvent
 (

@@ -2949,7 +2949,7 @@ switchToFxViewTab
 (
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 info

@@ -1290,7 +1290,7 @@ event
 {
 let
 {
-ownerGlobal
+documentGlobal
 }
 =
 event
@@ -1306,7 +1306,7 @@ panels
 .
 has
 (
-ownerGlobal
+documentGlobal
 )
 )
 {
@@ -1320,7 +1320,7 @@ panels
 .
 get
 (
-ownerGlobal
+documentGlobal
 )
 ;
 panel
@@ -1365,7 +1365,7 @@ event
 {
 let
 {
-ownerGlobal
+documentGlobal
 }
 =
 event
@@ -1381,7 +1381,7 @@ panels
 .
 has
 (
-ownerGlobal
+documentGlobal
 )
 )
 {
@@ -1395,7 +1395,7 @@ panels
 .
 get
 (
-ownerGlobal
+documentGlobal
 )
 ;
 panel
@@ -1443,14 +1443,14 @@ doc
 {
 let
 {
-ownerGlobal
+documentGlobal
 }
 =
 doc
 ;
 if
 (
-ownerGlobal
+documentGlobal
 &
 &
 !
@@ -1461,7 +1461,7 @@ panels
 .
 has
 (
-ownerGlobal
+documentGlobal
 )
 )
 {
@@ -1473,7 +1473,7 @@ lazy
 .
 IPProtectionPanel
 (
-ownerGlobal
+documentGlobal
 this
 .
 variant
@@ -1486,7 +1486,7 @@ panels
 .
 set
 (
-ownerGlobal
+documentGlobal
 panel
 )
 ;
@@ -1545,7 +1545,7 @@ window
 =
 toolbaritem
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (

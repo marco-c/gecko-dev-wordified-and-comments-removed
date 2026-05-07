@@ -206,7 +206,7 @@ gProtectionsHandler
 =
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 .
 gProtectionsHandler
 ;
@@ -338,7 +338,7 @@ waitForSecurityChange
 1
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 tabbrowser
@@ -390,7 +390,7 @@ waitForSecurityChange
 1
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 tabbrowser
@@ -441,7 +441,7 @@ waitForSecurityChange
 1
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 tabbrowser
@@ -488,7 +488,7 @@ waitForSecurityChange
 1
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 let
@@ -499,7 +499,7 @@ waitForContentBlockingEvent
 2
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 tabbrowser
@@ -553,7 +553,7 @@ waitForSecurityChange
 2
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 contentBlockingEvent
@@ -563,7 +563,7 @@ waitForContentBlockingEvent
 3
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 tabbrowser
@@ -626,7 +626,7 @@ waitForSecurityChange
 1
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 let
@@ -739,7 +739,7 @@ waitForSecurityChange
 1
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 timeoutPromise
@@ -857,7 +857,7 @@ waitForSecurityChange
 1
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 timeoutPromise
@@ -969,7 +969,7 @@ waitForSecurityChange
 1
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 timeoutPromise
@@ -1100,7 +1100,7 @@ gProtectionsHandler
 =
 gBrowser
 .
-ownerGlobal
+documentGlobal
 .
 gProtectionsHandler
 ;
@@ -1125,7 +1125,7 @@ TrackingProtection
 =
 gBrowser
 .
-ownerGlobal
+documentGlobal
 .
 gProtectionsHandler
 .
@@ -1152,7 +1152,7 @@ ThirdPartyCookies
 =
 gBrowser
 .
-ownerGlobal
+documentGlobal
 .
 gProtectionsHandler
 .
@@ -1295,7 +1295,7 @@ gProtectionsHandler
 =
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 .
 gProtectionsHandler
 ;
@@ -1320,7 +1320,7 @@ TrackingProtection
 =
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 .
 gProtectionsHandler
 .
@@ -1347,7 +1347,7 @@ ThirdPartyCookies
 =
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 .
 gProtectionsHandler
 .

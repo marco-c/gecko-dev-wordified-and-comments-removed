@@ -1335,7 +1335,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -2787,7 +2787,7 @@ browser
 {
 browser
 .
-ownerGlobal
+documentGlobal
 .
 openPreferences
 (
@@ -3002,7 +3002,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 text

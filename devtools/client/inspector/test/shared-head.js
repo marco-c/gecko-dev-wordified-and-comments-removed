@@ -1635,7 +1635,7 @@ yOffset
 options
 editable
 .
-ownerGlobal
+documentGlobal
 )
 ;
 options
@@ -1656,7 +1656,7 @@ yOffset
 options
 editable
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -1672,7 +1672,7 @@ yOffset
 options
 editable
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }

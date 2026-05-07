@@ -375,7 +375,7 @@ win
 browser
 ?
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (

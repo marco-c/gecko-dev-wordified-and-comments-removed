@@ -485,7 +485,7 @@ aEvent
 .
 target
 .
-ownerGlobal
+documentGlobal
 ;
 win
 .
@@ -521,7 +521,7 @@ aEvent
 .
 target
 .
-ownerGlobal
+documentGlobal
 ;
 let
 links
@@ -718,7 +718,7 @@ aEvent
 .
 target
 .
-ownerGlobal
+documentGlobal
 ;
 let
 links

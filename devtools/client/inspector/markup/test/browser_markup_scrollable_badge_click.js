@@ -611,7 +611,7 @@ VK_RETURN
 }
 scrollableBage
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -697,7 +697,7 @@ VK_RETURN
 }
 scrollableBage
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

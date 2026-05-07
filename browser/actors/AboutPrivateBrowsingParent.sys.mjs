@@ -309,7 +309,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 switch
 (

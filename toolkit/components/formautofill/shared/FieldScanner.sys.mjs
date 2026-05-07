@@ -939,7 +939,7 @@ getFromWindow
 (
 element
 .
-ownerGlobal
+documentGlobal
 )
 .
 id
@@ -955,7 +955,7 @@ doesn
 '
 t
 have
-ownerGlobal
+documentGlobal
 *
 /
 }

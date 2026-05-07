@@ -2291,7 +2291,7 @@ if
 (
 node
 .
-ownerGlobal
+documentGlobal
 )
 {
 /
@@ -5103,7 +5103,7 @@ if
 !
 node
 .
-ownerGlobal
+documentGlobal
 )
 {
 /
@@ -5520,7 +5520,7 @@ true
 }
 const
 {
-ownerGlobal
+documentGlobal
 }
 =
 element
@@ -5528,7 +5528,7 @@ element
 if
 (
 !
-ownerGlobal
+documentGlobal
 )
 {
 /
@@ -5539,7 +5539,7 @@ compute
 the
 style
 without
-ownerGlobal
+documentGlobal
 so
 we
 will
@@ -5568,7 +5568,7 @@ cost
 const
 style
 =
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (
@@ -6923,7 +6923,7 @@ false
 }
 const
 {
-ownerGlobal
+documentGlobal
 }
 =
 element
@@ -6931,7 +6931,7 @@ element
 if
 (
 !
-ownerGlobal
+documentGlobal
 )
 {
 /
@@ -7069,7 +7069,7 @@ indexable
 const
 style
 =
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (

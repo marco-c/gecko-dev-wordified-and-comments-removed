@@ -4667,7 +4667,7 @@ if
 this
 ?
 .
-ownerGlobal
+documentGlobal
 ?
 .
 gBrowser
@@ -4682,7 +4682,7 @@ this
 return
 this
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 ;

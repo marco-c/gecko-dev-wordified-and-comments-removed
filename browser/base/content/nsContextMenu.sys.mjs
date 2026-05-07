@@ -878,7 +878,7 @@ window
 =
 aXulMenu
 .
-ownerGlobal
+documentGlobal
 ;
 this
 .
@@ -1891,7 +1891,7 @@ this
 .
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 this

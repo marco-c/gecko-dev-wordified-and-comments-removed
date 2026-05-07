@@ -878,7 +878,7 @@ window
 =
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 ;
 this
 .
@@ -6173,7 +6173,7 @@ otherTabbrowser
 =
 otherBrowser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 ;

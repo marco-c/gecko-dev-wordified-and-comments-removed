@@ -7817,16 +7817,16 @@ WindowProxy
 *
 /
 const
-ownerGlobal
+documentGlobal
 =
 ensureExists
 (
 document
 .
-ownerGlobal
+documentGlobal
 )
 ;
-ownerGlobal
+documentGlobal
 .
 addEventListener
 (
@@ -7845,7 +7845,7 @@ this
 domParser
 =
 new
-ownerGlobal
+documentGlobal
 .
 DOMParser
 (
@@ -8266,7 +8266,7 @@ IntersectionObserver
 const
 DocumentIntersectionObserver
 =
-ownerGlobal
+documentGlobal
 .
 IntersectionObserver
 ;
@@ -9838,7 +9838,7 @@ MutationObserver
 const
 DocumentMutationObserver
 =
-ownerGlobal
+documentGlobal
 .
 MutationObserver
 ;
@@ -10154,7 +10154,7 @@ this
 #
 sourceDocument
 .
-ownerGlobal
+documentGlobal
 )
 .
 requestAnimationFrame
@@ -11780,7 +11780,7 @@ this
 #
 sourceDocument
 .
-ownerGlobal
+documentGlobal
 )
 ;
 const
@@ -12974,7 +12974,7 @@ hasPendingMutatedNodesCallback
 true
 ;
 const
-ownerGlobal
+documentGlobal
 =
 ensureExists
 (
@@ -12983,7 +12983,7 @@ this
 #
 sourceDocument
 .
-ownerGlobal
+documentGlobal
 )
 ;
 /
@@ -13024,7 +13024,7 @@ a
 double
 requestAnimationFrame
 .
-ownerGlobal
+documentGlobal
 .
 requestAnimationFrame
 (
@@ -13033,7 +13033,7 @@ requestAnimationFrame
 =
 >
 {
-ownerGlobal
+documentGlobal
 .
 requestAnimationFrame
 (
@@ -15180,7 +15180,7 @@ this
 #
 sourceDocument
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -21953,7 +21953,7 @@ this
 #
 sourceDocument
 .
-ownerGlobal
+documentGlobal
 )
 .
 scrollY
@@ -36569,7 +36569,7 @@ true
 }
 const
 {
-ownerGlobal
+documentGlobal
 }
 =
 element
@@ -36577,7 +36577,7 @@ element
 if
 (
 !
-ownerGlobal
+documentGlobal
 )
 {
 /
@@ -36588,7 +36588,7 @@ compute
 the
 style
 without
-ownerGlobal
+documentGlobal
 so
 we
 will
@@ -36617,7 +36617,7 @@ cost
 const
 style
 =
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (
@@ -37001,7 +37001,7 @@ window
 =
 node
 .
-ownerGlobal
+documentGlobal
 ;
 const
 document
@@ -40197,7 +40197,7 @@ false
 }
 const
 {
-ownerGlobal
+documentGlobal
 }
 =
 element
@@ -40205,7 +40205,7 @@ element
 if
 (
 !
-ownerGlobal
+documentGlobal
 )
 {
 return
@@ -40310,7 +40310,7 @@ indexable
 const
 style
 =
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (

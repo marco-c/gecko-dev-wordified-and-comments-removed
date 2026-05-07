@@ -5135,7 +5135,7 @@ getRemoteTypeForURI
 aURL
 aBrowser
 .
-ownerGlobal
+documentGlobal
 .
 docShell
 .
@@ -5144,7 +5144,7 @@ nsILoadContext
 useRemoteTabs
 aBrowser
 .
-ownerGlobal
+documentGlobal
 .
 docShell
 .

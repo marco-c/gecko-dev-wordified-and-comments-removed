@@ -811,7 +811,7 @@ gBrowser
 .
 selectedBrowser
 .
-ownerGlobal
+documentGlobal
 .
 matchMedia
 (
@@ -877,7 +877,7 @@ gBrowser
 .
 selectedBrowser
 .
-ownerGlobal
+documentGlobal
 .
 matchMedia
 (

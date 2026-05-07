@@ -1042,7 +1042,7 @@ gBrowser
 ;
 backgroundTab
 .
-ownerGlobal
+documentGlobal
 .
 gURLBar
 .

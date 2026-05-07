@@ -13103,7 +13103,7 @@ docShell
 .
 chromeEventHandler
 .
-ownerGlobal
+documentGlobal
 promptTitle
 promptBody
 buttonFlags
@@ -13226,7 +13226,7 @@ docShell
 .
 chromeEventHandler
 .
-ownerGlobal
+documentGlobal
 "
 restart
 -

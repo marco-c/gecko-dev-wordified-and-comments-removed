@@ -477,7 +477,7 @@ contextData
 .
 menu
 .
-ownerGlobal
+documentGlobal
 )
 )
 {
@@ -2090,7 +2090,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 ;
 actionFor
 (
@@ -2179,7 +2179,7 @@ contextData
 .
 menu
 .
-ownerGlobal
+documentGlobal
 ;
 let
 {
@@ -5236,7 +5236,7 @@ event
 .
 currentTarget
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -5519,7 +5519,7 @@ tab
 =
 menu
 .
-ownerGlobal
+documentGlobal
 .
 TabContextMenu
 .
@@ -6361,7 +6361,7 @@ if
 !
 linkedBrowser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .

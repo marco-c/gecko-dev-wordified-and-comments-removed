@@ -5924,7 +5924,7 @@ progress
 {
 doc
 .
-ownerGlobal
+documentGlobal
 .
 setTimeout
 (
@@ -7737,7 +7737,7 @@ nsContextMenu
 .
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 this
 .

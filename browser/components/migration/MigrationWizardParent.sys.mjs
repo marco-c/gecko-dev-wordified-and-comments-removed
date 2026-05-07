@@ -4949,7 +4949,7 @@ window
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 window
 .

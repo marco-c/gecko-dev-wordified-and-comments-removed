@@ -896,7 +896,7 @@ win
 =
 target
 .
-ownerGlobal
+documentGlobal
 ;
 let
 selfBrowser

@@ -230,7 +230,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /
@@ -319,7 +319,7 @@ topBrowser
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 docShell
 .
@@ -329,7 +329,7 @@ win
 =
 topBrowser
 .
-ownerGlobal
+documentGlobal
 ;
 }
 message
@@ -616,7 +616,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 windowUtils

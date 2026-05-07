@@ -3666,7 +3666,7 @@ view
 =
 panel
 .
-ownerGlobal
+documentGlobal
 .
 PanelUI
 .

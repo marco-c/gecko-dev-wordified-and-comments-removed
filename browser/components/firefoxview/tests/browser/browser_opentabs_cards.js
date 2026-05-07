@@ -1283,14 +1283,14 @@ row
 .
 tabElement
 .
-ownerGlobal
+documentGlobal
 window
 "
 The
 tabElement
 '
 s
-ownerGlobal
+documentGlobal
 is
 our
 original

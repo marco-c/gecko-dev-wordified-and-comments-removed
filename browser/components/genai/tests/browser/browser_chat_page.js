@@ -149,7 +149,7 @@ win
 =
 tab
 .
-ownerGlobal
+documentGlobal
 ;
 const
 contextMenu
@@ -282,7 +282,7 @@ button
 }
 aichatEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }

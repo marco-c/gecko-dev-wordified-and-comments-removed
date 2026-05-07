@@ -207,7 +207,7 @@ true
 }
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 let
@@ -489,7 +489,7 @@ true
 }
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 keyReceived
@@ -856,7 +856,7 @@ true
 }
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 let
@@ -1174,7 +1174,7 @@ true
 }
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -1191,7 +1191,7 @@ KEY_F11
 }
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -1424,7 +1424,7 @@ true
 }
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 let

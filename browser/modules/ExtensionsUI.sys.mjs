@@ -423,7 +423,7 @@ while
 (
 browser
 .
-ownerGlobal
+documentGlobal
 .
 docShell
 .
@@ -442,7 +442,7 @@ browser
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 docShell
 .
@@ -454,7 +454,7 @@ window
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 viewType
@@ -1028,7 +1028,7 @@ tabbrowser
 .
 selectedBrowser
 .
-ownerGlobal
+documentGlobal
 ;
 return
 global
@@ -3387,7 +3387,7 @@ strings
 header
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gUnifiedExtensions
 .
@@ -4573,7 +4573,7 @@ win
 =
 popup
 .
-ownerGlobal
+documentGlobal
 ;
 let
 doc

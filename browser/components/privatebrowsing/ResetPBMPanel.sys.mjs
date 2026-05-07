@@ -463,7 +463,7 @@ triggeringWindow
 =
 panelview
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /
@@ -866,7 +866,7 @@ triggeringWindow
 =
 button
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /

@@ -148,7 +148,7 @@ if
 (
 node
 .
-ownerGlobal
+documentGlobal
 .
 matchMedia
 (

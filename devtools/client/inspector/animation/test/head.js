@@ -570,7 +570,7 @@ y
 }
 buttonEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -651,7 +651,7 @@ y
 }
 buttonEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -728,7 +728,7 @@ y
 }
 buttonEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -802,7 +802,7 @@ mousedonwX
 }
 controllerEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -1017,7 +1017,7 @@ win
 =
 selectEl
 .
-ownerGlobal
+documentGlobal
 ;
 while
 (
@@ -1129,7 +1129,7 @@ summaryGraphEl
 }
 summaryGraphEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 scrubberEl
@@ -1240,7 +1240,7 @@ targetEl
 }
 targetEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -1366,7 +1366,7 @@ targetEl
 }
 targetEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -1430,7 +1430,7 @@ mousedown
 }
 controllerEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -1479,7 +1479,7 @@ mousemove
 }
 controllerEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -1524,7 +1524,7 @@ mouseup
 }
 controllerEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -1637,7 +1637,7 @@ mousedown
 }
 controllerEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -1686,7 +1686,7 @@ mousemove
 }
 controllerEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -1731,7 +1731,7 @@ mouseup
 }
 controllerEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -1906,7 +1906,7 @@ mouseover
 }
 el
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -1985,7 +1985,7 @@ mouseout
 }
 el
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -2065,7 +2065,7 @@ SPACE
 "
 element
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }

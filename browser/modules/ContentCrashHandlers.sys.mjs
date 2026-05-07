@@ -896,7 +896,7 @@ isConnected
 !
 browser
 .
-ownerGlobal
+documentGlobal
 .
 closed
 )
@@ -2565,7 +2565,7 @@ close
 ;
 gBrowser
 .
-ownerGlobal
+documentGlobal
 .
 MozXULElement
 .
@@ -4159,7 +4159,7 @@ window
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /

@@ -82,7 +82,7 @@ dispatchEvent
 new
 marginSelect
 .
-ownerGlobal
+documentGlobal
 .
 Event
 (
@@ -107,7 +107,7 @@ dispatchEvent
 new
 marginSelect
 .
-ownerGlobal
+documentGlobal
 .
 Event
 (

@@ -250,7 +250,7 @@ codeMirror
 .
 contentDOM
 .
-ownerGlobal
+documentGlobal
 ;
 const
 font

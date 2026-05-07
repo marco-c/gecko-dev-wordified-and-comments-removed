@@ -1480,7 +1480,7 @@ SpecialPowers
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /
