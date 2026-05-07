@@ -6596,6 +6596,14 @@ if
 (
 !
 mIPCClosed
+&
+&
+chan
+-
+>
+IsNavigation
+(
+)
 )
 {
 nsLoadFlags

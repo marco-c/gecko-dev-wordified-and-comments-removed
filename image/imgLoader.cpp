@@ -13657,7 +13657,7 @@ requestFlags
 nsIRequest
 :
 :
-LOAD_REQUESTMASK
+LOAD_INHERIT_MASK
 ;
 nsresult
 rv
