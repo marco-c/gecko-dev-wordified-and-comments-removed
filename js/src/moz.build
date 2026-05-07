@@ -2732,13 +2732,6 @@ intl
 collator_glue
 "
 "
-builtin
-/
-intl
-/
-locale_glue
-"
-"
 irregexp
 /
 properties_glue
