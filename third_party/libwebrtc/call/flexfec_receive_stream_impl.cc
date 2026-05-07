@@ -703,6 +703,10 @@ rtt_stats
 packet_router
 ]
 {
+RTC_CHECK_NOTREACHED
+(
+)
+;
 if
 (
 packet_router
