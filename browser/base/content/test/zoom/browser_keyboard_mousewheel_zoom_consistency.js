@@ -260,14 +260,14 @@ browser
 )
 1
 .
-33
+3
 "
 Third
 enlarge
 should
 go
 to
-133
+130
 %
 "
 )
