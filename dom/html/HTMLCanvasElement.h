@@ -1124,6 +1124,11 @@ MOZ_CAN_RUN_SCRIPT
 void
 CallPrintCallback
 (
+RefPtr
+<
+HTMLCanvasPrintState
+>
+aPrintState
 )
 ;
 virtual
