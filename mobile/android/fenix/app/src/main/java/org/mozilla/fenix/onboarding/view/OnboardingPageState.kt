@@ -73,13 +73,13 @@ annotation
 .
 DrawableRes
 import
-org
-.
 mozilla
 .
-fenix
+components
 .
 compose
+.
+base
 .
 LinkTextState
 import

@@ -335,13 +335,13 @@ ReplaceWith
 LinkText
 "
 "
-org
-.
 mozilla
 .
-fenix
+components
 .
 compose
+.
+base
 .
 LinkText
 "
