@@ -538,6 +538,12 @@ _provider
 }
 destroy
 (
+{
+fromInspectorDestroy
+}
+=
+{
+}
 )
 {
 if
@@ -562,6 +568,15 @@ once
 )
 ;
 }
+if
+(
+fromInspectorDestroy
+!
+=
+=
+true
+)
+{
 this
 .
 store
@@ -576,6 +591,7 @@ id
 )
 )
 ;
+}
 this
 .
 inspector
