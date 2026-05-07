@@ -2541,11 +2541,15 @@ run
 )
         
 if
+testname
+.
+startswith
+(
 "
 ve
+-
 "
-in
-testname
+)
 :
             
 if
@@ -3195,16 +3199,20 @@ test
 )
         
 elif
-"
-ve
-"
-in
 test
 [
 "
 name
 "
 ]
+.
+startswith
+(
+"
+ve
+-
+"
+)
 :
             
 subtests
