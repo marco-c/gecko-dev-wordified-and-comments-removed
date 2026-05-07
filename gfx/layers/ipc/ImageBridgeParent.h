@@ -306,8 +306,10 @@ uint64_t
 aFwdTransactionId
 )
 ;
+already_AddRefed
+<
 PTextureParent
-*
+>
 AllocPTextureParent
 (
 const
@@ -336,14 +338,6 @@ wr
 MaybeExternalImageId
 &
 aExternalImageId
-)
-;
-bool
-DeallocPTextureParent
-(
-PTextureParent
-*
-actor
 )
 ;
 mozilla

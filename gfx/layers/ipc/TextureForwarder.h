@@ -236,8 +236,10 @@ LayersIPCChannel
 public
 :
 virtual
+already_AddRefed
+<
 PTextureChild
-*
+>
 CreateTexture
 (
 const

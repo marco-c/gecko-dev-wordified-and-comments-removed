@@ -93,13 +93,6 @@ gfxPlatform
 .
 h
 "
-#
-include
-"
-IPDLActor
-.
-h
-"
 namespace
 mozilla
 {

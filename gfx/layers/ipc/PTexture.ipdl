@@ -135,7 +135,6 @@ TextureHost
 *
 /
 [
-ManualDealloc
 ChildImpl
 =
 virtual

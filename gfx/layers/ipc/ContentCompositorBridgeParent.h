@@ -726,8 +726,10 @@ TimeStamp
 aCompositeEnd
 )
 ;
+already_AddRefed
+<
 PTextureParent
-*
+>
 AllocPTextureParent
 (
 const
@@ -756,15 +758,6 @@ wr
 MaybeExternalImageId
 &
 aExternalImageId
-)
-override
-;
-bool
-DeallocPTextureParent
-(
-PTextureParent
-*
-actor
 )
 override
 ;
