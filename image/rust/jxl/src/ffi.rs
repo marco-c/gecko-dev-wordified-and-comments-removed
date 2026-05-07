@@ -140,9 +140,6 @@ jxl_decoder_new
 metadata_only
 :
 bool
-premultiply
-:
-bool
 has_cms
 :
 bool
@@ -169,7 +166,6 @@ JxlApiDecoder
 new
 (
 metadata_only
-premultiply
 has_cms
 )
 )
