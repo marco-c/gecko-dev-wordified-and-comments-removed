@@ -8310,7 +8310,7 @@ IPCResult
 BrowserChild
 :
 :
-RecvRealMouseMoveEventForTests
+RecvRealMouseMoveEventNoCompress
 (
 const
 WidgetMouseEvent
@@ -8380,7 +8380,7 @@ IPCResult
 BrowserChild
 :
 :
-RecvNormalPriorityRealMouseMoveEventForTests
+RecvNormalPriorityRealMouseMoveEventNoCompress
 (
 const
 WidgetMouseEvent
