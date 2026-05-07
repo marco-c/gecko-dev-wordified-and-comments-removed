@@ -432,11 +432,6 @@ TestUnboundedMPSCQueue
 cpp
 "
 "
-TestVideoData
-.
-cpp
-"
-"
 TestVideoFrameContainer
 .
 cpp
