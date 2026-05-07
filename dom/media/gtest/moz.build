@@ -603,6 +603,11 @@ TestVideoFrameConverter
 cpp
 "
 "
+TestWebRTCCodecInfo
+.
+cpp
+"
+"
 TestWebrtcGmpCodec
 .
 cpp
