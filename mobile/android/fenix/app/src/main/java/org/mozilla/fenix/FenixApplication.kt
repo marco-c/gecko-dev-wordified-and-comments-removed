@@ -1069,7 +1069,7 @@ components
 .
 ipprotection
 .
-FenixIPProtectionAvailabilityStorage
+FenixIPProtectionEligibilityStorage
 import
 org
 .
@@ -5142,7 +5142,7 @@ accountManager
 }
 storage
 =
-FenixIPProtectionAvailabilityStorage
+FenixIPProtectionEligibilityStorage
 (
 browserStore
 =
