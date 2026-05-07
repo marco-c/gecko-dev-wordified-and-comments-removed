@@ -176,6 +176,13 @@ js
 ]
 [
 "
+browser_sendtab_toolbarbutton
+.
+js
+"
+]
+[
+"
 browser_signed_out_avatar_variants
 .
 js
