@@ -15,6 +15,13 @@ py
 ]
 [
 "
+test_android
+.
+py
+"
+]
+[
+"
 test_msrv
 .
 py
