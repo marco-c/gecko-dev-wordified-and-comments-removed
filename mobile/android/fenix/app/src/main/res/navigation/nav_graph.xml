@@ -1526,7 +1526,7 @@ installedAddonDetailsFragment
 /
 >
 <
-dialog
+fragment
 android
 :
 id
@@ -1654,7 +1654,7 @@ AccessPoint
 >
 <
 /
-dialog
+fragment
 >
 <
 fragment
