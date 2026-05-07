@@ -1999,12 +1999,6 @@ uint64_t
 >
 mCallbackId
 ;
-Maybe
-<
-LayoutDeviceIntPoint
->
-mMovement
-;
 void
 AssignMouseEventData
 (
@@ -2094,12 +2088,6 @@ mTriggerEvent
 aEvent
 .
 mTriggerEvent
-;
-mMovement
-=
-aEvent
-.
-mMovement
 ;
 }
 bool
