@@ -589,7 +589,7 @@ PseudoStackPointer
 Registers
 :
 :
-x28
+x20
 }
 ;
 static
@@ -601,7 +601,7 @@ PseudoStackPointer64
 Registers
 :
 :
-x28
+x20
 64
 }
 ;
@@ -614,7 +614,7 @@ PseudoStackPointer32
 Registers
 :
 :
-x28
+x20
 32
 }
 ;

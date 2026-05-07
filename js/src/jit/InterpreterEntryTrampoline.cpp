@@ -863,7 +863,7 @@ masm
 push
 (
 r19
-r28
+r20
 )
 ;
 masm
@@ -1145,7 +1145,7 @@ masm
 .
 pop
 (
-r28
+r20
 r19
 )
 ;

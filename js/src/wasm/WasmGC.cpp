@@ -1393,7 +1393,7 @@ vixl
 :
 Operand
 (
-x28
+x20
 )
 )
 ;
@@ -1545,7 +1545,7 @@ vixl
 :
 Operand
 (
-x28
+x20
 )
 )
 ;
