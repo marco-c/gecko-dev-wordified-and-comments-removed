@@ -1894,6 +1894,10 @@ var
 -
 panel
 -
+background
+-
+color
+-
 dimmed
 )
 ;
@@ -1938,6 +1942,10 @@ var
 -
 -
 panel
+-
+background
+-
+color
 -
 dimmed
 -
@@ -2066,6 +2074,10 @@ var
 -
 -
 panel
+-
+background
+-
+color
 -
 dimmed
 )
