@@ -755,27 +755,17 @@ wait_for_sidebar_initialized
 (
 )
         
-Wait
-(
 self
 .
-marionette
-)
-.
-until
+assertTrue
 (
             
-lambda
-_
-:
 self
 .
 is_button_visible
 (
 )
             
-message
-=
 "
 Sidebar
 button
