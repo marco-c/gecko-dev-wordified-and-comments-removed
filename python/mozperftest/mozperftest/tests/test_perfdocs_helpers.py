@@ -1,12 +1,5 @@
 import
-mozunit
-import
 pytest
-LINTER
-=
-"
-perfdocs
-"
 testdata
 =
 [
@@ -787,6 +780,8 @@ testdata
 :
     
 from
+mozperftest
+.
 perfdocs
 .
 doc_helpers
@@ -879,12 +874,19 @@ test_table_builder_mismatched_columns
 :
     
 from
+mozperftest
+.
 perfdocs
 .
 doc_helpers
 import
+(
+        
 MismatchedRowLengthsException
+        
 TableBuilder
+    
+)
     
 table_specifications
 =
@@ -1037,12 +1039,19 @@ test_table_builder_add_row_too_long
 :
     
 from
+mozperftest
+.
 perfdocs
 .
 doc_helpers
 import
+(
+        
 MismatchedRowLengthsException
+        
 TableBuilder
+    
+)
     
 table
 =
@@ -1169,6 +1178,8 @@ test_table_builder_add_rows_type_error
 :
     
 from
+mozperftest
+.
 perfdocs
 .
 doc_helpers
@@ -1294,6 +1305,8 @@ test_table_builder_validate
 :
     
 from
+mozperftest
+.
 perfdocs
 .
 doc_helpers
@@ -1559,18 +1572,4 @@ n
 n
 "
     
-)
-if
-__name__
-=
-=
-"
-__main__
-"
-:
-    
-mozunit
-.
-main
-(
 )

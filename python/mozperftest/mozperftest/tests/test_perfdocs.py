@@ -13,14 +13,7 @@ unittest
 import
 mock
 import
-mozunit
-import
 pytest
-LINTER
-=
-"
-perfdocs
-"
 class
 PerfDocsLoggerMock
 :
@@ -795,6 +788,8 @@ top_dir
 :
     
 from
+mozperftest
+.
 perfdocs
 .
 logger
@@ -824,6 +819,8 @@ TOP_DIR
 top_dir
     
 import
+mozperftest
+.
 perfdocs
 .
 gatherer
@@ -831,6 +828,8 @@ as
 gt
     
 import
+mozperftest
+.
 perfdocs
 .
 generator
@@ -838,6 +837,8 @@ as
 gn
     
 import
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -866,32 +867,8 @@ mock
 patch
 (
 "
-taskgraph
+mozperftest
 .
-util
-.
-taskcluster
-.
-get_artifact
-"
-)
-mock
-.
-patch
-(
-"
-tryselect
-.
-tasks
-.
-generate_tasks
-"
-)
-mock
-.
-patch
-(
-"
 perfdocs
 .
 generator
@@ -904,6 +881,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -916,6 +895,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -934,19 +915,13 @@ verifier
     
 generator
     
-get_artifact_mock
-    
-gen_tasks_mock
-    
 structured_logger
-    
-config
-    
-paths
 )
 :
     
 from
+mozperftest
+.
 perfdocs
 .
 perfdocs
@@ -972,7 +947,7 @@ temp
 run_perfdocs
 (
             
-config
+None
 logger
 =
 structured_logger
@@ -1048,32 +1023,8 @@ mock
 patch
 (
 "
-taskgraph
+mozperftest
 .
-util
-.
-taskcluster
-.
-get_artifact
-"
-)
-mock
-.
-patch
-(
-"
-tryselect
-.
-tasks
-.
-generate_tasks
-"
-)
-mock
-.
-patch
-(
-"
 perfdocs
 .
 generator
@@ -1086,6 +1037,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -1098,6 +1051,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -1114,12 +1069,12 @@ test_perfdocs_start_and_pass
 verifier
 generator
 structured_logger
-config
-paths
 )
 :
     
 from
+mozperftest
+.
 perfdocs
 .
 perfdocs
@@ -1151,7 +1106,7 @@ temp
 run_perfdocs
 (
             
-config
+None
 logger
 =
 structured_logger
@@ -1243,6 +1198,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -1257,12 +1214,12 @@ def
 test_perfdocs_bad_paths
 (
 structured_logger
-config
-paths
 )
 :
     
 from
+mozperftest
+.
 perfdocs
 .
 perfdocs
@@ -1280,7 +1237,7 @@ Exception
         
 run_perfdocs
 (
-config
+None
 logger
 =
 structured_logger
@@ -1300,6 +1257,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -1334,6 +1293,8 @@ top_dir
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 gatherer
@@ -1449,6 +1410,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -1482,6 +1445,8 @@ top_dir
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 gatherer
@@ -1562,6 +1527,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -1595,6 +1562,8 @@ top_dir
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -1649,6 +1618,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -1692,6 +1663,8 @@ top_dir
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -1722,6 +1695,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -1764,6 +1739,8 @@ top_dir
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -1911,6 +1888,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -1954,6 +1933,8 @@ top_dir
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -1993,6 +1974,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -2092,6 +2075,8 @@ filedata
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -2181,6 +2166,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -2215,6 +2202,8 @@ top_dir
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -2277,6 +2266,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -2325,6 +2316,8 @@ top_dir
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -2417,6 +2410,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -2517,6 +2512,8 @@ filedata
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -2622,6 +2619,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -2724,6 +2723,8 @@ filedata
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -2826,6 +2827,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -2859,6 +2862,8 @@ top_dir
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -2912,6 +2917,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -2946,6 +2953,8 @@ top_dir
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -2957,7 +2966,10 @@ mock
 .
 patch
 (
+        
 "
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -2969,6 +2981,7 @@ validate_yaml
 return_value
 =
 False
+    
 )
 :
         
@@ -3117,6 +3130,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -3258,6 +3273,8 @@ Example
 }
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -3269,7 +3286,10 @@ mock
 .
 patch
 (
+        
 "
+mozperftest
+.
 perfdocs
 .
 framework_gatherers
@@ -3278,6 +3298,7 @@ RaptorGatherer
 .
 get_test_list
 "
+    
 )
 as
 m
@@ -3434,6 +3455,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -3586,6 +3609,8 @@ Example
 }
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -3597,7 +3622,10 @@ mock
 .
 patch
 (
+        
 "
+mozperftest
+.
 perfdocs
 .
 framework_gatherers
@@ -3606,6 +3634,7 @@ RaptorGatherer
 .
 get_test_list
 "
+    
 )
 as
 m
@@ -3824,6 +3853,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -3975,6 +4006,8 @@ Example
 }
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -3986,7 +4019,10 @@ mock
 .
 patch
 (
+        
 "
+mozperftest
+.
 perfdocs
 .
 framework_gatherers
@@ -3995,6 +4031,7 @@ RaptorGatherer
 .
 get_test_list
 "
+    
 )
 as
 m
@@ -4156,6 +4193,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -4308,6 +4347,8 @@ Example
 }
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -4319,7 +4360,10 @@ mock
 .
 patch
 (
+        
 "
+mozperftest
+.
 perfdocs
 .
 framework_gatherers
@@ -4328,6 +4372,7 @@ RaptorGatherer
 .
 get_test_list
 "
+    
 )
 as
 m
@@ -4369,6 +4414,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -4402,6 +4449,8 @@ top_dir
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 gatherer
@@ -4701,6 +4750,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -4734,6 +4785,8 @@ top_dir
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 gatherer
@@ -4741,6 +4794,8 @@ import
 frameworks
     
 from
+mozperftest
+.
 perfdocs
 .
 generator
@@ -4748,6 +4803,8 @@ import
 Generator
     
 from
+mozperftest
+.
 perfdocs
 .
 utils
@@ -4755,6 +4812,8 @@ import
 read_yaml
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -5230,12 +5289,12 @@ desc
 def
 test_perfdocs_logger_failure
 (
-config
-paths
 )
 :
     
 from
+mozperftest
+.
 perfdocs
 .
 logger
@@ -5278,19 +5337,5 @@ Exception
 :
         
 PerfDocLogger
-(
-)
-if
-__name__
-=
-=
-"
-__main__
-"
-:
-    
-mozunit
-.
-main
 (
 )
