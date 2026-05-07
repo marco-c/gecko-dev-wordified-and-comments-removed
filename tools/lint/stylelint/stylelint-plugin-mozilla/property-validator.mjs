@@ -986,17 +986,6 @@ isAlias
 )
 {
 return
-(
-this
-.
-allowedFunctions
-.
-has
-(
-functionType
-)
-|
-|
 this
 .
 allowedAliasFunctions
@@ -1004,7 +993,6 @@ allowedAliasFunctions
 has
 (
 functionType
-)
 )
 ;
 }
