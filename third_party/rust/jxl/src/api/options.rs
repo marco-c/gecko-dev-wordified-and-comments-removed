@@ -62,7 +62,7 @@ JxlCms
 >
 >
 pub
-sample_limit
+pixel_limit
 :
 Option
 <
@@ -120,7 +120,7 @@ Pass
 cms
 :
 None
-sample_limit
+pixel_limit
 :
 None
 high_precision

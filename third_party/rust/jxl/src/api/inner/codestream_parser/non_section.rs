@@ -313,7 +313,7 @@ check_size_limit
 (
 decode_options
 .
-sample_limit
+pixel_limit
 (
 xsize
 ysize
@@ -348,7 +348,7 @@ check_size_limit
 (
 decode_options
 .
-sample_limit
+pixel_limit
 (
 preview
 .
@@ -1426,7 +1426,7 @@ check_size_limit
 (
 decode_options
 .
-sample_limit
+pixel_limit
 frame_header
 .
 size

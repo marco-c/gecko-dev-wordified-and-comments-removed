@@ -686,7 +686,6 @@ CheckFrameAnimatorBlend
 BlendAnimatedJXLTestCase
 (
 )
-1
 )
 ;
 }

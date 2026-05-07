@@ -114,7 +114,7 @@ version
 .
 4
 .
-3
+1
 "
 authors
 =
@@ -168,9 +168,6 @@ code
 readme
 =
 "
-.
-.
-/
 README
 .
 md
@@ -222,6 +219,11 @@ libjxl
 jxl
 -
 rs
+"
+resolver
+=
+"
+2
 "
 [
 features
@@ -290,8 +292,10 @@ dependencies
 dev
 -
 dependencies
-]
+.
 arbtest
+]
+version
 =
 "
 0
@@ -300,7 +304,14 @@ arbtest
 .
 2
 "
+[
+dev
+-
+dependencies
+.
 paste
+]
+version
 =
 "
 1

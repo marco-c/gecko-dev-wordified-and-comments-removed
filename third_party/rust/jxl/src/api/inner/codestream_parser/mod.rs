@@ -337,13 +337,6 @@ pub
 (
 super
 )
-pixels_dirty
-:
-bool
-pub
-(
-super
-)
 has_more_frames
 :
 bool
@@ -569,9 +562,6 @@ HashSet
 new
 (
 )
-pixels_dirty
-:
-false
 has_more_frames
 :
 true
@@ -1098,8 +1088,6 @@ decode_start_file_offset
 decode_start
 .
 file_offset
-as
-u64
 remaining_in_box
 :
 decode_start
@@ -2461,13 +2449,6 @@ self
 has_more_frames
 =
 false
-;
-return
-Ok
-(
-(
-)
-)
 ;
 }
 self
