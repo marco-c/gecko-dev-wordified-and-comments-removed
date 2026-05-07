@@ -855,7 +855,11 @@ symbols
 }
         
 "
-symbolicator
+profiler
+-
+node
+-
+tools
 -
 path
 "
@@ -883,9 +887,11 @@ Path
 to
 directory
 containing
-symbolicator
+profiler
 -
-cli
+node
+-
+tools
 build
 .
 "
@@ -1429,9 +1435,11 @@ MOZPERFTEST_SIMPLEPERF
 def
 _validate_symbolication_paths
 (
+        
 self
 symbol_dir_arg
-symbolicator_dir_arg
+profiler_node_tools_dir_arg
+    
 )
 :
         
@@ -1446,9 +1454,11 @@ directory
 path
 and
 the
-symbolicator
+profiler
 -
-cli
+node
+-
+tools
 paths
         
 for
@@ -1471,15 +1481,17 @@ directory
         
 :
 param
-symbolicator_dir_arg
+profiler_node_tools_dir_arg
 str
 :
 Path
 to
 the
-symbolicator
+profiler
 -
-cli
+node
+-
+tools
 directory
         
 :
@@ -1501,7 +1513,7 @@ containing
 validated
 (
 breakpad_symbol_dir
-symbolicator_dir
+profiler_node_tools_dir
 )
 .
         
@@ -1575,31 +1587,37 @@ breakpad_symbol_dir
         
 if
 not
-symbolicator_dir_arg
+profiler_node_tools_dir_arg
 :
             
 raise
 SimpleperfSymbolicationError
 (
+                
 "
-Symbolicator
-Directory
+Profiler
+-
+node
+-
+tools
+directory
 not
 provided
 .
 "
+            
 )
         
-symbolicator_dir
+profiler_node_tools_dir
 =
 Path
 (
-symbolicator_dir_arg
+profiler_node_tools_dir_arg
 )
         
 if
 not
-symbolicator_dir
+profiler_node_tools_dir
 .
 exists
 (
@@ -1612,13 +1630,17 @@ SimpleperfSymbolicationError
                 
 f
 "
-Symbolicator
-Directory
+Profiler
+-
+node
+-
+tools
+directory
 not
 found
 at
 {
-symbolicator_dir
+profiler_node_tools_dir
 }
 .
 "
@@ -1627,7 +1649,7 @@ symbolicator_dir
         
 return
 breakpad_symbol_dir
-symbolicator_dir
+profiler_node_tools_dir
     
 def
 _prepare_symbolication_environment
@@ -1757,15 +1779,17 @@ node
             
 self
 .
-symbolicator_dir
+profiler_node_tools_dir
 =
 Path
 (
 moz_fetch
 "
-symbolicator
+profiler
 -
-cli
+node
+-
+tools
 "
 )
             
@@ -1839,7 +1863,7 @@ self
 breakpad_symbol_dir
 self
 .
-symbolicator_dir
+profiler_node_tools_dir
 =
 (
                 
@@ -1865,7 +1889,11 @@ self
 get_arg
 (
 "
-symbolicator
+profiler
+-
+node
+-
+tools
 -
 path
 "
@@ -2541,11 +2569,11 @@ Path
 (
 self
 .
-symbolicator_dir
+profiler_node_tools_dir
 "
-symbolicator
+profiler
 -
-cli
+edit
 .
 js
 "
@@ -2554,8 +2582,7 @@ js
                     
 "
 -
--
-input
+i
 "
                     
 str
@@ -2565,8 +2592,7 @@ input_profile_path
                     
 "
 -
--
-output
+o
 "
                     
 str
@@ -2576,6 +2602,10 @@ output_profile_path
                     
 "
 -
+-
+symbolicate
+-
+with
 -
 server
 "
@@ -2606,13 +2636,13 @@ bufsize
             
 )
 as
-symbolicator_process
+profiler_edit_process
 :
                 
 for
 line
 in
-symbolicator_process
+profiler_edit_process
 .
 stdout
 :
@@ -2623,9 +2653,9 @@ info
 (
 f
 "
-symbolicator
+profiler
 -
-cli
+edit
 {
 line
 .
@@ -2845,9 +2875,11 @@ a
 build
 of
         
-symbolicator
+profiler
 -
-cli
+node
+-
+tools
 must
 be
 provided

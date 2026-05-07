@@ -191,7 +191,7 @@ samply
 >
 "
 }
-SYMBOLICATOR_DEPENDENCY
+PROFILER_NODE_TOOLS_DEPENDENCY
 =
 {
     
@@ -204,9 +204,11 @@ public
 /
 build
 /
-symbolicator
+profiler
 -
-cli
+node
+-
+tools
 .
 tar
 .
@@ -227,9 +229,11 @@ task
 <
 toolchain
 -
-symbolicator
+profiler
 -
-cli
+node
+-
+tools
 >
 "
 }
@@ -287,7 +291,7 @@ SIMPLEPERF_DEPENDENCY
     
 SAMPLY_DEPENDENCY
     
-SYMBOLICATOR_DEPENDENCY
+PROFILER_NODE_TOOLS_DEPENDENCY
     
 SYMBOLS_DEPENDENCY
 ]
@@ -322,17 +326,21 @@ opt
 "
 toolchain
 -
-symbolicator
+profiler
 -
-cli
+node
+-
+tools
 "
 :
 "
 toolchain
 -
-symbolicator
+profiler
 -
-cli
+node
+-
+tools
 "
     
 "

@@ -8368,9 +8368,11 @@ fetch_toolchains
 append
 (
 "
-symbolicator
+profiler
 -
-cli
+node
+-
+tools
 "
 )
             

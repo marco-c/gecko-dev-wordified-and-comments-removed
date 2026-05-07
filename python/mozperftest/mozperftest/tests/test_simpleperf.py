@@ -2548,7 +2548,7 @@ hasattr
 (
 profiler
 "
-symbolicator_dir
+profiler_node_tools_dir
 "
 )
     
@@ -2576,7 +2576,11 @@ profiler
 set_arg
 (
 "
-symbolicator
+profiler
+-
+node
+-
+tools
 -
 path
 "
@@ -2584,7 +2588,9 @@ path
 /
 fake
 /
-symbolicator
+profiler
+-
+edit
 /
 path
 "
@@ -2651,7 +2657,7 @@ hasattr
 (
 profiler
 "
-symbolicator_dir
+profiler_node_tools_dir
 "
 )
 mock
@@ -2730,7 +2736,7 @@ mach_cmd
 )
     
 mock_work_dir_path
-symbolicator_dir
+profiler_node_tools_dir
 symbol_dir
 output_dir
 =
@@ -2865,11 +2871,15 @@ profiler
 set_arg
 (
 "
-symbolicator
+profiler
+-
+node
+-
+tools
 -
 path
 "
-symbolicator_dir
+profiler_node_tools_dir
 )
     
 profiler
@@ -3057,7 +3067,7 @@ http
         
 ]
         
-symbolicator_process
+profiler_edit_process
 =
 make_mock_process
 (
@@ -3073,7 +3083,7 @@ side_effect
 [
 import_process
 load_process
-symbolicator_process
+profiler_edit_process
 ]
         
 profiler
@@ -3264,7 +3274,7 @@ True
         
 )
         
-expected_symbolicator
+expected_profiler_edit
 =
 call
 (
@@ -3278,12 +3288,12 @@ node_path
                 
 str
 (
-symbolicator_dir
+profiler_node_tools_dir
 /
 "
-symbolicator
+profiler
 -
-cli
+edit
 .
 js
 "
@@ -3291,8 +3301,7 @@ js
                 
 "
 -
--
-input
+i
 "
                 
 str
@@ -3316,8 +3325,7 @@ json
                 
 "
 -
--
-output
+o
 "
                 
 str
@@ -3339,6 +3347,10 @@ json
                 
 "
 -
+-
+symbolicate
+-
+with
 -
 server
 "
@@ -3400,7 +3412,7 @@ in
 calls
         
 assert
-expected_symbolicator
+expected_profiler_edit
 in
 calls
         
@@ -3427,7 +3439,7 @@ calls
 .
 index
 (
-expected_symbolicator
+expected_profiler_edit
 )
         
 )
@@ -3524,7 +3536,7 @@ mach_cmd
 )
     
 mock_work_dir_path
-symbolicator_dir
+profiler_node_tools_dir
 symbol_dir
 output_dir
 =
@@ -3606,11 +3618,15 @@ profiler
 set_arg
 (
 "
-symbolicator
+profiler
+-
+node
+-
+tools
 -
 path
 "
-symbolicator_dir
+profiler_node_tools_dir
 )
     
 profiler
@@ -3794,7 +3810,7 @@ teardown
 (
 )
         
-expected_symbolicator
+expected_profiler_edit
 =
 call
 (
@@ -3808,12 +3824,12 @@ node_path
                 
 str
 (
-symbolicator_dir
+profiler_node_tools_dir
 /
 "
-symbolicator
+profiler
 -
-cli
+edit
 .
 js
 "
@@ -3821,8 +3837,7 @@ js
                 
 "
 -
--
-input
+i
 "
                 
 str
@@ -3846,8 +3861,7 @@ json
                 
 "
 -
--
-output
+o
 "
                 
 str
@@ -3869,6 +3883,10 @@ json
                 
 "
 -
+-
+symbolicate
+-
+with
 -
 server
 "
@@ -3914,7 +3932,7 @@ bufsize
 )
         
 assert
-expected_symbolicator
+expected_profiler_edit
 not
 in
 mock_popen
@@ -4179,23 +4197,25 @@ True
     
 (
         
-symbolicator_path
+profiler_edit_path
 :
 =
 mock_fetch_path
         
 /
 "
-symbolicator
+profiler
 -
-cli
+node
+-
+tools
 "
         
 /
 "
-symbolicator
+profiler
 -
-cli
+edit
 .
 js
 "
@@ -4535,7 +4555,7 @@ http
         
 ]
         
-symbolicator_process
+profiler_edit_process
 =
 make_mock_process
 (
@@ -4551,7 +4571,7 @@ side_effect
 [
 import_process
 load_process
-symbolicator_process
+profiler_edit_process
 ]
         
 profiler
@@ -4800,7 +4820,7 @@ True
         
 )
         
-expected_symbolicator
+expected_profiler_edit
 =
 call
 (
@@ -4814,13 +4834,12 @@ node_path
                 
 str
 (
-symbolicator_path
+profiler_edit_path
 )
                 
 "
 -
--
-input
+i
 "
                 
 str
@@ -4846,8 +4865,7 @@ json
                 
 "
 -
--
-output
+o
 "
                 
 str
@@ -4869,6 +4887,10 @@ json
                 
 "
 -
+-
+symbolicate
+-
+with
 -
 server
 "
@@ -4939,7 +4961,7 @@ mock_popen
 call_args_list
         
 assert
-expected_symbolicator
+expected_profiler_edit
 in
 mock_popen
 .
@@ -4968,7 +4990,7 @@ calls
 .
 index
 (
-expected_symbolicator
+expected_profiler_edit
 )
         
 )
@@ -5113,23 +5135,25 @@ True
     
 (
         
-symbolicator_path
+profiler_edit_path
 :
 =
 mock_fetch_path
         
 /
 "
-symbolicator
+profiler
 -
-cli
+node
+-
+tools
 "
         
 /
 "
-symbolicator
+profiler
 -
-cli
+edit
 .
 js
 "
@@ -5492,7 +5516,7 @@ teardown
 (
 )
         
-expected_symbolicator
+expected_profiler_edit
 =
 call
 (
@@ -5506,13 +5530,12 @@ node_path
                 
 str
 (
-symbolicator_path
+profiler_edit_path
 )
                 
 "
 -
--
-input
+i
 "
                 
 str
@@ -5538,8 +5561,7 @@ json
                 
 "
 -
--
-output
+o
 "
                 
 str
@@ -5561,6 +5583,10 @@ json
                 
 "
 -
+-
+symbolicate
+-
+with
 -
 server
 "
@@ -5606,7 +5632,7 @@ bufsize
 )
         
 assert
-expected_symbolicator
+expected_profiler_edit
 not
 in
 mock_popen
