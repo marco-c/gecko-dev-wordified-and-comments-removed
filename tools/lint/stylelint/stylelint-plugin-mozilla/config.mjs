@@ -2977,6 +2977,13 @@ allowedTokens
 .
 .
 versatileColorTokens
+"
+-
+-
+toolbarseparator
+-
+color
+"
 ]
 tokenTypes
 :
