@@ -596,6 +596,16 @@ ShutDown
 (
 )
 ;
+bool
+HasShutdown
+(
+)
+const
+{
+return
+mHasShutdown
+;
+}
 static
 bool
 IsInRenderThread

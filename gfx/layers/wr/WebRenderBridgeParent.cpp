@@ -1219,6 +1219,15 @@ Get
 if
 (
 renderThread
+&
+&
+!
+renderThread
+-
+>
+HasShutdown
+(
+)
 )
 {
 renderThread
