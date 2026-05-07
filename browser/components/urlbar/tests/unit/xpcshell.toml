@@ -220,6 +220,13 @@ Mac
 debug
 [
 "
+test_autofill_adaptiveHistory_bookmarks
+.
+js
+"
+]
+[
+"
 test_autofill_adaptive_origin_fallback
 .
 js
