@@ -77,6 +77,9 @@ preferencesPaneAccessibility
 "
 preferencesPaneAppearance
 "
+"
+preferencesPanePermissionsData
+"
 ]
 ;
 function

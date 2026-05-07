@@ -1161,6 +1161,9 @@ paneAppearance
 "
 paneLanguages
 "
+"
+panePermissionsData
+"
 ]
 ;
 const
