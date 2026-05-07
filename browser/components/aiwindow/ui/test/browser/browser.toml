@@ -364,6 +364,13 @@ js
 ]
 [
 "
+browser_aiwindow_smartbar_suggestions
+.
+js
+"
+]
+[
+"
 browser_aiwindow_smartbar_telemetry
 .
 js
