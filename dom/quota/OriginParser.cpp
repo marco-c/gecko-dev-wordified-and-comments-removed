@@ -481,7 +481,13 @@ index
 }
 aSpec
 =
+std
+:
+:
+move
+(
 spec
+)
 ;
 return
 ValidOrigin
@@ -586,7 +592,13 @@ Value
 }
 aSpec
 =
+std
+:
+:
+move
+(
 spec
+)
 ;
 return
 mScheme

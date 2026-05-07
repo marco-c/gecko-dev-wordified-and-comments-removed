@@ -1078,7 +1078,13 @@ false
 }
 aText
 =
+std
+:
+:
+move
+(
 text
+)
 ;
 return
 true

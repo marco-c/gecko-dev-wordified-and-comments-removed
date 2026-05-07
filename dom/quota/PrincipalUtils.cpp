@@ -709,7 +709,13 @@ principalMetadata
 .
 mStorageOrigin
 =
+std
+:
+:
+move
+(
 origin
+)
 ;
 }
 principalMetadata
