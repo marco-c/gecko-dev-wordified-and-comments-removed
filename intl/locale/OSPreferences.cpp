@@ -2408,7 +2408,13 @@ pattern
 {
 aRetVal
 =
+std
+:
+:
+move
+(
 pattern
+)
 ;
 return
 NS_OK
@@ -2497,7 +2503,13 @@ pattern
 ;
 aRetVal
 =
+std
+:
+:
+move
+(
 pattern
+)
 ;
 return
 NS_OK
