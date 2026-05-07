@@ -1704,6 +1704,17 @@ extends
 WindowBase
 {
 get
+type
+(
+)
+{
+return
+"
+normal
+"
+;
+}
+get
 focused
 (
 )
