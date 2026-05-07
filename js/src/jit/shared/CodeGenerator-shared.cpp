@@ -4626,7 +4626,7 @@ i
 .
 scriptData
 .
-sourceAndExtent
+scriptKey
 .
 matches
 (
