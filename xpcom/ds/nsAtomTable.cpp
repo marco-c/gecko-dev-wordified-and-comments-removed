@@ -1717,7 +1717,13 @@ nonZeroRefcountAtomsCount
 {
 nonZeroRefcountAtoms
 =
+std
+:
+:
+move
+(
 name
+)
 ;
 }
 else

@@ -1046,7 +1046,13 @@ sSingleton
 new
 FifoWatcher
 (
+std
+:
+:
+move
+(
 dirPath
+)
 )
 ;
 sSingleton
