@@ -32,7 +32,6 @@ stackwalk
 js
 cpu
 processcpu
-ipcmessages
 nomarkerstacks
 "
 gecko_profile_threads
