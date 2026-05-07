@@ -6314,14 +6314,9 @@ key
 ;
 if
 (
-!
 delegate
 )
 {
-return
-ok
-;
-}
 CellColor
 delegateColor
 =
@@ -6420,6 +6415,7 @@ ok
 =
 false
 ;
+}
 }
 if
 (
