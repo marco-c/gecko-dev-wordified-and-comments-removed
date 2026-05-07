@@ -1,4 +1,6 @@
 import
+platform
+import
 filters
 from
 cmdline
@@ -77,6 +79,16 @@ bt_result
 =
 [
 ]
+        
+self
+.
+platform
+=
+platform
+.
+system
+(
+)
     
 def
 save_data
