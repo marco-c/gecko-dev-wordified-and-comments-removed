@@ -302,6 +302,11 @@ CrashGenerator
 :
 new
 (
+client_handle
+.
+clone
+(
+)
 minidump_path
 .
 clone
