@@ -90,6 +90,8 @@ gBrowser
 about
 :
 mozilla
+?
+foo
 "
 )
 ;
@@ -147,7 +149,9 @@ gBrowser
 "
 about
 :
-logo
+mozilla
+?
+bar
 "
 )
 ;

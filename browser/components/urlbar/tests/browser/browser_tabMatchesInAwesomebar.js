@@ -572,7 +572,7 @@ gBrowser
 "
 about
 :
-logo
+mozilla
 "
 )
 ;

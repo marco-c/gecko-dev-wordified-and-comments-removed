@@ -157,7 +157,7 @@ gBrowser
 "
 about
 :
-logo
+mozilla
 "
 )
 ;

@@ -77,7 +77,7 @@ org
 "
 about
 :
-logo
+mozilla
 "
 "
 about
@@ -756,7 +756,7 @@ url
 "
 about
 :
-logo
+mozilla
 "
 "
 https
@@ -887,7 +887,7 @@ url
 "
 about
 :
-logo
+mozilla
 "
 "
 https

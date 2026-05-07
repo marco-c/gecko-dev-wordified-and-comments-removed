@@ -700,7 +700,7 @@ false
 "
 about
 :
-logo
+mozilla
 "
 )
 ;
@@ -712,7 +712,7 @@ currentBrowser
 "
 about
 :
-logo
+mozilla
 "
 )
 ;

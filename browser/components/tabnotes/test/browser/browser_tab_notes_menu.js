@@ -2941,7 +2941,7 @@ gBrowser
 "
 about
 :
-logo
+mozilla
 "
 )
 ;
