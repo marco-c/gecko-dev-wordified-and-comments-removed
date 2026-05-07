@@ -105,6 +105,7 @@ name
 score
 "
 >
+Einkunn
 :
 %
 1
@@ -153,7 +154,7 @@ name
 longfox
 "
 >
-LONGFOX
+LANGFOX
 <
 /
 string
@@ -166,6 +167,11 @@ name
 likes_cookies
 "
 >
+kann
+vel
+vi
+vefk
+kur
 <
 /
 string
@@ -178,6 +184,10 @@ name
 tap_to_play
 "
 >
+ttu
+til
+a
+spila
 !
 <
 /
@@ -220,6 +230,7 @@ name
 hiscore
 "
 >
+STIGATAFLA
 :
 %
 1
@@ -236,6 +247,9 @@ name
 sound_on
 "
 >
+kveikt
+hlj
+i
 <
 /
 string
@@ -248,6 +262,10 @@ name
 sound_off
 "
 >
+sl
+kkt
+hlj
+i
 <
 /
 string
@@ -269,6 +287,8 @@ name
 back
 "
 >
+til
+baka
 <
 /
 string
