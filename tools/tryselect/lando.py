@@ -55,6 +55,8 @@ json
 import
 os
 import
+textwrap
+import
 time
 import
 webbrowser
@@ -2826,6 +2828,11 @@ NEW_LANDO_ENTRY
         
 notification_message
 =
+textwrap
+.
+dedent
+(
+            
 "
 "
 "
@@ -2893,10 +2900,12 @@ ini
 '
 )
 "
+            
+"
+"
+"
         
-"
-"
-"
+)
         
 print
 (
