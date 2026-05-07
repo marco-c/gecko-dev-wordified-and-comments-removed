@@ -600,10 +600,6 @@ c
 zip
 (
 output_buf
-.
-into_iter
-(
-)
 )
 ;
 for
