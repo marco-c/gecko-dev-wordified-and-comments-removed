@@ -52483,6 +52483,15 @@ aType
 nsIContentPolicy
 :
 :
+TYPE_INTERNAL_TEXT_PRELOAD
+|
+|
+aType
+=
+=
+nsIContentPolicy
+:
+:
 TYPE_INTERNAL_FETCH_PRELOAD
 )
 ;

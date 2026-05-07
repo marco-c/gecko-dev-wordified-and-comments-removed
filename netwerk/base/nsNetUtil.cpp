@@ -19165,6 +19165,15 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_FETCH_PRELOAD
+|
+|
+policyType
+=
+=
+nsIContentPolicy
+:
+:
+TYPE_TEXT
 )
 {
 return
