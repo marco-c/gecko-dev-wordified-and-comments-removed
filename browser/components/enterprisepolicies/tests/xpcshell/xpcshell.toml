@@ -209,6 +209,13 @@ js
 ]
 [
 "
+test_policy_descriptions
+.
+js
+"
+]
+[
+"
 test_policy_search_engine
 .
 js
@@ -256,6 +263,13 @@ js
 [
 "
 test_runOnce_helper
+.
+js
+"
+]
+[
+"
+test_security_devices
 .
 js
 "
