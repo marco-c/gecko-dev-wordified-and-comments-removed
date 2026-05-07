@@ -1651,6 +1651,9 @@ top
 .
 dp
 )
+showLongfoxEntryPoint
+=
+showLongfoxEntryPoint
 )
 }
 if
@@ -3260,6 +3263,9 @@ true
 showPrivacyReport
 =
 true
+showLongfoxEntryPoint
+=
+false
 trackersBlockedCount
 =
 754
@@ -3460,6 +3466,9 @@ true
 showPrivacyReport
 =
 true
+showLongfoxEntryPoint
+=
+false
 trackersBlockedCount
 =
 754
@@ -3660,6 +3669,9 @@ true
 showPrivacyReport
 =
 true
+showLongfoxEntryPoint
+=
+false
 trackersBlockedCount
 =
 754
@@ -3860,6 +3872,9 @@ false
 showPrivacyReport
 =
 true
+showLongfoxEntryPoint
+=
+false
 trackersBlockedCount
 =
 754

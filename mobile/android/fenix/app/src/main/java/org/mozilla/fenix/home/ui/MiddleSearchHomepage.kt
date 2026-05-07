@@ -1169,6 +1169,9 @@ true
 showPrivacyReport
 =
 true
+showLongfoxEntryPoint
+=
+true
 trackersBlockedCount
 =
 754
