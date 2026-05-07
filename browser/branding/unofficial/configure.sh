@@ -56,3 +56,6 @@ MPL
 MOZ_APP_DISPLAYNAME
 =
 Nightly
+MOZ_MACBUNDLE_ID
+=
+nightlyunofficial
