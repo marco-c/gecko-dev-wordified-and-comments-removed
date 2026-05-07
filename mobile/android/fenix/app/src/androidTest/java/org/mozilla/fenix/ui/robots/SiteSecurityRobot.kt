@@ -732,6 +732,9 @@ data
 button
 "
 )
+waitForAppWindowToBeUpdated
+(
+)
 }
 fun
 verifyClearSiteDataPrompt

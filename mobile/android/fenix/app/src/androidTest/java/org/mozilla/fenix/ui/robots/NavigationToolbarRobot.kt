@@ -3991,6 +3991,11 @@ BrowserRobot
 .
 Transition
 {
+composeTestRule
+.
+waitForIdle
+(
+)
 Log
 .
 i
