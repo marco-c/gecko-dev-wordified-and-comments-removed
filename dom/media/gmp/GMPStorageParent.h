@@ -33,6 +33,7 @@ GMPParent
 ;
 class
 GMPStorageParent
+final
 :
 public
 PGMPStorageParent
@@ -46,6 +47,7 @@ public
 NS_INLINE_DECL_REFCOUNTING
 (
 GMPStorageParent
+final
 )
 GMPStorageParent
 (
