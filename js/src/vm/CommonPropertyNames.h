@@ -1503,6 +1503,14 @@ GetBuiltinSymbol
 \
 MACRO_
 (
+getCalendars
+"
+getCalendars
+"
+)
+\
+MACRO_
+(
 getCollations
 "
 getCollations
