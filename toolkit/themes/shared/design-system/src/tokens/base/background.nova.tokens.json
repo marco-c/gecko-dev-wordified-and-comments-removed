@@ -40,7 +40,7 @@ dark
 {
 color
 .
-neutral
+gray
 .
 70
 }
@@ -78,9 +78,9 @@ light
 {
 color
 .
-neutral
+gray
 .
-20
+15
 }
 "
 "
@@ -91,9 +91,9 @@ dark
 {
 color
 .
-neutral
+gray
 .
-80
+60
 }
 "
 "
@@ -130,11 +130,9 @@ light
 {
 color
 .
-violet
--
-desaturated
+gray
 .
-0
+05
 }
 "
 "
@@ -145,9 +143,9 @@ dark
 {
 color
 .
-neutral
+gray
 .
-90
+85
 }
 "
 "
@@ -179,7 +177,7 @@ color
 .
 red
 .
-0
+10
 }
 "
 "
@@ -192,7 +190,7 @@ color
 .
 red
 .
-80
+70
 }
 "
 "
@@ -228,9 +226,9 @@ light
 {
 color
 .
-blue
+violet
 .
-0
+10
 }
 "
 "
@@ -241,9 +239,9 @@ dark
 {
 color
 .
-blue
+violet
 .
-80
+70
 }
 "
 "
@@ -281,7 +279,7 @@ color
 .
 green
 .
-0
+10
 }
 "
 "
@@ -294,7 +292,7 @@ color
 .
 green
 .
-80
+70
 }
 "
 "
@@ -332,7 +330,7 @@ color
 .
 yellow
 .
-0
+10
 }
 "
 "
@@ -345,7 +343,7 @@ color
 .
 yellow
 .
-80
+70
 }
 "
 "

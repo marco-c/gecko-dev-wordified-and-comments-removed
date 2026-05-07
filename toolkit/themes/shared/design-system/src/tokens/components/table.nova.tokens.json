@@ -64,8 +64,13 @@ light
 "
 :
 "
-#
-F0F0F4
+{
+color
+.
+gray
+.
+20
+}
 "
 "
 dark
@@ -75,9 +80,9 @@ dark
 {
 color
 .
-neutral
+gray
 .
-80
+65
 }
 "
 "
