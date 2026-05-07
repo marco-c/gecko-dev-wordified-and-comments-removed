@@ -379,6 +379,9 @@ endif
 bool
 isShared
 ;
+size_t
+mappedSize
+;
 }
 ;
 struct
