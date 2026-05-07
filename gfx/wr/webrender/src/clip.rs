@@ -5393,6 +5393,8 @@ PictureRect
 derive
 (
 Debug
+Copy
+Clone
 )
 ]
 #
