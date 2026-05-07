@@ -367,6 +367,11 @@ mRefPtr
 ;
 BackendType
 mBackendType
+=
+BackendType
+:
+:
+NONE
 ;
 private
 :
@@ -6961,9 +6966,16 @@ aIndex
 ;
 bool
 mHasDesc
+=
+false
 ;
 FontType
 mType
+=
+FontType
+:
+:
+UNKNOWN
 ;
 RecordedEventArray
 <
@@ -6973,6 +6985,8 @@ mData
 ;
 uint32_t
 mIndex
+=
+0
 ;
 ReferencePtr
 mRefPtr

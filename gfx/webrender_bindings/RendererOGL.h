@@ -598,9 +598,6 @@ mWindowId
 TimeStamp
 mFrameStartTime
 ;
-bool
-mDisableNativeCompositor
-;
 #
 ifdef
 MOZ_WIDGET_ANDROID
@@ -646,6 +643,8 @@ wr
 :
 PipelineId
 mRootPipelineId
+{
+}
 ;
 std
 :

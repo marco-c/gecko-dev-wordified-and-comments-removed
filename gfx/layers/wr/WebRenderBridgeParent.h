@@ -2671,6 +2671,8 @@ mScreenPixelsRequest
 endif
 uint32_t
 mBoolParameterBits
+=
+0
 ;
 uint16_t
 mBlobTileSize
@@ -2693,9 +2695,13 @@ NONE
 ;
 bool
 mDestroyed
+=
+false
 ;
 bool
 mIsFirstPaint
+=
+false
 ;
 bool
 mLastNotifiedHasLayers

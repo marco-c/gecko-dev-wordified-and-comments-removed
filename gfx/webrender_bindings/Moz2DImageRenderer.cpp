@@ -369,6 +369,8 @@ FontInstanceData
 {
 WrFontKey
 mFontKey
+{
+}
 ;
 float
 mSize

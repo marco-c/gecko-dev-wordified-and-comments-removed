@@ -906,6 +906,8 @@ mMatrix
 ;
 AlphaMode
 mAlphaMode
+=
+ALPHA_MODE_PREMULTIPLIED
 ;
 }
 ;

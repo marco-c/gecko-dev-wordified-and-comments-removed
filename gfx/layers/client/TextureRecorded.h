@@ -319,6 +319,11 @@ mSnapshotWrapper
 ;
 OpenMode
 mLockedMode
+=
+OpenMode
+:
+:
+OPEN_NONE
 ;
 RemoteTextureId
 mLastRemoteTextureId

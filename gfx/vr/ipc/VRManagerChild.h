@@ -760,6 +760,8 @@ mRuntimeCapabilities
 ;
 bool
 mDisplaysInitialized
+=
+false
 ;
 nsTArray
 <
