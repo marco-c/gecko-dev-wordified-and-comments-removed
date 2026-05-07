@@ -209,3 +209,10 @@ win
 '
 "
 ]
+[
+"
+test_startupTelemetry_launchOnLoginState
+.
+js
+"
+]
