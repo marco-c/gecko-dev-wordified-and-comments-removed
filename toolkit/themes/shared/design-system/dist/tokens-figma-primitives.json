@@ -1362,7 +1362,7 @@ medium
 button
 /
 min
--
+/
 height
 "
 :
@@ -1380,7 +1380,7 @@ large
 button
 /
 min
--
+/
 height
 /
 small
@@ -1439,7 +1439,7 @@ Primitives
 button
 /
 min
--
+/
 height
 }
 "
@@ -1459,7 +1459,7 @@ Primitives
 button
 /
 min
--
+/
 height
 /
 small
@@ -1617,7 +1617,7 @@ input
 text
 /
 min
--
+/
 height
 "
 :
@@ -1627,7 +1627,7 @@ Primitives
 button
 /
 min
--
+/
 height
 }
 "
@@ -2425,7 +2425,7 @@ Primitives
 button
 /
 min
--
+/
 height
 }
 "

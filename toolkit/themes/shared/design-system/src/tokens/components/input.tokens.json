@@ -33,7 +33,10 @@ text
 {
 "
 min
--
+"
+:
+{
+"
 height
 "
 :
@@ -47,12 +50,13 @@ value
 button
 .
 min
--
+.
 height
 .
 base
 }
 "
+}
 }
 }
 }
