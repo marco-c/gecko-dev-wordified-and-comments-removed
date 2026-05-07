@@ -5382,6 +5382,19 @@ the
 AI
 controls
 banner
+.
+%
+s
+is
+a
+learn
+more
+link
+using
+ai_controls_learn_more
+as
+text
+.
 -
 -
 >
@@ -5390,7 +5403,7 @@ string
 name
 =
 "
-ai_controls_banner_supporting_text
+ai_controls_banner_supporting_text_2
 "
 >
 That
@@ -5403,6 +5416,8 @@ enhanced
 with
 AI
 .
+%
+s
 <
 /
 string
