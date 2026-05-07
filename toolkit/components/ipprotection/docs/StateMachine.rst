@@ -205,7 +205,11 @@ with
 Guardian
 (
 via
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
+.
+updateEntitlement
+(
+)
 )
 :
 -

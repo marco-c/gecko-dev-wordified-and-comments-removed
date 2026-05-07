@@ -418,7 +418,7 @@ init
 (
 )
 ;
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 .
 resetEntitlement
 (
@@ -438,7 +438,7 @@ refreshUsage
 )
 ;
 await
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 .
 updateEntitlement
 (
@@ -549,9 +549,9 @@ init
 )
 ;
 await
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 .
-maybeEnrollAndEntitle
+enroll
 (
 )
 ;
@@ -682,9 +682,9 @@ init
 )
 ;
 await
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 .
-maybeEnrollAndEntitle
+enroll
 (
 )
 ;
@@ -799,9 +799,9 @@ init
 )
 ;
 await
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 .
-maybeEnrollAndEntitle
+enroll
 (
 )
 ;
@@ -1098,7 +1098,7 @@ updateEntitlement
 let
 updatePromise
 =
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 .
 updateEntitlement
 (
@@ -1207,7 +1207,7 @@ init
 )
 ;
 await
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 .
 updateEntitlement
 (
@@ -1247,7 +1247,7 @@ true
 )
 ;
 await
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 .
 updateEntitlement
 (
@@ -1315,6 +1315,12 @@ init
 (
 )
 ;
+IPPFxaAuthProvider
+.
+resetEntitlement
+(
+)
+;
 let
 resolveEnroll
 ;
@@ -1344,7 +1350,7 @@ Assert
 ok
 (
 !
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 .
 isEnrolling
 "
@@ -1360,9 +1366,9 @@ maybeEnrollAndEntitle
 let
 enrollPromise
 =
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 .
-maybeEnrollAndEntitle
+enroll
 (
 )
 ;
@@ -1370,7 +1376,7 @@ Assert
 .
 ok
 (
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 .
 isEnrolling
 "
@@ -1436,7 +1442,7 @@ Assert
 ok
 (
 !
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 .
 isEnrolling
 "

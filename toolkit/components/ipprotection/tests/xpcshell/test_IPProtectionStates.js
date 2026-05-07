@@ -674,9 +674,9 @@ const
 enrollData
 =
 await
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 .
-maybeEnrollAndEntitle
+enroll
 (
 )
 ;

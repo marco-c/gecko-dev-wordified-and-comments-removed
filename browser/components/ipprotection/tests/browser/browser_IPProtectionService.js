@@ -852,7 +852,7 @@ enabled
 "
 )
 ;
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 .
 resetEntitlement
 (
@@ -1121,7 +1121,7 @@ setupSandbox
 .
 stub
 (
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 "
 updateEntitlement
 "
@@ -1646,7 +1646,7 @@ content
 .
 statusCardEl
 ;
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 .
 resetEntitlement
 (

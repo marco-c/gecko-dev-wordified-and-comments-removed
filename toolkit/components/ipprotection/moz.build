@@ -150,15 +150,6 @@ mjs
 "
 fxa
 /
-IPPEnrollAndEntitleManager
-.
-sys
-.
-mjs
-"
-"
-fxa
-/
 IPPFxaActivateAuthProvider
 .
 sys
