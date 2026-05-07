@@ -1519,6 +1519,14 @@ getCollations
 \
 MACRO_
 (
+getHourCycles
+"
+getHourCycles
+"
+)
+\
+MACRO_
+(
 GetInternalError
 "
 GetInternalError
