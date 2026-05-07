@@ -1166,14 +1166,6 @@ IsTopLevelContentDocument
 )
 &
 &
-StaticPrefs
-:
-:
-privacy_partition_always_partition_third_party_non_cookie_storage
-(
-)
-&
-&
 cookieAllowed
 >
 StorageAccess
