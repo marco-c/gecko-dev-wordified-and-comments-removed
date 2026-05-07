@@ -145,7 +145,12 @@ XP_DARWIN
 "
 libavcodec
 .
-62
+"
+FFMPEG_MAX_MAJOR_VERSION_STR
+(
+FFMPEG_MAX_MAJOR_VERSION
+)
+"
 .
 dylib
 "
@@ -230,8 +235,11 @@ libavcodec
 .
 so
 .
-62
 "
+FFMPEG_MAX_MAJOR_VERSION_STR
+(
+FFMPEG_MAX_MAJOR_VERSION
+)
 "
 libavcodec
 .
