@@ -8154,8 +8154,6 @@ clip_leaf_id
 info
 .
 rect
-.
-min
 )
 }
 fn
@@ -11993,7 +11991,7 @@ build_for_picture
 (
 clip_node_id
 )
-LayoutPoint
+LayoutRect
 :
 :
 zero
@@ -18213,7 +18211,7 @@ build_for_picture
 (
 clip_node_id
 )
-LayoutPoint
+LayoutRect
 :
 :
 zero

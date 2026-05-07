@@ -296,6 +296,9 @@ NormalBorderDataHandle
 prim_instance_index
 :
 PrimitiveInstanceIndex
+prim_size
+:
+LayoutSize
 data_stores
 :
 &
@@ -317,15 +320,6 @@ normal_border
 [
 data_handle
 ]
-;
-let
-prim_size
-=
-prim_data
-.
-common
-.
-prim_size
 ;
 let
 border
@@ -785,6 +779,9 @@ common
 &
 mut
 PrimTemplateCommonData
+prim_size
+:
+LayoutSize
 brush_segments
 :
 &
@@ -845,8 +842,6 @@ PremultipliedColorF
 WHITE
 stretch_size
 :
-common
-.
 prim_size
 }
 )
@@ -1601,6 +1596,9 @@ ImageBorderDataHandle
 prim_instance_index
 :
 PrimitiveInstanceIndex
+prim_size
+:
+LayoutSize
 data_stores
 :
 &
@@ -1622,15 +1620,6 @@ image_border
 [
 data_handle
 ]
-;
-let
-prim_size
-=
-prim_data
-.
-common
-.
-prim_size
 ;
 let
 nine_patch
@@ -1825,6 +1814,9 @@ common
 &
 mut
 PrimTemplateCommonData
+prim_size
+:
+LayoutSize
 brush_segments
 :
 &
@@ -1872,8 +1864,6 @@ write_prim_gpu_blocks
 mut
 writer
 &
-common
-.
 prim_size
 )
 ;
@@ -2372,7 +2362,7 @@ NormalBorderTemplate
 >
 (
 )
-148
+140
 "
 NormalBorderTemplate
 size
@@ -2394,7 +2384,7 @@ NormalBorderKey
 >
 (
 )
-96
+88
 "
 NormalBorderKey
 size
@@ -2438,7 +2428,7 @@ ImageBorderTemplate
 >
 (
 )
-104
+96
 "
 ImageBorderTemplate
 size
@@ -2460,7 +2450,7 @@ ImageBorderKey
 >
 (
 )
-80
+72
 "
 ImageBorderKey
 size
