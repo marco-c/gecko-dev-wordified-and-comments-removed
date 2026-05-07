@@ -442,7 +442,7 @@ details
 .
 element
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }

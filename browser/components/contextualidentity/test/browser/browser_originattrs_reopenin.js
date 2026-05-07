@@ -136,7 +136,7 @@ aEvent
 .
 target
 .
-ownerGlobal
+documentGlobal
 )
 {
 xulFrameLoaderCreatedCounter
@@ -741,7 +741,7 @@ regularPage
 .
 tab
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -841,7 +841,7 @@ regularPage
 .
 tab
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .

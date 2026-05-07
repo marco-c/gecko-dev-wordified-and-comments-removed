@@ -543,7 +543,7 @@ gBrowser
 |
 |
 {
-ownerGlobal
+documentGlobal
 :
 window
 }

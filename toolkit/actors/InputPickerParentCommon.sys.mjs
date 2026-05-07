@@ -567,14 +567,14 @@ browser
 &
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 &
 &
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .

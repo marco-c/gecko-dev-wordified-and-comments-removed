@@ -1126,7 +1126,7 @@ TrackingProtection
 =
 tab
 .
-ownerGlobal
+documentGlobal
 .
 gProtectionsHandler
 .

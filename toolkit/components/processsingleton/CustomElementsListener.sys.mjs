@@ -235,7 +235,7 @@ js
 "
 doc
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }

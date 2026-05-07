@@ -2151,7 +2151,7 @@ this
 .
 _scrollable
 .
-ownerGlobal
+documentGlobal
 ;
 win
 .

@@ -383,7 +383,7 @@ rtl
 =
 aContainer
 .
-ownerGlobal
+documentGlobal
 .
 RTL_UI
 ;

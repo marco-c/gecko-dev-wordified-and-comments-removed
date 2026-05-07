@@ -2024,7 +2024,7 @@ lazy
 .
 PrivateBrowsingUtils
 .
-isBrowserPrivate
+isWindowPrivate
 (
 aWindow
 )

@@ -8785,7 +8785,7 @@ chromeWindow
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 const
 tab
@@ -9501,7 +9501,7 @@ chrome
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (

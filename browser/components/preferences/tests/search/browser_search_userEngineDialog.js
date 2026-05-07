@@ -7265,7 +7265,7 @@ dialogLoaded
 await
 doc
 .
-ownerGlobal
+documentGlobal
 .
 gSubDialog
 .

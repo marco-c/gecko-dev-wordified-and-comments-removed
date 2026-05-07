@@ -1046,7 +1046,7 @@ PopupNotifications
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 wrappedJSObject
 ;
@@ -1742,7 +1742,7 @@ gFlowId
 ;
 browser
 .
-ownerGlobal
+documentGlobal
 .
 openWebLinkIn
 (
@@ -2157,7 +2157,7 @@ preventDefault
 ;
 browser
 .
-ownerGlobal
+documentGlobal
 .
 openWebLinkIn
 (
@@ -2773,7 +2773,7 @@ PopupNotifications
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 wrappedJSObject
 ;
@@ -4587,7 +4587,7 @@ PopupNotifications
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 wrappedJSObject
 ;
@@ -4805,7 +4805,7 @@ tabPanelId
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -5080,7 +5080,7 @@ from
 (
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -5159,7 +5159,7 @@ address
 .
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -5367,7 +5367,7 @@ desktop
 ;
 browser
 .
-ownerGlobal
+documentGlobal
 .
 openWebLinkIn
 (
@@ -5706,7 +5706,7 @@ PopupNotifications
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 wrappedJSObject
 ;

@@ -11467,7 +11467,7 @@ KEY_ArrowDown
 }
 menupopup
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -11749,7 +11749,7 @@ mousemove
 }
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 this
@@ -11774,7 +11774,7 @@ mousedown
 }
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 this
@@ -11799,7 +11799,7 @@ mousemove
 }
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 this
@@ -11824,7 +11824,7 @@ mouseup
 }
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 return

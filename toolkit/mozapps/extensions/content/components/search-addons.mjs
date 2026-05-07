@@ -474,7 +474,7 @@ chromewin
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 chromewin
 .

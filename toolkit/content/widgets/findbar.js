@@ -3944,7 +3944,7 @@ event
 new
 target
 .
-ownerGlobal
+documentGlobal
 .
 KeyboardEvent
 (

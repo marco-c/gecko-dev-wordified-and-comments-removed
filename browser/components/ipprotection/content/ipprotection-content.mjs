@@ -842,7 +842,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -909,7 +909,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 ;
 win
 .
@@ -1288,7 +1288,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 ;
 win
 .

@@ -75,7 +75,7 @@ win
 =
 openedTab
 .
-ownerGlobal
+documentGlobal
 ;
 let
 initialTabCount

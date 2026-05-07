@@ -110,7 +110,7 @@ TrackingProtection
 =
 gBrowser
 .
-ownerGlobal
+documentGlobal
 .
 gProtectionsHandler
 .
@@ -826,7 +826,7 @@ privateWin
 .
 gBrowser
 .
-ownerGlobal
+documentGlobal
 .
 gProtectionsHandler
 .

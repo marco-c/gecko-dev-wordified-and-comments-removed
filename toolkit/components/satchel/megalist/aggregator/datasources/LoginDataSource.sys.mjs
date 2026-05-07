@@ -2869,7 +2869,7 @@ showMigrationWizard
 (
 browser
 .
-ownerGlobal
+documentGlobal
 {
 entrypoint
 :
@@ -3626,7 +3626,7 @@ gBrowser
 ;
 browser
 .
-ownerGlobal
+documentGlobal
 .
 switchToTabHavingURI
 (

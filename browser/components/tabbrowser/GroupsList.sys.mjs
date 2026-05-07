@@ -148,7 +148,7 @@ win
 =
 containerNode
 .
-ownerGlobal
+documentGlobal
 ;
 this
 .
@@ -517,7 +517,7 @@ select
 ;
 group
 .
-ownerGlobal
+documentGlobal
 .
 focus
 (

@@ -544,7 +544,7 @@ TabGroupRemoved
 await
 group
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .

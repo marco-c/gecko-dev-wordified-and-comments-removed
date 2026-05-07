@@ -347,7 +347,7 @@ win
 browser
 ?
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -993,7 +993,7 @@ win
 browser
 ?
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (

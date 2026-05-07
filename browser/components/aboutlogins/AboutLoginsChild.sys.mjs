@@ -1312,7 +1312,7 @@ this
 .
 document
 .
-ownerGlobal
+documentGlobal
 .
 addEventListener
 (

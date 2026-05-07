@@ -1904,7 +1904,7 @@ win
 =
 doc
 .
-ownerGlobal
+documentGlobal
 ;
 EventUtils
 .
@@ -2214,7 +2214,7 @@ win
 =
 doc
 .
-ownerGlobal
+documentGlobal
 ;
 uriTextbox
 .
@@ -4321,7 +4321,7 @@ win
 =
 doc
 .
-ownerGlobal
+documentGlobal
 ;
 EventUtils
 .
@@ -4494,7 +4494,7 @@ win
 =
 doc
 .
-ownerGlobal
+documentGlobal
 ;
 EventUtils
 .

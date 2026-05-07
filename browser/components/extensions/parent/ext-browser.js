@@ -225,7 +225,7 @@ context
 .
 xulBrowser
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -583,7 +583,7 @@ isTopLevel
 &
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -1114,7 +1114,7 @@ gBrowser
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 ;
@@ -1648,7 +1648,7 @@ tab
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -1725,7 +1725,7 @@ if
 (
 nativeTab
 .
-ownerGlobal
+documentGlobal
 .
 closed
 )
@@ -1885,7 +1885,7 @@ getId
 (
 nativeTab
 .
-ownerGlobal
+documentGlobal
 )
 ;
 let
@@ -1942,7 +1942,7 @@ getId
 (
 nativeTab
 .
-ownerGlobal
+documentGlobal
 )
 ;
 let
@@ -2338,7 +2338,7 @@ currentTab
 =
 nativeTab
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -2570,7 +2570,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -2859,7 +2859,7 @@ getId
 (
 nativeTab
 .
-ownerGlobal
+documentGlobal
 )
 nativeTab
 }
@@ -2956,7 +2956,7 @@ getId
 (
 nativeTab
 .
-ownerGlobal
+documentGlobal
 )
 ;
 let
@@ -2997,7 +2997,7 @@ window
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -3071,7 +3071,7 @@ gBrowser
 =
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -3109,7 +3109,7 @@ getId
 (
 browser
 .
-ownerGlobal
+documentGlobal
 )
 }
 ;
@@ -3177,7 +3177,7 @@ context
 xulBrowser
 ?
 .
-ownerGlobal
+documentGlobal
 ?
 .
 browsingContext
@@ -3717,7 +3717,7 @@ this
 .
 nativeTab
 .
-ownerGlobal
+documentGlobal
 ;
 }
 get
@@ -5170,7 +5170,7 @@ canAccessWindow
 (
 nativeTab
 .
-ownerGlobal
+documentGlobal
 )
 )
 {
@@ -5240,7 +5240,7 @@ if
 !
 nativeTab
 .
-ownerGlobal
+documentGlobal
 .
 gBrowserInit
 .

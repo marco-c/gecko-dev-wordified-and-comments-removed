@@ -578,7 +578,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 !
 =
 =

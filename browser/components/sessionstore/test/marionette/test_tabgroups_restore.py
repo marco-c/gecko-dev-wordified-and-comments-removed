@@ -268,7 +268,7 @@ flushWindow
 (
 gBrowser
 .
-ownerGlobal
+documentGlobal
 )
 .
 then
@@ -446,7 +446,7 @@ group
             
 group
 .
-ownerGlobal
+documentGlobal
 .
 SessionStore
 .
@@ -458,7 +458,7 @@ group
             
 group
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -791,7 +791,7 @@ flushWindow
 (
 gBrowser
 .
-ownerGlobal
+documentGlobal
 )
 .
 then
@@ -974,7 +974,7 @@ group
             
 group
 .
-ownerGlobal
+documentGlobal
 .
 SessionStore
 .
@@ -986,7 +986,7 @@ group
             
 group
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .

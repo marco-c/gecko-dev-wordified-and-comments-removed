@@ -393,7 +393,7 @@ KEY_Escape
 }
 searchPopup
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

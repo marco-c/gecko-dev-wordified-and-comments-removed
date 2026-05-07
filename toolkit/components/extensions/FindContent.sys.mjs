@@ -1354,7 +1354,7 @@ _getSelectionController
 (
 node
 .
-ownerGlobal
+documentGlobal
 )
 ;
 controller

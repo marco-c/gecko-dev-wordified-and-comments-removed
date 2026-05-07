@@ -5512,7 +5512,7 @@ node
 .
 rawNode
 .
-ownerGlobal
+documentGlobal
 HELPER_SHEET
 )
 ;

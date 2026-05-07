@@ -975,7 +975,7 @@ HTMLImageElement
 =
 image
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -1174,7 +1174,7 @@ HTMLImageElement
 =
 node
 .
-ownerGlobal
+documentGlobal
 ;
 const
 isImg
@@ -1628,7 +1628,7 @@ display
 =
 node
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (
@@ -1739,7 +1739,7 @@ getAdjustedQuads
 (
 node
 .
-ownerGlobal
+documentGlobal
 node
 .
 firstChild
@@ -1848,7 +1848,7 @@ win
 =
 node
 .
-ownerGlobal
+documentGlobal
 ;
 loadSheetForBackgroundCalculation
 (

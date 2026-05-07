@@ -2450,7 +2450,7 @@ win
 =
 tab
 .
-ownerGlobal
+documentGlobal
 ;
 const
 {

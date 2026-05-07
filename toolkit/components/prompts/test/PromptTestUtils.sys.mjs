@@ -895,7 +895,7 @@ parentWindow
 =
 parentBrowser
 .
-ownerGlobal
+documentGlobal
 ;
 }
 else

@@ -97,7 +97,7 @@ Entered
 {
 browser
 .
-ownerGlobal
+documentGlobal
 .
 PointerLock
 .
@@ -125,7 +125,7 @@ Exited
 {
 browser
 .
-ownerGlobal
+documentGlobal
 .
 PointerLock
 .

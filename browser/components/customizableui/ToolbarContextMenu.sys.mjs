@@ -330,7 +330,7 @@ DownloadsButton
 =
 popup
 .
-ownerGlobal
+documentGlobal
 ;
 let
 checkbox
@@ -593,7 +593,7 @@ document
 =
 popup
 .
-ownerGlobal
+documentGlobal
 ;
 let
 separator
@@ -908,7 +908,7 @@ window
 =
 popup
 .
-ownerGlobal
+documentGlobal
 ;
 let
 {
@@ -2602,7 +2602,7 @@ gCustomizeMode
 =
 popup
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -2942,7 +2942,7 @@ gUnifiedExtensions
 =
 popup
 .
-ownerGlobal
+documentGlobal
 ;
 const
 checkbox
@@ -3624,7 +3624,7 @@ BrowserAddonUI
 =
 popup
 .
-ownerGlobal
+documentGlobal
 ;
 let
 id
@@ -3732,7 +3732,7 @@ BrowserAddonUI
 =
 popup
 .
-ownerGlobal
+documentGlobal
 ;
 let
 id
@@ -3824,7 +3824,7 @@ BrowserAddonUI
 =
 popup
 .
-ownerGlobal
+documentGlobal
 ;
 let
 id

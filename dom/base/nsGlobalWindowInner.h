@@ -1213,15 +1213,6 @@ aRv
 )
 final
 ;
-virtual
-nsPIDOMWindowOuter
-*
-GetOwnerGlobalForBindingsInternal
-(
-)
-override
-;
-virtual
 nsIGlobalObject
 *
 GetOwnerGlobal

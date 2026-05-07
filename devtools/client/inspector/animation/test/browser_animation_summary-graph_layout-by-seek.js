@@ -221,7 +221,7 @@ computedStyle
 =
 delayEl
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (
@@ -280,7 +280,7 @@ computedStyle
 =
 endDelayEl
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (
@@ -647,7 +647,7 @@ computedStyle
 =
 delayEl
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (
@@ -757,7 +757,7 @@ computedStyle
 =
 endDelayEl
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (

@@ -407,7 +407,7 @@ win
 =
 root
 .
-ownerGlobal
+documentGlobal
 &
 &
 newTheme

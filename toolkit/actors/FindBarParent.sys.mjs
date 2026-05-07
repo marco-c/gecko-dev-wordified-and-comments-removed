@@ -290,7 +290,7 @@ findPromise
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gFindBarPromise
 ;

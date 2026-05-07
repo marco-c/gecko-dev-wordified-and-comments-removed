@@ -201,7 +201,7 @@ window
 browser
 ?
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (

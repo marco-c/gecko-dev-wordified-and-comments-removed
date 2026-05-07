@@ -1772,7 +1772,7 @@ isForegroundWindow
 =
 this
 .
-ownerGlobal
+documentGlobal
 =
 =
 BrowserWindowTracker

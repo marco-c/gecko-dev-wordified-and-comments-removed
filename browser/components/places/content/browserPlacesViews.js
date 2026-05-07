@@ -3292,7 +3292,7 @@ event
 .
 currentTarget
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }

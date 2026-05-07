@@ -1400,7 +1400,7 @@ openerWindow
 =
 openerBrowser
 .
-ownerGlobal
+documentGlobal
 ;
 const
 openerTab

@@ -1922,7 +1922,7 @@ DocumentFragment
 =
 this
 .
-ownerGlobal
+documentGlobal
 ;
 const
 fragment
@@ -16815,7 +16815,7 @@ window
 =
 aNode
 .
-ownerGlobal
+documentGlobal
 )
 {
 return
@@ -16879,7 +16879,7 @@ window
 =
 aNode
 .
-ownerGlobal
+documentGlobal
 )
 {
 return
@@ -16944,7 +16944,7 @@ window
 =
 aContainer
 .
-ownerGlobal
+documentGlobal
 )
 {
 return

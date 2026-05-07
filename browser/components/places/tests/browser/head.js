@@ -545,7 +545,7 @@ aOptions
 }
 aTree
 .
-ownerGlobal
+documentGlobal
 )
 ;
 AccessibilityUtils
@@ -2369,7 +2369,7 @@ sendString
 query
 searchBox
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }

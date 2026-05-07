@@ -3120,7 +3120,7 @@ chromeWindow
 =
 triggerElement
 .
-ownerGlobal
+documentGlobal
 .
 top
 ;

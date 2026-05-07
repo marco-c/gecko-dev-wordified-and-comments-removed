@@ -1575,12 +1575,12 @@ return
 (
 node
 .
-ownerGlobal
+documentGlobal
 &
 &
 node
 .
-ownerGlobal
+documentGlobal
 .
 HTMLTemplateElement
 .
@@ -2214,7 +2214,7 @@ win
 =
 node
 .
-ownerGlobal
+documentGlobal
 ;
 const
 quads

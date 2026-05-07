@@ -666,7 +666,7 @@ navigator
 =
 tab
 .
-ownerGlobal
+documentGlobal
 ;
 is
 (

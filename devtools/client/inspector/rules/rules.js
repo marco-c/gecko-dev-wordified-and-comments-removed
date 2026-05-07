@@ -9567,7 +9567,7 @@ win
 =
 elementToScrollTo
 .
-ownerGlobal
+documentGlobal
 ;
 const
 reducedMotion

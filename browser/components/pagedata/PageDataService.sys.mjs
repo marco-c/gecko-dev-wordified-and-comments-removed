@@ -1720,7 +1720,7 @@ window
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 browsers
@@ -3250,7 +3250,7 @@ browser
 return
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 ?

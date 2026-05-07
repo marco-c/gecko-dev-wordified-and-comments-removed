@@ -412,7 +412,7 @@ loadContext
 .
 topFrameElement
 .
-ownerGlobal
+documentGlobal
 )
 ;
 let
@@ -794,7 +794,7 @@ loadContext
 topFrameElement
 ?
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /

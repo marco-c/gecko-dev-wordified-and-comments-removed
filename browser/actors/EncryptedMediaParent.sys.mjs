@@ -1219,7 +1219,7 @@ if
 (
 aBrowser
 .
-ownerGlobal
+documentGlobal
 .
 PopupNotifications
 .
@@ -1463,7 +1463,7 @@ callback
 {
 aBrowser
 .
-ownerGlobal
+documentGlobal
 .
 openPreferences
 (
@@ -1552,7 +1552,7 @@ true
 ;
 aBrowser
 .
-ownerGlobal
+documentGlobal
 .
 PopupNotifications
 .

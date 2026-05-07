@@ -2120,7 +2120,7 @@ globalBrowser
 =
 window
 .
-ownerGlobal
+documentGlobal
 .
 browsingContext
 .

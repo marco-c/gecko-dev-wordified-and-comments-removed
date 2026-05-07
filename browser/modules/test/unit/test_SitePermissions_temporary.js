@@ -104,7 +104,7 @@ dispatchEvent
 >
 {
 }
-ownerGlobal
+documentGlobal
 :
 {
 CustomEvent

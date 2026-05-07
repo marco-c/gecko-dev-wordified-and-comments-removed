@@ -2188,7 +2188,7 @@ DOCUMENT_NODE
 return
 target
 .
-ownerGlobal
+documentGlobal
 .
 docShell
 .

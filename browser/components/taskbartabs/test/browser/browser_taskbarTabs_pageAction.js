@@ -556,7 +556,7 @@ is
 (
 tab
 .
-ownerGlobal
+documentGlobal
 destWin
 "
 Shoud

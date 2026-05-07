@@ -778,7 +778,7 @@ tabGroupId
 ;
 tabGroup
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -898,7 +898,7 @@ tabGroupId
 ;
 tabGroup
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -3081,7 +3081,7 @@ length
 =
 tabGroup
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .

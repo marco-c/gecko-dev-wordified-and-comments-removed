@@ -55,7 +55,7 @@ target
 }
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 return
@@ -77,7 +77,7 @@ waitForEvent
 (
 target
 .
-ownerGlobal
+documentGlobal
 "
 contextmenu
 "
@@ -100,7 +100,7 @@ button
 }
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 return
@@ -146,7 +146,7 @@ mousemove
 }
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 EventUtils
@@ -165,7 +165,7 @@ mousedown
 }
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 EventUtils
@@ -184,7 +184,7 @@ mousemove
 }
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 EventUtils
@@ -203,7 +203,7 @@ mouseup
 }
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 return

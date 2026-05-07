@@ -197,7 +197,7 @@ pref
 ;
 doc
 .
-ownerGlobal
+documentGlobal
 .
 Preferences
 .
@@ -222,7 +222,7 @@ r
 >
 doc
 .
-ownerGlobal
+documentGlobal
 .
 requestAnimationFrame
 (

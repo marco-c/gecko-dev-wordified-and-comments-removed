@@ -10574,7 +10574,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 const
 shellService

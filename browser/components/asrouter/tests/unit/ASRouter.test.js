@@ -1011,7 +1011,7 @@ MozBrowser
 "
 }
 get
-ownerGlobal
+documentGlobal
 (
 )
 {

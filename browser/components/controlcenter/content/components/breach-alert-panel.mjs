@@ -228,7 +228,7 @@ record
 ;
 this
 .
-ownerGlobal
+documentGlobal
 .
 switchToTabHavingURI
 (

@@ -625,7 +625,7 @@ this
 .
 document
 .
-ownerGlobal
+documentGlobal
 .
 requestIdleCallback
 (

@@ -216,7 +216,7 @@ doc
 =
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 .
 document
 ;
@@ -387,7 +387,7 @@ win
 =
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 ;
 await
 openProtectionsPanel
@@ -592,7 +592,7 @@ win
 =
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 ;
 await
 openProtectionsPanel
@@ -1420,7 +1420,7 @@ testTrackingPage
 (
 tab
 .
-ownerGlobal
+documentGlobal
 )
 ;
 info
@@ -1472,7 +1472,7 @@ reloadURI
 ;
 tab
 .
-ownerGlobal
+documentGlobal
 .
 gProtectionsHandler
 .
@@ -1492,7 +1492,7 @@ isWindowPrivate
 (
 tab
 .
-ownerGlobal
+documentGlobal
 )
 ;
 let
@@ -1509,7 +1509,7 @@ testTrackingPageUnblocked
 blockedByTP
 tab
 .
-ownerGlobal
+documentGlobal
 )
 ;
 info
@@ -1561,7 +1561,7 @@ reloadURI
 ;
 tab
 .
-ownerGlobal
+documentGlobal
 .
 gProtectionsHandler
 .
@@ -1577,7 +1577,7 @@ testTrackingPage
 (
 tab
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -1620,7 +1620,7 @@ gProtectionsHandler
 =
 gBrowser
 .
-ownerGlobal
+documentGlobal
 .
 gProtectionsHandler
 ;
@@ -1642,7 +1642,7 @@ TrackingProtection
 =
 gBrowser
 .
-ownerGlobal
+documentGlobal
 .
 gProtectionsHandler
 .
@@ -1857,7 +1857,7 @@ gProtectionsHandler
 =
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 .
 gProtectionsHandler
 ;
@@ -1879,7 +1879,7 @@ TrackingProtection
 =
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 .
 gProtectionsHandler
 .
@@ -2032,7 +2032,7 @@ gProtectionsHandler
 =
 gBrowser
 .
-ownerGlobal
+documentGlobal
 .
 gProtectionsHandler
 ;
@@ -2054,7 +2054,7 @@ ThirdPartyCookies
 =
 gBrowser
 .
-ownerGlobal
+documentGlobal
 .
 gProtectionsHandler
 .

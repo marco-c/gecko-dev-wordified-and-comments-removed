@@ -498,7 +498,7 @@ win
 =
 aElement
 .
-ownerGlobal
+documentGlobal
 ;
 let
 id
@@ -740,7 +740,7 @@ win
 =
 aElement
 .
-ownerGlobal
+documentGlobal
 ;
 const
 [
@@ -958,7 +958,7 @@ chromeEventHandler
 =
 aElement
 .
-ownerGlobal
+documentGlobal
 .
 docShell
 .
@@ -1388,7 +1388,7 @@ win
 =
 aElement
 .
-ownerGlobal
+documentGlobal
 ;
 const
 prompt
@@ -1406,7 +1406,7 @@ chromeEventHandler
 =
 aElement
 .
-ownerGlobal
+documentGlobal
 .
 docShell
 .
@@ -1751,7 +1751,7 @@ dispatchEvent
 new
 aElement
 .
-ownerGlobal
+documentGlobal
 .
 Event
 (
@@ -1776,7 +1776,7 @@ dispatchEvent
 new
 aElement
 .
-ownerGlobal
+documentGlobal
 .
 Event
 (

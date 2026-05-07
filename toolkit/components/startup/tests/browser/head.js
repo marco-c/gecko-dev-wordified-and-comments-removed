@@ -101,7 +101,7 @@ activeWindow
 =
 browser
 .
-ownerGlobal
+documentGlobal
 function
 (
 )

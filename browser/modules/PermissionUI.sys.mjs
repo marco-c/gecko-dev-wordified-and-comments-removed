@@ -3240,7 +3240,7 @@ this
 .
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -3601,7 +3601,7 @@ chromeWin
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -3957,7 +3957,7 @@ this
 .
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 mainAction
@@ -5199,7 +5199,7 @@ this
 .
 browser
 .
-ownerGlobal
+documentGlobal
 )
 }
 ;
@@ -5580,7 +5580,7 @@ this
 .
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 ;
@@ -5913,7 +5913,7 @@ this
 .
 browser
 .
-ownerGlobal
+documentGlobal
 )
 }
 ;
@@ -6132,7 +6132,7 @@ this
 .
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 ;
@@ -6608,7 +6608,7 @@ this
 browser
 ?
 .
-ownerGlobal
+documentGlobal
 ;
 let
 notification
@@ -6814,7 +6814,7 @@ this
 .
 browser
 .
-ownerGlobal
+documentGlobal
 )
 }
 ;
@@ -8286,7 +8286,7 @@ this
 .
 browser
 .
-ownerGlobal
+documentGlobal
 )
 }
 ;
@@ -8615,7 +8615,7 @@ this
 .
 browser
 .
-ownerGlobal
+documentGlobal
 )
 }
 ;
@@ -9040,7 +9040,7 @@ this
 .
 browser
 .
-ownerGlobal
+documentGlobal
 )
 }
 ;
@@ -10686,7 +10686,7 @@ this
 .
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 notification
 =

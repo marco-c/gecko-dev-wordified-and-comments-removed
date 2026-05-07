@@ -2583,7 +2583,7 @@ swatch
 }
 swatch
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

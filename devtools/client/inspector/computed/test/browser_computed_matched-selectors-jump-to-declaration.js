@@ -1462,7 +1462,7 @@ isInViewport
 highlightedElement
 highlightedElement
 .
-ownerGlobal
+documentGlobal
 )
 Highlighted
 element

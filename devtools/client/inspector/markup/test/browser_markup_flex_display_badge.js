@@ -692,7 +692,7 @@ VK_RETURN
 }
 flexDisplayBadge
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -815,7 +815,7 @@ VK_RETURN
 }
 flexDisplayBadge
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

@@ -4484,7 +4484,7 @@ _authorizeAndToggleWindow
 (
 browser
 .
-ownerGlobal
+documentGlobal
 trigger
 )
 ;
@@ -4519,7 +4519,7 @@ openerWindow
 browser
 ?
 .
-ownerGlobal
+documentGlobal
 }
 )
 ;

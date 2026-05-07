@@ -3664,7 +3664,7 @@ event
 composedTarget
 ?
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (

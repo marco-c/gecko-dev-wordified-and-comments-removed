@@ -306,7 +306,7 @@ document
 return
 doc
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (

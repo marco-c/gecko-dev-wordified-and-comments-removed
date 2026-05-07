@@ -5583,7 +5583,7 @@ hintElem
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 ConfirmationHint
 .

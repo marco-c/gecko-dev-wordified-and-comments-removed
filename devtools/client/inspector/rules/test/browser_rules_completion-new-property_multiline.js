@@ -835,7 +835,7 @@ node
 }
 node
 .
-ownerGlobal
+documentGlobal
 )
 ;
 view

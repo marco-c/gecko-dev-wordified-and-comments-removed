@@ -1266,7 +1266,7 @@ element
 >
 element
 .
-ownerGlobal
+documentGlobal
 .
 windowUtils
 .
@@ -2915,7 +2915,7 @@ window
 =
 this
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -4035,7 +4035,7 @@ element
 .
 this
 .
-ownerGlobal
+documentGlobal
 .
 requestAnimationFrame
 (

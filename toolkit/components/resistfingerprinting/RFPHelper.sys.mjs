@@ -804,7 +804,7 @@ get
 (
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 resizeObserver
@@ -2789,7 +2789,7 @@ win
 =
 aBrowser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 browserContainer
