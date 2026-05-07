@@ -307,6 +307,16 @@ helpers
 )
 ;
 }
+removeHelpers
+(
+)
+{
+extraHelpers
+=
+[
+]
+;
+}
 setupHelpers
 (
 )

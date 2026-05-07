@@ -708,6 +708,14 @@ uninit
 (
 )
 ;
+lazy
+.
+IPProtectionActivator
+.
+removeHelpers
+(
+)
+;
 }
 aCallback
 .
