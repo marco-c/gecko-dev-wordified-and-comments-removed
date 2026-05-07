@@ -75,6 +75,14 @@ if
 =
 [
 "
+os
+!
+=
+'
+mac
+'
+"
+"
 !
 nightly_build
 "
