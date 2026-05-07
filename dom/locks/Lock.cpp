@@ -64,7 +64,7 @@ dom
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 Lock
-mOwner
+mGlobal
 mWaitingPromise
 mReleasedPromise
 )
@@ -122,7 +122,7 @@ ErrorResult
 aRv
 )
 :
-mOwner
+mGlobal
 (
 aGlobal
 )

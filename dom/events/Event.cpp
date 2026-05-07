@@ -841,7 +841,7 @@ mExplicitOriginalTarget
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mOwner
+mGlobal
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_PRESERVED_WRAPPER
@@ -1136,7 +1136,7 @@ mExplicitOriginalTarget
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mOwner
+mGlobal
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_BEGIN
@@ -2505,7 +2505,7 @@ mInPassiveListener
 {
 if
 (
-mOwner
+mGlobal
 )
 {
 if
@@ -2514,7 +2514,7 @@ nsPIDOMWindowInner
 *
 win
 =
-mOwner
+mGlobal
 -
 >
 GetAsInnerWindow
@@ -4381,7 +4381,7 @@ if
 NS_WARN_IF
 (
 !
-mOwner
+mGlobal
 )
 )
 {
@@ -4395,7 +4395,7 @@ nsPIDOMWindowInner
 *
 win
 =
-mOwner
+mGlobal
 -
 >
 GetAsInnerWindow
@@ -4464,7 +4464,7 @@ mTimeStamp
 ;
 MOZ_ASSERT
 (
-mOwner
+mGlobal
 -
 >
 PrincipalOrNull
@@ -4784,7 +4784,7 @@ EventTarget
 aOwner
 )
 {
-mOwner
+mGlobal
 =
 nullptr
 ;
@@ -4811,7 +4811,7 @@ GetAsNode
 )
 )
 {
-mOwner
+mGlobal
 =
 n
 -
@@ -4842,7 +4842,7 @@ GetAsInnerWindow
 )
 )
 {
-mOwner
+mGlobal
 =
 w
 -
@@ -4870,7 +4870,7 @@ if
 eth
 )
 {
-mOwner
+mGlobal
 =
 eth
 -

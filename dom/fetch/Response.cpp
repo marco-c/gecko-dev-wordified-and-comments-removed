@@ -212,7 +212,7 @@ Response
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mOwner
+mGlobal
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -238,7 +238,7 @@ Response
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mOwner
+mGlobal
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -2128,7 +2128,7 @@ response
 new
 Response
 (
-mOwner
+mGlobal
 ir
 .
 clonePtr
@@ -2328,7 +2328,7 @@ ref
 new
 Response
 (
-mOwner
+mGlobal
 ir
 .
 clonePtr
@@ -2452,7 +2452,7 @@ mHeaders
 new
 Headers
 (
-mOwner
+mGlobal
 mInternalResponse
 -
 >
