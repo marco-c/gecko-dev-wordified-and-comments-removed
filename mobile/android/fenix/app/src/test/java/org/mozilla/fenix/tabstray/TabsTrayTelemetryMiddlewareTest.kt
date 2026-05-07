@@ -2122,7 +2122,7 @@ dispatch
 (
 TabGroupAction
 .
-TabsAddedToGroup
+SelectedTabsAddedToGroup
 (
 "
 id

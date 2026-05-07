@@ -732,7 +732,7 @@ tabCount
 is
 TabGroupAction
 .
-TabsAddedToGroup
+SelectedTabsAddedToGroup
 -
 >
 {
