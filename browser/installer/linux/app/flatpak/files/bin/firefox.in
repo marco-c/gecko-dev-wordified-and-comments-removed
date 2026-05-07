@@ -22,10 +22,10 @@ firefox
 -
 -
 name
-org
-.
-mozilla
-.
-firefox
+"
+{
+FLATPAK_NAME
+}
+"
 "
 "

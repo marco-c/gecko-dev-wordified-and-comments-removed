@@ -309,15 +309,19 @@ read
 )
 )
         
-with
-open
-(
+dest_templated
+=
 dest
 [
 :
 -
 3
 ]
+        
+with
+open
+(
+dest_templated
 "
 w
 "
@@ -336,6 +340,14 @@ substitute
 (
 variables
 )
+)
+        
+shutil
+.
+copymode
+(
+source
+dest_templated
 )
     
 else
@@ -775,6 +787,21 @@ arch
 version
 )
         
+flatpak_basename
+=
+flatpak_name
+.
+split
+(
+"
+.
+"
+)
+[
+-
+1
+]
+        
 variables
 .
 update
@@ -798,6 +825,18 @@ FLATPAK_BRANCH
 "
 :
 flatpak_branch
+            
+"
+FLATPAK_BASENAME
+"
+:
+flatpak_basename
+            
+"
+FLATPAK_NAME
+"
+:
+flatpak_name
             
 "
 DATE
@@ -1706,6 +1745,7 @@ firefox
 *
 "
                 
+f
 "
 -
 -
@@ -1713,27 +1753,9 @@ own
 -
 name
 =
-org
-.
-mozilla
-.
-firefox
-.
-*
-"
-                
-"
--
--
-own
--
-name
-=
-org
-.
-mozilla
-.
-firefox_beta
+{
+flatpak_name
+}
 .
 *
 "
