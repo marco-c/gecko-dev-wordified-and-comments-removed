@@ -167,7 +167,7 @@ ruff
 .
 15
 .
-0
+12
 pypi
 :
 snowballstemmer
