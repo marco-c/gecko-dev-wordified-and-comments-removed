@@ -17259,7 +17259,13 @@ StealNSResult
 }
 _retval
 =
+std
+:
+:
+move
+(
 filePath
+)
 ;
 return
 NS_OK

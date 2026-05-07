@@ -704,7 +704,13 @@ type
 {
 mContentType
 =
+std
+:
+:
+move
+(
 headerValue
+)
 ;
 }
 return

@@ -1545,7 +1545,13 @@ _ns
 ;
 outLinkText
 =
+std
+:
+:
+move
+(
 linkText
+)
 ;
 }
 nsresult

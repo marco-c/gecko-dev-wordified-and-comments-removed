@@ -4102,7 +4102,13 @@ AppendLiteral
 }
 aResult
 =
+std
+:
+:
+move
+(
 matrixStr
+)
 ;
 }
 bool

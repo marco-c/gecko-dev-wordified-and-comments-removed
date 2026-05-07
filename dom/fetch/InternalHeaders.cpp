@@ -1355,7 +1355,13 @@ entry
 >
 mValue
 =
+std
+:
+:
+move
+(
 trimValue
+)
 ;
 }
 else
@@ -1367,7 +1373,13 @@ AppendElement
 Entry
 (
 aName
+std
+:
+:
+move
+(
 trimValue
+)
 )
 )
 ;

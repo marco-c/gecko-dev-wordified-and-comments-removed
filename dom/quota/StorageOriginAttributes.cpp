@@ -419,7 +419,13 @@ kNotFound
 {
 aOriginNoSuffix
 =
+std
+:
+:
+move
+(
 origin
+)
 ;
 return
 true

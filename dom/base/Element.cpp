@@ -20630,7 +20630,13 @@ args
 .
 mNewValue
 =
+std
+:
+:
+move
+(
 value
+)
 ;
 args
 .
@@ -20646,7 +20652,13 @@ VoidString
 (
 )
 :
+std
+:
+:
+move
+(
 ns
+)
 ;
 nsContentUtils
 :
