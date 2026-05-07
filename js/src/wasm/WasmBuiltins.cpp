@@ -12140,6 +12140,8 @@ symbolicAddressToCodeRange
 ;
 uint32_t
 provisionalLazyJitEntryOffset
+=
+0
 ;
 BuiltinThunks
 (

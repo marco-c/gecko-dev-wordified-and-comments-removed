@@ -945,6 +945,8 @@ DebugOnly
 uint32_t
 >
 spBefore_
+=
+0
 ;
 }
 ;

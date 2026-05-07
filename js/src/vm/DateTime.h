@@ -903,9 +903,16 @@ UpdateIfChanged
 ;
 TimeZoneStatus
 timeZoneStatus_
+=
+TimeZoneStatus
+:
+:
+NeedsUpdate
 ;
 int32_t
 utcToLocalStandardOffsetSeconds_
+=
+0
 ;
 RangeCache
 dstRange_

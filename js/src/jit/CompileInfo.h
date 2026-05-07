@@ -1669,6 +1669,8 @@ hadUnboxFoldingBailout_
 ;
 bool
 branchHintingEnabled_
+=
+false
 ;
 bool
 mayReadFrameArgsDirectly_

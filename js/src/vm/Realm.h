@@ -258,9 +258,15 @@ DtoaCache
 {
 double
 dbl
+=
+0
+.
+0
 ;
 int
 base
+=
+0
 ;
 JSLinearString
 *

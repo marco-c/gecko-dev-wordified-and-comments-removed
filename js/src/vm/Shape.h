@@ -3152,6 +3152,8 @@ Shape
 {
 uintptr_t
 padding_
+=
+0
 ;
 friend
 class

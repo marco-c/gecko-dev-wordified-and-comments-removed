@@ -397,6 +397,8 @@ public
 :
 nsresult
 mRv
+=
+NS_OK
 ;
 JS
 :

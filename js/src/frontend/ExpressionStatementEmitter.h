@@ -51,6 +51,8 @@ ifdef
 DEBUG
 int32_t
 depth_
+=
+0
 ;
 #
 endif

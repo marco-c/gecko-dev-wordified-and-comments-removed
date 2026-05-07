@@ -9250,6 +9250,8 @@ StackResult
 {
 uint32_t
 offset_
+=
+0
 ;
 MIRType
 type_

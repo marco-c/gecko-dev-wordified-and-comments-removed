@@ -2826,6 +2826,8 @@ ifdef
 JS_GC_ZEAL
 bool
 reportPromotion_
+=
+false
 ;
 #
 endif

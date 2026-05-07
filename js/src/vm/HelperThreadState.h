@@ -479,6 +479,8 @@ threadCount
 ;
 size_t
 stackQuota
+=
+0
 ;
 bool
 terminating_

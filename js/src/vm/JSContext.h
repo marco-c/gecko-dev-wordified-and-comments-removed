@@ -443,7 +443,16 @@ MutableHandle
 JSObject
 *
 >
-data
+incumbentGlobal
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+optionalHostDefinedData
 )
 const
 override
@@ -5281,6 +5290,8 @@ nested_
 ;
 bool
 checkForPendingException_
+=
+false
 ;
 #
 endif

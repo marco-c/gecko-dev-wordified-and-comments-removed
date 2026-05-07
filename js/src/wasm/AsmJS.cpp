@@ -4177,6 +4177,8 @@ private
 :
 Which
 which_
+=
+OutOfRangeInt
 ;
 JS
 :
@@ -5587,9 +5589,16 @@ Memory
 {
 MemoryUsage
 usage
+=
+MemoryUsage
+:
+:
+Unshared
 ;
 uint64_t
 minLength
+=
+0
 ;
 uint64_t
 minPages
