@@ -30,13 +30,6 @@ h
 #
 include
 "
-RedBlackTree
-.
-h
-"
-#
-include
-"
 mozilla
 /
 DoublyLinkedList
@@ -59,7 +52,10 @@ RECYCLED_CHUNK
 struct
 arena_chunk_map_t
 {
-RedBlackTreeNode
+mozilla
+:
+:
+DoublyLinkedListElement
 <
 arena_chunk_map_t
 >
