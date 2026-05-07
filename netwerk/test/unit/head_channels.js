@@ -3225,14 +3225,6 @@ function
 asyncSetupFaultyServer
 (
 callbackServer
-{
-use0RTT
-=
-true
-}
-=
-{
-}
 )
 {
 Services
@@ -3251,11 +3243,6 @@ identity
 primaryPort
 )
 ;
-if
-(
-use0RTT
-)
-{
 Services
 .
 env
@@ -3270,7 +3257,6 @@ MOZ_TLS_SERVER_0RTT
 "
 )
 ;
-}
 await
 asyncStartTLSTestServer
 (
