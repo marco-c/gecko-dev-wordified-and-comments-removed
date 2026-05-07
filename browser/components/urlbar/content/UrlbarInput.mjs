@@ -30455,7 +30455,7 @@ lazy
 .
 SharingUtils
 .
-updateShareURLMenuItem
+ensureShareMenu
 (
 browser
 null
