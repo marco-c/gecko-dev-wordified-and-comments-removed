@@ -22,6 +22,15 @@ include
 "
 mozilla
 /
+Atomics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Mutex
 .
 h
@@ -813,7 +822,11 @@ mHttpsProxy
 false
 }
 ;
+Atomic
+<
 uint32_t
+Relaxed
+>
 mConnectionFlags
 {
 0
