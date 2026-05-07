@@ -913,7 +913,7 @@ shouldAttributeInstallToMetaApp
 true
 shouldShowMarketingOnboarding
 =
-false
+true
 )
 /
 /
