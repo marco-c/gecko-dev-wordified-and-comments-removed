@@ -102,6 +102,9 @@ name
 mozac_feature_importer_dialog_title
 "
 >
+Se
+import
+marcaje
 <
 /
 string
@@ -129,7 +132,19 @@ name
 mozac_feature_importer_dialog_description
 "
 >
+ine
+acest
+ecran
+deschis
 .
+Ar
+trebui
+s
+dureze
+numai
+c
+teva
+secunde
 .
 <
 /
@@ -162,6 +177,7 @@ name
 mozac_feature_importer_dialog_cancel
 "
 >
+Anuleaz
 <
 /
 string

@@ -102,6 +102,8 @@ name
 mozac_feature_importer_dialog_title
 "
 >
+Importing
+bookmarks
 <
 /
 string
@@ -129,7 +131,18 @@ name
 mozac_feature_importer_dialog_description
 "
 >
+Keep
+this
+screen
+open
 .
+It
+should
+only
+take
+a
+few
+seconds
 .
 <
 /
@@ -162,6 +175,7 @@ name
 mozac_feature_importer_dialog_cancel
 "
 >
+Cancel
 <
 /
 string
