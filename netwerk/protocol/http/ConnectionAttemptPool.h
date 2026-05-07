@@ -127,6 +127,11 @@ UnconnectedConnectionAttempts
 )
 const
 ;
+void
+OnConnectionAttemptConnected
+(
+)
+;
 bool
 FindConnToClaim
 (
@@ -191,6 +196,12 @@ ConnectionAttempt
 >
 >
 mAttempts
+;
+uint32_t
+mUnconnectedCount
+{
+0
+}
 ;
 }
 ;
