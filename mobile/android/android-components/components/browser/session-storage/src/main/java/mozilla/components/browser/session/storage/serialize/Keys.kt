@@ -202,6 +202,13 @@ createdAt
 "
 const
 val
+SESSION_LAST_VISIBLE_AT
+=
+"
+lastVisibleAt
+"
+const
+val
 SESSION_LAST_MEDIA_URL
 =
 "
