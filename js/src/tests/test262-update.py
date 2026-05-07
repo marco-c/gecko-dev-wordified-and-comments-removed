@@ -41,12 +41,6 @@ defer
 "
     
 "
-import
--
-text
-"
-    
-"
 nonextensible
 -
 applies
@@ -371,6 +365,12 @@ import
 -
 bytes
 "
+    
+"
+import
+-
+text
+"
 ]
 )
 SHELL_OPTIONS
@@ -515,6 +515,22 @@ enable
 import
 -
 bytes
+"
+    
+"
+import
+-
+text
+"
+:
+"
+-
+-
+enable
+-
+import
+-
+text
 "
     
 "
