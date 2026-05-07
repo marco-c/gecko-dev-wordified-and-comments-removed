@@ -203,8 +203,6 @@ webgpu
 :
 [
 "
-_mozilla
-/
 webgpu
 "
 ]
