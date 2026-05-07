@@ -49381,15 +49381,6 @@ value
 :
 true
 #
-elif
-defined
-(
-XP_DARWIN
-)
-value
-:
-IS_NIGHTLY_BUILD
-#
 else
 value
 :
