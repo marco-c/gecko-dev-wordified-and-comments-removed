@@ -213,6 +213,11 @@ RustRegex
 .
 h
 "
+"
+SourcePathLiteral
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +

@@ -90,6 +90,15 @@ include
 "
 mozilla
 /
+SourcePathLiteral
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 quota
@@ -10388,7 +10397,7 @@ TestQuotaCommon
 .
 cpp
 "
-_ns
+_sp
 ;
 const
 nsCString
@@ -10457,6 +10466,7 @@ Append
 "
 /
 "
+_sp
 )
 ;
 path
@@ -10554,7 +10564,7 @@ ActorsParent
 .
 cpp
 "
-_ns
+_sp
 ;
 const
 nsCString
@@ -10618,7 +10628,7 @@ QuotaCommon
 .
 h
 "
-_ns
+_sp
 ;
 static
 constexpr
@@ -10634,7 +10644,7 @@ QuotaCommon
 .
 h
 "
-_ns
+_sp
 ;
 const
 nsCString
@@ -10696,7 +10706,7 @@ ActorsParent
 .
 cpp
 "
-_ns
+_sp
 ;
 const
 nsCString
@@ -10758,7 +10768,7 @@ LocalStorageCommon
 .
 h
 "
-_ns
+_sp
 ;
 static
 constexpr
@@ -10774,7 +10784,7 @@ LocalStorageCommon
 .
 h
 "
-_ns
+_sp
 ;
 const
 nsCString
@@ -10834,7 +10844,7 @@ mozStorageService
 .
 cpp
 "
-_ns
+_sp
 ;
 const
 nsCString
@@ -10896,7 +10906,7 @@ Test
 .
 cpp
 "
-_ns
+_sp
 ;
 const
 nsCString
