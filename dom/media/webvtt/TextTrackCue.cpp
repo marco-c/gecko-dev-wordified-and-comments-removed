@@ -36,6 +36,17 @@ mozilla
 /
 dom
 /
+HTMLMediaElement
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 HTMLTrackElement
 .
 h
