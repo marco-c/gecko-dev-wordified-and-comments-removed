@@ -14795,7 +14795,10 @@ bufferRef
 std
 :
 :
-move
+forward
+<
+BufferT
+>
 (
 buffer
 )
@@ -15109,7 +15112,10 @@ cx
 std
 :
 :
-move
+forward
+<
+BufferT
+>
 (
 buffer
 )

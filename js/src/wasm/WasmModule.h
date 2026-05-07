@@ -150,8 +150,9 @@ globalValues
 ImportValues
 (
 )
-{
-}
+=
+default
+;
 void
 trace
 (

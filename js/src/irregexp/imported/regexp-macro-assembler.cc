@@ -2684,6 +2684,11 @@ if
 js_has_overflowed
 )
 {
+[
+[
+maybe_unused
+]
+]
 AllowGarbageCollection
 yes_gc
 ;
@@ -2709,6 +2714,11 @@ InterruptRequested
 )
 )
 {
+[
+[
+maybe_unused
+]
+]
 AllowGarbageCollection
 yes_gc
 ;

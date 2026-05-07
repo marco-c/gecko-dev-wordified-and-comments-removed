@@ -1376,8 +1376,9 @@ channel
 JitSpewIndent
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 static

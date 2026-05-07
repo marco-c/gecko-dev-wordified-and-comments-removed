@@ -392,8 +392,9 @@ virtual
 WeakMapBase
 (
 )
-{
-}
+=
+default
+;
 JS
 :
 :

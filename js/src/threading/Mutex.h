@@ -73,8 +73,9 @@ protected
 MutexImpl
 (
 )
-{
-}
+=
+default
+;
 friend
 class
 Mutex

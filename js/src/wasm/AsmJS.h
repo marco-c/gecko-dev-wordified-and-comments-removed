@@ -375,8 +375,8 @@ CodeMetadataForAsmJS
 CodeMetadataForAsmJS
 (
 )
-{
-}
+=
+default
 ;
 virtual
 ~

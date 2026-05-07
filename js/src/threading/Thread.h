@@ -441,8 +441,6 @@ Thread
 aOther
 )
 ;
-private
-:
 Thread
 (
 const
@@ -463,6 +461,8 @@ Thread
 =
 delete
 ;
+private
+:
 ThreadId
 id_
 ;

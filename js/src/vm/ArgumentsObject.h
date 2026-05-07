@@ -91,6 +91,8 @@ RareArgumentsData
 =
 default
 ;
+public
+:
 RareArgumentsData
 (
 const
@@ -111,8 +113,6 @@ RareArgumentsData
 =
 delete
 ;
-public
-:
 static
 RareArgumentsData
 *

@@ -1106,8 +1106,9 @@ explicit
 CallRefMetricsRange
 (
 )
-{
-}
+=
+default
+;
 explicit
 CallRefMetricsRange
 (
@@ -1165,8 +1166,9 @@ explicit
 AllocSitesRange
 (
 )
-{
-}
+=
+default
+;
 explicit
 AllocSitesRange
 (

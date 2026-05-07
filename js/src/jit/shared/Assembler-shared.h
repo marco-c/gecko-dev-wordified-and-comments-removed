@@ -3886,8 +3886,9 @@ inline
 AutoCreatedBy
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #
