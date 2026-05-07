@@ -16990,6 +16990,10 @@ cycle_collector
 :
 time
 .
+ProcessGet
+(
+)
+.
 AccumulateRawDuration
 (
 interval
@@ -17048,6 +17052,10 @@ cycle_collector
 :
 :
 worker_time
+.
+ProcessGet
+(
+)
 .
 AccumulateRawDuration
 (
