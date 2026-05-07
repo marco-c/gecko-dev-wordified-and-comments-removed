@@ -269,6 +269,22 @@ mozinfo
 "
 ]
     
+package_data
+=
+{
+"
+mozinfo
+"
+:
+[
+"
+android_os_to_api_map
+.
+yaml
+"
+]
+}
+    
 include_package_data
 =
 True
