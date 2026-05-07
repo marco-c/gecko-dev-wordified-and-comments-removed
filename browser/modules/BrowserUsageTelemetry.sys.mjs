@@ -1156,6 +1156,9 @@ paneAbout
 paneAccessibility
 "
 "
+paneAppearance
+"
+"
 paneLanguages
 "
 ]

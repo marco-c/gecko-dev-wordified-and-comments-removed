@@ -683,6 +683,10 @@ paneAccessibility
 *
 preferences
 -
+paneAppearance
+*
+preferences
+-
 paneLanguages
 *
 preferences
