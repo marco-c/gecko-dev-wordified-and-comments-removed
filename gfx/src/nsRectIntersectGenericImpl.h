@@ -179,10 +179,7 @@ xsimd
 batch_bool_constant
 <
 int32_t
-xsimd
-:
-:
-default_arch
+Arch
 true
 true
 false
@@ -232,6 +229,7 @@ xsimd
 batch
 <
 int32_t
+Arch
 >
 {
 -
@@ -410,10 +408,7 @@ xsimd
 batch_bool_constant
 <
 int32_t
-xsimd
-:
-:
-default_arch
+Arch
 true
 true
 false
@@ -469,6 +464,7 @@ xsimd
 batch
 <
 int32_t
+Arch
 >
 {
 -
