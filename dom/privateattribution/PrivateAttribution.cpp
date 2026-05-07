@@ -93,7 +93,7 @@ dom
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 PrivateAttribution
-mOwner
+mGlobal
 )
 PrivateAttribution
 :
@@ -105,7 +105,7 @@ nsIGlobalObject
 aGlobal
 )
 :
-mOwner
+mGlobal
 (
 aGlobal
 )
@@ -212,14 +212,14 @@ aRv
 {
 MOZ_ASSERT
 (
-mOwner
+mGlobal
 )
 ;
 nsIPrincipal
 *
 prin
 =
-mOwner
+mGlobal
 -
 >
 PrincipalOrNull

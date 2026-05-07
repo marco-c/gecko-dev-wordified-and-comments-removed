@@ -99,7 +99,7 @@ GetParentObject
 const
 {
 return
-mOwner
+mGlobal
 ;
 }
 virtual
@@ -170,7 +170,7 @@ nsCOMPtr
 <
 nsIGlobalObject
 >
-mOwner
+mGlobal
 ;
 }
 ;

@@ -394,7 +394,7 @@ window
 =
 do_QueryInterface
 (
-mOwner
+mGlobal
 )
 ;
 const

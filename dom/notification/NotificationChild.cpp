@@ -486,7 +486,7 @@ FrozenCallback
 (
 nsIGlobalObject
 *
-aOwner
+aGlobal
 )
 {
 mNonPersistentNotification
