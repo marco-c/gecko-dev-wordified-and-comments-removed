@@ -1444,6 +1444,13 @@ sys
 mjs
 "
 "
+KeyboardLockUtils
+.
+sys
+.
+mjs
+"
+"
 KeywordUtils
 .
 sys
