@@ -1047,7 +1047,13 @@ rv
 }
 mBuffer
 =
+std
+:
+:
+move
+(
 buffer
+)
 ;
 mUTF16Length
 =

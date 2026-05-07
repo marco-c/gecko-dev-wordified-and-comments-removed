@@ -24885,7 +24885,13 @@ key
 (
 )
 =
+std
+:
+:
+move
+(
 key
+)
 ;
 itemInfo
 -
@@ -24894,7 +24900,13 @@ value
 (
 )
 =
+std
+:
+:
+move
+(
 value
+)
 ;
 }
 mNextLoadIndex
