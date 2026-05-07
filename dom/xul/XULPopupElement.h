@@ -437,6 +437,12 @@ IsWaylandPopup
 )
 const
 ;
+bool
+IsNativeMenu
+(
+)
+const
+;
 NS_IMPL_FROMNODE_HELPER
 (
 XULPopupElement
