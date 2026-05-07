@@ -38,6 +38,15 @@ h
 #
 include
 "
+mozilla
+/
+ReflowInput
+.
+h
+"
+#
+include
+"
 nsCSSRendering
 .
 h

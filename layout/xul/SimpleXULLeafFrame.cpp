@@ -14,6 +14,15 @@ PresShell
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ReflowInput
+.
+h
+"
 nsIFrame
 *
 NS_NewSimpleXULLeafFrame

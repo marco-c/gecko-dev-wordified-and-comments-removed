@@ -140,6 +140,15 @@ include
 "
 mozilla
 /
+ReflowInput
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ScrollContainerFrame
 .
 h

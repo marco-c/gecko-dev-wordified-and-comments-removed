@@ -26,6 +26,15 @@ include
 "
 mozilla
 /
+ReflowInput
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SVGUtils
 .
 h

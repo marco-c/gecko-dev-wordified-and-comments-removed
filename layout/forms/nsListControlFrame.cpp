@@ -69,6 +69,15 @@ include
 "
 mozilla
 /
+ReflowInput
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_browser
 .
 h

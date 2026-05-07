@@ -93,6 +93,15 @@ include
 "
 mozilla
 /
+ReflowInput
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SMILValue
 .
 h

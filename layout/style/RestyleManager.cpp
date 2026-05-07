@@ -141,6 +141,15 @@ include
 "
 mozilla
 /
+ReflowInput
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SVGIntegrationUtils
 .
 h

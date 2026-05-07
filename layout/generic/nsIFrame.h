@@ -156,6 +156,15 @@ include
 "
 mozilla
 /
+LayoutStructs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
@@ -165,7 +174,7 @@ include
 "
 mozilla
 /
-ReflowInput
+ReflowOutput
 .
 h
 "
@@ -515,6 +524,9 @@ nsDisplayListSet
 ;
 class
 PresShell
+;
+struct
+ReflowInput
 ;
 class
 ScrollContainerFrame

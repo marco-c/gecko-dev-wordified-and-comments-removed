@@ -24,6 +24,15 @@ h
 #
 include
 "
+mozilla
+/
+ReflowInput
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h

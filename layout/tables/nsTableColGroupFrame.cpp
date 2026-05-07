@@ -28,6 +28,15 @@ include
 "
 mozilla
 /
+ReflowInput
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_layout
 .
 h

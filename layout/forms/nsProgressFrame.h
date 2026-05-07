@@ -7,6 +7,15 @@ nsProgressFrame_h_
 #
 include
 "
+mozilla
+/
+ReflowInput
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

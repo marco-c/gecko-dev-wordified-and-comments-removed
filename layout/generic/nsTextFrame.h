@@ -112,6 +112,9 @@ nsBlockFrame
 class
 nsTextPaintStyle
 ;
+class
+nsLineLayout
+;
 namespace
 mozilla
 {

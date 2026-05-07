@@ -21,6 +21,15 @@ include
 "
 mozilla
 /
+ReflowInput
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_print
 .
 h
