@@ -42411,7 +42411,7 @@ hidden
 ;
 SharingUtils
 .
-ensureShareMenu
+updateShareURLMenuItem
 (
 this
 .
