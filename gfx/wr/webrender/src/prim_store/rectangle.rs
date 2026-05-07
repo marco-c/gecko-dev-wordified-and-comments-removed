@@ -741,7 +741,7 @@ RectangleTemplate
 >
 (
 )
-48
+44
 "
 RectangleTemplate
 size

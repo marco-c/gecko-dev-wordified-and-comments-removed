@@ -750,7 +750,7 @@ RadialGradientTemplate
 >
 (
 )
-96
+88
 "
 RadialGradientTemplate
 size
@@ -816,7 +816,7 @@ ConicGradientTemplate
 >
 (
 )
-96
+88
 "
 ConicGradientTemplate
 size
