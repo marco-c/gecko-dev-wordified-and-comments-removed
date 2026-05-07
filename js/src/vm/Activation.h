@@ -212,6 +212,9 @@ FramePtr
 >
 create
 (
+JSContext
+*
+cx
 const
 FrameIter
 &
