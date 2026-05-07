@@ -2543,8 +2543,10 @@ nsIRunnable
 >
 vsyncEvent
 =
-new
+MakeAndAddRef
+<
 PrioritizableRunnable
+>
 (
 NS_NewRunnableFunction
 (
