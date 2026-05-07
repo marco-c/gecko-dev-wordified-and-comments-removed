@@ -1389,6 +1389,8 @@ loader
 ScriptLoadRequest
 *
 aRequest
+CacheExpirationTime
+aExpirationTime
 JS
 :
 :
@@ -1402,12 +1404,7 @@ aLoadedScript
 :
 mExpirationTime
 (
-aRequest
--
->
-ExpirationTime
-(
-)
+aExpirationTime
 )
 mLoader
 (

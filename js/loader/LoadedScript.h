@@ -1374,6 +1374,7 @@ bool
 HasSRI
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -1842,6 +1843,12 @@ dom
 SRIMetadata
 &
 aSRIMetadata
+)
+;
+LoadedScript
+*
+ModuleScriptToCache
+(
 )
 ;
 public
@@ -2830,14 +2837,6 @@ aScript
 ScriptFetchInfo
 *
 aFetchInfo
-)
-;
-already_AddRefed
-<
-LoadedScript
->
-ToCache
-(
 )
 ;
 void
