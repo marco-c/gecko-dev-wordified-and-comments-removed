@@ -219,7 +219,7 @@ await
 openPreferencesViaOpenPreferencesAPI
 (
 "
-paneGeneral
+downloads
 "
 {
 leaveOpen
@@ -234,10 +234,10 @@ prefs
 .
 selectedPane
 "
-paneGeneral
+paneDownloads
 "
 "
-General
+Downloads
 pane
 was
 selected
