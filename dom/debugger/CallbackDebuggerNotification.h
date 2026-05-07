@@ -58,7 +58,7 @@ CallbackDebuggerNotificationPhase
 aPhase
 nsIGlobalObject
 *
-aRelevantGlobal
+aOwnerGlobal
 =
 nullptr
 )
@@ -67,7 +67,7 @@ DebuggerNotification
 (
 aDebuggeeGlobal
 aType
-aRelevantGlobal
+aOwnerGlobal
 )
 mPhase
 (

@@ -635,7 +635,7 @@ win
 =
 document
 .
-documentGlobal
+ownerGlobal
 ;
 win
 .
@@ -784,7 +784,7 @@ e
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 gotoPref
 (
@@ -800,7 +800,7 @@ e
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 gSubDialog
 .
@@ -901,7 +901,7 @@ e
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 gotoPref
 (
@@ -917,7 +917,7 @@ e
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 gSubDialog
 .

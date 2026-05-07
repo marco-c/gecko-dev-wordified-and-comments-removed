@@ -351,7 +351,7 @@ _lastCurrentBrowserId
 |
 browser
 .
-documentGlobal
+ownerGlobal
 !
 =
 _trackedWindows
@@ -497,7 +497,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .

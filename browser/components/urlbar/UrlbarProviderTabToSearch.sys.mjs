@@ -1318,7 +1318,7 @@ providesSearchMode
 .
 element
 .
-documentGlobal
+ownerGlobal
 .
 gURLBar
 .

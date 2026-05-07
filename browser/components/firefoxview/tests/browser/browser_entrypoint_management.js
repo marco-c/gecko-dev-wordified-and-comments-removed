@@ -26,7 +26,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 tab
@@ -149,7 +149,7 @@ FirefoxViewHandler
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 CustomizableUI
 .
@@ -343,7 +343,7 @@ FirefoxViewHandler
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 CustomizableUI
 .
@@ -411,7 +411,7 @@ FirefoxViewHandler
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 is
 (

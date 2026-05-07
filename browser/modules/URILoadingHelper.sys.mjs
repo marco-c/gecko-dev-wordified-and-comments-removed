@@ -3920,7 +3920,7 @@ params
 .
 targetBrowser
 .
-documentGlobal
+ownerGlobal
 ;
 }
 if
@@ -6129,7 +6129,7 @@ tabToMove
 ;
 aSplitView
 .
-documentGlobal
+ownerGlobal
 .
 focus
 (

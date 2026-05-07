@@ -2370,7 +2370,7 @@ link
 }
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 Assert
@@ -3460,7 +3460,7 @@ doc
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 document
 ;
@@ -3915,7 +3915,7 @@ doc
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 document
 ;
@@ -4405,7 +4405,7 @@ rendered
 }
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 Assert
@@ -4735,7 +4735,7 @@ bg
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (
@@ -4971,7 +4971,7 @@ fs
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (

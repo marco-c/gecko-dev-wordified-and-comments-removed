@@ -888,7 +888,7 @@ PopupNotifications
 =
 aBrowser
 .
-documentGlobal
+ownerGlobal
 .
 wrappedJSObject
 ;
@@ -2891,7 +2891,7 @@ isPrimaryPasswordSet
 {
 browser
 .
-documentGlobal
+ownerGlobal
 .
 openDialog
 (
@@ -3489,7 +3489,7 @@ PopupNotifications
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 wrappedJSObject
 ;
@@ -4679,7 +4679,7 @@ PopupNotifications
 =
 aBrowser
 .
-documentGlobal
+ownerGlobal
 .
 wrappedJSObject
 ;
@@ -4935,7 +4935,7 @@ select
 (
 browser
 .
-documentGlobal
+ownerGlobal
 dialogTitle
 dialogText
 usernames

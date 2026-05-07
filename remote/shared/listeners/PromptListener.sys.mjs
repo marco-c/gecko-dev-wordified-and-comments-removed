@@ -614,7 +614,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 }
 )

@@ -628,7 +628,7 @@ oneOffInstance
 .
 container
 .
-documentGlobal
+ownerGlobal
 ;
 win
 .
@@ -914,7 +914,7 @@ KEY_Escape
 }
 popup
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await
@@ -943,7 +943,7 @@ win
 :
 popup
 .
-documentGlobal
+ownerGlobal
 }
 )
 ;

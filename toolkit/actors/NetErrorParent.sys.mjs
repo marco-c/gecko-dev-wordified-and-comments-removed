@@ -504,7 +504,7 @@ getForErrorPage
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }
@@ -1401,7 +1401,7 @@ this
 .
 browser
 .
-documentGlobal
+ownerGlobal
 .
 CaptivePortalWatcher
 .
@@ -1695,7 +1695,7 @@ this
 .
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -1861,7 +1861,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 win
 .

@@ -454,7 +454,7 @@ waitForEvent
 (
 swatch
 .
-documentGlobal
+ownerGlobal
 "
 focus
 "
@@ -462,7 +462,7 @@ focus
 ;
 swatch
 .
-documentGlobal
+ownerGlobal
 .
 focus
 (

@@ -499,7 +499,7 @@ is
 windowContext
 browser
 .
-documentGlobal
+ownerGlobal
 "
 got
 the
@@ -592,7 +592,7 @@ is
 windowContext
 browser
 .
-documentGlobal
+ownerGlobal
 "
 got
 the
@@ -762,7 +762,7 @@ is
 windowContext
 browser
 .
-documentGlobal
+ownerGlobal
 "
 got
 the
@@ -900,7 +900,7 @@ is
 windowContext
 browser
 .
-documentGlobal
+ownerGlobal
 "
 got
 the
@@ -1024,7 +1024,7 @@ is
 windowContext
 browser
 .
-documentGlobal
+ownerGlobal
 "
 got
 the

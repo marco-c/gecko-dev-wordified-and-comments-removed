@@ -646,7 +646,7 @@ false
 factory
 -
 >
-BindToGlobal
+BindToOwner
 (
 aWindow
 -
@@ -830,7 +830,7 @@ principalInfo
 factory
 -
 >
-BindToGlobal
+BindToOwner
 (
 aWindow
 -
@@ -1016,7 +1016,7 @@ false
 factory
 -
 >
-BindToGlobal
+BindToOwner
 (
 aGlobal
 )
@@ -1156,7 +1156,7 @@ false
 factory
 -
 >
-BindToGlobal
+BindToOwner
 (
 aGlobal
 )
@@ -1433,7 +1433,7 @@ false
 factory
 -
 >
-BindToGlobal
+BindToOwner
 (
 aGlobal
 )
@@ -1479,7 +1479,7 @@ aPrincipalInfo
 factory
 -
 >
-BindToGlobal
+BindToOwner
 (
 aGlobal
 )
@@ -2131,7 +2131,7 @@ nsIGlobalObject
 *
 global
 =
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -2330,7 +2330,7 @@ if
 NS_WARN_IF
 (
 !
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -2358,7 +2358,7 @@ Promise
 :
 CreateInfallible
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -3458,7 +3458,7 @@ if
 NS_WARN_IF
 (
 !
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -3662,7 +3662,7 @@ else
 {
 if
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 -
@@ -3687,7 +3687,7 @@ NS_IsMainThread
 {
 SetUseCounter
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 -
@@ -3937,7 +3937,7 @@ AcquireStrongRefFromRawPtr
 {
 }
 }
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )

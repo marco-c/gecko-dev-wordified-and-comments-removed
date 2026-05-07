@@ -81,7 +81,7 @@ VK_TAB
 }
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 let
@@ -245,7 +245,7 @@ true
 }
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 evt
@@ -285,7 +285,7 @@ true
 }
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 evt

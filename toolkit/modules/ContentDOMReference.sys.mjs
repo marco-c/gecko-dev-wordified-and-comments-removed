@@ -555,7 +555,7 @@ getFromWindow
 (
 element
 .
-documentGlobal
+ownerGlobal
 )
 ;
 let

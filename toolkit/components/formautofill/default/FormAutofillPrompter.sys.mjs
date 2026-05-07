@@ -647,7 +647,7 @@ this
 .
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 }
 /
@@ -1023,7 +1023,7 @@ this
 .
 browser
 .
-documentGlobal
+ownerGlobal
 .
 openPreferences
 (
@@ -1072,7 +1072,7 @@ this
 .
 browser
 .
-documentGlobal
+ownerGlobal
 .
 openWebLinkIn
 (
@@ -8022,7 +8022,7 @@ doorhanger
 ;
 const
 {
-documentGlobal
+ownerGlobal
 :
 win
 }
@@ -8346,7 +8346,7 @@ doorhanger
 ;
 const
 {
-documentGlobal
+ownerGlobal
 :
 win
 }

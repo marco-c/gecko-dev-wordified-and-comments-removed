@@ -279,7 +279,7 @@ painted
 ;
 browser
 .
-documentGlobal
+ownerGlobal
 .
 addEventListener
 (
@@ -445,7 +445,7 @@ waitForFocus
 resolve
 browser
 .
-documentGlobal
+ownerGlobal
 )
 )
 ;

@@ -311,7 +311,7 @@ win
 =
 simulatedElement
 .
-documentGlobal
+ownerGlobal
 ;
 const
 threshold

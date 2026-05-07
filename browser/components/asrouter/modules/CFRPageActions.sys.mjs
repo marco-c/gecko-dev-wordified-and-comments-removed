@@ -5505,7 +5505,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 const
 pageAction
@@ -6011,7 +6011,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 const
 {
@@ -6237,7 +6237,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (

@@ -113,7 +113,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 const
 pageNavButtons
@@ -260,7 +260,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 const
 pageNavButtons

@@ -94,7 +94,7 @@ Error
 {
 browser
 .
-documentGlobal
+ownerGlobal
 .
 PrintUtils
 .

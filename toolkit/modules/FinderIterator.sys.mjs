@@ -5383,7 +5383,7 @@ windowOrRange
 .
 startContainer
 .
-documentGlobal
+ownerGlobal
 ;
 }
 return

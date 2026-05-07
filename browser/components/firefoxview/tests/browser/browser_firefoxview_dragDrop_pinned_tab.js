@@ -219,7 +219,7 @@ win1
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 await
 navigateToViewAndWait

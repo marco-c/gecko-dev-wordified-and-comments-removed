@@ -388,7 +388,7 @@ window
 .
 gBrowser
 .
-documentGlobal
+ownerGlobal
 .
 document
 )
@@ -1461,7 +1461,7 @@ tab
 .
 linkedBrowser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await

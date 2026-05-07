@@ -1314,7 +1314,7 @@ nsIGlobalObject
 >
 global
 =
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -2608,7 +2608,7 @@ api
 .
 Init
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -2682,7 +2682,7 @@ api
 .
 Init
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -2778,7 +2778,7 @@ api
 .
 Init
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -5256,7 +5256,7 @@ api
 .
 Init
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -5377,7 +5377,7 @@ api
 .
 Init
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )

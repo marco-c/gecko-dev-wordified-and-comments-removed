@@ -583,7 +583,7 @@ button
 return
 button
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (
@@ -651,7 +651,7 @@ menuitem
 return
 menuitem
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (
@@ -2113,7 +2113,7 @@ win
 await
 browser
 .
-documentGlobal
+ownerGlobal
 .
 promiseDocumentFlushed
 (
@@ -3416,7 +3416,7 @@ indexOfTab
 )
 tab
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }

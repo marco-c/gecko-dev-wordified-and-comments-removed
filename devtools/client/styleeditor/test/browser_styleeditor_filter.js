@@ -545,7 +545,7 @@ is
 (
 filterInput
 .
-documentGlobal
+ownerGlobal
 .
 document
 .

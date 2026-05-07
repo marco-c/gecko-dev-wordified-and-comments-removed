@@ -388,7 +388,7 @@ window
 =
 panel
 .
-documentGlobal
+ownerGlobal
 ;
 window
 .
@@ -500,7 +500,7 @@ window
 =
 viewNode
 .
-documentGlobal
+ownerGlobal
 ;
 this
 .
@@ -1532,7 +1532,7 @@ this
 .
 browser
 .
-documentGlobal
+ownerGlobal
 .
 promiseDocumentFlushed
 (
@@ -1663,7 +1663,7 @@ ZoomManager
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 zoom
@@ -1726,7 +1726,7 @@ ZoomManager
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 zoom

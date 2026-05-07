@@ -284,7 +284,7 @@ win
 =
 editableElement
 .
-documentGlobal
+ownerGlobal
 ;
 editor
 =

@@ -8537,7 +8537,7 @@ global
 aNode
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;

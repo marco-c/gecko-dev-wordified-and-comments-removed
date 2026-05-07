@@ -305,7 +305,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 openWebLinkIn
 (

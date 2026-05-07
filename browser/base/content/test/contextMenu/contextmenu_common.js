@@ -92,7 +92,7 @@ element
 eventDetails
 element
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }

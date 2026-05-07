@@ -912,7 +912,7 @@ dialogDoc
 return
 dialogDoc
 .
-documentGlobal
+ownerGlobal
 .
 arguments
 [

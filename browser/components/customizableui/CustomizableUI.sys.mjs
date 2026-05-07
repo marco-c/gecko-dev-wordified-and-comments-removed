@@ -9860,7 +9860,7 @@ win
 =
 aPanel
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -9959,7 +9959,7 @@ win
 =
 aPanel
 .
-documentGlobal
+ownerGlobal
 ;
 let
 panels
@@ -11210,7 +11210,7 @@ window
 =
 areaNode
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -11652,7 +11652,7 @@ window
 =
 aAreaNode
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -13218,7 +13218,7 @@ window
 =
 aAreaNode
 .
-documentGlobal
+ownerGlobal
 ;
 let
 showInPrivateBrowsing
@@ -17974,7 +17974,7 @@ return
 /
 /
 Use
-documentGlobal
+ownerGlobal
 .
 document
 to
@@ -18000,7 +18000,7 @@ document
 =
 aShortcutNode
 .
-documentGlobal
+ownerGlobal
 ;
 let
 shortcutId
@@ -18356,7 +18356,7 @@ ownerWindow
 =
 aNode
 .
-documentGlobal
+ownerGlobal
 ;
 let
 area
@@ -20407,7 +20407,7 @@ window
 =
 aWindowPalette
 .
-documentGlobal
+ownerGlobal
 ;
 let
 isWindowPrivate
@@ -28403,7 +28403,7 @@ if
 (
 node
 .
-documentGlobal
+ownerGlobal
 =
 =
 aWindow
@@ -29236,7 +29236,7 @@ win
 =
 areaNode
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -30402,7 +30402,7 @@ n
 >
 n
 .
-documentGlobal
+ownerGlobal
 =
 =
 aWindow
@@ -45008,7 +45008,7 @@ style
 /
 /
 Use
-documentGlobal
+ownerGlobal
 .
 document
 to
@@ -45032,7 +45032,7 @@ doc
 =
 aSubview
 .
-documentGlobal
+ownerGlobal
 .
 document
 ;
@@ -45212,7 +45212,7 @@ newEvent
 new
 doc
 .
-documentGlobal
+ownerGlobal
 .
 PointerEvent
 (
@@ -46601,7 +46601,7 @@ forWindow
 (
 node
 .
-documentGlobal
+ownerGlobal
 )
 )
 ;
@@ -47621,7 +47621,7 @@ toolbox
 =
 aNode
 .
-documentGlobal
+ownerGlobal
 .
 gNavToolbox
 ;
@@ -49237,7 +49237,7 @@ this
 #
 toolbar
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -49636,7 +49636,7 @@ this
 #
 toolbar
 .
-documentGlobal
+ownerGlobal
 ;
 window
 .
@@ -51114,7 +51114,7 @@ this
 #
 target
 .
-documentGlobal
+ownerGlobal
 ;
 let
 checkOverflowHandle
@@ -51805,7 +51805,7 @@ this
 #
 target
 .
-documentGlobal
+ownerGlobal
 ;
 let
 totalAvailWidth
@@ -52244,7 +52244,7 @@ this
 #
 target
 .
-documentGlobal
+ownerGlobal
 ;
 let
 doc
@@ -53094,7 +53094,7 @@ this
 #
 target
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -53442,7 +53442,7 @@ this
 #
 toolbar
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -53688,7 +53688,7 @@ this
 #
 toolbar
 .
-documentGlobal
+ownerGlobal
 ;
 let
 {
@@ -55045,7 +55045,7 @@ this
 #
 toolbar
 .
-documentGlobal
+ownerGlobal
 )
 {
 Services

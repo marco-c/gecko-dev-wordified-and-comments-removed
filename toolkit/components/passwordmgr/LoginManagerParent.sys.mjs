@@ -2428,7 +2428,7 @@ getRootBrowser
 (
 )
 .
-documentGlobal
+ownerGlobal
 ;
 window
 .
@@ -2678,7 +2678,7 @@ getRootBrowser
 (
 )
 .
-documentGlobal
+ownerGlobal
 {
 entrypoint
 :
@@ -2713,7 +2713,7 @@ getRootBrowser
 (
 )
 .
-documentGlobal
+ownerGlobal
 ;
 lazy
 .
@@ -8150,7 +8150,7 @@ popupNotifications
 =
 promptBrowser
 .
-documentGlobal
+ownerGlobal
 .
 PopupNotifications
 ;

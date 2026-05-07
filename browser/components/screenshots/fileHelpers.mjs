@@ -1184,7 +1184,7 @@ promiseTargetFile
 fpParams
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 if

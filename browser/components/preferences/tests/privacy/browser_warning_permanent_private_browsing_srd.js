@@ -192,7 +192,7 @@ checkbox
 }
 checkbox
 .
-documentGlobal
+ownerGlobal
 )
 ;
 ok

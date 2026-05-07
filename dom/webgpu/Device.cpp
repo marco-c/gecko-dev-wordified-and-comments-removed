@@ -7021,7 +7021,7 @@ jsapi
 .
 Init
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )

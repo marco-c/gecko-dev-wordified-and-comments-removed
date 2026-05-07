@@ -667,7 +667,7 @@ closeSidebar
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 browser

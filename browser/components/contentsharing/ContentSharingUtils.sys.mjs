@@ -734,7 +734,7 @@ tabs
 0
 ]
 .
-documentGlobal
+ownerGlobal
 "
 tabs
 "
@@ -883,7 +883,7 @@ createLinkAndOpenModal
 share
 tabGroup
 .
-documentGlobal
+ownerGlobal
 "
 tab
 group

@@ -98,7 +98,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 el
@@ -150,7 +150,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 return
 win
@@ -186,7 +186,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 el
@@ -546,7 +546,7 @@ gProtectionsHandler
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gProtectionsHandler
 ;
@@ -568,7 +568,7 @@ TrackingProtection
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gProtectionsHandler
 .
@@ -655,7 +655,7 @@ waitForContentBlockingEvent
 2
 tab
 .
-documentGlobal
+ownerGlobal
 )
 ]
 )
@@ -664,7 +664,7 @@ testTrackingPage
 (
 tab
 .
-documentGlobal
+ownerGlobal
 )
 ;
 info
@@ -880,7 +880,7 @@ gProtectionsHandler
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gProtectionsHandler
 ;
@@ -902,7 +902,7 @@ TrackingProtection
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gProtectionsHandler
 .
@@ -976,7 +976,7 @@ waitForContentBlockingEvent
 2
 tab
 .
-documentGlobal
+ownerGlobal
 )
 ]
 )
@@ -985,7 +985,7 @@ testTrackingPage
 (
 tab
 .
-documentGlobal
+ownerGlobal
 )
 ;
 info
@@ -1051,7 +1051,7 @@ waitForContentBlockingEvent
 2
 tab
 .
-documentGlobal
+ownerGlobal
 )
 ]
 )

@@ -486,7 +486,7 @@ element
 >
 element
 .
-documentGlobal
+ownerGlobal
 .
 windowUtils
 .
@@ -29569,7 +29569,7 @@ this
 .
 panel
 .
-documentGlobal
+ownerGlobal
 .
 addEventListener
 (
@@ -29963,7 +29963,7 @@ this
 .
 panel
 .
-documentGlobal
+ownerGlobal
 .
 removeEventListener
 (
@@ -30933,7 +30933,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 createUserContextMenu
 (

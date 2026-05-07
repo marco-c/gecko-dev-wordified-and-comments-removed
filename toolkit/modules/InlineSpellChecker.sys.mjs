@@ -1530,7 +1530,7 @@ this
 .
 mDictionaryMenu
 .
-documentGlobal
+ownerGlobal
 ;
 let
 spellcheckChangeEvent
@@ -3223,7 +3223,7 @@ win
 =
 element
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (

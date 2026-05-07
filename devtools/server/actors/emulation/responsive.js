@@ -116,7 +116,7 @@ docShell
 .
 chromeEventHandler
 .
-documentGlobal
+ownerGlobal
 ;
 }
 _previousTouchEventsOverride

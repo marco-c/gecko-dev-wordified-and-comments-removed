@@ -1507,7 +1507,7 @@ elmWindow
 =
 elm
 .
-documentGlobal
+ownerGlobal
 ;
 return
 CSSToDevicePixels

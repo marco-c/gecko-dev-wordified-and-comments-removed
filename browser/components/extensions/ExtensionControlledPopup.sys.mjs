@@ -2417,7 +2417,7 @@ gUnifiedExtensions
 =
 anchor
 .
-documentGlobal
+ownerGlobal
 ;
 gUnifiedExtensions
 .

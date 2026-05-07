@@ -124,7 +124,7 @@ inserted
 ;
 doc
 .
-documentGlobal
+ownerGlobal
 .
 addEventListener
 (
@@ -139,7 +139,7 @@ resolve
 (
 doc
 .
-documentGlobal
+ownerGlobal
 .
 performance
 .

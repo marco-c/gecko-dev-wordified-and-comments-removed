@@ -323,7 +323,7 @@ this
 .
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -949,7 +949,7 @@ window
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 const
 tab
@@ -1428,7 +1428,7 @@ this
 .
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 }
 get
@@ -1570,7 +1570,7 @@ tab
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 const
 fromBrowse
@@ -2264,7 +2264,7 @@ context
 .
 xulBrowser
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -2393,7 +2393,7 @@ newWindow
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 mobileWindowTracker
 .

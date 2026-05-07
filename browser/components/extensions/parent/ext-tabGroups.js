@@ -70,7 +70,7 @@ if
 (
 group
 .
-documentGlobal
+ownerGlobal
 =
 =
 =
@@ -537,7 +537,7 @@ getId
 (
 group
 .
-documentGlobal
+ownerGlobal
 )
 }
 ;
@@ -584,7 +584,7 @@ event
 .
 originalTarget
 .
-documentGlobal
+ownerGlobal
 )
 )
 {
@@ -674,7 +674,7 @@ event
 .
 originalTarget
 .
-documentGlobal
+ownerGlobal
 )
 )
 {
@@ -730,7 +730,7 @@ event
 .
 originalTarget
 .
-documentGlobal
+ownerGlobal
 )
 )
 {
@@ -852,7 +852,7 @@ event
 .
 originalTarget
 .
-documentGlobal
+ownerGlobal
 )
 )
 {
@@ -1022,7 +1022,7 @@ event
 .
 originalTarget
 .
-documentGlobal
+ownerGlobal
 )
 )
 {
@@ -1193,7 +1193,7 @@ win
 =
 group
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -1221,7 +1221,7 @@ isWindowPrivate
 (
 group
 .
-documentGlobal
+ownerGlobal
 )
 !
 =
@@ -1338,7 +1338,7 @@ win
 =
 group
 .
-documentGlobal
+ownerGlobal
 )
 {
 group

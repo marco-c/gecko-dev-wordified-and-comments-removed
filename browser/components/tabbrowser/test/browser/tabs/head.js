@@ -2615,7 +2615,7 @@ win
 =
 triggerNode
 .
-documentGlobal
+ownerGlobal
 ;
 triggerNode
 .

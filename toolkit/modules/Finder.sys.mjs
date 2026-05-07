@@ -2891,7 +2891,7 @@ _fastFind
 .
 foundLink
 .
-documentGlobal
+ownerGlobal
 ;
 this
 .

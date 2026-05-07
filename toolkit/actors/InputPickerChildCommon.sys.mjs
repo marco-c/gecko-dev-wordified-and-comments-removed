@@ -357,7 +357,7 @@ AbortController
 ;
 aElement
 .
-documentGlobal
+ownerGlobal
 .
 addEventListener
 (
@@ -404,7 +404,7 @@ aElement
 return
 aElement
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (
@@ -665,7 +665,7 @@ aEvent
 .
 originalTarget
 .
-documentGlobal
+ownerGlobal
 .
 HTMLInputElement
 .

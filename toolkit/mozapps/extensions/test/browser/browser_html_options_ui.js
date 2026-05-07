@@ -82,7 +82,7 @@ if
 (
 browser
 .
-documentGlobal
+ownerGlobal
 .
 top
 .

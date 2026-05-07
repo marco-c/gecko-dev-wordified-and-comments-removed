@@ -357,7 +357,7 @@ removeTab
 (
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .

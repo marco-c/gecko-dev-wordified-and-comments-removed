@@ -2477,7 +2477,7 @@ button
 }
 tabGroup
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await
@@ -2925,7 +2925,7 @@ changed
 ;
 group
 .
-documentGlobal
+ownerGlobal
 .
 SessionStore
 .

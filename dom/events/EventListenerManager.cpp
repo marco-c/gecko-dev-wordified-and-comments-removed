@@ -7097,7 +7097,7 @@ global
 mTarget
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )

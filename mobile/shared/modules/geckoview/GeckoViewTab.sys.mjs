@@ -223,7 +223,7 @@ this
 .
 browser
 .
-documentGlobal
+ownerGlobal
 .
 moduleManager
 .

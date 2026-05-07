@@ -600,7 +600,7 @@ mouseYInCSSPixels
 ;
 document
 .
-documentGlobal
+ownerGlobal
 .
 windowUtils
 .
@@ -1115,7 +1115,7 @@ this
 .
 _menuitem
 .
-documentGlobal
+ownerGlobal
 ;
 window
 .
@@ -1151,7 +1151,7 @@ this
 .
 _menuitem
 .
-documentGlobal
+ownerGlobal
 ;
 let
 delay

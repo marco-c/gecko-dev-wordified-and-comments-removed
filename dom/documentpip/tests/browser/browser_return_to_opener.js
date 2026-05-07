@@ -35,7 +35,7 @@ win
 =
 tab
 .
-documentGlobal
+ownerGlobal
 ;
 const
 tab2

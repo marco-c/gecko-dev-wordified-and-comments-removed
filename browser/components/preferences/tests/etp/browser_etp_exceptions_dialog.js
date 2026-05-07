@@ -455,7 +455,7 @@ is
 (
 gBrowser
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (

@@ -149,7 +149,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 let
 editingSession

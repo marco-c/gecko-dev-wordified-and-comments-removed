@@ -2814,7 +2814,7 @@ window
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 fxaBrowser
@@ -3325,7 +3325,7 @@ signal
 ;
 fxaTab
 .
-documentGlobal
+ownerGlobal
 .
 addEventListener
 (
@@ -4600,7 +4600,7 @@ window
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 switch
 (

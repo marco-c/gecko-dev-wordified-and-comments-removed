@@ -689,7 +689,7 @@ AsContent
 )
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;

@@ -303,7 +303,7 @@ currentWindow
 =
 this
 .
-documentGlobal
+ownerGlobal
 .
 top
 .

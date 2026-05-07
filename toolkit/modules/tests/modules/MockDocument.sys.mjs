@@ -136,7 +136,7 @@ aType
 /
 /
 Assign
-documentGlobal
+ownerGlobal
 to
 documentElement
 as
@@ -383,7 +383,7 @@ defineProperty
 (
 aElement
 "
-documentGlobal
+ownerGlobal
 "
 {
 value

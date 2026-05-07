@@ -447,7 +447,7 @@ in
 tests
 .
 const
-documentGlobal
+ownerGlobal
 =
 window
 .
@@ -457,9 +457,9 @@ docShell
 chromeEventHandler
 ?
 .
-documentGlobal
+ownerGlobal
 ;
-documentGlobal
+ownerGlobal
 ?
 .
 switchToTabHavingURI

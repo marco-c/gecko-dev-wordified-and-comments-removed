@@ -5006,7 +5006,7 @@ win
 =
 aNode
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -9720,7 +9720,7 @@ win
 =
 aNode
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (

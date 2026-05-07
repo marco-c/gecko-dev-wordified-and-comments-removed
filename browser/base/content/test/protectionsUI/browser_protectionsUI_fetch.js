@@ -82,7 +82,7 @@ win
 =
 newTabBrowser
 .
-documentGlobal
+ownerGlobal
 ;
 await
 openProtectionsPanel

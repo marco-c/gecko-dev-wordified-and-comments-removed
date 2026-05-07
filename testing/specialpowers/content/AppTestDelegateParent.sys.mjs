@@ -636,7 +636,7 @@ this
 .
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 }
 async

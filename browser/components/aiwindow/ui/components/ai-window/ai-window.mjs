@@ -2480,7 +2480,7 @@ up
 listeners
 this
 .
-documentGlobal
+ownerGlobal
 .
 addEventListener
 (

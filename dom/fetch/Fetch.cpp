@@ -6807,12 +6807,12 @@ FetchBody
 (
 nsIGlobalObject
 *
-aGlobal
+aOwner
 )
 :
-mGlobal
+mOwner
 (
-aGlobal
+aOwner
 )
 mBodyUsed
 (
@@ -6821,7 +6821,7 @@ false
 {
 MOZ_ASSERT
 (
-aGlobal
+aOwner
 )
 ;
 if
@@ -6881,7 +6881,7 @@ FetchBody
 (
 nsIGlobalObject
 *
-aGlobal
+aOwner
 )
 ;
 template
@@ -6895,7 +6895,7 @@ FetchBody
 (
 nsIGlobalObject
 *
-aGlobal
+aOwner
 )
 ;
 template
@@ -7042,7 +7042,7 @@ aCx
 ;
 MOZ_ASSERT
 (
-mGlobal
+mOwner
 -
 >
 SerialEventTarget
@@ -8895,7 +8895,7 @@ FetchStreamReader
 Create
 (
 aCx
-mGlobal
+mOwner
 aStreamReader
 aInputStream
 )
@@ -9011,7 +9011,7 @@ jsapi
 .
 Init
 (
-mGlobal
+mOwner
 )
 )
 {
@@ -9104,7 +9104,7 @@ EmptyBody
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mGlobal
+mOwner
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -9125,7 +9125,7 @@ EmptyBody
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mGlobal
+mOwner
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (

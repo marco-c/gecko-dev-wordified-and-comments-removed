@@ -3370,7 +3370,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 =
 =
 =
@@ -5869,7 +5869,7 @@ this
 .
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 ?
@@ -5967,7 +5967,7 @@ this
 browser
 ?
 .
-documentGlobal
+ownerGlobal
 ?
 .
 gBrowser
@@ -7282,7 +7282,7 @@ isRTL
 =
 this
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (
@@ -14404,7 +14404,7 @@ indexOf
 (
 target
 .
-documentGlobal
+ownerGlobal
 )
 ;
 source

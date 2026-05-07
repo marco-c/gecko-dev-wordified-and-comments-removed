@@ -1943,7 +1943,7 @@ global
 canvasRef
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;
@@ -2802,7 +2802,7 @@ global
 aOffscreenCanvas
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;

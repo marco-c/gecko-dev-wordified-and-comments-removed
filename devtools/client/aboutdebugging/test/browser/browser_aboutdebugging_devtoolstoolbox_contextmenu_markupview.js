@@ -154,7 +154,7 @@ contextmenu
 }
 markupDocument
 .
-documentGlobal
+ownerGlobal
 )
 ;
 info

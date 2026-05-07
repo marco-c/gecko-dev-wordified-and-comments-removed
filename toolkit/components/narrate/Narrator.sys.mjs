@@ -1991,7 +1991,7 @@ this
 .
 container
 .
-documentGlobal
+ownerGlobal
 ;
 let
 computedStyle

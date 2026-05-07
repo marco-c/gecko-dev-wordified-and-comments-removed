@@ -131,7 +131,7 @@ win
 =
 aElement
 .
-documentGlobal
+ownerGlobal
 ;
 return
 win

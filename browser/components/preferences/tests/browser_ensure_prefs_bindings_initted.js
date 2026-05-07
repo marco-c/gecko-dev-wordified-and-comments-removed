@@ -38,7 +38,7 @@ prefReader
 =
 doc
 .
-documentGlobal
+ownerGlobal
 .
 Preferences
 ;

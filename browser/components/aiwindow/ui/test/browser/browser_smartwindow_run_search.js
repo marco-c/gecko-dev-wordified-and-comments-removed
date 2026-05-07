@@ -483,7 +483,7 @@ ok
 (
 ctxBrowser
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .

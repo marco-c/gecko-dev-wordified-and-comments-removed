@@ -399,7 +399,7 @@ hidden
 &
 tab
 .
-documentGlobal
+ownerGlobal
 &
 &
 SessionStore
@@ -505,7 +505,7 @@ gBrowser
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 nativeTab
@@ -1394,7 +1394,7 @@ getId
 (
 nativeTab
 .
-documentGlobal
+ownerGlobal
 )
 fromIndex
 toIndex
@@ -2094,7 +2094,7 @@ initializingTab
 |
 updatedTab
 .
-documentGlobal
+ownerGlobal
 .
 gBrowserInit
 ?
@@ -2118,7 +2118,7 @@ event
 .
 originalTarget
 .
-documentGlobal
+ownerGlobal
 )
 )
 {
@@ -2727,7 +2727,7 @@ gBrowser
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 tabElem
@@ -2753,7 +2753,7 @@ canAccessWindow
 (
 tabElem
 .
-documentGlobal
+ownerGlobal
 )
 )
 {
@@ -2845,7 +2845,7 @@ message
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 let
 nativeTab
@@ -2870,7 +2870,7 @@ canAccessWindow
 (
 nativeTab
 .
-documentGlobal
+ownerGlobal
 )
 )
 {
@@ -4365,7 +4365,7 @@ options
 .
 ownerTab
 .
-documentGlobal
+ownerGlobal
 !
 =
 =
@@ -4738,7 +4738,7 @@ nativeTabs
 0
 ]
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -4781,7 +4781,7 @@ get
 (
 nativeTab
 .
-documentGlobal
+ownerGlobal
 )
 .
 push
@@ -4852,7 +4852,7 @@ nativeTab
 >
 nativeTab
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -4873,7 +4873,7 @@ nativeTabs
 {
 nativeTab
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -4904,7 +4904,7 @@ tabbrowser
 =
 nativeTab
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 ;
@@ -5489,7 +5489,7 @@ tabbrowser
 =
 nativeTab
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 ;
@@ -5623,7 +5623,7 @@ window
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 zoom
@@ -6014,14 +6014,14 @@ destinationWindow
 |
 nativeTab
 .
-documentGlobal
+ownerGlobal
 ;
 let
 isSameWindow
 =
 nativeTab
 .
-documentGlobal
+ownerGlobal
 =
 =
 window
@@ -6080,7 +6080,7 @@ isBrowserPrivate
 (
 nativeTab
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 )
@@ -6643,7 +6643,7 @@ gBrowser
 =
 nativeTab
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 ;
@@ -6728,7 +6728,7 @@ ZoomManager
 =
 nativeTab
 .
-documentGlobal
+ownerGlobal
 ;
 let
 zoom
@@ -6773,7 +6773,7 @@ ZoomManager
 =
 nativeTab
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -6893,7 +6893,7 @@ ZoomUI
 =
 nativeTab
 .
-documentGlobal
+ownerGlobal
 ;
 return
 {
@@ -7044,7 +7044,7 @@ ZoomManager
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 return
 ZoomManager
@@ -7213,7 +7213,7 @@ canAccessWindow
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 )
 {
@@ -7227,7 +7227,7 @@ gBrowser
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 nativeTab
@@ -7439,7 +7439,7 @@ PrintUtils
 =
 activeTab
 .
-documentGlobal
+ownerGlobal
 ;
 PrintUtils
 .
@@ -7663,7 +7663,7 @@ init
 (
 activeTab
 .
-documentGlobal
+ownerGlobal
 .
 browsingContext
 title
@@ -8607,7 +8607,7 @@ referenceTab
 &
 referenceTab
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -8747,7 +8747,7 @@ referenceWindow
 =
 tab
 .
-documentGlobal
+ownerGlobal
 ;
 }
 else
@@ -8755,7 +8755,7 @@ if
 (
 tab
 .
-documentGlobal
+ownerGlobal
 !
 =
 =
@@ -8888,12 +8888,12 @@ if
 (
 tab
 .
-documentGlobal
+ownerGlobal
 )
 {
 tab
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -8931,7 +8931,7 @@ if
 (
 tab
 .
-documentGlobal
+ownerGlobal
 &
 &
 !
@@ -8942,7 +8942,7 @@ hidden
 {
 tab
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -9341,7 +9341,7 @@ isWindowPrivate
 (
 nativeTab
 .
-documentGlobal
+ownerGlobal
 )
 !
 =
@@ -9406,7 +9406,7 @@ nativeTabs
 {
 nativeTab
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -9442,7 +9442,7 @@ t
 >
 t
 .
-documentGlobal
+ownerGlobal
 =
 =
 =
@@ -9622,7 +9622,7 @@ if
 (
 nativeTab
 .
-documentGlobal
+ownerGlobal
 =
 =
 =
@@ -9818,7 +9818,7 @@ if
 (
 group
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -9854,7 +9854,7 @@ tabs
 {
 group
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -9869,7 +9869,7 @@ else
 {
 group
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .

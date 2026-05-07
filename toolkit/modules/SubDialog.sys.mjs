@@ -679,7 +679,7 @@ this
 _overlay
 ?
 .
-documentGlobal
+ownerGlobal
 ;
 }
 updateTitle
@@ -5299,7 +5299,7 @@ docShell
 .
 chromeEventHandler
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (

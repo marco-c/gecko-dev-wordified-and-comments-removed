@@ -554,7 +554,7 @@ id
 }
 }
 {
-documentGlobal
+ownerGlobal
 :
 {
 }
@@ -596,7 +596,7 @@ id
 1
 }
 {
-documentGlobal
+ownerGlobal
 :
 {
 }
@@ -1008,7 +1008,7 @@ SOMETHING
 browser
 :
 {
-documentGlobal
+ownerGlobal
 :
 {
 }
@@ -1044,7 +1044,7 @@ SOMETHING
 "
 }
 {
-documentGlobal
+ownerGlobal
 :
 {
 }
@@ -1166,7 +1166,7 @@ id
 browser
 :
 {
-documentGlobal
+ownerGlobal
 :
 {
 }
@@ -1202,7 +1202,7 @@ stuff
 browser
 :
 {
-documentGlobal
+ownerGlobal
 :
 {
 }
@@ -1958,7 +1958,7 @@ FORCE_PRIVATE_BROWSING_WINDOW
 browser
 :
 {
-documentGlobal
+ownerGlobal
 :
 {
 }
@@ -1987,7 +1987,7 @@ router
 .
 forcePBWindow
 {
-documentGlobal
+ownerGlobal
 :
 {
 }
@@ -2050,7 +2050,7 @@ something
 browser
 :
 {
-documentGlobal
+ownerGlobal
 :
 {
 }
@@ -2089,7 +2089,7 @@ something
 "
 }
 {
-documentGlobal
+ownerGlobal
 :
 {
 }
@@ -2173,7 +2173,7 @@ id
 browser
 :
 {
-documentGlobal
+ownerGlobal
 :
 {
 }
@@ -2208,7 +2208,7 @@ id
 }
 true
 {
-documentGlobal
+ownerGlobal
 :
 {
 }

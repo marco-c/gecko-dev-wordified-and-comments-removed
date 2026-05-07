@@ -1672,7 +1672,7 @@ waitForNextFrame
 (
 aAnimation
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }

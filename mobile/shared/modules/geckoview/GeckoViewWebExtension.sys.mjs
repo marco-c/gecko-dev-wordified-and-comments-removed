@@ -1285,7 +1285,7 @@ this
 .
 target
 .
-documentGlobal
+ownerGlobal
 )
 ;
 if
@@ -1385,7 +1385,7 @@ this
 .
 target
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }

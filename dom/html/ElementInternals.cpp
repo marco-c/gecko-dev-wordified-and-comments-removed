@@ -1468,7 +1468,7 @@ Init
 mTarget
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )

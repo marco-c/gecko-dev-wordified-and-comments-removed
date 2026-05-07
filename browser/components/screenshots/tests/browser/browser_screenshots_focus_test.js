@@ -164,7 +164,7 @@ promiseFocus
 (
 initialFocusElem
 .
-documentGlobal
+ownerGlobal
 )
 ;
 Services

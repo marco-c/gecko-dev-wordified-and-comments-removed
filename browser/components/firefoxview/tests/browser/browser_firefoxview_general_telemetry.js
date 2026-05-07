@@ -278,7 +278,7 @@ switchToFxViewTab
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await

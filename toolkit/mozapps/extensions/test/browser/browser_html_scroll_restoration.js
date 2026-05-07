@@ -558,7 +558,7 @@ getScrollOffset
 (
 elem
 .
-documentGlobal
+ownerGlobal
 )
 )
 ;

@@ -339,7 +339,7 @@ Init
 element
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )

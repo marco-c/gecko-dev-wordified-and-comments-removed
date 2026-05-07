@@ -1696,7 +1696,7 @@ _initialized
 true
 ;
 }
-documentGlobal
+ownerGlobal
 =
 window
 ;
@@ -7366,7 +7366,7 @@ if
 (
 this
 .
-documentGlobal
+ownerGlobal
 =
 =
 BrowserWindowTracker
@@ -15278,7 +15278,7 @@ selectTab
 &
 group
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -15301,7 +15301,7 @@ noOtherTabsInWindow
 =
 group
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -15537,7 +15537,7 @@ selectTab
 &
 container
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -23549,7 +23549,7 @@ isWindowPrivate
 (
 aOtherTab
 .
-documentGlobal
+ownerGlobal
 )
 )
 {
@@ -23564,7 +23564,7 @@ gFissionBrowser
 =
 aOtherTab
 .
-documentGlobal
+ownerGlobal
 .
 gFissionBrowser
 )
@@ -23641,7 +23641,7 @@ remoteBrowser
 =
 aOtherTab
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 ;
@@ -23770,7 +23770,7 @@ win
 =
 aOtherTab
 .
-documentGlobal
+ownerGlobal
 ;
 win
 .
@@ -24443,7 +24443,7 @@ closeWindow
 {
 aOtherTab
 .
-documentGlobal
+ownerGlobal
 .
 close
 (
@@ -24577,7 +24577,7 @@ tabListener
 new
 otherTabBrowser
 .
-documentGlobal
+ownerGlobal
 .
 TabProgressListener
 (
@@ -24702,7 +24702,7 @@ remoteBrowser
 =
 aOtherBrowser
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 ;
@@ -35022,7 +35022,7 @@ if
 (
 aTab
 .
-documentGlobal
+ownerGlobal
 !
 =
 window
@@ -35067,7 +35067,7 @@ successorTab
 &
 successorTab
 .
-documentGlobal
+ownerGlobal
 !
 =
 window
@@ -43594,7 +43594,7 @@ TAB_MENU
 ;
 group
 .
-documentGlobal
+ownerGlobal
 .
 focus
 (

@@ -104,7 +104,7 @@ Request
 (
 nsIGlobalObject
 *
-aGlobal
+aOwner
 SafeRefPtr
 <
 InternalRequest
@@ -580,7 +580,7 @@ GetParentObject
 const
 {
 return
-mGlobal
+mOwner
 ;
 }
 SafeRefPtr

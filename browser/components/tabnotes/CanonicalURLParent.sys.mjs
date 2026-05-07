@@ -266,7 +266,7 @@ if
 !
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 ?
@@ -320,7 +320,7 @@ event
 new
 browser
 .
-documentGlobal
+ownerGlobal
 .
 CustomEvent
 (

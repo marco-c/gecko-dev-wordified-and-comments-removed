@@ -486,7 +486,7 @@ this
 .
 node
 .
-documentGlobal
+ownerGlobal
 ;
 }
 /
@@ -14004,7 +14004,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 MouseEvent
 (
@@ -14039,7 +14039,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 PointerEvent
 (

@@ -2534,7 +2534,7 @@ clearFocus
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 Services
@@ -2564,7 +2564,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 win
 .
@@ -2681,7 +2681,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 const
 windowLeft
@@ -2994,7 +2994,7 @@ event
 .
 currentTarget
 .
-documentGlobal
+ownerGlobal
 "
 menuitem
 -
@@ -3885,7 +3885,7 @@ window
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 const
 doFocus
@@ -4452,7 +4452,7 @@ dialogBox
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -4889,7 +4889,7 @@ gBrowser
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 const
 browserWrapper
@@ -5004,7 +5004,7 @@ resolve
 {
 browser
 .
-documentGlobal
+ownerGlobal
 .
 requestAnimationFrame
 (
@@ -5692,7 +5692,7 @@ window
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 widgetGroup
@@ -5838,7 +5838,7 @@ browser
 ;
 browser
 .
-documentGlobal
+ownerGlobal
 .
 ConfirmationHint
 .
@@ -8057,7 +8057,7 @@ aEvent
 .
 currentTarget
 .
-documentGlobal
+ownerGlobal
 "
 menuitem
 -

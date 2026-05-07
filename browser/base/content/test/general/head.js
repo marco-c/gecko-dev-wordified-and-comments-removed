@@ -858,7 +858,7 @@ style
 =
 element
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (
@@ -1083,7 +1083,7 @@ notification
 .
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (

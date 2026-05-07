@@ -2915,7 +2915,7 @@ this
 .
 browser
 .
-documentGlobal
+ownerGlobal
 .
 saveURL
 (

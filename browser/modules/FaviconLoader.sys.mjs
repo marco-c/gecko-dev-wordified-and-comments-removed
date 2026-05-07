@@ -946,7 +946,7 @@ iconInfo
 .
 node
 .
-documentGlobal
+ownerGlobal
 .
 document
 .

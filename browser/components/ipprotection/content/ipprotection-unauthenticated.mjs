@@ -240,7 +240,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 win
 .

@@ -2166,7 +2166,7 @@ top
 .
 embedderElement
 .
-documentGlobal
+ownerGlobal
 ;
 switch
 (

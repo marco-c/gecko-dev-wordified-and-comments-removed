@@ -1912,7 +1912,7 @@ onTabSwitch
 target
 :
 {
-documentGlobal
+ownerGlobal
 :
 existingWindow
 }
@@ -1980,7 +1980,7 @@ onTabSwitch
 target
 :
 {
-documentGlobal
+ownerGlobal
 :
 existingWindow
 }
@@ -2064,7 +2064,7 @@ onTabSwitch
 target
 :
 {
-documentGlobal
+ownerGlobal
 :
 existingWindow
 }

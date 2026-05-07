@@ -495,7 +495,7 @@ mousemove
 }
 imageMapNode
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }
@@ -7114,7 +7114,7 @@ this
 .
 DOMPointNode
 .
-documentGlobal
+ownerGlobal
 .
 getSelection
 (

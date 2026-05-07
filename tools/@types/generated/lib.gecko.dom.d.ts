@@ -45216,7 +45216,7 @@ interface
 EventTarget
 {
 readonly
-documentGlobal
+ownerGlobal
 :
 WindowProxy
 |
@@ -164515,7 +164515,7 @@ string
 ;
 declare
 var
-documentGlobal
+ownerGlobal
 :
 WindowProxy
 |

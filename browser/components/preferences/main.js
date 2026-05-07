@@ -5409,7 +5409,7 @@ target
 {
 target
 .
-documentGlobal
+ownerGlobal
 .
 gSubDialog
 .

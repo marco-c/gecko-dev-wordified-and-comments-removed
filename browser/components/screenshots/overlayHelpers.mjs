@@ -534,7 +534,7 @@ x
 +
 ele
 .
-documentGlobal
+ownerGlobal
 .
 mozInnerScreenX
 y
@@ -543,7 +543,7 @@ y
 +
 ele
 .
-documentGlobal
+ownerGlobal
 .
 mozInnerScreenY
 bc
@@ -570,7 +570,7 @@ left
 -
 ele
 .
-documentGlobal
+ownerGlobal
 .
 mozInnerScreenX
 right
@@ -581,7 +581,7 @@ right
 -
 ele
 .
-documentGlobal
+ownerGlobal
 .
 mozInnerScreenX
 top
@@ -592,7 +592,7 @@ top
 -
 ele
 .
-documentGlobal
+ownerGlobal
 .
 mozInnerScreenY
 bottom
@@ -603,7 +603,7 @@ bottom
 -
 ele
 .
-documentGlobal
+ownerGlobal
 .
 mozInnerScreenY
 }

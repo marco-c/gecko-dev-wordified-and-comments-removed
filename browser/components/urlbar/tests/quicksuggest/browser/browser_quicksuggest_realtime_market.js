@@ -1503,7 +1503,7 @@ items
 i
 ]
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await

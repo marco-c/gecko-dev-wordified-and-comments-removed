@@ -2934,7 +2934,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 action
 .

@@ -1188,7 +1188,7 @@ win
 =
 tab
 .
-documentGlobal
+ownerGlobal
 ;
 let
 notification

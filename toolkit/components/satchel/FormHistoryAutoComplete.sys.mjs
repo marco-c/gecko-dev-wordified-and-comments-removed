@@ -786,7 +786,7 @@ this
 .
 input
 .
-documentGlobal
+ownerGlobal
 .
 windowGlobalChild
 .

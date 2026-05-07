@@ -1061,7 +1061,7 @@ tab
 .
 linkedBrowser
 .
-documentGlobal
+ownerGlobal
 .
 SpecialPowers
 .

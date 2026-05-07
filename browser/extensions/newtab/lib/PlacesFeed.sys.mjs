@@ -1683,7 +1683,9 @@ action
 .
 _target
 .
-window
+browser
+.
+ownerGlobal
 ;
 win
 .
@@ -1886,7 +1888,9 @@ label
 ;
 _target
 .
-window
+browser
+.
+ownerGlobal
 .
 gURLBar
 .
@@ -2345,7 +2349,9 @@ action
 .
 _target
 .
-window
+browser
+.
+ownerGlobal
 ;
 win
 .
@@ -2511,7 +2517,9 @@ action
 .
 _target
 .
-window
+browser
+.
+ownerGlobal
 )
 ;
 break

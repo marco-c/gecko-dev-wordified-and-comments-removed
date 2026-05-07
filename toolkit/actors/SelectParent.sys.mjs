@@ -1988,7 +1988,7 @@ win
 =
 menulist
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -2786,7 +2786,7 @@ this
 ;
 popup
 .
-documentGlobal
+ownerGlobal
 .
 addEventListener
 (
@@ -2799,7 +2799,7 @@ true
 ;
 popup
 .
-documentGlobal
+ownerGlobal
 .
 addEventListener
 (
@@ -2812,7 +2812,7 @@ true
 ;
 popup
 .
-documentGlobal
+ownerGlobal
 .
 addEventListener
 (
@@ -2825,7 +2825,7 @@ true
 ;
 popup
 .
-documentGlobal
+ownerGlobal
 .
 addEventListener
 (
@@ -2884,7 +2884,7 @@ this
 ;
 popup
 .
-documentGlobal
+ownerGlobal
 .
 removeEventListener
 (
@@ -2897,7 +2897,7 @@ true
 ;
 popup
 .
-documentGlobal
+ownerGlobal
 .
 removeEventListener
 (
@@ -2910,7 +2910,7 @@ true
 ;
 popup
 .
-documentGlobal
+ownerGlobal
 .
 removeEventListener
 (
@@ -2923,7 +2923,7 @@ true
 ;
 popup
 .
-documentGlobal
+ownerGlobal
 .
 removeEventListener
 (

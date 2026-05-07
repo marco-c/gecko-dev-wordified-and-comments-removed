@@ -2071,7 +2071,7 @@ win
 =
 rawNode
 .
-documentGlobal
+ownerGlobal
 ;
 const
 {

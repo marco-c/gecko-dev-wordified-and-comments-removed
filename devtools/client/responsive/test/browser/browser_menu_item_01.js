@@ -66,7 +66,7 @@ gBrowser
 =
 tab
 .
-documentGlobal
+ownerGlobal
 ;
 const
 {

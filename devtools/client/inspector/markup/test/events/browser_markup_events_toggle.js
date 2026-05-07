@@ -1734,7 +1734,7 @@ headerEl
 }
 headerEl
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await

@@ -62,7 +62,7 @@ waitForEvent
 (
 gBrowser
 .
-documentGlobal
+ownerGlobal
 "
 popupshown
 "

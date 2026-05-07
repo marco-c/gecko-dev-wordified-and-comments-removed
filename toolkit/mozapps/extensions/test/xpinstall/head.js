@@ -1632,7 +1632,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 document
 .

@@ -1596,7 +1596,7 @@ gURLBar
 =
 node
 .
-documentGlobal
+ownerGlobal
 ;
 urlToShare
 =
@@ -1734,7 +1734,7 @@ gURLBar
 =
 node
 .
-documentGlobal
+ownerGlobal
 ;
 links
 .
@@ -2085,7 +2085,7 @@ showQRCodePanel
 (
 node
 .
-documentGlobal
+ownerGlobal
 browser
 url
 )

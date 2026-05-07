@@ -511,7 +511,7 @@ navigator
 =
 existingTab
 .
-documentGlobal
+ownerGlobal
 ;
 navigator
 .

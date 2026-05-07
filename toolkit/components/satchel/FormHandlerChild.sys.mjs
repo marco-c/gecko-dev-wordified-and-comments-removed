@@ -1616,7 +1616,7 @@ this
 .
 document
 .
-documentGlobal
+ownerGlobal
 .
 windowRoot
 .

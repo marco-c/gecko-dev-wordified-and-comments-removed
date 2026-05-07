@@ -68,7 +68,7 @@ const
 ;
 nsIGlobalObject
 *
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 const
@@ -138,11 +138,11 @@ GlobalTeardownObserver
 )
 ;
 void
-BindToGlobal
+BindToOwner
 (
 nsIGlobalObject
 *
-aGlobal
+aOwner
 )
 ;
 private

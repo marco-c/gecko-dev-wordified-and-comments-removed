@@ -331,7 +331,10 @@ SETTINGS_OPEN
 _target
 :
 {
-window
+browser
+:
+{
+ownerGlobal
 :
 {
 openPreferences
@@ -341,6 +344,7 @@ sinon
 spy
 (
 )
+}
 }
 }
 }
@@ -360,7 +364,9 @@ action
 .
 _target
 .
-window
+browser
+.
+ownerGlobal
 .
 openPreferences
 )
@@ -406,7 +412,10 @@ foo
 _target
 :
 {
-window
+browser
+:
+{
+ownerGlobal
 :
 {
 BrowserAddonUI
@@ -419,6 +428,7 @@ sinon
 spy
 (
 )
+}
 }
 }
 }
@@ -439,7 +449,9 @@ action
 .
 _target
 .
-window
+browser
+.
+ownerGlobal
 .
 BrowserAddonUI
 .

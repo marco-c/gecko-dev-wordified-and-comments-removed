@@ -11,7 +11,7 @@ docShell
 .
 chromeEventHandler
 .
-documentGlobal
+ownerGlobal
 ;
 ChromeUtils
 .
@@ -14408,7 +14408,7 @@ docShell
 .
 chromeEventHandler
 .
-documentGlobal
+ownerGlobal
 .
 browsingContext
 title

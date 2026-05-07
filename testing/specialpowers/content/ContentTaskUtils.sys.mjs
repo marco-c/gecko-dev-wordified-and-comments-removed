@@ -1273,7 +1273,7 @@ Get
 rid
 of
 the
-documentGlobal
+ownerGlobal
 fallback
 once
 152

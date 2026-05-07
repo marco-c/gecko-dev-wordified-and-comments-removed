@@ -401,7 +401,7 @@ elementForHiding
 }
 elementForHiding
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await

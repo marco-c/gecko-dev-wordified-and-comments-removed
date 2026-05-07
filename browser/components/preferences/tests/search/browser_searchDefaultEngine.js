@@ -1103,7 +1103,7 @@ defaultEngineSelector
 }
 defaultEngineSelector
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await
@@ -1183,7 +1183,7 @@ engine2Item
 }
 engine2Item
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await

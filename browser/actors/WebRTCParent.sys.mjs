@@ -948,7 +948,7 @@ tabbrowser
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 ;

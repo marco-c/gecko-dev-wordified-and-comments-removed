@@ -1966,7 +1966,7 @@ true
 ;
 browser
 .
-documentGlobal
+ownerGlobal
 .
 PopupNotifications
 .
@@ -3437,7 +3437,7 @@ false
 ;
 browser
 .
-documentGlobal
+ownerGlobal
 .
 PopupNotifications
 .
@@ -3556,7 +3556,7 @@ notification
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 PopupNotifications
 .
@@ -3577,7 +3577,7 @@ notification
 {
 browser
 .
-documentGlobal
+ownerGlobal
 .
 PopupNotifications
 .

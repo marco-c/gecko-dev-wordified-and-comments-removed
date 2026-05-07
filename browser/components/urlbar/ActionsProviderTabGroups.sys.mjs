@@ -466,7 +466,7 @@ if
 (
 group
 .
-documentGlobal
+ownerGlobal
 =
 =
 window
@@ -796,7 +796,7 @@ select
 ;
 group
 .
-documentGlobal
+ownerGlobal
 .
 focus
 (

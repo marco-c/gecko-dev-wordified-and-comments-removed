@@ -321,7 +321,7 @@ MozXULElement
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 MozXULElement
 ;
