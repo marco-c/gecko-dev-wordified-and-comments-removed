@@ -813,6 +813,8 @@ mTableLock
 ;
 size_t
 mAllowedInvalidationsCount
+=
+0
 ;
 nsCOMPtr
 <
