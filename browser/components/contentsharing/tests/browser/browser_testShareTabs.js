@@ -118,6 +118,9 @@ server
 mockResponse
 .
 url
+isSignedIn
+:
+false
 }
 )
 ;
