@@ -1859,7 +1859,7 @@ created
 "
 )
 ;
-BindToOwner
+BindToGlobal
 (
 static_cast
 <
