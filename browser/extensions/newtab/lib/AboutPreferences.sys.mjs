@@ -854,9 +854,7 @@ action
 .
 _target
 .
-browser
-.
-documentGlobal
+window
 .
 openPreferences
 (
@@ -891,9 +889,7 @@ action
 .
 _target
 .
-browser
-.
-documentGlobal
+window
 .
 BrowserAddonUI
 .
