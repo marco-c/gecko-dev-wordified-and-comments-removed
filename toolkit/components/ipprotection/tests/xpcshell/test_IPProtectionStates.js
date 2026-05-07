@@ -443,9 +443,9 @@ sandbox
 .
 stub
 (
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 "
-isEnrolledAndEntitled
+entitlement
 "
 )
 .
@@ -455,7 +455,9 @@ get
 )
 =
 >
-true
+createTestEntitlement
+(
+)
 )
 ;
 IPProtectionService
