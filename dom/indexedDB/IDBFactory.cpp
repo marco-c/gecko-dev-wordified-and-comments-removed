@@ -646,7 +646,7 @@ false
 factory
 -
 >
-BindToOwner
+BindToGlobal
 (
 aWindow
 -
@@ -830,7 +830,7 @@ principalInfo
 factory
 -
 >
-BindToOwner
+BindToGlobal
 (
 aWindow
 -
@@ -1016,7 +1016,7 @@ false
 factory
 -
 >
-BindToOwner
+BindToGlobal
 (
 aGlobal
 )
@@ -1156,7 +1156,7 @@ false
 factory
 -
 >
-BindToOwner
+BindToGlobal
 (
 aGlobal
 )
@@ -1433,7 +1433,7 @@ false
 factory
 -
 >
-BindToOwner
+BindToGlobal
 (
 aGlobal
 )
@@ -1479,7 +1479,7 @@ aPrincipalInfo
 factory
 -
 >
-BindToOwner
+BindToGlobal
 (
 aGlobal
 )

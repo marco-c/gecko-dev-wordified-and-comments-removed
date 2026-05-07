@@ -52,7 +52,7 @@ mHasOrHasHadOwnerWindow
 aHasOrHasHadOwnerWindow
 )
 {
-BindToOwner
+BindToGlobal
 (
 aGlobalObject
 )
@@ -110,7 +110,7 @@ void
 GlobalTeardownObserver
 :
 :
-BindToOwner
+BindToGlobal
 (
 nsIGlobalObject
 *

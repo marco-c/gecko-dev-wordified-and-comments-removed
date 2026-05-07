@@ -1295,7 +1295,7 @@ consumer
 GlobalTeardownObserver
 :
 :
-BindToOwner
+BindToGlobal
 (
 aGlobal
 )
@@ -1306,7 +1306,7 @@ consumer
 GlobalFreezeObserver
 :
 :
-BindToOwner
+BindToGlobal
 (
 aGlobal
 )

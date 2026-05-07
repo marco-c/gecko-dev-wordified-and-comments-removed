@@ -310,7 +310,7 @@ nsIGlobalObject
 aParent
 )
 {
-BindToOwner
+BindToGlobal
 (
 aParent
 )
