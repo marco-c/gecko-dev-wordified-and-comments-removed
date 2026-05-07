@@ -916,6 +916,8 @@ mClientInfo
 ;
 uint64_t
 mSWDescriptorId
+=
+0
 ;
 RefPtr
 <
@@ -984,6 +986,8 @@ Runnable
 {
 uint64_t
 mSWDescriptorId
+=
+0
 ;
 nsCOMPtr
 <
@@ -1069,6 +1073,8 @@ Runnable
 {
 uint64_t
 mSWDescriptorId
+=
+0
 ;
 nsCOMPtr
 <

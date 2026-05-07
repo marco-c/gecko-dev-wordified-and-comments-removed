@@ -797,6 +797,8 @@ false
 ;
 bool
 mAPIObjectPrepended
+=
+false
 ;
 APIObjectType
 mAPIObjectType

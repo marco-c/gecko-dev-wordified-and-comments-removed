@@ -482,6 +482,8 @@ mBHRAnnotationValue
 ;
 bool
 mInSeconds
+=
+false
 ;
 }
 ;

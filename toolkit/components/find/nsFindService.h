@@ -93,6 +93,8 @@ mMatchCase
 ;
 bool
 mMatchDiacritics
+=
+false
 ;
 }
 ;

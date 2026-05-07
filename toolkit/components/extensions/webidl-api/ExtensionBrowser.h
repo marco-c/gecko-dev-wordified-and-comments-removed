@@ -453,6 +453,8 @@ mLastError
 ;
 bool
 mCheckedLastError
+=
+false
 ;
 nsTHashMap
 <
