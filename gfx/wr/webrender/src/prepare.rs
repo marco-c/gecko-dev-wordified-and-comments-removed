@@ -3519,7 +3519,6 @@ PrimitiveKind
 Image
 {
 data_handle
-image_instance_index
 .
 .
 }
@@ -3564,19 +3563,6 @@ mut
 prim_data
 .
 kind
-;
-let
-image_instance
-=
-&
-mut
-store
-.
-images
-[
-*
-image_instance_index
-]
 ;
 if
 !
@@ -3641,7 +3627,6 @@ image_data
 update
 (
 common_data
-image_instance
 prim_instance_index
 prim_spatial_node_index
 frame_state

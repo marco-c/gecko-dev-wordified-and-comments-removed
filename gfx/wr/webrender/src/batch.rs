@@ -9611,7 +9611,6 @@ PrimitiveKind
 Image
 {
 data_handle
-image_instance_index
 compositor_surface_kind
 .
 .
@@ -9675,19 +9674,6 @@ data_handle
 ]
 .
 kind
-;
-let
-image_instance
-=
-&
-ctx
-.
-prim_store
-.
-images
-[
-image_instance_index
-]
 ;
 let
 image_scratch
@@ -10021,7 +10007,7 @@ prim_rect
 let
 local_clip_rect
 =
-image_instance
+image_scratch
 .
 tight_local_clip_rect
 .
@@ -10351,7 +10337,7 @@ PrimitiveHeader
 {
 local_clip_rect
 :
-image_instance
+image_scratch
 .
 tight_local_clip_rect
 specific_prim_address
