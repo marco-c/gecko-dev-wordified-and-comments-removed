@@ -43307,6 +43307,13 @@ dependencies
 =
 [
 "
+embedded
+-
+uniffi
+-
+bindgen
+"
+"
 mozilla
 -
 central
@@ -43350,6 +43357,11 @@ central
 workspace
 -
 hack
+"
+"
+nimbus
+-
+fml
 "
 ]
 [
