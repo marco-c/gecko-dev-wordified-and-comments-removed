@@ -124,6 +124,9 @@ true
 host_from_parent
 =
 false
+benchmark_port
+=
+62763
 support_class
 =
 "
