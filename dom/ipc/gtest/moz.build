@@ -58,6 +58,11 @@ UNIFIED_SOURCES
 =
 [
 "
+JSIPCValueTest
+.
+cpp
+"
+"
 ProcessIsolationTest
 .
 cpp
