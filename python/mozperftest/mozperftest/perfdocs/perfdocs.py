@@ -201,11 +201,7 @@ verification
 .
 /
 mach
-lint
--
-l
 perfdocs
-.
 "
     
 Usage
@@ -216,14 +212,10 @@ generation
 .
 /
 mach
-lint
--
-l
 perfdocs
 -
 -
-fix
-.
+generate
 "
     
 For

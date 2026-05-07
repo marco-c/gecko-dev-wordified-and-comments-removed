@@ -985,14 +985,10 @@ Running
 .
 /
 mach
-lint
--
-l
 perfdocs
 -
 -
-fix
-.
+generate
 may
 also
 be
