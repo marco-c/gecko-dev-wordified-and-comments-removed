@@ -616,7 +616,7 @@ size_t
 count
 GLsizei
 instances
-GLuint
+uint64_t
 baseInstance
 unsigned
 int

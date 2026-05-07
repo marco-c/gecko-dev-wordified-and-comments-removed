@@ -411,7 +411,7 @@ size_t
 count
 GLsizei
 instances
-GLuint
+uint64_t
 baseInstance
 )
 ;
@@ -548,7 +548,7 @@ size_t
 count
 GLsizei
 instances
-GLuint
+uint64_t
 baseInstance
 )
 ;
@@ -574,7 +574,7 @@ size_t
 count
 GLsizei
 instances
-GLuint
+uint64_t
 baseInstance
 )
 ;
