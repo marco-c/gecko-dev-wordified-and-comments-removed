@@ -634,12 +634,3 @@ WEBGL
 webgl
 "
 )
-GFXINFO_FEATURE_ALLOWLIST
-(
-VIDEO_HDR
-"
-video
--
-hdr
-"
-)

@@ -29,13 +29,6 @@ h
 #
 include
 "
-gfxPlatform
-.
-h
-"
-#
-include
-"
 gfxUtils
 .
 h
@@ -429,10 +422,10 @@ IsHDRSurface
 )
 &
 &
-gfxPlatform
+StaticPrefs
 :
 :
-UseHDR
+gfx_color_management_hdr
 (
 )
 ;
