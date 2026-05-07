@@ -870,6 +870,13 @@ WindowInsets
 .
 ime
 )
+.
+testTag
+(
+EditAddressTestTag
+.
+FORM
+)
 )
 {
 val

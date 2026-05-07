@@ -76,6 +76,17 @@ EditAddressTestTag
 {
 const
 val
+FORM
+=
+"
+address
+.
+edit
+.
+form
+"
+const
+val
 NAME_FIELD
 =
 "
