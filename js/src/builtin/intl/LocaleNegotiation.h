@@ -91,6 +91,7 @@ Calendar
 Collation
 CollationCaseFirst
 CollationNumeric
+FirstDayOfWeek
 HourCycle
 NumberingSystem
 }
