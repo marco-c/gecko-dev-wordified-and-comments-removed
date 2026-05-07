@@ -26,11 +26,6 @@ formhistory_autocomplete
 .
 sqlite
 "
-"
-login_form
-.
-html
-"
 ]
 [
 "
@@ -62,13 +57,6 @@ if
 verify
 -
 standalone
-"
-]
-[
-"
-browser_popup_no_open_on_tab
-.
-js
 "
 ]
 [
