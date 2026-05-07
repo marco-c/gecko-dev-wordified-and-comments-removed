@@ -1375,6 +1375,11 @@ start
 (
 )
 {
+downloadManager
+.
+registerListeners
+(
+)
 /
 /
 Dismiss
