@@ -1120,9 +1120,6 @@ PREFERENCES_PANES
 =
 [
 "
-paneDownloads
-"
-"
 paneHome
 "
 "

@@ -651,10 +651,6 @@ used
 *
 preferences
 -
-paneDownloads
-*
-preferences
--
 paneGeneral
 *
 preferences
