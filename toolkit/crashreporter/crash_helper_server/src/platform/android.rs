@@ -7,16 +7,5 @@ PROXY_RENDEZ_VOUS
 :
 bool
 =
-true
+false
 ;
-pub
-(
-crate
-)
-unsafe
-fn
-daemonize
-(
-)
-{
-}

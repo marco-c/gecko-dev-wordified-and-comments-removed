@@ -192,14 +192,7 @@ MAX_HANDLES_PER_MESSAGE
 :
 usize
 =
-size_of
-:
-:
-<
-HANDLE
->
-(
-)
+2
 ;
 fn
 extract_buffer_and_handle

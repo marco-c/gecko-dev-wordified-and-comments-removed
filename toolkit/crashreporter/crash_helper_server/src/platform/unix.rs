@@ -41,6 +41,17 @@ pub
 (
 crate
 )
+const
+PROXY_RENDEZ_VOUS
+:
+bool
+=
+false
+;
+pub
+(
+crate
+)
 unsafe
 fn
 daemonize
