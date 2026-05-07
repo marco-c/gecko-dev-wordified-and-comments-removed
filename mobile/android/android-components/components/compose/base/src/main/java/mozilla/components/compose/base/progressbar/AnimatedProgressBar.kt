@@ -371,6 +371,16 @@ ui
 .
 graphics
 .
+nativePaint
+import
+androidx
+.
+compose
+.
+ui
+.
+graphics
+.
 toArgb
 import
 androidx
@@ -1303,9 +1313,7 @@ radius
 >
 paint
 .
-asFrameworkPaint
-(
-)
+nativePaint
 .
 apply
 {
