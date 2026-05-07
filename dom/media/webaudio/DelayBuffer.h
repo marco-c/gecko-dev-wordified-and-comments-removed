@@ -318,6 +318,9 @@ mCurrentChunk
 ;
 int
 mLastReadChunk
+=
+-
+1
 ;
 #
 ifdef

@@ -755,6 +755,8 @@ PortMapping
 ;
 PRIntervalTime
 last_used_
+=
+0
 ;
 RefPtr
 <

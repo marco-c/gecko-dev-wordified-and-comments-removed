@@ -261,6 +261,8 @@ mNode
 ;
 uint32_t
 mNumberOfInputChannels
+=
+0
 ;
 }
 ;

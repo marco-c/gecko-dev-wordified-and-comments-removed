@@ -232,6 +232,8 @@ mAudioInfo
 ;
 bool
 mDefaultPlaybackDeviceMono
+=
+false
 ;
 }
 ;

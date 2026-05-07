@@ -2339,6 +2339,8 @@ mCubebOperationThread
 ;
 cubeb_device_pref
 mInputDevicePreference
+=
+CUBEB_DEVICE_PREF_NONE
 ;
 cubeb_input_processing_params
 mConfiguredInputProcessingParams

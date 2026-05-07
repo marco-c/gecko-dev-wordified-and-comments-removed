@@ -1049,9 +1049,15 @@ mVideoCodec
 ;
 int64_t
 mAudioDefaultDuration
+=
+-
+1
 ;
 int64_t
 mVideoDefaultDuration
+=
+-
+1
 ;
 bool
 mHasVideo

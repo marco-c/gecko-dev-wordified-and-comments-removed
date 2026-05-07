@@ -82,6 +82,8 @@ mStarted
 ;
 bool
 mTrackCreated
+=
+false
 ;
 }
 ;

@@ -862,6 +862,8 @@ mDroppingBuffers
 ;
 bool
 mNodeIsConnected
+=
+false
 ;
 }
 ;

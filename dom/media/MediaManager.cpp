@@ -1197,6 +1197,8 @@ false
 ;
 bool
 mDeviceMuted
+=
+false
 ;
 bool
 mTrackEnabled

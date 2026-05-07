@@ -478,9 +478,17 @@ mLoopEnd
 ;
 double
 mOffset
+=
+0
+.
+0
 ;
 double
 mDuration
+=
+0
+.
+0
 ;
 RefPtr
 <
