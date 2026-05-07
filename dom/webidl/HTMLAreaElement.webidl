@@ -281,6 +281,10 @@ relList
 ;
 HTMLAreaElement
 includes
+HyperlinkElementUtils
+;
+HTMLAreaElement
+includes
 HTMLHyperlinkElementUtils
 ;
 /

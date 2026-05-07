@@ -280,6 +280,10 @@ text
 ;
 HTMLAnchorElement
 includes
+HyperlinkElementUtils
+;
+HTMLAnchorElement
+includes
 HTMLHyperlinkElementUtils
 ;
 /

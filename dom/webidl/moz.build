@@ -4675,6 +4675,11 @@ HTMLVideoElement
 webidl
 "
 "
+HyperlinkElementUtils
+.
+webidl
+"
+"
 IDBCursor
 .
 webidl
