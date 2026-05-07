@@ -546,6 +546,11 @@ aFormat
 )
 const
 ;
+void
+AppendEGLVideoModifiers
+(
+)
+;
 private
 :
 void
