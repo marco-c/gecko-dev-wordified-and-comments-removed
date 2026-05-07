@@ -696,11 +696,11 @@ WordNext
 Command
 :
 :
-SelectWordPrevious
+SelectLeft2
 Command
 :
 :
-SelectWordNext
+SelectRight2
 }
 }
 {
