@@ -11834,6 +11834,14 @@ return
 false
 ;
 }
+MOZ_ASSERT
+(
+ISODateWithinLimits
+(
+end
+)
+)
+;
 auto
 endDateTime
 =
@@ -11847,7 +11855,7 @@ time
 ;
 MOZ_ASSERT
 (
-ISODateTimeWithinLimits
+IsValidISODateTime
 (
 endDateTime
 )
