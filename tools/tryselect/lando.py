@@ -2870,10 +2870,7 @@ mozilla
 org
 .
             
-If
-you
-want
-to
+To
 use
 the
 old
