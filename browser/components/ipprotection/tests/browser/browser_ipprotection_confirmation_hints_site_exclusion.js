@@ -2151,10 +2151,7 @@ vpn
 setupService
 (
 {
-isSignedIn
-:
-true
-isEnrolledAndEntitled
+isReady
 :
 true
 }

@@ -31,7 +31,7 @@ await
 openPanel
 (
 {
-isEnrolledAndEntitled
+isReady
 :
 true
 }

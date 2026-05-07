@@ -3306,10 +3306,7 @@ BYTES_IN_GB
 setupService
 (
 {
-isSignedIn
-:
-true
-isEnrolledAndEntitled
+isReady
 :
 true
 }
@@ -3497,7 +3494,7 @@ bar
 setupService
 (
 {
-isSignedIn
+isReady
 :
 false
 }
@@ -4674,10 +4671,7 @@ true
 setupService
 (
 {
-isSignedIn
-:
-true
-isEnrolledAndEntitled
+isReady
 :
 true
 }
@@ -4775,7 +4769,7 @@ content
 setupService
 (
 {
-isSignedIn
+isReady
 :
 false
 }
@@ -4795,10 +4789,7 @@ updateComplete
 setupService
 (
 {
-isSignedIn
-:
-true
-isEnrolledAndEntitled
+isReady
 :
 true
 }
