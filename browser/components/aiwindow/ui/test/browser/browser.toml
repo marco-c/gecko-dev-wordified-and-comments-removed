@@ -498,6 +498,13 @@ js
 ]
 [
 "
+browser_smartwindow_chat_browser_tabbable
+.
+js
+"
+]
+[
+"
 browser_smartwindow_chat_markdown_parser
 .
 js
