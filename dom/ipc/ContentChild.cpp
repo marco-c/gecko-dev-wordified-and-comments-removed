@@ -5584,12 +5584,6 @@ features
 aFeatures
 )
 ;
-nsAutoString
-name
-(
-aName
-)
-;
 nsresult
 rv
 ;

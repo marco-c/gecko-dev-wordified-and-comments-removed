@@ -3181,10 +3181,6 @@ aModifiers
 BrowserParent
 *
 aNextRemoteBrowser
-const
-nsAString
-&
-aName
 nsresult
 &
 aResult
@@ -3206,8 +3202,6 @@ aTriggeringPrincipal
 nsIReferrerInfo
 *
 aReferrerInfo
-bool
-aLoadUri
 nsIPolicyContainer
 *
 aPolicyContainer
