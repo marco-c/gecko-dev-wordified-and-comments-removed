@@ -166,6 +166,7 @@ getConcreteItemGuid
 n
 )
 )
+window
 )
 ;
 break
