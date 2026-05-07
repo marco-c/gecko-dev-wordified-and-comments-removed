@@ -134,6 +134,14 @@ macosx64
 geckodriver
 /
 opt
+-
+macosx64
+-
+aarch64
+-
+geckodriver
+/
+opt
 tasks
 :
 geckodriver
