@@ -2873,7 +2873,7 @@ this
 .
 state
 .
-isCheckingEntitlement
+isEnrolling
 )
 {
 return

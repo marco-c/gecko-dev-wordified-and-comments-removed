@@ -1110,7 +1110,7 @@ openPanel
 unauthenticated
 :
 false
-isCheckingEntitlement
+isEnrolling
 :
 true
 }
@@ -1311,7 +1311,7 @@ openPanel
 unauthenticated
 :
 true
-isCheckingEntitlement
+isEnrolling
 :
 true
 }
@@ -1429,7 +1429,7 @@ false
 isProtectionEnabled
 :
 false
-isCheckingEntitlement
+isEnrolling
 :
 true
 }
@@ -1469,7 +1469,7 @@ false
 isProtectionEnabled
 :
 false
-isCheckingEntitlement
+isEnrolling
 :
 false
 }
