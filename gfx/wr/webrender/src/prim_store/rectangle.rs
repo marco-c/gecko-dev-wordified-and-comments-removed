@@ -50,7 +50,6 @@ InternablePrimitive
 PrimitiveStore
 PrimitiveKind
 ColorBindingIndex
-SegmentInstanceIndex
 PrimTemplate
 PrimTemplateCommonData
 PrimitiveOpacity
@@ -336,12 +335,6 @@ PrimitiveKind
 Rectangle
 {
 data_handle
-segment_instance_index
-:
-SegmentInstanceIndex
-:
-:
-INVALID
 color_binding_index
 }
 }

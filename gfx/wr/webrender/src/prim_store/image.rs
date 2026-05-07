@@ -179,7 +179,6 @@ PrimitiveKind
 PrimitiveOpacity
 PrimitiveScratchBuffer
 PrimitiveStore
-SegmentInstanceIndex
 SizeKey
 }
 ;
@@ -508,10 +507,6 @@ pub
 struct
 ImageInstance
 {
-pub
-segment_instance_index
-:
-SegmentInstanceIndex
 pub
 tight_local_clip_rect
 :
@@ -2526,12 +2521,6 @@ push
 (
 ImageInstance
 {
-segment_instance_index
-:
-SegmentInstanceIndex
-:
-:
-INVALID
 tight_local_clip_rect
 :
 LayoutRect
@@ -3732,12 +3721,6 @@ PrimitiveKind
 YuvImage
 {
 data_handle
-segment_instance_index
-:
-SegmentInstanceIndex
-:
-:
-INVALID
 compositor_surface_kind
 :
 CompositorSurfaceKind

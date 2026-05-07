@@ -143,6 +143,7 @@ prim_store
 ClipTaskIndex
 PictureIndex
 PrimitiveKind
+SegmentInstanceIndex
 }
 ;
 use
@@ -1146,6 +1147,10 @@ pub
 kind_scratch
 :
 KindScratchHandle
+pub
+segment_instance_index
+:
+SegmentInstanceIndex
 }
 impl
 PrimitiveDrawHeader
@@ -1193,6 +1198,12 @@ KindScratchHandle
 :
 :
 None
+segment_instance_index
+:
+SegmentInstanceIndex
+:
+:
+UNUSED
 }
 }
 pub
@@ -1230,6 +1241,15 @@ KindScratchHandle
 :
 :
 None
+;
+self
+.
+segment_instance_index
+=
+SegmentInstanceIndex
+:
+:
+UNUSED
 ;
 }
 }
