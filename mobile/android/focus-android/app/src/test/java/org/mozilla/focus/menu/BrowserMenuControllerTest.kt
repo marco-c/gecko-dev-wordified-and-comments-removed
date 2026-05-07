@@ -231,6 +231,18 @@ browser
 .
 integration
 .
+BrowserMenuCallbacks
+import
+org
+.
+mozilla
+.
+focus
+.
+browser
+.
+integration
+.
 BrowserMenuController
 import
 org
@@ -451,6 +463,10 @@ topSitesUseCases
 currentTabId
 =
 currentTabId
+callbacks
+=
+BrowserMenuCallbacks
+(
 shareCallback
 =
 shareCallback
@@ -472,6 +488,7 @@ openInBrowser
 showShortcutAddedSnackBar
 =
 showShortcutAddedSnackBar
+)
 coroutineScope
 =
 TestScope
