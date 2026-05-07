@@ -1735,7 +1735,13 @@ offset
 }
 aString
 =
+std
+:
+:
+move
+(
 result
+)
 ;
 break
 ;
