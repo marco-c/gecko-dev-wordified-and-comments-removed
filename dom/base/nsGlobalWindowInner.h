@@ -1215,7 +1215,7 @@ final
 ;
 nsIGlobalObject
 *
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 const
@@ -8236,7 +8236,7 @@ nsIGlobalObject
 nsGlobalWindowInner
 :
 :
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 const

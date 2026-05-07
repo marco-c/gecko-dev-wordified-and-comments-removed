@@ -2201,7 +2201,7 @@ JsWarning
 device
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 aMessage

@@ -2750,7 +2750,7 @@ global
 mParent
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;

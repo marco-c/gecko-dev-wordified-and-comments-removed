@@ -2283,7 +2283,7 @@ Create
 mDocument
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 IgnoreErrors

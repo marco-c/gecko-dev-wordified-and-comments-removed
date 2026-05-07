@@ -1645,7 +1645,7 @@ Init
 (
 signal
 .
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )

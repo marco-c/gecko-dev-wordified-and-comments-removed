@@ -1023,7 +1023,7 @@ do_QueryInterface
 target
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )

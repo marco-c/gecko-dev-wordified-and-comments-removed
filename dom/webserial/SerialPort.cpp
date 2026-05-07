@@ -360,7 +360,7 @@ DOMEventTargetHelper
 aSerial
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -973,7 +973,7 @@ nsIGlobalObject
 *
 global
 =
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;
@@ -1845,7 +1845,7 @@ nsIGlobalObject
 *
 global
 =
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;
@@ -2364,7 +2364,7 @@ nsIGlobalObject
 *
 global
 =
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;
@@ -2817,7 +2817,7 @@ nsIGlobalObject
 *
 global
 =
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;
@@ -3194,7 +3194,7 @@ nsIGlobalObject
 *
 global
 =
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;
@@ -4469,7 +4469,7 @@ jsapi
 .
 Init
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -4512,7 +4512,7 @@ MakeRefPtr
 SerialByteReadableStream
 >
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -4760,7 +4760,7 @@ jsapi
 .
 Init
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -4803,7 +4803,7 @@ MakeRefPtr
 SerialPortWriteAlgorithms
 >
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 writeOutput
@@ -4819,7 +4819,7 @@ CreateNative
 (
 cx
 *
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 *
@@ -5173,7 +5173,7 @@ nsIGlobalObject
 *
 global
 =
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;

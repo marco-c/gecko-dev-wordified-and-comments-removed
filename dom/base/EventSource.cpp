@@ -6161,7 +6161,7 @@ lock
 mEventSource
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )

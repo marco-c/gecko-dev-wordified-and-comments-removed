@@ -278,12 +278,12 @@ MOZ_ASSERT
 aTrack
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 =
 =
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 "
@@ -538,7 +538,7 @@ CreateAudioTrack
 (
 nsIGlobalObject
 *
-aOwnerGlobal
+aRelevantGlobal
 const
 nsAString
 &
@@ -571,7 +571,7 @@ track
 new
 AudioTrack
 (
-aOwnerGlobal
+aRelevantGlobal
 aId
 aKind
 aLabel
@@ -599,7 +599,7 @@ CreateVideoTrack
 (
 nsIGlobalObject
 *
-aOwnerGlobal
+aRelevantGlobal
 const
 nsAString
 &
@@ -630,7 +630,7 @@ track
 new
 VideoTrack
 (
-aOwnerGlobal
+aRelevantGlobal
 aId
 aKind
 aLabel

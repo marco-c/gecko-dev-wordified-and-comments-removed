@@ -8583,7 +8583,7 @@ OwnerDoc
 )
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;
@@ -8593,7 +8593,7 @@ nsIGlobalObject
 nsINode
 :
 :
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 const

@@ -362,7 +362,7 @@ CreateInfallible
 mPort
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -1030,7 +1030,7 @@ CreateInfallible
 mPort
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )

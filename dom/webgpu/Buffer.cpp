@@ -802,7 +802,7 @@ Init
 mParent
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
