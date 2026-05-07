@@ -259,7 +259,7 @@ jsPromiseIntegration
 {
 status
 :
-DISABLED
+NIGHTLY
 test
 :
 (
