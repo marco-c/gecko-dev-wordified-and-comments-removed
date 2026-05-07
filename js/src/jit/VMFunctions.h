@@ -3467,7 +3467,7 @@ TenuredCell
 cell
 Zone
 *
-zone
+mapZone
 )
 ;
 void

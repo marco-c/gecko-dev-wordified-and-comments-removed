@@ -20022,7 +20022,7 @@ TenuredCell
 cell
 Zone
 *
-zone
+mapZone
 )
 {
 AutoUnsafeCallWithABI
@@ -20067,9 +20067,20 @@ cell
 )
 )
 ;
+Zone
+*
+cellZone
+=
+cell
+-
+>
+zone
+(
+)
+;
 if
 (
-zone
+cellZone
 -
 >
 needsMarkingBarrier
@@ -20090,7 +20101,7 @@ else
 if
 (
 !
-zone
+cellZone
 -
 >
 isGCPreparing
@@ -20122,7 +20133,7 @@ cell
 MOZ_ASSERT_IF
 (
 !
-zone
+cellZone
 -
 >
 isGCPreparing
@@ -20166,7 +20177,7 @@ gc
 :
 MarkSymbolForWeakMapReadBarrier
 (
-zone
+mapZone
 cell
 -
 >
