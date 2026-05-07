@@ -2664,7 +2664,7 @@ ghost
 size
 =
 "
-small
+default
 "
 /
 >

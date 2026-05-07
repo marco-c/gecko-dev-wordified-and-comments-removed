@@ -98745,7 +98745,7 @@ ghost
 size
 :
 "
-small
+default
 "
 }
 )
