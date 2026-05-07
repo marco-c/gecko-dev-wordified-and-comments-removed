@@ -15860,7 +15860,9 @@ aTarget
 )
 ;
 }
+const
 auto
+&
 originAttributes
 =
 BasePrincipal
