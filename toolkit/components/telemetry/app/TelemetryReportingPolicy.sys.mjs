@@ -7934,6 +7934,10 @@ handleAction
 (
 config
 win
+.
+gBrowser
+.
+selectedBrowser
 )
 ;
 this
