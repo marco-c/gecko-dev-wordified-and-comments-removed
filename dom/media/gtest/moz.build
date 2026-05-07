@@ -187,6 +187,11 @@ TestAudioBuffer
 cpp
 "
 "
+TestAudioBufferAddWithScale
+.
+cpp
+"
+"
 TestAudioBuffers
 .
 cpp
@@ -894,6 +899,14 @@ media
 platforms
 /
 agnostic
+"
+"
+/
+dom
+/
+media
+/
+webaudio
 "
 "
 /
