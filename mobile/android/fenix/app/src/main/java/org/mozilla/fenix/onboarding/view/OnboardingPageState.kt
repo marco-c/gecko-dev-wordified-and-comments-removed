@@ -82,6 +82,16 @@ fenix
 compose
 .
 LinkTextState
+import
+org
+.
+mozilla
+.
+fenix
+.
+nimbus
+.
+MarketingCardVariant
 /
 *
 *
@@ -725,6 +735,10 @@ data
 class
 OnboardingMarketingData
 (
+val
+marketingCardVariant
+:
+MarketingCardVariant
 val
 bodyOneText
 :

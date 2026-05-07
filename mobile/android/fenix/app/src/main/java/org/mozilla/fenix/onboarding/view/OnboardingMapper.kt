@@ -1064,6 +1064,9 @@ toOnboardingMarketingData
 =
 OnboardingMarketingData
 (
+marketingCardVariant
+=
+marketingCardVariant
 bodyOneText
 =
 bodyLineOneText
