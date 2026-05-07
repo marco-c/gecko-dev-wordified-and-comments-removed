@@ -1031,6 +1031,7 @@ DesktopToLayoutDeviceScale
 GetDesktopToDeviceScale
 (
 )
+const
 override
 ;
 void

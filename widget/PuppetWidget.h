@@ -826,6 +826,7 @@ DesktopToLayoutDeviceScale
 GetDesktopToDeviceScale
 (
 )
+const
 override
 {
 return
