@@ -3190,6 +3190,13 @@ js
 ]
 [
 "
+browser_ext_tabs_move_splitview
+.
+js
+"
+]
+[
+"
 browser_ext_tabs_move_window
 .
 js
