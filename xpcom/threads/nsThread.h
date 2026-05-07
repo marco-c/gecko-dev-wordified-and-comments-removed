@@ -948,6 +948,8 @@ Relaxed
 >
 *
 mIsAPoolThreadFreePtr
+=
+nullptr
 ;
 bool
 mCanInvokeJS

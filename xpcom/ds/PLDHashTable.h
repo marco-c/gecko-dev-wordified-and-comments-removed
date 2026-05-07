@@ -1298,6 +1298,8 @@ mGeneration
 ;
 uint8_t
 mHashShift
+=
+0
 ;
 const
 uint8_t
