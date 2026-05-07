@@ -12,6 +12,12 @@ chaturbate
 com
 /
 "
+POPUP_CSS
+=
+"
+.
+SearchOnboarding
+"
 AGREE_CSS
 =
 "
@@ -68,6 +74,13 @@ client
 navigate
 (
 URL
+)
+    
+client
+.
+hide_elements
+(
+POPUP_CSS
 )
     
 client

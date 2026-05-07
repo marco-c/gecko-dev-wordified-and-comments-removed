@@ -82,14 +82,18 @@ container
 CONTAINER_CSS
 =
 "
-.
+#
 select2
+-
+select
+-
+pagination
 -
 results
 "
 async
 def
-get_container_width_difference
+have_horizontal_scrollbar
 (
 client
 )
@@ -137,6 +141,9 @@ client
 await_css
 (
 CONTAINER_CSS
+is_displayed
+=
+True
 )
     
 return
@@ -155,24 +162,15 @@ arguments
 0
 ]
 .
-getBoundingClientRect
-(
-)
-.
-width
--
+scrollWidth
+!
+=
 arguments
 [
 0
 ]
 .
-firstChild
-.
-getBoundingClientRect
-(
-)
-.
-width
+clientWidth
 ;
     
 "
@@ -216,11 +214,9 @@ client
 :
     
 assert
-10
-=
-=
+not
 await
-get_container_width_difference
+have_horizontal_scrollbar
 (
 client
 )
@@ -258,10 +254,8 @@ client
 :
     
 assert
-10
-<
 await
-get_container_width_difference
+have_horizontal_scrollbar
 (
 client
 )

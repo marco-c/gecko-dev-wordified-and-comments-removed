@@ -78,13 +78,11 @@ slide
 -
 active
 .
-AIC
+AUC
 -
 MI
 -
-img
-.
-square
+image
 "
 async
 def
