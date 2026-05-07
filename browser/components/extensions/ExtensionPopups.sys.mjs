@@ -918,8 +918,6 @@ removeProperty
 panel
 -
 background
--
-color
 "
 )
 ;
@@ -3136,8 +3134,6 @@ setProperty
 panel
 -
 background
--
-color
 "
 background
 )

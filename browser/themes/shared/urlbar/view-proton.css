@@ -16911,8 +16911,6 @@ PopupSearchAutoComplete
 -
 panel
 -
-text
--
 color
 :
 var
@@ -16935,8 +16933,6 @@ focus
 panel
 -
 background
--
-color
 :
 var
 (

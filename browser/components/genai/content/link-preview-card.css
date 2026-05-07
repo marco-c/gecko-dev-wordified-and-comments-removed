@@ -170,8 +170,6 @@ var
 panel
 -
 background
--
-color
 )
 ;
 border
@@ -252,8 +250,6 @@ var
 -
 panel
 -
-text
--
 color
 )
 ;
@@ -321,8 +317,6 @@ var
 -
 -
 panel
--
-text
 -
 color
 )

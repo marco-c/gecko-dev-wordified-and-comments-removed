@@ -415,8 +415,6 @@ b
 panel
 -
 background
--
-color
 "
 {
 lwtProperty
@@ -431,8 +429,6 @@ popup
 -
 -
 panel
--
-text
 -
 color
 "

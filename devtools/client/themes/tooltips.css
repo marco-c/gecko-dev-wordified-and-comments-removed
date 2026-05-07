@@ -2961,8 +2961,6 @@ padding
 panel
 -
 background
--
-color
 :
 transparent
 ;
@@ -2979,8 +2977,6 @@ transparent
 -
 -
 panel
--
-box
 -
 shadow
 :
@@ -3005,8 +3001,6 @@ container
 -
 -
 panel
--
-box
 -
 shadow
 -
