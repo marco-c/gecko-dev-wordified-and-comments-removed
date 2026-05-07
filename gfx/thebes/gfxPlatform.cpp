@@ -16755,6 +16755,12 @@ GPU_PROCESS
 &
 &
 !
+IsHeadless
+(
+)
+&
+&
+!
 StaticPrefs
 :
 :
