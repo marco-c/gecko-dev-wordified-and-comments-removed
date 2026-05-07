@@ -328,6 +328,12 @@ webm
 "
 _ns
 "
+video
+/
+mpeg
+"
+_ns
+"
 audio
 /
 ogg
@@ -343,6 +349,12 @@ _ns
 audio
 /
 webm
+"
+_ns
+"
+audio
+/
+mpeg
 "
 _ns
 }
