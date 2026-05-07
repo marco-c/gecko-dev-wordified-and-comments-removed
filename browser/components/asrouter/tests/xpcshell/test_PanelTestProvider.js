@@ -120,7 +120,7 @@ menu_message
 1
 newtab_message
 :
-5
+6
 infobar
 :
 1
