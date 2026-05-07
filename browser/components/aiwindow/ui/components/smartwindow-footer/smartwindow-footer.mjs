@@ -232,11 +232,6 @@ container
 moz
 -
 button
-size
-=
-"
-small
-"
 type
 =
 "
@@ -285,12 +280,8 @@ chrome
 /
 browser
 /
-content
+skin
 /
-firefoxview
-/
-view
--
 history
 .
 svg
@@ -325,11 +316,6 @@ button
 moz
 -
 button
-size
-=
-"
-small
-"
 type
 =
 "
