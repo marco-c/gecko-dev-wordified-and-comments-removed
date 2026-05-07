@@ -721,7 +721,7 @@ GlobalEventHandlers
 ;
 HTMLElement
 includes
-HTMLOrForeignElement
+HTMLOrSVGOrMathMLElement
 ;
 HTMLElement
 includes

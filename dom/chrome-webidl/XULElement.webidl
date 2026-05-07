@@ -253,7 +253,7 @@ GlobalEventHandlers
 ;
 XULElement
 includes
-HTMLOrForeignElement
+HTMLOrSVGOrMathMLElement
 ;
 XULElement
 includes

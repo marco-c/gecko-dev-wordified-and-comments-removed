@@ -58956,7 +58956,7 @@ Element
 ElementCSSInlineStyle
 ElementOffsetAttributes
 GlobalEventHandlers
-HTMLOrForeignElement
+HTMLOrSVGOrMathMLElement
 OnErrorEventHandlerForNodes
 TouchEventHandlers
 {
@@ -65451,7 +65451,7 @@ HTMLOptionsCollection
 }
 ;
 interface
-HTMLOrForeignElement
+HTMLOrSVGOrMathMLElement
 {
 autofocus
 :
@@ -80438,7 +80438,7 @@ extends
 Element
 ElementCSSInlineStyle
 GlobalEventHandlers
-HTMLOrForeignElement
+HTMLOrSVGOrMathMLElement
 OnErrorEventHandlerForNodes
 TouchEventHandlers
 {
@@ -103413,7 +103413,7 @@ extends
 Element
 ElementCSSInlineStyle
 GlobalEventHandlers
-HTMLOrForeignElement
+HTMLOrSVGOrMathMLElement
 OnErrorEventHandlerForNodes
 TouchEventHandlers
 {
@@ -155097,7 +155097,7 @@ Element
 ElementCSSInlineStyle
 ElementOffsetAttributes
 GlobalEventHandlers
-HTMLOrForeignElement
+HTMLOrSVGOrMathMLElement
 OnErrorEventHandlerForNodes
 TouchEventHandlers
 {

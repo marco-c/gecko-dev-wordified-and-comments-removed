@@ -150,7 +150,7 @@ GlobalEventHandlers
 ;
 SVGElement
 includes
-HTMLOrForeignElement
+HTMLOrSVGOrMathMLElement
 ;
 SVGElement
 includes

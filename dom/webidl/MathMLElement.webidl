@@ -123,7 +123,7 @@ GlobalEventHandlers
 ;
 MathMLElement
 includes
-HTMLOrForeignElement
+HTMLOrSVGOrMathMLElement
 ;
 MathMLElement
 includes
