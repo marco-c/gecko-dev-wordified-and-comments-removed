@@ -252,6 +252,13 @@ h
 "
 src
 /
+Region
+.
+h
+"
+"
+src
+/
 RelativeTimeFormat
 .
 h
@@ -447,6 +454,13 @@ cpp
 src
 /
 PluralRules
+.
+cpp
+"
+"
+src
+/
+Region
 .
 cpp
 "
