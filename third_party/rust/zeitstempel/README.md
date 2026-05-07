@@ -553,6 +553,8 @@ Linux
 Android
 *
 iOS
+*
+FreeBSD
 For
 other
 operating
