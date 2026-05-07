@@ -2131,7 +2131,7 @@ nsIGlobalObject
 *
 global
 =
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -2330,7 +2330,7 @@ if
 NS_WARN_IF
 (
 !
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -2358,7 +2358,7 @@ Promise
 :
 CreateInfallible
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -3458,7 +3458,7 @@ if
 NS_WARN_IF
 (
 !
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -3662,7 +3662,7 @@ else
 {
 if
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 -
@@ -3687,7 +3687,7 @@ NS_IsMainThread
 {
 SetUseCounter
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 -
@@ -3937,7 +3937,7 @@ AcquireStrongRefFromRawPtr
 {
 }
 }
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )

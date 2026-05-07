@@ -2035,7 +2035,7 @@ Promise
 :
 CreateInfallible
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )

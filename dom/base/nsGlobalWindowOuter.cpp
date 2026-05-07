@@ -29264,7 +29264,7 @@ nsIGlobalObject
 nsGlobalWindowOuter
 :
 :
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 const

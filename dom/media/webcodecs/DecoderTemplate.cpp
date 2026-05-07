@@ -941,7 +941,7 @@ VideoDecoderConfig
 ApplyResistFingerprintingIfNeeded
 (
 config
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )

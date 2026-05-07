@@ -1664,7 +1664,7 @@ mImpl
 |
 |
 !
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -1679,7 +1679,7 @@ Promise
 :
 CreateInfallible
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )

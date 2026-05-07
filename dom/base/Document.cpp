@@ -73062,7 +73062,7 @@ Init
 doc
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -78313,7 +78313,7 @@ Init
 self
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
