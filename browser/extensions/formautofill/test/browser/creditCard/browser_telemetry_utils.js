@@ -975,7 +975,7 @@ focusSelector
 #
 cc
 -
-number
+name
 "
 newValues
 :
