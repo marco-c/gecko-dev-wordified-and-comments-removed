@@ -785,6 +785,7 @@ getToken
 )
 ;
 return
+await
 IPPFxaAuthProviderSingleton
 .
 #
@@ -1397,6 +1398,7 @@ abortSignal
 )
 ;
 return
+await
 this
 .
 #
@@ -1429,6 +1431,7 @@ abortSignal
 )
 ;
 return
+await
 this
 .
 #
