@@ -2696,6 +2696,20 @@ pOWL
 nullptr
 )
 ;
+int
+flag
+=
+mozilla
+:
+:
+IsWin11OrLater
+(
+)
+?
+0x84
+:
+0x2004
+;
 hr
 =
 pOWL
@@ -2709,7 +2723,7 @@ aFileType
 Data
 (
 )
-0x84
+flag
 )
 ;
 return
@@ -8994,6 +9008,11 @@ const
 nsAString
 &
 aShortcutPath
+const
+bool
+aFireAndForget
+=
+false
 )
 {
 if
@@ -9039,6 +9058,7 @@ PinCurrentAppToTaskbarWin11
 (
 aCheckOnly
 aAppUserModelId
+aFireAndForget
 )
 ;
 switch
@@ -9772,6 +9792,9 @@ aCheckOnly
 bool
 aPrivateBrowsing
 const
+bool
+aFireAndForget
+const
 nsAString
 &
 aAppUserModelId
@@ -10014,6 +10037,7 @@ PinShortcutToTaskbarImpl
 aCheckOnly
 aAppUserModelId
 shortcutPath
+aFireAndForget
 )
 ;
 }
@@ -10035,6 +10059,11 @@ Promise
 *
 *
 aPromise
+const
+bool
+aFireAndForget
+=
+false
 )
 {
 if
@@ -10325,6 +10354,7 @@ CheckPinCurrentAppToTaskbarAsync
 [
 aCheckOnly
 aPrivateBrowsing
+aFireAndForget
 shortcutName
 aumid
 =
@@ -10390,6 +10420,7 @@ PinCurrentAppToTaskbarImpl
 (
 aCheckOnly
 aPrivateBrowsing
+aFireAndForget
 aumid
 shortcutName
 shortcutSubstring
@@ -10500,6 +10531,8 @@ PinCurrentAppToTaskbarAsync
 (
 bool
 aPrivateBrowsing
+bool
+aFireAndForget
 JSContext
 *
 aCx
@@ -10519,6 +10552,7 @@ false
 aPrivateBrowsing
 aCx
 aPromise
+aFireAndForget
 )
 ;
 }
