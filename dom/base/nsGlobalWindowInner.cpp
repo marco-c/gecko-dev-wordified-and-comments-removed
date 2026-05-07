@@ -11120,7 +11120,7 @@ global
 =
 aEmbedder
 .
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;

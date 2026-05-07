@@ -598,7 +598,7 @@ nsIGlobalObject
 nsWindowRoot
 :
 :
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 const

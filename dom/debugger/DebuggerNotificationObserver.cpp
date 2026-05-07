@@ -35,7 +35,7 @@ dom
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 DebuggerNotificationObserver
-mOwnerGlobal
+mRelevantGlobal
 mEventListenerCallbacks
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
@@ -133,12 +133,12 @@ DebuggerNotificationObserver
 (
 nsIGlobalObject
 *
-aOwnerGlobal
+aRelevantGlobal
 )
 :
-mOwnerGlobal
+mRelevantGlobal
 (
-aOwnerGlobal
+aRelevantGlobal
 )
 {
 }
@@ -600,7 +600,7 @@ aNotification
 >
 CloneInto
 (
-mOwnerGlobal
+mRelevantGlobal
 )
 )
 ;

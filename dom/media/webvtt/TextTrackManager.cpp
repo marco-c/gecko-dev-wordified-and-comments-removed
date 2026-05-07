@@ -2578,7 +2578,7 @@ global
 mCue
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )

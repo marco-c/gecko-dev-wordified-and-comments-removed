@@ -307,7 +307,7 @@ override
 ;
 nsIGlobalObject
 *
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 const

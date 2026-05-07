@@ -96,7 +96,7 @@ GetParentObject
 const
 {
 return
-mOwnerGlobal
+mRelevantGlobal
 ;
 }
 virtual
@@ -196,7 +196,7 @@ DebuggerNotificationObserver
 (
 nsIGlobalObject
 *
-aOwnerGlobal
+aRelevantGlobal
 )
 ;
 ~
@@ -219,7 +219,7 @@ nsCOMPtr
 <
 nsIGlobalObject
 >
-mOwnerGlobal
+mRelevantGlobal
 ;
 }
 ;

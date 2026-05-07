@@ -545,7 +545,7 @@ Signal
 )
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )

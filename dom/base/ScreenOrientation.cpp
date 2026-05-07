@@ -3275,7 +3275,7 @@ nsContentUtils
 ShouldResistFingerprinting
 (
 aCallerType
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 RFPTarget
@@ -3371,7 +3371,7 @@ nsContentUtils
 ShouldResistFingerprinting
 (
 aCallerType
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 RFPTarget
@@ -3518,7 +3518,7 @@ nsContentUtils
 ShouldResistFingerprinting
 (
 aCallerType
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 RFPTarget
@@ -3635,7 +3635,7 @@ nsContentUtils
 ShouldResistFingerprinting
 (
 aCallerType
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 RFPTarget

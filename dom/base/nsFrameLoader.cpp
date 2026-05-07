@@ -14934,7 +14934,7 @@ Create
 ownerDoc
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 aRv
@@ -15366,7 +15366,7 @@ Create
 ownerDoc
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 aRv

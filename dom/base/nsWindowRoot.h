@@ -290,7 +290,7 @@ mParent
 }
 nsIGlobalObject
 *
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 const

@@ -450,7 +450,7 @@ nsIGlobalObject
 >
 global
 =
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;
@@ -552,7 +552,7 @@ Promise
 :
 CreateResolvedWithUndefined
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 aRv

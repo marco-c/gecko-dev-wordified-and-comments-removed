@@ -3077,7 +3077,7 @@ global
 target
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;

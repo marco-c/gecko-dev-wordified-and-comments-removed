@@ -32,7 +32,7 @@ AudioTrack
 (
 nsIGlobalObject
 *
-aOwnerGlobal
+aRelevantGlobal
 const
 nsAString
 &

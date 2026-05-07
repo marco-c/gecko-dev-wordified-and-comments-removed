@@ -3232,7 +3232,7 @@ nsIGlobalObject
 *
 global
 =
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;
@@ -3423,7 +3423,7 @@ nsIGlobalObject
 >
 globalObject
 =
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;

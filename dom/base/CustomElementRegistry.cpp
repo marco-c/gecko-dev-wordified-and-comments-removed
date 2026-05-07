@@ -7975,7 +7975,7 @@ elementData
 element
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -8055,7 +8055,7 @@ global
 element
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;

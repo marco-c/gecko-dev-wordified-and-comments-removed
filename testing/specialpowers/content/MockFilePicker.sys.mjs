@@ -943,7 +943,7 @@ init
 aBrowsingContext
 aTitle
 aMode
-aOwnerGlobal
+aRelevantGlobal
 )
 {
 this
@@ -964,7 +964,7 @@ this
 .
 window
 =
-aOwnerGlobal
+aRelevantGlobal
 |
 |
 aBrowsingContext

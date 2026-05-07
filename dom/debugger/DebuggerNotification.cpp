@@ -22,7 +22,7 @@ NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 DebuggerNotification
 mDebuggeeGlobal
-mOwnerGlobal
+mRelevantGlobal
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (

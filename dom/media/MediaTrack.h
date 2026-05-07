@@ -40,7 +40,7 @@ MediaTrack
 (
 nsIGlobalObject
 *
-aOwnerGlobal
+aRelevantGlobal
 const
 nsAString
 &

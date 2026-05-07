@@ -734,7 +734,7 @@ GetParentObject
 const
 {
 return
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;
@@ -805,7 +805,7 @@ aType
 virtual
 nsIGlobalObject
 *
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 const
