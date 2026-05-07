@@ -787,13 +787,14 @@ op
 )
 override
 ;
+bool
+needsToRecordInstruction_
+;
 public
 :
 WasmBaselinePerfSpewer
 (
 )
-=
-default
 ;
 WasmBaselinePerfSpewer
 (
