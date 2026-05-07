@@ -613,16 +613,6 @@ gfx
 ColorDepth
 mColorDepth
 ;
-const
-Maybe
-<
-gfx
-:
-:
-HDRMetadata
->
-mHDRMetadata
-;
 MediaResult
 InitializeSession
 (

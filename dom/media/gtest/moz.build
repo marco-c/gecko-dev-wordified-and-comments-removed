@@ -307,11 +307,6 @@ TestGroupId
 cpp
 "
 "
-TestHDRUtils
-.
-cpp
-"
-"
 TestImageConversion
 .
 cpp
