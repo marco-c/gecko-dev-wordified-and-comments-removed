@@ -171,7 +171,7 @@ event_mask
 XScreenSaverInfo
 ;
 typedef
-bool
+Bool
 (
 *
 _XScreenSaverQueryExtension_fn
