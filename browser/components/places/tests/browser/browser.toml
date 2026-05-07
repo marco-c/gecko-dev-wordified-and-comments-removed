@@ -401,6 +401,13 @@ js
 ]
 [
 "
+browser_bookmark_context_on_gutter
+.
+js
+"
+]
+[
+"
 browser_bookmark_context_menu_contents
 .
 js
