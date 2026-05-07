@@ -2575,8 +2575,6 @@ browsertime
 "
 macosx64
 -
-aarch64
--
 geckodriver
 "
                     
@@ -2604,8 +2602,6 @@ browsertime
                     
 "
 macosx64
--
-aarch64
 -
 geckodriver
 "
