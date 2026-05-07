@@ -4186,6 +4186,13 @@ appStore
 components
 .
 appStore
+browserStore
+=
+components
+.
+core
+.
+store
 settings
 =
 components
