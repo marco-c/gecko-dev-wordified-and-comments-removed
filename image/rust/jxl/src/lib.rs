@@ -19,10 +19,6 @@ undocumented_unsafe_blocks
 ]
 pub
 mod
-cms
-;
-pub
-mod
 decoder
 ;
 pub

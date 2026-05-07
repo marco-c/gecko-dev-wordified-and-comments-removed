@@ -2470,6 +2470,9 @@ c_bindings
 "
 neon
 "
+"
+cmyk
+"
 ]
 default
 -
