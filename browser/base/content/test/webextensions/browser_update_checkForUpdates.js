@@ -1,9 +1,11 @@
+async
 function
 checkAll
 (
 win
 )
 {
+await
 triggerPageOptionsAction
 (
 win

@@ -217,6 +217,7 @@ waitForUpdate
 addon
 )
 ;
+await
 triggerPageOptionsAction
 (
 win
