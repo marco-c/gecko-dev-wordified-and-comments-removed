@@ -29587,7 +29587,7 @@ Cerrar
 pesta
 a
 y
-eliminar
+borrar
 grupo
 ?
 <
@@ -76500,8 +76500,8 @@ ignore
 UnusedResources
 "
 >
-Tiempo
-completo
+Partido
+terminado
 <
 /
 string
@@ -77682,7 +77682,8 @@ sitio
 de
 la
 Copa
-Mundial
+Del
+Mundo
 <
 /
 string
@@ -77858,7 +77859,7 @@ UnusedResources
 >
 %
 s
-juego
+partido
 en
 vivo
 <
@@ -78197,7 +78198,7 @@ la
 Copa
 del
 Mundo
-de
+del
 inicio
 <
 /
