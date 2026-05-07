@@ -660,6 +660,11 @@ helper_test_select_popup_position_zoomed
 .
 html
 "
+"
+helper_test_select_popup_position_iframe_zoom
+.
+html
+"
 ]
 [
 "

@@ -9510,7 +9510,7 @@ LayoutDeviceRect
 FromAppUnits
 (
 appUnitsRect
-presContext
+rootPresContext
 -
 >
 AppUnitsPerDevPixel
