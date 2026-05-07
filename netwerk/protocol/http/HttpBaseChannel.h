@@ -2638,6 +2638,13 @@ GetResponseTrailers
 )
 const
 {
+MOZ_DIAGNOSTIC_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 return
 mResponseTrailers
 .
