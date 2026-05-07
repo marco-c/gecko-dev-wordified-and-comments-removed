@@ -363,13 +363,6 @@ appname
 :
 &
 str
-cert_replace_script
-:
-Option
-<
-&
-Path
->
 cert_dir
 :
 Option
@@ -690,11 +683,9 @@ prepare_updater
 (
 updater_package
 appname
-cert_replace_script
 cert_dir
 cert_overrides
 unpack_dir
-runner
 )
 ;
 return
@@ -2168,7 +2159,6 @@ release
 "
 firefox
 "
-None
 None
 &
 vec
