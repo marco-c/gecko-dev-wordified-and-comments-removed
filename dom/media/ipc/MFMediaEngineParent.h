@@ -546,6 +546,16 @@ mIsCreatedMediaEngine
 =
 false
 ;
+bool
+mDCompModeEnabled
+=
+false
+;
+bool
+mIsFrameServerMode
+=
+false
+;
 Microsoft
 :
 :

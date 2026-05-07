@@ -134,6 +134,12 @@ CancelVideoSuspendTimer
 VideoOnlySeekBegin
 VideoOnlySeekCompleted
 PlaybackRateFallback
+#
+ifdef
+MOZ_WMF_CDM
+FrameServerMode
+#
+endif
 }
 mType
 ;

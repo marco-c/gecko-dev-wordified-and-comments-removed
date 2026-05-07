@@ -344,6 +344,11 @@ uint32_t
 height
 )
 ;
+async
+NotifyFrameServerMode
+(
+)
+;
 }
 ;
 }

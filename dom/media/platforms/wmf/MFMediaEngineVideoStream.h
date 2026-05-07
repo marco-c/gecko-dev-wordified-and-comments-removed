@@ -145,6 +145,11 @@ IntSize
 aDisplay
 )
 ;
+void
+SetFrameServerMode
+(
+)
+;
 MFMediaEngineVideoStream
 *
 AsVideoStream
@@ -378,6 +383,11 @@ false
 ;
 bool
 mSwitchedClearToEncrypted
+=
+false
+;
+bool
+mFrameServerMode
 =
 false
 ;
