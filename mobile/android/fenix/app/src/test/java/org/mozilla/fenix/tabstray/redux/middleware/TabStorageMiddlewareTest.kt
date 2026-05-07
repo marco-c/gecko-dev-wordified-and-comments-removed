@@ -7602,9 +7602,7 @@ NormalTabsState
 (
 tabCount
 =
-tabs
-.
-size
+0
 )
 tabGroupState
 =
