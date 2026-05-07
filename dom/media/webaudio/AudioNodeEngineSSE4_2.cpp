@@ -15,13 +15,7 @@ Engine
 xsimd
 :
 :
-fma3
-<
-xsimd
-:
-:
 sse4_2
->
 >
 ;
 }
