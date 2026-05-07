@@ -215,9 +215,6 @@ PANELSTATES
 signedOutVPNOff
 :
 {
-isSignedOut
-:
-true
 unauthenticated
 :
 true
@@ -228,9 +225,6 @@ false
 signedInVPNOff
 :
 {
-isSignedOut
-:
-false
 unauthenticated
 :
 false
@@ -241,9 +235,6 @@ false
 signedInVPNOn
 :
 {
-isSignedOut
-:
-false
 unauthenticated
 :
 false
@@ -1116,9 +1107,6 @@ await
 openPanel
 (
 {
-isSignedOut
-:
-false
 unauthenticated
 :
 false
@@ -1320,9 +1308,6 @@ await
 openPanel
 (
 {
-isSignedOut
-:
-true
 unauthenticated
 :
 true
@@ -1438,9 +1423,6 @@ await
 openPanel
 (
 {
-isSignedOut
-:
-false
 unauthenticated
 :
 false
@@ -1481,9 +1463,6 @@ await
 setPanelState
 (
 {
-isSignedOut
-:
-false
 unauthenticated
 :
 false

@@ -125,9 +125,6 @@ await
 openPanel
 (
 {
-isSignedOut
-:
-false
 unauthenticated
 :
 false

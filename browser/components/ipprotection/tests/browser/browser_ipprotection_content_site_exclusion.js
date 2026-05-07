@@ -161,9 +161,6 @@ await
 openPanel
 (
 {
-isSignedOut
-:
-false
 isProtectionEnabled
 :
 true
@@ -368,9 +365,6 @@ await
 openPanel
 (
 {
-isSignedOut
-:
-false
 isProtectionEnabled
 :
 false
@@ -457,9 +451,6 @@ await
 setPanelState
 (
 {
-isSignedOut
-:
-false
 isProtectionEnabled
 :
 true
@@ -568,9 +559,6 @@ await
 openPanel
 (
 {
-isSignedOut
-:
-false
 isProtectionEnabled
 :
 false
@@ -661,9 +649,6 @@ await
 openPanel
 (
 {
-isSignedOut
-:
-false
 isProtectionEnabled
 :
 true
@@ -749,9 +734,6 @@ await
 setPanelState
 (
 {
-isSignedOut
-:
-false
 isProtectionEnabled
 :
 true
@@ -850,9 +832,6 @@ await
 openPanel
 (
 {
-isSignedOut
-:
-false
 isProtectionEnabled
 :
 true
@@ -996,9 +975,6 @@ await
 setPanelState
 (
 {
-isSignedOut
-:
-false
 isProtectionEnabled
 :
 true
@@ -1155,9 +1131,6 @@ await
 openPanel
 (
 {
-isSignedOut
-:
-false
 isProtectionEnabled
 :
 true
@@ -1670,9 +1643,6 @@ await
 openPanel
 (
 {
-isSignedOut
-:
-false
 isProtectionEnabled
 :
 true
@@ -2067,9 +2037,6 @@ await
 openPanel
 (
 {
-isSignedOut
-:
-false
 isProtectionEnabled
 :
 true
@@ -2843,9 +2810,6 @@ await
 openPanel
 (
 {
-isSignedOut
-:
-false
 isProtectionEnabled
 :
 true
