@@ -19552,6 +19552,8 @@ var
 panel
 -
 background
+-
+color
 )
 var
 (
@@ -19560,6 +19562,8 @@ var
 panel
 -
 background
+-
+color
 )
 )
 "
@@ -19571,6 +19575,8 @@ var
 -
 -
 panel
+-
+text
 -
 color
 )
@@ -20270,6 +20276,8 @@ var
 panel
 -
 background
+-
+color
 )
 var
 (
@@ -20278,6 +20286,8 @@ var
 panel
 -
 background
+-
+color
 )
 )
 "
@@ -20313,6 +20323,8 @@ var
 panel
 -
 background
+-
+color
 )
 )
 )
@@ -20349,6 +20361,8 @@ var
 panel
 -
 background
+-
+color
 )
 )
 )
@@ -20367,6 +20381,8 @@ var
 panel
 -
 background
+-
+color
 )
 "
 "
@@ -20385,6 +20401,8 @@ var
 panel
 -
 background
+-
+color
 )
 "
 "

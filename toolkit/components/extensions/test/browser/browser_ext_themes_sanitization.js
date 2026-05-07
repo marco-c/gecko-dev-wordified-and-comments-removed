@@ -150,6 +150,10 @@ var
 -
 panel
 -
+background
+-
+color
+-
 dimmed
 )
 "

@@ -2581,6 +2581,8 @@ var
 -
 panel
 -
+text
+-
 color
 )
 ;
@@ -2593,6 +2595,8 @@ var
 panel
 -
 background
+-
+color
 )
 ;
 background
@@ -2840,6 +2844,8 @@ var
 panel
 -
 background
+-
+color
 )
 ;
 stroke
