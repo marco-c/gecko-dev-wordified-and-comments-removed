@@ -558,7 +558,7 @@ GetParentObject
 const
 {
 return
-mOwner
+mGlobal
 ;
 }
 already_AddRefed

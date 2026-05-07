@@ -152,7 +152,7 @@ dom
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 LockManager
-mOwner
+mGlobal
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
@@ -215,7 +215,7 @@ nsIGlobalObject
 aGlobal
 )
 :
-mOwner
+mGlobal
 (
 aGlobal
 )
@@ -864,7 +864,7 @@ aRv
 if
 (
 !
-mOwner
+mGlobal
 -
 >
 PrincipalOrNull
@@ -873,7 +873,7 @@ PrincipalOrNull
 |
 |
 !
-mOwner
+mGlobal
 -
 >
 PrincipalOrNull
@@ -889,7 +889,7 @@ IsSystemPrincipal
 if
 (
 !
-mOwner
+mGlobal
 -
 >
 GetClientInfo
@@ -924,7 +924,7 @@ const
 StorageAccess
 access
 =
-mOwner
+mGlobal
 -
 >
 GetStorageAccess
@@ -1072,7 +1072,7 @@ Promise
 :
 Create
 (
-mOwner
+mGlobal
 aRv
 )
 ;
@@ -1132,7 +1132,7 @@ aRv
 if
 (
 !
-mOwner
+mGlobal
 -
 >
 PrincipalOrNull
@@ -1141,7 +1141,7 @@ PrincipalOrNull
 |
 |
 !
-mOwner
+mGlobal
 -
 >
 PrincipalOrNull
@@ -1157,7 +1157,7 @@ IsSystemPrincipal
 if
 (
 !
-mOwner
+mGlobal
 -
 >
 GetClientInfo
@@ -1190,7 +1190,7 @@ nullptr
 }
 if
 (
-mOwner
+mGlobal
 -
 >
 GetStorageAccess
@@ -1298,7 +1298,7 @@ Promise
 :
 Create
 (
-mOwner
+mGlobal
 aRv
 )
 ;

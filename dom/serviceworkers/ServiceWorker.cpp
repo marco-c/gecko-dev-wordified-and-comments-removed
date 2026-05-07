@@ -225,7 +225,7 @@ Create
 (
 nsIGlobalObject
 *
-aOwner
+aGlobal
 const
 ServiceWorkerDescriptor
 &
@@ -241,7 +241,7 @@ ref
 new
 ServiceWorker
 (
-aOwner
+aGlobal
 aDescriptor
 )
 ;

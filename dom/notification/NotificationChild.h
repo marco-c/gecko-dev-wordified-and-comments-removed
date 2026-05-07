@@ -118,7 +118,7 @@ FrozenCallback
 (
 nsIGlobalObject
 *
-aOwner
+aGlobal
 )
 override
 ;

@@ -274,7 +274,7 @@ GetParentObject
 const
 {
 return
-mOwner
+mGlobal
 ;
 }
 virtual
@@ -333,7 +333,7 @@ DOMParser
 (
 nsIGlobalObject
 *
-aOwner
+aGlobal
 nsIPrincipal
 *
 aDocPrincipal
@@ -359,7 +359,7 @@ nsCOMPtr
 <
 nsIGlobalObject
 >
-mOwner
+mGlobal
 ;
 nsCOMPtr
 <
