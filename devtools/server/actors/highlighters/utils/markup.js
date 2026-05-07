@@ -2195,7 +2195,7 @@ contentWindow
 &
 iframeOrWindow
 .
-documentGlobal
+ownerGlobal
 !
 =
 =

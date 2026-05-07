@@ -958,7 +958,7 @@ doc
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 document
 ;
@@ -1257,7 +1257,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (

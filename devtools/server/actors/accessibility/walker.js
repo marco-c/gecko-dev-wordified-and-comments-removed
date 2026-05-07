@@ -4030,7 +4030,7 @@ win
 =
 target
 .
-documentGlobal
+ownerGlobal
 ;
 const
 docAcc

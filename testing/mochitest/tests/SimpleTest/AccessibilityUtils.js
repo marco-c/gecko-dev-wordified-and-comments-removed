@@ -604,7 +604,7 @@ node
 !
 node
 .
-documentGlobal
+ownerGlobal
 |
 |
 node
@@ -681,7 +681,7 @@ node
 !
 node
 .
-documentGlobal
+ownerGlobal
 )
 {
 return
@@ -740,7 +740,7 @@ false
 return
 node
 .
-documentGlobal
+ownerGlobal
 .
 ToolbarKeyboardNavigator
 .
@@ -772,7 +772,7 @@ node
 !
 node
 .
-documentGlobal
+ownerGlobal
 )
 {
 return
@@ -1052,7 +1052,7 @@ node
 !
 node
 .
-documentGlobal
+ownerGlobal
 )
 {
 return
@@ -1137,7 +1137,7 @@ node
 !
 node
 .
-documentGlobal
+ownerGlobal
 )
 {
 return
@@ -1180,7 +1180,7 @@ return
 (
 node
 .
-documentGlobal
+ownerGlobal
 .
 PanelView
 .
@@ -1225,7 +1225,7 @@ node
 !
 node
 .
-documentGlobal
+ownerGlobal
 )
 {
 return
@@ -1319,7 +1319,7 @@ node
 !
 node
 .
-documentGlobal
+ownerGlobal
 )
 {
 return
@@ -1524,7 +1524,7 @@ node
 !
 node
 .
-documentGlobal
+ownerGlobal
 )
 {
 return
@@ -1704,7 +1704,7 @@ node
 !
 node
 .
-documentGlobal
+ownerGlobal
 )
 {
 return
@@ -1918,7 +1918,7 @@ node
 !
 node
 .
-documentGlobal
+ownerGlobal
 )
 {
 return
@@ -1979,7 +1979,7 @@ node
 !
 node
 .
-documentGlobal
+ownerGlobal
 )
 {
 return
@@ -2084,7 +2084,7 @@ node
 !
 node
 .
-documentGlobal
+ownerGlobal
 )
 {
 return
@@ -2205,7 +2205,7 @@ node
 !
 node
 .
-documentGlobal
+ownerGlobal
 )
 {
 return
@@ -2436,7 +2436,7 @@ node
 !
 node
 .
-documentGlobal
+ownerGlobal
 )
 {
 return
@@ -2599,7 +2599,7 @@ node
 !
 node
 .
-documentGlobal
+ownerGlobal
 )
 {
 return
@@ -4721,7 +4721,7 @@ bounds
 =
 composedTarget
 .
-documentGlobal
+ownerGlobal
 ?
 .
 windowUtils

@@ -469,7 +469,7 @@ win
 >
 gBrowser
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (

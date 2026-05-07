@@ -306,7 +306,7 @@ NS_DOMEVENTTARGETHELPER_IID
 )
 nsIGlobalObject
 *
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 const
@@ -316,7 +316,7 @@ return
 GlobalTeardownObserver
 :
 :
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;
@@ -414,6 +414,13 @@ nsAtom
 aTypeWithOn
 )
 const
+;
+nsPIDOMWindowOuter
+*
+GetOwnerGlobalForBindingsInternal
+(
+)
+override
 ;
 nsPIDOMWindowInner
 *

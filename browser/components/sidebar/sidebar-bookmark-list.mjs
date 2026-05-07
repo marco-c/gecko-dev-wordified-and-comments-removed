@@ -4491,7 +4491,7 @@ tab
 &
 data
 .
-documentGlobal
+ownerGlobal
 .
 isChromeWindow
 )
@@ -4569,7 +4569,7 @@ wrapper
 &
 data
 .
-documentGlobal
+ownerGlobal
 .
 isChromeWindow
 )

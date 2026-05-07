@@ -233,7 +233,7 @@ gIdentityHandler
 =
 testBrowser
 .
-documentGlobal
+ownerGlobal
 ;
 ok
 (

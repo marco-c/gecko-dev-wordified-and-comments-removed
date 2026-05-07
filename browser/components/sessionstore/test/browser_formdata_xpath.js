@@ -750,7 +750,7 @@ true
 true
 node
 .
-documentGlobal
+ownerGlobal
 0
 )
 ;
@@ -965,7 +965,7 @@ true
 true
 node
 .
-documentGlobal
+ownerGlobal
 0
 )
 ;

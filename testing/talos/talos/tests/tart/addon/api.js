@@ -258,7 +258,7 @@ win
 =
 target
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (

@@ -150,7 +150,7 @@ win
 =
 doc
 .
-documentGlobal
+ownerGlobal
 ;
 }
 )
@@ -442,7 +442,7 @@ docShell
 .
 chromeEventHandler
 .
-documentGlobal
+ownerGlobal
 )
 ;
 EventUtils
@@ -588,7 +588,7 @@ enabled
 await
 gBrowser
 .
-documentGlobal
+ownerGlobal
 .
 SidebarController
 .
@@ -834,7 +834,7 @@ docShell
 .
 chromeEventHandler
 .
-documentGlobal
+ownerGlobal
 )
 ;
 EventUtils
@@ -1106,7 +1106,7 @@ docShell
 .
 chromeEventHandler
 .
-documentGlobal
+ownerGlobal
 )
 ;
 EventUtils
@@ -1251,7 +1251,7 @@ selectedTab
 await
 gBrowser
 .
-documentGlobal
+ownerGlobal
 .
 SidebarController
 .
@@ -1631,7 +1631,7 @@ available
 await
 gBrowser
 .
-documentGlobal
+ownerGlobal
 .
 SidebarController
 .

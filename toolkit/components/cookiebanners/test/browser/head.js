@@ -1851,7 +1851,7 @@ chromeWin
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 is
 (

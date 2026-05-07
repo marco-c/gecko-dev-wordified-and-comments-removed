@@ -323,7 +323,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -842,7 +842,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 const
 msgContainer
@@ -1085,7 +1085,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 const
 document
@@ -1163,7 +1163,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 const
 {

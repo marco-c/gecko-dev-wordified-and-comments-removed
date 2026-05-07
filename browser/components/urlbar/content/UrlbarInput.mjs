@@ -1037,7 +1037,7 @@ element
 >
 element
 .
-documentGlobal
+ownerGlobal
 .
 windowUtils
 .
@@ -2235,7 +2235,7 @@ window
 =
 this
 .
-documentGlobal
+ownerGlobal
 ;
 this
 .

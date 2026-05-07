@@ -997,7 +997,7 @@ SpecialPowers
 =
 chromeDoc
 .
-documentGlobal
+ownerGlobal
 ;
 SpecialPowers
 .
@@ -1315,7 +1315,7 @@ this
 .
 browser
 .
-documentGlobal
+ownerGlobal
 .
 SpecialPowers
 ;

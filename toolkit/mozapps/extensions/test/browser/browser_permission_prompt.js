@@ -8272,7 +8272,7 @@ AppConstants
 BROWSER_CHROME_URL
 tab
 .
-documentGlobal
+ownerGlobal
 .
 window
 .

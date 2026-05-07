@@ -10000,7 +10000,7 @@ Blob
 :
 Create
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 mResponseData

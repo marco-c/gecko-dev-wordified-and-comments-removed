@@ -1469,7 +1469,7 @@ win
 =
 hintEl
 .
-documentGlobal
+ownerGlobal
 ;
 ok
 (

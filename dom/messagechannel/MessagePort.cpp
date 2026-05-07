@@ -1519,7 +1519,7 @@ nsIGlobalObject
 >
 global
 =
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;

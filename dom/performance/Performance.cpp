@@ -5352,7 +5352,7 @@ nsIGlobalObject
 *
 global
 =
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )

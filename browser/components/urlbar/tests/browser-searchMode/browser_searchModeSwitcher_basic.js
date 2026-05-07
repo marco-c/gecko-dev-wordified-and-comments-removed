@@ -877,7 +877,7 @@ isVisible
 (
 tab
 .
-documentGlobal
+ownerGlobal
 .
 document
 .

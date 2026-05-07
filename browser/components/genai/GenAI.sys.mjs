@@ -2561,7 +2561,7 @@ window
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 const
 tab
@@ -3317,7 +3317,7 @@ browser
 =
 document
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -4083,7 +4083,7 @@ isAIWindowActive
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 |
 |
@@ -4101,7 +4101,7 @@ window
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 const
 {
@@ -4625,7 +4625,7 @@ isAIWindowActive
 (
 browser
 .
-documentGlobal
+ownerGlobal
 ?
 .
 browsingContext
@@ -4636,7 +4636,7 @@ topChromeWindow
 ?
 browser
 .
-documentGlobal
+ownerGlobal
 )
 )
 {
@@ -4693,7 +4693,7 @@ isPopup
 !
 browser
 .
-documentGlobal
+ownerGlobal
 .
 toolbar
 .
@@ -5386,7 +5386,7 @@ window
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 window
 .

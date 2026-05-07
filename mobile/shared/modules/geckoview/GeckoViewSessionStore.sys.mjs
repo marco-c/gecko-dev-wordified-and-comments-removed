@@ -429,7 +429,7 @@ browsingContext
 embedderElement
 ?
 .
-documentGlobal
+ownerGlobal
 |
 |
 browsingContext
@@ -1329,7 +1329,7 @@ browsingContext
 embedderElement
 ?
 .
-documentGlobal
+ownerGlobal
 |
 |
 browsingContext

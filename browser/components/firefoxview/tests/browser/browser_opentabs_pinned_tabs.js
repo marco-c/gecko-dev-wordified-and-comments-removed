@@ -1118,7 +1118,7 @@ TabChange
 ;
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -1145,7 +1145,7 @@ tab
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 FirefoxViewHandler
 .
@@ -1154,7 +1154,7 @@ tab
 {
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .

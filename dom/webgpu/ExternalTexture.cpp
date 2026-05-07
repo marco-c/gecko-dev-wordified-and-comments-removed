@@ -1232,7 +1232,7 @@ global
 aDevice
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;

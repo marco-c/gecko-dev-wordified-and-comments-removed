@@ -102,7 +102,7 @@ gBrowser
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 ;

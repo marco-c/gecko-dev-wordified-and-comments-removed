@@ -614,7 +614,7 @@ if
 browser
 ?
 .
-documentGlobal
+ownerGlobal
 ?
 .
 browsingContext
@@ -925,7 +925,7 @@ browser
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 browsingContext
 .
@@ -1093,7 +1093,7 @@ win
 browser
 ?
 .
-documentGlobal
+ownerGlobal
 ;
 }
 /

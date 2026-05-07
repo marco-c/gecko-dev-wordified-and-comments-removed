@@ -174,7 +174,7 @@ TrackingProtection
 =
 gBrowser
 .
-documentGlobal
+ownerGlobal
 .
 gProtectionsHandler
 .

@@ -1149,7 +1149,7 @@ populateWebGlInfo
 [
 browser
 .
-documentGlobal
+ownerGlobal
 browser
 .
 ownerDocument
@@ -1164,7 +1164,7 @@ populateWebGlInfo
 [
 browser
 .
-documentGlobal
+ownerGlobal
 browser
 .
 ownerDocument
@@ -1179,7 +1179,7 @@ populateWebGlInfo
 [
 browser
 .
-documentGlobal
+ownerGlobal
 browser
 .
 ownerDocument
@@ -1194,7 +1194,7 @@ populateWebGlInfo
 [
 browser
 .
-documentGlobal
+ownerGlobal
 browser
 .
 ownerDocument
@@ -1216,7 +1216,7 @@ populateWebGPUProperties
 [
 browser
 .
-documentGlobal
+ownerGlobal
 ]
 ]
 [
@@ -1226,7 +1226,7 @@ populateUserAgent
 [
 browser
 .
-documentGlobal
+ownerGlobal
 ]
 ]
 ]

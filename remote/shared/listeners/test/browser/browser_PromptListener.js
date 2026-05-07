@@ -1021,7 +1021,7 @@ window
 :
 selectedBrowser
 .
-documentGlobal
+ownerGlobal
 }
 )
 )

@@ -104,7 +104,7 @@ owner
 embedder
 ?
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (

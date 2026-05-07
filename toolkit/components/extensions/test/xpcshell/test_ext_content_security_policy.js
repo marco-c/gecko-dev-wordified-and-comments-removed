@@ -1348,7 +1348,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 function
 getCsp

@@ -2142,7 +2142,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 this
 .
@@ -6315,7 +6315,7 @@ browser
 {
 browser
 .
-documentGlobal
+ownerGlobal
 .
 FirefoxViewHandler
 .

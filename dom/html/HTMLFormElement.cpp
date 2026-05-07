@@ -3583,7 +3583,7 @@ formData
 new
 FormData
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 encoding
@@ -7765,7 +7765,7 @@ jsapi
 .
 Init
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )

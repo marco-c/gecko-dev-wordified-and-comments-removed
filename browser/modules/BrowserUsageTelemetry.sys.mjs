@@ -2455,7 +2455,7 @@ isWindowPrivate
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 |
 |
@@ -2577,7 +2577,7 @@ if
 (
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gInitialPages
 .
@@ -6584,7 +6584,7 @@ isAboutPreferences
 {
 node
 .
-documentGlobal
+ownerGlobal
 .
 recordSettingChangeTelemetry
 ?

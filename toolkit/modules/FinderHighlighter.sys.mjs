@@ -2382,7 +2382,7 @@ window
 =
 node
 .
-documentGlobal
+ownerGlobal
 ;
 let
 controller
@@ -6014,7 +6014,7 @@ style
 =
 frame
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (
@@ -6415,7 +6415,7 @@ style
 =
 node
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (
@@ -7621,7 +7621,7 @@ range
 .
 startContainer
 .
-documentGlobal
+ownerGlobal
 ;
 let
 bounds
@@ -8004,7 +8004,7 @@ range
 .
 startContainer
 .
-documentGlobal
+ownerGlobal
 ;
 let
 rectsAndTexts
@@ -8532,7 +8532,7 @@ range
 .
 startContainer
 .
-documentGlobal
+ownerGlobal
 )
 ;
 let

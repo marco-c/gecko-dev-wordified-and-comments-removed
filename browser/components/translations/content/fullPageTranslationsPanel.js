@@ -4101,7 +4101,7 @@ top
 .
 embedderElement
 .
-documentGlobal
+ownerGlobal
 ;
 window
 .
@@ -5383,7 +5383,7 @@ top
 .
 embedderElement
 .
-documentGlobal
+ownerGlobal
 ;
 window
 .

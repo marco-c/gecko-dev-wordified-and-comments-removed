@@ -4163,7 +4163,7 @@ this
 .
 document
 .
-documentGlobal
+ownerGlobal
 )
 }
 ;

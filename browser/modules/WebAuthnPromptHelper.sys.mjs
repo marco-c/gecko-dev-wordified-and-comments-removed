@@ -287,7 +287,7 @@ _tid
 {
 aSubject
 .
-documentGlobal
+ownerGlobal
 .
 FullScreen
 .

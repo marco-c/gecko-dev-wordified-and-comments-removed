@@ -2524,7 +2524,7 @@ Promise
 :
 Create
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 aRv
@@ -3240,7 +3240,7 @@ Promise
 :
 Create
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 aRv
@@ -3935,7 +3935,7 @@ Promise
 :
 Create
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 aRv

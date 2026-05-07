@@ -3112,7 +3112,7 @@ tab
 =
 aBrowser
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .

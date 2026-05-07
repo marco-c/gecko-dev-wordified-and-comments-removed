@@ -293,7 +293,7 @@ box
 .
 stack
 .
-documentGlobal
+ownerGlobal
 .
 MozXULElement
 ;
@@ -588,7 +588,7 @@ box
 .
 stack
 .
-documentGlobal
+ownerGlobal
 .
 MozXULElement
 ;

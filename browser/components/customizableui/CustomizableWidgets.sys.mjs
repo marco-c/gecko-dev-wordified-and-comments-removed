@@ -887,7 +887,7 @@ PlacesCommandHook
 =
 target
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -1803,7 +1803,7 @@ aEvent
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -1914,7 +1914,7 @@ aEvent
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -1959,7 +1959,7 @@ SidebarController
 =
 aNode
 .
-documentGlobal
+ownerGlobal
 ;
 SidebarController
 .
@@ -2886,7 +2886,7 @@ node
 {
 node
 .
-documentGlobal
+ownerGlobal
 .
 updateEditUIVisibility
 (
@@ -2909,7 +2909,7 @@ node
 {
 node
 .
-documentGlobal
+ownerGlobal
 .
 updateEditUIVisibility
 (
@@ -3468,7 +3468,7 @@ getAttribute
 (
 panelview
 .
-documentGlobal
+ownerGlobal
 .
 gSync
 .
@@ -3709,7 +3709,7 @@ gSync
 =
 button
 .
-documentGlobal
+ownerGlobal
 ;
 switch
 (
@@ -3938,7 +3938,7 @@ aEvent
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 win
 .
@@ -4249,7 +4249,7 @@ aEvent
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 let
 doc
@@ -4448,7 +4448,7 @@ e
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 win
 .

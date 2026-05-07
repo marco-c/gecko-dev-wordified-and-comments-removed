@@ -4046,7 +4046,7 @@ DownloadsPanel
 =
 button
 .
-documentGlobal
+ownerGlobal
 ;
 switch
 (

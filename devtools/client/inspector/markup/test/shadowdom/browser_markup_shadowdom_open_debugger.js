@@ -648,7 +648,7 @@ VK_RETURN
 }
 customBadge
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await

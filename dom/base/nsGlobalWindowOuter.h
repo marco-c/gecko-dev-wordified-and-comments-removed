@@ -995,6 +995,7 @@ BrowsingContext
 _retval
 )
 ;
+virtual
 mozilla
 :
 :
@@ -1006,6 +1007,7 @@ GetExistingListenerManager
 const
 override
 ;
+virtual
 mozilla
 :
 :
@@ -1028,9 +1030,18 @@ aRv
 )
 final
 ;
+virtual
+nsPIDOMWindowOuter
+*
+GetOwnerGlobalForBindingsInternal
+(
+)
+override
+;
+virtual
 nsIGlobalObject
 *
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 const

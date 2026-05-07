@@ -813,7 +813,7 @@ true
 true
 button
 .
-documentGlobal
+ownerGlobal
 )
 ;
 button

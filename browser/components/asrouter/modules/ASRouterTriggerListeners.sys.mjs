@@ -2153,7 +2153,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 )
@@ -2170,7 +2170,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 const
 match
@@ -4906,7 +4906,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 )
@@ -4923,7 +4923,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 this
 .
@@ -5125,7 +5125,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 )
@@ -5142,7 +5142,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 this
 .
@@ -5345,7 +5345,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 )
@@ -5362,7 +5362,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 this
 .
@@ -5560,7 +5560,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 )
@@ -5577,7 +5577,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 this
 .
@@ -5775,7 +5775,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 )
@@ -5792,7 +5792,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 this
 .
@@ -7673,7 +7673,7 @@ win
 browser
 ?
 .
-documentGlobal
+ownerGlobal
 ;
 /
 /
@@ -8221,7 +8221,7 @@ win
 =
 tabbrowser
 .
-documentGlobal
+ownerGlobal
 ;
 const
 tab
@@ -8354,7 +8354,7 @@ win
 =
 tab
 .
-documentGlobal
+ownerGlobal
 ;
 const
 {
@@ -9052,7 +9052,7 @@ win
 =
 tabbrowser
 .
-documentGlobal
+ownerGlobal
 ;
 const
 tab
@@ -9210,7 +9210,7 @@ win
 =
 tab
 .
-documentGlobal
+ownerGlobal
 ;
 const
 {
@@ -9729,7 +9729,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 /
 /

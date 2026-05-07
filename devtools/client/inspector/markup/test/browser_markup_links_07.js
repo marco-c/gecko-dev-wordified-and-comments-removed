@@ -246,7 +246,7 @@ linkEl
 }
 linkEl
 .
-documentGlobal
+ownerGlobal
 )
 ;
 const

@@ -1423,7 +1423,7 @@ window
 =
 triggerMenuItem
 .
-documentGlobal
+ownerGlobal
 ;
 await
 EventUtils

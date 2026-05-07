@@ -279,7 +279,7 @@ isEmbedded
 !
 commonDialogEl
 .
-documentGlobal
+ownerGlobal
 .
 docShell
 .

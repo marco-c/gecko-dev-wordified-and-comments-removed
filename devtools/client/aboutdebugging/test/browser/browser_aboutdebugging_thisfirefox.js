@@ -195,7 +195,7 @@ blank
 ;
 targetTab
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -360,7 +360,7 @@ win
 =
 doc
 .
-documentGlobal
+ownerGlobal
 ;
 const
 selectedSidebarItem

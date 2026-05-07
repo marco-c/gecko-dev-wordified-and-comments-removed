@@ -183,7 +183,7 @@ aParent
 .
 embedderElement
 .
-documentGlobal
+ownerGlobal
 ;
 }
 }

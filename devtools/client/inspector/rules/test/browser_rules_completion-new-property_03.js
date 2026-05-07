@@ -268,7 +268,7 @@ node
 }
 node
 .
-documentGlobal
+ownerGlobal
 )
 ;
 is

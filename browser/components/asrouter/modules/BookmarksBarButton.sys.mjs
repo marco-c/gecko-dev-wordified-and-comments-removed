@@ -191,7 +191,7 @@ gBrowser
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 const
 featureId

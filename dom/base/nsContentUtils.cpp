@@ -32655,7 +32655,7 @@ global
 aTarget
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;

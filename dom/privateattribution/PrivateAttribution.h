@@ -85,7 +85,7 @@ GetParentObject
 const
 {
 return
-mGlobal
+mOwner
 ;
 }
 JSObject
@@ -157,7 +157,7 @@ nsCOMPtr
 <
 nsIGlobalObject
 >
-mGlobal
+mOwner
 ;
 }
 ;

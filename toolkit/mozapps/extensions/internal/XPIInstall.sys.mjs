@@ -18144,7 +18144,7 @@ this
 .
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 }
 let

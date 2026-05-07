@@ -414,7 +414,7 @@ defView
 =
 tipElement
 .
-documentGlobal
+ownerGlobal
 ;
 /
 /

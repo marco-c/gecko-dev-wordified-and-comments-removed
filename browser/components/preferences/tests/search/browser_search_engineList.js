@@ -445,7 +445,7 @@ clickCount
 }
 tree
 .
-documentGlobal
+ownerGlobal
 )
 ;
 return
@@ -1398,7 +1398,7 @@ win
 =
 tree
 .
-documentGlobal
+ownerGlobal
 ;
 let
 promise
@@ -1747,7 +1747,7 @@ win
 =
 tree
 .
-documentGlobal
+ownerGlobal
 ;
 let
 promise
@@ -2125,7 +2125,7 @@ win
 =
 tree
 .
-documentGlobal
+ownerGlobal
 ;
 let
 alertSpy

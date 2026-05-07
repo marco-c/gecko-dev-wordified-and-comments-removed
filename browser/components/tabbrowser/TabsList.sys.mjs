@@ -1543,7 +1543,7 @@ this
 .
 containerNode
 .
-documentGlobal
+ownerGlobal
 .
 requestAnimationFrame
 (

@@ -6831,7 +6831,7 @@ global
 target
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;

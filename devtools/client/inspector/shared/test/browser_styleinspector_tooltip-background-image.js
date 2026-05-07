@@ -832,7 +832,7 @@ button
 }
 uriSpan
 .
-documentGlobal
+ownerGlobal
 )
 ;
 let
@@ -948,7 +948,7 @@ true
 }
 uriSpan
 .
-documentGlobal
+ownerGlobal
 )
 ;
 tab
@@ -1036,7 +1036,7 @@ y
 }
 uriSpan
 .
-documentGlobal
+ownerGlobal
 )
 ;
 tab

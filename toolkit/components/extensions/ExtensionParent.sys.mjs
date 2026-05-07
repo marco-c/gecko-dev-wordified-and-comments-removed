@@ -5073,7 +5073,7 @@ this
 .
 xulBrowser
 .
-documentGlobal
+ownerGlobal
 ;
 return
 win

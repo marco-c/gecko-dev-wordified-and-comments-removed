@@ -322,7 +322,7 @@ win
 =
 element
 .
-documentGlobal
+ownerGlobal
 ;
 let
 style
@@ -432,7 +432,7 @@ win
 =
 element
 .
-documentGlobal
+ownerGlobal
 ;
 let
 style
@@ -1429,7 +1429,7 @@ chromeWindow
 =
 aBrowser
 .
-documentGlobal
+ownerGlobal
 ;
 return
 (

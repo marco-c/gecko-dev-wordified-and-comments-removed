@@ -201,7 +201,7 @@ waitForCondition
 browser
 ?
 .
-documentGlobal
+ownerGlobal
 .
 gDialogBox
 .

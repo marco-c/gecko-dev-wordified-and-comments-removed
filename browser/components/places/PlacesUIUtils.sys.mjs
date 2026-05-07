@@ -5398,7 +5398,7 @@ aEvent
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 let
 where
@@ -7334,7 +7334,7 @@ win
 =
 tree
 .
-documentGlobal
+ownerGlobal
 ;
 let
 rect
@@ -7880,7 +7880,7 @@ node
 uri
 tree
 .
-documentGlobal
+ownerGlobal
 )
 ;
 return
@@ -7895,7 +7895,7 @@ setMouseoverURL
 "
 tree
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }
@@ -8359,7 +8359,7 @@ isWindowPrivate
 (
 item
 .
-documentGlobal
+ownerGlobal
 )
 )
 {
@@ -8468,7 +8468,7 @@ window
 =
 menupopup
 .
-documentGlobal
+ownerGlobal
 ;
 /
 /
@@ -8791,7 +8791,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 updateCommands
 (
@@ -9249,7 +9249,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 return
 window
@@ -9334,7 +9334,7 @@ window
 =
 triggerNode
 .
-documentGlobal
+ownerGlobal
 ;
 window
 .
@@ -9386,7 +9386,7 @@ ownerWindow
 |
 triggerNode
 .
-documentGlobal
+ownerGlobal
 .
 top
 {
@@ -9480,7 +9480,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 let
 menuitems
@@ -9631,7 +9631,7 @@ this
 .
 triggerNode
 .
-documentGlobal
+ownerGlobal
 ;
 switch
 (
@@ -10411,7 +10411,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }

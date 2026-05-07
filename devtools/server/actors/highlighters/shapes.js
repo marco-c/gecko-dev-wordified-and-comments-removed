@@ -1541,7 +1541,7 @@ this
 .
 drawingNode
 .
-documentGlobal
+ownerGlobal
 this
 .
 drawingNode
@@ -1791,7 +1791,7 @@ this
 .
 currentNode
 .
-documentGlobal
+ownerGlobal
 !
 =
 =
@@ -1814,7 +1814,7 @@ this
 .
 currentNode
 .
-documentGlobal
+ownerGlobal
 ;
 const
 bounds
@@ -2014,7 +2014,7 @@ getFrameOffsets
 (
 target
 .
-documentGlobal
+ownerGlobal
 this
 .
 currentNode
@@ -16607,7 +16607,7 @@ this
 .
 currentNode
 .
-documentGlobal
+ownerGlobal
 .
 innerHeight
 ;
@@ -16618,7 +16618,7 @@ this
 .
 currentNode
 .
-documentGlobal
+ownerGlobal
 .
 innerWidth
 ;

@@ -853,7 +853,7 @@ aRequest
 .
 element
 .
-documentGlobal
+ownerGlobal
 ;
 const
 actor

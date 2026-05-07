@@ -1371,7 +1371,7 @@ tab
 browser
 ?
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 ?
@@ -3534,7 +3534,7 @@ window
 =
 browserToSelect
 .
-documentGlobal
+ownerGlobal
 ;
 let
 gBrowser
@@ -4432,7 +4432,7 @@ aActiveStream
 .
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (

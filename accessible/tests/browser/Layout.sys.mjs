@@ -858,7 +858,7 @@ elmWindow
 =
 elm
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (

@@ -2274,7 +2274,7 @@ cssEscape
 =
 ele
 .
-documentGlobal
+ownerGlobal
 .
 CSS
 .
@@ -2657,7 +2657,7 @@ nodeGlobal
 =
 ele
 .
-documentGlobal
+ownerGlobal
 .
 Node
 ;
@@ -2910,7 +2910,7 @@ nodeGlobal
 =
 ele
 .
-documentGlobal
+ownerGlobal
 .
 Node
 ;

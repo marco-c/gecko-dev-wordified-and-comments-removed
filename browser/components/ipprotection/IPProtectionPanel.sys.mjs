@@ -1756,7 +1756,7 @@ e
 .
 target
 .
-documentGlobal
+ownerGlobal
 null
 direction
 Services
@@ -2902,7 +2902,7 @@ e
 target
 ?
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -6345,7 +6345,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 const
 principal
@@ -6405,7 +6405,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 const
 principal

@@ -591,7 +591,7 @@ aEvent
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 let
 currentTab

@@ -617,7 +617,7 @@ auto
 *
 global
 =
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;

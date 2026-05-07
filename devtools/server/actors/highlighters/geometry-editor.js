@@ -477,7 +477,7 @@ win
 =
 node
 .
-documentGlobal
+ownerGlobal
 ;
 let
 offsetParent
@@ -3305,7 +3305,7 @@ this
 .
 currentNode
 .
-documentGlobal
+ownerGlobal
 [
 "
 scroll

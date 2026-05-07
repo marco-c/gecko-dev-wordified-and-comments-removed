@@ -63,7 +63,7 @@ if
 !
 nativeTab
 .
-documentGlobal
+ownerGlobal
 )
 {
 info

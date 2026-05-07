@@ -225,7 +225,7 @@ Create
 (
 nsIGlobalObject
 *
-aGlobal
+aOwner
 const
 ServiceWorkerDescriptor
 &
@@ -241,7 +241,7 @@ ref
 new
 ServiceWorker
 (
-aGlobal
+aOwner
 aDescriptor
 )
 ;
@@ -740,7 +740,7 @@ nsIGlobalObject
 *
 global
 =
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;

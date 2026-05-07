@@ -8608,7 +8608,7 @@ Create
 doc
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 rv
@@ -58235,7 +58235,7 @@ Init
 navigation
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -58323,7 +58323,7 @@ Init
 navigation
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )

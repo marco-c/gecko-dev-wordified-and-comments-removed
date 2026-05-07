@@ -400,7 +400,7 @@ flushWindow
 (
 gBrowser
 .
-documentGlobal
+ownerGlobal
 )
 .
 then
@@ -467,7 +467,7 @@ getWindowState
 (
 gBrowser
 .
-documentGlobal
+ownerGlobal
 )
 .
 windows
@@ -566,7 +566,7 @@ getWindowState
 (
 gBrowser
 .
-documentGlobal
+ownerGlobal
 )
 .
 windows
@@ -618,7 +618,7 @@ getWindowState
 (
 gBrowser
 .
-documentGlobal
+ownerGlobal
 )
 .
 windows
@@ -777,7 +777,7 @@ getWindowState
 (
 gBrowser
 .
-documentGlobal
+ownerGlobal
 )
 .
 windows
@@ -1115,7 +1115,7 @@ flushWindow
 (
 gBrowser
 .
-documentGlobal
+ownerGlobal
 )
 .
 then
@@ -1409,7 +1409,7 @@ flushWindow
 (
 gBrowser
 .
-documentGlobal
+ownerGlobal
 )
 .
 then
@@ -1891,7 +1891,7 @@ flushWindow
 (
 gBrowser
 .
-documentGlobal
+ownerGlobal
 )
 .
 then

@@ -198,7 +198,7 @@ global
 aPermissionStatus
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;

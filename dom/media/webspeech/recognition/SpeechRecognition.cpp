@@ -767,7 +767,7 @@ mSpeechGrammarList
 new
 SpeechGrammarList
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )

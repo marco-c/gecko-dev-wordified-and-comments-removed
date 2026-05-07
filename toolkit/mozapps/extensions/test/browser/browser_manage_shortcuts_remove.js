@@ -303,7 +303,7 @@ visibility
 =
 input
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (

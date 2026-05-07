@@ -696,7 +696,7 @@ e
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 browsingContext
 .

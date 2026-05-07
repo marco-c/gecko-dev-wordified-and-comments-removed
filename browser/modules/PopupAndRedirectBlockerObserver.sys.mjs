@@ -260,7 +260,7 @@ aEvent
 .
 originalTarget
 .
-documentGlobal
+ownerGlobal
 ;
 const
 {
@@ -851,7 +851,7 @@ aEvent
 .
 originalTarget
 .
-documentGlobal
+ownerGlobal
 ;
 const
 {
@@ -1688,7 +1688,7 @@ aEvent
 .
 originalTarget
 .
-documentGlobal
+ownerGlobal
 ;
 const
 {
@@ -2075,7 +2075,7 @@ aEvent
 .
 originalTarget
 .
-documentGlobal
+ownerGlobal
 ;
 const
 {
@@ -2199,7 +2199,7 @@ aEvent
 .
 originalTarget
 .
-documentGlobal
+ownerGlobal
 ;
 const
 {
@@ -2234,7 +2234,7 @@ aEvent
 .
 originalTarget
 .
-documentGlobal
+ownerGlobal
 ;
 const
 {

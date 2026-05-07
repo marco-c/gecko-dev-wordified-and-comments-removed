@@ -1826,7 +1826,7 @@ is
 (
 span
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (

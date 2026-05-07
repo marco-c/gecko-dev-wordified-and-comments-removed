@@ -1689,7 +1689,7 @@ window
 =
 document
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -2132,7 +2132,7 @@ styleSheet
 associatedDocument
 ?
 .
-documentGlobal
+ownerGlobal
 ;
 }
 return
@@ -3114,7 +3114,7 @@ styleSheet
 .
 associatedDocument
 .
-documentGlobal
+ownerGlobal
 =
 =
 =

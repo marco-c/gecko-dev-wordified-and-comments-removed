@@ -9691,7 +9691,7 @@ resolve
 {
 doc
 .
-documentGlobal
+ownerGlobal
 .
 requestAnimationFrame
 (
@@ -9702,7 +9702,7 @@ requestAnimationFrame
 {
 doc
 .
-documentGlobal
+ownerGlobal
 .
 requestAnimationFrame
 (
@@ -15132,7 +15132,7 @@ languages
 }
 document
 .
-documentGlobal
+ownerGlobal
 )
 ;
 let

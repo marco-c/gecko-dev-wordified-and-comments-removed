@@ -5958,7 +5958,7 @@ getSettingControl
 CONNECTION_SETTINGS_SETTING_ID
 doc
 .
-documentGlobal
+ownerGlobal
 )
 ;
 Assert
@@ -6053,7 +6053,7 @@ getSettingControl
 CONNECTION_SETTINGS_SETTING_ID
 doc
 .
-documentGlobal
+ownerGlobal
 )
 ;
 Assert

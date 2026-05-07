@@ -2441,7 +2441,7 @@ isSidebar
 browser
 ?
 .
-documentGlobal
+ownerGlobal
 ?
 .
 browsingContext
@@ -2466,7 +2466,7 @@ browser
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 browsingContext
 .
@@ -2490,7 +2490,7 @@ win
 browser
 ?
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -5784,7 +5784,7 @@ win
 =
 printPreviewBrowser
 .
-documentGlobal
+ownerGlobal
 ;
 for
 (

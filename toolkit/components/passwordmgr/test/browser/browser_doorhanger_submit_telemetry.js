@@ -1110,7 +1110,7 @@ promiseFocus
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 info

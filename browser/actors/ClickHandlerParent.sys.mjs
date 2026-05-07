@@ -385,7 +385,7 @@ data
 ;
 browser
 .
-documentGlobal
+ownerGlobal
 .
 middleMousePaste
 (
@@ -595,7 +595,7 @@ window
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 /
 /

@@ -880,7 +880,7 @@ MOZ_ASSERT
 aObject
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 =
@@ -1045,7 +1045,7 @@ if
 target
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 !
@@ -1107,7 +1107,7 @@ MOZ_DIAGNOSTIC_ASSERT
 aTarget
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 !

@@ -519,7 +519,7 @@ win
 =
 this
 .
-documentGlobal
+ownerGlobal
 ;
 win
 .
@@ -643,7 +643,7 @@ win
 =
 this
 .
-documentGlobal
+ownerGlobal
 ;
 const
 params

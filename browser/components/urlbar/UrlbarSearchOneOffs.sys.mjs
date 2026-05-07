@@ -1550,7 +1550,7 @@ newTab
 ;
 newTab
 .
-documentGlobal
+ownerGlobal
 .
 gURLBar
 .

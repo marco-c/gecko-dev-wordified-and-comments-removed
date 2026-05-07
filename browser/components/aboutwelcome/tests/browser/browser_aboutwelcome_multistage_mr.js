@@ -2054,7 +2054,7 @@ selector
 }
 wizard
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await

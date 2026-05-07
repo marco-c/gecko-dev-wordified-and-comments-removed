@@ -776,7 +776,7 @@ cs
 =
 node
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (

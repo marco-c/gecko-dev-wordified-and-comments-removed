@@ -465,7 +465,7 @@ gIdentityHandler
 =
 gBrowser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 promisePanelOpen
@@ -476,7 +476,7 @@ waitForEvent
 (
 gBrowser
 .
-documentGlobal
+ownerGlobal
 "
 popupshown
 "

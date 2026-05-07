@@ -35,7 +35,7 @@ VideoTrack
 (
 nsIGlobalObject
 *
-aRelevantGlobal
+aOwnerGlobal
 const
 nsAString
 &

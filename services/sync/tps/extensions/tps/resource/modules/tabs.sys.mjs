@@ -473,7 +473,7 @@ mm
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 messageManager
 ;

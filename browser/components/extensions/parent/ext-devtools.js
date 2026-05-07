@@ -135,7 +135,7 @@ localTab
 .
 linkedBrowser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 tab
@@ -611,7 +611,7 @@ descriptorFront
 .
 localTab
 .
-documentGlobal
+ownerGlobal
 )
 )
 {
@@ -913,7 +913,7 @@ descriptorFront
 .
 localTab
 .
-documentGlobal
+ownerGlobal
 )
 )
 {
@@ -1498,7 +1498,7 @@ descriptorFront
 .
 localTab
 .
-documentGlobal
+ownerGlobal
 )
 )
 {

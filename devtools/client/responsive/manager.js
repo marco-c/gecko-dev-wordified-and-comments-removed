@@ -825,7 +825,7 @@ t
 >
 t
 .
-documentGlobal
+ownerGlobal
 =
 =
 =
@@ -938,7 +938,7 @@ window
 =
 tab
 .
-documentGlobal
+ownerGlobal
 )
 {
 await

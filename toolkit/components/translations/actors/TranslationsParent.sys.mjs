@@ -4336,7 +4336,7 @@ browser
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ?
 .
 gBrowser
@@ -7090,7 +7090,7 @@ CustomEvent
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 browser
 .
@@ -28198,7 +28198,7 @@ CustomEvent
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 browser
 .

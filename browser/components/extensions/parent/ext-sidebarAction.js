@@ -281,7 +281,7 @@ get
 (
 target
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }
@@ -552,7 +552,7 @@ updateWindow
 (
 tab
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }
@@ -1017,7 +1017,7 @@ updateWindow
 (
 target
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }
@@ -1120,7 +1120,7 @@ canAccessWindow
 (
 target
 .
-documentGlobal
+ownerGlobal
 )
 )
 {

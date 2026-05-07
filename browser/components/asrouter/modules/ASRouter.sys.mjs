@@ -15396,7 +15396,7 @@ isThirdPartyPage
 (
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 ?
@@ -15423,7 +15423,7 @@ isAIWindowActive
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 trigger
@@ -15445,7 +15445,7 @@ browser
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 ?
@@ -15777,7 +15777,7 @@ browser
 >
 browser
 .
-documentGlobal
+ownerGlobal
 .
 openTrustedLinkIn
 (

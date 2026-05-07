@@ -253,7 +253,7 @@ gBrowser
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 ;
@@ -703,7 +703,7 @@ BROWSER_FLUSH_TOPIC
 ;
 tab
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .

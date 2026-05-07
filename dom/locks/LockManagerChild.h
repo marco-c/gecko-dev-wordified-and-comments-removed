@@ -87,7 +87,7 @@ LockManagerChild
 (
 nsIGlobalObject
 *
-aGlobal
+aOwner
 )
 ;
 nsIGlobalObject
@@ -98,7 +98,7 @@ GetParentObject
 const
 {
 return
-mGlobal
+mOwner
 ;
 }
 ;
@@ -142,7 +142,7 @@ nsCOMPtr
 <
 nsIGlobalObject
 >
-mGlobal
+mOwner
 ;
 RefPtr
 <

@@ -80,7 +80,7 @@ win
 =
 doc
 .
-documentGlobal
+ownerGlobal
 ;
 }
 )
@@ -935,7 +935,7 @@ docShell
 .
 chromeEventHandler
 .
-documentGlobal
+ownerGlobal
 )
 ;
 EventUtils

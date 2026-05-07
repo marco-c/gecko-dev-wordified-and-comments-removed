@@ -898,7 +898,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 this
 .

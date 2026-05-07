@@ -438,7 +438,7 @@ window
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 data
@@ -691,7 +691,7 @@ aEvent
 .
 originalTarget
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 ;
@@ -1120,7 +1120,7 @@ window
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 template

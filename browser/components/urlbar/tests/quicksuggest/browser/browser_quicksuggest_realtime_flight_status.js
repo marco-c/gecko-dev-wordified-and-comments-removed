@@ -4702,7 +4702,7 @@ item
 }
 item
 .
-documentGlobal
+ownerGlobal
 )
 ;
 let
@@ -4894,7 +4894,7 @@ item
 }
 item
 .
-documentGlobal
+ownerGlobal
 )
 ;
 let

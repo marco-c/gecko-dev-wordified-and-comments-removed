@@ -2679,7 +2679,7 @@ win
 originalEmbedderElement
 ?
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (

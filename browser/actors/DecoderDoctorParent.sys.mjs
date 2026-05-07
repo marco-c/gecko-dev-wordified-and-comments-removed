@@ -623,7 +623,7 @@ window
 browser
 ?
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (

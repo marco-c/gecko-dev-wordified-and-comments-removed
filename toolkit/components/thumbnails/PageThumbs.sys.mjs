@@ -1044,7 +1044,7 @@ createCanvas
 (
 aBrowser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 this
@@ -2202,7 +2202,7 @@ imageData
 new
 aBrowser
 .
-documentGlobal
+ownerGlobal
 .
 ImageData
 (

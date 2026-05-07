@@ -1245,7 +1245,7 @@ openFirefoxViewTab
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await
@@ -2389,7 +2389,7 @@ openFirefoxViewTab
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 visitList

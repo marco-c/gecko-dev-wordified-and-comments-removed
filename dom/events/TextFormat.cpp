@@ -29,7 +29,7 @@ TextFormat
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 TextFormat
-mGlobal
+mOwner
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
@@ -48,12 +48,12 @@ TextFormat
 (
 nsIGlobalObject
 *
-aGlobal
+aOwner
 )
 :
-mGlobal
+mOwner
 (
-aGlobal
+aOwner
 )
 {
 }

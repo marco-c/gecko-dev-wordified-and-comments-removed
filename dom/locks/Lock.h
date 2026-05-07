@@ -166,7 +166,7 @@ GetParentObject
 const
 {
 return
-mGlobal
+mOwner
 ;
 }
 ;
@@ -264,7 +264,7 @@ nsCOMPtr
 <
 nsIGlobalObject
 >
-mGlobal
+mOwner
 ;
 WeakPtr
 <

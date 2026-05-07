@@ -1909,7 +1909,7 @@ this
 .
 panelElement
 .
-documentGlobal
+ownerGlobal
 ;
 }
 get

@@ -3143,7 +3143,7 @@ ev
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 DownloadsView
 .
@@ -3201,7 +3201,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 DownloadsView
 .
@@ -7822,7 +7822,7 @@ this
 .
 element
 .
-documentGlobal
+ownerGlobal
 .
 openURL
 (
@@ -7963,7 +7963,7 @@ this
 .
 element
 .
-documentGlobal
+ownerGlobal
 ;
 let
 document

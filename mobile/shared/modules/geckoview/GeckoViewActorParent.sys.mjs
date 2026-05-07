@@ -184,7 +184,7 @@ this
 browser
 ?
 .
-documentGlobal
+ownerGlobal
 ;
 }
 get

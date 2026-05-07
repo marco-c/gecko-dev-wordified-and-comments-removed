@@ -88,7 +88,7 @@ false
 ;
 this
 .
-documentGlobal
+ownerGlobal
 =
 {
 document
@@ -1050,7 +1050,7 @@ isElement
 (
 divEl
 .
-documentGlobal
+ownerGlobal
 )
 )
 ;
@@ -1168,7 +1168,7 @@ isDOMElement
 (
 divEl
 .
-documentGlobal
+ownerGlobal
 )
 )
 ;
@@ -1334,7 +1334,7 @@ isXULElement
 (
 divEl
 .
-documentGlobal
+ownerGlobal
 )
 )
 ;
@@ -1413,7 +1413,7 @@ isDOMWindow
 (
 divEl
 .
-documentGlobal
+ownerGlobal
 )
 )
 ;
@@ -1588,7 +1588,7 @@ isShadowRoot
 (
 divEl
 .
-documentGlobal
+ownerGlobal
 )
 )
 ;

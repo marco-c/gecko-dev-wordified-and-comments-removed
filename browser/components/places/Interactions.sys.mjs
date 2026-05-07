@@ -1705,7 +1705,7 @@ isActive
 &
 browser
 .
-documentGlobal
+ownerGlobal
 =
 =
 this
@@ -2474,7 +2474,7 @@ browser
 &
 browser
 .
-documentGlobal
+ownerGlobal
 !
 =
 activeWindow

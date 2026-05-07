@@ -263,7 +263,7 @@ testWhitelistedPage
 (
 tab
 .
-documentGlobal
+ownerGlobal
 )
 ;
 info
@@ -328,7 +328,7 @@ testBlockedPage
 (
 tab
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }

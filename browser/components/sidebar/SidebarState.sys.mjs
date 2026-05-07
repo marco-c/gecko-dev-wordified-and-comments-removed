@@ -1085,7 +1085,7 @@ this
 #
 launcherContainerEl
 .
-documentGlobal
+ownerGlobal
 ;
 }
 /

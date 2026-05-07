@@ -1735,7 +1735,7 @@ report
 .
 scriptBrowser
 .
-documentGlobal
+ownerGlobal
 ;
 }
 catch
@@ -3154,7 +3154,7 @@ tab
 scriptBrowser
 ?
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 ?
@@ -3715,7 +3715,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 /
 /

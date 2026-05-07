@@ -287,7 +287,7 @@ node
 }
 node
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await

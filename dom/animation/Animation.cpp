@@ -2874,7 +2874,7 @@ nsIGlobalObject
 >
 global
 =
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;
@@ -3031,7 +3031,7 @@ nsIGlobalObject
 >
 global
 =
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;
@@ -8245,7 +8245,7 @@ global
 mAnimation
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;

@@ -2910,7 +2910,7 @@ browserWindow
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 try
 {
@@ -3508,7 +3508,7 @@ isWindowPrivate
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 )
 {
@@ -3796,7 +3796,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 win
 .

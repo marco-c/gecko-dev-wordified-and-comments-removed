@@ -876,7 +876,7 @@ Promise
 :
 Create
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 aError
@@ -970,7 +970,7 @@ Promise
 :
 Create
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 aError

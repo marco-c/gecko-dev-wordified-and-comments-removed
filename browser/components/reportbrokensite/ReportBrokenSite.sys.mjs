@@ -184,7 +184,7 @@ mainView
 =
 doc
 .
-documentGlobal
+ownerGlobal
 .
 PanelMultiView
 .
@@ -214,7 +214,7 @@ previewView
 =
 doc
 .
-documentGlobal
+ownerGlobal
 .
 PanelMultiView
 .
@@ -244,7 +244,7 @@ reportSentView
 =
 doc
 .
-documentGlobal
+ownerGlobal
 .
 PanelMultiView
 .
@@ -274,7 +274,7 @@ formElement
 =
 doc
 .
-documentGlobal
+ownerGlobal
 .
 PanelMultiView
 .
@@ -497,7 +497,7 @@ this
 #
 doc
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -1338,7 +1338,7 @@ this
 #
 doc
 .
-documentGlobal
+ownerGlobal
 .
 PanelView
 .
@@ -2382,7 +2382,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 ;
@@ -2562,7 +2562,7 @@ selectedBrowser
 =
 target
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 ;
@@ -2819,7 +2819,7 @@ e
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 ;
@@ -2939,7 +2939,7 @@ document
 =
 selectedbrowser
 .
-documentGlobal
+ownerGlobal
 ;
 /
 /
@@ -3014,7 +3014,7 @@ app
 =
 document
 .
-documentGlobal
+ownerGlobal
 .
 PanelMultiView
 .
@@ -3551,7 +3551,7 @@ target
 {
 target
 .
-documentGlobal
+ownerGlobal
 .
 CustomizableUI
 .
@@ -3596,7 +3596,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 ;
@@ -3614,7 +3614,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 CustomizableUI
 .
@@ -3671,7 +3671,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 requestAnimationFrame
 (
@@ -3684,7 +3684,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 CustomizableUI
 .
@@ -4057,7 +4057,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 const
 listener
@@ -4169,7 +4169,7 @@ target
 {
 target
 .
-documentGlobal
+ownerGlobal
 .
 CustomizableUI
 .
@@ -4213,7 +4213,7 @@ target
 {
 target
 .
-documentGlobal
+ownerGlobal
 .
 CustomizableUI
 .
@@ -4241,7 +4241,7 @@ document
 =
 selectedBrowser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 didReset
@@ -5181,7 +5181,7 @@ tabbrowser
 .
 selectedBrowser
 .
-documentGlobal
+ownerGlobal
 ;
 const
 {
@@ -5531,13 +5531,13 @@ selectedBrowser
 =
 target
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 ;
 const
 {
-documentGlobal
+ownerGlobal
 }
 =
 selectedBrowser
@@ -5547,7 +5547,7 @@ const
 document
 }
 =
-documentGlobal
+ownerGlobal
 ;
 switch
 (
@@ -5569,7 +5569,7 @@ site
 button
 "
 :
-documentGlobal
+ownerGlobal
 .
 PanelUI
 .
@@ -5660,7 +5660,7 @@ hidePopup
 (
 )
 ;
-documentGlobal
+ownerGlobal
 .
 PanelUI
 .
@@ -5669,7 +5669,7 @@ showSubView
 ReportBrokenSite
 .
 MAIN_PANELVIEW_ID
-documentGlobal
+ownerGlobal
 .
 PanelUI
 .

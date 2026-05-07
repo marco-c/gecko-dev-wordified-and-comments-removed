@@ -49,7 +49,7 @@ contextmenu
 }
 doc
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -909,7 +909,7 @@ const
 buildMenu
 =
 async
-documentGlobal
+ownerGlobal
 =
 >
 {
@@ -947,7 +947,7 @@ com
 "
 }
 }
-documentGlobal
+ownerGlobal
 }
 selectionInfo
 :
@@ -999,7 +999,7 @@ aiWindowDoc
 Menu
 hidden
 when
-documentGlobal
+ownerGlobal
 is
 the
 Smart
@@ -1047,7 +1047,7 @@ aiWindowDoc
 Menu
 hidden
 when
-documentGlobal
+ownerGlobal
 is
 a
 sidebar
