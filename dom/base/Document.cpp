@@ -8387,6 +8387,15 @@ mHasBeenRevealed
 (
 false
 )
+mAutoSizesEnabled
+(
+StaticPrefs
+:
+:
+dom_image_sizes_auto_enabled
+(
+)
+)
 mXMLDeclarationBits
 (
 0
