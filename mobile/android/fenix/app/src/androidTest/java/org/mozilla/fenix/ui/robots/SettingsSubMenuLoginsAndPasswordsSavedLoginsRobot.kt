@@ -375,16 +375,6 @@ fenix
 .
 helpers
 .
-HomeActivityComposeTestRule
-import
-org
-.
-mozilla
-.
-fenix
-.
-helpers
-.
 MatcherHelper
 .
 assertUIObjectExists

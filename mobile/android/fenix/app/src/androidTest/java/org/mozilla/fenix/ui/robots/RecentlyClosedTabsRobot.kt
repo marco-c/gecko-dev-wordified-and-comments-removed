@@ -235,16 +235,6 @@ fenix
 .
 helpers
 .
-HomeActivityComposeTestRule
-import
-org
-.
-mozilla
-.
-fenix
-.
-helpers
-.
 MatcherHelper
 .
 assertUIObjectExists
@@ -969,7 +959,7 @@ clickOpenInNewTab
 (
 testRule
 :
-HomeActivityComposeTestRule
+ComposeTestRule
 interact
 :
 TabDrawerRobot
@@ -1069,7 +1059,7 @@ clickOpenInPrivateTab
 (
 testRule
 :
-HomeActivityComposeTestRule
+ComposeTestRule
 interact
 :
 TabDrawerRobot

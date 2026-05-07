@@ -78,16 +78,6 @@ helpers
 DataGenerationHelper
 .
 getStringResource
-import
-org
-.
-mozilla
-.
-fenix
-.
-helpers
-.
-HomeActivityComposeTestRule
 class
 ThreeDotMenuBookmarksRobot
 {
@@ -602,7 +592,7 @@ clickOpenAllInTabs
 (
 composeTestRule
 :
-HomeActivityComposeTestRule
+ComposeTestRule
 interact
 :
 TabDrawerRobot
@@ -694,7 +684,7 @@ clickOpenAllInPrivateTabs
 (
 composeTestRule
 :
-HomeActivityComposeTestRule
+ComposeTestRule
 interact
 :
 TabDrawerRobot

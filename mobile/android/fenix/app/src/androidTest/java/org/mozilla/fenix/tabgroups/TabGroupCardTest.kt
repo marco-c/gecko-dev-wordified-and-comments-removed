@@ -121,6 +121,8 @@ test
 .
 junit4
 .
+v2
+.
 createComposeRule
 import
 androidx

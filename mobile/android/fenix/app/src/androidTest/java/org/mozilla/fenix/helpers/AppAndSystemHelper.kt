@@ -6213,11 +6213,7 @@ runWithLauncherIntent
 (
 activityTestRule
 :
-AndroidComposeTestRule
-<
 HomeActivityIntentTestRule
-HomeActivity
->
 testBlock
 :
 (
@@ -6268,8 +6264,6 @@ launcherIntent
 "
 )
 activityTestRule
-.
-activityRule
 .
 withIntent
 (
