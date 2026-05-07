@@ -110,9 +110,6 @@ URL
 .
 .
 /
-.
-.
-/
 browser
 /
 searchSuggestionEngine

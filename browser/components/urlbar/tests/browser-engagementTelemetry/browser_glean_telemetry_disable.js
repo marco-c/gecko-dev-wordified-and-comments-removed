@@ -204,9 +204,6 @@ URL
 .
 .
 /
-.
-.
-/
 browser
 /
 searchSuggestionEngine
