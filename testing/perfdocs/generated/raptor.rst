@@ -17561,6 +17561,7 @@ stackwalk
 js
 cpu
 processcpu
+ipcmessages
 nomarkerstacks
 *
 *
@@ -19498,6 +19499,7 @@ stackwalk
 js
 cpu
 processcpu
+ipcmessages
 nomarkerstacks
 *
 *
@@ -21433,15 +21435,6 @@ car
 *
 *
 *
-benchmark
-port
-*
-*
-:
-62763
-*
-*
-*
 browser
 cycles
 *
@@ -21496,6 +21489,7 @@ stackwalk
 js
 cpu
 processcpu
+ipcmessages
 nomarkerstacks
 *
 *
@@ -23622,15 +23616,6 @@ m
 *
 *
 *
-benchmark
-port
-*
-*
-:
-62763
-*
-*
-*
 browser
 cycles
 *
@@ -23685,6 +23670,7 @@ stackwalk
 js
 cpu
 processcpu
+ipcmessages
 nomarkerstacks
 *
 *
