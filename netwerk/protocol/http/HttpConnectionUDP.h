@@ -631,6 +631,15 @@ mAlreadyWildcard
 =
 false
 ;
+nsTArray
+<
+RefPtr
+<
+nsHttpTransaction
+>
+>
+mDeferredLnaTransactions
+;
 }
 ;
 }
