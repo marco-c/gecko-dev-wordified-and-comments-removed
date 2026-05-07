@@ -13,7 +13,7 @@ alloc
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -211,7 +211,7 @@ alloc
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -246,6 +246,8 @@ usize
 >
 SliceChooseIter
 <
+'
+_
 Self
 Self
 :
@@ -275,7 +277,7 @@ alloc
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -403,7 +405,7 @@ alloc
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -533,7 +535,7 @@ std
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -575,6 +577,8 @@ Result
 <
 SliceChooseIter
 <
+'
+_
 Self
 Self
 :
@@ -1279,7 +1283,7 @@ alloc
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1601,6 +1605,8 @@ usize
 >
 SliceChooseIter
 <
+'
+_
 Self
 Self
 :
@@ -2026,6 +2032,8 @@ Result
 <
 SliceChooseIter
 <
+'
+_
 Self
 Self
 :
@@ -2344,7 +2352,7 @@ alloc
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg

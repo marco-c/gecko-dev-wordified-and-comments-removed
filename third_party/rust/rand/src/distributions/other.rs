@@ -854,7 +854,7 @@ min_const_gen
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg

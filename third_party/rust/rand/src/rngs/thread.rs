@@ -76,7 +76,7 @@ u64
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -237,7 +237,7 @@ rng
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg

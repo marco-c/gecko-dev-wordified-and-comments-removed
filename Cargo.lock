@@ -32927,7 +32927,7 @@ version
 .
 8
 .
-5
+6
 "
 source
 =
@@ -32955,7 +32955,7 @@ index
 checksum
 =
 "
-34af8d1a0e25924bc5b7c43c079c942339d8f0a8b57c39049bef581b46327404
+5ca0ecfa931c29007047d1bc58e623ab12e5590e8c7cc53200d5202b69266d8a
 "
 dependencies
 =
@@ -34534,6 +34534,14 @@ log
 "
 "
 nserror
+"
+"
+nsstring
+"
+"
+thin
+-
+vec
 "
 "
 webrtc

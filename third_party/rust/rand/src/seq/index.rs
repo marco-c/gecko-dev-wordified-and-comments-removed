@@ -1585,7 +1585,7 @@ std
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
