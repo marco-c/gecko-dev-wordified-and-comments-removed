@@ -21707,9 +21707,6 @@ showOtherBookmarks
 true
 )
 ;
-#
-ifndef
-XP_LINUX
 pref
 (
 "
@@ -21726,8 +21723,6 @@ enabled
 true
 )
 ;
-#
-endif
 pref
 (
 "

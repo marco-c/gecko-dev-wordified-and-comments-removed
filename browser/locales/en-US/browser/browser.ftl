@@ -9958,6 +9958,17 @@ more
 label
 =
 More
+menu
+-
+share
+-
+windows
+=
+.
+label
+=
+More
+Options
 #
 Variables
 :
