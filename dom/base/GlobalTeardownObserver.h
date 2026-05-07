@@ -138,7 +138,7 @@ GlobalTeardownObserver
 )
 ;
 void
-BindToOwner
+BindToGlobal
 (
 nsIGlobalObject
 *

@@ -646,7 +646,7 @@ nullptr
 ;
 }
 void
-BindToOwner
+BindToGlobal
 (
 nsIGlobalObject
 *
@@ -656,7 +656,7 @@ aOwner
 GlobalTeardownObserver
 :
 :
-BindToOwner
+BindToGlobal
 (
 aOwner
 )
@@ -664,7 +664,7 @@ aOwner
 GlobalFreezeObserver
 :
 :
-BindToOwner
+BindToGlobal
 (
 aOwner
 )
@@ -7263,7 +7263,7 @@ this
 proxy
 -
 >
-BindToOwner
+BindToGlobal
 (
 aWindowGlobal
 )

@@ -112,7 +112,7 @@ if
 mWindow
 )
 {
-BindToOwner
+BindToGlobal
 (
 mWindow
 -
