@@ -4182,6 +4182,13 @@ sent
 -
 event
 "
+SESSION_HISTORY
+:
+"
+session
+-
+history
+"
 LAST_PRIVATE_CONTEXT_EXIT
 :
 "
