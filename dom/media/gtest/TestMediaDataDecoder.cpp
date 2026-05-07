@@ -20,6 +20,13 @@ h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 gtest
 /
 gtest
@@ -94,6 +101,13 @@ SetUpTestSuite
 (
 )
 {
+gfxPlatform
+:
+:
+GetPlatform
+(
+)
+;
 sFactory
 =
 MakeRefPtr
