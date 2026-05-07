@@ -168,9 +168,9 @@ pickerOpened
 ;
 if
 (
-nativeSelectEnabled
-(
-)
+selectPopup
+.
+isNativeMenu
 )
 {
 selectPopup

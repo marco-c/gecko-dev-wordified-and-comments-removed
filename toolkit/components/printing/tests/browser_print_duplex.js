@@ -83,9 +83,9 @@ popupOpen
 ;
 if
 (
-nativeSelectEnabled
-(
-)
+selectPopup
+.
+isNativeMenu
 )
 {
 selectPopup
