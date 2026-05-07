@@ -1158,9 +1158,6 @@ paneAccessibility
 "
 paneLanguages
 "
-"
-panePermissionsData
-"
 ]
 ;
 const
