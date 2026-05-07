@@ -3092,14 +3092,13 @@ aGraphicOpacity
 )
 {
 return
-do_AddRef
-(
-new
+MakeAndAddRef
+<
 gfxPattern
+>
 (
 DeviceColor
 (
-)
 )
 )
 ;
