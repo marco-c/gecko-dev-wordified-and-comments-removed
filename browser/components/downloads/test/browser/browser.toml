@@ -21,6 +21,13 @@ js
 ]
 [
 "
+browser_blocked_and_deleted_status
+.
+js
+"
+]
+[
+"
 browser_basic_functionality
 .
 js
