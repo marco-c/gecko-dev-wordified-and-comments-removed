@@ -587,6 +587,9 @@ mModifierMasks
 [
 COUNT_OF_MODIFIER_INDEX
 ]
+=
+{
+}
 ;
 guint
 GetGdkModifierMask

@@ -40,6 +40,8 @@ TaskbarProgress
 unsigned
 long
 mCurrentProgress
+=
+0
 ;
 RefPtr
 <
