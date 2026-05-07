@@ -194,6 +194,10 @@ mUsedForConnection
 (
 false
 )
+mPendingQProcessingScheduled
+(
+false
+)
 mPendingQSet
 (
 aPendingQSet
