@@ -1191,6 +1191,8 @@ nodiscard
 bool
 Do0RTT
 (
+bool
+aCanSendEarlyData
 )
 final
 {
