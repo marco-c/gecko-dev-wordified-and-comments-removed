@@ -7699,16 +7699,6 @@ onPopupShown
 (
 )
 {
-PopupNotifications
-.
-suppressWhileOpen
-(
-this
-.
-#
-popup
-)
-;
 if
 (
 this
