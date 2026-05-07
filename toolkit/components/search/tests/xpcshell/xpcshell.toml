@@ -909,6 +909,13 @@ js
 ]
 [
 "
+test_reload_engines_webextensions
+.
+js
+"
+]
+[
+"
 test_remove_engine_notification_box
 .
 js
