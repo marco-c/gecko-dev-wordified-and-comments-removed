@@ -5997,8 +5997,6 @@ property
 -
 panel
 -
-text
--
 color
 "
 value
@@ -6252,8 +6250,6 @@ property
 -
 -
 panel
--
-text
 -
 color
 "
