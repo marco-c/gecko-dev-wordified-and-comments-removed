@@ -63,6 +63,8 @@ override
 bool
 Do0RTT
 (
+bool
+aCanSendEarlyData
 )
 override
 ;
