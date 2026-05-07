@@ -1973,6 +1973,8 @@ Boolean
 :
 Modifier
 =
+this
+.
 thenConditional
 (
 Modifier

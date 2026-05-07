@@ -993,6 +993,8 @@ Float
 :
 Modifier
 =
+this
+.
 thenConditional
 (
 if
