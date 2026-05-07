@@ -102,11 +102,11 @@ c_void
 pid_t
 ptrace
 waitpid
+__WALL
 EINTR
 PTRACE_ATTACH
 PTRACE_DETACH
 PTRACE_PEEKDATA
-__WALL
 }
 ;
 impl
