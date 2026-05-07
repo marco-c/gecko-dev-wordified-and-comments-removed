@@ -341,8 +341,6 @@ protected
 :
 nscoord
 mBaseline
-=
-0
 ;
 void
 DrainOverflowFrames

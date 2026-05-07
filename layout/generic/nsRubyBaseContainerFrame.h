@@ -366,8 +366,6 @@ aIsComplete
 ;
 nscoord
 mBaseline
-=
-0
 ;
 mozilla
 :

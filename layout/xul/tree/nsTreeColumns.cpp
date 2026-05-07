@@ -141,13 +141,6 @@ mIndex
 (
 0
 )
-mTextAlignment
-(
-StyleTextAlign
-:
-:
-Start
-)
 mPrevious
 (
 nullptr

@@ -438,8 +438,6 @@ mUserSpaceToFilterSpaceScale
 ;
 uint16_t
 mPrimitiveUnits
-=
-SVG_UNIT_TYPE_USERSPACEONUSE
 ;
 MOZ_INIT_OUTSIDE_CTOR
 int32_t
