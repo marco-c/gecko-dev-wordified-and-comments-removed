@@ -1383,13 +1383,6 @@ page_fetch_localhost_https
 .
 html
 "
-"
-http2
--
-ca
-.
-pem
-"
 ]
 [
 "
