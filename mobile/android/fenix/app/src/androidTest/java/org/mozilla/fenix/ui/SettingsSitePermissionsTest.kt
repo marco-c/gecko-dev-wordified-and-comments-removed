@@ -123,16 +123,6 @@ fenix
 .
 customannotations
 .
-SkipLeaks
-import
-org
-.
-mozilla
-.
-fenix
-.
-customannotations
-.
 SmokeTest
 import
 org
@@ -1239,7 +1229,6 @@ view
 /
 2095124
 Test
-SkipLeaks
 fun
 verifyAutoplayAllowAudioVideoSettingOnNotMutedVideoTestTest
 (
@@ -1542,7 +1531,6 @@ view
 /
 2095126
 Test
-SkipLeaks
 fun
 verifyAutoplayBlockAudioAndVideoSettingOnNotMutedVideoTest
 (
@@ -1705,7 +1693,6 @@ view
 /
 2286808
 Test
-SkipLeaks
 fun
 verifyAutoplayBlockAudioAndVideoSettingOnMutedVideoTest
 (

@@ -290,6 +290,11 @@ FenixTestRule
 get
 :
 Rule
+(
+order
+=
+1
+)
 val
 composeTestRule
 =
