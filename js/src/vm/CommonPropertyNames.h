@@ -1591,6 +1591,14 @@ getTextInfo
 \
 MACRO_
 (
+getTimeZones
+"
+getTimeZones
+"
+)
+\
+MACRO_
+(
 GetTypeError
 "
 GetTypeError
