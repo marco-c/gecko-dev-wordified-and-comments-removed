@@ -368,14 +368,12 @@ create_task_from_def
 (
         
 task
-        
 parameters
 [
 "
 level
 "
 ]
-        
 action_tag
 =
 "
@@ -384,14 +382,6 @@ retrigger
 decision
 -
 task
-"
-        
-max_priority
-=
-"
-very
--
-low
 "
     
 )
@@ -1074,14 +1064,6 @@ task
 modifier
 =
 modifier
-        
-max_priority
-=
-"
-very
--
-low
-"
     
 )
     
@@ -1815,14 +1797,6 @@ retrigger
 multiple
 -
 task
-"
-        
-max_priority
-=
-"
-very
--
-low
 "
     
 )
