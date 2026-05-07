@@ -514,7 +514,13 @@ mData
 (
 NormalFrameData
 {
+std
+:
+:
+move
+(
 aLocation
+)
 aRelevantForJS
 aInnerWindowID
 aLine
