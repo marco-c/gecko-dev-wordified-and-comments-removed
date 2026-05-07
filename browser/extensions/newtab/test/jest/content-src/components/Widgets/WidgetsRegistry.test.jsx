@@ -213,6 +213,7 @@ focusTimer
 lists
 weather
 sportsWidget
+clocks
 "
 )
 )
@@ -231,6 +232,9 @@ weather
 "
 "
 sportsWidget
+"
+"
+clocks
 "
 ]
 )
@@ -278,6 +282,9 @@ focusTimer
 "
 "
 sportsWidget
+"
+"
+clocks
 "
 ]
 )
@@ -328,6 +335,9 @@ focusTimer
 "
 "
 sportsWidget
+"
+"
+clocks
 "
 ]
 )
@@ -440,6 +450,9 @@ weather
 "
 "
 sportsWidget
+"
+"
+clocks
 "
 ]
 )
@@ -567,6 +580,9 @@ focusTimer
 "
 sportsWidget
 "
+"
+clocks
+"
 ]
 )
 ;
@@ -635,6 +651,9 @@ lists
 "
 "
 sportsWidget
+"
+"
+clocks
 "
 ]
 )
@@ -705,6 +724,9 @@ weather
 "
 "
 sportsWidget
+"
+"
+clocks
 "
 ]
 )

@@ -1260,6 +1260,15 @@ props
 .
 mayHaveSportsWidget
 }
+mayHaveClocksWidget
+=
+{
+this
+.
+props
+.
+mayHaveClocksWidget
+}
 dispatch
 =
 {
