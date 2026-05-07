@@ -3324,11 +3324,6 @@ parentNode
 _placesNode
 )
 ]
-event
-.
-currentTarget
-.
-documentGlobal
 )
 ;
 }
