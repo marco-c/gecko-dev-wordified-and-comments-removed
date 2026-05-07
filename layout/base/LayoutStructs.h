@@ -99,6 +99,17 @@ false
 ;
 }
 ;
+enum
+class
+BreakType
+:
+uint8_t
+{
+Auto
+Column
+Page
+}
+;
 }
 #
 endif

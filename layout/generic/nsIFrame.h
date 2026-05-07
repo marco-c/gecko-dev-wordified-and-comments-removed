@@ -2280,6 +2280,14 @@ mozilla
 :
 BaselineExportContext
 ;
+using
+BreakType
+=
+mozilla
+:
+:
+BreakType
+;
 template
 <
 typename
@@ -5063,9 +5071,6 @@ bool
 ShouldBreakBefore
 (
 const
-ReflowInput
-:
-:
 BreakType
 aBreakType
 )
@@ -5075,9 +5080,6 @@ bool
 ShouldBreakAfter
 (
 const
-ReflowInput
-:
-:
 BreakType
 aBreakType
 )
@@ -5099,9 +5101,6 @@ mozilla
 StyleBreakBetween
 aBreakBetween
 const
-ReflowInput
-:
-:
 BreakType
 aBreakType
 )

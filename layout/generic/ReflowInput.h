@@ -1368,17 +1368,6 @@ mStyleMargin
 =
 nullptr
 ;
-enum
-class
-BreakType
-:
-uint8_t
-{
-Auto
-Column
-Page
-}
-;
 BreakType
 mBreakType
 =
