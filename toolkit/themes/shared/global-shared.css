@@ -357,6 +357,8 @@ shadow
 -
 panel
 -
+box
+-
 shadow
 -
 margin
@@ -2928,6 +2930,8 @@ padding
 panel
 -
 background
+-
+color
 :
 rgba
 (
@@ -2957,6 +2961,8 @@ image
 -
 panel
 -
+box
+-
 shadow
 :
 0
@@ -2966,6 +2972,8 @@ var
 -
 -
 panel
+-
+box
 -
 shadow
 -
@@ -2984,6 +2992,8 @@ rgba
 -
 -
 panel
+-
+box
 -
 shadow
 -

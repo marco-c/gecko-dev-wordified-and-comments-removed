@@ -181,6 +181,8 @@ padding
 -
 panel
 -
+text
+-
 color
 :
 FieldText
@@ -190,6 +192,8 @@ FieldText
 panel
 -
 background
+-
+color
 :
 Field
 ;

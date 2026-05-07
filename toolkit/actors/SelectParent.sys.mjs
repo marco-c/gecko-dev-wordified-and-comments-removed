@@ -1014,6 +1014,8 @@ property
 -
 panel
 -
+text
+-
 color
 "
 ;
@@ -1208,6 +1210,8 @@ setProperty
 -
 -
 panel
+-
+text
 -
 color
 "
