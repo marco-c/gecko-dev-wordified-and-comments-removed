@@ -1309,7 +1309,13 @@ Length
 {
 aEncodedEmail
 =
+std
+:
+:
+move
+(
 value
+)
 ;
 return
 true
@@ -1395,7 +1401,13 @@ domainACE
 ;
 aEncodedEmail
 =
+std
+:
+:
+move
+(
 value
+)
 ;
 return
 true

@@ -695,7 +695,13 @@ xlink
 href
 "
 _ns
+std
+:
+:
+move
+(
 src
+)
 }
 ;
 nsContentUtils
