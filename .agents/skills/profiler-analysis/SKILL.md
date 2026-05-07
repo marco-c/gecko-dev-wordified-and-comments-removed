@@ -65,7 +65,7 @@ for
 Firefox
 profiler
 URLs
-:
+;
 WebFetch
 only
 retrieves
