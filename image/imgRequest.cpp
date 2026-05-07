@@ -3733,6 +3733,8 @@ mContentType
 ;
 int64_t
 mContentLength
+=
+0
 ;
 nsAutoCString
 mContentDisposition
