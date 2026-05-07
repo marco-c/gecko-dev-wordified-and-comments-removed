@@ -60,7 +60,7 @@ format
 '
 type
 :
-external
+global
 payload
 :
 clang
