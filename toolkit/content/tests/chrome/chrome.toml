@@ -1004,6 +1004,13 @@ xhtml
 ]
 [
 "
+test_checkbox
+.
+xhtml
+"
+]
+[
+"
 test_closemenu_attribute
 .
 xhtml
