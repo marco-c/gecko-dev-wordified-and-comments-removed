@@ -238,7 +238,7 @@ border
 -
 radius
 -
-medium
+large
 )
 ;
 margin
