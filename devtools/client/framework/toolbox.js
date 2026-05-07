@@ -17063,6 +17063,8 @@ isDestroying
 )
 {
 return
+!
+!
 this
 .
 _destroyer
