@@ -234,6 +234,9 @@ media
 -
 source
 "
+"
+webrtc
+"
 }
 ;
 enum
@@ -243,7 +246,7 @@ MediaEncodingType
 record
 "
 "
-transmission
+webrtc
 "
 }
 ;
