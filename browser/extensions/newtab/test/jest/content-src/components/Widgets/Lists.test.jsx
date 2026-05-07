@@ -283,9 +283,7 @@ container
 querySelector
 (
 "
-panel
--
-item
+span
 [
 data
 -
@@ -497,9 +495,7 @@ container
 querySelector
 (
 "
-panel
--
-item
+span
 [
 data
 -

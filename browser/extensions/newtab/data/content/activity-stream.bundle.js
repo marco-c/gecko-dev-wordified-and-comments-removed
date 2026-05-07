@@ -73626,6 +73626,17 @@ size
 -
 submenu
 "
+}
+external_React_default
+(
+)
+.
+createElement
+(
+"
+span
+"
+{
 "
 data
 -
@@ -73646,6 +73657,7 @@ change
 size
 "
 }
+)
 external_React_default
 (
 )

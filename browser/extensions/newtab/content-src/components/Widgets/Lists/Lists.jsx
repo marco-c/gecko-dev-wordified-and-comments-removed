@@ -5886,6 +5886,9 @@ size
 -
 submenu
 "
+>
+<
+span
 data
 -
 l10n
@@ -5903,6 +5906,10 @@ change
 -
 size
 "
+>
+<
+/
+span
 >
 <
 panel
