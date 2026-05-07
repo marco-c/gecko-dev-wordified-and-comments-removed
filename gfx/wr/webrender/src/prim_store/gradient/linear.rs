@@ -241,7 +241,7 @@ end_point
 :
 PointKey
 pub
-stretch_size
+stretch_ratio
 :
 SizeKey
 pub
@@ -317,11 +317,11 @@ end_point
 linear_grad
 .
 end_point
-stretch_size
+stretch_ratio
 :
 linear_grad
 .
-stretch_size
+stretch_ratio
 tile_spacing
 :
 linear_grad
@@ -415,7 +415,7 @@ end_point
 :
 LayoutPoint
 pub
-stretch_size
+stretch_ratio
 :
 LayoutSize
 pub
@@ -1779,13 +1779,13 @@ into
 )
 ;
 let
-stretch_size
+stretch_ratio
 :
 LayoutSize
 =
 item
 .
-stretch_size
+stretch_ratio
 .
 into
 (
@@ -1801,7 +1801,7 @@ item
 extend_mode
 start_point
 end_point
-stretch_size
+stretch_ratio
 tile_spacing
 stops_opacity
 stops
@@ -1882,7 +1882,7 @@ end_point
 :
 PointKey
 pub
-stretch_size
+stretch_ratio
 :
 SizeKey
 pub
