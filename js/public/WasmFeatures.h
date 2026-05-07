@@ -134,7 +134,7 @@ case
 name
 *
 /
-v128Relaxed
+relaxedSimd
 \
 /
 *
