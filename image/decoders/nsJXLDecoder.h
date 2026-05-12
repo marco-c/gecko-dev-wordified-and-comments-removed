@@ -238,8 +238,13 @@ JxlBasicInfo
 aBasicInfo
 )
 ;
-FrameOutputResult
-BeginFrame
+nsresult
+AllocateFrameBuffers
+(
+)
+;
+nsresult
+EnsureSurfacePipe
 (
 )
 ;
