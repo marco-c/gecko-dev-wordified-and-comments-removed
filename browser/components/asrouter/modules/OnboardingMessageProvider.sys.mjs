@@ -15939,6 +15939,7 @@ TOU_ONBOARDING_LOADING
 targeting
 :
 "
+'
 browser
 .
 aboutwelcome
@@ -15946,12 +15947,14 @@ aboutwelcome
 experimentsGate
 .
 enabled
+'
 |
 preferenceValue
 &
 &
 (
 !
+'
 browser
 .
 aboutwelcome
@@ -15959,12 +15962,13 @@ aboutwelcome
 experimentsGate
 .
 skipSplashIfLoaded
+'
 |
 preferenceValue
 |
 |
 !
-nimbusExperimentsLoaded
+experimentsLoaded
 )
 "
 advance_on_experiment_load
