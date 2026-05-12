@@ -17456,3 +17456,17 @@ start
 ;
 }
 }
+#
+PanelUI
+-
+ipprotection
+-
+locations
+{
+max
+-
+height
+:
+400px
+;
+}
