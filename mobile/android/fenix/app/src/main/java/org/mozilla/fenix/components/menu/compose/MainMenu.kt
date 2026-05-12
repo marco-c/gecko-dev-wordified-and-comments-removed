@@ -2059,14 +2059,6 @@ onBannerClick
 if
 (
 showIPProtection
-&
-&
-accessPoint
-=
-=
-MenuAccessPoint
-.
-Home
 )
 {
 MenuGroup
