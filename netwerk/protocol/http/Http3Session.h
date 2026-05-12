@@ -605,6 +605,17 @@ nsIInterfaceRequestor
 aCallbacks
 )
 ;
+void
+SwapTransaction
+(
+nsAHttpTransaction
+*
+aOld
+nsAHttpTransaction
+*
+aNew
+)
+;
 bool
 CanReuse
 (

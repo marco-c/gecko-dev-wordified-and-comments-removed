@@ -179,11 +179,6 @@ nsIObliviousHttpChannel
 idl
 "
 "
-nsIRaceCacheWithNetwork
-.
-idl
-"
-"
 nsIReplacedHttpResponse
 .
 idl
@@ -606,6 +601,11 @@ HappyEyeballsConnectionAttempt
 cpp
 "
 "
+HappyEyeballsTransaction
+.
+cpp
+"
+"
 Http2Compression
 .
 cpp
@@ -942,6 +942,11 @@ cpp
 "
 "
 WebTransportStreamBase
+.
+cpp
+"
+"
+ZeroRttHandle
 .
 cpp
 "

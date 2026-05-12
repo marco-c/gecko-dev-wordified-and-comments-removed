@@ -676,6 +676,17 @@ false
 )
 override
 ;
+void
+SwapTransaction
+(
+nsAHttpTransaction
+*
+aOld
+nsAHttpTransaction
+*
+aNew
+)
+;
 private
 :
 void
