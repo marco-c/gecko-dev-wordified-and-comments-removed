@@ -31,6 +31,13 @@ js
 ]
 [
 "
+browser_check_channel_helper_telemetry
+.
+js
+"
+]
+[
+"
 browser_consentmanager_annotation
 .
 js
