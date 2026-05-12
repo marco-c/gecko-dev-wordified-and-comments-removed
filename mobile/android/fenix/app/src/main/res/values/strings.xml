@@ -9321,7 +9321,6 @@ ignore
 =
 "
 BrandUsage
-UnusedResources
 "
 >
 Help
@@ -11614,6 +11613,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Help

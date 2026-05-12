@@ -472,7 +472,7 @@ button
 -
 label
 :
-nova_onboarding_marketing_primary_button_text
+nova_onboarding_continue_button
 secondary
 -
 button
@@ -496,7 +496,7 @@ one
 -
 text
 :
-nova_onboarding_marketing_body_2
+nova_onboarding_marketing_body
 body
 -
 line
@@ -2098,19 +2098,6 @@ description
 The
 Treatment
 C
-marketing
-card
-variation
-.
-treatment
--
-d
-:
-description
-:
-The
-Treatment
-D
 marketing
 card
 variation
