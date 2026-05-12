@@ -703,6 +703,17 @@ cbCrSize
 height
 )
 {
+if
+(
+!
+PR_GetEnv
+(
+"
+MOZ_RUN_GTEST
+"
+)
+)
+{
 MOZ_ASSERT_UNREACHABLE
 (
 "
@@ -717,6 +728,7 @@ size
 "
 )
 ;
+}
 return
 nullptr
 ;
