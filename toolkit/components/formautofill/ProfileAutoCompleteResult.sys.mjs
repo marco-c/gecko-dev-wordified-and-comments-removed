@@ -2727,7 +2727,6 @@ toString
 replaceAll
 (
 "
-*
 "
 "
 "

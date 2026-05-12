@@ -1787,10 +1787,6 @@ Timothy
 Berners
 -
 Lee
-*
-*
-*
-*
 6785
 "
 image
@@ -1887,10 +1883,6 @@ American
 Express
 John
 Doe
-*
-*
-*
-*
 1234
 "
 image
