@@ -2212,7 +2212,7 @@ maxHeight
 =
 {
 roundedAnchorTop
-+
+-
 VIEWPORT_PANEL_MIN_MARGIN
 }
 px
