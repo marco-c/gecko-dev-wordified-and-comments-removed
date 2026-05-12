@@ -227,6 +227,13 @@ js
 ]
 [
 "
+test_autofill_adaptiveHistory_history_disabled
+.
+js
+"
+]
+[
+"
 test_autofill_adaptive_origin_fallback
 .
 js
