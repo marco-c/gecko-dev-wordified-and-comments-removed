@@ -1393,6 +1393,13 @@ windows
 .
 *
 /
+debug
+:
+4
+windows
+.
+*
+/
 opt
 :
 2
