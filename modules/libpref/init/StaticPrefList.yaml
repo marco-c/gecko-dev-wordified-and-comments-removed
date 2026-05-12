@@ -57754,7 +57754,7 @@ mirror
 always
 set_spidermonkey_pref
 :
-startup
+always
 #
 Experimental
 support
@@ -57988,7 +57988,7 @@ experimental
 source_phase_imports
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 false
@@ -57997,7 +57997,7 @@ mirror
 always
 set_spidermonkey_pref
 :
-startup
+always
 #
 Enable
 support
