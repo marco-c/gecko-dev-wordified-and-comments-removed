@@ -3049,10 +3049,6 @@ ColorDepth
 :
 COLOR_10
 :
-factor
-=
-64
-;
 break
 ;
 case
@@ -3061,10 +3057,6 @@ ColorDepth
 :
 COLOR_12
 :
-factor
-=
-16
-;
 break
 ;
 case
