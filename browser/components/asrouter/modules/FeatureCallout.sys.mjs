@@ -19610,11 +19610,9 @@ var
 (
 -
 -
-fc
+focus
 -
-primary
--
-button
+outline
 -
 color
 )
