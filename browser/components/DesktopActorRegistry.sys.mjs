@@ -3290,6 +3290,11 @@ about
 :
 opentabs
 "
+"
+about
+:
+aichatcontent
+"
 ]
 }
 LinkHandler

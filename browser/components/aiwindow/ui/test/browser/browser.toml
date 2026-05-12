@@ -170,6 +170,13 @@ js
 ]
 [
 "
+browser_aichat_content_background_token
+.
+js
+"
+]
+[
+"
 browser_aichat_content_message_event
 .
 js
