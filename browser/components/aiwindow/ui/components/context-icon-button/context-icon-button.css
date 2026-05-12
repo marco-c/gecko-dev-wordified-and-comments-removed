@@ -66,6 +66,14 @@ icon
 -
 button
 {
+media
+not
+(
+forced
+-
+colors
+)
+{
 -
 -
 button
@@ -95,4 +103,5 @@ color
 )
 )
 ;
+}
 }
