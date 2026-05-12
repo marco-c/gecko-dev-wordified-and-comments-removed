@@ -1,4 +1,6 @@
 import
+functools
+import
 logging
 import
 mozpack
@@ -8,12 +10,6 @@ as
 mozpath
 import
 yaml
-from
-mozbuild
-.
-util
-import
-memoized_property
 class
 ClangTidyConfig
 :
@@ -25,6 +21,12 @@ self
 mozilla_src
 )
 :
+        
+self
+.
+topsrcdir
+=
+mozilla_src
         
 self
 .
@@ -148,7 +150,119 @@ None
 return
 config
     
-memoized_property
+functools
+.
+cached_property
+    
+def
+header_skiplist
+(
+self
+)
+:
+        
+skiplist
+=
+set
+(
+)
+        
+try
+:
+            
+config
+=
+self
+.
+_clang_tidy_config
+            
+for
+item
+in
+config
+[
+"
+header_skiplist
+"
+]
+:
+                
+skiplist
+.
+add
+(
+mozpath
+.
+join
+(
+self
+.
+topsrcdir
+item
+)
+)
+        
+except
+Exception
+:
+            
+self
+.
+log
+(
+                
+logging
+.
+ERROR
+                
+"
+clang
+-
+tidy
+-
+config
+"
+                
+{
+}
+                
+"
+Looks
+like
+config
+.
+yaml
+is
+not
+valid
+so
+we
+are
+unable
+to
+"
+                
+"
+determine
+header
+skiplist
+using
+an
+empty
+one
+"
+            
+)
+        
+finally
+:
+            
+return
+skiplist
+    
+functools
+.
+cached_property
     
 def
 checks
@@ -302,7 +416,9 @@ finally
 return
 checks
     
-memoized_property
+functools
+.
+cached_property
     
 def
 checks_with_data
@@ -475,7 +591,9 @@ finally
 return
 checks_with_data
     
-memoized_property
+functools
+.
+cached_property
     
 def
 checks_config
@@ -692,7 +810,9 @@ finally
 return
 checks_config
     
-memoized_property
+functools
+.
+cached_property
     
 def
 version
@@ -780,7 +900,9 @@ yml
 return
 None
     
-memoized_property
+functools
+.
+cached_property
     
 def
 platforms
