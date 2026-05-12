@@ -3647,7 +3647,7 @@ canUseSemantic
 =
 semanticManager
 .
-isEnabledForSmartWindow
+canUseSemanticSearch
 &
 &
 (
