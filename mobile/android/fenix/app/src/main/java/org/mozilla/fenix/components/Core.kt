@@ -4681,9 +4681,8 @@ for
 *
 only
 on
-Nightly
-/
 Debug
+builds
 for
 now
 otherwise
@@ -4756,7 +4755,7 @@ Config
 .
 channel
 .
-isNightlyOrDebug
+isDebug
 crashReporting
 =
 crashReporter
