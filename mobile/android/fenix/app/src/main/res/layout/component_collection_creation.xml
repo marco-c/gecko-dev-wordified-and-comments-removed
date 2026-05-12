@@ -1255,7 +1255,9 @@ tint
 =
 "
 ?
-iconOnColor
+attr
+/
+colorOnPrimary
 "
 /
 >
@@ -1314,7 +1316,9 @@ textColor
 =
 "
 ?
-textActionPrimary
+attr
+/
+colorOnPrimary
 "
 app
 :
@@ -1433,7 +1437,9 @@ textColor
 =
 "
 ?
-textActionPrimary
+attr
+/
+colorOnPrimary
 "
 android
 :

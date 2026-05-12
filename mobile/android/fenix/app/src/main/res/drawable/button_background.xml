@@ -121,7 +121,9 @@ color
 =
 "
 ?
-actionPrimary
+attr
+/
+colorPrimary
 "
 /
 >

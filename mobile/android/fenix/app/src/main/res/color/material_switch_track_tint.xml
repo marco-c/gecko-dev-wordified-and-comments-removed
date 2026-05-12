@@ -110,7 +110,9 @@ color
 =
 "
 ?
-colorPrimarySurface
+attr
+/
+colorPrimary
 "
 android
 :
