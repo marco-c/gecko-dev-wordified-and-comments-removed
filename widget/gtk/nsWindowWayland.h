@@ -133,8 +133,6 @@ aLockCenter
 void
 LockNativePointer
 (
-NativePointerLockMode
-aNativePointerLockMode
 )
 override
 ;

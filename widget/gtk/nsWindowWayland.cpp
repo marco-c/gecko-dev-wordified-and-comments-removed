@@ -1497,8 +1497,6 @@ nsWindowWayland
 :
 LockNativePointer
 (
-NativePointerLockMode
-aNativePointerLockMode
 )
 {
 if
