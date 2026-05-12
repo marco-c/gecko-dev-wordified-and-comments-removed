@@ -1077,6 +1077,13 @@ js
 ]
 [
 "
+test_crashreports
+.
+js
+"
+]
+[
+"
 test_event_files
 .
 js
