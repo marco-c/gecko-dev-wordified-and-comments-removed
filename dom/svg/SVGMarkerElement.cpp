@@ -854,11 +854,7 @@ GetAnimValue
 (
 )
 *
-M_PI
-/
-180
-.
-0f
+kRadPerDegree
 ;
 break
 ;

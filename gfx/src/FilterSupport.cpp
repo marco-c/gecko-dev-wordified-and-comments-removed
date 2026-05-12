@@ -3770,9 +3770,7 @@ cos
 (
 hueRotateValue
 *
-M_PI
-/
-180
+kRadPerDegree
 )
 )
 ;
@@ -3788,9 +3786,7 @@ sin
 (
 hueRotateValue
 *
-M_PI
-/
-180
+kRadPerDegree
 )
 )
 ;
