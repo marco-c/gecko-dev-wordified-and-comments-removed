@@ -2513,14 +2513,14 @@ zoneFromAnyThread
 const
 {
 return
-chunk
+arena
 (
 )
 -
 >
-info
-.
 zone
+(
+)
 ;
 }
 bool
