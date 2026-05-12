@@ -413,9 +413,7 @@ r
 (
 ?
 :
-[
-^
-]
+.
 *
 (
 ?
@@ -423,6 +421,7 @@ P
 <
 file
 >
+/
 [
 ^
 :
@@ -623,6 +622,7 @@ allocation
 s
 \
 )
+\
 .
 "
         
@@ -910,14 +910,18 @@ line
         
 if
 summaryData
-:
-            
-assert
-self
+or
+line
 .
-summaryData
-is
-None
+startswith
+(
+"
+SUMMARY
+:
+AddressSanitizer
+"
+)
+:
             
 self
 .
@@ -931,6 +935,17 @@ inReport
 =
 False
             
+if
+summaryData
+:
+                
+assert
+self
+.
+summaryData
+is
+None
+                
 self
 .
 summaryData
@@ -948,6 +963,45 @@ summaryData
 groups
 (
 )
+)
+            
+else
+:
+                
+self
+.
+logger
+.
+warning
+(
+                    
+"
+LeakSanitizer
+summary
+line
+did
+not
+match
+expected
+"
+                    
+f
+"
+format
+;
+byte
+/
+allocation
+counts
+will
+be
+missing
+:
+{
+line
+}
+"
+                
 )
             
 return
