@@ -147,9 +147,11 @@ tab_loading
 -
 tab
 -
-selected
+background
 -
-bgcolor
+color
+-
+selected
 "
 {
 lwtProperty
