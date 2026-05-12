@@ -1375,6 +1375,10 @@ vp9cake_corrupt
 .
 webm
 load
+vpx_alpha_mismatch
+.
+webm
+load
 1903669
 .
 html
