@@ -81,6 +81,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -2594,7 +2601,7 @@ Nothing
 )
 ;
 }
-nsAutoString
+nsAutoCString
 ScrollSnapUtils
 :
 :
@@ -2666,7 +2673,10 @@ element
 ;
 }
 return
+NS_LossyConvertUTF16toASCII
+(
 string
+)
 ;
 }
 ScrollSnapTargetId
@@ -3052,7 +3062,7 @@ Debug
 )
 {
 const
-nsAutoString
+nsAutoCString
 allTargets
 =
 ScrollSnapUtils
@@ -3069,7 +3079,7 @@ mSnapTargets
 )
 ;
 const
-nsAutoString
+nsAutoCString
 inlineTargets
 =
 ScrollSnapUtils
@@ -3086,7 +3096,7 @@ inlineSet
 )
 ;
 const
-nsAutoString
+nsAutoCString
 blockTargets
 =
 ScrollSnapUtils
@@ -3112,10 +3122,7 @@ targets
 %
 s
 "
-NS_LossyConvertUTF16toASCII
-(
 allTargets
-)
 .
 get
 (
@@ -3132,10 +3139,7 @@ targets
 %
 s
 "
-NS_LossyConvertUTF16toASCII
-(
 inlineTargets
-)
 .
 get
 (
@@ -3152,10 +3156,7 @@ targets
 %
 s
 "
-NS_LossyConvertUTF16toASCII
-(
 blockTargets
-)
 .
 get
 (
@@ -3709,7 +3710,7 @@ Debug
 )
 {
 const
-nsAutoString
+nsAutoCString
 inlineString
 =
 ScrollSnapUtils
@@ -3732,10 +3733,7 @@ pick
 %
 s
 "
-NS_LossyConvertUTF16toASCII
-(
 inlineString
-)
 .
 get
 (
@@ -3780,7 +3778,7 @@ Debug
 )
 {
 const
-nsAutoString
+nsAutoCString
 blockString
 =
 ScrollSnapUtils
@@ -3803,10 +3801,7 @@ pick
 %
 s
 "
-NS_LossyConvertUTF16toASCII
-(
 blockString
-)
 .
 get
 (

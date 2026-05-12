@@ -201,7 +201,7 @@ aScrolledRect
 )
 ;
 static
-nsAutoString
+nsAutoCString
 StringifySnapTarget
 (
 const
@@ -219,7 +219,7 @@ typename
 T
 >
 static
-nsAutoString
+nsAutoCString
 StringifySnapTargetList
 (
 const
@@ -231,7 +231,7 @@ T
 aSnapTargets
 )
 {
-nsAutoString
+nsAutoCString
 string
 ;
 string
