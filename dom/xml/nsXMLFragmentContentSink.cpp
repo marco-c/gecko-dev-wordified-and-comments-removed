@@ -1060,9 +1060,11 @@ Remove
 )
 ;
 }
-mTextLength
-=
-0
+mText
+.
+ClearAndRetainStorage
+(
+)
 ;
 return
 NS_OK
