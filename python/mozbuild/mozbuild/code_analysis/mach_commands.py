@@ -2127,11 +2127,6 @@ footer
 =
 StaticAnalysisFooter
 (
-command_context
-.
-log_manager
-.
-terminal
 monitor
 )
     
