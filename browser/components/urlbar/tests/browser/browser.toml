@@ -1277,6 +1277,13 @@ js
 ]
 [
 "
+browser_readOnly
+.
+js
+"
+]
+[
+"
 browser_recentsearches
 .
 js
