@@ -1668,10 +1668,6 @@ windows11
 -
 tests
 -
-talos
--
-xperf
--
 windows
 -
 talos
@@ -1750,10 +1746,6 @@ windows11
 24h2
 -
 tests
--
-talos
--
-xperf
 -
 talos
 -
