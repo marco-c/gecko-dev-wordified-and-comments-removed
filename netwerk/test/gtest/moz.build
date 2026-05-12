@@ -243,6 +243,11 @@ TestStorageAccessHeader
 cpp
 "
 "
+TestThreadSafetyRaces
+.
+cpp
+"
+"
 TestUDPSocket
 .
 cpp
