@@ -2246,6 +2246,12 @@ ColorID
 :
 Window
 :
+case
+ColorID
+:
+:
+MozDialog
+:
 idx
 =
 COLOR_WINDOW
@@ -2359,12 +2365,6 @@ ColorID
 :
 :
 MozHeaderbarinactive
-:
-case
-ColorID
-:
-:
-MozDialog
 :
 idx
 =
