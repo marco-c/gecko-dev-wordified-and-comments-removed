@@ -358,6 +358,9 @@ case
 eCSSProperty_perspective
 :
 case
+eCSSProperty_stroke_width
+:
+case
 eCSSProperty_tab_size
 :
 case
