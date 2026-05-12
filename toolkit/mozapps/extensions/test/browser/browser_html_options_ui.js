@@ -3261,6 +3261,14 @@ window
 )
 ;
 await
+SimpleTest
+.
+promiseFocus
+(
+optionsBrowser
+)
+;
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter

@@ -51,6 +51,13 @@ js
 ]
 [
 "
+browser_picker_blocked_background_tab
+.
+js
+"
+]
+[
+"
 browser_selectpopup
 .
 js
