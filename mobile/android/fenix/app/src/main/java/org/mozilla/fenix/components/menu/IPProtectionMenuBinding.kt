@@ -451,15 +451,11 @@ dataLimitGb
 =
 if
 (
-dataMaxBytes
+maxDataBytes
 >
 0
 )
-(
-dataMaxBytes
-/
-BYTES_PER_GB
-)
+maxDataGb
 .
 toInt
 (

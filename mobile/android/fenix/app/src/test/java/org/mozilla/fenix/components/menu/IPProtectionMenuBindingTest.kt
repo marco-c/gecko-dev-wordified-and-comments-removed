@@ -755,7 +755,7 @@ proxyStatus
 Authorized
 .
 Active
-dataMaxBytes
+maxDataBytes
 =
 (
 5
@@ -839,7 +839,7 @@ proxyStatus
 Authorized
 .
 Active
-dataMaxBytes
+maxDataBytes
 =
 -
 1L

@@ -419,10 +419,10 @@ defaultState
 .
 copy
 (
-dataRemainingBytes
+remainingDataBytes
 =
 1000L
-dataMaxBytes
+maxDataBytes
 =
 5000L
 resetDate

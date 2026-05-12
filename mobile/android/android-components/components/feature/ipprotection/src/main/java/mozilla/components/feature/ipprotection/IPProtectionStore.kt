@@ -303,14 +303,14 @@ state
 .
 copy
 (
-dataRemainingBytes
+remainingDataBytes
 =
 action
 .
 info
 .
 remaining
-dataMaxBytes
+maxDataBytes
 =
 action
 .
