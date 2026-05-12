@@ -6935,6 +6935,19 @@ chosen_source_assignment_location
             
 ]
             
+if
+(
+                
+normalized_filename_to_add
+                
+in
+guessed_list_containing_normalized_filenames
+            
+)
+:
+                
+return
+            
 unnormalized_filename_to_add
 =
 unnormalize_filename
