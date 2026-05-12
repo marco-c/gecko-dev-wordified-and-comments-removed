@@ -356,11 +356,6 @@ EditBookmarkFragment
 :
 Fragment
 (
-R
-.
-layout
-.
-fragment_edit_bookmark
 )
 SystemInsetsPaddedFragment
 {

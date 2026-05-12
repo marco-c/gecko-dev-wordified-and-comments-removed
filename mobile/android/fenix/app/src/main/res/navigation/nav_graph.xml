@@ -3558,15 +3558,6 @@ bookmarks
 .
 EditBookmarkFragment
 "
-tools
-:
-layout
-=
-"
-layout
-/
-fragment_edit_bookmark
-"
 >
 <
 argument
