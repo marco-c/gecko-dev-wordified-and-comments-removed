@@ -155,6 +155,9 @@ Ok
 ValidationError
 >
 ;
+struct
+BehaviorConfig
+;
 ValidationResult
 CheckMIMETypeSupport
 (
@@ -186,6 +189,10 @@ TransferFunction
 >
 &
 aTransferFunction
+const
+BehaviorConfig
+&
+aBehavior
 )
 ;
 ValidationResult
@@ -198,6 +205,10 @@ dom
 MediaDecodingConfiguration
 &
 aConfig
+const
+BehaviorConfig
+&
+aBehavior
 )
 ;
 ValidationResult
@@ -210,6 +221,10 @@ dom
 MediaEncodingConfiguration
 &
 aConfig
+const
+BehaviorConfig
+&
+aBehavior
 )
 ;
 void
