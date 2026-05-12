@@ -306,7 +306,7 @@ switchIconOff
 "
 drawable
 /
-ic_tracking_protection_disabled
+mozac_ic_shield_slash_24
 "
 app
 :
@@ -315,7 +315,7 @@ switchIconOn
 "
 drawable
 /
-ic_tracking_protection_enabled
+mozac_ic_shield_24
 "
 app
 :
