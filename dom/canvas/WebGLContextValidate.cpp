@@ -2753,11 +2753,13 @@ break
 }
 if
 (
-MOZ_LIKELY
-(
 isValid
 )
-)
+[
+[
+likely
+]
+]
 {
 return
 true

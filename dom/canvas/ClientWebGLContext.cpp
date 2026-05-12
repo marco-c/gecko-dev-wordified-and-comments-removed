@@ -27618,11 +27618,13 @@ locId
 ;
 if
 (
-MOZ_LIKELY
-(
 loc
 )
-)
+[
+[
+likely
+]
+]
 {
 locId
 =
