@@ -312,6 +312,11 @@ TestGMPUtils
 cpp
 "
 "
+TestGMPVideoi420Frame
+.
+cpp
+"
+"
 TestGroupId
 .
 cpp
