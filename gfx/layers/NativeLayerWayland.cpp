@@ -863,7 +863,7 @@ UpdateLayersOnMainThread
 mRootSurface
 -
 >
-SetFrameCallbackStateHandlerLocked
+SetVSyncCallbackStateHandlerLocked
 (
 lock
 [
@@ -886,7 +886,7 @@ void
 LOGVERBOSE
 (
 "
-FrameCallbackStateHandler
+VSyncCallbackStateHandler
 (
 )
 "
@@ -3271,7 +3271,7 @@ aTime
 mRootSurface
 -
 >
-FrameCallbackHandler
+VSyncCallbackHandler
 (
 nullptr
 aTime
@@ -5111,7 +5111,7 @@ false
 mSurface
 -
 >
-SetFrameCallbackLocked
+SetVSyncCallbackLocked
 (
 surfaceLock
 [
@@ -5401,7 +5401,7 @@ mSurface
 mSurface
 -
 >
-SetFrameCallbackStateLocked
+SetVSyncCallbackStateLocked
 (
 lock
 aState
@@ -5538,7 +5538,7 @@ surfaceLock
 mSurface
 -
 >
-ClearFrameCallbackHandlerLocked
+ClearVSyncCallbackHandlerLocked
 (
 surfaceLock
 )
