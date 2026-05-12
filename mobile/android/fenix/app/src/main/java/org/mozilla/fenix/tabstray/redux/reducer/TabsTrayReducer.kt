@@ -518,6 +518,10 @@ is
 TabsTrayAction
 .
 ThreeDotMenuShown
+is
+TabsTrayAction
+.
+ReorderTabsTrayItem
 -
 >
 state
