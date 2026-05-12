@@ -33,12 +33,6 @@ TakeStartupURLs
 )
 ;
 void
-StartupURLCollectionComplete
-(
-void
-)
-;
-void
 DisableAppNap
 (
 void
