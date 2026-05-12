@@ -1172,6 +1172,13 @@ numParams
 !
 =
 0
+&
+&
+!
+IsMediaTypeWebRTC
+(
+aMediaType
+)
 )
 {
 ValidationResult
