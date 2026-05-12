@@ -216,12 +216,6 @@ init
 (
 )
 {
-}
-async
-initOnStartupCompleted
-(
-)
-{
 this
 .
 #
@@ -306,6 +300,12 @@ AuthStateChanged
 ]
 )
 ;
+}
+async
+initOnStartupCompleted
+(
+)
+{
 }
 uninit
 (
