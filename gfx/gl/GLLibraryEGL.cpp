@@ -4030,11 +4030,6 @@ ShouldDumpExts
 auto
 rawExtString
 =
-(
-const
-char
-*
-)
 mLib
 -
 >
@@ -4114,11 +4109,6 @@ const
 auto
 vendor
 =
-(
-const
-char
-*
-)
 mLib
 -
 >
@@ -4874,11 +4864,6 @@ ifndef
 ANDROID
 rawExtString
 =
-(
-const
-char
-*
-)
 fQueryString
 (
 nullptr
