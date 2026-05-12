@@ -19737,6 +19737,16 @@ ConsiderChildOverflow
 aOverflowAreas
 f
 aAsIfScrolled
+?
+OverflowAreaUnionFlags
+:
+:
+AsIfScrolled
+:
+OverflowAreaUnionFlags
+:
+:
+None
 )
 ;
 if
