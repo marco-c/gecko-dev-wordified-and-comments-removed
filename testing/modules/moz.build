@@ -86,13 +86,6 @@ TESTING_JS_MODULES
 =
 [
 "
-AboutPages
-.
-sys
-.
-mjs
-"
-"
 AppData
 .
 sys
