@@ -681,10 +681,6 @@ List
 TabCollection
 >
 val
-showCollectionPlaceholder
-:
-Boolean
-val
 recentTabs
 :
 List
@@ -1030,13 +1026,6 @@ Set
 PendingDeletionHistory
 >
 )
-:
-AppAction
-(
-)
-data
-object
-RemoveCollectionsPlaceholder
 :
 AppAction
 (
