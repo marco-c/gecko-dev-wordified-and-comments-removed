@@ -565,6 +565,11 @@ testObjectWithStashedPointer
 cpp
 "
 "
+testObserverList
+.
+cpp
+"
+"
 testOOM
 .
 cpp
