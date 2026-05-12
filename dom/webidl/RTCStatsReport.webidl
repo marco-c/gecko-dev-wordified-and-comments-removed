@@ -863,15 +863,6 @@ priority
 DOMString
 relayProtocol
 ;
-DOMString
-foundation
-;
-DOMString
-usernameFragment
-;
-RTCIceTcpCandidateType
-tcpType
-;
 /
 /
 Because
