@@ -3036,6 +3036,8 @@ extern
 FileDescriptor
 CreateAudioIPCConnection
 (
+uint32_t
+aRemotePid
 )
 ;
 }
@@ -26964,6 +26966,9 @@ CubebUtils
 :
 CreateAudioIPCConnection
 (
+OtherPid
+(
+)
 )
 ;
 FileDescOrError
