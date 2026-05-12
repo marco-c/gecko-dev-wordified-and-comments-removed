@@ -35,7 +35,9 @@ inspector
 |
 inspector
 .
-_destroyed
+isDestroyed
+(
+)
 )
 {
 return

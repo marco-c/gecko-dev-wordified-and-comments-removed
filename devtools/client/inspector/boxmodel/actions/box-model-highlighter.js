@@ -37,7 +37,9 @@ inspector
 |
 inspector
 .
-_destroyed
+isDestroyed
+(
+)
 )
 {
 return
@@ -112,7 +114,9 @@ inspector
 |
 inspector
 .
-_destroyed
+isDestroyed
+(
+)
 )
 {
 return
@@ -164,7 +168,9 @@ inspector
 |
 inspector
 .
-_destroyed
+isDestroyed
+(
+)
 )
 {
 return
