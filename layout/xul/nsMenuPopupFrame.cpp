@@ -3660,8 +3660,10 @@ nsIRunnable
 >
 event
 =
-new
+MakeAndAddRef
+<
 nsXULPopupShownEvent
+>
 (
 GetContent
 (

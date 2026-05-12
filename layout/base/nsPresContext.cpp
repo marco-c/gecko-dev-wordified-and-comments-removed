@@ -8326,8 +8326,10 @@ nsIRunnable
 >
 ev
 =
-new
+MakeAndAddRef
+<
 WeakRunnableMethod
+>
 (
 "
 nsPresContext

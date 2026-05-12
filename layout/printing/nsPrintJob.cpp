@@ -1957,8 +1957,10 @@ XRE_IsContentProcess
 {
 devspec
 =
-new
+MakeAndAddRef
+<
 nsDeviceContextSpecProxy
+>
 (
 mRemotePrintJob
 )
@@ -9688,8 +9690,10 @@ nsIRunnable
 >
 event
 =
-new
+MakeAndAddRef
+<
 nsPrintCompletionEvent
+>
 (
 mDocViewerPrint
 )

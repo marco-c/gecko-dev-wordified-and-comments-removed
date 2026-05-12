@@ -11245,8 +11245,10 @@ nsIReferrerInfo
 >
 referrerInfo
 =
-new
+MakeAndAddRef
+<
 ReferrerInfo
+>
 (
 nullptr
 )
@@ -11312,8 +11314,10 @@ nsIReferrerInfo
 >
 referrerInfo
 =
-new
+MakeAndAddRef
+<
 ReferrerInfo
+>
 (
 nullptr
 )
