@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Atomics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Mutex
 .
 h
@@ -275,7 +284,11 @@ lock
 ;
 }
 ;
+Atomic
+<
 bool
+Relaxed
+>
 mEnableLogging
 ;
 WebSocketData
