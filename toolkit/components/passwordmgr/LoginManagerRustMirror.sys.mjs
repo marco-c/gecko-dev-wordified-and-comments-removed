@@ -92,7 +92,7 @@ const
 rustMirrorTelemetryVersion
 =
 "
-7
+8
 "
 ;
 /
