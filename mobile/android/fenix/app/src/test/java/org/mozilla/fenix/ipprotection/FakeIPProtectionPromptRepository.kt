@@ -86,6 +86,13 @@ canShowIPProtectionPrompt
 Boolean
 =
 true
+override
+var
+hasShownPrompt
+:
+Boolean
+=
+false
 )
 :
 IPProtectionPromptRepository
