@@ -98,6 +98,15 @@ enable_macos_passkeys
 =
 false
 "
+"
+security
+.
+webauthn
+.
+related_origin_requests_mode
+=
+0
+"
 ]
 [
 "
