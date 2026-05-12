@@ -1477,6 +1477,17 @@ script
 )
 ;
 bool
+CanBaselineCompileScript
+(
+JSContext
+*
+cx
+JSScript
+*
+script
+)
+;
+bool
 BaselineCompileFromBaselineInterpreter
 (
 JSContext
