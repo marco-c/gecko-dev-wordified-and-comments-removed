@@ -158,6 +158,11 @@ build
 )
 )
 .
+setAcceptsDelayedFocusGain
+(
+true
+)
+.
 setWillPauseWhenDucked
 (
 false
