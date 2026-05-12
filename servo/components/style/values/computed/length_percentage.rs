@@ -3800,7 +3800,7 @@ new
 specified
 :
 :
-CalcLengthPercentage
+CalcNumeric
 :
 :
 from_computed_value
@@ -6797,7 +6797,7 @@ impl
 specified
 :
 :
-CalcLengthPercentage
+CalcNumeric
 {
 fn
 to_computed_value_with_zoom
@@ -7394,7 +7394,7 @@ NoCalcLength
 specified
 :
 :
-CalcLengthPercentage
+CalcNumeric
 {
 clamping_mode
 :
