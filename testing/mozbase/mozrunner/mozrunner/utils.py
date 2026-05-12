@@ -615,16 +615,6 @@ MOZ_DISABLE_NONLOCAL_CONNECTIONS
 "
 )
     
-if
-"
-MOZ_UPLOAD_DIR
-"
-in
-os
-.
-environ
-:
-        
 env
 .
 setdefault
@@ -647,7 +637,7 @@ jsep
 4
 "
 )
-        
+    
 env
 .
 setdefault
@@ -659,7 +649,7 @@ R_LOG_LEVEL
 6
 "
 )
-        
+    
 env
 .
 setdefault
@@ -671,7 +661,7 @@ R_LOG_DESTINATION
 stderr
 "
 )
-        
+    
 env
 .
 setdefault
