@@ -388,6 +388,13 @@ css
 comma
 )
 ]
+#
+[
+typed
+(
+todo_derive_fields
+)
+]
 pub
 struct
 FontSettings

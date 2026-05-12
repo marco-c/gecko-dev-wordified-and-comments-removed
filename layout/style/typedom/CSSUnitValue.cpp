@@ -352,6 +352,9 @@ case
 eCSSProperty_font_size
 :
 case
+eCSSProperty_line_height
+:
+case
 eCSSProperty_perspective
 :
 case
