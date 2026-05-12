@@ -13841,6 +13841,9 @@ unknown
 searchEngagementTelemetryAction
 (
 result
+pickedActionKey
+=
+null
 )
 {
 if
@@ -13869,6 +13872,15 @@ key
 "
 none
 "
+;
+}
+if
+(
+pickedActionKey
+)
+{
+return
+pickedActionKey
 ;
 }
 return
