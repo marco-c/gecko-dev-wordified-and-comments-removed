@@ -179,6 +179,11 @@ mLegacy
 =
 false
 ;
+bool
+mWebRTCEnabled
+=
+true
+;
 }
 ;
 }
