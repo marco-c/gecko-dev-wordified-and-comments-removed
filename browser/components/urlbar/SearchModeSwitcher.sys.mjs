@@ -4841,10 +4841,6 @@ getSearchString
 if
 (
 !
-searchString
-&
-&
-!
 event
 .
 shiftKey
@@ -4877,8 +4873,7 @@ input
 .
 search
 (
-"
-"
+searchString
 {
 searchEngine
 searchModeEntry

@@ -418,6 +418,15 @@ MochiSearch
 "
 )
 ;
+EventUtils
+.
+synthesizeKey
+(
+"
+KEY_Enter
+"
+)
+;
 await
 browserLoadedPromise
 ;

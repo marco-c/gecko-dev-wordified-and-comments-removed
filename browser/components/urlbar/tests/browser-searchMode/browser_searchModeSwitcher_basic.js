@@ -2712,6 +2712,15 @@ MozSearch
 "
 )
 ;
+EventUtils
+.
+synthesizeKey
+(
+"
+KEY_Enter
+"
+)
+;
 await
 browserLoaded
 ;
