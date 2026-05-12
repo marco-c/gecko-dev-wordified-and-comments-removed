@@ -29,9 +29,6 @@ MessageChannel
 '
 Worker
 '
-'
-SharedWorker
-'
 ]
 ;
 for

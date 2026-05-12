@@ -182,6 +182,9 @@ window
 '
 length
 '
+'
+SharedWorker
+'
 ]
 ;
 for
