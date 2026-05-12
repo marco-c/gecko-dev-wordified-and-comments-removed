@@ -345,7 +345,6 @@ processRawEvent
 foobar
 "
 )
-Unit
 }
 Test
 fun
@@ -426,7 +425,6 @@ processRawEvent
 foobar
 "
 )
-Unit
 }
 Test
 fun
@@ -497,7 +495,6 @@ any
 (
 )
 )
-Unit
 }
 Test
 fun
@@ -629,7 +626,6 @@ any
 (
 )
 )
-Unit
 }
 Test
 fun
@@ -688,7 +684,6 @@ any
 (
 )
 )
-Unit
 }
 Test
 fun

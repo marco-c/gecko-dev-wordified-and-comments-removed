@@ -328,6 +328,12 @@ util
 concurrent
 .
 TimeUnit
+import
+kotlin
+.
+test
+.
+assertIs
 RunWith
 (
 AndroidJUnit4
@@ -1177,7 +1183,6 @@ conservative
 true
 )
 )
-Unit
 }
 Test
 fun
@@ -1298,7 +1303,6 @@ conservative
 true
 )
 )
-Unit
 }
 Test
 (
@@ -1353,7 +1357,6 @@ provider
 getFeaturedAddons
 (
 )
-Unit
 }
 Test
 fun
@@ -1502,7 +1505,6 @@ useFallbackFile
 =
 false
 )
-Unit
 }
 Test
 fun
@@ -2944,11 +2946,12 @@ png
 await
 (
 )
-assertTrue
+assertIs
+<
+Bitmap
+>
 (
 bitmap
-is
-Bitmap
 )
 }
 Test
@@ -3060,11 +3063,12 @@ assertEquals
 expectedIcon
 bitmap
 )
-assertTrue
+assertIs
+<
+Bitmap
+>
 (
 bitmap
-is
-Bitmap
 )
 }
 Test
@@ -3898,7 +3902,6 @@ conservative
 true
 )
 )
-Unit
 }
 Test
 fun

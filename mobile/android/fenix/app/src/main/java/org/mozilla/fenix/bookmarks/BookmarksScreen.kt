@@ -4613,12 +4613,9 @@ store
 }
 if
 (
+!
 isCurrentFolderDesktopRoot
 )
-{
-Unit
-}
-else
 {
 IconButton
 (

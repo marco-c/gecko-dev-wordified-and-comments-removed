@@ -477,7 +477,6 @@ any
 (
 )
 )
-Unit
 }
 Test
 fun
@@ -573,7 +572,6 @@ verifyNoMoreInteractions
 (
 constellation
 )
-Unit
 }
 Test
 fun
@@ -684,7 +682,6 @@ any
 (
 )
 )
-Unit
 }
 Test
 fun

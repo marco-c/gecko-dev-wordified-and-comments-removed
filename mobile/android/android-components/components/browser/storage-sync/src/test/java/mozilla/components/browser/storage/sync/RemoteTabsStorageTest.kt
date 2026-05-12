@@ -1108,6 +1108,5 @@ submitCaughtException
 (
 throwable
 )
-Unit
 }
 }

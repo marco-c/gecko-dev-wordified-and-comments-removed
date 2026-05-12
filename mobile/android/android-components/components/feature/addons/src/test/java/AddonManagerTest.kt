@@ -630,6 +630,12 @@ mockito
 Mockito
 .
 verify
+import
+kotlin
+.
+test
+.
+assertIs
 RunWith
 (
 AndroidJUnit4
@@ -3644,7 +3650,6 @@ anyString
 (
 )
 )
-Unit
 }
 Test
 fun
@@ -4015,7 +4020,6 @@ bug
 1949963
 )
 .
-Unit
 }
 Test
 fun
@@ -4762,13 +4766,14 @@ Exception
 (
 )
 )
-assertTrue
-(
-updateStatus
-is
+assertIs
+<
 Status
 .
 Error
+>
+(
+updateStatus
 )
 }
 Test
