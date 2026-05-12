@@ -44,6 +44,13 @@ h
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 nsHtml5ArrayCopy
 .
 h
