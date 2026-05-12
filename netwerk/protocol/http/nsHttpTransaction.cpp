@@ -1677,6 +1677,14 @@ StaticPrefs
 network_dns_force_use_https_rr
 (
 )
+&
+&
+!
+(
+mCaps
+&
+NS_HTTP_USE_HAPPY_EYEBALLS
+)
 ;
 if
 (

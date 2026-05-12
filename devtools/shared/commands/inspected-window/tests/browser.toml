@@ -184,3 +184,14 @@ csp_sandbox
 sjs
 "
 ]
+skip
+-
+if
+=
+[
+"
+http3
+"
+#
+1828838
+]
