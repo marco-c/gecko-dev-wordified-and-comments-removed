@@ -18918,11 +18918,7 @@ cos
 (
 mLimitingConeAngle
 *
-M_PI
-/
-180
-.
-0
+kRadPerDegree
 )
 0
 .
