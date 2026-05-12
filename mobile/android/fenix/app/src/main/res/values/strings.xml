@@ -11311,6 +11311,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Share
@@ -11695,6 +11696,13 @@ name
 =
 "
 nova_onboarding_marketing_primary_button_text
+"
+tools
+:
+ignore
+=
+"
+BrandUsage
 "
 >
 Help
