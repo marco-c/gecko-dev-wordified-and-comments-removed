@@ -309,7 +309,7 @@ Transform
 )
 layerInfo
 .
-SamplingFilter
+samplingFilter
 (
 )
 layerInfo
@@ -894,7 +894,7 @@ RoundedRect
 aRoundedClipRect
 Matrix4x4
 aTransform
-int8_t
+SamplingFilter
 aSamplingFilter
 bool
 aSurfaceIsFlipped
@@ -1012,16 +1012,7 @@ layer
 >
 SetSamplingFilter
 (
-static_cast
-<
-gfx
-:
-:
-SamplingFilter
->
-(
 aSamplingFilter
-)
 )
 ;
 layer

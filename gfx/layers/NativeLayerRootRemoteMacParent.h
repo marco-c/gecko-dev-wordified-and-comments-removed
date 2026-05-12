@@ -183,7 +183,7 @@ RoundedRect
 aRoundedClipRect
 Matrix4x4
 aTransform
-int8_t
+SamplingFilter
 aSamplingFilter
 bool
 aSurfaceIsFlipped

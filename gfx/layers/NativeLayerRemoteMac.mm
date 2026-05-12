@@ -1255,14 +1255,8 @@ RoundedClipRect
 GetTransform
 (
 )
-static_cast
-<
-int8_t
->
-(
 SamplingFilter
 (
-)
 )
 SurfaceIsFlipped
 (
