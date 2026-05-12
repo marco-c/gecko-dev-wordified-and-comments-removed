@@ -550,14 +550,6 @@ third_party
 /
 libwebrtc
 "
-"
-/
-third_party
-/
-abseil
--
-cpp
-"
 ]
 if
 CONFIG

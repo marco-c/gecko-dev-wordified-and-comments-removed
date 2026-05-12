@@ -98,7 +98,7 @@ AllowCompilerWarnings
 FINAL_LIBRARY
 =
 "
-xul
+abseil
 "
 LOCAL_INCLUDES
 +
