@@ -122,16 +122,6 @@ radii
 "
 )
 ;
-const
-double
-radPerDeg
-=
-M_PI
-/
-180
-.
-0
-;
 mTo
 =
 to
@@ -181,7 +171,7 @@ sin
 (
 angle
 *
-radPerDeg
+kRadPerDegree
 )
 ;
 mCosPhi
@@ -190,7 +180,7 @@ cos
 (
 angle
 *
-radPerDeg
+kRadPerDegree
 )
 ;
 double
