@@ -2,6 +2,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 parser
 :
 :
@@ -1176,7 +1185,6 @@ is_zero
 derive
 (
 Clone
-Copy
 Debug
 MallocSizeOf
 PartialEq
@@ -1184,6 +1192,13 @@ SpecifiedValueInfo
 ToCss
 ToShmem
 ToTyped
+)
+]
+#
+[
+typed
+(
+todo_derive_fields
 )
 ]
 pub

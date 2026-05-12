@@ -6715,8 +6715,13 @@ LineDirection
 :
 Angle
 (
-ref
+Angle
+:
+:
+NoCalc
+(
 angle
+)
 )
 =
 >
@@ -6818,6 +6823,7 @@ LineDirection
 :
 Angle
 (
+ref
 angle
 )
 =
