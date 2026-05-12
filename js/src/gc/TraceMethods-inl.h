@@ -1085,10 +1085,8 @@ JS_GC_CONCURRENT_MARKING
 if
 constexpr
 (
-bool
+hasOption
 (
-opts
-&
 gc
 :
 :
