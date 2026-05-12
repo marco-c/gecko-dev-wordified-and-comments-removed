@@ -238,7 +238,7 @@ starts
 )
 ;
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 policies
@@ -322,7 +322,7 @@ default
 )
 ;
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 }
@@ -405,7 +405,7 @@ starts
 )
 ;
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 policies
@@ -491,7 +491,7 @@ engine
 )
 ;
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 }
@@ -574,7 +574,7 @@ starts
 )
 ;
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 policies
@@ -661,7 +661,7 @@ default
 )
 ;
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 }
@@ -730,7 +730,7 @@ starts
 )
 ;
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 policies
@@ -853,7 +853,7 @@ utf
 )
 ;
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 policies
@@ -906,7 +906,7 @@ installed
 )
 ;
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 }
@@ -958,7 +958,7 @@ starts
 )
 ;
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 policies
@@ -1171,7 +1171,7 @@ present
 )
 ;
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 }
@@ -1223,7 +1223,7 @@ starts
 )
 ;
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 policies
@@ -1313,7 +1313,7 @@ encoding
 )
 ;
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 }
@@ -1337,7 +1337,7 @@ test_install_and_update
 )
 {
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 policies
@@ -1461,7 +1461,7 @@ correct
 )
 ;
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 policies
@@ -1584,7 +1584,7 @@ correct
 )
 ;
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 }
@@ -1636,7 +1636,7 @@ starts
 )
 ;
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 policies
@@ -1771,7 +1771,7 @@ correct
 )
 ;
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 }
@@ -1823,7 +1823,7 @@ starts
 )
 ;
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 policies
@@ -1923,7 +1923,7 @@ await
 settingsWritten
 ;
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 policies
@@ -2019,7 +2019,7 @@ restart
 )
 ;
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 }
@@ -2043,7 +2043,7 @@ test_reset_default
 )
 {
 await
-setupPolicyEngineWithJsonForSearch
+setupPolicyEngineWithJsonWithSearch
 (
 {
 policies
