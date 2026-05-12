@@ -1095,7 +1095,7 @@ mozIStorageError
 RANGE
 :
 return
-Ci
+Cr
 .
 NS_ERROR_UNEXPECTED
 ;
