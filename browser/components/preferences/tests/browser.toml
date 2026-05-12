@@ -54,6 +54,17 @@ enabled
 =
 false
 "
+"
+browser
+.
+settings
+-
+redesign
+.
+enabled
+=
+false
+"
 ]
 support
 -
