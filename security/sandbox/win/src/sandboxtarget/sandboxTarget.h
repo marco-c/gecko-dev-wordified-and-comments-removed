@@ -130,6 +130,11 @@ StartSandbox
 (
 )
 ;
+void
+LowerContentSandbox
+(
+)
+;
 protected
 :
 SandboxTarget
