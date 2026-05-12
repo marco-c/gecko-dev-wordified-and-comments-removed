@@ -3615,6 +3615,13 @@ name
 "
 mozac_ui_icons_fill
 "
+tools
+:
+ignore
+=
+"
+UnusedResources
+"
 >
 color
 /
