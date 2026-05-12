@@ -9461,7 +9461,6 @@ ignore
 =
 "
 BrandUsage
-UnusedResources
 "
 >
 Help
@@ -11451,6 +11450,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Share
@@ -51541,13 +51541,6 @@ name
 "
 ip_protection_toolbar_pill_label
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 VPN
 on
@@ -51585,13 +51578,6 @@ name
 =
 "
 ip_protection_toolbar_pill_description
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 VPN

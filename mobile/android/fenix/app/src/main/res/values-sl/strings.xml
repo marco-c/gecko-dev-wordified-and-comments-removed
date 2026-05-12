@@ -9325,7 +9325,6 @@ ignore
 =
 "
 BrandUsage
-UnusedResources
 "
 >
 Pomagajte
@@ -11211,6 +11210,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Sporo
@@ -50963,13 +50963,6 @@ name
 "
 ip_protection_toolbar_pill_label
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 VPN
 je
@@ -51008,13 +51001,6 @@ name
 =
 "
 ip_protection_toolbar_pill_description
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 VPN

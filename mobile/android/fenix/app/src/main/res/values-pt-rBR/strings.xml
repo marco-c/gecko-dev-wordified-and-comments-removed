@@ -8880,7 +8880,6 @@ ignore
 =
 "
 BrandUsage
-UnusedResources
 "
 >
 Nos
@@ -10915,6 +10914,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Compartilhe

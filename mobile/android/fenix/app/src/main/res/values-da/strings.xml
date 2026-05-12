@@ -9313,7 +9313,6 @@ ignore
 =
 "
 BrandUsage
-UnusedResources
 "
 >
 Hj
@@ -11351,6 +11350,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Del
@@ -50651,13 +50651,6 @@ name
 "
 ip_protection_toolbar_pill_label
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 VPN
 sl
@@ -50697,13 +50690,6 @@ name
 =
 "
 ip_protection_toolbar_pill_description
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 VPN

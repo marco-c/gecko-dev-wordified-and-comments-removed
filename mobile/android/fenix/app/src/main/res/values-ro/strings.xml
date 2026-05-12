@@ -9802,7 +9802,6 @@ ignore
 =
 "
 BrandUsage
-UnusedResources
 "
 >
 Ajut
@@ -11842,6 +11841,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Partajeaz
@@ -53575,13 +53575,6 @@ name
 "
 ip_protection_toolbar_pill_label
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 VPN
 activat
@@ -53619,13 +53612,6 @@ name
 =
 "
 ip_protection_toolbar_pill_description
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 VPN

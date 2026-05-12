@@ -9627,7 +9627,6 @@ ignore
 =
 "
 BrandUsage
-UnusedResources
 "
 >
 Pomogni
@@ -11644,6 +11643,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Dijeli
@@ -52218,13 +52218,6 @@ name
 "
 ip_protection_toolbar_pill_label
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 VPN
 je
@@ -52264,13 +52257,6 @@ name
 =
 "
 ip_protection_toolbar_pill_description
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 VPN

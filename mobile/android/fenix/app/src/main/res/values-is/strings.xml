@@ -9701,7 +9701,6 @@ ignore
 =
 "
 BrandUsage
-UnusedResources
 "
 >
 Hj
@@ -11776,6 +11775,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Deila
@@ -52566,13 +52566,6 @@ name
 "
 ip_protection_toolbar_pill_label
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 VPN
 kveikt
@@ -52610,13 +52603,6 @@ name
 =
 "
 ip_protection_toolbar_pill_description
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 VPN

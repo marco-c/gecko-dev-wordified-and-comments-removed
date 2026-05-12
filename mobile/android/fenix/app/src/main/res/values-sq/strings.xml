@@ -8961,7 +8961,6 @@ ignore
 =
 "
 BrandUsage
-UnusedResources
 "
 >
 Ndihmonani
@@ -11069,6 +11068,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Ndani

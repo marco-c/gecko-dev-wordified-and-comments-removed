@@ -11220,7 +11220,6 @@ ignore
 =
 "
 BrandUsage
-UnusedResources
 "
 >
 R
@@ -13552,6 +13551,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 N

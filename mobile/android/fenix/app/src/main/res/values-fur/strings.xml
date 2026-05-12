@@ -8646,7 +8646,6 @@ ignore
 =
 "
 BrandUsage
-UnusedResources
 "
 >
 Judinus
@@ -10654,6 +10653,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Condiv

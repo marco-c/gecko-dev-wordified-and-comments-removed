@@ -9520,7 +9520,6 @@ ignore
 =
 "
 BrandUsage
-UnusedResources
 "
 >
 Help
@@ -11517,6 +11516,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Deel
@@ -51752,13 +51752,6 @@ name
 "
 ip_protection_toolbar_pill_label
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 VPN
 is
@@ -51797,13 +51790,6 @@ name
 =
 "
 ip_protection_toolbar_pill_description
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 VPN

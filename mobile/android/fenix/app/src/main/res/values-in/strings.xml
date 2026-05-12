@@ -8530,7 +8530,6 @@ ignore
 =
 "
 BrandUsage
-UnusedResources
 "
 >
 Bantu
@@ -10449,6 +10448,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Bagikan

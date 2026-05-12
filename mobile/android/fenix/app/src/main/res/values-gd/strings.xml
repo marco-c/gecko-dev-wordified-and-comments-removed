@@ -9241,7 +9241,6 @@ ignore
 =
 "
 BrandUsage
-UnusedResources
 "
 >
 Cuidich
@@ -11357,6 +11356,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Innis

@@ -9689,7 +9689,6 @@ ignore
 =
 "
 BrandUsage
-UnusedResources
 "
 >
 Orepytyv
@@ -11726,6 +11725,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Emombe
@@ -52690,13 +52690,6 @@ name
 "
 ip_protection_toolbar_pill_label
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 VPN
 hendy
@@ -52734,13 +52727,6 @@ name
 =
 "
 ip_protection_toolbar_pill_description
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 VPN

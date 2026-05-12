@@ -8606,7 +8606,6 @@ ignore
 =
 "
 BrandUsage
-UnusedResources
 "
 >
 Firefox
@@ -10330,6 +10329,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Mozilla
@@ -45883,13 +45883,6 @@ name
 "
 ip_protection_toolbar_pill_label
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 VPN
 <
@@ -45926,13 +45919,6 @@ name
 =
 "
 ip_protection_toolbar_pill_description
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 VPN

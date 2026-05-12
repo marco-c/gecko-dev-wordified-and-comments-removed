@@ -9579,7 +9579,6 @@ ignore
 =
 "
 BrandUsage
-UnusedResources
 "
 >
 Helpu
@@ -11589,6 +11588,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Rakontu
@@ -50754,13 +50754,6 @@ name
 "
 ip_protection_toolbar_pill_label
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 VPN
 altita
@@ -50798,13 +50791,6 @@ name
 =
 "
 ip_protection_toolbar_pill_description
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 VPN
