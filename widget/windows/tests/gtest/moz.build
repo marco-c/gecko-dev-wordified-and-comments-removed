@@ -68,6 +68,11 @@ TestJumpListBuilder
 cpp
 "
 "
+TestNativePointerLock
+.
+cpp
+"
+"
 TestWinDND
 .
 cpp
