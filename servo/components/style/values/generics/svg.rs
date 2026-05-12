@@ -510,13 +510,6 @@ C
 u8
 )
 ]
-#
-[
-typed
-(
-todo_derive_fields
-)
-]
 pub
 enum
 GenericSVGStrokeDashArray
@@ -529,6 +522,13 @@ L
 css
 (
 comma
+)
+]
+#
+[
+typed
+(
+no_multiple_values
 )
 ]
 Values
