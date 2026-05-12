@@ -137,6 +137,9 @@ content_scripts
 {
 css
 js
+no_console_message
+:
+true
 }
 ;
 }
