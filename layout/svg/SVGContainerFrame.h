@@ -205,17 +205,6 @@ aFrameList
 override
 ;
 void
-RemoveFrame
-(
-DestroyContext
-&
-ChildListID
-nsIFrame
-*
-)
-override
-;
-void
 BuildDisplayList
 (
 nsDisplayListBuilder
