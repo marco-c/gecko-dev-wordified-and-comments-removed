@@ -93,6 +93,8 @@ os
 import
 shutil
 import
+subprocess
+import
 sys
 from
 pathlib
@@ -1184,9 +1186,6 @@ layers
 "
 "
     
-import
-subprocess
-    
 from
 mozperftest
 .
@@ -1205,6 +1204,10 @@ if
 sys
 .
 version_info
+[
+:
+2
+]
 =
 =
 (
