@@ -494,11 +494,11 @@ icon
 =
 bitmapProvider
 (
-R
+iconsR
 .
 drawable
 .
-ic_tabs_search
+mozac_ic_tab_tray_24
 )
 )
 createApplicationSearchEngine
