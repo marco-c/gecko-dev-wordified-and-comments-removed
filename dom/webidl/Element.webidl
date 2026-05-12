@@ -1281,14 +1281,14 @@ ScrollLogicalPosition
 block
 =
 "
-start
+auto
 "
 ;
 ScrollLogicalPosition
 inline
 =
 "
-nearest
+auto
 "
 ;
 }
