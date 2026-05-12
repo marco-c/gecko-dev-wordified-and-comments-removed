@@ -786,15 +786,6 @@ scheme
 "
 https
 "
-skip
--
-if
-=
-[
-"
-release_or_beta
-"
-]
 [
 "
 test_animation_operators
@@ -1243,9 +1234,6 @@ skip
 if
 =
 [
-"
-release_or_beta
-"
 "
 http2
 "

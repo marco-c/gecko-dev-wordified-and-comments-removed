@@ -1860,12 +1860,6 @@ jxl
 enabled
 true
 )
-skip
--
-if
-(
-release_or_beta
-)
 =
 =
 downscale
@@ -3689,12 +3683,6 @@ jxl
 .
 enabled
 true
-)
-skip
--
-if
-(
-release_or_beta
 )
 fuzzy
 (
