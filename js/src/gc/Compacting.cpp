@@ -2391,6 +2391,9 @@ thingp
 ;
 if
 (
+thing
+&
+&
 IsForwarded
 (
 thing

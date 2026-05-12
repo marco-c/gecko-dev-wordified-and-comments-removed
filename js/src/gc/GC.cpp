@@ -8419,7 +8419,7 @@ JSFunction
 doCleanup
 JSObject
 *
-hostDefinedData
+incumbentGlobal
 )
 {
 JS
@@ -8451,7 +8451,7 @@ callback
 op
 (
 doCleanup
-hostDefinedData
+incumbentGlobal
 callback
 .
 data
@@ -29440,6 +29440,15 @@ thing
 *
 thingp
 ;
+if
+(
+!
+thing
+)
+{
+return
+;
+}
 MOZ_ASSERT
 (
 !
