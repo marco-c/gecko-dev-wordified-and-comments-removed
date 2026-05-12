@@ -1786,7 +1786,7 @@ Variables
 #
 usageLeft
 (
-number
+string
 )
 -
 The
@@ -2188,7 +2188,7 @@ Variables
 #
 usageLeft
 (
-number
+string
 )
 -
 The
@@ -2258,7 +2258,7 @@ Variables
 #
 usageLeft
 (
-number
+string
 )
 -
 The
@@ -2958,7 +2958,7 @@ Variables
 #
 usageLeft
 (
-number
+string
 )
 -
 The
@@ -3029,7 +3029,7 @@ Variables
 #
 usageLeft
 (
-number
+string
 )
 -
 The

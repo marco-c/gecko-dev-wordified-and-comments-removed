@@ -1528,11 +1528,9 @@ else
 {
 usageLeft
 =
-remainingFormatted
-.
-toFixed
+String
 (
-1
+remainingFormatted
 )
 ;
 l10nId
