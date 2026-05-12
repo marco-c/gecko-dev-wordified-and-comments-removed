@@ -968,7 +968,11 @@ mKeepaliveProbeCount
 kDefaultTCPKeepCount
 }
 ;
+Atomic
+<
 bool
+Relaxed
+>
 mKeepaliveEnabledPref
 {
 false
