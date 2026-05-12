@@ -2352,7 +2352,6 @@ const
 pass
 usage
 error
-status
 }
 =
 await
@@ -2411,21 +2410,6 @@ error
 pass
 )
 {
-if
-(
-status
-=
-=
-=
-500
-)
-{
-throw
-ERRORS
-.
-CATASTROPHIC
-;
-}
 throw
 ERRORS
 .
@@ -3618,7 +3602,6 @@ pass
 null
 usage
 error
-status
 }
 ;
 }
@@ -3651,7 +3634,6 @@ Status
 {
 status
 }
-status
 }
 ;
 }
@@ -3659,7 +3641,6 @@ return
 {
 pass
 usage
-status
 }
 ;
 }
