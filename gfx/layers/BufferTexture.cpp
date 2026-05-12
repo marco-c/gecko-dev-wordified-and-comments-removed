@@ -1021,6 +1021,16 @@ ChromaSubsampling
 aSubsampling
 TextureFlags
 aTextureFlags
+const
+Maybe
+<
+gfx
+:
+:
+HDRMetadata
+>
+&
+aHDRMetadata
 )
 {
 Maybe
@@ -1102,6 +1112,7 @@ aYUVColorSpace
 aColorRange
 aTransferFunction
 aSubsampling
+aHDRMetadata
 )
 ;
 return

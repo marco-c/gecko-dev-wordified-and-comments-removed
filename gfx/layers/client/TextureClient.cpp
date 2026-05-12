@@ -6265,6 +6265,16 @@ ChromaSubsampling
 aSubsampling
 TextureFlags
 aTextureFlags
+const
+Maybe
+<
+gfx
+:
+:
+HDRMetadata
+>
+&
+aHDRMetadata
 )
 {
 if
@@ -6332,6 +6342,7 @@ aColorRange
 aTransferFunction
 aSubsampling
 aTextureFlags
+aHDRMetadata
 )
 ;
 if

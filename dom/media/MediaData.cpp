@@ -1081,6 +1081,9 @@ PopFront
 mDataOffset
 )
 ;
+(
+void
+)
 mAudioData
 .
 SetLength
@@ -2207,6 +2210,14 @@ aInfo
 mTransferFunction
 ;
 }
+data
+.
+mHDRMetadata
+=
+aInfo
+.
+mHDRMetadata
+;
 data
 .
 mColorRange

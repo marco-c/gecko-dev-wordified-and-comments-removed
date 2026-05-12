@@ -5194,6 +5194,10 @@ pdata
 -
 >
 mChromaSubsampling
+pdata
+-
+>
+mHDRMetadata
 )
 ;
 CopyPlane
