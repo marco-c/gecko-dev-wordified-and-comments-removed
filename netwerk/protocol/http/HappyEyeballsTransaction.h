@@ -215,6 +215,17 @@ QueryHttpTransaction
 )
 override
 ;
+bool
+AllowedToConnectToIpAddressSpace
+(
+nsILoadInfo
+:
+:
+IPAddressSpace
+aTargetIpAddressSpace
+)
+override
+;
 nsHttpRequestHead
 *
 RequestHead

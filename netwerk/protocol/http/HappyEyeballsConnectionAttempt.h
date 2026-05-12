@@ -589,6 +589,15 @@ nsISocketTransport
 aTransport
 )
 ;
+nsresult
+CheckLNAForAddr
+(
+const
+NetAddr
+&
+aAddr
+)
+;
 void
 SetupTimer
 (
