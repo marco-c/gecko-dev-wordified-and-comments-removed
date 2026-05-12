@@ -588,12 +588,14 @@ ext
 ;
 if
 (
-MOZ_UNLIKELY
-(
 !
 extSlot
 )
-)
+[
+[
+unlikely
+]
+]
 {
 extSlot
 =
