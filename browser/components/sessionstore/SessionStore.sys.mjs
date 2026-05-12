@@ -29465,6 +29465,15 @@ process
 switches
 .
 let
+preferredRemoteType
+=
+lazy
+.
+E10SUtils
+.
+DEFAULT_REMOTE_TYPE
+;
+let
 url
 ;
 if
@@ -29533,7 +29542,11 @@ activeIndex
 url
 ;
 }
-let
+if
+(
+url
+)
+{
 preferredRemoteType
 =
 this
@@ -29547,6 +29560,7 @@ state
 userContextId
 )
 ;
+}
 /
 /
 create
