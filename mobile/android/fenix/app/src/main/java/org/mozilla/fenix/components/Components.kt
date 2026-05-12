@@ -2101,6 +2101,11 @@ bookmarks
 emptyList
 (
 )
+showCollectionPlaceholder
+=
+settings
+.
+showCollectionsPlaceholderOnHome
 /
 /
 Provide

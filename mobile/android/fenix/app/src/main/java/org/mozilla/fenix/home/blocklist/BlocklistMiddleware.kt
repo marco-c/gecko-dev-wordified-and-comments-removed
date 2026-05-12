@@ -718,6 +718,9 @@ mode
 collections
 =
 collections
+showCollectionPlaceholder
+=
+showCollectionPlaceholder
 recentSyncedTabState
 =
 recentSyncedTabState

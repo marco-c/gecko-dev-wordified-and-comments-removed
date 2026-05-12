@@ -392,6 +392,12 @@ verifyExistingTopSitesTabs
 Google
 "
 )
+verifyCollectionsHeader
+(
+)
+verifyNoCollectionsText
+(
+)
 verifyThoughtProvokingStories
 (
 true
