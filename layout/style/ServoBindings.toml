@@ -6600,9 +6600,6 @@ servo
 crate
 :
 :
-gecko
-:
-:
 url
 :
 :
@@ -6619,9 +6616,6 @@ servo
 =
 "
 crate
-:
-:
-gecko
 :
 :
 url
@@ -6642,9 +6636,6 @@ servo
 crate
 :
 :
-gecko
-:
-:
 url
 :
 :
@@ -6663,10 +6654,10 @@ servo
 crate
 :
 :
-gecko
-:
-:
 url
+:
+:
+gecko
 :
 :
 LoadData

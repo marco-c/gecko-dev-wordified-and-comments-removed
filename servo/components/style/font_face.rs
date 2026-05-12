@@ -1391,9 +1391,6 @@ const
 crate
 :
 :
-gecko
-:
-:
 url
 :
 :
