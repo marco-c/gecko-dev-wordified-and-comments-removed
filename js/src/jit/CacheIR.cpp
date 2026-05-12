@@ -5939,8 +5939,10 @@ NativeObject
 >
 (
 )
-&
-&
+)
+{
+MOZ_RELEASE_ASSERT
+(
 obj
 -
 >
@@ -5954,13 +5956,9 @@ NativeObject
 numFixedSlots
 (
 )
-=
-=
+>
 0
 )
-{
-return
-false
 ;
 }
 JS

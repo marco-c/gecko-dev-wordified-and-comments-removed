@@ -2274,9 +2274,8 @@ obj
 )
 )
 ;
-if
+MOZ_ASSERT
 (
-!
 obj
 -
 >
@@ -2287,10 +2286,7 @@ NativeObject
 (
 )
 )
-{
-return
 ;
-}
 MOZ_ASSERT
 (
 !
