@@ -580,6 +580,17 @@ bufferSize
 )
 )
 {
+if
+(
+!
+PR_GetEnv
+(
+"
+MOZ_RUN_GTEST
+"
+)
+)
+{
 MOZ_ASSERT_UNREACHABLE
 (
 "
@@ -593,6 +604,7 @@ descriptor
 "
 )
 ;
+}
 return
 nullptr
 ;
