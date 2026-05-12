@@ -564,10 +564,7 @@ GlobalEntryTables
 ;
 RegisterStrongMemoryReporter
 (
-do_AddRef
-(
 this
-)
 )
 ;
 }

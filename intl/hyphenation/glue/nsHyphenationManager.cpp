@@ -440,10 +440,8 @@ false
 }
 RegisterStrongMemoryReporter
 (
-MakeAndAddRef
-<
+new
 HyphenReporter
->
 (
 )
 )

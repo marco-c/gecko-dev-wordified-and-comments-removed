@@ -70,12 +70,8 @@ sIsRegistered
 {
 RegisterStrongMemoryReporter
 (
-MakeAndAddRef
-<
+new
 WebGLMemoryTracker
->
-(
-)
 )
 ;
 return

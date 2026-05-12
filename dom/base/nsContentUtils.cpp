@@ -6583,10 +6583,8 @@ EventListenerManager
 ;
 RegisterStrongMemoryReporter
 (
-MakeAndAddRef
-<
+new
 DOMEventListenerManagersHashReporter
->
 (
 )
 )

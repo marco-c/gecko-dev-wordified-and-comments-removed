@@ -199,10 +199,7 @@ WebRenderReporter
 ;
 RegisterStrongMemoryReporter
 (
-do_AddRef
-(
 sWrReporter
-)
 )
 ;
 }

@@ -3425,10 +3425,8 @@ nsresult
 )
 RegisterStrongMemoryReporter
 (
-already_AddRefed
-<
 nsIMemoryReporter
->
+*
 aReporter
 )
 ;
@@ -3438,10 +3436,8 @@ nsresult
 )
 RegisterStrongAsyncMemoryReporter
 (
-already_AddRefed
-<
 nsIMemoryReporter
->
+*
 aReporter
 )
 ;

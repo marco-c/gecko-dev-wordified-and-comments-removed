@@ -190,10 +190,8 @@ true
 {
 RegisterStrongMemoryReporter
 (
-MakeAndAddRef
-<
+new
 MappingReporter
->
 (
 )
 )

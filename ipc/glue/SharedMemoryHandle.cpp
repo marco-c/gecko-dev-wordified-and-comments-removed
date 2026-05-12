@@ -193,10 +193,8 @@ true
 {
 RegisterStrongMemoryReporter
 (
-MakeAndAddRef
-<
+new
 AllocationReporter
->
 (
 )
 )
