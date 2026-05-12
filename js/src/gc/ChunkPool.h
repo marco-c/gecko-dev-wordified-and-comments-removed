@@ -186,6 +186,16 @@ head_
 }
 ArenaChunk
 *
+maybeHead
+(
+)
+{
+return
+head_
+;
+}
+ArenaChunk
+*
 pop
 (
 )

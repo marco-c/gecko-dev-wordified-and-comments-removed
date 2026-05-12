@@ -501,11 +501,6 @@ gc
 )
 ;
 void
-initZones
-(
-)
-;
-void
 run
 (
 AutoLockHelperThreadState
@@ -520,9 +515,6 @@ void
 unmark
 (
 )
-;
-ZoneVector
-zones
 ;
 }
 ;

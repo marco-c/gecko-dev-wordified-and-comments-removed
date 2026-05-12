@@ -1642,7 +1642,7 @@ fullChunks_
 js
 :
 :
-MainThreadData
+MainThreadOrGCTaskData
 <
 js
 :
