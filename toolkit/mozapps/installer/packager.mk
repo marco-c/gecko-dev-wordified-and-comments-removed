@@ -1159,6 +1159,8 @@ endif
 Darwin_cocoa
 ifndef
 MOZ_ARTIFACT_BUILDS
+ifdef
+COMPILE_ENVIRONMENT
 echo
 '
 Generating
@@ -1297,6 +1299,9 @@ framework
 endif
 #
 Darwin_cocoa
+endif
+#
+COMPILE_ENVIRONMENT
 else
 echo
 '
