@@ -153965,14 +153965,6 @@ esr140
 repository_type
 :
 hg
-required_signoffs
-:
-[
-]
-signoff_urls
-:
-{
-}
 target_tasks_method
 :
 ship_desktop

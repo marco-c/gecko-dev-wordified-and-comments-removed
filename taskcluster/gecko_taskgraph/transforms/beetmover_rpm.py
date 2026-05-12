@@ -253,18 +253,6 @@ attributes
 {
             
 "
-required_signoffs
-"
-:
-[
-"
-mar
--
-signing
-"
-]
-            
-"
 shippable
 "
 :

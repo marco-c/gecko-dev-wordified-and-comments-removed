@@ -184,14 +184,6 @@ release_type
 repository_type
 :
 hg
-required_signoffs
-:
-[
-]
-signoff_urls
-:
-{
-}
 target_tasks_method
 :
 autoland_tasks

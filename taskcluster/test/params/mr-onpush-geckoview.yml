@@ -177,14 +177,6 @@ version
 0
 .
 3
-required_signoffs
-:
-[
-]
-signoff_urls
-:
-{
-}
 phabricator_diff
 :
 tasks_for

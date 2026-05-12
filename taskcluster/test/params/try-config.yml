@@ -268,14 +268,6 @@ nightly
 release_product
 :
 null
-required_signoffs
-:
-[
-]
-signoff_urls
-:
-{
-}
 phabricator_diff
 :
 tasks_for

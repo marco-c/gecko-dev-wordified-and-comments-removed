@@ -6783,20 +6783,6 @@ pushlog_id
 "
             
 "
-required_signoffs
-"
-:
-[
-]
-            
-"
-signoff_urls
-"
-:
-{
-}
-            
-"
 release_product
 "
 :

@@ -38948,14 +38948,6 @@ release
 repository_type
 :
 hg
-required_signoffs
-:
-[
-]
-signoff_urls
-:
-{
-}
 target_tasks_method
 :
 push_android
