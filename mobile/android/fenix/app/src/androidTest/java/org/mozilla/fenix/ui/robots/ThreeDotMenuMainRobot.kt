@@ -6818,6 +6818,11 @@ design
 .
 "
 )
+composeTestRule
+.
+waitForIdle
+(
+)
 BookmarksRobot
 (
 composeTestRule

@@ -571,6 +571,11 @@ Move
 button
 "
 )
+composeTestRule
+.
+waitForIdle
+(
+)
 BookmarksRobot
 (
 composeTestRule
