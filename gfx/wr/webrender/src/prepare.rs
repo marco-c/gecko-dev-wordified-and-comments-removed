@@ -5604,6 +5604,7 @@ root_data
 :
 None
 plane_splitter_index
+ancestor_index
 .
 .
 }
@@ -5622,17 +5623,6 @@ current_dirty_region
 )
 .
 combined
-;
-let
-visibility_node
-=
-frame_state
-.
-current_dirty_region
-(
-)
-.
-visibility_spatial_node
 ;
 let
 splitter
@@ -5699,7 +5689,7 @@ frame_context
 .
 spatial_tree
 prim_spatial_node_index
-visibility_node
+ancestor_index
 local_prim_rect
 &
 prim_info
