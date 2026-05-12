@@ -7728,6 +7728,11 @@ MarkSubtreeDirty
 (
 )
 ;
+void
+MarkPrincipalChildrenDirty
+(
+)
+;
 nscoord
 GetMinISize
 (
