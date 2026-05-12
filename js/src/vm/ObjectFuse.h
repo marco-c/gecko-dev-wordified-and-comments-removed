@@ -827,14 +827,6 @@ PropertyInfo
 prop
 )
 ;
-void
-handleObjectSwap
-(
-JSContext
-*
-cx
-)
-;
 bool
 addDependency
 (
