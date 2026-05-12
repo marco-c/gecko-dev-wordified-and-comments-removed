@@ -864,6 +864,8 @@ mInfo
 ;
 bool
 mHasValidCache
+=
+false
 ;
 }
 ;
