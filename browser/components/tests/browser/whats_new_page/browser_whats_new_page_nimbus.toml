@@ -1,13 +1,6 @@
 [
 DEFAULT
 ]
-[
-"
-browser_whats_new_page_nimbus
-.
-js
-"
-]
 #
 This
 is
@@ -79,6 +72,13 @@ homepage_override_nimbus_maxVersion
 .
 0
 '
+"
+]
+[
+"
+browser_whats_new_page_nimbus
+.
+js
 "
 ]
 skip

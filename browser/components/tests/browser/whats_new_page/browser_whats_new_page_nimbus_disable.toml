@@ -1,13 +1,6 @@
 [
 DEFAULT
 ]
-[
-"
-browser_whats_new_page_nimbus_disable
-.
-js
-"
-]
 #
 These
 are
@@ -85,6 +78,13 @@ startup
 homepage_override_nimbus_disable_wnp
 =
 true
+"
+]
+[
+"
+browser_whats_new_page_nimbus_disable
+.
+js
 "
 ]
 skip

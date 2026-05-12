@@ -37,13 +37,6 @@ network_geolocation
 sjs
 "
 ]
-[
-"
-test_handlerSpinsEventLoop
-.
-html
-"
-]
 prefs
 =
 [
@@ -60,3 +53,10 @@ false
 #
 Bug
 721336
+[
+"
+test_handlerSpinsEventLoop
+.
+html
+"
+]
