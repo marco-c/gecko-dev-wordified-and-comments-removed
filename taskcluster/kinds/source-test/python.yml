@@ -602,6 +602,17 @@ testing
 /
 marionette
 /
+client
+/
+*
+*
+'
+-
+'
+testing
+/
+marionette
+/
 harness
 /
 *
