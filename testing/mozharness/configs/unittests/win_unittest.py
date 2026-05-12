@@ -2165,8 +2165,8 @@ hw
                         
 if
 REQUIRE_GPU
+                        
 and
-(
 platform
 .
 uname
@@ -2174,14 +2174,21 @@ uname
 )
 .
 version
-=
-=
+in
+(
 "
 10
 .
 0
 .
 26100
+"
+"
+10
+.
+0
+.
+26200
 "
 )
                         
