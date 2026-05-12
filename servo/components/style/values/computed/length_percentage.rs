@@ -3847,7 +3847,7 @@ new
 specified
 :
 :
-CalcNumeric
+CalcLengthPercentage
 :
 :
 from_computed_value
@@ -6844,7 +6844,7 @@ impl
 specified
 :
 :
-CalcNumeric
+CalcLengthPercentage
 {
 fn
 to_computed_value_with_zoom
@@ -6901,6 +6901,8 @@ let
 node
 =
 self
+.
+0
 .
 node
 .
@@ -7062,6 +7064,8 @@ new_calc
 node
 self
 .
+0
+.
 clamping_mode
 )
 }
@@ -7152,6 +7156,8 @@ NoCalcLength
 ;
 match
 self
+.
+0
 .
 node
 {
@@ -7269,6 +7275,8 @@ NoCalcLength
 ;
 match
 self
+.
+0
 .
 node
 {
@@ -7449,6 +7457,11 @@ NoCalcLength
 specified
 :
 :
+CalcLengthPercentage
+(
+specified
+:
+:
 CalcNumeric
 {
 clamping_mode
@@ -7552,6 +7565,7 @@ n
 }
 )
 }
+)
 }
 }
 impl
