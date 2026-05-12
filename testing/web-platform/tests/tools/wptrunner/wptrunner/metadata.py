@@ -1,6 +1,8 @@
 import
 array
 import
+gzip
+import
 os
 from
 collections
@@ -17,11 +19,6 @@ from
 mozlog
 import
 structuredlog
-from
-six
-import
-ensure_str
-ensure_text
 from
 sys
 import
@@ -1923,10 +1920,31 @@ log_filenames
 )
 )
         
-with
+opener
+=
+gzip
+.
 open
+if
+log_filename
+.
+endswith
+(
+"
+.
+gz
+"
+)
+else
+open
+        
+with
+opener
 (
 log_filename
+"
+rt
+"
 )
 as
 f
@@ -3245,15 +3263,12 @@ test_id
 =
 intern
 (
-ensure_str
-(
 data
 [
 "
 test
 "
 ]
-)
 )
         
 try
@@ -3311,8 +3326,6 @@ test_id
 =
 intern
 (
-ensure_str
-(
 data
 [
 "
@@ -3320,13 +3333,10 @@ test
 "
 ]
 )
-)
         
 subtest
 =
 intern
-(
-ensure_str
 (
 data
 [
@@ -3334,7 +3344,6 @@ data
 subtest
 "
 ]
-)
 )
         
 test_data
@@ -3479,15 +3488,12 @@ test_id
 =
 intern
 (
-ensure_str
-(
 data
 [
 "
 test
 "
 ]
-)
 )
         
 test_data
@@ -3612,15 +3618,12 @@ test_id
 =
 intern
 (
-ensure_str
-(
 data
 [
 "
 test
 "
 ]
-)
 )
         
 test_data
@@ -3736,8 +3739,6 @@ dir_id
 =
 intern
 (
-ensure_str
-(
 os
 .
 path
@@ -3760,7 +3761,6 @@ sep
 "
 /
 "
-)
 )
 )
         
@@ -4264,20 +4264,14 @@ TestFileData
 (
 intern
 (
-ensure_str
-(
 test_manifest
 .
 url_base
 )
-)
                                       
 intern
 (
-ensure_str
-(
 item_type
-)
 )
                                       
 metadata_path
@@ -4297,12 +4291,9 @@ id_test_map
 [
 intern
 (
-ensure_str
-(
 test
 .
 id
-)
 )
 ]
 =
@@ -4380,12 +4371,9 @@ TestFileData
 (
 intern
 (
-ensure_str
-(
 test_manifest
 .
 url_base
-)
 )
                                           
 None
@@ -4878,12 +4866,9 @@ tests
 {
 intern
 (
-ensure_str
-(
 item
 .
 id
-)
 )
 for
 item
@@ -5089,10 +5074,7 @@ expected
 .
 get_test
 (
-ensure_text
-(
 test_id
-)
 )
             
 if
@@ -5105,10 +5087,7 @@ continue
 seen_subtests
 =
 {
-ensure_text
-(
 item
-)
 for
 item
 in
@@ -5512,13 +5491,6 @@ items
 )
 :
             
-test_id
-=
-ensure_str
-(
-test_id
-)
-            
 for
 subtest_id
 results_list
@@ -5629,13 +5601,6 @@ test_expected
                     
 else
 :
-                        
-subtest_id
-=
-ensure_text
-(
-subtest_id
-)
                         
 item_expected
 =
