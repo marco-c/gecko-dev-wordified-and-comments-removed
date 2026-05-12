@@ -5389,13 +5389,14 @@ return
 NS_OK
 ;
 }
+}
 if
 (
 !
 nsContentUtils
 :
 :
-ContentIsFlattenedTreeDescendantOf
+ContentIsHostIncludingDescendantOf
 (
 previousFocusedElementPtr
 focusWithinElement
@@ -5405,7 +5406,6 @@ focusWithinElement
 return
 NS_OK
 ;
-}
 }
 RefPtr
 previousFocusedElement
