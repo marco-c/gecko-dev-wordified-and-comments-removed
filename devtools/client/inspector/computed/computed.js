@@ -6712,6 +6712,15 @@ selectorInfo
 rule
 .
 href
+|
+|
+selector
+.
+selectorInfo
+.
+rule
+.
+nodeHref
 )
 )
 ;
