@@ -65,4 +65,9 @@ SessionHistoryPage
 .
 js
 "
+"
+SessionHistoryUnavailable
+.
+js
+"
 )
