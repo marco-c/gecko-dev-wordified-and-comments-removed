@@ -1981,6 +1981,9 @@ DataChoicesPreferences
 PreferenceFileInformation
 .
 AIControlsPreferences
+PreferenceFileInformation
+.
+FirefoxLabsPreferences
 )
 /
 *
