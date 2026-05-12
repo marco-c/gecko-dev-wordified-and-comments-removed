@@ -230,9 +230,7 @@ tab
 )
 ;
 await
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 .
 enable
 (
@@ -701,9 +699,7 @@ tab
 )
 ;
 await
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 .
 enable
 (

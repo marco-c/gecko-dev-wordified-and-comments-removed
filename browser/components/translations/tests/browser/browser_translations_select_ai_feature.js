@@ -88,9 +88,7 @@ true
 )
 ;
 await
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 .
 block
 (
@@ -134,9 +132,7 @@ disabled
 )
 ;
 await
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 .
 enable
 (
@@ -181,9 +177,7 @@ clickDoneButton
 )
 ;
 await
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 .
 block
 (
@@ -308,9 +302,7 @@ true
 )
 ;
 await
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 .
 enable
 (
@@ -355,9 +347,7 @@ clickDoneButton
 )
 ;
 await
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 .
 block
 (
@@ -400,9 +390,7 @@ feature
 )
 ;
 await
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 .
 enable
 (

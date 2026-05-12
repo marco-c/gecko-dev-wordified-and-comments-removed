@@ -50,9 +50,7 @@ test_ai_feature_id
 {
 is
 (
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 .
 id
 "
@@ -110,9 +108,7 @@ false
 const
 feature
 =
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 ;
 const
 cases
@@ -735,9 +731,7 @@ false
 const
 feature
 =
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 ;
 const
 originalDeleteAllLanguageFiles
@@ -919,9 +913,7 @@ true
 const
 feature
 =
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 ;
 const
 originalDeleteAllLanguageFiles
@@ -1126,9 +1118,7 @@ true
 const
 feature
 =
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 ;
 const
 originalDeleteAllLanguageFiles
@@ -1311,9 +1301,7 @@ false
 const
 feature
 =
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 ;
 ok
 (
@@ -1556,9 +1544,7 @@ false
 const
 feature
 =
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 ;
 ok
 (

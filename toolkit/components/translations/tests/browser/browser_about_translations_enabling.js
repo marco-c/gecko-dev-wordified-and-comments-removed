@@ -395,9 +395,7 @@ async
 >
 {
 await
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 .
 enable
 (
@@ -444,9 +442,7 @@ async
 >
 {
 await
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 .
 block
 (
@@ -578,9 +574,7 @@ async
 >
 {
 await
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 .
 block
 (
@@ -627,9 +621,7 @@ async
 >
 {
 await
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 .
 enable
 (
@@ -1042,9 +1034,7 @@ async
 >
 {
 await
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 .
 block
 (

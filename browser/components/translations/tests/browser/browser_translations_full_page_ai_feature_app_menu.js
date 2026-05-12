@@ -148,9 +148,7 @@ disabled
 )
 ;
 await
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 .
 enable
 (
@@ -304,9 +302,7 @@ runInPage
 )
 ;
 await
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 .
 block
 (
@@ -448,9 +444,7 @@ runInPage
 )
 ;
 await
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 .
 enable
 (
@@ -604,9 +598,7 @@ runInPage
 )
 ;
 await
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 .
 block
 (
@@ -672,9 +664,7 @@ disabled
 )
 ;
 await
-TranslationsParent
-.
-AIFeature
+TranslationsFeature
 .
 enable
 (
