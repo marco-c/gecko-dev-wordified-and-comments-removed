@@ -3319,10 +3319,6 @@ FontLanguageOverride
 "
                 
 "
-FontStyle
-"
-                
-"
 FontSynthesis
 "
                 
@@ -3419,10 +3415,6 @@ TransformBox
                 
 "
 TextDecorationSkipInk
-"
-                
-"
-OffsetRotate
 "
                 
 "

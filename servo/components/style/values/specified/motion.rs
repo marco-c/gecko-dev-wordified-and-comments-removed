@@ -1185,7 +1185,6 @@ is_zero
 derive
 (
 Clone
-Copy
 Debug
 MallocSizeOf
 PartialEq
