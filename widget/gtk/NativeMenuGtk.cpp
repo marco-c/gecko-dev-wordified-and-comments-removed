@@ -2318,13 +2318,9 @@ nsIFrame
 *
 aClickedFrame
 const
-CSSIntRect
-&
-aRect
-const
-nsAString
-&
-aPosition
+nsMenuPopupFrame
+*
+aPopupFrame
 )
 {
 MOZ_ASSERT_UNREACHABLE

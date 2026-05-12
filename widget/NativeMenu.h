@@ -25,6 +25,9 @@ class
 nsIFrame
 ;
 class
+nsMenuPopupFrame
+;
+class
 nsPresContext
 ;
 namespace
@@ -110,13 +113,9 @@ nsIFrame
 *
 aClickedFrame
 const
-CSSIntRect
-&
-aRect
-const
-nsAString
-&
-aPosition
+nsMenuPopupFrame
+*
+aPopupFrame
 )
 =
 0

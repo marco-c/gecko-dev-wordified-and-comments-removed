@@ -61,6 +61,12 @@ NSAppearance
 *
 )
 aAppearance
+withFontSize
+:
+(
+CGFloat
+)
+aFontSize
 asContextMenu
 :
 (

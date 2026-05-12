@@ -84,13 +84,9 @@ nsIFrame
 *
 aClickedFrame
 const
-CSSIntRect
-&
-aRect
-const
-nsAString
-&
-aPosition
+nsMenuPopupFrame
+*
+aPopupFrame
 )
 override
 ;
