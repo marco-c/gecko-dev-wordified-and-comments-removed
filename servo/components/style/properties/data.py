@@ -3252,10 +3252,6 @@ AnimationPlayState
 "
                 
 "
-AspectRatio
-"
-                
-"
 BaselineSource
 "
                 
@@ -3291,10 +3287,6 @@ Clear
 "
                 
 "
-ColumnCount
-"
-                
-"
 Contain
 "
                 
@@ -3327,10 +3319,6 @@ FontLanguageOverride
 "
                 
 "
-FontSizeAdjust
-"
-                
-"
 FontStretch
 "
                 
@@ -3359,14 +3347,6 @@ FontVariantNumeric
 "
                 
 "
-FontWeight
-"
-                
-"
-GreaterThanOrEqualToOneNumber
-"
-                
-"
 GridAutoFlow
 "
                 
@@ -3376,14 +3356,6 @@ ImageRendering
                 
 "
 Inert
-"
-                
-"
-InitialLetter
-"
-                
-"
-Integer
 "
                 
 "
@@ -3419,10 +3391,6 @@ LineBreak
 "
                 
 "
-LineClamp
-"
-                
-"
 MasonryAutoFlow
 "
                 
@@ -3442,10 +3410,6 @@ MozControlCharacterVisibility
 "
                 
 "
-MathDepth
-"
-                
-"
 MozScriptMinSize
 "
                 
@@ -3462,15 +3426,7 @@ TextDecorationSkipInk
 "
                 
 "
-NonNegativeNumber
-"
-                
-"
 OffsetRotate
-"
-                
-"
-Opacity
 "
                 
 "
@@ -3527,10 +3483,6 @@ Resize
                 
 "
 RubyPosition
-"
-                
-"
-SVGOpacity
 "
                 
 "
@@ -3635,14 +3587,6 @@ XSpan
                 
 "
 XTextScale
-"
-                
-"
-ZIndex
-"
-                
-"
-Zoom
 "
             
 }
@@ -4527,6 +4471,9 @@ __init__
 self
 name
 type
+parser
+=
+None
 gecko_pref
 =
 None
@@ -4547,6 +4494,12 @@ self
 type
 =
 type
+        
+self
+.
+parser
+=
+parser
         
 self
 .

@@ -672,6 +672,7 @@ number
 {
 GreaterThanOrEqualToOneNumber
 Integer
+NoCalcNumber
 NonNegativeInteger
 NonNegativeNumber
 Number
@@ -1452,7 +1453,6 @@ missing_docs
 derive
 (
 Clone
-Copy
 Debug
 MallocSizeOf
 PartialEq
@@ -1664,6 +1664,7 @@ pub
 fn
 to_number
 (
+&
 self
 )
 -
@@ -1697,6 +1698,10 @@ n
 =
 >
 n
+.
+clone
+(
+)
 }
 }
 }
@@ -1895,7 +1900,6 @@ input
 derive
 (
 Clone
-Copy
 Debug
 MallocSizeOf
 PartialEq

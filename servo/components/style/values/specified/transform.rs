@@ -1539,6 +1539,10 @@ TransformOperation
 Scale
 (
 sx
+.
+clone
+(
+)
 sx
 )
 )
@@ -3944,6 +3948,10 @@ Scale
 Scale
 (
 sx
+.
+clone
+(
+)
 sx
 Number
 :

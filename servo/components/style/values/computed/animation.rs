@@ -246,7 +246,6 @@ ComputedValue
 AnimationIterationCount
 (
 match
-*
 self
 {
 specified
