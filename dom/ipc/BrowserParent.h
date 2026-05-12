@@ -3609,6 +3609,14 @@ UnlockNativePointer
 (
 )
 ;
+void
+UpdateNativePointerLockCenter
+(
+nsIWidget
+*
+aWidget
+)
+;
 private
 :
 typedef

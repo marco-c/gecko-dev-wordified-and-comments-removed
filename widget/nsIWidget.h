@@ -4650,6 +4650,17 @@ Unadjusted
 ;
 virtual
 void
+SetNativePointerLockCenter
+(
+const
+LayoutDeviceIntPoint
+&
+aLockCenter
+)
+{
+}
+virtual
+void
 LockNativePointer
 (
 NativePointerLockMode
