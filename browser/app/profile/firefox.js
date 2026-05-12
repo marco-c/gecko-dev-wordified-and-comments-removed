@@ -26015,8 +26015,8 @@ enabled_on
 profiles
 "
 "
-{
-}
+[
+]
 "
 )
 ;

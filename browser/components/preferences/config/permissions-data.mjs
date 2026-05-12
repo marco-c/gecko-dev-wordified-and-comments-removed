@@ -2996,8 +2996,8 @@ profilesBackupEnabledValue
 |
 |
 "
-{
-}
+[
+]
 "
 )
 ;
@@ -3011,12 +3011,7 @@ id
 let
 otherProfilesEnabled
 =
-Object
-.
-keys
-(
 profilesEnabledOn
-)
 .
 some
 (

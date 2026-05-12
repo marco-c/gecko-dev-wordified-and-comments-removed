@@ -176,6 +176,13 @@ js
 ]
 [
 "
+test_profileDataUpgrade_backupProfiles
+.
+js
+"
+]
+[
+"
 test_profileDataUpgrade_smartwindow
 .
 js
