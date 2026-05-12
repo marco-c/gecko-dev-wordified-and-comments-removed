@@ -664,13 +664,14 @@ a
 session
 history
 entry
-changes
-title
+has
+been
+updated
 .
 *
 /
 void
-OnEntryTitleUpdated
+OnEntryUpdated
 (
 in
 nsISHEntry

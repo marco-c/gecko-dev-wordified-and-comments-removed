@@ -8155,6 +8155,14 @@ NotifyOnHistoryReplaceEntry
 (
 )
 ;
+shistory
+-
+>
+NotifyOnEntryUpdated
+(
+mActiveEntry
+)
+;
 }
 ResetSHEntryHasUserInteractionCache
 (

@@ -4303,7 +4303,7 @@ NS_IMETHODIMP
 nsSHistory
 :
 :
-NotifyOnEntryTitleUpdated
+NotifyOnEntryUpdated
 (
 nsISHEntry
 *
@@ -4329,7 +4329,7 @@ l
 l
 -
 >
-OnEntryTitleUpdated
+OnEntryUpdated
 (
 entry
 )
