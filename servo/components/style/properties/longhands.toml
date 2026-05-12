@@ -2746,6 +2746,9 @@ type
 "
 AspectRatio
 "
+boxed
+=
+true
 initial
 =
 "
@@ -2764,9 +2767,6 @@ struct
 "
 position
 "
-boxed
-=
-true
 spec
 =
 "
@@ -8355,9 +8355,6 @@ affects
 "
 layout
 "
-boxed
-=
-true
 [
 grid
 -
@@ -8430,9 +8427,6 @@ affects
 "
 layout
 "
-boxed
-=
-true
 [
 grid
 -
@@ -8505,9 +8499,6 @@ affects
 "
 layout
 "
-boxed
-=
-true
 [
 grid
 -
@@ -8575,9 +8566,6 @@ row
 -
 start
 "
-boxed
-=
-true
 affects
 =
 "
@@ -21601,9 +21589,6 @@ struct
 "
 text
 "
-boxed
-=
-true
 engine
 =
 "
