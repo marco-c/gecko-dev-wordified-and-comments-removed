@@ -197,7 +197,7 @@ T
 (
 )
 ;
-TraceNullableRoot
+TraceRoot
 (
 trc
 self

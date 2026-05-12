@@ -38440,7 +38440,7 @@ jsfnObj
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

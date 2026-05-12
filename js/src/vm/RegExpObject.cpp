@@ -3510,7 +3510,7 @@ JSTracer
 trc
 )
 {
-TraceNullableCellHeaderEdge
+TraceCellHeaderEdge
 (
 trc
 this
@@ -3536,7 +3536,7 @@ Kind
 Atom
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -3560,7 +3560,7 @@ comp
 compilationArray
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -3574,7 +3574,7 @@ code
 )
 ;
 }
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -5583,7 +5583,7 @@ shape
 matchResultShapes_
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

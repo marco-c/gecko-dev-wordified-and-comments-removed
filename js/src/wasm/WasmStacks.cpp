@@ -1743,7 +1743,7 @@ i
 +
 )
 {
-TraceManuallyBarrieredNullableEdge
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -1779,7 +1779,7 @@ JSTracer
 trc
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

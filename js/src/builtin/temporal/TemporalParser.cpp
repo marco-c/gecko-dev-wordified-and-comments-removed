@@ -13930,7 +13930,7 @@ JSTracer
 trc
 )
 {
-TraceNullableRoot
+TraceRoot
 (
 trc
 &
@@ -13961,7 +13961,7 @@ JSTracer
 trc
 )
 {
-TraceNullableRoot
+TraceRoot
 (
 trc
 &

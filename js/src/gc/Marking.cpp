@@ -1826,7 +1826,7 @@ thingp
 js
 :
 :
-TraceNullableRoot
+TraceRoot
 (
 trc
 thingp

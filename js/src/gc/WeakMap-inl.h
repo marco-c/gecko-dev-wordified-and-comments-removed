@@ -1769,7 +1769,7 @@ isInList
 )
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

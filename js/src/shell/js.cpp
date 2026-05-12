@@ -6247,7 +6247,7 @@ priv
 >
 grayRoot
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

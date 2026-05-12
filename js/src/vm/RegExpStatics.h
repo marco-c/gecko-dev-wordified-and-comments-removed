@@ -297,7 +297,7 @@ JSTracer
 trc
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -310,7 +310,7 @@ matchesInput
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -323,7 +323,7 @@ lazySource
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

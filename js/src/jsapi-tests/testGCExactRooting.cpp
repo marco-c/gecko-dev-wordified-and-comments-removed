@@ -342,7 +342,7 @@ trc
 js
 :
 :
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -357,7 +357,7 @@ obj
 js
 :
 :
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -497,7 +497,7 @@ trc
 js
 :
 :
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -512,7 +512,7 @@ obj
 js
 :
 :
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

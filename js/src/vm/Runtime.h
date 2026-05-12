@@ -1593,7 +1593,16 @@ MutableHandle
 JSObject
 *
 >
-data
+incumbentGlobal
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+optionalHostDefinedData
 )
 const
 ;
@@ -1982,7 +1991,7 @@ JSTracer
 trc
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

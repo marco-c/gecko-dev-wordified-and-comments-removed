@@ -1465,7 +1465,7 @@ JSTracer
 trc
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -1478,7 +1478,7 @@ realmTimeZone_
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -1491,7 +1491,7 @@ defaultTimeZone_
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -1504,7 +1504,7 @@ defaultTimeZoneObject_
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -1517,7 +1517,7 @@ timeZoneObject_
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -1530,7 +1530,7 @@ collatorLocale_
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -1543,7 +1543,7 @@ collator_
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -1556,7 +1556,7 @@ numberFormatLocale_
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -1569,7 +1569,7 @@ numberFormat_
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -1582,7 +1582,7 @@ dateTimeFormatLocale_
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -1595,7 +1595,7 @@ dateTimeFormatToLocaleAll_
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -1608,7 +1608,7 @@ dateTimeFormatToLocaleDate_
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -1621,7 +1621,7 @@ dateTimeFormatToLocaleTime_
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

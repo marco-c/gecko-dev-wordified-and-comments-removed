@@ -8178,7 +8178,7 @@ ScopePtr
 (
 )
 ;
-TraceNullableRoot
+TraceRoot
 (
 trc
 ptrAddr
@@ -8236,7 +8236,7 @@ ScriptPtr
 (
 )
 ;
-TraceNullableRoot
+TraceRoot
 (
 trc
 ptrAddr
@@ -10265,7 +10265,7 @@ isInline
 )
 )
 {
-TraceNullableRoot
+TraceRoot
 (
 trc
 &
@@ -10297,7 +10297,7 @@ i
 +
 )
 {
-TraceNullableRoot
+TraceRoot
 (
 trc
 &
@@ -10487,7 +10487,7 @@ JSTracer
 trc
 )
 {
-TraceNullableRoot
+TraceRoot
 (
 trc
 &
@@ -10503,7 +10503,7 @@ script
 "
 )
 ;
-TraceNullableRoot
+TraceRoot
 (
 trc
 &
@@ -10519,7 +10519,7 @@ module
 "
 )
 ;
-TraceNullableRoot
+TraceRoot
 (
 trc
 &

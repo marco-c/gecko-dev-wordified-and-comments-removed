@@ -4745,7 +4745,7 @@ ctorWithProto
 builtinConstructors
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -4761,7 +4761,7 @@ ctor
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -4789,7 +4789,7 @@ proto
 builtinProtos
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -4804,7 +4804,7 @@ proto
 )
 ;
 }
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -4818,7 +4818,7 @@ scope
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -4832,7 +4832,7 @@ env
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -4846,7 +4846,7 @@ proxy
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -4860,7 +4860,7 @@ holder
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -4876,7 +4876,7 @@ holder
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -4890,7 +4890,7 @@ urls
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -4904,7 +4904,7 @@ key
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -4920,7 +4920,7 @@ error
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -4932,7 +4932,7 @@ eval
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -4946,7 +4946,7 @@ iterator
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -4969,7 +4969,7 @@ shape
 plainObjectShapesWithDefaultProto
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -4984,7 +4984,7 @@ shape
 )
 ;
 }
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -4998,7 +4998,7 @@ shape
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -5014,7 +5014,7 @@ shape
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -5030,7 +5030,7 @@ shape
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -5063,7 +5063,7 @@ trc
 ;
 #
 endif
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -5077,7 +5077,7 @@ template
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -5091,7 +5091,7 @@ template
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -5105,7 +5105,7 @@ template
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -5119,7 +5119,7 @@ template
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -5133,7 +5133,7 @@ template_
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

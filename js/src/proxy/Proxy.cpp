@@ -5059,7 +5059,7 @@ ProxyObject
 (
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 proxy

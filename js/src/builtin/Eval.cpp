@@ -462,7 +462,7 @@ JSTracer
 trc
 )
 {
-TraceNullableRoot
+TraceRoot
 (
 trc
 &
@@ -475,7 +475,7 @@ str
 "
 )
 ;
-TraceNullableRoot
+TraceRoot
 (
 trc
 &
