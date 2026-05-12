@@ -487,14 +487,14 @@ extent
 .
 width
 as
-_
+f64
 config
 .
 extent
 .
 height
 as
-_
+f64
 )
 ;
 match
