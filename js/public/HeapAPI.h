@@ -626,6 +626,15 @@ isCurrentChunk
 =
 false
 ;
+JS
+:
+:
+Zone
+*
+zone
+=
+nullptr
+;
 }
 ;
 const
