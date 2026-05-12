@@ -628,11 +628,6 @@ GlobalObjectData
 \
 _
 (
-ProxyExternalValueArray
-)
-\
-_
-(
 GraphLoadingStateRecord
 )
 #
