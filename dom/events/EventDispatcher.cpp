@@ -4245,7 +4245,13 @@ AsElement
 Describe
 (
 nodeDescription
-true
+Element
+:
+:
+DescriptionKind
+:
+:
+IdAndClass
 )
 ;
 aDescription
