@@ -472,7 +472,14 @@ button
 -
 label
 :
-nova_onboarding_continue_button
+nova_onboarding_marketing_primary_button_text
+secondary
+-
+button
+-
+label
+:
+nova_onboarding_marketing_secondary_button_text
 extra
 -
 data
