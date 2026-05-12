@@ -3409,6 +3409,16 @@ LD_LIBRARY_PATH
             
 ]
 )
+            
+env
+.
+pop
+(
+"
+MOZ_CRASHREPORTER
+"
+None
+)
         
 env
 [
