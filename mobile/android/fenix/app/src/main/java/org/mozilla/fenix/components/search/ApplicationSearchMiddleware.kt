@@ -464,11 +464,11 @@ icon
 =
 bitmapProvider
 (
-R
+iconsR
 .
 drawable
 .
-ic_bookmarks_search
+mozac_ic_bookmark_tray_fill_24
 )
 )
 createApplicationSearchEngine
