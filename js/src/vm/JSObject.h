@@ -1322,7 +1322,7 @@ nurseryZoneFromAnyThread
 )
 =
 =
-shape
+shapeMaybeForwarded
 (
 )
 -
@@ -1333,7 +1333,7 @@ zoneFromAnyThread
 )
 ;
 return
-shape
+shapeMaybeForwarded
 (
 )
 -
