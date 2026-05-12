@@ -16814,7 +16814,7 @@ startpage
 last_modified
 "
 :
-1776702260347
+1778165854657
 "
 recordType
 "
@@ -16826,7 +16826,7 @@ engine
 schema
 "
 :
-1776701460565
+1778115248130
 "
 variants
 "
@@ -16846,17 +16846,6 @@ experiment
 startpage
 "
 }
-"
-isNewUntil
-"
-:
-"
-2026
--
-05
--
-19
-"
 }
 ]
 }
@@ -38481,5 +38470,5 @@ schema
 timestamp
 "
 :
-1776702260347
+1778165854657
 }
