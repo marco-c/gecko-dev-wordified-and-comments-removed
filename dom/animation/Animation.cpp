@@ -4319,13 +4319,6 @@ DeclarationBlock
 (
 )
 ;
-declarationBlock
--
->
-SetDirty
-(
-)
-;
 }
 MutationClosureData
 closureData

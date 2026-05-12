@@ -2175,14 +2175,6 @@ mut
 matching_context
 )
 ;
-self
-.
-element
-.
-unset_dirty_style_attribute
-(
-)
-;
 let
 rule_node
 =

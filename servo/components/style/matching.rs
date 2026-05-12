@@ -678,12 +678,6 @@ style_attribute
 primary_rules
 )
 ;
-self
-.
-unset_dirty_style_attribute
-(
-)
-;
 }
 return
 result

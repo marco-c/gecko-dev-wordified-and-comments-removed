@@ -2543,14 +2543,6 @@ PropertyDeclarationBlock
 >
 ;
 fn
-unset_dirty_style_attribute
-(
-&
-self
-)
-{
-}
-fn
 smil_override
 (
 &

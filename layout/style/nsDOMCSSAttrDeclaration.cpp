@@ -356,13 +356,6 @@ aClosureData
 mWasCalled
 )
 ;
-aDecl
--
->
-SetDirty
-(
-)
-;
 if
 (
 mIsSMILOverride
@@ -513,13 +506,6 @@ MakeRefPtr
 <
 DeclarationBlock
 >
-(
-)
-;
-decl
--
->
-SetDirty
 (
 )
 ;
