@@ -2232,7 +2232,15 @@ fl
 >
 mRemoteType
 =
-DEFAULT_REMOTE_TYPE
+SharedWebRemoteType
+(
+context
+-
+>
+OriginAttributesRef
+(
+)
+)
 ;
 }
 }
