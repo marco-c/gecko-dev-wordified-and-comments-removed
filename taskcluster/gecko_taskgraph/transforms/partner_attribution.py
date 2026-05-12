@@ -63,6 +63,8 @@ generate_attribution_code
 get_ftp_platform
     
 get_partner_config_by_kind
+    
+locales_per_build_platform
 )
 log
 =
@@ -233,12 +235,18 @@ continue
 for
 locale
 in
+locales_per_build_platform
+(
+                    
+platform
 partner_config
 [
 "
 locales
 "
 ]
+                
+)
 :
                     
 attributed_build_config
