@@ -164,6 +164,11 @@ readOnlyHint
 =
 false
 ;
+boolean
+untrustedContentHint
+=
+false
+;
 }
 ;
 callback

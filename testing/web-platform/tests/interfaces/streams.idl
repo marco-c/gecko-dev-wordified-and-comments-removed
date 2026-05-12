@@ -521,7 +521,7 @@ ReadableStreamBYOBRequest
 {
 readonly
 attribute
-ArrayBufferView
+Uint8Array
 ?
 view
 ;
