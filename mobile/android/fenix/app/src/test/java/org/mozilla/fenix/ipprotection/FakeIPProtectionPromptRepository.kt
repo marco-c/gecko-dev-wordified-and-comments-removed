@@ -93,6 +93,13 @@ hasShownPrompt
 Boolean
 =
 false
+override
+val
+hasAlreadyUsedIPProtection
+:
+Boolean
+=
+false
 )
 :
 IPProtectionPromptRepository
