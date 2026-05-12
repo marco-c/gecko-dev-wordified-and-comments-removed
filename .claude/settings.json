@@ -39,6 +39,11 @@ aidev
 plugins
 "
 }
+"
+autoUpdate
+"
+:
+true
 }
 }
 "
