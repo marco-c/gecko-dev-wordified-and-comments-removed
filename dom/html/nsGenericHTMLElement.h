@@ -1772,6 +1772,7 @@ GetEditContext
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetEditContext
 (
