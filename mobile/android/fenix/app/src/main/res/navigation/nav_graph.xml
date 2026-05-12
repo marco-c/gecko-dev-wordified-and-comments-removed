@@ -3453,15 +3453,6 @@ bookmarks
 .
 BookmarkFragment
 "
-tools
-:
-layout
-=
-"
-layout
-/
-fragment_bookmark
-"
 >
 <
 argument
