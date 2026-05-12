@@ -255,11 +255,11 @@ var
 -
 urlbarView
 -
-item
--
-block
+row
 -
 padding
+-
+block
 )
 ;
 }
@@ -1057,11 +1057,9 @@ pref
 "
 browser
 .
-urlbar
-.
 nova
 .
-featureGate
+enabled
 "
 )
 {
