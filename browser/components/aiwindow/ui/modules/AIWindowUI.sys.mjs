@@ -1694,12 +1694,6 @@ return
 }
 askBtn
 .
-checked
-=
-sidebarIsOpen
-;
-askBtn
-.
 setAttribute
 (
 "
