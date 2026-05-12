@@ -198,11 +198,6 @@ CURRENT_TIME_MILLIS
 -
 ONE_WEEK_MS
 }
-currentTimeMillis
-=
-{
-CURRENT_TIME_MILLIS
-}
 )
 }
 Test
@@ -240,6 +235,7 @@ repository
 .
 canShowIPProtectionPrompt
 (
+CURRENT_TIME_MILLIS
 )
 )
 }
@@ -282,6 +278,7 @@ repository
 .
 canShowIPProtectionPrompt
 (
+CURRENT_TIME_MILLIS
 )
 )
 }
@@ -326,6 +323,7 @@ repository
 .
 canShowIPProtectionPrompt
 (
+CURRENT_TIME_MILLIS
 )
 )
 }
@@ -368,11 +366,6 @@ ONE_WEEK_MS
 1
 )
 }
-currentTimeMillis
-=
-{
-CURRENT_TIME_MILLIS
-}
 )
 settings
 .
@@ -396,6 +389,7 @@ repository
 .
 canShowIPProtectionPrompt
 (
+CURRENT_TIME_MILLIS
 )
 )
 }
@@ -431,11 +425,6 @@ CURRENT_TIME_MILLIS
 -
 ONE_WEEK_MS
 }
-currentTimeMillis
-=
-{
-CURRENT_TIME_MILLIS
-}
 )
 settings
 .
@@ -459,6 +448,7 @@ repository
 .
 canShowIPProtectionPrompt
 (
+CURRENT_TIME_MILLIS
 )
 )
 }
@@ -498,11 +488,6 @@ ONE_WEEK_MS
 1
 )
 }
-currentTimeMillis
-=
-{
-CURRENT_TIME_MILLIS
-}
 )
 settings
 .
@@ -526,6 +511,7 @@ repository
 .
 canShowIPProtectionPrompt
 (
+CURRENT_TIME_MILLIS
 )
 )
 }
