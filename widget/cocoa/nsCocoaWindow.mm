@@ -25017,6 +25017,13 @@ DispatchOcclusionEvent
 (
 )
 ;
+[
+MOZDynamicCursor
+.
+sharedInstance
+reassertCurrentCursor
+]
+;
 bool
 receivedExpectedFullscreen
 =

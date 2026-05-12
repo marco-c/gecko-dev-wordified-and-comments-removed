@@ -82,6 +82,12 @@ bool
 )
 aForceUpdate
 ;
+-
+(
+void
+)
+reassertCurrentCursor
+;
 +
 (
 MOZDynamicCursor
