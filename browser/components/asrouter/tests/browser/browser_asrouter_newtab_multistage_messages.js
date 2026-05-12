@@ -79,7 +79,7 @@ AppConstants
 .
 MOZ_APP_VERSION
 "
-152
+151
 .
 0a1
 "
@@ -103,7 +103,7 @@ is
 only
 supported
 in
-152
+151
 onwards
 .
 "
@@ -414,7 +414,7 @@ AppConstants
 .
 MOZ_APP_VERSION
 "
-152
+151
 .
 0a1
 "
@@ -613,7 +613,7 @@ AppConstants
 .
 MOZ_APP_VERSION
 "
-152
+151
 .
 0a1
 "
@@ -958,7 +958,7 @@ AppConstants
 .
 MOZ_APP_VERSION
 "
-152
+151
 .
 0a1
 "
@@ -1261,7 +1261,7 @@ AppConstants
 .
 MOZ_APP_VERSION
 "
-152
+151
 .
 0a1
 "
@@ -1513,7 +1513,7 @@ AppConstants
 .
 MOZ_APP_VERSION
 "
-152
+151
 .
 0a1
 "
@@ -1805,7 +1805,7 @@ AppConstants
 .
 MOZ_APP_VERSION
 "
-152
+151
 .
 0a1
 "
@@ -2197,7 +2197,7 @@ AppConstants
 .
 MOZ_APP_VERSION
 "
-152
+151
 .
 0a1
 "
