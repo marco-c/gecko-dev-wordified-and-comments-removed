@@ -547,7 +547,7 @@ body
 "
 >
 <
-a
+label
 class
 =
 "
@@ -566,7 +566,7 @@ center
 >
 <
 /
-a
+label
 >
 <
 !

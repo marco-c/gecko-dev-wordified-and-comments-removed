@@ -2199,6 +2199,10 @@ const
 ccNumberFmt
 =
 "
+*
+*
+*
+*
 "
 +
 record

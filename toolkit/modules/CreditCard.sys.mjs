@@ -2848,6 +2848,7 @@ maskedNumber
 {
 return
 "
+*
 "
 .
 repeat
@@ -2872,6 +2873,7 @@ number
 {
 return
 "
+*
 "
 .
 repeat
@@ -2899,6 +2901,7 @@ number
 {
 return
 "
+*
 "
 .
 repeat
