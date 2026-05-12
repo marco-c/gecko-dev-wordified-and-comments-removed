@@ -324,9 +324,7 @@ is
 FormAutofill
 .
 isAutofillAddressesAvailable
-AppConstants
-.
-NIGHTLY_BUILD
+false
 "
 Address
 autofill
