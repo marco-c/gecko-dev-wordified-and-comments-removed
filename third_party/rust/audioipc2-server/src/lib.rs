@@ -996,6 +996,9 @@ p
 *
 mut
 c_void
+remote_pid
+:
+u32
 shm_area_size
 :
 usize
@@ -1137,6 +1140,7 @@ device_collection_thread
 clone
 (
 )
+remote_pid
 shm_area_size
 )
 ;
