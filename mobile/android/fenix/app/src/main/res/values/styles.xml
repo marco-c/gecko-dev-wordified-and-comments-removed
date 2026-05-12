@@ -6849,9 +6849,10 @@ name
 iconTint
 "
 >
-color
+?
+attr
 /
-fx_mobile_icon_color_critical_button
+colorError
 <
 /
 item
@@ -6866,9 +6867,10 @@ android
 textColor
 "
 >
-color
+?
+attr
 /
-fx_mobile_text_color_critical_button
+colorError
 <
 /
 item
