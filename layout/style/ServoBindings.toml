@@ -420,6 +420,14 @@ StyleGeneric
 *
 "
 "
+mozilla
+:
+:
+StyleNumericUnion
+.
+*
+"
+"
 nsTArray_
 .
 *

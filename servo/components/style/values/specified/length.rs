@@ -7246,12 +7246,14 @@ calc
 )
 =
 >
+{
 calc
 .
 to_computed_pixel_length_with_font_metrics
 (
 get_font_metrics
 )
+}
 }
 }
 }
@@ -7934,6 +7936,7 @@ value
 )
 =
 >
+{
 LengthPercentage
 :
 :
@@ -7948,6 +7951,7 @@ unit
 value
 )
 )
+}
 Extracted
 :
 :

@@ -115,8 +115,8 @@ SVGContextPaint
 class
 SVGPreserveAspectRatio
 ;
-union
-StyleLengthPercentageUnion
+struct
+StyleLengthPercentage
 ;
 namespace
 dom
@@ -853,7 +853,7 @@ SVGElement
 *
 aContent
 const
-StyleLengthPercentageUnion
+StyleLengthPercentage
 &
 SVGLength
 :
