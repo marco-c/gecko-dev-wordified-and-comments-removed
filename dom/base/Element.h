@@ -556,6 +556,9 @@ ScrollOptions
 struct
 FullscreenOptions
 ;
+struct
+PointerLockOptions
+;
 class
 Attr
 ;
@@ -5188,6 +5191,10 @@ Promise
 >
 RequestPointerLock
 (
+const
+PointerLockOptions
+&
+aOptions
 CallerType
 aCallerType
 ErrorResult
