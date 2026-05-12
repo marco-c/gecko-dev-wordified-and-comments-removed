@@ -145,15 +145,7 @@ js
 :
 [
 "
-bug1815733
--
-outlook365
--
-clipboard
--
-read
--
-noop
+disable_navigator_clipboard_read
 .
 js
 "
