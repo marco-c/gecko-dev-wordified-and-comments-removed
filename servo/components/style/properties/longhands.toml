@@ -3609,9 +3609,6 @@ struct
 "
 inherited_table
 "
-boxed
-=
-true
 spec
 =
 "
@@ -15112,9 +15109,6 @@ size
 -
 prop
 "
-boxed
-=
-true
 animation_type
 =
 "
@@ -21506,9 +21500,6 @@ engine
 "
 gecko
 "
-boxed
-=
-true
 gecko_pref
 =
 "
