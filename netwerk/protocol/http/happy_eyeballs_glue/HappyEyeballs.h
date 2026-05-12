@@ -75,6 +75,10 @@ happy_eyeballs
 :
 IpPreference
 aPref
+uint32_t
+aResolutionDelayMs
+uint32_t
+aConnectionAttemptDelayMs
 )
 {
 return
@@ -95,6 +99,8 @@ aOrigin
 aPort
 aAltSvc
 aPref
+aResolutionDelayMs
+aConnectionAttemptDelayMs
 )
 ;
 }
