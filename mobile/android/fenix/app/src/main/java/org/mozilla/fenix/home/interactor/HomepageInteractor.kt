@@ -296,18 +296,6 @@ topsites
 interactor
 .
 TopSiteInteractor
-import
-org
-.
-mozilla
-.
-fenix
-.
-search
-.
-toolbar
-.
-SearchSelectorInteractor
 /
 *
 *
@@ -339,7 +327,6 @@ BookmarksInteractor
 RecentVisitsInteractor
 PocketStoriesInteractor
 PrivateBrowsingInteractor
-SearchSelectorInteractor
 WallpaperInteractor
 SetupChecklistInteractor
 TrackingProtectionInteractor
