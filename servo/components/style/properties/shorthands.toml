@@ -4945,6 +4945,11 @@ variation
 -
 settings
 "
+"
+font
+-
+kerning
+"
 ]
 extra_gecko_sub_properties
 =
@@ -4955,11 +4960,6 @@ font
 size
 -
 adjust
-"
-"
-font
--
-kerning
 "
 "
 font
