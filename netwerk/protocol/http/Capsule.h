@@ -1081,7 +1081,10 @@ mCapsule
 std
 :
 :
-move
+forward
+<
+CapsuleStruct
+>
 (
 aCapsule
 )

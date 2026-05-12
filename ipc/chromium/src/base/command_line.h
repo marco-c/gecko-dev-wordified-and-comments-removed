@@ -400,8 +400,9 @@ InProcessBrowserTest
 CommandLine
 (
 )
-{
-}
+=
+default
+;
 static
 CommandLine
 *

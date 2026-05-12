@@ -89,8 +89,9 @@ protected
 BaseTimer_Helper
 (
 )
-{
-}
+=
+default
+;
 class
 TimerTask
 :
@@ -135,8 +136,9 @@ virtual
 TimerTask
 (
 )
-{
-}
+=
+default
+;
 BaseTimer_Helper
 *
 timer_

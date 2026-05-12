@@ -106,8 +106,9 @@ virtual
 Watcher
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 OnFileCanReadWithoutBlocking

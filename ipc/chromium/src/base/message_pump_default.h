@@ -50,8 +50,9 @@ MessagePumpDefault
 MessagePumpDefault
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Run
