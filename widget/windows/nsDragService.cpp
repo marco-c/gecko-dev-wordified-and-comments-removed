@@ -3579,3 +3579,12 @@ return
 NS_OK
 ;
 }
+#
+undef
+LOGD
+#
+undef
+LOGI
+#
+undef
+LOGE
