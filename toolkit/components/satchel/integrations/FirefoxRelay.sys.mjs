@@ -1539,7 +1539,7 @@ message
 let
 maskCount
 =
-5
+50
 ;
 if
 (
