@@ -1853,6 +1853,11 @@ ELT_SELECT
 static
 nsHtml5ElementName
 *
+ELT_SELECTEDCONTENT
+;
+static
+nsHtml5ElementName
+*
 ELT_SLOT
 ;
 static

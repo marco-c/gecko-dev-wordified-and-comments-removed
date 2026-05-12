@@ -15294,6 +15294,14 @@ GROUP_SELECT_CONTENT
 )
 ELEM
 (
+selectedcontent
+true
+false
+GROUP_NONE
+GROUP_INLINE_ELEMENT
+)
+ELEM
+(
 small
 true
 true

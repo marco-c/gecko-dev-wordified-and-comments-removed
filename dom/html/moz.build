@@ -497,6 +497,11 @@ HTMLScriptElement
 h
 "
 "
+HTMLSelectedContentElement
+.
+h
+"
+"
 HTMLSelectElement
 .
 h
@@ -878,6 +883,11 @@ cpp
 "
 "
 HTMLScriptElement
+.
+cpp
+"
+"
+HTMLSelectedContentElement
 .
 cpp
 "

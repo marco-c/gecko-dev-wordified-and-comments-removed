@@ -4607,6 +4607,11 @@ HTMLScriptElement
 webidl
 "
 "
+HTMLSelectedContentElement
+.
+webidl
+"
+"
 HTMLSelectElement
 .
 webidl
