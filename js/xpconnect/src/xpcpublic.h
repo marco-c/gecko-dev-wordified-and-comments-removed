@@ -3762,6 +3762,16 @@ JSObject
 )
 ;
 bool
+IsChromeOrWorkerDebugger
+(
+JSContext
+*
+cx
+JSObject
+*
+)
+;
+bool
 ThreadSafeIsChromeOrUAWidget
 (
 JSContext

@@ -490,7 +490,11 @@ IS_NATIVE_CONSOLE
 true
 ;
 [
-ChromeOnly
+Func
+=
+"
+IsChromeOrWorkerDebugger
+"
 NewObject
 ]
 ConsoleInstance
