@@ -447,8 +447,9 @@ send
 )
 ;
 }
-test
+promise_test
 (
+async
 (
 )
 =
@@ -688,6 +689,13 @@ optionOne
 .
 remove
 (
+)
+;
+await
+new
+Promise
+(
+queueMicrotask
 )
 ;
 assert_equals

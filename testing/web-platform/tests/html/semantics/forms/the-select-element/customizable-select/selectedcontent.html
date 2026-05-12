@@ -784,6 +784,13 @@ remove
 (
 )
 ;
+await
+new
+Promise
+(
+queueMicrotask
+)
+;
 assert_equals
 (
 selectedcontent
@@ -818,6 +825,13 @@ optionOne
 .
 remove
 (
+)
+;
+await
+new
+Promise
+(
+queueMicrotask
 )
 ;
 assert_equals
