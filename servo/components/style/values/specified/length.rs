@@ -332,10 +332,7 @@ specified
 calc
 :
 :
-{
-CalcLengthPercentage
 CalcNumeric
-}
 ;
 pub
 const
@@ -10318,7 +10315,7 @@ Calc
 (
 Box
 <
-CalcLengthPercentage
+CalcNumeric
 >
 )
 }
@@ -12852,7 +12849,7 @@ Calc
 (
 Box
 <
-CalcLengthPercentage
+CalcNumeric
 >
 )
 }
@@ -13001,17 +12998,7 @@ LengthPercentage
 :
 Calc
 (
-Box
-:
-:
-new
-(
-CalcLengthPercentage
-(
-*
 calc
-)
-)
 )
 }
 }
