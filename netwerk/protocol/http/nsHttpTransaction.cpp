@@ -15362,7 +15362,7 @@ aRestart
 )
 )
 ;
-mEarlyDataWasAvailable
+mResumptionAttempted
 =
 true
 ;

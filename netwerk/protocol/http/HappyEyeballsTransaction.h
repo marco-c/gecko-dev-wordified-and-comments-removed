@@ -247,6 +247,8 @@ override
 bool
 Do0RTT
 (
+bool
+aCanSendEarlyData
 )
 override
 {
@@ -257,6 +259,7 @@ mZeroRttHandle
 Do0RTT
 (
 this
+aCanSendEarlyData
 )
 ;
 }
