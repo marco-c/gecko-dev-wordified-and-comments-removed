@@ -1805,7 +1805,7 @@ strategy
 :
 parallel
 :
-10
+20
 #
 chosen
 to
@@ -2208,7 +2208,7 @@ strategy
 :
 parallel
 :
-10
+20
 #
 chosen
 to
@@ -2623,7 +2623,7 @@ strategy
 :
 parallel
 :
-10
+20
 #
 chosen
 to
