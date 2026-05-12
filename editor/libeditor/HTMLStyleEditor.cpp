@@ -386,6 +386,14 @@ nsUnicharUtils
 .
 h
 "
+#
+ifdef
+small
+#
+undef
+small
+#
+endif
 namespace
 mozilla
 {

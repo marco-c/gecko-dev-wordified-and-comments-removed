@@ -72,6 +72,14 @@ nsRange
 .
 h
 "
+#
+ifdef
+small
+#
+undef
+small
+#
+endif
 class
 nsISupports
 ;
