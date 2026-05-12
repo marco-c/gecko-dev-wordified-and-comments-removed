@@ -1,3 +1,12 @@
+use
+crate
+:
+:
+derives
+:
+:
+*
+;
 #
 [
 derive
@@ -25,6 +34,13 @@ ToTyped
 repr
 (
 u8
+)
+]
+#
+[
+typed
+(
+todo_derive_fields
 )
 ]
 pub
@@ -73,6 +89,7 @@ pub
 fn
 is_auto
 (
+&
 self
 )
 -

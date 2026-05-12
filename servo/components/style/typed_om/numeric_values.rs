@@ -19,7 +19,7 @@ specified
 :
 {
 NoCalcLength
-Number
+NoCalcNumber
 Percentage
 Time
 }
@@ -60,13 +60,6 @@ repr
 u8
 )
 ]
-#
-[
-typed_value
-(
-derive_fields
-)
-]
 pub
 enum
 NoCalcNumeric
@@ -81,7 +74,7 @@ Time
 )
 Number
 (
-Number
+NoCalcNumber
 )
 Percentage
 (
@@ -544,7 +537,7 @@ NoCalcNumeric
 :
 Number
 (
-Number
+NoCalcNumber
 :
 :
 new

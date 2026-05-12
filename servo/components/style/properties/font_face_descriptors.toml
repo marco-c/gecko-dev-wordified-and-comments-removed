@@ -149,6 +149,11 @@ type
 "
 FontFeatureSettings
 "
+parser
+=
+"
+parse_for_font_face_rule
+"
 [
 font
 -
@@ -160,6 +165,11 @@ type
 =
 "
 FontVariationSettings
+"
+parser
+=
+"
+parse_for_font_face_rule
 "
 gecko_pref
 =

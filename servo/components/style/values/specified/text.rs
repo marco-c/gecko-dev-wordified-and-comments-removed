@@ -786,9 +786,16 @@ i
 )
 )
 .
-unwrap_or
+unwrap_or_else
 (
+|
+_
+|
 pre_hyphen_length
+.
+clone
+(
+)
 )
 ;
 Ok
