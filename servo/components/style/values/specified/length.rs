@@ -318,7 +318,7 @@ specified
 calc
 :
 :
-CalcLengthPercentage
+CalcNumeric
 ;
 pub
 const
@@ -10301,7 +10301,7 @@ Calc
 (
 Box
 <
-CalcLengthPercentage
+CalcNumeric
 >
 )
 }
@@ -12838,7 +12838,7 @@ Calc
 (
 Box
 <
-CalcLengthPercentage
+CalcNumeric
 >
 )
 }
@@ -12977,7 +12977,7 @@ Box
 :
 new
 (
-CalcLengthPercentage
+CalcNumeric
 {
 clamping_mode
 node

@@ -552,7 +552,7 @@ length
 :
 {
 AbsoluteLength
-CalcLengthPercentage
+CalcNumeric
 CharacterWidth
 }
 ;
