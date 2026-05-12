@@ -141,7 +141,10 @@ uint8_t
 *
 encodedBuffer
 =
-reinterpret_cast
+rlbox
+:
+:
+sandbox_reinterpret_cast
 <
 const
 uint8_t
@@ -149,6 +152,7 @@ uint8_t
 >
 (
 aEncodedBuffer
+)
 .
 unverified_safe_pointer_because
 (
@@ -159,7 +163,6 @@ fits
 within
 sandbox
 "
-)
 )
 ;
 size_t
@@ -187,13 +190,17 @@ uint8_t
 *
 decodedBuffer
 =
-reinterpret_cast
+rlbox
+:
+:
+sandbox_reinterpret_cast
 <
 uint8_t
 *
 >
 (
 aDecodedBuffer
+)
 .
 unverified_safe_pointer_because
 (
@@ -204,7 +211,6 @@ fits
 within
 sandbox
 "
-)
 )
 ;
 BrotliDecoderResult

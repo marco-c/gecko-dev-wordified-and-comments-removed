@@ -399,7 +399,7 @@ bytes
 =
 sizeof
 (
-T
+T_Pointed
 )
 *
 count
@@ -1234,8 +1234,10 @@ impl
 ;
 \
 operator
-+
-+
+opSymbol
+#
+#
+opSymbol
 (
 )
 ;
