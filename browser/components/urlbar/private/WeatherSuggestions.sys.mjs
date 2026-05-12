@@ -2609,7 +2609,7 @@ name
 {
 allowOhttp
 :
-true
+false
 cachePeriodMs
 :
 MERINO_WEATHER_CACHE_PERIOD_MS
