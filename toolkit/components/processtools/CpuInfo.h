@@ -1,0 +1,17 @@
+#
+ifndef
+TOOLKIT_COMPONENTS_PROCESSTOOLS_CPUINFO_H_
+#
+define
+TOOLKIT_COMPONENTS_PROCESSTOOLS_CPUINFO_H_
+namespace
+mozilla
+{
+int
+GetCpuFrequencyMHz
+(
+)
+;
+}
+#
+endif
