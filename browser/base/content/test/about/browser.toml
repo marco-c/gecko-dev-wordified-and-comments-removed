@@ -102,6 +102,13 @@ js
 ]
 [
 "
+browser_aboutCertError_caInvalid
+.
+js
+"
+]
+[
+"
 browser_aboutCertError_cca_telemetry
 .
 js
