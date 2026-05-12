@@ -498,14 +498,6 @@ getNestedConfigs
 (
 )
 ;
-Promise
-<
-undefined
->
-disableUntrustedNetwork
-(
-)
-;
 undefined
 notifyEvent
 (
