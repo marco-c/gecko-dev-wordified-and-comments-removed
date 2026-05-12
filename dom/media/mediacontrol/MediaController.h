@@ -498,6 +498,13 @@ uint64_t
 aBrowsingContextId
 MediaAudibleState
 aState
+ControlType
+aType
+=
+ControlType
+:
+:
+eControllable
 )
 override
 ;
@@ -746,6 +753,13 @@ bool
 mIsInFullScreenMode
 =
 false
+;
+nsTHashMap
+<
+nsUint64HashKey
+uint32_t
+>
+mUncontrollableAudibleMap
 ;
 MediaEventListener
 mSupportedActionsChangedListener

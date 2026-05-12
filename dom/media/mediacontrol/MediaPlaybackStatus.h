@@ -89,6 +89,16 @@ eAudible
 )
 )
 ;
+MOZ_DEFINE_ENUM_CLASS_WITH_BASE_AND_TOSTRING
+(
+ControlType
+bool
+(
+eControllable
+eUncontrollable
+)
+)
+;
 class
 MediaPlaybackStatus
 final
