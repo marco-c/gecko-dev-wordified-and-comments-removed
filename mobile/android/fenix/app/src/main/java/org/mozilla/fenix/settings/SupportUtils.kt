@@ -869,6 +869,16 @@ masks
 android
 "
 )
+VPN
+(
+"
+firefox
+-
+android
+-
+vpn
+"
+)
 /
 *
 *
