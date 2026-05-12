@@ -253,6 +253,21 @@ ErrorResult
 aRv
 )
 ;
+static
+const
+double
+radPerDegree
+=
+2
+.
+0
+*
+M_PI
+/
+360
+.
+0
+;
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 DOMMatrixReadOnly
@@ -6411,7 +6426,7 @@ RotateAxisAngleSelf
 1
 angle
 /
-kRadPerDegree
+radPerDegree
 )
 ;
 }
@@ -6573,7 +6588,7 @@ RotateZ
 (
 rotZ
 *
-kRadPerDegree
+radPerDegree
 )
 ;
 }
@@ -6596,7 +6611,7 @@ RotateY
 (
 rotY
 *
-kRadPerDegree
+radPerDegree
 )
 ;
 }
@@ -6619,7 +6634,7 @@ RotateX
 (
 aRotX
 *
-kRadPerDegree
+radPerDegree
 )
 ;
 }
@@ -6647,7 +6662,7 @@ PreRotate
 (
 rotZ
 *
-kRadPerDegree
+radPerDegree
 )
 ;
 }
@@ -6691,7 +6706,7 @@ this
 aAngle
 *
 =
-kRadPerDegree
+radPerDegree
 ;
 gfx
 :
@@ -6866,7 +6881,7 @@ tan
 (
 aSx
 *
-kRadPerDegree
+radPerDegree
 )
 ;
 *
@@ -6894,7 +6909,7 @@ tan
 (
 aSx
 *
-kRadPerDegree
+radPerDegree
 )
 ;
 *
@@ -6956,7 +6971,7 @@ tan
 (
 aSy
 *
-kRadPerDegree
+radPerDegree
 )
 ;
 *
@@ -6984,7 +6999,7 @@ tan
 (
 aSy
 *
-kRadPerDegree
+radPerDegree
 )
 ;
 *

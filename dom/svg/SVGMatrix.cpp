@@ -45,6 +45,20 @@ nsError
 .
 h
 "
+const
+double
+radPerDegree
+=
+2
+.
+0
+*
+M_PI
+/
+360
+.
+0
+;
 namespace
 mozilla
 :
@@ -703,7 +717,7 @@ PreRotate
 (
 angle
 *
-kRadPerDegree
+radPerDegree
 )
 )
 ;
@@ -913,7 +927,7 @@ tan
 (
 angle
 *
-kRadPerDegree
+radPerDegree
 )
 ;
 if
@@ -1019,7 +1033,7 @@ tan
 (
 angle
 *
-kRadPerDegree
+radPerDegree
 )
 ;
 if
