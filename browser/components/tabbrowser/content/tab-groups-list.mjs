@@ -635,9 +635,9 @@ tab
 -
 group
 -
-color
+background
 -
-default
+color
 "
 :
 var
