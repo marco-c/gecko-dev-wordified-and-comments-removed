@@ -100,7 +100,7 @@ false
 \
 }
 class
-MockEventListener
+MockAudioEventListener
 :
 public
 AudioInputSource
@@ -112,7 +112,7 @@ public
 :
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
-MockEventListener
+MockAudioEventListener
 override
 )
 ;
@@ -150,7 +150,7 @@ State
 private
 :
 ~
-MockEventListener
+MockAudioEventListener
 (
 )
 =
@@ -247,7 +247,7 @@ listener
 =
 MakeRefPtr
 <
-MockEventListener
+MockAudioEventListener
 >
 (
 )
@@ -712,7 +712,7 @@ listener
 =
 MakeRefPtr
 <
-MockEventListener
+MockAudioEventListener
 >
 (
 )
@@ -1202,7 +1202,7 @@ listener
 =
 MakeRefPtr
 <
-MockEventListener
+MockAudioEventListener
 >
 (
 )
@@ -1532,7 +1532,7 @@ listener
 =
 MakeRefPtr
 <
-MockEventListener
+MockAudioEventListener
 >
 (
 )
@@ -1860,7 +1860,7 @@ listener
 =
 MakeRefPtr
 <
-MockEventListener
+MockAudioEventListener
 >
 (
 )

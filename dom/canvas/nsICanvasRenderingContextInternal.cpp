@@ -140,7 +140,7 @@ mozilla
 :
 :
 LazyLogModule
-gFingerprinterDetection
+gRenderingFingerprinterDetection
 (
 "
 FingerprinterDetection
@@ -345,7 +345,7 @@ mWorkerRef
 {
 MOZ_LOG
 (
-gFingerprinterDetection
+gRenderingFingerprinterDetection
 mozilla
 :
 :
@@ -389,7 +389,7 @@ priv
 {
 MOZ_LOG
 (
-gFingerprinterDetection
+gRenderingFingerprinterDetection
 mozilla
 :
 :
@@ -432,7 +432,7 @@ doc
 {
 MOZ_LOG
 (
-gFingerprinterDetection
+gRenderingFingerprinterDetection
 mozilla
 :
 :
@@ -736,7 +736,7 @@ SuppressException
 ;
 MOZ_LOG
 (
-gFingerprinterDetection
+gRenderingFingerprinterDetection
 mozilla
 :
 :

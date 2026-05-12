@@ -132,7 +132,7 @@ SVGAttrTearoffTable
 SVGAnimatedOrient
 DOMSVGAnimatedEnumeration
 >
-sSVGAnimatedEnumTearoffTable
+sSVGAnimatedOrientEnumTearoffTable
 ;
 constinit
 static
@@ -1849,7 +1849,7 @@ DOMSVGAnimatedEnumeration
 >
 domAnimatedEnum
 =
-sSVGAnimatedEnumTearoffTable
+sSVGAnimatedOrientEnumTearoffTable
 .
 GetTearoff
 (
@@ -1871,7 +1871,7 @@ this
 aSVGElement
 )
 ;
-sSVGAnimatedEnumTearoffTable
+sSVGAnimatedOrientEnumTearoffTable
 .
 AddTearoff
 (
@@ -1915,7 +1915,7 @@ DOMAnimatedEnum
 (
 )
 {
-sSVGAnimatedEnumTearoffTable
+sSVGAnimatedOrientEnumTearoffTable
 .
 RemoveTearoff
 (

@@ -50,7 +50,7 @@ mozilla
 static
 PRThread
 *
-spawn
+spawn_thread
 (
 void
 (
@@ -301,7 +301,7 @@ PRThread
 *
 t1
 =
-spawn
+spawn_thread
 (
 MutexContention_thread
 nullptr
@@ -311,7 +311,7 @@ PRThread
 *
 t2
 =
-spawn
+spawn_thread
 (
 MutexContention_thread
 nullptr
@@ -321,7 +321,7 @@ PRThread
 *
 t3
 =
-spawn
+spawn_thread
 (
 MutexContention_thread
 nullptr
@@ -418,7 +418,7 @@ PRThread
 *
 t1
 =
-spawn
+spawn_thread
 (
 MonitorContention_thread
 nullptr
@@ -428,7 +428,7 @@ PRThread
 *
 t2
 =
-spawn
+spawn_thread
 (
 MonitorContention_thread
 nullptr
@@ -438,7 +438,7 @@ PRThread
 *
 t3
 =
-spawn
+spawn_thread
 (
 MonitorContention_thread
 nullptr
@@ -566,7 +566,7 @@ PRThread
 *
 t1
 =
-spawn
+spawn_thread
 (
 MonitorContention2_thread
 nullptr
@@ -576,7 +576,7 @@ PRThread
 *
 t2
 =
-spawn
+spawn_thread
 (
 MonitorContention2_thread
 nullptr
@@ -586,7 +586,7 @@ PRThread
 *
 t3
 =
-spawn
+spawn_thread
 (
 MonitorContention2_thread
 nullptr
@@ -756,7 +756,7 @@ PRThread
 *
 ping
 =
-spawn
+spawn_thread
 (
 MonitorSyncSanity_thread
 nullptr
@@ -766,7 +766,7 @@ PRThread
 *
 pong
 =
-spawn
+spawn_thread
 (
 MonitorSyncSanity_thread
 nullptr
@@ -917,7 +917,7 @@ PRThread
 *
 ping
 =
-spawn
+spawn_thread
 (
 CondVarSanity_thread
 nullptr
@@ -927,7 +927,7 @@ PRThread
 *
 pong
 =
-spawn
+spawn_thread
 (
 CondVarSanity_thread
 nullptr

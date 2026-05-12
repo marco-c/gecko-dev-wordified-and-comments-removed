@@ -230,10 +230,6 @@ rv
 }
 }
 using
-namespace
-TestThrottledEventQueue
-;
-using
 testing
 :
 :
@@ -264,6 +260,9 @@ RunnableQueue
 (
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 queue
@@ -283,6 +282,9 @@ a
 }
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 queue
@@ -302,6 +304,9 @@ b
 }
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 queue
@@ -388,6 +393,9 @@ queue
 "
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -487,6 +495,9 @@ queue
 "
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -528,6 +539,9 @@ Length
 1U
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -569,6 +583,9 @@ Length
 1U
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 base
@@ -697,6 +714,9 @@ queue
 "
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 base
@@ -716,6 +736,9 @@ a
 }
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -732,6 +755,9 @@ log
 b
 '
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 base
@@ -754,6 +780,9 @@ c
 }
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -860,6 +889,9 @@ queue
 "
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -896,6 +928,9 @@ log
 }
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -1005,6 +1040,9 @@ queue
 "
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -1122,6 +1160,9 @@ queue
 "
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -1402,6 +1443,9 @@ queue
 "
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -1427,6 +1471,9 @@ a
 }
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -1732,6 +1779,9 @@ IsPaused
 )
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -1797,6 +1847,9 @@ IsPaused
 )
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -1961,6 +2014,9 @@ IsPaused
 )
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 base
@@ -1980,6 +2036,9 @@ A
 }
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -2013,6 +2072,9 @@ true
 }
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -2032,6 +2094,9 @@ c
 }
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 base
@@ -2106,6 +2171,9 @@ IsPaused
 )
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 base
@@ -2136,6 +2204,9 @@ false
 )
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 base
@@ -2284,6 +2355,9 @@ true
 )
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -2593,6 +2667,9 @@ true
 )
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
