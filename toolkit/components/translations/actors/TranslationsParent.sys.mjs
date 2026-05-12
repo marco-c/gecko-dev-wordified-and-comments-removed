@@ -4914,10 +4914,7 @@ type
 {
 null
 |
-Promise
-<
 boolean
->
 }
 *
 /
@@ -7078,11 +7075,6 @@ no
 shadow
 *
 /
-/
-/
-ts
--
-ignore
 const
 {
 CustomEvent
@@ -7443,7 +7435,7 @@ engines
 .
 *
 *
-type
+returns
 {
 boolean
 }
