@@ -1040,7 +1040,7 @@ group
 color
 }
 -
-text
+content
 )
 "
 -
