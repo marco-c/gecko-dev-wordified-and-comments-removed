@@ -537,11 +537,7 @@ self
 length
 :
 :
-{
-AbsoluteLength
 CalcNumeric
-CharacterWidth
-}
 ;
 pub
 use
@@ -552,9 +548,9 @@ length
 :
 :
 {
-FontRelativeLength
 Length
 LengthOrNumber
+LengthUnit
 NonNegativeLengthOrNumber
 }
 ;
@@ -596,7 +592,6 @@ length
 :
 {
 NoCalcLength
-ViewportPercentageLength
 ViewportVariant
 }
 ;

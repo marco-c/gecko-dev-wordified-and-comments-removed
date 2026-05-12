@@ -178,7 +178,7 @@ values
 specified
 :
 :
-FontRelativeLength
+NoCalcLength
 ;
 use
 crate
@@ -2694,7 +2694,7 @@ value
 .
 eq_ignore_ascii_case
 (
-FontRelativeLength
+NoCalcLength
 :
 :
 LH
@@ -2717,7 +2717,7 @@ value
 .
 eq_ignore_ascii_case
 (
-FontRelativeLength
+NoCalcLength
 :
 :
 EM
@@ -2728,7 +2728,7 @@ value
 .
 eq_ignore_ascii_case
 (
-FontRelativeLength
+NoCalcLength
 :
 :
 EX
@@ -2739,7 +2739,7 @@ value
 .
 eq_ignore_ascii_case
 (
-FontRelativeLength
+NoCalcLength
 :
 :
 CAP
@@ -2750,7 +2750,7 @@ value
 .
 eq_ignore_ascii_case
 (
-FontRelativeLength
+NoCalcLength
 :
 :
 CH
@@ -2761,7 +2761,7 @@ value
 .
 eq_ignore_ascii_case
 (
-FontRelativeLength
+NoCalcLength
 :
 :
 IC
@@ -2779,7 +2779,7 @@ value
 .
 eq_ignore_ascii_case
 (
-FontRelativeLength
+NoCalcLength
 :
 :
 RLH
@@ -2802,7 +2802,7 @@ value
 .
 eq_ignore_ascii_case
 (
-FontRelativeLength
+NoCalcLength
 :
 :
 REM
@@ -2813,7 +2813,7 @@ value
 .
 eq_ignore_ascii_case
 (
-FontRelativeLength
+NoCalcLength
 :
 :
 REX
@@ -2824,7 +2824,7 @@ value
 .
 eq_ignore_ascii_case
 (
-FontRelativeLength
+NoCalcLength
 :
 :
 RCH
@@ -2835,7 +2835,7 @@ value
 .
 eq_ignore_ascii_case
 (
-FontRelativeLength
+NoCalcLength
 :
 :
 RCAP
@@ -2846,7 +2846,7 @@ value
 .
 eq_ignore_ascii_case
 (
-FontRelativeLength
+NoCalcLength
 :
 :
 RIC
