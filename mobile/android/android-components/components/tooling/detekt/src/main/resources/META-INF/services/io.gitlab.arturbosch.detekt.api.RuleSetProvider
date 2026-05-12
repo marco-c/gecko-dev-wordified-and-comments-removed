@@ -7,14 +7,3 @@ tooling
 detekt
 .
 MozillaRuleSetProvider
-mozilla
-.
-components
-.
-tooling
-.
-detekt
-.
-acorn
-.
-AcornRuleSetProvider
