@@ -89,7 +89,6 @@ pub
 fn
 is_auto
 (
-&
 self
 )
 -

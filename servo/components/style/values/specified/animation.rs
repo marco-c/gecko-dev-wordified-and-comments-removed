@@ -830,6 +830,7 @@ Time
 [
 derive
 (
+Copy
 Clone
 Debug
 MallocSizeOf

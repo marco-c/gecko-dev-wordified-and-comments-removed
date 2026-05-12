@@ -4376,6 +4376,7 @@ ratio
 ;
 }
 match
+*
 self
 {
 Self
@@ -5458,6 +5459,7 @@ let
 int
 =
 match
+*
 self
 {
 specified

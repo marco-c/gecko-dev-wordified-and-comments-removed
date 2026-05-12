@@ -3252,6 +3252,10 @@ AnimationPlayState
 "
                 
 "
+AspectRatio
+"
+                
+"
 BaselineSource
 "
                 
@@ -3287,6 +3291,10 @@ Clear
 "
                 
 "
+ColumnCount
+"
+                
+"
 Contain
 "
                 
@@ -3319,6 +3327,18 @@ FontLanguageOverride
 "
                 
 "
+FontSizeAdjust
+"
+                
+"
+FontStretch
+"
+                
+"
+FontStyle
+"
+                
+"
 FontSynthesis
 "
                 
@@ -3339,6 +3359,14 @@ FontVariantNumeric
 "
                 
 "
+FontWeight
+"
+                
+"
+GreaterThanOrEqualToOneNumber
+"
+                
+"
 GridAutoFlow
 "
                 
@@ -3348,6 +3376,14 @@ ImageRendering
                 
 "
 Inert
+"
+                
+"
+InitialLetter
+"
+                
+"
+Integer
 "
                 
 "
@@ -3383,6 +3419,10 @@ LineBreak
 "
                 
 "
+LineClamp
+"
+                
+"
 MasonryAutoFlow
 "
                 
@@ -3402,6 +3442,10 @@ MozControlCharacterVisibility
 "
                 
 "
+MathDepth
+"
+                
+"
 MozScriptMinSize
 "
                 
@@ -3415,6 +3459,18 @@ TransformBox
                 
 "
 TextDecorationSkipInk
+"
+                
+"
+NonNegativeNumber
+"
+                
+"
+OffsetRotate
+"
+                
+"
+Opacity
 "
                 
 "
@@ -3439,6 +3495,10 @@ OverscrollBehavior
                 
 "
 PageOrientation
+"
+                
+"
+Percentage
 "
                 
 "
@@ -3467,6 +3527,10 @@ Resize
                 
 "
 RubyPosition
+"
+                
+"
+SVGOpacity
 "
                 
 "
@@ -3571,6 +3635,14 @@ XSpan
                 
 "
 XTextScale
+"
+                
+"
+ZIndex
+"
+                
+"
+Zoom
 "
             
 }
@@ -4455,9 +4527,6 @@ __init__
 self
 name
 type
-parser
-=
-None
 gecko_pref
 =
 None
@@ -4478,12 +4547,6 @@ self
 type
 =
 type
-        
-self
-.
-parser
-=
-parser
         
 self
 .

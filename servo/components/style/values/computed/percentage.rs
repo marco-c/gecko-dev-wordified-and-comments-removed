@@ -249,17 +249,11 @@ self
 )
 -
 >
-Option
-<
 CSSFloat
->
 {
-Some
-(
 self
 .
 0
-)
 }
 }
 impl
