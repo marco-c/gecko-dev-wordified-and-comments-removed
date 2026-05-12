@@ -3259,6 +3259,9 @@ FormAutofillML
 .
 detectFields
 (
+topBC
+.
+topChromeWindow
 fieldDetails
 )
 ;
