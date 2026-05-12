@@ -1814,6 +1814,15 @@ onMarketingDataContinueClicked
 allowMarketingDataCollection
 )
 }
+onMarketingDataSkipClick
+=
+{
+telemetryRecorder
+.
+onMarketingDataSkipClicked
+(
+)
+}
 currentIndex
 =
 {
