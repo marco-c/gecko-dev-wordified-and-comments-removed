@@ -718,9 +718,6 @@ name
 features
 =
 None
-output_category
-=
-None
 )
 :
 "
@@ -749,12 +746,6 @@ features
 RUST_PROGRAM_FEATURES
 =
 features
-if
-output_category
-:
-RUST_PROGRAM_OUTPUT_CATEGORY
-=
-output_category
 template
 def
 SharedLibrary
@@ -1069,9 +1060,6 @@ name
 features
 =
 None
-output_category
-=
-None
 )
 :
 "
@@ -1101,12 +1089,6 @@ features
 HOST_RUST_PROGRAM_FEATURES
 =
 features
-if
-output_category
-:
-HOST_RUST_PROGRAM_OUTPUT_CATEGORY
-=
-output_category
 template
 def
 DisableStlWrapping
