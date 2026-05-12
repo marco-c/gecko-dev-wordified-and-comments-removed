@@ -923,7 +923,7 @@ await
 openPreferencesViaOpenPreferencesAPI
 (
 "
-panePrivacy
+panePasswordsAutofill
 "
 {
 leaveOpen
@@ -938,10 +938,12 @@ prefs
 .
 selectedPane
 "
-panePrivacy
+panePasswordsAutofill
 "
 "
-Privacy
+Passwords
+and
+Autofill
 pane
 was
 selected

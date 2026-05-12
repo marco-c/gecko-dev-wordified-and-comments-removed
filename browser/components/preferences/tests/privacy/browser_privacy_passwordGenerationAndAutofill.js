@@ -1296,7 +1296,7 @@ about
 :
 preferences
 #
-privacy
+passwordsAutofill
 "
 }
 async
@@ -1648,7 +1648,7 @@ about
 :
 preferences
 #
-privacy
+passwordsAutofill
 "
 }
 async
@@ -1893,7 +1893,7 @@ about
 :
 preferences
 #
-privacy
+passwordsAutofill
 "
 }
 async
