@@ -97,6 +97,9 @@ suspend
 fun
 report
 (
+tag
+:
+String
 throwable
 :
 Throwable

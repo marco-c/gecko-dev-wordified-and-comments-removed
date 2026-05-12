@@ -409,11 +409,15 @@ errorReporter
 =
 ErrorReporter
 {
+_
+exception
+-
+>
 reportedErrors
 .
 add
 (
-it
+exception
 )
 }
 private
@@ -422,6 +426,10 @@ noopReporter
 =
 ErrorReporter
 {
+_
+_
+-
+>
 }
 private
 val

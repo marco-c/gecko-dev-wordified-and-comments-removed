@@ -204,6 +204,13 @@ lib
 state
 .
 Store
+const
+val
+TAG
+=
+"
+SummarizationMiddleware
+"
 /
 *
 *
@@ -405,6 +412,7 @@ errorReporter
 .
 report
 (
+TAG
 action
 .
 throwable
