@@ -361,13 +361,6 @@ defined
 (
 _WIN32
 )
-&
-&
-!
-defined
-(
-__MINGW32__
-)
 #
 define
 ABSL_THREAD_IDENTITY_MODE

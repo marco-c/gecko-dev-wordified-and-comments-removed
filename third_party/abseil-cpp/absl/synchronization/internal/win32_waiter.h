@@ -24,13 +24,6 @@ _WIN32
 )
 &
 &
-!
-defined
-(
-__MINGW32__
-)
-&
-&
 \
 _WIN32_WINNT
 >

@@ -18,12 +18,6 @@ defined
 (
 _WIN32
 )
-|
-|
-defined
-(
-__MINGW32__
-)
 #
 include
 <
@@ -287,12 +281,6 @@ __wasi__
 defined
 (
 __EMSCRIPTEN__
-)
-|
-|
-defined
-(
-__MINGW32__
 )
 |
 |
