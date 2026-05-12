@@ -2149,6 +2149,14 @@ nsIContentHandle
 element
 )
 ;
+void
+optionElementPopped
+(
+nsIContentHandle
+*
+option
+)
+;
 bool
 hasChildren
 (
