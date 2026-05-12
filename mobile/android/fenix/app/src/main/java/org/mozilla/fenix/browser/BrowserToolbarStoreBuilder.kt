@@ -741,6 +741,11 @@ browserScreenStore
 browserStore
 =
 browserStore
+ipProtectionStore
+=
+components
+.
+ipProtectionStore
 permissionsStorage
 =
 components
@@ -895,6 +900,11 @@ browserStore
 appStore
 =
 appStore
+ipProtectionStore
+=
+components
+.
+ipProtectionStore
 permissionsStorage
 =
 components
