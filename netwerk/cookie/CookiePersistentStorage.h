@@ -573,7 +573,11 @@ mozIStorageAsyncStatement
 >
 mStmtUpdate
 ;
+Atomic
+<
 CorruptFlag
+Relaxed
+>
 mCorruptFlag
 ;
 nsCOMPtr
