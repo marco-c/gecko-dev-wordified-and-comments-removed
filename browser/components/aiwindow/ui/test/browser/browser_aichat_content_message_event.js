@@ -1626,6 +1626,13 @@ Hello
 }
 )
 ;
+actor
+.
+setGeneratingOnChatContent
+(
+true
+)
+;
 await
 SpecialPowers
 .
@@ -1753,6 +1760,13 @@ body
 "
 }
 }
+)
+;
+actor
+.
+setGeneratingOnChatContent
+(
+false
 )
 ;
 await
