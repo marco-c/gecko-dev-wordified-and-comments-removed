@@ -331,7 +331,7 @@ pbm
 -
 toolbar
 -
-button
+button2
 "
 type
 :
