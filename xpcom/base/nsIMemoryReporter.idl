@@ -3425,8 +3425,10 @@ nsresult
 )
 RegisterStrongMemoryReporter
 (
+already_AddRefed
+<
 nsIMemoryReporter
-*
+>
 aReporter
 )
 ;

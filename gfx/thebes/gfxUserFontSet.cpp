@@ -6493,8 +6493,10 @@ false
 }
 RegisterStrongMemoryReporter
 (
-new
+MakeAndAddRef
+<
 MemoryReporter
+>
 (
 )
 )

@@ -874,8 +874,10 @@ gPlatformFTLibrary
 ;
 RegisterStrongMemoryReporter
 (
-new
+MakeAndAddRef
+<
 FreetypeReporter
+>
 (
 )
 )

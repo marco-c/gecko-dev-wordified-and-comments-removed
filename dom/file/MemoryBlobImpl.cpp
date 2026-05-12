@@ -877,8 +877,10 @@ return
 }
 RegisterStrongMemoryReporter
 (
-new
+MakeAndAddRef
+<
 MemoryBlobImplDataOwnerMemoryReporter
+>
 (
 )
 )

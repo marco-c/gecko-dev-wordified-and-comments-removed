@@ -9888,8 +9888,10 @@ true
 ;
 RegisterStrongMemoryReporter
 (
-new
+MakeAndAddRef
+<
 Canvas2dPixelsReporter
+>
 (
 )
 )
