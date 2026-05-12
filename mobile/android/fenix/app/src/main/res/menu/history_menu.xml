@@ -161,7 +161,7 @@ iconTint
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 app
 :
@@ -210,7 +210,7 @@ iconTint
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 app
 :

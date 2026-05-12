@@ -235,7 +235,7 @@ tint
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 app
 :
@@ -613,7 +613,7 @@ tint
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 /
 >

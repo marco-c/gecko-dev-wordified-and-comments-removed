@@ -152,7 +152,7 @@ iconTint
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 android
 :

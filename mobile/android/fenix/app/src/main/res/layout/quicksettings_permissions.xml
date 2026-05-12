@@ -272,7 +272,7 @@ textColor
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 tools
 :
@@ -463,7 +463,7 @@ textColor
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 tools
 :
@@ -656,7 +656,7 @@ textColor
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 tools
 :
@@ -849,7 +849,7 @@ textColor
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 tools
 :
@@ -1042,7 +1042,7 @@ textColor
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 tools
 :
@@ -1235,7 +1235,7 @@ textColor
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 tools
 :
@@ -1428,7 +1428,7 @@ textColor
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 tools
 :
@@ -1621,7 +1621,7 @@ textColor
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 tools
 :
@@ -1814,7 +1814,7 @@ textColor
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 tools
 :
@@ -2007,7 +2007,7 @@ textColor
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 tools
 :
@@ -2088,7 +2088,9 @@ backgroundTint
 =
 "
 ?
-textPrimary
+attr
+/
+colorOnSurface
 "
 app
 :

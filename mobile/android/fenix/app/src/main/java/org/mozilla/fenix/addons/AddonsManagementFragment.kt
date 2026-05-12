@@ -919,11 +919,11 @@ ThemeManager
 .
 resolveAttribute
 (
-R
+materialR
 .
 attr
 .
-textPrimary
+colorOnSurface
 context
 )
 addonNameTextColor
@@ -932,11 +932,11 @@ ThemeManager
 .
 resolveAttribute
 (
-R
+materialR
 .
 attr
 .
-textPrimary
+colorOnSurface
 context
 )
 addonSummaryTextColor

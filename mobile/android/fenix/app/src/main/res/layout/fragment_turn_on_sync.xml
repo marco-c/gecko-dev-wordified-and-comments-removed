@@ -263,7 +263,7 @@ textColor
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 android
 :
@@ -447,7 +447,7 @@ textColor
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 android
 :

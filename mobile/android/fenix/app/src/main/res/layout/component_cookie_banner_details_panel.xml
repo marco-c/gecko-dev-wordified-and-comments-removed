@@ -257,7 +257,7 @@ tint
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 /
 >
@@ -323,7 +323,7 @@ textColor
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 android
 :

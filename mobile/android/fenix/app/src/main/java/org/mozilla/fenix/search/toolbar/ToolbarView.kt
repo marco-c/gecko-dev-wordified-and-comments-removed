@@ -654,11 +654,11 @@ context
 .
 getColorFromAttr
 (
-R
+materialR
 .
 attr
 .
-textPrimary
+colorOnSurface
 )
 hint
 =
@@ -691,11 +691,11 @@ context
 .
 getColorFromAttr
 (
-R
+materialR
 .
 attr
 .
-textPrimary
+colorOnSurface
 )
 )
 edit

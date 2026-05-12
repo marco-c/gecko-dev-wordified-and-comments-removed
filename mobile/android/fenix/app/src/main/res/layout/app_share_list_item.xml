@@ -336,7 +336,7 @@ textColor
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 android
 :

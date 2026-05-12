@@ -304,7 +304,7 @@ tint
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 /
 >
@@ -365,7 +365,7 @@ textColor
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 app
 :
@@ -454,7 +454,7 @@ textColor
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 android
 :
@@ -1591,7 +1591,7 @@ drawableTint
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 app
 :
@@ -1709,7 +1709,7 @@ tint
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 android
 :
@@ -1828,7 +1828,7 @@ textColor
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 app
 :

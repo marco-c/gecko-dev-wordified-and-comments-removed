@@ -195,7 +195,7 @@ findInPageButtonsTint
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 app
 :
@@ -215,7 +215,7 @@ findInPageResultCountTextColor
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 /
 >

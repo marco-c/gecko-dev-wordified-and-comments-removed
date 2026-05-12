@@ -6071,11 +6071,11 @@ resolveAttributeColor
 (
 attribute
 =
-R
+materialR
 .
 attr
 .
-textPrimary
+colorOnSurface
 )
 description
 =

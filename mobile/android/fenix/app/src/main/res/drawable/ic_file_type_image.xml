@@ -121,7 +121,7 @@ fillColor
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 android
 :
@@ -271,7 +271,7 @@ fillColor
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 android
 :
@@ -327,7 +327,7 @@ fillColor
 ?
 attr
 /
-textPrimary
+colorOnSurface
 "
 android
 :
