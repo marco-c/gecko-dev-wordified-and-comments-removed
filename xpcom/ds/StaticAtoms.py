@@ -5582,16 +5582,6 @@ hidetitlebarseparator
 Atom
 (
 "
-hidepopovertail
-"
-"
-hidepopovertail
-"
-)
-    
-Atom
-(
-"
 hide_popover
 "
 "
