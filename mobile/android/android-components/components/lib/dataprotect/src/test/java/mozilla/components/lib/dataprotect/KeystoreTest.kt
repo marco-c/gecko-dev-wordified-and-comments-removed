@@ -336,6 +336,8 @@ labels
 "
 true
 wrapper
+=
+wrapper
 )
 Assert
 .
@@ -397,6 +399,8 @@ encrypt
 ciphers
 "
 true
+wrapper
+=
 wrapper
 )
 Assert
@@ -519,6 +523,8 @@ decrypt
 ciphers
 "
 true
+wrapper
+=
 wrapper
 )
 val
@@ -657,6 +663,8 @@ auto
 init
 "
 false
+wrapper
+=
 wrapper
 )
 Assert

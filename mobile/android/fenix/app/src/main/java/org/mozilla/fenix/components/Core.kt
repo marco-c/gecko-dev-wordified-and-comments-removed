@@ -4757,6 +4757,9 @@ Config
 channel
 .
 isNightlyOrDebug
+crashReporting
+=
+crashReporter
 )
 /
 /

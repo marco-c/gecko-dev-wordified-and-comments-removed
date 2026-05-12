@@ -1372,6 +1372,9 @@ SecureAbove22Preferences
 (
 context
 STORAGE_NAME
+crashReporting
+=
+crashReporter
 )
 /
 /
