@@ -735,7 +735,7 @@ render
 the
 view
 -
-schedule
+matches
 button
 "
 (
@@ -799,7 +799,7 @@ widget
 -
 view
 -
-schedule
+matches
 '
 ]
 "
@@ -877,7 +877,7 @@ sports
 -
 view
 -
-schedule
+matches
 "
 )
 .
@@ -1006,7 +1006,7 @@ sports
 -
 view
 -
-schedule
+matches
 "
 )
 .
@@ -2562,7 +2562,7 @@ telemetry
 when
 view
 -
-schedule
+matches
 is
 clicked
 "
@@ -2605,7 +2605,7 @@ widget
 -
 view
 -
-schedule
+matches
 '
 ]
 "
