@@ -609,6 +609,14 @@ settings_app_icon
 GlobalDirections
 .
 SettingsAppIcon
+"
+settings_ai_controls
+"
+-
+>
+GlobalDirections
+.
+SettingsAIControls
 else
 -
 >
