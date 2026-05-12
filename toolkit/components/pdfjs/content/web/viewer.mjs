@@ -172,11 +172,11 @@ pdfjsVersion
 .
 0
 .
-28
+40
 *
 pdfjsBuild
 =
-cd1b5f57c
+a5e9940d1
 *
 /
 /
@@ -56998,7 +56998,7 @@ eventBus
 _on
 (
 "
-thumbnailsloaded
+pagesloaded
 "
 (
 )
@@ -57109,6 +57109,7 @@ updateCurrentPage
 currentPageIndex
 +
 2
+true
 )
 ;
 }
@@ -81028,7 +81029,7 @@ viewerVersion
 .
 0
 .
-28
+40
 "
 ;
 if
@@ -110065,6 +110066,13 @@ viewOnLoad
 ViewOnLoad
 .
 INITIAL
+|
+|
+!
+!
+this
+.
+_mergedDocumentNeedsSaving
 updateUrl
 :
 AppOptions
