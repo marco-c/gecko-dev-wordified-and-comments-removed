@@ -6826,7 +6826,10 @@ imgMemoryReporter
 ;
 RegisterStrongAsyncMemoryReporter
 (
+do_AddRef
+(
 sMemReporter
+)
 )
 ;
 RegisterImagesContentUsedUncompressedDistinguishedAmount

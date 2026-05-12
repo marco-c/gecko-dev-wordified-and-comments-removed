@@ -12973,8 +12973,10 @@ reporter
 nsresult
 RegisterStrongAsyncMemoryReporter
 (
+already_AddRefed
+<
 nsIMemoryReporter
-*
+>
 aReporter
 )
 {
