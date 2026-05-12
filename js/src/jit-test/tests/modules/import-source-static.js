@@ -35,3 +35,16 @@ AbstractModuleSource
 true
 )
 ;
+assertEq
+(
+Object
+.
+getPrototypeOf
+(
+mod
+)
+AbstractModuleSource
+.
+prototype
+)
+;
