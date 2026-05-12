@@ -453,11 +453,6 @@ friend
 class
 ObserverListPtr
 ;
-void
-makeEmpty
-(
-)
-;
 public
 :
 class
@@ -538,15 +533,6 @@ insertFront
 ObserverListObject
 *
 obj
-)
-;
-void
-append
-(
-ObserverList
-&
-&
-other
 )
 ;
 }
