@@ -1854,6 +1854,16 @@ home
 *
 "
 ]
+remoteTypes
+:
+[
+"
+parent
+"
+"
+privilegedabout
+"
+]
 }
 BlockedSite
 :
