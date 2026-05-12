@@ -231,10 +231,6 @@ core
 :
 :
 {
-cell
-:
-:
-Cell
 fmt
 ops
 :
@@ -1419,12 +1415,6 @@ BufferAddress
 map_flags
 :
 u32
-mapped
-:
-Cell
-<
-bool
->
 data
 :
 Option

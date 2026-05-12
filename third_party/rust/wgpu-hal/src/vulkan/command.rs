@@ -5322,6 +5322,7 @@ let
 sets
 =
 [
+*
 group
 .
 set
