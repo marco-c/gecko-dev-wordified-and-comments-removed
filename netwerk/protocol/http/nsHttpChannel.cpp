@@ -36246,12 +36246,6 @@ false
 ;
 if
 (
-!
-LoadAuthRedirectedChannel
-(
-)
-&
-&
 NS_ShouldClassifyChannel
 (
 this
@@ -38646,12 +38640,6 @@ mStatus
 bool
 shouldBeClassifiedForTracker
 =
-!
-LoadAuthRedirectedChannel
-(
-)
-&
-&
 NS_ShouldClassifyChannel
 (
 this
