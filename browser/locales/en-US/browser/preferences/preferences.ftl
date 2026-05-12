@@ -1524,7 +1524,7 @@ results
 header
 =
 Search
-results
+Results
 #
 <
 span
