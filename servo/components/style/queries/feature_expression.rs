@@ -3952,6 +3952,7 @@ QueryExpressionValue
 :
 Percentage
 (
+ref
 v
 )
 =

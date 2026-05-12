@@ -3319,10 +3319,6 @@ FontLanguageOverride
 "
                 
 "
-FontStretch
-"
-                
-"
 FontStyle
 "
                 
@@ -3451,10 +3447,6 @@ OverscrollBehavior
                 
 "
 PageOrientation
-"
-                
-"
-Percentage
 "
                 
 "
