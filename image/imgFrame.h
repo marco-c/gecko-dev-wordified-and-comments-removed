@@ -645,8 +645,10 @@ UNKNOWN
 }
 SurfaceWithFormat
 (
+already_AddRefed
+<
 gfxDrawable
-*
+>
 aDrawable
 SurfaceFormat
 aFormat
