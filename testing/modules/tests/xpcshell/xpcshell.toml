@@ -33,3 +33,10 @@ test_structuredlog_markers
 js
 "
 ]
+[
+"
+test_xpcshellContentUtils_registerAboutPage
+.
+js
+"
+]
