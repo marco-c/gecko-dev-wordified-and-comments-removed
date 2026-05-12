@@ -444,6 +444,9 @@ BufferAddress
 aSize
 uint32_t
 aUsage
+mozilla
+:
+:
 ipc
 :
 :
@@ -527,6 +530,9 @@ std
 :
 shared_ptr
 <
+mozilla
+:
+:
 ipc
 :
 :

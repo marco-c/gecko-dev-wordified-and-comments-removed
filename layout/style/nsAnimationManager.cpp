@@ -531,6 +531,9 @@ void
 NotifyNewOrRemovedAnimation
 (
 const
+dom
+:
+:
 Animation
 &
 aAnimation

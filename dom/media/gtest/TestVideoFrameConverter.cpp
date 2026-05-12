@@ -1108,6 +1108,9 @@ aHeight
 )
 )
 ;
+mozilla
+:
+:
 VideoFrame
 f
 (
@@ -3643,6 +3646,9 @@ nullChunk
 .
 mFrame
 =
+mozilla
+:
+:
 VideoFrame
 (
 nullptr

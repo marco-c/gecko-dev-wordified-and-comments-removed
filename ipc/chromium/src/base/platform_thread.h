@@ -144,6 +144,8 @@ PlatformThread
 public
 :
 static
+:
+:
 PlatformThreadId
 CurrentId
 (

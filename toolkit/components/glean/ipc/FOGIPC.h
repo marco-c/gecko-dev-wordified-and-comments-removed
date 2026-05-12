@@ -52,6 +52,9 @@ function
 <
 void
 (
+mozilla
+:
+:
 ipc
 :
 :
@@ -77,6 +80,9 @@ void
 (
 nsTArray
 <
+mozilla
+:
+:
 ipc
 :
 :
@@ -94,6 +100,9 @@ aResolver
 void
 FOGData
 (
+mozilla
+:
+:
 ipc
 :
 :
@@ -106,6 +115,9 @@ buf
 void
 SendFOGData
 (
+mozilla
+:
+:
 ipc
 :
 :
