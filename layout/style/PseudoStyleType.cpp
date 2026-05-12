@@ -124,6 +124,9 @@ const
 nsAString
 &
 aPseudoElement
+URLExtraData
+*
+aURLExtraData
 bool
 aIgnoreEnabledState
 )
@@ -160,6 +163,7 @@ Servo_ParsePseudoElement
 (
 &
 aPseudoElement
+aURLExtraData
 aIgnoreEnabledState
 &
 result
