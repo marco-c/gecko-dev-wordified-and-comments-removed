@@ -2428,7 +2428,7 @@ ImageBorderTemplate
 >
 (
 )
-96
+104
 "
 ImageBorderTemplate
 size
