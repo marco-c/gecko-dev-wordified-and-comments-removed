@@ -1755,12 +1755,6 @@ MoveToAttributePosition
 (
 )
 ;
-bool
-ShouldFollowAnchor
-(
-)
-const
-;
 nsIFrame
 *
 GetAnchorFrame
@@ -1772,6 +1766,12 @@ public
 :
 bool
 IsDirectionRTL
+(
+)
+const
+;
+bool
+ShouldFollowAnchor
 (
 )
 const
