@@ -68,13 +68,7 @@ PREF_WIDGETS_ORDER
 }
 from
 "
-content
--
-src
-/
-components
-/
-Widgets
+common
 /
 WidgetsRegistry
 .

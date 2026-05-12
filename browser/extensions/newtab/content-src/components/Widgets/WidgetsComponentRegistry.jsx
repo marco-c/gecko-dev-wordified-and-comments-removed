@@ -148,7 +148,7 @@ resolveWidgetSize
 }
 from
 "
-.
+common
 /
 WidgetsRegistry
 .
