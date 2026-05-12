@@ -472,7 +472,13 @@ js
 :
 [
 "
-predefine_OnetrustActiveGroups
+bug1831007
+-
+nintendo
+-
+window
+-
+OnetrustActiveGroups
 .
 js
 "

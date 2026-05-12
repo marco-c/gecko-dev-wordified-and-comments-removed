@@ -85,7 +85,13 @@ js
 :
 [
 "
-undefine_InstallTrigger
+bug1859617
+-
+installtrigger
+-
+removal
+-
+shim
 .
 js
 "

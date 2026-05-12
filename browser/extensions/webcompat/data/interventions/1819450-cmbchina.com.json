@@ -89,7 +89,15 @@ js
 :
 [
 "
-add_samsung_to_useragent
+bug1819450
+-
+cmbchina
+.
+com
+-
+ua
+-
+change
 .
 js
 "

@@ -69,7 +69,7 @@ await_alert
 UNSUPPORTED_ALERT
 timeout
 =
-90
+60
 )
     
 assert
@@ -83,7 +83,7 @@ is_displayed
 True
 timeout
 =
-90
+60
 )
     
 warningFound

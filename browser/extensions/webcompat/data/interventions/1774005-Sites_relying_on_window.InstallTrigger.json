@@ -159,7 +159,11 @@ js
 :
 [
 "
-define_InstallTrigger
+bug1774005
+-
+installtrigger
+-
+shim
 .
 js
 "

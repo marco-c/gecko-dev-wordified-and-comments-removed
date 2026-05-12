@@ -174,6 +174,7 @@ innerText
 includes
 (
 '
+Login
 with
 Email
 '

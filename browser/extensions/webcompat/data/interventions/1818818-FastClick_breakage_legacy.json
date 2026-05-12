@@ -150,7 +150,13 @@ js
 :
 [
 "
-disable_legacy_FastClick
+bug1818818
+-
+fastclick
+-
+legacy
+-
+shim
 .
 js
 "

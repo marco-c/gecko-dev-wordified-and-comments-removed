@@ -82,7 +82,15 @@ js
 :
 [
 "
-define_userAgentData
+bug1898952
+-
+digits
+.
+t
+-
+mobile
+.
+com
 .
 js
 "

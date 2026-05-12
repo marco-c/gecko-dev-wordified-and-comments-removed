@@ -78,7 +78,15 @@ js
 :
 [
 "
-clear_navigator_plugins
+bug1769762
+-
+tiktok
+.
+com
+-
+plugins
+-
+shim
 .
 js
 "
