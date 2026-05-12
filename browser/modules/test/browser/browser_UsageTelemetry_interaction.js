@@ -75,6 +75,9 @@ preferencesPaneAbout
 preferencesPaneAccessibility
 "
 "
+preferencesPaneDownloads
+"
+"
 preferencesPaneAppearance
 "
 "
