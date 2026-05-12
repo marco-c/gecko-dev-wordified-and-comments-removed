@@ -3419,10 +3419,7 @@ to
 this
 reporter
 .
-XPCOM_API
-(
 nsresult
-)
 RegisterStrongMemoryReporter
 (
 already_AddRefed
@@ -3432,10 +3429,7 @@ nsIMemoryReporter
 aReporter
 )
 ;
-XPCOM_API
-(
 nsresult
-)
 RegisterStrongAsyncMemoryReporter
 (
 already_AddRefed
@@ -3496,10 +3490,7 @@ strong
 memory
 reporter
 .
-XPCOM_API
-(
 nsresult
-)
 UnregisterStrongMemoryReporter
 (
 nsIMemoryReporter
