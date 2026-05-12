@@ -536,8 +536,6 @@ launchSandboxCustomTab
 requireActivity
 (
 )
-.
-applicationContext
 SupportUtils
 .
 getSumoURLForTopic
@@ -545,8 +543,6 @@ getSumoURLForTopic
 requireActivity
 (
 )
-.
-applicationContext
 SupportUtils
 .
 SumoTopic
