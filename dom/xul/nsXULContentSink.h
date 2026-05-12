@@ -275,16 +275,11 @@ uint32_t
 aLineNumber
 )
 ;
-static
 bool
 IsDataInBuffer
 (
-char16_t
-*
-aBuffer
-int32_t
-aLength
 )
+const
 ;
 nsresult
 FlushText

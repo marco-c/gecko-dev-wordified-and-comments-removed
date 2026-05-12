@@ -929,12 +929,8 @@ XULContentSinkImpl
 :
 IsDataInBuffer
 (
-char16_t
-*
-buffer
-int32_t
-length
 )
+const
 {
 for
 (
@@ -945,7 +941,7 @@ i
 ;
 i
 <
-length
+mTextLength
 ;
 +
 +
@@ -954,7 +950,7 @@ i
 {
 if
 (
-buffer
+mText
 [
 i
 ]
@@ -964,7 +960,7 @@ i
 '
 |
 |
-buffer
+mText
 [
 i
 ]
@@ -976,7 +972,7 @@ t
 '
 |
 |
-buffer
+mText
 [
 i
 ]
@@ -988,7 +984,7 @@ n
 '
 |
 |
-buffer
+mText
 [
 i
 ]
@@ -1154,8 +1150,6 @@ stripWhitespace
 !
 IsDataInBuffer
 (
-mText
-mTextLength
 )
 )
 break
