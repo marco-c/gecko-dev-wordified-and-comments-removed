@@ -20,7 +20,7 @@ specified
 {
 NoCalcLength
 NoCalcNumber
-Percentage
+NoCalcPercentage
 Time
 }
 ;
@@ -78,7 +78,7 @@ NoCalcNumber
 )
 Percentage
 (
-Percentage
+NoCalcPercentage
 )
 }
 impl
@@ -558,7 +558,7 @@ NoCalcNumeric
 :
 Percentage
 (
-Percentage
+NoCalcPercentage
 :
 :
 new
