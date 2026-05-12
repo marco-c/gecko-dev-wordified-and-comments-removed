@@ -27,6 +27,13 @@ true
 ]
 [
 "
+browser_testFeatureDisabled
+.
+js
+"
+]
+[
+"
 browser_testServerErrors
 .
 js
