@@ -6880,6 +6880,14 @@ shouldRestartTransactionForHTTPSRR
 echConfigUsed
 &
 &
+!
+(
+mCaps
+&
+NS_HTTP_DISALLOW_HTTP3
+)
+&
+&
 ShouldRestartOnResumptionError
 (
 reason
