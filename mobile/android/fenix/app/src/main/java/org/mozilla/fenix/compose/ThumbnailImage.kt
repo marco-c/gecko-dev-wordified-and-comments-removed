@@ -805,6 +805,9 @@ var
 state
 by
 remember
+(
+request
+)
 {
 mutableStateOf
 (
@@ -831,7 +834,7 @@ core
 thumbnailStorage
 DisposableEffect
 (
-Unit
+request
 )
 {
 if
