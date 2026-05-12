@@ -2079,9 +2079,6 @@ url
 }
 )
 ;
-let
-guid
-;
 if
 (
 bm
@@ -2098,8 +2095,6 @@ promiseNodeLikeFromFetchInfo
 bm
 )
 ;
-guid
-=
 await
 PlacesUIUtils
 .
@@ -2119,7 +2114,6 @@ top
 )
 ;
 return
-guid
 ;
 }
 let
@@ -2141,8 +2135,6 @@ parentGuid
 }
 )
 ;
-guid
-=
 await
 PlacesUIUtils
 .
@@ -2186,9 +2178,6 @@ window
 .
 top
 )
-;
-return
-guid
 ;
 }
 async

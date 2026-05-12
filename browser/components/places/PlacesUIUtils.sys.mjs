@@ -5286,7 +5286,6 @@ window
 updateTelemetry
 (
 urlsToOpen
-true
 )
 ;
 }
