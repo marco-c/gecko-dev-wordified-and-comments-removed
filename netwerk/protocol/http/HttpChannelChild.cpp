@@ -16029,6 +16029,13 @@ mCanceled
 true
 ;
 }
+mEventQ
+-
+>
+DiscardQueuedEvents
+(
+)
+;
 }
 mozilla
 :
