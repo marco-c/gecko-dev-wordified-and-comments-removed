@@ -2929,17 +2929,13 @@ is_multiple_of
 u64
 :
 :
-try_from
+from
 (
 index_format
 .
 byte_size
 (
 )
-)
-.
-unwrap
-(
 )
 )
 {
@@ -2959,6 +2955,8 @@ index_format
 byte_size
 (
 )
+as
+usize
 }
 .
 into

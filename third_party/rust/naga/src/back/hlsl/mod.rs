@@ -2904,6 +2904,11 @@ SHADER_FLOAT16
 Caps
 :
 :
+SHADER_INT16
+|
+Caps
+:
+:
 TEXTURE_EXTERNAL
 |
 Caps

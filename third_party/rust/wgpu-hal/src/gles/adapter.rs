@@ -7781,6 +7781,12 @@ len
 (
 )
 ;
+if
+length
+!
+=
+0
+{
 let
 buffer_mapping
 =
@@ -7832,6 +7838,7 @@ target
 )
 }
 ;
+}
 }
 }
 }
