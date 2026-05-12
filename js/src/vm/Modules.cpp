@@ -6895,7 +6895,7 @@ ImportPhase
 Source
 )
 {
-ModuleSourceObject
+JSObject
 *
 moduleSourceObject
 =
@@ -13318,7 +13318,7 @@ ImportPhase
 Source
 )
 {
-ModuleSourceObject
+JSObject
 *
 moduleSource
 =

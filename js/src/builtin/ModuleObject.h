@@ -1879,11 +1879,7 @@ ENABLE_SOURCE_PHASE_IMPORTS
 void
 initModuleSourceSlot
 (
-Handle
-<
-ModuleSourceObject
-*
->
+HandleObject
 moduleSource
 )
 ;
@@ -2016,7 +2012,7 @@ namespace_
 #
 ifdef
 ENABLE_SOURCE_PHASE_IMPORTS
-ModuleSourceObject
+JSObject
 *
 moduleSource
 (

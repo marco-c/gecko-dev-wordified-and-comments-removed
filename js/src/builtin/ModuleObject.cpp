@@ -6325,7 +6325,7 @@ scriptSourceObject
 #
 ifdef
 ENABLE_SOURCE_PHASE_IMPORTS
-ModuleSourceObject
+JSObject
 *
 ModuleObject
 :
@@ -6361,13 +6361,6 @@ return
 value
 .
 toObject
-(
-)
-.
-as
-<
-ModuleSourceObject
->
 (
 )
 ;
@@ -6480,11 +6473,7 @@ ModuleObject
 :
 initModuleSourceSlot
 (
-Handle
-<
-ModuleSourceObject
-*
->
+HandleObject
 moduleSource
 )
 {
