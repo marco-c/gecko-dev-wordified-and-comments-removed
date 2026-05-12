@@ -350,6 +350,16 @@ mWasSkippedInPrevSample
 true
 ;
 }
+bool
+ValueNeedsReparsingEverySample
+(
+)
+const
+{
+return
+mValueNeedsReparsingEverySample
+;
+}
 class
 MOZ_STACK_CLASS
 Comparator
