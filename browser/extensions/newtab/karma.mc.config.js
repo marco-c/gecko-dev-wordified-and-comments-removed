@@ -1351,7 +1351,13 @@ branches
 0
 }
 "
-common
+content
+-
+src
+/
+components
+/
+Widgets
 /
 WidgetsRegistry
 .

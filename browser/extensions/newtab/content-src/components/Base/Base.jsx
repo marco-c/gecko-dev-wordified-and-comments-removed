@@ -449,7 +449,13 @@ resolveWidgetSize
 }
 from
 "
-common
+content
+-
+src
+/
+components
+/
+Widgets
 /
 WidgetsRegistry
 .

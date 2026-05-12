@@ -17,7 +17,13 @@ WIDGET_REGISTRY
 }
 from
 "
-common
+content
+-
+src
+/
+components
+/
+Widgets
 /
 WidgetsRegistry
 .
