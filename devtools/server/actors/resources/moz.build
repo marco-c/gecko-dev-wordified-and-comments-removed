@@ -220,6 +220,13 @@ events
 js
 "
 "
+session
+-
+history
+.
+js
+"
+"
 sources
 .
 js
