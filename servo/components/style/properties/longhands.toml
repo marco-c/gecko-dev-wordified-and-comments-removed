@@ -13329,7 +13329,7 @@ computed
 PositionAnchor
 :
 :
-none
+normal
 (
 )
 "
@@ -19931,11 +19931,6 @@ struct
 "
 inherited_text
 "
-engine
-=
-"
-gecko
-"
 spec
 =
 "
@@ -19962,7 +19957,7 @@ size
 -
 property
 "
-aliases
+extra_gecko_aliases
 =
 [
 "
