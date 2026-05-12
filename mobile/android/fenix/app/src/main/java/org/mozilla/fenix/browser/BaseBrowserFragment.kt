@@ -6085,11 +6085,11 @@ resolveAttributeColor
 (
 attribute
 =
-R
+materialR
 .
 attr
 .
-textSecondary
+colorOnSurfaceVariant
 )
 )
 }

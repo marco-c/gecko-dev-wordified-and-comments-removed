@@ -418,7 +418,7 @@ textColor
 ?
 attr
 /
-textSecondary
+colorOnSurfaceVariant
 "
 android
 :

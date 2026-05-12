@@ -666,11 +666,11 @@ context
 .
 getColorFromAttr
 (
-R
+materialR
 .
 attr
 .
-textSecondary
+colorOnSurfaceVariant
 )
 suggestionBackground
 =

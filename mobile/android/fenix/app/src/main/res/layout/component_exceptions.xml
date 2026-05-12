@@ -263,7 +263,7 @@ textColor
 ?
 attr
 /
-textSecondary
+colorOnSurfaceVariant
 "
 android
 :
@@ -355,7 +355,7 @@ textColor
 ?
 attr
 /
-textSecondary
+colorOnSurfaceVariant
 "
 android
 :

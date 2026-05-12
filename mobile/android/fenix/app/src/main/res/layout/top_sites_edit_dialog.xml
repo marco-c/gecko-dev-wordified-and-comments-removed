@@ -224,7 +224,7 @@ textColor
 ?
 attr
 /
-textSecondary
+colorOnSurfaceVariant
 "
 /
 >
@@ -397,7 +397,7 @@ textColor
 ?
 attr
 /
-textSecondary
+colorOnSurfaceVariant
 "
 /
 >

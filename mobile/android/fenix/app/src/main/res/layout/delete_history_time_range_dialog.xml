@@ -472,7 +472,7 @@ buttonTint
 ?
 attr
 /
-textSecondary
+colorOnSurfaceVariant
 "
 android
 :
@@ -576,7 +576,7 @@ buttonTint
 ?
 attr
 /
-textSecondary
+colorOnSurfaceVariant
 "
 android
 :
@@ -680,7 +680,7 @@ buttonTint
 ?
 attr
 /
-textSecondary
+colorOnSurfaceVariant
 "
 android
 :

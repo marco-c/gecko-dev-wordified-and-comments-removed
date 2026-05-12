@@ -332,7 +332,7 @@ textColor
 ?
 attr
 /
-textSecondary
+colorOnSurfaceVariant
 "
 android
 :
@@ -342,7 +342,7 @@ textColorLink
 ?
 attr
 /
-textSecondary
+colorOnSurfaceVariant
 "
 android
 :

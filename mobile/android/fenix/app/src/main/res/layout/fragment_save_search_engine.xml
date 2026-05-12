@@ -299,7 +299,7 @@ textColor
 ?
 attr
 /
-textSecondary
+colorOnSurfaceVariant
 "
 android
 :
@@ -511,7 +511,7 @@ textColor
 ?
 attr
 /
-textSecondary
+colorOnSurfaceVariant
 "
 android
 :
@@ -582,7 +582,7 @@ hintTextColor
 ?
 attr
 /
-textSecondary
+colorOnSurfaceVariant
 "
 android
 :
@@ -592,7 +592,7 @@ textColorHint
 ?
 attr
 /
-textSecondary
+colorOnSurfaceVariant
 "
 app
 :
@@ -931,7 +931,7 @@ textColor
 ?
 attr
 /
-textSecondary
+colorOnSurfaceVariant
 "
 android
 :
@@ -1002,7 +1002,7 @@ hintTextColor
 ?
 attr
 /
-textSecondary
+colorOnSurfaceVariant
 "
 android
 :
@@ -1012,7 +1012,7 @@ textColorHint
 ?
 attr
 /
-textSecondary
+colorOnSurfaceVariant
 "
 app
 :
