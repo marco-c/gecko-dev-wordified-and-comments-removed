@@ -700,6 +700,10 @@ paneAbout
 preferences
 -
 panePermissionsData
+*
+preferences
+-
+paneTabsBrowsing
 Widget
 Identifiers
 -

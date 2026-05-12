@@ -1167,6 +1167,9 @@ paneLanguages
 "
 panePermissionsData
 "
+"
+paneTabsBrowsing
+"
 ]
 ;
 const
