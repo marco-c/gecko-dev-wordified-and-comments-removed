@@ -6838,10 +6838,7 @@ if
 shouldRestartTransactionForHTTPSRR
 &
 &
-ShouldRestartOnResumptionError
-(
-reason
-)
+mResumptionAttempted
 )
 {
 shouldRestartTransactionForHTTPSRR
