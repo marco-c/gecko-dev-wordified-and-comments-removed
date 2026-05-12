@@ -103,11 +103,6 @@ TestCoord
 cpp
 "
 "
-TestCopyPlane
-.
-cpp
-"
-"
 TestFontFallback
 .
 cpp
