@@ -665,17 +665,3 @@ test_backupService_findBackupsInWellKnownLocations
 js
 "
 ]
-run
--
-if
-=
-[
-"
-os
-=
-=
-'
-win
-'
-"
-]
