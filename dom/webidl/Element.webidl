@@ -1267,6 +1267,9 @@ end
 "
 nearest
 "
+"
+auto
+"
 }
 ;
 dictionary
