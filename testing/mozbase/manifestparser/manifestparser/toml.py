@@ -11,12 +11,6 @@ List
 Optional
 Tuple
 from
-mozinfo
-.
-platforminfo
-import
-android_api_to_os_version
-from
 tomlkit
 .
 items
@@ -2537,6 +2531,13 @@ is
 not
 None
 :
+        
+from
+mozinfo
+.
+platforminfo
+import
+android_api_to_os_version
         
 v
 =
