@@ -422,6 +422,11 @@ TestOpusParser
 cpp
 "
 "
+TestRemoteImageHolder
+.
+cpp
+"
+"
 TestRust
 .
 cpp
