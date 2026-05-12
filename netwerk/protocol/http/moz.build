@@ -373,6 +373,11 @@ HttpInfo
 h
 "
 "
+HttpTrafficAnalyzer
+.
+h
+"
+"
 HttpTransactionChild
 .
 h
