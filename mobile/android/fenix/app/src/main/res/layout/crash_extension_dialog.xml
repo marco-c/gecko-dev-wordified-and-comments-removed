@@ -281,7 +281,9 @@ textColor
 =
 "
 ?
-textAccent
+attr
+/
+colorTertiary
 "
 /
 >
@@ -348,7 +350,9 @@ textColor
 =
 "
 ?
-textAccent
+attr
+/
+colorTertiary
 "
 /
 >

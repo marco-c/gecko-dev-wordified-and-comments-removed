@@ -865,7 +865,9 @@ textColor
 =
 "
 ?
-textAccent
+attr
+/
+colorTertiary
 "
 android
 :
@@ -1276,7 +1278,9 @@ textColor
 =
 "
 ?
-textAccent
+attr
+/
+colorTertiary
 "
 android
 :

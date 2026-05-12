@@ -2090,7 +2090,9 @@ textColor
 =
 "
 ?
-textAccent
+attr
+/
+colorTertiary
 "
 android
 :

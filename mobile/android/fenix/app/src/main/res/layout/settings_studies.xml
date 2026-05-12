@@ -315,7 +315,9 @@ textColorLink
 =
 "
 ?
-textAccent
+attr
+/
+colorTertiary
 "
 app
 :

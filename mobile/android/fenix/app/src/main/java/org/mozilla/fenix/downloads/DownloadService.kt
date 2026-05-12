@@ -259,7 +259,7 @@ R
 .
 color
 .
-fx_mobile_text_color_accent
+fx_mobile_tertiary
 )
 }
 override

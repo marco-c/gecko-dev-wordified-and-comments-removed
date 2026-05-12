@@ -685,9 +685,10 @@ android
 textColor
 =
 "
-color
+?
+attr
 /
-fx_mobile_text_color_accent
+colorTertiary
 "
 android
 :
@@ -820,9 +821,10 @@ android
 textColor
 =
 "
-color
+?
+attr
 /
-fx_mobile_text_color_accent
+colorTertiary
 "
 android
 :

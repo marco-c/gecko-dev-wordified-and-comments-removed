@@ -276,7 +276,9 @@ textColor
 =
 "
 ?
-textAccent
+attr
+/
+colorTertiary
 "
 /
 >
