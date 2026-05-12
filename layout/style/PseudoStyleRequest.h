@@ -40,9 +40,6 @@ namespace
 mozilla
 {
 struct
-URLExtraData
-;
-struct
 PseudoStyleRequest
 {
 PseudoStyleRequest
@@ -303,9 +300,6 @@ const
 nsAString
 &
 aPseudoElement
-URLExtraData
-*
-aURLExtraData
 bool
 aIgnoreEnabledState
 =
