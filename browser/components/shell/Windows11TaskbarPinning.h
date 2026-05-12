@@ -57,13 +57,14 @@ const
 nsAString
 &
 aAppUserModelId
+const
+bool
+aFireAndForget
 )
 ;
 Win11PinToTaskBarResult
 IsCurrentAppPinnedToTaskbarWin11
 (
-bool
-aCheckOnly
 )
 ;
 #

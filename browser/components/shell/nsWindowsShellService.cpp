@@ -8047,7 +8047,6 @@ pinWithWin11TaskbarAPIResults
 =
 IsCurrentAppPinnedToTaskbarWin11
 (
-false
 )
 ;
 switch
