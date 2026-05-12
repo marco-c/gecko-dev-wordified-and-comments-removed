@@ -168,11 +168,6 @@ null
 )
 transplantableObject
 (
-{
-proxy
-:
-true
-}
 )
 .
 object

@@ -42,7 +42,6 @@ this
 .
 transplantableObject
 (
-global1
 )
 ;
 global2

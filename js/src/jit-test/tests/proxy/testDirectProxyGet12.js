@@ -19,7 +19,6 @@ transplant
 =
 transplantableObject
 (
-options
 )
 ;
 let

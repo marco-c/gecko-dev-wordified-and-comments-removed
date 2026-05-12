@@ -32,11 +32,6 @@ transplant
 =
 transplantableObject
 (
-{
-proxy
-:
-true
-}
 )
 ;
 transplant
