@@ -408,7 +408,7 @@ gated
 -
 perms
 -
-serial
+webserial
 "
 }
 shortDescription

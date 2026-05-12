@@ -1643,7 +1643,7 @@ gated
 -
 perms
 -
-serial
+webserial
 =
 These
 are
@@ -1659,9 +1659,10 @@ that
 connect
 via
 USB
-or
 serial
 ports
+or
+Bluetooth
 .
 You
 will
