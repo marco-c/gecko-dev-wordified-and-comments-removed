@@ -154,7 +154,6 @@ mjs
 import
 {
 html
-ifDefined
 }
 from
 "
@@ -6147,7 +6146,6 @@ const
 {
 src
 alt
-className
 }
 =
 image
@@ -6246,14 +6244,6 @@ src
 =
 {
 src
-}
-class
-=
-{
-ifDefined
-(
-className
-)
 }
 data
 -
