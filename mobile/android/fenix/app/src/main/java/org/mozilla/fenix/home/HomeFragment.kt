@@ -7289,13 +7289,6 @@ appStore
 requireComponents
 .
 appStore
-browserStore
-=
-requireComponents
-.
-core
-.
-store
 settings
 =
 requireComponents
