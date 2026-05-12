@@ -123,6 +123,7 @@ EventTarget
 {
 [
 Throws
+UseCounter
 ]
 constructor
 (
