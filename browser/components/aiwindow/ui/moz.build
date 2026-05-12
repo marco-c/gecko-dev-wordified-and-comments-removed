@@ -269,6 +269,15 @@ sys
 .
 mjs
 "
+"
+modules
+/
+TabManagementService
+.
+sys
+.
+mjs
+"
 ]
 TESTING_JS_MODULES
 +

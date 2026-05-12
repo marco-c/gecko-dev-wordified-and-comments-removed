@@ -33,6 +33,13 @@ android
 ]
 [
 "
+test_ChatModelChoice
+.
+js
+"
+]
+[
+"
 test_ChatConversation
 .
 js
@@ -48,6 +55,13 @@ js
 [
 "
 test_ChatStore
+.
+js
+"
+]
+[
+"
+test_TabManagementService
 .
 js
 "
