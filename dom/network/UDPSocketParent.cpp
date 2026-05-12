@@ -1396,6 +1396,7 @@ NS_FAILED
 (
 ConnectInternal
 (
+aSocket
 aAddressInfo
 .
 addr
@@ -1536,6 +1537,13 @@ UDPSocketParent
 ConnectInternal
 (
 const
+nsCOMPtr
+<
+nsIUDPSocket
+>
+&
+aSocket
+const
 nsCString
 &
 aHost
@@ -1577,7 +1585,7 @@ aPort
 if
 (
 !
-mSocket
+aSocket
 )
 {
 return
@@ -1647,7 +1655,7 @@ prAddr
 ;
 rv
 =
-mSocket
+aSocket
 -
 >
 Connect

@@ -365,6 +365,13 @@ nsresult
 ConnectInternal
 (
 const
+nsCOMPtr
+<
+nsIUDPSocket
+>
+&
+aSocket
+const
 nsCString
 &
 aHost
