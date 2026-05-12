@@ -447,7 +447,10 @@ HpackStaticTableReporter
 ;
 RegisterStrongMemoryReporter
 (
+do_AddRef
+(
 gStaticReporter
+)
 )
 ;
 AddStaticElement
@@ -1499,7 +1502,10 @@ this
 ;
 RegisterStrongMemoryReporter
 (
+do_AddRef
+(
 mDynamicReporter
+)
 )
 ;
 }

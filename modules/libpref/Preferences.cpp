@@ -18515,8 +18515,10 @@ override
 return
 RegisterStrongMemoryReporter
 (
-new
+MakeAndAddRef
+<
 PreferenceServiceReporter
+>
 (
 )
 )

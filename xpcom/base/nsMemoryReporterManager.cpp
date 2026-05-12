@@ -12941,8 +12941,10 @@ NS_ERROR_FAILURE
 nsresult
 RegisterStrongMemoryReporter
 (
+already_AddRefed
+<
 nsIMemoryReporter
-*
+>
 aReporter
 )
 {
