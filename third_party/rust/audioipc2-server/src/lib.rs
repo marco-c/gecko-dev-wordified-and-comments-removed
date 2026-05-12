@@ -1149,7 +1149,7 @@ e
 =
 rpc_thread
 .
-bind_server
+bind_server_async
 (
 server
 server_pipe
