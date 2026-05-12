@@ -8359,6 +8359,19 @@ toolchain
 ]
 )
             
+if
+"
+profiler
+-
+node
+-
+tools
+"
+not
+in
+fetch_toolchains
+:
+                
 fetch_toolchains
 .
 append
