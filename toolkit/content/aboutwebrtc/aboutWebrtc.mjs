@@ -2120,8 +2120,6 @@ globalBrowser
 =
 window
 .
-documentGlobal
-.
 browsingContext
 .
 topChromeWindow
