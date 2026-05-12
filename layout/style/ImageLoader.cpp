@@ -283,8 +283,10 @@ GlobalRequestTable
 ;
 sImageObserver
 =
-new
+MakeRefPtr
+<
 GlobalImageObserver
+>
 (
 )
 ;
