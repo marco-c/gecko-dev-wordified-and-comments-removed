@@ -4590,8 +4590,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 nsUnsetAttrRunnable
+>
 (
 sibling
 -
@@ -4655,8 +4657,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 nsSetAttrRunnable
+>
 (
 sibling
 -

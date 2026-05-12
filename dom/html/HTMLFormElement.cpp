@@ -5995,8 +5995,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 RemoveElementRunnable
+>
 (
 this
 )

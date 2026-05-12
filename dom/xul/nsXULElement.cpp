@@ -3257,8 +3257,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 XULInContentErrorReporter
+>
 (
 doc
 )

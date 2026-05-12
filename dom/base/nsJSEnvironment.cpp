@@ -2246,8 +2246,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 ScriptErrorEvent
+>
 (
 win
 rootingCx

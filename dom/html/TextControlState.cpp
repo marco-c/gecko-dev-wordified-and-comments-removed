@@ -6267,8 +6267,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 PrepareEditorEvent
+>
 (
 *
 this

@@ -4926,8 +4926,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 nsDocElementCreatedNotificationRunner
+>
 (
 mDocument
 )

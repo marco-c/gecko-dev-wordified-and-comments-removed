@@ -2762,8 +2762,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 CompositionEventDispatcher
+>
 (
 this
 mNode

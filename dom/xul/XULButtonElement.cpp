@@ -452,8 +452,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 nsUnsetAttrRunnable
+>
 (
 this
 nsGkAtoms

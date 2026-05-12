@@ -14784,8 +14784,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 FocusInOutEvent
+>
 (
 aTarget
 aEventMessage
@@ -15139,8 +15141,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 FocusBlurEvent
+>
 (
 aTarget
 aEventMessage

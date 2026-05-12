@@ -3171,8 +3171,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 AsyncReset
+>
 (
 this
 scroll

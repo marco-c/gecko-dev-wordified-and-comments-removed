@@ -1969,8 +1969,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 SyncDisabledStateEvent
+>
 (
 this
 )

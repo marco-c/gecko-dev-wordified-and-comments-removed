@@ -865,8 +865,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 AsyncFrameInit
+>
 (
 this
 )
@@ -4657,8 +4659,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 nsHideViewer
+>
 (
 mContent
 frameloader
@@ -4879,8 +4883,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 AsyncFrameInit
+>
 (
 this
 )
