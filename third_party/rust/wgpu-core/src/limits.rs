@@ -1156,6 +1156,14 @@ union
 Features
 :
 :
+FLOAT32_BLENDABLE
+)
+.
+union
+(
+Features
+:
+:
 DUAL_SOURCE_BLENDING
 )
 .
@@ -1280,14 +1288,6 @@ union
 Features
 :
 :
-FLOAT32_BLENDABLE
-)
-.
-union
-(
-Features
-:
-:
 CLIP_DISTANCES
 )
 }
@@ -1331,7 +1331,7 @@ max_storage_buffers_per_shader_stage
 16
 max_vertex_attributes
 :
-32
+30
 .
 .
 UPLEVEL
@@ -1476,7 +1476,7 @@ max_storage_buffers_per_shader_stage
 16
 max_vertex_attributes
 :
-32
+30
 .
 .
 UPLEVEL
@@ -1547,7 +1547,7 @@ max_storage_buffers_per_shader_stage
 16
 max_vertex_attributes
 :
-32
+30
 .
 .
 UPLEVEL
@@ -1626,7 +1626,7 @@ max_storage_buffers_per_shader_stage
 16
 max_vertex_attributes
 :
-32
+30
 .
 .
 UPLEVEL
@@ -1754,7 +1754,7 @@ max_storage_buffers_per_shader_stage
 16
 max_vertex_attributes
 :
-32
+30
 .
 .
 UPLEVEL
