@@ -2362,6 +2362,7 @@ interface
 Element
 {
 [
+NewObject
 NeedsCallerType
 Pref
 =
@@ -2375,7 +2376,10 @@ lock
 enabled
 "
 ]
+Promise
+<
 undefined
+>
 requestPointerLock
 (
 )
