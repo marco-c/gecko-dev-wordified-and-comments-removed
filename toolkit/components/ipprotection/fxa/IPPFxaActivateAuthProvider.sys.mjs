@@ -423,7 +423,9 @@ return
 isEnrolledAndEntitled
 :
 true
-entitlement
+error
+:
+null
 }
 ;
 }
@@ -443,6 +445,9 @@ error
 ?
 .
 message
+?
+?
+null
 }
 ;
 }

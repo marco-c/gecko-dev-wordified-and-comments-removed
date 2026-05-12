@@ -1346,6 +1346,13 @@ IPProtection
 :
 Deactivate
 "
+"
+GeckoView
+:
+IPProtection
+:
+Enroll
+"
 ]
 }
 )

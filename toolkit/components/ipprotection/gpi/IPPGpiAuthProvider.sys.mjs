@@ -800,6 +800,15 @@ isEnrolledAndEntitled
 !
 !
 jwt
+error
+:
+jwt
+?
+null
+:
+"
+enrollment_failed
+"
 }
 ;
 }
