@@ -1917,11 +1917,12 @@ Init
 {
 sInstance
 =
-MakeRefPtr
-<
-nsXULPopupManager
->
+do_AddRef
 (
+new
+nsXULPopupManager
+(
+)
 )
 ;
 }
