@@ -15075,17 +15075,24 @@ resource_index
 -
 1
                 
+if
+is_js
+:
+                    
+resource_name
+=
+file_name
+                
+else
+:
+                    
 resource_name
 =
 module_name
 or
-(
-file_name
-if
-is_js
-else
-None
-)
+"
+unknown
+"
                 
 if
 resource_name
@@ -15180,17 +15187,11 @@ None
                         
 resource_type
 =
-1
-if
-module_name
-else
-(
 5
 if
 is_js
 else
-0
-)
+1
                         
 resourceTable
 [
