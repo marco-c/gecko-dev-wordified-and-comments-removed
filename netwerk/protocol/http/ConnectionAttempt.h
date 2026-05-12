@@ -82,10 +82,6 @@ virtual
 void
 Abandon
 (
-bool
-aReenqueueTransaction
-=
-false
 )
 =
 0
@@ -122,6 +118,7 @@ nullptr
 =
 0
 ;
+virtual
 void
 Unclaim
 (
