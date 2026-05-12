@@ -4998,3 +4998,17 @@ NoSystemCurrentTimeMillis
 active
 :
 true
+acorn
+-
+detekt
+-
+rules
+:
+active
+:
+true
+HardcodedPaddingUsage
+:
+active
+:
+true
