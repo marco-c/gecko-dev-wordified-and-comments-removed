@@ -233,6 +233,17 @@ tests
 sync
 /
 browser
+-
+srd
+.
+toml
+"
+"
+tests
+/
+sync
+/
+browser
 .
 toml
 "
