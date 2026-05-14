@@ -1447,7 +1447,7 @@ let
 {
 shareSheetLauncher
 .
-showNativeShareSheet
+showSystemShareSheet
 (
 id
 =
@@ -1486,7 +1486,7 @@ else
 {
 shareSheetLauncher
 .
-showCustomShareSheet
+showInAppShareSheet
 (
 id
 =

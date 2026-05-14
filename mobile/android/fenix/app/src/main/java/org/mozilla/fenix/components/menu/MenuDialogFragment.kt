@@ -951,7 +951,7 @@ components
 .
 share
 .
-ShareSheetLauncherImpl
+DefaultShareSheetLauncher
 import
 org
 .
@@ -2389,7 +2389,7 @@ webCompatReporterMoreInfoSender
 webCompatReporterMoreInfoSender
 shareSheetLauncher
 =
-ShareSheetLauncherImpl
+DefaultShareSheetLauncher
 (
 browserStore
 =
@@ -2399,6 +2399,14 @@ navController
 findNavController
 (
 )
+homeActivityClass
+=
+HomeActivity
+:
+:
+class
+.
+java
 onDismiss
 =
 {
@@ -2419,14 +2427,6 @@ dismiss
 )
 }
 }
-homeActivityClass
-=
-HomeActivity
-:
-:
-class
-.
-java
 )
 )
 MenuTelemetryMiddleware

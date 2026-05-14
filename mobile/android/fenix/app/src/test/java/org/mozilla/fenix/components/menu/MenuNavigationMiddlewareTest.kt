@@ -2553,7 +2553,7 @@ verify
 {
 shareSheetLauncher
 .
-showNativeShareSheet
+showSystemShareSheet
 (
 id
 url
@@ -2680,7 +2680,7 @@ verify
 {
 shareSheetLauncher
 .
-showCustomShareSheet
+showInAppShareSheet
 (
 any
 (
@@ -2788,7 +2788,7 @@ verify
 {
 shareSheetLauncher
 .
-showCustomShareSheet
+showInAppShareSheet
 (
 any
 (
@@ -2920,7 +2920,7 @@ verify
 {
 shareSheetLauncher
 .
-showCustomShareSheet
+showInAppShareSheet
 (
 id
 url
@@ -3035,7 +3035,7 @@ verify
 {
 shareSheetLauncher
 .
-showCustomShareSheet
+showInAppShareSheet
 (
 any
 (
