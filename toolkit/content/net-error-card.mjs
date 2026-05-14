@@ -3808,6 +3808,15 @@ customNetError
 learnMoreSupportPage
 errorCode
 :
+this
+.
+errorInfo
+?
+.
+errorCodeString
+|
+|
+(
 customNetError
 .
 showErrorCode
@@ -3817,6 +3826,7 @@ config
 errorCode
 :
 null
+)
 buttons
 :
 {
