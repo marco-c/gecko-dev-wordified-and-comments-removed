@@ -1135,9 +1135,6 @@ sim
 )
 ;
 }
-#
-if
-JS_CODEGEN_RISCV64
 void
 Simulator
 :
@@ -1355,8 +1352,6 @@ UNREACHABLE
 }
 }
 }
-#
-endif
 class
 RiscvDebugger
 {
@@ -13100,9 +13095,6 @@ rs2
 ;
 break
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 RO_ADDW
 :
@@ -13426,8 +13418,6 @@ shamt
 break
 ;
 }
-#
-endif
 case
 RO_MUL
 :
@@ -13767,9 +13757,6 @@ rhs
 break
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 RO_MULW
 :
@@ -14061,8 +14048,6 @@ rhs
 break
 ;
 }
-#
-endif
 case
 RO_SH1ADD
 :
@@ -17643,9 +17628,6 @@ WORD
 break
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 RO_LR_D
 :
@@ -18151,8 +18133,6 @@ DWORD
 break
 ;
 }
-#
-endif
 default
 :
 {
@@ -18852,9 +18832,6 @@ RoundMode
 break
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 0b00010
 :
@@ -18901,8 +18878,6 @@ RoundMode
 break
 ;
 }
-#
-endif
 default
 :
 {
@@ -19144,9 +19119,6 @@ rs1
 break
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 0b00010
 :
@@ -19193,8 +19165,6 @@ rs1
 break
 ;
 }
-#
-endif
 default
 :
 {
@@ -20111,9 +20081,6 @@ drs1
 break
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 0b000
 :
@@ -20134,8 +20101,6 @@ drs1
 break
 ;
 }
-#
-endif
 default
 :
 {
@@ -20217,9 +20182,6 @@ RoundMode
 break
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 0b00010
 :
@@ -20266,8 +20228,6 @@ RoundMode
 break
 ;
 }
-#
-endif
 default
 :
 {
@@ -20327,9 +20287,6 @@ rs1
 break
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 0b00010
 :
@@ -20364,8 +20321,6 @@ rs1
 break
 ;
 }
-#
-endif
 default
 :
 {
@@ -20378,9 +20333,6 @@ UNSUPPORTED
 break
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 RO_FMV_D_X
 :
@@ -20431,8 +20383,6 @@ UNSUPPORTED
 break
 ;
 }
-#
-endif
 default
 :
 {
@@ -22286,9 +22236,6 @@ rd_reg
 break
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 RO_LWU
 :
@@ -22399,8 +22346,6 @@ rd_reg
 break
 ;
 }
-#
-endif
 case
 RO_ADDI
 :
@@ -23148,9 +23093,6 @@ case
 RO_RORI
 :
 {
-#
-ifdef
-JS_CODEGEN_RISCV64
 int16_t
 shamt
 =
@@ -23158,8 +23100,6 @@ shamt6
 (
 )
 ;
-#
-endif
 set_rd
 (
 (
@@ -23300,9 +23240,6 @@ UNSUPPORTED
 break
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 RO_ADDIW
 :
@@ -23706,8 +23643,6 @@ UNSUPPORTED
 break
 ;
 }
-#
-endif
 case
 RO_FENCE
 :
@@ -24339,9 +24274,6 @@ instr
 ;
 break
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 RO_SD
 :
@@ -24372,8 +24304,6 @@ instr
 ;
 break
 ;
-#
-endif
 case
 RO_FSW
 :
@@ -25127,9 +25057,6 @@ rvc_rs2s
 ;
 break
 ;
-#
-if
-JS_CODEGEN_RISCV64
 case
 RO_C_SUBW
 :
@@ -25168,8 +25095,6 @@ rvc_rs2s
 ;
 break
 ;
-#
-endif
 default
 :
 UNSUPPORTED
@@ -25232,9 +25157,6 @@ rvc_imm6
 }
 break
 ;
-#
-if
-JS_CODEGEN_RISCV64
 case
 RO_C_ADDIW
 :
@@ -25254,8 +25176,6 @@ rvc_imm6
 ;
 break
 ;
-#
-endif
 case
 RO_C_LI
 :
@@ -25430,9 +25350,6 @@ rvc_frd_reg
 break
 ;
 }
-#
-if
-JS_CODEGEN_RISCV64
 case
 RO_C_LWSP
 :
@@ -25545,8 +25462,6 @@ rvc_rd_reg
 break
 ;
 }
-#
-endif
 default
 :
 UNSUPPORTED
@@ -25692,9 +25607,6 @@ instr
 break
 ;
 }
-#
-if
-JS_CODEGEN_RISCV64
 case
 RO_C_SDSP
 :
@@ -25733,8 +25645,6 @@ instr
 break
 ;
 }
-#
-endif
 default
 :
 UNSUPPORTED
@@ -25861,9 +25771,6 @@ false
 break
 ;
 }
-#
-if
-JS_CODEGEN_RISCV64
 case
 RO_C_LD
 :
@@ -25919,8 +25826,6 @@ rvc_rs2s_reg
 break
 ;
 }
-#
-endif
 default
 :
 UNSUPPORTED
@@ -25983,9 +25888,6 @@ instr
 break
 ;
 }
-#
-if
-JS_CODEGEN_RISCV64
 case
 RO_C_SD
 :
@@ -26023,8 +25925,6 @@ instr
 break
 ;
 }
-#
-endif
 case
 RO_C_FSD
 :

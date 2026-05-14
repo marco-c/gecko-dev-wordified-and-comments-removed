@@ -168,9 +168,6 @@ kFunct3Shift
 <
 kFunct7Shift
 )
-#
-ifdef
-JS_CODEGEN_RISCV64
 RO_MULW
 =
 OP_32
@@ -256,8 +253,6 @@ kFunct3Shift
 <
 kFunct7Shift
 )
-#
-endif
 }
 ;
 }

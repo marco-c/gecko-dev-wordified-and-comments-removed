@@ -6,13 +6,6 @@ define
 jit_riscv64_extension_Extension_riscv_m_h_
 #
 include
-<
-stdint
-.
-h
->
-#
-include
 "
 jit
 /
@@ -143,9 +136,6 @@ Register
 rs2
 )
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 void
 mulw
 (
@@ -201,8 +191,6 @@ Register
 rs2
 )
 ;
-#
-endif
 }
 ;
 }

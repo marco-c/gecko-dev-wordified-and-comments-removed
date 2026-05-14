@@ -317,9 +317,6 @@ uint16_t
 uimm9
 )
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 void
 c_ld
 (
@@ -387,8 +384,6 @@ uint16_t
 uimm9
 )
 ;
-#
-endif
 int
 CJumpOffset
 (

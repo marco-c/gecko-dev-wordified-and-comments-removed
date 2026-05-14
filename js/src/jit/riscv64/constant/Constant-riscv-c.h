@@ -340,9 +340,6 @@ C2
 <
 kRvcFunct3Shift
 )
-#
-ifdef
-JS_CODEGEN_RISCV64
 RO_C_LD
 =
 C0
@@ -427,8 +424,6 @@ FUNCT2_1
 <
 kRvcFunct2Shift
 )
-#
-endif
 }
 ;
 }

@@ -723,9 +723,6 @@ ToRegister
 )
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 void
 AssemblerRISCVD
 :
@@ -878,7 +875,5 @@ zero_reg
 )
 ;
 }
-#
-endif
 }
 }

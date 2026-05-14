@@ -114,9 +114,6 @@ imm6
 )
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 void
 AssemblerRISCVC
 :
@@ -146,8 +143,6 @@ imm6
 )
 ;
 }
-#
-endif
 void
 AssemblerRISCVC
 :
@@ -486,9 +481,6 @@ uimm6
 )
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 void
 AssemblerRISCVC
 :
@@ -554,8 +546,6 @@ uimm6
 )
 ;
 }
-#
-endif
 void
 AssemblerRISCVC
 :
@@ -986,9 +976,6 @@ rs2
 )
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 void
 AssemblerRISCVC
 :
@@ -1101,8 +1088,6 @@ rs2
 )
 ;
 }
-#
-endif
 void
 AssemblerRISCVC
 :
@@ -1162,9 +1147,6 @@ uimm6
 )
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 void
 AssemblerRISCVC
 :
@@ -1224,8 +1206,6 @@ uimm6
 )
 ;
 }
-#
-endif
 void
 AssemblerRISCVC
 :
@@ -1397,9 +1377,6 @@ uimm5
 )
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 void
 AssemblerRISCVC
 :
@@ -1501,8 +1478,6 @@ uimm5
 )
 ;
 }
-#
-endif
 void
 AssemblerRISCVC
 :
@@ -1716,9 +1691,6 @@ uimm5
 )
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 void
 AssemblerRISCVC
 :
@@ -1820,8 +1792,6 @@ uimm5
 )
 ;
 }
-#
-endif
 void
 AssemblerRISCVC
 :
