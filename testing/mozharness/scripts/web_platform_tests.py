@@ -3619,6 +3619,21 @@ arg
 vv
 "
 )
+            
+cmd
+.
+append
+(
+"
+-
+-
+log
+-
+raw
+-
+unexpectedonly
+"
+)
         
 test_type_suite
 =
