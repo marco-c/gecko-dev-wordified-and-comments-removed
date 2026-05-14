@@ -121,13 +121,6 @@ value
 showAlert
 :
 showAlertStub
-isFullscreen
-:
-(
-)
-=
->
-false
 }
 )
 ;
