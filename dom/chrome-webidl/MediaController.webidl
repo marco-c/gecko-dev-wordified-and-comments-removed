@@ -229,6 +229,10 @@ attribute
 EventHandler
 ondeactivated
 ;
+attribute
+EventHandler
+onaudiblechange
+;
 /
 /
 Following

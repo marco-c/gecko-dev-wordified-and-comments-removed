@@ -224,6 +224,13 @@ webm
 ]
 [
 "
+browser_audiblechange_event
+.
+js
+"
+]
+[
+"
 browser_audio_focus_management
 .
 js
