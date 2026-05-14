@@ -246,9 +246,9 @@ BUG_COMPONENT
 =
 (
 '
-mozilla
-.
-org
+Firefox
+Build
+System
 '
 '
 MozillaBuild
