@@ -23279,6 +23279,9 @@ vec
 "
 xpcom
 "
+"
+zeroize
+"
 ]
 [
 [
@@ -23351,6 +23354,9 @@ thiserror
 "
 "
 xpcom
+"
+"
+zeroize
 "
 ]
 [
