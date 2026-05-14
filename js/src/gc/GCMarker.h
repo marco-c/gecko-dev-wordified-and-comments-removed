@@ -155,6 +155,11 @@ MarkStackIter
 class
 ParallelMarkTask
 ;
+template
+<
+uint32_t
+markingOptions
+>
 class
 UnmarkGrayTracer
 ;
@@ -2831,6 +2836,11 @@ SystemAllocPolicy
 >
 unmarkGrayStack
 ;
+template
+<
+uint32_t
+markingOptions
+>
 friend
 class
 gc
