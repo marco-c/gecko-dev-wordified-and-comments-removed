@@ -11,6 +11,9 @@ api
 '
 html
 '
+'
+dom
+'
 ]
 idl_array
 =
