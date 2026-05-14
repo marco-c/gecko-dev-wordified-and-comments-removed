@@ -15912,7 +15912,6 @@ ParseDateResult
 *
 property
 {
-typeof
 Temporal
 .
 ZonedDateTime
@@ -15931,7 +15930,6 @@ ZonedDateTime
 *
 property
 {
-typeof
 Temporal
 .
 ZonedDateTime
