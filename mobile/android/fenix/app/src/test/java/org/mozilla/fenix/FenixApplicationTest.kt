@@ -1325,15 +1325,7 @@ every
 {
 settings
 .
-shouldShowToolbarCustomization
-}
-returns
-true
-every
-{
-settings
-.
-toolbarSimpleShortcut
+toolbarSimpleShortcutKey
 }
 returns
 ShortcutType
@@ -1345,7 +1337,7 @@ every
 {
 settings
 .
-toolbarExpandedShortcut
+toolbarExpandedShortcutKey
 }
 returns
 ShortcutType

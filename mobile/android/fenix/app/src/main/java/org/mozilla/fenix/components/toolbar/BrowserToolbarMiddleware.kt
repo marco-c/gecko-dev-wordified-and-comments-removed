@@ -5051,7 +5051,7 @@ fromValue
 (
 settings
 .
-toolbarSimpleShortcut
+toolbarSimpleShortcutKey
 )
 val
 translateShortcutEnabled
@@ -5212,7 +5212,7 @@ fromValue
 (
 settings
 .
-toolbarSimpleShortcut
+toolbarSimpleShortcutKey
 )
 ?
 .
@@ -5451,7 +5451,7 @@ fromValue
 (
 settings
 .
-toolbarExpandedShortcut
+toolbarExpandedShortcutKey
 )
 ?
 .
@@ -6418,7 +6418,7 @@ fromValue
 (
 settings
 .
-toolbarSimpleShortcut
+toolbarSimpleShortcutKey
 )
 =
 =
@@ -6440,7 +6440,7 @@ fromValue
 (
 settings
 .
-toolbarExpandedShortcut
+toolbarExpandedShortcutKey
 )
 =
 =
@@ -6513,7 +6513,7 @@ fromValue
 (
 settings
 .
-toolbarSimpleShortcut
+toolbarSimpleShortcutKey
 )
 =
 =
@@ -6535,7 +6535,7 @@ fromValue
 (
 settings
 .
-toolbarExpandedShortcut
+toolbarExpandedShortcutKey
 )
 =
 =
@@ -6680,7 +6680,7 @@ fromValue
 (
 settings
 .
-toolbarSimpleShortcut
+toolbarSimpleShortcutKey
 )
 =
 =
@@ -6702,7 +6702,7 @@ fromValue
 (
 settings
 .
-toolbarExpandedShortcut
+toolbarExpandedShortcutKey
 )
 =
 =

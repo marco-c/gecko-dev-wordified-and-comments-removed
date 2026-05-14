@@ -2410,7 +2410,7 @@ fromValue
 (
 settings
 .
-toolbarSimpleShortcut
+toolbarSimpleShortcutKey
 )
 =
 =
@@ -2601,7 +2601,7 @@ fromValue
 (
 settings
 .
-toolbarSimpleShortcut
+toolbarSimpleShortcutKey
 )
 ?
 .
@@ -2763,7 +2763,7 @@ fromValue
 (
 settings
 .
-toolbarExpandedShortcut
+toolbarExpandedShortcutKey
 )
 ?
 .

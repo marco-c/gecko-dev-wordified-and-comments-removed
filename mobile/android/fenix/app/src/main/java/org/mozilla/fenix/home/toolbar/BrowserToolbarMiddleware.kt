@@ -2365,7 +2365,7 @@ fromValue
 (
 settings
 .
-toolbarExpandedShortcut
+toolbarExpandedShortcutKey
 )
 ?
 .
