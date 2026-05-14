@@ -743,8 +743,10 @@ aClone
 )
 ;
 virtual
+already_AddRefed
+<
 imgRequestProxy
-*
+>
 NewClonedProxy
 (
 )
@@ -962,8 +964,10 @@ override
 ;
 protected
 :
+already_AddRefed
+<
 imgRequestProxy
-*
+>
 NewClonedProxy
 (
 )
