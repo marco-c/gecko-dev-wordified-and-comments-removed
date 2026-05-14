@@ -41,6 +41,13 @@ js
 ]
 [
 "
+test_multiline_editor_aria
+.
+html
+"
+]
+[
+"
 test_multiline_editor_input
 .
 html
