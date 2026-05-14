@@ -6869,10 +6869,9 @@ forcedColors
 :
 "
 {
+HCM
 Theme
-link
-/
-color
+VisitedText
 }
 "
 }
