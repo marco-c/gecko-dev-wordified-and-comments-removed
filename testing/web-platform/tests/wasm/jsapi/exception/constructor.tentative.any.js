@@ -38,7 +38,7 @@ assert_function_length
 WebAssembly
 .
 Exception
-1
+2
 "
 WebAssembly
 .

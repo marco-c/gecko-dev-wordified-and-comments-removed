@@ -17,13 +17,6 @@ isWorker
 =
 >
 false
-isShadowRealm
-:
-(
-)
-=
->
-false
 }
 ;
 self
