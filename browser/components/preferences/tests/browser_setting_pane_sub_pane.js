@@ -31,7 +31,7 @@ await
 openPreferencesViaOpenPreferencesAPI
 (
 "
-sync
+general
 "
 {
 leaveOpen
@@ -169,7 +169,7 @@ testTopLevelGroup
 )
 ;
 let
-syncCategory
+generalCategory
 =
 doc
 .
@@ -178,14 +178,14 @@ getElementById
 "
 category
 -
-sync
+general
 "
 )
 ;
 let
 testTopLevelCategory
 =
-syncCategory
+generalCategory
 .
 cloneNode
 (
@@ -204,7 +204,7 @@ paneTestTopLevel
 "
 )
 ;
-syncCategory
+generalCategory
 .
 insertAdjacentElement
 (
