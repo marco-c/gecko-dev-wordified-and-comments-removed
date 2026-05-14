@@ -30814,16 +30814,12 @@ scrollContainerFrame
 ;
 }
 return
-UniquePtr
+MakeUnique
 <
 ScrollMetadata
 >
 (
-new
-ScrollMetadata
-(
 metadata
-)
 )
 ;
 }
