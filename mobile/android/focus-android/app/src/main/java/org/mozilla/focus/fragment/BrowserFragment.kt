@@ -3390,7 +3390,7 @@ override
 fun
 onPictureInPictureModeChanged
 (
-enabled
+isInPipMode
 :
 Boolean
 )
@@ -3400,7 +3400,7 @@ pictureInPictureFeature
 .
 onPictureInPictureModeChanged
 (
-enabled
+isInPipMode
 )
 if
 (

@@ -543,7 +543,7 @@ mode
 .
 *
 param
-enabled
+isInPipMode
 True
 if
 the
@@ -562,7 +562,7 @@ mode
 fun
 onPictureInPictureModeChanged
 (
-enabled
+isInPipMode
 :
 Boolean
 )
@@ -596,7 +596,7 @@ engineSession
 .
 onPipModeChanged
 (
-enabled
+isInPipMode
 )
 store
 .
@@ -607,7 +607,7 @@ ContentAction
 PictureInPictureChangedAction
 (
 sessionId
-enabled
+isInPipMode
 )
 )
 }

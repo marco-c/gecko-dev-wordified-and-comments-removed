@@ -1707,6 +1707,8 @@ pipFeature
 .
 onPictureInPictureModeChanged
 (
+isInPipMode
+=
 true
 )
 captureActionsMiddleware
@@ -1746,6 +1748,8 @@ pipFeature
 .
 onPictureInPictureModeChanged
 (
+isInPipMode
+=
 false
 )
 captureActionsMiddleware

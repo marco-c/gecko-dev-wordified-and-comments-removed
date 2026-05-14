@@ -11162,14 +11162,14 @@ override
 fun
 onPictureInPictureModeChanged
 (
-enabled
+isInPipMode
 :
 Boolean
 )
 {
 if
 (
-enabled
+isInPipMode
 )
 MediaState
 .
@@ -11186,7 +11186,7 @@ pipFeature
 .
 onPictureInPictureModeChanged
 (
-enabled
+isInPipMode
 )
 }
 private
