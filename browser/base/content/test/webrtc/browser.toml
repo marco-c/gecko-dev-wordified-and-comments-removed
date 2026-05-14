@@ -1,13 +1,6 @@
 [
 DEFAULT
 ]
-subsuite
-=
-"
-media
--
-bc
-"
 support
 -
 files
