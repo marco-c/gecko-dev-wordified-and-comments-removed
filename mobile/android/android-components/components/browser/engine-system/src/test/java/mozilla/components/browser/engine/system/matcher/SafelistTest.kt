@@ -136,6 +136,12 @@ java
 io
 .
 StringReader
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -780,14 +786,10 @@ def
 )
 as
 SafelistTrie
-Assert
-.
 assertNotNull
 (
 foundSafelist
 )
-Assert
-.
 assertNotNull
 (
 foundSafelist

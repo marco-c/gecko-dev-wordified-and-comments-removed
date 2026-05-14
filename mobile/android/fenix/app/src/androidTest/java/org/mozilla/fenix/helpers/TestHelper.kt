@@ -360,12 +360,6 @@ org
 junit
 .
 Assert
-import
-org
-.
-junit
-.
-Assert
 .
 assertFalse
 import
@@ -528,6 +522,12 @@ helpers
 ext
 .
 waitNotNull
+import
+kotlin
+.
+test
+.
+assertNotNull
 object
 TestHelper
 {
@@ -2005,8 +2005,6 @@ not
 null
 "
 )
-Assert
-.
 assertNotNull
 (
 obj

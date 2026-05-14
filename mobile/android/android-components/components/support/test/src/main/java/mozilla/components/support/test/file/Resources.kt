@@ -67,11 +67,11 @@ test
 .
 file
 import
-org
+kotlin
 .
-junit
+test
 .
-Assert
+assertNotNull
 /
 *
 *
@@ -141,8 +141,6 @@ readText
 .
 also
 {
-Assert
-.
 assertNotNull
 (
 it

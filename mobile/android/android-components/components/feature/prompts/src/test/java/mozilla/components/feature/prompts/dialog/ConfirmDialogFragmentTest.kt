@@ -146,12 +146,6 @@ org
 junit
 .
 Assert
-import
-org
-.
-junit
-.
-Assert
 .
 assertEquals
 import
@@ -226,6 +220,12 @@ robolectric
 Shadows
 .
 shadowOf
+import
+kotlin
+.
+test
+.
+assertNotNull
 import
 androidx
 .
@@ -720,8 +720,6 @@ fragment
 dismiss
 (
 )
-Assert
-.
 assertNotNull
 (
 dialog

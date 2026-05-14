@@ -168,6 +168,12 @@ fenix
 wifi
 .
 WifiConnectionMonitor
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -318,8 +324,6 @@ downloadLanguagesFeature
 wifiConnectedListener
 )
 }
-Assert
-.
 assertNotNull
 (
 downloadLanguagesFeature

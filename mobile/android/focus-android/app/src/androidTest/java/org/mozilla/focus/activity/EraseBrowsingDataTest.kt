@@ -109,12 +109,6 @@ org
 .
 junit
 .
-Assert
-import
-org
-.
-junit
-.
 Before
 import
 org
@@ -302,6 +296,12 @@ focus
 testAnnotations
 .
 SmokeTest
+import
+kotlin
+.
+test
+.
+assertNotNull
 /
 /
 These
@@ -784,8 +784,6 @@ clickNotificationMessage
 Wait
 for
 launcher
-Assert
-.
 assertNotNull
 (
 launcherPackage

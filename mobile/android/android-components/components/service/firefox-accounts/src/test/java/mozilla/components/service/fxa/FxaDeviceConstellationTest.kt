@@ -348,12 +348,6 @@ org
 junit
 .
 Assert
-import
-org
-.
-junit
-.
-Assert
 .
 assertEquals
 import
@@ -480,6 +474,12 @@ mockito
 Mockito
 .
 when
+import
+kotlin
+.
+test
+.
+assertNotNull
 import
 mozilla
 .
@@ -3098,8 +3098,6 @@ pollForCommands
 (
 )
 )
-Assert
-.
 assertNotNull
 (
 eventsObserver

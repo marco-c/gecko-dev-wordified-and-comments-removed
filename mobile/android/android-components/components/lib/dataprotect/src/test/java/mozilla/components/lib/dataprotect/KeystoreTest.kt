@@ -144,6 +144,12 @@ javax
 crypto
 .
 SecretKey
+import
+kotlin
+.
+test
+.
+assertNotNull
 private
 val
 DEFAULTPASS
@@ -495,8 +501,6 @@ cipher
 .
 algorithm
 )
-Assert
-.
 assertNotNull
 (
 cipher
@@ -699,8 +703,6 @@ keystore
 createEncryptCipher
 (
 )
-Assert
-.
 assertNotNull
 (
 cipher
@@ -716,8 +718,6 @@ ByteArray
 12
 )
 )
-Assert
-.
 assertNotNull
 (
 cipher
@@ -794,8 +794,6 @@ encryptBytes
 (
 input
 )
-Assert
-.
 assertNotNull
 (
 encrypted

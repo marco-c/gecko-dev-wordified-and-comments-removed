@@ -122,12 +122,6 @@ org
 junit
 .
 Assert
-import
-org
-.
-junit
-.
-Assert
 .
 assertTrue
 import
@@ -268,6 +262,12 @@ focus
 testAnnotations
 .
 SmokeTest
+import
+kotlin
+.
+test
+.
+assertNotNull
 /
 /
 This
@@ -572,8 +572,6 @@ pressHomeKey
 Wait
 for
 launcher
-Assert
-.
 assertNotNull
 (
 launcherPackage
