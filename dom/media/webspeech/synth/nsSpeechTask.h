@@ -48,6 +48,9 @@ class
 SpeechSynthesis
 ;
 class
+MediaSharedKeysListener
+;
+class
 nsSpeechTask
 :
 public
@@ -373,6 +376,12 @@ dom
 AudioChannelAgent
 >
 mAudioChannelAgent
+;
+RefPtr
+<
+MediaSharedKeysListener
+>
+mSharedKeysListener
 ;
 RefPtr
 <
