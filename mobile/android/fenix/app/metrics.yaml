@@ -68789,12 +68789,6 @@ events
 type
 :
 quantity
-send_in_pings
-:
--
-adjust
--
-attribution
 bugs
 :
 -

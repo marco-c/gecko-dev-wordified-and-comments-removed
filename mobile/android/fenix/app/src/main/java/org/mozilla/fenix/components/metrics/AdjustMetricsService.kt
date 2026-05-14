@@ -1170,11 +1170,6 @@ recordConversionEvent
 CONVERSION_EVENT_10
 )
 }
-conversionEventRecorder
-.
-submitAdjustAttributionPing
-(
-)
 }
 /
 *
