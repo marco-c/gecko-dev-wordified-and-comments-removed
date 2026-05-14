@@ -9789,7 +9789,6 @@ ignore
 =
 "
 BrandUsage
-UnusedResources
 "
 >
 Ay
@@ -11821,6 +11820,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Comparte
@@ -53247,13 +53247,6 @@ name
 "
 ip_protection_toolbar_pill_label
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 VPN
 activada
@@ -53291,13 +53284,6 @@ name
 =
 "
 ip_protection_toolbar_pill_description
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 La
