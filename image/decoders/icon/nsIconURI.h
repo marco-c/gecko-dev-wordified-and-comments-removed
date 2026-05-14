@@ -7,6 +7,13 @@ mozilla_image_decoders_icon_nsIconURI_h
 #
 include
 "
+nsIIPCSerializableURI
+.
+h
+"
+#
+include
+"
 nsIIconURI
 .
 h
@@ -36,6 +43,13 @@ h
 include
 "
 nsIURIMutator
+.
+h
+"
+#
+include
+"
+nsIURIWithSizeOf
 .
 h
 "
@@ -99,6 +113,10 @@ public
 nsINestedURI
 public
 nsISerializable
+public
+nsIIPCSerializableURI
+public
+nsIURIWithSizeOf
 {
 public
 :
@@ -107,6 +125,8 @@ NS_DECL_NSIURI
 NS_DECL_NSIMOZICONURI
 NS_DECL_NSINESTEDURI
 NS_DECL_NSISERIALIZABLE
+NS_DECL_NSIIPCSERIALIZABLEURI
+NS_DECL_NSIURIWITHSIZEOF
 protected
 :
 nsMozIconURI

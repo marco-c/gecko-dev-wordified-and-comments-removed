@@ -121,6 +121,13 @@ h
 #
 include
 "
+nsIURIWithSizeOf
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h
@@ -1956,11 +1963,9 @@ mSrcURI
 aNodeSize
 +
 =
-mSrcURI
--
->
-SizeOfIncludingThis
+SizeOfIncludingThisIfURIWithSizeOf
 (
+mSrcURI
 aSizes
 .
 mState

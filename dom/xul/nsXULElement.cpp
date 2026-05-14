@@ -834,6 +834,13 @@ h
 #
 include
 "
+nsIURIWithSizeOf
+.
+h
+"
+#
+include
+"
 nsIXPConnect
 .
 h
@@ -10775,11 +10782,9 @@ mSrcURI
 aNodeSize
 +
 =
-mSrcURI
--
->
-SizeOfIncludingThis
+SizeOfIncludingThisIfURIWithSizeOf
 (
+mSrcURI
 aSizes
 .
 mState

@@ -102,6 +102,13 @@ h
 #
 include
 "
+nsIURIWithSizeOf
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h
@@ -2040,11 +2047,9 @@ mCachedURI
 n
 +
 =
-mCachedURI
--
->
-SizeOfIncludingThis
+SizeOfIncludingThisIfURIWithSizeOf
 (
+mCachedURI
 aState
 .
 mMallocSizeOf

@@ -542,10 +542,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP_
-(
 void
-)
 nsSimpleNestedURI
 :
 :

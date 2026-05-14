@@ -19,6 +19,13 @@ h
 #
 include
 "
+nsIIPCSerializableURI
+.
+h
+"
+#
+include
+"
 nsISerializable
 .
 h
@@ -89,6 +96,13 @@ h
 include
 "
 nsIURIMutator
+.
+h
+"
+#
+include
+"
+nsIURIWithSizeOf
 .
 h
 "
@@ -547,6 +561,10 @@ public
 nsISerializable
 public
 nsISensitiveInfoHiddenURI
+public
+nsIIPCSerializableURI
+public
+nsIURIWithSizeOf
 #
 ifdef
 DEBUG_DUMP_URLS_AT_SHUTDOWN
@@ -588,6 +606,8 @@ NS_DECL_NSIFILEURL
 NS_DECL_NSISTANDARDURL
 NS_DECL_NSISERIALIZABLE
 NS_DECL_NSISENSITIVEINFOHIDDENURI
+NS_DECL_NSIIPCSERIALIZABLEURI
+NS_DECL_NSIURIWITHSIZEOF
 static
 void
 InitGlobalObjects

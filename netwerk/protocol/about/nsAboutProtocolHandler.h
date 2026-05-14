@@ -202,10 +202,8 @@ _retval
 )
 override
 ;
-NS_IMETHOD_
-(
+virtual
 void
-)
 Serialize
 (
 ipc

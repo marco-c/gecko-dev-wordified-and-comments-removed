@@ -693,6 +693,11 @@ nsInputStreamPump
 h
 "
 "
+nsIURIWithSizeOf
+.
+h
+"
+"
 nsMIMEInputStream
 .
 h

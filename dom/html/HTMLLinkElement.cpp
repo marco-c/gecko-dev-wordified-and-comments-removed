@@ -248,6 +248,13 @@ h
 #
 include
 "
+nsIURIWithSizeOf
+.
+h
+"
+#
+include
+"
 nsMimeTypes
 .
 h
@@ -2264,11 +2271,9 @@ mCachedURI
 aNodeSize
 +
 =
-mCachedURI
--
->
-SizeOfIncludingThis
+SizeOfIncludingThisIfURIWithSizeOf
 (
+mCachedURI
 aSizes
 .
 mState
