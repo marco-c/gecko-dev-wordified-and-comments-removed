@@ -1695,6 +1695,23 @@ False
     
 if
 "
+p5
+"
+in
+platform
+and
+"
+aarch64
+"
+in
+platform
+:
+        
+return
+False
+    
+if
+"
 p6
 "
 in
