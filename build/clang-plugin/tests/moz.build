@@ -338,6 +338,11 @@ SOURCES
 =
 [
 "
+TestEmptyBases
+.
+cpp
+"
+"
 TestFopenUsage
 .
 cpp

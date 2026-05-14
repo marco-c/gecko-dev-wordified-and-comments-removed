@@ -15641,6 +15641,7 @@ true
 }
 ;
 struct
+MOZ_EMPTY_BASES
 LenientThisPolicy
 :
 public
@@ -15947,6 +15948,7 @@ aProtoDepth
 }
 ;
 struct
+MOZ_EMPTY_BASES
 MaybeCrossOriginObjectLenientThisPolicy
 :
 public

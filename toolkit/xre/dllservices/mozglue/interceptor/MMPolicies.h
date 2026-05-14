@@ -1896,6 +1896,7 @@ ret
 }
 ;
 class
+MOZ_EMPTY_BASES
 MOZ_TRIVIAL_CTOR_DTOR
 MMPolicyInProcess
 :
