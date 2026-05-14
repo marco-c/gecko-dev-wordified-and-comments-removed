@@ -34,6 +34,13 @@ js
 ]
 [
 "
+browser_testPrivateBrowsing
+.
+js
+"
+]
+[
+"
 browser_testServerErrors
 .
 js
