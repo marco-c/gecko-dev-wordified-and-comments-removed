@@ -241,10 +241,6 @@ JSContext
 cx
 )
 {
-setInlineValueArray
-(
-)
-;
 detail
 :
 :

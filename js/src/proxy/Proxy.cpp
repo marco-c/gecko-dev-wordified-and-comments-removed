@@ -5293,12 +5293,6 @@ ProxyObject
 (
 )
 ;
-proxy
-.
-setInlineValueArray
-(
-)
-;
 return
 proxy
 .
