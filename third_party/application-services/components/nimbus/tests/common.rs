@@ -84,7 +84,7 @@ remote_settings
 :
 :
 {
-RemoteSettingsConfig2
+RemoteSettingsConfig
 RemoteSettingsContext
 RemoteSettingsService
 }
@@ -528,7 +528,7 @@ default
 let
 config
 =
-RemoteSettingsConfig2
+RemoteSettingsConfig
 {
 server
 :

@@ -139,6 +139,9 @@ State
 GetAuthState
 BeginOAuthFlow
 {
+service
+:
+String
 scopes
 :
 Vec
@@ -148,9 +151,15 @@ String
 entrypoint
 :
 String
+initial_state
+:
+FxaRustAuthState
 }
 BeginPairingFlow
 {
+service
+:
+String
 pairing_url
 :
 String
@@ -163,6 +172,9 @@ String
 entrypoint
 :
 String
+initial_state
+:
+FxaRustAuthState
 }
 CompleteOAuthFlow
 {
@@ -172,6 +184,9 @@ String
 state
 :
 String
+initial_state
+:
+FxaRustAuthState
 }
 InitializeDevice
 EnsureDeviceCapabilities
@@ -415,8 +430,11 @@ State
 :
 BeginOAuthFlow
 {
+service
 scopes
 entrypoint
+.
+.
 }
 =
 >
@@ -461,6 +479,7 @@ account
 .
 begin_oauth_flow
 (
+service
 &
 scopes
 entrypoint
@@ -480,9 +499,12 @@ State
 :
 BeginPairingFlow
 {
+service
 pairing_url
 scopes
 entrypoint
+.
+.
 }
 =
 >
@@ -528,6 +550,7 @@ account
 begin_pairing_flow
 (
 pairing_url
+service
 &
 scopes
 entrypoint
@@ -549,6 +572,8 @@ CompleteOAuthFlow
 {
 code
 state
+.
+.
 }
 =
 >

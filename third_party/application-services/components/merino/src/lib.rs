@@ -6,6 +6,10 @@ pub
 mod
 suggest
 ;
+pub
+mod
+worldcup
+;
 uniffi
 :
 :

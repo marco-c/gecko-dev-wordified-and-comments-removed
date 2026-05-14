@@ -376,7 +376,7 @@ remote_settings
 :
 :
 {
-RemoteSettingsConfig2
+RemoteSettingsConfig
 RemoteSettingsService
 }
 ;
@@ -918,7 +918,7 @@ db_path
 let
 config
 =
-RemoteSettingsConfig2
+RemoteSettingsConfig
 {
 server
 :

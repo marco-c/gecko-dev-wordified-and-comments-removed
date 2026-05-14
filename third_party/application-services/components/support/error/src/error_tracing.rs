@@ -51,7 +51,7 @@ report_error_to_app
 type_name
 :
 String
-details
+message
 :
 String
 )
@@ -114,11 +114,11 @@ n
 )
 ;
 let
-details
+message
 =
-truncate_details
+truncate_message
 (
-details
+message
 )
 ;
 tracing_support
@@ -141,7 +141,7 @@ reporter
 :
 error
 "
-details
+message
 type_name
 breadcrumbs
 )
@@ -530,7 +530,7 @@ breadcrumbs
 }
 }
 fn
-truncate_details
+truncate_message
 (
 details
 :

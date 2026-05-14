@@ -5842,7 +5842,7 @@ events
 =
 nimbus
 .
-unenrollForGeckoPref
+unenrollForGeckoPrefOnThisThread
 (
 handler
 .
@@ -6015,7 +6015,7 @@ previousStates
 =
 nimbus
 .
-getPreviousGeckoPrefStates
+getPreviousGeckoPrefStatesOnThisThread
 (
 "
 test

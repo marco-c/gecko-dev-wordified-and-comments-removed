@@ -118,7 +118,7 @@ mjs
 ;
 import
 {
-RemoteSettingsConfig2
+RemoteSettingsConfig
 RemoteSettingsContext
 RemoteSettingsServer
 RemoteSettingsService
@@ -335,7 +335,7 @@ this
 config
 =
 new
-RemoteSettingsConfig2
+RemoteSettingsConfig
 (
 {
 server

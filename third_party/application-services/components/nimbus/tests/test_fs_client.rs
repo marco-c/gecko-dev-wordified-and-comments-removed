@@ -76,7 +76,7 @@ remote_settings
 :
 :
 {
-RemoteSettingsConfig2
+RemoteSettingsConfig
 RemoteSettingsContext
 RemoteSettingsService
 }
@@ -166,7 +166,7 @@ exist
 let
 config
 =
-RemoteSettingsConfig2
+RemoteSettingsConfig
 {
 server
 :

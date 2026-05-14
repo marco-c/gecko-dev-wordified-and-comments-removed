@@ -93,7 +93,7 @@ appservices
 .
 remotesettings
 .
-RemoteSettingsConfig2
+RemoteSettingsConfig
 import
 mozilla
 .
@@ -254,7 +254,7 @@ dummy
 "
 config
 =
-RemoteSettingsConfig2
+RemoteSettingsConfig
 (
 )
 )

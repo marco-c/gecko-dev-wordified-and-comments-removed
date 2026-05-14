@@ -318,6 +318,15 @@ components
 /
 remote_settings
 "
+features
+=
+[
+"
+telemetry
+-
+submission
+"
+]
 }
 suggest
 =

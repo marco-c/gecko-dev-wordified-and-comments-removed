@@ -771,7 +771,7 @@ remote_settings
 :
 :
 {
-RemoteSettingsConfig2
+RemoteSettingsConfig
 RemoteSettingsContext
 RemoteSettingsServer
 }
@@ -5372,7 +5372,7 @@ init_backend_dev
 let
 config
 =
-RemoteSettingsConfig2
+RemoteSettingsConfig
 {
 server
 :

@@ -42,7 +42,7 @@ remote_settings
 :
 :
 {
-RemoteSettingsConfig2
+RemoteSettingsConfig
 RemoteSettingsContext
 RemoteSettingsService
 }
@@ -334,7 +334,7 @@ unique_remote_settings_dir
 let
 rs_config
 =
-RemoteSettingsConfig2
+RemoteSettingsConfig
 {
 bucket_name
 :
@@ -451,7 +451,7 @@ unique_db_filename
 let
 rs_config
 =
-RemoteSettingsConfig2
+RemoteSettingsConfig
 {
 bucket_name
 :

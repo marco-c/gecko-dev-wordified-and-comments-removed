@@ -773,11 +773,6 @@ events
 enrollments_evolver
 .
 evolve_enrollments
-:
-:
-<
-EnrolledFeatureConfig
->
 (
 Default
 :

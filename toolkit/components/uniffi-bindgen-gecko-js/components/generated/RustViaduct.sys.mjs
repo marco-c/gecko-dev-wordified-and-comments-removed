@@ -130,7 +130,7 @@ UniFFIScaffolding
 .
 callSync
 (
-145
+142
 /
 /
 uniffi_viaduct_fn_func_allow_android_emulator_loopback
@@ -182,7 +182,7 @@ UniFFIScaffolding
 .
 callSync
 (
-146
+143
 /
 /
 uniffi_viaduct_fn_func_init_backend
@@ -284,7 +284,7 @@ UniFFIScaffolding
 .
 callSync
 (
-147
+144
 /
 /
 uniffi_viaduct_fn_func_set_global_default_user_agent
@@ -5721,7 +5721,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-148
+145
 /
 /
 uniffi_viaduct_fn_method_backend_send_request
@@ -6060,7 +6060,7 @@ dataStream
 .
 readHandleOrPointer
 (
-20
+19
 )
 )
 }
@@ -6095,7 +6095,7 @@ dataStream
 .
 writePointer
 (
-20
+19
 this
 .
 lower

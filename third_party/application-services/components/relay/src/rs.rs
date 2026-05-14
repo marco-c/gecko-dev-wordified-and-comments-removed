@@ -1073,7 +1073,7 @@ remote_settings
 :
 :
 {
-RemoteSettingsConfig2
+RemoteSettingsConfig
 RemoteSettingsServer
 }
 ;
@@ -1091,7 +1091,7 @@ RemoteSettingsService
 let
 config
 =
-RemoteSettingsConfig2
+RemoteSettingsConfig
 {
 server
 :

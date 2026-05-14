@@ -60,7 +60,6 @@ AuthorizationInfo
 FxaEvent
 FxaRustAuthState
 FxaState
-UserData
 }
 ;
 pub
