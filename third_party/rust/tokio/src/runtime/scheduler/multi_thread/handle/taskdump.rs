@@ -45,6 +45,7 @@ trace_status
 .
 start_trace_request
 (
+&
 self
 )
 .
@@ -97,6 +98,7 @@ trace_status
 .
 end_trace_request
 (
+&
 self
 )
 .

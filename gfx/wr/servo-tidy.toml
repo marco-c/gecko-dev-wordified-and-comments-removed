@@ -556,6 +556,9 @@ windows_aarch64_gnullvm
 "
 miniz_oxide
 "
+"
+socket2
+"
 #
 0
 .

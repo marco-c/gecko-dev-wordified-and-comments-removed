@@ -1250,8 +1250,6 @@ Sync
 '
 static
 {
-unsafe
-{
 self
 .
 std
@@ -1260,7 +1258,6 @@ pre_exec
 (
 f
 )
-}
 ;
 self
 }
@@ -1389,7 +1386,7 @@ self
 with
 :
 impl
-FnOnce
+Fn
 (
 &
 mut

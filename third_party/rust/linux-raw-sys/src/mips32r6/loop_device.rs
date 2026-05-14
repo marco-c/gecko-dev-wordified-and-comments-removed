@@ -853,14 +853,6 @@ u32
 ;
 pub
 const
-__BITS_PER_LONG_LONG
-:
-u32
-=
-64
-;
-pub
-const
 LO_CRYPT_NONE
 :
 u32

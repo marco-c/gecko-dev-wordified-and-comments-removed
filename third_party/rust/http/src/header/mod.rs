@@ -26,7 +26,6 @@ IntoIter
 Iter
 IterMut
 Keys
-MaxSizeReached
 OccupiedEntry
 VacantEntry
 ValueDrain
@@ -63,13 +62,6 @@ InvalidHeaderValue
 ToStrError
 }
 ;
-#
-[
-rustfmt
-:
-:
-skip
-]
 pub
 use
 self

@@ -40,5 +40,8 @@ use
 imp
 :
 :
+{
 AtomicU64
+StaticAtomicU64
+}
 ;

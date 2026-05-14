@@ -60,7 +60,6 @@ PollResetAfterSendResponse
 SendPingWhilePending
 SendSettingsWhilePending
 PeerDisabledServerPush
-InvalidInformationalStatusCode
 }
 impl
 error
@@ -367,15 +366,6 @@ who
 disabled
 server
 push
-"
-InvalidInformationalStatusCode
-=
->
-"
-invalid
-informational
-status
-code
 "
 }
 )

@@ -53,6 +53,7 @@ std
 {
 cmp
 mem
+usize
 }
 ;
 #

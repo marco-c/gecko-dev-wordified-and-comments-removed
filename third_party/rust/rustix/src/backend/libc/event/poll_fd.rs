@@ -32,8 +32,6 @@ fd
 {
 AsFd
 AsRawFd
-as
-_
 BorrowedFd
 LibcFd
 }
@@ -59,12 +57,6 @@ fd
 AsSocket
 RawFd
 }
-;
-use
-crate
-:
-:
-ffi
 ;
 use
 bitflags
@@ -143,7 +135,7 @@ pub
 struct
 PollFlags
 :
-ffi
+c
 :
 :
 c_short

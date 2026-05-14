@@ -9,7 +9,6 @@ task
 :
 :
 {
-AbortHandle
 Header
 RawTask
 }
@@ -378,6 +377,9 @@ self
 )
 -
 >
+super
+:
+:
 AbortHandle
 {
 self
@@ -388,6 +390,9 @@ ref_inc
 (
 )
 ;
+super
+:
+:
 AbortHandle
 :
 :
@@ -551,6 +556,15 @@ try_read_output
 &
 mut
 ret
+as
+*
+mut
+_
+as
+*
+mut
+(
+)
 cx
 .
 waker

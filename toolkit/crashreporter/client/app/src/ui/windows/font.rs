@@ -573,10 +573,9 @@ font
 ;
 if
 ptr
-.
-is_null
-(
-)
+=
+=
+0
 {
 return
 None

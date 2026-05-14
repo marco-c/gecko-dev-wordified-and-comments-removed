@@ -25,7 +25,6 @@ crate
 :
 {
 backend
-ffi
 io
 }
 ;
@@ -97,7 +96,10 @@ pub
 struct
 PidfdFlags
 :
-ffi
+backend
+:
+:
+c
 :
 :
 c_uint
@@ -106,6 +108,7 @@ c_uint
 /
 /
 PIDFD_NONBLOCK
+.
 const
 NONBLOCK
 =

@@ -122,11 +122,6 @@ haiku
 target_os
 =
 "
-horizon
-"
-target_os
-=
-"
 openbsd
 "
 target_os
@@ -216,11 +211,6 @@ target_os
 =
 "
 haiku
-"
-target_os
-=
-"
-horizon
 "
 target_os
 =

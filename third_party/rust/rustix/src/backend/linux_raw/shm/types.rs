@@ -2,7 +2,10 @@ use
 crate
 :
 :
-ffi
+backend
+:
+:
+c
 ;
 use
 bitflags
@@ -71,7 +74,7 @@ pub
 struct
 ShmOFlags
 :
-ffi
+c
 :
 :
 c_uint

@@ -156,9 +156,6 @@ Weak
 <
 unsafe
 extern
-"
-C
-"
 fn
 (
 (
@@ -713,9 +710,6 @@ macro_rules
 syscall
 {
 (
-vis
-:
-vis
 fn
 name
 :
@@ -745,7 +739,6 @@ ty
 =
 >
 (
-vis
 unsafe
 fn
 name
@@ -834,9 +827,6 @@ macro_rules
 syscall
 {
 (
-vis
-:
-vis
 fn
 name
 :
@@ -866,7 +856,6 @@ ty
 =
 >
 (
-vis
 unsafe
 fn
 name

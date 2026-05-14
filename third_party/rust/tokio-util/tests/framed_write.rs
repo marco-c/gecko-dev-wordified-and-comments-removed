@@ -863,8 +863,6 @@ mock
 Block
 the
 ITER
-*
-2
 th
 write
 Err
@@ -910,8 +908,6 @@ in
 .
 =
 ITER
-*
-2
 {
 let
 mut
@@ -1020,7 +1016,7 @@ calls
 len
 (
 )
-10
+6
 )
 ;
 let
@@ -1049,15 +1045,6 @@ mock
 U32Encoder
 )
 ;
-framed
-.
-set_backpressure_boundary
-(
-ITER
-*
-8
-)
-;
 task
 .
 enter
@@ -1074,8 +1061,6 @@ in
 .
 .
 ITER
-*
-2
 {
 assert
 !
@@ -1175,11 +1160,7 @@ framed
 .
 start_send
 (
-(
 ITER
-*
-2
-)
 as
 u32
 )
@@ -1370,11 +1351,11 @@ unexpected
 write
 ;
 {
-src
 :
 ?
 }
 "
+src
 )
 }
 }

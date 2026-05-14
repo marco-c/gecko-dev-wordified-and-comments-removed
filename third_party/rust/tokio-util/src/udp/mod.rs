@@ -1,14 +1,3 @@
-#
-!
-[
-cfg
-(
-not
-(
-loom
-)
-)
-]
 mod
 frame
 ;

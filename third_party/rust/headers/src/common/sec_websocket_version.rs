@@ -1,21 +1,3 @@
-use
-http
-:
-:
-{
-HeaderName
-HeaderValue
-}
-;
-use
-crate
-:
-:
-{
-Error
-Header
-}
-;
 #
 [
 derive
@@ -51,6 +33,8 @@ SecWebsocketVersion
 ;
 }
 impl
+:
+:
 Header
 for
 SecWebsocketVersion
@@ -64,6 +48,8 @@ name
 &
 '
 static
+:
+:
 HeaderName
 {
 &
@@ -91,6 +77,8 @@ Item
 &
 '
 i
+:
+:
 HeaderValue
 >
 >
@@ -106,6 +94,8 @@ I
 Result
 <
 Self
+:
+:
 Error
 >
 {
@@ -146,6 +136,8 @@ None
 .
 ok_or_else
 (
+:
+:
 Error
 :
 :
@@ -159,6 +151,8 @@ E
 :
 Extend
 <
+:
+:
 HeaderValue
 >
 >
@@ -195,6 +189,8 @@ iter
 :
 once
 (
+:
+:
 HeaderValue
 :
 :

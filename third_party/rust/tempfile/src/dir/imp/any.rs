@@ -93,7 +93,7 @@ fs
 :
 Permissions
 >
-disable_cleanup
+keep
 :
 bool
 )
@@ -170,7 +170,7 @@ path
 into_boxed_path
 (
 )
-disable_cleanup
+keep
 }
 )
 }

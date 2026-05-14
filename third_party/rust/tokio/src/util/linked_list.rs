@@ -17,14 +17,6 @@ dead_code
 )
 )
 ]
-#
-!
-[
-allow
-(
-unsafe_op_in_unsafe_fn
-)
-]
 use
 core
 :

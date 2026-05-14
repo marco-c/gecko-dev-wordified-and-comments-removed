@@ -8,9 +8,6 @@ fmt
 Display
 ;
 use
-http
-:
-:
 HeaderValue
 ;
 pub

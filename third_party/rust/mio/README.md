@@ -1271,16 +1271,6 @@ Rust
 .
 71
 .
-*
-v1
-.
-2
-:
-Rust
-1
-.
-71
-.
 Note
 however
 that

@@ -210,11 +210,7 @@ cfg
 (
 any
 (
-feature
-=
-"
-taskdump
-"
+tokio_taskdump
 feature
 =
 "
@@ -345,8 +341,6 @@ return
 let
 len
 =
-unsafe
-{
 self
 .
 len
@@ -354,7 +348,6 @@ len
 unsync_load
 (
 )
-}
 ;
 let
 task
@@ -470,8 +463,6 @@ T
 >
 >
 {
-unsafe
-{
 self
 .
 pop_n
@@ -483,7 +474,6 @@ synced
 next
 (
 )
-}
 }
 pub
 (
@@ -538,8 +528,6 @@ n
 let
 len
 =
-unsafe
-{
 self
 .
 len
@@ -547,7 +535,6 @@ len
 unsync_load
 (
 )
-}
 ;
 let
 n

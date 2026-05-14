@@ -28,15 +28,6 @@ types
 :
 Advice
 ;
-use
-core
-:
-:
-num
-:
-:
-NonZeroU64
-;
 #
 [
 inline
@@ -69,10 +60,7 @@ offset
 u64
 len
 :
-Option
-<
-NonZeroU64
->
+u64
 advice
 :
 Advice

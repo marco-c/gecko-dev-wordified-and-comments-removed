@@ -1452,8 +1452,6 @@ Arc
 Inner
 >
 {
-unsafe
-{
 Arc
 :
 :
@@ -1465,7 +1463,6 @@ as
 const
 Inner
 )
-}
 }
 }
 unsafe
@@ -1523,8 +1520,6 @@ const
 >
 RawWaker
 {
-unsafe
-{
 Arc
 :
 :
@@ -1537,9 +1532,6 @@ const
 Inner
 )
 ;
-}
-unsafe
-{
 unparker_to_raw_waker
 (
 Inner
@@ -1550,7 +1542,6 @@ from_raw
 raw
 )
 )
-}
 }
 unsafe
 fn
@@ -1566,8 +1557,6 @@ const
 {
 drop
 (
-unsafe
-{
 Inner
 :
 :
@@ -1575,7 +1564,6 @@ from_raw
 (
 raw
 )
-}
 )
 ;
 }
@@ -1594,8 +1582,6 @@ const
 let
 unparker
 =
-unsafe
-{
 Inner
 :
 :
@@ -1603,7 +1589,6 @@ from_raw
 (
 raw
 )
-}
 ;
 unparker
 .
@@ -1633,8 +1618,6 @@ as
 const
 Inner
 ;
-unsafe
-{
 (
 *
 raw
@@ -1644,7 +1627,6 @@ unpark
 (
 )
 ;
-}
 }
 #
 [

@@ -2,7 +2,10 @@ use
 crate
 :
 :
-ffi
+backend
+:
+:
+c
 ;
 use
 bitflags
@@ -66,7 +69,7 @@ pub
 struct
 EventfdFlags
 :
-ffi
+c
 :
 :
 c_uint

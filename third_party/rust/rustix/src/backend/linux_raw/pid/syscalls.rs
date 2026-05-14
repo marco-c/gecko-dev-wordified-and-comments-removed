@@ -38,10 +38,6 @@ RawPid
 [
 inline
 ]
-#
-[
-must_use
-]
 pub
 (
 crate

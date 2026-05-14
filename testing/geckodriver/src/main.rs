@@ -28,7 +28,7 @@ lazy_static
 ;
 extern
 crate
-http
+hyper
 ;
 extern
 crate

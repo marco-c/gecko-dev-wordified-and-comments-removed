@@ -198,11 +198,4 @@ runtime
 :
 :
 UnhandledPanic
-pub
-(
-crate
-)
-enable_eager_driver_handoff
-:
-bool
 }

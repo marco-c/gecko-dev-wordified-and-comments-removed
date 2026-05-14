@@ -17,7 +17,7 @@ gh
 /
 mozilla
 /
-neqo
+mtu
 /
 branch
 /
@@ -43,7 +43,7 @@ gh
 /
 mozilla
 /
-neqo
+mtu
 )
 [
 !
@@ -70,7 +70,7 @@ resolution
 /
 mozilla
 /
-neqo
+mtu
 .
 svg
 )
@@ -88,7 +88,7 @@ project
 /
 mozilla
 /
-neqo
+mtu
 "
 Average
 time
@@ -122,7 +122,7 @@ open
 /
 mozilla
 /
-neqo
+mtu
 .
 svg
 )
@@ -140,7 +140,7 @@ project
 /
 mozilla
 /
-neqo
+mtu
 "
 Percentage
 of
@@ -168,7 +168,7 @@ badge
 /
 maintenance
 -
-actively
+activly
 -
 -
 developed
@@ -413,22 +413,6 @@ community
 guidelines
 ]
 (
-https
-:
-/
-/
-github
-.
-com
-/
-mozilla
-/
-neqo
-/
-blob
-/
-main
-/
 CODE_OF_CONDUCT
 .
 md

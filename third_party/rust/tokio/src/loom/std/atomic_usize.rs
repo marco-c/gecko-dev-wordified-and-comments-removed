@@ -145,8 +145,6 @@ self
 >
 usize
 {
-unsafe
-{
 core
 :
 :
@@ -167,7 +165,6 @@ as
 const
 usize
 )
-}
 }
 pub
 (

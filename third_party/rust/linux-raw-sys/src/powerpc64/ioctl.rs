@@ -6513,6 +6513,14 @@ u32
 ;
 pub
 const
+REISERFS_IOC_UNPACK
+:
+u32
+=
+2148060417
+;
+pub
+const
 FW_CDEV_IOC_REMOVE_DESCRIPTOR
 :
 u32

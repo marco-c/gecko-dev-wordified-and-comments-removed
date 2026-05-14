@@ -437,7 +437,7 @@ sleep
 =
 rng
 .
-random_range
+gen_range
 (
 Duration
 :

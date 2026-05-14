@@ -173,9 +173,7 @@ dependencies
 errno
 =
 "
-0
-.
-3
+*
 "
 #
 #
@@ -378,9 +376,7 @@ errno
 version
 =
 "
-0
-.
-3
+*
 "
 default
 -

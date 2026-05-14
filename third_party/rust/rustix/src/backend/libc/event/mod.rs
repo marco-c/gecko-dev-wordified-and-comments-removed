@@ -50,11 +50,7 @@ cfg
 any
 (
 linux_kernel
-target_os
-=
-"
-illumos
-"
+solarish
 target_os
 =
 "

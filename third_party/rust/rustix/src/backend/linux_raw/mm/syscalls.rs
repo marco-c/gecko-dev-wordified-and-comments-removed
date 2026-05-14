@@ -103,15 +103,6 @@ use
 crate
 :
 :
-ffi
-:
-:
-c_void
-;
-use
-crate
-:
-:
 io
 ;
 use
@@ -141,6 +132,9 @@ addr
 :
 *
 mut
+c
+:
+:
 c_void
 len
 :
@@ -202,6 +196,9 @@ addr
 :
 *
 mut
+c
+:
+:
 c_void
 len
 :
@@ -252,6 +249,9 @@ addr
 :
 *
 mut
+c
+:
+:
 c_void
 length
 :
@@ -282,6 +282,9 @@ Result
 <
 *
 mut
+c
+:
+:
 c_void
 >
 {
@@ -393,6 +396,9 @@ addr
 :
 *
 mut
+c
+:
+:
 c_void
 length
 :
@@ -413,6 +419,9 @@ Result
 <
 *
 mut
+c
+:
+:
 c_void
 >
 {
@@ -521,6 +530,9 @@ ptr
 :
 *
 mut
+c
+:
+:
 c_void
 len
 :
@@ -571,6 +583,9 @@ addr
 :
 *
 mut
+c
+:
+:
 c_void
 length
 :
@@ -617,6 +632,9 @@ old_address
 :
 *
 mut
+c
+:
+:
 c_void
 old_size
 :
@@ -637,6 +655,9 @@ Result
 <
 *
 mut
+c
+:
+:
 c_void
 >
 {
@@ -675,6 +696,9 @@ old_address
 :
 *
 mut
+c
+:
+:
 c_void
 old_size
 :
@@ -689,6 +713,9 @@ new_address
 :
 *
 mut
+c
+:
+:
 c_void
 )
 -
@@ -700,6 +727,9 @@ Result
 <
 *
 mut
+c
+:
+:
 c_void
 >
 {
@@ -748,6 +778,9 @@ addr
 :
 *
 mut
+c
+:
+:
 c_void
 length
 :
@@ -794,6 +827,9 @@ addr
 :
 *
 mut
+c
+:
+:
 c_void
 length
 :
@@ -844,6 +880,9 @@ addr
 :
 *
 mut
+c
+:
+:
 c_void
 length
 :

@@ -8,12 +8,6 @@ backend
 c
 ;
 use
-crate
-:
-:
-ffi
-;
-use
 bitflags
 :
 :
@@ -84,7 +78,7 @@ pub
 struct
 PipeFlags
 :
-ffi
+c
 :
 :
 c_uint
@@ -261,7 +255,7 @@ pub
 struct
 SpliceFlags
 :
-ffi
+c
 :
 :
 c_uint
@@ -446,7 +440,7 @@ cast
 :
 :
 <
-ffi
+c
 :
 :
 c_void
@@ -507,7 +501,7 @@ cast
 :
 :
 <
-ffi
+c
 :
 :
 c_void

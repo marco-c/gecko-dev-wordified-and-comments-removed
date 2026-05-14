@@ -47,10 +47,6 @@ Uid
 [
 inline
 ]
-#
-[
-must_use
-]
 pub
 (
 crate
@@ -172,10 +168,6 @@ uid
 #
 [
 inline
-]
-#
-[
-must_use
 ]
 pub
 (
@@ -299,10 +291,6 @@ uid
 [
 inline
 ]
-#
-[
-must_use
-]
 pub
 (
 crate
@@ -424,10 +412,6 @@ gid
 #
 [
 inline
-]
-#
-[
-must_use
 ]
 pub
 (

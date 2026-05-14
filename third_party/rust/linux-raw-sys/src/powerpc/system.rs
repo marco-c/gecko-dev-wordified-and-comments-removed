@@ -899,14 +899,6 @@ c_char
 }
 pub
 const
-__BITS_PER_LONG_LONG
-:
-u32
-=
-64
-;
-pub
-const
 SI_LOAD_SHIFT
 :
 u32

@@ -321,9 +321,9 @@ format
 (
 "
 {
-root
 }
 "
+root
 )
 ;
 let
@@ -362,7 +362,6 @@ format
 (
 "
 {
-prefix
 }
 \
 u
@@ -380,6 +379,7 @@ u
 a0
 }
 "
+prefix
 )
 ;
 }
@@ -412,7 +412,6 @@ format
 (
 "
 {
-prefix
 }
 \
 u
@@ -425,6 +424,7 @@ u
 a0
 }
 "
+prefix
 )
 ;
 }

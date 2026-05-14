@@ -97,8 +97,6 @@ borrow
 :
 :
 ToOwned
-as
-_
 alloc
 :
 :
@@ -424,7 +422,7 @@ len
 }
 else
 {
-c
+libc
 :
 :
 ENOSYS
@@ -576,7 +574,7 @@ len
 (
 )
 ;
-core
+std
 :
 :
 ptr

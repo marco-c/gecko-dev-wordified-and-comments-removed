@@ -41,6 +41,7 @@ cmp
 fmt
 io
 str
+usize
 }
 ;
 #
@@ -618,12 +619,6 @@ None
 =
 >
 {
-self
-.
-next_index
-=
-0
-;
 if
 buf
 .
@@ -681,6 +676,12 @@ utf8
 line
 )
 ?
+;
+self
+.
+next_index
+=
+0
 ;
 Some
 (
@@ -903,9 +904,9 @@ write
 f
 "
 {
-e
 }
 "
+e
 )
 }
 }

@@ -433,7 +433,6 @@ io
 fcntl_dupfd
 (
 self
-0
 )
 ?
 ;

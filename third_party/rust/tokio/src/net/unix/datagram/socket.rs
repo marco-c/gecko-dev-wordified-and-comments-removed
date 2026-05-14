@@ -4419,12 +4419,9 @@ fmt
 :
 Result
 {
-(
-*
 self
 .
 io
-)
 .
 fmt
 (

@@ -1036,8 +1036,6 @@ cnt
 usize
 )
 {
-unsafe
-{
 self
 .
 assume_init
@@ -1045,7 +1043,6 @@ assume_init
 cnt
 )
 ;
-}
 self
 .
 advance
@@ -1235,8 +1232,6 @@ u8
 >
 ]
 {
-unsafe
-{
 &
 mut
 *
@@ -1258,7 +1253,6 @@ u8
 >
 ]
 )
-}
 }
 unsafe
 fn
@@ -1281,8 +1275,6 @@ u8
 u8
 ]
 {
-unsafe
-{
 &
 *
 (
@@ -1303,7 +1295,6 @@ const
 u8
 ]
 )
-}
 }
 unsafe
 fn
@@ -1328,8 +1319,6 @@ mut
 u8
 ]
 {
-unsafe
-{
 &
 mut
 *
@@ -1351,5 +1340,4 @@ mut
 u8
 ]
 )
-}
 }

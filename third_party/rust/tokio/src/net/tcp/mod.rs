@@ -5,7 +5,7 @@ crate
 mod
 listener
 ;
-cfg_not_wasip1
+cfg_not_wasi
 !
 {
 pub

@@ -446,7 +446,7 @@ new
 ;
 let
 mut
-threads
+ths
 =
 vec
 !
@@ -470,7 +470,7 @@ clone
 (
 )
 ;
-threads
+ths
 .
 push
 (
@@ -515,9 +515,9 @@ notify_one
 )
 ;
 for
-thread
+th
 in
-threads
+ths
 .
 drain
 (
@@ -525,7 +525,7 @@ drain
 .
 )
 {
-thread
+th
 .
 join
 (

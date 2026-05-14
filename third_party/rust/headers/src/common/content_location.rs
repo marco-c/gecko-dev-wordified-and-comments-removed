@@ -1,7 +1,4 @@
 use
-http
-:
-:
 HeaderValue
 ;
 #

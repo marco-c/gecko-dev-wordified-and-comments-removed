@@ -536,14 +536,6 @@ __be16
 }
 pub
 const
-__BITS_PER_LONG_LONG
-:
-u32
-=
-64
-;
-pub
-const
 ETH_ALEN
 :
 u32

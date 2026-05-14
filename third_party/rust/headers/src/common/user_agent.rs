@@ -14,9 +14,6 @@ str
 FromStr
 ;
 use
-crate
-:
-:
 util
 :
 :
@@ -57,7 +54,6 @@ impl
 UserAgent
 {
 pub
-const
 fn
 from_static
 (

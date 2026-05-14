@@ -1743,7 +1743,6 @@ permits
 compare_exchange_weak
 (
 curr_bits
-(
 new
 <
 <
@@ -1751,16 +1750,6 @@ Self
 :
 :
 PERMIT_SHIFT
-)
-|
-(
-curr_bits
-&
-Self
-:
-:
-CLOSED
-)
 AcqRel
 Acquire
 )
@@ -2395,9 +2384,16 @@ waker
 {
 old_waker
 =
-waker
-.
+std
+:
+:
+mem
+:
+:
 replace
+(
+waker
+Some
 (
 cx
 .
@@ -2407,6 +2403,7 @@ waker
 .
 clone
 (
+)
 )
 )
 ;
@@ -3944,8 +3941,6 @@ Waiter
 >
 >
 {
-unsafe
-{
 Waiter
 :
 :
@@ -3953,6 +3948,5 @@ addr_of_pointers
 (
 target
 )
-}
 }
 }

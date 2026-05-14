@@ -1,21 +1,3 @@
-use
-http
-:
-:
-{
-HeaderName
-HeaderValue
-}
-;
-use
-crate
-:
-:
-{
-Error
-Header
-}
-;
 #
 [
 derive
@@ -28,6 +10,8 @@ pub
 struct
 ContentDisposition
 (
+:
+:
 HeaderValue
 )
 ;
@@ -45,6 +29,8 @@ ContentDisposition
 {
 ContentDisposition
 (
+:
+:
 HeaderValue
 :
 :
@@ -175,6 +161,8 @@ item
 }
 }
 impl
+:
+:
 Header
 for
 ContentDisposition
@@ -188,6 +176,8 @@ name
 &
 '
 static
+:
+:
 HeaderName
 {
 &
@@ -215,6 +205,8 @@ Item
 &
 '
 i
+:
+:
 HeaderValue
 >
 >
@@ -230,6 +222,8 @@ I
 Result
 <
 Self
+:
+:
 Error
 >
 {
@@ -250,6 +244,8 @@ ContentDisposition
 .
 ok_or_else
 (
+:
+:
 Error
 :
 :
@@ -263,6 +259,8 @@ E
 :
 Extend
 <
+:
+:
 HeaderValue
 >
 >

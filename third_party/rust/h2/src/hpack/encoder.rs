@@ -4877,7 +4877,13 @@ e
 .
 encode
 (
+&
+mut
 hdrs
+.
+into_iter
+(
+)
 &
 mut
 dst

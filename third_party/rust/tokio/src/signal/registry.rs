@@ -5,7 +5,7 @@ crate
 signal
 :
 :
-unix
+os
 :
 :
 {
@@ -255,6 +255,22 @@ f
 )
 ;
 }
+}
+pub
+(
+crate
+)
+trait
+Init
+{
+fn
+init
+(
+)
+-
+>
+Self
+;
 }
 #
 [
@@ -657,7 +673,7 @@ Send
 +
 Sync
 +
-Default
+Init
 OsStorage
 :
 '
@@ -667,7 +683,7 @@ Send
 +
 Sync
 +
-Default
+Init
 {
 Globals
 {
@@ -676,7 +692,7 @@ extra
 OsExtraData
 :
 :
-default
+init
 (
 )
 registry
@@ -689,7 +705,7 @@ new
 OsStorage
 :
 :
-default
+init
 (
 )
 )
@@ -719,7 +735,7 @@ Send
 +
 Sync
 +
-Default
+Init
 OsStorage
 :
 '
@@ -729,7 +745,7 @@ Send
 +
 Sync
 +
-Default
+Init
 {
 static
 GLOBALS

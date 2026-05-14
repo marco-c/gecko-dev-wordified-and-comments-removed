@@ -43,11 +43,6 @@ windows
 target_os
 =
 "
-horizon
-"
-target_os
-=
-"
 redox
 "
 target_os
@@ -110,6 +105,11 @@ NoArg
 :
 :
 <
+ioctl
+:
+:
+BadOpcode
+<
 {
 c
 :
@@ -118,6 +118,7 @@ TIOCEXCL
 as
 _
 }
+>
 >
 :
 :
@@ -144,11 +145,6 @@ not
 any
 (
 windows
-target_os
-=
-"
-horizon
-"
 target_os
 =
 "
@@ -214,6 +210,11 @@ NoArg
 :
 :
 <
+ioctl
+:
+:
+BadOpcode
+<
 {
 c
 :
@@ -222,6 +223,7 @@ TIOCNXCL
 as
 _
 }
+>
 >
 :
 :

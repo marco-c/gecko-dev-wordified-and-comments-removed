@@ -4516,15 +4516,7 @@ SHGetKnownFolderPath
 &
 FOLDERID_RoamingAppData
 0
-std
-:
-:
-ptr
-:
-:
-null_mut
-(
-)
+0
 &
 mut
 path

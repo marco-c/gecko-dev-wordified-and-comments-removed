@@ -1,19 +1,8 @@
 use
-http
-:
-:
 {
+Header
 HeaderName
 HeaderValue
-}
-;
-use
-crate
-:
-:
-{
-Error
-Header
 }
 ;
 #
@@ -86,6 +75,8 @@ I
 Result
 <
 Self
+:
+:
 Error
 >
 {
@@ -123,6 +114,8 @@ None
 .
 ok_or_else
 (
+:
+:
 Error
 :
 :
@@ -136,6 +129,8 @@ E
 :
 Extend
 <
+:
+:
 HeaderValue
 >
 >

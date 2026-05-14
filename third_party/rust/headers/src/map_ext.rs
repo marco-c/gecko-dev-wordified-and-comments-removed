@@ -8,6 +8,9 @@ Header
 HeaderValue
 }
 ;
+use
+http
+;
 pub
 trait
 HeaderMapExt
@@ -330,6 +333,10 @@ HeaderValue
 Tmp
 }
 impl
+<
+'
+a
+>
 Extend
 <
 HeaderValue
@@ -338,7 +345,7 @@ for
 ToValues
 <
 '
-_
+a
 >
 {
 fn

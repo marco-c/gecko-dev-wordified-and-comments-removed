@@ -1023,7 +1023,7 @@ new
 ;
 let
 mut
-threads
+ths
 =
 vec
 !
@@ -1056,7 +1056,7 @@ clone
 (
 )
 ;
-threads
+ths
 .
 push
 (
@@ -1159,15 +1159,15 @@ usize
 ;
 }
 for
-thread
+th
 in
-threads
+ths
 .
 into_iter
 (
 )
 {
-thread
+th
 .
 join
 (

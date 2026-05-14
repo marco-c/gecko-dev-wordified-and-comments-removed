@@ -178,13 +178,10 @@ ptr
 |
 f
 (
-unsafe
-{
 &
 mut
 *
 ptr
-}
 )
 )
 }
