@@ -161,6 +161,17 @@ tests
 moreFromMozilla
 /
 browser
+-
+srd
+.
+toml
+"
+"
+tests
+/
+moreFromMozilla
+/
+browser
 .
 toml
 "
