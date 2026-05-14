@@ -167,14 +167,6 @@ org
 .
 junit
 .
-Assert
-.
-assertNotNull
-import
-org
-.
-junit
-.
 Before
 import
 org
@@ -190,6 +182,12 @@ junit
 runner
 .
 RunWith
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4

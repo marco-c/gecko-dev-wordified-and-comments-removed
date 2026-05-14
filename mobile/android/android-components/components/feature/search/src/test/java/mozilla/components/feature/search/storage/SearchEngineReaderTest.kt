@@ -209,14 +209,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertThrows
 import
 org
@@ -264,6 +256,12 @@ java
 util
 .
 Locale
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4

@@ -225,14 +225,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -288,6 +280,12 @@ fenix
 utils
 .
 LastSavedFolderCache
+import
+kotlin
+.
+test
+.
+assertNotNull
 class
 BookmarksMiddlewareTest
 {

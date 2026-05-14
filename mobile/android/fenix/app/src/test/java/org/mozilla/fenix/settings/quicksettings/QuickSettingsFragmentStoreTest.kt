@@ -253,14 +253,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNotSame
 import
 org
@@ -434,6 +426,12 @@ org
 robolectric
 .
 RobolectricTestRunner
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 RobolectricTestRunner

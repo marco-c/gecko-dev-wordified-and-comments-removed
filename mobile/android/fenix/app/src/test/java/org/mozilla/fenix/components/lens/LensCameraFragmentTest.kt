@@ -261,14 +261,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -350,6 +342,12 @@ util
 concurrent
 .
 ExecutorService
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 RobolectricTestRunner

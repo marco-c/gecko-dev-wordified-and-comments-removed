@@ -135,14 +135,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -250,6 +242,12 @@ fenix
 messaging
 .
 MessagingState
+import
+kotlin
+.
+test
+.
+assertNotNull
 class
 MessagingReducerTest
 {

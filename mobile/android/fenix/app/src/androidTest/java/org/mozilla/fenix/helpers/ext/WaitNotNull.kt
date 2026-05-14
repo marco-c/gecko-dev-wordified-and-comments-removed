@@ -91,14 +91,6 @@ UiDevice
 import
 org
 .
-junit
-.
-Assert
-.
-assertNotNull
-import
-org
-.
 mozilla
 .
 fenix
@@ -118,6 +110,12 @@ fenix
 helpers
 .
 TestAssetHelper
+import
+kotlin
+.
+test
+.
+assertNotNull
 /
 *
 *

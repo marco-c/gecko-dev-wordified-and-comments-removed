@@ -97,14 +97,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertTrue
 import
 org
@@ -118,6 +110,12 @@ java
 lang
 .
 IllegalArgumentException
+import
+kotlin
+.
+test
+.
+assertNotNull
 class
 HeadersTest
 {

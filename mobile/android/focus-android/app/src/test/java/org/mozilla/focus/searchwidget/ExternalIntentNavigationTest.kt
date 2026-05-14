@@ -169,14 +169,6 @@ org
 .
 junit
 .
-Assert
-.
-assertNotNull
-import
-org
-.
-junit
-.
 Rule
 import
 org
@@ -364,6 +356,12 @@ robolectric
 annotation
 .
 Implements
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 RobolectricTestRunner

@@ -143,14 +143,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -210,6 +202,12 @@ util
 Calendar
 .
 MILLISECOND
+import
+kotlin
+.
+test
+.
+assertNotNull
 const
 val
 PUNYCODE

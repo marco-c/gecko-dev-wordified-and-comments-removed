@@ -3039,6 +3039,12 @@ uiautomator
 androidTestImplementation
 libs
 .
+kotlin
+.
+test
+androidTestImplementation
+libs
+.
 mockwebserver
 androidTestImplementation
 libs

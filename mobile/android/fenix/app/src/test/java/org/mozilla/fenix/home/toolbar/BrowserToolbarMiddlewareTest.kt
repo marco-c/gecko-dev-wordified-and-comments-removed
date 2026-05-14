@@ -637,14 +637,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -1152,6 +1144,12 @@ fenix
 utils
 .
 Settings
+import
+kotlin
+.
+test
+.
+assertNotNull
 import
 mozilla
 .

@@ -131,14 +131,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertTrue
 import
 org
@@ -172,6 +164,12 @@ java
 io
 .
 FileInputStream
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 ParameterizedRobolectricTestRunner

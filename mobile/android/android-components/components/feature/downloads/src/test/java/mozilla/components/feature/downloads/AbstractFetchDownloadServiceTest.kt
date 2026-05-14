@@ -801,14 +801,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertTrue
 import
 org
@@ -1070,6 +1062,12 @@ kotlin
 random
 .
 Random
+import
+kotlin
+.
+test
+.
+assertNotNull
 import
 kotlin
 .

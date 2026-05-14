@@ -133,6 +133,12 @@ vintage
 testImplementation
 libs
 .
+kotlin
+.
+test
+testImplementation
+libs
+.
 mockito
 }
 apply

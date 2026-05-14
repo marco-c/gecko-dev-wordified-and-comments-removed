@@ -85,14 +85,6 @@ UiDevice
 import
 org
 .
-junit
-.
-Assert
-.
-assertNotNull
-import
-org
-.
 mozilla
 .
 focus
@@ -100,6 +92,12 @@ focus
 helpers
 .
 TestHelper
+import
+kotlin
+.
+test
+.
+assertNotNull
 /
 *
 *

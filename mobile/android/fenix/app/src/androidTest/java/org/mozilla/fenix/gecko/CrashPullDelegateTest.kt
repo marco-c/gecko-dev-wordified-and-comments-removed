@@ -135,14 +135,6 @@ org
 .
 junit
 .
-Assert
-.
-assertNotNull
-import
-org
-.
-junit
-.
 Before
 import
 org
@@ -160,6 +152,12 @@ fenix
 helpers
 .
 TestHelper
+import
+kotlin
+.
+test
+.
+assertNotNull
 class
 CrashPullDelegateTest
 {

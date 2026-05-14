@@ -349,6 +349,12 @@ vintage
 testImplementation
 libs
 .
+kotlin
+.
+test
+testImplementation
+libs
+.
 kotlinx
 .
 coroutines
@@ -420,6 +426,12 @@ androidx
 test
 .
 runner
+androidTestImplementation
+libs
+.
+kotlin
+.
+test
 androidTestImplementation
 libs
 .

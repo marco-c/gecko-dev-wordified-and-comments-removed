@@ -297,6 +297,12 @@ junit
 testImplementation
 libs
 .
+kotlin
+.
+test
+testImplementation
+libs
+.
 kotlinx
 .
 coroutines
@@ -396,6 +402,12 @@ androidx
 test
 .
 uiautomator
+androidTestImplementation
+libs
+.
+kotlin
+.
+test
 androidTestImplementation
 libs
 .

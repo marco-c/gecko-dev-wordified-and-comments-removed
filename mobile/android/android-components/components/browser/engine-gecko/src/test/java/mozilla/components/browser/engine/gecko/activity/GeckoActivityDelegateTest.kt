@@ -133,14 +133,6 @@ org
 .
 junit
 .
-Assert
-.
-assertNotNull
-import
-org
-.
-junit
-.
 Before
 import
 org
@@ -180,6 +172,12 @@ lang
 ref
 .
 WeakReference
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4

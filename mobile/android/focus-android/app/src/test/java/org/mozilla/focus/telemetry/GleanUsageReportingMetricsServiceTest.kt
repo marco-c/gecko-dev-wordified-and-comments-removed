@@ -79,14 +79,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -162,6 +154,12 @@ telemetry
 fake
 .
 FakeLifecycleOwner
+import
+kotlin
+.
+test
+.
+assertNotNull
 internal
 class
 GleanUsageReportingMetricsServiceTest

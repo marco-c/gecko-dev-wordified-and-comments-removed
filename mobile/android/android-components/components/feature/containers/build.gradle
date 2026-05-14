@@ -368,6 +368,12 @@ runner
 androidTestImplementation
 libs
 .
+kotlin
+.
+test
+androidTestImplementation
+libs
+.
 kotlinx
 .
 coroutines

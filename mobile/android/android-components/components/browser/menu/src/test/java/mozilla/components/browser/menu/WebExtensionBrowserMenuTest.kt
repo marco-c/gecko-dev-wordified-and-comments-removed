@@ -373,14 +373,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertTrue
 import
 org
@@ -408,6 +400,12 @@ kotlin
 coroutines
 .
 ContinuationInterceptor
+import
+kotlin
+.
+test
+.
+assertNotNull
 import
 mozilla
 .

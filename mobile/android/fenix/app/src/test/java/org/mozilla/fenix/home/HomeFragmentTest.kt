@@ -103,14 +103,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -190,6 +182,12 @@ fenix
 wallpapers
 .
 Wallpaper
+import
+kotlin
+.
+test
+.
+assertNotNull
 class
 HomeFragmentTest
 {

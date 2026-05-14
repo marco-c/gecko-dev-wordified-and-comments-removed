@@ -139,14 +139,6 @@ org
 .
 junit
 .
-Assert
-.
-assertNotNull
-import
-org
-.
-junit
-.
 Test
 import
 org
@@ -164,6 +156,12 @@ mockito
 Mockito
 .
 when
+import
+kotlin
+.
+test
+.
+assertNotNull
 class
 PinnedSitesStorageTest
 {

@@ -131,14 +131,6 @@ org
 .
 junit
 .
-Assert
-.
-assertNotNull
-import
-org
-.
-junit
-.
 Test
 import
 org
@@ -172,6 +164,12 @@ mockito
 Mockito
 .
 spy
+import
+kotlin
+.
+test
+.
+assertNotNull
 class
 ColorProcessorTest
 {

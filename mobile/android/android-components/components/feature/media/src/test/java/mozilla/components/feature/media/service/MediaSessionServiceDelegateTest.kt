@@ -485,14 +485,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -580,6 +572,12 @@ robolectric
 annotation
 .
 Config
+import
+kotlin
+.
+test
+.
+assertNotNull
 import
 android
 .

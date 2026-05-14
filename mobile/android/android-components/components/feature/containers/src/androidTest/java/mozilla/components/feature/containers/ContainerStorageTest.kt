@@ -167,14 +167,6 @@ org
 .
 junit
 .
-Assert
-.
-assertNotNull
-import
-org
-.
-junit
-.
 Before
 import
 org
@@ -182,6 +174,12 @@ org
 junit
 .
 Test
+import
+kotlin
+.
+test
+.
+assertNotNull
 Suppress
 (
 "

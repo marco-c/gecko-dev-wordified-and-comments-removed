@@ -163,14 +163,6 @@ org
 .
 junit
 .
-Assert
-.
-assertNotNull
-import
-org
-.
-junit
-.
 Before
 import
 org
@@ -204,6 +196,12 @@ fenix
 helpers
 .
 MockkRetryTestRule
+import
+kotlin
+.
+test
+.
+assertNotNull
 class
 ExceptionsListItemViewHolderTest
 {

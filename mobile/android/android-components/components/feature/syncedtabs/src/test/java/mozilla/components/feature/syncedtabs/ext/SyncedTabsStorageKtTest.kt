@@ -133,14 +133,6 @@ org
 .
 junit
 .
-Assert
-.
-assertNotNull
-import
-org
-.
-junit
-.
 Test
 import
 org
@@ -150,6 +142,12 @@ mockito
 Mockito
 .
 doReturn
+import
+kotlin
+.
+test
+.
+assertNotNull
 class
 SyncedTabsStorageKtTest
 {

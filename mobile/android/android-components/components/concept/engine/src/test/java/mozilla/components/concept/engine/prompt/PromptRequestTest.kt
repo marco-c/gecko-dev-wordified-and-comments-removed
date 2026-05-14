@@ -393,14 +393,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -422,6 +414,12 @@ java
 util
 .
 Date
+import
+kotlin
+.
+test
+.
+assertNotNull
 class
 PromptRequestTest
 {

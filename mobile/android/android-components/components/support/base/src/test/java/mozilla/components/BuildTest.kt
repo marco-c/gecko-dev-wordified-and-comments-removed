@@ -67,14 +67,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertTrue
 import
 org
@@ -82,6 +74,12 @@ org
 junit
 .
 Test
+import
+kotlin
+.
+test
+.
+assertNotNull
 class
 BuildTest
 {

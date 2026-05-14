@@ -193,14 +193,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertTrue
 import
 org
@@ -224,6 +216,12 @@ mockito
 Mockito
 .
 verifyNoMoreInteractions
+import
+kotlin
+.
+test
+.
+assertNotNull
 class
 TabsTrayPresenterTest
 {

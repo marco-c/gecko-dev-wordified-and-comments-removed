@@ -191,14 +191,6 @@ org
 .
 junit
 .
-Assert
-.
-assertNotNull
-import
-org
-.
-junit
-.
 Test
 import
 org
@@ -224,6 +216,12 @@ mozilla
 geckoview
 .
 GeckoRuntime
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
