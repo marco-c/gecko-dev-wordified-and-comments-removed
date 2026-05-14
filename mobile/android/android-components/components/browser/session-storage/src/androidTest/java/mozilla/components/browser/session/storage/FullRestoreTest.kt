@@ -189,14 +189,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -218,6 +210,12 @@ util
 concurrent
 .
 TimeoutException
+import
+kotlin
+.
+test
+.
+assertNotNull
 class
 FullRestoreTest
 {
@@ -1159,8 +1157,6 @@ newUseCases
 restore
 (
 browsingSession
-!
-!
 )
 waitFor
 {

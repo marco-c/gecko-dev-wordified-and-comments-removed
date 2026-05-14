@@ -143,14 +143,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -178,6 +170,12 @@ kotlin
 reflect
 .
 KVisibility
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -275,8 +273,6 @@ assertEquals
 (
 5
 actualStories
-!
-!
 .
 size
 )

@@ -121,14 +121,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -174,6 +166,12 @@ fenix
 GleanMetrics
 .
 Onboarding
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -275,8 +273,6 @@ privacyPreferencesModalCrashReportingEnabled
 testGetValue
 (
 )
-!
-!
 assertNotNull
 (
 event
@@ -373,8 +369,6 @@ privacyPreferencesModalUsageDataEnabled
 testGetValue
 (
 )
-!
-!
 assertNotNull
 (
 event
@@ -469,8 +463,6 @@ privacyPreferencesModalCrashReportingLearnMore
 testGetValue
 (
 )
-!
-!
 assertNotNull
 (
 event
@@ -539,8 +531,6 @@ privacyPreferencesModalUsageDataLearnMore
 testGetValue
 (
 )
-!
-!
 assertNotNull
 (
 event

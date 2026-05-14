@@ -271,14 +271,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -326,6 +318,12 @@ mockito
 Mockito
 .
 verify
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -574,8 +572,6 @@ restore
 assertNotNull
 (
 restoredState
-!
-!
 )
 assertEquals
 (
@@ -860,8 +856,6 @@ context
 assertNotNull
 (
 restoredState
-!
-!
 )
 /
 /
@@ -1145,8 +1139,6 @@ restore
 assertNotNull
 (
 restoredState
-!
-!
 )
 /
 /
@@ -4118,8 +4110,6 @@ assertEquals
 (
 2
 browsingSession
-!
-!
 .
 tabs
 .
@@ -5750,8 +5740,6 @@ assertEquals
 (
 2
 browsingSession
-!
-!
 .
 tabs
 .
@@ -6209,8 +6197,6 @@ assertEquals
 (
 2
 browsingSession
-!
-!
 .
 tabs
 .
@@ -6476,8 +6462,6 @@ restore
 assertNotNull
 (
 browsingSession
-!
-!
 )
 assertEquals
 (
@@ -6687,8 +6671,6 @@ restore
 assertNotNull
 (
 browsingSession
-!
-!
 )
 assertEquals
 (

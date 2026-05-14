@@ -279,14 +279,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertTrue
 import
 org
@@ -330,6 +322,12 @@ org
 robolectric
 .
 RobolectricTestRunner
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 RobolectricTestRunner
@@ -2512,8 +2510,6 @@ action
 assertEquals
 (
 createdTab
-!
-!
 .
 id
 action
@@ -2647,8 +2643,6 @@ action
 assertEquals
 (
 createdTab
-!
-!
 .
 id
 action

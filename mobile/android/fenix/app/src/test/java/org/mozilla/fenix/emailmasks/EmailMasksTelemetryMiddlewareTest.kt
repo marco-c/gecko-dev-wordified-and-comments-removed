@@ -101,14 +101,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -218,6 +210,12 @@ org
 robolectric
 .
 RobolectricTestRunner
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 RobolectricTestRunner
@@ -651,8 +649,6 @@ assertEquals
 (
 1
 snapshot
-!
-!
 .
 size
 )
@@ -703,8 +699,6 @@ assertEquals
 (
 value
 extras
-!
-!
 [
 key
 ]

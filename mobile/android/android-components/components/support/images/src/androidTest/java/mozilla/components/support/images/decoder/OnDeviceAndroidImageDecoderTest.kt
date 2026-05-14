@@ -89,15 +89,13 @@ org
 .
 junit
 .
-Assert
+Test
+import
+kotlin
+.
+test
 .
 assertNotNull
-import
-org
-.
-junit
-.
-Test
 class
 OnDeviceAndroidImageDecoderTest
 {
@@ -151,8 +149,6 @@ maxScaleFactor
 assertNotNull
 (
 bitmap
-!
-!
 )
 assertEquals
 (
@@ -219,8 +215,6 @@ maxScaleFactor
 assertNotNull
 (
 bitmap
-!
-!
 )
 /
 /
@@ -294,8 +288,6 @@ maxScaleFactor
 assertNotNull
 (
 bitmap
-!
-!
 )
 assertEquals
 (
@@ -362,8 +354,6 @@ maxScaleFactor
 assertNotNull
 (
 bitmap
-!
-!
 )
 assertEquals
 (
@@ -430,8 +420,6 @@ maxScaleFactor
 assertNotNull
 (
 bitmap
-!
-!
 )
 /
 /

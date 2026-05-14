@@ -935,14 +935,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertTrue
 import
 org
@@ -1044,6 +1036,12 @@ kotlin
 test
 .
 assertIs
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -16195,8 +16193,6 @@ prompt
 assertFalse
 (
 prompt
-!
-!
 .
 shouldDismissOnLoad
 )

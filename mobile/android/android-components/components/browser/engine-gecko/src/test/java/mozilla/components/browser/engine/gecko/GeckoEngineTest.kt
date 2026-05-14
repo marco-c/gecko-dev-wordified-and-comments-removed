@@ -735,14 +735,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNotSame
 import
 org
@@ -1200,6 +1192,12 @@ kotlin
 test
 .
 assertIs
+import
+kotlin
+.
+test
+.
+assertNotNull
 import
 org
 .
@@ -15845,8 +15843,6 @@ webExtensionsDelegate
 onAllowedInPrivateBrowsingChanged
 (
 result
-!
-!
 )
 }
 Test
@@ -19134,8 +19130,6 @@ events
 assertTrue
 (
 events
-!
-!
 .
 isEmpty
 (

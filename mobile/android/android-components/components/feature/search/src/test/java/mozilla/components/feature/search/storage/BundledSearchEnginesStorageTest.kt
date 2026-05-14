@@ -145,14 +145,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertTrue
 import
 org
@@ -174,6 +166,12 @@ java
 util
 .
 Locale
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -906,8 +904,6 @@ assertEquals
 baidu
 "
 default
-!
-!
 .
 id
 )
@@ -1049,8 +1045,6 @@ com
 nocodes
 "
 default
-!
-!
 .
 id
 )
@@ -1228,8 +1222,6 @@ b
 m
 "
 default
-!
-!
 .
 id
 )
@@ -1471,8 +1463,6 @@ Google
 assertNotNull
 (
 google
-!
-!
 )
 assertEquals
 (

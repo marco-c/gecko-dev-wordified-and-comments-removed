@@ -231,14 +231,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -340,6 +332,12 @@ concurrent
 atomic
 .
 AtomicInteger
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -474,8 +472,6 @@ fetchRegion
 assertNotNull
 (
 region
-!
-!
 )
 assertEquals
 (
@@ -724,8 +720,6 @@ fetchRegion
 assertNotNull
 (
 region
-!
-!
 )
 assertEquals
 (
@@ -1493,8 +1487,6 @@ fetchRegion
 assertNotNull
 (
 region
-!
-!
 )
 assertEquals
 (
@@ -1560,8 +1552,6 @@ fetchRegion
 assertNotNull
 (
 region
-!
-!
 )
 assertEquals
 (
@@ -1733,8 +1723,6 @@ fetchRegion
 assertNotNull
 (
 region
-!
-!
 )
 assertEquals
 (
@@ -1881,8 +1869,6 @@ false
 assertNotNull
 (
 region
-!
-!
 )
 assertEquals
 (
@@ -2063,8 +2049,6 @@ true
 assertNotNull
 (
 region
-!
-!
 )
 assertEquals
 (
@@ -2240,8 +2224,6 @@ true
 assertNotNull
 (
 region
-!
-!
 )
 assertEquals
 (
@@ -2424,8 +2406,6 @@ true
 assertNotNull
 (
 region
-!
-!
 )
 assertEquals
 (
@@ -2601,8 +2581,6 @@ true
 assertNotNull
 (
 region
-!
-!
 )
 assertEquals
 (
@@ -2827,8 +2805,6 @@ assertEquals
 CA
 "
 region
-!
-!
 .
 countryCode
 )
@@ -3345,8 +3321,6 @@ assertEquals
 DE
 "
 cached
-!
-!
 .
 countryCode
 )

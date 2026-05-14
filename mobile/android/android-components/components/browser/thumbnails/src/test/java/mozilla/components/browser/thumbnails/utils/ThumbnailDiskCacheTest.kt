@@ -161,14 +161,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -210,6 +202,12 @@ java
 io
 .
 OutputStream
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -375,8 +373,6 @@ request
 assertNotNull
 (
 data
-!
-!
 )
 Assert
 .
@@ -456,8 +452,6 @@ request
 assertNotNull
 (
 data
-!
-!
 )
 cache
 .
@@ -546,8 +540,6 @@ request
 assertNotNull
 (
 data
-!
-!
 )
 cache
 .

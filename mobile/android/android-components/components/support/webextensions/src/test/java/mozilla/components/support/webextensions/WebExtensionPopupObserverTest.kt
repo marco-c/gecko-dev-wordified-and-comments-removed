@@ -163,14 +163,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -178,6 +170,12 @@ org
 junit
 .
 Test
+import
+kotlin
+.
+test
+.
+assertNotNull
 class
 WebExtensionPopupObserverTest
 {
@@ -308,8 +306,6 @@ assertEquals
 (
 extensionId
 extensionOpeningPopup
-!
-!
 .
 id
 )

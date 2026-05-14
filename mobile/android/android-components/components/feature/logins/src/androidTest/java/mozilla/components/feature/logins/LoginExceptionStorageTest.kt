@@ -203,14 +203,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -246,6 +238,12 @@ util
 concurrent
 .
 Executors
+import
+kotlin
+.
+test
+.
+assertNotNull
 Suppress
 (
 "
@@ -663,8 +661,6 @@ mozilla
 org
 "
 exception
-!
-!
 .
 origin
 )

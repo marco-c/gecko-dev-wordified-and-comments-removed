@@ -115,14 +115,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNotSame
 import
 org
@@ -176,6 +168,12 @@ mozilla
 geckoview
 .
 GeckoRuntime
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -382,8 +380,6 @@ speculativeEngineSession
 assertFalse
 (
 speculativeSession
-!
-!
 .
 engineSession
 .
@@ -474,8 +470,6 @@ speculativeSession
 assertFalse
 (
 speculativeSession
-!
-!
 .
 isObserved
 (
@@ -569,8 +563,6 @@ test
 assertFalse
 (
 speculativeSession
-!
-!
 .
 engineSession
 .

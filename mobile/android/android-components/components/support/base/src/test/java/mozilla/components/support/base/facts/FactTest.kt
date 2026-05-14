@@ -107,14 +107,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertTrue
 import
 org
@@ -136,6 +128,12 @@ mockito
 Mockito
 .
 verify
+import
+kotlin
+.
+test
+.
+assertNotNull
 class
 FactTest
 {
@@ -307,8 +305,6 @@ assertEquals
 fact
 .
 metadata
-!
-!
 .
 size
 )

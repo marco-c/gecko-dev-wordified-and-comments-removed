@@ -175,14 +175,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -222,6 +214,12 @@ robolectric
 annotation
 .
 Config
+import
+kotlin
+.
+test
+.
+assertNotNull
 Suppress
 (
 "
@@ -378,8 +376,6 @@ packageName
 browsers
 .
 defaultBrowser
-!
-!
 .
 packageName
 )
@@ -401,8 +397,6 @@ packageName
 browsers
 .
 mozillaBrandedBrowser
-!
-!
 .
 packageName
 )
@@ -544,8 +538,6 @@ packageName
 browsers
 .
 defaultBrowser
-!
-!
 .
 packageName
 )
@@ -567,8 +559,6 @@ packageName
 browsers
 .
 mozillaBrandedBrowser
-!
-!
 .
 packageName
 )
@@ -1868,8 +1858,6 @@ packageName
 browsers
 .
 defaultBrowser
-!
-!
 .
 packageName
 )
@@ -1891,8 +1879,6 @@ packageName
 browsers
 .
 mozillaBrandedBrowser
-!
-!
 .
 packageName
 )

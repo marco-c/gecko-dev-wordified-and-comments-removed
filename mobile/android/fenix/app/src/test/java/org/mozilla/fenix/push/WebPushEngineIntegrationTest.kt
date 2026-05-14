@@ -251,14 +251,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -296,6 +288,12 @@ fenix
 helpers
 .
 MockkRetryTestRule
+import
+kotlin
+.
+test
+.
+assertNotNull
 class
 WebPushEngineIntegrationTest
 {
@@ -1115,8 +1113,6 @@ unsubscribeSuccess
 assertFalse
 (
 unsubscribeSuccess
-!
-!
 )
 onUnsubscribeInvoked
 =

@@ -121,14 +121,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -160,6 +152,12 @@ mockito
 Mockito
 .
 doReturn
+import
+kotlin
+.
+test
+.
+assertNotNull
 private
 val
 TEST_JSON
@@ -495,8 +493,6 @@ assertEquals
 facebook
 "
 entry
-!
-!
 .
 domain
 )

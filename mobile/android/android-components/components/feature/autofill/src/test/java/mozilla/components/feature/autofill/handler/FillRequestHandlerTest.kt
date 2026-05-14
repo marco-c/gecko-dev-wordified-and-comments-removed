@@ -297,14 +297,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -356,6 +348,12 @@ java
 util
 .
 UUID
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 RobolectricTestRunner
@@ -434,8 +432,6 @@ builder
 assertNotNull
 (
 builder
-!
-!
 )
 assertEquals
 (
@@ -600,8 +596,6 @@ builder
 assertNotNull
 (
 builder
-!
-!
 )
 assertEquals
 (
@@ -829,8 +823,6 @@ builder
 assertNotNull
 (
 builder
-!
-!
 )
 assertEquals
 (
@@ -914,8 +906,6 @@ builder
 assertNotNull
 (
 builder
-!
-!
 )
 assertEquals
 (
@@ -999,8 +989,6 @@ builder
 assertNotNull
 (
 builder
-!
-!
 )
 assertEquals
 (
@@ -1096,8 +1084,6 @@ builder
 assertNotNull
 (
 builder
-!
-!
 )
 assertEquals
 (
@@ -1184,8 +1170,6 @@ builder
 assertNotNull
 (
 builder
-!
-!
 )
 assertEquals
 (

@@ -221,14 +221,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertTrue
 import
 org
@@ -245,13 +237,11 @@ runner
 .
 RunWith
 import
-org
+kotlin
 .
-mockito
+test
 .
-Mockito
-.
-mock
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -1085,8 +1075,6 @@ selectedTab
 assertEquals
 (
 selectedTab
-!
-!
 .
 id
 store
@@ -1245,8 +1233,6 @@ selectedTab
 assertEquals
 (
 selectedTab
-!
-!
 .
 id
 store
@@ -1439,8 +1425,6 @@ selectedTab
 assertEquals
 (
 selectedTab
-!
-!
 .
 id
 store
@@ -1825,8 +1809,6 @@ selectedTab
 assertEquals
 (
 selectedTab
-!
-!
 .
 id
 store
@@ -2019,8 +2001,6 @@ restoredTab2
 assertNotEquals
 (
 restoredTab2
-!
-!
 .
 lastAccess
 lastAccess
@@ -2044,8 +2024,6 @@ recentTime
 assertEquals
 (
 restoredTab1
-!
-!
 .
 lastAccess
 lastAccess

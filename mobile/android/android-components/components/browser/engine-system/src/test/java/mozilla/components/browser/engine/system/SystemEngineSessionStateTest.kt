@@ -131,14 +131,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertTrue
 import
 org
@@ -160,6 +152,12 @@ java
 io
 .
 ByteArrayOutputStream
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -532,8 +530,6 @@ bundle
 assertNotNull
 (
 bundle
-!
-!
 )
 assertEquals
 (
@@ -886,8 +882,6 @@ bundle
 assertNotNull
 (
 bundle
-!
-!
 )
 assertEquals
 (

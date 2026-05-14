@@ -539,14 +539,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -690,6 +682,12 @@ kotlin
 test
 .
 assertIs
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -3753,8 +3751,6 @@ response
 assertNull
 (
 response
-!
-!
 .
 data
 )
@@ -3833,8 +3829,6 @@ response
 assertNull
 (
 response
-!
-!
 .
 data
 )
@@ -3943,8 +3937,6 @@ response
 assertNull
 (
 response
-!
-!
 .
 data
 )
@@ -5504,8 +5496,6 @@ response
 assertNull
 (
 response
-!
-!
 .
 data
 )

@@ -223,14 +223,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertTrue
 import
 org
@@ -318,6 +310,12 @@ java
 io
 .
 IOException
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 RobolectricTestRunner
@@ -653,8 +651,6 @@ preferenceAmoCollectionOverride
 assertFalse
 (
 preferenceAmoCollectionOverride
-!
-!
 .
 isVisible
 )
@@ -814,8 +810,6 @@ preference
 assertFalse
 (
 preference
-!
-!
 .
 isVisible
 )
@@ -973,8 +967,6 @@ preferenceAmoCollectionOverride
 assertFalse
 (
 preferenceAmoCollectionOverride
-!
-!
 .
 isVisible
 )
@@ -1170,8 +1162,6 @@ preferenceAmoCollectionOverride
 assertFalse
 (
 preferenceAmoCollectionOverride
-!
-!
 .
 isVisible
 )

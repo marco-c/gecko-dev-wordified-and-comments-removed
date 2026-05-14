@@ -135,14 +135,6 @@ org
 .
 junit
 .
-Assert
-.
-assertNotNull
-import
-org
-.
-junit
-.
 Rule
 import
 org
@@ -282,6 +274,12 @@ fenix
 telemetry
 .
 SOURCE_NAVIGATION_BAR
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -699,8 +697,6 @@ val
 last
 =
 values
-!
-!
 .
 last
 (

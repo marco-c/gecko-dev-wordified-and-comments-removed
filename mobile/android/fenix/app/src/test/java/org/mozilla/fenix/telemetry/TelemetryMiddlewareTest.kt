@@ -375,14 +375,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -564,6 +556,12 @@ robolectric
 shadows
 .
 ShadowLooper
+import
+kotlin
+.
+test
+.
+assertNotNull
 import
 org
 .
@@ -2321,8 +2319,6 @@ assertEquals
 (
 1
 recordedEvents
-!
-!
 .
 size
 )
@@ -2509,8 +2505,6 @@ val
 duration
 =
 recordedEvents
-!
-!
 [
 0
 ]
@@ -2543,8 +2537,6 @@ got
 duration
 "
 duration
-!
-!
 in
 298
 .
@@ -2674,8 +2666,6 @@ assertEquals
 1
 "
 recordedEvents
-!
-!
 [
 0
 ]
@@ -2948,8 +2938,6 @@ assertEquals
 (
 2
 recordedEvents
-!
-!
 .
 size
 )
@@ -3042,8 +3030,6 @@ got
 switchedDuration
 "
 switchedDuration
-!
-!
 in
 1198
 .
@@ -3071,8 +3057,6 @@ got
 foregroundDuration
 "
 foregroundDuration
-!
-!
 in
 598
 .
@@ -3238,8 +3222,6 @@ assertEquals
 (
 1
 recordedEvents
-!
-!
 .
 size
 )
@@ -4233,8 +4215,6 @@ recordedEventsBefore
 +
 1
 recordedEventsAfter
-!
-!
 .
 size
 )

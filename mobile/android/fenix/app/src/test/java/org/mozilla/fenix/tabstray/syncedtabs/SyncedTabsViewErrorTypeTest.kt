@@ -115,14 +115,6 @@ org
 .
 junit
 .
-Assert
-.
-assertNotNull
-import
-org
-.
-junit
-.
 Test
 import
 org
@@ -158,6 +150,12 @@ org
 robolectric
 .
 RobolectricTestRunner
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 RobolectricTestRunner
@@ -379,8 +377,6 @@ synced_tabs_sign_in_button
 syncUnavailable
 .
 errorButton
-!
-!
 .
 buttonText
 )

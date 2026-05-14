@@ -505,14 +505,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -588,6 +580,12 @@ java
 util
 .
 Locale
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -2383,8 +2381,6 @@ assertEquals
 (
 FONT_SIZE_DEFAULT
 config
-!
-!
 [
 ReaderViewFeature
 .
@@ -2507,8 +2503,6 @@ assertEquals
 (
 1234
 config
-!
-!
 [
 ReaderViewFeature
 .

@@ -35,12 +35,6 @@ org
 .
 json
 .
-JSONException
-import
-org
-.
-json
-.
 JSONObject
 import
 org
@@ -50,14 +44,6 @@ junit
 Assert
 .
 assertEquals
-import
-org
-.
-junit
-.
-Assert
-.
-assertNotNull
 import
 org
 .
@@ -92,6 +78,12 @@ org
 robolectric
 .
 RobolectricTestRunner
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 RobolectricTestRunner
@@ -276,8 +268,6 @@ assertEquals
 (
 1L
 result
-!
-!
 .
 schema
 )
@@ -330,8 +320,6 @@ png
 result
 .
 attachment
-!
-!
 .
 filename
 )
@@ -495,8 +483,6 @@ assertEquals
 (
 2L
 result
-!
-!
 .
 schema
 )

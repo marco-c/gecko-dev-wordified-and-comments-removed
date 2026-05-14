@@ -529,14 +529,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -636,6 +628,12 @@ kotlin
 test
 .
 assertIs
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -1589,8 +1587,6 @@ ext1
 addon1
 .
 installedState
-!
-!
 .
 id
 )
@@ -1724,8 +1720,6 @@ ext3
 addon3
 .
 installedState
-!
-!
 .
 id
 )
@@ -1828,8 +1822,6 @@ ext4
 addon4
 .
 installedState
-!
-!
 .
 id
 )
@@ -1913,8 +1905,6 @@ ext5
 addon5
 .
 installedState
-!
-!
 .
 id
 )
@@ -1998,8 +1988,6 @@ ext6
 addon6
 .
 installedState
-!
-!
 .
 id
 )
@@ -5094,8 +5082,6 @@ addon
 .
 id
 installedAddon
-!
-!
 .
 id
 )
@@ -5264,8 +5250,6 @@ test
 assertNotNull
 (
 throwable
-!
-!
 )
 assertTrue
 (
@@ -5594,8 +5578,6 @@ capture
 assertNotNull
 (
 throwable
-!
-!
 )
 assertEquals
 (
@@ -6056,8 +6038,6 @@ addon
 .
 id
 updateAddon
-!
-!
 .
 id
 )
@@ -6392,8 +6372,6 @@ addon
 .
 id
 updateAddon
-!
-!
 .
 id
 )
@@ -6642,8 +6620,6 @@ addon
 .
 id
 enabledAddon
-!
-!
 .
 id
 )
@@ -6795,8 +6771,6 @@ capture
 assertNotNull
 (
 throwable
-!
-!
 )
 assertEquals
 (
@@ -7174,8 +7148,6 @@ addon
 .
 id
 disabledAddon
-!
-!
 .
 id
 )
@@ -7327,8 +7299,6 @@ capture
 assertNotNull
 (
 throwable
-!
-!
 )
 assertEquals
 (
