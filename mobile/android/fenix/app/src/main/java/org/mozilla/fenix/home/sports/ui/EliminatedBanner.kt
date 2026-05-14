@@ -508,7 +508,7 @@ R
 .
 string
 .
-sports_widget_remove
+sports_widget_skip
 )
 onClick
 =
