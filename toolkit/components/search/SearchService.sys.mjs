@@ -4931,7 +4931,7 @@ extension
 *
 /
 async
-addEnginesFromExtension
+addEngineFromExtension
 (
 extension
 )
@@ -5094,7 +5094,7 @@ logConsole
 debug
 (
 "
-addEnginesFromExtension
+addEngineFromExtension
 :
 Queuing
 old
@@ -5119,7 +5119,7 @@ logConsole
 debug
 (
 "
-addEnginesFromExtension
+addEngineFromExtension
 :
 "
 extension
@@ -18913,7 +18913,7 @@ engines
 (
 as
 per
-addEnginesFromExtension
+addEngineFromExtension
 )
 the
 search

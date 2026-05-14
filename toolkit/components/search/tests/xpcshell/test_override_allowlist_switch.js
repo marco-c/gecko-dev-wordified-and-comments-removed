@@ -1325,7 +1325,7 @@ else
 await
 SearchService
 .
-addEnginesFromExtension
+addEngineFromExtension
 (
 extensionData
 )

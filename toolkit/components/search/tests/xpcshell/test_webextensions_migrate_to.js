@@ -67,11 +67,11 @@ oldFunc
 =
 SearchService
 .
-addEnginesFromExtension
+addEngineFromExtension
 ;
 SearchService
 .
-addEnginesFromExtension
+addEngineFromExtension
 =
 (
 )
@@ -114,7 +114,7 @@ com
 ;
 SearchService
 .
-addEnginesFromExtension
+addEngineFromExtension
 =
 oldFunc
 ;
