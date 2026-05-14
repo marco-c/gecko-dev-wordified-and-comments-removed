@@ -367,12 +367,10 @@ aFormat
 )
 ;
 void
-VSyncCallbackHandler
+FrameCallbackHandler
 (
 uint32_t
 aTime
-bool
-aEmulated
 )
 ;
 RefPtr
@@ -907,11 +905,6 @@ mSurface
 }
 bool
 IsMapped
-(
-)
-;
-bool
-IsVisible
 (
 )
 ;
