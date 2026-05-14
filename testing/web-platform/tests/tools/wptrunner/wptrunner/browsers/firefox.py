@@ -5785,11 +5785,11 @@ dirname
 (
 self
 .
-certutil_binary
+binary
 or
 self
 .
-binary
+certutil_binary
 )
         
 if
