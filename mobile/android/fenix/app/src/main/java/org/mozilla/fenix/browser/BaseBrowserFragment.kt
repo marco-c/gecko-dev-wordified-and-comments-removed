@@ -2662,7 +2662,7 @@ VariableNaming
 )
 internal
 var
-_browserToolbarView
+_browserToolbar
 :
 BrowserToolbarComposable
 ?
@@ -2679,14 +2679,14 @@ null
 VisibleForTesting
 internal
 val
-browserToolbarView
+browserToolbar
 :
 BrowserToolbarComposable
 get
 (
 )
 =
-_browserToolbarView
+_browserToolbar
 !
 !
 VisibleForTesting
@@ -4095,7 +4095,7 @@ view
 store
 )
 }
-_browserToolbarView
+_browserToolbar
 =
 initializeBrowserToolbar
 (
@@ -4164,7 +4164,7 @@ getEngineView
 )
 toolbar
 =
-browserToolbarView
+browserToolbar
 topToolbarHeight
 =
 {
@@ -5323,7 +5323,7 @@ browserToolbars
 =
 listOfNotNull
 (
-browserToolbarView
+browserToolbar
 _bottomToolbarContainerView
 ?
 .
@@ -6455,7 +6455,7 @@ requireComponents
 appStore
 toolbar
 =
-browserToolbarView
+browserToolbar
 components
 =
 requireComponents
@@ -8918,9 +8918,9 @@ isToolbarAtBottom
 (
 )
 val
-browserToolbar
+browserToolbarLayout
 =
-browserToolbarView
+browserToolbar
 .
 layout
 val
@@ -8955,7 +8955,7 @@ browserLayout
 .
 removeView
 (
-browserToolbar
+browserToolbarLayout
 )
 }
 else
@@ -9135,7 +9135,7 @@ factory
 _
 -
 >
-browserToolbar
+browserToolbarLayout
 }
 )
 }
@@ -9305,7 +9305,7 @@ removeBottomToolbarDivider
 (
 )
 {
-browserToolbarView
+browserToolbar
 .
 layout
 .
@@ -9913,7 +9913,7 @@ fullScreenChanged
 (
 false
 )
-browserToolbarView
+browserToolbar
 .
 expand
 (
@@ -11478,7 +11478,7 @@ expandBrowserView
 (
 )
 {
-browserToolbarView
+browserToolbar
 .
 apply
 {
@@ -11588,7 +11588,7 @@ if
 webAppToolbarShouldBeVisible
 )
 {
-browserToolbarView
+browserToolbar
 .
 visible
 (
@@ -11611,7 +11611,7 @@ true
 reinitializeEngineView
 (
 )
-browserToolbarView
+browserToolbar
 .
 expand
 (
@@ -11887,7 +11887,7 @@ null
 _bottomToolbarContainerView
 =
 null
-_browserToolbarView
+_browserToolbar
 =
 null
 awesomeBarComposable
@@ -12087,13 +12087,13 @@ Boolean
 {
 if
 (
-_browserToolbarView
+_browserToolbar
 !
 =
 null
 )
 {
-browserToolbarView
+browserToolbar
 .
 setToolbarBehavior
 (
@@ -12153,7 +12153,7 @@ isFullScreen
 true
 )
 {
-_browserToolbarView
+_browserToolbar
 ?
 .
 let
@@ -12541,7 +12541,7 @@ toolbarsResetCallback
 {
 onUpdateToolbarForConfigurationChange
 (
-browserToolbarView
+browserToolbar
 )
 collapseBrowserView
 (
@@ -12657,7 +12657,7 @@ _bottomToolbarContainerView
 ?
 .
 toolbarContainerView
-_browserToolbarView
+_browserToolbar
 ?
 .
 layout

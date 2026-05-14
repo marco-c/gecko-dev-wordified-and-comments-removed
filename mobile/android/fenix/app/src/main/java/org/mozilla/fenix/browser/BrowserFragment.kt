@@ -1459,7 +1459,7 @@ binding
 tabPreview
 toolbarLayout
 =
-browserToolbarView
+browserToolbar
 .
 layout
 navBarLayout
@@ -1523,7 +1523,7 @@ components
 appStore
 toolbarLayout
 =
-browserToolbarView
+browserToolbar
 .
 layout
 navBarLayout

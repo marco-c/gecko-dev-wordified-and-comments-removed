@@ -632,7 +632,7 @@ every
 {
 browserFragment
 .
-browserToolbarView
+browserToolbar
 }
 returns
 mockk
@@ -1128,7 +1128,7 @@ every
 {
 browserFragment
 .
-browserToolbarView
+browserToolbar
 }
 returns
 toolbar

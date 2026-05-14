@@ -3705,7 +3705,7 @@ view
 )
 {
 val
-browserToolbarView
+browserToolbar
 =
 mockk
 <
@@ -3759,9 +3759,9 @@ returns
 toolbarContainerView
 fragment
 .
-_browserToolbarView
+_browserToolbar
 =
-browserToolbarView
+browserToolbar
 fragment
 .
 _bottomToolbarContainerView
@@ -3779,7 +3779,7 @@ expandBrowserView
 )
 verify
 {
-browserToolbarView
+browserToolbar
 .
 gone
 (
@@ -3928,7 +3928,7 @@ reinitializeEngineView
 just
 Runs
 val
-browserToolbarView
+browserToolbar
 =
 mockk
 <
@@ -3982,9 +3982,9 @@ returns
 toolbarContainerView
 fragment
 .
-_browserToolbarView
+_browserToolbar
 =
-browserToolbarView
+browserToolbar
 fragment
 .
 _bottomToolbarContainerView
@@ -4010,7 +4010,7 @@ reinitializeEngineView
 }
 verify
 {
-browserToolbarView
+browserToolbar
 .
 visible
 (
@@ -4026,7 +4026,7 @@ true
 }
 verify
 {
-browserToolbarView
+browserToolbar
 .
 expand
 (
@@ -4081,7 +4081,7 @@ reinitializeEngineView
 just
 Runs
 val
-browserToolbarView
+browserToolbar
 =
 mockk
 <
@@ -4123,9 +4123,9 @@ returns
 toolbarContainerView
 fragment
 .
-_browserToolbarView
+_browserToolbar
 =
-browserToolbarView
+browserToolbar
 fragment
 .
 _bottomToolbarContainerView
@@ -4151,7 +4151,7 @@ reinitializeEngineView
 }
 verify
 {
-browserToolbarView
+browserToolbar
 wasNot
 Called
 }
