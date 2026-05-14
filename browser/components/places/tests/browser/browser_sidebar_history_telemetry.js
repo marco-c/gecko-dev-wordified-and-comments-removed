@@ -392,6 +392,7 @@ maxOpenBeforeWarn
 }
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -427,6 +428,7 @@ gResponse
 =
 0
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -477,6 +479,7 @@ parentNode
 containerOpen
 )
 {
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -533,6 +536,7 @@ getChild
 )
 ;
 }
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -653,6 +657,7 @@ waitForNewWindow
 (
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -787,6 +792,7 @@ waitForNewWindow
 (
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -1095,6 +1101,7 @@ firstNodeIndex
 )
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -1327,6 +1334,7 @@ firstNodeIndex
 )
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree

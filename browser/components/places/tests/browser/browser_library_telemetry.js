@@ -734,6 +734,7 @@ selectNode
 firstHistoryNode
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 gLibrary
@@ -869,6 +870,7 @@ gResponse
 =
 1
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 gLibrary
@@ -1020,6 +1022,7 @@ gResponse
 =
 0
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 gLibrary
@@ -1079,6 +1082,7 @@ right
 "
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 gLibrary
@@ -1162,6 +1166,7 @@ history
 1
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 gLibrary
@@ -1256,6 +1261,7 @@ waitForNewWindow
 (
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 gLibrary
@@ -1364,6 +1370,7 @@ waitForNewWindow
 (
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 gLibrary
@@ -1645,6 +1652,7 @@ selectNode
 firstNode
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 library
@@ -1763,6 +1771,7 @@ selectNode
 firstNode
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 library

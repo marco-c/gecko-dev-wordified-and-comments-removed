@@ -216,6 +216,7 @@ selected
 "
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -226,6 +227,7 @@ button
 }
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -269,6 +271,7 @@ selected
 "
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -312,6 +315,7 @@ waitForNewWindow
 (
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -530,6 +534,7 @@ nodeForTreeIndex
 )
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree

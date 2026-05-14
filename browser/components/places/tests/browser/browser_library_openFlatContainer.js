@@ -137,6 +137,7 @@ menuGuid
 ]
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 library
@@ -366,6 +367,7 @@ selectNode
 folderNode
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 library
@@ -539,6 +541,7 @@ selectNode
 query
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 library

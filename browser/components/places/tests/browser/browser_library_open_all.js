@@ -187,6 +187,7 @@ popupshown
 "
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 gLibrary

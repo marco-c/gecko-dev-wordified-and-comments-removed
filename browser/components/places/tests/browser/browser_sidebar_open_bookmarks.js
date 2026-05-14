@@ -612,6 +612,7 @@ true
 )
 ;
 }
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree

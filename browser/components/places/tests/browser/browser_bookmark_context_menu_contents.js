@@ -150,6 +150,32 @@ win
 )
 )
 ;
+await
+TestUtils
+.
+waitForCondition
+(
+(
+)
+=
+>
+BrowserTestUtils
+.
+isVisible
+(
+node
+)
+"
+Waiting
+for
+toolbar
+node
+to
+be
+visible
+"
+)
+;
 return
 node
 ;
@@ -916,7 +942,6 @@ hidePopupAndWait
 contextMenu
 )
 ;
-}
 await
 SpecialPowers
 .
@@ -924,6 +949,7 @@ popPrefEnv
 (
 )
 ;
+}
 await
 PlacesUtils
 .
@@ -1945,6 +1971,7 @@ return
 openContextMenuWithRetry
 (
 contextMenu
+async
 (
 )
 =
@@ -1961,6 +1988,7 @@ guid
 ]
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -2150,6 +2178,7 @@ return
 openContextMenuWithRetry
 (
 contextMenu
+async
 (
 )
 =
@@ -2169,6 +2198,7 @@ guid
 ]
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -2328,6 +2358,7 @@ return
 openContextMenuWithRetry
 (
 contextMenu
+async
 (
 )
 =
@@ -2344,6 +2375,7 @@ guid
 ]
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -2527,6 +2559,7 @@ return
 openContextMenuWithRetry
 (
 contextMenu
+async
 (
 )
 =
@@ -2543,6 +2576,7 @@ guid
 ]
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -2702,6 +2736,7 @@ return
 openContextMenuWithRetry
 (
 contextMenu
+async
 (
 )
 =
@@ -2718,6 +2753,7 @@ guid
 ]
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 right
@@ -2895,6 +2931,7 @@ return
 openContextMenuWithRetry
 (
 contextMenu
+async
 (
 )
 =
@@ -2911,6 +2948,7 @@ guid
 ]
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 right
@@ -3052,6 +3090,7 @@ return
 openContextMenuWithRetry
 (
 contextMenu
+async
 (
 )
 =
@@ -3071,6 +3110,7 @@ guid
 ]
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -3224,6 +3264,7 @@ return
 openContextMenuWithRetry
 (
 contextMenu
+async
 (
 )
 =
@@ -3243,6 +3284,7 @@ guid
 ]
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -3413,11 +3455,13 @@ return
 openContextMenuWithRetry
 (
 contextMenu
+async
 (
 )
 =
 >
 {
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -3575,6 +3619,7 @@ return
 openContextMenuWithRetry
 (
 contextMenu
+async
 (
 )
 =
@@ -3594,6 +3639,7 @@ guid
 ]
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -3704,6 +3750,7 @@ return
 openContextMenuWithRetry
 (
 contextMenu
+async
 (
 )
 =
@@ -3985,6 +4032,7 @@ return
 openContextMenuWithRetry
 (
 contextMenu
+async
 (
 )
 =
@@ -4001,6 +4049,7 @@ guid
 ]
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -4100,6 +4149,7 @@ return
 openContextMenuWithRetry
 (
 contextMenu
+async
 (
 )
 =
@@ -4116,6 +4166,7 @@ guid
 ]
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 right

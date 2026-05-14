@@ -199,6 +199,7 @@ reopened
 "
 )
 ;
+await
 toggleFolder
 (
 tree
@@ -404,6 +405,7 @@ exit
 )
 ;
 }
+async
 function
 toggleFolder
 (
@@ -456,6 +458,7 @@ closed
 "
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -482,6 +485,7 @@ open
 "
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree

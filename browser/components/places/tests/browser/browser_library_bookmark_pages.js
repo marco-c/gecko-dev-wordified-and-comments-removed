@@ -40,6 +40,15 @@ function
 )
 {
 await
+PlacesUtils
+.
+history
+.
+clear
+(
+)
+;
+await
 PlacesTestUtils
 .
 addVisits
@@ -144,6 +153,7 @@ popupshown
 "
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 library
@@ -310,6 +320,7 @@ popupshown
 "
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 library
@@ -761,6 +772,7 @@ popupshown
 "
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 library

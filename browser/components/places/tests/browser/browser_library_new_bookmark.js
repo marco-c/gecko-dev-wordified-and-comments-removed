@@ -223,6 +223,7 @@ popupshown
 "
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 library
