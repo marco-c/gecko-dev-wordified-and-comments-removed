@@ -83,7 +83,7 @@ resolveWidgetHasSidebar
 }
 from
 "
-.
+common
 /
 WidgetsRegistry
 .

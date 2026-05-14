@@ -107,8 +107,7 @@ PREF_WIDGETS_CLOCKS_ENABLED
 }
 from
 "
-.
-.
+common
 /
 WidgetsRegistry
 .
