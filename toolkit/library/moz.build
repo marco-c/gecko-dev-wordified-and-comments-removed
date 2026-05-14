@@ -196,6 +196,11 @@ credui
 dll
 "
 "
+crypt32
+.
+dll
+"
+"
 d3d11
 .
 dll
@@ -252,6 +257,11 @@ dll
 "
 "
 msimg32
+.
+dll
+"
+"
+ncrypt
 .
 dll
 "
@@ -329,6 +339,11 @@ dll
 winspool
 .
 drv
+"
+"
+wintrust
+.
+dll
 "
 "
 wtsapi32
