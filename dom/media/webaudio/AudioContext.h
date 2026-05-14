@@ -790,6 +790,11 @@ ResumeFromChrome
 )
 ;
 void
+SuspendByMediaControl
+(
+)
+;
+void
 OfflineClose
 (
 )

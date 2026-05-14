@@ -286,6 +286,15 @@ AudioChannelAgent
 >
 mAudioChannelAgent
 ;
+class
+MediaSharedKeysListener
+;
+RefPtr
+<
+MediaSharedKeysListener
+>
+mSharedKeysListener
+;
 bool
 IsCapturingAudio
 (
