@@ -19,7 +19,7 @@ taskgraph
 .
 1
 .
-2
+1
 requests
 -
 unixsocket
@@ -34,7 +34,7 @@ image
 ]
 =
 =
-23
+20
 .
 0
 .
