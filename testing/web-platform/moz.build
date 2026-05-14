@@ -7485,10 +7485,14 @@ BUG_COMPONENT
 =
 (
 "
-Geckoview
+Core
 "
 "
-General
+DOM
+:
+Core
+&
+HTML
 "
 )
 with
@@ -8136,7 +8140,7 @@ BUG_COMPONENT
 Core
 "
 "
-Javascript
+JavaScript
 :
 WebAssembly
 "
