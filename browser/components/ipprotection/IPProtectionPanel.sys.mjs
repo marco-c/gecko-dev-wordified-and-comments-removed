@@ -3365,6 +3365,11 @@ IPProtectionInfobarManager
 .
 hideInfobars
 (
+{
+triggeredByPanel
+:
+true
+}
 )
 ;
 }
