@@ -482,6 +482,8 @@ BUG_COMPONENT
 Core
 "
 "
+Internationalization
+:
 Localization
 "
 )
