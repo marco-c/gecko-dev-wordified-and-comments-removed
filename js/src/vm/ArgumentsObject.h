@@ -1222,7 +1222,7 @@ args
 i
 ]
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 v
@@ -1261,7 +1261,7 @@ numArgs
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 data
