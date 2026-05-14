@@ -788,7 +788,7 @@ MaterialTheme
 .
 colorScheme
 .
-onSurfaceVariant
+onSecondaryContainer
 )
 Spacer
 (
@@ -880,10 +880,10 @@ containerMaxWidth
 )
 color
 =
-AcornTheme
+MaterialTheme
 .
-colors
+colorScheme
 .
-iconPrimaryInactive
+onSurfaceVariant
 )
 }
