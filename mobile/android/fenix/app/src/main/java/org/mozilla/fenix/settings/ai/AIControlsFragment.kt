@@ -292,6 +292,10 @@ registry
 getFeatures
 (
 )
+.
+sortedForDisplay
+(
+)
 }
 val
 featureBlock

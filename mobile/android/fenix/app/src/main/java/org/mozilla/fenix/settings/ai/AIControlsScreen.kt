@@ -2210,6 +2210,10 @@ aiFeatureRegistry
 getFeatures
 (
 )
+.
+sortedForDisplay
+(
+)
 )
 {
 add
