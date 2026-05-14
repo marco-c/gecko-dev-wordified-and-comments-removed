@@ -28,7 +28,7 @@ executors
 .
 base
 import
-WdspecExecutor
+PytestExecutor
 from
 .
 .
@@ -94,7 +94,15 @@ wdspec
 "
 :
 "
-WdspecExecutor
+PytestExecutor
+"
+                              
+"
+test262
+"
+:
+"
+SeleniumTestharnessExecutor
 "
 }
                  

@@ -31,7 +31,7 @@ executors
 .
 base
 import
-WdspecExecutor
+PytestExecutor
 from
 .
 .
@@ -107,7 +107,7 @@ wdspec
 "
 :
 "
-WdspecExecutor
+PytestExecutor
 "
                               
 "
@@ -116,6 +116,14 @@ crashtest
 :
 "
 WebDriverCrashtestExecutor
+"
+                              
+"
+test262
+"
+:
+"
+WebDriverTestharnessExecutor
 "
 }
                  

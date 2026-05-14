@@ -738,10 +738,7 @@ join
 (
 here
 "
-third_party_modified
-"
-"
-mozlog
+iaccessible2
 "
 )
 )

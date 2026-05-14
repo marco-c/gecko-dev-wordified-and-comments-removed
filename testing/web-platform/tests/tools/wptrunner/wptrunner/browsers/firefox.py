@@ -100,7 +100,7 @@ MarionetteRefTestExecutor
                                             
 MarionettePrintRefTestExecutor
                                             
-MarionetteWdspecExecutor
+MarionettePytestExecutor
                                             
 MarionetteCrashtestExecutor
 )
@@ -139,7 +139,15 @@ wdspec
 "
 :
 "
-FirefoxWdSpecBrowser
+FirefoxPytestBrowser
+"
+                             
+"
+aamtest
+"
+:
+"
+FirefoxPytestBrowser
 "
 }
                  
@@ -187,7 +195,15 @@ wdspec
 "
 :
 "
-MarionetteWdspecExecutor
+MarionettePytestExecutor
+"
+                              
+"
+aamtest
+"
+:
+"
+MarionettePytestExecutor
 "
                               
 "
@@ -373,11 +389,15 @@ multiplier
     
 elif
 test_type
-=
-=
+in
+(
 "
 wdspec
 "
+"
+aamtest
+"
+)
 :
         
 if
@@ -868,11 +888,15 @@ debug_test
     
 if
 test_type
-=
-=
+in
+(
 "
 wdspec
 "
+"
+aamtest
+"
+)
 :
         
 browser_kwargs
@@ -1060,6 +1084,101 @@ run_info_data
 *
 *
 kwargs
+)
+    
+if
+test_type
+=
+=
+"
+aamtest
+"
+:
+        
+if
+(
+'
+accessibility
+.
+force_disabled
+'
+'
+-
+1
+'
+)
+not
+in
+browser_kwargs
+[
+"
+extra_prefs
+"
+]
+:
+            
+browser_kwargs
+[
+"
+extra_prefs
+"
+]
+.
+append
+(
+(
+'
+accessibility
+.
+force_disabled
+'
+'
+-
+1
+'
+)
+)
+        
+if
+(
+'
+accessibility
+.
+enable_all_cache_domains
+'
+'
+true
+'
+)
+not
+in
+browser_kwargs
+[
+"
+extra_prefs
+"
+]
+:
+            
+browser_kwargs
+[
+"
+extra_prefs
+"
+]
+.
+append
+(
+(
+'
+accessibility
+.
+enable_all_cache_domains
+'
+'
+true
+'
+)
 )
     
 browser_kwargs
@@ -1284,11 +1403,15 @@ cache_screenshots
     
 if
 test_type
-=
-=
+in
+(
 "
 wdspec
 "
+"
+aamtest
+"
+)
 :
         
 options
@@ -5435,11 +5558,15 @@ if
 self
 .
 test_type
-=
-=
+in
+(
 "
 wdspec
 "
+"
+aamtest
+"
+)
 :
             
 prefs
@@ -6535,7 +6662,7 @@ self
 stackwalk_binary
 )
 class
-FirefoxWdSpecBrowser
+FirefoxPytestBrowser
 (
 WebDriverBrowser
 )

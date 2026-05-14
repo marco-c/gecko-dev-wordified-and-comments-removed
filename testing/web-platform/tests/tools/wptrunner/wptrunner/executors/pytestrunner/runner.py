@@ -311,6 +311,15 @@ as_dict
 (
 )
             
+config
+[
+"
+timeout
+"
+]
+=
+timeout
+            
 with
 open
 (
@@ -825,6 +834,21 @@ self
 report
 )
 :
+        
+if
+"
+NOT_APPLICABLE
+"
+in
+report
+.
+longrepr
+[
+2
+]
+:
+            
+return
         
 self
 .

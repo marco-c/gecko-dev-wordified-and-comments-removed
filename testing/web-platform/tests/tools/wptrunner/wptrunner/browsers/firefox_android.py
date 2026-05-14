@@ -36,7 +36,7 @@ MarionetteRefTestExecutorAndroid
                                             
 MarionetteCrashtestExecutor
                                             
-MarionetteWdspecExecutor
+MarionettePytestExecutor
 )
 from
 .
@@ -66,7 +66,7 @@ executor_kwargs
 as
 fx_executor_kwargs
                       
-FirefoxWdSpecBrowser
+FirefoxPytestBrowser
                       
 ProfileCreator
 as
@@ -145,7 +145,15 @@ wdspec
 "
 :
 "
-MarionetteWdspecExecutor
+MarionettePytestExecutor
+"
+                              
+"
+test262
+"
+:
+"
+MarionetteTestharnessExecutor
 "
 }
                  
@@ -2741,7 +2749,7 @@ False
 class
 FirefoxAndroidWdSpecBrowser
 (
-FirefoxWdSpecBrowser
+FirefoxPytestBrowser
 )
 :
     

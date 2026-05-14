@@ -143,6 +143,15 @@ heads
 /
 triggers
 /
+firefox_android_stable
+"
+"
+refs
+/
+heads
+/
+triggers
+/
 firefox_android_nightly
 "
 "
@@ -608,7 +617,7 @@ tests
 /
 wpt
 :
-2
+3
 maxRunTime
 :
 7200

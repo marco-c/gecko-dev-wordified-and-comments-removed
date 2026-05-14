@@ -25,7 +25,7 @@ executors
 .
 base
 import
-WdspecExecutor
+PytestExecutor
 from
 .
 .
@@ -101,7 +101,7 @@ wdspec
 "
 :
 "
-WdspecExecutor
+PytestExecutor
 "
                               
 "

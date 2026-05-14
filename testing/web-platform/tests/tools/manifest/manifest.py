@@ -49,6 +49,8 @@ from
 item
 import
 (
+AccessibilityAPIMappingTest
+                   
 ConformanceCheckerTest
                    
 CrashTest
@@ -66,6 +68,8 @@ SpecItem
 SupportFile
                    
 TestharnessTest
+                   
+Test262Test
                    
 VisualTest
                    
@@ -171,6 +175,12 @@ wdspec
 WebDriverSpecTest
                                                 
 "
+aamtest
+"
+:
+AccessibilityAPIMappingTest
+                                                
+"
 conformancechecker
 "
 :
@@ -193,6 +203,12 @@ support
 "
 :
 SupportFile
+                                                
+"
+test262
+"
+:
+Test262Test
 }
 def
 compute_manifest_items

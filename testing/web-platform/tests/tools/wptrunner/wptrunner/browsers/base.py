@@ -2266,6 +2266,19 @@ self
 .
 env
 =
+{
+*
+*
+os
+.
+environ
+*
+*
+env
+}
+if
+env
+else
 os
 .
 environ
@@ -2273,12 +2286,6 @@ environ
 copy
 (
 )
-if
-env
-is
-None
-else
-env
         
 self
 .

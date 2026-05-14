@@ -34,7 +34,7 @@ executors
 .
 base
 import
-WdspecExecutor
+PytestExecutor
 from
 .
 .
@@ -112,6 +112,14 @@ ChromeDriverRefTestExecutor
 "
                      
 "
+test262
+"
+:
+"
+ChromeDriverTestharnessExecutor
+"
+                     
+"
 testharness
 "
 :
@@ -124,7 +132,7 @@ wdspec
 "
 :
 "
-WdspecExecutor
+PytestExecutor
 "
                  
 }

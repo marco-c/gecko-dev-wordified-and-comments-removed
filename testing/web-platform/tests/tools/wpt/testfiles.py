@@ -1734,10 +1734,16 @@ reftest
 reftest
 "
 "
+test262
+"
+"
 testharness
 "
 "
 wdspec
+"
+"
+aamtest
 "
 ]
     
