@@ -356,6 +356,13 @@ js
 ]
 [
 "
+browser_protectedAuth
+.
+js
+"
+]
+[
+"
 browser_setDisableAllSecurityChecksAndLetAttackersInterceptMyData
 .
 js
