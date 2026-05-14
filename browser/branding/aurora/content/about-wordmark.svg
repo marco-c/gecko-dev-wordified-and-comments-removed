@@ -234,8 +234,9 @@ path
 fill
 =
 "
-#
-FFFFFF
+context
+-
+fill
 "
 d
 =
