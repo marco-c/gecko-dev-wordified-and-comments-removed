@@ -162,6 +162,7 @@ NS_IMPL_CYCLE_COLLECTION
 mozSpellChecker
 mTextServicesDocument
 mPersonalDictionary
+mConverter
 )
 mozSpellChecker
 :
