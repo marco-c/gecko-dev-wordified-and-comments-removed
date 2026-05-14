@@ -5910,12 +5910,11 @@ JS
 Value
 objectWrapperSlot
 =
-JS
-:
-:
-GetReservedSlot
-(
 obj
+-
+>
+getReservedSlot
+(
 JS_OBJECT_WRAPPER_SLOT
 )
 ;

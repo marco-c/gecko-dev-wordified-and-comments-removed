@@ -109,7 +109,7 @@ Value
 &
 slot
 =
-getSlot
+getReservedSlot
 (
 ParseNodeSlot
 )
@@ -166,7 +166,7 @@ getValue
 const
 {
 return
-getSlot
+getReservedSlot
 (
 ValueSlot
 )
@@ -188,7 +188,7 @@ Value
 value
 )
 {
-setSlot
+setReservedSlot
 (
 ValueSlot
 value

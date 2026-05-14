@@ -3273,7 +3273,7 @@ NativeObject
 (
 )
 .
-setSlot
+setReservedSlot
 (
 slot
 value
