@@ -1144,6 +1144,17 @@ mjs
 "
 tests
 /
+modules
+/
+SystemDelay
+.
+sys
+.
+mjs
+"
+"
+tests
+/
 xpcshell
 /
 RegionTestUtils
