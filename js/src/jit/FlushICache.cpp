@@ -9,7 +9,7 @@ h
 "
 #
 ifdef
-JS_CODEGEN_ARM64
+JS_SIMULATOR_ARM64
 #
 include
 "
