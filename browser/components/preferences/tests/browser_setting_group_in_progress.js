@@ -189,7 +189,7 @@ data
 category
 "
 "
-paneGeneral
+paneSync
 "
 )
 ;
@@ -235,7 +235,7 @@ data
 category
 "
 "
-paneGeneral
+paneSync
 "
 )
 ;
@@ -253,11 +253,9 @@ doc
 getElementById
 (
 "
-generalCategory
+mainPrefPane
 "
 )
-.
-parentElement
 ;
 paneContainer
 .
@@ -288,7 +286,7 @@ paneLoaded
 waitForPaneChange
 (
 "
-general
+sync
 "
 )
 ;
@@ -303,7 +301,7 @@ getElementById
 "
 category
 -
-general
+sync
 "
 )
 {
@@ -401,7 +399,7 @@ dataset
 .
 category
 "
-paneGeneral
+paneSync
 "
 "
 The
@@ -613,7 +611,7 @@ dataset
 .
 category
 "
-paneGeneral
+paneSync
 "
 "
 The
@@ -780,7 +778,7 @@ dataset
 .
 category
 "
-paneGeneral
+paneSync
 "
 "
 The
