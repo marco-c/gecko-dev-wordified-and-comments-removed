@@ -362,6 +362,11 @@ HappyEyeballsTransaction
 aWinner
 )
 ;
+bool
+LockInRealTxnFromPendingQueue
+(
+)
+;
 private
 :
 ~
