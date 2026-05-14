@@ -3324,7 +3324,7 @@ ConcreteShadowRoot
 >
 ;
 fn
-rule_hash_target
+ultimate_originating_element
 (
 &
 self
@@ -3421,7 +3421,7 @@ target
 =
 self
 .
-rule_hash_target
+ultimate_originating_element
 (
 )
 ;
