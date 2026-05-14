@@ -343,12 +343,9 @@ DisplayNamesObject
 classOps_
 =
 {
-nullptr
-nullptr
-nullptr
-nullptr
-nullptr
-nullptr
+.
+finalize
+=
 DisplayNamesObject
 :
 :
