@@ -2409,6 +2409,7 @@ Element
 [
 NewObject
 NeedsCallerType
+UseCounter
 Pref
 =
 "
