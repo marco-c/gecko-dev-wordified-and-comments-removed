@@ -2281,4 +2281,16 @@ NoExtras
 )
 )
 }
+override
+fun
+onGetCustomWallpaperClicked
+(
+)
+{
+sportsController
+.
+handleOnGetCustomWallpaperClicked
+(
+)
+}
 }

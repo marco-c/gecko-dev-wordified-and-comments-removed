@@ -1695,6 +1695,12 @@ interactor
 :
 :
 onSkippedFollowTeam
+onGetCustomWallpaper
+=
+interactor
+:
+:
+onGetCustomWallpaperClicked
 )
 }
 MaybeAddSetupChecklist
