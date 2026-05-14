@@ -592,7 +592,6 @@ NS_IMPL_CYCLE_COLLECTION_INHERITED
 NotificationPermissionRequest
 ContentPermissionRequestBase
 mCallback
-mPromise
 )
 NS_IMPL_ADDREF_INHERITED
 (
