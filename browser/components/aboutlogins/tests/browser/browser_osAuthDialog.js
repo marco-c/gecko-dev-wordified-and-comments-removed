@@ -74,6 +74,16 @@ unofficialBuildOnlyLogin
 "
 "
 ]
+[
+"
+signon
+.
+rustMirror
+.
+enabled
+"
+false
+]
 ]
 }
 )

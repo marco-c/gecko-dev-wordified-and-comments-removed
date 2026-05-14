@@ -233,6 +233,16 @@ enabled
 "
 true
 ]
+[
+"
+signon
+.
+rustMirror
+.
+enabled
+"
+false
+]
 ]
 }
 )

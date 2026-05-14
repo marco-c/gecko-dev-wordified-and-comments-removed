@@ -36,6 +36,16 @@ rememberSignons
 "
 true
 ]
+[
+"
+signon
+.
+rustMirror
+.
+enabled
+"
+false
+]
 ]
 }
 )
