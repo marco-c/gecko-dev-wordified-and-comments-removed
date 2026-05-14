@@ -905,6 +905,9 @@ CSSUnitValue
 deg
 '
 )
+1e
+-
+4
 )
 }
 {
