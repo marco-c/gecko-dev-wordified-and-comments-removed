@@ -880,6 +880,16 @@ ColorRange
 :
 :
 FULL
+gfx
+:
+:
+TransferFunction
+:
+:
+SRGB
+Nothing
+(
+)
 false
 Some
 (

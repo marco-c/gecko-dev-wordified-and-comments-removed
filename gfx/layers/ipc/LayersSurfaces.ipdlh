@@ -652,6 +652,10 @@ colorRange
 TransferFunction
 transferFunction
 ;
+HDRMetadata
+?
+hdrMetadata
+;
 bool
 hasKeyedMutex
 ;
