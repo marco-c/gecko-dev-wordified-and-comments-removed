@@ -528,6 +528,8 @@ mCurrentSelectionAnchorNode
 ;
 uint32_t
 mCurrentSelectionOffset
+=
+0
 ;
 int32_t
 mNumPendingSpellChecks
