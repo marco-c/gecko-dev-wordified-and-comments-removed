@@ -5,16 +5,8 @@ jit_arm_Simulator_arm_h
 define
 jit_arm_Simulator_arm_h
 #
-ifndef
+ifdef
 JS_SIMULATOR_ARM
-#
-error
-"
-simulator
-disabled
-"
-#
-endif
 #
 include
 "
@@ -2129,5 +2121,7 @@ redirection
 ;
 }
 }
+#
+endif
 #
 endif

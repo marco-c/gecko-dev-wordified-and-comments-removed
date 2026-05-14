@@ -491,6 +491,9 @@ SYSTEM
 <
 kFunct3Shift
 )
+#
+if
+JS_CODEGEN_RISCV64
 RO_LWU
 =
 LOAD
@@ -666,6 +669,8 @@ kFunct3Shift
 <
 kFunct7Shift
 )
+#
+endif
 }
 ;
 }

@@ -254,6 +254,9 @@ rs2
 )
 ;
 }
+#
+ifdef
+JS_CODEGEN_RISCV64
 void
 AssemblerRISCVM
 :
@@ -374,5 +377,7 @@ rs2
 )
 ;
 }
+#
+endif
 }
 }

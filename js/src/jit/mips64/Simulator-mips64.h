@@ -5,16 +5,8 @@ jit_mips64_Simulator_mips64_h
 define
 jit_mips64_Simulator_mips64_h
 #
-ifndef
+ifdef
 JS_SIMULATOR_MIPS64
-#
-error
-"
-simulator
-disabled
-"
-#
-endif
 #
 include
 "
@@ -1736,5 +1728,7 @@ redirection
 ;
 }
 }
+#
+endif
 #
 endif
