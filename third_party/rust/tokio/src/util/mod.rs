@@ -236,6 +236,7 @@ feature
 "
 time
 "
+fuzzing
 )
 )
 ]

@@ -163,7 +163,7 @@ reset
 =
 CONTEXT
 .
-with
+try_with
 (
 |
 c
@@ -218,6 +218,11 @@ false
 DisallowBlockInPlaceGuard
 (
 reset
+.
+unwrap_or
+(
+false
+)
 )
 }
 impl

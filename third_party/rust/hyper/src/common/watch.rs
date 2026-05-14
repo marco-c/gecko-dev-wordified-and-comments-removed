@@ -1,8 +1,5 @@
 use
-futures_util
-:
-:
-task
+atomic_waker
 :
 :
 AtomicWaker

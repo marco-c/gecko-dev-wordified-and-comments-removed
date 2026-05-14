@@ -230,7 +230,7 @@ DEFAULT_RESET_STREAM_MAX
 :
 usize
 =
-10
+50
 ;
 pub
 const
@@ -238,7 +238,7 @@ DEFAULT_RESET_STREAM_SECS
 :
 u64
 =
-30
+1
 ;
 pub
 const

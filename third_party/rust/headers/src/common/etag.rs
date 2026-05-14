@@ -8,6 +8,9 @@ str
 FromStr
 ;
 use
+crate
+:
+:
 util
 :
 :
@@ -157,10 +160,8 @@ map
 ETag
 )
 .
-ok_or_else
+ok_or
 (
-|
-|
 InvalidETag
 {
 _inner

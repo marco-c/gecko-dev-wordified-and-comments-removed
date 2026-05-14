@@ -130,8 +130,6 @@ pub
 const
 ICW_REGKEYCOMPLETED
 :
-:
-:
 windows_sys
 :
 :
@@ -140,8 +138,6 @@ core
 :
 PCSTR
 =
-:
-:
 windows_sys
 :
 :
@@ -160,8 +156,6 @@ pub
 const
 ICW_REGPATHSETTINGS
 :
-:
-:
 windows_sys
 :
 :
@@ -170,8 +164,6 @@ core
 :
 PCSTR
 =
-:
-:
 windows_sys
 :
 :
@@ -214,14 +206,6 @@ pub
 type
 PFNCHECKCONNECTIONWIZARD
 =
-:
-:
-core
-:
-:
-option
-:
-:
 Option
 <
 unsafe
@@ -249,14 +233,6 @@ pub
 type
 PFNSETSHELLNEXT
 =
-:
-:
-core
-:
-:
-option
-:
-:
 Option
 <
 unsafe
@@ -267,8 +243,6 @@ system
 fn
 (
 param0
-:
-:
 :
 windows_sys
 :

@@ -37,6 +37,7 @@ T
 >
 {
 pub
+const
 fn
 as_u16
 (

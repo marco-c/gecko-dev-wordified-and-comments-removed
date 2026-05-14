@@ -102,8 +102,6 @@ third_party
 rust
 /
 mtu
--
-transport
 /
 Cargo
 .
@@ -137,8 +135,6 @@ third_party
 rust
 /
 mtu
--
-transport
 /
 Cargo
 .
@@ -175,8 +171,6 @@ third_party
 rust
 /
 mtu
--
-transport
 /
 Cargo
 .
@@ -211,8 +205,6 @@ third_party
 rust
 /
 mtu
--
-transport
 /
 Cargo
 .
@@ -241,7 +233,7 @@ com
 /
 mozilla
 /
-mtu
+neqo
 /
 tags
 )

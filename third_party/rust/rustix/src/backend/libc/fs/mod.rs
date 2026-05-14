@@ -67,7 +67,7 @@ haiku
 target_os
 =
 "
-redox
+horizon
 "
 target_os
 =
@@ -120,7 +120,7 @@ cfg
 (
 all
 (
-linux_kernel
+linux_raw_dep
 any
 (
 target_arch
@@ -150,7 +150,7 @@ crate
 ioctl
 :
 :
-RawOpcode
+Opcode
 =
 0x8008_6610
 ;
@@ -160,7 +160,7 @@ cfg
 (
 all
 (
-linux_kernel
+linux_raw_dep
 not
 (
 any
@@ -193,7 +193,7 @@ crate
 ioctl
 :
 :
-RawOpcode
+Opcode
 =
 linux_raw_sys
 :
@@ -209,5 +209,5 @@ crate
 ioctl
 :
 :
-RawOpcode
+Opcode
 ;

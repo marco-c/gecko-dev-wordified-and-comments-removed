@@ -133,6 +133,15 @@ plpmtu
 (
 )
 ;
+let
+spurious_recovery
+=
+conn_params
+.
+spurious_recovery_enabled
+(
+)
+;
 Self
 {
 cc
@@ -187,6 +196,7 @@ default
 (
 )
 pmtud
+spurious_recovery
 )
 )
 }
@@ -236,6 +246,7 @@ default
 (
 )
 pmtud
+spurious_recovery
 )
 )
 }
@@ -275,6 +286,7 @@ default
 (
 )
 pmtud
+spurious_recovery
 )
 )
 }
@@ -324,6 +336,7 @@ default
 (
 )
 pmtud
+spurious_recovery
 )
 )
 }

@@ -620,6 +620,8 @@ as_ptr
 let
 _
 =
+unsafe
+{
 synced
 .
 registrations
@@ -628,6 +630,7 @@ remove
 (
 io
 )
+}
 ;
 }
 }
@@ -762,6 +765,8 @@ ScheduledIo
 >
 >
 {
+unsafe
+{
 NonNull
 :
 :
@@ -779,5 +784,6 @@ get
 (
 )
 )
+}
 }
 }

@@ -6553,14 +6553,6 @@ u32
 ;
 pub
 const
-REISERFS_IOC_UNPACK
-:
-u32
-=
-1074318593
-;
-pub
-const
 FW_CDEV_IOC_REMOVE_DESCRIPTOR
 :
 u32

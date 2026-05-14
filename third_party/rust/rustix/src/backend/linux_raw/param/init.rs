@@ -100,16 +100,7 @@ use
 linux_raw_sys
 :
 :
-elf
-:
-:
-*
-;
-use
-linux_raw_sys
-:
-:
-general
+auxvec
 :
 :
 {
@@ -138,7 +129,7 @@ use
 linux_raw_sys
 :
 :
-general
+auxvec
 :
 :
 {
@@ -149,6 +140,15 @@ AT_PHNUM
 AT_RANDOM
 AT_SECURE
 }
+;
+use
+linux_raw_sys
+:
+:
+elf
+:
+:
+*
 ;
 #
 [
@@ -177,8 +177,6 @@ page_size
 >
 usize
 {
-unsafe
-{
 PAGE_SIZE
 .
 load
@@ -188,7 +186,6 @@ Ordering
 :
 Relaxed
 )
-}
 }
 #
 [
@@ -217,8 +214,6 @@ clock_ticks_per_second
 >
 u64
 {
-unsafe
-{
 CLOCK_TICKS_PER_SECOND
 .
 load
@@ -230,7 +225,6 @@ Relaxed
 )
 as
 u64
-}
 }
 #
 [
@@ -262,8 +256,6 @@ usize
 usize
 )
 {
-unsafe
-{
 (
 HWCAP
 .
@@ -284,7 +276,6 @@ Ordering
 Relaxed
 )
 )
-}
 }
 #
 [
@@ -313,8 +304,6 @@ linux_minsigstksz
 >
 usize
 {
-unsafe
-{
 MINSIGSTKSZ
 .
 load
@@ -324,7 +313,6 @@ Ordering
 :
 Relaxed
 )
-}
 }
 #
 [
@@ -359,8 +347,6 @@ CStr
 let
 execfn
 =
-unsafe
-{
 EXECFN
 .
 load
@@ -370,7 +356,6 @@ Ordering
 :
 Relaxed
 )
-}
 ;
 unsafe
 {
@@ -414,8 +399,6 @@ linux_secure
 >
 bool
 {
-unsafe
-{
 SECURE
 .
 load
@@ -425,7 +408,6 @@ Ordering
 :
 Relaxed
 )
-}
 }
 #
 [
@@ -459,8 +441,6 @@ c_void
 usize
 usize
 )
-{
-unsafe
 {
 (
 PHDR
@@ -496,7 +476,6 @@ Relaxed
 )
 )
 }
-}
 #
 [
 inline
@@ -519,8 +498,6 @@ sysinfo_ehdr
 const
 Elf_Ehdr
 {
-unsafe
-{
 SYSINFO_EHDR
 .
 load
@@ -530,7 +507,6 @@ Ordering
 :
 Relaxed
 )
-}
 }
 #
 [
@@ -559,8 +535,6 @@ entry
 >
 usize
 {
-unsafe
-{
 ENTRY
 .
 load
@@ -570,7 +544,6 @@ Ordering
 :
 Relaxed
 )
-}
 }
 #
 [
@@ -605,8 +578,6 @@ u8
 16
 ]
 {
-unsafe
-{
 RANDOM
 .
 load
@@ -617,9 +588,7 @@ Ordering
 Relaxed
 )
 }
-}
 static
-mut
 PAGE_SIZE
 :
 AtomicUsize
@@ -633,7 +602,6 @@ new
 )
 ;
 static
-mut
 CLOCK_TICKS_PER_SECOND
 :
 AtomicUsize
@@ -647,7 +615,6 @@ new
 )
 ;
 static
-mut
 HWCAP
 :
 AtomicUsize
@@ -661,7 +628,6 @@ new
 )
 ;
 static
-mut
 HWCAP2
 :
 AtomicUsize
@@ -675,7 +641,6 @@ new
 )
 ;
 static
-mut
 MINSIGSTKSZ
 :
 AtomicUsize
@@ -689,7 +654,6 @@ new
 )
 ;
 static
-mut
 SYSINFO_EHDR
 :
 AtomicPtr
@@ -708,7 +672,6 @@ null_mut
 )
 ;
 static
-mut
 EXECFN
 :
 AtomicPtr
@@ -749,7 +712,6 @@ runtime
 )
 ]
 static
-mut
 SECURE
 :
 AtomicBool
@@ -774,7 +736,6 @@ runtime
 )
 ]
 static
-mut
 PHDR
 :
 AtomicPtr
@@ -811,7 +772,6 @@ runtime
 )
 ]
 static
-mut
 PHENT
 :
 AtomicUsize
@@ -836,7 +796,6 @@ runtime
 )
 ]
 static
-mut
 PHNUM
 :
 AtomicUsize
@@ -861,7 +820,6 @@ runtime
 )
 ]
 static
-mut
 ENTRY
 :
 AtomicUsize
@@ -886,7 +844,6 @@ runtime
 )
 ]
 static
-mut
 RANDOM
 :
 AtomicPtr

@@ -6,7 +6,11 @@ cfg
 all
 (
 tokio_unstable
-tokio_taskdump
+feature
+=
+"
+taskdump
+"
 target_os
 =
 "

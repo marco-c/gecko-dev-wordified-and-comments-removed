@@ -433,7 +433,13 @@ time_t
 pub
 tv_nsec
 :
-i64
+crate
+:
+:
+ffi
+:
+:
+c_long
 }
 pub
 type

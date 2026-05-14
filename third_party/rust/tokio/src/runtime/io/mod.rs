@@ -17,6 +17,14 @@ feature
 "
 net
 "
+feature
+=
+"
+io
+-
+uring
+"
+tokio_unstable
 )
 )
 allow

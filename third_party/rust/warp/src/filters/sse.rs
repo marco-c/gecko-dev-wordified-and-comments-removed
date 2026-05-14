@@ -96,6 +96,15 @@ time
 Duration
 ;
 use
+crate
+:
+:
+bodyt
+:
+:
+Body
+;
+use
 futures_util
 :
 :
@@ -118,12 +127,6 @@ HeaderValue
 CACHE_CONTROL
 CONTENT_TYPE
 }
-;
-use
-hyper
-:
-:
-Body
 ;
 use
 pin_project
@@ -975,6 +978,8 @@ Event
 +
 Send
 +
+Sync
++
 '
 static
 S
@@ -1034,6 +1039,8 @@ Event
 >
 +
 Send
++
+Sync
 +
 '
 static

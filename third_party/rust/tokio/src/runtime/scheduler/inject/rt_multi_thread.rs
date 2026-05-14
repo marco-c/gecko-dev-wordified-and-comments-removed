@@ -248,6 +248,8 @@ counter
 }
 )
 ;
+unsafe
+{
 self
 .
 push_batch_inner
@@ -258,6 +260,7 @@ prev
 counter
 )
 ;
+}
 }
 #
 [
@@ -360,11 +363,14 @@ curr
 {
 curr
 =
+unsafe
+{
 task
 .
 get_queue_next
 (
 )
+}
 ;
 let
 _
@@ -450,6 +456,8 @@ batch_tail
 let
 len
 =
+unsafe
+{
 self
 .
 len
@@ -457,6 +465,7 @@ len
 unsync_load
 (
 )
+}
 ;
 self
 .

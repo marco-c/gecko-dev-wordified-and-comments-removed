@@ -2,10 +2,7 @@ use
 crate
 :
 :
-backend
-:
-:
-c
+ffi
 ;
 use
 bitflags
@@ -87,7 +84,7 @@ pub
 struct
 FdFlags
 :
-c
+ffi
 :
 :
 c_uint
@@ -214,7 +211,7 @@ pub
 struct
 ReadWriteFlags
 :
-c
+ffi
 :
 :
 c_uint
@@ -418,7 +415,7 @@ pub
 struct
 DupFlags
 :
-c
+ffi
 :
 :
 c_uint

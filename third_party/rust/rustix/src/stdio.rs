@@ -37,6 +37,8 @@ fd
 {
 BorrowedFd
 FromRawFd
+as
+_
 RawFd
 }
 ;
@@ -73,6 +75,8 @@ fd
 {
 AsFd
 AsRawFd
+as
+_
 }
 core
 :

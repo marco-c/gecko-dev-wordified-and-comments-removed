@@ -82,6 +82,13 @@ BufWriter
 mod
 chain
 ;
+pub
+use
+chain
+:
+:
+Chain
+;
 mod
 copy
 ;

@@ -34,6 +34,7 @@ JoinHandle
 LocalNotified
 Notified
 Schedule
+SpawnLocation
 Task
 }
 ;
@@ -470,6 +471,9 @@ super
 :
 :
 Id
+spawned_at
+:
+SpawnLocation
 )
 -
 >
@@ -526,6 +530,7 @@ new_task
 task
 scheduler
 id
+spawned_at
 )
 ;
 let
@@ -572,6 +577,9 @@ super
 :
 :
 Id
+spawned_at
+:
+SpawnLocation
 )
 -
 >
@@ -624,6 +632,7 @@ new_task
 task
 scheduler
 id
+spawned_at
 )
 ;
 let
@@ -938,6 +947,9 @@ len
 (
 )
 }
+cfg_unstable_metrics
+!
+{
 cfg_64bit_metrics
 !
 {
@@ -962,6 +974,7 @@ list
 added
 (
 )
+}
 }
 }
 pub
@@ -1241,6 +1254,9 @@ super
 :
 :
 Id
+spawned_at
+:
+SpawnLocation
 )
 -
 >
@@ -1293,6 +1309,7 @@ new_task
 task
 scheduler
 id
+spawned_at
 )
 ;
 unsafe

@@ -12,7 +12,7 @@ loom
 mod
 addr
 ;
-cfg_not_wasi
+cfg_not_wasip1
 !
 {
 #
@@ -81,7 +81,7 @@ stream
 :
 TcpStream
 ;
-cfg_not_wasi
+cfg_not_wasip1
 !
 {
 pub

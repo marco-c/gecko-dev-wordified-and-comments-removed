@@ -148,6 +148,8 @@ self
 >
 u16
 {
+unsafe
+{
 core
 :
 :
@@ -168,6 +170,7 @@ as
 const
 u16
 )
+}
 }
 }
 impl

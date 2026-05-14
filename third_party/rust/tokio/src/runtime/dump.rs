@@ -37,7 +37,11 @@ task
 trace
 :
 :
+{
+trace_with
 Root
+TraceMeta
+}
 ;
 #
 [
@@ -260,9 +264,9 @@ format
 (
 "
 {
+name
 }
 "
-name
 )
 .
 into

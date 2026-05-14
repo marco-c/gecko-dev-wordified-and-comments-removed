@@ -36,7 +36,7 @@ Decoder
 {
 state
 :
-usize
+u8
 maybe_eos
 :
 bool
@@ -383,6 +383,8 @@ DECODE_TABLE
 self
 .
 state
+as
+usize
 ]
 [
 input

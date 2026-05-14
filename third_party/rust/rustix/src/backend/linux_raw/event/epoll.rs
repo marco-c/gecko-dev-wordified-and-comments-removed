@@ -2,10 +2,7 @@ use
 crate
 :
 :
-backend
-:
-:
-c
+ffi
 ;
 use
 bitflags
@@ -77,7 +74,7 @@ pub
 struct
 CreateFlags
 :
-c
+ffi
 :
 :
 c_uint

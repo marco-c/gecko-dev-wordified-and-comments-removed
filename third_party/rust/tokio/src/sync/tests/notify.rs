@@ -120,6 +120,8 @@ as
 const
 Notify
 ;
+unsafe
+{
 Arc
 :
 :
@@ -133,6 +135,9 @@ increment_strong_count
 ptr
 )
 ;
+}
+unsafe
+{
 (
 *
 ptr
@@ -141,6 +146,7 @@ ptr
 notify_one
 (
 )
+}
 ;
 RawWaker
 :
@@ -165,6 +171,8 @@ const
 {
 drop
 (
+unsafe
+{
 Arc
 :
 :
@@ -181,6 +189,7 @@ as
 const
 Notify
 )
+}
 )
 ;
 }

@@ -394,6 +394,8 @@ Handle
 let
 id
 =
+unsafe
+{
 L
 :
 :
@@ -401,6 +403,7 @@ get_shard_id
 (
 node
 )
+}
 ;
 let
 mut
@@ -545,6 +548,9 @@ Ordering
 Relaxed
 )
 }
+cfg_unstable_metrics
+!
+{
 cfg_64bit_metrics
 !
 {
@@ -587,6 +593,7 @@ Ordering
 :
 Relaxed
 )
+}
 }
 }
 pub

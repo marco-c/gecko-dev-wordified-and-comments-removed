@@ -419,11 +419,14 @@ slot
 =
 slot_for
 (
+unsafe
+{
 item
 .
-cached_when
+registered_when
 (
 )
+}
 self
 .
 level
@@ -484,7 +487,7 @@ as_ref
 (
 )
 .
-cached_when
+registered_when
 (
 )
 }

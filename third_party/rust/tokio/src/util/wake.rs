@@ -317,6 +317,8 @@ const
 >
 RawWaker
 {
+unsafe
+{
 Arc
 :
 :
@@ -334,6 +336,7 @@ const
 T
 )
 ;
+}
 RawWaker
 :
 :
@@ -375,6 +378,8 @@ Arc
 T
 >
 =
+unsafe
+{
 Arc
 :
 :
@@ -386,6 +391,7 @@ as
 const
 T
 )
+}
 ;
 Wake
 :
@@ -421,6 +427,8 @@ ManuallyDrop
 :
 new
 (
+unsafe
+{
 Arc
 :
 :
@@ -437,6 +445,7 @@ cast
 (
 )
 )
+}
 )
 ;
 Wake
@@ -468,6 +477,8 @@ const
 {
 drop
 (
+unsafe
+{
 Arc
 :
 :
@@ -484,6 +495,7 @@ cast
 (
 )
 )
+}
 )
 ;
 }
