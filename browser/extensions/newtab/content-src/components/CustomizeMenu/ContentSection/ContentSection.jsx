@@ -2558,11 +2558,6 @@ setPref
 {
 setPref
 }
-exitEventFired
-=
-{
-exitEventFired
-}
 onSubpanelToggle
 =
 {
