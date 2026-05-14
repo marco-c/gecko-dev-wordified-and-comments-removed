@@ -528,12 +528,6 @@ kDoubleAlignment
 -
 1
 ;
-const
-int
-kNumFPURegisters
-=
-32
-;
 using
 sreg_t
 =
