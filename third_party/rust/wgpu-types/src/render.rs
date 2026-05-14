@@ -1887,7 +1887,7 @@ self
 )
 -
 >
-usize
+u32
 {
 match
 self
