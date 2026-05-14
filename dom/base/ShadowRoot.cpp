@@ -712,6 +712,14 @@ this
 )
 ;
 }
+DocumentOrShadowRoot
+:
+:
+Unlink
+(
+this
+)
+;
 }
 MOZ_DEFINE_MALLOC_SIZE_OF
 (
