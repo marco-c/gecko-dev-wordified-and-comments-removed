@@ -26,16 +26,8 @@ useDownloadDir
 )
 ;
 await
-openPreferencesViaOpenPreferencesAPI
+openDownloadsOrPreferencesPane
 (
-"
-general
-"
-{
-leaveOpen
-:
-true
-}
 )
 ;
 let

@@ -18,7 +18,7 @@ redesign
 .
 enabled
 =
-false
+true
 "
 ]
 support
@@ -53,7 +53,7 @@ js
 ]
 [
 "
-browser_open_download_preferences_xul
+browser_open_download_preferences
 .
 js
 "
