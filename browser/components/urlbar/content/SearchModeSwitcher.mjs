@@ -765,7 +765,7 @@ all
 keypresses
 .
 let
-document
+doc
 =
 this
 .
@@ -776,7 +776,7 @@ ownerDocument
 ;
 if
 (
-document
+doc
 .
 createXULElement
 )
@@ -784,7 +784,7 @@ createXULElement
 let
 panel
 =
-document
+doc
 .
 createXULElement
 (
@@ -4367,7 +4367,7 @@ mode
 )
 {
 let
-name
+sourceName
 =
 lazy
 .
@@ -4423,7 +4423,7 @@ search
 button
 -
 {
-name
+sourceName
 }
 )
 ;
@@ -4472,7 +4472,7 @@ urlbar
 searchmode
 -
 {
-name
+sourceName
 }
 2
 )
