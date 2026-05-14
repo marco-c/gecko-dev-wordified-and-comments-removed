@@ -884,15 +884,7 @@ IsModuleScript
 ;
 mLoadedScript
 =
-ModuleScript
-:
-:
-FromCache
-(
-*
 aLoadedScript
-mFetchInfo
-)
 ;
 mState
 =
@@ -1010,10 +1002,9 @@ eModule
 mLoadedScript
 =
 new
-ModuleScript
+LoadedModuleScript
 (
 aURI
-mFetchInfo
 )
 ;
 break
