@@ -897,7 +897,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-IsTextSource
+IsFetchedAsTextSource
 (
 )
 )
@@ -1051,7 +1051,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-IsTextSource
+IsFetchedAsTextSource
 (
 )
 )
@@ -1177,7 +1177,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-IsTextSource
+IsFetchedAsTextSource
 (
 )
 )
