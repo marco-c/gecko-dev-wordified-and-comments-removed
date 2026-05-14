@@ -86,6 +86,7 @@ methods
 /
 [
 scriptable
+builtinclass
 uuid
 (
 fe2625ec
