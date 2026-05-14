@@ -2782,12 +2782,6 @@ prepare_quad
 pattern
 &
 prim_rect
-&
-prim_info
-.
-clip_chain
-.
-local_clip_rect
 prim_data
 .
 common
@@ -3626,12 +3620,6 @@ prepare_quad
 color
 &
 prim_rect
-&
-prim_info
-.
-clip_chain
-.
-local_clip_rect
 prim_data
 .
 common
