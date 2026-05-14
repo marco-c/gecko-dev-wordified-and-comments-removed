@@ -5,8 +5,16 @@ jit_loong64_Simulator_loong64_h
 define
 jit_loong64_Simulator_loong64_h
 #
-ifdef
+ifndef
 JS_SIMULATOR_LOONG64
+#
+error
+"
+simulator
+disabled
+"
+#
+endif
 #
 include
 "
@@ -2420,7 +2428,5 @@ redirection
 ;
 }
 }
-#
-endif
 #
 endif
