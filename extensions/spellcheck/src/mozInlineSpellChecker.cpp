@@ -2212,7 +2212,6 @@ mozInlineSpellChecker
 mEditorBase
 mSpellCheck
 mCurrentSelectionAnchorNode
-mPendingSpellCheck
 )
 mozInlineSpellChecker
 :

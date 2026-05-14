@@ -244,7 +244,6 @@ NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 GVAutoplayPermissionRequest
 ContentPermissionRequestBase
-mContext
 )
 NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED_0
 (

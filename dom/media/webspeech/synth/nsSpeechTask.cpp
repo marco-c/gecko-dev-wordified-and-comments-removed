@@ -98,7 +98,6 @@ nsSpeechTask
 mSpeechSynthesis
 mUtterance
 mCallback
-mAudioChannelAgent
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
