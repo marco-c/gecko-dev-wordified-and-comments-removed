@@ -7473,6 +7473,15 @@ thread_count
 =
 1
 ;
+mCodecContext
+-
+>
+max_pixels
+=
+MAX_VIDEO_WIDTH
+*
+MAX_VIDEO_HEIGHT
+;
 switch
 (
 aType
