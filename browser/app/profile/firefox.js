@@ -15283,6 +15283,12 @@ defined
 (
 XP_MACOSX
 )
+|
+|
+defined
+(
+XP_WIN
+)
 pref
 (
 "
