@@ -171,6 +171,13 @@ this
 manager
 .
 documentPrincipal
+remoteType
+:
+this
+.
+manager
+.
+remoteType
 }
 ;
 /

@@ -1169,12 +1169,13 @@ windowGlobal
 {
 let
 {
-browsingContext
+parentWindowContext
 :
-bc
+parent
 documentPrincipal
 :
 prin
+remoteType
 }
 =
 windowGlobal
@@ -1212,9 +1213,7 @@ spec
 }
 if
 (
-bc
-.
-currentRemoteType
+remoteType
 !
 =
 =
@@ -1238,9 +1237,7 @@ extensionId
 process
 :
 {
-bc
-.
-currentRemoteType
+remoteType
 }
 )
 ;
@@ -1248,8 +1245,6 @@ currentRemoteType
 if
 (
 !
-bc
-.
 parent
 )
 {
@@ -1259,9 +1254,7 @@ true
 }
 windowGlobal
 =
-bc
-.
-embedderWindowGlobal
+parent
 ;
 }
 throw

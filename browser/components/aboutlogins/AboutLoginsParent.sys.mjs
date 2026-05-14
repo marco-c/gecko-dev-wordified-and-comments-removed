@@ -741,9 +741,7 @@ if
 (
 this
 .
-browsingContext
-.
-embedderElement
+manager
 .
 remoteType
 !
@@ -776,9 +774,7 @@ expectations
 {
 this
 .
-browsingContext
-.
-embedderElement
+manager
 .
 remoteType
 }

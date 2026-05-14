@@ -974,6 +974,15 @@ const
 override
 ;
 void
+GetRemoteType
+(
+nsACString
+&
+aRemoteType
+)
+const
+;
+void
 NotifySessionStoreUpdatesComplete
 (
 Element
