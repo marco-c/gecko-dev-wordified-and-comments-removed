@@ -511,11 +511,7 @@ js
 :
 [
 "
-bug1448747
--
-fastclick
--
-shim
+disable_FastClick
 .
 js
 "

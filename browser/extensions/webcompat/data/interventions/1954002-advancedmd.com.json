@@ -76,15 +76,7 @@ js
 :
 [
 "
-bug1898952
--
-digits
-.
-t
--
-mobile
-.
-com
+define_userAgentData
 .
 js
 "
