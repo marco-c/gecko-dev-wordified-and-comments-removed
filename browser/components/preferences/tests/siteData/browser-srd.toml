@@ -18,7 +18,7 @@ redesign
 .
 enabled
 =
-false
+true
 "
 ]
 support
@@ -145,4 +145,11 @@ tsan
 #
 Bug
 1683730
+]
+[
+"
+browser_siteData_srd
+.
+js
+"
 ]
