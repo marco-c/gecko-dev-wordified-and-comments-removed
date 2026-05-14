@@ -11746,15 +11746,6 @@ addons
 .
 AddonPermissionsDetailsFragment
 "
-tools
-:
-layout
-=
-"
-layout
-/
-fragment_add_on_permissions
-"
 >
 <
 argument
