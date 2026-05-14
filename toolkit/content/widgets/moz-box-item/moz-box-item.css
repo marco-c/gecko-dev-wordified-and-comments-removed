@@ -562,6 +562,16 @@ shrink
 }
 .
 actions
+{
+word
+-
+wrap
+:
+normal
+;
+}
+.
+actions
 :
 has
 (
