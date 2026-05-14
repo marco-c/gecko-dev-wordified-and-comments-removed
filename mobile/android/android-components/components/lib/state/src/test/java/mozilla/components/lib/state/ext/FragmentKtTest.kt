@@ -211,14 +211,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertTrue
 import
 org
@@ -304,6 +296,12 @@ util
 concurrent
 .
 TimeUnit
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -1639,6 +1637,9 @@ capture
 )
 assertNotNull
 (
+attachStateChangeListenerCaptor
+.
+value
 "
 OnAttachStateChangeListener
 should
@@ -1646,9 +1647,6 @@ have
 been
 captured
 "
-attachStateChangeListenerCaptor
-.
-value
 )
 store
 .
@@ -2059,6 +2057,9 @@ capture
 )
 assertNotNull
 (
+attachStateChangeListenerCaptor
+.
+value
 "
 OnAttachStateChangeListener
 should
@@ -2066,9 +2067,6 @@ have
 been
 captured
 "
-attachStateChangeListenerCaptor
-.
-value
 )
 /
 /

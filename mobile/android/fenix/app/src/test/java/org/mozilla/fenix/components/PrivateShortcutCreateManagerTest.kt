@@ -141,14 +141,6 @@ org
 .
 junit
 .
-Assert
-.
-assertNotNull
-import
-org
-.
-junit
-.
 Before
 import
 org
@@ -208,6 +200,12 @@ org
 robolectric
 .
 RobolectricTestRunner
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 RobolectricTestRunner
@@ -577,6 +575,9 @@ flags
 )
 assertNotNull
 (
+intent
+.
+component
 "
 Intent
 component
@@ -585,9 +586,6 @@ not
 be
 null
 "
-intent
-.
-component
 )
 assertEquals
 (
@@ -613,6 +611,9 @@ className
 )
 assertNotNull
 (
+intent
+.
+extras
 "
 Intent
 extras
@@ -621,9 +622,6 @@ not
 be
 null
 "
-intent
-.
-extras
 )
 assertEquals
 (
