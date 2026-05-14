@@ -1422,6 +1422,7 @@ None
 def
 _geckodriver
 (
+        
 config
 =
 None
@@ -1434,6 +1435,10 @@ None
 extra_env
 =
 None
+popen_kwargs
+=
+None
+    
 )
 :
         
@@ -1458,6 +1463,7 @@ config
 hostname
 extra_args
 extra_env
+popen_kwargs
 )
         
 driver
