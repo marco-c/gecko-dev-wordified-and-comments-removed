@@ -8301,11 +8301,6 @@ imagealignment
 "
 end
 "
-imagewidth
-:
-"
-large
-"
 }
 items
 :
