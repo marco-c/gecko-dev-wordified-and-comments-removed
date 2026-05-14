@@ -1105,7 +1105,7 @@ StorageAccessPermissionGrantPromise
 :
 CreateAndResolve
 (
-true
+eAllowAutoGrant
 __func__
 )
 ;
@@ -1148,7 +1148,7 @@ StorageAccessPermissionGrantPromise
 :
 CreateAndResolve
 (
-true
+eAllowAutoGrant
 __func__
 )
 ;
@@ -2418,7 +2418,7 @@ aCookieBehavior
 aReason
 ]
 (
-int
+StorageAccessPromptChoices
 aAllowMode
 )
 -
@@ -2863,7 +2863,7 @@ __func__
 return
 storePermission
 (
-false
+eAllow
 )
 ;
 }
@@ -2906,7 +2906,10 @@ mPromiseHolder
 .
 ResolveIfExists
 (
-true
+StorageAccessAPIHelper
+:
+:
+eAllowAutoGrant
 __func__
 )
 ;
@@ -3437,7 +3440,7 @@ aCookieBehavior
 aReason
 ]
 (
-int
+StorageAccessPromptChoices
 aAllowMode
 )
 -
@@ -3655,17 +3658,16 @@ aValue
 IsResolve
 (
 )
-)
-{
-if
-(
+&
+&
 aValue
 .
 ResolveValue
 (
 )
-&
-&
+)
+{
+if
 (
 aReason
 =
@@ -3674,7 +3676,6 @@ ContentBlockingNotifier
 :
 :
 eStorageAccessAPI
-)
 )
 {
 ContentBlockingUserInteraction
@@ -3729,11 +3730,7 @@ StorageAccessPermissionGrantPromise
 :
 CreateAndResolve
 (
-aValue
-.
-ResolveValue
-(
-)
+eAllow
 __func__
 )
 ;
@@ -3820,7 +3817,7 @@ __func__
 return
 storePermission
 (
-false
+eAllow
 )
 ;
 }
@@ -4270,7 +4267,7 @@ aParentContext
 nsIPrincipal
 *
 aTrackingPrincipal
-int
+StorageAccessPromptChoices
 aAllowMode
 bool
 aFrameOnly
@@ -4484,7 +4481,7 @@ aParentPrincipal
 nsIPrincipal
 *
 aTrackingPrincipal
-int
+StorageAccessPromptChoices
 aAllowMode
 bool
 aFrameOnly

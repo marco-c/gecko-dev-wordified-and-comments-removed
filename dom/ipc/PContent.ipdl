@@ -10093,7 +10093,7 @@ nsIPrincipal
 aTrackingPrincipal
 nsCString
 aTrackingOrigin
-int
+StorageAccessPromptChoices
 aAllowMode
 StorageAccessPermissionGrantedReason
 ?
@@ -10104,7 +10104,7 @@ aFrameOnly
 returns
 (
 bool
-unused
+granted
 )
 ;
 async

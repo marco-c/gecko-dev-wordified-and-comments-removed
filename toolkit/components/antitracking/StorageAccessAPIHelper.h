@@ -117,7 +117,7 @@ eAllowAutoGrant
 typedef
 MozPromise
 <
-int
+StorageAccessPromptChoices
 bool
 true
 >
@@ -251,7 +251,7 @@ aParentPrincipal
 nsIPrincipal
 *
 aTrackingPrincipal
-int
+StorageAccessPromptChoices
 aAllowMode
 bool
 aFrameOnly
@@ -284,7 +284,7 @@ aParentContext
 nsIPrincipal
 *
 aTrackingPrincipal
-int
+StorageAccessPromptChoices
 aAllowMode
 bool
 aFrameOnly

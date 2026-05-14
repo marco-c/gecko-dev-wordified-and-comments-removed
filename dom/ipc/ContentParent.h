@@ -5387,7 +5387,7 @@ nsACString
 &
 aTrackingOrigin
 const
-int
+StorageAccessPromptChoices
 &
 aAllowMode
 const

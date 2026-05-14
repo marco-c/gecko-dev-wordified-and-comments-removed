@@ -34848,7 +34848,7 @@ nsACString
 &
 aTrackingOrigin
 const
-int
+StorageAccessPromptChoices
 &
 aAllowMode
 const
@@ -35136,16 +35136,10 @@ choice
 .
 emplace
 (
-static_cast
-<
-StorageAccessPromptChoices
->
-(
 aValue
 .
 ResolveValue
 (
-)
 )
 )
 ;
