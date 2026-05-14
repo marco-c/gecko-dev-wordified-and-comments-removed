@@ -2428,7 +2428,7 @@ container
 "
 >
 <
-h2
+h3
 id
 =
 "
@@ -2457,7 +2457,7 @@ headerL10nId
 >
 <
 /
-h2
+h3
 >
 <
 ul

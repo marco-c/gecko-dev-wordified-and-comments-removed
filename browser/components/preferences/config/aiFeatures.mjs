@@ -7589,7 +7589,7 @@ controlAttrs
 {
 headinglevel
 :
-2
+3
 inputlayout
 :
 "
