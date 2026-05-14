@@ -374,8 +374,6 @@ querySelector
 boxmodel
 -
 size
->
-span
 "
 )
 ;
