@@ -115,6 +115,10 @@ MathMLElement
 :
 Element
 {
+attribute
+DOMString
+nonce
+;
 }
 ;
 MathMLElement
