@@ -3394,13 +3394,6 @@ canShowCfr
 settings
 .
 cfrPopupsEnabled
-tabSearchEnabled
-=
-requireComponents
-.
-settings
-.
-tabSearchEnabled
 )
 )
 }

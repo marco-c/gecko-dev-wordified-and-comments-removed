@@ -306,13 +306,6 @@ Boolean
 false
 override
 val
-tabSearchEnabled
-:
-Boolean
-=
-false
-override
-val
 tabGroupsEnabled
 :
 Boolean
