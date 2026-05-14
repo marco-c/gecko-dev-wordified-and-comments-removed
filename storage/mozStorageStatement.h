@@ -206,7 +206,7 @@ StatementRowHolder
 >
 mStatementRowHolder
 ;
-nsresult
+void
 internalFinalize
 (
 bool
