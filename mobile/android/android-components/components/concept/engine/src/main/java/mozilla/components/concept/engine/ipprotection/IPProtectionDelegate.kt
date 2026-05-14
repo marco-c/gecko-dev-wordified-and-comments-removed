@@ -148,4 +148,6 @@ IPProtectionHandler
 .
 StateInfo
 )
+{
+}
 }

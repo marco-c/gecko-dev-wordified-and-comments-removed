@@ -64,10 +64,6 @@ components
 feature
 .
 ipprotection
-.
-store
-.
-state
 /
 *
 *

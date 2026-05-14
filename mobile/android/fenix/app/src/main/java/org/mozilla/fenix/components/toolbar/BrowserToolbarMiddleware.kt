@@ -839,9 +839,7 @@ feature
 .
 ipprotection
 .
-store
-.
-IPProtectionStore
+Authorized
 import
 mozilla
 .
@@ -851,11 +849,7 @@ feature
 .
 ipprotection
 .
-store
-.
-state
-.
-Authorized
+IPProtectionStore
 import
 mozilla
 .

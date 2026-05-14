@@ -283,9 +283,7 @@ state
 =
 components
 .
-ipProtection
-.
-store
+ipProtectionStore
 .
 observeAsComposableState
 {

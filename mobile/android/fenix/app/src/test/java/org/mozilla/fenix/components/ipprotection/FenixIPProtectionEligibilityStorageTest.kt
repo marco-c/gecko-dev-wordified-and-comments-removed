@@ -181,10 +181,6 @@ feature
 .
 ipprotection
 .
-store
-.
-state
-.
 EligibilityStatus
 import
 mozilla

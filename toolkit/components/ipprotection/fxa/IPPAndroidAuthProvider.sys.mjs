@@ -225,6 +225,9 @@ instance
 .
 sendRequestForResult
 (
+{
+type
+:
 "
 GeckoView
 :
@@ -232,6 +235,7 @@ IPProtection
 :
 GetToken
 "
+}
 )
 ;
 let
