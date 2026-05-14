@@ -60,6 +60,15 @@ MOZ_SRC_FILES
 "
 generated
 /
+RustBreachAlerts
+.
+sys
+.
+mjs
+"
+"
+generated
+/
 RustContextId
 .
 sys
