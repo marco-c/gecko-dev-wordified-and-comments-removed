@@ -409,6 +409,13 @@ js
 ]
 [
 "
+browser_aiwindow_smartbar_tab_switch
+.
+js
+"
+]
+[
+"
 browser_aiwindow_smartbar_telemetry
 .
 js
