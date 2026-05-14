@@ -259,7 +259,7 @@ a
 convenience
 for
 [
-IPProtectionFeatureV2
+IPProtectionFeature
 ]
 that
 needs

@@ -109,7 +109,7 @@ feature
 .
 ipprotection
 .
-IPProtectionFeatureV2
+IPProtectionFeature
 import
 mozilla
 .
@@ -345,7 +345,7 @@ feature
 by
 lazy
 {
-IPProtectionFeatureV2
+IPProtectionFeature
 (
 store
 =
