@@ -1,7 +1,7 @@
 #
 !
 [
-forbid
+deny
 (
 unsafe_code
 )
@@ -28,7 +28,7 @@ lazy_static
 ;
 extern
 crate
-hyper
+http
 ;
 extern
 crate
