@@ -543,6 +543,14 @@ aId
 )
 ;
 void
+MaybeForward0RTTSecurityInfo
+(
+ConnectionEstablisher
+*
+aEstablisher
+)
+;
+void
 CancelConnection
 (
 uint64_t

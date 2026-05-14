@@ -1908,6 +1908,13 @@ IsAdopted
 (
 )
 ;
+mResultConn
+-
+>
+DontReuse
+(
+)
+;
 if
 (
 adopted
@@ -1936,13 +1943,6 @@ get
 (
 )
 )
-)
-;
-mResultConn
--
->
-DontReuse
-(
 )
 ;
 }

@@ -1727,6 +1727,11 @@ mDontExclude
 =
 false
 ;
+bool
+mHad0RttStream
+=
+false
+;
 nsIUDPSocket
 *
 mSocket
