@@ -39,7 +39,6 @@ renderer
 :
 :
 {
-BlendMode
 GpuBufferBuilder
 GpuBufferWriterF
 }
@@ -232,12 +231,6 @@ ColorF
 :
 WHITE
 is_opaque
-blend_mode
-:
-BlendMode
-:
-:
-PremultipliedAlpha
 }
 }
 pub
@@ -401,12 +394,6 @@ ColorF
 :
 WHITE
 is_opaque
-blend_mode
-:
-BlendMode
-:
-:
-PremultipliedAlpha
 }
 }
 pub
@@ -567,12 +554,6 @@ ColorF
 :
 WHITE
 is_opaque
-blend_mode
-:
-BlendMode
-:
-:
-PremultipliedAlpha
 }
 }
 fn

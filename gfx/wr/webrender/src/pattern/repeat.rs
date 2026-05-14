@@ -70,10 +70,7 @@ crate
 renderer
 :
 :
-{
-BlendMode
 GpuBufferBuilder
-}
 ;
 pub
 struct
@@ -229,12 +226,6 @@ height
 0
 .
 0
-blend_mode
-:
-BlendMode
-:
-:
-PremultipliedAlpha
 }
 }
 impl
