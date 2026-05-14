@@ -271,14 +271,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertTrue
 import
 org
@@ -294,6 +286,12 @@ junit
 runner
 .
 RunWith
+import
+kotlin
+.
+test
+.
+assertNotNull
 import
 androidx
 .
@@ -1107,8 +1105,6 @@ recyclerAdapter
 recyclerView
 .
 adapter
-!
-!
 assertNotNull
 (
 recyclerAdapter
@@ -1431,8 +1427,6 @@ recyclerAdapter
 recyclerView
 .
 adapter
-!
-!
 assertNotNull
 (
 recyclerAdapter
@@ -1826,10 +1820,9 @@ recyclerAdapter
 recyclerView
 .
 adapter
-!
-!
 as
 BrowserMenuAdapter
+?
 assertNotNull
 (
 recyclerAdapter
@@ -2240,10 +2233,9 @@ recyclerAdapter
 recyclerView
 .
 adapter
-!
-!
 as
 BrowserMenuAdapter
+?
 assertNotNull
 (
 recyclerAdapter
@@ -2618,6 +2610,7 @@ recyclerView
 adapter
 as
 BrowserMenuAdapter
+?
 assertNotNull
 (
 recyclerAdapter
@@ -2855,6 +2848,7 @@ recyclerView
 adapter
 as
 BrowserMenuAdapter
+?
 assertNotNull
 (
 recyclerAdapter
