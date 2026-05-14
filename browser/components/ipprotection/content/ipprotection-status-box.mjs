@@ -457,6 +457,12 @@ this
 .
 headerL10nId
 }
+tabindex
+=
+"
+-
+1
+"
 >
 <
 /
