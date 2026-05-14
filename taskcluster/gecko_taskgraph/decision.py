@@ -987,8 +987,6 @@ taskgraph_decision
 (
 options
 parameters
-=
-None
 )
 :
     
@@ -1012,17 +1010,6 @@ and
 is
 responsible
 for
-     
-*
-processing
-decision
-task
-command
--
-line
-options
-into
-parameters
      
 *
 running
@@ -1062,26 +1049,22 @@ create
 the
 graph
     
-"
-"
-"
-    
+The
 parameters
-=
-parameters
-or
-(
-        
-lambda
-graph_config
-:
-get_decision_parameters
-(
-graph_config
-options
-)
+argument
+must
+be
+a
+pre
+-
+resolved
+Parameters
+object
+.
     
-)
+"
+"
+"
     
 decision_task_id
 =
