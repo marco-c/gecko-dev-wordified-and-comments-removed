@@ -236,6 +236,12 @@ ISSUE_NO_DIRECT_SHOW_SNACKBAR
 ComposeIconButtonDetector
 .
 ISSUE_ICON_BUTTON_USAGE
+AssertIsDetector
+.
+ISSUE_USE_ASSERT_IS
+JUnitAssertNotNullDetector
+.
+ISSUE_USE_KOTLIN_TEST_ASSERT_NOT_NULL
 )
 +
 ConstraintLayoutPerfDetector
