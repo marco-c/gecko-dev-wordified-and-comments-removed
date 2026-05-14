@@ -12198,15 +12198,6 @@ search
 .
 SearchShortcutsFragment
 "
-tools
-:
-layout
-=
-"
-layout
-/
-fragment_search_shortcuts
-"
 >
 <
 action
