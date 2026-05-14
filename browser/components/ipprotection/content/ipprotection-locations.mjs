@@ -330,6 +330,14 @@ state
 ?
 .
 hasUpgraded
+|
+|
+this
+.
+state
+?
+.
+upgradeNotAvailable
 )
 {
 return
