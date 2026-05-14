@@ -2268,7 +2268,6 @@ _
 in
 enumerate
 (
-        
 redo
 .
 retrier
@@ -2276,17 +2275,10 @@ retrier
 attempts
 =
 MAX_RETRIES
-sleeptime
-=
-60
-sleepscale
-=
-1
 )
 start
 =
 1
-    
 )
 :
         
@@ -2397,8 +2389,8 @@ False
 timeout
 =
 (
-10
-600
+300
+300
 )
                 
 *

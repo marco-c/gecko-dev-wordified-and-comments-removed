@@ -179,12 +179,6 @@ retrier
 attempts
 =
 MAX_RETRIES
-sleeptime
-=
-60
-sleepscale
-=
-1
 )
 start
 =
@@ -293,7 +287,7 @@ timeout
 =
 (
 10
-600
+300
 )
                 
 *
