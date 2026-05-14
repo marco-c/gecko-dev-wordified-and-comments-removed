@@ -3124,6 +3124,10 @@ uint8_t
 aVariantWidth
 =
 NS_FONT_VARIANT_WIDTH_NORMAL
+bool
+aForceHorizontalMetrics
+=
+false
 )
 ;
 static
