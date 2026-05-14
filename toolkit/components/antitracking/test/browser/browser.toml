@@ -607,6 +607,13 @@ js
 ]
 [
 "
+browser_flushOnQuery
+.
+js
+"
+]
+[
+"
 browser_foreignWorker_eventSource
 .
 js
