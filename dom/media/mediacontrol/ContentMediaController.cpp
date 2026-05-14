@@ -2328,12 +2328,6 @@ case
 MediaControlKey
 :
 :
-Stop
-:
-case
-MediaControlKey
-:
-:
 Seekto
 :
 case
@@ -2372,6 +2366,12 @@ aParams
 }
 return
 ;
+case
+MediaControlKey
+:
+:
+Stop
+:
 case
 MediaControlKey
 :

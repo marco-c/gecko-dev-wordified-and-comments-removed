@@ -138,7 +138,7 @@ FAKE_BC_ID
 static
 const
 MediaControlKey
-kControlKeys
+kControlOnlyKeys
 [
 ]
 =
@@ -154,10 +154,6 @@ Pause
 MediaControlKey
 :
 :
-Stop
-MediaControlKey
-:
-:
 Seekforward
 MediaControlKey
 :
@@ -168,11 +164,15 @@ Seekbackward
 static
 const
 MediaControlKey
-kNonControlKeys
+kSharedKeys
 [
 ]
 =
 {
+MediaControlKey
+:
+:
+Stop
 MediaControlKey
 :
 :
@@ -365,7 +365,7 @@ for
 MediaControlKey
 key
 :
-kControlKeys
+kControlOnlyKeys
 )
 {
 receiver
@@ -402,6 +402,8 @@ must
 not
 get
 control
+-
+only
 key
 "
 ;
@@ -411,7 +413,7 @@ for
 MediaControlKey
 key
 :
-kNonControlKeys
+kSharedKeys
 )
 {
 receiver
@@ -446,9 +448,7 @@ Uncontrollable
 receiver
 should
 get
-non
--
-control
+shared
 key
 "
 ;
