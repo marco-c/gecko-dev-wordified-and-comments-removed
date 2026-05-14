@@ -27,14 +27,6 @@ head
 js
 "
 "
-.
-.
-/
-head
-.
-js
-"
-"
 privacypane_tests_perwindow
 .
 js
