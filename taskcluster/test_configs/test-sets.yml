@@ -2612,8 +2612,6 @@ functional
 -
 gtest
 -
-jittest
--
 web
 -
 platform
@@ -2671,8 +2669,6 @@ platform
 tests
 -
 webcodecs
--
-xpcshell
 macosx1015
 -
 64
