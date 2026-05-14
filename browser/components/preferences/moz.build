@@ -179,6 +179,17 @@ tests
 performance
 /
 browser
+-
+srd
+.
+toml
+"
+"
+tests
+/
+performance
+/
+browser
 .
 toml
 "
