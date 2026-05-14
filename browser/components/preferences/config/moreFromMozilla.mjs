@@ -876,15 +876,13 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
 /
-preferences
+icons
 /
 mdn
--
-logo
 .
 svg
 "
@@ -964,6 +962,8 @@ preferences
 /
 thunderbird
 -
+color
+-
 16
 .
 svg
@@ -1004,6 +1004,8 @@ moz
 solo
 -
 card
+-
+1
 "
 region
 :

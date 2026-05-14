@@ -4609,6 +4609,8 @@ preferences
 /
 thunderbird
 -
+color
+-
 16
 .
 svg
@@ -4621,6 +4623,8 @@ shared
 preferences
 /
 thunderbird
+-
+color
 -
 16
 .
