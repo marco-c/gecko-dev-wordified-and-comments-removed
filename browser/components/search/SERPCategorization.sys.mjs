@@ -567,7 +567,7 @@ The
 category
 for
 the
-organic
+sponsored
 result
 .
 *
@@ -614,11 +614,15 @@ string
 sponsored_num_unknown
 *
 The
-category
-for
+number
+of
+unknown
+domains
+when
+determining
 the
 sponsored
-result
+category
 .
 *
 property

@@ -2760,6 +2760,8 @@ convert
 the
 regexps
 into
+RegExp
+objects
 this
 .
 _setSearchProviderInfo
@@ -13358,7 +13360,6 @@ content
 searches
 are
 not
-be
 categorized
 with
 a
