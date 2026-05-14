@@ -126,6 +126,7 @@ NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 LNAPermissionRequest
 ContentPermissionRequestBase
+mBrowsingContext
 )
 LNAPermissionRequest
 :
