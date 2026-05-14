@@ -450,6 +450,17 @@ title
 }
 pane
 -
+home
+-
+startup
+-
+title
+=
+Home
+and
+startup
+pane
+-
 search
 -
 title
