@@ -84,12 +84,6 @@ GetHiddenWindowMenuBar
 (
 )
 ;
-NSMenuItem
-*
-GetStandardEditMenuItem
-(
-)
-;
 bool
 NodeIsHiddenOrCollapsed
 (
