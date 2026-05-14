@@ -5111,6 +5111,8 @@ dispatch
 ImportAction
 .
 ImportFileClicked
+.
+FromMenu
 )
 }
 )
@@ -5485,6 +5487,8 @@ dispatcher
 ImportAction
 .
 ImportFileClicked
+.
+FromButton
 )
 }
 modifier

@@ -486,6 +486,7 @@ rootMenuShown
 =
 false
 )
+is
 ImportAction
 .
 ImportFileClicked
@@ -502,6 +503,10 @@ false
 ImportAction
 .
 ImportFailed
+is
+ImportAction
+.
+ImportSucceeded
 CloseClicked
 FirstSyncCompleted
 SelectFolderAction
