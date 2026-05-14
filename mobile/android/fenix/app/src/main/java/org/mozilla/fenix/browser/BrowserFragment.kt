@@ -3328,13 +3328,4 @@ currentTimeMillis
 (
 )
 }
-companion
-object
-{
-const
-val
-SHARE_WEIGHT
-=
-4
-}
 }

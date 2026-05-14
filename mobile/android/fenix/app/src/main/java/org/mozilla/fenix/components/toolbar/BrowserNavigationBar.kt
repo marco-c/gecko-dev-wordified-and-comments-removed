@@ -288,14 +288,6 @@ lifecycle
 -
 aware
 integration
-for
-use
-within
-the
-[
-BrowserToolbarView
-]
-framework
 .
 *
 *
