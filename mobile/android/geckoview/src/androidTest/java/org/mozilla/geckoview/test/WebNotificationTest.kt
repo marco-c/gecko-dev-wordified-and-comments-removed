@@ -63,14 +63,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertTrue
 import
 org
@@ -154,6 +146,12 @@ test
 rule
 .
 GeckoSessionTestRule
+import
+kotlin
+.
+test
+.
+assertNotNull
 const
 val
 VERY_LONG_IMAGE_URL

@@ -117,14 +117,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertTrue
 import
 org
@@ -188,6 +180,12 @@ test
 rule
 .
 GeckoSessionTestRule
+import
+kotlin
+.
+test
+.
+assertNotNull
 /
 *
 *
@@ -419,6 +417,7 @@ waitForRoundTrip
 )
 assertNotNull
 (
+pageContent
 "
 Expected
 page
@@ -430,7 +429,6 @@ non
 -
 null
 "
-pageContent
 )
 assertEquals
 (
@@ -542,6 +540,7 @@ waitForRoundTrip
 )
 assertNotNull
 (
+pageContent
 "
 Expected
 page
@@ -553,7 +552,6 @@ non
 -
 null
 "
-pageContent
 )
 assertTrue
 (
@@ -570,8 +568,6 @@ boilerplate
 removal
 "
 pageContent
-!
-!
 .
 contains
 (
@@ -654,6 +650,7 @@ waitForRoundTrip
 )
 assertNotNull
 (
+metadata
 "
 Expected
 page
@@ -665,7 +662,6 @@ non
 -
 null
 "
-metadata
 )
 assertTrue
 (
@@ -788,6 +784,7 @@ waitForRoundTrip
 )
 assertNotNull
 (
+metadata
 "
 Expected
 page
@@ -799,7 +796,6 @@ non
 -
 null
 "
-metadata
 )
 assertTrue
 (
