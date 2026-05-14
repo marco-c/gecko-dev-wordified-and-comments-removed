@@ -1,16 +1,6 @@
 #
 include
 "
-jstypes
-.
-h
-"
-#
-ifdef
-JS_SIMULATOR_ARM64
-#
-include
-"
 jit
 /
 arm64
@@ -29,6 +19,13 @@ include
 mozilla
 /
 Vector
+.
+h
+"
+#
+include
+"
+jstypes
 .
 h
 "
@@ -9286,5 +9283,3 @@ false
 ;
 }
 }
-#
-endif
