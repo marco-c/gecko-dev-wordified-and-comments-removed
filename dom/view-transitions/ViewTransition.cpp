@@ -679,6 +679,11 @@ GetShadowRootForTreeScope
 (
 *
 content
+-
+>
+AsElement
+(
+)
 classInfo
 .
 scope
@@ -9090,6 +9095,11 @@ GetShadowRootForTreeScope
 (
 *
 content
+-
+>
+AsElement
+(
+)
 computed
 .
 scope

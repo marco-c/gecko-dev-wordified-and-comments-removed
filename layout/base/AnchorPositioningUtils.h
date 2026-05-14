@@ -1401,6 +1401,7 @@ aContainingBlock
 )
 ;
 static
+const
 dom
 :
 :
@@ -1409,9 +1410,12 @@ ShadowRoot
 GetShadowRootForTreeScope
 (
 const
-nsIContent
+dom
+:
+:
+Element
 &
-aContent
+aElement
 const
 StyleCascadeLevel
 &
