@@ -1961,6 +1961,9 @@ BT709
 )
 mVideoInfo
 .
+mHDRMetadata
+mVideoInfo
+.
 ImageRect
 (
 )
@@ -5007,6 +5010,9 @@ TransferFunction
 :
 BT709
 )
+mVideoInfo
+.
+mHDRMetadata
 mVideoInfo
 .
 ImageRect

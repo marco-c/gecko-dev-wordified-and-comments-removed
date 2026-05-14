@@ -16694,6 +16694,9 @@ TransferFunction
 :
 BT709
 )
+mInfo
+.
+mHDRMetadata
 mFrame
 -
 >
