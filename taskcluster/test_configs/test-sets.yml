@@ -2371,6 +2371,10 @@ marionette
 -
 unittest
 -
+crashtest
+-
+jittest
+-
 mochitest
 -
 a11y
@@ -2480,6 +2484,8 @@ web
 platform
 -
 tests
+-
+xpcshell
 #
 Test
 set
