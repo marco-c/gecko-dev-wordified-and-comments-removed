@@ -23,6 +23,15 @@ include
 "
 mozilla
 /
+Atomics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 NotNull
 .
 h
@@ -867,7 +876,11 @@ mClosePromiseHolder
 int64_t
 mDirectoryLockId
 ;
+Atomic
+<
 uint32_t
+Relaxed
+>
 mRegCount
 ;
 DatabaseVersion
