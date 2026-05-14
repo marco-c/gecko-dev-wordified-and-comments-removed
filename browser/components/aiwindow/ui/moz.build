@@ -302,6 +302,16 @@ sys
 mjs
 "
 ]
+EXTRA_COMPONENTS
++
+=
+[
+"
+aiwindow
+.
+manifest
+"
+]
 JAR_MANIFESTS
 +
 =

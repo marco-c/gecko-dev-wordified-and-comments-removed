@@ -585,6 +585,13 @@ js
 ]
 [
 "
+browser_smartwindow_default_startup
+.
+js
+"
+]
+[
+"
 browser_smartwindow_disclaimer
 .
 js
