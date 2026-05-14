@@ -2161,13 +2161,7 @@ defaultLocation
 )
 useContentBlockingDatabase
 =
-context
-.
-settings
-(
-)
-.
-shouldUseTrackingProtectionDatabase
+true
 )
 /
 /

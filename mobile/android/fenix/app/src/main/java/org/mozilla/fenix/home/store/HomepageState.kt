@@ -1757,11 +1757,6 @@ showPrivacyReportSectionToggle
 settings
 .
 showPrivacyReportFeature
-&
-&
-settings
-.
-shouldUseTrackingProtectionDatabase
 showLongfoxEntryPoint
 =
 settings
