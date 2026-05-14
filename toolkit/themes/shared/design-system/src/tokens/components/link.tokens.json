@@ -210,7 +210,13 @@ forcedColors
 "
 :
 "
-VisitedText
+{
+link
+.
+color
+.
+base
+}
 "
 "
 brand

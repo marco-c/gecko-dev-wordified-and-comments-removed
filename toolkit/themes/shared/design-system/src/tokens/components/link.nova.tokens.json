@@ -115,11 +115,6 @@ visited
 value
 "
 :
-{
-"
-default
-"
-:
 "
 {
 link
@@ -129,14 +124,6 @@ color
 base
 }
 "
-"
-forcedColors
-"
-:
-"
-VisitedText
-"
-}
 }
 }
 }
