@@ -801,6 +801,14 @@ mozlint
 .
 json
 .
+fetches
+:
+toolchain
+:
+-
+linux64
+-
+mozcheck
 when
 :
 files
