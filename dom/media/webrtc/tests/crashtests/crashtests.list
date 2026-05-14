@@ -32,6 +32,17 @@ insecure
 enabled
 true
 )
+pref
+(
+media
+.
+peerconnection
+.
+ice
+.
+obfuscate_host_addresses
+false
+)
 load
 1674892
 .
