@@ -1578,10 +1578,6 @@ HomeActivity
 class
 .
 java
-onDismiss
-=
-{
-}
 scope
 =
 viewLifecycleOwner

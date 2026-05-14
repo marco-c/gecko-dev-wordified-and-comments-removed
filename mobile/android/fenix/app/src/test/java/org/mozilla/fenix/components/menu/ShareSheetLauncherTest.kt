@@ -707,10 +707,6 @@ browserStore
 navController
 =
 mockNavController
-onDismiss
-=
-{
-}
 qrCodeGenerator
 =
 mockQRCodeGenerator
