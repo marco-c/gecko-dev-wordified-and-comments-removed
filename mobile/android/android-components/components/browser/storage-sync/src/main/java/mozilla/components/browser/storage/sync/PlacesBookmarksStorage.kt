@@ -1674,9 +1674,7 @@ String
 return
 withContext
 (
-writeScope
-.
-dispatcher
+writeDispatcher
 )
 {
 runCatching
