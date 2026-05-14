@@ -6689,7 +6689,7 @@ hasCmdShiftOnlyChar
 )
 TrueOrFalse
 (
-isDvorakQWERTY
+isCmdSwitchLayout
 )
 TrueOrFalse
 (
@@ -8676,13 +8676,6 @@ status
 =
 nsEventStatus_eConsumeNoDefault
 )
-;
-currentKeyEvent
--
->
-mKeyPressDispatched
-=
-true
 ;
 MOZ_LOG_KEY_OR_IME
 (
