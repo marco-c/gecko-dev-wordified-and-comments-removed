@@ -981,7 +981,7 @@ ElementContentEditable
 ;
 HTMLElement
 includes
-HTMLOrSVGElement
+HTMLOrSVGOrMathMLElement
 ;
 [
 Exposed
@@ -1006,7 +1006,7 @@ HTMLConstructor
 ;
 interface
 mixin
-HTMLOrSVGElement
+HTMLOrSVGOrMathMLElement
 {
 [
 SameObject

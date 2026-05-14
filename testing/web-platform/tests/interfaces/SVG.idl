@@ -98,7 +98,7 @@ GlobalEventHandlers
 ;
 SVGElement
 includes
-HTMLOrSVGElement
+HTMLOrSVGOrMathMLElement
 ;
 dictionary
 SVGBoundingBoxOptions
@@ -1507,10 +1507,6 @@ SVGElement
 {
 attribute
 DOMString
-type
-;
-attribute
-DOMString
 media
 ;
 attribute
@@ -1520,6 +1516,14 @@ title
 attribute
 boolean
 disabled
+;
+/
+/
+obsolete
+members
+attribute
+DOMString
+type
 ;
 }
 ;
