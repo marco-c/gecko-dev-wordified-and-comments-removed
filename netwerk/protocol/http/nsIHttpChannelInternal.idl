@@ -1799,7 +1799,6 @@ TRR
 *
 /
 [
-noscript
 must_use
 ]
 attribute
