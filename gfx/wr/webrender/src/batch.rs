@@ -3933,6 +3933,7 @@ quad_flags
 edge_flags
 transform_id
 src_color_task_id
+blend_mode
 }
 =
 >
@@ -4015,6 +4016,8 @@ u8
 *
 src_color_task_id
 z_id
+*
+blend_mode
 render_tasks
 gpu_buffer_builder
 |
@@ -4114,6 +4117,8 @@ u8
 *
 task_id
 z_id
+*
+blend_mode
 render_tasks
 gpu_buffer_builder
 |
