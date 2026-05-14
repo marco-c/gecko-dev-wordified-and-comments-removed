@@ -13036,7 +13036,9 @@ tabshifted
 }
 window
 .
-browser
+gBrowser
+.
+selectedBrowser
 )
 ;
 if
