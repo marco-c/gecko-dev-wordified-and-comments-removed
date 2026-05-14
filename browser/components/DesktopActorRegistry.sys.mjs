@@ -1449,6 +1449,17 @@ wantUntrusted
 :
 true
 }
+"
+AIChatContent
+:
+ToolUIUpdate
+"
+:
+{
+wantUntrusted
+:
+true
+}
 }
 }
 allFrames

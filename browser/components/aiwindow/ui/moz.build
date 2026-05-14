@@ -278,6 +278,15 @@ sys
 .
 mjs
 "
+"
+modules
+/
+ToolUI
+.
+sys
+.
+mjs
+"
 ]
 TESTING_JS_MODULES
 +
