@@ -352,12 +352,9 @@ JSClassOps
 sWitnessClassOps
 =
 {
-nullptr
-nullptr
-nullptr
-nullptr
-nullptr
-nullptr
+.
+finalize
+=
 Finalize
 }
 ;

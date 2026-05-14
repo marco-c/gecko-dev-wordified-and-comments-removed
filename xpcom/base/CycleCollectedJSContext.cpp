@@ -975,12 +975,9 @@ JSClassOps
 sSchedulingStateWrapper
 =
 {
-nullptr
-nullptr
-nullptr
-nullptr
-nullptr
-nullptr
+.
+finalize
+=
 FinalizeSchedulingStateWrapper
 }
 ;
