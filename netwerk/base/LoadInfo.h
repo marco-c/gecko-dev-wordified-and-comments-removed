@@ -610,16 +610,6 @@ false
 GETTER
 (
 bool
-ServiceWorkerTaintingSynthesized
-\
-serviceWorkerTaintingSynthesized
-false
-)
-\
-\
-GETTER
-(
-bool
 DocumentHasUserInteracted
 documentHasUserInteracted
 false
@@ -1700,6 +1690,8 @@ uint32_t
 aSandboxFlags
 nsContentPolicyType
 aContentPolicyType
+bool
+aServiceWorkerTaintingSynthesized
 LoadTainting
 aTainting
 #
@@ -2152,6 +2144,11 @@ _empty
 ;
 nsContentPolicyType
 mInternalContentPolicyType
+;
+bool
+mServiceWorkerTaintingSynthesized
+=
+false
 ;
 LoadTainting
 mTainting
