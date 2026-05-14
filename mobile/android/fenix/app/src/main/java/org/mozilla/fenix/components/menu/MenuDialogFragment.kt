@@ -2445,9 +2445,6 @@ shareSheetLauncher
 =
 DefaultShareSheetLauncher
 (
-browserStore
-=
-browserStore
 navController
 =
 findNavController
