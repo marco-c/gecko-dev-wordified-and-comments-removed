@@ -3580,15 +3580,13 @@ stopTail150
 this
 .
 #
-containerWidthOnLastClose
+inputWidthOnLastClose
 =
 getBoundsWithoutFlushing
 (
 this
 .
 input
-.
-parentElement
 )
 .
 width
@@ -5790,7 +5788,7 @@ value
 this
 .
 #
-containerWidthOnLastClose
+inputWidthOnLastClose
 =
 =
 getBoundsWithoutFlushing
@@ -5798,8 +5796,6 @@ getBoundsWithoutFlushing
 this
 .
 input
-.
-parentElement
 )
 .
 width
@@ -9074,7 +9070,7 @@ tail150
 null
 ;
 #
-containerWidthOnLastClose
+inputWidthOnLastClose
 =
 0
 ;
