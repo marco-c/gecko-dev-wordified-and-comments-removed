@@ -244,6 +244,7 @@ renderer
 :
 :
 {
+BlendMode
 GpuBufferAddress
 GpuBufferBuilder
 }
@@ -1613,6 +1614,10 @@ ZBufferId
 (
 0
 )
+BlendMode
+:
+:
+None
 render_tasks
 gpu_buffer_builder
 |
@@ -5063,6 +5068,10 @@ ZBufferId
 (
 0
 )
+BlendMode
+:
+:
+None
 render_tasks
 gpu_buffers
 |
@@ -5293,6 +5302,10 @@ ZBufferId
 (
 0
 )
+BlendMode
+:
+:
+None
 render_tasks
 gpu_buffers
 |

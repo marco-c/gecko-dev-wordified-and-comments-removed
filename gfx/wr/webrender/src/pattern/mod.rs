@@ -63,7 +63,10 @@ crate
 renderer
 :
 :
+{
+BlendMode
 GpuBufferBuilder
+}
 ;
 use
 crate
@@ -505,6 +508,10 @@ pub
 is_opaque
 :
 bool
+pub
+blend_mode
+:
+BlendMode
 }
 impl
 Pattern
@@ -557,6 +564,12 @@ a
 1
 .
 0
+blend_mode
+:
+BlendMode
+:
+:
+PremultipliedAlpha
 }
 }
 pub
@@ -605,6 +618,12 @@ ColorF
 :
 WHITE
 is_opaque
+blend_mode
+:
+BlendMode
+:
+:
+PremultipliedAlpha
 }
 }
 pub
