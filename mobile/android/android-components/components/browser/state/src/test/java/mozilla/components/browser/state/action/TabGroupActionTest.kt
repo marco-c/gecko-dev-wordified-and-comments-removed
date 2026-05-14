@@ -173,14 +173,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -204,6 +196,12 @@ org
 junit
 .
 Test
+import
+kotlin
+.
+test
+.
+assertNotNull
 class
 TabGroupActionTest
 {
@@ -282,7 +280,6 @@ assertSame
 (
 testGroup
 expectedPartition
-?
 .
 getGroupById
 (
@@ -295,7 +292,6 @@ assertSame
 (
 testGroup
 expectedPartition
-?
 .
 getGroupByName
 (
@@ -428,7 +424,6 @@ assertSame
 (
 testGroup
 expectedPartition
-?
 .
 getGroupById
 (
@@ -449,7 +444,6 @@ tab2
 "
 )
 expectedPartition
-?
 .
 getGroupById
 (
@@ -964,8 +958,6 @@ val
 expectedGroup
 =
 expectedPartition
-!
-!
 .
 getGroupById
 (
@@ -980,8 +972,6 @@ expectedGroup
 assertTrue
 (
 expectedGroup
-!
-!
 .
 tabIds
 .
@@ -1102,8 +1092,6 @@ val
 expectedGroup
 =
 expectedPartition
-!
-!
 .
 getGroupById
 (
@@ -1118,8 +1106,6 @@ expectedGroup
 assertTrue
 (
 expectedGroup
-!
-!
 .
 tabIds
 .
@@ -1264,8 +1250,6 @@ val
 expectedGroup
 =
 expectedPartition
-!
-!
 .
 getGroupById
 (
@@ -1280,8 +1264,6 @@ expectedGroup
 assertTrue
 (
 expectedGroup
-!
-!
 .
 tabIds
 .
@@ -1457,8 +1439,6 @@ val
 expectedGroup
 =
 expectedPartition
-!
-!
 .
 getGroupById
 (
@@ -1473,8 +1453,6 @@ expectedGroup
 assertTrue
 (
 expectedGroup
-!
-!
 .
 tabIds
 .
@@ -1637,8 +1615,6 @@ val
 expectedGroup
 =
 expectedPartition
-!
-!
 .
 getGroupById
 (
@@ -1653,8 +1629,6 @@ expectedGroup
 assertTrue
 (
 expectedGroup
-!
-!
 .
 tabIds
 .
@@ -1841,8 +1815,6 @@ val
 expectedGroup
 =
 expectedPartition
-!
-!
 .
 getGroupById
 (
@@ -1857,8 +1829,6 @@ expectedGroup
 assertTrue
 (
 expectedGroup
-!
-!
 .
 tabIds
 .
@@ -2012,8 +1982,6 @@ val
 expectedGroup
 =
 expectedPartition
-!
-!
 .
 getGroupById
 (
@@ -2028,8 +1996,6 @@ expectedGroup
 assertTrue
 (
 expectedGroup
-!
-!
 .
 tabIds
 .
@@ -2204,8 +2170,6 @@ val
 expectedGroup
 =
 expectedPartition
-!
-!
 .
 getGroupById
 (
@@ -2220,8 +2184,6 @@ expectedGroup
 assertFalse
 (
 expectedGroup
-!
-!
 .
 tabIds
 .
@@ -2406,8 +2368,6 @@ val
 expectedGroup
 =
 expectedPartition
-!
-!
 .
 getGroupById
 (
@@ -2422,8 +2382,6 @@ expectedGroup
 assertTrue
 (
 expectedGroup
-!
-!
 .
 tabIds
 .

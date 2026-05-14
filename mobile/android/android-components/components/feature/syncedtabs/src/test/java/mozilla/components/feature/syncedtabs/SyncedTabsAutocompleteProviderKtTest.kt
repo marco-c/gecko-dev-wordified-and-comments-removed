@@ -157,14 +157,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -188,6 +180,12 @@ mockito
 Mockito
 .
 doReturn
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -300,7 +298,6 @@ assertEquals
 foo
 "
 suggestion
-?
 .
 input
 )
@@ -312,7 +309,6 @@ foo
 bar
 "
 suggestion
-?
 .
 text
 )
@@ -328,7 +324,6 @@ foo
 bar
 "
 suggestion
-?
 .
 url
 )
@@ -336,7 +331,6 @@ assertEquals
 (
 SYNCED_TABS_AUTOCOMPLETE_SOURCE_NAME
 suggestion
-?
 .
 source
 )
@@ -344,7 +338,6 @@ assertEquals
 (
 1
 suggestion
-?
 .
 totalItems
 )
@@ -368,7 +361,6 @@ assertEquals
 obob
 "
 suggestion
-?
 .
 input
 )
@@ -380,7 +372,6 @@ obob
 bar
 "
 suggestion
-?
 .
 text
 )
@@ -396,7 +387,6 @@ obob
 bar
 "
 suggestion
-?
 .
 url
 )
@@ -404,7 +394,6 @@ assertEquals
 (
 SYNCED_TABS_AUTOCOMPLETE_SOURCE_NAME
 suggestion
-?
 .
 source
 )
@@ -412,7 +401,6 @@ assertEquals
 (
 1
 suggestion
-?
 .
 totalItems
 )

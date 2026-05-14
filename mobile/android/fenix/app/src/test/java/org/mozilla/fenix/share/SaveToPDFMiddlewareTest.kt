@@ -221,14 +221,6 @@ org
 .
 junit
 .
-Assert
-.
-assertNotNull
-import
-org
-.
-junit
-.
 Before
 import
 org
@@ -350,6 +342,12 @@ java
 io
 .
 IOException
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 RobolectricTestRunner
@@ -637,7 +635,6 @@ val
 reason
 =
 response
-?
 .
 extra
 ?
@@ -659,7 +656,6 @@ val
 source
 =
 response
-?
 .
 extra
 ?
@@ -876,7 +872,6 @@ val
 reason
 =
 response
-?
 .
 extra
 ?
@@ -898,7 +893,6 @@ val
 source
 =
 response
-?
 .
 extra
 ?
@@ -1117,7 +1111,6 @@ val
 reason
 =
 response
-?
 .
 extra
 ?
@@ -1139,7 +1132,6 @@ val
 source
 =
 response
-?
 .
 extra
 ?
@@ -1334,7 +1326,6 @@ val
 source
 =
 response
-?
 .
 firstOrNull
 (
@@ -1537,7 +1528,6 @@ val
 source
 =
 response
-?
 .
 firstOrNull
 (
@@ -1888,7 +1878,6 @@ val
 reason
 =
 response
-?
 .
 extra
 ?
@@ -1910,7 +1899,6 @@ val
 source
 =
 response
-?
 .
 extra
 ?
@@ -2128,7 +2116,6 @@ val
 reason
 =
 response
-?
 .
 extra
 ?
@@ -2150,7 +2137,6 @@ val
 source
 =
 response
-?
 .
 extra
 ?
@@ -2343,7 +2329,6 @@ val
 source
 =
 response
-?
 .
 firstOrNull
 (
@@ -2542,7 +2527,6 @@ val
 source
 =
 response
-?
 .
 firstOrNull
 (

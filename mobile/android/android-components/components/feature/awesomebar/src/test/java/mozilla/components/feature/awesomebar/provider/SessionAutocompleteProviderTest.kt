@@ -137,14 +137,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -160,6 +152,12 @@ junit
 runner
 .
 RunWith
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -298,7 +296,6 @@ assertEquals
 all
 "
 suggestion
-?
 .
 input
 )
@@ -310,7 +307,6 @@ allizom
 org
 "
 suggestion
-?
 .
 text
 )
@@ -326,7 +322,6 @@ allizom
 org
 "
 suggestion
-?
 .
 url
 )
@@ -334,7 +329,6 @@ assertEquals
 (
 LOCAL_TABS_AUTOCOMPLETE_SOURCE_NAME
 suggestion
-?
 .
 source
 )
@@ -342,7 +336,6 @@ assertEquals
 (
 1
 suggestion
-?
 .
 totalItems
 )
@@ -366,7 +359,6 @@ assertEquals
 www
 "
 suggestion
-?
 .
 input
 )
@@ -380,7 +372,6 @@ firefox
 com
 "
 suggestion
-?
 .
 text
 )
@@ -398,7 +389,6 @@ firefox
 com
 "
 suggestion
-?
 .
 url
 )
@@ -406,7 +396,6 @@ assertEquals
 (
 LOCAL_TABS_AUTOCOMPLETE_SOURCE_NAME
 suggestion
-?
 .
 source
 )
@@ -414,7 +403,6 @@ assertEquals
 (
 1
 suggestion
-?
 .
 totalItems
 )

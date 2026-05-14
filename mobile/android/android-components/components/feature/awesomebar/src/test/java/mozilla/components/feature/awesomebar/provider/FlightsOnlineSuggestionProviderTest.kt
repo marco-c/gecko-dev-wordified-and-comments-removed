@@ -159,14 +159,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -208,6 +200,12 @@ java
 util
 .
 Locale
+import
+kotlin
+.
+test
+.
+assertNotNull
 private
 const
 val
@@ -1283,7 +1281,6 @@ assertEquals
 LAX
 "
 result
-?
 .
 airportCode
 )
@@ -1294,7 +1291,6 @@ Los
 Angeles
 "
 result
-?
 .
 airportCity
 )
@@ -1307,7 +1303,6 @@ assertEquals
 PM
 "
 result
-?
 .
 time
 )
@@ -1318,7 +1313,6 @@ Oct
 5
 "
 result
-?
 .
 date
 )
@@ -1428,7 +1422,6 @@ assertEquals
 JFK
 "
 result
-?
 .
 airportCode
 )
@@ -1439,7 +1432,6 @@ New
 York
 "
 result
-?
 .
 airportCity
 )
@@ -1452,7 +1444,6 @@ assertEquals
 PM
 "
 result
-?
 .
 time
 )
@@ -1463,7 +1454,6 @@ Oct
 5
 "
 result
-?
 .
 date
 )
@@ -1682,7 +1672,6 @@ assertEquals
 PM
 "
 resultPST
-?
 .
 time
 )
@@ -1695,7 +1684,6 @@ assertEquals
 PM
 "
 resultEST
-?
 .
 time
 )
@@ -1838,7 +1826,6 @@ Oct
 5
 "
 resultUS
-?
 .
 date
 )
@@ -1850,7 +1837,6 @@ oct
 5
 "
 resultFrance
-?
 .
 date
 )

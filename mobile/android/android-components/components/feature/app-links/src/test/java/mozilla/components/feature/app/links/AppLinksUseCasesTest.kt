@@ -199,14 +199,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -282,6 +274,12 @@ java
 io
 .
 File
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -2228,8 +2226,6 @@ scan
 redirect
 .
 appIntent
-!
-!
 .
 dataString
 )
@@ -4700,7 +4696,6 @@ result
 assertEquals
 (
 result
-?
 .
 package
 "

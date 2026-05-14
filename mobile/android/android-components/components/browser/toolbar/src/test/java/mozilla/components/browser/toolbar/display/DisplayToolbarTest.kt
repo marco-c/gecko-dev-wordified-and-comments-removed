@@ -327,14 +327,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -414,6 +406,12 @@ mockito
 Mockito
 .
 verify
+import
+kotlin
+.
+test
+.
+assertNotNull
 import
 mozilla
 .
@@ -1761,7 +1759,6 @@ assertFalse
 callbackExecuted
 )
 view
-?
 .
 performClick
 (
@@ -2237,8 +2234,6 @@ assertNotNull
 view
 )
 view
-!
-!
 .
 performClick
 (
@@ -3135,7 +3130,6 @@ margins
 .
 goneStartMargin
 layoutParams
-?
 .
 goneStartMargin
 )
@@ -3145,7 +3139,6 @@ margins
 .
 goneEndMargin
 layoutParams
-?
 .
 goneEndMargin
 )

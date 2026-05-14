@@ -325,14 +325,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -374,6 +366,12 @@ kotlin
 test
 .
 assertIs
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -512,8 +510,6 @@ file
 assertNotNull
 (
 restoredTab
-!
-!
 )
 assertEquals
 (
@@ -736,8 +732,6 @@ file
 assertNotNull
 (
 restoredTab
-!
-!
 )
 assertTrue
 (
@@ -972,8 +966,6 @@ file
 assertNotNull
 (
 restoredTab
-!
-!
 )
 assertEquals
 (
@@ -1171,8 +1163,6 @@ file
 assertNotNull
 (
 restoredTab
-!
-!
 )
 assertNotNull
 (
@@ -1349,8 +1339,6 @@ file
 assertNotNull
 (
 restoredTab
-!
-!
 )
 val
 restoredTabSource
@@ -1559,8 +1547,6 @@ file
 assertNotNull
 (
 restoredTab
-!
-!
 )
 val
 restoredTabSource
@@ -1755,8 +1741,6 @@ file
 assertNotNull
 (
 restoredTab
-!
-!
 )
 val
 restoredTabSource
@@ -1927,8 +1911,6 @@ file
 assertNotNull
 (
 restoredTab
-!
-!
 )
 assertEquals
 (
@@ -2101,8 +2083,6 @@ file
 assertNotNull
 (
 restoredTab
-!
-!
 )
 assertEquals
 (
@@ -2237,8 +2217,6 @@ file
 assertNotNull
 (
 restoredTab
-!
-!
 )
 assertEquals
 (
@@ -2367,8 +2345,6 @@ file
 assertNotNull
 (
 restoredTab
-!
-!
 )
 assertNotNull
 (
@@ -2503,8 +2479,6 @@ file
 assertNotNull
 (
 restoredTab
-!
-!
 )
 assertEquals
 (
@@ -2637,8 +2611,6 @@ file
 assertNotNull
 (
 restoredTab
-!
-!
 )
 assertEquals
 (
@@ -2777,10 +2749,8 @@ assertEquals
 (
 true
 restoredTab
-?
 .
 state
-?
 .
 desktopMode
 )
@@ -2908,10 +2878,8 @@ assertEquals
 (
 false
 restoredTab
-?
 .
 state
-?
 .
 desktopMode
 )
@@ -3102,8 +3070,6 @@ file
 assertNotNull
 (
 restoredState
-!
-!
 )
 assertEquals
 (
@@ -3159,8 +3125,6 @@ assertEquals
 testFeaturePartition1
 "
 restoredPartition
-!
-!
 .
 id
 )

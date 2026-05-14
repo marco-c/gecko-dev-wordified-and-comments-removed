@@ -163,14 +163,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -178,6 +170,12 @@ org
 junit
 .
 Test
+import
+kotlin
+.
+test
+.
+assertNotNull
 class
 MediaSessionActionTest
 {
@@ -279,7 +277,6 @@ assertEquals
 (
 mediaSessionController
 mediaSessionState
-?
 .
 controller
 )
@@ -524,7 +521,6 @@ assertEquals
 (
 mediaSessionController
 mediaSessionState
-?
 .
 controller
 )
@@ -532,7 +528,6 @@ assertEquals
 (
 metadata
 mediaSessionState
-?
 .
 metadata
 )
@@ -664,7 +659,6 @@ assertEquals
 (
 mediaSessionController
 mediaSessionState
-?
 .
 controller
 )
@@ -672,7 +666,6 @@ assertEquals
 (
 playbackState
 mediaSessionState
-?
 .
 playbackState
 )
@@ -804,7 +797,6 @@ assertEquals
 (
 mediaSessionController
 mediaSessionState
-?
 .
 controller
 )
@@ -812,7 +804,6 @@ assertEquals
 (
 features
 mediaSessionState
-?
 .
 features
 )
@@ -944,7 +935,6 @@ assertEquals
 (
 mediaSessionController
 mediaSessionState
-?
 .
 controller
 )
@@ -952,7 +942,6 @@ assertEquals
 (
 positionState
 mediaSessionState
-?
 .
 positionState
 )
@@ -1074,7 +1063,6 @@ assertEquals
 (
 mediaSessionController
 mediaSessionState
-?
 .
 controller
 )
@@ -1082,7 +1070,6 @@ assertEquals
 (
 true
 mediaSessionState
-?
 .
 muted
 )
@@ -1215,7 +1202,6 @@ assertEquals
 (
 mediaSessionController
 mediaSessionState
-?
 .
 controller
 )
@@ -1223,7 +1209,6 @@ assertEquals
 (
 true
 mediaSessionState
-?
 .
 fullscreen
 )
@@ -1231,7 +1216,6 @@ assertEquals
 (
 elementMetadata
 mediaSessionState
-?
 .
 elementMetadata
 )

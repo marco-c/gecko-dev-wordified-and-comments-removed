@@ -431,14 +431,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -516,6 +508,12 @@ mockito
 Mockito
 .
 verify
+import
+kotlin
+.
+test
+.
+assertNotNull
 const
 val
 DAY_IN_MS
@@ -5870,7 +5868,6 @@ TabPartitionKeys
 .
 TAB_GROUPS
 partition
-?
 .
 id
 )
@@ -5878,10 +5875,8 @@ assertEquals
 (
 1
 partition
-?
 .
 tabGroups
-?
 .
 size
 )
@@ -5889,7 +5884,6 @@ assertEquals
 (
 group
 partition
-?
 .
 getGroupById
 (
@@ -6347,7 +6341,6 @@ tab1
 id
 )
 group
-?
 .
 tabIds
 )

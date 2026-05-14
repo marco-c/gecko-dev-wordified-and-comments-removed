@@ -569,14 +569,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -608,6 +600,12 @@ mockito
 Mockito
 .
 when
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -1252,8 +1250,6 @@ mozilla
 assertNotNull
 (
 tab
-!
-!
 )
 assertTrue
 (
@@ -8388,7 +8384,6 @@ assertEquals
 (
 mediaSessionController
 observedMediaSessionState
-?
 .
 controller
 )
@@ -8650,7 +8645,6 @@ assertEquals
 (
 mediaSessionController
 observedMediaSessionState
-?
 .
 controller
 )
@@ -8658,7 +8652,6 @@ assertEquals
 (
 metaData
 observedMediaSessionState
-?
 .
 metadata
 )
@@ -8797,7 +8790,6 @@ assertEquals
 (
 mediaSessionController
 observedMediaSessionState
-?
 .
 controller
 )
@@ -8805,7 +8797,6 @@ assertEquals
 (
 playbackState
 observedMediaSessionState
-?
 .
 playbackState
 )
@@ -8945,7 +8936,6 @@ assertEquals
 (
 mediaSessionController
 observedMediaSessionState
-?
 .
 controller
 )
@@ -8953,7 +8943,6 @@ assertEquals
 (
 playFeature
 observedMediaSessionState
-?
 .
 features
 )
@@ -9092,7 +9081,6 @@ assertEquals
 (
 mediaSessionController
 observedMediaSessionState
-?
 .
 controller
 )
@@ -9100,7 +9088,6 @@ assertEquals
 (
 positionState
 observedMediaSessionState
-?
 .
 positionState
 )
@@ -9227,7 +9214,6 @@ assertEquals
 (
 mediaSessionController
 observedMediaSessionState
-?
 .
 controller
 )
@@ -9235,7 +9221,6 @@ assertEquals
 (
 true
 observedMediaSessionState
-?
 .
 muted
 )
@@ -9375,7 +9360,6 @@ assertEquals
 (
 mediaSessionController
 observedMediaSessionState
-?
 .
 controller
 )
@@ -9383,7 +9367,6 @@ assertEquals
 (
 true
 observedMediaSessionState
-?
 .
 fullscreen
 )
@@ -9391,7 +9374,6 @@ assertEquals
 (
 elementMetadata
 observedMediaSessionState
-?
 .
 elementMetadata
 )

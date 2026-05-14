@@ -443,14 +443,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -574,6 +566,12 @@ robolectric
 shadows
 .
 ShadowToast
+import
+kotlin
+.
+test
+.
+assertNotNull
 RunWith
 (
 AndroidJUnit4
@@ -4557,7 +4555,6 @@ assertNotNull
 delegatePositiveActionCallback
 )
 delegatePositiveActionCallback
-?
 .
 invoke
 (
@@ -4582,7 +4579,6 @@ assertNotNull
 delegateNegativeActionCallback
 )
 delegateNegativeActionCallback
-?
 .
 invoke
 (
@@ -5114,7 +5110,6 @@ assertNotNull
 delegatePositiveActionCallback
 )
 delegatePositiveActionCallback
-?
 .
 invoke
 (
@@ -5139,7 +5134,6 @@ assertNotNull
 delegateNegativeActionCallback
 )
 delegateNegativeActionCallback
-?
 .
 invoke
 (
@@ -5163,7 +5157,6 @@ assertNotNull
 delegateOpenFileCallback
 )
 delegateOpenFileCallback
-?
 .
 invoke
 (
@@ -5900,7 +5893,6 @@ assertNotNull
 delegateChosenAppCallback
 )
 delegateChosenAppCallback
-?
 .
 invoke
 (
@@ -5922,7 +5914,6 @@ assertNotNull
 delegateNegativeActionCallback
 )
 delegateNegativeActionCallback
-?
 .
 invoke
 (
