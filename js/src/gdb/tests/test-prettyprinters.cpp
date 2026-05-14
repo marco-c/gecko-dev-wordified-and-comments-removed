@@ -34,7 +34,6 @@ D
 D_
 ;
 class
-MOZ_EMPTY_BASES
 E
 :
 C
@@ -47,7 +46,6 @@ E
 E_
 ;
 class
-MOZ_EMPTY_BASES
 F
 :
 C_
@@ -61,7 +59,6 @@ G
 }
 ;
 class
-MOZ_EMPTY_BASES
 H
 :
 F

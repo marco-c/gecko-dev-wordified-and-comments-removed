@@ -13798,7 +13798,6 @@ class
 Ts
 >
 struct
-MOZ_EMPTY_BASES
 overloaded
 :
 Ts

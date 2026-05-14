@@ -53,13 +53,6 @@ TARGET_IS_WINDOWS
 #
 include
 "
-EmptyBasesChecker
-.
-h
-"
-#
-include
-"
 LoadLibraryUsageChecker
 .
 h

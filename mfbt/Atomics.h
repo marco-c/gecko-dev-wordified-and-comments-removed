@@ -761,7 +761,6 @@ MemoryOrdering
 Order
 >
 struct
-MOZ_EMPTY_BASES
 AtomicIntrinsics
 :
 public
@@ -888,7 +887,6 @@ MemoryOrdering
 Order
 >
 struct
-MOZ_EMPTY_BASES
 AtomicIntrinsics
 <
 T
