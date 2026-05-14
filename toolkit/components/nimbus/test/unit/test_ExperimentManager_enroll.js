@@ -3453,6 +3453,8 @@ branches
 [
 0
 ]
+.
+slug
 )
 ;
 Assert
@@ -3769,6 +3771,8 @@ branches
 [
 0
 ]
+.
+slug
 )
 ;
 Assert
@@ -4099,6 +4103,8 @@ branches
 [
 0
 ]
+.
+slug
 )
 ;
 }
