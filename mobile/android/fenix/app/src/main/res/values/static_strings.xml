@@ -2438,7 +2438,7 @@ string
 name
 =
 "
-preferences_settings_use_tracking_protection_database
+preferences_settings_show_tracking_protection_dashboard
 "
 translatable
 =
@@ -2446,15 +2446,11 @@ translatable
 false
 "
 >
-Use
+Show
 the
 tracking
 protection
-database
-(
-requires
-restart
-)
+dashboard
 <
 /
 string

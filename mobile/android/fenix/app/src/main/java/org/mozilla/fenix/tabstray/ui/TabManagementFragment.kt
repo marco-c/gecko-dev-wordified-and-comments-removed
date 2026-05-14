@@ -5503,7 +5503,7 @@ showPrivacyReportFeature
 &
 settings
 .
-shouldUseTrackingProtectionDatabase
+shouldShowTrackingProtectionDashboard
 private
 companion
 object

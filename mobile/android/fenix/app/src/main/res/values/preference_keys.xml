@@ -4578,7 +4578,7 @@ string
 name
 =
 "
-pref_key_tracking_protection_database_status
+pref_key_tracking_protection_dashboard_status
 "
 translatable
 =
@@ -4586,7 +4586,7 @@ translatable
 false
 "
 >
-pref_key_tracking_protection_database_status
+pref_key_tracking_protection_dashboard_status
 <
 /
 string

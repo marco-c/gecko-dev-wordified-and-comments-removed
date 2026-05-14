@@ -6425,7 +6425,7 @@ default
 true
 )
 var
-shouldUseTrackingProtectionDatabase
+shouldShowTrackingProtectionDashboard
 by
 booleanPreference
 (
@@ -6437,7 +6437,7 @@ R
 .
 string
 .
-pref_key_tracking_protection_database_status
+pref_key_tracking_protection_dashboard_status
 )
 default
 =
