@@ -22337,7 +22337,7 @@ false
 }
 JS_PUBLIC_API
 bool
-JS_WriteUint32Pair
+JS_WriteUint32PairUnchecked
 (
 JSStructuredCloneWriter
 *
