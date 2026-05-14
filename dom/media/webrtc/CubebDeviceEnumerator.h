@@ -69,8 +69,10 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 CubebDeviceEnumerator
 )
 static
+already_AddRefed
+<
 CubebDeviceEnumerator
-*
+>
 GetInstance
 (
 )

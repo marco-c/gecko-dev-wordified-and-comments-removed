@@ -116,8 +116,10 @@ StaticMutex
 sInstanceMutex
 MOZ_UNANNOTATED
 ;
+already_AddRefed
+<
 CubebDeviceEnumerator
-*
+>
 CubebDeviceEnumerator
 :
 :
@@ -235,10 +237,9 @@ clearOnShutdownSetup
 ;
 }
 return
-sInstance
-.
-get
+do_AddRef
 (
+sInstance
 )
 ;
 }
