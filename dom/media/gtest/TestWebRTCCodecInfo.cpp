@@ -1648,13 +1648,6 @@ get
 ;
 }
 }
-#
-if
-!
-defined
-(
-XP_MACOSX
-)
 TEST_F
 (
 WebRTCCodecInfoTest
@@ -1756,8 +1749,6 @@ get
 )
 ;
 }
-#
-endif
 TEST_F
 (
 WebRTCCodecInfoTest
