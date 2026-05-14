@@ -299,10 +299,9 @@ if
 keyframe
 .
 mOffset
-.
-value
-(
-)
+-
+>
+mPercentage
 !
 =
 aOffset

@@ -135,14 +135,14 @@ aRv
 ;
 static
 void
-DistributeKeyframes
+ComputeMissingKeyframeOffsets
 (
 nsTArray
 <
 Keyframe
 >
 &
-aKeyframes
+aKeframes
 )
 ;
 static

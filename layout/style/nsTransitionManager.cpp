@@ -918,7 +918,16 @@ mOffset
 .
 emplace
 (
+Keyframe
+:
+:
+OffsetType
+:
+:
+PercentageOffset
+(
 aOffset
+)
 )
 ;
 MOZ_ASSERT
