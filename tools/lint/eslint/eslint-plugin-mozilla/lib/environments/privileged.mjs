@@ -907,6 +907,11 @@ EventTarget
 "
 readonly
 "
+ExtensionGuardSet
+:
+"
+readonly
+"
 FeaturePolicyViolationReportBody
 :
 "
@@ -2588,6 +2593,11 @@ ReadableStreamDefaultController
 readonly
 "
 ReadableStreamDefaultReader
+:
+"
+readonly
+"
+RedirectBlockedEvent
 :
 "
 readonly
