@@ -2396,6 +2396,11 @@ RenderTextureHost
 >
 mPrevRenderTextureHost
 ;
+int
+mSlowGetCount
+=
+0
+;
 }
 ;
 class
