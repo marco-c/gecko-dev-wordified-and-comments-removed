@@ -1,16 +1,6 @@
 #
 include
 "
-jstypes
-.
-h
-"
-#
-ifdef
-JS_SIMULATOR_ARM64
-#
-include
-"
 jit
 /
 arm64
@@ -35,6 +25,13 @@ string
 .
 h
 >
+#
+include
+"
+jstypes
+.
+h
+"
 #
 include
 "
@@ -29970,5 +29967,3 @@ format
 ;
 }
 }
-#
-endif
