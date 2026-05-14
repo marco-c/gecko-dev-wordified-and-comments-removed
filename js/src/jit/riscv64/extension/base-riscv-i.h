@@ -887,9 +887,6 @@ Instr
 instr
 )
 {
-#
-if
-JS_CODEGEN_RISCV64
 MOZ_ASSERT
 (
 IsLd
@@ -898,8 +895,6 @@ instr
 )
 )
 ;
-#
-endif
 MOZ_ASSERT
 (
 is_int12
@@ -1947,9 +1942,6 @@ rs
 )
 ;
 }
-#
-if
-JS_CODEGEN_RISCV64
 void
 lwu
 (
@@ -2132,8 +2124,6 @@ Instr
 instr
 )
 ;
-#
-endif
 }
 ;
 }

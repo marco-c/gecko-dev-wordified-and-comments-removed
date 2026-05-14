@@ -5942,9 +5942,6 @@ rs2
 ;
 break
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 RO_ADDW
 :
@@ -6125,8 +6122,6 @@ rs2
 ;
 break
 ;
-#
-endif
 case
 RO_MUL
 :
@@ -6279,9 +6274,6 @@ rs2
 ;
 break
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 RO_MULW
 :
@@ -6478,8 +6470,6 @@ rs2
 ;
 break
 ;
-#
-endif
 case
 RO_SH1ADD
 :
@@ -7085,9 +7075,6 @@ rs1
 ;
 break
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 RO_LR_D
 :
@@ -7361,8 +7348,6 @@ rs1
 ;
 break
 ;
-#
-endif
 default
 :
 {
@@ -7812,9 +7797,6 @@ fs1
 ;
 break
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 0b00010
 :
@@ -7865,8 +7847,6 @@ fs1
 ;
 break
 ;
-#
-endif
 default
 :
 UNSUPPORTED_RISCV
@@ -8102,9 +8082,6 @@ rs1
 ;
 break
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 0b00010
 :
@@ -8147,8 +8124,6 @@ rs1
 ;
 break
 ;
-#
-endif
 default
 :
 {
@@ -8820,9 +8795,6 @@ fs1
 ;
 break
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 0b000
 :
@@ -8844,8 +8816,6 @@ fs1
 ;
 break
 ;
-#
-endif
 default
 :
 UNSUPPORTED_RISCV
@@ -8920,9 +8890,6 @@ fs1
 ;
 break
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 0b00010
 :
@@ -8973,8 +8940,6 @@ fs1
 ;
 break
 ;
-#
-endif
 default
 :
 UNSUPPORTED_RISCV
@@ -9041,9 +9006,6 @@ rs1
 ;
 break
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 0b00010
 :
@@ -9086,8 +9048,6 @@ rs1
 ;
 break
 ;
-#
-endif
 default
 :
 UNSUPPORTED_RISCV
@@ -9098,9 +9058,6 @@ UNSUPPORTED_RISCV
 break
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 RO_FMV_D_X
 :
@@ -9156,8 +9113,6 @@ UNSUPPORTED_RISCV
 break
 ;
 }
-#
-endif
 default
 :
 {
@@ -9659,9 +9614,6 @@ rs1
 ;
 break
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 RO_LWU
 :
@@ -9704,8 +9656,6 @@ rs1
 ;
 break
 ;
-#
-endif
 case
 RO_ADDI
 :
@@ -10283,9 +10233,6 @@ break
 case
 RO_RORI
 :
-#
-ifdef
-JS_CODEGEN_RISCV64
 Format
 (
 instr
@@ -10302,8 +10249,6 @@ s64
 ;
 break
 ;
-#
-endif
 case
 RO_REV8
 :
@@ -10353,9 +10298,6 @@ UNSUPPORTED_RISCV
 break
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 RO_ADDIW
 :
@@ -10624,8 +10566,6 @@ UNSUPPORTED_RISCV
 break
 ;
 }
-#
-endif
 case
 RO_FENCE
 :
@@ -11583,9 +11523,6 @@ rs1
 ;
 break
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 RO_SD
 :
@@ -11607,8 +11544,6 @@ rs1
 ;
 break
 ;
-#
-endif
 case
 RO_FSW
 :
@@ -12323,9 +12258,6 @@ Crs2s
 ;
 break
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 RO_C_SUBW
 :
@@ -12364,8 +12296,6 @@ Crs2s
 ;
 break
 ;
-#
-endif
 default
 :
 UNSUPPORTED_RISCV
@@ -12435,9 +12365,6 @@ Cimm6
 ;
 break
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 RO_C_ADDIW
 :
@@ -12457,8 +12384,6 @@ Cimm6
 ;
 break
 ;
-#
-endif
 case
 RO_C_LI
 :
@@ -12605,9 +12530,6 @@ sp
 ;
 break
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 RO_C_LDSP
 :
@@ -12628,8 +12550,6 @@ sp
 ;
 break
 ;
-#
-endif
 default
 :
 UNSUPPORTED_RISCV
@@ -12726,9 +12646,6 @@ sp
 ;
 break
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 RO_C_SDSP
 :
@@ -12749,8 +12666,6 @@ sp
 ;
 break
 ;
-#
-endif
 case
 RO_C_FSDSP
 :
@@ -12842,9 +12757,6 @@ Crs1s
 ;
 break
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 RO_C_LD
 :
@@ -12866,8 +12778,6 @@ Crs1s
 ;
 break
 ;
-#
-endif
 default
 :
 UNSUPPORTED_RISCV
@@ -12939,9 +12849,6 @@ Crs1s
 ;
 break
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 case
 RO_C_SD
 :
@@ -12963,8 +12870,6 @@ Crs1s
 ;
 break
 ;
-#
-endif
 default
 :
 UNSUPPORTED_RISCV

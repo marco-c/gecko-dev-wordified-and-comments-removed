@@ -134,9 +134,6 @@ rs2
 )
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 void
 AssemblerRISCVB
 :
@@ -258,8 +255,6 @@ shamt
 )
 ;
 }
-#
-endif
 void
 AssemblerRISCVB
 :
@@ -401,9 +396,6 @@ rs
 )
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 void
 AssemblerRISCVB
 :
@@ -473,8 +465,6 @@ rs
 )
 ;
 }
-#
-endif
 void
 AssemblerRISCVB
 :
@@ -629,9 +619,6 @@ Register
 rs
 )
 {
-#
-ifdef
-JS_CODEGEN_RISCV64
 GenInstrALUW_rr
 (
 0b0000100
@@ -641,8 +628,6 @@ rs
 zero_reg
 )
 ;
-#
-endif
 }
 void
 AssemblerRISCVB
@@ -730,9 +715,6 @@ uint8_t
 shamt
 )
 {
-#
-ifdef
-JS_CODEGEN_RISCV64
 MOZ_ASSERT
 (
 is_uint6
@@ -752,12 +734,7 @@ rs1
 shamt
 )
 ;
-#
-endif
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 void
 AssemblerRISCVB
 :
@@ -842,8 +819,6 @@ rs2
 )
 ;
 }
-#
-endif
 void
 AssemblerRISCVB
 :
@@ -856,9 +831,6 @@ Register
 rs
 )
 {
-#
-ifdef
-JS_CODEGEN_RISCV64
 GenInstrI
 (
 0b101
@@ -868,8 +840,6 @@ rs
 0b011010111000
 )
 ;
-#
-endif
 }
 void
 AssemblerRISCVB
@@ -909,9 +879,6 @@ uint8_t
 shamt
 )
 {
-#
-ifdef
-JS_CODEGEN_RISCV64
 GenInstrIShift
 (
 0b010010
@@ -922,8 +889,6 @@ rs
 shamt
 )
 ;
-#
-endif
 }
 void
 AssemblerRISCVB
@@ -963,9 +928,6 @@ uint8_t
 shamt
 )
 {
-#
-ifdef
-JS_CODEGEN_RISCV64
 GenInstrIShift
 (
 0b010010
@@ -976,8 +938,6 @@ rs1
 shamt
 )
 ;
-#
-endif
 }
 void
 AssemblerRISCVB
@@ -1017,9 +977,6 @@ uint8_t
 shamt
 )
 {
-#
-ifdef
-JS_CODEGEN_RISCV64
 GenInstrIShift
 (
 0b011010
@@ -1030,8 +987,6 @@ rs1
 shamt
 )
 ;
-#
-endif
 }
 void
 AssemblerRISCVB
@@ -1071,9 +1026,6 @@ uint8_t
 shamt
 )
 {
-#
-ifdef
-JS_CODEGEN_RISCV64
 GenInstrIShift
 (
 0b001010
@@ -1084,8 +1036,6 @@ rs1
 shamt
 )
 ;
-#
-endif
 }
 }
 }

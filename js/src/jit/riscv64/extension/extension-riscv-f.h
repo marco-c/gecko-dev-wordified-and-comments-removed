@@ -385,9 +385,6 @@ Register
 rs1
 )
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 void
 fcvt_l_s
 (
@@ -440,8 +437,6 @@ frm
 RNE
 )
 ;
-#
-endif
 void
 fmv_s
 (
