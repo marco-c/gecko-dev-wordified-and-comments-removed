@@ -1883,6 +1883,14 @@ HandleObject
 moduleSource
 )
 ;
+void
+initScriptSourceObject
+(
+ScriptSourceObject
+*
+sso
+)
+;
 #
 endif
 void
