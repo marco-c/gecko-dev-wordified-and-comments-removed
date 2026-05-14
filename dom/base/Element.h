@@ -1578,7 +1578,7 @@ HAS_DIR_ATTR_RTL
 )
 ;
 }
-DeclarationBlock
+StyleLockedDeclarationBlock
 *
 GetInlineStyleDeclaration
 (
@@ -1636,15 +1636,14 @@ virtual
 nsresult
 SetInlineStyleDeclaration
 (
-DeclarationBlock
+StyleLockedDeclarationBlock
 &
-aDeclaration
 MutationClosureData
 &
 aData
 )
 ;
-DeclarationBlock
+StyleLockedDeclarationBlock
 *
 GetSMILOverrideStyleDeclaration
 (
@@ -1653,7 +1652,7 @@ GetSMILOverrideStyleDeclaration
 void
 SetSMILOverrideStyleDeclaration
 (
-DeclarationBlock
+StyleLockedDeclarationBlock
 &
 )
 ;

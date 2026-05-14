@@ -1853,7 +1853,7 @@ aGivenProto
 nsresult
 SetCSSDeclaration
 (
-DeclarationBlock
+Block
 *
 aDecl
 MutationClosureData
@@ -1873,12 +1873,12 @@ SetCSSDeclaration
 )
 ;
 }
-DeclarationBlock
+Block
 *
 GetOrCreateCSSDeclaration
 (
 Operation
-DeclarationBlock
+Block
 *
 *
 )

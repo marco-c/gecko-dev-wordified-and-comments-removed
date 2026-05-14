@@ -16794,7 +16794,7 @@ slots
 mSMILOverrideStyle
 ;
 }
-DeclarationBlock
+StyleLockedDeclarationBlock
 *
 Element
 :
@@ -16835,7 +16835,7 @@ Element
 :
 SetSMILOverrideStyleDeclaration
 (
-DeclarationBlock
+StyleLockedDeclarationBlock
 &
 aDeclaration
 )
@@ -16916,7 +16916,7 @@ return
 false
 ;
 }
-DeclarationBlock
+StyleLockedDeclarationBlock
 *
 Element
 :
@@ -16984,6 +16984,11 @@ attrVal
 GetCSSDeclarationValue
 (
 )
+-
+>
+Raw
+(
+)
 ;
 }
 void
@@ -17014,9 +17019,8 @@ Element
 :
 SetInlineStyleDeclaration
 (
-DeclarationBlock
+StyleLockedDeclarationBlock
 &
-aDeclaration
 MutationClosureData
 &
 aData

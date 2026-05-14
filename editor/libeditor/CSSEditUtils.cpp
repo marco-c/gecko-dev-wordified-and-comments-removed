@@ -3128,9 +3128,6 @@ NS_ERROR_INVALID_ARG
 ;
 }
 RefPtr
-<
-DeclarationBlock
->
 decl
 =
 element
@@ -3176,12 +3173,11 @@ eCSSProperty_UNKNOWN
 nsAutoCString
 value
 ;
-decl
--
->
-GetPropertyValueById
+Servo_DeclarationBlock_GetPropertyValueByNonCustomId
 (
+decl
 prop
+&
 value
 )
 ;

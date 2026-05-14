@@ -47,11 +47,8 @@ h
 "
 namespace
 mozilla
-{
-class
-DeclarationBlock
-;
-namespace
+:
+:
 dom
 {
 class
@@ -114,13 +111,13 @@ final
 ;
 protected
 :
-DeclarationBlock
+Block
 *
 GetOrCreateCSSDeclaration
 (
 Operation
 aOperation
-DeclarationBlock
+Block
 *
 *
 aCreated
@@ -130,7 +127,7 @@ final
 nsresult
 SetCSSDeclaration
 (
-DeclarationBlock
+Block
 *
 aDecl
 MutationClosureData
@@ -163,7 +160,7 @@ CSSPositionTryRuleDeclaration
 (
 already_AddRefed
 <
-StyleLockedDeclarationBlock
+Block
 >
 aDecls
 )
@@ -173,7 +170,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedDeclarationBlock
+Block
 >
 )
 ;
@@ -200,7 +197,7 @@ const
 ;
 RefPtr
 <
-DeclarationBlock
+Block
 >
 mDecls
 ;
@@ -393,7 +390,6 @@ mDecls
 ;
 }
 ;
-}
 }
 #
 endif

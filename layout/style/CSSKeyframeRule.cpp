@@ -14,7 +14,7 @@ include
 "
 mozilla
 /
-DeclarationBlock
+ServoBindings
 .
 h
 "
@@ -65,9 +65,6 @@ aRule
 )
 mDecls
 (
-new
-DeclarationBlock
-(
 Servo_Keyframe_GetStyle
 (
 aRule
@@ -80,7 +77,6 @@ Raw
 .
 Consume
 (
-)
 )
 )
 {
@@ -115,13 +111,13 @@ mRule
 nullptr
 ;
 }
-DeclarationBlock
+Block
 *
 GetOrCreateCSSDeclaration
 (
 Operation
 aOperation
-DeclarationBlock
+Block
 *
 *
 aCreated
@@ -172,7 +168,7 @@ mDecls
 nsresult
 SetCSSDeclaration
 (
-DeclarationBlock
+Block
 *
 aDecls
 MutationClosureData
@@ -224,11 +220,6 @@ Raw
 (
 )
 mDecls
--
->
-Raw
-(
-)
 )
 ;
 }
@@ -332,9 +323,6 @@ aKeyframe
 {
 mDecls
 =
-new
-DeclarationBlock
-(
 Servo_Keyframe_GetStyle
 (
 aKeyframe
@@ -342,7 +330,6 @@ aKeyframe
 .
 Consume
 (
-)
 )
 ;
 }
@@ -374,7 +361,7 @@ mRule
 ;
 RefPtr
 <
-DeclarationBlock
+Block
 >
 mDecls
 ;

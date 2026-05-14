@@ -113,8 +113,8 @@ nsIURI
 namespace
 mozilla
 {
-class
-DeclarationBlock
+struct
+StyleLockedDeclarationBlock
 ;
 enum
 class
@@ -566,7 +566,10 @@ mSMILOverrideStyle
 ;
 RefPtr
 <
-DeclarationBlock
+mozilla
+:
+:
+StyleLockedDeclarationBlock
 >
 mSMILOverrideStyleDeclaration
 ;

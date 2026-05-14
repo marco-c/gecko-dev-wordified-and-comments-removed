@@ -33,8 +33,8 @@ mozilla
 struct
 AnimationValue
 ;
-class
-DeclarationBlock
+struct
+StyleLockedDeclarationBlock
 ;
 namespace
 dom
@@ -228,7 +228,7 @@ SMILValue
 mozilla
 :
 :
-DeclarationBlock
+StyleLockedDeclarationBlock
 &
 )
 ;

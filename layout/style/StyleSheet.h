@@ -168,8 +168,8 @@ ServoCSSRuleList
 class
 ServoStyleSet
 ;
-class
-DeclarationBlock
+struct
+StyleLockedDeclarationBlock
 ;
 using
 StyleSheetParsePromise
@@ -220,11 +220,11 @@ StyleRuleChange
 StyleRuleChangeKind
 aKind
 const
-DeclarationBlock
+StyleLockedDeclarationBlock
 *
 aOldBlock
 const
-DeclarationBlock
+StyleLockedDeclarationBlock
 *
 aNewBlock
 )
@@ -248,7 +248,7 @@ StyleRuleChangeKind
 mKind
 ;
 const
-DeclarationBlock
+StyleLockedDeclarationBlock
 *
 const
 mOldBlock
@@ -256,7 +256,7 @@ mOldBlock
 nullptr
 ;
 const
-DeclarationBlock
+StyleLockedDeclarationBlock
 *
 const
 mNewBlock
