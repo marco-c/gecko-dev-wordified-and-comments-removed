@@ -76,7 +76,10 @@ Proxy
 "
 JSCLASS_HAS_RESERVED_SLOTS
 (
-1
+js
+:
+:
+SwappableProxyReservedSlots
 )
 )
 ;

@@ -5450,7 +5450,7 @@ ShellWindowProxy
 "
 JSCLASS_HAS_RESERVED_SLOTS
 (
-1
+SwappableProxyReservedSlots
 )
 )
 ;
@@ -50539,7 +50539,7 @@ TransplantableProxyObject
 "
 JSCLASS_HAS_RESERVED_SLOTS
 (
-1
+SwappableProxyReservedSlots
 )
 )
 ;

@@ -1070,6 +1070,12 @@ const
 JSClass
 ProxyClass
 ;
+constexpr
+size_t
+SwappableProxyReservedSlots
+=
+2
+;
 inline
 bool
 IsProxy
