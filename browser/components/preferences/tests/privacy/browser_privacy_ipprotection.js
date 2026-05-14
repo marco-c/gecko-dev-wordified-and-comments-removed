@@ -60,7 +60,7 @@ sys
 .
 mjs
 "
-IPPFxaAuthProvider
+IPPFxaActivateAuthProvider
 :
 "
 moz
@@ -78,7 +78,7 @@ ipprotection
 /
 fxa
 /
-IPPFxaAuthProvider
+IPPFxaActivateAuthProvider
 .
 sys
 .
@@ -2894,7 +2894,7 @@ stub
 (
 lazy
 .
-IPPFxaAuthProvider
+IPPFxaActivateAuthProvider
 "
 enroll
 "
@@ -3081,7 +3081,7 @@ ok
 (
 lazy
 .
-IPPFxaAuthProvider
+IPPFxaActivateAuthProvider
 .
 enroll
 .
@@ -3165,7 +3165,7 @@ stub
 (
 lazy
 .
-IPPFxaAuthProvider
+IPPFxaActivateAuthProvider
 "
 enroll
 "
