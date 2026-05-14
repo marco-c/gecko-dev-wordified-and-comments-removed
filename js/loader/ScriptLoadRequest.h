@@ -374,7 +374,7 @@ const
 MOZ_ASSERT
 (
 !
-OnceCachedStencil
+IsRetrievedFromMemoryCache
 (
 )
 )

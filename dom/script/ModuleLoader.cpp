@@ -621,7 +621,7 @@ if
 aRequest
 -
 >
-OnceCachedStencil
+IsRetrievedFromMemoryCache
 (
 )
 )
@@ -1484,7 +1484,7 @@ if
 aRequest
 -
 >
-OnceCachedStencil
+IsRetrievedFromMemoryCache
 (
 )
 )
