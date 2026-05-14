@@ -5,8 +5,16 @@ jit_riscv64_Simulator_riscv64_h
 define
 jit_riscv64_Simulator_riscv64_h
 #
-ifdef
+ifndef
 JS_SIMULATOR_RISCV64
+#
+error
+"
+simulator
+disabled
+"
+#
+endif
 #
 include
 "
@@ -6676,7 +6684,5 @@ redirection
 ;
 }
 }
-#
-endif
 #
 endif
