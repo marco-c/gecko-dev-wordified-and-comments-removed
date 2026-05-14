@@ -16832,7 +16832,7 @@ worldcup
 .
 enabled
 "
-false
+true
 )
 ;
 pref
