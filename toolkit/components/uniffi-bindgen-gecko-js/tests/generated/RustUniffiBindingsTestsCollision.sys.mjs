@@ -157,7 +157,7 @@ UniFFIScaffolding
 .
 callSync
 (
-257
+263
 /
 /
 uniffi_uniffi_bindings_tests_collision_fn_func_invoke_collision_callback
