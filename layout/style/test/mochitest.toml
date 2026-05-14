@@ -3176,6 +3176,13 @@ html
 ]
 [
 "
+test_stylesheet_deleteRule
+.
+html
+"
+]
+[
+"
 test_supports_rules
 .
 html
