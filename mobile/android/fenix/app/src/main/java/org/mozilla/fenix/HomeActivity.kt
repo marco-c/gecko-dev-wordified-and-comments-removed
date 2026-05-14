@@ -2465,7 +2465,7 @@ onAuthRequested
 =
 {
 url
-_
+onCompleteAction
 -
 >
 val
@@ -2477,6 +2477,15 @@ createAuthCustomTabIntent
 (
 this
 url
+)
+intent
+.
+putExtra
+(
+"
+OnCompleteAction
+"
+onCompleteAction
 )
 startActivity
 (
