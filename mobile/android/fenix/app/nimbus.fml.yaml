@@ -309,7 +309,7 @@ privacy
 report
 "
 :
-false
+true
 }
 defaults
 :
@@ -378,7 +378,7 @@ privacy
 report
 "
 :
-false
+true
 }
 }
 nimbus
@@ -5727,7 +5727,7 @@ value
 :
 enabled
 :
-false
+true
 -
 channel
 :
@@ -5804,7 +5804,7 @@ value
 :
 enabled
 :
-false
+true
 -
 channel
 :
@@ -5813,7 +5813,7 @@ value
 :
 enabled
 :
-false
+true
 marketing
 -
 onboarding
