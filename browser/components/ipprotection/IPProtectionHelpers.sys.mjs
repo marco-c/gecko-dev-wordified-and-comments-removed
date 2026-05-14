@@ -622,7 +622,7 @@ prefs
 getBoolPref
 (
 "
-browser
+toolkit
 .
 ipProtection
 .
