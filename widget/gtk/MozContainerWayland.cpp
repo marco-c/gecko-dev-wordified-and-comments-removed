@@ -1094,6 +1094,14 @@ moz_container_wayland_invalidate
 container
 )
 ;
+surface
+-
+>
+RunMapCallbackLocked
+(
+lock
+)
+;
 return
 true
 ;
