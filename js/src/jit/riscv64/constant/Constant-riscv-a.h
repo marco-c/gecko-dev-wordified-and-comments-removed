@@ -219,6 +219,9 @@ kFunct3Shift
 <
 kFunct5Shift
 )
+#
+ifdef
+JS_CODEGEN_RISCV64
 RO_LR_D
 =
 AMO
@@ -406,6 +409,8 @@ kFunct3Shift
 <
 kFunct5Shift
 )
+#
+endif
 }
 ;
 }

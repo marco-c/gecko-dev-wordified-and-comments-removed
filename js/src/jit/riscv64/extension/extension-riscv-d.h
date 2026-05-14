@@ -393,6 +393,9 @@ frm
 RNE
 )
 ;
+#
+ifdef
+JS_CODEGEN_RISCV64
 void
 fcvt_l_d
 (
@@ -463,6 +466,8 @@ Register
 rs1
 )
 ;
+#
+endif
 void
 fmv_d
 (

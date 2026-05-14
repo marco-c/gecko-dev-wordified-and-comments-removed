@@ -211,6 +211,9 @@ Register
 rs2
 )
 ;
+#
+ifdef
+JS_CODEGEN_RISCV64
 void
 lr_d
 (
@@ -374,6 +377,8 @@ Register
 rs2
 )
 ;
+#
+endif
 }
 ;
 }

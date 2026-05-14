@@ -25,7 +25,11 @@ include
 "
 jit
 /
-RegisterSets
+loong64
+/
+Simulator
+-
+loong64
 .
 h
 "
@@ -34,7 +38,7 @@ include
 "
 jit
 /
-Simulator
+RegisterSets
 .
 h
 "

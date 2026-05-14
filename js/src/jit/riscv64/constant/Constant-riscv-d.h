@@ -411,6 +411,9 @@ kFunct7Shift
 <
 kRs2Shift
 )
+#
+ifdef
+JS_CODEGEN_RISCV64
 RO_FCVT_L_D
 =
 OP_FP
@@ -527,6 +530,8 @@ kFunct7Shift
 <
 kRs2Shift
 )
+#
+endif
 }
 ;
 }
