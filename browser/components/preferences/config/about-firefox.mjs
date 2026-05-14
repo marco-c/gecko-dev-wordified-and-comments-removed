@@ -2685,6 +2685,15 @@ id
 "
 updateApp
 "
+subcategory
+:
+"
+update
+-
+box
+-
+group
+"
 control
 :
 "
