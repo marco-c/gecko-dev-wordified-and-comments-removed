@@ -173,6 +173,7 @@ list
 "
 )
 ;
+await
 ensureNoTRRSelectionTelemetry
 (
 )
@@ -336,6 +337,7 @@ restartDoHController
 (
 )
 ;
+await
 ensureNoTRRSelectionTelemetry
 (
 )
