@@ -88,9 +88,6 @@ Register
 rs2
 )
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 void
 add_uw
 (
@@ -163,8 +160,6 @@ uint8_t
 shamt
 )
 ;
-#
-endif
 void
 andn
 (
@@ -225,9 +220,6 @@ Register
 rs
 )
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 void
 clzw
 (
@@ -255,8 +247,6 @@ Register
 rs
 )
 ;
-#
-endif
 void
 max
 (
@@ -379,9 +369,6 @@ Register
 rs
 )
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 void
 rolw
 (
@@ -415,8 +402,6 @@ Register
 rs2
 )
 ;
-#
-endif
 void
 bclr
 (

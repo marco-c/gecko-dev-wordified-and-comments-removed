@@ -32,9 +32,6 @@ OpcodeRISCVB
 :
 uint32_t
 {
-#
-ifdef
-JS_CODEGEN_RISCV64
 RO_ADDUW
 =
 OP_32
@@ -120,8 +117,6 @@ kFunct3Shift
 <
 kFunct6Shift
 )
-#
-endif
 RO_SH1ADD
 =
 OP
@@ -271,9 +266,6 @@ OP_COUNT
 <
 kShamtShift
 )
-#
-ifdef
-JS_CODEGEN_RISCV64
 OP_COUNTW
 =
 OP_IMM_32
@@ -321,8 +313,6 @@ OP_COUNTW
 <
 kShamtShift
 )
-#
-endif
 RO_MAX
 =
 OP
@@ -439,9 +429,6 @@ kFunct7Shift
 <
 kShamtShift
 )
-#
-ifdef
-JS_CODEGEN_RISCV64
 RO_ZEXTH
 =
 OP_32
@@ -466,8 +453,6 @@ kFunct7Shift
 <
 kShamtShift
 )
-#
-endif
 RO_ROL
 =
 OP
@@ -519,9 +504,6 @@ kFunct3Shift
 <
 kImm12Shift
 )
-#
-ifdef
-JS_CODEGEN_RISCV64
 RO_RORI
 =
 OP_IMM
@@ -539,11 +521,6 @@ kFunct3Shift
 <
 kFunct6Shift
 )
-#
-endif
-#
-ifdef
-JS_CODEGEN_RISCV64
 RO_ROLW
 =
 OP_32
@@ -595,8 +572,6 @@ kFunct3Shift
 <
 kFunct7Shift
 )
-#
-endif
 RO_REV8
 =
 OP_IMM
@@ -614,14 +589,9 @@ kFunct3Shift
 <
 kFunct6Shift
 )
-#
-ifdef
-JS_CODEGEN_RISCV64
 RO_REV8_IMM12
 =
 0b011010111000
-#
-endif
 RO_BCLR
 =
 OP

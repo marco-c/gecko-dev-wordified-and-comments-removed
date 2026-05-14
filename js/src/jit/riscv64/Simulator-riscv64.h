@@ -884,9 +884,6 @@ kFCSRFlagMask
 ^
 kFCSRInexactFlagMask
 ;
-#
-ifdef
-JS_CODEGEN_RISCV64
 using
 sreg_t
 =
@@ -907,20 +904,6 @@ sfreg_t
 =
 int64_t
 ;
-#
-else
-#
-error
-"
-Cannot
-detect
-Riscv
-'
-s
-bitwidth
-"
-#
-endif
 #
 define
 sext32
@@ -955,9 +938,6 @@ uint32_t
 x
 )
 )
-#
-ifdef
-JS_CODEGEN_RISCV64
 #
 define
 sext_xlen
@@ -1018,8 +998,6 @@ xlen
 xlen
 )
 )
-#
-endif
 #
 define
 BIT
@@ -1114,9 +1092,6 @@ QUIET_BIT_S
 #
 undef
 QUIET_BIT_D
-#
-ifdef
-JS_CODEGEN_RISCV64
 inline
 uint64_t
 mulhu
@@ -1219,8 +1194,6 @@ full_result
 64
 ;
 }
-#
-endif
 #
 define
 F32_SIGN
@@ -2895,12 +2868,7 @@ TraceType
 BYTE
 HALF
 WORD
-#
-if
-JS_CODEGEN_RISCV64
 DWORD
-#
-endif
 FLOAT
 DOUBLE
 }
@@ -3637,9 +3605,6 @@ DieOrDebug
 (
 )
 ;
-#
-if
-JS_CODEGEN_RISCV64
 void
 TraceRegWr
 (
@@ -3651,8 +3616,6 @@ t
 DWORD
 )
 ;
-#
-endif
 void
 TraceMemWr
 (
@@ -3786,9 +3749,6 @@ rd_reg
 value
 )
 ;
-#
-if
-JS_CODEGEN_RISCV64
 if
 (
 trace
@@ -3804,8 +3764,6 @@ rd_reg
 DWORD
 )
 ;
-#
-endif
 }
 inline
 void
@@ -3971,9 +3929,6 @@ rvc_rd_reg
 value
 )
 ;
-#
-if
-JS_CODEGEN_RISCV64
 if
 (
 trace
@@ -3989,8 +3944,6 @@ rvc_rd_reg
 DWORD
 )
 ;
-#
-endif
 }
 inline
 void
@@ -4012,9 +3965,6 @@ rvc_rs1s_reg
 value
 )
 ;
-#
-if
-JS_CODEGEN_RISCV64
 if
 (
 trace
@@ -4030,8 +3980,6 @@ rvc_rs1s_reg
 DWORD
 )
 ;
-#
-endif
 }
 inline
 void
@@ -4053,9 +4001,6 @@ rvc_rs2_reg
 value
 )
 ;
-#
-if
-JS_CODEGEN_RISCV64
 if
 (
 trace
@@ -4071,8 +4016,6 @@ rvc_rs2_reg
 DWORD
 )
 ;
-#
-endif
 }
 inline
 void
@@ -4202,9 +4145,6 @@ rvc_rs2s_reg
 value
 )
 ;
-#
-if
-JS_CODEGEN_RISCV64
 if
 (
 trace
@@ -4220,8 +4160,6 @@ rvc_rs2s_reg
 DWORD
 )
 ;
-#
-endif
 }
 inline
 void
