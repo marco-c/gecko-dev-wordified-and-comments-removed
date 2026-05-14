@@ -23193,8 +23193,10 @@ ariaAttrs
 {
 ariaAttrs
 =
-new
+MakeRefPtr
+<
 AccAttributes
+>
 (
 )
 ;

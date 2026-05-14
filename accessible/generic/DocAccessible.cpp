@@ -2618,8 +2618,10 @@ this
 endif
 mNotificationController
 =
-new
+MakeRefPtr
+<
 NotificationController
+>
 (
 this
 mPresShell
@@ -4958,8 +4960,10 @@ article
 {
 event
 =
-new
+MakeRefPtr
+<
 AccStateChangeEvent
+>
 (
 accessible
 states
@@ -5503,8 +5507,10 @@ event
 ;
 event
 =
-new
+MakeRefPtr
+<
 AccStateChangeEvent
+>
 (
 accessible
 states
@@ -5520,8 +5526,10 @@ event
 ;
 event
 =
-new
+MakeRefPtr
+<
 AccStateChangeEvent
+>
 (
 accessible
 states
