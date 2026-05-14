@@ -295,6 +295,15 @@ AllocateExtraData
 )
 ;
 MediaResult
+AssignCodecContextExtraData
+(
+const
+MediaByteBuffer
+*
+aBuffer
+)
+;
+MediaResult
 DoDecode
 (
 MediaRawData
