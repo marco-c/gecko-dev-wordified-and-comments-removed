@@ -1,7 +1,4 @@
 #
-ifdef
-JS_SIMULATOR_ARM64
-#
 ifndef
 VIXL_A64_DEBUGGER_A64_H_
 #
@@ -380,7 +377,5 @@ kMaxDebugShellLine
 }
 ;
 }
-#
-endif
 #
 endif
