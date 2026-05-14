@@ -1391,6 +1391,17 @@ return
 if
 (
 didChangeFolder
+&
+&
+selectedFolderGuid
+!
+=
+=
+PlacesUtils
+.
+bookmarks
+.
+mobileGuid
 )
 {
 Services
