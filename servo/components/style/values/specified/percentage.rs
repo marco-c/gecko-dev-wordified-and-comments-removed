@@ -93,6 +93,7 @@ specified
 :
 :
 {
+CalcLengthPercentage
 LengthPercentage
 NoCalcNumber
 Number
@@ -1092,7 +1093,17 @@ LengthPercentage
 :
 Calc
 (
+Box
+:
+:
+new
+(
+CalcLengthPercentage
+(
+*
 calc
+)
+)
 )
 }
 }

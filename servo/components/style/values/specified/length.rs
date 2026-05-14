@@ -153,6 +153,7 @@ calc
 :
 {
 AllowAnchorPositioningFunctions
+CalcLengthPercentage
 CalcNode
 }
 ;
@@ -326,22 +327,6 @@ as
 GradientEndingShape
 Gradient
 }
-;
-pub
-use
-crate
-:
-:
-values
-:
-:
-specified
-:
-:
-calc
-:
-:
-CalcNumeric
 ;
 pub
 const
@@ -6376,7 +6361,7 @@ NumericUnion
 <
 LengthUnit
 f32
-CalcNumeric
+CalcLengthPercentage
 >
 )
 ;
@@ -6627,7 +6612,7 @@ calc
 :
 Box
 <
-CalcNumeric
+CalcLengthPercentage
 >
 )
 -
@@ -7894,7 +7879,7 @@ Calc
 (
 Box
 <
-CalcNumeric
+CalcLengthPercentage
 >
 )
 }
