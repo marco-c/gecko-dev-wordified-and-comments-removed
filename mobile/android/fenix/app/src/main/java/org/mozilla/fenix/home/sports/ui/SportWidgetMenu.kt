@@ -120,6 +120,18 @@ mozilla
 fenix
 .
 R
+import
+org
+.
+mozilla
+.
+fenix
+.
+home
+.
+sports
+.
+CountrySelectorSource
 Composable
 internal
 fun
@@ -138,6 +150,7 @@ Unit
 onChangeTeam
 :
 (
+CountrySelectorSource
 )
 -
 >
@@ -188,6 +201,9 @@ onDismissRequest
 )
 onChangeTeam
 (
+CountrySelectorSource
+.
+SPORTS_WIDGET_MENU
 )
 }
 )

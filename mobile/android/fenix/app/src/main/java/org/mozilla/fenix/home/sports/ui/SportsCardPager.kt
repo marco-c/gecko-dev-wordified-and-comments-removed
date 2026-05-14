@@ -337,6 +337,18 @@ home
 .
 sports
 .
+CountrySelectorSource
+import
+org
+.
+mozilla
+.
+fenix
+.
+home
+.
+sports
+.
 Group
 import
 org
@@ -592,6 +604,7 @@ Unit
 onChangeTeam
 :
 (
+CountrySelectorSource
 )
 -
 >

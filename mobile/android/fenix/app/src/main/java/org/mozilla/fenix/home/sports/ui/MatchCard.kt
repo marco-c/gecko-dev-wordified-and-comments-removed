@@ -287,6 +287,18 @@ home
 .
 sports
 .
+LiveMatchRefreshSource
+import
+org
+.
+mozilla
+.
+fenix
+.
+home
+.
+sports
+.
 Match
 import
 org
@@ -440,6 +452,7 @@ Boolean
 onRefresh
 :
 (
+LiveMatchRefreshSource
 )
 -
 >
