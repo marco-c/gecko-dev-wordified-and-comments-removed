@@ -2041,12 +2041,12 @@ Value
 &
 lenSlot
 =
-\
 JS
 :
 :
-GetReservedSlot
+GetNativeObjectReservedSlot
 (
+\
 unwrapped
 detail
 :
@@ -2083,7 +2083,7 @@ data
 JS
 :
 :
-GetMaybePtrFromReservedSlot
+GetMaybePtrFromNativeObjectReservedSlot
 <
 ExternalType
 >

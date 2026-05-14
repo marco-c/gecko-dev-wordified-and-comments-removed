@@ -120,7 +120,7 @@ JS
 shadow
 :
 :
-Object
+NativeObject
 slots
 )
 "
