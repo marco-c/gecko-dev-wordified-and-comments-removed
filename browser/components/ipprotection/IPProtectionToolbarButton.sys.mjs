@@ -2060,6 +2060,9 @@ panel
 anchor
 message
 anchor
+hideCheckmark
+:
+true
 }
 )
 ;
