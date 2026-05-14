@@ -911,6 +911,11 @@ IsMapped
 )
 ;
 bool
+IsVisible
+(
+)
+;
+bool
 Map
 (
 widget
