@@ -991,6 +991,17 @@ aOldValue
 )
 ;
 void
+MaybeRecascadeForAttrFunction
+(
+Element
+*
+aElement
+nsAtom
+*
+aAttribute
+)
+;
+void
 RestyleSiblingsForNthOf
 (
 dom
