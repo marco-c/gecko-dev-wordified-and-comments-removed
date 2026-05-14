@@ -246,11 +246,11 @@ sportsWidgetState
 .
 copy
 (
-matchCardState
+matchCardStates
 =
 action
 .
-matchCardState
+matchCardStates
 errorState
 =
 null

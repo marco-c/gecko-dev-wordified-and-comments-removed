@@ -361,10 +361,6 @@ SportsWidgetAction
 MatchCardStateUpdated
 (
 matchCards
-.
-firstOrNull
-(
-)
 )
 )
 }

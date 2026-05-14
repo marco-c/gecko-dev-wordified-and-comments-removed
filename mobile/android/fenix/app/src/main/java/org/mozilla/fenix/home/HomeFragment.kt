@@ -7331,6 +7331,13 @@ requireComponents
 useCases
 .
 fenixBrowserUseCases
+browserStore
+=
+requireComponents
+.
+core
+.
+store
 )
 )
 }
