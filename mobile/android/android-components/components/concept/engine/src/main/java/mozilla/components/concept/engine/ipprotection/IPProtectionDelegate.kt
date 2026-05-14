@@ -71,6 +71,12 @@ mozilla
 .
 components
 .
+ExperimentalAndroidComponentsApi
+import
+mozilla
+.
+components
+.
 concept
 .
 engine
@@ -102,6 +108,7 @@ registerIPProtectionDelegate
 .
 *
 /
+ExperimentalAndroidComponentsApi
 interface
 IPProtectionDelegate
 {
@@ -141,6 +148,4 @@ IPProtectionHandler
 .
 StateInfo
 )
-{
-}
 }

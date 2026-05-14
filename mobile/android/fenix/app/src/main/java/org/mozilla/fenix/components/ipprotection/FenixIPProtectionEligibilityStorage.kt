@@ -123,7 +123,7 @@ coroutines
 .
 flow
 .
-map
+mapNotNull
 import
 mozilla
 .
@@ -157,7 +157,7 @@ feature
 .
 ipprotection
 .
-EligibilityStatus
+IPProtectionEligibilityStorage
 import
 mozilla
 .
@@ -167,7 +167,11 @@ feature
 .
 ipprotection
 .
-IPProtectionEligibilityStorage
+store
+.
+state
+.
+EligibilityStatus
 import
 org
 .
@@ -308,7 +312,7 @@ browserStore
 .
 stateFlow
 .
-map
+mapNotNull
 {
 it
 .
@@ -316,10 +320,6 @@ search
 .
 region
 }
-.
-distinctUntilChanged
-(
-)
 secretEnabled
 )
 {
@@ -360,7 +360,6 @@ EligibilityStatus
 .
 Ineligible
 region
-?
 .
 home
 in

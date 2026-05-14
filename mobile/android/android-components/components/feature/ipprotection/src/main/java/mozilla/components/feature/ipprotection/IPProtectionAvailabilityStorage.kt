@@ -88,6 +88,15 @@ feature
 .
 *
 /
+Deprecated
+(
+"
+No
+longer
+needed
+.
+"
+)
 interface
 IPProtectionAvailabilityStorage
 {

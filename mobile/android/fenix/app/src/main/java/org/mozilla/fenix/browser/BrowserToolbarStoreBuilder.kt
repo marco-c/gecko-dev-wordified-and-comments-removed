@@ -745,7 +745,9 @@ ipProtectionStore
 =
 components
 .
-ipProtectionStore
+ipProtection
+.
+store
 permissionsStorage
 =
 components
@@ -904,7 +906,9 @@ ipProtectionStore
 =
 components
 .
-ipProtectionStore
+ipProtection
+.
+store
 permissionsStorage
 =
 components
