@@ -483,12 +483,7 @@ const
 ;
 public
 :
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-;
-NS_DECL_CYCLE_COLLECTION_CLASS
-(
-LoadedScript
-)
+NS_DECL_ISUPPORTS
 uint16_t
 ClampedRefCountForTelemetry
 (

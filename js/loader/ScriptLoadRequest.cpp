@@ -279,7 +279,6 @@ ScriptLoadRequest
 NS_IMPL_CYCLE_COLLECTION
 (
 ScriptLoadRequest
-mLoadedScript
 mLoadContext
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN
