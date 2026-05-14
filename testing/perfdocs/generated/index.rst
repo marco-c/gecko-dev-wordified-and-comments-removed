@@ -53,6 +53,9 @@ hidden
 :
 glob
 :
+adding
+-
+tests
 awsy
 DAMP
 IndexedDB
@@ -144,6 +147,13 @@ see
 their
 documentation
 :
+*
+:
+doc
+:
+adding
+-
+tests
 *
 :
 doc
