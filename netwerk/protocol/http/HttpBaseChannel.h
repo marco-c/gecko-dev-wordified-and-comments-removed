@@ -4084,7 +4084,11 @@ ProfileChunkedBuffer
 >
 mSource
 ;
+Atomic
+<
 uint32_t
+Relaxed
+>
 mLoadFlags
 {
 LOAD_NORMAL

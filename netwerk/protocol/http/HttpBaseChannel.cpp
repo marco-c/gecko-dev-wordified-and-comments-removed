@@ -18993,7 +18993,11 @@ namespace
 void
 SetCacheFlags
 (
+Atomic
+<
 uint32_t
+Relaxed
+>
 &
 aLoadFlags
 uint32_t
