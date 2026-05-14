@@ -602,7 +602,6 @@ skip
 all
 engine
 tab
-reload
 telemetry
 on
 older
@@ -1344,6 +1343,12 @@ SessionState
 ?
 )
 {
+if
+(
+!
+androidVersionSupportsEngineTabTelemetry
+)
+return
 if
 (
 tab
