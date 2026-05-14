@@ -445,13 +445,6 @@ onLogoClicked
 -
 >
 Unit
-onLogoLongClicked
-:
-(
-)
--
->
-Unit
 )
 {
 Row
@@ -506,9 +499,6 @@ isSportsWidgetEnabled
 onLogoClicked
 =
 onLogoClicked
-onLogoLongClicked
-=
-onLogoLongClicked
 )
 WordmarkText
 (
@@ -758,10 +748,6 @@ browsingModeChanged
 {
 }
 onLogoClicked
-=
-{
-}
-onLogoLongClicked
 =
 {
 }

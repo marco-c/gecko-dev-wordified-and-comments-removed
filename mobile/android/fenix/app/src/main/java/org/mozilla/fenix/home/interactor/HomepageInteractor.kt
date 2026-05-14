@@ -89,18 +89,6 @@ fenix
 .
 home
 .
-logo
-.
-LogoInteractor
-import
-org
-.
-mozilla
-.
-fenix
-.
-home
-.
 pocket
 .
 interactor
@@ -330,5 +318,4 @@ PrivateBrowsingInteractor
 WallpaperInteractor
 SetupChecklistInteractor
 TrackingProtectionInteractor
-LogoInteractor
 SportsInteractor

@@ -861,7 +861,7 @@ op
 }
 override
 fun
-onLogoLongClicked
+onPrivacyReportTapped
 (
 )
 {
@@ -874,7 +874,7 @@ op
 }
 override
 fun
-onPrivacyReportTapped
+onLongfoxEntryPointClicked
 (
 )
 {
