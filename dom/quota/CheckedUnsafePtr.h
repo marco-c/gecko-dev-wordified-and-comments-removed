@@ -2061,6 +2061,7 @@ typename
 Derived
 >
 class
+MOZ_EMPTY_BASES
 CheckCheckedUnsafePtrs
 :
 private
@@ -2521,6 +2522,7 @@ typename
 CheckingPolicy
 >
 class
+MOZ_EMPTY_BASES
 SupportsCheckedUnsafePtr
 :
 public

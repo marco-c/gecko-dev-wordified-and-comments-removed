@@ -335,6 +335,11 @@ HOST_SOURCES
 =
 [
 "
+EmptyBasesChecker
+.
+cpp
+"
+"
 FopenUsageChecker
 .
 cpp
