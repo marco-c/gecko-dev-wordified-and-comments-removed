@@ -39,6 +39,7 @@ FreeChangJie
 MicrosoftPinyin
 MicrosoftPinyinNewExperienceInputStyle
 MicrosoftWubi
+Sogou
 MicrosoftIMEForKorean
 MicrosoftOldHangul
 KeymanDesktop
