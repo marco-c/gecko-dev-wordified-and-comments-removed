@@ -108,6 +108,12 @@ initFromString
 in
 AUTF8String
 aData
+[
+optional
+]
+out
+boolean
+aContainedErrors
 )
 ;
 /
@@ -348,6 +354,12 @@ optional
 in
 nsIFile
 aINIFile
+[
+optional
+]
+out
+boolean
+aContainedErrors
 )
 ;
 }
