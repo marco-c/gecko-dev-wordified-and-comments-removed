@@ -471,7 +471,7 @@ newTabsNativeSelect
 .
 value
 "
-home
+true
 "
 "
 New
@@ -480,7 +480,7 @@ dropdown
 reset
 to
 '
-home
+true
 '
 after
 restore
