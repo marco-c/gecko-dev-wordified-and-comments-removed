@@ -8994,6 +8994,9 @@ NS_SEEK_SET
 if
 (
 mDoNotTryEarlyData
+|
+|
+mResumptionAttempted
 )
 {
 MutexAutoLock

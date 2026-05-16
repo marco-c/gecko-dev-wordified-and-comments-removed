@@ -207,9 +207,12 @@ str
 classmethod
     
 def
-enabled
+from_bool
 (
 cls
+on
+:
+bool
 )
 -
 >
@@ -217,6 +220,16 @@ cls
 _Color
 "
 :
+        
+if
+not
+on
+:
+            
+return
+cls
+(
+)
         
 return
 cls
@@ -349,6 +362,12 @@ built_in_root
 bool
 |
 None
+    
+size
+:
+int
+=
+0
 class
 Reader
 :
@@ -823,6 +842,16 @@ self
 Record
 :
         
+start
+=
+self
+.
+_buf
+.
+tell
+(
+)
+        
 self
 .
 u64
@@ -881,7 +910,8 @@ utc
         
 )
         
-return
+rec
+=
 Record
 (
             
@@ -967,6 +997,23 @@ read_bool
 )
         
 )
+        
+rec
+.
+size
+=
+self
+.
+_buf
+.
+tell
+(
+)
+-
+start
+        
+return
+rec
     
 def
 records
@@ -1415,6 +1462,23 @@ rec
 .
 key
 }
+{
+C
+.
+reset
+}
+{
+C
+.
+dim
+}
+{
+rec
+.
+size
+:
+}
+bytes
 {
 C
 .
@@ -2107,8 +2171,13 @@ parse_args
 global
 C
     
-color_enabled
+C
 =
+_Color
+.
+from_bool
+(
+        
 (
 args
 .
@@ -2132,18 +2201,6 @@ os
 .
 environ
     
-C
-=
-_Color
-.
-enabled
-(
-)
-if
-color_enabled
-else
-_Color
-(
 )
     
 try
