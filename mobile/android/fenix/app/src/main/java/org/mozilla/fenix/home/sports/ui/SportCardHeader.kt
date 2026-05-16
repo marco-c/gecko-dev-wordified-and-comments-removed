@@ -669,7 +669,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_refresh_24
+mozac_ic_arrow_clockwise_24
 )
 contentDescription
 =
