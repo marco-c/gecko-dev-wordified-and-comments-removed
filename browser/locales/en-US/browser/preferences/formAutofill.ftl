@@ -347,10 +347,8 @@ edit
 -
 address
 -
-link
+button
 =
-Edit
-address
 .
 aria
 -
@@ -485,7 +483,7 @@ street
 address
 =
 Street
-address
+Address
 autofill
 -
 address
@@ -1029,7 +1027,7 @@ address
 zip
 =
 ZIP
-code
+Code
 #
 Postal
 code
