@@ -33,6 +33,13 @@ html
 ]
 [
 "
+browser_a11y
+.
+js
+"
+]
+[
+"
 browser_addon_data_sent
 .
 js
@@ -326,7 +333,7 @@ js
 ]
 [
 "
-browser_reason_dropdown
+browser_reason_randomization
 .
 js
 "
@@ -412,6 +419,13 @@ js
 [
 "
 browser_tab_switch_handling
+.
+js
+"
+]
+[
+"
+browser_url_widgets
 .
 js
 "
