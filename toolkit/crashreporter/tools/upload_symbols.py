@@ -2268,6 +2268,7 @@ _
 in
 enumerate
 (
+        
 redo
 .
 retrier
@@ -2275,10 +2276,17 @@ retrier
 attempts
 =
 MAX_RETRIES
+sleeptime
+=
+60
+sleepscale
+=
+1
 )
 start
 =
 1
+    
 )
 :
         
@@ -2390,7 +2398,7 @@ timeout
 =
 (
 300
-300
+600
 )
                 
 *
