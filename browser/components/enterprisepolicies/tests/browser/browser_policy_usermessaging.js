@@ -69,6 +69,10 @@ mozilla
 ;
 ok
 (
+!
+moreFromMozillaCategory
+|
+|
 moreFromMozillaCategory
 .
 hidden
@@ -99,6 +103,10 @@ experimental
 ;
 ok
 (
+!
+firefoxLabsCategory
+|
+|
 firefoxLabsCategory
 .
 hidden
