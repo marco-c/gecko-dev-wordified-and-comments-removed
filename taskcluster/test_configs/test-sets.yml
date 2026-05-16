@@ -2593,6 +2593,10 @@ tests
 cppunittest
 -
 jittest
+-
+jsreftest
+-
+xpcshell
 macosx1470
 -
 64
