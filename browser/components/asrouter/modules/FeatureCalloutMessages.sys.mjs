@@ -5785,9 +5785,6 @@ feature_callout
 groups
 :
 [
-"
-cfr
-"
 ]
 content
 :
