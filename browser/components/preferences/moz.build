@@ -350,6 +350,17 @@ tests
 telemetry
 /
 browser
+-
+srd
+.
+toml
+"
+"
+tests
+/
+telemetry
+/
+browser
 .
 toml
 "
