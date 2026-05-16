@@ -836,7 +836,7 @@ SYSROOT_INC
 6
 +
 701
-11
+12
 check
 -
 symbols
@@ -888,6 +888,10 @@ U__wasm_bulk_memory__
 -
 U__wasm_bulk_memory_opt__
 \
++
+-
+U__wasip1__
+\
 -
 U__GNUC__
 \
@@ -901,7 +905,7 @@ U__GNUC_PATCHLEVEL__
 702
 6
 +
-717
+718
 13
 check
 -
