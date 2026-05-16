@@ -1,9 +1,9 @@
 #
 ifndef
-SDPPREF_H_
+DOM_MEDIA_WEBRTC_SDP_SDPPREF_H_
 #
 define
-SDPPREF_H_
+DOM_MEDIA_WEBRTC_SDP_SDPPREF_H_
 #
 include
 <

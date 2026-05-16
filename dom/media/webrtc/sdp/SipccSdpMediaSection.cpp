@@ -149,6 +149,7 @@ SipccSdpMediaSection
 :
 SetPort
 (
+const
 unsigned
 int
 port
@@ -349,6 +350,7 @@ Load
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 InternalResults
@@ -597,6 +599,7 @@ LoadProtocol
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 InternalResults
@@ -748,6 +751,7 @@ LoadFormats
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 InternalResults
@@ -987,6 +991,7 @@ ValidateSimulcast
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 InternalResults
@@ -1086,6 +1091,7 @@ ValidateSimulcastVersions
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 const
@@ -1095,6 +1101,7 @@ SdpSimulcastAttribute
 Versions
 &
 versions
+const
 sdp
 :
 :
@@ -1500,8 +1507,10 @@ std
 string
 &
 name
+const
 uint32_t
 clockrate
+const
 uint16_t
 channels
 )
@@ -1819,10 +1828,13 @@ std
 string
 &
 name
+const
 uint16_t
 port
+const
 uint16_t
 streams
+const
 uint32_t
 message_size
 )
