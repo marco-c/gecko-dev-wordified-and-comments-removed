@@ -105,9 +105,6 @@ name
 mozac_protections_dashboard_youre_protected
 "
 >
-Est
-s
-protegido
 <
 /
 string
@@ -172,10 +169,6 @@ quantity
 one
 "
 >
-Rastreador
-bloqueado
-esta
-semana
 <
 /
 item
@@ -188,10 +181,6 @@ quantity
 other
 "
 >
-Rastreadores
-bloqueados
-esta
-semana
 <
 /
 item
@@ -242,8 +231,6 @@ one
 %
 1
 d
-MB
-ahorrado
 <
 /
 item
@@ -259,8 +246,6 @@ other
 %
 1
 d
-MB
-ahorrados
 <
 /
 item
@@ -290,10 +275,6 @@ name
 protections_dashboard_where_they_came_from
 "
 >
-De
-d
-nde
-vienen
 <
 /
 string
@@ -318,7 +299,6 @@ name
 protections_dashboard_category_ads
 "
 >
-Publicidades
 <
 /
 string
@@ -343,8 +323,6 @@ name
 protections_dashboard_category_analytics
 "
 >
-Anal
-tica
 <
 /
 string
@@ -370,7 +348,6 @@ name
 protections_dashboard_category_social
 "
 >
-Social
 <
 /
 string
@@ -395,7 +372,6 @@ name
 protections_dashboard_category_others
 "
 >
-Otros
 <
 /
 string

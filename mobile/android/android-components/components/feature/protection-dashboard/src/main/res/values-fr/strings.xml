@@ -248,7 +248,6 @@ d
 \
 u00a0Mo
 conomis
-s
 <
 /
 item
@@ -326,7 +325,8 @@ name
 protections_dashboard_category_ads
 "
 >
-Annonces
+Publicit
+s
 <
 /
 string
@@ -377,7 +377,9 @@ name
 protections_dashboard_category_social
 "
 >
-Sociales
+R
+seaux
+sociaux
 <
 /
 string
