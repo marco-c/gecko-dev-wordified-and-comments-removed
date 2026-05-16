@@ -753,11 +753,6 @@ Headers
 ;
 }
 void
-SnapshotUnfilteredHeaders
-(
-)
-;
-void
 GetUnfilteredBody
 (
 nsIInputStream
