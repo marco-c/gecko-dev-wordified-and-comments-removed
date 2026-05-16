@@ -686,7 +686,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_stop
+mozac_ic_cross_24
 secondaryContentDescription
 =
 context
