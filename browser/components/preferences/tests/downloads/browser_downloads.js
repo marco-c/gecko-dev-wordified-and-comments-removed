@@ -150,6 +150,14 @@ testResetFOG
 (
 )
 ;
+Services
+.
+telemetry
+.
+clearScalars
+(
+)
+;
 const
 tempDirPath
 =
