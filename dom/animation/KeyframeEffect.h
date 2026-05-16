@@ -1354,6 +1354,10 @@ const
 ComputedStyle
 *
 aStyle
+const
+AnimationTimeline
+*
+aTimeline
 )
 ;
 void
@@ -1464,10 +1468,8 @@ Keyframe
 >
 mKeyframes
 ;
-bool
-mKeyframesUseTimelineRangeOffset
-=
-false
+KeyframesOffsetHasAny
+mKeyframesOffsetInfo
 ;
 nsTArray
 <
