@@ -4269,6 +4269,7 @@ document
 .
 dispatchEvent
 (
+(
 new
 CustomEvent
 (
@@ -4286,8 +4287,10 @@ detail
 :
 {
 category
+subcategory
 }
 }
+)
 )
 )
 ;
