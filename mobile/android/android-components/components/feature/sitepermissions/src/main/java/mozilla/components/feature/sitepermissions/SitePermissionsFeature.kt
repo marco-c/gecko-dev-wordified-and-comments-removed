@@ -5210,7 +5210,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_router_24
+mozac_ic_local_network_24
 showDoNotAskAgainCheckBox
 =
 true
