@@ -1573,6 +1573,11 @@ jemalloc_set_main_thread
 (
 )
 ;
+jemalloc_thread_local_arena
+(
+true
+)
+;
 #
 endif
 AbstractThread
