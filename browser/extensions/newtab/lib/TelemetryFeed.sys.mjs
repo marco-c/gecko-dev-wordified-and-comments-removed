@@ -8476,6 +8476,7 @@ surfaceId
 if
 (
 prefs
+?
 .
 inferredPersonalizationConfig
 ?
