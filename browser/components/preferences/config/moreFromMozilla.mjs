@@ -1092,7 +1092,7 @@ new
 -
 products
 -
-card
+card2
 "
 region
 :
