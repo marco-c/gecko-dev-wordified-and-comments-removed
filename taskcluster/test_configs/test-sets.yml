@@ -2596,6 +2596,12 @@ jittest
 -
 jsreftest
 -
+telemetry
+-
+tests
+-
+client
+-
 xpcshell
 macosx1470
 -
