@@ -174,6 +174,19 @@ profile_name
         
 self
 .
+assert_profile_source
+(
+"
+backup
+-
+legacy
+-
+source
+"
+)
+        
+self
+.
 set_prefs
 (
 {
@@ -716,6 +729,15 @@ self
 .
 init_selectable_profile_service
 (
+)
+        
+self
+.
+assert_profile_source
+(
+"
+backup
+"
 )
         
 store_id

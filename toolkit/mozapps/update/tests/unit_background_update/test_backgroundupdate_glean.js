@@ -527,6 +527,9 @@ file
 "
 test_default_profile
 "
+"
+tests
+"
 )
 ;
 let

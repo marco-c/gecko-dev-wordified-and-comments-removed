@@ -1308,6 +1308,15 @@ init_selectable_profile_service
 (
 )
         
+self
+.
+assert_profile_source
+(
+"
+backup
+"
+)
+        
 recovered_store_id
 =
 self
@@ -2114,6 +2123,20 @@ self
 .
 _new_profile_path
 }
+)
+        
+self
+.
+assert_profile_source
+(
+"
+backup
+"
+profile_path
+=
+self
+.
+_new_profile_path
 )
         
 self
@@ -3026,6 +3049,15 @@ Post
 -
 recovery
 complete
+"
+)
+        
+self
+.
+assert_profile_source
+(
+"
+backup
 "
 )
         

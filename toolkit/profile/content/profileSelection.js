@@ -1181,6 +1181,11 @@ gProfileService
 {
 CreateProfile
 }
+"
+profile
+-
+manager
+"
 )
 ;
 }

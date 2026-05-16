@@ -109,6 +109,11 @@ SelectableProfileService
 .
 createNewProfile
 (
+true
+null
+"
+tests
+"
 )
 ;
 const
@@ -231,6 +236,11 @@ SelectableProfileService
 .
 createNewProfile
 (
+true
+null
+"
+tests
+"
 )
 ;
 await

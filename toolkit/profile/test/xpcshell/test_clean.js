@@ -98,6 +98,9 @@ null
 "
 dedicated
 "
+"
+tests
+"
 )
 ;
 service
@@ -449,6 +452,9 @@ createProfile
 null
 "
 another
+"
+"
+tests
 "
 )
 ;

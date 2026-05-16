@@ -50,6 +50,9 @@ do_get_profile
 "
 test_locked_profile
 "
+"
+tests
+"
 )
 ;
 let

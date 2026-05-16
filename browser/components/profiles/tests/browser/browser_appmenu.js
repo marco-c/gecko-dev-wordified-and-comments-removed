@@ -556,6 +556,11 @@ SelectableProfileService
 .
 createNewProfile
 (
+true
+null
+"
+tests
+"
 )
 ;
 await

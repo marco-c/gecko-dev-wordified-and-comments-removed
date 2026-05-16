@@ -1065,6 +1065,16 @@ value
 var
 profile
 ;
+let
+source
+=
+window
+.
+arguments
+[
+2
+]
+;
 try
 {
 profile
@@ -1075,6 +1085,7 @@ createProfile
 (
 gProfileRoot
 profileName
+source
 )
 ;
 }

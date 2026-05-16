@@ -1917,6 +1917,13 @@ SelectableProfileService
 .
 createNewProfile
 (
+true
+null
+"
+sync
+-
+warning
+"
 )
 ;
 response

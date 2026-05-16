@@ -1058,6 +1058,15 @@ init_selectable_profile_service
 (
 )
         
+self
+.
+assert_profile_source
+(
+"
+backup
+"
+)
+        
 recovered_store_id
 =
 self

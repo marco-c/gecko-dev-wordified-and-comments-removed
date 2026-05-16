@@ -813,6 +813,15 @@ init_selectable_profile_service
         
 self
 .
+assert_profile_source
+(
+"
+backup
+"
+)
+        
+self
+.
 logger
 .
 info
@@ -1793,6 +1802,15 @@ self
 .
 init_selectable_profile_service
 (
+)
+        
+self
+.
+assert_profile_source
+(
+"
+backup
+"
 )
         
 recovered_profile_metadata

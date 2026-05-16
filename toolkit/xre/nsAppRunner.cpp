@@ -16215,6 +16215,10 @@ CreateUniqueProfile
 (
 nullptr
 profileName
+"
+downgrade
+"
+_ns
 getter_AddRefs
 (
 newProfile

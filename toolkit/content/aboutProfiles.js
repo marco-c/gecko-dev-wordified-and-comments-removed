@@ -1247,6 +1247,9 @@ ProfileService
 {
 CreateProfile
 }
+"
+aboutprofiles
+"
 )
 ;
 }
