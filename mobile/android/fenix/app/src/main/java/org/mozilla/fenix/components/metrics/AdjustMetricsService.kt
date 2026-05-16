@@ -686,6 +686,11 @@ LogLevel
 .
 SUPPRESS
 )
+config
+.
+disableFbIdReading
+(
+)
 applyThirdPartySharingSettings
 (
 distribution
