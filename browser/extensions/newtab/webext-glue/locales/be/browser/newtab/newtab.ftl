@@ -7107,6 +7107,16 @@ section
 -
 menu
 -
+manage
+=
+newtab
+-
+widget
+-
+section
+-
+menu
+-
 hide
 -
 all

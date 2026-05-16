@@ -3814,6 +3814,16 @@ aria
 -
 label
 =
+newtab
+-
+widget
+-
+section
+-
+menu
+-
+manage
+=
 #
 #
 Strings
