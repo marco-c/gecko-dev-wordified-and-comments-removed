@@ -2228,6 +2228,13 @@ example
 .
 com
 "
+permission_type
+:
+"
+midi
+-
+sysex
+"
 }
 ]
 AddonTestUtils
