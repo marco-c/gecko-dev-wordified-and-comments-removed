@@ -4705,7 +4705,7 @@ supportPage
 "
 crash
 -
-report
+reports
 "
 }
 ]
