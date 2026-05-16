@@ -62,11 +62,6 @@ Init
 nsIFile
 *
 aFile
-bool
-*
-aContainedErrors
-=
-nullptr
 )
 ;
 nsresult
@@ -76,11 +71,6 @@ const
 nsCString
 &
 aStr
-bool
-*
-aContainedErrors
-=
-nullptr
 )
 ;
 nsresult

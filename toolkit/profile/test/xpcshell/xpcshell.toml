@@ -73,13 +73,6 @@ js
 ]
 [
 "
-test_bad_ini
-.
-js
-"
-]
-[
-"
 test_check_backup
 .
 js
