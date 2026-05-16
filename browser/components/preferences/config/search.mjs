@@ -6579,6 +6579,11 @@ id
 "
 locationBarGroup
 "
+subcategory
+:
+"
+firefoxSuggest
+"
 items
 :
 [

@@ -3053,6 +3053,11 @@ id
 "
 permissions
 "
+subcategory
+:
+"
+permissions
+"
 l10nId
 :
 "
