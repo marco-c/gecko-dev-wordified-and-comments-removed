@@ -1239,11 +1239,11 @@ painter
 =
 painterResource
 (
-iconsR
+R
 .
 drawable
 .
-mozac_ic_fox_ai_on_state
+fox_ai_on_state
 )
 contentDescription
 =

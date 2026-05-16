@@ -1528,7 +1528,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_fox_ai_on_state
+mozac_ic_logo_firefox_24
 )
 contentDescription
 =
@@ -1607,7 +1607,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_fox_ai_on_state
+mozac_ic_logo_firefox_24
 )
 contentDescription
 =
@@ -1735,7 +1735,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_fox_ai_on_state
+mozac_ic_logo_firefox_24
 )
 contentDescription
 =
@@ -1813,7 +1813,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_fox_ai_on_state
+mozac_ic_logo_firefox_24
 )
 contentDescription
 =
