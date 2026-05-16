@@ -1076,6 +1076,16 @@ getAllVariables
 )
 {
 }
+getAllEnrollments
+(
+)
+{
+}
+getAllEnrollmentMetadata
+(
+)
+{
+}
 onUpdate
 (
 )
