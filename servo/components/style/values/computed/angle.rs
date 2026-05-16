@@ -2,6 +2,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 values
 :
 :
@@ -77,6 +86,7 @@ style_traits
 {
 CssWriter
 ToCss
+ToTyped
 }
 ;
 #
@@ -165,6 +175,12 @@ deg
 "
 )
 }
+}
+impl
+ToTyped
+for
+Angle
+{
 }
 const
 RAD_PER_DEG
