@@ -3432,8 +3432,7 @@ MOZ_ASSERT
 aEntry
 .
 mOffset
-!
-=
+>
 0
 .
 0f
@@ -3444,8 +3443,9 @@ of
 the
 entry
 should
-not
 be
+larger
+than
 0
 .
 0
@@ -3505,8 +3505,7 @@ MOZ_ASSERT
 aEntry
 .
 mOffset
-!
-=
+<
 1
 .
 0f
@@ -3517,8 +3516,9 @@ of
 the
 entry
 should
-not
 be
+smaller
+than
 1
 .
 0
@@ -3553,8 +3553,7 @@ if
 aEntry
 .
 mOffset
-!
-=
+>
 0
 .
 0f
@@ -3679,8 +3678,7 @@ i
 ]
 .
 mOffset
-!
-=
+<
 1
 .
 0f
@@ -3706,7 +3704,7 @@ i
 ]
 .
 mOffset
-=
+>
 =
 1
 .
@@ -3793,8 +3791,7 @@ i
 ]
 .
 mOffset
-!
-=
+>
 0
 .
 0f
@@ -3933,8 +3930,7 @@ i
 ]
 .
 mOffset
-!
-=
+<
 1
 .
 0f
@@ -4220,7 +4216,7 @@ i
 ]
 .
 mOffset
-=
+<
 =
 0
 .
