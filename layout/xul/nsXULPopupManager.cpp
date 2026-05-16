@@ -6166,7 +6166,7 @@ caret
 presShell
 -
 >
-GetCaret
+GetActiveCaret
 (
 )
 ;

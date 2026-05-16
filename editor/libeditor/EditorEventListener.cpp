@@ -4435,7 +4435,7 @@ true
 presShell
 -
 >
-SetCaret
+SetActiveCaret
 (
 mCaret
 )
@@ -4484,7 +4484,7 @@ presShell
 presShell
 -
 >
-RestoreCaret
+RestoreOriginalCaret
 (
 )
 ;
