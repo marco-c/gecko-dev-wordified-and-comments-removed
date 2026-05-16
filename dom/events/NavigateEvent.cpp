@@ -1763,8 +1763,10 @@ Manual
 return
 ;
 }
+RefPtr
+<
 Document
-*
+>
 document
 =
 window
@@ -1996,6 +1998,14 @@ focusedWindow
 ;
 }
 }
+document
+-
+>
+SetFocusNavigationStartingPoint
+(
+nullptr
+)
+;
 }
 }
 void
