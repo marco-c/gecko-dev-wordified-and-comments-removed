@@ -2015,7 +2015,7 @@ extras
 [
 Annotation
 .
-CrashID
+CrashEventID
 ]
 =
 JsonPrimitive
@@ -2569,7 +2569,7 @@ crash
 }
 /
 /
-CrashID
+CrashEventID
 should
 only
 be
@@ -2586,7 +2586,7 @@ setIfAbsent
 (
 Annotation
 .
-CrashID
+CrashEventID
 )
 {
 JsonPrimitive

@@ -1367,7 +1367,7 @@ vec
 ;
 }
 let
-crash_id
+crash_event_id
 =
 uuid
 :
@@ -1413,7 +1413,7 @@ id
 CrashAnnotation
 :
 :
-CrashID
+CrashEventID
 as
 u32
 data
@@ -1428,7 +1428,7 @@ CString
 :
 new
 (
-crash_id
+crash_event_id
 )
 .
 context

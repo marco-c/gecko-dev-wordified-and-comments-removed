@@ -1701,7 +1701,7 @@ String
 versionName
 :
 String
-crashId
+crashEventId
 :
 String
 )
@@ -1859,7 +1859,7 @@ AdditionalMinidumps
 =
 null
 var
-hasCrashId
+hasCrashEventId
 =
 false
 extrasFilePath
@@ -1932,7 +1932,7 @@ key
 ]
 )
 }
-hasCrashId
+hasCrashEventId
 =
 extrasMap
 .
@@ -1940,7 +1940,7 @@ containsKey
 (
 Annotation
 .
-CrashID
+CrashEventID
 .
 toString
 (
@@ -1964,7 +1964,7 @@ delete
 if
 (
 !
-hasCrashId
+hasCrashEventId
 )
 {
 formDataWriter
@@ -1973,8 +1973,8 @@ sendAnnotation
 (
 Annotation
 .
-CrashID
-crashId
+CrashEventID
+crashEventId
 )
 }
 if

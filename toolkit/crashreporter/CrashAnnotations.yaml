@@ -1995,7 +1995,7 @@ metric
 crash
 .
 app_build
-CrashID
+CrashEventID
 :
 description
 :
@@ -2016,13 +2016,15 @@ bugs
 :
 -
 1993525
+-
+2037943
 glean
 :
 metric
 :
 crash
 .
-id
+event_id
 CrashType
 :
 description

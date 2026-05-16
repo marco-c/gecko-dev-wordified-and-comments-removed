@@ -1728,7 +1728,7 @@ foo
 }
 "
 "
-CrashID
+CrashEventID
 "
 :
 "
@@ -1917,7 +1917,7 @@ get
 "
 crash
 .
-id
+event_id
 "
 )
 ?
@@ -2383,7 +2383,7 @@ get
 "
 crash
 .
-id
+event_id
 "
 )
 ?
