@@ -5369,11 +5369,11 @@ painter
 =
 painterResource
 (
-iconsR
+R
 .
 drawable
 .
-mozac_ic_kit_bookmarks_empty_state
+ic_kit_bookmarks_empty_state
 )
 modifier
 =
