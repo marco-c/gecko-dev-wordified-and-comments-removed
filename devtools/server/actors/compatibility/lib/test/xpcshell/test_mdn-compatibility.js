@@ -466,9 +466,9 @@ css
 masking
 /
 #
-clip
+propdef
 -
-property
+clip
 "
 deprecated
 :
