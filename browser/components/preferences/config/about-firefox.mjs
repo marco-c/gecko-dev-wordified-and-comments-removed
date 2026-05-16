@@ -2642,6 +2642,13 @@ badge
 .
 svg
 "
+subcategory
+:
+"
+update
+-
+state
+"
 headingLevel
 :
 2
