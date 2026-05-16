@@ -31209,6 +31209,7 @@ aSnapFlags
 ParentLayerPoint
 &
 aDelta
+const
 CSSPoint
 &
 aStartPosition
@@ -31298,13 +31299,6 @@ aStartPosition
 *
 zoom
 ;
-aStartPosition
-=
-snapDestination
--
->
-mPosition
-;
 return
 snapDestination
 ;
@@ -31331,6 +31325,7 @@ aEvent
 ParentLayerPoint
 &
 aDelta
+const
 CSSPoint
 &
 aStartPosition
