@@ -2121,6 +2121,16 @@ shared_pings
 .
 yaml
 "
+    
+"
+toolkit
+/
+profile
+/
+pings
+.
+yaml
+"
 ]
 background_update_pings
 =
