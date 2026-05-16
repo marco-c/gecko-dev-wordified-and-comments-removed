@@ -1644,6 +1644,11 @@ UpdateNormalizedTimingForTimelineDataChange
 )
 ;
 void
+MaybeUpdateKeyframeComputedOffsets
+(
+)
+;
+void
 SetHiddenByContentVisibility
 (
 bool

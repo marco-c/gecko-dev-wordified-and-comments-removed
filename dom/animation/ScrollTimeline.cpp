@@ -1910,6 +1910,13 @@ UpdateNormalizedTimingForTimelineDataChange
 (
 )
 ;
+anim
+-
+>
+MaybeUpdateKeyframeComputedOffsets
+(
+)
+;
 }
 }
 std

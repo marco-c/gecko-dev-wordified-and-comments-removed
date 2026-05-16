@@ -1288,6 +1288,15 @@ AnimationsPlayBackRateMultiplier
 )
 const
 ;
+void
+MaybeUpdateKeyframeComputedOffsets
+(
+const
+AnimationTimeline
+*
+aTimelne
+)
+;
 protected
 :
 ~
@@ -1454,6 +1463,11 @@ nsTArray
 Keyframe
 >
 mKeyframes
+;
+bool
+mKeyframesUseTimelineRangeOffset
+=
+false
 ;
 nsTArray
 <
