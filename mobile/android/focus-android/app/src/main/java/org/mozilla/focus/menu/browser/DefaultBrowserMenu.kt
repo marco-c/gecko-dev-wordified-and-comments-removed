@@ -1161,7 +1161,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_open_in
+mozac_ic_external_link_24
 textColorResource
 =
 context
