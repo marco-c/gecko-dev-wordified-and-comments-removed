@@ -15320,7 +15320,7 @@ PresShell
 )
 -
 >
-GetActiveCaret
+GetCaret
 (
 )
 ;

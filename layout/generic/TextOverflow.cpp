@@ -4682,7 +4682,7 @@ PresShell
 )
 -
 >
-GetActiveCaret
+GetCaret
 (
 )
 ;

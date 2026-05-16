@@ -1882,7 +1882,7 @@ caret
 ps
 -
 >
-GetOriginalCaret
+GetCaret
 (
 )
 ;

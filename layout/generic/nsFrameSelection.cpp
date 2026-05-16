@@ -2382,7 +2382,7 @@ caret
 =
 aPresShell
 .
-GetActiveCaret
+GetCaret
 (
 )
 ;
@@ -2933,7 +2933,7 @@ caret
 mPresShell
 -
 >
-GetActiveCaret
+GetCaret
 (
 )
 )

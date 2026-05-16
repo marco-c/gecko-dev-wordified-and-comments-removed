@@ -1867,13 +1867,6 @@ Bug
 ]
 [
 "
-test_drag_drop_caret
-.
-html
-"
-]
-[
-"
 test_drag_drop_shadow_crossing_selection
 .
 html

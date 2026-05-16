@@ -16145,7 +16145,7 @@ caret
 aPresShell
 -
 >
-GetOriginalCaret
+GetCaret
 (
 )
 ;

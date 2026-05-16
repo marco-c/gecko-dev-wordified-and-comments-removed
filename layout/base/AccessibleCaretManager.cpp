@@ -1132,7 +1132,7 @@ caret
 mPresShell
 -
 >
-GetOriginalCaret
+GetCaret
 (
 )
 ;

@@ -11244,7 +11244,7 @@ PresShell
 )
 -
 >
-GetActiveCaret
+GetCaret
 (
 )
 ;
