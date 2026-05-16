@@ -303,6 +303,16 @@ mjs
 includeParent
 :
 true
+remoteTypes
+:
+[
+"
+parent
+"
+"
+privilegedabout
+"
+]
 }
 RefreshBlockerObserver
 :
