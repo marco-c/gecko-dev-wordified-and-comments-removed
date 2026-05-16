@@ -33,11 +33,8 @@ urlFieldVisibleForPopupPermissions
 )
 {
 await
-openPreferencesViaOpenPreferencesAPI
+openPermissionsPane
 (
-"
-panePrivacy
-"
 {
 leaveOpen
 :

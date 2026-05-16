@@ -252,6 +252,17 @@ tests
 permissions
 /
 browser
+-
+srd
+.
+toml
+"
+"
+tests
+/
+permissions
+/
+browser
 .
 toml
 "

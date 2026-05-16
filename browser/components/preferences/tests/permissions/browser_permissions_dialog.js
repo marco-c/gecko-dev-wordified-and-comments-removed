@@ -221,11 +221,8 @@ openSitePermissionsDialog
 )
 {
 await
-openPreferencesViaOpenPreferencesAPI
+openPermissionsPane
 (
-"
-privacy
-"
 {
 leaveOpen
 :

@@ -367,11 +367,8 @@ removeAll
 )
 {
 await
-openPreferencesViaOpenPreferencesAPI
+openPermissionsPane
 (
-"
-privacy
-"
 {
 leaveOpen
 :
