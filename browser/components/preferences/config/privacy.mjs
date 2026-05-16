@@ -5069,11 +5069,6 @@ cookiesAndSiteData2
 inProgress
 :
 true
-subcategory
-:
-"
-sitedata
-"
 l10nId
 :
 "
@@ -6473,11 +6468,6 @@ label
 dnsOverHttps
 :
 {
-subcategory
-:
-"
-dnsOverHttps
-"
 l10nId
 :
 "
@@ -6896,11 +6886,6 @@ etpStatus
 inProgress
 :
 true
-subcategory
-:
-"
-etpStatus
-"
 headingLevel
 :
 2
@@ -8286,11 +8271,6 @@ button
 ipprotection
 :
 {
-subcategory
-:
-"
-vpn
-"
 l10nId
 :
 "
