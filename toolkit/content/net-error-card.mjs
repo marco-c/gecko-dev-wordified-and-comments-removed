@@ -449,6 +449,14 @@ error
 -
 intro
 "
+dnsSuggestion
+:
+"
+#
+dns
+-
+suggestion
+"
 certErrorDebugInfo
 :
 "
