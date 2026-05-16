@@ -1324,6 +1324,9 @@ PageContentExtractor
 .
 Exception
 (
+NullPointerException
+(
+)
 )
 val
 provider
@@ -2269,6 +2272,9 @@ PageContentExtractor
 .
 Exception
 (
+NullPointerException
+(
+)
 )
 val
 provider

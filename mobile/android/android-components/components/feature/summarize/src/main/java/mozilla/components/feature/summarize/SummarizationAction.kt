@@ -162,8 +162,14 @@ Dismissed
 *
 /
 data
-object
+class
 ViewDismissed
+(
+val
+isEngineAvailable
+:
+Boolean
+)
 :
 SummarizationAction
 /

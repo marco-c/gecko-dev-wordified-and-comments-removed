@@ -1885,6 +1885,9 @@ PageMetadataExtractor
 .
 Exception
 (
+NullPointerException
+(
+)
 )
 )
 )
