@@ -76,6 +76,9 @@ namespace
 dom
 {
 class
+AnimationTimeline
+;
+class
 Document
 ;
 class
@@ -143,6 +146,13 @@ Keyframe
 >
 &
 aKeframes
+const
+dom
+:
+:
+AnimationTimeline
+*
+aTimeline
 )
 ;
 static
