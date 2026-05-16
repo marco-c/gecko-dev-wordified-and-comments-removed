@@ -166,7 +166,16 @@ color
 ?
 attr
 /
-textDisabled
+colorOnSurface
+"
+android
+:
+alpha
+=
+"
+0
+.
+38
 "
 android
 :
