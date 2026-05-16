@@ -140,3 +140,10 @@ browser_setting_pane_sub_pane
 js
 "
 ]
+[
+"
+browser_sub_pane_navigation_selection
+.
+js
+"
+]
