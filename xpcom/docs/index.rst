@@ -93,7 +93,6 @@ safety
 collections
 hashtables
 hashtables_detailed
-iniparser
 mozpromise
 sorting
 .

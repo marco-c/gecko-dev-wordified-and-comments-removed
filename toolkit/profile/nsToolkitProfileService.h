@@ -741,9 +741,6 @@ mProfileDBFileSize
 PRTime
 mProfileDBModifiedTime
 ;
-nsCString
-mIniStatus
-;
 nsCOMPtr
 <
 nsISerialEventTarget
