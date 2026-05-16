@@ -1363,13 +1363,6 @@ js
 ]
 [
 "
-test_validate_manifests
-.
-js
-"
-]
-[
-"
 test_webextensions_install
 .
 js

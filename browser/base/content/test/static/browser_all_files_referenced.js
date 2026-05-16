@@ -707,16 +707,6 @@ resource
 :
 /
 /
-search
--
-extensions
-/
-"
-"
-resource
-:
-/
-/
 gre
 /
 modules
