@@ -538,7 +538,7 @@ os_version
 '
 11
 .
-26100
+26200
 '
 &
 &
@@ -546,7 +546,7 @@ arch
 =
 =
 '
-x86_64
+x86
 '
 &
 &
@@ -570,7 +570,7 @@ os_version
 '
 11
 .
-26200
+26100
 '
 &
 &
@@ -578,7 +578,7 @@ arch
 =
 =
 '
-x86
+x86_64
 '
 &
 &
@@ -630,13 +630,6 @@ html
 [
 "
 test_moz_support_link
-.
-html
-"
-]
-[
-"
-test_moz_textarea
 .
 html
 "
