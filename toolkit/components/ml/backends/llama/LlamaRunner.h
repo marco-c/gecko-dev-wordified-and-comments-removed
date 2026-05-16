@@ -418,6 +418,12 @@ GetMessage
 (
 )
 ;
+bool
+IsActive
+(
+)
+const
+;
 private
 :
 bool
@@ -641,6 +647,12 @@ DisconnectFromOwner
 (
 )
 override
+;
+bool
+IsActive
+(
+)
+const
 ;
 private
 :
