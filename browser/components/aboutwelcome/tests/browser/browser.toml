@@ -29,6 +29,13 @@ false
 ]
 [
 "
+browser_aboutwelcome_animation_play_pause
+.
+js
+"
+]
+[
+"
 browser_aboutwelcome_attribution
 .
 js
