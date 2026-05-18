@@ -336,6 +336,9 @@ visual
 )
 ;
 }
+#
+ifdef
+MOZ_WAYLAND
 static
 already_AddRefed
 <
@@ -412,6 +415,8 @@ IsHDR
 )
 ;
 }
+#
+endif
 static
 already_AddRefed
 <
