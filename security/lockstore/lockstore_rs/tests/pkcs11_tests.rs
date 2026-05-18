@@ -3,8 +3,8 @@ lockstore_rs
 :
 :
 {
+Keystore
 LockstoreError
-LockstoreKeystore
 }
 ;
 use
@@ -28,7 +28,7 @@ pkcs11_malformed_uri_rejected
 let
 ks
 =
-LockstoreKeystore
+Keystore
 :
 :
 new_in_memory
