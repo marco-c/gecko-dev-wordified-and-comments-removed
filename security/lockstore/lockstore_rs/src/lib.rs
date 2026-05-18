@@ -40,7 +40,10 @@ use
 keystore
 :
 :
+{
+ConnectionHandle
 LockstoreKeystore
+}
 ;
 #
 [
