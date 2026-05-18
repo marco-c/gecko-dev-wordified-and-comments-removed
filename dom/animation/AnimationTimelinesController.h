@@ -82,6 +82,11 @@ WillRefresh
 (
 )
 ;
+bool
+UpdateStaleTimelines
+(
+)
+;
 void
 UpdateLastRefreshDriverTime
 (

@@ -815,6 +815,11 @@ WillRefresh
 (
 )
 ;
+bool
+UpdateIfStale
+(
+)
+;
 Element
 *
 SourceElement
