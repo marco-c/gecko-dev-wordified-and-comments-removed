@@ -125,6 +125,9 @@ name
 text_field_eye_trailing_icon_default_content_description
 "
 >
+Tampil
+teks
+kaengkebang
 <
 /
 string
@@ -169,6 +172,7 @@ name
 text_field_cross_trailing_icon_default_content_description
 "
 >
+Resikin
 <
 /
 string
@@ -205,6 +209,7 @@ name
 mozac_compose_base_progress_loading
 "
 >
+Ngamuat
 <
 /
 string
@@ -233,6 +238,8 @@ name
 mozac_compose_base_snackbar_dismiss_content_description
 "
 >
+Nolak
+pabesen
 <
 /
 string
@@ -261,6 +268,7 @@ name
 mozac_compose_base_close_button_content_description
 "
 >
+Sineb
 <
 /
 string
@@ -303,6 +311,8 @@ name
 mozac_compose_base_link_text_links_title
 "
 >
+Cant
+lan
 <
 /
 string
@@ -342,6 +352,10 @@ name
 mozac_compose_base_link_text_links_available
 "
 >
+Cant
+lan
+w
+nten
 <
 /
 string
@@ -376,6 +390,7 @@ name
 mozac_compose_base_link_text_dismiss
 "
 >
+Tutup
 <
 /
 string
@@ -452,6 +467,8 @@ name
 mozac_compose_base_a11y_action_label_collapse
 "
 >
+Alitin
+malih
 <
 /
 string
@@ -493,6 +510,8 @@ name
 mozac_compose_base_a11y_state_label_collapsed
 "
 >
+Alitin
+malih
 <
 /
 string
@@ -538,6 +557,7 @@ name
 mozac_compose_base_a11y_action_label_expand
 "
 >
+kembang
 <
 /
 string
@@ -579,6 +599,7 @@ name
 mozac_compose_base_a11y_state_label_expanded
 "
 >
+kembangang
 <
 /
 string
