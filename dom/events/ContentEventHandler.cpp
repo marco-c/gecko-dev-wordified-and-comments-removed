@@ -13711,15 +13711,6 @@ rootWidget
 ;
 queryCharAtPointOnRootWidgetEvent
 .
-mUseNativeLineBreak
-=
-aEvent
--
->
-mUseNativeLineBreak
-;
-queryCharAtPointOnRootWidgetEvent
-.
 mRefPoint
 =
 aEvent
