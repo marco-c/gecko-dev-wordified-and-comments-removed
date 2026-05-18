@@ -1386,7 +1386,7 @@ mpEnabled
 )
 {
 let
-tokendb
+token
 =
 Cc
 [
@@ -1397,7 +1397,7 @@ org
 /
 security
 /
-pk11tokendb
+internalkeytoken
 ;
 1
 "
@@ -1407,16 +1407,7 @@ createInstance
 (
 Ci
 .
-nsIPK11TokenDB
-)
-;
-let
-token
-=
-tokendb
-.
-getInternalKeyToken
-(
+nsIPKCS11Token
 )
 ;
 token

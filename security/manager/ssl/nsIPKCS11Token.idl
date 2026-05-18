@@ -66,6 +66,7 @@ idl
 "
 [
 scriptable
+builtinclass
 uuid
 (
 51191434
@@ -80,7 +81,7 @@ e49c4e99a4e3
 )
 ]
 interface
-nsIPK11Token
+nsIPKCS11Token
 :
 nsISupports
 {

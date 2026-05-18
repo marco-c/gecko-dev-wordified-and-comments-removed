@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsPK11TokenDB
+PKCS11Token
 .
 h
 "
@@ -669,7 +669,7 @@ PKCS11Slot
 :
 GetToken
 (
-nsIPK11Token
+nsIPKCS11Token
 *
 *
 _retval
@@ -682,12 +682,12 @@ _retval
 ;
 nsCOMPtr
 <
-nsIPK11Token
+nsIPKCS11Token
 >
 token
 =
 new
-nsPK11Token
+PKCS11Token
 (
 mSlot
 .
@@ -1336,7 +1336,7 @@ RemotePKCS11Slot
 :
 GetToken
 (
-nsIPK11Token
+nsIPKCS11Token
 *
 *
 _retval

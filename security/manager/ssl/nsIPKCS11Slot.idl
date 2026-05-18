@@ -65,7 +65,7 @@ nsISupports
 idl
 "
 interface
-nsIPK11Token
+nsIPKCS11Token
 ;
 [
 scriptable
@@ -241,7 +241,7 @@ etc
 )
 are
 in
-nsIPK11Token
+nsIPKCS11Token
 .
 For
 now
@@ -260,7 +260,7 @@ there
 [
 must_use
 ]
-nsIPK11Token
+nsIPKCS11Token
 getToken
 (
 )
