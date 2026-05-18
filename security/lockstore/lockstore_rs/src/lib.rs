@@ -347,6 +347,17 @@ AuthenticationCancelled
 error
 (
 "
+Authentication
+failed
+"
+)
+]
+AuthenticationFailed
+#
+[
+error
+(
+"
 Token
 error
 :
