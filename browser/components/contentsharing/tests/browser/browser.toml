@@ -41,6 +41,13 @@ js
 ]
 [
 "
+browser_testModalErrors
+.
+js
+"
+]
+[
+"
 browser_testServerErrors
 .
 js

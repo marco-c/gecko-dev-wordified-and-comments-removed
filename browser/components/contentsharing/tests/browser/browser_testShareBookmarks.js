@@ -161,7 +161,7 @@ folder
 )
 ;
 const
-shareObject
+shareResult
 =
 await
 ContentSharingUtils
@@ -182,7 +182,7 @@ ContentSharingUtils
 .
 validateSchema
 (
-shareObject
+shareResult
 )
 "
 The
@@ -211,7 +211,7 @@ guid
 )
 ;
 const
-nestedShareObject
+nestedShareResult
 =
 await
 ContentSharingUtils
@@ -232,7 +232,7 @@ ContentSharingUtils
 .
 validateSchema
 (
-nestedShareObject
+nestedShareResult
 )
 "
 The
@@ -262,7 +262,7 @@ folder
 )
 ;
 const
-twoFolderShareObject
+twoFolderShareResult
 =
 await
 ContentSharingUtils
@@ -286,7 +286,7 @@ ContentSharingUtils
 .
 validateSchema
 (
-twoFolderShareObject
+twoFolderShareResult
 )
 "
 The
@@ -380,6 +380,9 @@ await
 assertContentSharingModal
 (
 window
+new
+ShareResult
+(
 {
 share
 :
@@ -394,7 +397,11 @@ url
 isSignedIn
 :
 true
+isSchemaValid
+:
+true
 }
+)
 )
 ;
 Assert
