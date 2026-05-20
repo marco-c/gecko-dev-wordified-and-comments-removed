@@ -294,6 +294,14 @@ CanReuseLikely
 (
 )
 ;
+const
+char
+*
+CanDirectlyActivateReason
+(
+)
+const
+;
 uint32_t
 TimeToLive
 (
