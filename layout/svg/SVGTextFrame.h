@@ -144,9 +144,6 @@ TextRenderedRunIterator
 namespace
 dom
 {
-struct
-DOMPointInit
-;
 class
 DOMSVGPoint
 ;
@@ -880,10 +877,10 @@ nsIContent
 *
 aContent
 const
-dom
+gfx
 :
 :
-DOMPointInit
+Point
 &
 aPoint
 )
