@@ -5902,9 +5902,9 @@ e
 .
 g
 .
-mini
 small
 medium
+large
 )
 .
 type
@@ -6426,7 +6426,8 @@ action
 .
 (
 hide_all
-toggle_maximize
+change_size_all
+feedback
 )
 type
 :
