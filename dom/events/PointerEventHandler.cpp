@@ -5695,7 +5695,7 @@ targetContent
 targetWeakFrame
 -
 >
-GetExplicitEventTargetContent
+GetEventTargetContent
 (
 aPointerEvent
 )
@@ -5712,7 +5712,7 @@ targetContent
 targetWeakFrame
 -
 >
-GetExplicitEventTargetContent
+GetEventTargetContent
 (
 aPointerEvent
 )
