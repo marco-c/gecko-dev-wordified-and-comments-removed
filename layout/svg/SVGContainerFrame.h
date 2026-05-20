@@ -323,17 +323,6 @@ aFrameList
 override
 ;
 void
-RemoveFrame
-(
-DestroyContext
-&
-ChildListID
-nsIFrame
-*
-)
-override
-;
-void
 Init
 (
 nsIContent
