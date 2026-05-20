@@ -533,7 +533,7 @@ nsIContent
 *
 content
 =
-GetTargetFromFrame
+GetExplicitTargetFromFrame
 (
 )
 ;
@@ -1636,7 +1636,7 @@ nsIContent
 Event
 :
 :
-GetTargetFromFrame
+GetExplicitTargetFromFrame
 (
 )
 {
@@ -1680,7 +1680,7 @@ return
 targetFrame
 -
 >
-GetContentForEvent
+GetExplicitEventTargetContent
 (
 mEvent
 )
