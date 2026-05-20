@@ -1113,6 +1113,14 @@ return
 if
 (
 !
+this
+.
+walker
+.
+targetActor
+.
+window
+.
 CSS
 .
 supports
