@@ -3184,6 +3184,11 @@ false
 }
 switch
 (
+nsHTMLTags
+:
+:
+CaseSensitiveAtomTagToId
+(
 aContent
 .
 NodeInfo
@@ -3191,13 +3196,9 @@ NodeInfo
 )
 -
 >
-HTMLTag
+NameAtom
 (
 )
-.
-valueOr
-(
-eHTMLTag_unknown
 )
 )
 {
