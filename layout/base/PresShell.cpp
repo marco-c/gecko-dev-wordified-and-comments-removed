@@ -58812,7 +58812,7 @@ mContent
 mFrame
 -
 >
-GetExplicitEventTargetContent
+GetEventTargetContent
 (
 aGUIEvent
 )
@@ -58909,7 +58909,7 @@ mContent
 mFrame
 -
 >
-GetExplicitEventTargetContent
+GetEventTargetContent
 (
 aGUIEvent
 )
