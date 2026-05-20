@@ -149,6 +149,14 @@ compose
 .
 material3
 .
+Surface
+import
+androidx
+.
+compose
+.
+material3
+.
 Text
 import
 androidx
@@ -349,11 +357,11 @@ Unit
 val
 backgroundColor
 =
-FirefoxTheme
+MaterialTheme
 .
-colors
+colorScheme
 .
-layer3
+secondaryContainer
 val
 defaultSpanStyle
 =
@@ -1042,6 +1050,8 @@ SettingsSearchItem
 {
 FirefoxTheme
 {
+Surface
+{
 SettingsSearchResultItem
 (
 item
@@ -1055,5 +1065,6 @@ onClick
 {
 }
 )
+}
 }
 }
