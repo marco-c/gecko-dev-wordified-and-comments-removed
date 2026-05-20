@@ -4891,11 +4891,6 @@ rules
 active
 :
 true
-NoSystemCurrentTimeMillis
-:
-active
-:
-true
 acorn
 -
 detekt
