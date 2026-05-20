@@ -1722,7 +1722,8 @@ static
 int
 disassembleInstr
 (
-Instr
+Instruction
+*
 instr
 bool
 enable_spew
@@ -1983,7 +1984,10 @@ getOffset
 ;
 disassembleInstr
 (
-x
+getInstructionAt
+(
+offset
+)
 JitSpewEnabled
 (
 JitSpew_Codegen

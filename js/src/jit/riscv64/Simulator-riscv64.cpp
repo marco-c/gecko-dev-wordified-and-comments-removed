@@ -12040,17 +12040,10 @@ dasm
 InstructionDecode
 (
 buffer
-reinterpret_cast
-<
-byte
-*
->
-(
 instr
 .
 instr
 (
-)
 )
 )
 ;
