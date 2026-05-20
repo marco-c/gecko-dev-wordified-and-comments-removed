@@ -3561,11 +3561,13 @@ ShellService
 .
 getDesktopEntryStatus
 (
-Services
+lazy
 .
-appinfo
+ShellService
 .
-remotingName
+getGlibPrgname
+(
+)
 +
 "
 .
