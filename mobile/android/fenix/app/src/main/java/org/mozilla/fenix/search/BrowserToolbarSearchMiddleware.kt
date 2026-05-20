@@ -3600,6 +3600,11 @@ settings
 googleLensIntegrationEnabled
 &
 &
+settings
+.
+googleLensIntegrationUserEnabled
+&
+&
 selectedSearchEngine
 .
 isGoogleSearchEngine
