@@ -3890,17 +3890,6 @@ fixupAllCrossCompartmentWrappersAfterMovingGC
 trc
 )
 ;
-rt
--
->
-geckoProfiler
-(
-)
-.
-fixupStringsMapAfterMovingGC
-(
-)
-;
 traceRuntimeForMajorGC
 (
 &

@@ -28914,17 +28914,6 @@ waitBackgroundDecommitEnd
 (
 )
 ;
-rt
--
->
-geckoProfiler
-(
-)
-.
-checkStringsMapAfterMovingGC
-(
-)
-;
 for
 (
 ZonesIter
