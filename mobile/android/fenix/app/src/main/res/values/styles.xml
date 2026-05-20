@@ -2411,9 +2411,10 @@ name
 mozac_ic_shield_slash_fill_critical
 "
 >
-color
+?
+attr
 /
-fx_mobile_icon_color_critical
+colorError
 <
 /
 item
@@ -6132,9 +6133,10 @@ name
 mozac_ic_shield_slash_fill_critical
 "
 >
-color
+?
+attr
 /
-fx_mobile_private_icon_color_critical
+colorError
 <
 /
 item
