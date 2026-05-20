@@ -573,6 +573,15 @@ PreloadAttachmentsOnCompositorThread
 (
 )
 ;
+bool
+EnsureFactoryLocked
+(
+)
+MOZ_REQUIRES
+(
+mDeviceLock
+)
+;
 already_AddRefed
 <
 IDXGIAdapter1
