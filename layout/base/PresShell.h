@@ -1899,6 +1899,17 @@ WidgetEvent
 nullptr
 )
 ;
+nsIContent
+*
+GetEventTargetContent
+(
+const
+WidgetEvent
+*
+=
+nullptr
+)
+;
 nsresult
 CaptureHistoryState
 (

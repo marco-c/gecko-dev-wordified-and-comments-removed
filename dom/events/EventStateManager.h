@@ -746,6 +746,17 @@ WidgetEvent
 nullptr
 )
 ;
+nsIContent
+*
+GetEventTargetContent
+(
+const
+WidgetEvent
+*
+=
+nullptr
+)
+;
 static
 bool
 ManagesState
