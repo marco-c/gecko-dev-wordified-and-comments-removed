@@ -2327,6 +2327,7 @@ b
 >
 header
 )
+{
 _ogg_free
 (
 b
@@ -2342,6 +2343,7 @@ header
 =
 NULL
 ;
+}
 if
 (
 b
@@ -2349,6 +2351,7 @@ b
 >
 header1
 )
+{
 _ogg_free
 (
 b
@@ -2364,6 +2367,7 @@ header1
 =
 NULL
 ;
+}
 if
 (
 b
@@ -2371,6 +2375,7 @@ b
 >
 header2
 )
+{
 _ogg_free
 (
 b
@@ -2386,6 +2391,7 @@ header2
 =
 NULL
 ;
+}
 if
 (
 v
