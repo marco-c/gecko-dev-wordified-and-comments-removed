@@ -5165,7 +5165,7 @@ this
 #
 openLinkNewTabItem
 .
-setAttribute
+toggleAttribute
 (
 "
 disabled
@@ -5184,7 +5184,7 @@ this
 #
 copyUrlItem
 .
-setAttribute
+toggleAttribute
 (
 "
 disabled
