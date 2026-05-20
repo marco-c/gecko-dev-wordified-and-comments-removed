@@ -2950,6 +2950,16 @@ isTotals
 =
 true
 ;
+bool
+stringsDeduplicationTruncated
+=
+false
+;
+size_t
+stringsTotalCount
+=
+0
+;
 #
 undef
 FOR_EACH_SIZE
