@@ -7401,6 +7401,15 @@ pseudos
 SmallVec
 :
 :
+<
+[
+_
+;
+2
+]
+>
+:
+:
 new
 (
 )
@@ -7475,6 +7484,8 @@ new
 (
 self
 element
+cur
+&
 pseudos
 style_attribute
 smil_override
