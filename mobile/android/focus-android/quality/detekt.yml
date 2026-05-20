@@ -4602,7 +4602,7 @@ excludeReturnFromLambda
 true
 excludeGuardClauses
 :
-false
+true
 SafeCast
 :
 active
