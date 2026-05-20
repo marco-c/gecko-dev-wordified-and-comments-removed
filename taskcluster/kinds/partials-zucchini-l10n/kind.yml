@@ -105,6 +105,8 @@ dependencies
 toolchain
 -
 repackage
+-
+l10n
 only
 -
 for
@@ -226,6 +228,13 @@ from
 -
 deps
 :
+kinds
+:
+[
+repackage
+-
+l10n
+]
 copy
 -
 attributes
