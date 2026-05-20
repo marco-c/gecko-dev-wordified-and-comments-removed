@@ -3519,7 +3519,7 @@ document
 const
 CACHE_WAIT_TIMEOUT_MS
 =
-5000
+20000
 ;
 function
 untilCacheCondition

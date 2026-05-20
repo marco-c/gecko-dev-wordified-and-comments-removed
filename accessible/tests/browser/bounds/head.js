@@ -65,8 +65,6 @@ MOCHITESTS_DIR
 name
 :
 "
-promisified
--
 events
 .
 js
