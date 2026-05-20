@@ -1294,6 +1294,11 @@ AudioDeviceInfo
 h
 "
 "
+AudioSession
+.
+h
+"
+"
 AudioStreamTrack
 .
 h
@@ -1434,6 +1439,11 @@ cpp
 "
 "
 AudioSegment
+.
+cpp
+"
+"
+AudioSession
 .
 cpp
 "
