@@ -3121,6 +3121,12 @@ this
 activeGroup
 )
 ;
+this
+.
+close
+(
+)
+;
 }
 )
 ;
