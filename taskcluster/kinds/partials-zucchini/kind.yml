@@ -105,6 +105,10 @@ dependencies
 toolchain
 -
 repackage
+-
+repackage
+-
+l10n
 only
 -
 for
