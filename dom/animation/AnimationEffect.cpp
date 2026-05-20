@@ -1786,7 +1786,7 @@ computedTiming
 GetComputedTimingAt
 (
 currentTime
-SpecifiedTiming
+NormalizedTiming
 (
 )
 playbackRate
