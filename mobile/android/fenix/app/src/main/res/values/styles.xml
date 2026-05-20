@@ -2396,9 +2396,10 @@ name
 mozac_ic_shield_slash_bg_fill_critical
 "
 >
-color
+?
+attr
 /
-fx_mobile_icon_color_primary
+colorOnSurface
 <
 /
 item
@@ -6118,9 +6119,10 @@ name
 mozac_ic_shield_slash_bg_fill_critical
 "
 >
-color
+?
+attr
 /
-fx_mobile_private_icon_color_primary
+colorOnSurface
 <
 /
 item
