@@ -175,13 +175,6 @@ html
 ]
 [
 "
-test_flush
-.
-html
-"
-]
-[
-"
 test_focus_autocomplete
 .
 html
