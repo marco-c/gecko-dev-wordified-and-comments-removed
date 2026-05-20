@@ -900,6 +900,13 @@ tab_groups
 "
 )
 .
+addMigrations
+(
+TabGroupDatabase
+.
+MIGRATION_1_2
+)
+.
 build
 (
 )
