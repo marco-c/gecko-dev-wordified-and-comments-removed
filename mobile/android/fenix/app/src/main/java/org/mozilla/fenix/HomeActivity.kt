@@ -3198,16 +3198,6 @@ inflate
 layoutInflater
 )
 val
-isLauncherIntent
-=
-intent
-.
-toSafeIntent
-(
-)
-.
-isLauncherIntent
-val
 shouldShowOnboarding
 =
 settings
@@ -3225,9 +3215,6 @@ fenixOnboarding
 userHasBeenOnboarded
 (
 )
-isLauncherIntent
-=
-isLauncherIntent
 )
 SplashScreenManager
 (
