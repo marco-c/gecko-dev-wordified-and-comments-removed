@@ -172,11 +172,11 @@ pdfjsVersion
 .
 0
 .
-96
+135
 *
 pdfjsBuild
 =
-cd4fd7563
+00af75905
 *
 /
 /
@@ -5395,7 +5395,6 @@ getPdfFilenameFromUrl
 getRGB
 getRGBA
 getUuid
-getXfaPageViewport
 GlobalWorkerOptions
 ImageKind
 InvalidPDFException
@@ -33022,7 +33021,9 @@ xfaPage
 const
 viewport
 =
-getXfaPageViewport
+XfaLayer
+.
+getPageViewport
 (
 xfaPage
 {
@@ -53188,7 +53189,7 @@ viewerVersion
 .
 0
 .
-96
+135
 "
 ;
 if
