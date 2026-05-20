@@ -5191,6 +5191,11 @@ gcx
 )
 ;
 void
+maybeWriteCoverageAndSpew
+(
+)
+;
+void
 sweepFinalizationObserversOnMainThread
 (
 )

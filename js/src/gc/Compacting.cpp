@@ -3697,15 +3697,6 @@ fixupAfterMovingGC
 (
 )
 ;
-zone
--
->
-fixupScriptMapsAfterMovingGC
-(
-&
-trc
-)
-;
 for
 (
 CompartmentsInZoneIter
