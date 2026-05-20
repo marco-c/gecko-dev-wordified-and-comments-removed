@@ -4014,6 +4014,7 @@ Servo_CSSSupports
 aDeclaration
 &
 params
+nullptr
 )
 ;
 }
