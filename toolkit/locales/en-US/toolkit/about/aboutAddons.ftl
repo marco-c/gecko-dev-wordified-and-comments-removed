@@ -1311,6 +1311,16 @@ settings
 /
 label
 >
+aboutaddons
+-
+sidebar
+=
+.
+heading
+=
+Add
+-
+ons
 addon
 -
 category
