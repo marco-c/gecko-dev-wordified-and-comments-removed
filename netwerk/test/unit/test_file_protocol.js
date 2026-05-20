@@ -1336,6 +1336,12 @@ lnk
 false
 )
 ;
+file
+.
+normalize
+(
+)
+;
 var
 chan
 =
