@@ -529,6 +529,10 @@ listener
 }
 [
 handleChangeSize
+weatherData
+?
+.
+initialized
 ]
 )
 ;
