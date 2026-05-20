@@ -3596,7 +3596,7 @@ EventStateManager
 )
 -
 >
-GetExplicitEventTargetContent
+GetEventTargetContent
 (
 )
 ;
