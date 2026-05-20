@@ -459,13 +459,6 @@ sys
 mjs
 "
 "
-PurgeSessionHistoryChild
-.
-sys
-.
-mjs
-"
-"
 RemotePageChild
 .
 sys
