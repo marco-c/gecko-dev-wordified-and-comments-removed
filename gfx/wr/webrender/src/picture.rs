@@ -1266,10 +1266,6 @@ bounding_rect
 :
 LayoutRect
 pub
-opaque_rect
-:
-LayoutRect
-pub
 prim_range
 :
 Range
@@ -1304,14 +1300,6 @@ Self
 PrimitiveCluster
 {
 bounding_rect
-:
-LayoutRect
-:
-:
-zero
-(
-)
-opaque_rect
 :
 LayoutRect
 :
