@@ -183,7 +183,7 @@ kFunct3Shift
 <
 kFunct7Shift
 )
-RO_FSQNJX_S
+RO_FSGNJX_S
 =
 OP_FP
 |
