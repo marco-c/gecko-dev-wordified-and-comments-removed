@@ -5892,9 +5892,11 @@ to
 -
 mobile
 -
-enable
+turn
 -
-sync2
+on
+-
+sync
 "
 click
 =
@@ -6008,7 +6010,7 @@ mobile
 -
 connect
 -
-phone2
+device
 "
 click
 =

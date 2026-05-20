@@ -3515,9 +3515,11 @@ to
 -
 mobile
 -
-enable
+turn
 -
-sync2
+on
+-
+sync
 ]
 "
 )
@@ -3858,7 +3860,7 @@ mobile
 -
 connect
 -
-phone2
+device
 ]
 "
 )
