@@ -6006,8 +6006,6 @@ jumpChainTargetAt
 (
 BufferOffset
 pos
-bool
-is_internal
 )
 {
 if
@@ -6068,7 +6066,6 @@ jumpChainTargetAt
 (
 instruction
 pos
-is_internal
 instruction2
 )
 ;
@@ -6084,8 +6081,6 @@ Instruction
 instruction
 BufferOffset
 pos
-bool
-is_internal
 Instruction
 *
 instruction2
@@ -6531,8 +6526,6 @@ jumpChainGetNextLink
 (
 BufferOffset
 pos
-bool
-is_internal
 )
 {
 int
@@ -6541,7 +6534,6 @@ link
 jumpChainTargetAt
 (
 pos
-is_internal
 )
 ;
 return
@@ -6569,8 +6561,6 @@ jumpChainUseNextLink
 Label
 *
 L
-bool
-is_internal
 )
 {
 MOZ_ASSERT
@@ -6592,7 +6582,6 @@ BufferOffset
 (
 L
 )
-is_internal
 )
 ;
 if
@@ -6798,7 +6787,6 @@ next
 jumpChainUseNextLink
 (
 label
-false
 )
 ;
 DEBUG_PRINTF
@@ -7859,7 +7847,6 @@ next
 jumpChainGetNextLink
 (
 next
-false
 )
 ;
 }
@@ -8368,7 +8355,6 @@ next
 jumpChainGetNextLink
 (
 next
-false
 )
 ;
 }
@@ -9560,7 +9546,6 @@ next
 jumpChainUseNextLink
 (
 label
-false
 )
 ;
 labelBranchOffset
@@ -10245,7 +10230,6 @@ getInst
 branch
 )
 branch
-false
 )
 ;
 int32_t
