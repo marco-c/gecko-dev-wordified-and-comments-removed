@@ -187,9 +187,6 @@ droppedFrames
 ;
 }
 ;
-[
-ManualDealloc
-]
 async
 protocol
 PMFMediaEngine

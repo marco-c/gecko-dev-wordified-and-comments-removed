@@ -81,6 +81,7 @@ public
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 RemoteDecoderChild
+final
 )
 ;
 explicit
@@ -256,11 +257,6 @@ DestroyIPDL
 (
 )
 ;
-void
-IPDLActorDestroyed
-(
-)
-;
 RemoteMediaManagerChild
 *
 GetManager
@@ -308,12 +304,6 @@ aForAbnormalShutdown
 )
 {
 }
-RefPtr
-<
-RemoteDecoderChild
->
-mIPDLSelfRef
-;
 MediaDataDecoder
 :
 :

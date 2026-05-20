@@ -2544,10 +2544,6 @@ msg
 )
 ;
 }
-mIPDLSelfRef
-=
-this
-;
 Register
 (
 )
@@ -3110,8 +3106,10 @@ void
 MFCDMParent
 :
 :
-Destroy
+ActorDestroy
 (
+ActorDestroyReason
+aWhy
 )
 {
 ASSERT_CDM_ACCESS_READ_ONLY_ON_MANAGER_THREAD
@@ -3124,7 +3122,7 @@ PROFILER_MARKER_UNTYPED
 MFCDMParent
 :
 :
-Destroy
+ActorDestroy
 "
 MEDIA_PLAYBACK
 )
@@ -3233,10 +3231,6 @@ mSessions
 clear
 (
 )
-;
-mIPDLSelfRef
-=
-nullptr
 ;
 }
 MFCDMParent

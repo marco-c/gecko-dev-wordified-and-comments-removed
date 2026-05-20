@@ -118,6 +118,7 @@ public
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 MFMediaEngineParent
+final
 )
 ;
 MFMediaEngineParent
@@ -302,11 +303,6 @@ RecvShutdown
 (
 )
 ;
-void
-Destroy
-(
-)
-;
 private
 :
 ~
@@ -443,12 +439,6 @@ sMediaEngineIdx
 const
 uint64_t
 mMediaEngineId
-;
-RefPtr
-<
-MFMediaEngineParent
->
-mIPDLSelfRef
 ;
 const
 RefPtr

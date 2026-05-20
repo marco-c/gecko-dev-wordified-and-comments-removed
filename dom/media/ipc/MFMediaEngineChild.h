@@ -70,6 +70,7 @@ public
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 MFMediaEngineChild
+final
 )
 ;
 MFMediaEngineChild
@@ -88,9 +89,12 @@ OwnerDestroyed
 )
 ;
 void
-IPDLActorDestroyed
+ActorDestroy
 (
+ActorDestroyReason
+aWhy
 )
+override
 ;
 RefPtr
 <
@@ -320,12 +324,6 @@ Atomic
 uint64_t
 >
 mMediaEngineId
-;
-RefPtr
-<
-MFMediaEngineChild
->
-mIPDLSelfRef
 ;
 MozPromiseHolder
 <
