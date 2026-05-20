@@ -107,6 +107,10 @@ toolchain
 repackage
 -
 l10n
+-
+partials
+-
+zucchini
 only
 -
 for
