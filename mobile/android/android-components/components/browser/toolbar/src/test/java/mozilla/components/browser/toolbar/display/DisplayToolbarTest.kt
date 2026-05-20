@@ -3036,7 +3036,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_broken_lock
+mozac_ic_lock_slash_critical_24
 )
 )
 assertNotNull
