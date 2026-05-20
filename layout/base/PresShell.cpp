@@ -39396,7 +39396,7 @@ target
 aFrameToHandleEvent
 -
 >
-GetExplicitEventTargetContent
+GetEventTargetContent
 (
 aGUIEvent
 )
