@@ -8,9 +8,9 @@ Window
 Controls
 Overlay
 -
-app
+window
 -
-region
+drag
 "
 "
 icons
@@ -50,9 +50,9 @@ override
 -
 member
 -
-app
+window
 -
-region
+drag
 -
 window
 -
