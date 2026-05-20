@@ -3001,7 +3001,7 @@ rust
 -
 1
 .
-92
+91
 .
 0
 :
@@ -3010,7 +3010,7 @@ description
 Rust
 1
 .
-92
+91
 .
 0
 source
@@ -3045,7 +3045,7 @@ rust
 /
 revision
 :
-ded5c06cf21d2b93bffd5d884aa6e96934ee4234
+f8297e351a40c1439a467bbbb6879088047f50b3
 rust
 -
 nightly
