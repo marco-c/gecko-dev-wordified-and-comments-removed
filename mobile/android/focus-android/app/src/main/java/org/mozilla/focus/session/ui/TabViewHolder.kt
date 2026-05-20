@@ -857,11 +857,11 @@ binding
 root
 .
 context
-iconsR
+R
 .
 drawable
 .
-mozac_ic_tab_new
+ic_tab_new
 )
 ?
 .
@@ -893,11 +893,11 @@ tabs_tray_action_add_new_tab
 )
 setCompoundDrawablesWithIntrinsicBounds
 (
-iconsR
+R
 .
 drawable
 .
-mozac_ic_tab_new
+ic_tab_new
 0
 0
 0
