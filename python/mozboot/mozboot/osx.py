@@ -1327,7 +1327,6 @@ bootstrap
 =
 urlopen
 (
-            
 HOMEBREW_BOOTSTRAP
 context
 =
@@ -1335,7 +1334,6 @@ ssl_context
 timeout
 =
 20
-        
 )
 .
 read
