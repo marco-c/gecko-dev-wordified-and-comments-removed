@@ -20438,7 +20438,7 @@ targetContent
 mCurrentTarget
 -
 >
-GetExplicitEventTargetContent
+GetEventTargetContent
 (
 aEvent
 )
