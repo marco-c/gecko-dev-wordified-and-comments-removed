@@ -795,7 +795,7 @@ i
 )
 ;
 }
-res_nclose
+res_ndestroy
 (
 &
 res
