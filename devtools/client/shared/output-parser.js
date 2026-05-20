@@ -321,6 +321,9 @@ oklch
 "
 rgb
 "
+"
+image
+"
 ]
 )
 ;
