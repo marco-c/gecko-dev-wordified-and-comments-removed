@@ -725,8 +725,6 @@ public
 nsISupports
 public
 nsWrapperCache
-public
-SupportsWeakPtr
 {
 public
 :
