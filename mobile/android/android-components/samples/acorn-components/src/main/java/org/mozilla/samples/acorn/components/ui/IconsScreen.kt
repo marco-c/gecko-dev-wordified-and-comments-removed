@@ -2594,11 +2594,6 @@ iconsR
 .
 drawable
 .
-mozac_ic_tab_number_24
-iconsR
-.
-drawable
-.
 mozac_ic_tab_24
 iconsR
 .
