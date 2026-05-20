@@ -985,7 +985,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_android_robot_fill_24
+mozac_ic_globe_24
 isCompleted
 =
 false
@@ -1059,7 +1059,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_android_robot_fill_24
+mozac_ic_globe_24
 isCompleted
 =
 true
@@ -1139,7 +1139,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_android_robot_fill_24
+mozac_ic_globe_24
 isCompleted
 =
 false
@@ -1170,7 +1170,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_android_robot_fill_24
+mozac_ic_globe_24
 isCompleted
 =
 false
@@ -1221,7 +1221,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_android_robot_fill_24
+mozac_ic_globe_24
 isCompleted
 =
 false
