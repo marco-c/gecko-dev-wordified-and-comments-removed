@@ -1680,7 +1680,7 @@ reading
 support
 )
 :
--
+*
 [
 CreateByteNative
 (
@@ -1728,7 +1728,7 @@ with
 new
 ReadableStream
 .
--
+*
 [
 SetUpByteNative
 (
@@ -2131,7 +2131,7 @@ set
 up
 )
 :
--
+*
 [
 CreateNative
 (
@@ -2179,7 +2179,7 @@ with
 new
 WritableStream
 .
--
+*
 [
 SetUpNative
 (

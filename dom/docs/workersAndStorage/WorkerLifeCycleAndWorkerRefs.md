@@ -202,7 +202,6 @@ status
 #
 #
 Pending
-:
 This
 is
 the
@@ -462,7 +461,6 @@ queue
 #
 #
 Running
-:
 This
 is
 the
@@ -586,7 +584,6 @@ later
 #
 #
 Closing
-:
 This
 is
 a
@@ -665,7 +662,6 @@ closed
 #
 #
 Canceling
-:
 When
 Worker
 gets
@@ -775,7 +771,6 @@ WorkerGlobalScope
 #
 #
 Killing
-:
 This
 is
 the
@@ -827,7 +822,6 @@ DoRunLoop
 #
 #
 Dead
-:
 The
 Worker
 quits

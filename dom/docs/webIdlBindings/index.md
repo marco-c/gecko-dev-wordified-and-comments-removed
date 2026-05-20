@@ -325,9 +325,7 @@ the
 interface
 called
 a
-*
-descriptor
-*
+_descriptor_
 .
 There
 are
@@ -589,9 +587,7 @@ classes
 If
 your
 interface
-*
-does
-*
+_does_
 inherit
 from
 another
@@ -10804,9 +10800,7 @@ all
 .
 These
 members
-*
-are
-*
+_are_
 exposed
 to
 chrome
@@ -12116,7 +12110,7 @@ Possible
 values
 are
 :
-*
+-
 Everything
 This
 value
@@ -12176,7 +12170,7 @@ method
 or
 attribute
 .
-*
+-
 DOMState
 The
 return
@@ -12246,7 +12240,7 @@ affects
 is
 executed
 .
-*
+-
 DeviceState
 The
 return
@@ -12314,7 +12308,7 @@ between
 the
 calls
 .
-*
+-
 Nothing
 The
 return
@@ -12439,7 +12433,7 @@ Possible
 values
 are
 :
-*
+-
 Everything
 This
 value
@@ -12486,7 +12480,7 @@ or
 JS
 heap
 .
-*
+-
 Nothing
 Calling
 the
@@ -13472,9 +13466,7 @@ storeinslot
 )
 this
 does
-*
-not
-*
+_not_
 cause
 the
 getter
@@ -17522,13 +17514,12 @@ are
 created
 :
 -
-*
-Content
+_Content
 -
 exposed
 object
 :
-*
+_
 what
 gets
 exposed
@@ -17538,11 +17529,10 @@ web
 page
 .
 -
-*
-Implementation
+_Implementation
 object
 :
-*
+_
 running
 as
 a
