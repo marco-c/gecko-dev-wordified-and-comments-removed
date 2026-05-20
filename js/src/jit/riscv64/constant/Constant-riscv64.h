@@ -197,12 +197,6 @@ js
 namespace
 jit
 {
-const
-int
-ReasonableBufferSize
-=
-256
-;
 static
 constexpr
 int
