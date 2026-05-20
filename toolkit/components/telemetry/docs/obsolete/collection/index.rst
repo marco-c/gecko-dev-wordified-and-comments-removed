@@ -285,16 +285,6 @@ experiments
 :
 doc
 :
-Remote
-content
-uptake
-<
-uptake
->
-*
-:
-doc
-:
 WebExtension
 API
 <
@@ -364,7 +354,6 @@ custom
 -
 pings
 experiments
-uptake
 *
 Browser
 Usage
