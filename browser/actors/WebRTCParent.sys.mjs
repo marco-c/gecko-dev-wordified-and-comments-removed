@@ -3819,6 +3819,9 @@ secondaryActions
 =
 [
 {
+disableSecurityDelay
+:
+true
 callback
 (
 )
@@ -3863,6 +3866,9 @@ browser
 }
 }
 {
+disableSecurityDelay
+:
+true
 callback
 (
 )
@@ -3970,6 +3976,9 @@ secondaryActions
 =
 [
 {
+disableSecurityDelay
+:
+true
 callback
 (
 aState
