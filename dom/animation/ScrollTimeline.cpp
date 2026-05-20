@@ -724,7 +724,7 @@ OwnerDoc
 )
 -
 >
-GetDocumentElement
+GetScrollingElementNoFlush
 (
 )
 ;
@@ -2491,7 +2491,7 @@ OwnerDoc
 )
 -
 >
-GetDocumentElement
+GetScrollingElementNoFlush
 (
 )
 PseudoStyleRequest
