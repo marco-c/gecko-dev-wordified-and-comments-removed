@@ -1374,9 +1374,6 @@ final
 GeckoSession
 newSession
 =
-createSession
-(
-settings
 details
 .
 active
@@ -1385,6 +1382,17 @@ active
 Boolean
 .
 TRUE
+?
+createBackgroundSession
+(
+settings
+true
+)
+:
+createSession
+(
+settings
+false
 )
 ;
 return
