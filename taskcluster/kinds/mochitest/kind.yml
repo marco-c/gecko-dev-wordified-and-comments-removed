@@ -197,7 +197,7 @@ test
 -
 platform
 :
-windows
+windows11
 .
 *
 -
@@ -213,7 +213,7 @@ win11
 25h2
 -
 large
-windows
+windows11
 .
 *
 aarch64
@@ -228,7 +228,7 @@ win11
 a64
 -
 25h2
-windows
+windows11
 .
 *
 /
@@ -5301,7 +5301,7 @@ test
 -
 platform
 :
-windows
+windows11
 .
 *
 /
@@ -5759,7 +5759,7 @@ test
 -
 platform
 :
-windows
+windows11
 .
 *
 /
@@ -7335,7 +7335,7 @@ test
 -
 platform
 :
-windows
+windows11
 .
 *
 -
@@ -7351,7 +7351,7 @@ win11
 25h2
 -
 large
-windows
+windows11
 .
 *
 aarch64
@@ -7366,7 +7366,7 @@ win11
 a64
 -
 25h2
-windows
+windows11
 .
 *
 /
@@ -7517,7 +7517,7 @@ test
 -
 platform
 :
-windows
+windows11
 .
 *
 /
@@ -7874,7 +7874,7 @@ test
 -
 platform
 :
-windows
+windows11
 .
 *
 /
@@ -8229,7 +8229,7 @@ test
 -
 platform
 :
-windows
+windows11
 .
 *
 /
@@ -8612,7 +8612,7 @@ test
 -
 platform
 :
-windows
+windows11
 .
 *
 /
@@ -8886,7 +8886,7 @@ test
 -
 platform
 :
-windows
+windows11
 .
 *
 /
@@ -9023,7 +9023,7 @@ test
 -
 platform
 :
-windows
+windows11
 .
 *
 /
