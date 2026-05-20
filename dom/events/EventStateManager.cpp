@@ -26895,7 +26895,7 @@ lastContent
 sLastDragOverFrame
 -
 >
-GetExplicitEventTargetContent
+GetEventTargetContent
 (
 aDragEvent
 )
