@@ -3668,6 +3668,11 @@ char
 >
 buffer
 ;
+using
+byte
+=
+uint8_t
+;
 byte
 *
 cur
