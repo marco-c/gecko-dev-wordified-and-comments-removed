@@ -2669,6 +2669,9 @@ CLAUDE
 local
 .
 md
+*
+*
+/
 .
 claude
 /
@@ -2684,6 +2687,9 @@ scheduled
 task
 lock
 file
+*
+*
+/
 .
 claude
 /
@@ -2695,6 +2701,9 @@ Ignore
 Claude
 Code
 worktrees
+*
+*
+/
 .
 claude
 /
