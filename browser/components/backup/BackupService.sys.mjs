@@ -33100,6 +33100,16 @@ infalliblePathExists
 path
 )
 {
+if
+(
+!
+path
+)
+{
+return
+false
+;
+}
 let
 exists
 =
