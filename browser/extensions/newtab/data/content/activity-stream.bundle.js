@@ -87104,17 +87104,6 @@ provider_link_click
 "
 }
 ;
-const
-Weather_PREF_WEATHER_SIZE
-=
-"
-widgets
-.
-weather
-.
-size
-"
-;
 function
 Weather_Weather
 (
@@ -87219,7 +87208,7 @@ currentWeatherSize
 =
 prefs
 [
-Weather_PREF_WEATHER_SIZE
+PREF_WEATHER_SIZE
 ]
 |
 |
@@ -87340,7 +87329,7 @@ data
 {
 name
 :
-Weather_PREF_WEATHER_SIZE
+PREF_WEATHER_SIZE
 value
 :
 newSize
@@ -124529,7 +124518,7 @@ enabled
 "
 ;
 const
-Weather_Weather_PREF_WEATHER_SIZE
+Weather_PREF_WEATHER_SIZE
 =
 "
 widgets
@@ -125980,7 +125969,7 @@ data
 {
 name
 :
-Weather_Weather_PREF_WEATHER_SIZE
+Weather_PREF_WEATHER_SIZE
 value
 :
 size
@@ -126981,7 +126970,7 @@ Prefs
 .
 values
 [
-Weather_Weather_PREF_WEATHER_SIZE
+Weather_PREF_WEATHER_SIZE
 ]
 |
 |
