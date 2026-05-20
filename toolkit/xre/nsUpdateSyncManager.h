@@ -30,6 +30,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 MultiInstanceLock
 .
 h
@@ -136,6 +143,9 @@ MultiInstLockHandle
 mLock
 =
 MULTI_INSTANCE_LOCK_HANDLE_ERROR
+;
+nsCString
+mLockFilePath
 ;
 }
 ;
