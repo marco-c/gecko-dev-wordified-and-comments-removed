@@ -149,6 +149,13 @@ js
 ]
 [
 "
+test_UrlbarUtils_backspaceBlocks
+.
+js
+"
+]
+[
+"
 test_UrlbarUtils_copySnakeKeysToCamel
 .
 js
