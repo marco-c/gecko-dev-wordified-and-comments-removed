@@ -1722,10 +1722,7 @@ gc
 void
 TraceCycleCollectorChildren
 (
-JS
-:
-:
-CallbackTracer
+JSTracer
 *
 trc
 Shape

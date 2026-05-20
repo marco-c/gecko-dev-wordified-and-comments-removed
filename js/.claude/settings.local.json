@@ -1,0 +1,16 @@
+{
+"
+enabledMcpjsonServers
+"
+:
+[
+"
+moz
+"
+"
+firefox
+-
+devtools
+"
+]
+}
