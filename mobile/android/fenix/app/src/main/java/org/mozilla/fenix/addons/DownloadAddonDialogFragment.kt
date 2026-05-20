@@ -233,7 +233,7 @@ foundation
 .
 shape
 .
-RoundedCornerShape
+CircleShape
 import
 androidx
 .
@@ -1147,16 +1147,7 @@ fillMaxWidth
 .
 clip
 (
-RoundedCornerShape
-(
-FirefoxTheme
-.
-layout
-.
-corner
-.
-xLarge
-)
+CircleShape
 )
 .
 background

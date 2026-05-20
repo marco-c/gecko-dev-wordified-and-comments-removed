@@ -125,7 +125,7 @@ foundation
 .
 shape
 .
-RoundedCornerShape
+CircleShape
 import
 androidx
 .
@@ -882,12 +882,7 @@ colorScheme
 surfaceDim
 shape
 =
-RoundedCornerShape
-(
-90
-.
-dp
-)
+CircleShape
 )
 .
 padding

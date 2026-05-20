@@ -1046,7 +1046,7 @@ fillMaxWidth
 .
 clip
 (
-TabContentCardShape
+tabContentCardShape
 )
 .
 tabItemClickable
@@ -1069,7 +1069,7 @@ isFocused
 }
 shape
 =
-TabContentCardShape
+tabContentCardShape
 border
 =
 tabItemConditionalBorder
@@ -1170,7 +1170,7 @@ static50
 )
 shape
 =
-ThumbnailShape
+thumbnailShape
 )
 {
 Thumbnail
@@ -1726,7 +1726,7 @@ fillMaxSize
 )
 shape
 =
-ThumbnailShape
+thumbnailShape
 )
 }
 private

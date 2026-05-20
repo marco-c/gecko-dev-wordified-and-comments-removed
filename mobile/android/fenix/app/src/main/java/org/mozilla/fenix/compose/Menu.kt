@@ -129,7 +129,7 @@ foundation
 .
 shape
 .
-RoundedCornerShape
+CornerBasedShape
 import
 androidx
 .
@@ -530,7 +530,7 @@ showMenu
 Boolean
 cornerShape
 :
-RoundedCornerShape
+CornerBasedShape
 modifier
 :
 Modifier
@@ -1161,14 +1161,11 @@ canShowCheckItems
 canShowCheckItems
 cornerShape
 =
-RoundedCornerShape
-(
-size
-=
-5
+MaterialTheme
 .
-dp
-)
+shapes
+.
+extraSmall
 offset
 =
 offset

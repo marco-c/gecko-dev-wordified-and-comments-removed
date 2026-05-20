@@ -166,6 +166,14 @@ libs
 androidx
 .
 core
+implementation
+libs
+.
+androidx
+.
+compose
+.
+material3
 debugImplementation
 libs
 .
