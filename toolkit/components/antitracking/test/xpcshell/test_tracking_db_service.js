@@ -569,10 +569,12 @@ true
 ]
 }
 ;
-do_get_profile
+add_setup
+(
+function
 (
 )
-;
+{
 Services
 .
 prefs
@@ -840,6 +842,9 @@ milestone
 .
 milestones
 "
+)
+;
+}
 )
 ;
 }
