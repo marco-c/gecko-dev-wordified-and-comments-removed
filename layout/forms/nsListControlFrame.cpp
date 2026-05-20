@@ -3582,8 +3582,10 @@ option
 ;
 for
 (
+nsCOMPtr
+<
 nsIContent
-*
+>
 content
 =
 PresContext
@@ -3598,6 +3600,7 @@ EventStateManager
 >
 GetEventTargetContent
 (
+nullptr
 )
 ;
 content

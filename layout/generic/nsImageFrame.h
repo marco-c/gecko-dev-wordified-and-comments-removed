@@ -352,7 +352,7 @@ override
 ;
 nsIContent
 *
-GetExplicitEventTargetContent
+GetContentForEvent
 (
 const
 mozilla
@@ -360,17 +360,9 @@ mozilla
 :
 WidgetEvent
 *
-=
-nullptr
 )
 const
 final
-;
-using
-nsIFrame
-:
-:
-GetExplicitEventTargetContent
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult

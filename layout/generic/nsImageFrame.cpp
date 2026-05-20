@@ -14680,7 +14680,7 @@ nsIContent
 nsImageFrame
 :
 :
-GetExplicitEventTargetContent
+GetContentForEvent
 (
 const
 WidgetEvent
@@ -14692,9 +14692,6 @@ const
 if
 (
 mImageMap
-&
-&
-aEvent
 )
 {
 nsIContent
@@ -14780,7 +14777,7 @@ return
 nsIFrame
 :
 :
-GetExplicitEventTargetContent
+GetContentForEvent
 (
 aEvent
 )
