@@ -1,4 +1,13 @@
 use
+http
+:
+:
+{
+HeaderName
+HeaderValue
+}
+;
+use
 super
 :
 :
@@ -8,6 +17,15 @@ authorization
 {
 Authorization
 Credentials
+}
+;
+use
+crate
+:
+:
+{
+Error
+Header
 }
 ;
 #
@@ -38,8 +56,6 @@ C
 :
 Credentials
 >
-:
-:
 Header
 for
 ProxyAuthorization
@@ -56,8 +72,6 @@ name
 &
 '
 static
-:
-:
 HeaderName
 {
 &
@@ -85,8 +99,6 @@ Item
 &
 '
 i
-:
-:
 HeaderValue
 >
 >
@@ -102,8 +114,6 @@ I
 Result
 <
 Self
-:
-:
 Error
 >
 {
@@ -135,8 +145,6 @@ E
 :
 Extend
 <
-:
-:
 HeaderValue
 >
 >

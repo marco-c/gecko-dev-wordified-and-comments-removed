@@ -1229,14 +1229,10 @@ legacy
 .
 get_or_insert_with
 (
-|
-|
 LegacyBuilder
 :
 :
 default
-(
-)
 )
 ;
 f

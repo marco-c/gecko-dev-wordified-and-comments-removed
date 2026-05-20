@@ -141,7 +141,7 @@ crate
 mod
 ready
 ;
-cfg_net
+cfg_net_or_uring
 !
 {
 pub
@@ -408,6 +408,7 @@ AsyncWriteExt
 BufReader
 BufStream
 BufWriter
+Chain
 DuplexStream
 Empty
 Lines
@@ -493,4 +494,15 @@ as
 Blocking
 ;
 }
+}
+cfg_io_uring
+!
+{
+pub
+(
+crate
+)
+mod
+uring
+;
 }

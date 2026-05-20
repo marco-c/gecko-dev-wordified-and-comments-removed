@@ -798,6 +798,10 @@ self
 -
 >
 Name
+<
+'
+_
+>
 {
 match
 *

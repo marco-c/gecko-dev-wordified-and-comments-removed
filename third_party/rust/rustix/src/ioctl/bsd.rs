@@ -4,7 +4,7 @@ super
 :
 {
 Direction
-RawOpcode
+Opcode
 }
 ;
 pub
@@ -20,17 +20,17 @@ dir
 Direction
 group
 :
-RawOpcode
+Opcode
 num
 :
-RawOpcode
+Opcode
 size
 :
-RawOpcode
+Opcode
 )
 -
 >
-RawOpcode
+Opcode
 {
 let
 dir
@@ -96,7 +96,7 @@ pub
 const
 NONE
 :
-RawOpcode
+Opcode
 =
 0x2000_0000
 ;
@@ -104,7 +104,7 @@ pub
 const
 READ
 :
-RawOpcode
+Opcode
 =
 0x4000_0000
 ;
@@ -112,7 +112,7 @@ pub
 const
 WRITE
 :
-RawOpcode
+Opcode
 =
 0x8000_0000
 ;
@@ -120,7 +120,7 @@ pub
 const
 IOCPARAM_MASK
 :
-RawOpcode
+Opcode
 =
 0x1FFF
 ;

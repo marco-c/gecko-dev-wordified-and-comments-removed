@@ -701,8 +701,7 @@ io
 :
 Result
 <
-(
-)
+usize
 >
 {
 let
@@ -747,9 +746,6 @@ target_pointer_width
 ]
 unsafe
 {
-let
-_
-=
 ret_usize
 (
 syscall_readonly
@@ -767,8 +763,6 @@ size
 )
 )
 )
-?
-;
 }
 #
 [
@@ -783,9 +777,6 @@ target_pointer_width
 ]
 unsafe
 {
-let
-_
-=
 ret_usize
 (
 syscall_readonly
@@ -803,12 +794,5 @@ size
 )
 )
 )
-?
-;
 }
-Ok
-(
-(
-)
-)
 }

@@ -407,6 +407,7 @@ AssertUnwindSafe
 (
 |
 |
+unsafe
 {
 ptr
 :
@@ -445,6 +446,8 @@ as
 mut
 F
 ;
+unsafe
+{
 ptr
 :
 :
@@ -454,10 +457,13 @@ self_ptr
 future
 )
 ;
+}
 self
 .
 boxed
 =
+unsafe
+{
 NonNull
 :
 :
@@ -465,6 +471,7 @@ new_unchecked
 (
 self_ptr
 )
+}
 ;
 match
 result

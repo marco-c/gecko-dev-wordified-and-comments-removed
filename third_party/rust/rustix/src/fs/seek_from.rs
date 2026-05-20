@@ -208,7 +208,7 @@ solarish
 ]
 Data
 (
-i64
+u64
 )
 #
 [
@@ -225,6 +225,6 @@ solarish
 ]
 Hole
 (
-i64
+u64
 )
 }

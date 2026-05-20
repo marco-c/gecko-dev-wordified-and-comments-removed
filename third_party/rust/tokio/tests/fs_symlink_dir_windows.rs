@@ -58,7 +58,7 @@ test
 ]
 async
 fn
-symlink_file_windows
+symlink_dir_windows
 (
 )
 {

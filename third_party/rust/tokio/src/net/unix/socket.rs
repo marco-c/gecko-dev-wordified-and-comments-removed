@@ -1233,6 +1233,8 @@ UnixSocket
 let
 inner
 =
+unsafe
+{
 socket2
 :
 :
@@ -1243,6 +1245,7 @@ from_raw_fd
 (
 fd
 )
+}
 ;
 UnixSocket
 {

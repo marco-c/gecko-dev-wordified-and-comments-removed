@@ -125,17 +125,6 @@ buf
 [
 inline
 ]
-#
-[
-cfg
-(
-feature
-=
-"
-http1
-"
-)
-]
 pub
 (
 crate

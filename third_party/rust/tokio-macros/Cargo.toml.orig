@@ -21,6 +21,10 @@ io
 Remove
 path
 dependencies
+(
+if
+any
+)
 #
 -
 Update
@@ -36,11 +40,11 @@ tokio
 -
 macros
 -
-1
-.
 x
 .
 y
+.
+z
 "
 git
 tag
@@ -50,7 +54,7 @@ version
 "
 2
 .
-5
+7
 .
 0
 "
@@ -66,7 +70,7 @@ version
 "
 1
 .
-70
+71
 "
 authors
 =
@@ -215,6 +219,11 @@ features
 "
 full
 "
+"
+test
+-
+util
+"
 ]
 }
 [
@@ -229,5 +238,11 @@ rs
 all
 -
 features
+=
+true
+[
+lints
+]
+workspace
 =
 true

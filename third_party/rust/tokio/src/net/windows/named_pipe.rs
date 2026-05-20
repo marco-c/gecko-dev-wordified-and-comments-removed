@@ -48,6 +48,15 @@ use
 std
 :
 :
+ptr
+:
+:
+null_mut
+;
+use
+std
+:
+:
 task
 :
 :
@@ -290,6 +299,8 @@ Self
 let
 named_pipe
 =
+unsafe
+{
 mio_windows
 :
 :
@@ -300,6 +311,7 @@ from_raw_handle
 (
 handle
 )
+}
 ;
 Ok
 (
@@ -2153,6 +2165,8 @@ Self
 let
 named_pipe
 =
+unsafe
+{
 mio_windows
 :
 :
@@ -2163,6 +2177,7 @@ from_raw_handle
 (
 handle
 )
+}
 ;
 Ok
 (
@@ -4518,6 +4533,8 @@ mode
 let
 h
 =
+unsafe
+{
 windows_sys
 :
 :
@@ -4548,6 +4565,7 @@ as
 mut
 _
 )
+}
 ;
 if
 h
@@ -4573,6 +4591,8 @@ last_os_error
 )
 ;
 }
+unsafe
+{
 NamedPipeServer
 :
 :
@@ -4582,6 +4602,7 @@ h
 as
 _
 )
+}
 }
 }
 #
@@ -4875,6 +4896,8 @@ access
 let
 h
 =
+unsafe
+{
 windows_sys
 :
 :
@@ -4901,8 +4924,11 @@ self
 get_flags
 (
 )
-0
+null_mut
+(
 )
+)
+}
 ;
 if
 h
@@ -4952,6 +4978,8 @@ PIPE_READMODE_MESSAGE
 let
 result
 =
+unsafe
+{
 windows_sys
 :
 :
@@ -4973,6 +5001,7 @@ null_mut
 (
 )
 )
+}
 ;
 if
 result
@@ -4996,6 +5025,8 @@ last_os_error
 ;
 }
 }
+unsafe
+{
 NamedPipeClient
 :
 :
@@ -5005,6 +5036,7 @@ h
 as
 _
 )
+}
 }
 fn
 get_flags
@@ -5233,6 +5265,8 @@ max_instances
 let
 result
 =
+unsafe
+{
 windows_sys
 :
 :
@@ -5254,6 +5288,7 @@ in_buffer_size
 mut
 max_instances
 )
+}
 ;
 if
 result

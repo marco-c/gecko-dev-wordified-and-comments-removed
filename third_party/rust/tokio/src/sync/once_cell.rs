@@ -702,6 +702,8 @@ self
 &
 T
 {
+unsafe
+{
 &
 *
 self
@@ -723,6 +725,7 @@ as_ptr
 )
 )
 }
+}
 unsafe
 fn
 get_unchecked_mut
@@ -736,6 +739,8 @@ self
 &
 mut
 T
+{
+unsafe
 {
 &
 mut
@@ -758,6 +763,7 @@ as_mut_ptr
 (
 )
 )
+}
 }
 fn
 set_value

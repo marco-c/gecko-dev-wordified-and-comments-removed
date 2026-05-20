@@ -3,13 +3,6 @@ pub
 crate
 )
 mod
-cpu_set
-;
-pub
-(
-crate
-)
-mod
 syscalls
 ;
 pub

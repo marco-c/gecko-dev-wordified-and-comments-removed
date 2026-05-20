@@ -900,7 +900,15 @@ target_process
 target_handle_to_close
 as
 _
-0
+std
+:
+:
+ptr
+:
+:
+null_mut
+(
+)
 std
 :
 :

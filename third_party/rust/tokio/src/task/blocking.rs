@@ -498,7 +498,7 @@ limit
 the
 number
 of
-computation
+computations
 executed
 in
 parallel

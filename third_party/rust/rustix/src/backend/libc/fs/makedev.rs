@@ -1,4 +1,12 @@
 #
+!
+[
+allow
+(
+unused_unsafe
+)
+]
+#
 [
 cfg
 (

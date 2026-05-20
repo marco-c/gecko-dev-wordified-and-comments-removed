@@ -162,7 +162,7 @@ u32
 {
 ret_c_uint
 (
-syscall_readonly
+syscall
 !
 (
 __NR_io_uring_register
@@ -227,7 +227,7 @@ u32
 {
 ret_c_uint
 (
-syscall_readonly
+syscall
 !
 (
 __NR_io_uring_register

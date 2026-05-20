@@ -16,6 +16,8 @@ ugid
 :
 {
 Gid
+RawGid
+RawUid
 Uid
 }
 ;
@@ -64,6 +66,8 @@ c
 getuid
 (
 )
+as
+RawUid
 ;
 Uid
 :
@@ -119,6 +123,8 @@ c
 geteuid
 (
 )
+as
+RawUid
 ;
 Uid
 :
@@ -174,6 +180,8 @@ c
 getgid
 (
 )
+as
+RawGid
 ;
 Gid
 :
@@ -229,6 +237,8 @@ c
 getegid
 (
 )
+as
+RawGid
 ;
 Gid
 :

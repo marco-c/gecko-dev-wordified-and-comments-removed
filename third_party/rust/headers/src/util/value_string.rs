@@ -34,6 +34,12 @@ super
 :
 IterExt
 ;
+use
+crate
+:
+:
+Error
+;
 #
 [
 derive
@@ -77,8 +83,6 @@ HeaderValue
 Result
 <
 Self
-:
-:
 Error
 >
 {
@@ -111,8 +115,6 @@ else
 {
 Err
 (
-:
-:
 Error
 :
 :
@@ -178,6 +180,7 @@ pub
 (
 crate
 )
+const
 fn
 from_static
 (
@@ -357,8 +360,6 @@ I
 Result
 <
 Self
-:
-:
 Error
 >
 where
@@ -394,8 +395,6 @@ unwrap_or_else
 |
 Err
 (
-:
-:
 Error
 :
 :

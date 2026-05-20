@@ -2,5 +2,13 @@ pub
 type
 HCS_CALLBACK
 =
-isize
+*
+mut
+core
+:
+:
+ffi
+:
+:
+c_void
 ;

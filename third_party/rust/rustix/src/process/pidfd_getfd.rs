@@ -21,6 +21,7 @@ crate
 :
 {
 backend
+ffi
 io
 }
 ;
@@ -82,10 +83,7 @@ pub
 struct
 PidfdGetfdFlags
 :
-backend
-:
-:
-c
+ffi
 :
 :
 c_uint

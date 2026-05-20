@@ -152,7 +152,11 @@ synced
 [
 cfg
 (
-tokio_taskdump
+feature
+=
+"
+taskdump
+"
 )
 ]
 pub

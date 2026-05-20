@@ -9,6 +9,11 @@ any
 target_os
 =
 "
+cygwin
+"
+target_os
+=
+"
 espidf
 "
 target_os
@@ -91,6 +96,11 @@ not
 (
 any
 (
+target_os
+=
+"
+cygwin
+"
 target_os
 =
 "

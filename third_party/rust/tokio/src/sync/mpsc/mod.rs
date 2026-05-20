@@ -96,6 +96,10 @@ loom
 )
 )
 ]
+pub
+(
+crate
+)
 const
 BLOCK_CAP
 :
@@ -124,6 +128,10 @@ loom
 )
 )
 ]
+pub
+(
+crate
+)
 const
 BLOCK_CAP
 :
@@ -138,6 +146,10 @@ cfg
 loom
 )
 ]
+pub
+(
+crate
+)
 const
 BLOCK_CAP
 :

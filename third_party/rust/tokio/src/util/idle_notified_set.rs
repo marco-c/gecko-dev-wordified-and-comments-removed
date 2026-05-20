@@ -1424,6 +1424,8 @@ with_mut
 ptr
 |
 {
+unsafe
+{
 *
 ptr
 =
@@ -1432,6 +1434,7 @@ List
 :
 Neither
 ;
+}
 }
 )
 ;
@@ -2086,6 +2089,8 @@ T
 >
 >
 {
+unsafe
+{
 Arc
 :
 :
@@ -2097,6 +2102,7 @@ as_ptr
 (
 )
 )
+}
 }
 unsafe
 fn
@@ -2128,6 +2134,8 @@ T
 >
 >
 {
+unsafe
+{
 ListEntry
 :
 :
@@ -2135,6 +2143,7 @@ addr_of_pointers
 (
 target
 )
+}
 }
 }
 #

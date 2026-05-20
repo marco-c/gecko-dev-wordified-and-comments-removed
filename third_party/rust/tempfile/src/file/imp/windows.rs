@@ -364,6 +364,9 @@ NUM_RAND_CHARS
 path
 |
 {
+let
+f
+=
 OpenOptions
 :
 :
@@ -401,6 +404,12 @@ FILE_FLAG_DELETE_ON_CLOSE
 open
 (
 path
+)
+?
+;
+Ok
+(
+f
 )
 }
 )
