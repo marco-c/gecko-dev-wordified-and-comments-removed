@@ -9093,6 +9093,12 @@ if
 backspace
 )
 {
+urlbar
+.
+focus
+(
+)
+;
 let
 urlbarValue
 =
