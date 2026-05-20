@@ -1721,7 +1721,6 @@ start
 .
 line
 <
-=
 line
 |
 |
@@ -1755,7 +1754,6 @@ end
 .
 line
 >
-=
 line
 |
 |

@@ -176,7 +176,7 @@ end
 line
 :
 8
-colum
+column
 :
 1
 }
