@@ -244,7 +244,7 @@ Click
 (
 MainMenuSelectors
 .
-DOWLOADS_BUTTON
+DOWNLOADS_BUTTON
 )
 )
 )
