@@ -3668,15 +3668,6 @@ bufferHandle
 mGL
 -
 >
-fPixelStorei
-(
-LOCAL_GL_PACK_ALIGNMENT
-1
-)
-;
-mGL
--
->
 fBufferData
 (
 LOCAL_GL_PIXEL_PACK_BUFFER
