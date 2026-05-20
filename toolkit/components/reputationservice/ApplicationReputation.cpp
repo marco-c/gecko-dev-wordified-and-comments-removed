@@ -1297,6 +1297,10 @@ workflow
 "
 "
 .
+wsb
+"
+"
+.
 xar
 "
 "

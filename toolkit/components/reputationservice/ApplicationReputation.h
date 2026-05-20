@@ -83,7 +83,7 @@ char
 const
 kBinaryFileExtensions
 [
-182
+183
 ]
 ;
 #
@@ -95,7 +95,7 @@ char
 const
 kBinaryFileExtensions
 [
-181
+182
 ]
 ;
 #
