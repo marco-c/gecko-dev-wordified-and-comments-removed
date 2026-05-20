@@ -4237,9 +4237,7 @@ arguments
 x64
 '
 '
-1
-.
-8
+2
 '
 ]
 toolchain
@@ -4337,9 +4335,7 @@ arguments
 x86
 '
 '
-1
-.
-8
+2
 '
 ]
 toolchain
@@ -4439,9 +4435,7 @@ arguments
 arm64
 '
 '
-1
-.
-8
+2
 '
 ]
 toolchain
