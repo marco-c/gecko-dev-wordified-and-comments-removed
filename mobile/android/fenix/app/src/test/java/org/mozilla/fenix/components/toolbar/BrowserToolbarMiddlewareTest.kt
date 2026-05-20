@@ -9039,6 +9039,11 @@ ShortcutType
 SHARE
 .
 value
+settings
+.
+nativeShareSheetEnabled
+=
+false
 every
 {
 navController
