@@ -535,7 +535,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_tab
+mozac_ic_tab_24
 tint
 =
 iconColor
