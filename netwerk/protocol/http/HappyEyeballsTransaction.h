@@ -265,6 +265,9 @@ override
 {
 return
 mZeroRttHandle
+&
+&
+mZeroRttHandle
 -
 >
 Do0RTT
@@ -286,6 +289,8 @@ override
 {
 return
 mZeroRttHandle
+?
+mZeroRttHandle
 -
 >
 Finish0RTT
@@ -294,6 +299,8 @@ this
 aRestart
 aAlpnChanged
 )
+:
+NS_OK
 ;
 }
 Maybe

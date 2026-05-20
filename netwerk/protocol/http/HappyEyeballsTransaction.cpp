@@ -1007,6 +1007,10 @@ SetConnection
 nullptr
 )
 ;
+mZeroRttHandle
+=
+nullptr
+;
 break
 ;
 }
