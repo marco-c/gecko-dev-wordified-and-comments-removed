@@ -4187,10 +4187,7 @@ code
 return
 7
 *
-sizeof
-(
-uint32_t
-)
+kInstrSize
 ;
 }
 CodeOffset
