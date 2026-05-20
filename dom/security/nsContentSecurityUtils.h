@@ -320,15 +320,6 @@ aFilename
 )
 ;
 static
-nsresult
-GetVeryFirstUnexpectedScriptFilename
-(
-nsACString
-&
-aFilename
-)
-;
-static
 void
 LogMessageToConsole
 (
