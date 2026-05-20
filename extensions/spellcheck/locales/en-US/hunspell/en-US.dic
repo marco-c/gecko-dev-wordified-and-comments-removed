@@ -1,4 +1,4 @@
-51625
+51702
 0
 /
 nm
@@ -39147,6 +39147,9 @@ acid
 /
 SY
 acidic
+acidification
+/
+M
 acidify
 /
 GNDS
@@ -40213,6 +40216,8 @@ aigrette
 /
 S
 aikido
+/
+M
 ail
 /
 SDLG
@@ -40278,6 +40283,9 @@ airfield
 SM
 airflow
 airfoil
+/
+SM
+airframe
 /
 SM
 airfreight
@@ -40700,6 +40708,8 @@ aloof
 /
 PY
 alopecia
+/
+M
 aloud
 alp
 /
@@ -41647,6 +41657,7 @@ anthracite
 anthrax
 anthropocentric
 anthropogenic
+anthropogenically
 anthropoid
 /
 MS
@@ -41808,6 +41819,9 @@ antipoverty
 antiproton
 /
 MS
+antipsychotic
+/
+SM
 antiquarian
 /
 SM
@@ -41822,6 +41836,9 @@ antique
 /
 DSMG
 antiquity
+/
+SM
+antiretroviral
 /
 SM
 antirrhinum
@@ -41985,7 +42002,7 @@ aplenty
 aplomb
 apnea
 /
-S
+MS
 apocalypse
 /
 S
@@ -43531,7 +43548,7 @@ audio
 MS
 audiobook
 /
-S
+SM
 audiological
 audiologist
 /
@@ -44105,7 +44122,9 @@ backfire
 GDS
 backflip
 /
-S
+MS
+backflipped
+backflipping
 backflow
 backgammon
 background
@@ -46465,7 +46484,7 @@ MS
 biohacking
 biohazard
 /
-S
+SM
 bioinformatic
 /
 MS
@@ -46492,14 +46511,15 @@ biomass
 S
 biome
 /
-S
+MS
 biomechanical
 biomechanics
 biomedical
 biomedicine
 biometric
 /
-S
+MS
+biometrically
 bionic
 /
 S
@@ -47083,6 +47103,8 @@ blogger
 MS
 blogging
 blogosphere
+/
+M
 blogroll
 /
 SM
@@ -51442,6 +51464,10 @@ celestial
 /
 Y
 celiac
+/
+MS
+celiacs
+'
 celibacy
 celibate
 /
@@ -52099,6 +52125,9 @@ S
 chat
 /
 SM
+chatbot
+/
+SM
 chateau
 /
 M
@@ -52230,6 +52259,9 @@ cheerlead
 /
 RSZG
 cheerleader
+/
+M
+cheerleading
 /
 M
 cheerled
@@ -52543,7 +52575,7 @@ chippy
 S
 chipset
 /
-S
+MS
 chiral
 chirality
 chirography
@@ -53145,7 +53177,7 @@ city
 SM
 cityscape
 /
-S
+MS
 citywide
 civet
 /
@@ -53183,6 +53215,8 @@ clad
 U
 cladding
 clade
+/
+MS
 claim
 /
 CKEAGDS
@@ -54144,6 +54178,11 @@ SMDG
 cofound
 /
 DRSZG
+cofounder
+/
+M
+cofounders
+'
 cofunction
 /
 MS
@@ -56831,6 +56870,8 @@ GD
 cornerback
 /
 SM
+cornerbacks
+'
 cornerstone
 /
 S
@@ -57372,6 +57413,8 @@ countertenor
 /
 MS
 counterterrorism
+/
+M
 countertop
 /
 S
@@ -58973,7 +59016,10 @@ cyberattack
 SM
 cyberbully
 /
-S
+GS
+cyberbullying
+/
+M
 cybercafe
 /
 S
@@ -58981,6 +59027,8 @@ cybercaf
 /
 S
 cybercrime
+/
+SM
 cybernetic
 /
 S
@@ -59961,6 +60009,7 @@ deepfreeze
 S
 deepfroze
 deepfrozen
+deepwater
 deer
 /
 M
@@ -60038,7 +60087,11 @@ defenselessness
 /
 M
 defenseman
+/
+M
 defensemen
+/
+M
 defensible
 /
 I
@@ -61943,6 +61996,9 @@ disembodiment
 disembowel
 /
 SDLG
+disempowerment
+/
+M
 disfigurement
 /
 S
@@ -62560,6 +62616,9 @@ S
 documented
 /
 U
+docuseries
+/
+M
 dodder
 /
 SDG
@@ -62569,6 +62628,8 @@ dodge
 /
 DRSZG
 dodgeball
+/
+MS
 dodgem
 /
 S
@@ -63197,6 +63258,9 @@ s
 draft
 /
 ASDG
+drafted
+/
+U
 draftee
 /
 SM
@@ -63309,7 +63373,7 @@ drawbridge
 S
 drawdown
 /
-S
+MS
 drawer
 /
 M
@@ -63525,6 +63589,9 @@ dropping
 S
 dropsical
 dropsy
+drosophila
+/
+M
 dross
 drought
 /
@@ -63996,6 +64063,9 @@ S
 dystopian
 /
 S
+dystrophy
+/
+SM
 dz
 d
 bridement
@@ -65149,7 +65219,7 @@ emotive
 Y
 empanada
 /
-S
+MS
 empanel
 /
 GDS
@@ -65195,6 +65265,8 @@ employ
 /
 ADGLS
 employability
+/
+M
 employable
 /
 U
@@ -65213,8 +65285,7 @@ emporium
 SM
 empower
 /
-ESDG
-empowerment
+ESDGL
 empress
 /
 MS
@@ -65967,6 +66038,8 @@ S
 epidural
 /
 S
+epigenetic
+epigenetically
 epiglottis
 /
 S
@@ -67618,7 +67691,7 @@ eyepiece
 MS
 eyeshadow
 /
-S
+SM
 eyesight
 eyesore
 /
@@ -68470,7 +68543,9 @@ feminize
 DSG
 femme
 /
-S
+SM
+femmes
+'
 femoral
 femur
 /
@@ -68921,6 +68996,8 @@ filmmaker
 /
 SM
 filmmaking
+/
+M
 filmography
 /
 S
@@ -70080,6 +70157,8 @@ foist
 SDG
 fol
 folate
+/
+M
 fold
 '
 s
@@ -71320,6 +71399,11 @@ frontispiece
 S
 frontline
 frontman
+/
+M
+frontmen
+/
+M
 frontrunner
 /
 S
@@ -71738,6 +71822,9 @@ futility
 futon
 /
 S
+futsal
+/
+M
 future
 /
 S
@@ -72359,6 +72446,8 @@ gelatin
 M
 gelatinous
 gelato
+/
+MS
 gelcap
 /
 S
@@ -72501,7 +72590,7 @@ genomic
 SM
 genotype
 /
-S
+MS
 genre
 /
 SM
@@ -73199,6 +73288,9 @@ S
 glut
 /
 NS
+glutamate
+/
+MS
 glute
 /
 S
@@ -73225,6 +73317,9 @@ glycerol
 glycogen
 glycol
 glyph
+glyphosate
+/
+M
 glyphs
 gm
 gnarl
@@ -73873,6 +73968,9 @@ SM
 graph
 /
 DG
+graphene
+/
+M
 graphic
 /
 MS
@@ -74858,6 +74956,9 @@ SM
 hack
 /
 MDRZGS
+hackathon
+/
+MS
 hacker
 /
 M
@@ -75859,7 +75960,7 @@ headship
 S
 headshot
 /
-S
+SM
 headshrinker
 /
 S
@@ -76247,6 +76348,9 @@ MS
 hematology
 /
 M
+hematoma
+/
+MS
 heme
 hemiplegia
 hemisphere
@@ -76807,6 +76911,11 @@ hitmaker
 /
 S
 hitman
+/
+M
+hitmen
+/
+M
 hitter
 /
 SM
@@ -77079,7 +77188,7 @@ homeroom
 S
 homeschool
 /
-SZGDR
+SZGMDR
 homeschooler
 /
 M
@@ -77602,7 +77711,7 @@ hotshot
 MS
 hotspot
 /
-S
+MS
 hotted
 hotter
 hottest
@@ -78205,6 +78314,9 @@ hyperbola
 S
 hyperbole
 hyperbolic
+hypercar
+/
+MS
 hypercritical
 /
 Y
@@ -78308,6 +78420,9 @@ hypothetical
 YS
 hypothyroid
 hypothyroidism
+hypoxia
+/
+SM
 hyssop
 hysterectomy
 /
@@ -78820,6 +78935,9 @@ immunologist
 /
 MS
 immunology
+immunotherapy
+/
+SM
 immure
 /
 DSG
@@ -79901,6 +80019,8 @@ U
 influencer
 /
 M
+influencers
+'
 influential
 /
 Y
@@ -79909,6 +80029,9 @@ influx
 /
 S
 info
+infographic
+/
+MS
 infomercial
 /
 S
@@ -80703,6 +80826,8 @@ interfile
 GDS
 intergalactic
 intergenerational
+/
+Y
 intergovernmental
 intergroup
 interim
@@ -81848,6 +81973,9 @@ jetlag
 jetliner
 /
 SM
+jetpack
+/
+MS
 jetport
 /
 S
@@ -82440,6 +82568,9 @@ S
 kahuna
 /
 S
+kaiju
+/
+SM
 kaiser
 /
 MS
@@ -82480,6 +82611,9 @@ kart
 /
 S
 katakana
+katana
+/
+MS
 katydid
 /
 SM
@@ -82577,6 +82711,8 @@ kestrel
 /
 MS
 ketamine
+/
+M
 ketch
 /
 S
@@ -82777,6 +82913,8 @@ kilt
 /
 DRS
 kimchi
+/
+M
 kimono
 /
 MS
@@ -83133,6 +83271,11 @@ kph
 kraal
 /
 S
+kraken
+/
+MS
+krakens
+'
 kraut
 /
 SM
@@ -83337,7 +83480,7 @@ MS
 lakefront
 lakeshore
 /
-S
+SM
 lakeside
 lallygag
 /
@@ -84478,6 +84621,8 @@ libertarian
 /
 SM
 libertarianism
+/
+MS
 libertine
 /
 MS
@@ -84538,6 +84683,8 @@ lid
 /
 SM
 lidar
+/
+SM
 lidded
 lidless
 lido
@@ -84669,7 +84816,7 @@ MDS
 lightproof
 lightsaber
 /
-S
+MS
 lightship
 /
 S
@@ -84944,6 +85091,9 @@ SM
 lipid
 /
 S
+lipoprotein
+/
+SM
 liposuction
 lipped
 lippy
@@ -85279,7 +85429,7 @@ lockbox
 S
 lockdown
 /
-S
+MS
 locket
 /
 S
@@ -86133,6 +86283,7 @@ S
 macrophages
 macroscopic
 macroscopically
+macular
 mad
 /
 SYP
@@ -87177,6 +87328,8 @@ masa
 /
 S
 masala
+/
+MS
 masc
 mascara
 /
@@ -87312,6 +87465,9 @@ SM
 match
 /
 GMDS
+matcha
+/
+M
 matchbook
 /
 S
@@ -87334,7 +87490,7 @@ matchstick
 S
 matchup
 /
-S
+SM
 matchwood
 mate
 /
@@ -88581,6 +88737,8 @@ midpoint
 /
 S
 midrange
+/
+MS
 midrib
 /
 S
@@ -88588,6 +88746,8 @@ midriff
 /
 S
 midseason
+/
+SM
 midsection
 /
 S
@@ -89550,7 +89710,7 @@ mixer
 SM
 mixtape
 /
-S
+SM
 mixture
 /
 SM
@@ -91209,6 +91369,9 @@ DSG
 mythology
 /
 SM
+mythos
+/
+MS
 myths
 myxomatosis
 m
@@ -91279,6 +91442,9 @@ naivety
 naked
 /
 PY
+namaste
+/
+M
 name
 '
 s
@@ -91317,6 +91483,9 @@ SM
 nanometer
 /
 SM
+nanoscale
+/
+M
 nanosecond
 /
 S
@@ -91767,9 +91936,13 @@ SM
 neocortex
 neodymium
 neoliberal
+/
+MS
 neoliberalism
 /
-M
+SM
+neoliberals
+'
 neolithic
 neologism
 /
@@ -91881,6 +92054,7 @@ S
 neuritis
 neurocysticercoses
 neurocysticercosis
+neurodegenerative
 neurodivergent
 neurodiverse
 neurodiversity
@@ -92403,7 +92577,7 @@ S
 nohow
 noir
 /
-S
+MS
 noise
 /
 DSG
@@ -93491,6 +93665,9 @@ MS
 objurgate
 /
 XGNDS
+oblast
+/
+MS
 oblate
 /
 NX
@@ -94090,7 +94267,7 @@ PY
 oneself
 onesie
 /
-S
+MS
 onetime
 ongoing
 onion
@@ -95642,6 +95819,9 @@ oxtail
 /
 SM
 oxyacetylene
+oxycodone
+/
+M
 oxygen
 oxygenate
 /
@@ -95650,6 +95830,9 @@ oxymora
 oxymoron
 oxymoronic
 oxymoronically
+oxytocin
+/
+M
 oy
 oyes
 oyez
@@ -96070,6 +96253,8 @@ panicked
 panicking
 panicky
 panini
+/
+MS
 panko
 panned
 pannier
@@ -96671,6 +96856,9 @@ S
 passbook
 /
 S
+passcode
+/
+MS
 passe
 /
 DRSBXZGNV
@@ -97332,6 +97520,8 @@ pelmet
 /
 S
 peloton
+/
+MS
 pelt
 /
 MDSG
@@ -97505,6 +97695,9 @@ MGDS
 pep
 /
 S
+peplum
+/
+MS
 pepped
 pepper
 /
@@ -99376,7 +99569,9 @@ playlist
 S
 playmaker
 /
-S
+MS
+playmakers
+'
 playmate
 /
 MS
@@ -99863,6 +100058,8 @@ policymaker
 /
 MS
 policymaking
+/
+M
 polio
 /
 MS
@@ -100442,7 +100639,7 @@ post
 partum
 post
 /
-ZGMDRSJ
+AGMDS
 postage
 postal
 postbag
@@ -100468,7 +100665,7 @@ MS
 postdoctoral
 poster
 /
-M
+SM
 posterior
 /
 S
@@ -100496,6 +100693,9 @@ postillion
 /
 MS
 postindustrial
+posting
+/
+S
 postlude
 /
 S
@@ -100716,6 +100916,9 @@ SM
 powerless
 /
 PY
+powerlifting
+/
+M
 powertrain
 powwow
 /
@@ -100946,6 +101149,9 @@ precursory
 predate
 /
 XDSGN
+predation
+'
+s
 predation
 /
 CS
@@ -101206,6 +101412,9 @@ preoperative
 preordain
 /
 GDS
+preorder
+/
+SGMD
 preowned
 prep
 /
@@ -101778,6 +101987,9 @@ SM
 probe
 /
 MGDSBJ
+probiotic
+/
+SM
 probity
 problem
 /
@@ -102668,6 +102880,8 @@ psychos
 S
 psychosis
 psychosocial
+/
+Y
 psychosomatic
 psychotherapist
 /
@@ -103098,6 +103312,8 @@ push
 /
 ZGMDRS
 pushback
+/
+SM
 pushbike
 /
 S
@@ -104516,6 +104732,9 @@ reassertion
 reassuring
 /
 Y
+rebalance
+/
+M
 rebel
 /
 MS
@@ -104680,6 +104899,9 @@ recognized
 /
 U
 recoilless
+recombinant
+/
+SM
 recombination
 recommend
 /
@@ -104883,7 +105105,9 @@ GD
 redivide
 /
 GDS
-redlining
+redline
+/
+DSMG
 redneck
 /
 SM
@@ -104906,6 +105130,10 @@ redshift
 /
 DGS
 redshirt
+/
+MDGS
+redshirts
+'
 redskin
 /
 S
@@ -107531,6 +107759,9 @@ Y
 rule
 /
 MZGJDRS
+rulebook
+/
+SM
 ruler
 /
 M
@@ -108290,6 +108521,8 @@ sashay
 /
 SGD
 sashimi
+/
+M
 sass
 /
 GDS
@@ -110051,6 +110284,10 @@ sense
 /
 GDS
 sensei
+/
+SM
+senseis
+'
 senseless
 /
 PY
@@ -111244,6 +111481,11 @@ S
 showroom
 /
 MS
+showrunner
+/
+SM
+showrunners
+'
 showstopper
 /
 S
@@ -112681,6 +112923,8 @@ smack
 /
 SDRZG
 smackdown
+/
+MS
 small
 /
 SRTP
@@ -113288,6 +113532,7 @@ sociopath
 /
 M
 sociopathic
+sociopathically
 sociopaths
 sociopolitical
 sock
@@ -115272,6 +115517,8 @@ TR
 starship
 /
 SM
+starships
+'
 starstruck
 start
 '
@@ -116010,7 +116257,7 @@ storybook
 S
 storyline
 /
-S
+SM
 storyteller
 /
 MS
@@ -116201,6 +116448,9 @@ streetwalker
 /
 SM
 streetwalking
+streetwear
+/
+M
 streetwise
 strength
 strengthen
@@ -116964,7 +117214,7 @@ subtweet
 S
 subtype
 /
-S
+SM
 suburb
 /
 MS
@@ -117444,6 +117694,9 @@ superimpose
 /
 GDS
 superimposition
+superintelligence
+/
+M
 superintend
 /
 DSG
@@ -117851,7 +118104,7 @@ sutler
 MS
 sutra
 /
-S
+SM
 suttee
 suture
 /
@@ -118620,6 +118873,9 @@ JZGRS
 takeaway
 /
 S
+takedown
+/
+SM
 taken
 /
 A
@@ -119358,6 +119614,8 @@ telemarketer
 SM
 telemarketing
 telemedicine
+/
+M
 telemeter
 /
 S
@@ -122768,6 +123026,11 @@ tryptophan
 tryst
 /
 SMDG
+tsar
+/
+MS
+tsars
+'
 tsetse
 /
 MS
@@ -124337,6 +124600,9 @@ upkeep
 upland
 /
 S
+uplevel
+/
+GSD
 uplift
 /
 JSDG
@@ -126580,7 +126846,7 @@ wastrel
 SM
 watch
 /
-BZGMDRS
+AGMDS
 watchable
 /
 U
@@ -126592,7 +126858,7 @@ watchdog
 SM
 watcher
 /
-M
+MS
 watchful
 /
 YP
@@ -126890,6 +127156,9 @@ S
 webcast
 /
 SMG
+webcomic
+/
+SM
 webdesign
 /
 MS
@@ -127847,7 +128116,11 @@ M
 wingless
 winglike
 wingman
+/
+M
 wingmen
+/
+M
 wingnut
 /
 S
@@ -127909,6 +128182,9 @@ RT
 wipe
 /
 ZGDRS
+wipeout
+/
+MS
 wiper
 /
 M
