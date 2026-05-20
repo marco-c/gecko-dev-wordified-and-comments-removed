@@ -386,7 +386,7 @@ bool
 GetOutputFromMonitor
 (
 HMONITOR
-monitor
+aMonitor
 RefPtr
 <
 IDXGIOutput
