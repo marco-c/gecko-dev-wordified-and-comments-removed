@@ -600,14 +600,6 @@ nsMenuX
 aMenu
 )
 ;
-NSInteger
-CalculateNativeInsertionPoint
-(
-nsMenuX
-*
-aChild
-)
-;
 RefPtr
 <
 nsIContent
