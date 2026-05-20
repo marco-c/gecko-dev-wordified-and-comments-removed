@@ -14787,7 +14787,7 @@ checked
 )
 ;
 }
-const
+var
 Win10TabletModeUpdater
 =
 {
