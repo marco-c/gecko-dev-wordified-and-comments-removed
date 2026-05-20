@@ -191,7 +191,15 @@ unsafe
 CreateIoCompletionPort
 (
 INVALID_HANDLE_VALUE
-0
+std
+:
+:
+ptr
+:
+:
+null_mut
+(
+)
 0
 CONCURRENT_THREADS
 )
