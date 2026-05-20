@@ -11,7 +11,7 @@ jit
 /
 riscv64
 /
-extension
+base
 /
 base
 -
