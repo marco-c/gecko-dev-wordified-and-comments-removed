@@ -1236,7 +1236,7 @@ mirror
 *
 kind
 .
-*
+-
 always
 :
 A
@@ -1270,7 +1270,7 @@ kind
 is
 common
 .
-*
+-
 once
 :
 A
@@ -1316,7 +1316,7 @@ for
 graphics
 prefs
 .
-*
+-
 never
 :
 No
@@ -1730,7 +1730,9 @@ it
 matches
 a
 denylist
-_or_
+*
+or
+*
 it
 is
 a
@@ -3066,6 +3068,7 @@ bug
 90440
 ]
 (
+<
 https
 :
 /
@@ -3083,6 +3086,7 @@ cgi
 id
 =
 90440
+>
 )
 for
 a
@@ -3829,7 +3833,9 @@ Sanitized
 preferences
 (
 matching
-_either_
+*
+either
+*
 the
 denylist
 of
