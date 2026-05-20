@@ -181,13 +181,6 @@ sys
 mjs
 "
 "
-UptakeTelemetry
-.
-sys
-.
-mjs
-"
-"
 Utils
 .
 sys

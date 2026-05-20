@@ -559,7 +559,7 @@ yaml
 "
 services
 /
-settings
+common
 /
 metrics
 .
