@@ -10747,6 +10747,8 @@ didn
 '
 t
 succeed
+/
+/
 we
 '
 re
@@ -10754,7 +10756,7 @@ logged
 out
 (
 per
-nsIPK11Token
+nsIPKCS11Token
 .
 idl
 )
