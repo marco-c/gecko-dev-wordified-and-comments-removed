@@ -668,6 +668,13 @@ false
 )
 {
 }
+static
+constexpr
+size_t
+kElementQueueInlineSize
+=
+3
+;
 typedef
 AutoTArray
 <
@@ -675,7 +682,7 @@ RefPtr
 <
 Element
 >
-3
+kElementQueueInlineSize
 >
 ElementQueue
 ;
@@ -856,6 +863,12 @@ ElementQueue
 8
 >
 mReactionsStack
+;
+UniquePtr
+<
+ElementQueue
+>
+mCachedElementQueue
 ;
 ElementQueue
 mBackupQueue
