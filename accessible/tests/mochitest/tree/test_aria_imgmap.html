@@ -171,6 +171,8 @@ src
 .
 .
 /
+promisified
+-
 events
 .
 js
@@ -225,11 +227,15 @@ doPreTest
 (
 )
 {
-waitForImageMap
+waitForImageMapInContent
 (
 "
 imagemap
 "
+)
+.
+then
+(
 doTest
 )
 ;
