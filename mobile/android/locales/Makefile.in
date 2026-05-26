@@ -147,11 +147,9 @@ langpack
 (
 AB_CD
 )
-firefox
-.
-mozilla
-.
-org
+(
+MOZ_LANGPACK_EID_HOST
+)
 include
 (
 topsrcdir
