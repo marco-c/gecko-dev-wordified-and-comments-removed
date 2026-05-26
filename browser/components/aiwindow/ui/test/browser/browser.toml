@@ -94,6 +94,11 @@ test_chat_assistant_error
 mjs
 "
 "
+test_kit_mention_page
+.
+html
+"
+"
 test_memories_icon_button_page
 .
 html
@@ -305,6 +310,13 @@ js
 [
 "
 browser_aiwindow_integration
+.
+js
+"
+]
+[
+"
+browser_aiwindow_kit_mention
 .
 js
 "
