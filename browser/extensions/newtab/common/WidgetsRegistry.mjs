@@ -1501,7 +1501,7 @@ sportsWidget
 telemetryName
 :
 "
-sports_widget
+sports
 "
 order
 :

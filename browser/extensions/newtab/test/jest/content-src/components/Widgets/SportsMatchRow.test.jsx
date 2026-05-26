@@ -2655,7 +2655,7 @@ data
 widget_name
 :
 "
-sports_widget
+sports
 "
 widget_source
 :

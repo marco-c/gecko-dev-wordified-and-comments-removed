@@ -362,7 +362,7 @@ WIDGET_SPORTS
 widgetName
 =
 "
-sports_widget
+sports
 "
 ;
 break
