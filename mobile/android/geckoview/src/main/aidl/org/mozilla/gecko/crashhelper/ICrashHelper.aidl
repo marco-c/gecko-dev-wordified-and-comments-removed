@@ -73,16 +73,13 @@ start
 (
 in
 int
-mainProcessPid
+browserPid
 in
 ParcelFileDescriptor
 breakpadFd
 in
 String
 minidumpPath
-in
-ParcelFileDescriptor
-listenFd
 in
 ParcelFileDescriptor
 serverFd
