@@ -319,6 +319,7 @@ videoRef
 autoFocus
 )
 {
+return
 Player
 .
 init
@@ -1426,6 +1427,11 @@ this
 _isInitialized
 =
 true
+;
+return
+this
+.
+actor
 ;
 }
 uninit
