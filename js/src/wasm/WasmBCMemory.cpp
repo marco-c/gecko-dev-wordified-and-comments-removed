@@ -3055,7 +3055,6 @@ wasmLoadI64
 access
 memoryBase
 ptr
-ptr
 dest
 .
 i64
@@ -3073,7 +3072,6 @@ wasmLoad
 *
 access
 memoryBase
-ptr
 ptr
 dest
 .
@@ -4084,7 +4082,6 @@ i64
 )
 memoryBase
 ptr
-ptr
 )
 ;
 }
@@ -4102,7 +4099,6 @@ any
 (
 )
 memoryBase
-ptr
 ptr
 )
 ;
