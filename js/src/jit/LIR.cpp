@@ -765,7 +765,7 @@ i
 }
 }
 return
-0
+nullptr
 ;
 }
 LMoveGroup

@@ -214,6 +214,9 @@ reg
 std
 :
 :
+ranges
+:
+:
 size
 (
 names
@@ -329,6 +332,9 @@ reg
 )
 <
 std
+:
+:
+ranges
 :
 :
 size
@@ -447,6 +453,9 @@ reg
 std
 :
 :
+ranges
+:
+:
 size
 (
 names
@@ -561,6 +570,9 @@ reg
 std
 :
 :
+ranges
+:
+:
 size
 (
 names
@@ -673,6 +685,9 @@ reg
 )
 <
 std
+:
+:
+ranges
 :
 :
 size
@@ -838,6 +853,9 @@ index
 std
 :
 :
+ranges
+:
+:
 size
 (
 names
@@ -956,6 +974,9 @@ cc
 )
 <
 std
+:
+:
+ranges
 :
 :
 size

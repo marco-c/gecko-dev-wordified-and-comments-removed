@@ -1279,7 +1279,7 @@ ImmGCPtr
 :
 value
 (
-0
+nullptr
 )
 {
 }

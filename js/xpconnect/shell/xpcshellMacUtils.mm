@@ -12,7 +12,7 @@ NSAutoreleasePool
 *
 pool
 =
-NULL
+nullptr
 ;
 void
 InitAutoreleasePool

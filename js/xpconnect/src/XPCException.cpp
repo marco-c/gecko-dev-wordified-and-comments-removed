@@ -70,8 +70,8 @@ undef
 XPC_MSG_DEF
 {
 NS_OK
-0
-0
+nullptr
+nullptr
 }
 }
 ;

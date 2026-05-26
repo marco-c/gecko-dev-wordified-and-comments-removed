@@ -726,7 +726,8 @@ pack
 )
 ;
 return
-0
+{
+}
 ;
 }
 template
