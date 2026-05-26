@@ -93,7 +93,7 @@ status
 *
 aInstancePtr
 =
-0
+nullptr
 ;
 }
 if

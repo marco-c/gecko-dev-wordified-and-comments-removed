@@ -1203,7 +1203,7 @@ nsISupports
 *
 rawPtr
 =
-0
+nullptr
 ;
 nsresult
 status

@@ -1303,7 +1303,7 @@ NS_ERROR_NULL_POINTER
 *
 aInstancePtr
 =
-0
+nullptr
 ;
 }
 if

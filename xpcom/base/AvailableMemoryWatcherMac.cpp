@@ -1078,7 +1078,7 @@ timeChanged
 =
 time
 (
-NULL
+nullptr
 )
 ;
 nsAutoCString
@@ -1324,7 +1324,7 @@ memorystatus_vm_pressure_level
 level
 &
 size
-NULL
+nullptr
 0
 )
 =
@@ -1387,7 +1387,7 @@ memorystatus_level
 availPercent
 &
 size
-NULL
+nullptr
 0
 )
 =

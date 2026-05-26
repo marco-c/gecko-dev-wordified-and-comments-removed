@@ -938,7 +938,7 @@ mData
 :
 iterator
 (
-0
+nullptr
 )
 ;
 }
@@ -1003,7 +1003,7 @@ mLength
 :
 iterator
 (
-0
+nullptr
 )
 ;
 }

@@ -2439,7 +2439,7 @@ proc_cputype
 cpu_type
 &
 len
-NULL
+nullptr
 0
 )
 !

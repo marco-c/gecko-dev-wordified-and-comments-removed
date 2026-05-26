@@ -900,7 +900,7 @@ tcsm_available
 oldVal
 &
 oldValSize
-NULL
+nullptr
 0
 )
 ;
@@ -974,8 +974,8 @@ kern
 .
 tcsm_enable
 "
-NULL
-0
+nullptr
+nullptr
 &
 newVal
 sizeof
@@ -1038,7 +1038,7 @@ tcsm_enable
 oldVal
 &
 oldValSize
-NULL
+nullptr
 0
 )
 ;
@@ -1141,7 +1141,7 @@ physicalcpu_max
 oldVal
 &
 oldValSize
-NULL
+nullptr
 0
 )
 ;
