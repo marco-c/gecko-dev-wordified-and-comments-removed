@@ -846,6 +846,17 @@ aNative
 ;
 }
 }
+bool
+mayBeSwapped
+(
+)
+const
+override
+{
+return
+true
+;
+}
 protected
 :
 using

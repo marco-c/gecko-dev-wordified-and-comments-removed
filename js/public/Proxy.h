@@ -1001,6 +1001,17 @@ return
 false
 ;
 }
+virtual
+bool
+mayBeSwapped
+(
+)
+const
+{
+return
+false
+;
+}
 }
 ;
 class

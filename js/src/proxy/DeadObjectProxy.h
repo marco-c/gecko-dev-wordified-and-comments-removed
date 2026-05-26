@@ -519,6 +519,17 @@ toInt32
 DeadObjectProxyIsBackgroundFinalized
 ;
 }
+bool
+mayBeSwapped
+(
+)
+const
+override
+{
+return
+true
+;
+}
 static
 const
 DeadObjectProxy

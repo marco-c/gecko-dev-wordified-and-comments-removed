@@ -833,6 +833,17 @@ priv
 const
 override
 ;
+bool
+mayBeSwapped
+(
+)
+const
+override
+{
+return
+true
+;
+}
 virtual
 bool
 dynamicCheckedUnwrapAllowed
