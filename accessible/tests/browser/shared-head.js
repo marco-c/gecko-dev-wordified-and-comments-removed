@@ -1567,6 +1567,18 @@ contentDocBodyAttrs
 options
 ;
 const
+isIframe
+=
+options
+.
+iframe
+|
+|
+options
+.
+remoteIframe
+;
+const
 attrs
 =
 {
@@ -1581,7 +1593,7 @@ contentDocBodyAttrs
 ;
 if
 (
-gIsIframe
+isIframe
 )
 {
 doc
@@ -1691,7 +1703,7 @@ encodedDoc
 if
 (
 !
-gIsIframe
+isIframe
 &
 &
 options

@@ -727,6 +727,13 @@ resolve
 ;
 }
 else
+if
+(
+!
+this
+.
+_accServiceInitialized
+)
 {
 deferred
 .

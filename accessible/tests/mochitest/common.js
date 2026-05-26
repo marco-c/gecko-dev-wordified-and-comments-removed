@@ -398,6 +398,12 @@ MAX_TRIM_LENGTH
 var
 gAccService
 =
+window
+.
+gDisableAccServiceInit
+?
+null
+:
 Cc
 [
 "
