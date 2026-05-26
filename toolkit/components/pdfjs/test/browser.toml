@@ -126,6 +126,13 @@ headless
 ]
 [
 "
+browser_pdfjs_csp
+.
+js
+"
+]
+[
+"
 browser_pdfjs_download_button
 .
 js
