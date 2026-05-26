@@ -22,8 +22,7 @@ server
 let
 shareResult
 =
-new
-ShareResult
+makeShareResult
 (
 {
 share
@@ -114,8 +113,7 @@ mockResponse
 ;
 shareResult
 =
-new
-ShareResult
+makeShareResult
 (
 {
 share
@@ -226,8 +224,7 @@ mockResponse
 ;
 shareResult
 =
-new
-ShareResult
+makeShareResult
 (
 {
 share
@@ -317,8 +314,7 @@ mockResponse
 ;
 shareResult
 =
-new
-ShareResult
+makeShareResult
 (
 {
 share
