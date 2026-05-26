@@ -3069,7 +3069,7 @@ mallocSizeOf
 }
 ;
 void
-TraceInterpreterActivations
+TraceActivations
 (
 JSContext
 *
