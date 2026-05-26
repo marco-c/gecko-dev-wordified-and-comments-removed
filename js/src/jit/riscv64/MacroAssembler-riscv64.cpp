@@ -25160,6 +25160,14 @@ offset
 {
 if
 (
+L
+-
+>
+bound
+(
+)
+&
+&
 !
 isNear
 (
@@ -25903,6 +25911,10 @@ bound
 isNear
 (
 L
+OffsetSize
+:
+:
+kOffset21
 )
 )
 {
