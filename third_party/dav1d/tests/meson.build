@@ -496,6 +496,7 @@ false
 dependencies
 :
 [
+thread_dependency
 libm_dependency
 checkasm_dependency
 ]

@@ -710,7 +710,7 @@ pointer
 .
 error
 "
-sub_sp_align
+sub_sp
 doesn
 '
 t
