@@ -198,6 +198,13 @@ TESTING_JS_MODULES
 =
 [
 "
+AboutAddonsTestUtils
+.
+sys
+.
+mjs
+"
+"
 AddonTestUtils
 .
 sys
