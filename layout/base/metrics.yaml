@@ -219,9 +219,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-REFRESH_DRIVER_TICK
 paint_rasterize_time
 :
 type
@@ -313,9 +310,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-PAINT_RASTERIZE_TIME
 refresh_driver_chrome_frame_delay
 :
 type
@@ -431,9 +425,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-FX_REFRESH_DRIVER_CHROME_FRAME_DELAY_MS
 refresh_driver_content_frame_delay
 :
 type
@@ -549,9 +540,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-FX_REFRESH_DRIVER_CONTENT_FRAME_DELAY_MS
 input_event_response
 :
 type
@@ -1071,11 +1059,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-h
-#
-LONG_REFLOW_INTERRUPTIBLE
 time_to_first_interaction
 :
 type
@@ -1222,9 +1205,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-TIME_TO_FIRST_INTERACTION_MS
 input_event_queued_click
 :
 type
@@ -1318,9 +1298,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-INPUT_EVENT_QUEUED_CLICK_MS
 input_event_queued_keyboard
 :
 type
@@ -1411,6 +1388,3 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-INPUT_EVENT_QUEUED_KEYBOARD_MS

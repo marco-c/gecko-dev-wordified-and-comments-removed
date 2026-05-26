@@ -1005,6 +1005,3 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-A11Y_TREE_UPDATE_TIMING_MS
