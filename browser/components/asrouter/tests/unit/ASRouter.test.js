@@ -982,9 +982,6 @@ scores
 scoreThreshold
 :
 5000
-isChinaRepack
-:
-false
 userId
 :
 "
