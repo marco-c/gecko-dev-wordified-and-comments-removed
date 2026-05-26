@@ -9039,7 +9039,7 @@ Register
 dest
 )
 {
-ExtractBits
+SignExtendWord
 (
 dest
 operand
@@ -9047,8 +9047,6 @@ operand
 valueReg
 (
 )
-0
-32
 )
 ;
 }
@@ -9064,12 +9062,10 @@ Register
 dest
 )
 {
-ExtractBits
+SignExtendWord
 (
 dest
 src
-0
-32
 )
 ;
 }
@@ -9087,9 +9083,8 @@ Register
 dest
 )
 {
-ma_load
+load32
 (
-dest
 Address
 (
 src
@@ -9099,8 +9094,7 @@ src
 .
 offset
 )
-SizeWord
-ZeroExtend
+dest
 )
 ;
 }
@@ -9139,9 +9133,8 @@ src
 scratch
 )
 ;
-ma_load
+load32
 (
-dest
 Address
 (
 scratch
@@ -9149,8 +9142,7 @@ src
 .
 offset
 )
-SizeWord
-ZeroExtend
+dest
 )
 ;
 }
