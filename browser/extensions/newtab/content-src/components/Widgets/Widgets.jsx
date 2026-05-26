@@ -3394,6 +3394,11 @@ widgetsMayBeMaximized
 {
 widgetsMayBeMaximized
 }
+widgetEnabledMap
+=
+{
+widgetEnabledMap
+}
 /
 >
 <

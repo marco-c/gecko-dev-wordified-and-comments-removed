@@ -202,6 +202,7 @@ WeatherRowWidget
 (
 {
 dispatch
+widgetEnabledMap
 }
 )
 {
@@ -230,6 +231,7 @@ prefs
 )
 ;
 return
+(
 <
 WeatherWidget
 dispatch
@@ -242,8 +244,14 @@ size
 {
 weatherSize
 }
+widgetEnabledMap
+=
+{
+widgetEnabledMap
+}
 /
 >
+)
 ;
 }
 function
@@ -303,6 +311,7 @@ ClocksRowWidget
 (
 {
 dispatch
+widgetEnabledMap
 }
 )
 {
@@ -331,6 +340,7 @@ prefs
 )
 ;
 return
+(
 <
 Clocks
 dispatch
@@ -343,8 +353,14 @@ size
 {
 clocksSize
 }
+widgetEnabledMap
+=
+{
+widgetEnabledMap
+}
 /
 >
+)
 ;
 }
 export
