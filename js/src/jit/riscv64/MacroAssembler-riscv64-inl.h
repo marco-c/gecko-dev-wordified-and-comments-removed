@@ -5951,7 +5951,7 @@ Acquire
 (
 )
 ;
-ExtractBits
+SignExtendWord
 (
 scratch
 value
@@ -5959,8 +5959,6 @@ value
 valueReg
 (
 )
-0
-32
 )
 ;
 ma_b
