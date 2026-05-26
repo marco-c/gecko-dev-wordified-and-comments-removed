@@ -4586,7 +4586,7 @@ ma_add64
 (
 dest
 lhs
-Operand
+Imm64
 (
 ToIntPtr
 (
@@ -4672,7 +4672,7 @@ ma_add64
 (
 dest
 lhs
-Operand
+Imm64
 (
 ToInt64
 (
@@ -4970,7 +4970,7 @@ ma_sub64
 (
 dest
 lhs
-Operand
+Imm64
 (
 ToIntPtr
 (
@@ -5056,7 +5056,7 @@ ma_sub64
 (
 dest
 lhs
-Operand
+Imm64
 (
 ToInt64
 (
@@ -8119,7 +8119,7 @@ ma_or
 (
 dest
 lhs
-Operand
+Imm64
 (
 ToInt64
 (
@@ -8168,7 +8168,7 @@ ma_xor
 (
 dest
 lhs
-Operand
+Imm64
 (
 ToInt64
 (
@@ -8217,7 +8217,7 @@ ma_and
 (
 dest
 lhs
-Operand
+Imm64
 (
 ToInt64
 (
