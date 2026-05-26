@@ -1620,6 +1620,14 @@ const
 override
 ;
 virtual
+int32_t
+HeadingLevel
+(
+)
+const
+override
+;
+virtual
 void
 ScrollToPoint
 (
