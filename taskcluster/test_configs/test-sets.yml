@@ -736,6 +736,12 @@ upload
 -
 browsertime
 -
+speculation
+-
+rules
+-
+browsertime
+-
 speculative
 -
 browsertime
