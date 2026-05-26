@@ -293,7 +293,7 @@ navigateToPage
 mozVerifyElementsByGroup
 (
 "
-emptyHistory
+emptyHistoryMenuView
 "
 )
 }
@@ -363,7 +363,7 @@ navigateToPage
 mozVerifyElementsByGroup
 (
 "
-browsingHistory
+historyMenuViewWithHistoryItems
 "
 )
 }
@@ -475,7 +475,7 @@ BROWSING_DATA_DELETED_SNACKBAR
 mozVerifyElementsByGroup
 (
 "
-emptyHistory
+emptyHistoryMenuView
 "
 )
 }

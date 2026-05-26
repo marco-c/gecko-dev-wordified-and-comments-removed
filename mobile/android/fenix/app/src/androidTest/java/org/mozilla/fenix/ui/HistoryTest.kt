@@ -684,6 +684,9 @@ history_list
 {
 verifyHistoryMenuView
 (
+historyItemExists
+=
+true
 )
 verifyVisitedTimeTitle
 (
@@ -1093,6 +1096,9 @@ closeToolbarReturnToHistory
 {
 verifyHistoryMenuView
 (
+historyItemExists
+=
+true
 )
 }
 }
@@ -1832,6 +1838,9 @@ composeTestRule
 {
 verifyHistoryMenuView
 (
+historyItemExists
+=
+true
 )
 }
 }
