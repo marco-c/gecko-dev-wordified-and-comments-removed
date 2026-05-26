@@ -1671,6 +1671,13 @@ html
 ]
 [
 "
+test_select_innerHTML_noInSelectMode
+.
+html
+"
+]
+[
+"
 test_rowscollection
 .
 html
