@@ -832,6 +832,15 @@ NeedsAuthorization
 AccountStatus
 .
 RequestingAuthorization
+AccountStatus
+.
+AwaitingAuthentication
+AccountStatus
+.
+AwaitingAuthorization
+AccountStatus
+.
+FinishingAuthFlow
 -
 >
 {
