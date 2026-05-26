@@ -34,7 +34,7 @@ js
 ]
 [
 "
-browser_testLoadingState
+browser_testPrivateBrowsing
 .
 js
 "
@@ -42,13 +42,6 @@ js
 [
 "
 browser_testModalErrors
-.
-js
-"
-]
-[
-"
-browser_testPrivateBrowsing
 .
 js
 "
