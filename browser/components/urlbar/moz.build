@@ -149,13 +149,6 @@ sys
 mjs
 "
 "
-UrlbarEventBufferer
-.
-sys
-.
-mjs
-"
-"
 UrlbarMuxerStandard
 .
 sys
