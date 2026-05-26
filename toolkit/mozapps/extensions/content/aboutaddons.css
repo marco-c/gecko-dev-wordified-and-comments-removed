@@ -648,7 +648,14 @@ padding
 -
 bottom
 :
-30px
+var
+(
+-
+-
+space
+-
+small
+)
 ;
 max
 -
