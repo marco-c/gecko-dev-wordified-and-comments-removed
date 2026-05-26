@@ -1028,9 +1028,15 @@ onMatchClicked
 homeTeam
 :
 String
+?
 awayTeam
 :
 String
+?
+date
+:
+String
+?
 )
 {
 /

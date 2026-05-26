@@ -1743,6 +1743,7 @@ onMatchClicked
 {
 homeTeam
 awayTeam
+date
 -
 >
 interactor
@@ -1751,6 +1752,7 @@ onMatchClicked
 (
 homeTeam
 awayTeam
+date
 )
 }
 )

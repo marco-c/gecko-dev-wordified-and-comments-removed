@@ -3038,6 +3038,7 @@ assertEquals
 XYZ
 "
 home
+?
 .
 key
 )
@@ -3045,6 +3046,7 @@ assertEquals
 (
 0
 home
+?
 .
 flagResId
 )
@@ -3121,6 +3123,7 @@ ENG
 ui
 .
 home
+?
 .
 key
 )
@@ -3134,6 +3137,7 @@ flag_eng
 ui
 .
 home
+?
 .
 flagResId
 )
@@ -3145,6 +3149,7 @@ BRA
 ui
 .
 away
+?
 .
 key
 )
@@ -3158,6 +3163,7 @@ flag_br
 ui
 .
 away
+?
 .
 flagResId
 )

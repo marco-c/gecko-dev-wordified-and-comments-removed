@@ -2348,9 +2348,15 @@ onMatchClicked
 homeTeam
 :
 String
+?
 awayTeam
 :
 String
+?
+date
+:
+String
+?
 )
 {
 sportsController
@@ -2363,6 +2369,9 @@ homeTeam
 awayTeam
 =
 awayTeam
+date
+=
+date
 )
 }
 override
