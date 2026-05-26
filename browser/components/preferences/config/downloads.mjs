@@ -6393,16 +6393,6 @@ default
 "
 )
 ;
-defaultMenuItem
-.
-setAttribute
-(
-"
-iconsrc
-"
-ICON_URL_APP
-)
-;
 }
 else
 {
@@ -6435,6 +6425,7 @@ defaultDescription
 }
 )
 ;
+}
 let
 image
 =
@@ -6457,7 +6448,6 @@ iconsrc
 image
 )
 ;
-}
 }
 return
 defaultMenuItem
