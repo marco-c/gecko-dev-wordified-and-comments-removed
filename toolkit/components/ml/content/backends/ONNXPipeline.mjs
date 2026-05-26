@@ -5372,6 +5372,13 @@ this
 #
 genericPipelineFunction
 ;
+this
+.
+#
+isReady
+=
+true
+;
 }
 catch
 (
