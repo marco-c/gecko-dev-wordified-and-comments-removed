@@ -13031,7 +13031,7 @@ addr
 )
 {
 return
-ma_fst_s
+ma_storeFloat
 (
 src
 addr
@@ -13053,7 +13053,7 @@ addr
 )
 {
 return
-ma_fst_s
+ma_storeFloat
 (
 src
 addr
@@ -13075,7 +13075,7 @@ addr
 )
 {
 return
-ma_fst_d
+ma_storeDouble
 (
 src
 addr
@@ -13097,7 +13097,7 @@ addr
 )
 {
 return
-ma_fst_d
+ma_storeDouble
 (
 src
 addr
