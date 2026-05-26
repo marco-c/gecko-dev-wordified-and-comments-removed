@@ -1372,15 +1372,6 @@ const
 0
 ;
 virtual
-int32_t
-HeadingLevel
-(
-)
-const
-=
-0
-;
-virtual
 uint8_t
 ActionCount
 (
