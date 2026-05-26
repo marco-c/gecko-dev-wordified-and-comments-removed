@@ -1424,7 +1424,7 @@ const
 void
 Stringify
 (
-nsAString
+nsACString
 &
 aResult
 ErrorResult
