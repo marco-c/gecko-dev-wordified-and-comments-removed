@@ -1510,6 +1510,10 @@ nsCOMPtr
 nsICacheEntryDoomCallback
 >
 mDoomCallback
+MOZ_GUARDED_BY
+(
+mLock
+)
 ;
 RefPtr
 <
