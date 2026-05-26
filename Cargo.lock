@@ -37348,6 +37348,9 @@ minidump
 -
 writer
 "
+"
+mozannotation_server
+"
 ]
 [
 [
