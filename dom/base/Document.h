@@ -3492,7 +3492,9 @@ ShouldForceInitialSyncLoad
 (
 )
 {
-return
+bool
+ret
+=
 InitialAboutBlankLoadCompleting
 (
 )
@@ -3502,6 +3504,14 @@ InitialAboutBlankLoadCompleting
 IsExpectingEndLoad
 (
 )
+&
+&
+IsInitialDocument
+(
+)
+;
+return
+ret
 ;
 }
 void
