@@ -1431,7 +1431,10 @@ ma_branch
 target
 Always
 zero
+Operand
+(
 zero
+)
 jumpKind
 )
 ;
@@ -4356,7 +4359,10 @@ ma_branch
 done
 NotEqual
 cond
+Operand
+(
 zero
+)
 )
 ;
 mv
@@ -4392,7 +4398,10 @@ ma_branch
 done
 Equal
 cond
+Operand
+(
 zero
+)
 )
 ;
 mv
