@@ -125,18 +125,6 @@ set
 [
 [
 "
-browser
-.
-settings
--
-redesign
-.
-enabled
-"
-true
-]
-[
-"
 identity
 .
 fxaccounts
@@ -268,7 +256,7 @@ shadowRoot
 querySelector
 (
 "
-h2
+h3
 "
 )
 ;
