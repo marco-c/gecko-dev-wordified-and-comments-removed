@@ -71,6 +71,17 @@ tests
 aiFeatures
 /
 browser
+-
+srd
+.
+toml
+"
+"
+tests
+/
+aiFeatures
+/
+browser
 .
 toml
 "
