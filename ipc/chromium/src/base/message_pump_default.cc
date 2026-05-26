@@ -284,16 +284,12 @@ Wait
 IDLE
 )
 ;
-{
-AUTO_PROFILER_THREAD_SLEEP
-;
 event_
 .
 Wait
 (
 )
 ;
-}
 }
 else
 {
@@ -337,9 +333,6 @@ Wait
 IDLE
 )
 ;
-{
-AUTO_PROFILER_THREAD_SLEEP
-;
 event_
 .
 TimedWait
@@ -347,7 +340,6 @@ TimedWait
 delay
 )
 ;
-}
 }
 else
 {
