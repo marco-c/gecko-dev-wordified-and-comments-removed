@@ -1257,6 +1257,13 @@ json
 ]
 [
 "
+test_settings_no_duplicate_after_rename
+.
+js
+"
+]
+[
+"
 test_settings_none
 .
 js
