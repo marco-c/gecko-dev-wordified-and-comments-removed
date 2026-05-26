@@ -949,10 +949,6 @@ searchSuggestionsContent
 =
 {
 }
-navigationBarContent
-=
-{
-}
 )
 private
 fun

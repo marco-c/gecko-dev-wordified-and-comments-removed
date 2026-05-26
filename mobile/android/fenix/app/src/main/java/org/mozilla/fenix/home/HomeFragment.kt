@@ -3272,9 +3272,6 @@ SearchSuggestions
 (
 )
 }
-navigationBarContent
-=
-null
 )
 }
 private
@@ -4336,9 +4333,6 @@ HomeActivity
 )
 )
 }
-navigationBarContent
-=
-null
 )
 if
 (
