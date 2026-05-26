@@ -1014,6 +1014,10 @@ local_rect
 :
 &
 LayoutRect
+local_clip_rect
+:
+&
+LayoutRect
 stretch_size
 :
 LayoutSize
@@ -1206,8 +1210,6 @@ needs_repetition
 let
 local_clip_rect
 =
-clip_chain
-.
 local_clip_rect
 .
 intersection_unchecked
@@ -1560,9 +1562,6 @@ strategy
 &
 repeat_pattern
 local_rect
-&
-clip_chain
-.
 local_clip_rect
 aligned_aa_edges
 transfomed_aa_edges
@@ -1615,9 +1614,6 @@ spatial_tree
 .
 intersection_unchecked
 (
-&
-clip_chain
-.
 local_clip_rect
 )
 ;
@@ -1668,8 +1664,6 @@ stretch_size
 let
 clip_rect
 =
-clip_chain
-.
 local_clip_rect
 .
 intersection_unchecked
