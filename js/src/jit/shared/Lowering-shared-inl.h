@@ -1861,7 +1861,7 @@ Simd128
 :
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 lir
 -
 >
@@ -4185,7 +4185,7 @@ DOUBLE
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 LDefinition
 LIRGeneratorShared
 :

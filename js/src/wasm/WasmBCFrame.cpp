@@ -360,7 +360,7 @@ WasmAnyRef
 :
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 MIRType
 :
@@ -513,7 +513,7 @@ F64
 :
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 ValType
 :
@@ -1378,7 +1378,7 @@ ConstF64
 :
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 Stk
 :
@@ -1421,7 +1421,7 @@ LocalF64
 :
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 Stk
 :
@@ -1474,7 +1474,7 @@ RegisterF64
 :
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 Stk
 :

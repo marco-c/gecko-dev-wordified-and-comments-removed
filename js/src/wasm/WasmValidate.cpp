@@ -7419,7 +7419,7 @@ break
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 uint16_t
 (

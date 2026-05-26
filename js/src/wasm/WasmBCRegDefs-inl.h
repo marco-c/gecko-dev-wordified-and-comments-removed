@@ -499,7 +499,7 @@ specific
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 RegV128
 BaseRegAlloc
 :
@@ -678,7 +678,7 @@ r
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 void
 BaseRegAlloc
 :

@@ -986,7 +986,7 @@ r
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 inline
 bool
 isAvailableV128
@@ -1065,7 +1065,7 @@ needF64
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 [
 [
 nodiscard
@@ -1129,7 +1129,7 @@ specific
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 inline
 void
 needV128
@@ -1256,7 +1256,7 @@ r
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 inline
 void
 freeV128
@@ -1330,7 +1330,7 @@ r
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 inline
 void
 maybeFree
@@ -1662,7 +1662,7 @@ dest
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 inline
 void
 loadConstV128
@@ -1796,7 +1796,7 @@ dest
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 inline
 void
 loadV128
@@ -1973,7 +1973,7 @@ r
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 inline
 void
 pushV128
@@ -2047,7 +2047,7 @@ v
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 inline
 void
 pushV128
@@ -2108,7 +2108,7 @@ slot
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 inline
 void
 pushLocalV128
@@ -2174,7 +2174,7 @@ specific
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 inline
 void
 popV128
@@ -2547,7 +2547,7 @@ r1
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 inline
 void
 pop2xV128
@@ -3389,7 +3389,7 @@ call
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 inline
 RegV128
 captureReturnedV128
@@ -3470,7 +3470,7 @@ dest
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 inline
 void
 moveV128
@@ -7483,7 +7483,7 @@ postBarrierKind
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 void
 emitVectorAndNot
 (

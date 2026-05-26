@@ -126,7 +126,7 @@ r
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 bool
 BaseCompiler
 :
@@ -276,7 +276,7 @@ needF64
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 [
 [
 nodiscard
@@ -410,7 +410,7 @@ specific
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 void
 BaseCompiler
 :
@@ -570,7 +570,7 @@ r
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 void
 BaseCompiler
 :
@@ -695,7 +695,7 @@ break
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 AnyReg
 :
@@ -863,7 +863,7 @@ r
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 template
 <
 >
@@ -1128,7 +1128,7 @@ r
 }
 #
 ifdef
-ENABLE_JIT_SIMD128
+ENABLE_WASM_SIMD128
 void
 BaseCompiler
 :
@@ -1657,7 +1657,7 @@ popF64
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 template
 <
 >
@@ -1852,7 +1852,7 @@ V128
 :
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 if
 (
 which
@@ -2206,7 +2206,7 @@ V128
 :
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 if
 (
 which

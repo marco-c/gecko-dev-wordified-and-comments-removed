@@ -934,7 +934,7 @@ false
 ;
 #
 ifdef
-ENABLE_JIT_AVX
+ENABLE_WASM_AVX
 bool
 CPUInfo
 :
