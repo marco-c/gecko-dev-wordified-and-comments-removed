@@ -340,7 +340,9 @@ documentation
 *
 param
 {
-object
+string
+[
+]
 }
 previousResult
 *
