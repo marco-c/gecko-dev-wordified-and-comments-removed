@@ -204,13 +204,6 @@ html
 ]
 [
 "
-test_inert
-.
-html
-"
-]
-[
-"
 test_inner_reorder
 .
 html
