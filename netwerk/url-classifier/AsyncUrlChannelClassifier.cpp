@@ -5351,10 +5351,13 @@ if
 shouldCancel
 )
 {
+(
+void
+)
 contentClassifier
 -
 >
-CancelChannel
+MaybeCancelChannel
 (
 channel
 )

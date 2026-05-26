@@ -20,6 +20,15 @@ mozilla
 namespace
 net
 {
+enum
+class
+ChannelBlockDecision
+{
+Blocked
+Replaced
+Allowed
+}
+;
 class
 ChannelClassifierUtils
 final
@@ -103,9 +112,9 @@ uint32_t
 aReplacedEvent
 uint32_t
 aAllowedEvent
-bool
+ChannelBlockDecision
 *
-aShouldContinue
+aOutDecision
 )
 ;
 static
