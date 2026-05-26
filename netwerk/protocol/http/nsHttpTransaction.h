@@ -843,6 +843,14 @@ bool
 aRestart
 )
 ;
+void
+RemoveSSLTokens
+(
+nsITransportSecurityInfo
+*
+aSecInfo
+)
+;
 uint64_t
 BrowserId
 (

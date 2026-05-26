@@ -345,6 +345,11 @@ isSome
 )
 ;
 }
+void
+MaybeRemoveSSLTokens
+(
+)
+;
 private
 :
 ~
