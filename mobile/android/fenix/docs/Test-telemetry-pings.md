@@ -348,13 +348,6 @@ Settings
 /
 settings
 icon
-(
-if
-menu
-redesign
-is
-enabled
-)
 .
 3
 .

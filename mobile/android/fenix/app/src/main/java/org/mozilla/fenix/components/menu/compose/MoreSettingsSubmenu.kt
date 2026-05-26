@@ -336,9 +336,6 @@ String
 isReaderViewActive
 :
 Boolean
-isWebCompatReporterSupported
-:
-Boolean
 isWebCompatEnabled
 :
 Boolean
@@ -478,9 +475,6 @@ onMoveToNonPrivateTabMenuClick
 )
 WebCompatReporterMenuItem
 (
-isWebCompatReporterSupported
-=
-isWebCompatReporterSupported
 isWebCompatEnabled
 =
 isWebCompatEnabled
@@ -837,9 +831,6 @@ private
 fun
 WebCompatReporterMenuItem
 (
-isWebCompatReporterSupported
-:
-Boolean
 isWebCompatEnabled
 :
 Boolean
@@ -850,11 +841,6 @@ onWebCompatReporterClick
 -
 >
 Unit
-)
-{
-if
-(
-isWebCompatReporterSupported
 )
 {
 MenuItem
@@ -900,7 +886,6 @@ onClick
 =
 onWebCompatReporterClick
 )
-}
 }
 Composable
 private
@@ -1663,9 +1648,6 @@ Pocket
 isReaderViewActive
 =
 false
-isWebCompatReporterSupported
-=
-true
 isWebCompatEnabled
 =
 true
@@ -1845,9 +1827,6 @@ Pocket
 isReaderViewActive
 =
 false
-isWebCompatReporterSupported
-=
-true
 isWebCompatEnabled
 =
 true
