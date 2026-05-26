@@ -2598,6 +2598,8 @@ writeDataRelocation
 (
 ImmGCPtr
 ptr
+BufferOffset
+offset
 )
 {
 if
@@ -2629,9 +2631,7 @@ dataRelocations_
 .
 writeUnsigned
 (
-nextOffset
-(
-)
+offset
 .
 getOffset
 (
