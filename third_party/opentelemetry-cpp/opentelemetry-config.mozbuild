@@ -6,6 +6,14 @@ LOCAL_INCLUDES
 /
 third_party
 /
+abseil
+-
+cpp
+"
+"
+/
+third_party
+/
 opentelemetry
 -
 cpp

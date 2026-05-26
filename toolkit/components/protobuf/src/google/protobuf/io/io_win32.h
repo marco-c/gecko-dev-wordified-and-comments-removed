@@ -22,7 +22,7 @@ string
 >
 #
 include
-<
+"
 google
 /
 protobuf
@@ -30,10 +30,10 @@ protobuf
 port
 .
 h
->
+"
 #
 include
-<
+"
 google
 /
 protobuf
@@ -41,7 +41,7 @@ protobuf
 port_def
 .
 inc
->
+"
 namespace
 google
 {
@@ -388,7 +388,7 @@ STDOUT_FILENO
 endif
 #
 include
-<
+"
 google
 /
 protobuf
@@ -396,7 +396,7 @@ protobuf
 port_undef
 .
 inc
->
+"
 #
 endif
 #

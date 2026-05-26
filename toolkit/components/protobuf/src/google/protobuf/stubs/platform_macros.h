@@ -423,12 +423,6 @@ defined
 (
 GOOGLE_PROTOBUF_OS_IPHONE
 )
-|
-|
-defined
-(
-__OpenBSD__
-)
 #
 define
 GOOGLE_PROTOBUF_NO_THREADLOCAL

@@ -68,9 +68,9 @@ the
 protobuf
 library
 is
-21
+35
 .
-6
+0
 .
 We
 do
@@ -217,9 +217,9 @@ vendor
 (
 for
 example
-v21
+v34
 .
-6
+1
 )
 .
 2
@@ -319,9 +319,9 @@ moz
 yaml
 -
 r
-v21
+v34
 .
-6
+1
 -
 -
 patch
@@ -355,9 +355,9 @@ only
 Where
 -
 r
-v21
+v34
 .
-6
+1
 specifies
 the
 protobuf
@@ -381,7 +381,7 @@ specified
 in
 scripts
 /
-regenerate_cpp_files
+generate_files
 .
 py
 .

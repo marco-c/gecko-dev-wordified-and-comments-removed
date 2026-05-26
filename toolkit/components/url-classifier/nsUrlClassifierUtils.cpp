@@ -2711,6 +2711,9 @@ std
 string
 s
 ;
+(
+void
+)
 r
 .
 SerializeToString
@@ -3293,6 +3296,9 @@ std
 string
 s
 ;
+(
+void
+)
 r
 .
 SerializeToString
@@ -4586,6 +4592,9 @@ std
 string
 s
 ;
+(
+void
+)
 hit
 .
 SerializeToString
@@ -5460,7 +5469,9 @@ provider
 ;
 for
 (
+const
 auto
+&
 tableName
 :
 tables

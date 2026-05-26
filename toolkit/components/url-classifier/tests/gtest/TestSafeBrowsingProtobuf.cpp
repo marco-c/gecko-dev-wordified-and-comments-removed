@@ -69,6 +69,9 @@ std
 string
 s
 ;
+(
+void
+)
 r
 .
 SerializeToString
@@ -80,6 +83,9 @@ s
 FetchThreatListUpdatesRequest
 r2
 ;
+(
+void
+)
 r2
 .
 ParseFromString

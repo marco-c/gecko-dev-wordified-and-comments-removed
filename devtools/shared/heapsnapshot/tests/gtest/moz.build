@@ -70,6 +70,14 @@ LOCAL_INCLUDES
 .
 .
 "
+"
+/
+third_party
+/
+abseil
+-
+cpp
+"
 ]
 DEFINES
 [

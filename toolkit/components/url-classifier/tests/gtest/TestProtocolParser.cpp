@@ -456,6 +456,9 @@ std
 string
 s
 ;
+(
+void
+)
 response
 .
 SerializeToString
@@ -666,6 +669,9 @@ std
 string
 s
 ;
+(
+void
+)
 response
 .
 SerializeToString

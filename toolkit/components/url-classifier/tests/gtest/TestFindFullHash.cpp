@@ -1100,6 +1100,9 @@ std
 string
 s
 ;
+(
+void
+)
 r
 .
 SerializeToString

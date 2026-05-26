@@ -74,6 +74,14 @@ chromium
 /
 src
 "
+"
+/
+third_party
+/
+abseil
+-
+cpp
+"
 ]
 if
 CONFIG

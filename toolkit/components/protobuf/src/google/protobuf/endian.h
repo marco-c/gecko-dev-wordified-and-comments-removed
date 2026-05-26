@@ -26,7 +26,18 @@ cstdint
 >
 #
 include
-<
+"
+absl
+/
+base
+/
+config
+.
+h
+"
+#
+include
+"
 google
 /
 protobuf
@@ -34,7 +45,7 @@ protobuf
 port_def
 .
 inc
->
+"
 namespace
 google
 {
@@ -44,6 +55,7 @@ protobuf
 namespace
 internal
 {
+PROTOBUF_FUTURE_ADD_EARLY_NODISCARD
 inline
 uint64_t
 BSwap64
@@ -56,10 +68,16 @@ host_int
 if
 defined
 (
-PROTOBUF_BUILTIN_BSWAP64
+__GNUC__
+)
+|
+|
+ABSL_HAVE_BUILTIN
+(
+__builtin_bswap64
 )
 return
-PROTOBUF_BUILTIN_BSWAP64
+__builtin_bswap64
 (
 host_int
 )
@@ -196,6 +214,7 @@ uint64_t
 #
 endif
 }
+PROTOBUF_FUTURE_ADD_EARLY_NODISCARD
 inline
 uint32_t
 BSwap32
@@ -208,10 +227,16 @@ host_int
 if
 defined
 (
-PROTOBUF_BUILTIN_BSWAP32
+__GNUC__
+)
+|
+|
+ABSL_HAVE_BUILTIN
+(
+__builtin_bswap32
 )
 return
-PROTOBUF_BUILTIN_BSWAP32
+__builtin_bswap32
 (
 host_int
 )
@@ -292,6 +317,7 @@ uint32_t
 #
 endif
 }
+PROTOBUF_FUTURE_ADD_EARLY_NODISCARD
 inline
 uint16_t
 BSwap16
@@ -304,10 +330,16 @@ host_int
 if
 defined
 (
-PROTOBUF_BUILTIN_BSWAP16
+__GNUC__
+)
+|
+|
+ABSL_HAVE_BUILTIN
+(
+__builtin_bswap16
 )
 return
-PROTOBUF_BUILTIN_BSWAP16
+__builtin_bswap16
 (
 host_int
 )
@@ -363,6 +395,7 @@ endif
 namespace
 little_endian
 {
+PROTOBUF_FUTURE_ADD_EARLY_NODISCARD
 inline
 uint16_t
 FromHost
@@ -375,7 +408,7 @@ value
 if
 defined
 (
-PROTOBUF_BIG_ENDIAN
+ABSL_IS_BIG_ENDIAN
 )
 return
 BSwap16
@@ -391,6 +424,7 @@ value
 #
 endif
 }
+PROTOBUF_FUTURE_ADD_EARLY_NODISCARD
 inline
 uint32_t
 FromHost
@@ -403,7 +437,7 @@ value
 if
 defined
 (
-PROTOBUF_BIG_ENDIAN
+ABSL_IS_BIG_ENDIAN
 )
 return
 BSwap32
@@ -419,6 +453,7 @@ value
 #
 endif
 }
+PROTOBUF_FUTURE_ADD_EARLY_NODISCARD
 inline
 uint64_t
 FromHost
@@ -431,7 +466,7 @@ value
 if
 defined
 (
-PROTOBUF_BIG_ENDIAN
+ABSL_IS_BIG_ENDIAN
 )
 return
 BSwap64
@@ -447,6 +482,7 @@ value
 #
 endif
 }
+PROTOBUF_FUTURE_ADD_EARLY_NODISCARD
 inline
 uint16_t
 ToHost
@@ -459,7 +495,7 @@ value
 if
 defined
 (
-PROTOBUF_BIG_ENDIAN
+ABSL_IS_BIG_ENDIAN
 )
 return
 BSwap16
@@ -475,6 +511,7 @@ value
 #
 endif
 }
+PROTOBUF_FUTURE_ADD_EARLY_NODISCARD
 inline
 uint32_t
 ToHost
@@ -487,7 +524,7 @@ value
 if
 defined
 (
-PROTOBUF_BIG_ENDIAN
+ABSL_IS_BIG_ENDIAN
 )
 return
 BSwap32
@@ -503,6 +540,7 @@ value
 #
 endif
 }
+PROTOBUF_FUTURE_ADD_EARLY_NODISCARD
 inline
 uint64_t
 ToHost
@@ -515,7 +553,7 @@ value
 if
 defined
 (
-PROTOBUF_BIG_ENDIAN
+ABSL_IS_BIG_ENDIAN
 )
 return
 BSwap64
@@ -535,6 +573,7 @@ endif
 namespace
 big_endian
 {
+PROTOBUF_FUTURE_ADD_EARLY_NODISCARD
 inline
 uint16_t
 FromHost
@@ -547,7 +586,7 @@ value
 if
 defined
 (
-PROTOBUF_BIG_ENDIAN
+ABSL_IS_BIG_ENDIAN
 )
 return
 value
@@ -563,6 +602,7 @@ value
 #
 endif
 }
+PROTOBUF_FUTURE_ADD_EARLY_NODISCARD
 inline
 uint32_t
 FromHost
@@ -575,7 +615,7 @@ value
 if
 defined
 (
-PROTOBUF_BIG_ENDIAN
+ABSL_IS_BIG_ENDIAN
 )
 return
 value
@@ -591,6 +631,7 @@ value
 #
 endif
 }
+PROTOBUF_FUTURE_ADD_EARLY_NODISCARD
 inline
 uint64_t
 FromHost
@@ -603,7 +644,7 @@ value
 if
 defined
 (
-PROTOBUF_BIG_ENDIAN
+ABSL_IS_BIG_ENDIAN
 )
 return
 value
@@ -619,6 +660,7 @@ value
 #
 endif
 }
+PROTOBUF_FUTURE_ADD_EARLY_NODISCARD
 inline
 uint16_t
 ToHost
@@ -631,7 +673,7 @@ value
 if
 defined
 (
-PROTOBUF_BIG_ENDIAN
+ABSL_IS_BIG_ENDIAN
 )
 return
 value
@@ -647,6 +689,7 @@ value
 #
 endif
 }
+PROTOBUF_FUTURE_ADD_EARLY_NODISCARD
 inline
 uint32_t
 ToHost
@@ -659,7 +702,7 @@ value
 if
 defined
 (
-PROTOBUF_BIG_ENDIAN
+ABSL_IS_BIG_ENDIAN
 )
 return
 value
@@ -675,6 +718,7 @@ value
 #
 endif
 }
+PROTOBUF_FUTURE_ADD_EARLY_NODISCARD
 inline
 uint64_t
 ToHost
@@ -687,7 +731,7 @@ value
 if
 defined
 (
-PROTOBUF_BIG_ENDIAN
+ABSL_IS_BIG_ENDIAN
 )
 return
 value
@@ -709,7 +753,7 @@ endif
 }
 #
 include
-<
+"
 google
 /
 protobuf
@@ -717,6 +761,6 @@ protobuf
 port_undef
 .
 inc
->
+"
 #
 endif

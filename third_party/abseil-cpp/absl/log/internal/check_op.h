@@ -2278,6 +2278,17 @@ exprtext
 #
 endif
 #
+pragma
+GCC
+diagnostic
+ignored
+"
+-
+Wsign
+-
+compare
+"
+#
 define
 ABSL_LOG_INTERNAL_CHECK_OP_IMPL
 (
