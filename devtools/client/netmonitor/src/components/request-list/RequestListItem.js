@@ -1090,9 +1090,6 @@ statusText
 fromCache
 "
 "
-isRacing
-"
-"
 fromServiceWorker
 "
 "

@@ -698,9 +698,6 @@ statusText
 httpVersion
 "
 "
-isRacing
-"
-"
 securityState
 "
 "
