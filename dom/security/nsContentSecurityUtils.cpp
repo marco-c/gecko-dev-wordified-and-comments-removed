@@ -10401,6 +10401,9 @@ Document
 aDocument
 )
 {
+#
+ifndef
+MOZ_THUNDERBIRD
 nsCOMPtr
 <
 nsIURI
@@ -10556,9 +10559,6 @@ get
 )
 ;
 }
-#
-ifndef
-MOZ_THUNDERBIRD
 nsAutoString
 baselinePolicy
 ;
