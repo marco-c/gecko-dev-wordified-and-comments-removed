@@ -2420,6 +2420,13 @@ browser
 .
 ipProtection
 .
+blockIPProtectionCallouts
+"
+"
+browser
+.
+ipProtection
+.
 enabled
 "
 "
