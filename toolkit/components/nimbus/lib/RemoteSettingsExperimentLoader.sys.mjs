@@ -2181,8 +2181,11 @@ this
 .
 manager
 .
-_clearOptInRecipes
+_clearOptIns
 (
+this
+.
+SOURCE
 {
 onlyFeatureIds
 }
