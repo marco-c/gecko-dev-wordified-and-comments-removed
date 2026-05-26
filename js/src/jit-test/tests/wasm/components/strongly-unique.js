@@ -143,11 +143,6 @@ baz
 "
 ]
 ;
-if
-(
-false
-)
-{
 assertAllStronglyUnique
 (
 specOkExamples
@@ -210,4 +205,3 @@ BAR
 "
 )
 ;
-}

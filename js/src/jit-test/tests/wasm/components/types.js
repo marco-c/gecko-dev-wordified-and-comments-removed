@@ -1546,11 +1546,6 @@ unexpectedly
 /
 )
 ;
-if
-(
-false
-)
-{
 wasmValidateText
 (
 (
@@ -1943,7 +1938,6 @@ character
 /
 )
 ;
-}
 wasmFailValidateText
 (
 (
