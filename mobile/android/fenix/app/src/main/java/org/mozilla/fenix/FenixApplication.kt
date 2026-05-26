@@ -6505,11 +6505,6 @@ adjustNetwork
 )
 settings
 .
-migrateDeleteDownloadBehaviorIfNeeded
-(
-)
-settings
-.
 migrateSearchWidgetInstalledPrefIfNeeded
 (
 )
