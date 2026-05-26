@@ -452,7 +452,6 @@ GeckoView
 Test
 Runner
 Locally
-:
 [
 ac_add_options
 -
@@ -509,7 +508,6 @@ reftests
 #
 GeckoView
 Example
-:
 [
 Hardcode
 ]
@@ -567,7 +565,6 @@ java
 #
 #
 CI
-:
 Currently
 in
 CI
@@ -658,7 +655,6 @@ D265099
 #
 #
 Fenix
-:
 Isolated
 processes
 may
@@ -1152,7 +1148,6 @@ GeckoView
 Test
 Runner
 Locally
-:
 [
 ac_add_options
 -
@@ -1211,7 +1206,6 @@ reftests
 #
 GeckoView
 Example
-:
 [
 Hardcode
 ]
@@ -1269,7 +1263,6 @@ java
 #
 #
 CI
-:
 [
 geckoview
 -
@@ -1308,7 +1301,6 @@ variant
 #
 #
 Fenix
-:
 App
 zygote
 preloading
@@ -1483,7 +1475,7 @@ fenix
 .
 debug
 :
-isolatedTabWithZygote0
+zygoteTab
 :
 org
 .
@@ -1520,19 +1512,6 @@ GeckoChildProcessServices
 ^
 ^
 ^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
 (
 isolated_app
 )
@@ -1540,7 +1519,7 @@ isolated_app
 u0_i
 )
 (
-isolatedTabWithZygote
+zygoteTab
 )
 Key
 indicators
@@ -1552,7 +1531,7 @@ prefix
 in
 UID
 and
-isolatedTabWithZygote
+zygoteTab
 in
 the
 process

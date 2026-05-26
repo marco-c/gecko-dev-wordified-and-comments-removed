@@ -47,7 +47,7 @@ further
 .
 Notes
 :
--
+*
 this
 guide
 is
@@ -67,7 +67,7 @@ Linux
 and
 Windows
 .
--
+*
 if
 you
 find
@@ -307,6 +307,7 @@ install
 from
 website
 See
+<
 https
 :
 /
@@ -334,6 +335,7 @@ jdk
 macos
 .
 html
+>
 #
 #
 Troubleshooting

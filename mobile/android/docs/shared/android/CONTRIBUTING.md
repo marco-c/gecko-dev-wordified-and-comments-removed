@@ -180,13 +180,13 @@ project
 '
 s
 :
--
+*
 Issues
 tracker
--
+*
 Mailing
 list
--
+*
 [
 Matrix
 Fenix

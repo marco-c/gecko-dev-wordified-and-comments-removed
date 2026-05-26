@@ -1,4 +1,4 @@
-*
+-
 Start
 date
 :
@@ -7,7 +7,7 @@ date
 06
 -
 21
-*
+-
 RFC
 PR
 :

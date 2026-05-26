@@ -4702,7 +4702,6 @@ toolkit
 calls
 for
 translations
-:
 Toolkit
 outline
 :
@@ -7114,7 +7113,6 @@ for
 the
 triggering
 event
-:
 *
 Notice
 onOfferTranslate

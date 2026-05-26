@@ -583,7 +583,7 @@ triage
 priority
 ]
 .
-*
+-
 P1
 :
 issues
@@ -594,7 +594,7 @@ current
 -
 week
 sprint
-*
+-
 P2
 :
 issues
@@ -605,11 +605,11 @@ the
 week
 milestone
 release
-*
+-
 P3
 :
 Backlog
-*
+-
 P5
 :
 Will
@@ -623,7 +623,7 @@ patch
 Other
 labels
 :
-*
+-
 addressed
 :
 label
@@ -661,7 +661,7 @@ categorize
 the
 issues
 .
-*
+-
 [
 meta
 ]
@@ -720,7 +720,7 @@ in
 a
 milestone
 .
-*
+-
 [
 breakdown
 ]

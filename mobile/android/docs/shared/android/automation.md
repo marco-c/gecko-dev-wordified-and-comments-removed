@@ -13,7 +13,7 @@ similar
 automation
 model
 :
--
+*
 Taskcluster
 is
 our
@@ -49,7 +49,7 @@ can
 rely
 on
 .
--
+*
 GitHub
 Actions
 is
@@ -491,6 +491,7 @@ specified
 threshold
 .
 *
+<
 https
 :
 /
@@ -500,6 +501,7 @@ codecov
 io
 /
 gh
+>
 *
 [
 focus
@@ -777,6 +779,7 @@ Nightly
 builds
 go
 to
+<
 https
 :
 /
@@ -793,7 +796,9 @@ fenix
 /
 nightly
 /
+>
 and
+<
 https
 :
 /
@@ -810,12 +815,14 @@ focus
 /
 nightly
 /
+>
 .
 Release
 builds
 are
 uploaded
 to
+<
 https
 :
 /
@@ -832,7 +839,9 @@ fenix
 /
 releases
 /
+>
 and
+<
 https
 :
 /
@@ -849,6 +858,7 @@ focus
 /
 releases
 /
+>
 .
 *
 [
