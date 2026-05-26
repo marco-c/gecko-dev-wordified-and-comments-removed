@@ -415,15 +415,6 @@ gtest
 IPDLUnitTest
 .
 cpp
-netwerk
-/
-test
-/
-gtest
-/
-TestThreadSafetyRaces
-.
-cpp
 security
 /
 sandbox
