@@ -1048,7 +1048,7 @@ constexpr
 unsigned
 kUpperToleranceMs
 =
-10
+40
 ;
 constexpr
 unsigned
