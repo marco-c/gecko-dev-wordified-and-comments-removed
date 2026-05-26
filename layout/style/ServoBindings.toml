@@ -1805,6 +1805,12 @@ mozilla
 CanvasUsage
 "
 "
+mozilla
+:
+:
+FutexImpl
+"
+"
 std
 :
 :

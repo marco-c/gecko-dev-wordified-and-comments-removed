@@ -480,12 +480,6 @@ runtime
 #
 endif
 }
-static
-void
-pause
-(
-)
-;
 }
 ;
 class
