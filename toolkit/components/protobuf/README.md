@@ -217,9 +217,9 @@ vendor
 (
 for
 example
-v34
+v35
 .
-1
+0
 )
 .
 2
@@ -319,9 +319,9 @@ moz
 yaml
 -
 r
-v34
+v35
 .
-1
+0
 -
 -
 patch
@@ -355,9 +355,9 @@ only
 Where
 -
 r
-v34
+v35
 .
-1
+0
 specifies
 the
 protobuf
