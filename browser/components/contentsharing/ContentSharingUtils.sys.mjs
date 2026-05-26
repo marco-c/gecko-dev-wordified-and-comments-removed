@@ -2522,7 +2522,12 @@ gDialogBox
 open
 (
 CONTENT_SHARING_MODAL_URL
+[
 shareResult
+window
+.
+innerWidth
+]
 )
 ;
 if
