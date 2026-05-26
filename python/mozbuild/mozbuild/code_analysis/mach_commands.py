@@ -640,16 +640,7 @@ self
 .
 _srcdir
 )
-            
-else
-:
                 
-self
-.
-_current
-=
-None
-            
 self
 .
 _processed
@@ -659,6 +650,15 @@ self
 _processed
 +
 1
+            
+else
+:
+                
+self
+.
+_current
+=
+None
             
 return
 (
