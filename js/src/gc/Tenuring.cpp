@@ -570,7 +570,7 @@ return
 promotedCells
 ;
 }
-bool
+void
 TenuringTracer
 :
 :
@@ -600,7 +600,6 @@ obj
 )
 {
 return
-true
 ;
 }
 if
@@ -626,7 +625,6 @@ isForwarded
 )
 ;
 return
-true
 ;
 }
 *
@@ -650,9 +648,6 @@ isForwarded
 (
 )
 )
-;
-return
-true
 ;
 }
 JSObject
@@ -832,7 +827,7 @@ obj
 )
 ;
 }
-bool
+void
 TenuringTracer
 :
 :
@@ -862,7 +857,6 @@ str
 )
 {
 return
-true
 ;
 }
 if
@@ -881,7 +875,6 @@ str
 )
 {
 return
-true
 ;
 }
 *
@@ -891,9 +884,6 @@ promoteOrForward
 (
 str
 )
-;
-return
-true
 ;
 }
 JSString
@@ -987,7 +977,7 @@ str
 )
 ;
 }
-bool
+void
 TenuringTracer
 :
 :
@@ -1032,7 +1022,6 @@ bi
 )
 {
 return
-true
 ;
 }
 *
@@ -1042,9 +1031,6 @@ promoteOrForward
 (
 bi
 )
-;
-return
-true
 ;
 }
 JS
@@ -1147,7 +1133,7 @@ bi
 )
 ;
 }
-bool
+void
 TenuringTracer
 :
 :
@@ -1186,7 +1172,6 @@ gs
 )
 {
 return
-true
 ;
 }
 *
@@ -1196,9 +1181,6 @@ promoteOrForward
 (
 gs
 )
-;
-return
-true
 ;
 }
 GetterSetter
@@ -1292,7 +1274,7 @@ gs
 )
 ;
 }
-bool
+void
 TenuringTracer
 :
 :
@@ -1311,11 +1293,8 @@ char
 name
 )
 {
-return
-true
-;
 }
-bool
+void
 TenuringTracer
 :
 :
@@ -1331,11 +1310,8 @@ char
 name
 )
 {
-return
-true
-;
 }
-bool
+void
 TenuringTracer
 :
 :
@@ -1351,11 +1327,8 @@ char
 name
 )
 {
-return
-true
-;
 }
-bool
+void
 TenuringTracer
 :
 :
@@ -1371,11 +1344,8 @@ char
 name
 )
 {
-return
-true
-;
 }
-bool
+void
 TenuringTracer
 :
 :
@@ -1391,11 +1361,8 @@ char
 name
 )
 {
-return
-true
-;
 }
-bool
+void
 TenuringTracer
 :
 :
@@ -1411,11 +1378,8 @@ char
 name
 )
 {
-return
-true
-;
 }
-bool
+void
 TenuringTracer
 :
 :
@@ -1434,11 +1398,8 @@ char
 name
 )
 {
-return
-true
-;
 }
-bool
+void
 TenuringTracer
 :
 :
@@ -1454,9 +1415,6 @@ char
 name
 )
 {
-return
-true
-;
 }
 void
 TenuringTracer
@@ -10357,7 +10315,7 @@ typename
 T
 >
 inline
-bool
+void
 MinorSweepingTracer
 :
 :
@@ -10387,7 +10345,6 @@ thing
 )
 {
 return
-true
 ;
 }
 if
@@ -10410,7 +10367,6 @@ thing
 )
 ;
 return
-true
 ;
 }
 MOZ_ASSERT
@@ -10449,10 +10405,11 @@ thing
 )
 ;
 return
-true
 ;
 }
-return
-false
+*
+thingp
+=
+nullptr
 ;
 }

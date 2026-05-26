@@ -4345,7 +4345,7 @@ template
 typename
 T
 >
-bool
+void
 MarkingTracerT
 <
 opts
@@ -4378,7 +4378,6 @@ thing
 )
 {
 return
-true
 ;
 }
 if
@@ -4423,7 +4422,6 @@ Black
 )
 ;
 return
-true
 ;
 }
 MOZ_ASSERT_IF
@@ -4545,9 +4543,6 @@ thing
 )
 ;
 }
-return
-true
-;
 }
 #
 define
@@ -4560,7 +4555,7 @@ _2
 )
 \
 template
-bool
+void
 MarkingTracerT
 <
 MarkingOptions
@@ -4588,7 +4583,7 @@ name
 ;
 \
 template
-bool
+void
 \
 MarkingTracerT
 <
@@ -4617,7 +4612,7 @@ name
 ;
 \
 template
-bool
+void
 \
 MarkingTracerT
 <
@@ -15446,7 +15441,7 @@ typename
 T
 >
 inline
-bool
+void
 SweepingTracer
 :
 :
@@ -15476,7 +15471,6 @@ thing
 )
 {
 return
-true
 ;
 }
 CheckIsMarkedThing
@@ -15496,7 +15490,6 @@ isTenured
 )
 {
 return
-true
 ;
 }
 TenuredCell
@@ -15604,9 +15597,9 @@ isGCMarking
 }
 #
 endif
-bool
-sweepZone
-=
+if
+(
+(
 zone
 -
 >
@@ -15631,11 +15624,7 @@ isGCMarking
 (
 )
 )
-;
-return
-!
-(
-sweepZone
+)
 &
 &
 !
@@ -15646,7 +15635,13 @@ isMarkedAny
 (
 )
 )
+{
+*
+thingp
+=
+nullptr
 ;
+}
 }
 namespace
 js
@@ -16097,7 +16092,7 @@ template
 typename
 T
 >
-bool
+void
 onEdge
 (
 T
@@ -16126,9 +16121,6 @@ thing
 )
 ;
 }
-return
-true
-;
 }
 friend
 class

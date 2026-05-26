@@ -776,7 +776,7 @@ isGCCompacting
 )
 )
 {
-TraceOrClearWeakEdge
+TraceWeakEdge
 (
 trc
 &
