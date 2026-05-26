@@ -924,6 +924,17 @@ nsGkAtoms
 :
 placeholder
 ;
+static
+constexpr
+nsStaticAtom
+*
+HeadingLevel
+=
+nsGkAtoms
+:
+:
+level
+;
 #
 ifdef
 XP_WIN
