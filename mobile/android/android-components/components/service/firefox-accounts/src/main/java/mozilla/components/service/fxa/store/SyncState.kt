@@ -210,7 +210,7 @@ AccountState
 =
 AccountState
 .
-NotAuthenticated
+Unknown
 val
 constellationState
 :
