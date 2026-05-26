@@ -187,6 +187,9 @@ primary
 destructive
 "
 "
+toolbar
+"
+"
 icon
 "
 "
@@ -1007,6 +1010,11 @@ args
 Default
 .
 args
+type
+:
+"
+toolbar
+"
 showOuterPadding
 :
 true
