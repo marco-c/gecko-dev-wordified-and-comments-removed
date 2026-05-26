@@ -237,6 +237,7 @@ window
 AWPredictRemoteType
 (
 {
+browserEl
 url
 }
 )
