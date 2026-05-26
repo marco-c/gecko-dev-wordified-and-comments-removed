@@ -1207,7 +1207,7 @@ getSizeOfNurseryBuffers
 )
 ;
 void
-addSizeOfExcludingThis
+addBufferSizesAndCounts
 (
 size_t
 *
@@ -1218,6 +1218,15 @@ freeBytesOut
 size_t
 *
 adminBytesOut
+size_t
+*
+totalChunksOut
+size_t
+*
+freeRegionsOut
+size_t
+*
+largeAllocsOut
 )
 ;
 static
