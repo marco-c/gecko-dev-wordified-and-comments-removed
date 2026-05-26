@@ -102,7 +102,7 @@ already_AddRefed
 <
 SVGRect
 >
-GetBaseVal
+BaseVal
 (
 )
 ;
@@ -110,7 +110,7 @@ already_AddRefed
 <
 SVGRect
 >
-GetAnimVal
+AnimVal
 (
 )
 ;

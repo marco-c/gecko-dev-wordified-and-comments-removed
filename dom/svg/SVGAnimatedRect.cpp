@@ -105,7 +105,7 @@ SVGRect
 SVGAnimatedRect
 :
 :
-GetBaseVal
+BaseVal
 (
 )
 {
@@ -117,6 +117,14 @@ ToDOMBaseVal
 (
 mSVGElement
 )
+.
+unwrapBasePtr
+(
+)
+.
+forget
+(
+)
 ;
 }
 already_AddRefed
@@ -126,7 +134,7 @@ SVGRect
 SVGAnimatedRect
 :
 :
-GetAnimVal
+AnimVal
 (
 )
 {
@@ -137,6 +145,14 @@ mVal
 ToDOMAnimVal
 (
 mSVGElement
+)
+.
+unwrapBasePtr
+(
+)
+.
+forget
+(
 )
 ;
 }
