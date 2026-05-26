@@ -22944,7 +22944,13 @@ scriptedCaller
 (
 )
 .
-filenameIsURL
+kind
+=
+=
+ScriptedCallerKind
+:
+:
+Url
 )
 {
 const
@@ -22960,7 +22966,7 @@ scriptedCaller
 (
 )
 .
-filename
+source
 .
 get
 (
@@ -23023,7 +23029,7 @@ scriptedCaller
 (
 )
 .
-filename
+source
 .
 get
 (

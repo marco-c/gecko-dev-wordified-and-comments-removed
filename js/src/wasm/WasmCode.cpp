@@ -4739,7 +4739,7 @@ scriptedCaller
 (
 )
 .
-filename
+source
 .
 get
 (
@@ -7543,7 +7543,7 @@ scriptedCaller
 (
 )
 .
-filename
+source
 .
 get
 (
@@ -9061,6 +9061,12 @@ SymbolicAddress
 :
 :
 PrintText
+:
+case
+SymbolicAddress
+:
+:
+Printf
 :
 break
 ;

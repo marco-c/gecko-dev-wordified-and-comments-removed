@@ -284,7 +284,7 @@ scriptedCaller
 return
 scriptedCaller
 .
-filename
+source
 ?
 JS_smprintf
 (
@@ -297,7 +297,7 @@ d
 "
 scriptedCaller
 .
-filename
+source
 .
 get
 (
