@@ -2181,11 +2181,8 @@ this
 .
 manager
 .
-_clearOptIns
+_clearOptInRecipes
 (
-this
-.
-SOURCE
 {
 onlyFeatureIds
 }
@@ -2647,6 +2644,14 @@ updated
 }
 finally
 {
+this
+.
+manager
+.
+_sortOptInRecipes
+(
+)
+;
 /
 /
 Submit
