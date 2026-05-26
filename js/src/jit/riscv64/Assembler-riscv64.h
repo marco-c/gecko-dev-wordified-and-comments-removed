@@ -2798,7 +2798,7 @@ is_get_temp_reg
 false
 )
 ;
-void
+BufferOffset
 li_constant
 (
 Register
@@ -2807,7 +2807,7 @@ int64_t
 imm
 )
 ;
-void
+BufferOffset
 li_ptr
 (
 Register
