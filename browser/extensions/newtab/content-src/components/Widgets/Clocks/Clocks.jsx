@@ -2978,6 +2978,11 @@ supportedTimeZones
 {
 supportedTimeZones
 }
+locale
+=
+{
+locale
+}
 onSave
 =
 {
