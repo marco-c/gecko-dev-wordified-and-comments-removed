@@ -7452,6 +7452,12 @@ libs
 .
 androidx
 .
+exifinterface
+implementation
+libs
+.
+androidx
+.
 fragment
 implementation
 libs
