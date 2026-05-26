@@ -858,13 +858,6 @@ label
 )
 ;
 CodeOffset
-BranchAndLinkShort
-(
-int32_t
-offset
-)
-;
-CodeOffset
 BranchAndLinkShortHelper
 (
 int32_t
