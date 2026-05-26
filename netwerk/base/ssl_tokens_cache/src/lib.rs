@@ -719,7 +719,7 @@ VERSION
 :
 u8
 =
-3
+2
 ;
 const
 HEADER_SIZE
