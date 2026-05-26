@@ -843,8 +843,6 @@ indent
 (
 this
 .
-ruleEditor
-.
 rule
 .
 domRule
@@ -1510,8 +1508,6 @@ isRuleInStartingStyle
 =
 this
 .
-ruleEditor
-.
 rule
 .
 isInStartingStyle
@@ -1522,8 +1518,6 @@ const
 rulePseudoElement
 =
 this
-.
-ruleEditor
 .
 rule
 .
@@ -3104,8 +3098,6 @@ rule
 :
 this
 .
-prop
-.
 rule
 property
 :
@@ -4573,8 +4565,6 @@ overridden
 !
 this
 .
-ruleEditor
-.
 rule
 .
 isUnmatched
@@ -5150,8 +5140,6 @@ event
 >
 {
 this
-.
-ruleEditor
 .
 ruleView
 .
@@ -7129,8 +7117,6 @@ direction
 {
 this
 .
-ruleEditor
-.
 rule
 .
 editClosestTextProperty
@@ -7310,8 +7296,6 @@ const
 onPropertySet
 =
 this
-.
-ruleEditor
 .
 rule
 .
@@ -7808,8 +7792,6 @@ value
 )
 ;
 this
-.
-ruleEditor
 .
 rule
 .
