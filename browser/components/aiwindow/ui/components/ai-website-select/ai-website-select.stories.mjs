@@ -132,7 +132,7 @@ select
 argTypes
 :
 {
-tabId
+linkedPanel
 :
 {
 control
@@ -159,7 +159,7 @@ control
 text
 "
 }
-href
+url
 :
 {
 control
@@ -201,10 +201,10 @@ Template
 =
 (
 {
-tabId
+linkedPanel
 label
 iconSrc
-href
+url
 checked
 }
 )
@@ -218,10 +218,10 @@ website
 -
 select
 .
-tabId
+linkedPanel
 =
 {
-tabId
+linkedPanel
 }
 .
 label
@@ -236,10 +236,10 @@ iconSrc
 iconSrc
 }
 .
-href
+url
 =
 {
-href
+url
 |
 |
 "
@@ -281,7 +281,7 @@ Default
 args
 =
 {
-tabId
+linkedPanel
 :
 "
 tab
@@ -315,7 +315,7 @@ logo
 .
 svg
 "
-href
+url
 :
 "
 https

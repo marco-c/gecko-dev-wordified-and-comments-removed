@@ -391,7 +391,7 @@ event
 .
 detail
 .
-tabId
+linkedPanel
 "
 test
 -
@@ -609,7 +609,7 @@ unchecked
 ;
 select
 .
-tabId
+linkedPanel
 =
 "
 test
@@ -628,7 +628,7 @@ Label
 ;
 select
 .
-href
+url
 =
 "
 https
@@ -730,7 +730,7 @@ event
 .
 detail
 .
-tabId
+linkedPanel
 "
 test
 -
@@ -740,7 +740,7 @@ id
 Event
 has
 correct
-tabId
+linkedPanel
 "
 )
 ;
@@ -773,7 +773,7 @@ event
 .
 detail
 .
-href
+url
 "
 https
 :
@@ -789,7 +789,7 @@ com
 Event
 has
 correct
-href
+url
 "
 )
 ;
@@ -1133,9 +1133,9 @@ ok
 (
 select
 .
-href
+url
 "
-Href
+URL
 property
 is
 accessible
