@@ -69,15 +69,6 @@ enabled
 =
 false
 "
-"
-dom
-.
-lift_select_parser_restrictions
-.
-enabled
-=
-true
-"
 ]
 [
 "
