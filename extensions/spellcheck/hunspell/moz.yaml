@@ -170,6 +170,16 @@ build
 fixes
 .
 patch
+-
+patches
+/
+bug2037089
+-
+hentry
+-
+pack
+.
+patch
 update
 -
 actions
