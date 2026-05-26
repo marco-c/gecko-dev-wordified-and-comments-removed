@@ -81,14 +81,14 @@ the
 time
 in
 parallel
-skip
+run
 -
 if
 =
 [
 "
 os
-=
+!
 =
 '
 win
