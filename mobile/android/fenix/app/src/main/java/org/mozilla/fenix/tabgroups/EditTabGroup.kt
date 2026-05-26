@@ -1594,7 +1594,7 @@ else
 {
 AcornCorners
 .
-large
+small
 }
 animationSpec
 =
