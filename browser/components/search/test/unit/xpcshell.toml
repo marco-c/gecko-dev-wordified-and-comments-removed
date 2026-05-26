@@ -228,6 +228,13 @@ json
 ]
 [
 "
+test_convert_provider_infos_to_match_patterns
+.
+js
+"
+]
+[
+"
 test_urlTelemetry
 .
 js
