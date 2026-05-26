@@ -410,6 +410,12 @@ is
 LoginsLoaded
 is
 SearchLogins
+is
+ImportPasswordsOverflowMenuClicked
+is
+ImportPasswordsOverflowMenuDismissed
+is
+ImportFileClicked
 -
 >
 Unit

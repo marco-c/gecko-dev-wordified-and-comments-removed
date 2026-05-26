@@ -213,6 +213,16 @@ NavController
 private
 lateinit
 var
+navigateToImportDialog
+:
+(
+)
+-
+>
+Unit
+private
+lateinit
+var
 exitLogins
 :
 (
@@ -315,6 +325,10 @@ relaxed
 =
 true
 )
+navigateToImportDialog
+=
+{
+}
 exitLogins
 =
 {
@@ -949,6 +963,9 @@ getNavController
 {
 navController
 }
+navigateToImportDialog
+=
+navigateToImportDialog
 exitLogins
 =
 exitLogins
