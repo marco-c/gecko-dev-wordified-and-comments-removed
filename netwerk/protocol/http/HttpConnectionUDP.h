@@ -369,8 +369,10 @@ HandleTunnelResponse
 nsHttpTransaction
 *
 aHttpTransaction
-uint16_t
-responseStatus
+const
+nsHttpResponseHead
+&
+responseHead
 bool
 *
 reset
