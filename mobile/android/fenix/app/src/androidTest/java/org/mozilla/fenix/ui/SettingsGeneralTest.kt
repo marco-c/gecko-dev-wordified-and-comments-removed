@@ -544,6 +544,9 @@ verifyAccessibilityButton
 verifyLanguageButton
 (
 )
+verifyPageSummariesButton
+(
+)
 verifySetAsDefaultBrowserButton
 (
 )
