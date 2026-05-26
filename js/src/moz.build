@@ -1694,6 +1694,16 @@ h
 /
 public
 /
+WasmComponent
+.
+h
+"
+"
+.
+.
+/
+public
+/
 WasmFeatures
 .
 h

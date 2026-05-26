@@ -543,6 +543,11 @@ WasmModule
 \
 _
 (
+WasmComponent
+)
+\
+_
+(
 WasmTableTable
 )
 \

@@ -192,6 +192,14 @@ Instance
 class
 Module
 ;
+#
+ifdef
+ENABLE_WASM_COMPONENTS
+class
+Component
+;
+#
+endif
 class
 Code
 ;

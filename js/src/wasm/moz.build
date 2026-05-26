@@ -179,6 +179,11 @@ WasmCompile
 cpp
 "
 "
+WasmComponent
+.
+cpp
+"
+"
 WasmContext
 .
 cpp
@@ -295,6 +300,11 @@ cpp
 "
 "
 WasmSignalHandlers
+.
+cpp
+"
+"
+WasmStacks
 .
 cpp
 "
