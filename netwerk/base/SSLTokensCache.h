@@ -644,16 +644,6 @@ sLock
 0
 }
 ;
-bool
-mWriteObserversRegistered
-MOZ_GUARDED_BY
-(
-sLock
-)
-{
-false
-}
-;
 nsCOMPtr
 <
 nsIFile
