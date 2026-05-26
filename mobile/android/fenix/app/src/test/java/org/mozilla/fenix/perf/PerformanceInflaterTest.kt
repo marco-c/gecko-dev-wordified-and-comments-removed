@@ -321,7 +321,7 @@ R
 .
 layout
 .
-fragment_home
+fragment_about
 null
 false
 )
