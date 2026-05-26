@@ -1042,7 +1042,7 @@ mozilla
 /
 net
 /
-UrlClassifierFeatureFactory
+ChannelClassifierUtils
 .
 h
 "
@@ -4534,7 +4534,7 @@ aErrorCode
 {
 MOZ_ASSERT
 (
-UrlClassifierFeatureFactory
+ChannelClassifierUtils
 :
 :
 IsClassifierBlockingErrorCode
@@ -33739,7 +33739,7 @@ ifdef
 DEBUG
 if
 (
-UrlClassifierFeatureFactory
+ChannelClassifierUtils
 :
 :
 IsClassifierBlockingErrorCode
@@ -33749,7 +33749,7 @@ status
 &
 &
 !
-UrlClassifierFeatureFactory
+ChannelClassifierUtils
 :
 :
 IsClassifierBlockingErrorCode
@@ -33958,7 +33958,7 @@ aErrorCode
 {
 MOZ_ASSERT
 (
-UrlClassifierFeatureFactory
+ChannelClassifierUtils
 :
 :
 IsClassifierBlockingErrorCode
@@ -34144,7 +34144,7 @@ aErrorCode
 {
 MOZ_ASSERT
 (
-UrlClassifierFeatureFactory
+ChannelClassifierUtils
 :
 :
 IsClassifierBlockingErrorCode
@@ -34281,7 +34281,7 @@ LoadChannelClassifierCancellationPending
 ;
 if
 (
-UrlClassifierFeatureFactory
+ChannelClassifierUtils
 :
 :
 IsClassifierBlockingErrorCode

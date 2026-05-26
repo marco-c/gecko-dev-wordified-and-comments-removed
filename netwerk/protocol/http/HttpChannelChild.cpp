@@ -190,17 +190,6 @@ h
 #
 include
 "
-mozilla
-/
-net
-/
-UrlClassifierFeatureFactory
-.
-h
-"
-#
-include
-"
 AltDataOutputStreamChild
 .
 h
@@ -5722,7 +5711,7 @@ checkForBlockedContent
 {
 if
 (
-UrlClassifierFeatureFactory
+ChannelClassifierUtils
 :
 :
 IsClassifierBlockingErrorCode

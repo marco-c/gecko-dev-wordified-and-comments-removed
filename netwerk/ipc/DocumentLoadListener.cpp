@@ -568,7 +568,7 @@ mozilla
 /
 net
 /
-UrlClassifierFeatureFactory
+ChannelClassifierUtils
 .
 h
 "
@@ -12902,7 +12902,7 @@ return
 if
 (
 !
-UrlClassifierFeatureFactory
+ChannelClassifierUtils
 :
 :
 IsClassifierBlockingErrorCode

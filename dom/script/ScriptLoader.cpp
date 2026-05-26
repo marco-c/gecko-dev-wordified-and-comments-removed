@@ -583,17 +583,6 @@ h
 #
 include
 "
-mozilla
-/
-net
-/
-UrlClassifierFeatureFactory
-.
-h
-"
-#
-include
-"
 nsAboutProtocolUtils
 .
 h
@@ -23609,7 +23598,7 @@ if
 net
 :
 :
-UrlClassifierFeatureFactory
+ChannelClassifierUtils
 :
 :
 IsClassifierBlockingErrorCode
@@ -23968,7 +23957,7 @@ if
 net
 :
 :
-UrlClassifierFeatureFactory
+ChannelClassifierUtils
 :
 :
 IsClassifierBlockingErrorCode

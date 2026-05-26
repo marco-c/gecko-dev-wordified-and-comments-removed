@@ -447,7 +447,7 @@ mozilla
 /
 net
 /
-DocumentChannel
+ChannelClassifierUtils
 .
 h
 "
@@ -458,7 +458,7 @@ mozilla
 /
 net
 /
-UrlClassifierFeatureFactory
+DocumentChannel
 .
 h
 "
@@ -1688,7 +1688,7 @@ NS_ERROR_FAILURE
 }
 if
 (
-UrlClassifierFeatureFactory
+ChannelClassifierUtils
 :
 :
 IsClassifierBlockingErrorCode
@@ -1781,7 +1781,7 @@ NETWORK
 ;
 if
 (
-UrlClassifierFeatureFactory
+ChannelClassifierUtils
 :
 :
 IsClassifierBlockingErrorCode
