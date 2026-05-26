@@ -1064,6 +1064,14 @@ m
 .
 webSearchQueries
 )
+tool_ui_data_jsonb
+:
+toJSONOrNull
+(
+m
+.
+toolUIData
+)
 }
 )
 )
