@@ -715,7 +715,7 @@ mDictionaryData
 Atomic
 <
 bool
-ReleaseAcquire
+Relaxed
 >
 mDictionaryDataComplete
 {
