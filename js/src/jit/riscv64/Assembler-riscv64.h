@@ -3545,11 +3545,6 @@ leaveNoPool
 }
 }
 ;
-using
-BlockTrampolinePoolScope
-=
-AutoForbidPoolsAndNops
-;
 }
 }
 #
