@@ -1339,7 +1339,7 @@ Composable
 fun
 LazyItemScope
 .
-DragItemContainer
+ReorderableDragItemContainer
 (
 state
 :

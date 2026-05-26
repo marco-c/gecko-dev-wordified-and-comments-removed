@@ -1021,7 +1021,7 @@ wrapContentSize
 (
 )
 .
-tabItemInteractionAnimation
+tabItemGridInteractionAnimation
 (
 interactionState
 )

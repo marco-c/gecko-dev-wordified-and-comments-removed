@@ -92,8 +92,7 @@ candidate
 for
 a
 tab
-or
-list
+grid
 item
 interaction
 .
@@ -155,7 +154,7 @@ target
 /
 data
 class
-InteractionCandidate
+GridInteractionCandidate
 (
 val
 type

@@ -757,7 +757,7 @@ ui
 .
 tabitems
 .
-tabItemInteractionAnimation
+tabItemGridInteractionAnimation
 import
 org
 .
@@ -988,7 +988,7 @@ wrapContentSize
 (
 )
 .
-tabItemInteractionAnimation
+tabItemGridInteractionAnimation
 (
 interactionState
 )

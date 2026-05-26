@@ -743,7 +743,7 @@ browser
 .
 compose
 .
-DragItemContainer
+ReorderableDragItemContainer
 import
 org
 .
@@ -1857,7 +1857,7 @@ index
 itemState
 -
 >
-DragItemContainer
+ReorderableDragItemContainer
 (
 state
 =
