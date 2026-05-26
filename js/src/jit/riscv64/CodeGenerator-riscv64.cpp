@@ -1317,8 +1317,8 @@ jumpLabel
 )
 )
 ;
-BlockTrampolinePoolScope
-block_trampoline_pool
+AutoForbidPoolsAndNops
+afp
 (
 &
 masm
@@ -1329,10 +1329,7 @@ numCases
 (
 )
 *
-sizeof
-(
-uint64_t
-)
+2
 )
 ;
 for
