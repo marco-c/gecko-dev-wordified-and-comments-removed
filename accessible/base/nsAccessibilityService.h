@@ -1311,6 +1311,15 @@ uint32_t
 aConsumer
 )
 ;
+void
+PromoteFromPdfOutput
+(
+uint64_t
+aCacheDomains
+uint32_t
+aConsumer
+)
+;
 already_AddRefed
 <
 LocalAccessible
