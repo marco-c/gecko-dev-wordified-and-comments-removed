@@ -1399,6 +1399,13 @@ Window
 ]
 [
 "
+browser_toolbox_measure_button_highlighter_destroy
+.
+js
+"
+]
+[
+"
 browser_toolbox_meatball
 .
 js
