@@ -151,6 +151,11 @@ TestDirectoryLock
 cpp
 "
 "
+TestEncryptedRandomAccessBlock
+.
+cpp
+"
+"
 TestEncryptedStream
 .
 cpp
