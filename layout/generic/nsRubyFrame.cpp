@@ -905,6 +905,17 @@ mLeadings
 )
 ;
 }
+if
+(
+!
+StaticPrefs
+:
+:
+layout_abspos_fragment_aware_inline_cb_enabled
+(
+)
+)
+{
 ReflowAbsoluteFrames
 (
 aPresContext
@@ -913,6 +924,7 @@ aReflowInput
 aStatus
 )
 ;
+}
 }
 void
 nsRubyFrame
