@@ -229,6 +229,15 @@ state
 backupFileInfo
 .
 osVersion
+backup_os_build_number
+:
+bs
+.
+state
+.
+backupFileInfo
+.
+osBuildNumber
 backup_legacy_client_id
 :
 bs

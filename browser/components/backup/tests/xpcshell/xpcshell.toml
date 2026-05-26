@@ -413,6 +413,13 @@ js
 ]
 [
 "
+test_BackupService_restoreStepTelemetry
+.
+js
+"
+]
+[
+"
 test_BackupService_retryHeuristic
 .
 js
