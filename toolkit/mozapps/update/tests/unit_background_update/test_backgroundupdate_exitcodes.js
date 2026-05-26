@@ -168,9 +168,7 @@ mozilla
 .
 org
 /
-widget
-/
-windows
+win
 -
 test
 -
