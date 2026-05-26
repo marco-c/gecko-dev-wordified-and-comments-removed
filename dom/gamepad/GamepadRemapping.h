@@ -168,6 +168,12 @@ kSonyProduct09cc
 kSonyProduct0ba0
 =
 0x054c0ba0
+kSonyProduct0ce6
+=
+0x054c0ce6
+kSonyProduct0df2
+=
+0x054c0df2
 kVendor20d6Product6271
 =
 0x20d66271
