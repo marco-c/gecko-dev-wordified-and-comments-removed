@@ -3362,6 +3362,17 @@ if
 didRemove
 )
 {
+UrlbarUtils
+.
+clearAutofillBackspaceEntryForUrl
+(
+result
+.
+payload
+.
+url
+)
+;
 /
 /
 Upon
