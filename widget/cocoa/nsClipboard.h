@@ -155,6 +155,10 @@ aFlavor
 NSPasteboard
 *
 aPasteboard
+uint64_t
+aThreshold
+=
+0
 )
 ;
 mozilla
@@ -204,6 +208,8 @@ nsACString
 aFlavor
 ClipboardType
 aWhichClipboard
+uint64_t
+aThreshold
 )
 override
 ;

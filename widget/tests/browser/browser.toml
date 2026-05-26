@@ -135,6 +135,13 @@ js
 ]
 [
 "
+browser_test_clipboard_getDataIfSmallerThan_parent
+.
+js
+"
+]
+[
+"
 browser_test_clipboardcache
 .
 js
@@ -536,6 +543,11 @@ files
 [
 "
 helper_swipe_gesture
+.
+html
+"
+"
+helper_swipe_gesture_rotated_vertical
 .
 html
 "
