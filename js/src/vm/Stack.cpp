@@ -2166,6 +2166,11 @@ JSTracer
 trc
 )
 {
+traceCommon
+(
+trc
+)
+;
 for
 (
 InterpreterFrameIterator

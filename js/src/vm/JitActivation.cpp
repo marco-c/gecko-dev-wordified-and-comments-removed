@@ -317,6 +317,11 @@ JSTracer
 trc
 )
 {
+traceCommon
+(
+trc
+)
+;
 TraceJitFrames
 (
 trc
