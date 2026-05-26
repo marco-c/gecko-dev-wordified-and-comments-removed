@@ -139,9 +139,6 @@ timing_distribution
 time_unit
 :
 millisecond
-telemetry_mirror
-:
-TIME_TO_RESPONSE_START_MS
 description
 :
 >
