@@ -101,7 +101,7 @@ whole_string
 encoding
 0
 false
-NULL
+nullptr
 0
 &
 out_size
@@ -188,7 +188,7 @@ out_buffer
 ]
 )
 out_size
-NULL
+nullptr
 )
 ;
 if
@@ -283,7 +283,7 @@ cfstring
 (
 CFStringCreateWithBytesNoCopy
 (
-NULL
+nullptr
 reinterpret_cast
 <
 const

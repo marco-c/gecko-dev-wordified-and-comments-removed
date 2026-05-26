@@ -49,7 +49,7 @@ wchar_t
 *
 string_buffer
 =
-NULL
+nullptr
 ;
 :
 :

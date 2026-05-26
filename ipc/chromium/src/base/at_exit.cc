@@ -24,7 +24,7 @@ AtExitManager
 *
 g_top_manager
 =
-NULL
+nullptr
 ;
 AtExitManager
 :
@@ -41,7 +41,7 @@ AtExitManager
 )
 next_manager_
 (
-NULL
+nullptr
 )
 {
 DCHECK

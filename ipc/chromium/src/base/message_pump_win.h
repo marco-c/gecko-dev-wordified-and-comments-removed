@@ -137,7 +137,7 @@ have_work_
 )
 state_
 (
-NULL
+nullptr
 )
 {
 }
@@ -205,7 +205,7 @@ delegate
 RunWithDispatcher
 (
 delegate
-NULL
+nullptr
 )
 ;
 }

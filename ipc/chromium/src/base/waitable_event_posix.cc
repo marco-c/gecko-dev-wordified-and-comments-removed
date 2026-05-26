@@ -247,7 +247,7 @@ lock
 )
 signaling_event_
 (
-NULL
+nullptr
 )
 {
 }

@@ -417,7 +417,7 @@ DCHECK
 time_string
 !
 =
-NULL
+nullptr
 )
 &
 &
@@ -425,7 +425,7 @@ NULL
 parsed_time
 !
 =
-NULL
+nullptr
 )
 )
 ;

@@ -284,7 +284,7 @@ return
 startup_data_
 !
 =
-NULL
+nullptr
 ;
 }
 struct

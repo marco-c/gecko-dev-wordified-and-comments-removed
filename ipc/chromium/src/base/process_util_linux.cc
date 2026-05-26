@@ -674,7 +674,7 @@ size
 )
 ]
 =
-NULL
+nullptr
 ;
 #
 ifdef
@@ -851,7 +851,7 @@ HANDLE_EINTR
 waitpid
 (
 pid
-0
+nullptr
 0
 )
 )

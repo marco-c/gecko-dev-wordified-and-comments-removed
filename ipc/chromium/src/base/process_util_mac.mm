@@ -281,7 +281,7 @@ size
 )
 ]
 =
-NULL
+nullptr
 ;
 EnvironmentArray
 env_storage
@@ -978,7 +978,7 @@ HANDLE_EINTR
 waitpid
 (
 pid
-0
+nullptr
 0
 )
 )

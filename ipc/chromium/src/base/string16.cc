@@ -181,7 +181,7 @@ s
 ;
 }
 return
-0
+nullptr
 ;
 }
 char16

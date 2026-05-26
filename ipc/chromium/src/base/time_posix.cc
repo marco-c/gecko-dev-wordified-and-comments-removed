@@ -300,7 +300,7 @@ timestruct
 .
 tm_zone
 =
-NULL
+nullptr
 ;
 #
 endif

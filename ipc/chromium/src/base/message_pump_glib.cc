@@ -247,7 +247,7 @@ WorkSourceFuncs
 WorkSourcePrepare
 WorkSourceCheck
 WorkSourceDispatch
-NULL
+nullptr
 }
 ;
 }
@@ -263,7 +263,7 @@ MessagePumpForUI
 :
 state_
 (
-NULL
+nullptr
 )
 context_
 (
@@ -399,7 +399,7 @@ GdkEventFunc
 gtk_main_do_event
 )
 this
-NULL
+nullptr
 )
 ;
 g_source_destroy

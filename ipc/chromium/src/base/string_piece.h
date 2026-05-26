@@ -55,7 +55,7 @@ StringPiece
 :
 ptr_
 (
-NULL
+nullptr
 )
 length_
 (
@@ -82,7 +82,7 @@ length_
 str
 =
 =
-NULL
+nullptr
 )
 ?
 0
@@ -196,7 +196,7 @@ clear
 {
 ptr_
 =
-NULL
+nullptr
 ;
 length_
 =

@@ -80,7 +80,7 @@ MachMessageSource
 OnReceiveMachMessage
 &
 port_context
-NULL
+nullptr
 )
 )
 ;
@@ -93,7 +93,7 @@ get
 )
 =
 =
-NULL
+nullptr
 )
 {
 CHROMIUM_LOG
@@ -140,7 +140,7 @@ get
 )
 =
 =
-NULL
+nullptr
 )
 {
 CHROMIUM_LOG

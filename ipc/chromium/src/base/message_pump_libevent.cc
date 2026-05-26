@@ -301,7 +301,7 @@ false
 )
 event_
 (
-NULL
+nullptr
 )
 {
 }
@@ -353,7 +353,7 @@ DCHECK
 event_
 =
 =
-NULL
+nullptr
 )
 ;
 is_persistent_
@@ -386,7 +386,7 @@ event_
 ;
 event_
 =
-NULL
+nullptr
 ;
 return
 e
@@ -416,7 +416,7 @@ if
 e
 =
 =
-NULL
+nullptr
 )
 return
 true
@@ -755,7 +755,7 @@ if
 event_add
 (
 wakeup_event_
-0
+nullptr
 )
 )
 return
@@ -954,7 +954,7 @@ get
 )
 =
 =
-NULL
+nullptr
 )
 {
 should_delete_event
@@ -1119,7 +1119,7 @@ evt
 get
 (
 )
-NULL
+nullptr
 )
 !
 =
