@@ -392,6 +392,15 @@ updatedDate
 ;
 status
 ;
+/
+*
+*
+type
+{
+SecurityProperties
+}
+*
+/
 securityProperties
 ;
 /
