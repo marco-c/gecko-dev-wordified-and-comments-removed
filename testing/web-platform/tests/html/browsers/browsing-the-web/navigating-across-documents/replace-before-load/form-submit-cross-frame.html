@@ -225,6 +225,13 @@ frameStartingCode
 )
 ;
 const
+frameBeforeLoadedMessagePromise
+=
+waitForMessage
+(
+)
+;
+const
 frame
 =
 insertIframe
@@ -288,9 +295,7 @@ const
 frameBeforeLoadedMessage
 =
 await
-waitForMessage
-(
-)
+frameBeforeLoadedMessagePromise
 ;
 assert_equals
 (
