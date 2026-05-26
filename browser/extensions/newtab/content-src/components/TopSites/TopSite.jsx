@@ -4886,11 +4886,16 @@ topSites
 .
 length
 =
+(
 this
 .
 props
 .
 TopSitesRows
+?
+?
+0
+)
 *
 (
 this
