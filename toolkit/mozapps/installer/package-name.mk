@@ -204,8 +204,6 @@ MOZ_SIMPLE_PACKAGE_NAME
 )
 .
 langpack
-PKG_LANGPACK_PATH
-=
 else
 PKG_LANGPACK_BASENAME
 =
@@ -222,14 +220,6 @@ AB_CD
 )
 .
 langpack
-PKG_LANGPACK_PATH
-=
-(
-MOZ_PKG_PLATFORM
-)
-/
-xpi
-/
 endif
 LANGPACK
 =
