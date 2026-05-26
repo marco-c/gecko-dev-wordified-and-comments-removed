@@ -1114,6 +1114,7 @@ TraceWeakEdge
 JSTracer
 *
 trc
+const
 BarrieredBase
 <
 T
