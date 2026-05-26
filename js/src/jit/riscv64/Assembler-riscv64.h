@@ -2686,11 +2686,6 @@ false
 )
 ;
 void
-nop
-(
-)
-;
-void
 RV_li
 (
 Register
