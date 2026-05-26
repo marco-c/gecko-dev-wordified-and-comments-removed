@@ -118,6 +118,13 @@ js
 ]
 [
 "
+browser_qrcode_save_filename
+.
+js
+"
+]
+[
+"
 browser_qrcode_share_menu
 .
 js
