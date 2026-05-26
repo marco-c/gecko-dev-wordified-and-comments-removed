@@ -195,7 +195,7 @@ const
 override
 ;
 void
-Init
+CreateInitialDocs
 (
 )
 ;

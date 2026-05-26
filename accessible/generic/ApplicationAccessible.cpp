@@ -607,7 +607,7 @@ void
 ApplicationAccessible
 :
 :
-Init
+CreateInitialDocs
 (
 )
 {

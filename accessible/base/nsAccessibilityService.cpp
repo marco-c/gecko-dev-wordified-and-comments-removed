@@ -9157,7 +9157,7 @@ gApplicationAccessible
 gApplicationAccessible
 -
 >
-Init
+CreateInitialDocs
 (
 )
 ;
