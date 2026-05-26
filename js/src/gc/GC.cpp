@@ -29830,6 +29830,16 @@ tc
 return
 ;
 }
+if
+(
+CurrentThreadIsTouchingGrayThings
+(
+)
+)
+{
+return
+;
+}
 MOZ_ASSERT
 (
 !
