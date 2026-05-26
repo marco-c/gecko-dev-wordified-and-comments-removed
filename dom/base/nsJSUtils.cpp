@@ -914,6 +914,14 @@ MOZ_FUZZ_DEBUG
 ;
 return
 mozFuzzDebug
+|
+|
+xpc
+:
+:
+IsInAutomation
+(
+)
 ;
 #
 endif
