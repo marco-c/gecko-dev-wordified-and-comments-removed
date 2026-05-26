@@ -96929,6 +96929,12 @@ handleViewUpcoming
 (
 )
 {
+hasUserSelectedTab
+.
+current
+=
+true
+;
 (
 0
 external_ReactRedux_namespaceObject
@@ -97034,6 +97040,12 @@ handleViewResults
 (
 )
 {
+hasUserSelectedTab
+.
+current
+=
+true
+;
 (
 0
 external_ReactRedux_namespaceObject
