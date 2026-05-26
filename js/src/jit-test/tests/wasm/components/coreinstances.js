@@ -475,11 +475,6 @@ satisfy
 )
 ;
 }
-if
-(
-false
-)
-{
 wasmFailValidateText
 (
 (
@@ -543,4 +538,3 @@ supported
 /
 )
 ;
-}
