@@ -100,6 +100,9 @@ PartialEq
 )
 ]
 pub
+(
+crate
+)
 enum
 CrashAnnotation
 {
@@ -190,6 +193,9 @@ PartialEq
 )
 ]
 pub
+(
+crate
+)
 enum
 CrashAnnotationType
 {
@@ -438,6 +444,9 @@ a
 crash
 annotation
 pub
+(
+crate
+)
 fn
 type_of_annotation
 (
@@ -526,6 +535,9 @@ as
 a
 string
 pub
+(
+crate
+)
 fn
 should_include_annotation
 (
