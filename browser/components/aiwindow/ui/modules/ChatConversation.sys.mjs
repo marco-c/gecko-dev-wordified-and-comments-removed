@@ -5828,7 +5828,7 @@ toolUIData
 .
 properties
 .
-confirmedData
+confirmedSelections
 =
 data
 .
