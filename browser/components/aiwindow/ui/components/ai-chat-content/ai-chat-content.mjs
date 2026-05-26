@@ -5889,6 +5889,12 @@ down
 svg
 "
 disabled
+type
+=
+"
+ghost
+icon
+"
 >
 <
 /

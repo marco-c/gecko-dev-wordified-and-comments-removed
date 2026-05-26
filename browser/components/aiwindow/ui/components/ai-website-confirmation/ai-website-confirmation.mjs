@@ -973,6 +973,12 @@ this
 .
 handleClose
 }
+type
+=
+"
+ghost
+icon
+"
 data
 -
 l10n

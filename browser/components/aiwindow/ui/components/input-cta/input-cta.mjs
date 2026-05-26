@@ -1531,7 +1531,7 @@ split
 "
 :
 "
-default
+ghost
 "
 }
 class

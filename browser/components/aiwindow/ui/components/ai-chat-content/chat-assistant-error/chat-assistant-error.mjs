@@ -985,6 +985,11 @@ size
 "
 small
 "
+type
+=
+"
+ghost
+"
 click
 =
 {

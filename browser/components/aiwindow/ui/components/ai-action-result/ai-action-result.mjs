@@ -907,6 +907,11 @@ undo
 -
 button
 "
+type
+=
+"
+ghost
+"
 >
 <
 /

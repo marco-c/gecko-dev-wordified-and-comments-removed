@@ -1320,6 +1320,14 @@ radius
 circle
 )
 ;
+media
+not
+(
+forced
+-
+colors
+)
+{
 -
 -
 button
@@ -1327,6 +1335,8 @@ button
 background
 -
 color
+-
+ghost
 :
 light
 -
@@ -1361,6 +1371,8 @@ button
 background
 -
 color
+-
+ghost
 -
 hover
 :
@@ -1399,6 +1411,8 @@ background
 -
 color
 -
+ghost
+-
 active
 :
 light
@@ -1435,6 +1449,8 @@ button
 text
 -
 color
+-
+ghost
 :
 light
 -
@@ -1462,6 +1478,7 @@ violet
 )
 )
 ;
+}
 }
 moz
 -

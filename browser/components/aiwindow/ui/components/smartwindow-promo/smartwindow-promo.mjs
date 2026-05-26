@@ -647,6 +647,11 @@ slot
 "
 actions
 "
+type
+=
+"
+ghost
+"
 click
 =
 {
