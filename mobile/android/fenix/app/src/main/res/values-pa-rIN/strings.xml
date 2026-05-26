@@ -65214,13 +65214,6 @@ name
 "
 sports_widget_champions_title
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 2026
 <
@@ -65305,13 +65298,6 @@ name
 =
 "
 sports_widget_third_place_title
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 <

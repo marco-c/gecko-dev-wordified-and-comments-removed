@@ -74385,13 +74385,6 @@ name
 "
 sports_widget_champions_title
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 Campionii
 Cupei
@@ -74482,13 +74475,6 @@ name
 =
 "
 sports_widget_third_place_title
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 Locul

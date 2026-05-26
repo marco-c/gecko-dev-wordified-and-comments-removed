@@ -74686,13 +74686,6 @@ name
 "
 sports_widget_champions_title
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 Campeones
 de
@@ -74784,13 +74777,6 @@ name
 =
 "
 sports_widget_third_place_title
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 Tercer

@@ -71865,13 +71865,6 @@ name
 "
 sports_widget_champions_title
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 2026
 World
@@ -71962,13 +71955,6 @@ name
 =
 "
 sports_widget_third_place_title
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 Third
