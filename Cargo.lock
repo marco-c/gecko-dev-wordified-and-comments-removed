@@ -7426,6 +7426,9 @@ minidump
 writer
 "
 "
+mozannotation_server
+"
+"
 nix
 0
 .
@@ -37333,6 +37336,9 @@ anyhow
 crash
 -
 context
+"
+"
+crash_helper_common
 "
 "
 libc
