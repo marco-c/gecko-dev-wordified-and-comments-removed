@@ -60,6 +60,13 @@ js
 ]
 [
 "
+browser_bookmarks_sidebar_auxclick
+.
+js
+"
+]
+[
+"
 browser_bookmarks_sidebar_glean
 .
 js
