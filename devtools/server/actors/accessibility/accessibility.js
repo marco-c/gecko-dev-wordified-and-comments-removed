@@ -197,11 +197,11 @@ const
 enabled
 =
 data
-=
+!
 =
 =
 "
-1
+0
 "
 ;
 if
