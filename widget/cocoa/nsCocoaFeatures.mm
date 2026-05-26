@@ -916,7 +916,7 @@ proc_translated
 ret
 &
 size
-NULL
+nullptr
 0
 )
 =

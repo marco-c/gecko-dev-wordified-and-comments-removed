@@ -4012,7 +4012,7 @@ mHiddenWidget
 ;
 mHiddenWidget
 =
-0
+nullptr
 ;
 }
 }
@@ -8796,7 +8796,7 @@ GtkTargetList
 *
 targetList
 =
-0
+nullptr
 ;
 uint32_t
 targetCount

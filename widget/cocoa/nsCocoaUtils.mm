@@ -2182,7 +2182,7 @@ kCGBitmapByteOrder32Host
 |
 kCGImageAlphaPremultipliedFirst
 dataProvider
-NULL
+nullptr
 0
 kCGRenderingIntentDefault
 )
@@ -2274,7 +2274,7 @@ alloc
 ]
 initWithBitmapDataPlanes
 :
-NULL
+nullptr
 pixelsWide
 :
 width
@@ -2791,7 +2791,7 @@ NS_ERROR_FAILURE
 CGImageRef
 imageRef
 =
-NULL
+nullptr
 ;
 nsresult
 rv

@@ -876,7 +876,7 @@ additionalEventParamDescriptor
 descriptor
 launchIdentifiers
 :
-NULL
+nullptr
 ]
 ;
 [

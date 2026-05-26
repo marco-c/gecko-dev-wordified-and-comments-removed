@@ -228,7 +228,7 @@ ParamBlock
 {
 mBlock
 =
-0
+nullptr
 ;
 }
 ~

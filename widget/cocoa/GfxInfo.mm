@@ -395,7 +395,7 @@ if
 vp
 !
 =
-NULL
+nullptr
 )
 value
 =

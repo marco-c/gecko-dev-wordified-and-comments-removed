@@ -476,7 +476,7 @@ NSRectToCGRect
 (
 aWithFrame
 )
-0
+nullptr
 )
 ;
 [
@@ -787,7 +787,7 @@ nsIWidget
 *
 aTopLevelWidget
 =
-NULL
+nullptr
 )
 {
 if
@@ -991,7 +991,7 @@ nsIWidget
 *
 topLevelWidget
 =
-NULL
+nullptr
 ;
 NSWindow
 *
@@ -1797,7 +1797,7 @@ ctx
 =
 CGBitmapContextCreate
 (
-NULL
+nullptr
 (
 int
 )
@@ -4473,7 +4473,7 @@ bitmapctx
 =
 CGBitmapContextCreate
 (
-NULL
+nullptr
 w
 *
 backingScaleFactor
@@ -4697,7 +4697,7 @@ aRenderRect
 bdi
 cgContext
 kHIThemeOrientationNormal
-NULL
+nullptr
 )
 ;
 }

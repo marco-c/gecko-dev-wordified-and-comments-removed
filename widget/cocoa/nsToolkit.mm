@@ -390,7 +390,7 @@ gRootPort
 :
 IORegisterForSystemPower
 (
-0
+nullptr
 &
 notifyPortRef
 ToolkitSleepWakeCallback

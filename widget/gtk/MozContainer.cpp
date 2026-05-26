@@ -210,14 +210,14 @@ sizeof
 (
 MozContainerClass
 )
-NULL
-NULL
+nullptr
+nullptr
 (
 GClassInitFunc
 )
 moz_container_class_init
-NULL
-NULL
+nullptr
+nullptr
 sizeof
 (
 MozContainer
@@ -227,7 +227,7 @@ MozContainer
 GInstanceInitFunc
 )
 moz_container_init
-NULL
+nullptr
 }
 ;
 moz_container_type

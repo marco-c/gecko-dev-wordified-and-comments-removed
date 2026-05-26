@@ -121,7 +121,7 @@ mViews
 0
 ]
 :
-NULL
+nullptr
 ;
 }
 private

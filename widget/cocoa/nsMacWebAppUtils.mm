@@ -218,7 +218,7 @@ additionalEventParamDescriptor
 nil
 launchIdentifier
 :
-NULL
+nullptr
 ]
 ;
 return

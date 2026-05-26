@@ -801,7 +801,7 @@ alloc
 ]
 initWithBitmapDataPlanes
 :
-NULL
+nullptr
 pixelsWide
 :
 width

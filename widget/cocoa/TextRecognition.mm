@@ -136,7 +136,7 @@ NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 CGImageRef
 imageRef
 =
-NULL
+nullptr
 ;
 nsresult
 rv

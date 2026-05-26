@@ -1007,7 +1007,7 @@ gbm
 )
 {
 return
-0
+nullptr
 ;
 }
 return
