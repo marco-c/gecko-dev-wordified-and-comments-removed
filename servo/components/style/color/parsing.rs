@@ -497,6 +497,7 @@ color_function
 .
 resolve_to_absolute
 (
+None
 )
 {
 Ok
@@ -512,16 +513,20 @@ resolved
 }
 else
 {
-Err
+Ok
 (
-location
-.
-new_custom_error
-(
-StyleParseErrorKind
+SpecifiedColor
 :
 :
-UnspecifiedError
+ColorFunction
+(
+Box
+:
+:
+new
+(
+color_function
+)
 )
 )
 }
@@ -800,6 +805,7 @@ abs
 .
 resolve_to_absolute
 (
+None
 )
 .
 is_err
@@ -984,6 +990,15 @@ i
 >
 {
 let
+allow_channel_keyword
+=
+origin_color
+.
+is_some
+(
+)
+;
+let
 maybe_red
 =
 parse_number_or_percentage
@@ -991,6 +1006,7 @@ parse_number_or_percentage
 context
 arguments
 true
+allow_channel_keyword
 )
 ?
 ;
@@ -1056,6 +1072,7 @@ parse_percentage
 context
 arguments
 false
+allow_channel_keyword
 )
 ?
 ;
@@ -1074,6 +1091,7 @@ parse_percentage
 context
 arguments
 false
+allow_channel_keyword
 )
 ?
 ;
@@ -1092,6 +1110,7 @@ parse_number
 context
 arguments
 false
+allow_channel_keyword
 )
 ?
 ;
@@ -1110,6 +1129,7 @@ parse_number
 context
 arguments
 false
+allow_channel_keyword
 )
 ?
 ;
@@ -1155,6 +1175,7 @@ parse_number_or_percentage
 context
 arguments
 true
+allow_channel_keyword
 )
 ?
 ;
@@ -1166,6 +1187,7 @@ parse_number_or_percentage
 context
 arguments
 true
+allow_channel_keyword
 )
 ?
 ;
@@ -1176,6 +1198,7 @@ parse_modern_alpha
 (
 context
 arguments
+allow_channel_keyword
 )
 ?
 ;
@@ -1248,6 +1271,15 @@ i
 >
 {
 let
+allow_channel_keyword
+=
+origin_color
+.
+is_some
+(
+)
+;
+let
 hue
 =
 parse_number_or_angle
@@ -1255,6 +1287,7 @@ parse_number_or_angle
 context
 arguments
 true
+allow_channel_keyword
 )
 ?
 ;
@@ -1312,6 +1345,7 @@ parse_percentage
 context
 arguments
 false
+allow_channel_keyword
 )
 ?
 ;
@@ -1330,6 +1364,7 @@ parse_percentage
 context
 arguments
 false
+allow_channel_keyword
 )
 ?
 ;
@@ -1359,6 +1394,7 @@ parse_number_or_percentage
 context
 arguments
 true
+allow_channel_keyword
 )
 ?
 ;
@@ -1370,6 +1406,7 @@ parse_number_or_percentage
 context
 arguments
 true
+allow_channel_keyword
 )
 ?
 ;
@@ -1380,6 +1417,7 @@ parse_modern_alpha
 (
 context
 arguments
+allow_channel_keyword
 )
 ?
 ;
@@ -1460,6 +1498,15 @@ i
 >
 {
 let
+allow_channel_keyword
+=
+origin_color
+.
+is_some
+(
+)
+;
+let
 hue
 =
 parse_number_or_angle
@@ -1467,6 +1514,7 @@ parse_number_or_angle
 context
 arguments
 true
+allow_channel_keyword
 )
 ?
 ;
@@ -1478,6 +1526,7 @@ parse_number_or_percentage
 context
 arguments
 true
+allow_channel_keyword
 )
 ?
 ;
@@ -1489,6 +1538,7 @@ parse_number_or_percentage
 context
 arguments
 true
+allow_channel_keyword
 )
 ?
 ;
@@ -1499,6 +1549,7 @@ parse_modern_alpha
 (
 context
 arguments
+allow_channel_keyword
 )
 ?
 ;
@@ -1624,6 +1675,15 @@ i
 >
 {
 let
+allow_channel_keyword
+=
+origin_color
+.
+is_some
+(
+)
+;
+let
 lightness
 =
 parse_number_or_percentage
@@ -1631,6 +1691,7 @@ parse_number_or_percentage
 context
 arguments
 true
+allow_channel_keyword
 )
 ?
 ;
@@ -1642,6 +1703,7 @@ parse_number_or_percentage
 context
 arguments
 true
+allow_channel_keyword
 )
 ?
 ;
@@ -1653,6 +1715,7 @@ parse_number_or_percentage
 context
 arguments
 true
+allow_channel_keyword
 )
 ?
 ;
@@ -1663,6 +1726,7 @@ parse_modern_alpha
 (
 context
 arguments
+allow_channel_keyword
 )
 ?
 ;
@@ -1785,6 +1849,15 @@ i
 >
 {
 let
+allow_channel_keyword
+=
+origin_color
+.
+is_some
+(
+)
+;
+let
 lightness
 =
 parse_number_or_percentage
@@ -1792,6 +1865,7 @@ parse_number_or_percentage
 context
 arguments
 true
+allow_channel_keyword
 )
 ?
 ;
@@ -1803,6 +1877,7 @@ parse_number_or_percentage
 context
 arguments
 true
+allow_channel_keyword
 )
 ?
 ;
@@ -1814,6 +1889,7 @@ parse_number_or_angle
 context
 arguments
 true
+allow_channel_keyword
 )
 ?
 ;
@@ -1824,6 +1900,7 @@ parse_modern_alpha
 (
 context
 arguments
+allow_channel_keyword
 )
 ?
 ;
@@ -1894,6 +1971,15 @@ i
 >
 {
 let
+allow_channel_keyword
+=
+origin_color
+.
+is_some
+(
+)
+;
+let
 color_space
 =
 PredefinedColorSpace
@@ -1913,6 +1999,7 @@ parse_number_or_percentage
 context
 arguments
 true
+allow_channel_keyword
 )
 ?
 ;
@@ -1924,6 +2011,7 @@ parse_number_or_percentage
 context
 arguments
 true
+allow_channel_keyword
 )
 ?
 ;
@@ -1935,6 +2023,7 @@ parse_number_or_percentage
 context
 arguments
 true
+allow_channel_keyword
 )
 ?
 ;
@@ -1945,6 +2034,7 @@ parse_modern_alpha
 (
 context
 arguments
+allow_channel_keyword
 )
 ?
 ;
@@ -2675,6 +2765,9 @@ t
 allow_none
 :
 bool
+allow_channel_keyword
+:
+bool
 )
 -
 >
@@ -2699,6 +2792,7 @@ parse
 context
 input
 allow_none
+allow_channel_keyword
 )
 }
 fn
@@ -2726,6 +2820,9 @@ i
 t
 >
 allow_none
+:
+bool
+allow_channel_keyword
 :
 bool
 )
@@ -2769,6 +2866,7 @@ parse
 context
 input
 allow_none
+allow_channel_keyword
 )
 ?
 ;
@@ -2827,6 +2925,9 @@ t
 allow_none
 :
 bool
+allow_channel_keyword
+:
+bool
 )
 -
 >
@@ -2868,6 +2969,7 @@ parse
 context
 input
 allow_none
+allow_channel_keyword
 )
 ?
 ;
@@ -2926,6 +3028,9 @@ t
 allow_none
 :
 bool
+allow_channel_keyword
+:
+bool
 )
 -
 >
@@ -2950,6 +3055,7 @@ parse
 context
 input
 allow_none
+allow_channel_keyword
 )
 }
 fn
@@ -3012,6 +3118,7 @@ parse_number_or_percentage
 context
 arguments
 false
+false
 )
 }
 else
@@ -3049,6 +3156,9 @@ i
 '
 t
 >
+allow_channel_keyword
+:
+bool
 )
 -
 >
@@ -3088,6 +3198,7 @@ parse_number_or_percentage
 context
 arguments
 true
+allow_channel_keyword
 )
 }
 else

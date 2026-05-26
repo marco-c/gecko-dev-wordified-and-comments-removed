@@ -2246,6 +2246,7 @@ color
 .
 honored_in_forced_colors_mode
 (
+context
 true
 )
 {
@@ -2327,6 +2328,7 @@ color
 .
 honored_in_forced_colors_mode
 (
+context
 true
 )
 {
@@ -2505,6 +2507,7 @@ color
 .
 honored_in_forced_colors_mode
 (
+context
 false
 )
 {

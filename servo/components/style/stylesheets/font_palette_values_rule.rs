@@ -353,6 +353,7 @@ color
 .
 resolve_to_absolute
 (
+None
 )
 .
 is_ok
@@ -1209,6 +1210,7 @@ color
 .
 resolve_to_absolute
 (
+None
 )
 .
 unwrap
