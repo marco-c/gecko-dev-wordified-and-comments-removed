@@ -16665,7 +16665,10 @@ Value
 (
 )
 :
-DEFAULT_REMOTE_TYPE
+SharedWebRemoteType
+(
+attrs
+)
 ;
 if
 (
