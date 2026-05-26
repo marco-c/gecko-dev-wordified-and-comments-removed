@@ -1497,11 +1497,6 @@ aVisitor
 )
 override
 ;
-void
-UpdateHeadingElementsOffsetChange
-(
-)
-;
 bool
 IsPurple
 (
