@@ -181,6 +181,14 @@ target
 tar
 .
 gz
+-
+public
+/
+build
+/
+target
+.
+pkg
 formats
 :
 [

@@ -856,6 +856,10 @@ product
         
 chunk_locales
 =
+tuple
+(
+sorted
+(
 task
 .
 attributes
@@ -868,36 +872,6 @@ chunk_locales
 [
 ]
 )
-        
-if
-chunk_locales
-:
-            
-chunk_key
-=
-tuple
-(
-sorted
-(
-chunk_locales
-)
-)
-        
-else
-:
-            
-chunk_key
-=
-task
-.
-attributes
-.
-get
-(
-"
-l10n_chunk
-"
-(
 )
 )
         
@@ -907,7 +881,7 @@ chunk_locale_key
 platform
 build_type
 product
-chunk_key
+chunk_locales
 )
         
 groups

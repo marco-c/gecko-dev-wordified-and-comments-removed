@@ -1547,17 +1547,6 @@ Debian
 Repacks
 '
 '
-pkg
--
-Rpk
-'
-:
-'
-MacOS
-pkg
-repackage
-'
-'
 BM
 '
 :

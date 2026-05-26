@@ -1266,6 +1266,8 @@ endswith
 (
 "
 -
+mac
+-
 notarization
 "
 )
