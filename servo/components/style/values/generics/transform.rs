@@ -2170,6 +2170,7 @@ radians64
 )
 }
 }
+pub
 trait
 ToFloat
 {
