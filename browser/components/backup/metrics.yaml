@@ -225,6 +225,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_ENABLED
 archive_enabled
 :
 type
@@ -311,6 +314,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_ARCHIVE_ENABLED
 restore_enabled
 :
 type
@@ -397,6 +403,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_RESTORE_ENABLED
 scheduler_enabled
 :
 type
@@ -473,6 +482,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_SCHEDULER_ENABLED
 scheduler_toggle_source
 :
 type
@@ -709,6 +721,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_PSWD_ENCRYPTED
 location_on_device
 :
 type
@@ -790,6 +805,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_LOCATION_ON_DEVICE
 prof_d_disk_space
 :
 type
@@ -889,6 +907,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_PROF_D_DISK_SPACE
 total_backup_size
 :
 type
@@ -979,6 +1000,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_TOTAL_BACKUP_SIZE
 compressed_archive_size
 :
 type
@@ -1069,6 +1093,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_COMPRESSED_ARCHIVE_SIZE
 total_backup_time
 :
 type
@@ -1150,6 +1177,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_TOTAL_BACKUP_TIME_MS
 places_size
 :
 type
@@ -1234,6 +1264,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_PLACES_SIZE
 places_time
 :
 type
@@ -1314,6 +1347,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_PLACES_TIME_MS
 favicons_size
 :
 type
@@ -1394,6 +1430,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_FAVICONS_SIZE
 favicons_time
 :
 type
@@ -1474,6 +1513,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_FAVICONS_TIME_MS
 credentials_data_size
 :
 type
@@ -1559,6 +1601,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_CREDENTIALS_DATA_SIZE
 security_data_size
 :
 type
@@ -1646,6 +1691,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_SECURITY_DATA_SIZE
 preferences_size
 :
 type
@@ -1730,6 +1778,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_PREFERENCES_SIZE
 misc_data_size
 :
 type
@@ -1863,6 +1914,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_MISC_DATA_SIZE
 cookies_size
 :
 type
@@ -1947,6 +2001,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_COOKIES_SIZE
 form_history_size
 :
 type
@@ -2030,6 +2087,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_FORM_HISTORY_SIZE
 session_store_backups_directory_size
 :
 type
@@ -2107,6 +2167,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_SESSION_STORE_BACKUPS_DIRECTORY_SIZE
 session_store_size
 :
 type
@@ -2182,6 +2245,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_SESSION_STORE_SIZE
 extensions_json_size
 :
 type
@@ -2291,6 +2357,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_EXTENSIONS_JSON_SIZE
 extension_store_permissions_data_size
 :
 type
@@ -2382,6 +2451,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_EXTENSION_STORE_PERMISSIONS_DATA_SIZE
 storage_sync_size
 :
 type
@@ -2469,6 +2541,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_STORAGE_SYNC_SIZE
 browser_extension_data_size
 :
 type
@@ -2562,6 +2637,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_BROWSER_EXTENSION_DATA_SIZE
 extensions_xpi_directory_size
 :
 type
@@ -2643,6 +2721,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_EXTENSIONS_XPI_DIRECTORY_SIZE
 extensions_storage_size
 :
 type
@@ -2723,6 +2804,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_BACKUP_EXTENSIONS_STORAGE_SIZE
 toggle_on
 :
 type
@@ -2828,6 +2912,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BrowserBackup_ToggleOn_Backupservice
 extra_keys
 :
 encrypted
@@ -2975,6 +3062,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BrowserBackup_ToggleOff_Backupservice
 created
 :
 type
@@ -3081,6 +3171,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BrowserBackup_Created_Backupservice
 extra_keys
 :
 encrypted
@@ -3263,6 +3356,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BrowserBackup_ChangeLocation_Backupservice
 password_changed
 :
 type
@@ -3338,6 +3434,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BrowserBackup_PasswordChanged_Backupservice
 password_added
 :
 type
@@ -3412,6 +3511,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BrowserBackup_PasswordAdded_Backupservice
 password_removed
 :
 type
@@ -3486,6 +3588,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BrowserBackup_PasswordRemoved_Backupservice
 error
 :
 type
@@ -3621,6 +3726,9 @@ the
 error
 occurred
 .
+telemetry_mirror
+:
+BrowserBackup_Error_Backupservice
 backup_start
 :
 type
