@@ -403,8 +403,6 @@ TimelineScopeEntry
 template
 <
 typename
-StyleType
-typename
 TimelineType
 >
 nsTArray
@@ -431,14 +429,9 @@ PseudoStyleRequest
 &
 aPseudoRequest
 const
-nsStyleAutoArray
-<
-StyleType
->
-&
-aStyleTimelines
-size_t
-aTimelineCount
+nsStyleUIReset
+*
+aUIReset
 TimelineNameMap
 <
 TimelineType
