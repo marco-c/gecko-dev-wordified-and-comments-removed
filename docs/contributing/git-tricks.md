@@ -889,6 +889,7 @@ is
 missing
 :
 >
+>
 text
 >
 Applying
@@ -1016,6 +1017,7 @@ mercurial
 repositories
 such
 as
+<
 https
 :
 /
@@ -1028,6 +1030,7 @@ org
 /
 try
 /
+>
 or
 local
 repositories
@@ -1040,6 +1043,7 @@ repository
 .
 Fetching
 from
+<
 https
 :
 /
@@ -1054,7 +1058,9 @@ mozilla
 -
 central
 /
+>
 or
+<
 https
 :
 /
@@ -1069,6 +1075,7 @@ mozilla
 -
 unified
 /
+>
 first
 can
 make
