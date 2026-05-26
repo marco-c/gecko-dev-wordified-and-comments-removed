@@ -642,12 +642,11 @@ aResolver
 )
 ;
 void
-PermitUnloadTraversable
+CheckIfUnloadingIsCanceledForTraversable
 (
-const
-SessionHistoryInfo
-&
-aInfo
+nsDocShellLoadState
+*
+aDocShellLoadState
 nsIDocumentViewer
 :
 :

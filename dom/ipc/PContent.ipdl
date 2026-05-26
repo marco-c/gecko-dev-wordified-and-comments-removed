@@ -6394,7 +6394,7 @@ DispatchBeforeUnloadToSubtree
 (
 MaybeDiscardedBrowsingContext
 aStartingAt
-SessionHistoryInfo
+nsDocShellLoadState
 ?
 info
 )
@@ -6432,8 +6432,7 @@ DispatchNavigateToTraversable
 (
 MaybeDiscardedBrowsingContext
 aTraversable
-SessionHistoryInfo
-?
+nsDocShellLoadState
 info
 )
 returns
