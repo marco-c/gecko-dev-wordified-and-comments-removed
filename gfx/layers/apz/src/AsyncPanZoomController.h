@@ -3737,6 +3737,9 @@ private
 TimeStamp
 mTouchStartTime
 ;
+TimeStamp
+mAutoscrollStartTime
+;
 struct
 TouchSample
 {
