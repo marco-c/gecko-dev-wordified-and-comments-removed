@@ -8024,6 +8024,13 @@ get_subpx_dir
 )
 ;
 let
+prim_cache_address
+=
+run_scratch
+.
+gpu_address
+;
+let
 prim_data
 =
 &
@@ -8067,6 +8074,10 @@ min
 prim_rect
 .
 min
++
+prim_data
+.
+run_origin_offset
 max
 :
 run_scratch
@@ -10089,7 +10100,9 @@ SegmentInstanceIndex
 UNUSED
 {
 (
-prim_cache_address
+image_scratch
+.
+gpu_address
 None
 )
 }
