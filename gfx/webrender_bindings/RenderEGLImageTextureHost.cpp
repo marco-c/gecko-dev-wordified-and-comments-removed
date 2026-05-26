@@ -838,7 +838,7 @@ LOCAL_EGL_CONDITION_SATISFIED
 }
 mSync
 =
-0
+nullptr
 ;
 }
 MOZ_ASSERT

@@ -1483,7 +1483,7 @@ z_stream
 s
 =
 {
-0
+nullptr
 }
 ;
 s

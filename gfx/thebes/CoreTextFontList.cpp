@@ -2143,7 +2143,7 @@ aIsStandardFace
 )
 mFontRef
 (
-NULL
+nullptr
 )
 mSizeHint
 (
@@ -2223,7 +2223,7 @@ false
 )
 mFontRef
 (
-NULL
+nullptr
 )
 mSizeHint
 (
@@ -4908,7 +4908,7 @@ CFNotificationCenterGetLocalCenter
 )
 this
 kCTFontManagerRegisteredFontsChangedNotification
-0
+nullptr
 )
 ;
 }
@@ -5586,7 +5586,7 @@ CFNotificationCenterGetLocalCenter
 this
 RegisteredFontsChangedNotificationCallback
 kCTFontManagerRegisteredFontsChangedNotification
-0
+nullptr
 CFNotificationSuspensionBehaviorDeliverImmediately
 )
 ;
@@ -5842,7 +5842,7 @@ CFNotificationCenterGetLocalCenter
 this
 RegisteredFontsChangedNotificationCallback
 kCTFontManagerRegisteredFontsChangedNotification
-0
+nullptr
 CFNotificationSuspensionBehaviorDeliverImmediately
 )
 ;
@@ -6362,7 +6362,7 @@ LucidaGrande
 12
 .
 f
-NULL
+nullptr
 )
 ;
 }
@@ -7418,7 +7418,7 @@ attr
 (
 CFDictionaryCreateMutable
 (
-NULL
+nullptr
 0
 &
 kCFTypeDictionaryKeyCallBacks
@@ -7455,7 +7455,7 @@ matchingFonts
 CTFontDescriptorCreateMatchingFontDescriptors
 (
 fd
-NULL
+nullptr
 )
 )
 ;

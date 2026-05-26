@@ -576,7 +576,7 @@ mSync
 ;
 mSync
 =
-0
+nullptr
 ;
 }
 mSync

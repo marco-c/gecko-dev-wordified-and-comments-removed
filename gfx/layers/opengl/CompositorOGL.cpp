@@ -3537,7 +3537,7 @@ size
 height
 LOCAL_GL_RGBA
 LOCAL_GL_UNSIGNED_BYTE
-0
+nullptr
 )
 ;
 if

@@ -7105,8 +7105,8 @@ height
 stride
 mColorSpace
 bitmapInfo
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if

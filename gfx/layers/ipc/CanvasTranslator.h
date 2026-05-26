@@ -1969,7 +1969,7 @@ gfx
 MemReader
 mCurrentMemReader
 {
-0
+nullptr
 0
 }
 ;

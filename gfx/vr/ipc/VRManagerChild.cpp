@@ -2452,7 +2452,7 @@ TimeStamp
 ;
 sAverageFrameInterval
 =
-0
+nullptr
 ;
 }
 }

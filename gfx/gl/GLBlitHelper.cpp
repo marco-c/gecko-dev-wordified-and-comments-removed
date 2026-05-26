@@ -4261,7 +4261,7 @@ fVertexAttribPointer
 LOCAL_GL_FLOAT
 false
 0
-0
+nullptr
 )
 ;
 }
@@ -4500,7 +4500,7 @@ fVertexAttribPointer
 LOCAL_GL_FLOAT
 false
 0
-0
+nullptr
 )
 ;
 mGL

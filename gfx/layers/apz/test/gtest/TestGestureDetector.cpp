@@ -1607,7 +1607,7 @@ ScreenIntPoint
 10
 10
 )
-0
+nullptr
 )
 ;
 while
@@ -1628,7 +1628,7 @@ ScreenIntPoint
 100
 100
 )
-0
+nullptr
 )
 ;
 while

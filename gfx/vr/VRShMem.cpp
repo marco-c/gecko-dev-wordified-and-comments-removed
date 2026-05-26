@@ -656,7 +656,7 @@ VRExternalShmem
 )
 mmap
 (
-NULL
+nullptr
 length
 PROT_READ
 |
@@ -676,7 +676,7 @@ MAP_FAILED
 {
 mExternalShmem
 =
-NULL
+nullptr
 ;
 CloseShMem
 (
@@ -1100,7 +1100,7 @@ VRExternalShmem
 ;
 mExternalShmem
 =
-NULL
+nullptr
 ;
 }
 if

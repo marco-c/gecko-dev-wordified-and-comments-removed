@@ -215,7 +215,7 @@ ANGLE_stream_producer_d3d_texture
 )
 {
 return
-0
+nullptr
 ;
 }
 const
@@ -241,7 +241,7 @@ if
 stream
 )
 return
-0
+nullptr
 ;
 bool
 ok
@@ -322,7 +322,7 @@ stream
 )
 ;
 return
-0
+nullptr
 ;
 }
 static
@@ -553,7 +553,7 @@ mTempTexs
 }
 mStreams
 {
-0
+nullptr
 }
 mSuccess
 (
@@ -1020,7 +1020,7 @@ mEgl
 EGLDeviceEXT
 deviceEGL
 =
-0
+nullptr
 ;
 NOTE_IF_FALSE
 (

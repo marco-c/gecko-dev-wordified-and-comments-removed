@@ -3805,7 +3805,7 @@ desc
 =
 ovr_GetHmdDesc
 (
-NULL
+nullptr
 )
 ;
 if

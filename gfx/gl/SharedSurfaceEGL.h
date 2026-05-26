@@ -82,7 +82,7 @@ MOZ_UNANNOTATED
 EGLSync
 mSync
 =
-0
+nullptr
 ;
 const
 std

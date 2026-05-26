@@ -5366,7 +5366,7 @@ mSymbols
 .
 fGetGraphicsResetStatus
 =
-0
+nullptr
 ;
 }
 if
@@ -12150,7 +12150,9 @@ rawExts
 {
 for
 (
+const
 auto
+&
 extension
 :
 nsDependentCString
