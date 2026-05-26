@@ -74,6 +74,16 @@ api_url
 "
 apz
 .
+axis_lock
+.
+mode
+"
+:
+0
+        
+"
+apz
+.
 content_response_timeout
 "
 :
