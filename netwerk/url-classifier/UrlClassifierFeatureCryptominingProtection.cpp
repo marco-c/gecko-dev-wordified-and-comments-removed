@@ -21,6 +21,17 @@ mozilla
 /
 net
 /
+ChannelClassifierUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+net
+/
 UrlClassifierCommon
 .
 h
@@ -578,7 +589,7 @@ aShouldContinue
 bool
 isAllowListed
 =
-UrlClassifierCommon
+ChannelClassifierUtils
 :
 :
 IsAllowListed
@@ -728,7 +739,7 @@ return
 NS_OK
 ;
 }
-UrlClassifierCommon
+ChannelClassifierUtils
 :
 :
 SetBlockedContent

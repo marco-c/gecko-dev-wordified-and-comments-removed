@@ -32,7 +32,7 @@ mozilla
 /
 net
 /
-UrlClassifierCommon
+ChannelClassifierUtils
 .
 h
 "
@@ -2309,7 +2309,7 @@ get
 net
 :
 :
-UrlClassifierCommon
+ChannelClassifierUtils
 :
 :
 AnnotateChannel
@@ -2400,7 +2400,7 @@ get
 net
 :
 :
-UrlClassifierCommon
+ChannelClassifierUtils
 :
 :
 SetBlockedContent

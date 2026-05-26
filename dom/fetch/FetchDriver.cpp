@@ -266,6 +266,17 @@ mozilla
 /
 net
 /
+ChannelClassifierUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+net
+/
 ContentRange
 .
 h
@@ -1467,7 +1478,7 @@ mIsTrackingFetch
 net
 :
 :
-UrlClassifierCommon
+ChannelClassifierUtils
 :
 :
 IsTrackingClassificationFlag

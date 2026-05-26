@@ -183,7 +183,7 @@ mozilla
 /
 net
 /
-UrlClassifierCommon
+ChannelClassifierUtils
 .
 h
 "
@@ -5809,7 +5809,7 @@ NS_ENSURE_SUCCESS_VOID
 rv
 )
 ;
-UrlClassifierCommon
+ChannelClassifierUtils
 :
 :
 SetBlockedContent

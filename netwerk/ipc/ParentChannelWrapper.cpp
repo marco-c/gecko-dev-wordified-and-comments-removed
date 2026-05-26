@@ -23,7 +23,7 @@ mozilla
 /
 net
 /
-UrlClassifierCommon
+ChannelClassifierUtils
 .
 h
 "
@@ -365,7 +365,7 @@ bool
 aIsThirdParty
 )
 {
-UrlClassifierCommon
+ChannelClassifierUtils
 :
 :
 SetClassificationFlagsHelper

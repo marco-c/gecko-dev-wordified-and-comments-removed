@@ -2771,6 +2771,17 @@ mozilla
 /
 net
 /
+ChannelClassifierUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+net
+/
 ChannelEventQueue
 .
 h
@@ -23415,7 +23426,7 @@ return
 net
 :
 :
-UrlClassifierCommon
+ChannelClassifierUtils
 :
 :
 IsTrackingClassificationFlag

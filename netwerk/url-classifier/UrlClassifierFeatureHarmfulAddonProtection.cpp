@@ -54,6 +54,17 @@ mozilla
 /
 net
 /
+ChannelClassifierUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+net
+/
 UrlClassifierCommon
 .
 h
@@ -1377,7 +1388,7 @@ aShouldContinue
 bool
 isAllowListed
 =
-UrlClassifierCommon
+ChannelClassifierUtils
 :
 :
 IsAllowListed
@@ -1521,7 +1532,7 @@ addonName
 ;
 }
 }
-UrlClassifierCommon
+ChannelClassifierUtils
 :
 :
 SetBlockedContent

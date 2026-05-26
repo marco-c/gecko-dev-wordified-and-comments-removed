@@ -12,6 +12,17 @@ mozilla
 /
 net
 /
+ChannelClassifierUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+net
+/
 UrlClassifierCommon
 .
 h
@@ -595,7 +606,7 @@ ClassificationFlags
 CLASSIFIED_SOCIALTRACKING
 )
 ;
-UrlClassifierCommon
+ChannelClassifierUtils
 :
 :
 AnnotateChannel
