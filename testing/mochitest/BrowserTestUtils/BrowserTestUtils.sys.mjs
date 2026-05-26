@@ -7093,7 +7093,7 @@ supports
 *
 param
 {
-bool
+string
 }
 [
 options
