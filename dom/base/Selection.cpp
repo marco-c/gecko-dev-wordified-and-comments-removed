@@ -19573,7 +19573,6 @@ ContentRelevancyReason
 Selected
 )
 ;
-}
 if
 (
 mSelectionType
@@ -19588,6 +19587,9 @@ eNormal
 RangeCount
 (
 )
+&
+&
+doc
 )
 {
 doc
@@ -19598,6 +19600,7 @@ SetFocusNavigationStartingPoint
 nullptr
 )
 ;
+}
 }
 RefPtr
 <
