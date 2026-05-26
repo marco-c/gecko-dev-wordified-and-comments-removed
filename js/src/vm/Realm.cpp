@@ -1580,6 +1580,10 @@ isDead
 )
 )
 {
+global_
+=
+nullptr
+;
 result
 .
 initialTarget

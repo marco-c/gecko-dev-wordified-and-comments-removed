@@ -30008,7 +30008,7 @@ template
 typename
 T
 >
-void
+bool
 js
 :
 :
@@ -30044,6 +30044,7 @@ thing
 )
 {
 return
+true
 ;
 }
 MOZ_ASSERT
@@ -30071,6 +30072,9 @@ thing
 thingp
 =
 nullptr
+;
+return
+false
 ;
 }
 void
