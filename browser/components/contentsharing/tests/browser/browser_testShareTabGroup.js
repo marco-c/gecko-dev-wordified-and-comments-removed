@@ -325,9 +325,6 @@ true
 isSignedIn
 :
 true
-loadingPromise
-:
-null
 }
 )
 ;
