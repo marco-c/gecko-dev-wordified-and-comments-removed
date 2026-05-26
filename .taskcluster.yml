@@ -4492,6 +4492,12 @@ v2
 project
 }
 .
+branch
+.
+{
+shortRef
+}
+.
 latest
 .
 taskgraph
@@ -4596,6 +4602,12 @@ v2
 .
 {
 project
+}
+.
+branch
+.
+{
+shortRef
 }
 .
 latest
