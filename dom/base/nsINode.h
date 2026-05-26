@@ -5661,7 +5661,7 @@ this
 ;
 while
 (
-1
+true
 )
 {
 nsIContent

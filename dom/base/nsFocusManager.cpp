@@ -19743,12 +19743,12 @@ nullptr
 ;
 while
 (
-1
+true
 )
 {
 while
 (
-1
+true
 )
 {
 aForward

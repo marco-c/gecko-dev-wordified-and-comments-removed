@@ -3551,7 +3551,7 @@ RELATIVE_OP
 ;
 while
 (
-1
+true
 )
 {
 PathExpr
@@ -4145,7 +4145,7 @@ NS_OK
 ;
 while
 (
-1
+true
 )
 {
 rv

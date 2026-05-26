@@ -2786,12 +2786,12 @@ expiration
 bool
 isRich
 =
-0
+false
 ;
 bool
 rootIcon
 =
-0
+false
 ;
 uint16_t
 width

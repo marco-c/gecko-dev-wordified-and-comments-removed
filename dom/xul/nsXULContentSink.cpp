@@ -1257,7 +1257,7 @@ forget
 }
 while
 (
-0
+false
 )
 ;
 mText

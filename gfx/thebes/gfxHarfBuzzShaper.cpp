@@ -8561,7 +8561,7 @@ else
 {
 while
 (
-1
+true
 )
 {
 gfxTextRun

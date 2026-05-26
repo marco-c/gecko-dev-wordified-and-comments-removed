@@ -19,6 +19,15 @@ include
 "
 mozilla
 /
+EndianUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Logging
 .
 h
@@ -1331,7 +1340,7 @@ nickFromProp
 ;
 while
 (
-1
+true
 )
 {
 nickname

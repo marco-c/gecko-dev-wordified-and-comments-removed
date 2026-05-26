@@ -2276,7 +2276,7 @@ mRoot
 ;
 while
 (
-1
+true
 )
 {
 if

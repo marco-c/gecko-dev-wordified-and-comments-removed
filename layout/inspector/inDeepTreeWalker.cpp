@@ -1153,7 +1153,7 @@ lastChildCallsToMake
 ;
 while
 (
-1
+true
 )
 {
 NextSibling

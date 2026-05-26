@@ -311,7 +311,7 @@ nullptr
 bool
 persistent_
 =
-0
+false
 ;
 }
 ;

@@ -3571,7 +3571,7 @@ mReportStackTrace_mReportedOnAlloc
 Set
 (
 nullptr
-0
+false
 )
 ;
 mReportStackTrace_mReportedOnAlloc
@@ -3582,7 +3582,7 @@ mReportStackTrace_mReportedOnAlloc
 Set
 (
 nullptr
-0
+false
 )
 ;
 }
@@ -3618,7 +3618,7 @@ mReportStackTrace_mReportedOnAlloc
 Set
 (
 nullptr
-0
+false
 )
 ;
 }
@@ -3644,7 +3644,7 @@ mReportStackTrace_mReportedOnAlloc
 Set
 (
 nullptr
-0
+false
 )
 ;
 }

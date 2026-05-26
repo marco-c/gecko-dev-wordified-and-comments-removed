@@ -258,7 +258,7 @@ mFlags
 .
 mDirty
 =
-1
+true
 ;
 }
 void
@@ -270,7 +270,7 @@ mFlags
 .
 mDirty
 =
-0
+false
 ;
 }
 bool
@@ -294,7 +294,7 @@ mFlags
 .
 mPreviousMarginDirty
 =
-1
+true
 ;
 }
 void
@@ -306,7 +306,7 @@ mFlags
 .
 mPreviousMarginDirty
 =
-0
+false
 ;
 }
 bool
@@ -330,7 +330,7 @@ mFlags
 .
 mHasClearance
 =
-1
+true
 ;
 }
 void
@@ -342,7 +342,7 @@ mFlags
 .
 mHasClearance
 =
-0
+false
 ;
 }
 bool
@@ -674,7 +674,7 @@ mFlags
 .
 mHasHashedFrames
 =
-1
+true
 ;
 uint32_t
 minLength
@@ -773,7 +773,7 @@ mFlags
 .
 mHasHashedFrames
 =
-0
+false
 ;
 mChildCount
 =

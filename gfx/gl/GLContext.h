@@ -1290,7 +1290,7 @@ mAvailableExtensions
 aKnownExtension
 ]
 =
-0
+false
 ;
 }
 void
@@ -1305,7 +1305,7 @@ mAvailableExtensions
 aKnownExtension
 ]
 =
-1
+true
 ;
 }
 std

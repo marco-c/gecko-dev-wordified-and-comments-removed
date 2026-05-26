@@ -1016,7 +1016,7 @@ addr
 .
 tls
 =
-1
+true
 ;
 }
 nr_transport_addr_fmt_addr_string

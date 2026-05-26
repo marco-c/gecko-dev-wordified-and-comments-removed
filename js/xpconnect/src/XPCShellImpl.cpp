@@ -4680,7 +4680,7 @@ argsObj
 )
 {
 return
-1
+true
 ;
 }
 if
@@ -4699,7 +4699,7 @@ argsObj
 )
 {
 return
-1
+true
 ;
 }
 for
@@ -4757,7 +4757,7 @@ JSPROP_ENUMERATE
 )
 {
 return
-1
+true
 ;
 }
 }

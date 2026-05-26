@@ -33442,7 +33442,7 @@ mWidth
 ?
 bevel
 :
-0
+false
 ;
 int32_t
 relColIndex
