@@ -2145,8 +2145,6 @@ Element
 *
 GetTopmostPopoverAncestor
 (
-PopoverAttributeState
-aMode
 const
 Element
 *
