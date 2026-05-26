@@ -221,6 +221,10 @@ allowDeclarativeShadowRoots
 (
 false
 )
+noInSelectMode
+(
+false
+)
 keepBuffer
 (
 false
@@ -381,6 +385,10 @@ forceNoQuirks
 false
 )
 allowDeclarativeShadowRoots
+(
+false
+)
+noInSelectMode
 (
 false
 )
