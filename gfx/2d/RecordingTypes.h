@@ -297,6 +297,8 @@ class
 S
 class
 T
+size_t
+N
 >
 void
 WriteVector
@@ -311,6 +313,7 @@ mozilla
 Vector
 <
 T
+N
 >
 &
 aVector
@@ -534,6 +537,8 @@ class
 S
 class
 T
+size_t
+N
 >
 void
 ReadVector
@@ -547,6 +552,7 @@ mozilla
 Vector
 <
 T
+N
 >
 &
 aVector
