@@ -5883,15 +5883,6 @@ return
 IsTopLevelWidget
 (
 )
-&
-&
-mPiPType
-=
-=
-PiPType
-:
-:
-NoPiP
 ;
 }
 bool
