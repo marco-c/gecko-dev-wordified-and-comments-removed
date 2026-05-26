@@ -422,6 +422,11 @@ TestOpusParser
 cpp
 "
 "
+TestPDMFactorySupport
+.
+cpp
+"
+"
 TestRemoteImageHolder
 .
 cpp

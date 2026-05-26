@@ -111,6 +111,11 @@ PDMFactory
 h
 "
 "
+PDMFactorySupport
+.
+h
+"
+"
 PEMFactory
 .
 h
@@ -220,6 +225,11 @@ cpp
 "
 "
 PDMFactory
+.
+cpp
+"
+"
+PDMFactorySupport
 .
 cpp
 "
