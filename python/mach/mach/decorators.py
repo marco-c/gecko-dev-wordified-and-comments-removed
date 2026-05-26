@@ -11,12 +11,6 @@ typing
 import
 Optional
 from
-mozbuild
-.
-base
-import
-MachCommandBase
-from
 .
 base
 import
@@ -316,28 +310,12 @@ virtualenv_name
 )
 :
         
-metrics
-=
-None
-        
-if
-self
+from
+mozbuild
 .
-metrics_path
-:
-            
-metrics
-=
-context
-.
-telemetry
-.
-metrics
-(
-self
-.
-metrics_path
-)
+base
+import
+MachCommandBase
         
 subclass
 =
@@ -363,9 +341,11 @@ virtualenv_name
 =
 virtualenv_name
             
-metrics
+metrics_path
 =
-metrics
+self
+.
+metrics_path
             
 no_auto_log
 =
@@ -682,6 +662,7 @@ raise
 MachError
 (
                     
+f
 "
 Command
 referenced
@@ -693,13 +674,12 @@ does
 not
 exist
 :
-%
-s
-"
-%
+{
 self
 .
 name
+}
+"
                 
 )
             
@@ -733,6 +713,7 @@ subcommand_handlers
 raise
 MachError
 (
+f
 "
 sub
 -
@@ -740,13 +721,12 @@ command
 already
 defined
 :
-%
-s
-"
-%
+{
 self
 .
 subcommand
+}
+"
 )
             
 parent
