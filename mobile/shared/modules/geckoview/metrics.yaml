@@ -431,6 +431,9 @@ timing_distribution
 time_unit
 :
 millisecond
+telemetry_mirror
+:
+GV_PAGE_RELOAD_MS
 description
 :
 >
@@ -670,6 +673,9 @@ unit
 number
 of
 site_origin
+telemetry_mirror
+:
+FX_NUMBER_OF_UNIQUE_SITE_ORIGINS_ALL_TABS
 bugs
 :
 -
@@ -834,6 +840,9 @@ site
 origins
 per
 document
+telemetry_mirror
+:
+FX_NUMBER_OF_UNIQUE_SITE_ORIGINS_PER_DOCUMENT
 bugs
 :
 -

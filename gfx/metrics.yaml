@@ -1873,6 +1873,9 @@ timing_distribution
 time_unit
 :
 millisecond
+telemetry_mirror
+:
+COMPOSITE_TIME
 description
 :
 >
@@ -2130,6 +2133,9 @@ same
 name
 )
 .
+telemetry_mirror
+:
+SCROLL_PRESENT_LATENCY
 bugs
 :
 -
@@ -2309,6 +2315,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+GFX_SKIPPED_COMPOSITES
 os_compositor
 :
 type
@@ -2669,6 +2678,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+COMPOSITE_SWAP_TIME
 composite_frame_roundtrip_time
 :
 type
@@ -2763,6 +2775,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+COMPOSITE_FRAME_ROUNDTRIP_TIME
 device_reset_reason
 :
 type
@@ -4157,6 +4172,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+DISPLAY_SCALING
 gfx
 .
 checkerboard
@@ -4169,6 +4187,9 @@ timing_distribution
 time_unit
 :
 millisecond
+telemetry_mirror
+:
+CHECKERBOARD_DURATION
 description
 :
 >
@@ -4362,6 +4383,9 @@ exponential
 unit
 :
 Pixels
+telemetry_mirror
+:
+CHECKERBOARD_PEAK
 description
 :
 >
@@ -4533,6 +4557,9 @@ timing_distribution
 time_unit
 :
 millisecond
+telemetry_mirror
+:
+CHECKERBOARD_POTENTIAL_DURATION
 description
 :
 >
@@ -4775,6 +4802,9 @@ unit
 :
 Opaque
 unit
+telemetry_mirror
+:
+CHECKERBOARD_SEVERITY
 description
 :
 >
@@ -5632,6 +5662,9 @@ Percentage
 of
 vsync
 interval
+telemetry_mirror
+:
+CONTENT_FRAME_TIME
 description
 :
 >
@@ -5811,6 +5844,9 @@ Percentage
 of
 vsync
 interval
+telemetry_mirror
+:
+CONTENT_FRAME_TIME_VSYNC
 description
 :
 >
@@ -5967,6 +6003,9 @@ Percentage
 of
 vsync
 interval
+telemetry_mirror
+:
+CONTENT_FRAME_TIME_WITH_SVG
 description
 :
 >
@@ -6149,6 +6188,9 @@ Percentage
 of
 vsync
 interval
+telemetry_mirror
+:
+CONTENT_FRAME_TIME_WITHOUT_RESOURCE_UPLOAD
 description
 :
 >
@@ -6309,6 +6351,9 @@ Percentage
 of
 vsync
 interval
+telemetry_mirror
+:
+CONTENT_FRAME_TIME_WITHOUT_UPLOAD
 description
 :
 >
@@ -6613,6 +6658,9 @@ timing_distribution
 time_unit
 :
 millisecond
+telemetry_mirror
+:
+CONTENT_PAINT_TIME
 description
 :
 >
@@ -6789,6 +6837,9 @@ timing_distribution
 time_unit
 :
 millisecond
+telemetry_mirror
+:
+CONTENT_FULL_PAINT_TIME
 description
 :
 >
@@ -7146,6 +7197,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+CONTENT_SMALL_PAINT_PHASE_WEIGHT_PARTIAL
 large_paint_phase_weight_partial
 :
 type
@@ -7336,6 +7390,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+CONTENT_LARGE_PAINT_PHASE_WEIGHT_PARTIAL
 small_paint_phase_weight_full
 :
 type
@@ -7526,6 +7583,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+CONTENT_SMALL_PAINT_PHASE_WEIGHT_FULL
 large_paint_phase_weight_full
 :
 type
@@ -7716,6 +7776,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+CONTENT_LARGE_PAINT_PHASE_WEIGHT_FULL
 gfx
 .
 adapter
@@ -9084,6 +9147,9 @@ timing_distribution
 time_unit
 :
 millisecond
+telemetry_mirror
+:
+KEYPRESS_PRESENT_LATENCY
 description
 :
 >
@@ -9231,6 +9297,9 @@ timing_distribution
 time_unit
 :
 millisecond
+telemetry_mirror
+:
+MOUSEUP_FOLLOWED_BY_CLICK_PRESENT_LATENCY
 description
 :
 >

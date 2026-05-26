@@ -6488,6 +6488,9 @@ never
 unit
 :
 ms
+telemetry_mirror
+:
+BROWSER_TIMINGS_LAST_SHUTDOWN
 onboarding_opt_out
 :
 #
