@@ -21809,7 +21809,7 @@ privacy
 -
 v1
 "
-false
+true
 )
 ;
 pref
@@ -26146,8 +26146,8 @@ enabled_on
 profiles
 "
 "
-{
-}
+[
+]
 "
 )
 ;
@@ -26691,7 +26691,7 @@ redesign
 .
 enabled
 "
-false
+true
 )
 ;
 #
