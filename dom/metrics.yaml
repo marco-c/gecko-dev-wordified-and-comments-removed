@@ -206,9 +206,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-PERF_LARGEST_CONTENTFUL_PAINT_MS
 metadata
 :
 monitor
@@ -299,9 +296,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-PERF_LARGEST_CONTENTFUL_PAINT_FROM_RESPONSE_START_MS
 page_load
 :
 type
@@ -1954,9 +1948,6 @@ timing_distribution
 time_unit
 :
 millisecond
-telemetry_mirror
-:
-PERF_PAGE_LOAD_TIME_MS
 description
 :
 >
@@ -2090,9 +2081,6 @@ timing_distribution
 time_unit
 :
 millisecond
-telemetry_mirror
-:
-PERF_PAGE_LOAD_TIME_FROM_RESPONSESTART_MS
 description
 :
 >
@@ -2212,9 +2200,6 @@ timing_distribution
 time_unit
 :
 millisecond
-telemetry_mirror
-:
-PERF_FIRST_CONTENTFUL_PAINT_MS
 description
 :
 >
@@ -2373,9 +2358,6 @@ timing_distribution
 time_unit
 :
 millisecond
-telemetry_mirror
-:
-PERF_FIRST_CONTENTFUL_PAINT_FROM_RESPONSESTART_MS
 description
 :
 >
@@ -2524,9 +2506,6 @@ timing_distribution
 time_unit
 :
 millisecond
-telemetry_mirror
-:
-TIME_TO_DOM_INTERACTIVE_MS
 description
 :
 >
@@ -2678,9 +2657,6 @@ timing_distribution
 time_unit
 :
 millisecond
-telemetry_mirror
-:
-TIME_TO_DOM_CONTENT_LOADED_START_MS
 description
 :
 >
@@ -2814,9 +2790,6 @@ timing_distribution
 time_unit
 :
 millisecond
-telemetry_mirror
-:
-TIME_TO_DOM_CONTENT_LOADED_END_MS
 description
 :
 >
@@ -2968,9 +2941,6 @@ timing_distribution
 time_unit
 :
 millisecond
-telemetry_mirror
-:
-TIME_TO_DOM_COMPLETE_MS
 description
 :
 >
@@ -3122,9 +3092,6 @@ timing_distribution
 time_unit
 :
 millisecond
-telemetry_mirror
-:
-TIME_TO_LOAD_EVENT_START_MS
 description
 :
 >
@@ -3258,9 +3225,6 @@ timing_distribution
 time_unit
 :
 millisecond
-telemetry_mirror
-:
-TIME_TO_LOAD_EVENT_END_MS
 description
 :
 >
@@ -3544,9 +3508,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-TIME_TO_FIRST_CONTENTFUL_PAINT_MS
 to_dom_loading
 :
 type
@@ -3687,9 +3648,6 @@ timing_distribution
 time_unit
 :
 millisecond
-telemetry_mirror
-:
-TIME_TO_NON_BLANK_PAINT_MS
 description
 :
 >
@@ -6517,11 +6475,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-h
-#
-SLOW_SCRIPT_NOTICE_COUNT
 slow_script_page_count
 :
 type
@@ -6607,11 +6560,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-h
-#
-SLOW_SCRIPT_PAGE_COUNT
 script_loading_source
 :
 type
