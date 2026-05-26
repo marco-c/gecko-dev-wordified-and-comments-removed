@@ -8460,14 +8460,6 @@ updateRecipes
 (
 )
 ;
-expectedLabs
-.
-splice
-(
-2
-1
-)
-;
 Assert
 .
 deepEqual
