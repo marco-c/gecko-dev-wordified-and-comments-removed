@@ -208,6 +208,9 @@ never
 unit
 :
 ms
+telemetry_mirror
+:
+TIMESTAMPS_FIRST_PAINT
 first_paint_two
 :
 type
@@ -305,3 +308,6 @@ never
 unit
 :
 ms
+telemetry_mirror
+:
+TIMESTAMPS_FIRST_PAINT_TWO

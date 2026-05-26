@@ -1193,13 +1193,6 @@ true
 }
 )
 ;
-if
-(
-AboutHomeStartupCache
-.
-initted
-)
-{
 await
 AboutHomeStartupCache
 .
@@ -1207,7 +1200,6 @@ cacheNow
 (
 )
 ;
-}
 }
 await
 SessionStore

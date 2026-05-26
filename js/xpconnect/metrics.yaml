@@ -5192,6 +5192,9 @@ hung
 type
 :
 string
+telemetry_mirror
+:
+Slow_script_warning_Shown_Browser
 shown_content
 :
 type
@@ -5363,6 +5366,9 @@ ms
 type
 :
 string
+telemetry_mirror
+:
+Slow_script_warning_Shown_Content
 no_lint
 :
 -
@@ -5473,6 +5479,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+SLOW_SCRIPT_NOTIFY_DELAY
 script
 .
 preloader

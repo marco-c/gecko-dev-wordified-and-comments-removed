@@ -1279,6 +1279,9 @@ never
 unit
 :
 CACHE_RESULT_SCALARS
+telemetry_mirror
+:
+BROWSER_STARTUP_ABOUTHOME_CACHE_RESULT
 no_lint
 :
 -
@@ -1526,6 +1529,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+BROWSER_STARTUP_ABOUTHOME_CACHE_SHUTDOWNWRITE
 no_lint
 :
 -
