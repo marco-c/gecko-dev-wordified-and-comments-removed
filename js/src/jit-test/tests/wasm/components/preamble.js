@@ -281,11 +281,6 @@ ID
 /
 )
 ;
-if
-(
-false
-)
-{
 assertErrorMessage
 (
 (
@@ -335,4 +330,3 @@ section
 /
 )
 ;
-}
