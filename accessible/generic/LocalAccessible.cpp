@@ -18562,10 +18562,10 @@ const
 uint64_t
 domainsToSend
 =
-nsAccessibilityService
-:
-:
-GetActiveCacheDomains
+mDoc
+-
+>
+EffectiveCacheDomains
 (
 )
 &

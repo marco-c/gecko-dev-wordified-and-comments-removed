@@ -1137,6 +1137,12 @@ Element
 aPopoverEl
 )
 ;
+uint64_t
+EffectiveCacheDomains
+(
+)
+const
+;
 protected
 :
 virtual
