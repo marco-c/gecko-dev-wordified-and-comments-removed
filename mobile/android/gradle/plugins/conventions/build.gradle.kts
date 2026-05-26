@@ -58,16 +58,9 @@ MPL
 /
 plugins
 {
-alias
-(
-libs
-.
-plugins
-.
 kotlin
-.
+-
 dsl
-)
 alias
 (
 libs
