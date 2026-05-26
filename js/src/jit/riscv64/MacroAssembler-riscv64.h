@@ -5284,7 +5284,7 @@ ValueOperand
 val
 )
 {
-xori
+NegateBool
 (
 val
 .
@@ -5296,7 +5296,6 @@ val
 valueReg
 (
 )
-1
 )
 ;
 }
