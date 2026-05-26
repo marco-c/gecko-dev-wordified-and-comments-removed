@@ -1485,6 +1485,14 @@ NSPasteboardItem
 aItem
 )
 ;
+static
+NSRectEdge
+PopupPositionToNSRectEdge
+(
+int8_t
+aPosition
+)
+;
 private
 :
 static
