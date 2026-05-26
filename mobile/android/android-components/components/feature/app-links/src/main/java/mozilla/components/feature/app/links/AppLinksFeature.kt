@@ -1820,7 +1820,7 @@ R
 .
 string
 .
-mozac_feature_applinks_normal_confirm_dialog_title_with_app_name
+mozac_feature_applinks_normal_confirm_dialog_title_with_app_name_2
 targetAppName
 )
 else
@@ -1834,7 +1834,7 @@ R
 .
 string
 .
-mozac_feature_applinks_normal_confirm_dialog_title
+mozac_feature_applinks_normal_confirm_dialog_title_2
 )
 }
 private
