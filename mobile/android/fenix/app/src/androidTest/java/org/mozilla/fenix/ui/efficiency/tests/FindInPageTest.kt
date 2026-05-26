@@ -169,7 +169,7 @@ view
 SmokeTest
 Test
 fun
-verifyFindInPageSearchResultCountTest
+verifyTheFindInPageMenuItemTest
 (
 )
 {
