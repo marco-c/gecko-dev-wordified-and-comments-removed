@@ -360,12 +360,18 @@ if
 MOZ_PKG_MANIFEST
 )
 (
-_BINPATH
+if
+(
+MOZ_MACBUNDLE_NAME
+)
+(
+MOZ_PKG_BINPATH
 :
 %
 =
 /
 %
+)
 )
 )
 \
@@ -1112,7 +1118,7 @@ MOZ_PKG_DIR
 )
 /
 (
-_BINPATH
+MOZ_PKG_BINPATH
 )
 .
 .
@@ -1142,7 +1148,7 @@ MOZ_PKG_DIR
 )
 /
 (
-_BINPATH
+MOZ_PKG_BINPATH
 )
 '
 endif
