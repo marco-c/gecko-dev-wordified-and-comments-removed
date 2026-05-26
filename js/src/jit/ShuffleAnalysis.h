@@ -266,7 +266,7 @@ control
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 SimdShuffle
 AnalyzeSimdShuffle
 (

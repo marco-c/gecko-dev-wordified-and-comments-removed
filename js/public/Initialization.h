@@ -380,7 +380,7 @@ void
 if
 defined
 (
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 )
 &
 &

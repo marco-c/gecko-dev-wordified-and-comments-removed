@@ -2198,7 +2198,7 @@ i
 ;
 #
 ifndef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 if
 (
 slotValType
@@ -2466,7 +2466,7 @@ i
 ;
 #
 ifndef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 if
 (
 slotValType
@@ -3095,7 +3095,7 @@ delete
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MDefinition
 *
 constantV128
@@ -3262,7 +3262,7 @@ int64_t
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 ValType
 :
@@ -5816,7 +5816,7 @@ ins
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MDefinition
 *
 binarySimd128
@@ -9094,7 +9094,7 @@ binop
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MDefinition
 *
 loadSplatSimd128
@@ -12525,7 +12525,7 @@ break
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 MIRType
 :
@@ -12996,7 +12996,7 @@ V128
 :
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 def
 =
 MWasmFloatRegisterResult
@@ -33666,7 +33666,7 @@ V128
 :
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 result
 =
 constantV128
@@ -38083,7 +38083,7 @@ length
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 size_t
 numCopies16
 =
@@ -38193,7 +38193,7 @@ loadedValues
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 for
 (
 uint32_t
@@ -38798,7 +38798,7 @@ value
 endif
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 for
 (
 uint32_t
@@ -39485,7 +39485,7 @@ length
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 size_t
 numCopies16
 =
@@ -39587,7 +39587,7 @@ remainder
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MDefinition
 *
 val16
@@ -39878,7 +39878,7 @@ val8
 endif
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 for
 (
 uint32_t
@@ -42349,7 +42349,7 @@ true
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 bool
 FunctionCompiler
 :
@@ -54628,7 +54628,7 @@ break
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 uint16_t
 (

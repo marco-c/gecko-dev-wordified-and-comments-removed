@@ -187,7 +187,7 @@ s
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 #
 error
 "
@@ -376,7 +376,7 @@ s
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 #
 error
 "
