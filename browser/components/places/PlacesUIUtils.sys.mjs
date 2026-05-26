@@ -9238,6 +9238,15 @@ context
 -
 menu
 "
+"
+sidebar
+-
+bookmarks
+-
+context
+-
+menu
+"
 ]
 .
 includes
