@@ -1864,6 +1864,11 @@ mPreventScroll
 =
 true
 ;
+if
+(
+focusTarget
+)
+{
 focusTarget
 =
 nsFocusManager
@@ -1881,6 +1886,7 @@ options
 )
 )
 ;
+}
 if
 (
 focusTarget
