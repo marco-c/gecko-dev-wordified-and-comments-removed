@@ -8939,7 +8939,10 @@ StyleTypedValue
 servo
 =
 "
-style_traits
+crate
+:
+:
+typed_om
 :
 :
 TypedValue

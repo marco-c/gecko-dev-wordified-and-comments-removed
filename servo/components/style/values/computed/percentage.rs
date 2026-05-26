@@ -11,6 +11,18 @@ use
 crate
 :
 :
+typed_om
+:
+:
+{
+ToTyped
+TypedValue
+}
+;
+use
+crate
+:
+:
 values
 :
 :
@@ -69,8 +81,6 @@ style_traits
 {
 CssWriter
 ToCss
-ToTyped
-TypedValue
 }
 ;
 use
