@@ -387,17 +387,6 @@ NS_OK
 ;
 }
 }
-if
-(
-GetEditContext
-(
-)
-)
-{
-return
-NS_OK
-;
-}
 AutoPlaceholderBatch
 treatAsOneTransaction
 (

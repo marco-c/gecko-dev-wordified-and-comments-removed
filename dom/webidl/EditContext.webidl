@@ -135,9 +135,6 @@ options
 }
 )
 ;
-[
-Throws
-]
 undefined
 updateText
 (
