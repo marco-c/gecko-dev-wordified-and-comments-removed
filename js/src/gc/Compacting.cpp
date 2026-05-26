@@ -2337,7 +2337,7 @@ typename
 T
 >
 inline
-void
+bool
 MovingTracer
 :
 :
@@ -2395,6 +2395,9 @@ thing
 )
 ;
 }
+return
+true
+;
 }
 void
 GCRuntime
