@@ -1300,9 +1300,6 @@ override
 fun
 build
 (
-browserState
-:
-BrowserState
 middleSearchEnabled
 :
 Boolean

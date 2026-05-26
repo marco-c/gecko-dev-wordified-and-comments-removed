@@ -409,9 +409,6 @@ htc
 .
 build
 (
-mockk
-(
-)
 false
 )
 assertTrue
@@ -533,9 +530,6 @@ htc
 .
 build
 (
-mockk
-(
-)
 false
 )
 assertFalse
@@ -677,9 +671,6 @@ htc
 .
 build
 (
-mockk
-(
-)
 false
 )
 assertFalse
@@ -802,9 +793,6 @@ htc
 .
 build
 (
-mockk
-(
-)
 false
 )
 assertFalse

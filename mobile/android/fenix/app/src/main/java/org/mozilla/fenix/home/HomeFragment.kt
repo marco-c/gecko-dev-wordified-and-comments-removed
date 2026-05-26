@@ -3496,13 +3496,6 @@ toolbarView
 .
 build
 (
-requireComponents
-.
-core
-.
-store
-.
-state
 requireContext
 (
 )
