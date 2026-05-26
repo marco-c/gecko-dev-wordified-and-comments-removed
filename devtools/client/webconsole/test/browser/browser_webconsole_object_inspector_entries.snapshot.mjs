@@ -7290,6 +7290,9 @@ DocumentTimeline
 currentTime
 :
 null
+duration
+:
+null
 }
 "
 "
