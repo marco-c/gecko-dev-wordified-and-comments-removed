@@ -572,13 +572,6 @@ js
 ]
 [
 "
-browser_policy_sanitize_on_shutdown
-.
-js
-"
-]
-[
-"
 browser_policy_search_engine
 .
 js
