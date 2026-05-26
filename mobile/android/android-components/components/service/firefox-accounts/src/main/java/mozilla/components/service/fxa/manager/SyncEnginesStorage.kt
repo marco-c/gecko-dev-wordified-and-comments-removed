@@ -342,6 +342,7 @@ state
 .
 *
 /
+internal
 fun
 setStatus
 (

@@ -77,6 +77,12 @@ Bundle
 import
 androidx
 .
+lifecycle
+.
+lifecycleScope
+import
+androidx
+.
 navigation
 .
 fragment
@@ -590,6 +596,11 @@ pref_key_sync_logins
 lifecycleOwner
 =
 viewLifecycleOwner
+coroutineScope
+=
+viewLifecycleOwner
+.
+lifecycleScope
 accountManager
 =
 requireComponents
