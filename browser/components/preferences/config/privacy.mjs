@@ -7511,6 +7511,16 @@ promo
 .
 svg
 "
+imagewidth
+:
+"
+large
+"
+imagedisplay
+:
+"
+cover
+"
 }
 }
 {
