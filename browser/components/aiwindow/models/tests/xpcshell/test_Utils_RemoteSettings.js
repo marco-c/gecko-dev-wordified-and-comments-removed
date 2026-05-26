@@ -185,11 +185,6 @@ v1
 "
 ;
 const
-MAJOR_VERSION_4
-=
-4
-;
-const
 MAJOR_VERSION_2
 =
 2
@@ -1964,7 +1959,6 @@ loadConfig
 MODEL_FEATURES
 .
 CHAT
-MAJOR_VERSION_4
 )
 ;
 Assert
@@ -3951,7 +3945,6 @@ loadConfig
 MODEL_FEATURES
 .
 CHAT
-MAJOR_VERSION_4
 )
 ;
 Assert
@@ -4798,7 +4791,6 @@ loadConfig
 MODEL_FEATURES
 .
 CHAT
-MAJOR_VERSION_4
 )
 ;
 Assert
@@ -5107,7 +5099,6 @@ loadConfig
 MODEL_FEATURES
 .
 CHAT
-MAJOR_VERSION_4
 )
 ;
 Assert
