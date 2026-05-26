@@ -349,8 +349,6 @@ each
 200x200
 to
 match
-logo
--
 spin
 -
 smooth

@@ -96,8 +96,6 @@ this
 file
 the
 *
-logo
--
 spin
 -
 smooth
@@ -112,8 +110,6 @@ jsx
 )
 the
 *
-logo
--
 spin
 -
 smooth
@@ -173,8 +169,6 @@ content
 /
 assets
 /
-logo
--
 spin
 -
 smooth
@@ -528,8 +522,6 @@ content
 /
 assets
 /
-logo
--
 spin
 -
 smooth
@@ -797,7 +789,7 @@ animation
 *
 /
 function
-LogoSpinSmooth
+SpinSmooth
 (
 )
 {
@@ -1068,8 +1060,6 @@ logo
 variation
 -
 small
-logo
--
 spin
 -
 smooth
@@ -1095,8 +1085,6 @@ clipPath
 id
 =
 "
-logo
--
 spin
 -
 smooth
@@ -1144,8 +1132,6 @@ clipPath
 url
 (
 #
-logo
--
 spin
 -
 smooth
@@ -1244,6 +1230,6 @@ svg
 }
 export
 {
-LogoSpinSmooth
+SpinSmooth
 }
 ;

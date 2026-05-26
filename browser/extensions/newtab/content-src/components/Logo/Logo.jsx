@@ -162,7 +162,7 @@ redux
 ;
 import
 {
-LogoSpinSmooth
+SpinSmooth
 }
 from
 "
@@ -170,7 +170,7 @@ from
 /
 variants
 /
-LogoSpinSmooth
+SpinSmooth
 "
 ;
 import
@@ -511,8 +511,6 @@ fallback
 null
 }
 "
-logo
--
 spin
 -
 smooth
@@ -521,7 +519,7 @@ smooth
 {
 component
 :
-LogoSpinSmooth
+SpinSmooth
 minViewportWidth
 :
 0

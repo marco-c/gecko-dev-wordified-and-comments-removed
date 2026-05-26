@@ -521,8 +521,6 @@ querySelector
 (
 "
 .
-logo
--
 spin
 -
 smooth
@@ -759,13 +757,11 @@ it
 (
 "
 renders
-LogoSpinSmooth
+SpinSmooth
 when
 PREF_LOGO_VARIATION
 is
 '
-logo
--
 spin
 -
 smooth
@@ -793,8 +789,6 @@ PREF_LOGO_VARIATION
 ]
 :
 "
-logo
--
 spin
 -
 smooth
@@ -810,8 +804,6 @@ querySelector
 (
 "
 .
-logo
--
 spin
 -
 smooth
@@ -2572,7 +2564,7 @@ describe
 (
 "
 <
-LogoSpinSmooth
+SpinSmooth
 >
 "
 (
@@ -2620,7 +2612,7 @@ originalMatchMedia
 )
 ;
 function
-renderLogoSpinSmooth
+renderSpinSmooth
 (
 )
 {
@@ -2637,8 +2629,6 @@ PREF_LOGO_VARIATION
 ]
 :
 "
-logo
--
 spin
 -
 smooth
@@ -2673,7 +2663,7 @@ const
 container
 }
 =
-renderLogoSpinSmooth
+renderSpinSmooth
 (
 )
 ;
@@ -2687,8 +2677,6 @@ querySelector
 "
 svg
 .
-logo
--
 spin
 -
 smooth
@@ -2776,7 +2764,7 @@ const
 container
 }
 =
-renderLogoSpinSmooth
+renderSpinSmooth
 (
 )
 ;
@@ -2886,7 +2874,7 @@ const
 container
 }
 =
-renderLogoSpinSmooth
+renderSpinSmooth
 (
 )
 ;
@@ -2900,8 +2888,6 @@ querySelector
 "
 svg
 .
-logo
--
 spin
 -
 smooth
@@ -2973,7 +2959,7 @@ const
 container
 }
 =
-renderLogoSpinSmooth
+renderSpinSmooth
 (
 )
 ;
@@ -2987,8 +2973,6 @@ querySelector
 "
 svg
 .
-logo
--
 spin
 -
 smooth
@@ -3073,7 +3057,7 @@ const
 container
 }
 =
-renderLogoSpinSmooth
+renderSpinSmooth
 (
 )
 ;
@@ -3087,8 +3071,6 @@ querySelector
 "
 svg
 .
-logo
--
 spin
 -
 smooth
@@ -3204,7 +3186,7 @@ const
 container
 }
 =
-renderLogoSpinSmooth
+renderSpinSmooth
 (
 )
 ;
@@ -3218,8 +3200,6 @@ querySelector
 "
 svg
 .
-logo
--
 spin
 -
 smooth

@@ -129240,8 +129240,6 @@ content
 /
 assets
 /
-logo
--
 spin
 -
 smooth
@@ -129539,7 +129537,7 @@ TRANSFORM_VALUES
 "
 ;
 function
-LogoSpinSmooth
+SpinSmooth
 (
 )
 {
@@ -129786,8 +129784,6 @@ logo
 variation
 -
 small
-logo
--
 spin
 -
 smooth
@@ -129828,8 +129824,6 @@ clipPath
 id
 :
 "
-logo
--
 spin
 -
 smooth
@@ -129887,8 +129881,6 @@ clipPath
 url
 (
 #
-logo
--
 spin
 -
 smooth
@@ -137631,8 +137623,6 @@ fallback
 null
 }
 "
-logo
--
 spin
 -
 smooth
@@ -137641,7 +137631,7 @@ smooth
 {
 component
 :
-LogoSpinSmooth
+SpinSmooth
 minViewportWidth
 :
 0
