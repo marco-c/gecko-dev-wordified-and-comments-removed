@@ -143,8 +143,8 @@ Assert
 ok
 (
 engine
-instanceof
-AppProvidedConfigEngine
+.
+isAppProvided
 "
 Should
 be
@@ -184,8 +184,8 @@ Assert
 ok
 (
 engine
-instanceof
-AppProvidedConfigEngine
+.
+isAppProvided
 "
 Should
 be
