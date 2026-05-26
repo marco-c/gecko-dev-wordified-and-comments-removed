@@ -1599,6 +1599,11 @@ it
 }
 AppLinkActionButtons
 (
+appName
+=
+config
+.
+appName
 onConfirm
 =
 {
@@ -2242,6 +2247,9 @@ private
 fun
 AppLinkActionButtons
 (
+appName
+:
+String
 onConfirm
 :
 (
@@ -2306,11 +2314,12 @@ text
 =
 stringResource
 (
-AppLinksR
+R
 .
 string
 .
-mozac_feature_applinks_confirm_dialog_deny
+applinks_prompt_negative_button
+appName
 )
 style
 =
@@ -2372,7 +2381,7 @@ AppLinksR
 .
 string
 .
-mozac_feature_applinks_confirm_dialog_confirm
+mozac_feature_applinks_confirm_dialog_confirm_2
 )
 style
 =

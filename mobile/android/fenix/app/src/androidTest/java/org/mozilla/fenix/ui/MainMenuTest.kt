@@ -3267,7 +3267,8 @@ composeTestRule
 itemContainingText
 (
 "
-Cancel
+Stay
+in
 "
 )
 )

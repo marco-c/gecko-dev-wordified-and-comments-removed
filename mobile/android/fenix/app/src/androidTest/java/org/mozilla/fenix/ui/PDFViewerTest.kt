@@ -516,7 +516,8 @@ composeTestRule
 itemContainingText
 (
 "
-Cancel
+Stay
+in
 "
 )
 )
@@ -627,7 +628,8 @@ composeTestRule
 itemContainingText
 (
 "
-Cancel
+Stay
+in
 "
 )
 )
@@ -728,7 +730,8 @@ composeTestRule
 itemContainingText
 (
 "
-Cancel
+Stay
+in
 "
 )
 )
@@ -1018,7 +1021,8 @@ composeTestRule
 itemContainingText
 (
 "
-Cancel
+Stay
+in
 "
 )
 )
@@ -1158,7 +1162,8 @@ composeTestRule
 itemContainingText
 (
 "
-Cancel
+Stay
+in
 "
 )
 )
