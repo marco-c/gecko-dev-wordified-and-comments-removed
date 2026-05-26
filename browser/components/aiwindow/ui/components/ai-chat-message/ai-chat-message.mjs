@@ -56,6 +56,12 @@ MPL
 .
 *
 /
+/
+*
+global
+Sanitizer
+*
+/
 import
 {
 html

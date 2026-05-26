@@ -1,17 +1,5 @@
 import
 {
-/
-/
-eslint
--
-disable
--
-next
--
-line
-no
--
-shadow
 Navigation
 Topic
 }
