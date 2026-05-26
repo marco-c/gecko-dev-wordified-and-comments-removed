@@ -250,6 +250,9 @@ assertContentSharingModal
 (
 window
 expected
+leaveOpen
+=
+false
 )
 {
 Assert
@@ -719,6 +722,15 @@ text
 ;
 }
 }
+if
+(
+leaveOpen
+)
+{
+return
+modalEl
+;
+}
 window
 .
 gDialogBox
@@ -728,5 +740,8 @@ dialog
 close
 (
 )
+;
+return
+null
 ;
 }
