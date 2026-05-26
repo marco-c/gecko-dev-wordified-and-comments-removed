@@ -181,6 +181,11 @@ TestMozPromiseUtils
 cpp
 "
 "
+TestNSSRandomAccessCipherStrategy
+.
+cpp
+"
+"
 TestOpenClientDirectoryInfo
 .
 cpp
