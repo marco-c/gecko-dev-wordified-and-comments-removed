@@ -22,6 +22,11 @@ cookie
 globalThis
 .
 ConditionCookie
+date
+:
+globalThis
+.
+ConditionDate
 not
 :
 globalThis

@@ -42,6 +42,13 @@ js
 ]
 [
 "
+browser_conditions_date
+.
+js
+"
+]
+[
+"
 browser_conditions_region
 .
 js
