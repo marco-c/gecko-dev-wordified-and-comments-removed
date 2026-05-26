@@ -822,10 +822,13 @@ this
 .
 enrollments
 .
-get
+has
 (
 slug
 )
+|
+|
+recipe
 )
 {
 this
