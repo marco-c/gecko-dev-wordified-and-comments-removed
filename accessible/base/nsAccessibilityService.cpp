@@ -9285,6 +9285,8 @@ eXPCOM
 eMainProcess
 |
 ePlatformAPI
+|
+ePdfOutput
 )
 ;
 nsCOMPtr
