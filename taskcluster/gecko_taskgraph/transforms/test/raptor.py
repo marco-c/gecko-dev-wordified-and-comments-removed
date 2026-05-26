@@ -4931,6 +4931,8 @@ app
 }
 )
             
+default_toolchains
+=
 by_app
 .
 setdefault
@@ -4941,10 +4943,25 @@ default
 [
 ]
 )
-.
-extend
-(
+            
+for
+toolchain
+in
 toolchains
+:
+                
+if
+toolchain
+not
+in
+default_toolchains
+:
+                    
+default_toolchains
+.
+append
+(
+toolchain
 )
         
 yield
