@@ -145,7 +145,7 @@ R
 .
 id
 .
-pageSummariesSettingsFragment
+action_aiControlsFragment_to_pageSummariesSettingsFragment
 (
 destination
 as
