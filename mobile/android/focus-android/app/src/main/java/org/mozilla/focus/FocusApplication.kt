@@ -1369,13 +1369,6 @@ CoroutineDispatcher
 ioDispatcher
 )
 {
-applicationScope
-.
-launch
-(
-dispatcher
-)
-{
 /
 /
 We
@@ -1417,6 +1410,13 @@ unwrap
 )
 }
 )
+applicationScope
+.
+launch
+(
+dispatcher
+)
+{
 /
 /
 Now
@@ -1767,6 +1767,7 @@ onNewTabOverride
 _
 engineSession
 url
+selected
 -
 >
 components
@@ -1780,7 +1781,7 @@ url
 url
 selectTab
 =
-true
+selected
 engineSession
 =
 engineSession

@@ -653,6 +653,7 @@ onNewTabOverride
 _
 engineSession
 url
+selected
 -
 >
 components
@@ -664,7 +665,7 @@ addTab
 url
 selectTab
 =
-true
+selected
 engineSession
 =
 engineSession

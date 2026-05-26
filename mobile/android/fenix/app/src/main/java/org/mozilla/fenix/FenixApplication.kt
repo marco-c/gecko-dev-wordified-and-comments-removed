@@ -6036,6 +6036,7 @@ onNewTabOverride
 _
 engineSession
 url
+selected
 -
 >
 val
@@ -6076,7 +6077,7 @@ url
 url
 selectTab
 =
-true
+selected
 engineSession
 =
 engineSession
