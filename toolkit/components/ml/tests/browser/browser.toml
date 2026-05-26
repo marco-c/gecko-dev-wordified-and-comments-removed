@@ -129,6 +129,13 @@ js
 ]
 [
 "
+browser_ml_mock_llm_engine
+.
+js
+"
+]
+[
+"
 browser_ml_native
 .
 js
