@@ -302,14 +302,11 @@ Acquire
 ;
 masm
 .
-ma_and
+andi
 (
 scratch
 reg
-Imm32
-(
 0xFF
-)
 )
 ;
 masm
