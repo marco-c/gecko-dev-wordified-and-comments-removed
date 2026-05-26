@@ -554,7 +554,6 @@ ActionChecklist
 {
 content
 message_id
-writeInMicrosurvey
 }
 )
 =
@@ -896,9 +895,6 @@ source_id
 "
 CLICK_BUTTON
 "
-{
-writeInMicrosurvey
-}
 )
 ;
 }

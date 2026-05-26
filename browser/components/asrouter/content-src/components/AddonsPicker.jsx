@@ -140,7 +140,6 @@ event
 const
 {
 message_id
-writeInMicrosurvey
 }
 =
 props
@@ -204,9 +203,6 @@ source_id
 "
 CLICK_BUTTON
 "
-{
-writeInMicrosurvey
-}
 )
 ;
 }
