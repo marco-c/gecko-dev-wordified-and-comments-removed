@@ -745,6 +745,13 @@ Bug
 ]
 [
 "
+browser_smartwindow_retry_context
+.
+js
+"
+]
+[
+"
 browser_smartwindow_run_search
 .
 js
