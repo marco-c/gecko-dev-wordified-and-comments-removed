@@ -23,6 +23,15 @@ include
 "
 js
 /
+AllocPolicy
+.
+h
+"
+#
+include
+"
+js
+/
 NativeStackLimits
 .
 h
