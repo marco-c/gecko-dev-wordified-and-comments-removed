@@ -134,17 +134,6 @@ nsCOMPtr
 nsISupports
 >
 aParent
-TransformComponentType
-aTransformComponentType
-)
-;
-CSSTransformComponent
-(
-nsCOMPtr
-<
-nsISupports
->
-aParent
 bool
 aIs2D
 TransformComponentType
