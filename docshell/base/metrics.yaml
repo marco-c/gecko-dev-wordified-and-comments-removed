@@ -138,9 +138,6 @@ timing_distribution
 time_unit
 :
 millisecond
-telemetry_mirror
-:
-TOTAL_CONTENT_PAGE_LOAD_TIME
 description
 :
 >

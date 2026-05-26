@@ -2473,9 +2473,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-LOADED_TAB_COUNT
 installation
 .
 first_seen
@@ -8840,9 +8837,6 @@ never
 unit
 :
 ms
-telemetry_mirror
-:
-TIMESTAMPS_ABOUT_HOME_TOPSITES_FIRST_PAINT
 browser
 .
 sanitizer

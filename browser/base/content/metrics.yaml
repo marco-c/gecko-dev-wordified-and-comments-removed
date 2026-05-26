@@ -2669,9 +2669,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-FX_NEW_WINDOW_MS
 metadata
 :
 monitor
@@ -2845,9 +2842,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-FX_PAGE_LOAD_MS_2
 metadata
 :
 monitor
@@ -2973,9 +2967,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-FX_PAGE_RELOAD_NORMAL_MS
 page_reload_skip_cache
 :
 type
@@ -3086,9 +3077,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-FX_PAGE_RELOAD_SKIP_CACHE_MS
 startup_timeline
 :
 type
