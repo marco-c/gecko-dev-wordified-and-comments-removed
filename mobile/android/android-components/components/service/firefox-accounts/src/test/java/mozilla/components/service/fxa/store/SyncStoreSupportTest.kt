@@ -744,7 +744,7 @@ assertEquals
 (
 AccountState
 .
-NotAuthenticated
+Unknown
 store
 .
 state
@@ -897,7 +897,7 @@ assertEquals
 (
 AccountState
 .
-NotAuthenticated
+Unknown
 store
 .
 state
@@ -1029,7 +1029,7 @@ assertEquals
 (
 AccountState
 .
-NotAuthenticated
+Unknown
 store
 .
 state
@@ -1081,7 +1081,7 @@ assertEquals
 (
 AccountState
 .
-NotAuthenticated
+Unknown
 store
 .
 state
@@ -1348,7 +1348,7 @@ assertEquals
 (
 AccountState
 .
-NotAuthenticated
+Unknown
 store
 .
 state
@@ -1496,7 +1496,7 @@ assertEquals
 (
 AccountState
 .
-NotAuthenticated
+Unknown
 store
 .
 state
@@ -1521,7 +1521,7 @@ assertEquals
 (
 AccountState
 .
-NotAuthenticated
+Unknown
 store
 .
 state
