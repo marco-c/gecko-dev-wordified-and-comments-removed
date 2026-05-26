@@ -815,6 +815,13 @@ DND
 ]
 [
 "
+test_ime_state_contenteditable_false
+.
+html
+"
+]
+[
+"
 test_keypress_event_with_alt_on_mac
 .
 html
