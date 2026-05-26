@@ -143,14 +143,9 @@ RoomDatabase
 {
 abstract
 val
-tabGroupDao
+tabGroupOperationsDao
 :
-StoredTabGroupDao
-abstract
-val
-tabGroupAssignmentDao
-:
-TabGroupAssignmentDao
+TabGroupOperationsDao
 companion
 object
 {
