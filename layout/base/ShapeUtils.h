@@ -57,7 +57,7 @@ final
 {
 static
 nscoord
-ComputeShapeRadius
+ComputeOrthogonalDistanceTo
 (
 const
 StyleShapeRadius
