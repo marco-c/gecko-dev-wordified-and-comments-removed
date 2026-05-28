@@ -154,6 +154,8 @@ dom
 :
 ContentParentId
 aContentId
+uint32_t
+aNamespace
 )
 ;
 public
@@ -175,6 +177,8 @@ ImageBridgeParent
 *
 CreateSameProcess
 (
+uint32_t
+aNamespace
 )
 ;
 static
@@ -188,6 +192,8 @@ PImageBridgeParent
 &
 &
 aEndpoint
+uint32_t
+aNamespace
 )
 ;
 static
@@ -206,6 +212,8 @@ dom
 :
 ContentParentId
 aContentId
+uint32_t
+aNamespace
 )
 ;
 static
@@ -560,6 +568,9 @@ dom
 :
 ContentParentId
 mContentId
+;
+uint32_t
+mNamespace
 ;
 bool
 mClosed

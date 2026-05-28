@@ -710,6 +710,7 @@ SendPCompositorBridgeConstructor
 (
 bridge
 options
+aNamespace
 )
 )
 )
@@ -741,9 +742,6 @@ CreateWidgetCompositorBridge
 (
 uint64_t
 aProcessToken
-WebRenderLayerManager
-*
-aLayerManager
 uint32_t
 aNamespace
 CSSToLayoutDeviceScale
@@ -858,6 +856,7 @@ SendPCompositorBridgeConstructor
 (
 bridge
 options
+aNamespace
 )
 )
 )
@@ -872,7 +871,6 @@ bridge
 InitForWidget
 (
 aProcessToken
-aLayerManager
 aNamespace
 )
 ;
@@ -893,9 +891,6 @@ CompositorManagerChild
 :
 CreateSameProcessWidgetCompositorBridge
 (
-WebRenderLayerManager
-*
-aLayerManager
 uint32_t
 aNamespace
 )
@@ -967,6 +962,7 @@ SendPCompositorBridgeConstructor
 (
 bridge
 options
+aNamespace
 )
 )
 )
@@ -981,7 +977,6 @@ bridge
 InitForWidget
 (
 1
-aLayerManager
 aNamespace
 )
 ;

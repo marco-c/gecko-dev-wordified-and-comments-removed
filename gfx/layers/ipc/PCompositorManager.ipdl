@@ -561,6 +561,8 @@ PCompositorBridge
 (
 CompositorBridgeOptions
 options
+uint32_t
+aNamespace
 )
 ;
 async

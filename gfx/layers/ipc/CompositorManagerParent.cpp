@@ -472,6 +472,7 @@ new
 CompositorBridgeParent
 (
 sInstance
+0
 aScale
 vsyncRate
 aOptions
@@ -1016,6 +1017,10 @@ const
 CompositorBridgeOptions
 &
 aOpt
+const
+uint32_t
+&
+aNamespace
 )
 {
 switch
@@ -1044,6 +1049,7 @@ new
 ContentCompositorBridgeParent
 (
 this
+aNamespace
 )
 ;
 return
@@ -1136,6 +1142,7 @@ new
 CompositorBridgeParent
 (
 this
+aNamespace
 opt
 .
 scale
@@ -1245,6 +1252,14 @@ mPendingCompositorBridges
 [
 0
 ]
+;
+bridge
+-
+>
+SetNamespace
+(
+aNamespace
+)
 ;
 mPendingCompositorBridges
 .

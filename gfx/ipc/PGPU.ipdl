@@ -491,6 +491,16 @@ Types
 h
 "
 ;
+using
+std
+:
+:
+string
+from
+"
+string
+"
+;
 namespace
 mozilla
 {
@@ -642,6 +652,8 @@ Endpoint
 PImageBridgeParent
 >
 endpoint
+uint32_t
+aNamespace
 )
 ;
 async
@@ -664,6 +676,8 @@ Endpoint
 PVRManagerParent
 >
 endpoint
+uint32_t
+aNamespace
 )
 ;
 async
@@ -794,6 +808,8 @@ PImageBridgeParent
 endpoint
 ContentParentId
 childId
+uint32_t
+aNamespace
 )
 ;
 async
@@ -806,6 +822,8 @@ PVRManagerParent
 endpoint
 ContentParentId
 childId
+uint32_t
+aNamespace
 )
 ;
 async
@@ -978,7 +996,7 @@ CollectPerfStatsJSON
 )
 returns
 (
-nsCString
+string
 aStats
 )
 ;

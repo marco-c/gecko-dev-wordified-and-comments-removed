@@ -897,6 +897,8 @@ dom
 :
 ContentParentId
 aChildId
+uint32_t
+aNamespace
 mozilla
 :
 :
@@ -927,6 +929,8 @@ dom
 :
 ContentParentId
 aChildId
+uint32_t
+aNamespace
 mozilla
 :
 :
