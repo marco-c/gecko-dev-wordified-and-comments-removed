@@ -142,11 +142,6 @@ registerProcessActor
 WebDriverProcessData
 "
 {
-kind
-:
-"
-JSProcessActor
-"
 child
 :
 {

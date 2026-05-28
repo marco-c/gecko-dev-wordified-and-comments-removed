@@ -300,11 +300,6 @@ registerWindowActor
 MarionetteEvents
 "
 {
-kind
-:
-"
-JSWindowActor
-"
 parent
 :
 {

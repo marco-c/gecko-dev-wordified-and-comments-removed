@@ -235,11 +235,6 @@ registerProcessActor
 WebDriverWorkerListener
 "
 {
-kind
-:
-"
-JSProcessActor
-"
 parent
 :
 {

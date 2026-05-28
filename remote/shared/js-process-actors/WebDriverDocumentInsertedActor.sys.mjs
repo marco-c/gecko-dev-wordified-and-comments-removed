@@ -114,11 +114,6 @@ registerProcessActor
 WebDriverDocumentInserted
 "
 {
-kind
-:
-"
-JSProcessActor
-"
 parent
 :
 {

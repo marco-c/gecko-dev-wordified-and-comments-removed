@@ -2259,11 +2259,6 @@ registerWindowActor
 MarionetteCommands
 "
 {
-kind
-:
-"
-JSWindowActor
-"
 parent
 :
 {

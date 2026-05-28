@@ -4271,11 +4271,6 @@ javascript
 Plugin
 :
 {
-kind
-:
-"
-JSWindowActor
-"
 parent
 :
 {

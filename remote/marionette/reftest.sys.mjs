@@ -816,11 +816,6 @@ registerWindowActor
 MarionetteReftest
 "
 {
-kind
-:
-"
-JSWindowActor
-"
 parent
 :
 {
