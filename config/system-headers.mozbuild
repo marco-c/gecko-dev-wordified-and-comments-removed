@@ -1804,13 +1804,6 @@ gio
 h
 "
 "
-gio
-/
-gunixinputstream
-.
-h
-"
-"
 glibconfig
 .
 h
@@ -1824,13 +1817,6 @@ h
 glib
 -
 object
-.
-h
-"
-"
-glib
--
-unix
 .
 h
 "
