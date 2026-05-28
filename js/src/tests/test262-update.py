@@ -512,22 +512,6 @@ bytes
 "
     
 "
-import
--
-text
-"
-:
-"
--
--
-enable
--
-import
--
-text
-"
-    
-"
 await
 -
 dictionary
