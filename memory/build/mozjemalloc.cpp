@@ -16176,6 +16176,17 @@ opt_dirty_max
 aStats
 -
 >
+arena_run_header
+=
+offsetof
+(
+arena_run_t
+mRegionsMask
+)
+;
+aStats
+-
+>
 narenas
 =
 0

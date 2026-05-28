@@ -290,6 +290,9 @@ bin_unused
 size_t
 num_operations
 ;
+size_t
+arena_run_header
+;
 }
 jemalloc_stats_t
 ;
