@@ -393,12 +393,6 @@ AndroidWebAuthnService
 =
 default
 ;
-Maybe
-<
-bool
->
-mRegisterCredPropsRk
-;
 }
 ;
 }
