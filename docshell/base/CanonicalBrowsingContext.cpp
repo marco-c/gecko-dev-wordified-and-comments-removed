@@ -9096,6 +9096,10 @@ if
 (
 !
 shistory
+|
+|
+!
+mActiveEntry
 )
 {
 return
