@@ -198,6 +198,13 @@ sys
 mjs
 "
 "
+GeckoViewPromptParent
+.
+sys
+.
+mjs
+"
+"
 GeckoViewPushParent
 .
 sys
