@@ -329,6 +329,13 @@ tabs
 "
 [
 "
+browser_opentabs_sidebar
+.
+js
+"
+]
+[
+"
 browser_resize_sidebar
 .
 js
