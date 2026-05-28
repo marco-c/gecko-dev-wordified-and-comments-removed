@@ -147,13 +147,6 @@ common
 css
 "
 ;
-button
-{
-margin
-:
-0
-;
-}
 ;
 this
 .
@@ -185,6 +178,8 @@ document
 createElement
 (
 "
+moz
+-
 button
 "
 )
