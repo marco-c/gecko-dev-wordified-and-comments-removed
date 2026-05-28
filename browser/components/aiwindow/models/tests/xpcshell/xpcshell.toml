@@ -108,6 +108,13 @@ js
 ]
 [
 "
+test_PromptLoader_loadCallContext
+.
+js
+"
+]
+[
+"
 test_PromptOptimizer
 .
 js
@@ -214,6 +221,13 @@ js
 [
 "
 test_Utils_RemoteSettings_ChatModelChoice
+.
+js
+"
+]
+[
+"
+test_engine_build_object_form
 .
 js
 "
