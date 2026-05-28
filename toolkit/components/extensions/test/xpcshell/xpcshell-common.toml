@@ -760,6 +760,13 @@ Bug
 ]
 [
 "
+test_ext_contentscript_adoptedStyleSheets
+.
+js
+"
+]
+[
+"
 test_ext_contentscript_antitracking
 .
 js
