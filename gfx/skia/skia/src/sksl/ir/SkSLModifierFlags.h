@@ -175,6 +175,7 @@ SkSL
 :
 ModifierFlag
 )
+;
 namespace
 SkSL
 {

@@ -2005,12 +2005,6 @@ const
 return
 fShapeForKey
 .
-hasUnstyledKey
-(
-)
-?
-fShapeForKey
-.
 unstyledKeySize
 (
 )
@@ -2019,9 +2013,6 @@ sizeof
 (
 uint32_t
 )
-:
--
-1
 ;
 }
 void

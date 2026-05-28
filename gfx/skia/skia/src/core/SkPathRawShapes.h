@@ -58,7 +58,6 @@ fStorage
 4
 ]
 ;
-explicit
 Rect
 (
 const
@@ -90,7 +89,6 @@ fStorage
 9
 ]
 ;
-explicit
 Oval
 (
 const
@@ -163,7 +161,6 @@ kCW
 )
 {
 }
-explicit
 RRect
 (
 const

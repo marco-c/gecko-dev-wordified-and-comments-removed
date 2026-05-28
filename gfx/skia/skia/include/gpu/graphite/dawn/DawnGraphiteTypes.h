@@ -202,7 +202,6 @@ DawnTextureInfo
 =
 default
 ;
-explicit
 DawnTextureInfo
 (
 WGPUTexture
@@ -211,7 +210,7 @@ texture
 ;
 DawnTextureInfo
 (
-SampleCount
+uint32_t
 sampleCount
 Mipmapped
 mipmapped
@@ -246,7 +245,7 @@ aspect
 }
 DawnTextureInfo
 (
-SampleCount
+uint32_t
 sampleCount
 Mipmapped
 mipmapped
@@ -310,7 +309,7 @@ __EMSCRIPTEN__
 )
 DawnTextureInfo
 (
-SampleCount
+uint32_t
 sampleCount
 Mipmapped
 mipmapped
@@ -420,6 +419,21 @@ viewFormat
 (
 )
 const
+;
+bool
+serialize
+(
+SkWStream
+*
+)
+const
+;
+bool
+deserialize
+(
+SkStream
+*
+)
 ;
 SkString
 toBackendString

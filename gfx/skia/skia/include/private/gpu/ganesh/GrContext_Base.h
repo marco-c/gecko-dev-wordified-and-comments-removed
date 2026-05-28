@@ -163,7 +163,6 @@ friend
 class
 GrBaseContextPriv
 ;
-explicit
 GrContext_Base
 (
 sk_sp

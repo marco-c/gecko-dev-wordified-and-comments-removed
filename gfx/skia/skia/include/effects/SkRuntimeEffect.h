@@ -1356,7 +1356,6 @@ std
 :
 unique_ptr
 <
-const
 SkSL
 :
 :
@@ -1369,7 +1368,6 @@ std
 :
 unique_ptr
 <
-const
 SkSL
 :
 :
@@ -2044,18 +2042,12 @@ fChild
 index
 ]
 =
-SkRuntimeEffect
-:
-:
-ChildPtr
-(
 std
 :
 :
 move
 (
 val
-)
 )
 ;
 }

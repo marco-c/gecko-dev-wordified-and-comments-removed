@@ -43,8 +43,6 @@ unique_ptr
 SkStreamAsset
 >
 content
-SkPDFParentTreeKey
-structParentsKey
 std
 :
 :

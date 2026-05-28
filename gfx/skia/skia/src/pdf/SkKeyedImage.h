@@ -53,7 +53,6 @@ SkKeyedImage
 )
 {
 }
-explicit
 SkKeyedImage
 (
 sk_sp
@@ -62,7 +61,6 @@ SkImage
 >
 )
 ;
-explicit
 SkKeyedImage
 (
 const

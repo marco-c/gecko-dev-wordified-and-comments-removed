@@ -1671,7 +1671,7 @@ return
 surf
 -
 >
-makeTemporaryImage
+makeImageSnapshot
 (
 )
 ;

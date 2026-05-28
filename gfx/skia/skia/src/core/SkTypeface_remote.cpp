@@ -321,7 +321,6 @@ SkGlyph
 glyph
 void
 *
-imageBuffer
 )
 {
 TRACE_EVENT1
@@ -412,16 +411,6 @@ kGlyphImage
 fRec
 .
 fTextSize
-)
-;
-sk_bzero
-(
-imageBuffer
-glyph
-.
-imageSize
-(
-)
 )
 ;
 }

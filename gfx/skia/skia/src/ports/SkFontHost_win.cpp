@@ -1345,11 +1345,6 @@ otmEMSquare
 ;
 }
 class
-[
-[
-nodiscard
-]
-]
 SkAutoHDC
 {
 public

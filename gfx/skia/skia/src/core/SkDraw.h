@@ -163,9 +163,6 @@ class
 SkMatrix
 ;
 class
-SkMipmap
-;
-class
 SkPath
 ;
 struct
@@ -316,10 +313,6 @@ SkSamplingOptions
 const
 SkPaint
 &
-sk_sp
-<
-SkMipmap
->
 )
 const
 =
@@ -446,6 +439,8 @@ const
 SkMatrix
 *
 prePathMatrix
+bool
+pathIsMutable
 )
 const
 {
@@ -457,6 +452,7 @@ drawPath
 path
 paint
 prePathMatrix
+pathIsMutable
 SkDrawCoverage
 :
 :
@@ -516,6 +512,7 @@ drawPath
 src
 paint
 nullptr
+false
 isHairline
 ?
 SkDrawCoverage
@@ -633,10 +630,6 @@ SkSamplingOptions
 const
 SkPaint
 &
-sk_sp
-<
-SkMipmap
->
 )
 const
 override
@@ -814,6 +807,8 @@ const
 SkMatrix
 *
 preMatrix
+bool
+pathIsMutable
 SkDrawCoverage
 drawCoverage
 SkBlitter

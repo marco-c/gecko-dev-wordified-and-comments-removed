@@ -85,7 +85,7 @@ t0
 SkScalar
 t1
 const
-SkGradient
+Descriptor
 &
 )
 ;

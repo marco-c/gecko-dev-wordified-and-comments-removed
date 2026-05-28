@@ -159,9 +159,6 @@ ct
 )
 {
 case
-kR8_unorm_SkColorType
-:
-case
 kAlpha_8_SkColorType
 :
 case
@@ -177,9 +174,6 @@ kUnorm8
 }
 ;
 case
-kR16_unorm_SkColorType
-:
-case
 kA16_unorm_SkColorType
 :
 return
@@ -191,9 +185,6 @@ DataType
 kUnorm16
 }
 ;
-case
-kR16_float_SkColorType
-:
 case
 kA16_float_SkColorType
 :

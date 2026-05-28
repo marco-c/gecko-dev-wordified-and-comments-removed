@@ -77,7 +77,6 @@ Kind
 :
 kDiscard
 ;
-explicit
 DiscardStatement
 (
 Position

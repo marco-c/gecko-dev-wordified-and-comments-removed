@@ -83,7 +83,6 @@ SkTypeface_Make_Fontations
 (
 sk_sp
 <
-const
 SkData
 >
 fontData

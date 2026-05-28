@@ -3050,10 +3050,7 @@ nullptr
 }
 if
 (
-SkStreamPriv
-:
-:
-RemainingLengthIsBelow
+StreamRemainingLengthIsBelow
 (
 stream
 sz

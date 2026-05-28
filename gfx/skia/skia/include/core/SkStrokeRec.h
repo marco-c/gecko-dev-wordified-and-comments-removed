@@ -80,7 +80,6 @@ kHairline_InitStyle
 kFill_InitStyle
 }
 ;
-explicit
 SkStrokeRec
 (
 InitStyle

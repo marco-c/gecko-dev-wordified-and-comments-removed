@@ -20,9 +20,6 @@ h
 class
 SkCanvas
 ;
-class
-SkSurface
-;
 namespace
 skcpu
 {
@@ -118,16 +115,6 @@ SkCanvas
 makeCaptureCanvas
 (
 SkCanvas
-*
-)
-=
-0
-;
-virtual
-void
-createCaptureBreakpoint
-(
-SkSurface
 *
 )
 =

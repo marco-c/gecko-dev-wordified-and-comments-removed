@@ -133,9 +133,9 @@ SK_CPU_X86
 )
 #
 if
-SK_CPU_X64_LEVEL
+SK_CPU_SSE_LEVEL
 <
-SK_CPU_X64_LEVEL_AVX
+SK_CPU_SSE_LEVEL_AVX
 if
 (
 SkCpu
@@ -143,7 +143,7 @@ SkCpu
 :
 Supports
 (
-SkX64
+SkCpu
 :
 :
 AVX
@@ -164,7 +164,7 @@ SkCpu
 :
 Supports
 (
-SkX64
+SkCpu
 :
 :
 ERMS

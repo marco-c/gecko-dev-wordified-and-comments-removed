@@ -3972,6 +3972,11 @@ drawPath
 pathToUse
 paint
 nullptr
+pathToUse
+=
+=
+&
+strokePath
 )
 ;
 switch

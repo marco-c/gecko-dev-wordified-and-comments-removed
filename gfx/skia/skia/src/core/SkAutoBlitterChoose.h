@@ -90,11 +90,6 @@ SkSTArenaAlloc
 >
 ;
 class
-[
-[
-nodiscard
-]
-]
 SkAutoBlitterChoose
 :
 SkNoncopyable

@@ -209,17 +209,6 @@ ShaderType
 kPicture
 ;
 }
-bool
-isOpaque
-(
-)
-const
-override
-{
-return
-false
-;
-}
 sk_sp
 <
 SkPicture
