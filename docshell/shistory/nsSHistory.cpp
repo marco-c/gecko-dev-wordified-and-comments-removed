@@ -10723,9 +10723,11 @@ SessionHistoryEntry
 entry
 =
 mEntries
-[
+.
+SafeElementAt
+(
 aIndex
-]
+)
 ;
 if
 (
