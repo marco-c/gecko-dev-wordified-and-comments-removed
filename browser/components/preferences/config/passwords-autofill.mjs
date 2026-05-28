@@ -3868,11 +3868,6 @@ header
 headingLevel
 :
 2
-subcategory
-:
-"
-logins
-"
 items
 :
 [

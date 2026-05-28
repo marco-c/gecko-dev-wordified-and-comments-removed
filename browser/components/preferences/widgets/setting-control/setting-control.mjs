@@ -1638,15 +1638,6 @@ getCommonPropertyMapping
 config
 )
 "
-data
--
-subcategory
-"
-:
-config
-.
-subcategory
-"
 .
 setting
 "

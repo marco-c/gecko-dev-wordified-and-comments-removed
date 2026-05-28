@@ -3891,11 +3891,6 @@ registerGroups
 browserLayout
 :
 {
-subcategory
-:
-"
-layout
-"
 l10nId
 :
 "
@@ -4814,11 +4809,6 @@ id
 :
 "
 playDRMContent
-"
-subcategory
-:
-"
-drm
 "
 l10nId
 :
