@@ -2685,9 +2685,9 @@ components
 /
 urlbar
 /
-content
-/
 UrlbarResult
+.
+sys
 .
 mjs
 >

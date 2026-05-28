@@ -380,6 +380,13 @@ sys
 mjs
 "
 "
+UrlbarResult
+.
+sys
+.
+mjs
+"
+"
 UrlbarSearchOneOffs
 .
 sys
