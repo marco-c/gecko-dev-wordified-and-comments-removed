@@ -7906,8 +7906,6 @@ break
 ?
 #
 #
-Sports
-widget
 newtab
 -
 sports

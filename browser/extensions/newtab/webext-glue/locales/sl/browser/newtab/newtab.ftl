@@ -8910,8 +8910,6 @@ Dodaj
 minuto
 #
 #
-Sports
-widget
 newtab
 -
 sports

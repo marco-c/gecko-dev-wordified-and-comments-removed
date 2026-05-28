@@ -7232,8 +7232,6 @@ hide
 =
 #
 #
-Sports
-widget
 newtab
 -
 sports

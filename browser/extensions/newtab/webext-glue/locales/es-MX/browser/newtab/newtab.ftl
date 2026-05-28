@@ -9884,8 +9884,6 @@ n
 ?
 #
 #
-Sports
-widget
 newtab
 -
 sports

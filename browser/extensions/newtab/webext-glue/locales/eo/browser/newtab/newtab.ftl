@@ -9545,8 +9545,6 @@ i
 ?
 #
 #
-Sports
-widget
 newtab
 -
 sports

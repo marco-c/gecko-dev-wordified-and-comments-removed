@@ -8940,8 +8940,6 @@ Skjul
 timer
 #
 #
-Sports
-widget
 newtab
 -
 sports

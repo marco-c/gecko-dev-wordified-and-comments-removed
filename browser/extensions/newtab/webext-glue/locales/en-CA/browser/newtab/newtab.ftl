@@ -9407,8 +9407,6 @@ focus
 ?
 #
 #
-Sports
-widget
 newtab
 -
 sports

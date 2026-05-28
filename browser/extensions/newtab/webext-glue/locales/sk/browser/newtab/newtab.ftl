@@ -10225,8 +10225,6 @@ sa
 ?
 #
 #
-Sports
-widget
 newtab
 -
 sports
