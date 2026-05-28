@@ -231,15 +231,6 @@ bits
 ElementState
 :
 :
-PICTURE_IN_PICTURE
-.
-bits
-(
-)
-|
-ElementState
-:
-:
 VISITED_OR_UNVISITED
 .
 bits

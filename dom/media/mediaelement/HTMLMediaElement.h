@@ -3636,6 +3636,12 @@ ErrorResult
 aRv
 )
 ;
+using
+nsGenericHTMLElement
+:
+:
+DispatchEvent
+;
 MOZ_CAN_RUN_SCRIPT
 nsresult
 FireEvent

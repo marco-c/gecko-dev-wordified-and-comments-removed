@@ -5397,11 +5397,6 @@ PermissionStatus
 webidl
 "
 "
-PictureInPictureWindow
-.
-webidl
-"
-"
 Plugin
 .
 webidl
@@ -7326,11 +7321,6 @@ webidl
 "
 "
 PerformanceEntryEvent
-.
-webidl
-"
-"
-PictureInPictureEvent
 .
 webidl
 "
