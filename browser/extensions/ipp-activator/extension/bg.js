@@ -1748,7 +1748,6 @@ tabId
 tab
 .
 id
-url
 }
 )
 ;
