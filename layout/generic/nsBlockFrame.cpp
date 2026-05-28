@@ -9478,6 +9478,9 @@ PreReflowBlockLevelLogicalSkipSides
 )
 )
 ;
+nsReflowStatus
+absposStatus
+;
 absoluteContainer
 -
 >
@@ -9486,7 +9489,7 @@ Reflow
 this
 aPresContext
 aReflowInput
-reflowStatus
+absposStatus
 cbRect
 .
 GetPhysicalRect
@@ -9503,6 +9506,13 @@ flags
 aMetrics
 .
 mOverflowAreas
+)
+;
+reflowStatus
+.
+MergeCompletionStatusFrom
+(
+absposStatus
 )
 ;
 }

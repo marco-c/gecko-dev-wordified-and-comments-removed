@@ -4616,6 +4616,9 @@ AbsPosReflowFlag
 CBHeightChanged
 }
 ;
+nsReflowStatus
+absposStatus
+;
 absoluteContainer
 -
 >
@@ -4624,7 +4627,7 @@ Reflow
 this
 aPresContext
 aReflowInput
-aStatus
+absposStatus
 cbRect
 .
 GetPhysicalRect
@@ -4641,6 +4644,13 @@ flags
 aDesiredSize
 .
 mOverflowAreas
+)
+;
+aStatus
+.
+MergeCompletionStatusFrom
+(
+absposStatus
 )
 ;
 }
