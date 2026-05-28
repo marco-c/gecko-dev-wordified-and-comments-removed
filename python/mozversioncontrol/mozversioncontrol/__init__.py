@@ -24,6 +24,7 @@ repo
 .
 base
 import
+HG_TRY_URL
 Repository
 from
 mozversioncontrol
