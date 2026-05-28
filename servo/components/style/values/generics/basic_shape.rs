@@ -494,13 +494,6 @@ repr
 u8
 )
 ]
-#
-[
-typed
-(
-todo_derive_fields
-)
-]
 pub
 enum
 GenericShapeOutside
@@ -528,6 +521,13 @@ Image
 (
 I
 )
+#
+[
+typed
+(
+skip
+)
+]
 Shape
 (
 Box
