@@ -761,7 +761,6 @@ otherwise
 /
 static
 async
-#
 closeSelectedTabs
 (
 selectedTabs
@@ -1149,7 +1148,6 @@ result
 await
 this
 .
-#
 closeSelectedTabs
 (
 selectedTabs
