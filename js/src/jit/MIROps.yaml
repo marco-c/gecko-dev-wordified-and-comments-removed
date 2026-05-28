@@ -8896,6 +8896,9 @@ Object
 result_type
 :
 Object
+alias_set
+:
+none
 can_recover
 :
 true
