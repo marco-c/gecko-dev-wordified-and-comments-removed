@@ -163,6 +163,10 @@ AcornPaddingRule
 (
 config
 )
+AcornThemeUsageRule
+(
+config
+)
 )
 )
 }

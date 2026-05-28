@@ -217,8 +217,6 @@ Config
 =
 Config
 .
-Companion
-.
 empty
 )
 :
@@ -305,8 +303,6 @@ tokens
 debt
 =
 Debt
-.
-Companion
 .
 FIVE_MINS
 )
