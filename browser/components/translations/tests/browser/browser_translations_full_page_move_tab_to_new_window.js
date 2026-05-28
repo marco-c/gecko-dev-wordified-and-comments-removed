@@ -276,6 +276,15 @@ testPage
 .
 cleanup
 (
+{
+browser
+:
+window2
+.
+gBrowser
+.
+selectedBrowser
+}
 )
 ;
 await
