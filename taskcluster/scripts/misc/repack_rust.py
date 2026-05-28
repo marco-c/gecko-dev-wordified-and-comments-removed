@@ -3736,6 +3736,16 @@ llvm
 -
 lib
 "
+                
+"
+RUSTC_WINDOWS_RC
+"
+:
+"
+llvm
+-
+rc
+"
             
 }
 )

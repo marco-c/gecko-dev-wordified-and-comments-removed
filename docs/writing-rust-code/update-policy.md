@@ -3429,7 +3429,7 @@ Firefox
 Rust
 1
 .
-91
+92
 .
 0
 |
@@ -3440,8 +3440,8 @@ Rust
 0
 |
 2025
-October
-30
+December
+11
 |
 2026
 June
