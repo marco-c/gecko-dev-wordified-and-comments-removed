@@ -73,6 +73,7 @@ createProfileWizard
 .
 js
 )
+*
 content
 /
 mozapps
@@ -105,6 +106,7 @@ profileSelection
 .
 js
 )
+*
 content
 /
 mozapps
