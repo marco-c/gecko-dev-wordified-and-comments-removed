@@ -9897,6 +9897,10 @@ obj
 manifest
 .
 manifests
+.
+keys
+(
+)
         
 except
 ImportError
