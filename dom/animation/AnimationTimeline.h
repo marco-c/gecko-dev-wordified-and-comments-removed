@@ -400,17 +400,6 @@ nullptr
 ;
 }
 virtual
-bool
-IsInactiveTimeline
-(
-)
-const
-{
-return
-false
-;
-}
-virtual
 Nullable
 <
 TimeDuration

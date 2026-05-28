@@ -176,13 +176,6 @@ AnimationEffect
 ?
 effect
 ;
-[
-BinaryName
-=
-"
-timelineFromJS
-"
-]
 attribute
 AnimationTimeline
 ?
