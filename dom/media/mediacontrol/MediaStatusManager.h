@@ -610,6 +610,14 @@ aBrowsingContextId
 )
 const
 ;
+bool
+IsBcAudible
+(
+uint64_t
+aBrowsingContextId
+)
+const
+;
 MediaEventSource
 <
 MediaMetadataBase

@@ -736,7 +736,7 @@ bool
 MediaPlaybackStatus
 :
 :
-IsBcAudibleForTesting
+IsBcAudible
 (
 uint64_t
 aBcId
