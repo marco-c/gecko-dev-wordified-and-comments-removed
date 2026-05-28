@@ -6015,6 +6015,12 @@ true
 ;
 drmInfo
 .
+mPowerEfficient
+=
+false
+;
+drmInfo
+.
 mKeySystemAccess
 =
 aValue
