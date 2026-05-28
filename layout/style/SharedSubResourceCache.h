@@ -9,15 +9,6 @@ include
 "
 mozilla
 /
-MemoryReporting
-.
-h
-"
-#
-include
-"
-mozilla
-/
 PrincipalHashKey
 .
 h
@@ -110,13 +101,6 @@ h
 #
 include
 "
-nsIMemoryReporter
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
@@ -170,6 +154,7 @@ aObserver
 }
 class
 SubResourceNetworkMetadataHolder
+final
 {
 public
 :
