@@ -156,6 +156,9 @@ true
 isSignedIn
 :
 true
+loadingPromise
+:
+null
 }
 )
 ;
@@ -461,6 +464,9 @@ true
 isSignedIn
 :
 true
+loadingPromise
+:
+null
 }
 )
 ;
