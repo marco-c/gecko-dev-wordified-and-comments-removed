@@ -13,9 +13,7 @@ function
 await
 openPreferencesViaOpenPreferencesAPI
 (
-"
-paneGeneral
-"
+DEFAULT_PANE
 {
 leaveOpen
 :
@@ -57,9 +55,7 @@ function
 await
 openPreferencesViaOpenPreferencesAPI
 (
-"
-paneGeneral
-"
+DEFAULT_PANE
 {
 leaveOpen
 :
@@ -101,9 +97,7 @@ function
 await
 openPreferencesViaOpenPreferencesAPI
 (
-"
-paneGeneral
-"
+DEFAULT_PANE
 {
 leaveOpen
 :

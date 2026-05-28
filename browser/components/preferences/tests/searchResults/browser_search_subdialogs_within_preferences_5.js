@@ -13,9 +13,7 @@ function
 await
 openPreferencesViaOpenPreferencesAPI
 (
-"
-paneGeneral
-"
+DEFAULT_PANE
 {
 leaveOpen
 :
@@ -58,9 +56,7 @@ function
 await
 openPreferencesViaOpenPreferencesAPI
 (
-"
-paneGeneral
-"
+DEFAULT_PANE
 {
 leaveOpen
 :
@@ -102,9 +98,7 @@ function
 await
 openPreferencesViaOpenPreferencesAPI
 (
-"
-paneGeneral
-"
+DEFAULT_PANE
 {
 leaveOpen
 :
@@ -125,6 +119,12 @@ sites
 listed
 here
 "
+SRD_PREF_VALUE
+?
+"
+passwords
+"
+:
 "
 passwordsGroup
 "
