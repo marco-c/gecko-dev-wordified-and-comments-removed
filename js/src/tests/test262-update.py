@@ -365,12 +365,6 @@ import
 -
 bytes
 "
-    
-"
-import
--
-text
-"
 ]
 )
 SHELL_OPTIONS
