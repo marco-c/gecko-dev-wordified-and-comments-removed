@@ -557,6 +557,11 @@ nativeShareSheetEnabled
 Boolean
 =
 false
+showVoiceSearchInDisplayToolbar
+:
+Boolean
+=
+false
 )
 :
 this
@@ -682,6 +687,11 @@ this
 nativeShareSheetEnabled
 =
 nativeShareSheetEnabled
+this
+.
+showVoiceSearchInDisplayToolbar
+=
+showVoiceSearchInDisplayToolbar
 }
 /
 *
@@ -1360,6 +1370,11 @@ nativeShareSheetEnabled
 Boolean
 =
 false
+showVoiceSearchInDisplayToolbar
+:
+Boolean
+=
+false
 )
 :
 this
@@ -1490,6 +1505,11 @@ this
 nativeShareSheetEnabled
 =
 nativeShareSheetEnabled
+this
+.
+showVoiceSearchInDisplayToolbar
+=
+showVoiceSearchInDisplayToolbar
 }
 private
 val
