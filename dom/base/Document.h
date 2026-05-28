@@ -2708,6 +2708,13 @@ return
 false
 ;
 }
+NS_IMPL_FROMNODE_HELPER
+(
+Document
+IsDocument
+(
+)
+)
 void
 InsertChildBefore
 (

@@ -1764,6 +1764,7 @@ EventChainPostVisitor
 aVisitor
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 PreHandleEvent
 (
@@ -5740,10 +5741,8 @@ clearTargets
 =
 false
 ;
-nsCOMPtr
-<
 nsIContent
->
+*
 content
 =
 nsIContent
@@ -5894,6 +5893,10 @@ content
 )
 ;
 }
+content
+=
+nullptr
+;
 if
 (
 !
