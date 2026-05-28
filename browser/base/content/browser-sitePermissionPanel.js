@@ -1560,17 +1560,6 @@ pageproxystate
 "
 valid
 "
-&
-&
-!
-gURLBar
-.
-hasAttribute
-(
-"
-persistsearchterms
-"
-)
 )
 {
 return
