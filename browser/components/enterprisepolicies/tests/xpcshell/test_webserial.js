@@ -321,7 +321,7 @@ active
 "
 )
 ;
-checkLockedPref
+checkUnlockedPref
 (
 PREF
 false
