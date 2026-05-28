@@ -29,7 +29,10 @@ namespace
 mozilla
 {
 class
-AutoFragmentHandler
+AutoSVGViewHandler
+;
+class
+SVGFragmentIdentifier
 ;
 class
 PresShell
@@ -115,7 +118,11 @@ AsyncSendIntrinsicSizeAndRatioToEmbedder
 ;
 friend
 class
-AutoFragmentHandler
+AutoSVGViewHandler
+;
+friend
+class
+SVGFragmentIdentifier
 ;
 protected
 :
