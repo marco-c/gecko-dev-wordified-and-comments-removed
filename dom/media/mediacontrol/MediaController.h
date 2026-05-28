@@ -777,13 +777,6 @@ mIsInFullScreenMode
 =
 false
 ;
-nsTHashMap
-<
-nsUint64HashKey
-uint32_t
->
-mUncontrollableAudibleMap
-;
 MediaEventListener
 mSupportedActionsChangedListener
 ;
