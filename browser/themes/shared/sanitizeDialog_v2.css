@@ -288,6 +288,17 @@ margin
 :
 0
 ;
+media
+not
+(
+-
+moz
+-
+platform
+:
+linux
+)
+{
 list
 -
 style
@@ -315,6 +326,7 @@ png
 "
 )
 ;
+}
 media
 (
 -
