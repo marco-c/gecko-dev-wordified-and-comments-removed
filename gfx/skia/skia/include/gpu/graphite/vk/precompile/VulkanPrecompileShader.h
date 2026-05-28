@@ -42,7 +42,6 @@ PrecompileShader
 >
 VulkanYCbCrImage
 (
-const
 skgpu
 :
 :

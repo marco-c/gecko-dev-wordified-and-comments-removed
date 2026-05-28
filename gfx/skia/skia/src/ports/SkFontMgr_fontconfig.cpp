@@ -556,11 +556,6 @@ T
 )
 >
 class
-[
-[
-nodiscard
-]
-]
 SkAutoFc
 :
 public
@@ -3914,11 +3909,6 @@ scanner
 )
 )
 {
-SkASSERT
-(
-fScanner
-)
-;
 }
 ~
 SkFontMgr_fontconfig

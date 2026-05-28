@@ -206,6 +206,7 @@ SkSL
 :
 LayoutFlag
 )
+;
 namespace
 SkSL
 {

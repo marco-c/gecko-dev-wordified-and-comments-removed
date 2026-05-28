@@ -43,11 +43,6 @@ SkLeanWindows
 h
 "
 class
-[
-[
-nodiscard
-]
-]
 SkAutoCoInitialize
 :
 SkNoncopyable

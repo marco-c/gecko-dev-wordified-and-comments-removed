@@ -70,6 +70,16 @@ z
 ;
 }
 ;
+pure
+half4
+textureRead
+(
+readableTexture2D
+t
+uint2
+pos
+)
+;
 void
 textureWrite
 (

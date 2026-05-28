@@ -866,6 +866,7 @@ detach
 (
 )
 paint
+true
 )
 ;
 }
@@ -973,6 +974,7 @@ drawPath
 (
 path
 paint
+true
 )
 ;
 }
@@ -1041,6 +1043,7 @@ detach
 (
 )
 paint
+true
 )
 ;
 }
@@ -1812,6 +1815,7 @@ clip
 true
 )
 paint
+true
 )
 ;
 }

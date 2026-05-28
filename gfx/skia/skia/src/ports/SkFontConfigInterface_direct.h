@@ -32,7 +32,6 @@ SkFontConfigInterface
 {
 public
 :
-explicit
 SkFontConfigInterfaceDirect
 (
 FcConfig

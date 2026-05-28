@@ -528,7 +528,7 @@ src
 /
 core
 /
-SkBlitRow_opts_ml3
+SkBlitRow_opts_hsw
 .
 cpp
 '
@@ -548,7 +548,7 @@ src
 /
 core
 /
-SkSwizzler_opts_ml3
+SkSwizzler_opts_hsw
 .
 cpp
 '
@@ -575,7 +575,7 @@ src
 /
 opts
 /
-SkOpts_ml3
+SkOpts_hsw
 .
 cpp
 '
@@ -1373,7 +1373,7 @@ x86
 [
 '
 :
-ml3
+hsw
 '
 ]
 )
@@ -2034,10 +2034,6 @@ SkCanvasStateUtils
 '
     
 '
-SkImage_AndroidFactories
-'
-    
-'
 SkMultiPictureDocument
 '
     
@@ -2167,18 +2163,6 @@ src
 codec
 /
 SkColorPalette
-.
-cpp
-'
-      
-'
-skia
-/
-src
-/
-codec
-/
-SkEncodedInfo
 .
 cpp
 '
@@ -2367,6 +2351,18 @@ src
 ports
 /
 SkMemory_mozalloc
+.
+cpp
+'
+      
+'
+skia
+/
+src
+/
+ports
+/
+SkImageGenerator_none
 .
 cpp
 '

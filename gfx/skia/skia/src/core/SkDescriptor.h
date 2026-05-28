@@ -393,11 +393,6 @@ fCount
 }
 ;
 class
-[
-[
-nodiscard
-]
-]
 SkAutoDescriptor
 {
 public

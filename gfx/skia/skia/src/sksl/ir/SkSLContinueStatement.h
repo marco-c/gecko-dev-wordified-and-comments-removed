@@ -53,7 +53,6 @@ Kind
 :
 kContinue
 ;
-explicit
 ContinueStatement
 (
 Position

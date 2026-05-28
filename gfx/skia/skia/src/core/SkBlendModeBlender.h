@@ -52,7 +52,6 @@ SkBlenderBase
 {
 public
 :
-explicit
 SkBlendModeBlender
 (
 SkBlendMode

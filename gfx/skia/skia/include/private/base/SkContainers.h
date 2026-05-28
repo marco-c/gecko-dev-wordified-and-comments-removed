@@ -119,9 +119,6 @@ sizeof
 (
 T
 )
-(
-size_t
-)
 kCapacityMultiple
 )
 /

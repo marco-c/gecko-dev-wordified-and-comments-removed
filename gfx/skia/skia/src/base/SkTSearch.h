@@ -496,11 +496,6 @@ elemSize
 )
 ;
 class
-[
-[
-nodiscard
-]
-]
 SkAutoAsciiToLC
 {
 public

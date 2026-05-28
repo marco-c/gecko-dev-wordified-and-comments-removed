@@ -89,7 +89,6 @@ MakeFromEncodedWIC
 (
 sk_sp
 <
-const
 SkData
 >
 )

@@ -21,7 +21,6 @@ SkClusterator
 {
 public
 :
-explicit
 SkClusterator
 (
 const

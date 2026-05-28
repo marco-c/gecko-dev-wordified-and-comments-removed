@@ -1261,10 +1261,6 @@ mode
 r
 .
 pts
-.
-data
-(
-)
 r
 .
 count
@@ -1369,10 +1365,6 @@ get
 r
 .
 xforms
-.
-data
-(
-)
 r
 .
 count
@@ -1381,10 +1373,6 @@ count
 r
 .
 texs
-.
-data
-(
-)
 r
 .
 count
@@ -1393,10 +1381,6 @@ count
 r
 .
 colors
-.
-data
-(
-)
 r
 .
 colors
@@ -3195,10 +3179,6 @@ BoundsOrEmpty
 op
 .
 pts
-.
-data
-(
-)
 op
 .
 count
@@ -3274,10 +3254,6 @@ BoundsOrEmpty
 op
 .
 cubics
-.
-data
-(
-)
 (
 size_t
 )
@@ -3645,10 +3621,6 @@ BoundsOrEmpty
 op
 .
 clip
-.
-data
-(
-)
 4
 }
 )

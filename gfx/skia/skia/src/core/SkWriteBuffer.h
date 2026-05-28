@@ -171,7 +171,6 @@ SkWriteBuffer
 {
 public
 :
-explicit
 SkWriteBuffer
 (
 const
@@ -616,7 +615,6 @@ SkWriteBuffer
 {
 public
 :
-explicit
 SkBinaryWriteBuffer
 (
 const

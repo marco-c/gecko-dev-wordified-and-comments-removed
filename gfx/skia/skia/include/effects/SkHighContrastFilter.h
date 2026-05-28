@@ -132,7 +132,7 @@ fContrast
 -
 1
 .
-0f
+0
 &
 &
 fContrast
@@ -140,7 +140,7 @@ fContrast
 =
 1
 .
-0f
+0
 ;
 }
 bool

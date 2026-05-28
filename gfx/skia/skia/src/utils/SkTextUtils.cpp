@@ -278,10 +278,6 @@ font
 getPos
 (
 ag
-.
-glyphs
-(
-)
 pos
 {
 x
@@ -318,10 +314,6 @@ font
 getPaths
 (
 ag
-.
-glyphs
-(
-)
 [
 ]
 (

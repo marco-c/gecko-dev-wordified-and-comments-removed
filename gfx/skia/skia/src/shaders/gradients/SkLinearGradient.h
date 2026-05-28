@@ -72,7 +72,7 @@ pts
 2
 ]
 const
-SkGradient
+Descriptor
 &
 )
 ;

@@ -156,7 +156,6 @@ IsRectContour
 (
 fPoints
 fVerbs
-fSegmentMask
 false
 )
 )

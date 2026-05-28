@@ -386,11 +386,6 @@ fVolume
 ;
 }
 class
-[
-[
-nodiscard
-]
-]
 SkAutoNullKernelHandle
 :
 SkNoncopyable

@@ -99,7 +99,6 @@ abort
 ;
 protected
 :
-explicit
 SkDocument
 (
 SkWStream

@@ -1936,6 +1936,7 @@ operator
 +
 =
 (
+const
 char
 c
 )

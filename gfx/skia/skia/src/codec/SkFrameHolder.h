@@ -80,7 +80,6 @@ SkNoncopyable
 {
 public
 :
-explicit
 SkFrame
 (
 int

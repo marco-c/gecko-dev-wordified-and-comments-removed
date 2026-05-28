@@ -142,7 +142,8 @@ n
 Copyright
 2017
 Google
-LLC
+Inc
+.
 \
 n
 "

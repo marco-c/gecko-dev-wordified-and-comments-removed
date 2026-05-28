@@ -1323,7 +1323,6 @@ SkPDFDocument
 doc
 sk_sp
 <
-const
 SkData
 >
 &
@@ -2208,7 +2207,6 @@ do_jpeg
 (
 sk_sp
 <
-const
 SkData
 >
 data
@@ -2422,7 +2420,6 @@ if
 (
 sk_sp
 <
-const
 SkData
 >
 encodedIccProfileData
@@ -2853,7 +2850,6 @@ if
 (
 sk_sp
 <
-const
 SkData
 >
 data
