@@ -735,14 +735,6 @@ aMetadata
 )
 const
 ;
-bool
-IsSessionOwningAudioFocus
-(
-uint64_t
-aBrowsingContextId
-)
-const
-;
 void
 SetActiveMediaSessionContextId
 (
@@ -751,7 +743,7 @@ aBrowsingContextId
 )
 ;
 void
-HandleAudioFocusOwnerChanged
+HandleActiveAudibleControllableContextChanged
 (
 Maybe
 <

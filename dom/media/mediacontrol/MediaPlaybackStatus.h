@@ -203,7 +203,7 @@ Maybe
 <
 uint64_t
 >
-GetAudioFocusOwnerContextId
+GetActiveAudibleControllableContextId
 (
 )
 const
@@ -507,12 +507,12 @@ aInfo
 )
 ;
 void
-ChooseNewContextToOwnAudioFocus
+ChooseNewActiveAudibleControllableContext
 (
 )
 ;
 void
-SetOwningAudioFocusContextId
+SetActiveAudibleControllableContextId
 (
 Maybe
 <
@@ -524,7 +524,7 @@ aContextId
 )
 ;
 bool
-IsContextOwningAudioFocus
+IsActiveAudibleControllableContext
 (
 uint64_t
 aContextId
@@ -532,7 +532,7 @@ aContextId
 const
 ;
 bool
-ShouldRequestAudioFocusForInfo
+ShouldClaimActiveAudibleControllableContextForInfo
 (
 const
 ContextMediaInfo
@@ -544,7 +544,7 @@ aControlType
 const
 ;
 bool
-ShouldAbandonAudioFocusForInfo
+ShouldHandOffActiveAudibleControllableContextForInfo
 (
 const
 ContextMediaInfo
@@ -575,7 +575,7 @@ Maybe
 <
 uint64_t
 >
-mOwningAudioFocusContextId
+mActiveAudibleControllableContextId
 ;
 }
 ;
