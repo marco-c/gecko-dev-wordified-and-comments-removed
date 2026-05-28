@@ -630,6 +630,11 @@ testPropertyKey
 cpp
 "
 "
+testRealmOptions
+.
+cpp
+"
+"
 testRegExp
 .
 cpp
