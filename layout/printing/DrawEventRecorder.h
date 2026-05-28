@@ -430,7 +430,12 @@ aSize
 }
 }
 }
-void
+[
+[
+nodiscard
+]
+]
+bool
 read
 (
 char
@@ -450,6 +455,7 @@ good
 )
 {
 return
+false
 ;
 }
 Flush
@@ -493,6 +499,9 @@ res
 =
 aSize
 )
+;
+return
+true
 ;
 }
 bool
