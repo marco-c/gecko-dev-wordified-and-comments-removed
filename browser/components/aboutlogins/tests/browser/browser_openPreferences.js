@@ -190,7 +190,7 @@ about
 :
 preferences
 #
-privacy
+passwordsAutofill
 "
 )
 {

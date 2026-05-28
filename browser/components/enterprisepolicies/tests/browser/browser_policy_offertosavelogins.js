@@ -35,7 +35,7 @@ about
 :
 preferences
 #
-privacy
+passwordsAutofill
 "
 async
 browser

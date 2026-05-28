@@ -21,7 +21,7 @@ about
 :
 preferences
 #
-privacy
+etp
 "
 async
 browser
@@ -38,7 +38,7 @@ contentDocument
 getElementById
 (
 "
-strictRadio
+etpLevelStrict
 "
 )
 ;
@@ -46,7 +46,7 @@ is
 (
 strictRadio
 .
-selected
+checked
 true
 "
 Strict
