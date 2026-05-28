@@ -1,4 +1,6 @@
 import
+atexit
+import
 json
 import
 multiprocessing
@@ -3437,6 +3439,39 @@ self
 _schedule_drain_timer
 (
 )
+        
+atexit
+.
+register
+(
+self
+.
+_atexit_stop
+)
+    
+def
+_atexit_stop
+(
+self
+)
+:
+        
+if
+self
+.
+_running
+and
+not
+self
+.
+_stopped
+:
+            
+self
+.
+stop
+(
+)
     
 def
 stop
@@ -3523,6 +3558,15 @@ markers
 "
 "
 "
+        
+atexit
+.
+unregister
+(
+self
+.
+_atexit_stop
+)
         
 if
 not
@@ -3646,7 +3690,7 @@ _running
 =
 False
         
-SystemResourceUsage
+SystemResourceMonitor
 .
 instance
 =
