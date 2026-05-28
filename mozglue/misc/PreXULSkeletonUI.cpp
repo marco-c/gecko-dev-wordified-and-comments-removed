@@ -8290,11 +8290,6 @@ approved
 =
 false
 ;
-int
-j
-=
-0
-;
 for
 (
 const
@@ -8321,7 +8316,7 @@ true
 ;
 if
 (
-j
+i
 =
 =
 profileArgIndex
@@ -8336,10 +8331,6 @@ true
 break
 ;
 }
-+
-+
-j
-;
 }
 if
 (
@@ -10708,10 +10699,6 @@ IntervalUntilNowFrom
 skeletonStart
 )
 )
-;
-sPreXULSkeletonUIShown
-=
-true
 ;
 return
 Ok
