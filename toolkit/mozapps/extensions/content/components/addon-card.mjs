@@ -767,6 +767,8 @@ spacer
 div
 >
 <
+moz
+-
 button
 class
 =
@@ -776,6 +778,11 @@ theme
 enable
 -
 button
+"
+size
+=
+"
+small
 "
 action
 =
@@ -788,6 +795,8 @@ hidden
 >
 <
 /
+moz
+-
 button
 >
 <
