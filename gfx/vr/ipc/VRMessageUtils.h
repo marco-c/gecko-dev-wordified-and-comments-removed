@@ -47,15 +47,6 @@ include
 "
 mozilla
 /
-ParamTraits_STL
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ParamTraits_TiedFields
 .
 h

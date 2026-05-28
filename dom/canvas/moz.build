@@ -364,11 +364,6 @@ mozilla
 =
 [
 "
-ParamTraits_STL
-.
-h
-"
-"
 ParamTraits_TiedFields
 .
 h
