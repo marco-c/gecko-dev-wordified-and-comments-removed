@@ -3608,7 +3608,7 @@ aCSPReportOnlyHeaderValue
 )
 ;
 void
-StoreCSPOnClient
+StorePolicyContainerArgsOnClient
 (
 )
 ;
