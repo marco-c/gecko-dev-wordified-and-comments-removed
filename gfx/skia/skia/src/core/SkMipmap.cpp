@@ -591,6 +591,9 @@ if
 downsampler
 )
 {
+delete
+mipmap
+;
 return
 nullptr
 ;

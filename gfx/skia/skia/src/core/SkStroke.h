@@ -123,6 +123,7 @@ SkStroke
 (
 )
 ;
+explicit
 SkStroke
 (
 const

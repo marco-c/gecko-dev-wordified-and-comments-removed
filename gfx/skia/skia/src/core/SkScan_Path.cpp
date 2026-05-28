@@ -2474,7 +2474,7 @@ if
 (
 raw
 .
-isConvex
+isKnownToBeConvex
 (
 )
 &

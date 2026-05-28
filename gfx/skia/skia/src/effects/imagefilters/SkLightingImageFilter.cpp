@@ -424,7 +424,7 @@ LayerSpace
 ZValue
 >
 (
-SkScalarAve
+sk_float_midpoint
 (
 z2d
 .

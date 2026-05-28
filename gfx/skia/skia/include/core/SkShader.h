@@ -102,11 +102,9 @@ isOpaque
 (
 )
 const
-{
-return
-false
+=
+0
 ;
-}
 SkImage
 *
 isAImage

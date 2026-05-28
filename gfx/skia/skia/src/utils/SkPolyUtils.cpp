@@ -9201,6 +9201,9 @@ setBoundsCheck
 (
 {
 polygonVerts
+(
+size_t
+)
 polygonSize
 }
 )

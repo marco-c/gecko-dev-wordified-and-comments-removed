@@ -48,5 +48,10 @@ SkPDFGlyphUse
 glyphUsage
 )
 ;
+bool
+SkPDFCanSubsetTableBasedFonts
+(
+)
+;
 #
 endif

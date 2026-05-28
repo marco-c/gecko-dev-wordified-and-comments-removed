@@ -108,6 +108,7 @@ Decode
 (
 sk_sp
 <
+const
 SkData
 >
 SkCodec
@@ -225,6 +226,7 @@ Decode
 (
 sk_sp
 <
+const
 SkData
 >
 SkCodec

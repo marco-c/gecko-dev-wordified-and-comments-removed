@@ -283,7 +283,7 @@ false
 }
 ;
 static
-int
+unsigned
 VerbPtCount
 (
 SkPathVerb
@@ -292,7 +292,7 @@ verb
 {
 static
 const
-int
+uint8_t
 kPtCount
 [
 ]
@@ -1923,7 +1923,7 @@ true
 ;
 for
 (
-int
+size_t
 index
 =
 1

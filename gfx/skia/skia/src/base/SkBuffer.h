@@ -365,6 +365,7 @@ nullptr
 )
 {
 }
+explicit
 SkWBuffer
 (
 void

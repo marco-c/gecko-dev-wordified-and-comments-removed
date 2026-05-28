@@ -404,6 +404,7 @@ const
 virtual
 sk_sp
 <
+const
 SkData
 >
 onRefEncoded

@@ -227,7 +227,7 @@ end
 SkScalar
 endRadius
 const
-Descriptor
+SkGradient
 &
 const
 SkMatrix
@@ -365,7 +365,7 @@ c1
 SkScalar
 r1
 const
-Descriptor
+SkGradient
 &
 Type
 const

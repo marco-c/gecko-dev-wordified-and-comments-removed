@@ -131,6 +131,13 @@ ShaderType
 kBlend
 ;
 }
+bool
+isOpaque
+(
+)
+const
+override
+;
 sk_sp
 <
 SkShader

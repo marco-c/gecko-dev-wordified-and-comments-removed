@@ -2875,15 +2875,3 @@ No
 )
 ;
 }
-#
-undef
-SKPDF_CUSTOM_PRODUCER_KEY
-#
-undef
-SKPDF_PRODUCER
-#
-undef
-SKPDF_STRING
-#
-undef
-SKPDF_STRING_IMPL

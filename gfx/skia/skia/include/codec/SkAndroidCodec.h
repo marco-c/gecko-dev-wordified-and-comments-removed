@@ -233,6 +233,7 @@ MakeFromData
 (
 sk_sp
 <
+const
 SkData
 >
 SkPngChunkReader
@@ -512,6 +513,7 @@ outGainmapImageStream
 ;
 protected
 :
+explicit
 SkAndroidCodec
 (
 SkCodec

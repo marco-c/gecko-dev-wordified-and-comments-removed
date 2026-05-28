@@ -11401,7 +11401,7 @@ fPts
 2
 ]
 ;
-int
+size_t
 count
 =
 2

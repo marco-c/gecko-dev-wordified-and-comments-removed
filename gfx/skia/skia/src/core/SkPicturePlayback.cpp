@@ -1753,7 +1753,7 @@ readUInt
 )
 ;
 const
-int
+size_t
 count
 =
 reader
@@ -3058,9 +3058,11 @@ SkCanvas
 Lattice
 lattice
 ;
+reader
+-
+>
+validate
 (
-void
-)
 SkCanvasPriv
 :
 :
@@ -3070,6 +3072,7 @@ ReadLattice
 reader
 &
 lattice
+)
 )
 ;
 const
@@ -3147,9 +3150,11 @@ SkCanvas
 Lattice
 lattice
 ;
+reader
+-
+>
+validate
 (
-void
-)
 SkCanvasPriv
 :
 :
@@ -3159,6 +3164,7 @@ ReadLattice
 reader
 &
 lattice
+)
 )
 ;
 const

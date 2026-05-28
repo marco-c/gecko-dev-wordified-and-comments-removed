@@ -2030,7 +2030,7 @@ priv
 )
 ;
 const
-int
+size_t
 vertexCount
 =
 info
@@ -2040,7 +2040,7 @@ vertexCount
 )
 ;
 const
-int
+size_t
 indexCount
 =
 info

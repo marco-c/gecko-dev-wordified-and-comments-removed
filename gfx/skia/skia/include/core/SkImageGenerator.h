@@ -110,6 +110,7 @@ fUniqueID
 }
 sk_sp
 <
+const
 SkData
 >
 refEncodedData
@@ -278,6 +279,7 @@ kNeedNewImageUniqueID
 virtual
 sk_sp
 <
+const
 SkData
 >
 onRefEncodedData

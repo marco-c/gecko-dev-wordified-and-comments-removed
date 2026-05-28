@@ -95,6 +95,17 @@ ShaderType
 kEmpty
 ;
 }
+bool
+isOpaque
+(
+)
+const
+override
+{
+return
+false
+;
+}
 private
 :
 friend

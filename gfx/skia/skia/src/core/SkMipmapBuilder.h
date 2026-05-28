@@ -32,6 +32,7 @@ SkMipmapBuilder
 {
 public
 :
+explicit
 SkMipmapBuilder
 (
 const

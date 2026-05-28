@@ -101,6 +101,7 @@ SkMaskFilterBase
 {
 public
 :
+explicit
 SkShaderMaskFilterImpl
 (
 sk_sp

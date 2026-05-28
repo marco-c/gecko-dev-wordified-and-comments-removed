@@ -992,6 +992,7 @@ false
 }
 sk_sp
 <
+const
 SkData
 >
 SkImage_Lazy
