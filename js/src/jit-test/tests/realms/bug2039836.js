@@ -1,0 +1,16 @@
+nukeAllCCWs
+(
+)
+;
+newGlobal
+(
+{
+newCompartment
+:
+true
+transplantWindowProxy
+:
+this
+}
+)
+;
