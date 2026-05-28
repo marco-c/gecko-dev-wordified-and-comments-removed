@@ -132,12 +132,6 @@ sizeof
 Dest
 )
 )
-static
-const
-char
-*
-exec_name
-;
 void
 usage_exit
 (
@@ -4074,13 +4068,6 @@ input_ctx
 bit_depth
 =
 0
-;
-exec_name
-=
-argv
-[
-0
-]
 ;
 if
 (

@@ -736,6 +736,13 @@ LOCAL_CFLAGS
 =
 -
 O3
+LOCAL_CONLYFLAGS
+:
+=
+-
+std
+=
+c11
 #
 For
 x86

@@ -848,10 +848,6 @@ SSEFunc
 tst
 =
 nullptr
-int
-depth
-=
-0
 )
 :
 ref_func
@@ -862,10 +858,6 @@ tst_func
 (
 tst
 )
-bit_depth
-(
-depth
-)
 {
 }
 SSEFunc
@@ -873,9 +865,6 @@ ref_func
 ;
 SSEFunc
 tst_func
-;
-int
-bit_depth
 ;
 }
 ;

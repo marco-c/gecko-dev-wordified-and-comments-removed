@@ -41,7 +41,7 @@ Src
 do
 {
 \
-assert
+static_assert
 (
 sizeof
 (
@@ -53,6 +53,8 @@ sizeof
 (
 Src
 )
+"
+"
 )
 ;
 \
@@ -84,7 +86,7 @@ N
 do
 {
 \
-assert
+static_assert
 (
 sizeof
 (
@@ -102,6 +104,8 @@ sizeof
 Src
 )
 )
+"
+"
 )
 ;
 \

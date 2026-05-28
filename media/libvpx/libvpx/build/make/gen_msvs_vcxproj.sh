@@ -3252,6 +3252,12 @@ PreprocessorDefinitions
 )
 "
 tag_content
+LanguageStandard_C
+stdc11
+tag_content
+LanguageStandard
+stdcpp17
+tag_content
 RuntimeLibrary
 runtime
 tag_content

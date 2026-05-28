@@ -2021,6 +2021,12 @@ double
 *
 mi_ssim_rdmult_scaling_factors
 ;
+int
+mi_ssim_rdmult_scaling_factors_rows
+;
+int
+mi_ssim_rdmult_scaling_factors_cols
+;
 int64_t
 *
 sb_mul_scale
@@ -3453,7 +3459,7 @@ NULL
 }
 static
 INLINE
-int
+int64_t
 get_token_alloc
 (
 int
@@ -3487,6 +3493,9 @@ MI_BLOCK_SIZE_LOG2
 )
 ;
 return
+(
+int64_t
+)
 aligned_mb_rows
 *
 aligned_mb_cols
@@ -3504,7 +3513,7 @@ aligned_mb_cols
 }
 static
 INLINE
-int
+int64_t
 allocated_tokens
 (
 TileInfo

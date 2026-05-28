@@ -98,9 +98,15 @@ limits
 int
 limits_size
 ;
+int
+prev_mip_size
+;
 int8_t
 *
 generated_noise
+;
+int
+generated_noise_size
 ;
 }
 ;

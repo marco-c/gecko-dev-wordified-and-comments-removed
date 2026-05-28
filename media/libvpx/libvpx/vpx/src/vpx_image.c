@@ -1559,6 +1559,16 @@ stride
 VPX_PLANE_V
 ]
 ;
+if
+(
+img
+-
+>
+fmt
+&
+VPX_IMG_FMT_HAS_ALPHA
+)
+{
 img
 -
 >
@@ -1605,6 +1615,7 @@ stride
 VPX_PLANE_ALPHA
 ]
 ;
+}
 }
 void
 vpx_img_free
