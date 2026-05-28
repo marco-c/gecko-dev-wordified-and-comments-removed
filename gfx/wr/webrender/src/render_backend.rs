@@ -1050,9 +1050,6 @@ prim_instance
 :
 &
 PrimitiveInstance
-snapped_local_rect
-:
-LayoutRect
 pictures
 :
 &
@@ -1165,7 +1162,9 @@ pictures
 _
 =
 >
-snapped_local_rect
+prim_instance
+.
+prim_rect
 }
 }
 pub
@@ -1178,9 +1177,6 @@ prim_instance
 :
 &
 PrimitiveInstance
-snapped_local_rect
-:
-LayoutRect
 pictures
 :
 &
@@ -1293,7 +1289,9 @@ pictures
 _
 =
 >
-snapped_local_rect
+prim_instance
+.
+prim_rect
 }
 }
 pub
