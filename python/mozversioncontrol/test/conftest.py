@@ -211,12 +211,10 @@ user
 .
 email
 "
-<
 test
 example
 .
 org
->
 "
         
 git
@@ -313,12 +311,10 @@ user
 .
 email
 "
-<
 test
 example
 .
 org
->
 "
         
 git
