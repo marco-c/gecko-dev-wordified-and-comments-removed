@@ -131,7 +131,7 @@ Failure
 IDBSpecialValue
 :
 :
-Invalid
+InvalidValue
 >
 wide
 {
