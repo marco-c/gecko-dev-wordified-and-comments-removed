@@ -786,7 +786,7 @@ clip_item
 key
 src_clip_node
 .
-unsnapped_clip_rect
+clip_rect
 interners
 src_clip_node
 .
