@@ -167,6 +167,10 @@ nsIPrincipal
 aPrincipal
 WorkerKind
 aWorkerKind
+const
+nsACString
+&
+aCurrentRemoteType
 )
 ;
 static

@@ -60,6 +60,9 @@ class
 SharedWorkerParent
 ;
 class
+ThreadsafeContentParentHandle
+;
+class
 UniqueMessagePortId
 ;
 class
@@ -113,6 +116,9 @@ GetOrCreateWorkerManagerOnMainThread
 nsIEventTarget
 *
 aBackgroundEventTarget
+ThreadsafeContentParentHandle
+*
+aContentParentHandle
 SharedWorkerParent
 *
 aActor

@@ -3819,6 +3819,15 @@ WorkerKind
 :
 :
 WorkerKindService
+SharedWebRemoteType
+(
+principal
+-
+>
+OriginAttributesRef
+(
+)
+)
 )
 ;
 if
