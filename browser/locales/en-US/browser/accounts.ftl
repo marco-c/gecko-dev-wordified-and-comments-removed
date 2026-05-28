@@ -308,7 +308,7 @@ to
 -
 device
 -
-verify
+verify2
 =
 Verify
 Your

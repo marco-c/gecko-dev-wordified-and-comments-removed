@@ -11921,7 +11921,7 @@ to
 -
 device
 -
-verify
+verify2
 "
 ]
 )
