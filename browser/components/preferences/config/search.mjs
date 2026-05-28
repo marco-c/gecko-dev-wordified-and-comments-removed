@@ -6582,7 +6582,7 @@ locationBarGroup
 subcategory
 :
 "
-firefoxSuggest
+locationBar
 "
 items
 :
