@@ -89,6 +89,13 @@ value
 :
 String
 val
+secondaryValue
+:
+String
+?
+=
+null
+val
 description
 :
 String
@@ -100,9 +107,16 @@ List
 String
 >
 =
-listOf
+emptyList
 (
 )
+val
+name
+:
+String
+?
+=
+null
 )
 {
 fun
@@ -209,4 +223,5 @@ UIAUTOMATOR_WITH_RES_ID
 UIAUTOMATOR_WITH_COMPOSE_TAG
 UIAUTOMATOR_WITH_TEXT
 UIAUTOMATOR_WITH_DESCRIPTION_CONTAINS
+UIAUTOMATOR_WITH_RES_ID_AND_TEXT
 }
