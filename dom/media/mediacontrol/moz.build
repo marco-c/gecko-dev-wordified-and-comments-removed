@@ -67,6 +67,11 @@ AudioFocusManager
 h
 "
 "
+AudioSessionRecord
+.
+h
+"
+"
 ContentMediaController
 .
 h
@@ -130,6 +135,11 @@ UNIFIED_SOURCES
 [
 "
 AudioFocusManager
+.
+cpp
+"
+"
+AudioSessionRecord
 .
 cpp
 "
