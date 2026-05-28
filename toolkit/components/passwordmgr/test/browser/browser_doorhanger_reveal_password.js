@@ -83,6 +83,8 @@ password
 "
 )
 .
+inputEl
+.
 revealPassword
 =
 true
@@ -120,6 +122,8 @@ notification
 password
 "
 )
+.
+inputEl
 .
 revealPassword
 false
