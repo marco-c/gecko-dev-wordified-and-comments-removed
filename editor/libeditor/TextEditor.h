@@ -364,6 +364,17 @@ aOriginalEventTargetNode
 )
 final
 ;
+MOZ_CAN_RUN_SCRIPT
+void
+PostHandleFocusEvent
+(
+const
+nsINode
+&
+aFocusEventTargetNode
+)
+final
+;
 nsresult
 OnBlur
 (

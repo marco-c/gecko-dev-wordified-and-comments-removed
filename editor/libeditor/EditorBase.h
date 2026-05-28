@@ -1806,6 +1806,17 @@ aOriginalEventTargetNode
 ;
 MOZ_CAN_RUN_SCRIPT
 virtual
+void
+PostHandleFocusEvent
+(
+const
+nsINode
+&
+aFocusEventTargetNode
+)
+;
+MOZ_CAN_RUN_SCRIPT
+virtual
 nsresult
 OnBlur
 (
