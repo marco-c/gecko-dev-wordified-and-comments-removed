@@ -379,6 +379,11 @@ IDBFactory
 cpp
 "
 "
+IDBGetAllHelper
+.
+cpp
+"
+"
 IDBIndex
 .
 cpp
