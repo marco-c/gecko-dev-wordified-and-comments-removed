@@ -741,9 +741,9 @@ See
 bug
 1938938
 )
-PLACES_FRECENCY_RECALC_CHUNK_TIME_MS
-~
-~
+places
+.
+frecency_recalc_chunk_time
 ~
 ~
 ~
@@ -5551,8 +5551,11 @@ database
 (
 see
 the
-PLACES_PAGES_COUNT
-histogram
+places
+.
+pages_count
+Glean
+metric
 )
 .
 It
