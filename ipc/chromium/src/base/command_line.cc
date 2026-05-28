@@ -1257,6 +1257,17 @@ wstring
 >
 values
 ;
+values
+.
+reserve
+(
+loose_values_
+.
+size
+(
+)
+)
+;
 for
 (
 size_t
