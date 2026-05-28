@@ -2464,6 +2464,13 @@ _endMarker
 {
 this
 .
+_mayAddCommandsItems
+(
+parentElt
+)
+;
+this
+.
 _setEmptyPopupStatus
 (
 parentElt
@@ -2580,6 +2587,13 @@ index
 parentElt
 .
 _endMarker
+)
+;
+this
+.
+_mayAddCommandsItems
+(
+parentElt
 )
 ;
 this
