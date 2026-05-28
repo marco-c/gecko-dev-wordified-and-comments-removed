@@ -1211,6 +1211,13 @@ class
 container
 "
 >
+{
+this
+.
+iconTemplate
+(
+)
+}
 <
 div
 class
@@ -1229,13 +1236,6 @@ text
 container
 "
 >
-{
-this
-.
-iconTemplate
-(
-)
-}
 <
 div
 class
