@@ -31584,6 +31584,15 @@ this
 #
 _state
 .
+backupFileInfo
+=
+null
+;
+this
+.
+#
+_state
+.
 lastBackupFileName
 =
 "
