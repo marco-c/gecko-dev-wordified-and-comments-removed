@@ -6039,6 +6039,13 @@ manifest_path
 not
 in
 manifests_with_tests
+and
+info
+[
+"
+has_test_lines
+"
+]
 :
                 
 relpath
