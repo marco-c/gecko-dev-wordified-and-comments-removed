@@ -1210,7 +1210,7 @@ aTimeline
 {
 aOld
 .
-SetTimeline
+SetTimelineNoUpdate
 (
 aTimeline
 aTimelineName
@@ -2860,7 +2860,7 @@ return
 aAnimation
 -
 >
-SetTimeline
+SetTimelineNoUpdate
 (
 newTimeline
 aTimelineName
