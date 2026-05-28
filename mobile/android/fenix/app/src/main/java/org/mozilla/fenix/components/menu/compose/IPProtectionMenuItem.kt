@@ -753,7 +753,7 @@ R
 .
 string
 .
-ip_protection_menu_limit_reached
+ip_protection_menu_limit_reached_2
 state
 .
 dataLimitGb

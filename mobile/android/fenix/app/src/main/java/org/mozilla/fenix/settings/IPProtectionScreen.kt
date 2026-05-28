@@ -1086,7 +1086,7 @@ R
 .
 string
 .
-ip_protection_data_limit_reached_description
+ip_protection_data_limit_reached_description_2
 state
 .
 maxDataGb
