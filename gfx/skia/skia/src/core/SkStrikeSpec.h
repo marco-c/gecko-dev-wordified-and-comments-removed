@@ -344,6 +344,13 @@ SkPaint
 paint
 =
 nullptr
+SkScalerContextFlags
+flags
+=
+SkScalerContextFlags
+:
+:
+kFakeGammaAndBoostContrast
 )
 ;
 sk_sp

@@ -694,10 +694,8 @@ fRadius
 SkTileMode
 fTileMode
 ;
-uint32_t
-fGradientFlags
-=
-0
+bool
+fPremulInterp
 ;
 }
 ;

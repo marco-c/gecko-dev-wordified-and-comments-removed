@@ -216,6 +216,7 @@ friend
 class
 SkTableColorFilter
 ;
+explicit
 SkColorTable
 (
 const

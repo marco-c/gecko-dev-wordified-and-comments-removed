@@ -164,6 +164,7 @@ SkNWayCanvas
 {
 public
 :
+explicit
 SkOverdrawCanvas
 (
 SkCanvas

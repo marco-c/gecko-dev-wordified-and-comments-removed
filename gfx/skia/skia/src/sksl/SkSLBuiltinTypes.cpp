@@ -1513,6 +1513,7 @@ MakeGenericType
 genTexture2D
 "
 {
+{
 fReadOnlyTexture2D
 .
 get
@@ -1528,6 +1529,7 @@ fTexture2D
 get
 (
 )
+}
 }
 fTexture2D
 .
@@ -1547,6 +1549,7 @@ MakeGenericType
 readableTexture2D
 "
 {
+{
 fReadOnlyTexture2D
 .
 get
@@ -1562,6 +1565,7 @@ fTexture2D
 get
 (
 )
+}
 }
 fTexture2D
 .
@@ -1581,6 +1585,7 @@ MakeGenericType
 writableTexture2D
 "
 {
+{
 fInvalid
 .
 get
@@ -1596,6 +1601,7 @@ fTexture2D
 get
 (
 )
+}
 }
 fTexture2D
 .
@@ -1725,6 +1731,7 @@ MakeGenericType
 genType
 "
 {
+{
 fFloat
 .
 get
@@ -1746,6 +1753,7 @@ get
 (
 )
 }
+}
 fFloat
 .
 get
@@ -1763,6 +1771,7 @@ MakeGenericType
 "
 genHType
 "
+{
 {
 fHalf
 .
@@ -1785,6 +1794,7 @@ get
 (
 )
 }
+}
 fHalf
 .
 get
@@ -1802,6 +1812,7 @@ MakeGenericType
 "
 genIType
 "
+{
 {
 fInt
 .
@@ -1824,6 +1835,7 @@ get
 (
 )
 }
+}
 fInt
 .
 get
@@ -1841,6 +1853,7 @@ MakeGenericType
 "
 genUType
 "
+{
 {
 fUInt
 .
@@ -1863,6 +1876,7 @@ get
 (
 )
 }
+}
 fUInt
 .
 get
@@ -1880,6 +1894,7 @@ MakeGenericType
 "
 genBType
 "
+{
 {
 fBool
 .
@@ -1902,6 +1917,7 @@ get
 (
 )
 }
+}
 fBool
 .
 get
@@ -1919,6 +1935,7 @@ MakeGenericType
 "
 mat
 "
+{
 {
 fFloat2x2
 .
@@ -1966,6 +1983,7 @@ get
 (
 )
 }
+}
 fFloat
 .
 get
@@ -1983,6 +2001,7 @@ MakeGenericType
 "
 hmat
 "
+{
 {
 fHalf2x2
 .
@@ -2030,6 +2049,7 @@ get
 (
 )
 }
+}
 fHalf
 .
 get
@@ -2047,6 +2067,7 @@ MakeGenericType
 "
 squareMat
 "
+{
 {
 fInvalid
 .
@@ -2069,6 +2090,7 @@ get
 (
 )
 }
+}
 fFloat
 .
 get
@@ -2086,6 +2108,7 @@ MakeGenericType
 "
 squareHMat
 "
+{
 {
 fInvalid
 .
@@ -2108,6 +2131,7 @@ get
 (
 )
 }
+}
 fHalf
 .
 get
@@ -2125,6 +2149,7 @@ MakeGenericType
 "
 vec
 "
+{
 {
 fInvalid
 .
@@ -2147,6 +2172,7 @@ get
 (
 )
 }
+}
 fFloat
 .
 get
@@ -2164,6 +2190,7 @@ MakeGenericType
 "
 hvec
 "
+{
 {
 fInvalid
 .
@@ -2186,6 +2213,7 @@ get
 (
 )
 }
+}
 fHalf
 .
 get
@@ -2203,6 +2231,7 @@ MakeGenericType
 "
 ivec
 "
+{
 {
 fInvalid
 .
@@ -2225,6 +2254,7 @@ get
 (
 )
 }
+}
 fInt
 .
 get
@@ -2242,6 +2272,7 @@ MakeGenericType
 "
 uvec
 "
+{
 {
 fInvalid
 .
@@ -2264,6 +2295,7 @@ get
 (
 )
 }
+}
 fUInt
 .
 get
@@ -2281,6 +2313,7 @@ MakeGenericType
 "
 svec
 "
+{
 {
 fInvalid
 .
@@ -2303,6 +2336,7 @@ get
 (
 )
 }
+}
 fShort
 .
 get
@@ -2320,6 +2354,7 @@ MakeGenericType
 "
 usvec
 "
+{
 {
 fInvalid
 .
@@ -2342,6 +2377,7 @@ get
 (
 )
 }
+}
 fUShort
 .
 get
@@ -2359,6 +2395,7 @@ MakeGenericType
 "
 bvec
 "
+{
 {
 fInvalid
 .
@@ -2380,6 +2417,7 @@ fBool4
 get
 (
 )
+}
 }
 fBool
 .

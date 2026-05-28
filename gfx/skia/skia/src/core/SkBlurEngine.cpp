@@ -370,10 +370,10 @@ utility
 >
 #
 if
-SK_CPU_SSE_LEVEL
+SK_CPU_X64_LEVEL
 >
 =
-SK_CPU_SSE_LEVEL_SSE1
+SK_CPU_X64_LEVEL_SSE1
 #
 include
 <
@@ -1844,7 +1844,7 @@ SigmaToRadius
 sigma
 )
 ;
-int
+size_t
 kernelWidth
 =
 2
@@ -7659,6 +7659,9 @@ fullKernel
 .
 data
 (
+)
+(
+size_t
 )
 KernelWidth
 (

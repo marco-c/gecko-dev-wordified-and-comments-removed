@@ -579,6 +579,18 @@ return
 ptr
 ;
 }
+\
+T
+*
+data
+(
+)
+const
+{
+return
+ptr
+;
+}
 template
 <
 typename
@@ -1568,7 +1580,7 @@ SkColor
 >
 colors
 ;
-int
+unsigned
 count
 ;
 SkBlendMode

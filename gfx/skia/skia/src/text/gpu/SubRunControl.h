@@ -208,6 +208,7 @@ fMaxDistanceFieldFontSize
 }
 #
 else
+explicit
 SubRunControl
 (
 bool

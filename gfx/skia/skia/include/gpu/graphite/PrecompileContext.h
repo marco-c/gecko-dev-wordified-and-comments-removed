@@ -139,6 +139,11 @@ sk_sp
 SkData
 >
 serializedPipelineKey
+uint32_t
+*
+uniqueHash
+=
+nullptr
 )
 ;
 PrecompileContextPriv
@@ -163,6 +168,7 @@ friend
 class
 Context
 ;
+explicit
 PrecompileContext
 (
 sk_sp

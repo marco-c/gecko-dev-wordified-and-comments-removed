@@ -224,6 +224,7 @@ fUniqueID
 ;
 }
 ;
+explicit
 SkImage_Lazy
 (
 Validator
@@ -300,6 +301,7 @@ override
 ;
 sk_sp
 <
+const
 SkData
 >
 onRefEncoded

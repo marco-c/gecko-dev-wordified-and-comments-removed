@@ -48,6 +48,7 @@ false
 )
 {
 }
+explicit
 GrBackendDrawableInfo
 (
 const

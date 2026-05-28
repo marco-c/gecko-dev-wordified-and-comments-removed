@@ -19,7 +19,7 @@ SK_ENABLE_OPTIMIZE_SIZE
 #
 define
 SK_OPTS_NS
-hsw
+ml3
 #
 include
 "
@@ -35,7 +35,7 @@ namespace
 SkOpts
 {
 void
-Init_hsw
+Init_ml3
 (
 )
 {

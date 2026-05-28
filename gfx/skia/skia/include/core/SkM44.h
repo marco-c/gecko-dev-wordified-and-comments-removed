@@ -58,7 +58,6 @@ operator
 =
 =
 (
-const
 SkV2
 v
 )
@@ -86,7 +85,6 @@ operator
 !
 =
 (
-const
 SkV2
 v
 )
@@ -1704,6 +1702,7 @@ Uninitialized_Constructor
 kUninitialized_Constructor
 }
 ;
+explicit
 SkM44
 (
 Uninitialized_Constructor

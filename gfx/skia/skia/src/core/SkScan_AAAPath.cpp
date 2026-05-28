@@ -9355,7 +9355,7 @@ isInverseFillType
 &
 path
 .
-isConvex
+isKnownToBeConvex
 (
 )
 &
@@ -9642,7 +9642,7 @@ isInverse
 &
 path
 .
-isConvex
+isKnownToBeConvex
 (
 )
 )

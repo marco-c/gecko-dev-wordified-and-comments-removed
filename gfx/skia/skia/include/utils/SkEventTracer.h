@@ -36,10 +36,6 @@ SetInstance
 (
 SkEventTracer
 *
-bool
-leakTracer
-=
-false
 )
 ;
 static
@@ -208,6 +204,13 @@ SkEventTracer
 =
 delete
 ;
+virtual
+void
+onExit
+(
+)
+{
+}
 }
 ;
 #

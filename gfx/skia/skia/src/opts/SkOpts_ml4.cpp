@@ -19,7 +19,7 @@ SK_ENABLE_OPTIMIZE_SIZE
 #
 define
 SK_OPTS_NS
-skx
+ml4
 #
 include
 "
@@ -35,7 +35,7 @@ namespace
 SkOpts
 {
 void
-Init_skx
+Init_ml4
 (
 )
 {

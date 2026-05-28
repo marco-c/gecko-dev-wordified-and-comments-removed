@@ -297,6 +297,11 @@ fFlags
 }
 ;
 class
+[
+[
+nodiscard
+]
+]
 SkAutoToGlyphs
 {
 public
