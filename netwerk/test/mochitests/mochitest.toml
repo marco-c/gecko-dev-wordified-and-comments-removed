@@ -983,6 +983,13 @@ headers
 ]
 [
 "
+test_prefetch_cache
+.
+html
+"
+]
+[
+"
 test_prefetch_cache_no_headers
 .
 html
