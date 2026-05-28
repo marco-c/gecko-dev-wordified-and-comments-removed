@@ -162,4 +162,10 @@ DEEP_LINK
 deep_link
 "
 )
+WEB_SHARE
+(
+"
+web_share
+"
+)
 }
