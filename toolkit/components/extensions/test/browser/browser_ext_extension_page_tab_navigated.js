@@ -558,10 +558,12 @@ extPageTab
 await
 BrowserTestUtils
 .
-addTab
+openNewForegroundTab
 (
 gBrowser
 extPageURL1
+true
+true
 )
 ;
 let
@@ -1095,10 +1097,12 @@ extPageTab1
 await
 BrowserTestUtils
 .
-addTab
+openNewForegroundTab
 (
 gBrowser
 extPageURL
+true
+true
 )
 ;
 let
