@@ -2400,8 +2400,6 @@ searchfox
 :
 UrlbarView
 .
-sys
-.
 mjs
 <
 browser
@@ -2410,9 +2408,9 @@ components
 /
 urlbar
 /
+content
+/
 UrlbarView
-.
-sys
 .
 mjs
 >
