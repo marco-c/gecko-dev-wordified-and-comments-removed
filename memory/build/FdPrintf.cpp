@@ -36,6 +36,11 @@ cstring
 >
 #
 include
+<
+cstdint
+>
+#
+include
 "
 mozilla
 /
