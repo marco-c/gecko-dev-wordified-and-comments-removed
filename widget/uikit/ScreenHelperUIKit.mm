@@ -343,13 +343,6 @@ IsHDR
 :
 :
 No
-Screen
-:
-:
-IsHDR
-:
-:
-No
 )
 ;
 return
