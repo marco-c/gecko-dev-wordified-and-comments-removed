@@ -381,6 +381,14 @@ nsHtml5TokenizerCppSupplement
 .
 h
 -
+parser
+/
+html
+/
+nsHtml5PortabilityHSupplement
+.
+h
+-
 security
 /
 manager
