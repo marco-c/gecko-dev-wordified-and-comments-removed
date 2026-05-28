@@ -44,13 +44,11 @@ aTrackId
 override
 ;
 nsresult
-SetAudioCodecInfo
+SetContainerAudioCodecInfo
 (
 nestegg
 *
 aContext
-int
-aTrackId
 const
 nestegg_audio_params
 &

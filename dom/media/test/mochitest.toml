@@ -6128,6 +6128,11 @@ output_opus
 mkv
 "
 "
+output_opus_surround
+.
+mkv
+"
+"
 output_pcm
 .
 mkv
