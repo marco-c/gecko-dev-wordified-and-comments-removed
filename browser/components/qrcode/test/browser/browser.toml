@@ -130,3 +130,10 @@ browser_qrcode_share_menu
 js
 "
 ]
+[
+"
+browser_qrcode_share_menu_non_focused_tab
+.
+js
+"
+]
