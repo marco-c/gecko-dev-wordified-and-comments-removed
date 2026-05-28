@@ -428,6 +428,13 @@ sys
 .
 mjs
 "
+"
+UrlbarView
+.
+sys
+.
+mjs
+"
 ]
 MOZ_SRC_FILES
 +
