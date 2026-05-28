@@ -3964,7 +3964,10 @@ write_status_headers
 )
             
 except
+(
 StreamClosedError
+ProtocolError
+)
 :
                 
 return
@@ -4671,7 +4674,10 @@ req_handler
 )
                 
 except
+(
 StreamClosedError
+ProtocolError
+)
 :
                     
 self
@@ -4680,6 +4686,7 @@ logger
 .
 debug
 (
+                        
 '
 (
 %
@@ -4694,10 +4701,14 @@ write
 response
 ;
 stream
+or
+'
+                        
+'
+connection
 closed
 '
 %
-                                    
 (
 self
 .
