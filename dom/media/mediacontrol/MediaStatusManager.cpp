@@ -271,6 +271,8 @@ MediaAudibleState
 aState
 ControlType
 aType
+AudioSessionType
+aSessionType
 )
 {
 MOZ_ASSERT

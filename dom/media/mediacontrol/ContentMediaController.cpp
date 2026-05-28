@@ -499,6 +499,8 @@ MediaAudibleState
 aState
 ControlType
 aType
+AudioSessionType
+aSessionType
 )
 {
 MOZ_ASSERT
@@ -601,6 +603,7 @@ SendNotifyMediaAudibleChanged
 bc
 aState
 aType
+aSessionType
 )
 ;
 }
@@ -640,6 +643,7 @@ Id
 )
 aState
 aType
+aSessionType
 )
 ;
 }

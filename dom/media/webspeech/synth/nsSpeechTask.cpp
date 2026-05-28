@@ -163,6 +163,16 @@ NS_INLINE_DECL_REFCOUNTING
 MediaSharedKeysListener
 override
 )
+static
+constexpr
+AudioSessionType
+kSessionType
+=
+AudioSessionType
+:
+:
+Transient
+;
 explicit
 MediaSharedKeysListener
 (
@@ -323,6 +333,7 @@ ControlType
 :
 :
 eUncontrollable
+kSessionType
 )
 ;
 mIsAudible
@@ -430,6 +441,7 @@ ControlType
 :
 :
 eUncontrollable
+kSessionType
 )
 ;
 mIsAudible
