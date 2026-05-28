@@ -6243,7 +6243,16 @@ final
 int
 PURGED_BOUNCETRACKER
 =
-7
+8
+;
+field
+public
+static
+final
+int
+REPLACED_FINGERPRINTING_CONTENT
+=
+134217728
 ;
 field
 public
