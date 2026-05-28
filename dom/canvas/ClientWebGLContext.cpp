@@ -15620,10 +15620,6 @@ float
 res
 .
 data
-.
-data
-(
-)
 )
 ;
 MOZ_ALWAYS_TRUE
@@ -15661,10 +15657,6 @@ int32_t
 res
 .
 data
-.
-data
-(
-)
 )
 ;
 MOZ_ALWAYS_TRUE
@@ -15747,10 +15739,6 @@ uint32_t
 res
 .
 data
-.
-data
-(
-)
 )
 ;
 MOZ_ALWAYS_TRUE
@@ -15794,10 +15782,6 @@ int32_t
 res
 .
 data
-.
-data
-(
-)
 )
 ;
 bool
@@ -15903,10 +15887,6 @@ float
 res
 .
 data
-.
-data
-(
-)
 )
 ;
 IgnoredErrorResult
@@ -15979,10 +15959,6 @@ int32_t
 res
 .
 data
-.
-data
-(
-)
 )
 ;
 IgnoredErrorResult
@@ -16055,10 +16031,6 @@ uint32_t
 res
 .
 data
-.
-data
-(
-)
 )
 ;
 IgnoredErrorResult

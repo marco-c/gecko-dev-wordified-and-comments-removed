@@ -32,6 +32,15 @@ include
 "
 mozilla
 /
+ParamTraits_STL
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 BindingDeclarations

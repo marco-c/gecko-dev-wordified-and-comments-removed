@@ -24,6 +24,15 @@ local_addr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ParamTraits_STL
+.
+h
+"
 namespace
 IPC
 {

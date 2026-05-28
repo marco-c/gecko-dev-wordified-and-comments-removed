@@ -3989,12 +3989,9 @@ alignof
 float
 )
 )
-std
-:
-:
-array
-<
 uint8_t
+data
+[
 4
 *
 4
@@ -4003,8 +4000,7 @@ sizeof
 (
 float
 )
->
-data
+]
 =
 {
 }
