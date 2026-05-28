@@ -4375,6 +4375,9 @@ data_stores
 get_local_prim_rect
 (
 prim_instance
+prim_info
+.
+snapped_local_rect
 &
 ctx
 .
@@ -8071,7 +8074,9 @@ LayoutRect
 {
 min
 :
-prim_rect
+prim_instance
+.
+unsnapped_prim_rect
 .
 min
 +

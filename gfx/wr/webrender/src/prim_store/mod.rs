@@ -3966,7 +3966,7 @@ clip_leaf_id
 :
 ClipLeafId
 pub
-prim_rect
+unsnapped_prim_rect
 :
 LayoutRect
 }
@@ -3983,7 +3983,7 @@ PrimitiveKind
 clip_leaf_id
 :
 ClipLeafId
-prim_rect
+unsnapped_prim_rect
 :
 LayoutRect
 )
@@ -3995,7 +3995,7 @@ PrimitiveInstance
 {
 kind
 clip_leaf_id
-prim_rect
+unsnapped_prim_rect
 }
 }
 pub

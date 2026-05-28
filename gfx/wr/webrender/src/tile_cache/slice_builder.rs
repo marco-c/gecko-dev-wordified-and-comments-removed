@@ -1955,7 +1955,7 @@ radius
 )
 node
 .
-clip_rect
+unsnapped_clip_rect
 .
 size
 (
@@ -1970,7 +1970,7 @@ can_use_fast_path_in
 &
 node
 .
-clip_rect
+unsnapped_clip_rect
 )
 {
 rounded_rect_count
@@ -1992,7 +1992,7 @@ Some
 (
 node
 .
-clip_rect
+unsnapped_clip_rect
 br
 )
 )
@@ -2086,7 +2086,7 @@ radius
 )
 node
 .
-clip_rect
+unsnapped_clip_rect
 .
 size
 (
@@ -2099,7 +2099,7 @@ acc_rect
 acc_radius
 node
 .
-clip_rect
+unsnapped_clip_rect
 radius
 )
 }
@@ -2181,7 +2181,7 @@ radius
 )
 node
 .
-clip_rect
+unsnapped_clip_rect
 .
 size
 (
@@ -2195,7 +2195,7 @@ Some
 (
 node
 .
-clip_rect
+unsnapped_clip_rect
 radius
 )
 )
