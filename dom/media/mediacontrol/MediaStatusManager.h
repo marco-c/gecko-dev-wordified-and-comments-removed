@@ -602,6 +602,14 @@ IsAnyMediaBeingControlled
 )
 const
 ;
+AudioSessionType
+EffectiveTypeForBc
+(
+uint64_t
+aBrowsingContextId
+)
+const
+;
 MediaEventSource
 <
 MediaMetadataBase

@@ -208,6 +208,14 @@ GetActiveAudibleControllableContextId
 )
 const
 ;
+AudioSessionType
+EffectiveTypeForBc
+(
+uint64_t
+aBcId
+)
+const
+;
 bool
 IsBcAudibleForTesting
 (
@@ -484,6 +492,12 @@ return
 mAudibleSources
 ;
 }
+AudioSessionType
+PriorityTypeFromAudibleSources
+(
+)
+const
+;
 private
 :
 uint32_t

@@ -655,6 +655,14 @@ uint64_t
 aBrowsingContextId
 )
 ;
+AudioSessionType
+EffectiveTypeForBc
+(
+uint64_t
+aBrowsingContextId
+)
+const
+;
 const
 AudioSessionRecord
 *
