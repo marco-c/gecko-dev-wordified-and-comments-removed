@@ -82,6 +82,11 @@ TestMediaKeysEvent
 .
 cpp
 "
+"
+TestMediaPlaybackStatus
+.
+cpp
+"
 ]
 if
 CONFIG
