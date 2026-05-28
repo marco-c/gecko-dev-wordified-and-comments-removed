@@ -3953,7 +3953,9 @@ onLocationChange
 (
 this
 .
-browser
+window
+aLocationURI
+aWebProgress
 )
 ;
 this
