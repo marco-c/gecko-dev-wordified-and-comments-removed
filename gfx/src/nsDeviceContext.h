@@ -383,6 +383,11 @@ GetScreenIsHDR
 (
 )
 ;
+bool
+GetScreenIsVideoHDR
+(
+)
+;
 nsSize
 GetDeviceSurfaceDimensions
 (

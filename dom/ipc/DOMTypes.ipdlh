@@ -841,6 +841,9 @@ isPseudoDisplay
 bool
 isHDR
 ;
+bool
+isVideoHDR
+;
 }
 ;
 struct
