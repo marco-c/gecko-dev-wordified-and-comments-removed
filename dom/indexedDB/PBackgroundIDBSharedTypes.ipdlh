@@ -654,6 +654,9 @@ optionalKeyRange
 uint32_t
 limit
 ;
+Direction
+direction
+;
 }
 ;
 struct
@@ -668,6 +671,9 @@ optionalKeyRange
 ;
 uint32_t
 limit
+;
+Direction
+direction
 ;
 }
 ;
