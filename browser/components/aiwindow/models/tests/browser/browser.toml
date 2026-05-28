@@ -67,3 +67,10 @@ browser_utils_fxAccount
 js
 "
 ]
+[
+"
+browser_utils_loadConfig
+.
+js
+"
+]

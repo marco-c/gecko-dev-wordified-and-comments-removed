@@ -146,13 +146,6 @@ sys
 mjs
 "
 "
-PromptLoader
-.
-sys
-.
-mjs
-"
-"
 PromptOptimizer
 .
 sys
