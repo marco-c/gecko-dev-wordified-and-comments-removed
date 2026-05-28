@@ -310,16 +310,6 @@ ErrorResult
 aRv
 )
 ;
-bool
-AutoselectPorts
-(
-)
-const
-{
-return
-mAutoselectPorts
-;
-}
 static
 bool
 IsValidBluetoothUUID
