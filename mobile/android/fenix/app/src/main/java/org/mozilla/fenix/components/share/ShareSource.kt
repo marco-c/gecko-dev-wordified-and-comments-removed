@@ -156,4 +156,10 @@ RECENTLY_CLOSED
 recently_closed
 "
 )
+DEEP_LINK
+(
+"
+deep_link
+"
+)
 }

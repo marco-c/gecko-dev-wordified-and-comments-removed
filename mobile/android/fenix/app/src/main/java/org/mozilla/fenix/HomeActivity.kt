@@ -2599,7 +2599,16 @@ listOf
 (
 HomeDeepLinkIntentProcessor
 (
+activity
+=
 this
+shareUseCases
+=
+components
+.
+useCases
+.
+shareUseCases
 )
 SpeechProcessingIntentProcessor
 (
