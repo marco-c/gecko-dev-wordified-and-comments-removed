@@ -4567,10 +4567,15 @@ hex
 const
 isCategorySelected
 =
+wallpapersUserEnabled
+&
+&
+(
 activeWallpaperObj
 |
 |
 isCustomSolidColor
+)
 ;
 return
 (
