@@ -1991,6 +1991,9 @@ IDBObjectStore
 IDBOpenDBRequest
 "
 "
+IDBRecord
+"
+"
 IDBRequest
 "
 "

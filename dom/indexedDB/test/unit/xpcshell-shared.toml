@@ -321,6 +321,13 @@ js
 ]
 [
 "
+test_getAllRecords
+.
+js
+"
+]
+[
+"
 test_globalObjects_other
 .
 js

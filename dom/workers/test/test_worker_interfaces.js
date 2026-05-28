@@ -2826,6 +2826,16 @@ true
 name
 :
 "
+IDBRecord
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 IDBRequest
 "
 insecureContext

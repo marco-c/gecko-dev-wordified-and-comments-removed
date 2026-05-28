@@ -248,6 +248,11 @@ IDBObjectStore
 h
 "
 "
+IDBRecord
+.
+h
+"
+"
 IDBRequest
 .
 h
@@ -395,6 +400,11 @@ cpp
 "
 "
 IDBObjectStore
+.
+cpp
+"
+"
+IDBRecord
 .
 cpp
 "

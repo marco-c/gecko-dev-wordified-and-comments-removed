@@ -333,6 +333,13 @@ js
 "
 unit
 /
+test_getAllRecords
+.
+js
+"
+"
+unit
+/
 test_globalObjects_ipc
 .
 js
@@ -1565,6 +1572,13 @@ secondary
 [
 "
 test_getAll
+.
+html
+"
+]
+[
+"
+test_getAllRecords
 .
 html
 "

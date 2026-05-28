@@ -1541,16 +1541,6 @@ NS_ERROR_DOM_DATA_CLONE_ERR
 return
 ;
 }
-IDBObjectStore
-:
-:
-ClearCloneReadInfo
-(
-mData
-.
-mCloneInfo
-)
-;
 mCachedValue
 =
 val

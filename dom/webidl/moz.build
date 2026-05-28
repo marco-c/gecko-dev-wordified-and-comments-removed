@@ -4747,6 +4747,11 @@ IDBOpenDBRequest
 webidl
 "
 "
+IDBRecord
+.
+webidl
+"
+"
 IDBRequest
 .
 webidl
