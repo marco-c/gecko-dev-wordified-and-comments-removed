@@ -582,6 +582,13 @@ Bug
 ]
 [
 "
+browser_newtab_sticky_search
+.
+js
+"
+]
+[
+"
 browser_newtab_towindow
 .
 js
