@@ -21,7 +21,7 @@ Duration
 test
 ]
 fn
-pkcs11_malformed_uri_rejected
+pkcs11_unknown_kek_ref_rejected
 (
 )
 {
@@ -62,9 +62,9 @@ not
 -
 a
 -
-valid
+real
 -
-uri
+record
 "
 b
 "
@@ -93,15 +93,7 @@ err
 LockstoreError
 :
 :
-InvalidKekRef
-(
-_
-)
-|
-LockstoreError
-:
-:
-TokenError
+NotFound
 (
 _
 )
