@@ -785,6 +785,9 @@ true
 dragAndDropEnabled
 =
 false
+displayTabGroupOnboarding
+=
+false
 selectedItemIndex
 =
 group

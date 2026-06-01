@@ -5029,6 +5029,17 @@ verifyTabsSearchWithOpenTabsTest
 (
 )
 {
+TestHelper
+.
+appContext
+.
+settings
+(
+)
+.
+tabGroupsOnboardingEnabled
+=
+false
 val
 firstPageUrl
 =

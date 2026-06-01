@@ -325,6 +325,13 @@ shareTabGroupEnabled
 Boolean
 =
 true
+override
+val
+tabGroupsOnboardingEnabled
+:
+Boolean
+=
+false
 }
 Test
 fun
