@@ -2245,7 +2245,7 @@ MaterialTheme
 .
 colorScheme
 .
-primaryContainer
+secondaryContainer
 }
 else
 {
@@ -2253,7 +2253,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerHighest
+surfaceBright
 }
 }
 /
