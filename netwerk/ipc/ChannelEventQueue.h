@@ -521,8 +521,10 @@ inline
 void
 RunOrEnqueue
 (
+UniquePtr
+<
 ChannelEvent
-*
+>
 aCallback
 bool
 aAssertionWhenNotQueued
@@ -800,8 +802,10 @@ ChannelEventQueue
 :
 RunOrEnqueue
 (
+UniquePtr
+<
 ChannelEvent
-*
+>
 aCallback
 bool
 aAssertionWhenNotQueued
@@ -823,6 +827,11 @@ UniquePtr
 ChannelEvent
 >
 event
+=
+std
+:
+:
+move
 (
 aCallback
 )

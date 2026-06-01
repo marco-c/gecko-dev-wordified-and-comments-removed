@@ -2116,8 +2116,10 @@ mEventQ
 >
 RunOrEnqueue
 (
-new
+MakeUnique
+<
 NeckoTargetChannelFunctionEvent
+>
 (
 this
 [
@@ -2929,8 +2931,10 @@ mEventQ
 >
 RunOrEnqueue
 (
-new
+MakeUnique
+<
 ChannelFunctionEvent
+>
 (
 [
 self
@@ -3337,8 +3341,10 @@ mEventQ
 >
 RunOrEnqueue
 (
-new
+MakeUnique
+<
 NeckoTargetChannelFunctionEvent
+>
 (
 this
 [
@@ -4119,8 +4125,10 @@ mEventQ
 >
 RunOrEnqueue
 (
-new
+MakeUnique
+<
 NeckoTargetChannelFunctionEvent
+>
 (
 this
 [

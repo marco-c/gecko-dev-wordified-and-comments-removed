@@ -3690,8 +3690,10 @@ mQueue
 >
 RunOrEnqueue
 (
-new
+MakeUnique
+<
 ChannelEventFunction
+>
 (
 mMainThread
 std
@@ -3726,8 +3728,10 @@ mQueue
 >
 RunOrEnqueue
 (
-new
+MakeUnique
+<
 ChannelEventRunnable
+>
 (
 mMainThread
 std
@@ -3767,8 +3771,10 @@ mQueue
 >
 RunOrEnqueue
 (
-new
+MakeUnique
+<
 ChannelEventFunction
+>
 (
 mIOThread
 std
@@ -3803,8 +3809,10 @@ mQueue
 >
 RunOrEnqueue
 (
-new
+MakeUnique
+<
 ChannelEventRunnable
+>
 (
 mIOThread
 std
