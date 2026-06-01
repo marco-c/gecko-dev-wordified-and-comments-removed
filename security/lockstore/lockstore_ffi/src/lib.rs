@@ -245,7 +245,7 @@ extern
 C
 "
 fn
-lockstore_keystore_open
+keystore_open
 (
 profile_path
 :
@@ -395,7 +395,7 @@ extern
 C
 "
 fn
-lockstore_keystore_create_dek
+keystore_create_dek
 (
 handle
 :
@@ -513,7 +513,7 @@ extern
 C
 "
 fn
-lockstore_keystore_import_dek
+keystore_import_dek
 (
 handle
 :
@@ -679,7 +679,7 @@ extern
 C
 "
 fn
-lockstore_keystore_is_dek_extractable
+keystore_is_dek_extractable
 (
 handle
 :
@@ -780,7 +780,7 @@ extern
 C
 "
 fn
-lockstore_keystore_get_dek
+keystore_get_dek
 (
 handle
 :
@@ -915,7 +915,7 @@ extern
 C
 "
 fn
-lockstore_keystore_delete_dek
+keystore_delete_dek
 (
 handle
 :
@@ -1005,7 +1005,7 @@ extern
 C
 "
 fn
-lockstore_keystore_list_deks
+keystore_list_deks
 (
 handle
 :
@@ -1096,7 +1096,7 @@ extern
 C
 "
 fn
-lockstore_keystore_list_keks
+keystore_list_keks
 (
 handle
 :
@@ -1202,7 +1202,7 @@ extern
 C
 "
 fn
-lockstore_keystore_add_kek
+keystore_add_kek
 (
 handle
 :
@@ -1339,7 +1339,7 @@ extern
 C
 "
 fn
-lockstore_keystore_remove_kek
+keystore_remove_kek
 (
 handle
 :
@@ -1453,7 +1453,7 @@ extern
 C
 "
 fn
-lockstore_keystore_switch_kek
+keystore_switch_kek
 (
 handle
 :
@@ -1591,7 +1591,7 @@ extern
 C
 "
 fn
-lockstore_keystore_encrypt
+keystore_encrypt
 (
 handle
 :
@@ -1756,7 +1756,7 @@ extern
 C
 "
 fn
-lockstore_keystore_decrypt
+keystore_decrypt
 (
 handle
 :
@@ -1921,7 +1921,7 @@ extern
 C
 "
 fn
-lockstore_keystore_close
+keystore_close
 (
 handle
 :
@@ -1970,7 +1970,7 @@ extern
 C
 "
 fn
-lockstore_keystore_unlock_kek
+keystore_unlock_kek
 (
 handle
 :
@@ -2094,7 +2094,7 @@ extern
 C
 "
 fn
-lockstore_keystore_lock_kek
+keystore_lock_kek
 (
 handle
 :
@@ -2152,7 +2152,7 @@ extern
 C
 "
 fn
-lockstore_keystore_is_kek_unlocked
+keystore_is_kek_unlocked
 (
 handle
 :
@@ -2239,7 +2239,7 @@ extern
 C
 "
 fn
-lockstore_keystore_lock
+keystore_lock
 (
 handle
 :
@@ -2271,7 +2271,7 @@ extern
 C
 "
 fn
-lockstore_keystore_create_kek
+keystore_create_kek
 (
 handle
 :
@@ -2427,7 +2427,7 @@ extern
 C
 "
 fn
-lockstore_keystore_delete_kek
+keystore_delete_kek
 (
 handle
 :

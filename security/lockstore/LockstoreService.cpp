@@ -206,7 +206,7 @@ if
 mKeystore
 )
 {
-lockstore_keystore_close
+keystore_close
 (
 mKeystore
 )
@@ -437,7 +437,7 @@ first
 )
 ;
 return
-lockstore_keystore_open
+keystore_open
 (
 &
 mProfilePath
@@ -489,7 +489,7 @@ if
 mKeystore
 )
 {
-lockstore_keystore_close
+keystore_close
 (
 mKeystore
 )
@@ -931,7 +931,7 @@ EnsureOpenLocked
 )
 ;
 return
-lockstore_keystore_is_kek_unlocked
+keystore_is_kek_unlocked
 (
 mKeystore
 &
@@ -1012,7 +1012,7 @@ aTimeoutMs
 LOCKSTORE_SYNC_PREAMBLE
 ;
 return
-lockstore_keystore_unlock_kek
+keystore_unlock_kek
 (
 mKeystore
 &
@@ -1038,7 +1038,7 @@ aKekRef
 LOCKSTORE_SYNC_PREAMBLE
 ;
 return
-lockstore_keystore_lock_kek
+keystore_lock_kek
 (
 mKeystore
 &
@@ -1057,7 +1057,7 @@ DoLock
 LOCKSTORE_SYNC_PREAMBLE
 ;
 return
-lockstore_keystore_lock
+keystore_lock
 (
 mKeystore
 )
@@ -1084,7 +1084,7 @@ aExtractable
 LOCKSTORE_SYNC_PREAMBLE
 ;
 return
-lockstore_keystore_create_dek
+keystore_create_dek
 (
 mKeystore
 &
@@ -1123,7 +1123,7 @@ aExtractable
 LOCKSTORE_SYNC_PREAMBLE
 ;
 return
-lockstore_keystore_import_dek
+keystore_import_dek
 (
 mKeystore
 &
@@ -1169,7 +1169,7 @@ false
 ;
 MOZ_TRY
 (
-lockstore_keystore_is_dek_extractable
+keystore_is_dek_extractable
 (
 mKeystore
 &
@@ -1198,7 +1198,7 @@ aCollection
 LOCKSTORE_SYNC_PREAMBLE
 ;
 return
-lockstore_keystore_delete_dek
+keystore_delete_dek
 (
 mKeystore
 &
@@ -1229,7 +1229,7 @@ aToKekRef
 LOCKSTORE_SYNC_PREAMBLE
 ;
 return
-lockstore_keystore_add_kek
+keystore_add_kek
 (
 mKeystore
 &
@@ -1260,7 +1260,7 @@ aKekRef
 LOCKSTORE_SYNC_PREAMBLE
 ;
 return
-lockstore_keystore_remove_kek
+keystore_remove_kek
 (
 mKeystore
 &
@@ -1293,7 +1293,7 @@ aNewKekRef
 LOCKSTORE_SYNC_PREAMBLE
 ;
 return
-lockstore_keystore_switch_kek
+keystore_switch_kek
 (
 mKeystore
 &
@@ -1330,7 +1330,7 @@ out
 ;
 MOZ_TRY
 (
-lockstore_keystore_list_deks
+keystore_list_deks
 (
 mKeystore
 &
@@ -1371,7 +1371,7 @@ out
 ;
 MOZ_TRY
 (
-lockstore_keystore_list_keks
+keystore_list_keks
 (
 mKeystore
 &
@@ -1425,7 +1425,7 @@ out
 ;
 MOZ_TRY
 (
-lockstore_keystore_encrypt
+keystore_encrypt
 (
 mKeystore
 &
@@ -1491,7 +1491,7 @@ out
 ;
 MOZ_TRY
 (
-lockstore_keystore_decrypt
+keystore_decrypt
 (
 mKeystore
 &
@@ -1550,7 +1550,7 @@ out
 ;
 MOZ_TRY
 (
-lockstore_keystore_get_dek
+keystore_get_dek
 (
 mKeystore
 &
@@ -1595,7 +1595,7 @@ out
 ;
 MOZ_TRY
 (
-lockstore_keystore_create_kek
+keystore_create_kek
 (
 mKeystore
 &
@@ -1627,7 +1627,7 @@ aKekRef
 LOCKSTORE_SYNC_PREAMBLE
 ;
 return
-lockstore_keystore_delete_kek
+keystore_delete_kek
 (
 mKeystore
 &
