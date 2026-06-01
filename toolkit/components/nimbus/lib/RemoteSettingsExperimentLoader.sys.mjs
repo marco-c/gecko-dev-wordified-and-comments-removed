@@ -4513,7 +4513,6 @@ targeting
 )
 ;
 }
-await
 this
 .
 manager

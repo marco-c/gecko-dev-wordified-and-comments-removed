@@ -3439,7 +3439,6 @@ setExperimentActive
 "
 )
 ;
-await
 manager
 .
 forceEnroll
@@ -3835,7 +3834,6 @@ x
 ]
 )
 ;
-await
 manager
 .
 forceEnroll
@@ -4101,7 +4099,6 @@ loader
 "
 )
 ;
-await
 manager
 .
 forceEnroll
@@ -4433,7 +4430,6 @@ of
 enroll
 )
 {
-await
 manager
 .
 forceEnroll
@@ -4887,7 +4883,6 @@ of
 recipes
 )
 {
-await
 manager
 .
 forceEnroll
@@ -7411,7 +7406,6 @@ desktop
 }
 )
 ;
-await
 manager
 .
 forceEnroll
@@ -7543,7 +7537,6 @@ optIns
 const
 enrollment
 =
-await
 manager
 .
 forceEnroll
@@ -7690,7 +7683,6 @@ loader
 ]
 )
 ;
-await
 manager
 .
 forceEnroll
@@ -7892,7 +7884,6 @@ present
 "
 )
 ;
-await
 manager
 .
 forceEnroll

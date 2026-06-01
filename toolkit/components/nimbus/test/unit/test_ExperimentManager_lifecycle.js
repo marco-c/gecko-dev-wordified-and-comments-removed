@@ -5894,7 +5894,6 @@ recipe
 ]
 )
 ;
-await
 manager
 .
 forceEnroll

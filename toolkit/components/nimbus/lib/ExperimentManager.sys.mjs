@@ -4363,7 +4363,6 @@ source
 )
 ;
 }
-async
 _enroll
 (
 recipe
@@ -4532,7 +4531,6 @@ requiresRestart
 )
 ;
 }
-await
 this
 .
 _prefFlips
@@ -4690,7 +4688,6 @@ enrollment
 .
 *
 /
-async
 forceEnroll
 (
 recipe
@@ -5128,7 +5125,6 @@ slug
 const
 enrollment
 =
-await
 this
 .
 _enroll

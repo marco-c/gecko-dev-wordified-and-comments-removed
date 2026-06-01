@@ -1614,7 +1614,6 @@ saveSoon
 ;
 }
 }
-async
 _annotateEnrollment
 (
 enrollment
