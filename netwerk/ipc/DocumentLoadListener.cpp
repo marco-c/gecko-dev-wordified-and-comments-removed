@@ -1726,8 +1726,10 @@ return
 rv
 ;
 }
+already_AddRefed
+<
 nsDocumentOpenInfo
-*
+>
 Clone
 (
 )
@@ -1738,8 +1740,10 @@ mCloned
 true
 ;
 return
-new
+MakeAndAddRef
+<
 ParentProcessDocumentOpenInfo
+>
 (
 mListener
 mFlags
