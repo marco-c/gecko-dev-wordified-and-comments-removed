@@ -504,7 +504,7 @@ status
 =
 AccountStatus
 .
-Ready
+EnrolledAndEntitled
 )
 )
 iPProtectionReducer
@@ -579,7 +579,7 @@ status
 =
 AccountStatus
 .
-Ready
+EnrolledAndEntitled
 )
 )
 iPProtectionReducer
@@ -654,7 +654,7 @@ status
 =
 AccountStatus
 .
-Ready
+EnrolledAndEntitled
 )
 )
 iPProtectionReducer
@@ -729,7 +729,7 @@ status
 =
 AccountStatus
 .
-Ready
+EnrolledAndEntitled
 )
 )
 iPProtectionReducer
@@ -804,7 +804,7 @@ status
 =
 AccountStatus
 .
-Ready
+EnrolledAndEntitled
 )
 )
 iPProtectionReducer
@@ -921,7 +921,7 @@ status
 =
 AccountStatus
 .
-Ready
+EnrolledAndEntitled
 )
 )
 iPProtectionReducer
@@ -1006,7 +1006,7 @@ status
 =
 AccountStatus
 .
-Ready
+EnrolledAndEntitled
 )
 )
 iPProtectionReducer
@@ -1091,7 +1091,7 @@ status
 =
 AccountStatus
 .
-Ready
+EnrolledAndEntitled
 )
 )
 iPProtectionReducer
@@ -1175,7 +1175,7 @@ status
 =
 AccountStatus
 .
-Ready
+EnrolledAndEntitled
 )
 )
 iPProtectionReducer

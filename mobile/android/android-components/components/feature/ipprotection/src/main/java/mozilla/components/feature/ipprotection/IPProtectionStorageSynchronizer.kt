@@ -511,7 +511,7 @@ Authenticated
 >
 AccountStatus
 .
-Ready
+Authenticated
 AccountState
 .
 AuthenticationProblem

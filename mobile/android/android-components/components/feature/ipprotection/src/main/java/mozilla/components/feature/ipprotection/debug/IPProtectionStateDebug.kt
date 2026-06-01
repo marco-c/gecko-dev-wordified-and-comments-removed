@@ -1178,7 +1178,7 @@ status
 =
 AccountStatus
 .
-Ready
+EnrolledAndEntitled
 )
 activate
 =
