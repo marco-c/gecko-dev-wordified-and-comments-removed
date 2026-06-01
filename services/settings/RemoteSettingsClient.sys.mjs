@@ -4446,7 +4446,7 @@ lazy
 .
 Utils
 .
-shouldSkipRemoteActivityDueToTests
+shouldSkipRemoteActivity
 )
 {
 lazy
@@ -4461,12 +4461,8 @@ this
 identifier
 }
 Skip
+remote
 sync
-(
-)
-due
-to
-tests
 .
 )
 ;

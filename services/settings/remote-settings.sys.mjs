@@ -1867,7 +1867,7 @@ lazy
 .
 Utils
 .
-shouldSkipRemoteActivityDueToTests
+shouldSkipRemoteActivity
 )
 {
 return
@@ -2475,7 +2475,7 @@ lazy
 .
 Utils
 .
-shouldSkipRemoteActivityDueToTests
+shouldSkipRemoteActivity
 )
 {
 return

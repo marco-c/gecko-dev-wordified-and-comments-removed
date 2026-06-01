@@ -1515,7 +1515,7 @@ lazy
 .
 Utils
 .
-shouldSkipRemoteActivityDueToTests
+shouldSkipRemoteActivity
 )
 {
 this

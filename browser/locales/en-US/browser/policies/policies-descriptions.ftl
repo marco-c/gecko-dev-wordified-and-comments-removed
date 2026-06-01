@@ -788,6 +788,14 @@ updates
 .
 policy
 -
+DisableRemoteSettingsAndAcceptSecurityConsequences
+=
+Disable
+remote
+settings
+.
+policy
+-
 DisableSafeMode
 =
 Disable

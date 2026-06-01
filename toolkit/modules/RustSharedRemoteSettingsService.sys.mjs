@@ -1222,7 +1222,7 @@ return
 !
 Utils
 .
-shouldSkipRemoteActivityDueToTests
+shouldSkipRemoteActivity
 |
 |
 url

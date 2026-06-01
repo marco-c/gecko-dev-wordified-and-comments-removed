@@ -341,6 +341,13 @@ js
 ]
 [
 "
+browser_policy_disable_remote_settings
+.
+js
+"
+]
+[
+"
 browser_policy_disable_safemode
 .
 js
