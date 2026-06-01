@@ -2056,8 +2056,16 @@ _ns
 )
 ;
 }
-return
+nsCOMPtr
+<
+nsIStreamListener
+>
+listener
+=
 m_targetStreamListener
+;
+return
+listener
 -
 >
 OnStartRequest

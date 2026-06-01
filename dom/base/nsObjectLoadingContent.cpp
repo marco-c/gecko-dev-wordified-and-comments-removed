@@ -1509,8 +1509,16 @@ mURI
 )
 ;
 }
-return
+nsCOMPtr
+<
+nsIStreamListener
+>
+listener
+=
 mFinalListener
+;
+return
+listener
 -
 >
 OnStartRequest

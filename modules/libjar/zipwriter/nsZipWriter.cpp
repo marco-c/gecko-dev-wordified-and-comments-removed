@@ -2603,9 +2603,16 @@ true
 ;
 if
 (
+nsCOMPtr
+<
+nsIRequestObserver
+>
+processObserver
+=
 mProcessObserver
 )
-mProcessObserver
+{
+processObserver
 -
 >
 OnStartRequest
@@ -2613,6 +2620,7 @@ OnStartRequest
 nullptr
 )
 ;
+}
 BeginProcessingNextItem
 (
 )
