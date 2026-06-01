@@ -545,11 +545,6 @@ TestCamerasParent
 cpp
 "
 "
-TestH264FmtpParser
-.
-cpp
-"
-"
 TestRTCStatsTimestampMaker
 .
 cpp

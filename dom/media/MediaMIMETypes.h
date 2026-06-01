@@ -614,12 +614,6 @@ return
 mMIMEType
 ;
 }
-nsDependentCSubstring
-Subtype
-(
-)
-const
-;
 bool
 HaveCodecs
 (
