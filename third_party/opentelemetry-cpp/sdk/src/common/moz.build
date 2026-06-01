@@ -45,6 +45,11 @@ disabled
 cc
 "
 "
+empty_attributes
+.
+cc
+"
+"
 env_variables
 .
 cc
