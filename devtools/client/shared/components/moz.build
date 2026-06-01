@@ -94,6 +94,11 @@ AppErrorBoundary
 js
 "
 "
+DebuggerImage
+.
+js
+"
+"
 FileSearchBar
 .
 js
