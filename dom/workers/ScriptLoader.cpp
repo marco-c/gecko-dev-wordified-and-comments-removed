@@ -3992,7 +3992,7 @@ bool
 WorkerScriptLoader
 :
 :
-StoreCSP
+StorePolicyContainerArgs
 (
 )
 {
@@ -4046,7 +4046,7 @@ Private
 )
 -
 >
-StoreCSPOnClient
+StorePolicyContainerArgsOnClient
 (
 )
 ;
@@ -8158,7 +8158,7 @@ return
 mScriptLoader
 -
 >
-StoreCSP
+StorePolicyContainerArgs
 (
 )
 ;
