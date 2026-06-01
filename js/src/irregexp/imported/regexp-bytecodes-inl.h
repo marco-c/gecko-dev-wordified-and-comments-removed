@@ -446,7 +446,7 @@ template
 size_t
 N
 >
-constexpr
+consteval
 std
 :
 :
@@ -655,7 +655,7 @@ BytecodeOperandType
 .
 operand_types
 >
-constexpr
+consteval
 auto
 CalculateAlignedOffsets
 (
@@ -1015,6 +1015,7 @@ CamelName
 {
 \
 enum
+class
 Operand
 {
 UNPAREN
@@ -1022,6 +1023,11 @@ UNPAREN
 OpNames
 )
 }
+;
+\
+using
+enum
+Operand
 ;
 \
 static
@@ -1163,7 +1169,7 @@ Traits
 kSize
 ;
 static
-constexpr
+consteval
 int
 Index
 (
@@ -1182,7 +1188,7 @@ op
 ;
 }
 static
-constexpr
+consteval
 int
 Size
 (
@@ -1204,7 +1210,7 @@ op
 ;
 }
 static
-constexpr
+consteval
 int
 Offset
 (
@@ -1226,7 +1232,7 @@ op
 ;
 }
 static
-constexpr
+consteval
 BytecodeOperandType
 Type
 (
@@ -1273,7 +1279,7 @@ op
 ;
 }
 static
-constexpr
+consteval
 auto
 GetOperandsTuple
 (
@@ -1788,6 +1794,7 @@ const
 DisallowGarbageCollection
 &
 no_gc
+V8_LIFETIME_BOUND
 )
 {
 static_assert
@@ -2024,6 +2031,14 @@ OpTypes
 public
 AllStatic
 {
+\
+public
+:
+\
+using
+enum
+Operand
+;
 \
 }
 ;

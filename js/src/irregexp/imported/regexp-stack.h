@@ -292,6 +292,7 @@ thread_local_
 limit_
 ;
 }
+V8_EXPORT_PRIVATE
 Address
 EnsureCapacity
 (
@@ -356,6 +357,8 @@ kMaximumStackSize
 *
 MB
 ;
+private
+:
 Stack
 (
 )
@@ -365,8 +368,6 @@ Stack
 (
 )
 ;
-private
-:
 static
 const
 Address
