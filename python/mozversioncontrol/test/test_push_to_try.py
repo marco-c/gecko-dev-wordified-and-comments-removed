@@ -1809,6 +1809,8 @@ fakehead
 dest_branch
 =
 "
+user
+/
 test
 /
 master
@@ -2095,6 +2097,8 @@ fakehead
 dest_branch
 =
 "
+user
+/
 test
 /
 push
