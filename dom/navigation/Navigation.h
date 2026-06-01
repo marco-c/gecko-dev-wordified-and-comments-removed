@@ -655,6 +655,14 @@ true
 ;
 MOZ_CAN_RUN_SCRIPT
 void
+TruncateForwardEntries
+(
+uint32_t
+aNewLength
+)
+;
+MOZ_CAN_RUN_SCRIPT
+void
 RunNavigateEventHandlerSteps
 (
 NavigateEvent

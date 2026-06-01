@@ -6293,6 +6293,10 @@ uint32_t
 aLength
 nsID
 aChangeID
+NavigationEntriesTruncation
+[
+]
+aTruncations
 )
 ;
 async
