@@ -872,7 +872,7 @@ android
 VPN
 (
 "
-firefox
+mobile
 -
 android
 -
