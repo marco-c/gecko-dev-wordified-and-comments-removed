@@ -38,6 +38,8 @@ private
 JSDebugger
 (
 )
+=
+default
 ;
 }
 ;

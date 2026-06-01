@@ -412,6 +412,17 @@ operation
 reliability
 :
 high
+-
+name
+:
+performance
+-
+trivially
+-
+destructible
+reliability
+:
+high
 #
 clang_checkers
 :

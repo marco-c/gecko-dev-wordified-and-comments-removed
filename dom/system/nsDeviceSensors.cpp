@@ -225,6 +225,8 @@ private
 nsDeviceSensorData
 (
 )
+=
+default
 ;
 protected
 :
@@ -291,16 +293,6 @@ NS_IMPL_RELEASE
 (
 nsDeviceSensorData
 )
-nsDeviceSensorData
-:
-:
-~
-nsDeviceSensorData
-(
-)
-=
-default
-;
 NS_IMETHODIMP
 nsDeviceSensorData
 :

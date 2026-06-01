@@ -35,6 +35,8 @@ private
 MozIntlHelper
 (
 )
+=
+default
 ;
 }
 ;

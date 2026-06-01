@@ -502,6 +502,8 @@ delegate
 DelegateHolder
 (
 )
+=
+default
 ;
 DelegateHolder
 (

@@ -336,6 +336,8 @@ ForkServiceChild
 ForkServerLauncher
 (
 )
+=
+default
 ;
 static
 void

@@ -46,16 +46,6 @@ Module
 =
 default
 ;
-Module
-:
-:
-~
-Module
-(
-)
-=
-default
-;
 #
 define
 XPC_MAP_CLASSNAME

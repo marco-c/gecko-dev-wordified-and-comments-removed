@@ -93,16 +93,6 @@ JSDebugger
 =
 default
 ;
-JSDebugger
-:
-:
-~
-JSDebugger
-(
-)
-=
-default
-;
 NS_IMETHODIMP
 JSDebugger
 :

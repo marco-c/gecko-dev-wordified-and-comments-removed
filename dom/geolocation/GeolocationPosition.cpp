@@ -266,16 +266,6 @@ aSpeed
 )
 ;
 }
-nsGeoPositionCoords
-:
-:
-~
-nsGeoPositionCoords
-(
-)
-=
-default
-;
 NS_INTERFACE_MAP_BEGIN
 (
 nsGeoPositionCoords

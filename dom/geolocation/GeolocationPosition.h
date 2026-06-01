@@ -83,6 +83,8 @@ private
 nsGeoPositionCoords
 (
 )
+=
+default
 ;
 const
 double

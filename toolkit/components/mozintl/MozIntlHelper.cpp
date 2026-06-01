@@ -82,16 +82,6 @@ MozIntlHelper
 =
 default
 ;
-MozIntlHelper
-:
-:
-~
-MozIntlHelper
-(
-)
-=
-default
-;
 NS_IMETHODIMP
 MozIntlHelper
 :

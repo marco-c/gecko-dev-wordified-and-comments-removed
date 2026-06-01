@@ -63,16 +63,6 @@ reset
 )
 ;
 }
-Biquad
-:
-:
-~
-Biquad
-(
-)
-=
-default
-;
 void
 Biquad
 :
