@@ -2515,6 +2515,11 @@ aConstrainToCurrentScreen
 )
 ;
 void
+EnsureFrameIsOnScreen
+(
+)
+;
+void
 UpdateFullscreenState
 (
 bool
