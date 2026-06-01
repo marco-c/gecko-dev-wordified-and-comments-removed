@@ -137,7 +137,7 @@ collections
 =
 keystore
 .
-list_collections
+list_deks
 (
 )
 .
@@ -334,7 +334,7 @@ collections
 =
 keystore
 .
-list_collections
+list_deks
 (
 )
 .
@@ -978,7 +978,7 @@ close
 test
 ]
 fn
-test_list_collections_empty
+test_list_deks_empty
 (
 )
 {
@@ -1007,7 +1007,7 @@ collections
 =
 keystore
 .
-list_collections
+list_deks
 (
 )
 .
@@ -1042,7 +1042,7 @@ close
 test
 ]
 fn
-test_list_collections_single
+test_list_deks_single
 (
 )
 {
@@ -1092,7 +1092,7 @@ collections
 =
 keystore
 .
-list_collections
+list_deks
 (
 )
 .
@@ -1130,7 +1130,7 @@ close
 test
 ]
 fn
-test_list_collections_multiple
+test_list_deks_multiple
 (
 )
 {
@@ -1222,7 +1222,7 @@ collections
 =
 keystore
 .
-list_collections
+list_deks
 (
 )
 .
@@ -1312,7 +1312,7 @@ close
 test
 ]
 fn
-test_list_collections_after_delete
+test_list_deks_after_delete
 (
 )
 {
@@ -1401,7 +1401,7 @@ collections
 =
 keystore
 .
-list_collections
+list_deks
 (
 )
 .
@@ -1439,7 +1439,7 @@ close
 test
 ]
 fn
-test_list_collection_keks_after_create_dek
+test_list_keks_after_create_dek
 (
 )
 {
@@ -1477,7 +1477,7 @@ refs
 =
 keystore
 .
-list_collection_keks
+list_keks
 (
 "
 col
@@ -1515,7 +1515,7 @@ close
 test
 ]
 fn
-test_list_collection_keks_after_add_kek
+test_list_keks_after_add_kek
 (
 )
 {
@@ -1568,7 +1568,7 @@ refs
 =
 keystore
 .
-list_collection_keks
+list_keks
 (
 "
 col
@@ -1634,7 +1634,7 @@ close
 test
 ]
 fn
-test_list_collection_keks_after_remove_kek
+test_list_keks_after_remove_kek
 (
 )
 {
@@ -1701,7 +1701,7 @@ refs
 =
 keystore
 .
-list_collection_keks
+list_keks
 (
 "
 col
@@ -1739,7 +1739,7 @@ close
 test
 ]
 fn
-test_list_collection_keks_unknown_collection
+test_list_keks_unknown_dek
 (
 )
 {
@@ -1762,7 +1762,7 @@ result
 =
 keystore
 .
-list_collection_keks
+list_keks
 (
 "
 nonexistent
@@ -2064,7 +2064,7 @@ collections
 =
 keystore
 .
-list_collections
+list_deks
 (
 )
 .
@@ -2307,7 +2307,7 @@ close
 test
 ]
 fn
-test_on_disk_list_collections_persists
+test_on_disk_list_deks_persists
 (
 )
 {
@@ -2472,7 +2472,7 @@ collections
 =
 keystore
 .
-list_collections
+list_deks
 (
 )
 .
@@ -2737,7 +2737,7 @@ collections
 =
 keystore
 .
-list_collections
+list_deks
 (
 )
 .
@@ -5868,7 +5868,7 @@ collections
 =
 b
 .
-list_collections
+list_deks
 (
 )
 .
@@ -6554,7 +6554,7 @@ keks
 =
 keystore
 .
-list_collection_keks
+list_keks
 (
 "
 col

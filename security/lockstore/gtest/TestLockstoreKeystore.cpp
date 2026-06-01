@@ -220,7 +220,7 @@ security
 lockstore
 :
 :
-lockstore_keystore_list_collections
+lockstore_keystore_list_deks
 ;
 using
 mozilla
@@ -600,7 +600,7 @@ collections
 ;
 rv
 =
-lockstore_keystore_list_collections
+lockstore_keystore_list_deks
 (
 mKeystore
 &
@@ -1078,7 +1078,7 @@ collections
 ;
 rv
 =
-lockstore_keystore_list_collections
+lockstore_keystore_list_deks
 (
 mKeystore
 &
@@ -1219,7 +1219,7 @@ collections
 ;
 rv
 =
-lockstore_keystore_list_collections
+lockstore_keystore_list_deks
 (
 mKeystore
 &
@@ -1350,7 +1350,7 @@ collections
 ;
 rv
 =
-lockstore_keystore_list_collections
+lockstore_keystore_list_deks
 (
 mKeystore
 &
@@ -1486,7 +1486,7 @@ collections
 ;
 rv
 =
-lockstore_keystore_list_collections
+lockstore_keystore_list_deks
 (
 mKeystore
 &

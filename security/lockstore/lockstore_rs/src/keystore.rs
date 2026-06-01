@@ -318,7 +318,7 @@ a
 {
 pub
 fn
-list_collections
+list_deks
 (
 &
 self
@@ -3342,7 +3342,7 @@ guard
 }
 pub
 fn
-list_collections
+list_deks
 (
 &
 self
@@ -3365,17 +3365,17 @@ acquire_connection
 )
 ?
 .
-list_collections
+list_deks
 (
 )
 }
 pub
 fn
-list_collection_keks
+list_keks
 (
 &
 self
-collection_name
+dek_name
 :
 &
 str
@@ -3408,7 +3408,7 @@ conn
 .
 load_metadata
 (
-collection_name
+dek_name
 )
 ?
 ;
@@ -5009,7 +5009,7 @@ collections
 =
 conn
 .
-list_collections
+list_deks
 (
 )
 ?

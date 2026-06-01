@@ -454,7 +454,7 @@ collectionsResult
 mService
 -
 >
-DoListCollections
+DoListDeks
 (
 )
 ;
@@ -738,7 +738,7 @@ NS_ERROR_INVALID_ARG
 TEST_F
 (
 LockstoreServiceTest
-ListCollections_ContainsCreated
+ListDeks_ContainsCreated
 )
 {
 nsCString
@@ -830,7 +830,7 @@ listResult
 mService
 -
 >
-DoListCollections
+DoListDeks
 (
 )
 ;
@@ -3354,7 +3354,7 @@ remainingResult
 mService
 -
 >
-DoListCollections
+DoListDeks
 (
 )
 ;

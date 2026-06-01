@@ -1229,7 +1229,7 @@ add_task
 (
 async
 function
-test_list_collections_and_delete
+test_list_deks_and_delete
 (
 )
 {
@@ -1270,7 +1270,7 @@ before
 await
 ls
 .
-listCollections
+listDeks
 (
 )
 ;
@@ -1318,7 +1318,7 @@ after
 await
 ls
 .
-listCollections
+listDeks
 (
 )
 ;
@@ -3651,7 +3651,7 @@ collsAfter
 await
 ls
 .
-listCollections
+listDeks
 (
 )
 ;
@@ -3817,7 +3817,7 @@ collsFinal
 await
 ls
 .
-listCollections
+listDeks
 (
 )
 ;

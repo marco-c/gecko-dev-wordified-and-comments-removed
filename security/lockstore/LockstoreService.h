@@ -267,7 +267,7 @@ nsCString
 >
 nsresult
 >
-DoListCollections
+DoListDeks
 (
 )
 ;
@@ -284,7 +284,7 @@ DoListKeks
 const
 nsACString
 &
-aCollection
+aDekName
 )
 ;
 Result
