@@ -230,7 +230,11 @@ compile
 #
 include
 "
+(
 src
+|
+include
+)
 /
 '
 )
