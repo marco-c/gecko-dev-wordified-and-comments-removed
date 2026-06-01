@@ -5401,6 +5401,11 @@ maybeMakeSetting
 id
 :
 editId
+deps
+:
+[
+settingId
+]
 disabled
 :
 (
