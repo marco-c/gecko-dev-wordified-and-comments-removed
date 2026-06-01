@@ -255,7 +255,7 @@ tooling
 .
 preview
 .
-Preview
+PreviewLightDark
 import
 androidx
 .
@@ -577,7 +577,7 @@ maxLines
 }
 }
 }
-Preview
+PreviewLightDark
 Composable
 private
 fun
@@ -649,7 +649,7 @@ null
 }
 }
 }
-Preview
+PreviewLightDark
 Composable
 private
 fun
@@ -728,7 +728,7 @@ null
 }
 }
 }
-Preview
+PreviewLightDark
 Composable
 private
 fun

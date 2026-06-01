@@ -145,7 +145,7 @@ MaterialTheme
 .
 colorScheme
 .
-primaryFixed
+primaryContainer
 contentColor
 :
 Color
@@ -154,7 +154,7 @@ MaterialTheme
 .
 colorScheme
 .
-onPrimaryFixed
+onPrimaryContainer
 )
 =
 FloatingActionButtonColors
