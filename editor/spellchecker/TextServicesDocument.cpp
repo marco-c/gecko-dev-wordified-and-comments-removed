@@ -6072,13 +6072,12 @@ break
 ;
 }
 RefPtr
+filter
+=
+MakeRefPtr
 <
 FilteredContentIterator
 >
-filter
-=
-new
-FilteredContentIterator
 (
 std
 :

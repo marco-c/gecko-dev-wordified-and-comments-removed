@@ -61,13 +61,12 @@ Create
 )
 {
 RefPtr
+transaction
+=
+MakeRefPtr
 <
 DeleteMultipleRangesTransaction
 >
-transaction
-=
-new
-DeleteMultipleRangesTransaction
 (
 )
 ;

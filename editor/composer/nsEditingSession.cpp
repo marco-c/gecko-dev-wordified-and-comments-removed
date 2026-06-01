@@ -1250,13 +1250,12 @@ eEditorAllowInteraction
 ;
 }
 RefPtr
+commandsUpdater
+=
+MakeRefPtr
 <
 ComposerCommandsUpdater
 >
-commandsUpdater
-=
-new
-ComposerCommandsUpdater
 (
 )
 ;

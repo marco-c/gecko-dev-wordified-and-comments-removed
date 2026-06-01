@@ -1908,13 +1908,12 @@ aData
 )
 {
 RefPtr
+transactionItem
+=
+MakeRefPtr
 <
 TransactionItem
 >
-transactionItem
-=
-new
-TransactionItem
 (
 aTransaction
 )
