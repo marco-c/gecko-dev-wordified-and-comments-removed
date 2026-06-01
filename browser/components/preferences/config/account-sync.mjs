@@ -6041,6 +6041,11 @@ id
 "
 profilesSettings
 "
+loadPane
+:
+"
+profiles
+"
 control
 :
 "

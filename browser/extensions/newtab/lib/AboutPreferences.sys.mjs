@@ -5062,6 +5062,11 @@ homepage
 -
 button
 "
+loadPane
+:
+"
+customHomepage
+"
 }
 {
 id

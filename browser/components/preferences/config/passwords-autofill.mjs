@@ -1410,6 +1410,11 @@ id
 "
 savedPaymentsButton
 "
+loadPane
+:
+"
+managePayments
+"
 l10nId
 :
 "
@@ -1525,6 +1530,11 @@ id
 :
 "
 savedAddressesButton
+"
+loadPane
+:
+"
+manageAddresses
 "
 l10nId
 :

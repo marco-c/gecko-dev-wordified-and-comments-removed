@@ -4424,6 +4424,11 @@ id
 "
 browserContainersSettings
 "
+loadPane
+:
+"
+containers
+"
 l10nId
 :
 "

@@ -5534,6 +5534,11 @@ translations
 inProgress
 :
 true
+subcategory
+:
+"
+translations
+"
 l10nId
 :
 "
@@ -5598,6 +5603,11 @@ id
 :
 "
 translationsManageButton
+"
+loadPane
+:
+"
+translations
 "
 l10nId
 :

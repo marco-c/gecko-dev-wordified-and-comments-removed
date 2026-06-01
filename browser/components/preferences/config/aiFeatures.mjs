@@ -7627,7 +7627,7 @@ controlAttrs
 {
 headinglevel
 :
-2
+3
 inputlayout
 :
 "
@@ -8353,6 +8353,11 @@ id
 :
 "
 personalizeSmartWindowButton
+"
+loadPane
+:
+"
+personalizeSmartWindow
 "
 l10nId
 :
@@ -9305,6 +9310,11 @@ id
 :
 "
 manageMemoriesButton
+"
+loadPane
+:
+"
+manageMemories
 "
 l10nId
 :
