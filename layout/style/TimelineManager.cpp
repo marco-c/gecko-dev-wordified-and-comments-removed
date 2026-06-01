@@ -1229,7 +1229,7 @@ e
 aTimelineCandidate
 -
 >
-GetFlattenedTreeParentElement
+GetParentElement
 (
 )
 ;
@@ -1249,7 +1249,7 @@ e
 e
 -
 >
-GetFlattenedTreeParentElement
+GetParentElement
 (
 )
 )
