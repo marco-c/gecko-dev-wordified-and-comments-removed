@@ -101,9 +101,14 @@ unicodes
 -
 301F
 30FB
+FE00
+-
+FE0F
 FF01
 -
 FF1F
+FF3B
+FF3D
 FF5B
 -
 FF65
