@@ -389,6 +389,11 @@ UNIFIED_SOURCES
 =
 [
 "
+H264FmtpParser
+.
+cpp
+"
+"
 MediaEngineRemoteVideoSource
 .
 cpp
@@ -709,6 +714,11 @@ webrtc
 [
 "
 CodecInfo
+.
+h
+"
+"
+H264FmtpParser
 .
 h
 "
