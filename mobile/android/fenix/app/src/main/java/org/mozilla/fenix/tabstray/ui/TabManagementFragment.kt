@@ -1429,6 +1429,9 @@ override
 fun
 onDragStart
 (
+sourceKey
+:
+String
 preserveSelectMode
 :
 Boolean
@@ -1442,6 +1445,11 @@ TabsTrayAction
 .
 TabDragStart
 (
+sourceId
+=
+sourceKey
+preserveSelectMode
+=
 preserveSelectMode
 )
 )

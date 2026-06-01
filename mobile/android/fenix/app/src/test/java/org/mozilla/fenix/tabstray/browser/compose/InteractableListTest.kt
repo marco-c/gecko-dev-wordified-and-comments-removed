@@ -2332,6 +2332,13 @@ handler
 .
 onDragStart
 (
+sourceKey
+=
+"
+key1
+"
+preserveSelectMode
+=
 true
 )
 }
@@ -2491,6 +2498,13 @@ handler
 .
 onDragStart
 (
+sourceKey
+=
+"
+key1
+"
+preserveSelectMode
+=
 false
 )
 }

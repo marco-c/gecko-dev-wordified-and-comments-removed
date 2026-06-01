@@ -444,6 +444,9 @@ Unit
 onExitLongPress
 :
 (
+sourceKey
+:
+Any
 )
 -
 >
@@ -709,6 +712,9 @@ val
 onExitLongPress
 :
 (
+sourceKey
+:
+Any
 )
 -
 >
@@ -1063,9 +1069,16 @@ draggingItemCumulatedOffset
 touchSlop
 )
 {
+draggingItemKey
+?
+.
+let
+{
 onExitLongPress
 (
+it
 )
+}
 }
 val
 startOffset
