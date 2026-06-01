@@ -131,12 +131,6 @@ traceOwnedAlloc
 JSTracer
 *
 trc
-gc
-:
-:
-Cell
-*
-maybeOwner
 T
 *
 *
@@ -232,7 +226,6 @@ allocPolicy
 traceOwnedAlloc
 (
 trc
-maybeOwner
 ptrp
 name
 )

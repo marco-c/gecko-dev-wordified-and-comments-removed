@@ -632,15 +632,6 @@ TraceBufferEdgeInternal
 JSTracer
 *
 trc
-JS
-:
-:
-Zone
-*
-zone
-Cell
-*
-maybeOwner
 void
 *
 *
@@ -658,7 +649,6 @@ BufferAllocator
 TraceEdge
 (
 trc
-maybeOwner
 bufferp
 name
 )

@@ -892,8 +892,6 @@ gc
 TraceBufferEdgeInternal
 (
 trc
-zone
-nullptr
 ptrp
 name
 )
@@ -1518,13 +1516,6 @@ gc
 TraceBufferEdgeInternal
 (
 trc
-owner
--
->
-zoneFromAnyThread
-(
-)
-owner
 ptrp
 name
 )
@@ -1585,13 +1576,6 @@ gc
 TraceBufferEdgeInternal
 (
 trc
-owner
--
->
-zoneFromAnyThread
-(
-)
-owner
 ptrp
 name
 )

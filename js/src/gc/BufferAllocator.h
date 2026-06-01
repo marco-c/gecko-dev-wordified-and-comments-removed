@@ -1161,9 +1161,6 @@ TraceEdge
 JSTracer
 *
 trc
-Cell
-*
-owner
 void
 *
 *
@@ -1570,9 +1567,6 @@ traceSmallAlloc
 JSTracer
 *
 trc
-Cell
-*
-owner
 void
 *
 *
@@ -2057,9 +2051,6 @@ traceMediumAlloc
 JSTracer
 *
 trc
-Cell
-*
-owner
 void
 *
 *
@@ -2206,9 +2197,6 @@ TraceLargeAlloc
 JSTracer
 *
 trc
-Cell
-*
-owner
 void
 *
 *
@@ -2289,9 +2277,6 @@ traceLargeBuffer
 JSTracer
 *
 trc
-Cell
-*
-owner
 LargeBuffer
 *
 buffer
