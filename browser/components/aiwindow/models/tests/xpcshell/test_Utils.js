@@ -431,6 +431,12 @@ MODEL_FEATURES
 .
 CHAT
 }
+-
+{
+opts
+.
+modelId
+}
 "
 engineId
 should
@@ -440,6 +446,8 @@ from
 the
 feature
 name
+and
+model
 "
 )
 ;
