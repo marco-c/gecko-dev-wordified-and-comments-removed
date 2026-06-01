@@ -1174,9 +1174,6 @@ accountState
 =
 AccountState
 (
-isFirstEnrollment
-=
-false
 status
 =
 AccountStatus
