@@ -67,6 +67,11 @@ AudioFocusManager
 h
 "
 "
+AudioSessionManager
+.
+h
+"
+"
 AudioSessionRecord
 .
 h
@@ -135,6 +140,11 @@ UNIFIED_SOURCES
 [
 "
 AudioFocusManager
+.
+cpp
+"
+"
+AudioSessionManager
 .
 cpp
 "
