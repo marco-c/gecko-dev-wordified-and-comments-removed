@@ -745,13 +745,12 @@ SECFailure
 ;
 }
 RefPtr
+authCert
+=
+MakeRefPtr
 <
 VerifySSLServerCertChild
 >
-authCert
-=
-new
-VerifySSLServerCertChild
 (
 aResultTask
 std

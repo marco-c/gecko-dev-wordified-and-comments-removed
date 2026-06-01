@@ -318,13 +318,12 @@ certList
 )
 {
 RefPtr
-<
-nsIX509Cert
->
 cert
 =
-new
+MakeRefPtr
+<
 nsNSSCertificate
+>
 (
 std
 :

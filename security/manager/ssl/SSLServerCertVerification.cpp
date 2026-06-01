@@ -1962,7 +1962,9 @@ sctsFromTiledLogs
 ;
 for
 (
+const
 auto
+&
 verifiedSCT
 :
 info
@@ -4065,13 +4067,12 @@ aPtrForLogging
 )
 ;
 RefPtr
+resultTask
+=
+MakeRefPtr
 <
 SSLServerCertVerificationResult
 >
-resultTask
-=
-new
-SSLServerCertVerificationResult
 (
 socketControl
 )
