@@ -341,6 +341,9 @@ navigateToPage
 url
 :
 String
+forceNavigation
+:
+Boolean
 )
 :
 SearchBarComponent
@@ -350,6 +353,9 @@ super
 navigateToPage
 (
 url
+forceNavigation
+=
+forceNavigation
 )
 return
 this

@@ -661,6 +661,9 @@ navigateToPage
 url
 :
 String
+forceNavigation
+:
+Boolean
 )
 :
 SettingsPage
@@ -670,6 +673,7 @@ super
 navigateToPage
 (
 url
+forceNavigation
 )
 return
 this

@@ -1115,6 +1115,11 @@ String
 =
 "
 "
+forceNavigation
+:
+Boolean
+=
+false
 )
 :
 BasePage
@@ -1147,6 +1152,10 @@ try
 {
 if
 (
+!
+forceNavigation
+&
+&
 mozIsOnPageNow
 (
 )

@@ -298,6 +298,9 @@ navigateToPage
 url
 :
 String
+forceNavigation
+:
+Boolean
 )
 :
 SettingsAppIconPage
@@ -307,6 +310,7 @@ super
 navigateToPage
 (
 url
+forceNavigation
 )
 return
 this

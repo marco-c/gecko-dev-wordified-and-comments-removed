@@ -431,6 +431,9 @@ navigateToPage
 url
 :
 String
+forceNavigation
+:
+Boolean
 )
 :
 SettingsHTTPSOnlyModePage
@@ -440,6 +443,7 @@ super
 navigateToPage
 (
 url
+forceNavigation
 )
 return
 this
