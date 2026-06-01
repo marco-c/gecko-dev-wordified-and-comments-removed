@@ -266,6 +266,13 @@ js
 ]
 [
 "
+browser_srd_telemetry_bucket_migration
+.
+js
+"
+]
+[
+"
 browser_sub_pane_navigation_selection
 .
 js
