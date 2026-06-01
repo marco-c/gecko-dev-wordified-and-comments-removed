@@ -3222,6 +3222,13 @@ SwitchDefaults
 .
 colors
 (
+checkedTrackColor
+=
+MaterialTheme
+.
+colorScheme
+.
+tertiary
 )
 modifier
 =
