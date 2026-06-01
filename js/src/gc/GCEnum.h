@@ -673,6 +673,13 @@ undef
 DEFINE_MEMORY_USE
 }
 ;
+static
+constexpr
+uintptr_t
+MaxTaggedPointer
+=
+0x5
+;
 }
 #
 endif

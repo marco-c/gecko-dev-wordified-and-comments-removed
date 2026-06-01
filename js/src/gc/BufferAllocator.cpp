@@ -5402,11 +5402,16 @@ buffer
 *
 bufferp
 ;
-MOZ_ASSERT
+if
 (
+!
 buffer
 )
+{
+return
+nullptr
 ;
+}
 if
 (
 !

@@ -5959,7 +5959,7 @@ mutableFlags_
 {
 }
 ;
-GCStructPtr
+GCBuffer
 <
 PrivateScriptData
 *
