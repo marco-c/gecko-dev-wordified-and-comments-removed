@@ -137,16 +137,9 @@ Window
 interface
 AnimationTimeline
 {
-[
-BinaryName
-=
-"
-currentTimeAsDouble
-"
-]
 readonly
 attribute
-double
+CSSNumberish
 ?
 currentTime
 ;
