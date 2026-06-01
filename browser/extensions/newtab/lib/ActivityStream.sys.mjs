@@ -6800,7 +6800,7 @@ large
 value
 :
 "
-large
+medium
 "
 }
 ]
@@ -7059,9 +7059,10 @@ or
 large
 )
 "
-getValue
+value
 :
-getDefaultWidgetSize
+"
+"
 }
 ]
 [
