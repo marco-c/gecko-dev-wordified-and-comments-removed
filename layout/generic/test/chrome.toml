@@ -99,13 +99,6 @@ Bug
 ]
 [
 "
-test_paragraph_movement_scroll
-.
-html
-"
-]
-[
-"
 test_selection_underline
 .
 html
