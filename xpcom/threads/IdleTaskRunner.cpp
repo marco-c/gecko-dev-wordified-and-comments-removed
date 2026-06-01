@@ -536,8 +536,10 @@ nullptr
 ;
 }
 }
-static
 void
+IdleTaskRunner
+:
+:
 TimedOut
 (
 nsITimer
@@ -562,6 +564,13 @@ IdleTaskRunner
 (
 aClosure
 )
+;
+runner
+-
+>
+mTimerActive
+=
+false
 ;
 runner
 -
