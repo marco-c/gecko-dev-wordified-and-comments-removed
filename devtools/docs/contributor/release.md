@@ -1128,7 +1128,6 @@ Tests
 #
 Basic
 connection
-:
 -
 On
 the
@@ -1163,7 +1162,6 @@ Page
 #
 Debug
 targets
-:
 -
 On
 the
@@ -1343,7 +1341,6 @@ Inspect
 a
 remote
 target
-:
 -
 On
 the
@@ -1564,7 +1561,6 @@ Inspect
 a
 remote
 extension
-:
 -
 On
 the

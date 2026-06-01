@@ -1890,7 +1890,9 @@ div
 ;
 }
 }
-__This
+*
+*
+This
 is
 a
 very
@@ -1900,7 +1902,9 @@ to
 improve
 your
 application
-speed__
+speed
+*
+*
 because
 this
 avoids
@@ -2209,7 +2213,11 @@ Component
 *
 or
 (
-__preferred__
+*
+*
+preferred
+*
+*
 )
 decide
 to

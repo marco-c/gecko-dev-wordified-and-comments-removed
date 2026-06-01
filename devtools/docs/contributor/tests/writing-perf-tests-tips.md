@@ -171,7 +171,6 @@ you
 want
 to
 watch
-.
 If
 you
 are
@@ -361,7 +360,6 @@ your
 test
 execution
 short
-.
 Running
 performance
 tests

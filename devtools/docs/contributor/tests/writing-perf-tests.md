@@ -265,7 +265,7 @@ tests
 See
 also
 :
--
+*
 [
 Performance
 test
@@ -292,7 +292,7 @@ creating
 a
 new
 test
--
+*
 [
 Performance
 test
@@ -423,7 +423,7 @@ examples
 of
 tests
 :
--
+*
 [
 tests
 /
@@ -470,7 +470,7 @@ simple
 .
 js
 )
--
+*
 [
 tests
 /

@@ -1818,6 +1818,7 @@ dashboard
 for
 DevTools
 at
+<
 http
 :
 /
@@ -1831,6 +1832,7 @@ tools
 performance
 -
 dashboard
+>
 .
 You
 will
@@ -2071,7 +2073,7 @@ be
 categorized
 as
 :
--
+*
 hardware
 :
 hardware
@@ -2083,7 +2085,7 @@ used
 to
 run
 Talos
--
+*
 platform
 :
 non
@@ -2094,7 +2096,7 @@ that
 impacts
 DevTools
 performance
--
+*
 damp
 :
 test
@@ -2105,7 +2107,7 @@ that
 impacts
 test
 results
--
+*
 devtools
 :
 identified

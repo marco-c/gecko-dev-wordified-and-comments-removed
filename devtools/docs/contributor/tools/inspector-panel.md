@@ -783,6 +783,7 @@ instance
 of
 MutationObserver
 (
+<
 https
 :
 /
@@ -804,6 +805,7 @@ Web
 API
 /
 MutationObserver
+>
 )
 configured
 with

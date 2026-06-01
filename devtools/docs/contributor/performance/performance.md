@@ -186,7 +186,6 @@ Don
 t
 guess
 profile
-.
 The
 very
 first
@@ -656,7 +655,6 @@ filter
 strings
 for
 DevTools
-:
 *
 require
 Helps
@@ -1161,7 +1159,6 @@ with
 Assess
 your
 improvement
-.
 Once
 you
 have

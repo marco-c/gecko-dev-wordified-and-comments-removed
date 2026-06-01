@@ -33,6 +33,7 @@ order
 :
 1
 .
+<
 https
 :
 /
@@ -40,8 +41,10 @@ https
 newsblur
 .
 com
+>
 2
 .
+<
 https
 :
 /
@@ -49,12 +52,14 @@ https
 mozilla
 .
 org
+>
 (
 current
 page
 )
 3
 .
+<
 https
 :
 /
@@ -62,6 +67,7 @@ https
 convolv
 .
 es
+>
 #
 #
 Opening

@@ -102,6 +102,7 @@ following
 links
 :
 *
+<
 http
 :
 /
@@ -119,11 +120,13 @@ docs
 tutorial
 .
 html
+>
 -
 the
 official
 tutorial
 *
+<
 https
 :
 /
@@ -137,12 +140,14 @@ petehunt
 react
 -
 howto
+>
 -
 how
 to
 learn
 React
 *
+<
 http
 :
 /
@@ -168,6 +173,7 @@ React
 is
 -
 Awesome
+>
 -
 long
 read

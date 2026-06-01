@@ -1281,7 +1281,7 @@ notify
 you
 about
 :
-*
+-
 target
 actors
 via
@@ -1296,7 +1296,7 @@ target
 destroyed
 -
 form
-*
+-
 resources
 via
 resources
@@ -1447,7 +1447,7 @@ in
 various
 ways
 :
-*
+-
 just
 from
 the
@@ -1486,7 +1486,7 @@ actor
 as
 argument
 .
-*
+-
 just
 from
 the
@@ -1566,7 +1566,7 @@ the
 descriptor
 context
 :
-*
+-
 One
 precise
 document
@@ -1574,10 +1574,10 @@ instance
 also
 called
 WindowGlobal
-*
+-
 One
 worker
-*
+-
 One
 parent
 or
