@@ -218,6 +218,7 @@ aichat
 syncedtabs
 history
 bookmarks
+opentabs
 "
 ;
 const
