@@ -61,6 +61,13 @@ js
 ]
 [
 "
+test_ChatSwitchModel
+.
+js
+"
+]
+[
+"
 test_FeedbackModal
 .
 js
