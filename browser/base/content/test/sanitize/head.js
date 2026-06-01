@@ -1970,9 +1970,10 @@ selectedPane
 =
 win
 .
-history
+gLastCategory
+?
 .
-state
+category
 ;
 await
 finalPrefPaneLoaded

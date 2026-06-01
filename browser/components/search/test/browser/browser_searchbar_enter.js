@@ -1323,9 +1323,10 @@ gBrowser
 .
 contentWindow
 .
-history
+gLastCategory
+?
 .
-state
+category
 "
 paneSearch
 "

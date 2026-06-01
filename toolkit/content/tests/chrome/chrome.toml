@@ -1957,6 +1957,13 @@ xhtml
 ]
 [
 "
+test_scroll_offsets
+.
+html
+"
+]
+[
+"
 test_showcaret
 .
 xhtml

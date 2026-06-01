@@ -2787,7 +2787,7 @@ window
 .
 windowRoot
 .
-ownerGlobal
+window
 ;
 if
 (
@@ -4187,7 +4187,9 @@ t
 /
 interfere
 with
-ScrollOffsets
+gViewController
+.
+scrollOffsets
 .
 restore
 (
@@ -4197,7 +4199,7 @@ view
 -
 controller
 .
-js
+mjs
 .
 function
 focusExtension

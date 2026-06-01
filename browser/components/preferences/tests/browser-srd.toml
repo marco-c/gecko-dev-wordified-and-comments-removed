@@ -238,6 +238,13 @@ js
 ]
 [
 "
+browser_setting_pane_scroll_restoration
+.
+js
+"
+]
+[
+"
 browser_setting_pane_sub_pane
 .
 js

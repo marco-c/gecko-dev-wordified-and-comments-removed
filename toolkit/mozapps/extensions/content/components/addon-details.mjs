@@ -81,7 +81,7 @@ mjs
 ;
 import
 {
-ScrollOffsets
+gViewController
 }
 from
 "
@@ -2481,7 +2481,9 @@ the
 page
 instead
 .
-ScrollOffsets
+gViewController
+.
+scrollOffsets
 .
 canRestore
 =
