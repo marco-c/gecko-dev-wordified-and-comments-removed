@@ -149,8 +149,6 @@ filters
 import
 (
     
-chunk_by_slice
-    
 failures
     
 pathprefix
@@ -12766,27 +12764,6 @@ append
 path_filter
 )
             
-if
-options
-.
-totalChunks
-:
-                
-filters
-.
-append
-(
-chunk_by_slice
-(
-options
-.
-thisChunk
-options
-.
-totalChunks
-)
-)
-            
 noDefaultFilters
 =
 False
@@ -21084,10 +21061,6 @@ None
             
 if
 crashAsPass
-or
-crash_count
->
-0
 :
                 
 if
@@ -21104,10 +21077,6 @@ expected
 CRASH
 "
                 
-if
-crashAsPass
-:
-                    
 status
 =
 0
