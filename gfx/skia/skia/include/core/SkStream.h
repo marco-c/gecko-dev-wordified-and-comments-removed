@@ -99,6 +99,11 @@ include
 <
 utility
 >
+#
+include
+<
+vector
+>
 class
 SkStreamAsset
 ;
@@ -569,6 +574,7 @@ nullptr
 virtual
 sk_sp
 <
+const
 SkData
 >
 getData
@@ -1756,6 +1762,7 @@ SkMemoryStream
 (
 )
 ;
+explicit
 SkMemoryStream
 (
 size_t
@@ -1776,10 +1783,12 @@ copyData
 false
 )
 ;
+explicit
 SkMemoryStream
 (
 sk_sp
 <
+const
 SkData
 >
 data
@@ -1833,6 +1842,7 @@ Make
 (
 sk_sp
 <
+const
 SkData
 >
 data
@@ -1867,6 +1877,7 @@ length
 ;
 sk_sp
 <
+const
 SkData
 >
 getData
@@ -1884,6 +1895,7 @@ setData
 (
 sk_sp
 <
+const
 SkData
 >
 data
@@ -2050,6 +2062,7 @@ override
 ;
 sk_sp
 <
+const
 SkData
 >
 fData
@@ -2073,6 +2086,7 @@ SkWStream
 {
 public
 :
+explicit
 SkFILEWStream
 (
 const
@@ -2268,6 +2282,17 @@ sk_sp
 SkData
 >
 detachAsData
+(
+)
+;
+std
+:
+:
+vector
+<
+uint8_t
+>
+detachAsVector
 (
 )
 ;

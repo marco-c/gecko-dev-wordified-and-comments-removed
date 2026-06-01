@@ -2311,6 +2311,9 @@ copy
 colors
 count
 )
+(
+unsigned
+)
 count
 mode
 sampling

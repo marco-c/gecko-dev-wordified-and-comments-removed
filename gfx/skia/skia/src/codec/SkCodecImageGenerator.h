@@ -113,6 +113,7 @@ MakeFromEncodedCodec
 (
 sk_sp
 <
+const
 SkData
 >
 std
@@ -248,6 +249,7 @@ protected
 :
 sk_sp
 <
+const
 SkData
 >
 onRefEncodedData
@@ -330,6 +332,7 @@ fCodec
 ;
 sk_sp
 <
+const
 SkData
 >
 fCachedData

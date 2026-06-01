@@ -138,6 +138,9 @@ class
 SkMesh
 ;
 class
+SkMipmap
+;
+class
 SkPaint
 ;
 class
@@ -202,6 +205,7 @@ SkDevice
 {
 public
 :
+explicit
 SkBitmapDevice
 (
 const
@@ -360,8 +364,6 @@ SkPath
 const
 SkPaint
 &
-bool
-pathIsMutable
 )
 override
 ;
@@ -812,6 +814,10 @@ SkSamplingOptions
 const
 SkPaint
 &
+sk_sp
+<
+SkMipmap
+>
 )
 ;
 void

@@ -45,11 +45,14 @@ cstdint
 class
 SkData
 ;
+namespace
+SkStreamPriv
+{
 sk_sp
 <
 SkData
 >
-SkCopyStreamToData
+CopyStreamToData
 (
 SkStream
 *
@@ -57,7 +60,7 @@ stream
 )
 ;
 bool
-SkStreamCopy
+Copy
 (
 SkWStream
 *
@@ -68,7 +71,7 @@ input
 )
 ;
 class
-SkDebugfStream
+DebugfStream
 final
 :
 public
@@ -106,7 +109,7 @@ fBytesWritten
 ;
 inline
 bool
-SkWStreamWriteU16BE
+WriteU16BE
 (
 SkWStream
 *
@@ -139,7 +142,7 @@ value
 }
 inline
 bool
-SkWStreamWriteU32BE
+WriteU32BE
 (
 SkWStream
 *
@@ -172,7 +175,7 @@ value
 }
 inline
 bool
-SkWStreamWriteS32BE
+WriteS32BE
 (
 SkWStream
 *
@@ -205,7 +208,7 @@ value
 }
 inline
 bool
-SkStreamReadU16BE
+ReadU16BE
 (
 SkStream
 *
@@ -246,7 +249,7 @@ true
 }
 inline
 bool
-SkStreamReadU32BE
+ReadU32BE
 (
 SkStream
 *
@@ -287,7 +290,7 @@ true
 }
 inline
 bool
-SkStreamReadS32BE
+ReadS32BE
 (
 SkStream
 *
@@ -327,7 +330,7 @@ true
 ;
 }
 bool
-StreamRemainingLengthIsBelow
+RemainingLengthIsBelow
 (
 SkStream
 *
@@ -336,5 +339,6 @@ size_t
 len
 )
 ;
+}
 #
 endif

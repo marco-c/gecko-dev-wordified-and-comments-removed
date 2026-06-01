@@ -369,6 +369,8 @@ ySelect
 half4
 displColor
 =
+saturate
+(
 unpremul
 (
 displMap
@@ -376,6 +378,7 @@ displMap
 eval
 (
 coord
+)
 )
 )
 ;

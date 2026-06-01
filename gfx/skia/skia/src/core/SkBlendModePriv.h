@@ -38,6 +38,9 @@ SkColorData
 h
 "
 class
+SkBlender
+;
+class
 SkRasterPipeline
 ;
 class
@@ -122,6 +125,14 @@ SkPaint
 &
 bool
 dstIsOpaque
+)
+;
+const
+SkBlender
+*
+GetBlendModeSingleton
+(
+SkBlendMode
 )
 ;
 #

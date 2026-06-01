@@ -714,6 +714,7 @@ SkTextBlobRunIterator
 {
 public
 :
+explicit
 SkTextBlobRunIterator
 (
 const

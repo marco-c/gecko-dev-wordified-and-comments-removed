@@ -164,6 +164,17 @@ buffer
 const
 override
 ;
+bool
+onIsAlphaUnchanged
+(
+)
+const
+override
+{
+return
+true
+;
+}
 private
 :
 friend

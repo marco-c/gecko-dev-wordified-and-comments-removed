@@ -219,6 +219,7 @@ DeferredFromEncodedData
 (
 sk_sp
 <
+const
 SkData
 >
 encoded
@@ -1163,6 +1164,7 @@ const
 ;
 sk_sp
 <
+const
 SkData
 >
 refEncodedData

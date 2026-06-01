@@ -94,6 +94,7 @@ friend
 class
 GrImageContextPriv
 ;
+explicit
 GrImageContext
 (
 sk_sp

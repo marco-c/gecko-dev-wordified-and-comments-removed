@@ -212,6 +212,7 @@ SkNWayCanvas
 {
 public
 :
+explicit
 SkPaintFilterCanvas
 (
 SkCanvas

@@ -328,12 +328,12 @@ fTileMode
 &
 u
 .
-fGradientFlags
+fPremulInterp
 =
 =
 v
 .
-fGradientFlags
+fPremulInterp
 &
 &
 SkPackedArrayEqual

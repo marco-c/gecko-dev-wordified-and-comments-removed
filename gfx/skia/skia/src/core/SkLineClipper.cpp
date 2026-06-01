@@ -62,6 +62,19 @@ private
 /
 base
 /
+SkFloatingPoint
+.
+h
+"
+#
+include
+"
+include
+/
+private
+/
+base
+/
 SkTo
 .
 h
@@ -189,7 +202,7 @@ dy
 )
 {
 return
-SkScalarAve
+sk_float_midpoint
 (
 src
 [
@@ -327,7 +340,7 @@ dx
 )
 {
 return
-SkScalarAve
+sk_float_midpoint
 (
 src
 [

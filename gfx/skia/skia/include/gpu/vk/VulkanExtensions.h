@@ -150,6 +150,7 @@ Info
 )
 {
 }
+explicit
 Info
 (
 const

@@ -138,6 +138,7 @@ CGImageSourceRef
 imageSrc
 sk_sp
 <
+const
 SkData
 >
 data
@@ -148,6 +149,7 @@ protected
 :
 sk_sp
 <
+const
 SkData
 >
 onRefEncodedData
@@ -184,6 +186,7 @@ fImageSrc
 const
 sk_sp
 <
+const
 SkData
 >
 fData
@@ -206,6 +209,7 @@ CGImageSourceRef
 >
 data_to_CGImageSrc
 (
+const
 SkData
 *
 data
@@ -219,7 +223,7 @@ cgData
 (
 CGDataProviderCreateWithData
 (
-data
+nullptr
 data
 -
 >
@@ -279,6 +283,7 @@ MakeFromEncodedCG
 (
 sk_sp
 <
+const
 SkData
 >
 data
@@ -577,6 +582,7 @@ CGImageSourceRef
 src
 sk_sp
 <
+const
 SkData
 >
 data
@@ -616,6 +622,7 @@ origin
 }
 sk_sp
 <
+const
 SkData
 >
 ImageGeneratorCG

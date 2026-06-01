@@ -49,6 +49,7 @@ int
 height
 )
 ;
+explicit
 SkNoDrawCanvas
 (
 const

@@ -257,10 +257,6 @@ using
 namespace
 skia_private
 ;
-#
-define
-HEAP_BLOCK_SIZE
-4096
 enum
 {
 kNoInitialSave

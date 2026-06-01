@@ -1947,6 +1947,11 @@ SkTemplates
 h
 "
 class
+[
+[
+nodiscard
+]
+]
 SkAutoConicToQuads
 {
 public
