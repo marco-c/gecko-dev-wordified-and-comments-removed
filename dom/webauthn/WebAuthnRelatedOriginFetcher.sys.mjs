@@ -1312,7 +1312,7 @@ brand
 ftl
 "
 "
-browser
+toolkit
 /
 webauthnDialog
 .

@@ -234,7 +234,7 @@ src
 /
 /
 /
-browser
+toolkit
 /
 modules
 /

@@ -2310,4 +2310,11 @@ sys
 .
 mjs
 "
+"
+WebAuthnPromptHelper
+.
+sys
+.
+mjs
+"
 ]

@@ -146,7 +146,7 @@ Localization
 (
 [
 "
-browser
+toolkit
 /
 webauthnDialog
 .
