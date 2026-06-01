@@ -1110,6 +1110,12 @@ OpTypes
 >
 class
 BytecodeOperandsBase
+:
+public
+BytecodeOperandNames
+<
+bc
+>
 {
 public
 :
