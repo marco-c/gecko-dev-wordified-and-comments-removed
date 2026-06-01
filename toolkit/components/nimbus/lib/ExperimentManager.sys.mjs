@@ -5022,7 +5022,6 @@ callbacks
 const
 existingEnrollment
 =
-await
 this
 .
 store
