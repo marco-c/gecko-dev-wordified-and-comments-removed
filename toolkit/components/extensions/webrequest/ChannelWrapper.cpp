@@ -3523,7 +3523,6 @@ CanAccessURI
 urlInfo
 false
 false
-true
 )
 )
 {
@@ -4354,9 +4353,6 @@ CanAccessURI
 FinalURLInfo
 (
 )
-false
-true
-true
 )
 )
 {
