@@ -822,7 +822,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerLowest
+surfaceBright
 shape
 =
 MaterialTheme
@@ -2447,7 +2447,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerLowest
+surfaceBright
 )
 )
 {
@@ -2526,7 +2526,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerLowest
+surfaceBright
 )
 )
 {
@@ -2623,7 +2623,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerLowest
+surfaceBright
 )
 )
 {
@@ -2767,7 +2767,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerLowest
+surfaceBright
 )
 )
 {

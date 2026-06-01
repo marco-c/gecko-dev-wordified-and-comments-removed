@@ -669,7 +669,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerLowest
+surfaceBright
 )
 .
 then

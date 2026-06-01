@@ -753,7 +753,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerLowest
+surfaceBright
 )
 .
 thenConditional

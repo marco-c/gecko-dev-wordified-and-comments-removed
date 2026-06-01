@@ -212,7 +212,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerLowest
+surfaceBright
 )
 .
 height

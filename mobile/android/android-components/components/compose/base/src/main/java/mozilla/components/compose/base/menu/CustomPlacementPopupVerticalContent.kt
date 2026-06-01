@@ -248,7 +248,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerLowest
+surfaceBright
 )
 .
 requiredWidthIn
