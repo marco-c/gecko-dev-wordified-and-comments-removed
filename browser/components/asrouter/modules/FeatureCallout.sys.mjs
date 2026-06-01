@@ -3476,7 +3476,7 @@ try
 {
 this
 .
-teardownFeatureTourProgress
+endTour
 (
 )
 ;
