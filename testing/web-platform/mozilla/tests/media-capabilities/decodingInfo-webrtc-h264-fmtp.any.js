@@ -394,7 +394,7 @@ id
 }
 )
 ;
-assert_true
+assert_false
 (
 info
 .
@@ -416,10 +416,12 @@ level
 0
 at
 640x480
+exceeds
+level
+cap
+and
 is
-invalid
-but
-supported
+unsupported
 '
 )
 ;
