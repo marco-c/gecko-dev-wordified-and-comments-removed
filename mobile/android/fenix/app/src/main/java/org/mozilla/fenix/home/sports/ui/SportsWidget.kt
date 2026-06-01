@@ -979,6 +979,12 @@ onMatchClicked
 }
 SportsCardPager
 (
+isTeamSelected
+=
+selectedTeam
+!
+=
+null
 pages
 =
 pagesResult
