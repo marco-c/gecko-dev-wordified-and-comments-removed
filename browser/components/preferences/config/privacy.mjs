@@ -5478,11 +5478,6 @@ connection
 -
 settings
 "
-subcategory
-:
-"
-netsettings
-"
 items
 :
 [
@@ -8411,6 +8406,11 @@ private
 connectionLink
 :
 {
+subcategory
+:
+"
+netsettings
+"
 l10nId
 :
 "
