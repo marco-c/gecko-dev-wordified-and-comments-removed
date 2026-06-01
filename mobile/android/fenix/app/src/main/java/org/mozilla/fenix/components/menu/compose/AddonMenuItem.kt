@@ -293,18 +293,6 @@ mozilla
 .
 components
 .
-compose
-.
-base
-.
-theme
-.
-surfaceDimVariant
-import
-mozilla
-.
-components
-.
 feature
 .
 addons
@@ -684,7 +672,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceDimVariant
+surfaceBright
 )
 .
 semantics

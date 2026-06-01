@@ -337,18 +337,6 @@ annotation
 .
 FlexibleWindowLightDarkPreview
 import
-mozilla
-.
-components
-.
-compose
-.
-base
-.
-theme
-.
-surfaceDimVariant
-import
 org
 .
 mozilla
@@ -576,7 +564,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceDimVariant
+surfaceBright
 )
 .
 height

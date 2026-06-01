@@ -545,18 +545,6 @@ modifier
 .
 thenConditional
 import
-mozilla
-.
-components
-.
-compose
-.
-base
-.
-theme
-.
-surfaceDimVariant
-import
 org
 .
 mozilla
@@ -1251,7 +1239,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceDimVariant
+surfaceBright
 )
 labelModifier
 =
@@ -1513,7 +1501,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceDimVariant
+surfaceBright
 )
 iconPainter
 =
@@ -1803,7 +1791,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceDimVariant
+surfaceBright
 )
 afterListAction
 =
@@ -2053,7 +2041,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceDimVariant
+surfaceBright
 )
 .
 padding
@@ -2702,7 +2690,7 @@ MaterialTheme
 .
 colorScheme
 .
-primaryContainer
+tertiaryContainer
 else
 -
 >
@@ -2710,7 +2698,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerHighest
+surfaceContainerHigh
 }
 }
 PreviewLightDark

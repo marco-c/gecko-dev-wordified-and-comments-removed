@@ -679,7 +679,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerHighest
+surfaceContainerHigh
 }
 else
 {

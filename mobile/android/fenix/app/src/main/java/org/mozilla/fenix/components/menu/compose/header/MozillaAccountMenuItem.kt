@@ -401,18 +401,6 @@ mozilla
 .
 components
 .
-compose
-.
-base
-.
-theme
-.
-surfaceDimVariant
-import
-mozilla
-.
-components
-.
 service
 .
 fxa
@@ -811,7 +799,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceDimVariant
+surfaceBright
 )
 .
 height

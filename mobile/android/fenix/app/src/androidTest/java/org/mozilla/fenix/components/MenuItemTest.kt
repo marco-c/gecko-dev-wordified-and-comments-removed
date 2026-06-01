@@ -291,7 +291,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceDimVariant
+surfaceBright
 )
 .
 padding

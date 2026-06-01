@@ -865,7 +865,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerHighest
+surfaceContainerHigh
 shape
 =
 MaterialTheme
