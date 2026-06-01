@@ -124,6 +124,12 @@ case
 context_openANewTab
 "
 :
+window
+.
+focus
+(
+)
+;
 gBrowser
 .
 addAdjacentNewTab

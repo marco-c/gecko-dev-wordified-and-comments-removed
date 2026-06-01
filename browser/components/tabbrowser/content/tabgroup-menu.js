@@ -6256,6 +6256,12 @@ TabOpen
 onTabOpened
 )
 ;
+window
+.
+focus
+(
+)
+;
 gBrowser
 .
 addAdjacentNewTab
