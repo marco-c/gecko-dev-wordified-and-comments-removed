@@ -257,7 +257,7 @@ JS
 AutoDisableGenerationalGC
 noggc
 ;
-void
+bool
 onChild
 (
 JS
@@ -426,7 +426,7 @@ return
 false
 ;
 }
-void
+bool
 VerifyPreTracer
 :
 :
@@ -468,6 +468,7 @@ thing
 )
 {
 return
+true
 ;
 }
 edgeptr
@@ -491,6 +492,7 @@ edgeptr
 term
 ;
 return
+true
 ;
 }
 VerifyNode
@@ -537,6 +539,9 @@ node
 count
 +
 +
+;
+return
+true
 ;
 }
 static
@@ -1394,7 +1399,7 @@ nullptr
 )
 {
 }
-void
+bool
 onChild
 (
 JS
@@ -1418,7 +1423,7 @@ MAX_VERIFIER_EDGES
 =
 1000
 ;
-void
+bool
 CheckEdgeTracer
 :
 :
@@ -1447,6 +1452,7 @@ thing
 )
 {
 return
+true
 ;
 }
 if
@@ -1460,6 +1466,7 @@ MAX_VERIFIER_EDGES
 )
 {
 return
+true
 ;
 }
 for
@@ -1515,9 +1522,13 @@ GCCellPtr
 )
 ;
 return
+true
 ;
 }
 }
+return
+true
+;
 }
 static
 bool
@@ -3993,6 +4004,13 @@ testMarkQueueRemaining
 )
 >
 0
+|
+|
+queueMarkColor
+.
+isSome
+(
+)
 )
 {
 return
@@ -4204,7 +4222,7 @@ failures
 ;
 private
 :
-void
+bool
 onChild
 (
 JS
@@ -4353,7 +4371,7 @@ parentIndex
 )
 {
 }
-void
+bool
 HeapCheckTracerBase
 :
 :
@@ -4391,6 +4409,7 @@ cell
 )
 {
 return
+true
 ;
 }
 if
@@ -4409,6 +4428,7 @@ oom
 true
 ;
 return
+true
 ;
 }
 if
@@ -4422,6 +4442,7 @@ name
 )
 {
 return
+true
 ;
 }
 if
@@ -4438,6 +4459,7 @@ rt
 )
 {
 return
+true
 ;
 }
 WorkItem
@@ -4464,6 +4486,9 @@ oom
 true
 ;
 }
+return
+true
+;
 }
 bool
 HeapCheckTracerBase
