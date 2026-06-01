@@ -195,14 +195,10 @@ AnimationTimeline
 timeline
 ;
 [
-BinaryName
-=
-"
-startTimeAsDouble
-"
+SetterThrows
 ]
 attribute
-double
+CSSNumberish
 ?
 startTime
 ;
