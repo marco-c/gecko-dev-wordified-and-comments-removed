@@ -7744,6 +7744,15 @@ blocked
 -
 message
 "
+controlAttrs
+:
+{
+role
+:
+"
+status
+"
+}
 }
 ]
 }
@@ -8920,6 +8929,11 @@ type
 :
 "
 info
+"
+role
+:
+"
+status
 "
 }
 options

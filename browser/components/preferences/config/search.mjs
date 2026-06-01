@@ -6595,6 +6595,15 @@ message
 -
 bar
 "
+controlAttrs
+:
+{
+role
+:
+"
+status
+"
+}
 }
 ]
 }

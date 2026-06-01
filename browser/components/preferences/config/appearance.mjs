@@ -737,6 +737,15 @@ message
 -
 bar
 "
+controlAttrs
+:
+{
+role
+:
+"
+status
+"
+}
 }
 {
 id
