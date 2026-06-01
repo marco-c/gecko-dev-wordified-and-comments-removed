@@ -50,7 +50,6 @@ repo
 .
 base
 import
-HG_TRY_URL
 Repository
 class
 HgRepository
@@ -2079,7 +2078,47 @@ args
 )
     
 def
-push_to_try
+_resolve_try_branch
+(
+self
+)
+:
+        
+return
+self
+.
+branch
+    
+def
+_push_to_git_try
+(
+self
+*
+args
+*
+*
+kwargs
+)
+:
+        
+raise
+ValueError
+(
+"
+Unable
+to
+push
+to
+Git
+from
+a
+Mercurial
+repo
+"
+)
+    
+def
+_push_to_hg_try
 (
         
 self
@@ -2098,10 +2137,6 @@ str
 =
 {
 }
-        
-remote
-=
-HG_TRY_URL
         
 allow_log_capture
 :
