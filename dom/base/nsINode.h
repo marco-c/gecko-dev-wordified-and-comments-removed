@@ -3993,6 +3993,9 @@ aDeep
 nsNodeInfoManager
 *
 aNewNodeInfoManager
+nsIGlobalObject
+*
+aNewScope
 nsINode
 *
 aParent
