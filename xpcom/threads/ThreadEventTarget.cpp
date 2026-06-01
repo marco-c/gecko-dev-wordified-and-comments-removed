@@ -453,13 +453,12 @@ NS_ERROR_UNEXPECTED
 )
 ;
 RefPtr
+r
+=
+MakeRefPtr
 <
 DelayedRunnable
 >
-r
-=
-new
-DelayedRunnable
 (
 do_AddRef
 (

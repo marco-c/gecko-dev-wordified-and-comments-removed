@@ -933,13 +933,12 @@ this
 )
 ;
 RefPtr
+eventTarget
+=
+MakeRefPtr
 <
 ThreadEventTarget
 >
-eventTarget
-=
-new
-ThreadEventTarget
 (
 sink
 NS_IsMainThread

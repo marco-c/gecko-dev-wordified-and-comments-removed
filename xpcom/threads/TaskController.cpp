@@ -3904,13 +3904,12 @@ aManager
 )
 {
 RefPtr
+task
+=
+MakeRefPtr
 <
 RunnableTask
 >
-task
-=
-new
-RunnableTask
 (
 std
 :
