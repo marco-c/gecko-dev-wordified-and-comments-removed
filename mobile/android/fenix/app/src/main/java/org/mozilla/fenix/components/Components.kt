@@ -139,6 +139,12 @@ review
 .
 ReviewManagerFactory
 import
+kotlinx
+.
+coroutines
+.
+MainScope
+import
 mozilla
 .
 components
@@ -3079,6 +3085,14 @@ AIFeatureRegistry
 .
 default
 (
+scope
+=
+MainScope
+(
+)
+context
+=
+context
 )
 .
 also

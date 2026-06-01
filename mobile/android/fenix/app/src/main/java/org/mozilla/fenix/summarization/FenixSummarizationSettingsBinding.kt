@@ -119,6 +119,14 @@ kotlinx
 .
 coroutines
 .
+flow
+.
+mapNotNull
+import
+kotlinx
+.
+coroutines
+.
 launch
 import
 mozilla
@@ -218,7 +226,7 @@ _isFeatureEnabled
 =
 MutableStateFlow
 (
-true
+false
 )
 override
 val
@@ -236,7 +244,7 @@ _isGestureEnabled
 =
 MutableStateFlow
 (
-true
+false
 )
 override
 val
@@ -278,6 +286,11 @@ summarizationSettings
 getFeatureEnabledUserStatus
 (
 )
+.
+mapNotNull
+{
+it
+}
 summarizationSettings
 .
 getGestureEnabledUserStatus

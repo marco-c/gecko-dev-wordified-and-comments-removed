@@ -127,7 +127,7 @@ param
 settings
 The
 [
-SummarizationFeatureSettings
+SummarizationSettings
 ]
 to
 persist
@@ -260,6 +260,9 @@ getFeatureEnabledUserStatus
 first
 (
 )
+=
+=
+true
 isGestureEnabled
 =
 settings
