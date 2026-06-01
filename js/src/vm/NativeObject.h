@@ -9005,7 +9005,6 @@ toPrivate
 TraceBufferEdge
 (
 trc
-obj
 &
 buffer
 name

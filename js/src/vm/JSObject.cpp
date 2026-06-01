@@ -9915,9 +9915,6 @@ return
 true
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 key
@@ -9958,8 +9955,6 @@ return
 true
 ;
 }
-#
-endif
 if
 (
 key
@@ -16758,7 +16753,6 @@ slots
 TraceBufferEdge
 (
 trc
-nobj
 &
 slots
 "
@@ -16833,7 +16827,6 @@ numShiftedElements
 TraceBufferEdge
 (
 trc
-nobj
 &
 buffer
 "

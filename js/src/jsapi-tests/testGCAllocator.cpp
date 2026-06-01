@@ -2551,7 +2551,6 @@ buffer
 TraceBufferEdge
 (
 trc
-obj
 &
 buffer
 "
@@ -5405,7 +5404,6 @@ bufferp
 TraceBufferEdge
 (
 trc
-holder
 bufferp
 "
 test

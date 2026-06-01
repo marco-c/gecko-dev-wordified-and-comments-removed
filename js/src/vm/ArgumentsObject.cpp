@@ -5957,7 +5957,6 @@ buffer
 TraceBufferEdge
 (
 trc
-obj
 &
 buffer
 "
@@ -5976,7 +5975,6 @@ rareData
 TraceBufferEdge
 (
 trc
-obj
 &
 buffer
 -
