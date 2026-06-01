@@ -2630,6 +2630,8 @@ tests
 -
 cppunittest
 -
+crashtest
+-
 jittest
 -
 jsreftest

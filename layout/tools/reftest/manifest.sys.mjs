@@ -4161,6 +4161,14 @@ apple_silicon
 ;
 sandbox
 .
+macosVm
+=
+mozinfo
+.
+macos_vm
+;
+sandbox
+.
 os_version
 =
 mozinfo

@@ -474,6 +474,9 @@ skip
 if
 (
 Android
+|
+|
+macosVm
 )
 load
 1920264
@@ -484,3 +487,13 @@ No
 screenshare
 on
 Android
+;
+Bug
+2037084
+hangs
+on
+no
+-
+display
+macOS
+VMs
