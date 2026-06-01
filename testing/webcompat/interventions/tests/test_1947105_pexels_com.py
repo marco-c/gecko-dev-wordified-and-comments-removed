@@ -76,16 +76,6 @@ after
 open
 ]
 "
-COOKIES_CSS
-=
-"
-#
-onetrust
--
-banner
--
-sdk
-"
 async
 def
 check_popup
@@ -110,13 +100,6 @@ client
 navigate
 (
 URL
-)
-        
-client
-.
-hide_elements
-(
-COOKIES_CSS
 )
         
 client

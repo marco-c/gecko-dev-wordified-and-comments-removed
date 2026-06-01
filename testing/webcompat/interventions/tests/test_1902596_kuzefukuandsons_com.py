@@ -21,11 +21,11 @@ HERO_CSS
 =
 "
 .
-fa
+mp
 -
-cart
+account
 -
-shopping
+link
 "
 pytest
 .
