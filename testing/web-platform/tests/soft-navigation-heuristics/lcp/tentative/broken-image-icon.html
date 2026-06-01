@@ -502,7 +502,7 @@ target
 }
 const
 [
-softLcpEntries
+icpEntries
 softNavigationEntries
 ]
 =
@@ -596,7 +596,7 @@ entry
 .
 assert_equals
 (
-softLcpEntries
+icpEntries
 .
 length
 1
@@ -616,10 +616,12 @@ entry
 ;
 assert_true
 (
-softLcpEntries
+icpEntries
 [
 0
 ]
+.
+largestContentfulPaint
 .
 url
 .

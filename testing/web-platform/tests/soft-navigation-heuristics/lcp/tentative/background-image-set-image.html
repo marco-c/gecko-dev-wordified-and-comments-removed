@@ -417,7 +417,7 @@ button
 )
 ;
 const
-softLcpPromise
+icpPromise
 =
 new
 Promise
@@ -453,6 +453,13 @@ if
 (
 entry
 .
+largestContentfulPaint
+&
+&
+entry
+.
+largestContentfulPaint
+.
 url
 .
 includes
@@ -468,6 +475,8 @@ lcp
 resolve
 (
 entry
+.
+largestContentfulPaint
 .
 url
 )
@@ -524,7 +533,7 @@ helper
 .
 withTimeoutMessage
 (
-softLcpPromise
+icpPromise
 "
 Timed
 out
