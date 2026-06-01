@@ -13318,6 +13318,12 @@ Document
 aAllDocuments
 )
 ;
+bool
+IsAboutPage
+(
+)
+const
+;
 protected
 :
 WindowContext
@@ -13358,12 +13364,6 @@ nsISecurityConsoleMessage
 &
 aMessages
 )
-;
-bool
-IsAboutPage
-(
-)
-const
 ;
 bool
 ContainsEMEContent
