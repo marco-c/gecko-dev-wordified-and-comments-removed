@@ -1143,6 +1143,15 @@ lookupLargeBuffer
 void
 *
 alloc
+)
+;
+LargeBuffer
+*
+lookupLargeBuffer
+(
+void
+*
+alloc
 MaybeLock
 &
 lock

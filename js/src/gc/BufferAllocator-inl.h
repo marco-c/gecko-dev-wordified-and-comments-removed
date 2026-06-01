@@ -626,6 +626,7 @@ alloc
 }
 inline
 void
+*
 TraceBufferEdgeInternal
 (
 JSTracer
@@ -650,12 +651,11 @@ char
 name
 )
 {
-zone
--
->
-bufferAllocator
-.
-traceEdge
+return
+BufferAllocator
+:
+:
+TraceEdge
 (
 trc
 maybeOwner
