@@ -1221,13 +1221,6 @@ vertical
 .
 dp
 )
-color
-=
-MaterialTheme
-.
-colorScheme
-.
-tertiary
 )
 }
 }

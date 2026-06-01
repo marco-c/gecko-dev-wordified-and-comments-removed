@@ -1355,7 +1355,7 @@ MaterialTheme
 .
 colorScheme
 .
-onSurfaceVariant
+onSurface
 )
 }
 Composable

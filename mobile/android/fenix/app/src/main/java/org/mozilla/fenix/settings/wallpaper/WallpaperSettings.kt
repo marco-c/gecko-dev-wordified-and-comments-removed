@@ -1001,7 +1001,7 @@ MaterialTheme
 .
 colorScheme
 .
-onSurfaceVariant
+onSurface
 style
 =
 FirefoxTheme
@@ -1114,7 +1114,7 @@ MaterialTheme
 .
 colorScheme
 .
-onSurfaceVariant
+onSurface
 style
 =
 FirefoxTheme

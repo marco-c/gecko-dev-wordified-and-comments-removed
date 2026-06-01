@@ -602,7 +602,7 @@ MaterialTheme
 .
 colorScheme
 .
-onSurfaceVariant
+onSurface
 style
 =
 FirefoxTheme

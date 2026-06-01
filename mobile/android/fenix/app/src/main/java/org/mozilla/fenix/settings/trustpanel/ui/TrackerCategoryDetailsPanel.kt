@@ -426,7 +426,7 @@ MaterialTheme
 .
 colorScheme
 .
-tertiary
+onSurface
 style
 =
 FirefoxTheme

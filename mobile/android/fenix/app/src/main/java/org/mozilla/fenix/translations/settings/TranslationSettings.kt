@@ -824,7 +824,7 @@ MaterialTheme
 .
 colorScheme
 .
-tertiary
+onSurface
 .
 copy
 (

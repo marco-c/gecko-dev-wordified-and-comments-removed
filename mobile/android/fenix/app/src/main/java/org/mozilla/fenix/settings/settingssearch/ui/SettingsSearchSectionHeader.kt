@@ -240,7 +240,7 @@ MaterialTheme
 .
 colorScheme
 .
-onSurfaceVariant
+onSurface
 )
 }
 }

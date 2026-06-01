@@ -1353,7 +1353,7 @@ MaterialTheme
 .
 colorScheme
 .
-tertiary
+onSurface
 modifier
 =
 Modifier

@@ -1085,7 +1085,7 @@ MaterialTheme
 .
 colorScheme
 .
-onSurfaceVariant
+onSurface
 )
 TextButton
 (
