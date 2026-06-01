@@ -134,6 +134,11 @@ SearchBoxAutocompletePopup
 js
 "
 "
+SearchInput
+.
+js
+"
+"
 SearchModifiers
 .
 js
