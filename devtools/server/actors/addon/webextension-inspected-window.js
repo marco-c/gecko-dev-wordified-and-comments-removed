@@ -577,7 +577,9 @@ file
 )
 {
 return
-true
+extensionPolicy
+.
+fileSchemeAllowed
 ;
 }
 return
