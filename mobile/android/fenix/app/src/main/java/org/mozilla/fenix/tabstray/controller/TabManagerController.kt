@@ -3568,6 +3568,16 @@ NoExtras
 (
 )
 )
+TabsTray
+.
+tabLongPress
+.
+record
+(
+NoExtras
+(
+)
+)
 tabsTrayStore
 .
 dispatch
