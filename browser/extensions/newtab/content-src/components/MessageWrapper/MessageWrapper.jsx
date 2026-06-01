@@ -781,6 +781,7 @@ handleDismiss
 handleClick
 handleBlock
 handleClose
+dispatch
 }
 )
 }

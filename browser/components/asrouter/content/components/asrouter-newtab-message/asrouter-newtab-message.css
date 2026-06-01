@@ -75,7 +75,7 @@ background
 -
 color
 -
-canvas
+box
 )
 ;
 box
@@ -120,7 +120,7 @@ border
 -
 radius
 -
-medium
+large
 )
 ;
 position
@@ -461,11 +461,11 @@ img
 {
 width
 :
-116px
+98px
 ;
 height
 :
-116px
+98px
 ;
 }
 .
@@ -500,11 +500,11 @@ img
 {
 width
 :
-98px
+140px
 ;
 height
 :
-98px
+111px
 ;
 }
 }
