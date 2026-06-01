@@ -131,8 +131,10 @@ IsNSThread
 )
 const
 ;
+RefPtr
+<
 nsThread
-*
+>
 CreateCurrentThread
 (
 mozilla

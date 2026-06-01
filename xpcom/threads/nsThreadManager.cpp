@@ -2074,8 +2074,10 @@ nullptr
 )
 ;
 }
+RefPtr
+<
 nsThread
-*
+>
 nsThreadManager
 :
 :
@@ -2151,10 +2153,6 @@ nullptr
 }
 return
 thread
-.
-get
-(
-)
 ;
 }
 nsresult
