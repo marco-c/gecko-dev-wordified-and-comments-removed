@@ -52,6 +52,14 @@ is_displayed
 True
 )
     
+await
+client
+.
+stall
+(
+1
+)
+    
 return
 client
 .

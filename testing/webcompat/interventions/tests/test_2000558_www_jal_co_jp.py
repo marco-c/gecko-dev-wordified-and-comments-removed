@@ -79,6 +79,14 @@ click
 (
 )
     
+await
+client
+.
+stall
+(
+2
+)
+    
 return
 client
 .
