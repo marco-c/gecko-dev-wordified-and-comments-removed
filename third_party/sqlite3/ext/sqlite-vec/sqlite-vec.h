@@ -64,7 +64,7 @@ v0
 -
 alpha
 .
-3
+4
 "
 #
 define
@@ -72,13 +72,13 @@ SQLITE_VEC_DATE
 "
 2026
 -
-04
+05
 -
-01T06
+18T06
 :
-40
+53
 :
-47Z
+35Z
 +
 0000
 "
@@ -86,7 +86,7 @@ SQLITE_VEC_DATE
 define
 SQLITE_VEC_SOURCE
 "
-4e2dfcb79dcb961bdbaca11dfc91b5bfb9de4fd3
+04d28bd21773981e2d266bbf6aa4efbd011eb4f6
 "
 #
 define
