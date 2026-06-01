@@ -507,7 +507,7 @@ err
 {
 console
 .
-error
+warn
 (
 getScreenshot
 (
