@@ -32,10 +32,10 @@ RegExpMacroAssemblerTracer
 :
 RegExpMacroAssemblerTracer
 (
-std
+js
 :
 :
-unique_ptr
+UniquePtr
 <
 RegExpMacroAssembler
 >
