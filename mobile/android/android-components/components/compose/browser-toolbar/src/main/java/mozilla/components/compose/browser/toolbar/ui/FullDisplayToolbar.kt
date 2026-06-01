@@ -879,7 +879,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceDim
+surfaceContainerHighest
 shape
 =
 CircleShape

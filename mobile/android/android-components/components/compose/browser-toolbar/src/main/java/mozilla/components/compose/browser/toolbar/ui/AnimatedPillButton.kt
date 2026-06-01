@@ -841,12 +841,12 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceDim
+surfaceContainerHighest
 MaterialTheme
 .
 colorScheme
 .
-surfaceBright
+surfaceContainerLowest
 contractionProgress
 .
 value

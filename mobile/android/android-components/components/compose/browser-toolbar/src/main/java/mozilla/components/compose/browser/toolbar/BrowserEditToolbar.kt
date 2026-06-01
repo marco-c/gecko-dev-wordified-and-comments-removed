@@ -983,7 +983,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceDim
+surfaceContainerHighest
 )
 verticalAlignment
 =

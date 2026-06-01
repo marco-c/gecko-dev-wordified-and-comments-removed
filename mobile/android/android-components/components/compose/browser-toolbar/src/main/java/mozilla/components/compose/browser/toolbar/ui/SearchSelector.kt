@@ -854,7 +854,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceBright
+surfaceContainerLowest
 )
 elevation
 =
@@ -1074,7 +1074,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceDim
+surfaceContainerHighest
 )
 menu
 =

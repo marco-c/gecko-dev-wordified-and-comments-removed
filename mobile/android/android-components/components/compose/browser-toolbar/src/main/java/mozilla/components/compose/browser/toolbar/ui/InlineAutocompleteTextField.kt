@@ -3369,7 +3369,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceDim
+surfaceContainerHighest
 )
 )
 {
@@ -3441,7 +3441,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceDim
+surfaceContainerHighest
 )
 )
 {
