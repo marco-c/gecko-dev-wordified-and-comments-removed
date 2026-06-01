@@ -717,13 +717,11 @@ containerColor
 :
 Color
 =
-ButtonDefaults
+MaterialTheme
 .
-buttonColors
-(
-)
+colorScheme
 .
-containerColor
+tertiary
 icon
 :
 Painter
