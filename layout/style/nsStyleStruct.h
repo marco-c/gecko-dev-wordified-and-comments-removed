@@ -2710,6 +2710,12 @@ mBorderRadius
 mozilla
 :
 :
+StyleCornerShapeRect
+mCornerShape
+;
+mozilla
+:
+:
 StyleImage
 mBorderImageSource
 ;
