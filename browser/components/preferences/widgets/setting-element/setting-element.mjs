@@ -1477,15 +1477,6 @@ config
 .
 iconSrc
 "
-data
--
-subcategory
-"
-:
-config
-.
-subcategory
-"
 .
 supportPage
 "
