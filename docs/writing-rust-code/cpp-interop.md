@@ -493,11 +493,13 @@ generates
 Rust
 bindings
 .
-The
-documentation
-is
+See
+the
 [
-here
+rust
+-
+bindgen
+documentation
 ]
 (
 https

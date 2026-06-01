@@ -614,7 +614,6 @@ Firefox
 release
 date
 |
-|
 -
 -
 -
@@ -722,7 +721,6 @@ date
 -
 -
 -
-|
 |
 Firefox
 56
@@ -3421,7 +3419,6 @@ June
 Estimated
 *
 *
-|
 |
 Firefox
 153
