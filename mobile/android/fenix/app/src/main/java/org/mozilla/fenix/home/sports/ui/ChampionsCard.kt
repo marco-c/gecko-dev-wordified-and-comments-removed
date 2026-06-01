@@ -1195,7 +1195,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceBright
+surfaceContainerLowest
 shape
 =
 RoundedCornerShape

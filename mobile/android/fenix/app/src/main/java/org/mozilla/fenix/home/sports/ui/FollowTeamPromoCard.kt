@@ -607,7 +607,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceBright
+surfaceContainerLowest
 )
 )
 }

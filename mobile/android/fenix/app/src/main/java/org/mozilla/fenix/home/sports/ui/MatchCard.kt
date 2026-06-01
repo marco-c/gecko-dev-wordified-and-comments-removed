@@ -628,7 +628,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceBright
+surfaceContainerLowest
 )
 {
 Column
@@ -942,7 +942,7 @@ onRefresh
 (
 LiveMatchRefreshSource
 .
-LIVE_MATCH_ERROR_BUTTON
+LIVE_MATCH_CARD_ERROR_BUTTON
 )
 }
 )

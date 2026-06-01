@@ -1613,11 +1613,6 @@ sportsWidgetState
 isShown
 )
 {
-interactor
-.
-onSportsWidgetShown
-(
-)
 SportsWidget
 (
 sportsWidgetState
@@ -1699,6 +1694,12 @@ awayTeam
 date
 )
 }
+onCardShown
+=
+interactor
+:
+:
+onSportsWidgetCardShown
 )
 }
 MaybeAddSetupChecklist
