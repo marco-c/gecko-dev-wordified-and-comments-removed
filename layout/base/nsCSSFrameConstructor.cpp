@@ -25010,11 +25010,12 @@ Type
 }
 absPosCBCandidate
 =
-absPosCBCandidate
--
->
-FirstContinuation
+nsLayoutUtils
+:
+:
+FirstContinuationOrIBSplitSibling
 (
+absPosCBCandidate
 )
 ;
 if
