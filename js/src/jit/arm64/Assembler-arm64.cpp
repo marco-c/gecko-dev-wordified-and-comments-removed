@@ -566,6 +566,12 @@ BufferOffset
 )
 ;
 }
+AutoForbidNops
+afn
+(
+this
+)
+;
 armbuffer_
 .
 flushPool

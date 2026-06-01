@@ -9012,6 +9012,12 @@ JitCode
 c
 )
 {
+AutoForbidNops
+afn
+(
+this
+)
+;
 vixl
 :
 :
