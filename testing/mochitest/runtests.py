@@ -21061,6 +21061,10 @@ None
             
 if
 crashAsPass
+or
+crash_count
+>
+0
 :
                 
 if
@@ -21077,6 +21081,10 @@ expected
 CRASH
 "
                 
+if
+crashAsPass
+:
+                    
 status
 =
 0
