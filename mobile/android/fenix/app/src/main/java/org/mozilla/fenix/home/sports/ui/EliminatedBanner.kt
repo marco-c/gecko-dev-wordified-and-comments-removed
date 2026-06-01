@@ -253,18 +253,6 @@ button
 .
 TextButton
 import
-mozilla
-.
-components
-.
-compose
-.
-base
-.
-theme
-.
-AcornTheme
-import
 org
 .
 mozilla
@@ -478,7 +466,7 @@ padding
 (
 horizontal
 =
-AcornTheme
+FirefoxTheme
 .
 layout
 .
@@ -520,7 +508,7 @@ Modifier
 .
 width
 (
-AcornTheme
+FirefoxTheme
 .
 layout
 .
