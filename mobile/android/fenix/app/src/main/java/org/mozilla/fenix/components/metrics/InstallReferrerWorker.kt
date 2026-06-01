@@ -1695,9 +1695,10 @@ MetaParams
 if
 (
 contentString
-=
-=
-null
+.
+isNullOrBlank
+(
+)
 )
 {
 return
