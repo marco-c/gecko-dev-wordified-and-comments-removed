@@ -1181,8 +1181,9 @@ FRAMEBUSTING_PARENT_URI
 )
 sessionRule
 .
-waitForPageStop
+waitForPageStops
 (
+2
 )
 mainSession
 .
