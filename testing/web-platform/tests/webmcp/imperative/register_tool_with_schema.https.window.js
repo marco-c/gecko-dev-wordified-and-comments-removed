@@ -90,7 +90,7 @@ AbortController
 (
 )
 ;
-navigator
+document
 .
 modelContext
 .
@@ -129,7 +129,7 @@ test
 =
 >
 {
-navigator
+document
 .
 modelContext
 .

@@ -26,7 +26,7 @@ expectedError
 =
 >
 {
-navigator
+document
 .
 modelContext
 .
@@ -189,7 +189,7 @@ TypeError
 =
 >
 {
-navigator
+document
 .
 modelContext
 .
