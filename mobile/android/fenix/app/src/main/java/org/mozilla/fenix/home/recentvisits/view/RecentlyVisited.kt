@@ -675,7 +675,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerLowest
+surfaceBright
 onRecentVisitClick
 :
 (

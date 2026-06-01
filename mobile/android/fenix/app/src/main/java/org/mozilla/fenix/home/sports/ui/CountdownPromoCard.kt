@@ -584,7 +584,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerLowest
+surfaceBright
 shape
 =
 MaterialTheme

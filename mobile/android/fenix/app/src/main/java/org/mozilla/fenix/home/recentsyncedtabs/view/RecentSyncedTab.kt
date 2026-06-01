@@ -713,7 +713,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerLowest
+surfaceBright
 buttonBackgroundColor
 :
 Color

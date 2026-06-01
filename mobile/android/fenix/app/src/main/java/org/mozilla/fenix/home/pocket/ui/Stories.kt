@@ -1176,7 +1176,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerLowest
+surfaceBright
 onStoryShown
 :
 (

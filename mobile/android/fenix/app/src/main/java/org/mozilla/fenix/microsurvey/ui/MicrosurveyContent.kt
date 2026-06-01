@@ -521,7 +521,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerLowest
+surfaceBright
 selectedAnswer
 :
 String

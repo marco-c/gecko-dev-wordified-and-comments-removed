@@ -677,7 +677,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerLowest
+surfaceBright
 messageTextColor
 =
 MaterialTheme
