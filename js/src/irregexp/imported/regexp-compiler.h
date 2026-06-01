@@ -22,6 +22,15 @@ nodes
 .
 h
 "
+#
+include
+"
+irregexp
+/
+RegExpShim
+.
+h
+"
 namespace
 v8
 {
