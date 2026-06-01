@@ -1359,7 +1359,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerLowest
+surfaceBright
 )
 .
 fillMaxWidth
@@ -1745,7 +1745,7 @@ MaterialTheme
 .
 colorScheme
 .
-secondary
+onSurfaceVariant
 expanded
 =
 expanded
@@ -2055,7 +2055,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerLowest
+surfaceBright
 )
 )
 {
