@@ -583,6 +583,9 @@ span_context_
 ;
 bool
 has_ended_
+{
+false
+}
 ;
 }
 ;

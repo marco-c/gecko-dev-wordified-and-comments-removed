@@ -274,8 +274,13 @@ v
 )
 ;
 }
+std
+:
+:
+reference_wrapper
+<
 size_t
-&
+>
 seed_
 ;
 }

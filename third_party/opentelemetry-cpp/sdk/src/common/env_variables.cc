@@ -898,7 +898,7 @@ std
 chrono
 :
 :
-seconds
+milliseconds
 {
 result
 }

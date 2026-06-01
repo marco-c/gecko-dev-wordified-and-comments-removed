@@ -557,8 +557,8 @@ inline
 auto
 find_heterogeneous
 (
+const
 MapType
-&
 &
 map
 opentelemetry
