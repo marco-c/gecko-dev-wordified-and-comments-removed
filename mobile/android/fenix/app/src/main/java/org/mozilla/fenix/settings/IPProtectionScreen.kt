@@ -1090,6 +1090,10 @@ ip_protection_data_limit_reached_description
 state
 .
 maxDataGb
+.
+toInt
+(
+)
 )
 style
 =
