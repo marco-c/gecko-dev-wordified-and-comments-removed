@@ -279,6 +279,13 @@ py
 ]
 [
 "
+test_rumdl
+.
+py
+"
+]
+[
+"
 test_rustfmt
 .
 py

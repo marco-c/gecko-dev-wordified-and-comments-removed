@@ -170,6 +170,16 @@ ruff
 15
 pypi
 :
+rumdl
+=
+=
+0
+.
+1
+.
+91
+pypi
+:
 snowballstemmer
 =
 =
