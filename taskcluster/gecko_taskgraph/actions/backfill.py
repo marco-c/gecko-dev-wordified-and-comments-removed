@@ -1796,6 +1796,25 @@ graph
 else
 :
         
+if
+label
++
+"
+-
+1
+"
+in
+tasks
+:
+            
+return
+label
++
+"
+-
+1
+"
+        
 raise
 Exception
 (
