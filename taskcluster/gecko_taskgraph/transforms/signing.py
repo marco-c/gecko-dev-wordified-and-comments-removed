@@ -1266,8 +1266,6 @@ endswith
 (
 "
 -
-mac
--
 notarization
 "
 )
