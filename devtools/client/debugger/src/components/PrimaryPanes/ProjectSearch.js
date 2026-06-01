@@ -587,6 +587,11 @@ PropTypes
 func
 .
 isRequired
+navigateCounter
+:
+PropTypes
+.
+number
 }
 ;
 }
