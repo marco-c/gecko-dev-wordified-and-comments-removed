@@ -193,6 +193,7 @@ updateEntitlement
 const
 {
 entitlement
+error
 }
 =
 await
@@ -202,6 +203,12 @@ getEntitlement
 (
 )
 ;
+if
+(
+!
+error
+)
+{
 this
 .
 _setEntitlement
@@ -212,6 +219,7 @@ entitlement
 null
 )
 ;
+}
 lazy
 .
 IPProtectionService
