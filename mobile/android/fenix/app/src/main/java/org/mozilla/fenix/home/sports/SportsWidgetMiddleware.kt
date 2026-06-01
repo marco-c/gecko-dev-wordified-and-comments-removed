@@ -827,6 +827,10 @@ awayTeam
 )
 }
 .
+filterNotNull
+(
+)
+.
 filter
 {
 it
@@ -1432,6 +1436,7 @@ code
 match
 .
 homeTeam
+?
 .
 key
 -
@@ -1442,6 +1447,7 @@ homeTeam
 match
 .
 awayTeam
+?
 .
 key
 -
@@ -1554,6 +1560,7 @@ match
 match
 .
 homeTeam
+?
 .
 key
 in
@@ -1563,6 +1570,7 @@ codes
 match
 .
 awayTeam
+?
 .
 key
 in
