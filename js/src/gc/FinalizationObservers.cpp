@@ -3827,7 +3827,7 @@ oldTarget
 weakRef
 -
 >
-setTargetUnbarriered
+setTarget
 (
 newTarget
 )

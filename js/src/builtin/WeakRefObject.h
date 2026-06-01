@@ -63,6 +63,13 @@ target
 )
 ;
 void
+setTarget
+(
+Value
+target
+)
+;
+void
 setTargetUnbarriered
 (
 Value

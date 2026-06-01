@@ -50642,6 +50642,17 @@ return
 true
 ;
 }
+bool
+canNurseryAllocate
+(
+)
+const
+override
+{
+return
+true
+;
+}
 static
 JSObject
 *
