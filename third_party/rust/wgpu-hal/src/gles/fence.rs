@@ -670,15 +670,6 @@ false
 ;
 }
 ;
-debug_assert_eq
-!
-(
-gl_fence
-.
-value
-wait_value
-)
-;
 let
 status
 =
@@ -776,7 +767,9 @@ last_completed
 .
 fetch_max
 (
-wait_value
+gl_fence
+.
+value
 Ordering
 :
 :

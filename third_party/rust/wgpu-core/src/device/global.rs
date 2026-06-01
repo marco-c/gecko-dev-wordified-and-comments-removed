@@ -1846,6 +1846,12 @@ resource
 :
 :
 TextureDescriptor
+initial_state
+:
+wgt
+:
+:
+TextureUses
 id_in
 :
 Option
@@ -1937,6 +1943,7 @@ create_texture_from_hal
 (
 hal_texture
 desc
+initial_state
 )
 {
 Ok
