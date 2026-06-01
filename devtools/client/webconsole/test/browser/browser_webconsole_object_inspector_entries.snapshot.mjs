@@ -7191,6 +7191,16 @@ parentNode
 null
 "
 "
+pictureInPictureElement
+:
+null
+"
+"
+pictureInPictureEnabled
+:
+true
+"
+"
 plugins
 :
 HTMLCollection

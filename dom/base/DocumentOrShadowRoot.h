@@ -446,6 +446,13 @@ const
 ;
 Element
 *
+GetPictureInPictureElement
+(
+)
+const
+;
+Element
+*
 ElementFromPoint
 (
 float
