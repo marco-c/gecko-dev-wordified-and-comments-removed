@@ -462,6 +462,13 @@ js
 ]
 [
 "
+browser_html_detail_permissions_file_access
+.
+js
+"
+]
+[
+"
 browser_html_detail_permissions_userScripts
 .
 js
