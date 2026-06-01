@@ -12469,8 +12469,6 @@ contextCreated
 .
 this
 .
-messageHandler
-.
 emitEvent
 (
 "
