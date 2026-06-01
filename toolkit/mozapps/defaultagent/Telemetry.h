@@ -55,6 +55,13 @@ NotificationActivities
 activitiesPerformed
 uint32_t
 daysSinceLastAppLaunch
+const
+std
+:
+:
+string
+&
+isTaskbarPinned
 )
 ;
 }
