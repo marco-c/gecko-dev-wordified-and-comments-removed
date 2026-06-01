@@ -252,6 +252,7 @@ AttemptConnection
 {
 id
 endpoint
+is_ech_retry
 }
 =
 >
