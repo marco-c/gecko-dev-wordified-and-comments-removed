@@ -439,7 +439,11 @@ usual
 cpp
 __FILE__
 and
-__LINE__
+*
+*
+LINE
+*
+*
 number
 macro
 expansion

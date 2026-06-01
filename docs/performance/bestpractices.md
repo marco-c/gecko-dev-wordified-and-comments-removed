@@ -4873,7 +4873,6 @@ Don
 t
 guess
 measure
-.
 If
 you
 re

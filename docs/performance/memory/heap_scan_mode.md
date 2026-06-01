@@ -1944,7 +1944,6 @@ the
 leaking
 object
 alive
-.
 Now
 we
 need

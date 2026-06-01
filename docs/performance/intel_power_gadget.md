@@ -433,14 +433,11 @@ different
 browsers
 .
 (
-An
+See
+the
+[
 energia
 dashboard
-can
-be
-seen
-[
-here
 ]
 (
 http

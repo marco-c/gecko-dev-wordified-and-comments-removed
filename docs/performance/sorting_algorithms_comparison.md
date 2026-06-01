@@ -506,10 +506,9 @@ can
 try
 out
 the
+[
 example
 program
-[
-here
 ]
 (
 https
@@ -541,9 +540,9 @@ html
 and
 clone
 the
-code
 [
-here
+source
+code
 ]
 (
 https
