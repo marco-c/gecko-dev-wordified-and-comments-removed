@@ -974,6 +974,10 @@ BaselineStub
 FrameType
 :
 :
+IonICCall
+FrameType
+:
+:
 CppToJSJit
 FrameType
 :
@@ -1048,6 +1052,10 @@ FrameType
 :
 :
 IonICCall
+FrameType
+:
+:
+TrampolineNative
 }
 )
 ;
