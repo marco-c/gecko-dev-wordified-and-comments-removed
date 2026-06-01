@@ -6632,6 +6632,12 @@ return
 kEndOfJumpChain
 ;
 }
+AutoForbidNops
+afn
+(
+this
+)
+;
 BufferOffset
 next_instr_offset
 =
@@ -7069,6 +7075,12 @@ return
 kEndOfJumpChain
 ;
 }
+AutoForbidNops
+afn
+(
+this
+)
+;
 BufferOffset
 next_instr_offset
 =
