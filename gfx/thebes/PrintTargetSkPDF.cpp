@@ -356,6 +356,7 @@ Make
 (
 sk_sp
 <
+const
 SkData
 >
 aData
@@ -547,14 +548,6 @@ height
 color
 alpha
 8
-8
-nullptr
-skhdr
-:
-:
-Metadata
-{
-}
 )
 ;
 return
@@ -652,6 +645,7 @@ SkEncodedInfo
 aInfo
 sk_sp
 <
+const
 SkData
 >
 aData
@@ -708,6 +702,7 @@ aSurface
 }
 sk_sp
 <
+const
 SkData
 >
 mData
@@ -735,6 +730,7 @@ DecodeJpeg
 (
 sk_sp
 <
+const
 SkData
 >
 aData
