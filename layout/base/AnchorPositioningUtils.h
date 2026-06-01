@@ -1107,7 +1107,7 @@ nsIFrame
 *
 aAnchor
 bool
-aCBRectIsvalid
+aCBRectIsValid
 )
 ;
 static
@@ -1130,7 +1130,7 @@ ScopedNameRef
 &
 aAnchorName
 bool
-aCBRectIsvalid
+aCBRectIsValid
 AnchorPosResolutionCache
 *
 aResolutionCache
