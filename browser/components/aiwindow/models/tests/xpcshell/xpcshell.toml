@@ -108,6 +108,13 @@ js
 ]
 [
 "
+test_MemoriesSessions
+.
+js
+"
+]
+[
+"
 test_PromptOptimizer
 .
 js
@@ -137,6 +144,13 @@ js
 [
 "
 test_SensitiveInfoDetector
+.
+js
+"
+]
+[
+"
+test_TelemetryUtils
 .
 js
 "
