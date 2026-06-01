@@ -338,7 +338,13 @@ aOutput
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 cert
+)
 )
 ;
 }
