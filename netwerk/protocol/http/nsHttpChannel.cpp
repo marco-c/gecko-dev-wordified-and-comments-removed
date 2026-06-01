@@ -50893,7 +50893,16 @@ StoreOnStopRequestCalled
 true
 )
 ;
+nsCOMPtr
+<
+nsIStreamListener
+>
+listener
+(
 mListener
+)
+;
+listener
 -
 >
 OnStopRequest
