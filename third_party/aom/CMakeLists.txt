@@ -264,9 +264,9 @@ CXX
 VERSION
 3
 .
-13
+14
 .
-2
+0
 )
 #
 GENERATED
@@ -504,17 +504,17 @@ are
 set
 (
 LT_CURRENT
-16
+17
 )
 set
 (
 LT_REVISION
-2
+0
 )
 set
 (
 LT_AGE
-13
+14
 )
 math
 (
@@ -586,8 +586,6 @@ include
 {
 AOM_ROOT
 }
-/
-build
 /
 cmake
 /
@@ -708,8 +706,6 @@ include
 AOM_ROOT
 }
 /
-build
-/
 cmake
 /
 aom_install
@@ -724,8 +720,6 @@ include
 AOM_ROOT
 }
 /
-build
-/
 cmake
 /
 sanitizers
@@ -739,8 +733,6 @@ include
 {
 AOM_ROOT
 }
-/
-build
 /
 cmake
 /
@@ -874,8 +866,6 @@ c
 {
 AOM_ROOT
 }
-/
-build
 /
 cmake
 /
@@ -2421,8 +2411,6 @@ P
 AOM_ROOT
 }
 /
-build
-/
 cmake
 /
 version
@@ -2475,8 +2463,6 @@ P
 {
 AOM_ROOT
 }
-/
-build
 /
 cmake
 /
@@ -2561,8 +2547,6 @@ P
 {
 AOM_ROOT
 }
-/
-build
 /
 cmake
 /
@@ -7289,8 +7273,6 @@ include
 AOM_ROOT
 }
 /
-build
-/
 cmake
 /
 exports
@@ -7836,8 +7818,6 @@ P
 {
 AOM_ROOT
 }
-/
-build
 /
 cmake
 /

@@ -57,6 +57,8 @@ aom_rb_read_bit
 text
 aom_rb_read_literal
 text
+aom_rb_read_unsigned_literal
+text
 aom_rb_read_uvlc
 text
 aom_uleb_decode

@@ -1514,6 +1514,9 @@ skip_non_sq_part_based_on_none
 int
 disable_8x8_part_based_on_qidx
 ;
+bool
+prune_h_or_v_4part_using_sms_info
+;
 int
 split_partition_penalty_level
 ;
@@ -1776,6 +1779,9 @@ bias_obmc_mode_rd_scale_pct
 int
 skip_cmp_using_top_cmp_avg_est_rd_lvl
 ;
+int
+skip_interinter_wedge_search_based_on_mse
+;
 }
 INTER_MODE_SPEED_FEATURES
 ;
@@ -1806,6 +1812,9 @@ skip_interp_filter_search
 ;
 int
 use_more_sharp_interp
+;
+int
+skip_model_rd_uv
 ;
 }
 INTERP_FILTER_SPEED_FEATURES
@@ -1923,6 +1932,9 @@ use_rd_based_breakout_for_intra_tx_search
 int
 prune_inter_tx_split_rd_eval_lvl
 ;
+int
+use_chroma_trellis_rd_mult
+;
 }
 TX_SPEED_FEATURES
 ;
@@ -2006,6 +2018,9 @@ cdef_pick_method
 ;
 bool
 zero_low_cdef_strengths
+;
+int
+adaptive_cdef_mode
 ;
 int
 dual_sgr_penalty_level

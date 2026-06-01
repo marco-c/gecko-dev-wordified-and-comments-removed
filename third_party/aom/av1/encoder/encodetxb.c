@@ -1860,7 +1860,7 @@ int16_t
 const
 scan
 const
-uint16_t
+int
 eob
 const
 TX_SIZE

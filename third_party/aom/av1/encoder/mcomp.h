@@ -448,8 +448,6 @@ NSTEP_8PT
 CLAMPED_DIAMOND
 HEX
 BIGDIA
-SQUARE
-HEX
 BIGDIA
 BIGDIA
 BIGDIA
@@ -875,7 +873,9 @@ src
 int
 bwl
 int
-search_size
+search_size_top
+int
+search_size_bottom
 int
 full_search
 int
@@ -913,6 +913,10 @@ int
 me_search_size_col
 int
 me_search_size_row
+int
+is_var_part
+int
+use_larger_search
 )
 ;
 int

@@ -4347,6 +4347,14 @@ bufR
 -
 max_buf
 ;
+#
+if
+HWY_COMPILER_CLANG
+&
+&
+HWY_COMPILER_CLANG
+<
+1600
 detail
 :
 :
@@ -4367,6 +4375,8 @@ max_buf
 numWrittenR
 )
 ;
+#
+endif
 writeR
 =
 num

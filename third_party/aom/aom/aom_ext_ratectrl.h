@@ -17,7 +17,7 @@ endif
 #
 include
 "
-.
+aom
 /
 aom_integer
 .
@@ -26,7 +26,7 @@ h
 #
 include
 "
-.
+aom
 /
 aom_tpl
 .

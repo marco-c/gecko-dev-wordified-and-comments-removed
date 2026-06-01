@@ -7,7 +7,7 @@ AOM_AOM_AOM_TPL_H_
 #
 include
 "
-.
+aom
 /
 aom_integer
 .

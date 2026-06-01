@@ -7522,6 +7522,13 @@ cpi
 cpi
 -
 >
+cb_delta_rdmult_enabled
+=
+0
+;
+cpi
+-
+>
 skip_tpl_setup_stats
 =
 0

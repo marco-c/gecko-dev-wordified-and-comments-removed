@@ -694,6 +694,9 @@ enable_low_complexity_decode
 arg_def_t
 screen_detection_mode
 ;
+arg_def_t
+validate_hbd_input
+;
 #
 endif
 }
