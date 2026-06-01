@@ -1612,9 +1612,6 @@ first
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 static
 JSLinearString
 *
@@ -1734,8 +1731,6 @@ return
 fw
 ;
 }
-#
-endif
 static
 bool
 ApplyOptionsToTag
@@ -3396,9 +3391,6 @@ false
 ;
 }
 }
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 JS
@@ -3511,8 +3503,6 @@ false
 }
 }
 }
-#
-endif
 static
 constexpr
 auto
@@ -4351,9 +4341,6 @@ return
 true
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 struct
 UnicodeValue
 {
@@ -4792,8 +4779,6 @@ length
 )
 ;
 }
-#
-endif
 struct
 BaseNamePartsResult
 {
@@ -5887,9 +5872,6 @@ length
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 static
 ArrayObject
 *
@@ -8886,8 +8868,6 @@ return
 true
 ;
 }
-#
-endif
 static
 bool
 Locale_maximize
@@ -9768,9 +9748,6 @@ args
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 static
 bool
 Locale_firstDayOfWeek
@@ -9869,8 +9846,6 @@ args
 )
 ;
 }
-#
-endif
 static
 bool
 Locale_hourCycle
@@ -10978,9 +10953,6 @@ return
 true
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 static
 bool
 Locale_getCalendars
@@ -12046,8 +12018,6 @@ args
 )
 ;
 }
-#
-endif
 static
 const
 JSFunctionSpec
@@ -12092,9 +12062,6 @@ Locale_toSource
 0
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_FN
 (
 "
@@ -12158,8 +12125,6 @@ Locale_getWeekInfo
 0
 0
 )
-#
-endif
 JS_FS_END
 }
 ;
@@ -12203,9 +12168,6 @@ collation
 Locale_collation
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_PSG
 (
 "
@@ -12214,8 +12176,6 @@ firstDayOfWeek
 Locale_firstDayOfWeek
 0
 )
-#
-endif
 JS_PSG
 (
 "
