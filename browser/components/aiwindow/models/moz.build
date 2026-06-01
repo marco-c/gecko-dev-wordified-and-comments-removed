@@ -181,6 +181,13 @@ sys
 mjs
 "
 "
+TelemetryManager
+.
+sys
+.
+mjs
+"
+"
 TelemetryUtils
 .
 sys

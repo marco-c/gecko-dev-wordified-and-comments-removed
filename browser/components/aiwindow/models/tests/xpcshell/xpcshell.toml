@@ -150,6 +150,13 @@ js
 ]
 [
 "
+test_TelemetryManager
+.
+js
+"
+]
+[
+"
 test_TelemetryUtils
 .
 js
