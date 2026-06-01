@@ -524,9 +524,6 @@ setupPreferences
 isSummarizationEnabled
 =
 isFeatureEnabled
-?
-:
-false
 isSummarizationGestureEnabled
 =
 isGestureEnabled
