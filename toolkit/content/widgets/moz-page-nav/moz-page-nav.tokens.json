@@ -177,7 +177,15 @@ value
 "
 :
 "
-64px
+{
+page
+.
+space
+.
+block
+.
+start
+}
 "
 }
 }
