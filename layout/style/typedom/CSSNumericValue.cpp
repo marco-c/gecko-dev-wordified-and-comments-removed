@@ -694,6 +694,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 auto
 styleNumericValueResult
@@ -860,6 +861,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 aRv
 .

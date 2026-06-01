@@ -357,6 +357,7 @@ ErrorResult
 &
 aRv
 )
+const
 ;
 already_AddRefed
 <
@@ -375,6 +376,7 @@ ErrorResult
 &
 aRv
 )
+const
 ;
 void
 Type

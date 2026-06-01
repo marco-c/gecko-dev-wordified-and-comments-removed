@@ -77,9 +77,15 @@ org
 web
 -
 animations
+-
+2
 /
 #
+the
+-
 animationplaybackevent
+-
+interface
 *
 *
 Copyright
@@ -130,7 +136,7 @@ eventInitDict
 ;
 readonly
 attribute
-double
+CSSNumberish
 ?
 currentTime
 ;
@@ -147,7 +153,7 @@ AnimationPlaybackEventInit
 :
 EventInit
 {
-double
+CSSNumberish
 ?
 currentTime
 =
