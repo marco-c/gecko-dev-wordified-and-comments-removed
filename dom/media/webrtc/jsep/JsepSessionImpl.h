@@ -1303,7 +1303,7 @@ Maybe
 <
 JsepTransceiver
 >
-FindUnassociatedTransceiver
+FindUnassociatedRtpTransceiver
 (
 SdpMediaSection
 :
