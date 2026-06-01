@@ -9430,6 +9430,15 @@ transceiver
 )
 ;
 }
+if
+(
+msection
+.
+IsReceiving
+(
+)
+)
+{
 transceiver
 =
 FindUnassociatedTransceiver
@@ -9464,6 +9473,7 @@ transceiver
 return
 transceiver
 ;
+}
 }
 JsepTransceiver
 newTransceiver
