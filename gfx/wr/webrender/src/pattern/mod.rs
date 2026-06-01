@@ -154,6 +154,15 @@ Mask
 BoxShadow
 =
 4
+TextureExternal
+=
+5
+TextureExternalBT709
+=
+6
+TextureRect
+=
+7
 }
 pub
 const
@@ -161,7 +170,7 @@ NUM_PATTERNS
 :
 u32
 =
-5
+8
 ;
 impl
 PatternKind
