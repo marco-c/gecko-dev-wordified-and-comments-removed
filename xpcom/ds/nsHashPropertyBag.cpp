@@ -1460,12 +1460,13 @@ NS_IsMainThread
 )
 {
 RefPtr
-runnable
-=
-MakeRefPtr
 <
 ProxyHashtableDestructor
 >
+runnable
+=
+new
+ProxyHashtableDestructor
 (
 std
 :

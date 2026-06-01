@@ -7177,12 +7177,13 @@ _ns
 logPath
 ;
 RefPtr
-log
-=
-MakeRefPtr
 <
 LogStringMessageAsync
 >
+log
+=
+new
+LogStringMessageAsync
 (
 msg
 )

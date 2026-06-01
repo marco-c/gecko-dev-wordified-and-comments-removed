@@ -125,12 +125,13 @@ didRun
 false
 ;
 RefPtr
-syncWithThread
-=
-MakeRefPtr
 <
 SyncRunnable
 >
+syncWithThread
+=
+new
+SyncRunnable
 (
 NS_NewRunnableFunction
 (
