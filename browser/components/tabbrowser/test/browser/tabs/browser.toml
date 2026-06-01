@@ -4597,6 +4597,13 @@ js
 ]
 [
 "
+browser_tab_splitview_resize
+.
+js
+"
+]
+[
+"
 browser_tab_splitview_splitter_keyboard
 .
 js
