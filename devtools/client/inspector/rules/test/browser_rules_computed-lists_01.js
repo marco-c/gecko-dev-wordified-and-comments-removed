@@ -395,11 +395,9 @@ view
 once
 (
 "
-property
+ruleview
 -
-value
--
-updated
+changed
 "
 )
 ;
@@ -526,11 +524,9 @@ view
 once
 (
 "
-property
+ruleview
 -
-value
--
-updated
+changed
 "
 )
 ;

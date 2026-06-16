@@ -294,6 +294,11 @@ setProperty
 ruleView
 prop
 newValue
+{
+flushCount
+:
+2
+}
 )
 ;
 await
@@ -342,6 +347,11 @@ setProperty
 ruleView
 prop
 newValue
+{
+flushCount
+:
+2
+}
 )
 ;
 await

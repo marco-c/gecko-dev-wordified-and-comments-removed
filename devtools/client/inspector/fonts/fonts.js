@@ -4415,7 +4415,7 @@ textProperty
 .
 rule
 .
-setPropertyValue
+previewPropertyValue
 (
 textProperty
 value

@@ -328,13 +328,6 @@ flush
 await
 onPreviewDone
 ;
-if
-(
-data
-.
-escape
-)
-{
 const
 onValueDone
 =
@@ -349,6 +342,13 @@ changed
 "
 )
 ;
+if
+(
+data
+.
+escape
+)
+{
 await
 waitFor
 (
@@ -429,9 +429,6 @@ KEY_Escape
 "
 )
 ;
-await
-onValueDone
-;
 }
 else
 {
@@ -445,6 +442,9 @@ KEY_Enter
 )
 ;
 }
+await
+onValueDone
+;
 is
 (
 await
