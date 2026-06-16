@@ -685,10 +685,9 @@ SetupExtraData
 nsIFile
 *
 aAppDataDirectory
-const
-nsACString
-&
-aBuildID
+nsIFile
+*
+aXreDirectory
 )
 ;
 nsresult
