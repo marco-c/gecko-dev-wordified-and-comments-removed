@@ -947,6 +947,12 @@ iceState
 DOMString
 selectedCandidatePairId
 ;
+DOMString
+tlsVersion
+;
+DOMString
+dtlsCipher
+;
 RTCDtlsRole
 dtlsRole
 ;

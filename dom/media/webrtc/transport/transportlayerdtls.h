@@ -399,6 +399,15 @@ cipherSuite
 const
 ;
 nsresult
+GetChannelInfo
+(
+SSLChannelInfo
+*
+info
+)
+const
+;
+nsresult
 SetSrtpCiphers
 (
 const
