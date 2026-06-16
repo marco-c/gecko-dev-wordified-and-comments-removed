@@ -702,7 +702,7 @@ transport_lookup
 )
 ;
 RTCError
-SetChannel
+SetChannelForTest
 (
 std
 :

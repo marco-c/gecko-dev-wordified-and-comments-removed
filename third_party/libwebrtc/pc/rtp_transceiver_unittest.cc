@@ -926,7 +926,7 @@ Times
 transceiver
 -
 >
-SetChannel
+SetChannelForTest
 (
 std
 :
@@ -1130,7 +1130,7 @@ HasChannel
 transceiver
 -
 >
-SetChannel
+SetChannelForTest
 (
 std
 :
@@ -1345,7 +1345,7 @@ Times
 transceiver
 -
 >
-SetChannel
+SetChannelForTest
 (
 std
 :
@@ -1756,7 +1756,7 @@ result
 transceiver
 -
 >
-SetChannel
+SetChannelForTest
 (
 std
 :
@@ -5259,7 +5259,7 @@ Times
 transceiver_
 -
 >
-SetChannel
+SetChannelForTest
 (
 std
 :
@@ -5652,7 +5652,7 @@ description
 transceiver_
 -
 >
-SetChannel
+SetChannelForTest
 (
 std
 :
@@ -6045,7 +6045,7 @@ description
 transceiver_
 -
 >
-SetChannel
+SetChannelForTest
 (
 std
 :
@@ -6395,7 +6395,7 @@ Times
 transceiver_
 -
 >
-SetChannel
+SetChannelForTest
 (
 std
 :
