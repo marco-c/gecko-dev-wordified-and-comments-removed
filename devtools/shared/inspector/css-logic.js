@@ -3238,11 +3238,6 @@ selector
 -
 button
 "
-"
-:
-:
-picker
-"
 ]
 )
 ;

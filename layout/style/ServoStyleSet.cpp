@@ -4050,15 +4050,6 @@ PseudoStyleType
 :
 :
 Checkmark
-|
-|
-type
-=
-=
-PseudoStyleType
-:
-:
-PickerIcon
 )
 {
 if
