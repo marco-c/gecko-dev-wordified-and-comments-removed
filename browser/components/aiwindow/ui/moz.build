@@ -205,6 +205,15 @@ mjs
 "
 modules
 /
+AIWindowTelemetry
+.
+sys
+.
+mjs
+"
+"
+modules
+/
 AIWindowUI
 .
 sys
