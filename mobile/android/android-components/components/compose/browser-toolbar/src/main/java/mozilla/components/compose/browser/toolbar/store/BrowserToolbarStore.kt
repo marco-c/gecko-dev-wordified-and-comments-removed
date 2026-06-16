@@ -454,9 +454,6 @@ BrowserToolbarQuery
 queryWasPrefilled
 =
 false
-suggestion
-=
-null
 )
 )
 is
