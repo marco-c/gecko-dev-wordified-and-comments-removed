@@ -1356,17 +1356,36 @@ gen
 gn_out
 =
 {
+        
 "
 targets
 "
 :
 {
 }
+        
 "
 sandbox_vars
 "
 :
 sandbox_vars
+        
+"
+gen_input_files
+"
+:
+gn_result
+[
+"
+build_settings
+"
+]
+[
+"
+gen_input_files
+"
+]
+    
 }
     
 cpus
@@ -1620,6 +1639,10 @@ type
                 
 "
 args
+"
+                
+"
+inputs
 "
                 
 "
