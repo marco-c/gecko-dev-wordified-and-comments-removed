@@ -1624,6 +1624,11 @@ Clear
 )
 ;
 void
+ClearAndRetainStorage
+(
+)
+;
+void
 ClearAndPrepareForLength
 (
 uint32_t
