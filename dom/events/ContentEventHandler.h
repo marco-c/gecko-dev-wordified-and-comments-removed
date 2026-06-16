@@ -1200,10 +1200,6 @@ aRootElement
 uint32_t
 *
 aLength
-bool
-aIsRemovingNode
-=
-false
 )
 ;
 static
