@@ -1061,9 +1061,7 @@ sourceId
 =
 removedActor
 .
-sourceObject
-.
-id
+source
 ;
 const
 actorsForSource
@@ -1211,9 +1209,7 @@ sourceId
 =
 sourceActor
 .
-sourceObject
-.
-id
+source
 ;
 const
 existing
