@@ -22353,6 +22353,14 @@ mDocumentURI
 =
 aURI
 ;
+if
+(
+!
+IsLoadedAsData
+(
+)
+)
+{
 nsTArray
 <
 TextDirective
@@ -22401,6 +22409,7 @@ textDirectives
 )
 )
 ;
+}
 nsIURI
 *
 newBase
