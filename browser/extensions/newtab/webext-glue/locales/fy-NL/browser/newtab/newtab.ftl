@@ -11426,8 +11426,7 @@ extra
 -
 time
 =
-Ekstra
-tiid
+Ferlinging
 newtab
 -
 sports
