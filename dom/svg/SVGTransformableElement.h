@@ -88,8 +88,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 :

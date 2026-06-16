@@ -137,8 +137,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 ;
@@ -169,8 +167,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 \
 FromParser
@@ -236,8 +232,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 ;
@@ -404,8 +398,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 FromParser
 aFromParser
@@ -567,8 +559,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 FromParser
 aFromParser

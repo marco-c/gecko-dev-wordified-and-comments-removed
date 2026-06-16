@@ -171,8 +171,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 ;
@@ -280,8 +278,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 ;
@@ -312,8 +308,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 )
@@ -386,6 +380,11 @@ void
 aInstancePtr
 )
 override
+;
+void
+WillAnimateClass
+(
+)
 ;
 void
 DidAnimateClass
@@ -1642,20 +1641,6 @@ GetAnimatedClassName
 )
 const
 {
-if
-(
-!
-mClassAttribute
-.
-IsAnimated
-(
-)
-)
-{
-return
-nullptr
-;
-}
 return
 mClassAnimAttr
 .
@@ -2411,8 +2396,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 {
@@ -2565,8 +2548,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 \
 mozilla
