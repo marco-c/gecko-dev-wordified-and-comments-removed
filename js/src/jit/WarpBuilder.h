@@ -134,6 +134,11 @@ _
 StrictSpreadEval
 )
 \
+_
+(
+BindVar
+)
+\
 /
 *
 Super
