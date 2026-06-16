@@ -75,3 +75,10 @@ browser_flow
 js
 "
 ]
+[
+"
+browser_telemetry
+.
+js
+"
+]
