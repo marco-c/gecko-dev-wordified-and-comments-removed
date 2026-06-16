@@ -1098,7 +1098,13 @@ mid
 )
 const
 ;
-void
+std
+:
+:
+vector
+<
+IceParameters
+>
 MaybeStartGathering
 (
 )
