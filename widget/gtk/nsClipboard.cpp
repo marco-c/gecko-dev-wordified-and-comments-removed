@@ -36,13 +36,6 @@ MOZ_WAYLAND
 #
 include
 "
-RetrievalContextWayland
-.
-h
-"
-#
-include
-"
 RetrievalContextGtk
 .
 h

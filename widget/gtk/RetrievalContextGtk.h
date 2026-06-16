@@ -1,9 +1,9 @@
 #
 ifndef
-_RetrievalContextGtk_h_
+RetrievalContextGtk_h
 #
 define
-_RetrievalContextGtk_h_
+RetrievalContextGtk_h
 #
 include
 "
@@ -20,6 +20,12 @@ nsClipboard
 .
 h
 "
+namespace
+mozilla
+:
+:
+widget
+{
 class
 RetrievalContextGtk
 final
@@ -108,5 +114,6 @@ sPrimaryTargets
 ;
 }
 ;
+}
 #
 endif

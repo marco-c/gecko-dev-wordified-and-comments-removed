@@ -1,9 +1,9 @@
 #
 ifndef
-_RetrievalContextWayland_h_
+RetrievalContextWayland_h
 #
 define
-_RetrievalContextWayland_h_
+RetrievalContextWayland_h
 #
 include
 "
@@ -391,8 +391,11 @@ RetrievalContext
 {
 public
 :
+explicit
 RetrievalContextWayland
 (
+bool
+aIsDragContext
 )
 ;
 virtual

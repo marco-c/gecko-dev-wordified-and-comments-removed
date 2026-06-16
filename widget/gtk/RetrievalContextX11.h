@@ -1,9 +1,9 @@
 #
 ifndef
-_RetrievalContextX11_h_
+RetrievalContextX11_h
 #
 define
-_RetrievalContextX11_h_
+RetrievalContextX11_h
 #
 include
 <
