@@ -5353,6 +5353,14 @@ promptListener
 null
 ;
 }
+lazy
+.
+Addon
+.
+cleanupTemporaryAddonFiles
+(
+)
+;
 try
 {
 Services

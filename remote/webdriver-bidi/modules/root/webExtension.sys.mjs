@@ -444,6 +444,14 @@ destroy
 (
 )
 {
+lazy
+.
+Addon
+.
+cleanupTemporaryAddonFiles
+(
+)
+;
 }
 /
 *
