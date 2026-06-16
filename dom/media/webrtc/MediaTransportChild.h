@@ -199,6 +199,16 @@ const
 TransportLayerState
 &
 state
+nsTArray
+<
+nsTArray
+<
+uint8_t
+>
+>
+&
+&
+remoteCerts
 )
 ;
 mozilla

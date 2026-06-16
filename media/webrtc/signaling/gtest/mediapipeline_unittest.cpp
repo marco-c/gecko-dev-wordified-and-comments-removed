@@ -1518,6 +1518,8 @@ OnStateChange
 (
 aTransportId
 aState
+{
+}
 )
 ;
 }

@@ -633,6 +633,16 @@ TransportLayer
 :
 State
 aState
+const
+nsTArray
+<
+nsTArray
+<
+uint8_t
+>
+>
+&
+aRemoteCerts
 )
 {
 NS_ENSURE_TRUE_VOID
@@ -644,6 +654,7 @@ SendOnStateChange
 (
 aTransportId
 aState
+aRemoteCerts
 )
 )
 ;

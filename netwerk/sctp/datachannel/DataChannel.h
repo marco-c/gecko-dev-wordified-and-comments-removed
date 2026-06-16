@@ -1075,6 +1075,16 @@ TransportLayer
 :
 State
 aState
+const
+nsTArray
+<
+nsTArray
+<
+uint8_t
+>
+>
+&
+aRemoteCerts
 )
 ;
 void
