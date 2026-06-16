@@ -315,6 +315,9 @@ selected_window_
 WindowId
 excluded_window_
 ;
+DesktopRect
+last_window_rect_
+;
 }
 ;
 }
