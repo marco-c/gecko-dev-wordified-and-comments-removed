@@ -14680,6 +14680,7 @@ Promise
 >
 mReadyForIdle
 ;
+mutable
 RefPtr
 <
 mozilla
