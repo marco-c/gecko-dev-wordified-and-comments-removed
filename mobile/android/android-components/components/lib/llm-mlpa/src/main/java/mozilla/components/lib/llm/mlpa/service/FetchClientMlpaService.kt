@@ -474,6 +474,17 @@ headers
 =
 MutableHeaders
 (
+"
+content
+-
+type
+"
+to
+"
+application
+/
+json
+"
 )
 body
 =
