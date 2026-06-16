@@ -233,8 +233,10 @@ result
 Test
 fun
 WHEN
-store
-initializes
+view
+appeared
+action
+dispatches
 THEN
 no
 changes
@@ -255,7 +257,9 @@ state
 bookmarksReducer
 (
 state
-Init
+ViewAppeared
+(
+)
 )
 )
 }
@@ -6976,7 +6980,7 @@ result
 bookmarksReducer
 (
 state
-InitEditLoaded
+BookmarkToEditLoaded
 (
 bookmark
 =

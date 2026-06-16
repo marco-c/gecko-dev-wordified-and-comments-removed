@@ -702,11 +702,6 @@ lifecycleScope
 lifecycleScope
 )
 )
-bookmarkToLoad
-=
-args
-.
-guidToEdit
 )
 }
 store
@@ -749,6 +744,11 @@ EMPTY
 bookmarksSearchEngine
 =
 null
+bookmarkToLoad
+=
+args
+.
+guidToEdit
 )
 }
 }

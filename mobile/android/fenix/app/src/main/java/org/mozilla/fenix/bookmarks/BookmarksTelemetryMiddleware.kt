@@ -348,14 +348,13 @@ OpenTabsConfirmationDialogAction
 .
 Present
 is
-InitEdit
+ViewAppeared
 is
-InitEditLoaded
+BookmarkToEditLoaded
 is
 ReceivedSyncSignInUpdate
 CloseClicked
 AddFolderClicked
-Init
 SignIntoSyncClicked
 OpenTabsConfirmationDialogAction
 .

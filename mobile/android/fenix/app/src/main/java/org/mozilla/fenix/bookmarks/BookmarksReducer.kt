@@ -109,7 +109,7 @@ action
 )
 {
 is
-InitEditLoaded
+BookmarkToEditLoaded
 -
 >
 state
@@ -514,8 +514,7 @@ SelectFolderAction
 ViewAppeared
 SignIntoSyncClicked
 is
-InitEdit
-Init
+ViewAppeared
 PrivateBrowsingAuthorized
 -
 >

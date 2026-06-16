@@ -233,7 +233,15 @@ if
 (
 action
 is
-Init
+ViewAppeared
+&
+&
+action
+.
+bookmarkToLoad
+=
+=
+null
 )
 {
 syncJob
