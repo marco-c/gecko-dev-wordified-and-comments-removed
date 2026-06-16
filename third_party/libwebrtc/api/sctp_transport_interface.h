@@ -86,7 +86,7 @@ constexpr
 uint16_t
 kMaxSctpStreams
 =
-1024
+65535
 ;
 constexpr
 uint16_t
