@@ -2652,6 +2652,10 @@ jsreftest
 -
 marionette
 -
+integration
+-
+marionette
+-
 unittest
 -
 mochitest
