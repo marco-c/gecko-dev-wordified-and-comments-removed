@@ -114,12 +114,13 @@ the
 table
 containing
 [
-TapGroupAssignment
+TabGroupAssignment
 ]
 .
 *
 /
 Dao
+internal
 interface
 TabGroupAssignmentDao
 {
@@ -133,7 +134,7 @@ inserts
 the
 provided
 [
-TapGroupAssignment
+TabGroupAssignment
 ]
 s
 .
@@ -148,7 +149,7 @@ assignments
 :
 List
 <
-TapGroupAssignment
+TabGroupAssignment
 >
 )
 /
@@ -161,7 +162,7 @@ inserts
 the
 provided
 [
-TapGroupAssignment
+TabGroupAssignment
 ]
 .
 *
@@ -173,7 +174,7 @@ upsertTabGroupAssignment
 (
 assignment
 :
-TapGroupAssignment
+TabGroupAssignment
 )
 /
 *
@@ -184,7 +185,7 @@ all
 of
 the
 [
-TapGroupAssignment
+TabGroupAssignment
 ]
 s
 .
@@ -208,7 +209,7 @@ Flow
 <
 List
 <
-TapGroupAssignment
+TabGroupAssignment
 >
 >
 /
@@ -219,7 +220,7 @@ Deletes
 the
 specified
 [
-TapGroupAssignment
+TabGroupAssignment
 ]
 .
 *
@@ -231,7 +232,7 @@ deleteTabGroupAssignment
 (
 tabGroupAssignment
 :
-TapGroupAssignment
+TabGroupAssignment
 )
 /
 *
@@ -240,7 +241,7 @@ TapGroupAssignment
 Deletes
 the
 [
-TapGroupAssignment
+TabGroupAssignment
 ]
 corresponding
 to
@@ -280,7 +281,7 @@ all
 of
 the
 [
-TapGroupAssignment
+TabGroupAssignment
 ]
 s
 who
@@ -323,7 +324,7 @@ all
 of
 the
 [
-TapGroupAssignment
+TabGroupAssignment
 ]
 s
 in
@@ -484,7 +485,7 @@ all
 of
 the
 [
-TapGroupAssignment
+TabGroupAssignment
 ]
 s
 whose

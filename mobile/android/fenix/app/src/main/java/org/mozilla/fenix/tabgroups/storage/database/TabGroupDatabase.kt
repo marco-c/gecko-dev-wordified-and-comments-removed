@@ -123,7 +123,7 @@ StoredTabGroup
 :
 :
 class
-TapGroupAssignment
+TabGroupAssignment
 :
 :
 class
