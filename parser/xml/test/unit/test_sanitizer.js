@@ -175,8 +175,11 @@ item
 ;
 if
 (
-!
 flags
+=
+=
+=
+undefined
 )
 {
 flags
