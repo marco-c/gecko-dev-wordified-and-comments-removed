@@ -5799,7 +5799,7 @@ net
 id
 :
 "
-TiktokEmbed
+TikTokEmbed
 "
 platform
 :
@@ -5809,7 +5809,7 @@ desktop
 name
 :
 "
-Tiktok
+TikTok
 embed
 placeholder
 "

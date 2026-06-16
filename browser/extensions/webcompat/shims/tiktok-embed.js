@@ -6,7 +6,7 @@ initEmbedShim
 shimId
 :
 "
-TiktokEmbed
+TikTokEmbed
 "
 scriptURL
 :
