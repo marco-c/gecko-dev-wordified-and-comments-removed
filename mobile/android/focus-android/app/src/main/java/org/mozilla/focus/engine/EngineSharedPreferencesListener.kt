@@ -183,6 +183,8 @@ pref_key_performance_enable_cookies
 >
 updateTrackingProtectionPolicy
 (
+newCookieValue
+=
 newValue
 as
 String
@@ -266,6 +268,12 @@ isEnabled
 Boolean
 =
 false
+newCookieValue
+:
+String
+?
+=
+null
 )
 {
 val
@@ -276,6 +284,9 @@ EngineProvider
 createTrackingProtectionPolicy
 (
 context
+newCookieValue
+=
+newCookieValue
 )
 val
 components
