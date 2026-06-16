@@ -8875,9 +8875,6 @@ Shape
 result_type
 :
 Object
-can_recover
-:
-custom
 possibly_calls
 :
 true
