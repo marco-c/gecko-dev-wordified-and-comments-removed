@@ -1,10 +1,5 @@
+#
 Editor
-=
-=
-=
-=
-=
-=
 This
 collection
 of
@@ -26,11 +21,9 @@ editor
 docs
 /
 .
-.
-.
+{
 toctree
-:
-:
+}
 :
 maxdepth
 :
