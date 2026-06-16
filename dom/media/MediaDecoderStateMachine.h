@@ -859,10 +859,8 @@ UpdatePlaybackPositionPeriodically
 (
 )
 ;
-already_AddRefed
-<
 MediaSink
->
+*
 CreateAudioSink
 (
 )
