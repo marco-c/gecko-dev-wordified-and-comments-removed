@@ -158,8 +158,10 @@ bool
 aAnimVal
 )
 ;
+already_AddRefed
+<
 DOMSVGLength
-*
+>
 Copy
 (
 )

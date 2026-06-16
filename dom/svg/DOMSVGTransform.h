@@ -155,8 +155,10 @@ SVGTransform
 aTransform
 )
 ;
+already_AddRefed
+<
 DOMSVGTransform
-*
+>
 Clone
 (
 )
@@ -171,8 +173,10 @@ caller
 )
 ;
 return
-new
+MakeAndAddRef
+<
 DOMSVGTransform
+>
 (
 InternalItem
 (

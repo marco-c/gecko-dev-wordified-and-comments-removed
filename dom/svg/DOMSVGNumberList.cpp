@@ -614,8 +614,11 @@ Clone
 (
 )
 :
+do_AddRef
+(
 &
 aItem
+)
 ;
 Clear
 (
@@ -852,8 +855,11 @@ Clone
 (
 )
 :
+do_AddRef
+(
 &
 aItem
+)
 ;
 if
 (
@@ -1121,8 +1127,11 @@ Clone
 (
 )
 :
+do_AddRef
+(
 &
 aItem
+)
 ;
 AutoChangeNumberListNotifier
 notifier
