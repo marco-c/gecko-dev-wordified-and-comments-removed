@@ -3973,6 +3973,17 @@ appStore
 requireComponents
 .
 appStore
+currentSessionId
+=
+requireComponents
+.
+core
+.
+store
+.
+state
+.
+selectedTabId
 trackingProtectionUseCases
 =
 requireComponents

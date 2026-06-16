@@ -4582,6 +4582,14 @@ onPrivacyReportTapped
 (
 )
 {
+val
+currentSessionId
+=
+browserStore
+.
+state
+.
+selectedTabId
 navController
 .
 nav
@@ -4595,6 +4603,7 @@ TabManagementFragmentDirections
 .
 actionTabManagementFragmentToGlobalProtectionsDashboard
 (
+currentSessionId
 )
 )
 }
