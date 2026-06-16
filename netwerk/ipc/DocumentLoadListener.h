@@ -202,6 +202,9 @@ dom
 class
 CanonicalBrowsingContext
 ;
+class
+ParentProcessChannelHandle
+;
 struct
 NavigationIsolationOptions
 ;
@@ -1657,6 +1660,15 @@ bool
 mSupportsRedirectToRealChannel
 =
 true
+;
+RefPtr
+<
+dom
+:
+:
+ParentProcessChannelHandle
+>
+mParentProcessChannelHandle
 ;
 Maybe
 <

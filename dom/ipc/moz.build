@@ -368,6 +368,11 @@ PageLoadEventUtils
 h
 "
 "
+ParentProcessChannelHandle
+.
+h
+"
+"
 PermissionMessageUtils
 .
 h
@@ -661,6 +666,11 @@ cpp
 "
 "
 MMPrinter
+.
+cpp
+"
+"
+ParentProcessChannelHandle
 .
 cpp
 "
