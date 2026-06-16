@@ -750,6 +750,9 @@ historyStorage
 coroutineScope
 =
 testScope
+ioDispatcher
+=
+testDispatcher
 )
 }
 Test
