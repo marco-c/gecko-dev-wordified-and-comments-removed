@@ -1141,6 +1141,7 @@ aChromeEventHandler
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 SetInitialPrincipal

@@ -566,6 +566,7 @@ aContentWindowID
 0
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 Initialize
 (
@@ -583,6 +584,7 @@ WindowGlobalChild
 aWindowActor
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 InitWindow
 (
@@ -1772,6 +1774,7 @@ DestroyDocumentViewer
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 CreateInitialDocumentViewer
 (
@@ -1793,6 +1796,7 @@ aWindowActor
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 CreateAboutBlankDocumentViewer
 (
@@ -2067,6 +2071,7 @@ aWindow
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 CompleteInitialAboutBlankLoad
 (
