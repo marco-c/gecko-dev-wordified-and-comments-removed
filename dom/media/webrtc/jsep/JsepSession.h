@@ -238,8 +238,10 @@ JsepSession
 {
 }
 virtual
+UniquePtr
+<
 JsepSession
-*
+>
 Clone
 (
 )
