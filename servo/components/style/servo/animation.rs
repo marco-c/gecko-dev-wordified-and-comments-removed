@@ -729,7 +729,9 @@ start_percentage
 =
 step
 .
-start_percentage
+start_offset
+.
+percentage
 .
 0
 ;
