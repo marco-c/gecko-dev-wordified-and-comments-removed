@@ -285,11 +285,6 @@ mIsPositionless
 1
 ;
 bool
-mIsShortcutKey
-:
-1
-;
-bool
 mNoRemoteProcessDispatch
 :
 1
