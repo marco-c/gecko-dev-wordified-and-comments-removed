@@ -2249,7 +2249,10 @@ int32_t
 &
 aNativeKeyCode
 const
-uint32_t
+nsIWidget
+:
+:
+NativeModifiers
 &
 aModifierFlags
 const

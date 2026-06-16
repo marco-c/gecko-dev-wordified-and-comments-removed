@@ -3304,7 +3304,7 @@ int32_t
 aNativeKeyboardLayout
 int32_t
 aNativeKeyCode
-uint32_t
+NativeModifiers
 aModifierFlags
 nsString
 aCharacters
