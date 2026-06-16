@@ -1393,6 +1393,9 @@ target_cpu
 "
 x64
 "
+use_clang_modules
+=
+false
 use_v8_context_snapshot
 =
 false
@@ -1560,6 +1563,9 @@ target_cpu
 "
 arm64
 "
+use_clang_modules
+=
+false
 use_v8_context_snapshot
 =
 false
