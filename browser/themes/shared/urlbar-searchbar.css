@@ -3814,6 +3814,13 @@ extend
 [
 open
 ]
+:
+not
+(
+[
+noresults
+]
+)
 >
 .
 urlbar

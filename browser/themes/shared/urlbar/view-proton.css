@@ -1416,10 +1416,13 @@ present
 *
 /
 .
-urlbarView
+urlbar
 [
 noresults
 ]
+>
+.
+urlbarView
 >
 .
 urlbarView
@@ -16074,8 +16077,8 @@ wrap
 wrap
 ;
 }
-.
-urlbarView
+#
+urlbar
 :
 not
 (
@@ -16083,6 +16086,9 @@ not
 noresults
 ]
 )
+>
+.
+urlbarView
 >
 .
 search
