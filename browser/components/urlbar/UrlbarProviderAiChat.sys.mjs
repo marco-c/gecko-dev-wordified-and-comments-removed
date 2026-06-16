@@ -1121,6 +1121,17 @@ UrlbarUtils
 RESULT_SOURCE
 .
 SEARCH
+/
+/
+Pin
+below
+the
+heuristic
+result
+.
+suggestedIndex
+:
+1
 payload
 :
 {

@@ -776,6 +776,7 @@ are
 action
 addon
 ai_chat
+ai_search_fallback
 autofill_about
 autofill_adaptive_origin
 autofill_adaptive_url
@@ -3540,6 +3541,7 @@ are
 action
 addon
 ai_chat
+ai_search_fallback
 autofill_about
 autofill_adaptive_origin
 autofill_adaptive_url
@@ -3982,6 +3984,7 @@ are
 action
 addon
 ai_chat
+ai_search_fallback
 autofill_about
 autofill_adaptive_origin
 autofill_adaptive_url

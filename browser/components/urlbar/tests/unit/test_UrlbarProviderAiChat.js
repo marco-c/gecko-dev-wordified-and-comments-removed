@@ -847,7 +847,7 @@ RESULT_TYPE
 SEARCH
 suggestedIndex
 :
-undefined
+1
 query
 :
 "
