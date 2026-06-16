@@ -34,6 +34,7 @@ grid
 :
 {
 Flex
+FlexUnit
 GridTemplateComponent
 ImplicitGridTracks
 RepeatCount
@@ -193,13 +194,12 @@ unit
 .
 }
 if
-unit
-.
-eq_ignore_ascii_case
+FlexUnit
+:
+:
+matches
 (
-"
-fr
-"
+unit
 )
 &
 &
