@@ -8286,7 +8286,12 @@ void
 ForceSkipDTDSecurityChecks
 (
 )
+{
+mSkipDTDSecurityChecks
+=
+true
 ;
+}
 Document
 *
 GetTemplateContentsOwner
