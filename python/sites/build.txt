@@ -27,7 +27,7 @@ taskgraph
 .
 1
 .
-0
+1
 :
 toolchain
 artifacts
