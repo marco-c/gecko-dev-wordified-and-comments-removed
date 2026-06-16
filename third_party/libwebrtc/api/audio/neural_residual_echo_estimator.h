@@ -169,17 +169,6 @@ R2_unbounded
 ;
 virtual
 EchoCanceller3Config
-GetConfiguration
-(
-bool
-multi_channel
-)
-const
-=
-0
-;
-virtual
-EchoCanceller3Config
 :
 :
 Suppressor
