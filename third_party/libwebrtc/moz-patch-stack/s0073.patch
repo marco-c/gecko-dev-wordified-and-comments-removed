@@ -152,10 +152,10 @@ shared_screencast_stream
 .
 cc
 index
-1aa8be5505
+0bced6d0cb
 .
 .
-6341412004
+1a255aad45
 100644
 -
 -
@@ -276,7 +276,7 @@ IsDMABufEnabled
 namespace
 webrtc
 {
-const
+constexpr
 int
 kBytesPerPixel
 =

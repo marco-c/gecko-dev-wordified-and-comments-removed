@@ -133,10 +133,10 @@ shared_screencast_stream
 .
 cc
 index
-54dbc9d425
+353c9ab763
 .
 .
-e1ba7569e5
+e09a2d8b3e
 100644
 -
 -
@@ -190,7 +190,7 @@ w
 *
 h
 *
-kCursorBpp
+kBytesPerPixel
 )
 ;
 }
