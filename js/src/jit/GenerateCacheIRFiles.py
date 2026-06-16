@@ -3279,9 +3279,10 @@ arg_reader_info
 arg_type
 ]
             
+read_name
+=
 arg_name
 +
-=
 suffix
             
 spew_method
@@ -3321,7 +3322,7 @@ spew_method
 (
 "
 {
-arg_name
+read_name
 }
 "
 {
@@ -3465,6 +3466,10 @@ items
 )
 :
             
+read_arg_type
+=
+arg_type
+            
 if
 arg_type
 =
@@ -3474,7 +3479,7 @@ RawId
 "
 :
                 
-arg_type
+read_arg_type
 =
 "
 ValId
@@ -3486,7 +3491,7 @@ readexpr
 =
 arg_reader_info
 [
-arg_type
+read_arg_type
 ]
             
 read_name
@@ -3526,7 +3531,7 @@ write_method
 =
 arg_writer_info
 [
-arg_type
+read_arg_type
 ]
             
 if
@@ -3590,8 +3595,6 @@ arg_name
 args_code
 +
 =
-(
-                    
 f
 "
 {
@@ -3603,7 +3606,7 @@ value_name
 =
 get
 {
-arg_type
+read_arg_type
 }
 (
 {
@@ -3616,8 +3619,6 @@ read_name
 \
 n
 "
-                
-)
             
 args_code
 +
@@ -4907,24 +4908,22 @@ strip
 ics
 +
 =
+f
 "
 _
 (
-%
-d
-%
-s
+{
+idx
+}
+{
+content
+}
 )
 \
 \
 \
 n
 "
-%
-(
-idx
-content
-)
                 
 idx
 +
