@@ -475,7 +475,7 @@ referencing_element
 [
 reflected_property
 ]
-null
+host
 )
 ;
 }
@@ -536,6 +536,7 @@ referencing_element
 reflected_property
 ]
 [
+host
 ]
 )
 ;
