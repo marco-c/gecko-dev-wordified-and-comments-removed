@@ -74,6 +74,7 @@ gBrowser
 selectedBrowser
 )
 ;
+await
 clickDoorhangerButton
 (
 notif

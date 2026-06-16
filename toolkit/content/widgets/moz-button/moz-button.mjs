@@ -2347,7 +2347,14 @@ click
 {
 this
 .
+performUpdate
+(
+)
+;
+this
+.
 buttonEl
+?
 .
 click
 (

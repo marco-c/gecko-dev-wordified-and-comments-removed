@@ -4845,6 +4845,8 @@ doc
 querySelector
 (
 "
+moz
+-
 button
 .
 popup
@@ -5388,7 +5390,7 @@ popupnotification
 .
 button
 .
-doCommand
+click
 (
 )
 ;

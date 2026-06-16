@@ -95,7 +95,7 @@ window
 addEventListener
 (
 "
-command
+click
 "
 commandTriggered
 true
@@ -181,7 +181,7 @@ window
 removeEventListener
 (
 "
-command
+click
 "
 commandTriggered
 true

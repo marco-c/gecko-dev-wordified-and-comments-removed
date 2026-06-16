@@ -2135,7 +2135,7 @@ popupnotification
 .
 button
 .
-doCommand
+click
 (
 )
 ;

@@ -514,6 +514,8 @@ notificationPopup
 querySelector
 (
 "
+moz
+-
 button
 .
 popup
