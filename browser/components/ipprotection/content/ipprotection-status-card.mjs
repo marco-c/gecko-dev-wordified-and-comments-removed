@@ -711,6 +711,14 @@ location
 -
 action
 "
+?
+disabled
+=
+{
+this
+.
+isActivating
+}
 closemenu
 =
 "
@@ -1126,6 +1134,8 @@ connection
 status
 -
 disconnected
+-
+1
 "
 ;
 let
@@ -1176,6 +1186,8 @@ connection
 status
 -
 connecting
+-
+1
 "
 ;
 buttonL10nId
@@ -1246,6 +1258,8 @@ connection
 status
 -
 excluded
+-
+1
 "
 ;
 buttonL10nId
@@ -1315,6 +1329,8 @@ connection
 status
 -
 connected
+-
+1
 "
 ;
 buttonL10nId
