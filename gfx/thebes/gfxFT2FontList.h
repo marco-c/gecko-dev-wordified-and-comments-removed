@@ -147,8 +147,10 @@ Name
 ;
 }
 static
+already_AddRefed
+<
 FT2FontEntry
-*
+>
 CreateFontEntry
 (
 const

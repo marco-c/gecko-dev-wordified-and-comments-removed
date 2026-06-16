@@ -1383,8 +1383,10 @@ return
 font
 ;
 }
+already_AddRefed
+<
 FT2FontEntry
-*
+>
 FT2FontEntry
 :
 :
@@ -1414,8 +1416,10 @@ FTUserFontData
 >
 ufd
 =
-new
+MakeRefPtr
+<
 FTUserFontData
+>
 (
 aFontData
 aLength
@@ -1444,8 +1448,10 @@ return
 nullptr
 ;
 }
+RefPtr
+<
 FT2FontEntry
-*
+>
 fe
 =
 FT2FontEntry
@@ -1510,6 +1516,10 @@ true
 }
 return
 fe
+.
+forget
+(
+)
 ;
 }
 FT2FontEntry
@@ -10510,8 +10520,6 @@ aLength
 )
 {
 return
-do_AddRef
-(
 FT2FontEntry
 :
 :
@@ -10523,7 +10531,6 @@ aStretchForEntry
 aStyleForEntry
 aFontData
 aLength
-)
 )
 ;
 }
