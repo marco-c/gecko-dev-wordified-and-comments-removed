@@ -208,6 +208,13 @@ factory
 js
 "
 "
+LocalModeMappings
+.
+sys
+.
+mjs
+"
+"
 menu
 -
 item
