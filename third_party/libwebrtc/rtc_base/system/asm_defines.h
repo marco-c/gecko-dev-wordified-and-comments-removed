@@ -5,6 +5,9 @@ RTC_BASE_SYSTEM_ASM_DEFINES_H_
 define
 RTC_BASE_SYSTEM_ASM_DEFINES_H_
 #
+ifdef
+__ASSEMBLER__
+#
 if
 defined
 (
@@ -186,5 +189,7 @@ endm
 endif
 .
 text
+#
+endif
 #
 endif
