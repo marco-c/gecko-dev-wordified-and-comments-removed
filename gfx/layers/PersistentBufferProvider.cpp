@@ -475,13 +475,12 @@ nullptr
 ;
 }
 RefPtr
+provider
+=
+MakeRefPtr
 <
 PersistentBufferProviderBasic
 >
-provider
-=
-new
-PersistentBufferProviderBasic
 (
 dt
 )

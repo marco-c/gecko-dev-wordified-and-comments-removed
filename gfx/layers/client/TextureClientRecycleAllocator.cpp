@@ -1019,13 +1019,12 @@ GetTextureClient
 )
 {
 RefPtr
-<
-Runnable
->
 task
 =
-new
+MakeRefPtr
+<
 TextureClientReleaseTask
+>
 (
 textureHolder
 -

@@ -407,13 +407,12 @@ dummyId
 )
 ;
 RefPtr
+tempUpdater
+=
+MakeRefPtr
 <
 APZUpdater
 >
-tempUpdater
-=
-new
-APZUpdater
 (
 temp
 connectedToWebRender

@@ -1532,13 +1532,12 @@ Nothing
 )
 ;
 RefPtr
+textureHostD3D11
+=
+MakeRefPtr
 <
 DXGITextureHostD3D11
 >
-textureHostD3D11
-=
-new
-DXGITextureHostD3D11
 (
 flags
 descD3D10
