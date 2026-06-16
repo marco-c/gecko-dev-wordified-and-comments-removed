@@ -347,20 +347,20 @@ test
 {
 assert_style_value_equals
 (
-new
-CSSUnitValue
-(
-1
-'
-px
-'
-)
 CSSNumericValue
 .
 parse
 (
 '
 1px
+'
+)
+new
+CSSUnitValue
+(
+1
+'
+px
 '
 )
 )
@@ -397,7 +397,6 @@ px
 ;
 assert_style_value_equals
 (
-expected
 CSSNumericValue
 .
 parse
@@ -409,6 +408,7 @@ calc
 )
 '
 )
+expected
 )
 ;
 }
@@ -449,7 +449,6 @@ px
 ;
 assert_style_value_equals
 (
-expected
 CSSNumericValue
 .
 parse
@@ -463,6 +462,7 @@ calc
 )
 '
 )
+expected
 )
 ;
 }
@@ -510,7 +510,6 @@ em
 ;
 assert_style_value_equals
 (
-expected
 CSSNumericValue
 .
 parse
@@ -524,6 +523,7 @@ calc
 )
 '
 )
+expected
 )
 ;
 }
@@ -573,7 +573,6 @@ percent
 ;
 assert_style_value_equals
 (
-expected
 CSSNumericValue
 .
 parse
@@ -587,6 +586,7 @@ min
 )
 '
 )
+expected
 )
 ;
 }
@@ -629,7 +629,6 @@ percent
 ;
 assert_style_value_equals
 (
-expected
 CSSNumericValue
 .
 parse
@@ -643,6 +642,7 @@ max
 )
 '
 )
+expected
 )
 ;
 }
@@ -691,7 +691,6 @@ px
 ;
 assert_style_value_equals
 (
-expected
 CSSNumericValue
 .
 parse
@@ -706,6 +705,7 @@ clamp
 )
 '
 )
+expected
 )
 ;
 }
@@ -761,11 +761,6 @@ x
 ;
 assert_style_value_equals
 (
-expected
-.
-toString
-(
-)
 '
 calc
 (
@@ -785,6 +780,11 @@ min
 )
 )
 '
+expected
+.
+toString
+(
+)
 )
 ;
 }
@@ -843,11 +843,6 @@ x
 ;
 assert_style_value_equals
 (
-expected
-.
-toString
-(
-)
 '
 calc
 (
@@ -867,6 +862,11 @@ min
 )
 )
 '
+expected
+.
+toString
+(
+)
 )
 ;
 }
