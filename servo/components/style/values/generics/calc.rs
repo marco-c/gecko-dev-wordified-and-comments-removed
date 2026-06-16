@@ -15,6 +15,7 @@ typed_om
 :
 :
 {
+MathValue
 NumericValue
 ToTyped
 TypedValue
@@ -14666,9 +14667,15 @@ Numeric
 NumericValue
 :
 :
+Math
+(
+MathValue
+:
+:
 Sum
 (
 values
+)
 )
 )
 )
@@ -14731,6 +14738,11 @@ Numeric
 NumericValue
 :
 :
+Math
+(
+MathValue
+:
+:
 Sum
 (
 ThinVec
@@ -14741,6 +14753,7 @@ from
 [
 inner
 ]
+)
 )
 )
 )

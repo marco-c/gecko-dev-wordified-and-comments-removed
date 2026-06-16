@@ -18,6 +18,7 @@ typed_om
 :
 :
 {
+MathValue
 NumericValue
 UnitValue
 }
@@ -402,9 +403,15 @@ UnitMap
 NumericValue
 :
 :
+Math
+(
+MathValue
+:
+:
 Sum
 (
 math_sum
+)
 )
 =
 >
