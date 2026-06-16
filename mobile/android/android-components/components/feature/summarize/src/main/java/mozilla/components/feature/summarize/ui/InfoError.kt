@@ -319,16 +319,6 @@ mozilla
 .
 components
 .
-concept
-.
-llm
-.
-ErrorCode
-import
-mozilla
-.
-components
-.
 feature
 .
 summarize
@@ -346,7 +336,7 @@ Modifier
 Modifier
 errorCode
 :
-ErrorCode
+Int
 onDismiss
 :
 (
@@ -555,8 +545,6 @@ string
 .
 mozac_summarize_info_error_code
 errorCode
-.
-value
 )
 style
 =
@@ -693,10 +681,7 @@ InfoError
 (
 errorCode
 =
-ErrorCode
-(
 1000
-)
 )
 }
 }

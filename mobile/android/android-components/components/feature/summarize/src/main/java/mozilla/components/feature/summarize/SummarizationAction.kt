@@ -305,9 +305,7 @@ SummarizationFailed
 val
 exception
 :
-Llm
-.
-Exception
+Throwable
 )
 :
 SummarizationAction

@@ -233,7 +233,7 @@ mlpa
 .
 service
 .
-ChatServiceError
+InvalidToken
 import
 mozilla
 .
@@ -503,8 +503,6 @@ _
 flow
 {
 throw
-ChatServiceError
-.
 InvalidToken
 (
 )
