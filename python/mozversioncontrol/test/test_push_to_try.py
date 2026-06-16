@@ -557,7 +557,8 @@ try
 "
 "
 -
-m
+-
+message
 "
 commit_message
 )
@@ -2190,7 +2191,8 @@ new
 "
 "
 -
-m
+-
+message
 "
 "
 test
