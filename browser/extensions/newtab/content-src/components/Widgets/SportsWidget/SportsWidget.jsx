@@ -8477,6 +8477,11 @@ size
 {
 size
 }
+widgetSize
+=
+{
+widgetSize
+}
 handleInteraction
 =
 {
