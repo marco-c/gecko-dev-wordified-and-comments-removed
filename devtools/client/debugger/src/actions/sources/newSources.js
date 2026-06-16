@@ -19,10 +19,10 @@ actors
 ;
 import
 {
-makeSourceId
+makeScriptSourceId
 createGeneratedSource
 createSourceMapOriginalSource
-createSourceActor
+createScriptSourceActor
 }
 from
 "
@@ -1298,7 +1298,7 @@ continue
 const
 id
 =
-makeSourceId
+makeScriptSourceId
 (
 sourceResource
 )
@@ -1356,7 +1356,7 @@ newSourceActors
 .
 push
 (
-createSourceActor
+createScriptSourceActor
 (
 sourceResource
 getSource
