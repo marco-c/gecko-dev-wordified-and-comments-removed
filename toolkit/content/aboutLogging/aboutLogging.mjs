@@ -932,6 +932,9 @@ HTMLMediaElementEvents
 MFMediaEngine
 :
 5
+MediaCapabilities
+:
+5
 MediaDecoder
 :
 4
@@ -1067,6 +1070,9 @@ HTMLMediaElement
 :
 5
 HTMLMediaElementEvents
+:
+5
+MediaCapabilities
 :
 5
 MediaChild
