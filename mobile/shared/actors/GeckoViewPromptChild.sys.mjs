@@ -131,11 +131,6 @@ click
 :
 case
 "
-contextmenu
-"
-:
-case
-"
 DOMPopupBlocked
 "
 :
