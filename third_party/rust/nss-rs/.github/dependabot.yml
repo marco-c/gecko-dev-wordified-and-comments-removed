@@ -293,15 +293,6 @@ patch
 days
 :
 5
-exclude
-:
--
-"
-mozilla
-/
-actions
-*
-"
 -
 package
 -
@@ -314,10 +305,7 @@ directory
 :
 "
 /
-.
-github
-/
-workflows
+qns
 "
 schedule
 :

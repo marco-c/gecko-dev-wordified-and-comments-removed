@@ -120,7 +120,7 @@ version
 .
 2
 .
-1
+0
 "
 build
 =
@@ -421,13 +421,6 @@ nss
 -
 rs
 ]
-version
-=
-"
-0
-.
-13
-"
 git
 =
 "
@@ -444,6 +437,11 @@ mozilla
 nss
 -
 rs
+"
+rev
+=
+"
+c54949bbff92795b8b2e837ec84decc9b468081a
 "
 default
 -

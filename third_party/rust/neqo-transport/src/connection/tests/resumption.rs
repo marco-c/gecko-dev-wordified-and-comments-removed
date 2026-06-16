@@ -31,12 +31,7 @@ use
 nss
 :
 :
-{
 AuthenticationStatus
-RecordProtectionOps
-as
-_
-}
 ;
 use
 test_fixture
@@ -723,8 +718,7 @@ unwrap
 ;
 let
 (
-aead_enc
-aead_dec
+aead
 hp
 )
 =
@@ -790,7 +784,7 @@ let
 mut
 plaintext
 =
-aead_dec
+aead
 .
 decrypt
 (
@@ -930,7 +924,7 @@ MIN_INITIAL_PACKET_SIZE
 0
 )
 ;
-aead_enc
+aead
 .
 encrypt
 (

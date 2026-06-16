@@ -181,16 +181,8 @@ hp2
 =
 hp
 .
-try_clone
+clone
 (
-)
-.
-expect
-(
-"
-try_clone
-succeeds
-"
 )
 ;
 let

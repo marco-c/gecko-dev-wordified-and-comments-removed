@@ -1256,10 +1256,6 @@ bool
 impl
 LiteralReader
 {
-pub
-(
-crate
-)
 const
 MAX_LEN
 :

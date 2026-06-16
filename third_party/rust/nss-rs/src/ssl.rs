@@ -682,13 +682,6 @@ num_ciphers
 (
 )
 {
-test_fixture
-:
-:
-fixture_init
-(
-)
-;
 assert
 !
 (
