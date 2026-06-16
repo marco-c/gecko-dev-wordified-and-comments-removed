@@ -848,6 +848,9 @@ onTabGroupOnboardingDismiss
 =
 {
 }
+liveReorderEnabled
+=
+false
 )
 }
 }

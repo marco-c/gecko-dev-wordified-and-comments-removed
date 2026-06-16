@@ -332,6 +332,13 @@ tabGroupsOnboardingEnabled
 Boolean
 =
 false
+override
+val
+tabGroupsLiveReorderEnabled
+:
+Boolean
+=
+false
 }
 Test
 fun
