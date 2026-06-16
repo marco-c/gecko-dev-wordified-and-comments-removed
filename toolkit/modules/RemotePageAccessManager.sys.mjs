@@ -1008,6 +1008,17 @@ RPMIsWindowPrivate
 *
 "
 ]
+RPMGetBoolPref
+:
+[
+"
+browser
+.
+nova
+.
+enabled
+"
+]
 }
 "
 about
