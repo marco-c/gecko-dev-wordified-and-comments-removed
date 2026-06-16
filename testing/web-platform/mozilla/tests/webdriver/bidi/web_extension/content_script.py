@@ -246,7 +246,7 @@ False
         
 )
         
-return
+assert
 result
 .
 get
@@ -255,6 +255,13 @@ get
 value
 "
 )
+=
+=
+"
+content
+script
+executed
+"
     
 wait
 =
@@ -282,8 +289,6 @@ element
     
 )
     
-marker_text
-=
 await
 wait
 .
@@ -291,13 +296,3 @@ until
 (
 get_marker_text
 )
-    
-assert
-marker_text
-=
-=
-"
-content
-script
-executed
-"
