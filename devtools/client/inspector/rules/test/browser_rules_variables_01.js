@@ -1121,6 +1121,9 @@ css
 variable
 "
 ]
+closeWithEscape
+:
+true
 }
 )
 ;
