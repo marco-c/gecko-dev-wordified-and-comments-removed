@@ -1141,7 +1141,7 @@ if
 marker
 -
 >
-isParallelMarking
+isParallelMarkingMultipleThreads
 (
 )
 )
@@ -1897,6 +1897,16 @@ isParallelMarking
 )
 )
 {
+if
+(
+marker
+-
+>
+isParallelMarkingMultipleThreads
+(
+)
+)
+{
 lock
 .
 emplace
@@ -1909,6 +1919,7 @@ runtime
 )
 )
 ;
+}
 }
 if
 (
@@ -2319,7 +2330,7 @@ populateWeakKeysTable
 marker
 -
 >
-isParallelMarking
+isParallelMarkingMultipleThreads
 (
 )
 )
