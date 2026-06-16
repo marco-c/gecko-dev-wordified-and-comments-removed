@@ -40010,10 +40010,6 @@ fallible
 false
 )
 ;
-IDB_REPORT_INTERNAL_ERR
-(
-)
-;
 for
 (
 const
