@@ -1666,12 +1666,17 @@ distance
 visit_count
 frecency
 last_visit_date
+preview_image_url
 FROM
 moz_places
 WHERE
 frecency
 <
 >
+0
+AND
+hidden
+=
 0
 AND
 (

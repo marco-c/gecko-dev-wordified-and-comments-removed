@@ -253,6 +253,12 @@ width
 100
 %
 ;
+scrollbar
+-
+gutter
+:
+stable
+;
 &
 [
 overflowing
