@@ -319,14 +319,6 @@ CodecSpecificInfo
 override
 ;
 void
-OnDroppedFrame
-(
-DropReason
-reason
-)
-override
-;
-void
 OnFrameDropped
 (
 uint32_t

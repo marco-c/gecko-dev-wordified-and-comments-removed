@@ -1009,17 +1009,6 @@ codec_specific_info
 override
 ;
 void
-OnDroppedFrame
-(
-EncodedImageCallback
-:
-:
-DropReason
-reason
-)
-override
-;
-void
 OnFrameDropped
 (
 uint32_t
