@@ -132,5 +132,13 @@ attribute
 UTF8String
 href
 ;
+[
+CEReactions
+SetterThrows
+]
+attribute
+DOMString
+target
+;
 }
 ;

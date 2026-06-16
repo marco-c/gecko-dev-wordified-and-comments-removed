@@ -233,14 +233,6 @@ SetterThrows
 ]
 attribute
 DOMString
-target
-;
-[
-CEReactions
-SetterThrows
-]
-attribute
-DOMString
 download
 ;
 [
