@@ -576,10 +576,6 @@ TryAtomizeForSingleDigit
 {
 if
 (
-!
-newAttributesEachTime
-&
-&
 strBufLen
 =
 =
