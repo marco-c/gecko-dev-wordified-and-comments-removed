@@ -52,6 +52,13 @@ js
 ]
 [
 "
+test_ManageTabs
+.
+js
+"
+]
+[
+"
 test_Memories
 .
 js
@@ -200,6 +207,13 @@ js
 [
 "
 test_Tools_GetUserMemories
+.
+js
+"
+]
+[
+"
+test_Tools_ManageTabs
 .
 js
 "
