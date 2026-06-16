@@ -8206,7 +8206,7 @@ WeakFrame
 >
 32
 >
-visiblePopups
+popupsToPaint
 ;
 for
 (
@@ -8245,13 +8245,15 @@ Frame
 ;
 if
 (
-!
 frame
 -
 >
-IsVisible
+PopupState
 (
 )
+=
+=
+ePopupInvisible
 |
 |
 frame
@@ -8292,7 +8294,7 @@ GetWidget
 )
 )
 {
-visiblePopups
+popupsToPaint
 .
 AppendElement
 (
@@ -8313,11 +8315,11 @@ for
 const
 auto
 &
-visiblePopup
+popupToPaint
 :
 Reversed
 (
-visiblePopups
+popupsToPaint
 )
 )
 {
@@ -8325,7 +8327,7 @@ nsIWidget
 *
 widget
 =
-visiblePopup
+popupToPaint
 .
 first
 ;
@@ -8335,7 +8337,7 @@ frame
 =
 do_QueryFrame
 (
-visiblePopup
+popupToPaint
 .
 second
 .
@@ -8545,7 +8547,7 @@ true
 if
 (
 !
-visiblePopup
+popupToPaint
 .
 second
 .
