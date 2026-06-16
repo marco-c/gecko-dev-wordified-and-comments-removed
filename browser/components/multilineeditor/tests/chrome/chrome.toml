@@ -55,6 +55,13 @@ html
 ]
 [
 "
+test_multiline_editor_placeholder_hints
+.
+html
+"
+]
+[
+"
 test_multiline_editor_rendering
 .
 html
