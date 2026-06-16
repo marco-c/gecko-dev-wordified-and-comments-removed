@@ -2191,6 +2191,13 @@ js
 ]
 [
 "
+browser_panel_role_and_label
+.
+js
+"
+]
+[
+"
 browser_panel_toggle
 .
 js
