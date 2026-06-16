@@ -723,6 +723,12 @@ return
 nullptr
 ;
 }
+using
+VideoEncoderFactory
+:
+:
+QueryCodecSupport
+;
 CodecSupport
 QueryCodecSupport
 (
@@ -741,6 +747,14 @@ std
 string
 >
 scalability_mode
+std
+:
+:
+optional
+<
+Resolution
+>
+resolution
 )
 const
 override
@@ -752,6 +766,7 @@ QueryCodecSupport
 (
 format
 scalability_mode
+resolution
 )
 ;
 }

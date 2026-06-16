@@ -1468,6 +1468,10 @@ std
 :
 :
 nullopt
+std
+:
+:
+nullopt
 )
 .
 is_supported
@@ -1529,6 +1533,10 @@ QueryCodecSupport
 (
 sdp_video_format
 false
+std
+:
+:
+nullopt
 )
 .
 is_supported
@@ -1592,6 +1600,10 @@ QueryCodecSupport
 (
 sdp_video_format
 false
+std
+:
+:
+nullopt
 )
 .
 is_supported
@@ -1908,6 +1920,10 @@ encoder_factory
 QueryCodecSupport
 (
 sdp_video_format
+std
+:
+:
+nullopt
 std
 :
 :

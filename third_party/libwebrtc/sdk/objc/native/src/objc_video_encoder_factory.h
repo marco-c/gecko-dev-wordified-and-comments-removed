@@ -116,6 +116,12 @@ wrapped_encoder_factory
 )
 const
 ;
+using
+VideoEncoderFactory
+:
+:
+QueryCodecSupport
+;
 std
 :
 :
@@ -160,6 +166,14 @@ std
 string
 >
 scalability_mode
+std
+:
+:
+optional
+<
+Resolution
+>
+resolution
 )
 const
 override
