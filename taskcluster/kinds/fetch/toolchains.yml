@@ -4789,17 +4789,13 @@ afl
 plus
 -
 plus
--
-4
-.
-0
 :
 description
 :
 AFL
 +
 +
-4
+5
 .
 x
 source
@@ -4823,7 +4819,7 @@ AFLplusplus
 AFLplusplus
 revision
 :
-e5a8ba39ecf97d05e286fdd4e01da96554dbf64f
+4d0ec73b3eaad851402f18d63ea8344e9890d458
 cargo
 -
 vet
