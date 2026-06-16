@@ -20,6 +20,7 @@ eClassic
 eModule
 eEvent
 eImportMap
+eSpeculationRules
 }
 ;
 }
