@@ -258,6 +258,14 @@ return
 mFormData
 ;
 }
+virtual
+Element
+*
+GetSubmitterElement
+(
+)
+const
+;
 protected
 :
 HTMLFormSubmission
