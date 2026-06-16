@@ -1979,7 +1979,7 @@ c
 updated_date
 (
 SELECT
-group_concat
+json_group_array
 (
 t
 .
