@@ -30473,12 +30473,12 @@ first
 fail_with_status_if
 (
 strictness
-!
+=
 =
 ParseStrictness
 :
 :
-Permissive
+Strict
 Status
 :
 :
