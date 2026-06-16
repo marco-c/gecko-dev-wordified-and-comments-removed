@@ -1003,6 +1003,10 @@ is
 TabGroupAction
 .
 DeleteConfirmed
+is
+TabGroupAction
+.
+CloseTabAndDeleteGroupConfirmed
 -
 >
 {
