@@ -389,6 +389,17 @@ HardwarePreference
 :
 :
 RequireHardware
+&
+&
+aConfig
+.
+mCodec
+=
+=
+CodecType
+:
+:
+H264
 )
 {
 auto
