@@ -2910,6 +2910,15 @@ this
 ruleView
 .
 cssExplainersEnabled
+&
+&
+this
+.
+rule
+.
+domRule
+.
+supportsCssExplainers
 }
 ;
 if
