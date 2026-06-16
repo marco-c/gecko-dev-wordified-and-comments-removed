@@ -2668,12 +2668,6 @@ cppunittest
 -
 crashtest
 -
-firefox
--
-ui
--
-functional
--
 gtest
 -
 web
