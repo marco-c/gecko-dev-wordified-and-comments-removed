@@ -1685,25 +1685,25 @@ get_plat
 )
 ]
         
+f
 "
 Pillow
 =
 =
-%
-s
-"
-%
+{
 _PILLOW_VERSION
+}
+"
         
+f
 "
 pyssim
 =
 =
-%
-s
-"
-%
+{
 _PYSSIM_VERSION
+}
+"
         
 "
 influxdb

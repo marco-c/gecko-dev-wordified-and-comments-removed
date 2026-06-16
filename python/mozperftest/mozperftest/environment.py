@@ -361,19 +361,18 @@ name
                 
 name
 =
+f
 "
-%
-s_
-%
-s
-"
-%
-(
+{
 layer
 .
 name
+}
+_
+{
 name
-)
+}
+"
                 
 return
 self

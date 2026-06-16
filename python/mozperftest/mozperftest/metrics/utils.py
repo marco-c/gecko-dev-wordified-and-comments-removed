@@ -345,13 +345,13 @@ type
     
 print
 (
+f
 "
 Reading
-%
-s
-"
-%
+{
 path
+}
+"
 )
     
 with
