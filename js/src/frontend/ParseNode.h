@@ -669,13 +669,10 @@ ImportDecl
 BinaryNode
 )
 \
-IF_SOURCE_PHASE_IMPORTS
-(
 F
 (
 ImportSourceDecl
 BinaryNode
-)
 )
 \
 F
@@ -882,13 +879,10 @@ CallImportExpr
 BinaryNode
 )
 \
-IF_SOURCE_PHASE_IMPORTS
-(
 F
 (
 CallImportSourceExpr
 BinaryNode
-)
 )
 \
 F

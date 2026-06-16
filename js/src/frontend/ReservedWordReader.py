@@ -17,10 +17,6 @@ enable_explicit_resource_management
 =
 False
     
-enable_source_phase_imports
-=
-False
-    
 for
 arg
 in
@@ -62,27 +58,6 @@ management
 :
             
 enable_explicit_resource_management
-=
-True
-        
-elif
-arg
-=
-=
-"
--
--
-enable
--
-source
--
-phase
--
-imports
-"
-:
-            
-enable_source_phase_imports
 =
 True
         
@@ -211,20 +186,6 @@ using
 and
 not
 enable_explicit_resource_management
-:
-                    
-continue
-                
-if
-reserved_word
-=
-=
-"
-source
-"
-and
-not
-enable_source_phase_imports
 :
                     
 continue

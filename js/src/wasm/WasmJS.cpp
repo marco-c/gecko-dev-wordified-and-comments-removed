@@ -3145,9 +3145,6 @@ return
 true
 ;
 }
-#
-ifdef
-ENABLE_SOURCE_PHASE_IMPORTS
 bool
 js
 :
@@ -3849,8 +3846,6 @@ return
 true
 ;
 }
-#
-endif
 static
 bool
 EnforceRange
@@ -5222,9 +5217,6 @@ return
 nullptr
 ;
 }
-#
-ifdef
-ENABLE_SOURCE_PHASE_IMPORTS
 if
 (
 JS
@@ -5303,8 +5295,6 @@ TenuredObject
 ;
 }
 }
-#
-endif
 return
 NewNativeConstructor
 (
@@ -6734,9 +6724,6 @@ WasmModuleName
 Module
 "
 ;
-#
-ifdef
-ENABLE_SOURCE_PHASE_IMPORTS
 static
 JSObject
 *
@@ -6823,8 +6810,6 @@ protoClass_
 )
 ;
 }
-#
-endif
 const
 ClassSpec
 WasmModuleObject
@@ -6838,18 +6823,7 @@ CreateWasmConstructor
 WasmModuleObject
 WasmModuleName
 >
-#
-ifdef
-ENABLE_SOURCE_PHASE_IMPORTS
 CreateWasmModulePrototype
-#
-else
-GenericCreatePrototype
-<
-WasmModuleObject
->
-#
-endif
 WasmModuleObject
 :
 :

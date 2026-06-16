@@ -599,8 +599,6 @@ TokenKind
 Static
 )
 \
-IF_SOURCE_PHASE_IMPORTS
-(
 MACRO
 (
 source
@@ -609,7 +607,6 @@ TokenKind
 :
 :
 Source
-)
 )
 \
 MACRO

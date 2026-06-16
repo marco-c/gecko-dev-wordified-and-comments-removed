@@ -3373,9 +3373,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_SOURCE_PHASE_IMPORTS
 value
 =
 BooleanValue
@@ -3383,17 +3380,6 @@ BooleanValue
 true
 )
 ;
-#
-else
-value
-=
-BooleanValue
-(
-false
-)
-;
-#
-endif
 if
 (
 !

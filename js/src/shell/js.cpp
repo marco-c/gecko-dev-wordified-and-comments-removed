@@ -42470,9 +42470,6 @@ return
 true
 ;
 }
-#
-ifdef
-ENABLE_SOURCE_PHASE_IMPORTS
 static
 bool
 GetAbstractModuleSource
@@ -42562,8 +42559,6 @@ return
 true
 ;
 }
-#
-endif
 static
 bool
 IsHTMLDDA_Call
@@ -60241,9 +60236,6 @@ call
 .
 "
 )
-#
-ifdef
-ENABLE_SOURCE_PHASE_IMPORTS
 JS_FN_HELP
 (
 "
@@ -60268,8 +60260,6 @@ constructor
 .
 "
 )
-#
-endif
 JS_FN_HELP
 (
 "
@@ -81074,9 +81064,6 @@ true
 }
 #
 endif
-#
-ifdef
-ENABLE_SOURCE_PHASE_IMPORTS
 if
 (
 op
@@ -81143,8 +81130,6 @@ true
 )
 ;
 }
-#
-endif
 #
 ifdef
 ENABLE_EXPLICIT_RESOURCE_MANAGEMENT

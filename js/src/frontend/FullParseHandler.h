@@ -3730,9 +3730,6 @@ moduleRequest
 )
 ;
 }
-#
-ifdef
-ENABLE_SOURCE_PHASE_IMPORTS
 BinaryNodeResult
 newImportSourceDeclaration
 (
@@ -3762,8 +3759,6 @@ moduleRequest
 )
 ;
 }
-#
-endif
 BinaryNodeResult
 newImportSpec
 (
