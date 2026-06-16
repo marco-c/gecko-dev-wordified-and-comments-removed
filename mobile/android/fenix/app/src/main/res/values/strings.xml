@@ -33198,13 +33198,11 @@ string
 name
 =
 "
-webcompat_reporter_etp_checkbox_text_2
+webcompat_reporter_etp_checkbox_text
 "
 >
 Send
-list
-of
-items
+URLs
 blocked
 by
 tracking
