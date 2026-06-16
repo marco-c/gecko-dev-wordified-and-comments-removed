@@ -25,15 +25,6 @@ h
 #
 include
 "
-mozilla
-/
-StyleSheet
-.
-h
-"
-#
-include
-"
 nsIMemoryReporter
 .
 h
@@ -53,6 +44,9 @@ mozilla
 {
 class
 PresShell
+;
+class
+StyleSheet
 ;
 }
 #

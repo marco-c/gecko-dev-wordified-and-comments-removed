@@ -14,6 +14,15 @@ include
 "
 mozilla
 /
+StyleSheet
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Document
