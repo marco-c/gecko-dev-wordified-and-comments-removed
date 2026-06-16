@@ -983,8 +983,10 @@ aLoadedFamilies
 nullptr
 )
 ;
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 CreateFontEntry
 (
 mozilla

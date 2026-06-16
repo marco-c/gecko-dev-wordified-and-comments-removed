@@ -1444,8 +1444,10 @@ aVisibility
 const
 override
 ;
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 CreateFontEntry
 (
 mozilla
