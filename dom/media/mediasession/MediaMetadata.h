@@ -396,6 +396,9 @@ MediaMetadataBasePromise
 >
 LoadMetadataArtwork
 (
+Document
+*
+aDoc
 )
 ;
 MediaMetadataBase
@@ -475,9 +478,9 @@ const
 MediaMetadataBase
 &
 aMetadata
-nsIPrincipal
+Document
 *
-aPrincipal
+aDoc
 const
 size_t
 aIndex

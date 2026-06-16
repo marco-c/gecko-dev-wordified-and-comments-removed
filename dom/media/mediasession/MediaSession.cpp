@@ -1839,6 +1839,15 @@ IsEmpty
 return
 ;
 }
+if
+(
+!
+mDoc
+)
+{
+return
+;
+}
 LOG
 (
 "
@@ -1857,6 +1866,7 @@ mMediaMetadata
 >
 LoadMetadataArtwork
 (
+mDoc
 )
 -
 >
