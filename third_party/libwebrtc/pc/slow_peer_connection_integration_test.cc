@@ -676,6 +676,12 @@ std
 string
 &
 tone
+const
+std
+:
+:
+string
+&
 )
 override
 {
