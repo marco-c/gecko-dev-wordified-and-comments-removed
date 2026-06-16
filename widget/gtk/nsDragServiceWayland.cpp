@@ -1195,8 +1195,10 @@ false
 }
 dragData
 =
-new
+MakeRefPtr
+<
 DragData
+>
 (
 aTarget
 std
@@ -1333,8 +1335,10 @@ false
 }
 dragData
 =
-new
+MakeRefPtr
+<
 DragData
+>
 (
 aTarget
 std
@@ -1360,8 +1364,10 @@ AsSpan
 ;
 dragData
 =
-new
+MakeRefPtr
+<
 DragData
+>
 (
 aTarget
 span
