@@ -16115,11 +16115,6 @@ feedback
 submit
 "
 }
-disabled
-:
-"
-hasTextInput
-"
 action
 :
 {
