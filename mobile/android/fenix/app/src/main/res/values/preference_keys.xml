@@ -9358,7 +9358,7 @@ string
 name
 =
 "
-pref_key_longfox_entry_point_shown_count
+pref_key_longfox_peek_animation_shown_count
 "
 translatable
 =
@@ -9366,7 +9366,7 @@ translatable
 false
 "
 >
-pref_key_longfox_entry_point_shown_count
+pref_key_longfox_peek_animation_shown_count
 <
 /
 string

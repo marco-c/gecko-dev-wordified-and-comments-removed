@@ -779,7 +779,7 @@ Settings
 .
 Companion
 .
-LONGFOX_ENTRY_POINT_MAX_SHOWS
+LONGFOX_PEEK_ANIMATION_MAX_SHOWS
 import
 org
 .
@@ -985,12 +985,12 @@ INACTIVE_TAB_MINIMUM_TO_SHOW_AUTO_CLOSE_DIALOG
 20
 const
 val
-LONGFOX_ENTRY_POINT_MAX_SHOWS
+LONGFOX_PEEK_ANIMATION_MAX_SHOWS
 =
 5
 const
 val
-LONGFOX_ENTRY_POINT_LAUNCH_INTERVAL
+LONGFOX_PEEK_ANIMATION_LAUNCH_INTERVAL
 =
 3
 const
@@ -17594,8 +17594,7 @@ to
 gate
 the
 longfox
-entry
-point
+peek
 animation
 .
 *
@@ -17630,8 +17629,7 @@ of
 times
 the
 longfox
-entry
-point
+peek
 animation
 has
 been
@@ -17644,7 +17642,7 @@ homepage
 Capped
 at
 [
-LONGFOX_ENTRY_POINT_MAX_SHOWS
+LONGFOX_PEEK_ANIMATION_MAX_SHOWS
 ]
 ;
 once
@@ -17659,7 +17657,7 @@ shown
 *
 /
 var
-longfoxEntryPointShownCount
+longfoxPeekAnimationShownCount
 by
 intPreference
 (
@@ -17673,7 +17671,7 @@ R
 .
 string
 .
-pref_key_longfox_entry_point_shown_count
+pref_key_longfox_peek_animation_shown_count
 )
 default
 =
@@ -17688,8 +17686,7 @@ true
 when
 the
 longfox
-entry
-point
+peek
 animation
 should
 be
@@ -17727,9 +17724,9 @@ Boolean
 longfoxEnabled
 &
 &
-longfoxEntryPointShownCount
+longfoxPeekAnimationShownCount
 <
-LONGFOX_ENTRY_POINT_MAX_SHOWS
+LONGFOX_PEEK_ANIMATION_MAX_SHOWS
 &
 &
 appLaunchCount
@@ -17739,7 +17736,7 @@ appLaunchCount
 &
 appLaunchCount
 %
-LONGFOX_ENTRY_POINT_LAUNCH_INTERVAL
+LONGFOX_PEEK_ANIMATION_LAUNCH_INTERVAL
 =
 =
 0

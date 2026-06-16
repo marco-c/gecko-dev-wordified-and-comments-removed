@@ -1195,7 +1195,10 @@ true
 showPrivacyReport
 =
 true
-showLongfoxEntryPoint
+longfoxEnabled
+=
+true
+showLongfoxAnimation
 =
 true
 trackersBlockedCount

@@ -4794,11 +4794,11 @@ components
 .
 settings
 .
-longfoxEntryPointShownCount
+longfoxPeekAnimationShownCount
 <
 Settings
 .
-LONGFOX_ENTRY_POINT_MAX_SHOWS
+LONGFOX_PEEK_ANIMATION_MAX_SHOWS
 )
 {
 components
