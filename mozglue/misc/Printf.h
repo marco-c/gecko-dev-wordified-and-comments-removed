@@ -591,12 +591,12 @@ mBase
 ;
 if
 (
-off
-+
 len
 >
 =
 mMaxlen
+-
+off
 )
 {
 newlen
