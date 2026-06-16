@@ -414,6 +414,9 @@ aValue
 aValue
 ;
 case
+eCSSProperty_border_image_outset
+:
+case
 eCSSProperty_font_size_adjust
 :
 case
