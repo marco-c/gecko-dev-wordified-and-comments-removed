@@ -5505,7 +5505,10 @@ uint32_t
 double
 double
 double
-uint32_t
+nsIWidget
+:
+:
+NativeModifiers
 uint32_t
 nsISynthesizedEventCallback
 *
@@ -5532,7 +5535,10 @@ aNativeMessage
 aDeltaX
 aDeltaY
 aDeltaZ
+GetWidgetModifiers
+(
 aModifierFlags
+)
 aAdditionalFlags
 aCallback
 )

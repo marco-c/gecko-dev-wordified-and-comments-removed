@@ -25834,7 +25834,10 @@ double
 aDeltaY
 double
 aDeltaZ
-uint32_t
+nsIWidget
+:
+:
+NativeModifiers
 aModifierFlags
 uint32_t
 aAdditionalFlags

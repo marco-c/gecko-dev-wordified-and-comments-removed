@@ -1386,7 +1386,10 @@ uint32_t
 aNativeMessage
 int32_t
 aDelta
-uint32_t
+nsIWidget
+:
+:
+NativeModifiers
 aModifierFlags
 uint32_t
 aAdditionalFlags
@@ -1493,10 +1496,6 @@ if
 (
 aModifierFlags
 &
-static_cast
-<
-uint32_t
->
 (
 nsIWidget
 :
@@ -1526,10 +1525,6 @@ if
 (
 aModifierFlags
 &
-static_cast
-<
-uint32_t
->
 (
 nsIWidget
 :
