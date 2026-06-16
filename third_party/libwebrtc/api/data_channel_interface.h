@@ -304,6 +304,14 @@ uint64_t
 {
 }
 virtual
+void
+OnMaxMessageSize
+(
+int
+)
+{
+}
+virtual
 bool
 IsOkToCallOnTheNetworkThread
 (

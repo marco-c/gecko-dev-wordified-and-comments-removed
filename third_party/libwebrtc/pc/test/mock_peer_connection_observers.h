@@ -2459,6 +2459,15 @@ override
 {
 }
 void
+OnMaxMessageSize
+(
+int
+max_message_size
+)
+override
+{
+}
+void
 OnStateChange
 (
 )
