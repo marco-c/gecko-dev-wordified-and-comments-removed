@@ -1048,6 +1048,9 @@ status
 IPProtectionMenuStatus
 .
 Enabled
+IPProtectionMenuStatus
+.
+Activating
 -
 >
 MenuItemState
@@ -1072,9 +1075,6 @@ DISABLED
 IPProtectionMenuStatus
 .
 Disabled
-IPProtectionMenuStatus
-.
-Activating
 IPProtectionMenuStatus
 .
 AuthRequired
