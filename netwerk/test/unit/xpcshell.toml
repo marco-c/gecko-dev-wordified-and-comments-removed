@@ -11715,6 +11715,13 @@ js
 ]
 [
 "
+test_moz_http2_exception_handling
+.
+js
+"
+]
+[
+"
 test_mozTXTToHTMLConv
 .
 js
