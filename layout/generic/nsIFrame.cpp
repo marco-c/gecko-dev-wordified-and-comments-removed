@@ -19,11 +19,6 @@ algorithm
 >
 #
 include
-<
-cmath
->
-#
-include
 "
 AnchorPositioningUtils
 .
@@ -9750,6 +9745,9 @@ k
 bool
 isTopLeftSquare
 =
+std
+:
+:
 isinf
 (
 aCornerShape
@@ -9775,6 +9773,9 @@ k
 bool
 isTopRightSquare
 =
+std
+:
+:
 isinf
 (
 aCornerShape
@@ -9800,6 +9801,9 @@ k
 bool
 isBottomLeftSquare
 =
+std
+:
+:
 isinf
 (
 aCornerShape
@@ -9825,6 +9829,9 @@ k
 bool
 isBottomRightSquare
 =
+std
+:
+:
 isinf
 (
 aCornerShape
