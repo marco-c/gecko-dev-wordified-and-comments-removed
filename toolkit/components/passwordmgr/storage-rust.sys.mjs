@@ -997,7 +997,13 @@ error
 )
 {
 throw
+new
+Error
+(
 error
+.
+message
+)
 ;
 }
 /
