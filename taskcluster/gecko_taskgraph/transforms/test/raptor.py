@@ -265,6 +265,7 @@ Optional
         
 optionally_keyed_by
 (
+            
 "
 app
 "
@@ -273,6 +274,9 @@ test
 -
 platform
 "
+"
+variant
+"
 list
 [
 object
@@ -280,6 +284,7 @@ object
 use_msgspec
 =
 True
+        
 )
     
 ]
@@ -1028,12 +1033,15 @@ tests
         
 resolve_keyed_by
 (
+            
 test
+            
 "
 raptor
 .
 subtests
 "
+            
 item_name
 =
 test
@@ -1044,6 +1052,23 @@ test
 name
 "
 ]
+            
+variant
+=
+test
+[
+"
+attributes
+"
+]
+.
+get
+(
+"
+unittest_variant
+"
+)
+        
 )
         
 yield
