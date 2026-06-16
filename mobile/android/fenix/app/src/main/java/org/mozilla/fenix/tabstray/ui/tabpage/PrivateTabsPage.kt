@@ -631,6 +631,10 @@ onCloseTabGroupClick
 =
 {
 }
+onTabGroupOnboardingDismiss
+=
+{
+}
 dragAndDropEnabled
 =
 false

@@ -1999,9 +1999,6 @@ onTabGroupOnboardingDismiss
 -
 >
 Unit
-=
-{
-}
 header
 :
 (
@@ -8094,6 +8091,10 @@ onCloseTabGroupClick
 =
 {
 }
+onTabGroupOnboardingDismiss
+=
+{
+}
 focusEnabled
 =
 true
@@ -8241,6 +8242,10 @@ onEditTabGroupClick
 {
 }
 onCloseTabGroupClick
+=
+{
+}
+onTabGroupOnboardingDismiss
 =
 {
 }
@@ -8850,6 +8855,10 @@ onEditTabGroupClick
 {
 }
 onCloseTabGroupClick
+=
+{
+}
+onTabGroupOnboardingDismiss
 =
 {
 }
