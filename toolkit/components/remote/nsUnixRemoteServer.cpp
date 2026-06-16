@@ -87,7 +87,7 @@ IsEmpty
 toolkit
 -
 >
-SetStartupToken
+SetActivationToken
 (
 aStartupToken
 )

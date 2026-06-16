@@ -6278,7 +6278,7 @@ mWindowActivationTokenFromEnv
 toolkit
 -
 >
-GetStartupToken
+GetActivationToken
 (
 )
 ;
@@ -6355,7 +6355,7 @@ SetFocusTimestamp
 toolkit
 -
 >
-SetStartupToken
+SetActivationToken
 (
 "
 "
@@ -6805,7 +6805,7 @@ startupToken
 toolkit
 -
 >
-GetStartupToken
+GetActivationToken
 (
 )
 ;

@@ -54,7 +54,7 @@ nullptr
 ;
 }
 void
-SetStartupToken
+SetActivationToken
 (
 const
 nsACString
@@ -62,7 +62,7 @@ nsACString
 aToken
 )
 {
-mStartupToken
+mActivationToken
 =
 aToken
 ;
@@ -70,13 +70,13 @@ aToken
 const
 nsCString
 &
-GetStartupToken
+GetActivationToken
 (
 )
 const
 {
 return
-mStartupToken
+mActivationToken
 ;
 }
 void
@@ -109,7 +109,7 @@ nsGTKToolkit
 gToolkit
 ;
 nsCString
-mStartupToken
+mActivationToken
 ;
 uint32_t
 mFocusTimestamp
