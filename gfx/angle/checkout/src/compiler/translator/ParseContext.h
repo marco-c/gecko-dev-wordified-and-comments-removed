@@ -3521,6 +3521,14 @@ mComputeShaderLocalSize
 int
 mNumViews
 ;
+unsigned
+int
+mMaxUniformBlocks
+;
+unsigned
+int
+mNumUniformBlocks
+;
 int
 mMaxNumViews
 ;

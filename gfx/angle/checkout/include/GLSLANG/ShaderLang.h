@@ -55,7 +55,7 @@ h
 #
 define
 ANGLE_SH_VERSION
-308
+309
 enum
 ShShaderSpec
 {
@@ -532,6 +532,11 @@ passHighpToPackUnormSnormBuiltins
 :
 1
 ;
+uint64_t
+validatePerStageMaxUniformBlocks
+:
+1
+;
 ShCompileOptionsMetal
 metal
 ;
@@ -767,6 +772,12 @@ int
 MaxProgramTexelOffset
 ;
 int
+MaxFragmentUniformBlocks
+;
+int
+MaxVertexUniformBlocks
+;
+int
 MaxDualSourceDrawBuffers
 ;
 int
@@ -880,6 +891,9 @@ float
 MaxPointSize
 ;
 int
+MaxComputeUniformBlocks
+;
+int
 MaxGeometryUniformComponents
 ;
 int
@@ -940,6 +954,9 @@ int
 MaxTessControlAtomicCounterBuffers
 ;
 int
+MaxTessControlUniformBlocks
+;
+int
 MaxTessPatchComponents
 ;
 int
@@ -968,6 +985,9 @@ MaxTessEvaluationAtomicCounters
 ;
 int
 MaxTessEvaluationAtomicCounterBuffers
+;
+int
+MaxTessEvaluationUniformBlocks
 ;
 int
 SubPixelBits
