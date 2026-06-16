@@ -3448,8 +3448,6 @@ already_AddRefed
 <
 nsIDNSHTTPSSVCRecord
 >
-&
-&
 aRecord
 )
 ;

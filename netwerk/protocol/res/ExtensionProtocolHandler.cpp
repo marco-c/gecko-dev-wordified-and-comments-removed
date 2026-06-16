@@ -556,8 +556,6 @@ already_AddRefed
 <
 nsIJARChannel
 >
-&
-&
 aJarChannel
 nsIFile
 *
