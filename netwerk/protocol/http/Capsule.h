@@ -1067,6 +1067,17 @@ template
 typename
 CapsuleStruct
 >
+requires
+(
+std
+:
+:
+is_constructible_v
+<
+CapsuleValue
+CapsuleStruct
+>
+)
 explicit
 Capsule
 (
