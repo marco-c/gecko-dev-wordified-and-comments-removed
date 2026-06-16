@@ -360,10 +360,10 @@ const
 CSSPropertyId
 &
 aPropertyId
-bool
-aNested
-bool
-aParenLess
+const
+SerializationContext
+&
+aContext
 nsACString
 &
 aDest

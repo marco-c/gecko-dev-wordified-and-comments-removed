@@ -196,8 +196,10 @@ const
 CSSPropertyId
 &
 aPropertyId
-bool
-aNested
+const
+SerializationContext
+&
+aContext
 nsACString
 &
 aDest
