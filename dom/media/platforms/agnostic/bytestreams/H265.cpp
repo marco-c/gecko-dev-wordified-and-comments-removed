@@ -10706,6 +10706,12 @@ NumSPS
 if
 (
 numSPS
+=
+=
+0
+|
+|
+numSPS
 !
 =
 config2
