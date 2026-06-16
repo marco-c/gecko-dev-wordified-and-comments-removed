@@ -76,7 +76,7 @@ LOG
 .
 )
 \
-MOZ_LOG
+MOZ_LOG_FMT
 (
 sFFmpegVideoLog
 mozilla
@@ -86,9 +86,7 @@ LogLevel
 :
 :
 Verbose
-(
 __VA_ARGS__
-)
 )
 namespace
 mozilla
