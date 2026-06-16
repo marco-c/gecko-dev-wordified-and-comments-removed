@@ -2678,6 +2678,10 @@ unittest
 -
 mochitest
 -
+chrome
+-
+mochitest
+-
 plain
 -
 mochitest
