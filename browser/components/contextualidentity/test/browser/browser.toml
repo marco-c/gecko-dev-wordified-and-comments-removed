@@ -431,6 +431,13 @@ Bug
 ]
 [
 "
+browser_urlbarContainerMenu
+.
+js
+"
+]
+[
+"
 browser_usercontext
 .
 js
