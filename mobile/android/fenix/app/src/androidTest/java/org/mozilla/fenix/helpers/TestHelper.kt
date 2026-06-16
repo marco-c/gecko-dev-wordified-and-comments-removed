@@ -549,6 +549,17 @@ appName
 appContext
 .
 appName
+val
+shortAppName
+=
+getStringResource
+(
+R
+.
+string
+.
+app_name_firefox
+)
 var
 mDevice
 :
