@@ -55,7 +55,7 @@ qinfo
 }
 ;
 use
-neqo_crypto
+nss
 :
 :
 {

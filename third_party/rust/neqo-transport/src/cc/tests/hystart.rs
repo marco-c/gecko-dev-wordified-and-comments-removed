@@ -34,7 +34,6 @@ cc
 :
 :
 {
-CWND_INITIAL_PKTS
 CongestionController
 as
 _
@@ -49,6 +48,10 @@ hystart
 :
 :
 HyStart
+tests
+:
+:
+INITIAL_CWND
 }
 packet
 :
@@ -109,15 +112,6 @@ from_millis
 (
 80
 )
-;
-const
-INITIAL_CWND
-:
-usize
-=
-CWND_INITIAL_PKTS
-*
-MIN_INITIAL_PACKET_SIZE
 ;
 fn
 make_hystart_paced
@@ -199,6 +193,7 @@ hystart
 on_packet_sent
 (
 window_end
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 assert
@@ -246,6 +241,9 @@ base_rtt
 i
 INITIAL_CWND
 cc_stats
+now
+(
+)
 )
 ;
 }
@@ -280,6 +278,7 @@ hystart
 on_packet_sent
 (
 window_end2
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 assert
@@ -329,6 +328,9 @@ new_rtt
 i
 INITIAL_CWND
 cc_stats
+now
+(
+)
 )
 ;
 }
@@ -388,6 +390,7 @@ hystart
 on_packet_sent
 (
 window_end
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 assert_eq
@@ -418,6 +421,7 @@ hystart
 on_packet_sent
 (
 11
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 hystart
@@ -425,6 +429,7 @@ hystart
 on_packet_sent
 (
 12
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 assert_eq
@@ -481,6 +486,9 @@ CongestionControlStats
 :
 :
 default
+(
+)
+now
 (
 )
 )
@@ -566,6 +574,9 @@ CongestionControlStats
 :
 :
 default
+(
+)
+now
 (
 )
 )
@@ -654,6 +665,7 @@ hystart
 on_packet_sent
 (
 window_end2
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 assert_eq
@@ -720,6 +732,9 @@ CongestionControlStats
 default
 (
 )
+now
+(
+)
 )
 ;
 assert_eq
@@ -777,6 +792,9 @@ CongestionControlStats
 default
 (
 )
+now
+(
+)
 )
 ;
 assert_eq
@@ -832,6 +850,9 @@ CongestionControlStats
 :
 :
 default
+(
+)
+now
 (
 )
 )
@@ -954,6 +975,9 @@ CongestionControlStats
 default
 (
 )
+now
+(
+)
 )
 ;
 assert_eq
@@ -1009,6 +1033,7 @@ hystart
 on_packet_sent
 (
 window_end1
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 for
@@ -1042,6 +1067,9 @@ CongestionControlStats
 default
 (
 )
+now
+(
+)
 )
 ;
 }
@@ -1062,6 +1090,7 @@ hystart
 on_packet_sent
 (
 window_end2
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 for
@@ -1096,6 +1125,9 @@ CongestionControlStats
 :
 :
 default
+(
+)
+now
 (
 )
 )
@@ -1607,6 +1639,7 @@ hystart
 on_packet_sent
 (
 new_window_end
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 for
@@ -1639,6 +1672,9 @@ INITIAL_CWND
 &
 mut
 cc_stats
+now
+(
+)
 )
 ;
 }
@@ -1662,6 +1698,9 @@ INITIAL_CWND
 &
 mut
 cc_stats
+now
+(
+)
 )
 ;
 if
@@ -1866,6 +1905,7 @@ hystart
 on_packet_sent
 (
 new_window_end
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 for
@@ -1898,6 +1938,9 @@ INITIAL_CWND
 &
 mut
 cc_stats
+now
+(
+)
 )
 ;
 }
@@ -1974,6 +2017,7 @@ hystart
 on_packet_sent
 (
 window_end
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 assert
@@ -2028,6 +2072,9 @@ CongestionControlStats
 default
 (
 )
+now
+(
+)
 )
 ;
 }
@@ -2055,6 +2102,7 @@ hystart
 on_packet_sent
 (
 window_end2
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 for
@@ -2090,6 +2138,9 @@ CongestionControlStats
 :
 :
 default
+(
+)
+now
 (
 )
 )
@@ -2131,6 +2182,9 @@ CongestionControlStats
 :
 :
 default
+(
+)
+now
 (
 )
 )
@@ -2190,6 +2244,9 @@ CongestionControlStats
 :
 :
 default
+(
+)
+now
 (
 )
 )
@@ -2291,6 +2348,7 @@ hystart
 on_packet_sent
 (
 new_window_end
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 for
@@ -2341,6 +2399,9 @@ CongestionControlStats
 :
 :
 default
+(
+)
+now
 (
 )
 )
@@ -2402,6 +2463,9 @@ CongestionControlStats
 :
 :
 default
+(
+)
+now
 (
 )
 )
@@ -2555,6 +2619,7 @@ hystart
 on_packet_sent
 (
 new_window_end
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 for
@@ -2590,6 +2655,9 @@ CongestionControlStats
 :
 :
 default
+(
+)
+now
 (
 )
 )
@@ -2663,6 +2731,7 @@ hystart
 on_packet_sent
 (
 0
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 let
@@ -2717,6 +2786,7 @@ hystart
 on_packet_sent
 (
 0
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 let
@@ -2831,10 +2901,7 @@ cc
 ssthresh
 (
 )
-usize
-:
-:
-MAX
+None
 "
 Should
 start
@@ -2911,6 +2978,7 @@ on_packet_sent
 &
 pkt
 now
+false
 )
 ;
 next_send
@@ -3110,21 +3178,17 @@ iteration
 }
 if
 ssthresh_before
-=
-=
-usize
-:
-:
-MAX
+.
+is_none
+(
+)
 &
 &
 ssthresh_after
-!
-=
-usize
-:
-:
-MAX
+.
+is_some
+(
+)
 {
 ca_detected
 =
@@ -3246,6 +3310,7 @@ on_packet_sent
 &
 pkt
 now
+false
 )
 ;
 next_send
@@ -3297,10 +3362,13 @@ cc
 ssthresh
 (
 )
+Some
+(
 cc
 .
 cwnd
 (
+)
 )
 "
 ssthresh
