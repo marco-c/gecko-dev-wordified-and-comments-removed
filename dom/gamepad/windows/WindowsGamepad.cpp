@@ -2279,7 +2279,12 @@ mXInput
 .
 mXInputGetState
 (
+mGamepads
+[
 i
+]
+.
+userIndex
 &
 state
 )
