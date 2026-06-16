@@ -34,11 +34,6 @@ h
 #
 include
 <
-functional
->
-#
-include
-<
 string
 >
 #
@@ -1220,10 +1215,6 @@ move
 aOptions
 )
 )
-mText
-(
-aText
-)
 {
 MOZ_ASSERT
 (
@@ -1258,8 +1249,14 @@ if
 profiler_is_active_and_unpaused
 (
 )
-&
-&
+)
+{
+mText
+=
+aText
+;
+if
+(
 mOptions
 .
 Timing
@@ -1287,6 +1284,7 @@ InstantNow
 )
 )
 ;
+}
 }
 }
 ~
