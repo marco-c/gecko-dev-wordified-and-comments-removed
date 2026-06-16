@@ -2748,6 +2748,11 @@ Cell
 cell
 )
 ;
+void
+deactivate
+(
+)
+;
 mozilla
 :
 :
