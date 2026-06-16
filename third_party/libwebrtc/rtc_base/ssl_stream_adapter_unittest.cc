@@ -2485,7 +2485,7 @@ constexpr
 int
 kBufferCapacity
 =
-1
+2
 ;
 constexpr
 size_t

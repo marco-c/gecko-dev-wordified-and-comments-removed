@@ -3773,7 +3773,7 @@ kDefaultNetworkIgnoreMask
 SSLProtocolVersion
 ssl_max_version
 =
-SSL_PROTOCOL_DTLS_12
+SSL_PROTOCOL_DTLS_13
 ;
 }
 ;
