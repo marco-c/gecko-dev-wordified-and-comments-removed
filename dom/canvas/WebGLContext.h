@@ -4541,6 +4541,16 @@ mGLMaxProgramTexelOffset
 =
 0
 ;
+uint32_t
+mGLMaxVertexUniformBlocks
+=
+0
+;
+uint32_t
+mGLMaxFragmentUniformBlocks
+=
+0
+;
 public
 :
 auto
