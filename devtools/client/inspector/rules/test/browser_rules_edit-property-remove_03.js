@@ -391,9 +391,11 @@ view
 once
 (
 "
-ruleview
+property
 -
-changed
+value
+-
+updated
 "
 )
 ;

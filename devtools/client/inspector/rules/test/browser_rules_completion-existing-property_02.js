@@ -97,6 +97,7 @@ aliceblue
 "
 OPEN
 SELECTED
+!
 CHANGE
 ]
 [
@@ -130,6 +131,7 @@ blue
 OPEN
 !
 SELECTED
+!
 CHANGE
 ]
 [
@@ -160,6 +162,7 @@ blue
 OPEN
 !
 SELECTED
+!
 CHANGE
 ]
 [
@@ -178,6 +181,7 @@ color
 OPEN
 !
 SELECTED
+!
 CHANGE
 ]
 [
@@ -576,6 +580,15 @@ key
 =
 "
 VK_BACK_SPACE
+"
+&
+&
+key
+!
+=
+=
+"
+VK_TAB
 "
 )
 {

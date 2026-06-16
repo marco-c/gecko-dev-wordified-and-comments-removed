@@ -682,12 +682,12 @@ wrapper
 )
 ;
 await
+onShapeChangeApplied
+;
+await
 reflowContentPage
 (
 )
-;
-await
-onShapeChangeApplied
 ;
 const
 offsetPathAfterUpdate
