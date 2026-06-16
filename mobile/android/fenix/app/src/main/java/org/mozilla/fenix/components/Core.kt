@@ -3730,9 +3730,6 @@ client
 manifestProvider
 =
 merinoManifestProvider
-useMerinoManifest
-=
-true
 )
 }
 val
