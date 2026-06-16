@@ -13,7 +13,6 @@ audio
 Exposed
 =
 Window
-SecureContext
 ]
 interface
 HTMLUserMediaElement
