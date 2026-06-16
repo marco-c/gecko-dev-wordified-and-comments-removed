@@ -29,6 +29,7 @@ define
 INITIALIZE_MODULE
 (
 X
+HELP
 )
 X
 #
