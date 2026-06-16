@@ -1,9 +1,9 @@
 #
 ifndef
-SIPCCSDPATTRIBUTELIST_H_
+DOM_MEDIA_WEBRTC_SDP_SIPCCSDPATTRIBUTELIST_H_
 #
 define
-SIPCCSDPATTRIBUTELIST_H_
+DOM_MEDIA_WEBRTC_SDP_SIPCCSDPATTRIBUTELIST_H_
 #
 include
 "
@@ -76,8 +76,10 @@ virtual
 bool
 HasAttribute
 (
+const
 AttributeType
 type
+const
 bool
 sessionFallback
 )
@@ -90,8 +92,10 @@ SdpAttribute
 *
 GetAttribute
 (
+const
 AttributeType
 type
+const
 bool
 sessionFallback
 )
@@ -112,6 +116,7 @@ virtual
 void
 RemoveAttribute
 (
+const
 AttributeType
 type
 )
@@ -477,6 +482,8 @@ virtual
 SipccSdpAttributeList
 (
 )
+=
+default
 ;
 SipccSdpAttributeList
 (
@@ -558,6 +565,7 @@ Load
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 InternalResults
@@ -571,6 +579,7 @@ LoadSimpleStrings
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 InternalResults
@@ -584,10 +593,13 @@ LoadSimpleString
 sdp_t
 *
 sdp
+const
 uint16_t
 level
+const
 sdp_attr_e
 attr
+const
 AttributeType
 targetType
 InternalResults
@@ -601,6 +613,7 @@ LoadSimpleNumbers
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 InternalResults
@@ -614,10 +627,13 @@ LoadSimpleNumber
 sdp_t
 *
 sdp
+const
 uint16_t
 level
+const
 sdp_attr_e
 attr
+const
 AttributeType
 targetType
 InternalResults
@@ -631,6 +647,7 @@ LoadFlags
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 )
@@ -641,6 +658,7 @@ LoadDirection
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 InternalResults
@@ -654,6 +672,7 @@ LoadRtpmap
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 InternalResults
@@ -667,6 +686,7 @@ LoadSctpmap
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 InternalResults
@@ -680,6 +700,7 @@ LoadIceAttributes
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 )
@@ -690,6 +711,7 @@ LoadFingerprint
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 InternalResults
@@ -703,6 +725,7 @@ LoadCandidate
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 )
@@ -713,6 +736,7 @@ LoadSetup
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 )
@@ -723,6 +747,7 @@ LoadSsrc
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 )
@@ -733,6 +758,7 @@ LoadSsrcGroup
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 )
@@ -743,6 +769,7 @@ LoadImageattr
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 InternalResults
@@ -756,6 +783,7 @@ LoadSimulcast
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 InternalResults
@@ -769,6 +797,7 @@ LoadGroups
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 InternalResults
@@ -782,6 +811,7 @@ LoadMsidSemantics
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 InternalResults
@@ -795,6 +825,7 @@ LoadIdentity
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 )
@@ -805,6 +836,7 @@ LoadDtlsMessage
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 )
@@ -815,6 +847,7 @@ LoadFmtp
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 )
@@ -825,6 +858,7 @@ LoadMsids
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 InternalResults
@@ -838,6 +872,7 @@ LoadRid
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 InternalResults
@@ -851,6 +886,7 @@ LoadExtmap
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 InternalResults
@@ -864,6 +900,7 @@ LoadRtcpFb
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 InternalResults
@@ -877,6 +914,7 @@ LoadRtcp
 sdp_t
 *
 sdp
+const
 uint16_t
 level
 InternalResults
@@ -891,6 +929,7 @@ SdpRtpmapAttributeList
 CodecType
 GetCodecType
 (
+const
 rtp_ptype
 type
 )
@@ -909,6 +948,7 @@ mSessionLevel
 bool
 IsAllowedHere
 (
+const
 SdpAttribute
 :
 :
@@ -920,11 +960,13 @@ const
 void
 WarnAboutMisplacedAttribute
 (
+const
 SdpAttribute
 :
 :
 AttributeType
 type
+const
 uint32_t
 lineNumber
 InternalResults
@@ -937,8 +979,13 @@ SipccSdpAttributeList
 *
 mSessionLevel
 ;
+mozilla
+:
+:
+UniquePtr
+<
 SdpAttribute
-*
+>
 mAttributes
 [
 kNumAttributeTypes
