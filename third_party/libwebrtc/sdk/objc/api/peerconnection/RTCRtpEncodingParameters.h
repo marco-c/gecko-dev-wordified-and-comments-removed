@@ -106,6 +106,16 @@ nonatomic
 copy
 nullable
 )
+NSString
+*
+scalabilityMode
+;
+property
+(
+nonatomic
+copy
+nullable
+)
 NSNumber
 *
 scaleResolutionDownBy
