@@ -3753,6 +3753,13 @@ defined
 (
 XP_MACOSX
 )
+&
+&
+!
+defined
+(
+NIGHTLY_BUILD
+)
 value
 :
 3
