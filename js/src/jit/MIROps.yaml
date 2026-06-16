@@ -15894,7 +15894,7 @@ utcTime
 Double
 result_type
 :
-Value
+Double
 #
 Neither
 movable
@@ -15915,7 +15915,7 @@ generate_lir
 true
 lir_temps
 :
-2
+1
 -
 name
 :
@@ -15927,7 +15927,7 @@ utcTime
 Double
 result_type
 :
-Value
+Double
 #
 Neither
 movable
@@ -15948,7 +15948,7 @@ generate_lir
 true
 lir_temps
 :
-2
+1
 -
 name
 :
@@ -15960,7 +15960,7 @@ utcTime
 Double
 result_type
 :
-Value
+Double
 #
 Neither
 movable
@@ -15981,7 +15981,7 @@ generate_lir
 true
 lir_temps
 :
-2
+1
 -
 name
 :
