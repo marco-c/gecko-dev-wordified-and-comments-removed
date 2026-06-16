@@ -373,11 +373,11 @@ is_null
 &
 &
 len
-%
+.
+is_multiple_of
+(
 2
-=
-=
-0
+)
 )
 ;
 let
@@ -542,6 +542,10 @@ self
 -
 >
 DeviceInfoSetIter
+<
+'
+_
+>
 {
 DeviceInfoSetIter
 :

@@ -185,6 +185,13 @@ u32
 }
 Input
 Output
+#
+[
+allow
+(
+dead_code
+)
+]
 ReportCount
 {
 data

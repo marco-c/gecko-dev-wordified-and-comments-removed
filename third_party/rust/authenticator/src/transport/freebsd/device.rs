@@ -1117,15 +1117,8 @@ io
 Error
 :
 :
-new
+other
 (
-io
-:
-:
-ErrorKind
-:
-:
-Other
 "
 Not
 implemented

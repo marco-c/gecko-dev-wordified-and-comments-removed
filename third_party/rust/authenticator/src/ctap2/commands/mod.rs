@@ -163,6 +163,10 @@ get_version
 ;
 pub
 mod
+large_blobs
+;
+pub
+mod
 make_credentials
 ;
 pub
@@ -1149,6 +1153,9 @@ CredentialManagement
 Selection
 =
 0x0B
+LargeBlobs
+=
+0x0C
 AuthenticatorConfig
 =
 0x0D

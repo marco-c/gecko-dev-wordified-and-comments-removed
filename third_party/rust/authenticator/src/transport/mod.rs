@@ -1281,9 +1281,8 @@ get_authenticator_info
 (
 )
 .
-map_or
+is_some_and
 (
-false
 |
 i
 |

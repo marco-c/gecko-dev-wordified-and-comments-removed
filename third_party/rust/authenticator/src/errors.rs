@@ -68,6 +68,7 @@ MaxPinLength
 PubCredParams
 ResidentKey
 UserVerification
+LargeBlobs
 }
 #
 [
