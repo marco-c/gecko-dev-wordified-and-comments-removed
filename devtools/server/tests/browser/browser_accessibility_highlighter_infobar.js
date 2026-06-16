@@ -99,6 +99,9 @@ button
 "
 a11yWalker
 "
+button
+"
+"
 Accessible
 Button
 "
@@ -124,6 +127,13 @@ walker
 h1
 "
 a11yWalker
+"
+heading
+(
+level
+1
+)
+"
 "
 Lorem
 ipsum
@@ -176,6 +186,7 @@ checkNameAndRole
 walker
 querySelector
 a11yWalker
+expectedRole
 expectedName
 )
 {
@@ -207,7 +218,6 @@ node
 const
 {
 name
-role
 }
 =
 accessibleFront
@@ -263,7 +273,7 @@ is
 options
 .
 role
-role
+expectedRole
 "
 Accessible
 highlight
