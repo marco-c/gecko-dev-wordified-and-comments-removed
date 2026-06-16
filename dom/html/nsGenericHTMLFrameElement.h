@@ -93,8 +93,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 mozilla
 :

@@ -637,8 +637,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 FromParser
 aFromParser

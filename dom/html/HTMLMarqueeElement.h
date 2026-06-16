@@ -43,8 +43,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 :

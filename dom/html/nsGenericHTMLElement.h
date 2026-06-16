@@ -264,8 +264,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 :
@@ -4093,8 +4091,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 ;
@@ -4465,8 +4461,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 FormControlType
 )
@@ -4823,8 +4817,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 mozilla
 :
@@ -5088,8 +5080,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 mozilla
 :
 :
@@ -5150,8 +5140,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 \
 mozilla
@@ -5201,8 +5189,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 \
 mozilla
@@ -5267,8 +5253,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 \
 mozilla
@@ -5373,8 +5357,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 \
 mozilla
@@ -5466,8 +5448,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 mozilla
 :
@@ -5501,8 +5481,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 mozilla
 :

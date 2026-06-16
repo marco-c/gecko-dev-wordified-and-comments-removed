@@ -2392,8 +2392,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 :
@@ -7059,10 +7057,12 @@ const
 {
 for
 (
+const
 WeakPtr
 <
 FrameCaptureListener
 >
+&
 listener
 :
 mRequestedFrameListeners
@@ -7188,10 +7188,12 @@ surface
 ;
 for
 (
+const
 WeakPtr
 <
 FrameCaptureListener
 >
+&
 listener
 :
 mRequestedFrameListeners

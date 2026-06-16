@@ -56,8 +56,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 mozilla
 :
@@ -137,8 +135,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 :

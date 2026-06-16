@@ -51,8 +51,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 :

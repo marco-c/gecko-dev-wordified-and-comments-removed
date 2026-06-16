@@ -7,17 +7,6 @@ mozilla_dom_HTMLSourceElement_h
 #
 include
 "
-mozilla
-/
-dom
-/
-HTMLMediaElement
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -33,6 +22,9 @@ dom
 {
 class
 MediaList
+;
+class
+MediaSource
 ;
 class
 HTMLSourceElement
@@ -56,8 +48,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 ;

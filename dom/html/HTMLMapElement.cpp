@@ -77,8 +77,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 :
