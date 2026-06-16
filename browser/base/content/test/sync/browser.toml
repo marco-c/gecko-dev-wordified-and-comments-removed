@@ -14,13 +14,6 @@ js
 ]
 [
 "
-browser_appmenu_nova_fxa_label_signin
-.
-js
-"
-]
-[
-"
 browser_appmenu_signin_cta_variants
 .
 js
