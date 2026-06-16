@@ -257,11 +257,16 @@ cleanUp
 (
 )
 {
+CacheDirectoryMigration
+.
+resetMigrationState
+(
+)
 File
 (
 testContext
 .
-cacheDir
+noBackupFilesDir
 BLOCKING_FILE_NAME
 )
 .
