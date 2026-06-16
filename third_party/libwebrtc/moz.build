@@ -107,16 +107,6 @@ libwebrtc
 /
 api
 /
-array_view_gn
-"
-"
-/
-third_party
-/
-libwebrtc
-/
-api
-/
 async_dns_resolver_gn
 "
 "
