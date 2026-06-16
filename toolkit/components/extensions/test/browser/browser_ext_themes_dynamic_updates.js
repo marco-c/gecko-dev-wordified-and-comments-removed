@@ -395,13 +395,13 @@ docEl
 hasAttribute
 (
 "
-lwtheme
+theme
 -
 image
 -
-y
+in
 -
-align
+toolbox
 "
 )
 "
