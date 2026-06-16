@@ -63,6 +63,11 @@ TestBuffer
 cpp
 "
 "
+TestFormattingAndStreaming
+.
+cpp
+"
+"
 TestLinkedList
 .
 cpp
