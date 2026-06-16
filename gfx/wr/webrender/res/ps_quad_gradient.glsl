@@ -1275,6 +1275,7 @@ v_gradient_header
 .
 y
 ;
+HIGHP_FS_ADDRESS
 int
 colors_addr
 =
@@ -1289,6 +1290,7 @@ of
 the
 current
 level
+HIGHP_FS_ADDRESS
 int
 level_base_addr
 =
@@ -1935,6 +1937,7 @@ count
 1
 ;
 }
+HIGHP_FS_ADDRESS
 int
 color_pair_address
 =
