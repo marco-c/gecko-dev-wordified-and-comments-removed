@@ -4081,7 +4081,10 @@ int32_t
 aNativeKeyboardLayout
 int32_t
 aNativeKeyCode
-uint32_t
+nsIWidget
+:
+:
+NativeModifiers
 aModifierFlags
 const
 nsAString
