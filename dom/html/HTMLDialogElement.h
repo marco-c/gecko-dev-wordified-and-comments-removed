@@ -321,6 +321,12 @@ aReturnValue
 {
 mRequestCloseReturnValue
 .
+reset
+(
+)
+;
+mRequestCloseReturnValue
+.
 emplace
 (
 aReturnValue
