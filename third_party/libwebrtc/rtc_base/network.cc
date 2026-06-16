@@ -6242,6 +6242,13 @@ network_preference_
 =
 network_preference_
 ;
+clone
+-
+>
+network_slice_
+=
+network_slice_
+;
 return
 clone
 ;
