@@ -500,11 +500,7 @@ TIMEOUT
 while
 (
 !
-(
-shutdownComplete
-=
 sShutdownComplete
-)
 &
 &
 (
@@ -522,6 +518,10 @@ timeStart
 TIMEOUT
 )
 )
+;
+shutdownComplete
+=
+sShutdownComplete
 ;
 }
 if
