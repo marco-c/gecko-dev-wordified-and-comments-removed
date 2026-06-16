@@ -3,6 +3,12 @@ __future__
 import
 annotations
 from
+collections
+.
+abc
+import
+Iterator
+from
 re
 import
 Match
@@ -12,7 +18,6 @@ typing
 import
 Any
 Callable
-Iterator
 Literal
 from
 .

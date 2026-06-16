@@ -8,11 +8,11 @@ collections
 abc
 import
 Iterator
+Sequence
 from
 typing
 import
 Callable
-Sequence
 from
 .
 .
@@ -134,22 +134,11 @@ None
 )
 xliff_serialize
 :
-(
-    
 Callable
 [
-[
-Resource
-[
-str
-]
-|
-Resource
-[
-Message
-]
-bool
-]
+.
+.
+.
 Iterator
 [
 str
@@ -157,7 +146,6 @@ str
 ]
 |
 None
-)
 try
 :
     
@@ -217,6 +205,20 @@ None
 =
 None
     
+trim_comments
+:
+bool
+=
+False
+    
+*
+    
+fluent_escape_syntax
+:
+bool
+=
+True
+    
 gettext_plurals
 :
 Sequence
@@ -228,7 +230,7 @@ None
 =
 None
     
-trim_comments
+xliff_source_entries
 :
 bool
 =
@@ -329,10 +331,15 @@ fluent
 return
 fluent_serialize
 (
+            
 resource
+escape_syntax
+=
+fluent_escape_syntax
 trim_comments
 =
 trim_comments
+        
 )
     
 elif
@@ -486,8 +493,13 @@ None
 return
 xliff_serialize
 (
+            
 resource
 trim_comments
+source_entries
+=
+xliff_source_entries
+        
 )
     
 else

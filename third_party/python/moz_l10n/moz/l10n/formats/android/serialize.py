@@ -15,7 +15,6 @@ compile
 from
 typing
 import
-Dict
 cast
 from
 lxml
@@ -2573,7 +2572,7 @@ attrib
 =
 cast
 (
-Dict
+dict
 [
 str
 str
@@ -3088,7 +3087,7 @@ attrib
 =
 cast
 (
-Dict
+dict
 [
 str
 str

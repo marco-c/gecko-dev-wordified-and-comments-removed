@@ -8,6 +8,7 @@ collections
 abc
 import
 Iterator
+Sequence
 from
 re
 import
@@ -15,7 +16,6 @@ match
 from
 typing
 import
-Sequence
 cast
 from
 polib

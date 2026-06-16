@@ -54,12 +54,16 @@ parse_xcode_pattern
 def
 parse_trans_unit
 (
+    
 unit
 :
 etree
 .
 _Element
 is_xcode
+:
+bool
+from_source
 :
 bool
 )
@@ -164,7 +168,20 @@ text
 "
 )
     
+msg_name
+=
+"
 target
+"
+if
+not
+from_source
+else
+"
+source
+"
+    
+msg_el
 =
 None
     
@@ -244,23 +261,24 @@ if
 name
 =
 =
-"
-target
-"
+msg_name
 :
                 
 if
-target
+msg_el
 :
                     
 raise
 ValueError
 (
+                        
 f
 "
 Duplicate
 <
-target
+{
+msg_name
+}
 >
 in
 <
@@ -276,9 +294,10 @@ id
 unit
 }
 "
+                    
 )
                 
-target
+msg_el
 =
 el
                 
@@ -288,9 +307,7 @@ meta
 attrib_as_metadata
 (
 el
-"
-target
-"
+msg_name
 )
             
 else
@@ -445,7 +462,7 @@ PatternMessage
 [
 ]
 if
-target
+msg_el
 is
 None
 else
@@ -453,7 +470,7 @@ list
 (
 parse_pattern
 (
-target
+msg_el
 is_xcode
 )
 )

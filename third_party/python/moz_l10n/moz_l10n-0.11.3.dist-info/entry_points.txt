@@ -68,3 +68,16 @@ bin
 lint
 :
 cli
+l10n
+-
+migrate
+=
+moz
+.
+l10n
+.
+bin
+.
+migrate
+:
+cli

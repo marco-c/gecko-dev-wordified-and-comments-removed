@@ -3,7 +3,9 @@ __future__
 import
 annotations
 from
-typing
+collections
+.
+abc
 import
 Sequence
 from

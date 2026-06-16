@@ -187,6 +187,9 @@ json_linecomment_loads
 (
 source
 )
+[
+0
+]
     
 entries
 :
