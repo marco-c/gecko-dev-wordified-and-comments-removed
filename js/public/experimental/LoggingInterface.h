@@ -15,6 +15,13 @@ h
 "
 #
 include
+<
+stdarg
+.
+h
+>
+#
+include
 "
 jstypes
 .

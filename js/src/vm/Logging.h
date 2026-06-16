@@ -27,7 +27,7 @@ include
 "
 jit
 /
-JitSpewer
+JitSpewChannelList
 .
 h
 "
