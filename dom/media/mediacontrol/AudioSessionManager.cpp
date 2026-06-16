@@ -134,6 +134,11 @@ UpdateSelectedAudioSession
 (
 )
 ;
+UpdateAllAudioSessionStates
+(
+aBrowsingContextId
+)
+;
 RemoveRecordIfEmpty
 (
 aBrowsingContextId
@@ -637,6 +642,11 @@ SetState
 (
 aBrowsingContextId
 aNewState
+)
+;
+UpdateAllAudioSessionStates
+(
+aBrowsingContextId
 )
 ;
 RemoveRecordIfEmpty
