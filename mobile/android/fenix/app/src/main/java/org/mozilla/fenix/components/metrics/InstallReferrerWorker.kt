@@ -530,6 +530,16 @@ isRedditAttribution
 (
 installReferrerResponse
 )
+settings
+.
+isUserXTwitterAttributed
+=
+InstallReferrerHandlingService
+.
+isXTwitterAttribution
+(
+installReferrerResponse
+)
 utmParams
 .
 recordInstallReferrer
