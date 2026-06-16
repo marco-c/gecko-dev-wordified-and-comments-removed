@@ -45321,10 +45321,10 @@ presShell
 GetVisualViewportOffset
 (
 )
-FrameMetrics
+ScrollOffsetUpdateType
 :
 :
-eRestore
+Restore
 ScrollMode
 :
 :

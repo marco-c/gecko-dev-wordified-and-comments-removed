@@ -1897,9 +1897,6 @@ aVisualViewportOffset
 layers
 :
 :
-FrameMetrics
-:
-:
 ScrollOffsetUpdateType
 aUpdateType
 ScrollMode

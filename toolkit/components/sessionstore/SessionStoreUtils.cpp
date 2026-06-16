@@ -1,6 +1,13 @@
 #
 include
 "
+FrameMetrics
+.
+h
+"
+#
+include
+"
 js
 /
 Array
@@ -1542,10 +1549,10 @@ pos_Y
 layers
 :
 :
-FrameMetrics
+ScrollOffsetUpdateType
 :
 :
-eMainThread
+MainThread
 ScrollMode
 :
 :
