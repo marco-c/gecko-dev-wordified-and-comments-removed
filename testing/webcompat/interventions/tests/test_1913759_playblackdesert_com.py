@@ -135,9 +135,6 @@ BAD_TEXT
 is_displayed
 =
 True
-timeout
-=
-4000
 )
     
 assert
