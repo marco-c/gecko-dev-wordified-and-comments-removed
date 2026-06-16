@@ -601,12 +601,6 @@ Clone
 const
 override
 ;
-virtual
-~
-gfxDWriteFontEntry
-(
-)
-;
 hb_blob_t
 *
 GetFontTable
@@ -737,6 +731,12 @@ gfxDWriteFontList
 friend
 class
 gfxDWriteFontFamily
+;
+virtual
+~
+gfxDWriteFontEntry
+(
+)
 ;
 virtual
 nsresult

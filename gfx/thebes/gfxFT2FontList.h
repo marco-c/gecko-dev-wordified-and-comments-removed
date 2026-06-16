@@ -124,11 +124,6 @@ mFTFontIndex
 )
 {
 }
-~
-FT2FontEntry
-(
-)
-;
 gfxFontEntry
 *
 Clone
@@ -403,6 +398,11 @@ mFTFontIndex
 ;
 protected
 :
+~
+FT2FontEntry
+(
+)
+;
 FontTableCache
 *
 GetFontTableCache
