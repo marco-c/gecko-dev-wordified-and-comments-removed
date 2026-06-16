@@ -670,6 +670,11 @@ manageTabs
 (
 toolParams
 conversation
+mode
+engineInstance
+?
+.
+model
 )
 ;
 if
