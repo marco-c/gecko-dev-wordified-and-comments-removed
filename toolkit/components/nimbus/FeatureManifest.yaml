@@ -29192,9 +29192,9 @@ telemetry
 .
 owner
 :
-nimbus
+project
 -
-team
+nimbus
 mozilla
 .
 com
