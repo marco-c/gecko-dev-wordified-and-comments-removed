@@ -17,6 +17,15 @@ sstream
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 sdp
 /
 SdpAttributeList
@@ -73,8 +82,10 @@ Sdp
 default
 ;
 virtual
+UniquePtr
+<
 Sdp
-*
+>
 Clone
 (
 )

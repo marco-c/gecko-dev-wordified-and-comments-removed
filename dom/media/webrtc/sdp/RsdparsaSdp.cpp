@@ -241,8 +241,10 @@ mOrigin
 )
 {
 }
+UniquePtr
+<
 Sdp
-*
+>
 RsdparsaSdp
 :
 :
@@ -252,11 +254,14 @@ Clone
 const
 {
 return
+WrapUnique
+(
 new
 RsdparsaSdp
 (
 *
 this
+)
 )
 ;
 }

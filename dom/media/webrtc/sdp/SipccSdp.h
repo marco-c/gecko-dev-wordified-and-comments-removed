@@ -105,8 +105,10 @@ aOrig
 )
 ;
 virtual
+UniquePtr
+<
 Sdp
-*
+>
 Clone
 (
 )
