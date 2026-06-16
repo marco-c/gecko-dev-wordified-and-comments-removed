@@ -196,6 +196,12 @@ WasmTypeIdSet
 \
 _
 (
+WasmComponentCanonicalTypeSet
+500
+)
+\
+_
+(
 WasmCodeProfilingLabels
 500
 )
