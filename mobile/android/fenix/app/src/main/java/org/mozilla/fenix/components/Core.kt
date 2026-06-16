@@ -3732,13 +3732,7 @@ manifestProvider
 merinoManifestProvider
 useMerinoManifest
 =
-context
-.
-components
-.
-settings
-.
-enableMerinoManifest
+true
 )
 }
 val
