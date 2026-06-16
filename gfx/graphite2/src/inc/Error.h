@@ -68,12 +68,11 @@ return
 (
 _e
 =
-int
-(
 pr
-)
-*
+?
 err
+:
+0
 )
 ;
 }
@@ -117,7 +116,7 @@ EC_ARULEMAP
 }
 ;
 enum
-errors
+error
 {
 E_OUTOFMEM
 =
