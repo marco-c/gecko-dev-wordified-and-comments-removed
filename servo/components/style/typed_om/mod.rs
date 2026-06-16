@@ -235,6 +235,15 @@ ThinVec
 NumericValue
 >
 ;
+pub
+type
+MathMin
+=
+ThinVec
+<
+NumericValue
+>
+;
 #
 [
 derive
@@ -257,6 +266,10 @@ MathValue
 Sum
 (
 MathSum
+)
+Min
+(
+MathMin
 )
 }
 #
