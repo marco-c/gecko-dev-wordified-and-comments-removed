@@ -43,6 +43,13 @@ h
 #
 include
 "
+nsClipboardGtk
+.
+h
+"
+#
+include
+"
 nsWaylandDisplay
 .
 h
@@ -1031,7 +1038,7 @@ GdkIsWaylandDisplay
 mContext
 =
 new
-RetrievalContextWayland
+RetrievalContextGtk
 (
 )
 ;
