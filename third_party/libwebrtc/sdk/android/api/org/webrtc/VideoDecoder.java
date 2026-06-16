@@ -27,11 +27,6 @@ int
 height
 ;
 CalledByNative
-(
-"
-Settings
-"
-)
 public
 Settings
 (

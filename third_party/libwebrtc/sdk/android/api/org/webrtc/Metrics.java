@@ -94,11 +94,6 @@ Integer
 )
 ;
 CalledByNative
-(
-"
-HistogramInfo
-"
-)
 public
 HistogramInfo
 (
@@ -130,11 +125,6 @@ bucketCount
 ;
 }
 CalledByNative
-(
-"
-HistogramInfo
-"
-)
 public
 void
 addSample

@@ -19,11 +19,6 @@ interface
 VideoEncoderSelector
 {
 CalledByNative
-(
-"
-VideoEncoderSelector
-"
-)
 void
 onCurrentEncoder
 (
@@ -33,11 +28,6 @@ info
 ;
 Nullable
 CalledByNative
-(
-"
-VideoEncoderSelector
-"
-)
 VideoCodecInfo
 onAvailableBitrate
 (
@@ -47,11 +37,6 @@ kbps
 ;
 Nullable
 CalledByNative
-(
-"
-VideoEncoderSelector
-"
-)
 default
 VideoCodecInfo
 onResolutionChange
@@ -68,11 +53,6 @@ null
 }
 Nullable
 CalledByNative
-(
-"
-VideoEncoderSelector
-"
-)
 VideoCodecInfo
 onEncoderBroken
 (

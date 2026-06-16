@@ -79,11 +79,6 @@ nativeIndex
 ;
 }
 CalledByNative
-(
-"
-FrameType
-"
-)
 static
 FrameType
 fromNativeIndex

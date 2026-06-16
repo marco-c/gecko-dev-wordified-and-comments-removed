@@ -23,11 +23,6 @@ String
 value
 ;
 CalledByNative
-(
-"
-Value
-"
-)
 public
 Value
 (

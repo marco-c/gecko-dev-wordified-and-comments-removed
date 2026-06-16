@@ -65,11 +65,6 @@ enableEncryptedRtpHeaderExtensions
 ;
 }
 CalledByNative
-(
-"
-Srtp
-"
-)
 public
 boolean
 getEnableGcmCryptoSuites
@@ -81,11 +76,6 @@ enableGcmCryptoSuites
 ;
 }
 CalledByNative
-(
-"
-Srtp
-"
-)
 public
 boolean
 getEnableAes128Sha1_32CryptoCipher
@@ -97,11 +87,6 @@ enableAes128Sha1_32CryptoCipher
 ;
 }
 CalledByNative
-(
-"
-Srtp
-"
-)
 public
 boolean
 getEnableEncryptedRtpHeaderExtensions
@@ -144,11 +129,6 @@ requireFrameEncryption
 ;
 }
 CalledByNative
-(
-"
-SFrame
-"
-)
 public
 boolean
 getRequireFrameEncryption

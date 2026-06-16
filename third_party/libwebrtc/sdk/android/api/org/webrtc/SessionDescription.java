@@ -44,11 +44,6 @@ US
 ;
 }
 CalledByNative
-(
-"
-Type
-"
-)
 public
 static
 Type

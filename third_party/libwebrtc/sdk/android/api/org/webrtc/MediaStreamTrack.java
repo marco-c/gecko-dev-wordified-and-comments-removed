@@ -42,11 +42,6 @@ LIVE
 ENDED
 ;
 CalledByNative
-(
-"
-State
-"
-)
 static
 State
 fromNativeIndex
@@ -98,11 +93,6 @@ nativeIndex
 ;
 }
 CalledByNative
-(
-"
-MediaType
-"
-)
 int
 getNative
 (
@@ -113,11 +103,6 @@ nativeIndex
 ;
 }
 CalledByNative
-(
-"
-MediaType
-"
-)
 static
 MediaType
 fromNativeIndex
