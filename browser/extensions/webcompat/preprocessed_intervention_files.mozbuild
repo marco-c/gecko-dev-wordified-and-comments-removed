@@ -1834,4 +1834,17 @@ top
 .
 js
 "
+"
+bug2041215
+-
+vitra
+.
+com
+.
+tr
+-
+fix_zero_width_product_images
+.
+css
+"
 ]
