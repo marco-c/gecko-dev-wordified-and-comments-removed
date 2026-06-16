@@ -4898,9 +4898,6 @@ addons
 newtab
 "
 "
-devtools
-"
-"
 browser
 "
 ]

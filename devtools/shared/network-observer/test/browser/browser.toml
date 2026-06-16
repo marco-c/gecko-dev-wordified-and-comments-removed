@@ -62,12 +62,6 @@ gzipped
 sjs
 "
 "
-local
--
-mode
-/
-"
-"
 override
 .
 html
@@ -223,13 +217,6 @@ Bug
 [
 "
 browser_networkobserver_invalid_constructor
-.
-js
-"
-]
-[
-"
-browser_networkobserver_localMode
 .
 js
 "
