@@ -1702,13 +1702,12 @@ nullptr
 ;
 }
 RefPtr
+stream
+=
+MakeRefPtr
 <
 NrIceMediaStream
 >
-stream
-=
-new
-NrIceMediaStream
 (
 this
 id

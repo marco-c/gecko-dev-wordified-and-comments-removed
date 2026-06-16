@@ -307,13 +307,12 @@ ownerWindow
 )
 ;
 RefPtr
+runnable
+=
+MakeRefPtr
 <
 RTCTransformEventRunnable
 >
-runnable
-=
-new
-RTCTransformEventRunnable
 (
 aWorker
 &

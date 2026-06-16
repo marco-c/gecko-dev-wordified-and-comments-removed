@@ -2529,13 +2529,12 @@ ChromaSubsampling
 HALF_WIDTH_AND_HEIGHT
 ;
 RefPtr
-<
-PlanarYCbCrImage
->
 image
 =
-new
+MakeRefPtr
+<
 RecyclingPlanarYCbCrImage
+>
 (
 new
 BufferRecycleBin

@@ -236,13 +236,12 @@ aTransformerOptions
 )
 {
 RefPtr
+transformer
+=
+MakeRefPtr
 <
 RTCRtpScriptTransformer
 >
-transformer
-=
-new
-RTCRtpScriptTransformer
 (
 aGlobal
 )

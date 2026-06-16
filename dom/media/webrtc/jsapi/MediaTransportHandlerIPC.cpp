@@ -408,13 +408,12 @@ aEndpoint
 )
 {
 RefPtr
+child
+=
+MakeRefPtr
 <
 MediaTransportChild
 >
-child
-=
-new
-MediaTransportChild
 (
 this
 )

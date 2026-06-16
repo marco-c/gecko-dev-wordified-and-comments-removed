@@ -662,13 +662,12 @@ true
 )
 ;
 RefPtr
+compressedFrame
+=
+MakeRefPtr
 <
 MediaRawData
 >
-compressedFrame
-=
-new
-MediaRawData
 (
 aInputImage
 .
