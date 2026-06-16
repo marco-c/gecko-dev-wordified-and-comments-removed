@@ -976,11 +976,17 @@ C
 C
 +
 +
+/
+Obj
+-
+C
+/
+Rust
 sources
 and
 produces
-shared
       
+shared
 libraries
 and
 executables

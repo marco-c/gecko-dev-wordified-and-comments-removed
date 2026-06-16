@@ -1076,8 +1076,14 @@ compilation
 Conversely
 for
 C
+/
+C
 +
 +
+/
+Obj
+-
+C
 /
 Rust
 only
