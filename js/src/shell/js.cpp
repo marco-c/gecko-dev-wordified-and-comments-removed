@@ -12982,6 +12982,15 @@ if
 obj
 )
 {
+JS
+:
+:
+ReleaseMappedArrayBufferContents
+(
+contents
+size
+)
+;
 return
 false
 ;
