@@ -1291,8 +1291,16 @@ collectAsStateWithLifecycle
 (
 initialValue
 =
-true
+null
 )
+isEnabled
+?
+.
+let
+{
+isEnabled
+-
+>
 Column
 {
 SwitchListItem
@@ -1373,6 +1381,7 @@ value
 )
 }
 )
+}
 }
 }
 }

@@ -345,7 +345,11 @@ feature
 id
 ]
 =
+CachedEnabledFeature
+(
 feature
+scope
+)
 }
 override
 fun
