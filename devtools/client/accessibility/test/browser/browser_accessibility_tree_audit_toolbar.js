@@ -344,6 +344,10 @@ role
 :
 "
 heading
+(
+level
+1
+)
 "
 name
 :
@@ -384,6 +388,10 @@ role
 :
 "
 heading
+(
+level
+2
+)
 "
 name
 :
