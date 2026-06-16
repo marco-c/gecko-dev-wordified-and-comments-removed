@@ -252,6 +252,8 @@ driven
 -
 animations
 .
+viewtimeline
+.
 enabled
 "
 ]
