@@ -414,6 +414,7 @@ ToCssTextWithProperty
 (
 aPropertyId
 true
+true
 aDest
 )
 ;
@@ -433,6 +434,7 @@ ToCssTextWithProperty
 (
 aPropertyId
 true
+true
 aDest
 )
 ;
@@ -451,6 +453,7 @@ mUpper
 ToCssTextWithProperty
 (
 aPropertyId
+true
 true
 aDest
 )
