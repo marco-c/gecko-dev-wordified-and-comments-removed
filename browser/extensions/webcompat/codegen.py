@@ -1716,13 +1716,11 @@ generate_from_sources
 [
 ]
         
-for
-script_filename
-in
-js
-:
-            
 if
+js
+and
+any
+(
 not
 script_filename
 .
@@ -1732,12 +1730,17 @@ startswith
 bug
 "
 )
+for
+script_filename
+in
+js
+)
 :
-                
+            
 generate_from_sources
-.
-append
-(
+=
+[
+                
 {
                     
 "
@@ -1754,33 +1757,12 @@ source
 script_filename
                 
 }
-)
                 
-content_scripts
-[
-"
-js
-"
-]
-=
-[
-                    
-f
 for
-f
-in
-content_scripts
-[
-"
-js
-"
-]
-if
-f
-!
-=
 script_filename
-                
+in
+js
+            
 ]
         
 for
@@ -1992,10 +1974,14 @@ js
 ]
 )
             
+content_scripts
+[
+"
 js
-.
-append
-(
+"
+]
+=
+[
 f
 "
 injections
@@ -2006,7 +1992,7 @@ generated
 generated_filename
 }
 "
-)
+]
             
 for
 name
