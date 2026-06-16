@@ -22431,6 +22431,7 @@ CaptureStack
 cx
 &
 stack
+MAX_REPORTED_STACK_DEPTH
 )
 )
 {
