@@ -7977,6 +7977,13 @@ SubscribeNetworkRouteChanged
 this
 [
 this
+channel
+=
+channel_
+.
+get
+(
+)
 ]
 (
 std
@@ -8003,6 +8010,7 @@ network_thread
 ;
 OnNetworkRouteChanged
 (
+channel
 route
 )
 ;
@@ -8153,6 +8161,9 @@ RtpTransceiver
 :
 OnNetworkRouteChanged
 (
+ChannelInterface
+*
+channel
 std
 :
 :
@@ -8177,7 +8188,7 @@ network_thread
 ;
 if
 (
-channel_
+channel
 &
 &
 rtp_transport_
@@ -8199,14 +8210,14 @@ mid
 "
 <
 <
-channel_
+channel
 -
 >
 mid
 (
 )
 ;
-channel_
+channel
 -
 >
 media_send_channel
