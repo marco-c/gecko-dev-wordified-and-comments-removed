@@ -574,16 +574,6 @@ ClearSiteData
 =
 default
 ;
-ClearSiteData
-:
-:
-~
-ClearSiteData
-(
-)
-=
-default
-;
 NS_IMETHODIMP
 ClearSiteData
 :

@@ -57,6 +57,8 @@ ClearSiteData
 ClearSiteData
 (
 )
+=
+default
 ;
 static
 void
