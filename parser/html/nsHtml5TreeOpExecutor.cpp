@@ -2622,7 +2622,7 @@ nsHtml5TreeOpExecutor
 BackgroundFlushCallback
 "
 _ns
-0
+nullptr
 TimeDuration
 :
 :
