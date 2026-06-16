@@ -129,8 +129,10 @@ aGL
 )
 mRenderSource
 (
-new
+MakeRefPtr
+<
 RenderSourceNLRS
+>
 (
 std
 :

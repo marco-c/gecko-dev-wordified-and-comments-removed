@@ -1508,11 +1508,13 @@ mMutex
 ;
 mWorkerRef
 =
-new
+MakeRefPtr
+<
 dom
 :
 :
 ThreadSafeWorkerRef
+>
 (
 workerRef
 )
