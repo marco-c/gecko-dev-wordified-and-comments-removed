@@ -74,8 +74,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 ;
@@ -108,8 +106,6 @@ already_AddRefed
 class
 NodeInfo
 >
-&
-&
 )
 ;
 MOZ_CAN_RUN_SCRIPT

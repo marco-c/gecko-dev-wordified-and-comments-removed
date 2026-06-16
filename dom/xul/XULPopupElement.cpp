@@ -187,8 +187,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 {

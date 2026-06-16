@@ -308,8 +308,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aRunnable
 )
 const
