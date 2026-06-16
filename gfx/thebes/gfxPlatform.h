@@ -1430,8 +1430,10 @@ nsACString
 aGenericFamily
 )
 ;
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 LookupLocalFont
 (
 FontVisibilityProvider

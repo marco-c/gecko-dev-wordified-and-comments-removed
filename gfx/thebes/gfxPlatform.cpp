@@ -10109,8 +10109,10 @@ aFamilyName
 )
 ;
 }
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 gfxPlatform
 :
 :

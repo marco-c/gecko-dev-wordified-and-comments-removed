@@ -626,8 +626,10 @@ int32_t
 aAppleWeight
 )
 ;
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 LookupLocalFont
 (
 FontVisibilityProvider

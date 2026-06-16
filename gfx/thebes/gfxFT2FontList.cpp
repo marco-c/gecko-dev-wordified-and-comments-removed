@@ -10122,8 +10122,10 @@ return
 fe
 ;
 }
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 gfxFT2FontList
 :
 :
@@ -10332,8 +10334,10 @@ return
 nullptr
 ;
 }
-FT2FontEntry
-*
+RefPtr
+<
+gfxFontEntry
+>
 fe
 =
 FT2FontEntry
@@ -10398,6 +10402,10 @@ true
 }
 return
 fe
+.
+forget
+(
+)
 ;
 }
 FontFamily

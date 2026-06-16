@@ -2457,11 +2457,11 @@ AddUserFontSet
 fontSet
 )
 ;
+RefPtr
+<
 gfxFontEntry
-*
+>
 fe
-=
-nullptr
 ;
 if
 (
@@ -2700,6 +2700,10 @@ kUnknownCompression
 mPlatformFontEntry
 =
 fe
+.
+forget
+(
+)
 ;
 SetLoadState
 (
