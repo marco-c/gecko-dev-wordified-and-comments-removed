@@ -1,0 +1,16 @@
+import
+source
+x
+from
+'
+<
+module
+source
+>
+'
+;
+export
+{
+x
+}
+;

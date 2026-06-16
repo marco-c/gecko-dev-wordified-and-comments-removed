@@ -3,6 +3,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 const
@@ -11,7 +12,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 1
+)
 )
 ;
 const
@@ -52,9 +56,10 @@ fromIndex
 ;
 }
 null
+null
 [
 "
-passthrough
+immutable
 "
 ]
 )

@@ -105,9 +105,7 @@ createTypedArrays
 )
 )
 {
-262
-.
-detachArrayBuffer
+DETACHBUFFER
 (
 buffer
 (
@@ -178,9 +176,7 @@ detached
 false
 )
 ;
-262
-.
-detachArrayBuffer
+DETACHBUFFER
 (
 buffer
 (
@@ -306,9 +302,7 @@ detached
 false
 )
 ;
-262
-.
-detachArrayBuffer
+DETACHBUFFER
 (
 buffer
 (
@@ -447,9 +441,7 @@ detached
 false
 )
 ;
-262
-.
-detachArrayBuffer
+DETACHBUFFER
 (
 buffer
 (

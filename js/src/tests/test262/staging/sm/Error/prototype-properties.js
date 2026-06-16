@@ -1,16 +1,4 @@
 const
-nativeErrors
-=
-[
-EvalError
-RangeError
-ReferenceError
-SyntaxError
-TypeError
-URIError
-]
-;
-const
 ownKeys
 =
 Reflect

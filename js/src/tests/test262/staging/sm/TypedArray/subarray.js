@@ -80,9 +80,7 @@ valueOf
 (
 )
 {
-262
-.
-detachArrayBuffer
+DETACHBUFFER
 (
 buffer
 )

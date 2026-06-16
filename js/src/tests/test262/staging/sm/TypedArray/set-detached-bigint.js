@@ -16,9 +16,7 @@ length
 (
 )
 {
-262
-.
-detachArrayBuffer
+DETACHBUFFER
 (
 ta
 .

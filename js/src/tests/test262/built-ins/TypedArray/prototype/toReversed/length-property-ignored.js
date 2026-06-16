@@ -129,16 +129,10 @@ length
 )
 ;
 }
-null
-[
-"
-passthrough
-"
-]
 )
 ;
 function
-setLength
+setLengthOnPrototype
 (
 length
 )
@@ -190,7 +184,7 @@ makeCtorArg
 )
 )
 ;
-setLength
+setLengthOnPrototype
 (
 2
 )
@@ -204,7 +198,7 @@ toReversed
 (
 )
 ;
-setLength
+setLengthOnPrototype
 (
 3
 )
@@ -221,7 +215,7 @@ res
 ]
 )
 ;
-setLength
+setLengthOnPrototype
 (
 5
 )
@@ -234,7 +228,7 @@ toReversed
 (
 )
 ;
-setLength
+setLengthOnPrototype
 (
 3
 )

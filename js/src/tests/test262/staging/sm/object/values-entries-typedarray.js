@@ -136,9 +136,7 @@ array
 )
 )
 ;
-262
-.
-detachArrayBuffer
+DETACHBUFFER
 (
 ta
 .

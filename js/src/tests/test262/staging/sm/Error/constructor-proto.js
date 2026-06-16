@@ -1,15 +1,3 @@
-const
-nativeErrors
-=
-[
-EvalError
-RangeError
-ReferenceError
-SyntaxError
-TypeError
-URIError
-]
-;
 assert
 .
 sameValue
@@ -24,6 +12,7 @@ Function
 .
 prototype
 )
+;
 for
 (
 const

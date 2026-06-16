@@ -1,6 +1,9 @@
 testWithAtomicsFriendlyTypedArrayConstructors
 (
+(
 TA
+makeCtorArg
+)
 =
 >
 {
@@ -10,13 +13,8 @@ view
 new
 TA
 (
-new
-ArrayBuffer
+makeCtorArg
 (
-TA
-.
-BYTES_PER_ELEMENT
-*
 4
 )
 )
@@ -50,7 +48,7 @@ returns
 null
 [
 "
-passthrough
+arraybuffer
 "
 ]
 )

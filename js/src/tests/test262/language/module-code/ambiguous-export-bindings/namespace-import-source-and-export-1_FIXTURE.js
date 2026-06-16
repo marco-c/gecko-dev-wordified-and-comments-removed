@@ -1,0 +1,16 @@
+import
+source
+mod
+from
+'
+<
+module
+source
+>
+'
+;
+export
+{
+mod
+}
+;

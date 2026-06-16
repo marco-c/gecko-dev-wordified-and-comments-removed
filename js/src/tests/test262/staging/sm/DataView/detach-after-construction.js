@@ -19,9 +19,7 @@ DataView
 buf
 )
 ;
-262
-.
-detachArrayBuffer
+DETACHBUFFER
 (
 buf
 )

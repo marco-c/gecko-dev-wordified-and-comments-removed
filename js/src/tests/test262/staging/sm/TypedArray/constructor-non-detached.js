@@ -14,9 +14,7 @@ constructor
 (
 )
 ;
-262
-.
-detachArrayBuffer
+DETACHBUFFER
 (
 buf
 .
@@ -47,9 +45,7 @@ ArrayBuffer
 (
 )
 ;
-262
-.
-detachArrayBuffer
+DETACHBUFFER
 (
 buffer
 )

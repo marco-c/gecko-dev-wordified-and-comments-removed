@@ -3,6 +3,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -16,6 +17,10 @@ result
 new
 TA
 (
+makeCtorArg
+(
+0
+)
 )
 .
 reduce
@@ -49,12 +54,6 @@ false
 )
 ;
 }
-null
-[
-"
-passthrough
-"
-]
 )
 ;
 reportCompare

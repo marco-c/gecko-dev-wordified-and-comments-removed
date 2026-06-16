@@ -11,9 +11,7 @@ Int32Array
 ]
 )
 ;
-262
-.
-detachArrayBuffer
+DETACHBUFFER
 (
 ta
 .

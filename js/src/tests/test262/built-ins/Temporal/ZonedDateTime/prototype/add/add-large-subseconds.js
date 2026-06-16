@@ -8,9 +8,7 @@ ZonedDateTime
 (
 1582966647747612578n
 "
-America
-/
-Los_Angeles
+UTC
 "
 )
 ;

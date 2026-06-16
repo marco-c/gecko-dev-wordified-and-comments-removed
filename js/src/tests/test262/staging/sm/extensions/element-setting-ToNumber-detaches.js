@@ -26,9 +26,7 @@ valueOf
 (
 )
 {
-262
-.
-detachArrayBuffer
+DETACHBUFFER
 (
 ab
 )
