@@ -6020,6 +6020,10 @@ if
 pending_encoder_creation_
 )
 {
+ReleaseEncoder
+(
+)
+;
 encoder_
 .
 reset
