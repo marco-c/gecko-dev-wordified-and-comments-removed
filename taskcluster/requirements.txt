@@ -30,6 +30,14 @@ txt
 -
 -
 universal
+-
+-
+python
+-
+version
+3
+.
+9
 aiohappyeyeballs
 =
 =
@@ -3966,7 +3974,7 @@ taskgraph
 .
 1
 .
-2
+3
 \
 -
 -
@@ -3974,7 +3982,7 @@ hash
 =
 sha256
 :
-22d7d439cc35768d17f43197c71fe7aa5ffa974d486543450f4ab785e74c2008
+182143d0278efcd0ba57b0be442f5f0f9d7a629130ca7113ba2d31ef6d287fff
 \
 -
 -
@@ -3982,7 +3990,7 @@ hash
 =
 sha256
 :
-5e79169bd83dfb0b10ae8d0d87523f534d70f79e2d64cf9534e4f061f25e7f3b
+1f56e0c62274712ce2e2b97ac594906886fd058656316d8d22c0ed49713f009b
 #
 via
 -
@@ -8768,9 +8776,9 @@ taskcluster
 taskgraph
 =
 =
-23
+24
 .
-1
+0
 .
 0
 \
@@ -8780,7 +8788,7 @@ hash
 =
 sha256
 :
-035ebe32e8a91889d62b684a37965f9a6945fa5a0dec36f9020622c6a7f242eb
+6ad9eb55d781259c8563cc5312a4c24edc7b50d9577550c03cf7777d1457f473
 \
 -
 -
@@ -8788,7 +8796,7 @@ hash
 =
 sha256
 :
-4562f746837292f0e28e499215a1ae561add64671d1d6df391f51edc220b60c7
+f7056f928fd4403bea603b089fddeb1884de188bec1a36d1244547d88e8937dc
 #
 via
 #
