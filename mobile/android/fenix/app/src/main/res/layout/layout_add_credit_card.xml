@@ -227,6 +227,16 @@ drawable
 /
 mozac_ic_plus_24
 "
+app
+:
+tint
+=
+"
+?
+attr
+/
+colorOnSurface
+"
 android
 :
 importantForAccessibility

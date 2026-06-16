@@ -295,6 +295,16 @@ drawable
 /
 mozac_ic_tab_tray_24
 "
+app
+:
+tint
+=
+"
+?
+attr
+/
+colorOnSurface
+"
 /
 >
 <

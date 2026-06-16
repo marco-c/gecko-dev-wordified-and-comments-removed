@@ -239,6 +239,16 @@ mozac_ic_information_24
 "
 app
 :
+drawableTint
+=
+"
+?
+attr
+/
+colorOnSurface
+"
+app
+:
 layout_constraintEnd_toEndOf
 =
 "

@@ -510,6 +510,16 @@ drawable
 /
 mozac_ic_cross_24
 "
+app
+:
+tint
+=
+"
+?
+attr
+/
+colorOnSurface
+"
 android
 :
 contentDescription

@@ -458,6 +458,16 @@ drawable
 /
 mozac_ic_ellipsis_vertical_24
 "
+app
+:
+tint
+=
+"
+?
+attr
+/
+colorOnSurface
+"
 /
 >
 <
