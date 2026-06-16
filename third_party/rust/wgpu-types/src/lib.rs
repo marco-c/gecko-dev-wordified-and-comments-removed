@@ -1940,10 +1940,14 @@ pub
 fn
 map_label
 <
+'
+a
 K
 >
 (
 &
+'
+a
 self
 fun
 :
@@ -1951,6 +1955,8 @@ impl
 FnOnce
 (
 &
+'
+a
 L
 )
 -
@@ -2343,10 +2349,14 @@ pub
 fn
 map_label
 <
+'
+a
 K
 >
 (
 &
+'
+a
 self
 fun
 :
@@ -2354,6 +2364,8 @@ impl
 FnOnce
 (
 &
+'
+a
 L
 )
 -

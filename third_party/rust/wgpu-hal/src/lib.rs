@@ -51,10 +51,6 @@ vec_init_then_push
 clippy
 :
 :
-non_send_fields_in_send_ty
-clippy
-:
-:
 missing_safety_doc
 clippy
 :
@@ -4243,7 +4239,6 @@ signal_fence
 :
 (
 &
-mut
 <
 Self
 :
