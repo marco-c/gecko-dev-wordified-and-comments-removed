@@ -3855,10 +3855,15 @@ len
 for
 item
 in
-&
 self
 .
 sub_rects
+.
+drain
+(
+.
+.
+)
 {
 let
 task
