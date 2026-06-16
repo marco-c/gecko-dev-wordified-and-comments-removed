@@ -303,6 +303,8 @@ const
 CSSPropertyId
 &
 aPropertyId
+bool
+aNested
 nsACString
 &
 aDest
@@ -337,6 +339,7 @@ mathSum
 ToCssTextWithProperty
 (
 aPropertyId
+aNested
 aDest
 )
 ;

@@ -475,6 +475,8 @@ const
 CSSPropertyId
 &
 aPropertyId
+bool
+aNested
 nsACString
 &
 aDest
@@ -485,6 +487,13 @@ aDest
 .
 Append
 (
+aNested
+?
+"
+(
+"
+_ns
+:
 "
 calc
 (
@@ -523,6 +532,7 @@ values
 ToCssTextWithProperty
 (
 aPropertyId
+true
 aDest
 )
 ;
@@ -565,6 +575,7 @@ index
 ToCssTextWithProperty
 (
 aPropertyId
+true
 aDest
 )
 ;
