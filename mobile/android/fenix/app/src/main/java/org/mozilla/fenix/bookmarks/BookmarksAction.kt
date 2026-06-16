@@ -1182,13 +1182,5 @@ FromMenu
 ImportFileClicked
 (
 )
-internal
-data
-object
-FromButton
-:
-ImportFileClicked
-(
-)
 }
 }
