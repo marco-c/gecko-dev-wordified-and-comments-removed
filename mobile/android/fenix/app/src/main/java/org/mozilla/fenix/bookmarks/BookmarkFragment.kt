@@ -761,7 +761,7 @@ get
 )
 ?
 .
-handleImageResult
+handleCameraActivityResult
 (
 result
 .
@@ -769,6 +769,12 @@ resultCode
 result
 .
 data
+qrScanFenixFeature
+?
+.
+get
+(
+)
 )
 }
 private
