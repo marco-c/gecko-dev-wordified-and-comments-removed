@@ -541,7 +541,6 @@ again
 "
 )
 ;
-await
 remoteClients
 .
 translationsWasm
