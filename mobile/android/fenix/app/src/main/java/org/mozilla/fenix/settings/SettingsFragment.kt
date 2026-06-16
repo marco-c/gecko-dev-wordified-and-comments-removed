@@ -3302,6 +3302,13 @@ pref_key_firefox_labs
 -
 >
 {
+SettingsMetrics
+.
+firefoxLabs
+.
+record
+(
+)
 SettingsFragmentDirections
 .
 actionSettingsFragmentToFirefoxLabsFragment
