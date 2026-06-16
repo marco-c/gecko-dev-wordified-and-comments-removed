@@ -460,6 +460,7 @@ stream
 "
 }
 )
+nullptr
 )
 )
 {

@@ -3290,6 +3290,7 @@ remote_sender_info
 .
 sender_id
 streams
+nullptr
 )
 ;
 auto

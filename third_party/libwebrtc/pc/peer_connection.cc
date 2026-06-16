@@ -8107,6 +8107,7 @@ get
 (
 )
 nullptr
+nullptr
 rtp_manager
 (
 )
@@ -8184,6 +8185,7 @@ worker_thread
 CreateRandomUuid
 (
 )
+nullptr
 nullptr
 rtp_manager
 (

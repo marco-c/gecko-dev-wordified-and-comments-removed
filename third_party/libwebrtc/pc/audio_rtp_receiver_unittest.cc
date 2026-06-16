@@ -266,6 +266,7 @@ string
 >
 (
 )
+nullptr
 )
 )
 {
@@ -719,6 +720,7 @@ string
 >
 (
 )
+nullptr
 &
 receive_channel
 )
