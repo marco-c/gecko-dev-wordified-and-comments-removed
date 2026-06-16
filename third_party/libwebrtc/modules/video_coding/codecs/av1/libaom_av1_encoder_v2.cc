@@ -454,7 +454,7 @@ constexpr
 int
 kMaxEffortLevel
 =
-2
+4
 ;
 constexpr
 int
@@ -4651,7 +4651,7 @@ spatial_id
 SET_OR_RETURN
 (
 AOME_SET_CPUUSED
-8
+9
 -
 settings
 .
