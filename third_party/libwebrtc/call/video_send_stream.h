@@ -799,14 +799,14 @@ FrameEncryptorInterface
 >
 frame_encryptor
 ;
+scoped_refptr
+<
 VideoEncoderFactory
 :
 :
 EncoderSelectorInterface
-*
+>
 encoder_selector
-=
-nullptr
 ;
 CryptoOptions
 crypto_options

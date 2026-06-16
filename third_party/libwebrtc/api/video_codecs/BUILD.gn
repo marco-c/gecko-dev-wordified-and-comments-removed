@@ -475,6 +475,12 @@ fec_controller_api
 .
 .
 :
+refcountedbase
+"
+"
+.
+.
+:
 rtp_parameters
 "
 "

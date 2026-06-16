@@ -1233,11 +1233,13 @@ void
 SetEncoderSelector
 (
 uint32_t
+scoped_refptr
+<
 VideoEncoderFactory
 :
 :
 EncoderSelectorInterface
-*
+>
 )
 {
 }

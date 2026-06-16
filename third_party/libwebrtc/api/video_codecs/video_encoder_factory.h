@@ -40,6 +40,15 @@ include
 "
 api
 /
+ref_counted_base
+.
+h
+"
+#
+include
+"
+api
+/
 units
 /
 data_rate
@@ -104,6 +113,9 @@ false
 ;
 class
 EncoderSelectorInterface
+:
+public
+RefCountedBase
 {
 public
 :
@@ -112,8 +124,9 @@ virtual
 EncoderSelectorInterface
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 OnCurrentEncoder
