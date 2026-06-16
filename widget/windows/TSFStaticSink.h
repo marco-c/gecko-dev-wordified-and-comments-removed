@@ -534,6 +534,17 @@ nodiscard
 ]
 static
 bool
+IsWeChatIMEActive
+(
+)
+;
+[
+[
+nodiscard
+]
+]
+static
+bool
 IsATOKReferringNativeCaretActive
 (
 )

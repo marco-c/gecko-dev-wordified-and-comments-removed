@@ -40,6 +40,7 @@ MicrosoftPinyin
 MicrosoftPinyinNewExperienceInputStyle
 MicrosoftWubi
 Sogou
+WeChat
 MicrosoftIMEForKorean
 MicrosoftOldHangul
 KeymanDesktop
