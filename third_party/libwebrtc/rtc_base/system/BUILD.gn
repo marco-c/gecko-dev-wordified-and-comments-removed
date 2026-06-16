@@ -205,12 +205,6 @@ checks
 .
 .
 :
-criticalsection
-"
-"
-.
-.
-:
 safe_conversions
 "
 "
