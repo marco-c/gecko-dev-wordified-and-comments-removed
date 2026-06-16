@@ -3075,6 +3075,9 @@ getAttrAssociatedElements
 ;
 if
 (
+aUseCachedValue
+&
+&
 elements
 =
 =
