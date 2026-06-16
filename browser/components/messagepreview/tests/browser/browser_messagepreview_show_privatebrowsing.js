@@ -59,12 +59,6 @@ promoType
 "
 VPN
 "
-infoEnabled
-:
-false
-infoTitleEnabled
-:
-false
 promoLinkType
 :
 "

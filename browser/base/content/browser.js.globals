@@ -681,9 +681,6 @@ gMiddleClickNewTabUsesPasteboard
 gPrintEnabled
 "
 "
-gUseFeltPrivacyUI
-"
-"
 gReduceMotion
 "
 "
@@ -709,5 +706,8 @@ ProfilesDatastoreService
 "
 "
 gTrustPanelHandler
+"
+"
+ContentSharingUtils
 "
 ]

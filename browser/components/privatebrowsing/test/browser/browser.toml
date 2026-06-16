@@ -367,13 +367,6 @@ Bug
 ]
 [
 "
-browser_privatebrowsing_about_nimbus
-.
-js
-"
-]
-[
-"
 browser_privatebrowsing_about_nimbus_dismiss
 .
 js
@@ -382,13 +375,6 @@ js
 [
 "
 browser_privatebrowsing_about_nimbus_impressions
-.
-js
-"
-]
-[
-"
-browser_privatebrowsing_about_nimbus_messaging
 .
 js
 "
