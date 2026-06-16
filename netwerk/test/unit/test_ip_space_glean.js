@@ -505,6 +505,15 @@ srcPort
 dstPort
 )
 {
+await
+Services
+.
+fog
+.
+testFlushAllChildren
+(
+)
+;
 Services
 .
 fog
