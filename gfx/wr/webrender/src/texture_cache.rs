@@ -1089,7 +1089,6 @@ Standalone
 impl
 BudgetType
 {
-pub
 const
 COUNT
 :
@@ -1097,7 +1096,6 @@ usize
 =
 7
 ;
-pub
 const
 VALUES
 :
@@ -1141,7 +1139,6 @@ BudgetType
 Standalone
 ]
 ;
-pub
 const
 PRESSURE_COUNTERS
 :
