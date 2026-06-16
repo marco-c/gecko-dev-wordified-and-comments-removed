@@ -105,7 +105,7 @@ EME_LOG
 .
 )
 \
-MOZ_LOG
+MOZ_LOG_FMT
 (
 GetEMELog
 (
@@ -117,9 +117,7 @@ LogLevel
 :
 :
 Debug
-(
 __VA_ARGS__
-)
 )
 #
 define
@@ -159,7 +157,7 @@ EME_VERBOSE_LOG
 .
 )
 \
-MOZ_LOG
+MOZ_LOG_FMT
 (
 GetEMEVerboseLog
 (
@@ -171,9 +169,7 @@ LogLevel
 :
 :
 Debug
-(
 __VA_ARGS__
-)
 )
 #
 else
