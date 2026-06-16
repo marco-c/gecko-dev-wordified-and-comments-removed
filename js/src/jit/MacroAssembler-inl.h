@@ -1102,6 +1102,9 @@ Args_General_GeneralInt64GeneralGeneral
 case
 Args_General_GeneralFloat32GeneralGeneral
 :
+case
+Args_General_GeneralFloat64General
+:
 break
 ;
 default
