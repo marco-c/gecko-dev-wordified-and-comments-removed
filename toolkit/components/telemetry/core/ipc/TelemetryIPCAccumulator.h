@@ -233,8 +233,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aEvent
 )
 ;
