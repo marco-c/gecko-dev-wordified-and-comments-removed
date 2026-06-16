@@ -393,6 +393,13 @@ requireComponents
 useCases
 .
 topSitesUseCase
+merinoManifestProvider
+=
+requireComponents
+.
+core
+.
+merinoManifestProvider
 settings
 =
 requireComponents
