@@ -195,12 +195,12 @@ c
 {
 if
 (
+is_int32
+(
 imm
 .
 value
-<
-=
-INT32_MAX
+)
 )
 {
 ma_cmp_set
@@ -209,7 +209,7 @@ dst
 lhs
 Imm32
 (
-uint32_t
+int32_t
 (
 imm
 .
