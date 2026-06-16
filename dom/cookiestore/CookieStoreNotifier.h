@@ -83,6 +83,10 @@ nsACString
 &
 aBaseDomain
 const
+nsACString
+&
+aHost
+const
 OriginAttributes
 &
 aOriginAttributes
@@ -110,6 +114,9 @@ mCookieStore
 ;
 nsCString
 mBaseDomain
+;
+nsCString
+mHost
 ;
 OriginAttributes
 mOriginAttributes
