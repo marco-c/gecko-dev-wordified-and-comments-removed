@@ -71,6 +71,13 @@ comparefn
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

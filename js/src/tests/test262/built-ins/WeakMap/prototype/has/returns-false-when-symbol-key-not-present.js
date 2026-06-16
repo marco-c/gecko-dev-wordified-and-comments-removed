@@ -40,7 +40,7 @@ foo
 )
 false
 '
-Map
+WeakMap
 is
 initially
 empty
@@ -64,7 +64,7 @@ hasInstance
 )
 false
 '
-Map
+WeakMap
 is
 initially
 empty
@@ -129,7 +129,7 @@ foo
 )
 false
 '
-Map
+WeakMap
 is
 empty
 again
@@ -174,7 +174,7 @@ hasInstance
 )
 false
 '
-Map
+WeakMap
 is
 empty
 again

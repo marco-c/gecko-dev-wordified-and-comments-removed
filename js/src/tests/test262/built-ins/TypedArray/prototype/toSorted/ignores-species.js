@@ -1,6 +1,9 @@
 testWithTypedArrayConstructors
 (
+(
 TA
+makeCtorArg
+)
 =
 >
 {
@@ -10,6 +13,10 @@ ta
 new
 TA
 (
+makeCtorArg
+(
+0
+)
 )
 ;
 ta
@@ -50,6 +57,10 @@ ta
 new
 TA
 (
+makeCtorArg
+(
+0
+)
 )
 ;
 ta
@@ -98,6 +109,10 @@ ta
 new
 TA
 (
+makeCtorArg
+(
+0
+)
 )
 ;
 Object
@@ -137,12 +152,6 @@ toSorted
 )
 ;
 }
-null
-[
-"
-passthrough
-"
-]
 )
 ;
 reportCompare

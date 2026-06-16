@@ -25,7 +25,10 @@ b
 ;
 testWithTypedArrayConstructors
 (
+(
 TA
+makeCtorArg
+)
 =
 >
 {
@@ -56,7 +59,10 @@ typedArray1
 new
 TA
 (
+makeCtorArg
+(
 array
+)
 )
 ;
 assert
@@ -90,7 +96,10 @@ typedArray2
 new
 TA
 (
+makeCtorArg
+(
 array
+)
 )
 ;
 assert
@@ -242,9 +251,10 @@ presorted
 ;
 }
 null
+null
 [
 "
-passthrough
+immutable
 "
 ]
 )

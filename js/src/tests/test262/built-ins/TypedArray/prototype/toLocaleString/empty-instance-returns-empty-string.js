@@ -3,6 +3,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -11,6 +12,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
+0
+)
 )
 ;
 assert
@@ -27,12 +32,6 @@ toLocaleString
 )
 ;
 }
-null
-[
-"
-passthrough
-"
-]
 )
 ;
 reportCompare

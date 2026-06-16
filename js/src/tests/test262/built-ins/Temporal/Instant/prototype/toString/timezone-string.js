@@ -31,7 +31,7 @@ sameValue
 (
 result1
 .
-substr
+slice
 (
 -
 6
@@ -79,7 +79,7 @@ sameValue
 (
 result2
 .
-substr
+slice
 (
 -
 6

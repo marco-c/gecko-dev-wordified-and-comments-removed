@@ -298,7 +298,7 @@ not
 defined
 in
 the
-contructor
+constructor
 '
 )
 ;

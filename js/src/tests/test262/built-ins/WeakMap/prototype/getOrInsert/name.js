@@ -1,6 +1,6 @@
 verifyProperty
 (
-Map
+WeakMap
 .
 prototype
 .

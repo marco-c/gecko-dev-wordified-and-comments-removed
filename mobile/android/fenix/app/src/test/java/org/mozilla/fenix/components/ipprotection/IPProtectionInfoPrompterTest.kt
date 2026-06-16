@@ -368,7 +368,7 @@ errorMessages
 dataLimitReached
 snackbarState
 .
-title
+message
 )
 }
 Test

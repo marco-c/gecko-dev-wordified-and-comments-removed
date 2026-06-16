@@ -510,9 +510,9 @@ dispatch
 (
 AppAction
 .
-IPProtectionSnackbarAction
+SnackbarAction
 .
-DataLimitReached
+ShowIPProtectionDataLimitReachedSnackbar
 (
 errorMessages
 .

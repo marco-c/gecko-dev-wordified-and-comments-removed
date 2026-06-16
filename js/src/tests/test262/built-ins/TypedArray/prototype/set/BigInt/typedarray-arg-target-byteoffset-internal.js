@@ -169,9 +169,10 @@ properties
 ;
 }
 null
+null
 [
 "
-passthrough
+immutable
 "
 ]
 )

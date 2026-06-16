@@ -3,6 +3,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -13,6 +14,10 @@ called
 new
 TA
 (
+makeCtorArg
+(
+0
+)
 )
 .
 forEach
@@ -37,12 +42,6 @@ called
 )
 ;
 }
-null
-[
-"
-passthrough
-"
-]
 )
 ;
 reportCompare

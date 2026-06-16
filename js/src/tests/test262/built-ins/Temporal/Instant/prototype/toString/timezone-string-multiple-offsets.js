@@ -54,7 +54,7 @@ sameValue
 (
 result
 .
-substr
+slice
 (
 -
 6
