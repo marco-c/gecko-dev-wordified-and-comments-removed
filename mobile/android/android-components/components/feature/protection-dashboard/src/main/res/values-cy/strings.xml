@@ -760,10 +760,10 @@ quantity
 one
 "
 >
-Traciwr
 %
 1
 d
+traciwr
 <
 /
 item
@@ -779,8 +779,7 @@ zero
 %
 1
 d
-o
-dracwyr
+tracwyr
 <
 /
 item
@@ -796,8 +795,7 @@ two
 %
 1
 d
-o
-dracwyr
+draciwr
 <
 /
 item
@@ -813,8 +811,7 @@ few
 %
 1
 d
-o
-dracwyr
+traciwr
 <
 /
 item
@@ -830,8 +827,7 @@ many
 %
 1
 d
-o
-dracwyr
+traciwr
 <
 /
 item
@@ -847,8 +843,7 @@ other
 %
 1
 d
-o
-dracwyr
+traciwr
 <
 /
 item
@@ -964,8 +959,8 @@ s
 wedi
 \
 '
-i
-rwystro
+u
+rhwystro
 ers
 %
 2
@@ -988,8 +983,8 @@ s
 wedi
 \
 '
-i
-rwystro
+u
+rhwystro
 ers
 %
 2
@@ -1012,8 +1007,8 @@ s
 wedi
 \
 '
-i
-rwystro
+u
+rhwystro
 ers
 %
 2
@@ -1036,8 +1031,8 @@ s
 wedi
 \
 '
-i
-rwystro
+u
+rhwystro
 ers
 %
 2
@@ -1060,8 +1055,8 @@ s
 wedi
 \
 '
-i
-rwystro
+u
+rhwystro
 ers
 %
 2

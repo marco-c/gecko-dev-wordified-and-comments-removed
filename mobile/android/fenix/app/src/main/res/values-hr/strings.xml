@@ -19157,13 +19157,6 @@ name
 "
 customize_toggle_world_cup
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 Svjetsko
 prvenstvo
@@ -75846,13 +75839,6 @@ name
 =
 "
 sports_widget_extra_time
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 Produ

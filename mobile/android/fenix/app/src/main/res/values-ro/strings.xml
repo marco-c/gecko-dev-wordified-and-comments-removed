@@ -19247,13 +19247,6 @@ name
 "
 customize_toggle_world_cup
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 Cupa
 Mondial
@@ -76662,13 +76655,6 @@ name
 =
 "
 sports_widget_extra_time
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 Prelungiri

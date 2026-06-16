@@ -18234,13 +18234,6 @@ name
 "
 customize_toggle_world_cup
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 World
 Cup
@@ -73554,13 +73547,6 @@ name
 =
 "
 sports_widget_extra_time
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 Extra
