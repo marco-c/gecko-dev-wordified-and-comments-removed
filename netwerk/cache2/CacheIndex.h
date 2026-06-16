@@ -208,6 +208,9 @@ mIsDirty
 uint32_t
 mKBWritten
 ;
+uint32_t
+mIsEncrypted
+;
 }
 ;
 static_assert
@@ -242,6 +245,14 @@ CacheIndexHeader
 :
 :
 mKBWritten
+)
++
+sizeof
+(
+CacheIndexHeader
+:
+:
+mIsEncrypted
 )
 =
 =
