@@ -1787,6 +1787,12 @@ extensions
 activeThemeID
 "
 ;
+#
+if
+defined
+(
+MOZ_DEFAULT_BROWSER_AGENT
+)
 static
 const
 char
@@ -1817,6 +1823,8 @@ startup
 preXulSkeletonUI
 "
 ;
+#
+endif
 #
 endif
 #
@@ -10636,6 +10644,12 @@ return
 NS_OK
 ;
 }
+#
+if
+defined
+(
+MOZ_DEFAULT_BROWSER_AGENT
+)
 static
 void
 SetupSkeletonUIPrefs
@@ -10742,6 +10756,8 @@ false
 )
 ;
 }
+#
+endif
 #
 if
 defined
