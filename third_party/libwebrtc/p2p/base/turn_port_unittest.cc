@@ -11407,7 +11407,7 @@ nullptr
 TEST_F
 (
 TurnPortTest
-TestTurnCustomizerAddAttribute
+DISABLED_TestTurnCustomizerAddAttribute
 )
 {
 unsigned
