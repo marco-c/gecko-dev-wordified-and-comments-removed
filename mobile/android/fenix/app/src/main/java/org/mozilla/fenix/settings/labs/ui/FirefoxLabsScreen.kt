@@ -774,8 +774,13 @@ clicked
 *
 with
 the
-feedback
-URL
+[
+LabsItem
+]
+whose
+link
+was
+tapped
 as
 the
 argument
@@ -799,7 +804,7 @@ Unit
 onShareFeedbackClick
 :
 (
-String
+LabsItem
 )
 -
 >
@@ -1016,7 +1021,7 @@ Unit
 onShareFeedbackClick
 :
 (
-String
+LabsItem
 )
 -
 >
@@ -1168,7 +1173,7 @@ Unit
 onShareFeedbackClick
 :
 (
-String
+LabsItem
 )
 -
 >
@@ -1229,6 +1234,9 @@ url
 >
 LabsShareFeedbackLink
 (
+item
+=
+item
 itemTitle
 =
 itemTitle
@@ -1256,6 +1264,9 @@ private
 fun
 LabsShareFeedbackLink
 (
+item
+:
+LabsItem
 itemTitle
 :
 String
@@ -1265,7 +1276,7 @@ String
 onShareFeedbackClick
 :
 (
-String
+LabsItem
 )
 -
 >
@@ -1314,7 +1325,15 @@ url
 url
 onClick
 =
+{
+_
+-
+>
 onShareFeedbackClick
+(
+item
+)
+}
 )
 )
 linkTextDecoration

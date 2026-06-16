@@ -190,6 +190,10 @@ is
 LabsAction
 .
 RestartApplication
+is
+LabsAction
+.
+ShareFeedbackClicked
 -
 >
 state
