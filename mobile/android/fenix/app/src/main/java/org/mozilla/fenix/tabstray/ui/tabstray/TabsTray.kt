@@ -1945,13 +1945,6 @@ tabsTrayState
 sync
 .
 isSignedIn
-pbmLocked
-=
-tabsTrayState
-.
-privateBrowsing
-.
-isLocked
 onOpenNewNormalTabClicked
 =
 onOpenNewNormalTabClicked

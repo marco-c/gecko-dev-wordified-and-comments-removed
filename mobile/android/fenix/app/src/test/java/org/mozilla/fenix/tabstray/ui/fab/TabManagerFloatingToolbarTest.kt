@@ -565,9 +565,6 @@ initialState
 isSignedIn
 =
 true
-pbmLocked
-=
-false
 modifier
 =
 Modifier
@@ -718,9 +715,6 @@ initialState
 isSignedIn
 =
 true
-pbmLocked
-=
-false
 modifier
 =
 Modifier
@@ -871,9 +865,6 @@ initialState
 isSignedIn
 =
 true
-pbmLocked
-=
-false
 modifier
 =
 Modifier
