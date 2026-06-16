@@ -5589,6 +5589,17 @@ rtp_test_utils
 /
 test
 :
+run_loop
+"
+"
+.
+.
+/
+.
+.
+/
+test
+:
 test_support
 "
 "

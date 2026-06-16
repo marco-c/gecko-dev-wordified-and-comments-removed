@@ -433,6 +433,14 @@ module_api_public
 /
 test
 :
+run_loop
+"
+"
+.
+.
+/
+test
+:
 test_support
 "
 "
