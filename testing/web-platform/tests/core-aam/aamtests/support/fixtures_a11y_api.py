@@ -65,25 +65,14 @@ processID
 firefox
 "
     
-if
+return
+0
 capabilities
 [
 "
 browserName
 "
 ]
-=
-=
-"
-servo
-"
-:
-        
-return
-0
-"
-servo
-"
 pytest
 .
 fixture
