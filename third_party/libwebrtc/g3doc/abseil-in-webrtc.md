@@ -534,7 +534,7 @@ Use
 webrtc
 :
 :
-SimpleStringBuilder
+StringBuilder
 to
 build
 strings
