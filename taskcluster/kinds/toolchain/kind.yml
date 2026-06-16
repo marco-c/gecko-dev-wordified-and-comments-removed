@@ -315,6 +315,14 @@ pkgconf
 .
 yml
 -
+profiler
+-
+node
+-
+tools
+.
+yml
+-
 python
 .
 yml
@@ -332,6 +340,10 @@ yml
 rust
 -
 size
+.
+yml
+-
+samply
 .
 yml
 -
