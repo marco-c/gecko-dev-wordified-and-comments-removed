@@ -3651,9 +3651,7 @@ const
 VideoFrame
 &
 frame
-const
 FrameInstrumentationData
-&
 frame_instrumentation_data
 VideoContentType
 content_type
@@ -3670,7 +3668,13 @@ frame_evaluator_
 >
 OnInstrumentedFrame
 (
+std
+:
+:
+move
+(
 frame_instrumentation_data
+)
 frame
 content_type
 )
