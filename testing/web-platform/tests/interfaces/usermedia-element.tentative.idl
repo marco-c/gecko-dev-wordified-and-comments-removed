@@ -37,6 +37,10 @@ attribute
 EventHandler
 onstream
 ;
+attribute
+EventHandler
+onerror
+;
 static
 boolean
 isTypeSupported
@@ -53,7 +57,8 @@ stream
 ;
 readonly
 attribute
-any
+DOMException
+?
 error
 ;
 undefined
