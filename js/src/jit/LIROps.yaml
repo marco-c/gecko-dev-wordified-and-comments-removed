@@ -15006,7 +15006,7 @@ ifdef
 JS_CODEGEN_X64
 num_temps
 :
-1
+2
 #
 endif
 mir_op

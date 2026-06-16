@@ -9631,7 +9631,15 @@ void
 wasmMulI64WideHI64
 (
 Register
+lhs
+Register
 rhs
+Register
+temp0
+Register
+temp1
+Register
+output
 bool
 isSigned
 )
