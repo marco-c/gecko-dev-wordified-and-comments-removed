@@ -106,11 +106,11 @@ Color
 0xFF000000
 )
 val
-BlackA32
+BlackA50
 =
 Color
 (
-0x52000000
+0x80000000
 )
 val
 Gray0
@@ -314,6 +314,13 @@ VioletDesaturated50
 Color
 (
 0xFF75669F
+)
+val
+VioletDesaturated50A86
+=
+Color
+(
+0xDB75669F
 )
 val
 VioletDesaturated60
