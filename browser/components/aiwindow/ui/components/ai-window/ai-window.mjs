@@ -10829,17 +10829,6 @@ userOpts
 skipUserDispatch
 )
 ;
-/
-/
-todo
-/
-/
-fill
-out
-these
-assistant
-message
-flags
 const
 assistantRoleOpts
 =
@@ -10848,6 +10837,9 @@ lazy
 .
 AssistantRoleOpts
 (
+engineInstance
+.
+model
 )
 ;
 conversation

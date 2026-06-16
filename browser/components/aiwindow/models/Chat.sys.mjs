@@ -61,6 +61,7 @@ MPL
 import
 {
 ToolRoleOpts
+AssistantRoleOpts
 }
 from
 "
@@ -2701,6 +2702,13 @@ tool_calls
 :
 blockedCalls
 }
+new
+AssistantRoleOpts
+(
+engineInstance
+.
+model
+)
 )
 ;
 for
@@ -3071,6 +3079,13 @@ tool_calls
 lastToolCall
 ]
 }
+new
+AssistantRoleOpts
+(
+engineInstance
+.
+model
+)
 )
 ;
 lazy
