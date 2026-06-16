@@ -3305,6 +3305,12 @@ backgroundServices
 .
 accountManager
 }
+lazyAppStore
+=
+lazy
+{
+appStore
+}
 settings
 =
 settings

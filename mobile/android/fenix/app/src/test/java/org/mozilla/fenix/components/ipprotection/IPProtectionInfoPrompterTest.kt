@@ -235,12 +235,6 @@ errorMessages
 =
 ErrorMessages
 (
-connectionError
-=
-"
-Connection
-error
-"
 dataLimitReached
 =
 "
