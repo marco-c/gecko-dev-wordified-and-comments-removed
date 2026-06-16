@@ -9030,21 +9030,6 @@ False
 :
             
 if
-(
-                
-not
-self
-.
-_substs
-.
-get
-(
-"
-MOZ_DEBUG
-"
-)
-                
-or
 self
 .
 _substs
@@ -9058,8 +9043,6 @@ TARGET_CPU
 "
 x86_64
 "
-            
-)
 :
                 
 return

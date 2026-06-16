@@ -95,6 +95,14 @@ macosx64
 -
 aarch64
 -
+opt
+"
+    
+"
+macosx64
+-
+aarch64
+-
 debug
 "
     
