@@ -384,6 +384,7 @@ IsKeyboardSelect
 Visual
 Extend
 ForceEditableRegion
+ForCaretMove
 }
 ;
 using

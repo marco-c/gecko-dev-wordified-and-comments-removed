@@ -4824,6 +4824,14 @@ PeekOffsetOption
 ForceEditableRegion
 ;
 }
+options
++
+=
+PeekOffsetOption
+:
+:
+ForCaretMove
+;
 return
 options
 ;
