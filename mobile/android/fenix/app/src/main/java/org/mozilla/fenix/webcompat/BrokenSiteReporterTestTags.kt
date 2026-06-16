@@ -94,4 +94,17 @@ error
 .
 message
 "
+const
+val
+BROKEN_SITE_REPORTER_DESCRIPTION_INPUT
+=
+"
+broken
+.
+site
+.
+description
+.
+input
+"
 }
