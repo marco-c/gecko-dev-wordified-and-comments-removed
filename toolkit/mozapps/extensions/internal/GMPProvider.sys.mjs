@@ -3148,6 +3148,14 @@ if
 this
 .
 appDisabled
+&
+&
+!
+Services
+.
+startup
+.
+shuttingDown
 )
 {
 let
