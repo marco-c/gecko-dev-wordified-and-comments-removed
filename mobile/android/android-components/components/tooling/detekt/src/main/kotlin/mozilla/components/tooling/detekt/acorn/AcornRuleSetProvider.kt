@@ -167,6 +167,10 @@ AcornThemeUsageRule
 (
 config
 )
+MaterialSwitchUsageRule
+(
+config
+)
 MaterialTypographyUsageRule
 (
 config
