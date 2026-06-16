@@ -955,13 +955,6 @@ peerconnection_unittests
 "
 /
 /
-test
-:
-test_support_unittests
-"
-"
-/
-/
 video
 :
 video_tests
