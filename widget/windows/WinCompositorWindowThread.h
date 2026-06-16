@@ -22,15 +22,6 @@ message_loop
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Monitor
-.
-h
-"
 namespace
 mozilla
 {
@@ -155,9 +146,6 @@ Thread
 >
 const
 mThread
-;
-Monitor
-mMonitor
 ;
 bool
 mHasAttemptedShutdown

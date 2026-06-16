@@ -38,15 +38,6 @@ include
 "
 mozilla
 /
-Monitor
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPtr
 .
 h
@@ -546,10 +537,6 @@ SerializedTaskDispatcher
 >
 mSerializedTaskDispatcher
 ;
-Monitor
-&
-mMonitor
-;
 friend
 class
 OcclusionUpdateRunnable
@@ -656,9 +643,6 @@ base
 Thread
 >
 mThread
-;
-Monitor
-mMonitor
 ;
 bool
 mHasAttemptedShutdown
