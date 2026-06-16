@@ -532,7 +532,7 @@ openDetails
 (
 TrackingProtectionCategory
 .
-REDIRECT_TRACKERS
+CRYPTOMINERS
 true
 )
 verify
@@ -547,7 +547,7 @@ EnterDetailsMode
 (
 TrackingProtectionCategory
 .
-REDIRECT_TRACKERS
+CRYPTOMINERS
 true
 )
 )
