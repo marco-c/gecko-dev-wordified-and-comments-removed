@@ -907,6 +907,11 @@ string
 .
 preferences_addresses_save_and_autofill_addresses_summary_2
 )
+maxDescriptionLines
+=
+Int
+.
+MAX_VALUE
 showSwitchAfter
 =
 true
@@ -1228,6 +1233,11 @@ string
 app_name
 )
 )
+maxDescriptionLines
+=
+Int
+.
+MAX_VALUE
 showSwitchAfter
 =
 true

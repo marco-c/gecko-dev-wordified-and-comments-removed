@@ -1094,6 +1094,11 @@ maxLabelLines
 Int
 .
 MAX_VALUE
+maxDescriptionLines
+=
+Int
+.
+MAX_VALUE
 showSwitchAfter
 =
 true

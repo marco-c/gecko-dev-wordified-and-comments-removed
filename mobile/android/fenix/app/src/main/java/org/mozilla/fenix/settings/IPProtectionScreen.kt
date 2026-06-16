@@ -1785,6 +1785,11 @@ string
 .
 ip_protection_location_recommended_description
 )
+maxDescriptionLines
+=
+Int
+.
+MAX_VALUE
 )
 }
 Composable
