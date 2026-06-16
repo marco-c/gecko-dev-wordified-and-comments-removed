@@ -21,7 +21,11 @@ h
 #
 include
 "
-SVGPoint
+mozilla
+/
+gfx
+/
+Point
 .
 h
 "
@@ -83,6 +87,14 @@ DOMSVGPointList
 class
 SVGPointList
 {
+using
+Point
+=
+gfx
+:
+:
+Point
+;
 friend
 class
 SVGAnimatedPointList
@@ -203,7 +215,7 @@ Length
 ;
 }
 const
-SVGPoint
+Point
 &
 operator
 [
@@ -228,7 +240,7 @@ nodiscard
 ]
 FallibleTArray
 <
-SVGPoint
+Point
 >
 :
 :
@@ -253,7 +265,7 @@ nodiscard
 ]
 FallibleTArray
 <
-SVGPoint
+Point
 >
 :
 :
@@ -322,7 +334,7 @@ Length
 *
 sizeof
 (
-SVGPoint
+Point
 )
 )
 =
@@ -388,7 +400,7 @@ mItems
 )
 ;
 }
-SVGPoint
+Point
 &
 operator
 [
@@ -451,7 +463,7 @@ InsertItem
 uint32_t
 aIndex
 const
-SVGPoint
+Point
 &
 aPoint
 )
@@ -496,7 +508,7 @@ ReplaceItem
 uint32_t
 aIndex
 const
-SVGPoint
+Point
 &
 aPoint
 )
@@ -567,7 +579,9 @@ aIndex
 bool
 AppendItem
 (
-SVGPoint
+const
+Point
+&
 aPoint
 )
 {
@@ -592,7 +606,7 @@ nodiscard
 ]
 FallibleTArray
 <
-SVGPoint
+Point
 >
 :
 :
@@ -616,7 +630,7 @@ nodiscard
 ]
 FallibleTArray
 <
-SVGPoint
+Point
 >
 :
 :
@@ -635,7 +649,7 @@ end
 }
 FallibleTArray
 <
-SVGPoint
+Point
 >
 mItems
 ;

@@ -1287,7 +1287,7 @@ aIndex
 domItem
 -
 >
-ToSVGPoint
+ToPoint
 (
 )
 )
@@ -1465,7 +1465,7 @@ aIndex
 domItem
 -
 >
-ToSVGPoint
+ToPoint
 (
 )
 ;

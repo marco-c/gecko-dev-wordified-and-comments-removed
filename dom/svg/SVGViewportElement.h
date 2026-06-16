@@ -42,13 +42,6 @@ h
 #
 include
 "
-SVGPoint
-.
-h
-"
-#
-include
-"
 SVGPreserveAspectRatio
 .
 h

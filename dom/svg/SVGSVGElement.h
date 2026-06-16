@@ -604,7 +604,10 @@ GetTimedDocumentRoot
 )
 ;
 const
-SVGPoint
+gfx
+:
+:
+Point
 &
 GetCurrentTranslate
 (
@@ -625,7 +628,10 @@ return
 mCurrentTranslate
 !
 =
-SVGPoint
+gfx
+:
+:
+Point
 (
 )
 |
@@ -803,7 +809,10 @@ SVGView
 >
 mSVGView
 ;
-SVGPoint
+gfx
+:
+:
+Point
 mCurrentTranslate
 ;
 float

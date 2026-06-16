@@ -130,7 +130,7 @@ constinit
 static
 SVGAttrTearoffTable
 <
-SVGPoint
+Point
 DOMSVGPoint
 >
 sSVGTranslateTearOffTable
@@ -237,7 +237,9 @@ InternalItem
 (
 )
 .
-mX
+X
+(
+)
 ;
 }
 void
@@ -286,7 +288,9 @@ if
 (
 val
 .
-mX
+X
+(
+)
 =
 =
 aX
@@ -309,7 +313,7 @@ this
 ;
 val
 .
-mX
+x
 =
 aX
 ;
@@ -347,7 +351,9 @@ InternalItem
 (
 )
 .
-mY
+Y
+(
+)
 ;
 }
 void
@@ -396,7 +402,9 @@ if
 (
 val
 .
-mY
+Y
+(
+)
 =
 =
 aY
@@ -419,7 +427,7 @@ this
 ;
 val
 .
-mY
+y
 =
 aY
 ;
@@ -501,8 +509,14 @@ matrix2D
 .
 TransformPoint
 (
+gfx
+:
+:
+ThebesPoint
+(
 InternalItem
 (
+)
 )
 )
 ;
@@ -512,6 +526,8 @@ MakeAndAddRef
 DOMSVGPoint
 >
 (
+:
+:
 ToPoint
 (
 pt
@@ -637,7 +653,7 @@ one
 mVal
 =
 new
-SVGPoint
+Point
 (
 InternalItem
 (
@@ -653,7 +669,7 @@ mIsAnimValItem
 false
 ;
 }
-SVGPoint
+Point
 &
 DOMSVGPoint
 :
@@ -704,7 +720,7 @@ DOMSVGPoint
 :
 GetTranslateTearOff
 (
-SVGPoint
+Point
 *
 aVal
 SVGSVGElement
