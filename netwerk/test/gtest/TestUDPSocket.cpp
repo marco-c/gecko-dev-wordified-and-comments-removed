@@ -1463,6 +1463,13 @@ clientListener
 mResult
 )
 ;
+#
+if
+!
+defined
+(
+XP_MACOSX
+)
 nsCOMPtr
 <
 nsITimer
@@ -2033,6 +2040,8 @@ Cancel
 (
 )
 ;
+#
+endif
 goto
 close
 ;
