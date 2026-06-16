@@ -924,7 +924,7 @@ aButton
 nsIWidget
 :
 :
-Modifiers
+NativeModifiers
 aModifierFlags
 nsISynthesizedEventCallback
 *

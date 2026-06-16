@@ -5017,7 +5017,7 @@ eSecondary
 nsIWidget
 :
 :
-Modifiers
+NativeModifiers
 :
 :
 NO_MODIFIERS
