@@ -1755,6 +1755,12 @@ interactor
 :
 :
 onGetCustomWallpaperClicked
+onShare
+=
+interactor
+:
+:
+onSportsWidgetShareClicked
 onRefresh
 =
 {

@@ -973,6 +973,10 @@ onGetCustomWallpaper
 =
 {
 }
+onShare
+=
+{
+}
 onRemove
 =
 {
