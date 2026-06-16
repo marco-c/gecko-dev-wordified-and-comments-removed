@@ -798,7 +798,6 @@ aPrincipal
 uint64_t
 aBrowsingContextID
 IPCClientInfo
-?
 aClientInfo
 bool
 aDedicated

@@ -200,13 +200,7 @@ uint64_t
 &
 aBrowsingContextID
 const
-mozilla
-:
-:
-Maybe
-<
 IPCClientInfo
->
 &
 aClientInfo
 const
@@ -605,7 +599,10 @@ nsILoadInfo
 SEC_ALLOW_CROSS_ORIGIN_SEC_CONTEXT_IS_NULL
 clientInfo
 =
+ClientInfo
+{
 aClientInfo
+}
 ]
 {
 LOG
@@ -650,7 +647,10 @@ principal
 browsingContextID
 flags
 self
+Some
+(
 clientInfo
+)
 nsIWebTransport
 :
 :
