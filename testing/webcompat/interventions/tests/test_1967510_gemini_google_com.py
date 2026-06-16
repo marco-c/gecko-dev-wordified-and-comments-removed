@@ -125,6 +125,8 @@ navigate
 URL
 )
     
+prompt
+=
 client
 .
 await_css
@@ -134,6 +136,16 @@ is_displayed
 =
 True
 )
+    
+await
+client
+.
+stall
+(
+1
+)
+    
+prompt
 .
 send_keys
 (
@@ -142,6 +154,8 @@ hello
 "
 )
     
+send
+=
 client
 .
 await_css
@@ -151,6 +165,16 @@ is_displayed
 =
 True
 )
+    
+await
+client
+.
+stall
+(
+1
+)
+    
+send
 .
 click
 (
@@ -320,6 +344,14 @@ client
 .
 do_paste
 (
+)
+    
+await
+client
+.
+stall
+(
+1
 )
     
 return

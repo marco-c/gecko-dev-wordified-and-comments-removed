@@ -105,6 +105,22 @@ none
 "
 )
     
+client
+.
+hide_elements
+(
+"
+#
+batman
+-
+dialog
+-
+overlay
+-
+wrap
+"
+)
+    
 item
 =
 client

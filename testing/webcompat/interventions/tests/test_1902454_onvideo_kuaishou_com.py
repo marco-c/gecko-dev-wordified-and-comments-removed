@@ -215,4 +215,7 @@ client
 await_text
 (
 MOBILE_UNSUPPORTED_TEXT
+timeout
+=
+30
 )

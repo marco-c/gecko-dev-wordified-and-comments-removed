@@ -53,7 +53,24 @@ none
 "
 timeout
 =
-120
+60
+)
+    
+frame
+=
+client
+.
+await_css
+(
+FRAME_CSS
+)
+    
+await
+client
+.
+stall
+(
+1
 )
     
 return
@@ -88,15 +105,7 @@ innerHeight
 "
 "
         
-client
-.
-await_css
-(
-FRAME_CSS
-timeout
-=
-60
-)
+frame
     
 )
 pytest

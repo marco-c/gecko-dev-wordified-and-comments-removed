@@ -55,12 +55,6 @@ type
 submit
 ]
 "
-MY_ROOM_TEXT
-=
-"
-My
-room
-"
 SELECT_MEDIA_CSS
 =
 "
@@ -337,11 +331,7 @@ condition
 "
 elem
 .
-firstChild
-?
-.
-nodeValue
-?
+innerText
 .
 includes
 (

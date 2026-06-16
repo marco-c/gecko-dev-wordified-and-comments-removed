@@ -23,8 +23,12 @@ _frmLogin
 LOGIN_CSS
 =
 "
-#
-okta_login
+input
+[
+type
+=
+email
+]
 "
 DOWN_CSS
 =

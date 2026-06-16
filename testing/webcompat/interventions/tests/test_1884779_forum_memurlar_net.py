@@ -69,6 +69,9 @@ client
 navigate
 (
 URL
+no_skip
+=
+True
 )
     
 assert
@@ -124,6 +127,9 @@ client
 navigate
 (
 URL
+no_skip
+=
+True
 )
     
 assert

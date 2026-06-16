@@ -86,6 +86,9 @@ SIGN_IN_TEXT
 is_displayed
 =
 True
+timeout
+=
+60
 )
 )
     
@@ -154,6 +157,9 @@ SIGN_IN_TEXT
 is_displayed
 =
 True
+timeout
+=
+60
 )
 )
     

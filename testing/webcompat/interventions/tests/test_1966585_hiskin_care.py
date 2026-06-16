@@ -64,6 +64,9 @@ client
 await_css
 (
 IFRAME_CSS
+timeout
+=
+30
 is_displayed
 =
 True

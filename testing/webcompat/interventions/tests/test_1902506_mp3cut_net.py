@@ -24,6 +24,8 @@ it
 "
 PICKER_DROPDOWN_BUTTON_CSS
 =
+(
+    
 "
 .
 file
@@ -41,7 +43,14 @@ haspopup
 =
 list
 ]
+:
+not
+(
+:
+disabled
+)
 "
+)
 PICKER_FROM_URL_CSS
 =
 "

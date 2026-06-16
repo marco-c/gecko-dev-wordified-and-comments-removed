@@ -1,7 +1,11 @@
 import
-asyncio
-import
 pytest
+from
+webdriver
+.
+error
+import
+NoSuchElementException
 URL
 =
 "
@@ -179,14 +183,9 @@ click
 reserve
 )
     
-await
-asyncio
-.
-sleep
-(
-4
-)
-    
+try
+:
+        
 seat_map_zoom_wrapper
 =
 client
@@ -194,7 +193,17 @@ client
 await_css
 (
 ZOOM_WRAPPER_CSS
+timeout
+=
+10
 )
+    
+except
+NoSuchElementException
+:
+        
+return
+False
     
 client
 .
