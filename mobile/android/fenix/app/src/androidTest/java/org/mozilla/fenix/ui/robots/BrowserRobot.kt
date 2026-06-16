@@ -292,6 +292,16 @@ ui
 .
 test
 .
+performScrollTo
+import
+androidx
+.
+compose
+.
+ui
+.
+test
+.
 performTextInput
 import
 androidx
@@ -9013,6 +9023,10 @@ string
 .
 mozac_compose_base_link_text_links_available
 )
+)
+.
+performScrollTo
+(
 )
 .
 assertIsDisplayed
