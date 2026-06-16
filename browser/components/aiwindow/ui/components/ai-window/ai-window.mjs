@@ -1359,7 +1359,7 @@ fastlyWafRateLimit
 7
 :
 "
-invalidPageContent
+fastlyBlocked
 "
 }
 ;
@@ -1379,7 +1379,7 @@ map
 the
 406
 to
-invalidPageContent
+fastlyBlocked
 .
 function
 getErrorCode
