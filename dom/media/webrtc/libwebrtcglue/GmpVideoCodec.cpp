@@ -50,8 +50,10 @@ make_unique
 WebrtcVideoEncoderProxy
 >
 (
-new
+MakeRefPtr
+<
 WebrtcGmpVideoEncoder
+>
 (
 aFormat
 std
