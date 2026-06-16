@@ -1575,8 +1575,10 @@ aStyleForEntry
 )
 override
 ;
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 MakePlatformFont
 (
 const

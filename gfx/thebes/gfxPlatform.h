@@ -1455,8 +1455,10 @@ SlantStyleRange
 aStyleForEntry
 )
 ;
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 MakePlatformFont
 (
 const

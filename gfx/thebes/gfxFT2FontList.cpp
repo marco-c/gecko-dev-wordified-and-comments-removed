@@ -12,6 +12,15 @@ include
 "
 mozilla
 /
+EndianUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -10457,8 +10466,10 @@ return
 ff
 ;
 }
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 gfxFT2FontList
 :
 :
@@ -10483,6 +10494,8 @@ aLength
 )
 {
 return
+do_AddRef
+(
 FT2FontEntry
 :
 :
@@ -10494,6 +10507,7 @@ aStretchForEntry
 aStyleForEntry
 aFontData
 aLength
+)
 )
 ;
 }

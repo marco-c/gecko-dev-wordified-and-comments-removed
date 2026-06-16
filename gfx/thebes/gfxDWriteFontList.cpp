@@ -4951,8 +4951,10 @@ return
 fe
 ;
 }
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 gfxDWriteFontList
 :
 :
@@ -5097,10 +5099,10 @@ fileType
 UINT32
 numFaces
 ;
-auto
+RefPtr
 entry
 =
-MakeUnique
+MakeRefPtr
 <
 gfxDWriteFontEntry
 >
@@ -5216,7 +5218,7 @@ nullptr
 return
 entry
 .
-release
+forget
 (
 )
 ;

@@ -1801,8 +1801,10 @@ aStyleForEntry
 0
 ;
 virtual
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 MakePlatformFont
 (
 const
