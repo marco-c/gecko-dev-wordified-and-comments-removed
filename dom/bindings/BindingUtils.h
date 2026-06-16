@@ -3473,7 +3473,7 @@ false
 )
 {
 }
-void
+bool
 onChild
 (
 JS
@@ -3487,6 +3487,9 @@ name
 )
 override
 {
+return
+true
+;
 }
 }
 ;
@@ -15896,8 +15899,6 @@ already_AddRefed
 <
 S
 >
-&
-&
 aPtr
 )
 {
