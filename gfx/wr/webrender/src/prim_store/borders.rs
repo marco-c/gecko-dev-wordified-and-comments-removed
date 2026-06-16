@@ -2340,7 +2340,7 @@ NormalBorderPrim
 >
 (
 )
-84
+100
 "
 NormalBorderPrim
 size
@@ -2362,7 +2362,7 @@ NormalBorderTemplate
 >
 (
 )
-140
+156
 "
 NormalBorderTemplate
 size
@@ -2384,7 +2384,7 @@ NormalBorderKey
 >
 (
 )
-88
+104
 "
 NormalBorderKey
 size

@@ -5658,6 +5658,12 @@ mozilla
 BorderRadius
 &
 const
+mozilla
+:
+:
+CornerShapeRect
+&
+const
 nsSize
 &
 aFrameSize

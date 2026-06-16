@@ -3400,6 +3400,11 @@ BorderRadius
 =
 StyleBorderRadius
 ;
+using
+CornerShapeRect
+=
+StyleCornerShapeRect
+;
 bool
 StyleCSSPixelLength
 :
