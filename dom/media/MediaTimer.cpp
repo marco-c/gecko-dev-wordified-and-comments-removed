@@ -382,9 +382,9 @@ MediaTimer
 :
 :
 WaitUntil
-%
+{
+}
 "
-PRId64
 RelativeMicroseconds
 (
 aTimeStamp
@@ -1020,9 +1020,12 @@ MediaTimer
 ArmTimer
 delay
 =
-%
+{
+:
 .
-3fms
+3f
+}
+ms
 "
 delay
 .
