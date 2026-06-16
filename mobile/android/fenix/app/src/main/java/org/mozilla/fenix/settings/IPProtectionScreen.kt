@@ -1056,6 +1056,15 @@ if
 readyToUse
 )
 {
+if
+(
+state
+.
+maxDataBytes
+>
+0
+)
+{
 DataLimitSection
 (
 state
@@ -1068,6 +1077,7 @@ onLearnMoreClick
 HorizontalDivider
 (
 )
+}
 VpnLocationSection
 (
 )

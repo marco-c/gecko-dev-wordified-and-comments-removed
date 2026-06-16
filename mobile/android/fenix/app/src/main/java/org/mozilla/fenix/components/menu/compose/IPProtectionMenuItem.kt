@@ -756,6 +756,13 @@ status
 IPProtectionMenuStatus
 .
 DataLimitReached
+&
+&
+state
+.
+dataLimitGb
+>
+0
 )
 {
 Text
