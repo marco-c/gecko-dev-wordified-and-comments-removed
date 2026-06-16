@@ -2332,6 +2332,7 @@ aEndValue
 &
 aNewStyle
 timeline
+nullptr
 )
 ;
 if
@@ -2397,6 +2398,19 @@ SetTimelineNoUpdate
 (
 timeline
 nullptr
+mozilla
+:
+:
+dom
+:
+:
+Animation
+:
+:
+FromJS
+:
+:
+No
 )
 ;
 animation
