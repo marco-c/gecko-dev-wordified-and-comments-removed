@@ -10267,7 +10267,7 @@ VideoMediaSendInfo
 WebRtcVideoSendChannel
 :
 :
-GetStatsCallback
+GetStatsTask
 (
 )
 {
@@ -18725,7 +18725,7 @@ void
 WebRtcVideoReceiveChannel
 :
 :
-GetResetUnsignaledRecvStreamCallback
+GetResetUnsignaledRecvStreamTask
 (
 )
 {
@@ -19300,7 +19300,7 @@ VideoMediaReceiveInfo
 WebRtcVideoReceiveChannel
 :
 :
-GetStatsCallback
+GetStatsTask
 (
 )
 {

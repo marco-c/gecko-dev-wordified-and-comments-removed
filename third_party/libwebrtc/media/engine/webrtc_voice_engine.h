@@ -1369,7 +1369,7 @@ VoiceMediaSendInfo
 (
 )
 >
-GetStatsCallback
+GetStatsTask
 (
 )
 override
@@ -1945,7 +1945,7 @@ void
 &
 &
 >
-GetResetUnsignaledRecvStreamCallback
+GetResetUnsignaledRecvStreamTask
 (
 )
 override
@@ -2065,10 +2065,10 @@ VoiceMediaReceiveInfo
 (
 )
 >
-GetStatsCallback
+GetStatsTask
 (
 bool
-get_and_clear_legacy_stats
+reset_legacy
 )
 override
 ;

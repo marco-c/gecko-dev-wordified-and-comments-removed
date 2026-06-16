@@ -10178,7 +10178,7 @@ VoiceMediaSendInfo
 WebRtcVoiceSendChannel
 :
 :
-GetStatsCallback
+GetStatsTask
 (
 )
 {
@@ -13542,7 +13542,7 @@ void
 WebRtcVoiceReceiveChannel
 :
 :
-GetResetUnsignaledRecvStreamCallback
+GetResetUnsignaledRecvStreamTask
 (
 )
 {
@@ -15341,16 +15341,16 @@ VoiceMediaReceiveInfo
 WebRtcVoiceReceiveChannel
 :
 :
-GetStatsCallback
+GetStatsTask
 (
 bool
-get_and_clear_legacy_stats
+reset_legacy
 )
 {
 return
 [
 this
-get_and_clear_legacy_stats
+reset_legacy
 safety
 =
 task_safety_
@@ -15399,7 +15399,7 @@ GetStats
 (
 &
 info
-get_and_clear_legacy_stats
+reset_legacy
 )
 )
 {

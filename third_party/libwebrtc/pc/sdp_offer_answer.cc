@@ -33491,7 +33491,7 @@ Add
 receive_channel
 -
 >
-GetResetUnsignaledRecvStreamCallback
+GetResetUnsignaledRecvStreamTask
 (
 )
 )

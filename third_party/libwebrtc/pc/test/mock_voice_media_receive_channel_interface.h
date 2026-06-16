@@ -388,7 +388,7 @@ VoiceMediaReceiveInfo
 (
 )
 >
-GetStatsCallback
+GetStatsTask
 (
 bool
 reset_legacy
@@ -565,7 +565,7 @@ void
 &
 &
 >
-GetResetUnsignaledRecvStreamCallback
+GetResetUnsignaledRecvStreamTask
 (
 )
 (
