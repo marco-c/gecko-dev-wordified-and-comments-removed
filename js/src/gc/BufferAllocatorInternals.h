@@ -2093,12 +2093,6 @@ bool
 >
 ownsFreeLists
 ;
-MainThreadOrGCTaskData
-<
-size_t
->
-freeBytesAfterSweep
-;
 using
 SmallRegionIter
 =
