@@ -246,6 +246,15 @@ NumericValue
 ;
 pub
 type
+MathInvert
+=
+Box
+<
+NumericValue
+>
+;
+pub
+type
 MathMin
 =
 ThinVec
@@ -301,6 +310,10 @@ MathSum
 Negate
 (
 MathNegate
+)
+Invert
+(
+MathInvert
 )
 Min
 (
