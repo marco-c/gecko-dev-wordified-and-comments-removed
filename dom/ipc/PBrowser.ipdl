@@ -3354,7 +3354,7 @@ double
 aDeltaY
 double
 aDeltaZ
-uint32_t
+NativeModifiers
 aModifierFlags
 uint32_t
 aAdditionalFlags

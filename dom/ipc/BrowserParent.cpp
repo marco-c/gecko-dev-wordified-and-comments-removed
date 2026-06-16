@@ -9995,7 +9995,10 @@ double
 &
 aDeltaZ
 const
-uint32_t
+nsIWidget
+:
+:
+NativeModifiers
 &
 aModifierFlags
 const
