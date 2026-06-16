@@ -1206,7 +1206,7 @@ profileString_
 =
 nullptr
 ;
-HeapPtr
+GCPtr
 <
 JSScript
 *
@@ -1227,7 +1227,7 @@ IonScript
 >
 ionScript_
 ;
-HeapPtr
+GCPtr
 <
 EnvironmentObject
 *
