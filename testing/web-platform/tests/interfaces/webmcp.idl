@@ -52,10 +52,11 @@ webmcp
 )
 partial
 interface
-Navigator
+Document
 {
 [
 SecureContext
+SameObject
 ]
 readonly
 attribute
