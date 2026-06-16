@@ -112,6 +112,10 @@ async
 function
 mintLocalKek
 (
+identifier
+=
+"
+"
 )
 {
 return
@@ -124,6 +128,7 @@ createKek
 "
 local
 "
+identifier
 "
 "
 0
@@ -146,6 +151,8 @@ createKek
 (
 "
 password
+"
+"
 "
 password
 0

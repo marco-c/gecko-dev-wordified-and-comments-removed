@@ -479,6 +479,8 @@ mKeystore
 kekType
 &
 empty
+&
+empty
 0
 &
 mLocalKekRef
@@ -512,6 +514,10 @@ password
 _ns
 )
 ;
+const
+nsCString
+empty
+;
 nsresult
 rv
 =
@@ -520,6 +526,8 @@ keystore_create_kek
 mKeystore
 &
 kekType
+&
+empty
 &
 aPassword
 0
@@ -3744,6 +3752,8 @@ mKeystore
 kekType
 &
 empty
+&
+empty
 0
 &
 otherLocal
@@ -3854,6 +3864,8 @@ keystore_create_kek
 mKeystore
 &
 kekType
+&
+empty
 &
 empty
 0
