@@ -2906,9 +2906,6 @@ return
 env
 ;
 }
-#
-ifdef
-ENABLE_SOURCE_PHASE_IMPORTS
 ModuleEnvironmentObject
 *
 ModuleEnvironmentObject
@@ -3110,8 +3107,6 @@ return
 env
 ;
 }
-#
-endif
 ModuleObject
 &
 ModuleEnvironmentObject

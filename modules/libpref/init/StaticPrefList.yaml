@@ -58878,9 +58878,6 @@ endif
 /
 ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 #
-ifdef
-ENABLE_SOURCE_PHASE_IMPORTS
-#
 Experimental
 support
 for
@@ -58948,8 +58945,6 @@ always
 set_spidermonkey_pref
 :
 startup
-#
-endif
 -
 name
 :
