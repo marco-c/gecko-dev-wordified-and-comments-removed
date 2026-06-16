@@ -570,6 +570,10 @@ std
 string
 session_id_
 ;
+const
+Environment
+env_
+;
 CertificateRequestState
 certificate_request_state_
 ;

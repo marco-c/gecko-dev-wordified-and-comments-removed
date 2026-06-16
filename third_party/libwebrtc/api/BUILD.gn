@@ -9486,6 +9486,11 @@ peerconnection_quality_test_fixture_unittest
 cc
 "
 "
+webrtc_sdp_encoding_options_unittest
+.
+cc
+"
+"
 webrtc_sdp_unittest
 .
 cc

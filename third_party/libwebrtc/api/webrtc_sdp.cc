@@ -7754,6 +7754,8 @@ Candidate
 candidates
 int
 msid_signaling
+bool
+use_wildcard
 std
 :
 :
@@ -8251,7 +8253,7 @@ BuildRtpContentAttributes
 media_desc
 media_type
 msid_signaling
-false
+use_wildcard
 message
 )
 ;
@@ -18763,6 +18765,13 @@ desc
 msid_signaling
 (
 )
+jdesc
+.
+encoding_options
+(
+)
+.
+use_wildcard
 &
 message
 )
