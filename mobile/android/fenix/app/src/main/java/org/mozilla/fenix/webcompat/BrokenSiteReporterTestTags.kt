@@ -113,7 +113,7 @@ button
 "
 const
 val
-BROKEN_SITE_REPORTER_EDIT_URL_DIALOG_RESET_BUTTON
+BROKEN_SITE_REPORTER_EDIT_URL_DIALOG_DISMISS_BUTTON
 =
 "
 edit
@@ -124,7 +124,7 @@ broken
 .
 site
 .
-reset
+dismiss
 .
 button
 "
