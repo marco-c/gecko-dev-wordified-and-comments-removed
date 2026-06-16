@@ -1966,7 +1966,7 @@ attributeName
 nsHtml5String
 val
 =
-strBufToAttributeValueString
+strBufToString
 (
 )
 ;

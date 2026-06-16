@@ -5795,11 +5795,12 @@ attributes
 if
 (
 aAttributes
--
->
-isEmpty
-(
-)
+=
+=
+nsHtml5HtmlAttributes
+:
+:
+EMPTY_ATTRIBUTES
 )
 {
 return
