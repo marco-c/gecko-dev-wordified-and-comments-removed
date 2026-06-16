@@ -1750,6 +1750,16 @@ EqualsLiteral
 importmap
 "
 )
+|
+|
+aType
+.
+EqualsLiteral
+(
+"
+speculationrules
+"
+)
 ;
 }
 nsDOMTokenList

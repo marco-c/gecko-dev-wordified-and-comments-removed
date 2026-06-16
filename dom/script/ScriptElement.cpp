@@ -1270,6 +1270,17 @@ LowerCaseEqualsASCII
 importmap
 "
 )
+&
+&
+!
+type
+.
+LowerCaseEqualsASCII
+(
+"
+speculationrules
+"
+)
 )
 {
 #
