@@ -124,6 +124,16 @@ frame_type
 =
 0
 ;
+virtual
+void
+OnSkippedInstrumentedFrame
+(
+FrameInstrumentationData
+data
+)
+=
+0
+;
 protected
 :
 FrameInstrumentationEvaluation
