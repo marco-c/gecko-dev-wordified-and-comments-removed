@@ -394,6 +394,13 @@ py
 ]
 [
 "
+test_devtools_mcp
+.
+py
+"
+]
+[
+"
 test_dotproperties
 .
 py
