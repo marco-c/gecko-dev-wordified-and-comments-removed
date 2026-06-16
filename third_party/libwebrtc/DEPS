@@ -4243,8 +4243,6 @@ src
 third_party
 /
 harfbuzz
--
-ng
 /
 src
 '
@@ -4271,7 +4269,7 @@ harfbuzz
 harfbuzz
 .
 git
-6f4c5cec306d31e6822303f5ba248a14293d588e
+4fc96139259ebc35f40118e0382ac8037d928e5c
 '
 '
 src
