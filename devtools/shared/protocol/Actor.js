@@ -858,7 +858,7 @@ retToSend
 {
 throw
 new
-Actor
+Error
 (
 Actor
 method
