@@ -93,11 +93,11 @@ accessible
 /
 tests
 /
-mochitest
+browser
 /
 events
 /
-slow_image
+slow_doc
 .
 sjs
 "
