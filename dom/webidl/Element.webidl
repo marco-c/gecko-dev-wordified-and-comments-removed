@@ -263,9 +263,6 @@ attribute
 NamedNodeMap
 attributes
 ;
-[
-Pure
-]
 sequence
 <
 DOMString
@@ -2509,7 +2506,6 @@ container
 /
 [
 ChromeOnly
-Pure
 ]
 Flex
 ?
@@ -2563,7 +2559,6 @@ lines
 /
 [
 ChromeOnly
-Pure
 ]
 sequence
 <
@@ -2592,7 +2587,6 @@ element
 /
 [
 ChromeOnly
-Pure
 ]
 boolean
 hasGridFragments
@@ -2637,7 +2631,6 @@ frame
 /
 [
 ChromeOnly
-Pure
 ]
 sequence
 <

@@ -195,7 +195,6 @@ dir
 [
 CEReactions
 GetterThrows
-Pure
 ]
 attribute
 [
@@ -208,7 +207,6 @@ innerText
 CEReactions
 GetterThrows
 SetterThrows
-Pure
 ]
 attribute
 [

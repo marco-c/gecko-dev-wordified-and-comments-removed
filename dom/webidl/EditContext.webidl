@@ -189,9 +189,6 @@ DOMRect
 characterBounds
 )
 ;
-[
-Pure
-]
 sequence
 <
 HTMLElement
@@ -235,9 +232,6 @@ unsigned
 long
 characterBoundsRangeStart
 ;
-[
-Pure
-]
 sequence
 <
 DOMRect

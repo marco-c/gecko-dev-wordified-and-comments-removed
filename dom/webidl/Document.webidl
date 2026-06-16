@@ -4690,7 +4690,6 @@ only
 /
 [
 ChromeOnly
-Pure
 ]
 readonly
 attribute

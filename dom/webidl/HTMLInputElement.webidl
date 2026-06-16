@@ -395,7 +395,6 @@ formTarget
 ;
 [
 CEReactions
-Pure
 SetterThrows
 ]
 attribute
@@ -1161,7 +1160,6 @@ one
 automatically
 .
 [
-Pure
 ChromeOnly
 BinaryName
 =
