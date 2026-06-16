@@ -111,12 +111,12 @@ maintainer
 -
 phab
 :
-jgilbert
+ahale
 maintainer
 -
 bz
 :
-jgilbert
+ahale
 mozilla
 .
 com
@@ -140,7 +140,7 @@ needinfo
 :
 [
 "
-jgilbert
+ahale
 mozilla
 .
 com
