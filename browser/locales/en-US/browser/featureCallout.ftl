@@ -2052,7 +2052,7 @@ quickactions
 -
 cmd
 -
-clearrecenthistory
+clearrecenthistory2
 #
 When
 localizing

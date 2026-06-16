@@ -669,7 +669,7 @@ quickactions
 -
 cmd
 -
-clearrecenthistory
+clearrecenthistory2
 "
 "
 quickactions
