@@ -2772,6 +2772,11 @@ SettingsFragmentDirections
 .
 actionSettingsFragmentToIpProtectionFragment
 (
+entrypoint
+=
+FenixFxAEntryPoint
+.
+IPProtectionSettings
 )
 }
 resources
