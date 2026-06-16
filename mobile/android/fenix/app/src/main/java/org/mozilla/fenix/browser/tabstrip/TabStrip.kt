@@ -906,13 +906,6 @@ titleFadeWidth
 dp
 private
 val
-tabStripHorizontalPadding
-=
-16
-.
-dp
-private
-val
 tabStripIconSize
 Composable
 get
@@ -1496,13 +1489,6 @@ backgroundBrush
 .
 systemGestureExclusion
 (
-)
-.
-padding
-(
-horizontal
-=
-tabStripHorizontalPadding
 )
 verticalAlignment
 =
