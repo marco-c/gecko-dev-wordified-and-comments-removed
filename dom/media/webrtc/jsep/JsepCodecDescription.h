@@ -4999,6 +4999,15 @@ ulpfecPt
 )
 |
 |
+(
+!
+redRtxPayloadType
+.
+empty
+(
+)
+&
+&
 !
 SdpHelper
 :
@@ -5008,6 +5017,7 @@ GetPtAsInt
 redRtxPayloadType
 &
 redRtxPt
+)
 )
 )
 {
