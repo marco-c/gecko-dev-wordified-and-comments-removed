@@ -479,8 +479,7 @@ waitForCondition
 =
 >
 updateCalled
-=
-=
+>
 1
 )
 ;
