@@ -153,7 +153,7 @@ MOZ_COUNTED_DTOR
 (
 GroupInfo
 )
-already_AddRefed
+SafeRefPtr
 <
 OriginInfo
 >
@@ -170,7 +170,7 @@ LockedAddOriginInfo
 (
 NotNull
 <
-RefPtr
+SafeRefPtr
 <
 OriginInfo
 >
@@ -225,7 +225,7 @@ nsTArray
 <
 NotNull
 <
-RefPtr
+SafeRefPtr
 <
 OriginInfo
 >

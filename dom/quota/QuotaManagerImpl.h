@@ -74,7 +74,7 @@ invoke_result_t
 <
 F
 const
-RefPtr
+SafeRefPtr
 <
 OriginInfo
 >
@@ -87,7 +87,7 @@ lock
 mQuotaMutex
 )
 ;
-RefPtr
+SafeRefPtr
 <
 OriginInfo
 >
