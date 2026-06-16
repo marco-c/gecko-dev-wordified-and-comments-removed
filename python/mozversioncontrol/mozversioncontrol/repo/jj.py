@@ -2387,7 +2387,8 @@ commit
 "
 "
 -
-m
+-
+message
 "
 message
 ]
@@ -3915,7 +3916,8 @@ new
 "
 "
 -
-m
+-
+message
 "
 commit_message
 self
