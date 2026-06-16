@@ -7773,6 +7773,14 @@ frame
 gpu_buffer_f
 )
 ;
+frame
+.
+gpu_buffer_f
+.
+apply_deferred_uv_copies
+(
+)
+;
 self
 .
 draw_frame
