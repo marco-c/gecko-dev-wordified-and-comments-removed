@@ -1275,6 +1275,14 @@ aStartingSibling
 )
 ;
 void
+RecascadeForTreeCountingFunctions
+(
+nsINode
+*
+aContainer
+)
+;
+void
 RestyleForEmptyChange
 (
 Element
