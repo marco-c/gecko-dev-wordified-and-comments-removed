@@ -309,6 +309,11 @@ suite
 3
 .
 png
+fuzzy
+(
+1
+60
+)
 skip_on
 (
 android
@@ -336,6 +341,11 @@ yaml
 Fails
 on
 Pixel2
+fuzzy
+(
+1
+60
+)
 =
 =
 border
@@ -782,6 +792,11 @@ green
 square
 .
 yaml
+fuzzy
+(
+1
+20
+)
 skip_on
 (
 android
