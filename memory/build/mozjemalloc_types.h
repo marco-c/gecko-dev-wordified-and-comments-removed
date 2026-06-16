@@ -246,7 +246,7 @@ size_t
 quantum_wide_max
 ;
 size_t
-unused
+subpage_max
 ;
 size_t
 large_max
