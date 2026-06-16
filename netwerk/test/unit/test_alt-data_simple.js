@@ -332,6 +332,13 @@ callback
 return
 ;
 }
+wait_for_cache_index
+(
+(
+)
+=
+>
+{
 syncWithCacheIOThread
 (
 (
@@ -376,6 +383,9 @@ callback
 ;
 }
 true
+)
+;
+}
 )
 ;
 }
