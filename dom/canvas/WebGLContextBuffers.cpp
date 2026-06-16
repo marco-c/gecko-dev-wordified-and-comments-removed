@@ -1304,8 +1304,10 @@ buf
 )
 ;
 return
-new
+MakeRefPtr
+<
 WebGLBuffer
+>
 (
 this
 buf
