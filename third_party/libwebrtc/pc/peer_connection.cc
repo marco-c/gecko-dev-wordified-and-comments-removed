@@ -7812,6 +7812,9 @@ parameters
 encodings
 {
 }
+false
+{
+}
 sender_id
 )
 ;
@@ -8160,6 +8163,11 @@ rtp_manager
 video_media_send_channel
 (
 )
+{
+}
+false
+{
+}
 )
 ;
 new_sender

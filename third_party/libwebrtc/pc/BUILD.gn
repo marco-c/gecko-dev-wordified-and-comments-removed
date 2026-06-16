@@ -11181,6 +11181,10 @@ session_description
 "
 "
 :
+simulcast_description
+"
+"
+:
 video_rtp_receiver
 "
 "
@@ -11566,6 +11570,10 @@ rtp_sender_proxy
 "
 :
 rtp_transceiver
+"
+"
+:
+simulcast_description
 "
 "
 :
@@ -13185,6 +13193,10 @@ dtmf_sender
 "
 :
 legacy_stats_collector_interface
+"
+"
+:
+simulcast_description
 "
 "
 .
