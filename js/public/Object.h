@@ -127,6 +127,16 @@ ESClass
 cls
 )
 ;
+extern
+JS_PUBLIC_API
+bool
+IsPlainObject
+(
+JSObject
+*
+obj
+)
+;
 static
 MOZ_ALWAYS_INLINE
 Compartment
