@@ -48,7 +48,7 @@ supporting
 platforms
 and
 features
-needded
+needed
 by
 Firefox
 and

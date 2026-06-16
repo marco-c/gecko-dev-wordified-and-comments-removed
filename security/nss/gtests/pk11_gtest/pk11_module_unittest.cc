@@ -246,6 +246,12 @@ Services
 "
 Test
 PKCS11
+Auth
+Slot
+"
+"
+Test
+PKCS11
 Public
 Certs
 Slot

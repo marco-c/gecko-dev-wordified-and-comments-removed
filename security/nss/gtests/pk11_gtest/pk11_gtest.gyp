@@ -139,6 +139,11 @@ pk11_aeskeywrappad_unittest
 cc
 '
 '
+pk11_auth_unittest
+.
+cc
+'
+'
 pk11_cbc_unittest
 .
 cc
@@ -245,6 +250,11 @@ cc
 '
 '
 pk11_module_unittest
+.
+cc
+'
+'
+pk11_uri_unittest
 .
 cc
 '

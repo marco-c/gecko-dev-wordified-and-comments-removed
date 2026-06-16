@@ -122,11 +122,6 @@ nss
 path
 :
 nss
-nspr
-:
-path
-:
-nspr
 worker
 :
 max

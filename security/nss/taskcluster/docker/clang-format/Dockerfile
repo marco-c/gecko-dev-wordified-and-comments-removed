@@ -74,6 +74,8 @@ format
 -
 13
 \
+git
+\
 locales
 \
 mercurial
