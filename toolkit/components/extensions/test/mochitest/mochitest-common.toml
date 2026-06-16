@@ -2481,6 +2481,13 @@ html
 ]
 [
 "
+test_ext_tabs_capture_blur
+.
+html
+"
+]
+[
+"
 test_ext_tabs_captureTab
 .
 html
