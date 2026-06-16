@@ -716,6 +716,13 @@ true
 onGetStartedClick
 =
 {
+Vpn
+.
+getStartedTapped
+.
+record
+(
+)
 requireComponents
 .
 ipProtection
