@@ -78,6 +78,11 @@ TestCacheControlParser
 cpp
 "
 "
+TestCacheCrypto
+.
+cpp
+"
+"
 TestCacheIndex
 .
 cpp
@@ -184,6 +189,11 @@ cpp
 "
 "
 TestMozURL
+.
+cpp
+"
+"
+TestNoVarySearchUtils
 .
 cpp
 "
