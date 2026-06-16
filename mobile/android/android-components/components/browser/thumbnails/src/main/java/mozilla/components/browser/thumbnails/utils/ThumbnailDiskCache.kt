@@ -564,7 +564,7 @@ File
 (
 context
 .
-cacheDir
+noBackupFilesDir
 THUMBNAILS_DIR_NAME
 )
 return

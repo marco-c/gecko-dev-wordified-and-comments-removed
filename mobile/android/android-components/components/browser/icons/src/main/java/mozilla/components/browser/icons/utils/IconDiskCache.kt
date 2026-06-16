@@ -724,7 +724,7 @@ File
 (
 context
 .
-cacheDir
+noBackupFilesDir
 BROWSER_ICONS_DIR_NAME
 )
 return
