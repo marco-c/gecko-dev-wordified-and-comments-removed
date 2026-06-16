@@ -866,11 +866,6 @@ JSContext
 *
 cx_
 ;
-bool
-disableDebuggerForNewGlobal
-=
-false
-;
 const
 IsWorkerEnum
 isWorker
