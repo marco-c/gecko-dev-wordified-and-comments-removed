@@ -105,6 +105,13 @@ Localization
 (
 [
 "
+branding
+/
+brand
+.
+ftl
+"
+"
 toolkit
 /
 formautofill
