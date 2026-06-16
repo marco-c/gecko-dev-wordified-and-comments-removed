@@ -770,6 +770,16 @@ width
 last
 -
 child
+:
+not
+(
+.
+chat
+-
+bubble
+-
+user
+)
 {
 padding
 -
