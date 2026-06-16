@@ -1066,6 +1066,17 @@ NODE_HAS_BEEN_IN_UA_WIDGET
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
+bool
+IsUAShadowRootSlow
+(
+)
+const
+;
 bool
 IsAvailableToElementInternals
 (
