@@ -1137,6 +1137,12 @@ Element
 aPopoverEl
 )
 ;
+bool
+IsPrintDoc
+(
+)
+const
+;
 uint64_t
 EffectiveCacheDomains
 (
