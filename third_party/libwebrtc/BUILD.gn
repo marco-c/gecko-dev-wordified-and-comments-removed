@@ -933,6 +933,13 @@ deps
 :
 webrtc_nonparallel_tests
 "
+"
+/
+/
+pc
+:
+peerconnection_unittests
+"
 ]
 }
 }
