@@ -766,8 +766,8 @@ Length
 i
 )
 {
-total
-+
+gfxPoint
+d
 =
 gfx
 :
@@ -784,9 +784,15 @@ from
 i
 ]
 )
+;
+total
++
+=
+d
 .
-LengthSquare
+DotProduct
 (
+d
 )
 ;
 }
