@@ -265,8 +265,10 @@ NotifyDataArrived
 ;
 private
 :
+already_AddRefed
+<
 MediaDecoderStateMachineBase
-*
+>
 CreateStateMachine
 (
 bool
