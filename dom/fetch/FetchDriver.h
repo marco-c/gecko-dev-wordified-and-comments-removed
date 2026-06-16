@@ -474,8 +474,10 @@ aOriginStack
 )
 ;
 }
+UniquePtr
+<
 PerformanceTimingData
-*
+>
 GetPerformanceTimingData
 (
 nsAString

@@ -128,8 +128,10 @@ NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 PerformanceTiming
 mPerformance
 )
+UniquePtr
+<
 PerformanceTimingData
-*
+>
 PerformanceTimingData
 :
 :
@@ -273,8 +275,10 @@ aEntryName
 )
 ;
 return
-new
+MakeUnique
+<
 PerformanceTimingData
+>
 (
 aTimedChannel
 aChannel
@@ -282,8 +286,10 @@ aChannel
 )
 ;
 }
+UniquePtr
+<
 PerformanceTimingData
-*
+>
 PerformanceTimingData
 :
 :
@@ -326,6 +332,8 @@ nullptr
 ;
 }
 return
+WrapUnique
+(
 new
 PerformanceTimingData
 (
@@ -334,6 +342,7 @@ aZeroTime
 aStartTime
 aEndTime
 aRenderBlockingStatus
+)
 )
 ;
 }

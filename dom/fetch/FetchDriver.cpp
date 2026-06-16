@@ -8390,8 +8390,10 @@ mController
 aController
 ;
 }
+UniquePtr
+<
 PerformanceTimingData
-*
+>
 FetchDriver
 :
 :
