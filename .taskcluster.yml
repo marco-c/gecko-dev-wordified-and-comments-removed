@@ -2558,6 +2558,10 @@ cron
 quoted_args
 }
 '
+default
+:
+switch
+:
 '
 repository
 .
@@ -5452,6 +5456,10 @@ cron
 quoted_args
 }
 '
+default
+:
+switch
+:
 '
 repoType
 =
