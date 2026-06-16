@@ -1013,6 +1013,8 @@ margin
 block
 -
 start
+-
+breakout
 :
 calc
 (
@@ -1319,6 +1321,8 @@ margin
 block
 -
 start
+-
+breakout
 :
 0px
 ;
@@ -1986,6 +1990,13 @@ urlbar
 width
 )
 ;
+&
+[
+breakout
+-
+extend
+]
+{
 margin
 -
 block
@@ -2003,8 +2014,11 @@ margin
 block
 -
 start
+-
+breakout
 )
 ;
+}
 }
 }
 .
