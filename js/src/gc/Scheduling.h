@@ -1375,11 +1375,6 @@ JS
 :
 GCOptions
 options
-JS
-:
-:
-GCReason
-reason
 const
 mozilla
 :

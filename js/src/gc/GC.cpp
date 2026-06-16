@@ -24763,7 +24763,6 @@ updateHighFrequencyModeOnGCStart
 gcOptions
 (
 )
-reason
 lastGCStartTime_
 now
 tunables
