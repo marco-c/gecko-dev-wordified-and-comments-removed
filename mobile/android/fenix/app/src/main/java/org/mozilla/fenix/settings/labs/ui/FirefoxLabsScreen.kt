@@ -1330,7 +1330,7 @@ R
 .
 string
 .
-firefox_labs_banner_title
+firefox_labs_banner_title_2
 )
 )
 }
