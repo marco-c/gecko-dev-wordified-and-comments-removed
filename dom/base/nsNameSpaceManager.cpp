@@ -939,8 +939,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 FromParser
 aFromParser
@@ -999,8 +997,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 FromParser
 aFromParser

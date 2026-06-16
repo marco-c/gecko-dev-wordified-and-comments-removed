@@ -395,8 +395,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 )
 const
 =
@@ -839,6 +837,16 @@ GetAsInnerWindow
 (
 )
 ;
+bool
+IsInnerWindow
+(
+)
+const
+{
+return
+mIsInnerWindow
+;
+}
 virtual
 void
 TriggerUpdateCCFlag

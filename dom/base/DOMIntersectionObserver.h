@@ -496,8 +496,6 @@ already_AddRefed
 <
 nsPIDOMWindowInner
 >
-&
-&
 aOwner
 dom
 :

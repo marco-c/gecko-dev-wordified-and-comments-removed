@@ -1609,8 +1609,6 @@ already_AddRefed
 <
 nsISupports
 >
-&
-&
 aParent
 bool
 is2D
@@ -2091,8 +2089,6 @@ already_AddRefed
 <
 nsISupports
 >
-&
-&
 aParent
 bool
 is2D

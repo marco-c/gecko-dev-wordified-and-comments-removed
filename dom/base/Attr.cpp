@@ -186,8 +186,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 const
 nsAString
