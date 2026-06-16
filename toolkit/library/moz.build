@@ -186,11 +186,6 @@ avrt
 dll
 "
 "
-bcrypt
-.
-dll
-"
-"
 comdlg32
 .
 dll
