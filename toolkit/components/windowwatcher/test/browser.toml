@@ -427,10 +427,3 @@ asan
 Bug
 2019745
 ]
-[
-"
-browser_popup_features_shift_click
-.
-js
-"
-]
