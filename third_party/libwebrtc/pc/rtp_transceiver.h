@@ -701,7 +701,10 @@ string_view
 transport_lookup
 ScopedOperationsBatcher
 &
-network_batcher
+worker_tasks
+ScopedOperationsBatcher
+&
+network_tasks
 )
 ;
 RTCError
