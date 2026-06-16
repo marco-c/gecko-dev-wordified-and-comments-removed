@@ -23485,15 +23485,9 @@ new_session
 update
 .
 content
-std
-:
-:
-move
-(
 update
 .
 transceiver
-)
 worker_tasks
 )
 ;
