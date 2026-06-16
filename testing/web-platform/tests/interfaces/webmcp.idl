@@ -56,7 +56,6 @@ Navigator
 {
 [
 SecureContext
-SameObject
 ]
 readonly
 attribute
@@ -73,6 +72,8 @@ SecureContext
 ]
 interface
 ModelContext
+:
+EventTarget
 {
 undefined
 registerTool
@@ -86,6 +87,10 @@ options
 {
 }
 )
+;
+attribute
+EventHandler
+ontoolchange
 ;
 }
 ;
@@ -190,6 +195,12 @@ ModelContextRegisterToolOptions
 {
 AbortSignal
 signal
+;
+sequence
+<
+USVString
+>
+exposedTo
 ;
 }
 ;
