@@ -2500,8 +2500,10 @@ Register
 src
 int
 operand_size
-Register
-scratch
+bool
+zeroExtend
+=
+false
 )
 ;
 void
