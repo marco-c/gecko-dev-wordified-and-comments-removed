@@ -1053,6 +1053,9 @@ locales
 (
 AB_CD
 )
+-
+-
+coverage
 #
 Hunspell
 dictionaries

@@ -247,3 +247,10 @@ chrome
 AB_CD
 =
 *
+(
+call
+INSTALL_L10N_COVERAGE
+(
+FINAL_TARGET
+)
+)
