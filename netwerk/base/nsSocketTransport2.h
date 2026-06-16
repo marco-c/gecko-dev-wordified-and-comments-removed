@@ -850,9 +850,6 @@ mReuseAddrPort
 false
 }
 ;
-OriginAttributes
-mOriginAttributes
-;
 uint16_t
 SocketPort
 (

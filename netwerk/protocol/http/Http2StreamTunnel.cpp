@@ -867,12 +867,6 @@ uint32_t
 ;
 FWD_TS_T
 (
-SetIsPrivate
-bool
-)
-;
-FWD_TS_T
-(
 SetIsTRRConnection
 bool
 )
