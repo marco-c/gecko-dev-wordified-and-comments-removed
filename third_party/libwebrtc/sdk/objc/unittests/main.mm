@@ -36,6 +36,15 @@ coverage_util_ios
 .
 h
 "
+#
+include
+"
+test
+/
+run_loop
+.
+h
+"
 int
 main
 (
@@ -61,7 +70,10 @@ ConfigureCoverageReportPath
 webrtc
 :
 :
-AutoThread
+test
+:
+:
+RunLoop
 main_thread
 ;
 autoreleasepool
