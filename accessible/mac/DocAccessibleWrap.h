@@ -54,14 +54,12 @@ DocAccessibleWrap
 (
 )
 ;
-virtual
 void
 Shutdown
 (
 )
 override
 ;
-virtual
 void
 AttributeChanged
 (
