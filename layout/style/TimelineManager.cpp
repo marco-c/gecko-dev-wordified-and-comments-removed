@@ -32,6 +32,17 @@ mozilla
 /
 dom
 /
+ElementInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ScrollTimeline
 .
 h
@@ -1229,7 +1240,7 @@ e
 aTimelineCandidate
 -
 >
-GetParentElement
+GetFlattenedTreeParentElement
 (
 )
 ;
@@ -1249,7 +1260,7 @@ e
 e
 -
 >
-GetParentElement
+GetFlattenedTreeParentElement
 (
 )
 )
