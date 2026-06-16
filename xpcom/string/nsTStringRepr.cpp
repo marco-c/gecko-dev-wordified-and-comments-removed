@@ -202,7 +202,7 @@ mLength
 char_traits
 :
 :
-compare
+equals
 (
 this
 -
@@ -216,9 +216,6 @@ this
 >
 mLength
 )
-=
-=
-0
 ;
 }
 template
@@ -413,7 +410,7 @@ length
 char_traits
 :
 :
-compare
+equals
 (
 this
 -
@@ -425,9 +422,6 @@ this
 >
 mLength
 )
-=
-=
-0
 ;
 }
 template
