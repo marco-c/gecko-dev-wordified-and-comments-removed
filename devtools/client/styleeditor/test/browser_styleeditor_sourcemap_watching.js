@@ -178,6 +178,9 @@ css
 ]
 )
 ;
+const
+SCSSFile
+=
 await
 copy
 (
@@ -392,6 +395,7 @@ pauseForTimeChange
 await
 editSCSS
 (
+SCSSFile
 editor
 )
 ;
@@ -483,6 +487,7 @@ applied
 function
 editSCSS
 (
+SCSSFile
 editor
 )
 {
@@ -507,7 +512,7 @@ editor
 .
 saveToFile
 (
-null
+SCSSFile
 function
 (
 file
