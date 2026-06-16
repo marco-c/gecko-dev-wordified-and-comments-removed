@@ -47,7 +47,7 @@ mark
 asyncio
 async
 def
-get_click_coordinates
+get_last_move_coordinates
 (
 bidi_session
 context
@@ -61,7 +61,7 @@ Helper
 to
 get
 recorded
-click
+move
 coordinates
 on
 a
@@ -70,7 +70,7 @@ generated
 with
 the
     
-actions_origins_doc
+get_actions_origin_page
 fixture
 .
 "
@@ -252,10 +252,10 @@ context
 ]
 )
     
-click_coords
+pointer_coords
 =
 await
-get_click_coordinates
+get_last_move_coordinates
 (
 bidi_session
                                                
@@ -265,7 +265,7 @@ top_context
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 x
@@ -291,7 +291,7 @@ abs
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 y
@@ -489,10 +489,10 @@ context
 ]
 )
     
-click_coords
+pointer_coords
 =
 await
-get_click_coordinates
+get_last_move_coordinates
 (
 bidi_session
                                                
@@ -502,7 +502,7 @@ top_context
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 x
@@ -536,7 +536,7 @@ abs
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 y
@@ -803,10 +803,10 @@ context
 ]
 )
     
-click_coords
+pointer_coords
 =
 await
-get_click_coordinates
+get_last_move_coordinates
 (
 bidi_session
                                                
@@ -816,7 +816,7 @@ top_context
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 x
@@ -844,7 +844,7 @@ abs
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 y
@@ -1011,10 +1011,10 @@ context
 ]
 )
     
-click_coords
+pointer_coords
 =
 await
-get_click_coordinates
+get_last_move_coordinates
 (
 bidi_session
                                                
@@ -1024,7 +1024,7 @@ top_context
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 x
@@ -1050,7 +1050,7 @@ abs
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 y

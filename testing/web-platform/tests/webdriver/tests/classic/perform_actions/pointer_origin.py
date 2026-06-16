@@ -22,11 +22,34 @@ get_inview_center
 get_viewport_rect
 )
 def
-get_click_coordinates
+get_last_move_coordinates
 (
 session
 )
 :
+    
+"
+"
+"
+Helper
+to
+get
+recorded
+move
+coordinates
+on
+a
+page
+generated
+with
+the
+    
+get_actions_origin_page
+fixture
+.
+"
+"
+"
     
 return
 session
@@ -116,23 +139,15 @@ perform
 (
 )
     
-click_coords
+pointer_coords
 =
-session
-.
-execute_script
+get_last_move_coordinates
 (
-"
-return
-window
-.
-coords
-;
-"
+session
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 x
@@ -158,7 +173,7 @@ abs
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 y
@@ -329,23 +344,15 @@ perform
     
 )
     
-click_coords
+pointer_coords
 =
-session
-.
-execute_script
+get_last_move_coordinates
 (
-"
-return
-window
-.
-coords
-;
-"
+session
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 x
@@ -378,7 +385,7 @@ abs
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 y
@@ -522,15 +529,15 @@ perform
 (
 )
     
-click_coords
+pointer_coords
 =
-get_click_coordinates
+get_last_move_coordinates
 (
 session
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 x
@@ -556,7 +563,7 @@ abs
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 y
@@ -659,15 +666,15 @@ perform
 (
 )
     
-click_coords
+pointer_coords
 =
-get_click_coordinates
+get_last_move_coordinates
 (
 session
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 x
@@ -695,7 +702,7 @@ abs
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 y
@@ -819,15 +826,15 @@ perform
 (
 )
     
-click_coords
+pointer_coords
 =
-get_click_coordinates
+get_last_move_coordinates
 (
 session
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 x
@@ -853,7 +860,7 @@ abs
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 y
@@ -955,15 +962,15 @@ perform
 (
 )
     
-click_coords
+pointer_coords
 =
-get_click_coordinates
+get_last_move_coordinates
 (
 session
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 x
@@ -989,7 +996,7 @@ abs
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 y
@@ -1182,15 +1189,15 @@ perform
 (
 )
     
-click_coords
+pointer_coords
 =
-get_click_coordinates
+get_last_move_coordinates
 (
 session
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 x
@@ -1216,7 +1223,7 @@ abs
 )
     
 assert
-click_coords
+pointer_coords
 [
 "
 y
