@@ -412,6 +412,9 @@ HomeActivityIntentTestRule
 .
 withDefaultSettingsOverrides
 (
+skipOnboarding
+=
+true
 )
 )
 {

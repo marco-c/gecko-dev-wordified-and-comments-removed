@@ -157,6 +157,14 @@ Logger
 import
 org
 .
+junit
+.
+rules
+.
+TestRule
+import
+org
+.
 mozilla
 .
 fenix
@@ -956,7 +964,7 @@ skipOnboarding
 :
 Boolean
 =
-true
+false
 useNewCrashReporterFlow
 :
 Boolean
@@ -2001,7 +2009,7 @@ skipOnboarding
 :
 Boolean
 =
-true
+false
 )
 =
 HomeActivityIntentTestRule

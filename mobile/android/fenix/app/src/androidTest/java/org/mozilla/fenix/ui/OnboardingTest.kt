@@ -214,9 +214,6 @@ withDefaultSettingsOverrides
 launchActivity
 =
 false
-skipOnboarding
-=
-false
 )
 )
 {
