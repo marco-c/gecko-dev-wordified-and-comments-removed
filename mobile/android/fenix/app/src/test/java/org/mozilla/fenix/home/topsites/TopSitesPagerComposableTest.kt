@@ -300,6 +300,10 @@ onTopSitesItemBound
 =
 {
 }
+onAddShortcutClicked
+=
+{
+}
 isPager
 =
 isPager
