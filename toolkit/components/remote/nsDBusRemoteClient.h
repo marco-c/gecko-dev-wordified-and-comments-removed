@@ -37,15 +37,6 @@ h
 #
 include
 "
-mozilla
-/
-DBusHelpers
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

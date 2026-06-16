@@ -23,15 +23,6 @@ include
 "
 mozilla
 /
-DBusHelpers
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Span
 .
 h
