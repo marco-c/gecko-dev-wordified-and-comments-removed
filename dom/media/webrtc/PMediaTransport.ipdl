@@ -661,12 +661,6 @@ string
 transportId
 TransportLayerState
 state
-uint8_t
-[
-]
-[
-]
-remoteCerts
 )
 ;
 async

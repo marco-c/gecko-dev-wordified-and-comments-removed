@@ -136,17 +136,6 @@ attribute
 RTCDtlsTransportState
 state
 ;
-[
-Throws
-]
-sequence
-<
-ArrayBuffer
->
-getRemoteCertificates
-(
-)
-;
 attribute
 EventHandler
 onstatechange
