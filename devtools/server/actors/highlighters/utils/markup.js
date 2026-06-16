@@ -588,6 +588,14 @@ remove
 (
 )
 ;
+if
+(
+this
+.
+#
+highlighterEnv
+)
+{
 this
 .
 #
@@ -606,6 +614,7 @@ this
 onWindowReady
 )
 ;
+}
 this
 .
 #
