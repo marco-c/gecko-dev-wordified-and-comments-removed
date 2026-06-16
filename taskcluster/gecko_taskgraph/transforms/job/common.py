@@ -510,23 +510,22 @@ worker
 os
 "
 ]
-=
-=
+in
+(
 "
 linux
 "
-or
 "
 linux
 -
 bitbar
 "
-or
 "
 linux
 -
 lambda
 "
+)
     
 is_docker
 =
