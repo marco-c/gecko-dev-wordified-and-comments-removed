@@ -77,7 +77,8 @@ anonymous
 )
 layers_
 (
-new
+MakeUnique
+<
 std
 :
 :
@@ -86,6 +87,9 @@ deque
 TransportLayer
 *
 >
+>
+(
+)
 )
 {
 }
@@ -106,7 +110,8 @@ id
 )
 layers_
 (
-new
+MakeUnique
+<
 std
 :
 :
@@ -115,6 +120,9 @@ deque
 TransportLayer
 *
 >
+>
+(
+)
 )
 {
 }

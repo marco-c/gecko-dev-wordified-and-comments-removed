@@ -1443,11 +1443,13 @@ aPc
 )
 mRtpHeaderExtensionMap
 (
-new
+MakeUnique
+<
 webrtc
 :
 :
 RtpHeaderExtensionMap
+>
 (
 )
 )
