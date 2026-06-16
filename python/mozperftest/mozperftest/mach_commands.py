@@ -1785,6 +1785,16 @@ for
 p
 in
 changed
+if
+(
+topsrcdir
+/
+p
+)
+.
+exists
+(
+)
 ]
         
 except
