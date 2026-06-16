@@ -422,6 +422,14 @@ ToString
 (
 int64_t
 time_ms
+std
+:
+:
+optional
+<
+Stats
+>
+previous_stats
 )
 const
 ;
