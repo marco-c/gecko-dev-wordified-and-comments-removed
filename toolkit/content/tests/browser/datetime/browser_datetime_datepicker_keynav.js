@@ -108,7 +108,7 @@ opened
 )
 ;
 await
-testCalendarBtnAttribute
+testPickerBtnAttribute
 (
 "
 aria
@@ -171,7 +171,7 @@ window
 )
 ;
 await
-testCalendarBtnAttribute
+testPickerBtnAttribute
 (
 "
 aria
@@ -267,7 +267,7 @@ await
 ready
 ;
 await
-testCalendarBtnAttribute
+testPickerBtnAttribute
 (
 "
 aria
@@ -634,7 +634,7 @@ await
 ready
 ;
 await
-testCalendarBtnAttribute
+testPickerBtnAttribute
 (
 "
 aria
@@ -794,7 +794,7 @@ Escape
 )
 ;
 await
-testCalendarBtnAttribute
+testPickerBtnAttribute
 (
 "
 aria
@@ -999,7 +999,7 @@ button
 )
 ;
 await
-testCalendarBtnAttribute
+testPickerBtnAttribute
 (
 "
 aria
@@ -1067,7 +1067,7 @@ gridcell
 )
 ;
 await
-testCalendarBtnAttribute
+testPickerBtnAttribute
 (
 "
 aria
@@ -1127,7 +1127,7 @@ shadowRoot
 getElementById
 (
 "
-calendar
+picker
 -
 button
 "
@@ -1237,7 +1237,7 @@ shadowRoot
 getElementById
 (
 "
-calendar
+picker
 -
 button
 "
@@ -1339,7 +1339,7 @@ button
 )
 ;
 await
-testCalendarBtnAttribute
+testPickerBtnAttribute
 (
 "
 aria

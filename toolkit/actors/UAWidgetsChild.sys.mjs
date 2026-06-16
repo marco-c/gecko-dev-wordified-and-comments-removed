@@ -696,6 +696,15 @@ prefKeys
 =
 [
 "
+dom
+.
+forms
+.
+datetime
+.
+timepicker
+"
+"
 privacy
 .
 resistFingerprinting
