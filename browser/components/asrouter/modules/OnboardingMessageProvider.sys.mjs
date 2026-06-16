@@ -10714,7 +10714,7 @@ true
 modal
 :
 "
-tab
+window
 "
 backdrop
 :
@@ -10986,7 +10986,7 @@ true
 modal
 :
 "
-tab
+window
 "
 backdrop
 :
@@ -11476,7 +11476,7 @@ true
 modal
 :
 "
-tab
+window
 "
 backdrop
 :
@@ -11887,7 +11887,7 @@ true
 modal
 :
 "
-tab
+window
 "
 backdrop
 :
