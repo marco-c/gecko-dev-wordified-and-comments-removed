@@ -99,6 +99,12 @@ addSeenUrls
 )
 {
 }
+async
+addHistoryResults
+(
+)
+{
+}
 getAllMentionURLs
 (
 )
