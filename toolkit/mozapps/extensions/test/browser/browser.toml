@@ -469,6 +469,13 @@ js
 ]
 [
 "
+browser_html_detail_permissions_policy_blocked
+.
+js
+"
+]
+[
+"
 browser_html_detail_permissions_userScripts
 .
 js
