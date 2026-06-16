@@ -1502,6 +1502,13 @@ html
 ]
 [
 "
+test_file_structured_clone
+.
+html
+"
+]
+[
+"
 test_file_transaction_abort
 .
 html
