@@ -1339,7 +1339,7 @@ enum
 blue
 "
 "
-turquoise
+cyan
 "
 "
 green
@@ -1360,7 +1360,10 @@ pink
 purple
 "
 "
-toolbar
+violet
+"
+"
+gray
 "
 ]
 }

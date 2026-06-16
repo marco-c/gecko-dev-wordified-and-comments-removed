@@ -82,7 +82,7 @@ Set
 (
 [
 "
-toolbar
+gray
 "
 ]
 )
