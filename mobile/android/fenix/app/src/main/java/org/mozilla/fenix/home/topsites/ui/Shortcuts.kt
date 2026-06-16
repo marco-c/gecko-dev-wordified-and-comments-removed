@@ -306,6 +306,13 @@ showAddShortcut
 Boolean
 =
 false
+onAddShortcutClicked
+:
+(
+)
+-
+>
+Unit
 )
 {
 LazyVerticalGrid
@@ -459,8 +466,7 @@ topSiteColors
 topSiteColors
 onClick
 =
-{
-}
+onAddShortcutClicked
 )
 }
 }
@@ -505,6 +511,10 @@ topSitesInteractor
 showAddShortcut
 =
 showAddShortcut
+onAddShortcutClicked
+=
+{
+}
 )
 }
 }
