@@ -721,7 +721,7 @@ box
 ;
 this
 .
-_sidebarContainer
+_sidebarMain
 =
 document
 .
@@ -730,7 +730,7 @@ getElementById
 "
 sidebar
 -
-container
+main
 "
 )
 ;
@@ -979,7 +979,7 @@ this
 ;
 this
 .
-_sidebarContainer
+_sidebarMain
 .
 addEventListener
 (
@@ -1126,7 +1126,7 @@ this
 ;
 this
 .
-_sidebarContainer
+_sidebarMain
 .
 removeEventListener
 (
@@ -3614,7 +3614,7 @@ window
 .
 SidebarController
 .
-_animateSidebarContainer
+_animateSidebarMain
 (
 )
 ;
