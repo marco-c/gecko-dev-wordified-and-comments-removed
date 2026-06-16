@@ -184,8 +184,6 @@ auto
 value
 :
 aMathSum
-.
-values
 )
 {
 if

@@ -428,10 +428,7 @@ new
 for
 item
 in
-&
 math_sum
-.
-values
 {
 let
 value
