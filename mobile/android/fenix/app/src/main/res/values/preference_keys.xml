@@ -7455,7 +7455,7 @@ string
 name
 =
 "
-pref_key_enable_homepage_searchbar
+pref_key_enable_homepage_searchbar2
 "
 translatable
 =
@@ -7463,7 +7463,7 @@ translatable
 false
 "
 >
-pref_key_enable_homepage_searchbar
+pref_key_enable_homepage_searchbar2
 <
 /
 string
