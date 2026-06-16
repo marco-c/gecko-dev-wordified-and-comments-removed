@@ -6769,6 +6769,37 @@ parsing
 FINAL_TARGET_PP_FILES
 .
     
+extra_deps
+carries
+the
+per
+-
+directory
+PP_FILES_EXTRA_DEPS
+value
+    
+so
+backends
+can
+wire
+it
+as
+build
+-
+graph
+order
+on
+the
+preprocess
+edge
+    
+for
+each
+file
+in
+files
+.
+    
 "
 "
 "
@@ -6779,6 +6810,9 @@ __slots__
 "
 files
 "
+"
+extra_deps
+"
 )
     
 def
@@ -6787,6 +6821,10 @@ __init__
 self
 sandbox
 files
+extra_deps
+=
+(
+)
 )
 :
         
@@ -6803,6 +6841,15 @@ self
 files
 =
 files
+        
+self
+.
+extra_deps
+=
+list
+(
+extra_deps
+)
     
 staticmethod
     

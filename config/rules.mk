@@ -8922,6 +8922,12 @@ file
 (
 GLOBAL_DEPS
 )
+(
+(
+category
+)
+_EXTRA_DEPS
+)
 )
 )
 \
