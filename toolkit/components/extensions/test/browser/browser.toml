@@ -274,6 +274,13 @@ js
 ]
 [
 "
+browser_ext_themes_private_nova
+.
+js
+"
+]
+[
+"
 browser_ext_themes_reset
 .
 js
