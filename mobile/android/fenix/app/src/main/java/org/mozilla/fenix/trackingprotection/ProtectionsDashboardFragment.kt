@@ -441,6 +441,8 @@ state
 >
 state
 .
+blockedTrackersState
+.
 trackersBlockedThisWeek
 }
 ProtectionsDashboardContent

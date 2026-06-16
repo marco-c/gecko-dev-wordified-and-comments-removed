@@ -1711,6 +1711,8 @@ state
 >
 state
 .
+blockedTrackersState
+.
 trackersBlockedThisWeek
 .
 sumOf
@@ -1729,6 +1731,8 @@ initial
 appStore
 .
 state
+.
+blockedTrackersState
 .
 trackersBlockedThisWeek
 .
@@ -2566,6 +2570,8 @@ state
 -
 >
 state
+.
+blockedTrackersState
 .
 trackersBlockedThisWeek
 }

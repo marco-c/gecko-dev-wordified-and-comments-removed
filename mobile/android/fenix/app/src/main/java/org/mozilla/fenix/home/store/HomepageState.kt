@@ -1732,6 +1732,8 @@ settings
 longfoxEnabled
 trackersBlockedCount
 =
+blockedTrackersState
+.
 trackersBlockedCount
 sportsWidgetState
 =
