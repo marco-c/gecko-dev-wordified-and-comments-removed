@@ -3060,6 +3060,16 @@ nodiscard
 ]
 ]
 bool
+emitArgumentsLength
+(
+)
+;
+[
+[
+nodiscard
+]
+]
+bool
 emitComputedPropertyName
 (
 UnaryNode
